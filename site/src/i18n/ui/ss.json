@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Yeta kulokuqukethwe lokuyinhloko",
+    "brandName": "Creative Activities",
+    "brandTag": "Emisebenti yesifo sekukhohlwa",
+    "homeLabel": "Likhaya le-Creative Activities",
+    "mainNav": "Lekuyinhloko",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: titfombe letikhulu, letikhangayo tenkomishi yetiyi, lilanga nenja",
+    "languages": "Lulwimi",
+    "englishOnly": "(IsiNgisi)",
+    "machineTranslated": "Leli phepha likhishwe ngekuzenta ngekhompyutha futsi asikaliphenyi ngumuntfu lowatsi lulwimi kahle.",
+    "readOriginal": "Funda lokubhalwe ngesiNgisi",
+    "nav": {
+      "games": "Imidlalo",
+      "activities": "Tinsebenti",
+      "caregiving": "Kukhatsalela",
+      "brainHealth": "Impilo yengcondvo"
+    },
+    "faqTitle": "Imibuto nemphendvulo",
+    "breadcrumb": "Umkhondo wekuhamba",
+    "home": "Ekhaya",
+    "lastUpdated": "Kubuyekezwe ekugcineni",
+    "topics": "Tihloko",
+    "textSize": {
+      "label": "Ubukhulu bebhalo",
+      "smaller": "Bhalo lejwayelekile",
+      "larger": "Bhalo lelikhulu",
+      "contrast": "Umehluko lomkhulu wemibala"
+    }
+  },
+  "footer": {
+    "play": "Dlala",
+    "picturePairs": "Tibhangqo tetitfombe",
+    "conversationCards": "Emakhadi ekuxoxa",
+    "pictureBingo": "Bingo yetitfombe",
+    "allGames": "Yonkhe imidlalo",
+    "pictures": "Titfombe letingashicilelwa",
+    "activityIdeas": "Emacebo emisebenti",
+    "ideas101": "Emacebo emisebenti langu-101",
+    "lateStage": "Tinsebenti tesigaba lesisekupheleni",
+    "printable": "Tinsebenti letingashicilelwa",
+    "allActivities": "Tonkhe tinsebenti",
+    "forCaregivers": "Kubakhatsalelako",
+    "playTogether": "Indlela yekudlala ndzawonye",
+    "selfCare": "Kuzinakekela",
+    "brainHealth": "Lucwaningo ngempilo yengcondvo",
+    "faq": "Imibuto nemphendvulo",
+    "about": "Mayelana",
+    "approach": "Indlela yetfu",
+    "howWeWrite": "Indlela esibhala ngayo",
+    "organizations": "Ketinhlangano",
+    "app": "Insiza ye-Creative Activities",
+    "appHelp": "Lusito lwensiza",
+    "support": "Lusito",
+    "legal": "Umtsetfo",
+    "sitePrivacy": "Kuphepha kwelwebhusayithi",
+    "appPrivacy": "Inqubomgomo yekuphepha yensiza",
+    "privacyChoices": "Tinketfo tekuphepha",
+    "terms": "Imiyalo nelayisense yensiza",
+    "safety": "Kuphepha nekusetjentiswa lokuhlosiwe",
+    "accessibility": "Kufinyeleleka",
+    "healthNotice": "Sisaziso semininingwane yemphilo",
+    "allLegal": "Yonkhe imininingwane yemtsetfo",
+    "note": "Creative Activities iniketa tinsebenti letilula letabelanwa ngato ngenjabulo. Akuyona iseluleko semtfolamphilo, sivivinyo noma sekelapho, futsi ayikhomi, ayilingi noma ayiphi umuntfu ngemaphuzu. Ngemibuto yemphilo, khuluma nedokotela. Esimeni sesiphuthumo, shaya inombolo yesiphuthumo yakuleso sive.",
+    "publisher": "Yashicilelwa ngu-Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Imidlalo nemisebenti yesifo sekukhohlwa ne-Alzheimer's | Creative Activities",
+    "description": "Imidlalo yetitfombe letilula letingakhokhelwa ku-inthanethi nemacebo emisebenti labantfu labaphila nesifo sekukhohlwa noma i-Alzheimer's nalabakhatsalelako. Akudzingi kubhalisa, tinsimbi noma emaphuzu.",
+    "eyebrow": "Mahhala · Akukho tikhangiso · Akudzingi kubhalisa · Akukho tinsimbi noma emaphuzu",
+    "h1": "Imidlalo Lenhle Nemisebenti Yabantfu Labanesifo Sekukhohlwa",
+    "lede": "Imidlalo yetitfombe letilula, emifanekiso lejwayelekile, nemisebenti yekujabulela ndzawonye—ngelijubane lakho.",
+    "playGame": "Dlala umdlalo",
+    "findIdeas": "Thola emacebo emisebenti",
+    "facts": [
+      "Isebenta ocingweni, kuthebhulethi nasekhompyutheni",
+      "Titfombe letikhulu letihlala tikhombisa",
+      "Yima nanoma nini; akukho lokungaphumeleli"
+    ],
+    "heroApp": "Futsi yinsiza lemahhala ye-iPhone, i-iPad ne-Android, nemitfombe yemndeni wakho",
+    "albumNote": "“Tinhlobo ummabili tenkomishi yetiyi, ndzawonye.”",
+    "gamesEyebrow": "Dlala kusiphequluli sakho",
+    "gamesTitle": "Imidlalo longayidlala manje",
+    "gamesLede": "Lilinye ngalinye litule, lilula futsi lisheshe kuqala. Khetsa lenye, uhlale ecaleni kwalo, nishintjana ekutfintseni.",
+    "seeAllGames": "Bona yonkhe imidlalo engu-{count}",
+    "howTitle": "Indlela lesebenta ngayo",
+    "steps": [
+      {
+        "title": "Khetsa lesaziwa",
+        "text": "Titfombe tenkomishi yetiyi, tigadi, tilwane netikhwelo letihamba ngemoya. Akudzingi kufundza noma kufundza imitsetfo kuqala."
+      },
+      {
+        "title": "Hlala ecaleni",
+        "text": "Vumela bacinise. Khuluma ngetitfombe. Kungafani nje kulinda lokulandzelako."
+      },
+      {
+        "title": "Yima ngesikhatsi lesihle",
+        "text": "Umdlalo lilinye lemsebenti losigcweleko. “Sekwanele njengamanje” ihlala ikhona esikrinini."
+      }
+    ],
+    "stageEyebrow": "Ngaphandle kwesikrini",
+    "stageTitle": "Emacebo emisebenti kuso sonkhe sigaba",
+    "stageLede": "Umculo, imisebenti yansuku nansuku, kukhumbula bekudlule nemizuzu lekhamisako yemizwa, kulungiswe kutsi kube lula manje.",
+    "ideas101": "Emacebo emisebenti langu-101",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Sigaba sekucala",
+        "text": "Qhubeka wentela lokukuthandako, nemalungiselelo amancane: tinhobo, tindzawo tekuphuma, emidlalo yemagama nekuhlela ndzawonye.",
+        "label": "Emacebo esigabeni sekucala"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Sigaba lesiphakathi",
+        "text": "Imisebenti lula, lejwayelekile lehlukaniswe tinyatselo: kugoca, kuhlela, umculo, imidlalo yetitfombe nekuhamba lokufushane.",
+        "label": "Emacebo esigabeni lesiphakathi"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Sigaba lesisekupheleni",
+        "text": "Kutfutfuka nekuhlanganyela ngekuthinta, umsindo nekubona: kunakekela tandla, emahlabelelo lotandwa kakhulu, titfombe nekuba ndzawonye.",
+        "label": "Emacebo esigabeni lesisekupheleni"
+      }
+    ],
+    "specificHtml": "Uma ufuna lokuthile lokucile, zama <a href=\"/activities/alzheimers/\">tinsebenti nemidlalo ye-Alzheimer's</a>, <a href=\"/activities/memory-games/\">imidlalo lula yekukhumbula</a>, <a href=\"/activities/trivia/\">imibuto lula</a> noma <a href=\"/activities/puzzles/\">tipuzzle</a>.",
+    "approachEyebrow": "Indlela yetfu",
+    "approachTitle": "Umsebenti wekwabelana, hhayi sivivinyo sekukhumbula",
+    "approachLede": "Imidlalo yemtsetfo wengcondvo lamanyenti yakhiwe ngekusheshisa, emaphuzu nemilandvo. Kumuntfu lophila nesifo sekukhohlwa lokunjalo kungafana nesivivinyo. Sakha ngalokuphambene nalokho.",
+    "approachLink": "Kungani sakha ngalendlela",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Akukho lokungaphumeleli",
+        "text": "Akukho sikhatsi, mphumela, tinkhatsi noma kwehluleka. Setitfombe lesehlukile kuba likhefu, hhayi liphutsa."
+      },
+      {
+        "icon": "eye",
+        "title": "Titfombe tihlala tikhombisa",
+        "text": "Kukhumbula ngekubona kunekukhumbula ngekukhumbula ngekukhumbula. Kufanisa kuqala ngemifanekiso lesemkhatsini, kute lekudzingeka kukhumbule lutfo."
+      },
+      {
+        "icon": "people",
+        "title": "Umuntfu lomdzala lohlonishwako",
+        "text": "Emagama lamnandzi lalula netitfombe temhlaba wangempela. Hhayi tifanekiso letetfwebeka noma kukhuluma ngendlela yekwelusa lusana."
+      },
+      {
+        "icon": "shield",
+        "title": "Kufihlakala ngekwakheka",
+        "text": "Akukho emaakhawunti noma tikhangiso. Titfombe takho ticala kuhamba nemshini wakho."
+      }
+    ],
+    "guidesEyebrow": "Kubakhatsalelako",
+    "guidesTitle": "Tincwadzi letisebenta ngesikhatsi sansuku nansuku",
+    "allCaregiving": "Tonkhe tincwadzi tekukhatsalela",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Indlela yekudlala imidlalo ndzawonye",
+        "text": "Kulungisa, lijubane, nalesentiwa uma umdlalo ungasaba lomnandzi."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Uma bathi cha kumsebenti",
+        "text": "Tizatfu letijwayelekile tekwala, nendlela lemnene yekuzama futsi ngesikhatsi lesitako."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Kulungisa ithebhulethi",
+        "text": "Ibhalo lelikhulu, tinkhatsi letimbalwa nesikrini sekucala lesilula lesisodvwa."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Tinsebenti letingashicilelwa lemahhala",
+        "text": "Imisebenti yemagama lenkhulu, emaphepha lokudadza umbala, bingo nemakhadi ekuxoxa."
+      }
+    ],
+    "researchTitle": "Impilo yengcondvo: lucwaningo luthi ngempela ini",
+    "researchText": "Ingabe sifo sekukhohlwa singavinjelwa? Imidlalo yengcondvo iyasiza yini? Kuphi ngekudla, kulala nekuva? Emphendvulo lula lesekelwe kumitsombo, kubandzakanya nalapho bufakazi bungakasindzi khona.",
+    "researchLink": "Funda tincwadzi telucwaningo",
+    "appEyebrow": "Futsi yinsiza",
+    "appTitle": "Creative Activities ku-iPhone, iPad ne-Android",
+    "appText": "Insiza lemahhala isebenta ngaphandle kwe-inthanethi futsi ingasebentisa titfombe temndeni lotikhetsako, lagcinwa njengetikhatsi etikhombeni lakho. Idizayini lefanako lenhle: emathayela lamane lamakhulu, akukho sikhatsi, akukho mphumela.",
+    "aboutApp": "Mayelana nensiza",
+    "faq": [
+      {
+        "q": "Yimiphi imidlalo lenhle yabantfu labanesifo sekukhohlwa?",
+        "a": "Imidlalo lemihle ilula, ijwayeleka futsi ayinacindzetelo: tithombe letikhulu tekuhlanganisa, kuhlela, tiphazamiso letilula, kugcwalisa tinsita letatiwa kakhulu, kudvweba, bingo yetithombe nemakhadi ekuxoxa. Sincumo lesihle kakhulu yilelo umuntfu lalijabulelako namuhla. Gwema tikhathi letibalekako, emaphuzu nanoma yini lefana nesivivinyo."
+      },
+      {
+        "q": "Ingabe imidlalo yesifo sekukhohlwa iyamahhala?",
+        "a": "Yebo. Yonkhe imidlalo nemaphrintabhili lasetjentiswa ku-Creative Activities ayimahhala, ayidzingi akhawunti, kubhalisa noma kulanda. Imidlalo isebenta ku-web browser kufoni, ku-tablet noma kukhompyutha."
+      },
+      {
+        "q": "Imidlalo yengcondvo ivimbela sifo sekukhohlwa yini?",
+        "a": "Akukho mdlalo lokhombisiwe kutsi uvimbela sifo sekukhohlwa, futsi i-Creative Activities ayisho kutsi ilapha kwelapha noma kuvimbela nanoma yini. Imidlalo yetfu yekujabulisa nekuchitsa sikhatsi ndzawonye. Sigaba setfu sekuphila kahle kwengcondvo sichaza lokucubekako lucwaningo nalokungakakhombisi."
+      },
+      {
+        "q": "Ingabe lemidlalo ifanele umuntfu lonesifo se-Alzheimer's?",
+        "a": "Yebo. Sifo se-Alzheimer's yisona lesivame kakhulu lesibangela sifo sekukhohlwa, futsi imidlalo yakhelwe lesifo: tithombe letikhulu letihlala tibonakala, tincumo letimbalwa, futsi kute lokudzingeka kukhumbula noma kwenta liphutsa. Kufanisa, kuhlela nekugcwalisa tinsita letatiwa kakhulu kuncike ekutfolweni lokwatiwa kwesikhatsi eside, hhayi kufundza lokusha."
+      },
+      {
+        "q": "Ingabe umuntfu losesigabeni lesisemagcugcutweni sesifo sekukhohlwa angasebentisa lemisebenti?",
+        "a": "Kuvame kuba yebo, nemuntfu losedvute naye. Qala ngeThola lofanako ngetithombe letimbili, Emaph헤 etithombe ngetinhlamvu letine, noma likhasi lekudaya kanye nekuphefumula kancane. Gcina kube sikhashana, Ilandzele lapho akhombisa khona kutsi uyafuna, futsi yima lapho akhombisa khona kutsi usuneliwe."
+      },
+      {
+        "q": "Ingabe lwatfo lwami lulwimfihlo?",
+        "a": "Lendzawo ayinamakhawunti futsi ayinetikhangiso. Sisebentisa i-Google Analytics kutsi sati kutsi ngumaphi emakhasi lavakashelwa. Tithombe lotikhetha emidlalweni yemaphere etithombe titfolakala kuphela ku-browser yakho futsi akusoze kulayishwa."
+      },
+      {
+        "q": "Ngubani lenta i-Creative Activities?",
+        "a": "I-Creative Activities yliqembu lelincane lelenta imisebenti yetithombe letulile letikhulile yemindeni nabanakekeli, ku-web nakusi-app lesimahhala. Asibona titfombe temtfwalo, futsi lokuvela lapha akusiso seluleko semtfwalo."
+      }
+    ]
+  },
+  "stage": {
+    "early": "ekuqaleni",
+    "middle": "maphakathi",
+    "late": "sekugcina",
+    "hintOne": "Kuvame kufanela sigaba {list}",
+    "hintMany": "Kuvame kufanela tigaba {list}",
+    "labelEarly": "Sigaba sekuqala",
+    "labelMiddle": "Sigaba sephakathi",
+    "labelLate": "Sigaba sekugcina"
+  },
+  "cards": {
+    "aboutGame": "Mayelana nalomdlalo",
+    "printable": "Lingashicilelwa",
+    "play": "Dlala {name} →",
+    "readGuide": "Funda umhlahlandlela"
+  },
+  "playCta": {
+    "title": "Usulungele umdlalo lolula?",
+    "text": "Tithombe letikhulu, ngaphandle kwesikhathi, ngaphandle kwemaphoyinti futsi ngaphandle kwekubhalisa. Dlalani ndzawonye ku-browser yenu.",
+    "play": "Dlala Umdlalo",
+    "all": "Bona yonkhe imidlalo",
+    "aria": "Dlala umdlalo"
+  },
+  "appCta": {
+    "title": "Thatani lemidlalo nani",
+    "text": "I-app lesimahhala ye-Creative Activities ye-iPhone, i-iPad ne-Android: tithombe letikhulu tekuhlanganisa, imidlalo netithombe temndeni wakho, nemaphakheji etithombe lasebenta ngaphandle kwe‑Wi‑Fi. Akukho akhawunti, tikhangiso, sikhatsi noma maphoyinti.",
+    "appStore": "Yitfole ku-App Store",
+    "googlePlay": "Yitfole ku-Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Mayelana ne-app",
+    "aria": "Thola i-app"
+  },
+  "sections": {
+    "activities": {
+      "label": "Imisebenti",
+      "title": "Imisebenti Yabantfu Labaphila Nesifo Sekukhohlwa",
+      "seo": "Imisebenti Yabantfu Labaphila Nesifo Sekukhohlwa: Emacebo Ngesigaba",
+      "description": "Emacebo emisebenti yabantfu labaphila nesifo sekukhohlwa kuyo yonkhe imigcawu: umculo, kukhumbula, imisebenti yansuku nansuku, tintfo letikhetfa tandla, emasu, ngaphandle nemaphrintabhili lamahhala.",
+      "lede": "Umsebenti lobalulekile yinoma yini lelethula induduzo, injongo noma sikhatsi sekuhlangana. Qala ngalokutsi umuntfu uke wajabulela ni, bese ulungisa kuze kube namuhla."
+    },
+    "caregiving": {
+      "label": "Kunakekela",
+      "title": "Emahlahlandlela Ekunakekela",
+      "seo": "Emahlahlandlela Ekunakekela Sifo Sekukhohlwa: Lusito Lolusebenta Ngensuku Nensuku",
+      "description": "Emahlahlandlela asebenta futsi anemusa ebanakekeli besifo sekukhohlwa: kudlalana ndzawonye, kuxoxa, kwala, kungatuli ekupheleni kwelilanga, emathebulethi, kukhetha ema-app nekuzinakekela.",
+      "lede": "Lusito lolulula lolusebenta ngetikhatsi tansuku nansuku tekunakekela umuntfu lophila nesifo sekukhohlwa, kuhlanganisa nekuzinakekela wena."
+    },
+    "brain-health": {
+      "label": "Kuphila kahle kwengcondvo",
+      "title": "Kuphila Kahle Kwengcondvo: Lokuthi Lucwaningo Lutsi Ni",
+      "seo": "Kuphila Kahle Kwengcondvo Nengoti Yesifo Sekukhohlwa: Lokuthi Lucwaningo Lutsi",
+      "description": "Ingabe sifo sekukhohlwa singavinjelwa? Emahlahlandlela letetsembekile etimbangela tengoti yesifo sekukhohlwa, imidlalo yengcondvo, kuzila kudla, kudla, kuzivocavoca, kulala, kuva kahle nemaphawu ekuqala lakufanele abonwe.",
+      "lede": "Lokutsi tifundvo letikhulu tikhombisa ngekwehlisa ingoti yesifo sekukhohlwa, kuchazwe ngalokulula, kuhlanganisa nalapho bufakazi bube buncane noma bungavumelani khona. Lolwati lolujwayelekile, hhayi seluleko semtfwalo."
+    }
+  },
+  "guide": {
+    "updated": "Kuvuselelwe",
+    "minuteRead": "Kufundza kwemizuzu {n}",
+    "byTeam": "Ngabasebenti be-Creative Activities",
+    "howWeWrite": "Indlela ebhala ngayo",
+    "shortAnswer": "Impendulo lemfishane",
+    "onThisPage": "Kulelikhasi (tingcenye {n})",
+    "commonQuestions": "Imibuto lejwayelekile",
+    "sources": "Imithombo",
+    "sourcesNote": "Sihlanganisa emabhizinisi nemifundvo lelikhasi lusekelwe kuyo. Ngayinye yahlolwa ngesikhatsi likhasi lelivuselelwa.",
+    "tryTogether": "Zama ndzawonye",
+    "relatedGuides": "Emahlahlandlela lahambisanako",
+    "related": "Lahambisanako",
+    "startHere": "Qala lapha"
+  },
+  "healthNotice": {
+    "aria": "Sisa lesimayelana nelwati lwemtfwalo",
+    "title": "Lolwati lolujwayelekile, hhayi seluleko semtfwalo",
+    "textHtml": "Likhasi lelifingquka bufakazi bucwaningo lobushicilelwe bemindeni. Alikwazi kukutjela kutsi yini lefanele umuntfu munye. Khuluma nedokotela ngaphambi kwekushintsha kudla, kuzivocavoca, kulala, emitfombo noma emasupplements. Uma kukhona kudideka lokungacondziwa noma tinguquko letingacondziwa, funa lusito lwemtfwalo masinyane. <a href=\"/medical-disclaimer/\">Funda sisa setfu lesimayelana nelwati lwemtfwalo</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Umsebenti Lowabelwanako, Hhayi Sivivinyo Sekukhumbula",
+      "seoTitle": "Mayelana ne-Creative Activities: Indlela Yethu",
+      "description": "Kungani imidlalo ye-Creative Activities ingenaticiniso, emaphoyinti noma emaphatha, kungani tithombe tihlala tibonakala, nemave esitawuvuma nesingeke sikuvume ngesifo sekukhohlwa.",
+      "crumb": "Indlela yethu",
+      "lede": "I-Creative Activities yenta imisebenti yetithombe letulile letikhulile lenga jabulela ndzawonye umnakekeli nomuntfu lophila nesifo sekukhohlwa.",
+      "bodyHtml": "<h2>Lesikukholelwako</h2><p>Inhloso yemsebenti ilesikhatsi lesiyinhloko: incoco, lubukeka, injabulo yekuhlanganisa emifanekiso lemibili, noma nje kuhlala seduze. Ayikho yekulinganisa umuntu, kumcindzetela noma kufakazela ntfo.</p><p>Tinhlelo letinyenti tekuhlela ingcondvo takhelwe kusheshisa, emaphuzu, emasiteki kanye nemaleveli. Kumuntu lohlala nekuhlwa kwengcondvo, lokungaba njengemvivinyo angeke akwati kuphumelela kuyo. Sakhe lokuphambene nalokho, futsi sitibopha emitsetfweni lelandzelako:</p><ul><li><strong>Kute lokungaphumelela.</strong> Kute sikhatsi, emaphuzu, sibalo semanyatselo, emaphilo, emasiteki, emahlaya noma tinkhuluma letinciphisa sikhatsi, kulesiphi sikrini.</li><li><strong>Kubona kunekukhumbula.</strong> Imifanekiso ihlala ikhombisiwe njengemtsetfo. Tinkhuluma tikhuthaza incoco futsi kute emagama noma tikhumbuzo letibuvusa.</li><li><strong>Mikhulu, lula futsi izinzile.</strong> Umbhalo nemifanekiso lemikhulu, kukhanya lokukhulu, nelawulo lolihlala endzaweni yalo.</li><li><strong>Sihlonipho lesifanele umuntu omdala.</strong> Imifanekiso yemhlaba wangempela, emagama lalula lafudumele. Kute tifanekiso letikhatsatekako, kugcogcisa kwebantfwana noma emavolo amatfuba.</li><li><strong>Indlela lula yekuphuma.</strong> “Ngiyaphumula kwalesikhatsi” lihlala libonakala. Kumisa ngephakathi kuyimphumelela.</li><li><strong>Imfihlo njengemtsetfo.</strong> Kute tiakhawunti noma tetfisoyo. Tifanekiso letikhetfwe nawe tihlala etfoleni lakho.</li></ul><h2>Lesingakubangeli</h2><p>Imidlalo yetfu ikhona kujabulisa nekuhlanganisa bantfu. Ayichazi, ayihloli, ayilingi, ayelaphi, ayehlisi noma ayivimbi kuhlwa kwengcondvo noma lesifo se-Alzheimer, futsi kute kumelwe ikhetfwe ngalesizatfu. Nasibhala ngocwaningo emaphejini etfu <a href=\"/brain-health/\">wempilo yengcondvo</a>, sitsi ngekucace lapho bufakazi bungakasimi khona, futsi asisoze sibuhlanganise nemidlalo yetfu.</p><h2>Ngobani</h2><p>Creative Activities yinhlangano lencane lezimele. Asiso tingcweti zemtfusi. Tincwadzi tetfu tibhalwa ngekusekelwe kwetimiso letinikwa tinhlangano letifana ne-National Institute on Aging ne-Alzheimer’s Association, futsi incwadzi ngayinye ilandzelisa imitfombo yayo. Funda <a href=\"/editorial-policy/\">indlela sibhala ngayo sihlole emaphejini etfu</a>.</p><h2>Sitsele kutsi yini ingasiza</h2><p>Sicela utitfolele kutsi yini lesebenta kanye nalena lingasebenti, ikakhulu kubantfu labahlala nekuhlwa kwengcondvo, labanakekeli emindeni nemasipiliji emisebenti. Bhalela <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Indlela Sibhala Ngayo Futsi Sihlola Emaphejini Etfu",
+      "seoTitle": "Inqubomgomo Yetindzaba Letibhaliwe",
+      "description": "Indlela Creative Activities ecwaninga ngayo, ibhala ngayo, icaphela imitfombo yayo, futsi ivuselela ngayo emaphejini etfu emisebenti yekuhlwa kwengcondvo kanye nekuphila kahle kwengcondvo, kanye nalokungeke sikhishe kuwo.",
+      "crumb": "Inqubomgomo yetindzaba letibhaliwe",
+      "bodyHtml": "<h2>Imitfombo yetfu</h2><p>Tincwadzi tetfu tisekelwa emitsetfweni yalokusemphilweni yetinhlangano letifana ne-National Institute on Aging, i-CDC, i-Alzheimer’s Association, i-Alzheimer’s Foundation of America, i-Family Caregiver Alliance ne-NHS, kanye nocwaningo lolubhalwe lolutfolwe ngabanikatindzaba lokufana nemibuyekezo ye-Cochrane netifundzo letinkhulu letemitfombo. Incwadzi ngayinye ilandzelisa imitfombo yayo. Sivula umtfombo ngamunye ngaphambi kwekuwucashuna, futsi sibika kuphela lesitsi wona ngempela.</p><h2>Sibhala njani</h2><ul><li>Kucale ngekwenteka: kwentelani namuhla, ngemagama lalula.</li><li>Kutsembeka ngebufakazi: sisebentisa “kuhlobene na”, “kungenteka” kanye “bufakazi abuhlangene” nakubonakala kunjalo.</li><li>Kuhlonipha: sibhala ngebantfu labahlala nekuhlwa kwengcondvo njengetinhlobo letikhulile, futsi asisoze sisebentise kubuta kubahlekisa noma kubanyelisa.</li><li>Kute lokwakhiwe: kute tibalo letingiqiniso, tincoco, bantfu, tifundzo, tibuyekezo noma tetimemetelo letingiko.</li></ul><h2>Ngobani labahlola emaphejini etfu</h2><p>Emaphejini abhalwa futsi ahlolwe licembu le-Creative Activities, lisiswa ngumsebenti wetifo tekubhala kwe-AI lesetfwe kucwaninga nekubhala kwekusibhala. Liphejini ngalinye lihlolwa lisekelwe emitfonjeni yalo ngulelicembu. Emaphejini etfu <strong>akazange</strong> ahlolwe ngudokotela noma ngumuntu wetemtfusi, futsi asitsi kunjalo. Ayilwazi lwemvelo lokungelona seluleko sekwelashwa.</p><h2>Lesingeke sisishicilele</h2><ul><li>Tintfo letitsi umdlalo, ukudla, umkhuba, kungadzili, nobe kuphelisa, kulinganisa, kuvimba, noma kwelapha kuhlwa kwengcondvo.</li><li>Tivivinyo, timibuto noma emaphuzu lakhombisa kutsi umuntu unalo noma akanalo kuhlwa kwengcondvo.</li><li>Seluleko sekuqala, sekumisa, noma sekushintsha noma yimuphi umuthi.</li><li>Kutimemesa noma lokuncunywe njengeseluleko.</li></ul><h2>Tibuyekezo netilungiso</h2><p>Liphejini ngalinye likhombisa lilanga lekuvuselelwa kwalo lekugcina. Uma utfola liphutsa noma umtfombo lodzeleko, sicela ubhalele <a href=\"mailto:{email}\">{email}</a>, futsi sitawuhlola ngekushesha.</p>"
+    },
+    "faq": {
+      "title": "Imibuto Nemphendvulo",
+      "seoTitle": "Imidlalo Nemisebenti Yekuhlwa Kwengcondvo: Imibuto Nemphendvulo",
+      "description": "Tiphendvulo letitsi tempendvulo ngemibuto leyaziwako ngemidlalo nemisebenti yekuhlwa kwengcondvo: imidlalo lekufanele kuzama, sikhatsi lesifanele kudlalwa ngaso, tincoco zesigaba lesiphambili, kuphila kahle kwengcondvo kanye nemfihlo.",
+      "crumb": "Imibuto nemphendvulo",
+      "lede": "Tiphendvulo letifishane letilula emibuveni lelibuzwa kakhulu ngulabanakekelako.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Ngemidlalo",
+          "items": [
+            {
+              "q": "Yimiphi imidlalo lensha kakhulu kumuntu lohlala nekuhlwa kwengcondvo?",
+              "a": "Imidlalo lensha kakhulu yilena lewaziwako, lelula futsi lengenacindzetelo, futsi lofanele yilena umuntu lajabulela namuhla. Ukuhlanganisa emifanekiso lebonakala, kuhlela, timphithi letilula, kugcwalisa emagama lawaziwako, kudweba, nebhingo yemifanekiso kuyasebenta kubantfu labanyenti. Gwema tiwashi, emaphuzu nalokufana nemvivinyo."
+            },
+            {
+              "q": "Ingabe imidlalo ayimahhala ngempela?",
+              "a": "Yebo. Yonkhe imidlalo nemaphepha lekuphrinta ayakhululeka, akukho lidzingekako bhakhawunti, kubhalisa, kulanda noma tikhangiso."
+            },
+            {
+              "q": "Kungani kungekho emaphoyinti, emazinga noma tisikhatsi?",
+              "a": "Kusheshisa nemaphoyinti kwenta umsebenti lomnandzi kube lihlolo, lengaletsa lihlazo noma kukhatala. Sigcizelela injabulo nekuchitsa sikhatsi ndzawonye, kotsi kungabi nalokutsi wehluleke, futsi ungayeka nanoma nini."
+            },
+            {
+              "q": "Yimiphi imishini lesebenta kahle kakhulu?",
+              "a": "Noma iyiphi iforoni, ithabulethi noma likhompyutha lelinebhrawuza yewebhu lesimanje. Ithabulethi lelimi ecaleni kwetafula livamise kuba yindlela lelula kakhulu kubantfu ababili kudlala ecaleni kwebanye. Ilaptop lexhunyiwe ku-TV isebenta kahle emaqembu."
+            },
+            {
+              "q": "Singadlala ngetithombe temndeni wetfu?",
+              "a": "Yebo. Emaphere etithombe (Photo pairs) aguculela etithombe letu-2 kuya ku-6 lotikhetsako kube umdlalo wekufanisa. Tithombe tihlala ku-browser yakho, akukho lokuphakanyiswa noma lokugcinwa."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Imisebenti nekunakekela",
+          "items": [
+            {
+              "q": "Umsebenti kufanele uhlale isikhatsi sini?",
+              "a": "Kuvamile kwanele imizuzu le-10 kuya kele-20, kanti kwesinye sikhatsi imizuzu le-2 ingaba yimphumelelo. Bheka uma sekukhatele noma sekukhungatheka, futsi uyeke ngesikhatsi kusasemnandzi. Alikho lisikhatsi lelifanele."
+            },
+            {
+              "q": "Kuyini uma bangafuni kwenta umsebenti?",
+              "a": "Hlonipha lokuthi cha, bese uzama futsi ngesikhatsi lesitsite noma ngendlela lehlukile. Kwala kungavela ekukhatleni, ebuhlungwini, ekungaciniseki noma ngekutsi nje bangakasi umsebenti. Bheka umhlahlandlela wetfu mayelana nekutsi yini lengentiwa uma bathi cha."
+            },
+            {
+              "q": "Yimiphi imisebenti lefanele sigaba lesisemuva se-dementia?",
+              "a": "Induduzo nemandla emizwa: kulalela umculo lobatsandzako, kuhlikihla tandla ngelotisi, kubukana etithombeni ndzawonye, kubamba ingubo lethambile, kuhlala ngaphandle, noma umdlalo lolula wetithombe nomuntfu lohlezi ecaleni kwabo. Umhlahlandlela wetfu wesigaba lesisemuva unemibono lengetulu."
+            },
+            {
+              "q": "Kukhona yini imisebenti yemaqembu etindlini tekunakekela?",
+              "a": "Yebo. Bingo yetithombe inemakhadi lakhiphekako nomfundzi wetinombolo lobonakala esikrinini, kanti Qedzela umusho kanye nemakhadi ekuxoxa asebenta kahle nakufundzwa ngeliswi lelikhulu. Umhlahlandlela wetfu wemaqembu etindlini tekunakekela uchaza ngebukhulu bemqembu, kuhlalwa, nekulungisa kubantfu labanemandla lahlukene."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Impilo yengcondvo",
+          "items": [
+            {
+              "q": "Ingabe imidlalo ingavimba noma yehlise i-dementia?",
+              "a": "Akukho mdlalo lobonakale uvimba i-dementia, futsi imidlalo yetfu ayitsi lokunje. Kukhutsatsa ingcondvo ngendlela yekuhlanganyela kuke kwabonakala kunemiphumela lencane kucwaningo kubantfu labanesigaba lesincane kuya kulesiphakatsi se-dementia, kodvwa lokuhlukile nje kutsi umdlalo uvimbe lesifo. Sitfola imidlalo ngenjabulo nekuhlanganyela."
+            },
+            {
+              "q": "Ingabe i-dementia ingavinjwa?",
+              "a": "Hhayi ngekuqinisekile. Kucwaningo kuhlobanisa tintfo letingu-14 letihlobene nemphilo nendlela yekuphila nengoti ye-dementia, njengekungezwa kahle, kuphakama kwengcindezi yegazi, kungasebenti emtimbeni nekuba wedvwa emphakatsini. Kulawula tintfo letinjalo kungancisa ingoti kubanye bantfu, kodvwa bantfu labanyenti labenta konkhe lelifanele bangase batfole i-dementia. Akusoze kube yimphosi yemuntfu."
+            },
+            {
+              "q": "Ingabe kuzila kudla ngetikhatsi kuhle empilweni yengcondvo?",
+              "a": "Bufakazi bebantfu butsambile futsi buncane, futsi lucwaningo lwalo lwenteka ngetilwane. Kuzila kudla kungaba yingoti kubantfu labadzala, ikakhulu labanemitsi yeshukela noma labehla kakhulu ngekungakuhlosa, futsi akucetfwa labantfu labahlala ne-dementia. Khuluma nedokotela ngaphambi kwekutsi ushintse indlela yekudla."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Sibili nekuphepha",
+          "items": [
+            {
+              "q": "Ingabe niyaqoqa imininingwane?",
+              "a": "Akukho bhakhawunti netikhangiso. Sisebenta i-Google Analytics kubala tindzawu nekubona emakhasi lasincedisa, futsi libhrawuza lakho likhumbula kutsi uvule yini imisindvo lethambile. Tithombe lotikhetsako kuPhoto pairs akusoze kuphakanyiswe. Bona sisaziso selimfihlo kutfola imininingwane lengetulu."
+            },
+            {
+              "q": "Ingabe lokhu ngeluncusa lwemtfholamphilo?",
+              "a": "Cha. Creative Activities ikhona kujabulisa nekunikeza lulwati lwejwayelekile. Tindzaba temphilo khuluma nedokotela, futsi uma kukhona lesimo lesiphuthumako tsintsa 999."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Lokuengetiwe: <a href=\"/caregiving/how-to-play-together/\">kudlala ndzawonye kanjani</a>, <a href=\"/caregiving/when-they-say-no/\">uma bathi cha</a>, <a href=\"/activities/late-stage/\">imisebenti yesigaba lesisemuva</a> kanye nate <a href=\"/brain-health/can-dementia-be-prevented/\">ingabe i-dementia ingavinjwa?</a>"
+    },
+    "handout": {
+      "title": "Imidlalo Lekhululekile Lemnene Yebantfu Labahlala Ne-Dementia",
+      "seoTitle": "Incwadzi Lekuphrintwa: Imidlalo Lekhululekile Ye-Dementia Online",
+      "description": "Incwadzi lenekhasi linye lekuphrintwa yemndeni netimemezeli nalabanakekela ngemidlalo lekhululekile lemnene yetithombe yebantfu labahlala ne-dementia, yemaqembu lasekelako nemaphakheji ekunakekela.",
+      "crumb": "Incwadzi lekuphrintwa",
+      "lede": "Phrinta leli khasi lemaqembu lasekelako, liphakheji lekunakekela noma lelitfelini lesitfombe. Sebenta lomyalelo we-Print kuwebhrawuza yakho; imenyu nemacindzetelo kayi kuphrintwa.",
+      "introHtml": "<p>Tithombe letikhulu, emagama lalula, futsi akukho lokungahlulwa. Kuyakhululeka kufoni, ku-tablet noma kukhompyutha, kungekho kubhalisa, tikhangiso, tisikhatsi noma emaphoyinti. Hlala ecaleni kwebanye futsi nishintshana.</p>",
+      "gamesTitle": "Imidlalo lokumele nizame ndzawonye",
+      "restHtml": "<h2>Tintsambo letimbalwa</h2><ul><li>Khetsa sikhatsi lesisemini lapho umuntfu alungile khona.</li><li>Qala ngesimo lesilula kakhulu. Tithombe letine ayanele.</li><li>Khuluma ngetithombe. Kuxoxa kuvame kuba yincenye lenhle kakhulu.</li><li>Yeka ngesikhatsi kusasemnandzi. Ukuyeka ngesikhatsi kuyimphumelelo lenhle.</li></ul><h2>Futsi kulelikhasi</h2><ul><li>Emaphepha lekuphrinta lakhululekile: umdlalo wematfupha lolotfoliwe ngemhlatiyo lenkhulu, emaphepha lekudayela, emakhadi ekuxoxa kanye ne-bingo yetithombe.</li><li>Imibono yemisebenti yesigaba ngasinye, nemahlahlandlela ekudlala ndzawonye nasekuzinakekeleni.</li></ul><p class=\"muted\">Yekujabulisa nekuchitsa sikhatsi ndzawonye. Akusiyo lulwati lwemtfholamphilo, lihlolo noma kwelashwa. Creative Activities ishicilelwa yi-Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Ta Tindlu Tekunakekela, Tilabhulali Netemaqembu Lasekelako",
+      "seoTitle": "Imidlalo Yemahhala Yesifo Sekukhohlwa Yemakhaya Ekunakekelwa Nemaqembu",
+      "description": "Indlela emakhaya ekunakekelwa, tiliko tetinsita temalanga, emalabhulali, emasevisi ekuvikela bantfu abadzala nemaqembu ekusekelana ngayo imidlalo yethu yemahhala yesifo sekukhohlwa, kanye nemagama wekutsi nengeze ohlwini lwemisito yetinsita.",
+      "crumb": "Ngetinhlangano",
+      "lede": "Konkhe lokusesayithini kuyamahhala kusetjentiswa nebahlali, emalungu nemakhasimende, ngaphandle kwe-akhawunti, lilayisense noma imali. Leliphepha lichaza lokukhona lapha nendlela yekwabelana ngako.",
+      "shortText": "{name}: imidlalo yemahhala leyimnene yetifanekiso netincwadzi tetinsita labahlala nesifo sekukhohlwa nalabanakekelako. Akudzingi kubhalisa, akukho tiwashi, akukho emaphuyinti.",
+      "longText": "{name} ({domain}) iniketa imidlalo lengu-{count} yemahhala yebhrawuza lenteljwe bantfu labahlala nesifo sekukhohlwa, kubandzakanya kufanisana tifanekiso letisasibonakala, lula lokuhlanganisa tinhlayiya, kuhlela, tinsita letatiwa kahle, nebingo yetifanekiso netikhadi letingaphrintwa. Alikho i-akhawunti, kukhangisa, tiwashi noma emaphuyinti. Lesayithi futsi linetincwadzi tekusebenta letilula ngalesigaba sekukhohlwa ngasinye, letichaza nge-National Institute on Aging ne-Alzheimer's Association.",
+      "useTitle": "Lokungasetjentiswa tinhlangano",
+      "gamesItemHtml": "<strong>imidlalo lengu-{count} yebhrawuza</strong> lesebenta kulaptophu, ithebhulethi noma i-TV leyaxhunyiwe kukhompyutha. Akudzingi kufakwa, i-akhawunti noma kulandzwa. Bona <a href=\"/games/\">yonkhe imidlalo</a>.",
+      "printablesLabel": "{count} tincwadzi letingaphrintwa:",
+      "printablesAfter": "Sebentisa inkinobho yekuphrinta kulelikhasi ngalinye.",
+      "moreItemsHtml": "<li><strong>Tindlela tekwenta ngemaqembu:</strong> <a href=\"/games/picture-bingo/\">Bingo yetifanekiso</a> inetikhadi letingaphrintwa nemuntfu lomemetela ekuskrinini, kanye ne-<a href=\"/activities/trivia/\">Trivia lula</a> ine-imibuto lengu-50 netimphendvulo letikhetsekako netintfo tekuxoxa.</li><li><strong>Tincwadzi tekusebenta</strong> letinetintfo tetinsita nemindeni, ngesigaba nangemhlobo, zibhalwe ngelulwimi lulula nemithombo. Qala nge-<a href=\"/activities/ideas/\">101 tindlela tekusebenta</a> noma nge-<a href=\"/activities/care-home-groups/\">imisebenti yemaqembu emakhaya ekunakekelwa</a>.</li>",
+      "restHtml": "<h2>Indlela emaqembu asisebentisa ngayo</h2><ul><li><strong>Emakhaya ekunakekelwa nekunakekelwa kwenkumbulo:</strong> bingo yetifanekiso noma kuphetsa umshwana ku-TV yelikamelo lelivamile, nemuntfu munye acindzetele ngelikhono laleqembu.</li><li><strong>Tinhlelo temalanga ekunakekelwa kwabadzala:</strong> sitobhi lethebhulethi lenetiphetfo letine ku-Picture pairs, ngetikhatsi letimfishane letisebantfu babili.</li><li><strong>Emalabhulali emphakatsi:</strong> tinhlobo tekufuna emagama letiphrintiwe nemakhadi ekuxoxa etikhwameni tekukhumbula, kanye nalesayithi lilondvolotwe kumathebhulethi elabhulali.</li><li><strong>Emaqembu ekusekelana labanakekelako nemakhefi ekukhumbula:</strong> <a href=\"/handout/\">incwadzi lenkhasi lenye yekuphrinta</a> lemindeni letayitsatsa ekhaya.</li><li><strong>Tindzawo tetetfu netibhali tekuhlela kuphuma:</strong> incwadzi kumaphakheji alabanakekelako, kutsi kube nalokuthulisa lokungentiwa ekhaya noma ngesikhatsi selukhetsaneni.</li></ul><h2>Lesingakwenti</h2><p>Imidlalo yekujabula nekuchitsa sikhatsi ndzawonye. Ayihloli, ayivivinyi, ayilinganisi, ayelaphi noma ayehlisi sifo sekukhohlwa, futsi siyacela tinhlangano kutsi ingakuchazi kanjalo. Alikho makhangiso, futsi imidlalo ayicelisi mabito, tintfo temphilo noma kulayisha tifanekiso. Iwebhusayithi isebentisa i-Google Analytics kubala tindzawo letivakashela; <a href=\"/privacy/\">sitatimende yetimfihlo</a> sichaza lokubuthwako. Tifanekiso letisetjentiswa ku-<a href=\"/games/photo-pairs/\">Picture pairs</a> tihlala ku-bhrawuza.</p><h2>Engeta ohlwini lwemisito yenu</h2><p>Uma nigcina uhlu lwetinsita labanakekelako, nemukelekile kutsi nisebentise <a href=\"/\">{domain}</a>. Ningakopisha noma yiphi incazelo.</p>",
+      "shortTitle": "Incazelo lencane",
+      "longTitle": "Incazelo lende",
+      "linksHtml": "<p>Tikhasi letisiluncedzo kutsi nisebentise ngekuqondile: <a href=\"/games/\">imidlalo yemahhala</a>, <a href=\"/activities/printable/\">tincwadzi letingaphrintwa temahhala</a>, <a href=\"/activities/alzheimers/\">imisebenti yeAlzheimer's</a> kanye ne-<a href=\"/caregiving/how-to-play-together/\">indlela yekudlala ndzawonye</a>.</p><h2>Imibuto noma tilungiso</h2><p>Uma kukhona lokungalungile noma lokungacacile esayithini, noma tidzingo tetinsita lebatsi tingahlangatwa yilokukhona lapha, sicela nitsi kutsi <a href=\"mailto:{email}\">{email}</a>. Sicela ningatumi lwatiso lwemuntfu noma lwemphilo yalabanakekelako.</p>"
+    },
+    "app": {
+      "title": "I-app ye-Creative Activities",
+      "seoTitle": "I-app ye-Creative Activities yeiPhone ne-Android",
+      "description": "I-app yemahhala ye-Creative Activities: kufanisana kwetifanekiso ngetindzawo letine letikhulu, tifanekiso temndeni letigcinwa esitsatsini sakho, tiphakheji tetifanekiso letisebenta ngaphandle kwe-inthanethi, nangaphandle kwe-akhawunti.",
+      "crumb": "I-app",
+      "lede": "Konkhe lotsandzako kulewebhusayithi, ku-app lesebenta ngaphandle kwe-inthanethi futsi lingasebentisa tifanekiso temndeni lotikhetsela wena.",
+      "worksOn": "Iyasebenta ku-{platforms} ({requirements}).",
+      "bodyHtml": "<h2>Qala kancane</h2><p>Qala ngetindzawo letine letinkhulu netitfombe letijwayelekile. Gcina titfombe tibonakala, noma ufihle tona uma lokhu kulunga kakhulu. Imodi lemnene alinasikhatsi, emaphoyinti noma sijeziso. Khetsa 4, 6, 8 noma 12 tindzawo.</p><h2>Yenta ibe yakho</h2><p>Khetsa titfombe temndeni usebentisa sikhetsi setitfombe sedivayisi yakho. Ihlelo ligcina tikhopi letincane letisetjentiselwa tindzawo tayo. Ayiskeni laibhulari yakho noma ishintshe titfombe takho letitsite, futsi igcina kuya kutfola titfombe letingu-24 esigcinini sinye.</p><h2>Bukani ndzawonye</h2><p>Bukani sitfombe sinye ngalesikhatsi. Tinkhumbuto letikhetsekako tingakhuthalela incoko ngaphandle kokucela muntfu ukuba akhumbule emagama noma anike impendulo lefanele. Kubuka nje kwanele.</p><h2>Ngaphandle kwe-inthanethi lapho kubalulekile</h2><p>Titfombe letisetulu kanye nazo zonkhe letisishiyagalombili tiphakheji tetitfombe tifakiwe ku-app. Tikhopi tetitfombe temndeni letifakiwe tisebenta ngaphandle kwe-inthanethi. Kukhetsa titfombe letigcinwe ku-iCloud kuphela kungadzinga i-inthanethi.</p><h2>Akukho i-akhawunti, akukho seva yekuvumelanisa titfombe</h2><p>Tikhopi tetitfombe temndeni tihlala ku-app kulidivayisi. Ungasisusa tikhopi ngaphandle kwekucususa titfombe takho letitsite. Kusekelwa kwedivayisi kungafaka nedatha ye-app. Funda <a href=\"/app-privacy/\">inqubomgomo yemfihlo ye-app</a>, futsi <a href=\"/help/\">lusito lwe-app</a> lukuhambisa kuyo yonkhe inyatselo.</p>",
+      "disclaimer": "Creative Activities yemidlalo lenemnemba nekuxoxa ndzawonye. Ayichazi, ayelaphi, ayivimbi noma ayilinganisi sifo se-dementia noma se-Alzheimer's.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Emidlalo Yemahhala Ye-Dementia ne-Alzheimer's Ku-inthanethi",
+    "description": "Emidlalo yemahhala ku-inthanethi yebadzala labahlala nesifo se-dementia noma se-Alzheimer's: kuhlanganisa titfombe, ma-puzzle lula, kuhlela, izisho, kudvweba, bingo. Akudzingi kubhalisa, sikhatsi noma emaphoyinti.",
+    "crumb": "Emidlalo",
+    "h1": "Emidlalo Lemnene Kubantfu Labahlala Nesifo se-Dementia",
+    "lede": "{count} emidlalo lemahhala lekudlalwa ndzawonye ku-browser yakho. Titfombe letinkhulu, emagama lula, futsi kute lokungahluleka: akukho sikhatsi, emaphoyinti noma kubhalisa.",
+    "listName": "Emidlalo lemnene kubantfu labahlala nesifo se-dementia",
+    "byStageTitle": "Kukhetsa umdlalo ngesigaba",
+    "byStageLede": "Tigaba ticashe tingumhlahlandlela lovamile. Landzela lokujabulisa umuntfu nalokutsi kumnandzi namuhla.",
+    "stageCol": "Sigaba",
+    "gamesCol": "Emidlalo lejwayelekile lefanele",
+    "moreHtml": "Tinye tincomo ngaphandle kwesikrini: <a href=\"/activities/ideas/\">Tinhlobo letingu-101 temisebenti kubantfu labahlala nesifo se-dementia</a>, <a href=\"/activities/alzheimers/\">imisebenti nemidlalo ye-Alzheimer's</a>, <a href=\"/activities/memory-games/\">emidlalo lemnene yenkumbulo</a> ne-<a href=\"/activities/puzzles/\">ma-puzzle</a>.",
+    "faq": [
+      {
+        "q": "Ngumdlalo muni lesingawuqala nawo?",
+        "a": "Tipheya tetitfombe netindzawo letine kukhetsa lokuthulile lokuqala. Uma kukhetsa phakathi kwetitfombe kunzima kakhulu, zama Thola lofanako netitfombe letimbili. Uma kunebantfu labatsatsa ingcenye, zama Bingo yetitfombe."
+      },
+      {
+        "q": "Imidlalo isebenta ku-iPad noma ku-foni?",
+        "a": "Yebo. Yonkhe imidlalo isebenta ku-browser kumafoni, emathebhulethi nakumakhompyutha, futsi titfombe tiyakhula tigcwalise sikrini. Ithebhulethi lelime esitandweni livame kakhulu kubantfu ababili."
+      },
+      {
+        "q": "Imidlalo ilungele umuntfu lone-Alzheimer's?",
+        "a": "Yebo. Yentiwe kubantfu labahlala nesifo se-dementia, kuhlanganise ne-Alzheimer's, sona lesivame kakhulu. Titfombe tiyahlala tikhombisa, kunetinhlobo letimbalwa tekukhetsa, futsi akukho sikhatsi noma emaphoyinti, ngako imidlalo isekela ekubonakaleni kwetintfo letijwayelekile kunekukhumbula tintfo letintsha."
+      },
+      {
+        "q": "Ingabe lemidlalo yenkumbulo yebadzala?",
+        "a": "Yimidlalo yekuhlanganisa netitfombe lenganatfwa noma ngubani losekhulile, kepha yakhiwe kutsi ingahloli inkumbulo: ku-Tipheya tetitfombe titfombe tiyahlala tibonakala ngaphandle kwekuba ukhetse ngenye indlela. Umhlahlandlela wetu wemidlalo yenkumbulo yebadzala labahlala nesifo se-dementia uchaza kutsi umdlalo longaba nguwo ungaba lemnene kanjani."
+      },
+      {
+        "q": "Kukhona emidlalo yeqembu ekhaya lekunakekela?",
+        "a": "Yebo. Bingo yetitfombe inemakhadi lalungele kuphrinta nomfoniseli ku-skrini, futsi Qeda lesisho kanye namakhadi Kuxoxa atfola kahle lapho afundvwa ngekuhlanganyela eqenjini."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad ne-Android",
+    "requirements": "iOS 15 noma kulapho ntsha; Android 7.0 noma kulapho ntsha",
+    "summary": "I-app yemahhala ye-iPhone, iPad ne-Android ine-mdlalo lemnene wekuhlanganisa titfombe ngetindzawo letine kuya kuletilishumi nambili letinkhulu, kuhlanganise nekuhlanganisa nekubuka titfombe temndeni lowukhetsako, kanye netiphakheji letisishiyagalombili tetitfombe letisebenta ngaphandle kwe-inthanethi. Ayinayo i-akhawunti, tesikhangiso, sikhatsi noma emaphoyinti.",
+    "features": [
+      "Kuhlanganisa titfombe lula ngetindzawo letine, letisithupha, letisishiyagalombili noma letilishumi nambili letinkhulu; titfombe tiyahlala tibonakala uma ungakhetsanga kuzifihla",
+      "Titfombe temndeni lowukhetsako itikhopi ifakwa ku-app kutsi kuhlanganiswe futsi kubukwe ndzawonye",
+      "Bukani ndzawonye: sitfombe sinye ngalesikhatsi nemiyalezo lekhetsekako yekuxoxa",
+      "Tiphakheji letisishiyagalombili tetitfombe letifakiwe ku-app; asebentise ngaphandle kwe-inthanethi",
+      "Ayinayo i-akhawunti, tesikhangiso, tinkhokhelo ngaphakathi kwe-app, sikhatsi, emaphoyinti noma sijeziso"
+    ],
+    "faq": [
+      {
+        "q": "Ingabe kukhona i-app yemisebenti yesifo se-dementia?",
+        "a": "Yebo. Creative Activities (lebhalwe njenga \"{storeName}\") ayimahhala ku-App Store ne-Google Play. Inikeza kuhlanganisa titfombe lula ngetindzawo letinkhulu, emidlalo ngetitfombe temndeni lowukhetsako, netiphakheji tetitfombe letisebenta ngaphandle kwe-inthanethi."
+      },
+      {
+        "q": "Ingabe i-app ye-Creative Activities yimahhala?",
+        "a": "Yebo. Ayikhokhelwa ukuyilanda, kute tesikhangiso, i-akhawunti noma tinkhokhelo ngaphakathi kwe-app."
+      },
+      {
+        "q": "Ingabe i-app isebenta ngaphandle kwe-inthanethi?",
+        "a": "Yebo. Titfombe letisetulu kanye netiphakheji letisishiyagalombili tetitfombe tifakiwe ku-app, futsi titfombe temndeni tisebenta ngaphandle kwe-inthanethi kusukela tikopishwe ku-app. Kukhetsa sitfombe letigcinwe ku-iCloud kuphela kungadzinga kuxhumeka."
+      },
+      {
+        "q": "Ngingasebentisa titfombe temndeni wetfu?",
+        "a": "Yebo. Khetha tifanekiso ngalesikhetha sitfombe selidivayisi lakho. I-app igcina tikhopi letincane tetifanekiso ekudivayisini kwakho ekudlaleni, ayitfumeli tifanekiso, futsi ayishintshi tifanekiso tekuqala. Ungatisusa tikhopi noma nini."
+      },
+      {
+        "q": "Ingabe i-app yekufundza ingcondvo noma yekuhlola inkumbulo?",
+        "a": "Cha. I-Creative Activities yekujabulela nekuchitha sikhatsi ndzawonye. Ayinaliphuzu noma tikhatsi tekuhlola, futsi ayihloli, ayelaphi, ayivikeli noma ayilinganisi i-dementia noma i-Alzheimer’s disease."
+      },
+      {
+        "q": "Isebenta kumaphi emadivayisi?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Ingabe kukhona i-app yalomdlalo?",
+      "a": "Yebo. I-app yemahhala ye-Creative Activities ye-iPhone, iPad ne-Android inalo lomdlalo wekuhlanganisa tifanekiso ngentalo, ingasebentisa tifanekiso temndeni lotikhetha, futsi isebenta ngaphandle kwe-inthanedzi. Akukho i-akhawunti, tikhangiso noma liphuzu."
+    },
+    "gameFaqNo": {
+      "q": "Ingabe kukhona i-app yalomdlalo?",
+      "a": "Hhayi walomdlalo lo. I-app yemahhala ye-Creative Activities ye-iPhone, iPad ne-Android inekuhlanganisa tifanekiso ngentalo netithombo letikhulu netifanekiso temndeni lotikhetha, futsi isebenta ngaphandle kwe-inthanedzi. Lomdlalo uhlala mahhala lapha ku-ibhrawuza yakho."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: tifanekiso letikhulu, letikhangayo",
+    "noscript": "Lomdlalo udinga i-JavaScript livuliwe ku-ibhrawuza yakho. Teluleko letingaphansi isebenta nangaphandle kwayo.",
+    "about": "Mayelana ne-{name}",
+    "aboutAria": "Mayelana nalomdlalo",
+    "noTimer": "Akukho sikhatsi noma liphuzu",
+    "printable": "Lungayiphrinta",
+    "howTo": "Indlela yekudlala i-{name}",
+    "tips": "Teluleko tekudlala ndzawonye",
+    "newToPlayingHtml": "Usaqala ukudlala nomuntfu laphila ne-dementia? Funda <a href=\"/caregiving/how-to-play-together/\">indlela yekudlala emidlalo ndzawonye</a>, kubandzakanya kutsi yini lekufanele uyente uma angasafuni kudlala.",
+    "moreAria": "Lokunye lokungakutfola",
+    "helpfulGuides": "Tincwadzi letisizako",
+    "appTitle": "Yidlale ku-app",
+    "appText": "I-app yemahhala ye-Creative Activities inekuhlanganisa tifanekiso ngentalo netithombo letikhulu netifanekiso temndeni wakho, futsi isebenta ngaphandle kwe-Wi‑Fi. I-iPhone, iPad ne-Android.",
+    "photoAppTitle": "Gcina tifanekiso takho tilungele",
+    "photoAppText": "Ku-app yemahhala ye-Creative Activities, tifanekiso lotikhetha tihlala kudivayisi yakho kulandza ngalesikhatsi, futsi imidlalo isebenta ngaphandle kwe-Wi‑Fi. I-iPhone, iPad ne-Android.",
+    "goodToKnow": "Kuhle kwati",
+    "goodToKnowText": "Lomdlalo wekujabulela nekuchitha sikhatsi ndzawonye. Awuhloli, awulinganisi noma awelaphi lutfo.",
+    "moreGames": "Yetinye imidlalo lenhlanti",
+    "crumb": "Imidlalo"
+  }
+}

@@ -1,0 +1,354 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Larger text: every size is in rem, so one root size scales the page. */
+html[data-text-size='large'] {
+  font-size: 125%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: var(--space-lg);
+}
+
+body {
+  margin: 0;
+  background: var(--gm-background);
+  color: var(--gm-on-surface);
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  overflow-wrap: break-word;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Headlines and large titles are Fraunces; everything that is read stays
+   the same family (DESIGN.md › Type). Tracking stays open: Fraunces may
+   tighten only at hero size. */
+/* A word longer than the line (a long German or Russian compound at large
+   text on a 320 px phone) breaks as a last resort instead of pushing the
+   page wider than the screen (WCAG 1.4.10 reflow). Words that fit are never
+   broken, and nothing is hyphenated. */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: var(--leading-heading);
+  letter-spacing: 0;
+  margin: 0 0 var(--space-md);
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+h4 {
+  overflow-wrap: anywhere;
+  font-weight: 700;
+  line-height: var(--leading-heading);
+  margin: 0 0 var(--space-md);
+  text-wrap: balance;
+}
+h1 {
+  font-size: var(--text-h1);
+  line-height: var(--leading-tight);
+}
+h2 {
+  font-size: var(--text-h2);
+}
+h3 {
+  font-size: var(--text-title-lg);
+  line-height: 1.3;
+}
+
+::selection {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+}
+
+p,
+ul,
+ol,
+dl,
+table,
+blockquote {
+  margin: 0 0 var(--space-md);
+}
+
+a {
+  color: var(--gm-primary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+a:hover {
+  color: var(--gm-on-surface);
+}
+
+:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--gm-outline);
+  margin: var(--space-xl) 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: var(--space-md);
+  top: -100px;
+  z-index: 100;
+  background: var(--gm-on-surface);
+  color: var(--gm-background);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-md);
+  font-weight: 700;
+}
+.skip-link:focus {
+  top: var(--space-md);
+  color: var(--gm-background);
+}
+.skip-link:focus-visible {
+  outline: 3px solid var(--gm-background);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 5px var(--gm-on-surface);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(var(--wide-max) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+.container--narrow {
+  max-width: calc(var(--content-max) + 2 * var(--gutter));
+}
+
+.section {
+  padding-block: var(--space-section);
+}
+.section--linen {
+  background: var(--gm-surface);
+  border-block: 1px solid var(--gm-surface-sunken);
+}
+
+.eyebrow {
+  overflow-wrap: anywhere;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+  margin-bottom: var(--space-sm);
+}
+/* Ornament: a Honey dot, never the only signal (the words are). */
+.eyebrow::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: var(--radius-full);
+  background: var(--gm-accent);
+  box-shadow: 0 0 0 3px var(--gm-primary-container);
+}
+
+.lede {
+  font-size: clamp(1.25rem, 1.1rem + 0.6vw, 1.5rem);
+  line-height: 1.45;
+  color: var(--gm-on-surface-variant);
+  max-width: 38em;
+}
+
+@media (prefers-contrast: more) {
+  .eyebrow {
+    color: #000000;
+    font-weight: 800;
+  }
+  .eyebrow::before {
+    background: #000000;
+    box-shadow: none;
+    border: 2px solid #000000;
+  }
+  .lede {
+    color: #000000;
+  }
+}
+
+@media (forced-colors: active) {
+  .eyebrow {
+    color: CanvasText;
+  }
+  .eyebrow::before {
+    forced-color-adjust: none;
+    background: Highlight;
+    border: 2px solid Highlight;
+    box-shadow: none;
+  }
+  .lede {
+    color: CanvasText;
+  }
+}
+
+.muted {
+  color: var(--gm-on-surface-variant);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Scripts without a bundled font use the platform's own fonts. */
+:root:lang(ar) {
+  --font-sans: 'Geeza Pro', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(hi) {
+  --font-sans: 'Kohinoor Devanagari', 'Noto Sans Devanagari', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(th) {
+  --font-sans: 'Thonburi', 'Noto Sans Thai', 'Leelawadee UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ja) {
+  --font-sans: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Noto Sans JP', Meiryo, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ko) {
+  --font-sans: 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(zh-Hans) {
+  --font-sans: 'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(zh-Hant) {
+  --font-sans: 'PingFang TC', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(bn) {
+  --font-sans: 'Kohinoor Bangla', 'Noto Sans Bengali', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(fa) {
+  --font-sans: 'Geeza Pro', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ur) {
+  --font-sans: 'Geeza Pro', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(mr) {
+  --font-sans: 'Kohinoor Devanagari', 'Noto Sans Devanagari', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(te) {
+  --font-sans: 'Kohinoor Telugu', 'Noto Sans Telugu', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ta) {
+  --font-sans: 'Tamil Sangam MN', 'Noto Sans Tamil', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(gu) {
+  --font-sans: 'Kohinoor Gujarati', 'Noto Sans Gujarati', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(pa) {
+  --font-sans: 'Gurmukhi Sangam MN', 'Noto Sans Gurmukhi', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(kn) {
+  --font-sans: 'Kannada Sangam MN', 'Noto Sans Kannada', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ml) {
+  --font-sans: 'Malayalam Sangam MN', 'Noto Sans Malayalam', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ne) {
+  --font-sans: 'Kohinoor Devanagari', 'Noto Sans Devanagari', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+/* Amharic bundles its own Ethiopic faces: platform fonts (Kefa, Nyala) vary
+   too much between devices. Latin characters stay Roboto and Fraunces. */
+:root:lang(am) {
+  --font-sans: 'Atkinson Hyperlegible Next', 'Roboto', 'Noto Sans Ethiopic', 'Kefa', 'Nyala', system-ui, sans-serif;
+  --font-display: 'Atkinson Hyperlegible Next', 'Noto Serif Ethiopic', 'Noto Sans Ethiopic', 'Kefa', serif;
+}
+:root:lang(my) {
+  --font-sans: 'Myanmar Sangam MN', 'Noto Sans Myanmar', 'Myanmar Text', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(or) {
+  --font-sans: 'Oriya Sangam MN', 'Noto Sans Oriya', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(as) {
+  --font-sans: 'Kohinoor Bangla', 'Noto Sans Bengali', 'Nirmala UI', system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(ps) {
+  --font-sans: 'Geeza Pro', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(sd) {
+  --font-sans: 'Geeza Pro', 'Noto Naskh Arabic', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(el) {
+  --font-sans: 'Noto Sans Greek', 'Segoe UI', Roboto, system-ui, sans-serif;
+  --font-display: var(--font-sans);
+}
+:root:lang(he) {
+  --font-sans: 'Arial Hebrew', 'Noto Sans Hebrew', 'Segoe UI', Tahoma, sans-serif;
+  --font-display: var(--font-sans);
+}
+
+/* Arrows point the way the text reads. */
+[dir='rtl'] svg[data-icon='arrow'] {
+  transform: scaleX(-1);
+}

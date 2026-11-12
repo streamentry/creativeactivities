@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Aqbeż għall-kontenut ewlieni",
+    "brandName": "Creative Activities",
+    "brandTag": "Attivitajiet għal min jgħix bid-dimenzja",
+    "homeLabel": "Il-paġna ewlenija ta' Creative Activities",
+    "mainNav": "Prinċipali",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: ritratti kbar u ċari ta' kikkra te, ġirasol u kelb",
+    "languages": "Lingwa",
+    "englishOnly": "(Ingliż)",
+    "machineTranslated": "Din il-paġna ġiet tradotta awtomatikament u għadha ma ġietx iċċekkjata minn kelliem nattiv.",
+    "readOriginal": "Aqra l-oriġinal bl-Ingliż",
+    "nav": {
+      "games": "Logħob",
+      "activities": "Attivitajiet",
+      "caregiving": "Kura u appoġġ",
+      "brainHealth": "Saħħet il-moħħ"
+    },
+    "faqTitle": "Mistoqsijiet u tweġibiet",
+    "breadcrumb": "Mogħdija tal-paġna",
+    "home": "Paġna ewlenija",
+    "lastUpdated": "L-aħħar aġġornament",
+    "topics": "Suġġetti",
+    "textSize": {
+      "label": "Daqs tat-test",
+      "smaller": "Test standard",
+      "larger": "Test akbar",
+      "contrast": "Kuntrast ogħla"
+    }
+  },
+  "footer": {
+    "play": "Ilgħab",
+    "picturePairs": "Pari ta' ritratti",
+    "conversationCards": "Karti għall-konversazzjoni",
+    "pictureBingo": "Bingo bir-ritratti",
+    "allGames": "Il-logħob kollu",
+    "pictures": "Ritratti x'tipprintja",
+    "activityIdeas": "Ideat għal attivitajiet",
+    "ideas101": "101 idea għal attivitajiet",
+    "lateStage": "Attivitajiet għall-istadju avvanzat",
+    "printable": "Attivitajiet li tista' tipprintja",
+    "allActivities": "L-attivitajiet kollha",
+    "forCaregivers": "Għal dawk li jieħdu ħsieb",
+    "playTogether": "Kif tilagħbu flimkien",
+    "selfCare": "Ħu ħsieb tiegħek innifsek",
+    "brainHealth": "Riċerka dwar saħħet il-moħħ",
+    "faq": "Mistoqsijiet u tweġibiet",
+    "about": "Dwarna",
+    "approach": "L-approċċ tagħna",
+    "howWeWrite": "Kif niktbu",
+    "organizations": "Għall-organizzazzjonijiet",
+    "app": "L-app ta' Creative Activities",
+    "appHelp": "Għajnuna dwar l-app",
+    "support": "Appoġġ",
+    "legal": "Legali",
+    "sitePrivacy": "Privatezza tas-sit",
+    "appPrivacy": "Politika tal-privatezza tal-app",
+    "privacyChoices": "Għażliet tal-privatezza",
+    "terms": "Termini u liċenzja tal-app",
+    "safety": "Sigurtà u użu maħsub",
+    "accessibility": "Aċċessibbiltà",
+    "healthNotice": "Avviż dwar informazzjoni tas-saħħa",
+    "allLegal": "L-informazzjoni legali kollha",
+    "note": "Creative Activities joffri attivitajiet sempliċi flimkien għall-gost. Dan mhuwiex parir mediku, test jew trattament, u ma jiddijanjostika, ma jkejjel u ma jagħti punteġġ lil ħadd. Għal mistoqsijiet dwar is-saħħa, kellmu tabib. F'każ ta' emerġenza, ċemplu l-112.",
+    "publisher": "Ippubblikat minn Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Logħob u Attivitajiet għal Min Jgħix bid-Dimenzja u l-Alzheimer | Creative Activities",
+    "description": "Logħob ħelu bir-ritratti fuq l-internet u ideat ta' attivitajiet għal persuni li jgħixu bid-dimenzja jew bl-Alzheimer u dawk li jieħdu ħsiebhom. Mingħajr reġistrazzjoni, ħin jew punteġġi.",
+    "eyebrow": "Bla ħlas · Mingħajr reklami · Mingħajr reġistrazzjoni · Mingħajr ħin jew punteġġi",
+    "h1": "Logħob u Attivitajiet Kalmi għal Persuni li Jgħixu bid-Dimenzja",
+    "lede": "Logħob sempliċi bir-ritratti, xbihat familjari u attivitajiet biex tgawduhom flimkien—bil-pass tagħkom.",
+    "playGame": "Ilgħab logħba",
+    "findIdeas": "Sib ideat għal attivitajiet",
+    "facts": [
+      "Jaħdem fuq mowbajl, tablet u kompjuter",
+      "Ritratti kbar li jibqgħu jidhru",
+      "Tista' tieqaf f'kull ħin; m'hemm xejn x'titlef"
+    ],
+    "heroApp": "Hemm ukoll app bla ħlas għall-iPhone, iPad u Android, bir-ritratti tal-familja tiegħek stess",
+    "albumNote": "“Żewġ ritratti tal-kikkra tat-te, flimkien.”",
+    "gamesEyebrow": "Ilgħab fil-brawżer tiegħek",
+    "gamesTitle": "Logħob li tista' tilgħab minnufih",
+    "gamesLede": "Kull logħba hija kalma, addattata għall-adulti u tibda malajr. Agħżlu waħda, oqogħdu ħdejn xulxin, u missu l-iskrin wieħed wara l-ieħor.",
+    "seeAllGames": "Ara l-{count} logħba kollha",
+    "howTitle": "Kif taħdem",
+    "steps": [
+      {
+        "title": "Agħżlu xi ħaġa familjari",
+        "text": "Ritratti ta' kikkri tat-te, ġonna, annimali domestiċi u dgħajjes bil-qlugħ. M'hemmx qari jew regoli x'titgħallmu l-ewwel."
+      },
+      {
+        "title": "Oqogħdu ħdejn xulxin",
+        "text": "Ħallihom imissu l-iskrin. Tkellmu dwar ir-ritratti. Jekk ma jaqblux, il-logħba sempliċement tistenna l-għafsa li jmiss."
+      },
+      {
+        "title": "Ieqfu sakemm għadkom qed tieħdu gost",
+        "text": "Logħba waħda hija attività sħiħa. Il-kliem “Biżżejjed għalissa” ikun dejjem fuq l-iskrin."
+      }
+    ],
+    "stageEyebrow": "Lil hinn mill-iskrin",
+    "stageTitle": "Ideat għal attivitajiet għal kull stadju",
+    "stageLede": "Mużika, xogħlijiet ta' kuljum fid-dar, tifkiriet u mumenti sensorjali kalmi, imfassla skont dak li jħossu komdu bih bħalissa.",
+    "ideas101": "101 idea għal attivitajiet",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Stadju bikri",
+        "text": "Komplu agħmlu dak li jħobbu, b'tibdil żgħir: passatempi, ħarġiet, logħob bil-kliem u pjanijiet flimkien.",
+        "label": "Ideat għall-istadju bikri"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Stadju medju",
+        "text": "Xogħlijiet sempliċi u familjari maqsumin f'passi: tiwi, tqassim, mużika, logħob bir-ritratti u mixjiet qosra.",
+        "label": "Ideat għall-istadju medju"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Stadju avvanzat",
+        "text": "Kumdità u qrubija permezz tal-mess, il-ħoss u d-dehra: kura tal-idejn, kanzunetti favoriti, ritratti u sempliċement li tkunu flimkien.",
+        "label": "Ideat għall-istadju avvanzat"
+      }
+    ],
+    "specificHtml": "Qed tfittex xi ħaġa partikolari? Ipprova <a href=\"/activities/alzheimers/\">attivitajiet u logħob għall-Alzheimer</a>, <a href=\"/activities/memory-games/\">logħob kalm tal-memorja</a>, <a href=\"/activities/trivia/\">mistoqsijiet faċli</a> jew <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "approachEyebrow": "L-approċċ tagħna",
+    "approachTitle": "Attività flimkien, mhux test tal-memorja",
+    "approachLede": "Ħafna logħob tal-moħħ huma mibnija fuq il-ħeffa, il-punteġġi u r-rebħ kontinwu. Għal xi ħadd li jgħix bid-dimenzja, dan jista' jinħass bħal eżami. Aħna għamilna bil-maqlub.",
+    "approachLink": "Għaliex infassluhom b'dan il-mod",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "M'hemm xejn x'titlef",
+        "text": "M'hemmx arloġġ, punteġġ, ħajjiet jew telf. Ritratt differenti huwa biss pawża, mhux żball."
+      },
+      {
+        "icon": "eye",
+        "title": "Ir-ritratti jibqgħu jidhru",
+        "text": "Tagħraf minflok tiftakar. It-tqabbil jibda bir-ritratti mikxufa, u għalhekk m'hemm xejn x'tiftakar bil-fors."
+      },
+      {
+        "icon": "people",
+        "title": "Għall-adulti u bid-dinjità",
+        "text": "Kliem ċar u ta' rispett, u ritratti reali. Qatt tpinġijiet tat-tfal jew kliem tat-trabi."
+      },
+      {
+        "icon": "shield",
+        "title": "Privatezza mill-bidu",
+        "text": "Mingħajr kontijiet jew reklami. Ir-ritratti tiegħek qatt ma jitilqu mill-apparat tiegħek."
+      }
+    ],
+    "guidesEyebrow": "Għal dawk li jieħdu ħsieb",
+    "guidesTitle": "Gwidi prattiċi għall-kura ta' kuljum",
+    "allCaregiving": "Il-gwidi kollha dwar il-kura",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Kif tilagħbu logħob flimkien",
+        "text": "Kif tħejju, il-pass tal-logħob, u x'tagħmlu meta logħba ma tibqax pjaċevoli."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Meta jgħidu le għal attività",
+        "text": "Raġunijiet komuni għala jirrifjutaw, u modi ġentili kif terġgħu tippruvaw aktar tard."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Kif tħejji tablet",
+        "text": "Test akbar, inqas interruzzjonijiet u skrin ewlieni wieħed u sempliċi."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Attivitajiet b'xejn x'tipprintja",
+        "text": "Kliem moħbi b'ittri kbar, paġni għall-kulur, bingo u karti għall-konversazzjoni."
+      }
+    ],
+    "researchTitle": "Saħħet il-moħħ: x'tgħid verament ir-riċerka",
+    "researchText": "Tista' tiġi evitata d-dimenzja? Il-logħob tal-moħħ jgħin? Xi ngħidu dwar is-sawm, id-dieta, l-irqad u s-smigħ? Tweġibiet ċari b'sorsi affidabbli, inkluż fejn l-evidenza hija dgħajfa.",
+    "researchLink": "Aqra l-gwidi tar-riċerka",
+    "appEyebrow": "Hemm ukoll app",
+    "appTitle": "Creative Activities fuq iPhone, iPad u Android",
+    "appText": "L-app b'xejn taħdem mingħajr internet u tista' tuża ritratti tal-familja li tagħżel int, miżmuma bħala kopji fuq l-apparat tiegħek. L-istess disinn kalm: erba' madumiet kbar, mingħajr arloġġ, mingħajr punteġġ.",
+    "aboutApp": "Dwar l-app",
+    "faq": [
+      {
+        "q": "X'inhuma logħob tajbin għal persuni li jgħixu bid-dimenzja?",
+        "a": "Il-logħob it-tajjeb ikun sempliċi, familjari u mingħajr pressjoni: stampi kbar biex tqabbel, għażla ta' oġġetti, puzzles faċli, tkompli qwiel magħrufa, tpinġija bil-kulur, tombla bl-istampi u karti għall-konversazzjoni. L-aħjar għażla hija dik li l-persuna tieħu pjaċir biha llum. Evita l-ħinijiet, il-punteġġi u kull ħaġa li tinħass qisha eżami."
+      },
+      {
+        "q": "Dawn il-logħob għad-dimensja huma b'xejn?",
+        "a": "Iva. Kull logħba u materjal biex tipprintja fuq Creative Activities huma b'xejn, mingħajr bżonn ta' kont, reġistrazzjoni jew tniżżil ta' xejn. Il-logħob jaħdem direttament fil-browser tal-internet fuq mowbajl, tablet jew kompjuter."
+      },
+      {
+        "q": "Il-logħob tal-moħħ jipprevjeni d-dimensja?",
+        "a": "L-ebda logħba ma ntwera li tipprevjeni d-dimensja, u Creative Activities ma tgħid qatt li tikkura jew tipprevjeni xi ħaġa. Il-logħob tagħna qiegħed hemm għall-gost u biex tqattgħu ftit ħin flimkien. It-taqsima tagħna dwar is-saħħa tal-moħħ tispjega x'turi u x'ma turix ir-riċerka."
+      },
+      {
+        "q": "Dawn il-logħob huma tajbin għal persuna bl-Alzheimer?",
+        "a": "Iva. Il-marda ta' Alzheimer hija l-aktar kawża komuni ta' dimensja, u l-logħob huwa mfassal apposta għaliha: stampi kbar li jibqgħu jidhru, ftit għażliet, u xejn x'tiftakar jew x'tieħu żball fih. It-tqabbil, l-għażla u t-tkomplija ta' qwiel familjari jiddependu fuq dak li wieħed ilu jaf żmien twil, aktar milli fuq tagħlim ta' affarijiet ġodda."
+      },
+      {
+        "q": "Persuna fi stadju aktar tard tad-dimensja tista' tuża dawn l-attivitajiet?",
+        "a": "Ħafna drabi iva, b'xi ħadd maġenbha. Ibda b'Sib l-istess b'żewġ stampi, Koppji ta' stampi b'erba' kaxxi, tpinġija jew ftit mumenti ta' nifs kalm. Agħmluha qasira, imxi mar-ritmu tagħha u ieqaf meta tara li tkun ħadet biżżejjed."
+      },
+      {
+        "q": "L-informazzjoni tiegħi tibqa' privata?",
+        "a": "Is-sit m'għandux kontijiet u m'għandux reklami. Aħna nużaw Google Analytics biex nifhmu liema paġni jżuru n-nies. Ir-ritratti li tagħżel għal Photo pairs jidhru biss fil-browser tiegħek u qatt ma jittellgħu fuq l-ebda server."
+      },
+      {
+        "q": "Min joħloq Creative Activities?",
+        "a": "Creative Activities huwa tim żgħir li joħloq attivitajiet bl-istampi, kalmi u dinjitużi għall-adulti, maħsuba għall-familji u għal min jieħu ħsieb, kemm fuq l-internet kif ukoll bħala app b'xejn. Aħna m'aħniex tobba, u xejn minn dan m'huwa parir mediku."
+      }
+    ]
+  },
+  "stage": {
+    "early": "bikri",
+    "middle": "medju",
+    "late": "aktar tard",
+    "hintOne": "Spiss ikun tajjeb għall-istadju {list}",
+    "hintMany": "Spiss ikun tajjeb għall-istadji {list}",
+    "labelEarly": "Stadju bikri",
+    "labelMiddle": "Stadju medju",
+    "labelLate": "Stadju aktar tard"
+  },
+  "cards": {
+    "aboutGame": "Dwar din il-logħba",
+    "printable": "Biex tipprintja",
+    "play": "Ilgħab {name} →",
+    "readGuide": "Aqra l-gwida"
+  },
+  "playCta": {
+    "title": "Lesti għal logħba kwieta?",
+    "text": "Stampi kbar, l-ebda ħin, l-ebda punteġġ u m'hemmx għalfejn tirreġistra. Ilagħbu flimkien fil-browser tagħkom.",
+    "play": "Ilgħab logħba",
+    "all": "Ara l-logħob kollu",
+    "aria": "Ilgħab logħba"
+  },
+  "appCta": {
+    "title": "Ħu dawn il-logħob miegħek",
+    "text": "L-app b'xejn ta' Creative Activities għal iPhone, iPad u Android: kaxxi kbar bl-istampi, logħob bir-ritratti tal-familja tiegħek, u pakketti ta' stampi li jaħdmu mingħajr Wi‑Fi. Mingħajr kont, reklami, ħin jew punteġġ.",
+    "appStore": "Niżżel mill-App Store",
+    "googlePlay": "Niżżel minn Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Dwar l-app",
+    "aria": "Niżżel l-app"
+  },
+  "sections": {
+    "activities": {
+      "label": "Attivitajiet",
+      "title": "Attivitajiet għal Persuni bid-Dimensja",
+      "seo": "Attivitajiet għal Persuni bid-Dimensja: Ideat skont l-Istadju",
+      "description": "Ideat ta' attivitajiet għal persuni li jgħixu bid-dimensja f'kull stadju: mużika, memorji mill-imgħoddi, faċendi ta' kuljum, mumenti sensorjali, snajja', barra fin-natura u materjal b'xejn biex tipprintja.",
+      "lede": "Attività ta' siwi hija kull ħaġa li ġġib serħan il-moħħ, skop jew mument ta' qrubija. Ibda b'dak li l-persuna minn dejjem kienet tħobb tagħmel, u addattah għal-lum."
+    },
+    "caregiving": {
+      "label": "Kura u sostenn",
+      "title": "Gwidi għal Min Jieħu Ħsieb",
+      "seo": "Gwidi dwar id-Dimensja għal Min Jieħu Ħsieb: Għajnuna Prattika ta' Kuljum",
+      "description": "Gwidi prattiċi u mimlija għożża għal dawk li jieħdu ħsieb persuna bid-dimensja: nilagħbu flimkien, komunikazzjoni, meta jgħidu le, dwejjaq u aġitazzjoni lejn tmiem il-ġurnata, tablets, kif tagħżel l-apps u kif tieħu ħsieb tiegħek innifsek.",
+      "lede": "Għajnuna ċara u prattika għall-mumenti ta' kuljum meta tkun qed tieħu ħsieb persuna li tgħix bid-dimensja, kif ukoll biex tieħu ħsieb tiegħek innifsek."
+    },
+    "brain-health": {
+      "label": "Saħħet il-moħħ",
+      "title": "Saħħet il-Moħħ: X'Turi r-Riċerka",
+      "seo": "Saħħet il-Moħħ u r-Riskju ta' Dimensja: X'Turi r-Riċerka",
+      "description": "Tista' tiġi evitata d-dimensja? Gwidi onesti u bbażati fuq is-sorsi dwar il-fatturi ta' riskju għad-dimensja, logħob tal-moħħ, sawm, dieta, eżerċizzju, irqad, smigħ u l-ewwel sinjali ta' twissija.",
+      "lede": "X'juru verament studji kbar dwar kif wieħed jista' jnaqqas ir-riskju tad-dimensja, spjegat b'mod sempliċi, inkluż fejn l-evidenza hija dgħajfa jew imħallta. Informazzjoni ġenerali, mhux parir mediku."
+    }
+  },
+  "guide": {
+    "updated": "Aġġornat",
+    "minuteRead": "Qari ta' {n} minuti",
+    "byTeam": "Mit-tim ta' Creative Activities",
+    "howWeWrite": "Kif niktbu",
+    "shortAnswer": "Fil-qosor",
+    "onThisPage": "F'din il-paġna ({n} taqsimiet)",
+    "commonQuestions": "Mistoqsijiet komuni",
+    "sources": "Sorsi",
+    "sourcesNote": "Aħna nagħtu links għall-organizzazzjonijiet u l-istudji li fuqhom tibbaża din il-paġna. Kull wieħed ġie vverifikat meta ġiet aġġornata l-paġna.",
+    "tryTogether": "Ippruvaw flimkien",
+    "relatedGuides": "Gwidi relatati",
+    "related": "Relatati",
+    "startHere": "Ibda minn hawn"
+  },
+  "healthNotice": {
+    "aria": "Avviż dwar informazzjoni tas-saħħa",
+    "title": "Informazzjoni ġenerali, mhux parir mediku",
+    "textHtml": "Din il-paġna tiġbor fil-qosor riċerka ppubblikata għall-familji. Ma tistax tgħidlek x'inhu tajjeb għal persuna partikolari. Kellem tabib qabel ma tbiddel id-dieta, l-eżerċizzju, l-irqad, il-mediċini jew is-supplimenti. F'każ ta' konfużjoni f'daqqa jew bidliet oħra f'daqqa, fittex għajnuna medika minnufih. <a href=\"/medical-disclaimer/\">Aqra l-avviż tagħna dwar informazzjoni tas-saħħa</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Attività Flimkien, Mhux Eżami tal-Memorja",
+      "seoTitle": "Dwar Creative Activities: Kif Naħdmu",
+      "description": "Għaliex il-logħob ta' Creative Activities m'għandux ħinijiet, punteġġi jew sensiliet, għaliex l-istampi jibqgħu jidhru, u dak li ngħidu u ma ngħidux dwar id-dimensja.",
+      "crumb": "Kif naħdmu",
+      "lede": "Creative Activities joħloq attivitajiet bl-istampi, kalmi u dinjitużi, li min jieħu ħsieb u persuna li tgħix bid-dimensja jistgħu jgawdu flimkien ma' ġenb xulxin.",
+      "bodyHtml": "<h2>Fiex nemmnu</h2><p>L-iskop ta' attività huwa l-mument innifsu: konversazzjoni, tbissima, is-sodisfazzjon li tqabbel żewġ stampi flimkien, jew sempliċement li toqogħdu bilqiegħda qrib xulxin. Mhuwiex biex tkejjel lil xi ħadd, tisforzahom aktar jew tipprova xi ħaġa.</p><p>Ħafna apps għat-taħriġ tal-moħħ huma ddisinjati madwar il-ħeffa, il-punti, serje ta' suċċessi konsekuttivi u livelli. Għal persuna li tgħix bid-dimensja, dan jista' jinħass bħal eżami li ma tistax tgħaddi minnu. Aħna ddisinjajna l-oppost, u nżommu ma' dawn ir-regoli:</p><ul><li><strong>Xejn minn xiex tfalli.</strong> L-ebda arloġġ, punteġġ, kalkulatur tal-passi, ħajjiet, serje konsekuttivi, konfetti jew countdowns, fuq l-ebda skrin.</li><li><strong>Għarfien minflok tiftakar bil-ment.</strong> L-istampi jibqgħu jidhru b'mod awtomatiku. Il-mistoqsijiet iħeġġu l-konversazzjoni u qatt ma jistaqsu għal ismijiet jew memorji bħallikieku test.</li><li><strong>Kbir, sempliċi u stabbli.</strong> Test u stampi kbar, kuntrast qawwi, u buttuni u kontrolli li jibqgħu fl-istess post.</li><li><strong>Dinjità ta' adulti.</strong> Ritratti mid-dinja reali u kliem sempliċi u mimli rispett. L-ebda tpinġijiet tat-tfal, tifħir infantili jew premjijiet b'emojis.</li><li><strong>Mod faċli kif tieqaf.</strong> “Lest għalissa” tidher dejjem. Li tieqaf f'nofs triq huwa riżultat tajjeb.</li><li><strong>Privat min-natura tiegħu.</strong> L-ebda kont jew riklami. Ir-ritratti li tagħżel jibqgħu fuq l-apparat tiegħek.</li></ul><h2>Dak li ma nistqarrux</h2><p>Il-logħob tagħna huwa għall-pjaċir u għall-qrubija. Huma la jiddijanjostikaw, la jittestjaw, la jkejlu, la jittrattaw, la jnaqqsu r-ritmu u lanqas ma jipprevjenu d-dimensja jew il-marda ta' Alzheimer, u ħadd m'għandu jagħżilhom għal dik ir-raġuni. Meta niktbu dwar ir-riċerka fuq <a href=\"/brain-health/\">il-paġni tagħna dwar is-saħħa tal-moħħ</a>, ngħidu b'mod ċar fejn l-evidenza hija dgħajfa, u qatt ma norbtuha mal-logħob tagħna stess.</p><h2>Min aħna</h2><p>Creative Activities huwa tim żgħir u indipendenti. Aħna m'aħniex tobba jew speċjalisti kliniċi. Il-gwidi tagħna huma miktuba abbażi ta' linji gwida ppubblikati minn organizzazzjonijiet bħan-National Institute on Aging u l-Alzheimer’s Association, u kull gwida telenka s-sorsi tagħha. Aqra <a href=\"/editorial-policy/\">kif niktbu u nivverifikaw il-paġni tagħna</a>.</p><h2>Għidilna x'jista' jkun ta' għajnuna</h2><p>Nixtiequ ħafna nisimgħu x'jaħdem għalik u x'ma jaħdimx, speċjalment minn nies li jgħixu bid-dimensja, qraba li jieħdu ħsiebhom u persunal tal-attivitajiet. Ibgħat email lil <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Kif Niktbu u Nivverifikaw il-Paġni Tagħna",
+      "seoTitle": "Politika Editorjali",
+      "description": "Kif Creative Activities jirriċerka, jikteb, isib is-sorsi u jaġġorna l-paġni tiegħu dwar l-attivitajiet għad-dimensja u s-saħħa tal-moħħ, u x'inhu dak li qatt ma nippubblikaw.",
+      "crumb": "Politika editorjali",
+      "bodyHtml": "<h2>Is-sorsi tagħna</h2><p>Aħna nsejsu l-gwidi tagħna fuq gwida pubblika minn organizzazzjonijiet bħan-National Institute on Aging, is-CDC, l-Alzheimer’s Association, l-Alzheimer’s Foundation of America, il-Family Caregiver Alliance u l-NHS, kif ukoll fuq riċerka riveduta mill-pari bħal reviżjonijiet ta' Cochrane u provi kliniċi kbar. Kull gwida telenka s-sorsi li tiddependi fuqhom. Niftħu kull sors qabel ma nikkwotawh, u nirrappurtaw biss dak li fil-fatt jgħid.</p><h2>Kif niktbu</h2><ul><li>Prattiku l-ewwel: x'tista' tagħmel illum, b'lingwaġġ sempliċi.</li><li>Onesti dwar l-evidenza: ngħidu “marbut ma'”, “jista' jkun” u “l-evidenza mhijiex ċara” meta dik tkun il-verità.</li><li>B'rispett: niktbu dwar nies li jgħixu bid-dimensja bħala adulti, u qatt ma nużaw kliem ta' eżaminazzjoni jew li jġiegħel lil xi ħadd iħossu inferjuri.</li><li>Ebda kontenut ivvintat: l-ebda statistika, kwotazzjoni, espert, studju, reviżjoni jew xhieda maħluqa minn żniedna.</li></ul><h2>Min jirrevedi l-paġni tagħna</h2><p>Il-paġni huma miktuba u vverifikati mit-tim ta' Creative Activities, bl-għajnuna ta' għodod tal-kitba bl-intelliġenza artifiċjali għar-riċerka u l-abbozzar. Kull paġna tiġi vverifikata mas-sorsi tagħha mit-tim. Il-paġni tagħna <strong>ma ġewx</strong> riveduti minn tabib jew professjonist kliniku ieħor, u ma ngħidu xejn bil-kontra. Huma informazzjoni ġenerali, u mhux parir mediku.</p><h2>Dak li qatt ma nippubblikaw</h2><ul><li>Stqarrijiet li xi logħba, ikel, suppliment, sawm jew rutina jipprevjenu, jittrattaw, inaqqsu r-ritmu jew ifejqu d-dimensja.</li><li>Testijiet, kwiżżijiet jew punteġġi li jagħtu x'jifhmu li xi ħadd għandu, jew m'għandux, id-dimensja.</li><li>Pariri biex tibda, twaqqaf jew tbiddel xi mediċina.</li><li>Reklami jew kontenut sponsorjat moħbi ta' gwida.</li></ul><h2>Aġġornamenti u korrezzjonijiet</h2><p>Kull paġna turi d-data ta' meta ġiet aġġornata l-aħħar darba. Jekk issib xi żball jew sors skadut, jekk jogħġbok ibgħat email lil <a href=\"mailto:{email}\">{email}</a> u aħna nivverifikawh mill-ewwel.</p>"
+    },
+    "faq": {
+      "title": "Mistoqsijiet u Tweġibiet",
+      "seoTitle": "Logħob u Attivitajiet għad-Dimensja: Mistoqsijiet u Tweġibiet",
+      "description": "Tweġibiet għal mistoqsijiet komuni dwar logħob u attivitajiet għad-dimensja: liema logħob tista' tipprova, kemm iddum tilgħab, ideat għal stadji aktar avvanzati, is-saħħa tal-moħħ u l-privatezza.",
+      "crumb": "Mistoqsijiet u tweġibiet",
+      "lede": "Tweġibiet qosra u sempliċi għall-mistoqsijiet li dawk li jieħdu ħsieb jistaqsu l-aktar.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Dwar il-logħob",
+          "items": [
+            {
+              "q": "X'inhuma l-aqwa logħbiet għal persuna li tgħix bid-dimensja?",
+              "a": "L-aqwa logħob huwa dak familjari, sempliċi u bla pressjoni, u l-logħba t-tajba hija kwalunkwe waħda li l-persuna tieħu pjaċir biha llum. It-tqabbil ta' stampi bi stampi li jibqgħu jidhru, l-għażla u l-issortjar, jigsaws faċli, it-tkomplija ta' qawwiet magħrufa, it-tpinġija bil-kulur u l-bingo bl-istampi kollha jmorru tajjeb ma' ħafna nies. Evita tajmers, punteġġi u kull ħaġa li tinħass bħal eżami."
+            },
+            {
+              "q": "Il-logħob huwa tassew b'xejn?",
+              "a": "Iva. Il-logħob u l-materjal kollu biex jiġi stampat huma b'xejn, mingħajr ebda kont, reġistrazzjoni, tniżżil jew reklami."
+            },
+            {
+              "q": "Għaliex m'hemmx punteġġi, livelli jew arloġġi tal-ħin?",
+              "a": "Il-ħeffa u l-punteġġi jibdlu attività pjaċevoli f'eżami, u dan jista' joħloq mistħija jew frustrazzjoni. Aħna niffukaw fuq it-tgawdija u l-ħin flimkien, biex ma jkun hemm xejn x'tfalli u tkunu tistgħu tieqfu f'kull ħin."
+            },
+            {
+              "q": "Liema apparat jaħdem l-aħjar?",
+              "a": "Kull mowbajl, tablet jew kompjuter bi brawser modern tal-internet. Tablet fuq stand fuq mejda spiss ikun l-aktar mod komdu biex żewġ persuni jilagħbu ħdejn xulxin. Laptop imqabbad ma' televixin jaħdem tajjeb ħafna għall-gruppi."
+            },
+            {
+              "q": "Nistgħu nilagħbu b'ritratti tal-familja tagħna?",
+              "a": "Iva. Photo pairs ibiddel bejn 2 u 6 ritratti li tagħżel int f'logħba ta' tqabbil. Ir-ritratti jibqgħu fil-brawser tiegħek u la jittellgħu fuq l-internet u lanqas jiġu ssejvjati."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Attivitajiet u kura",
+          "items": [
+            {
+              "q": "Kemm għandha ddum attività?",
+              "a": "Spiss bejn 10 u 20 minuta jkunu biżżejjed, u kultant anke 2 minuti jkunu suċċess. Oqgħod attent għal sinjali ta' għeja jew frustrazzjoni u ieqaf sakemm l-esperjenza tkun għadha pjaċevoli. M'hemmx tul ta' ħin ideali."
+            },
+            {
+              "q": "X'tagħmel jekk ma jkunux iridu jagħmlu attività?",
+              "a": "Irrispetta r-rifjut, u erġa' pprova aktar tard jew b'mod differenti. Ir-rifjut jista' jiġi minħabba għeja, uġigħ, nuqqas ta' fiduċja jew sempliċement għax ma jkunx hemm interess. Ara l-gwida tagħna dwar x'tista' tagħmel meta jgħidu le."
+            },
+            {
+              "q": "Liema attivitajiet huma tajbin għall-istadji aktar avvanzati tad-dimensja?",
+              "a": "Kumdità u s-sensi: smigħ tal-mużika favorita, massaġġi tal-idejn bil-krema, tħaris lejn ritratti flimkien, iż-żamma ta' kutra ratba, bilqiegħda barra, jew logħba sempliċi ħafna bl-istampi b'xi ħadd maġenbhom. Il-gwida tagħna għall-istadji aktar avvanzati toffri ħafna aktar ideat."
+            },
+            {
+              "q": "Hemm attivitajiet għal gruppi f'dar tal-anzjani?",
+              "a": "Iva. Picture bingo għandu karti li tista' tipprintjahom u sejħa fuq l-iskrin, u Finish the saying flimkien ma' Conversation cards jaħdmu tajjeb meta jinqraw b'leħen għoli. Il-gwida tagħna għall-gruppi fid-djar tal-anzjani tispjega d-daqs tal-grupp, kif tpoġġu u kif tadattaw għal abbiltajiet differenti."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Is-saħħa tal-moħħ",
+          "items": [
+            {
+              "q": "Il-logħob jista' jipprevjeni jew inaqqas ir-ritmu tad-dimensja?",
+              "a": "L-ebda logħba ma ntwera li tipprevjeni d-dimensja, u l-logħob tagħna ma jagħmel l-ebda stqarrija bħal din. L-istimulazzjoni konjittiva f'ambjent soċjali wriet benefiċċji żgħar fir-riċerka għal persuni b'dimensja ħafifa jew moderata, iżda dan huwa differenti minn logħba li tipprevjeni l-mard. Aħna noffru logħob għall-pjaċir u għall-qrubija ta' bejnietkom."
+            },
+            {
+              "q": "Id-dimensja tista' tiġi pprevenuta?",
+              "a": "Mhux b'ċertezza. Ir-riċerka torbot 14-il fattur tas-saħħa u tal-istil tal-ħajja mar-riskju tad-dimensja, bħat-telf tas-smigħ, il-pressjoni għolja, in-nuqqas ta' attività fiżika u l-iżolament soċjali. L-indirizzar tagħhom jista' jnaqqas ir-riskju għal xi nies, iżda ħafna nies li jagħmlu kollox sew xorta waħda tiżviluppalhom id-dimensja. Qatt mhu tort ta' ħadd."
+            },
+            {
+              "q": "Is-sawm intermittenti huwa tajjeb għas-saħħa tal-moħħ?",
+              "a": "L-evidenza fuq il-bniedem hija limitata u għadha fil-bidu tagħha, u ħafna mir-riċerka saret fuq l-annimali. Is-sawm jista' jkun ta' riskju għall-anzjani, speċjalment b'mediċini tad-dijabete jew telf ta' piż mhux intenzjonat, u mhux rakkomandat għal nies li jgħixu bid-dimensja. Kellem tabib qabel ma tbiddel id-dieta tiegħek."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Privatezza u sigurtà",
+          "items": [
+            {
+              "q": "Tiġbru xi informazzjoni?",
+              "a": "M'hemmx kontijiet jew reklami. Nużaw Google Analytics biex ngħoddu ż-żjarat u naraw liema paġni qed jgħinu, u l-brawser tiegħek jiftakar jekk attivajtx il-ħsejjes ħfief. Ritratti li tagħżel għal Photo pairs qatt ma jittellgħu fuq l-internet. Ara l-avviż tal-privatezza għal aktar dettalji."
+            },
+            {
+              "q": "Dan huwa parir mediku?",
+              "a": "Le. Creative Activities huwa għar-rikreazzjoni u għal informazzjoni ġenerali. Għal mistoqsijiet dwar is-saħħa, kellem tabib, u f'każ ta' emerġenza ċempel 112."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Aktar dettalji: <a href=\"/caregiving/how-to-play-together/\">kif tilagħbu flimkien</a>, <a href=\"/caregiving/when-they-say-no/\">meta jgħidu le</a>, <a href=\"/activities/late-stage/\">attivitajiet għal stadji avvanzati</a> u <a href=\"/brain-health/can-dementia-be-prevented/\">id-dimensja tista' tiġi pprevenuta?</a>"
+    },
+    "handout": {
+      "title": "Logħob Ħafif u b'Xejn għal Nies li Jgħixu bid-Dimensja",
+      "seoTitle": "Materjal Stampabbli: Logħob b'Xejn fuq l-Internet għad-Dimensja",
+      "description": "Fuljett ta' paġna waħda li jista' jiġi stampat għall-familji u għal dawk li jieħdu ħsieb, dwar logħob ħafif bl-istampi u b'xejn għal persuni li jgħixu bid-dimensja, addattat għal gruppi ta' appoġġ u pakketti ta' kura.",
+      "crumb": "Fuljett stampabbli",
+      "lede": "Ipprintja din il-paġna għal grupp ta' appoġġ, pakkett ta' kura jew biex twaħħalha mal-friġġ. Uża l-għażla tal-istampar tal-brawser tiegħek; il-menus u l-buttuni ma jidhrux fuq il-karta stampata.",
+      "introHtml": "<p>Stampi kbar, kliem sempliċi u xejn fejn tista' tfalli. B'xejn fuq mowbajl, tablet jew kompjuter, mingħajr ebda reġistrazzjoni, reklami, arloġġi tal-ħin jew punteġġi. Poġġu ħdejn xulxin u ħuduha bid-dawra.</p>",
+      "gamesTitle": "Logħob x'tippruvaw flimkien",
+      "restHtml": "<h2>Ftit suġġerimenti</h2><ul><li>Agħżel ħin tal-ġurnata meta l-persuna tkun tħossha l-aħjar.</li><li>Ibda bl-eħfef għażla. Erba' kaxxi huma biżżejjed.</li><li>Tkellmu dwar l-istampi. Il-konversazzjoni spiss tkun l-isbaħ parti.</li><li>Ieqaf sakemm l-esperjenza tkun għadha pjaċevoli. Li tieqaf kmieni huwa riżultat tajjeb.</li></ul><h2>Ukoll fuq is-sit</h2><ul><li>Materjal b'xejn biex jiġi stampat: tfittix tal-kliem b'kitba kbira, paġni għall-kulur, karti tal-konversazzjoni u tombla bl-istampi.</li><li>Ideat ta' attivitajiet għal kull stadju, u gwidi dwar kif tilagħbu flimkien u kif tieħu ħsieb tiegħek innifsek.</li></ul><p class=\"muted\">Għat-tgawdija u għall-ħin flimkien. Mhux parir mediku, test jew kura. Creative Activities huwa ppubblikat minn Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Għal Djar tal-Anzjani, Libreriji u Gruppi ta' Appoġġ",
+      "seoTitle": "Attivitajiet Ħielsa tad-Demenzja għal Djar tal-Kura u Gruppi",
+      "description": "Kif djar tal-kura, programmi ta' kuljum għal adulti, libreriji, aġenziji tal-anzjani u gruppi ta' appoġġ jużaw il-logħbiet ħielsa tagħna għad-demenzja, flimkien ma' kif iżidu lilna f'lista ta' riżorsi.",
+      "crumb": "Għal organizzazzjonijiet",
+      "lede": "Kollox f'dan il-websajt huwa ħieles għall-użu ma' residenti, membri u klijenti, mingħajr kont, liċenzja jew ħlas. Din il-paġna tispjega x'hemm hawn u kif tinqasam.",
+      "shortText": "{name}: logħbiet ħfief b'stampi u gwidi ta' attivitajiet għal persuni li qed jgħixu bid-demenzja u għal min jieħu ħsieb tagħhom. Ma teħtieġx tirreġistra, ma hemm l-ebda ħin u l-ebda punteġġ.",
+      "longText": "{name} ({domain}) joffri {count} logħba ħielsa fuq il-browser magħmula għal persuni li qed jgħixu bid-demenzja, inklużi pari ta' stampi b'l-istampi miftuħa, puzzle faċli, sortering, kliem familjari u bingo bl-istampi b'kartelli li jistgħu jiġu stampati. Ma hemm l-ebda kont, reklam, ħin jew punteġġ. Is-sit fih ukoll gwidi ta' attivitajiet b'lingwa sempliċi għal kull stadju tad-demenzja, li jirreferu għal National Institute on Aging u Alzheimer's Association.",
+      "useTitle": "X'jistgħu jużaw l-organizzazzjonijiet",
+      "gamesItemHtml": "<strong>{count} logħbiet fuq il-browser</strong> li jaħdmu fuq laptop, tablet jew TV konness ma' kompjuter. Ma teħtieġ l-ebda installazzjoni, kont jew tniżżil. Ara <a href=\"/games/\">il-logħbiet kollha</a>.",
+      "printablesLabel": "{count} affarijiet li jistgħu jiġu stampati:",
+      "printablesAfter": "Uża l-buttuna Stampa f'kull paġna.",
+      "moreItemsHtml": "<li><strong>Formati għal gruppi:</strong> <a href=\"/games/picture-bingo/\">Bingo bl-istampi</a> għandu kartelli li jistgħu jiġu stampati u min isejjaħ fuq l-iskrin, u <a href=\"/activities/trivia/\">trivja faċli</a> għandha 50 mistoqsija b'għażliet ta' tweġiba u punti biex titkellmu dwarhom.</li><li><strong>Gwidi ta' attivitajiet</strong> għall-persunal u għall-familji, skont l-istadju u t-tip, miktuba b'lingwa sempliċi u b'sorsi. Ibda b'<a href=\"/activities/ideas/\">101 idea ta' attività</a> jew b'<a href=\"/activities/care-home-groups/\">attivitajiet ta' grupp għad-djar tal-kura</a>.</li>",
+      "restHtml": "<h2>Kif jużaw il-gruppi</h2><ul><li><strong>Djar tal-kura u kura tal-memorja:</strong> bingo bl-istampi jew tlestija tal-kliem fuq it-TV tal-kamra komuni, b'persuna waħda li tilmaħ għall-grupp.</li><li><strong>Programmi ta' kuljum għal adulti:</strong> stazzjon b'tablet bil-Pari ta' stampi imwaħħal għal erba' kaxxi, għal sessjonijiet qosra wieħed għal wieħed.</li><li><strong>Libreriji pubbliċi:</strong> tfittxija tal-kliem stampata u kartelli ta' konverżazzjoni f'kits tal-memorja, u s-sit immarkat fuq it-tablets tal-librerija.</li><li><strong>Gruppi ta' appoġġ għal min jieħu ħsieb u kafè tal-memorja:</strong> <a href=\"/handout/\">fuljett stampabbli ta' paġna waħda</a> għall-familji biex jieħdu d-dar.</li><li><strong>Sptarijiet u min jippjana l-ħruġ mill-isptar:</strong> il-fuljett fil-pakketti għal min jieħu ħsieb, għal xi ħaġa kalma x'tagħmel fid-dar jew ħdejn is-sodda.</li></ul><h2>Dak li ma nagħmlux</h2><p>Il-logħbiet huma għall-pjaċir u għal ħin flimkien. Ma jiddijanjostikawx, ma jittestjawx, ma jagħtux punteġġ, ma jikkurawx u ma jrallentawx id-demenzja, u nitolbu lill-organizzazzjonijiet biex ma jiddeskrivuhomx hekk. M'hemm l-ebda reklam, u l-logħbiet ma jitolbux ismijiet, dettalji dwar is-saħħa jew ritratti biex jitgħabbew. Is-sit juża Google Analytics biex jgħodd iż-żjarat; l-<a href=\"/privacy/\">avviż dwar il-privatezza</a> tagħna jispjega dak li jiġbor. Ir-ritratti użati f'<a href=\"/games/photo-pairs/\">Pari ta' ritratti</a> jibqgħu fil-browser.</p><h2>Żid lilna fil-lista tar-riżorsi tiegħek</h2><p>Jekk iżżomm lista ta' riżorsi għal min jieħu ħsieb, tkun milqugħa li tgħaqqad għal <a href=\"/\">{domain}</a>. Tista' tikkopja kwalunkwe waħda mid-deskrizzjonijiet.</p>",
+      "shortTitle": "Deskrizzjoni qasira",
+      "longTitle": "Deskrizzjoni itwal",
+      "linksHtml": "<p>Paġni utli biex tgħaqqad direttament: <a href=\"/games/\">logħbiet ħielsa</a>, <a href=\"/activities/printable/\">affarijiet ħielsa li jistgħu jiġu stampati</a>, <a href=\"/activities/alzheimers/\">attivitajiet għall-Alzheimer</a> u <a href=\"/caregiving/how-to-play-together/\">kif tilagħbu flimkien</a>.</p><h2>Mistoqsijiet jew korrezzjonijiet</h2><p>Jekk xi ħaġa fuq is-sit hija ħażina jew mhix ċara, jew jekk il-ħtiġijiet ta' residenti ma jiġux milqugħa minn dak li hemm hawn, jekk jogħġbok għidilna fuq <a href=\"mailto:{email}\">{email}</a>. Jekk jogħġbok tibgħatx informazzjoni personali jew dwar is-saħħa ta' residenti jew klijenti.</p>"
+    },
+    "app": {
+      "title": "L-Applikazzjoni Creative Activities",
+      "seoTitle": "L-Applikazzjoni Creative Activities għal iPhone u Android",
+      "description": "L-applikazzjoni ħielsa Creative Activities: qbil ħafif ta' ritratti b'erba' kaxxi kbar, ritratti tal-familja miżmuma fuq it-tagħmir tiegħek, pakketti ta' stampi offline u mingħajr kont.",
+      "crumb": "L-applikazzjoni",
+      "lede": "Dak kollu li tħobb fuq il-websajt, f'applikazzjoni li taħdem offline u tista' tuża ritratti tal-familja li tagħżel int.",
+      "worksOn": "Taħdem fuq {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Ibda bil-ftit</h2><p>Ibda b'erba' kaxxi kbar u stampi familjari. Ħalli l-istampi jidhru, jew aħbihom meta tħossok komdu tagħmel hekk. Il-modalità kwieta m'għandhiex ħin, punteġġ jew penalitajiet. Agħżel 4, 6, 8 jew 12-il kaxxa.</p><h2>Agħmilha personali</h2><p>Agħżel ritratti tal-familja mill-għażla tar-ritratti fuq it-tagħmir tiegħek. L-app tissejvja kopji iżgħar għall-attivitajiet tagħha. Ma tfittixx fil-librerija tiegħek u ma tbiddel xejn mir-ritratti oriġinali, u żżomm sa 24 ritratt f'kull kollezzjoni.</p><h2>Ħarsu flimkien, bil-kwiet</h2><p>Araw stampa waħda kull darba. Mistoqsijiet fakultattivi jħajrukom tħalltu kelma mingħajr ma titolbu lil ħadd jiftakar ismijiet jew jagħti tweġiba korretta. Li tħarsu lejn l-istampa huwa biżżejjed.</p><h2>Taħdem ukoll mingħajr internet</h2><p>L-istampi tal-bidu u t-tmien pakketti ta' stampi kollha huma inklużi mal-app. Il-kopji tar-ritratti importati jaħdmu mingħajr internet. Jekk tagħżel ritratti oriġinali merfugħa fuq l-iCloud biss, jista' jkollok bżonn konnessjoni tal-internet.</p><h2>L-ebda kont, l-ebda server biex jissinkronizza r-ritratti</h2><p>Il-kopji tar-ritratti tal-familja jibqgħu fl-app fuq it-tagħmir stess. Tista' tneħħi l-kopji mingħajr ma tħassar ir-ritratti oriġinali. Il-kopji ta' sigurtà tat-tagħmir jistgħu jinkludu d-dejta tal-app. Aqra l-<a href=\"/app-privacy/\">politika tal-privatezza tal-app</a>, u l-<a href=\"/help/\">għajnuna tal-app</a> tispjega kull pass fid-dettall.</p>",
+      "disclaimer": "Creative Activities hija maħsuba għar-rikreazzjoni u għall-konversazzjoni flimkien. Ma tagħmilx dijanjosi, ma tikkurax, ma tevitax u ma tkejjilx id-dimenzja jew il-marda ta' Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Logħob Online Bla Ħlas għad-Dimenzja u l-Alzheimer",
+    "description": "Logħob online bla ħlas għal persuni anzjani li jgħixu bid-dimenzja jew l-Alzheimer: tqabbil ta' stampi, puzzles ħfief, għażla skont it-tip, qwiel, tpinġija, tombla. Mingħajr reġistrazzjoni, ħin jew punteġġi.",
+    "crumb": "Logħob",
+    "h1": "Logħob Kalm għal Persuni li Jgħixu bid-Dimenzja",
+    "lede": "{count} logħba bla ħlas biex tilagħbuhom flimkien fil-brawżer tiegħek. Stampi kbar, kliem sempliċi, u xejn fejn tiżbalja: l-ebda ħin, l-ebda punteġġ, u l-ebda reġistrazzjoni.",
+    "listName": "Logħob kalm għal persuni li jgħixu bid-dimenzja",
+    "byStageTitle": "Kif tagħżel logħba skont l-istadju",
+    "byStageLede": "L-istadji huma biss gwida ġenerali. Imxi ma' dak li l-persuna tieħu gost bih u dak li jħossha komda tagħmel illum.",
+    "stageCol": "Stadju",
+    "gamesCol": "Logħob li spiss ikun addattat",
+    "moreHtml": "Aktar ideat 'il bogħod mill-iskrin: <a href=\"/activities/ideas/\">101 attività għal persuni li jgħixu bid-dimenzja</a>, <a href=\"/activities/alzheimers/\">attivitajiet u logħob għall-Alzheimer</a>, <a href=\"/activities/memory-games/\">logħob kalm tal-memorja</a> u <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "faq": [
+      {
+        "q": "B'liema logħba għandna nibdew?",
+        "a": "Il-logħba Picture pairs b'erba' kaxxi hija għażla kalma għall-bidu. Jekk l-għażla bejn l-istampi tinħass wisq tqila, ippruvaw Find the same b'żewġ stampi. Għal grupp, ippruvaw Picture bingo."
+      },
+      {
+        "q": "Il-logħob jaħdem fuq iPad jew mowbajl?",
+        "a": "Iva. Kull logħba taħdem fil-brawżer fuq mowbajls, tablets u kompjuters, u l-istampi jikbru biex jimlew l-iskrin. Tablet fuq riffa spiss tkun l-aktar komda għal żewġ persuni."
+      },
+      {
+        "q": "Dan il-logħob huwa tajjeb għal xi ħadd li jgħix bl-Alzheimer?",
+        "a": "Iva. Dawn il-logħbiet saru apposta għal persuni li jgħixu bid-dimenzja, inkluż l-Alzheimer, li hija l-aktar kawża komuni. L-istampi jibqgħu jidhru, hemm ftit għażliet biss, u m'hemm l-ebda limitu ta' ħin jew punteġġi, sabiex il-logħob jiffoka fuq li wieħed jagħraf affarijiet familjari aktar milli jiftakar affarijiet ġodda."
+      },
+      {
+        "q": "Dawn huma logħob tal-memorja għall-anzjani?",
+        "a": "Huma logħob ta' tqabbil u ta' stampi li kull anzjan jista' jieħu gost bihom, iżda huma mfassla biex ma jittestjawx il-memorja: f'Picture pairs l-istampi jibqgħu jidhru sakemm ma tagħżilx mod ieħor. Il-gwida tagħna dwar logħob tal-memorja għal anzjani li jgħixu bid-dimenzja tispjega kif kull logħba tal-memorja tista' tinżamm kalma u kwieta."
+      },
+      {
+        "q": "Hemm logħob għal gruppi f'dar tal-anzjani?",
+        "a": "Iva. Picture bingo toffri karti li jistgħu jiġu stampati u sejħa tal-istampi fuq l-iskrin, u Finish the saying u Conversation cards jaħdmu tajjeb ħafna meta jinqraw b'leħen għoli lil grupp."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad u Android",
+    "requirements": "iOS 15 jew aktar riċenti; Android 7.0 jew aktar riċenti",
+    "summary": "App bla ħlas għal iPhone, iPad u Android b'logħob kalm ta' tqabbil ta' stampi fuq erba' sa tnax-il kaxxa kbira, tqabbil u wiri b'ritratti tal-familja magħżula minnek, u tmien pakketti ta' stampi inklużi li jaħdmu mingħajr internet. Mingħajr kont, riklami, ħin jew punteġġ.",
+    "features": [
+      "Tqabbil kalm ta' stampi b'4, 6, 8 jew 12-il kaxxa kbira; l-istampi jibqgħu jidhru sakemm ma tagħżilx li taħbihom",
+      "Ritratti tal-familja magħżula minnek jiġu kkuppjati fl-app biex tqabbluhom u tħarsu lejhom flimkien",
+      "Ħarsu flimkien: stampa waħda kull darba b'mistoqsijiet fakultattivi li jħajrukom tħalltu kelma",
+      "Tmien pakketti ta' stampi inklużi mal-app; jaħdmu mingħajr internet",
+      "L-ebda kont, riklami, xiri mill-app, ħin, punteġġ jew penalitajiet"
+    ],
+    "faq": [
+      {
+        "q": "Hemm app b'attivitajiet għal min jgħix bid-dimenzja?",
+        "a": "Iva. Creative Activities (imniżżla bħala \"{storeName}\") hija bla ħlas fuq l-App Store u Google Play. Toffri tqabbil kalm ta' stampi b'kaxxi kbar, logħob b'ritratti tal-familja magħżula minnek, u pakketti ta' stampi li jaħdmu mingħajr internet."
+      },
+      {
+        "q": "L-app Creative Activities hija bla ħlas?",
+        "a": "Iva. Tista' titniżżel bla ħlas, mingħajr riklami, kont jew xiri mill-app."
+      },
+      {
+        "q": "L-app taħdem mingħajr internet?",
+        "a": "Iva. L-istampi tal-bidu u t-tmien pakketti ta' stampi kollha huma inklużi mal-app, u r-ritratti tal-familja jaħdmu mingħajr internet ladarba jiġu kkuppjati fl-app. Jekk tagħżel ritratt merfugħ fuq l-iCloud biss, jista' jkollok bżonn konnessjoni tal-internet."
+      },
+      {
+        "q": "Nista' nuża r-ritratti tal-familja tagħna stess?",
+        "a": "Iva. Agħżel ritratti mill-għażla tar-ritratti tal-apparat tiegħek. L-app iżżomm kopji iżgħar fuq l-apparat għall-attivitajiet tagħha, ma ttellagħhomx fuq l-internet u qatt ma tbiddel l-oriġinali. Tista' tneħħi l-kopji fi kwalunkwe ħin."
+      },
+      {
+        "q": "Din hija app għat-taħriġ tal-moħħ jew għall-ittestjar tal-memorja?",
+        "a": "Le. Creative Activities hija maħsuba għall-gost u biex tqattgħu ħin flimkien. M'għandhiex punti jew testijiet, u ma tiddijanjostikax, ma tikkurax, ma tipprevjenix u ma tkejjilx id-dimensja jew il-marda ta' Alzheimer."
+      },
+      {
+        "q": "Fuq liema apparat taħdem?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Hemm verżjoni tal-app ta' din il-logħba?",
+      "a": "Iva. L-app b'xejn ta' Creative Activities għall-iPhone, l-iPad u l-Android għandha l-istess tqabbil ġentili ta' stampi, tista' tuża ritratti tal-familja li tagħżel int, u taħdem mingħajr internet. Mingħajr kont, riklami jew punti."
+    },
+    "gameFaqNo": {
+      "q": "Hemm verżjoni tal-app ta' din il-logħba?",
+      "a": "Mhux ta' din il-logħba. L-app b'xejn ta' Creative Activities għall-iPhone, l-iPad u l-Android toffri tqabbil ġentili ta' stampi b'madumiet kbar u ritratti tal-familja li tagħżel int, u taħdem mingħajr internet. Din il-logħba tibqa' b'xejn hawnhekk fil-brawżer tiegħek."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: stampi kbar u akkoljenti",
+    "noscript": "Din il-logħba teħtieġ li l-JavaScript ikun mixgħul fil-brawżer tiegħek. Il-pariri t'hawn taħt jaħdmu mingħajru.",
+    "about": "Dwar {name}",
+    "aboutAria": "Dwar din il-logħba",
+    "noTimer": "Mingħajr ħin jew punti",
+    "printable": "Għall-istampar",
+    "howTo": "Kif tilgħab {name}",
+    "tips": "Pariri biex tilagħbu flimkien",
+    "newToPlayingHtml": "Għadek kif bdejt tilgħab ma' persuna li tgħix bid-dimensja? Aqra <a href=\"/caregiving/how-to-play-together/\">kif tilagħbu l-logħob flimkien</a>, inkluż x'tista' tagħmel jekk titlef l-interess.",
+    "moreAria": "Aktar x'tiskopri",
+    "helpfulGuides": "Gwidi utli",
+    "appTitle": "Ilgħabha fl-app",
+    "appText": "L-app b'xejn ta' Creative Activities toffri tqabbil ġentili ta' stampi b'madumiet kbar u r-ritratti tal-familja tiegħek stess, u taħdem mingħajr Wi‑Fi. iPhone, iPad u Android.",
+    "photoAppTitle": "Żomm ir-ritratti tiegħek lesti",
+    "photoAppText": "Fl-app b'xejn ta' Creative Activities, ir-ritratti li tagħżel jibqgħu fuq l-apparat tiegħek għad-darba li jmiss, u l-logħob jaħdem mingħajr Wi‑Fi. iPhone, iPad u Android.",
+    "goodToKnow": "Tajjeb li tkun taf",
+    "goodToKnowText": "Din il-logħba hija għall-gost u biex tqattgħu ħin flimkien. Ma tittestja, ma tkejjel u ma tikkura xejn.",
+    "moreGames": "Aktar logħob ġentili",
+    "crumb": "Logħob"
+  }
+}

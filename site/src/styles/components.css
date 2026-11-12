@@ -1,0 +1,1696 @@
+/* ---------- Buttons: pill shape so a button never looks like a picture ---------- */
+.btn {
+  overflow-wrap: anywhere;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  min-height: var(--target-primary);
+  padding: 12px var(--space-lg);
+  border-radius: var(--radius-full);
+  border: 2px solid var(--gm-primary);
+  background: var(--gm-background);
+  color: var(--gm-primary);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color var(--duration-fast) ease,
+    color var(--duration-fast) ease,
+    transform var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) ease;
+}
+.btn:hover {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+}
+.btn:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  border-radius: var(--radius-full);
+}
+.btn:active {
+  transform: translateY(1px);
+}
+.btn svg {
+  width: 1.25em;
+  height: 1.25em;
+  flex: none;
+}
+.btn--primary {
+  background: var(--gm-primary);
+  color: var(--gm-on-primary);
+  border-color: var(--gm-primary);
+  box-shadow: 0 2px 0 var(--gm-primary-deep); /* the ledge a pressed button sinks into */
+}
+.btn--primary:hover {
+  background: var(--gm-primary-deep);
+  border-color: var(--gm-primary-deep);
+  color: var(--gm-on-primary);
+}
+.btn--primary:active {
+  box-shadow: 0 1px 0 var(--gm-primary-deep);
+}
+.btn--hero {
+  min-height: var(--target-hero);
+  padding-inline: var(--space-xl);
+  font-size: 1.375rem;
+}
+.btn--quiet {
+  border-color: transparent;
+  background: transparent;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+.btn--quiet:hover {
+  background: var(--gm-surface);
+}
+.btn--block {
+  width: 100%;
+}
+.btn[aria-pressed='true'] {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  border-width: 3px;
+}
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  align-items: center;
+}
+
+/* ---------- Header ---------- */
+/* Parchment, the sunrise rule along the top (ornament) and an Oat hairline
+   below (DESIGN.md › Signature details). */
+.site-header {
+  background:
+    var(--gm-sunrise) top / 100% 4px no-repeat,
+    var(--gm-background);
+  border-bottom: 1px solid var(--gm-surface-sunken);
+  padding-top: 4px;
+}
+.site-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm) var(--space-lg);
+  padding-block: var(--space-md);
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--target-min);
+  color: var(--gm-on-surface);
+  text-decoration: none;
+}
+.brand:hover {
+  color: var(--gm-on-surface);
+}
+.brand:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-md);
+}
+.brand__mark {
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--gm-outline) 40%, transparent);
+}
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.brand__name {
+  font-family: var(--font-display);
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+.brand__tag {
+  font-size: var(--text-sm);
+  color: var(--gm-on-surface-variant);
+}
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-xs);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.site-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  padding: 0 14px;
+  border-radius: var(--radius-full);
+  color: var(--gm-on-surface);
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-decoration: none;
+}
+.site-nav a:hover {
+  background: var(--gm-surface);
+}
+.site-nav a[aria-current='page'],
+.site-nav a[data-active='true'] {
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 -3px 0 var(--gm-primary);
+}
+.site-nav a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-full);
+}
+@media (max-width: 719px) {
+  .site-nav {
+    width: 100%;
+  }
+  .site-nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+  }
+  .site-nav a {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 479px) {
+  .site-nav ul {
+    /* minmax(0, ...) lets a column shrink below its longest word. */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-xs);
+  }
+  .site-nav a {
+    justify-content: center;
+    width: 100%;
+    background: var(--gm-surface);
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+  /* At larger text a column is too narrow for words like "Gehirngesundheit". */
+  html[data-text-size='large'] .site-nav ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* ---------- Machine translation notice ---------- */
+.mt-notice {
+  font-size: var(--text-sm);
+  color: var(--gm-on-surface-variant);
+  padding-block: var(--space-xs);
+  margin-block: var(--space-xs) var(--space-sm);
+  border-bottom: 1px solid var(--gm-surface-sunken);
+}
+.mt-notice a {
+  color: var(--gm-primary);
+  font-weight: 700;
+  text-decoration: underline;
+}
+.mt-notice a:hover {
+  color: var(--gm-on-surface);
+}
+.mt-notice a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Footer ---------- */
+/* The one ink surface, with a Honey rule along its top (ornament). */
+.site-footer {
+  margin-top: var(--space-section);
+  background: var(--gm-on-surface);
+  color: var(--gm-on-ink);
+  border-top: 4px solid var(--gm-accent);
+  padding-block: var(--space-2xl) var(--space-xl);
+}
+.site-footer a {
+  color: var(--gm-on-ink-link);
+}
+.site-footer a:hover {
+  color: var(--gm-on-primary);
+}
+.site-footer :focus-visible {
+  outline-color: var(--gm-primary-container);
+}
+.site-footer a:focus-visible {
+  outline: 3px solid var(--gm-primary-container);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+.footer-grid {
+  display: grid;
+  gap: var(--space-xl);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.footer-grid h2 {
+  font-size: var(--text-title-lg);
+  color: var(--gm-on-primary);
+  margin-bottom: var(--space-sm);
+}
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-grid li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  font-size: var(--text-md);
+}
+.footer-note {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--gm-on-surface-variant);
+  font-size: var(--text-sm);
+  color: var(--gm-on-ink-variant);
+}
+.footer-note p {
+  max-width: 60em;
+}
+
+/* Language menu: a disclosure that shows the current language and, when
+   opened, every language as a multi-column list. All links stay in the HTML,
+   so search engines still crawl them with or without script. The current
+   language is marked by a check and weight, never by colour alone. */
+.lang-menu {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--gm-on-surface-variant);
+}
+.lang-menu > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-md);
+  min-height: var(--target-min);
+  cursor: pointer;
+  list-style: none;
+}
+.lang-menu > summary::-webkit-details-marker {
+  display: none;
+}
+.lang-menu > summary:hover {
+  color: var(--gm-on-primary);
+}
+.lang-menu > summary:hover h2 {
+  color: var(--gm-on-primary);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+.lang-menu > summary:focus-visible {
+  outline: 3px solid var(--gm-primary-container);
+  outline-offset: 4px;
+  border-radius: var(--radius-md);
+}
+.lang-menu h2 {
+  margin: 0;
+  font-size: var(--text-title-lg);
+  color: var(--gm-on-primary);
+}
+.lang-menu__current {
+  font-size: var(--text-md);
+  color: var(--gm-on-surface);
+}
+.lang-menu__chevron {
+  flex: none;
+}
+.lang-menu:not([open]) .lang-menu__chevron {
+  transform: rotate(90deg);
+}
+.lang-menu[open] .lang-menu__chevron {
+  transform: rotate(-90deg);
+}
+.lang-menu nav {
+  margin-top: var(--space-md);
+}
+.lang-menu__grid {
+  columns: 9rem;
+  column-gap: var(--space-lg);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lang-menu__grid li {
+  break-inside: avoid;
+}
+.lang-menu a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--target-min);
+  font-size: var(--text-md);
+}
+.lang-menu a[aria-current] {
+  color: var(--gm-on-primary);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin: var(--space-lg) 0 var(--space-md);
+  font-size: var(--text-md);
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: '/' / '';
+  margin-inline-start: var(--space-sm);
+  color: var(--gm-outline);
+  speak: never;
+}
+.breadcrumbs a {
+  display: inline-block;
+  padding-block: 10px;
+}
+.breadcrumbs a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.breadcrumbs [aria-current='page'] {
+  color: var(--gm-on-surface);
+  font-weight: 700;
+  padding-block: 10px;
+  display: inline-block;
+}
+
+/* ---------- Cards ---------- */
+.card-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  height: 100%;
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  color: var(--gm-on-surface);
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) ease,
+    border-color var(--duration-fast) ease;
+}
+.card:hover,
+.card:focus-within {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-raised);
+  border-color: var(--gm-primary);
+}
+.card h2,
+.card h3 {
+  font-size: var(--text-title-lg);
+  margin: 0;
+}
+.card p {
+  margin: 0;
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-md);
+}
+.card__link {
+  color: var(--gm-on-surface);
+  text-decoration: none;
+}
+.card__link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.card:has(.card__link:focus-visible) {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+}
+.card__link:focus-visible {
+  outline: none;
+}
+.card__link:hover {
+  color: var(--gm-on-surface);
+}
+.card__more {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+  font-weight: 700;
+  color: var(--gm-primary);
+  font-size: var(--text-md);
+}
+.card:hover .card__more,
+.card:focus-within .card__more,
+.lead-guide:hover .card__more,
+.lead-guide:focus-visible .card__more {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* A game card shows its picture mounted like a print in an album. */
+.game-card {
+  padding: var(--space-md);
+}
+.game-card__print {
+  background: var(--gm-surface-raised);
+  padding: var(--space-mat);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gm-surface-sunken);
+  box-shadow: var(--shadow-hairline);
+  margin-bottom: var(--space-sm);
+}
+.game-card__print img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.game-card__pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.game-card__pics img {
+  aspect-ratio: 1;
+  width: 100%;
+  border-radius: var(--radius-sm);
+}
+.game-card .card__body {
+  padding: 0 var(--space-sm) var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  flex: 1;
+}
+
+/* ---------- Chips and tags ---------- */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gm-on-surface);
+}
+
+/* ---------- Notices ---------- */
+.notice {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--gm-outline);
+  border-inline-start: 6px solid var(--gm-secondary);
+  border-color: var(--gm-secondary-outline);
+  border-inline-start-color: var(--gm-secondary);
+  background: var(--gm-secondary-container);
+  font-size: var(--text-md);
+  margin-block: var(--space-lg);
+}
+.notice > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.notice svg {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  color: var(--gm-secondary);
+  margin-top: 2px;
+}
+.notice p:last-child,
+.notice ul:last-child {
+  margin-bottom: 0;
+}
+/* The notice's title, not bold words inside its text or list. */
+.notice > div > strong:first-child {
+  display: block;
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-xs);
+}
+.notice--warm {
+  border-color: var(--gm-surface-sunken) var(--gm-surface-sunken) var(--gm-surface-sunken) var(--gm-primary);
+  background: var(--gm-surface);
+}
+.notice--warm svg {
+  color: var(--gm-primary);
+}
+
+/* ---------- Answer box (GEO: the quotable summary) ---------- */
+.answer {
+  position: relative;
+  padding: var(--space-lg);
+  padding-inline-start: calc(var(--space-lg) + 8px);
+  background: var(--gm-surface-raised);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+  margin-block: var(--space-lg) var(--space-xl);
+}
+.answer::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  top: 18px;
+  bottom: 18px;
+  width: 6px;
+  border-start-end-radius: 6px;
+  border-end-end-radius: 6px;
+  background: var(--gm-accent);
+}
+.answer__label {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+  margin-bottom: var(--space-xs);
+}
+.answer p {
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  margin-bottom: var(--space-md);
+}
+.answer ul {
+  margin: 0;
+  padding-inline-start: 1.25em;
+}
+.answer li {
+  margin-bottom: var(--space-xs);
+}
+
+/* ---------- Prose (Markdown) ---------- */
+.prose {
+  max-width: var(--content-max);
+}
+.prose h2 {
+  margin-top: var(--space-2xl);
+  scroll-margin-top: var(--space-lg);
+}
+.prose h3 {
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-sm);
+}
+.prose li {
+  margin-bottom: var(--space-sm);
+}
+.prose li::marker {
+  color: var(--gm-primary);
+  font-weight: 700;
+}
+.prose ul,
+.prose ol {
+  padding-inline-start: 1.4em;
+}
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-md);
+  display: block;
+  overflow-x: auto;
+}
+.prose table:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+.prose th,
+.prose td {
+  text-align: start;
+  vertical-align: top;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--gm-surface-sunken);
+}
+.prose thead th {
+  background: var(--gm-surface);
+  border-bottom: 2px solid var(--gm-outline);
+}
+.prose blockquote {
+  border-inline-start: 4px solid var(--gm-accent);
+  padding-inline-start: var(--space-lg);
+  color: var(--gm-on-surface-variant);
+}
+
+/* ---------- Table of contents ---------- */
+.toc {
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  padding: var(--space-md) var(--space-lg);
+  margin-block: var(--space-lg);
+}
+.toc__title {
+  font-weight: 700;
+  font-size: var(--text-title-sm);
+  color: var(--gm-on-surface);
+  margin: 0 0 var(--space-xs);
+}
+.toc summary {
+  min-height: var(--target-min);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.toc summary:hover {
+  color: var(--gm-primary);
+}
+.toc summary:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+.toc ol {
+  margin: var(--space-sm) 0 0;
+  padding-inline-start: 1.4em;
+  font-size: var(--text-md);
+}
+.toc ol a {
+  color: var(--gm-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.toc ol a:hover {
+  color: var(--gm-on-surface);
+}
+.toc ol a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.toc li {
+  margin-bottom: 6px;
+}
+
+/* ---------- FAQ ---------- */
+.faq {
+  border-top: 1px solid var(--gm-outline);
+}
+.faq details {
+  border-bottom: 1px solid var(--gm-outline);
+}
+.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  min-height: var(--target-primary);
+  padding-block: var(--space-md);
+  font-size: var(--text-title-md);
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+.faq summary:hover {
+  color: var(--gm-primary);
+}
+.faq summary:hover::after {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+}
+.faq summary:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+.faq summary::after {
+  content: '+';
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--gm-primary);
+  color: var(--gm-primary);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.faq details[open] summary::after {
+  content: '−';
+}
+.faq details > div {
+  padding-bottom: var(--space-lg);
+}
+
+/* ---------- Sources ---------- */
+.sources {
+  font-size: var(--text-md);
+}
+.sources ol {
+  padding-inline-start: 1.4em;
+}
+.sources li {
+  margin-bottom: var(--space-sm);
+}
+.sources .publisher {
+  color: var(--gm-on-surface-variant);
+}
+
+/* ---------- Page header ---------- */
+.page-head {
+  padding-block: var(--space-md) var(--space-xl);
+}
+.page-head h1 {
+  max-width: 22em;
+}
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  font-size: var(--text-md);
+  color: var(--gm-on-surface-variant);
+  margin-top: var(--space-md);
+}
+.meta-line a {
+  color: var(--gm-primary);
+}
+.meta-line a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- Copyable text block for organizations and resource lists ---------- */
+.copy-text {
+  background: var(--gm-surface-sunken);
+  border: 1px solid var(--gm-outline-variant);
+  border-inline-start: 4px solid var(--gm-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: var(--space-md) var(--space-lg);
+  margin-block: var(--space-md) var(--space-lg);
+  font-size: var(--text-md);
+  line-height: var(--leading-body);
+}
+.copy-text p {
+  margin: 0;
+}
+
+/* ---------- Two column article on wide screens ---------- */
+.article-layout {
+  display: grid;
+  gap: var(--space-2xl);
+}
+/* Let wide tables scroll inside the column instead of widening the page. */
+.article-layout > * {
+  min-width: 0;
+}
+@media (min-width: 1040px) {
+  .article-layout {
+    grid-template-columns: minmax(0, var(--content-max)) minmax(260px, 1fr);
+    align-items: start;
+  }
+  .article-aside {
+    position: sticky;
+    top: var(--space-lg);
+  }
+}
+.aside-box {
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  padding: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+.aside-box h2 {
+  font-size: var(--text-title-md);
+  margin-bottom: var(--space-sm);
+}
+.aside-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.aside-box li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: var(--target-min);
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-decoration: none;
+}
+.aside-box li a:hover {
+  text-decoration: underline;
+}
+.aside-box img {
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  flex: none;
+}
+
+/* ---------- Stage cards ---------- */
+.stage-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.stage-card__step {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--gm-surface-raised);
+  border: 2px solid var(--gm-primary);
+  color: var(--gm-primary);
+  font-family: var(--font-display);
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+}
+
+/* ---------- Print helpers ---------- */
+.print-only {
+  display: none;
+}
+@media print {
+  @page {
+    margin: 12mm 14mm;
+  }
+  body {
+    background: #fff !important; /* paper, for the printer */
+    color: #111 !important;
+    font-size: 14pt;
+    line-height: 1.5;
+  }
+  .site-header,
+  .site-footer,
+  .breadcrumbs,
+  .mt-notice,
+  .no-print,
+  .btn,
+  .cta-band,
+  .article-aside,
+  .app-cta,
+  .play-cta,
+  .toc,
+  .jump-nav {
+    display: none !important;
+  }
+  .print-only {
+    display: block;
+  }
+  .section,
+  .container {
+    padding: 0;
+  }
+  .article-layout {
+    display: block !important;
+  }
+  .article-layout > * {
+    max-width: 100% !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #000 !important;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+  .answer,
+  .aside-box,
+  .sources,
+  .sources li,
+  .copy-text,
+  tr,
+  blockquote,
+  .faq details,
+  .prose pre {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .faq details > div {
+    display: block !important;
+  }
+  .faq details summary::after {
+    display: none !important;
+  }
+  .faq summary {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* ---------- Call to action band ---------- */
+.cta-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  margin-top: var(--space-section);
+  padding: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(600px 240px at 100% 0%, var(--gm-glow), transparent 70%),
+    var(--gm-surface);
+  border: 1px solid var(--gm-surface-sunken);
+}
+.cta-band h2 {
+  margin-bottom: var(--space-sm);
+}
+.cta-band p {
+  margin: 0;
+  max-width: 34em;
+  color: var(--gm-on-surface-variant);
+}
+
+/* ---------- Small utilities (no inline styles under the CSP) ---------- */
+.m-0 {
+  margin: 0;
+}
+.small-print {
+  font-size: var(--text-md);
+  margin: 0;
+}
+/* A link on its own line is a tap target, not a word in a sentence: 48px
+   high, like every other control (DESIGN.md). */
+a.small-print {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  color: var(--gm-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a.small-print:hover {
+  color: var(--gm-on-surface);
+}
+a.small-print:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.narrow {
+  max-width: var(--content-max);
+}
+.btn-row--center {
+  justify-content: center;
+}
+.btn-row--spaced {
+  margin-bottom: var(--space-xl);
+}
+
+/* A long question word at larger text must not push the page wider. */
+summary {
+  overflow-wrap: anywhere;
+}
+
+/* Vestibular motion preferences: prevent jarring hover jumps and active depression */
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .btn:active,
+  .btn--primary:active,
+  .card,
+  .card:hover,
+  .card:focus-within {
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* High contrast preferences: support for users with cataract, macular or cognitive contrast loss */
+@media (prefers-contrast: more) {
+  :root {
+    --gm-outline: #222222;
+  }
+  .btn {
+    border-width: 3px;
+    border-color: #000000;
+    color: #000000;
+    font-weight: 800;
+  }
+  .btn:hover {
+    background: #000000;
+    color: #FFFFFF;
+  }
+  .btn:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+    border-radius: var(--radius-full);
+  }
+  .btn--primary {
+    background: #000000;
+    color: #FFFFFF;
+    border-color: #000000;
+  }
+  .btn--primary:hover {
+    background: #000000;
+    color: #FFFFFF;
+    outline: 2px solid #000000;
+  }
+  .btn--quiet {
+    border: 2px solid #000000;
+  }
+  .btn--quiet:hover {
+    background: #000000;
+    color: #FFFFFF;
+  }
+  .btn[aria-pressed='true'] {
+    border: 4px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+  }
+  .card,
+  .guide-card,
+  .game-card__print,
+  .aside-box,
+  .faq details,
+  .answer {
+    border: 2px solid #222222 !important;
+  }
+  .card:has(.card__link:focus-visible) {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+  .card__more {
+    color: #000000;
+    font-weight: 800;
+  }
+  .card:hover .card__more,
+  .card:focus-within .card__more,
+  .lead-guide:hover .card__more,
+  .lead-guide:focus-visible .card__more {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .answer::before {
+    background: #000000;
+  }
+  .answer__label {
+    color: #000000;
+    font-weight: 800;
+  }
+  a.small-print {
+    color: #000000;
+    font-weight: 800;
+    text-decoration-thickness: 2px;
+  }
+  a.small-print:hover {
+    text-decoration-thickness: 3px;
+  }
+  a.small-print:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 2px;
+  }
+  .cta-band {
+    border: 2px solid #000000;
+    background: #FFFFFF;
+  }
+  .faq summary::after {
+    border: 3px solid #000000;
+    color: #000000;
+    font-weight: 800;
+  }
+  .faq summary:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+  .notice {
+    border: 2px solid #000000;
+    border-inline-start: 6px solid #000000;
+  }
+  .notice svg,
+  .notice--warm svg {
+    color: #000000;
+  }
+  .aside-box li a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .aside-box li a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .aside-box li a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .aside-box img {
+    border: 1px solid #000000;
+  }
+  .tag {
+    border: 2px solid #000000;
+    font-weight: 800;
+  }
+  .toc {
+    border: 2px solid #000000;
+  }
+  .toc__title {
+    color: #000000;
+    font-weight: 800;
+  }
+  .toc summary:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  .toc summary:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+  .toc ol a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .toc ol a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .toc ol a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .faq summary:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  .faq summary:hover::after {
+    background: #000000;
+    color: #FFFFFF;
+  }
+  .sources .publisher {
+    color: #000000;
+  }
+  .sources a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .sources a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .sources a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .meta-line {
+    color: #000000;
+  }
+  .meta-line a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .meta-line a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .meta-line a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .copy-text {
+    border: 2px solid #000000;
+    border-inline-start: 6px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+  }
+  .prose blockquote {
+    border-inline-start: 4px solid #000000;
+    color: #000000;
+  }
+  .prose th,
+  .prose td {
+    border-bottom: 2px solid #000000;
+  }
+  .prose thead th {
+    border-bottom: 3px solid #000000;
+  }
+  .prose table:focus-visible {
+    outline: 3px solid #000000;
+  }
+  .prose li::marker {
+    color: #000000;
+  }
+  a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+  a:hover {
+    color: #000000;
+    text-decoration-thickness: 4px;
+  }
+  .breadcrumbs a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .breadcrumbs a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .breadcrumbs a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .breadcrumbs [aria-current='page'] {
+    color: #000000;
+    font-weight: 800;
+    border-bottom: 2px solid #000000;
+  }
+  .breadcrumbs li:not(:last-child)::after {
+    color: #000000;
+    font-weight: 800;
+  }
+  .lang-menu > summary:hover h2 {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+  .lang-menu > summary:focus-visible {
+    outline: 3px solid #FFFFFF;
+    outline-offset: 4px;
+  }
+  .lang-menu a:focus-visible {
+    outline: 3px solid #FFFFFF;
+    outline-offset: 3px;
+  }
+  .lang-menu a[aria-current] {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    outline: 2px solid #FFFFFF;
+    outline-offset: 2px;
+  }
+  .site-nav a {
+    color: #000000;
+  }
+  .site-nav a:not([aria-current='page']):not([data-active='true']):hover,
+  .site-nav a:not([aria-current='page']):not([data-active='true']):focus-visible {
+    border: 2px solid #000000;
+    background: #FFFFFF;
+  }
+  .site-nav a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .site-nav a[aria-current='page'],
+  .site-nav a[data-active='true'] {
+    border: 2px solid #000000;
+    box-shadow: inset 0 -4px 0 #000000;
+  }
+  .site-footer {
+    border-top: 4px solid #FFFFFF;
+  }
+  .site-footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+  .site-footer a:hover {
+    color: #FFFFFF;
+    text-decoration-thickness: 4px;
+  }
+  .site-footer :focus-visible,
+  .site-footer a:focus-visible {
+    outline: 3px solid #FFFFFF;
+    outline-offset: 3px;
+  }
+  .footer-note {
+    border-top: 2px solid #FFFFFF;
+    color: #FFFFFF;
+  }
+  .footer-note p {
+    color: #FFFFFF;
+  }
+  .skip-link {
+    background: #000000;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+  }
+  .skip-link:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 3px;
+    box-shadow: none;
+  }
+  .brand__mark {
+    border: 2px solid #000000;
+    border-radius: var(--radius-lg);
+  }
+  .brand__tag {
+    color: #000000;
+    font-weight: 700;
+  }
+  .brand:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+  .mt-notice {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+  }
+  .mt-notice a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration-thickness: 2px;
+  }
+  .mt-notice a:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 2px;
+  }
+  :focus-visible {
+    outline-width: 4px !important;
+    outline-offset: 2px !important;
+  }
+}
+
+@media (forced-colors: active) {
+  .btn {
+    border: 2px solid ButtonText;
+  }
+  .btn:hover {
+    border-color: Highlight;
+    color: Highlight;
+  }
+  .btn:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+    border-radius: var(--radius-full);
+  }
+  .btn--primary {
+    border: 3px solid Highlight;
+    outline: 2px solid Highlight;
+  }
+  .btn--primary:hover {
+    border-color: Highlight;
+    color: Highlight;
+    outline-color: Highlight;
+  }
+  .btn--quiet {
+    border: 2px solid ButtonText;
+  }
+  .btn--quiet:hover {
+    border-color: Highlight;
+    color: Highlight;
+  }
+  .btn[aria-pressed='true'] {
+    border-color: Highlight;
+    outline: 2px solid Highlight;
+  }
+  .card,
+  .guide-card,
+  .game-card__print,
+  .aside-box,
+  .faq details,
+  .answer {
+    border: 2px solid CanvasText;
+  }
+  .card:has(.card__link:focus-visible) {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .card__more {
+    color: LinkText;
+  }
+  .card:hover .card__more,
+  .card:focus-within .card__more,
+  .lead-guide:hover .card__more,
+  .lead-guide:focus-visible .card__more {
+    color: Highlight;
+    text-decoration: underline;
+  }
+  .answer::before {
+    forced-color-adjust: none;
+    background: Highlight;
+  }
+  .answer__label {
+    color: CanvasText;
+    font-weight: 800;
+  }
+  a.small-print {
+    color: LinkText;
+  }
+  a.small-print:hover {
+    color: Highlight;
+  }
+  a.small-print:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .faq summary::after {
+    border: 2px solid CanvasText;
+    color: CanvasText;
+  }
+  .faq summary:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .cta-band {
+    border: 2px solid CanvasText;
+  }
+  .notice {
+    border: 2px solid CanvasText;
+    border-inline-start: 6px solid Highlight;
+  }
+  .notice svg,
+  .notice--warm svg {
+    color: CanvasText;
+  }
+  .aside-box li a {
+    color: LinkText;
+  }
+  .aside-box li a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+  }
+  .aside-box img {
+    border: 1px solid CanvasText;
+  }
+  .tag {
+    border: 2px solid CanvasText;
+  }
+  .toc {
+    border: 2px solid CanvasText;
+  }
+  .toc__title {
+    color: CanvasText;
+    font-weight: 700;
+  }
+  .toc summary:hover {
+    color: Highlight;
+  }
+  .toc summary:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .toc ol a {
+    color: LinkText;
+  }
+  .toc ol a:hover {
+    color: Highlight;
+  }
+  .toc ol a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .faq summary:hover {
+    color: Highlight;
+  }
+  .faq summary:hover::after {
+    background: Highlight;
+    color: HighlightText;
+  }
+  .sources .publisher {
+    color: CanvasText;
+  }
+  .sources a {
+    color: LinkText;
+  }
+  .sources a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .meta-line {
+    color: CanvasText;
+  }
+  .meta-line a {
+    color: LinkText;
+  }
+  .meta-line a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .copy-text {
+    border: 1px solid CanvasText;
+    border-inline-start: 4px solid Highlight;
+    color: CanvasText;
+  }
+  .prose blockquote {
+    border-inline-start: 4px solid Highlight;
+    color: CanvasText;
+  }
+  .prose th,
+  .prose td {
+    border-bottom: 1px solid CanvasText;
+  }
+  .prose thead th {
+    border-bottom: 2px solid CanvasText;
+  }
+  .prose table:focus-visible {
+    outline: 3px solid Highlight;
+  }
+  .prose li::marker {
+    color: Highlight;
+  }
+  a {
+    color: LinkText;
+  }
+  a:hover {
+    color: Highlight;
+  }
+  .breadcrumbs a {
+    color: LinkText;
+  }
+  .breadcrumbs a:hover {
+    color: Highlight;
+  }
+  .breadcrumbs a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .breadcrumbs [aria-current='page'] {
+    font-weight: 800;
+    border-bottom: 2px solid Highlight;
+  }
+  .breadcrumbs li:not(:last-child)::after {
+    color: CanvasText;
+  }
+  .lang-menu > summary:hover,
+  .lang-menu > summary:hover h2 {
+    color: Highlight;
+  }
+  .lang-menu > summary:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .lang-menu a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+  }
+  .lang-menu a[aria-current] {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+  .site-nav a {
+    color: CanvasText;
+  }
+  .site-nav a:hover {
+    color: Highlight;
+  }
+  .site-nav a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .site-nav a[aria-current='page'],
+  .site-nav a[data-active='true'] {
+    border: 2px solid Highlight;
+    outline: 1px solid Highlight;
+  }
+  .site-footer {
+    border-top: 4px solid CanvasText;
+  }
+  .site-footer a {
+    color: LinkText;
+  }
+  .site-footer a:hover {
+    color: Highlight;
+  }
+  .site-footer a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .footer-note {
+    border-top: 2px solid CanvasText;
+    color: CanvasText;
+  }
+  .footer-note p {
+    color: CanvasText;
+  }
+  .skip-link {
+    forced-color-adjust: none;
+    background: Highlight;
+    color: HighlightText;
+    border: 2px solid HighlightText;
+  }
+  .skip-link:focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 3px;
+    box-shadow: none;
+  }
+  .brand__mark {
+    forced-color-adjust: none;
+    border: 1px solid CanvasText;
+    border-radius: var(--radius-lg);
+  }
+  .brand:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .mt-notice {
+    border-bottom: 1px solid CanvasText;
+  }
+  .mt-notice a {
+    color: LinkText;
+  }
+  .mt-notice a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+}

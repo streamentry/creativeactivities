@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Ika kovitjitwa ovinene",
+    "brandName": "Creative Activities",
+    "brandTag": "Ovitjitwa vyovandu mbe zemba",
+    "homeLabel": "Epandja etenga ra Creative Activities",
+    "mainNav": "Ovitjitwa ovinene",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: ovikunwa vinene na viwa vyokopi yotjiye, onano yotjikunino nombwa",
+    "languages": "Elaka",
+    "englishOnly": "(Oshiingilisa)",
+    "machineTranslated": "Epandja ndi ra torokwa komashina nu ngatu rukwawo kari ya ri tarwa iye omurangere welaka.",
+    "readOriginal": "Lesha etjangwa retenga mOshiingilisa",
+    "nav": {
+      "games": "Omanyando",
+      "activities": "Ovitjitwa",
+      "caregiving": "Etakamitho",
+      "brainHealth": "Oukolele wouvi"
+    },
+    "faqTitle": "Omapuriro nomaziriro",
+    "breadcrumb": "Ondjira yetokero",
+    "home": "Komatango",
+    "lastUpdated": "Karuheruka okunwa",
+    "topics": "Ovitjiukwa",
+    "textSize": {
+      "label": "Onaneno yomatjangwa",
+      "smaller": "Omatjangwa womuhingo",
+      "larger": "Omatjangwa omanene",
+      "contrast": "Omivarero via yandja nawa"
+    }
+  },
+  "footer": {
+    "play": "Nyanda",
+    "picturePairs": "Omapeka wovikunwa",
+    "conversationCards": "Oukarata vyomahungi",
+    "pictureBingo": "Obingo yovikunwa",
+    "allGames": "Omanyando ayehe",
+    "pictures": "Ovikunwa vyokupirinda",
+    "activityIdeas": "Omangeteko wovitjitwa",
+    "ideas101": "Omangeteko 101 wovitjitwa",
+    "lateStage": "Ovitjitwa vyovandu ve li korukondwa rwotjikando",
+    "printable": "Ovitjitwa vyokupirinda",
+    "allActivities": "Ovitjitwa ayehe",
+    "forCaregivers": "Kovatakamithe",
+    "playTogether": "Omuano wokunyanda pamwe",
+    "selfCare": "Okuritakamitha oveni",
+    "brainHealth": "Omapangero woukolele wouvi",
+    "faq": "Omapuriro nomaziriro",
+    "about": "Ohunga netu",
+    "approach": "Omuano wetu",
+    "howWeWrite": "Omuano mu tu tjanga",
+    "organizations": "Komautumbukiro",
+    "app": "O-api ya Creative Activities",
+    "appHelp": "Ombatero yo-api",
+    "support": "Ombatero",
+    "legal": "Omirari vyoveta",
+    "sitePrivacy": "Ongamburiro yehungiro kepandja",
+    "appPrivacy": "Omirari vyongamburiro yo-api",
+    "privacyChoices": "Omatoolero wove kongamburiro",
+    "terms": "Omirari nomapitisiro wo-api",
+    "safety": "Epupuriro nomuano wokuitira",
+    "accessibility": "Oupupu wokutonisa",
+    "healthNotice": "Ondjivisiro yomauyelele woukolele",
+    "allLegal": "Omirari ayehe vyoveta",
+    "note": "Creative Activities mai yandja ovitjitwa ovipepu vyokuriyandjera pamwe nokunana ehungiro ewa. Ka omurari wombatero yomundu ngu hakura, ka omarorero poo ekango rokuhakura, nu kai tjiukisa poo okupima omundu ngamwa. Komapuriro woukolele, hungira nondokotora wove. Metuwo roudano weyutiro, tona o-112.",
+    "publisher": "Tji pitisiwa i Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Omanyando nOvitjitwa vyOvandu mbe Zemba nOvazembi vaAlzheimer | Creative Activities",
+    "description": "Omanyando omapupu wovikunwa vyokunyanda kokompiuta nomangeteko wovitjitwa vyovandu mbe na omazeu wokuzemba poo Alzheimer novatakamithe vawo, kape na omarisasaneno, oiri poo okupimwa.",
+    "eyebrow": "Tji ha rihwe · Kape nomahorero · Kape na okulinyolisa · Kape noiri poo okupimwa",
+    "h1": "Omanyando nOvitjitwa Ovipepu vyOvandu mbe Zemba",
+    "lede": "Omanyando omapupu wovikunwa, omafaneno ngu u tjiwa, novitjitwa vyokuyandjera pamwe—korupanda rwenu omuini.",
+    "playGame": "Nyanda onyando",
+    "findIdeas": "Kondona omangeteko wovitjitwa",
+    "facts": [
+      "Mai rongo kongodyo, kotableti na kokompiuta",
+      "Ovikunwa ovinene mbi ha zimi po",
+      "Kutukira ngamwa oruveze; kape na okupunda"
+    ],
+    "heroApp": "O-api ye ha rihwe ya iPhone, iPad na Android, ngamwa mu kuza omafaneno wene wehoko",
+    "albumNote": "“Omafaneno yevari wokopi yotjiye, peke pamwe.”",
+    "gamesEyebrow": "Nyandera mokompiuta yove",
+    "gamesTitle": "Omanyando ngu mo yenene okunyanda nai nambano",
+    "gamesLede": "Kehe imwe ye kora mbwi, ya vanene nu kai take oruveze okutara. Toora imwe, karaye peke pamwe, nu mu yandje oruveze rwokutona kokatji.",
+    "seeAllGames": "Tara omanyando ayehe {count}",
+    "howTitle": "Omuano mu i ronga",
+    "steps": [
+      {
+        "title": "Toora otjiina tji u tjiwa nawa",
+        "text": "Ovikunwa vyokopi yotjiye, ovikunino, ovikoko vyetundu noutundu. Kape nalesha poo omirari mbi rirongwa komeho."
+      },
+      {
+        "title": "Karaye peke pamwe",
+        "text": "Yandjera ve tone ko. Hungiraye kombinga yovikunwa mbyo. Ovikunwa mbi ha sanene vi unda uriri etono ekwawu."
+      },
+      {
+        "title": "Kutuka tji mu tji ri nawa",
+        "text": "Onyando imwe otjitjitwa tji tja pwa nawa. “Twa mane nai” i rira tji ri pokati komuvara."
+      }
+    ],
+    "stageEyebrow": "Kombanda yokompiuta",
+    "stageTitle": "Omangeteko wovitjitwa vyotjikando kehe",
+    "stageLede": "Omihunga, ovitjitwa vyomuuveze, okuripura komakuruhungi novitjitwa oviwowo, vi yandjwa komuano ngu u ri nawa nai.",
+    "ideas101": "Omangeteko 101 wovitjitwa",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Otjikando tjetenga",
+        "text": "Kayeye komeho novitjitwa mbi ve suvera, mu ningise po ovisupi: omaunguriro, okuya pondje, omanyando womambo nokupanga ovitjitwa pamwe.",
+        "label": "Omangeteko wotjikando tjetenga"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Otjikando tjopokati",
+        "text": "Ovitjitwa ovipepu mbi tjiukwa vi kondororwa omasora omasupi: okupeta, okuhaura, omihunga, omanyando wovikunwa nokukazenda katiti.",
+        "label": "Omangeteko wotjikando tjopokati"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Otjikando tjosenina",
+        "text": "Ombatero nehanganeno okupitira mokunwata, okuzuva nokutara: etakamitho romake, omihunga mbi suverwa, omafaneno nokukara pamwe.",
+        "label": "Omangeteko wotjikando tjosenina"
+      }
+    ],
+    "specificHtml": "Mo vanga otjiina tjina peke? Rora <a href=\"/activities/alzheimers/\">ovitjitwa nomanyando vyovandu vaAlzheimer</a>, <a href=\"/activities/memory-games/\">omanyando omapupu wokupakurura ombazu</a>, <a href=\"/activities/trivia/\">omapuriro omapupu</a> poo <a href=\"/activities/puzzles/\">omanyando wokupatanisa</a>.",
+    "approachEyebrow": "Omuano wetu",
+    "approachTitle": "Otjitjitwa tjokuyandjera pamwe, kayehe omarorero womapaturuko",
+    "approachLede": "Omanyando ovingi vyouvi ya tungwa kombinga yotjiyambero, omihungu nomapendo. Komundu ngu na omapaturuko wokuzemba tji yenena okukara ayo omarorero wekori. Ete twa tunga omuhingo wapangana.",
+    "approachLink": "Omena ratjike tji tu i ungura nao",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Kape na okupunda",
+        "text": "Kape noiri, omihungu, omiyoovyo poo okupundisiwa. Omuvara u ha sanene omuundiro, ka erangero."
+      },
+      {
+        "icon": "eye",
+        "title": "Ovikunwa vi kara a vi munika",
+        "text": "Okutjiwa kombanda yokuripura omuini. Okupeka ku uta avi paturuka, kape na tji matji zemburukwa."
+      },
+      {
+        "icon": "people",
+        "title": "Tja kora nu tja karerera nawa",
+        "text": "Omambo omawa, omapupu nohepero yovikunwa vyotjiri. Kape novipirangi poo omahungi womitanda."
+      },
+      {
+        "icon": "shield",
+        "title": "Ongamburiro komuano wehungiro",
+        "text": "Kape na omarinyolisiro poo omahorero. Omafaneno wove ka ye zapi mokompiuta yove."
+      }
+    ],
+    "guidesEyebrow": "Kovatakamithe",
+    "guidesTitle": "Omambo wombatero yetakamitho reyehe eyuva",
+    "allCaregiving": "Omambo ayehe wetakamitho",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Omuano wokunyanda omanyando pamwe",
+        "text": "Ehungiro, orupanda, na tji mo ungura tji onyando aai tji ri ewa rukwawo."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Tji va tana kutja kakuhe kovitjitwa",
+        "text": "Omatumbukiro woposyo wokuhapanga, nomiano omiwa vyokurora rukwawo konyima."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Okuhungika otableti",
+        "text": "Omatjangwa omanene, omapaturuko omaṱiṱi nekorero rimwe epepu rewandiso."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Ovitjitwa vyokupirinda mbi ha rihwe",
+        "text": "Omakondororero womambo omanene, omapandja wokukombora, obingo noukarata vyomahungi."
+      }
+    ],
+    "researchTitle": "Oukolele wouvi: omakondororo tjiri ye tyi vi",
+    "researchText": "Omazeu wokuzemba ye yenena okutjindwa? Omanyando wouvi ye vatera? Nu kombinga yokurya, oturo nokuzuva? Omaziriro omasupi nge na omaano, tjimwe aape na oviundisiro oviṱiṱi.",
+    "researchLink": "Lesha omambo womakondororo",
+    "appEyebrow": "Wina o-api i ri po",
+    "appTitle": "Creative Activities mo iPhone, iPad na Android",
+    "appText": "O-api ye ha rihwe mai rongo nu mai yenene okuungurisa omafaneno wehoko ngu mo toora, ya tuwa moruvingo rwo-api yove. Omuhingo umwe omuwowo: omipeka vine ovinene, kape noiri, kape nomihungu.",
+    "aboutApp": "Ohunga no-api",
+    "faq": [
+      {
+        "q": "Omanyando oyehe omawa kovandu mbe na omazeu wokuzemba?",
+        "a": "Omanyando omasemba ouye wapeke, wovizeze nu kae nombatero yomapapatere: oviuriro ovinene vyokupatasanisa, okupangura, oukotoke wapeke wokututurisa, okumanisa ovisuta vyovimbumba vi rya tjiukwa nawa, okukaraisa, ombiyingo yoviuriro novikarakata vyomatuiro. Ombongero ombwa oyo ndji tji e tji yorere ndinondi omundu ngwi. Henḓa omarooro wokutara oruve, omarano nohepero aihe ndji zengurukisa aiyo ezeva."
+      },
+      {
+        "q": "Omanyando inga wovandu mbe na dementia oyo ayo ouhinga?",
+        "a": "Iiyo. Omunyando auhe novirandwa vyokupurinda mehi ra Creative Activities kavi nomutengo, kaku nombatero yorakondu, okurieta mo poo okutoroka ko kurova. Omanyando ayehe ya nyandwa morungovi rwekumbi mongodi, motablete poo mokombiyuta."
+      },
+      {
+        "q": "Omanyando wouongo yee tjaera dementia?",
+        "a": "Kaku nomunyando ngwa raisiwa kutja u tjaera dementia, nu Creative Activities kaitja i verura poo okutjaera otjina tjimwe. Omanyando wetu owokuhimisa noungondi wokukara pamwe. Omutara wetu wouveruke wouongo mau yandja outjiukiro kutja omapinguriro ye raisa tjiye nu kaye raisa tjike."
+      },
+      {
+        "q": "Omanyando inga yee yandja ouwa komundu ngu na Alzheimer's?",
+        "a": "Iiyo. Ouvere wa Alzheimer's owo omuhingo omunene tjinenenene u eta dementia, nu omanyando ya tungwa ngurova: oviuriro ovinene mbi hina okuzima, omatokero omaṱiṱi, nu kakuna tji matji paha okurandururwa poo okutjita nawa. Okupatasanisa, okupangura nokumanisa ovisuta vi ri tjiukwa nawa vi zama koutjiukiro wondundu kombunda yomahi eṱiṱi wokurihonga ovitjitwa ovipya."
+      },
+      {
+        "q": "Omundu ngu ri moruve rwokasenina rwa dementia u yenena okunyanda oviungura mbi?",
+        "a": "Aruhe, iiyo, tji pe nomundu popepi naye. Utira pOkumuna tjimwe na tjimwe noviuriro vivari, Oviuriro vimwe pokati kovisere vine, erapi rokukaraisa poo oruve rwokusuva nombepo ohororeke. Karisa oruve orufupi, kongorera omuhoko we nu tji ma hepa okusuva, zemburukwa okuhungira kurova."
+      },
+      {
+        "q": "Ouongero wandje wa tjeverwa nawa?",
+        "a": "Erero kari nozokondu nozombongwa zokurandisa. Tu ungurisa Google Analytics okuzuva kutja omaruha ye ya kavarurwa nawa. Ozofoto ndu wa toorora ku Oviuriro vimwe vi munika koutara worungovi rwoye arikaho nu kavi yandjwa pehi rimwe."
+      },
+      {
+        "q": "Oune ngu tjita Creative Activities?",
+        "a": "Creative Activities otjimbumba otjititi tji tjita oviungura vyoviuriro vyokuhorora vyovakuru vovandu koviṋa vyomazumo novatjevere, morungovi rwekumbi na moruvara rwomapuro ayo ouhinga. Eṱe katu ovahonge vouveruke, nu kape notji tji ri mba tji ri eronga rouveruke."
+      }
+    ]
+  },
+  "stage": {
+    "early": "orutenga",
+    "middle": "opokati",
+    "late": "orukombunda",
+    "hintOne": "Aruhe i vatera oruve rwo {list}",
+    "hintMany": "Aruhe i vatera omaruve wo {list}",
+    "labelEarly": "Oruve rwotete",
+    "labelMiddle": "Oruve rwopokati",
+    "labelLate": "Oruve rwokasenina"
+  },
+  "cards": {
+    "aboutGame": "Ohunga nomunyando imbwi",
+    "printable": "Tji tji purindwa",
+    "play": "Nyanda {name} →",
+    "readGuide": "Lesa eronga"
+  },
+  "playCta": {
+    "title": "Wa zikamene omunyando omuhororeke?",
+    "text": "Oviuriro ovinene, kape nomutarero woruve, kape nomarano nu kape notji tji hepa okuriyandja kurova. Nyandee pamwe morungovi rwoye.",
+    "play": "Nyanda Omunyando",
+    "all": "Muna omanyando ayehe",
+    "aria": "Nyanda omunyando"
+  },
+  "appCta": {
+    "title": "Tora omanyando inga pamwe nove",
+    "text": "Oruvara rwa Creative Activities rwouhinga rwa iPhone, iPad na Android: ovisere vyoviuriro ovinene, omanyando nozofoto zekunduriro royi, nozongovora zoviuriro mbi ungura nokuhina Wi‑Fi. Kaku nombatero yorakondu, ozombongwa, oruve poo omarano.",
+    "appStore": "Tora ko App Store",
+    "googlePlay": "Tora ko Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Ohunga noruvara",
+    "aria": "Kondja oruvara"
+  },
+  "sections": {
+    "activities": {
+      "label": "Oviungura",
+      "title": "Oviungura vyovandu mbe na Dementia",
+      "seo": "Oviungura vyovandu mbe na Dementia: Oviheta komaruve",
+      "description": "Oviheta vyoviungura vyovandu mbe na dementia momaruve ayehe: omuziki, okuzemburuka ovikuru, oviungura vyeuva kehe, omaruve womazuviro, oviungura vyomaoko, pondje yonganda nomatjangwa wokupurinda ohinga.",
+      "lede": "Otjiungura tji na ongendo otjo kehe tji tji eta omuhoko, omuzemba poo oruve rwokuhangana pamwe. Utira kotji tji a tji tji yorera aruhe, nu u tji tundamise keuva rarinondi."
+    },
+    "caregiving": {
+      "label": "Okutjevera",
+      "title": "Omaronga wokutjevera",
+      "seo": "Omaronga wokutjevera Dementia: Ombatero yekuva kehe",
+      "description": "Omaronga omasemba nomanono kovatjevere va dementia: okunyanda omanyando pamwe, okupoposana, okukaana, oungundi wokongurova, ozotablete, okutoorora ozonavara nokurisa ouveruke woye omuini.",
+      "lede": "Ombatero yapeke nu yomaundo momaruve weuva kehe tji u tjevera omundu ngu na dementia, pamwe nokurisa ouveruke woye mwini."
+    },
+    "brain-health": {
+      "label": "Ouveruke wouongo",
+      "title": "Ouveruke wouongo: Ovyi tji tja omapinguriro",
+      "seo": "Ouveruke wouongo nohepero ya Dementia: Ovyi tji tja Omapinguriro",
+      "description": "Dementia i yenena okutjaerwa? Omaronga omasemba ye na oviraisiro ohunga nozongendo za dementia, omanyando wouongo, okukondja nokurya, ovikurya, omarutu, ozohoze, omatwi nomazuviro womapeu.",
+      "lede": "Omapinguriro omanene tji ye raisa nawa ohunga nokutanaura ohepero ya dementia, ya ningirwa pehi nawa, pamwe nopo mba oviraisiro aphe tji vi ri ouhirona poo vi pamburuka. Owo outjiukiro wondundu, ka eronga rouveruke."
+    }
+  },
+  "guide": {
+    "updated": "Tji tja rororerwa",
+    "minuteRead": "Oruve rwokulesa oruminute {n}",
+    "byTeam": "I otjimbumba tja Creative Activities",
+    "howWeWrite": "Omuhingo wetu wokutjanga",
+    "shortAnswer": "Ezira efupi",
+    "onThisPage": "Koutara imbwi (Omitara {n})",
+    "commonQuestions": "Omapuriro yeuva kehe",
+    "sources": "Ozongondzero",
+    "sourcesNote": "Tu twa ko oviungura nozondando ndo outara imbwi tji u zama ko. Aihe ya taryerwe nawa oruve outara imbwi tji wa rororerwa.",
+    "tryTogether": "Kondjee pamwe",
+    "relatedGuides": "Omaronga nge pambara",
+    "related": "Nge pambara",
+    "startHere": "Utira mba"
+  },
+  "healthNotice": {
+    "aria": "Ondjivisiro youtjiukiro wouveruke",
+    "title": "Outjiukiro wondundu, ka eronga rouveruke",
+    "textHtml": "Outara imbwi u hungira omapinguriro nge tjangwa moviungura vyovandu vekunduriro. Ka u yenene okukutjira tji tji ri tjisemba komundu umwe. Popya nonganga komurungu wokutanaura ovikurya, omarutu, ozohoze, omiti poo ovitirwa vyouveruke. Kotjirundumukiro tji tja ya meha tjimanga poo omatundamiro omakukutu, konda ombatero yohanya tjimanga. <a href=\"/medical-disclaimer/\">Lesa ondjivisiro yetu youtjiukiro wouveruke</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Otjiungura tjokunyanda pamwe, ka ezeva rworuzemburuko",
+      "seoTitle": "Ohunga na Creative Activities: Omuhingo wetu",
+      "description": "Omuhingo Creative Activities amuna omanyando aehe ahina omarooro woruve, omarano poo omisoro, oviuriro tji vi kara aumwe vi munika, na tji matu hepa okuhungira na tji tu hina okutja ohunga na dementia.",
+      "crumb": "Omuhingo wetu",
+      "lede": "Creative Activities i tjita oviungura vyoviuriro vi horora vyovakuru mbi omutjevere nomundu ngu na dementia mbe yenena okuyorera pamwe popepi.",
+      "bodyHtml": "<h2>Ihi tji tu kambura</h2><p>Ondando yotjiungura ooruveze orweni: ombazu yokuhungira, okumwina, enyando rokupanga omaano yeefoto vivari kumwe, poo okuhaama pombanda pamwe tji pe nombwaneno. Kapisi okupima omundu, okumuninikiza unene poo okuraisa otjiṋa.</p><p>Oviunguriswa ovingi vyokupendura ouruvi vi tungirwa kombinga yorutuwo, omawina, omarondelo noviyandja. Komundu ngu hupa no-dementia, ihi mape ya atji kara tjimuna erorero ndi e he na okupita. Etu twa tunga omukatu wa pamburuka kwihi, nu matu rikuata koveta mbi:</p><ul><li><strong>Kape notjiṋa tji matji pondoka okuwisa.</strong> Kape na oiri, ondando, ombalero yomatantero, omihupo, omapurukiswo poo omaruvara wokutara komuvelo auhe.</li><li><strong>Okuzemburuka komberoo kombanda yokuripura.</strong> Omaano yeefoto ye kara pu pe munika aruhe. Omapuriro ye nyanisa omahunjingiro nu kaye pura omena poo omazemburukiro.</li><li><strong>Ovinene, oviazororoka nu vya pamisirwa.</strong> Omambo nomano omanene, omaruvara ngu ye munika nawa, nomakondorero nge kara poruveze rwo rumwe.</li><li><strong>Ondengu yomukuruntu.</strong> Omaano wouzandu tjiri nomambo omapeke nomangungumanise. Kape novikarata vyokuzana, omatanga wokwiimbira poo ozondjambi zo-emoji.</li><li><strong>Onjira ombazu yokupita.</strong> “Twa mana nai” i munika aruhe. Okukanghamena pokati omapitisiro omawa tjinene.</li><li><strong>Ouyenda woye tjipeta.</strong> Kape na omaizikiro poo omahungi womapitisisiro wovitjitwa. Eefoto nde wa toorora ze kara motjiunguriswa tjoye.</li></ul><h2>Ihi tji tu ha tja</h2><p>Omizano vyetu ovyoupanga nekutiro kumwe. Kavyo kavi hepa okupindisa, okurora, okupima, okupanga, okututura poo okutjaera ouzeu wo-dementia poo omukiti wa-Alzheimer, nu kape nomundu ngu ma sokuvitoorera etando ndo. Tji matu tjanga kombinga yomakonḓononero komapandja etu <a href=\"/brain-health/\">wouveruke wouruvi</a>, matu hungire pa yeruka pu pe he na oundiro outano, nu katu vi patanisa nomizano vyetu oveni.</p><h2>Ovetu oone</h2><p>Creative Activities otjimbumba otjititi tji ri kuramenapo otjini. Katu ri ondondhu yozonganga zoutjiwe. Omazuva etu ya tjangwa okuza komirari vyomahuhuminisiro vyomautjindiro tjimuna National Institute on Aging no-Alzheimer’s Association, nu ezuva auhe ri raisa omatjangero wo. Lesa <a href=\"/editorial-policy/\">omukatu mbu tu tjanga nokutarera omapandja etu</a>.</p><h2>Tu raera ihi tji matji vatere</h2><p>Matu yandja ombazu yokuzuva ihi tji matji ungura kove na ihi tji tji ha ungura, unene okuza kovandu mbe hupa no-dementia, ovatekeri vombazu yovandu novanandjira voviungura. Tumina omeili komaturiro <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Omukatu mbu Tu Tjanga Nokutarera Omapandja Etu",
+      "seoTitle": "Omirari vyOmatjangero",
+      "description": "Omukatu mu Creative Activities a kondonona, a tjanga, a toora omahuhuminisiro nokutjindisira komurungu omapandja woviungura vyo-dementia nouveruke wouruvi, na ihi tji tu ha tjangisa nandarire.",
+      "crumb": "Omirari vyomatjangero",
+      "bodyHtml": "<h2>Omatjangero wetu</h2><p>Omazuva etu twe ya zikamisa komirari vyomuhoko okuza komautjindiro tjimuna National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance na NHS, nokomakonḓononero yovaitavekerwa tjimuna omakonḓononero wa Cochrane nomapitiro omanene wopozonganga. Ezuva auhe ri hungira kombinga yomatjangero ngu ri yeama ku wo. Tu paturura ehungi auhe ngunda atu he ya raisa, nu matu hungire ihi tja tja tjiri.</p><h2>Omukatu mbu tu tjanga</h2><ul><li>Oviungurisiwa komurungu: ihi tji matji tjitwa ndino, meraka eporu.</li><li>Oukahu kombinga yomahuhuminisiro: matu tja “kwa kwatathana na”, “mape ya” na “omahuhuminisiro ya pamburuka” tji pe ri ouatjiri.</li><li>Onḓengu: matu tjanga kombinga yovandu mbe hupa no-dementia awo ovakuru, nu katu ungurisa eraka rokupura-pura poo okusawisa.</li><li>Kape novitjitwa vyokuuta: kape nomabalero, omahungi, ovanongo, omarorero poo omahepero wovandu mbia utwa tupu.</li></ul><h2>Owo vene mbe tarera omapandja etu</h2><p>Omapandja ya tjangwa nokutarerwa i otjimbumba tja Creative Activities, nekwafo rovitungwa vyo-AI vioviungura vyomakonḓononero nomatjangero wokutanga. Epandja auhe ri tarerwa i otjimbumba komatjangero wa tjo. Omapandja etu <strong>kae</strong> tarerwe i onganga yomiti poo omunamiti warwe, nu katu na okutja ka ri nao. Ovyoo mahepero woruveze aruhe, kaye ri omaronga womiti.</p><h2>Ihi tji tu ha tjangisa nandarire</h2><ul><li>Omahuhuminisiro wokutja omzano, ovikuria, omuhupo womiti, okuzira okurya poo omukatu wondjire ma tjaere, ma panga, ma tutura poo ma rundisa ouzeu wo-dementia.</li><li>Omarorero, omapuriro poo ondando ndji raisa kutja omundu u na, poo ka na, ouzeu wo-dementia.</li><li>Omaronga wokutaura, okuhuhuminisa poo okupinganiisa omuti auhe.</li><li>Omatjangero wokurandisa poo wokukwatisiwa mbu ri tjisi omaronga.</li></ul><h2>Omatjindisiro komurungu nokusemisa</h2><p>Epandja auhe ri raisa oruveze tji ra tjindisirwa komurungu kosenina. Tji wa munu epuko poo omatjangero nga kuka, koresa otuungurire omeili komaturiro <a href=\"mailto:{email}\">{email}</a> nu etu matu ke tji tarera tjimanga.</p>"
+    },
+    "faq": {
+      "title": "Omapuriro nOmazuva",
+      "seoTitle": "Omizano nOviungura vyo-Dementia: Omapuriro nOmazuva",
+      "description": "Omazuva komapuriro wapeke kombinga yomizano noviungura vyo-dementia: omizano viṋe mbi mahepa okurora, oruveze rure ndu ma zaniwa, omihingo vyokurongera kounene wouzeu, ouveruke wouruvi nouyenda woye.",
+      "crumb": "Omapuriro nomazuva",
+      "lede": "Omazuva omafupi na porire komapuriro nga pura ovatekeri unene.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Kombinga yomizano",
+          "items": [
+            {
+              "q": "Omizano viṋe omiwa komundu ngu hupa no-dementia?",
+              "a": "Omizano omiwa ovyo mbi vi tjiukwa nawa, ovipeke nu kape nomuinyo, nu otjiwa ootji tjo tji tji nyandisa omundu ndino. Okukwatathana komaano yeefoto nge munika, okupangura, omazano wokutuurisa komaano omapeke, okumanisa omihungiro mbi vi tjiukwa, okuhina omaruvara no-bingo yomaano yeefoto avihe vi ungura nawa kovandu ovangi. Henḓa ovitjangi vyooruvyave, omawina notjiṋa atjihe tji tji kara tjimuna erorero."
+            },
+            {
+              "q": "Omizano tjiri vyomaheze?",
+              "a": "Ii. Omapuhiro ayehe noviṋa avihe vyokutjinwa vyovikengee, kape nombapira yokuritjangisa, okurinyandisa, okutorora poo omatjiviro wovipindi."
+            },
+            {
+              "q": "Ongwaye tji ku he na oondatu, oviṋingonyo poo omatwi yorveze?",
+              "a": "Orupapo noondatu vi rundurura otjiungura tji tji nyandisa tji rira otjiyere tjekonḓonono, tji tji eta ehonḓo poo okuyekwa. Eṱe tu yandjera oruhoze porunyando norveze pamwe, kokutja kape netjisirize tji tji pundwa nu u yenena okuhama orveze arwihe."
+            },
+            {
+              "q": "Oviverekero viṋe mbi ungura nawa tjinene?",
+              "a": "Ongodji aihe, o-tableti poo okompiyuta ye nombapira yomoperovisiro yo-web yongundwi. O-tableti kombanda yosikiri pomaoko ovandu vevari pamwe opo pe ri nawa tjinene okuungura pamwe. O-laptop ya patelwa ko-TV i ungura nawa kovihahe vyovandu."
+            },
+            {
+              "q": "Tu yenena okunyanda nomanoṱo yetu oveni weṱuvaze?",
+              "a": "Ii. Oviṋa vyomanoṱo pevari vi rira omanoṱo 2 nga 6 ngu wa toorora otjokunyanda tji tji tasanisa. Omanoṱo ye kara mo-browser yoye nu ka ye tundwa poo okutuwa movihahe vyopendje."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Oviungura vyokunyanda nokutjevera",
+          "items": [
+            {
+              "q": "Otjiungura tji sokuṱa orveze ndo ru kwi?",
+              "a": "Oruvandu orveze rwozominute 10 nga 20 orwa kuma, nu orwezi ozominute 2 o zozahe. Kara nourekere komazemburukiro wokukoka poo okuyekwa nu u hame orveze tji tji ri nawa ngurova. Kape norveze rwozongunḓu uriri."
+            },
+            {
+              "q": "Ivi tji ve ha vanga okunyanda otjiungura?",
+              "a": "Tjevera okuhavanga kwauo, nu u kondje rukwao konyara poo mongediro yarwe. Okupata ku yenena okuzamba kokukoka, kovitenda, kokurira nomayovi poo kokuhina ondando uriri. Lesa ombapira yetu yomakondjero wotji ve tji va tja kako."
+            },
+            {
+              "q": "Oviungura viṋe mbi ri nawa komakondjero wombwiromuinyo kombanda?",
+              "a": "Okutuurunga nomazuviro: okuzuva omihoko mbi u vanga, okukanya komake nomawe, okutara omanoṱo pamwe, okukwata okamburukutu okapepu, okukara pendje, poo otjiungura otjipupu tjomanoṱo nomundu ngwa kara popezi nao. Ombapira yetu yorwezi oruhahe rwopeke i nomapango omengi."
+            },
+            {
+              "q": "Hapo pe noviungura vyomahongero wovihahe mozonganda zokutjevera ovandu?",
+              "a": "Ii. Picture bingo i nozokarta zokutjinwa nomutjanga womombanda yosikrini, nu Finish the saying nozokarta zozombongarero vi ungura nawa tji mavi leswa peulu. Ombapira yetu yozonganda zokutjevera i kwata ovihaha, omapando nomarundurisiro komakondjero wekuto."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Oupole wombongo",
+          "items": [
+            {
+              "q": "Oviungura vyomapuhiro vi yenena okutjevera poo okurundurura oukahu wouzeu wokuzemburuka?",
+              "a": "Kape notjiungura tji tja raisiwa okutjevera ouzeu wokuzemburuka, novipuka vyetu kavi nambango ndjo. Omapindisiro wombongo movihahe vyovandu ya raisa ouwa outiti momakondjero wovandu mbe nomauzeu omatiti wokuzemburuka, nungwari iho tji ri peke tjinene nokutja otjiungura tji yenena okuturisa omuhoko. Tu eta oviungura mbi vyenyando nokukara pamwe."
+            },
+            {
+              "q": "Ouzeu wokuzemburuka u yenena okuhinina?",
+              "a": "Kape nomazeva womakondjero omanyando. Omakondjero ye patele oviṋa 14 vyomutjise nouhunga wotjiyeko nouzeu wokuzemburuka, tjimuna okuhazuva nawa, ozombombwe zombaze, okuhakondja komukurumbo nokukara erike. Okurwisana navyo ku yenena okususuparisa oviti komundu umwe, nungwari ovandu ovengi mbe ungura nawa avehe ngurova ve muna ouzeu mbwi. Ka ndjo ondjo yomundu."
+            },
+            {
+              "q": "Okuharya orveze ku ri nawa kowupole wombongo?",
+              "a": "Omahongero kovandu ma ye kurama katiti nu omengi ya tjitwa kovinamwinyo. Okuharya ku yenena okurira oupongo kovakurupe, tjinene tji ve noutji wosukera poo tji ma va suparisa omuzimba imbwi u he ri wondando, nu ka tji hepurwa kovandu mbe nomauzeu wokuzemburuka. Hungira nonganga komeho yokurundurura ouhunga wovikuria vyoye."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Ouṱe novatjeveri",
+          "items": [
+            {
+              "q": "Eṋe mamu twa pamwe ondando yoviṋa vyandje?",
+              "a": "Kape nozakawundi poo omatjiviro. Tu ungurisa Google Analytics okuvarisa ovandu mbe ya nokutara omapandja ngu ye vatera, nu obrowser yoye i zemburuka tji wa paturura ozondwi ozozemba. Omanoṱo ngu wa toorora koviṋa vyomanoṱo kaye isirwa pendje. Tara ombapira youṱe yomauzeu wekuto."
+            },
+            {
+              "q": "Indwi ondunge yonganga?",
+              "a": "Kako. Creative Activities ya ririra orunyando nomahongero waparwe uriri. Koviṋa vyowupole, hungira nonganga, nu komauzeu womupunda tonena 112."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Omahongero warwe: <a href=\"/caregiving/how-to-play-together/\">omukandi wokunyanda pamwe</a>, <a href=\"/caregiving/when-they-say-no/\">tji va tja kako</a>, <a href=\"/activities/late-stage/\">oviungura vyomakondjero wopendje</a> nu <a href=\"/brain-health/can-dementia-be-prevented/\">ouzeu wokuzemburuka u yenena okuhinina?</a>"
+    },
+    "handout": {
+      "title": "Omapuhiro Wovikengee Oviwa kOvandu mbe nOuzeu wOkuzemburuka",
+      "seoTitle": "Ombapira yOkutjinwa: Omapuhiro wOuzeu wOkuzemburuka Wovikengee kO-Interneta",
+      "description": "Ombapira yepehi rimwe yokutjinwa yovakwetu novatjeveri kombinga yomapuhiro womanoṱo wovikengee kovouzeu wokuzemburuka, kovihahe vyombatero nozovikeke vyokutjevera.",
+      "crumb": "Ombapira yokutjinwa",
+      "lede": "Tjina epandja ndi kovihahe vyombatero, kozombapira zokutjevera poo komuvero wo-firidji. Ungurisa otjiungura tjokutjina tjo-browser yoye; ovihepero nozombuto kavi tjinwa membapira ndji.",
+      "introHtml": "<p>Omanoṱo omanene, omambo omapupu nu kape netjisirize tji tji pundwa. Ovipuka vyovikengee kongodji, o-tableti poo okompiyuta, kape nokuritjanga, kape nomatjiviro wovipindi, kape nozotaimara nu kape noondatu. Kara pamwe omuhoko nomuhoko nu mu tjite orwezi norwezi.</p>",
+      "gamesTitle": "Omapuhiro wokukondja pamwe",
+      "restHtml": "<h2>Omapango omawa</h2><ul><li>Toorora orveze rweyuva orundu omundu tja kara nawa tjinene.</li><li>Tameka norwezi orupupu tjinene. Otupa tuine otuvingi ngurova.</li><li>Hungiree kombinga yomanoṱo. Ozombongarero oruhandu oruwa tjinene.</li><li>Hama tji tji tjiri nawa ngurova. Okuhama komurungu omatiziro omapwe.</li></ul><h2>Vya kara mo-site wina</h2><ul><li>Oviṋa vyokutjinwa vyovikengee: omambo omanene wokukondja, omapandja wokuninikisa, ozokarta zozombongarero na picture bingo.</li><li>Ondando yoviungura komahongero ayehe, nombapira yokunyanda pamwe nokuritjevera ove omuini.</li></ul><p class=\"muted\">Koruhoze norveze pamwe. Ka ndunge yonganga, ezevo poo okupangura. Creative Activities ya tjangwa i Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "kOzonganda zOkutjevera, kOzolaebrari nokOvihahe vyOmbatero",
+      "seoTitle": "Oviungura vyOtjombo vyOvandu mbe nOmutjise wOkuzembata mOmazire wOvakurupe nOmangundiro",
+      "description": "Omukalelo omazire wovakurupe, omapuriro womutenya wovandu ovanene, omambo wovandu avehe, omawananeno wovakurupe nomangundiro wokuvatisa mu ve ungurisa oviuriro vyetu vyotjombo vyovandu mbe nomutjise wokuzembata, puna omambo wokututwako komapepisiro womavaterero.",
+      "crumb": "Komaunguriro nomawananeno",
+      "lede": "Avisihe mbi vi morungovi ndwi ovyo tjombo okutungurisa novaturise, ovaserekarere na varwe mbu mu vatisa, kapena omahepero wombapira, ekondwa poo omatahelo. Erupa ndi mari hepa oviungura mbi vi mba nomuano wokuvitjangisa ku varwe.",
+      "shortText": "{name}: oviuriro vyotjombo vyoviurirwa vyo kuhaama nomapukuriro woviungura kovoumbulirwa vovandu mbe nomutjise wokuzembata na ovatakamise vavo. Kapena erisasisiro, kapena omihingo vyotjiveva, kapena omanongoneno.",
+      "longText": "{name} ({domain}) ri yandja oviuriro vyotjombo {count} morungovi mbya tungirwa ovandu mbe nomutjise wokuzembata, okwiiza puna okuvanga oviurirwa mbi twere pamwe mbya taruka, oviuriro vyokumanya ovisapera vipepu, okukutisa, ovihepero vyo ruveze romurungu na bingo yovifano puna ombapira ndji pondora okupurintiwa. Kapena omahepero werisasisiro, oviyandjwa vyombatero, omihingo vyotjiveva poo omanongoneno. Orungovi wina rundu runomapukuriro womuhihameno omupepu woviungura korukondwa aruhe rwomutjise wokuzembata mbya twisa pomweze omatjangwa wo National Institute on Aging no Alzheimer's Association.",
+      "useTitle": "Mbi mape ya omaunguriro aye ungurisa",
+      "gamesItemHtml": "<strong>Oviuriro vyomorungovi {count}</strong> mbi ungura poruungurisiro rwo kompyuta, rotuvande poo rotivi ndja twirwa kokompyuta. Kapena okupakera mo, erisasisiro poo okuzisa morungovi. Tala <a href=\"/games/\">oviuriro avihe</a>.",
+      "printablesLabel": "Ombapira {count} ndji pondora okupurintiwa:",
+      "printablesAfter": "Ungurisa otjikarata tjo Kupurinta kerupa aruhe.",
+      "moreItemsHtml": "<li><strong>Omuano womangundiro:</strong> <a href=\"/games/picture-bingo/\">Bingo yovifano</a> inombapira ndji purintiwa nomuasanisi woporusuviro, na <a href=\"/activities/trivia/\">omapuriro omapepu</a> ye nomapuriro 50 puna omaziriro wokutoorora nomambo wokuhungira.</li><li><strong>Omapukuriro woviungura</strong> vyovavatise nomapata, korukondwa na komuano, mbya tjangwa melaka epepu puna omihoko vyovitjangwa. Utira po <a href=\"/activities/ideas/\">ozongononeno 101 zoviungura</a> poo <a href=\"/activities/care-home-groups/\">oviungura vyomangundiro momazire wovakurupe</a>.</li>",
+      "restHtml": "<h2>Omuano omangundiro mu ye vi ungurisa</h2><ul><li><strong>Omazire wovakurupe nokutakamisa omazembatisiro:</strong> bingo yovifano poo okumanisa ovihepero potivi yomuryo wovandu avehe, nomundu umwe ngumwe a tanda koviurirwa peha yengundiro.</li><li><strong>Omapuriro womutenya wovandu ovanene:</strong> oruungurisiro rwetuvande puna Oviurirwa mbya twere pamwe vye ririsiwa komatuvande yane, kouyeze oukupi wovandu vevari uriri.</li><li><strong>Ozongononeno zoviungura zovandu avehe:</strong> okupaha omambo mbya purintiwa nombapira zomahepero mombapira zokutakamisa omazembatisiro, norungovi ndwa twisiwa momatuvande wovandu avehe.</li><li><strong>Omangundiro wokuvatisa ovatakamise nomaturiro womazembatisiro:</strong> <a href=\"/handout/\">ombapira yetwi imwe ndji purintiwa</a> kutja omapata ye toore keumbo.</li><li><strong>Ozombitiro novarongamise vomapirukiro keumbo:</strong> ombapira ndji mozingundiro zovatakamise, koviungura vyomuohe vyo keumbo poo popehi yombete.</li></ul><h2>Mbi tu hi na okupa</h2><p>Oviuriro mbi ovyoutjiro notuveze twokukara pamwe. Kavi nongonona omutjise, kavi rore, kavi yandja ozosikora, kavi vereke poo okutumbisa omutjise wokuzembata, nu matu ningire omaunguriro kutja ave vi sanene momuano owo. Kapena oviyandjwa vyombatero, noviuriro kavi ningire omena, oviungura vyourunde poo ovifano okutwiswa morungovi. Orungovi ru ungurisa Google Analytics okutara omatembasaniro; <a href=\"/privacy/\">ombapira yetu yombazu</a> mai hepa mbi vi twiswamo. Ovifano mbi vi unguriswa mo <a href=\"/games/photo-pairs/\">Photo pairs</a> vi kara morungovi uriri.</p><h2>Tutwekomo komapepisiro woye womavaterero</h2><p>Tji u nomapepisiro womavaterero wovatakamise, ove wa yorokerwa okutwako ko <a href=\"/\">{domain}</a>. Mo pondora okutjanga erasaneno rimwe poo rwarwe.</p>",
+      "shortTitle": "Erasaneno ekupi",
+      "longTitle": "Erasaneno ere",
+      "linksHtml": "<p>Arupa womavaterero wokutwako oviti: <a href=\"/games/\">oviuriro vyotjombo</a>, <a href=\"/activities/printable/\">ombapira zotjombo ndzi purintiwa</a>, <a href=\"/activities/alzheimers/\">oviungura vyomutjise wa Alzheimer's</a> na <a href=\"/caregiving/how-to-play-together/\">omuano wokunyanda pamwe</a>.</p><h2>Omapuriro poo omarongamisiro</h2><p>Tji pe na otjiṋa morungovi ndwi tji tji hina okuza nawa poo tji tji ha rauka, poo omahepero womuturise tji ye ha mwinine mombi vi mba, arikana turaera po <a href=\"mailto:{email}\">{email}</a>. Arikana o yandje ondando yomundu poo oviungura vyourunde vyovaturise poo ovavatwa.</p>"
+    },
+    "app": {
+      "title": "App ya Creative Activities",
+      "seoTitle": "App ya Creative Activities kwiina iPhone na Android",
+      "description": "App yotjombo ya Creative Activities: okuvanga ovifano omipepu puna omatuvande mane omanene, ovifano vyepata mbi tura motjiungurisiwa tjoye, oviurirwa vyovifano mbi ungura aape ha ri morungovi, na aape ha ri erisasisiro.",
+      "crumb": "App ndji",
+      "lede": "Avisihe mbi wa suvera morungovi ndwi, mo app ndji ungura nokutja kapena orungovi nu ndji pondora okuungurisa ovifano vyepata mbi wa toorora.",
+      "worksOn": "I ungura kwiina {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Utira poutiti</h2><p>Utira nomapapa mane omanene nomahanoeano ngamutjiukwa nawa. Yeka omahanoeano ye munike, poo ye holeka indu tji matji mu paturura. Omuhingo omupole kau norure rworuveze, ondambo yoviwapo poo ehaamise. Toorora omapapa 4, 6, 8 poo 12.</p><h2>Tjita i rire eyoye omuini</h2><p>Toorora omahanoeano wekumbo pomutoorero womahanoeano wotjiungurisiwa tjoye. O-apu mai pungura omakopi omapepu kovinyandwa vyayo. Kaipaha motjimbumba tjomahanoeano woye poo okurundisa omahanoeano woye omuini, nu mai vatere omahanoeano nga komurongo yevari na yane (24) motjimbumba tjimwe.</p><h2>Tarei pamwe uriri</h2><p>Tarei ehanoeano rimwe moruveze. Omapuriro omasosero maye nyanisa omisambo nokuhina okupura omundu okuzemburuka omena poo okupaha eziriro eserevate. Okutara uriri kwayene.</p><h2>Mai ungura nande kape no-interneti</h2><p>Omahanoeano wokutisa nomimbumba hambondatu vyomahanoeano avihe vi ri mo-apu. Omakopi womahanoeano ngwe ya mo me ungura nokuhina o-interneti. Okutoorora omahanoeano omatenga ngu ri mo-iCloud uriri mape ya ahepa omurari wo-interneti.</p><h2>Kape no-akaundi, kape nomupungurisi wokupakerera omahanoeano</h2><p>Omakopi womahanoeano wekumbo me kara mo-apu motjiungurisiwa tjoye. Move ya okuisa mo omakopi nokuhina okuzenga omahanoeano woye omatenga. Omabungisiro wotjiungurisiwa mape ya a kwateremo outjiukwa wo-apu. Resa o-<a href=\"/app-privacy/\">omurari woutjinda wo-apu</a>, nu o-<a href=\"/help/\">ombatero yo-apu</a> mai ku vatero morutuu aruhe.</p>",
+      "disclaimer": "Creative Activities oyokupwiika nokusuvisa omutima pamwe nomisambo. Kai tjiti omatarero wozondjite, kaiveverisa, kaitjaerere poo okupima omutjise wokuzembata poo ouvere wa-Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Ounyando wOhoro kO-interneti wOvandu mbe nOmutjise wOkuzembata na Alzheimer",
+    "description": "Ounyando wohoro ko-interneti wovakurupe mbe nomutjise wokuzembata poo Alzheimer: okusaneka omahanoeano, ozombasela ozipu, okutara nokupandura, omihingo vyekuruhungo, okuhonga omihoko, nobinko. Kape nomalisisiro, orure rworuveze poo ondambo yovipuka.",
+    "crumb": "Ounyando",
+    "h1": "Ounyando Omupole wOvandu mbe nOmutjise wOkuzembata",
+    "lede": "Ounyando {count} wohoro wokunyanda pamwe motjitara tjoye tjo-interneti. Omahanoeano omanene, omambo omapu, nokape natjimwe tjimatji pundisa: kape norure rworuveze, kape nondambo yoviwapo, kape nomalisisiro.",
+    "listName": "Ounyando omupole wovandu mbe nomutjise wokuzembata",
+    "byStageTitle": "Okutoorora ounyando komirondo vyomutjise",
+    "byStageLede": "Omirondo ovitarere uriri ovitititi vyokuhondjera. Kongorera imbi ngumutjevera mbi me vanga nambye mu tjaere nawa ndino.",
+    "stageCol": "Omurondo",
+    "gamesCol": "Ounyando mbau sokutara nawa",
+    "moreHtml": "Omizaro ovingi kombunda yotjitarera: <a href=\"/activities/ideas/\">ovinyandwa 101 vyovandu mbe nomutjise wokuzembata</a>, <a href=\"/activities/alzheimers/\">ovinyandwa nounyando wa-Alzheimer</a>, <a href=\"/activities/memory-games/\">ounyando omupole wokuzemburuka</a> na <a href=\"/activities/puzzles/\">ozombasela</a>.",
+    "faq": [
+      {
+        "q": "Ounyando une umwe mbumatwete okutira nawo?",
+        "a": "Okusaneka omahanoeano womapapa mane etoororero etenga etuuke nawa. Tji tja ri tjinene okutoorora pokati komahanoeano, rora Paha imbi mbi ri pamwe nomahanoeano yevari. Kotjimbumba, rora O-binko yomahanoeano."
+      },
+      {
+        "q": "Ounyando mbwi mau ungura ko-iPad poo kongodji yomunwe?",
+        "a": "Ii. Ounyando auhe mau ungura motjitara tjo-interneti mozongodji, motubleiti na mokompiuta, nu omahanoeano maye kurire kokuura otjitara. Otableiti ndji kuramisiwa ketuukisiro oyi yandja omuhingo omutuuke unene kovandu vevari."
+      },
+      {
+        "q": "Ounyando mbwi ouwa komundu ngu nomutjise wa-Alzheimer?",
+        "a": "Ii. Owo wa ungurirwa ovandu mbe nomutjise wokuzembata, pamwe na Alzheimer, nguri etwisiro enene. Omahanoeano ye kara nga ye munika, kape nomatoororero omengi, nu kape natjimwe tji tji pimiwa oruveze poo oviwapo, tji tji heye kutja ounyando mbwi utira kokutjiukwa kwozongondjero nda tjiukwa nawa moruveze rwokuzemburuka ovina ovipe."
+      },
+      {
+        "q": "Mbwi ounyando wokuzemburuka wovakurupe?",
+        "a": "Owo ounyando wokusaneka nowomahanoeano mbumau yere kuyehe omukurupe, nungwari wa tjangwa ahe sokurora ozondunge: mokusaneka Omahanoeano, omahanoeano ye kara ye tarera komurungu tji u hina okutoorora omuhingo warwe. Embo retu rounyando wokuzemburuka wovakurupe mbe nomutjise wokuzembata mari hehere omuhingo wokutjinda ounyando wokuzemburuka auhe auri omupole."
+      },
+      {
+        "q": "Pe nounyando wozombumba mondjuwo yomatjeverero?",
+        "a": "Ii. O-binko yomahanoeano i nomakartu ngu mape ya aye pita mondinda nomutanausi kotjitara, na Manisa omuhingo noZokartu zOmisambo viungura nawa tji mavi leserwa otjimbumba kombanda."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad na Android",
+    "requirements": "iOS 15 poo ndje ya kombunda; Android 7.0 poo ndje ya kombunda",
+    "summary": "O-apu yohoro ya-iPhone, iPad na Android ndji nomusanekero omupole womahanoeano komapapa mane nga komurongo na yevari omanene, okusaneka nokutara pamwe nomahanoeano wekumbo nguu toorora, pamwe nomimbumba hambondatu vyomahanoeano mbi ungura aapehe nokuhina o-interneti. Kape no-akaundi, omahungi womapuro, orure rworuveze poo ondambo yoviwapo.",
+    "features": [
+      "Okusaneka omahanoeano okupole nomapapa 4, 6, 8 poo 12 omanene; omahanoeano ye kara nga ye munika ngunda u hina okutokora okuaholeka",
+      "Omahanoeano wekumbo ngu wa toorora maye kwaterwa mo-apu wokusaneka nokutara pamwe",
+      "Tarei pamwe: ehanoeano rimwe moruveze pamwe nomapaha womisambo",
+      "Omimbumba hambondatu vyomahanoeano vi ri mo-apu; vi ungura aapehe nokuhina o-interneti",
+      "Kape no-akaundi, omahungi womapuro, omarandero mo-apu, orure rworuveze, ondambo yoviwapo poo ehaamise"
+    ],
+    "faq": [
+      {
+        "q": "Pe no-apu yovinyandwa vyovandu mbe nomutjise wokuzembata?",
+        "a": "Ii. Creative Activities (ndja tjangwa aeri \"{storeName}\") oyohoro mo-App Store na Google Play. I yandja okusaneka omahanoeano okupole nomapapa omanene, ounyando pamwe nomahanoeano wekumbo nguu toorora, nomimbumba vyomahanoeano mbi ungura nokuhina o-interneti."
+      },
+      {
+        "q": "O-apu ya-Creative Activities oyohoro?",
+        "a": "Ii. Oyohoro okukutura mo, kape nomahungi womapuro, akaundi poo omarandero mo-apu."
+      },
+      {
+        "q": "Does the app work without internet?",
+        "a": "Ii. Omahanoeano wokutisa nomimbumba hambondatu vyomahanoeano avihe vi ri mo-apu, nomahanoeano wekumbo me ungura kape no-interneti tji ya kwaterwa mo-apu rukuru. Okutoorora ehanoeano ndi ri mo-iCloud arukavu mape ya ahepa omurari wo-interneti."
+      },
+      {
+        "q": "Mbe ya okuungurisa omahanoeano wetu wekumbo omuini?",
+        "a": "Ii. Toorora omafano mokati kotjiungurisiwa tjoye. O-apu ndji i tura otjiperendero otjititi kotjiungurisiwa tjoye koviungura vyayo, kayi twisa omafano peke ngunda aape kaye rundurura omafano woye owatjiri. Mo yenene okwisako omaperendero nga poruveze aruhe."
+      },
+      {
+        "q": "O-apu ndji oyo yokuronga omahongo poo okurora ozondunge?",
+        "a": "Koko. Creative Activities oyonyando noruveze pamwe. Kayina ozondando poo omaroro, nu kayi tjiukisa, okuveruka, okutjaera poo okupima ouzeu wokuzemburuka poo o-Alzheimer."
+      },
+      {
+        "q": "Oviungurisiwa vyeni mbi i ungura nambyo?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Hapo vena o-apu yorunyando ndwi?",
+      "a": "Ii. O-apu ya Creative Activities yokahende ya iPhone, iPad na Android ina omarasaneno womafano omapu, i ungurisa omafano wekuva woye ngu wa toorora, nu i ungura nokuhina o-intaneta. Kayina o-akaundi, oviyandjwa vyombatero poo omaroro."
+    },
+    "gameFaqNo": {
+      "q": "Hapo vena o-apu yorunyando ndwi?",
+      "a": "Kaye li korunyando ndwi. O-apu ya Creative Activities yokahende ya iPhone, iPad na Android ina omarasaneno womafano omapu nomafano woye wekuva ngu wa toorora, nu i ungura nokuhina o-intaneta. Orunyando ndwi aruhe o rwokahende mbrovusa tjoye."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: omafano omanene noyehepero",
+    "noscript": "Orunyando ndwi matji hepa JavaScript yi patiwe mobrovusa tjoye. Omavyuriro kehi nga maye ungura nokuhina oyo.",
+    "about": "Ohunga na {name}",
+    "aboutAria": "Ohunga norunyando ndwi",
+    "noTimer": "Kape noruveze poo ozondando",
+    "printable": "Tji yenena okupitisiwa membapila",
+    "howTo": "Omukatu wokunyanda {name}",
+    "tips": "Omahongo wokunyanda pamwe",
+    "newToPlayingHtml": "Omupe mokunyanda nomundu ngu nouzeu wokuzemburuka? Resa <a href=\"/caregiving/how-to-play-together/\">omukatu wokunyanda omarunyando pamwe</a>, pamwe na imbi mbi mo tjiti tji ve ha vanga vali.",
+    "moreAria": "Ovingi vyokutarera",
+    "helpfulGuides": "Omahungi omapaturuke",
+    "appTitle": "Nyanda mo-apu",
+    "appText": "O-apu ya Creative Activities yokahende ina omarasaneno womafano omapu nomafano woye wekuva, nu i ungura nokuhina Wi‑Fi. iPhone, iPad na Android.",
+    "photoAppTitle": "Rongerera omafano woye",
+    "photoAppText": "Mo-apu ya Creative Activities yokahende, omafano ngu wa toorora maye kara motjiungurisiwa tjoye koruveze rwo komurungu, nomarunyando maye ungura nokuhina Wi‑Fi. iPhone, iPad na Android.",
+    "goodToKnow": "Otjikuma tji tji hepa okutjiukwa",
+    "goodToKnowText": "Orunyando ndwi orwonyando noruveze pamwe. Karurore, okupima poo okuverura otjina ngamwa.",
+    "moreGames": "Omarunyando warwe omapu",
+    "crumb": "Omarunyando"
+  }
+}

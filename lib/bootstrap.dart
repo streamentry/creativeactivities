@@ -1,0 +1,77 @@
+import 'dart:async';
+import 'dart:developer';
+
+import 'package:bloc/bloc.dart';
+import 'package:flutter/widgets.dart';
+import 'package:golden_moments/app/view/platform_home.dart';
+import 'package:golden_moments/data/models/sound_setting.dart';
+import 'package:golden_moments/data/services/sound_service.dart';
+import 'package:golden_moments/features/gentle_activities/data/gentle_preferences.dart';
+import 'package:golden_moments/features/gentle_activities/data/high_contrast_setting.dart';
+import 'package:golden_moments/l10n/app_language.dart';
+import 'package:golden_moments/l10n/l10n.dart';
+import 'package:provider/provider.dart';
+
+class AppBlocObserver extends BlocObserver {
+  const new();
+
+  @override
+  void onError(BlocBase<dynamic> bloc, Object error, StackTrace stackTrace) {
+    // Avoid state dumps and user-provided photo paths or identifiers.
+    log('State error in ${bloc.runtimeType}', stackTrace: stackTrace);
+    super.onError(bloc, error, stackTrace);
+  }
+}
+
+Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
+  WidgetsFlutterBinding.ensureInitialized();
+  FlutterError.onError = FlutterError.presentError;
+  Bloc.observer = const AppBlocObserver();
+
+  final soundSettings = SoundSettings();
+  try {
+    await soundSettings.load();
+  } on Object {
+    log('Using default local sound settings.');
+  }
+
+  // Sound uses bundled files and is optional. No CDN request
+  // or pack download may gate the first frame of the bundled catalog.
+  if (!usesGentleActivities) {
+    try {
+      await SoundService().initialize(soundSettings);
+    } on Object {
+      log('Optional sound initialization unavailable.');
+    }
+  }
+
+  // The saved language choice, if any, is in effect from the first frame.
+  // A preference that cannot be read means following the device.
+  Locale? savedLanguage;
+  try {
+    savedLanguage = await const AppLanguageStore().load(
+      AppLocalizations.supportedLocales,
+    );
+  } on Object {
+    log('Using the device language.');
+  }
+
+  // The saved "Higher contrast" choice, from the comfort settings.
+  final savedContrast =
+      (await const GentlePreferencesStore().load()).highContrast;
+
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => soundSettings),
+        ChangeNotifierProvider(
+          create: (_) => AppLanguage(initial: savedLanguage),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => HighContrastSetting(initial: savedContrast),
+        ),
+      ],
+      child: await builder(),
+    ),
+  );
+}

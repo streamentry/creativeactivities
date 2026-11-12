@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Gi na gbungo tî tënë",
+    "brandName": "Creative Activities",
+    "brandTag": "Ye tî ndo ti zo so a yeke na maladi tî Alzheimer",
+    "homeLabel": "Ndâ tî Creative Activities",
+    "mainNav": "Ndâ tî gbungo",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: sioni ti kafe, ti tournesol na ti ngbâ, nzoni na ahinga",
+    "languages": "Yângâ",
+    "englishOnly": "(Angle)",
+    "machineTranslated": "Ye so asara ni na yângâ tî Angle, ala sara ni na kodro tî nzapa. Ala ko sara ni na tongana ti zo so ayeke na yângâ tî sängö ti tënë.",
+    "readOriginal": "Mä sioni tî yângâ Angle",
+    "nav": {
+      "games": "Ye tî ndoro",
+      "activities": "Ye tî ndo",
+      "caregiving": "Ti tënë ti zo so a yeke na ngangu",
+      "brainHealth": "Ngangu tî yeke tî mémoire"
+    },
+    "faqTitle": "Ye so ahinga ayeke ti nzapa na ye so a tene",
+    "breadcrumb": "Ndâ tî ye",
+    "home": "Ndâ",
+    "lastUpdated": "Asara ni na",
+    "topics": "Ye tî tënë",
+    "textSize": {
+      "label": "Kötä tî yângâ",
+      "smaller": "Yângâ tî ngbâ",
+      "larger": "Yângâ tî kötä",
+      "contrast": "Ndo tî ye ti kötä"
+    }
+  },
+  "footer": {
+    "play": "Ndoro",
+    "picturePairs": "Sioni ti mbeni",
+    "conversationCards": "Kaâdi ti tënë",
+    "pictureBingo": "Bingo ti sioni",
+    "allGames": "Ye tî ndoro kue",
+    "pictures": "Sioni ti sala na papier",
+    "activityIdeas": "Ye tî ndo ti sala",
+    "ideas101": "101 ye tî ndo ti sala",
+    "lateStage": "Ye tî ndo ti ngia ti nduru",
+    "printable": "Ye tî ndo so a lingbi ti sala na papier",
+    "allActivities": "Ye tî ndo kue",
+    "forCaregivers": "Ti zo so a yeke na ngangu",
+    "playTogether": "Tongana ti ndoro nga mbeni",
+    "selfCare": "Tongana ti bata ngangu tî mo",
+    "brainHealth": "Ngangu tî yeke tî mémoire, tongana ti tënë",
+    "faq": "Ye so ahinga ayeke ti nzapa na ye so a tene",
+    "about": "Ti tënë tî Creative Activities",
+    "approach": "Tongana so e sala ti tënë",
+    "howWeWrite": "Tongana so e tene",
+    "organizations": "Ti ndâ tî ngia",
+    "app": "Application tî Creative Activities",
+    "appHelp": "Mbeni tî application",
+    "support": "Mbeni",
+    "legal": "Ye tî sioni",
+    "sitePrivacy": "Nzoni tî ye na site",
+    "appPrivacy": "Politique tî nzoni tî application",
+    "privacyChoices": "Ye so mo lingbi ti yeke tî nzoni",
+    "terms": "Ye tî tënë na lisansi tî application",
+    "safety": "Nzoni na tongana so a lingbi ti sala",
+    "accessibility": "Tongana ti ye ti zo so a yeke na ngangu",
+    "healthNotice": "Tënë tî ngangu tî kodro",
+    "allLegal": "Ye tî sioni kue",
+    "note": "Creative Activities ayeke ye tî ndo ti nzoni nga mbeni, ti ndoro. Ayeke ye ti kodro ti ngangu ko, ayeke test ko, ayeke ti kura ko, na ayeke ko ti sara ni tongana na mbeni. Tongana mo yeke na tënë ti ngangu, tene na gbia ti kodro. Tongana ngangu ti kiri, tene aye ti kodro tî ngangu.",
+    "publisher": "Asara na Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Ye tî ndoro na ndo tî dementia na Alzheimer | Creative Activities",
+    "description": "Ye tî ndoro ti sioni na ndo ti nzoni, ti ndoro na yâ tî nzoni, na ye tî ndo ti zo so a yeke na dementia wala Alzheimer na ti zo so a yeke na ngangu ti tënë. Ayeke ti ndoro ti ngu ni, ko na kiri, ko na ngu tî ngangu wala ye tî ngangu.",
+    "eyebrow": "Ayeke ti ndoro · Ayeke ti sioni ko · Ayeke ti ndoro ko · Ayeke ti kiri ko",
+    "h1": "Ye tî ndoro nzoni na ye tî ndo ti zo so a yeke na dementia",
+    "lede": "Ye tî ndoro ti sioni ti nzoni, sioni so a sara, na ye tî ndo ti ndoro nga mbeni, na ngangu tî mo.",
+    "playGame": "Ndoro ye ti ndoro",
+    "findIdeas": "Ye tî ndo ti sala",
+    "facts": [
+      "A lingbi ti sala na téléphone, tablette na ordinateur",
+      "Sioni ti kötä so asara nga ti ngu",
+      "Mo lingbi ti gi ngu kue; ayeke ko na mbeni ti kiri"
+    ],
+    "heroApp": "Ayeke application ti ndo ti ngu na iPhone, iPad na Android, na sioni tî zo tî mo",
+    "albumNote": "“Sioni mbeni tî kafe, nga mbeni.”",
+    "gamesEyebrow": "Ndoro na browser tî mo",
+    "gamesTitle": "Ye tî ndoro so a lingbi ti ndoro sô",
+    "gamesLede": "Mbeni na mbeni ayeke nzoni, ti zo tî ngu, na ayeke ti gi vite. Hunda mbeni, mo na zo nga mbeni na yâ, na mo na ala tene ti ti sala kpe ti sioni.",
+    "seeAllGames": "Mä ye tî ndoro {count} kue",
+    "howTitle": "Tongana so a sala",
+    "steps": [
+      {
+        "title": "Hunda ye so a yeke na yâ",
+        "text": "Sioni ti kafe, ti ngbâ, ti zo na ti bateau. Ayeke ko ti tene wala ti zi ye tî ndoro kozo."
+      },
+      {
+        "title": "Mo na zo nga mbeni na yâ",
+        "text": "Mä zo a sala. Tene na sioni. Sioni so a yeke ti mbeni ko ayeke ti ngu tî ngbâ tî tapa so ngia."
+      },
+      {
+        "title": "Gi tongana ye ayeke nzoni na yâ",
+        "text": "Ndoro mbeni ayeke ye tî ndo kue. “Mo gi ni sô” ayeke na ecran tongana lo ngbâ."
+      }
+    ],
+    "stageEyebrow": "Na pëpe tî ecran",
+    "stageTitle": "Ye tî ndo ti ngu na ngu",
+    "stageLede": "Mbi tî ngoi, ye tî ti na kodro kue, tënë tî ngu na ye tî ngangu, na ye tî yâ ti sioni, ti sala tongana ye ayeke nzoni na ngoi so.",
+    "ideas101": "101 ye tî ndo ti sala",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Ngu tî kuâ",
+        "text": "Mä zo a sala ye so lo yeke na ye tî ndo ti lo, na mbeni kötä tî ye: ye tî ndo, ye tî zo ti nzoni, ndoro tî tënë na tënë ti kodro nga mbeni.",
+        "label": "Ye tî ndo ti ngu tî kuâ"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Ngu tî kodro",
+        "text": "Ye tî ndo ti nzoni na ye so a yeke na yâ, a sara ni na tapa: mbi, ti sala sioni, mbi na gbanga ti ndo kêkê.",
+        "label": "Ye tî ndo ti ngu tî kodro"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Ngu tî ngia",
+        "text": "Nzoni na tënë na yâ, na ye tî ngbâ, na sioni: ti sala ngangu tî ndo, ti sioni so a yeke, zo ti nzoni, na mo na ala ti ngu nga mbeni.",
+        "label": "Ye tî ndo ti ngu tî ngia"
+      }
+    ],
+    "specificHtml": "Ti sese na ye so mo yeke sä? Gi na <a href=\"/activities/alzheimers/\">ye tî ndo na ye tî ndoro ti Alzheimer</a>, <a href=\"/activities/memory-games/\">ye tî ndoro tî mémoire ti nzoni</a>, <a href=\"/activities/trivia/\">ye tî tënë ti nzoni</a> wala <a href=\"/activities/puzzles/\">ye tî ndoro tî tapa</a>.",
+    "approachEyebrow": "Tongana so e sala",
+    "approachTitle": "Ye tî ndo ti zo nga mbeni, ko ye tî ndoro tî mémoire",
+    "approachLede": "Ye tî ndoro tî “ngangu tî yeke” ayeke na vitesse, ye tî ngu, na ye tî mbeni. Mo so a yeke na dementia lo lingbi ti sara ni tongana ye tî ndoro. Mbi sala ye so ayeke tongana na yâ.",
+    "approachLink": "Tongana nyen so mbi sala tongana so",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Ayeke na yâ ti zo ko",
+        "text": "Ayeke na ngoi ko, ngu ko, na tapa ko, na ti gi ko. Sioni so ayeke ti mbeni ayeke ti ngbâ, ayeke ko ti sala ti tënë."
+      },
+      {
+        "icon": "eye",
+        "title": "Sioni ayeke na yâ",
+        "text": "Ti gi sioni so a yeke na yâ. Ti mbeni ayeke na ti sioni ti ngbâ, na ayeke ko ti gi ye ti tënë ti zi."
+      },
+      {
+        "icon": "people",
+        "title": "Ti zo ti kötä na nzoni",
+        "text": "Tënë ti nzoni, ti yângâ ti ye, na sioni ti kodro ti tî nga. Ayeke ko ti sioni ti zo ti ngu wala tënë tî ngoi ti ngu."
+      },
+      {
+        "icon": "shield",
+        "title": "Nzoni na ndo ti yeke",
+        "text": "Ayeke ko na compte wala ye tî ndo. Sioni tî mo ayeke ko ti kiri na pëpe tî mo."
+      }
+    ],
+    "guidesEyebrow": "Ti zo so a yeke na ngangu",
+    "guidesTitle": "Ye tî ndo ti nzoni tî tënë ti ngu na ngu",
+    "allCaregiving": "Ye tî ndo kue tî tënë ti zo so a yeke na ngangu",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Tongana ti ndoro nga mbeni",
+        "text": "Ti sala, ngoi, na ye so a sala tongana ndoro ayeke ko nzoni mingi."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Tongana lo tene “mbi ye ko” na ndo",
+        "text": "Ye tî ndo so a tene ti “mbi ye ko”, na mbeni ye ti nzoni ti tënë kpe ngoi ngia."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Ti sala tablette",
+        "text": "Yângâ tî kötä, ye tî ngbâ tî yâ, na mbeni ecran tî ndâ nzoni."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Ye tî ndo so a lingbi ti sala na papier",
+        "text": "Recherche tî mot na yângâ tî kötä, sioni ti sala na kolo, bingo, na kaâdi ti tënë."
+      }
+    ],
+    "researchTitle": "Ngangu tî yeke tî mémoire: ye so ti nzoni ayeke na yâ",
+    "researchText": "Lo lingbi ti dementia ti ngbâ ti? Ye tî ndoro ti mémoire ayeke na nzoni ti? Na ye tî ngbâ, tî zo, tî ngoi tî lo, na tî ngoi tî lo tî ndo? Tënë ti nzoni na ye so a sara ni, na ye so tënë ayeke na yeke ti ngbâ.",
+    "researchLink": "Gi na guide tî ye tî ngangu tî mémoire",
+    "appEyebrow": "Ayeke application nga",
+    "appTitle": "Creative Activities na iPhone, iPad na Android",
+    "appText": "Application ti ndo ayeke ti ndo na ngoi ti internet ko, na lo lingbi ti sala na sioni tî zo tî mo so mo sara. Sioni ayeke na device tî mo. Ayeke na sioni tî ndo ti kötä ti nzoni, ko ngu ko, ko tapa ko.",
+    "aboutApp": "Ti tënë tî application",
+    "faq": [
+      {
+        "q": "Ye so ahinga ayeke ti nzoni ti zo so a yeke na dementia?",
+        "a": "Nzönî ngîâ ayeke sô akpa pëpe, sô zo ahinga nî nzönî na pusu ayeke dä pëpe: akotâ fötö tî haka nî, sôrôngö aye, akêtê puzzle sô ayeke kpô, hunzîngö atënë tî ândö sô ahinga nî mingi, fîngö kûlëre na fötö, bingo tî afötö na akarte tî lisoro. Nzönî sôro ayeke ngîâ sô anzere na zo nî lasô. Gbanzi alê tî ngbonga, aköndo na aye kue sô akpa tara tî li."
+      },
+      {
+        "q": "Angîâ sô tî azo sô ayeke na kobela tî girisângo li ayeke senge senge?",
+        "a": "En-in. Angîâ kue na ambeti sô alingbi mo sigi na nî na ndö tî Creative Activities ayeke senge senge, compte ayeke dä pëpe, hûndango tî sû iri ayeke dä pëpe, wala tî téléchargé ye pëpe. Angîâ nî ayeke tambela na yâ tî navigateur internet na ndö tî téléphone, tablette wala ordinateur."
+      },
+      {
+        "q": "Angîâ tî bibe alingbi tî kanga lege na kobela tî girisângo li?",
+        "a": "Mbeni ngîâ oko afa pëpe sô alingbi tî kanga lege na kobela tî girisângo li, na Creative Activities atene lâ oko pëpe sô lo sö wala lo kanga lege na mbeni ye. Angîâ tî e ayeke gi tî duti na ngîâ na tî duti place oko. Mbage tî e sô abâ seni tî li afa ye sô agi-ndâ-tî-ye afa na ye sô afa pëpe."
+      },
+      {
+        "q": "Angîâ sô alingbi na mbeni zo sô ayeke na kobela tî Alzheimer?",
+        "a": "En-in. Kobela tî Alzheimer ayeke ye sô aga mingi na kobela tî girisângo li, na e leke angîâ sô ngbanga tî lo: akotâ fötö sô angbâ tî bâ nî, asôro ayeke gbä pëpe, na mbeni ye tî bata na bê wala tî sara fôte ayeke dä pëpe. Hakango afötö, sôrôngö aye na hunzîngö atënë tî ândö abâ ye sô zo ahinga ândö na mbage tî finî mandango ye."
+      },
+      {
+        "q": "Mbeni zo sô kobela tî girisângo li tî lo alï mingi awe alingbi tî sara akua tî ngîâ sô?",
+        "a": "Mingini, en-in, sô zo ayeke na terê tî lo. To ndâ nî na Gi sô akpa mba na afötö use, Amba tî fötö na akarte osïo, mbeni lembi tî fîngö kûlëre wala kêtê ngoi tî hôngö pupu kpô. Sara si ngoi nî aningba pëpe, mû lege sô lo ye, na kaî na ngoi sô lo wara nî alingbi awe."
+      },
+      {
+        "q": "A yeke bata atënë tî mbi nzönî?",
+        "a": "Site nî ayeke na account pëpe na publicité ayeke dä pëpe. E yeke sara kua na Google Analytics tî hinga alembi sô azo ague dä. Afötö sô mo sôro ngbanga tî Amba tî fötö ayeke sigi gi na yâ tî navigateur tî mo na e yeke gue na nî na ndö tî internet lâ oko pëpe."
+      },
+      {
+        "q": "Azo wa la aleke Creative Activities?",
+        "a": "Creative Activities ayeke kêtê ekîpe tî azo sô aleke akua tî ngîâ na afötö sô ayeke kpô ngbanga tî afami na azo sô abâ lege tî amba tî âla, na ndö tî internet na tongana application tî senge senge. E yeke awadottoro pëpe, na mbeni tënë sô ayeke ge ayeke wango tî dottoro pëpe."
+      }
+    ]
+  },
+  "stage": {
+    "early": "tî kôzo",
+    "middle": "tî popo nî",
+    "late": "tî ndâ nî",
+    "hintOne": "Alingbi mingi na ngbonga {list}",
+    "hintMany": "Alingbi mingi na angbonga {list}",
+    "labelEarly": "Ngbonga tî kôzo",
+    "labelMiddle": "Ngbonga tî popo nî",
+    "labelLate": "Ngbonga tî ndâ nî"
+  },
+  "cards": {
+    "aboutGame": "Tënë na ndö tî ngîâ sô",
+    "printable": "Ye sô alingbi tî imprimer",
+    "play": "Sara ngîâ {name} →",
+    "readGuide": "Diko mbeti tî fango lege"
+  },
+  "playCta": {
+    "title": "Mo yeke prêt ngbanga tî mbeni ngîâ sô ayeke kpô?",
+    "text": "Akotâ fötö, lê tî ngbonga ayeke dä pëpe, kondo ayeke dä pëpe na mbeni ye tî sû iri dä ayeke dä pëpe. Sara ngîâ place oko na yâ tî navigateur tî mo.",
+    "play": "Sara mbeni ngîâ",
+    "all": "Bâ angîâ kue",
+    "aria": "Sara mbeni ngîâ"
+  },
+  "appCta": {
+    "title": "Gue na angîâ sô na mo",
+    "text": "Application tî Creative Activities tî senge senge ngbanga tî iPhone, iPad na Android: akotâ fötö, angîâ na afötö tî sewa tî mo mveni, na abungbi tî fötö sô akua sân Wi‑Fi. Compte, publicité, lê tî ngbonga wala kondo ayeke dä pëpe.",
+    "appStore": "Wara nî na App Store",
+    "googlePlay": "Wara nî na Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Tënë na ndö tî application nî",
+    "aria": "Wara application nî"
+  },
+  "sections": {
+    "activities": {
+      "label": "Akua tî ngîâ",
+      "title": "Akua tî ngîâ ngbanga tî azo sô ayeke na kobela tî girisângo li",
+      "seo": "Akua tî ngîâ ngbanga tî azo sô ayeke na kobela tî girisângo li: Abibe na lege tî angbonga nî",
+      "description": "Abibe tî kua tî ngîâ ngbanga tî azo sô ayeke na kobela tî girisângo li na angbonga kue: mizîki, dango bê na aye tî ândö, akua tî lâ na lâ, angoi tî bango ye na mabôko, akua tî mabôko, sigingo na gigi na ambeti tî senge senge sô alingbi tî imprimer.",
+      "lede": "Kua tî ngîâ sô ayeke na nda nî ayeke ye kue sô amû dëngö-bê, nda tî ye wala kêtê ngoi tî büngbi oko. To ndâ nî na ye sô anzere na zo nî lâ kue, na leke nî alingbi na lasô."
+    },
+    "caregiving": {
+      "label": "Bângo lege tî zo",
+      "title": "Ambeti tî fango lege tî bângo lege tî zo",
+      "seo": "Ambeti tî fango lege tî bângo lege tî kobela tî girisângo li: Mungo mabôko tî lâ na lâ",
+      "description": "Ambeti tî fango lege sô ayeke nzönî na tî nzoni-bê ngbanga tî azo sô abâ lege tî azo tî kobela tî girisângo li: sarango ngîâ place oko, sarango lisoro, kengo sarango ye, kirikiri tî ndapanda, atablette, sôrôngö a-application na bângo lege tî terê tî mo mveni.",
+      "lede": "Mungo mabôko sô ayeke kpô na tî biani ngbanga tî angoi tî lâ na lâ tî bângo lege tî zo sô ayeke na kobela tî girisângo li, nga na bângo lege tî terê tî mo mveni."
+    },
+    "brain-health": {
+      "label": "Seni tî li",
+      "title": "Seni tî li: Ye sô agi-ndâ-tî-ye atene",
+      "seo": "Seni tî li na kpale tî kobela tî girisângo li: Ye sô agi-ndâ-tî-ye atene",
+      "description": "A lingbi tî kanga lege na kobela tî girisângo li? Ambeti tî tâ tënë sô alondo na anzönî ndo na ndö tî aye sô aga na kpale tî kobela tî girisângo li, angîâ tî bibe, kengo kobe, kobe tî tengo, sarango ngangu tî terê, lango, mängo ye na akêtê fä tî kôzo.",
+      "lede": "Ye sô akotâ mandango ye afa biani na ndö tî kîtisângo kpale tî kobela tî girisângo li, sô afa nî polele, nga na ndo sô afä ayeke ngangu pëpe wala ayeke kirikiri. Tënë tî sango senge senge, wango tî dottoro pëpe."
+    }
+  },
+  "guide": {
+    "updated": "A leke nî finî nî",
+    "minuteRead": "Dikingö nî amû minute {n}",
+    "byTeam": "Na mabôko tî ekîpe tî Creative Activities",
+    "howWeWrite": "Lege sô e yeke sû na mbeti",
+    "shortAnswer": "Kêtê kiringo tënë nî",
+    "onThisPage": "Na ndö tî lembi sô (ambage {n})",
+    "commonQuestions": "Ahûndango tënë sô azo ahûnda mingi",
+    "sources": "Ando sô atënë alondo dä",
+    "sourcesNote": "E zia akamba sô ague na abungbi na amandango ye sô lembi sô alondo dä. E bâ ala kue na ngoi sô e leke lembi sô finî nî.",
+    "tryTogether": "Tara place oko",
+    "relatedGuides": "Ambeti tî fango lege sô ague oko",
+    "related": "Ye sô ague oko",
+    "startHere": "To ndâ nî ge"
+  },
+  "healthNotice": {
+    "aria": "Sango na ndö tî seni",
+    "title": "Tënë tî sango senge senge, wango tî dottoro pëpe",
+    "textHtml": "Lembi sô afa ndurü tënë tî agi-ndâ-tî-ye ngbanga tî asewa. Alingbi pëpe tî tene ye sô alingbi na zo oko oko. Sara lisoro na dottoro kôzo sô mo gbian kobe tî mo, sarango ngangu tî terê, lango, ayorö wala ambeni ye tî seni. Tongana li tî zo agirisa gbä hio wala ambeni ye agbian hio na terê tî lo, gi dottoro hio mingi. <a href=\"/medical-disclaimer/\">Diko sango tî e na ndö tî seni</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Mbeni kua tî ngîâ place oko, a yeke tara tî li pëpe",
+      "seoTitle": "Tënë na ndö tî Creative Activities: Lege tî tambela tî e",
+      "description": "Ngbanga tî nyen angîâ tî Creative Activities ayeke na lê tî ngbonga pëpe, kondo pëpe wala molongo tî ngîâ pëpe, ngbanga tî nyen afötö angbâ tî bâ nî lâ kue, na ye sô e yeke tene na ye sô e yeke tene lâ oko pëpe na ndö tî kobela tî girisângo li.",
+      "crumb": "Lege tî tambela tî e",
+      "lede": "Creative Activities aleke akua tî ngîâ na afötö sô ayeke kpô ngbanga tî ambutu sô zo sô abâ lege tî mbeni zo na zo sô ayeke na kobela tî girisângo li alingbi tî sara nî terê na terê.",
+      "bodyHtml": "<h2>Ye so ahé mbi hinga</h2><p>Ye ti ahé ayeke ye so ayeke na lâ ni: tënë, ngia, mbeni ye ti kpe so ayeke na ye ti pâte, wala ndo hon ti ngbanga kâ. Ayeke sô ti tâ ndo, ti tâ ndo ti hinga, wala ti fa ye so ahé mbi lingbi.</p><p>Ngia ti ndo ti ahé ayeke ye ti kua ti fa ye ti ngangu, ti gbe ti nzoni, ti sara ye ti ngangu. Mo na ndo ti dementia, a lingbi ayeke ye ti ngangu so a lingbi ti bâ ye. Ahé lingbi ti sara ye so ahé mbi hinga na ndo ti ahé:</p><ul><li><strong>Ayeke na ye ti ngangu ti ngbanga.</strong> Pa ngu, pa nzoni ti kua, pa ye ti gbe, pa mbeni ngia, pa ye ti ngangu, mbeni ye ti bâ kua ti tâ, na mbeni pâte.</li><li><strong>Ti kpe ye so a mû ti tâ.</strong> Pâte ayeke na ye ti ngangu ti tâ. Ye ti tënë ayeke ti sara tënë, pa ti wara ndo ti tâ lâ na ye ti tâ.</li><li><strong>Ye ti kpe, ti nzoni, na ti pëpe.</strong> Tënë ti kpe na pâte ti kpe, ti yeke ti nzoni, ti fa ye ti yeke na ye ti kpe.</li><li><strong>Ndo ti ngia ti zo ti mo.</strong> Pâte ti ye ti ndo ayeke na lâ ti sô, na tënë ti nzoni ti zo ti mo. Pa ye ti ngangu, pa ye ti kongo, pa ye ti ngia ti ye ti kua ti sô kua.</li><li><strong>Mbeni mbï ti ndo ti gbe.</strong> “Ahé ayeke na lâ so” ayeke na lâ pëpe. Gbe ti ndo ti lingbi ti mbi kpe ahé ayeke ye ti nzoni.</li><li><strong>Ye ti gbe ayeke na lâ.</strong> Ayeke ye ti sara ye ti ngangu ti kua ti ahé lo ti kua. Ye so ahé ayeke na ndo ti ngangu.</li></ul><h2>Ye so ahé pa sara tënë ti mo ti yeke</h2><p>Ye ti ahé ayeke ye ti ndo ti ngia, ti ndo ti tâ, ti hinga. Ye ti ahé pa yeke ye ti ndo ti yeke ye ti zo wala ti tâ ye. Ye so ahé sara na <a href=\"/brain-health/\">pâge ti ye ti hinga ti lâ</a> ayeke ye ti kpe, ahé ayeke tënë ti nzoni ti ye ti ahé ti tâ, ahé pa sara tënë ti ye so ahé ti ngangu na ye ti ahé.</p><h2>Ahé mo ayeke</h2><p>Creative Activities ayeke kodro ti ndo ti ahé ti mbeni kua, ahé ayeke ndo ti ye ti hinga pëpe. Ye ti ahé ayeke tënë so a sara na ye ti ndo ti nzoni ti tâ, ti kpe na ye ti ndo ti tâ ti kua. Ye ti ahé ayeke tënë ti ye so a hinga na ye ti ndo ti nzoni ti tâ. Mbi nga ti tâ ye ti <a href=\"/editorial-policy/\">ndo so ahé sara na ye ti pâge ti ahé na ye ti tâ ti ahé</a>.</p><h2>Tënë ti ye so a lingbi ti mbi kpe</h2><p>Ahé lingbi ti hon tënë ti ye so a yeke ti nzoni na ye so a yeke ti ngangu, mbeni ndo mo ayeke na ndo ti dementia, ndo ti ahé ti ngangu ti gbe, na ndo ti ye ti kua ti sara ye. Tongana ayeke ti ngangu, mbi lingbi ti sara tënë na <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Ndo so ahé sara na ye ti pâge ti ahé",
+      "seoTitle": "Ye ti tënë ti ahé",
+      "description": "Ndo so Creative Activities ayeke sara ye ti ngangu, ahé ayeke tâ ye, ahé ayeke sara tënë ti ye, ahé ayeke sara ye ti pâge ti ahé ti ye ti dementia na ti ye ti hinga ti lâ, na ye so ahé pa lingbi ti sara.",
+      "crumb": "Tënë ti ye ti pâge ti ahé",
+      "bodyHtml": "<h2>Ye ti ahé ti tâ</h2><p>Ahé ayeke sara ye ti pâge ti ahé na tënë ti ye ti ndo ti nzoni, ti ndo ti tâ, ti kpe na Ndo ti Hinga ti Lâ ti Bâ, ti Ndo ti Yâ ti Mbeni ti Alzheimer, ti Ndo ti Dementia ti Amerika, ti Ndo ti Kua ti Gbe ti Ahé, na NHS, na ye ti hinga ti yeke na ye ti ngangu ti zo ti tâ, mbeni ti Cochrane na ye ti ndo ti ngia ti lâ. Pâge ti ahé ayeke sara ye ti ahé ti tâ. Ahé ayeke bâ ye ti ndo tî mbeni ye ti tâ kâ, ahé ayeke tënë ye so a tâ.</p><h2>Ahé ayeke sara tënë nga</h2><ul><li>Ye ti nzoni ayeke na mbeni lâ: ye so a lingbi ti sara lâ, na tënë ti kpe.</li><li>Ahé ayeke tënë ti ye ti hinga: ahé ayeke tënë “ayeke kpe na”, “lingbi” na “ye ti hinga ayeke ti ngangu” tongana ayeke tî ye ti nzoni.</li><li>Ahé ayeke gbe ti ndo: ahé ayeke tënë ti ndo ti dementia ti ndo ti ngia, na ahé pa sara tënë ti ngangu wala ti fa ye.</li><li>Ye ti ahé pa yeke ti sara: pa ye ti ngia ti tâ, pa tënë ti ndo, pa ndo ti hinga, pa ye ti hinga wala ye ti kua ti hon ti ndo.</li></ul><h2>Ndo so ayeke tâ pâge ti ahé</h2><p>Pâge ti ahé ayeke sara na ndo ti kodro ti Creative Activities, na mbeni ye ti ndo ti AI ti sara tënë ti ye ti hinga na tënë ti ye. Ndo ti kodro ayeke tâ pâge kpe na ye ti ahé ti tâ. Pâge ti ahé <strong>pa</strong> ayeke tâ na dokotoro wala ndo ti kua ti ye ti hinga, na ahé pa tënë ti ye so. Ayeke ye ti tënë ti hinga tî ye, pa ye ti ndo ti dokotoro.</p><h2>Ye so ahé pa lingbi ti hon pâge ti ahé</h2><ul><li>Tënë ti ye ti mbeni ye, ti ndo, ti mbeni ngia ti kua, ti pâte, wala ti kua ti ngu, ti sara ti zo ti tâ, wala ti sara ti yeke na lâ, ti tâ, ti nzoni, ti hon wala ti tâ ti dementia.</li><li>Pâte, tënë ti ye ti ngu, wala ye ti ndo so ayeke tënë ti ye ti ngangu ti zo ti tâ ti dementia, wala ti tâ ti zo ti tâ pëpe.</li><li>Tënë ti sara wala ti hon mbeni ye ti ngangu ti tâ ti ahé.</li><li>Ye ti kua ti sara ye ti ngangu ti tâ mbeni kua so ayeke tënë ti ye ti hinga.</li></ul><h2>Ye ti hon na ye ti ngangu ti tâ</h2><p>Pâge kpe ayeke fa lâ so a hon tâ ni. Tongana a ye ti ngangu wala ye ti kua ti pâge ti ahé ayeke ti ngangu, mbi sara tënë na <a href=\"mailto:{email}\">{email}</a>, ahé ayeke tâ ni na ngia.</p>"
+    },
+    "faq": {
+      "title": "Ye so a lingbi ti tâ na ye so ahé ayeke tënë",
+      "seoTitle": "Jeux na activité ti dementia: Ye so a tâ na ye so ahé ayeke tënë",
+      "description": "Tënë ti ye so a tâ mingi na ye ti jeux na activité ti dementia: jeux so a lingbi ti sara, lâ so a lingbi ti sara, ye ti lâ ti tënë, ye ti hinga ti lâ na ye ti kpe.",
+      "crumb": "Ye so a tâ na ye so ahé ayeke tënë",
+      "lede": "Tënë ti kpe na ye ti nzoni, ye so ndo ti ahé ayeke tâ mingi.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Tënë ti jeux",
+          "items": [
+            {
+              "q": "Jeux so nzoni mingi tî ndo so ayeke na dementia ayeke jeux wa?",
+              "a": "Jeux so nzoni mingi ayeke jeux so a mû ti tâ, so ayeke ti kpe, na so pa yeke na ngangu. Ye so ndo ayeke sara ayeke ye so ndo ayeke ngia na lâ. Mbeni pâte ti kpe, ti sara ye na mbeni ye ti ngangu, ti wara mbeni sese ye ti tâ, ti zia tënë ti ye ti tâ, ti sara kongo ti ye ti ngia, ti sara pâte ti ye ti ngu, ayeke jeux so ayeke nzoni tî ndo mingi. Pa sara ngu, ye ti ngangu, wala ye so ayeke tënë ti ngangu."
+            },
+            {
+              "q": "Jeux ni ayeke pëpe kua ti ngu tî ahé ayeke na lâ?",
+              "a": "Ee. Yanga kue na yanga ti ngu hunda ayeke pëpe na ndo ti ngu: a yeke pëpe ti sara akonte, pëpe ti zia nda, pëpe ti kiri ngu, na pëpe publicité."
+            },
+            {
+              "q": "Na nyen la a yeke ape ti score, niveau nga timer?",
+              "a": "Vitesse nga score ayeke sara yanga nzapa ti examen, so ayeke mû sioni nga ngangu ti azo. Mbeni ti ngangu ayeke ti nzapa na ngia ti ngo ti kpe, na ti sara ye ti ngu ti lo nzoni. Mo lo ayeke ti zia ye na ndo kue ti lo ye ti ngu ape ti lo."
+            },
+            {
+              "q": "Ngu nyen so ayeke nzoni mingi?",
+              "a": "Telefon, tablette nga ordinateur so ayeke na navigateur ti web ti sô ti ndara. Tablette so ayeke na support na tablé ayeke nzoni mingi ti azo ôko na ôko ti nzapa ye ti ngu na ndo ti tabla. Ordinateur so ayeke na télé ayeke nzoni ti azo ti ngu ti ngbâ."
+            },
+            {
+              "q": "Mbeni nzapa ti ngu na photo ti mbeni ti ngu ti ndo nga?",
+              "a": "Ee. Jeu ti photo pairs ayeke sara 2 na 6 photo so mo lo ayeke sô ti sara jeu ti kâ ti ngu. Photo ayeke na navigateur ti mo nga ayeke ti ngu ape ti ngu nga ayeke ti zia ape."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Yanga ti ngu nga ti ngbâ azo",
+          "items": [
+            {
+              "q": "Yanga so ayeke ti lo na tere ti ngu ayeke mingi nga?",
+              "a": "Ngu ayeke sara 10 na 20 minute ayeke ti nzoni, na mbeni ngu 2 minute ayeke ti nzoni mingi. Tene ti sioni ti lo ti kpe ngangu nga ti ndoro, na zia na ngu ti lo ayeke mû ye ti nzoni. Ndo ti tene ti lo ti ngu ape ti na tere ti nzapa."
+            },
+            {
+              "q": "Tongana ala ayeke mû yanga ape ti ngu?",
+              "a": "Mo lo ayeke mû ti ala ngangu ti ngu ye ti ngbâ so ala ayeke ti lo ye ape, na mo lo ayeke ti sara ti lo na ngu ti nzapa na ndo ti hon. Ala ayeke ti mû ye ape na ngbanga ti kpe ngangu, ngbanga ti tâ ti nzoni, ngbanga ti sioni ti ndoro, ala ayeke ti mû ye ape ti ngu. Tene [pe ti pekoro ti na kua ti tene ti azo ti mo nga: a ayeke ti mû ye tongana nzoni na ngbanga ti nzoni]."
+            },
+            {
+              "q": "Yanga nyen so ayeke nzoni ti azo na maladi ti dementia ti kpale?",
+              "a": "Ngangu nga sioni: ti mû ndâ ti music so ala ayeke yeke ti ngu, ti ngbâ ti ngbâ ti ndo ti lotion, ti sara photo ti ngu ti kâ, ti mû ti ngia ti nzoni ti pindi, ti zia na kodro ti ndo, wala jeu ti photo so ayeke nzapa mingi na mbeni mo ayeke ti ngu. Guide ti lo ti maladi ti kpale ayeke sara ye ti ngbâ mingi."
+            },
+            {
+              "q": "Mbeni yanga ti ngbâ azo na ngu ti kodro ti sioni ti ngangu?",
+              "a": "Ee. Picture bingo ayeke na karte ti ngu so a ye ti zia na ndo ti ngu, na ngbâ ti kpe ti ngu. Finish the saying na Conversation cards ayeke nzoni ti ngu ti sara ye na ndo ti tene. Guide ti lo ti groupes na foyer ayeke sara ye ti azo ti ngbâ, ti ngu ti tâ, na yanga ti ngbâ ti azo ti ngbâ tongana ti ala."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Ngangu ti sioni",
+          "items": [
+            {
+              "q": "Jeu wala ngu ayeke kpe wala ngbâ dementia ape?",
+              "a": "Jeu ôko ti ngu ape a sara ye ti fa ti kpe dementia, na jeu ti biso ayeke sara ye ti tene ape pëpe. Stimulation ti sioni na ndo ti azo ayeke fa ndoro ti nzoni ti ngu na recherche ti azo so ayeke na maladi ti dementia ti kete na ti ngbâ, mais ye so ayeke pëpe ti jeu ti kpe maladi. Ambeni jeu ayeke ti ngu na ngangu ti mbeni na kua ti ngu."
+            },
+            {
+              "q": "A ayeke mû ti kpe dementia ape?",
+              "a": "Ape na ngbanga ti nzapa. Recherche ayeke fa 14 yanga ti ngangu nga ti lo ti azo so ayeke linked na risque ti dementia, tongana kpe ti ndoro, pression ti ngangu ti ndo, ndo ti ngu pëpe, na ngbâ ti kiri. Ti ngbâ yanga so ayeke mû ti risque ti lo ti kpe mbeni azo, mais ambeni azo so ayeke sara ye hunda nzoni ayeke ti ngbâ dementia tongana ala. Ndo ti ye ti mbeni azo ape ayeke ti lo ye."
+            },
+            {
+              "q": "Intermittent fasting ayeke nzoni ti ngangu ti sioni nga?",
+              "a": "Ye ti azo ayeke kete na ayeke ti ngu ti ye ti animal. Fasting ayeke risque ti azo ti kete ti ngbâ, mingi tongana ti medicament ti diabète wala tongana ti ndo ti kpe ti mo ti ngu ape. Ayeke pëpe ti tene ti azo so ayeke na dementia. Tene ti doctor kue ti lo ti yeke ti tâ ngu ti kua nga ti ndo."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Ngangu nga sioni ti lo",
+          "items": [
+            {
+              "q": "A ayeke zia ye ti nzapa nga?",
+              "a": "Akonte pëpe, publicité pëpe. Mbi ayeke na Google Analytics ti tene ye ti azo so ayeke ti sara ngu, na ti tene page so ayeke nzoni. Navigateur ti mo ayeke tene ti soni so mo ayeke fa mû wala pëpe. Photo so mo ayeke sô ti Photo pairs ayeke kue pëpe ti ... ti kpe pëpe. Tene privacy notice ti zo ti tene ti nzapa."
+            },
+            {
+              "q": "Ye so ayeke conseil ti medical ?",
+              "a": "Ape. Creative Activities ayeke ti ngu nga ti ngbâ ye ti nzapa. Mbeni ye ti ngangu ti sioni, tene ti doctor. Mbeni kpale, zia secours ti peyi ti mo na ndo ti lo."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Nzapa ti ngangu: <a href=\"/caregiving/how-to-play-together/\">tongana ti ngu ndo na ndo</a>, <a href=\"/caregiving/when-they-say-no/\">tongana ala ayeke sô ape</a>, <a href=\"/activities/late-stage/\">yanga ti ngu ti maladi ti kpale</a> na <a href=\"/brain-health/can-dementia-be-prevented/\">a ayeke mû ti kpe dementia ape?</a>"
+    },
+    "handout": {
+      "title": "Ngu ti nzapa nga ti azo so ayeke na maladi ti dementia",
+      "seoTitle": "Papier ti sara: Jeu ti dementia ti nzapa na internet",
+      "description": "Papier ti sara ti mbeni page ti famille na azo so ayeke ti ngbâ, sur jeu ti photo ti nzapa na ti ngangu ti azo so ayeke na maladi ti dementia, ti group ti support na panier ti ngbâ.",
+      "crumb": "Papier ti sara",
+      "lede": "Sara page so na papier ti group ti support, panier ti ngbâ wala ti porte ti frigo. Mû commande ti Print ti navigateur ti mo; menu na bouton ayeke zia na papier.",
+      "introHtml": "<p>Photo ti tî mingi, mots ti nzapa, na mbeni ye ape ti sara ti ngbâ. Ayeke nzapa na telefon, tablette wala ordinateur, pëpe akonte, pëpe publicité, pëpe timer, pëpe score. Tene ti ngu na ndo na ndo, na zia ti tâ ngu.</p>",
+      "gamesTitle": "Jeu so ayeke ti ngu ti ndo",
+      "restHtml": "<h2>Ambeni conseil</h2><ul><li>Yeke ngu na ngia so azo ayeke na ngangu ti nzoni.</li><li>Zia na mbeni tere so ayeke nzapa mingi. Tuile 4 ayeke ti nzoni.</li><li>Tene ti photo. Tene ti ndo ayeke sara yanga ti nzoni mingi.</li><li>Zia ti ngu na ngia so ayeke nzoni ti sioni. Zia ngu na kete ayeke ye ti nzoni.</li></ul><h2>Ayeke na site ti lo kue</h2><ul><li>Papier ti sara pëpe: mot ti ngu ti tâ, papier ti ngu ti kulu, karte ti tene, na picture bingo.</li><li>Ndoro ti yanga ti ngu ti kue ti ngangu, na guide ti ngu ti ndo na ti tene ti lo ye ti nzoni.</li></ul><p class=\"muted\">Ti ngu na ndo na ndo. Ayeke pëpe conseil ti medical, pëpe test wala traitement. Creative Activities ayeke publié na Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Ti foyer, bibliothèque na groupe ti support",
+      "seoTitle": "Activités gi mbeni fango ti demence pour ndö ti yanga na kodro ti azo",
+      "description": "Tambela so ndö ti yanga ti kota kodro, ndö ti kota azo, bibliothèque, ndö ti azo ti kpengbê na ndö ti yanga ti zo ti demence ayeke tongana sara fango ti jeux ti kota, na ndo ti tokala ti tongana mbi tene ti sara na tele liste ti tî ndö.",
+      "crumb": "Pour ndö ti yanga",
+      "lede": "Ti kpe ni nzoni na site so gi mbeni fango na azo ti kota kodro, azo ti kpengbê na azo ti ndö ti yanga, pëpe na compte, pëpe na licence, pëpe na mbeni fango. Page so ayeke tene ti nga ti ngangu na tongana ti sara na azo.",
+      "shortText": "{name}: jeux ti ndo ti picture gi mbeni fango na guide ti sara ti tongana ti azo ti yanga demence na azo ti kpengbê ti ndo. Pëpe ti tënë compte, pëpe ti ngu, pëpe ti score.",
+      "longText": "{name} ({domain}) ayeke na jeux ti browser {count} gi mbeni fango, so asara pour azo ti yanga demence, gi matching pairs na picture so ayeke kpe na yê, jigsaw ti nzoni, sorting, sango ti tâ ti na lo na picture bingo na kâdo ti imprimer. Pëpe compte, pëpe publicité, pëpe ngu, pëpe score. Site ayeke na guide ti sara ti tongana na langue ti nzoni, so ayeke na zo ti stage ti demence ti nga na mbeni, ti sara ti National Institute on Aging na Alzheimer's Association.",
+      "useTitle": "Ye so ndö ti yanga a lingbi ti sara",
+      "gamesItemHtml": "<strong>{count} jeux ti browser</strong> so ayeke sara na laptop, tablette wala TV so a kpe na ordinateur. Pëpe installation, compte wala download. Tene <a href=\"/games/\">jeux ti ndo</a> ti kota.",
+      "printablesLabel": "{count} kâdo ti imprimer:",
+      "printablesAfter": "Sara na bouton Imprimer na page kota kota.",
+      "moreItemsHtml": "<li><strong>Tongana ti kpengbê:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> ayeke na kâdo ti imprimer na mbeni azo ti kiri na screen, na <a href=\"/activities/trivia/\">trivia ti nzoni</a> ayeke na question 50 na choix ti tâ na ye ti tene.</li><li><strong>Guide ti sara</strong> pour azo ti ndö na azo ti yanga, ti stage na ti kind ti sara, ti sango ti nzoni na sources. Tambela na <a href=\"/activities/ideas/\">101 ideas ti sara</a> wala <a href=\"/activities/care-home-groups/\">sara ti kpengbê na ndö ti kota kodro</a>.</li>",
+      "restHtml": "<h2>Tongana kpengbê ayeke sara na yâ</h2><ul><li><strong>Ndö ti kota kodro na ndö ti demence:</strong> picture bingo wala finish-the-saying na TV ti salon ti kpengbê, na mbeni azo ayeke tapa ti kpengbê ti sara.</li><li><strong>Programme ti azo ti kota ndö na lo:</strong> mbeni station na tablette na Picture pairs ti tile 4, pour sessions ti nzoni ti mbeni na mbeni.</li><li><strong>Bibliothèque ti kpengbê:</strong> word searches ti imprimer na kâdo ti tënë na kit ti demence, na site so a sara bookmark na tablette ti bibliothèque.</li><li><strong>Groupe ti kpale ti yanga na café ti demence:</strong> <a href=\"/handout/\">handout ti imprimer ti mbeni page</a> pour azo ti yanga ti zi na yâ ti ndo.</li><li><strong>Hôpital na azo ti sara sewa ti kiri:</strong> handout na paquet ti azo ti yanga, pour mbeni sala ti nzoni ti kpe na yâ ti ndo wala na kâ ti malade.</li></ul><h2>So e kpe pëpe sara</h2><p>Jeux ayeke pour ndo na lê ti kpengbê. Ayeke pëpe ti tene, ti sara test, ti score, ti sara fango wala ti kiri demence, na e ayeke ti ndo ti ndö ti kpengbê pëpe ti tene tongana so. Pëpe publicité, na jeux ayeke ti tene pëpe nom, tënë ti yanga wala picture ti a tene ti tongana ti ndö. Site ayeke sara na Google Analytics ti kpale ti zo ti ndö; <a href=\"/privacy/\">note ti bê</a> ayeke tene ni nzoni so a kpale. Picture so a sara na <a href=\"/games/photo-pairs/\">Photo pairs</a> ayeke na browser kue.</p><h2>Të nga na liste ti ndö ti kpengbê</h2><p>Tongana i sara liste ti ndö pour azo ti yanga, i lingbi ti tene <a href=\"/\">{domain}</a>. I lingbi ti kpe mbeni description na so.</p>",
+      "shortTitle": "Description ti kiri",
+      "longTitle": "Description ti ngangu",
+      "linksHtml": "<p>Page ti nzoni so i lingbi ti tene na link: <a href=\"/games/\">jeux ti ndo</a>, <a href=\"/activities/printable/\">kâdo ti imprimer ti ndo</a>, <a href=\"/activities/alzheimers/\">sara pour Alzheimer</a> na <a href=\"/caregiving/how-to-play-together/\">tongana ti ndo nga na tâ</a>.</p><h2>Question wala ti tiri ti nzoni</h2><p>Tongana mbeni nzapa na site ayeke pëpe nzoni wala ayeke pëpe kpe, wala tongana ye ti azo ti kota ayeke pëpe na ye so ayeke na site, a lingbi ti tene e na <a href=\"mailto:{email}\">{email}</a>. Tënë pëpe tënë ti yanga wala tënë ti azo ti kota ti yanga ti azo ti kota kodro.</p>"
+    },
+    "app": {
+      "title": "Application Creative Activities",
+      "seoTitle": "Application Creative Activities pour iPhone na Android",
+      "description": "Application Creative Activities so ayeke ti fango: matching ti picture na tile 4 ti kue, picture ti familie so ayeke na appareil ti i, pack ti picture so ayeke sara pëpe na internet, na pëpe compte.",
+      "crumb": "Application",
+      "lede": "Ye kue so i ye na site, na mbeni application so ayeke sara pëpe na internet na so ayeke kpe picture ti familie so i yeke ti tiri.",
+      "worksOn": "Ayeke sara na {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Tâ na ndâ mbênî</h2><p>Mo sâra ti tâ na ndâ-ndâ 4 ti kodro so ayeke tî sö. Kodro lo lingbi ayeke na yâ ti mo, wala mo lingbi ti zi kodro lo tongana ayeke ye na lo. Gbâ ti tâ ndâ ayeke na tongaso: ngu tî ndâ ti ndo ayeke ndâ ti ngangu ni, wala ndo tî mbi ayeke na lo. Ndâ-ndâ so mo lingbi ti yeke aduti ayeke 4, 6, 8 wala 12.</p><h2>Sara ni ti mo tâ lo</h2><p>Mo lingbi ti yeke fôto ti lo so mo hon na ndo tî telefôn ti mo. Yanga ayeke sara fôto ti lo lo ti tâ ndâ. A yeke bâ ndo ti fôto tî mo yeke ti sïngö ti lo, a yeke sara fôto ti mo kue tî nzoni tongana ti gbâ ti lo. A yeke hunda fôto 24 na ndo ôko.</p><h2>Tâ ndo ti kodro ti lo</h2><p>Mo lingbi ti tâ kodro ôko na ôko na ndo ôko. Ndâ tî tënë ti mo ayeke tâ ngbâ ti tënë na lo, ayeke sara ni ti mo lingbi ti tënë ti hon ti lo ti kodro tî lo, na ndo tî mo. Mo lingbi ti sara fôto ti lo tongana lo ayeke sara ye na lo.</p><h2>Lo lingbi ayeke na ndo ti mo ti yanga</h2><p>Kodro ti ndâ ti mbeni nga na ndo tî app, na kodro ti ndâ ti 8 tî ngbâ ayeke kue na app. Fôto so mo sara ayeke sara na ndo tî app a lingbi ayeke tâ na lo kue na tongana ayeke na ndo tî lo. Fôto so ayeke na iCloud gi kue a lingbi ayeke na ndo tî ndo ti internet.</p><h2>Ndo ti hunda ni, ndo ti sara fôto ti ndo ti lo ayeke ti sara ti mo</h2><p>Fôto ti mo ayeke na ndo ti app ni na ndo tî telefôn. Mo lingbi ti zia fôto ti mo na ndo tî app ni, a sara ti hunda lo na ndo tî fôto ti ndo ti lo. Ndo ti sara ti telefôn lingbi ayeke ni fôto ti app. Tâ tënë na <a href=\"/app-privacy/\">app privacy policy</a>, na <a href=\"/help/\">app help</a> ayeke tâ ndâ ti mo ti sara kue.</p>",
+      "disclaimer": "Creative Activities ayeke ti gbâ ti mbeni ye ti tâ ngbâ na tënë ti kodro. Lo ayeke diagnostic, ayeke sara ti mbeni wala ayeke ngbâ na dementia wala maladi Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Jeux dementia & Alzheimer ti ndâ tî gbâ na ligne",
+    "description": "Jeux ti ndâ tî gbâ na ligne mbeni ni ti zo so ayeke na dementia wala Alzheimer: ngbâ kodro, puzzle ti ndâ, tongana ti sara ndo, tongana ti ndo ti sara, bingo. Mo sara ni ti hunda, ngu ti tâ, wala ti sara ye.",
+    "crumb": "Jeux",
+    "h1": "Jeux ti ndâ ti zo ti ngbâ ti dementia",
+    "lede": "{count} jeux ti ndâ tî gbâ na ligne ti tâ na ndo ôko. Kodro ti tî sö, tënë ti tî ngbâ, nzoni ni ayeke ndo ti ngbâ: ngu ti tâ, ngu ti sara ye, wala ti sara ni ti hunda.",
+    "listName": "Jeux ti ndâ ti zo ti ngbâ ti dementia",
+    "byStageTitle": "Tâ jeux na ndo ti ndâ ti lo",
+    "byStageLede": "Ndo ti ndâ ayeke ngbâ ti tâ ti ndâ kue. Tâ ni so zo lo yeke tî gbâ na lo, na so ayeke nzoni na lo lôndo.",
+    "stageCol": "Ndo",
+    "gamesCol": "Jeux so ayeke ngbâ ti lo",
+    "moreHtml": "Ndâ tî hunda na ndo ti ekran: <a href=\"/activities/ideas/\">101 activities for people with dementia</a>, <a href=\"/activities/alzheimers/\">activities and games for Alzheimer's</a>, <a href=\"/activities/memory-games/\">gentle memory games</a> na <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "faq": [
+      {
+        "q": "Jeux so mo lingbi ti tâ ndo ti kanga?",
+        "a": "Kodro ôkô na ôkô ti kodro usïö ayeke ndo nzoni ti tâ. Tongana ngbâ kodro ayeke ti ngu na lo, mo lingbi ti tâ Find the same na kodro ûse. Tongana zo ayeke na ngbâ ti tënë, mo lingbi ti tâ Picture bingo."
+      },
+      {
+        "q": "Jeux ayeke sara ye na iPad wala telefôn?",
+        "a": "Ee. Jeux kue ayeke sara ye na navigateur na telefôn, tablette na ordinateur, na kodro ayeke yanga ti hunda ekran. Tablette ayeke na support ayeke nzoni tongana zo ôko na ûse ayeke ngbâ."
+      },
+      {
+        "q": "Jeux ni ayeke nzoni na zo so ayeke na maladi Alzheimer?",
+        "a": "Ee. A sara ni na ndo ti zo so ayeke ngbâ na dementia, na Alzheimer kue, so ayeke maladi ti ngbâ kue. Kodro ayeke hunda, ndo ti ngu ayeke ti ngbâ ti lo, ngu ti tâ wala ti sara ye ayeke ti ngbâ, nzoni ayeke na tâ yâ so lo hon ti lo na ngbanga ti tâ kodro so a sara fôto ti yâ so a tî ngbâ ti lo."
+      },
+      {
+        "q": "Jeux ti ngbâ ti zo ti yâ kue ayeke jeux ti ngbâ ti ngangu?",
+        "a": "Ayeke jeux ti kodro ti ngbâ so zo ti yâ kue lo lingbi ti gbâ, me a sara ni ti ngangu lo ti lo. Na Picture pairs, kodro ayeke na ndo ti lo tî kodro so mo tâ ti lo nzoni. Guide ti mbi na memory games for seniors with dementia ayeke tâ ndâ ti sara jeux ti ngangu ti ngu."
+      },
+      {
+        "q": "Jeux ni ayeke na ndo ti zo mingi na ndo ti lo ti dëngö?",
+        "a": "Ee. Picture bingo ayeke na kaart ti tî ngbâ na ekran ni ayeke ngbâ kodro, na Finish the saying na Conversation kaart ayeke nzoni tongana ti tënë na ndo ti zo mingi."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad na Android",
+    "requirements": "iOS 15 wala ndo ti sô; Android 7.0 wala ndo ti sô",
+    "summary": "App ti ndâ ti tî gbâ na iPhone, iPad na Android, na ngbâ kodro ti zo ti sara ye na ndâ-ndâ 4 to 12, ngbâ na tâ fôto ti mo so mo yeke ngbâ, na kodro ti 8 so ayeke na app ni ayeke sara ye na ndo ti internet. Ngu ti kodro wala ngu ti tâ.",
+    "features": [
+      "Ngbâ kodro ti zo na ndâ-ndâ 4, 6, 8 wala 12; kodro ayeke na ndo ti ekran tongana mo tî zi lo",
+      "Fôto ti mo so mo yeke sara ayeke sara na app ni ti ngbâ na ti tâ",
+      "Tâ ndo ti hunda: kodro ôkô na ôkô, na tënë ti sara ye kue",
+      "Kodro ti 8 ayeke na app; ayeke sara ye na ndo ti internet",
+      "Ngu ti yâ ti sara, ti sâra ti ngbâ, ti tâ, ngu ti kodro wala ngu ti tâ"
+    ],
+    "faq": [
+      {
+        "q": "Ayeke app ti dementia ti sara ye?",
+        "a": "Ee. Creative Activities (na ndo ti App Store na Google Play, tî lo « {storeName} ») ayeke ti ndâ ti tî gbâ. Lo ayeke ngbâ kodro ti zo na kodro ti ndâ, jeux na fôto ti mo so mo yeke sara, na kodro ti ndo ti internet ayeke sara ye."
+      },
+      {
+        "q": "Creative Activities app ayeke ti ndâ ti tî gbâ?",
+        "a": "Ee. Ayeke ti ndâ ti tî gbâ, pëpe na ngu ti tâ, pëpe na compte, pëpe na ngu ti sara ye na app."
+      },
+      {
+        "q": "App ayeke sara ye na ndo ti internet pëpe?",
+        "a": "Ee. Kodro ti ndâ ti zo na kodro ti 8 so ayeke na app ayeke sara ye ti ngbâ na ndo ti internet, na fôto ti mo ayeke sara ye ti ngbâ tongana ayeke tâ na app. Fôto so ayeke na iCloud gi kue a lingbi ayeke na ndo ti internet."
+      },
+      {
+        "q": "Mo lingbi ti sara fôto ti yâ ti mo ti sara?",
+        "a": "Ee. Mo lingbi nda photo ti mo na outil ti choisir photo ti ye ti mo. App ayeke sara copie ti photo ni na ye ti mo, nzoni ti jeux ti ni, nga lo ayeke kiri ti tene ti photo ti tâ ni. Lo ayeke ti ngbâ photo ti mo na nzoni ti ni. Mo lingbi zia copie ni na ngoi so mo mû."
+      },
+      {
+        "q": "Ayeke app ti ngbâ ye ti tene ti ngangu ti ngbâ?",
+        "a": "Ahon. Creative Activities ayeke ti ye ti nzoni nga ti ngoi ti gbele ti ala. A yeke ti ye ti tene ti ngangu, ni ayeke ti ngbâ ye ti tene, nga lo ayeke diagnostiquer, soigner, gbâ ye ti nzoni na maladie ti ngangu, walo ti ngbâ ye ti maladie d’Alzheimer."
+      },
+      {
+        "q": "Ye ti mo lingbi ti ye ti jeux ti ni ayeke wa?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Ayeke version app ti jeux so wa?",
+      "a": "Ee. App Creative Activities ti ye ti gbele, ti iPhone, iPad nga Android, ayeke na jeux ti ye ti nzoni ti photo ti tene ti zo, lo lingbi nda photo ti mo ti kiri, nga lo lingbi sara na ndo ti Internet ti ye ti ngbâ. Ayeke sara nzoni, ayeke kua ye ti compte, ni ayeke kua publicité nga ye ti ye ti score."
+    },
+    "gameFaqNo": {
+      "q": "Ayeke version app ti jeux so wa?",
+      "a": "Ahon, ayeke app ti jeux so ti kiri. App Creative Activities ti gbele, ti iPhone, iPad nga Android, ayeke na jeux ti photo ti nzoni ti ye ti tene ti ngangu nga photo ti mo ti kiri, nga lo lingbi sara na ndo ti Internet ti ye ti ngbâ. Jeux so ayeke gbele ti nda na ye ti mo na navigateur ti ye ti mo."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: photo ti ngangu nga nzoni",
+    "noscript": "Jeux so ayeke ti yeke JavaScript na navigateur ti mo. Ye ti ni na tene ti ngbâ ayeke sara walo na JavaScript ahon.",
+    "about": "Ye ti tene na {name}",
+    "aboutAria": "Ye ti tene na jeux so",
+    "noTimer": "Kua ngoi walo score",
+    "printable": "Lingbi ti kpe na papier",
+    "howTo": "Na nzoni ti sara {name}",
+    "tips": "Ye ti ngbâ ti sara na ala mbeni",
+    "newToPlayingHtml": "Mo ayeke so ngangu ti sara jeux na zo so a yeke na démence? Mo lingbi ngbâ <a href=\"/caregiving/how-to-play-together/\">na nzoni ti sara jeux na ala mbeni</a>, nga ye so mo lingbi sara tongana a kpe ye ti ngbâ.",
+    "moreAria": "Ye ti ngbâ ti ngangu",
+    "helpfulGuides": "Ye ti tene ti nzoni",
+    "appTitle": "Sara na app",
+    "appText": "App Creative Activities ti gbele ayeke na jeux ti photo ti nzoni ti ye ti tene nga photo ti mo ti kiri, lo lingbi sara na ndo ti Wi‑Fi ti kua. iPhone, iPad nga Android.",
+    "photoAppTitle": "Zia photo ti mo na ndo ti ngangu",
+    "photoAppText": "Na app Creative Activities ti gbele, photo so mo choisi ayeke na ye ti mo na ngoi ti nga, nga jeux ayeke sara na ndo ti Wi‑Fi ti kua. iPhone, iPad nga Android.",
+    "goodToKnow": "Ye so mo lingbi ngbâ",
+    "goodToKnowText": "Jeux so ayeke ti ye ti nzoni nga ti ngoi ti gbele ti ala. A kua ti tâ ye, a kua ti ngbâ, nga a kua ti zia ngangu.",
+    "moreGames": "Jeux ti nzoni ti ngangu",
+    "crumb": "Jeux"
+  }
+}

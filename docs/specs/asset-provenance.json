@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-30",
+  "meaning": "Rights register for everything the app ships, including native launcher and splash art (GM-025). rights_status 'reviewed' means a person recorded author, license or permission, attribution and redistribution terms and a review date. Nothing below is reviewed except where stated. Bundling an asset is not proof of redistribution rights; unreviewed assets block release (scripts/release_metadata.py --release).",
+  "groups": [
+    {
+      "id": "catalog-images",
+      "paths": [
+        "assets/images/catalog/"
+      ],
+      "count": 121,
+      "register": "docs/catalog-image-sources.json",
+      "recorded": "per image: source URL (images.unsplash.com), SHA-256 and byte size",
+      "rights_status": "unreviewed",
+      "missing": [
+        "author",
+        "license or permission text",
+        "attribution requirement",
+        "redistribution and modification terms",
+        "review date",
+        "human review for tile-size recognizability, near-duplicates and distressing content"
+      ]
+    },
+    {
+      "id": "shared-drawings",
+      "paths": [
+        "assets/images/pictures/"
+      ],
+      "source": "site/src/data/pictures.ts and site/src/data/picture-art/*.ts: SVG drawn for this project in code (no third-party artwork, no generated images)",
+      "derivation": "site/scripts/export-pictures.mjs renders each SVG with resvg 2.6.2 at 720px and stores it as lossless WebP (Pillow); manifest.json records the SVG hash of every file",
+      "used_by": "app starter activities (gentle game, Look together, Daily moment) and the website's picture games",
+      "rights_status": "unreviewed",
+      "missing": [
+        "a person's review date",
+        "human check for tile-size recognizability, near-duplicates and anything distressing"
+      ]
+    },
+    {
+      "id": "generated-illustrations",
+      "paths": [
+        "assets/images/illustrations/"
+      ],
+      "source": "Generated on 2026-11-08 with the Codex CLI image generation tool, prompted per subject with assets/images/pictures/apple.webp as the style reference; prompt text lives in the commit that added them",
+      "derivation": "Each PNG was resized to 720px and stored as lossy WebP (Pillow, quality 88); manifest.json lists id, English name and category; site/public/illustrations/ holds identical copies",
+      "used_by": "available to the app and the website; not yet wired into a game, picture list or page",
+      "rights_status": "unreviewed",
+      "missing": [
+        "a person's review of the tool's terms for commercial use of generated images and of whether the store listing needs an AI-generated-content disclosure",
+        "human check for tile-size recognizability, near-duplicates and anything distressing",
+        "translated names before any picture is added to a game or the picture library"
+      ]
+    },
+    {
+      "id": "font-atkinson-hyperlegible-next",
+      "paths": [
+        "assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf",
+        "assets/fonts/AtkinsonHyperlegibleNext-Medium.ttf",
+        "assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf",
+        "assets/fonts/AtkinsonHyperlegibleNext_LICENSE.txt"
+      ],
+      "license": "OFL-1.1",
+      "license_file": "assets/fonts/AtkinsonHyperlegibleNext_LICENSE.txt",
+      "rights_status": "license_text_bundled",
+      "source": "https://raw.githubusercontent.com/googlefonts/atkinson-hyperlegible-next/main/fonts/ttf/AtkinsonHyperlegibleNext-{Regular,Medium,Bold}.ttf",
+      "source_sha256": {
+        "Regular": "88ed5c31a71584c7772963b02d04bef1eb7e3d2e9c8b9cb204339b1f82cf432c",
+        "Medium": "dd50b08b3c560846097d23baaaf6a97ffa20dd077115d23c59df68083b9ea05e",
+        "Bold": "994414047df66bb4998d01c1cb1eeb4a2ddc4622d1aa56bbb8adbeca7645b041"
+      },
+      "derived_on": "2026-11-13",
+      "missing": [
+        "a person's review date"
+      ]
+    },
+    {
+      "id": "sounds",
+      "paths": [
+        "assets/sounds/button_tap.mp3",
+        "assets/sounds/music.mp3",
+        "assets/sounds/winner.mp3"
+      ],
+      "rights_status": "unreviewed",
+      "used_by": "legacy picture-pack game only; not played by the gentle activity",
+      "missing": [
+        "source",
+        "author",
+        "license or permission",
+        "review date"
+      ]
+    },
+    {
+      "id": "app-icons",
+      "paths": [
+        "assets/icons/app_icon.png",
+        "assets/icons/app_icon_padded.png",
+        "assets/icons/app_icon_bk.png"
+      ],
+      "rights_status": "unreviewed",
+      "missing": [
+        "origin and author",
+        "license or permission",
+        "review date"
+      ]
+    },
+    {
+      "id": "pack-index-data",
+      "paths": [
+        "assets/data/packs_index.json",
+        "assets/data/i18n/"
+      ],
+      "rights_status": "unreviewed",
+      "missing": [
+        "confirmation that titles and descriptions are original or licensed"
+      ]
+    },
+    {
+      "id": "family-photos",
+      "paths": [],
+      "rights_status": "not_shipped",
+      "note": "Chosen by the person on their own device; never bundled, uploaded or included in screenshots."
+    },
+    {
+      "id": "native-icon-and-splash-art",
+      "paths": [
+        "ios/Runner/Assets.xcassets/AppIcon.appiconset/",
+        "ios/Runner/Assets.xcassets/LaunchImage.imageset/",
+        "android/app/src/main/res/",
+        "android/app/src/main/ic_launcher-playstore.png",
+        "android/app/src/development/",
+        "android/app/src/staging/"
+      ],
+      "rights_status": "unreviewed",
+      "note": "Launcher icons and splash images checked into the native projects; generated from assets/icons by flutter_launcher_icons and flutter_native_splash, so they carry the same origin question as the app-icons group.",
+      "missing": [
+        "origin and author of the source icon",
+        "license or permission",
+        "review date"
+      ]
+    },
+    {
+      "id": "app-store-screenshots-1.3.0",
+      "paths": [
+        "assets/screenshots/en-US/"
+      ],
+      "rights_status": "unreviewed",
+      "recorded": "Native captures of main at fce00d7 (iOS 26.5 simulators; build 6 frames before that) with synthetic teacup/flowers and built-in image_gen background. PROMPTS.md and manifest.json record generation, capture tools, composition and file hashes. No private family photos. Marketing assets only; not listed in pubspec.yaml and not bundled in the app.",
+      "missing": [
+        "Publisher rights sign-off for the app UI and inherited catalog/font artwork appearing inside captures; see the existing catalog-images, font-roboto and icon groups."
+      ]
+    }
+  ]
+}

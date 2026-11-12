@@ -1,0 +1,34 @@
+---
+import { localePath } from '../i18n/locales';
+import { ui } from '../i18n/ui';
+
+export interface Crumb {
+  href: string;
+  label: string;
+}
+interface Props {
+  /** Hrefs are already language-prefixed. */
+  items: Crumb[];
+  lang?: string;
+}
+const { items, lang = 'en' } = Astro.props;
+const t = ui(lang).common;
+---
+<nav class="breadcrumbs container" aria-label={t.breadcrumb}>
+  <ol>
+    <li><a href={localePath(lang, '/')}>{t.home}</a></li>
+    {
+      items.map((item, i) =>
+        i === items.length - 1 ? (
+          <li>
+            <span aria-current="page">{item.label}</span>
+          </li>
+        ) : (
+          <li>
+            <a href={item.href}>{item.label}</a>
+          </li>
+        ),
+      )
+    }
+  </ol>
+</nav>

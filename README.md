@@ -1,16 +1,19 @@
-# Golden Moments
+# Creative Activities
 
-Gentle picture matching and shared photo activities. Flutter, local-first on iOS/Android, no account or custom photo backend.
+*Make something together.* Free, practical creative activities for people caring for someone else, starting with simple picture and photo activities for older adults and their families. Flutter, local-first on iOS/Android, no account or custom photo backend. Mission and strategy: [MISSION](MISSION.md), [VISION](VISION.md); look and voice: [DESIGN](DESIGN.md).
 
-**US App Store candidate:** `Dementia Games: Golden Moments`  
-**Subtitle:** `Alzheimer's Photo Activities`  
-**On-device name:** `Golden Moments`  
+Renamed from **Golden Moments** (2026-11-13). Bundle/package identifiers, the Dart package name `golden_moments`, signing and stored data are unchanged on purpose.
+
+**US App Store candidate:** `Creative Activities Together`  
+**Subtitle:** `Simple Crafts & Photo Games`  
+**On-device name:** `Creative Activities`  
 **Candidate version:** `1.4.1+8` (next candidate; 1.4.0 build 7 is on the App Store; public release remains manual).
 
 ## Start here
 
 | Question | Source of truth |
 | --- | --- |
+| Why does this exist and where is it going? | [Mission](MISSION.md), [Vision](VISION.md) |
 | What are we building and for whom? | [Product specification](docs/specs/product.md) |
 | What is implemented versus verified? | [Feature and release status](docs/specs/README.md) |
 | How do photos work without a server? | [Architecture and privacy](docs/specs/offline-photos.md) |
@@ -56,4 +59,4 @@ Edit `metadata/app-store.en-US.json`, run `python scripts/release_metadata.py --
 
 The new mobile flow and copy are English-first. Existing translated legacy screens do not make new screens translated. Other store descriptions remain historical and require localization/claims review before reuse.
 
-Golden Moments offers recreation and shared conversation. It does not diagnose, measure, treat, prevent or claim to slow dementia or Alzheimer's disease. Do not imply suitability for every person or stage.
+Creative Activities offers recreation and shared conversation. It does not diagnose, measure, treat, prevent or claim to slow dementia or Alzheimer's disease. Do not imply suitability for every person or stage.

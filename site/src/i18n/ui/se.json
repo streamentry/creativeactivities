@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Njuolga váldosisdollui",
+    "brandName": "Creative Activities",
+    "brandTag": "Doaimmat olbmuide geain lea demensa",
+    "homeLabel": "Creative Activities -ruovttusiidu",
+    "mainNav": "Váldonavigašuvdna",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: stuorra, liekkus govat deagohpas, beaivvášlieđis ja beatnagis",
+    "languages": "Giella",
+    "englishOnly": "(Eaŋgalsgillii)",
+    "machineTranslated": "Dát siidu lea jorgaluvvon automáhtalaččat, iige eatnigielat olmmoš leat vel dárkkistan dan.",
+    "readOriginal": "Loga álgoteavstta eaŋgalsgillii",
+    "nav": {
+      "games": "Spealut",
+      "activities": "Doaimmat",
+      "caregiving": "Fuolaheapmi",
+      "brainHealth": "Vuoiŋŋašdearvvašvuohta"
+    },
+    "faqTitle": "Gažaldagat ja vástádusat",
+    "breadcrumb": "Bálggis",
+    "home": "Ruoktu",
+    "lastUpdated": "Maŋimustá ođasmahttojuvvon",
+    "topics": "Fáttát",
+    "textSize": {
+      "label": "Teavstta sturrodat",
+      "smaller": "Dábálaš teaksta",
+      "larger": "Stuorit teaksta",
+      "contrast": "Stuorit kontrásta"
+    }
+  },
+  "footer": {
+    "play": "Speala",
+    "picturePairs": "Govvabárat",
+    "conversationCards": "Ságastallankoarttat",
+    "pictureBingo": "Govvabingo",
+    "allGames": "Buot spealut",
+    "pictures": "Govat maid sáhttá čálihit",
+    "activityIdeas": "Jurddat doaimmaide",
+    "ideas101": "101 jurdda doaimmaide",
+    "lateStage": "Doaimmat maŋit muddui",
+    "printable": "Doaimmat maid sáhttá čálihit",
+    "allActivities": "Buot doaimmat",
+    "forCaregivers": "Fuolaheaddjiide",
+    "playTogether": "Movt ovttas speallat",
+    "selfCare": "Iežat fuolaheapmi",
+    "brainHealth": "Vuoiŋŋašdearvvašvuođa dutkan",
+    "faq": "Gažaldagat ja vástádusat",
+    "about": "Min birra",
+    "approach": "Min vuohki",
+    "howWeWrite": "Movt mii čállit",
+    "organizations": "Organisašuvnnaide",
+    "app": "Creative Activities -áppa",
+    "appHelp": "Áppa veahkki",
+    "support": "Doarjja",
+    "legal": "Lágalaš dieđut",
+    "sitePrivacy": "Neahttasiiddu personsuodjalus",
+    "appPrivacy": "Áppa personsuodjalusnjuolggadusat",
+    "privacyChoices": "Personsuodjalusválljemat",
+    "terms": "Eavttut ja áppalisensa",
+    "safety": "Oadjebasvuohta ja oaivvilduvvon geavahus",
+    "accessibility": "Olahahttivuohta",
+    "healthNotice": "Dearvvašvuođadieđáhus",
+    "allLegal": "Buot lágalaš dieđut",
+    "note": "Creative Activities fállá álkes ovttastallandoaimmaid illun ja ávvun. Dát eai leat medisiinnalaš ráđit, iskosit dahje dikšumat, eaige diagnosere, mihtit dahje árvvoštala geange. Jus leat dearvvašvuođagažaldagat, ságas doaktáriin. Heahtedilis riŋge 112.",
+    "publisher": "Almmustahtti lea Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Spealut ja doaimmat olbmuide geain lea demensa dahje Alzheimer | Creative Activities",
+    "description": "Nuvttá, ráfálaš govvaspealut neahtas ja doaibmaideat olbmuide geain lea demensa dahje Alzheimer, ja sin fuolaheaddjiide. Eai gáibiduvvo dieđiheamit, áigegeahčut eaige čuoggát.",
+    "eyebrow": "Nuvttá · Eai máidnosat · Eai gáibiduvvo dieđiheamit · Eai áigegeahčut eaige čuoggát",
+    "h1": "Ráfálaš spealut ja doaimmat olbmuide geain lea demensa",
+    "lede": "Álkes govvaspealut, oahpes govat ja doaimmat maid sáhttá návddašit ovttas—iežas leavttus.",
+    "playGame": "Speala spealu",
+    "findIdeas": "Gávnna jurdagiid doaimmaide",
+    "facts": [
+      "Doibmá telefovnnas, dihtortableahtas ja dihtoris",
+      "Stuorra govat mat bissot oidnosis",
+      "Heaitte goas fal háliidat; dás ii leat mihkkege maid sáhttá boastut dahkat"
+    ],
+    "heroApp": "Maiddái nuvttá áppa iPhone, iPad ja Android várás, masa sáhttá geavahit iežat bearašgovaid",
+    "albumNote": "”Guokte gova deagohpas, ovttas.”",
+    "gamesEyebrow": "Speala neahttalohkkis",
+    "gamesTitle": "Spealut maid sáhtát speallat dál dalán",
+    "gamesLede": "Juohke speallu lea ráfálaš, rávisolbmui heivehuvvon ja álki álggahit. Vállje ovtta, čohkkádeahkki bálddalagaid ja deaddileahkki vuoruid mielde.",
+    "seeAllGames": "Oainne buot {count} spealu",
+    "howTitle": "Movt dat doibmá",
+    "steps": [
+      {
+        "title": "Vállje juoidá mii lea oahpis",
+        "text": "Govat deagohpain, gilggiin, ruovttueliellin ja borjjasfanasin. Dás ii dárbbaš lohkat eai ge njuolggadusaid oahppat ovdalgihtii."
+      },
+      {
+        "title": "Čohkkádeahkki bálddalagaid",
+        "text": "Diga su deaddilit. Ságastalle govaid birra. Jus eai leat seammalágán govat, speallu dušše vuordá boahtte deaddileami."
+      },
+      {
+        "title": "Heaitte dalle go vel dovddu buorrin",
+        "text": "Okta speallu lea ollislaš doaibma. ”Dál lea doarvái” lea álo oidnosis šearpmas."
+      }
+    ],
+    "stageEyebrow": "Eanet go dušše šearpmas",
+    "stageTitle": "Doaibmajurdagat buot muttuide",
+    "stageLede": "Musiihkka, árgabeaiduoimmat, muittut ja ráfálaš áicandovddut, heivehuvvon dasa mii orru vuogas justa dál.",
+    "ideas101": "101 doaibmajurdaga",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Árramuddu",
+        "text": "Joatkke dainna maid son liiko dahkat, smávva heivehemiiguin: áhpásat, mátkkážat, sániid spealut ja ovttas plánen.",
+        "label": "Jurdagat árramuddui"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Gaskamuddu",
+        "text": "Álkes, oahpes barggut mat leat juhkkojuvvon oassái: gárvvuid doallan, rátkin, musiihkka, govvaspealut ja oanehis váccáhallamat.",
+        "label": "Jurdagat gaskamuddui"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Maŋit muddu",
+        "text": "Jeđđehus ja oktavuohta guoskkadeami, jiena ja oidnosa bokte: gieđaid dikšun, mielalágán lávlagat, govat ja ovttasorrun.",
+        "label": "Jurdagat maŋit muddui"
+      }
+    ],
+    "specificHtml": "Ozut go juoidá erenoamáža? Geahčal <a href=\"/activities/alzheimers/\">doaimmaid ja spealuid Alzheimer várás</a>, <a href=\"/activities/memory-games/\">ráfálaš muitodoaimmaid</a>, <a href=\"/activities/trivia/\">álkes gažaldatspealuid</a> dahje <a href=\"/activities/puzzles/\">speallospealuid</a>.",
+    "approachEyebrow": "Min vuohki",
+    "approachTitle": "Ovttastallandoaibma, ii muituiskkus",
+    "approachLede": "Ollu ”vuoiŋŋašspealut” leat ráhkaduvvon leavttu, čuoggáid ja vuoitolahpuid vuođul. Olbmui geas lea demensa, dat sáhttá dovdot dego eksámen. Mii ráhkadeimmet áibbas earálágan vuogi.",
+    "approachLink": "Manne mii hábmet dan dán láhkai",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Ii mihkkege maid sáhttá boastut dahkat",
+        "text": "Ii leat diibmu, eai čuoggát, ealimat eaige vuoittahallan. Eará govva lea dušše boddu, ii meattáhus."
+      },
+      {
+        "icon": "eye",
+        "title": "Govat bissot oidnosis",
+        "text": "Dovdan lea dehaleabbo go muitit. Páragovat leat bajás álggu rájes, nu ahte ii dárbbaš muitit maidege."
+      },
+      {
+        "icon": "people",
+        "title": "Árvvolaš ja rávisolbmuide heivehuvvon",
+        "text": "Liekkus, álkes sánit ja govat duohta máilmmis. Eai goassege sárggusgovat dahje mánáidgielat hupman."
+      },
+      {
+        "icon": "shield",
+        "title": "Iešalddis suodjaluvvon dieđut",
+        "text": "Eai geavahandilit eaige máidnosat. Du govat eai goassege vuolgge eret du reaiddus."
+      }
+    ],
+    "guidesEyebrow": "Fuolaheaddjiide",
+    "guidesTitle": "Geavatlaš rávvagat árgabeaivái",
+    "allCaregiving": "Buot fuolahanoahppat",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Movt ovttas speallat",
+        "text": "Álggaheapmi, leaktu ja maid dahkat jus speallan ii leat šat suohtas."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Go son ii hálit oassálastit doibmii",
+        "text": "Dábálaš sivat manne biehttala, ja ráfálaš vuogit geahččalit fas maŋŋelabbui."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Dihtortableahta heiveheapmi",
+        "text": "Stuorit teaksta, unnit hehttehusat ja okta álkes álgošearpma."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Nuvttá doaimmat maid sáhttá čálihit",
+        "text": "Sátneozohat stuorra bustávaiguin, ivdnenbálgát, bingo ja ságastallankoarttat."
+      }
+    ],
+    "researchTitle": "Vuoiŋŋašdearvvašvuohta: maid dutkan duođas dadjá",
+    "researchText": "Sáhttágo demenssa eastadit? Veahkehitgo vuoiŋŋašspealut? Movt lea fásttuin, biebmuin, nahkáriiguin ja gulluin? Čielga vástádusat gálduiguin, maiddái das gos duođaštusat leat fuonit.",
+    "researchLink": "Loga dutkanoahpaid",
+    "appEyebrow": "Maiddái áppan",
+    "appTitle": "Creative Activities iPhone, iPad ja Android várás",
+    "appText": "Nuvttá áppa doibmá interneahta haga ja sáhttá geavahit bearašgovaid maid válljet, mat vurkejuvvojit kopian du reaidoi. Seamma ráfálaš hápmi: njeallje stuorra gova, ii áigegeahčču, eaige čuoggát.",
+    "aboutApp": "Áppa birra",
+    "faq": [
+      {
+        "q": "Makkár spealut leat buorit olbmuide geain lea demensa?",
+        "a": "Buorit spielat leat álkes, dábálaččat ja bahás: stuorra govat maid galgá ovttastit, sortet, álkes pusla, kuhttet oidnosaš sánit, dárkkistit, govvabingo ja sáhkarávdit. Buoremus válljen lea dat, mas olmmoš dál ilolaš. Geahččal sihkkarastit ahte spielas ii leat áigemihttu, bihtemearri dahje mihkkege mii dahká dovdui go testii."
+      },
+      {
+        "q": "Leatgo dát dementiijaspielat ilmmalaččat?",
+        "a": "Leat. Juohke spiela ja printe Creative Activitiesis lea ilmmalaš, eai dárbbas gilišumi, registrerema dahje lađasindeaddjiid. Spielat johtet weabbabrovserii telefonas, tábletas dahje dieđuid."
+      },
+      {
+        "q": "Ehkkiváldet gáhppalspielat dementiija?",
+        "a": "Eai ge spiela leat čájehuvvon ehkkiváldit dementiija, ja Creative Activities ii dadde ahte mihkkege hoiddá dahje ehkkiváldá. Mii spielat leat ilolaš ja ovttas dálus. Min gáhppaldearvvašvuođa oassi čilge dan, maid dutkan dadjá ja maid ii dadjá."
+      },
+      {
+        "q": "Leatgo dát spielat sivdnideamos olbmui geas lea Alzheimer?",
+        "a": "Leat. Alzheimer lea dábálaš dementiija vuolggasadji, ja spielat leat dahkkojuvvon dasa: stuorra govat mat bissot oidnosin, unnit válljemiid ja eai dárbbaš muitit dahje rihkku dahkat. Ovttastit, sortet ja dábálaš sániid loahpahit viežžet dihtosaš máhtui, ii ođđa oahpu."
+      },
+      {
+        "q": "Sáhttet go olbmot geain lea maŋit dásis dementiija geavahit dáid doaimmaid?",
+        "a": "Dábálaččat sáhttet, go oassi olmmoš lea oktavuođas. Álggat Oza seamma guovtti govain, Govvaparat njealji ruvdduin, dárkkistanbaga dahje rahpat lávdi-hengejumi. Pitte dat gáddái ja doaimma dan mielde. Lohkkat dan lea buorre, go dat lea dan dihte ahte oidná ja dárbbaš iežas doaimma."
+      },
+      {
+        "q": "Leatgo mu dieđut priváhta?",
+        "a": "Sajis ii leat gilišumit ja ii leat reklámat. Geavahat Google Analytics dahkat ovdanbuktit, mat siiddut gávdnojit. Govat maid válljet Govvaparaid várás, čájehuvvojit dušše du brovseris ja eai ládjojuvvo."
+      },
+      {
+        "q": "Ko ráhkada Creative Activities?",
+        "a": "Creative Activities lea unnit joavku, mii ráhkada hillán, olbmuid várás oidnosaš govaspielaid familiijaide ja hoitoveahkkiide, weabbas ja ilmmalaš appas. Mii eat leat dearvvašvuođadieđuid lágat, ja dát ii leat medisiinalaš neuvvodat."
+      }
+    ]
+  },
+  "stage": {
+    "early": "álgu",
+    "middle": "gaska",
+    "late": "maŋit",
+    "hintOne": "Dábálaččat heive {list} dásis",
+    "hintMany": "Dábálaččat heive {list} dásiid",
+    "labelEarly": "Álgodási",
+    "labelMiddle": "Gaskadási",
+    "labelLate": "Maŋit dási"
+  },
+  "cards": {
+    "aboutGame": "Birra dán spiela",
+    "printable": "Printe",
+    "play": "Spiela {name} →",
+    "readGuide": "Lohke gidda"
+  },
+  "playCta": {
+    "title": "Leatgo valmis hillii spielii?",
+    "text": "Stuorra govat, ii áigemihttu, ii bihtemearri ja ii mihkkege mas galgá registrerret. Spielet ovttas du brovseris.",
+    "play": "Spiela spiela",
+    "all": "Geahča buot spielaid",
+    "aria": "Spiela spiela"
+  },
+  "appCta": {
+    "title": "Váldde dát spielat mielde",
+    "text": "Ilmmalaš Creative Activities-appa iPhone-, iPad- ja Android-ahte: stuorra govaruvdut, spielat du iežat familiijagovaiguin ja govatdássit mat barget ilman Wi‑Fi. Eai dárbbaš kontto, reklámat, áigemihttu dahje bihtemearri.",
+    "appStore": "Oaččo App Storest",
+    "googlePlay": "Oaččo Google Playis",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Birra appa",
+    "aria": "Oaččo appa"
+  },
+  "sections": {
+    "activities": {
+      "label": "Doaimmat",
+      "title": "Doaimmat olbmuide geain lea dementiija",
+      "seo": "Doaimmat olbmuide geain lea dementiija: árvalusat dásiid mielde",
+      "description": "Doaimmaárvalusat olbmuide geat eallet dementiijain juohke dásis: music, muitaleapmi, árkkadoaimmat, sensoralaš hetet, käsityöt, olggobealde ja ilmmalaš printet.",
+      "lede": "Mielas doaibma lea juohke mii addá lohpi, merkkašumi dahje hehttehuvvan oktavuođa. Álggat dan mii olmmošii lea nagodan ilostuvvat, ja heive dan dálá dili mielde."
+    },
+    "caregiving": {
+      "label": "Hoitu",
+      "title": "Hoitogiiđat",
+      "seo": "Dementiija hoitogiiđat: praktalaš árkkiveahkki",
+      "description": "Praktalaš ja buorrevuoðalaš giiđat dementiija hoitoveahkkiide: spielat ovttas, gulahallan, vuostážiid, idja loahpas hilgu, tábletat, appaid válljen ja iežas hoitu.",
+      "lede": "Čielga, praktalaš veahkki árkkiidda go hoitat olbmo geas lea dementiija, ja mielde iežat hoidin."
+    },
+    "brain-health": {
+      "label": "Gáhppaldearvvašvuohta",
+      "title": "Gáhppaldearvvašvuohta: mii dutkan dadjá",
+      "seo": "Gáhppaldearvvašvuohta ja dementiijaváara: mii dutkan dadjá",
+      "description": "Sáhttá go dementiija ehkkiduvvot? Ärvalas ja gálduiguin nannejuvvon giiđat dementiijaváarriid, gáhppalspielaid, borramušaid, dieđuid, ruoktu, sihkkaleapmi, gullan ja álgodási váiváid birra.",
+      "lede": "Mii stuorra dutkamiin oidno dementiijaváara unnideami birra, čilgejuvvon čielgasit, ja mainnasit mas dieđut leat heikkás dahje juohkásat. Oppalaš dieđut, ii medisiinalaš neuvvodat."
+    }
+  },
+  "guide": {
+    "updated": "Ođasmahttojuvvon",
+    "minuteRead": "{n} minutta lohkat",
+    "byTeam": "Creative Activities joavkku čállin",
+    "howWeWrite": "Movt mii čállit",
+    "shortAnswer": "Oppalaš vástádus",
+    "onThisPage": "Dán siiddus ({n} oasi)",
+    "commonQuestions": "Dábálaš gažaldagat",
+    "sources": "Čujuhusat",
+    "sourcesNote": "Mii čujuhit organisašuvnnaide ja dutkamiidda, main dát siidu leat vuođđun. Juohke lea geahčaduvvon siidu ođasmahttimis.",
+    "tryTogether": "Geahččal ovttas",
+    "relatedGuides": "Oktavuođas giiđat",
+    "related": "Oktavuođas",
+    "startHere": "Álggat dás"
+  },
+  "healthNotice": {
+    "aria": "Dearvvašvuođadieđu notiså",
+    "title": "Oppalaš dieđut, ii medisiinalaš neuvvodat",
+    "textHtml": "Dát siidu čujuha almmolaš dutkamiid familiijaide. Dat ii sáhte dadjat, makkár lea buorre juohke olbmui. Gula dogguin ovdal go rievdat borramuša, dorvvoleami, unnaid, medisiinnaid dahje lisadieđuid. Jos dáhkkit lea rievdan äkkel dahje lea eará äkkel rievdan, ohcat medisiinalaš veahki dál. <a href=\"/medical-disclaimer/\">Lohke min dearvvašvuođadieđu notiisa</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Oktasaš doaibma, ii muitohása testa",
+      "seoTitle": "Birra Creative Activitiesii: min lähkumat",
+      "description": "Goas Creative Activities-spielain eai leat áigemihttut, bihtemearit dahje sárgumat, goas govat bisot oidnosin ja maid mii eat dadde dementiija birra.",
+      "crumb": "Min lähkumat",
+      "lede": "Creative Activities ráhkada hillán, olbmuid várás govaaktivitehtaid, maid hoitoveahkki ja olmmoš geas lea dementiija sáhttet ilolaččat spielat dušše guoimmi.",
+      "bodyHtml": "<h2>Mii oaivvildit</h2><p>Doaibma mearkkašupmi lea dat hetta ieš: rávvagat, smiehta, ilu go oažžu govaid oktii dahje dušše leat lagas. Ii leat ulbmil mihkkege mihtidit, eambbo gáibidit dahje mihkkege duostat.</p><p>Moadde áhppaovdáneapmi gáhttet leat ásahuvvon vuolggas, bidjamiid, joksamiid ja dásiid vuolde. Dementiija olbmui dat sáhttá dahkat geahččaleapmi, mii ii sáhte bissehit. Mii leat dahkan vuollái, ja mii čuovvut dáid rievttiid:</p><ul><li><strong>Ii leat maidege mii sáhttá boahtit váttis.</strong> Ii klokka, ii bidju, ii ellenjuolggi, ii luomu, ii joksamat, ii rátnu, ii oppalaš ovddeš go hál dakkár gilis.</li><li><strong>Dovdu, ii muitu.</strong> Govat čájehuvvojit ovdalgo. Čuoggát bohtet doalvut rávvagii ja eai gillánan jearat nama dahje muittu.</li><li><strong>Stuorra, čielga ja šladdan.</strong> Stuora čállin ja govat, buorre kontrasta, ja vuogit leat seammá sadjis.</li><li><strong>Olmmošlaš árvu.</strong> Oassi govat, ovdal dahkkojuvvon eallimis, ja čielga, lagas sánit. Ii leat sarggat, ii bártnaguovlu, ii emoji-palkašumit.</li><li><strong>Álkes vuogi lohppii.</strong> “Lohppii dál” lea aina čuovvan. Lohppán ceahkkimis lea buorre bohtosat.</li><li><strong>Priváhta dihto.</strong> Eai leat kontoat eaige reaklámat. Govat, maid válljet, orrot ietjat gilis.</li></ul><h2>Maid mii eat dadjat</h2><p>Min spiller leat ilolaš ja oktavuođa várás. Daid eai diagnoseret, geahččal, mihtit, hoitta, njuolggadit dahje eahpidit dementiija dahje Alzheimer-dávda, ja ii galgga ovttage válljet daid dan sivas. Go mii čállit dutkamiid birra <a href=\"/brain-health/\">aivdoálgogeahčču siiddus</a>, mii cealkit čielgasit, gos dieđut leat heikkes, ja mii eat goassage oktavuođe daid ieš spillií.</p><h2>Gii mii leat</h2><p>Creative Activities lea unni, iežas searvi. Mii eat leat dearvvasvuođadoallit. Min gildit vuolgget almmolaš dieđuin, nugo National Institute on Aging ja Alzheimer’s Association, ja juohke gilda listu gávdnun gáldut. Lohke <a href=\"/editorial-policy/\">movt mii čállit ja gehččat min siidduid</a>.</p><h2>Čála mii veahki</h2><p>Mii fertet gullat, mii buoridivččii sinne, earenoamážit dementiija olbmo, boarrásiid gaskkus ja doaibmaolmmošiid. Čála <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Movt mii čállit ja gehččat min siidduid",
+      "seoTitle": "Toimitusprinsihpat",
+      "description": "Movt Creative Activities dutká, čállá, vuolgit ja odasmahttá dementiija doaibmaid ja aivdoálgogeahčču siidduid, ja mii eat goassage almmuhu.",
+      "crumb": "Toimitusprinsihpat",
+      "bodyHtml": "<h2>Min gáldut</h2><p>Min guovddážat vuolgit almmolaš rávvagiin organisašuvnnain nugo National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance ja NHS, ja vertisfága dutkamiin nugo Cochrane-árvvoštallamiin ja stuorra kliinalaš geahčadusain. Juohke guovddáš listu gáldut, mat leat sidjiide vuođu. Mii geahčadit juohke gálduid ovdal go siteret, ja mii dadjat dušše dan, mii dat čilgá.</p><h2>Movt mii čállit</h2><ul><li>Praktihkalaš ovdal: maid oažžu dál dahkat, čielga sániin.</li><li>Rehketlaš dutkamiin: mii cealkit “oktavuođas” , “sáhttá” ja “dieđut leat mielddus”, go dat lea duohta.</li><li>Lagas: mii čállit dementiija olbmo birra sihke rávvagiid, ja eat geavat gilolaš dahje sirdolaš sániid.</li><li>Eai oidde sisdoallu: ii divoduvvon statistihkka, sitáhta, áššedovdi, dutkamuš, arvvoštallamat dahje mearkkat.</li></ul><h2>Geat geahččalit min siidduid</h2><p>Siiddut čállojuvvojit ja geahččalit Creative Activities joavkkus, veahkkin AI-čálalaš reaidduin dutkamii ja čállimii. Juohke siidu geahččaluvvo joavkku áigeguovdilis gáldui. Min siiddut eai leat <strong>ii</strong> geahččaluvvon doaktara dahje eará kliinalaš fágaolbmo dihte, ja mii eat dadjat nu. Daid sisdoallu lea oppalaš dieđu, ii lea dearvvasvuođarávvagat.</p><h2>Maid mii eat almmuhu goassage</h2><ul><li>Dat, ahte spiller, borramuš, dieđuhálddahus, vuovdin dahje dihtorvuođa ii sáhte ehpidit, hoitit, njuolggadit dahje dementiija oažžut.</li><li>Geahččalemiid, lihkkuid dahje bidjamiid, mat mearkkašit ahte olmmoš lea dahje ii leat dementiija bealis.</li><li>Rávvagat mii ádjunnii, rávvagat ii bisánit dahje rievdat medisiinnaid.</li><li>Reaklámat dahje mearkkaduvvon sisdoallu, mii boahtá rávvagin.</li></ul><h2>Odasmahttindat ja riekteoaiddodeaddu</h2><p>Juohke siidu čájeha dieđuid, goas dat lea odasmahttojuvvon. Jos gávnnat meanudeami dahje boarráseamos gálduid, sáddejeaddjiid <a href=\"mailto:{email}\">{email}</a>, ja mii geahččalit dan ii goassage.</p>"
+    },
+    "faq": {
+      "title": "Gažaldagat ja vástádusat",
+      "seoTitle": "Dementiija spiller ja doaibmat: gažaldagat ja vástádusat",
+      "description": "Vástádusat oppalaš gažaldagaide dementiija spiller ja doaibmat birra: makkár spiller galget geahččalit, man guhkás spilat, idejat boahtteáigi várás, aivdoálgogeahčču ja priváhta.",
+      "crumb": "Gažaldagat ja vástádusat",
+      "lede": "Oanehis ja čielga vástádusat gažaldagaide, maid lágidealddit jearrot eanemusat.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Spiller birra",
+          "items": [
+            {
+              "q": "Mat leat buorit spiller dementiija olbmo várás?",
+              "a": "Buoremus spiller leat dovddus, álkes ja ilman bástoháhkku, ja mii sáhttá lea buorre, dat mii olbmui maid dál ilahuššá. Govat maid oktii valljet, sorteremat, álkes gilváročuoggát, sánit mat leat dovddus ja fargga, leat buorat ollu olbmui. Ii galgga sáhttit geavahit mihtiduvvon áigi, bohtosiid dahje mihkkege mii dahká geahččaleami dihte."
+            },
+            {
+              "q": "Leatgo spiller dušše ilmmas?",
+              "a": "Jo. Buot spiillat ja printtenmateriálat leat ilmmas, ja ii dárbbaš kontu, registreren, lataga dahje reklámma."
+            },
+            {
+              "q": "Manne eai leat bálkkat, dásit dahje áigemihttu?",
+              "a": "Jus bálkkat ja dásit leat mielde, de doaibma sáhttá šaddat eksámin, mii sáhttá buktit váivvi dahje ruhttaneami. Mii fokuseret ilolašvuhtii ja ovttas áigodahkii, nu ii leat maidige go sáhtášii muitalit ahte lea báhcán, ja don sáhtát heaitit goas vuordát."
+            },
+            {
+              "q": "Makkár divaideamit leat buorimus?",
+              "a": "Juoga telefovdna, tablehta dahje dihtor mas lea otná nettoheaddjegiella. Tablehta mii lea gáfi lusa bordda bealde lea ofte buorimus vuohki guovttis spiillat čadahuvvon. Láptopa mii lea TV:i lassin lea buorre joavkkuide."
+            },
+            {
+              "q": "Sáhttit go spiillat iežat fámilja govaiguin?",
+              "a": "Jo. Govvaparat ránnjá 2–6 govaid maid válljet, dasa lea mátkeoaivi spiila. Govat gitet dušše du browserii, eai lasihuvvo dahje vurkkiduvvo."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Doaimmat ja fuolahanbargu",
+          "items": [
+            {
+              "q": "Movt guhká doaimma galgá viehkat?",
+              "a": "Dábálaččat 10–20 minuhta lea doarvái, ja muhtumin 2 minuhta lea juo buorre bohtosat. Geahča buohtastahttinmuhtti dahje ballama ja gilde go ain lea buorre. Ii leat rivttes áigodat."
+            },
+            {
+              "q": "Mii jus eai háliid doaimma?",
+              "a": "Doaga biehttalusa ja geahča boahtteáiggis dahje earáláganis. Biehttalus sáhttá boahtit váibmu, geahpedit fuolastusa, ieš eai ádjá dahje dušše ii leat beroš. Geahča min oahppoveahka dasa mii dahkat go sii dadjet ii."
+            },
+            {
+              "q": "Makkár doaimmat heivet maŋimus dási demeanssas?",
+              "a": "Ilo ja aistit: čuovvat iežaset lemppeid musihka, massašit geasi lodjuin, geahččat govaid ovttas, lávet nuoskkavuođa, leat olggobealde dahje spiillat hui álki govaspiila dakkár olbmo ovttas go lea vieris. Mii maŋimus dási gidda oažžut eanet ideain."
+            },
+            {
+              "q": "Leat go doaimmat joavkkuide fuolahanbáikkiin?",
+              "a": "Jo. Govabingo lea printtenkárttat ja govvaoaiddus čállija, ja Loahpahit dadjama ja Gulahallankárttat sáhtet buorrit lohkkojuvvot dadjamis. Min fuolahanbáikki joavkkugiddás čilge joavkkus stuorra, sadjásaga ja heivehusa sihkkardahkan geográfiijaid mat eai leat seammá dásis."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Áivi dearvvašvuohta",
+          "items": [
+            {
+              "q": "Sáhttet go spiillat ehkkidit dahje hehttet demeanssa?",
+              "a": "Ii oktage spiilla leat čájehuvvon ehkkidit demeanssa, ja min spiillat eai dat dadjá. Kognitiiva stimuleren sosiála birrasis lea dutkamiin čájehuvvon unnit ovdáneami olbmuide geain lea nuoskki dahje gaskamearálaš demeanssa, muhto dat lea earálágan go spiilla ehkkidit sáiggis. Mii fállat spiillaid ilolašvuhtii ja oktavuhtii."
+            },
+            {
+              "q": "Sáhttit go demeanssa ehkkidit?",
+              "a": "Ii sihkkarit. Dutkamat sidjet 14 dearvvašvuođa ja eallinvuogi fáktora demeanssa riskkii, nugo gullogolmmoševuohta, álgu ruoktu, dolla dárbbašuvvan dahje sosiála eaktehuvvon. Daid čuovvan sáhttá heaitit riskki muhtin olbmuide, muhto ollu olbmot geat dahket buot rivttes ain šaddet demeanssa. Ii dat leat goassige ieš váivi."
+            },
+            {
+              "q": "Lea go vuodjobuvvon fasten buorre áivi dearvvašvuođii?",
+              "a": "Olmmošlaš dieđut leat unnit ja álggahusat, ja ollu dutkamat leat eallinlávllain. Fasten sáhttá leat váralaš stuoraidda olbmuide, earenoamážit diabehta-lávegiid dahje eaktuhusat ruoktu jus ii dárbbaš, ja ii leat suositeren olbmuide geain lea demeanssa. Gula doaktáriin ovdal go rievdat borramušbeaivvi."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Priváhta ja sihkkarvuohta",
+          "items": [
+            {
+              "q": "Čohkkát go muhtin dieđuid?",
+              "a": "Eai kontut eaige reklámat. Mii geavahit Google Analytics geahččomiid lohkamii ja oažžut oaidnit mat siidut veahkehit, ja du browser muitala jus leat ádjon hiljes ruvdnjaid. Govat maid válljet Govvaparat leat eai lasihuvvo. Geahča priváhtadieđáhusa."
+            },
+            {
+              "q": "Lea go dat dearvvašvuođadárkkistus?",
+              "a": "Ii. Creative Activities lea ilolaš doaimmaide ja oadjebas dieđuide. Dearvvašvuođajearaldagain gula doaktáriin, ja hádjosiid ovddas soahpat 112 dárkkistuvvon."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Eanet dieđut: <a href=\"/caregiving/how-to-play-together/\">movt spiillat ovttas</a>, <a href=\"/caregiving/when-they-say-no/\">go sii dadjet ii</a>, <a href=\"/activities/late-stage/\">maŋimus dási doaimmat</a> ja <a href=\"/brain-health/can-dementia-be-prevented/\">sáhttit go demeanssa ehkkidit?</a>"
+    },
+    "handout": {
+      "title": "Ilmmas ja hellot spiillat olbmuide geain lea demeanssa",
+      "seoTitle": "Printtenloahppa: Ilmmas demeanssaspiillat netas",
+      "description": "Ovtta siidda printtenloahppa fámilijaide ja fuolahiidda ilmmas ja hellot govaspiillaid birra olbmuide geain lea demeanssa, doarjjojoavkkuide ja fuolahanpakkiide.",
+      "crumb": "Printtenloahppa",
+      "lede": "Printte dán siidu doarjjojoavkkus, fuolahanpakkii dahje gilli-árdui. Geavat browserii Printte-doaibma; válddit ja bušaččat eai boahte printtemii.",
+      "introHtml": "<p>Stuora govat, álkes sátnit ja ii leat maidige goas galgá báhcit. Ilmmas telefovdnas, tablehtas dahje dihtoris, ilman kontu, reklámat, áigemihttu ja bálkkat. Gea guovttis ja váldde turnu.</p>",
+      "gamesTitle": "Spiillat maid ovttas geahččat",
+      "restHtml": "<h2>Njeallje neuvvo</h2><ul><li>Vállje áigi beaivis go olmmoš lea buorimus.</li><li>Álggaha álkimus dásis. Njeallje ruhta lea doarvái.</li><li>Gávnna govaid birra. Gaskkaldat lea ofte buorimus oassi.</li><li>Heaitte go dat ain lea hálaid. Vuolgit ovdal lea buorre bohtosat.</li></ul><h2>Eará siiddus</h2><ul><li>Ilmmas printtenmateriálat: stuorrafontta sátnegeaggut, dolkkuvuođat, gulahallankárttat ja govabingo.</li><li>Doaimmaideat buot dásiide, ja njuolga geahččat spiillama ja iežat fuolahemiin.</li></ul><p class=\"muted\">Ilolašvuhtii ja áiggiid ovttas. Ii dat leat dearvvašvuođadoaimmat, testa dahje hoidu. Creative Activities lea almmuhuvvon Cloudjet Solutions Pte. Ltd. bealis.</p>"
+    },
+    "organizations": {
+      "title": "Fuolahanbáikkiide, bibliotehkkaide ja doarjjojoavkkuide",
+      "seoTitle": "Ilmmalaš dementiijadoaimmat fuolahanguovddážiidda ja joavkkuide",
+      "description": "Movt fuolahanguovddážat, beaivedávvi-programmat, bibliotehkat, boarrásiid ortnegat ja doarjjajoavkut geavahit mii ilmmalaš dementiijaspeallu, ja teaksta mii lasihuvvo resursslistii.",
+      "crumb": "Organisašuvnnaide",
+      "lede": "Dat buot mii dán siidduin lea ilmmalaš geavahit olbmuiguin, miellahttuiguin ja klienttaiguin fuolahanguovddážiin, ii oktage kontoa, lisenssa dahje máksu. Dát siidu čilgá, maid dás lea ja movt dan juhkat.",
+      "shortText": "{name}: ilmmalaš, láhkai kuvaspeallut ja doaimmaguoski dementiijain eallit olbmuide ja sin veahkkeolbmuide. Ii sisačállit, ii áigemihttit, ii bálkkit.",
+      "longText": "{name} ({domain}) addá {count} ilmmalaš nettspeallu, mat leat dahkkojuvvon dementiijain eallit olbmuide. Sis leat bilddaparat, gos bilddat vurket čájehuvvojit, álki spiehkasteapmi, sorteren, árrat čilgehusat ja bilddabingo trykkejuvvon kárttaiguin. Ii leat konto, reklámat, áigemihttin dahje bálkkat. Sajis leat maid čálalaš doaimmaguoski dásiid mielde, mat leat čielga giellas ja vuođđuduvvet National Institute on Aging ja Alzheimer's Association gáldduide.",
+      "useTitle": "Mo organisašuvnnat sáhttet geavahit",
+      "gamesItemHtml": "<strong>{count} nettspeallu</strong> mat jolget lieggas, tabletas dahje TV:as mii lea konnektejuvvon dihtoriin. Ii oktage stállen, konto dahje ládjon. Geahča <a href=\"/games/\">buot spealaid</a>.",
+      "printablesLabel": "{count} trykkejeaddji:",
+      "printablesAfter": "Geavat Print-nappi juogaduva siiddus.",
+      "moreItemsHtml": "<li><strong>Joavkkuformáhtat:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> sisttisdoallá trykkejuvvon kárttaid ja ekrána bingo-čuovvuja, ja <a href=\"/activities/trivia/\">álkes trivia</a> sisttisdoallá 50 jearaldaga vástádallamiid ja hámisdoaimmaid.</li><li><strong>Doaimmaguoskit</strong> bargiide ja boarrásiide, dásiid ja láhkai mielde, čálagihtii čálalaččat ja gáldduiguin. Álggat <a href=\"/activities/ideas/\">101 doaimmaideain</a> dahje <a href=\"/activities/care-home-groups/\">joavkkudoaimmaiguin fuolahanguovddážiidda</a>.</li>",
+      "restHtml": "<h2>Movt joavkkut geavahit</h2><ul><li><strong>Fuolahanguovddážat ja muittočuovvu:</strong> bilddabingo dahje sáhka loahppageahppá oasálaččat čuovvun, ovttas guovddáš TV:as, ja okta olmmoš čuoggá joavkui.</li><li><strong>Beaivedávvi-programmat:</strong> tabletstašuvdna Picture pairs-spealain njealji ruvdduin, lyhka ovttaidasaš sessiivdnain.</li><li><strong>Almmolaš bibliotehkat:</strong> printejuvvon sánjegeahčadusat ja sáhkacártat muittosetbohtosis, ja siidu bokšeršuvvo bibliotehka tabletain.</li><li><strong>Veahkkeolbmuid doarjjajoavkut ja memory-kafeat:</strong> <a href=\"/handout/\">okta siidda printejuvvon hándut</a>, maid familiat sáhttet vieđat ruoktot.</li><li><strong>Buozahatguovddážat ja bálvalanplánejeaddjit:</strong> hándut fuolahanbálgáin, nu ahte lea rahčis ja lágiduvvon doaibma ruoktot dahje sengga čuovvu.</li></ul><h2>Maid mii eat dahkat</h2><p>Spealat leat ilolašvuhtii ja oktii áigodahkii. Sii eai diagnoseret, geahčča, bálkkit, hoitte dahje hehtte dementiija, ja mii ceaggat organisašuvnnaid govvidit daid nu. Ii leat reklámat, ja spealat eai gáhtte namaid, dearvvašvuođadetaljaid dahje bilddaid lassot. Websiida geavaha Google Analytics vieruid lohkamii; min <a href=\"/privacy/\">priváhtadieđahus</a> čilgá maid dat čohkká. Bilddat mat geavahuvvojit <a href=\"/games/photo-pairs/\">Photo pairs</a>-spealas, ruhtet nettlohkkis.</p><h2>Lasit midjiid resursslistii</h2><p>Jos don čuoziid resurssaid veahkkeolbmuide, de leat buorre go ságastat <a href=\"/\">{domain}</a>. Sáhtát kopiidit juoga daid čilgehusain.</p>",
+      "shortTitle": "Lyhka čilgehus",
+      "longTitle": "Viidásit čilgehus",
+      "linksHtml": "<p>Hálddahuvvon siiddut mat sáhttet ságastuvvot njuolga: <a href=\"/games/\">ilmmalaš spealat</a>, <a href=\"/activities/printable/\">ilmmalaš trykkejeaddjit</a>, <a href=\"/activities/alzheimers/\">doaimmat Alzheimer-dearvvašvuhtii</a> ja <a href=\"/caregiving/how-to-play-together/\">movt spelat oktan</a>.</p><h2>Jearaldagat dahje korreheapmi</h2><p>Jos siidus lea boahtán dahje čielga eará, dahje fuolahanguovddáža olbmuid dárbbut eai deavdu dás gávnnaduvvon, mii ávžžuhit ahte gávdnat min <a href=\"mailto:{email}\">{email}</a>. Ferte ii sádjit persovnalaš dahje dearvvašvuođadieđuid olbmuin dahje klienttain.</p>"
+    },
+    "app": {
+      "title": "Creative Activities-appa",
+      "seoTitle": "Creative Activities-appa iPhone ja Android-tellefonaide",
+      "description": "Ilmmalaš Creative Activities-appa: láhkai bilddaparagoahtit njealji stuorra ruvdduiguin, familiabilddat dinná telefonas, lihkkus bilddapakkat ja ii oktage konto.",
+      "crumb": "Appa",
+      "lede": "Buot mii don liikot siiddus, appas mii bargá lihkkus ja sáhttá geavahit familiabilddaid mat don válljet.",
+      "worksOn": "Bargá {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Álggu unnán</h2><p>Álggaha njealji stuorra čuvgehusain ja dasa gullevaš govaiguin. Govat sáhttet čuvget oinnolaččat, dahje sáhtát govaid gieđahallat go dat lea buorre. Ii leat áigi, bajuhus dahje hehttehus. Vállje 4, 6, 8 dahje 12 čuvgehusa.</p><h2>Dahkko dan iežat</h2><p>Vállje familiegovat du telefuvnna govaválljejeaddji bokte. Appa ohcá smávva kopiid doaimmaide. App ii skana du govvačoahkkimis eaige rievdat iežat originála govaid, ja dat hálddaša rádjai 24 govvaid ovttá čoahkkimis.</p><h2>Geahččat ovttas</h2><p>Geahččat ovtta govvva áigodagas. Vállje jearaldagat sáhttet hábmat sárdnideami, muhto eai gáibit muitit namaid dahje riekta vástádusa. Dušše geahččan lea doarvi.</p><h2>Offline gos lea dárbu</h2><p>Álggogovat ja buot gávcci govvapakka leat mielddus appas. Eahpe-deaivvadan govvakopiet barget interneta haga. Govat geat leat dušše iCloudas sáhttet dárbbašit interneahta-oktavuođa.</p><h2>Ii dárbbaš konto, ii ge govvasynkkaserveriid</h2><p>Familiegovaid kopiet orrot appa siskkobealde ja dat orru telefovnnas. Sáhtát goalliid oassáiguhttit ilma ahte originálaid áddjot. Vuogádatbackuppat sáhttet sisttisdollat appa dieđuid. Lohke <a href=\"/app-privacy/\">appa priváhtapolitihka</a>, ja <a href=\"/help/\">appa veahki</a> čilget juohke giehta.</p>",
+      "disclaimer": "Creative Activities lea ásahuvvon ealáhahkii ja sárdnideapmái. Dat ii diagnostihkka, ii hoitte, ii ehkkiduva eaige mieđe demeansa dahje Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Bilkkideaddji speallut demeansa ja Alzheimer várás interneahtas",
+    "description": "Bilkkideaddji interneahtaspeallut boarrásiid várás geain lea demenssa dahje Alzheimer: govvamáhccan, álkes puzzlet, sorterema, sáhka, loahpalaš málin ja bingo. Ii gáibit registreremis, áigi dahje bajit.",
+    "crumb": "Speallat",
+    "h1": "Hilgosat speallat olbmuide geain lea demenssa",
+    "lede": "{count} bilkkideaddji speallu maid sáhtát spelat ovttas du selainis. Stuorra govat, čielga sátnit ja ii leat mihkkege mii sáhttá boahtit váillui: ii áigi, ii bajit, ii registreren.",
+    "listName": "Hilgosat speallat olbmuide geain lea demenssa",
+    "byStageTitle": "Speallu vállje dási mielde",
+    "byStageLede": "Dásit leat dušše ovddasteaddji veahki. Čuovo dan mii olbmui lea mielddus ja mii dál lea buorre.",
+    "stageCol": "Dási",
+    "gamesCol": "Speallat maid dávjá sáhttet hilbbat",
+    "moreHtml": "Eanet ideat skearmma olggobealde: <a href=\"/activities/ideas/\">101 doaimma olbmuide geain lea demenssa</a>, <a href=\"/activities/alzheimers/\">doaimmat ja speallat Alzheimer várás</a>, <a href=\"/activities/memory-games/\">hilgosat muittuspeallat</a> ja <a href=\"/activities/puzzles/\">puzzlet</a>.",
+    "faq": [
+      {
+        "q": "Makkár speallu galggašii álggahit?",
+        "a": "Govvaparat njealji čuvgehusain leat rahpat vuolggasaš vállje. Jos govvaid gaskkas válljen lea liige, geahča Gávnne seammá guovtti govvain. Joavkku várás geahča Govvabingo."
+      },
+      {
+        "q": "Barget go speallat iPadas dahje telefovnnas?",
+        "a": "Joo. Juohke speallu bargá selainis telefovnain, tablettain ja dieđuid ráddjin, ja govat stuorrát ollesttá skearmma. Tablet stáhtta ektui lea ofte buoremus guovttiin."
+      },
+      {
+        "q": "Leatgo dát speallat buorit olbmui geain lea Alzheimer?",
+        "a": "Joo. Dat leat hábmejuvvon olbmuide geain eallit demenssain, Alzheimer mielde, mii lea oftimus sivva. Govat čájehuvvojit joatkkas, leat dušše muhtin vállji, ja ii leat áigi dahje bajuhus, nu ahte speallat leat vuolggahuvvon dovddahan dan mii lea dovdomeahttun go ođđa muitit."
+      },
+      {
+        "q": "Leatgo dát muittuspeallat boarrásiid várás?",
+        "a": "Dat leat govvaparat ja govvaspeallat maid buot boarrásat olbmot sáhttet ilolaš, muhto dat leat hábmejuvvon ii-testet muittu: Govvaparain govat čuvget oppa jus it vállje nuppástuhttit. Min gaskkaoahpahus muittuspeallaide boarrásiid várás, geas lea demenssa, čilge movt pidjat juohke muittuspeallu hilgosan."
+      },
+      {
+        "q": "Leat go speallat joavkkuide hoivadiggis?",
+        "a": "Joo. Govvabingos leat trykkejuvvon kárttat ja skearmma bingovuoruhussa, ja Loahpat sáhka ja Sárdnidankártat leat buorit lohkat joavkku ovddas."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad ja Android",
+    "requirements": "iOS 15 dahje ođđasit; Android 7.0 dahje ođđasit",
+    "summary": "Bilkkideaddji app iPhone, iPad ja Android várás, mas leat hilgosat govvamáhccanat njealji–guđa stuorra čuvgehusain, govvamáhccan ja geahččan du válljen familiegovaiguin, ja gávcci govvapakka mat barget ilman interneta. Ii gáibit konto, reklámat, áigi dahje bajuhusa.",
+    "features": [
+      "Hilgosat govvamáhccan 4, 6, 8 dahje 12 stuorra čuvgehusain; govat čuvget oinnolaččat jos it vállje gieđahallat",
+      "Válljejuvvon familiegovat kopiejuvvojit appa siskkobealde govvamáhccanii ja ovttas geahččamii",
+      "Geahččat ovttas: ovtta govva áigodagas, valikkaš sárdnideapmiin",
+      "Gávcci govvapakka leat mielddus appas; barget offline",
+      "Ii konto, reklámat, sisaosta, áigi, bajuhus dahje hehttehus"
+    ],
+    "faq": [
+      {
+        "q": "Lea go demenssa doaimmaid app?",
+        "a": "Joo. Creative Activities (listejuvvon namain \"{storeName}\") lea bilkkideaddji App Storas ja Google Playis. Dat addá hilgosa govvamáhccama stuorra čuvgehusain, speallu du válljen familiegovaiguin ja govvapakkaid mat barget offline."
+      },
+      {
+        "q": "Lea go Creative Activities app bilkkideaddji?",
+        "a": "Joo. Dat lea bilkkideaddji nuppástuhttit, ii leat reklámat, konto dahje sisaosta."
+      },
+      {
+        "q": "Bargá go app ilman interneta?",
+        "a": "Joo. Álggogovat ja buot gávcci govvapakka leat mielddus appas, ja familiegovat barget offline go leat kopiejuvvon appa siskkobealde. Govva mii lea dušše iCloudas sáhttá dárbbašit interneta-oktavuođa."
+      },
+      {
+        "q": "Sáhtán geavahit iežan familiegovaid?",
+        "a": "Jo. Vállje govvagiid telefovnna govvavállejeaddji bokte. Appa hállá unnit govvaid doaimmaide iežas áhpái, ii sáddde daid ja ii rievdat originála govvagiid. Don sáhtát goassege sihkkarastit daid."
+      },
+      {
+        "q": "Lea go dát muittu-testa dahje áivvu treananáppa?",
+        "a": "Ii. Creative Activities lea ilolašvuhtii ja oktii áigodahkii. Dat ii addde buresbirgejumi dahje testa, ja dat ii diagnostiserege, ii hoito, ii ehkke eaige mihtit dementiija dahje Alzheimer-sáiggi."
+      },
+      {
+        "q": "Makkár mašiidnain dat bargá?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Lea go dán speallamis áppaverzuvdna?",
+      "a": "Jo. Ilmmas Creative Activities -áppas iPhone, iPad ja Android várás lea seamma bearrasaš govvaspeallan, sáhttá geavahit don válljen bearraga govvaid ja bargá Wi‑Fi haga. Ii dárbbašan kontu, reklámaid dahje bálkká."
+    },
+    "gameFaqNo": {
+      "q": "Lea go dán speallamis áppaverzuvdna?",
+      "a": "Ii dán speallamis. Ilmmas Creative Activities -áppas iPhone, iPad ja Android várás lea bearrasaš govvaspeallan stuorra geahpedemiin ja don válljen bearaš govviin, ja dat bargá Wi‑Fi haga. Dát speallan lea ilmmas dáppe, du selainis."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: stuorit, bearrasaččat govvat",
+    "noscript": "Dán speallamii dárbbašat JavaScript čuvvojuvvon selainis. Vuolábealde oanehis reivvet barget maŋŋá dan.",
+    "about": "Birra {name}",
+    "aboutAria": "Birra dán speallamis",
+    "noTimer": "Ii leat áigemihtta dahje bálkká",
+    "printable": "Printtejuvvon",
+    "howTo": "Movt speallat {name}",
+    "tips": "Reivvet oktii speallamii",
+    "newToPlayingHtml": "Ii leat ovdal speallan olbmo geasa lea dementiija? Lohke <a href=\"/caregiving/how-to-play-together/\">movt speallat oktii</a>, mas leat maid dat, mii dáhpáhuvvá jos sii eai šat beroš.",
+    "moreAria": "Eanet galgat gávnnahit",
+    "helpfulGuides": "Veahkkeguovdit",
+    "appTitle": "Speallat dan áppas",
+    "appText": "Ilmmas Creative Activities -áppas lea bearrasaš govvaspeallan stuorra geahpedemiin ja don iežat bearaš govviin, ja dat bargá Wi‑Fi haga. iPhone, iPad ja Android.",
+    "photoAppTitle": "Pieđe govvat válmmas",
+    "photoAppText": "Ilmmas Creative Activities -áppas govvat, maid válljet, sihkkarastojuvvojit du mašiinnas boahtteáigái, ja speallamat bargot Wi‑Fi haga. iPhone, iPad ja Android.",
+    "goodToKnow": "Dárbbašlaš diehtit",
+    "goodToKnowText": "Dát speallan lea ilolašvuhtii ja oktii áigodahkii. Dat ii testa, ii mihtit eaige hoito maidige.",
+    "moreGames": "Eanet bearrasaš speallamat",
+    "crumb": "Speallamat"
+  }
+}

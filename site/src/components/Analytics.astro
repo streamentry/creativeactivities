@@ -1,0 +1,19 @@
+---
+/**
+ * Google Tag Manager container, requested by the maintainer on 2026-11-13
+ * (replaces the direct GA4 gtag.js tag). The loader is allowed by the CSP in
+ * astro.config.mjs and public/_headers; the setup runs as a bundled script so
+ * the hash-based CSP needs no change. Configure GA4 inside the container with
+ * Google signals and ad personalization off: this is a health-adjacent site,
+ * so visits must not feed advertising profiles. Not rendered on Photo pairs,
+ * which keeps a no-third-party policy for family photos.
+ */
+import { SITE } from '../lib/site';
+---
+<script is:inline async src={`https://www.googletagmanager.com/gtm.js?id=${SITE.gtmContainerId}`}></script>
+<script>
+  const w = window as unknown as { dataLayer: unknown[] };
+  w.dataLayer = w.dataLayer || [];
+  // gtm.js starts the container once it sees this event.
+  w.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+</script>

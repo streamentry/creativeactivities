@@ -1,0 +1,190 @@
+---
+import { ui } from '../i18n/ui';
+
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props;
+const t = ui(lang);
+---
+<div class="text-size" role="group" aria-label={t.common.textSize.label} data-text-size>
+  <button type="button" class="text-size__btn" data-size="standard" aria-pressed="true" aria-label={t.common.textSize.smaller} title={t.common.textSize.smaller}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M2.5 19 7.5 8l5 11M4.2 15.2h6.6" />
+    </svg>
+  </button>
+  <button type="button" class="text-size__btn" data-size="large" aria-pressed="false" aria-label={t.common.textSize.larger} title={t.common.textSize.larger}>
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M1 21 9.5 2l8.5 19M3.8 14.5h11.4" />
+    </svg>
+  </button>
+  <button type="button" class="text-size__btn text-size__btn--label" data-contrast-toggle aria-pressed="false">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="9" />
+      <path class="text-size__fill" d="M12 3a9 9 0 0 1 0 18Z" />
+    </svg>
+    <span>{t.common.textSize.contrast}</span>
+  </button>
+</div>
+
+<script>
+  // Per-viewer convenience only: the choice lives in this browser. Every read
+  // and write is guarded, so the site works with storage blocked.
+  const KEY = 'gm-text-size';
+  const root = document.documentElement;
+
+  function apply(size: 'standard' | 'large') {
+    if (size === 'large') root.dataset.textSize = 'large';
+    else delete root.dataset.textSize;
+    document.querySelectorAll<HTMLButtonElement>('[data-text-size] [data-size]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.size === size));
+    });
+  }
+
+  function saved(): 'standard' | 'large' {
+    try {
+      return localStorage.getItem(KEY) === 'large' ? 'large' : 'standard';
+    } catch {
+      return 'standard';
+    }
+  }
+
+  function remember(size: string) {
+    try {
+      localStorage.setItem(KEY, size);
+    } catch {
+      /* storage blocked: the choice lasts for this page only */
+    }
+  }
+
+  // Higher contrast deepens the gold used for text and links (6.3:1 to 8.7:1).
+  const CONTRAST_KEY = 'gm-contrast';
+  function contrastSaved(): boolean {
+    try {
+      return localStorage.getItem(CONTRAST_KEY) === 'high';
+    } catch {
+      return false;
+    }
+  }
+  function applyContrast(high: boolean) {
+    if (high) root.dataset.contrast = 'high';
+    else delete root.dataset.contrast;
+    document.querySelectorAll<HTMLButtonElement>('[data-contrast-toggle]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(high));
+    });
+  }
+  document.querySelectorAll<HTMLButtonElement>('[data-contrast-toggle]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const high = root.dataset.contrast !== 'high';
+      try {
+        localStorage.setItem(CONTRAST_KEY, high ? 'high' : 'standard');
+      } catch {
+        /* storage blocked: the choice lasts for this page only */
+      }
+      applyContrast(high);
+    });
+  });
+  applyContrast(contrastSaved());
+
+  apply(saved());
+  document.querySelectorAll<HTMLButtonElement>('[data-text-size] [data-size]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const size = b.dataset.size === 'large' ? 'large' : 'standard';
+      remember(size);
+      apply(size);
+    });
+  });
+</script>
+
+<style>
+  .text-size {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+  .text-size__btn {
+    display: inline-grid;
+    place-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-full);
+    background: var(--gm-surface-raised);
+    color: var(--gm-on-surface);
+    cursor: pointer;
+  }
+  .text-size__btn svg {
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2.25;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  /* The labelled toggle is a pill that grows with its words, never a circle. */
+  .text-size__btn--label {
+    display: inline-flex;
+    gap: var(--space-sm);
+    width: auto;
+    min-width: 48px;
+    height: auto;
+    min-height: 48px;
+    padding: var(--space-xs) var(--space-md) var(--space-xs) var(--space-sm);
+    font: inherit;
+    font-size: var(--text-sm);
+    line-height: var(--leading-tight);
+    text-align: start;
+  }
+  .text-size__btn--label svg {
+    flex: none;
+  }
+  .text-size__btn .text-size__fill {
+    fill: currentColor;
+    stroke: none;
+  }
+  .text-size__btn[aria-pressed='true'] {
+    border-color: var(--gm-on-surface);
+    box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+  }
+  .text-size__btn:hover {
+    border-color: var(--gm-primary);
+    background: var(--gm-primary-container);
+  }
+  .text-size__btn:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+    border-radius: var(--radius-full);
+  }
+  @media (prefers-contrast: more) {
+    .text-size__btn {
+      border: 2px solid #000000;
+    }
+    .text-size__btn:hover {
+      border: 3px solid #000000;
+    }
+    .text-size__btn[aria-pressed='true'] {
+      border: 4px solid #000000;
+      background: #FFFFFF;
+    }
+  }
+  @media (forced-colors: active) {
+    .text-size__btn {
+      border: 2px solid ButtonText;
+    }
+    .text-size__btn:hover {
+      border-color: Highlight;
+      color: Highlight;
+    }
+    .text-size__btn:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 2px;
+    }
+    .text-size__btn[aria-pressed='true'] {
+      border-color: Highlight;
+      outline: 2px solid Highlight;
+    }
+  }
+</style>

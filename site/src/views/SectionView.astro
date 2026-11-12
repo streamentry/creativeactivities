@@ -1,0 +1,330 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GuideCard from '../components/GuideCard.astro';
+import HealthNotice from '../components/HealthNotice.astro';
+import AppCta from '../components/AppCta.astro';
+import PlayCta from '../components/PlayCta.astro';
+import { absoluteUrl, type SectionKey } from '../lib/site';
+import { breadcrumbs } from '../lib/schema';
+import { localePath } from '../i18n/locales';
+import { sectionGuides } from '../i18n/guides';
+import { PUBLISHED, ui } from '../i18n/ui';
+
+interface Props {
+  section: SectionKey;
+  lang: string;
+}
+const { section, lang } = Astro.props;
+const t = ui(lang);
+const meta = t.sections[section];
+const href = (g: { lang: string; id: string }) => localePath(g.lang, `/${g.id}/`);
+const entries = await sectionGuides(lang, section);
+const enableGuideSearch = lang === 'en' && entries.length >= 20 && (section === 'activities' || section === 'caregiving');
+const guideSearchLabel = section === 'activities' ? 'Search activity guides' : 'Search caregiving guides';
+const guideSearchText = (g: (typeof entries)[number]) => [
+  g.entry.data.title,
+  g.entry.data.description,
+  g.entry.data.summary,
+  ...(g.entry.data.keyPoints ?? []),
+].join(' ');
+const crumbs = [{ href: localePath(lang, `/${section}/`), label: meta.label }];
+const [lead, ...rest] = entries;
+const itemList = {
+  '@type': 'ItemList',
+  name: meta.title,
+  itemListElement: entries.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: absoluteUrl(href(g)), name: g.entry.data.title })),
+};
+---
+<BaseLayout title={meta.seo} description={meta.description} jsonLd={[breadcrumbs(crumbs, lang), itemList]} available={PUBLISHED.map((p) => p.code)}>
+  <Breadcrumbs items={crumbs} lang={lang} />
+  <div class="container">
+    <header class="page-head">
+      <h1>{meta.title}</h1>
+      <p class="lede">{meta.lede}</p>
+    </header>
+    {section === 'brain-health' && <div class="narrow"><HealthNotice lang={lang} /></div>}
+    {
+      section === 'caregiving' && lang === 'en' && (
+        <p class="today-link">
+          Need help with one hard moment right now? <a href={localePath(lang, '/today/')}>Choose what is hardest today</a> for three things to
+          try and private notes you can print.
+        </p>
+      )
+    }
+    {
+      enableGuideSearch && (
+        <section class="guide-search" role="search" aria-labelledby="guide-search-label" data-guide-search hidden>
+          <label class="guide-search__label" id="guide-search-label" for="guide-search-input">{guideSearchLabel}</label>
+          <input
+            id="guide-search-input"
+            type="search"
+            aria-controls="guide-index-results"
+            aria-describedby="guide-search-help"
+            autocomplete="off"
+            data-guide-search-input
+          />
+          <p class="guide-search__help" id="guide-search-help">Search guide titles, summaries and key ideas.</p>
+          <p class="guide-search__status" data-guide-search-status role="status" aria-live="polite" aria-atomic="true"></p>
+        </section>
+      )
+    }
+    <div class="guide-index-results" id="guide-index-results">
+      {
+        lead && (
+          <a class="lead-guide" href={href(lead)} lang={lead.lang !== lang ? 'en' : undefined} data-guide-search-item={enableGuideSearch ? '' : undefined} data-search-text={enableGuideSearch ? guideSearchText(lead) : undefined}>
+            <span class="eyebrow">{t.guide.startHere}</span>
+            <span class="lead-guide__title">{lead.entry.data.title}</span>
+            <span class="lead-guide__text">{lead.entry.data.summary}</span>
+            <span class="card__more">{t.cards.readGuide} →</span>
+          </a>
+        )
+      }
+      <ul class="card-grid">
+        {rest.map((g) => <li data-guide-search-item={enableGuideSearch ? '' : undefined} data-search-text={enableGuideSearch ? guideSearchText(g) : undefined}><GuideCard href={href(g)} title={g.entry.data.title} text={g.entry.data.description} headingLevel="h2" lang={lang} /></li>)}
+      </ul>
+    </div>
+    <PlayCta lang={lang} />
+    <AppCta placement="section" lang={lang} />
+  </div>
+</BaseLayout>
+
+<script>
+  import { matchesGuideSearch } from '../lib/guide-search';
+
+  const search = document.querySelector<HTMLElement>('[data-guide-search]');
+  const input = search?.querySelector<HTMLInputElement>('[data-guide-search-input]');
+  const status = search?.querySelector<HTMLElement>('[data-guide-search-status]');
+  const items = Array.from(document.querySelectorAll<HTMLElement>('#guide-index-results [data-guide-search-item]'));
+
+  if (search && input && status && items.length > 0) {
+    search.hidden = false;
+    input.addEventListener('input', () => {
+      const query = input.value;
+      let visibleCount = 0;
+
+      for (const item of items) {
+        const matches = matchesGuideSearch(item.dataset.searchText ?? '', query);
+        item.hidden = !matches;
+        if (matches) visibleCount += 1;
+      }
+
+      status.textContent = query.trim()
+        ? visibleCount === 0
+          ? 'No guides found. Try a different word.'
+          : `${visibleCount} ${visibleCount === 1 ? 'guide' : 'guides'} found.`
+        : '';
+    });
+  }
+</script>
+
+<style>
+  .guide-search {
+    max-width: var(--content-max);
+    margin-bottom: var(--space-xl);
+  }
+  .guide-search__label {
+    display: block;
+    margin-bottom: var(--space-sm);
+    color: var(--gm-on-surface);
+    font-size: var(--text-md);
+    font-weight: 700;
+  }
+  .guide-search input {
+    display: block;
+    width: 100%;
+    min-height: var(--target-primary);
+    padding: 12px var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    background: var(--gm-surface-raised);
+    color: var(--gm-on-surface);
+    font-size: var(--text-lg);
+  }
+  .guide-search input:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 3px;
+    border-radius: var(--radius-md);
+  }
+  .guide-search__help,
+  .guide-search__status {
+    margin: var(--space-sm) 0 0;
+    color: var(--gm-on-surface-variant);
+    font-size: var(--text-sm);
+  }
+  .guide-search__status:empty {
+    display: none;
+  }
+  .guide-index-results [hidden] {
+    display: none !important;
+  }
+  .today-link {
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-lg);
+  }
+  .today-link a {
+    font-weight: 700;
+    color: var(--gm-primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .today-link a:hover {
+    color: var(--gm-on-surface);
+  }
+  .today-link a:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+  .lead-guide {
+    overflow-wrap: anywhere;
+    display: grid;
+    gap: var(--space-sm);
+    padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
+    margin-bottom: var(--space-xl);
+    border-radius: var(--radius-xl);
+    background: var(--gm-print-white);
+    border: 1px solid var(--gm-surface-sunken);
+    box-shadow: var(--shadow-raised);
+    color: var(--gm-on-surface);
+    text-decoration: none;
+    transition:
+      transform var(--duration-normal) var(--ease-out),
+      box-shadow var(--duration-normal) ease,
+      border-color var(--duration-fast) ease;
+  }
+  .lead-guide:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-print);
+    border-color: var(--gm-primary);
+    color: var(--gm-on-surface);
+  }
+  .lead-guide:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 4px;
+    border-radius: var(--radius-xl);
+  }
+  .lead-guide__title {
+    font-size: var(--text-h2);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .lead-guide__text {
+    font-size: var(--text-lg);
+    color: var(--gm-on-surface-variant);
+    max-width: 46em;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .lead-guide,
+    .lead-guide:hover {
+      transform: none !important;
+      transition: none !important;
+    }
+  }
+  @media (prefers-contrast: more) {
+    .guide-search__label,
+    .guide-search__help,
+    .guide-search__status {
+      color: #000000;
+    }
+    .guide-search input {
+      border: 2px solid #000000;
+      background: #FFFFFF;
+      color: #000000;
+    }
+    .guide-search input:focus-visible {
+      outline: 4px solid #000000;
+      outline-offset: 3px;
+    }
+    .lead-guide {
+      border: 2px solid #000000;
+      background: #FFFFFF;
+    }
+    .lead-guide:hover {
+      border: 3px solid #000000;
+    }
+    .lead-guide:focus-visible {
+      outline: 4px solid #000000;
+      outline-offset: 4px;
+      border-radius: var(--radius-xl);
+    }
+    .lead-guide__title,
+    .lead-guide__text {
+      color: #000000;
+    }
+    .lead-guide :global(.card__more) {
+      color: #000000;
+      font-weight: 800;
+    }
+    .today-link a {
+      color: #000000;
+      font-weight: 800;
+      text-decoration-thickness: 2px;
+    }
+    .today-link a:hover {
+      text-decoration-thickness: 3px;
+    }
+    .today-link a:focus-visible {
+      outline: 3px solid #000000;
+      outline-offset: 2px;
+    }
+  }
+  @media (forced-colors: active) {
+    .guide-search__label,
+    .guide-search__help,
+    .guide-search__status {
+      color: CanvasText;
+    }
+    .guide-search input {
+      border: 2px solid FieldText;
+      background: Field;
+      color: FieldText;
+    }
+    .guide-search input:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 3px;
+    }
+    .lead-guide {
+      border: 2px solid CanvasText;
+    }
+    .lead-guide:hover {
+      border-color: Highlight;
+    }
+    .lead-guide:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 4px;
+      border-radius: var(--radius-xl);
+    }
+    .lead-guide__title,
+    .lead-guide__text {
+      color: CanvasText;
+    }
+    .lead-guide :global(.card__more) {
+      color: LinkText;
+    }
+    .today-link a {
+      color: LinkText;
+    }
+    .today-link a:hover {
+      color: Highlight;
+    }
+    .today-link a:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 2px;
+    }
+  }
+  @media print {
+    .guide-search {
+      display: none !important;
+    }
+    .lead-guide {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      box-shadow: none;
+      border: 1px solid var(--gm-outline);
+    }
+    .today-link {
+      display: none !important;
+    }
+  }
+</style>

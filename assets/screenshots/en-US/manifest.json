@@ -1,0 +1,305 @@
+{
+ "candidate": "1.3.0+6 source with the album library and family-photo prints (after PRs #70-#77)",
+ "base_commit": "b9e681cc78c3722adb9399c5e90d3d257dd29226",
+ "runtime_changes": [
+  "Debug banner hidden by integration_test/store_screens_test.dart (WidgetsApp.debugAllowBannerOverride = false); no app code changed for capture"
+ ],
+ "ios_runtime": "26.5 simulator",
+ "devices": {
+  "iphone": "iPhone17ProMax,1320x2868",
+  "ipad": "iPadPro13-inchM5,2064x2752",
+  "android": "Pixel 7 emulator (Android 16, google_apis arm64), 1080x2400; Play frames 1440x2560"
+ },
+ "capture_appearance": "Status bar set with simctl status_bar (9:41, Wi-Fi, full battery). Debug banner suppressed in capture only; release omits it by default. No app UI was synthesized or edited.",
+ "composition": "scripts/compose_store_screens.py places each unchanged native capture inside the approved build 6 frame (generated backdrop, headline, supporting text, bezel), clipped to the bezel's rounded screen.",
+ "synthetic_content": "Teacup and yellow flowers (art/); no private family photos or people. Placed by integration_test/store_screens_test.dart through the app's own normalize-and-store import steps on both devices. originals/iphone/native-picker.png (fce00d7) and originals/ipad/native-picker.png (build 6) are earlier proofs that the same demo photos go through the real system picker.",
+ "capture_tools": [
+  "Both devices: scripts/capture_store_screens.sh with integration_test/store_screens_test.dart (status bar cleared and set with simctl status_bar before capture)",
+  "Google Play: scripts/capture_play_screens.sh with the same integration_test/store_screens_test.dart on the Android emulator (status bar set with System UI demo mode), then scripts/compose_play_screens.py builds the 9:16 frames from the same backdrop, copy and Roboto type"
+ ],
+ "files": [
+  {
+   "path": "assets/screenshots/en-US/art/demo-flowers.png",
+   "bytes": 2274226,
+   "sha256": "e3950b768c0734423529537826fbe615f8eeb3039190e58bbd4b356661fdeb0f"
+  },
+  {
+   "path": "assets/screenshots/en-US/art/demo-teacup.png",
+   "bytes": 2134033,
+   "sha256": "cef62bdac4619fcfcfe4d7627409a61a6abed46c7cdaee4a200d4a55050c44be"
+  },
+  {
+   "path": "assets/screenshots/en-US/art/parchment-backdrop.png",
+   "bytes": 2087359,
+   "sha256": "156d72dbaf77c51b3d6042aa4b18cd0deb301148ba9f31f0851bc3981df000cf"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/01.jpg",
+   "bytes": 378358,
+   "sha256": "0ff39d905909e62d0bac81630e3f8aafd032ecbb311c066288d8276be539589b"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/02.jpg",
+   "bytes": 607740,
+   "sha256": "89ca53fdb2564f23215ccb1329b8ae9668331564ebff4282dd9a036d54f23e95"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/03.jpg",
+   "bytes": 378906,
+   "sha256": "f483b58331d5283c696879fed3af58ec12758dc0fef724983c1c9a91ff47411c"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/04.jpg",
+   "bytes": 505487,
+   "sha256": "18ffee6c79c3f5ef777528da015254ee3ddb24bc9ca7bf4786de36ed600fdbb4"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/05.jpg",
+   "bytes": 404735,
+   "sha256": "a8af164e97e5cf553ee790bec3f64b6ac3c44db0828c6ec60491baeaf171d5a0"
+  },
+  {
+   "path": "assets/screenshots/en-US/ipad/06.jpg",
+   "bytes": 580332,
+   "sha256": "edc7e8ca8abc1eda2ee522f7d31b21abd5c44d8ed3f70efdbcc25095005e6530"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/01.jpg",
+   "bytes": 332077,
+   "sha256": "d8f3c24d95475020ae01c632033edbbfbd1ba18e81d044bb593b0abbcd32365a"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/02.jpg",
+   "bytes": 489525,
+   "sha256": "54a08fb827bb1450ac31542c72a7efcbaa09cb88f8b1308df61f736b33675253"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/03.jpg",
+   "bytes": 337419,
+   "sha256": "447a6cc8083b2b240e07a2e69fe0549aa0952aa88cf3d34b755e6491d84c0ed4"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/04.jpg",
+   "bytes": 436782,
+   "sha256": "cde086f54e3a9fb37bc8fe77bbf4e248dc278c64c7c7111e513764cae0246c25"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/05.jpg",
+   "bytes": 363086,
+   "sha256": "d61d0f4eaba329703199fd5c6dc6e8a08719aa411c8252e7db805f0707e8aadc"
+  },
+  {
+   "path": "assets/screenshots/en-US/iphone/06.jpg",
+   "bytes": 472458,
+   "sha256": "746abec75e25e76131db24c63623af1170757b1d409b77c389a83eb0b3065040"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/01.png",
+   "bytes": 187821,
+   "sha256": "35d944fb994750323f0bcb2d7a01a230b83e95b548223be76193cad60b3c9d17"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/02.png",
+   "bytes": 3102950,
+   "sha256": "7385b2c3a2c0dde8078c7ce85cdc67e3ab3e02baea043bd8859b9fd724efc56a"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/03.png",
+   "bytes": 195093,
+   "sha256": "6acbaa25b10eafbadc4d3fca0be4e8b0d1cb8c842a14769964840ece27c24951"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/04.png",
+   "bytes": 2410856,
+   "sha256": "00bb0a65a992241c16140fdb0b03d3a20e848058c55095e1ba12079129aa9c5e"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/05.png",
+   "bytes": 261409,
+   "sha256": "5c84088a41d39d69b2efe68f15dda6b711d893b21803effe523faeb1448bbbb6"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/06.png",
+   "bytes": 1827672,
+   "sha256": "3ee0d8a55b50eb00a87622aa0291049044a60afa044575f4f1e22c15286d51bb"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/ipad/native-picker.png",
+   "bytes": 1164631,
+   "sha256": "48b793892362cf8f7d304ed1c303a006111a7044a4233afc8e02375acc2f17a0"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/01.png",
+   "bytes": 169535,
+   "sha256": "e1d2a75c963f1d80ca21d86998ff9a9cd9d39976baf27b80d74ad05c11cc85cf"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/02.png",
+   "bytes": 2272929,
+   "sha256": "58a71873b8386e3e2db7cec2ad1d7e53872e4c494abc80b7a92c331df976aabb"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/03.png",
+   "bytes": 180943,
+   "sha256": "b271d99524e37e907e444b60c45f0595cb14c867399be040a35d9307d5d8328b"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/04.png",
+   "bytes": 1913741,
+   "sha256": "80948674cfd7e50664c6e7d0079364f6753c6f73b84aacbbf18a9be7772cb851"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/05.png",
+   "bytes": 252313,
+   "sha256": "774242d5a78375080a5a4acee36064b59a898a3554a42e0ab1284daf69b21fbd"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/06.png",
+   "bytes": 1976463,
+   "sha256": "afddcb34578a9fe5cd630bdc0df674fb3fa69c09ec00c98f679cec25b2455ca3"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/iphone/native-picker.png",
+   "bytes": 3833702,
+   "sha256": "99d1b59269f6216ac66bd2258b5cbd4833a7a5aaa701de6de6d01597e62624b7"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/01.png",
+   "bytes": 82857,
+   "sha256": "d8b1f70a49c7a2eac1769c40d1a879228cb7fd75cb0522fe25e5ee17d70ab8c2"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/02.png",
+   "bytes": 1390921,
+   "sha256": "3a47dc92c5cce2773beaf7767d80348eeb614a242952eaa5898b508d5d1bd2c5"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/03.png",
+   "bytes": 91478,
+   "sha256": "201582c5052023fe50cbfc2bf503791ded38e697698b6310027a468cf0b49060"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/04.png",
+   "bytes": 1224909,
+   "sha256": "47c9cc2fff3fcd14860be52cfc1d271823c4e3ce39857db35493f51431725e73"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/05.png",
+   "bytes": 154520,
+   "sha256": "564fb74a696ffafdaf22d41f36a5de7179a5ef117bbe5e2bc28631aae45b3d57"
+  },
+  {
+   "path": "assets/screenshots/en-US/originals/android/06.png",
+   "bytes": 1028547,
+   "sha256": "33af5edea85d15b100b21af9aa515c87ca2f775eb6db0a9c389fe3008a10cdbe"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/01.jpg",
+   "bytes": 399873,
+   "sha256": "2aa69bce5ef86d9c0a0df81c6205950c09eb3fe5b406422c3c4ef43a72cb172b"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/02.jpg",
+   "bytes": 518491,
+   "sha256": "8fa550a92c8488f8dbff0b772dee272290df8b13e9076e537d864ab4438f82a6"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/03.jpg",
+   "bytes": 402565,
+   "sha256": "ff8f5afd201326df82ad00b3ad5a9e71aa2fbdc45782dfe649dc19cf8d64a0ea"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/04.jpg",
+   "bytes": 489791,
+   "sha256": "a65cd7e7d45ca6675890159b167f47642953ca0121e208ed2b8d4ce3b6b7116d"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/05.jpg",
+   "bytes": 426390,
+   "sha256": "ed7c6c7520d8ea183eb1472546fa558c14405a84f45341c8e08cb15b5849cb60"
+  },
+  {
+   "path": "assets/screenshots/en-US/android/06.jpg",
+   "bytes": 493346,
+   "sha256": "7b229ee4fdf8a5cbaf67e915b863216e3985375fa4974ff571bf9d010e9da496"
+  }
+ ],
+ "runtime_source_sha256": {
+  "lib/app/app.dart": "49dfaf053a2a0cda8b933277ecfbcddae996c263b79514269371eeffd62f2010",
+  "lib/app/view/app.dart": "aca61cdbedb0dbfebc3cb71e5068d5e1193050cab733f9bdb58656a2e996c841",
+  "lib/app/view/main_navigation.dart": "7407292cf1f34678c42a464e7a6f6f64f40a641fb6e0a1ebeeb702c58ab594d4",
+  "lib/app/view/platform_home.dart": "9db5dad73e260c7bb1af36331e3668d2d1c6b6f1eab0bf1edb0fb38bbee53e8e",
+  "lib/app/view/platform_home_native.dart": "fc09bc6e32f95f8cbcd8cca944d6ef6b18357ba45ab197f221c1c3824e2d6253",
+  "lib/app/view/platform_home_web.dart": "514c9144dff5a929d039bb24d303f484821d8818496d891222e61047258f9bfa",
+  "lib/bootstrap.dart": "a00c309a9cf5234de1fd96551dc7c75d348a44c603b02cdeb85e4ce01a410cd8",
+  "lib/data/models/category.dart": "c915cd208192dfbe6f4797e92187a38d0a5ec045fb290d11f7bee3b31a7fe316",
+  "lib/data/models/download_error.dart": "9f37a78ed77f50cffd477ce586c2d2846f8fb60a7095c9cd26e55118fc5f6180",
+  "lib/data/models/download_progress.dart": "6b9872a34040f2f4d52a7389f1fc370d4e73d9a5e19c7d89c0358cfcfb3890fa",
+  "lib/data/models/image.dart": "70654db15f4ff2fe58db21439babe7f6ebafa816fa5e97552b10d75a90445053",
+  "lib/data/models/pack.dart": "0ce576668de485b699a2f6f22ef4f32a04656b1da7e67af7230867b5e03d7593",
+  "lib/data/models/packs_index.dart": "64d703c64285cc893ba9bc27ad1dc85a6fbe99cdeefa170c9116e2697d1da53a",
+  "lib/data/models/sound_setting.dart": "d9e3919516d3c9adc11dadeb98c749e6abb471fc5af90a7303488b6f188bc6df",
+  "lib/data/services/local_pack_service.dart": "d2215a3853768c93b471038d324a3ece465b8b23934caea0d8bf41a6f9f848a4",
+  "lib/data/services/sound_service.dart": "8382d507d6e5e27b74009efec90e65a3bd6516044b8a741589a2d612dea51ffc",
+  "lib/design_system.dart": "fc58046dd77eb8f6b3442994764d76adc510a06aa9990b5de0fe2b7ab3a16712",
+  "lib/features/category/presentation/screens/category_page.dart": "1e16c83a4da435ea79cac097202d356aaf1ade190f0937c6508bf45be51a8d1c",
+  "lib/features/game/cubit/game_cubit.dart": "315a3138c27dbce386db18b7403302406682ab7f9df724c410822bb3ccd97726",
+  "lib/features/game/cubit/game_state.dart": "92d9ee5d1a564df0fdaea738aab5937871c1ac1298e51bed26d506980e658bad",
+  "lib/features/game/cubit/tile_state.dart": "b0d9e0ec8c37e4eec9e185dc3e20694aef95e8ebfb5f2eef6c8e1c494b2e9339",
+  "lib/features/game/game.dart": "a4a93a7ca48c6b5443e2f3974a76616d1fd50e30a4a7698cf9baf36b550b7fe4",
+  "lib/features/game/models/models.dart": "bec6081f9c4681098a59c708c7c4a4ae72d37b538033f8a21169d5a85a0bd2bc",
+  "lib/features/game/models/user_preferences.dart": "2771f108fe34970365826718794fd5f278e3a3e9b66592b903253a2abbdc0e89",
+  "lib/features/game/presentation/screens/game_page.dart": "3464345153dd55744c08db4091fe44f7d82b5c329d2ae3e393110e198fa7be66",
+  "lib/features/game/presentation/widgets/game_board.dart": "f2428fd705246dde960605d88e63feeaa7f7e0d9a5468b39b77999f631a47a1f",
+  "lib/features/game/presentation/widgets/game_exit_bar.dart": "ccd27471542c27830597211cd3efa9016cb31879d2e0a542e66347eaf332b9c6",
+  "lib/features/game/presentation/widgets/game_header.dart": "8dc0761c6a41774c220c22bb85b7b4ecb16066926a54778f18a0b10186e97abb",
+  "lib/features/game/presentation/widgets/game_play_view.dart": "d0e59a557c12b1532ab691de97f9110275010a92f28d82a6001c4ca1db8220b0",
+  "lib/features/game/presentation/widgets/memory_tile.dart": "c080ed52af63e7d7ae83a508260b31add76e98d26cdae72585a72eb0e1fd4bfb",
+  "lib/features/gentle_activities/data/family_photo_store.dart": "9980baaf3df1c54bd90828818d9683f49df9b02e0ba4fcf8f9823d6fda82bb72",
+  "lib/features/gentle_activities/data/gentle_preferences.dart": "d4ca9f4e634a0dc4e66307a9b627713b468b460ace90dee659250a19237f4ddf",
+  "lib/features/gentle_activities/data/gentle_session.dart": "9bb532749450b8f8477b9eac5582d577c1fa7b0b45d20def88d6d71945a18c24",
+  "lib/features/gentle_activities/data/owned_files.dart": "5022c3038b14ec7cc84beb2f2012e895d1fd777330ed9d51210edc758bb3d993",
+  "lib/features/gentle_activities/data/photo_annotations.dart": "2a7f46c774f97bfe2a074d80e4f0ee73b5268acd167fd5edd3f2456d84326633",
+  "lib/features/gentle_activities/data/photo_importer.dart": "bffbb19147a658cbbd7e843b666a0c85864af34c6346671fd5d3ba08b34691fa",
+  "lib/features/gentle_activities/models/activity_picture.dart": "70ddf877c1a1b12aff0f683c09ee3dea85556d1dbf100aa3a873b489a65e5561",
+  "lib/features/gentle_activities/models/gentle_board.dart": "69707e8ac93a9aa135428d05f82efc8ac50eae48af215d994b17ae338f81ee5e",
+  "lib/features/gentle_activities/models/puzzle_board.dart": "71c5a2b01196459b9e2cf70d90f360422d22253a64a0e001467e0e7f7f0f4696",
+  "lib/features/gentle_activities/presentation/gentle_comfort_sheet.dart": "3a5b6c4ec7efbfbfae0339dbafda0cbaa4a06c110b2024e34e33ee145c27cd16",
+  "lib/features/gentle_activities/presentation/gentle_game_page.dart": "f89e82458f84b33526067454b5c18ffcba933bec25d5eedc86b5c7887c3f044e",
+  "lib/features/gentle_activities/presentation/gentle_home_page.dart": "cece20e9848228a98f5eb032dfb53a944ad7a74886e1700d03d9295ea669ae40",
+  "lib/features/gentle_activities/presentation/help_privacy_page.dart": "baaa51b5e6d3f4ef237717e5c7e116003513357846380fa04b138da149bc9529",
+  "lib/features/gentle_activities/presentation/photo_collection_page.dart": "278d2ad8fbe79e72849a5db25bb174353615e5ad38ed92cf8949bb9390308c1d",
+  "lib/features/gentle_activities/presentation/photo_together_page.dart": "ca5b4db723f282bd530ad6e50e53f3231341124e7df524b99fd925d55cea4740",
+  "lib/features/gentle_activities/presentation/picture_puzzle_page.dart": "30a5fe168a04906b239f9ffbda41bf7f9343fd6f95239c6a3fbb28ab5a33e52f",
+  "lib/features/gentle_activities/presentation/picture_view.dart": "37e104e0c56a4573b918847251783f4df55ad2787d1de91c739f713390a6ce54",
+  "lib/features/home/cubit/home_cubit.dart": "16dd6422f0ac9274405e80017ca0cc98628d622835072dd472f1140b657757c8",
+  "lib/features/home/cubit/home_state.dart": "673a20ff5885c67c89b7e6dec883249d9549028d2618d4a7694ed21bd35eace1",
+  "lib/features/home/data/interest_preferences.dart": "a760edcc6e19727d9abfe1b35bad6b7f4ffc73c1a940722fa96466344ef39eb8",
+  "lib/features/home/data/pack_preferences.dart": "e64be0d3dd29aebb446dfbc86b6cad93ca8b2d4c6ccea40b0a2bd5da1f0c4502",
+  "lib/features/home/data/pack_selection.dart": "ae7cf070216f3663415d09201dca4d781476eade6ddd732cca2e8eac36280f4d",
+  "lib/features/home/presentation/screens/home_page.dart": "d2b3e7052e93420cb5459b8f1021b83b2250143e7eb8cf90b8ecea00cec33703",
+  "lib/features/home/presentation/widgets/daily_packs_section.dart": "ea3f5f481220f510d38d1ca22db4a42aec22a614e52bcba75edd10d81856bea3",
+  "lib/features/home/presentation/widgets/favorites_section.dart": "3e6ede956eca523b44a57efa910dab123520e7fc79c6cffbc53eb88156a73a44",
+  "lib/features/home/presentation/widgets/hidden_packs_section.dart": "dceb30e56f7d9991e9e8a0eedabeff6828b56087223479730315aa4524e398e7",
+  "lib/features/home/presentation/widgets/library_section.dart": "555144127e684ae6ceda1ca8b00b353a4874cd50ba6fd1ea22f75de537f2be48",
+  "lib/features/home/presentation/widgets/pack_choice_not_saved.dart": "967d008e27dde2d74859c3b6d6f301fc7170d56caaf18164b9abffa4683fbbc5",
+  "lib/features/home/presentation/widgets/setting_modal.dart": "b391eca8d534007260ca6059fab5c43cfecc4267af673a38a15813cce0159a7a",
+  "lib/features/legal/presentation/legal_info_page.dart": "17c58ae967f914a5c78bcf19f4ed5a5726fd5501eecd688b4e98238a95fc02a9",
+  "lib/features/pack/presentation/screens/pack_page.dart": "5d16b64f0fa4920873fa6a2ac572581ae0f34e206999d2506b6dd282668fb902",
+  "lib/l10n/l10n.dart": "f469e9d95cd7ac5467fdf462882c2a39ab0588ff683327d50a2095c083318f13",
+  "lib/main.dart": "3caacc68a0910778b731b0edcc0ddfaf8f48329824d932df2b80aa7c05660e53",
+  "lib/shared/constants/app_constants.dart": "8a8d7e5cd21e8b1768b25a844cb997aaae595283290436e96b8c1e89e37ae013",
+  "lib/shared/sharing/share_invitation.dart": "551f842648ef489bce667620181559c13bbf47ec24f7b475bdce5b59b16459e1",
+  "lib/shared/utils/experiments.dart": "8cfcceb5295e49378ce16307c25de82f15945c13e8a78d3d65e141434b3525be",
+  "lib/shared/utils/share_util.dart": "042ef13b992b35508da6aa3df528bddef659c3bd71fa8e43dea7ca2eab09efbe",
+  "lib/shared/utils/support_info.dart": "edb60b3417cfc000189bb4e3af14af3fd5eb0c968797ba7bf2155e0e04ce1e92",
+  "lib/shared/widgets/category_card.dart": "166734db2b3c67f8eb2a8e32db2d1da025e64393f22867e20102de1d8764cd78",
+  "lib/shared/widgets/download_progress_card.dart": "f7843ee9d018fbc68ea6447dc2cb4c318686fcba9b7991e81ab5eb15e0eb3fc6",
+  "lib/shared/widgets/gm_bottom_bar.dart": "89655f10229593a02fc94f53dfd1d38244353af143c8d9adbc29cc9a290ea663",
+  "lib/shared/widgets/gm_copyable_text.dart": "e961465df1d607a1c2abcd6396bd3c42095592670d584deced010b83a7ce556f",
+  "lib/shared/widgets/gm_mounted_picture.dart": "b5925ae11ffc3a79d15be98dd8e681ba07099be3d0b88ae2b2edb920038527fe",
+  "lib/shared/widgets/pack_card.dart": "714ee380bbb57b7cfb8b56d60129985d7e520db22b3c8684c52570b69d47e2af",
+  "lib/shared/widgets/pack_grid.dart": "0eb7fb5f71da3206f37340500c08a394c5d6f6d1b98ebd08f9fc827b999407a8",
+  "lib/shared/widgets/pressable.dart": "d9082f3eeb3ae4d87af82231f6f7264a6f9e372be5d6b23bbe98723b81d2e267"
+ }
+}

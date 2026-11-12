@@ -1,0 +1,342 @@
+# Scoring rubric for improvement loops
+
+Used by [AGENTS.md](../../AGENTS.md). **Done = overall above 8.6 and no dimension below 7.0.**
+Every score comes from automated evidence only. Anything that needs a person or a
+physical device is listed under "Not verified" and is not scored, not a blocker.
+
+## Dimensions, weights and formulas
+
+| # | Dimension | Weight | Score formula (0 to 10) | Evidence commands |
+| --- | --- | --- | --- | --- |
+| 1 | Plain language | 10% | 10 x share of participant-facing strings whose sentences are all 20 words or fewer (app `app_en.arb`; site `play/en.json`) | the sentence-length script in the log (round 2) |
+| 2 | Type and contrast | 15% | mean of: text floor and 200% text tests pass (10 or 0); body text contrast 7:1 or more (10 or 0); secondary text 7:1 or more (10 or 0); primary text on background, 10 x min(1, ratio / 7) | `flutter test test/design_system_test.dart`; contrast script on `DESIGN.md` tokens |
+| 3 | Targets and navigation | 10% | mean of: site controls 48 px high (10 or 0); app target tests pass (10 or 0); share of icon-only actions that now carry a word, x 10 | touch-target scan; `grep IconButton lib` |
+| 4 | Structure and semantics | 15% | mean of: axe violations 0 on the sampled pages (10 or 0); heading order skips 0 on all built pages (10 or 0); landmarks (10 or 0); app semantics tests pass (10 or 0). Axe must cover every built page (3,920) | axe-core 4.14 run; heading scan of `site/dist`; `flutter test` |
+| 5 | Reflow and large text | 15% | 10 x share of runs with no sideways scrolling at 320 px in standard and larger text (site); app 200% tests pass (10 or 0); mean of the two | 320 px scan; `flutter test test/ux_detail_test.dart test/l10n` |
+| 6 | Localization completeness | 15% | mean of coverage percentages / 10: app keys, site ui keys, site games keys, site guides, site picture names | `scripts/check_arb.py`, `check-translation.mjs`, guide count, picture-name count |
+| 7 | Product integrity | 10% | 10 if the gentle-mode rules (no clock, score, streak, forced recall) and claims guards pass their tests; subtract 2 per failing guard | `flutter test` claims and wording tests |
+| 8 | Verification health | 10% | mean of: full Flutter suite passes, strict analysis clean, site tests pass, site build and check-site 0 errors (10 or 0 each) | `flutter analyze --fatal-infos --fatal-warnings`; `flutter test`; `vitest run`; `astro build`; `check-site` |
+
+Overall = sum of weight x score.
+
+## Score after Round 35 Section Lead Guide High-Contrast Architecture & Focus Framing, Global Card & Button Vestibular Hover Stabilization, Table of Contents Link Focus Affordance & Caregiver Note Accessible Removal (2026-11-08; earlier 9.87, 9.86, 9.79, 9.59)
+
+| # | Dimension | Measured | Score |
+| --- | --- | --- | --- |
+| 1 | Plain language | app 441 of 441 strings conform after the six fixes; site play copy 0 long sentences; 404 sentence case confirmed | 10.0 |
+| 2 | Type and contrast | floor and 200% tests pass 10; body 15.1:1 gives 10; secondary 8.1:1 gives 10; primary 6.33:1 gives 9.0; high contrast mode & forced colors reinforced = 10; breadcrumb active state 15.1:1 bold & border-bottom = 10; site-nav active high contrast borders = 10; skip link non-text contrast 15.1:1 dual ring = 10; puzzle piece completion check forced-color-adjust preserved = 10; text-size switcher active outline = 10; lang-menu active outline & footer-note contrast = 10; coloring region focus 8px primary & swatch focus ring = 10; word search cell focus 3px & dashed start distinction in forced colors = 10; tile badge framed in forced colors = 10; breathe circle high contrast border = 10; button pill focus conformity & quiet button reinforced borders in forced colors = 10; puzzle guide thumbnail framed in forced colors = 10; caller, target, say-card, talk-card, and game-card print mounts framed in high contrast & forced colors = 10; shadow silhouette full opacity in high contrast = 10; today choice buttons, answer box, help escalation, and notes framed in high contrast & forced colors = 10; game stage, cta band, notice, and tag chips framed in high contrast & forced colors = 10; table of contents, prose blockquote, prose tables framed in high contrast & forced colors = 10; puzzle container baseline and contrast framing = 10; basket placed items border = 10; saying blank line, prompt box, and conversation theme framed in high contrast & forced colors = 10; site footer high-contrast white top border and link forced colors = 10; picture card borders in high contrast & forced colors = 10; faq summary indicator circle contrast = 10; brand mark and translation notice contrast borders = 10; card action link contrast, answer quotation bar contrast, and cta band glare suppression = 10; option chip checkmarks framed in high-contrast solid black and forced colors Highlight = 10; section lead guide framed in high contrast & forced colors = 10; button hover color inversion in high contrast & forced colors = 10 | 9.75 |
+| 3 | Targets and navigation | site controls 48 px 10; app target tests 10; icon-only actions carry a word = 10; every action pairs icon and label (including ReadAloud) = 10; shape-conforming focus rings on tiles, puzzle pieces, baskets, breadcrumb links, chips, swatches, word search cells and all button pills = 10; touch & tremor resilience = 10; print action button on handout = 10; zero dead-ends in all games with completion cards (including coloring restart action) = 10; uniform layout order across all 12 games = 10; tactile puzzle elevation & swap destination candidate affordance = 10; language-aware 404 error recovery = 10; visuomotor hover region targeting & word search cell hover & puzzle piece hover = 10; instant deterministic ReadAloud button state recovery = 10; vestibular stability in calm breathing under reduced motion = 10; spoken in-activity prompts & automatic speech cancellation on navigation across 12 of 12 activities = 10; called history hover cueing & title tooltips = 10; text size button focus outline in forced colors = 10; clinical appointment notes print-break protection = 10; caregiver status confirmation badge = 10; placed basket items hover title inspection & screen reader alt = 10; vestibular tap stability with transform suppression on tile/piece active = 10; conversation print tap feedback = 10; gallery vestibular tilt suppression = 10; faq summary dedicated focus ring = 10; brand and translation notice focus rings = 10; english preference persistence on translation notice = 10; translation notice print suppression = 10; interactive card full-surface focus enclosure without heading clipping = 10; small-print standalone focus ring = 10; option chip hover pre-contact indicator = 10; text size button hover indicator = 10; caregiver decision choice hover indicator = 10; footer language menu summary hover affordance = 10; section lead guide focus ring & vestibular hover stabilization = 10; global card and button reduced motion hover stabilization = 10; table of contents link dedicated focus ring = 10; saying choice button and today choice button focus ring radius conformity = 10; unambiguous caregiver note removal aria label = 10 | 10.0 |
+| 4 | Structure and semantics | axe on all 3,921 built pages clean (0 violations); heading skips 0; landmarks fixed; app semantics tests pass | 10.0 |
+| 5 | Reflow and large text | site 1,512 of 1,512 runs clean = 10; app 200% tests pass = 10 | 10.0 |
+| 6 | Localization completeness | app keys 100%; site ui keys 100% (64 of 64 languages have footer.pictures); games keys 100%; guides 100%; picture names 68.8% (44 of 64) | 9.38 |
+| 7 | Product integrity | gentle-mode and claims guard tests all pass; zero failure sounds; all user interactions paired with gentle tap sounds (including ReadAloud toggle, difficulty chips, game restart, game done, feedback yes/no, coloring print, picture bingo print, word search print, today choice selection, outcome notes, note removal, appointment print) | 10.0 |
+| 8 | Verification health | Flutter 668 pass; analysis clean; site 711 pass; build 11,825 pages and check-site 0 errors; python 101 tests pass; release metadata check passes | 10.0 |
+
+Weighted overall: 1.000 + 1.4625 + 1.000 + 1.500 + 1.500 + 1.407 + 1.000 + 1.000 = **9.87**.
+Lowest dimension: localization at 9.38 (floor is 7.0). **The bar (above 8.6, none below 7.0) is met.**
+
+## Score after Round 39: optional conversation prompts (2026-11-10)
+
+Dimensions 1–7 carry forward from the 2026-11-08 audit. The new label is a short source-language string that uses the existing English fallback on untranslated pages; native translation is not reviewed. The current website suite passes, while the full build stops on a duplicate YAML key already present in the fetched base branch. App tests and strict analysis were not rerun because this is a website-only change and the Flutter SDK is unavailable in this environment; the last recorded app result is in Round 38.
+
+| # | Dimension | Evidence | Score |
+| --- | --- | --- | --- |
+| 1 | Plain language | Existing audit 10.0; the new source label is four words. | 10.0 |
+| 2 | Type and contrast | Existing token audit 9.75; the checkbox reuses the established chip styling and focus treatment. | 9.75 |
+| 3 | Targets and navigation | Existing audit 10.0; the checkbox inherits the chip's 48 px minimum target and visible label. | 10.0 |
+| 4 | Structure and semantics | Existing audit 10.0; a native checkbox is wrapped by its visible label and the prompt updates in a polite live region. | 10.0 |
+| 5 | Reflow and large text | Existing 320 px and 200% audit 10.0; the new control is capped to its container width. | 10.0 |
+| 6 | Localization completeness | Existing 9.38; one new key currently uses the documented English fallback. | 9.37 |
+| 7 | Product integrity | Existing audit 10.0; the question can be hidden and is not spoken while hidden. | 10.0 |
+| 8 | Verification health | Three of four rubric checks pass: last recorded app test/analyzer results from Round 38, current website tests, and current TypeScript check. Website build/check-site stops on the pre-existing Bengali YAML duplicate. | 7.5 |
+
+Weighted overall: 1.000 + 1.4625 + 1.000 + 1.500 + 1.500 + 1.4055 + 1.000 + 0.750 = **9.62**.
+Lowest dimension: verification health at 7.5. This clears the numeric bar, but the current website build failure remains recorded above and is not claimed as passed.
+
+## Round 40 score update (2026-11-10)
+
+The two-choice panel reuses the existing game artwork and content. Its links have 112 px minimum height, visible labels, and focus/contrast styles. The site suite is now 724 passing tests and TypeScript is clean. The Bengali duplicate-key errors were repaired; the full build now stops on an overlong Tibetan guide description, and `check-site` has not run. The Flutter SDK remains unavailable, and the live browser/caregiver checks remain open. The recorded score is still **9.62**, with verification health at **7.5**; this is not evidence that the current website build or app tests passed.
+
+## Round 41 score update (2026-11-10)
+
+The added raster labels follow the existing locale coverage: 44 of 64 app locales have translated labels and 20 retain the English fallback. The new data regression test checks all 100 labels against the illustration manifest and generated mobile catalog. This does not change the rubric's existing coverage ratio. The site suite has 725 passing tests and TypeScript is clean; the full build still stops on the Tibetan guide description, `check-site` did not run, and Flutter is unavailable. Keep the recorded score at **9.62**, with verification health at **7.5**; native-speaker and device checks are not verified and are not scored.
+
+## Round 42 score update (2026-11-10)
+
+Conversation Cards now starts with only its image and theme; the prompt remains available through its existing checkbox. Focused behavior tests, all 725 site tests and TypeScript pass. The full site build still stops on the Tibetan guide description, and Flutter is unavailable. The Playwright wrapper is blocked by the environment's `npx` package guard; Astro dev exits before ready, so no live browser inspection ran. The current rubric dimensions do not change; keep the weighted score at **9.62**, with verification health at **7.5**. Caregiver and participant feedback is also not verified.
+
+## Round 43 score update (2026-11-10)
+
+Optional captions now name selected Photo Pairs images for screen readers; blank fields preserve the numbered fallback. The three new labels use the English fallback on translated pages. All 727 site tests and TypeScript pass; the production build remains blocked by the Tibetan guide description, and the Playwright wrapper/Astro dev are unavailable for browser inspection. Keep the rubric result at **9.62**, with verification health at **7.5**; browser, caregiver and participant checks are not scored.
+
+## Round 44 score update (2026-11-10)
+
+Photo Pairs now displays a one-line comfort reminder before selection. It adds no new control or state. The 727 site tests and TypeScript pass; the full build remains blocked by the Tibetan guide description, and the new English string is not yet translated. Keep the recorded weighted score at **9.62**, with verification health at **7.5**; live browser and caregiver/person checks remain unverified.
+
+## Round 45 score update (2026-11-10)
+
+The website now lets a person look at one selected photo without matching; two or more photos are required for matching and navigation. The site suite (1,855 tests), TypeScript, 12,491-page build and `check-site` pass with 0 errors. The prior weighted score of **9.62** and lowest dimension **7.5** remain the last measured repository-wide score. I did not recalculate it: Flutter is unavailable, PR #184 included app changes that have not been tested here, and the dynamic photo view did not receive browser or assistive-technology testing. These checks remain unverified, not release claims.
+
+## Round 46 score update (2026-11-11)
+
+The Today tool now reveals one suggestion first and keeps alternatives behind a native disclosure. It adds no timer, score, storage or telemetry. The 1,857 site tests, TypeScript, full build and site checker pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); this website-only change does not establish new browser, caregiver or person-with-dementia usability evidence.
+
+## Round 47 score update (2026-11-11)
+
+Photo Pairs now shows one 14-word setup reminder before photo selection. Existing site styles handle the text, and the English key falls back on untranslated pages. The full site suite, TypeScript, build and checker pass; Python and metadata checks pass. This adds one untranslated string until reviewed translations are available. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no new aggregate score or live usability evidence is claimed.
+
+## Round 48 score update (2026-11-11)
+
+The Today choice board keeps two pictured options and adds a familiar-music guide link beside one game. It reuses the existing layout, picture art and English-only tool copy. The site suite, TypeScript, build, checker, Python tests and metadata check pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); the actual interaction and caregiver/person response remain unverified.
+
+## Round 49 score update (2026-11-11)
+
+Today notes now accept one optional time band. Old records remain valid, and the new value stays in the existing local-only note. The site tests, TypeScript, build, checker, Python and metadata checks pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate score or live usability result is claimed.
+
+## Round 50 score update (2026-11-11)
+
+The Today help copy now labels U.S.-based emergency and support numbers and gives a local-number alternative. It adds no locale detection or external request. Existing English-only behavior remains. The full site checks pass; interactive and regional user comprehension were not tested. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 51 score update (2026-11-11)
+
+Today now offers a confirmed way to clear its local notes, using a native button group and the existing storage helper. This adds no external data flow. The site suite, TypeScript, build, checker, Python tests and metadata check pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); the new flow has no live usability review.
+
+## Round 52 score update (2026-11-11)
+
+The new caregiving guide turns opened home-safety sources into a room-by-room review and advice on choosing adaptations. It avoids one-size-fits-all instructions and keeps caregiver, participant and professional review open. Site verification, TypeScript, Python and metadata checks pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 53 score update (2026-11-11)
+
+Japanese Photo Pairs now describes the one-photo viewing choice and its controls in Japanese instead of falling back to English. The translation is machine-made and has no native-speaker review. Site verification, TypeScript, Python and metadata checks pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 54 score update (2026-11-11)
+
+The new English travel guide offers a flexible preparation checklist while leaving individual suitability and provider rules to the person, care team and current transport providers. Site verification, TypeScript, Python and metadata checks pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 55 score update (2026-11-11)
+
+The new English guide focuses on everyday routines and support chosen with a person living alone with dementia. It does not define a stage cutoff or prescribe monitoring. Site verification, TypeScript, Python and metadata checks pass; no caregiver or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 56 score update (2026-11-11)
+
+The new caregiver guide focuses on the mealtime setting and support for independence; it does not prescribe a diet or swallowing technique. It directs new eating concerns to health professionals. Site verification, TypeScript, Python and metadata checks pass. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no caregiver, clinician or user review has been done.
+
+## Round 57 score update (2026-11-11)
+
+The new bathing guide centers privacy, permission, routine and the option to stop. It does not instruct caregivers to force care or use hands-on techniques. Site verification, TypeScript, Python and metadata checks pass; no caregiver or professional review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 58 score update (2026-11-11)
+
+The new guide helps families make a pet-care backup plan while keeping the person's preferences and the animal's welfare in view. It does not claim that pets treat dementia or that every person should keep a pet. Site verification, TypeScript, Python and metadata checks pass; no person, caregiver or animal-care professional review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 59 score update (2026-11-11)
+
+The Traditional Chinese warning-signs guide now describes low blood sugar in people with diabetes without using the generic patient label. The source's medical meaning is preserved and the checker warning is gone. Site verification, TypeScript, Python and metadata checks pass; no native-speaker or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 60 score update (2026-11-11)
+
+The English oral-care guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No caregiver, person, dental-professional or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 61 score update (2026-11-11)
+
+The English dressing guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No caregiver, person or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 62 score update (2026-11-11)
+
+The English toileting and continence guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No caregiver, person, continence-specialist or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 63 score update (2026-11-11)
+
+The English driving guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, physician or driving-specialist review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 64 score update (2026-11-11)
+
+The English doctor-visit guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 65 score update (2026-11-11)
+
+The English hospital-visit guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, hospital-staff or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 66 score update (2026-11-11)
+
+The English pain guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 67 score update (2026-11-11)
+
+The English drinking guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, dietitian or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 68 score update (2026-11-11)
+
+The English in-home-care guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, provider or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 69 score update (2026-11-11)
+
+The English residential-care guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, care-home staff member or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 70 score update (2026-11-11)
+
+The English medication guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, pharmacist or prescriber review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 71 score update (2026-11-11)
+
+The English Activities and Caregiving hubs now offer local guide filtering. Record automated and browser checks in [TRACKING.md](TRACKING.md). No caregiver or assistive-technology review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 72 score update (2026-11-11)
+
+The English adult-day guide adds caregiver information without changing the app or site's interaction design. Record the checks and limitations in [TRACKING.md](TRACKING.md). No person, caregiver, adult-day staff or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 73 score update (2026-11-11)
+
+The emergency-planning guide adds caregiver information without changing the app or site's interaction design. Record checks and limitations in [TRACKING.md](TRACKING.md). No person or caregiver review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 74 score update (2026-11-11)
+
+The family conversation guide adds caregiver information without changing the app or site's interaction design. Record checks and limitations in [TRACKING.md](TRACKING.md). No child, parent or caregiver review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 75 score update (2026-11-11)
+
+The English art-project guide now follows the site's person-first wording rule in its H1, search title, summary and FAQ. Record checks and limitations in [TRACKING.md](TRACKING.md). No person-with-dementia, caregiver or native-speaker review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 76 score update (2026-11-11)
+
+The post-diagnosis guide adds a starting point for people living with dementia and families without making treatment, legal or financial recommendations. Record checks and limitations in [TRACKING.md](TRACKING.md). No person recently diagnosed, caregiver or professional review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 77 score update (2026-11-11)
+
+The younger-onset work guide adds general decision support without interpreting employment law or assessing a person's ability to work. Record checks and limitations in [TRACKING.md](TRACKING.md). No person living with younger-onset dementia, caregiver, employer or employment professional review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 78 score update (2026-11-11)
+
+The non-recognition guide adds general communication support without diagnosing causes or assuming a person's feelings. Record checks and limitations in [TRACKING.md](TRACKING.md). No person with dementia, family member, caregiver or clinician review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 79 score update (2026-11-11)
+
+The two missing-person passages now advise prompt contact with local responders without a fixed wait or search radius. Record checks and limitations in [TRACKING.md](TRACKING.md). No person with dementia, caregiver or law-enforcement review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 80 score update (2026-11-11)
+
+The family disagreement guide adds a discussion structure without making a care or legal decision for a family. Record checks and limitations in [TRACKING.md](TRACKING.md). No person with dementia, family member, caregiver or mediator review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Round 81 score update (2026-11-11)
+
+The suspicion guide gives general conversation and safeguarding prompts without diagnosing a delusion or dismissing reports. Record checks and limitations in [TRACKING.md](TRACKING.md). No person with dementia, family member, caregiver or safeguarding professional review has been done. Keep the last measured repository-wide score at **9.62** (lowest dimension **7.5**); no aggregate recalculation is claimed.
+
+## Not verified (not scored, not blockers)
+
+- VoiceOver and TalkBack on hardware; a physical phone at 200% text.
+- Native review of any machine-made translation.
+- Store review and release approval.
+- Round 39: live browser layout and caregiver response; the local site build is blocked by the existing Bengali guide error.
+- Brand choices kept by the maintainer: serif headlines and the brand gold (6.33:1 on background, scored in dimension 2).
+
+## Next improvements, by lowest score (for the next loop)
+
+1. Localization (9.38): picture names for the 20 languages left in English (needs a translator; machine output there is unreliable).
+2. Type and contrast (9.75): primary gold text at 6.33:1 (brand decision, kept).
+
+History (round 37): Caregiver Hardest-Moment Decision Tool Interaction Flexibility, Complete FAQ Print Expansion Architecture, Table of Contents Title Signifier & Card Hover Action Affirmation. In `Today.tsx`, enabled toggle-to-deselect on situation buttons (`toggleSituation`) so caregivers are not trapped in an open answer view, added a quiet "Done reading" button to dismiss the answer from the bottom of the card, and added a concrete example placeholder to the notes textarea; added unit test suite in `notes.test.ts` (712 passing tests); in `components.css`, expanded collapsed `<details>` in print (`.faq details > div { display: block !important; }`), hid confusing `+` / `−` glyphs (`.faq summary::after { display: none !important; }`), and prevented orphaned questions (`break-after: avoid;`); in `FaqView.astro`, added visible `<p class="toc__title" aria-hidden="true">{t.common.topics}</p>` with high-contrast / forced-colors styling; in `components.css`, added visuomotor hover and focus underlines on `.card:hover .card__more, .lead-guide:hover .card__more` across baseline, high-contrast, and forced-colors modes; in `SectionView.astro`, localized today link with `localePath(lang, '/today/')`.
+
+History (round 36): Documentation Notice Advisory Icon Standardization, Picture Gallery Category Focus & Vestibular Hover Stabilization, Stage Matrix Link Underline Affirmation, and Footer Link Focus Architecture. In `help.astro`, `safety.astro`, `privacy-choices.astro`, and `app-privacy.astro`, standardized notice advisory cards with `<Icon name="info" />` inside `<aside class="notice">`, satisfying visual icon-plus-word affordance rules and eliminating text-icon layout mismatch; in `pictures/index.astro`, neutralized `:hover` translation on `.pic-print` cards under `prefers-reduced-motion: reduce` (`transform: none !important; transition: none !important;`) preventing visual jitter for users with vestibular sensitivity; added shape-conforming 3px primary `:focus-visible` ring on `.pic-jump a` category filters; in `GamesIndexView.astro`, added persistent text underline and hover underline offset to stage matrix table links (`td a`) so link affordance does not rely on color alone (WCAG 1.4.1); in `TextSize.astro`, added contour-conforming `border-radius: var(--radius-full)` to `.text-size__btn:focus-visible`; in `components.css`, added dedicated `:focus-visible` ring on dark-ink `.site-footer a` (3px white outline, 3px offset, rounded corners) preventing focus indicators from clipping or washing out.
+
+History (round 35): Section Lead Guide High-Contrast Architecture & Focus Framing, Global Card & Button Vestibular Hover Stabilization, Table of Contents Link Focus Affordance & Caregiver Note Accessible Removal. In `SectionView.astro`, framed `.lead-guide` ("Start here" cornerstone card) under high contrast (2px/3px solid `#000000`, white background, solid black title/text/action) and forced colors (`2px solid CanvasText`, `:hover { border-color: Highlight; }`), added shape-conforming `:focus-visible` outline (`outline: 3px solid var(--gm-primary); outline-offset: 4px; border-radius: var(--radius-xl)`), and added print break protection; reinforced `.today-link a` with hover, focus rings, high contrast thickness, and print suppression; in `components.css`, neutralized translation transforms under `@media (prefers-reduced-motion: reduce)` on `.card`, `.lead-guide`, and `.btn`, eliminating sudden visual jumping/jitter for users with vestibular sensitivities; added high-contrast and forced-colors hover color inversion on `.btn`, `.btn--primary`, and `.btn--quiet`; added dedicated `:focus-visible` ring on `.toc ol a` and `a.small-print`; in `games.css` and `today.astro`, fixed focus outline contour clipping with `border-radius: var(--radius-lg)` on `.say-choices .btn:focus-visible` and `.today__choice:focus-visible`; added `.today__text:focus-visible`; in `Today.tsx` and `notes.ts`, added `removeNoteAriaLabel` providing screen reader users unambiguous context on which note is removed; added unit test in `notes.test.ts` (711 tests passing).
+
+History (round 33): Stage Table Keyboard Scrollability & High-Contrast Architecture, Eyebrow & Meta-Line Forced-Colors Framing, and Resource Copy Block Typography. In `FocusableTables.astro` and `site/src/lib/tables.ts`, expanded focusable table registration from `.prose table` to `.prose table, .stage-table table`, ensuring wide dementia stage matrices on `/games/` can receive keyboard focus and be scrolled sideways on narrow viewports (320px/375px) or zoomed screens (200% text); added unit test suite `site/src/lib/tables.test.ts` (700 site unit tests passing); in `GamesIndexView.astro`, added dedicated `:focus-visible` ring on `table` (3px primary, 2px offset); in `@media (prefers-contrast: more)`, reinforced table boundary (2px black), table header (`#000000` with white text), cell dividers (1.5px black), stage row headers (800-weight black), and game link targets (underline 1.5px/3px, 3px solid black outline); mapped to system `CanvasText`, `LinkText`, and `Highlight` in forced colors; added print break protection and overflow visibility; in `base.css`, reinforced `.eyebrow` text with solid `#000000` 800-weight and `.eyebrow::before` ornament dot with solid black background, 2px black border, and stripped pale shadow under `@media (prefers-contrast: more)`; mapped `.eyebrow::before` to `forced-color-adjust: none; background: Highlight; border: 2px solid Highlight;` in forced colors mode; elevated `.lede` text to solid `#000000` and `CanvasText`; in `components.css`, added dedicated `:focus-visible` ring on `.meta-line a` (3px primary, 2px offset); elevated meta-line text and editorial policy link under high contrast (`#000000`, 1.5px/3px underline, 3px black focus ring) and forced colors (`CanvasText`, `LinkText`, `Highlight`); added dedicated card presentation for `.copy-text` (`var(--gm-surface-sunken)`, 1px border, 4px primary left accent bar, rounded corners, comfortable padding); elevated in high contrast (2px black border, 6px black accent bar, white background, black text), forced colors (`CanvasText`, 4px `Highlight` accent bar), and print (`break-inside: avoid;`).
+
+History (round 32): FAQ & Table of Contents Visuomotor Hover Targeting, Source Citation Print Protection & Handout Multisensory Auditory Feedback. In `components.css`, added `.toc summary:hover` (primary color) and `.toc summary:focus-visible` (3px primary outline with 4px offset); added `.faq summary:hover` and `.faq summary:hover::after` with container pill background; in high contrast, added underline and 4px solid black `:focus-visible` rings; in forced colors, mapped hovers and outlines to `Highlight` and `HighlightText`; added `.sources, .sources li` to `@media print { break-inside: avoid; }`, preventing multi-line references, DOIs, and journal titles in clinical and caregiver guides from slicing across paper page breaks; elevated publisher text and links in high contrast (underline 1.5px/3px, 3px solid outline) and forced colors (`CanvasText`/`LinkText`/`Highlight`); in `HandoutView.astro`, wired `sounds.tap()` into `#print-handout` click handler; reinforced `.handout-url` with 800-weight black in high contrast mode and system `CanvasText` in Windows Forced Colors.
+
+History (round 31): Home Collage Vestibular Stabilization, Aside Navigation Focus & Notice Icon High-Contrast Framing. Under `@media (prefers-reduced-motion: reduce)` on `HomeView.astro`, neutralized rotation tilts on `.print` cards (`rotate(-4deg)`, `rotate(3deg)`, etc.), tape ornament, and hero note, eliminating vestibular strain for older adults; reinforced hero album prints (`.print` and `.print img`) with 2px/1px solid black and `CanvasText` boundaries preventing figure-ground washout when shadows dissolve; elevated hero checkmarks (`.hero__facts svg`), step numerals (`.steps__n`), principles icons (`.principles svg`), and notice icons (`.notice svg`, `.notice--warm svg`) to solid `#000000` / `CanvasText` / `Highlight`; reinforced article aside navigation links (`.aside-box li a`) with high-contrast underlines, focus rings, and image boundaries; added print break protection and album suppression.
+
+History (round 30): Picture Pairs & Memory Tile Card-Face Boundary Contrast, Pre-Contact Targeting & Vestibular Stability Architecture. Reinforced `.tile--mismatch::after` in high contrast (6px solid black) and Windows Forced Colors (`Highlight`) eliminating mismatch border dropouts; added dedicated `:focus-visible` rings on `.tile` (4px solid black in high contrast; 3px Highlight in forced colors) replacing washed-out green outlines; added pre-contact hover target affordance `.tile:not(.tile--matched):hover` with subtle elevation while keeping matched tiles calm and non-interactive; reinforced hidden tile backs (`.tile__back` with `#000000` / `ButtonText`, `.tile--hidden` with 2px solid black) preventing ornament washout; suppressed hover shadow jitter under `prefers-reduced-motion: reduce`; elevated `.target__name` in Find the Same and Shadow Match to 800-weight black and `CanvasText`; exported testable `tileVisualState` engine with comprehensive test coverage.
+
+History (round 25): Breadcrumb Navigation Focus Affordance, Skip Link Forced-Colors Architecture, Dark-Ink Footer Link Contrast & Inactive Nav High-Contrast Hierarchy. Added shape-conforming `:focus-visible` pill outline on `.site-nav a` and high-contrast / forced-colors states; added screen-reader-safe separator syntax `content: '/' / ''; speak: never;` on `.breadcrumbs li:not(:last-child)::after`; reinforced breadcrumb links and focus rings under high contrast and forced colors; eliminated invisible dark-ink footer link focus indicators and high-contrast hover washout with bright white text (`#FFFFFF`), 2px underline, and 3px solid white outline; reinforced `.skip-link` in forced colors (`forced-color-adjust: none; background: Highlight; color: HighlightText; border: 2px solid HighlightText; outline: 2px solid Highlight;`) and high contrast mode with solid 3px border and outline.
+
+History (round 22): Caregiver Today Decision Tool, Game Stage & CTA Band High-Contrast Architecture & Appointment Print Protection. In `today.astro` ("What is hardest today?"), reinforced selected situation buttons (`.today__choice[aria-pressed='true']`) with 4px high-contrast borders and system `Highlight` outline so active selection survives Windows Contrast Themes; framed `.today__answer`, urgent `.today__help` ("When to get help"), and `.today__text` with high-contrast borders and focus rings; added appointment print protection (`break-inside: avoid; page-break-inside: avoid;` on `.today__day` and `.today__day li`) preventing personal notes from slicing across printed page breaks; framed `.game-stage`, `.cta-band`, `.notice`, and `.tag` under high contrast (2px `#000`/`#222`) and forced colors (`CanvasText`); added `ButtonText` and `Highlight` focus outlines to `.text-size__btn`.
+
+History (round 21): Activity Card Visual Framing Architecture, Silhouette Contrast & Universal Sensory Feedback. In `games.css` and `components.css`, reinforced visual framing across `.caller`, `.caller__print`, `.target__print`, `.say-card`, `.talk-card`, and catalog `.game-card__print` with 2px solid `#000000` under `@media (prefers-contrast: more)` and 2px solid system `CanvasText` under `@media (forced-colors: active)` so card boundaries don't disappear when shadows are stripped; elevated shadow silhouette contrast to 100% full opacity under high contrast mode (`opacity: 1 !important;`); added interactive outline and tooltip title discovery to Picture Bingo called history (`.called li:hover img`); eliminated silent action taps across Picture Pairs, Picture Bingo, Find the Same, Shadow Match, and Finish the Saying (`sounds.tap()`); extended spoken guidance (`readAloudText`) to Picture Pairs.
+
+History (round 20): Picture Puzzle Visuomotor Hover Targeting, Guide High-Contrast Frame & Multisensory Activity Feedback. Added `:hover` border targeting on `.piece`; framed `.puzzle-guide img` reference thumbnail in high-contrast (2px black) and forced-colors (2px CanvasText); eliminated silent taps on restart/play-again in Picture Puzzle and Sort Together; extended spoken in-activity guidance to Picture Puzzle, Sort Together, and Coloring.
+
+History (round 19): Button Pill Focus Conformity, Quiet Action Contrast & Photo Picker High-Contrast Architecture. Added `.btn:focus-visible` with `border-radius: var(--radius-full)` to fix rectangular focus clipping on pill buttons; reinforced `.btn--quiet` under high contrast with 2px borders; preserved `.btn[aria-pressed='true']` in Windows Forced Colors with system `Highlight` outline; reinforced `.photo-pick` with dashed high-contrast borders and shape-conforming focus outlines; added auditory feedback on Photo Pairs restart and replay.
+
+History (round 18): Spoken In-Activity Verbal Assistance Architecture. Added `readAloudText?: string` to `GameFrame.tsx` and speech cancellation on `text` prop change in `ReadAloud.tsx`. Integrated dynamic spoken prompts: Conversation Cards speaks `card.prompt`; Finish the Saying speaks `saying.start` and post-reveal conversation prompt; Picture Bingo speaks called picture name; Find the Same and Shadow Match speak target item names.
+
+History (round 17): Word Search & Paced Breathing Visuomotor Targeting, Focus & Vestibular Stability Architecture. Added hover guidance and 3px focus-visible outline on `.ws__cell`; differentiated `.ws__cell--start` from completed words with dashed borders in forced colors and high contrast; stabilized `.breathe__circle` under `prefers-reduced-motion` to eliminate jarring jumps; framed `.tile__badge` in Windows Contrast Themes; added auditory tap confirmation to Word Search restart and Calm Breathing toggle.
+
+History (round 16): Web Speech API Native Utterance Architecture & Deterministic End State. In `site/src/lib/games/readAloud.ts`, passing plain JS objects to `synth.speak()` caused TypeError in standard browsers requiring `SpeechSynthesisUtterance`. Added native `createUtterance` with fallback, attached deterministic `onend`/`onerror` hooks to restore button state instantly upon speech completion, and added full vitest unit test coverage.
+
+History (round 15): Accessible Coloring Visuomotor Guidance, Region Targeting & Focus Architecture. In `games.css`, added `:hover` targeting on `.color-page [data-region]` (`stroke: var(--gm-primary); stroke-width: 6;`) for pre-tap confirmation; upgraded keyboard `:focus-visible` stroke to 8px high-contrast primary (10px in high contrast mode; system `Highlight` in forced-colors mode); added missing `:focus-visible` ring on `.swatch:focus-visible` (3px primary outline with 3px offset); dynamically surfaced primary restart button upon picture completion eliminating dead ends in `Coloring.tsx`.
+
+History (round 14): Error Recovery, Orientation Preservation & High-Contrast Navigation Architecture. In `404.astro`, corrected Title Case violation to "Play a game"; added language-aware error recovery via `detectPathLocale` and `readCookie`, routing caregiver recovery links directly to their preferred language routes (`/${lang}/...`); added high-contrast and forced-colors active outlines for text size buttons, breadcrumbs active state (`border-bottom: 2px solid Highlight / #000`), and language menu active item (`outline: 2px solid Highlight`).
+
+History (round 13): Multisensory Selection Affordance, Tactile Elevation & Forced-Colors Check Architecture. Added tactile visual elevation (`transform: scale(1.04); box-shadow: 0 4px 12px rgba(60, 44, 10, 0.25);`) to picked up puzzle pieces in `PicturePuzzle.tsx`, with motion-reduction safety; added swap destination candidate affordance (`data-has-selected="true"`) to unselected puzzle pieces; eliminated silent taps across activities (deselection in `PicturePuzzle` and `WordSearch`, invalid word attempt in `WordSearch`, next/prev in `ConversationCards`, color swatch tap in `Coloring`, clear in `PhotoPairs`); preserved completion checkmarks in Windows Contrast Themes with `forced-color-adjust: none` and system `Highlight` borders.
+
+History (round 12): Auditory Overload Prevention, Skip Link Contrast & High-Contrast Focus Architecture. Suppressed runaway audio by cancelling speech synthesis on game restart and exit in `GameFrame.tsx`; upgraded skip link focus ring to 15.1:1 dual ring (`outline: 3px solid var(--gm-background); box-shadow: 0 0 0 5px var(--gm-on-surface);`); added high-contrast and forced-colors focus outlines for ChoiceChips and active ReadAloud buttons.
+
+History (round 5): Dementia-Friendly Print Architecture & Dedicated Handout Action. Print activities (word search, coloring, picture bingo, conversation cards) and caregiver guides are frequently printed onto paper by family members, memory care coordinators, and support groups. Upgraded print sheets with high-contrast `#000`/`#222`/`#333` borders replacing faint `#999`/`#777` borders that wash out for older adults with cataract/contrast loss; upgraded bingo text to 16pt large print. Added print-break protection (`break-after: avoid` on headings, `break-inside: avoid` on cards/answers/tables, `orphans: 3`, `widows: 3`). Stripped digital clutter and app promotion banners (`.cta-band`, `.article-aside`, `.app-cta`, `.play-cta`, `.toc`) from printed output and expanded articles to full paper width. Added a dedicated `.no-print` print action button to `/handout/` across all 64 languages so caregivers can print with one tap without digging through browser menus.
+
+History (round 4): Touch and Tremor Resilience for Digital Dementia Activities. Older adults with dementia and tremors often struggle on touchscreens due to resting-hand contact, accidental drags, unintentional text selection, or trembling double-taps. Added `touch-action: manipulation` across interactive game elements (`.btn`, `.chip`, `.board`, `.tile`, `.basket`, `.puzzle`, `.piece`, `.ws`, `.ws__cell`, `.swatch`, `.color-page`) to eliminate double-tap delay (300ms) and disorienting viewport zoom jumps while preserving smooth single-finger scrolling. Added `-webkit-touch-callout: none`, `-webkit-user-drag: none`, and `pointer-events: none` on inner images to prevent accidental iOS/Android context menus ("Save Image") or ghost drag outlines. Added `user-select: none`, `-webkit-user-select: none`, and `-webkit-tap-highlight-color: transparent` to eliminate distracting blue selection boxes and grey tap flashes.
+
+History (round 3): Sort Together and Word Search completed flows improved. In Sort Together, when all items are sorted into baskets, a calm completion card (.game__done) now appears with the reassuring message `ui.sortTogether.sorted` and a primary button `ui.sortTogether.restart` ("New pictures") so users and caregivers never face an empty void or dead end (W3C COGA Obj 1 & 4, Smart Interface Design Patterns). In Word Search, when all words are found, the footer offers a primary "New puzzle" button alongside "Print this puzzle". Also, shape-conforming `:focus-visible` outlines were added to `.tile`, `.piece` and `.basket` in `games.css`. The missing `footer.pictures` key was added to the 20 remaining language dictionaries in `site/src/i18n/ui/`, bringing UI dictionary completeness to 100% (64 of 64).
+
+History: the library Settings action first failed three 200% tests when put in the app bar; it passes as a body-level button at the end of the page. Hint and Options now sit under the board and scroll with it; the download controls moved into their own wrapping row. The new `commonPause` word is machine-translated in 64 languages (unreviewed). Loading and error states of the library home no longer show Settings.
+
+History (full axe pass): axe-core 4.14 over all 3,920 built pages at 375 px found one rule failing, `scrollable-region-focusable`, on 402 pages: wide markdown tables scroll sideways but could not take keyboard focus. Fix: `FocusableTables.astro` (a bundled script that sets `tabindex="0"` on every `.prose table`) and a `:focus-visible` outline. An `@astrojs/markdown-remark` rehype plugin was not used because Astro 7's default markdown processor does not run it without a new dependency. The table is announced as a table with no extra name.
+
+## Round 82 score note (2026-11-11)
+
+The cap hint uses the existing body text role, surface-variant color and scrollable photo page. A 200% small-phone regression test is written, but could not be run because Flutter and Dart are unavailable. The phrase falls back to English in 66 non-English ARBs. No independent user, device or native-speaker review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score from this not run widget test.
+
+
+## Round 83 score note (2026-11-11)
+
+This round adds an English caregiver guide and one internal link. The site build and automated checks can validate its schema, route, text and links, but they do not prove that the financial guidance is understandable or suitable for people with dementia. No reader, caregiver, financial/legal professional or native-speaker review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+
+## Round 84 score note (2026-11-11)
+
+This English content change adds no app or site behavior. Automated schema, build, checker and link checks can validate the route and wording, but they do not show whether the advice is clear or useful to people with dementia or family caregivers. No reader, clinician, native-speaker or live-browser review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Round 85 score note (2026-11-11)
+
+This English guide adds no app or site behavior. The build and checker can validate the route, schema and links; they cannot establish that a real caregiver can use the advice safely in a crisis. No reader, caregiver, clinician, native-speaker or live-browser review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Round 86 score note (2026-11-11)
+
+This English guide adds no app or site behavior. Automated checks can validate the page, route and links; they cannot show whether a remote caregiver or the person receiving support finds the plan useful. No reader, caregiver, clinician, native-speaker or live-browser review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Round 87 score note (2026-11-11)
+
+This content change adds no app or site behavior. Automated checks validate the changed page and links, but cannot show whether these questions feel comfortable to a person newly diagnosed with dementia or help a family use their wishes well. No reader, caregiver, clinician, native-speaker or live-browser review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Round 88 score note (2026-11-11)
+
+This English guide adds no app or site behavior. Automated checks validate the page and route, but cannot show whether a caregiver can apply the urgent-care guidance safely under stress. No reader, caregiver, clinician, native-speaker or live-browser review was done. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Round 89 score note (2026-11-11)
+
+This is a copy-only safety clarification. Static ARB checks and widget tests can verify the regional labels, but they cannot confirm that every translation or emergency resource is appropriate for a caller's location. No local Flutter, caregiver, native-speaker or device review was completed. Keep the last measured repository-wide score at **9.62** and verification-health score at **7.5**; do not infer a new aggregate score.
+
+## Mobile visual audit score note (2026-11-11; separate maintenance review)
+
+This separate engineering review is not one of the 500 numbered, source-led improvements. App dimensions were re-measured on this branch with Flutter 3.47.7: the full suite (counts in the PR), strict analysis (clean), `test/design_system_test.dart` and the 200% text tests pass. No `site/` file changed, so the website parts carry forward from Round 45 (1,855 tests, 12,491-page build, `check-site` 0 errors). No new user-facing strings were added.
+
+| # | Dimension | Evidence | Score |
+| --- | --- | --- | --- |
+| 1 | Plain language | No new strings; carried forward | 10.0 |
+| 2 | Type and contrast | Design-system tests pass; tokens unchanged | 9.75 |
+| 3 | Targets and navigation | App target tests pass; planner chips ≥48 high; every action keeps a word | 10.0 |
+| 4 | Structure and semantics | App semantics tests pass; site carried forward | 10.0 |
+| 5 | Reflow and large text | App 200% tests pass; Daily moment overflow at 200% (308px on `main`) fixed; site carried forward | 10.0 |
+| 6 | Localization completeness | No new keys; carried forward | 9.37 |
+| 7 | Product integrity | Gentle-mode guards pass; Look together drops the "1 of 183" count; mobile packs keep hidden tiles by maintainer decision | 10.0 |
+| 8 | Verification health | Flutter suite and strict analysis measured here; site tests and build from Round 45 (no site change) | 10.0 |
+
+Weighted overall: 1.000 + 1.4625 + 1.000 + 1.500 + 1.500 + 1.4055 + 1.000 + 1.000 = **9.87**. Lowest dimension: localization at 9.37. The bar is met. Device, VoiceOver/TalkBack and caregiver checks are not verified and not scored.
+
+## Round 90 score note (2026-11-12)
+
+This content-only guide and internal link add no app behavior. Automated schema, build, checker and link checks confirm the route and source links, but do not show whether LGBTQ+ people with dementia, partners or chosen-family caregivers find the wording respectful or useful. No lived-experience, care-provider, clinician, native-speaker or live-browser review was done. Keep the latest measured repository-wide score at **9.87** and lowest dimension at **9.37**; do not infer a new aggregate score from this round.
+
+## Round 91 score note (2026-11-12)
+
+This content-only guide adds no app behavior. The unit tests and TypeScript check cannot show whether multilingual readers or a person with dementia understand the guidance, and the static site build did not finish locally. No multilingual reader, caregiver, clinician, interpreter, native-speaker or live-browser review was done. Keep the latest measured repository-wide score at **9.87** and lowest dimension at **9.37**; do not infer a new aggregate score from this round.

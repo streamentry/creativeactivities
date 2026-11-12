@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Transi ad argumentum principale",
+    "brandName": "Creative Activities",
+    "brandTag": "Actiones pro dementia",
+    "homeLabel": "Pagina prima Creative Activities",
+    "mainNav": "Navigatio principalis",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: imagines magnae et amicae poculi, helianti et canis",
+    "languages": "Lingua",
+    "englishOnly": "(Anglice)",
+    "machineTranslated": "Haec pagina automatice conversa est et nondum a locutore nativo recognita est.",
+    "readOriginal": "Lege textum originalem Anglice",
+    "nav": {
+      "games": "Ludi",
+      "activities": "Actiones",
+      "caregiving": "Cura",
+      "brainHealth": "Valetudo cerebri"
+    },
+    "faqTitle": "Quaestiones et responsa",
+    "breadcrumb": "Iter paginarum",
+    "home": "Pagina prima",
+    "lastUpdated": "Postremo renovatum",
+    "topics": "Argumenta",
+    "textSize": {
+      "label": "Magnitudo litterarum",
+      "smaller": "Litterae solitae",
+      "larger": "Litterae maiores",
+      "contrast": "Maior oppositio colorum"
+    }
+  },
+  "footer": {
+    "play": "Lude",
+    "picturePairs": "Paria imaginum",
+    "conversationCards": "Chartulae colloquii",
+    "pictureBingo": "Bingo imaginum",
+    "allGames": "Omnes ludi",
+    "pictures": "Imagines imprimendae",
+    "activityIdeas": "Consilia actionum",
+    "ideas101": "101 consilia actionum",
+    "lateStage": "Actiones pro gradu provectiore",
+    "printable": "Actiones imprimendae",
+    "allActivities": "Omnes actiones",
+    "forCaregivers": "Pro eis qui curam praebent",
+    "playTogether": "Quomodo una ludatis",
+    "selfCare": "Cura tui ipsius",
+    "brainHealth": "Investigationes de valetudine cerebri",
+    "faq": "Quaestiones et responsa",
+    "about": "De nobis",
+    "approach": "Noster modus",
+    "howWeWrite": "Quomodo scribimus",
+    "organizations": "Pro societatibus",
+    "app": "Applicatio Creative Activities",
+    "appHelp": "Auxilium applicationis",
+    "support": "Auxilium",
+    "legal": "Iuridica",
+    "sitePrivacy": "Privata situs interretialis",
+    "appPrivacy": "Ratio privatitatis applicationis",
+    "privacyChoices": "Electiones privatitatis",
+    "terms": "Condiciones et licentia applicationis",
+    "safety": "Securitas et usus destinatus",
+    "accessibility": "Accessibilitas",
+    "healthNotice": "Notitia de valetudine",
+    "allLegal": "Omnes notitiae iuridicae",
+    "note": "Creative Activities actiones simplices ad una fruendum praebet. Non est consilium medicum, non probatio nec curatio, neque quemquam dignoscit, metitur aut aestimat. De quaestionibus valetudinis cum medico loquere. In casu subito, voca numerum auxilii subiti tuae regionis.",
+    "publisher": "Editum a Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Ludi et actiones pro dementia et morbo Alzheimer | Creative Activities",
+    "description": "Ludi imaginum lenes et gratuiti, in rete ludendi, et consilia actionum pro hominibus cum dementia vel morbo Alzheimer viventibus et pro eis qui curam praebent. Sine inscriptione, sine horologiis, sine punctis.",
+    "eyebrow": "Gratuitum · Sine praeconiis · Sine inscriptione · Sine horologiis aut punctis",
+    "h1": "Ludi et actiones lenes pro hominibus cum dementia viventibus",
+    "lede": "Ludi imaginum simplices, imagines familiares et actiones quibus una frui potestis, vestro modo.",
+    "playGame": "Lude ludum",
+    "findIdeas": "Inveni consilia actionum",
+    "facts": [
+      "In telephono, tabula et computatro adhiberi potest",
+      "Imagines magnae quae semper videntur",
+      "Quovis tempore desistere potes; nihil est quod male fiat"
+    ],
+    "heroApp": "Etiam applicatio gratuita pro iPhone, iPad et Android, cum propriis imaginibus familiae tuae",
+    "albumNote": "«Duae imagines poculi, una.»",
+    "gamesEyebrow": "Lude in navigatro tuo",
+    "gamesTitle": "Ludi quos statim ludere potes",
+    "gamesLede": "Quisque ludus est tranquillus, adultus et cito incipiendus. Elige unum, sedete una, et tangite vicissim.",
+    "seeAllGames": "Vide omnes {count} ludos",
+    "howTitle": "Quomodo fit",
+    "steps": [
+      {
+        "title": "Elige aliquid familiare",
+        "text": "Imagines poculorum, hortorum, animalium domesticorum et navium veliferarum. Nihil legendum aut discendum ante est."
+      },
+      {
+        "title": "Sedete una",
+        "text": "Sine eum vel eam tangere. De imaginibus loquimini. Si imagines non congruunt, ludus simpliciter proximum tactum exspectat."
+      },
+      {
+        "title": "Desistite dum bene se habet",
+        "text": "Unus ludus est actio perfecta. «Nunc satis» semper in screen apparet."
+      }
+    ],
+    "stageEyebrow": "Ultra screen",
+    "stageTitle": "Consilia actionum pro omni gradu",
+    "stageLede": "Musica, opera cotidiana, recordatio et momenta quieta sensuum, accommodata ad id quod nunc commodum videtur.",
+    "ideas101": "101 consilia actionum",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Gradus prior",
+        "text": "Pergite facere ea quae ei vel ei placent, cum parvis mutationibus: studia, exitus, ludi verborum et consilia una facienda.",
+        "label": "Consilia pro gradu priore"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Gradus medius",
+        "text": "Opera simplicia et familiaria in gradus divisa: plicare, ordinare, musica, ludi imaginum et breves ambulationes.",
+        "label": "Consilia pro gradu medio"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Gradus posterior",
+        "text": "Solacium et coniunctio per tactum, sonum et visum: cura manuum, cantus dilecti, imagines et tempus una actum.",
+        "label": "Consilia pro gradu posteriore"
+      }
+    ],
+    "specificHtml": "Aliquid certum quaeris? Conare <a href=\"/activities/alzheimers/\">actiones et ludos pro morbo Alzheimer</a>, <a href=\"/activities/memory-games/\">ludos memoriae lenes</a>, <a href=\"/activities/trivia/\">quaestiones faciles</a> aut <a href=\"/activities/puzzles/\">aenigmata</a>.",
+    "approachEyebrow": "Noster modus",
+    "approachTitle": "Actio communis, non probatio memoriae",
+    "approachLede": "Multi «ludi cerebri» circa celeritatem, puncta et series struuntur. Ei qui cum dementia vivit hoc fortasse sicut examen videtur. Nos contrarium fecimus.",
+    "approachLink": "Cur ita hoc formemus",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Nihil est quod male fiat",
+        "text": "Nullum horologium, nulla puncta, nullae vitae, nulla amissio. Imago alia est pausa, non error."
+      },
+      {
+        "icon": "eye",
+        "title": "Imagines semper videntur",
+        "text": "Agnitio potius quam recordatio. Ludus congruentiae incipit omnibus imaginibus apertis, ita nihil memoria tenendum est."
+      },
+      {
+        "icon": "people",
+        "title": "Adultum et dignum",
+        "text": "Verba calida et plana atque imagines rerum cotidianarum. Numquam imagines pueriles aut sermo infantilis."
+      },
+      {
+        "icon": "shield",
+        "title": "Privatum ex consilio",
+        "text": "Nullae rationes, nulla praeconia. Imagines tuae numquam machinam tuam relinquunt."
+      }
+    ],
+    "guidesEyebrow": "Pro eis qui curam praebent",
+    "guidesTitle": "Consilia utilia pro cura cotidiana",
+    "allCaregiving": "Omnia consilia de cura",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Quomodo una ludos ludatis",
+        "text": "Praeparatio, modus et quid facias cum ludus iam iucundus non est."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Cum actionem recusat",
+        "text": "Causae communes recusandi et modi lenes postea iterum conandi."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Quomodo tabulam instruas",
+        "text": "Litterae maiores, pauciores interpellationes et una screen prima simplex."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Actiones gratuita imprimendae",
+        "text": "Verba quaerenda magnis litteris, paginae colorandae, bingo et chartulae colloquii."
+      }
+    ],
+    "researchTitle": "Valetudo cerebri: quid investigationes vere dicant",
+    "researchText": "Potestne dementia praecaveri? Ludi cerebri iuvantne? Quid de ieiunio, victu, somno et auditu? Responsa plana et fontibus nixa, etiam ubi indicia infirma sunt.",
+    "researchLink": "Lege consilia de investigationibus",
+    "appEyebrow": "Etiam applicatio",
+    "appTitle": "Creative Activities in iPhone, iPad et Android",
+    "appText": "Applicatio gratuita etiam sine rete operatur et imaginibus familiae uti potest quas tu eligis, in machina tua ut exempla servatis. Idem consilium tranquillum: quattuor tesserae magnae, sine horologio, sine punctis.",
+    "aboutApp": "De applicatione",
+    "faq": [
+      {
+        "q": "Qui ludi hominibus cum dementia viventibus apti sunt?",
+        "a": "Ludi boni simplices et familiares sunt, sine pressione: magnae imagines componendae, res ordinandae, faciles picturae dissecandae, dicta nota perficienda, imagines colorandae, bingo imaginum et chartae ad colloquendum. Optima electio est id quod persona hodie iucundum invenit. Vita horologia, puncta et omnia quae probationem sentiuntur."
+      },
+      {
+        "q": "Suntne hi ludi de dementia gratuiti?",
+        "a": "Ita. Omnes ludi et paginae imprimendae in Creative Activities gratuiti sunt, sine ratione, inscriptione aut deoneratione. Ludi in navigatro interretiali in telephono, tabula computatrali aut computatro currunt."
+      },
+      {
+        "q": "Prohibentne ludi cerebrales dementiam?",
+        "a": "Nullus ludus demonstratus est dementiam prohibere, et Creative Activities non affirmat se quidquam curare aut prohibere. Ludi nostri ad delectationem et tempus una agendum sunt. Pars nostra de valetudine cerebri explicat quid investigatio monstret et quid non monstret."
+      },
+      {
+        "q": "Suntne hi ludi apti ei qui morbo Alzheimer vivit?",
+        "a": "Ita. Morbus Alzheimer est causa frequentissima dementiae, et ludi ad hoc facti sunt: magnae imagines quae visibiles manent, paucae electiones, et nihil quod meminisse aut errare debeas. Imagines componere, res ordinare et dicta familiaria perficere scientia diu retenta nituntur potius quam nova discendo."
+      },
+      {
+        "q": "Potestne aliquis qui in gradu posteriore dementiae vivit his actionibus uti?",
+        "a": "Saepe ita, si aliquis iuxta adest. Incipe cum «Inveni idem» cum duabus imaginibus, «Paria imaginum» cum quattuor tegulis, pagina coloranda aut tranquilla respirationis pausa. Breve serva, eius ductum sequere et desine cum satis habuerit."
+      },
+      {
+        "q": "Suntne notitiae meae privatae?",
+        "a": "Situs rationes non habet nec praeconia. Google Analytics utimur ut intellegamus quae paginae visitentur. Photographemata quae pro «Paria imaginum» eligis solum in navigatro tuo ostenduntur et numquam onerantur."
+      },
+      {
+        "q": "Quis Creative Activities facit?",
+        "a": "Creative Activities est parva turma quae tranquillas actiones imaginum pro adultis facit, pro familiis et iis qui curam praebent, in interreti et ut applicationem gratuitam. Clinici non sumus, et nihil hic est consilium medicum."
+      }
+    ]
+  },
+  "stage": {
+    "early": "praecox",
+    "middle": "medius",
+    "late": "posterior",
+    "hintOne": "Saepe aptum gradui {list}",
+    "hintMany": "Saepe aptum gradibus {list}",
+    "labelEarly": "Gradus praecox",
+    "labelMiddle": "Gradus medius",
+    "labelLate": "Gradus posterior"
+  },
+  "cards": {
+    "aboutGame": "De hoc ludo",
+    "printable": "Imprimendum",
+    "play": "Lude {name} →",
+    "readGuide": "Lege ducem"
+  },
+  "playCta": {
+    "title": "Paratus ad lenem ludum?",
+    "text": "Magnae imagines, nullum horologium, nulla puncta et nihil cui inscribaris. Lude una in navigatro tuo.",
+    "play": "Lude ludum",
+    "all": "Vide omnes ludos",
+    "aria": "Lude ludum"
+  },
+  "appCta": {
+    "title": "Hos ludos tecum fer",
+    "text": "Applicatio gratuita Creative Activities pro iPhone, iPad et Android: magnae tegulae imaginum, ludi cum photographiis familiae tuae, et fasciculi imaginum qui sine Wi‑Fi operantur. Nulla ratio, nulla praeconia, nullum horologium, nulla puncta.",
+    "appStore": "Accipe in App Store",
+    "googlePlay": "Accipe in Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "De applicatione",
+    "aria": "Accipe applicationem"
+  },
+  "sections": {
+    "activities": {
+      "label": "Actiones",
+      "title": "Actiones pro hominibus qui cum dementia vivunt",
+      "seo": "Actiones pro hominibus qui cum dementia vivunt: consilia per gradum",
+      "description": "Consilia actionum pro hominibus qui cum dementia vivunt in omni gradu: musica, memoria, opera cotidiana, momenta sensuum, artificia, foris et paginae gratuita imprimendae.",
+      "lede": "Actio significans est quidquid solacium, propositum aut momentum coniunctionis affert. Incipe ab eo quod persona semper amavit, et id hodie apta."
+    },
+    "caregiving": {
+      "label": "Cura",
+      "title": "Duces de cura",
+      "seo": "Duces de cura dementiae: auxilium cotidianum utile",
+      "description": "Duces utiles et benigni pro iis qui curam praebent: ludere una, communicare, recusationes, inquietudo vespertina, tabulae computatrales, eligere applicationes et cura sui.",
+      "lede": "Auxilium simplex et utile pro momentis cotidianis curandi aliquem qui cum dementia vivit, etiam curando te ipsum."
+    },
+    "brain-health": {
+      "label": "Valetudo cerebri",
+      "title": "Valetudo cerebri: quid investigatio dicat",
+      "seo": "Valetudo cerebri et periculum dementiae: quid investigatio dicat",
+      "description": "Potestne dementia prohiberi? Duces honesti, fontibus muniti, de factoribus periculi dementiae, ludis cerebralibus, ieiunio, victu, exercitatione, somno, auditu et signis praecocibus.",
+      "lede": "Quid magna studia re vera ostendant de periculo dementiae minuendo, plane explicatum, etiam ubi indicia infirma aut mixta sunt. Notitia generalis, non consilium medicum."
+    }
+  },
+  "guide": {
+    "updated": "Renovatum",
+    "minuteRead": "Lectio {n} minutarum",
+    "byTeam": "A turma Creative Activities",
+    "howWeWrite": "Quomodo scribimus",
+    "shortAnswer": "Responsum breve",
+    "onThisPage": "In hac pagina ({n} partes)",
+    "commonQuestions": "Quaestiones communes",
+    "sources": "Fontes",
+    "sourcesNote": "Coniungimus ad instituta et studia quibus haec pagina nititur. Unumquodque revisum est cum pagina renovata est.",
+    "tryTogether": "Conamini una",
+    "relatedGuides": "Duces cognati",
+    "related": "Cognata",
+    "startHere": "Incipe hic"
+  },
+  "healthNotice": {
+    "aria": "Notitia de valetudine",
+    "title": "Notitia generalis, non consilium medicum",
+    "textHtml": "Haec pagina investigationem editam pro familiis summatim exponit. Non potest dicere quid uni personae aptum sit. Loquere cum medico antequam victum, exercitationem, somnum, medicamenta aut supplementa mutes. Si confusio subita aut aliae mutationes subitae fiunt, auxilium medicum statim pete. <a href=\"/medical-disclaimer/\">Lege nostram notitiam de valetudine</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Actio communis, non probatio memoriae",
+      "seoTitle": "De Creative Activities: nostra ratio",
+      "description": "Cur ludi Creative Activities horologia, puncta aut series non habeant, cur imagines visibiles maneant, et quid de dementia affirmabimus aut non affirmabimus.",
+      "crumb": "Nostra ratio",
+      "lede": "Creative Activities tranquillas actiones imaginum pro adultis facit, quibus is qui curam praebet et aliquis qui cum dementia vivit una frui possunt.",
+      "bodyHtml": "<h2>Quid credimus</h2><p>Finis actionis est ipse hic momentus: sermo, risus, gaudium cum duas imagines coniungis, aut simpliciter una sedere. Non est quemquam metiri, urgere aut aliquid probare.</p><p>Multae applicationes ad exercitationem mentis celeritate, punctis, seriebus et gradibus nituntur. Homini qui cum dementia vivit hoc examen videri potest quod vincere non potest. Nos contrarium excogitavimus et his regulis nos obligamus:</p><ul><li><strong>Nihil quod deficere possis.</strong> Nullum horologium, nulla puncta, nullus numerus motuum, nullae vitae, nullae series, nullae confetti, nulla tempora decurrentia, in nulla pagina.</li><li><strong>Agnoscere, non meminisse cogere.</strong> Imagines plerumque apertae manent. Monita ad sermonem invitant et numquam nomina aut memorias interrogant.</li><li><strong>Magna, clara et stabilia.</strong> Litterae et imagines magnae, clarus colorum contrastus, et moderamina quae eodem loco manent.</li><li><strong>Dignitas adulta.</strong> Imagines rerum cotidianarum et verba clara ac benigna. Nullae imagines pueriles, nulla laudatio cantilenae similis, nulla praemia per emoji.</li><li><strong>Facilis exitus.</strong> \"Nunc satis est\" semper videri potest. Intermittere media in actione bonum eventum est.</li><li><strong>Tutum ex origine.</strong> Nullae rationes usoris, nulla praeconia. Photographemata quae eligis in tuo instrumento manent.</li></ul><h2>Quae non affirmamus</h2><p>Ludi nostri ad delectationem et coniunctionem pertinent. Dementiam aut morbum Alzheimer non dignoscunt, non probant, non metiuntur, non curant, non tardant, non impediunt, neque quisquam eos ob hanc causam eligere debet. Cum de investigationibus in <a href=\"/brain-health/\">paginis nostris de valetudine cerebri</a> scribimus, aperte dicimus ubi indicia infirma sunt, et ea numquam cum ludis nostris coniungimus.</p><h2>Qui simus</h2><p>Creative Activities est parvus grex sui iuris. Medici non sumus. Duces nostri ex praeceptis editis ab institutis sicut National Institute on Aging et Alzheimer’s Association scribuntur, et omnis dux fontes suos enumerat. Lege <a href=\"/editorial-policy/\">quomodo paginas nostras scribamus et comprobemus</a>.</p><h2>Dic nobis quid iuvet</h2><p>Libenter audimus quid tibi bene succedat et quid minus, praesertim ab hominibus qui cum dementia vivunt, a familiaribus qui curam praebent et ab eis qui actiones ducunt. Scribe ad <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Quomodo paginas nostras scribimus et comprobamus",
+      "seoTitle": "Ratio editorialis",
+      "description": "Quomodo Creative Activities paginas de actionibus pro dementia et de valetudine cerebri investigat, scribit, fontibus munit et renovat, et quid numquam edemus.",
+      "crumb": "Ratio editorialis",
+      "bodyHtml": "<h2>Fontes nostri</h2><p>Duces nostri in praeceptis publicis nituntur ab institutis sicut National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance et NHS, atque in investigationibus a peritis recognitis sicut recognitiones Cochrane et magna experimenta clinica. Omnis dux fontes enumerat quibus nititur. Quemque fontem aperimus antequam eum citamus, et solum id referimus quod revera dicit.</p><h2>Quomodo scribimus</h2><ul><li>Primum utilitas: quid hodie facere possis, verbis claris.</li><li>Honeste de indiciis: dicimus \"coniunctum cum\", \"fortasse\" et \"indicia mixta sunt\", cum id verum est.</li><li>Cum reverentia: de hominibus qui cum dementia vivunt ut de adultis scribimus, et numquam verbis interrogantibus aut pudorem afferentibus utimur.</li><li>Nulla ficta: nullae statisticae, sententiae, periti, studia, recognitiones aut testimonia conficta.</li></ul><h2>Quis paginas nostras recognoscit</h2><p>Paginae a grege Creative Activities scribuntur et comprobantur, adiuvantibus instrumentis scriptionis intellegentiae artificialis ad investigandum et scribendum. Omnis pagina a grege cum fontibus suis confertur. Paginae nostrae <strong>non</strong> a medico aut alio clinico recognitae sunt, neque id affirmamus. Sunt notitiae generales, non consilium medicum.</p><h2>Quae numquam edemus</h2><ul><li>Affirmationes quod ludus, cibus, supplementum, ieiunium aut consuetudo dementiam impedit, curat, tardat aut sanat.</li><li>Probationes, interrogationes aut puncta quae suadent aliquem dementiam habere aut non habere.</li><li>Consilium ut medicamentum incipias, desinas aut mutes.</li><li>Praeconia aut contentum sponsoratum quod tamquam consilium apparet.</li></ul><h2>Renovationes et correctiones</h2><p>In omni pagina dies ostenditur quo novissime renovata est. Si errorem aut fontem obsoletum inveneris, scribe quaeso ad <a href=\"mailto:{email}\">{email}</a> et rem celeriter comprobabimus.</p>"
+    },
+    "faq": {
+      "title": "Quaestiones et responsa",
+      "seoTitle": "Ludi et actiones pro dementia: quaestiones et responsa",
+      "description": "Responsa ad quaestiones communes de ludis et actionibus pro dementia: quos ludos experiri, quam diu ludere, consilia pro gradibus posterioribus, valetudo cerebri et tutela vitae privatae.",
+      "crumb": "Quaestiones et responsa",
+      "lede": "Brevia et clara responsa ad quaestiones quas curatores saepissime rogant.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "De ludis",
+          "items": [
+            {
+              "q": "Qui ludi optimi sunt homini cum dementia?",
+              "a": "Optimi ludi sunt noti, simplices et sine pressura, et aptissimus est is quo homo hodie gaudet. Coniungere imagines apertas, ordinare, facilia fragmenta imaginis, complere dicta nota, colorare et bingo imaginum multis hominibus bene conveniunt. Vita tempora decurrentia, puncta et quidquid tamquam examen videtur."
+            },
+            {
+              "q": "Ludi vere gratuiti sunt?",
+              "a": "Ita. Omnes ludi et paginae imprimendae gratuiti sunt, sine ratione, inscriptione, deductione aut praeconiis mercatoriis."
+            },
+            {
+              "q": "Cur nulla sunt puncta, gradus aut horologia?",
+              "a": "Celeritas et puncta iucundam actionem in examen vertunt, quod pudorem aut frustrationem afferre potest. Animum ad delectationem et tempus una actum intendimus, ut nihil sit quod male eveniat et quovis momento desistere possis."
+            },
+            {
+              "q": "Quae instrumenta optime apta sunt?",
+              "a": "Quilibet telephonum gestabile, tabula computatralis aut computatrum cum navigatro interretiali recenti. Tabula computatralis in fulcro ad mensam posita saepe commodissima est via duobus hominibus una iuxta ludentibus. Computatrum gestabile ad televistrum coniunctum bene aptum est coetibus."
+            },
+            {
+              "q": "Possumusne nostris familiaribus photographiis ludere?",
+              "a": "Ita. Paria photographica 2 ad 6 photographias, quas eligis, in ludum comparationis vertunt. Photographemata in navigatro tuo manent neque transmittuntur neque servantur."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Actiones et cura",
+          "items": [
+            {
+              "q": "Quam diu actio durare debet?",
+              "a": "Saepe 10 ad 20 minuta satis sunt, et interdum 2 minuta iam successus sunt. Observa signa defatigationis aut frustrationis et desiste dum adhuc iucundum videtur. Nulla est recta mensura."
+            },
+            {
+              "q": "Quid si is quem curas actionem facere non vult?",
+              "a": "Hoc «non» observa et postea aut alio modo iterum tempta. Recusatio ex defatigatione, dolore, dubitatione aut simpliciter ex eo oriri potest quod res non placet. Vide ducem nostrum de eo quod faciendum est cum dicit «non»."
+            },
+            {
+              "q": "Quae actiones aptae sunt dementia provectiore?",
+              "a": "Solacium et sensus: musicam gratissimam audire, manus unguento leniter fricare, una photographias spectare, lodicem mollem tenere, foris sedere, aut ludum imaginum simplicissimum cum aliquo iuxta sedente agere. Dux noster de stadio provectiore plures ideas habet."
+            },
+            {
+              "q": "Suntne actiones aptae coetibus in domo curae?",
+              "a": "Ita. Bingo imaginum chartas imprimendas et vocatorem in scrinio habet, et Perfice dictum et Chartae colloquii bene leguntur clara voce. Dux noster de coetibus in domo curae magnitudinem coetus, sedes et accommodationem ad varias facultates tractat."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Valetudo cerebri",
+          "items": [
+            {
+              "q": "Possuntne ludi dementiam prohibere aut retardare?",
+              "a": "Nullus ludus demonstratus est dementiam prohibere, neque ludi nostri tale quid affirmant. Stimulatio cognitiva in rerum socialium contextu in investigationibus parva commoda hominibus cum dementia levi ad moderatam ostendit, sed hoc aliud est atque ludus qui morbum prohibeat. Ludos ad delectationem et coniunctionem praebemus."
+            },
+            {
+              "q": "Potestne dementia prohiberi?",
+              "a": "Non certo. Investigatio 14 factores valetudinis et vitae cum periculo dementiae coniungit, sicut iacturam auditus, pressionem sanguinis altam, inactivitatem corporis et solitudinem socialem. His occurrere periculum quibusdam hominibus fortasse minuere potest, sed multi qui omnia recte faciunt tamen dementiam accipiunt. Numquam culpa cuiusquam est."
+            },
+            {
+              "q": "Estne ieiunium intermittens utile valetudini cerebri?",
+              "a": "Documenta in hominibus circumscripta et prima sunt, et magna pars investigationis in animalibus fit. Ieiunium maioribus natu periculosum esse potest, praesertim cum medicamentis contra diabetem aut cum pondere non consulto amisso, neque hominibus qui cum dementia vivunt commendatur. Cum medico colloquere antequam rationem edendi mutas."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Tutela secretorum et securitas",
+          "items": [
+            {
+              "q": "Colligitisne aliqua indicia?",
+              "a": "Nullae rationes aut praeconia mercatoria. Google Analytics adhibemus ut visitationes numeremus et videamus quae paginae prosint, et navigator tuus meminit utrum sonos lenes accenderis necne. Photographemata quae ad Paria photographica eligis numquam transmittuntur. Vide nuntium de tutela secretorum plura cognoscendi causa."
+            },
+            {
+              "q": "Estne hoc consilium medicum?",
+              "a": "Non. Creative Activities ad recreationem et informationem generalem destinatur. De quaestionibus valetudinis cum medico loquere, et in rebus subitis numerum auxilii subiti loci tui voca."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Plura: <a href=\"/caregiving/how-to-play-together/\">quomodo una ludatis</a>, <a href=\"/caregiving/when-they-say-no/\">cum dicit «non»</a>, <a href=\"/activities/late-stage/\">actiones stadio provectiore</a> et <a href=\"/brain-health/can-dementia-be-prevented/\">potestne dementia prohiberi?</a>"
+    },
+    "handout": {
+      "title": "Ludi gratuiti et lenes hominibus qui cum dementia vivunt",
+      "seoTitle": "Pagina imprimenda: ludi gratuiti de dementia in interreti",
+      "description": "Pagina una imprimenda familiis et curatoribus de ludis imaginum gratuitis et lenibus hominibus qui cum dementia vivunt, apta coetibus auxilii et fasciculis curae.",
+      "crumb": "Pagina imprimenda",
+      "lede": "Hanc paginam imprime pro coetu auxilii, fasciculo curae aut ianua armarii refrigerantis. Utere iussu Imprime navigatoris tui; indices et globuli in impressione non apparent.",
+      "introHtml": "<p>Imagines magnae, verba plana et nihil quod male eveniat. Gratuitum in telephono gestabili, tabula computatrali aut computatro, sine inscriptione, sine praeconiis mercatoriis, sine horologiis et sine punctis. Iuxta sedete et vicissim agite.</p>",
+      "gamesTitle": "Ludi una temptandi",
+      "restHtml": "<h2>Pauca consilia</h2><ul><li>Elige tempus diei quo is quem curas optime se habet.</li><li>Incipe a gradu facillimo. Quattuor tesserae satis sunt.</li><li>De imaginibus colloquimini. Colloquium saepe pars optima est.</li><li>Desiste dum adhuc iucundum videtur. Cito finire bonus exitus est.</li></ul><h2>Etiam in hoc situ</h2><ul><li>Paginae imprimendae gratuita: inquisitio verborum magnis litteris, paginae colorandae, chartae colloquii et bingo imaginum.</li><li>Ideae actionum cuique stadio aptae, et duces de ludo una agendo et de cura tui ipsius.</li></ul><p class=\"muted\">Ad delectationem et tempus una actum. Non est consilium medicum, probatio aut curatio. Creative Activities a Cloudjet Solutions Pte. Ltd. editur.</p>"
+    },
+    "organizations": {
+      "title": "Pro domibus curae, bibliothecis et coetibus auxilii",
+      "seoTitle": "Actiones liberae pro iis qui cum dementia vivunt, pro domibus curae et gregibus",
+      "description": "Quomodo domus curae, sedes diurnae, bibliothecae, et greges auxilii ludis nostris liberis utantur, una cum verbis ad nos in indicem utilium addendos.",
+      "crumb": "Pro institutis",
+      "lede": "Omnia in hoc situ gratis adhiberi possunt cum incolis, sodalibus, et iis quos curatis, nullo indice nominis, diplomatibus, vel mercede postulatis. Haec pagina explicat quid hic inveniatur et quomodo communicari possit.",
+      "shortText": "{name}: ludi imaginum faciles et liberi, atque duces actionum pro iis qui cum dementia vivunt et eorum curantibus. Sine perscriptione, sine horologiis, sine punctis.",
+      "longText": "{name} ({domain}) praebet {count} ludos navigatri liberos, factos pro iis qui cum dementia vivunt, inter quos paria imaginum quae aperta manent, facilia aenigmata composita, res ordinandas, proverbia nota, et ludum aleatorium imaginum (bingo) cum chartulis imprimendis. Nullus est index nominis, nulla praeconia, nullum horologium, nulla puncta. Situs etiam duces actionum verbis planis pro omnibus gradibus dementiae continet, qui National Institute on Aging et Alzheimer's Association commemorant.",
+      "useTitle": "Quae instituta adhibere possunt",
+      "gamesItemHtml": "<strong>{count} ludi navigatri</strong> qui in computatro portabili, tabula electronica, vel televisorio cum computatro conexo agi possunt. Sine institutione, indice nominis, vel oneratione. Vide <a href=\"/games/\">omnes ludos</a>.",
+      "printablesLabel": "{count} res imprimendae:",
+      "printablesAfter": "Utere globulo Imprimere in unaquaque pagina.",
+      "moreItemsHtml": "<li><strong>Formae pro gregibus:</strong> <a href=\"/games/picture-bingo/\">Bingo imaginum</a> chartulas imprimendas et monitorem in scrinio habet, et <a href=\"/activities/trivia/\">quaestiones faciles</a> 50 interrogationes cum optionibus responsionum et argumentis ad colloquendum praebent.</li><li><strong>Duces actionum</strong> pro ministris et familiis, pro gradu ac genere dispositi, verbis planis et fontibus allatis conscripti. Incipe a <a href=\"/activities/ideas/\">101 consiliis actionum</a> vel <a href=\"/activities/care-home-groups/\">actionibus gregalibus pro domibus curae</a>.</li>",
+      "restHtml": "<h2>Quomodo greges his utantur</h2><ul><li><strong>Domus curae et custodia memoriae:</strong> bingo imaginum vel complere sententias in televisorio conclavis communis, uno homine pro toto grege tangendo eligente.</li><li><strong>Programmata diurna adultorum:</strong> statio cum tabula electronica et paribus imaginum ad quattuor tessellas compositis, pro brevibus sessionibus singularibus.</li><li><strong>Bibliothecae publicae:</strong> investigationes verborum impressae et chartulae ad colloquendum in instrumentis memoriae, et hic situs in tabulis bibliothecae servatus.</li><li><strong>Greges auxilii curantibus et cauponae memoriae:</strong> <a href=\"/handout/\">libellus unius paginae imprimendus</a> quem familiae domum ferant.</li><li><strong>Nosocomia et qui de missione disponunt:</strong> idem libellus in fasciculis curantium datus, ut sit res tranquilla quam domi vel ad lectum agant.</li></ul><h2>Quae non facimus</h2><p>Hi ludi ad delectationem et tempus una transigendum parati sunt. Non iudicant, non probant, non puncta computant, neque dementiam curant vel retardant, et instituta rogamus ne eos ita describant. Nulla sunt praeconia, nec ludi nomina, indicia valetudinis, vel imagines imponendas poscunt. Hic situs interretialis Google Analytics adhibet ad visitationes numerandas; <a href=\"/privacy/\">notitia de secretis tuendis</a> explicat quid colligatur. Imagines adhibitae in <a href=\"/games/photo-pairs/\">Paria imaginum</a> intra navigatrum manent.</p><h2>Adde nos ad indicem subsidiorum tuum</h2><p>Si indicem subsidiorum curantibus servas, libenter vinculum ad <a href=\"/\">{domain}</a> addere potes. Licet utramvis descriptionem transcribere.</p>",
+      "shortTitle": "Descriptio brevis",
+      "longTitle": "Descriptio fusior",
+      "linksHtml": "<p>Paginae utiles ad quas directe coniungatur: <a href=\"/games/\">ludi liberi</a>, <a href=\"/activities/printable/\">res imprimendae liberae</a>, <a href=\"/activities/alzheimers/\">actiones pro morbo Alzheimeriano</a> et <a href=\"/caregiving/how-to-play-together/\">quomodo una ludatur</a>.</p><h2>Quaestiones vel emendationes</h2><p>Si quid in situ mendosum vel obscurum est, aut si necessitates incolae his non satisfiunt, quaesumus nos certiores facias apud <a href=\"mailto:{email}\">{email}</a>. Noli mittere indicia privata vel valetudinis de incolis aut iis quos curatis.</p>"
+    },
+    "app": {
+      "title": "Applicatio Creative Activities",
+      "seoTitle": "Applicatio Creative Activities pro iPhone et Android",
+      "description": "Applicatio libera Creative Activities: paria imaginum facilia cum quattuor tessellis magnis, imagines familiarum in instrumento tuo servatae, sarcinae imaginum sine interrete adhibendae, et sine indice nominis.",
+      "crumb": "Applicatio",
+      "lede": "Omnia quae in situ interretiali tibi placent, in applicatione quae sine interrete operatur et imagines familiares a te electas adhibere potest.",
+      "worksOn": "Aptum pro {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Incipe parvis</h2><p>Incipe cum quattuor magnis tesseris et imaginibus notis. Imagines visibiles relinque, aut eas absconde si id commodius videtur. Modus lenis horologium, puncta aut poenam non habet. Elige 4, 6, 8 aut 12 tesseras.</p><h2>Fac id personale</h2><p>Photographemata familiaria cum selectore photographiarum instrumenti tui elige. Applicatio minores exemplares ad suas actiones servat. Bibliothecam tuam non perscrutatur nec photographias originales mutat, et usque ad 24 photographias in una collectione servat.</p><h2>Una simpliciter aspicite</h2><p>Unam imaginem simul aspicite. Quaestiones voluntariae ad colloquium invitant, neminem rogantes ut nomina meminerit aut responsum rectum det. Satis est simpliciter aspicere.</p><h2>Sine conexione interretiali ubi maxime refert</h2><p>Imagines initiales et omnes octo fasciculi imaginum in applicatione continentur. Exemplaria photographiarum importata sine conexione interretiali operantur. Eligere originalia quae solum in iCloud servantur conexione interretiali egere potest.</p><h2>Nullum rationarium, nullus servus ad photographias synchronizandas</h2><p>Exemplaria photographiarum familiarium in applicatione in instrumento manent. Exemplaria removere potes sine deletione originalium. Exemplaria securitatis instrumenti data applicationis continere possunt. Lege <a href=\"/app-privacy/\">decretum de tutela vitae privatae applicationis</a>, et <a href=\"/help/\">auxilium applicationis</a> singulos gradus explicat.</p>",
+      "disclaimer": "Creative Activities ad recreationem et colloquium commune destinatur. Dementiam aut morbum Alzheimer non dignoscit, non curat, non prohibet nec metitur.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Ludi gratuiti de dementia et morbo Alzheimer in interreti",
+    "description": "Ludi gratuiti in interreti pro senioribus qui cum dementia aut morbo Alzheimer vivunt: paria imaginum, facilia aenigmata ex partibus, ordinatio, dicta, coloratio, bingo. Sine inscriptione, sine horologiis, sine punctis.",
+    "crumb": "Ludi",
+    "h1": "Ludi lenes pro hominibus qui cum dementia vivunt",
+    "lede": "{count} ludi gratuiti, una in navigatro ludendi. Imagines magnae, verba plana, nihil ubi deficias: nulla horologia, nulla puncta, nulla inscriptio.",
+    "listName": "Ludi lenes pro hominibus qui cum dementia vivunt",
+    "byStageTitle": "Ludum secundum gradum eligere",
+    "byStageLede": "Gradus sunt tantum indicium generale. Sequere id quod homini placet et quod hodie commodum videtur.",
+    "stageCol": "Gradus",
+    "gamesCol": "Ludi qui saepe conveniunt",
+    "moreHtml": "Plura consilia extra scrinium: <a href=\"/activities/ideas/\">101 actiones pro hominibus qui cum dementia vivunt</a>, <a href=\"/activities/alzheimers/\">actiones et ludi pro morbo Alzheimer</a>, <a href=\"/activities/memory-games/\">leni ludi memoriae</a> et <a href=\"/activities/puzzles/\">aenigmata</a>.",
+    "faq": [
+      {
+        "q": "Quo ludo incipiamus?",
+        "a": "Paria imaginum cum quattuor tesseris sunt initium tranquillum. Si inter imagines eligere nimis difficile videtur, experire Inveni idem cum duabus imaginibus. Pro grege, experire Bingo imaginum."
+      },
+      {
+        "q": "Ludine in iPad aut telephono mobili operantur?",
+        "a": "Ita. Omnis ludus in navigatro telephonorum, tabularum et computatrorum operatur, et imagines scrinium implent. Tabula in fulcro posita saepe commodissima est duobus hominibus."
+      },
+      {
+        "q": "Hi ludine homini qui cum morbo Alzheimer vivit conveniunt?",
+        "a": "Ita. Pro hominibus qui cum dementia vivunt creati sunt, inter quos etiam morbus Alzheimer, causa frequentissima. Imagines visibiles manent, paucae tantum optiones sunt, et nihil tempore aut punctis metitur, ita ut ludi magis in rebus notis agnoscendis quam in novis rebus memoria tenendis nitantur."
+      },
+      {
+        "q": "Suntne hi ludi memoriae pro senioribus?",
+        "a": "Sunt ludi coniungendi et imaginum quibus quivis adultus senior frui potest, sed ita facti sunt ut memoriam non probent: in Pariis imaginum imagines apertae manent, nisi aliter eligas. Dux noster de ludis memoriae pro senioribus qui cum dementia vivunt explicat quomodo quivis ludus memoriae lenis servari possit."
+      },
+      {
+        "q": "Suntne ludi pro gregibus in domo curae?",
+        "a": "Ita. Bingo imaginum chartas imprimendas et vocatorem in scrinio habet, et Perfice dictum atque Chartae colloquii bene gregi clara voce leguntur."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad et Android",
+    "requirements": "iOS 15 aut recentius; Android 7.0 aut recentius",
+    "summary": "Applicatio gratuita pro iPhone, iPad et Android cum leni coniunctione imaginum in quattuor usque ad duodecim magnis tesseris, coniunctione et contemplatione cum photographiis familiaribus quas eligis, et octo fasciculis imaginum inclusis qui sine interreti operantur. Nullum rationarium, nulla praeconia, nullum horologium, nulla puncta.",
+    "features": [
+      "Lenis coniunctio imaginum cum 4, 6, 8 aut 12 magnis tesseris; imagines visibiles manent, nisi eas abscondere eligis",
+      "Photographemata familiaria quae eligis in applicationem ad coniungendum et ad una aspiciendum copiantur",
+      "Una aspicite: una imago simul cum quaestionibus voluntariis ad colloquium",
+      "Octo fasciculi imaginum in applicatione inclusi; sine conexione interretiali operantur",
+      "Nullum rationarium, nulla praeconia, nullae emptiones in applicatione, nullum horologium, nulla puncta, nulla poena"
+    ],
+    "faq": [
+      {
+        "q": "Estne applicatio actionum pro dementia?",
+        "a": "Ita. Creative Activities (nomine \"{storeName}\" proposita) gratuita est in App Store et Google Play. Lenem coniunctionem imaginum cum magnis tesseris, ludos cum photographiis familiaribus quas eligis, et fasciculos imaginum qui sine conexione interretiali operantur offert."
+      },
+      {
+        "q": "Estne applicatio Creative Activities gratuita?",
+        "a": "Ita. Gratis deponi potest, sine praeconiis, sine rationario, sine emptionibus in applicatione."
+      },
+      {
+        "q": "Operaturne applicatio sine interreti?",
+        "a": "Ita. Imagines initiales et omnes octo fasciculi imaginum in applicatione continentur, et photographiae familiares sine conexione interretiali operantur postquam in applicationem copiatae sunt. Eligere photographiam quae solum in iCloud servatur conexione egere potest."
+      },
+      {
+        "q": "Possumne nostris propriis photographiis familiaribus uti?",
+        "a": "Ita. Imagines e phototheca instrumenti tui selige. Applicatio minora exemplaria in instrumento ad ludos servat, ea non mittit nec primigenia umquam mutat. Exemplaria quandoque delere potes."
+      },
+      {
+        "q": "Num haec applicatio mentem exercet aut memoriam probat?",
+        "a": "Non. Creative Activities ad oblectationem et tempus una degendum facta est. Nullos calculos nec probationes habet, nec dementiam vel morbum Alzheimerianum dignoscit, curat, praecavet aut metitur."
+      },
+      {
+        "q": "Quibus in instrumentis operatur?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Num huius ludi applicatio praesto est?",
+      "a": "Ita. Applicatio gratuita Creative Activities pro iPhone, iPad et Android lenem imaginum comparationem praebet, photographemata familiaria a te selecta adhibere potest, et sine interreti operatur. Sine rationibus usorum, praeconiis vel punctis."
+    },
+    "gameFaqNo": {
+      "q": "Num huius ludi applicatio praesto est?",
+      "a": "Huius ludi non est. Applicatio gratuita Creative Activities pro iPhone, iPad et Android lenem imaginum comparationem cum tessellis amplis et photographematibus familiaribus a te selectis praebet, et sine interreti operatur. Hic autem ludus gratuitus hic in navigatro tuo manet."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: imagines amplae et amabiles",
+    "noscript": "Hic ludus requirit ut JavaScript in navigatro tuo sit activum. Consilia infra scripta etiam sine eo operantur.",
+    "about": "De {name}",
+    "aboutAria": "De hoc ludo",
+    "noTimer": "Sine tempore praestituto aut punctis",
+    "printable": "Forma imprimenda",
+    "howTo": "Quomodo {name} ludatur",
+    "tips": "Consilia ad una ludendum",
+    "newToPlayingHtml": "Primum ludis cum aliquo qui cum dementia vivit? Lege <a href=\"/caregiving/how-to-play-together/\">quomodo una ludere possitis</a>, una cum consiliis quid faciendum sit si studium amittat.",
+    "moreAria": "Alia invenienda",
+    "helpfulGuides": "Duces utiles",
+    "appTitle": "Lude in applicatione",
+    "appText": "Applicatio gratuita Creative Activities lenem imaginum comparationem cum amplis tessellis et propriis photographematibus familiaribus praebet, et sine Wi‑Fi operatur. iPhone, iPad et Android.",
+    "photoAppTitle": "Imagines paratas habe",
+    "photoAppText": "In gratuita applicatione Creative Activities, imagines a te selectae in instrumento tuo ad usum proximum manent, et ludi sine Wi‑Fi operantur. iPhone, iPad et Android.",
+    "goodToKnow": "Scitu utile",
+    "goodToKnowText": "Hic ludus ad oblectationem et tempus una degendum factus est. Nihil probat, metitur aut curat.",
+    "moreGames": "Plures ludi lenes",
+    "crumb": "Ludi"
+  }
+}

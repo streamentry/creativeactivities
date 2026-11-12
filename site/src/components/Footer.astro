@@ -1,0 +1,129 @@
+---
+import { SITE } from '../lib/site';
+import { href as link, localePath } from '../i18n/locales';
+import { PUBLISHED, ui } from '../i18n/ui';
+import Icon from './Icon.astro';
+
+interface Props {
+  lang?: string;
+  /** Languages this page exists in; others link to that language's home. */
+  available?: readonly string[];
+  /** The page path without a language prefix. */
+  path?: string;
+}
+const { lang = 'en', available = ['en'] } = Astro.props;
+// The 404 page has no stable path of its own; its language links go home.
+const path = Astro.props.path === '/404/' ? '/' : (Astro.props.path ?? '/');
+const t = ui(lang);
+const f = t.footer;
+const year = new Date(SITE.updated).getFullYear();
+const en = lang !== 'en' ? ` ${t.common.englishOnly}` : '';
+const current = PUBLISHED.find((l) => l.code === lang) ?? PUBLISHED[0]!;
+
+const columns = [
+  {
+    title: f.play,
+    links: [
+      ['/games/picture-pairs/', f.picturePairs],
+      ['/games/conversation-cards/', f.conversationCards],
+      ['/games/picture-bingo/', f.pictureBingo],
+      ['/games/', f.allGames],
+      ['/pictures/', f.pictures + en],
+    ],
+  },
+  {
+    title: f.activityIdeas,
+    links: [
+      ['/activities/ideas/', f.ideas101],
+      ['/activities/late-stage/', f.lateStage],
+      ['/activities/printable/', f.printable],
+      ['/activities/', f.allActivities],
+    ],
+  },
+  {
+    title: f.forCaregivers,
+    links: [
+      ['/caregiving/how-to-play-together/', f.playTogether],
+      ['/caregiving/caregiver-self-care/', f.selfCare],
+      ['/brain-health/', f.brainHealth],
+      ['/faq/', f.faq],
+    ],
+  },
+  {
+    title: f.about,
+    links: [
+      ['/about/', f.approach],
+      ['/editorial-policy/', f.howWeWrite],
+      ['/for-organizations/', f.organizations],
+      ['/app/', f.app],
+      ['/help/', f.appHelp + en],
+      ['/support/', f.support + en],
+    ],
+  },
+  {
+    title: f.legal,
+    links: [
+      ['/privacy/', f.sitePrivacy + en],
+      ['/app-privacy/', f.appPrivacy + en],
+      ['/privacy-choices/', f.privacyChoices + en],
+      ['/terms/', f.terms + en],
+      ['/safety/', f.safety + en],
+      ['/accessibility/', f.accessibility + en],
+      ['/medical-disclaimer/', f.healthNotice + en],
+      ['/legal/', f.allLegal + en],
+    ],
+  },
+] as const;
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      {
+        columns.map((col) => (
+          <div>
+            <h2>{col.title}</h2>
+            <ul>
+              {col.links.map(([p, label]) => (
+                <li>
+                  <a href={link(lang, p)}>{label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+    {
+      PUBLISHED.length > 1 && (
+        <details class="lang-menu">
+          <summary>
+            <h2>{t.common.languages}</h2>
+            <span class="lang-menu__current" lang={current.bcp47}>{current.name}</span>
+            <Icon name="arrow" size={20} class="lang-menu__chevron" />
+          </summary>
+          <nav aria-label={t.common.languages}>
+            <ul class="lang-menu__grid">
+              {PUBLISHED.map((l) => (
+                <li>
+                  <a
+                    href={localePath(l.code, available.includes(l.code) ? path : '/')}
+                    hreflang={l.bcp47}
+                    lang={l.bcp47}
+                    aria-current={l.code === lang ? 'true' : undefined}
+                  >
+                    {l.code === lang && <Icon name="check" size={20} />}
+                    {l.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </details>
+      )
+    }
+    <div class="footer-note">
+      <p>{f.note}</p>
+      <p>© {year} {t.common.brandName} · {SITE.domain}</p>
+    </div>
+  </div>
+</footer>

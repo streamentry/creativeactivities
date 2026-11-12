@@ -1,0 +1,45 @@
+---
+import BrandMark from './BrandMark.astro';
+import { NAV } from '../lib/site';
+import { localePath, splitLocale } from '../i18n/locales';
+import { ui } from '../i18n/ui';
+import TextSize from './TextSize.astro';
+
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props;
+const t = ui(lang);
+const path = splitLocale(Astro.url.pathname).path;
+---
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href={localePath(lang, '/')} aria-label={t.common.homeLabel}>
+      <BrandMark class="brand__mark" />
+      <span class="brand__text">
+        <span class="brand__name">{t.common.brandName}</span>
+        <span class="brand__tag">{t.common.brandTag}</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label={t.common.mainNav}>
+      <ul>
+        {
+          NAV.map((item) => (
+            <li>
+              <a
+                href={localePath(lang, item.href)}
+                aria-current={path === item.href ? 'page' : undefined}
+                data-active={
+                  item.href === '/' ? (path === '/' ? 'true' : undefined) : path.startsWith(item.href) ? 'true' : undefined
+                }
+              >
+                {item.key === 'home' ? t.common.home : t.common.nav[item.key]}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+    <TextSize lang={lang} />
+  </div>
+</header>

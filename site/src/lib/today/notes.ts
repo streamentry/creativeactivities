@@ -1,0 +1,159 @@
+import { SITUATION_IDS, type SituationId } from './situations';
+
+/**
+ * The one-tap care notes on /today/. They live only in this browser's
+ * localStorage: nothing is sent anywhere, and clearing site data removes them.
+ */
+export type Outcome = 'helped' | 'not_really' | 'not_tried';
+export const TIME_OF_DAY_OPTIONS = ['morning', 'afternoon', 'evening'] as const;
+export type TimeOfDay = (typeof TIME_OF_DAY_OPTIONS)[number];
+export const TIME_OF_DAY_LABELS: Record<TimeOfDay, string> = {
+  morning: 'Morning',
+  afternoon: 'Afternoon',
+  evening: 'Evening',
+};
+
+export interface Note {
+  id: string;
+  /** Local calendar day, YYYY-MM-DD. */
+  date: string;
+  situation: SituationId;
+  outcome: Outcome;
+  /** Optional broad time band, entered by the caregiver. */
+  timeOfDay?: TimeOfDay;
+  /** Optional words of the caregiver's own, at most MAX_TEXT characters. */
+  text: string;
+}
+
+export interface Day {
+  date: string;
+  notes: Note[];
+}
+
+export const STORAGE_KEY = 'gm-today-notes-v1';
+export const MAX_NOTES = 200;
+export const MAX_TEXT = 280;
+export const OUTCOMES: readonly Outcome[] = ['helped', 'not_really', 'not_tried'];
+
+type ReadStorage = Pick<Storage, 'getItem'>;
+type WriteStorage = Pick<Storage, 'setItem'>;
+type RemoveStorage = Pick<Storage, 'removeItem'>;
+
+const DATE = /^\d{4}-\d{2}-\d{2}$/;
+
+function parseNote(value: unknown): Note | undefined {
+  if (typeof value !== 'object' || value === null) return undefined;
+  const n = value as Record<string, unknown>;
+  if (
+    typeof n.id !== 'string' ||
+    typeof n.date !== 'string' ||
+    !DATE.test(n.date) ||
+    typeof n.situation !== 'string' ||
+    !(SITUATION_IDS as readonly string[]).includes(n.situation) ||
+    typeof n.outcome !== 'string' ||
+    !(OUTCOMES as readonly string[]).includes(n.outcome) ||
+    typeof n.text !== 'string'
+  ) {
+    return undefined;
+  }
+
+  const timeOfDay =
+    n.outcome !== 'not_tried' &&
+    typeof n.timeOfDay === 'string' &&
+    (TIME_OF_DAY_OPTIONS as readonly string[]).includes(n.timeOfDay)
+      ? (n.timeOfDay as TimeOfDay)
+      : undefined;
+
+  const note = { ...n } as unknown as Note;
+  note.id = n.id;
+  note.date = n.date;
+  note.situation = n.situation as SituationId;
+  note.outcome = n.outcome as Outcome;
+  note.text = n.text;
+  if (timeOfDay) note.timeOfDay = timeOfDay;
+  else delete note.timeOfDay;
+  return note;
+}
+
+/** Saved notes, keeping only well-formed entries; anything else reads as none. */
+export function parseNotes(raw: string | null): Note[] {
+  if (!raw) return [];
+  try {
+    const data: unknown = JSON.parse(raw);
+    return Array.isArray(data)
+      ? data.map(parseNote).filter((note): note is Note => note !== undefined).slice(0, MAX_NOTES)
+      : [];
+  } catch {
+    return [];
+  }
+}
+
+/** Adds a note first, trims its text, and drops a time band when the activity wasn't tried. */
+export function addNote(notes: readonly Note[], note: Note): Note[] {
+  const { timeOfDay, ...rest } = note;
+  const entry = {
+    ...rest,
+    ...(note.outcome !== 'not_tried' && timeOfDay ? { timeOfDay } : {}),
+    text: note.text.trim().slice(0, MAX_TEXT),
+  };
+  return [entry, ...notes].slice(0, MAX_NOTES);
+}
+
+export function removeNote(notes: readonly Note[], id: string): Note[] {
+  return notes.filter((n) => n.id !== id);
+}
+
+/** Toggles a situation selection: selecting the currently chosen one deselects it. */
+export function toggleSituation(current: SituationId | null, next: SituationId): SituationId | null {
+  return current === next ? null : next;
+}
+
+/** Notes grouped by day, newest day first, keeping the order within each day. */
+export function byDay(notes: readonly Note[]): Day[] {
+  const days = new Map<string, Note[]>();
+  for (const n of notes) days.set(n.date, [...(days.get(n.date) ?? []), n]);
+  return [...days.entries()].sort(([a], [b]) => b.localeCompare(a)).map(([date, list]) => ({ date, notes: list }));
+}
+
+/** Private windows and blocked site data throw on access; treat both as empty. */
+export function loadNotes(storage: ReadStorage | undefined): Note[] {
+  try {
+    return parseNotes(storage?.getItem(STORAGE_KEY) ?? null);
+  } catch {
+    return [];
+  }
+}
+
+/** Whether the notes were saved; false means the browser refused. */
+export function saveNotes(storage: WriteStorage | undefined, notes: readonly Note[]): boolean {
+  if (!storage) return false;
+  try {
+    storage.setItem(STORAGE_KEY, JSON.stringify(notes));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Removes only the Today notes key; returns false if browser storage refused. */
+export function clearNotes(storage: RemoveStorage | undefined): boolean {
+  if (!storage) return false;
+  try {
+    storage.removeItem(STORAGE_KEY);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/** Today's local date as YYYY-MM-DD. */
+export function localDay(now: Date = new Date()): string {
+  const pad = (n: number) => String(n).padStart(2, '0');
+  return `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+}
+
+/** Accessible label for removing a note so screen reader users know which note is targeted. */
+export function removeNoteAriaLabel(situationLabel?: string): string {
+  return situationLabel ? `Remove note for ${situationLabel}` : 'Remove note';
+}
+

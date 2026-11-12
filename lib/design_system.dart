@@ -1,0 +1,867 @@
+import 'dart:async';
+import 'dart:math' as math;
+
+/*
+───────────────────────────────────────────────────────────────────────────────
+ Creative Activities – design system implementation (Flutter)
+───────────────────────────────────────────────────────────────────────────────
+ DESIGN.md at the repository root is the contract: its YAML tokens are
+ normative and this file implements them. Change both together.
+
+ ▸ Every constant, style and widget here is **prefix-scoped (gm…)** so it
+   cannot clash with 3rd-party libs.
+ ▸ Screens should use stock Material widgets and `Theme.of(context)` roles;
+   component styling lives in `gmBuildTheme`, not in individual screens.
+ ▸ Sizes are logical pixels at 100% text size and scale with the system
+   text setting between 100% and 200% ([gmTextScaleBuilder]), the range
+   every screen is tested at.
+
+*/
+
+import 'package:flutter/material.dart';
+import 'package:golden_moments/data/services/sound_service.dart';
+import 'package:golden_moments/shared/widgets/pressable.dart';
+
+///////////////////////////////////////////////////////////////////////////////
+/// 1. COLOR TOKENS – “Paper & Sage” (DESIGN.md › Palette)
+///////////////////////////////////////////////////////////////////////////////
+// Surfaces & text neutrals
+const gmCanvas = Color(0xFFFAF8F2); // canvas: warm off-white page
+const gmPaper = Color(0xFFFFFFFF); // paper: activity cards, print surfaces
+const gmSage = Color(0xFFD9E8DA); // sage: soft contextual fills, never alone
+const gmInk = Color(0xFF24372F); // ink: text, icons, primary buttons
+const gmInkDeep = Color(0xFF16231D); // ink-deep: pressed and hovered fills
+const gmMuted = Color(0xFF51635A); // muted: secondary text
+const gmBorder = Color(0xFFD9DED7); // border: decorative dividers only
+const gmOutline = Color(0xFF66786E); // outline: control boundaries (≥3:1)
+// High contrast (DESIGN.md › Palette): used only when the person turns it on.
+const gmHighContrastSurface = Color(0xFFFFFFFF); // high-contrast-surface
+const gmHighContrastOnSurface = Color(0xFF111111); // high-contrast-on-surface
+const gmShadowInk = Color(0xFF24372F); // shadow-ink: the tint of every shadow
+
+// Text on ink (the website footer and inverse surfaces).
+const gmOnInk = Color(0xFFFAF8F2); // on-ink: reading text on ink
+const gmOnInkVariant = Color(0xFFD9E8DA); // on-ink-variant: fine print on ink
+const gmOnInkLink = Color(0xFFF4CD76); // on-ink-link: links on ink
+
+// Warm accents. Sun and clay are decorative or label fills with dark text;
+// clay is never default small text.
+const gmSunPale = Color(0xFFFBE8B5); // sun-pale: the pale edge of a glow
+const gmSun = Color(0xFFF4CD76); // sun: highlights, selection fills
+const gmClay = Color(0xFFBB6C4D); // clay: ornament only, never text
+
+// Status colors (always paired with an icon and a word)
+const gmGreen600 = Color(0xFF256B29); // success: ready / downloaded
+const gmOrange600 = Color(0xFF8C4A00); // warning: needs attention
+
+// Functional accents
+const gmTealPale = Color(0xFFE3F0EE); // teal-pale: notice fills
+const gmTealOutline = Color(0xFFB5D3CF); // teal-outline: notice borders
+const gmTeal = Color(0xFF176C65); // teal: links and interactive accents
+const Color gmEmerald500 = gmGreen600; // success
+const gmDanger = Color(0xFFA32D32); // danger: real failures only
+
+///////////////////////////////////////////////////////////////////////////////
+/// 2. TYPOGRAPHY (DESIGN.md › Type)
+///////////////////////////////////////////////////////////////////////////////
+// One bundled family, so text renders identically offline on every platform
+// and still scales with the system text size: Atkinson Hyperlegible Next
+// (400/500/700), built for legibility. Headings use the same family with
+// restrained weight changes; no decorative faces in instructions.
+// Every style names its family so component styles never fall back to
+// another font. Nothing is smaller than 16.
+const gmFontFamily = 'AtkinsonHyperlegibleNext';
+const String gmDisplayFontFamily = gmFontFamily;
+
+TextTheme _gmTextTheme(Color onSurface) {
+  TextStyle style(double size, FontWeight weight, double height) => TextStyle(
+    fontFamily: gmFontFamily,
+    fontSize: size,
+    fontWeight: weight,
+    height: height,
+    color: onSurface,
+    letterSpacing: 0,
+  );
+  TextStyle display(double size, double height) => TextStyle(
+    fontFamily: gmDisplayFontFamily,
+    fontFamilyFallback: const [gmFontFamily],
+    fontSize: size,
+    fontWeight: FontWeight.w700,
+    height: height,
+    color: onSurface,
+    letterSpacing: 0,
+  );
+
+  return TextTheme(
+    displayLarge: display(32, 1.2), // headline-display
+    displayMedium: display(32, 1.2),
+    displaySmall: display(30, 1.2),
+    headlineLarge: display(30, 1.2), // headline-lg
+    headlineMedium: display(28, 1.25), // headline-md
+    headlineSmall: display(24, 1.3), // headline-sm
+    titleLarge: display(24, 1.3), // title-lg
+    titleMedium: style(20, FontWeight.w700, 1.35), // title-md
+    titleSmall: style(18, FontWeight.w700, 1.35), // title-sm
+    bodyLarge: style(20, FontWeight.w400, 1.6), // body-lg: default reading
+    bodyMedium: style(18, FontWeight.w400, 1.6), // body-md
+    bodySmall: style(16, FontWeight.w400, 1.5), // body-sm: the floor
+    labelLarge: style(20, FontWeight.w700, 1.2), // label-lg: buttons
+    labelMedium: style(18, FontWeight.w700, 1.2), // label-md: chips, nav
+    labelSmall: style(16, FontWeight.w700, 1.2), // label-sm: badges
+  );
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/// 3. SHAPES, SPACING, SIZES, ELEVATION (DESIGN.md › Layout, Shapes)
+///////////////////////////////////////////////////////////////////////////////
+const double gmRadiusSm = 4; // the picture inside a print mat
+const double gmRadiusMd = 8; // chips, badges, snackbars, the print mat
+const double gmRadiusLg = 16; // tiles, cards
+const double gmRadiusXl = 28; // sheets, dialogs
+
+const double gmSpaceXs = 4;
+const double gmSpaceSm = 8;
+const double gmTileGap = 12;
+const double gmSpaceMd = 16;
+const double gmSpaceLg = 24; // screen gutter
+const double gmSpaceXl = 32; // section break
+
+const double gmTargetMin = 48; // every control
+const double gmTargetPrimary = 56; // buttons
+const double gmTargetHero = 64; // the one main action on Home
+const double gmTileMin = 64; // picture tiles never shrink below this
+const double gmContentMaxWidth = 720; // single centered column
+
+const double gmElevationCard = 2;
+const double gmElevationModal = 8;
+
+const double gmBorderResting = 1;
+const double gmBorderSelected = 4;
+const double gmMatInset = 6; // the print-white border around a mounted picture
+
+///////////////////////////////////////////////////////////////////////////////
+/// 4. THEME BUILDER  (light only: the app has no dark mode)
+///////////////////////////////////////////////////////////////////////////////
+ThemeData gmBuildTheme({bool highContrast = false}) {
+  final onSurface = highContrast ? gmHighContrastOnSurface : gmInk;
+  final background = highContrast ? gmHighContrastSurface : gmCanvas;
+  final surface = highContrast ? gmHighContrastSurface : gmPaper;
+
+  final scheme = ColorScheme(
+    brightness: Brightness.light,
+    primary: gmInk,
+    onPrimary: Colors.white,
+    primaryContainer: gmSun,
+    onPrimaryContainer: gmInk,
+    secondary: gmTeal,
+    onSecondary: Colors.white,
+    tertiary: gmTeal,
+    onTertiary: Colors.white,
+    error: gmDanger,
+    onError: Colors.white,
+    surface: surface,
+    onSurface: onSurface,
+    onSurfaceVariant: highContrast ? gmHighContrastOnSurface : gmMuted,
+    surfaceContainerLowest: background,
+    surfaceContainerLow: background,
+    surfaceContainer: surface,
+    surfaceContainerHigh: background,
+    surfaceContainerHighest: gmSage,
+    outline: highContrast ? gmHighContrastOnSurface : gmOutline,
+    outlineVariant: gmSage,
+    inverseSurface: onSurface,
+    onInverseSurface: background,
+  );
+
+  final text = _gmTextTheme(onSurface);
+  const pill = StadiumBorder();
+  const buttonPadding = EdgeInsets.symmetric(
+    horizontal: gmSpaceLg,
+    vertical: gmSpaceSm,
+  );
+
+  return ThemeData(
+    colorScheme: scheme,
+    fontFamily: gmFontFamily,
+    useMaterial3: true,
+    textTheme: text,
+    visualDensity: VisualDensity.standard,
+    materialTapTargetSize: MaterialTapTargetSize.padded,
+    scaffoldBackgroundColor: background,
+    dividerColor: scheme.outlineVariant,
+    iconTheme: IconThemeData(color: onSurface, size: 28),
+    appBarTheme: AppBarTheme(
+      // Content scrolled under the bar shows by tone, not a shadow: the bar
+      // turns linen, like a card edge (DESIGN.md › Elevation).
+      backgroundColor: WidgetStateColor.resolveWith(
+        (states) =>
+            states.contains(WidgetState.scrolledUnder) ? surface : background,
+      ),
+      surfaceTintColor: Colors.transparent,
+      elevation: 0,
+      scrolledUnderElevation: 0,
+      toolbarHeight: gmTargetHero,
+      iconTheme: IconThemeData(color: onSurface, size: 28),
+      actionsIconTheme: IconThemeData(color: onSurface, size: 28),
+      titleTextStyle: text.titleLarge,
+    ),
+    filledButtonTheme: FilledButtonThemeData(
+      style: FilledButton.styleFrom(
+        minimumSize: const Size(gmTargetMin * 2, gmTargetPrimary),
+        padding: buttonPadding,
+        textStyle: text.labelLarge,
+        iconSize: 28,
+        shape: pill,
+      ),
+    ),
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+        minimumSize: const Size(gmTargetMin * 2, gmTargetPrimary),
+        padding: buttonPadding,
+        textStyle: text.labelLarge,
+        iconSize: 28,
+        shape: pill,
+      ),
+    ),
+    outlinedButtonTheme: OutlinedButtonThemeData(
+      style:
+          OutlinedButton.styleFrom(
+            minimumSize: const Size(gmTargetMin * 2, gmTargetPrimary),
+            padding: buttonPadding,
+            textStyle: text.labelLarge,
+            iconSize: 28,
+            foregroundColor: scheme.primary,
+            shape: pill,
+          ).copyWith(
+            // A disabled button must not keep the "tap me" outline.
+            side: WidgetStateProperty.resolveWith(
+              (states) => BorderSide(
+                width: 2,
+                color: states.contains(WidgetState.disabled)
+                    ? scheme.onSurface.withValues(alpha: 0.24)
+                    : scheme.primary,
+              ),
+            ),
+          ),
+    ),
+    textButtonTheme: TextButtonThemeData(
+      style: TextButton.styleFrom(
+        minimumSize: const Size(gmTargetMin, gmTargetPrimary),
+        padding: const EdgeInsets.symmetric(horizontal: gmSpaceMd),
+        textStyle: text.labelLarge,
+        iconSize: 28,
+        foregroundColor: scheme.primary,
+        shape: pill,
+      ),
+    ),
+    iconButtonTheme: IconButtonThemeData(
+      style: IconButton.styleFrom(
+        minimumSize: const Size.square(gmTargetMin),
+        iconSize: 28,
+      ),
+    ),
+    chipTheme: ChipThemeData(
+      labelStyle: text.labelMedium,
+      backgroundColor: background,
+      selectedColor: scheme.primaryContainer,
+      checkmarkColor: scheme.onPrimaryContainer,
+      side: BorderSide(color: scheme.outline),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(gmRadiusMd),
+      ),
+      padding: const EdgeInsets.symmetric(
+        horizontal: gmSpaceSm,
+        vertical: gmSpaceSm,
+      ),
+    ),
+    switchTheme: SwitchThemeData(
+      trackOutlineColor: WidgetStatePropertyAll(scheme.outline),
+    ),
+    listTileTheme: ListTileThemeData(
+      minVerticalPadding: gmSpaceSm,
+      titleTextStyle: text.bodyLarge,
+      subtitleTextStyle: text.bodyMedium?.copyWith(
+        color: scheme.onSurfaceVariant,
+      ),
+      iconColor: onSurface,
+    ),
+    // DESIGN.md › Elevation: hierarchy from tone and borders, not shadows.
+    // Content cards are linen with a 1px Driftwood border at elevation 0.
+    cardTheme: CardThemeData(
+      color: surface,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: gmShadowInk,
+      elevation: 0,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(gmRadiusLg),
+        side: const BorderSide(color: gmOutline),
+      ),
+    ),
+    dialogTheme: DialogThemeData(
+      // A narrower margin than Material's 40, so at large text a button
+      // label wraps between words, never inside one (DESIGN.md › Text).
+      insetPadding: const EdgeInsets.symmetric(
+        horizontal: gmSpaceMd,
+        vertical: gmSpaceLg,
+      ),
+      backgroundColor: background,
+      surfaceTintColor: Colors.transparent,
+      // Shadows are warm umber, never grey (DESIGN.md › Elevation).
+      shadowColor: gmShadowInk,
+      elevation: gmElevationModal,
+      titleTextStyle: text.headlineSmall,
+      contentTextStyle: text.bodyLarge,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(gmRadiusXl),
+      ),
+    ),
+    bottomSheetTheme: BottomSheetThemeData(
+      backgroundColor: background,
+      surfaceTintColor: Colors.transparent,
+      shadowColor: gmShadowInk,
+      modalBackgroundColor: background,
+      showDragHandle: true,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(gmRadiusXl)),
+      ),
+    ),
+    snackBarTheme: SnackBarThemeData(
+      backgroundColor: scheme.inverseSurface,
+      contentTextStyle: text.bodyMedium?.copyWith(
+        color: scheme.onInverseSurface,
+      ),
+      behavior: SnackBarBehavior.floating,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(gmRadiusMd),
+      ),
+    ),
+    progressIndicatorTheme: ProgressIndicatorThemeData(
+      color: scheme.primary,
+      linearTrackColor: gmSage,
+      circularTrackColor: gmSage,
+    ),
+    navigationBarTheme: NavigationBarThemeData(
+      backgroundColor: background,
+      indicatorColor: scheme.primaryContainer,
+      labelTextStyle: WidgetStatePropertyAll(text.labelMedium),
+    ),
+    tooltipTheme: TooltipThemeData(
+      textStyle: text.bodyMedium?.copyWith(color: scheme.onInverseSurface),
+      decoration: BoxDecoration(
+        color: scheme.inverseSurface,
+        borderRadius: BorderRadius.circular(gmRadiusMd),
+      ),
+    ),
+  );
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/// 5. ATOMS / MOLECULES
+///////////////////////////////////////////////////////////////////////////////
+
+/// PRIMARY CTA BUTTON  –  large touch target, ink fill
+class GmPrimaryButton extends StatelessWidget {
+  const new({
+    required this.label,
+    super.key,
+    this.onTap,
+    this.busy = false,
+    this.disabled = false,
+  });
+  final String label;
+  final VoidCallback? onTap;
+  final bool busy;
+  final bool disabled;
+
+  @override
+  Widget build(BuildContext parentContext) {
+    final scheme = Theme.of(parentContext).colorScheme;
+    final isDisabled = disabled || busy || onTap == null;
+    final bg = isDisabled
+        ? scheme.onSurface.withValues(alpha: 0.12)
+        : scheme.primary;
+    final fg = isDisabled
+        ? scheme.onSurface.withValues(alpha: 0.6)
+        : scheme.onPrimary;
+    return Semantics(
+      button: true,
+      enabled: !isDisabled,
+      child: ConstrainedBox(
+        constraints: const BoxConstraints(
+          minHeight: gmTargetPrimary,
+          minWidth: double.infinity,
+        ),
+        child: Material(
+          color: bg,
+          shape: const StadiumBorder(),
+          child: Pressable(
+            customBorder: const StadiumBorder(),
+            onPressed: isDisabled ? null : onTap,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: gmSpaceLg,
+                vertical: gmSpaceSm,
+              ),
+              child: Center(
+                child: busy
+                    ? SizedBox.square(
+                        dimension: 24,
+                        child: CircularProgressIndicator(
+                          strokeWidth: 3,
+                          valueColor: AlwaysStoppedAnimation(fg),
+                        ),
+                      )
+                    : Text(
+                        label,
+                        textAlign: TextAlign.center,
+                        style: Theme.of(parentContext).textTheme.labelLarge!
+                            .copyWith(color: fg),
+                      ),
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// OUTLINE BUTTON  –  secondary CTA
+class GmOutlineButton extends StatelessWidget {
+  const new({required this.label, super.key, this.onTap});
+  final String label;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext parentContext) {
+    return SizedBox(
+      width: double.infinity,
+      child: OutlinedButton(
+        onPressed: () {
+          unawaited(SoundService().playTap());
+          onTap?.call();
+        },
+        child: Text(label, textAlign: TextAlign.center),
+      ),
+    );
+  }
+}
+
+/// Two peer buttons that sit side by side only when both labels fit on one
+/// line at the current text size, and otherwise stack full width, so a label
+/// is never broken mid-phrase (GM-012). [labels] are the visible words of
+/// [first] and [second]; [iconWidth] adds room for a leading icon.
+///
+/// When stacked, [secondOnTop] puts [second] first: use it when [second] is
+/// the primary action, so reading order is action order.
+class GmButtonPair extends StatelessWidget {
+  const new({
+    required this.first,
+    required this.second,
+    required this.labels,
+    this.iconWidth = 0,
+    this.secondOnTop = false,
+    super.key,
+  });
+
+  final Widget first;
+  final Widget second;
+  final (String, String) labels;
+  final double iconWidth;
+  final bool secondOnTop;
+
+  /// Matches the button padding and the 2px outline in [gmBuildTheme].
+  static const double _chrome = gmSpaceLg * 2 + 2 * 2;
+
+  /// Width a button needs to keep [label] on one line.
+  static double neededWidth(
+    BuildContext context,
+    String label, {
+    double iconWidth = 0,
+  }) {
+    final painter = TextPainter(
+      text: TextSpan(
+        text: label,
+        style: Theme.of(context).textTheme.labelLarge,
+      ),
+      textScaler: MediaQuery.textScalerOf(context),
+      textDirection: Directionality.of(context),
+      maxLines: 1,
+    )..layout();
+    final width = painter.width;
+    painter.dispose();
+    return width + _chrome + iconWidth;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final half = (constraints.maxWidth - gmSpaceMd) / 2;
+        final sideBySide =
+            neededWidth(context, labels.$1, iconWidth: iconWidth) <= half &&
+            neededWidth(context, labels.$2, iconWidth: iconWidth) <= half;
+        if (sideBySide) {
+          return Row(
+            children: [
+              Expanded(child: first),
+              const SizedBox(width: gmSpaceMd),
+              Expanded(child: second),
+            ],
+          );
+        }
+        final ordered = secondOnTop ? [second, first] : [first, second];
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            ordered[0],
+            const SizedBox(height: gmSpaceSm),
+            ordered[1],
+          ],
+        );
+      },
+    );
+  }
+}
+
+/// The two actions of a dialog in the [GmButtonPair] layout: side by side
+/// with [primary] on the right when both labels fit, otherwise stacked full
+/// width with [primary] first. In a confirmation the primary is the safe
+/// choice, such as "Keep this board" (DESIGN.md › Dialogs and sheets).
+/// [labels] are the visible words of ([other], [primary]).
+///
+/// A dialog sizes itself to its content, so the choice is made from the
+/// widest the dialog can be rather than with a [LayoutBuilder]; side by
+/// side, the row's own width then keeps the dialog wide enough for both.
+List<Widget> gmDialogActions({
+  required Widget other,
+  required Widget primary,
+  required (String, String) labels,
+}) => [
+  Builder(
+    builder: (context) {
+      final dialog = DialogTheme.of(context);
+      final inset =
+          dialog.insetPadding?.horizontal ?? _gmDialogInset.horizontal;
+      final padding =
+          dialog.actionsPadding?.horizontal ?? _gmDialogActionsPadding;
+      // showDialog keeps the dialog inside the safe area (a notch or the
+      // home indicator in landscape), and the padding it used up is gone
+      // from the MediaQuery here, so read the window's own.
+      final safe = MediaQueryData.fromView(View.of(context)).padding.horizontal;
+      final room = MediaQuery.sizeOf(context).width - safe - inset - padding;
+      final half = (room - gmSpaceMd) / 2;
+      final sideBySide =
+          GmButtonPair.neededWidth(context, labels.$1) <= half &&
+          GmButtonPair.neededWidth(context, labels.$2) <= half;
+      if (sideBySide) {
+        return Row(
+          children: [
+            Expanded(child: other),
+            const SizedBox(width: gmSpaceMd),
+            Expanded(child: primary),
+          ],
+        );
+      }
+      return Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          primary,
+          const SizedBox(height: gmSpaceSm),
+          other,
+        ],
+      );
+    },
+  ),
+];
+
+/// Material's dialog defaults, used when the theme leaves them unset.
+const _gmDialogInset = EdgeInsets.symmetric(horizontal: 40, vertical: 24);
+const double _gmDialogActionsPadding = gmSpaceLg * 2;
+
+/// The back of a hidden tile: Oat with an inset Honey frame and a small dot
+/// ornament, so it reads as the back of a card rather than a missing photo.
+/// Purely decorative (DESIGN.md › Ornament); the tile's label says it is
+/// hidden.
+class GmTileBack extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.all(gmSpaceSm),
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(gmRadiusMd),
+          border: Border.all(color: gmClay, width: 2),
+        ),
+        child: const Center(
+          child: FractionallySizedBox(
+            widthFactor: 0.3,
+            heightFactor: 0.3,
+            child: CustomPaint(painter: _DotOrnament()),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _DotOrnament extends CustomPainter {
+  const new();
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final paint = Paint()..color = gmClay;
+    final step = size.shortestSide / 3;
+    final radius = step / 5;
+    final origin = Offset(
+      (size.width - step * 3) / 2 + step / 2,
+      (size.height - step * 3) / 2 + step / 2,
+    );
+    for (var row = 0; row < 3; row++) {
+      for (var col = 0; col < 3; col++) {
+        canvas.drawCircle(
+          origin + Offset(col * step, row * step),
+          radius,
+          paint,
+        );
+      }
+    }
+  }
+
+  @override
+  bool shouldRepaint(_DotOrnament oldDelegate) => false;
+}
+
+/// App-bar height that grows with the system text size, so a [GmTitle] can
+/// wrap onto a second line instead of being cut off (GM-012).
+/// The text sizes the app follows: the phone's own setting, held between
+/// 100% (the 16px floor) and 200% (the largest size every layout is tested
+/// at). The largest accessibility sizes, up to about 310% on iPhone, broke
+/// single words across lines on a phone (maintainer decision, 2026-11-11).
+const double gmTextScaleMin = 1;
+const double gmTextScaleMax = 2;
+
+/// A `MaterialApp.builder` that applies [gmTextScaleMin]–[gmTextScaleMax]
+/// to everything below it, dialogs and sheets included.
+Widget gmTextScaleBuilder(BuildContext context, Widget? child) {
+  final media = MediaQuery.of(context);
+  return MediaQuery(
+    data: media.copyWith(
+      textScaler: media.textScaler.clamp(
+        minScaleFactor: gmTextScaleMin,
+        maxScaleFactor: gmTextScaleMax,
+      ),
+    ),
+    child: child ?? const SizedBox.shrink(),
+  );
+}
+
+double gmToolbarHeight(BuildContext context) {
+  final scale = MediaQuery.textScalerOf(context).scale(1);
+  return scale <= 1.15 ? gmTargetHero : gmTargetHero * scale;
+}
+
+/// An app-bar title that wraps instead of ending in an ellipsis, at every
+/// text size the app follows. Pair with [gmToolbarHeight].
+class GmTitle extends StatelessWidget {
+  const new(this.text, {super.key});
+
+  final String text;
+
+  @override
+  Widget build(BuildContext context) =>
+      Text(text, softWrap: true, maxLines: 3, overflow: TextOverflow.visible);
+}
+
+/// Check badge that marks a matched tile by shape, not color alone.
+class GmMatchBadge extends StatelessWidget {
+  const new({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        color: scheme.primary,
+        shape: BoxShape.circle,
+        border: Border.all(color: Colors.white, width: 2),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.all(2),
+        child: Icon(Icons.check, size: 28, color: scheme.onPrimary),
+      ),
+    );
+  }
+}
+
+/// Tile outline for the resting, selected and matched states.
+RoundedRectangleBorder gmTileShape(
+  ColorScheme scheme, {
+  bool emphasized = false,
+}) => RoundedRectangleBorder(
+  borderRadius: BorderRadius.circular(gmRadiusLg),
+  side: BorderSide(
+    width: emphasized ? gmBorderSelected : gmBorderResting,
+    color: emphasized ? scheme.primary : scheme.outline,
+  ),
+);
+
+/// Columns for a square-tile board: the largest tiles that let the whole
+/// board fit on screen, so nothing has to be remembered while scrolling.
+/// Tiles never drop below [gmTileMin]; only then does the board scroll.
+int gmBoardColumns({
+  required int tileCount,
+  required int maxColumns,
+  required Size size,
+}) {
+  double tileFor(int columns) =>
+      (size.width - (columns - 1) * gmTileGap) / columns;
+  // The tile the board really gets: as wide as a column, as tall as the
+  // rows allow, never below the minimum (then the board scrolls).
+  double fitted(int columns) {
+    final rows = (tileCount / columns).ceil();
+    final byHeight = size.height.isFinite
+        ? (size.height - (rows - 1) * gmTileGap) / rows
+        : double.infinity;
+    return math.max(gmTileMin, math.min(tileFor(columns), byHeight));
+  }
+
+  final upper = maxColumns < 2 ? 2 : maxColumns;
+  var chosen = upper;
+  for (var columns = 2; columns <= upper; columns++) {
+    final tile = tileFor(columns);
+    if (tile < gmTileMin) break;
+    final rows = (tileCount / columns).ceil();
+    if (!size.height.isFinite ||
+        rows * tile + (rows - 1) * gmTileGap <= size.height) {
+      chosen = columns;
+      break;
+    }
+    if (columns == upper) chosen = upper;
+  }
+  while (chosen > 2 && tileFor(chosen) < gmTileMin) {
+    chosen--;
+  }
+  // A last row with a tile or two on its own is avoided whenever a layout
+  // with full rows gives tiles at least as large (4 tiles as 2 x 2, not
+  // 3 + 1), preferring the fewest rows.
+  if (tileCount % chosen != 0) {
+    final tile = fitted(chosen);
+    for (var columns = chosen - 1; columns >= 2; columns--) {
+      if (tileCount % columns == 0 && fitted(columns) >= tile - 0.5) {
+        return columns;
+      }
+    }
+  }
+  return chosen;
+}
+
+/// MEMORY TILE  (face-down / revealed / selected / matched) for the
+/// picture-pack library. Selected and matched tiles get the 4px ink
+/// border, so state is never shown by color alone. [onTap] is null when the
+/// tile cannot be chosen; the caller decides, because a face-up mismatch is
+/// tappable (its tap starts the next turn).
+class GmMemoryTile extends StatelessWidget {
+  const new({
+    required this.revealed,
+    required this.image,
+    this.matched = false,
+    this.selected = false,
+    this.onTap,
+    super.key,
+  });
+  final bool revealed;
+  final bool matched;
+  final bool selected;
+  final ImageProvider image;
+  final VoidCallback? onTap;
+
+  @override
+  Widget build(BuildContext parentContext) {
+    final scheme = Theme.of(parentContext).colorScheme;
+    final border = gmTileShape(scheme, emphasized: matched || selected);
+    final reduceMotion = MediaQuery.disableAnimationsOf(parentContext);
+    return Material(
+      color: revealed ? scheme.surface : gmSage,
+      shape: border,
+      clipBehavior: Clip.antiAlias,
+      child: Pressable(
+        customBorder: border,
+        onPressed: matched ? null : onTap,
+        child: Stack(
+          fit: StackFit.expand,
+          children: [
+            AnimatedSwitcher(
+              duration: reduceMotion
+                  ? Duration.zero
+                  : const Duration(milliseconds: 250),
+              switchInCurve: Curves.easeOut,
+              transitionBuilder: (c, a) =>
+                  RotationYTransition(turns: a, child: c),
+              // The picture fills the tile to its border (no mat), clipped
+              // by the tile's rounded shape; the selected and matched
+              // outline is painted over its edge (DESIGN.md › Mounted print).
+              child: revealed
+                  ? Image(
+                      key: const ValueKey('front'),
+                      image: image,
+                      fit: BoxFit.cover,
+                      width: double.infinity,
+                      height: double.infinity,
+                    )
+                  : const GmTileBack(key: ValueKey('back')),
+            ),
+            if (matched)
+              const Positioned(
+                top: gmSpaceSm,
+                right: gmSpaceSm,
+                child: GmMatchBadge(),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+// Flip helper
+class RotationYTransition extends AnimatedWidget {
+  const new({required Animation<double> turns, required this.child, super.key})
+    : super(listenable: turns);
+
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    final val = (listenable as Animation<double>).value;
+    final transform = Matrix4.identity()
+      ..setEntry(3, 2, 0.001) // Perspective
+      ..rotateY(val * 3.1416); // 0 → 180°
+
+    return Transform(
+      transform: transform,
+      alignment: Alignment.center,
+      child: val <= 0.5
+          ? child
+          : Transform(
+              transform: Matrix4.rotationY(3.1416),
+              alignment: Alignment.center,
+              child: child,
+            ),
+    );
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/// 6. ACCESSIBILITY SHORTCUTS
+///////////////////////////////////////////////////////////////////////////////
+extension GmAccessible on BuildContext {
+  bool get isLargeText => MediaQuery.textScalerOf(this).scale(1) > 1.2;
+}
+
+///////////////////////////////////////////////////////////////////////////////
+/// See DESIGN.md › Components for usage.

@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Neidio i'r prif gynnwys",
+    "brandName": "Creative Activities",
+    "brandTag": "Gweithgareddau dementia",
+    "homeLabel": "Munudau Aur adref",
+    "mainNav": "Prif",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Eiliadau Aur: lluniau mawr, cyfeillgar o gwpan te, blodyn yr haul a chi",
+    "languages": "Iaith",
+    "englishOnly": "(Saesneg)",
+    "machineTranslated": "Cyfieithwyd y dudalen hon yn awtomatig ac nid yw wedi'i gwirio eto gan siaradwr brodorol.",
+    "readOriginal": "Darllenwch y gwreiddiol yn Saesneg",
+    "nav": {
+      "games": "Gemau",
+      "activities": "Gweithgareddau",
+      "caregiving": "Gofalu",
+      "brainHealth": "Iechyd yr ymennydd"
+    },
+    "faqTitle": "Cwestiynau ac atebion",
+    "breadcrumb": "Briwsion Bara",
+    "home": "Cartref",
+    "lastUpdated": "Diweddarwyd diwethaf",
+    "topics": "Pynciau",
+    "textSize": {
+      "label": "Maint testun",
+      "smaller": "Testun safonol",
+      "larger": "Testun mwy",
+      "contrast": "Cyferbyniad uwch"
+    }
+  },
+  "footer": {
+    "play": "Chwarae",
+    "picturePairs": "Parau lluniau",
+    "conversationCards": "Cardiau sgwrs",
+    "pictureBingo": "Bingo lluniau",
+    "allGames": "Pob gêm",
+    "pictures": "Lluniau i'w hargraffu",
+    "activityIdeas": "Syniadau am weithgareddau",
+    "ideas101": "101 o syniadau am weithgareddau",
+    "lateStage": "Gweithgareddau cyfnod hwyr",
+    "printable": "Gweithgareddau argraffadwy",
+    "allActivities": "Pob gweithgaredd",
+    "forCaregivers": "Ar gyfer gofalwyr",
+    "playTogether": "Sut i chwarae gyda'n gilydd",
+    "selfCare": "Gofalu amdanoch eich hun",
+    "brainHealth": "Ymchwil iechyd yr ymennydd",
+    "faq": "Cwestiynau ac atebion",
+    "about": "Ynghylch",
+    "approach": "Ein hymagwedd",
+    "howWeWrite": "Sut rydyn ni'n ysgrifennu",
+    "organizations": "Ar gyfer sefydliadau",
+    "app": "Yr app Eiliadau Aur",
+    "appHelp": "Cymorth ap",
+    "support": "Cefnogaeth",
+    "legal": "Cyfreithiol",
+    "sitePrivacy": "Preifatrwydd gwefan",
+    "appPrivacy": "Polisi preifatrwydd ap",
+    "privacyChoices": "Dewisiadau preifatrwydd",
+    "terms": "Telerau a thrwydded ap",
+    "safety": "Diogelwch a defnydd arfaethedig",
+    "accessibility": "Hygyrchedd",
+    "healthNotice": "Hysbysiad gwybodaeth iechyd",
+    "allLegal": "Pob gwybodaeth gyfreithiol",
+    "note": "Mae Creative Activities yn cynnig gweithgareddau syml a rennir er mwynhad. Nid yw’n gyngor meddygol, yn brawf nac yn driniaeth, ac nid yw’n rhoi diagnosis, yn mesur nac yn sgorio unrhyw un. Ar gyfer cwestiynau iechyd, siaradwch â meddyg. Mewn argyfwng, ffoniwch 911.",
+    "publisher": "Cyhoeddwyd gan Cloudjet Solutions Pte. Cyf."
+  },
+  "home": {
+    "title": "Gemau a Gweithgareddau Dementia ac Alzheimer | Eiliadau Aur",
+    "description": "Gemau llun ysgafn am ddim i'w chwarae ar-lein a syniadau am weithgareddau i bobl sy'n byw gyda dementia neu Alzheimer's a'u gofalwyr.",
+    "eyebrow": "Am ddim · Dim hysbysebion · Dim cofrestru · Dim amseryddion na sgorau",
+    "h1": "Gemau a Gweithgareddau Ysgafn ar gyfer Pobl â Dementia",
+    "lede": "Gemau lluniau syml, lluniau cyfarwydd, a gweithgareddau i'w mwynhau gyda'ch gilydd - ar eich cyflymder eich hun.",
+    "playGame": "Chwarae Gêm",
+    "findIdeas": "Dewch o hyd i syniadau am weithgareddau",
+    "facts": [
+      "Yn gweithio ar ffôn, tabled a chyfrifiadur",
+      "Lluniau mawr sy'n parhau i'w dangos",
+      "Stopiwch unrhyw bryd; dim i fethu"
+    ],
+    "heroApp": "Hefyd ap rhad ac am ddim ar gyfer iPhone, iPad ac Android, gyda'ch lluniau teulu eich hun",
+    "albumNote": "“Dau lun o’r cwpan te, gyda’i gilydd.”",
+    "gamesEyebrow": "Chwarae yn eich porwr",
+    "gamesTitle": "Gemau gallwch chi chwarae ar hyn o bryd",
+    "gamesLede": "Mae pob un yn dawel, yn oedolyn ac yn gyflym i ddechrau. Dewiswch un, eisteddwch ochr yn ochr, a chymerwch dro yn tapio.",
+    "seeAllGames": "Gweld y cyfan {count} gemau",
+    "howTitle": "Sut mae'n gweithio",
+    "steps": [
+      {
+        "title": "Dewiswch rywbeth cyfarwydd",
+        "text": "Lluniau o gwpanau te, gerddi, anifeiliaid anwes a chychod hwylio. Dim darllen na rheolau i ddysgu yn gyntaf."
+      },
+      {
+        "title": "Eisteddwch ochr yn ochr",
+        "text": "Gadewch iddynt dapio. Sôn am y lluniau. Mae diffyg cyfatebiaeth yn aros am y tap nesaf."
+      },
+      {
+        "title": "Stopiwch tra ei fod yn teimlo'n dda",
+        "text": "Mae un gêm yn weithgaredd cyflawn. Mae “Gwneud am y tro” bob amser ar y sgrin."
+      }
+    ],
+    "stageEyebrow": "Y tu hwnt i'r sgrin",
+    "stageTitle": "Syniadau gweithgaredd ar gyfer pob cam",
+    "stageLede": "Cerddoriaeth, tasgau bob dydd, hel atgofion ac eiliadau synhwyraidd tawel, wedi'u haddasu i'r hyn sy'n teimlo'n gyfforddus nawr.",
+    "ideas101": "101 o syniadau am weithgareddau",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Cyfnod cynnar",
+        "text": "Parhewch i wneud yr hyn maen nhw'n ei garu, gydag addasiadau bach: hobïau, gwibdeithiau, gemau geiriau a chynllunio gyda'ch gilydd.",
+        "label": "Syniadau cyfnod cynnar"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Cam canol",
+        "text": "Tasgau syml, cyfarwydd wedi'u rhannu'n gamau: plygu, didoli, cerddoriaeth, gemau lluniau a theithiau cerdded byr.",
+        "label": "Syniadau cyfnod canol"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Cam diweddarach",
+        "text": "Cysur a chysylltiad trwy gyffwrdd, sain a golwg: gofal dwylo, hoff ganeuon, ffotograffau a bod gyda'n gilydd.",
+        "label": "Syniadau cam diweddarach"
+      }
+    ],
+    "specificHtml": "Chwilio am rywbeth penodol? Ceisiwch <a href=\"/activities/alzheimers/\">gweithgareddau a gemau ar gyfer Alzheimer</a>, <a href=\"/activities/memory-games/\">gemau cof ysgafn</a>, <a href=\"/activities/trivia/\">dibwys hawdd</a> neu <a href=\"/activities/puzzles/\">posau</a>.",
+    "approachEyebrow": "Ein hymagwedd",
+    "approachTitle": "Gweithgaredd a rennir, nid prawf cof",
+    "approachLede": "Mae llawer o “gemau ymennydd” yn cael eu hadeiladu o amgylch cyflymder, sgorau a rhediadau. I rywun sy'n byw gyda dementia a all deimlo fel arholiad. Rydym yn adeiladu i'r gwrthwyneb.",
+    "approachLink": "Pam rydyn ni'n ei ddylunio fel hyn",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Dim byd i fethu",
+        "text": "Dim cloc, sgôr, bywydau na cholli. Saib yw llun gwahanol, nid camgymeriad."
+      },
+      {
+        "icon": "eye",
+        "title": "Mae lluniau'n aros i'w dangos",
+        "text": "Cydnabyddiaeth dros adalw. Dechreuadau paru wyneb i fyny, felly nid oes dim i'w gofio."
+      },
+      {
+        "icon": "people",
+        "title": "Oedolion ac urddasol",
+        "text": "Geiriau cynnes, plaen a lluniau byd go iawn. Peidiwch byth â chartwnau na siarad babi."
+      },
+      {
+        "icon": "shield",
+        "title": "Preifat trwy ddyluniad",
+        "text": "Dim cyfrifon na hysbysebion. Nid yw eich lluniau byth yn gadael eich dyfais."
+      }
+    ],
+    "guidesEyebrow": "Ar gyfer gofalwyr",
+    "guidesTitle": "Canllawiau ymarferol ar gyfer gofal bob dydd",
+    "allCaregiving": "Pob tywysydd gofal",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Sut i chwarae gemau gyda'ch gilydd",
+        "text": "Sefydlu, cyflymder, a beth i'w wneud pan fydd gêm yn peidio â bod yn hwyl."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Pan fyddant yn dweud na i weithgaredd",
+        "text": "Rhesymau cyffredin dros wrthod, a ffyrdd tyner i roi cynnig arall arni yn nes ymlaen."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Sefydlu tabled",
+        "text": "Testun mwy, llai o ymyriadau ac un sgrin gartref syml."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Gweithgareddau argraffadwy am ddim",
+        "text": "Chwileiriau print bras, tudalennau lliwio, bingo a chardiau sgwrsio."
+      }
+    ],
+    "researchTitle": "Iechyd yr ymennydd: yr hyn y mae'r ymchwil yn ei ddweud mewn gwirionedd",
+    "researchText": "A ellir atal dementia? Ydy gemau ymennydd yn helpu? Beth am ymprydio, diet, cwsg a chlyw? Atebion plaen, o ffynonellau, gan gynnwys lle mae'r dystiolaeth yn wan.",
+    "researchLink": "Darllenwch y canllawiau ymchwil",
+    "appEyebrow": "Hefyd app",
+    "appTitle": "Eiliadau Aur ar iPhone, iPad ac Android",
+    "appText": "Mae'r ap rhad ac am ddim yn gweithio all-lein a gall ddefnyddio lluniau teulu o'ch dewis, a gedwir fel copïau ar eich dyfais. Yr un dyluniad tawel: pedair teilsen fawr, dim amserydd, dim sgôr.",
+    "aboutApp": "Ynglŷn â'r app",
+    "faq": [
+      {
+        "q": "Beth yw gemau da i bobl â dementia?",
+        "a": "Mae gemau da yn syml, yn gyfarwydd ac yn rhydd o bwysau: lluniau mawr i gyfateb, didoli, jig-sos hawdd, gorffen dywediadau adnabyddus, lliwio, bingo lluniau a chardiau sgwrsio. Y dewis gorau yw'r un y mae'r person yn ei fwynhau heddiw. Ceisiwch osgoi amseryddion, sgorau ac unrhyw beth sy'n teimlo fel prawf."
+      },
+      {
+        "q": "A yw'r gemau dementia hyn yn rhad ac am ddim?",
+        "a": "Oes. Mae pob gêm ac yn argraffadwy ar Creative Activities yn rhad ac am ddim, heb unrhyw gyfrif, cofrestru na llwytho i lawr. Mae'r gemau'n rhedeg yn y porwr gwe ar ffôn, llechen neu gyfrifiadur."
+      },
+      {
+        "q": "A yw gemau ymennydd yn atal dementia?",
+        "a": "Nid oes unrhyw gêm wedi'i dangos i atal dementia, ac nid yw Creative Activities yn honni ei fod yn trin nac yn atal unrhyw beth. Mae ein gemau er mwynhad ac amser gyda'n gilydd. Mae ein hadran iechyd yr ymennydd yn esbonio beth mae ymchwil yn ei ddangos a beth nad yw'n ei ddangos."
+      },
+      {
+        "q": "Ydy'r gemau hyn yn addas ar gyfer rhywun ag Alzheimer's?",
+        "a": "Oes. Clefyd Alzheimer yw achos mwyaf cyffredin dementia, a gwneir y gemau ar ei gyfer: lluniau mawr sy'n parhau i ddangos, ychydig o ddewisiadau, a dim byd i'w gofio neu'n anghywir. Mae paru, didoli a gorffen dywediadau cyfarwydd yn pwyso ar wybodaeth hirsefydlog yn hytrach na dysgu newydd."
+      },
+      {
+        "q": "A all rhywun â dementia cam hwyrach ddefnyddio'r gweithgareddau hyn?",
+        "a": "Yn aml, ie, gyda rhywun wrth eu hymyl. Dechreuwch gyda Darganfyddwch yr un peth gyda dau lun, Parau lluniau gyda phedair teilsen, tudalen liwio neu saib anadlu tawel. Cadwch yn fyr, dilynwch eu hesiampl a stopiwch pan fyddant wedi cael digon."
+      },
+      {
+        "q": "A yw fy ngwybodaeth yn breifat?",
+        "a": "Nid oes gan y wefan unrhyw gyfrifon a dim hysbysebu. Rydym yn defnyddio Google Analytics i ddeall pa dudalennau yr ymwelir â nhw. Mae lluniau a ddewiswch ar gyfer parau Llun yn cael eu dangos yn eich porwr yn unig ac nid ydynt byth yn cael eu huwchlwytho."
+      },
+      {
+        "q": "Pwy sy'n gwneud Eiliadau Aur?",
+        "a": "Mae Creative Activities yn dîm bach sy'n gwneud gweithgareddau lluniau tawel i oedolion ar gyfer teuluoedd a rhoddwyr gofal, ar y we ac fel ap rhad ac am ddim. Nid ydym yn glinigwyr, ac nid oes dim byd yma yn gyngor meddygol."
+      }
+    ]
+  },
+  "stage": {
+    "early": "gynnar",
+    "middle": "canol",
+    "late": "yn ddiweddarach",
+    "hintOne": "Yn aml yn siwtiau {list} llwyfan",
+    "hintMany": "Yn aml yn siwtiau {list} cyfnodau",
+    "labelEarly": "Cyfnod cynnar",
+    "labelMiddle": "Cam canol",
+    "labelLate": "Cam diweddarach"
+  },
+  "cards": {
+    "aboutGame": "Am y gêm hon",
+    "printable": "Argraffadwy",
+    "play": "Chwarae {name} →",
+    "readGuide": "Darllenwch y canllaw"
+  },
+  "playCta": {
+    "title": "Barod am gêm ysgafn?",
+    "text": "Lluniau mawr, dim amserydd, dim sgôr a dim byd i gofrestru amdano. Chwarae gyda'ch gilydd yn eich porwr.",
+    "play": "Chwarae Gêm",
+    "all": "Gweld pob gêm",
+    "aria": "Chwarae gêm"
+  },
+  "appCta": {
+    "title": "Ewch â'r gemau hyn gyda chi",
+    "text": "Yr ap Creative Activities rhad ac am ddim ar gyfer iPhone, iPad ac Android: teils lluniau mawr, gemau gyda'ch lluniau teulu eich hun, a phecynnau lluniau sy'n gweithio heb Wi-Fi. Dim cyfrif, hysbysebion, amserydd na sgôr.",
+    "appStore": "Ei gael ar yr App Store",
+    "googlePlay": "Ei gael ar Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Ynglŷn â'r app",
+    "aria": "Cael yr app"
+  },
+  "sections": {
+    "activities": {
+      "label": "Gweithgareddau",
+      "title": "Gweithgareddau i Bobl â Dementia",
+      "seo": "Gweithgareddau i Bobl â Dementia: Syniadau fesul Cam",
+      "description": "Syniadau am weithgareddau i bobl sy'n byw gyda dementia ar bob cam: cerddoriaeth, hel atgofion, tasgau bob dydd, eiliadau synhwyraidd, crefftau, awyr.",
+      "lede": "Gweithgaredd ystyrlon yw unrhyw beth sy'n dod â chysur, pwrpas neu eiliad o gysylltiad. Dechreuwch gyda'r hyn y mae'r person wedi'i fwynhau erioed, a'i addasu i heddiw."
+    },
+    "caregiving": {
+      "label": "Gofalu",
+      "title": "Canllawiau Gofalu",
+      "seo": "Canllawiau Gofalu am Ddementia: Help Ymarferol Bob Dydd",
+      "description": "Canllawiau ymarferol, caredig i ofalwyr dementia: chwarae gemau gyda'ch gilydd, cyfathrebu, gwrthod, anesmwythder yn ystod y dydd, tabledi, dewis apiau a hunanofal.",
+      "lede": "Cymorth plaen, ymarferol ar gyfer yr eiliadau bob dydd o ofalu am rywun sy'n byw gyda dementia, gan gynnwys gofalu amdanoch chi'ch hun."
+    },
+    "brain-health": {
+      "label": "Iechyd yr ymennydd",
+      "title": "Iechyd yr Ymennydd: Beth mae'r Ymchwil yn ei Ddweud",
+      "seo": "Iechyd yr Ymennydd a Risg Dementia: Yr Hyn y Mae Ymchwil yn ei Ddweud",
+      "description": "A ellir atal dementia? Canllawiau gonest, o ffynonellau i ffactorau risg dementia, gemau ymennydd, ymprydio, diet, ymarfer corff, cwsg, clyw ac arwyddion.",
+      "lede": "Yr hyn y mae astudiaethau mawr yn ei ddangos mewn gwirionedd am leihau risg dementia, wedi'i esbonio'n blaen, gan gynnwys lle mae'r dystiolaeth yn wan neu'n gymysg. Gwybodaeth gyffredinol, nid cyngor meddygol."
+    }
+  },
+  "guide": {
+    "updated": "Wedi'i ddiweddaru",
+    "minuteRead": "{n} darlleniad munud",
+    "byTeam": "Gan dîm Creative Activities",
+    "howWeWrite": "Sut rydyn ni'n ysgrifennu",
+    "shortAnswer": "Yr ateb byr",
+    "onThisPage": "Ar y dudalen hon ({n} adrannau)",
+    "commonQuestions": "Cwestiynau cyffredin",
+    "sources": "Ffynonellau",
+    "sourcesNote": "Rydym yn cysylltu â'r sefydliadau ac astudiaethau y mae'r dudalen hon yn dibynnu arnynt. Gwiriwyd pob un pan gafodd y dudalen ei diweddaru.",
+    "tryTogether": "Ceisiwch gyda'ch gilydd",
+    "relatedGuides": "Canllawiau cysylltiedig",
+    "related": "Cysylltiedig",
+    "startHere": "Dechreuwch yma"
+  },
+  "healthNotice": {
+    "aria": "Hysbysiad gwybodaeth iechyd",
+    "title": "Gwybodaeth gyffredinol, nid cyngor meddygol",
+    "textHtml": "Mae'r dudalen hon yn crynhoi gwaith ymchwil cyhoeddedig i deuluoedd. Ni all ddweud wrthych beth sy'n iawn i un person. Siaradwch â meddyg cyn newid diet, ymarfer corff, cwsg, meddyginiaethau neu atchwanegiadau. Am ddryswch sydyn neu newidiadau sydyn eraill, mynnwch gymorth meddygol ar unwaith. <a href=\"/medical-disclaimer/\">Darllenwch ein hysbysiad gwybodaeth iechyd</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Gweithgaredd a Rennir, Nid Prawf Cof",
+      "seoTitle": "Am Eiliadau Aur: Ein Dull",
+      "description": "Pam nad oes gan gemau Creative Activities unrhyw amseryddion, sgorau na rhediadau, pam mae lluniau'n parhau i gael eu dangos, a'r hyn y byddwn ac na fyddwn yn.",
+      "crumb": "Ein hymagwedd",
+      "lede": "Mae Creative Activities yn gwneud gweithgareddau tawel, llun oedolion y gall gofalwr a rhywun sy'n byw gyda dementia eu mwynhau ochr yn ochr.",
+      "bodyHtml": "<h2>Yr hyn a gredwn</h2><p>Pwynt gweithgaredd yw'r foment ei hun: sgwrs, gwên, y boddhad o roi dau lun at ei gilydd, neu eistedd yn agos. Nid yw i fesur neb, eu gwthio ymhellach na phrofi dim.</p><p>Mae llawer o apiau hyfforddi'r ymennydd wedi'u cynllunio o amgylch cyflymder, sgoriau, rhediadau a lefelau. Ar gyfer person sy'n byw gyda dementia a all deimlo fel arholiad na allant ei basio. Fe wnaethon ni ddylunio'r gwrthwyneb, ac rydyn ni'n dal ein hunain i'r rheolau hyn:</p><ul><li><strong>Dim byd i fethu.</strong> Dim cloc, sgôr, cownter symud, bywydau, rhediadau, conffeti na chyfri i lawr, ar unrhyw sgrin.</li><li><strong>Cydnabyddiaeth dros adalw.</strong> Mae lluniau'n aros i'w dangos yn ddiofyn. Mae anogwyr yn gwahodd sgwrs a byth yn cwis enwau nac atgofion.</li><li><strong>Mawr, plaen a chyson.</strong> Testun mawr a lluniau, cyferbyniad uchel, a rheolaethau sy'n aros yn yr un lle.</li><li><strong>Urddas oedolion.</strong> Lluniau byd go iawn a geiriau plaen, cynnes. Dim cartwnau, canmoliaeth canu-gân na gwobrau emoji.</li><li><strong>Ffordd hawdd allan.</strong> Mae “Gwneud am y tro” bob amser yn weladwy. Mae stopio hanner ffordd yn ganlyniad da.</li><li><strong>Preifat yn ddiofyn.</strong> Dim cyfrifon na hysbysebion. Mae'r lluniau rydych chi'n eu dewis yn aros ar eich dyfais.</li></ul><h2>Yr hyn nad ydym yn ei hawlio</h2><p>Mae ein gemau ar gyfer mwynhad a chysylltiad. Nid ydynt yn gwneud diagnosis, yn profi, yn mesur, yn trin, yn arafu nac yn atal dementia neu glefyd Alzheimer, ac ni ddylai neb eu dewis am y rheswm hwnnw. Pan fyddwn yn ysgrifennu am ymchwil ar ein <a href=\"/brain-health/\">tudalennau iechyd yr ymennydd</a>, dywedwn yn blaen lle mae'r dystiolaeth yn wan, ac nid ydym byth yn ei gysylltu â'n gemau ein hunain.</p><h2>Pwy ydym ni</h2><p>Mae Creative Activities yn dîm annibynnol bach. Nid ydym yn glinigwyr. Mae ein canllawiau wedi’u hysgrifennu o ganllawiau cyhoeddedig gan sefydliadau fel y Sefydliad Cenedlaethol ar Heneiddio a’r Gymdeithas Alzheimer, ac mae pob canllaw yn rhestru ei ffynonellau. Darllen <a href=\"/editorial-policy/\">sut rydym yn ysgrifennu ac yn gwirio ein tudalennau</a>.</p><h2>Dywedwch wrthym beth fyddai'n helpu</h2><p>Byddem wrth ein bodd yn clywed beth sy’n gweithio i chi a’r hyn nad yw’n gweithio, yn enwedig gan bobl sy’n byw gyda dementia, gofalwyr teuluol a staff gweithgareddau. Ebost <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Sut Rydym yn Ysgrifennu a Gwirio Ein Tudalennau",
+      "seoTitle": "Polisi Golygyddol",
+      "description": "Sut mae Creative Activities yn ymchwilio, yn ysgrifennu, yn canfod ac yn diweddaru ei dudalennau gweithgaredd dementia ac iechyd yr ymennydd, a'r hyn na fyddwn.",
+      "crumb": "Polisi golygyddol",
+      "bodyHtml": "<h2>Ein ffynonellau</h2><p>Rydym yn seilio ein canllawiau ar ganllawiau cyhoeddus gan sefydliadau fel y Sefydliad Cenedlaethol ar Heneiddio, y CDC, Cymdeithas Alzheimer, Sefydliad Alzheimer America, Cynghrair y Rhoddwyr Gofal Teulu a’r GIG, ac ar ymchwil a adolygir gan gymheiriaid megis adolygiadau Cochrane a threialon clinigol mawr. Mae pob canllaw yn rhestru'r ffynonellau y mae'n dibynnu arnynt. Rydym yn agor pob ffynhonnell cyn ei dyfynnu, a dim ond yr hyn y mae'n ei ddweud mewn gwirionedd yr ydym yn ei adrodd.</p><h2>Sut rydyn ni'n ysgrifennu</h2><ul><li>Yn gyntaf ymarferol: beth i'w wneud heddiw, mewn iaith glir.</li><li>Yn onest am dystiolaeth: rydyn ni’n dweud “cysylltiedig â”, “gall” a “mae’r dystiolaeth yn gymysg” pan fo hynny’n wir.</li><li>Parchus: rydym yn ysgrifennu am bobl sy'n byw gyda dementia fel oedolion, ac nid ydym byth yn defnyddio iaith cwis neu gywilydd.</li><li>Dim cynnwys wedi'i ddyfeisio: dim ystadegau, dyfyniadau, arbenigwyr, astudiaethau, adolygiadau na thystebau.</li></ul><h2>Pwy sy'n adolygu ein tudalennau</h2><p>Mae tudalennau'n cael eu hysgrifennu a'u gwirio gan y tîm Creative Activities, gyda chymorth offer ysgrifennu AI ar gyfer ymchwil a drafftio. Mae pob tudalen yn cael ei gwirio yn erbyn ei ffynonellau gan y tîm. Mae gan ein tudalennau <strong>ddim</strong> cael ei adolygu gan feddyg neu glinigwr arall, ac nid ydym yn hawlio fel arall. Gwybodaeth gyffredinol ydynt, nid cyngor meddygol.</p><h2>Yr hyn na fyddwn byth yn ei gyhoeddi</h2><ul><li>Yn honni bod gêm, bwyd, atodiad, cyflym neu arferol yn atal, yn trin, yn arafu neu'n gwella dementia.</li><li>Profion, cwisiau neu sgorau sy'n awgrymu bod gan rywun ddementia, neu nad oes ganddo ddementia.</li><li>Cyngor i ddechrau, stopio neu newid unrhyw feddyginiaeth.</li><li>Hysbysebu neu gynnwys noddedig wedi'i guddio fel canllaw.</li></ul><h2>Diweddariadau a chywiriadau</h2><p>Mae pob tudalen yn dangos y dyddiad y cafodd ei diweddaru ddiwethaf. Os byddwch yn dod o hyd i gamgymeriad neu ffynhonnell sydd wedi dyddio, anfonwch e-bost <a href=\"mailto:{email}\">{email}</a> a byddwn yn ei wirio'n brydlon.</p>"
+    },
+    "faq": {
+      "title": "Cwestiynau ac Atebion",
+      "seoTitle": "Gemau a Gweithgareddau Dementia: Cwestiynau ac Atebion",
+      "description": "Atebion i gwestiynau cyffredin am gemau a gweithgareddau dementia: pa gemau i roi cynnig arnynt, pa mor hir i'w chwarae, syniadau cam hwyrach, iechyd yr.",
+      "crumb": "Cwestiynau ac atebion",
+      "lede": "Atebion byr, plaen i'r cwestiynau y mae gofalwyr yn eu gofyn fwyaf.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Am y gemau",
+          "items": [
+            {
+              "q": "Beth yw'r gemau gorau i rywun â dementia?",
+              "a": "Mae'r gemau gorau yn gyfarwydd, yn syml ac yn rhydd o bwysau, a'r un iawn yw beth bynnag mae'r person yn ei fwynhau heddiw. Mae paru lluniau gyda lluniau gweladwy, didoli, jig-sos hawdd, gorffen dywediadau cyfarwydd, lliwio a bingo lluniau i gyd yn gweithio'n dda i lawer o bobl. Ceisiwch osgoi amseryddion, sgorau ac unrhyw beth sy'n teimlo fel prawf."
+            },
+            {
+              "q": "Ydy'r gemau'n rhad ac am ddim mewn gwirionedd?",
+              "a": "Oes. Mae'r holl gemau ac eitemau y gellir eu hargraffu am ddim, heb unrhyw gyfrif, cofrestru, lawrlwytho na hysbysebu."
+            },
+            {
+              "q": "Pam nad oes unrhyw sgorau, lefelau nac amseryddion?",
+              "a": "Mae cyflymder a sgôr yn troi gweithgaredd dymunol yn arholiad, a all ddod â embaras neu rwystredigaeth. Rydyn ni'n cadw'r ffocws ar fwynhad ac amser gyda'n gilydd, felly does dim byd i'w fethu a gallwch chi stopio ar unrhyw adeg."
+            },
+            {
+              "q": "Pa ddyfeisiau sy'n gweithio orau?",
+              "a": "Unrhyw ffôn, tabled neu gyfrifiadur sydd â phorwr gwe modern. Yn aml, tabled ar stondin wrth fwrdd yw'r ffordd fwyaf cyfforddus i ddau berson chwarae ochr yn ochr. Mae gliniadur sydd wedi'i gysylltu â theledu yn gweithio'n dda ar gyfer grwpiau."
+            },
+            {
+              "q": "A allwn ni chwarae gyda'n lluniau teuluol ein hunain?",
+              "a": "Oes. Mae parau lluniau yn troi 2 i 6 llun rydych chi'n eu dewis yn gêm baru. Mae'r lluniau'n aros yn eich porwr ac nid ydynt yn cael eu huwchlwytho na'u cadw."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Gweithgareddau a gofalu",
+          "items": [
+            {
+              "q": "Pa mor hir ddylai gweithgaredd bara?",
+              "a": "Yn aml mae 10 i 20 munud yn ddigon, ac weithiau mae 2 funud yn llwyddiant. Gwyliwch am arwyddion o flinder neu rwystredigaeth a stopiwch tra ei fod yn dal i deimlo'n dda. Nid oes unrhyw swm cywir."
+            },
+            {
+              "q": "Beth os nad ydynt am wneud gweithgaredd?",
+              "a": "Parchwch y na, a cheisiwch eto'n hwyrach neu mewn ffordd wahanol. Gall gwrthod ddod oherwydd blinder, poen, teimlo'n ansicr neu ddim diddordeb. Gweler ein canllaw beth i'w wneud pan fyddant yn dweud na."
+            },
+            {
+              "q": "Pa weithgareddau sy'n addas ar gyfer dementia cam hwyrach?",
+              "a": "Cysur a'r synhwyrau: gwrando ar hoff gerddoriaeth, tylino dwylo gyda eli, edrych ar luniau gyda'i gilydd, dal blanced feddal, eistedd y tu allan, neu gêm lluniau syml iawn gyda rhywun wrth eu hymyl. Mae gan ein canllaw cam hwyrach lawer mwy o syniadau."
+            },
+            {
+              "q": "A oes gweithgareddau ar gyfer grwpiau mewn cartref gofal?",
+              "a": "Oes. Mae gan bingo lluniau gardiau y gellir eu hargraffu a galwr ar y sgrin, ac mae cardiau Gorffen y dweud a'r Sgwrs yn gweithio'n dda wedi'u darllen yn uchel. Mae ein canllaw grwpiau cartrefi gofal yn ymdrin â maint grwpiau, seddi ac addasu ar gyfer galluoedd cymysg."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Iechyd yr ymennydd",
+          "items": [
+            {
+              "q": "A all gemau atal neu arafu dementia?",
+              "a": "Nid oes unrhyw gêm wedi'i dangos i atal dementia, ac nid yw ein gemau'n gwneud unrhyw honiad o'r fath. Mae ysgogiad gwybyddol mewn lleoliad cymdeithasol wedi dangos manteision bach mewn ymchwil i bobl â dementia ysgafn i gymedrol, ond mae hynny'n wahanol i gêm atal clefyd. Rydym yn cynnig gemau ar gyfer mwynhad a chysylltiad."
+            },
+            {
+              "q": "A ellir atal dementia?",
+              "a": "Ddim gyda sicrwydd. Mae ymchwil yn cysylltu 14 o ffactorau iechyd a ffordd o fyw â risg dementia, megis colli clyw, pwysedd gwaed uchel, anweithgarwch corfforol ac ynysigrwydd cymdeithasol. Gall mynd i’r afael â nhw leihau’r risg i rai pobl, ond mae llawer o bobl sy’n gwneud popeth yn iawn yn dal i ddatblygu dementia. Nid bai neb byth mohono."
+            },
+            {
+              "q": "A yw ymprydio ysbeidiol yn dda i iechyd yr ymennydd?",
+              "a": "Mae tystiolaeth ddynol yn gyfyngedig ac yn gynnar, ac mae llawer o'r ymchwil mewn anifeiliaid. Gall ymprydio fod yn beryglus i oedolion hŷn, yn enwedig gyda meddyginiaethau diabetes neu golli pwysau yn anfwriadol, ac nid yw'n cael ei argymell ar gyfer pobl sy'n byw gyda dementia. Siaradwch â meddyg cyn newid sut rydych chi'n bwyta."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Preifatrwydd a diogelwch",
+          "items": [
+            {
+              "q": "Ydych chi'n casglu unrhyw wybodaeth?",
+              "a": "Dim cyfrifon na hysbysebion. Rydym yn defnyddio Google Analytics i gyfrif ymweliadau a gweld pa dudalennau sy'n helpu, ac mae'ch porwr yn cofio a wnaethoch chi droi synau meddal ymlaen. Nid yw lluniau a ddewiswch ar gyfer parau Llun byth yn cael eu huwchlwytho. Gweler yr hysbysiad preifatrwydd am fanylion."
+            },
+            {
+              "q": "Ai cyngor meddygol yw hwn?",
+              "a": "Na. Mae Creative Activities ar gyfer hamdden a gwybodaeth gyffredinol. Ar gyfer cwestiynau iechyd, siaradwch â meddyg, ac ar gyfer argyfyngau ffoniwch 911."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Mwy o fanylion: <a href=\"/caregiving/how-to-play-together/\">sut i chwarae gyda'n gilydd</a>, <a href=\"/caregiving/when-they-say-no/\">pan ddywedant na</a>, <a href=\"/activities/late-stage/\">gweithgareddau cyfnod hwyrach</a> a <a href=\"/brain-health/can-dementia-be-prevented/\">a ellir atal dementia?</a>"
+    },
+    "handout": {
+      "title": "Gemau Am Ddim, Addfwyn i Bobl sy'n Byw gyda Dementia",
+      "seoTitle": "Taflen Argraffadwy: Gemau Dementia Am Ddim Ar-lein",
+      "description": "Taflen un dudalen y gellir ei hargraffu ar gyfer teuluoedd a gofalwyr am gemau llun ysgafn am ddim i bobl sy'n byw gyda dementia, ar gyfer grwpiau cymorth.",
+      "crumb": "Taflen argraffadwy",
+      "lede": "Argraffwch y dudalen hon ar gyfer grŵp cymorth, pecyn gofal neu ddrws yr oergell. Defnyddiwch orchymyn Argraffu eich porwr; mae'r dewislenni a'r botymau yn cael eu gadael oddi ar yr allbrint.",
+      "introHtml": "<p>Lluniau mawr, geiriau plaen a dim byd i'w fethu. Am ddim ar ffôn, tabled neu gyfrifiadur, heb unrhyw gofrestru, dim hysbysebion, dim amseryddion a dim sgôr. Eisteddwch ochr yn ochr a chymerwch eich tro.</p>",
+      "gamesTitle": "Gemau i geisio gyda'n gilydd",
+      "restHtml": "<h2>Ychydig o awgrymiadau</h2><ul><li>Dewiswch adeg o'r dydd pan fo'r person ar ei orau.</li><li>Dechreuwch gyda'r gosodiad hawsaf. Mae pedair teils yn ddigon.</li><li>Sôn am y lluniau. Y sgwrs yn aml yw'r rhan orau.</li><li>Stopiwch tra ei fod yn dal i deimlo'n ddymunol. Mae dod i ben yn gynnar yn ganlyniad da.</li></ul><h2>Hefyd ar y safle</h2><ul><li>Eitemau argraffadwy am ddim: chwilair print bras, tudalennau lliwio, cardiau sgwrsio a bingo lluniau.</li><li>Syniadau gweithgaredd ar gyfer pob cam, a chanllawiau ar chwarae gyda'ch gilydd a gofalu amdanoch chi'ch hun.</li></ul><p class=\"muted\">Am fwynhad ac amser gyda'n gilydd. Nid cyngor meddygol, prawf na thriniaeth. Cyhoeddir Creative Activities gan Cloudjet Solutions Pte. Cyf.</p>"
+    },
+    "organizations": {
+      "title": "Ar gyfer Cartrefi Gofal, Llyfrgelloedd a Grwpiau Cefnogi",
+      "seoTitle": "Gweithgareddau Dementia Am Ddim ar gyfer Cartrefi Gofal a Grwpiau",
+      "description": "Sut mae cartrefi gofal, rhaglenni dydd i oedolion, llyfrgelloedd, asiantaethau heneiddio a grwpiau cymorth yn defnyddio ein gemau dementia rhad ac am ddim.",
+      "crumb": "Ar gyfer sefydliadau",
+      "lede": "Mae popeth ar y wefan hon yn rhad ac am ddim i'w ddefnyddio gyda phreswylwyr, aelodau a chleientiaid, heb unrhyw gyfrif, trwydded na ffi. Mae'r dudalen hon yn egluro beth sydd yma a sut i'w rannu.",
+      "shortText": "{name}: gemau lluniau ysgafn, rhad ac am ddim a chanllawiau gweithgaredd i bobl sy'n byw gyda dementia a'u gofalwyr. Dim cofrestru, dim amseryddion, dim sgorau.",
+      "longText": "{name} ({domain}) cynigion {count} gemau porwr rhad ac am ddim wedi'u gwneud ar gyfer pobl sy'n byw gyda dementia, gan gynnwys paru parau gyda lluniau a adawyd yn dangos, jig-so hawdd, didoli, dywediadau cyfarwydd a bingo lluniau gyda chardiau argraffadwy. Nid oes cyfrif, hysbysebu, amserydd na sgôr. Mae gan y wefan hefyd ganllawiau gweithgaredd iaith blaen ar gyfer pob cam o ddementia sy'n dyfynnu'r Sefydliad Cenedlaethol ar Heneiddio a Chymdeithas Alzheimer.",
+      "useTitle": "Yr hyn y gall sefydliadau ei ddefnyddio",
+      "gamesItemHtml": "<strong>{count} gemau porwr</strong> sy'n rhedeg ar liniadur, llechen neu deledu sydd wedi'i gysylltu â chyfrifiadur. Dim gosod, cyfrif na llwytho i lawr. Gwel <a href=\"/games/\">pob gêm</a>.",
+      "printablesLabel": "{count} argraffadwy:",
+      "printablesAfter": "Defnyddiwch y botwm Argraffu ar bob tudalen.",
+      "moreItemsHtml": "<li><strong>Fformatau grŵp:</strong> <a href=\"/games/picture-bingo/\">Bingo lluniau</a> â chardiau argraffadwy a galwr ar y sgrin, a <a href=\"/activities/trivia/\">dibwys hawdd</a> 50 cwestiwn gyda dewisiadau ateb a phwyntiau siarad.</li><li><strong>Canllawiau gweithgaredd</strong> ar gyfer staff a theuluoedd, fesul cam a math, wedi'i ysgrifennu mewn iaith glir gyda ffynonellau. Dechreuwch gyda <a href=\"/activities/ideas/\">101 o syniadau am weithgareddau</a> neu <a href=\"/activities/care-home-groups/\">gweithgareddau grŵp ar gyfer cartrefi gofal</a>.</li>",
+      "restHtml": "<h2>Sut mae grwpiau'n ei ddefnyddio</h2><ul><li><strong>Cartrefi gofal a gofal cof:</strong> bingo lluniau neu orffen-y-dweud ar y teledu ystafell gyffredin, gydag un person yn tapio ar gyfer y grŵp.</li><li><strong>Rhaglenni dydd i oedolion:</strong> gorsaf dabled gyda pharau Llun wedi'u gosod ar bedair teilsen, ar gyfer sesiynau un-i-un byr.</li><li><strong>Llyfrgelloedd cyhoeddus:</strong> chwileiriau wedi'u hargraffu a chardiau sgwrsio mewn citiau cof, a nod tudalen y wefan ar dabledi'r llyfrgell.</li><li><strong>Grwpiau cymorth gofalwyr a chaffis cof:</strong> a <a href=\"/handout/\">taflen argraffu un dudalen</a> i deuluoedd fynd adref gyda nhw.</li><li><strong>Ysbytai a chynllunwyr rhyddhau:</strong> y daflen mewn pecynnau gofalwr, am rywbeth tawel i'w wneud gartref neu wrth erchwyn y gwely.</li></ul><h2>Yr hyn nad ydym yn ei wneud</h2><p>Mae'r gemau ar gyfer mwynhad ac amser gyda'i gilydd. Nid ydynt yn gwneud diagnosis, yn profi, yn sgorio, yn trin nac yn arafu dementia, a gofynnwn i sefydliadau beidio â’u disgrifio felly. Nid oes unrhyw hysbysebion, ac nid yw'r gemau'n gofyn am uwchlwytho enwau, manylion iechyd na lluniau. Mae'r wefan yn defnyddio Google Analytics i gyfrif ymweliadau; ein <a href=\"/privacy/\">hysbysiad preifatrwydd</a> yn egluro beth mae hynny'n ei gasglu. Lluniau a ddefnyddiwyd yn <a href=\"/games/photo-pairs/\">Parau lluniau</a> aros yn y porwr.</p><h2>Ychwanegwch ni at eich rhestr adnoddau</h2><p>Os ydych yn cadw rhestr o adnoddau ar gyfer gofalwyr, mae croeso i chi gysylltu â <a href=\"/\">{domain}</a>. Gallwch gopïo'r naill ddisgrifiad neu'r llall.</p>",
+      "shortTitle": "Disgrifiad byr",
+      "longTitle": "Disgrifiad hirach",
+      "linksHtml": "<p>Tudalennau defnyddiol i gysylltu yn uniongyrchol â nhw: <a href=\"/games/\">gemau rhad ac am ddim</a>, <a href=\"/activities/printable/\">argraffadwy am ddim</a>, <a href=\"/activities/alzheimers/\">gweithgareddau ar gyfer Alzheimer</a> a <a href=\"/caregiving/how-to-play-together/\">sut i chwarae gyda'n gilydd</a>.</p><h2>Cwestiynau neu gywiriadau</h2><p>Os yw rhywbeth ar y safle yn anghywir neu'n aneglur, neu os nad yw anghenion preswylydd yn cael eu diwallu gan yr hyn sydd yma, dywedwch wrthym yn <a href=\"mailto:{email}\">{email}</a>. Peidiwch ag anfon gwybodaeth bersonol neu iechyd am breswylwyr neu gleientiaid.</p>"
+    },
+    "app": {
+      "title": "Yr Ap Eiliadau Aur",
+      "seoTitle": "Yr Ap Eiliadau Aur ar gyfer iPhone ac Android",
+      "description": "Yr ap Creative Activities rhad ac am ddim: paru lluniau ysgafn â phedair teilsen fawr, lluniau teulu wedi'u cadw ar eich dyfais, pecynnau lluniau all-lein a dim cyfrif.",
+      "crumb": "Yr ap",
+      "lede": "Popeth rydych chi'n ei hoffi am y wefan, mewn ap sy'n gweithio all-lein ac sy'n gallu defnyddio lluniau teulu o'ch dewis.",
+      "worksOn": "Yn gweithio ar {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Dechreuwch yn fach</h2><p>Dechreuwch gyda phedair teilsen fawr a lluniau cyfarwydd. Cadwch luniau yn weladwy, neu eu cuddio pan fydd hynny'n teimlo'n gyfforddus. Nid oes gan y modd ysgafn amserydd, sgôr na chosb. Dewiswch 4, 6, 8 neu 12 teils.</p><h2>Ei wneud yn bersonol</h2><p>Dewiswch luniau teulu gyda dewiswr lluniau eich dyfais. Mae'r ap yn arbed copïau llai ar gyfer ei weithgareddau. Nid yw'n sganio'ch llyfrgell nac yn newid eich lluniau gwreiddiol, ac mae'n cadw hyd at 24 llun mewn un casgliad.</p><h2>Dim ond edrych gyda'ch gilydd</h2><p>Gweld un llun ar y tro. Mae anogwyr dewisol yn gwahodd sgwrs heb ofyn i unrhyw un gofio enwau na rhoi ateb cywir. Yn syml, mae edrych yn ddigon.</p><h2>All-lein lle mae'n bwysig</h2><p>Mae lluniau cychwynnol a phob un o'r wyth pecyn llun wedi'u cynnwys gyda'r ap. Mae copïau llun a fewnforir yn gweithio all-lein. Efallai y bydd angen cysylltiad rhyngrwyd i ddewis y rhai gwreiddiol sydd wedi'u storio yn iCloud yn unig.</p><h2>Dim cyfrif, dim gweinydd cydamseru lluniau</h2><p>Mae copïau llun teulu yn aros yn yr app ar y ddyfais. Gallwch dynnu'r copïau heb ddileu'r rhai gwreiddiol. Gall copïau wrth gefn dyfeisiau gynnwys data app. Darllenwch y <a href=\"/app-privacy/\">polisi preifatrwydd app</a>, a <a href=\"/help/\">help ap</a> yn cerdded trwy bob cam.</p>",
+      "disclaimer": "Mae Creative Activities ar gyfer hamdden a sgwrs ar y cyd. Nid yw’n gwneud diagnosis, yn trin, yn atal nac yn mesur dementia na chlefyd Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Gemau Dementia ac Alzheimer Am Ddim Ar-lein",
+    "description": "Gemau ar-lein rhad ac am ddim i bobl hŷn sy'n byw gyda dementia neu Alzheimer: paru lluniau, jig-sos hawdd, didoli, dywediadau, lliwio, bingo.",
+    "crumb": "Gemau",
+    "h1": "Gemau Ysgafn i Bobl â Dementia",
+    "lede": "{count} gemau rhad ac am ddim i chwarae gyda'i gilydd yn eich porwr. Lluniau mawr, geiriau plaen, a dim byd i'w fethu: dim amseryddion, dim sgorau, dim arwyddo.",
+    "listName": "Gemau ysgafn i bobl â dementia",
+    "byStageTitle": "Dewis gêm fesul cam",
+    "byStageLede": "Canllaw bras yn unig yw camau. Dilynwch yr hyn y mae'r person yn ei fwynhau a'r hyn sy'n teimlo'n gyfforddus heddiw.",
+    "stageCol": "Llwyfan",
+    "gamesCol": "Gemau sy'n aml yn addas",
+    "moreHtml": "Mwy o syniadau i ffwrdd o'r sgrin: <a href=\"/activities/ideas/\">101 o weithgareddau i bobl â dementia</a>, <a href=\"/activities/alzheimers/\">gweithgareddau a gemau ar gyfer Alzheimer</a>, <a href=\"/activities/memory-games/\">gemau cof ysgafn</a> a <a href=\"/activities/puzzles/\">posau</a>.",
+    "faq": [
+      {
+        "q": "Pa gêm ddylen ni ddechrau gyda hi?",
+        "a": "Mae parau llun gyda phedair teils yn ddewis cyntaf tawel. Os yw dewis rhwng lluniau yn teimlo fel gormod, ceisiwch Dod o hyd i'r un peth gyda dau lun. Ar gyfer grŵp, rhowch gynnig ar bingo lluniau."
+      },
+      {
+        "q": "Ydy'r gemau'n gweithio ar iPad neu ffôn?",
+        "a": "Oes. Mae pob gêm yn gweithio yn y porwr ar ffonau, tabledi a chyfrifiaduron, ac mae'r lluniau'n tyfu i lenwi'r sgrin. Yn aml, tabled ar stondin yw'r mwyaf cyfforddus i ddau berson."
+      },
+      {
+        "q": "Ydy'r gemau hyn yn dda i rywun ag Alzheimer's?",
+        "a": "Oes. Fe'u gwnaed ar gyfer pobl sy'n byw gyda dementia, gan gynnwys Alzheimer's, yr achos mwyaf cyffredin. Mae lluniau'n parhau i ddangos, dim ond ychydig o ddewisiadau sydd, ac nid oes dim wedi'i amseru na'i sgorio, felly mae'r gemau'n pwyso ar adnabod pethau cyfarwydd yn hytrach na chofio rhai newydd."
+      },
+      {
+        "q": "Ai gemau cof yw'r rhain ar gyfer pobl hŷn?",
+        "a": "Maen nhw'n gemau paru a lluniau y gall unrhyw oedolyn hŷn eu mwynhau, ond maen nhw wedi'u hadeiladu i beidio â phrofi cof: mewn parau Llun mae'r lluniau'n aros wyneb i fyny oni bai eich bod chi'n dewis fel arall. Mae ein canllaw gemau cof ar gyfer pobl hŷn â dementia yn esbonio sut i gadw unrhyw gêm cof yn ysgafn."
+      },
+      {
+        "q": "A oes gemau ar gyfer grwpiau mewn cartref gofal?",
+        "a": "Oes. Mae gan bingo lluniau gardiau y gellir eu hargraffu a galwr ar y sgrin, ac mae cardiau Gorffen y dweud a'r Sgwrs yn gweithio'n dda wedi'u darllen yn uchel i grŵp."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad ac Android",
+    "requirements": "iOS 15 neu'n hwyrach; Android 7.0 neu ddiweddarach",
+    "summary": "Ap rhad ac am ddim ar gyfer iPhone, iPad ac Android gyda lluniau paru ysgafn ar bedair i ddeuddeg teils mawr, paru a gwylio gyda lluniau teulu o'ch dewis, ac wyth yn cynnwys pecynnau lluniau sy'n gweithio heb rhyngrwyd. Dim cyfrif, hysbysebion, amserydd na sgôr.",
+    "features": [
+      "Paru llun ysgafn gyda 4, 6, 8 neu 12 teils mawr; mae lluniau yn aros yn weladwy oni bai eich bod yn dewis eu cuddio",
+      "Mae lluniau teulu rydych chi'n eu dewis yn cael eu copïo i'r app i'w paru ac i edrych arnyn nhw gyda'ch gilydd",
+      "Edrych gyda'ch gilydd: un llun ar y tro gydag awgrymiadau sgwrs dewisol",
+      "Wyth pecyn lluniau wedi'u cynnwys gyda'r ap; maen nhw'n gweithio all-lein",
+      "Dim cyfrif, hysbysebion, pryniannau mewn-app, amserydd, sgôr na chosb"
+    ],
+    "faq": [
+      {
+        "q": "A oes ap gweithgareddau dementia?",
+        "a": "Oes. Eiliadau Aur (wedi'u rhestru fel \"{storeName}\") yn rhad ac am ddim ar yr App Store a Google Play. Mae'n cynnig paru llun ysgafn gyda theils mawr, gemau gyda lluniau teulu o'ch dewis, a phecynnau lluniau sy'n gweithio all-lein."
+      },
+      {
+        "q": "A yw'r ap Creative Activities am ddim?",
+        "a": "Oes. Mae'n rhad ac am ddim i'w lawrlwytho, heb unrhyw hysbysebion, cyfrif na phrynu mewn-app."
+      },
+      {
+        "q": "Ydy'r ap yn gweithio heb rhyngrwyd?",
+        "a": "Oes. Mae'r lluniau cychwynnol a phob un o'r wyth pecyn lluniau wedi'u cynnwys gyda'r ap, ac mae lluniau teulu'n gweithio all-lein ar ôl iddynt gael eu copïo i'r ap. Efallai y bydd angen cysylltiad i ddewis llun sydd wedi'i storio yn iCloud yn unig."
+      },
+      {
+        "q": "A allaf ddefnyddio ein lluniau teulu ein hunain?",
+        "a": "Oes. Dewiswch luniau gyda dewiswr lluniau eich dyfais. Mae'r ap yn cadw copïau llai ar y ddyfais ar gyfer ei weithgareddau, nid yw'n eu llwytho i fyny ac nid yw byth yn newid y rhai gwreiddiol. Gallwch dynnu'r copïau unrhyw bryd."
+      },
+      {
+        "q": "Ai ap hyfforddi'r ymennydd neu brawf cof ydyw?",
+        "a": "Mae Eiliadau Aur er mwynhad ac amser gyda'ch gilydd. Nid oes ganddo unrhyw sgoriau na phrofion, ac nid yw’n gwneud diagnosis, yn trin, yn atal nac yn mesur dementia na chlefyd Alzheimer."
+      },
+      {
+        "q": "Ar ba ddyfeisiau mae'n gweithio?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "A oes fersiwn app o'r gêm hon?",
+      "a": "Oes. Mae gan yr app Creative Activities rhad ac am ddim ar gyfer iPhone, iPad ac Android yr un paru llun ysgafn, gall ddefnyddio lluniau teulu o'ch dewis, ac mae'n gweithio all-lein. Dim cyfrif, hysbysebion na sgôr."
+    },
+    "gameFaqNo": {
+      "q": "A oes fersiwn app o'r gêm hon?",
+      "a": "Nid o'r gêm hon. Mae gan yr app Creative Activities rhad ac am ddim ar gyfer iPhone, iPad ac Android baru lluniau ysgafn â theils mawr a lluniau teulu o'ch dewis, ac mae'n gweithio all-lein. Mae'r gêm hon yn aros am ddim yma yn eich porwr."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: lluniau mawr, cyfeillgar",
+    "noscript": "Mae angen JavaScript ar y gêm hon yn eich porwr. Mae'r awgrymiadau isod yn gweithio hebddo.",
+    "about": "Ynghylch {name}",
+    "aboutAria": "Am y gêm hon",
+    "noTimer": "Dim amserydd na sgôr",
+    "printable": "Argraffadwy",
+    "howTo": "Sut i chwarae {name}",
+    "tips": "Syniadau ar gyfer chwarae gyda'ch gilydd",
+    "newToPlayingHtml": "Newydd i chwarae gyda rhywun sydd â dementia? Darllen <a href=\"/caregiving/how-to-play-together/\">sut i chwarae gemau gyda'ch gilydd</a>, gan gynnwys beth i'w wneud os ydynt yn colli llog.",
+    "moreAria": "Mwy i'w archwilio",
+    "helpfulGuides": "Canllawiau defnyddiol",
+    "appTitle": "Chwaraewch ef yn yr app",
+    "appText": "Mae gan yr ap Creative Activities rhad ac am ddim paru lluniau ysgafn â theils mawr a'ch lluniau teulu eich hun, ac mae'n gweithio heb Wi-Fi. iPhone, iPad ac Android.",
+    "photoAppTitle": "Cadwch eich lluniau yn barod",
+    "photoAppText": "Yn yr app Creative Activities rhad ac am ddim, mae'r lluniau a ddewiswch yn aros ar eich dyfais am y tro nesaf, ac mae gemau'n gweithio heb Wi-Fi. iPhone, iPad ac Android.",
+    "goodToKnow": "Da gwybod",
+    "goodToKnowText": "Mae'r gêm hon er mwynhad ac amser gyda'i gilydd. Nid yw'n profi, mesur na thrin unrhyw beth.",
+    "moreGames": "Mwy o gemau ysgafn",
+    "crumb": "Gemau"
+  }
+}

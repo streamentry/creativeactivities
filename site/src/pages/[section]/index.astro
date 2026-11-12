@@ -1,0 +1,13 @@
+---
+import type { GetStaticPaths } from 'astro';
+import SectionView from '../../views/SectionView.astro';
+import { SECTIONS } from '../../content.config';
+import type { SectionKey } from '../../lib/site';
+
+export const getStaticPaths = (() => SECTIONS.map((section) => ({ params: { section }, props: { section } }))) satisfies GetStaticPaths;
+
+interface Props {
+  section: SectionKey;
+}
+---
+<SectionView section={Astro.props.section} lang="en" />

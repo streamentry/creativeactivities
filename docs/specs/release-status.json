@@ -1,0 +1,930 @@
+{
+  "release": "1.5.0+9",
+  "meaning": "Implemented means source exists, not released or device-verified.",
+  "features": {
+    "gentle_matching": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "family_photos": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "photo_viewer": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "offline_starter": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "accessible_layout": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "legacy_library": {
+      "status": "implemented_unverified",
+      "evidence": []
+    },
+    "bundled_catalog": {
+      "status": "locally_verified",
+      "evidence": [
+        "test/bundled_catalog_test.dart",
+        "tests/test_bundled_catalog.py",
+        "scripts/visual_smoke.cjs",
+        "docs/packs.md"
+      ]
+    }
+  },
+  "gates": {
+    "flutter_tests": {
+      "status": "passed",
+      "evidence": [
+        "docs/release/app-store-1.4.0-build7.md"
+      ]
+    },
+    "ios_archive": {
+      "status": "passed",
+      "evidence": [
+        "docs/release/app-store-1.4.0-build7.md"
+      ]
+    },
+    "ios_photo_picker": {
+      "status": "pending",
+      "evidence": [
+        "docs/release/app-store-1.3.0-build6.md"
+      ],
+      "scope": "Native picker happy-path import and matching/viewing passed on separate iPhone/iPad iOS18.5 simulators. Cancel, limited access, HEIC, iCloud and capacity/failure scenarios remain pending."
+    },
+    "android_photo_picker_recovery": {
+      "status": "pending",
+      "evidence": []
+    },
+    "fresh_install_offline": {
+      "status": "pending",
+      "evidence": []
+    },
+    "upgrade_preserves_packs": {
+      "status": "pending",
+      "evidence": []
+    },
+    "accessibility_device_review": {
+      "status": "pending",
+      "evidence": []
+    },
+    "caregiver_comprehension": {
+      "status": "pending",
+      "evidence": []
+    },
+    "privacy_and_sdk_audit": {
+      "status": "pending",
+      "evidence": [
+        "docs/release/app-store-1.4.0-build7.md"
+      ],
+      "scope": "The signed 1.4 archive includes the app and plugin privacy manifests; static inspection found no Firebase Pod. Runtime traffic, data-backup behavior and App Privacy/legal review remain pending."
+    },
+    "medical_claims_review": {
+      "status": "pending",
+      "evidence": []
+    },
+    "real_screenshot_review": {
+      "status": "passed",
+      "evidence": [
+        "docs/release/app-store-1.4.0-build7.md"
+      ]
+    },
+    "store_configuration": {
+      "status": "pending",
+      "evidence": [
+        "docs/release/app-store-1.4.0-build7.md"
+      ],
+      "scope": "The 1.4.0 en-US draft, auto-release-after-approval setting, build 7 and screenshot set were read back. Rights, legal/privacy declarations and other release gates remain pending."
+    }
+  },
+  "deferred": [
+    "family_sync",
+    "deck_file_sharing",
+    "voice_recording",
+    "payments",
+    "automatic_photo_album_watching"
+  ],
+  "excluded": [
+    "diagnosis",
+    "cognitive_scoring",
+    "treatment_claims",
+    "cloud_photo_uploads",
+    "AI_processing"
+  ],
+  "senior_first_features": {
+    "meaning": "Per-feature execution status for docs/specs/senior-first/feature-catalog.json. Catalog IDs not listed here have not been started. implemented_unverified means source and automated widget tests exist (flutter analyze strict + flutter test pass locally); no native device, VoiceOver/TalkBack or user-comprehension evidence exists yet.",
+    "features": {
+      "GM-001": {
+        "status": "implemented_unverified",
+        "scope": "Fresh install opens the gentle home with exactly one filled action, 'Start a gentle game', in the first view on a small phone, a phone at 200% text, a small phone at 200% text and a landscape phone (Start sits under the heading, and above it when text exceeds 150%); one tap opens four visible tiles with no dialog, sheet or setup question; a saved comfort choice is used and never overwritten. Seen on the iOS 26.5 simulator (debug). Not done: physical-device journey with blocked network, upgrade from an installed build, five-second comprehension with intended users. An end-to-end suite (integration_test) drives the real app on the iOS simulator (iPhone 17 Pro Max and iPad Pro 13-inch, iOS 26.5): fresh install, one Start, four visible tiles, finish, Play again, Done for now; also at 200% text. Home now shows a small decorative picture of the activity and centres on tall screens.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/gentle_home_page.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "integration_test/app_journeys_test.dart"
+        ]
+      },
+      "GM-002": {
+        "status": "implemented_unverified",
+        "scope": "Done for now is fixed and visible on the gentle matching screen, Look together (with Previous/Next in the same bar, stacked above 130% text) and the legacy picture-pack game (side by side when the labels fit). Start again confirms only with progress and Cancel/Keep this board keeps the exact board; closing legacy Options any way, including system Back, resumes play; finishing offers Play again beside Done/Choose another pack with no rating request. Photo collection, help and library pages keep the standard labelled Back. Switch navigation and device checks pending. End-to-end journeys on iPhone and iPad simulators exercise Done for now, Start again, Carry on/Start fresh and system-free exits on every screen they visit. Confirmations make keeping things the filled primary action ('Keep this board', 'Keep my settings', 'Cancel' before removing a copy); the destructive choice is a text button, and when both labels do not fit the actions stack full width with the safe one first. Fixed bottom bars show a 1px Driftwood line only while content continues beneath them. Journey J9 checks this on the simulators at 100% and 200% text.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/gentle_game_page.dart",
+          "lib/features/gentle_activities/presentation/photo_together_page.dart",
+          "lib/features/game/presentation/widgets/game_exit_bar.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/gentle_activities/photo_together_test.dart",
+          "test/features/legacy_library/legacy_route_test.dart",
+          "integration_test/app_journeys_test.dart",
+          "lib/shared/widgets/gm_bottom_bar.dart",
+          "test/shared/gm_bottom_bar_test.dart",
+          "test/ux_detail_test.dart",
+          "integration_test/journeys/safe_confirmations.dart"
+        ]
+      },
+      "GM-003": {
+        "status": "implemented_unverified",
+        "scope": "Gentle tile count and picture visibility persist as a versioned, field-by-field-safe record; reset touches comfort choices only. In the picture-pack library, music and sounds are off when no choice is stored, a stored choice is read back unchanged and never rewritten on load, and a toggle saves only its own key (existing installs that never chose now start quiet). System text size and Reduce Motion are honored rather than duplicated in app settings. Upgrade of an install that had sound on is not device-tested. Tile-count chips have equal widths in full rows (one row, two per row or one per row), so no choice sits alone and no label wraps; checked at 320 and 390 wide, at 100% and 200% text, and on iPad. Decision: library music and sounds stay off for installs that never chose. A stored choice is kept, and the release notes say so.",
+        "evidence": [
+          "lib/features/gentle_activities/data/gentle_preferences.dart",
+          "lib/data/models/sound_setting.dart",
+          "test/features/gentle_activities/gentle_preferences_test.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/legacy_library/legacy_route_test.dart",
+          "test/ux_detail_test.dart",
+          "metadata/app-store.en-US.json"
+        ]
+      },
+      "GM-004": {
+        "status": "implemented_unverified",
+        "scope": "Matching screen only: the unfinished board (picture ids and tile positions, no score/time/path) saves after each tap and clears on finish or a confirmed restart; reopening offers Carry on or Start fresh, never resumes silently (dismissing the prompt with system back chooses nothing and keeps the saved board; taps are not saved until the prompt is settled); missing pictures, corrupt or other-version records start fresh without touching photos or settings. Starter and family boards are kept apart. Real process-kill, backgrounding and device checks pending; lifecycle-resume of a backgrounded (not killed) page relies on Flutter keeping page state. Observed on the iOS simulator: leaving with Done for now after one choice and reopening offered Carry on or Start fresh, and Carry on restored the same board with the choice outlined. End-to-end on iPhone and iPad simulators: stop after one choice, cold relaunch, Carry on restores the board, Start fresh forgets it, and a finished board is never offered.",
+        "evidence": [
+          "lib/features/gentle_activities/data/gentle_session.dart",
+          "lib/features/gentle_activities/models/gentle_board.dart",
+          "test/features/gentle_activities/gentle_session_test.dart",
+          "test/features/gentle_activities/gentle_resume_test.dart",
+          "integration_test/app_journeys_test.dart"
+        ]
+      },
+      "GM-005": {
+        "status": "partial",
+        "scope": "How-this-works help opens on request from the matching screen without resetting play. Error-state review and screen-reader reading-order checks pending.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/gentle_game_page.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart"
+        ]
+      },
+      "GM-006": {
+        "status": "implemented_unverified",
+        "scope": "Visible-picture matching is the default (four visible tiles, mismatches stay visible until the next tap, no timer or score). Covered by board and widget tests; device review pending.",
+        "evidence": [
+          "lib/features/gentle_activities/models/gentle_board.dart",
+          "test/features/gentle_activities/gentle_board_test.dart"
+        ]
+      },
+      "GM-007": {
+        "status": "implemented_unverified",
+        "scope": "Hidden-picture matching is an opt-in switch in comfort settings and persists; hidden tiles expose no picture, caption or description. Covered by widget and semantics tests; device review pending.",
+        "evidence": [
+          "test/accessibility_guards_test.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart"
+        ]
+      },
+      "GM-008": {
+        "status": "implemented_unverified",
+        "scope": "Look together shows one bounded picture at a time with labelled Previous/Next and Done for now in a fixed bar; captions and conversation prompts are off by default, independent and stay as chosen for the visit; nothing advances by itself; no wording asks the person to remember or answer. Hide this picture needs no reason and no countdown: family photos use the same persistent, reversible Hide as the collection (and never reach the game), included pictures hide for the visit; a failed save changes nothing and says so. An empty set explains itself and offers the included pictures. Rotation keeps the picture and options. Seen on the iOS simulator; device and caregiver review pending. After Next, Previous or Hide the view returns to the picture, the hide note sits above it, and on a small screen at large text only Done for now stays fixed so the picture is never crowded out (found by the end-to-end suite at 200% text). End-to-end on both simulators.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/photo_together_page.dart",
+          "test/features/gentle_activities/photo_together_test.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart",
+          "integration_test/app_journeys_test.dart"
+        ]
+      },
+      "GM-009": {
+        "status": "implemented_unverified",
+        "scope": "Unshipped prototype, off in every normal build: a tap-to-place picture puzzle (2x2, also 3x3/4x4 in code) with no drag, clock, score, move count or hint ladder; the whole picture stays in view; a wrong placement is never flagged; pieces and slots are at least 64; Done for now is fixed. Reachable only in builds made with --dart-define=GM_EXPERIMENTS=true, from the family-photo collection, using only visible (non-hidden) photos. Per the R2 gate it must not ship until pilot evidence chooses it over GM-010; GM-010 is deliberately not built so both are not offered by default. Device and pilot evidence pending. Screen-reader support is minimal (pieces are 'Piece N of M' and spots are labelled) and has not been tried with VoiceOver/TalkBack, so it is not claimed accessible.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/picture_puzzle_page.dart",
+          "lib/features/gentle_activities/models/puzzle_board.dart",
+          "lib/shared/utils/experiments.dart",
+          "test/features/gentle_activities/puzzle_board_test.dart",
+          "test/features/gentle_activities/picture_puzzle_test.dart"
+        ]
+      },
+      "GM-010": {
+        "status": "not_started",
+        "scope": "R2 evidence gate unmet and deliberately not built: GM-009 is the single prototype so both are not offered by default; sorting is built only if the pilot prefers it or GM-009 fails."
+      },
+      "GM-011": {
+        "status": "not_started",
+        "scope": "R2 and approval-gated; no capability or privacy review done."
+      },
+      "GM-012": {
+        "status": "partial",
+        "scope": "Automated reflow at 200% text (no overflow, essential controls reachable, nothing clamped) now covers the gentle home, matching board, Look together, photo collection, help, the legacy game, category and pack pages and the library home with pack cards (320x568, 390x844, 844x390, 1024x1366). Pack titles and themes are no longer cut to one line. Largest system setting beyond 200%, native display zoom and device observation pending. App-bar titles now wrap and the toolbar grows with text size instead of ending in an ellipsis; peer buttons sit side by side only when both labels fit; pack cards are one column on phones. End-to-end journeys at 200% text pass on iPhone and iPad simulators. At 200% a finished gentle board scrolls its closing words into view above the buttons; the picture puzzle's exit labels no longer break mid-phrase; dialog actions stack full width rather than squeezing.",
+        "evidence": [
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/gentle_activities/photo_together_test.dart",
+          "test/features/legacy_library/legacy_layout_test.dart",
+          "test/features/home/library_home_text_scale_test.dart",
+          "integration_test/app_journeys_test.dart",
+          "test/ux_detail_test.dart"
+        ]
+      },
+      "GM-013": {
+        "status": "partial",
+        "scope": "Tiles are at least 64 and as large as the space allows on both the gentle and legacy boards (legacy board uses the space left after the measured header and scrolls only when it cannot fit at 64); controls keep the 48/56 floor; pack-card actions are at least 8 apart in both directions. Rapid taps cannot duplicate saves (serialized stores). Tremor, switch and stylus testing with people pending.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/gentle_game_page.dart",
+          "lib/features/game/presentation/widgets/game_board.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/legacy_library/legacy_landscape_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart"
+        ]
+      },
+      "GM-014": {
+        "status": "partial",
+        "scope": "Automated semantics only: hidden tiles on both gentle and legacy boards expose only 'Hidden picture, tile N' (legacy tile content is excluded from semantics, tested mid-flip); Selected/Matched states; a legacy match is announced once through a polite status line; pack Favorite is a toggle named with the pack; Not for me moves focus to a politely announced note; Look together reads label plus description. VoiceOver/TalkBack walkthroughs pending, so no screen-reader support is claimed. Every end-to-end journey now checks its 27 key screens, on the iPhone 17 Pro Max and iPad Pro 13-inch simulators with the shipped fonts, for a label on every tappable control and for 44-point (iOS) and 48 dp (Android) tap targets. This includes the 200% text runs. It is automation, not a VoiceOver or TalkBack walkthrough. The device checks found that copyable text (the support address and links on the help and privacy pages) answers a long press but was only 25 points tall. It is now at least 48, and a whole-page widget test checks it on iOS and Android.",
+        "evidence": [
+          "test/accessibility_guards_test.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/gentle_activities/photo_together_test.dart",
+          "test/features/legacy_library/legacy_route_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart",
+          "integration_test/support/app_harness.dart",
+          "lib/shared/widgets/gm_copyable_text.dart",
+          "test/design_system_test.dart"
+        ]
+      },
+      "GM-015": {
+        "status": "partial",
+        "scope": "Contrast/text/target tests from the design system remain. Reduce Motion now also removes the legacy ripple, the 300 ms artificial navigation delay and the tile flip; the no-op pull-to-refresh spinner is gone; the library is quiet by default. No timer, score, move count, streak, confetti or auto-closing dialog is shown anywhere (legacy route tested with a non-zero internal move count). Device checks for reduced motion, increased contrast and audio interruption pending. Screen-level WCAG contrast, tap-target and label checks in widget tests now also cover Help and privacy, Privacy and information, the picture puzzle, the comfort sheet and a confirmation dialog. On-device contrast is not used: it samples at one pixel per point, where real glyphs blur and small text reads as low contrast (16 pt Walnut on parchment, 7.2:1, measured 1.9).",
+        "evidence": [
+          "test/accessibility_guards_test.dart",
+          "test/design_system_test.dart",
+          "test/features/legacy_library/legacy_route_test.dart"
+        ]
+      },
+      "GM-016": {
+        "status": "partial",
+        "scope": "Widget tests cover small phone, phone, landscape phone and iPad for the gentle home, board and Look together, the legacy game, category, pack and library pages; rotating mid-turn keeps the same board and selection, and rotating while viewing keeps the picture and options. iOS simulator (iPhone 17 Pro Max) observed. Real iPad, split screen and keyboard-open checks pending. End-to-end journeys pass on iPhone 17 Pro Max and iPad Pro 13-inch simulators. On iPad the picture puzzle board grows with the screen and its loose pieces stay on one row. Family photos are cropped to their square tile and mounted with rounded corners on Your family photos and on the gentle board, instead of letterboxed (DESIGN.md › Shapes); Look together still shows each photo whole.",
+        "evidence": [
+          "test/features/gentle_activities/gentle_ui_test.dart",
+          "test/features/gentle_activities/photo_together_test.dart",
+          "test/features/legacy_library/legacy_layout_test.dart",
+          "test/features/legacy_library/legacy_landscape_test.dart",
+          "integration_test/app_journeys_test.dart",
+          "test/ux_detail_test.dart",
+          "test/family_album_test.dart"
+        ]
+      },
+      "GM-017": {
+        "status": "not_started",
+        "scope": "Requires the physical VoiceOver/TalkBack/Voice Control/switch and Assistive/Guided Access device matrix (GM-040). No claim made."
+      },
+      "GM-018": {
+        "status": "partial",
+        "scope": "Explicit-picker import and storage limits are unchanged. Copies are written to a staging file, flushed and renamed, so a failed or out-of-space import never leaves a half-written copy that blocks re-adding the photo, and the previous collection stays loadable (every write/rename/delete boundary is failure-tested with real files). Journey tests cover choose, failed and refused imports with a plain message, a damaged optional sidecar, hide/restart and delete. Observed on the iOS 26.5 simulator (iPhone 17 Pro Max, debug build, 2026-10-18): Choose photos opens the out-of-process system picker with no library permission prompt; three selected sample photos became 1024-pixel PNG copies with no EXIF, text or time chunks (the picker's included location was not kept), each named by its SHA-256, with a version-1 manifest and no staging leftovers; removing one deleted its copy and its details while the other copies and details stayed. HEIC, cloud-only originals, partial access, Android recovery and real low-storage device checks remain pending.",
+        "evidence": [
+          "lib/features/gentle_activities/data/family_photo_store.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart",
+          "test/features/gentle_activities/photo_storage_interruption_test.dart"
+        ]
+      },
+      "GM-019": {
+        "status": "implemented_unverified",
+        "scope": "Optional caption (60) and screen-reader description (280) per family photo in a versioned additive sidecar (annotations.json) keyed by existing photo ids; text is normalized (control/direction characters removed, length capped) and treated as inert data; an unreadable sidecar is moved aside under a unique name (never overwriting an earlier backup) and never invalidates photos; deleting a copy removes its entry. Captions show in Look together only when 'Show captions' is on; hidden game tiles never expose captions or descriptions. Not covered: screen-reader device checks, in-game caption display (intentionally none).",
+        "evidence": [
+          "lib/features/gentle_activities/data/photo_annotations.dart",
+          "lib/features/gentle_activities/presentation/photo_collection_page.dart",
+          "test/features/gentle_activities/photo_annotations_test.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart"
+        ]
+      },
+      "GM-020": {
+        "status": "implemented_unverified",
+        "scope": "Family photos: Favorite sorts first; Hide (from the photo options or from Look together) excludes a photo from the game and viewing without deleting the copy, is shown with the word 'Hidden', persists and is undone by turning it off; Remove is separate and confirmed. Included packs: 'Add to favorites'/'In favorites' toggle and a 'Your favorites' group; Not for me hides a pack from suggestions and browsing, with a persistent note and a 'Hidden packs (N)' list to show it again, never a countdown. Stored as a versioned record that is never overwritten when unreadable or newer; until choices load no pack card is shown, so a hidden pack never flashes. Fewer than two visible photos disables the game with an explanation and never silently unhides. Device check pending. End-to-end on both simulators: an installed family collection is played, captioned, favorited, hidden and removed with the files on disk checked; a pack is favorited, hidden with Not for me and shown again.",
+        "evidence": [
+          "lib/features/gentle_activities/data/photo_annotations.dart",
+          "lib/features/gentle_activities/presentation/photo_collection_page.dart",
+          "lib/features/home/data/pack_preferences.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart",
+          "test/features/home/pack_preferences_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart",
+          "integration_test/app_journeys_test.dart"
+        ]
+      },
+      "GM-021": {
+        "status": "deferred",
+        "scope": "R3, approval required; not authorized."
+      },
+      "GM-022": {
+        "status": "deferred",
+        "scope": "R3, approval required; needs its own threat model; not authorized."
+      },
+      "GM-023": {
+        "status": "partial",
+        "scope": "All 121 bundled assets resolve locally and the hosted browser flow passes with external requests blocked (existing bundled_catalog evidence). Native fresh-install and upgrade validation are pending; the unreachable remote-pack downloader has been removed (stored files from older installs are untouched).",
+        "evidence": [
+          "test/bundled_catalog_test.dart",
+          "tests/test_bundled_catalog.py",
+          "scripts/visual_smoke.cjs"
+        ]
+      },
+      "GM-024": {
+        "status": "implemented_unverified",
+        "scope": "Optional, remembered topic choices for the five existing categories with nothing preselected and no vintage bias; changeable and clearable; a stale or corrupt choice shows everything. Hidden packs stay hidden under any filter; if chosen topics leave nothing eligible the page says so and offers 'Show all topics', never unhiding. Optional text search is not built (the spec makes it optional). Device check pending.",
+        "evidence": [
+          "lib/features/home/data/interest_preferences.dart",
+          "lib/features/home/presentation/widgets/library_section.dart",
+          "test/features/home/interest_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart"
+        ]
+      },
+      "GM-025": {
+        "status": "partial",
+        "scope": "Rights register for every shipped asset group exists (docs/specs/asset-provenance.json) and a test requires every declared asset and file on disk to be covered. Recorded: image source URL/hash/size, bundled Roboto license text. Unreviewed and therefore release-blocking (scripts/release_metadata.py --release now refuses, and also refuses a reviewed or bundled-license group that still lists gaps): catalog images (no author/license/attribution/review date), sounds, app icons, native launcher/splash art in the iOS and Android projects, pack index text. Needs a human rights review; nothing is marked reviewed here. The Classic Cars cover and first preview, which showed an unrelated light-bulb photo, are now made locally from the pack's own car photos (paths and the 121-asset mapping unchanged; derivation recorded in docs/catalog-image-sources.json), and its screen-reader captions name the cars actually shown. The pack's 'Classic'/'vintage' title and description still describe modern cars and need the content review. Decision: the car pack and its topic are named for what they show, as 'Cars and Trucks' ('On the Road') under the topic 'Cars'. They were 'Classic Cars' and 'Vintage', with 'Classic memories from the past'. The topic icon, also a light-bulb photo, is now a crop of the pack's own photo. IDs are unchanged. Genuinely vintage car photos would be new content needing a rights review. The eight pack covers and five topic pictures were fetched again, with the owner's approval, from their recorded Unsplash sources at 1200x675 and 480x480. They replace 300x200 and 100x100 files that looked soft on large phones. The provenance register records each new source, hash and size; the 121-asset mapping is unchanged, and the old locally made car crops are gone.",
+        "evidence": [
+          "docs/specs/asset-provenance.json",
+          "tests/test_asset_provenance.py",
+          "docs/catalog-image-sources.json",
+          "assets/data/packs_index.json"
+        ]
+      },
+      "GM-026": {
+        "status": "implemented_unverified",
+        "scope": "Familiar replay from explicit local choices: 'Play with favorites' for family photos and a 'Your favorites' group of packs. Optional variety is 'Suggested packs' from included, non-hidden, non-favorite packs in catalog order, changed only when the person taps 'Suggest other packs' (no date shuffle, no 'daily' or 'new every day' wording). Not for me is reversible. No streaks, quotas, scores or messages after time away; nothing auto-launches. Observed voluntary reuse needs the pilot (GM-039).",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/photo_collection_page.dart",
+          "lib/features/home/presentation/widgets/daily_packs_section.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart"
+        ]
+      },
+      "GM-027": {
+        "status": "partial",
+        "scope": "Versioned preferences, session and annotation records with stored formats unchanged (byte-checked against installed v1 fixtures; loading never rewrites installed files). Every mutation stages, flushes and renames; writes are serialized per folder across store instances; symbolic links are never followed for reads, writes or deletes; only a confirmed not-found means absent, so a stat or permission error surfaces instead of shrinking or replacing the collection; unlisted owned copies are tidied only when a manifest was read, and verified copies are adopted when it is missing; a newer-version details file is never moved aside or overwritten; details are pruned only by listed photos. The delete confirmation says earlier device backups are not changed, and Help explains backups. Two independent data-loss reviews found no remaining critical, high or medium issue. Not done: a recovery flow for a corrupt manifest (it surfaces an error and never overwrites), real disk-full, process kill mid-rename and iOS file-protection checks on devices.",
+        "evidence": [
+          "lib/features/gentle_activities/data/owned_files.dart",
+          "lib/features/gentle_activities/data/family_photo_store.dart",
+          "lib/features/gentle_activities/data/photo_annotations.dart",
+          "test/features/gentle_activities/photo_storage_symlink_test.dart",
+          "test/features/gentle_activities/photo_storage_interruption_test.dart",
+          "test/features/gentle_activities/photo_storage_access_test.dart",
+          "test/features/gentle_activities/installed_data_upgrade_test.dart",
+          "test/features/gentle_activities/family_photo_store_test.dart",
+          "test/features/gentle_activities/photo_annotations_test.dart"
+        ]
+      },
+      "GM-028": {
+        "status": "partial",
+        "scope": "Source-level audit and CI guard: startup initializes no backend, no Dart code imports a network or Firebase package or opens a connection, and Firebase is removed. iOS build inputs were regenerated on a Mac (Podfile.lock has only Flutter; no SwiftPM remote packages) and are now guard-tested; an unsigned release build embeds only Flutter.framework and objective_c.framework, has no Firebase/Crashlytics/app-measurement strings, keeps the bundle identifier and declares only the photo-library usage string. Not established: signed archive, merged Android manifest, runtime traffic on a clean install, an app-level iOS privacy manifest decision, App Privacy answers. The privacy_and_sdk_audit gate remains pending. An app-level ios/Runner/PrivacyInfo.xcprivacy declares no tracking, no tracking domains and no collected data, matching the intended 'Data Not Collected' label. It gives reasons for the app's own use of file timestamps inside its container (C617.1) and of its own preferences (CA92.1). Flutter.framework and the four plugin bundles carry their own manifests. A signed archive privacy report is still a release gate.",
+        "evidence": [
+          "docs/release/network-privacy-audit.md",
+          "tests/test_network_boundary.py",
+          "ios/Runner/PrivacyInfo.xcprivacy",
+          "tests/test_privacy_manifest.py"
+        ]
+      },
+      "GM-029": {
+        "status": "partial",
+        "scope": "Measurement tooling only: scripts/measure_startup.sh collects cold-start runs on a connected physical device and scripts/startup_stats.py reports count, median, p95, min and max (unit-tested statistics; requires at least 20 runs for a budget). Time to first frame is a proxy for interactive home. No measurement has been taken on any device, no budget is claimed, and frame-time, memory and 20-minute checks are manual (device-acceptance Section H).",
+        "evidence": [
+          "scripts/measure_startup.sh",
+          "scripts/startup_stats.py",
+          "tests/test_startup_stats.py",
+          "docs/release/device-acceptance.md"
+        ]
+      },
+      "GM-030": {
+        "status": "partial",
+        "scope": "Readable recovery for failed, refused and out-of-space imports, an unreadable collection or folder, a damaged or newer details file, a deleted or corrupt session and a failed save; each keeps existing data and never reports success. Look together reports a failed hide and changes nothing; an empty set offers the included pictures. Library pack choices that cannot be read are never written over, and a topic page waiting on them shows a plain message and Back instead of an endless spinner. Denied photo access, interrupted picker, real low storage and unsupported-platform states need native testing. A damaged photo list now has an explicit recovery. 'Show the photos that can be checked' sets the list aside as collection.damaged-<time>.json after a confirmation, never deleting it, and every copy whose content matches its name comes back with its details. A list from a newer app version is never moved, and the screen asks for an update.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/photo_collection_page.dart",
+          "lib/features/gentle_activities/presentation/photo_together_page.dart",
+          "test/features/gentle_activities/photo_storage_access_test.dart",
+          "test/features/gentle_activities/photo_collection_journey_test.dart",
+          "test/features/home/pack_favorites_ui_test.dart",
+          "lib/features/gentle_activities/data/family_photo_store.dart",
+          "test/features/gentle_activities/photo_list_recovery_test.dart"
+        ]
+      },
+      "GM-031": {
+        "status": "partial",
+        "scope": "Offline Help and privacy page reached from Home (guide > More help and privacy): plain guidance, privacy explanation, troubleshooting, and a problem report that carries only app version, platform family and one problem code, previewed exactly before the person chooses a destination in the system share sheet (cancellable, nothing automatic, invisible/direction-override characters stripped so the preview is complete, and a share result the platform cannot report is never described as 'nothing sent', no photos/hashes/captions/identifiers). Also shows, as selectable text the app never opens, the maintainer's published support page (support_url in the store metadata, kept identical by a test), the mobile-app privacy policy and terms pages on the same site, and the support address the maintainer publishes there (apple@locuno.com). Not done: device checks with a real share sheet, and the site text still needs a line-by-line check against this build (the metadata privacy_policy_url points at the general website notice, not the app policy).",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/help_privacy_page.dart",
+          "lib/shared/utils/support_info.dart",
+          "test/support_info_test.dart",
+          "test/features/gentle_activities/help_privacy_test.dart"
+        ]
+      },
+      "GM-032": {
+        "status": "partial",
+        "scope": "Canonical metadata, exports and claim checks pass in CI (release_metadata.py, 24+ Python tests). Keyword demand is unmeasured and store configuration is pending; no ASO result is claimed.",
+        "evidence": [
+          "metadata/app-store.en-US.json",
+          "tests/test_release_metadata.py"
+        ]
+      },
+      "GM-033": {
+        "status": "partial",
+        "scope": "Store screenshots were recaptured from the current app (b9e681c, the album library with family-photo prints) on the iOS 26.5 iPhone 17 Pro Max and iPad Pro 13-inch simulators and placed in the approved frames; manifest.json records tools, hashes and how the demo photos entered the app (the app's own import steps via integration_test/store_screens_test.dart on both devices; earlier native-picker proofs kept). Not done: captures from the final signed release build, physical-device captures, and the five-caregiver comprehension test.",
+        "evidence": [
+          "assets/screenshots/en-US/manifest.json",
+          "integration_test/store_screens_test.dart",
+          "scripts/capture_store_screens.sh",
+          "scripts/compose_store_screens.py"
+        ]
+      },
+      "GM-034": {
+        "status": "implemented_unverified",
+        "scope": "Voluntary feedback: 'Write a note' previews the exact text (note plus app version and platform) and sends only through the system share sheet; 'Report a problem' as above. Support is separate from rating. Since 1.5.0 (maintainer decision 2026-10-30) Help offers one optional 'Rate Golden Moments' link that opens the store only after a tap, and Apple's own rating prompt may be requested when Home is shown again after a finished game, from the 4th finished game on a 2nd day of play, at most once per 120 days; never during play, at launch, on the finish message, with an incentive or after a satisfaction pre-screen. Device check of the share sheet and the prompt pending.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/help_privacy_page.dart",
+          "lib/shared/rating/review_request.dart",
+          "ios/Runner/AppDelegate.swift",
+          "test/features/gentle_activities/help_privacy_test.dart",
+          "test/review_request_test.dart"
+        ]
+      },
+      "GM-035": {
+        "status": "deferred",
+        "scope": "R3, approval required; not authorized."
+      },
+      "GM-036": {
+        "status": "partial",
+        "scope": "Infrastructure and English extraction only (maintainer request, 2026-10-31). Every user-visible app string is in lib/l10n/arb/app_en.arb with a translator description; ICU placeholders/plurals for built-up text; share, reminder and problem-report text take the app language; 20 languages declared (en, es, pt_BR, fr, de, it, nl, pl, ru, uk, tr, ar, hi, ja, ko, zh_Hans, zh_Hant, vi, id, th; pt and zh are generator base files) in supportedLocales and iOS CFBundleLocalizations; directional layout for Arabic. No translations yet: every non-English ARB holds only @@locale, so those languages show English text (mirrored in Arabic). Do not release or list these languages until reviewed translations land; picture-pack titles and captions in assets/data are untranslated content. Arabic and long-text layout is test-only (English text, stretched stand-in for German); no device, VoiceOver/TalkBack or native-speaker review.",
+        "evidence": [
+          "lib/l10n/arb/app_en.arb",
+          "lib/l10n/l10n.dart",
+          "test/l10n/arb_files_test.dart",
+          "test/l10n/rtl_long_text_test.dart"
+        ]
+      },
+      "GM-037": {
+        "status": "partial",
+        "scope": "Comfort settings (tile count, picture view, reset) are reachable from Home before play via an app-bar action and use the same sheet and storage as the activity, so a helper can prepare it and hand over a board that shows only the board and the exit; the family-photo setup route already exists. No separate Play view mode, no roles or accounts, and no helper-handoff walkthrough with real users; device and caregiver testing pending.",
+        "evidence": [
+          "lib/features/gentle_activities/presentation/gentle_comfort_sheet.dart",
+          "lib/features/gentle_activities/presentation/gentle_home_page.dart",
+          "test/features/gentle_activities/gentle_ui_test.dart"
+        ]
+      },
+      "GM-038": {
+        "status": "implemented_unverified",
+        "scope": "Approved 2026-10-30. iOS only: 'Gentle reminder' on Home opens a page where a helper chooses days and a time; it is off until 'Turn on reminder' is tapped, the only place the system notification question appears. Local repeating notifications on this device, cancelled by 'Turn off reminder'; no counts, streaks or missed-day wording. Hidden on Android and web until built and tested there. No device check yet.",
+        "evidence": [
+          "lib/features/reminders/presentation/reminder_page.dart",
+          "lib/features/reminders/data/reminder_settings.dart",
+          "lib/shared/native/gm_native.dart",
+          "ios/Runner/AppDelegate.swift",
+          "test/features/reminders/reminder_page_test.dart"
+        ]
+      },
+      "GM-039": {
+        "status": "not_started",
+        "scope": "Needs human participants, consent and a comparative protocol; cannot be performed by this build process."
+      },
+      "GM-040": {
+        "status": "partial",
+        "scope": "Traceable acceptance procedure written: step-by-step device, accessibility, privacy, performance, support, rights and screenshot scenarios with expected results, a record format, and a traceability table covering all 40 feature ids (enforced by test). Automated layers run in CI. No device, native, accessibility-tool or human-study run has been performed, so no device_evidence exists and no feature is verified.",
+        "evidence": [
+          "docs/release/device-acceptance.md",
+          "tests/test_senior_status.py"
+        ]
+      }
+    }
+  },
+  "ios_review_candidate": {
+    "version": "1.3.0",
+    "build": 6,
+    "base_commit": "c3fcd03",
+    "apple_build_id": "0456db2d-1a84-4253-a744-fae96b13489f",
+    "public_release": "released_from_manual_hold",
+    "review_state": "COMPLETE",
+    "app_store_state": "READY_FOR_SALE",
+    "evidence": "docs/release/app-store-1.4.0-build7.md",
+    "meaning": "The 1.3.0 release was read back as READY_FOR_SALE before the 1.4.0 update."
+  },
+  "ios_review_candidate_1_4": {
+    "version": "1.4.0",
+    "build": 7,
+    "base_commit": "7738d7f8b4407297086a30ec13f75acace976ddf",
+    "archive_source_commit": "5f825eece2d6ea9822b1c763f79325c77f4dfe48",
+    "apple_build_id": "b8fc04e4-e8e8-4205-8008-ef0d11f103e7",
+    "submission_id": "0261a5a0-fd3f-434c-82cf-d01f5440dd01",
+    "review_state": "READY_FOR_SALE",
+    "release_type": "AFTER_APPROVAL",
+    "ipa_bytes": 33343308,
+    "ipa_sha256": "0bf8a55fbd9f92ac998f0a017df23afc1860b62c46a1e60fe4c9006dfcdecbeb",
+    "evidence": "docs/release/app-store-1.4.0-build7.md",
+    "meaning": "Approved and released automatically; live App Store Connect readback on 2026-10-21. Superseded by 1.5.0."
+  },
+  "app_store_1_5": {
+    "version": "1.5.0",
+    "build": 9,
+    "source_commit": "7f54bd555dd371f99c86358260173e1c8cb6a781",
+    "ios_review_submission_id": "6ac69151-97e3-42d6-80e6-79dd2825cc54",
+    "ios_state": "READY_FOR_SALE",
+    "ios_released": "2026-10-30T19:35:00Z",
+    "ipa_bytes": 33330453,
+    "ipa_sha256": "d47c2e69df8a2c92dd99b4c4f23e1746ec6ebd3be9b9abf3f1991c74d8f6ad5c",
+    "android_version_code": 9,
+    "android_state": "Committed to the production track; approval not confirmed at the last readback (Play still served 1.4.0)",
+    "evidence": "docs/release/app-store-1.5.0-build9.md",
+    "meaning": "Store state only. Physical-device, screen-reader and caregiver gates remain pending."
+  },
+  "localization": {
+    "decision": "2026-10-31 maintainer decision: ship machine translations before native review, mark every language unreviewed, and keep unreviewed website pages out of search.",
+    "meaning": "reviewed means a named native reader checked every surface listed in docs/engineering/native-review.md and the evidence is a link to their sign-off; unreviewed means machine-made only. Review order is the order of this list.",
+    "languages": {
+      "es": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "vi": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ja": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "zh-Hant": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "de": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "fr": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ko": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "zh-Hans": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "pt-BR": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "it": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ar": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ru": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "pl": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "nl": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "tr": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "id": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "th": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "uk": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "hi": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "bn": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "fa": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ha": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ur": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "mr": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "te": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ta": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "gu": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "pa": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "fil": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ro": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ms": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "sw": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "kn": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ml": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ne": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "az": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "am": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "my": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "uz": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "or": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "as": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ps": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "yo": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ig": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "zu": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "so": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "om": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "jv": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "su": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "sd": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "ca": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "cs": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "da": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "el": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "fi": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "he": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "hr": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "hu": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "nb": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "pt-PT": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "sk": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "sl": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "sv": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      },
+      "mn": {
+        "status": "unreviewed",
+        "reviewer": null,
+        "evidence": null,
+        "date": null
+      }
+    }
+  }
+}

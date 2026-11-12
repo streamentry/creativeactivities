@@ -1,0 +1,305 @@
+import { useEffect, useRef, useState } from 'react';
+import { ActivityChoiceBoard } from './ActivityChoiceBoard';
+import { SITUATIONS, SITUATION_BY_ID, type SituationId } from '../lib/today/situations';
+import { addNote, byDay, clearNotes, loadNotes, localDay, removeNote, removeNoteAriaLabel, saveNotes, TIME_OF_DAY_LABELS, toggleSituation, type Note, type Outcome, type TimeOfDay } from '../lib/today/notes';
+import { renderWithPhoneLinks } from '../lib/today/text';
+import { sounds } from '../games/shared/sound';
+import { TodaySuggestions } from './TodaySuggestions';
+import { TodayClearAllConfirmation } from './TodayClearAllConfirmation';
+import { TodayTimePicker } from './TodayTimePicker';
+
+const OUTCOME_LABEL: Record<Outcome, string> = {
+  helped: 'That helped',
+  not_really: 'Not really',
+  not_tried: 'Didn’t try it',
+};
+
+const OUTCOME_IN_NOTES: Record<Outcome, string> = {
+  helped: 'Helped',
+  not_really: 'Did not help',
+  not_tried: 'Not tried',
+};
+
+function browserStorage(): Storage | undefined {
+  try {
+    return window.localStorage;
+  } catch {
+    return undefined;
+  }
+}
+
+function dayLabel(date: string): string {
+  return new Date(`${date}T12:00:00Z`).toLocaleDateString('en-US', {
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC',
+  });
+}
+
+const newId = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+
+/** "What is hardest today?": one answer, one tap to note how it went, notes to print. */
+export function Today() {
+  const [chosen, setChosen] = useState<SituationId | null>(null);
+  const [notes, setNotes] = useState<Note[]>([]);
+  const [text, setText] = useState('');
+  const [timeOfDay, setTimeOfDay] = useState<TimeOfDay | ''>('');
+  const [status, setStatus] = useState('');
+  const [canSave, setCanSave] = useState(true);
+  const [confirmClearAll, setConfirmClearAll] = useState(false);
+  const answerHeading = useRef<HTMLHeadingElement>(null);
+  const notesHeading = useRef<HTMLHeadingElement>(null);
+  const clearAllTrigger = useRef<HTMLButtonElement>(null);
+  const shouldRefocusClearAll = useRef(false);
+  const previousNoteCount = useRef(0);
+
+  // Read saved notes after hydration so the server HTML and first render match.
+  useEffect(() => setNotes(loadNotes(browserStorage())), []);
+  useEffect(() => {
+    if (chosen) answerHeading.current?.focus();
+  }, [chosen]);
+  useEffect(() => {
+    if (previousNoteCount.current > 0 && notes.length === 0) notesHeading.current?.focus();
+    previousNoteCount.current = notes.length;
+  }, [notes.length]);
+  useEffect(() => {
+    if (!confirmClearAll && shouldRefocusClearAll.current) {
+      shouldRefocusClearAll.current = false;
+      clearAllTrigger.current?.focus();
+    }
+  }, [confirmClearAll]);
+
+  const situation = chosen ? SITUATION_BY_ID.get(chosen) : undefined;
+
+  const commit = (next: Note[], message: string) => {
+    if (confirmClearAll) {
+      shouldRefocusClearAll.current = next.length > 0;
+      setConfirmClearAll(false);
+    }
+    const saved = saveNotes(browserStorage(), next);
+    setCanSave(saved);
+    setNotes(next);
+    setStatus(saved ? message : 'This browser is not saving notes, so they will be gone when you close the page. You can still print them now.');
+  };
+
+  const record = (outcome: Outcome) => {
+    if (!chosen) return;
+    sounds.tap();
+    commit(
+      addNote(notes, {
+        id: newId(),
+        date: localDay(),
+        situation: chosen,
+        outcome,
+        ...(outcome !== 'not_tried' && timeOfDay ? { timeOfDay } : {}),
+        text,
+      }),
+      'Saved in your notes below.',
+    );
+    setText('');
+    setTimeOfDay('');
+  };
+
+  const removeAllNotes = () => {
+    sounds.tap();
+    const storage = browserStorage();
+    if (!storage) {
+      setNotes([]);
+      setCanSave(false);
+      setStatus('Notes were cleared from this page. The browser could not confirm whether a saved copy remains.');
+      setConfirmClearAll(false);
+      return;
+    }
+    if (!clearNotes(storage)) {
+      setStatus('The browser could not remove saved notes. You can remove notes individually.');
+      return;
+    }
+    setCanSave(true);
+    setNotes([]);
+    setStatus('All notes removed from this browser.');
+    setConfirmClearAll(false);
+  };
+
+  const days = byDay(notes);
+
+  return (
+    <div className="today">
+      <section className="today__ask no-print" aria-labelledby="today-ask">
+        <h2 id="today-ask">Choose one</h2>
+        <p>You get one thing to try first, more ideas if needed, when to get help and one gentle activity.</p>
+        <ul className="today__choices">
+          {SITUATIONS.map((s) => (
+            <li key={s.id}>
+              <button
+                type="button"
+                className="btn btn--block today__choice"
+                aria-pressed={chosen === s.id}
+                onClick={() => {
+                  sounds.tap();
+                  setChosen((prev) => toggleSituation(prev, s.id));
+                  setTimeOfDay('');
+                  setStatus('');
+                }}
+              >
+                {s.label}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {situation ? (
+        <section className="today__answer no-print" aria-labelledby="today-answer">
+          <h2 id="today-answer" ref={answerHeading} tabIndex={-1}>
+            {situation.label}
+          </h2>
+          <TodaySuggestions suggestions={situation.tries} />
+          <p className="today__help">
+            <strong>Get help: </strong>
+            {renderWithPhoneLinks(situation.help)}
+          </p>
+          {situation.choices ? (
+            <ActivityChoiceBoard choices={situation.choices} />
+          ) : situation.activity ? (
+            <div className="today__activity-link">
+              <a className="btn btn--primary" href={situation.activity.href}>
+                {situation.activity.label}
+              </a>
+            </div>
+          ) : null}
+          <div className="btn-row">
+            <a className="btn btn--quiet" href={situation.guide.href}>
+              Read more: {situation.guide.label}
+            </a>
+            <button
+              type="button"
+              className="btn btn--quiet"
+              onClick={() => {
+                sounds.tap();
+                setChosen(null);
+                setStatus('');
+              }}
+            >
+              Done reading
+            </button>
+          </div>
+
+          <h3 id="today-how">Later: how did it go?</h3>
+          <label className="today__label" htmlFor="today-text">
+            A few words for yourself (optional)
+          </label>
+          <textarea
+            id="today-text"
+            className="today__text"
+            rows={2}
+            maxLength={280}
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            placeholder="e.g., Playing music in the kitchen calmed things down"
+          />
+          <TodayTimePicker value={timeOfDay} onChange={setTimeOfDay} />
+          <div className="btn-row" role="group" aria-labelledby="today-how">
+            {(Object.keys(OUTCOME_LABEL) as Outcome[]).map((o) => (
+              <button key={o} type="button" className="btn" onClick={() => record(o)}>
+                {OUTCOME_LABEL[o]}
+              </button>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      <p className="today__status no-print" role="status" aria-live="polite">
+        {status ? (
+          <>
+            <span aria-hidden="true">✓ </span>
+            <span>{status}</span>
+          </>
+        ) : null}
+      </p>
+
+      <section className="today__notes" aria-labelledby="today-notes">
+        <div className="print-only">
+          <p className="today__print-title">Notes to bring to an appointment</p>
+          <p>Written by a family member. These are personal notes, not a medical record.</p>
+        </div>
+        <h2 id="today-notes" className="no-print" ref={notesHeading} tabIndex={-1}>
+          Your notes
+        </h2>
+        {days.length === 0 ? (
+          <p className="no-print">Nothing yet. After you try something, tap how it went and it appears here, by day.</p>
+        ) : (
+          <>
+            {days.map((d) => (
+              <div key={d.date} className="today__day">
+                <h3>{dayLabel(d.date)}</h3>
+                <ul>
+                  {d.notes.map((n) => (
+                    <li key={n.id}>
+                      <span>
+                        <strong>{SITUATION_BY_ID.get(n.situation)?.label}.</strong> {OUTCOME_IN_NOTES[n.outcome]}
+                        {n.timeOfDay ? ` (${TIME_OF_DAY_LABELS[n.timeOfDay].toLowerCase()})` : ''}.
+                        {n.text ? ` “${n.text}”` : ''}
+                      </span>
+                      <button
+                        type="button"
+                        className="btn btn--quiet"
+                        aria-label={removeNoteAriaLabel(SITUATION_BY_ID.get(n.situation)?.label)}
+                        onClick={() => {
+                          sounds.tap();
+                          commit(removeNote(notes, n.id), 'Note removed.');
+                        }}
+                      >
+                        Remove
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+            <div className="btn-row">
+              <button
+                type="button"
+                className="btn"
+                onClick={() => {
+                  sounds.tap();
+                  window.print();
+                }}
+              >
+                Print notes for an appointment
+              </button>
+              <button
+                ref={clearAllTrigger}
+                type="button"
+                className="btn btn--quiet no-print"
+                aria-expanded={confirmClearAll}
+                aria-controls="today-clear-all-confirmation"
+                onClick={() => {
+                  sounds.tap();
+                  setConfirmClearAll(true);
+                }}
+              >
+                Clear all notes
+              </button>
+            </div>
+            <TodayClearAllConfirmation
+              hidden={!confirmClearAll}
+              onConfirm={removeAllNotes}
+              onCancel={() => {
+                sounds.tap();
+                shouldRefocusClearAll.current = true;
+                setConfirmClearAll(false);
+              }}
+            />
+          </>
+        )}
+        <p className="small-print no-print">
+          {canSave
+            ? 'Your notes stay in this browser on this device. Nothing is sent to us. Clearing your browser’s site data deletes them.'
+            : 'This browser is not saving notes (private browsing or blocked site data). Nothing is sent to us.'}
+        </p>
+      </section>
+    </div>
+  );
+}

@@ -1,0 +1,68 @@
+name: memory_lane
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  semantic-pull-request:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@v2
+
+  build:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v2
+    with:
+      flutter_channel: stable
+      flutter_version_file: .fvmrc
+      # Loosened from the template's 100% by the maintainer's decision. The
+      # old gate could never pass for this codebase. Measured 64.93% after the
+      # dead downloader was removed; this is a floor just under that, so it
+      # still catches regressions. Raise it as coverage grows; never lower it
+      # silently.
+      min_coverage: 62
+
+  spell-check:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@v2
+    with:
+      includes: |
+        **/*.md
+      modified_files_only: false
+
+  web-visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: subosito/flutter-action@v2.23.0
+        with:
+          flutter-version-file: .fvmrc
+          cache: true
+      - name: Build release web app
+        run: |
+          flutter pub get
+          flutter build web --release --no-web-resources-cdn
+      - name: Test real browser flows and capture screenshots
+        run: |
+          npm install --prefix "$RUNNER_TEMP/visual-smoke" --no-save playwright@1.62.1
+          "$RUNNER_TEMP/visual-smoke/node_modules/.bin/playwright" install --with-deps chromium
+          python3 -m http.server 8765 --bind 127.0.0.1 --directory build/web &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          NODE_PATH="$RUNNER_TEMP/visual-smoke/node_modules" PLAYWRIGHT_CHANNEL=chromium node scripts/visual_smoke.cjs
+      - name: Upload visual test evidence
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: web-visual-evidence
+          path: output/playwright/

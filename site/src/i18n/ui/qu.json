@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Chiqan qillqaman yaykuy",
+    "brandName": "Creative Activities",
+    "brandTag": "Demencia ruraykuna",
+    "homeLabel": "Creative Activities wasi",
+    "mainNav": "Hatun",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: hatun rikch'akuna, tasa, inti sisa hinaspa allqu",
+    "languages": "Simi",
+    "englishOnly": "(Inglis simi)",
+    "machineTranslated": "Kay qillqa automatikamanta tikrasqa, manaraqmi runa simi yachaq qhawasqachu.",
+    "readOriginal": "Inglis simipi qillqata qhawariy",
+    "nav": {
+      "games": "Pukllaykuna",
+      "activities": "Ruraykuna",
+      "caregiving": "Qhawaqkunapaq",
+      "brainHealth": "Yuyay allin kay"
+    },
+    "faqTitle": "Tapuykuna hinaspa kutichiykuna",
+    "breadcrumb": "Ñan rikuchiy",
+    "home": "Wasi",
+    "lastUpdated": "Qhipa kutichisqa",
+    "topics": "Temakuna",
+    "textSize": {
+      "label": "Qillqa tamañu",
+      "smaller": "Chaninchasqa qillqa",
+      "larger": "Hatun qillqa",
+      "contrast": "Aswan k'anchay"
+    }
+  },
+  "footer": {
+    "play": "Pukllay",
+    "picturePairs": "Rikch'a jinakuna",
+    "conversationCards": "Rimanakuy kartakuna",
+    "pictureBingo": "Rikch'a bingo",
+    "allGames": "Llapa pukllaykuna",
+    "pictures": "Printaypaq rikch'akuna",
+    "activityIdeas": "Ruray yuyaykuna",
+    "ideas101": "101 ruray yuyaykuna",
+    "lateStage": "Qhipa tiempo ruraykuna",
+    "printable": "Printaypaq ruraykuna",
+    "allActivities": "Llapa ruraykuna",
+    "forCaregivers": "Qhawaqkunapaq",
+    "playTogether": "Kuska pukllanapaq imaynatas",
+    "selfCare": "Qanmanta qhawariy",
+    "brainHealth": "Yuyay allin kaypa yachaykuna",
+    "faq": "Tapuykuna hinaspa kutichiykuna",
+    "about": "Kaymanta",
+    "approach": "Imaynata ruraykusqanchis",
+    "howWeWrite": "Imaynata qillqanchis",
+    "organizations": "Llamkaq wasikunapaq",
+    "app": "Creative Activities app",
+    "appHelp": "App yanapay",
+    "support": "Yanapay",
+    "legal": "Kamachikuy",
+    "sitePrivacy": "Wasi kaypa pakasqa kaynin",
+    "appPrivacy": "App pakasqa kay kamachikuy",
+    "privacyChoices": "Pakasqa kay akllaykuna",
+    "terms": "Kamachikuykuna hinaspa app licencia",
+    "safety": "Waqaychay hinaspa ruraypa ruwanapaq",
+    "accessibility": "Llapallanpaq yaykuy",
+    "healthNotice": "Hampi yachaykuna willakuy",
+    "allLegal": "Llapa kamachikuy willakuykuna",
+    "note": "Creative Activities kay sasa kaq llapallanchik ruraykunata qun, kusikuynin rayku. Kay manam hampimanta yachaymi, manam tanteo nitaq hampi kaqchu, manataq pipas yuyayninta tupanchu, qhawanchu nitaq puntuchu. Hampi tapukuykunapaq doctor kaqwan rimay. Emergencia kaqpi, pacha llaqtaykipi emergencia numeruta waqyay.",
+    "publisher": "Cloudjet Solutions Pte. Ltd. qillqasqa."
+  },
+  "home": {
+    "title": "Demencia & Alzheimer's pukllaykuna hinaspa ruraykuna | Creative Activities",
+    "description": "Qolqe mana, sumaq rikch'a pukllaykuna internetpi pukllanapaq, hinallataq ruraykuna demencia kaq runakunapaq, Alzheimer's kaq runakunapaq hinaspa paykunata qhawaq runakunapaq. Mana registro, mana tiempo, mana puntukuna.",
+    "eyebrow": "Qolqe mana · Anunsiu mana · Registro mana · Tiempo nitaq puntu mana",
+    "h1": "Sumaq pukllaykuna hinaspa ruraykuna demencia kaq runakunapaq",
+    "lede": "Sasa mana sasa rikch'a pukllaykuna, riqsisqa rikch'akuna, hinaspa kuska kusikunapaq ruraykuna, qanpa ritmuykiwan.",
+    "playGame": "Huk pukllayta pukllay",
+    "findIdeas": "Ruray yuyaykunata maskay",
+    "facts": [
+      "Telefonpi, tabletpi hinallataq computadorapi llamkan",
+      "Hatun rikch'akuna qawachkan",
+      "Hayk'aqpas tiyarikuy; mana ima pantaypas kanchu"
+    ],
+    "heroApp": "Mana qolqeyuq app iPhone, iPad hinallataq Androidpaq, qankunaq familia rikch'akunawan",
+    "albumNote": "“Iskay rikch'a tasa, kuska.”",
+    "gamesEyebrow": "Navegadorpi pukllay",
+    "gamesTitle": "Kunan pukllaykuna pukllanapaq",
+    "gamesLede": "Sapa huk sumaq, hatun runa, sasa qallarinapaq. Huk pukllayta akllay, paykuna kuska tiyay, turnukuspa tuqay.",
+    "seeAllGames": "Llapa {count} pukllaykunata qhawariy",
+    "howTitle": "Imaynata llamkan",
+    "steps": [
+      {
+        "title": "Riqsisqanta akllay",
+        "text": "Tasa, huertakuna, uywakuna hinallataq velerokuna rikch'akuna. Manan qillqay nitaq kamachikuy yachanaykichu."
+      },
+      {
+        "title": "Kuska tiyay",
+        "text": "Paykunata tuqachiy. Rikch'akunamanta rimariy. Mana kasqa rikch'a kaqtinqa qipa tuqaykunata suyay."
+      },
+      {
+        "title": "Allin kaqtin tiyarikuy",
+        "text": "Huk pukllay tukuy ruraymi. “Kunanqa tukusqa” sapa kutipas k'anchanmi."
+      }
+    ],
+    "stageEyebrow": "Pantallamanta hawaman",
+    "stageTitle": "Sapa tiempopaq ruraykuna",
+    "stageLede": "Takiy, sapa p'unchay llamkaykuna, yuyariy hinaspa k'anchay sumaq ruraykuna, kunan kusikunapaq rikch'arispa.",
+    "ideas101": "101 ruray yuyaykuna",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Qallariy tiempo",
+        "text": "Kusikuq ruraykunata sapa kaqta ruray, huchallachata allichaspa: hobbykuna, sawarikuykuna, simi pukllaykuna, kuska yuyaykuna.",
+        "label": "Qallariy tiempo yuyaykuna"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Chawpi tiempo",
+        "text": "Sasa, riqsisqa llamkaykuna, ruwanakuna huk huk kaqpi rakisqa: tiqsiy, akllay, takiy, rikch'a pukllaykuna, hinallataq pisi purikuy.",
+        "label": "Chawpi tiempo yuyaykuna"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Qhipa tiempo",
+        "text": "Sonqo allin kay hinaspa tupanakuy llapan kallpaywan: makiwan qhawakuy, riqsisqa takikuna, rikch'akuna hinallataq kuska kay.",
+        "label": "Qhipa tiempo yuyaykuna"
+      }
+    ],
+    "specificHtml": "Tapuy kaqta maskankichu? Qhawariy <a href=\"/activities/alzheimers/\">Alzheimer's nisqapaq ruraykuna hinaspa pukllaykuna</a>, <a href=\"/activities/memory-games/\">sumaq yuyay pukllaykuna</a>, <a href=\"/activities/trivia/\">sasa tapukuykuna</a> utaq <a href=\"/activities/puzzles/\">rompecabezakuna</a>.",
+    "approachEyebrow": "Imaynata ruraykusqanchis",
+    "approachTitle": "Huk kuska ruray, mana yuyay tapuy",
+    "approachLede": "Achka “yuyay pukllaykuna” utqaylla kanku, puntukunawan, sapa kutipi rikhurispa. Demencia kaq runapaq kayqa tapuy hina rikurin. Ñuqayku ch'aqwan kaqta ruranchis.",
+    "approachLink": "Imarayku kayta ruranchis",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Ima pantaypas mana kanchu",
+        "text": "Mana tiempo, mana puntu, mana vidakuna, mana chinkaypas. Huk rikch'a mana kaqpas samay kaqmi, mana pantaymi."
+      },
+      {
+        "icon": "eye",
+        "title": "Rikch'akuna qawachkan",
+        "text": "Riqsiypi yanapakun, mana yuyariypi. Tupanakuy qawaypi qallarin, mana imapas yuyanaykichu."
+      },
+      {
+        "icon": "people",
+        "title": "Hatun runapaq, chaninchasqa",
+        "text": "Sumaq, sasa simikunawan hinaspa kawsaq rikch'akunawan. Mana dibujo kaq rikch'akuna nitaq wawa simi."
+      },
+      {
+        "icon": "shield",
+        "title": "Sapa kaqpi pakasqa",
+        "text": "Mana cuentakuna nitaq anunsiukuna. Qankunaq rikch'akunaqa mana aparinmanchu wasiykimanta."
+      }
+    ],
+    "guidesEyebrow": "Qhawaqkunapaq",
+    "guidesTitle": "Sapa p'unchay qhawariypaq yanapay qillqakuna",
+    "allCaregiving": "Llapa qhawariy yanapaykuna",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Imaynata kuska pukllana",
+        "text": "Ruwariy, ritmu, hinaspa ima ruwanaykichu pukllay kusikuyta chinkaptin."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Ruraypi mana ninakuptin",
+        "text": "Mana munaspa ninakuyninkupaq rasonkuna, hinaspa qhipa kutipi wakmanta ruranapaq sumaq ñankuna."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Tabletta churay",
+        "text": "Hatun qillqa, pisi lluqsiykuna hinaspa huk sapa wasi rikch'a."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Printaypaq ruraykuna mana qolqeyuq",
+        "text": "Hatun qillqayuq palabra maskay, pintay rikch'akuna, bingo hinallataq rimanakuy kartakuna."
+      }
+    ],
+    "researchTitle": "Yuyay allin kay: yachay ima nin chiqanta",
+    "researchText": "Demenciata waqaychay atinchu? Yuyay pukllaykunaqa yanapanchu? Ayunuy, mikuy, puñuy, uyariy imaynata? Sasa, chiqan willakuykuna, pi yachaykuna mana sasa kaqtinpas.",
+    "researchLink": "Yachay qillqakunata qhawariy",
+    "appEyebrow": "Huk app kaqtaq",
+    "appTitle": "Creative Activities iPhone, iPad hinallataq Androidpi",
+    "appText": "Mana qolqeyuq app, mana internet kaqtinpas llamkan, hinaspa qanpa rikch'akunata yupachikuyta atin, wasipi waqaychasqa. Chaymi kay ch'aqa ruraymi: tawa hatun rikch'a, mana tiempo, mana puntu.",
+    "aboutApp": "App kaymanta",
+    "faq": [
+      {
+        "q": "Ima allin pukllaykunam demencia kaq runakunapaq?",
+        "a": "Allin pukllaykunaqa sasachu, reqsisqa kanku, manataq llakichiqchu: hatun rikchaq tarjetakunata tinkuy, rakiy, sasa rumi-rumi rakiy, reqsisqa rimaykunata tukuchiy, pintay, rikchaq bingo, tapuy-rimay tarjetakuna. Allinmi kunan punchaw kusichiq chay ruraq. Relojkunata, puntakunata, yachaq hina kaqkunata qarqusun."
+      },
+      {
+        "q": "Kay demencia pukllaykunaqa qolqeqchu?",
+        "a": "Arí. Creative Activities-pi llapa pukllaykuna, ruraykuna qolqeq mana. Mana cuentallapas, mana registrokunapas, mana hapiypas kanchu. Pukllaykunaqa web-pi, celularpi, tabletapi icha computadorapi llankan."
+      },
+      {
+        "q": "Yuyay pukllaykunaqa demenciata harkanmanchu?",
+        "a": "Mana. Ima pukllaypas demenciata harkasqa rikukuchu, Creative Activities-pas mana ima hampikunata, harkaykunata icha qispichiykunata willanchu. Pukllaykunaqa kusikuypaq, familiawan kuska kaqpaqmi. Yachay ukhu kaqpi yachanki yachaykuna imata rikuchisqankuta, mana imata rikuchisqankutapas."
+      },
+      {
+        "q": "Kay pukllaykunaqa Alzheimer nisqawan kawsaqman allinchu?",
+        "a": "Arí. Alzheimer nisqaqa demenciapa achka kaq hamuqnin, pukllaykunapas chaypaq ruraschasqa kanku: hatun rikchakuna qawasqa qolqanku, achka akllana mana kanchu, mana yuyanankupaq icha pantanankupaq ima kanchu. Tupuchiy, tiqsiy, reqsisqa rimaykuna tukuchiy, kawsasqan yachaykunata, mana musuq yachaykunata llamk'achin."
+      },
+      {
+        "q": "Qhipa pachapi demenciata kawsaq runaqa kay llankaykunata ruwanmanchu?",
+        "a": "Achka kutipi, arí, chaskiqnin kuska kaspa. Qallariy Find the same ichaqa iskay rikchawan, Picture pairs chusku ch'eqachawan, pintana rikchaq icha sinchi samay hayk'aq samay. Pisi kachun, paykunapa rikunanta qatiy, mana munaspaqa tukuchiy."
+      },
+      {
+        "q": "Willakuyniyqa pakasqachu?",
+        "a": "Kay sitioqa mana cuentankuchu, mana propagandankuchu. Google Analytics nisqawanmi yachanchis imapi page-kuna qhawasqa kasqanta. Photo pairs-paq akllasqaykiki rikchakunaqa tan web-llapi rikunqa, mana hawaman kachkachunchu."
+      },
+      {
+        "q": "Pitaq Creative Activities-ta ruran?",
+        "a": "Creative Activities huch'uy llank'aqkunapa tiyanmi, familiakunapaq, qhawakuqkunapaq sumaq, adultu rikchaq llankaykunata ruran, web-pi icha free app hina. Ñoqaykuna mana doctorkunachu kayku, kaypi ima hampi yachaypas mana kanchu."
+      }
+    ]
+  },
+  "stage": {
+    "early": "qallariy",
+    "middle": "chawpi",
+    "late": "tukukuy qhipa",
+    "hintOne": "Allinmi {list} pachaq runakunaman",
+    "hintMany": "Allinmi {list} pachakunaq runakunaman",
+    "labelEarly": "Qallariy pacha",
+    "labelMiddle": "Chawpi pacha",
+    "labelLate": "Tukukuy qhipa pacha"
+  },
+  "cards": {
+    "aboutGame": "Kay pukllaymanta",
+    "printable": "Qillqaypaq",
+    "play": "Pukllay {name} →",
+    "readGuide": "Qillqata liyiy"
+  },
+  "playCta": {
+    "title": "Llakiypi mana kaspa pukllanaykipaq listo kankichu?",
+    "text": "Hatun rikchakuna, mana rellojchu, mana puntachu, mana hapiyta. Web-pi qanwan kuska pukllaychis.",
+    "play": "Pukllay",
+    "all": "Llapa pukllaykunata qhawariy",
+    "aria": "Pukllayta qallariy"
+  },
+  "appCta": {
+    "title": "Kay pukllaykunata qanwan apariy",
+    "text": "Free Creative Activities app iPhone, iPad, Android-paqmi: hatun rikchaq makinakuna, familiaykipa rikchankunawan pukllay, Wi‑Fi mana kaspapas llankaq rikchakuna. Mana cuentachu, mana propagandachu, mana rellojchu, mana puntachu.",
+    "appStore": "App Store-pi hapiy",
+    "googlePlay": "Google Play-pi hapiy",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Appmanta yachay",
+    "aria": "Appta hapiy"
+  },
+  "sections": {
+    "activities": {
+      "label": "Llankaykuna",
+      "title": "Demencia nisqawan kawsaq runakunapaq llankaykuna",
+      "seo": "Demencia nisqawan kawsaq runakunapaq llankaykuna: pachanman rikuspa ideakuna",
+      "description": "Demencia nisqawan kawsaq runakunapaq llankay ideakuna sapa pachapi: takiy, yuyaykuna, sapa punchaw ruranakuna, sentidukunapaq tiempokuna, ruway, pampapi kay, free qillqay rikchakuna.",
+      "lede": "Allin llankaymi kusiyta, ruwanata, icha tinkuchiyta apan. Qallariy runa allinta yachasqanwan, kunan punchawman tikrachispa."
+    },
+    "caregiving": {
+      "label": "Qhawakuy",
+      "title": "Qhawakuq qillqakuna",
+      "seo": "Demencia qhawakuq qillqakuna: sapa punchaw llapan yanapay",
+      "description": "Qhawakuqkunapaq llanp'u, sumaq qillqakuna: kuska pukllay, rimay, mana munay, tardeq pisi puñuy, tabletakuna, appkunata akllay, kikiykita qhaway.",
+      "lede": "Sapa punchaw qhawakuypi llanp'u, ruwana yanapay, demencia nisqawan kawsaq runata qhawaspaqa, kikiykitapas qhawaspaqa."
+    },
+    "brain-health": {
+      "label": "Yuyay allin kay",
+      "title": "Yuyay allin kay: yachaykuna imata willan",
+      "seo": "Yuyay allin kay, demencia harkakuy: yachaykuna imata willan",
+      "description": "Demencia harkasqa kanmanchu? Chiqap, qillqasqa qillqakuna demencia harkakuq kaqkunamanta, yuyay pukllaykunamanta, ayunomanta, mikuymanta, llank'aymanta, puñuymanta, uyariymanta, ñawpaq willakuq rikuchikuykunamanta.",
+      "lede": "Hatun yachaykuna imata rikuchin demencia harkakuyta pisiyachispa, llanp'uta willasqa, chaypi yachaykuna pisi icha mana chiqap kasqanpas. Llapan willakuy, mana doctor yanapaymi."
+    }
+  },
+  "guide": {
+    "updated": "Musuqyachisqa",
+    "minuteRead": "{n} minutu liyiy",
+    "byTeam": "Creative Activities llank'aqkunawan",
+    "howWeWrite": "Imaynatataq qillqanchis",
+    "shortAnswer": "Pisi kaq khuyapayay",
+    "onThisPage": "Kay page-pi ({n} tapuna)",
+    "commonQuestions": "Achka tapukuykuna",
+    "sources": "Qhawana",
+    "sourcesNote": "Kay page-pi yachaykunata qispichiq llank'aqkunata, yachaykunata willanchis. Llapan chaykunataqa musuqyachisqa kaqtinmi qhawarisqa karqan.",
+    "tryTogether": "Kuska ensayay",
+    "relatedGuides": "Hinallaq qillqakuna",
+    "related": "Hinallaq",
+    "startHere": "Kaypi qallariy"
+  },
+  "healthNotice": {
+    "aria": "Hampi yachaypa willakuynin",
+    "title": "Llanp'u yachay, mana hampi yachay",
+    "textHtml": "Kay page familiakunapaq qillqasqa yachaykunata pisiyachin. Mana imapaq allinchus sapa runapaq willanchu. Mikuyta, llank'aytaq, puñuyta, hampikunata icha suplementokunata llukchiy ñawpaqtaqa doctorwan rimay. Ch'aqwa llakiy icha hukniray hina llakiqkunapaq, chaskiy hampi yanapayta. <a href=\"/medical-disclaimer/\">Hampi yachay willakuyninchista liyiy</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Kuska llankay, mana yuyay tesტu",
+      "seoTitle": "Creative Activities-manta: ñawpaq ruraynin",
+      "description": "Imaraykutaq Creative Activities pukllaykunapi rellojkuna, puntakuna, seriekuna mana kanchu, imaraykutaq rikchakuna qawasqa qolqanku, imatataq demenciamanta willanchis icha mana willanchischu.",
+      "crumb": "Ñawpaq ruraynin",
+      "lede": "Creative Activities-qa sumaq, adultu rikchaq llankaykunata ruran, qhawakuqwan demencia nisqawan kawsaq runa kuska kusikunankupaq.",
+      "bodyHtml": "<h2>Imatam iñiniku</h2><p>Ruwaykunaqa chay pachallapaqmi: rimarinakuy, asirikuy, iskay rikch'akunata kuskachaspa kusikuy, utaq ladollanpi tiyaykuylla. Manam pitapas tupunapaqchu, aswan kallpachaspa ñawparichinapaqchu, nitaq imatapas rikuchinapaqchu.</p><p>Achka ñutqu kallpachaq app nisqakunaqa utqayllaman, puntukunaman, patakunaman ima churasqam kashan. Yuyay chinkaywan kawsaq runapaqqa mana llalliy atina examen hinam rikurinman. Ñuqaykuqa huknatam ruwarqaniku, kay kamachiykunatataq qatipakuniku:</p><ul><li><strong>Manam imapas pantanapaqchu kashan.</strong> Manam reluq, puntu, ruwasqakuna yupaq, kawsaykuna, qati-qati llalliykuna, papelchawan kusiypas, nitaq watayupaqpas kanchu, mayqin qhawarinapipas.</li><li><strong>Riqsiyqa yuyarinamanta aswan allinmi.</strong> Rikch'akunaqa qhawasqallapunim kashan. Tapukuykunaqa rimarinakuymanmi mink'akun, manataqmi sutikunamantachu nitaq yuyaykunamantachu tapupayan.</li><li><strong>Hatun, ch'uya, takyasqalla ima.</strong> Hatuchaq qillqakuna, hatun rikch'akuna, sut'i llimp'ikuna, kaq kitiypipuni kaq botunkunapas.</li><li><strong>Kuraq runap sumaq kaynin.</strong> Chiqap pacha rikch'akuna, llamp'u sumaq simikuna ima. Manam dibuhukuna, takisqa yupaychaykuna, nitaq emojikunawan saminchaypas kanchu.</li><li><strong>Chinkarinapaq hawalla.</strong> “Kaykamalla” nisqaqa rikukushanpunim. Kuskanpi sayachiyqa allinmi.</li><li><strong>Pakasqalla kapun.</strong> Manam cuentakunachu nitaq willakuykunachu kan. Akllasqayki fotokunapas celularniykipim utaq makinaykipim qhipakun.</li></ul><h2>Imatam mana ninikuchu</h2><p>Pukllaynaykuqa kusirikunapaq, munanakunapaqllam. Manam yuyay chinkayta utaq Alzheimer unquyta tarinchu, pruebanchu, tupunchu, hampinchu, tatichinchu nitaq hark'anchu; manam pipas chayraykuchu akllanman. <a href=\"/brain-health/\">Ñutqu allin kawsaymanta raphiykunapi</a> yachaykuna tarisqamanta qillqaspaykuqa, sut'illatam willakuniku maypichus yachaykuna pisi kashan chayta, manataqmi pukllaynaykuwanqa t'inkinchischu.</p><h2>Pikunam kaniku</h2><p>Creative Activities nisqaqa huk huch'uy kikinmanta llank'aq huñum. Manam doctorkunachu kaniku. Pusariq qillqaykunaqa National Institute on Aging, Alzheimer’s Association nisqakunaq lluqsichisqan yachachiykunamantam qillqasqa kashan, sapanka pusariq qillqataq maymantachus horqosqa kasqanta willakun. Qhaway <a href=\"/editorial-policy/\">imaynatam raphiykunata qillqaniku, allichaniku ima</a>.</p><h2>Willawayku ima yanapasunkiman chayta</h2><p>Kusikuywanmi uyarisaqkiku ima yanapasusqaykichista, imataq mana chayta; astawantaqa yuyay chinkaywan kawsaq runakunamanta, ayllu qhawariqkunamanta, pukllachiykunapi llank'aqkunamantapas. Qillqamuy kayman: <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Imaynatam Raphiykunata Qillqaniku Ch'uyanchaniku Ima",
+      "seoTitle": "Qillqaypa Kamachikuynin",
+      "description": "Imaynatam Creative Activities mask'an, qillqan, pukyukuna churan, musuqyachinpas yuyay chinkay ruwaykunamanta ñutqu allin kaymantawan raphinkunata, imatataq mana hayk'aqpas willanqachu.",
+      "crumb": "Qillqanapaq kamachikuy",
+      "bodyHtml": "<h2>Pukyukunayku</h2><p>Pusariq qillqaykunaqa llapa runapaq willakuykunamantam hamun, kay huñukunaq willasqanmanta: National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance, NHS ima; chaymantapas yachaqkunaq qhawarisqan mask'aykunamanta, Cochrane qhawariykunamanta, hatun hampi tupuykunamantapas. Sapanka pusariq qillqam maymantachus yachaykuna horqosqata sut'inchan. Sapanka pukyutam qhawaniku manaraq willachkaspa, chiqap nisqallantataqmi willakuniku.</p><h2>Imaynatam qillqaniku</h2><ul><li>Ñawpaqtaqa ruwayllapaq: kunan p'unchay imatam ruwana, llamp'u simillapi.</li><li>Yachaykunamanta chiqapllata willay: “tupanmanmi”, “kanmanmi”, “manaraq sut'ichu kashan” ninikum chiqap kaptinqa.</li><li>Sumaqllata qhawariy: yuyay chinkaywan kawsaq runakunamanta kuraq runakunata hinam qillqaniku, manataqmi pinqachinapaq hina nitaq tapupayanapaq hina simikunata uqharinikuchu.</li><li>Manam qillqakunata paqarichinikuchu: manam llulla yupaykuna, rimaykuna, yachaqkuna, yachaykuna, qhawariykuna nitaq willakuypas kanchu.</li></ul><h2>Pikunam raphiykunata qhawarin</h2><p>Raphiykunataqa Creative Activities huñum qillqan qhawarinpas, mask'anapaq qallariy qillqanapaqpas AI nisqa llamk'anawan yanapachikuspa. Sapanka raphitam chay huñu pukyunkunawan kuskachaspa qhawarin. Raphiynaykuqa <strong>manam</strong> doctorpa nitaq huk hampi yachaqpa qhawarisqanchu, manataqmi chaytachu niniku. Llapa runapaq willakuyllam, manam hampi kamachiychu.</p><h2>Imatam mana hayk'aqpas willasaqkuchu</h2><ul><li>Pukllay, mikhuna, kallpachaq, ayunay utaq sapa p'unchaw ruway yuyay chinkayta hark'an, hampin, tatichin utaq allinyachin nispa rimaykunata.</li><li>Pruebakuna, tapukuykuna utaq puntukuna pipas yuyay chinkayniyuq kasqanta mana kasqantapas rikuchiqta.</li><li>Ima hampitapas qallarinapaq, sayachinapaq utaq t'ikranapaq kunaykunata.</li><li>Pusariq hina rikukuq qhatuypaq willakuykunata.</li></ul><h2>Musuqyachiykuna allichaykunapas</h2><p>Sapanka raphipim rikukun hayk'aqchus musuqyachisqa kasqan p'unchay. Pantasqata utaq mawk'ayarquq pukyuta tarinki chayqa, ama hina kaspa qillqamuy kayman: <a href=\"mailto:{email}\">{email}</a>, usqhayllatam qhawarisaqkiku.</p>"
+    },
+    "faq": {
+      "title": "Tapukuykuna Kutichiykunapas",
+      "seoTitle": "Yuyay Chinkaypaq Pukllaykuna Ruwaykunapas: Tapukuykuna Kutichiykunapas",
+      "description": "Yuyay chinkaypaq pukllaykunamanta ruwaykunamantawan sapa kuti tapukuykunapaq kutichiykuna: mayqin pukllaykunatam ruwana, mayk'aqkamam pukllana, aswan ñawparisqa kaypaq yuyaykuna, ñutqu allin kay, pakasqa willakuykunapas.",
+      "crumb": "Tapukuykuna kutichiykunapas",
+      "lede": "Tumpalla, sut'i kutichiykuna qhawariqkunaq astawan tapukusqankupaq.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Pukllaykunamanta",
+          "items": [
+            {
+              "q": "Mayqin pukllaykunataq aswan allin yuyay chinkaywan kawsaq runapaq?",
+              "a": "Aswan allin pukllaykunaqa riqsisqa, ch'uya, mana llakichikuqllam kanku, allin kaqtaqmi chay runa kunan p'unchay kusikusqan. Rikch'akunata rikukuqtin kuskachay, t'aqay, sasalla rompecabezas, riqsisqa rimaykunata hunt'achiy, llimp'iy, rikch'akunawan bingo pukllay ima achka runapaq allinpuni. Ama watayupaqkunata, puntukunata nitaq examen hina kaqkunata churaychu."
+            },
+            {
+              "q": "Pukllaykunaqa chiqaptapunichu mana qullqillapaq?",
+              "a": "Arí. Llapa pukllaykuna hinaspa imprimiblekuna qolqe mana kanchu. Mana cuentayuq, mana inscripciónniyuq, mana descarga nitaq propaganda kanchu."
+            },
+            {
+              "q": "¿Imarayku mana puntakuna, mana nivelkuna nitaq mana tiempo qawaqkuna kanchu?",
+              "a": "Utqayllan kaspa puntakunawan pukllayqa exameman tikrachikun, chaymi llakiyta utaq phiñakuyta apamun. Chaymi kusikuyman hinaspa kuska pasasqanchikman qhawarikunchik. Mana pantanapaq kanchu, hinaspa munaspaykiqa hayk'aqpas tukuyta atinki."
+            },
+            {
+              "q": "¿Ima aparatukunam allintapas llamkan?",
+              "a": "Llapa celular, tablet utaq computadora moderno web navegadorniyuq. Mesapi tablet suyuqwan, sapa kuti iskay runa kuska pukllanankupaq allin ch'uya. Laptop televisor ukhupi chaskisqa grupokunapaq allinmi."
+            },
+            {
+              "q": "¿Kikin familiamanta rikchaq photokunawan pukllayta atinchu?",
+              "a": "Arí. Photo pairs nisqanpi qanchasqa 2 kaqta 6 kaqkama photokunata akllaspa tupanakuy pukllayta ruranki. Photokunaqa navegadorniykipi qolanqa, mana hawaman apakunchu nitaq waqaychakunchu."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Pukllaykuna hinaspa qhawariy",
+          "items": [
+            {
+              "q": "¿Ima hora pukllaypas kanan?",
+              "a": "Miraq 10 kaqkama 20 minutu allinmi, astawanqa 2 minutu allin logro. Sinchi sasachakuq utaq llakiq rikchakunata qhawariy, hinaspa allin kashaqtin tukuy. Mana chaninchasqa tiempo kanchu."
+            },
+            {
+              "q": "¿Imanasqataq mana munanman pukllayta?",
+              "a": "Mana niyninta respetay, hinaspa qhipaman utaq huk rikchawan yapamanta ruray. Mana niyqa sasachakuymanta, mana kallpa kaymanta, mana yachaymanta utaq sapsa mana munaymantam hamun. Qan qhawariy “mana niqtin” nisqa willakuyta."
+            },
+            {
+              "q": "¿Ima pukllaykunataq qhipa etapa demenciapaq allin?",
+              "a": "Kusikuyta hinaspa sentidokunata: munasqa taqkunata uyariy, maki masajita losionwan ruray, photokunata kuska qhawariy, sinchi mawk'a manta awaqta aywiy, utaq sapa sumaq pukllayta ruraspa qanpa kuskaykiwan. Qhipa etapa willakuyninchispi astawan ideakuna kan."
+            },
+            {
+              "q": "¿Ima pukllaykunataq kan qhawana wasipi grupokunapaq?",
+              "a": "Arí. Picture bingo nisqapi imprimiblekuna cartakuna hinaspa pantallapi qayakuq kan, Finish the saying nisqawan hinaspa Conversation cards nisqawan allinta rimayta atinchis. Qhawana wasikunapaq grupo willakuyninchispi rikunki grupo hatun, asientokuna hinaspa llapa kaqkunapaq allichay."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Yachay sanolla kaypaq",
+          "items": [
+            {
+              "q": "¿Pukllaykunachu demenciata ch'aqnichinman utaq ayqichinman?",
+              "a": "Mana pukllaypas demenciata ch'aqnichinmanta rikuchisqa kanchu, nitaq pukllaykunapas chaytaqa ninchu. Ayllu kuskapi yuyaykunata kallpachay, qhawana kayniyuq runakunapaq investigacionpi sapsa allinkunata rikuchisqa, sinchi mana sinchi demencia kaqkunapaq. Chaywanpas chaymi kanchu pukllay ch'aqnichinman. Kusikuyta hinaspa kuska kaynintapas qowanchik."
+            },
+            {
+              "q": "¿Demenciachu ch'aqnichisqa kanman?",
+              "a": "Mana seguro. Investigacionkuna 14 hampikuna hinaspa kawsay ruraykunata demencia riesgoywan tupachin, hinallataq uyariy chinkaspa, sinchi presion, mana kallpachakuspa, ayllu manan kuskachakuspa. Chaykunata qhawarispa, pisi runakunapaq riesgo pisiyachikunman, astawan runakunapas tukuy allinta ruraspapas demencia chayanman. Manan pitapas huchanmi."
+            },
+            {
+              "q": "¿Allinchu ruraspa mikuyta mana mikuspa yachayman?",
+              "a": "Runa yachaypi pisi, qallariyninpi, astawanqa animalkunapi cheqaq. Mana mikuyqa hatun runakunapaq peligrosomi, sinchi diabetes hampikunawan utaq mana munaspa wasiyta pisiyachispa. Demencia kaq runakunapaqqa mana kanchu. Mikuyta allichanki ñawpaqtaqa doctorwan rimay."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Kikin willakuy hinaspa seguridad",
+          "items": [
+            {
+              "q": "¿Imatapas willakuytachu waqaychankichis?",
+              "a": "Mana cuentakuna nitaq propaganda. Google Analytics nisqawan wasitapas qhawanchik, hinaspa qhawasqa paginakunata yachanchik. Navegadorniykipi qolqanmi sonido suave kichasqa kasqanta. Photo pairs nisqapaq akllasqaykiq photokunaqa mana hawaman apakunchu. Astawan yachanaykipaqqa privacidad willakuyta qhawariy."
+            },
+            {
+              "q": "¿Kayqa medicina yachayninchu?",
+              "a": "Mana. Creative Activities pukllay kusikuypaqmi, hinallataq sapsa yachaypaq. Hampi tapukuykunapaqqa doctorwan rimay, emergencia kaqtinqa emergenciapaq telefonuta waqyay."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Astawan willakuy: <a href=\"/caregiving/how-to-play-together/\">imaynata kuska pukllanchis</a>, <a href=\"/caregiving/when-they-say-no/\">mana niqtin</a>, <a href=\"/activities/late-stage/\">qhipa etapa pukllaykuna</a> hinaspa <a href=\"/brain-health/can-dementia-be-prevented/\">¿demenciachu ch'aqnichisqa kanman?</a>"
+    },
+    "handout": {
+      "title": "Qespichiq, sapsa demencia kawsaq runakunapaq sin gastos pukllaykuna",
+      "seoTitle": "Imprimible willakuy: Sin gastos demencia pukllaykuna internetpi",
+      "description": "Huk paginayuq imprimible willakuy familiakunapaq hinaspa qhawaqkunapaq, demencia kawsaq runakunapaq sin gastos, sapsa rikchaq pukllaykunamanta, yanapay grupokunapaq hinaspa qhawana qipikunapaq.",
+      "crumb": "Imprimible willakuy",
+      "lede": "Kay paginata imprimiy yanapay grupopaq, qhawana qipipaq utaq refrigeradorpi churanaykipaq. Navegadorniykipi Print kamachiyta llamkachiy; menukuna hinaspa botonkuna imprimiypi mana rikunchu.",
+      "introHtml": "<p>Hatun rikchakuna, sasa rimaykuna hinaspa mana pantanapaq. Sin gastos celularpi, tabletpi utaq computadorapi, mana cuentayuq, mana propagandayuq, mana tiempo qawaqniyuq, mana puntayuq. Kuska tiyaspa turnuta kuska rurarispa pukllay.</p>",
+      "gamesTitle": "Kuska pukllay munaspa ruranapaq",
+      "restHtml": "<h2>Pisi yanapaykuna</h2><ul><li>Uruq horata akllay, chaypi runa allinpi kashaqtin.</li><li>Ñawpaqta sasa nivelta akllay. Tawa chakra kaqkunapas allinmi.</li><li>Rikchakunamanta rimay. Rimanakuyqa astawan kusikuchiq kanman.</li><li>Kusikuyniyuq kashaqtin tukuy. Utqayllan tukuyqa allinmi.</li></ul><h2>Wasipi kaqkunapas</h2><ul><li>Sapsa imprimiblekuna: hatun letrapi tupuy, pintanapaq paginakuna, rimanakuy cardkuna hinaspa picture bingo.</li><li>Sapa etapapaq pukllay ideakuna, hinallataq kuska pukllanapaq hinaspa qhawaq kikinpaq yanapaykuna.</li></ul><p class=\"muted\">Kusikuypaq hinaspa kuska kaypaq. Mana medicina yachay, mana tapuy, nitaq tratamiento. Creative Activities Cloudjet Solutions Pte. Ltd. nisqawan qillqasqa.</p>"
+    },
+    "organizations": {
+      "title": "Qhawana wasikunapaq, biblioteca kaqkunapaq hinaspa yanapay grupokunapaq",
+      "seoTitle": "Mana qolqeniyuq demencia ruwaykuna qhawana wasikunapaq hinaspa grupokunapaq",
+      "description": "Imaynatataq qhawana wasikuna, huk kawsaq watukuna, llaqta yachana wasikuna, machulla qhawaq yanapay tiyanakuna hinaspa yanapaq grupokuna kay mana qolqeniyuq demencia pukllaykunata llamkachinku, hinallataq listaykiman yapanaykipaq qillqa.",
+      "crumb": "Tiyanakunapaq",
+      "lede": "Kay wasipi llapan kaqkuna mana qolqewanchu llamkachiyta atinkichik, mana qillqanakuywanchu, mana licenciawanchu, qhawana wasikunapi tiyaqkunawan, miembrokunawan hinaspa yanapasqa runakunawan. Kay paginaqa willanmi imakunatataq kaq kasqanta hinaspa imaynatataq rakinakuyta.",
+      "shortText": "{name}: mana qolqeniyuq, llamp'u rikchakuna pukllaykuna hinaspa yanapakuq ruwaykuna demencia nanaywan kawsaq runakunapaq hinallataq qhawaqkunapaq. Mana qillqanakuy kanchu, mana tiempo yupaq kanchu, mana puntos kanchu.",
+      "longText": "{name} ({domain}) qowan {count} mana qolqeniyuq nawegator pukllaykunata, demencia nanaywan kawsaq runakunapaq ruwasqa, chaykunapin kanku rikchakuna chaninchay, sencillu rompecabezas, rikchakuna akllay, sapa kawsaq rimaykuna tukuchiy hinaspa rikchakunawan bingo imprimisqa cartakunawan. Mana qillqanakuy, propaganda, tiempo yupaq nitaq puntos kanchu. Wasipi hinallataq tiyan llanu yachaykuna demencia kawsaypi sapa pachapaq, National Institute on Aging hinaspa Alzheimer's Association qillqakunata rimaspa.",
+      "useTitle": "Imatataq tiyanakuna llamkachinman",
+      "gamesItemHtml": "<strong>{count} nawegator pukllaykuna</strong> llamkan laptop, tablet icha TV computadorawan tupusqa. Mana instalasqa, mana qillqanakuy, mana descarga. Qhawariy <a href=\"/games/\">llapan pukllaykunata</a>.",
+      "printablesLabel": "{count} imprimisqa kaqkuna:",
+      "printablesAfter": "Sapa rikchapi Print botonta llamkachiy.",
+      "moreItemsHtml": "<li><strong>Grupo formatokuna:</strong> <a href=\"/games/picture-bingo/\">Rikchakuna bingo</a>-pi kanmi imprimisqa cartakuna hinaspa pantallapi kaq qayaq, <a href=\"/activities/trivia/\">sencillu trivia</a>-pi kanmi 50 tapuykuna akllana kaqkunawan hinaspa rimanakuy temakunawan.</li><li><strong>Yachay ruwaykuna</strong> qhawaqkunapaq hinaspa familiakunapaq, sapa pachapi hinaspa tipo ruwaykunapi, sencillu rimaywan qillqasqa, fuentekunawan. Qallariy <a href=\"/activities/ideas/\">101 ruway ideakuna</a> icha <a href=\"/activities/care-home-groups/\">qhawana wasikunapi grupo ruwaykuna</a>.</li>",
+      "restHtml": "<h2>Imaynatataq grupokuna llamkachinku</h2><ul><li><strong>Qhawana wasikuna hinaspa memory care:</strong> rikchakuna bingo icha rimaykuna tukuchiy TV-pi, huk runa grupopaq tupasqa.</li><li><strong>Huk kawsaq watukuna:</strong> tablet-pi Picture pairs, tawa rikchakunawan, pisi sesionkunapaq huk ruwanapaq.</li><li><strong>Llaqta yachana wasikuna:</strong> imprimisqa palabra búsqueda hinaspa rimanakuy cartakuna memory kitkunapi, hinallataq webpaqa biblioteka tablet-kunapi.</li><li><strong>Qhawaq yanapay grupokuna hinaspa memory café-kuna:</strong> <a href=\"/handout/\">huk hojasqa imprimisqa willakuy</a> familiakunapaq wasinman apanankupaq.</li><li><strong>Hospitalkuna hinaspa wasiman kutichiq yanapaqkuna:</strong> willakuyta caregiver paquetekunapi, wasipi icha cama pataypi sumaq tukuchiy ruwanapaq.</li></ul><h2>Imatataq mana ruwanchu</h2><p>Pukllaykunaqa kusikuypaq hinaspa kuska tiempo pasanapaqmi. Mana diagnosticanchu, mana qawanchu, mana puntosta qanchu, mana sanonchu nitaq demenciata qhawanchu, chayta organizacionkunamanta mañakuyku ama chayta hina ninankuta. Mana propagandakunachu kan, pukllaykunapas mana sutikunata, hampi willakuykunata nitaq rikchakunata churanaykichikta mañanchu. Wasipi Google Analytics llamkachin visitakunata yupaspa; <a href=\"/privacy/\">privacy notice</a> willakun imakunatataq huñun. <a href=\"/games/photo-pairs/\">Photo pairs</a>-pi rikchakuna nawegatorpi qhatsan.</p><h2>Yapaychay listaykiman</h2><p>Qhawaqkunapaq willakuy listata waqaychanki chaqpi, <a href=\"/\">{domain}</a> rakinakuyta munankichik. Ima descripcionpas kaqta copiay atinki.</p>",
+      "shortTitle": "Sipi willakuy",
+      "longTitle": "Hatun willakuy",
+      "linksHtml": "<p>Sapa rakinakuyman tiyaq paginakuna: <a href=\"/games/\">mana qolqeniyuq pukllaykuna</a>, <a href=\"/activities/printable/\">mana qolqeniyuq imprimisqa kaqkuna</a>, <a href=\"/activities/alzheimers/\">Alzheimer-paq ruwaykuna</a> hinaspa <a href=\"/caregiving/how-to-play-together/\">imaynatataq kuska pukllanki</a>.</p><h2>Tapuykuna icha allinchaykuna</h2><p>Wasipi huk kaqqa mana allinchu icha mana entiendekuchu kanman, icha qhawana wasipi tiyaqkunaq munayninkuna mana kay wasiwan tupanmanchu, <a href=\"mailto:{email}\">{email}</a> nisunki. Ama qhawana wasipi tiyaqkunaq personal hinaspa hampi willakuyninta kachaykuychu.</p>"
+    },
+    "app": {
+      "title": "Creative Activities Yupaq App",
+      "seoTitle": "Creative Activities App iPhone-paq hinaspa Android-paq",
+      "description": "Mana qolqeniyuq Creative Activities app: sapa rikchakuna tupuchiy tawa tapakunawan, familiakunaq rikchakuna aparisqaykipi waqaychasqa, mana internetwan llamkana rikcha paquetekuna hinaspa mana qillqanakuy.",
+      "crumb": "App",
+      "lede": "Wasiq ruwaykunata munasqaykita llapanta, mana internetwan llamkana app-pi, chaypi ajllasqaykichik familia rikchakunatapas atinki.",
+      "worksOn": "Llamkan {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Huch'uymanta qallariy</h2><p>Tawa hatun raprakunawan riqsisqa rikch'akunawanpas qallariy. Rikch'akunata qhawana kachiy, icha allin rikch'akuptinqa pakay. Llamp'u pukllayqa manam pachayuqchu, manam puntospas nitaq wanaypas kanchu. 4, 6, 8 icha 12 raprakunata akllay.</p><h2>Kikinpaq hina ruway</h2><p>Aylluykipa rikch'ankunata llamk'anallaykipi akllay. Kay app nisqaqa pukllananpaq huch'uylla kopyakunata hallch'an. Manam llapa rikch'aykikunata maskanchu nitaq ñawpaq rikch'aykikunatapas tikranchu, huk huñupitaq 24 rikch'akama waqaychan.</p><h2>Kuskayá qhawaychik</h2><p>Huk rikch'allata sapankama qhawaychik. Munaspaykiqa parlarinapaq tapukuykunata qhawariy, manam sutikunata yuyarinatachu nitaq allintapuni kutichinatachu mañakun. Qhawayllapas allinmi.</p><h2>Mana internetniyuqpas llamk'anmi</h2><p>Qallarinapaq rikch'akunapas pusaqnintin rikch'a huñukunapas app ukhupim hamun. Yaykuchisqa rikch'a kopyakunaqa mana internetniyuqpas llamk'anmi. iCloud nisqapi waqaychasqa ñawpaq rikch'akunata akllanaykipaqqa internetta munankimanmi.</p><h2>Mana yupaychu, mana chawpi sirwiqchu</h2><p>Ayllupa rikch'ankunapa kopyanqa llamk'anallaykipa app nisqanpim qhipakun. Kopyakunataqa qulluchiyta atinki ñawpaq rikch'akunata mana chinkachispa. Llamk'anaykipa waqaychasqankunapiqa app nisqapa willakuynin rikurinmanmi. <a href=\"/app-privacy/\">App-pa willakuy waqaychayninmanta</a> ñawinchay, <a href=\"/help/\">app yanapakuypas</a> sapanka thatkiyta qawachisunki.</p>",
+      "disclaimer": "Creative Activities nisqaqa kusirikunapaq kuska parlarinapaqpas ruwasqam. Manam ima unquytapas qhawanachu, hampinachu, hark'anachu nitaq yuyay chinkayta icha Alzheimer unquytapas tupunachu.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Yuyay Chinkachiyniyuqkunapaq Alzheimer Unquyniyuqkunapaqpas Yanqalla Pukllaykuna Internetpi",
+    "description": "Yuyay pisipaywan icha Alzheimer unquiywan tiyaq kurak runakunapaq yanqalla internetpi pukllaykuna: rikch'akuna tupachiy, ch'ulla rompecabezas, t'aqay, rimaykuna hunt'achiy, llimp'iy, bingo nisqapas. Mana qillqakuywan, mana pachawan, mana puntoswan.",
+    "crumb": "Pukllaykuna",
+    "h1": "Yuyay Chinkachiywan Kawsakuqkunapaq Llamp'u Pukllaykuna",
+    "lede": "{count} yanqalla pukllaykuna wamp'unaykipi kuska pukllanapaq. Hatun rikch'akuna, sut'i simikuna, mana pantay atiy: mana pachayuq, mana puntosyuq, mana qillqakuna.",
+    "listName": "Yuyay chinkachiywan kawsakuqkunapaq llamp'u pukllaykuna",
+    "byStageTitle": "Pukllayta imayna kayninman hina akllay",
+    "byStageLede": "Taqakunaqa yacharinallapaqmi. Runapa kusikusqanta kunan p'unchaw imachus allillan tarikusqantapas qatiy.",
+    "stageCol": "Imayna kasqan",
+    "gamesCol": "Allin tupaq pukllaykuna",
+    "moreHtml": "Qhawana karupi huk yuyaykuna: <a href=\"/activities/ideas/\">101 ruraykuna yuyay chinkachiywan kawsakuqkunapaq</a>, <a href=\"/activities/alzheimers/\">Alzheimer unquyniyuqkunapaq ruraykuna pukllaykunapas</a>, <a href=\"/activities/memory-games/\">llamp'u yuyariy pukllaykuna</a> hinallataq <a href=\"/activities/puzzles/\">rompecabezaskuna</a>.",
+    "faq": [
+      {
+        "q": "¿Mayqin pukllaywantaq qallarisunman?",
+        "a": "Tawa raprawan Rikch'akuna tupachiyqa hawkalla qallarinapaq allinmi. Rikch'akunata akllay sasa rikch'akuptinqa, iskay rikch'awan Kikin rikch'ata tariy nisqata qhawariy. Huñupaqtaq, Rikch'akunawan bingo nisqata pukllaychik."
+      },
+      {
+        "q": "¿iPad nisqapi icha tiliphunupi kay pukllaykuna llamk'anchu?",
+        "a": "Arí. Llapallan pukllaymi tiliphunupi, tabletapi computadorapipas wamp'unapi llamk'an, rikch'akunapas qhawanaman hunt'ananpaq hatunyapun. Iskay runapaqqa tableta sayachinapi churaymi astawanqa allillan kachkan."
+      },
+      {
+        "q": "¿Kay pukllaykuna allinchu Alzheimer unquyniyuq runapaq?",
+        "a": "Arí. Yuyay chinkachiywan kawsakuqkunapaq ruwasqam, Alzheimer unquyniyuqkunapaqpas, chay unquymi astawanqa rikurin. Rikch'akunaqa qhawasqallam kachkan, pisi akllanakunallam kachkan, manataqmi pachayuqchu nitaq puntosyuqchu; chayraykum kay pukllaykunaqa musuq kaqta yuyarinamantaqa riqsisqa kaqkunata riqsirinallatam maskan."
+      },
+      {
+        "q": "¿Kurak runakunapaq yuyay pukllaykunachu kaykuna?",
+        "a": "Tupachina rikch'a pukllaykunam, mayqin kurak runapas kusirikunmanmi, ichaqa manam yuyayta tupanapaqchu ruwasqa kanku: Rikch'akuna tupachiypiqa rikch'akunaqa qhawasqallam kachkan mana pakayta munaptiykiqa. Yuyay chinkachiywan tiyaq kurak runakunapaq pukllaykunamanta yachachiyniykum willakun imaynatas ima yuyay pukllaytapas llamp'ulla waqaychayta."
+      },
+      {
+        "q": "¿Qhawana wasipi huñukunapaq pukllaykuna kanchu?",
+        "a": "Arí. Rikch'akunawan bingo nisqapiqa raphipi ch'ipachinapaq kartakunapas qhawanapi waqyaqpas kanmi; Rimayta hunt'achiy nisqapas Parlarinapaq kartakunapas huñupi kunkawan ñawinchaspaqa allintam puririn."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad hinallataq Android",
+    "requirements": "iOS 15 icha aswan musuq; Android 7.0 icha aswan musuq",
+    "summary": "iPhone, iPad hinallataq Android nisqapaq yanqalla app; tawa ukhumanta chunka iskayniyuqkama hatun raprakunapi llamp'u rikch'akuna tupachiyniyuq, kikinpa akllasqan ayllu rikch'akunawan tupachinapaq qhawanapaqpas, pusaqnintin rikch'a huñuyuq mana internetwan llamk'aq. Mana yupayniyuq, mana willakuykunayuq, mana pachayuq, mana puntosyuq.",
+    "features": [
+      "4, 6, 8 icha 12 hatun raprakunawan llamp'u rikch'akuna tupachiy; rikch'akunaqa qhawasqallam kachkan mana pakayta munaptiykiqa",
+      "Akllasqayki ayllu rikch'akunaqa app ukhuman kopyasqam kanku tupachinapaq kuska qhawanapaqpas",
+      "Kuska qhawaychik: sapanka rikch'allata qhaway, munaspaykiqa parlarinapaq tapukuykunawan",
+      "Pusaqnintin rikch'a huñukuna app ukhupi churasqa; mana internetniyuqpas llamk'anmi",
+      "Mana yupaychu, mana willakuykunachu, mana app ukhupi rantiychu, mana pachayuq, mana puntosyuq, mana wanayniyuq"
+    ],
+    "faq": [
+      {
+        "q": "¿Yuyay chinkachiywan kawsakuqkunapaq ruraykunayuq app kanchu?",
+        "a": "Arí. Creative Activities (qhawachisqa kay sutinwan \"{storeName}\") nisqaqa yanqallam App Store hinallataq Google Play nisqapi. Hatun raprakunawan llamp'u rikch'akuna tupachiyta, kikinpa akllasqan ayllu rikch'akunawan pukllaykunata, mana internetwan llamk'aq rikch'a huñukunatapas qusunki."
+      },
+      {
+        "q": "¿Creative Activities app nisqa yanqallachu?",
+        "a": "Arí. Urayk'achinapaqqa yanqallam, mana willakuykunayuq, mana yupayniyuq, manataqmi app ukhupi rantiykunapas kanchu."
+      },
+      {
+        "q": "¿App nisqa mana internetniyuq llamk'anchu?",
+        "a": "Arí. Qallarinapaq rikch'akunapas pusaqnintin rikch'a huñukunapas app ukhupim hamun, ayllu rikch'akunataq app ukhuman kopyasqaña kaspaqa mana internetniyuqpas llamk'anmi. iCloud nisqallapi waqaychasqa rikch'ata akllanaykipaqqa internetta munankimanmi."
+      },
+      {
+        "q": "¿Kikiykupa ayllu rikch'aykuta llamk'achiyta atiymanchu?",
+        "a": "Arí. Llamk'anapikimanta fotokunata akllay. Kay appqa llamk'anallaykipim huch'uy fotokunata waqaychan ruranakunapaq, manam maymanpas apachinchu, manataqmi qallariy fotokunatapas tikranchu. Munaspaqa mayqin pachapas chay fotokunata qulluchiyta atinki."
+      },
+      {
+        "q": "¿Kay appqa ñutqu yachachinapaqchu icha yuyay qhawanapaqchu?",
+        "a": "Manam. Creative Activities nisqaqa kusirikunapaq kuska tiempota pasanapaqwanmi. Manam puntukunayuqchu nitaq pruebayuqchu, manataqmi unquykunata tarinchu, hampinchu, hark'anchu nitaq yuyay chinkayta icha Alzheimer nisqata tupunchu."
+      },
+      {
+        "q": "¿Mayqin llamk'anakunapim llamk'an?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "¿Kay pukllaypaq app kanchu?",
+      "a": "Arí. Yanqa Creative Activities app iPhone, iPad hinallataq Android nisqapaqqa kikin sumaq fotokuna tupachiyniyuqmi, akllasqayki aylluypa fotonkunawan pukllayta atin, internet illaptinpas llamk'anmi. Manam cuentata, willakuykunata nitaq puntukunatapas mañakunchu."
+    },
+    "gameFaqNo": {
+      "q": "¿Kay pukllaypaq app kanchu?",
+      "a": "Kay pukllaypaqqa manam. Yanqa Creative Activities app iPhone, iPad hinallataq Android nisqapaqqa hatuchaq fotokunawan sumaq tupachiyniyuqmi, akllasqayki aylluypa fotonkunawanpas, internet illaptinpas llamk'anmi. Kay pukllayqa navegadorniykipi yanqallapuni qhipakunqa."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: hatuchaq, sumaq rikch'akuna",
+    "noscript": "Kay pukllaypaqqa navegadorniykipi JavaScript kichasqa kananmi. Uraypi kaq yachachikuykunaqa manapas chaywanqa llamk'anmi.",
+    "about": "{name} nisqamanta",
+    "aboutAria": "Kay pukllaymanta",
+    "noTimer": "Mana pachachaqniyuq, mana puntukunayuq",
+    "printable": "Ch'ipichinapaq",
+    "howTo": "Imaynata {name} pukllana",
+    "tips": "Kuska pukllanapaq yuyaychaykuna",
+    "newToPlayingHtml": "¿Yuyay pisiyaywan kawsakuq runawan manaraq hayk'aq pukllarqankichu? Ñawiriy <a href=\"/caregiving/how-to-play-together/\">imaynata kuska pukllanata</a>, manaña pukllayta munanman chaypas imatachus ruranata.",
+    "moreAria": "Aswan mask'anapaq",
+    "helpfulGuides": "Yanapaq yachachikuykuna",
+    "appTitle": "App nisqapi pukllay",
+    "appText": "Yanqa Creative Activities appqa hatuchaq fotokunawan sumaq tupachiyniyuqmi, kikin aylluykipa fotonkunawanpas, manataqmi Wi‑Fi nisqata munanchu. iPhone, iPad hinallataq Android.",
+    "photoAppTitle": "Fotoykikunata wakichisqata waqaychay",
+    "photoAppText": "Yanqa Creative Activities apppiqa, akllasqayki fotokunaqa llamk'anallaykipim qhipakun qhipa kutikunapaq, pukllanakunataq mana Wi‑Fi nisqawanpas llamk'anmi. iPhone, iPad hinallataq Android.",
+    "goodToKnow": "Yachanapaq allin",
+    "goodToKnowText": "Kay pukllayqa kusirikunapaq kuska tiempota pasanapaqwanmi. Manam imatapas pruebanchu, tupunchu nitaq hampinchu.",
+    "moreGames": "Aswan sumaq pukllanakuna",
+    "crumb": "Pukllanakuna"
+  }
+}

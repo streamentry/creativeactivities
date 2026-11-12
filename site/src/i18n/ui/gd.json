@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Rach gu prìomh shusbaint",
+    "brandName": "Creative Activities",
+    "brandTag": "Gnìomhan dementia",
+    "homeLabel": "Golden moments dachaigh",
+    "mainNav": "Prìomh",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Mionaidean Òir: dealbhan mòra, càirdeil de chupa tì, lus na grèine agus cù",
+    "languages": "Cànain",
+    "englishOnly": "(Sasannach)",
+    "machineTranslated": "Chaidh an duilleag seo eadar-theangachadh gu fèin-obrachail agus cha deach a sgrùdadh le neach-labhairt dùthchasach fhathast.",
+    "readOriginal": "Leugh an tè thùsail sa Bheurla",
+    "nav": {
+      "games": "Geamannan",
+      "activities": "Gnìomhan",
+      "caregiving": "A 'toirt cùram",
+      "brainHealth": "Slàinte eanchainn"
+    },
+    "faqTitle": "Ceistean agus freagairtean",
+    "breadcrumb": "Breac-bhràghad",
+    "home": "Dhachaigh",
+    "lastUpdated": "Air ùrachadh mu dheireadh",
+    "topics": "Cuspairean",
+    "textSize": {
+      "label": "Meud teacsa",
+      "smaller": "Teacs àbhaisteach",
+      "larger": "Teacsa nas motha",
+      "contrast": "Eadar-dhealachadh nas àirde"
+    }
+  },
+  "footer": {
+    "play": "Seinn",
+    "picturePairs": "Paidhir dhealbhan",
+    "conversationCards": "Cairtean còmhraidh",
+    "pictureBingo": "Dealbh bingo",
+    "allGames": "A h-uile geamannan",
+    "pictures": "Dealbhan airson clò-bhualadh",
+    "activityIdeas": "Beachdan gnìomhachd",
+    "ideas101": "101 beachdan gnìomhachd",
+    "lateStage": "Gnìomhan deireadh-ìre",
+    "printable": "Gnìomhan clò-bhuailte",
+    "allActivities": "A h-uile gnìomh",
+    "forCaregivers": "Airson luchd-cùraim",
+    "playTogether": "Ciamar a a ' cluich còmhla",
+    "selfCare": "A 'gabhail cùram dhut fhèin",
+    "brainHealth": "Rannsachadh slàinte eanchainn",
+    "faq": "Ceistean agus freagairtean",
+    "about": "Mu dheidhinn",
+    "approach": "An dòigh-obrach againn",
+    "howWeWrite": "Ciamar a tha sinn a ' sgrìobhadh",
+    "organizations": "Airson buidhnean",
+    "app": "An aplacaid Creative Activities",
+    "appHelp": "Taic app",
+    "support": "Taic",
+    "legal": "Laghail",
+    "sitePrivacy": "Prìobhaideachd làrach-lìn",
+    "appPrivacy": "Poileasaidh prìobhaideachd app",
+    "privacyChoices": "Roghainnean prìobhaideachd",
+    "terms": "Teirmean agus cead app",
+    "safety": "Sàbhailteachd agus cleachdadh san amharc",
+    "accessibility": "Ruigsinneachd",
+    "healthNotice": "Sanas fiosrachaidh slàinte",
+    "allLegal": "A h-uile fiosrachadh laghail",
+    "note": "Tha Creative Activities a 'tabhann gnìomhan sìmplidh co-roinnte airson tlachd. Chan e comhairle mheidigeach, deuchainn no làimhseachadh a th’ ann, agus chan eil e a’ lorg, a’ tomhas no a’ sgòradh neach sam bith. Airson ceistean slàinte, bruidhinn ri dotair. Ann an èiginn, cuir fòn gu 911.",
+    "publisher": "Air fhoillseachadh le Cloudjet Solutions Pte. Earr."
+  },
+  "home": {
+    "title": "Geamannan agus Gnìomhan Dementia & Alzheimer | Mionaid Òir",
+    "description": "Geamannan dealbhan socair an-asgaidh airson cluich air-loidhne agus beachdan gnìomhachd dha daoine a tha a’ fuireach le trom-inntinn no Alzheimer’s agus.",
+    "eyebrow": "An-asgaidh · Gun shanasan · Gun chlàradh · Gun timers no sgòran",
+    "h1": "Geamannan & Cur-seachadan Soilleir dha Daoine air a bheil Dementia",
+    "lede": "Geamannan dealbh sìmplidh, dealbhan eòlach, agus gnìomhan airson tlachd fhaighinn còmhla - aig do astar fhèin.",
+    "playGame": "Cluich Gèam",
+    "findIdeas": "Lorg beachdan gnìomhachd",
+    "facts": [
+      "Ag obair air fòn, tablet agus coimpiutair",
+      "Dealbhan mòra a tha fhathast a’ sealltainn",
+      "Stad uair sam bith; chan eil dad ri fàiligeadh"
+    ],
+    "heroApp": "Cuideachd app an-asgaidh airson iPhone, iPad agus Android, le na dealbhan teaghlaich agad fhèin",
+    "albumNote": "“Dà dhealbh den chupa tì, còmhla.”",
+    "gamesEyebrow": "Cluich sa bhrobhsair agad",
+    "gamesTitle": "Geamannan far an urrainn dhut a chluich an-dràsta fhèin",
+    "gamesLede": "Tha gach fear socair, inbheach agus luath airson tòiseachadh. Tagh fear, suidh taobh ri taobh, agus gabh turas mu seach.",
+    "seeAllGames": "Faic na h-uile {count} geamannan",
+    "howTitle": "Mar a tha e ag obair",
+    "steps": [
+      {
+        "title": "Tagh rudeigin eòlach",
+        "text": "Dealbhan de chupaichean tì, gàrraidhean, peataichean is bàtaichean-siùil. Gun leughadh no riaghailtean ri ionnsachadh an toiseach."
+      },
+      {
+        "title": "Suidh taobh ri taobh",
+        "text": "Leig leotha tapadh. Bruidhinn mu na dealbhan. Tha mì-chothromachadh dìreach a’ feitheamh ris an ath tap."
+      },
+      {
+        "title": "Stad fhad ‘s a tha e a’ faireachdainn math",
+        "text": "Tha aon gheama na ghnìomhachd iomlan. Tha “Done for now” an-còmhnaidh air an sgrion."
+      }
+    ],
+    "stageEyebrow": "Seachad air an sgrion",
+    "stageTitle": "Beachdan gnìomhachd airson gach ìre",
+    "stageLede": "Ceòl, gnìomhan làitheil, cuimhneachan agus amannan sàmhach mothachaidh, air an atharrachadh gu na tha a’ faireachdainn comhfhurtail an-dràsta.",
+    "ideas101": "101 beachdan gnìomhachd",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Ìre thràth",
+        "text": "Cùm a’ dèanamh na tha iad dèidheil air, le atharrachaidhean beaga: cur-seachadan, cuairtean, geamannan facal agus dealbhadh còmhla.",
+        "label": "Beachdan aig ìre thràth"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Ìre meadhanach",
+        "text": "Gnìomhan sìmplidh, eòlach air an roinn ann an ceumannan: pasgadh, òrdachadh, ceòl, geamannan dhealbhan agus cuairtean goirid.",
+        "label": "Beachdan meadhan-ìre"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Ìre nas fhaide air adhart",
+        "text": "Comhfhurtachd agus ceangal tro suathadh, fuaim agus sealladh: cùram làimhe, na h-òrain as fheàrr leat, dealbhan agus a bhith còmhla.",
+        "label": "Beachdan aig ìre nas fhaide air adhart"
+      }
+    ],
+    "specificHtml": "A 'coimhead airson rudeigin sònraichte? Feuch <a href=\"/activities/alzheimers/\">gnìomhan agus geamannan airson Alzheimer</a>, <a href=\"/activities/memory-games/\">geamannan cuimhne fallain</a>, <a href=\"/activities/trivia/\">trivia furasta</a> neo <a href=\"/activities/puzzles/\">tòimhseachan</a>.",
+    "approachEyebrow": "An dòigh-obrach againn",
+    "approachTitle": "Gnìomh co-roinnte, chan e deuchainn cuimhne",
+    "approachLede": "Tha mòran de “gheamannan eanchainn” air an togail timcheall air astar, sgòran agus sreathan. Do chuideigin a tha a’ fuireach le dementia a dh’ fhaodadh a bhith a’ faireachdainn mar dheuchainn. Thog sinn an taobh eile.",
+    "approachLink": "Carson a tha sinn ga dhealbhadh san dòigh seo",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Chan eil dad ri fàiligeadh",
+        "text": "Gun ghleoc, sgòr, beatha no call. Is e stad a th’ ann an dealbh eile, chan e mearachd."
+      },
+      {
+        "icon": "eye",
+        "title": "Bidh dealbhan a’ fuireach a’ sealltainn",
+        "text": "Aithneachadh thar ath-ghairm. Bidh maidseadh a’ tòiseachadh aghaidh suas, agus mar sin chan eil dad ri chuimhneachadh."
+      },
+      {
+        "icon": "people",
+        "title": "Inbheach agus urramach",
+        "text": "Faclan blàth, sìmplidh agus dealbhan san t-saoghal fhìor. Na bi a-riamh a ’bruidhinn cartùnaichean no pàisde."
+      },
+      {
+        "icon": "shield",
+        "title": "Prìobhaideach le dealbhadh",
+        "text": "Gun chunntasan no sanasan. Cha bhith na dealbhan agad a’ fàgail an inneal agad gu bràth."
+      }
+    ],
+    "guidesEyebrow": "Airson luchd-cùraim",
+    "guidesTitle": "Stiùireadh practaigeach airson cùram làitheil",
+    "allCaregiving": "A h-uile stiùireadh cùram-chloinne",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Ciamar a geamannan a chluich còmhla",
+        "text": "Suidhich, astar, agus dè a nì thu nuair a stadas geama a bhith spòrsail."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Nuair a chanas iad ri gnìomhachd",
+        "text": "Adhbharan cumanta airson diùltadh, agus dòighean socair airson feuchainn a-rithist nas fhaide air adhart."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "A 'suidheachadh tablet",
+        "text": "Teacs nas motha, nas lugha de bhriseadh agus aon scrion dachaigh sìmplidh."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Gnìomhan airson clò-bhualadh saor an asgaidh",
+        "text": "Rannsachadh fhaclan le clò mòr, duilleagan dathte, bingo agus cairtean còmhraidh."
+      }
+    ],
+    "researchTitle": "Slàinte eanchainn: na tha an rannsachadh ag ràdh gu fìor",
+    "researchText": "An gabh dementia a chasg? Am bi geamannan eanchainn a’ cuideachadh? Dè mu dheidhinn fastadh, daithead, cadal agus cluinntinn? Freagairtean soilleir le tùs, a’ gabhail a-steach far a bheil an fhianais lag.",
+    "researchLink": "Leugh an stiùireadh rannsachaidh",
+    "appEyebrow": "Cuideachd app",
+    "appTitle": "Mionaidean Òir air iPhone, iPad agus Android",
+    "appText": "Bidh an app an-asgaidh ag obair far-loidhne agus faodaidh e dealbhan teaghlaich a thaghas tu a chleachdadh, air an cumail mar leth-bhreacan air an inneal agad. An aon dhealbhadh socair: ceithir leacan mòra, gun timer, gun sgòr.",
+    "aboutApp": "Mu dheidhinn an aplacaid",
+    "faq": [
+      {
+        "q": "Dè na geamannan math a th’ ann dha daoine le trom-inntinn?",
+        "a": "Tha geamannan math sìmplidh, eòlach agus saor bho chuideam: dealbhan mòra airson a bhith a’ maidseadh, a’ rèiteach, jigsaws furasta, a’ crìochnachadh abairtean ainmeil, dathadh, bingo dhealbhan agus cairtean còmhraidh. Is e an roghainn as fheàrr an tè a tha a 'còrdadh ris an neach an-diugh. Seachain timers, sgòran agus rud sam bith a tha a’ faireachdainn mar dheuchainn."
+      },
+      {
+        "q": "A bheil na geamannan dementia sin an-asgaidh?",
+        "a": "Tha. Tha a h-uile geama agus clò-bhualadh air Creative Activities an-asgaidh, gun chunntas, clàradh no luchdachadh sìos. Bidh na geamannan a’ ruith sa bhrobhsair lìn air fòn, tablet no coimpiutair."
+      },
+      {
+        "q": "Am bi geamannan eanchainn a’ cur casg air trom-inntinn?",
+        "a": "Cha deach geama sam bith a shealltainn gus casg a chuir air trom-inntinn, agus chan eil Creative Activities ag ràdh gu bheil iad a’ làimhseachadh no a’ casg dad. Tha na geamannan againn airson tlachd agus ùine còmhla. Tha an roinn slàinte eanchainn againn a’ mìneachadh na tha rannsachadh a’ dèanamh agus nach eil a’ sealltainn."
+      },
+      {
+        "q": "A bheil na geamannan sin freagarrach airson cuideigin le Alzheimer?",
+        "a": "Tha. Is e galar Alzheimer an adhbhar as cumanta airson trom-inntinn, agus tha na geamannan air an dèanamh air a shon: dealbhan mòra a tha fhathast a’ nochdadh, glè bheag de roghainnean, agus gun dad ri chuimhneachadh no ceàrr. Bidh a bhith a’ maidseadh, a’ rèiteach agus a’ crìochnachadh bhriathran air a bheil sinn eòlach an urra ri eòlas fad-ùine seach ionnsachadh ùr."
+      },
+      {
+        "q": "Am faod cuideigin le dementia ìre nas fhaide air adhart na gnìomhan sin a chleachdadh?",
+        "a": "Gu math tric, tha, le cuideigin taobh riutha. Tòisich le Lorg an aon rud le dà dhealbh, Paidhrichean dhealbhan le ceithir leacan, duilleag dathte no stad anail socair. Cùm e goirid, lean an stiùir agus stad nuair a bhios gu leòr aca."
+      },
+      {
+        "q": "A bheil am fiosrachadh agam prìobhaideach?",
+        "a": "Chan eil cunntasan agus sanasachd sam bith air an làrach. Cleachdaidh sinn Google Analytics gus tuigsinn dè na duilleagan air an tèid tadhal. Chan eil dealbhan a thaghas tu airson paidhrichean dhealbhan air an sealltainn ach sa bhrobhsair agad agus cha tèid an luchdachadh suas gu bràth."
+      },
+      {
+        "q": "Cò a bhios a’ dèanamh Creative Activities?",
+        "a": "Is e sgioba beag a th’ ann an Creative Activities a bhios a’ dèanamh gnìomhan dealbh socair, inbheach dha teaghlaichean is luchd-cùraim, air an lìon agus mar app an-asgaidh. Chan e luchd-clionaigeach a th’ annainn, agus chan eil dad an seo na chomhairle meidigeach."
+      }
+    ]
+  },
+  "stage": {
+    "early": "tràth",
+    "middle": "meadhan",
+    "late": "nas fhaide air adhart",
+    "hintOne": "Gu math tric freagarrach {list} àrd-ùrlar",
+    "hintMany": "Gu math tric freagarrach {list} ìrean",
+    "labelEarly": "Ìre thràth",
+    "labelMiddle": "Ìre meadhanach",
+    "labelLate": "Ìre nas fhaide air adhart"
+  },
+  "cards": {
+    "aboutGame": "Mu dheidhinn a 'gheama seo",
+    "printable": "Clò-bhuailte",
+    "play": "Seinn {name} →",
+    "readGuide": "Leugh an stiùireadh"
+  },
+  "playCta": {
+    "title": "Deiseil airson geama socair?",
+    "text": "Dealbhan mòra, gun timer, gun sgòr agus gun dad airson clàradh. Cluich còmhla sa bhrobhsair agad.",
+    "play": "Cluich Gèam",
+    "all": "Faic a h-uile geamannan",
+    "aria": "Cluich geama"
+  },
+  "appCta": {
+    "title": "Thoir na geamannan seo leat",
+    "text": "An app Creative Activities an-asgaidh airson iPhone, iPad agus Android: leacan dhealbhan mòra, geamannan le dealbhan do theaghlaich fhèin, agus pacaidean dhealbhan a bhios ag obair às aonais Wi-Fi. Gun chunntas, sanasan, timer no sgòr.",
+    "appStore": "Faigh e air an App Store",
+    "googlePlay": "Faigh e air Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Mu dheidhinn an aplacaid",
+    "aria": "Faigh an aplacaid"
+  },
+  "sections": {
+    "activities": {
+      "label": "Gnìomhan",
+      "title": "Gnìomhan airson Daoine le Dementia",
+      "seo": "Gnìomhan do Dhaoine air a bheil Dementia: Beachdan a rèir Ìre",
+      "description": "Beachdan gnìomhachd dha daoine le trom-inntinn aig a h-uile ìre: ceòl, cuimhneachan, gnìomhan làitheil, amannan mothachaidh, obair-ciùird, a-muigh agus.",
+      "lede": "Is e gnìomhachd brìoghmhor rud sam bith a bheir comhfhurtachd, adhbhar no mionaid de cheangal. Tòisich leis na tha an duine air a bhith a 'còrdadh ris a-riamh, agus atharraich e chun an latha an-diugh."
+    },
+    "caregiving": {
+      "label": "A 'toirt cùram",
+      "title": "Stiùiridhean cùram",
+      "seo": "Stiùiridhean Cùram Dementia: Taic Làitheil Làitheil",
+      "description": "Stiùiridhean practaigeach, coibhneil airson luchd-cùraim dementia: cluich gheamannan còmhla, conaltradh, diùltadh, fois anmoch san latha, clàran, taghadh.",
+      "lede": "Cuideachadh soilleir, practaigeach airson na h-amannan làitheil de bhith a’ toirt cùram do chuideigin a tha a’ fuireach le trom-inntinn, a’ toirt a-steach a bhith a’ toirt cùram dhut fhèin."
+    },
+    "brain-health": {
+      "label": "Slàinte eanchainn",
+      "title": "Slàinte eanchainn: Na tha an Rannsachadh ag ràdh",
+      "seo": "Slàinte Brain agus Cunnart Dementia: Na tha Rannsachadh ag ràdh",
+      "description": "An gabh dementia a chasg? Stiùiridhean onarach, le stòran mu fhactaran cunnairt dementia, geamannan eanchainn, fastadh, daithead, eacarsaich, cadal.",
+      "lede": "Na tha sgrùdaidhean mòra a’ nochdadh mu bhith a’ lughdachadh cunnart trom-inntinn, air a mhìneachadh gu soilleir, a’ toirt a-steach far a bheil an fhianais lag no measgaichte. Fiosrachadh coitcheann, chan e comhairle meidigeach."
+    }
+  },
+  "guide": {
+    "updated": "Air ùrachadh",
+    "minuteRead": "{n} mionaid air a leughadh",
+    "byTeam": "Leis an sgioba Creative Activities",
+    "howWeWrite": "Ciamar a tha sinn a ' sgrìobhadh",
+    "shortAnswer": "An fhreagairt ghoirid",
+    "onThisPage": "Air an duilleag seo ({n} earrannan)",
+    "commonQuestions": "Ceistean cumanta",
+    "sources": "Stòran",
+    "sourcesNote": "Bidh sinn a’ ceangal ris na buidhnean agus na sgrùdaidhean air a bheil an duilleag seo an urra. Chaidh gach fear a sgrùdadh nuair a chaidh an duilleag ùrachadh.",
+    "tryTogether": "Feuch ri chèile",
+    "relatedGuides": "Stiùiridhean co-cheangailte",
+    "related": "Co-cheangailte",
+    "startHere": "Tòisich an seo"
+  },
+  "healthNotice": {
+    "aria": "Sanas fiosrachaidh slàinte",
+    "title": "Fiosrachadh coitcheann, chan e comhairle meidigeach",
+    "textHtml": "Tha an duilleag seo a’ toirt geàrr-chunntas air rannsachadh foillsichte airson teaghlaichean. Chan urrainn dha innse dhut dè a tha ceart airson aon neach. Bruidhinn ri dotair mus atharraich thu daithead, eacarsaich, cadal, cungaidhean-leigheis no stuthan-leigheis. Airson troimh-chèile obann no atharrachaidhean obann eile, faigh cuideachadh meidigeach sa bhad. <a href=\"/medical-disclaimer/\">Leugh am fios fiosrachaidh slàinte againn</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Gnìomh Co-roinnte, Chan e Deuchainn Cuimhne",
+      "seoTitle": "Mu Mhìosan Òir: Ar Dòigh-obrach",
+      "description": "Carson nach eil timers, sgòran no sreathan aig geamannan Creative Activities, carson a tha dealbhan a’ fuireach a’ nochdadh, agus dè a nì agus nach bi sinn a’.",
+      "crumb": "An dòigh-obrach againn",
+      "lede": "Bidh Creative Activities a’ dèanamh gnìomhan dealbh socair, inbheach as urrainn do neach-cùraim agus cuideigin a tha a’ fuireach le dementia tlachd fhaighinn taobh ri taobh.",
+      "bodyHtml": "<h2>Na tha sinn a 'creidsinn</h2><p>Is e puing gnìomhachd an t-àm fhèin: còmhradh, gàire, toileachas dà dhealbh a chuir ri chèile, no dìreach suidhe faisg. Chan eil e airson duine sam bith a thomhas, a phutadh nas fhaide no dad a dhearbhadh.</p><p>Tha mòran de na h-aplacaidean trèanaidh eanchainn air an dealbhadh timcheall air astar, sgòran, sruthan agus ìrean. Do neach le dementia a dh’ fhaodadh a bhith a’ faireachdainn mar dheuchainn nach urrainn dhaibh a dhol seachad. Dhealbhaich sinn an taobh eile, agus tha sinn gar cumail fhèin ris na riaghailtean seo:</p><ul><li><strong>Chan eil dad ri fàiligeadh.</strong> Gun ghleoc, sgòr, gluasad chunntair, beatha, sreathan, confetti no cunntadh sìos, air scrion sam bith.</li><li><strong>Aithneachadh thar ath-ghairm.</strong> Bidh dealbhan a’ fuireach a’ nochdadh gu bunaiteach. Bidh brosnachaidhean a’ toirt cuireadh do chòmhradh agus na bi a-riamh a’ ceasnachadh ainmean no cuimhneachain.</li><li><strong>Mòr, soilleir agus seasmhach.</strong> Teacs mòr agus dealbhan, iomsgaradh àrd, agus smachdan a bhios a’ fuireach san aon àite.</li><li><strong>Urram inbheach.</strong> Dealbhan san t-saoghal fhìor agus faclan sìmplidh, blàth. Gun cartùnaichean, moladh òran seinn no duaisean emoji.</li><li><strong>Slighe a-mach furasta.</strong> Tha “Done for now” an-còmhnaidh ri fhaicinn. Tha stad letheach slighe na thoradh math.</li><li><strong>Prìobhaideach gu bunaiteach.</strong> Gun chunntasan no sanasan. Bidh dealbhan a thaghas tu a’ fuireach air an inneal agad.</li></ul><h2>An rud nach eil sinn a’ tagradh</h2><p>Tha na geamannan againn airson tlachd agus ceangal. Cha bhith iad a’ lorg, a’ dèanamh deuchainn, a’ tomhas, a’ làimhseachadh, a’ slaodadh no a’ casg trom-inntinn no galar Alzheimer, agus cha bu chòir do dhuine sam bith an taghadh air an adhbhar sin. Nuair a bhios sinn a’ sgrìobhadh mu rannsachadh air ar <a href=\"/brain-health/\">duilleagan slàinte inntinn</a>, bidh sinn ag ràdh gu soilleir far a bheil an fhianais lag, agus cha bhith sinn uair sam bith ga cheangal ris na geamannan againn fhìn.</p><h2>Cò sinn</h2><p>Is e sgioba beag neo-eisimeileach a th’ ann an Creative Activities. Chan e luchd-clionaigeach a th’ annainn. Tha na h-iùil againn air an sgrìobhadh bho stiùireadh foillsichte le buidhnean leithid an National Institute on Ageing agus an Alzheimer's Association, agus tha gach iùl a 'liostadh a stòran. Leugh <a href=\"/editorial-policy/\">mar a sgrìobhas sinn agus a nì sinn sgrùdadh air na duilleagan againn</a>.</p><h2>Inns dhuinn dè a chuidicheadh</h2><p>Bu mhath leinn cluinntinn dè a tha ag obair dhut agus dè nach eil, gu sònraichte bho dhaoine a tha a’ fuireach le trom-inntinn, luchd-cùraim teaghlaich agus luchd-obrach gnìomhachd. Post-d <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Mar a sgrìobhas sinn agus a nì sinn sgrùdadh air na duilleagan againn",
+      "seoTitle": "Poileasaidh Deasachaidh",
+      "description": "Mar a bhios Creative Activities a’ sgrùdadh, a’ sgrìobhadh, a’ lorg agus ag ùrachadh a dhuilleagan gnìomhachd trom-inntinn agus slàinte eanchainn, agus na.",
+      "crumb": "Poileasaidh deasachaidh",
+      "bodyHtml": "<h2>Na stòran againn</h2><p>Bidh sinn a’ stèidheachadh ar n-iùil air stiùireadh poblach bho bhuidhnean leithid an National Institute on Ageing, an CDC, Comann Alzheimer, Stèidheachd Alzheimer Ameireagaidh, an Family Caregiver Alliance agus an NHS, agus air rannsachadh ath-sgrùdaichte le co-aoisean leithid lèirmheasan Cochrane agus deuchainnean clionaigeach mòra. Tha a h-uile iùl ag ainmeachadh na stòran air a bheil e an urra. Bidh sinn a’ fosgladh gach stòr mus toir sinn luaidh air, agus cha bhith sinn ag aithris ach na tha e ag ràdh.</p><h2>Ciamar a tha sinn a ' sgrìobhadh</h2><ul><li>Practaigeach an toiseach: dè a nì thu an-diugh, ann an cànan sìmplidh.</li><li>Onarach mu fhianais: bidh sinn ag ràdh “ceangailte ri”, “is dòcha” agus “tha an fhianais measgaichte” nuair a tha sin fìor.</li><li>Spèis: bidh sinn a’ sgrìobhadh mu dhaoine a tha a’ fuireach le trom-inntinn mar inbhich, agus cha bhith sinn uair sam bith a’ cleachdadh cànan ceasnachaidh no nàire.</li><li>Gun susbaint air a chruthachadh: gun staitistig dèanta, luachan, eòlaichean, sgrùdaidhean, lèirmheasan no teisteanasan.</li></ul><h2>Cò a bhios a’ dèanamh lèirmheas air na duilleagan againn</h2><p>Tha duilleagan air an sgrìobhadh agus air an sgrùdadh leis an sgioba Creative Activities, le cuideachadh bho innealan sgrìobhaidh AI airson rannsachadh agus dreachdadh. Bidh an sgioba a’ sgrùdadh gach duilleag a rèir a stòran. Tha na duilleagan againn <strong>chan eil</strong> air ath-sgrùdadh le dotair no neach-clionaigeach eile, agus chan eil sinn a’ tagradh a chaochladh. Is e fiosrachadh coitcheann a th’ annta, chan e comhairle meidigeach.</p><h2>Rud nach foillsich sinn gu bràth</h2><ul><li>A’ tagradh gu bheil geama, biadh, stuth-leigheis, luath no gnàthach a’ casg, a’ làimhseachadh, a’ slaodadh no a’ leigheas trom-inntinn.</li><li>Deuchainnean, ceisteachain no sgòran a tha a’ nochdadh gu bheil, no nach eil, trom-inntinn aig cuideigin.</li><li>Comhairle airson tòiseachadh, stad no atharrachadh cungaidh-leigheis sam bith.</li><li>Sanasachd no susbaint le taic air a chòmhdach mar stiùireadh.</li></ul><h2>Ùrachaidhean agus ceartachaidhean</h2><p>Tha gach duilleag a’ sealltainn a’ chinn-latha a chaidh ùrachadh mu dheireadh. Ma lorgas tu mearachd no tobar as ùire, cuir post-d gu <a href=\"mailto:{email}\">{email}</a> agus bheir sinn sùil air gu sgiobalta.</p>"
+    },
+    "faq": {
+      "title": "Ceistean agus Freagairtean",
+      "seoTitle": "Geamannan agus Gnìomhan Dementia: Ceistean is Freagairtean",
+      "description": "Freagairtean do cheistean cumanta mu gheamannan agus gnìomhan trom-inntinn: dè na geamannan a dh’ fheuchas iad, dè cho fada airson cluich, beachdan aig.",
+      "crumb": "Ceistean agus freagairtean",
+      "lede": "Freagairtean goirid, soilleir dha na ceistean as motha a bhios luchd-cùraim a’ faighneachd.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Mu na geamannan",
+          "items": [
+            {
+              "q": "Dè na geamannan as fheàrr airson cuideigin le dementia?",
+              "a": "Tha na geamannan as fheàrr eòlach, sìmplidh agus saor bho chuideam, agus is e am fear ceart ge bith dè a tha a 'còrdadh ris an neach an-diugh. Bidh maidseadh dhealbhan le dealbhan faicsinneach, a’ rèiteach, jigsaws furasta, a’ crìochnachadh abairtean eòlach, dathadh agus bingo dhealbhan uile ag obair gu math dha mòran dhaoine. Seachain timers, sgòran agus rud sam bith a tha a’ faireachdainn mar dheuchainn."
+            },
+            {
+              "q": "A bheil na geamannan dha-rìribh an-asgaidh?",
+              "a": "Tha. Tha a h-uile geama agus clò-bhualadh an-asgaidh, gun chunntas, clàradh, luchdachadh sìos no sanasachd."
+            },
+            {
+              "q": "Carson nach eil sgòran, ìrean no timers ann?",
+              "a": "Bidh astar is sgòran a’ tionndadh gnìomhachd tlachdmhor gu deuchainn, a dh’ fhaodadh nàire no sàrachadh a thoirt. Bidh sinn a’ cumail fòcas air tlachd agus ùine còmhla, agus mar sin chan eil dad ri fàiligeadh agus faodaidh tu stad aig àm sam bith."
+            },
+            {
+              "q": "Dè na h-innealan a tha ag obair as fheàrr?",
+              "a": "Fòn, clàr no coimpiutair sam bith le brobhsair lìn ùr-nodha. Is e clàr air seasamh aig bòrd gu tric an dòigh as comhfhurtail dha dithis a bhith a’ cluich taobh ri taobh. Tha laptop ceangailte ri Tbh ag obair gu math airson buidhnean."
+            },
+            {
+              "q": "An urrainn dhuinn cluich leis na dealbhan teaghlaich againn fhèin?",
+              "a": "Tha. Bidh paidhrichean dhealbhan a’ tionndadh 2 gu 6 dealbhan a thaghas tu gu geama maidsidh. Bidh na dealbhan a’ fuireach sa bhrobhsair agad agus chan eil iad air an luchdachadh suas no air an sàbhaladh."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Gnìomhan agus cùram",
+          "items": [
+            {
+              "q": "Dè cho fada 'sa bu chòir do ghnìomhachd mairsinn?",
+              "a": "Gu math tric tha 10 gu 20 mionaid gu leòr, agus uaireannan bidh 2 mhionaid soirbheachail. Coimhead airson comharran sgìths no sàrachadh agus stad fhad ‘s a tha e fhathast a’ faireachdainn math. Chan eil tomhas ceart ann."
+            },
+            {
+              "q": "Dè mura h-eil iad airson gnìomhachd a dhèanamh?",
+              "a": "Thoir spèis don chan eil, agus feuch ris a-rithist nas fhaide air adhart no ann an dòigh eile. Faodaidh diùltadh tighinn bho sgìths, pian, faireachdainn mì-chinnteach no dìreach gun ùidh a bhith agad. Faic an stiùireadh againn air dè a nì thu nuair a chanas iad nach eil."
+            },
+            {
+              "q": "Dè na gnìomhan a tha iomchaidh airson trom-inntinn aig ìre nas fhaide air adhart?",
+              "a": "Comhfhurtachd agus mothachadh: ag èisteachd ris a’ cheòl as fheàrr leat, suathadh làimhe le lotion, coimhead air dealbhan còmhla, a’ cumail plaide bhog, a’ suidhe a-muigh, no geama dhealbhan gu math sìmplidh le cuideigin ri thaobh. Tha tòrr a bharrachd bheachdan aig an iùl againn aig ìre nas fhaide air adhart."
+            },
+            {
+              "q": "A bheil gnìomhan ann airson buidhnean ann an dachaigh-cùraim?",
+              "a": "Tha. Tha cairtean clò-bhualaidh agus neach-fios air-sgrion aig bingo dhealbhan, agus bidh cairtean Crìochnaich is Còmhradh ag obair gu math air an leughadh a-mach. Tha an stiùireadh againn air buidhnean dachaigh-cùraim a’ còmhdach meud buidhne, suidheachain agus atharrachadh airson comasan measgaichte."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Slàinte eanchainn",
+          "items": [
+            {
+              "q": "An urrainn geamannan dementia a chasg no a dhèanamh nas slaodaiche?",
+              "a": "Cha deach geama sam bith a shealltainn gus casg a chuir air trom-inntinn, agus chan eil na geamannan againn a’ dèanamh tagradh mar sin. Tha brosnachadh inntinneil ann an suidheachadh sòisealta air buannachdan beaga a nochdadh ann an rannsachadh do dhaoine le trom-inntinn meadhanach gu meadhanach, ach tha sin eadar-dhealaichte bho ghèam a tha a’ casg galair. Bidh sinn a’ tabhann gheamannan airson tlachd agus ceangal."
+            },
+            {
+              "q": "An gabh dementia a chasg?",
+              "a": "Chan ann le cinnt. Tha rannsachadh a’ ceangal 14 factaran slàinte is dòigh-beatha ri cunnart dementia, leithid call èisteachd, bruthadh-fala àrd, neo-ghnìomhachd corporra agus iomallachd sòisealta. Ma dhèiligeas tu riutha dh’ fhaodadh sin cunnart nas ìsle do chuid de dhaoine, ach tha mòran dhaoine a nì a h-uile càil ceart fhathast a’ faighinn dementia. Chan e coire duine sam bith a th’ ann a-riamh."
+            },
+            {
+              "q": "A bheil fastadh eadar-amail math airson slàinte eanchainn?",
+              "a": "Tha fianais daonna cuingealaichte agus tràth, agus tha mòran den rannsachadh ann am beathaichean. Faodaidh fastadh a bhith cunnartach do dh’ inbhich nas sine, gu sònraichte le cungaidhean tinneas an t-siùcair no call cuideim gun dùil, agus chan eilear a’ moladh do dhaoine le trom-inntinn. Bruidhinn ri dotair mus atharraich thu mar a dh'itheas tu."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Prìobhaideachd agus sàbhailteachd",
+          "items": [
+            {
+              "q": "Am bi thu a’ cruinneachadh fiosrachadh sam bith?",
+              "a": "Gun chunntasan no sanasan. Cleachdaidh sinn Google Analytics gus tursan a chunntadh agus faicinn dè na duilleagan a chuidicheas, agus bidh cuimhne aig do bhrobhsair an do thionndaidh thu fuaimean bog. Cha tèid dealbhan a thaghas tu airson paidhrichean dhealbhan a luchdachadh suas gu bràth. Faic am brath prìobhaideachd airson mion-fhiosrachadh."
+            },
+            {
+              "q": "An e comhairle mheidigeach a tha seo?",
+              "a": "Chan eil. Tha Creative Activities airson cur-seachad agus fiosrachadh coitcheann. Airson ceistean slàinte, bruidhinn ri dotair, agus airson cùisean èiginn cuir fòn gu 911."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Nas mionaidiche: <a href=\"/caregiving/how-to-play-together/\">mar a chluicheas tu còmhla</a>, <a href=\"/caregiving/when-they-say-no/\">nuair a tha iad ag ràdh nach eil</a>, <a href=\"/activities/late-stage/\">gnìomhan nas fhaide air adhart</a> agus <a href=\"/brain-health/can-dementia-be-prevented/\">an gabh dementia a chasg?</a>"
+    },
+    "handout": {
+      "title": "Geamannan an-asgaidh, socair dha daoine a tha beò le trom-inntinn",
+      "seoTitle": "Bileag clò-bhuailte: Geamannan Dementia an-asgaidh Air-loidhne",
+      "description": "Bileag clò-bhuailte aon-dhuilleag airson teaghlaichean agus luchd-cùraim mu gheamannan dhealbhan socair an-asgaidh dha daoine a tha a’ fuireach le.",
+      "crumb": "Bileag clò-bhuailte",
+      "lede": "Clò-bhuail an duilleag seo airson buidheann taic, pasgan cùraim no doras a’ frids. Cleachd àithne Clò-bhualaidh do bhrobhsair; tha na clàran-bìdh agus na putanan air am fàgail bhon chlò-bhualadh.",
+      "introHtml": "<p>Dealbhan mòra, faclan sìmplidh agus gun dad ri fàiligeadh. An-asgaidh air fòn, clàr no coimpiutair, gun chlàradh, gun shanasan, gun timers agus gun sgòran. Suidh taobh ri taobh agus gabh mu seach.</p>",
+      "gamesTitle": "Geamannan airson feuchainn ri chèile",
+      "restHtml": "<h2>Beagan mholaidhean</h2><ul><li>Tagh àm den latha nuair a tha an neach aig an ìre as fheàrr.</li><li>Tòisich leis an t-suidheachadh as fhasa. Tha ceithir leacan gu leòr.</li><li>Bruidhinn mu na dealbhan. Is e an còmhradh gu tric am pàirt as fheàrr.</li><li>Stad fhad ‘s a tha e fhathast a’ faireachdainn tlachdmhor. Tha crìochnachadh tràth na thoradh math.</li></ul><h2>Cuideachd air an làrach</h2><ul><li>Clò-bhuail an-asgaidh: sgrùdadh fhaclan le clò mòr, duilleagan dathte, cairtean còmhraidh agus bingo dhealbhan.</li><li>Beachdan gnìomhachd airson gach ìre, agus stiùireadh mu bhith a’ cluich còmhla agus a’ toirt cùram dhut fhèin.</li></ul><p class=\"muted\">Airson tlachd agus ùine còmhla. Chan e comhairle meidigeach, deuchainn no làimhseachadh. Tha Creative Activities air fhoillseachadh le Cloudjet Solutions Pte. Earr.</p>"
+    },
+    "organizations": {
+      "title": "Airson Dachaighean Cùraim, Leabharlannan agus Buidhnean Taic",
+      "seoTitle": "Gnìomhan Dementia an-asgaidh airson Dachaighean Cùraim agus Buidhnean",
+      "description": "Mar a bhios dachaighean cùraim, prògraman latha inbheach, leabharlannan, buidhnean aosda agus buidhnean taic a’ cleachdadh ar geamannan trom-inntinn.",
+      "crumb": "Airson buidhnean",
+      "lede": "Tha a h-uile dad air an làrach seo an-asgaidh a chleachdadh le luchd-còmhnaidh, buill agus teachdaichean, gun chunntas, cead no cìs. Tha an duilleag seo a’ mìneachadh na tha an seo agus mar a roinneas tu e.",
+      "shortText": "{name}: geamaichean dhealbhan an-asgaidh, socair agus stiùireadh gnìomhachd dha daoine le dementia agus an luchd-cùraim. Gun chlàradh, gun timers, gun sgòran.",
+      "longText": "{name} ({domain}) tairgsean {count} geamannan brabhsair an-asgaidh air an dèanamh dha daoine le trom-inntinn, a’ gabhail a-steach a bhith a’ maidseadh chàraidean le dealbhan air am fàgail a’ sealltainn, jigsaw furasta, òrdachadh, abairtean eòlach agus bingo dhealbhan le cairtean clò-bhuailte. Chan eil cunntas, sanasachd, timer no sgòr ann. Tha treòrachadh gnìomhachd cànain sìmplidh air an làrach cuideachd airson gach ìre de dementia a tha ag ainmeachadh an National Institute on Ageing agus Comann Alzheimer.",
+      "useTitle": "Dè as urrainn do bhuidhnean a chleachdadh",
+      "gamesItemHtml": "<strong>{count} geamannan brabhsair</strong> a bhios a’ ruith air laptop, clàr no Tbh ceangailte ri coimpiutair. Gun stàladh, cunntas no luchdachadh sìos. Faic <a href=\"/games/\">a h-uile geamannan</a>.",
+      "printablesLabel": "{count} clò-bhualaidhean:",
+      "printablesAfter": "Cleachd am putan Clò-bhuail air gach duilleag.",
+      "moreItemsHtml": "<li><strong>Cruthan buidhne:</strong> <a href=\"/games/picture-bingo/\">Dealbh bingo</a> tha cairtean clò-bhuailte agus neach-fios air-sgrion, agus <a href=\"/activities/trivia/\">trivia furasta</a> tha 50 ceist ann le roghainnean fhreagairtean agus puingean labhairt.</li><li><strong>Stiùireadh gnìomhachd</strong> airson luchd-obrach agus teaghlaichean, a rèir ìre agus a rèir seòrsa, sgrìobhte ann an cànan sìmplidh le stòran. Tòisich le <a href=\"/activities/ideas/\">101 beachdan gnìomhachd</a> neo <a href=\"/activities/care-home-groups/\">gnìomhan buidhne airson dachaighean cùraim</a>.</li>",
+      "restHtml": "<h2>Mar a bhios buidhnean ga chleachdadh</h2><ul><li><strong>Dachaighean cùraim agus cùram cuimhne:</strong> bingo dealbh no cuir crìoch air an abairt air Tbh ​​​​an t-seòmair chumanta, le aon neach a’ tapadh airson a’ chuantail.</li><li><strong>Prògraman latha inbheach:</strong> stèisean clàr le paidhrichean Dealbh air an suidheachadh gu ceithir leacan, airson seiseanan goirid aon-ri-aon.</li><li><strong>Leabharlannan poblach:</strong> rannsachaidhean fhaclan clò-bhuailte agus cairtean còmhraidh ann an innealan cuimhne, agus an làrach air a chomharrachadh air clàran leabharlainn.</li><li><strong>Buidhnean taic luchd-cùraim agus cafaidhean cuimhne:</strong> a <a href=\"/handout/\">bileag clò-bhuailte aon-dhuilleag</a> airson teaghlaichean a thoirt dhachaigh.</li><li><strong>Ospadalan agus luchd-dealbhaidh fuasglaidh:</strong> an leabhran ann am pacaidean luchd-cùraim, airson rudeigin socair a dhèanamh aig an taigh no ri taobh na leapa.</li></ul><h2>An rud nach dèan sinn</h2><p>Tha na geamannan airson tlachd agus ùine còmhla. Cha bhith iad a’ lorg, a’ dèanamh deuchainn, a’ sgòradh, a’ làimhseachadh no a’ slaodadh trom-inntinn, agus bidh sinn ag iarraidh air buidhnean gun cunntas a thoirt orra san dòigh sin. Chan eil sanasan ann, agus chan eil na geamannan ag iarraidh ainmean, mion-fhiosrachadh slàinte no dealbhan a luchdachadh suas. Bidh an làrach-lìn a’ cleachdadh Google Analytics gus tursan a chunntadh; ar <a href=\"/privacy/\">sanas dìomhaireachd</a> a’ mìneachadh na tha sin a’ cruinneachadh. Dealbhan air an cleachdadh ann an <a href=\"/games/photo-pairs/\">Paidhir dhealbhan</a> fuireach anns a’ bhrabhsair.</p><h2>Cuir sinn ris an liosta ghoireasan agad</h2><p>Ma chumas tu liosta de ghoireasan airson luchd-cùraim, tha fàilte ort ceangal a dhèanamh gu <a href=\"/\">{domain}</a>. Faodaidh tu lethbhreac a dhèanamh de gach tuairisgeul.</p>",
+      "shortTitle": "Tuairisgeul goirid",
+      "longTitle": "Tuairisgeul nas fhaide",
+      "linksHtml": "<p>Duilleagan feumail airson ceangal dìreach riutha: <a href=\"/games/\">geamannan an-asgaidh</a>, <a href=\"/activities/printable/\">printables saor an asgaidh</a>, <a href=\"/activities/alzheimers/\">gnìomhan airson Alzheimer</a> agus <a href=\"/caregiving/how-to-play-together/\">mar a chluicheas tu còmhla</a>.</p><h2>Ceistean no ceartachaidhean</h2><p>Ma tha rudeigin air an làrach ceàrr no neo-shoilleir, no mura bheil feumalachdan neach-còmhnaidh air an coinneachadh leis na tha an seo, innis dhuinn aig <a href=\"mailto:{email}\">{email}</a>. Feuch nach cuir thu fiosrachadh pearsanta no slàinte mu luchd-còmhnaidh no teachdaichean.</p>"
+    },
+    "app": {
+      "title": "An app Creative Activities",
+      "seoTitle": "An app Creative Activities airson iPhone is Android",
+      "description": "An app Creative Activities an-asgaidh: maids dealbh socair le ceithir leacan mòra, dealbhan teaghlaich air an cumail air an inneal agad, pacaidean dhealbhan.",
+      "crumb": "An aplacaid",
+      "lede": "A h-uile dad as toil leat mun làrach-lìn, ann an app a tha ag obair far-loidhne agus as urrainn dealbhan teaghlaich a thaghas tu a chleachdadh.",
+      "worksOn": "Ag obair air {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Tòisich beag</h2><p>Tòisich le ceithir leacan mòra agus dealbhan eòlach. Cùm dealbhan rim faicinn, no cuir am falach iad nuair a tha sin a’ faireachdainn comhfhurtail. Chan eil timer, sgòr no peanas aig modh socair. Tagh 4, 6, 8 no 12 leacag.</p><h2>Dèan e pearsanta</h2><p>Tagh dealbhan teaghlaich le inneal-togail dhealbhan an inneal agad. Bidh an app a’ sàbhaladh lethbhric nas lugha airson a ghnìomhachdan. Cha bhith e a’ sganadh an leabharlann agad no ag atharrachadh na dealbhan tùsail agad, agus cumaidh e suas ri 24 dealbh ann an aon chruinneachadh.</p><h2>Dìreach coimhead còmhla</h2><p>Seall aon dealbh aig aon àm. Bidh brosnachaidhean roghainneil a’ toirt cuireadh do chòmhradh gun iarraidh air duine sam bith ainmean a chuimhneachadh no freagairt cheart a thoirt seachad. Is e dìreach coimhead gu leòr.</p><h2>Far-loidhne far a bheil e cudromach</h2><p>Tha dealbhan tòiseachaidh agus na h-ochd pacaidean dhealbhan uile air an toirt a-steach don app. Bidh lethbhric de dhealbhan air an toirt a-steach ag obair far loidhne. Ma roghnaicheas tu na stuthan tùsail a tha air an stòradh ann an iCloud a-mhàin dh'fhaodadh gum bi feum air ceangal eadar-lìn.</p><h2>Gun chunntas, gun fhrithealaiche sioncronaich dhealbhan</h2><p>Bidh lethbhric de dhealbhan teaghlaich a’ fuireach san app air an inneal. Faodaidh tu na leth-bhreacan a thoirt air falbh gun a bhith a’ sguabadh às na tùsan. Faodaidh cùl-taic inneal a bhith a’ toirt a-steach dàta app. Leugh an <a href=\"/app-privacy/\">poileasaidh prìobhaideachd app</a>, agus <a href=\"/help/\">cuideachadh app</a> a' dol troimh gach ceum.</p>",
+      "disclaimer": "Tha Creative Activities airson cur-seachad agus còmhradh co-roinnte. Chan eil e a’ lorg, a’ làimhseachadh, a’ casg no a’ tomhas dementia no galar Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Geamannan air-loidhne an-asgaidh Dementia & Alzheimer",
+    "description": "Geamannan air-loidhne an-asgaidh do sheann daoine a tha a’ fuireach le dementia no Alzheimer’s: maidseadh dhealbhan, jigsaws furasta, òrdachadh, abairtean.",
+    "crumb": "Geamannan",
+    "h1": "Geamannan Soilleir do Dhaoine le Dementia",
+    "lede": "{count} Geamannan an-asgaidh a chluich còmhla air do bhrabhsair. Dealbhan mòra, faclan sìmplidh, agus gun dad ri fàiligeadh: gun timers, gun sgòran, gun chlàradh.",
+    "listName": "Geamannan airson daoine le dementia",
+    "byStageTitle": "A 'taghadh gèam le àrd-ùrlar",
+    "byStageLede": "Chan eil ann an ìrean ach stiùireadh garbh. Lean na tha a’ còrdadh ris an neach agus na tha a’ faireachdainn comhfhurtail an-diugh.",
+    "stageCol": "Ìre",
+    "gamesCol": "Geamannan a tha gu math tric freagarrach",
+    "moreHtml": "Barrachd bheachdan air falbh bhon sgrion: <a href=\"/activities/ideas/\">101 gnìomhachd do dhaoine air a bheil dementia</a>, <a href=\"/activities/alzheimers/\">gnìomhan agus geamannan airson Alzheimer</a>, <a href=\"/activities/memory-games/\">geamannan cuimhne fallain</a> agus <a href=\"/activities/puzzles/\">tòimhseachan</a>.",
+    "faq": [
+      {
+        "q": "Dè an geama air am bu chòir dhuinn tòiseachadh?",
+        "a": "Tha paidhrichean dhealbhan le ceithir leacan na chiad roghainn socair. Ma tha taghadh eadar dealbhan a’ faireachdainn cus, feuch Lorg an aon rud le dà dhealbh. Airson buidheann, feuch bingo dealbhan."
+      },
+      {
+        "q": "Am bi na geamannan ag obair air iPad no fòn?",
+        "a": "Tha. Bidh a h-uile geama ag obair sa bhrobhsair air fònaichean, clàran agus coimpiutairean, agus bidh na dealbhan a’ fàs gus an scrion a lìonadh. Is e clàr air stand gu tric an fheadhainn as comhfhurtail dha dithis."
+      },
+      {
+        "q": "A bheil na geamannan sin math dha cuideigin le Alzheimer?",
+        "a": "Tha. Chaidh an dèanamh airson daoine le dementia, a' gabhail a-steach Alzheimer's, an adhbhar as cumanta. Bidh dealbhan a’ fuireach a’ sealltainn, chan eil ann ach beagan roghainnean, agus chan eil ùine no sgòradh sam bith ann, agus mar sin bidh na geamannan a’ leantainn air a bhith ag aithneachadh rudan eòlach seach a bhith a’ cuimhneachadh feadhainn ùra."
+      },
+      {
+        "q": "A bheil na geamannan cuimhne sin airson seann daoine?",
+        "a": "Tha iad nan geamannan maidsidh is dhealbhan as urrainn do dh’ inbheach nas sine a bhith a’ còrdadh riutha, ach tha iad air an togail gun a bhith a’ dèanamh deuchainn air cuimhne: ann an dealbh paidhrichean fuirich aghaidh suas mura tagh thu a chaochladh. Tha an stiùireadh againn air geamannan cuimhne airson seann daoine le dementia a’ mìneachadh mar a chumas tu geama cuimhne sam bith socair."
+      },
+      {
+        "q": "A bheil geamannan ann airson buidhnean ann an dachaigh-cùraim?",
+        "a": "Tha. Tha cairtean clò-bhualaidh agus neach-fios air-sgrion aig bingo dhealbhan, agus Crìochnaich an abairt agus bidh cairtean còmhraidh ag obair gu math air an leughadh a-mach do bhuidheann."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad agus Android",
+    "requirements": "iOS 15 no nas fhaide air adhart; Android 7.0 no nas fhaide air adhart",
+    "summary": "Aplacaid an-asgaidh airson iPhone, iPad agus Android le dealbhan socair a’ maidseadh air ceithir no dusan leac mhòr, a’ maidseadh agus a’ coimhead le dealbhan teaghlaich a thaghas tu, agus ochd a’ toirt a-steach pasganan dhealbhan a bhios ag obair às aonais eadar-lìn. Gun chunntas, sanasan, timer no sgòr.",
+    "features": [
+      "Dealbh socair a’ maidseadh le 4, 6, 8 no 12 leacan mòra; bidh dealbhan rim faicinn mura roghnaich thu am falach",
+      "Thèid dealbhan teaghlaich a thaghas tu a chopaigeadh a-steach don app airson maidseadh agus airson coimhead còmhla",
+      "Coimhead còmhla: aon dealbh aig aon àm le molaidhean còmhraidh roghainneil",
+      "Ochd pasganan dhealbhan air an toirt a-steach don app; bidh iad ag obair far loidhne",
+      "Gun chunntas, sanasan, ceannach in-app, timer, sgòr no peanas"
+    ],
+    "faq": [
+      {
+        "q": "A bheil app gnìomhachd dementia ann?",
+        "a": "Tha. Creative Activities (air an liostadh mar \"{storeName}\") an-asgaidh air an App Store agus Google Play. Tha e a’ tabhann maidseadh dhealbhan socair le leacan mòra, geamannan le dealbhan teaghlaich a thaghas tu, agus pacaidean dhealbhan a bhios ag obair far-loidhne."
+      },
+      {
+        "q": "A bheil an app Creative Activities an-asgaidh?",
+        "a": "Tha. Tha e an-asgaidh a luchdachadh sìos, gun shanasan, cunntas no ceannach in-app."
+      },
+      {
+        "q": "A bheil an aplacaid ag obair às aonais eadar-lìn?",
+        "a": "Tha. Tha na dealbhan tòiseachaidh agus na h-ochd pacaidean dhealbhan uile air an toirt a-steach don app, agus bidh dealbhan teaghlaich ag obair far-loidhne aon uair ‘s gu bheil iad air an lethbhreacadh a-steach don app. Is dòcha gu feum ceangal a bhith a’ taghadh dealbh a tha air a stòradh ann an iCloud."
+      },
+      {
+        "q": "Am faod mi na dealbhan teaghlaich againn fhìn a chleachdadh?",
+        "a": "Tha. Tagh dealbhan le inneal-togail dhealbhan an inneal agad. Bidh an aplacaid a’ cumail lethbhric nas lugha air an inneal airson a ghnìomhachdan, cha bhith e gan luchdachadh suas agus cha bhith e ag atharrachadh na dreachan tùsail. Faodaidh tu na lethbhric a thoirt air falbh aig àm sam bith."
+      },
+      {
+        "q": "An e aplacaid trèanaidh eanchainn no deuchainn cuimhne a th’ ann?",
+        "a": "Chan eil. Tha Creative Activities airson tlachd agus ùine còmhla. Chan eil sgòran no deuchainnean ann, agus chan eil e a’ lorg, a’ làimhseachadh, a’ casg no a’ tomhas trom-inntinn no galar Alzheimer."
+      },
+      {
+        "q": "Dè na h-innealan air a bheil e ag obair?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "A bheil dreach app den gheama seo ann?",
+      "a": "Tha. Tha an aon mhaidseadh dhealbhan socair aig an app Creative Activities an-asgaidh airson iPhone, iPad agus Android, is urrainn dha dealbhan teaghlaich a thaghas tu a chleachdadh, agus bidh e ag obair far-loidhne. Gun chunntas, sanasan no sgòr."
+    },
+    "gameFaqNo": {
+      "q": "A bheil dreach app den gheama seo ann?",
+      "a": "Chan ann den gheama seo. Anns an app Creative Activities an-asgaidh airson iPhone, iPad agus Android tha maidseadh dhealbhan socair le leacan mòra agus dealbhan teaghlaich a thaghas tu, agus bidh e ag obair far-loidhne. Bidh an geama seo an-asgaidh an seo sa bhrobhsair agad."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: dealbhan mòra, càirdeil",
+    "noscript": "Feumaidh an geama seo JavaScript a chuir air sa bhrobhsair agad. Bidh na molaidhean gu h-ìosal ag obair às aonais.",
+    "about": "Mu dheidhinn {name}",
+    "aboutAria": "Mu dheidhinn a 'gheama seo",
+    "noTimer": "Gun timer no sgòr",
+    "printable": "Clò-bhuailte",
+    "howTo": "Ciamar a chluich {name}",
+    "tips": "Molaidhean airson cluich còmhla",
+    "newToPlayingHtml": "Ùr airson cluich le cuideigin air a bheil dementia? Leugh <a href=\"/caregiving/how-to-play-together/\">mar a chluicheas tu geamannan còmhla</a>, a' gabhail a-steach dè nì iad ma chailleas iad ùidh.",
+    "moreAria": "Tuilleadh ri rannsachadh",
+    "helpfulGuides": "Stiùiridhean cuideachail",
+    "appTitle": "Cluich e san app",
+    "appText": "Anns an app Creative Activities an-asgaidh tha maidseadh dhealbhan socair le leacan mòra agus na dealbhan teaghlaich agad fhèin, agus bidh e ag obair às aonais Wi-Fi. iPhone, iPad agus Android.",
+    "photoAppTitle": "Cùm do dhealbhan deiseil",
+    "photoAppText": "Anns an app Creative Activities an-asgaidh, bidh na dealbhan a thaghas tu a’ fuireach air an inneal agad airson an ath thuras, agus bidh geamannan ag obair às aonais Wi-Fi. iPhone, iPad agus Android.",
+    "goodToKnow": "Math fios a bhith agad",
+    "goodToKnowText": "Tha an geama seo airson tlachd agus ùine còmhla. Chan eil e a 'dèanamh deuchainn, a' tomhas no a 'làimhseachadh rud sam bith.",
+    "moreGames": "Geamannan nas miosa",
+    "crumb": "Geamannan"
+  }
+}

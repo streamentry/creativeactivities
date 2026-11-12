@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Əsas məzmuna keçin",
+    "brandName": "Creative Activities",
+    "brandTag": "Demans fəaliyyəti",
+    "homeLabel": "Qızıl anlar ev",
+    "mainNav": "Əsas",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Qızıl anlar: çay fincanı, günəbaxan və itin böyük, dost şəkilləri",
+    "languages": "Dil",
+    "englishOnly": "(İngilis dili)",
+    "machineTranslated": "Bu səhifə avtomatik olaraq tərcümə edilib və hələ də ana dilində danışan şəxs tərəfindən yoxlanılmayıb.",
+    "readOriginal": "Orijinalı ingilis dilində oxuyun",
+    "nav": {
+      "games": "Oyunlar",
+      "activities": "Fəaliyyətlər",
+      "caregiving": "Baxım",
+      "brainHealth": "Beyin sağlamlığı"
+    },
+    "faqTitle": "Suallar və cavablar",
+    "breadcrumb": "Çörək qırıntıları",
+    "home": "Ev",
+    "lastUpdated": "Son yeniləmə",
+    "topics": "Mövzular",
+    "textSize": {
+      "label": "Mətn ölçüsü",
+      "smaller": "Standart mətn",
+      "larger": "Daha böyük mətn",
+      "contrast": "Daha yüksək kontrast"
+    }
+  },
+  "footer": {
+    "play": "Oyna",
+    "picturePairs": "Şəkil cütləri",
+    "conversationCards": "Danışıq kartları",
+    "pictureBingo": "Şəkil bingo",
+    "allGames": "Bütün oyunlar",
+    "pictures": "Çap etmək üçün şəkillər",
+    "activityIdeas": "Fəaliyyət ideyaları",
+    "ideas101": "101 fəaliyyət ideyası",
+    "lateStage": "Son mərhələdəki fəaliyyətlər",
+    "printable": "Çap edilə bilən fəaliyyətlər",
+    "allActivities": "Bütün fəaliyyətlər",
+    "forCaregivers": "Baxıcılar üçün",
+    "playTogether": "Birlikdə necə oynamaq olar",
+    "selfCare": "Özünüz üçün qayğı",
+    "brainHealth": "Beyin sağlamlığı araşdırması",
+    "faq": "Suallar və cavablar",
+    "about": "Haqqında",
+    "approach": "Bizim yanaşmamız",
+    "howWeWrite": "Necə yazırıq",
+    "organizations": "Təşkilatlar üçün",
+    "app": "Qızıl anlar proqramı",
+    "appHelp": "Proqram yardımı",
+    "support": "Dəstək",
+    "legal": "Hüquqi",
+    "sitePrivacy": "Veb sayt məxfiliyi",
+    "appPrivacy": "Tətbiq məxfilik siyasəti",
+    "privacyChoices": "Məxfilik seçimləri",
+    "terms": "Şərtlər və proqram lisenziyası",
+    "safety": "Təhlükəsizlik və təyinatlı istifadə",
+    "accessibility": "Əlçatanlıq",
+    "healthNotice": "Sağlamlıq haqqında məlumat bildirişi",
+    "allLegal": "Bütün hüquqi məlumatlar",
+    "note": "Creative Activities əyləncə üçün sadə paylaşılan fəaliyyətlər təklif edir. Bu, tibbi məsləhət, test və ya müalicə deyil və heç kimə diaqnoz qoymur, ölçmür və qiymətləndirmir. Sağlamlığa dair suallar üçün həkimlə danışın. Təcili vəziyyətdə 911-ə zəng edin.",
+    "publisher": "Cloudjet Solutions Pte tərəfindən nəşr edilmişdir. Ltd."
+  },
+  "home": {
+    "title": "Demans və Alzheimer Oyunları və Fəaliyyətləri | Qızıl anlar",
+    "description": "Onlayn oynamaq üçün pulsuz, zərif şəkilli oyunlar və demans və ya Alzheimer xəstələri və onların baxıcıları üçün fəaliyyət ideyaları.",
+    "eyebrow": "Pulsuz · Reklam yoxdur · Qeydiyyat yoxdur · Taymer və ya xal yoxdur",
+    "h1": "Demanslı İnsanlar üçün Zərif Oyunlar və Fəaliyyətlər",
+    "lede": "Sadə şəkil oyunları, tanış fotoşəkillər və birlikdə həzz almaq üçün fəaliyyətlər - öz sürətinizlə.",
+    "playGame": "Oyun Oyna",
+    "findIdeas": "Fəaliyyət ideyaları tapın",
+    "facts": [
+      "Telefon, planşet və kompüterdə işləyir",
+      "Göstərilməyə davam edən böyük şəkillər",
+      "İstənilən vaxt dayandırın; uğursuz heç nə"
+    ],
+    "heroApp": "Həmçinin iPhone, iPad və Android üçün öz ailə fotoşəkillərinizlə pulsuz proqram",
+    "albumNote": "\"Çay fincanının iki şəkli, birlikdə.\"",
+    "gamesEyebrow": "Brauzerinizdə oynayın",
+    "gamesTitle": "Hazırda oynaya biləcəyiniz oyunlar",
+    "gamesLede": "Hər biri sakit, yetkin və tez başlayır. Birini seçin, yan-yana oturun və növbə ilə toxunun.",
+    "seeAllGames": "Hamısına baxın {count} oyunlar",
+    "howTitle": "Necə işləyir",
+    "steps": [
+      {
+        "title": "Tanış bir şey seçin",
+        "text": "Çay fincanları, bağlar, ev heyvanları və yelkənli qayıqların şəkilləri. Əvvəlcə öyrənmək üçün oxumaq və ya qaydalar yoxdur."
+      },
+      {
+        "title": "Yan-yana oturun",
+        "text": "Qoy vursunlar. Şəkillər haqqında danışın. Uyğunsuzluq sadəcə növbəti toxunuşu gözləyir."
+      },
+      {
+        "title": "Özünüzü yaxşı hiss edərkən dayanın",
+        "text": "Bir oyun tam fəaliyyətdir. \"Hazırda tamamlandı\" həmişə ekranda görünür."
+      }
+    ],
+    "stageEyebrow": "Ekrandan kənarda",
+    "stageTitle": "Hər mərhələ üçün fəaliyyət ideyaları",
+    "stageLede": "Musiqi, gündəlik tapşırıqlar, xatirələr və sakit duyğu anlar, indi rahat olan şeyə uyğunlaşdırılmışdır.",
+    "ideas101": "101 fəaliyyət ideyası",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Erkən mərhələ",
+        "text": "Kiçik düzəlişlərlə sevdiklərini etməyə davam edin: hobbilər, gəzintilər, söz oyunları və birlikdə planlaşdırma.",
+        "label": "İlkin mərhələdəki fikirlər"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Orta mərhələ",
+        "text": "Addımlara bölünmüş sadə, tanış tapşırıqlar: qatlama, çeşidləmə, musiqi, şəkil oyunları və qısa gəzintilər.",
+        "label": "Orta səviyyəli fikirlər"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Sonrakı mərhələ",
+        "text": "Toxunma, səs və görmə vasitəsilə rahatlıq və əlaqə: əllərə qulluq, sevimli mahnılar, fotoşəkillər və birlikdə olmaq.",
+        "label": "Sonrakı fikirlər"
+      }
+    ],
+    "specificHtml": "Xüsusi bir şey axtarırsınız? cəhd edin <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər və oyunlar</a>, <a href=\"/activities/memory-games/\">incə yaddaş oyunları</a>, <a href=\"/activities/trivia/\">asan trivia</a> və ya <a href=\"/activities/puzzles/\">bulmacalar</a>.",
+    "approachEyebrow": "Bizim yanaşmamız",
+    "approachTitle": "Yaddaş testi deyil, paylaşılan fəaliyyət",
+    "approachLede": "Bir çox \"zehin oyunları\" sürət, xallar və zolaqlar ətrafında qurulur. Bir imtahan kimi hiss edə bilən demans ilə yaşayan biri üçün. Biz bunun əksini qurduq.",
+    "approachLink": "Niyə biz onu bu şəkildə dizayn edirik",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Uğursuz heç nə yoxdur",
+        "text": "Saat, hesab, can və ya məğlubiyyət yoxdur. Fərqli bir şəkil səhv deyil, fasilədir."
+      },
+      {
+        "icon": "eye",
+        "title": "Şəkillər göstərilməkdə davam edir",
+        "text": "Geri çağırma üzərində tanınma. Uyğunlaşma üz üstü başlayır, ona görə də xatırlanacaq heç nə yoxdur."
+      },
+      {
+        "icon": "people",
+        "title": "Yetkin və ləyaqətli",
+        "text": "İsti, sadə sözlər və real dünya şəkilləri. Heç vaxt cizgi filmləri və ya körpə danışmayın."
+      },
+      {
+        "icon": "shield",
+        "title": "Dizaynla özəl",
+        "text": "Hesab və ya reklam yoxdur. Şəkilləriniz heç vaxt cihazınızı tərk etmir."
+      }
+    ],
+    "guidesEyebrow": "Baxıcılar üçün",
+    "guidesTitle": "Gündəlik qayğı üçün praktik təlimatlar",
+    "allCaregiving": "Bütün qayğı göstərən bələdçilər",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Birlikdə necə oyun oynamaq olar",
+        "text": "Quraşdırın, tempi və oyun əyləncəni dayandırdıqda nə etməli."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Bir fəaliyyətə yox deyəndə",
+        "text": "İmtina etmənin ümumi səbəbləri və sonra yenidən cəhd etməyin yumşaq yolları."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Planşetin qurulması",
+        "text": "Daha böyük mətn, daha az fasilə və tək sadə ev ekranı."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Pulsuz çap edilə bilən fəaliyyətlər",
+        "text": "Böyük çaplı söz axtarışları, rəngləmə səhifələri, bingo və danışıq kartları."
+      }
+    ],
+    "researchTitle": "Beyin sağlamlığı: tədqiqat həqiqətən nə deyir",
+    "researchText": "Demansın qarşısını almaq olarmı? Beyin oyunları kömək edirmi? Bəs oruc, pəhriz, yuxu və eşitmə? Sübutların zəif olduğu yerlər də daxil olmaqla, sadə, qaynaqlı cavablar.",
+    "researchLink": "Tədqiqat təlimatlarını oxuyun",
+    "appEyebrow": "Həmçinin proqram",
+    "appTitle": "iPhone, iPad və Android-də Qızıl Anlar",
+    "appText": "Pulsuz proqram oflayn işləyir və seçdiyiniz, cihazınızda nüsxə kimi saxlanılan ailə fotolarından istifadə edə bilər. Eyni sakit dizayn: dörd böyük plitələr, taymer yoxdur, hesab yoxdur.",
+    "aboutApp": "Proqram haqqında",
+    "faq": [
+      {
+        "q": "Demanslı insanlar üçün yaxşı oyunlar hansılardır?",
+        "a": "Yaxşı oyunlar sadə, tanış və təzyiqsizdir: uyğunlaşmaq üçün böyük şəkillər, çeşidləmə, asan yapışqanlar, tanınmış kəlamları bitirmək, rəngləmə, şəkil binqo və danışıq kartları. Ən yaxşı seçim bu gün insanın zövq aldığı seçimdir. Taymerlərdən, ballardan və sınaq kimi hiss edilən hər şeydən çəkinin."
+      },
+      {
+        "q": "Bu demans oyunları pulsuzdur?",
+        "a": "Bəli. Creative Activities-da çap edilə bilən hər bir oyun pulsuzdur, heç bir hesab olmadan, qeydiyyatdan keçmədən və ya endirmədən. Oyunlar telefonda, planşetdə və ya kompüterdə veb brauzerdə işləyir."
+      },
+      {
+        "q": "Beyin oyunları demansın qarşısını alırmı?",
+        "a": "Demansın qarşısını alan heç bir oyun göstərilməyib və Qızıl Anlar heç bir şeyi müalicə etmək və ya qarşısını almaq iddiasında deyil. Oyunlarımız əylənmək və birlikdə vaxt keçirmək üçündür. Beyin sağlamlığı bölməmiz araşdırmaların nələri etdiyini və göstərmədiyini izah edir."
+      },
+      {
+        "q": "Bu oyunlar Alzheimer xəstəsi üçün uyğundurmu?",
+        "a": "Bəli. Alzheimer xəstəliyi demansın ən çox yayılmış səbəbidir və oyunlar bunun üçün hazırlanır: görünən böyük şəkillər, bir neçə seçim və xatırlamaq və ya səhv etmək üçün heç bir şey yoxdur. Tanış kəlamları uyğunlaşdırmaq, çeşidləmək və tamamlamaq yeni öyrənməyə deyil, çoxdan əldə edilmiş biliklərə əsaslanır."
+      },
+      {
+        "q": "Sonrakı mərhələdə demans olan biri bu fəaliyyətlərdən istifadə edə bilərmi?",
+        "a": "Çox vaxt, bəli, onların yanında biri ilə. İki şəkillə eyni şeyi tap, dörd plitə ilə şəkil cütləri, rəngləmə səhifəsi və ya sakit nəfəs fasiləsi ilə başlayın. Qısa saxlayın, onların rəhbərliyinə əməl edin və kifayət qədər vaxt tapdıqda dayandırın."
+      },
+      {
+        "q": "Mənim məlumatım məxfidir?",
+        "a": "Saytın heç bir hesabı və reklamı yoxdur. Hansı səhifələrin ziyarət edildiyini anlamaq üçün Google Analytics-dən istifadə edirik. Foto cütləri üçün seçdiyiniz fotoşəkillər yalnız brauzerinizdə göstərilir və heç vaxt yüklənmir."
+      },
+      {
+        "q": "Qızıl anları kim edir?",
+        "a": "Creative Activities internetdə və pulsuz proqram olaraq ailələr və baxıcılar üçün sakit, böyüklər üçün şəkil fəaliyyətləri edən kiçik bir komandadır. Biz klinisyen deyilik və burada heç bir şey tibbi məsləhət deyil."
+      }
+    ]
+  },
+  "stage": {
+    "early": "erkən",
+    "middle": "orta",
+    "late": "sonra",
+    "hintOne": "Tez-tez uyğun gəlir {list} mərhələ",
+    "hintMany": "Tez-tez uyğun gəlir {list} mərhələləri",
+    "labelEarly": "Erkən mərhələ",
+    "labelMiddle": "Orta mərhələ",
+    "labelLate": "Sonrakı mərhələ"
+  },
+  "cards": {
+    "aboutGame": "Bu oyun haqqında",
+    "printable": "Çap edilə bilər",
+    "play": "Oyna {name} →",
+    "readGuide": "Bələdçi oxuyun"
+  },
+  "playCta": {
+    "title": "Zərif oyuna hazırsınız?",
+    "text": "Böyük şəkillər, heç bir taymer, heç bir hesab və qeydiyyatdan keçmək üçün heç bir şey yoxdur. Brauzerinizdə birlikdə oynayın.",
+    "play": "Oyun Oyna",
+    "all": "Bütün oyunlara baxın",
+    "aria": "Oyun oyna"
+  },
+  "appCta": {
+    "title": "Bu oyunları özünüzlə aparın",
+    "text": "iPhone, iPad və Android üçün pulsuz Creative Activities proqramı: böyük şəkil plitələri, öz ailə fotoşəkillərinizlə oyunlar və Wi‑Fi olmadan işləyən şəkil paketləri. Hesab, reklam, taymer və ya hesab yoxdur.",
+    "appStore": "Onu App Store-da əldə edin",
+    "googlePlay": "Google Play-də əldə edin",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Proqram haqqında",
+    "aria": "Proqramı əldə edin"
+  },
+  "sections": {
+    "activities": {
+      "label": "Fəaliyyətlər",
+      "title": "Demans olan insanlar üçün fəaliyyətlər",
+      "seo": "Demanslı İnsanlar üçün Fəaliyyətlər: Mərhələ ilə İdeyalar",
+      "description": "Hər mərhələdə demensiya ilə yaşayan insanlar üçün fəaliyyət ideyaları: musiqi, xatirələr, gündəlik tapşırıqlar, duyğusal anlar, sənətkarlıq, açıq havada və pulsuz.",
+      "lede": "Mənalı fəaliyyət rahatlıq, məqsəd və ya bir anlıq əlaqə gətirən hər şeydir. İnsanın həmişə həzz aldığı şeydən başlayın və onu bu günə uyğunlaşdırın."
+    },
+    "caregiving": {
+      "label": "Baxım",
+      "title": "Qulluq bələdçiləri",
+      "seo": "Demansa Baxım Bələdçiləri: Praktik Gündəlik Yardım",
+      "description": "Demensiyaya qulluq edənlər üçün praktiki, mehriban bələdçilər: birlikdə oyun oynamaq, ünsiyyət, imtinalar, gündüz narahatlığı, planşetlər, proqramların seçilməsi və.",
+      "lede": "Demansla yaşayan birinə qayğı göstərmək, o cümlədən özünüzə qulluq etmək üçün sadə, praktiki yardım."
+    },
+    "brain-health": {
+      "label": "Beyin sağlamlığı",
+      "title": "Beyin Sağlamlığı: Tədqiqat Nə deyir",
+      "seo": "Beyin Sağlamlığı və Demans Riski: Araşdırma Nə deyir",
+      "description": "Demansın qarşısını almaq olarmı? Demans risk faktorları, beyin oyunları, oruc, pəhriz, məşq, yuxu, eşitmə və erkən xəbərdarlıq əlamətləri üçün dürüst, qaynaqlı.",
+      "lede": "Dəlillərin zəif və ya qarışıq olduğu yerlər də daxil olmaqla, açıq şəkildə izah edilən demans riskinin azaldılması ilə bağlı hansı böyük tədqiqatlar göstərir. Ümumi məlumat, tibbi məsləhət deyil."
+    }
+  },
+  "guide": {
+    "updated": "Yenilənib",
+    "minuteRead": "{n} dəqiqə oxu",
+    "byTeam": "Creative Activities komandası tərəfindən",
+    "howWeWrite": "Necə yazırıq",
+    "shortAnswer": "Qısa cavab",
+    "onThisPage": "Bu səhifədə ({n} bölmələr)",
+    "commonQuestions": "Ümumi suallar",
+    "sources": "Mənbələr",
+    "sourcesNote": "Biz bu səhifənin istinad etdiyi təşkilatlara və araşdırmalara keçid veririk. Səhifə yeniləndikdə hər biri yoxlanılıb.",
+    "tryTogether": "Birlikdə cəhd edin",
+    "relatedGuides": "Əlaqədar təlimatlar",
+    "related": "Əlaqədar",
+    "startHere": "Buradan başlayın"
+  },
+  "healthNotice": {
+    "aria": "Sağlamlıq haqqında məlumat bildirişi",
+    "title": "Ümumi məlumat, tibbi məsləhət deyil",
+    "textHtml": "Bu səhifə ailələr üçün dərc edilmiş araşdırmaları ümumiləşdirir. Bir insan üçün nəyin doğru olduğunu sizə deyə bilməz. Pəhriz, məşq, yuxu, dərman və ya əlavələri dəyişməzdən əvvəl həkiminizlə danışın. Qəfil qarışıqlıq və ya digər qəfil dəyişikliklər üçün dərhal tibbi yardım alın. <a href=\"/medical-disclaimer/\">Sağlamlıq haqqında məlumat bildirişimizi oxuyun</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Yaddaş Testi Deyil, Paylaşılan Fəaliyyət",
+      "seoTitle": "Qızıl anlar haqqında: yanaşmamız",
+      "description": "Niyə Qızıl Anlar oyunlarında taymerlər, xallar və ya zolaqlar yoxdur, şəkillər niyə görünmür və demensiya ilə bağlı nə iddia edəcəyik və nəyi iddia etməyəcəyik.",
+      "crumb": "Bizim yanaşmamız",
+      "lede": "Qızıl Anlar, baxıcının və demensiya ilə yaşayan birinin yan-yana həzz ala biləcəyi sakit, yetkin şəkilli fəaliyyətlər edir.",
+      "bodyHtml": "<h2>Nəyə inanırıq</h2><p>Fəaliyyətin mahiyyəti anın özüdür: söhbət, təbəssüm, iki şəkli bir araya gətirməkdən məmnunluq və ya sadəcə yaxın oturmaq. Kimisə ölçmək, daha da irəli çəkmək və ya nəyisə sübut etmək deyil.</p><p>Bir çox beyin təlimi proqramları sürət, xallar, zolaqlar və səviyyələr ətrafında hazırlanmışdır. Özünü imtahan kimi hiss edən demensiya ilə yaşayan bir şəxs keçə bilməz. Biz bunun əksini hazırladıq və özümüzü bu qaydalara sadiqik:</p><ul><li><strong>Uğursuz heç nə yoxdur.</strong> Heç bir ekranda saat, hesab, hərəkət sayğacı, canlılar, zolaqlar, konfeti və ya geri sayma yoxdur.</li><li><strong>Geri çağırma üzərində tanınma.</strong> Şəkillər standart olaraq göstərilməyə davam edir. Təkliflər söhbətə dəvət edir və heç vaxt ad və ya xatirələri sorğulamır.</li><li><strong>Böyük, düz və sabit.</strong> Böyük mətn və şəkillər, yüksək kontrast və eyni yerdə qalan nəzarətlər.</li><li><strong>Yetkinlərin ləyaqəti.</strong> Real dünya şəkilləri və sadə, isti sözlər. Cizgi filmləri, mahnı oxuyan təriflər və ya emoji mükafatları yoxdur.</li><li><strong>Asan çıxış yolu.</strong> “Hazırda tamamlandı” həmişə görünür. Yarım yolda dayanmaq yaxşı nəticədir.</li><li><strong>Varsayılan olaraq şəxsi.</strong> Hesab və ya reklam yoxdur. Seçdiyiniz şəkillər cihazınızda qalır.</li></ul><h2>Nə iddia etmirik</h2><p>Oyunlarımız həzz və əlaqə üçündür. Onlar demans və ya Alzheimer xəstəliyini diaqnoz etmir, sınaqdan keçirmir, ölçmür, müalicə etmir, yavaşlatmır və ya qarşısını almır və bu səbəbdən heç kim onları seçməməlidir. Araşdırmamız haqqında yazdığımız zaman <a href=\"/brain-health/\">beyin sağlamlığı səhifələri</a>, biz sübutların zəif olduğu yerdə açıq şəkildə deyirik və bunu heç vaxt öz oyunlarımıza bağlamırıq.</p><h2>Biz kimik</h2><p>Creative Activities kiçik müstəqil komandadır. Biz klinisyen deyilik. Bələdçilərimiz Milli Qocalma İnstitutu və Alzheimer Dərnəyi kimi təşkilatlar tərəfindən dərc edilmiş təlimatlardan yazılmışdır və hər bir bələdçi öz mənbələrini sadalayır. Oxuyun <a href=\"/editorial-policy/\">necə yazırıq və səhifələrimizi yoxlayırıq</a>.</p><h2>Bizə nə kömək edəcəyini söyləyin</h2><p>Xüsusilə demensiya ilə yaşayan insanlardan, ailə baxıcılarından və fəaliyyət işçilərindən sizin üçün nəyin işlədiyini və nəyin yaramadığını eşitmək istərdik. E-poçt <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Səhifələrimizi Necə Yazırıq və Yoxlayırıq",
+      "seoTitle": "Redaksiya Siyasəti",
+      "description": "Creative Activities öz demans fəaliyyətini və beyin sağlamlığı səhifələrini necə araşdırır, yazır, qaynaqlayır və yeniləyir və nələri heç vaxt dərc etməyəcəyik.",
+      "crumb": "Redaksiya siyasəti",
+      "bodyHtml": "<h2>Bizim mənbələrimiz</h2><p>Biz bələdçilərimizi Milli Qocalma İnstitutu, CDC, Alzheimer Assosiasiyası, Amerika Alzheimer Fondu, Ailə Baxıcıları Alyansı və NHS kimi təşkilatların ictimai rəhbərliyinə və Cochrane rəyləri və böyük klinik sınaqlar kimi rəydən keçmiş araşdırmalara əsaslanırıq. Hər bir bələdçi etibar etdiyi mənbələri sadalayır. Biz hər bir mənbəyə istinad etməzdən əvvəl onu açırıq və yalnız əslində deyilənləri bildiririk.</p><h2>Necə yazırıq</h2><ul><li>Əvvəlcə praktiki: bu gün nə etməli, sadə dildə.</li><li>Dəlillər haqqında dürüst: həqiqət olduqda \"əlaqəli\", \"ola bilər\" və \"dəlil qarışıqdır\" deyirik.</li><li>Hörmətli: biz böyüklər kimi demensiya ilə yaşayan insanlar haqqında yazırıq və heç vaxt sorğu-sual və ya utanc verici dildən istifadə etmirik.</li><li>Heç bir icad edilmiş məzmun yoxdur: uydurma statistika, sitatlar, ekspertlər, araşdırmalar, rəylər və ya rəylər yoxdur.</li></ul><h2>Səhifələrimizi kim nəzərdən keçirir</h2><p>Səhifələr tədqiqat və layihə hazırlamaq üçün AI yazı alətlərinin köməyi ilə Qızıl Anlar komandası tərəfindən yazılır və yoxlanılır. Komanda tərəfindən hər səhifə öz mənbələri ilə yoxlanılır. Səhifələrimizdə var <strong>yox</strong> həkim və ya digər klinisist tərəfindən yoxlanılıb və biz əksini iddia etmirik. Bunlar tibbi məsləhət deyil, ümumi məlumatdır.</p><h2>Heç vaxt dərc etməyəcəyimiz şeylər</h2><ul><li>İddia edir ki, oyun, qida, əlavə, sürətli və ya rutin demansın qarşısını alır, müalicə edir, yavaşlatır və ya sağaldır.</li><li>Kiminsə demans olduğunu və ya olmadığını göstərən testlər, testlər və ya ballar.</li><li>Hər hansı bir dərmanı başlamaq, dayandırmaq və ya dəyişdirmək üçün məsləhət.</li><li>Rəhbər kimi gizlənən reklam və ya sponsorlu məzmun.</li></ul><h2>Yeniləmələr və düzəlişlər</h2><p>Hər səhifə sonuncu dəfə yeniləndiyi tarixi göstərir. Səhv və ya köhnəlmiş mənbə taparsanız, e-poçt göndərin <a href=\"mailto:{email}\">{email}</a> və biz onu dərhal yoxlayacağıq.</p>"
+    },
+    "faq": {
+      "title": "Suallar və Cavablar",
+      "seoTitle": "Demans Oyunları və Fəaliyyətləri: Suallar və Cavablar",
+      "description": "Demans oyunları və fəaliyyətləri ilə bağlı ümumi suallara cavablar: hansı oyunları sınamaq, nə qədər oynamaq, sonrakı mərhələ ideyaları, beyin sağlamlığı və məxfilik.",
+      "crumb": "Suallar və cavablar",
+      "lede": "Baxıcıların ən çox verdiyi suallara qısa, sadə cavablar.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Oyunlar haqqında",
+          "items": [
+            {
+              "q": "Demans olan biri üçün ən yaxşı oyunlar hansılardır?",
+              "a": "Ən yaxşı oyunlar tanış, sadə və təzyiqdən azaddır və doğrusu bu gün insanın zövq aldığı şeydir. Görünən şəkillərlə şəkil uyğunluğu, çeşidləmə, asan yapışqanlar, tanış kəlamları tamamlamaq, rəngləmə və şəkil binqosu bütün insanlar üçün yaxşı işləyir. Taymerlərdən, ballardan və sınaq kimi hiss edilən hər şeydən çəkinin."
+            },
+            {
+              "q": "Oyunlar həqiqətən pulsuzdur?",
+              "a": "Bəli. Bütün oyunlar və çap materialları pulsuzdur, heç bir hesab, qeydiyyat, yükləmə və ya reklam olmadan."
+            },
+            {
+              "q": "Niyə xallar, səviyyələr və ya taymerlər yoxdur?",
+              "a": "Sürət və xallar xoş bir işi imtahana çevirir, bu da utanc və ya məyusluq gətirə bilər. Biz birlikdə zövq və vaxta diqqət yetiririk, buna görə uğursuz olacaq heç bir şey yoxdur və siz istənilən anda dayana bilərsiniz."
+            },
+            {
+              "q": "Hansı cihazlar daha yaxşı işləyir?",
+              "a": "Müasir veb brauzeri olan istənilən telefon, planşet və ya kompüter. Stolun üstündəki planşet çox vaxt iki nəfərin yan-yana oynaması üçün ən rahat üsuldur. Televiziyaya qoşulmuş noutbuk qruplar üçün yaxşı işləyir."
+            },
+            {
+              "q": "Öz ailə şəkillərimizlə oynaya bilərikmi?",
+              "a": "Bəli. Foto cütləri seçdiyiniz 2-6 fotoşəkili uyğun oyuna çevirir. Şəkillər brauzerinizdə qalır və yüklənmir və saxlanmır."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Fəaliyyətlər və qayğı",
+          "items": [
+            {
+              "q": "Bir fəaliyyət nə qədər davam etməlidir?",
+              "a": "Çox vaxt 10-20 dəqiqə kifayətdir, bəzən isə 2 dəqiqə uğurlu olur. Yorğunluq və ya məyusluq əlamətlərinə baxın və hələ də yaxşı hiss edərkən dayanın. Düzgün məbləğ yoxdur."
+            },
+            {
+              "q": "Əgər onlar hansısa fəaliyyətlə məşğul olmaq istəmirlərsə?",
+              "a": "Xeyrlərə hörmət edin və daha sonra və ya başqa şəkildə yenidən cəhd edin. İmtina yorğunluq, ağrı, əminlik hissi və ya sadəcə maraqlanmamaqdan yarana bilər. Xeyr deyəndə nə etməli olduğumuz barədə bələdçimizə baxın."
+            },
+            {
+              "q": "Hansı fəaliyyətlər sonrakı mərhələdə demensiyaya uyğun gəlir?",
+              "a": "Rahatlıq və hisslər: sevimli musiqi dinləmək, losyonla əl masajı, birlikdə fotoşəkillərə baxmaq, yumşaq yorğan tutmaq, çöldə oturmaq və ya yanında biri ilə çox sadə şəkil oyunu. Sonrakı bələdçimizin daha çox ideyaları var."
+            },
+            {
+              "q": "Qocalar evində qruplar üçün fəaliyyətlər varmı?",
+              "a": "Bəli. Şəkil binqo çap edilə bilən kartlara və ekranda zəng edənə malikdir və “Deyişi bitir” və “Söhbət” kartları yüksək səslə oxunur. Bizim qayğı ev qrupları bələdçisi qrup ölçüsünü, oturma yerini və qarışıq qabiliyyətlər üçün uyğunlaşmanı əhatə edir."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Beyin sağlamlığı",
+          "items": [
+            {
+              "q": "Oyunlar demansın qarşısını ala və ya yavaşlata bilərmi?",
+              "a": "Demansın qarşısını alan heç bir oyun nümayiş etdirilməyib və bizim oyunlarımız belə bir iddia irəli sürmür. Sosial mühitdə koqnitiv stimullaşdırma, yüngül və orta dərəcəli demanslı insanlar üçün araşdırmada kiçik faydalar göstərdi, lakin bu, xəstəliyin qarşısını alan oyundan fərqlidir. Biz zövq və əlaqə üçün oyunlar təklif edirik."
+            },
+            {
+              "q": "Demansın qarşısını almaq olarmı?",
+              "a": "Əminliklə yox. Tədqiqat 14 sağlamlıq və həyat tərzi faktorunu eşitmə itkisi, yüksək qan təzyiqi, fiziki hərəkətsizlik və sosial izolyasiya kimi demans riski ilə əlaqələndirir. Onlara müraciət etmək bəzi insanlar üçün riski azalda bilər, lakin hər şeyi düzgün edən bir çox insan hələ də demans inkişaf etdirir. Bu heç vaxt kiminsə günahı deyil."
+            },
+            {
+              "q": "Fasiləli oruc beyin sağlamlığı üçün faydalıdırmı?",
+              "a": "İnsan sübutları məhdud və erkəndir və tədqiqatların çoxu heyvanlarda aparılır. Oruc tutmaq yaşlı insanlar üçün riskli ola bilər, xüsusən də diabet dərmanları və ya arzuolunmaz arıqlama ilə, və demensiya ilə yaşayan insanlar üçün tövsiyə edilmir. Yemək tərzinizi dəyişməzdən əvvəl həkiminizlə danışın."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Məxfilik və təhlükəsizlik",
+          "items": [
+            {
+              "q": "Hər hansı məlumat toplayırsan?",
+              "a": "Hesab və ya reklam yoxdur. Biz ziyarətləri saymaq və hansı səhifələrin kömək etdiyini görmək üçün Google Analytics-dən istifadə edirik və brauzeriniz yumşaq səsləri yandırıb-söndürmədiyinizi xatırlayır. Foto cütləri üçün seçdiyiniz fotoşəkillər heç vaxt yüklənmir. Təfərrüatlar üçün məxfilik bildirişinə baxın."
+            },
+            {
+              "q": "Bu tibbi məsləhətdir?",
+              "a": "Xeyr. Qızıl anlar istirahət və ümumi məlumat üçündür. Sağlamlıqla bağlı suallar üçün həkimlə danışın və fövqəladə hallarda 911-ə zəng edin."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Daha ətraflı: <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oynamaq olar</a>, <a href=\"/caregiving/when-they-say-no/\">yox deyəndə</a>, <a href=\"/activities/late-stage/\">sonrakı mərhələdəki fəaliyyətlər</a> və <a href=\"/brain-health/can-dementia-be-prevented/\">demansın qarşısını almaq olar?</a>"
+    },
+    "handout": {
+      "title": "Demansla Yaşayan İnsanlar üçün Pulsuz, Zərif Oyunlar",
+      "seoTitle": "Çap edilə bilən Təqdimat: Pulsuz Onlayn Demans Oyunları",
+      "description": "Demansla yaşayan insanlar üçün pulsuz, zərif şəkilli oyunlar, dəstək qrupları və qayğı paketləri haqqında ailələr və baxıcılar üçün bir səhifəlik çap edilə bilən.",
+      "crumb": "Çap edilə bilən paylama",
+      "lede": "Dəstək qrupu, qulluq paketi və ya soyuducu qapısı üçün bu səhifəni çap edin. Brauzerinizin Çap əmrindən istifadə edin; menyular və düymələr çapdan kənarda qalır.",
+      "introHtml": "<p>Böyük şəkillər, düz sözlər və uğursuz heç nə. Telefonda, planşetdə və ya kompüterdə pulsuz, qeydiyyatsız, reklamsız, taymersiz və xalsız. Yan-yana oturun və növbə edin.</p>",
+      "gamesTitle": "Birlikdə sınamaq üçün oyunlar",
+      "restHtml": "<h2>Bir neçə məsləhət</h2><ul><li>İnsanın ən yaxşı olduğu günün vaxtını seçin.</li><li>Ən asan parametrdən başlayın. Dörd kafel kifayət qədərdir.</li><li>Şəkillər haqqında danışın. Söhbət çox vaxt ən yaxşı hissədir.</li><li>Hələ də xoş hiss edərkən dayanın. Erkən bitirmək yaxşı nəticədir.</li></ul><h2>Həmçinin saytda</h2><ul><li>Pulsuz çap edilə bilən materiallar: böyük çaplı söz axtarışı, rəngləmə səhifələri, danışıq kartları və şəkil binqosu.</li><li>Hər mərhələ üçün fəaliyyət ideyaları və birlikdə oynamağa və özünüzə qulluq etməyə dair təlimatlar.</li></ul><p class=\"muted\">Birlikdə əylənmək və vaxt keçirmək üçün. Tibbi məsləhət, test və ya müalicə deyil. Creative Activities Cloudjet Solutions Pte tərəfindən nəşr olunur. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Baxım Evləri, Kitabxanalar və Dəstək Qrupları üçün",
+      "seoTitle": "Baxım Evləri və Qruplar üçün Pulsuz Demans Fəaliyyətləri",
+      "description": "Qocalıq evləri, böyüklər üçün gün proqramları, kitabxanalar, qocalma agentlikləri və dəstək qrupları pulsuz demans oyunlarımızdan, üstəlik, bizi resurs siyahısına.",
+      "crumb": "Təşkilatlar üçün",
+      "lede": "Bu saytdakı hər şey sakinlər, üzvlər və müştərilərlə heç bir hesab, lisenziya və ya ödəniş olmadan istifadə etmək üçün pulsuzdur. Bu səhifə burada nə olduğunu və necə paylaşılacağını izah edir.",
+      "shortText": "{name}: demensiya ilə yaşayan insanlar və onların baxıcıları üçün pulsuz, zərif şəkilli oyunlar və fəaliyyət təlimatları. Qeydiyyat yoxdur, taymerlər, xallar yoxdur.",
+      "longText": "{name} ({domain}) təklif edir {count} demensiyadan əziyyət çəkən insanlar üçün hazırlanmış pulsuz brauzer oyunları, o cümlədən nümayiş etdirilən şəkillərlə uyğun cütlər, asan yapışqan, çeşidləmə, tanış kəlamlar və çap edilə bilən kartlarla şəkil binqosu. Hesab, reklam, taymer və ya hesab yoxdur. Saytda həmçinin Milli Yaşlanma İnstitutu və Alzheimer Dərnəyinə istinad edən demansın hər bir mərhələsi üçün sadə dildə fəaliyyət təlimatları var.",
+      "useTitle": "Hansı təşkilatlar istifadə edə bilər",
+      "gamesItemHtml": "<strong>{count} brauzer oyunları</strong> noutbuk, planşet və ya kompüterə qoşulmuş televizorda işləyən. Quraşdırma, hesab və ya yükləmə yoxdur. Bax <a href=\"/games/\">bütün oyunlar</a>.",
+      "printablesLabel": "{count} çap edilə bilənlər:",
+      "printablesAfter": "Hər səhifədə çap düyməsini istifadə edin.",
+      "moreItemsHtml": "<li><strong>Qrup formatları:</strong> <a href=\"/games/picture-bingo/\">Şəkil bingo</a> çap edilə bilən kartlara və ekranda zəng edənə malikdir və <a href=\"/activities/trivia/\">asan trivia</a> cavab seçimləri və danışıq nöqtələri ilə 50 sual var.</li><li><strong>Fəaliyyət təlimatları</strong> işçilər və ailələr üçün, mərhələ və növə görə, mənbələrlə sadə dildə yazılmışdır. ilə başlayın <a href=\"/activities/ideas/\">101 fəaliyyət ideyası</a> və ya <a href=\"/activities/care-home-groups/\">qayğı evləri üçün qrup fəaliyyətləri</a>.</li>",
+      "restHtml": "<h2>Qruplar bundan necə istifadə edirlər</h2><ul><li><strong>Baxım evləri və yaddaşa qulluq:</strong> bir nəfərin qrupa toxunması ilə ümumi otaq TV-də binqo şəkli və ya sözləri bitirin.</li><li><strong>Yetkinlər üçün gün proqramları:</strong> qısa təkbətək seanslar üçün dörd plitə təyin edilmiş Şəkil cütləri olan planşet stansiyası.</li><li><strong>Xalq kitabxanaları:</strong> yaddaş dəstlərində çap olunmuş söz axtarışları və danışıq kartları və kitabxana planşetlərində əlfəcin qoyulmuş sayt.</li><li><strong>Baxıcı dəstək qrupları və yaddaş kafeləri:</strong> a <a href=\"/handout/\">çap edilə bilən bir səhifəlik paylama</a> ailələrin evə aparması üçün.</li><li><strong>Xəstəxanalar və boşaltma planlayıcıları:</strong> evdə və ya çarpayının yanında sakit bir şey etmək üçün baxıcı paketlərindəki paylama.</li></ul><h2>Biz nə etmirik</h2><p>Oyunlar əylənmək və birlikdə vaxt keçirmək üçündür. Onlar demensiya diaqnozu qoymur, sınaqdan keçirmir, qiymətləndirmir, müalicə etmir və ya yavaşlatmır və biz təşkilatlardan onları bu şəkildə təsvir etməmələrini xahiş edirik. Heç bir reklam yoxdur və oyunlar adlar, sağlamlıq məlumatları və ya fotoşəkillərin yüklənməsini tələb etmir. Veb sayt ziyarətləri saymaq üçün Google Analytics istifadə edir; bizim <a href=\"/privacy/\">məxfilik bildirişi</a> nə topladığını izah edir. Şəkillər istifadə olunur <a href=\"/games/photo-pairs/\">Foto cütləri</a> brauzerdə qalın.</p><h2>Bizi resurs siyahınıza əlavə edin</h2><p>Baxıcılar üçün resursların siyahısını saxlayırsınızsa, ona keçid edə bilərsiniz <a href=\"/\">{domain}</a>. İstənilən təsviri kopyalaya bilərsiniz.</p>",
+      "shortTitle": "Qısa təsvir",
+      "longTitle": "Daha uzun təsvir",
+      "linksHtml": "<p>Birbaşa keçid üçün faydalı səhifələr: <a href=\"/games/\">pulsuz oyunlar</a>, <a href=\"/activities/printable/\">pulsuz çap edilə bilənlər</a>, <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər</a> və <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oynamaq olar</a>.</p><h2>Suallar və ya düzəlişlər</h2><p>Saytda bir şey səhvdirsə və ya aydın deyilsə və ya sakinin ehtiyacları burada olanlarla təmin edilmirsə, zəhmət olmasa, bizə bu ünvanda bildirin. <a href=\"mailto:{email}\">{email}</a>. Sakinlər və ya müştərilər haqqında şəxsi və ya sağlamlıq məlumatlarını göndərməyin.</p>"
+    },
+    "app": {
+      "title": "Qızıl Anlar Tətbiqi",
+      "seoTitle": "iPhone və Android üçün Qızıl Anlar Proqramı",
+      "description": "Pulsuz Creative Activities proqramı: dörd böyük plitə ilə uyğun gələn incə fotoşəkil, cihazınızda saxlanılan ailə fotoşəkilləri, oflayn şəkil paketləri və heç bir hesab.",
+      "crumb": "Proqram",
+      "lede": "Oflayn işləyən və seçdiyiniz ailə fotolarından istifadə edə bilən proqramda vebsayt haqqında bəyəndiyiniz hər şey.",
+      "worksOn": "üzərində işləyir {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Kiçik başlayın</h2><p>Dörd böyük plitələr və tanış şəkillərlə başlayın. Şəkilləri görünən saxlayın və ya rahat hiss etdiyiniz zaman onları gizləyin. Zərif rejimdə taymer, hesab və ya penalti yoxdur. 4, 6, 8 və ya 12 plitə seçin.</p><h2>Şəxsi olun</h2><p>Cihazınızın foto seçicisi ilə ailə şəkillərini seçin. Tətbiq fəaliyyəti üçün daha kiçik nüsxələri saxlayır. O, kitabxananızı skan etmir və ya orijinal şəkillərinizi dəyişdirmir və bir kolleksiyada 24-ə qədər fotoşəkil saxlayır.</p><h2>Sadəcə birlikdə baxın</h2><p>Hər dəfə bir şəkilə baxın. Könüllü təkliflər heç kimdən adları yadda saxlamağı və ya düzgün cavab verməyi tələb etmədən söhbətə dəvət edir. Sadəcə baxmaq kifayətdir.</p><h2>Vacib olduğu yerdə oflayn</h2><p>Başlanğıc şəkilləri və bütün səkkiz şəkil paketi proqrama daxildir. Import edilmiş foto nüsxələri oflayn işləyir. Yalnız iCloud-da saxlanılan orijinalları seçmək üçün internet bağlantısı tələb oluna bilər.</p><h2>Hesab yoxdur, foto sinxronizasiya serveri yoxdur</h2><p>Ailə fotolarının nüsxələri cihazdakı proqramda qalır. Orijinalları silmədən surətləri silə bilərsiniz. Cihazın ehtiyat nüsxələrinə tətbiq datası daxil ola bilər. oxuyun <a href=\"/app-privacy/\">tətbiq məxfilik siyasəti</a>, və <a href=\"/help/\">proqram yardımı</a> hər addımını keçir.</p>",
+      "disclaimer": "Creative Activities istirahət və ortaq söhbət üçündür. Demans və ya Alzheimer xəstəliyini diaqnoz etmir, müalicə etmir, qarşısını almır və ya ölçmür.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Pulsuz Onlayn Demans və Alzheimer Oyunları",
+    "description": "Demans və ya Alzheimer ilə yaşayan yaşlılar üçün pulsuz onlayn oyunlar: şəkillərin uyğunlaşdırılması, asan yapışqanlar, çeşidləmə, kəlamlar, rəngləmə, bingo.",
+    "crumb": "Oyunlar",
+    "h1": "Demanslı İnsanlar üçün Zərif Oyunlar",
+    "lede": "{count} brauzerinizdə birlikdə oynamaq üçün pulsuz oyunlar. Böyük şəkillər, sadə sözlər və uğursuz heç nə yoxdur: taymerlər, xallar, qeydiyyat yoxdur.",
+    "listName": "Demanslı insanlar üçün zərif oyunlar",
+    "byStageTitle": "Mərhələ ilə oyun seçimi",
+    "byStageLede": "Mərhələlər yalnız kobud bir bələdçidir. Bu gün insanın nədən həzz aldığını və nəyin rahat olduğunu izləyin.",
+    "stageCol": "Mərhələ",
+    "gamesCol": "Tez-tez uyğun gələn oyunlar",
+    "moreHtml": "Ekrandan uzaq olan daha çox fikir: <a href=\"/activities/ideas/\">Demanslı insanlar üçün 101 fəaliyyət</a>, <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər və oyunlar</a>, <a href=\"/activities/memory-games/\">incə yaddaş oyunları</a> və <a href=\"/activities/puzzles/\">bulmacalar</a>.",
+    "faq": [
+      {
+        "q": "Hansı oyundan başlamalıyıq?",
+        "a": "Dörd plitə ilə şəkil cütləri sakit ilk seçimdir. Şəkillər arasında seçim etmək çox hiss olunursa, iki şəkillə eyni şeyi tapmağa cəhd edin. Qrup üçün Picture bingo cəhd edin."
+      },
+      {
+        "q": "Oyunlar iPad və ya telefonda işləyir?",
+        "a": "Bəli. Hər oyun telefonlarda, planşetlərdə və kompüterlərdə brauzerdə işləyir və şəkillər ekranı doldurmaq üçün böyüyür. Stenddəki planşet çox vaxt iki nəfər üçün ən rahatdır."
+      },
+      {
+        "q": "Bu oyunlar Alzheimer xəstəsi üçün yaxşıdır?",
+        "a": "Bəli. Onlar ən çox görülən səbəb olan Alzheimer də daxil olmaqla demansla yaşayan insanlar üçün hazırlanmışdır. Şəkillər görünməyə davam edir, yalnız bir neçə seçim var və heç nə vaxt təyin edilmir və ya hesablanmır, buna görə oyunlar yenilərini xatırlamaqdansa, tanış şeyləri tanımağa əsaslanır."
+      },
+      {
+        "q": "Bu yaddaş oyunları yaşlılar üçündür?",
+        "a": "Onlar hər hansı bir yaşlı yetkinin həzz ala biləcəyi uyğun və şəkil oyunlarıdır, lakin onlar yaddaşı yoxlamaq üçün qurulmayıb: Şəkil cütlərində başqa cür seçim etməyincə, şəkillər üzü yuxarı qalır. Demansdan əziyyət çəkən yaşlılar üçün yaddaş oyunlarına dair bələdçimiz hər hansı bir yaddaş oyununu necə yumşaq saxlamağı izah edir."
+      },
+      {
+        "q": "Qocalıq evində qruplar üçün oyunlar varmı?",
+        "a": "Bəli. Şəkil bingo çap edilə bilən kartlara və ekranda zəng edənə malikdir və “Deyişi bitir” və “Söhbət” kartları qrupa ucadan oxunmaqda yaxşı işləyir."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad və Android",
+    "requirements": "iOS 15 və ya daha sonra; Android 7.0 və ya daha sonra",
+    "summary": "Dörd-on iki böyük plitə üzərində zərif şəkil uyğun gələn, seçdiyiniz ailə fotoşəkilləri ilə uyğun gələn və onlara baxan, və internet olmadan işləyən səkkiz daxil edilmiş şəkil paketi ilə iPhone, iPad və Android üçün pulsuz proqram. Hesab, reklam, taymer və ya hesab yoxdur.",
+    "features": [
+      "4, 6, 8 və ya 12 böyük plitə ilə uyğun gələn yumşaq şəkil; siz onları gizlətməyi seçməyincə şəkillər görünən qalır",
+      "Seçdiyiniz ailə şəkilləri uyğunlaşmaq və birlikdə baxmaq üçün proqrama kopyalanır",
+      "Birlikdə baxın: isteğe bağlı söhbət təklifləri ilə hər dəfə bir şəkil",
+      "Tətbiqə daxil olan səkkiz şəkil paketi; oflayn işləyirlər",
+      "Hesab, reklam, tətbiqdaxili satınalmalar, taymer, hesab və ya cərimə yoxdur"
+    ],
+    "faq": [
+      {
+        "q": "Demans fəaliyyət proqramı varmı?",
+        "a": "Bəli. Qızıl anlar (\"olaraq siyahıya alınmışdır\"{storeName}\") App Store və Google Play-də pulsuzdur. O, böyük plitələr, seçdiyiniz ailə şəkilləri ilə oyunlar və oflayn rejimdə işləyən şəkil paketləri ilə zərif şəkil uyğunluğu təklif edir."
+      },
+      {
+        "q": "Creative Activities proqramı pulsuzdur?",
+        "a": "Bəli. Heç bir reklam, hesab və ya tətbiqdaxili satınalma olmadan yükləmək pulsuzdur."
+      },
+      {
+        "q": "Proqram internetsiz işləyir?",
+        "a": "Bəli. Başlanğıc şəkilləri və bütün səkkiz şəkil paketi proqrama daxildir və ailə şəkilləri proqrama kopyalandıqdan sonra oflayn işləyir. Yalnız iCloud-da saxlanılan fotoşəkili seçmək üçün əlaqə tələb oluna bilər."
+      },
+      {
+        "q": "Mən öz ailə şəkillərimizdən istifadə edə bilərəmmi?",
+        "a": "Bəli. Cihazınızın foto seçicisi ilə fotoşəkilləri seçin. Tətbiq fəaliyyəti üçün cihazda daha kiçik nüsxələri saxlayır, onları yükləmir və əslini heç vaxt dəyişdirmir. İstənilən vaxt nüsxələri silə bilərsiniz."
+      },
+      {
+        "q": "Bu, beyin təlimi və ya yaddaş testi proqramıdır?",
+        "a": "Xeyr. Qızıl Anlar birlikdə əylənmək və vaxt keçirmək üçündür. Onun balları və ya testləri yoxdur və demans və ya Alzheimer xəstəliyini diaqnoz etmir, müalicə etmir, qarşısını almır və ya ölçmür."
+      },
+      {
+        "q": "Hansı cihazlarda işləyir?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Bu oyunun proqram versiyası varmı?",
+      "a": "Bəli. iPhone, iPad və Android üçün pulsuz Qızıl Anlar proqramı eyni incə şəkil uyğunluğuna malikdir, seçdiyiniz ailə fotolarından istifadə edə bilər və oflayn işləyir. Hesab, reklam və ya xal yoxdur."
+    },
+    "gameFaqNo": {
+      "q": "Bu oyunun proqram versiyası varmı?",
+      "a": "Bu oyundan deyil. iPhone, iPad və Android üçün pulsuz Creative Activities proqramında seçdiyiniz böyük plitələr və ailə fotoşəkilləri ilə uyğun gələn zərif şəkil var və o, oflayn rejimdə işləyir. Bu oyun brauzerinizdə pulsuz olaraq qalır."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: böyük, dost şəkillər",
+    "noscript": "Bu oyun üçün brauzerinizdə JavaScript aktiv olmalıdır. Aşağıdakı məsləhətlər onsuz da işləyir.",
+    "about": "Haqqında {name}",
+    "aboutAria": "Bu oyun haqqında",
+    "noTimer": "Taymer və ya hesab yoxdur",
+    "printable": "Çap edilə bilər",
+    "howTo": "Necə oynamaq {name}",
+    "tips": "Birlikdə oynamaq üçün məsləhətlər",
+    "newToPlayingHtml": "Demans olan biri ilə oynamaq üçün yenisiniz? Oxuyun <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oyun oynamaq olar</a>, o cümlədən maraqlarını itirdikdə nə etməli.",
+    "moreAria": "Kəşf etmək üçün daha çox",
+    "helpfulGuides": "Faydalı bələdçilər",
+    "appTitle": "Proqramda oynayın",
+    "appText": "Pulsuz Creative Activities proqramında böyük plitələr və öz ailə fotoşəkilləri ilə uyğun gələn zərif şəkil var və Wi‑Fi olmadan işləyir. iPhone, iPad və Android.",
+    "photoAppTitle": "Şəkillərinizi hazır saxlayın",
+    "photoAppText": "Pulsuz Qızıl Anlar tətbiqində seçdiyiniz şəkillər növbəti dəfə cihazınızda qalacaq və oyunlar Wi‑Fi olmadan işləyir. iPhone, iPad və Android.",
+    "goodToKnow": "Bilmək yaxşıdır",
+    "goodToKnowText": "Bu oyun əylənmək və birlikdə vaxt keçirmək üçündür. Heç bir şeyi sınamaz, ölçməz və müalicə etmir.",
+    "moreGames": "Daha yumşaq oyunlar",
+    "crumb": "Oyunlar"
+  }
+}

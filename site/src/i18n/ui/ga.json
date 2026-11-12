@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Téigh ar aghaidh chuig an bpríomhábhar",
+    "brandName": "Creative Activities",
+    "brandTag": "Gníomhaíochtaí néaltraithe",
+    "homeLabel": "Nóiméad Órga abhaile",
+    "mainNav": "Príomh-",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Nóiméid Órga: pictiúir mhóra cairdiúla de chupa tae, lus na gréine agus madra",
+    "languages": "Teanga",
+    "englishOnly": "(Béarla)",
+    "machineTranslated": "Aistríodh an leathanach seo go huathoibríoch agus níl sé seiceáilte fós ag cainteoir dúchais.",
+    "readOriginal": "Léigh an bunleagan i mBéarla",
+    "nav": {
+      "games": "Cluichí",
+      "activities": "Gníomhaíochtaí",
+      "caregiving": "Cúramach",
+      "brainHealth": "Sláinte inchinne"
+    },
+    "faqTitle": "Ceisteanna agus freagraí",
+    "breadcrumb": "Briseadh arán",
+    "home": "Baile",
+    "lastUpdated": "Nuashonraithe is déanaí",
+    "topics": "Ábhair",
+    "textSize": {
+      "label": "Méid an téacs",
+      "smaller": "Téacs caighdeánach",
+      "larger": "Téacs níos mó",
+      "contrast": "Codarsnacht níos airde"
+    }
+  },
+  "footer": {
+    "play": "Imirt",
+    "picturePairs": "Péirí pictiúr",
+    "conversationCards": "Cártaí comhrá",
+    "pictureBingo": "Bingo pictiúir",
+    "allGames": "Gach cluichí",
+    "pictures": "Pictiúir le priontáil",
+    "activityIdeas": "Smaointe gníomhaíochta",
+    "ideas101": "101 smaointe gníomhaíochta",
+    "lateStage": "Gníomhaíochtaí céim dhéanacha",
+    "printable": "Gníomhaíochtaí inphriontáilte",
+    "allActivities": "Gach gníomhaíocht",
+    "forCaregivers": "Do lucht cúraim",
+    "playTogether": "Conas a imirt le chéile",
+    "selfCare": "Ag tabhairt aire duit féin",
+    "brainHealth": "Taighde sláinte inchinne",
+    "faq": "Ceisteanna agus freagraí",
+    "about": "Maidir",
+    "approach": "Ár gcur chuige",
+    "howWeWrite": "Conas a scríobhaimid",
+    "organizations": "Le haghaidh eagraíochtaí",
+    "app": "Aip Creative Activities",
+    "appHelp": "Cabhair app",
+    "support": "Tacaíocht",
+    "legal": "Dlíthiúil",
+    "sitePrivacy": "Príobháideacht an tsuímh Ghréasáin",
+    "appPrivacy": "Polasaí príobháideachta app",
+    "privacyChoices": "Roghanna príobháideachais",
+    "terms": "Téarmaí agus ceadúnas app",
+    "safety": "Sábháilteacht agus úsáid bheartaithe",
+    "accessibility": "Inrochtaineacht",
+    "healthNotice": "Fógra faisnéise sláinte",
+    "allLegal": "Gach eolas dlíthiúil",
+    "note": "Cuireann Creative Activities gníomhaíochtaí simplí roinnte ar fáil chun taitneamh a bhaint as. Ní comhairle leighis, tástáil nó cóireáil í, agus ní dhéanann sé diagnóis, tomhas ná scór duine ar bith. Le haghaidh ceisteanna sláinte, labhair le dochtúir. I gcás éigeandála, cuir glaoch ar 911.",
+    "publisher": "Arna fhoilsiú ag Cloudjet Solutions Pte. Teo."
+  },
+  "home": {
+    "title": "Cluichí agus Gníomhaíochtaí Néaltrú & Alzheimer | Nóiméad Órga",
+    "description": "Cluichí pictiúr saor in aisce, milis le himirt ar líne agus smaointe gníomhaíochta do dhaoine a bhfuil néaltrú nó Alzheimer orthu agus a gcuid cúramóirí.",
+    "eyebrow": "Saor in Aisce · Gan fógraí · Gan síniú · Gan amadóirí ná scóir",
+    "h1": "Cluichí & Gníomhaíochtaí Míne do Dhaoine ar a bhfuil Néaltrú",
+    "lede": "Cluichí pictiúr simplí, grianghraif aithnidiúla, agus gníomhaíochtaí le taitneamh a bhaint as le chéile - ar do luas féin.",
+    "playGame": "Cluiche a imirt",
+    "findIdeas": "Faigh smaointe gníomhaíochta",
+    "facts": [
+      "Oibríonn sé ar ghuthán, táibléad agus ríomhaire",
+      "Pictiúir móra a fhanann ag taispeáint",
+      "Stop am ar bith; rud ar bith a theipeann"
+    ],
+    "heroApp": "Chomh maith leis sin aip saor in aisce do iPhone, iPad agus Android, le do ghrianghraif teaghlaigh féin",
+    "albumNote": "“Dhá phictiúr den chupán tae, le chéile.”",
+    "gamesEyebrow": "Seinn i do bhrabhsálaí",
+    "gamesTitle": "Cluichí gur féidir a imirt anois",
+    "gamesLede": "Tá gach ceann acu socair, fásta agus tapa le tosú. Roghnaigh ceann amháin, suí taobh le taobh, agus tóg do sheal ag cnagadh.",
+    "seeAllGames": "Féach ar fad {count} cluichí",
+    "howTitle": "Conas a oibríonn sé",
+    "steps": [
+      {
+        "title": "Roghnaigh rud eolach",
+        "text": "Pictiúir de chupáin tae, gairdíní, peataí agus báid seoil. Gan léamh nó rialacha le foghlaim ar dtús."
+      },
+      {
+        "title": "Suigh taobh le taobh",
+        "text": "Lig dóibh sconna. Labhair faoi na pictiúir. Fanann neamhréir leis an gcéad sconna eile."
+      },
+      {
+        "title": "Stop cé go mothaíonn sé go maith",
+        "text": "Is gníomhaíocht iomlán é cluiche amháin. Tá “Déanta faoi láthair” ar an scáileán i gcónaí."
+      }
+    ],
+    "stageEyebrow": "Taobh amuigh den scáileán",
+    "stageTitle": "Smaointe gníomhaíochta do gach céim",
+    "stageLede": "Ceol, tascanna laethúla, cuimhneacháin agus chuimhneacháin chiúin céadfacha, in oiriúint do na rudaí a bhraitheann compordach anois.",
+    "ideas101": "101 smaointe gníomhaíochta",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Céim luath",
+        "text": "Lean ort ag déanamh an rud is breá leo, le coigeartuithe beaga: caitheamh aimsire, turais, cluichí focal agus pleanáil le chéile.",
+        "label": "Smaointe luathchéime"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Meánchéim",
+        "text": "Tascanna simplí aithnidiúla roinnte ina gcéimeanna: fillte, sórtáil, ceol, cluichí pictiúr agus siúlóidí gearra.",
+        "label": "Smaointe meánchéime"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Céim níos déanaí",
+        "text": "Compord agus nasc trí theagmháil, fuaim agus radharc: cúram láimhe, na hamhráin is fearr leat, grianghraif agus a bheith le chéile.",
+        "label": "Smaointe céim níos déanaí"
+      }
+    ],
+    "specificHtml": "Ag lorg rud éigin ar leith? Bain triail as <a href=\"/activities/alzheimers/\">gníomhaíochtaí agus cluichí do Alzheimer</a>, <a href=\"/activities/memory-games/\">Cluichí cuimhne milis</a>, <a href=\"/activities/trivia/\">trivia éasca</a> nó <a href=\"/activities/puzzles/\">puzail</a>.",
+    "approachEyebrow": "Ár gcur chuige",
+    "approachTitle": "Gníomhaíocht chomhroinnte, ní tástáil chuimhne",
+    "approachLede": "Tá go leor “cluichí inchinne” bunaithe ar luas, scóir agus stríoca. Do dhuine a bhfuil néaltrú air/uirthi is féidir a mhothú mar scrúdú. Thógamar a mhalairt.",
+    "approachLink": "Cén fáth a ndéanaimid é a dhearadh ar an mbealach seo",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Ní dhéanfaidh aon ní a theipeann",
+        "text": "Níl aon chlog, scór, saol nó cailliúint. Is sos é pictiúr eile, ní botún."
+      },
+      {
+        "icon": "eye",
+        "title": "Fanann na pictiúir ag taispeáint",
+        "text": "Aitheantas thar athghairm. Tosaíonn meaitseáil aghaidh suas, mar sin níl aon rud le cuimhneamh."
+      },
+      {
+        "icon": "people",
+        "title": "Daoine fásta agus dínit",
+        "text": "Focail te, simplí agus pictiúir ón saol fíor. Ná labhair cartúin nó leanbh riamh."
+      },
+      {
+        "icon": "shield",
+        "title": "Príobháideach trí dhearadh",
+        "text": "Gan cuntais nó fógraí. Ní fhágann do ghrianghraif do ghléas riamh."
+      }
+    ],
+    "guidesEyebrow": "Do lucht cúraim",
+    "guidesTitle": "Treoracha praiticiúla le haghaidh cúram laethúil",
+    "allCaregiving": "Gach treoir cúram",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Conas a cluichí a imirt le chéile",
+        "text": "Socraigh suas, luas, agus cad atá le déanamh nuair a stopann cluiche a bheith spraoi."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Nuair a deir siad ná le gníomhaíocht",
+        "text": "Cúiseanna coitianta le diúltú, agus bealaí milis chun iarracht a dhéanamh arís níos déanaí."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Tablet a shocrú",
+        "text": "Téacs níos mó, níos lú cur isteach agus scáileán baile simplí amháin."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Gníomhaíochtaí inphriontáilte saor in aisce,",
+        "text": "Cuardach focal mórchló, leathanaigh dathúcháin, biongó agus cártaí comhrá."
+      }
+    ],
+    "researchTitle": "Sláinte inchinne: cad a deir an taighde i ndáiríre",
+    "researchText": "An féidir néaltrú a chosc? An gcabhraíonn cluichí inchinn? Cad mar gheall ar troscadh, aiste bia, codlata agus éisteacht? Freagraí simplí, foinsí, lena n-áirítear cásanna ina bhfuil an fhianaise lag.",
+    "researchLink": "Léigh na treoracha taighde",
+    "appEyebrow": "Chomh maith leis sin app",
+    "appTitle": "Nóiméid Órga ar iPhone, iPad agus Android",
+    "appText": "Oibríonn an aip saor in aisce as líne agus is féidir grianghraif teaghlaigh a roghnaíonn tú a úsáid, a choinnítear mar chóipeanna ar do ghléas. Dearadh calma céanna: ceithre tíleanna móra, gan lasc ama, gan scór.",
+    "aboutApp": "Maidir leis an app",
+    "faq": [
+      {
+        "q": "Cad iad na cluichí maithe do dhaoine a bhfuil néaltrú orthu?",
+        "a": "Tá cluichí maithe simplí, eolach agus saor ó bhrú: pictiúir mhóra le meaitseáil, sórtáil, míreanna mearaí éasca, críochnú nathanna aitheanta, dathú, biongó pictiúr agus cártaí comhrá. Is é an rogha is fearr an ceann a thaitníonn leis an duine inniu. Seachain amadóirí, scóir agus rud ar bith a mhothaíonn mar thástáil."
+      },
+      {
+        "q": "An bhfuil na cluichí néaltraithe seo saor in aisce?",
+        "a": "Tá. Tá gach cluiche agus inphriontáilte ar Creative Activities saor in aisce, gan aon chuntas, clárú ná íoslódáil. Ritheann na cluichí sa bhrabhsálaí gréasáin ar ghuthán, táibléad nó ríomhaire."
+      },
+      {
+        "q": "An gcuireann cluichí inchinn cosc ​​ar néaltrú?",
+        "a": "Níor léiríodh aon chluiche chun néaltrú a chosc, agus ní éilíonn Creative Activities aon rud a chóireáil nó a chosc. Tá ár gcluichí le haghaidh taitneamh agus am le chéile. Míníonn ár rannóg sláinte inchinne cad a dhéanann agus nach dtaispeánann taighde."
+      },
+      {
+        "q": "An bhfuil na cluichí seo feiliúnach do dhuine ar a bhfuil Alzheimer?",
+        "a": "Tá. Is é galar Alzheimer an chúis is coitianta le néaltrú, agus déantar na cluichí dó: pictiúir mhóra a fhanann ag taispeáint, roinnt roghanna, agus gan aon rud le cuimhneamh nó le mícheart. Nuair a mheaitseálann, a shórtáil agus a chríochnaíonn nathanna aithnidiúla bíonn siad ag brath ar eolas fadbhunaithe seachas ar fhoghlaim nua."
+      },
+      {
+        "q": "An féidir le duine ar a bhfuil néaltrú níos déanaí úsáid a bhaint as na gníomhaíochtaí seo?",
+        "a": "Go minic, sea, le duine in aice leo. Tosaigh le Faigh an rud céanna le dhá phictiúr, Péirí pictiúr le ceithre thíl, leathanach dathúcháin nó sos análaithe socair. Coinnigh gearr é, lean a dtreoir agus stop nuair a bheidh a ndóthain faighte acu."
+      },
+      {
+        "q": "An bhfuil m'eolas príobháideach?",
+        "a": "Níl aon chuntais agus aon fhógraíocht ar an suíomh. Bainimid úsáid as Google Analytics chun tuiscint a fháil ar na leathanaigh a dtugtar cuairt orthu. Ní thaispeántar grianghraif a roghnaíonn tú do phéirí Grianghraf ach i do bhrabhsálaí agus ní uaslódáiltear iad riamh."
+      },
+      {
+        "q": "Cé a dhéanann Nóiméid Órga?",
+        "a": "Is foireann bheag í Creative Activities a dhéanann gníomhaíochtaí pictiúrtha calma do dhaoine fásta do theaghlaigh agus do lucht cúraim, ar an ngréasán agus mar aip saor in aisce. Ní cliniceoirí muid, agus ní comhairle leighis aon rud anseo."
+      }
+    ]
+  },
+  "stage": {
+    "early": "go luath",
+    "middle": "lár",
+    "late": "níos déanaí",
+    "hintOne": "Is minic a oireann {list} stáitse",
+    "hintMany": "Is minic a oireann {list} céimeanna",
+    "labelEarly": "Céim luath",
+    "labelMiddle": "Meánchéim",
+    "labelLate": "Céim níos déanaí"
+  },
+  "cards": {
+    "aboutGame": "Maidir leis an gcluiche seo",
+    "printable": "Inphriontáilte",
+    "play": "Imirt {name} →",
+    "readGuide": "Léigh an treoir"
+  },
+  "playCta": {
+    "title": "Réidh le haghaidh cluiche milis?",
+    "text": "Pictiúir mhóra, gan lasc ama, gan scór agus gan aon rud le clárú. Seinn le chéile i do bhrabhsálaí.",
+    "play": "Cluiche a imirt",
+    "all": "Féach ar gach cluichí",
+    "aria": "Imir cluiche"
+  },
+  "appCta": {
+    "title": "Tóg na cluichí seo leat",
+    "text": "An aip Creative Activities saor in aisce do iPhone, iPad agus Android: tíleanna pictiúr mór, cluichí le grianghraif do theaghlaigh féin, agus pacáistí pictiúr a oibríonn gan Wi-Fi. Gan cuntas, fógraí, lasc ama ná scór.",
+    "appStore": "Faigh é ar an App Store",
+    "googlePlay": "Faigh é ar Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Súgartha",
+    "about": "Maidir leis an app",
+    "aria": "Faigh an app"
+  },
+  "sections": {
+    "activities": {
+      "label": "Gníomhaíochtaí",
+      "title": "Gníomhaíochtaí do Dhaoine ar a bhfuil Néaltrú",
+      "seo": "Gníomhaíochtaí do Dhaoine ar a bhfuil Néaltrú: Smaointe de réir Céime",
+      "description": "Smaointe gníomhaíochta do dhaoine a bhfuil néaltrú orthu ag gach céim: ceol, cuimhneachán, tascanna laethúla, chuimhneacháin céadfacha, ceardaíocht.",
+      "lede": "Is éard is gníomhaíocht bhríoch ann ná rud ar bith a thugann compord, cuspóir nó nóiméad ceangail. Tosaigh leis an méid a bhain an duine taitneamh as i gcónaí, agus é a oiriúnú don lá atá inniu ann."
+    },
+    "caregiving": {
+      "label": "Cúramach",
+      "title": "Treoracha Cúraim",
+      "seo": "Treoracha um Chúram Néaltraithe: Cabhair Phraiticiúil Laethúil",
+      "description": "Treoracha praiticiúla, cineálta do chúramóirí néaltraithe: ag imirt cluichí le chéile, cumarsáid, diúltú, suaitheadh ​​​​deireadh an lae, táibléad, apps a.",
+      "lede": "Cabhair shimplí, phraiticiúil le haghaidh na n-amanna laethúla a bhaineann le cúram a thabhairt do dhuine a bhfuil néaltrú air, lena n-áirítear cúram a thabhairt duit féin."
+    },
+    "brain-health": {
+      "label": "Sláinte inchinne",
+      "title": "Sláinte Inchinne: An Rud a Deir an Taighde",
+      "seo": "Riosca Sláinte Inchinne agus Néaltraithe: Cad a Deireann Taighde",
+      "description": "An féidir néaltrú a chosc? Treoracha macánta, foinsithe ar fhachtóirí riosca néaltraithe, cluichí inchinn, troscadh, aiste bia, aclaíocht, codlata.",
+      "lede": "Cad a léiríonn staidéir mhóra i ndáiríre maidir le riosca néaltrú a ísliú, mínithe go soiléir, lena n-áirítear nuair atá an fhianaise lag nó measctha. Eolas ginearálta, ní comhairle leighis."
+    }
+  },
+  "guide": {
+    "updated": "Nuashonraithe",
+    "minuteRead": "{n} nóiméad léamh",
+    "byTeam": "Ag foireann Creative Activities",
+    "howWeWrite": "Conas a scríobhaimid",
+    "shortAnswer": "An freagra gairid",
+    "onThisPage": "Ar an leathanach seo ({n} ailt)",
+    "commonQuestions": "Ceisteanna coitianta",
+    "sources": "Foinsí",
+    "sourcesNote": "Déanaimid nasc chuig na heagraíochtaí agus déanann muid staidéar ar a mbraitheann an leathanach seo. Seiceáladh gach ceann acu nuair a nuashonraíodh an leathanach.",
+    "tryTogether": "Bain triail as le chéile",
+    "relatedGuides": "Treoracha gaolmhara",
+    "related": "Gaolmhar",
+    "startHere": "Tosaigh anseo"
+  },
+  "healthNotice": {
+    "aria": "Fógra faisnéise sláinte",
+    "title": "Eolas ginearálta, ní comhairle leighis",
+    "textHtml": "Tugann an leathanach seo achoimre ar thaighde foilsithe do theaghlaigh. Ní féidir leis a insint duit cad atá ceart do dhuine amháin. Labhair le dochtúir roimh athrú ar aiste bia, aclaíocht, codlata, cógais leighis nó forlíontaí. Le haghaidh mearbhall tobann nó athruithe tobanna eile, faigh cabhair leighis láithreach. <a href=\"/medical-disclaimer/\">Léigh ár bhfógra faisnéise sláinte</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Gníomhaíocht Chomhroinnte, Ní Tástáil Chuimhne",
+      "seoTitle": "Maidir le Nóiméid Órga: Ár gCur Chuige",
+      "description": "Cén fáth nach bhfuil aon lasc ama, scóir nó stríoc ag cluichí Creative Activities, cén fáth go bhfanann pictiúir ag taispeáint, agus cad a dhéanfaimid agus.",
+      "crumb": "Ár gcur chuige",
+      "lede": "Déanann Creative Activities gníomhaíochtaí calma, pictiúir do dhaoine fásta ar féidir le cúramóir agus duine a bhfuil néaltrú orthu taitneamh a bhaint as taobh le taobh.",
+      "bodyHtml": "<h2>Cad a chreideann muid</h2><p>Is é pointe gníomhaíochta an nóiméad féin: comhrá, aoibh gháire, sásamh dhá phictiúr a chur le chéile, nó suí gar. Níl sé chun aon duine a thomhas, iad a bhrú a thuilleadh nó rud ar bith a chruthú.</p><p>Tá go leor aipeanna oiliúna inchinn deartha timpeall ar luas, scóir, stríoca agus leibhéil. Do dhuine a bhfuil néaltrú air/uirthi agus a mhothaíonn mar scrúdú nach féidir leo pas a fháil. Dhearamar a mhalairt, agus coinnímid na rialacha seo:</p><ul><li><strong>Ní dhéanfaidh aon ní a theipeann.</strong> Gan aon chlog, scór, cuntar bogadh, beo, stríoc, confetti nó comhaireamh síos, ar aon scáileán.</li><li><strong>Aitheantas thar athghairm.</strong> Fanann na pictiúir ag taispeáint de réir réamhshocraithe. Tugann leideanna cuireadh do chomhrá agus ní tráth na gceist ainmneacha ná cuimhní cinn riamh.</li><li><strong>Mór, simplí agus seasta.</strong> Téacs mór agus pictiúir, codarsnacht ard, agus rialuithe a fhanann san áit chéanna.</li><li><strong>Dínit do dhaoine fásta.</strong> Pictiúir ón saol fíor agus focail shimplí te. Gan cartúin, moladh amhránaíochta ná luaíochtaí emoji.</li><li><strong>Bealach éasca amach.</strong> Tá “Déanta faoi láthair” le feiceáil i gcónaí. Is toradh maith é stopadh leath bealaigh.</li><li><strong>Príobháideach de réir réamhshocraithe.</strong> Gan cuntais nó fógraí. Fanann grianghraif a roghnaíonn tú ar do ghléas.</li></ul><h2>Cad nach bhfuil muid ag éileamh</h2><p>Tá ár gcluichí le haghaidh taitneamh agus nasc. Ní dhéanann siad néaltrú nó galar Alzheimer a dhiagnóiseadh, a thástáil, a thomhas, a chóireáil, a mhoilliú nó a chosc, agus níor cheart d’aon duine iad a roghnú ar an gcúis sin. Nuair a scríobhaimid faoi thaighde ar ár <a href=\"/brain-health/\">leathanaigh sláinte inchinne</a>, deirimid go soiléir áit a bhfuil an fhianaise lag, agus ní cheanglaímid riamh é lenár gcluichí féin.</p><h2>Cé muid</h2><p>Is foireann bheag neamhspleách í Creative Activities. Ní cliniceoirí muid. Scríobhtar ár dtreoracha ó threoir fhoilsithe ag eagraíochtaí mar an Institiúid Náisiúnta um Aosú agus Cumann Alzheimer, agus liostaíonn gach treoir a foinsí. Léigh <a href=\"/editorial-policy/\">conas a scríobhaimid agus a sheiceáilimid ár leathanaigh</a>.</p><h2>Inis dúinn cad a chuideodh</h2><p>Ba bhreá linn a chloisteáil cad a oibríonn duitse agus cad nach n-oibríonn, go háirithe ó dhaoine a bhfuil néaltrú orthu, cúramóirí teaghlaigh agus baill foirne gníomhaíochta. Ríomhphost <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Conas a Scríobhaimid agus a Seiceáilimid Ár Leathanaigh",
+      "seoTitle": "Beartas Eagarthóireachta",
+      "description": "An chaoi a ndéanann Creative Activities taighde, scríobhann, foinsí agus nuashonruithe ar a leathanaigh gníomhaíochta néaltraithe agus sláinte inchinne, agus.",
+      "crumb": "Beartas eagarthóireachta",
+      "bodyHtml": "<h2>Ár bhfoinsí</h2><p>Bunaimid ár dtreoracha ar threoir phoiblí ó eagraíochtaí ar nós an National Institute on Ageing, an CDC, an Alzheimer’s Association, an Alzheimer’s Foundation of America, an Family Caregiver Alliance agus an NHS, agus ar thaighde piar-athbhreithnithe ar nós athbhreithnithe Cochrane agus trialacha cliniciúla móra. Liostaíonn gach treoir na foinsí ar a mbraitheann sé. Osclaímid gach foinse sula luann muid í, agus ní thuairiscímid ach an méid a deir sé.</p><h2>Conas a scríobhaimid</h2><ul><li>Praiticiúil ar dtús: cad atá le déanamh inniu, i dteanga shimplí.</li><li>Macánta faoin bhfianaise: deirimid “nasctha le”, “féadfaidh” agus “measctar an fhianaise” nuair is é sin an fhírinne.</li><li>Ómósach: scríobhaimid faoi dhaoine a bhfuil néaltrú orthu mar dhaoine fásta, agus ní bhainimid úsáid as teanga ceistiúcháin ná náire.</li><li>Gan aon ábhar invented: gan aon staitisticí comhdhéanta, Sleachta, saineolaithe, staidéir, léirmheasanna nó teistiméireachtaí.</li></ul><h2>Cé a dhéanann athbhreithniú ar ár leathanaigh</h2><p>Scríobhann agus seiceann foireann Creative Activities na leathanaigh, le cabhair ó uirlisí scríbhneoireachta AI le haghaidh taighde agus dréachtaithe. Seiceálann an fhoireann gach leathanach i gcomparáid lena foinsí. Tá ár leathanaigh <strong>nach bhfuil</strong> athbhreithniú ag dochtúir nó cliniceoir eile, agus ní dhéanaimid éileamh a mhalairt. Is faisnéis ghinearálta iad, ní comhairle leighis.</p><h2>Rud nach bhfoilseoimid choíche</h2><ul><li>Éilimh go ndéanann cluiche, bia, forlíonadh, tapa nó gnáthamh cosc, cóireáil, mhoilliú nó leigheas ar an néaltrú.</li><li>Tástálacha, tráth na gceist nó scóir a thugann le fios go bhfuil nó nach bhfuil néaltrú ar dhuine.</li><li>Comhairle chun aon leigheas a thosú, a stopadh nó a athrú.</li><li>Fógraíocht nó ábhar urraithe faoi cheilt mar threoir.</li></ul><h2>Nuashonruithe agus ceartúcháin</h2><p>Taispeánann gach leathanach an dáta ar nuashonraíodh é an uair dheireanach. Má aimsíonn tú botún nó foinse as dáta, seol ríomhphost le do thoil <a href=\"mailto:{email}\">{email}</a> agus déanfaimid é a sheiceáil go pras.</p>"
+    },
+    "faq": {
+      "title": "Ceisteanna agus Freagraí",
+      "seoTitle": "Cluichí agus Gníomhaíochtaí Néaltraithe: Ceisteanna agus Freagraí",
+      "description": "Freagraí ar cheisteanna coitianta faoi chluichí agus gníomhaíochtaí néaltraithe: cé na cluichí is cóir a thriail, cé chomh fada le himirt, smaointe céim.",
+      "crumb": "Ceisteanna agus freagraí",
+      "lede": "Freagraí gearra simplí ar na ceisteanna is mó a chuireann cúramóirí.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Faoi na cluichí",
+          "items": [
+            {
+              "q": "Cad iad na cluichí is fearr do dhuine ar a bhfuil néaltrú?",
+              "a": "Tá na cluichí is fearr eolach, simplí agus saor ó bhrú, agus is é an ceann ceart is cuma cad a thaitníonn leis an duine inniu. Oibríonn meaitseáil pictiúr le pictiúir infheicthe, sórtáil, míreanna mearaí éasca, críochnú nathanna coitianta, dathú agus biongó pictiúr go maith do go leor daoine. Seachain amadóirí, scóir agus rud ar bith a mhothaíonn mar thástáil."
+            },
+            {
+              "q": "An bhfuil na cluichí saor in aisce i ndáiríre?",
+              "a": "Tá. Tá gach cluiche agus earraí inphriontáilte saor in aisce, gan aon chuntas, clárú, íoslódáil nó fógraíocht."
+            },
+            {
+              "q": "Cén fáth nach bhfuil aon scóir, leibhéil nó amadóirí ann?",
+              "a": "Déanann luas agus scóir gníomhaíocht thaitneamhach a thiontú ina scrúdú, rud a chuireann náire nó frustrachas ort. Coinnímid an fócas ar thaitneamh agus am le chéile, mar sin níl aon rud le teip agus is féidir leat stop a chur ag aon phointe."
+            },
+            {
+              "q": "Cé na gléasanna is fearr a oibríonn?",
+              "a": "Fón, táibléad nó ríomhaire ar bith le brabhsálaí gréasáin nua-aimseartha. Is minic go mbíonn tablet ar sheastán ag bord ar an mbealach is compordaí do bheirt imirt taobh le taobh. Oibríonn ríomhaire glúine atá nasctha le teilifís go maith do ghrúpaí."
+            },
+            {
+              "q": "An féidir linn imirt lenár ngrianghraif teaghlaigh féin?",
+              "a": "Tá. Déanann péirí grianghraf idir 2 agus 6 ghrianghraf a roghnaíonn tú isteach i gcluiche meaitseála. Fanann na grianghraif i do bhrabhsálaí agus ní dhéantar iad a uaslódáil ná a shábháil."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Gníomhaíochtaí agus cúram",
+          "items": [
+            {
+              "q": "Cá fhad a mhairfeadh gníomhaíocht?",
+              "a": "Is minic go mbíonn 10 go 20 nóiméad go leor, agus uaireanta éiríonn le 2 nóiméad. Bí ag faire amach do chomharthaí tuirse nó frustrachais agus stop fad is a mhothaíonn sé go maith. Níl aon mhéid ceart."
+            },
+            {
+              "q": "Cad a tharlóidh mura bhfuil siad ag iarraidh gníomhaíocht a dhéanamh?",
+              "a": "Meas an ní, agus bain triail eile as níos déanaí nó ar bhealach eile. Is féidir le diúltú teacht as tuirse, pian, mothú neamhchinnte nó go simplí gan suim a bheith agat. Féach ar ár dtreoir ar cad ba cheart a dhéanamh nuair a deir siad gan."
+            },
+            {
+              "q": "Cad iad na gníomhaíochtaí a oireann don néaltrú níos déanaí?",
+              "a": "Compord agus na céadfaí: éisteacht le ceol is fearr leat, suathaireacht láimhe le lotion, féachaint ar ghrianghraif le chéile, blaincéad bog a shealbhú, suí lasmuigh, nó cluiche pictiúr an-simplí le duine éigin in aice leo. Tá i bhfad níos mó smaointe ag ár dtreoir céim níos déanaí."
+            },
+            {
+              "q": "An bhfuil gníomhaíochtaí ann do ghrúpaí i dteach cúraim?",
+              "a": "Tá. Tá cártaí inphriontáilte agus glaoiteoir ar an scáileán ag biongó pictiúr, agus oibríonn cártaí Críochnaigh an focal agus an Comhrá léite go maith os ard. Clúdaíonn ár dtreoir do ghrúpaí tithe cúraim méid an ghrúpa, suíocháin agus oiriúnú do chumais mheasctha."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Sláinte inchinne",
+          "items": [
+            {
+              "q": "An féidir le cluichí néaltrú a chosc nó a mhoilliú?",
+              "a": "Níor léiríodh aon chluiche chun néaltrú a chosc, agus ní dhéanann ár gcluichí aon éileamh den sórt sin. Léirigh spreagadh cognaíocha i suíomh sóisialta buntáistí beaga i dtaighde do dhaoine a bhfuil néaltrú éadrom go measartha orthu, ach atá difriúil ó chluiche a chuireann cosc ​​​​ar ghalair. Cuirimid cluichí ar fáil le haghaidh taitneamh agus nasc."
+            },
+            {
+              "q": "An féidir néaltrú a chosc?",
+              "a": "Ní le cinnteacht. Nascann taighde 14 fhachtóir sláinte agus stíl mhaireachtála le riosca néaltrú, mar chailliúint éisteachta, brú fola ard, neamhghníomhaíocht fhisiciúil agus leithlisiú sóisialta. D’fhéadfadh go laghdódh an riosca do roinnt daoine dul i ngleic leo, ach tá néaltrú fós ag go leor daoine a dhéanann gach rud i gceart. Ní bhíonn an locht ar éinne riamh."
+            },
+            {
+              "q": "An bhfuil troscadh eatramhach go maith do shláinte na hinchinne?",
+              "a": "Tá fianaise dhaonna teoranta agus luath, agus tá cuid mhór den taighde in ainmhithe. Is féidir le troscadh a bheith contúirteach do dhaoine fásta níos sine, go háirithe le cógais diaibéiteas nó meáchain caillteanas neamhbheartaithe, agus ní mholtar é do dhaoine a bhfuil néaltrú orthu. Labhair le dochtúir roimh athrú ar an gcaoi a itheann tú."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Príobháideacht agus sábháilteacht",
+          "items": [
+            {
+              "q": "An bhailíonn tú aon eolas?",
+              "a": "Gan cuntais nó fógraí. Bainimid úsáid as Google Analytics chun cuairteanna a chomhaireamh agus chun féachaint cé na leathanaigh a chabhraíonn, agus cuimhníonn do bhrabhsálaí ar chuir tú fuaimeanna boga ar siúl. Ní uaslódáiltear grianghraif a roghnaíonn tú do phéirí Grianghraf. Féach an fógra príobháideachta le haghaidh sonraí."
+            },
+            {
+              "q": "An comhairle leighis í seo?",
+              "a": "Níl. Is le haghaidh caitheamh aimsire agus faisnéise ginearálta é Creative Activities. Le haghaidh ceisteanna sláinte, labhair le dochtúir, agus le haghaidh éigeandálaí cuir glaoch ar 911."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Tuilleadh sonraí: <a href=\"/caregiving/how-to-play-together/\">conas a imirt le chéile</a>, <a href=\"/caregiving/when-they-say-no/\">nuair a deir siad níl</a>, <a href=\"/activities/late-stage/\">gníomhaíochtaí céim níos déanaí</a> agus <a href=\"/brain-health/can-dementia-be-prevented/\">an féidir néaltrú a chosc?</a>"
+    },
+    "handout": {
+      "title": "Cluichí Mín saor in aisce do Dhaoine a Mhaireachtáil le Néaltrú",
+      "seoTitle": "Bileog Inphriontáilte: Cluichí Néaltrú In Aisce Ar Líne",
+      "description": "Bileog aon leathanach inphriontáilte do theaghlaigh agus cúramóirí faoi chluichí pictiúr saor in aisce do dhaoine a bhfuil néaltrú orthu, do ghrúpaí.",
+      "crumb": "Bileog inphriontáilte",
+      "lede": "Priontáil an leathanach seo le haghaidh grúpa tacaíochta, paicéad cúraim nó doras an chuisneora. Úsáid ordú Priontála do bhrabhsálaí; fágtar na biachláir agus na cnaipí as an asphrionta.",
+      "introHtml": "<p>Pictiúir mhóra, focail shimplí agus gan aon rud le teip. Saor in aisce ar ghuthán, táibléad nó ríomhaire, gan aon chlárú, gan fógraí, gan aon amadóirí agus gan scóir. Suigh taobh le taobh agus sealaíocht a ghlacadh.</p>",
+      "gamesTitle": "Cluichí chun iarracht a dhéanamh le chéile",
+      "restHtml": "<h2>Cúpla leideanna</h2><ul><li>Roghnaigh am den lá nuair a bhíonn an duine ar a ndícheall.</li><li>Tosaigh leis an socrú is éasca. Tá ceithre tíleanna neart.</li><li>Labhair faoi na pictiúir. Is minic gurb é an comhrá an chuid is fearr.</li><li>Stop cé go mothaíonn sé fós taitneamhach. Is toradh maith é críochnú go luath.</li></ul><h2>Chomh maith leis sin ar an suíomh</h2><ul><li>Rudaí inphriontáilte saor in aisce: cuardach focal mórchló, leathanaigh dathúcháin, cártaí comhrá agus biongó pictiúr.</li><li>Smaointe gníomhaíochta do gach céim, agus treoracha maidir le súgradh le chéile agus aire a thabhairt duit féin.</li></ul><p class=\"muted\">Chun taitneamh agus am le chéile. Ní comhairle leighis, tástáil nó cóireáil. Tá Creative Activities foilsithe ag Cloudjet Solutions Pte. Teo.</p>"
+    },
+    "organizations": {
+      "title": "Le haghaidh Tithe Cúraim, Leabharlanna agus Grúpaí Tacaíochta",
+      "seoTitle": "Gníomhaíochtaí Néaltraithe In Aisce do Thithe Cúraim agus do Ghrúpaí Cúraim",
+      "description": "Mar a úsáideann tithe cúraim, cláir lae do dhaoine fásta, leabharlanna, gníomhaireachtaí aosaithe agus grúpaí tacaíochta ár gcluichí saor in aisce don.",
+      "crumb": "Le haghaidh eagraíochtaí",
+      "lede": "Tá gach rud ar an suíomh seo saor in aisce le húsáid le cónaitheoirí, le baill agus le cliaint, gan aon chuntas, ceadúnas ná táille. Míníonn an leathanach seo cad atá anseo agus conas é a roinnt.",
+      "shortText": "{name}: cluichí pictiúr saor in aisce milis agus treoracha gníomhaíochta do dhaoine a bhfuil néaltrú orthu agus dá gcuid cúramóirí. Gan chlárú, gan aon lasc ama, gan scór.",
+      "longText": "{name} ({domain}) tairiscintí {count} cluichí brabhsálaí saor in aisce a dhéantar do dhaoine a bhfuil néaltrú orthu, lena n-áirítear péirí a mheaitseáil le pictiúir a fhágtar á dtaispeáint, míreanna mearaí éasca, sórtáil, nathanna coitianta agus biongó pictiúr le cártaí inphriontáilte. Níl aon chuntas, fógraíocht, lasc ama nó scór. Tá treoracha gníomhaíochta gnáththeanga ar an láithreán freisin do gach céim den néaltrú a luann an Institiúid Náisiúnta um Aosú agus an Cumann Alzheimer.",
+      "useTitle": "Cad is féidir le heagraíochtaí a úsáid",
+      "gamesItemHtml": "<strong>{count} Cluichí brabhsálaithe</strong> a ritheann ar ríomhaire glúine, táibléad nó teilifíse atá nasctha le ríomhaire. Gan suiteáil, cuntas nó íoslódáil. Féach <a href=\"/games/\">gach cluichí</a>.",
+      "printablesLabel": "{count} inphriontáilte:",
+      "printablesAfter": "Úsáid an cnaipe Priontála ar gach leathanach.",
+      "moreItemsHtml": "<li><strong>Formáidí grúpa:</strong> <a href=\"/games/picture-bingo/\">Bingo pictiúir</a> tá cártaí inphriontáilte agus glaoiteoir ar an scáileán, agus <a href=\"/activities/trivia/\">trivia éasca</a> tá 50 ceist le roghanna freagraí agus pointí cainte.</li><li><strong>Treoracha gníomhaíochta</strong> don fhoireann agus do theaghlaigh, de réir stáitse agus de réir cineáil, scríofa i dteanga shimplí le foinsí. Tosaigh le <a href=\"/activities/ideas/\">101 smaointe gníomhaíochta</a> nó <a href=\"/activities/care-home-groups/\">gníomhaíochtaí grúpa le haghaidh tithe cúraim</a>.</li>",
+      "restHtml": "<h2>Conas a úsáideann grúpaí é</h2><ul><li><strong>Tithe cúraim agus cúram cuimhne:</strong> biongó pictiúr nó críochnaíonn an chaint ar an teilifís seomra coitianta, agus duine amháin ag cnagadh don ghrúpa.</li><li><strong>Cláir lae do dhaoine fásta:</strong> stáisiún táibléad le péirí Pictiúr socraithe go dtí ceithre thíl, le haghaidh seisiúin ghearr duine le duine.</li><li><strong>Leabharlanna poiblí:</strong> cuardaigh focal clóite agus cártaí comhrá i bhfearais chuimhne, agus an láithreán leabharmharcáilte ar tháibléid na leabharlainne.</li><li><strong>Grúpaí tacaíochta cúramóirí agus caiféanna cuimhne:</strong> a <a href=\"/handout/\">bileog inphriontáilte aon leathanach</a> do theaghlaigh a thabhairt abhaile.</li><li><strong>Ospidéil agus pleanálaithe scaoilte:</strong> an bhileog i bpaicéid cúramóirí, le haghaidh rud éigin socair a dhéanamh sa bhaile nó cois leapa.</li></ul><h2>Cad nach bhfuil againn a dhéanamh</h2><p>Tá na cluichí ar mhaithe le taitneamh agus am le chéile. Ní dhéanann siad diagnóis, tástáil, scóráil, cóireáil nó moill ar an néaltrú, agus iarraimid ar eagraíochtaí gan cur síos orthu mar sin. Níl aon fhógraí ann, agus ní iarrann na cluichí ainmneacha, sonraí sláinte nó grianghraif a uaslódáil. Úsáideann an suíomh Gréasáin Google Analytics chun cuairteanna a chomhaireamh; ár <a href=\"/privacy/\">fógra príobháideachta</a> míníonn sé cad a bhailíonn sin. Grianghraif a úsáidtear i <a href=\"/games/photo-pairs/\">Péirí grianghraf</a> fanacht sa bhrabhsálaí.</p><h2>Cuir le do liosta acmhainní sinn</h2><p>Má choinníonn tú liosta acmhainní do chúramóirí, tá fáilte romhat nasc a dhéanamh chuig <a href=\"/\">{domain}</a>. Is féidir leat ceachtar tuairisc a chóipeáil.</p>",
+      "shortTitle": "Cur síos gairid",
+      "longTitle": "Cur síos níos faide",
+      "linksHtml": "<p>Leathanaigh úsáideacha le nascadh go díreach leo: <a href=\"/games/\">cluichí saor in aisce</a>, <a href=\"/activities/printable/\">inphriontáilte saor in aisce,</a>, <a href=\"/activities/alzheimers/\">gníomhaíochtaí le haghaidh Alzheimer</a> agus <a href=\"/caregiving/how-to-play-together/\">conas a imirt le chéile</a>.</p><h2>Ceisteanna nó ceartúcháin</h2><p>Má tá rud éigin mícheart nó doiléir ar an suíomh, nó mura bhfuil freastal á dhéanamh ar riachtanais chónaitheora leis an méid atá anseo, inis dúinn ag <a href=\"mailto:{email}\">{email}</a>. Ná seol eolas pearsanta nó sláinte faoi chónaitheoirí nó faoi chliaint.</p>"
+    },
+    "app": {
+      "title": "Cluiche The Creative Activities",
+      "seoTitle": "Aip Creative Activities do iPhone agus Android",
+      "description": "An aip Creative Activities saor in aisce: meaitseáil mhín grianghraf le ceithre thíl mhóra, grianghraif teaghlaigh coinnithe ar do ghléas, pacáistí pictiúr as.",
+      "crumb": "An app",
+      "lede": "Gach rud a thaitníonn leat faoin suíomh Gréasáin, in aip a oibríonn as líne agus is féidir leat grianghraif teaghlaigh a roghnaíonn tú a úsáid.",
+      "worksOn": "Oibríonn ar {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Tosaigh beag</h2><p>Tosaigh le ceithre tíleanna móra agus pictiúir aithnidiúla. Coinnigh pictiúir le feiceáil, nó folaigh iad nuair a bhraitheann sé sin compordach. Níl aon lasc ama, scór ná pionós ag mód milis. Roghnaigh 4, 6, 8 nó 12 tíleanna.</p><h2>Déan pearsanta é</h2><p>Roghnaigh grianghraif teaghlaigh le roghnóir grianghraf do ghléis. Sábhálann an app cóipeanna níos lú dá ghníomhaíochtaí. Ní dhéanann sé scanadh ar do leabharlann ná do bhunghrianghraif a athrú, agus coimeádann sé suas le 24 grianghraf in aon bhailiúchán amháin.</p><h2>Just breathnú le chéile</h2><p>Féach ar phictiúr amháin ag an am. Tugann leideanna roghnacha cuireadh do chomhrá gan iarraidh ar aon duine cuimhneamh ar ainmneacha nó freagra ceart a thabhairt. Níl ort ach breathnú go leor.</p><h2>As líne nuair is tábhachtaí</h2><p>Tá pictiúir tosaithe agus na hocht bpacáiste pictiúr ar fad san áireamh leis an aip. Oibríonn cóipeanna grianghraf iompórtáilte as líne. Seans go mbeidh gá le nasc idirlín chun bunchóipeanna a stóráiltear in iCloud amháin.</p><h2>Gan chuntas, gan aon fhreastalaí sioncronaithe grianghraf</h2><p>Fanann cóipeanna grianghraf teaghlaigh san aip ar an ngléas. Is féidir leat na cóipeanna a bhaint gan na bunchóipeanna a scriosadh. Is féidir sonraí aip a áireamh i gcúltacaí gléas. Léigh an <a href=\"/app-privacy/\">polasaí príobháideachta app</a>, agus <a href=\"/help/\">cabhair app</a> siúlann trí gach céim.</p>",
+      "disclaimer": "Is le haghaidh caitheamh aimsire agus comhrá comhroinnte é Creative Activities. Ní dhéanann sé néaltrú nó galar Alzheimer a dhiagnóiseadh, a chóireáil, a chosc ná a thomhas.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Cluichí Néaltrú & Alzheimer Ar Líne",
+    "description": "Cluichí ar líne saor in aisce do sheanóirí a bhfuil néaltrú nó Alzheimer orthu: meaitseáil pictiúr, míreanna mearaí éasca, sórtáil, nathanna cainte, dathú, biongó.",
+    "crumb": "Cluichí",
+    "h1": "Cluichí Ollmhór do Dhaoine ar a bhfuil Néaltrú",
+    "lede": "{count} Cluichí saor in aisce a imirt le chéile ar do bhrabhsálaí. Pictiúir mhóra, focail shimplí, agus gan aon rud le teip: gan amadóirí, gan scóir, gan síniú suas.",
+    "listName": "Cluichí milis do dhaoine le néaltrú",
+    "byStageTitle": "Cluiche a roghnú de réir an stáitse",
+    "byStageLede": "Níl sna céimeanna ach treoir gharbh. Lean cad a thaitníonn leis an duine agus cad a mhothaíonn compordach inniu.",
+    "stageCol": "Céim",
+    "gamesCol": "Cluichí a oireann go minic",
+    "moreHtml": "Tuilleadh smaointe ón scáileán: <a href=\"/activities/ideas/\">101 gníomhaíocht do dhaoine ar a bhfuil néaltrú</a>, <a href=\"/activities/alzheimers/\">gníomhaíochtaí agus cluichí do Alzheimer</a>, <a href=\"/activities/memory-games/\">Cluichí cuimhne milis</a> agus <a href=\"/activities/puzzles/\">puzail</a>.",
+    "faq": [
+      {
+        "q": "Cén cluiche ar cheart dúinn tosú leis?",
+        "a": "Is céad rogha socair é péirí pictiúr le ceithre tíleanna. Má mhothaíonn an iomarca idir pictiúir a roghnú, bain triail as Faigh an rud céanna le dhá phictiúr. Do ghrúpa, bain triail as biongó pictiúir."
+      },
+      {
+        "q": "An oibríonn na cluichí ar iPad nó ar an bhfón?",
+        "a": "Tá. Oibríonn gach cluiche sa bhrabhsálaí ar fhóin, táibléad agus ríomhairí, agus fásann na pictiúir chun an scáileán a líonadh. Is minic go mbíonn tablet ar sheastán an ceann is compordaí do bheirt."
+      },
+      {
+        "q": "An bhfuil na cluichí seo go maith do dhuine éigin a bhfuil Alzheimer orthu?",
+        "a": "Tá. Rinneadh iad do dhaoine a bhfuil néaltrú orthu, lena n-áirítear Alzheimer, an chúis is coitianta. Fanann na pictiúir ag taispeáint, níl ach cúpla rogha ann, agus ní dhéantar aon rud a amú nó a scóráil, mar sin lean na cluichí ar rudaí coitianta a aithint seachas cuimhneamh ar chinn nua."
+      },
+      {
+        "q": "An cluichí cuimhne iad seo do sheanóirí?",
+        "a": "Is cluichí meaitseála agus pictiúir iad ar féidir le haon duine fásta níos sine taitneamh a bhaint astu, ach tógtar iad gan cuimhne a thástáil: i bpéirí pictiúr fanann na pictiúir aghaidh suas mura roghnaíonn tú a mhalairt. Míníonn ár dtreoir maidir le cluichí cuimhne do dhaoine scothaosta a bhfuil néaltrú orthu conas aon chluiche cuimhne a choinneáil milis."
+      },
+      {
+        "q": "An bhfuil cluichí do ghrúpaí i dteach cúraim?",
+        "a": "Tá. Tá cártaí inphriontáilte agus glaoiteoir ar an scáileán ag biongó pictiúr, agus Críochnaigh an rá agus oibríonn na cártaí Comhrá go maith léite os ard do ghrúpa."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad agus Android",
+    "requirements": "iOS 15 nó níos déanaí; Android 7.0 nó níos déanaí",
+    "summary": "Aip saor in aisce le haghaidh iPhone, iPad agus Android le meaitseáil mhín pictiúir ar cheithre nó dhá cheann déag de thíleanna móra, ag meaitseáil agus ag féachaint le grianghraif teaghlaigh a roghnaíonn tú, agus ocht bpacáistí pictiúr a oibríonn gan idirlíon san áireamh. Gan cuntas, fógraí, lasc ama ná scór.",
+    "features": [
+      "Meaitseáil pictiúr milis le 4, 6, 8 nó 12 tíleanna móra; fanann na pictiúir le feiceáil mura roghnaíonn tú iad a cheilt",
+      "Déantar grianghraif teaghlaigh a roghnaíonn tú a chóipeáil isteach san aip chun iad a mheaitseáil agus chun breathnú orthu le chéile",
+      "Féach le chéile: pictiúr amháin ag an am le leideanna comhrá roghnacha",
+      "Ocht bpacáiste pictiúr san áireamh leis an aip; oibríonn siad as líne",
+      "Gan chuntas, fógraí, ceannacháin in-aip, lasc ama, scór ná pionós"
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil aip gníomhaíochtaí néaltraithe ann?",
+        "a": "Tá. Creative Activities (liostaithe mar \"{storeName}\") saor in aisce ar an App Store agus Google Play. Cuireann sé meaitseáil mhín pictiúr le tíleanna móra, cluichí le grianghraif teaghlaigh a roghnaíonn tú, agus pacáistí pictiúr a oibríonn as líne."
+      },
+      {
+        "q": "An bhfuil an aip Creative Activities saor in aisce?",
+        "a": "Tá. Tá sé saor in aisce le híoslódáil, gan aon fhógraí, ceannacháin chuntas ná in-app."
+      },
+      {
+        "q": "An oibríonn an aip gan Idirlíon?",
+        "a": "Tá. Tá na pictiúir tosaigh agus na hocht bpacáiste pictiúr ar fad san áireamh leis an aip, agus oibríonn grianghraif teaghlaigh as líne nuair a dhéantar iad a chóipeáil isteach san aip. Roghnú grianghraf a stóráil ach amháin i iCloud b'fhéidir go mbeadh gá le nasc."
+      },
+      {
+        "q": "An féidir liom ár ngrianghraif teaghlaigh féin a úsáid?",
+        "a": "Tá. Roghnaigh grianghraif le roghnóir grianghraf do ghléis. Coinníonn an aip cóipeanna níos lú ar an ngléas dá ghníomhaíochtaí, ní uaslódálann sé iad agus ní athraíonn sé na bunchóipeanna riamh. Is féidir leat na cóipeanna a bhaint am ar bith."
+      },
+      {
+        "q": "An aip oiliúna inchinne nó tástála cuimhne é?",
+        "a": "Is le haghaidh sult agus am le chéile é Creative Activities. Níl aon scóir nó tástálacha aige, agus ní dhéanann sé néaltrú nó galar Alzheimer a dhiagnóisiú, a chóireáil, a chosc ná a thomhas."
+      },
+      {
+        "q": "Cé na gléasanna a n-oibríonn sé orthu?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "An bhfuil leagan aipe den chluiche seo ann?",
+      "a": "Tá. Tá an meaitseáil pictiúir mhín chéanna ag an aip Creative Activities saor in aisce do iPhone, iPad agus Android, is féidir leat grianghraif teaghlaigh a roghnaíonn tú a úsáid, agus oibríonn sé as líne. Gan cuntas, fógraí ná scór."
+    },
+    "gameFaqNo": {
+      "q": "An bhfuil leagan aipe den chluiche seo ann?",
+      "a": "Ní den chluiche seo. Tá meaitseáil mhín pictiúir ag an aip Creative Activities saor in aisce do iPhone, iPad agus Android le tíleanna móra agus grianghraif teaghlaigh a roghnaíonn tú, agus oibríonn sé as líne. Fanann an cluiche seo saor in aisce anseo i do bhrabhsálaí."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: pictiúir mhóra, chairdiúla",
+    "noscript": "Ní mór JavaScript a chur ar an gcluiche seo i do bhrabhsálaí. Oibríonn na leideanna thíos gan é.",
+    "about": "Maidir {name}",
+    "aboutAria": "Maidir leis an gcluiche seo",
+    "noTimer": "Gan lasc ama nó scór",
+    "printable": "Inphriontáilte",
+    "howTo": "Conas a imirt {name}",
+    "tips": "Leideanna le haghaidh imirt le chéile",
+    "newToPlayingHtml": "Nua le súgradh le duine a bhfuil néaltrú air? Léigh <a href=\"/caregiving/how-to-play-together/\">Conas a cluichí a imirt le chéile</a>, lena n-áirítear cad ba cheart a dhéanamh má chailleann siad ús.",
+    "moreAria": "Tuilleadh le fiosrú",
+    "helpfulGuides": "Treoracha cabhrach",
+    "appTitle": "Seinn é san app",
+    "appText": "Tá meaitseáil mhín pictiúir ag an aip Creative Activities saor in aisce le tíleanna móra agus le grianghraif do theaghlaigh féin, agus oibríonn sé gan Wi-Fi. iPhone, iPad agus Android.",
+    "photoAppTitle": "Coinnigh do ghrianghraif réidh",
+    "photoAppText": "San aip saor in aisce Creative Activities, fanann na grianghraif a roghnaíonn tú ar do ghléas an chéad uair eile, agus oibríonn na cluichí gan Wi-Fi. iPhone, iPad agus Android.",
+    "goodToKnow": "Maith go mbeadh a fhios",
+    "goodToKnowText": "Tá an cluiche seo le haghaidh taitneamh agus am le chéile. Ní dhéanann sé aon rud a thástáil, a thomhas nó a chóireáil.",
+    "moreGames": "Cluichí níos éadroime",
+    "crumb": "Cluichí"
+  }
+}

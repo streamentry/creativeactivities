@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Alu i le ituaiga autu o le itulau",
+    "brandName": "Creative Activities",
+    "brandTag": "Gaioiga mo le dementia",
+    "homeLabel": "Fale o Creative Activities",
+    "mainNav": "Autu",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: ata tetele e faafiafia, o se ipu tī, se lāʻau lanumeamata ma se ʻuli",
+    "languages": "Gagana",
+    "englishOnly": "(Igilisi)",
+    "machineTranslated": "Ua faaliliuina lenei itulau e masini, ma e leʻi iloiloina pea e se tagata e gagana lava ia.",
+    "readOriginal": "Faitau le tusi moni i le gagana Igilisi",
+    "nav": {
+      "games": "Taʻaloga",
+      "activities": "Gaioiga",
+      "caregiving": "Tausiga",
+      "brainHealth": "Soifua maloloina o le mafaufau"
+    },
+    "faqTitle": "Fesili ma tali",
+    "breadcrumb": "Ala o itulau",
+    "home": "Fale",
+    "lastUpdated": "Na faafouina mulimuli",
+    "topics": "Mataupu",
+    "textSize": {
+      "label": "Tele o tusi",
+      "smaller": "Tusi masani",
+      "larger": "Tusi tetele",
+      "contrast": "Eseesega sili atu"
+    }
+  },
+  "footer": {
+    "play": "Taʻalo",
+    "picturePairs": "Paaga ata",
+    "conversationCards": "Pepa talanoaga",
+    "pictureBingo": "Bingo ata",
+    "allGames": "Taʻaloga uma",
+    "pictures": "Ata e mafai ona lolomi",
+    "activityIdeas": "Manatu i gaioiga",
+    "ideas101": "101 manatu i gaioiga",
+    "lateStage": "Gaioiga mo le vaitaimi mulimuli",
+    "printable": "Gaioiga e mafai ona lolomi",
+    "allActivities": "Gaioiga uma",
+    "forCaregivers": "Mo tagata tausi",
+    "playTogether": "Faafefea ona taʻalo faatasi",
+    "selfCare": "Tausia oe lava",
+    "brainHealth": "Suʻesuʻega o le soifua maloloina o le mafaufau",
+    "faq": "Fesili ma tali",
+    "about": "E uiga i matou",
+    "approach": "Auala matou te faia ai",
+    "howWeWrite": "Auala matou te tusia ai",
+    "organizations": "Mo faalapotopotoga",
+    "app": "Le app a Creative Activities",
+    "appHelp": "Fesoasoani i le app",
+    "support": "Lagolago",
+    "legal": "Tulafono",
+    "sitePrivacy": "Faalilolilo o le upegatafa",
+    "appPrivacy": "Faavaega faalilolilo o le app",
+    "privacyChoices": "Filifiliga faalilolilo",
+    "terms": "Tuutuuga ma laisene o le app",
+    "safety": "Saogalemu ma le faamoemoe o le faaaogaina",
+    "accessibility": "Faaaogaina e tagata uma",
+    "healthNotice": "Faamatalaga o le soifua maloloina",
+    "allLegal": "Faamatalaga tulafono uma",
+    "note": "Creative Activities e ofoina mai ai gaioiga faigofie ma faatasi mo le fiafia. E le o fautuaga faafomaʻi, le suʻega poʻo le togafitiga, ma e le suʻesuʻeina, e le fuafuaina foʻi se tagata. Mo fesili e uiga i le soifua maloloina, talanoa i se foma'i. I se faafitauli faafuasei, vala'au i le numera faafuasei o lou atunuu.",
+    "publisher": "Lolomiina e Cloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Taʻaloga ma Gaioiga mo le Dementia ma Alzheimer | Creative Activities",
+    "description": "Taʻaloga ata faamafanafana ma faigofie e taʻalo i luga o le initaneti, ma manatu i gaioiga mo tagata o loo ola ma le dementia poʻo Alzheimer ma o latou tagata tausi. Ua sala, e leai se faaigoaga, taimi poʻo fua.",
+    "eyebrow": "Sala · E leai ni faasalalauga · E leai se faaigoaga · E leai ni taimi poʻo fua",
+    "h1": "Taʻaloga ma Gaioiga Faamafanafana mo Tagata o loo Ola ma le Dementia",
+    "lede": "Taʻaloga ata faigofie, ata e iloa, ma gaioiga e fiafia ai faatasi, i lou lava saosaoa.",
+    "playGame": "Taʻalo se taʻaloga",
+    "findIdeas": "Suʻe manatu i gaioiga",
+    "facts": [
+      "E galue i luga o le telefoni, pelu ma komepiuta",
+      "Ata tetele e tumau ai le vaai",
+      "Faamavae i so o se taimi; e leai se mea e le manuia ai"
+    ],
+    "heroApp": "E iai foi se app sala mo iPhone, iPad ma Android, ma ata o le aiga e te filifilia",
+    "albumNote": "“Ata e lua o le ipu tī, faatasi.”",
+    "gamesEyebrow": "Taʻalo i lou polauisa",
+    "gamesTitle": "Taʻaloga e mafai ona e taʻalo i le taimi nei",
+    "gamesLede": "O nei taʻaloga e filemu, mo tagata matutua, ma e vave ona amata. Filifili se taʻaloga, nofo ma le tasi i le isi, ma tapotapo i taimi e sui ai.",
+    "seeAllGames": "Vaʻai i taʻaloga uma e {count}",
+    "howTitle": "Auala e galue ai",
+    "steps": [
+      {
+        "title": "Filifili se mea e masani ai",
+        "text": "Ata o ipu tī, faatoʻaga, manu fafine ma vaʻa faamalama. E leai se faitau poʻo tulafono e aʻoaʻoina muamua."
+      },
+      {
+        "title": "Nofo ma le tasi i le isi",
+        "text": "Ia tapotapo e latou. Talanoa e uiga i ata. O se ata e le tutusa e faatali seia oo i le tapotapo isi."
+      },
+      {
+        "title": "Faamavae pe a lelei lava",
+        "text": "O se taʻaloga e tasi o se gaioiga atoatoa. “Ua uma mo le taimi” o loo i luga o le mata i taimi uma."
+      }
+    ],
+    "stageEyebrow": "I fafo atu o le mata",
+    "stageTitle": "Manatu i gaioiga mo vaitaimi uma",
+    "stageLede": "Musika, galuega o aso uma, manatu i aso ua mavae, ma ni lagona filemu, ua faagaoioia i mea e lelei ai i le taimi nei.",
+    "ideas101": "101 manatu i gaioiga",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Vaitaimi muamua",
+        "text": "Ia faaauau ona faia mea latou te fiafia i ai, ma suiga laitiiti: faafiafiaga, malaga, taʻaloga upu ma fuafuaga faatasi.",
+        "label": "Manatu i gaioiga o le vaitaimi muamua"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Vaitaimi ogatotonu",
+        "text": "Galuega faigofie ma e masani, vaevaeina i laasaga: faafuli, filifilia, musika, taʻaloga ata ma malaga puupuu.",
+        "label": "Manatu i gaioiga o le vaitaimi ogatotonu"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Vaitaimi mulimuli",
+        "text": "Filemu ma se faafeagaiga e ala i le pa'i, leo ma le vaai: tausiga o lima, pese e fiafia ai, ata ma le nofo faatasi.",
+        "label": "Manatu i gaioiga o le vaitaimi mulimuli"
+      }
+    ],
+    "specificHtml": "Mo se mea faapitoa? Vaʻai i <a href=\"/activities/alzheimers/\">gaioiga ma taʻaloga mo Alzheimer</a>, <a href=\"/activities/memory-games/\">taʻaloga faamanatu filemu</a>, <a href=\"/activities/trivia/\">fesili faigofie</a> poʻo <a href=\"/activities/puzzles/\">puzzle</a>.",
+    "approachEyebrow": "Auala matou te faia ai",
+    "approachTitle": "Se gaioiga e fiafia ai faatasi, e le o se suʻega o le mafaufau",
+    "approachLede": "E tele o “taʻaloga o le mafaufau” e faavae i le saosaoa, fua ma faasologa manuia. Mo se tasi e ola ma le dementia, e mafai ona foliga o se suʻega. Matou te faia le mea e ese.",
+    "approachLink": "Aisea matou te faia ai i lenei auala",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "E leai se mea e le manuia ai",
+        "text": "E leai se uati, fua, ola poʻo le faaumatia. O se ata e ese o se taofiga, e le o se sese."
+      },
+      {
+        "icon": "eye",
+        "title": "Ata e tumau ai le vaai",
+        "text": "Faailoa mai ma le manatua. Faapipiiina e amata i luga ae e leai se mea e manatua ai."
+      },
+      {
+        "icon": "people",
+        "title": "Matua ma le faaaloalo",
+        "text": "Upu filemu ma faigofie, ma ata o le lalolagi moni. E le mafai ona faia ata tala poʻo upu e pei o le tamaiti."
+      },
+      {
+        "icon": "shield",
+        "title": "Faalilolilo e faapea ona faia",
+        "text": "E leai ni faiga poʻo faasalalauga. O au ata e le alu ese mai lau masini."
+      }
+    ],
+    "guidesEyebrow": "Mo tagata tausi",
+    "guidesTitle": "Taʻiala faigofie mo tausiga o aso uma",
+    "allCaregiving": "Taʻiala uma o le tausiga",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Auala e taʻalo ai faatasi",
+        "text": "Sauniga, saosaoa, ma le mea e faia pe a le fiafia ai le taʻaloga."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Pe a teʻa e latou se gaioiga",
+        "text": "Mafuaaga masani o le teteʻa, ma auala faamalie e toe taumafai ai mulimuli ane."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Faatuina se pelu",
+        "text": "Tusi tetele, faalavelave laitiiti ma se itulau faigofie e tasi."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Gaioiga sala e mafai ona lolomi",
+        "text": "Suʻega upu ma tusi tetele, ata e lanu ai, bingo ma pepa talanoaga."
+      }
+    ],
+    "researchTitle": "Soifua maloloina o le mafaufau: o le mea moni e faapea mai ai suʻesuʻega",
+    "researchText": "E mafai ona puipuia le dementia? E fesoasoani taʻaloga o le mafaufau? Ia te le o le faamalosi i le ola, moe ma le faalogo? Tali faigofie ma faavae i suʻesuʻega, e aofia ai pe a vaivai le faamaoniga.",
+    "researchLink": "Faitau taʻiala o suʻesuʻega",
+    "appEyebrow": "E iai foi se app",
+    "appTitle": "Creative Activities i iPhone, iPad ma Android",
+    "appText": "O le app sala e galue e aunoa ma le initaneti ma e mafai ona faaaogaina ata o le aiga e te filifilia, o loo teuina e fai ma kopi i lou masini. Faapena le mamanu filemu: fa tile tetele, e leai se taimi, e leai se fua.",
+    "aboutApp": "E uiga i le app",
+    "faq": [
+      {
+        "q": "O ā taʻaloga lelei mo tagata o loo ola ma le dementia?",
+        "a": "O taʻaloga lelei e faigofie, e masani ai, ma e leai ni faamamafa: ata tetele e fetaui ai, faavasegaina, puzzle faigofie, faauma upu masani, faamaʻa ata lanu, bingo o ata ma pepa feutagaiga. O le filifiliga sili o le taʻaloga e fiafia ai le tagata i lenei aso. Ia taʻalo ese mai taimi, sikoa ma mea e lagona ai e pei o se suʻesuʻega."
+      },
+      {
+        "q": "E leai ni totogi nei taʻaloga mo le dementia?",
+        "a": "Ioe. O taʻaloga uma ma pepa e lolomi i Creative Activities e leai ni totogi, e leai se tala, lesitala po se download. E taʻalo taʻaloga i le upega tafaʻilagi i le telefoni, teuteu po komepiuta."
+      },
+      {
+        "q": "E puipuia ea e taʻaloga o le mafaufau le dementia?",
+        "a": "Leai se taʻaloga ua faaalia e puipuia ai le dementia, ma e le fai mai Creative Activities e faamaʻi pe puipuia so o se mea. O a matou taʻaloga mo le fiafia ma le taimi faatasi. O le vaega o le soifua maloloina o le mafaufau e faamatala ai le mea e faaalia e suʻesuʻega ma le mea e le o faaalia."
+      },
+      {
+        "q": "E fetaui ea nei taʻaloga mo se tagata ua ma'i i le Alzheimer's?",
+        "a": "Ioe. O le Alzheimer's o le mea e sili ona masani ai le dementia, ma o taʻaloga ua faia mo ai: ata tetele e tumau ai le vaaiga, filifiliga itiiti, ma le leai o mea e manatua pe sese ai. Fetaʻi, faavasegaina ma le faauma o upu masani e faalagolago i le poto ua aoga mai e umi, nai lo le aʻoaʻoina o mea fou."
+      },
+      {
+        "q": "E mafai ea e tagata i le vaitaimi mulimuli o le dementia ona faaaogā nei galuega?",
+        "a": "Masani ai, ioe, pe a i ai se tasi e nofo latou. Amata i le Find the same ma ata e lua, Picture pairs ma pusa e fa, se pepa lanu po se faamalologa o le manava e filemu. Ia puupuu, mulimuli i lona taʻitaʻi, ma faamuta pe a ua mamao lava."
+      },
+      {
+        "q": "E filemu ea faamatalaga o aʻu?",
+        "a": "E leai ni tala ma e leai ni faasalalauga i le upega. E matou faaaogā le Google Analytics e iloa ai itulau e asiasia ai tagata. Ata e te filifilia mo Photo pairs e faaaliaina naʻo i lau polokalame o le tafaʻilagi ma e le uluina lava."
+      },
+      {
+        "q": "O ai e faia Creative Activities?",
+        "a": "O Creative Activities o se vaega itiiti e faia ai gaioiga filemu ma mo tagata matutua mo aiga ma tausitagata, i luga o le upega tafaʻilagi ma o se polokalame e leai ni totogi. Matou te le o ni fomaʻi, ma e leai se fautuaga faafomaʻi i mea uma iinei."
+      }
+    ]
+  },
+  "stage": {
+    "early": "amata",
+    "middle": "ogatotonu",
+    "late": "mulimuli",
+    "hintOne": "Masani ona fetaui ma le vaitaimi {list}",
+    "hintMany": "Masani ona fetaui ma vaitaimi {list}",
+    "labelEarly": "Vaitaimi amata",
+    "labelMiddle": "Vaitaimi ogatotonu",
+    "labelLate": "Vaitaimi mulimuli"
+  },
+  "cards": {
+    "aboutGame": "Faamatalaga e uiga i lenei taʻaloga",
+    "printable": "Pepa e mafai ona lolomi",
+    "play": "Taʻalo {name} →",
+    "readGuide": "Faitau le taʻiala"
+  },
+  "playCta": {
+    "title": "Sa e sauni mo se taʻaloga filemu?",
+    "text": "Ata tetele, e leai se taimi, e leai se sikoa ma e leai se mea e tatau ona e lesitala ai. Taʻalo faatasi i lau polokalame o le tafaʻilagi.",
+    "play": "Taʻalo se Taʻaloga",
+    "all": "Vaʻai i taʻaloga uma",
+    "aria": "Taʻalo se taʻaloga"
+  },
+  "appCta": {
+    "title": "Ave nei taʻaloga ma oe",
+    "text": "O le polokalame o Creative Activities e leai ni totogi mo iPhone, iPad ma Android: ata tetele, taʻaloga ma ata o lou aiga, ma pusa ata e mafai ona faaaogā e leai le Wi‑Fi. E leai se tala, faasalalauga, taimi po sikoa.",
+    "appStore": "Maua i le App Store",
+    "googlePlay": "Maua i le Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Faamatalaga e uiga i le polokalame",
+    "aria": "Maua le polokalame"
+  },
+  "sections": {
+    "activities": {
+      "label": "Gaioiga",
+      "title": "Gaioiga mo Tagata e Ola ma le Dementia",
+      "seo": "Gaioiga mo Tagata e Ola ma le Dementia: Manatu e Ala i Vaitaimi",
+      "description": "Manatu o gaioiga mo tagata e ola ma le dementia i vaitaimi uma: musika, faamanatuga, galuega o aso uma, taimi o le lagona, galuega lima, le tau i fafo ma pepa e mafai ona lolomi e leai se totogi.",
+      "lede": "O gaioiga e aoga o mea uma e avatu ai le filemu, se mea e taua po o se taimi o le feso'ota'iga. Amata i mea ua fiafia i ai le tagata talu ai, ma faafetaiaina i le aso nei."
+    },
+    "caregiving": {
+      "label": "Tausiga",
+      "title": "Taʻiala mo le Tausiga",
+      "seo": "Taʻiala mo le Tausiga o le Dementia: Fesoasoani Faigofie i Aso Uma",
+      "description": "Taʻiala faigofie ma alofa mo le tausiga o le dementia: taʻaloga faatasi, feutagaiga, musuia, faalavelave i le afiafi, teuteu, filifiliga o polokalame ma le tausiga o oe lava.",
+      "lede": "Fesoasoani faigofie ma aoga mo taimi masani o le tausiga o se tasi e ola ma le dementia, e aofia ai le tausiga o oe lava."
+    },
+    "brain-health": {
+      "label": "Soifua maloloina o le mafaufau",
+      "title": "Soifua Maloloina o le Mafaufau: O le Mea e Faaalia e le Suʻesuʻega",
+      "seo": "Soifua Maloloina o le Mafaufau ma le Lamatia o le Dementia: O le Mea e Faaalia e Suʻesuʻega",
+      "description": "E mafai ea ona puipuia le dementia? Taʻiala moni e faavaeina i faamaoniga e uiga i mea e faalavelave ai le lamatia o le dementia, taʻaloga o le mafaufau, faasaʻa, meaʻai, gaioiga tino, moe, faalogo ma faailoga muamua.",
+      "lede": "O le mea e faaalia e suʻesuʻega tetele e uiga i le faaitiitia o le lamatia o le dementia, faamatalaina faigofie, e aofia ai le mea e vaivai ai le faamaoniga po o le le manino. Faamatalaga lautele, ae le o fautuaga faafomaʻi."
+    }
+  },
+  "guide": {
+    "updated": "Faafouina",
+    "minuteRead": "Faitau i le {n} minute",
+    "byTeam": "E le au a Creative Activities",
+    "howWeWrite": "Auala o matou tusitusi",
+    "shortAnswer": "Tali puupuu",
+    "onThisPage": "I lenei itulau ({n} vaega)",
+    "commonQuestions": "Fesili masani",
+    "sources": "Faamaoniga",
+    "sourcesNote": "Matou te faafeso'ota'i atu i faalapotopotoga ma suʻesuʻega o loo faalagolago ai lenei itulau. O mea uma na siaki i le taimi na faafouina ai le itulau.",
+    "tryTogether": "Faataʻitaʻi faatasi",
+    "relatedGuides": "Taʻiala e fesootai",
+    "related": "E fesootai",
+    "startHere": "Amata iinei"
+  },
+  "healthNotice": {
+    "aria": "Faamatalaga e uiga i le soifua maloloina",
+    "title": "Faamatalaga lautele, ae le o fautuaga faafomaʻi",
+    "textHtml": "O lenei itulau o se aotelega o suʻesuʻega ua lomia mo aiga. E le mafai ona faamatala mai e uiga i le mea sa'o mo se tagata. Ia talanoa i se fomaʻi a e le'i suia le meaʻai, gaioiga tino, moe, vailaʻau po faaopoopo. Mo le faalavelave vave o le le malamalama po isi suiga vave, ia maua le fesoasoani faafomaʻi i le taimi lava lea. <a href=\"/medical-disclaimer/\">Faitau la matou faamatalaga e uiga i le soifua maloloina</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "O se Gaioiga Faatasi, ae Le o se Suʻesuʻega o le Mafaufau",
+      "seoTitle": "E uiga i Creative Activities: O Matou Auala",
+      "description": "Aisea e leai ai ni taimi, sikoa po faasologa o taʻaloga a Creative Activities, aisea e tumau ai ata i le vaaiga, ma le mea matou te le faamaoniaina e uiga i le dementia.",
+      "crumb": "O matou auala",
+      "lede": "Creative Activities e faia ai gaioiga filemu ma ata mo tagata matutua, e mafai ona fiafia ai le tausitagata ma le tagata e ola ma le dementia faatasi.",
+      "bodyHtml": "<h2>O le mea e talitonu ai matou</h2><p>O le uiga autū o se gaoioiga o le taimi lava lea: se talanoaga, se susū, le fiafia o le faʻatasiga o ata e lua, pe na o le nofo latalata. E lē o le mea lea e fuafua ai se tagata, faʻamalosi atu i luma, pe faʻamaonia ni mea.</p><p>E toatele pulega o taʻaloga e faʻavaeina i le saoasaoa, sikoa, faasologa o manumalo ma tulaga. Mo se tagata e ola ma le dementia, o lena mea e mafai ona foliga o se suʻesuʻega e lē mafai ona manumalo ai. Ua matou fuafua le mea e eseese, ma ua matou tausisia nei tulafono:</p><ul><li><strong>E leai se mea e faaseseina ai.</strong> E leai se uati, sikoa, faitaimi, sootaga o faʻaiʻuga, faiʻai fou, faʻailoga pepe po o faitaimi i so o se mata.</li><li><strong>Ata mo le manatu faʻaaogā, e lē o le manatua.</strong> O ata e tumau ona faʻaalia e masani ai. O fesili e faʻafeiloaʻi ai talanoaga ma e lē faʻasalalau fesili e uiga i igoa po manatu.</li><li><strong>Tetele, faigofie ma tumau.</strong> Tusitusi ma ata tetele, faʻaaliga maualuga, ma pine e tumau i le mea lava lea.</li><li><strong>Faʻaaloalo i le tagata matua.</strong> Ata moni o le olaga ma upu faigofie ma mafanafana. E lē o ni ata tala, pese faʻafiafia po faʻailoga emoji.</li><li><strong>Auala faigofie e tuʻu ai.</strong> “E faʻamaeʻa mo le taimi ini” o loo faʻaalia i taimi uma. O le taofi i le ogatotonu o se taʻaloga o se iʻuga lelei.</li><li><strong>Faufale i le faʻalilolilo.</strong> E leai ni tala po faʻasalalauga. O ata e filifilia e oe o loo tumau i lou masini.</li></ul><h2>O mea matou te lē finau ai</h2><p>O a matou taʻaloga e mo le fiafia ma le sootaga. E lē faʻamaonia, suʻesuʻeina, fuafuaina, togafitia, faʻaitiitia po puipuiina le dementia po le Alzheimer’s disease, ma e lē tatau ona filifilia i latou mo lena mafuaʻaga. Pe a matou tusi e uiga i suʻesuʻega i <a href=\"/brain-health/\">itulau o le soifua maloloina o le mafaufau</a>, matou te taʻu manino pe a vaivai le faamaoniga, ma e lē matou faafesoʻotaʻi ia mea i a matou taʻaloga.</p><h2>O ai matou</h2><p>Creative Activities o se vaega laʻititi tuʻufaʻatasi e lē tuʻuina i se pule. E lē o matou foma’i. O a matou taʻiala e tusia mai i taʻiala lomiga mai faʻalapotopotoga e pei o le National Institute on Aging ma le Alzheimer’s Association, ma o taʻiala uma e lisi ai a latou punavai. Faitau le <a href=\"/editorial-policy/\">auala matou te tusi ai ma siaki ai a matou itulau</a>.</p><h2>Ia faʻailoa mai le mea e aoga</h2><p>E matuā fiafia matou e faʻalogo i mea e aoga ma mea e lē aoga ia te oe, aemaise lava mai tagata e ola ma le dementia, tausi aiga ma tagata faigaluega o gaoioiga. Imeli i <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Auala Matou te Tusi ai ma Siaki ai a Matou Itulau",
+      "seoTitle": "Faiga Tusitusi",
+      "description": "Auala Creative Activities e suʻesuʻe, tusi, faʻamaonia punavai ma faʻafou ai ana itulau o gaoioiga mo le dementia ma le soifua maloloina o le mafaufau, ma mea matou te lē lomia lava.",
+      "crumb": "Faiga tusitusi",
+      "bodyHtml": "<h2>O a matou punavai</h2><p>E faavae a matou taʻiala i faʻatonuga lautele mai faʻalapotopotoga e pei o le National Institute on Aging, le CDC, le Alzheimer’s Association, le Alzheimer’s Foundation of America, le Family Caregiver Alliance ma le NHS, ma i suʻesuʻega tusitala o loo faʻamaonia e pei o iloiloga Cochrane ma suʻesuʻega tetele o togafitiga. O taʻiala uma e lisi ai punavai latou te faalagolago ai. Matou te tatala muamua i se punavai aʻo lei taʻua, ma matou te taʻu naʻo le mea e faapea mai ai.</p><h2>Auala matou te tusi ai</h2><ul><li>Faʻaaogaina muamua: le mea e faia i aso nei, i upu faigofie.</li><li>Moni i faamaoniga: matou te faaaogaina “e faafesoʻotaʻi ma”, “e mafai” ma “o faamaoniga e eseese” pe a faapea moni.</li><li>Faʻaaloalo: matou te tusi e uiga i tagata e ola ma le dementia e pei o tagata matutua, ma e lē faaaogaina ai upu faʻasalalau po faʻamaʻaʻa.</li><li>E leai ni mea faʻatupu: e leai ni fuainumera, upu, tagata poʻo suʻesuʻega, iloiloga po molimau faʻatupu.</li></ul><h2>O ai e iloilo a matou itulau</h2><p>E tusia ma siakiina itulau e le vaega o Creative Activities, faatasi ai ma le fesoasoani a meafaigaluega AI mo suʻesuʻega ma le tusitusi. O itulau uma e siakiina e le vaega i a latou punavai. O a matou itulau <strong>e lē</strong> o iloilo e se foma’i po se isi tagata foma’i, ma matou te lē taʻua faapea. O loo i ai nei faʻamatalaga lautele, e lē o ni fautua faafomaʻi.</p><h2>O mea matou te lē lomia lava</h2><ul><li>Finauga e faapea o se taʻaloga, meaʻai, faʻaopoopoga, faasaga po faiga o le aso e puipuia, togafitia, faaitiitia po faaola ai le dementia.</li><li>Suʻesuʻega, fesili po sikoa e faaalia ai pe o loo i ai pe leai le dementia i se tagata.</li><li>Fautua e amata, taofi po suia ai so o se vaaiga.</li><li>Faʻasalalauga po mea faʻatau nanu i totonu o taʻiala.</li></ul><h2>Faafouga ma toe faasaʻo</h2><p>O itulau uma e faaalia ai le aso na faafouina ai mulimuli. Afai e te iloa se sese po se punavai ua tuai, faamolemole imeli i <a href=\"mailto:{email}\">{email}</a> ma matou te siaki vave ai.</p>"
+    },
+    "faq": {
+      "title": "Fesili ma Tali",
+      "seoTitle": "Taʻaloga ma Gaoioiga mo le Dementia: Fesili ma Tali",
+      "description": "Tali i fesili masani e uiga i taʻaloga ma gaoioiga mo le dementia: o taʻaloga e tau tofotofo, e fia le umi o le taʻaloga, manatu mo tulaga mulimuli, soifua maloloina o le mafaufau ma le puipuiga o faamatalaga patino.",
+      "crumb": "Fesili ma tali",
+      "lede": "Tali puupuu ma faigofie i fesili e sili ona fesiligia e tausi aiga.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "E uiga i taʻaloga",
+          "items": [
+            {
+              "q": "O taʻaloga sili mo se tagata e ola ma le dementia o ā?",
+              "a": "O taʻaloga sili ona lelei o ni taʻaloga masani, faigofie ma e leai se faʻamalosiaga, ma o le taʻaloga sili mo le aso lava lea o le mea e fiafia ai le tagata. O le tatau o ata e faaaliga, faʻasologa, tapuni faigofie, faʻaiʻuina o upu masani, faʻaloaloa lanu ma le bingo o ata e aoga mo le toatele. Ia alu ese mai taimi, sikoa ma mea e foliga o se suʻesuʻega."
+            },
+            {
+              "q": "E moni lava ea e leai se totogi o taʻaloga?",
+              "a": "Ioe. O taaloga uma ma pepa e ata e saoloto, e leai ni konte, ni lesitala, ni download po ni faasalalauga."
+            },
+            {
+              "q": "Aisea e leai ai ni sikoa, ni tulaga po ni taimi?",
+              "a": "O le saoasaoina ma sikoa e liliu ai se gaioiga fiafia i se suega, lea e mafai ona oo ai i le maasiasi po le faanoanoa. Matou te faamautu le taulaʻi i le fiafia ma le taimi faatasi, ina ia leai se mea e le manuia ai, ma e mafai ona e taofi i so o se taimi."
+            },
+            {
+              "q": "O ā masini e sili ona lelei?",
+              "a": "O so o se telefoni, teleti po komepiuta e iai se polaseli fou o le initaneti. O le teleti e tu i luga o se faamau i le laulau e masani ona sili ona faafiafia mo tagata e lua e taaloga tutasi. O se laptop e fesoʻotaʻi i se TV e lelei mo vaega tetele."
+            },
+            {
+              "q": "E mafai ea ona matou taaloga ma ata a lo matou aiga?",
+              "a": "Ioe. Faatusa ata e liliu ai ata e 2 i le 6 ua e filifilia i se taaloga faatusa. O ata e nofo i lou polaseli, e le lafoina ma e le teuina."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Gaioiga ma le tausiga",
+          "items": [
+            {
+              "q": "Pe fia taimi e tatau ona faaauau ai se gaioiga?",
+              "a": "E masani ona lava le 10 i le 20 minute, ma i nisi taimi o le 2 minute e avea ma manuia. Matamata mo faailoga o le vaivai po le faanoanoa ma taofi ae lelei pea le lagona. E leai se aofaʻi sa'o."
+            },
+            {
+              "q": "E faapefea pe a le fia faia e le tagata se gaioiga?",
+              "a": "Faaaloalo i le le fiafia ma taumafai i se isi taimi po i se isi auala. O le le talia e mafai ona mai i le vaivai, le tiga, le lagona e le mautinoa po le le fiafia lava. Va'ai i lo matou taʻiala e uiga i le tulaga o le faaali mai e le fiafia."
+            },
+            {
+              "q": "O ā gaioiga e fetaui ma le tulaga mulimuli o le dementia?",
+              "a": "Faafiafia ma lagona: faalogo i pese e fiafia ai, faamasaʻi lima i le suāvai, vaʻai faatasi i ata, faamau se ie vevela, nofo i fafo, po se taaloga faigofie o ata ma se tasi e nofo i le itu. O lo matou taʻiala mo le tulaga mulimuli e iai ni manatu atili."
+            },
+            {
+              "q": "E iai ea gaioiga mo vaega i fale tausiga?",
+              "a": "Ioe. E iai le Bingo ata ma pepa e lolomi ai ma se tagata e vala'au i luga o le skrin, ma o le Faamaeaina le upu o le faaupuga ma Kata talanoaga e lelei pe a faitau leoleo. O lo matou taʻiala mo vaega i fale tausiga o loo faamatala ai le aofaʻi o le vaega, nofoaga ma le faaliliu mo tagata e eseese le malosi."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Soifua maloloina o le mafaufau",
+          "items": [
+            {
+              "q": "E mafai ea ona puipuia pe faaitiitia e taaloga le dementia?",
+              "a": "Leai se taaloga ua faaalia e puipuia ai le dementia, ma o matou taaloga e leai se faapaupau faapena. O le faaosoosoina o le mafaufau i se nofoaga faʻaleagaga ua faaali mai i suesuega o ni manuia laʻititi mo tagata i le tulaga laʻititi e oo i le ogatotonu o le dementia, ae o lena e eseese mai le taaloga e puipuia ai le faamaʻi. Matou te tuʻuina atu taaloga mo le fiafia ma le sosoo faatasi."
+            },
+            {
+              "q": "E mafai ea ona puipuia le dementia?",
+              "a": "Leai se mea e mautinoa. Suesuega e fesoʻotaʻi ai le 14 mea o le soifua maloloina ma le olaga ma le tulaga o le dementia, e pei o le faaleaogaina o le faalogo, le toto maualuga, le le gaoioia o le tino ma le tuʻufaʻatasia ma tagata. O le toe faaleleia o nei mea e mafai ona faaitiitia ai le tulaga o le lamatia mo nisi tagata, ae o le tele o tagata e faia uma mea sa tatau e maua pea i le dementia. E le o se sese o se tasi lava."
+            },
+            {
+              "q": "E lelei ea le fasting taimi-taimi mo le soifua maloloina o le mafaufau?",
+              "a": "O faamaoniga mai tagata e itiiti ma e amata pea, ma o le tele o suesuega i manu. O le aunoa mai meaʻai e lamatia mo tagata matutua, aemaise lava pe a faatasi ma vailaʻau mo le suka po le paʻu o le tino e le manaʻomia. E le fautuaina mo tagata e ola ma le dementia. Talanoa ma se fomai a'o le liliu lau auala o le ʻai."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Faalagolago ma le saogalemu",
+          "items": [
+            {
+              "q": "E te aoina ea ni faamatalaga?",
+              "a": "Leai ni konte po ni faasalalauga. Matou te faaaogā le Google Analytics e faitau ai asiasiga ma iloa ai o itulau e fesoasoani, ma o lau polaseli e manatua pe na e filifili e ave le leo malulu. O ata e filifilia mo Faatusa ata e le lafoina lava. Va'ai i le faamatalaga o le faalilolilo mo faamatalaga atili."
+            },
+            {
+              "q": "E ose fautuaga fomai ea lenei?",
+              "a": "Leai. O Creative Activities mo le taaloga ma faamatalaga lautele. Mo fesili e uiga i le soifua maloloina, talanoa ma se fomai, ma mo faalavelave faafuasei, valaau i le numera faafuasei o lou atunuu."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Faamatalaga atili: <a href=\"/caregiving/how-to-play-together/\">o le auala e taaloga ai faatasi</a>, <a href=\"/caregiving/when-they-say-no/\">a o le le fia faia</a>, <a href=\"/activities/late-stage/\">gaioiga mo le tulaga mulimuli</a> ma <a href=\"/brain-health/can-dementia-be-prevented/\">e mafai ea ona puipuia le dementia?</a>"
+    },
+    "handout": {
+      "title": "Taaloga Saoloto ma Malulu mo Tagata e Ola ma le Dementia",
+      "seoTitle": "Lomiga Lolomi: Taaloga Saoloto o le Dementia i luga o le Initaneti",
+      "description": "Itulau e tasi e mafai ona lolomi mo aiga ma tausimea, e uiga i taaloga ata saoloto ma malulu mo tagata e ola ma le dementia, mo vaega lagolago ma ofeina tausiga.",
+      "crumb": "Lomiga lolomi",
+      "lede": "Lolomi lenei itulau mo se vaega lagolago, se ofeina tausiga po le faitoto o le aisa. Faaaoga le fuafuaga Lolomi o lau polaseli; o mea faʻafoʻi ma pulouga e aveesea mai le lomiga.",
+      "introHtml": "<p>Ata tetele, upu faigofie, ma e leai se mea e le manuia ai. E saoloto i luga o se telefoni, teleti po komepiuta, e leai se sainiga, se faasalalauga, se taimi po ni sikoa. Nofo tutasi ma liliu le sui.</p>",
+      "gamesTitle": "Taaloga e taaloga faatasi",
+      "restHtml": "<h2>Ni fautuaga laʻititi</h2><ul><li>Filifili se taimi o le aso pe a sili ona lelei le tagata.</li><li>Amata i le faigofie sili. Fa faʻailoga e lava.</li><li>Talanoa e uiga i ata. O le talanoaga e masani ona sili ona lelei.</li><li>Taofi a'o lelei pea le lagona. O le faaiʻuina i le vave o se iʻuga lelei.</li></ul><h2>Isi mea i lenei nofoaga</h2><ul><li>Lomiga saoloto: upu e tafi i pepa tetele, itulau e lanu, kata talanoaga ma bingo ata.</li><li>Manatu e uiga i gaioiga mo tulaga uma, ma taʻiala e uiga i le taaloga faatasi ma le tausiaina o oe lava.</li></ul><p class=\"muted\">Mo le fiafia ma le taimi faatasi. E le o se fautuaga fomai, se suega po se togafitiga. Creative Activities e lomia e Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Mo Fale Tausiga, Faletusi ma Vaega Lagolago",
+      "seoTitle": "Gaoioiga e Leai se Totogi mo le Dementia mo Fale Tausi ma Vaega",
+      "description": "Pe faapefea ona faaaogā e fale tausi, polokalame o le aso mo tagata matutua, faletusi, ofisa o tagata matutua ma vaega lagolago a matou taaloga e leai se totogi mo le dementia, faapea ma upu e faaopoopo ai matou i lau lisi o punavai.",
+      "crumb": "Mo faalapotopotoga",
+      "lede": "O mea uma i lenei upega e leai se totogi e faaaogā ma tagata nofo i fale, sui o vaega ma tagata e tausia, e leai se faaigoaga, laisene po o totogi. O lenei itulau o loo faamatalaina ai mea o loo iai ma pe faapefea ona faasoa atu.",
+      "shortText": "{name}: taaloga ata e fiafia ai ma taʻiala faigofie o gaoioiga mo tagata o loo ola ma le dementia ma e tausia i latou. E leai se faaigoaga, e leai ni tauaofi, e leai ni fua.",
+      "longText": "{name} ({domain}) o loo ofoina mai ai taaloga {count} e leai se totogi i le browser, na faia mo tagata o loo ola ma le dementia. E aofia ai le faatapulaaina o ata paaga ma ata o loo tumau ona vaaia, puzzle faigofie, faavasegaina, upu masani ma bingo o ata ma pepa e mafai ona lolomi. E leai se faamaumauga, faasalalauga, tauaofi po o fua. O le upega foi o loo i ai taʻiala faigofie o gaoioiga mo itu taʻitasi o le dementia, o loo faalagolago i le National Institute on Aging ma le Alzheimer's Association.",
+      "useTitle": "Mea e mafai ona faaaogā e faalapotopotoga",
+      "gamesItemHtml": "<strong>taaloga i le browser {count}</strong> e mafai ona taʻavale i le laptop, male po o le TV e fesoʻotaʻi ma le komepiuta. E leai se faapipiiina, faamaumauga po o le download. Vaai i <a href=\"/games/\">taaloga uma</a>.",
+      "printablesLabel": "pepa e mafai ona lolomi e {count}:",
+      "printablesAfter": "Faaaogā le pātene Print i itulau taʻitasi.",
+      "moreItemsHtml": "<li><strong>Faiga o vaega:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> o loo i ai pepa e mafai ona lolomi ma se tagata e valaaulia numera i luga o le sikalini, ma <a href=\"/activities/trivia/\">easy trivia</a> o loo i ai fesili e 50 ma filifiliga o tali ma mataupu e talanoa ai.</li><li><strong>Taʻiala o gaoioiga</strong> mo tagata faigaluega ma aiga, faasolo i itu o le ola ma ituaiga, tusia i upu faigofie ma punavai. Amata i <a href=\"/activities/ideas/\">101 manatu o gaoioiga</a> po o <a href=\"/activities/care-home-groups/\">gaoioiga mo vaega i fale tausi</a>.</li>",
+      "restHtml": "<h2>Pe faapefea ona faaaogā e vaega</h2><ul><li><strong>Fale tausi ma tausiga o le manatu:</strong> picture bingo po o le faaiʻuina o upu masani i le TV o le potu e tele ai tagata, ma se tasi e pa'i le sikalini mo le vaega.</li><li><strong>Polokalame o le aso mo tagata matutua:</strong> nofoaga ma se tablet ma Picture pairs e fa mea o ata, mo feiloaiga puupuu le tasi-i-le-tasi.</li><li><strong>Faletusi a le lautele:</strong> pepa o taaloga upu ma pepa talanoa i pusa o manatu, ma le upega o loo saienia i tablets o faletusi.</li><li><strong>Vaega lagolago a tagata tausi ma fale kofe o le manatu:</strong> <a href=\"/handout/\">pepa tusi e itulau e tasi e mafai ona lolomi</a> mo aiga e ave i le fale.</li><li><strong>Falemaʻi ma tagata fuafuaina o le toe foi i le fale:</strong> pepa lea i totonu o fagota o tausiga, mo se mea e filemu ai e faia i le fale po i tafatafa o le moega.</li></ul><h2>O mea matou te le faia</h2><p>O taaloga o loo mo le fiafia ma le taimi faatasi. E le faamaonia, suʻesuʻeina, faitaulaina, togafitia po faaitiitia le dementia, ma matou te fai atu i faalapotopotoga aua neʻi faamatala i lea auala. E leai ni faasalalauga, ma taaloga e le fesili mo igoa, faamatalaga o le soifua maloloina po o ata e uluina. O le upega e faaaogā le Google Analytics e faitau ai asiasiga; o lo matou <a href=\"/privacy/\">faamatalaga o le puipuiga</a> o loo faamatalaina ai le mea e aoina. O ata e faaaogā i <a href=\"/games/photo-pairs/\">Photo pairs</a> e tumau i totonu o le browser.</p><h2>Faaopoopo i matou i lau lisi o punavai</h2><p>Afai e te tausia se lisi o punavai mo tagata tausi, e malu e te faafesoʻotaʻi atu i <a href=\"/\">{domain}</a>. E mafai ona e kopiina so o se tasi o faamatalaga.</p>",
+      "shortTitle": "Faamatalaga puupuu",
+      "longTitle": "Faamatalaga atoatoa",
+      "linksHtml": "<p>Itulau aoga e mafai ona e fesoʻotaʻi atu i ai: <a href=\"/games/\">taaloga e leai se totogi</a>, <a href=\"/activities/printable/\">pepa e mafai ona lolomi e leai se totogi</a>, <a href=\"/activities/alzheimers/\">gaoioiga mo le Alzheimer's</a> ma <a href=\"/caregiving/how-to-play-together/\">pe faapefea ona taaloga faatasi</a>.</p><h2>Fesili pe toe faasaʻo</h2><p>Afai e sese pe le manino se mea i le upega, pe e le fetaui manaoga o se tagata i mea o loo iai, faamolemole faafesoʻotaʻi mai ia matou i <a href=\"mailto:{email}\">{email}</a>. Faamolemole aua le auina mai faamatalaga o le soifua maloloina po o faamatalaga patino e uiga i tagata.</p>"
+    },
+    "app": {
+      "title": "Le App a Creative Activities",
+      "seoTitle": "Le App a Creative Activities mo iPhone ma Android",
+      "description": "Le app e leai se totogi a Creative Activities: faʻatatau faigofie o ata ma pusa tele e fa, ata aiga e teuina i lou masini, pusa o ata e mafai ona faaaogā e leai se upega, ma e leai se faaigoaga.",
+      "crumb": "Le app",
+      "lede": "O mea uma e te fiafia i ai i le upega, i se app e galue e leai se upega ma e mafai ona faaaogā ai ata aiga na e filifilia.",
+      "worksOn": "E galue i {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Amata i le laʻititi</h2><p>Amata i ni fasi tetele e fa ma ata e iloa lelei e le tagata. Ia tumau ona vaaia ata, pe natia pe a lelei ai i lou tagata. E leai se taimi, se fua poʻo se faasalaga i le auala malu. Filifili 4, 6, 8 pe 12 fasi.</p><h2>Faia e pei o lo outou aiga</h2><p>Filifili ata o le aiga e ala i le filifilia a lau masini. O le app e teuina ai kopi laʻititi mo ana gaioiga. E le suʻesuʻeina lau faaputuga o ata, e le suia foi ata moni, ma e oo i le 24 ata i le tasi faaputuga.</p><h2>Matou vaai faatasi</h2><p>Vaai i se ata i le taimi. Ua filifilia ni fesili e faaauau ai le talanoa, e aunoa ma le fai atu i se tasi ia manatua igoa poʻo ia tali saʻo. O le vaai faatasi e lava.</p><h2>Faaaogaina e aunoa ma le initaneti, pe a taua</h2><p>O ata amata ma faaputuga e valu o ata ua aofia i le app. O kopi o ata o le aiga e galue e aunoa ma le initaneti. O le filifiliina o ata o loo teuina na o le iCloud e ono manaʻomia ai le initaneti.</p><h2>E leai se account, e leai se sapalai o ata i luga o le initaneti</h2><p>O kopi o ata o le aiga e tumau i totonu o le app i le masini. E mafai ona e aveese kopi e aunoa ma le faaumatia o ata moni. O faasaoga o masini e ono aofia ai faamatalaga o le app. Faitau le <a href=\"/app-privacy/\">faamatalaga o le faalilolilo o le app</a>, ma o le <a href=\"/help/\">fesoasoani o le app</a> e taʻitaʻia ai i each laasaga.</p>",
+      "disclaimer": "Creative Activities e mo le fiafia ma talanoaga faatasi. E le suʻesuʻeina, le togafitia, le puipuiina pe le fuaina le dementia poʻo le Alzheimer’s.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Taʻaloga Dementia ma Alzheimer’s e Aunoa ma Totogi i luga o le Initaneti",
+    "description": "Taʻaloga e aunoa ma totogi i luga o le initaneti mo toeaina e ola ma le dementia poʻo le Alzheimer’s: fetaiga ata, faʻapipiʻi faigofie, faavasegaina, upu faataoto, vali, bingo. E leai se resitala, taimi poʻo fua.",
+    "crumb": "Taʻaloga",
+    "h1": "Taʻaloga Malu mo Tagata e Ola ma le Dementia",
+    "lede": "{count} taʻaloga e aunoa ma totogi e taʻalo faatasi i lau polokalame o le initaneti. Ata tetele, upu faigofie, ma e leai se mea e faaseseina ai: e leai ni taimi, fua poʻo le resitala.",
+    "listName": "Taʻaloga malu mo tagata e ola ma le dementia",
+    "byStageTitle": "Filifiliga o taʻaloga e tusa ma le tulaga",
+    "byStageLede": "O tulaga o se taʻiala laʻititi lava. Mulimuli i mea e fiafia ai le tagata ma mea e lelei ai i lenei aso.",
+    "stageCol": "Tulaga",
+    "gamesCol": "Taʻaloga e masani ona fetaui",
+    "moreHtml": "Isi manatu e aunoa ma le screen: <a href=\"/activities/ideas/\">101 gaioiga mo tagata e ola ma le dementia</a>, <a href=\"/activities/alzheimers/\">gaioiga ma taʻaloga mo le Alzheimer’s</a>, <a href=\"/activities/memory-games/\">taʻaloga faamanatu malu</a> ma <a href=\"/activities/puzzles/\">faʻafitauli</a>.",
+    "faq": [
+      {
+        "q": "O le taʻaloga faʻapitoa e amata ai?",
+        "a": "Picture pairs ma fasi e fa o se filifiliga malie muamua. Afai e foliga ua faigata le filifili i ata, taumafai i le Find the same ma ata e lua. Mo se vaega, taumafai i le Picture bingo."
+      },
+      {
+        "q": "E galue taʻaloga i le iPad poʻo le telefoni?",
+        "a": "Ioe. O taʻaloga uma e galue i le polokalame o le initaneti i telefoni, talafaʻasolo ma komepiuta, ma o ata e tupu e faatumu ai le screen. O se talafaʻasolo i luga o se faavae e masani ona sili mo tagata e lua."
+      },
+      {
+        "q": "E lelei taʻaloga lenei mo se tasi e ma’i i le Alzheimer’s?",
+        "a": "Ioe. Na faia mo tagata e ola ma le dementia, e aofia ai le Alzheimer’s, o le mea e sili ona masani ai. Ata e tumau ona vaaia, e itiiti filifiliga, ma e leai se taimi poʻo fua, o lea e faalagolago ai taʻaloga i le iloaina o mea masani nai lo le faamanatu o mea fou."
+      },
+      {
+        "q": "O taʻaloga faamanatu lenei mo toeaina?",
+        "a": "O ni taʻaloga fetaiga ma ata e mafai ona fiafia ai so o se toeaina, ae na faia e aunoa ma le suʻesuʻe faamanatu: i Picture pairs e tumau ata i luga pe a le filifilia e se tasi. O la matou taʻiala i taʻaloga faamanatu mo toeaina e ola ma le dementia e faamatala ai pe faapefea ona faafiafia so o se taʻaloga faamanatu."
+      },
+      {
+        "q": "E i ai taʻaloga mo vaega i se fale tausi?",
+        "a": "Ioe. Picture bingo e i ai kateti e mafai ona lolomi ma se tasi e vala mai i luga o le screen, ma Finish the saying ma Conversation cards e lelei ina ua faitauina leoleo i se vaega."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad ma Android",
+    "requirements": "iOS 15 pe sili atu; Android 7.0 pe sili atu",
+    "summary": "O se app e aunoa ma totogi mo iPhone, iPad ma Android, e ofo mai ai faatusatusa ata faigofie i fasi tetele e 4 e oo i le 12, faatusatusa ma vaaiga o ata o le aiga e te filifilia, ma faaputuga e valu o ata e galue e aunoa ma le initaneti. E leai se account, faasalalauga, taimi, fua poʻo faasalaga.",
+    "features": [
+      "Faatusatusa ata faigofie ma fasi tetele e 4, 6, 8 pe 12; o ata e tumau ona vaaia pe a le filifilia e natia",
+      "O ata o le aiga e te filifilia e kopiina i totonu o le app mo le faatusatusa ma le vaai faatasi",
+      "Vaai faatasi: se ata i le taimi ma fesili filifili e faaauau ai le talanoa",
+      "Faaputuga e valu o ata ua aofia i le app; e galue e aunoa ma le initaneti",
+      "E leai se account, faasalalauga, faatauga i totonu o le app, taimi, fua poʻo faasalaga"
+    ],
+    "faq": [
+      {
+        "q": "E i ai se app mo gaioiga dementia?",
+        "a": "Ioe. Creative Activities (o loo lisiina o le \"{storeName}\") e aunoa ma totogi i le App Store ma Google Play. E ofo mai ai faatusatusa ata faigofie ma fasi tetele, taʻaloga ma ata o le aiga e te filifilia, ma faaputuga o ata e galue e aunoa ma le initaneti."
+      },
+      {
+        "q": "E aunoa ma totogi le app o Creative Activities?",
+        "a": "Ioe. E aunoa ma totogi le download, e leai ni faasalalauga, account poʻo faatauga i totonu o le app."
+      },
+      {
+        "q": "E mafai ona galue le app e aunoa ma le initaneti?",
+        "a": "Ioe. O ata amata ma faaputuga e valu o ata ua aofia i le app, ma o ata o le aiga e galue e aunoa ma le initaneti pe a uma ona kopiina i totonu o le app. O le filifiliina o se ata o loo teuina na o le iCloud e ono manaʻomia ai se sootaga."
+      },
+      {
+        "q": "E mafai ona ou faaaogaina ata o le matou aiga?",
+        "a": "Io. Filifili ata e faʻaaoga ai le filifiliga o ata i lau masini. O le polokalame e teuina ai kopi laiti o ata mo ana game i luga o le masini, e lē lafo atu i se mea, ma e lē suia ai ata moni. E mafai ona e aveese kopi i so o se taimi."
+      },
+      {
+        "q": "E o se polokalame mo le faʻamalosia o le mafaufau poʻo se suega o le manatu?",
+        "a": "Leai. O Creative Activities mo le fiafia ma le taimi faʻatasi. E leai ni sikoa poʻo suega, ma e lē faʻamaonia, togafitia, puipuia poʻo fuaina le dementia poʻo le faʻamaʻi o Alzheimer’s."
+      },
+      {
+        "q": "O ā masini e galue ai?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "E iai se faʻamatalaga o lenei taaloga i le polokalame?",
+      "a": "Io. O le polokalame saʻoloto o Creative Activities mo iPhone, iPad ma Android e iai le faʻafefe o ata e tutusa, e mafai ona faʻaaoga ai ata o le aiga e te filifilia, ma galue e aunoa ma le initaneti. E leai se faʻamaumauga o le tagata, faʻasalalauga poʻo sikoa."
+    },
+    "gameFaqNo": {
+      "q": "E iai se faʻamatalaga o lenei taaloga i le polokalame?",
+      "a": "E lē o lenei taaloga. O le polokalame saʻoloto o Creative Activities mo iPhone, iPad ma Android e iai le faʻafefe o ata ma tapulaʻa tetele ma ata o le aiga e te filifilia, ma galue e aunoa ma le initaneti. O lenei taaloga e tumau saʻoloto iinei i lou polokalame o le initaneti."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: ata tetele ma alofa",
+    "noscript": "E manaʻomia e lenei taaloga le JavaScript ua ieʻ i lau polokalame o le initaneti. O faʻamatalaga o loo i lalo e galue e aunoa ma lena.",
+    "about": "E uiga i {name}",
+    "aboutAria": "E uiga i lenei taaloga",
+    "noTimer": "Leai se taimi poʻo sikoa",
+    "printable": "E mafai ona lolomi",
+    "howTo": "Faʻafefea ona taʻalo {name}",
+    "tips": "Faʻamatalaga mo le taʻaloina faʻatasi",
+    "newToPlayingHtml": "E te fou i le taʻalo ma se tasi o loo ma le dementia? Faitau <a href=\"/caregiving/how-to-play-together/\">auala o le taʻalo faʻatasi</a>, e aofia ai le mea e tatau ona e faia pe a le fiafia mai o ia.",
+    "moreAria": "Isi mea e suʻesuʻe",
+    "helpfulGuides": "Taʻiala e aoga",
+    "appTitle": "Taʻalo i le polokalame",
+    "appText": "O le polokalame saʻoloto o Creative Activities e iai le faʻafefe o ata ma tapulaʻa tetele ma ata a lou aiga, ma galue e aunoa ma Wi‑Fi. iPhone, iPad ma Android.",
+    "photoAppTitle": "Taofi ata ua e filifilia ua sauni",
+    "photoAppText": "I le polokalame saʻoloto o Creative Activities, o ata ua e filifilia e tumau i lou masini mo le taimi e sosoʻo ai, ma taʻaloga e galue e aunoa ma Wi‑Fi. iPhone, iPad ma Android.",
+    "goodToKnow": "Mea e aoga ona e iloa",
+    "goodToKnowText": "O lenei taaloga mo le fiafia ma le taimi faʻatasi. E lē suʻesuʻe, fuaina poʻo togafitia so o se mea.",
+    "moreGames": "Isi taʻaloga faʻafefe",
+    "crumb": "Taʻaloga"
+  }
+}

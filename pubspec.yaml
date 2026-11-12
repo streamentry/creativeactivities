@@ -1,0 +1,81 @@
+name: golden_moments
+description: Free creative activities to do together, with offline starters and selected family photos.
+version: 1.10.0+14
+publish_to: none
+
+environment:
+  sdk: ^3.13.5
+  flutter: ">=3.47.7"
+
+dependencies:
+  audioplayers: ^6.5.0
+  bloc: ^9.0.0
+  crypto: ^3.0.8
+  equatable: ^3.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  flutter_localizations:
+    sdk: flutter
+  image_picker: ^1.2.4
+  intl: ^0.20.2
+  path_provider: ^2.1.4
+  provider: ^6.1.5
+  share_plus: ^13.3.1
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.1
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.5
+  very_good_analysis: ^11.0.0
+
+flutter:
+  # Plugins link through CocoaPods (ios/Podfile). This Flutter turns Swift
+  # Package Manager on by default, which dropped every plugin from the iOS
+  # app because the custom Podfile was never migrated.
+  config:
+    enable-swift-package-manager: false
+  generate: true
+  uses-material-design: true
+  fonts:
+    - family: AtkinsonHyperlegibleNext
+      fonts:
+        - asset: assets/fonts/AtkinsonHyperlegibleNext-Regular.ttf
+        - asset: assets/fonts/AtkinsonHyperlegibleNext-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/AtkinsonHyperlegibleNext-Bold.ttf
+          weight: 700
+  assets:
+    - assets/data/
+    # Picture-pack text per app language (docs/engineering/localization.md).
+    - assets/data/i18n/
+    - assets/fonts/AtkinsonHyperlegibleNext_LICENSE.txt
+    - assets/images/catalog/
+    # Drawings shared with the website (site/scripts/export-pictures.mjs).
+    - assets/images/pictures/
+    # More drawings in the same style, made with the Codex CLI image tool.
+    - assets/images/illustrations/
+    - assets/sounds/
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  min_sdk_android: 21
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  color: "#FFF5DE"
+  image: assets/icons/app_icon_padded.png
+  android_12:
+    image: assets/icons/app_icon_padded.png
+    color: "#FFF5DE"

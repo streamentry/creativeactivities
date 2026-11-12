@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Kɔ nsɛm titiriw no so",
+    "brandName": "Creative Activities",
+    "brandTag": "Dementia nneyɛe",
+    "homeLabel": "Creative Activities fie",
+    "mainNav": "Titiriw",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: mfonini kɛse ne ahoɔfɛ a ɛyɛ anigye a ɛda tii kɔp, awuduru ne kraman no ho",
+    "languages": "Kasa",
+    "englishOnly": "(English)",
+    "machineTranslated": "Wɔde komputa so otomatik nhyehyɛe kyerɛɛ saa nkyerɛwde yi, na obi a ɔyɛ Twi kasa ankasa nhwɛ no amfa.",
+    "readOriginal": "Kenkan nkyerɛwde a ɛwɔ Borɔfo mu no",
+    "nav": {
+      "games": "Agoro",
+      "activities": "Nneyɛe",
+      "caregiving": "Ahwɛ",
+      "brainHealth": "Adwene ahoɔden"
+    },
+    "faqTitle": "Nsɛmmisa ne mmuae",
+    "breadcrumb": "Akwan a wofa so kɔ",
+    "home": "Fie",
+    "lastUpdated": "Wɔsesaa no bere",
+    "topics": "Nsɛm",
+    "textSize": {
+      "label": "Nkyerɛwde kɛseyɛ",
+      "smaller": "Nkyerɛwde a ɛyɛ de",
+      "larger": "Nkyerɛwde kɛse",
+      "contrast": "Ahoɔfɛ a ɛdɔɔso"
+    }
+  },
+  "footer": {
+    "play": "Di agoro",
+    "picturePairs": "Mfonini abien",
+    "conversationCards": "Nkɔmmɔ kaad",
+    "pictureBingo": "Mfonini bingo",
+    "allGames": "Agoro nyinaa",
+    "pictures": "Mfonini a wɔbɛprint",
+    "activityIdeas": "Nneyɛe ho adwene",
+    "ideas101": "Nneyɛe ho adwene 101",
+    "lateStage": "Nneyɛe ma stage a ɛkɔ akyiri",
+    "printable": "Nneyɛe a wɔbɛprint",
+    "allActivities": "Nneyɛe nyinaa",
+    "forCaregivers": "Ma obi a ɔhwɛ ho",
+    "playTogether": "Ɔkwan a wobɛfa so di agoro bom",
+    "selfCare": "Wo ho hwɛ",
+    "brainHealth": "Adwene ahoɔden nhwehwɛmu",
+    "faq": "Nsɛmmisa ne mmuae",
+    "about": "Ho asɛm",
+    "approach": "Yɛn kwan",
+    "howWeWrite": "Ɔkwan a yɛfa so kyerɛw",
+    "organizations": "Ma aperɛpɛ",
+    "app": "Creative Activities app no",
+    "appHelp": "App mmoa",
+    "support": "Mmoa",
+    "legal": "Mmara ho asɛm",
+    "sitePrivacy": "Website kokoam",
+    "appPrivacy": "App kokoam mmara",
+    "privacyChoices": "Kokoam ho poma",
+    "terms": "Mmara ne app license",
+    "safety": "Ahobammɔ ne nea wɔde yɛ",
+    "accessibility": "Nkɔso ma obiara",
+    "healthNotice": "Yare ho nsɛm kyerɛkyerɛ",
+    "allLegal": "Mmara ho nsɛm nyinaa",
+    "note": "Creative Activities yɛ nneyɛe a ɛyɛ ahɔhoyɛ a wɔde di agoro ma. Ɛnyɛ yare ho akwankyerɛ, nsɔhwɛ anaa aduru, na ɛnnhwɛ anaa ɛmfa bɛdi obi ho adanse. Sɛ wowɔ yare ho nsɛm a, kasa kyerɛ dɔkota. Wɔ ɔhaw mu a, frɛ 112.",
+    "publisher": "Cloudjet Solutions Pte. Ltd. na ɔde asie."
+  },
+  "home": {
+    "title": "Dementia ne Alzheimer Agoro ne Nneyɛe | Creative Activities",
+    "description": "Akwan a wɔnni ho tua ne mfonini agoro a ɛyɛ de, a wobetumi adi wɔ intaneti so, ne nneyɛe ho adwene ma nnipa a wɔwɔ dementia anaa Alzheimer ne wɔn a wɔhwɛ wɔn ho. Ɛnhia sɛ wohyɛ mu, ɛnni bere anaa mmuae.",
+    "eyebrow": "Wɔde ma · Ɛnni nkyerɛwde · Ɛnhia sɛ wohyɛ mu · Ɛnni bere anaa mmuae",
+    "h1": "Agoro a Ɛyɛ de ne Nneyɛe ma Nnipa a Wɔwɔ Dementia",
+    "lede": "Mfonini agoro a ɛyɛ de, mfonini a wunim, ne nneyɛe a mobɛdi ho bom—wo bere so.",
+    "playGame": "Di agoro bi",
+    "findIdeas": "Hwehwɛ nneyɛe ho adwene",
+    "facts": [
+      "Ɛyɛ adwuma wɔ fon, tablet ne kɔmputa so",
+      "Mfonini kɛse a ɛtena hɔ",
+      "Gyae bere biara; biribiara nni hɔ a ɛbɛyɛ basaa"
+    ],
+    "heroApp": "Ɛwɔ app a wɔde ma iPhone, iPad ne Android so, na wobetumi de wo abusua mfonini ayɛ",
+    "albumNote": "“Tii kɔp no mfonini mmienu, bom.”",
+    "gamesEyebrow": "Di wɔ wo browser so",
+    "gamesTitle": "Agoro a wobetumi de di seesei",
+    "gamesLede": "Biara yɛ de ne ho tew, ɛyɛ adult ne ntɛm a wobetumi afi ase. Fa bi, tena mu wɔ ho, na momfa nkyɛn ti nkɔ so.",
+    "seeAllGames": "Hwɛ agoro {count} nyinaa",
+    "howTitle": "Ɛyɛ adwuma sɛnea",
+    "steps": [
+      {
+        "title": "Fa biribi a wonim",
+        "text": "Tii kɔp, turo, mmoa ne mmirika ho mfonini. Ɛnhia sɛ wosua kenkan anaa mmara ansa na wo rehyɛ aseɛ."
+      },
+      {
+        "title": "Te bom",
+        "text": "Ma wɔn nka mfonini no. Kasa fa mfonini no ho. Sɛ mfonini no nfata a, ɛbɛtena ase de ansa na wɔbɛtwa bio."
+      },
+      {
+        "title": "Gyae bere a ɛyɛ wo yie",
+        "text": "Agoro biako yɛ nneyɛe a ɛyɛ ma ɛba awie. “Yɛregyae seesei” wɔ hɔ daa wɔ ahyɛde no so."
+      }
+    ],
+    "stageEyebrow": "Ɛfiri ɔsɛnkɔyɛ akyi",
+    "stageTitle": "Nneyɛe ho adwene ma stage biara",
+    "stageLede": "Nnwom, da biara adwumayɛ, nkaebɔ ho nkaebɔ ne ahoɔfɛ a ɛdɔ wɔ nwoma, a wɔasesa ma ɛyɛ anigye seesei.",
+    "ideas101": "Nneyɛe ho adwene 101",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Mfitiase stage",
+        "text": "Di nea wɔpɛ no so, de nsakraeɛ bi sesa: anigye, nnantew, asɛmfua agoro ne sɛ moyɛ nhyehyɛe bom.",
+        "label": "Mfitiase stage nneyɛe ho adwene"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Mfantasetɔ stage",
+        "text": "Adwuma a ɛyɛ mfonini a wunim, a wɔkyekyɛ ma ɛyɛ anammɔn: ntwitwa, ahyehyɛ, nnwom, mfonini agoro ne nantew tiawa.",
+        "label": "Mfantasetɔ stage nneyɛe ho adwene"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Akyiri stage",
+        "text": "Ahoɔfɛ ne abusuabɔ wɔ tɛkɔ, nne ne ahuhuo so: nsa ahwɛ, nnwom a wɔpɛ, mfonini ne sɛ mo bɛyɛ bom.",
+        "label": "Akyiri stage nneyɛe ho adwene"
+      }
+    ],
+    "specificHtml": "Wohwehwɛ biribi a ɛyɛ soronko? Hwehwɛ <a href=\"/activities/alzheimers/\">Alzheimer nneyɛe ne agoro</a>, <a href=\"/activities/memory-games/\">nkaebɔ ho agoro a ɛyɛ de</a>, <a href=\"/activities/trivia/\">nsɛmmisa a ɛyɛ de</a> anaa <a href=\"/activities/puzzles/\">ntoto agoro</a>.",
+    "approachEyebrow": "Yɛn kwan",
+    "approachTitle": "Nneyɛe a moyɛ bom, ɛnyɛ nkaebɔ mu nhwehwɛmu",
+    "approachLede": "Adwene agoro pii yɛ ntɛm, mmuae ne nhyehyɛe. Ɛbɛyɛ mmerɛw ma obi a ɔwɔ dementia. Yɛyɛɛ ne mmerɛ.",
+    "approachLink": "Ɛdeɛn nti yɛyɛ saa",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Biribiara nni hɔ a ɛbɛyɛ basaa",
+        "text": "Bere nni hɔ, mmuae nni hɔ, nkoa nni hɔ, na ɛnni tu mu. Mfonini a ɛyɛ foforo yɛ bere a wotwa ho nkɔ, ɛnyɛ asɛmfua."
+      },
+      {
+        "icon": "eye",
+        "title": "Mfonini te hɔ",
+        "text": "Ɛyɛ mfonini a wohu sen sɛ wobɛkae. Wɔfa ho baabi a ɛwɔ ankasa. Wɔnhwɛ kae biribi."
+      },
+      {
+        "icon": "people",
+        "title": "Adult ne animuonyam",
+        "text": "Nsɛm a ɛyɛ de, ɛyɛ adult ne mfonini a ɛwɔ wiase. Ɛnyɛ nsɛm a wɔka ma ma nkɔmmɔ mma."
+      },
+      {
+        "icon": "shield",
+        "title": "Ɛyɛ kokoam ho",
+        "text": "Ɛnhia akaunt anaa nkyerɛwde. Wo mfonini nnkɔ wo fon so."
+      }
+    ],
+    "guidesEyebrow": "Ma obi a ɔhwɛ ho",
+    "guidesTitle": "Akwankyerɛ a ɛboa ma ahwɛ a yɛyɛ daa daa",
+    "allCaregiving": "Ahwɛ akwankyerɛ nyinaa",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Ɔkwan a wobɛfa so di agoro bom",
+        "text": "Ɛsiesie, ntɛm, ne nea wobɛyɛ sɛ agoro no ansɔ anigye bio."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Sɛ wɔka nneyɛe bi nkɔ",
+        "text": "Nsɛnkyerɛnne a ɛma wɔpɛ se ɛnyɛ, ne akwan a ɛyɛ mmerɛw a wobɛfa so asan asɔ bio."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Tablet a wɔbɛsiesie",
+        "text": "Nkyerɛwde kɛse, nneɛma a ɛbɛma ɛntwentwen, ne fie hɔ a ɛyɛ pɛpɛɛpɛ."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Nneyɛe a wɔbɛprint a ɛnhwehwɛ sika",
+        "text": "Asɛmfua kɛse a wobɛhwehwɛ, nkyerɛwde a wobɛpɛpɛ, bingo ne nkɔmmɔ kaad."
+      }
+    ],
+    "researchTitle": "Adwene ahoɔden: nhwehwɛmu no ka nokorɛ sɛn",
+    "researchText": "Ɛbɛtumi asiw dementia so? Agoro boa adwene? Ɛte sɛn ho wɔ anka, aduane, ahome ne tie ho? Mmuae a ɛyɛ pefee ne nea ɛwɔ nhyehyɛe, ɛkyerɛ nhwehwɛmu fibea, ne baabi a nsɛm no yɛ mmerɛw.",
+    "researchLink": "Kenkan nhwehwɛmu akwankyerɛ no",
+    "appEyebrow": "Ɛyɛ app nso",
+    "appTitle": "Creative Activities wɔ iPhone, iPad ne Android so",
+    "appText": "App a wɔde ma yi yɛ adwuma offline, na ɛbetumi de abusua mfonini a wopɛ ahyehyɛ. Wɔkora ho kopi wɔ wo fon so. Nhyehyɛe ahoɔfɛ koro: tile anan kɛse, bere nni hɔ, mmuae nni hɔ.",
+    "aboutApp": "Ho asɛm wɔ app no ho",
+    "faq": [
+      {
+        "q": "Agoro bɛn na ɛyɛ papa ma nnipa a wɔwɔ dementia?",
+        "a": "Akyinnyegye a ɛyɛ yie yɛ nea ɛyɛ mmerɛw, nea wohu no yiye, na ɛnni ahohia: mfonini kɛse a wobɛtwe ho, nneɛma a wobɛhyehyɛ, nkɔnkɔnsɔ a ɛyɛ mmerɛw, nsɛm a wɔkyerɛ a wɔyɛ mmerɛw, mmɔdensɔ a wɔbɛkyerɛ mfonini so, mmara a wɔde ɔtaa ho, ne mfonini a wɔbɛkyerɛ wɔ mfonini mu. Ɛsɛ sɛ nea ɔno pɛ nnɛ na ɛyɛ nea ɛno. Fa bere, nsɛmfua ne nneɛma a ɛte sɛ sɔhwɛ kɔ akyi."
+      },
+      {
+        "q": "Dementia akyinnyegye yi wɔ tua ka anaa?",
+        "a": "Aane. Akyinnyegye nyinaa ne nhyehyɛe a wɔwɔ Creative Activities so wɔ tua ka. Ɛnhia sɛ wobɛfa account, wo ho ntwa anaa wodeɛ ntɛm. Akyinnyegye yi yɛ wɔ web browser a ɛwɔ wo fon, tablet anaa komputa so."
+      },
+      {
+        "q": "Adwene akyinnyegye tumi bɔ dementia ban anaa?",
+        "a": "Akyinnyegye biara a wɔahu sɛ ɛbɔ dementia ban nni hɔ, na Creative Activities nso nka sɛ yɛtumi yɛ ayaresa anaa ɛbɔ biribiara ban. Yɛn akyinnyegye yɛ ma anigyeɛ ne bere a yɛbɛka abom. Yɛn adwene ahoɔden kyerɛwtohɔ kyerɛkyerɛ nea nhwehwɛmu kyerɛ ne nea ɛnkyerɛ."
+      },
+      {
+        "q": "Akyinnyegye yi fata obi a ɔwɔ Alzheimer's yare?",
+        "a": "Aane. Alzheimer's yare ne dementia a ɛba bebree, na wɔyɛ akyinnyegye yi ma no: mfonini kɛse a ɛda so, nneɛma kakra a wobɛpaw, ne ɛnhia sɛ wokae anaa wodi ho komm. Nneɛma a wɔde toto, hyehyɛ ne nsɛm a wɔkyerɛ a wɔwɔ ho nimdeɛ fi tebea a ɔnim dedaw mu, na ɛnyɛ nkyerɛkyerɛ foforo."
+      },
+      {
+        "q": "Obi a dementia no ayɛ dedaw so nso tumi de akyinnyegye yi di dwuma?",
+        "a": "Ɛbɛyɛ, bere bebree, sɛ obi wɔ ne akyi. Fi Hwehwɛ nea ɛtɛ sɛ ɛno ne mfonini abien, Mfonini abien ne mfonini anan, bɔ mfonini a wɔbɛkyerɛ, anaa ahomekyerɛ a ɛyɛ mmerɛw ase. Ma ɛnyɛ tenten, di n’akwan so, na sɛ ɔapɛ, gyae."
+      },
+      {
+        "q": "Me nsɛm kyerɛ sɛ ɛyɛ kokoam?",
+        "a": "Kyerɛwtohɔ yi nni account na ɛnni adwinnade. Yɛde Google Analytics hwehwɛ nea nkɔmhyɛ ɔkwan a nnipa de kɔ kyerɛwtohɔ no so. Mfonini a wopaw ama Mfonini abien no, wɔbɛda so wɔ wo browser mu nko na wɔrenkɔ baabi."
+      },
+      {
+        "q": "hwan na ɔyɛ Creative Activities?",
+        "a": "Creative Activities yɛ adwumfoɔ kakraa bi a wɔyɛ akyinnyegye a ɛyɛ abom, ɛyɛ adult, ma abusua ne obi a ɔhwɛ so, wɔ web so ne sɛ app a ɛnni ahoɔfɛ. Yɛnnyɛ ayaresafoɔ, na biribiara a ɛwɔ ha nyɛ ayaresa afotu."
+      }
+    ]
+  },
+  "stage": {
+    "early": "mfitiase",
+    "middle": "mfinimfini",
+    "late": "akyiri",
+    "hintOne": "Ɛfata {list} ɔkwan",
+    "hintMany": "Ɛfata {list} mmɔkwan",
+    "labelEarly": "Mfitiase ɔkwan",
+    "labelMiddle": "Mfinimfini ɔkwan",
+    "labelLate": "Akyiri ɔkwan"
+  },
+  "cards": {
+    "aboutGame": "Ɛfa akyinnyegye yi ho",
+    "printable": "Nea wɔbɛprinta",
+    "play": "Yɛ {name} →",
+    "readGuide": "Kenkan akwankyerɛ no"
+  },
+  "playCta": {
+    "title": "Wopɛ akyinnyegye a ɛyɛ abom?",
+    "text": "Mfonini kɛse, ɛnni bere, ɛnni mmuaeɛ, na ɛnhia sɛ wodi ho mmɔden. Mmoa akyinnyegye no wɔ wo browser mu.",
+    "play": "Yɛ akyinnyegye",
+    "all": "Hwɛ akyinnyegye nyinaa",
+    "aria": "Yɛ akyinnyegye"
+  },
+  "appCta": {
+    "title": "Fa akyinnyegye yi kɔ ho",
+    "text": "Creative Activities app a wɔnnye no ka ho, a ɛwɔ iPhone, iPad ne Android so: mfonini kɛse a wobɛtwe, akyinnyegye a wobɛfa wo abusua mfonini, ne mfonini mmoa a ɛnhia sɛ Wi‑Fi wɔ hɔ. Account, adwinnade, bere anaa mmuaeɛ nni hɔ.",
+    "appStore": "Nya no wɔ App Store so",
+    "googlePlay": "Nya no wɔ Google Play so",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Ɛfa app no ho",
+    "aria": "Nya app no"
+  },
+  "sections": {
+    "activities": {
+      "label": "Akyinnyegye",
+      "title": "Akyinnyegye ma Nnipa a Dementia Wɔ",
+      "seo": "Akyinnyegye ma Nnipa a Dementia Wɔ: Nsɛm a Wɔfa Mfitiase, Mfinimfini ne Akyiri Ho",
+      "description": "Akyinnyegye nkyerɛaseɛ ma nnipa a dementia wɔ wɔn mu wɔ ɔkwan biara so: nnwom, nkaeɛ, adwuma a ɛda so, anigyeɛ a ɛfa ahoɔden ho, adwumayɛ, mframa mu, ne mfonini a wobɛprinta a wɔntua sika.",
+      "lede": "Akyinnyegye a ɛyɛ nea ɛfata yɛ biribiara a ɛma ahotɔ, botae anaa bere a yɛbɛka ho abom. Fi nea ɔno a ɔwɔ no ani gye dedaw ase, na sesa no kɔ ɛnnɛ mu."
+    },
+    "caregiving": {
+      "label": "Ɔboafo",
+      "title": "Akwankyerɛ ma Ɔboafo",
+      "seo": "Akwankyerɛ ma Dementia Ɔboafo: Mmoa a Ɛfa Da Biara Ho",
+      "description": "Akwankyerɛ a ɛyɛ nokware ne ɛyɛ mmerɛw ma dementia ɔboafo: akyinnyegye a wobɛyɛ abom, nkitahodie, mmɔ a wɔmpɛ, anadwo a obi ayɛ ahohia, tablet, app a wɔpaw, ne wo ankasa ho hwɛ.",
+      "lede": "Mmoa a ɛyɛ nokware ne ɛyɛ mmerɛw ma da biara a wɔwɔ no wɔ sɛ wobɛhwɛ obi a dementia wɔ, ka nso wo ankasa ho hwɛ."
+    },
+    "brain-health": {
+      "label": "Adwene ahoɔden",
+      "title": "Adwene Ahoɔden: Nea Nhwehwɛmu Ka",
+      "seo": "Adwene Ahoɔden ne Dementia Asiane: Nea Nhwehwɛmu Ka",
+      "description": "Ɛtumi bɔ dementia ban anaa? Akwankyerɛ a ɛyɛ nokware, a wɔde adanse aka ho, wɔ dementia asiane, adwene akyinnyegye, ntɔmadan, nnuane, adidi, nnwinnde, ne nsɛnkyerɛnne a ɛbɛba ntɛm.",
+      "lede": "Nea nhwehwɛmu kɛse kyerɛ wɔ sɛnea yɛbɛtew dementia asiane ho, wɔkyerɛkyerɛ no ma ɛyɛ mmerɛw, ne baabi a adanse no yɛ mmerɛw anaa ɛyɛ nhyehyɛe. Ɛyɛ nsɛm a ɛfa ho nkyerɛkyerɛ, nyinaa nyɛ ayaresa afotu."
+    }
+  },
+  "guide": {
+    "updated": "Wɔasesa",
+    "minuteRead": "Kenkan nkyɛnsɛn {n}",
+    "byTeam": "Creative Activities adwumfoɔ a wɔkyerɛw",
+    "howWeWrite": "Sɛnea yɛkyerɛw",
+    "shortAnswer": "Mmuaeɛ a ɛyɛ mmerɛw",
+    "onThisPage": "Wɔ kyerɛwtohɔ yi so (nkyekyɛ {n})",
+    "commonQuestions": "Nsɛmmisa a wɔbisa daa",
+    "sources": "Nsɛnkyerɛnne",
+    "sourcesNote": "Yɛde nkyɛ kɔ mmoa ne nhwehwɛmu a kyerɛwtohɔ yi dwodwo so. Wɔhwɛ ho pɛpɛɛpɛ bere a wɔsesaa kyerɛwtohɔ no.",
+    "tryTogether": "Sɔ hwɛ bom",
+    "relatedGuides": "Akwankyerɛ a ɛfa ho",
+    "related": "Ɛfa ho",
+    "startHere": "Fi ha hyɛ ase"
+  },
+  "healthNotice": {
+    "aria": "Ayaresa amanneɛ kyerɛkyerɛ",
+    "title": "Nkyerɛkyerɛ a ɛyɛ nea ɛbɛyɛ, ɛnyɛ ayaresa afotu",
+    "textHtml": "Kyerɛwtohɔ yi kyerɛ nhwehwɛmu a wɔakyerɛw ama abusua. Ɛntumi nkyerɛ wo deɛ ɛyɛ ma obi biara. Ka asɛm kyerɛ dɔkotafoɔ ansa na woasesa aduane, adwuma, nna, aduru anaa nsuo a wɔfa ho. Sɛ nkɔm a ɛbaa ntɛm anaa nsesa a ɛbaa ntɛm, fa ayaresa boafoɔ ntɛm. <a href=\"/medical-disclaimer/\">Kenkan yɛn ayaresa amanneɛ kyerɛkyerɛ</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Akyinnyegye a Wɔyɛ Abom, Ɛnyɛ Adwene Nhwehwɛmu",
+      "seoTitle": "Ɛfa Creative Activities ho: Yɛn Ɔkwan",
+      "description": "Adɛn nti Creative Activities akyinnyegye nni bere, nsɛntitiri anaa nkɔnkɔnsɔ, adɛn nti mfonini tena hɔ, ne nea yɛrenka ho wɔ dementia ho.",
+      "crumb": "Yɛn ɔkwan",
+      "lede": "Creative Activities yɛ akyinnyegye a ɛyɛ abom, ɛyɛ adult, a ɔboafo ne obi a dementia wɔ no bɛtumi ani gye wɔ wɔn ho wɔ ɔfa baako ho.",
+      "bodyHtml": "<h2>Nea yɛgyina so</h2><p>Adwuma a yɛyɛ no nea ɛsɛ sɛ ɛyɛ no ne ɔberɛ no ankasa: nkitahodie, anigyeɛ, ahodoɔ a ɛba sɛ wo ne mfonini abien bɛka ho, anaasɛ wo ne obi tena ho ase. Ɛnyɛ sɛ yɛbɛsusuw obi, yɛde no akɔ anim kɔsi ɛpɛ, anaasɛ yɛbɛgyina ho adanse.</p><p>Mmoaborɔ bi a wɔyɛ de hwehwɛ adwene ahoɔden no, wɔyɛ wɔn wɔ ntɛmpɛ, mmuae, nkɔsoɔ ne mmɔden so. Ma obi a ɔwɔ dementia no, ɛyɛ sɛ ɔbɔ ɔsɔhwɛ a ɔntumi nni so. Yɛayɛ nea ɛsono saa, na yɛde yɛn ho to saa mmara yi so:</p><ul><li><strong>Biribi nni mu a wobɛtumi asɛe.</strong> Wɔrennyɛ bere, mmuae, nsakrae kɔkɔbɔ, nkɔsoɔ, nnwom anaa nneɛma a ɛbɔ nnwom wɔ wɔn ho wɔ ahunu biara so.</li><li><strong>Ahunu di kan sen akae.</strong> Mfonini bɛda so akyerɛ wo kae. Nkɔmmɔ bɛma nkasa a ɛyɛ ɛwɔ hɔ, na wɔrennyɛ nkɔmmɔ wɔ din anaa nkaeɛ ho.</li><li><strong>Kɛse, pefee ne tenten.</strong> Nkyerɛwde ne mfonini kɛse, nsuo a ɛyɛ pefee, ne nneɛma a wɔde di so a wɔrenkɔ hɔ.</li><li><strong>Nidi ma obi.</strong> Mfonini a ɛyɛ wiase mu nneɛma, asɛm a ɛyɛ tenten ne pefee. Wɔrennyɛ mfonini a ɛyɛ anansesem, nkamfo a ɛyɛ abɔdeɛ anaa abɔdeɛ a wɔde ma wo ani anigye.</li><li><strong>Ɛyɛ sɛ wobɛtumi ayi wo ho fi hɔ.</strong> “Wie seesei” ka ho daa wɔ hɔ. Ɛyɛ ɔkwan pa sɛ wobɛgyae wɔ fam.</li><li><strong>Ɛsoɔ wɔ kokoam sɛ ɛnyɛ nea wobɛhwɛ.</strong> Nkyerɛwde ne mfonini a wopɛ no bɛda wo fidie hɔ. Wɔrennkɔ ahyɛnsoɔ ne nneɛma a ɛnyɛ ahyɛnsoɔ.</li></ul><h2>Nea yɛnkɔka</h2><p>Yɛn akyinnyeɛ no yɛ anigye ne ne ho ahobammɔ. Ɛnyɛ nea ɛbɛhwehwɛ, ɛbɛbu, ɛbɛtwa, ɛbɛyɛ yiye anaa ɛbɛbɔ dementia ne Alzheimer’s disease ban biara, na obiara nnyɛ sɛ ɔpaw yɛn akyinnyeɛ ɛnam saa nti. Sɛ yɛkyerɛw wɔ yɛn <a href=\"/brain-health/\">adwene yiye nsɛm</a> ho a, yɛka kyerɛ pefee sɛ nhwɛso no nni so yiye, na yɛremmɔ ho nsɛm sɛ ɛne yɛn akyinnyeɛ no wɔ hokwan.</p><h2>Yɛn ho asɛm</h2><p>Creative Activities yɛ adwuma ketewa a yɛn ho ahwɛ yɛn ho. Yɛnyɛ adwumayɛfoɔ a wɔyɛ ayaresa. Yɛn nkyerɛwde gyina nhyehyɛe a wɔatwer adi, sɛnea National Institute on Aging ne Alzheimer’s Association ayɛ, na wɔka yɛn nhwɛsoɔ nyinaa ho asɛm wɔ nkyerɛwde biara mu. Kenkan <a href=\"/editorial-policy/\">sɛnea yɛkyerɛw na yɛhwɛ yɛn nsɛm so</a>.</p><h2>Ka nea ɛboa yɛn ho asɛm</h2><p>Yɛpɛ sɛ yɛte nea ɛyɛ adwuma ne nea ɛnyɛ adwuma, titiriw fi dementia nipa, abusuafoɔ a wɔhwɛ wɔn ho ne nnipa a wɔyɛ adwuma wɔ nhyiamu mu. Frɛ yɛn wɔ <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Sɛnea Yɛkyerɛw na Yɛhwɛ Yɛn Nsɛm So",
+      "seoTitle": "Nkyerɛwde Mmara",
+      "description": "Sɛnea Creative Activities hwehwɛ, kyerɛw, de nsɛm si ase na ɛsesa ne dementia adwuma ne adwene yiye nkyerɛwde, ne nea yɛrentumi nkyerɛw.",
+      "crumb": "Nkyerɛwde mmara",
+      "bodyHtml": "<h2>Yɛn nsɛm a yɛfa so</h2><p>Yɛgyina yɛn nkyerɛwde so wɔ nhyehyɛe a wɔatwer adi so, sɛnea National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance ne NHS ayɛ, ne nhwehwɛmu a wɔasiesie ne ho, sɛnea Cochrane reviews ne clinical trials akɛse ayɛ. Nkyerɛwde biara ka nsɛm a ɛfa so no ho asɛm. Yɛhwehwɛ nsɛm no ansa na yɛakyerɛ, na yɛka nea ɛka pefee.</p><h2>Sɛnea yɛkyerɛw</h2><ul><li>Ɛfa nneɛma a ɛyɛ adwuma kan: dɛn na wobɛyɛ nnɛ, wɔ asɛm a ɛyɛ tenten mu.</li><li>Ɛnyɛ nokware wɔ nhwehwɛmu ho: yɛka “ɛka ho”, “betumi” ne “nhwehwɛmu no mu yɛ kɛse” sɛ ɛyɛ nokware.</li><li>Ɛyɛ animuonyam: yɛkyerɛw wɔ dementia nipa ho sɛ wɔyɛ nnipa akɛse, na yɛnhwɛ mmisa anaa ntɔ.</li><li>Ɛnyɛ nneɛma a wɔayɛ: nkontaabu, nhwɛsoɔ, nnipa, nhwehwɛmu, ahosɛpɛw anaa nkɔmmɔ a wɔayɛ.</li></ul><h2>Hwan na ɔhwɛ yɛn nkyerɛwde so</h2><p>Creative Activities adwumayɛfoɔ kyerɛw na wɔhwɛ nkyerɛwde no so, na AI nkyerɛwde mfiri boa wɔ nhwehwɛmu ne nkyerɛwde mu. Adwumayɛfoɔ no hwɛ nkyerɛwde biara ne nsɛm a ɛfa so no so. Yɛn nkyerɛwde <strong>amfa</strong> dɔkotafoɔ anaa ayaresabea adwumayɛfoɔ hwɛɛ, na yɛremmɔ ho nkyerɛ sɛ wɔahwɛ. Ɛyɛ ade a ɛfa nimdeɛ nyinaa ho, na ɛnyɛ ayaresa afotuo.</p><h2>Nea yɛrentumi nkyerɛw</h2><ul><li>Nkɔmmɔ sɛ akyinnyeɛ, aduane, nhwiren, ɔkwan anaa nhyehyɛe bi betumi ahwɛ, ayɛ ayaresa anaa ɛbɛtwa dementia.</li><li>Mmisa, nhwehwɛ anaa mfoni a ɛkyerɛ sɛ obi wɔ dementia anaa ɛnnim.</li><li>Afotuo sɛ wobɛhyɛ, wobɛtwe anaa wobɛsesa aduru bi.</li><li>Dwumadi anaa nkɔsoɔ a wɔde sɛ afotuo bɔ ho kwan.</li></ul><h2>Nsakrae ne nteaseɛ</h2><p>Nkyerɛwde biara kyerɛ bere a wɔsesaa no akyiri yi. Sɛ wuhu nsɛm a ɛnyɛ nokware anaa nsɛm a ɛyɛ dwiriw, kɔ <a href=\"mailto:{email}\">{email}</a> na yɛbɛhwɛ ntɛmpɛ.</p>"
+    },
+    "faq": {
+      "title": "Nsɛmmisa ne Mmuae",
+      "seoTitle": "Dementia Akyinnyeɛ ne Nneɛma: Nsɛmmisa ne Mmuae",
+      "description": "Mmuae a ɛboro so ma nsɛmmisa a wɔbisa paa wɔ dementia akyinnyeɛ ne nneɛma ho: akyinnyeɛ a ɛsɛ sɛ wosɔ hwɛ, bere a ɛsɛ sɛ wobɔ, nneɛma a ɛboa wɔ akyiri, adwene yiye ne ahobammɔ.",
+      "crumb": "Nsɛmmisa ne mmuae",
+      "lede": "Mmuae a ɛyɛ tiaa ne pefee wɔ nsɛmmisa a wɔhwehwɛ paa a ɔhwɛ obi boa no bisa.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Akyinnyeɛ no ho asɛm",
+          "items": [
+            {
+              "q": "Akyinnyeɛ bɛn na ɛyɛ no pa ma obi a ɔwɔ dementia?",
+              "a": "Akyinnyeɛ a ɛyɛ pa ne nea wɔahunu, ɛyɛ mmerɛw na ɛnni ahobrɛaseɛ. Nea ɛyɛ no ne nea ɔpɛ nnɛ. Mfonini a wɔde hwehwɛ mfonini a wohu, nneɛma a wɔde hyehyɛ, mfonini a ɛyɛ mmerɛw a wɔde bɔ, nsɛm a wɔka sɛ wɔde bɛtow, nsuokyekye, ne mfonini a wɔde yɛ bingo nyinaa yɛ adwuma ma nnipa pii. Monka bere a wɔde hwɛ, nkontaabu ne biribiara a ɛma ɛyɛ sɛ sɛ nhwehwɛmu."
+            },
+            {
+              "q": "Akyinnyeɛ no yɛ free paa anaa?",
+              "a": "Aane. Agoro ne nkyerɛwde a wɔde ma wɔprint no nyinaa yɛ fre, a enhia account, sign-up, download anaa advert biara."
+            },
+            {
+              "q": "Adɛn nti na enni scores, levels anaa timers?",
+              "a": "Ntɛmpɛ ne mmuae bɛsesa agoro a ɛyɛ anigye ayɛ sɔhwɛ, na ɛbɛma obi ahohia anaa abrɛ. Yɛde ani gye ne bere a yɛne wo di no so na yɛde ma ɛyɛ den. Enni bi a obi bɛtumi ahwe, na wobɛtumi agyae bere biara."
+            },
+            {
+              "q": "Bɛn na ɛyɛ papa paa?",
+              "a": "Telefon biara, tablet anaa komputa a ɛwɔ browser foforɔ. Tablet a wɔde too ɔfaako so wɔ ɔtabre so no yɛ ɛyɛ yiye paa ma nnipa mmienu a wɔretu ho wɔ ho de. Laptop a wɔbɔ ne ho ka TV ho no yɛ papa ma nnipa a wɔyɛ nnipa pii."
+            },
+            {
+              "q": "Yɛbɛtumi de yɛn abusua mfonini agoro?",
+              "a": "Aane. Photo pairs (mfonini mmienu) de mfonini 2 kɔsi 6 a wopɛ no yɛ agoro a ɛhyɛ ho nsɛm. Mfonini no gyina wo browser mu, wɔnkɔ soro, na wɔnsie wɔ hɔ."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Agoro ne obi a ɔhwɛ so ho boa",
+          "items": [
+            {
+              "q": "Bere bɛn na agoro bɛtena?",
+              "a": "Mmere a ɛboro simma 10 ne 20 mu bɛyɛ ɛfa, na simma abien nso nso ayɛ akokoduru. Hwɛ sɛ ɔdwo anaa ɔnyɛ ɛfa so, na gyae bere a ɛda so yɛ ɛma wo ani gye. Ɛnni bere a ɛyɛ nokware."
+            },
+            {
+              "q": "Dɛn na ɛbɛyɛ sɛ wɔampɛ agoro bi?",
+              "a": "Gye wɔn 'daabi' no to, na sɔ bio akyire anaa wɔ ɔkwan foforɔ so. 'Daabi' bi fi ahoɔden a abere, awerɛhow, nnim nneɛma, anaa sɛ wɔammpɛ ho ankasa. Hwɛ yɛn akwankyerɛ a ɛka sɛdeɛ wobɛyɛ bere a wɔka 'daabi' no ho."
+            },
+            {
+              "q": "Agoro bɛn na ɛfata dementia a ɛrekɔ so?",
+              "a": "Ahomatrɛ ne ahodɔɔ: tie nnwom a wɔpɛ, mpaw ne nsa ho akyɛ ne lotion, hwɛ mfonini bom, kyekyɛ ntoma a ɛyɛ mmirika, tena awia mu, anaa agoro a ɛyɛ kakra ne obi a ɔbɛyɛ ne nkyɛn. Yɛn akwankyerɛ a ɛfa dementia a ɛrekɔ so no mu na nneɛma pii wɔ hɔ."
+            },
+            {
+              "q": "Ɛwɔ agoro ma nnipa a wɔwɔ ayaresa fie mu ana?",
+              "a": "Ɛwɔ. Picture bingo wɔ kaad a wɔbɛprint ne frɛfrɛ a ɛwɔ ahyɛnsoro so, na Finish the saying ne Conversation cards yɛ papa sɛ wɔkenkan. Yɛn akwankyerɛ a ɛfa ayaresa fie nkɔ ho ka nkɔ a ɛkɔ soro, sɛdeɛ wɔbɛtete, ne sɛdeɛ wɔbɛsesa agoro ma nnipa a wɔwɔ nneɛma a ɛyɛ mmerɛ mu."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Ahoɔden a ɛfa adwene ho",
+          "items": [
+            {
+              "q": "Agoro bɛtumi ahwe dementia ano anaa ama ɛnkɔ so ntɛm?",
+              "a": "Agoro biara nni nsɛm a ɛkyerɛ sɛ ɛbɛtumi ahwe dementia ano, na yɛn agoro nso nka saa. Nhwehwɛmu bi kyerɛ sɛ nkɔmhyɛ a wɔyɛ wɔ nkurɔfo ntam, a wɔde adwene bɛyɛ nneyɛe, bɛtumi aboa kakra ma nnipa a wɔwɔ dementia a ɛyɛ ketewa anaa ɛyɛ ɛkɔ so kakra. Nanso ɛno yɛ adwene a ɛyɛ soro, ɛnyɛ agoro a ɛbɛhwe yareɛ no ano. Yɛde agoro ma anigye ne nkɔmhyɛ."
+            },
+            {
+              "q": "Wobɛtumi aboa dementia ama ɛnnba?",
+              "a": "Nokware nni. Nhwehwɛmu ka nneɛma 14 a ɛfa ahoyare ne abrabɔ ho ho ne dementia kɔ ho, te sɛ nteaseɛ a ɛyɛ den, mogya kɔ soro, nnwuma nni, ne nkurɔfo a wɔnni nkɔmmɔ. Sɛ wɔsiesie saa nneɛma yi mu bi a, ɛbɛtumi aboa ama nnipa bi, nanso nnipa pii a wɔyɛ nneɛma nyinaa yiye nso bɛyɛ dementia. Ɛnyɛ obi mfomso."
+            },
+            {
+              "q": "Ɛyɛ papa sɛ yɛdi nna (intermittent fasting) ma adwene?",
+              "a": "Nhwehwɛmu a ɛfa nnipa ho no nyɛ pii, na ɛyɛ foforɔ, na nhwehwɛmu pii wɔ mmoa mu. Didi nna bɛtumi ayɛ basaa ma mpanin, titiriw sɛ wɔde ayarasɛnɛ ma shuga anaa sɛ wɔrehwe ahoɔ a ɛnyɛ wɔn pɛ. Ɛnyɛ ade a wɔkyerɛ ma nnipa a wɔwɔ dementia. Kasa kyerɛ dɔkota ansa na woresesa sɛdeɛ woredi."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Kwan ne ahobammɔ",
+          "items": [
+            {
+              "q": "Wobɔ nsɛm bi ano?",
+              "a": "Nni accounts anaa adverts. Yɛde Google Analytics hwɛ nkɔ a ɛba, na yɛhwɛ nkrataa a ɛboa. Wo browser kae sɛ woapɛ nne a yɛbɛtie no. Mfonini a woapaw ma Photo pairs no nni nkɔsoɔ da. Hwɛ privacy notice ma nsɛm a ɛyɛ pii."
+            },
+            {
+              "q": "Ɛyɛ akwankyerɛ a ɛfa yareɛ ho ana?",
+              "a": "Dabi. Creative Activities yɛ agoro ne nsɛm a ɛyɛ nkyerɛkyerɛ ma nnipa. Sɛ wowɔ yareɛ ho nsɛm a, kasa kyerɛ dɔkota, na sɛ ɛyɛ ahohia a ɛyɛ ntɛm, frɛ 112."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Nsɛm a ɛkɔ mu: <a href=\"/caregiving/how-to-play-together/\">sɛdeɛ wobɛgoro bom</a>, <a href=\"/caregiving/when-they-say-no/\">bere a wɔka daabi</a>, <a href=\"/activities/late-stage/\">agoro a ɛfa dementia a ɛrekɔ so</a> ne <a href=\"/brain-health/can-dementia-be-prevented/\">wobɛtumi aboa dementia ama ɛnnba?</a>"
+    },
+    "handout": {
+      "title": "Agoro a Ɛyɛ Fre, Ɛyɛ Mmɔborɔ ma Nnipa a Wɔwɔ Dementia Mu",
+      "seoTitle": "Nkyerɛwde a wɔbɛprint: Dementia agoro a ɛyɛ fre wɔ online",
+      "description": "Nkyerɛwde baako a wɔbɛprint ma abusua ne akwantufoɔ, a ɛka agoro mfonini a ɛyɛ fre ne mmɔborɔ ho ma nnipa a wɔwɔ dementia mu, de ma boafoɔ nhyiamu ne nneɛma a wɔde kɔma.",
+      "crumb": "Nkyerɛwde a wɔbɛprint",
+      "lede": "Print saa kratafa yi ma boafoɔ nhyiamu, nneɛma a wɔde kɔma anaa fridge ano. Fa browser no Print command; menus ne nkotodwe nnyina so wɔ printout no mu.",
+      "introHtml": "<p>Mfonini kɛse, nkyerɛase a ɛyɛ pɛpɛɛpɛ, ne biribiara a ɛnhia wo ma wotwe mu. Ɛyɛ fre wɔ telefon, tablet anaa komputa so, enni account, enni advert, enni bere hwehwɛ ne enni mmuae. Tena ne ho nkyɛn na mo nni bere so.</p>",
+      "gamesTitle": "Agoro a yɛbɛyɛ bom",
+      "restHtml": "<h2>Afotuo bi</h2><ul><li>Fa bere a obi no ho yɛ ɛyɛ yiye paa so.</li><li>Fi ase wɔ nhyehyɛe a ɛyɛ mmerɛw no so. Nkyerɛwde anan (four tiles) ɛdɔɔso.</li><li>Ka mfonini no ho asɛm. Nkɔmmɔ no ho ne ade a ɛyɛ papa paa.</li><li>Gyae bere a ɛda so yɛ ɛma wo ani gye. Ɛyɛ papa sɛ wogyae ntɛm.</li></ul><h2>Nea ɛwɔ saa baabi yi so nso</h2><ul><li>Nkyerɛwde a wɔbɛprint: word search a nkyerɛase kɛse wɔ mu, coloring pages, conversation cards ne picture bingo.</li><li>Agoro nsɛm ma nkɔ nyinaa, ne akwankyerɛ a ɛfa sɛdeɛ wobɛgoro bom ne sɛdeɛ wobɛhwɛ wo ho ho.</li></ul><p class=\"muted\">Ɛyɛ ma anigye ne bere a wɔde bɛkɔ. Ɛnyɛ akwankyerɛ a ɛfa yareɛ ho, ɛnyɛ nnwinnade, anaa ɔyareɛ mmɔ. Cloudjet Solutions Pte. Ltd. na ɔde Creative Activities pae ase.</p>"
+    },
+    "organizations": {
+      "title": "Ma ayaresa fie, nhoma dan ne boafoɔ nhyiam",
+      "seoTitle": "Dementia Anigyeɛ Akyɛde ma Ahwɛyiedifie ne Akuw",
+      "description": "Sɛnea ahwɛyiedifie, adane anigyeɛ nhyehyɛe, kuw, ahwɛyiefo ne mmoa akuw de yɛn akyɛde dementia anigyeɛ nneɛma di dwuma, ne nkyerɛwde a wobɛfa de yɛn ka wɔn nkyerɛwde mu.",
+      "crumb": "Ma nhyehyɛe",
+      "lede": "Saa baabi yi nneɛma nyinaa yɛ akyɛde ma wɔn a wɔwɔ ahwɛyiedifie, nhyehyɛe, kuw anaa mmoa mu. Ɛnhia akawnt, laesɛnsi anaa sika. Saa kratafa yi kyerɛ nea ɛwɔ ha ne sɛnea wobɛkyɛ no.",
+      "shortText": "{name}: akyɛde, ahoɔfɛ mfonini anigyeɛ ne nkyerɛkyerɛ ma nnipa a wɔwɔ dementia ne wɔn a wɔhwɛ wɔn so. Ɛnhia akawnt, ɛnni bere ho nhyehyɛe, ɛnni akontaabu.",
+      "longText": "{name} ({domain}) de {count} akyɛde anigyeɛ a wɔyɛe ma nnipa a wɔwɔ dementia ahyɛ, a ɛka mfonini mmienu a wɔbɛbɔ, mfonini a wɔbɛkyekye ahyɛ, nsɛmfua a wɔbɛkyerɛ, ne mfonini bingo a wɔbɛprint nkɔsoɔ ho. Akawnt, adverts, bere ho nhyehyɛe anaa akontaabu nni hɔ. Saa beaeɛ no nso wɔ nkyerɛkyerɛ a wɔatwe ho ankasa ma dementia stage biara, a ɛde National Institute on Aging ne Alzheimer's Association sɛ akwan.",
+      "useTitle": "Nea ahwɛyiedifie ne nhyehyɛe bɛtumi de di dwuma",
+      "gamesItemHtml": "<strong>{count} browser anigyeɛ</strong> a wɔyɛ adwuma wɔ laptop, tablet anaa TV a ɛka computer. Ɛnhia install, akawnt anaa download. Hwɛ <a href=\"/games/\">anigyeɛ nyinaa</a>.",
+      "printablesLabel": "{count} nkyerɛwde a wobɛprint:",
+      "printablesAfter": "Fa Print bɔtɔn a ɛwɔ kratafa biara so.",
+      "moreItemsHtml": "<li><strong>Nhyehyɛe a ɛboa kuw:</strong> <a href=\"/games/picture-bingo/\">Mfonini bingo</a> wɔ kaad a wobɛprint ne frɔnkɔ a ɛfrɛ nsɛm, ne <a href=\"/activities/trivia/\">nsɛmmisa a ɛyɛ mmerɛw</a> wɔ 50 nsɛmmisa a mmuae a wɔpaw ne nkyerɛkyerɛ ka ho.</li><li><strong>Anigyeɛ akwankyerɛ</strong> ma adwumayɛfo ne mmusua, a wɔde kyerɛwee ankasa, ɛbɛyɛ wɔ stage ne anigyeɛ ntease ho, nkyerɛwde a wɔde nsɛm ankasa kyerɛwee ne nsɔhwɛ. Fi <a href=\"/activities/ideas/\">anigyeɛ ntease 101</a> anaa <a href=\"/activities/care-home-groups/\">ahwɛyiedifie kuw anigyeɛ</a> ase.</li>",
+      "restHtml": "<h2>Sɛnea kuw de di dwuma</h2><ul><li><strong>Ahwɛyiedifie ne dementia ahwɛyie:</strong> mfonini bingo anaa nsɛm a wɔbɛwie wɔ atamfoɔ TV so, ɔko bi de ne nsa bɛtow bɔtɔn ma kuw no.</li><li><strong>Adane nhyehyɛe:</strong> tablet bi a Picture pairs wɔ so, a mfonini ɛyɛ anan, de ma nnipa a wɔwɔ asɛm kakra ho nkitahodie.</li><li><strong>Nkurosɛm kuw:</strong> nkyerɛwde a wɔprint bi nsɛm ahwehwɛ ne nkitahodi kaad wɔ memory kit mu, ne saa beaeɛ no bɛyɛ bookmark wɔ library tablet so.</li><li><strong>Ahwɛfo boafo kuw ne memory kafe:</strong> <a href=\"/handout/\">kratafa baako a wɔbɛprint</a> ma mmusua de bɛkɔ fie.</li><li><strong>Ayaresabea ne discharge adwumayɛfo:</strong> nkyerɛwde no wɔ ahwɛfo packet mu, sɛ wɔrehwehwɛ anigyeɛ a ɛyɛ ahomegyebɔ wɔ fie anaa wɔ mpaneɛ.</li></ul><h2>Nea yɛnnyɛ</h2><p>Anigyeɛ yi ma ɔno ne wɔn a wɔwɔ wɔn nkitahodie anigyeɛ ne bere pa. Ɛnyɛ dementia nhwehwɛ, ɛnyɛ yareɛ ho ntease, ɛnyɛ nkontaabu, ɛnyɛ ayaresa, na ɛnnyɛ ano ho mmoa. Yɛsrɛ nhyehyɛe no nkyerɛ saa. Adverts nni hɔ, na anigyeɛ no nnsrɛ mmerɛ, ayaresa nsɛm anaa mfonini nnfa mmfa. Ɛde Google Analytics bɛkan nnipa a wɔba saa beaeɛ yi; <a href=\"/privacy/\">Kyerɛwde a ɛfa kokoam ho</a> kyerɛ nea ɛkɔ mu. Mfonini a wɔde di dwuma wɔ <a href=\"/games/photo-pairs/\">Mfonini mmienu</a> ka browser no mu.</p><h2>Fa yɛn ka wo nkyerɛwde mu</h2><p>Sɛ wokora ahwɛfo nkyerɛwde mu a, wotumi de <a href=\"/\">{domain}</a> bɛkɔ nkɔsoɔ. Wotumi kopi nkyerɛkyerɛ biara.</p>",
+      "shortTitle": "Nkyerɛkyerɛ a ɛyɛ tiaa",
+      "longTitle": "Nkyerɛkyerɛ a ɛyɛ tenten",
+      "linksHtml": "<p>Kratafa a ɛyɛ mfasoɔ a wotumi de kɔ so ntɛm: <a href=\"/games/\">akyɛde anigyeɛ</a>, <a href=\"/activities/printable/\">akyɛde nkyerɛwde a wobɛprint</a>, <a href=\"/activities/alzheimers/\">anigyeɛ ma Alzheimer's</a> ne <a href=\"/caregiving/how-to-play-together/\">sɛnea wobɛtena anigyeɛ mu wɔ hɔ</a>.</p><h2>Nsɛmmisa anaa nsakrae</h2><p>Sɛ biribi wɔ saa beaeɛ yi mu yɛ mmerɛ anaa ɛnyɛ pɛpɛɛpɛ, anaa ɛnnyɛ ahwɛyiedifie ho ɔkwan a wɔde mmoa, kɔka yɛn nkyɛn wɔ <a href=\"mailto:{email}\">{email}</a>. Yɛsrɛ mo, mfa ahwɛyiedifie anaa kuw ho ankasa anaa yareɛ nsɛm nkɔma yɛn.</p>"
+    },
+    "app": {
+      "title": "Creative Activities App",
+      "seoTitle": "Creative Activities App ma iPhone ne Android",
+      "description": "Creative Activities app a wɔde akyɛde: mfonini mmienu a wɔde nsa ahyɛ ahyɛ ahyɛ ahyɛ, mmusua mfonini a wɔde kɔ wo device so, mfonini nhyehyɛe a wɔde ntwa ntwa, ne akawnt nni hɔ.",
+      "crumb": "App no",
+      "lede": "Biribiara a wopɛ wɔ wẽbsaet no mu, wɔ app bi mu a ɛyɛ adwuma a internet nni hɔ, na wotumi de mmusua mfonini a wopaw ayɛ adwuma.",
+      "worksOn": "Ɛyɛ adwuma wɔ {platforms} ({requirements}).",
+      "bodyHtml": "<h2>Fi ase kakra kakra</h2><p>Fi ase ne tiles anan a ɛyɛ kɛse, ne mfonini a wo ne wɔn tena ase. Ma mfonini no nni hɔ, anaa hyɛ no bɔ sɛ ɛyɛ wo yie. Ɔkwan a ɛyɛ mmirika no nni bere, nkontaabu anaa asiane biara. Paw tiles 4, 6, 8 anaa 12.</p><h2>Yɛ no wo ankasa</h2><p>Paw wo abusua mfonini wɔ wo device no picture picker so. App no sie mfonini ntɛm bi ma nneɛma a ɛwɔ mu. Ɛnhwehwɛ wo mfonini nyinaa, na ɛnsesa wo mfonini a ɛyɛ mpɛnsɛnsɛn. Ɛkora mfonini 24 wɔ collection biako mu.</p><h2>Hwɛ mfonini no bom</h2><p>Hwɛ mfonini biako wɔ bere biara. Nsɛm a ɛboa nkitahodie yɛ ade a wopɛ, a ɛnsɛ sɛ obi kae din anaa ɔbua nea ɛteɛ. Hwɛ bom no ara na ɛboa.</p><h2>Intaanɛt a ɛnni hɔ, ɛboa wɔ baabi a ɛho hia</h2><p>Mfonini a wɔfi ase no ne mfonini nhyehyɛeɛ nyinaa 8 wɔ app no mu. Mfonini a wɔakopi ba app no mu no yɛ adwuma a intaanɛt nni hɔ. Sɛ wopaw mfonini a ɛwɔ iCloud nko ara mu no, ɛbɛyɛ papa sɛ intaanɛt wɔ hɔ.</p><h2>Akaunt nni hɔ, mfonini sync server nni hɔ</h2><p>Abusua mfonini a wɔakopi no tena app no mu wɔ device no so. Wobetumiayi mfonini a wɔakopi no nkɔ a, wunnyi mfonini a ɛwɔ wo nkyɛn no. Device backups betumi ahyɛ app data mu. Kenkan <a href=\"/app-privacy/\">app privacy policy</a>, na <a href=\"/help/\">app help</a> bɛkyerɛ wo kwan biara.</p>",
+      "disclaimer": "Creative Activities yɛ ma ahoɔfɛ ne nkitahodie a yɛka bom. Ɛnhwehwɛ, ɛnyaw, ɛnsiw ano, anaa ɛnnsi dementia anaa Alzheimer's yare ho ban, na ɛnnhwɛ ne kɛse.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Free Akyinnyegye Online ma Dementia ne Alzheimer's",
+    "description": "Akyinnyegye a wɔde ma free online ma mpanimfoɔ a wɔwɔ dementia anaa Alzheimer's: mfonini a wɔtoa, mfonini a ɛyɛ mmerɛw a wɔbɛkabom, nsɛm a wobɛkyerɛkyerɛ, kyerɛwde, bingo. Ɛnhia sɛ wokyerɛw din, nkontaabu anaa bere biara nni hɔ.",
+    "crumb": "Akyinnyegye",
+    "h1": "Akyinnyegye a Ɛyɛ Mmirika ma Nnipa a Wɔwɔ Dementia",
+    "lede": "Akyinnyegye {count} a wɔde ma free wɔ browser so, na mo bɛyɛ bom. Mfonini kɛse, nsɛm a ɛyɛ mmerɛw, na biribiara nni asiane: bere nni hɔ, nkontaabu nni hɔ, sign-up nni hɔ.",
+    "listName": "Akyinnyegye a ɛyɛ mmirika ma nnipa a wɔwɔ dementia",
+    "byStageTitle": "Akyinnyegye a wɔpaw sɛnea ɔbɔ mu",
+    "byStageLede": "Stage yɛ kwan a ɛboa kakra kɛkɛ. Di nea ɔpɛ ne nea ɛyɛ no yie nnɛ so.",
+    "stageCol": "Stage",
+    "gamesCol": "Akyinnyegye a ɛtaa yɛ yie",
+    "moreHtml": "Nsɛm foforo a ɛnni screen so: <a href=\"/activities/ideas/\">101 adwuma ma nnipa a wɔwɔ dementia</a>, <a href=\"/activities/alzheimers/\">adwuma ne akyinnyegye ma Alzheimer's</a>, <a href=\"/activities/memory-games/\">akyinnyegye a ɛyɛ mmirika ma nkaeɛ</a> ne <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "faq": [
+      {
+        "q": "Akyinnyegye bɛn na yɛbɛhyɛ ase?",
+        "a": "Mfonini mmienu wɔ tiles anan yɛ ɔkwan a ɛyɛ bom a yɛbɛfi ase. Sɛ ɛyɛ den sɛ wobɛpaw mfonini, sɔ mfonini a ɛyɛ pɛ mmienu a wɔhwehwɛ no. Sɛ ɛyɛ nnipa pii, sɔ mfonini bingo."
+      },
+      {
+        "q": "Akyinnyegye yi yɛ adwuma wɔ iPad anaa phone so ana?",
+        "a": "Yɛ. Akyinnyegye nyinaa yɛ adwuma wɔ browser so wɔ phone, tablet ne komputa so, na mfonini no kɔ so yɛ screen no nyinaa. Tablet a wɔde ayɛ stand so yɛ ɔkwan a ɛyɛ bom ma nnipa mmienu."
+      },
+      {
+        "q": "Akyinnyegye yi yɛ papa ma nnipa a wɔwɔ Alzheimer's ana?",
+        "a": "Yɛ. Wɔyɛɛ no ma nnipa a wɔwɔ dementia, a Alzheimer's ne nea ɛtaa ba kɛse. Mfonini no tena ase, nneɛma a wobɛpaw nyɛ pii, na biribiara nni bere anaa nkontaabu. Ɛno nti, akyinnyegye no fa nneɛma a wɔhunu dada so, na ɛnyɛ nneɛma foforo a wɔhwehwɛ sɛ wobɛkae."
+      },
+      {
+        "q": "Akyinnyegye a ɛyɛ nkaeɛ yi ma mpanimfoɔ ana?",
+        "a": "Ɛyɛ mfonini a wɔtoa ne akyinnyegye a nnipa akyeeɛ nyinaa betumi anya anigyeɛ, nanso wɔyɛɛ wɔn sɛ ɛnsɔ nkaeɛ hwɛ: wɔ Picture pairs mu no, mfonini no tena ase sɛ wopɛ sɛ ɛnsɛ. Yɛn guide a ɛka memory games ma mpanimfoɔ a wɔwɔ dementia kyerɛ sɛnea wobetumi ahyɛ akyinnyegye nkaeɛ biara ase mmirika."
+      },
+      {
+        "q": "Akyinnyegye wɔ hɔ ma nnipa pii wɔ care home mu ana?",
+        "a": "Wɔ hɔ. Mfonini bingo wɔ kaad a wobetumi aprinte ne frɛfoɔ a ɛwɔ screen so, na 'Kyerɛ mmebusɛm no awiei' ne 'Asɛm kaad' yɛ adwuma bio wɔ nnipa pii anim, sɛ wɔka wɔn kɔ so."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad ne Android",
+    "requirements": "iOS 15 anaa akyire; Android 7.0 anaa akyire",
+    "summary": "Ɛyɛ app a wɔntua sika ma iPhone, iPad ne Android. Ɛwɔ mfonini a ɛyɛ mmirika wɔ tiles kɛse 4 kosi 12 so, mfonini ne abusua mfonini a wopaw wɔ hɔ ma mo hwehwɛ ne mo hwɛ bom, ne mfonini nhyehyɛeɛ 8 a wɔde ka ho na yɛ adwuma a intaanɛt nni hɔ. Akaunt nni hɔ, ads nni hɔ, bere nni hɔ, nkontaabu nni hɔ.",
+    "features": [
+      "Mfonini a ɛyɛ mmirika wɔ tiles kɛse 4, 6, 8 anaa 12 so; mfonini no tena ase sɛ wunnpɛ sɛ wɔhyɛ no bɔ",
+      "Abusua mfonini a wopaw no wɔkopi ba app no mu ma mo hwehwɛ ne mo hwɛ bom",
+      "Hwɛ bom: mfonini biako wɔ bere biara, ne nsɛm a ɛboa nkitahodie a wopɛ",
+      "Mfonini nhyehyɛeɛ 8 wɔ app no mu; ɛyɛ adwuma a intaanɛt nni hɔ",
+      "Akaunt, ads, sika a wɔtua wɔ app mu, bere, nkontaabu anaa ɔsɔe biara nni hɔ"
+    ],
+    "faq": [
+      {
+        "q": "Dementia adwuma app wɔ hɔ ana?",
+        "a": "Yɛ. Creative Activities (wɔaka sɛ \"{storeName}\") yɛ free wɔ App Store ne Google Play so. Ɛma mfonini a ɛyɛ mmirika wɔ tiles kɛse so, akyinnyegye a wobɛde mfonini a wopaw bɛyɛ, ne mfonini nhyehyɛeɛ a ɛyɛ adwuma a intaanɛt nni hɔ."
+      },
+      {
+        "q": "Creative Activities app yi yɛ free ana?",
+        "a": "Yɛ. Wɔntua sika sɛ wobɛdownload, ads nni hɔ, akaunt nni hɔ, na sika a wɔtua wɔ app mu nni hɔ."
+      },
+      {
+        "q": "App no yɛ adwuma a intaanɛt nni hɔ ana?",
+        "a": "Yɛ. Mfonini a ɛyɛ mmirika ne mfonini nhyehyɛeɛ 8 nyinaa wɔ app no mu, na abusua mfonini a wɔakopi ba app no mu no nso yɛ adwuma a intaanɛt nni hɔ. Sɛ mfonini a ɛwɔ iCloud nko ara mu no, ɛbɛyɛ papa sɛ intaanɛt wɔ hɔ."
+      },
+      {
+        "q": "Metumi de yɛn ankasa abusua mfonini di dwuma ana?",
+        "a": "Aane. Fa wo fon no mfonini a wopɛ no. App no bɛkora mfonini ketewa wɔ fon no so ma ne nneɛma, ɛnsoma mfonini no nkɔ baabi, na ɛnsesa mfonini a ɛwɔ wo nkɔso no. Wobetumi de ayi nkɔsoɔ yi afi hɔ bere biara."
+      },
+      {
+        "q": "Ɛyɛ app a ɛboa adwene ma ɛyɛ den, anaa ɛyɛ nsɛmmisa a wɔbɛbisa?",
+        "a": "Daabi. Creative Activities yɛ ma anigye ne bere a wobɛfa mo di. Ɛnwɔ nsɛmmisa anaa mmuae. Ɛnhwehwɛ yare, ɛnsa yare, ɛnsiw yare ano, anaa ɛnntwɛn dementia anaa Alzheimer’s yare."
+      },
+      {
+        "q": "Ɛwɔ nneɛma bɛn so a ɛyɛ adwuma?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Ɛwɔ app a ɛyɛ saa keme yi ho?",
+      "a": "Aane. Creative Activities app a ɛnnwe bo ma iPhone, iPad ne Android no wɔ mfonini a ɛyɛ mmerɛw a wɔbɛhyɛ bom, ɛtumi de mfonini a wopɛ ne mo abusua mfonini adi adwuma, na ɛyɛ adwuma a intaneti nhia. Ɛnhia akaunt, ɛnni adverts, na ɛnni mmuae."
+    },
+    "gameFaqNo": {
+      "q": "Ɛwɔ app a ɛyɛ saa keme yi ho?",
+      "a": "Ɛnyɛ saa keme yi. Creative Activities app a ɛnnwe bo ma iPhone, iPad ne Android no wɔ mfonini a wɔbɛhyɛ bom ne ntwitwa kɛse, mfonini a wopɛ ne mo abusua mfonini, na ɛyɛ adwuma a intaneti nhia. Saa keme yi da hɔ free wɔ wo browser so."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: mfonini kɛse a ɛfata",
+    "noscript": "Saa keme yi hia sɛ wo browser no JavaScript abue. Afotu a ɛwɔ ase yi yɛ adwuma a ɛnhia saa.",
+    "about": "Ɛfa {name} ho",
+    "aboutAria": "Ɛfa saa keme yi ho",
+    "noTimer": "Ɛnni bere anaa mmuae",
+    "printable": "Wobetumi aprinti",
+    "howTo": "Sɛnea wobɛdi {name} bom",
+    "tips": "Afotu a ɛboa sɛ mo di bom",
+    "newToPlayingHtml": "Wo ho ahyɛ sɛ wobɛdi keme bom wɔ obi a ɔwɔ dementia ho? Kenkan <a href=\"/caregiving/how-to-play-together/\">sɛnea wobɛdi keme bom</a>, ne deɛ wobɛyɛ sɛ ɔnnwɛn keme no bio.",
+    "moreAria": "Nea ɛka ho a wobɛhwehwɛ",
+    "helpfulGuides": "Nkyerɛkyerɛ a ɛboa",
+    "appTitle": "Di so wɔ app no mu",
+    "appText": "Creative Activities app a ɛnnwe bo wɔ mfonini a wɔbɛhyɛ bom kɛse ne wo abusua mfonini, na ɛyɛ adwuma a Wi‑Fi nhia. Ɛwɔ iPhone, iPad ne Android so.",
+    "photoAppTitle": "Fa wo mfonini hyɛ hɔ",
+    "photoAppText": "Creative Activities app mu no, mfonini a wopɛ no gyina wo fon so ma adeɛ a ɛbɛba akyire, na keme no yɛ adwuma a Wi‑Fi nhia. Ɛwɔ iPhone, iPad ne Android so.",
+    "goodToKnow": "Ɛsɛ sɛ wunim",
+    "goodToKnowText": "Saa keme yi yɛ ma anigye ne bere a mo di. Ɛnhwehwɛ, ɛntwɛn anaa ɛnsa ade biara.",
+    "moreGames": "Keme a ɛyɛ mmerɛw foforo",
+    "crumb": "Keme"
+  }
+}

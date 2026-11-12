@@ -1,0 +1,541 @@
+{
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
+  "common": {
+    "skipLink": "Nuka u ye koshikalimo shopokati",
+    "brandName": "Creative Activities",
+    "brandTag": "Oilonga yovanhu ve na oududu wokudimbwa",
+    "homeLabel": "Epandja lokotete laCreative Activities",
+    "mainNav": "Oshitukulwa shopokati",
+    "titleSuffix": " | Creative Activities",
+    "defaultImageAlt": "Creative Activities: omafano manene mawa ekopi leteye, oshishani shetango nombwa",
+    "languages": "Elaka",
+    "englishOnly": "(Oshiingilisha)",
+    "machineTranslated": "Epandja eli ola tolokwa pauyelele womashina noina li talululwa natango komunhu ta popi elaka eli.",
+    "readOriginal": "Lesha oshishangi sho vene mOshiingilisha",
+    "nav": {
+      "games": "Omaudano",
+      "activities": "Oilonga yokuninga",
+      "caregiving": "Efiloshisho",
+      "brainHealth": "Oukolele wouluyi"
+    },
+    "faqTitle": "Omapulo nomanyamukulo",
+    "breadcrumb": "Ondjila yomapandja",
+    "home": "Epandja lokotete",
+    "lastUpdated": "Opa ningululwa lwaxuuninwa",
+    "topics": "Oikundafana",
+    "textSize": {
+      "label": "Ounene womashangelo",
+      "smaller": "Omashangelo opashito",
+      "larger": "Omashangelo manene",
+      "contrast": "Oulayiti ya yela unene"
+    }
+  },
+  "footer": {
+    "play": "Dana",
+    "picturePairs": "Omafano a faafana",
+    "conversationCards": "Oukalata veengundafana",
+    "pictureBingo": "Bingo yomafano",
+    "allGames": "Omaudano aeshe",
+    "pictures": "Omafano okupilinda",
+    "activityIdeas": "Omadiladilo oinima yokuninga",
+    "ideas101": "Omadiladilo 101 oinima yokuninga",
+    "lateStage": "Oilonga yopefimbo laxuuninwa",
+    "printable": "Oinima yokupilinda",
+    "allActivities": "Oilonga aishe yokuninga",
+    "forCaregivers": "Kovalifilishisho",
+    "playTogether": "Nghee tamu dulu okudana pamwe",
+    "selfCare": "Okulifila oshisho mwene",
+    "brainHealth": "Omapekapeko oukolele wouluyi",
+    "faq": "Omapulo nomanyamukulo",
+    "about": "Kombinga yetu",
+    "approach": "Onghedi yetu",
+    "howWeWrite": "Nghee hatu shange",
+    "organizations": "Komahangano",
+    "app": "O-apilikeshina yaCreative Activities",
+    "appHelp": "Ekwatho lo-apilikeshina",
+    "support": "Ekwatho",
+    "legal": "Ouyuuki wopaveta",
+    "sitePrivacy": "Eameno loikwambelewa yopepandja",
+    "appPrivacy": "Omilandu deameno lo-apilikeshina",
+    "privacyChoices": "Omahoololo eameno loye",
+    "terms": "Omilandu nelikwatafilo lo-apilikeshina",
+    "safety": "Eameno nelongifo la nuninwa",
+    "accessibility": "Eitulomo kovanhu aveshe",
+    "healthNotice": "Eshiivifo li na sha noukolele",
+    "allLegal": "Omauyelele aeshe opaveta",
+    "note": "Creative Activities otai yandje oilonga ipu yokulongela pamwe opo mu hafele pamwe. Kashi fi omayele opaundjolowele, oyeleko ile epango, noitai konakona, i yeleke ile i pe omunhu oishani. Komapulo e na sha noukolele, popya nondokotola. Peemhumbwe dopadulumohu, denga ko 112.",
+    "publisher": "Sha nyanyangidwa kuCloudjet Solutions Pte. Ltd."
+  },
+  "home": {
+    "title": "Omaudano noilonga yovanhu ve na oududu wokudimbwa naAlzheimer's | Creative Activities",
+    "description": "Omaudano ofana mahapu goshali okudana kointaneta nomadiladilo oinima yokuninga yovanhu ve na oududu wokudimbwa ile Alzheimer's novafilishisho vavo. Kape na elishangifo, eendjila deefimbo ile oishani.",
+    "eyebrow": "Oshali · Kape na oitwalelifo · Kape na elishangifo · Kape na ovili ile oishani",
+    "h1": "Omaudano nomanyanyudifo ombili kovanhu ve na oududu wokudimbwa",
+    "lede": "Omaudano mapu omafano, omafano mu shii nale, noilonga yokunyanyukilwa pamwe—mondapo yeni yene.",
+    "playGame": "Dana eudano",
+    "findIdeas": "Konga omadiladilo oinima yokuninga",
+    "facts": [
+      "Otai longo kongodi, kotalepeta nokokompiuta",
+      "Omafano manene oo haa kala a yela",
+      "Kanga efimbo keshe; kape na sha to dopa"
+    ],
+    "heroApp": "Ope na yo o-apilikeshina yoshali yo-iPhone, iPad naAndroid, i na omafano opaukwanambwila weni vene",
+    "albumNote": "“Omafano avali ekopi leteye, pamwe.”",
+    "gamesEyebrow": "Dana me-browser loye",
+    "gamesTitle": "Omaudano to dulu okudana paife tuu apa",
+    "gamesLede": "Keshe shimwe oshi na ombili, osha nuninwa ovakulunhu nohashi hovele mbala. Hoolola shimwe, kaleni omutumba popepi, ndele tamu lishikile okupatanya komafano.",
+    "seeAllGames": "Tala omaudano aeshe {count}",
+    "howTitle": "Nghee hashi longo",
+    "steps": [
+      {
+        "title": "Hoolola sha mu shi shii nale",
+        "text": "Omafano omakopi oteye, oilikunino, eefamona domoshilongo neembauto domeva. Kape na omaleshelo ile omilandu di na okulihongwa manga."
+      },
+      {
+        "title": "Kaleni omutumba popepi",
+        "text": "Efa va patanye komafano. Kundafaneni kombinga yomafano. Ngee omafano inaa faafana, ohashi teelele ashike epatanyo tali shikula."
+      },
+      {
+        "title": "Kangameni fimbo mu udite nawa",
+        "text": "Eudano limwe alike olufo lwa wana lokulinyanyudifa. “Onda mana paife” oshi li alushe poskrine."
+      }
+    ],
+    "stageEyebrow": "Kombinga yoskrine",
+    "stageTitle": "Omadiladilo oinima yokuninga pefimbo keshe lodula",
+    "stageLede": "Oshikwata, oilonga yakeshe efiku, okudimbulukwa oinima yonale nomafimbo etuululo ombili, ya nuninwa eshi mu udite shiwa paife.",
+    "ideas101": "Omadiladilo 101 oinima yokuninga",
+    "stages": [
+      {
+        "href": "/activities/early-stage/",
+        "title": "Pefimbo lotete",
+        "text": "Twikileni okuninga osho ve hole, nomalunduluko manini: oinima yokulinyanyudifa, okuya kondje, omaudano eendjovo nokupanga omalongekido pamwe.",
+        "label": "Omadiladilo opefimbo lotete"
+      },
+      {
+        "href": "/activities/middle-stage/",
+        "title": "Pefimbo lopokati",
+        "text": "Oilonga ipu ya shiivika ya tukulwa meendatu: okunyanya oikutu, okuyoolola, oimusika, omaudano omafano nokweenda oukendo vaxupi.",
+        "label": "Omadiladilo opefimbo lopokati"
+      },
+      {
+        "href": "/activities/late-stage/",
+        "title": "Pefimbo laxuuninwa",
+        "text": "Ombili nekutakano okupitila mekwato lomalunyala, meewili nometalo: okufila oshisho omake, oimbilimo ve hole, omafano nokukala pamwe.",
+        "label": "Omadiladilo opefimbo laxuuninwa"
+      }
+    ],
+    "specificHtml": "Oto kongo sha sha yooloka? Yeela <a href=\"/activities/alzheimers/\">oilonga nomaudano aAlzheimer's</a>, <a href=\"/activities/memory-games/\">omaudano mawa okulidimbulukwa</a>, <a href=\"/activities/trivia/\">omapulo mapu ouyelele</a> ile <a href=\"/activities/puzzles/\">oipupulu yomapangulolo</a>.",
+    "approachEyebrow": "Onghedi yetu",
+    "approachTitle": "Eshi oshilonga shokulongela pamwe, kashi fi eyeleko leendunge",
+    "approachLede": "Omaudano mahapu “ouluyi” okwa tungilwa kedapo, koishani nokondapo yefimbo. Komunhu e na oududu wokudimbwa osho otashi dulu okukala sha fa eyeleko loshikolo. Fye otwa ninga ekondjifafano lasho.",
+    "approachLink": "Omolwashike hatu shi ningi ngaha",
+    "principles": [
+      {
+        "icon": "heart",
+        "title": "Kape na sha to dopa",
+        "text": "Kape na ovili, oishani, eemwenyo ile ekanifo. Efano la yooloka okuulikwa ashike ekangamo lixupi, hakupula sha puka."
+      },
+      {
+        "icon": "eye",
+        "title": "Omafano ohaa kala a holoka",
+        "text": "Okudidilika shi dule okudimbulukwa moule. Okufaafanifa ohaku hovele omafano a talela pombada, opo pa kale pahe na sha tashi pula okudimbulukwa."
+      },
+      {
+        "icon": "people",
+        "title": "Sha nuninwa ovakulunhu nondilo",
+        "text": "Eendjovo dombili dipu nomafano omounyuni woshili. Kape na omafano outana ile oipopiwa youhanana."
+      },
+      {
+        "icon": "shield",
+        "title": "Eameno loye tali hovele petameko",
+        "text": "Kape na omaakaundi ile oitwalelifo. Omafano oye itaa di mo moshikwaelektronika shoye."
+      }
+    ],
+    "guidesEyebrow": "Kovalifilishisho",
+    "guidesTitle": "Omishangwa di na ombili defiloshisho yakeshe efiku",
+    "allCaregiving": "Omishangwa adishe defiloshisho",
+    "guides": [
+      {
+        "href": "/caregiving/how-to-play-together/",
+        "title": "Nghee tamu dulu okudana omaudano pamwe",
+        "text": "Elongekido, ondapo, naasho mu na okuninga ngee eudano la efa okukala tali nyanyula."
+      },
+      {
+        "href": "/caregiving/when-they-say-no/",
+        "title": "Ngee va anye oilonga yokuninga",
+        "text": "Omatomhalo omahapu okwaanya, neenghedi dombili dokukendabala vali lwanima."
+      },
+      {
+        "href": "/caregiving/tablets-and-screens/",
+        "title": "Okulongekida otalepeta",
+        "text": "Omashangelo manene, eimikifo dinini noskrine yopehovelo ipu imwe aike."
+      },
+      {
+        "href": "/activities/printable/",
+        "title": "Oilonga yoshali yokupilinda",
+        "text": "Ekongo leendjovo li na omashangelo manene, omapandja okupilinta omivalo, bingo noukalata veengundafana."
+      }
+    ],
+    "researchTitle": "Oukolele wouluyi: osho omapekapeko taa ti lela",
+    "researchText": "Mbela oududu wokudimbwa otau dulu okukelelwa? Omaudano ouluyi ohaa kwafele tuu? Ngahelipi kombinga yelididimiko leendya, oikulya, eedo nokuuda ko? Omanyamukulo mapu a kankamena komapekapeko, mwa kwatelwa nopo oumbangi inau kola.",
+    "researchLink": "Lesha omishangwa domapekapeko",
+    "appEyebrow": "O-apilikeshina yo i li po",
+    "appTitle": "Creative Activities mo-iPhone, iPad naAndroid",
+    "appText": "O-apilikeshina yoshali ohai longo nande ku na e-intaneta notai dulu okulongifa omafano oukwaneumbo weni oo mwa hoolola, a tuvikilwa koshikwaelektronika sheni vene. Onghedi ya faafana yombili: oitukulwa ine inene, kape na ovili, kape na oishani.",
+    "aboutApp": "Kombinga yo-apilikeshina",
+    "faq": [
+      {
+        "q": "Omaudano elipi mawa kovanhu ve na oududu wokudimbwa?",
+        "a": "Omaudano mawa omapu, oaa shiivika nawa noinaa kwatela mo omufindo washa: omafano manene okupashifa pamwe, okutongola, oma-jigsaw mapu, okumanifa omayeletumbulo a shiivika nawa, okulangeka nomahala, o-bingo yomafano nootufula deenghundafana. Ehoololo liwa olo tali hafifa omunhu oo nena. Henuka omawili opokuvala efimbo, eembapila doitwa noshike na she tu fa eyeleko."
+      },
+      {
+        "q": "Mbela omaudano aa oudu wokudimbwa oshali tuu?",
+        "a": "Heeno. Keshe eudano naashi tashi dulu okudinyangwa ko-Creative Activities oshali, kaku na o-akaunda, okulishangifa ile okukopa kointaneta. Omaudano ohaa longo me-browser yointaneta kongodi yopeke, ko-tablet ile kokompiyuta."
+      },
+      {
+        "q": "Mbela omaudano ouluvi ohaa keelele oudu wokudimbwa?",
+        "a": "Kaku na eudano la hololwa kutya ohali keelele oudu wokudimbwa, no-Creative Activities kai na eshi tai tange kutya otai pange ile tai keelele oshinima shonhumba. Omaudano etu ooehafolo nokukala pamwe. Oshitukulwa shetu shekalonawa louluvi ohashi yelifa osho omakonakono a ulika naasho inaa ulika."
+      },
+      {
+        "q": "Mbela omaudano aa otaa wapalele omunhu e na oudu wa-Alzheimer?",
+        "a": "Heeno. Oudu wa-Alzheimer oo unene hawu etifa oudu wokudimbwa, nomaudano okwa ungaungilwa oshinima osho: omafano manene oo haa kala a ulikwa, omahoololo manini, nokaku na osho sha pumbwa okudimbulukwa ile okupuka. Okufaafanifa, okutongola nokumanifa omayeletumbulo a shiivika oshi likolelela koushiivi wokudja nale ponhele yokuhonga oinima ipe."
+      },
+      {
+        "q": "Mbela omunhu e li mefimbo loxuuninwa loududu wokudimbwa ota dulu okulongifa oilonga ei?",
+        "a": "Olundji heeno, ngeenge e na omunhu popepi naye. Hovela na Konga osho sha faafana nomafano avali, Omapashifano neembapila nhe, epandja lokulangeka omarafano ile efudepo liondjabi. Shi ninga shixupi, landula omhingo yaye, ndele to xulifa po ngeenge a kuta."
+      },
+      {
+        "q": "Mbela omauyelele ange ohaa kala meameno?",
+        "a": "Onhele ei kaina eea-akaunda nokaina omaulikifo oipindi. Ohatu longifa Google Analytics opo tu ude ko kutya omapandja elipi taa talelwa po unene. Omafano oo to hoolola ku-Photo pairs ohaa ulikwa ashike me-browser yoye noihava lundululilwa komalungula."
+      },
+      {
+        "q": "Olyelye ha longo Creative Activities?",
+        "a": "Creative Activities okangudu kanini hoka haka ungaunga noilongafano iondjabi yovakulunhu yomaukwaneumbo naava hava file vamwe oshisho, kointaneta nongaashi o-app yoshali. Fye katu fi ovandokotola, naashishe shi li apa kashi fi omayele opaundjolowele."
+      }
+    ]
+  },
+  "stage": {
+    "early": "yopehovelo",
+    "middle": "yopokati",
+    "late": "yoxuuninwa",
+    "hintOne": "Olundji oshi wapalela onghatu {list}",
+    "hintMany": "Olundji oshi wapalela eenghatu {list}",
+    "labelEarly": "Onghatu yopehovelo",
+    "labelMiddle": "Onghatu yopokati",
+    "labelLate": "Onghatu yoxuuninwa"
+  },
+  "cards": {
+    "aboutGame": "Kombinga yeudano eli",
+    "printable": "Tashi dinyangwa",
+    "play": "Dana {name} →",
+    "readGuide": "Lesha ewiliko"
+  },
+  "playCta": {
+    "title": "Mbela owe lilongekela eudano liondjabi?",
+    "text": "Omafano manene, kaku na efimbo lokuvalwa, kaku na oitwa, nokaku na okulishangifa. Daneni pamwe me-browser yeni.",
+    "play": "Dana Eudano",
+    "all": "Tala omaudano aeshe",
+    "aria": "Dana eudano"
+  },
+  "appCta": {
+    "title": "Kufa omaudano aa pamwe naave",
+    "text": "O-app yoshali ya-Creative Activities yee-iPhone, iPad na-Android: omafano manene eetaila, omaudano e na omafano oukwaneumbo woye mwene, nomakanghameno omafano oo haa longo nopehe na Wi-Fi. Kaku na o-akaunda, omaulikifo oipindi, efimbo lokuvalwa ile oitwa.",
+    "appStore": "I mona ko-App Store",
+    "googlePlay": "I mona ko-Google Play",
+    "appStoreShort": "App Store",
+    "googlePlayShort": "Google Play",
+    "about": "Kombinga yo-app",
+    "aria": "Mona o-app"
+  },
+  "sections": {
+    "activities": {
+      "label": "Oilongadano",
+      "title": "Oilongadano yOvanhu ve na Oudu wokudimbwa",
+      "seo": "Oilongadano yOvanhu ve na Oudu wokudimbwa: Omadiladilo paNghatu",
+      "description": "Omadiladilo oilonga yovanhu ve na oudu wokudimbwa keenghatu adishe: omusika, okudimbulukwa eendjokonona, oilonga yakeshe efiku, omafimbo oukwatya, eengano dokonyala, pondje noitukulwa yoshali yokudinyanga.",
+      "lede": "Oilonga yefimano oyo keshe shimwe tashi eta ehekeleko, elalakano ile okafimbo kokulihanga pamwe. Hovela naasho omunhu oo a kala e hole alushe, ndele to shi lundululile konghalo yanena."
+    },
+    "caregiving": {
+      "label": "Efiloshisho",
+      "title": "Omalombwelo okuFila Oshisho",
+      "seo": "Omalombwelo okuFila Oshisho Ovanhu ve na Oudu wokudimbwa: Ekwafo lOkeshe Efiku",
+      "description": "Omalombwelo opauyelele nomawa kovanhu ava hava file vakwao oshisho: okudana omaudano pamwe, eenghundafana, omanyeno, okuhakala nombili konguloshi, ootablet, okuhoolola ee-app nokulifila oshisho mwene.",
+      "lede": "Ekwafo lipu nole liwetikile lokafimbo kakeshe kokufila oshisho omunhu e na oudu wokudimbwa, mwa kwatelwa nokulifila oshisho aave mwene."
+    },
+    "brain-health": {
+      "label": "Ekalonawa louluvi",
+      "title": "Ekalonawa lOuvi: Osho Omakonakono Taa Popi",
+      "seo": "Ekalonawa lOuvi noMbepo yOudu wokudimbwa: Osho Omakonakono Taa Popi",
+      "description": "Mbela oudu wokudimbwa otau dulu okukeelelwa? Omalombwelo oshili oo a kanghamena komakonakono kombinga yoiholelwa youdu wokudimbwa, omaudano ouluvi, okulididimika okulya, oikulya, deula olutu, eemhofi, okuuda noididilikwalo yopehovelo.",
+      "lede": "Osho omakonakono manene a ulika kombinga yokuninipika ombepo youdu wokudimbwa, sha yelifwa paupu, mwa kwatelwa naapo eumbangi li li panghundi ile li na omaipulo. Omauyelele oo ayeke, ha mayele opaundjolowele."
+    }
+  },
+  "guide": {
+    "updated": "Sha talululwa",
+    "minuteRead": "Elesho lominute {n}",
+    "byTeam": "Kokangudu ka-Creative Activities",
+    "howWeWrite": "Nghee hatu shange",
+    "shortAnswer": "Enyamukulo lixupi",
+    "onThisPage": "Kepandja eli (oitukulwa {n})",
+    "commonQuestions": "Omapulo haa pulwa olundji",
+    "sources": "Eeshako doilongifo",
+    "sourcesNote": "Ohatu tula omalinki komahangano nokeekonakono omo epandja eli la likolelela. Keshe shimwe osha li sha talululwa eshi epandja la pepalekwa.",
+    "tryTogether": "Kendaleni pamwe",
+    "relatedGuides": "Omalombwelo e na ekwatafano",
+    "related": "E na ekwatafano",
+    "startHere": "Hovela apa"
+  },
+  "healthNotice": {
+    "aria": "Eshiivifo lomauyelele opaundjolowele",
+    "title": "Omauyelele oo ayeke, ha mayele opaundjolowele",
+    "textHtml": "Epandja eli otali ningi efupipiko lomakonakono a nyanyangidwa li nuninwa omaukwaneumbo. Ihali dulu oku ku lombwela osho sha yuka komuntu umwe aeke. Kundafana nondokotola ofimbo ino lundulula oikulya, deula olutu, eemhofi, omiti ile oikwateshifo yomiti. Ngeenge pa holoka epupalo lomadiladilo lombelewa ile omalunduluko amwe ombaambambali, konga ekwafo lopaunamiti diva. <a href=\"/medical-disclaimer/\">Lesha eshiivifo letu lomauyelele opaundjolowele</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "Oshilongadano shOkukala Pamwe, Heyeletumbulo lEedimbulukwa",
+      "seoTitle": "Kombinga ya-Creative Activities: Omukalo Wetu",
+      "description": "Omolwashike omaudano a-Creative Activities e he na omawili okufinda efimbo, oitwa ile omalandulafano, omolwashike omafano haa kala e wetike, naasho hatu popi naasho tu he na okutanga kombinga youdu wokudimbwa.",
+      "crumb": "Omukalo wetu",
+      "lede": "Creative Activities otai ungaunga noilongafano iondjabi yovakulunhu oyo omufilishisho nomunhu e na oudu wokudimbwa tava dulu okuhafela pamwe.",
+      "bodyHtml": "<h2>Osho twi itaala</h2><p>Elalakano lelinyengo olo efimbo olo vene: eendjovo, omwiyo, ehafo lokutuvanifa omafano avali, ile ashike okukala omutumba popepi. Kashi fi okuyeleka nande omunhu, oku mu fininika a ninge shihapu ile okuulika sha.</p><p>Eeprograma dihapu dokudeula ouluvi oda longwa nelalakano leendjadja, oitwa, omivalo nomapandja omalondo. Komunhu e na oudu wokudimbwa, osho otashi dulu okukala sha fa eyeleko olo ite dulu okupita. Fye otwa ninga oshikwao sha yooloka ko, notwe likwata komilandu edi:</p><ul><li><strong>Kape na okudopa.</strong> Kape na owili, oitwa, omuvalu womalinyengo, eemwenyo, oikando, eembapila domahafo ile efimbo tali valwa tali shuna monima, kepandja nande olimwe.</li><li><strong>Okudidilika shi dule okudimbuluka.</strong> Omafano ohaa kala taa monika nopehe na oku a holeka. Omapulo ohaa shivi eenghundana noihaa pula nande omadina ile omadidiliko a pita.</li><li><strong>Oinene, ya yela noya ngungumana.</strong> Eendjovo nomafano mawa manene, omalwaalo e liyoolola nawa, noipundi yokulongifa oyo tai kala ponhele imwe efimbo keshe.</li><li><strong>Efimaneko lomukulunhu.</strong> Omafano oushili neendjovo dihapu di na oukwao dounhu. Kape na omafanofilima ounona, omawi eimbilo lokuhekeleka ile omadidiliko eembidji domapandulo.</li><li><strong>Onghedi ipu yokuxulifa po.</strong> “Onda mana paife” otai monika efimbo keshe. Okuxulifa pokati otashi ti osho ngoo sha wana.</li><li><strong>Eameno lopaumwene.</strong> Kape na omaakaundi ile omalandifo. Omafano oo wa hoolola otaa kala mokalelula ile komashina oye vene.</li></ul><h2>Osho tuhe shii okuvalela po</h2><p>Omaudanawa etu oaehafo nokukwatakanifa ovanhu pamwe. Iaa konakona, iaa yeleke, iaa pange, iaa shonopaleke ile iaa kelele oudu wokudimbwa ile oudu waAlzheimer, nokape na nande omunhu e na oku a hoololela osho. Ngeenge tatu shange kombinga yomakonakono komapandja etu <a href=\"/brain-health/\">eameno louluvi</a>, ohatu popi sha yela apa uumbangi uhe na eenghono, noihatu u kwatakanifa nande nomaudanawa etu vene.</p><h2>Ovo fye oolyelye</h2><p>Creative Activities okangudu kovanhu vanini ve li komesho yovene. Katu fi oondohotola. Omawiliki etu oaa shangwa okudja momishangwa da nyanyangidwa keehangano da fa National Institute on Aging noAlzheimer’s Association, nepandja keshe ola kwatela mo eendjo dalo. Lesha <a href=\"/editorial-policy/\">nghee hatu shange nohatu konakona omapandja etu</a>.</p><h2>Tu lombwela osho tashi kwafele</h2><p>Otwa hala unene okuuda osho tashi longo nawa nosho tashi nyengana, unene tuu okuza kovanhu ve na oudu wokudimbwa, ovafilishisho vomomaukwaneumbo novanailonga vomaudanawa. Tumina e-mail ku <a href=\"mailto:{email}\">{email}</a>.</p>"
+    },
+    "editorial": {
+      "title": "Nghee Hatu Shange nohatu Tale Omapandja Etu",
+      "seoTitle": "Omilandu Dokushanga",
+      "description": "Nghee Creative Activities ha kongo omayele, ha shange, ha kongo eendjo doushili noha ningi omapepalo komapandja omaudanawa oudu wokudimbwa noulukalwa wouluvi, nosho itatu ka nyanyangida nande.",
+      "crumb": "Omilandu dokushanga",
+      "bodyHtml": "<h2>Eendjo detu douyelele</h2><p>Omawiliki etu owa kanghamena komawiliki opamhungu a dja keehangano da fa National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance no-NHS, nomomakonakono a talululwa kovanyolindjivo a fa Cochrane reviews nomayeuluko manene opaundoloki. Ewiliki keshe ola tula melandulafano eendjo odo la kanghamena kudo. Ohatu patulula odjo keshe fimbo inatu i tumbula, nohatu shange ashike osho yo yene ya popya.</p><h2>Nghee hatu shange</h2><ul><li>Oinima i na ouwa tete: osho to dulu okuninga nena, melaka la yela.</li><li>Oushili kombinga youumbangi: ohatu popi kutya “otashi kwatakanifwa na-”, “otashi vulika” no-“uumbangi ou li monghalo ya yoolokafana” ngeenge osho oushili ngoo.</li><li>Nefimaneko: ohatu shange kombinga yovanhu ve na oudu wokudimbwa ve li ovakulunhu, noihatu longifa nande omalaka okupula-pula ile okueta efiyo loutoni.</li><li>Kape na oinima ya totwa po: kape na omiyalalu da totwa po, omatumbulo, ovanongononi, omakonakono ile omahokololo omauwa oipupulu.</li></ul><h2>Olyelye ha tale omapandja etu</h2><p>Omapandja ohaa shangwa nohaa konakonwa kokangudu kaCreative Activities, kekwafo lomikwalupe dokushanga do-AI omolwomakonakono nomanyolo otete. Epandja keshe ohali talululwa pamwe neendjo dalo kokangudu ketu. Omapandja etu <strong>inaa</strong> talululwa kundohotola ile omukulunhu womuunamiti umwe, noihatu popi sha yooloka kushiishi ngaho. Oo omauyelele oo aaveshe, kaye fi omayele opaundohotola.</p><h2>Osho itatu ka nyanyangida nande</h2><ul><li>Emapulopo kutya oudanawa, oikulya, oikwavitamine, okulidilika oikulya ile onghedi yokukalamwenyo otayi kelele, tayi pange, tayi shonopaleke ile tayi velula oudu wokudimbwa.</li><li>Omayeuluko, omapulapulo ile oitwa tai ti omunhu oku na, ile ke na, oudu wokudimbwa.</li><li>Omayele okuhovela, okweefa ile okulundulula omiti dokulipanga.</li><li>Omahangifo ile oinyolwa yomalandifo ya fa omawiliki avene.</li></ul><h2>Omapepalo nomalunguluko</h2><p>Epandja keshe ohali ulike efiku olo la ningilwa omapepalo axuuninwa. Ngeenge owa mono epuko ile odjo ya kulupa, tumineni e-mail ku <a href=\"mailto:{email}\">{email}</a> opo tu i tale meendelelo.</p>"
+    },
+    "faq": {
+      "title": "Omapulo nOmanyamukulo",
+      "seoTitle": "Omaudanawa Oudu wOkudimbwa: Omapulo nOmanyamukulo",
+      "description": "Omanyamukulo komapulo a igana kombinga yomaudanawa nomalinyengo oudu wokudimbwa: omaudanawa elipi to kendabala, efimbo li fike peni to danauka, omadiladilo pefimbo loxuuninwa, oukolele wouluvi neameno lopaumwene.",
+      "crumb": "Omapulo nomanyamukulo",
+      "lede": "Omanyamukulo axupi a yela komapulo oo haa pulwa unene kovafilishisho.",
+      "groups": [
+        {
+          "id": "games",
+          "title": "Kombinga yomaudanawa",
+          "items": [
+            {
+              "q": "Omaudanawa elipi e li nawa unene komunhu e na oudu wokudimbwa?",
+              "a": "Omaudanawa mawa unene oo oo e shiiwe nawa, mapu noo ehe na omafininiko, nodanauka ya yeleka oyo oyo omunhu te i hafele nena. Okutuvanifa omafano taa monika, okutoolola, omajigsaw mapu, okumanifa omayeletumbulo e shiiwe, okulangeka omalwaalo nobingo yomafano otai longo nawa kovanhu vahapu. Henuka eewili dokuvala efimbo, oitwa noshinima keshe tashi monika sha fa eyeleko."
+            },
+            {
+              "q": "Mbela omaudanawa aa oshali ngoo shili?",
+              "a": "Heeno. Omaudhano aeshe noinima yokunyanyangida oye li oshali, kape na omhumbwe yakaundi, okulishangifa, okupulula ile omalivanyeko."
+            },
+            {
+              "q": "Omolwashike kape na oitwa, oondondo ile omatulafimbo?",
+              "a": "Ondapo noitwa ohayi shitukifa oshinima shiwa shi kale sha fa ekonakono, osho tashi dulu okweeta ohoni ile euliko lomadiladilo. Ohatu tula elitulo kehapeno nokuhafela efimbo pamwe, onghee kape na sha to dopa, nooto dulu okweefa efimbo keshe to hala."
+            },
+            {
+              "q": "Oikwaelektronika ilipi hai longo nawa lela?",
+              "a": "Ongodi keshe, o-tablet ile okompiuta i na o-browser yopefimbo. O-tablet ya tulwa koshikwateko koshitaafula olundji oyo iwa mokulongifa kovanhu vavali tava dhana va kuutumba pamwe. Okompiuta yopeke ya kwatelwa kotiivi ohayi longo nawa lela kongudu yovanhu."
+            },
+            {
+              "q": "Ohatu dulu okudhana nomafano etu vene oukwaneumbo?",
+              "a": "Heeno. Photo pairs ohayi ningi omafano 2 fiyo 6 oo wa hoolola a ninge oudhano wokufaafanifa. Omafano ohaa kala mo-browser yoye ndele itaa tuminwa kointaneta ile a pungulwe."
+            }
+          ]
+        },
+        {
+          "id": "activities",
+          "title": "Oinyangadalwa nefiloshisho",
+          "items": [
+            {
+              "q": "Oshinyangadalwa oshi na okukwata efimbo li fike peni?",
+              "a": "Olundji ouminute 10 fiyo 20 owa wana lela, nofimbo imwe ouminute 2 ashike oo omuwa nale. Tala omadidiliko okuloloka ile okuhenahapeno, ndele to efa manga omunhu e lixwite nawa. Kape na efimbo li li mondjila lela la tulwa po."
+            },
+            {
+              "q": "Ongahelipi ngeenge inava hala okudhana?",
+              "a": "Fimaneka eanyeno olo, ndele to kendabala vali lwanima ile monghedi imwe i lili. Okwaanya otaku dulu okweeta kokuloloka, kokuudha oyahame, kokukala inaashilipalekwa ile komhumbwe yehalo ashike. Tala mewiliko letu li na sha naasho to ningi ngeenge va anye."
+            },
+            {
+              "q": "Oinyangadalwa ilipi ya yeleka pefimbo londondo yokomesho youdu wokudimbwa?",
+              "a": "Ehekeleko nomaliudo: okupwilikina komusika ya holika, okukangula omaoko nelola, okutala omafano pamwe, okukwata ekumbatha letuula, okukala pondje, ile oudhano wopafano upu unene pamwe nomunhu e li puye. Ewiliko letu li na sha nondondo yaxuuninwa oli na omadiladilo mahapu vali."
+            },
+            {
+              "q": "Ope na tuu oinyangadalwa yee-ngudu meumbo lefiloshisho?",
+              "a": "Heeno. Picture bingo i na omafo okunyanyangida nomutumbuli e li komhwelelo, na Finish the saying no-Conversation cards ohadi longo nawa ngeenge tadi leshwa mewi lopeulu. Ewiliko letu li na sha neengudu meumbo lefiloshisho otali popi ounene wongudu, omukalo wokukala nokweetifa pamwe kovanhu vena omikalo da yooloka."
+            }
+          ]
+        },
+        {
+          "id": "health",
+          "title": "Oukolele wouluvi",
+          "items": [
+            {
+              "q": "Omaudhano otaa dulu tuu okukelela ile okushunifa monima oudu wokudimbwa?",
+              "a": "Kape na oudhano wa hololwa kutya ohau kelele oudu wokudimbwa, nomaudhano etu kae na elihokololo la tya ngaho. Okupendula omadiladilo pokati kovanhu okwa holola ouwa unini momakonakono kovanhu ve na oudu wokudimbwa wopehovelo ile wondondo yopokati, ashike osho osha yooloka kokukelela omukifi. Fye ohatu yandje omaudhano opo ovanhu va hafe novekale pamwe."
+            },
+            {
+              "q": "Oudu wokudimbwa otau dulu tuu okukelelwa?",
+              "a": "Hau shilipalekwa lela. Omakonakono otaa kwatanifa oinima 14 youkolele nomukalo wokukalamwenyo noshiponga shoudu wokudimbwa, ngaashi ekanifo leudo, ohonde yopombada, okuhenalinyenga kwolutu nokukala u li kooko kovanhu. Okukandula po oinima oyo otaku dulu okupungulula oshiponga kovanhu vamwe, ashike ovanhu vahapu ovo hava ningi oinima aishe nawa natango ohava kwatwa koudu wokudimbwa. Ka shi fi nande epuko lomunhu."
+            },
+            {
+              "q": "Okulidilika okulya efimbo nefimbo okuwa tuu koukolele wouluvi?",
+              "a": "Oumbangi movanhu ou li po ashike kanini nonefimbo lopehovelo, nomakonakono mahapu otaa ningwa koinamwenyo. Okulidilika okulya otaku dulu okweeta oshiponga kovakulupe, unene tuu ovo hava nu omiti doudu woitapula ile va kanifa oudjuu wolutu inashi teelelwa, noina shi pangelwa kovanhu ve na oudu wokudimbwa. Popya nondokotola fimbo ino lundulula omukalo woye wokulya."
+            }
+          ]
+        },
+        {
+          "id": "privacy",
+          "title": "Opaumwene neameno",
+          "items": [
+            {
+              "q": "Ohamu pangele tuu ouyelele washa?",
+              "a": "Kape na oma-akaundi ile omaingido omalandifo. Ohatu longifa Google Analytics opo tu vale omatalelo nokutala omafo oo taa kwafele, no-browser yoye ohayi dimbuluka ngeenge owa tema omawi manini. Omafano oo wa hoololela Photo pairs kave na efimbo taa tuminwa kointaneta. Tala eshivifo li na sha nopaumwene opo u mone omauyelele a pwa."
+            },
+            {
+              "q": "Eshi omayele tuu opaunamiti?",
+              "a": "Aaye. Creative Activities oyokuhapena noyomauyelele ashike. Komapulo e na sha noukolele, popya nondokotola, nokee-emergency dhengeleni 112."
+            }
+          ]
+        }
+      ],
+      "moreHtml": "Ouyelele wa wedhwa po: <a href=\"/caregiving/how-to-play-together/\">nghee tamu dulu okudhana pamwe</a>, <a href=\"/caregiving/when-they-say-no/\">ngeenge va anye</a>, <a href=\"/activities/late-stage/\">oinyangadalwa yondondo yaxuuninwa</a> na <a href=\"/brain-health/can-dementia-be-prevented/\">oudu wokudimbwa otau dulu tuu okukelelwa?</a>"
+    },
+    "handout": {
+      "title": "Omaudhano Oshali, Mawa Kovanhu Ve Na Oudu Wokudimbwa",
+      "seoTitle": "Okafo Kokunyanyangida: Omaudhano Oshali Ouintaneta Oudu Wokudimbwa",
+      "description": "Okafo kepandja limwe kokunyanyangida komaukwaneumbo naava hava file oshisho kombinga yomaudhano omapu omafano goshali kovanhu ve na oudu wokudimbwa, keengudu dekwafo nokeepakeke defiloshisho.",
+      "crumb": "Okafo kokunyanyangida",
+      "lede": "Nyanyangida efo eli kongudu yekwafo, kopakeke yefiloshisho ile komukwamo wokomboma. Longifa elombwelo loku-Print mo-browser yoye; oikwambelewa noombapila itadi piti mokunyanyangida.",
+      "introHtml": "<p>Omafano manene, eendjovo dipu ndele kape na sha to dopa. Oshali kongodi, ko-tablet ile kokompiuta, kape na okulishangifa, omaingido omalandifo, omatulafimbo ile oitwa. Kuutumbeni pamwe ndele tamu unganeke omalufo.</p>",
+      "gamesTitle": "Omaudhano okukendabala pamwe",
+      "restHtml": "<h2>Omayele manini</h2><ul><li>Hoolola efimbo mefiku omo omunhu e lixwite nawa lela.</li><li>Hovela nonghedi ipu unene. Outaile vane owa wana lela.</li><li>Popyafana kombinga yomafano. Eendjovo olundji odo oshitukulwa shiwa unene.</li><li>Efa manga omunhu e lixwite nawa. Okuxulifa manga efimbo inali pwa oko kuwa.</li></ul><h2>Natango kepandja eli</h2><ul><li>Oinima yoshali yokunyanyangida: ekongo leendjovo nomashangelo manene, omafo okuninga omalwaala, ee-conversation cards na picture bingo.</li><li>Omadiladilo oinyangadalwa yondondo keshe, nomawiliko okulikufa pamwe nokulifila oshisho mwene.</li></ul><p class=\"muted\">Okwehafa nokukala efimbo pamwe. Hako omayele opaunamiti, ekonakono ile epango. Creative Activities oya nyanyangidwa ku Cloudjet Solutions Pte. Ltd.</p>"
+    },
+    "organizations": {
+      "title": "Komaumbo Efiloshisho, Eebilioteka nEe-ngudu dEkwafo",
+      "seoTitle": "Omaudano Oshali Ovanhu ve na Oudu Wokudimbwa mOmaumbo Evafiloshisho nEengudu",
+      "description": "Ngonhee omaumbo evafiloshisho, eeprograma domutenya dovakulunhu, oebiliyoteka, omahangano ovakulupe neengudu dekwafelo tadi dulu okulongifa omaudano etu oshali ovanhu ve na oudu wokudimbwa, pamwe neendjovo dokutu wedako kelandulafano loye lomakwafo.",
+      "crumb": "Komahangano",
+      "lede": "Aishe oyo i li kepandja eli oya manguluka nokulongifwa oshali pamwe novakalimo, oilyo novayakwa, nokape na ombapila yelongifo, omushangitho ile ofuto. Epandja eli otali yelifa osho shi li po nanghee to dulu oku shi topola.",
+      "shortText": "{name}: omaudano omafano opambili noshali neewiliko doilonga ovanhu ve na oudu wokudimbwa novafili vavo voshisho. Kape na elishangifo, kape na omitoteli doiefa, kape na oitwa.",
+      "longText": "{name} ({domain}) ota yandje omaudano {count} oshali okointaneta a longekidilwa ovanhu ve na oudu wokudimbwa, mwa kwatelwa okutula omafano e fike pamwe taa kala a holoka, omafano mahanganifi mapu, okutongola, omatumbulo a shiivika nembingo yomafano i na eekalata tadi nyanyangidwa. Kape na omushangitho, oitwalelifo, omitoteli doiefa ile oitwa. Epandja olina yo eewiliko dopaupu deenghedi dokulinyanyudha ponkatu keshe youdu wokudimbwa tadi yandje omauyelele a dja ko-National Institute on Aging no-Alzheimer's Association.",
+      "useTitle": "Osho omahangano taa dulu okulongifa",
+      "gamesItemHtml": "<strong>Omaudano {count} okointaneta</strong> oo haa longo kokompiuta yopeke, kotablet ile kotelevisi ya kwaterwa kokompiuta. Kape na etungilo, omushangitho ile ehelulo. Tala <a href=\"/games/\">omaudano aeshe</a>.",
+      "printablesLabel": "Oishangomwa {count} yokunyanyangidwa:",
+      "printablesAfter": "Longifa okashani kokunyanyangida kepandja keshe.",
+      "moreItemsHtml": "<li><strong>Omalongekido eengudu:</strong> <a href=\"/games/picture-bingo/\">Embingo yomafano</a> oi na eekalata tadi nyanyangidwa nomutumbuli wokomupandja, na <a href=\"/activities/trivia/\">omapulo mapu opaundjepo</a> oku na omapulo 50 pamwe nomahoololo omanyamukulo noikundafana.</li><li><strong>Eewiliko dokulinyanyudha</strong> dovanailonga nomaukwaneumbo, monghedi yoponkatu nopoludi, da shangwa melaka lipu pamwe needjo domauyelele. Hovala na <a href=\"/activities/ideas/\">omadiladilo 101 okulinyanyudha</a> ile <a href=\"/activities/care-home-groups/\">omanyando eengudu momaumbo evafiloshisho</a>.</li>",
+      "restHtml": "<h2>Ngonhee eengudu dadi dulu oku shi longifa</h2><ul><li><strong>Omaumbo evafiloshisho nefiloshisho lomadiladilo:</strong> embingo yomafano ile manifa-etumbulo kotelevisi yomosele yomafudifo, omunhu umwe ta nyono po ponhele yongudu.</li><li><strong>Eeprograma domutenya dovakulunhu:</strong> oshikundafanwa shotablet shi na omafano a paama a tulwa pomafano ane, omolweelafano dopaxupi lomunhu nomukwao.</li><li><strong>Oebiliyoteka dapashwana:</strong> omambo eendjovo da kongwa a nyanyangidwa neekalata deendafano meepakete demadiladilo, nepandja oli li po o-bookmark kootablet do-ebiliyoteka.</li><li><strong>Eengudu dekwafelo dovafili voshisho neememo kafe:</strong> <a href=\"/handout/\">okafo kamwe kokunyanyangidwa</a> komaukwaneumbo okuya nako keumbo.</li><li><strong>Oipangelo novalongekidi vetulomo meumbo:</strong> okafo ke li meepakete dovafili voshisho, omolwoshilonga shombili shokulonga keumbo ile pomhanda yomunhu.</li></ul><h2>Osho tuhe na okuninga</h2><p>Omaudano o oeilonga yenyanyu nefimbo lokukala pamwe. Ihadi konakona, okuyeleka, okupa oitwa, okupanga ile okuxupipika oudu wokudimbwa, nohatu pula omahangano aha yelifa ngaho. Kape na omalivandekelo, nomawo omaudano ihaa pula omadina, omauyelele oukolele ile omafano a tulwe ko. Epandja lo-intaneta ohali longifa Google Analytics okushula ovalambeli; <a href=\"/privacy/\">eyelifo letu loumwene</a> otali yelifa osho hashi kongelwa mo. Omafano a longifwa mo-<a href=\"/games/photo-pairs/\">Photo pairs</a> ohaa kala mokointaneta yoye.</p><h2>Tu tula kelandulafano loye lomakwafo</h2><p>Ngeenge owi na elandulafano lomakwafo ovafili voshisho, owa manguluka okutula ko elinki li ye ko-<a href=\"/\">{domain}</a>. Oto dulu okukopa eyelifo limwe lomwaayo.</p>",
+      "shortTitle": "Eyelifo lixupi",
+      "longTitle": "Eyelifo lile",
+      "linksHtml": "<p>Omapandja e na ouwa okutula ko elinki li yukilila: <a href=\"/games/\">omaudano oshali</a>, <a href=\"/activities/printable/\">oishangomwa yoshali yokunyanyangidwa</a>, <a href=\"/activities/alzheimers/\">omanyando oudu wa-Alzheimer</a> na <a href=\"/caregiving/how-to-play-together/\">ngonhee tamu dulu okudana pamwe</a>.</p><h2>Omapulo ile omapukululo</h2><p>Ngeenge ope na sha sha puka ile shihe uditike kepandja eli, ile eemhumbwe domukalimo inadi wanifwa kwaasho shi li apa, alikana tu shiivifila ko-<a href=\"mailto:{email}\">{email}</a>. Alikana ino tuma omauyelele opaumwene ile oukolele kombinga yovakalimo ile yovayakwa.</p>"
+    },
+    "app": {
+      "title": "O-App ya-Creative Activities",
+      "seoTitle": "O-App ya-Creative Activities ya-iPhone na-Android",
+      "description": "O-app yoshali ya-Creative Activities: okutula pamwe omafano pambili noitukulwa inya inene, omafano oukwaneumbo a tuvikwa moshikwaelektronika shoye, eepakete domafano tadi longo nopehe na intaneta nokape na omushangitho.",
+      "crumb": "O-app",
+      "lede": "Aishe oyo u hole kepandja lo-intaneta, moka-app haka longo kape na intaneta noha dulu okulongifa omafano oukwaneumbo oo wa hoolola.",
+      "worksOn": "Ohai longo ko-{platforms} ({requirements}).",
+      "bodyHtml": "<h2>Hovela kashona</h2><p>Hovela noitiles ine inene nomafano oo e shiiwike nawa. Eefa omafano a kale taa monika, ile u a holeke ngeenge osho shi li nawa kwoove. Onghedi yambili kai na okafimbo kokulivalela, oitwa ile ehandukilo. Hoolola oitiles 4, 6, 8 ile 12.</p><h2>Shi ninga shopashimbwe</h2><p>Hoolola omafano epata nokulongifa omuhoololi womafano woshikwaelektroniki shoye. E-apa ohali tuvikile ookopi dinini doilonga yalo. Ihali konakona ongulumafano yoye ile li lundulule omafano oye opelemena, noitali pungula omafano e dule 24 mongudu imwe.</p><h2>Taleleni kumwe ashike</h2><p>Taleni efano limwe pomhito imwe. Omapupulilo opahoololo ohaa ladipike eenghundana nopehe na okupula nande omunhu a dimbuluke omadina ile a yandje enyamukulo la yuka. Okutala ashike kumwe okwa wana.</p><h2>Itai pumbwa o-inthaneta pefimbo la fimana</h2><p>Omafano ohovelo noipakete yomafano aishe ehetatu oya kwatelwa mwe-apa. Ookopi domafano oo a etwa mo ohadi longo nopehe na o-inthaneta. Okuhoolola omafano opelemena oo a tuvikilwa ashike mo-iCloud otashi dulika ku pumbwe ekwatafano lo-inthaneta.</p><h2>Kape na o-akaunti, kape na o-server yokutuvikila omafano</h2><p>Ookopi domafano epata ohadi kala mwe-apa koshikwaelektroniki shoye. Oto dulu okudima mo ookopi nopehe na okudima po omafano opelemena. Omapungulo ekwatekelo okoshikwaelektroniki otashi dulika a kwatele mo omauyelele e-apa. Lesha <a href=\"/app-privacy/\">omilandu di na sha noulile we-apa</a>, no-<a href=\"/help/\">ekwafo le-apa</a> otali ku kwatele komukono monghatu keshe.</p>",
+      "disclaimer": "Creative Activities oya nuninwa omalipelelo nomweenyo neenghundana dokupangela kumwe. Ihai konakona, ihai panga, ihai keelele ile i yeleke omukifi wokudimbwa (dementia) ile omukifi wa-Alzheimer.",
+      "appLanguageNote": ""
+    }
+  },
+  "gamesIndex": {
+    "title": "Omaudano Oshali ko-Inthaneta E na Sha no-Dementia no-Alzheimer",
+    "description": "Omaudano oshali ko-inthaneta oovakulupe ve na omukifi wokudimbwa (dementia) ile Alzheimer: okupatulula omafano a faafana, omajigsaw apu, okutongola, omahewa, okuvaleka nomabingo. Kape na elishangifo, okafimbo ile oitwa.",
+    "crumb": "Omaudano",
+    "h1": "Omaudano Ombili Ovanhu Ve na Omukifi Wokudimbwa",
+    "lede": "Omaudano {count} oshali okudana kumwe moshikwatelelambapila shoye ko-inthaneta. Omafano manene, eendjovo dipu, na kape na osho to dopa: kape na okafimbo kokulivalela, kape na oitwa, kape na elishangifo.",
+    "listName": "Omaudano a ngungumana ovanhu ve na omukifi wokudimbwa",
+    "byStageTitle": "Okuhoolola oudano patendo longhalo",
+    "byStageLede": "Omatendo onghalo oku li ashike ewiliko lopetameko. Shikula osho omunhu oo to file oshisho e hole nosho she mu palwifa nena.",
+    "stageCol": "Ondondo",
+    "gamesCol": "Omaudano oo haa wapalele luhapu",
+    "moreHtml": "Omayele amwe vali kokule nokaskrini: <a href=\"/activities/ideas/\">oilonga 101 yovanhu ve na omukifi wokudimbwa</a>, <a href=\"/activities/alzheimers/\">oilonga nomaudano e na sha na-Alzheimer</a>, <a href=\"/activities/memory-games/\">omaudano a ngungumana edimbuluko</a> no-<a href=\"/activities/puzzles/\">omapuzzeli</a>.",
+    "faq": [
+      {
+        "q": "Oudano ulipi tu na okuhovela nawo?",
+        "a": "Omapatololo omafano noitiles ine ehoololo lotete la ngungumana. Ngeenge okuhoolola pokati komafano otaku limbilike unene, kendabala Mona efano la faafana nomafano avali. Kongudu, kendabala Bingo yomafano."
+      },
+      {
+        "q": "Mbela omaudano ohaa longo ko-iPad ile kongodi yopeke?",
+        "a": "Heeno. Oudano keshe ohau longo mo-browser yeengodi dopeke, oitablet noikompiyuta, nomafano ohaa tameke okukulupa opo a yadife okaskrini. Otablet ya tuvikilwa koshikwatelelwa oyo luhapu i li nawa kovanhu vavali."
+      },
+      {
+        "q": "Mbela omaudano aa mawa komunhu e na omukifi wa-Alzheimer?",
+        "a": "Heeno. Okwa li a ningilwa ovanhu ve na omukifi wokudimbwa (dementia), mwa kwatelwa Alzheimer, oyo etomho li shiiwike unene. Omafano ohaa kala taa monika, ope na ashike omahoololo manini, na kape na okafimbo kokulivalela ile oitwa, onghee omaudano oaa kankamena kokudimbuluka oinima oyo i shiiwike nawa ponhele yokudimbuluka oinima ipe."
+      },
+      {
+        "q": "Mbela aa omaudano edimbuluko oovakulupe?",
+        "a": "Aa omaudano okupongeka nomafano oo omukulupe keshe ta dulu okuhafela, ndele ina ningwa opo a yeleke edimbuluko: mo-Picture pairs omafano ohaa kala a yeuluka kakele kaenge wa hoolola oku a holeka. Ewiliko letu li na sha nomaudano edimbuluko oovakulupe ve na omukifi wokudimbwa otali yelifa nghee to dulu okukaleka oudano keshe wedimbuluko wa ngungumana."
+      },
+      {
+        "q": "Mbela ope na omaudano eengudu meumbo levandjeleko loovakulupe?",
+        "a": "Heeno. Picture bingo oi na outukalata tava dulu okunyanyangidwa nomutumbuli kokaskrini, no-Finish the saying no-Conversation cards ohadi longo nawa ngeenge tadi leshelwa eengudu pombada."
+      }
+    ]
+  },
+  "appFacts": {
+    "platforms": "iPhone, iPad na-Android",
+    "requirements": "iOS 15 ile yopombada; Android 7.0 ile yopombada",
+    "summary": "E-apa loshali la-iPhone, iPad na-Android li na okupongeka omafano kwa ngungumana poitiles ine fiyo 12 inene, okupongeka nokutala omafano epata oo wa hoolola, noipakete yomafano ehetatu ya kwatelwa mo tai longo nopehe na o-inthaneta. Kape na o-akaunti, omatando, okafimbo kokulivalela ile oitwa.",
+    "features": [
+      "Okupongeka omafano kwa ngungumana poitiles 4, 6, 8 ile 12 inene; omafano ohaa kala taa monika kakele kaenge wa hoolola oku a holeka",
+      "Omafano epata oo wa hoolola ohaa kopekwa mwe-apa opo mu a pongeke nomu a talele kumwe",
+      "Taleleni kumwe: efano limwe pomhito imwe nomapupulilo opahoololo eenghundana",
+      "Oipakete yomafano ehetatu oya kwatelwa mwe-apa; ohai longo nopehe na o-inthaneta",
+      "Kape na o-akaunti, omatando, omalandelo me-apa, okafimbo kokulivalela, oitwa ile ehandukilo"
+    ],
+    "faq": [
+      {
+        "q": "Mbela ope na e-apa loilonga yovanhu ve na omukifi wokudimbwa?",
+        "a": "Heeno. Creative Activities (ya shangifwa komadina \"{storeName}\") oshali mo-App Store no-Google Play. Ohai yandje okupongeka omafano kwa ngungumana poitiles inene, omaudano e na omafano epata oo wa hoolola, noipakete yomafano tai longo nopehe na o-inthaneta."
+      },
+      {
+        "q": "Mbela e-apa la-Creative Activities oshali?",
+        "a": "Heeno. Oshali oku li-download, kape na omatando, o-akaunti ile omalandelo me-apa."
+      },
+      {
+        "q": "Mbela e-apa ohali longo nopehe na o-inthaneta?",
+        "a": "Heeno. Omafano ohovelo noipakete aishe ehetatu yomafano oya kwatelwa mwe-apa, nomafano epata ohaa longo nopehe na o-inthaneta ngeenge a kopekwa mwe-apa. Okuhoolola efano la pungulwa ashike mo-iCloud otashi dulika ku pumbwe ekwatafano lo-inthaneta."
+      },
+      {
+        "q": "Mbela ohandi dulu okulongifa omafano etu vene epata?",
+        "a": "Heeno. Hoolola omafano okupitila mohoololomafano yoshikwamashina shoye. O-app ohai tuvikile omakopi manini moshikwamashina molwomaudano ayo, ihai a tula komalungula noihai lundulula omafano otete. Oto dulu okukufa mo omakopi oo pefimbo keshe to hala."
+      },
+      {
+        "q": "Mbela ei o-app yokudeula oulwishi ile yokuyeleka edimbuluko?",
+        "a": "Ahowe. Creative Activities oya nuninwa enyanyu nokukala pamwe. Kaina oitwa ile omayeleko, noihai konakona, okupanga, okukelela ile okuyeleka oudu wokudimbwa ile omukifi waAlzheimer."
+      },
+      {
+        "q": "Ohai longo komashikwamashina elipi?",
+        "a": "{platforms}: {requirements}."
+      }
+    ],
+    "gameFaqYes": {
+      "q": "Mbela ope na o-app yeudano eli?",
+      "a": "Heeno. O-app yoshali yaCreative Activities yoiPhone, iPad naAndroid oi na okufaafanifa omafano konghedi yombili, otai dulu okulongifa omafano oukwaneumbo oo to hoolola, nohai longo nande kape na o-internet. Kape na e-akhaundi, omashivilifo ile oitwa."
+    },
+    "gameFaqNo": {
+      "q": "Mbela ope na o-app yeudano eli?",
+      "a": "Hasho sheudano eli. O-app yoshali yaCreative Activities yoiPhone, iPad naAndroid oi na okufaafanifa omafano konghedi yombili nomakatongolifo manene nomafano oukwaneumbo oo to hoolola, nohai longo nande kape na o-internet. Eudano eli otali kala loshali mo-browser yoye."
+    }
+  },
+  "gamePage": {
+    "imageAlt": "{name}: omafano manene mawa",
+    "noscript": "Eudano eli ola pumbwa JavaScript ya temwa mo-browser yoye. Omayele oo e li pedu otaa longo nande kaina oyo.",
+    "about": "Kombinga ya{name}",
+    "aboutAria": "Kombinga yeudano eli",
+    "noTimer": "Kape na okuvalula efimbo ile oitwa",
+    "printable": "Otai dulu okunyanyangidwa",
+    "howTo": "Nghee haku danwa {name}",
+    "tips": "Omayele okudana pamwe",
+    "newToPlayingHtml": "Opo ashike to hovele okudana nomunhu e na oudu wokudimbwa? Lesha <a href=\"/caregiving/how-to-play-together/\">nghee tamu dulu okudana omaudano pamwe</a>, mwa kwatelwa osho to dulu okuninga ngeenge a kanifa ohokwe.",
+    "moreAria": "Oikwao yokutala",
+    "helpfulGuides": "Omalombwelo makwafi",
+    "appTitle": "Dana mo-app",
+    "appText": "O-app yoshali yaCreative Activities oi na okufaafanifa omafano konghedi yombili nomakatongolifo manene nomafano oukwaneumbo woye mwene, nohai longo nande kape na Wi‑Fi. iPhone, iPad naAndroid.",
+    "photoAppTitle": "Kala nomafano oye e lilongekida",
+    "photoAppText": "Mo-app yoshali yaCreative Activities, omafano oo to hoolola ohaa kala moshikwamashina shoye molwefimbo tali landula, nomaudano ohaa longo nande kape na Wi‑Fi. iPhone, iPad naAndroid.",
+    "goodToKnow": "Oshiwa okushiiva",
+    "goodToKnowText": "Eudano eli olya nuninwa enyanyu nokukala pamwe. Ihali yeleka, okukonakona ile okupanga sha.",
+    "moreGames": "Omaudano amwe ombili",
+    "crumb": "Omaudano"
+  }
+}

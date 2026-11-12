@@ -1,0 +1,135 @@
+---
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/components.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import LanguageChoice from '../components/LanguageChoice.astro';
+import FocusableTables from '../components/FocusableTables.astro';
+import JsonLd from '../components/JsonLd.astro';
+import Analytics from '../components/Analytics.astro';
+import { SITE, absoluteUrl } from '../lib/site';
+import { fontPreloads } from '../lib/fonts';
+import { fitDescription } from '../lib/meta-description';
+import { composeTitle } from '../lib/seo-title';
+import { DEFAULT_LOCALE, isIndexable, localeInfo, localePath, splitLocale } from '../i18n/locales';
+import { PUBLISHED, ui } from '../i18n/ui';
+
+interface Props {
+  /** Full <title>. Pages normally pass `title` and get the suffix added. */
+  title: string;
+  description: string;
+  rawTitle?: boolean;
+  image?: string;
+  imageAlt?: string;
+  type?: 'website' | 'article';
+  jsonLd?: Record<string, unknown>[];
+  noindex?: boolean;
+  /** False on pages that handle family photos, which allow no third-party scripts. */
+  analytics?: boolean;
+  /** Language codes this page exists in; defaults to English only. */
+  available?: readonly string[];
+}
+
+const {
+  title,
+  description,
+  rawTitle = false,
+  image = '/og/default.png',
+  imageAlt,
+  type = 'website',
+  jsonLd = [],
+  noindex = false,
+  analytics = true,
+} = Astro.props;
+
+const { code: lang, path } = splitLocale(Astro.url.pathname);
+const locale = localeInfo(lang);
+const t = ui(lang);
+// Pages declare the languages they exist in; anything else is English only.
+const available = Astro.props.available ?? [DEFAULT_LOCALE];
+// Only indexed languages are advertised as alternates (see INDEXED_LANGUAGES).
+const blockIndexing = noindex || !isIndexable(lang);
+// A noindex page advertises no alternates; neither does any page for a language held from the index.
+const alternates = blockIndexing ? [] : PUBLISHED.filter((l) => available.includes(l.code) && isIndexable(l.code));
+// The brand suffix gives way when it would push the title past what search results show.
+const fullTitle = rawTitle ? title : composeTitle(title, t.common.titleSuffix);
+// Translations often run past the 170 width that search results show; fit them.
+const metaDescription = fitDescription(description);
+const canonical = absoluteUrl(Astro.url.pathname);
+const ogImage = absoluteUrl(image);
+const altText = imageAlt ?? t.common.defaultImageAlt;
+// Languages a first visit may be sent to: indexed, translated, not English.
+const offers = PUBLISHED.filter((l) => l.prefix && isIndexable(l.code)).map((l) => ({ code: l.bcp47, prefix: l.prefix }));
+// Automatic choice only on the English home page (see LanguageChoice.astro).
+const detectLanguage = lang === DEFAULT_LOCALE && path === '/';
+---
+<!doctype html>
+<html lang={locale.htmlLang} dir={locale.dir}>
+  <head>
+    <meta charset="utf-8" />
+    {analytics && <Analytics />}
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonical} />
+    {
+      alternates.length > 1 &&
+        alternates.map((l) => <link rel="alternate" hreflang={l.bcp47} href={absoluteUrl(localePath(l.code, path))} />)
+    }
+    {alternates.length > 1 && <link rel="alternate" hreflang="x-default" href={absoluteUrl(path)} />}
+    {blockIndexing && <meta name="robots" content="noindex, follow" />}
+    {!blockIndexing && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
+    <meta name="theme-color" content="#FDF9F0" />
+    <meta name="color-scheme" content="only light" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="alternate" type="text/plain" title="LLM summary" href="/llms.txt" />
+
+    {fontPreloads(lang).map((f) => <link rel="preload" href={f} as="font" type={f.endsWith('.ttf') ? 'font/ttf' : 'font/woff2'} crossorigin />)}
+
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={locale.og} />
+    {alternates.filter((l) => l.code !== lang).map((l) => <meta property="og:locale:alternate" content={l.og} />)}
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={altText} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={metaDescription} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={altText} />
+    <meta name="apple-itunes-app" content="app-id=6749312459" />
+    {jsonLd.length > 0 && <JsonLd data={jsonLd} />}
+    <slot name="head" />
+  </head>
+  <body data-offers={JSON.stringify(offers)} data-detect={detectLanguage ? 'true' : 'false'}>
+    <a class="skip-link" href="#main">{t.common.skipLink}</a>
+    <Header lang={lang} />
+    {
+      lang !== DEFAULT_LOCALE && (
+        <aside aria-label={t.common.languages}>
+          <p class="mt-notice container">
+            {t.common.machineTranslated} <a href={path} hreflang="en" lang="en">{t.common.readOriginal}</a>
+          </p>
+        </aside>
+      )
+    }
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <Footer lang={lang} available={available} path={path} />
+    <LanguageChoice />
+    <FocusableTables />
+  </body>
+</html>

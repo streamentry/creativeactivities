@@ -1,0 +1,338 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { Today } from '../tools/Today';
+---
+<PageLayout
+  title="What is hardest today?"
+  seoTitle="Dementia Caregiving: What Is Hardest Today?"
+  description="Pick today's hardest moment in dementia care: three things to try, when to get help, one gentle activity, and private notes to print for an appointment."
+  path="/today/"
+  crumb="Today"
+  lede="A quick answer for a hard moment, and a place to note what helped. Free, no sign-up, and your notes stay on this device."
+>
+  <Today client:load />
+  <p class="muted">
+    General information for families, drawn from the sourced guides on this site. It is not medical advice and does not
+    replace their doctor or care team.
+  </p>
+</PageLayout>
+
+<style is:global>
+  .today__choices {
+    display: grid;
+    gap: var(--space-sm);
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    list-style: none;
+    padding: 0;
+    margin: var(--space-md) 0 var(--space-xl);
+  }
+  .today__choice {
+    height: 100%;
+    border-radius: var(--radius-lg);
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .today__choice:focus-visible {
+    border-radius: var(--radius-lg);
+  }
+  .today__choice[aria-pressed='true'] {
+    background: var(--gm-primary-container);
+    color: var(--gm-on-primary-container);
+    box-shadow: inset 0 0 0 2px var(--gm-primary);
+  }
+  .today__answer {
+    margin: 0 0 var(--space-xl);
+    padding: var(--space-lg);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    background: var(--gm-surface-raised);
+    box-shadow: var(--shadow-raised);
+  }
+  .today__answer h2:focus {
+    outline: none;
+  }
+  .today__answer h2:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 4px;
+  }
+  .today__tries li + li {
+    margin-top: var(--space-sm);
+  }
+  .today__help {
+    margin: var(--space-lg) 0;
+    padding: var(--space-md);
+    border-left: 4px solid var(--gm-warning);
+    background: var(--gm-surface-sunken);
+  }
+  .today__activity-board {
+    margin-block: var(--space-lg) var(--space-xl);
+  }
+  .today__activity-board > p {
+    margin-bottom: var(--space-md);
+  }
+  .today__activity-choices {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-md);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 640px) {
+    .today__activity-choices {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .today__activity-choice {
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    align-items: center;
+    gap: var(--space-md);
+    min-height: 112px;
+    padding: var(--space-md);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    background: var(--gm-surface);
+    color: var(--gm-on-surface);
+    text-decoration: none;
+  }
+  .today__activity-choice:hover {
+    border-color: var(--gm-primary);
+    background: var(--gm-surface-raised);
+  }
+  .today__activity-choice:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 3px;
+  }
+  .today__activity-choice img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    background: var(--gm-surface-raised);
+  }
+  .today__activity-choice-copy {
+    display: grid;
+    gap: var(--space-xs);
+    min-width: 0;
+  }
+  .today__activity-choice-copy strong {
+    font-size: var(--text-title-md);
+  }
+  .today__activity-choice-copy span {
+    font-size: var(--text-md);
+  }
+  .today__label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: var(--space-xs);
+  }
+  .today__text {
+    width: 100%;
+    min-height: 56px;
+    padding: var(--space-sm);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    font: inherit;
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-md);
+  }
+  .today__text:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+  }
+  .today__time {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: var(--target-primary);
+    padding: var(--space-sm) var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    background: var(--gm-surface-raised);
+    color: var(--gm-on-surface);
+    font: inherit;
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-md);
+  }
+  .today__time:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+  }
+  .today__status:empty {
+    display: none;
+  }
+  .today__clear-confirm {
+    margin-block: var(--space-sm) var(--space-lg);
+    padding: var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    background: var(--gm-surface);
+    color: var(--gm-on-surface);
+  }
+  .today__clear-confirm p {
+    margin-top: 0;
+  }
+  .today__status:not(:empty) {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-sm) var(--space-md);
+    background: var(--gm-primary-container);
+    color: var(--gm-on-primary-container);
+    border: 1px solid var(--gm-primary);
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    margin-bottom: var(--space-lg);
+  }
+  .today__day ul {
+    list-style: none;
+    padding: 0;
+  }
+  .today__day li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-sm);
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid var(--gm-outline);
+  }
+  .today__print-title {
+    font-family: var(--font-display);
+    font-size: var(--text-h2);
+    font-weight: 700;
+  }
+  @media (prefers-contrast: more) {
+    .today__choice {
+      border: 2px solid #000000;
+    }
+    .today__choice:hover {
+      border: 3px solid #000000;
+      background: #FFFFFF;
+    }
+    .today__choice[aria-pressed='true'] {
+      border: 4px solid #000000;
+      background: #FFFFFF;
+      color: #000000;
+      font-weight: 800;
+    }
+    .today__answer {
+      border: 3px solid #000000;
+    }
+    .today__clear-confirm {
+      border: 3px solid #000000;
+      background: #FFFFFF;
+      color: #000000;
+    }
+    .today__activity-choice {
+      border: 3px solid #000000;
+      color: #000000;
+    }
+    .today__activity-choice img {
+      border: 2px solid #000000;
+    }
+    .today__help {
+      border: 2px solid #000000;
+      border-inline-start: 6px solid #000000;
+    }
+    .today__text {
+      border: 3px solid #000000;
+    }
+    .today__time {
+      border: 3px solid #000000;
+      background: #FFFFFF;
+      color: #000000;
+    }
+    .today__text:focus-visible {
+      outline: 3px solid #000000;
+      outline-offset: 2px;
+    }
+    .today__time:focus-visible {
+      outline: 3px solid #000000;
+      outline-offset: 2px;
+    }
+    .today__day li {
+      border-bottom: 2px solid #000000;
+    }
+    .today__status:not(:empty) {
+      border: 2px solid #000000;
+      background: #FFFFFF;
+      color: #000000;
+      font-weight: 800;
+    }
+  }
+  @media (forced-colors: active) {
+    .today__choice {
+      border: 2px solid ButtonText;
+    }
+    .today__choice:hover {
+      border-color: Highlight;
+      color: Highlight;
+    }
+    .today__choice[aria-pressed='true'] {
+      border-color: Highlight;
+      outline: 2px solid Highlight;
+    }
+    .today__answer {
+      border: 2px solid CanvasText;
+    }
+    .today__clear-confirm {
+      border: 2px solid CanvasText;
+      background: Canvas;
+      color: CanvasText;
+    }
+    .today__activity-choice {
+      border: 2px solid CanvasText;
+      color: CanvasText;
+    }
+    .today__activity-choice:focus-visible {
+      outline: 3px solid Highlight;
+    }
+    .today__activity-choice img {
+      border: 2px solid CanvasText;
+    }
+    .today__help {
+      border: 2px solid CanvasText;
+      border-inline-start: 6px solid Highlight;
+    }
+    .today__text {
+      border: 2px solid CanvasText;
+    }
+    .today__time {
+      border: 2px solid FieldText;
+      background: Field;
+      color: FieldText;
+    }
+    .today__text:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 2px;
+    }
+    .today__time:focus-visible {
+      outline: 3px solid Highlight;
+      outline-offset: 2px;
+    }
+    .today__day li {
+      border-bottom: 2px solid CanvasText;
+    }
+    .today__status:not(:empty) {
+      border: 2px solid Highlight;
+      outline: 1px solid Highlight;
+    }
+  }
+  @media print {
+    .today__day {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+    .today__day h3 {
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+    .today__day li {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      border-bottom: 1.5px solid #222 !important;
+    }
+  }
+</style>

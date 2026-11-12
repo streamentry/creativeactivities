@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  // Static Astro build served by Workers Static Assets: no Worker script runs,
+  // so requests are free and nothing is collected server side.
+  "name": "creative-activities-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  // Separate Worker from the older dementia-activities-games site, which keeps
+  // dementiaactivities.games. This one serves creativeactivities.org.
+  "routes": [{ "pattern": "creativeactivities.org", "custom_domain": true }],
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": false }
+}

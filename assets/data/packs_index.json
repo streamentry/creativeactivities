@@ -1,0 +1,703 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-07-10T14:30:00Z",
+  "totalPacks": 8,
+  "categories": [
+    {
+      "id": "animals",
+      "name": "Animals",
+      "description": "Cute and friendly animals from around the world",
+      "iconUrl": "assets/images/catalog/70aea05458ba8301e5bfd09f.jpg",
+      "packCount": 2
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "description": "Beautiful landscapes and natural scenes",
+      "iconUrl": "assets/images/catalog/009e266ad24a2e670a2c2590.jpg",
+      "packCount": 2
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "description": "Delicious meals and treats",
+      "iconUrl": "assets/images/catalog/3e96a6acbc12d1de52ae6f0c.jpg",
+      "packCount": 2
+    },
+    {
+      "id": "vintage",
+      "name": "Cars",
+      "description": "Cars and trucks to look at and talk about",
+      "iconUrl": "assets/images/catalog/695011f0cfc18e14421f6a09.jpg",
+      "packCount": 1
+    },
+    {
+      "id": "flowers",
+      "name": "Flowers",
+      "description": "Beautiful blooms and garden scenes",
+      "iconUrl": "assets/images/catalog/8075346c77d575b14fb529df.jpg",
+      "packCount": 1
+    }
+  ],
+  "featuredPacks": [
+    "animals_farm",
+    "nature_mountains",
+    "vintage_cars"
+  ],
+  "packs": [
+    {
+      "id": "animals_farm",
+      "title": "Farm Animals",
+      "description": "Friendly farm animals, like on a visit to the countryside.",
+      "theme": "Farm Life",
+      "category": "animals",
+      "difficulty": "medium",
+      "isPremium": false,
+      "isFeatured": true,
+      "imageCount": 8,
+      "estimatedSize": "2.1 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "farm",
+        "animals",
+        "countryside",
+        "medium"
+      ],
+      "thumbnailUrl": "assets/images/catalog/56762375a9ad760df2efe7f9.jpg",
+      "previewImages": [
+        "assets/images/catalog/400afe02904aadeaada761f3.jpg",
+        "assets/images/catalog/15e1ea24db2d17764604ea0d.jpg",
+        "assets/images/catalog/18c33e2a57730a13fe4bf9ed.jpg"
+      ],
+      "images": [
+        {
+          "id": "cow_1",
+          "url": "assets/images/catalog/defe68445f56c7f448b228be.jpg",
+          "caption": "Friendly Cow"
+        },
+        {
+          "id": "pig_1",
+          "url": "assets/images/catalog/66e96f746fb94bd5c7cab164.jpg",
+          "caption": "Happy Pig"
+        },
+        {
+          "id": "chicken_1",
+          "url": "assets/images/catalog/4753f3397127eef225192c46.jpg",
+          "caption": "Rooster"
+        },
+        {
+          "id": "buffalo_1",
+          "url": "assets/images/catalog/c6e38eff7de957985063012e.jpg",
+          "caption": "Water Buffalo"
+        },
+        {
+          "id": "horse_1",
+          "url": "assets/images/catalog/81640e4d45f0f1785f85730d.jpg",
+          "caption": "Beautiful Horse"
+        },
+        {
+          "id": "duck_1",
+          "url": "assets/images/catalog/af24a5f0e48bfccb7d2dfd28.jpg",
+          "caption": "Duck Family"
+        },
+        {
+          "id": "goat_1",
+          "url": "assets/images/catalog/25d5520910e970986663bd02.jpg",
+          "caption": "Curious Goat"
+        },
+        {
+          "id": "rabbit_1",
+          "url": "assets/images/catalog/14049252ed52c9178ab77ac3.jpg",
+          "caption": "Cute Rabbit"
+        }
+      ]
+    },
+    {
+      "id": "nature_mountains",
+      "title": "Mountain Views",
+      "description": "Breathtaking mountain landscapes and scenic vistas",
+      "theme": "Natural Beauty",
+      "category": "nature",
+      "difficulty": "easy",
+      "isPremium": false,
+      "isFeatured": true,
+      "imageCount": 6,
+      "estimatedSize": "3.2 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "mountains",
+        "nature",
+        "landscape",
+        "scenic",
+        "easy"
+      ],
+      "thumbnailUrl": "assets/images/catalog/089108234c2997ad615d2714.jpg",
+      "previewImages": [
+        "assets/images/catalog/5fd827069574985a256260b9.jpg",
+        "assets/images/catalog/4f4a0cc7831f952adfb508b7.jpg",
+        "assets/images/catalog/747c74591b7d769e9a012b0c.jpg"
+      ],
+      "images": [
+        {
+          "id": "mountain_1",
+          "url": "assets/images/catalog/473aa5be170c0c24a8bfcd75.jpg",
+          "caption": "Snow-capped Peaks"
+        },
+        {
+          "id": "mountain_2",
+          "url": "assets/images/catalog/3f8b1fbba04271f652c39a03.jpg",
+          "caption": "Fuji Mount"
+        },
+        {
+          "id": "mountain_3",
+          "url": "assets/images/catalog/4401d84566d99fcae845c53b.jpg",
+          "caption": "Alpine Valley"
+        },
+        {
+          "id": "mountain_4",
+          "url": "assets/images/catalog/73bda0fcb916087b60bcb287.jpg",
+          "caption": "Rocky Summit"
+        },
+        {
+          "id": "mountain_5",
+          "url": "assets/images/catalog/43e64c0d724fce638a7af16d.jpg",
+          "caption": "Forest Hills"
+        },
+        {
+          "id": "mountain_6",
+          "url": "assets/images/catalog/fe96b16e8297a7dc3afd4f88.jpg",
+          "caption": "Misty Mountains"
+        }
+      ]
+    },
+    {
+      "id": "vintage_cars",
+      "title": "Cars and Trucks",
+      "description": "Shiny cars and trucks to look at and talk about",
+      "theme": "On the Road",
+      "category": "vintage",
+      "difficulty": "hard",
+      "isPremium": false,
+      "isFeatured": true,
+      "imageCount": 10,
+      "estimatedSize": "2.8 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "cars",
+        "trucks",
+        "automotive"
+      ],
+      "thumbnailUrl": "assets/images/catalog/738e7b5a9509fd77d6c77ed7.jpg",
+      "previewImages": [
+        "assets/images/catalog/a4c118ae738da49923260cd4.jpg",
+        "assets/images/catalog/4ea2d65203c3b3e2bb127c27.jpg",
+        "assets/images/catalog/8b398de43aa09667050bd0b9.jpg"
+      ],
+      "images": [
+        {
+          "id": "vintage_car_1",
+          "url": "assets/images/catalog/9633eaa1fbd35e771fc9ef83.jpg",
+          "caption": "Orange Audi at sunset"
+        },
+        {
+          "id": "vintage_car_2",
+          "url": "assets/images/catalog/89956fba58ff4623c1c778d8.jpg",
+          "caption": "Blue sports car in the desert"
+        },
+        {
+          "id": "vintage_car_3",
+          "url": "assets/images/catalog/2ecfa73f90ce86579cf1e876.jpg",
+          "caption": "Silver Bugatti"
+        },
+        {
+          "id": "vintage_car_4",
+          "url": "assets/images/catalog/58f03f3e33256f87d8435820.jpg",
+          "caption": "Black Porsche on the road"
+        },
+        {
+          "id": "vintage_car_5",
+          "url": "assets/images/catalog/08ff573cc163587d65ce1b87.jpg",
+          "caption": "Orange BMW on a palm-lined street"
+        },
+        {
+          "id": "vintage_car_6",
+          "url": "assets/images/catalog/b472707065c3a8a3bfc8844e.jpg",
+          "caption": "Blue coupe by a garage"
+        },
+        {
+          "id": "vintage_car_7",
+          "url": "assets/images/catalog/35a5dc61ea586e2e9acb17e4.jpg",
+          "caption": "Green pickup truck"
+        },
+        {
+          "id": "vintage_car_8",
+          "url": "assets/images/catalog/fc25a0b313ac5f42ba9f79cc.jpg",
+          "caption": "White SUV among red rocks"
+        },
+        {
+          "id": "vintage_car_9",
+          "url": "assets/images/catalog/bdd190ec75e9178c40da2c49.jpg",
+          "caption": "Aston Martin"
+        },
+        {
+          "id": "vintage_car_10",
+          "url": "assets/images/catalog/834db4f2ab4b64d2b1e1b009.jpg",
+          "caption": "Blue car with white stripes"
+        }
+      ]
+    },
+    {
+      "id": "animals_safari",
+      "title": "Safari Animals",
+      "description": "Majestic animals from African safaris",
+      "theme": "Wildlife",
+      "category": "animals",
+      "difficulty": "brainy",
+      "isPremium": false,
+      "isFeatured": false,
+      "imageCount": 16,
+      "estimatedSize": "3.2 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-07-10T14:30:00Z",
+      "updatedAt": "2025-07-10T14:30:00Z",
+      "tags": [
+        "safari",
+        "animals",
+        "wildlife",
+        "africa"
+      ],
+      "thumbnailUrl": "assets/images/catalog/78ae515ae0b6353543d80eb2.jpg",
+      "previewImages": [
+        "assets/images/catalog/55474e0ecb2d4de2876b6015.jpg",
+        "assets/images/catalog/dff45c351c3001a159c0ac27.jpg",
+        "assets/images/catalog/3731fa4b9f49ff4c98771435.jpg"
+      ],
+      "images": [
+        {
+          "id": "lion_1",
+          "url": "assets/images/catalog/17a7d4ca065432619f5a2ab0.jpg",
+          "caption": "Majestic Lion"
+        },
+        {
+          "id": "elephant_2",
+          "url": "assets/images/catalog/8c7227d1eae7a2ff323e3224.jpg",
+          "caption": "African Elephant"
+        },
+        {
+          "id": "jaguar_3",
+          "url": "assets/images/catalog/4e688e4a7faf96754fc2e1a5.jpg",
+          "caption": "Jaguar"
+        },
+        {
+          "id": "zebra_4",
+          "url": "assets/images/catalog/816b21dabbdc29f44261d9a3.jpg",
+          "caption": "Striped Zebra"
+        },
+        {
+          "id": "rhino_5",
+          "url": "assets/images/catalog/e141ebbe3dbc75c383da824f.jpg",
+          "caption": "Powerful Rhino"
+        },
+        {
+          "id": "cheetah_6",
+          "url": "assets/images/catalog/1f623c9afac8c860f3d4f0fe.jpg",
+          "caption": "Fast Cheetah"
+        },
+        {
+          "id": "fox_7",
+          "url": "assets/images/catalog/cc4f3fdde62917814051b8ab.jpg",
+          "caption": "Brown Fox"
+        },
+        {
+          "id": "bear_8",
+          "url": "assets/images/catalog/055a58c25b25fd33b9a693a9.jpg",
+          "caption": "Polar Bear"
+        },
+        {
+          "id": "turtle_9",
+          "url": "assets/images/catalog/589fb75efc1d08faef11ee92.jpg",
+          "caption": "Brown Turtle"
+        },
+        {
+          "id": "squirrel_10",
+          "url": "assets/images/catalog/e9a191ab81192a7af22e0c23.jpg",
+          "caption": "Brown Squirrel"
+        },
+        {
+          "id": "macaw_11",
+          "url": "assets/images/catalog/41c4b077e6044a2bbcc5aa5a.jpg",
+          "caption": "Yellow And Blue Macaw"
+        },
+        {
+          "id": "tiger_12",
+          "url": "assets/images/catalog/fa0332ddfe01f2ad2a48b1c8.jpg",
+          "caption": "Tiger"
+        },
+        {
+          "id": "raccoon_13",
+          "url": "assets/images/catalog/5dd78e81de65d48a26c517b3.jpg",
+          "caption": "Raccoon"
+        },
+        {
+          "id": "wolf_14",
+          "url": "assets/images/catalog/f4dbb5fd2094d06ca294a21d.jpg",
+          "caption": "Grey Wolf"
+        },
+        {
+          "id": "crocodile_15",
+          "url": "assets/images/catalog/2921ae098b5bf90e5a6f797a.jpg",
+          "caption": "Crocodile"
+        },
+        {
+          "id": "peacock_16",
+          "url": "assets/images/catalog/e190d6112d5294c5dfa517e5.jpg",
+          "caption": "Beautiful Peacock"
+        }
+      ]
+    },
+    {
+      "id": "food_desserts_homemade",
+      "title": "Delicious Desserts",
+      "description": "Some delicious desserts for your meals.",
+      "theme": "Sweet desserts",
+      "category": "food",
+      "difficulty": "easy",
+      "isPremium": false,
+      "isFeatured": false,
+      "imageCount": 6,
+      "estimatedSize": "2.1 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "food",
+        "dessert",
+        "homemade",
+        "easy"
+      ],
+      "thumbnailUrl": "assets/images/catalog/f8c1c0f7b84a7b3bdb047982.jpg",
+      "previewImages": [
+        "assets/images/catalog/82e8f9f8d0dfa3a90df31f29.jpg",
+        "assets/images/catalog/8c18e821011cc3f38af7d7d2.jpg",
+        "assets/images/catalog/8dc85613a691b106dc2982a6.jpg"
+      ],
+      "images": [
+        {
+          "id": "pastries_1",
+          "url": "assets/images/catalog/129eb520c5181fe12df89f6b.jpg",
+          "caption": "Four Pastries"
+        },
+        {
+          "id": "oreo_cookie_sandwiches_2",
+          "url": "assets/images/catalog/0d2735265e046dfbf71b77d9.jpg",
+          "caption": "Oreo Cookie Sandwiches"
+        },
+        {
+          "id": "crepe_3",
+          "url": "assets/images/catalog/539e180df38e88fc733b7498.jpg",
+          "caption": "Crepe"
+        },
+        {
+          "id": "pancake_4",
+          "url": "assets/images/catalog/35f198b06a11f4e1d3c06e9f.jpg",
+          "caption": "Pancake"
+        },
+        {
+          "id": "macarons_5",
+          "url": "assets/images/catalog/6ceb0918fa21da39d3637906.jpg",
+          "caption": "Macarons"
+        },
+        {
+          "id": "caramel_cake_6",
+          "url": "assets/images/catalog/5ddf4c032fc781437aa79ecb.jpg",
+          "caption": "Caramel Cake"
+        }
+      ]
+    },
+    {
+      "id": "flowers_tropical",
+      "title": "Tropical Blossoms",
+      "description": "Discover the vibrant beauty of the tropics with this pack of exotic flowers.",
+      "theme": "Tropical Flowers",
+      "category": "flowers",
+      "difficulty": "hard",
+      "isPremium": false,
+      "isFeatured": false,
+      "imageCount": 10,
+      "estimatedSize": "2.1 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "flowers",
+        "tropical",
+        "blossoms",
+        "hard"
+      ],
+      "thumbnailUrl": "assets/images/catalog/4bfa63c385b132cf411f8792.jpg",
+      "previewImages": [
+        "assets/images/catalog/0e4b949f2c9e45edf9ad2316.jpg",
+        "assets/images/catalog/bee2bb605b8e4b4f942b7980.jpg",
+        "assets/images/catalog/b099622606ac812218574c70.jpg"
+      ],
+      "images": [
+        {
+          "id": "hibiscus_1",
+          "url": "assets/images/catalog/97cc6429081ab68f758ca92e.jpg",
+          "caption": "Red Hibiscus"
+        },
+        {
+          "id": "frangipani_2",
+          "url": "assets/images/catalog/9fdee7661cf55ddc82da36a5.jpg",
+          "caption": "Red White Frangipani"
+        },
+        {
+          "id": "sunflower_3",
+          "url": "assets/images/catalog/a257f405e2d54911aa5eadd9.jpg",
+          "caption": "Sunflower"
+        },
+        {
+          "id": "hydrangea_4",
+          "url": "assets/images/catalog/f9cc35edf820fd5db9056096.jpg",
+          "caption": "White Hydrangea"
+        },
+        {
+          "id": "rose_5",
+          "url": "assets/images/catalog/1fa9105fe6a3ebc77168c419.jpg",
+          "caption": "Rose"
+        },
+        {
+          "id": "chrysanthemum_6",
+          "url": "assets/images/catalog/4b60287b622edf63c7c6d33d.jpg",
+          "caption": "Chrysanthemum"
+        },
+        {
+          "id": "anthurium_7",
+          "url": "assets/images/catalog/cf23eb4cf43145becccb9ec8.jpg",
+          "caption": "Anthurium"
+        },
+        {
+          "id": "plumeria_8",
+          "url": "assets/images/catalog/b3da7c01dea915e598e672d4.jpg",
+          "caption": "Plumeria"
+        },
+        {
+          "id": "kodom_9",
+          "url": "assets/images/catalog/a2db4cc85604ce6ebd652492.jpg",
+          "caption": "Kodom"
+        },
+        {
+          "id": "delphinium_10",
+          "url": "assets/images/catalog/bff6b0ed8c191e600dff46f3.jpg",
+          "caption": "Delphinium"
+        }
+      ]
+    },
+    {
+      "id": "food_street_snacks",
+      "title": "Street Food Fiesta",
+      "description": "Explore the colorful world of street food with this pack of delicious snacks from around the world.",
+      "theme": "Street Food",
+      "category": "food",
+      "difficulty": "hard",
+      "isPremium": false,
+      "isFeatured": false,
+      "imageCount": 10,
+      "estimatedSize": "3.2 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "food",
+        "street",
+        "snacks",
+        "global",
+        "hard"
+      ],
+      "thumbnailUrl": "assets/images/catalog/36dab8fe00a4622d415a4001.jpg",
+      "previewImages": [
+        "assets/images/catalog/bb0b12aa799c9e717dcc2047.jpg",
+        "assets/images/catalog/09bb303137b2e396125c4c04.jpg",
+        "assets/images/catalog/797315117e8d77932865eda8.jpg"
+      ],
+      "images": [
+        {
+          "id": "taco_1",
+          "url": "assets/images/catalog/bfb0dc7609a8d7d70c8c4d9a.jpg",
+          "caption": "Mexican Taco"
+        },
+        {
+          "id": "ramen_2",
+          "url": "assets/images/catalog/f88c18864f699f356db6ab01.jpg",
+          "caption": "Japanese Ramen"
+        },
+        {
+          "id": "dumplings_3",
+          "url": "assets/images/catalog/7cb48c579be7d7fba8891dc0.jpg",
+          "caption": "Chinese Dumplings"
+        },
+        {
+          "id": "samosa_4",
+          "url": "assets/images/catalog/785da1efc316994d041dd29e.jpg",
+          "caption": "Indian Samosa"
+        },
+        {
+          "id": "pizza_5",
+          "url": "assets/images/catalog/92bd1632a4ab193a620065b9.jpg",
+          "caption": "Italian Pizza Slice"
+        },
+        {
+          "id": "crepe_6",
+          "url": "assets/images/catalog/b4fd4d8082fd5e6f604d6ac5.jpg",
+          "caption": "French Crepe"
+        },
+        {
+          "id": "satay_7",
+          "url": "assets/images/catalog/65c8e9cfd4cbd7e36f9a47ef.jpg",
+          "caption": "Thai Satay Skewers"
+        },
+        {
+          "id": "burger_8",
+          "url": "assets/images/catalog/2b813b2a76dba4a47f2cdb75.jpg",
+          "caption": "American Burger"
+        },
+        {
+          "id": "bao_9",
+          "url": "assets/images/catalog/0c90a24ce49035c851aedb3b.jpg",
+          "caption": "Steamed Bao Bun"
+        },
+        {
+          "id": "takoyaki_10",
+          "url": "assets/images/catalog/0c2edbd34d5e8942128047f1.jpg",
+          "caption": "Japanese Takoyaki"
+        }
+      ]
+    },
+    {
+      "id": "nature_landscape",
+      "title": "Nature Landscape",
+      "description": "Calm, beautiful nature scenes to look at slowly and talk about together.",
+      "theme": "Nature Landscapes",
+      "category": "nature",
+      "difficulty": "brainy",
+      "isPremium": false,
+      "isFeatured": false,
+      "imageCount": 18,
+      "estimatedSize": "5.6 MB",
+      "version": "1.0.0",
+      "createdAt": "2025-01-01T00:00:00Z",
+      "updatedAt": "2025-01-01T00:00:00Z",
+      "tags": [
+        "nature",
+        "brainy",
+        "memory",
+        "landscapes",
+        "hard"
+      ],
+      "thumbnailUrl": "assets/images/catalog/b63b4182e9f1c70ec2d590e4.jpg",
+      "previewImages": [
+        "assets/images/catalog/7f66f351681ffaf37a0b4b4d.jpg",
+        "assets/images/catalog/12790a47cea195ec900852b7.jpg",
+        "assets/images/catalog/112d0d0f763473d46688afd5.jpg"
+      ],
+      "images": [
+        {
+          "id": "mountain_1",
+          "url": "assets/images/catalog/557f556ecba53da5803a8ed8.jpg",
+          "caption": "Mountain Range"
+        },
+        {
+          "id": "forest_2",
+          "url": "assets/images/catalog/10e775e5cb0b7946fad7ef0b.jpg",
+          "caption": "Foggy Forest"
+        },
+        {
+          "id": "lake_3",
+          "url": "assets/images/catalog/ded717218a3bc707e40d8e9e.jpg",
+          "caption": "Mountain Lake"
+        },
+        {
+          "id": "desert_4",
+          "url": "assets/images/catalog/74917f9be47e14fbcb83a3e3.jpg",
+          "caption": "Desert Dunes"
+        },
+        {
+          "id": "waterfall_5",
+          "url": "assets/images/catalog/034b34df98936659f3ea8742.jpg",
+          "caption": "Waterfall"
+        },
+        {
+          "id": "beach_6",
+          "url": "assets/images/catalog/459e8c0f5a7bc91fc79dde4c.jpg",
+          "caption": "Sandy Beach"
+        },
+        {
+          "id": "river_7",
+          "url": "assets/images/catalog/d7af8ee6551db4722976f3d5.jpg",
+          "caption": "Flowing River"
+        },
+        {
+          "id": "canyon_8",
+          "url": "assets/images/catalog/3ebafd2c12a71d51dd436c01.jpg",
+          "caption": "Grand Canyon"
+        },
+        {
+          "id": "sunset_9",
+          "url": "assets/images/catalog/659fd0e26bc98a7ccee544c9.jpg",
+          "caption": "Sunset Sky"
+        },
+        {
+          "id": "snow_mountain_10",
+          "url": "assets/images/catalog/41e7e94394f41b4d1a0eafa8.jpg",
+          "caption": "Snowy Mountain"
+        },
+        {
+          "id": "flowers_11",
+          "url": "assets/images/catalog/f4772f3f5d455f5b23a9ac46.jpg",
+          "caption": "Wildflowers"
+        },
+        {
+          "id": "rainforest_12",
+          "url": "assets/images/catalog/477b8a83cf16e0db1ee1af83.jpg",
+          "caption": "Rainforest"
+        },
+        {
+          "id": "iceberg_13",
+          "url": "assets/images/catalog/7d3875c0d203365999716d68.jpg",
+          "caption": "Iceberg"
+        },
+        {
+          "id": "volcano_14",
+          "url": "assets/images/catalog/9e086c30734641c181db199e.jpg",
+          "caption": "Volcano"
+        },
+        {
+          "id": "cliff_15",
+          "url": "assets/images/catalog/5e0fa3ccd3c1c511b317eeb4.jpg",
+          "caption": "Sea Cliff"
+        },
+        {
+          "id": "aurora_16",
+          "url": "assets/images/catalog/1d7493be2abca35b45e38a9c.jpg",
+          "caption": "Aurora Borealis"
+        },
+        {
+          "id": "savannah_17",
+          "url": "assets/images/catalog/2ad05338a89543250f6eda97.jpg",
+          "caption": "Savannah"
+        },
+        {
+          "id": "coral_reef_18",
+          "url": "assets/images/catalog/7631e0d07f3b20c62dbf8912.jpg",
+          "caption": "Coral Reef"
+        }
+      ]
+    }
+  ]
+}
