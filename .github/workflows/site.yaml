@@ -69,7 +69,7 @@ jobs:
     timeout-minutes: 10
     environment:
       name: production
-      url: https://dementiaactivities.games
+      url: https://creativeactivities.org
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6

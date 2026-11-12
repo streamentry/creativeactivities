@@ -4,7 +4,7 @@
 import { readdirSync } from 'node:fs';
 import { indexNowBatches } from './indexnow-batches.mjs';
 
-const SITE = 'https://dementiaactivities.games';
+const SITE = 'https://creativeactivities.org';
 const keyFile = readdirSync(new URL('../public/', import.meta.url)).find((f) => /^[0-9a-f]{32}\.txt$/.test(f));
 if (!keyFile) throw new Error('No IndexNow key file (32 hex characters + .txt) in public/');
 const key = keyFile.slice(0, -4);

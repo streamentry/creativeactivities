@@ -2,7 +2,7 @@
 // Checks that the deployed legal pages answer over HTTPS with the expected
 // heading and canonical link. Run after a deploy: `pnpm check:live`.
 // This is availability QA, not legal approval or a native-app privacy audit.
-const site = new URL(process.env.SITE_URL ?? 'https://dementiaactivities.games/');
+const site = new URL(process.env.SITE_URL ?? 'https://creativeactivities.org/');
 if (site.protocol !== 'https:') throw new Error('Published site must use HTTPS');
 
 const routes = new Map([
