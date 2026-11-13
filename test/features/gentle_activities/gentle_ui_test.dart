@@ -252,6 +252,7 @@ void main() {
       await tester.pumpAndSettle();
       await tester.tap(find.byType(Switch).first);
       await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('Back to the pictures'));
       await tester.tap(find.text('Back to the pictures'));
       await tester.pumpAndSettle();
       expect(_tiles, findsNWidgets(8));
@@ -269,15 +270,18 @@ void main() {
       await tester.ensureVisible(find.byTooltip('Comfort settings'));
       await tester.tap(find.byTooltip('Comfort settings'));
       await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('Reset comfort settings'));
       await tester.tap(find.text('Reset comfort settings'));
       await tester.pumpAndSettle();
       await tester.tap(find.text('Keep my settings'));
       await tester.pumpAndSettle();
       expect(_tiles, findsNWidgets(8));
+      await tester.ensureVisible(find.text('Reset comfort settings'));
       await tester.tap(find.text('Reset comfort settings'));
       await tester.pumpAndSettle();
       await tester.tap(find.widgetWithText(TextButton, 'Reset'));
       await tester.pumpAndSettle();
+      await tester.ensureVisible(find.text('Back to the pictures'));
       await tester.tap(find.text('Back to the pictures'));
       await tester.pumpAndSettle();
       expect(_tiles, findsNWidgets(4));

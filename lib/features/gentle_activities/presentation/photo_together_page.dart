@@ -225,7 +225,7 @@ class _PhotoTogetherPageState extends State<PhotoTogetherPage> {
             liveRegion: true,
             child: Text(
               _statusText(l10n, _status!),
-              style: textTheme.bodyMedium,
+              style: textTheme.bodyMedium?.copyWith(height: 1.3),
             ),
           ),
           const SizedBox(height: gmSpaceMd),

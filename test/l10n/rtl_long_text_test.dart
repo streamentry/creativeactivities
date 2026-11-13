@@ -122,7 +122,7 @@ final _screens = <String, Widget Function()>{
 
 /// A stretched word each screen shows, proving the long texts are in use.
 const _stretched = {
-  'Home': 'GoldenGol',
+  'Home': 'CreativeCrea',
   'gentle game board': 'DoneDo',
   'reminder page': 'GentleGen',
 };

@@ -10,7 +10,7 @@ GOOD = {
     'google_play_locales': ['es-419', 'es-US', 'es-ES'],
     'review': 'unreviewed',
     'app_store': {
-        'name': 'Demencia: Golden Moments',
+        'name': 'Demencia: Creative Activities',
         'subtitle': 'Actividades con fotos',
         'keywords': 'alzheimer,memoria,mayores,abuelos',
         'promotional_text': 'Actividades sencillas para disfrutar juntos.',
@@ -18,7 +18,7 @@ GOOD = {
         'release_notes': 'Ahora en 20 idiomas. Estas traducciones aún no las han revisado hablantes nativos.',
     },
     'google_play': {
-        'name': 'Demencia: Golden Moments',
+        'name': 'Demencia: Creative Activities',
         'short_description': 'Actividades sencillas con fotos para disfrutar juntos.',
         'full_description': 'Actividades sencillas con fotos grandes.',
         'release_notes': 'Ahora en 20 idiomas. Estas traducciones aún no las han revisado hablantes nativos.',
@@ -52,7 +52,7 @@ class StoreLocaleTests(unittest.TestCase):
         self.assertEqual(store_locales.validate('es', GOOD), [])
 
     def test_store_limits(self):
-        long_name = variant(app_store__name='x' * 16 + ' Golden Moments')
+        long_name = variant(app_store__name='x' * 16 + ' Creative Activities')
         self.assertTrue(store_locales.validate('es', long_name))
         long_short = variant(google_play__short_description='x' * 81)
         self.assertTrue(store_locales.validate('es', long_short))

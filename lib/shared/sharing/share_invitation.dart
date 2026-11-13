@@ -127,7 +127,7 @@ class ShareInvitation extends StatelessWidget {
               context.l10n.shareInvitationText,
               style: theme.textTheme.bodyMedium,
             ),
-            const SizedBox(height: gmSpaceSm),
+            const SizedBox(height: gmSpaceXs),
             ShareWithFamilyButton(onPressed: onShare),
           ],
         ),
