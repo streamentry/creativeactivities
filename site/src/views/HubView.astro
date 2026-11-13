@@ -119,9 +119,10 @@ const jsonLd = [
 
     <footer class="activity-byline">
       <p>
-        By {d.author}. Not yet reviewed by an outside expert. Published
-        <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated
-        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.
+        {/* Explicit spaces: Astro drops the line breaks between text and tags. */}
+        By {d.author}. Not yet reviewed by an outside expert. Published{' '}
+        <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated{' '}
+        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.{' '}
         <a href="/editorial-policy/">How we write</a> · <a href="/support/">Report a mistake</a>
       </p>
     </footer>
