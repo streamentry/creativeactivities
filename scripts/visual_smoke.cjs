@@ -53,7 +53,7 @@ async function eventually(read, expected) {
   });
   await page.goto(baseUrl);
   await page.locator('flt-semantics-placeholder').evaluate(el => el.click());
-  await page.getByRole('heading', { name: 'Golden Moments', exact: true }).waitFor();
+  await page.getByRole('heading', { name: 'Creative Activities', exact: true }).waitFor();
   await page.getByRole('button', { name: PACK }).first().waitFor();
   await check('fresh install has every catalog image bundled locally', async () => {
     const index = await (await context.request.get(`${baseUrl}/assets/assets/data/packs_index.json`)).json();
@@ -138,7 +138,7 @@ async function eventually(read, expected) {
     await shot('hint-revealed');
     await page.getByRole('button', { name: 'Back', exact: true }).click();
     await page.waitForTimeout(1500);
-    await page.getByRole('heading', { name: 'Golden Moments', exact: true }).waitFor();
+    await page.getByRole('heading', { name: 'Creative Activities', exact: true }).waitFor();
   });
   await check('library category opens its packs', async () => {
     await page.getByRole('button', { name: /^Animals Cute/ }).click();
@@ -198,7 +198,7 @@ async function eventually(read, expected) {
   await check('Not for me hides a pack until Show again', async () => {
     await page.goto(baseUrl);
     await page.locator('flt-semantics-placeholder').evaluate(el => el.click());
-    await page.getByRole('heading', { name: 'Golden Moments', exact: true }).waitFor();
+    await page.getByRole('heading', { name: 'Creative Activities', exact: true }).waitFor();
     const card = page.getByRole('button', { name: /^Mountain Views.*Play$/ });
     await card.first().waitFor();
     await page.getByRole('button', { name: 'Not for me, hide Mountain Views', exact: true }).click();
@@ -211,7 +211,7 @@ async function eventually(read, expected) {
     // The choice is kept locally across a reload, then undone.
     await page.goto(baseUrl);
     await page.locator('flt-semantics-placeholder').evaluate(el => el.click());
-    await page.getByRole('heading', { name: 'Golden Moments', exact: true }).waitFor();
+    await page.getByRole('heading', { name: 'Creative Activities', exact: true }).waitFor();
     await page.getByRole('button', { name: /^Farm Animals.*Play$/ }).first().waitFor();
     assert.equal(await card.count(), 0);
     // Hidden packs sit at the end of the library; scroll like a person would.

@@ -45,7 +45,10 @@ void main() {
       await _hostCapture(tester, '03');
 
       // 5. The comfort sheet over the activity.
-      await tapHomeMenuItem(tester, 'Comfort settings');
+      await tapOn(
+        tester,
+        buttonWithLabel<OutlinedButton>(find.text('Comfort settings')),
+      );
       await waitFor(tester, find.text('Back to the pictures'));
       await _hostCapture(tester, '05');
       await tapOn(tester, find.text('Back to the pictures'));
