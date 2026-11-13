@@ -34,7 +34,7 @@ FONT_BOLD = REPO / "assets" / "fonts" / "AtkinsonHyperlegibleNext-Bold.ttf"
 FONT_REG = REPO / "assets" / "fonts" / "AtkinsonHyperlegibleNext-Regular.ttf"
 HOST = "creativeactivities.org"
 
-# DESIGN.md tokens; BRAND_BG is the paper colour baked into the brand art.
+# DESIGN.md tokens; BRAND_BG is the paper color baked into the brand art.
 CANVAS = (250, 248, 242)
 BRAND_BG = (248, 246, 241)
 INK = (36, 55, 47)
@@ -86,7 +86,7 @@ def print_card(pic: Image.Image, angle: float) -> Image.Image:
 def cut_out(art: Image.Image) -> Image.Image:
     """The mark without its paper background, cropped to the shapes."""
     rgb = art.convert("RGB")
-    # Distance from the paper colour becomes opacity: the grain stays below the
+    # Distance from the paper color becomes opacity: the grain stays below the
     # threshold, the pale torn edges keep a soft fringe.
     diff = ImageChops.difference(rgb, Image.new("RGB", rgb.size, BRAND_BG)).convert("L")
     alpha = diff.point(lambda v: 0 if v < 10 else min(255, (v - 10) * 12))

@@ -55,18 +55,18 @@ are fills only; never set small text in them.
 > rotated about 8 degrees. The upper piece is terracotta clay (#BB6C4D) and has been torn by hand:
 > its edge is irregular, with a visible pale torn-paper fibre line along one side. It sits
 > off-centre, covering roughly a third of the lower piece. Where the two overlap, the area is a
-> flat warm yellow (#F4CD76), as if the two colours made a third. The overlap shape is the hero:
+> flat warm yellow (#F4CD76), as if the two colors made a third. The overlap shape is the hero:
 > it should be the most memorable silhouette in the image, bold and simple enough to draw from
 > memory.
 >
-> Style: cut-paper collage, flat colour, very slight real paper grain, one short soft shadow under
+> Style: cut-paper collage, flat color, very slight real paper grain, one short soft shadow under
 > the top sheet. Hand-made but precise, like a mid-century print or a Matisse cut-out reduced to
 > three shapes. Generous empty space around the mark. Centred composition, square format.
 >
 > Do not include any text, letters, faces, hands, hearts, brains, paintbrushes, pencils,
-> puzzle pieces, lightbulbs, medical symbols, crosses, ribbons, rainbows, confetti, stars,
+> puzzle pieces, light bulbs, medical symbols, crosses, ribbons, rainbows, confetti, stars,
 > sparkles, gradients, 3D rendering, glossy effects, or mascots. No childish or cartoon style.
-> No more than three colours plus the background.
+> No more than three colors plus the background.
 
 ## Prompt 2 — the app icon
 
@@ -80,11 +80,11 @@ are fills only; never set small text in them.
 > large tears so it survives at small size. The yellow overlap sits near the optical centre. Keep
 > every important edge inside the central 80 percent safe area.
 >
-> It must be recognisable at 60 pixels on a crowded home screen next to bright gradient icons:
-> the calm, flat, paper-coloured square is the differentiator. Flat colour, faint paper grain,
+> It must be recognizable at 60 pixels on a crowded home screen next to bright gradient icons:
+> the calm, flat, paper-colored square is the differentiator. Flat color, faint paper grain,
 > one soft short shadow. No gloss, no gradient, no 3D, no letters.
 >
-> Also produce: a dark version on #16231D with the lower sheet in #FAF8F2, and a single-colour
+> Also produce: a dark version on #16231D with the lower sheet in #FAF8F2, and a single-color
 > version in #24372F on transparent where the overlap is shown as a cut-out hole.
 
 ## Prompt 3 — the wordmark and lockup
@@ -114,7 +114,7 @@ are fills only; never set small text in them.
 5. **Three sheets.** A third, smaller sage sheet for a grandchild. Only keep it if it is still
    legible at 24 px.
 
-Generate at least 20 marks per direction, pick by silhouette in black first, add colour last.
+Generate at least 20 marks per direction, pick by silhouette in black first, add color last.
 
 ## Reject on sight
 
@@ -127,9 +127,9 @@ Generate at least 20 marks per direction, pick by silhouette in black first, add
 
 ## Acceptance tests before adoption
 
-- Reads as the same mark in one colour, as a 24 px stamp, and as a 16 px favicon.
-- Yellow overlap against both neighbours and all text pairings meet the contrast rules in `DESIGN.md`.
-- Recognisable when mirrored for right-to-left layouts, and with no meaning that depends on a letter.
+- Reads as the same mark in one color, as a 24 px stamp, and as a 16 px favicon.
+- Yellow overlap against both neighbors and all text pairings meet the contrast rules in `DESIGN.md`.
+- Recognizable when mirrored for right-to-left layouts, and with no meaning that depends on a letter.
 - Shown unlabelled to caregivers and older adults: nobody says "hospital", "kids' app" or "test".
 - Trademark and visual-similarity search done in the launch markets.
 - Final art is hand-redrawn vector; AI output is a sketch, not the asset. Update `DESIGN.md`
