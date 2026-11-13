@@ -64,7 +64,12 @@ const jsonLd = [
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
         <button type="button" class="btn" data-print><Icon name="print" />Print one-page card</button>
+        <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
+          <Icon name="heart" /><span data-save-label>Save for later</span>
+        </button>
+        <button type="button" class="btn" data-share hidden><Icon name="share" />Share</button>
       </div>
+      <p class="activity-status no-print" data-activity-status role="status" aria-live="polite"></p>
     </header>
 
     <div class="activity-layout">
@@ -188,6 +193,60 @@ const jsonLd = [
 </BaseLayout>
 
 <script>
+  import { browserStorage, isSaved, loadSaved, saveSaved, toggleSaved } from '../lib/saved-activities';
+
+  const status = document.querySelector<HTMLElement>('[data-activity-status]');
+  const say = (text: string) => {
+    if (status) status.textContent = text;
+  };
+
+  // Save for later: only this activity's address, in this browser; nothing is sent anywhere.
+  const saveButton = document.querySelector<HTMLButtonElement>('[data-save]');
+  const storage = browserStorage();
+  if (saveButton && storage) {
+    const slug = saveButton.dataset.save ?? '';
+    const label = saveButton.querySelector<HTMLElement>('[data-save-label]');
+    const show = (saved: boolean) => {
+      saveButton.setAttribute('aria-pressed', String(saved));
+      if (label) label.textContent = saved ? 'Saved' : 'Save for later';
+    };
+    show(isSaved(loadSaved(storage), slug));
+    saveButton.hidden = false;
+    saveButton.addEventListener('click', () => {
+      const next = toggleSaved(loadSaved(storage), slug);
+      if (!saveSaved(storage, next)) {
+        say('This browser did not allow saving. The page address still works as a bookmark.');
+        return;
+      }
+      const saved = isSaved(next, slug);
+      show(saved);
+      say(saved ? 'Saved on this device. Find it under Saved activities on the Find an activity page.' : 'Removed from saved activities.');
+    });
+  }
+
+  // Share: the device's share sheet where there is one, otherwise copy the link.
+  const shareButton = document.querySelector<HTMLButtonElement>('[data-share]');
+  const url = `${location.origin}${location.pathname}`;
+  if (shareButton && (typeof navigator.share === 'function' || navigator.clipboard)) {
+    shareButton.hidden = false;
+    shareButton.addEventListener('click', async () => {
+      if (typeof navigator.share === 'function') {
+        try {
+          await navigator.share({ title: document.title, url });
+        } catch {
+          // Closing the share sheet is a choice, not an error.
+        }
+        return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        say('Link copied. Paste it into a message or an email.');
+      } catch {
+        say(`Copy this link to share it: ${url}`);
+      }
+    });
+  }
+
   for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
     button.addEventListener('click', () => window.print());
   }

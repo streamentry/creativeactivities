@@ -29,6 +29,17 @@
   padding-inline: var(--space-sm);
   color: var(--gm-on-surface-variant);
 }
+.activity-status:empty {
+  display: none;
+}
+.activity-status {
+  margin-top: var(--space-sm);
+  font-weight: 700;
+}
+.btn[aria-pressed='true'] {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+}
 .activity-materials {
   margin-bottom: var(--space-lg);
 }
@@ -230,6 +241,16 @@
 }
 
 /* ---------- Finder ---------- */
+.finder-saved {
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  background: var(--gm-surface-sunken);
+  border-left: 6px solid var(--gm-primary);
+  border-radius: var(--radius-md);
+}
+.finder-saved[hidden] {
+  display: none;
+}
 .finder {
   display: grid;
   gap: var(--space-lg);
