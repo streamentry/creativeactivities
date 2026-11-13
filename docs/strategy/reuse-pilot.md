@@ -4,7 +4,7 @@ Ready to run, not started. This kit puts the reuse-and-comparison stage of
 [validation.md](../specs/senior-first/validation.md) into practice and answers two
 questions from [the plan](../plan/README.md):
 
-- **Reuse gate (day 30):** do people come back to Golden Moments on another day without being
+- **Reuse gate (day 30):** do people come back to Creative Activities on another day without being
   reminded? Continue if at least 8 of 20 use units return voluntarily and at
   least 12 would choose it for their next comparable session.
 - **Segment decision (day 90):** do activity staff get more repeat value than families? If staff show at
@@ -54,13 +54,13 @@ participant's responses separately. Do not ask for a diagnosis, stage or age.
 
 ## Day 7 questions
 
-1. On which days did you use Golden Moments (web, app or printout)? Did anyone
+1. On which days did you use Creative Activities (web, app or printout)? Did anyone
    remind you, including the app's reminder?
 2. Which activities did you use, and on which device or on paper?
 3. How did it go: well, partly, or not well? What made the difference?
 4. On the other days, what did you do together instead?
-5. Next time you want something to do together, would you choose Golden
-   Moments, the alternative from question 4, or something else? Why?
+5. Next time you want something to do together, would you choose Creative
+   Activities, the alternative from question 4, or something else? Why?
 6. What got in the way, confused you, or felt wrong?
 
 For staff, add: how many people took part in a session, and whether you printed
@@ -72,7 +72,7 @@ anything.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 
 **Returned voluntarily** = used on at least one day after day 0 without a
-reminder from the team. **Prefers GM** = chose Golden Moments in question 5.
+reminder from the team. **Prefers CA** = chose Creative Activities in question 5.
 Report every denominator, including people who did not reply; a missing
 answer is not a success.
 
@@ -84,9 +84,9 @@ answer is not a success.
 >
 > Hello [name],
 >
-> I make Golden Moments, free picture games and printable activities for people
+> I make Creative Activities, free picture games and printable activities for people
 > living with dementia and the people who spend time with them
-> (dementiaactivities.games). There are no accounts, ads or fees.
+> (creativeactivities.org). There are no accounts, ads or fees.
 >
 > I'm looking for about 20 families or activity staff to try it for a week and
 > tell me honestly whether it was useful, including if it wasn't. It takes one
@@ -101,7 +101,7 @@ answer is not a success.
 
 ### To a caregiver or staff member
 
-> Thank you for offering to try Golden Moments. For the next 7 days, use it only
+> Thank you for offering to try Creative Activities. For the next 7 days, use it only
 > if and when you want to. That is exactly what I'm trying to learn. A good
 > first activity is Picture pairs with four tiles: [link]. If you'd like to use
 > your own family photos, the app keeps them on your phone: [store link].

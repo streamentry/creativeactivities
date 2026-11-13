@@ -1,4 +1,4 @@
-# Golden Moments — pre-submission legal, privacy, and App Review gates
+# Creative Activities — pre-submission legal, privacy, and App Review gates
 
 > **Moved 2026-10-25.** This checklist came from `streamentry/golden-moments-web`,
 > now merged into `site/`. The legal pages are built from `site/src/pages/` for
@@ -29,7 +29,7 @@ The legal pages were merged in [PR #4](https://github.com/streamentry/golden-mom
 ## Published App Store listing vs. next candidate
 
 As observed on the US listing on October 18, 2026:
-- Published title: **Golden Moments - Memento Maze**; subtitle: **The game that train your brain**.
+- Former listing (as Golden Moments, before the 2026-11-13 rename) — published title: **Golden Moments - Memento Maze**; subtitle: **The game that train your brain**.
 - The description makes **brain-health / keep-your-mind-sharp** claims and contains apparently testimonial-style “Betty, 72” and “Michael, 45” quotes without evidence.
 - Apple App Privacy label: **Data Not Collected**.
 - Google Play's Data safety section currently declares **No data collected** and **No data shared**; audit the signed Android build before confirming those claims.

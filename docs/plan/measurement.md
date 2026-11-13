@@ -37,7 +37,7 @@ installs a day, many daily cells will be blank or noisy. Read weeks, not days.
 
 ## How to look (founder steps)
 
-1. App Store Connect → Apps → Golden Moments → **Analytics**.
+1. App Store Connect → Apps → Creative Activities Together → **Analytics** (the older Golden Moments app record holds the data from before the 2026-11-13 rename).
 2. **Overview**: set the range to the last 30 days. Read First-Time Downloads,
    Sessions, Active Devices and Crashes.
 3. **Metrics** → choose *Active Devices* → set the interval to *Daily* (DAU),

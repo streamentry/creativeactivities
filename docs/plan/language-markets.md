@@ -150,7 +150,7 @@ practical channels.
 Name implication: *Dementia Games* translates cleanly to German, Dutch, Italian
 and Japanese; it is stigmatizing or off-trend in Korean, colloquial Simplified
 Chinese and Arabic; and under-indexed in French, Spanish and Portuguese, where
-searchers type *Alzheimer*. Keep *Golden Moments* as the device label and lead
+searchers type *Alzheimer*. Keep *Creative Activities* as the device label (renamed from Golden Moments on 2026-11-13) and lead
 the local subtitle and keywords with the local Alzheimer or activities phrase.
 
 ## 6. Website search: where to compete (decided 2026-11-08)

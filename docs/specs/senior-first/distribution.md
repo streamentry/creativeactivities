@@ -7,7 +7,7 @@ Feature phase/state: [catalog](feature-catalog.json). Product ambition does not 
 **One accurate search proposition.**
 
 Acceptance:
-- Retain the agreed US candidate name/subtitle unless actual search/comprehension evidence supports a separate change. Keep the on-device label Golden Moments and preserve package/bundle identity.
+- Retain the agreed US candidate name/subtitle unless actual search/comprehension evidence supports a separate change. Keep the on-device label Creative Activities (renamed from Golden Moments on 2026-11-13) and preserve package/bundle identity.
 - Focus on caregiver activity/game intent, while the in-app experience treats older adults as adults. Do not add diagnostic, prevention, disease-subtype or therapy keywords for volume alone.
 - Update the canonical JSON, regenerate exports and validate limits/duplicates/claims. Never edit just an exported subtitle or treat a document as a live App Store update.
 - Research records storefront, language, date, source, observed metric and limitations. Unknown demand is unknown; Google estimates, advertising competition and rating totals are not App Store install data.

@@ -107,7 +107,7 @@ Replace `<locale>` with the ARB name and `<lang>` with the Apple name above.
    `NSPhotoLibraryUsageDescription`, the message iOS shows when the app first
    asks to choose photos. It must stay true: only chosen photos are copied, on
    this device, and the library is not scanned. Keep `CFBundleDisplayName` as
-   `Golden Moments` unless the maintainer approves a local name.
+   `Creative Activities` unless the maintainer approves a local name.
 
 The tone rules in `DESIGN.md` apply in every language: plain adult words, no
 score, brain or clinical vocabulary, no praise with emoji, nothing that
