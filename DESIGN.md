@@ -74,7 +74,17 @@ The page is successful when someone can start, not when they admire our design.
 
 Use **Creative Activities** as the visible name; `creativeactivities.org` in the footer and share materials. A simple wordmark is better than an over-literal logo containing a heart + hands + brain + paintbrush.
 
-**Logo direction:** two simple, offset overlapping paper shapes or brush-like marks forming a subtle “C” / shared space. Works as a one-color stamp at 24 px. Test for accidental resemblance to existing marks before adopting.
+**Logo:** two overlapping pieces of paper, a clean-cut ink leaf and a hand-torn clay sheet, with their shared space in sun. The brief and acceptance tests are in [LOGO.md](LOGO.md); the art lives in `brand/`:
+
+| File | Use |
+|---|---|
+| `brand/mark.png` | Primary mark with room around it; splash screens, cut out for share images and the favicon |
+| `brand/app-icon.png` | Full-bleed app icon, Android adaptive foreground, web touch icons |
+| `brand/app-icon-dark.png` | Dark variant on `ink-deep`; not wired up yet |
+| `brand/mark-mono.png` | One-color stamp (transparent) for print and single-color use |
+| `brand/lockups.png` | Reference for the horizontal, stacked and footer lockups |
+
+Regenerate app icons with `python3 scripts/make_brand_icons.py`, then `dart run flutter_launcher_icons` and `dart run flutter_native_splash:create` (review the native diff: keep the hand-made iOS launch storyboard); website icons and share images with `site/scripts/make-images.py`. The art is raster and AI-assisted: a vector redraw and the resemblance search in LOGO.md are still open before it is treated as final.
 
 ### Palette (proposed tokens; validate contrast)
 
