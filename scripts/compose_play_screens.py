@@ -8,8 +8,11 @@ The capture from assets/screenshots/en-US/raw/android/NN.png is scaled to fit
 and clipped to the bezel's rounded screen. Nothing in the capture is drawn or
 edited. Frames are 1440 by 2560 pixels (9:16), within Google Play's limits.
 
-Usage: python3 scripts/compose_play_screens.py
+Usage: python3 scripts/compose_play_screens.py [--fonts DIR]
+  --fonts DIR  folder holding Roboto-{Regular,Medium,Bold}.ttf. The app no longer
+               ships Roboto; Flutter's bin/cache/artifacts/material_fonts has it.
 """
+import argparse
 import json
 from pathlib import Path
 
@@ -91,6 +94,10 @@ def compose(capture, headline, supporting):
 
 
 def main():
+    global FONTS
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--fonts', type=Path, default=FONTS)
+    FONTS = parser.parse_args().fonts
     frames = json.loads(METADATA.read_text())['screenshots']
     target = SHOTS / 'android'
     target.mkdir(exist_ok=True)
