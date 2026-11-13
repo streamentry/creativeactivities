@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { factList, glance, matches, minutesRange, type ActivityFacts } from './activities';
+import { factList, fitReasons, glance, matches, minutesRange, type ActivityFacts } from './activities';
 
 const COLLAGE: ActivityFacts = {
   type: 'craft',
@@ -50,6 +50,46 @@ describe('matches', () => {
     expect(matches(COLLAGE, { setting: 'bedside' })).toBe(false);
     expect(matches(COLLAGE, { setting: 'seated' })).toBe(true);
     expect(matches(COLLAGE, { group: 'intergenerational' })).toBe(true);
+  });
+});
+
+describe('optional fit filters', () => {
+  it('filters by how much mess is okay', () => {
+    expect(matches({ ...COLLAGE, mess: 'none' }, { mess: 'none' })).toBe(true);
+    expect(matches(COLLAGE, { mess: 'none' })).toBe(false);
+    expect(matches(COLLAGE, { mess: 'low' })).toBe(true);
+    expect(matches({ ...COLLAGE, mess: 'medium' }, { mess: 'low' })).toBe(false);
+    expect(matches({ ...COLLAGE, mess: 'medium' }, { mess: 'any' })).toBe(true);
+  });
+
+  it('keeps only sit-still activities on a low-energy day', () => {
+    expect(matches(COLLAGE, { energy: 'low' })).toBe(true);
+    expect(matches({ ...COLLAGE, energy: 'medium' }, { energy: 'low' })).toBe(false);
+    expect(matches({ ...COLLAGE, energy: 'medium' }, { energy: 'any' })).toBe(true);
+  });
+});
+
+describe('fitReasons', () => {
+  it('says nothing when nothing was chosen', () => {
+    expect(fitReasons(COLLAGE, {})).toEqual([]);
+    expect(fitReasons(COLLAGE, { time: 'any', materials: 'any', mess: 'any' })).toEqual([]);
+  });
+
+  it('explains each choice the activity meets, in plain words', () => {
+    expect(fitReasons(COLLAGE, { time: '30', materials: 'low', setting: 'seated', mess: 'low', energy: 'low' })).toEqual([
+      'can start in under 30 minutes',
+      'needs only low-cost things',
+      'works seated',
+      'little or no mess',
+      'mostly sitting still',
+    ]);
+  });
+
+  it('names the actual cost and mess when they are better than asked', () => {
+    expect(fitReasons({ ...COLLAGE, cost: 'free', mess: 'none' }, { materials: 'low', mess: 'low' })).toEqual([
+      'nothing to buy',
+      'no mess',
+    ]);
   });
 });
 

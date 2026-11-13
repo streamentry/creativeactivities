@@ -102,13 +102,29 @@ export const MATERIAL_CHOICES = [
   { value: 'any', label: 'Any', costs: ['free', 'low', 'some'] },
 ] as const;
 
+/** Optional fit filters (DESIGN.md › Finder filters: mess tolerance, energy). */
+export const MESS_CHOICES = [
+  { value: 'none', label: 'No mess at all', allows: ['none'] },
+  { value: 'low', label: 'A little is fine', allows: ['none', 'low'] },
+  { value: 'any', label: 'Any', allows: ['none', 'low', 'medium'] },
+] as const;
+
+export const ENERGY_CHOICES = [
+  { value: 'low', label: 'Low: sitting still', allows: ['low'] },
+  { value: 'any', label: 'Any', allows: ['low', 'medium'] },
+] as const;
+
 export interface FinderChoice {
   time?: string;
   materials?: string;
   type?: string;
   setting?: string;
   group?: string;
+  mess?: string;
+  energy?: string;
 }
+
+const chosen = (value: string | undefined): value is string => value !== undefined && value !== 'any';
 
 /** Whether an activity fits every choice made; "any" or unset never filters. */
 export function matches(a: ActivityFacts, c: FinderChoice): boolean {
@@ -116,8 +132,29 @@ export function matches(a: ActivityFacts, c: FinderChoice): boolean {
   if (time && a.activityMinutes[0] > time.max) return false;
   const materials = MATERIAL_CHOICES.find((m) => m.value === c.materials);
   if (materials && !(materials.costs as readonly string[]).includes(a.cost)) return false;
-  if (c.type && c.type !== 'any' && a.type !== c.type) return false;
-  if (c.setting && c.setting !== 'any' && !a.settings.includes(c.setting as ActivitySetting)) return false;
-  if (c.group && c.group !== 'any' && !a.groups.includes(c.group as ActivityGroup)) return false;
+  if (chosen(c.type) && a.type !== c.type) return false;
+  if (chosen(c.setting) && !a.settings.includes(c.setting as ActivitySetting)) return false;
+  if (chosen(c.group) && !a.groups.includes(c.group as ActivityGroup)) return false;
+  const mess = MESS_CHOICES.find((m) => m.value === c.mess);
+  if (mess && !(mess.allows as readonly string[]).includes(a.mess)) return false;
+  const energy = ENERGY_CHOICES.find((e) => e.value === c.energy);
+  if (energy && !(energy.allows as readonly string[]).includes(a.energy)) return false;
   return true;
+}
+
+/**
+ * Why a shown activity fits the choices made, in plain words (DESIGN.md ›
+ * results explain why this fits). Only choices other than "any" produce a reason.
+ */
+export function fitReasons(a: ActivityFacts, c: FinderChoice): string[] {
+  const reasons: string[] = [];
+  const time = TIME_CHOICES.find((t) => t.value === c.time);
+  if (time && Number.isFinite(time.max)) reasons.push(`can start in under ${time.max} minutes`);
+  if (chosen(c.materials)) reasons.push(a.cost === 'free' ? 'nothing to buy' : 'needs only low-cost things');
+  if (chosen(c.setting)) {
+    reasons.push(c.setting === 'seated' ? 'works seated' : `works ${SETTING_LABELS[c.setting as ActivitySetting]}`);
+  }
+  if (chosen(c.mess)) reasons.push(a.mess === 'none' ? 'no mess' : 'little or no mess');
+  if (chosen(c.energy)) reasons.push('mostly sitting still');
+  return reasons;
 }

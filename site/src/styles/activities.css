@@ -213,6 +213,16 @@
 .activity-card__glance {
   font-weight: 700;
 }
+.activity-card__why {
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--gm-surface-sunken);
+  border-left: 4px solid var(--gm-primary);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+}
+.activity-card__why[hidden] {
+  display: none;
+}
 .activity-card__easier {
   margin-top: auto;
   padding-top: var(--space-sm);
