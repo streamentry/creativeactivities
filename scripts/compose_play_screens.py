@@ -2,7 +2,7 @@
 """Build the Google Play phone frames from fresh emulator captures.
 
 Each frame matches the App Store set: the generated paper backdrop
-(art/parchment-backdrop.png), the same "Golden Moments" label, headline and
+(art/parchment-backdrop.png), the same "Creative Activities" label, headline and
 supporting text from metadata/app-store.en-US.json, and a plain dark bezel.
 The capture from assets/screenshots/en-US/raw/android/NN.png is scaled to fit
 and clipped to the bezel's rounded screen. Nothing in the capture is drawn or
@@ -23,7 +23,7 @@ METADATA = ROOT / 'metadata/app-store.en-US.json'
 SIZE = (1440, 2560)
 INK = (32, 31, 29)        # headline, as in the App Store frames
 MUTED = (74, 70, 61)      # supporting text
-LABEL = (122, 90, 26)     # the small "Golden Moments" label
+LABEL = (122, 90, 26)     # the small brand label
 BEZEL = (31, 31, 29)
 BEZEL_WIDTH = 14
 SCREEN_TOP = 690
@@ -57,7 +57,7 @@ def centered(draw, y, text, face, fill):
 
 
 def text_block(draw, headline, supporting):
-    centered(draw, 110, 'Golden Moments', font('Medium', 40), LABEL)
+    centered(draw, 110, 'Creative Activities', font('Medium', 40), LABEL)
     face = font('Bold', 112)
     y = 190
     for line in two_lines(draw, headline, face):
