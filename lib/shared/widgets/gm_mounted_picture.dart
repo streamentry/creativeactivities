@@ -1,5 +1,5 @@
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// A picture mounted like a print in a family album (DESIGN.md › Signature
 /// details): a print-white mat (`surface-raised`) with a hairline edge sits

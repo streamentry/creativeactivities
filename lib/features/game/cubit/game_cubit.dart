@@ -1,13 +1,13 @@
 import 'dart:math';
 
+import 'package:creative_activities/data/models/image.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/features/game/cubit/game_state.dart';
+import 'package:creative_activities/features/game/cubit/tile_state.dart';
+import 'package:creative_activities/shared/constants/app_constants.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:golden_moments/data/models/image.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/features/game/cubit/game_state.dart';
-import 'package:golden_moments/features/game/cubit/tile_state.dart';
-import 'package:golden_moments/shared/constants/app_constants.dart';
 
 /// Cubit for managing game state and logic
 class GameCubit extends Cubit<GameState> {

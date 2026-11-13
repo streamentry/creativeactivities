@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/todays_activity/data/todays_activity.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/todays_activity/data/todays_activity.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// Home's answer to "what could we do today?": one existing activity, a
 /// Begin button and a quiet way to pick the other one instead.

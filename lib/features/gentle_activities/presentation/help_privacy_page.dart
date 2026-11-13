@@ -1,9 +1,9 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/rating/review_request.dart';
+import 'package:creative_activities/shared/utils/support_info.dart';
+import 'package:creative_activities/shared/widgets/gm_copyable_text.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/rating/review_request.dart';
-import 'package:golden_moments/shared/utils/support_info.dart';
-import 'package:golden_moments/shared/widgets/gm_copyable_text.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 

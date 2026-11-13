@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:creative_activities/features/gentle_activities/data/photo_annotations.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_annotations.dart';
 
 final String _a = 'a' * 64;
 final String _b = 'b' * 64;

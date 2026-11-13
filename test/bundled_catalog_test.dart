@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:ui' as ui;
 
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/features/game/cubit/game_cubit.dart';
+import 'package:creative_activities/features/game/cubit/game_state.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/features/game/cubit/game_cubit.dart';
-import 'package:golden_moments/features/game/cubit/game_state.dart';
 
 Iterable<String> _paths(Object? value) sync* {
   if (value is Map<String, dynamic>) {

@@ -1,8 +1,8 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/cubit/tile_state.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/l10n/pack_text.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/cubit/tile_state.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/l10n/pack_text.dart';
 
 /// One picture tile on the picture-pack board.
 ///

@@ -1,7 +1,7 @@
 import 'dart:math';
 
+import 'package:creative_activities/features/gentle_activities/models/puzzle_board.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/models/puzzle_board.dart';
 
 void main() {
   test('starts with every piece in the tray and every slot empty', () {

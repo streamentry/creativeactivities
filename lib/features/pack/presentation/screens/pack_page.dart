@@ -1,18 +1,18 @@
 import 'dart:async';
 
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/data/services/sound_service.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/home/cubit/home_cubit.dart';
+import 'package:creative_activities/features/home/cubit/home_state.dart';
+import 'package:creative_activities/features/home/presentation/widgets/hidden_packs_section.dart';
+import 'package:creative_activities/features/home/presentation/widgets/pack_choice_not_saved.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/l10n/pack_text.dart';
+import 'package:creative_activities/shared/widgets/pack_card.dart';
+import 'package:creative_activities/shared/widgets/pack_grid.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/data/services/sound_service.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/home/cubit/home_cubit.dart';
-import 'package:golden_moments/features/home/cubit/home_state.dart';
-import 'package:golden_moments/features/home/presentation/widgets/hidden_packs_section.dart';
-import 'package:golden_moments/features/home/presentation/widgets/pack_choice_not_saved.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/l10n/pack_text.dart';
-import 'package:golden_moments/shared/widgets/pack_card.dart';
-import 'package:golden_moments/shared/widgets/pack_grid.dart';
 
 /// Page to display all packs for a given category.
 ///

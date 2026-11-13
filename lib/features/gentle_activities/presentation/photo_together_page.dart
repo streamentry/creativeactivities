@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'dart:math' as math;
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/widgets/gm_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_view.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/widgets/gm_bottom_bar.dart';
 
 /// The note shown after Hide, kept as a reason so it follows the language.
 enum _HideStatus { failed, hiddenForVisit, hiddenSaved }

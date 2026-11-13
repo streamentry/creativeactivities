@@ -1,7 +1,7 @@
+import 'package:creative_activities/features/legal/presentation/legal_info_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/legal/presentation/legal_info_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 void main() {
   testWidgets('legal information is readable without opening a browser', (

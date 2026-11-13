@@ -1,6 +1,6 @@
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/models/pack.dart';
 import 'package:equatable/equatable.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/models/pack.dart';
 
 /// GitHub pack index containing all available packs
 class PacksIndex extends Equatable {

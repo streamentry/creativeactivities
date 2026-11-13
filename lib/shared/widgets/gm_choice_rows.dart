@@ -1,7 +1,7 @@
 import 'dart:math';
 
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// One choice in [GmChoiceRows].
 typedef GmChoice = ({String label, bool selected, VoidCallback onSelected});

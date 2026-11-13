@@ -1,16 +1,16 @@
 import 'dart:io';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_home_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/help_privacy_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_puzzle_page.dart';
+import 'package:creative_activities/features/legal/presentation/legal_info_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_game_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_home_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/help_privacy_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_together_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_puzzle_page.dart';
-import 'package:golden_moments/features/legal/presentation/legal_info_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'helpers/home_menu.dart';

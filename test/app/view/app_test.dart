@@ -1,10 +1,10 @@
+import 'package:creative_activities/features/home/cubit/home_cubit.dart';
+import 'package:creative_activities/features/home/cubit/home_state.dart';
+import 'package:creative_activities/features/home/presentation/screens/home_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/home/cubit/home_cubit.dart';
-import 'package:golden_moments/features/home/cubit/home_state.dart';
-import 'package:golden_moments/features/home/presentation/screens/home_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 class _LoadedHome extends HomeCubit {
   new() {

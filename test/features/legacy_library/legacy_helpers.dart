@@ -1,13 +1,13 @@
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/data/models/sound_setting.dart';
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/cubit/game_cubit.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_board.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/data/models/sound_setting.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/cubit/game_cubit.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_board.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 /// The legacy picture-pack route as the app builds it: theme, sound

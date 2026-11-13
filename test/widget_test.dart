@@ -1,7 +1,7 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 void main() {
   testWidgets('primary action honors disabled and enabled states', (
