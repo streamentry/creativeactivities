@@ -25,7 +25,7 @@ adb_() { adb -s "$serial" "$@"; }
 # the folder exists; the test's own install (`adb install -r`) keeps it.
 (cd "$root" && flutter build apk --debug --flavor production >/dev/null)
 adb_ install -r -t "$root/build/app/outputs/flutter-apk/app-production-debug.apk" >/dev/null
-package=com.mindfulness.golden_moments
+package=com.mindfulness.creative_activities
 work=/data/user/0/$package/files/gm-capture
 app() { adb_ shell run-as "$package" "$@"; }
 app rm -rf "$work"

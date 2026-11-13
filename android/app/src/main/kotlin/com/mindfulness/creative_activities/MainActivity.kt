@@ -1,4 +1,4 @@
-package com.mindfulness.golden_moments
+package com.mindfulness.creative_activities
 
 import io.flutter.embedding.android.FlutterActivity
 

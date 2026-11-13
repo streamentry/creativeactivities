@@ -4,7 +4,7 @@ import 'package:golden_moments/l10n/l10n.dart';
 /// Google Play listing for the Android package.
 const playStoreUrl =
     'https://play.google.com/store/apps/details'
-    '?id=com.mindfulness.golden_moments';
+    '?id=com.mindfulness.creative_activities';
 
 /// App Store id of the published listing, the App Store listing (name set in metadata/app-store.en-US.json)
 /// (checked on apps.apple.com on 2026-10-30).
