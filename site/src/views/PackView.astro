@@ -70,7 +70,7 @@ const activities = pack.activities.map((slug) => {
       </p>
     </header>
 
-    {activities.map((a) => <ActivityPrintCard activity={a} />)}
+    {activities.map((a) => <ActivityPrintCard activity={a} variation={pack.variation} />)}
   </div>
 </BaseLayout>
 

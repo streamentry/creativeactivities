@@ -1,4 +1,4 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { PACKS } from './packs';
 
@@ -13,6 +13,13 @@ describe('printable packs', () => {
       expect(new Set(pack.activities).size).toBe(pack.activities.length);
       for (const slug of pack.activities) {
         expect(existsSync(new URL(`../content/activity-cards/${slug}.md`, import.meta.url)), `missing ${slug}`).toBe(true);
+      }
+    });
+
+    it(`${pack.id}: every card has the variation the pack prints`, () => {
+      for (const slug of pack.activities) {
+        const text = readFileSync(new URL(`../content/activity-cards/${slug}.md`, import.meta.url), 'utf8');
+        expect(text, `${slug} has no ${pack.variation ?? 'easier'} variation`).toContain(`kind: ${pack.variation ?? 'easier'}`);
       }
     });
 

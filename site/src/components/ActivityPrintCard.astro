@@ -5,11 +5,13 @@ import { TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
+  /** Which variation to print; "easier" unless the pack is about one need. */
+  variation?: string;
 }
-const { activity } = Astro.props;
+const { activity, variation = 'easier' } = Astro.props;
 const d = activity.data;
 const path = `/activity/${activity.id}/`;
-const easier = d.variations.find((v) => v.kind === 'easier') ?? d.variations[0];
+const easier = d.variations.find((v) => v.kind === variation) ?? d.variations[0];
 const id = `card-${activity.id}`;
 ---
 <section class="pack-card" aria-labelledby={id}>
