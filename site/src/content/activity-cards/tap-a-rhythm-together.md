@@ -3,6 +3,7 @@ name: Tap a rhythm together
 seoTitle: "Tap a Rhythm Together: Simple Beats to Share"
 description: "Tap along to a steady song on a table, tray or small drum, taking turns to lead. Seated or bedside, with quieter, easier and with-children versions to choose from."
 summary: Tap along to a steady song on a table or small drum, taking turns to lead the beat.
+enjoy: "People who like to dance, drum their fingers or keep time to music, and anyone who once played in a band or sang in a choir. Works well without many words."
 type: music
 prepMinutes: 3
 activityMinutes: [10, 25]

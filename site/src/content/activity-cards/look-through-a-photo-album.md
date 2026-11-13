@@ -3,6 +3,7 @@ name: Look through a photo album
 seoTitle: "Look Through a Photo Album: Talk About the Pictures"
 description: "Turn the pages of a family photo album together, pausing wherever they like to talk about each picture. Seated or bedside, with easier and large-print versions."
 summary: Turn the pages of a family photo album together, pausing to talk about what is in each picture.
+enjoy: "People who like family photos, talking about places they have lived and sharing stories at their own pace. Good for a quiet sit-down visit."
 type: conversation
 prepMinutes: 5
 activityMinutes: [15, 40]
