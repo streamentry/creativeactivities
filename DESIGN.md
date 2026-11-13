@@ -2,6 +2,7 @@
 name: Creative Activities
 description: Warm, capable, calm and dignified. An activity, ready in one glance.
 colors:
+  primary: "#24372F"
   ink: "#24372F"
   ink-deep: "#16231D"
   canvas: "#FAF8F2"
@@ -79,7 +80,7 @@ Use **Creative Activities** as the visible name; `creativeactivities.org` in the
 
 | Token | Hex | Use |
 |---|---|---|
-| `ink` | `#24372F` | Main text, icons, primary button background |
+| `ink` | `#24372F` | Main text, icons, primary button background (also the `primary` token) |
 | `canvas` | `#FAF8F2` | Main warm off-white background |
 | `paper` | `#FFFFFF` | Activity cards and print surfaces |
 | `sage` | `#D9E8DA` | Soft contextual background, never sole indicator |
@@ -169,7 +170,7 @@ A compact set of activities for a situation (e.g., â€œfive quiet bedside craftsâ
 
 Every published activity must have structured editorial metadata, regardless of CMS:
 
-```yaml
+```text
 id: memory-collage-001
 slug: memory-collage
 name: Make a memory collage
