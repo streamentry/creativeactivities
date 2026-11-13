@@ -35,8 +35,8 @@ const activities = pack.activities.map((slug) => {
       <div class="btn-row no-print">
         <button type="button" class="btn btn--primary" data-print><Icon name="print" />Print the pack</button>
       </div>
-      <h2>In this pack</h2>
-      <ol class="activity-list">
+      <h2 class="no-print">In this pack</h2>
+      <ol class="activity-list no-print">
         {
           activities.map((a) => (
             <li>
@@ -49,6 +49,22 @@ const activities = pack.activities.map((slug) => {
         Each card lists the materials, one action per step, an easier version and when to stop. Every activity can stop
         after the first step, and none of them has a right answer.
       </p>
+      <h2>Supply checklist</h2>
+      <p>Tick what you already have. Each card also suggests things to use instead.</p>
+      <div class="pack-supplies">
+        {
+          activities.map((a) => (
+            <div>
+              <h3>{a.data.name}</h3>
+              <ul class="pack-checklist">
+                {a.data.materials.map((m) => (
+                  <li>{m}</li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
       <p class="pack-cover__source">
         {SITE.name} · {SITE.domain}{path} · Free to print and share for personal and noncommercial use.
       </p>

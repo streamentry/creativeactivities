@@ -257,6 +257,39 @@
     grid-template-columns: 1fr 1fr;
   }
 }
+.pack-supplies {
+  display: grid;
+  gap: var(--space-md) var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  margin-bottom: var(--space-lg);
+}
+.pack-supplies h3 {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-xs);
+}
+/* An empty box to tick on paper; the words carry the meaning on screen. */
+.pack-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pack-checklist li {
+  position: relative;
+  padding-left: 1.75em;
+}
+.pack-checklist li + li {
+  margin-top: var(--space-xs);
+}
+.pack-checklist li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 1em;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: 3px;
+}
 .pack-card__source,
 .pack-cover__source {
   color: var(--gm-on-surface-variant);
@@ -370,6 +403,24 @@
     border-top: 0;
     padding-top: 0;
     margin: 0;
+  }
+  .pack-supplies {
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm 6mm;
+  }
+  .pack-supplies h3 {
+    font-size: 12pt;
+    margin: 0 0 1mm;
+  }
+  .pack-checklist li {
+    font-size: 11pt;
+  }
+  .pack-checklist li + li {
+    margin-top: 0.5mm;
+  }
+  .pack-cover h2 {
+    font-size: 15pt;
+    margin: 4mm 0 1mm;
   }
   /* One sheet per card: smaller type than a single card, still 12pt. */
   .pack {
