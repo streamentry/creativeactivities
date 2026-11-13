@@ -1,8 +1,9 @@
-# Creative Activities Together: new store apps, 1.10.0 build 14 (testing only)
+# Creative Activities Together: new store apps, 1.10.0 build 14
 
-**State (2026-11-13):** build 14 is in TestFlight and rolled out on the Play internal
-track. Both store listings are filled in. Nothing is submitted for public review. The
-privacy, data-safety, content-rating and other policy declarations are not done.
+**State (2026-11-13):** Android 1.10.0 (14) is sent to Google for production review
+(maintainer approval: "submit for review"). iOS is not submitted: App Privacy and
+territory availability are still unset because the App Store Connect web sign-in
+failed in the agent browser.
 
 ## Identity
 
@@ -22,8 +23,8 @@ privacy, data-safety, content-rating and other policy declarations are not done.
 
 - `build/app/outputs/bundle/productionRelease/app-production-release.aab`, version code 14,
   signed with the existing upload key (Play App Signing).
-- Uploaded through the Android Publisher API; a draft release exists on the internal track.
-  It has not been rolled out.
+- Uploaded through the Android Publisher API; rolled out on the internal track, and the
+  same build is in the production release sent for review (below).
 
 ## Store listings (2026-11-13, through the APIs, read back)
 
@@ -35,9 +36,10 @@ privacy, data-safety, content-rating and other policy declarations are not done.
   content", price free (USA base). Review notes and contact copied from Golden
   Moments 1.10.0 with the name changed. Six iPhone 6.9" and six iPad 13"
   screenshots on en-US, all `COMPLETE`.
-- **Age rating:** answers copied from Golden Moments, giving 17+. Those answers say
-  `advertising: true` and `unrestrictedWebAccess: true`. The app has no ad SDK, so
-  the advertising answer looks stale and should be confirmed.
+- **Age rating:** started from the Golden Moments answers (17+), then set
+  `advertising` and `unrestrictedWebAccess` to false: `pubspec.yaml` has no ad SDK, and
+  `url_launcher` only opens fixed help and privacy pages in the external browser. The
+  rating is now 4+.
 - **Google Play:** 43 listings from the same files, contact website and email,
   512 px icon (the shipped app icon), new feature graphic
   (`scripts/compose_feature_graphic.py`) and six phone screenshots. The internal
@@ -47,14 +49,30 @@ privacy, data-safety, content-rating and other policy declarations are not done.
   Activities" (`scripts/relabel_store_frames.py`). Frame 4 still shows "Picture 1 of
   2", which 1.10.0 no longer displays.
 
+## Google Play declarations and production review (2026-11-13, console, read back)
+
+- Privacy policy `https://dementiaactivities.games/app-privacy/`; no ads; no restricted
+  access; advertising ID not used (the production bundle manifest has no `AD_ID`);
+  not a government app; no financial features.
+- Target audience 18 and over. Data safety: no data collected or shared.
+- Store settings: App, Health & Fitness (as Golden Moments). In that category Play
+  requires a health feature, so the health declaration is "Other": "None. Recreational
+  crafts and photo games ... No health tracking, diagnosis, treatment or medical
+  features." Golden Moments declares "Stress management"; that was not copied because
+  it implies a health purpose.
+- Content rating (IARC, all other app types, contact `web@dementiaactivities.games`):
+  online content Yes (downloadable picture library), every other answer No. Result:
+  ESRB Everyone, PEGI 3, USK all ages, IARC 3+.
+- Production release 1.10.0 (14), Golden Moments' 43 release notes, 178 countries /
+  regions (same count as Golden Moments). Sent with "Submit 53 changes for review";
+  quick checks were running at the time of writing.
+
 ## Open items
 
-- App Store: App Privacy answers, territory availability (the v2 availability API
-  rejected the territory list; set it in the web UI). Slovenian (`sl`) is mapped in
-  `scripts/store_locales.py` but is not a valid App Store locale.
-- Google Play: the 10 App content declarations (privacy policy, ads, sign-in, content
-  rating, target audience, data safety, advertising ID, government, financial, health)
-  and store settings (category, contact details in the console).
+- App Store: App Privacy ("Data Not Collected"), territory availability (the v2
+  availability API rejected the territory list; set it in the web UI), then submit
+  version 1.10.0. Slovenian (`sl`) is mapped in `scripts/store_locales.py` but is not a
+  valid App Store locale.
+- Screenshot frame 4 still shows "Picture 1 of 2", which 1.10.0 no longer displays.
 - The app icon is still the gold "G".
 - Payment method for the Apple membership renewal is not on file.
-- Public submission needs explicit approval.
