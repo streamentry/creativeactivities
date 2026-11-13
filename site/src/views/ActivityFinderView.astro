@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { PACKS } from '../data/packs';
 import '../styles/activities.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { breadcrumbs } from '../lib/schema';
@@ -35,6 +36,13 @@ const easier = (kinds: { kind: string; text: string }[]) =>
         Every activity here can start with everyday things, needs no account and comes with an easier version and a
         one-page card to print. Choose as much or as little as you like below. “Any” is always fine.
       </p>
+      {
+        PACKS.map((p) => (
+          <p>
+            Want a few ready to go? <a href={`/activity/packs/${p.id}/`}>Print {p.title.split(':')[0].toLowerCase()}</a>, one card per page.
+          </p>
+        ))
+      }
     </header>
 
     <form class="finder" id="finder" aria-label="Find an activity">

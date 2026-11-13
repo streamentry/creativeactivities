@@ -1,0 +1,38 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { SITE } from '../lib/site';
+import { TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+}
+const { activity } = Astro.props;
+const d = activity.data;
+const path = `/activity/${activity.id}/`;
+const easier = d.variations.find((v) => v.kind === 'easier') ?? d.variations[0];
+const id = `card-${activity.id}`;
+---
+<section class="pack-card" aria-labelledby={id}>
+  <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
+  <h2 id={id}><a href={path}>{d.name}</a></h2>
+  <p class="pack-card__summary">{d.summary}</p>
+  <p class="activity-glance">{glance(d).map((fact) => <span>{fact}</span>)}</p>
+  <div class="pack-card__columns">
+    <div>
+      <h3>What you need</h3>
+      <ul class="activity-list">{d.materials.map((m) => <li>{m}</li>)}</ul>
+    </div>
+    <div>
+      <h3>{VARIATION_LABELS[easier.kind]}</h3>
+      <p>{easier.text}</p>
+    </div>
+  </div>
+  <h3>What to do</h3>
+  <ol class="activity-steps">{d.steps.map((step) => <li>{step}</li>)}</ol>
+  <div class="activity-stop">
+    <p><strong>It is okay to stop.</strong> {d.stopNote}</p>
+  </div>
+  <h3>Safety</h3>
+  <ul class="activity-list">{d.safety.map((s) => <li>{s}</li>)}</ul>
+  <p class="pack-card__source">More versions and safety notes: {SITE.domain}{path}</p>
+</section>

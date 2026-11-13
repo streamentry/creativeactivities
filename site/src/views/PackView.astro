@@ -1,0 +1,65 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activities.css';
+import ActivityPrintCard from '../components/ActivityPrintCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Icon from '../components/Icon.astro';
+import { SITE } from '../lib/site';
+import { breadcrumbs } from '../lib/schema';
+import type { ActivityPack } from '../data/packs';
+
+interface Props {
+  pack: ActivityPack;
+}
+const { pack } = Astro.props;
+const path = `/activity/packs/${pack.id}/`;
+const crumbs = [
+  { href: '/activity/', label: 'Find an activity' },
+  { href: path, label: 'Printable pack' },
+];
+const cards = await getCollection('activityCards');
+const activities = pack.activities.map((slug) => {
+  const card = cards.find((a) => a.id === slug);
+  if (!card) throw new Error(`Pack ${pack.id} lists a missing activity: ${slug}`);
+  return card;
+});
+---
+<BaseLayout title={pack.seoTitle} description={pack.description} jsonLd={[breadcrumbs(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <div class="container pack">
+    <header class="page-head pack-cover">
+      <p class="eyebrow">Printable pack</p>
+      <h1>{pack.title}</h1>
+      <p class="lede">{pack.lede}</p>
+      <div class="btn-row no-print">
+        <button type="button" class="btn btn--primary" data-print><Icon name="print" />Print the pack</button>
+      </div>
+      <h2>In this pack</h2>
+      <ol class="activity-list">
+        {
+          activities.map((a) => (
+            <li>
+              <a href={`#card-${a.id}`}>{a.data.name}</a>
+            </li>
+          ))
+        }
+      </ol>
+      <p>
+        Each card lists the materials, one action per step, an easier version and when to stop. Every activity can stop
+        after the first step, and none of them has a right answer.
+      </p>
+      <p class="pack-cover__source">
+        {SITE.name} · {SITE.domain}{path} · Free to print and share for personal and noncommercial use.
+      </p>
+    </header>
+
+    {activities.map((a) => <ActivityPrintCard activity={a} />)}
+  </div>
+</BaseLayout>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.addEventListener('click', () => window.print());
+  }
+</script>
