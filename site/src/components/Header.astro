@@ -27,7 +27,7 @@ const path = splitLocale(Astro.url.pathname).path;
           NAV.map((item) => (
             <li>
               <a
-                href={localePath(lang, item.href)}
+                href={item.englishOnly ? item.href : localePath(lang, item.href)}
                 aria-current={path === item.href ? 'page' : undefined}
                 data-active={
                   item.href === '/' ? (path === '/' ? 'true' : undefined) : path.startsWith(item.href) ? 'true' : undefined

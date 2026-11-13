@@ -1,6 +1,6 @@
-# dementiaactivities.games
+# creativeactivities.org
 
-The Creative Activities website: free, gentle browser games and caregiver guides.
+The Creative Activities website: printable creative activities to do together, free gentle browser games and caregiver guides.
 Astro (static output) with React islands for the games, TanStack Store for game
 and settings state, served by Cloudflare Workers Static Assets.
 
@@ -29,6 +29,7 @@ pnpm preview             # serves dist/ with the real Workers runtime, headers a
 | Path | What it is |
 | --- | --- |
 | `src/pages/` | Routes: home, `games/`, `[section]/` guides and hubs, legal pages, `robots.txt`, `llms.txt`, `llms-full.txt`, manifest, `pictures/[id].svg` |
+| `src/content/activity-cards/*.md` | The English activity cards, served at `/activity/<slug>/` and filtered at `/activity/`. Logic and content checks in `src/lib/activities.ts` and its test |
 | `src/content/guides/<section>/*.md` | The 78 English guides. Frontmatter is validated by `src/content.config.ts` |
 | `src/games/` | One React island per game, plus `shared/` (frame, tiles, chips, settings store, sound) |
 | `src/lib/games/` | Pure game logic with unit tests (`games.test.ts`) |

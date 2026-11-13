@@ -1,4 +1,4 @@
-# Content guide: dementiaactivities.games
+# Content guide: creativeactivities.org
 
 This guide is for anyone writing pages for the website, human or agent. The
 repository rules in `../AGENTS.md` and the voice rules in `../DESIGN.md` still
@@ -128,6 +128,30 @@ Body rules:
 - Do not mention competitors' products by name, except factual, cited public
   records on a "how to choose" page.
 - No images in Markdown (pages get illustrations from the layout).
+
+## Activity cards
+
+Activity cards (`src/content/activity-cards/<slug>.md`, served at
+`/activity/<slug>/`) are the core of the library: one startable activity each,
+in the order `../DESIGN.md` › Required page templates B sets out. The schema
+in `src/content.config.ts` enforces the fields; these rules are editorial.
+
+- Fields describe the activity, never a diagnosis or a person. No health,
+  therapy, cognitive or "brain" claims; `src/lib/activities.test.ts` rejects
+  the common ones.
+- One action per step, 3–9 steps. Choices are invitations; any answer is the
+  right one. Never quiz ("do you remember...?"); invite a story instead.
+- Every card has an easier version, a calm `stopNote` and honest safety notes
+  (scissors, small parts that could be swallowed, toxic plants, allergens,
+  heat, water). Safety notes are practical suggestions, not medical advice.
+- Everyday, low-cost materials, with substitutions.
+- `author` is the editorial team or a named person. Leave `reviewer` unset
+  until a named person has actually reviewed the card; the page then says
+  "Not yet reviewed by an outside expert".
+- `guides` lists the guides that recommend the card. Those guides show it
+  under "Activities to start today", so the guides act as the search hubs and
+  no near-duplicate hub pages are needed.
+- Cards are English only until a translation has cultural and safety review.
 
 ## Game slugs you can link
 

@@ -44,10 +44,11 @@ async function languageSupport(totalGuides: number): Promise<LanguageSupport> {
 export const GET: APIRoute = async () => {
   const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
   const languages = languageSection(await languageSupport(guides.length));
+  const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
   const lines: string[] = [
     `# ${SITE.name} (${SITE.domain})`,
     '',
-    `> Free, gentle browser games, a free mobile app and practical activity guides for people living with dementia and their caregivers. No sign-up, no timers, no scores. Recreational and informational only: not medical advice, and no claims to diagnose, treat or prevent dementia.`,
+    `> Free creative activities to do together, with printable cards, plus gentle browser games, a free mobile app and practical guides, first for families with older adults, including people living with dementia. No sign-up, no timers, no scores. Recreational and informational only: not medical advice, and no claims to diagnose, treat or prevent dementia.`,
     '',
     'Key facts:',
     '- All games are free, run in a web browser and need no account.',
@@ -64,6 +65,10 @@ export const GET: APIRoute = async () => {
     `- Requirements: ${APP.requirements}.`,
     `- App Store: ${SITE.appStoreUrl}`,
     `- Google Play: ${SITE.playStoreUrl}`,
+    '',
+    '## Activity cards (English)',
+    `- [Find an activity](${SITE.url}/activity/): filter by time, materials, type, setting and who is taking part.`,
+    ...activities.map((a) => `- [${a.data.name}](${SITE.url}/activity/${a.id}/): ${a.data.description}`),
     '',
     '## Games',
     ...GAMES.map((g) => `- [${g.name}](${SITE.url}/games/${g.slug}/): ${g.description}`),

@@ -137,3 +137,35 @@ export function game(input: GameInput): Node {
     publisher: ORG_REF,
   };
 }
+
+export interface HowToInput {
+  path: string;
+  name: string;
+  description: string;
+  updated: Date;
+  published: Date;
+  totalMinutes: number;
+  supplies: readonly string[];
+  steps: readonly string[];
+}
+
+/** A startable activity: its supplies and steps exactly as the page shows them. */
+export function howTo(input: HowToInput): Node {
+  return {
+    '@type': 'HowTo',
+    '@id': `${absoluteUrl(input.path)}#activity`,
+    name: input.name,
+    description: input.description,
+    url: absoluteUrl(input.path),
+    totalTime: `PT${input.totalMinutes}M`,
+    dateModified: input.updated.toISOString().slice(0, 10),
+    datePublished: input.published.toISOString().slice(0, 10),
+    inLanguage: 'en-US',
+    isAccessibleForFree: true,
+    author: ORG_REF,
+    publisher: ORG_REF,
+    isPartOf: { '@id': SITE_ID },
+    supply: input.supplies.map((name) => ({ '@type': 'HowToSupply', name })),
+    step: input.steps.map((text, i) => ({ '@type': 'HowToStep', position: i + 1, text })),
+  };
+}

@@ -1,0 +1,338 @@
+/* Activity cards and the finder (DESIGN.md › Required page templates B).
+   Loaded only by the activity views. Tokens only; no new colors. */
+
+/* ---------- Activity page ---------- */
+.activity-head {
+  padding-block: var(--space-md) var(--space-xl);
+  max-width: var(--content-max);
+}
+.activity-head h1 {
+  margin-bottom: var(--space-sm);
+}
+.activity-head__summary {
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--gm-on-surface-variant);
+  margin-bottom: var(--space-md);
+}
+/* The one-glance line: bold facts separated by dots, wrapping cleanly. */
+.activity-glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs) 0;
+  font-weight: 700;
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-sm);
+}
+.activity-glance span:not(:last-child)::after {
+  content: '·';
+  padding-inline: var(--space-sm);
+  color: var(--gm-on-surface-variant);
+}
+.activity-materials {
+  margin-bottom: var(--space-lg);
+}
+
+.activity-layout {
+  display: grid;
+  gap: var(--space-2xl);
+}
+.activity-layout > * {
+  min-width: 0;
+}
+@media (min-width: 1040px) {
+  .activity-layout {
+    grid-template-columns: minmax(0, var(--content-max)) minmax(260px, 1fr);
+    align-items: start;
+  }
+  .activity-aside {
+    position: sticky;
+    top: var(--space-lg);
+  }
+}
+.activity-main section {
+  margin-bottom: var(--space-2xl);
+}
+.activity-main h2 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.activity-main h2:focus {
+  outline: none;
+}
+.activity-main h2:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 4px;
+}
+.activity-list {
+  padding-left: 1.25em;
+}
+.activity-list li + li {
+  margin-top: var(--space-sm);
+}
+
+/* Numbered steps: one action each, with a large number to keep your place. */
+.activity-steps {
+  list-style: none;
+  counter-reset: step;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-md);
+}
+.activity-steps li {
+  counter-increment: step;
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: var(--space-md);
+  align-items: start;
+  padding: var(--space-md);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-md);
+}
+.activity-steps li::before {
+  content: counter(step);
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-full);
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  font-weight: 700;
+}
+
+/* The calm exit is a note, not a warning: sage fill, ink text, a border. */
+.activity-stop {
+  padding: var(--space-lg);
+  background: var(--gm-surface-sunken);
+  border-left: 6px solid var(--gm-primary);
+  border-radius: var(--radius-md);
+}
+.activity-stop p {
+  margin: 0;
+}
+
+.activity-variations {
+  display: grid;
+  gap: var(--space-md);
+  margin: 0;
+}
+.activity-variations div {
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+.activity-variations dt {
+  font-weight: 700;
+  margin-bottom: var(--space-xs);
+}
+.activity-variations dd {
+  margin: 0;
+}
+
+.activity-safety {
+  padding: var(--space-lg);
+  border: 1px solid var(--gm-secondary-outline);
+  background: var(--gm-secondary-container);
+  border-radius: var(--radius-md);
+}
+
+.activity-facts {
+  display: grid;
+  gap: var(--space-sm);
+  margin: 0;
+}
+.activity-facts div {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: var(--space-sm);
+}
+.activity-facts dt {
+  font-weight: 700;
+}
+.activity-facts dd {
+  margin: 0;
+}
+
+.activity-byline {
+  border-top: 1px solid var(--gm-surface-sunken);
+  padding-block: var(--space-lg) var(--space-2xl);
+  color: var(--gm-on-surface-variant);
+}
+
+/* ---------- Activity cards (finder, related, guides, home) ---------- */
+.activity-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.activity-grid > li[hidden] {
+  display: none;
+}
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  height: 100%;
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-top: 6px solid var(--gm-accent);
+  border-radius: var(--radius-lg);
+  color: var(--gm-on-surface);
+  text-decoration: none;
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) ease;
+}
+.activity-card:hover,
+.activity-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-raised);
+}
+.activity-card__type {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+}
+.activity-card__name {
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+  line-height: var(--leading-heading);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.activity-card__glance {
+  font-weight: 700;
+}
+.activity-card__easier {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--gm-surface-sunken);
+  font-size: var(--text-sm);
+}
+@media (prefers-reduced-motion: reduce) {
+  .activity-card {
+    transition: none;
+  }
+  .activity-card:hover,
+  .activity-card:focus-visible {
+    transform: none;
+  }
+}
+
+/* ---------- Finder ---------- */
+.finder {
+  display: grid;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+.finder fieldset {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.finder legend {
+  font-weight: 700;
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-sm);
+}
+.finder .choice {
+  position: relative;
+}
+.finder .choice input {
+  position: absolute;
+  opacity: 0;
+  inset: 0;
+  margin: 0;
+  cursor: pointer;
+}
+.finder .choice span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--target-min);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-full);
+  background: var(--gm-surface);
+  font-weight: 700;
+}
+/* Selected: sun fill, ink border and a check mark, never color alone. */
+.finder .choice input:checked + span {
+  background: var(--gm-primary-container);
+  border-color: var(--gm-primary);
+}
+.finder .choice input:checked + span::before {
+  content: '✓';
+}
+.finder .choice input:focus-visible + span {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 2px;
+}
+.finder__more summary {
+  min-height: var(--target-min);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.finder__more fieldset {
+  margin-top: var(--space-md);
+}
+.finder__count {
+  font-weight: 700;
+}
+
+/* ---------- Print: one Activity Card ---------- */
+@media print {
+  .activity-layout {
+    display: block !important;
+  }
+  .activity-aside,
+  .activity-about,
+  .activity-next {
+    display: none !important;
+  }
+  .activity-head {
+    padding: 0 0 4mm;
+  }
+  .activity-main section {
+    margin-bottom: 5mm;
+    break-inside: avoid;
+  }
+  .activity-steps {
+    gap: 2mm;
+  }
+  .activity-steps li {
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+  .activity-steps li::before {
+    background: none;
+    border: 1.5pt solid #000;
+  }
+  .activity-stop,
+  .activity-safety,
+  .activity-variations div {
+    background: none !important;
+    border: 1pt solid #000 !important;
+    padding: 3mm;
+  }
+  .activity-byline {
+    font-size: 10pt;
+    padding: 0;
+  }
+}

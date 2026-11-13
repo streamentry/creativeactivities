@@ -1,0 +1,195 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activities.css';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbs } from '../lib/schema';
+import {
+  GROUP_LABELS,
+  MATERIAL_CHOICES,
+  SETTING_LABELS,
+  TIME_CHOICES,
+  TYPE_LABELS,
+  VARIATION_LABELS,
+  glance,
+} from '../lib/activities';
+
+const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const crumbs = [{ href: '/activity/', label: 'Find an activity' }];
+const title = 'Find an Activity to Do Together';
+const description =
+  'Free creative activities to start together today: crafts, painting, plants, music and stories, with setup time, materials, easier versions and a printable card.';
+const types = Object.entries(TYPE_LABELS);
+const settings = (['seated', 'bedside', 'outdoors'] as const).map((s) => [s, SETTING_LABELS[s]] as const);
+const groups = Object.entries(GROUP_LABELS);
+const easier = (kinds: { kind: string; text: string }[]) =>
+  kinds.find((v) => v.kind === 'easier') ?? kinds.find((v) => v.kind === 'bedside') ?? kinds[0];
+---
+<BaseLayout title={title} description={description} jsonLd={[breadcrumbs(crumbs)]}>
+  <Breadcrumbs items={crumbs} />
+  <div class="container">
+    <header class="page-head">
+      <p class="eyebrow">Find an activity</p>
+      <h1>What would you like to do together?</h1>
+      <p class="lede">
+        Every activity here can start with everyday things, needs no account and comes with an easier version and a
+        one-page card to print. Choose as much or as little as you like below. “Any” is always fine.
+      </p>
+    </header>
+
+    <form class="finder" id="finder" aria-label="Find an activity">
+      <fieldset>
+        <legend>How much time do you have?</legend>
+        {
+          TIME_CHOICES.map((c) => (
+            <label class="choice">
+              <input type="radio" name="time" value={c.value} checked={c.value === 'any'} />
+              <span>{c.label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+      <fieldset>
+        <legend>What do you have to hand?</legend>
+        {
+          MATERIAL_CHOICES.map((c) => (
+            <label class="choice">
+              <input type="radio" name="materials" value={c.value} checked={c.value === 'any'} />
+              <span>{c.label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+      <fieldset>
+        <legend>What kind of activity?</legend>
+        <label class="choice">
+          <input type="radio" name="type" value="any" checked />
+          <span>Any</span>
+        </label>
+        {
+          types.map(([value, label]) => (
+            <label class="choice">
+              <input type="radio" name="type" value={value} />
+              <span>{label}</span>
+            </label>
+          ))
+        }
+      </fieldset>
+      <details class="finder__more">
+        <summary>More ways to fit the moment (optional)</summary>
+        <fieldset>
+          <legend>Where will you be?</legend>
+          <label class="choice">
+            <input type="radio" name="setting" value="any" checked />
+            <span>Anywhere</span>
+          </label>
+          {
+            settings.map(([value, label]) => (
+              <label class="choice">
+                <input type="radio" name="setting" value={value} />
+                <span>{label.charAt(0).toUpperCase() + label.slice(1)}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <fieldset>
+          <legend>Who is taking part?</legend>
+          <label class="choice">
+            <input type="radio" name="group" value="any" checked />
+            <span>Any</span>
+          </label>
+          {
+            groups.map(([value, label]) => (
+              <label class="choice">
+                <input type="radio" name="group" value={value} />
+                <span>{label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <p class="muted">We never ask about a diagnosis. Fit the activity to the moment, not to a label.</p>
+      </details>
+    </form>
+
+    <p class="finder__count" id="finder-count" role="status" aria-live="polite">
+      Showing all {activities.length} activities.
+    </p>
+
+    <ul class="activity-grid" id="finder-results">
+      {
+        activities.map((a) => {
+          const alt = easier(a.data.variations);
+          return (
+            <li
+              data-type={a.data.type}
+              data-cost={a.data.cost}
+              data-min={a.data.activityMinutes[0]}
+              data-settings={a.data.settings.join(' ')}
+              data-groups={a.data.groups.join(' ')}
+            >
+              <a class="activity-card" href={`/activity/${a.id}/`}>
+                <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
+                <span class="activity-card__name">{a.data.name}</span>
+                <span class="activity-card__summary">{a.data.summary}</span>
+                <span class="activity-card__glance">{glance(a.data).join(' · ')}</span>
+                <span class="activity-card__easier">
+                  <strong>{VARIATION_LABELS[alt.kind]}:</strong> {alt.text}
+                </span>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <p class="finder__empty" id="finder-empty" hidden>
+      Nothing fits all of those choices yet. Try “Any” for one of them, or <a href="/activities/ideas/">browse more
+      activity ideas</a>.
+    </p>
+  </div>
+</BaseLayout>
+
+<script>
+  import { matches, type ActivityFacts, type FinderChoice } from '../lib/activities';
+
+  const form = document.getElementById('finder') as HTMLFormElement | null;
+  const items = [...document.querySelectorAll<HTMLLIElement>('#finder-results > li')];
+  const count = document.getElementById('finder-count');
+  const empty = document.getElementById('finder-empty');
+
+  function facts(li: HTMLLIElement): ActivityFacts {
+    const d = li.dataset;
+    return {
+      type: d.type as ActivityFacts['type'],
+      cost: d.cost as ActivityFacts['cost'],
+      activityMinutes: [Number(d.min), Number(d.min)],
+      settings: (d.settings ?? '').split(' ') as ActivityFacts['settings'],
+      groups: (d.groups ?? '').split(' ') as ActivityFacts['groups'],
+      prepMinutes: 0,
+      mess: 'low',
+      energy: 'low',
+      supervision: 'nearby',
+    };
+  }
+
+  function update(): void {
+    if (!form) return;
+    const data = new FormData(form);
+    const choice: FinderChoice = Object.fromEntries(
+      ['time', 'materials', 'type', 'setting', 'group'].map((k) => [k, String(data.get(k) ?? 'any')]),
+    );
+    let shown = 0;
+    for (const li of items) {
+      const fits = matches(facts(li), choice);
+      li.hidden = !fits;
+      if (fits) shown += 1;
+    }
+    if (count) {
+      count.textContent =
+        shown === items.length ? `Showing all ${items.length} activities.` : `Showing ${shown} of ${items.length} activities.`;
+    }
+    if (empty) empty.hidden = shown > 0;
+  }
+
+  form?.addEventListener('change', update);
+  form?.addEventListener('submit', (event) => event.preventDefault());
+</script>

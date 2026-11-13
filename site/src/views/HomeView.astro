@@ -1,5 +1,8 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activities.css';
+import { TYPE_LABELS, glance } from '../lib/activities';
 import GameCard from '../components/GameCard.astro';
 import GuideCard from '../components/GuideCard.astro';
 import Faq from '../components/Faq.astro';
@@ -25,6 +28,20 @@ const games = localizedGames(lang);
 const featured = games.filter((g) => g.featured).slice(0, 6);
 const jsonLd = [website(PUBLISHED.filter((p) => isIndexable(p.code)).map((p) => p.bcp47)), organization(), faqPage(h.faq)];
 const collage = ['teacup', 'sunflower', 'dog', 'sailboat'];
+// Activity cards are English-first; translated home pages keep their games-first hero.
+const FEATURED_ACTIVITIES = [
+  'make-a-memory-collage',
+  'arrange-flowers-together',
+  'paint-with-watercolors',
+  'make-a-personal-songbook',
+  'wind-a-ball-of-yarn',
+  'make-a-family-tree-of-hands',
+];
+const activityCards = lang === 'en'
+  ? (await getCollection('activityCards'))
+      .filter((a) => FEATURED_ACTIVITIES.includes(a.id))
+      .sort((a, b) => FEATURED_ACTIVITIES.indexOf(a.id) - FEATURED_ACTIVITIES.indexOf(b.id))
+  : [];
 ---
 <BaseLayout title={h.title} rawTitle description={h.description} jsonLd={jsonLd} available={PUBLISHED.map((p) => p.code)}>
   <section class="hero" aria-labelledby="hero-title">
@@ -34,8 +51,19 @@ const collage = ['teacup', 'sunflower', 'dog', 'sailboat'];
         <h1 id="hero-title">{h.h1}</h1>
         <p class="lede">{h.lede}</p>
         <div class="btn-row">
-          <a class="btn btn--primary btn--hero" href={l('/games/picture-pairs/')}><Icon name="play" />{h.playGame}</a>
-          <a class="btn btn--hero" href={l('/activities/ideas/')}>{h.findIdeas}</a>
+          {
+            lang === 'en' ? (
+              <>
+                <a class="btn btn--primary btn--hero" href="/activity/">Help me choose</a>
+                <a class="btn btn--hero" href="/activities/">I know what I need</a>
+              </>
+            ) : (
+              <>
+                <a class="btn btn--primary btn--hero" href={l('/games/picture-pairs/')}><Icon name="play" />{h.playGame}</a>
+                <a class="btn btn--hero" href={l('/activities/ideas/')}>{h.findIdeas}</a>
+              </>
+            )
+          }
         </div>
         <ul class="hero__facts">
           {h.facts.map((fact) => <li><Icon name="check" />{fact}</li>)}
@@ -54,6 +82,35 @@ const collage = ['teacup', 'sunflower', 'dog', 'sailboat'];
       </div>
     </div>
   </section>
+
+  {
+    activityCards.length > 0 && (
+      <section class="section" aria-labelledby="start-title">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Away from the screen</p>
+              <h2 id="start-title">Start with an activity card</h2>
+              <p class="lede">Everyday materials, one action per step, an easier version and a page to print.</p>
+            </div>
+            <a class="btn" href="/activity/">See all activities <Icon name="arrow" /></a>
+          </div>
+          <ul class="activity-grid">
+            {activityCards.map((a) => (
+              <li>
+                <a class="activity-card" href={`/activity/${a.id}/`}>
+                  <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
+                  <span class="activity-card__name">{a.data.name}</span>
+                  <span class="activity-card__summary">{a.data.summary}</span>
+                  <span class="activity-card__glance">{glance(a.data).slice(0, 3).join(' · ')}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
 
   <section class="section" aria-labelledby="games-title">
     <div class="container">

@@ -4,9 +4,9 @@ export const SITE = {
   domain: 'creativeactivities.org',
   name: 'Creative Activities',
   titleSuffix: ' | Creative Activities',
-  homeTitle: "Dementia & Alzheimer's Games and Activities | Creative Activities",
+  homeTitle: 'Dementia Activities to Do Together | Creative Activities',
   description:
-    "Free, gentle picture games to play online and activity ideas for people living with dementia or Alzheimer's and their caregivers. No sign-up, timers or scores.",
+    'Free creative activities and gentle picture games for older adults and people living with dementia. Start in a minute, adapt as you go, print a card.',
   locale: 'en_US',
   /** Live US listing, read back from App Store Connect on 2026-10-21. */
   appStoreUrl: 'https://apps.apple.com/us/app/dementia-games-golden-moments/id6749312459',
@@ -22,12 +22,16 @@ export const SITE = {
 export interface NavItem {
   href: string;
   /** Key in the `common.nav` dictionary. */
-  key: 'home' | 'games' | 'activities' | 'caregiving' | 'brainHealth';
+  /** English-only pages keep their English path in every language. */
+  englishOnly?: boolean;
+  key: 'home' | 'find' | 'games' | 'activities' | 'caregiving' | 'brainHealth';
 }
 
 export const NAV: readonly NavItem[] = [
   // A word, not only the logo, leads home (Alzheimer's Society checklist 2.3).
   { href: '/', key: 'home' },
+  // The primary path (DESIGN.md › Information architecture).
+  { href: '/activity/', key: 'find', englishOnly: true },
   { href: '/games/', key: 'games' },
   { href: '/activities/', key: 'activities' },
   { href: '/caregiving/', key: 'caregiving' },

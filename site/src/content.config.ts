@@ -73,4 +73,71 @@ const guidesI18n = defineCollection({
   }),
 });
 
-export const collections = { guides, guidesI18n };
+/** The finder's three first questions (DESIGN.md › Finder filters). */
+export const ACTIVITY_TYPES = ['art', 'craft', 'nature', 'music', 'sensory', 'conversation'] as const;
+export const ACTIVITY_SETTINGS = ['tabletop', 'seated', 'bedside', 'standing', 'outdoors'] as const;
+export const ACTIVITY_GROUPS = ['one-to-one', 'small-group', 'intergenerational'] as const;
+export const VARIATION_KINDS = [
+  'easier',
+  'less-sensory',
+  'seated',
+  'bedside',
+  'more-collaborative',
+  'for-a-group',
+  'with-children',
+  'low-vision',
+  'nonverbal',
+] as const;
+
+/**
+ * One startable activity (DESIGN.md › Content design and data model). The
+ * fields describe the activity, never the person doing it.
+ */
+const activityCards = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/activity-cards' }),
+  schema: z
+    .object({
+      name: z.string().max(60),
+      seoTitle: z.string().max(60).optional(),
+      description: z.string().min(110).max(165),
+      /** One plain sentence: what you make or do together. */
+      summary: z.string().min(30).max(140),
+      type: z.enum(ACTIVITY_TYPES),
+      prepMinutes: z.number().int().min(0).max(60),
+      activityMinutes: z.tuple([z.number().int().min(5), z.number().int().max(90)]),
+      cost: z.enum(['free', 'low', 'some']),
+      mess: z.enum(['none', 'low', 'medium']),
+      energy: z.enum(['low', 'medium']),
+      supervision: z.enum(['nearby', 'hands-on']),
+      settings: z.array(z.enum(ACTIVITY_SETTINGS)).min(1),
+      groups: z.array(z.enum(ACTIVITY_GROUPS)).min(1),
+      /** What you need, in everyday words. */
+      materials: z.array(z.string()).min(1).max(10),
+      /** Swaps for anything that is not to hand. */
+      substitutions: z.array(z.string()).default([]),
+      senses: z.array(z.enum(['sight', 'touch', 'smell', 'hearing', 'movement'])).min(1),
+      /** One action per step (DESIGN.md › Accessibility). */
+      steps: z.array(z.string().max(220)).min(3).max(9),
+      variations: z
+        .array(z.object({ kind: z.enum(VARIATION_KINDS), text: z.string().max(260) }))
+        .min(2)
+        .max(6),
+      safety: z.array(z.string().max(220)).min(1).max(6),
+      /** The calm exit: what to do when it is not working. */
+      stopNote: z.string().max(260),
+      /** Guide pages (`section/slug`) that recommend this activity. */
+      guides: z.array(z.string()).default([]),
+      related: z.array(z.string()).max(4).default([]),
+      published: z.coerce.date(),
+      updated: z.coerce.date(),
+      author: z.string(),
+      /** Null until a named person has actually reviewed it. */
+      reviewer: z.string().nullable().default(null),
+      sources: z
+        .array(z.object({ title: z.string(), publisher: z.string(), url: z.string().url() }))
+        .default([]),
+    })
+    .refine((d) => d.activityMinutes[0] <= d.activityMinutes[1], 'activityMinutes must be [min, max]'),
+});
+
+export const collections = { guides, guidesI18n, activityCards };

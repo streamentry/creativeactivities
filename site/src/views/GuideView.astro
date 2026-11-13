@@ -1,5 +1,5 @@
 ---
-import { render } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
@@ -8,6 +8,8 @@ import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
 import { GAME_BY_SLUG } from '../data/games';
 import { pictureUrl } from '../data/pictures';
+import { TYPE_LABELS, glance } from '../lib/activities';
+import '../styles/activities.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
 import { localeInfo, localePath } from '../i18n/locales';
 import { localizeGame } from '../i18n/games';
@@ -50,6 +52,11 @@ const related = (
     }),
   )
 ).filter((r): r is { href: string; title: string } => r !== null);
+
+// Activity cards that name this guide make it their hub (English pages only).
+const activityCards = (await getCollection('activityCards'))
+  .filter((a) => a.data.guides.includes(id))
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
 const ogImage = `/og/${d.section}.png`;
 const jsonLd = [
@@ -108,6 +115,25 @@ const available = await guideLanguages(id);
           )
         }
         <Content />
+        {
+          activityCards.length > 0 && (
+            <section class="guide-activities" aria-labelledby="activity-cards">
+              <h2 id="activity-cards">Activities to start today{lang !== 'en' && ` ${t.common.englishOnly}`}</h2>
+              <p>Each one has a materials list, simple steps, easier versions and a card to print.</p>
+              <ul class="activity-grid">
+                {activityCards.map((a) => (
+                  <li>
+                    <a class="activity-card" href={`/activity/${a.id}/`} hreflang="en">
+                      <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
+                      <span class="activity-card__name">{a.data.name}</span>
+                      <span class="activity-card__glance">{glance(a.data).slice(0, 3).join(' · ')}</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
         <Faq items={d.faq} title={g.commonQuestions} lang={lang} />
         <section class="sources" aria-labelledby="sources">
           <h2 id="sources">{g.sources}</h2>
