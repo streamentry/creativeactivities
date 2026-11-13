@@ -49,7 +49,7 @@ safety:
   - "Keep pens and crayons away from the mouth if the person may chew or taste things."
   - "Some music brings up strong feelings. If they seem upset, pause, offer comfort, and switch to something calm."
 stopNote: "It is fine to stop after a few marks or a single song. Keep listening together without drawing, or put the music on for a quiet moment instead."
-guides: [activities/music, activities/arts-and-crafts, activities/late-stage]
+guides: [activities/music, activities/arts-and-crafts, activities/late-stage, activities/drawing-and-painting-to-relax]
 related: [make-a-personal-songbook, paint-with-watercolors, tear-paper-mosaic]
 published: 2026-11-13
 updated: 2026-11-13

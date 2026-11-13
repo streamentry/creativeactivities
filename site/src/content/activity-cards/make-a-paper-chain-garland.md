@@ -47,7 +47,7 @@ safety:
   - "Hang the finished garland well away from candles, heaters and lamps."
   - "Hang it high enough that it will not catch on walkers, wheelchairs or feet, and use a steady step stool, not a chair."
 stopNote: "It is fine to stop after a few links. A short chain still looks cheerful on a doorknob, and you can add to it any time; it never needs to be finished."
-guides: [activities/holidays, activities/arts-and-crafts, activities/care-home-groups]
+guides: [activities/holidays, activities/arts-and-crafts, activities/care-home-groups, activities/group-art-activities]
 related: [make-a-greeting-card, fold-a-paper-boat, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-13

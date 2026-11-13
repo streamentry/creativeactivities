@@ -49,7 +49,7 @@ safety:
   - "Outdoors, sit in the shade, offer water and a hat, and keep sessions short on hot or cold days."
   - "If you use varnish, the helper applies it in a ventilated space with no one else nearby."
 stopNote: "It is fine to stop after one color. A plain painted stone looks good in a garden, and you can add a pattern another day or leave it exactly as it is."
-guides: [activities/outdoor-and-gardening, activities/arts-and-crafts]
+guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/drawing-and-painting-to-relax]
 related: [decorate-a-plant-pot, plant-seeds-in-a-pot, paint-with-watercolors]
 published: 2026-11-13
 updated: 2026-11-13

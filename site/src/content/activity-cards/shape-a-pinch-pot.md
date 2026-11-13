@@ -46,7 +46,7 @@ safety:
   - "Keep the finished pot away from the mouth until it is fully dry, and check the rim for sharp edges."
   - "Wipe up dried clay with a damp cloth rather than sweeping, so no dust is breathed in."
 stopNote: "It is fine to stop once the clay feels tiring. Wrap it in a damp cloth inside a plastic bag and carry on another day; stopping early is fine."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/art-supplies-for-older-adults]
 related: [decorate-a-plant-pot, tear-paper-mosaic, paint-a-garden-stone]
 published: 2026-11-13
 updated: 2026-11-13

@@ -50,7 +50,7 @@ safety:
   - "Keep scissors and pruners with the helper, and wipe up spilled water so nobody slips."
   - "Supervise closely if petals or leaves might be put in the mouth."
 stopNote: "It is fine to stop after one or two stems. A single flower in a jar is a finished arrangement. Put it somewhere it can be seen and enjoyed."
-guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage]
+guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage, activities/group-art-activities]
 related: [press-leaves-and-flowers, plant-seeds-in-a-pot, decorate-a-plant-pot]
 published: 2026-11-13
 updated: 2026-11-13

@@ -44,7 +44,7 @@ safety:
   - "Use a glue stick, which is less messy than liquid glue, and check for skin sensitivity first."
   - "Check the address before sealing the envelope. Never write bank details or passwords on a card."
 stopNote: "It is fine to stop after choosing the photo. Keep the copy somewhere handy and carry on another day, or simply look at it together."
-guides: [activities/reminiscence, activities/arts-and-crafts, activities/phone-and-video-calls]
+guides: [activities/reminiscence, activities/arts-and-crafts, activities/phone-and-video-calls, activities/pen-pals-for-older-adults]
 related: [write-a-letter-together, make-a-greeting-card, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-13

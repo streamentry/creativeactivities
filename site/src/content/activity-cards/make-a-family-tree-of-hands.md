@@ -48,7 +48,7 @@ safety:
   - "Family trees can bring up people who have died, separation or estrangement. Include anyone they want and let them lead."
   - "Keep markers away from skin; washable markers come off with soap and water."
 stopNote: "It is fine to stop after one hand. Add more names whenever family visits, or keep the tree as it is. Every version is complete."
-guides: [activities/arts-and-crafts, activities/visiting, activities/holidays]
+guides: [activities/arts-and-crafts, activities/visiting, activities/holidays, activities/group-art-activities]
 related: [make-a-memory-collage, start-a-family-recipe-book, make-a-greeting-card]
 published: 2026-11-13
 updated: 2026-11-13
