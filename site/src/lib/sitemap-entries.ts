@@ -1,3 +1,4 @@
+import { getCollection } from 'astro:content';
 import { SECTIONS } from '../content.config';
 import { GAMES } from '../data/games';
 import { gameLanguages } from '../i18n/games';
@@ -26,9 +27,16 @@ const GAMES_LOCALIZED = Object.keys(import.meta.glob('../pages/\\[lang\\]/games/
 /** Every page on the site with the languages it exists in, sorted by path. */
 export async function sitemapEntries(): Promise<SitemapEntry[]> {
   const guides = await allGuides();
+  // Activity cards are English-first until a translation has cultural and safety review.
+  const activities = await getCollection('activityCards');
   const entries: SitemapEntry[] = [
     ...STATIC_PAGES.map((path) => ({ path, lastmod: SITE.updated, langs: LOCALIZED.has(path) ? EVERY : ['en'] })),
     ...GAMES.map((g) => ({ path: `/games/${g.slug}/`, lastmod: SITE.updated, langs: GAMES_LOCALIZED ? gameLanguages(g.slug) : ['en'] })),
+    ...activities.map((a) => ({
+      path: `/activity/${a.id}/`,
+      lastmod: a.data.updated.toISOString().slice(0, 10),
+      langs: ['en'],
+    })),
     ...SECTIONS.map((s) => ({ path: `/${s}/`, lastmod: SITE.updated, langs: EVERY })),
     ...guides
       .filter((g) => g.lang === 'en')

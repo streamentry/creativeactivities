@@ -1,0 +1,15 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ActivityView from '../../views/ActivityView.astro';
+
+export const getStaticPaths = (async () => {
+  const activities = await getCollection('activityCards');
+  return activities.map((activity) => ({ params: { slug: activity.id }, props: { activity } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+}
+---
+<ActivityView activity={Astro.props.activity} />

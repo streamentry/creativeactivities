@@ -1,0 +1,198 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activities.css';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Icon from '../components/Icon.astro';
+import { SITE } from '../lib/site';
+import { breadcrumbs, howTo } from '../lib/schema';
+import { TYPE_LABELS, VARIATION_LABELS, factList, glance } from '../lib/activities';
+import { findGuide } from '../i18n/guides';
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+}
+const { activity } = Astro.props;
+const d = activity.data;
+const { Content } = await render(activity);
+const path = `/activity/${activity.id}/`;
+const crumbs = [
+  { href: '/activity/', label: 'Find an activity' },
+  { href: path, label: d.name },
+];
+const dateText = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+
+const all = await getCollection('activityCards');
+const related = d.related
+  .map((slug) => all.find((a) => a.id === slug))
+  .filter((a) => a !== undefined);
+const guides = (
+  await Promise.all(
+    d.guides.map(async (ref) => {
+      const guide = await findGuide('en', ref);
+      return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
+    }),
+  )
+).filter((g) => g !== null);
+
+const jsonLd = [
+  howTo({
+    path,
+    name: d.name,
+    description: d.description,
+    updated: d.updated,
+    published: d.published,
+    totalMinutes: d.prepMinutes + d.activityMinutes[1],
+    supplies: d.materials,
+    steps: d.steps,
+  }),
+  breadcrumbs(crumbs),
+];
+---
+<BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" jsonLd={jsonLd}>
+  <Breadcrumbs items={crumbs} />
+  <div class="container activity">
+    <header class="activity-head">
+      <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
+      <h1>{d.name}</h1>
+      <p class="activity-head__summary">{d.summary}</p>
+      <p class="activity-glance">
+        {glance(d).map((fact) => <span>{fact}</span>)}
+      </p>
+      <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
+      <div class="btn-row no-print">
+        <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
+        <button type="button" class="btn" data-print><Icon name="print" />Print one-page card</button>
+      </div>
+    </header>
+
+    <div class="activity-layout">
+      <div class="activity-main">
+        <section aria-labelledby="need">
+          <h2 id="need">What you need</h2>
+          <ul class="activity-list">
+            {d.materials.map((m) => <li>{m}</li>)}
+          </ul>
+          {
+            d.substitutions.length > 0 && (
+              <>
+                <h3>No need to buy anything special</h3>
+                <ul class="activity-list">
+                  {d.substitutions.map((s) => <li>{s}</li>)}
+                </ul>
+              </>
+            )
+          }
+        </section>
+
+        <section aria-labelledby="steps">
+          <h2 id="steps" tabindex="-1">What to do</h2>
+          <ol class="activity-steps">
+            {d.steps.map((step) => <li>{step}</li>)}
+          </ol>
+        </section>
+
+        <section class="activity-stop" aria-labelledby="stop">
+          <h2 id="stop">It is okay to stop or change it</h2>
+          <p>{d.stopNote}</p>
+        </section>
+
+        <section aria-labelledby="adapt">
+          <h2 id="adapt">Make it easier or different</h2>
+          <dl class="activity-variations">
+            {
+              d.variations.map((v) => (
+                <div>
+                  <dt>{VARIATION_LABELS[v.kind]}</dt>
+                  <dd>{v.text}</dd>
+                </div>
+              ))
+            }
+          </dl>
+        </section>
+
+        <section class="activity-safety" aria-labelledby="safety">
+          <h2 id="safety"><Icon name="shield" />Safety</h2>
+          <ul class="activity-list">
+            {d.safety.map((s) => <li>{s}</li>)}
+          </ul>
+          <p class="muted">These are practical suggestions, not medical advice. You know the person best.</p>
+        </section>
+
+        <section class="prose activity-about" aria-label="About this activity">
+          <Content />
+        </section>
+      </div>
+
+      <aside class="activity-aside" aria-label="At a glance">
+        <div class="aside-box">
+          <h2>At a glance</h2>
+          <dl class="activity-facts">
+            {
+              factList(d).map((f) => (
+                <div>
+                  <dt>{f.label}</dt>
+                  <dd>{f.value}</dd>
+                </div>
+              ))
+            }
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    {
+      related.length > 0 && (
+        <section class="section activity-next no-print" aria-labelledby="next">
+          <h2 id="next">What to try next</h2>
+          <ul class="activity-grid">
+            {related.map((a) => (
+              <li>
+                <a class="activity-card" href={`/activity/${a.id}/`}>
+                  <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
+                  <span class="activity-card__name">{a.data.name}</span>
+                  <span class="activity-card__glance">{glance(a.data).slice(0, 3).join(' · ')}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <footer class="activity-byline">
+      <p>
+        By {d.author}.
+        {d.reviewer ? <>Reviewed by {d.reviewer}.</> : <>Not yet reviewed by an outside expert.</>}
+        Published <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated
+        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.
+        <a href="/editorial-policy/">How we write</a> · <a href="/support/">Report a mistake</a>
+      </p>
+      {
+        guides.length > 0 && (
+          <p class="no-print">
+            Recommended in:{' '}
+            {guides.map((g, i) => (
+              <>
+                {i > 0 && ', '}
+                <a href={g.href}>{g.title}</a>
+              </>
+            ))}
+          </p>
+        )
+      }
+      <p class="print-only">{SITE.domain}{path} · Free to print and share for personal and noncommercial use.</p>
+    </footer>
+  </div>
+</BaseLayout>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.addEventListener('click', () => window.print());
+  }
+  // "Start activity" moves focus to the steps, not only the scroll position.
+  document.querySelector('a[href="#steps"]')?.addEventListener('click', () => {
+    requestAnimationFrame(() => document.getElementById('steps')?.focus());
+  });
+</script>
