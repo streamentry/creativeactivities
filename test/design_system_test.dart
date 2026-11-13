@@ -67,6 +67,7 @@ void main() {
         'canvas': gmCanvas,
         'paper': gmPaper,
         'sage': gmSage,
+        'primary': gmInk,
         'teal': gmTeal,
         'teal-pale': gmTealPale,
         'teal-outline': gmTealOutline,
