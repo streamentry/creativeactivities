@@ -1,9 +1,9 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/today/data/today_notes.dart';
+import 'package:creative_activities/features/today/presentation/today_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/today/data/today_notes.dart';
-import 'package:golden_moments/features/today/presentation/today_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class _Shared {

@@ -1,5 +1,5 @@
+import 'package:creative_activities/features/home/presentation/screens/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/features/home/presentation/screens/home_page.dart';
 
 /// The bundled catalog is immediately playable; no download manager is needed.
 class MainNavigation extends StatelessWidget {

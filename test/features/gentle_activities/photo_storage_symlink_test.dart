@@ -7,10 +7,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:creative_activities/features/gentle_activities/data/family_photo_store.dart';
+import 'package:creative_activities/features/gentle_activities/data/photo_annotations.dart';
 import 'package:crypto/crypto.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/data/family_photo_store.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_annotations.dart';
 
 /// Real temporary folders and real symbolic links (GM-027): whatever a link
 /// inside the app folder points to, the stores never read, write or delete

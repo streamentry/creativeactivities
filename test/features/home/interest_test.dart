@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
 
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/home/data/interest_preferences.dart';
+import 'package:creative_activities/features/home/presentation/widgets/library_section.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/home/data/interest_preferences.dart';
-import 'package:golden_moments/features/home/presentation/widgets/library_section.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const _icon = 'assets/images/catalog/24c28cf9fd7d826b4863ed6a.jpg';

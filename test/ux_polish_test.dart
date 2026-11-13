@@ -1,17 +1,17 @@
 import 'dart:io';
 
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/presentation/screens/game_page.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_home_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/widgets/pack_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/presentation/screens/game_page.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_game_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_home_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_view.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/widgets/pack_card.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Widget _app(Widget home, {double textScale = 1}) => MaterialApp(

@@ -1,6 +1,6 @@
+import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
+import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/data/gentle_preferences.dart';
-import 'package:golden_moments/features/gentle_activities/data/high_contrast_setting.dart';
 
 void main() {
   test('higher contrast is off by default and survives a save and reload', () {

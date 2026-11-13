@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:creative_activities/shared/utils/support_info.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/shared/utils/support_info.dart';
 
 import 'helpers/l10n_helpers.dart';
 

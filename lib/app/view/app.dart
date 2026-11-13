@@ -1,12 +1,12 @@
+import 'package:creative_activities/app/view/platform_home.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
+import 'package:creative_activities/l10n/app_language.dart';
+import 'package:creative_activities/l10n/fallback_localizations.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/l10n/pack_text.dart';
+import 'package:creative_activities/l10n/script_typography.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/app/view/platform_home.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/data/high_contrast_setting.dart';
-import 'package:golden_moments/l10n/app_language.dart';
-import 'package:golden_moments/l10n/fallback_localizations.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/l10n/pack_text.dart';
-import 'package:golden_moments/l10n/script_typography.dart';
 import 'package:provider/provider.dart';
 
 class App extends StatefulWidget {

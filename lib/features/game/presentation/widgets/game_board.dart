@@ -1,9 +1,9 @@
 import 'dart:math' as math;
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/cubit/tile_state.dart';
+import 'package:creative_activities/features/game/presentation/widgets/memory_tile.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/cubit/tile_state.dart';
-import 'package:golden_moments/features/game/presentation/widgets/memory_tile.dart';
 
 /// The picture-pack board: square tiles as large as the space allows, never
 /// below [gmTileMin] (DESIGN.md › Layout › Tile grid).

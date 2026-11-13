@@ -1,7 +1,7 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/wellbeing/presentation/activity_planner_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/wellbeing/presentation/activity_planner_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// Habits worth talking about: the changeable risk factors the 2024 Lancet
 /// Commission links with dementia, in plain words, for any adult who wants to

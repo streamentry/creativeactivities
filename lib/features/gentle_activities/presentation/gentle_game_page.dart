@@ -1,19 +1,19 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
+import 'package:creative_activities/features/gentle_activities/data/gentle_session.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/models/gentle_board.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_comfort_sheet.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/rating/review_request.dart';
+import 'package:creative_activities/shared/sharing/share_invitation.dart';
+import 'package:creative_activities/shared/widgets/gm_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/data/gentle_preferences.dart';
-import 'package:golden_moments/features/gentle_activities/data/gentle_session.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/models/gentle_board.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_comfort_sheet.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_view.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/rating/review_request.dart';
-import 'package:golden_moments/shared/sharing/share_invitation.dart';
-import 'package:golden_moments/shared/widgets/gm_bottom_bar.dart';
 
 /// The matching activity: the board comes first, "Done for now" is always
 /// visible, and comfort settings open only on request (GM-001/002/003/005).

@@ -1,7 +1,7 @@
-import 'package:golden_moments/features/reminders/data/reminder_plan.dart';
-import 'package:golden_moments/features/reminders/data/reminder_settings.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/native/gm_native.dart';
+import 'package:creative_activities/features/reminders/data/reminder_plan.dart';
+import 'package:creative_activities/features/reminders/data/reminder_settings.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/native/gm_native.dart';
 
 /// Plans the reminders afresh whenever the app is opened (see
 /// [planReminders]): in the app's current language, with nothing for today,

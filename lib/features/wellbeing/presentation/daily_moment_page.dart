@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
+import 'package:creative_activities/features/wellbeing/data/daily_moment_pictures.dart';
+import 'package:creative_activities/features/wellbeing/data/moment_history.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_view.dart';
-import 'package:golden_moments/features/wellbeing/data/daily_moment_pictures.dart';
-import 'package:golden_moments/features/wellbeing/data/moment_history.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// The Daily moment: three pictures to look at and talk about, one at a time,
 /// about 5 to 10 minutes if the person wants that long. There is no clock,

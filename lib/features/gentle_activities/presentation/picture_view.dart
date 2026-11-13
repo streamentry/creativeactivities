@@ -1,8 +1,8 @@
 import 'dart:io';
 
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 class PictureView extends StatelessWidget {
   const new({required this.picture, this.fit = BoxFit.contain, super.key});

@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:audioplayers/audioplayers.dart';
+import 'package:creative_activities/data/models/sound_setting.dart';
 import 'package:flutter/widgets.dart';
-import 'package:golden_moments/data/models/sound_setting.dart';
 
 /// Singleton service for playing app sounds
 class SoundService with WidgetsBindingObserver {

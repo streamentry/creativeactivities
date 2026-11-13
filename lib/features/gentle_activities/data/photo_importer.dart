@@ -3,7 +3,7 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:golden_moments/features/gentle_activities/data/family_photo_store.dart';
+import 'package:creative_activities/features/gentle_activities/data/family_photo_store.dart';
 import 'package:image_picker/image_picker.dart';
 
 /// Explicit system-picker import. No library scanning or network requests.

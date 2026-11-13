@@ -1,20 +1,19 @@
 import 'dart:async';
-
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/family_photo_store.dart';
+import 'package:creative_activities/features/gentle_activities/data/photo_annotations.dart';
+import 'package:creative_activities/features/gentle_activities/data/photo_importer.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_puzzle_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/utils/experiments.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/data/family_photo_store.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_annotations.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_importer.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_game_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_together_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_puzzle_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/picture_view.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/utils/experiments.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 
