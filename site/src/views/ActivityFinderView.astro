@@ -14,6 +14,7 @@ import {
   glance,
 } from '../lib/activities';
 
+const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 const crumbs = [{ href: '/activity/', label: 'Find an activity' }];
 const title = 'Find an Activity to Do Together';
@@ -145,6 +146,21 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       Nothing fits all of those choices yet. Try “Any” for one of them, or <a href="/activities/ideas/">browse more
       activity ideas</a>.
     </p>
+
+    {
+      hubs.length > 0 && (
+        <nav class="hub-next" aria-labelledby="by-situation">
+          <h2 id="by-situation">Browse by situation</h2>
+          <ul class="activity-list">
+            {hubs.map((h) => (
+              <li>
+                <a href={`/${h.id}/`}>{h.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
   </div>
 </BaseLayout>
 

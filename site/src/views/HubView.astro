@@ -1,0 +1,129 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activities.css';
+import ActivityCard from '../components/ActivityCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Faq from '../components/Faq.astro';
+import { breadcrumbs, faqPage, itemList } from '../lib/schema';
+import { findGuide } from '../i18n/guides';
+
+interface Props {
+  /** The hub's id, which is also its path: `/<id>/`. */
+  id: string;
+}
+const hub = await getEntry('hubs', Astro.props.id);
+if (!hub) throw new Error(`No hub content for ${Astro.props.id}`);
+const d = hub.data;
+const { Content } = await render(hub);
+const path = `/${hub.id}/`;
+const crumbs = [{ href: path, label: d.eyebrow }];
+const dateText = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+
+const cards = await getCollection('activityCards');
+const activities = d.activities.map((slug) => {
+  const card = cards.find((a) => a.id === slug);
+  if (!card) throw new Error(`Hub ${hub.id} lists a missing activity: ${slug}`);
+  return card;
+});
+const allHubs = await getCollection('hubs');
+const related = d.related.map((id) => allHubs.find((h) => h.id === id)).filter((h) => h !== undefined);
+const guides = (
+  await Promise.all(
+    d.guides.map(async (ref) => {
+      const guide = await findGuide('en', ref);
+      return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
+    }),
+  )
+).filter((g) => g !== null);
+
+const jsonLd = [
+  breadcrumbs(crumbs),
+  itemList(
+    d.title,
+    activities.map((a) => ({ path: `/activity/${a.id}/`, name: a.data.name })),
+  ),
+  faqPage(d.faq),
+];
+---
+<BaseLayout title={d.seoTitle ?? d.title} description={d.description} jsonLd={jsonLd}>
+  <Breadcrumbs items={crumbs} />
+  <div class="container hub">
+    <header class="page-head">
+      <p class="eyebrow">{d.eyebrow}</p>
+      <h1>{d.title}</h1>
+      <p class="lede">{d.lede}</p>
+    </header>
+
+    <section class="hub-choosing" aria-labelledby="choosing">
+      <h2 id="choosing">How we chose these</h2>
+      <ul class="activity-list">
+        {d.choosing.map((c) => <li>{c}</li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="hub-activities">
+      <h2 id="hub-activities">{activities.length} activities to start today</h2>
+      <p>Each one has a materials list, one action per step, easier versions and a card to print.</p>
+      <ul class="activity-grid">
+        {
+          activities.map((a) => (
+            <li>
+              <ActivityCard activity={a} variation={d.variation} />
+            </li>
+          ))
+        }
+      </ul>
+      <p><a href="/activity/">Filter all activities by time, materials and setting</a></p>
+    </section>
+
+    <article class="prose hub-body">
+      <Content />
+      <Faq items={d.faq} title="Common questions" />
+      {
+        d.sources.length > 0 && (
+          <section class="sources" aria-labelledby="sources">
+            <h2 id="sources">Sources</h2>
+            <ol>
+              {d.sources.map((s) => (
+                <li>
+                  <a href={s.url} rel="noopener">{s.title}</a> <span class="publisher">· {s.publisher}</span>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )
+      }
+    </article>
+
+    {
+      (guides.length > 0 || related.length > 0) && (
+        <nav class="hub-next" aria-labelledby="hub-next">
+          <h2 id="hub-next">Keep reading</h2>
+          <ul class="activity-list">
+            {related.map((h) => (
+              <li>
+                <a href={`/${h.id}/`}>{h.data.title}</a>
+              </li>
+            ))}
+            {guides.map((g) => (
+              <li>
+                <a href={g.href}>{g.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+
+    <footer class="activity-byline">
+      <p>
+        By {d.author}. Not yet reviewed by an outside expert. Published
+        <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated
+        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.
+        <a href="/editorial-policy/">How we write</a> · <a href="/support/">Report a mistake</a>
+      </p>
+    </footer>
+  </div>
+</BaseLayout>
