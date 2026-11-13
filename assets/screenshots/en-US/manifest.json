@@ -305,7 +305,7 @@
  "relabel": "2026-11-13: the brand label above each headline in iphone/, ipad/ and android/ was changed from Golden Moments to Creative Activities with scripts/relabel_store_frames.py; nothing else in the frames changed.",
  "ios_capture": {
   "date": "2026-11-13",
-  "base_commit": "a53cc0ee8c294add729e29762411945e73d5598d",
+  "base_commit": "c6e8e7d582f9635a10e2489c05f0c5eaf48e1a3a",
   "candidate": "1.10.0 source with the Creative Activities palette and Atkinson Hyperlegible Next type",
   "devices": "iPhone 17 Pro Max and iPad Pro 13-inch (M5) simulators, iOS 26.5",
   "frames": "iphone/ and ipad/ 01-06 recomposed from these captures with scripts/compose_store_screens.py; originals/iphone and originals/ipad 01-06 replaced. android/ is unchanged and still shows the previous palette.",

@@ -8,7 +8,7 @@ On 2026-11-13 the small label above each headline changed from "Golden Moments" 
 
 ## Current captures
 
-The iPhone and iPad captures were retaken on 2026-11-13 from `a53cc0e`, the 1.10.0 source with the Creative Activities palette (ink, canvas, sage, sun) and Atkinson Hyperlegible Next type. The Google Play frames in `android/` still come from `b9e681c` and show the previous palette; retake them before they are used again. Both iOS sets were taken on the iPhone 17 Pro Max and iPad Pro 13-inch (M5) simulators running iOS 26.5, with `scripts/capture_store_screens.sh`. The iPad status bar shows the capture date next to 9:41. That script runs `integration_test/store_screens_test.dart`, which drives the real app to each frame and pauses while the screen is saved.
+The iPhone and iPad captures were retaken on 2026-11-13 from `c6e8e7d`, the 1.10.0 source with the Creative Activities palette (ink, canvas, sage, sun) and Atkinson Hyperlegible Next type. The Google Play frames in `android/` still come from `b9e681c` and show the previous palette; retake them before they are used again. Both iOS sets were taken on the iPhone 17 Pro Max and iPad Pro 13-inch (M5) simulators running iOS 26.5, with `scripts/capture_store_screens.sh`. The iPad status bar shows the capture date next to 9:41. That script runs `integration_test/store_screens_test.dart`, which drives the real app to each frame and pauses while the screen is saved.
 
 - **Status bar:** cleared, then set to 9:41 with `xcrun simctl status_bar`. Clearing first matters: a stale override once left a charging battery and "no service" dots.
 - **Debug banner:** hidden for capture only; a release build never shows it.
