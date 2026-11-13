@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FOLDER = ROOT / 'metadata/i18n'
-BRAND = 'Golden Moments'
+BRAND = 'Creative Activities'
 
 # App language -> (App Store locales, Google Play locales). English is the
 # source and lives elsewhere.
