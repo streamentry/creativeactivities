@@ -2,15 +2,19 @@
 """Generate PNG icons and Open Graph share images for the website.
 
 macOS only: SVGs are rasterized with Quick Look (`qlmanage`), then composed
-with Pillow. Run after `pnpm build` (it reads dist/pictures/*.svg):
+with Pillow. Run after `pnpm build` (it reads dist/pictures/*.svg), or pass a
+folder of picture SVGs saved from `pnpm dev` (/pictures/<id>.svg):
 
-    python3 scripts/make-images.py
+    python3 scripts/make-images.py [pictures-dir]
 
-Outputs are committed under public/icons and public/og.
+Icons come from the brand art in ../brand (see LOGO.md). Outputs are committed
+under public/icons, public/favicon.* and public/og.
 """
 
 from __future__ import annotations
 
+import base64
+import io
 import json
 import re
 import subprocess
@@ -19,21 +23,26 @@ import tempfile
 import textwrap
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageFont
 
 SITE = Path(__file__).resolve().parent.parent
 REPO = SITE.parent
-DIST_PICS = SITE / "dist" / "pictures"
+DIST_PICS = Path(sys.argv[1]) if len(sys.argv) > 1 else SITE / "dist" / "pictures"
 PUBLIC = SITE / "public"
-FONT_BOLD = REPO / "assets" / "fonts" / "Roboto-Bold.ttf"
-FONT_REG = REPO / "assets" / "fonts" / "Roboto-Regular.ttf"
+BRAND = REPO / "brand"
+FONT_BOLD = REPO / "assets" / "fonts" / "AtkinsonHyperlegibleNext-Bold.ttf"
+FONT_REG = REPO / "assets" / "fonts" / "AtkinsonHyperlegibleNext-Regular.ttf"
+HOST = "creativeactivities.org"
 
-PARCHMENT = (253, 249, 240)
-INK = (34, 34, 34)
-WALNUT = (92, 83, 70)
-GOLD = (122, 86, 0)
-SUNLIT = (255, 224, 138)
-PRINT_WHITE = (255, 253, 247)
+# DESIGN.md tokens; BRAND_BG is the paper colour baked into the brand art.
+CANVAS = (250, 248, 242)
+BRAND_BG = (248, 246, 241)
+INK = (36, 55, 47)
+MUTED = (81, 99, 90)
+TEAL = (23, 108, 101)
+CLAY = (187, 108, 77)
+SUN = (244, 205, 118)
+PRINT_WHITE = (255, 255, 255)
 
 W, H = 1200, 630
 
@@ -74,10 +83,22 @@ def print_card(pic: Image.Image, angle: float) -> Image.Image:
     return shadow.rotate(angle, expand=True, resample=Image.BICUBIC)
 
 
+def cut_out(art: Image.Image) -> Image.Image:
+    """The mark without its paper background, cropped to the shapes."""
+    rgb = art.convert("RGB")
+    # Distance from the paper colour becomes opacity: the grain stays below the
+    # threshold, the pale torn edges keep a soft fringe.
+    diff = ImageChops.difference(rgb, Image.new("RGB", rgb.size, BRAND_BG)).convert("L")
+    alpha = diff.point(lambda v: 0 if v < 10 else min(255, (v - 10) * 12))
+    out = rgb.convert("RGBA")
+    out.putalpha(alpha)
+    return out.crop(alpha.getbbox())
+
+
 def background() -> Image.Image:
-    img = Image.new("RGBA", (W, H), PARCHMENT + (255,))
-    glow = Image.new("RGBA", (W, H), SUNLIT + (0,))
-    ImageDraw.Draw(glow).ellipse((620, -260, 1500, 420), fill=SUNLIT + (150,))
+    img = Image.new("RGBA", (W, H), CANVAS + (255,))
+    glow = Image.new("RGBA", (W, H), SUN + (0,))
+    ImageDraw.Draw(glow).ellipse((620, -260, 1500, 420), fill=SUN + (110,))
     glow = glow.filter(ImageFilter.GaussianBlur(90))
     img.alpha_composite(glow)
     return img
@@ -85,9 +106,11 @@ def background() -> Image.Image:
 
 def draw_text_block(img: Image.Image, mark: Image.Image, eyebrow: str, title: str, subtitle: str) -> None:
     d = ImageDraw.Draw(img)
-    img.alpha_composite(mark.resize((64, 64), Image.LANCZOS), (64, 56))
-    d.text((144, 62), "Creative Activities", font=ImageFont.truetype(str(FONT_BOLD), 34), fill=INK)
-    d.text((144, 100), eyebrow, font=ImageFont.truetype(str(FONT_REG), 22), fill=WALNUT)
+    small = mark.copy()
+    small.thumbnail((68, 68), Image.LANCZOS)
+    img.alpha_composite(small, (64 + (68 - small.width) // 2, 54 + (68 - small.height) // 2))
+    d.text((148, 60), "Creative Activities", font=ImageFont.truetype(str(FONT_BOLD), 34), fill=INK)
+    d.text((148, 100), eyebrow, font=ImageFont.truetype(str(FONT_REG), 22), fill=MUTED)
 
     size = 64 if len(title) <= 40 else 54
     font = ImageFont.truetype(str(FONT_BOLD), size)
@@ -99,10 +122,10 @@ def draw_text_block(img: Image.Image, mark: Image.Image, eyebrow: str, title: st
     sub_font = ImageFont.truetype(str(FONT_REG), 28)
     for line in textwrap.wrap(subtitle, width=36)[:2]:
         y += 6
-        d.text((64, y + 10), line, font=sub_font, fill=WALNUT)
+        d.text((64, y + 10), line, font=sub_font, fill=MUTED)
         y += 36
-    d.rounded_rectangle((64, H - 76, 64 + 12, H - 64), radius=6, fill=(201, 146, 0))
-    d.text((88, H - 86), "dementiaactivities.games", font=ImageFont.truetype(str(FONT_BOLD), 26), fill=GOLD)
+    d.rounded_rectangle((64, H - 76, 64 + 12, H - 64), radius=6, fill=CLAY)
+    d.text((88, H - 86), HOST, font=ImageFont.truetype(str(FONT_BOLD), 26), fill=TEAL)
 
 
 def compose(pics: list[Image.Image], mark: Image.Image, eyebrow: str, title: str, subtitle: str) -> Image.Image:
@@ -125,17 +148,25 @@ def main() -> int:
 
     with tempfile.TemporaryDirectory() as tmp:
         tmpdir = Path(tmp)
-        # Use the 1024px master app icon: favicon.svg wraps a small PNG and would
-        # upscale soft at 512px.
-        master = REPO / "assets" / "icons" / "app_icon.png"
-        mark = Image.open(master).convert("RGBA").resize((512, 512), Image.LANCZOS)
+        # The app icon already carries its own margin, so icons use it full bleed.
+        app_icon = Image.open(BRAND / "app-icon.png").convert("RGB")
         for size, name in [(180, "apple-touch-icon.png"), (192, "icon-192.png"), (512, "icon-512.png")]:
-            icon = Image.new("RGBA", (size, size), PARCHMENT + (255,))
-            inner = mark.resize((int(size * 0.84), int(size * 0.84)), Image.LANCZOS)
-            offset = (size - inner.width) // 2
-            icon.alpha_composite(inner, (offset, offset))
-            icon.convert("RGB").save(PUBLIC / "icons" / name, optimize=True)
-        mark.resize((48, 48), Image.LANCZOS).save(PUBLIC / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+            app_icon.resize((size, size), Image.LANCZOS).save(PUBLIC / "icons" / name, optimize=True)
+        app_icon.resize((48, 48), Image.LANCZOS).save(PUBLIC / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+        # favicon.svg wraps a PNG of the cut-out mark so tabs show the shapes, not a tile.
+        mark = cut_out(Image.open(BRAND / "mark.png"))
+        fav = mark.copy()
+        fav.thumbnail((192, 192), Image.LANCZOS)
+        tile = Image.new("RGBA", (192, 192), (0, 0, 0, 0))
+        tile.alpha_composite(fav, ((192 - fav.width) // 2, (192 - fav.height) // 2))
+        buf = io.BytesIO()
+        tile.save(buf, "PNG", optimize=True)
+        data = base64.b64encode(buf.getvalue()).decode()
+        (PUBLIC / "favicon.svg").write_text(
+            '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" '
+            'viewBox="0 0 192 192" width="192" height="192">'
+            f'<image width="192" height="192" href="data:image/png;base64,{data}"/></svg>\n'
+        )
 
         cache: dict[str, Image.Image] = {}
 

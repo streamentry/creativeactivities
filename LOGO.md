@@ -1,6 +1,7 @@
 # Creative Activities — logo and app icon prompt
 
-**Status:** creative brief and generation prompts. Nothing here is an adopted mark.
+**Status:** brief and prompts. The direction below was adopted on 2026-11-13 as raster art in
+`brand/` (see `DESIGN.md`); the vector redraw and resemblance search below are still open.
 `DESIGN.md` stays the design contract; if this file and `DESIGN.md` disagree, `DESIGN.md` wins.
 Any chosen direction must be redrawn as vectors, checked against the tests at the end, and
 searched for resemblance to existing marks before it ships.

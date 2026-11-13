@@ -8,8 +8,8 @@ export const GET: APIRoute = () =>
       description: 'Gentle games and activities for people living with dementia.',
       start_url: '/',
       display: 'standalone',
-      background_color: '#FDF9F0',
-      theme_color: '#FDF9F0',
+      background_color: '#FAF8F2',
+      theme_color: '#FAF8F2',
       icons: [
         { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
         { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },

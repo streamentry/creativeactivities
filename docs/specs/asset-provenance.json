@@ -91,16 +91,18 @@
     {
       "id": "app-icons",
       "paths": [
+        "brand/",
         "assets/icons/app_icon.png",
         "assets/icons/app_icon_padded.png",
         "assets/icons/app_icon_bk.png"
       ],
       "rights_status": "unreviewed",
       "missing": [
-        "origin and author",
-        "license or permission",
+        "image tool terms recorded for commercial use",
+        "trademark and resemblance search",
         "review date"
-      ]
+      ],
+      "origin": "brand/ art made by the maintainer on 2026-11-13 with an AI image tool from the LOGO.md prompts; assets/icons masters are derived from it by scripts/make_brand_icons.py. app_icon_bk.png is the previous icon."
     },
     {
       "id": "pack-index-data",
