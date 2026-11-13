@@ -2,7 +2,7 @@
 
 *Make something together.* Free, practical creative activities for people caring for someone else, starting with simple picture and photo activities for older adults and their families. Flutter, local-first on iOS/Android, no account or custom photo backend. Mission and strategy: [MISSION](MISSION.md), [VISION](VISION.md); look and voice: [DESIGN](DESIGN.md).
 
-Renamed from **Golden Moments** (2026-11-13). Bundle/package identifiers, the Dart package name `golden_moments`, signing and stored data are unchanged on purpose.
+Renamed from **Golden Moments** (2026-11-13). The app now ships as new store records, iOS `com.mindfulness.creativeactivities` and Android `com.mindfulness.creative_activities` ([1.10.0 record](docs/release/new-apps-1.10.0-build14.md)); the former Golden Moments listings stay unchanged. The Dart package name `golden_moments`, the signing keys and the stored-data formats are unchanged on purpose.
 
 **US App Store candidate:** `Creative Activities Together`  
 **Subtitle:** `Simple Crafts & Photo Games`  

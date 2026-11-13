@@ -1,6 +1,6 @@
 # iOS App Store Publishing Guide - Creative Activities
 
-This guide covers the complete process of publishing the Creative Activities Flutter app (store name "Creative Activities Together"; formerly Golden Moments, renamed 2026-11-13) to the iOS App Store from scratch, as well as how to update existing versions. The Dart package name `golden_moments` is unchanged; check the bundle ID in the Xcode project rather than renaming it from this guide.
+This guide covers the complete process of publishing the Creative Activities Flutter app (store name "Creative Activities Together"; formerly Golden Moments, renamed 2026-11-13) to the iOS App Store from scratch, as well as how to update existing versions. The Dart package name `golden_moments` is unchanged. The app ships as a new App Store record: bundle `com.mindfulness.creativeactivities`, App Store Connect app id `6834212782` (see [the 1.10.0 record](release/new-apps-1.10.0-build14.md)). The former Golden Moments listing (`com.mindfulness.goldenmoments`) is a separate record and stays unchanged; do not reuse its bundle ID.
 
 ## Quick Start for Clean iOS Build
 
@@ -59,57 +59,33 @@ This script:
 
 ### 2. App Store Connect Configuration
 
-1. **Create New App**
-   - Go to "My Apps" → "+" → "New App"
-   - Platform: iOS
-   - Name: "Creative Activities Together" (from [metadata/app-store.en-US.json](../metadata/app-store.en-US.json))
+1. **The app record already exists**
+   - App: "Creative Activities Together" (from [metadata/app-store.en-US.json](../metadata/app-store.en-US.json)), app id `6834212782`
+   - Bundle ID: `com.mindfulness.creativeactivities` (Apple does not allow underscores)
    - Primary Language: English (US)
-   - Bundle ID: Use `com.mindfulness.goldenmoments` (update from current underscore version)
-   - SKU: Unique identifier (e.g., `golden-moments-001`)
+   - Only create a new record for a genuinely new app; a rename never needs one.
 
 2. **App Information**
-   - **Category**: Games > Puzzle
-   - **Content Rights**: Check if you have rights to use content
-   - **Age Rating**: Complete questionnaire (likely 4+ for this app)
-   - **App Review Information**: Contact details for Apple review team
+   - **Category**: set to match the approved listing; do not choose a health category, which implies a health purpose
+   - **Content Rights**: confirm rights for every included picture
+   - **Age Rating**: answer from the shipped build (no ads, no unrestricted web access; 4+ as of 1.10.0)
+   - **App Review Information**: contact details for the Apple review team
 
 ### 3. Xcode Project Configuration
 
-1. **Open iOS Project**
+1. **Open iOS Project** (from the repository root)
    ```bash
-   cd /Volumes/SSD/memory_lane/memory_lane
    open ios/Runner.xcworkspace
    ```
 
-2. **Configure Project Settings**
+2. **Check Project Settings**
    - Select "Runner" project in navigator
    - Go to "Signing & Capabilities" tab
-   - **Team**: Select your Apple Developer team
-   - **Bundle Identifier**: Update to `com.mindfulness.goldenmoments` (remove underscores)
-   - **Deployment Info**: 
+   - **Team**: the team in `ios/Runner.xcodeproj/project.pbxproj`
+   - **Bundle Identifier**: `com.mindfulness.creativeactivities` (tests: `com.mindfulness.creativeactivities.RunnerTests`). Do not change it: a different bundle ID is a different app, and installed copies would not update.
+   - **Deployment Info**:
      - iOS Deployment Target: 15.0 (kept from the Firebase era)
      - Device Orientation: Portrait, Landscape Left, Landscape Right
-
-3. **Update Bundle Identifier**
-   ```bash
-   # IMPORTANT: Update bundle identifier to remove underscores (not allowed by Apple)
-   # 
-   # Current (needs update): com.mindfulness.golden_moments
-   # New (Apple compliant): com.mindfulness.goldenmoments
-   # 
-   # Update in Xcode project settings:
-   # Production: com.mindfulness.goldenmoments
-   
-   # 
-   # Ensure App Store Connect uses: com.mindfulness.goldenmoments
-   ```
-
-   **Steps to update bundle identifier in Xcode:**
-   1. Open `ios/Runner.xcworkspace` in Xcode
-   2. Select "Runner" project → "Runner" target
-   3. Go to "Signing & Capabilities" tab
-   4. Update "Bundle Identifier" field for all configurations
-   5. Repeat for "Runner-Debug", "Runner-Release", "Runner-Staging" if they exist
 
 ### 4. App Metadata and Assets
 

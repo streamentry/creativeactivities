@@ -47,8 +47,8 @@ instead of silently treating any one of these as proof of the others.
 
 ## Non-negotiable boundaries
 
-- Preserve bundle/package identifiers, signing, saved packs, and stored-data
-  compatibility. Changing App Store copy does not justify changing identity.
+- Preserve the current identifiers (`…creativeactivities`, `…creative_activities`, set 2026-11-13),
+  signing, saved packs and stored data. Changing copy never justifies changing identity.
 - Fresh mobile starter play needs no account, network, or download. Keep remote
   library downloads explicit. Do not extend mobile privacy/offline claims to
   the separate browser catalog without testing it.
