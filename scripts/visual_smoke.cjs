@@ -30,6 +30,20 @@ async function check(name, fn) {
   results.push({ name, status: 'passed' });
   console.log(`PASS ${name}`);
 }
+// Flutter draws on a canvas, so Playwright cannot scroll a semantics node into
+// view. Wheel-scroll like a person until the target's center is on screen.
+async function tap(locator) {
+  for (let attempt = 0; attempt < 40; attempt++) {
+    const box = await locator.boundingBox();
+    const { width, height } = page.viewportSize();
+    const middle = box ? box.y + box.height / 2 : -1;
+    if (box && middle >= 0 && middle <= height) break;
+    await page.mouse.move(width / 2, height / 2);
+    await page.mouse.wheel(0, box && middle > height ? 400 : -400);
+    await page.waitForTimeout(150);
+  }
+  await locator.click();
+}
 async function eventually(read, expected) {
   for (let attempt = 0; attempt < 50; attempt++) {
     if (await read() === expected) return;
@@ -102,7 +116,7 @@ async function eventually(read, expected) {
     assert.equal(await page.getByRole('button', { name: /Download/ }).count(), 0);
   });
   await check('bundled pack opens a playable game', async () => {
-    await page.getByRole('button', { name: PACK }).first().click();
+    await tap(page.getByRole('button', { name: PACK }).first());
     await page.getByRole('button', { name: HIDDEN }).first().waitFor();
     assert.equal(await page.getByText('This pack could not open', { exact: true }).count(), 0);
     await shot('game-mobile');
@@ -141,14 +155,14 @@ async function eventually(read, expected) {
     await page.getByRole('heading', { name: 'Creative Activities', exact: true }).waitFor();
   });
   await check('library category opens its packs', async () => {
-    await page.getByRole('button', { name: /^Animals Cute/ }).click();
+    await tap(page.getByRole('button', { name: /^Animals Cute/ }));
     await page.getByRole('heading', { name: 'Animals', exact: true }).waitFor();
     await shot('library-animals');
     await page.getByRole('button', { name: 'Back', exact: true }).click();
   });
   await check('full game completes and can be played again', async () => {
-    await page.getByRole('button', { name: /^Animals Cute/ }).click();
-    await page.getByRole('button', { name: /^Farm Animals.*Play$/ }).click();
+    await tap(page.getByRole('button', { name: /^Animals Cute/ }));
+    await tap(page.getByRole('button', { name: /^Farm Animals.*Play$/ }));
     await page.getByRole('button', { name: HIDDEN }).first().waitFor();
     // The board's tiles only: Hint and Options sit under the board as labelled buttons.
     const tiles = page.getByRole('group').getByRole('button', { name: /^(?!(?:Show a matching pair|Sound and options)$)/ });
