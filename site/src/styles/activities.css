@@ -246,6 +246,40 @@
   max-width: var(--content-max);
 }
 
+/* ---------- Home: hubs by situation ---------- */
+.home-hubs {
+  margin-top: var(--space-xl);
+}
+.home-hubs h3 {
+  margin-bottom: var(--space-sm);
+}
+.home-hubs ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.home-hubs a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--target-min);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-full);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font-weight: 700;
+  text-decoration: none;
+}
+.home-hubs a:hover,
+.home-hubs a:focus-visible {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+}
+
 /* ---------- Finder ---------- */
 .finder {
   display: grid;
