@@ -25,7 +25,7 @@ const activities = pack.activities.map((slug) => {
   return card;
 });
 ---
-<BaseLayout title={pack.seoTitle} description={pack.description} jsonLd={[breadcrumbs(crumbs)]}>
+<BaseLayout title={pack.seoTitle} description={pack.description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
   <Breadcrumbs items={crumbs} />
   <div class="container pack">
     <header class="page-head pack-cover">
