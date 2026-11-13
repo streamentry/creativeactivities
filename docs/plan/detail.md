@@ -223,9 +223,10 @@ listing per storefront, local picture packs and sayings, and a participant
 language separate from the helper's.
 
 <!-- cspell:enable -->
-Per-language naming rule: the on-device name stays **Golden Moments** everywhere.
+Per-language naming rule: the on-device label stays **Creative Activities** everywhere
+(renamed from Golden Moments on 2026-11-13).
 The store name and subtitle are chosen per locale from the local head term plus
-*Golden Moments*, checked by a native reviewer for stigma, and recorded in the
+*Creative Activities*, checked by a native reviewer for stigma, and recorded in the
 canonical JSON. Bundle and package identifiers never change.
 
 Cost estimate: roughly 2,400 words of app strings, 500 words of store copy and

@@ -10,12 +10,14 @@ Positioning: **a simple shared activity, not a memory test**. Product constraint
 
 ## Chosen metadata
 
-- Name: `Dementia Games: Golden Moments` (30 characters).
-- Subtitle: `Alzheimer's Photo Activities` (28 characters).
+- Name: `Creative Activities Together` (28 characters).
+- Subtitle: `Simple Crafts & Photo Games` (27 characters).
+- Device label: `Creative Activities`.
+- Former listing (as Golden Moments, before the 2026-11-13 rename): `Dementia Games: Golden Moments` / `Alzheimer's Photo Activities`.
 - First screenshot: `Simple Dementia Activities` / `Gentle photo games to enjoy together.`
 - Canonical source and all copy: `metadata/app-store.en-US.json`.
 
-The purpose leads the unfamiliar brand for human readability, not because Apple guarantees extra ranking weight for leading words. The subtitle adds context rather than repeating games. Home-screen label remains Golden Moments; changing store copy does not justify changing bundle identifiers.
+The name says what the product is (creative activities done together), and the subtitle adds what you actually do rather than repeating the name. Neither guarantees extra ranking weight. The home-screen label is Creative Activities; changing store copy does not justify changing bundle identifiers.
 
 ## Keyword priorities
 

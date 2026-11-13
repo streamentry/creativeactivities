@@ -17,7 +17,7 @@ There are two use contexts, not two diagnoses:
 
 The US acquisition audience remains caregivers searching for dementia activities. That does not mean every older user has dementia, every participant needs a caregiver, or the app suits every person. No age, diagnosis, disease-stage or cognition questionnaire is needed.
 
-## Five reasons to choose Golden Moments
+## Five reasons to choose Creative Activities
 
 1. **Starts immediately:** installed core activities and the included catalog work without a network.
 2. **Fits the person:** readable, reachable controls and remembered comfort preferences, never automatic difficulty escalation.

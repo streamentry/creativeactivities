@@ -1,4 +1,4 @@
-# Flutter development for Golden Moments
+# Flutter development for Creative Activities
 
 Read for Dart, UI, persistence, plugin, or native changes. This guide adapts
 [official guidance](sources.md) to the existing app; it does not mandate a rewrite.

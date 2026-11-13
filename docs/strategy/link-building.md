@@ -2,6 +2,11 @@
 
 <!-- cspell:ignore BoomersHub BrightFocus DHHS DMARC JIGIDI Memozor NAAP ORCHA Qualtrics Topsfield alznj alzsd cahf dfamerica greensburg ilbrainhealth libraryweb mementio mendmemory njcaregiving ourcottage pwcva seniorbraingames talkdementia willowshealthcare -->
 
+> **Renamed 2026-11-13.** The site is now Creative Activities at
+> https://creativeactivities.org (the old domain still serves). New messages sign
+> as Creative Activities. The batches below were sent as Golden Moments, before
+> the rename, and are kept as sent.
+
 Started 2026-10-25. Goal: earn editorial links from pages that caregivers and
 activity staff already use, so the site gets found and trusted. Rules:
 
@@ -258,15 +263,15 @@ Hello,
 
 I read "Games, activities, and useful technology for caregivers at home" on your Dementia Resource Center site. Its later-stage list includes Finish the Phrase, matching games and jigsaw puzzles with very few pieces. Our free site has simple online versions of all three, made for people living with dementia:
 
-Finish the saying: https://dementiaactivities.games/games/finish-the-saying/
-Picture pairs (matching): https://dementiaactivities.games/games/picture-pairs/
-Picture puzzle (4 or 9 pieces): https://dementiaactivities.games/games/picture-puzzle/
+Finish the saying: https://creativeactivities.org/games/finish-the-saying/
+Picture pairs (matching): https://creativeactivities.org/games/picture-pairs/
+Picture puzzle (4 or 9 pieces): https://creativeactivities.org/games/picture-puzzle/
 
 They work on a tablet or phone, with large pictures and no sign-up, ads, timers or scores. If they would help families using your page, we would be glad to be linked.
 
 James Le
-Golden Moments · https://dementiaactivities.games
+Creative Activities · https://creativeactivities.org
 
 ### Short message for CAPTCHA forms (adapt the first sentence to each page)
 
-Hello, I read your page on [page name]. If you update it, you might add a free site made for people living with dementia: https://dementiaactivities.games. It has gentle picture games with pictures left showing, an easy 4- or 9-piece jigsaw, and printables such as picture bingo and a large-print word search, all with no sign-up, ads, timers or scores. A short description for resource lists is at https://dementiaactivities.games/for-organizations/. Thank you. James Le, Golden Moments
+Hello, I read your page on [page name]. If you update it, you might add a free site made for people living with dementia: https://creativeactivities.org. It has gentle picture games with pictures left showing, an easy 4- or 9-piece jigsaw, and printables such as picture bingo and a large-print word search, all with no sign-up, ads, timers or scores. A short description for resource lists is at https://creativeactivities.org/for-organizations/. Thank you. James Le, Creative Activities

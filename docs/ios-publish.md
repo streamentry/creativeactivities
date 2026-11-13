@@ -1,6 +1,6 @@
-# iOS App Store Publishing Guide - Golden Moments
+# iOS App Store Publishing Guide - Creative Activities
 
-This guide covers the complete process of publishing the "Golden Moments" Flutter app to the iOS App Store from scratch, as well as how to update existing versions.
+This guide covers the complete process of publishing the Creative Activities Flutter app (store name "Creative Activities Together"; formerly Golden Moments, renamed 2026-11-13) to the iOS App Store from scratch, as well as how to update existing versions. The Dart package name `golden_moments` is unchanged; check the bundle ID in the Xcode project rather than renaming it from this guide.
 
 ## Quick Start for Clean iOS Build
 
@@ -62,7 +62,7 @@ This script:
 1. **Create New App**
    - Go to "My Apps" → "+" → "New App"
    - Platform: iOS
-   - Name: "Golden Moments"
+   - Name: "Creative Activities Together" (from [metadata/app-store.en-US.json](../metadata/app-store.en-US.json))
    - Primary Language: English (US)
    - Bundle ID: Use `com.mindfulness.goldenmoments` (update from current underscore version)
    - SKU: Unique identifier (e.g., `golden-moments-001`)
@@ -180,10 +180,9 @@ This script:
 ### 3. Complete App Store Connect Submission
 
 1. **App Information**
-   - App Name: "Golden Moments"
-   - Subtitle: "Tile-Matching Memory Game"
-   - Description: Write compelling description highlighting features for seniors
-   - Keywords: "memory game,puzzle,seniors,nostalgia,matching,brain training"
+   - App Name: "Creative Activities Together"
+   - Subtitle: "Simple Crafts & Photo Games"
+   - Description, keywords and promotional text: copy from [metadata/app-store.en-US.json](../metadata/app-store.en-US.json) (exports in `metadata/en-US`); do not write new copy here
    - Support URL: Your website/support page
    - Privacy Policy URL: Required
 

@@ -21,7 +21,7 @@ Use an available photo viewer, a simple printed-picture activity and relevant es
 | Copy comprehension | Five target caregivers | At least four understand shared recreational photo activities; none infer diagnosis, treatment or prevention |
 | Usability | Twelve use units, split between independent users and pairs where feasible | At least ten start and exit the easiest activity without moderator rescue; aim for start within 30 seconds after home is visible |
 | Personal-photo journey | Participants who choose to use photos | Observe choose/import/play/reopen/remove; preserve originals in every test and document assistance/abort reasons |
-| Reuse and comparison | Twenty use units over seven days | At least eight voluntarily return on another day; at least twelve prefer Golden Moments for their next comparable session |
+| Reuse and comparison | Twenty use units over seven days | At least eight voluntarily return on another day; at least twelve prefer Creative Activities for their next comparable session |
 
 These small convenience samples support iteration, not a statistically established market winner. Record denominators, missing responses and withdrawals; a skipped task is not a success. Report ties and preference for another tool. A helper-assisted success is distinct from an independent one. Failure of a threshold triggers diagnosis and redesign, not coercion or retrospective redefinition.
 
