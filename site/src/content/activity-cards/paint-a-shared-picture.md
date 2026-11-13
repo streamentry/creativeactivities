@@ -3,6 +3,7 @@ name: Paint a shared picture
 seoTitle: "Paint a Shared Picture: A Group Art Activity"
 description: "Paint one large picture together on a sheet taped to the table, with everyone adding in turn. Non-toxic paint for small groups, with easier and seated versions."
 summary: Paint one large picture together, with everyone adding a mark in turn.
+enjoy: "Groups of family or friends who like painting together, and people who enjoy adding to something others have started. Good for an afternoon with several people around one table."
 type: art
 prepMinutes: 15
 activityMinutes: [30, 60]

@@ -3,6 +3,7 @@ name: Paint a garden stone
 seoTitle: "Paint a Garden Stone Together: An Outdoor Craft"
 description: "Paint a smooth stone together to place in a garden, window box or path. Non-toxic acrylic paint, low cost, at a table indoors or outside in the shade."
 summary: A smooth stone painted with simple colors or patterns, then placed outdoors where you both can see it.
+enjoy: "People who enjoy gardening, painting, or spending time outside in the shade. A nice choice for someone who likes seeing their work placed somewhere it can be enjoyed every day."
 type: craft
 prepMinutes: 15
 activityMinutes: [20, 40]

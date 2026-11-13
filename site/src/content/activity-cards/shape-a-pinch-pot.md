@@ -3,6 +3,7 @@ name: Shape a pinch pot
 seoTitle: "Shape a Pinch Pot: A Gentle Clay Activity Together"
 description: "Shape a small bowl from air-dry clay by pressing with your thumbs, working together at a table. It dries overnight, costs little, and has easier and seated versions."
 summary: Shape a small bowl from air-dry clay by pressing it open with your thumbs.
+enjoy: "People who enjoy working with clay, pottery or any hands-on material that changes shape. Good for someone who likes steady, tactile work and a finished object to keep."
 type: craft
 prepMinutes: 10
 activityMinutes: [20, 45]

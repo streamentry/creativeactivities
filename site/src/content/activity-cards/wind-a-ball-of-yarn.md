@@ -3,6 +3,7 @@ name: Wind a ball of yarn
 seoTitle: "Wind a Ball of Yarn Together: A Relaxed Shared Task"
 description: "Wind loose yarn into a ball together, one person holding and one winding. No setup, low cost, seated or bedside, with easier and less-sensory versions."
 summary: Wind a skein or tangle of yarn into a neat ball together, taking turns holding and winding.
+enjoy: "People who knit, crochet or sew, or who once helped wind wool for a relative. A simple, steady task that suits a quiet moment together and a helper who is happy to share the work."
 type: sensory
 prepMinutes: 0
 activityMinutes: [10, 30]

@@ -3,6 +3,7 @@ name: Make a photo postcard
 seoTitle: "Make a Photo Postcard: A Simple Keepsake Craft"
 description: "Glue a copy of a favorite photo onto card, write one line together and send it to someone special. Seated at a table, low cost, with easier and bedside versions."
 summary: Glue a copy of a favorite photo onto card, then write one line together.
+enjoy: "People who like sending postcards, sharing pictures of places they know, or keeping in touch with a grandchild or an old friend. Good for someone who likes sending something personal."
 type: craft
 prepMinutes: 10
 activityMinutes: [15, 30]

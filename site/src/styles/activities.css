@@ -16,6 +16,10 @@
   margin-bottom: var(--space-md);
 }
 /* The one-glance line: bold facts separated by dots, wrapping cleanly. */
+.activity-head__enjoy {
+  max-width: var(--content-max);
+  margin-bottom: var(--space-md);
+}
 .activity-glance {
   display: flex;
   flex-wrap: wrap;

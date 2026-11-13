@@ -3,6 +3,7 @@ name: Make a pine cone bird feeder
 seoTitle: "Pine Cone Bird Feeder: A Hands-On Craft to Share"
 description: "Make a pine cone bird feeder together with fat and birdseed, then hang it where you can watch. Low cost, seated at a table, with nut-free and easier options."
 summary: Spread fat on a pine cone, roll it in birdseed and hang it outside to watch the birds.
+enjoy: "People who enjoy watching birds from a window, spending time outside or feeding the wildlife in a garden. A good fit for anyone who likes a hands-on job that leads to something to watch."
 type: craft
 prepMinutes: 10
 activityMinutes: [15, 30]

@@ -3,6 +3,7 @@ name: Draw to music
 seoTitle: "Draw to Music: A Relaxed Art Activity to Try Together"
 description: "Draw to music together, letting lines, shapes and colors follow the sound. No drawing skill needed, seated at a table, low cost, with easier and bedside versions."
 summary: Listen to music together and let lines, shapes and colors follow the sound.
+enjoy: "People who love music, dancing or singing along, or who once played an instrument. Good for a day when words come slowly, because the music leads the way."
 type: music
 prepMinutes: 5
 activityMinutes: [10, 30]

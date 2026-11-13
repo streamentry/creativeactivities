@@ -3,6 +3,7 @@ name: Make a family tree of hands
 seoTitle: "Family Tree of Hands: Trace Hands Together Across Ages"
 description: "Make a family tree of hands together by tracing each person's hand in pencil around a drawn trunk. No paint on skin, seated, low cost, for all ages."
 summary: Trace family members' hands in pencil around a drawn trunk to make a shared tree.
+enjoy: "Families who enjoy talking about relatives, grandparents and children growing up, especially when several generations can take part. A warm choice for visits and holidays."
 type: art
 prepMinutes: 10
 activityMinutes: [15, 40]
