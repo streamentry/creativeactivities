@@ -1,5 +1,5 @@
+import 'package:creative_activities/data/models/pack.dart';
 import 'package:equatable/equatable.dart';
-import 'package:golden_moments/data/models/pack.dart';
 
 /// Font size options for accessibility
 enum FontSize {

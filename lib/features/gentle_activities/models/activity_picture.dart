@@ -1,6 +1,6 @@
+import 'package:creative_activities/features/gentle_activities/data/picture_library.g.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/features/gentle_activities/data/picture_library.g.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// A bundled drawing ([asset]), a normalized local family-photo copy
 /// ([path]), or, in tests, a plain [icon].

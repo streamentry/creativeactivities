@@ -1,8 +1,8 @@
+import 'package:creative_activities/l10n/fallback_localizations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/l10n/fallback_localizations.dart';
 
 /// App languages Flutter's Material and Cupertino widgets have no text for.
 const _withoutWidgetText = ['ha', 'yo', 'ig', 'jv', 'su', 'om', 'so', 'sd'];

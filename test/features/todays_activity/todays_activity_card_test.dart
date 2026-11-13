@@ -1,13 +1,13 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_home_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/todays_activity/data/todays_activity.dart';
+import 'package:creative_activities/features/todays_activity/presentation/todays_activity_card.dart';
+import 'package:creative_activities/features/wellbeing/presentation/daily_moment_page.dart';
+import 'package:creative_activities/l10n/gen/app_localizations.dart';
+import 'package:creative_activities/shared/native/gm_native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_home_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_together_page.dart';
-import 'package:golden_moments/features/todays_activity/data/todays_activity.dart';
-import 'package:golden_moments/features/todays_activity/presentation/todays_activity_card.dart';
-import 'package:golden_moments/features/wellbeing/presentation/daily_moment_page.dart';
-import 'package:golden_moments/l10n/gen/app_localizations.dart';
-import 'package:golden_moments/shared/native/gm_native.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 Widget _app(Widget home, {double textScale = 1}) => MaterialApp(

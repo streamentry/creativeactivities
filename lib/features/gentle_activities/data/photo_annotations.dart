@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:creative_activities/features/gentle_activities/data/owned_files.dart';
 import 'package:flutter/foundation.dart';
-import 'package:golden_moments/features/gentle_activities/data/owned_files.dart';
 
 /// Optional, local-only details about one family photo (GM-019/GM-020).
 ///

@@ -1,10 +1,10 @@
+import 'package:creative_activities/app/view/app.dart';
+import 'package:creative_activities/data/models/sound_setting.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
+import 'package:creative_activities/l10n/app_language.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/app/view/app.dart';
-import 'package:golden_moments/data/models/sound_setting.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/data/high_contrast_setting.dart';
-import 'package:golden_moments/l10n/app_language.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

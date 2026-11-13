@@ -1,5 +1,5 @@
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/foundation.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// Matches `version:` in pubspec.yaml; a test keeps the two in step.
 const String appVersion = '1.10.0+14';

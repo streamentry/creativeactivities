@@ -1,9 +1,9 @@
+import 'package:creative_activities/app/app.dart';
+import 'package:creative_activities/features/language/presentation/language_page.dart';
+import 'package:creative_activities/l10n/app_language.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/app/app.dart';
-import 'package:golden_moments/features/language/presentation/language_page.dart';
-import 'package:golden_moments/l10n/app_language.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

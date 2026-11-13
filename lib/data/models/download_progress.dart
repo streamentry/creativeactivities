@@ -1,5 +1,5 @@
+import 'package:creative_activities/data/models/download_error.dart';
 import 'package:equatable/equatable.dart';
-import 'package:golden_moments/data/models/download_error.dart';
 
 /// Download progress tracking for individual downloads
 class DownloadProgress extends Equatable {

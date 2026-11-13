@@ -2,14 +2,14 @@ import 'dart:async';
 import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
+import 'package:creative_activities/app/view/platform_home.dart';
+import 'package:creative_activities/data/models/sound_setting.dart';
+import 'package:creative_activities/data/services/sound_service.dart';
+import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
+import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
+import 'package:creative_activities/l10n/app_language.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/widgets.dart';
-import 'package:golden_moments/app/view/platform_home.dart';
-import 'package:golden_moments/data/models/sound_setting.dart';
-import 'package:golden_moments/data/services/sound_service.dart';
-import 'package:golden_moments/features/gentle_activities/data/gentle_preferences.dart';
-import 'package:golden_moments/features/gentle_activities/data/high_contrast_setting.dart';
-import 'package:golden_moments/l10n/app_language.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:provider/provider.dart';
 
 class AppBlocObserver extends BlocObserver {

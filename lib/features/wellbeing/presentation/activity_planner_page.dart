@@ -1,12 +1,12 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/wellbeing/data/routines.dart';
+import 'package:creative_activities/features/wellbeing/presentation/daily_moment_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/widgets/gm_choice_rows.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_game_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_together_page.dart';
-import 'package:golden_moments/features/wellbeing/data/routines.dart';
-import 'package:golden_moments/features/wellbeing/presentation/daily_moment_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/widgets/gm_choice_rows.dart';
 
 /// Suggested routines for the day, for oneself or for someone one cares for.
 /// Choosing a time and a person only changes the suggestions; nothing is saved

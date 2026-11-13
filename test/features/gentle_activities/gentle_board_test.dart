@@ -1,7 +1,7 @@
 import 'dart:math';
 
+import 'package:creative_activities/features/gentle_activities/models/gentle_board.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/models/gentle_board.dart';
 
 void main() {
   test('four tiles contain exactly two pairs', () {

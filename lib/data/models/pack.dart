@@ -1,5 +1,5 @@
+import 'package:creative_activities/data/models/image.dart';
 import 'package:equatable/equatable.dart';
-import 'package:golden_moments/data/models/image.dart';
 
 /// Difficulty levels for the memory game
 enum GameDifficulty {

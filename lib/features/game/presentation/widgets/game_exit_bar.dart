@@ -1,7 +1,7 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/widgets/gm_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/widgets/gm_bottom_bar.dart';
 
 /// "Done for now" and "Start again", fixed below the board so the exit is
 /// always on screen (GM-002).

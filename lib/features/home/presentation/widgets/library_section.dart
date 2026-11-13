@@ -1,14 +1,14 @@
 import 'dart:async';
 
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/services/sound_service.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/category/presentation/screens/category_page.dart';
+import 'package:creative_activities/features/home/data/interest_preferences.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/l10n/pack_text.dart';
+import 'package:creative_activities/shared/widgets/category_card.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/services/sound_service.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/category/presentation/screens/category_page.dart';
-import 'package:golden_moments/features/home/data/interest_preferences.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/l10n/pack_text.dart';
-import 'package:golden_moments/shared/widgets/category_card.dart';
 
 /// Section displaying the game library, with optional topic choices.
 class LibrarySection extends StatefulWidget {

@@ -1,13 +1,13 @@
 import 'dart:convert';
 
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
+import 'package:creative_activities/features/home/cubit/home_cubit.dart';
+import 'package:creative_activities/features/home/cubit/home_state.dart';
+import 'package:creative_activities/features/home/data/interest_preferences.dart';
+import 'package:creative_activities/features/home/data/pack_preferences.dart';
+import 'package:creative_activities/features/home/data/pack_selection.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/features/gentle_activities/data/gentle_preferences.dart';
-import 'package:golden_moments/features/home/cubit/home_cubit.dart';
-import 'package:golden_moments/features/home/cubit/home_state.dart';
-import 'package:golden_moments/features/home/data/interest_preferences.dart';
-import 'package:golden_moments/features/home/data/pack_preferences.dart';
-import 'package:golden_moments/features/home/data/pack_selection.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'pack_fixtures.dart';
