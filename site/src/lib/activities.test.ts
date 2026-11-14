@@ -68,6 +68,26 @@ describe('optional fit filters', () => {
     expect(matches({ ...COLLAGE, energy: 'medium' }, { energy: 'any' })).toBe(true);
   });
 
+  it('keeps activities that use the sense they enjoy most', () => {
+    const songs: ActivityFacts = { ...COLLAGE, senses: ['hearing', 'movement'] };
+    expect(matches(songs, { sense: 'hearing' })).toBe(true);
+    expect(matches(songs, { sense: 'smell' })).toBe(false);
+    expect(matches(songs, { sense: 'any' })).toBe(true);
+    // An activity with no recorded senses never matches a chosen sense.
+    expect(matches(COLLAGE, { sense: 'touch' })).toBe(false);
+  });
+
+  it('offers a calmer choice only where a less-sensory version is written', () => {
+    expect(matches({ ...COLLAGE, variationKinds: ['easier', 'less-sensory'] }, { sense: 'calm' })).toBe(true);
+    expect(matches({ ...COLLAGE, variationKinds: ['easier'] }, { sense: 'calm' })).toBe(false);
+  });
+
+  it('keeps only activities with a written way to do them without words', () => {
+    expect(matches({ ...COLLAGE, variationKinds: ['nonverbal'] }, { talking: 'none' })).toBe(true);
+    expect(matches({ ...COLLAGE, variationKinds: ['easier'] }, { talking: 'none' })).toBe(false);
+    expect(matches({ ...COLLAGE, variationKinds: ['easier'] }, { talking: 'any' })).toBe(true);
+  });
+
   it('keeps only activities that need someone nearby when hands-on help is not possible', () => {
     expect(matches(COLLAGE, { supervision: 'nearby' })).toBe(true);
     expect(matches({ ...COLLAGE, supervision: 'hands-on' }, { supervision: 'nearby' })).toBe(false);
@@ -89,6 +109,13 @@ describe('fitReasons', () => {
       'little or no mess',
       'mostly sitting still',
     ]);
+  });
+
+  it('explains sense, calm and wordless fits in plain words', () => {
+    const songs: ActivityFacts = { ...COLLAGE, senses: ['hearing'], variationKinds: ['nonverbal', 'less-sensory'] };
+    expect(fitReasons(songs, { sense: 'hearing' })).toEqual(['uses sounds or music']);
+    expect(fitReasons(songs, { sense: 'calm' })).toEqual(['has a calmer version']);
+    expect(fitReasons(songs, { talking: 'none' })).toEqual(['works without words']);
   });
 
   it('says the activity works with the helper nearby', () => {
