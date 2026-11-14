@@ -47,7 +47,7 @@ safety:
   - "Check the slit edges for sharp corners, and round them off with the helper before weaving."
   - "Use a glue stick or low-tack tape, and keep small pieces away from the mouth."
 stopNote: "It is fine to stop after one row. Leave the card on the table with the strips in place, and carry on another time, or just enjoy the colors."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/art-supplies-for-older-adults]
 related: [make-a-color-collage, tear-paper-mosaic, make-a-paper-chain-garland]
 published: 2026-11-13
 updated: 2026-11-13

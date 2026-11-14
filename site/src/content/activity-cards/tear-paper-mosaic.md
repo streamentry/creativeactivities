@@ -48,7 +48,7 @@ safety:
   - "Use a glue stick rather than liquid glue; check for skin sensitivity first."
   - "Glossy magazine edges can occasionally nick skin, so offer softer paper if that is a concern."
 stopNote: "It is fine to stop when only part of the shape is filled. A half-finished mosaic still looks good, and you can add more another day or leave it as it is."
-guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage]
+guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage, activities/group-art-activities]
 related: [make-a-memory-collage, make-a-button-picture, make-a-texture-board]
 published: 2026-11-13
 updated: 2026-11-13

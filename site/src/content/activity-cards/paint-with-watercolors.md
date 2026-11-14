@@ -50,7 +50,7 @@ safety:
   - "Wash paint off skin with warm water and soap, and check first for any skin sensitivity."
   - "Wipe up spilled water promptly so floors do not become slippery."
 stopNote: "It is fine to stop after one wash of color. Leave the paper to dry somewhere flat and offer to paint again another day, or simply look at it together."
-guides: [activities/art-projects, activities/arts-and-crafts, activities/sensory]
+guides: [activities/art-projects, activities/arts-and-crafts, activities/sensory, activities/drawing-and-painting-to-relax, activities/art-supplies-for-older-adults]
 related: [draw-to-music, paint-a-garden-stone, tear-paper-mosaic]
 published: 2026-11-13
 updated: 2026-11-13

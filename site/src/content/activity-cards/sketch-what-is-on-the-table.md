@@ -44,7 +44,7 @@ safety:
   - "Keep pencils and erasers away from the mouth if the person may chew or taste things."
   - "Choose a sturdy cup or soft fruit, and avoid glass or anything sharp on the table."
 stopNote: "It is fine to stop after a few lines. Leave the paper where it is and look at the object again later, or simply enjoy it together for a while."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, paint-a-shared-picture, arrange-flowers-together]
 published: 2026-11-13
 updated: 2026-11-13

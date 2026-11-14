@@ -47,7 +47,7 @@ safety:
   - "Keep pens and stamps away from the mouth if the person may chew or taste things."
   - "Check before adding a flower; some plants can cause skin irritation or allergy."
 stopNote: "It is fine to stop after one sentence. Put the letter aside, and finish it another day, or simply talk about the person it is for."
-guides: [activities/ideas, activities/reminiscence, activities/phone-and-video-calls]
+guides: [activities/ideas, activities/reminiscence, activities/phone-and-video-calls, activities/pen-pals-for-older-adults]
 related: [make-a-greeting-card, make-a-photo-postcard, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-13

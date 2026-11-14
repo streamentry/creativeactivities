@@ -47,7 +47,7 @@ safety:
   - "A glue stick is less messy than liquid glue; check for skin sensitivity first."
   - "Do not ask anyone to write if it is tiring or upsetting. Dictating the message counts fully."
 stopNote: "It is fine to stop with just a picture on the front. Keep the card in a safe place and finish the message another day, or send it as it is."
-guides: [activities/arts-and-crafts, activities/holidays, activities/ideas]
+guides: [activities/arts-and-crafts, activities/holidays, activities/ideas, activities/pen-pals-for-older-adults]
 related: [make-a-memory-collage, press-leaves-and-flowers, make-a-button-picture]
 published: 2026-11-13
 updated: 2026-11-13
