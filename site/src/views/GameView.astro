@@ -1,4 +1,5 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AppCta from '../components/AppCta.astro';
@@ -14,6 +15,9 @@ import { findGuide } from '../i18n/guides';
 import { playProps } from '../i18n/play';
 import { fill, ui } from '../i18n/ui';
 import '../styles/games.css';
+import '../styles/activities.css';
+import { GAME_ACTIVITIES } from '../data/game-activities';
+import { TYPE_LABELS, glance } from '../lib/activities';
 import PicturePairs from '../games/PicturePairs';
 import FindTheSame from '../games/FindTheSame';
 import ShadowMatch from '../games/ShadowMatch';
@@ -59,6 +63,14 @@ const guides = (
 
 const ogImage = `/og/games/${game.slug}.png`;
 const faq = [...game.faq, appFaqFor(game.slug, lang)];
+// Activity cards are English-first, so other languages skip this section.
+const cards = await getCollection('activityCards');
+const awayFromScreen =
+  lang === 'en'
+    ? (GAME_ACTIVITIES[game.slug as keyof typeof GAME_ACTIVITIES] ?? [])
+        .map((slug) => cards.find((a) => a.id === slug))
+        .filter((a) => a !== undefined)
+    : [];
 const jsonLd = [
   gameSchema({ path, name: game.name, description: game.description, image: ogImage, isGame: !NON_GAMES.has(game.slug), lang: localeInfo(lang).htmlLang }),
   breadcrumbs(crumbs, lang),
@@ -137,6 +149,28 @@ const photo = s === 'photo-pairs';
         </div>
       </aside>
     </div>
+
+    {
+      awayFromScreen.length > 0 && (
+        <section class="section" aria-labelledby="away-from-screen">
+          <p class="eyebrow">Activity cards</p>
+          <h2 id="away-from-screen">Try it away from the screen</h2>
+          <p>The same kind of fun with your hands, at the table. Each card has simple steps, an easier version and a page to print.</p>
+          <ul class="activity-grid">
+            {awayFromScreen.map((a) => (
+              <li>
+                <a class="activity-card" href={`/activity/${a.id}/`}>
+                  <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
+                  <span class="activity-card__name">{a.data.name}</span>
+                  <span class="activity-card__summary">{a.data.summary}</span>
+                  <span class="activity-card__glance">{glance(a.data).slice(0, 3).join(' · ')}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
 
     <AppCta placement="game" lang={lang} />
 

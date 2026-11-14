@@ -3,6 +3,7 @@ name: Draw repeating patterns
 seoTitle: "Draw Repeating Patterns: A Calm Pencil Activity"
 description: "Fill boxes on a page with lines, loops and dots using a soft pencil or marker. There is no subject and no right answer, and it has easier and bedside versions."
 summary: Fill boxes on a page with simple repeating lines, loops and dots.
+enjoy: "People who enjoy doodling, knitting or any work with a steady rhythm, and those who prefer simple tasks with no right answer. Suits a quiet afternoon when conversation feels like too much."
 type: art
 prepMinutes: 3
 activityMinutes: [10, 30]
@@ -44,7 +45,7 @@ safety:
   - "Put the caps back on markers when not in use, since they dry out and can stain skin."
   - "If a ruler is used, choose one with a rounded edge, or none at all."
 stopNote: "It is fine to stop after one box or a few lines. Put the page aside and look at it together later, or simply watch the marks being made without adding more."
-guides: [activities/coloring, activities/arts-and-crafts, activities/sensory]
+guides: [activities/coloring, activities/arts-and-crafts, activities/sensory, activities/drawing-and-painting-to-relax]
 related: [sketch-what-is-on-the-table, draw-to-music, paint-a-shared-picture]
 published: 2026-11-13
 updated: 2026-11-13

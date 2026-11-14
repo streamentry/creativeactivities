@@ -3,6 +3,7 @@ name: Weave paper strips
 seoTitle: "Weave Paper Strips: A Simple Over-and-Under Craft"
 description: "Weave colored paper strips over and under on a card base that the helper has slit in advance. A calm, hands-on seated craft with low cost and easier versions."
 summary: Weave colored paper strips over and under a card base that the helper has already slit.
+enjoy: "People who enjoy weaving, basketry or any repeated over-and-under task with a clear rhythm. Good for someone who likes steady, predictable steps with a visible result."
 type: craft
 prepMinutes: 15
 activityMinutes: [15, 30]
@@ -46,7 +47,7 @@ safety:
   - "Check the slit edges for sharp corners, and round them off with the helper before weaving."
   - "Use a glue stick or low-tack tape, and keep small pieces away from the mouth."
 stopNote: "It is fine to stop after one row. Leave the card on the table with the strips in place, and carry on another time, or just enjoy the colors."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/art-supplies-for-older-adults]
 related: [make-a-color-collage, tear-paper-mosaic, make-a-paper-chain-garland]
 published: 2026-11-13
 updated: 2026-11-13

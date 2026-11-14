@@ -3,6 +3,7 @@ name: Make a memory collage
 seoTitle: "Memory Collage: A Relaxed Craft to Make Together"
 description: "Make a memory collage together from photos, magazine pictures and paper. 10 minutes to set up, seated at a table, low cost, with easier and bedside versions."
 summary: A relaxed creative activity using photos, magazine pictures and paper.
+enjoy: "People who like looking through photos, talking about places they have lived, or telling stories about family and friends. Good for a conversation-led afternoon at a table."
 type: craft
 prepMinutes: 10
 activityMinutes: [15, 30]

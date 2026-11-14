@@ -3,6 +3,7 @@ name: Make a paper chain garland
 seoTitle: "Make a Paper Chain Garland Together: An Easy Craft"
 description: "Make a paper chain garland together from strips of colored paper, a link at a time. Low cost, repetitive and easy to share, for a room, a party or a season."
 summary: A long garland of looped paper strips, made one link at a time and hung up to brighten a room.
+enjoy: "People who enjoy festive decorations, parties or brightening a room, and anyone who likes simple repeated steps. Good for a group that wants something to hang up together."
 type: craft
 prepMinutes: 10
 activityMinutes: [10, 40]
@@ -47,7 +48,7 @@ safety:
   - "Hang the finished garland well away from candles, heaters and lamps."
   - "Hang it high enough that it will not catch on walkers, wheelchairs or feet, and use a steady step stool, not a chair."
 stopNote: "It is fine to stop after a few links. A short chain still looks cheerful on a doorknob, and you can add to it any time; it never needs to be finished."
-guides: [activities/holidays, activities/arts-and-crafts, activities/care-home-groups]
+guides: [activities/holidays, activities/arts-and-crafts, activities/care-home-groups, activities/group-art-activities]
 related: [make-a-greeting-card, fold-a-paper-boat, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-13

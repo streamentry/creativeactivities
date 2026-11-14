@@ -30,11 +30,12 @@ pnpm preview             # serves dist/ with the real Workers runtime, headers a
 | --- | --- |
 | `src/pages/` | Routes: home, `games/`, `[section]/` guides and hubs, legal pages, `robots.txt`, `llms.txt`, `llms-full.txt`, manifest, `pictures/[id].svg` |
 | `src/content/activity-cards/*.md` | The English activity cards, served at `/activity/<slug>/` and filtered at `/activity/`. Logic and content checks in `src/lib/activities.ts` and its test |
-| `src/content/guides/<section>/*.md` | The 78 English guides. Frontmatter is validated by `src/content.config.ts` |
+| `src/content/hubs/*.md` | Search hubs by situation, each served at `/<id>/` by a one-line `src/pages/<id>.astro` and rendered by `src/views/HubView.astro`; checks in `src/lib/hubs.test.ts` |
+| `src/content/guides/<section>/*.md` | The English guides (88 on 2026-11-14). Frontmatter is validated by `src/content.config.ts` |
 | `src/games/` | One React island per game, plus `shared/` (frame, tiles, chips, settings store, sound) |
 | `src/lib/games/` | Pure game logic with unit tests (`games.test.ts`) |
 | `src/data/` | Game registry, picture library, sayings, conversation prompts, word themes, coloring pages |
-| `src/lib/schema.ts` | JSON-LD builders (WebSite, Organization, Article/MedicalWebPage, FAQPage, VideoGame, BreadcrumbList) |
+| `src/lib/schema.ts` | JSON-LD builders (WebSite, Organization, Article/MedicalWebPage, FAQPage, VideoGame, HowTo, ItemList, BreadcrumbList) |
 | `src/styles/` | Tokens from `DESIGN.md`, base, components and game styles. Light theme only |
 | `public/` | Fonts, icons, share images, `_headers` (security and cache headers) |
 | `scripts/` | `check-site.mjs` (post-build checks), `verify-live-legal.mjs` (deployed legal pages) and `make-images.py` (icons and share images) |

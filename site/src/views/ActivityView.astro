@@ -8,6 +8,7 @@ import { SITE } from '../lib/site';
 import { breadcrumbs, howTo } from '../lib/schema';
 import { TYPE_LABELS, VARIATION_LABELS, factList, glance } from '../lib/activities';
 import { findGuide } from '../i18n/guides';
+import { qrSvg } from '../lib/qr';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -20,6 +21,7 @@ const crumbs = [
   { href: '/activity/', label: 'Find an activity' },
   { href: path, label: d.name },
 ];
+const qr = qrSvg(`${SITE.url}${path}`, `QR code for the ${d.name} page`);
 const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
@@ -50,20 +52,21 @@ const jsonLd = [
   breadcrumbs(crumbs),
 ];
 ---
-<BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" jsonLd={jsonLd}>
+<BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" image="/og/activities.png" jsonLd={jsonLd}>
   <Breadcrumbs items={crumbs} />
   <div class="container activity">
     <header class="activity-head">
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
       <h1>{d.name}</h1>
       <p class="activity-head__summary">{d.summary}</p>
+      {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
       <p class="activity-glance">
         {glance(d).map((fact) => <span>{fact}</span>)}
       </p>
       <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
-        <button type="button" class="btn" data-print><Icon name="print" />Print one-page card</button>
+        <button type="button" class="btn" data-print><Icon name="print" />Print the card</button>
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
         </button>
@@ -103,7 +106,7 @@ const jsonLd = [
           <p>{d.stopNote}</p>
         </section>
 
-        <section aria-labelledby="adapt">
+        <section class="activity-adapt" aria-labelledby="adapt">
           <h2 id="adapt">Make it easier or different</h2>
           <dl class="activity-variations">
             {
@@ -168,10 +171,11 @@ const jsonLd = [
 
     <footer class="activity-byline">
       <p>
-        By {d.author}.
-        {d.reviewer ? <>Reviewed by {d.reviewer}.</> : <>Not yet reviewed by an outside expert.</>}
-        Published <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated
-        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.
+        {/* Explicit spaces: Astro drops the line breaks between text, expressions and tags. */}
+        By {d.author}.{' '}
+        {d.reviewer ? <>Reviewed by {d.reviewer}.</> : <>Not yet reviewed by an outside expert.</>}{' '}
+        Published <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated{' '}
+        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.{' '}
         <a href="/editorial-policy/">How we write</a> · <a href="/support/">Report a mistake</a>
       </p>
       {
@@ -187,7 +191,13 @@ const jsonLd = [
           </p>
         )
       }
-      <p class="print-only">{SITE.domain}{path} · Free to print and share for personal and noncommercial use.</p>
+      <div class="print-only print-qr">
+        <Fragment set:html={qr} />
+        <p>
+          Scan for easier versions, safety notes and more ideas, or visit {SITE.domain}{path}.
+          Free to print and share for personal and noncommercial use.
+        </p>
+      </div>
     </footer>
   </div>
 </BaseLayout>

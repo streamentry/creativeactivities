@@ -3,6 +3,7 @@ name: Make a torn paper mosaic
 seoTitle: "Torn Paper Mosaic: A No-Scissors Craft to Share"
 description: "Tear colored paper into pieces and glue them into a simple mosaic together. No scissors needed, low cost, seated at a table, with easier and bedside versions."
 summary: A picture built from small pieces of torn colored paper, with no scissors and no right way to place them.
+enjoy: "People who like collage, mosaics or making bright pictures from many small pieces. A good choice for someone who enjoys tearing and placing things without needing a plan."
 type: craft
 prepMinutes: 10
 activityMinutes: [15, 40]
@@ -47,7 +48,7 @@ safety:
   - "Use a glue stick rather than liquid glue; check for skin sensitivity first."
   - "Glossy magazine edges can occasionally nick skin, so offer softer paper if that is a concern."
 stopNote: "It is fine to stop when only part of the shape is filled. A half-finished mosaic still looks good, and you can add more another day or leave it as it is."
-guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage]
+guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage, activities/group-art-activities]
 related: [make-a-memory-collage, make-a-button-picture, make-a-texture-board]
 published: 2026-11-13
 updated: 2026-11-13

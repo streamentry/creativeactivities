@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+  /** Which variation to show at the foot of the card, if any. */
+  variation?: string;
+}
+const { activity, variation } = Astro.props;
+const d = activity.data;
+const alt = variation ? d.variations.find((v) => v.kind === variation) : undefined;
+---
+<a class="activity-card" href={`/activity/${activity.id}/`}>
+  <span class="activity-card__type">{TYPE_LABELS[d.type]}</span>
+  <span class="activity-card__name">{d.name}</span>
+  <span class="activity-card__summary">{d.summary}</span>
+  <span class="activity-card__glance">{glance(d).join(' · ')}</span>
+  {
+    alt && (
+      <span class="activity-card__easier">
+        <strong>{VARIATION_LABELS[alt.kind]}:</strong> {alt.text}
+      </span>
+    )
+  }
+</a>
