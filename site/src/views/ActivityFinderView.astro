@@ -28,7 +28,7 @@ const groups = Object.entries(GROUP_LABELS);
 const easier = (kinds: { kind: string; text: string }[]) =>
   kinds.find((v) => v.kind === 'easier') ?? kinds.find((v) => v.kind === 'bedside') ?? kinds[0];
 ---
-<BaseLayout title={title} description={description} jsonLd={[breadcrumbs(crumbs)]}>
+<BaseLayout title={title} description={description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
   <Breadcrumbs items={crumbs} />
   <div class="container">
     <header class="page-head">
