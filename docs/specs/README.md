@@ -2,6 +2,8 @@
 
 ## Start here
 
+For the whole-platform ambition (every pillar, feature, game and content programme for creativeactivities.org and the app, sequenced by evidence gates), read the [global specification](global/README.md). It extends, and does not replace, the documents below.
+
 Read [the product contract](product.md), then the [senior-first specification](senior-first/README.md). The latter is the complete proposed feature plan for becoming a preferred simple picture-activity app for older adults and their families, not a claim of market leadership.
 
 | Need | Canonical document |
