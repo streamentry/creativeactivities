@@ -81,6 +81,14 @@ describe('activity cards on disk', () => {
       }
     });
 
+    it(`${slug}: suggests who might enjoy it by interest, never by label`, () => {
+      const enjoy = text.match(/^enjoy: "(.*)"$/m)?.[1]?.toLowerCase();
+      if (!enjoy) return;
+      for (const label of ['dementia', 'alzheimer', 'memory', 'diagnos', 'stage', 'elderly', 'senior', 'calming']) {
+        expect(enjoy.includes(label), `${slug} enjoy line says "${label}"`).toBe(false);
+      }
+    });
+
     it(`${slug}: avoids clinical and test-like claims`, () => {
       const body = text.toLowerCase();
       for (const banned of ['therapy', 'therapeutic', 'cognitive', 'brain', 'improve memory', 'improves memory', 'do you remember', 'patient']) {

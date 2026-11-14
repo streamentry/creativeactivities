@@ -102,6 +102,8 @@ const activityCards = defineCollection({
       description: z.string().min(110).max(165),
       /** One plain sentence: what you make or do together. */
       summary: z.string().min(30).max(140),
+      /** Who might enjoy it: interests and preferences, never a diagnosis (VISION.md). */
+      enjoy: z.string().min(40).max(220).optional(),
       type: z.enum(ACTIVITY_TYPES),
       prepMinutes: z.number().int().min(0).max(60),
       activityMinutes: z.tuple([z.number().int().min(5), z.number().int().max(90)]),

@@ -3,6 +3,7 @@ name: Fold a paper boat
 seoTitle: "Fold a Paper Boat Together: A Simple Folding Craft"
 description: "Fold a classic paper boat together from one sheet of paper, then float it in a basin. No glue or scissors, free, with easier and group versions to try."
 summary: A classic folded paper boat made from a single sheet, which you can float together in a basin of water.
+enjoy: "People who grew up near water, went boating or enjoyed making things for children and grandchildren. A good match for anyone who likes familiar, hands-on folding."
 type: craft
 prepMinutes: 5
 activityMinutes: [10, 30]

@@ -3,6 +3,7 @@ name: Plant seeds in a pot
 seoTitle: "Plant Seeds in a Pot: An Easy Gardening Activity"
 description: "Plant large, easy seeds in a pot together, at a table or outdoors. Ten minutes to set up, low cost, with seated, easier and with-children versions."
 summary: Fill a pot with soil, press in a few large seeds and water them together.
+enjoy: "People who have grown vegetables, flowers or herbs, or who like watching things grow. Good for someone who enjoys steady routines such as watering and checking on a plant each day."
 type: nature
 prepMinutes: 10
 activityMinutes: [15, 30]
