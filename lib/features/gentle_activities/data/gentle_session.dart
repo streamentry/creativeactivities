@@ -1,7 +1,7 @@
 import 'dart:convert';
 
+import 'package:creative_activities/features/gentle_activities/models/gentle_board.dart';
 import 'package:flutter/foundation.dart';
-import 'package:golden_moments/features/gentle_activities/models/gentle_board.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// An unfinished matching board that can be picked up again (GM-004).

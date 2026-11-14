@@ -1,8 +1,8 @@
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/reminders/data/reminder_settings.dart';
-import 'package:golden_moments/features/todays_activity/data/todays_activity.dart';
-import 'package:golden_moments/features/wellbeing/data/daily_moment_pictures.dart';
-import 'package:golden_moments/l10n/l10n.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/reminders/data/reminder_settings.dart';
+import 'package:creative_activities/features/todays_activity/data/todays_activity.dart';
+import 'package:creative_activities/features/wellbeing/data/daily_moment_pictures.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 
 /// One reminder on one date, at the chosen local wall-clock time.
 typedef PlannedReminder = ({DateTime at, String title, String body});

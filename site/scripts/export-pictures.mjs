@@ -99,7 +99,7 @@ const dart = [
   '// and site/src/i18n/play/*.json. Do not edit; run the script instead.',
   '// dart format off',
   '// coverage:ignore-file',
-  "import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';",
+  "import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';",
   '',
   '/// The drawings shared with the website, in the website\'s order.',
   'const pictureLibrary = <ActivityPicture>[',

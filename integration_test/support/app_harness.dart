@@ -1,9 +1,9 @@
 import 'dart:io';
 
+import 'package:creative_activities/app/app.dart';
+import 'package:creative_activities/bootstrap.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/app/app.dart';
-import 'package:golden_moments/bootstrap.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';

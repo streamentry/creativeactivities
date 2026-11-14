@@ -1,7 +1,7 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/utils/share_util.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/utils/share_util.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -77,7 +77,7 @@ class ShareInvitationStore {
 /// Opens the system share sheet. Returns true only when the platform reports
 /// that something was actually shared. [l10n] supplies the message in the
 /// app's language.
-Future<bool> shareGoldenMoments(AppLocalizations l10n) async {
+Future<bool> shareCreativeActivities(AppLocalizations l10n) async {
   try {
     final result = await SharePlus.instance.share(
       ShareParams(text: appShareText(l10n), subject: l10n.appTitle),
@@ -91,7 +91,7 @@ Future<bool> shareGoldenMoments(AppLocalizations l10n) async {
 /// Shares and, if it worked, stops future suggestions. Returns whether
 /// something was shared.
 Future<bool> shareAndRemember(AppLocalizations l10n) async {
-  if (!await shareGoldenMoments(l10n)) return false;
+  if (!await shareCreativeActivities(l10n)) return false;
   try {
     await (await ShareInvitationStore.load()).markShared();
   } on Object {

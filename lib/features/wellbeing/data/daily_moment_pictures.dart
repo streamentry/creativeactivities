@@ -1,4 +1,4 @@
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
 
 /// Where step [step] of the Daily moment on [day] starts in a picture list.
 /// The day of the year moves the starting point, so the same moment does not

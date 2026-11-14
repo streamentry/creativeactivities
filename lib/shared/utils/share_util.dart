@@ -1,5 +1,5 @@
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/foundation.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// Google Play listing for the Android package.
 const playStoreUrl =

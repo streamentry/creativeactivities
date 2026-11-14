@@ -3,6 +3,7 @@ name: Paint with watercolors
 seoTitle: "Paint With Watercolors Together: A Relaxed Art Activity"
 description: "Paint with watercolors together, letting colors run and blend on wet paper. Non-toxic paint, 10 minutes to set up, seated at a table, no drawing skill needed."
 summary: Loose, colorful washes of watercolor paint on paper, where blending and running colors are the whole point.
+enjoy: "People who enjoy painting, drawing landscapes or spending time with color, and anyone who likes loose, unplanned results. Suits a quiet session where nothing has to look a particular way."
 type: art
 prepMinutes: 10
 activityMinutes: [15, 40]
@@ -49,7 +50,7 @@ safety:
   - "Wash paint off skin with warm water and soap, and check first for any skin sensitivity."
   - "Wipe up spilled water promptly so floors do not become slippery."
 stopNote: "It is fine to stop after one wash of color. Leave the paper to dry somewhere flat and offer to paint again another day, or simply look at it together."
-guides: [activities/art-projects, activities/arts-and-crafts, activities/sensory]
+guides: [activities/art-projects, activities/arts-and-crafts, activities/sensory, activities/drawing-and-painting-to-relax, activities/art-supplies-for-older-adults]
 related: [draw-to-music, paint-a-garden-stone, tear-paper-mosaic]
 published: 2026-11-13
 updated: 2026-11-13

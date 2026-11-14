@@ -1,6 +1,6 @@
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// Lays out pack cards in rows whose height follows their content, so cards
 /// grow with the system text size instead of clipping at 200% text.

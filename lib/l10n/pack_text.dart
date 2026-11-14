@@ -1,10 +1,10 @@
 import 'dart:convert';
 
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/models/pack.dart';
 import 'package:flutter/foundation.dart' hide Category;
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/models/pack.dart';
 
 /// Picture-pack text in the app language: topic names and descriptions,
 /// pack titles, descriptions and themes, and picture captions.

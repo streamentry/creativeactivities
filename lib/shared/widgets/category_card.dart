@@ -1,12 +1,12 @@
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/pack/presentation/screens/pack_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/l10n/pack_text.dart';
+import 'package:creative_activities/shared/widgets/download_progress_card.dart';
+import 'package:creative_activities/shared/widgets/gm_mounted_picture.dart';
+import 'package:creative_activities/shared/widgets/pressable.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/pack/presentation/screens/pack_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/l10n/pack_text.dart';
-import 'package:golden_moments/shared/widgets/download_progress_card.dart';
-import 'package:golden_moments/shared/widgets/gm_mounted_picture.dart';
-import 'package:golden_moments/shared/widgets/pressable.dart';
 
 /// Card widget for displaying a game pack
 class CategoryCard extends StatelessWidget {

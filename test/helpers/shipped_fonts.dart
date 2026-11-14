@@ -1,5 +1,5 @@
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/services.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// Loads the bundled family (DESIGN.md › Type), so headline and label widths
 /// in a test are the shipped ones rather than the square test font's, which

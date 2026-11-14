@@ -1,9 +1,9 @@
 import 'dart:async';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/wellbeing/data/moment_history.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/wellbeing/data/moment_history.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// My progress: the days a Daily moment was finished, newest first, kept on
 /// this phone. It shows dates only. There is no count, score, streak or list

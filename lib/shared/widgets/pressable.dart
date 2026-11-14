@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:creative_activities/data/services/sound_service.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/data/services/sound_service.dart';
 
 /// A reusable pressable surface with a ripple and an optional tap sound.
 ///

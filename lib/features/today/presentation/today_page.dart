@@ -1,13 +1,13 @@
 import 'dart:async';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_collection_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/today/data/today_notes.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/gentle_game_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_collection_page.dart';
-import 'package:golden_moments/features/gentle_activities/presentation/photo_together_page.dart';
-import 'package:golden_moments/features/today/data/today_notes.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:share_plus/share_plus.dart';
 
 /// Hands the notes to the system share sheet; replaceable in tests.

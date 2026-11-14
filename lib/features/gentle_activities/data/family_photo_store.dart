@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
 
+import 'package:creative_activities/features/gentle_activities/data/owned_files.dart';
 import 'package:crypto/crypto.dart';
-import 'package:golden_moments/features/gentle_activities/data/owned_files.dart';
 
 /// Stores normalized PNG copies in an app-owned directory, never originals.
 /// File names are content hashes, not user-provided paths or person names.

@@ -1,8 +1,8 @@
+import 'package:creative_activities/shared/native/gm_native.dart';
+import 'package:creative_activities/shared/rating/review_request.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/shared/native/gm_native.dart';
-import 'package:golden_moments/shared/rating/review_request.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {

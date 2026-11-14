@@ -1,5 +1,5 @@
+import 'package:creative_activities/data/models/image.dart';
 import 'package:equatable/equatable.dart';
-import 'package:golden_moments/data/models/image.dart';
 
 /// Represents a single tile in the memory matching game
 class GameTile extends Equatable {

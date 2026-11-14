@@ -3,6 +3,7 @@ name: Print with leaves
 seoTitle: "Print with Leaves: A Simple Nature Art Activity"
 description: "Paint the back of a leaf, press it onto paper and lift it to see the veins in color. Outdoors or at a table, free to make, with easier and seated versions."
 summary: Paint the back of a leaf, press it onto paper and lift it to reveal the printed veins.
+enjoy: "People who enjoy being outdoors, spotting trees and plants, or noticing small patterns in nature. Good for someone who likes a simple, surprising result they can hold in their hands."
 type: nature
 prepMinutes: 10
 activityMinutes: [15, 30]

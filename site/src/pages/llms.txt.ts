@@ -46,6 +46,7 @@ export const GET: APIRoute = async () => {
   const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
   const languages = languageSection(await languageSupport(guides.length));
   const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+  const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const lines: string[] = [
     `# ${SITE.name} (${SITE.domain})`,
     '',
@@ -66,6 +67,9 @@ export const GET: APIRoute = async () => {
     `- Requirements: ${APP.requirements}.`,
     `- App Store: ${SITE.appStoreUrl}`,
     `- Google Play: ${SITE.playStoreUrl}`,
+    '',
+    '## Activities by situation (English)',
+    ...hubs.map((h) => `- [${h.data.title}](${SITE.url}/${h.id}/): ${h.data.description}`),
     '',
     '## Activity cards (English)',
     `- [Find an activity](${SITE.url}/activity/): filter by time, materials, type, setting and who is taking part.`,

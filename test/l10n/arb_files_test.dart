@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:ui';
 
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 
 /// The 20 app languages (GM-036). `pt` and `zh` are the base files Flutter's
 /// generator requires next to `pt_BR`, `zh_Hans` and `zh_Hant`.

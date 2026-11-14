@@ -6,8 +6,10 @@ import '../styles/activities.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { breadcrumbs } from '../lib/schema';
 import {
+  ENERGY_CHOICES,
   GROUP_LABELS,
   MATERIAL_CHOICES,
+  MESS_CHOICES,
   SETTING_LABELS,
   TIME_CHOICES,
   TYPE_LABELS,
@@ -15,6 +17,7 @@ import {
   glance,
 } from '../lib/activities';
 
+const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 const crumbs = [{ href: '/activity/', label: 'Find an activity' }];
 const title = 'Find an Activity to Do Together';
@@ -26,7 +29,7 @@ const groups = Object.entries(GROUP_LABELS);
 const easier = (kinds: { kind: string; text: string }[]) =>
   kinds.find((v) => v.kind === 'easier') ?? kinds.find((v) => v.kind === 'bedside') ?? kinds[0];
 ---
-<BaseLayout title={title} description={description} jsonLd={[breadcrumbs(crumbs)]}>
+<BaseLayout title={title} description={description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
   <Breadcrumbs items={crumbs} />
   <div class="container">
     <header class="page-head">
@@ -34,7 +37,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       <h1>What would you like to do together?</h1>
       <p class="lede">
         Every activity here can start with everyday things, needs no account and comes with an easier version and a
-        one-page card to print. Choose as much or as little as you like below. “Any” is always fine.
+        card to print. Choose as much or as little as you like below. “Any” is always fine.
       </p>
       {
         PACKS.map((p) => (
@@ -115,6 +118,28 @@ const easier = (kinds: { kind: string; text: string }[]) =>
             ))
           }
         </fieldset>
+        <fieldset>
+          <legend>How much mess is okay?</legend>
+          {
+            MESS_CHOICES.map((c) => (
+              <label class="choice">
+                <input type="radio" name="mess" value={c.value} checked={c.value === 'any'} />
+                <span>{c.label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <fieldset>
+          <legend>How much energy is there today?</legend>
+          {
+            ENERGY_CHOICES.map((c) => (
+              <label class="choice">
+                <input type="radio" name="energy" value={c.value} checked={c.value === 'any'} />
+                <span>{c.label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
         <p class="muted">We never ask about a diagnosis. Fit the activity to the moment, not to a label.</p>
       </details>
     </form>
@@ -134,12 +159,15 @@ const easier = (kinds: { kind: string; text: string }[]) =>
               data-min={a.data.activityMinutes[0]}
               data-settings={a.data.settings.join(' ')}
               data-groups={a.data.groups.join(' ')}
+              data-mess={a.data.mess}
+              data-energy={a.data.energy}
             >
               <a class="activity-card" href={`/activity/${a.id}/`}>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
                 <span class="activity-card__name">{a.data.name}</span>
                 <span class="activity-card__summary">{a.data.summary}</span>
                 <span class="activity-card__glance">{glance(a.data).join(' · ')}</span>
+                <span class="activity-card__why" hidden />
                 <span class="activity-card__easier">
                   <strong>{VARIATION_LABELS[alt.kind]}:</strong> {alt.text}
                 </span>
@@ -153,11 +181,26 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       Nothing fits all of those choices yet. Try “Any” for one of them, or <a href="/activities/ideas/">browse more
       activity ideas</a>.
     </p>
+
+    {
+      hubs.length > 0 && (
+        <nav class="hub-next" aria-labelledby="by-situation">
+          <h2 id="by-situation">Browse by situation</h2>
+          <ul class="activity-list">
+            {hubs.map((h) => (
+              <li>
+                <a href={`/${h.id}/`}>{h.data.title}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
   </div>
 </BaseLayout>
 
 <script>
-  import { matches, type ActivityFacts, type FinderChoice } from '../lib/activities';
+  import { fitReasons, matches, type ActivityFacts, type FinderChoice } from '../lib/activities';
 
   const form = document.getElementById('finder') as HTMLFormElement | null;
   const items = [...document.querySelectorAll<HTMLLIElement>('#finder-results > li')];
@@ -173,8 +216,8 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       settings: (d.settings ?? '').split(' ') as ActivityFacts['settings'],
       groups: (d.groups ?? '').split(' ') as ActivityFacts['groups'],
       prepMinutes: 0,
-      mess: 'low',
-      energy: 'low',
+      mess: d.mess as ActivityFacts['mess'],
+      energy: d.energy as ActivityFacts['energy'],
       supervision: 'nearby',
     };
   }
@@ -183,12 +226,18 @@ const easier = (kinds: { kind: string; text: string }[]) =>
     if (!form) return;
     const data = new FormData(form);
     const choice: FinderChoice = Object.fromEntries(
-      ['time', 'materials', 'type', 'setting', 'group'].map((k) => [k, String(data.get(k) ?? 'any')]),
+      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy'].map((k) => [k, String(data.get(k) ?? 'any')]),
     );
     let shown = 0;
     for (const li of items) {
       const fits = matches(facts(li), choice);
       li.hidden = !fits;
+      const why = li.querySelector<HTMLElement>('.activity-card__why');
+      const reasons = fits ? fitReasons(facts(li), choice) : [];
+      if (why) {
+        why.hidden = reasons.length === 0;
+        why.textContent = reasons.length > 0 ? `Why it fits: ${reasons.join(', ')}.` : '';
+      }
       if (fits) shown += 1;
     }
     if (count) {

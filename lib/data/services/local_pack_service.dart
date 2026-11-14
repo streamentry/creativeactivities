@@ -1,9 +1,9 @@
 import 'dart:convert';
 
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/data/models/packs_index.dart';
 import 'package:flutter/services.dart';
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/data/models/packs_index.dart';
 
 /// Service for loading pack data from local JSON files
 class LocalPackService {

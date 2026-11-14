@@ -3,6 +3,7 @@ name: Make a lavender sachet
 seoTitle: "Make a Lavender Sachet: A Simple No-Sew Craft"
 description: "Fill and tie a small fabric sachet with dried lavender together. No sewing, five minutes to set up, low cost, with bedside, unscented and easier versions."
 summary: Spoon dried lavender onto a square of fabric and tie it into a small scented bundle.
+enjoy: "People who enjoy gardens, soft scents or handcrafts, and anyone who likes a small, neat project to take home. Offer a quiet choice of scent first."
 type: sensory
 prepMinutes: 5
 activityMinutes: [10, 25]

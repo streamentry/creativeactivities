@@ -1,9 +1,9 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/fallback_localizations.dart';
+import 'package:creative_activities/l10n/script_typography.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/fallback_localizations.dart';
-import 'package:golden_moments/l10n/script_typography.dart';
 
 void main() {
   group('line height for tall scripts', () {
