@@ -121,6 +121,16 @@ describe('activity cards on disk', () => {
       }
     });
 
+    it(`${slug}: has the variation its settings and groups promise`, () => {
+      // The finder and hubs offer a card for bedside or with grandchildren; the card must say how.
+      const kinds = [...text.matchAll(/kind: ([a-z-]+)/g)].map((m) => m[1]);
+      if (list(text, 'settings').includes('bedside')) expect(kinds, `${slug} needs a bedside variation`).toContain('bedside');
+      if (list(text, 'groups').includes('intergenerational')) {
+        expect(kinds, `${slug} needs a with-children variation`).toContain('with-children');
+      }
+      expect(kinds).toContain('easier');
+    });
+
     it(`${slug}: suggests who might enjoy it by interest, never by label`, () => {
       const enjoy = text.match(/^enjoy: "(.*)"$/m)?.[1]?.toLowerCase();
       if (!enjoy) return;

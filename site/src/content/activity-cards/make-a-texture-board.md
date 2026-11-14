@@ -44,6 +44,8 @@ variations:
     text: "Use only soft, quiet fabrics and leave out anything crinkly, scratchy or noisy like bubble wrap."
   - kind: more-collaborative
     text: "Each person adds one texture to a shared board, then you pass it around and compare favorites."
+  - kind: with-children
+    text: "A child finds and sorts the textures; the grandparent decides where each one goes. Use white glue only, and keep any hot glue gun with an adult."
 safety:
   - "Glue all pieces firmly. Buttons, caps and beads are choking risks if they come loose and might be put in the mouth."
   - "If small pieces might be mouthed, leave out buttons and caps and use only large fabric pieces."
