@@ -114,6 +114,10 @@ Cloudflare account. The `workers.dev` address is turned off.
   `www.dementiaactivities.games` that 301-redirects to the apex, keeping path
   and query. Deploy it with `cd redirect-www && ../node_modules/.bin/wrangler deploy`
   (only needed if it changes).
+- **www for creativeactivities.org:** `redirect-www-creative/` is a separate
+  Worker on `www.creativeactivities.org` that 301-redirects to the apex. Deploy
+  it with `cd redirect-www-creative && ../node_modules/.bin/wrangler deploy`.
+  It never touches dementiaactivities.games, a separate product.
 - **Email:** Cloudflare Email Routing forwards `web@dementiaactivities.games`
   to the maintainer's verified inbox (rule "Website contact", tested
   2026-10-25). Manage it with `pnpm exec wrangler email routing rules list dementiaactivities.games`.
