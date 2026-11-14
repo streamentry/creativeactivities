@@ -9,6 +9,8 @@ import { breadcrumbs, itemList } from '../lib/schema';
 import {
   ENERGY_CHOICES,
   SUPERVISION_CHOICES,
+  SENSE_CHOICES,
+  TALKING_CHOICES,
   GROUP_LABELS,
   MATERIAL_CHOICES,
   MESS_CHOICES,
@@ -153,6 +155,28 @@ const easier = (kinds: { kind: string; text: string }[]) =>
           }
         </fieldset>
         <fieldset>
+          <legend>What do they enjoy most?</legend>
+          {
+            SENSE_CHOICES.map((c) => (
+              <label class="choice">
+                <input type="radio" name="sense" value={c.value} checked={c.value === 'any'} />
+                <span>{c.label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <fieldset>
+          <legend>How much talking?</legend>
+          {
+            TALKING_CHOICES.map((c) => (
+              <label class="choice">
+                <input type="radio" name="talking" value={c.value} checked={c.value === 'any'} />
+                <span>{c.label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
+        <fieldset>
           <legend>How much help can you give?</legend>
           {
             SUPERVISION_CHOICES.map((c) => (
@@ -186,6 +210,8 @@ const easier = (kinds: { kind: string; text: string }[]) =>
               data-mess={a.data.mess}
               data-energy={a.data.energy}
               data-supervision={a.data.supervision}
+              data-senses={a.data.senses.join(' ')}
+              data-variations={a.data.variations.map((v) => v.kind).join(' ')}
             >
               <a class="activity-card" href={`/activity/${a.id}/`}>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
@@ -227,7 +253,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 </BaseLayout>
 
 <script>
-  import { fitReasons, matches, type ActivityFacts, type FinderChoice } from '../lib/activities';
+  import { fitReasons, matches, type ActivityFacts, type ActivitySense, type FinderChoice } from '../lib/activities';
   import { browserStorage, loadSaved } from '../lib/saved-activities';
   import { matchesGuideSearch } from '../lib/guide-search';
 
@@ -248,6 +274,8 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       mess: d.mess as ActivityFacts['mess'],
       energy: d.energy as ActivityFacts['energy'],
       supervision: d.supervision as ActivityFacts['supervision'],
+      senses: (d.senses ?? '').split(' ').filter(Boolean) as ActivitySense[],
+      variationKinds: (d.variations ?? '').split(' ').filter(Boolean),
     };
   }
 
@@ -255,7 +283,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
     if (!form) return;
     const data = new FormData(form);
     const choice: FinderChoice = Object.fromEntries(
-      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision'].map((k) => [k, String(data.get(k) ?? 'any')]),
+      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision', 'sense', 'talking'].map((k) => [k, String(data.get(k) ?? 'any')]),
     );
     const words = String(data.get('words') ?? '');
     let shown = 0;

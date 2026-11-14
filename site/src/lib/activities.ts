@@ -7,6 +7,7 @@
 export type ActivityType = 'art' | 'craft' | 'nature' | 'music' | 'sensory' | 'conversation';
 export type ActivitySetting = 'tabletop' | 'seated' | 'bedside' | 'standing' | 'outdoors';
 export type ActivityGroup = 'one-to-one' | 'small-group' | 'intergenerational';
+export type ActivitySense = 'sight' | 'touch' | 'smell' | 'hearing' | 'movement';
 
 /** The fields the finder and the at-a-glance line need. */
 export interface ActivityFacts {
@@ -19,6 +20,10 @@ export interface ActivityFacts {
   supervision: 'nearby' | 'hands-on';
   settings: readonly ActivitySetting[];
   groups: readonly ActivityGroup[];
+  /** Senses the activity uses, from the card (optional for callers that only need the glance). */
+  senses?: readonly ActivitySense[];
+  /** Kinds of the written variations, e.g. 'less-sensory' or 'nonverbal'. */
+  variationKinds?: readonly string[];
 }
 
 export const TYPE_LABELS: Record<ActivityType, string> = {
@@ -114,6 +119,26 @@ export const ENERGY_CHOICES = [
   { value: 'any', label: 'Any', allows: ['low', 'medium'] },
 ] as const;
 
+/**
+ * Optional fit filters (DESIGN.md › Finder filters: sensory preferences and
+ * communication). Both read published card content only: the senses an activity
+ * uses, and whether a calmer or wordless version has been written for it.
+ */
+export const SENSE_CHOICES = [
+  { value: 'sight', label: 'Looking at things', reason: 'good to look at' },
+  { value: 'touch', label: 'Feeling textures', reason: 'something to handle' },
+  { value: 'hearing', label: 'Sounds and music', reason: 'uses sounds or music' },
+  { value: 'smell', label: 'Scents', reason: 'has scents to enjoy' },
+  { value: 'movement', label: 'Moving about', reason: 'involves gentle movement' },
+  { value: 'calm', label: 'Something calmer, with less to see or hear', reason: 'has a calmer version' },
+  { value: 'any', label: 'Any', reason: '' },
+] as const;
+
+export const TALKING_CHOICES = [
+  { value: 'none', label: 'It works without words' },
+  { value: 'any', label: 'Any' },
+] as const;
+
 /** Optional fit filter (DESIGN.md › Finder filters: supervision). */
 export const SUPERVISION_CHOICES = [
   { value: 'nearby', label: 'I can stay nearby, not help hands-on', allows: ['nearby'] },
@@ -129,6 +154,8 @@ export interface FinderChoice {
   mess?: string;
   energy?: string;
   supervision?: string;
+  sense?: string;
+  talking?: string;
 }
 
 const chosen = (value: string | undefined): value is string => value !== undefined && value !== 'any';
@@ -146,6 +173,13 @@ export function matches(a: ActivityFacts, c: FinderChoice): boolean {
   if (mess && !(mess.allows as readonly string[]).includes(a.mess)) return false;
   const energy = ENERGY_CHOICES.find((e) => e.value === c.energy);
   if (energy && !(energy.allows as readonly string[]).includes(a.energy)) return false;
+  if (chosen(c.sense)) {
+    const fits = c.sense === 'calm'
+      ? (a.variationKinds ?? []).includes('less-sensory')
+      : (a.senses ?? []).includes(c.sense as ActivitySense);
+    if (!fits) return false;
+  }
+  if (chosen(c.talking) && !(a.variationKinds ?? []).includes('nonverbal')) return false;
   const supervision = SUPERVISION_CHOICES.find((s) => s.value === c.supervision);
   if (supervision && !(supervision.allows as readonly string[]).includes(a.supervision)) return false;
   return true;
@@ -165,6 +199,9 @@ export function fitReasons(a: ActivityFacts, c: FinderChoice): string[] {
   }
   if (chosen(c.mess)) reasons.push(a.mess === 'none' ? 'no mess' : 'little or no mess');
   if (chosen(c.energy)) reasons.push('mostly sitting still');
+  const sense = SENSE_CHOICES.find((s) => s.value === c.sense);
+  if (sense && sense.reason) reasons.push(sense.reason);
+  if (chosen(c.talking)) reasons.push('works without words');
   if (chosen(c.supervision)) reasons.push('works with you nearby');
   return reasons;
 }
