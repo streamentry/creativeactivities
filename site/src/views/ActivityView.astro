@@ -5,6 +5,7 @@ import '../styles/activities.css';
 import '../styles/studio-activity.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
+import ActivityFeedback from '../components/ActivityFeedback.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs, howTo } from '../lib/schema';
 import { TYPE_LABELS, VARIATION_LABELS, factList, glance } from '../lib/activities';
@@ -116,6 +117,8 @@ const jsonLd = [
           <h2 id="stop">It is okay to stop or change it</h2>
           <p>{d.stopNote}</p>
         </section>
+
+        <ActivityFeedback activity={activity.id} />
 
         <section class="activity-adapt reveal" aria-labelledby="adapt">
           <h2 id="adapt">Make it easier or different</h2>
