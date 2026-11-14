@@ -3,6 +3,7 @@ name: Fold towels together
 seoTitle: "Fold Towels Together: A Simple Household Task"
 description: "Fold warm towels from the dryer together and stack them neatly, with no right way to fold. Seated at a table or standing, with easier and seated versions."
 summary: Fold warm towels from the dryer together and stack them, with no wrong way to fold.
+enjoy: "People who like being useful around the house and enjoy a job with a clear end, such as a neat stack of towels. Good for a restless moment."
 type: sensory
 prepMinutes: 0
 activityMinutes: [10, 30]

@@ -3,6 +3,7 @@ name: Sort buttons by color
 seoTitle: "Sort Buttons by Color: A Simple Hands-On Activity"
 description: "Sort a bowl of large buttons into a muffin tin or small dishes by color or size, in whatever order they like. Seated at a table, with easier and low-vision versions."
 summary: Sort a bowl of large buttons into a muffin tin or small dishes by color or size, in any order.
+enjoy: "People who have sewn, kept a button tin or like sorting things into order. Skip it for anyone who puts small things in their mouth."
 type: sensory
 prepMinutes: 5
 activityMinutes: [10, 30]

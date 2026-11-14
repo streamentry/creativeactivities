@@ -3,6 +3,7 @@ name: Make a playlist together
 seoTitle: "Make a Playlist Together: Songs You Both Enjoy"
 description: "Choose five to eight favorite songs together on a phone, play each one and keep the ones they like. Seated or bedside, with easier and low-vision versions."
 summary: Choose a few favorite songs together on a phone, play each one and write the ones they like on a card.
+enjoy: "People who have a favorite singer, band or radio station, and anyone who likes telling the stories behind a song. Suits a day for listening more than doing."
 type: music
 prepMinutes: 5
 activityMinutes: [15, 40]

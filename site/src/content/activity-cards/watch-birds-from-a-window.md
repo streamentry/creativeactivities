@@ -3,6 +3,7 @@ name: Watch birds from a window
 seoTitle: "Watch Birds from a Window: A Quiet Shared Look"
 description: "Sit by a window together and watch for birds, describing their colors and movement on a simple drawn chart. Seated or bedside, with no names needed and no cost."
 summary: Sit by a window together, watch for birds, and describe their colors and how they move.
+enjoy: "People who enjoy gardens, nature programs or feeding birds, and anyone who likes to sit and watch the world go by. Good for a slow, restful afternoon."
 type: nature
 prepMinutes: 2
 activityMinutes: [10, 30]

@@ -3,6 +3,7 @@ name: Give a hand massage
 seoTitle: "Give a Hand Massage: A Gentle, Ask-First Touch"
 description: "Ask first, then gently massage the back of one hand and each finger with a little plain lotion. Stop at any time. Seated or bedside, with quieter versions."
 summary: Gently massage one hand with a little plain lotion, asking first and stopping whenever they wish.
+enjoy: "People who enjoy gentle touch, hand cream or being cared for in a small way. Only for someone who welcomes it on the day."
 type: sensory
 prepMinutes: 3
 activityMinutes: [5, 15]
