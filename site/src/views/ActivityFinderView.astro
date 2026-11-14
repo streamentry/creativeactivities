@@ -5,7 +5,7 @@ import { PACKS } from '../data/packs';
 import '../styles/activities.css';
 import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { breadcrumbs } from '../lib/schema';
+import { breadcrumbs, itemList } from '../lib/schema';
 import {
   ENERGY_CHOICES,
   GROUP_LABELS,
@@ -30,7 +30,7 @@ const groups = Object.entries(GROUP_LABELS);
 const easier = (kinds: { kind: string; text: string }[]) =>
   kinds.find((v) => v.kind === 'easier') ?? kinds.find((v) => v.kind === 'bedside') ?? kinds[0];
 ---
-<BaseLayout title={title} description={description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
+<BaseLayout title={title} description={description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs), itemList(title, activities.map((a) => ({ path: `/activity/${a.id}/`, name: a.data.name })))]}>
   <Breadcrumbs items={crumbs} />
   <div class="container">
     <header class="page-head">
