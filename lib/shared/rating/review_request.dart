@@ -1,6 +1,6 @@
+import 'package:creative_activities/shared/native/gm_native.dart';
+import 'package:creative_activities/shared/utils/share_util.dart';
 import 'package:flutter/foundation.dart';
-import 'package:golden_moments/shared/native/gm_native.dart';
-import 'package:golden_moments/shared/utils/share_util.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// When to ask the system to show its rating prompt (DESIGN.md › Ratings).

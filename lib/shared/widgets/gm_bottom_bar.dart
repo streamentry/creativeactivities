@@ -1,7 +1,7 @@
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// Whether a page's content continues below its fixed [GmBottomBar].
 ///

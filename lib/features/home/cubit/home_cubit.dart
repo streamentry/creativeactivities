@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:golden_moments/data/models/packs_index.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/features/home/cubit/home_state.dart';
-import 'package:golden_moments/features/home/data/pack_preferences.dart';
-import 'package:golden_moments/features/home/data/pack_selection.dart';
+import 'package:creative_activities/data/models/packs_index.dart';
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/features/home/cubit/home_state.dart';
+import 'package:creative_activities/features/home/data/pack_preferences.dart';
+import 'package:creative_activities/features/home/data/pack_selection.dart';
 
 /// Loads the included catalog.
 typedef CatalogLoader = Future<PacksIndex> Function();

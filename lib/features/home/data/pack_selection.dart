@@ -1,5 +1,5 @@
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/features/home/data/pack_preferences.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/features/home/data/pack_preferences.dart';
 
 // How favorites and "Not for me" shape what the library shows (GM-020,
 // GM-024, GM-026).

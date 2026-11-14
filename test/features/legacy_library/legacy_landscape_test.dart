@@ -1,10 +1,10 @@
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/presentation/screens/game_page.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_board.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_exit_bar.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_play_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/presentation/screens/game_page.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_board.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_exit_bar.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_play_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../helpers/shipped_fonts.dart';

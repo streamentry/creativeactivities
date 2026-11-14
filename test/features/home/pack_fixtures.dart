@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/data/models/packs_index.dart';
-import 'package:golden_moments/features/home/data/pack_preferences.dart';
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/data/models/packs_index.dart';
+import 'package:creative_activities/features/home/data/pack_preferences.dart';
 
 const fixtureIcon = 'assets/images/catalog/24c28cf9fd7d826b4863ed6a.jpg';
 

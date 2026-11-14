@@ -1,13 +1,13 @@
 import 'dart:math' as math;
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/game/cubit/game_cubit.dart';
+import 'package:creative_activities/features/game/cubit/game_state.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_board.dart';
+import 'package:creative_activities/features/game/presentation/widgets/game_header.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/game/cubit/game_cubit.dart';
-import 'package:golden_moments/features/game/cubit/game_state.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_board.dart';
-import 'package:golden_moments/features/game/presentation/widgets/game_header.dart';
 
 /// The board first: guidance moves below it at very large text, and the
 /// page scrolls only when the board cannot fit at [gmTileMin] beside the

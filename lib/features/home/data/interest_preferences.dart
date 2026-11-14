@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:golden_moments/data/models/category.dart';
+import 'package:creative_activities/data/models/category.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// Topics the person chose to see first in the library (GM-024).

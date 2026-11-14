@@ -1,5 +1,5 @@
+import 'package:creative_activities/design_system.dart';
 import 'package:flutter/material.dart';
-import 'package:golden_moments/design_system.dart';
 
 /// Text a person can select and copy, such as an address or a link the app
 /// does not open. Copying starts with a long press on the text, so the line

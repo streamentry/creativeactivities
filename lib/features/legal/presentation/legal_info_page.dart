@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/l10n/l10n.dart';
+import 'package:creative_activities/shared/widgets/gm_copyable_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/l10n/l10n.dart';
-import 'package:golden_moments/shared/widgets/gm_copyable_text.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // The website that publishes the legal pages (site/ in this repository).

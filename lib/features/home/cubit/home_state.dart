@@ -1,10 +1,10 @@
+import 'package:creative_activities/data/models/category.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/features/home/data/pack_preferences.dart';
+import 'package:creative_activities/features/home/data/pack_selection.dart'
+    as selection;
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart' show ValueGetter;
-import 'package:golden_moments/data/models/category.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/features/home/data/pack_preferences.dart';
-import 'package:golden_moments/features/home/data/pack_selection.dart'
-    as selection;
 
 /// Status of the home screen
 enum HomeStatus { initial, loading, loaded, error }

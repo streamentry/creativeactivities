@@ -1,7 +1,7 @@
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/features/game/cubit/game_cubit.dart';
+import 'package:creative_activities/features/game/cubit/game_state.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/features/game/cubit/game_cubit.dart';
-import 'package:golden_moments/features/game/cubit/game_state.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

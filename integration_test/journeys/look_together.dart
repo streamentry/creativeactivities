@@ -1,5 +1,5 @@
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
 
 import '../support/app_harness.dart';
 import '../support/board.dart';

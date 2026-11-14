@@ -1,9 +1,9 @@
 import 'dart:io';
 
+import 'package:creative_activities/features/gentle_activities/data/family_photo_store.dart';
+import 'package:creative_activities/features/gentle_activities/data/photo_importer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/data/family_photo_store.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_importer.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:integration_test/integration_test.dart';
 

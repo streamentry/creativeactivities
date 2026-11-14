@@ -1,12 +1,12 @@
+import 'package:creative_activities/data/services/local_pack_service.dart';
+import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/category/presentation/screens/category_page.dart';
+import 'package:creative_activities/features/game/presentation/screens/game_page.dart';
+import 'package:creative_activities/features/pack/presentation/screens/pack_page.dart';
+import 'package:creative_activities/shared/widgets/category_card.dart';
+import 'package:creative_activities/shared/widgets/pack_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/services/local_pack_service.dart';
-import 'package:golden_moments/design_system.dart';
-import 'package:golden_moments/features/category/presentation/screens/category_page.dart';
-import 'package:golden_moments/features/game/presentation/screens/game_page.dart';
-import 'package:golden_moments/features/pack/presentation/screens/pack_page.dart';
-import 'package:golden_moments/shared/widgets/category_card.dart';
-import 'package:golden_moments/shared/widgets/pack_card.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'legacy_helpers.dart';

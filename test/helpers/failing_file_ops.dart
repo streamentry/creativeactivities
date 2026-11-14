@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:golden_moments/features/gentle_activities/data/owned_files.dart';
+import 'package:creative_activities/features/gentle_activities/data/owned_files.dart';
 
 /// One file step a store performs.
 enum FileStep { write, rename, delete }

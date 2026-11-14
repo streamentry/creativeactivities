@@ -1,7 +1,7 @@
+import 'package:creative_activities/data/models/image.dart';
+import 'package:creative_activities/data/models/pack.dart';
+import 'package:creative_activities/features/game/cubit/game_cubit.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/data/models/image.dart';
-import 'package:golden_moments/data/models/pack.dart';
-import 'package:golden_moments/features/game/cubit/game_cubit.dart';
 
 class _SeededGameCubit extends GameCubit {
   new(List<Image> images) {

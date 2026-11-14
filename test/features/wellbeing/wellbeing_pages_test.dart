@@ -1,12 +1,12 @@
+import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
+import 'package:creative_activities/features/wellbeing/data/moment_history.dart';
+import 'package:creative_activities/features/wellbeing/data/routines.dart';
+import 'package:creative_activities/features/wellbeing/presentation/activity_planner_page.dart';
+import 'package:creative_activities/features/wellbeing/presentation/daily_moment_page.dart';
+import 'package:creative_activities/features/wellbeing/presentation/progress_page.dart';
+import 'package:creative_activities/l10n/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/models/activity_picture.dart';
-import 'package:golden_moments/features/wellbeing/data/moment_history.dart';
-import 'package:golden_moments/features/wellbeing/data/routines.dart';
-import 'package:golden_moments/features/wellbeing/presentation/activity_planner_page.dart';
-import 'package:golden_moments/features/wellbeing/presentation/daily_moment_page.dart';
-import 'package:golden_moments/features/wellbeing/presentation/progress_page.dart';
-import 'package:golden_moments/l10n/l10n.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../helpers/pump_app.dart';

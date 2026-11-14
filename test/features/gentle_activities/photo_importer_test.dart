@@ -2,9 +2,9 @@ import 'dart:math';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
+import 'package:creative_activities/features/gentle_activities/data/family_photo_store.dart';
+import 'package:creative_activities/features/gentle_activities/data/photo_importer.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:golden_moments/features/gentle_activities/data/family_photo_store.dart';
-import 'package:golden_moments/features/gentle_activities/data/photo_importer.dart';
 import 'package:image_picker/image_picker.dart';
 
 Future<Uint8List> makePng(int width, int height, {bool noise = false}) async {
