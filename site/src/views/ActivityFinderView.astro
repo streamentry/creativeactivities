@@ -48,6 +48,12 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       }
     </header>
 
+    <section class="finder-saved" id="saved-activities" aria-labelledby="saved-title" hidden>
+      <h2 id="saved-title">Saved activities</h2>
+      <p class="muted">Kept on this device only. Clearing this site's data removes them.</p>
+      <ul class="activity-list" id="saved-list"></ul>
+    </section>
+
     <form class="finder" id="finder" aria-label="Find an activity">
       <div class="finder__search" data-finder-search hidden>
         <label for="finder-words">Search by name or material (optional)</label>
@@ -206,6 +212,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 
 <script>
   import { fitReasons, matches, type ActivityFacts, type FinderChoice } from '../lib/activities';
+  import { browserStorage, loadSaved } from '../lib/saved-activities';
   import { matchesGuideSearch } from '../lib/guide-search';
 
   const form = document.getElementById('finder') as HTMLFormElement | null;
@@ -252,6 +259,28 @@ const easier = (kinds: { kind: string; text: string }[]) =>
         shown === items.length ? `Showing all ${items.length} activities.` : `Showing ${shown} of ${items.length} activities.`;
     }
     if (empty) empty.hidden = shown > 0;
+  }
+
+  // Activities saved on their own pages, listed by the names already on this page.
+  const savedSection = document.getElementById('saved-activities');
+  const savedList = document.getElementById('saved-list');
+  const names = new Map(
+    items.map((li) => {
+      const link = li.querySelector<HTMLAnchorElement>('a.activity-card');
+      return [link?.pathname.split('/')[2] ?? '', link?.querySelector('.activity-card__name')?.textContent ?? ''];
+    }),
+  );
+  const saved = loadSaved(browserStorage()).filter((slug) => names.get(slug));
+  if (savedSection && savedList && saved.length > 0) {
+    for (const slug of saved) {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = `/activity/${slug}/`;
+      a.textContent = names.get(slug) ?? slug;
+      li.append(a);
+      savedList.append(li);
+    }
+    savedSection.hidden = false;
   }
 
   // The word search needs this script, so it appears only when the script runs.
