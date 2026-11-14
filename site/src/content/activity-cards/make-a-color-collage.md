@@ -3,6 +3,7 @@ name: Make a color collage
 seoTitle: "Make a Color Collage: Tearing and Gluing Together"
 description: "Choose one color, tear out magazine pages in that color and glue them onto card together. Seated at a table, low cost, with easier, bedside and low-vision versions."
 summary: Choose one color, tear out magazine pieces in that color and glue them onto card.
+enjoy: "People who love a particular color, enjoy magazines and catalogs, or like bright, cheerful pictures. Good for a relaxed sit-down afternoon with plenty of choices."
 type: craft
 prepMinutes: 10
 activityMinutes: [20, 40]

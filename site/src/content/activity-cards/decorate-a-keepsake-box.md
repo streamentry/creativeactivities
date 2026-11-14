@@ -3,6 +3,7 @@ name: Decorate a keepsake box
 seoTitle: "Decorate a Keepsake Box: A Calm Craft to Share"
 description: "Cover a shoebox with paper or fabric, then choose a few small things to keep inside it. A calm seated craft that costs little, with easier and bedside versions."
 summary: Cover a shoebox with paper or fabric, then choose a few small things to keep inside.
+enjoy: "People who like keeping small treasures such as shells, ribbons and cherished photo copies, or who enjoy sorting and choosing. Good for someone who likes handling things with their hands."
 type: craft
 prepMinutes: 10
 activityMinutes: [30, 60]

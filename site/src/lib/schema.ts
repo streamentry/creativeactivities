@@ -149,6 +149,20 @@ export interface HowToInput {
   steps: readonly string[];
 }
 
+/** A hub's curated activities, in the order the page lists them. */
+export function itemList(name: string, items: readonly { path: string; name: string }[]): Node {
+  return {
+    '@type': 'ItemList',
+    name,
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      url: absoluteUrl(item.path),
+    })),
+  };
+}
+
 /** A startable activity: its supplies and steps exactly as the page shows them. */
 export function howTo(input: HowToInput): Node {
   return {

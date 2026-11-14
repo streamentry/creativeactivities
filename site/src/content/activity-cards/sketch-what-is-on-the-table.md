@@ -3,6 +3,7 @@ name: Sketch what is on the table
 seoTitle: "Sketch What Is on the Table: A Simple Drawing Activity"
 description: "Look at a cup, a piece of fruit or a flower, then draw its outline together with a soft pencil. No drawing skill needed. It is free, seated, and has easier versions."
 summary: Look at one everyday object on the table, then draw its outline with any marks you like.
+enjoy: "People who like drawing, looking closely at objects, or enjoy still-life painting and sketchbooks. Good for an unhurried moment of quiet looking, with no skill needed."
 type: art
 prepMinutes: 5
 activityMinutes: [10, 30]
@@ -45,7 +46,7 @@ safety:
   - "Keep pencils and erasers away from the mouth if the person may chew or taste things."
   - "Choose a sturdy cup or soft fruit, and avoid glass or anything sharp on the table."
 stopNote: "It is fine to stop after a few lines. Leave the paper where it is and look at the object again later, or simply enjoy it together for a while."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, paint-a-shared-picture, arrange-flowers-together]
 published: 2026-11-13
 updated: 2026-11-13

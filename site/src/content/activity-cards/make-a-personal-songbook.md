@@ -3,6 +3,7 @@ name: Make a personal songbook
 seoTitle: "Personal Songbook: Collect Favorite Songs Together"
 description: "Make a personal songbook together with favorite song titles, a few lines of lyrics and the stories behind them. Seated, low cost, with easier and bedside versions."
 summary: Collect favorite songs, a few lines of words and the stories behind them in one book.
+enjoy: "People who love favorite songs, hymns or the radio from years gone by, and anyone who likes telling the stories behind a tune. Good for people who would rather listen than sing."
 type: music
 prepMinutes: 10
 activityMinutes: [15, 40]
