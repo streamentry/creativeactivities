@@ -22,7 +22,7 @@ class LegalLinksSourceTests(unittest.TestCase):
         for src in (gentle, legacy):
             self.assertIn("LegalInfoPage", src)
             self.assertIn("l10n.commonPrivacyTermsSupport", src)
-        self.assertIn("https://dementiaactivities.games/", page)
+        self.assertIn("https://creativeactivities.org/", page)
         self.assertIn("Clipboard.setData", page)
         self.assertIn("LaunchMode.externalApplication", page)
         self.assertIn("l10n.legalBuiltInPictures", page)

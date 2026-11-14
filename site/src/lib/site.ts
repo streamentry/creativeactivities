@@ -13,7 +13,7 @@ export const SITE = {
   /** Production listing for the Android package com.mindfulness.golden_moments. */
   playStoreUrl: 'https://play.google.com/store/apps/details?id=com.mindfulness.golden_moments',
   /** Public contact for the website, chosen by the maintainer on 2026-10-25. */
-  supportEmail: 'web@dementiaactivities.games',
+  supportEmail: 'web@creativeactivities.org',
   /** Google Analytics 4 web stream, added by the maintainer on 2026-10-25. */
   gtmContainerId: 'GTM-5ZSV72WC',
   updated: '2026-10-25',

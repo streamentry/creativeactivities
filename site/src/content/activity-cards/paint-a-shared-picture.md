@@ -42,6 +42,8 @@ variations:
     text: "Use bold, high-contrast colors on white paper, and describe each mark out loud as it goes on."
   - kind: for-a-group
     text: "Divide a large sheet into sections, one for each person, and join the sections into one picture at the end."
+  - kind: with-children
+    text: "Give the child and the grandparent a corner each to start, then let the marks meet in the middle. Wash brushes together at the end."
 safety:
   - "Use non-toxic, water-based paint only, and check for any known paint allergies first."
   - "Keep brushes and small items away from the mouth, and do not let anyone drink from the water cups."

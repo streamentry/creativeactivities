@@ -86,6 +86,42 @@ failed in the agent browser.
   published). Availability is not reported as a blocker, but `appAvailabilityV2` still
   returns 404 through the API.
 
+## Android build 16 with creativeactivities.org links (2026-11-14, API, read back)
+
+- Built from `main` efdb6d9 (1.10.0+16, #36 links) plus #38, which removes the stale
+  `res/values/ic_launcher_background.xml`; without it `bundleProductionRelease` fails with
+  "Duplicate resources" against the new logo's `colors.xml`.
+- AAB signed with the registered upload certificate (SHA-256 `B5:3D:…:F7:2F`),
+  versionCode 16, `com.mindfulness.creative_activities`; the compiled Dart code has 28
+  `creativeactivities.org` and 0 `dementiaactivities.games` strings. AAB SHA-256
+  `33b339dadaf47fcd613cc503d4fba968bc26148e4b156736d397b2ee0f6d90b3`.
+- Play edit committed (`14706048092173215954`): production release 1.10.0 (16), status
+  `completed`, the same 43 release notes as 1.10.0 (14); contact website
+  `https://creativeactivities.org/`, email `web@creativeactivities.org`. The 43 listings
+  had no old-domain text. Committing sends the changes for review; the Publishing
+  overview was not checked in the browser.
+- iOS build 16 (same tree) is handled separately, with the App Store URLs already
+  switched.
+
+## iOS build 16 with creativeactivities.org links (2026-11-14, API, read back)
+
+- Built from the tree of `main` efdb6d9 (commit 896cbba, same tree): 1.10.0+16 with
+  #36's links. Archived in a detached worktree with the temporary manual-signing edit
+  (team `7MBXZKYSY4`, profile "Creative Activities Together App Store"), exported, not
+  committed.
+- `codesign --verify --deep --strict` OK; Info.plist 1.10.0 / 16 /
+  `com.mindfulness.creativeactivities` / "Creative Activities",
+  `ITSAppUsesNonExemptEncryption` false. The compiled Dart library has 28
+  `creativeactivities.org` and 0 `dementiaactivities.games` strings. IPA SHA-256
+  `84340c3007dde210ff3866e382bc4a60432e6f6df79230cb16d3833034773464`.
+- `altool` validate and upload OK (delivery `88fe03b0-2bca-460e-a0b7-913e521b70e5`);
+  build 16 `VALID`, attached to version 1.10.0 (`d46f0a77`) in place of build 15.
+- Listing URLs switched through the API and read back: marketing and support on all 46
+  version localizations, privacy policy and privacy choices on all 46 app-info
+  localizations, all on `https://creativeactivities.org/`.
+- Submitted through the existing review submission `0638f840`: the submission and
+  version 1.10.0 read back `WAITING_FOR_REVIEW`.
+
 ## Open items
 
 - App Store: App Privacy ("Data Not Collected"), territory availability (the v2

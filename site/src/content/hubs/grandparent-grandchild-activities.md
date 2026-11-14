@@ -11,7 +11,7 @@ choosing:
   - "Ends with something to keep, show or give away."
   - "Short enough for a child's attention, usually 15 to 30 minutes."
   - "Works at a table or outside, and can stop at any point."
-activities: [make-a-family-tree-of-hands, make-a-photo-postcard, start-a-family-recipe-book, make-a-personal-songbook, fold-a-paper-boat, plant-seeds-in-a-pot, paint-a-garden-stone, make-a-pine-cone-bird-feeder, write-a-letter-together, decorate-a-plant-pot, make-a-paper-chain-garland, draw-to-music]
+activities: [make-a-family-tree-of-hands, make-a-photo-postcard, start-a-family-recipe-book, make-a-personal-songbook, fold-a-paper-boat, plant-seeds-in-a-pot, paint-a-garden-stone, make-a-pine-cone-bird-feeder, write-a-letter-together, decorate-a-plant-pot, make-a-paper-chain-garland, draw-to-music, tap-a-rhythm-together, look-through-a-photo-album]
 variation: with-children
 faq:
   - q: "How do I explain to a child that Grandma has memory changes?"

@@ -44,6 +44,8 @@ variations:
     text: "Pick unscented flowers or plain green leaves, and work in a quiet spot with only a few stems out."
   - kind: for-a-group
     text: "Give each person one stem to add to a shared vase, then talk about the finished arrangement together."
+  - kind: with-children
+    text: "A child carries the stems and holds the vase steady while the grandparent chooses each flower and where it goes. Cutting stays with an adult."
 safety:
   - "Some common flowers and plants, such as lily of the valley, foxglove and daffodils, are toxic if eaten. Check every plant before use."
   - "Lilies shed pollen that stains and can irritate skin; remove the pollen tips or choose other flowers."
