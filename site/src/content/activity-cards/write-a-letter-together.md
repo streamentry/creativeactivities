@@ -3,6 +3,7 @@ name: Write a letter together
 seoTitle: "Write a Letter Together: A Simple Conversation Activity"
 description: "Write a short letter or postcard together to a grandchild or friend. The helper writes while you talk, with easier and bedside versions. Free and seated at a table."
 summary: Write a short letter or postcard together, with the helper writing as the person says what to put.
+enjoy: "People who like writing letters, keeping in touch with family or telling stories to a grandchild. Good for someone with plenty to say who would rather talk than write."
 type: conversation
 prepMinutes: 5
 activityMinutes: [15, 30]

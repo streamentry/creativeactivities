@@ -3,6 +3,7 @@ name: Arrange flowers together
 seoTitle: "Arrange Flowers Together: A Simple Shared Activity"
 description: "Arrange a jar of flowers together from garden or store stems. Five minutes to set up, seated at a table, low cost, with easier, bedside and low-vision versions."
 summary: Choose, trim and place flowers or leafy stems in a jar or vase together.
+enjoy: "Anyone who has kept houseplants, enjoyed a garden or liked choosing flowers for the kitchen table. A good pick for a calm, unhurried morning."
 type: nature
 prepMinutes: 5
 activityMinutes: [10, 30]

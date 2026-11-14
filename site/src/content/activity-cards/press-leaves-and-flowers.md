@@ -3,6 +3,7 @@ name: Press leaves and flowers
 seoTitle: "Press Leaves and Flowers: A Gentle Nature Craft"
 description: "Collect leaves and flowers, then press them in a heavy book together. Free or low cost, seated at a table, with outdoor, easier and group versions."
 summary: Gather flat leaves and flowers, then press them between paper in a heavy book together.
+enjoy: "People who enjoy walks, woodland or garden time, or who once pressed flowers in a book. A nice choice for anyone who likes gathering things and returning to them later."
 type: nature
 prepMinutes: 5
 activityMinutes: [15, 30]

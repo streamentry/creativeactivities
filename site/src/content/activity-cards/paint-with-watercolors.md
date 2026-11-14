@@ -3,6 +3,7 @@ name: Paint with watercolors
 seoTitle: "Paint With Watercolors Together: A Relaxed Art Activity"
 description: "Paint with watercolors together, letting colors run and blend on wet paper. Non-toxic paint, 10 minutes to set up, seated at a table, no drawing skill needed."
 summary: Loose, colorful washes of watercolor paint on paper, where blending and running colors are the whole point.
+enjoy: "People who enjoy painting, drawing landscapes or spending time with color, and anyone who likes loose, unplanned results. Suits a quiet session where nothing has to look a particular way."
 type: art
 prepMinutes: 10
 activityMinutes: [15, 40]

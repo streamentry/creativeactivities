@@ -3,6 +3,7 @@ name: Start a family recipe book
 seoTitle: "Family Recipe Book: Write Down Favorite Dishes Together"
 description: "Start a family recipe book together by talking about favorite dishes and writing them down. Seated at a table, no cooking, low cost, with easier versions."
 summary: Talk about favorite dishes and write them down together, one page at a time.
+enjoy: "Cooks and bakers who like to talk about food, and families who love sharing dishes from holidays and Sunday dinners. A good pick for someone who enjoys being the expert on family cooking."
 type: conversation
 prepMinutes: 5
 activityMinutes: [15, 40]
