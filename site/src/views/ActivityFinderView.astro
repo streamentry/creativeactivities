@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { breadcrumbs, itemList } from '../lib/schema';
 import {
   ENERGY_CHOICES,
+  SUPERVISION_CHOICES,
   GROUP_LABELS,
   MATERIAL_CHOICES,
   MESS_CHOICES,
@@ -151,6 +152,17 @@ const easier = (kinds: { kind: string; text: string }[]) =>
             ))
           }
         </fieldset>
+        <fieldset>
+          <legend>How much help can you give?</legend>
+          {
+            SUPERVISION_CHOICES.map((c) => (
+              <label class="choice">
+                <input type="radio" name="supervision" value={c.value} checked={c.value === 'any'} />
+                <span>{c.label}</span>
+              </label>
+            ))
+          }
+        </fieldset>
         <p class="muted">We never ask about a diagnosis. Fit the activity to the moment, not to a label.</p>
       </details>
     </form>
@@ -173,6 +185,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
               data-search={[a.data.name, a.data.summary, ...a.data.materials].join(' ')}
               data-mess={a.data.mess}
               data-energy={a.data.energy}
+              data-supervision={a.data.supervision}
             >
               <a class="activity-card" href={`/activity/${a.id}/`}>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
@@ -234,7 +247,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       prepMinutes: 0,
       mess: d.mess as ActivityFacts['mess'],
       energy: d.energy as ActivityFacts['energy'],
-      supervision: 'nearby',
+      supervision: d.supervision as ActivityFacts['supervision'],
     };
   }
 
@@ -242,7 +255,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
     if (!form) return;
     const data = new FormData(form);
     const choice: FinderChoice = Object.fromEntries(
-      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy'].map((k) => [k, String(data.get(k) ?? 'any')]),
+      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision'].map((k) => [k, String(data.get(k) ?? 'any')]),
     );
     const words = String(data.get('words') ?? '');
     let shown = 0;

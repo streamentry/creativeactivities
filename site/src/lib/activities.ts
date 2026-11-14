@@ -114,6 +114,12 @@ export const ENERGY_CHOICES = [
   { value: 'any', label: 'Any', allows: ['low', 'medium'] },
 ] as const;
 
+/** Optional fit filter (DESIGN.md › Finder filters: supervision). */
+export const SUPERVISION_CHOICES = [
+  { value: 'nearby', label: 'I can stay nearby, not help hands-on', allows: ['nearby'] },
+  { value: 'any', label: 'Any', allows: ['nearby', 'hands-on'] },
+] as const;
+
 export interface FinderChoice {
   time?: string;
   materials?: string;
@@ -122,6 +128,7 @@ export interface FinderChoice {
   group?: string;
   mess?: string;
   energy?: string;
+  supervision?: string;
 }
 
 const chosen = (value: string | undefined): value is string => value !== undefined && value !== 'any';
@@ -139,6 +146,8 @@ export function matches(a: ActivityFacts, c: FinderChoice): boolean {
   if (mess && !(mess.allows as readonly string[]).includes(a.mess)) return false;
   const energy = ENERGY_CHOICES.find((e) => e.value === c.energy);
   if (energy && !(energy.allows as readonly string[]).includes(a.energy)) return false;
+  const supervision = SUPERVISION_CHOICES.find((s) => s.value === c.supervision);
+  if (supervision && !(supervision.allows as readonly string[]).includes(a.supervision)) return false;
   return true;
 }
 
@@ -156,5 +165,6 @@ export function fitReasons(a: ActivityFacts, c: FinderChoice): string[] {
   }
   if (chosen(c.mess)) reasons.push(a.mess === 'none' ? 'no mess' : 'little or no mess');
   if (chosen(c.energy)) reasons.push('mostly sitting still');
+  if (chosen(c.supervision)) reasons.push('works with you nearby');
   return reasons;
 }
