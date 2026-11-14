@@ -227,6 +227,14 @@
   -webkit-mask: var(--studio-torn) top / 100% 14px no-repeat;
   mask: var(--studio-torn) top / 100% 14px no-repeat;
 }
+/* The cover and each card sit centred, like sheets laid on the table. */
+.pack .pack-cover,
+.pack .pack-card {
+  margin-inline: auto;
+}
+.pack-cover .btn-row {
+  margin-block: var(--space-lg) var(--space-xl);
+}
 .pack-supplies > div {
   padding: var(--space-md);
   border-radius: var(--radius-sm);
