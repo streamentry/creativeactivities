@@ -34,7 +34,7 @@ pnpm preview             # serves dist/ with the real Workers runtime, headers a
 | `src/content/guides/<section>/*.md` | The English guides (88 on 2026-11-14). Frontmatter is validated by `src/content.config.ts` |
 | `src/games/` | One React island per game, plus `shared/` (frame, tiles, chips, settings store, sound) |
 | `src/lib/games/` | Pure game logic with unit tests (`games.test.ts`) |
-| `src/data/` | Game registry, picture library, sayings, conversation prompts, word themes, coloring pages |
+| `src/data/` | Game registry, picture library, sayings, conversation prompts, word themes, coloring pages, printable activity packs (`packs.ts`, served at `/activity/packs/<id>/`) |
 | `src/lib/schema.ts` | JSON-LD builders (WebSite, Organization, Article/MedicalWebPage, FAQPage, VideoGame, HowTo, ItemList, BreadcrumbList) |
 | `src/styles/` | Tokens from `DESIGN.md`, base, components and game styles. Light theme only |
 | `public/` | Fonts, icons, share images, `_headers` (security and cache headers) |

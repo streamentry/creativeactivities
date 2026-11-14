@@ -243,6 +243,73 @@
   }
 }
 
+/* ---------- Printable pack: a cover, then one card per sheet ---------- */
+.pack-cover,
+.pack-card {
+  max-width: var(--content-max);
+  margin-bottom: var(--space-2xl);
+}
+.pack-card {
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--gm-outline);
+}
+.pack-card h2 a {
+  color: inherit;
+}
+.pack-card h3 {
+  margin-top: var(--space-lg);
+}
+.pack-card__summary {
+  font-size: var(--text-lg);
+}
+.pack-card__columns {
+  display: grid;
+  gap: var(--space-lg);
+}
+@media (min-width: 720px) {
+  .pack-card__columns {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.pack-supplies {
+  display: grid;
+  gap: var(--space-md) var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 260px), 1fr));
+  margin-bottom: var(--space-lg);
+}
+.pack-supplies h3 {
+  font-size: var(--text-lg);
+  margin-bottom: var(--space-xs);
+}
+/* An empty box to tick on paper; the words carry the meaning on screen. */
+.pack-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pack-checklist li {
+  position: relative;
+  padding-left: 1.75em;
+}
+.pack-checklist li + li {
+  margin-top: var(--space-xs);
+}
+.pack-checklist li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 1em;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: 3px;
+}
+.pack-card__source,
+.pack-cover__source {
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-sm);
+}
+
 /* ---------- Hubs (one page per search intent) ---------- */
 .hub > section,
 .hub-body,
@@ -449,6 +516,77 @@
   }
   .print-qr p {
     margin: 0;
+  }
+  .pack-card {
+    break-before: page;
+    border-top: 0;
+    padding-top: 0;
+    margin: 0;
+  }
+  .pack-supplies {
+    grid-template-columns: 1fr 1fr;
+    gap: 2mm 6mm;
+  }
+  .pack-supplies h3 {
+    font-size: 12pt;
+    margin: 0 0 1mm;
+  }
+  .pack-checklist li {
+    font-size: 11pt;
+  }
+  .pack-checklist li + li {
+    margin-top: 0.5mm;
+  }
+  .pack-cover h2 {
+    font-size: 15pt;
+    margin: 4mm 0 1mm;
+  }
+  /* One sheet per card: smaller type than a single card, still 12pt. */
+  .pack {
+    font-size: 12pt;
+    line-height: 1.35;
+  }
+  .pack h1 {
+    font-size: 22pt;
+  }
+  .pack-card h2 {
+    font-size: 18pt;
+    margin: 0 0 1mm;
+  }
+  .pack-card h3 {
+    font-size: 13pt;
+    margin: 3mm 0 1mm;
+  }
+  .pack-card p,
+  .pack-card li {
+    margin-block: 0.5mm;
+  }
+  .pack-card .eyebrow,
+  .pack-card .activity-glance {
+    font-size: 11pt;
+    margin-bottom: 1mm;
+  }
+  .pack-card .activity-steps {
+    gap: 1mm;
+  }
+  .pack-card .activity-steps li {
+    grid-template-columns: 7mm 1fr;
+    gap: 2mm;
+  }
+  .pack-card .activity-steps li::before {
+    width: 6mm;
+    height: 6mm;
+    font-size: 10pt;
+  }
+  .pack-card .activity-stop {
+    padding: 2mm 3mm;
+    margin-top: 3mm;
+  }
+  .pack-card__columns {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pack-card h2 a {
+    text-decoration: none;
   }
   .activity-byline {
     font-size: 10pt;

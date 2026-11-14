@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import { SECTIONS } from '../content.config';
 import { GAMES } from '../data/games';
+import { PACKS } from '../data/packs';
 import { gameLanguages } from '../i18n/games';
 import { allGuides } from '../i18n/guides';
 import { PUBLISHED } from '../i18n/ui';
@@ -37,6 +38,7 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
       lastmod: a.data.updated.toISOString().slice(0, 10),
       langs: ['en'],
     })),
+    ...PACKS.map((p) => ({ path: `/activity/packs/${p.id}/`, lastmod: SITE.updated, langs: ['en'] })),
     ...SECTIONS.map((s) => ({ path: `/${s}/`, lastmod: SITE.updated, langs: EVERY })),
     ...guides
       .filter((g) => g.lang === 'en')

@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { GAMES } from '../data/games';
+import { PACKS } from '../data/packs';
 import { APP } from '../lib/app';
 import { SECTION_META, SITE } from '../lib/site';
 import { SECTIONS } from '../content.config';
@@ -73,6 +74,7 @@ export const GET: APIRoute = async () => {
     '## Activity cards (English)',
     `- [Find an activity](${SITE.url}/activity/): filter by time, materials, type, setting and who is taking part.`,
     ...activities.map((a) => `- [${a.data.name}](${SITE.url}/activity/${a.id}/): ${a.data.description}`),
+    ...PACKS.map((p) => `- [${p.title}](${SITE.url}/activity/packs/${p.id}/): ${p.description}`),
     '',
     '## Games',
     ...GAMES.map((g) => `- [${g.name}](${SITE.url}/games/${g.slug}/): ${g.description}`),
