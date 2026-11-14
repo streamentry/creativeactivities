@@ -74,7 +74,7 @@ everything. The App Review checklist that came with them is
   link to them. Do not rename them.
 - The app and both store listings still point at
   `streamentry.github.io/golden-moments-web/`. Keep that site up until the app
-  release and store listings use `dementiaactivities.games` instead.
+  release and store listings use `creativeactivities.org` instead.
 - `check-site.mjs` fails the build if a legal page goes missing or loses a key
   statement (Apple Standard EULA, consumer rights, deletion steps). After a
   deploy, `pnpm check:live` fetches each page over HTTPS.
@@ -95,7 +95,8 @@ python3 scripts/make-images.py
 
 ## Deploy (Cloudflare Workers)
 
-Live since 2026-10-25 at <https://dementiaactivities.games> on the RunLumi
+Live at <https://creativeactivities.org> since 2026-11-14 (before that at
+<https://dementiaactivities.games>, from 2026-10-25) on the RunLumi
 Cloudflare account. The `workers.dev` address is turned off.
 
 - **Automatic:** every push to `main` that touches `site/**` runs
@@ -118,9 +119,10 @@ Cloudflare account. The `workers.dev` address is turned off.
   Worker on `www.creativeactivities.org` that 301-redirects to the apex. Deploy
   it with `cd redirect-www-creative && ../node_modules/.bin/wrangler deploy`.
   It never touches dementiaactivities.games, a separate product.
-- **Email:** Cloudflare Email Routing forwards `web@dementiaactivities.games`
-  to the maintainer's verified inbox (rule "Website contact", tested
-  2026-10-25). Manage it with `pnpm exec wrangler email routing rules list dementiaactivities.games`.
+- **Email:** Cloudflare Email Routing forwards `web@creativeactivities.org` to
+  the maintainer's verified inbox (rule "Website contact", tested 2026-11-14).
+  `web@dementiaactivities.games` keeps forwarding. Manage them with
+  `pnpm exec wrangler email routing rules list <domain>`.
 - **No injected scripts:** `Cache-Control: no-transform` in `public/_headers`
   stops Cloudflare from injecting its Web Analytics beacon, and the CSP would
   block it anyway. Keep both. The CSP allows only Google's GA4 domains.
@@ -133,7 +135,8 @@ settings):
 2. Web Analytics: turn off automatic setup for the zone, so nothing tries to
    inject a beacon.
 3. Verify the domain in Google Search Console and Bing Webmaster Tools and
-   submit `https://dementiaactivities.games/sitemap.xml`.
+   submit `https://creativeactivities.org/sitemap.xml`, and use the change of
+   address tool on the old property.
 
 The automatic deploy ends with `pnpm indexnow`; after a manual deploy that adds
 or changes pages, run it yourself. It sends every

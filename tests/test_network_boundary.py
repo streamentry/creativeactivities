@@ -27,11 +27,11 @@ EXPECTED_URLS = {
     'https://apps.apple.com/app/id$appStoreId?action=write-review',
     # Shown as copyable text on the Help page; the app never opens them
     # (lib/shared/utils/support_info.dart, test/support_info_test.dart).
-    'https://dementiaactivities.games/help/',
-    'https://dementiaactivities.games/app-privacy/',
-    'https://dementiaactivities.games/terms/',
+    'https://creativeactivities.org/help/',
+    'https://creativeactivities.org/app-privacy/',
+    'https://creativeactivities.org/terms/',
     # Base of the pages LegalInfoPage opens in the browser, only after a tap.
-    'https://dementiaactivities.games/',
+    'https://creativeactivities.org/',
 }
 
 
