@@ -229,6 +229,23 @@
   }
 }
 
+/* ---------- Hubs (one page per search intent) ---------- */
+.hub > section,
+.hub-body,
+.hub-next {
+  margin-bottom: var(--space-2xl);
+}
+.hub-choosing {
+  max-width: var(--content-max);
+  padding: var(--space-lg);
+  background: var(--gm-surface-sunken);
+  border-left: 6px solid var(--gm-primary);
+  border-radius: var(--radius-md);
+}
+.hub-body {
+  max-width: var(--content-max);
+}
+
 /* ---------- Finder ---------- */
 .finder {
   display: grid;

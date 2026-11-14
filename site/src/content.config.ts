@@ -140,4 +140,39 @@ const activityCards = defineCollection({
     .refine((d) => d.activityMinutes[0] <= d.activityMinutes[1], 'activityMinutes must be [min, max]'),
 });
 
-export const collections = { guides, guidesI18n, activityCards };
+/**
+ * One search hub per intent (VISION.md › Search architecture). A hub explains
+ * how its activities were chosen and links to the canonical activity pages;
+ * it never copies their steps.
+ */
+const hubs = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/hubs' }),
+  schema: z.object({
+    title: z.string().max(80),
+    seoTitle: z.string().max(60).optional(),
+    description: z.string().min(110).max(165),
+    eyebrow: z.string().max(40),
+    lede: z.string().min(80).max(420),
+    /** Why these activities suit this situation; shown before the list. */
+    choosing: z.array(z.string()).min(3).max(6),
+    /** Curated activity card slugs, best fit first. */
+    activities: z.array(z.string()).min(6).max(16),
+    /** The variation each card shows, when the hub is about one need. */
+    variation: z.enum(VARIATION_KINDS).optional(),
+    faq: z
+      .array(z.object({ q: z.string(), a: z.string() }))
+      .min(2)
+      .max(6),
+    guides: z.array(z.string()).max(6).default([]),
+    /** Other hub ids. */
+    related: z.array(z.string()).max(4).default([]),
+    published: z.coerce.date(),
+    updated: z.coerce.date(),
+    author: z.string(),
+    sources: z
+      .array(z.object({ title: z.string(), publisher: z.string(), url: z.string().url() }))
+      .default([]),
+  }),
+});
+
+export const collections = { guides, guidesI18n, activityCards, hubs };
