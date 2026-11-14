@@ -84,6 +84,25 @@ failed in the agent browser.
 - iOS build 16 (same tree) is handled separately, with the App Store URLs already
   switched.
 
+## iOS build 16 with creativeactivities.org links (2026-11-14, API, read back)
+
+- Built from the tree of `main` efdb6d9 (commit 896cbba, same tree): 1.10.0+16 with
+  #36's links. Archived in a detached worktree with the temporary manual-signing edit
+  (team `7MBXZKYSY4`, profile "Creative Activities Together App Store"), exported, not
+  committed.
+- `codesign --verify --deep --strict` OK; Info.plist 1.10.0 / 16 /
+  `com.mindfulness.creativeactivities` / "Creative Activities",
+  `ITSAppUsesNonExemptEncryption` false. The compiled Dart library has 28
+  `creativeactivities.org` and 0 `dementiaactivities.games` strings. IPA SHA-256
+  `84340c3007dde210ff3866e382bc4a60432e6f6df79230cb16d3833034773464`.
+- `altool` validate and upload OK (delivery `88fe03b0-2bca-460e-a0b7-913e521b70e5`);
+  build 16 `VALID`, attached to version 1.10.0 (`d46f0a77`) in place of build 15.
+- Listing URLs switched through the API and read back: marketing and support on all 46
+  version localizations, privacy policy and privacy choices on all 46 app-info
+  localizations, all on `https://creativeactivities.org/`.
+- Submitted through the existing review submission `0638f840`: the submission and
+  version 1.10.0 read back `WAITING_FOR_REVIEW`.
+
 ## Open items
 
 - App Store: App Privacy ("Data Not Collected"), territory availability (the v2
