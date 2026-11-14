@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { languageRow, languageSection, type LanguageRow, type LanguageSupport } from './language-support';
+import { languageOverview, languageRow, languageSection, type LanguageRow, type LanguageSupport } from './language-support';
 
 const URL = 'https://example.test';
 
@@ -70,5 +70,24 @@ describe('languageSection', () => {
     expect(text).toContain('2 of 3 languages have all 12 games');
     expect(text).toContain('### Every language');
     expect(text.match(/^- \[/gm)).toHaveLength(3);
+  });
+});
+
+describe('languageOverview', () => {
+  const rows = [
+    row({}),
+    row({ code: 'es', bcp47: 'es', name: 'Español', englishName: 'Spanish', home: `${URL}/es/`, pages: 90 }),
+  ];
+
+  it('keeps the summary, drops the per-language list and points to it', () => {
+    const text = languageOverview(support(rows)).join('\n');
+    expect(text).toContain('published in 2 languages');
+    expect(text).not.toContain('### Every language');
+    expect(text).not.toMatch(/^- \[/m);
+    expect(text).toContain(`${URL}/llms-languages.txt`);
+  });
+
+  it('is empty when only English is published', () => {
+    expect(languageOverview(support([row({})]))).toEqual([]);
   });
 });
