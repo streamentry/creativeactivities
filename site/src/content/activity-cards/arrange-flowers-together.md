@@ -3,6 +3,7 @@ name: Arrange flowers together
 seoTitle: "Arrange Flowers Together: A Simple Shared Activity"
 description: "Arrange a jar of flowers together from garden or store stems. Five minutes to set up, seated at a table, low cost, with easier, bedside and low-vision versions."
 summary: Choose, trim and place flowers or leafy stems in a jar or vase together.
+enjoy: "Anyone who has kept houseplants, enjoyed a garden or liked choosing flowers for the kitchen table. A good pick for a calm, unhurried morning."
 type: nature
 prepMinutes: 5
 activityMinutes: [10, 30]
@@ -50,7 +51,7 @@ safety:
   - "Keep scissors and pruners with the helper, and wipe up spilled water so nobody slips."
   - "Supervise closely if petals or leaves might be put in the mouth."
 stopNote: "It is fine to stop after one or two stems. A single flower in a jar is a finished arrangement. Put it somewhere it can be seen and enjoyed."
-guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage]
+guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage, activities/group-art-activities]
 related: [press-leaves-and-flowers, plant-seeds-in-a-pot, decorate-a-plant-pot]
 published: 2026-11-13
 updated: 2026-11-13

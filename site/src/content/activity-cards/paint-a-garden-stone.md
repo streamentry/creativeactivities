@@ -3,6 +3,7 @@ name: Paint a garden stone
 seoTitle: "Paint a Garden Stone Together: An Outdoor Craft"
 description: "Paint a smooth stone together to place in a garden, window box or path. Non-toxic acrylic paint, low cost, at a table indoors or outside in the shade."
 summary: A smooth stone painted with simple colors or patterns, then placed outdoors where you both can see it.
+enjoy: "People who enjoy gardening, painting, or spending time outside in the shade. A nice choice for someone who likes seeing their work placed somewhere it can be enjoyed every day."
 type: craft
 prepMinutes: 15
 activityMinutes: [20, 40]
@@ -49,7 +50,7 @@ safety:
   - "Outdoors, sit in the shade, offer water and a hat, and keep sessions short on hot or cold days."
   - "If you use varnish, the helper applies it in a ventilated space with no one else nearby."
 stopNote: "It is fine to stop after one color. A plain painted stone looks good in a garden, and you can add a pattern another day or leave it exactly as it is."
-guides: [activities/outdoor-and-gardening, activities/arts-and-crafts]
+guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/drawing-and-painting-to-relax]
 related: [decorate-a-plant-pot, plant-seeds-in-a-pot, paint-with-watercolors]
 published: 2026-11-13
 updated: 2026-11-13

@@ -3,6 +3,7 @@ name: Make a texture board
 seoTitle: "Make a Texture Board: A Hands-On Sensory Craft"
 description: "Glue scraps of fabric, ribbon and household materials onto card to make a texture board together. Low cost, seated or bedside, with easier versions."
 summary: Glue different textures onto a sturdy board to make something interesting to touch and look at.
+enjoy: "People who enjoy touching fabrics, knitting, quilting or the feel of different materials. Good for someone who likes exploring things by touch in a calm, unhurried way."
 type: sensory
 prepMinutes: 15
 activityMinutes: [15, 40]

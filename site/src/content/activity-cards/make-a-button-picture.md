@@ -3,6 +3,7 @@ name: Make a button picture
 seoTitle: "Button Picture: A Colorful Craft to Make Together"
 description: "Make a button picture together by sorting and gluing buttons onto card. Seated at a table, low cost, with easier versions. Buttons are a choking hazard."
 summary: Sort buttons by color or size and glue them onto card to make a simple picture.
+enjoy: "People who saved buttons in a tin, sewed or enjoyed sorting small objects by color. Suits someone who likes choosing and arranging, with no drawing skill needed."
 type: craft
 prepMinutes: 10
 activityMinutes: [15, 40]

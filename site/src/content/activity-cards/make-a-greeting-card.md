@@ -3,6 +3,7 @@ name: Make a greeting card
 seoTitle: "Make a Greeting Card Together: A Simple Paper Craft"
 description: "Make a greeting card together to send to someone who will enjoy it. Folded card, a few pictures and a short message, 5 minutes to set up, seated at a table."
 summary: A folded card with a picture on the front and a short message inside, made for someone you both know.
+enjoy: "People who like writing to friends, sending cards on birthdays or keeping in touch with the people they care about. Good for someone who enjoys making something for another person."
 type: craft
 prepMinutes: 5
 activityMinutes: [15, 30]
@@ -46,7 +47,7 @@ safety:
   - "A glue stick is less messy than liquid glue; check for skin sensitivity first."
   - "Do not ask anyone to write if it is tiring or upsetting. Dictating the message counts fully."
 stopNote: "It is fine to stop with just a picture on the front. Keep the card in a safe place and finish the message another day, or send it as it is."
-guides: [activities/arts-and-crafts, activities/holidays, activities/ideas]
+guides: [activities/arts-and-crafts, activities/holidays, activities/ideas, activities/pen-pals-for-older-adults]
 related: [make-a-memory-collage, press-leaves-and-flowers, make-a-button-picture]
 published: 2026-11-13
 updated: 2026-11-13

@@ -3,6 +3,7 @@ name: Decorate a plant pot
 seoTitle: "Decorate a Plant Pot Together: A Simple Craft"
 description: "Decorate a plant pot together with paint, paper or twine, then pot up a plant. Low cost, seated at a table, and something useful to keep on a windowsill."
 summary: A plain pot decorated with paint, paper or twine, ready for a plant or herb to live in.
+enjoy: "People who have grown herbs or houseplants, or who enjoy painting and practical projects. A nice fit for someone who likes to see a small job finished and put to use."
 type: craft
 prepMinutes: 10
 activityMinutes: [20, 45]

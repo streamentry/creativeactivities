@@ -17,7 +17,9 @@ Positioning: **a simple shared activity, not a memory test**. Product constraint
 - First screenshot: `Simple Dementia Activities` / `Gentle photo games to enjoy together.`
 - Canonical source and all copy: `metadata/app-store.en-US.json`.
 
-The name says what the product is (creative activities done together), and the subtitle adds what you actually do rather than repeating the name. Neither guarantees extra ranking weight. The home-screen label is Creative Activities; changing store copy does not justify changing bundle identifiers.
+The name says what the product is (creative activities done together), and the subtitle adds what you actually do rather than repeating the name. Neither guarantees extra ranking weight.
+
+**Open decision (2026-11-14):** the 1.10.0 app has picture matching, shared photo viewing and on-screen daily moments, but no craft, drawing or collage feature; the craft activity cards are on the website. App Store guideline 2.3.7 asks that metadata describe the app. The keywords therefore drop `art,drawing,collage` for `matching,pictures`. The subtitle still says "Simple Crafts": before submission, either change it (for example `Photo Games & Activity Ideas`, 28 characters) or ship activity cards in the app. The home-screen label is Creative Activities; changing store copy does not justify changing bundle identifiers.
 
 ## Keyword priorities
 
