@@ -1,16 +1,11 @@
 {
   "$schema": "../node_modules/wrangler/config-schema.json",
-  // Sends the old domain and both www hosts to creativeactivities.org with a
-  // permanent redirect, keeping the path and query. Nothing is logged or stored.
-  // Keep it for at least a year: shipped app builds link to the old domain.
+  // Sends www.dementiaactivities.games to the apex with a permanent redirect,
+  // keeping the path and query. Nothing is logged or stored.
   "name": "dementia-activities-www-redirect",
   "main": "index.js",
   "compatibility_date": "2026-10-01",
-  "routes": [
-    { "pattern": "dementiaactivities.games", "custom_domain": true },
-    { "pattern": "www.dementiaactivities.games", "custom_domain": true },
-    { "pattern": "www.creativeactivities.org", "custom_domain": true }
-  ],
+  "routes": [{ "pattern": "www.dementiaactivities.games", "custom_domain": true }],
   "workers_dev": false,
   "preview_urls": false,
   "observability": { "enabled": false }

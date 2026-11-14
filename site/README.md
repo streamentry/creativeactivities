@@ -110,14 +110,14 @@ Cloudflare account. The `workers.dev` address is turned off.
 - **By hand:** `pnpm run deploy` (build, checks, then `wrangler deploy`) while
   logged in with `pnpm exec wrangler login`, for a hotfix or when Actions is
   unavailable. `wrangler.jsonc` attaches the apex as a Workers custom domain.
-- **Redirects:** `redirect-www/` is a separate tiny Worker that 301-redirects
-  `dementiaactivities.games`, `www.dementiaactivities.games` and
-  `www.creativeactivities.org` to the same path and query on
-  creativeactivities.org. The old apex is still attached to the older
-  `dementia-activities-games` Worker: remove that custom domain first (dashboard
-  → Workers → dementia-activities-games → Domains), then deploy with
-  `cd redirect-www && ../node_modules/.bin/wrangler deploy`. Keep the redirects
-  for at least a year; shipped app builds link to the old domain.
+- **www:** `redirect-www/` is a separate tiny Worker on
+  `www.dementiaactivities.games` that 301-redirects to the apex, keeping path
+  and query. Deploy it with `cd redirect-www && ../node_modules/.bin/wrangler deploy`
+  (only needed if it changes).
+- **www for creativeactivities.org:** `redirect-www-creative/` is a separate
+  Worker on `www.creativeactivities.org` that 301-redirects to the apex. Deploy
+  it with `cd redirect-www-creative && ../node_modules/.bin/wrangler deploy`.
+  It never touches dementiaactivities.games, a separate product.
 - **Email:** Cloudflare Email Routing forwards `web@dementiaactivities.games`
   to the maintainer's verified inbox (rule "Website contact", tested
   2026-10-25). Manage it with `pnpm exec wrangler email routing rules list dementiaactivities.games`.
