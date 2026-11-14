@@ -4,7 +4,7 @@ import 'package:equatable/equatable.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 /// The hard moments on "What is hardest today?", in the order shown. Each
-/// one condenses a sourced guide on dementiaactivities.games (same ids as
+/// one condenses a sourced guide on creativeactivities.org (same ids as
 /// site/src/lib/today/situations.ts).
 enum Situation {
   goHome('go-home'),

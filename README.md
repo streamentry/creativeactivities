@@ -24,7 +24,7 @@ Renamed from **Golden Moments** (2026-11-13). The app now ships as new store rec
 | How should every screen look, sound and read? | [Design system](DESIGN.md) |
 | What should happen next? | [Workboard](WORKBOARD.md) |
 | How could it become the first choice in ten languages? | [Plan](docs/plan/README.md) (proposal, not approved) |
-| How is the website (dementiaactivities.games) built and deployed? | [Website README](site/README.md), [content guide](site/CONTENT_GUIDE.md) |
+| How is the website (creativeactivities.org) built and deployed? | [Website README](site/README.md), [content guide](site/CONTENT_GUIDE.md) |
 
 ## This upgrade
 

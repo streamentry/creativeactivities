@@ -8,7 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // The website that publishes the legal pages (site/ in this repository).
-const _site = 'https://dementiaactivities.games/';
+const _site = 'https://creativeactivities.org/';
 const _appPrivacyUrl = '${_site}app-privacy/';
 const _privacyChoicesUrl = '${_site}privacy-choices/';
 const _termsUrl = '${_site}terms/';
