@@ -149,9 +149,29 @@ in `src/content.config.ts` enforces the fields; these rules are editorial.
   until a named person has actually reviewed the card; the page then says
   "Not yet reviewed by an outside expert".
 - `guides` lists the guides that recommend the card. Those guides show it
-  under "Activities to start today", so the guides act as the search hubs and
-  no near-duplicate hub pages are needed.
+  under "Activities to start today".
 - Cards are English only until a translation has cultural and safety review.
+
+## Search hubs
+
+Hubs (`src/content/hubs/<id>.md`, served at `/<id>/` by a one-line page in
+`src/pages/<id>.astro`) answer one situation or audience, such as bedside
+activities or grandparent and grandchild activities, in the order `../DESIGN.md`
+› Required page templates A sets out. A guide explains a topic; a hub helps
+someone choose from the cards for one situation.
+
+- Add a hub only for an intent no guide or hub already answers. Never publish
+  the same list with "senior" swapped for "dementia" or "child"
+  (DESIGN.md's SEO anti-pattern). Improve or link an existing page instead.
+- `choosing` says how the activities were picked for this situation.
+  `activities` lists 6–16 existing cards, best fit first, chosen by function
+  (where they work, who takes part, which variation they have). When a hub is
+  about one need, set `variation` to it, and list only cards that have it.
+- The body adds guidance the cards do not repeat (setup, roles, pacing,
+  safety for this situation) and never copies a card's steps.
+- `src/lib/hubs.test.ts` checks the page file, the card and guide links and
+  the clinical words; the byline says "Not yet reviewed by an outside expert"
+  until a named person reviews the hub.
 
 ## Game slugs you can link
 
