@@ -67,6 +67,25 @@ failed in the agent browser.
   regions (same count as Golden Moments). Sent with "Submit 53 changes for review";
   quick checks were running at the time of writing.
 
+## iOS build 15 (2026-11-14)
+
+- Branch `release/ios-1.10.0-15`, commit `0ab855f` (`1.10.0+15`, `appVersion` in
+  `lib/shared/utils/support_info.dart`), built from `main` at `c9b4e6a`.
+- Checks: format clean, `flutter analyze --fatal-infos --fatal-warnings` no issues,
+  `flutter test` 698 passed, Python 113 passed, `release_metadata.py --check` valid.
+  `--release` fails on four unrecorded asset-rights reviews (app-icons, pack-index-data,
+  native-icon-and-splash-art, app-store-screenshots-1.3.0); not marked passed.
+- Archived with the temporary manual-signing edit (reverted), exported, `codesign
+  --verify --deep --strict` OK, Info.plist 1.10.0 / 15 / `com.mindfulness.creativeactivities`
+  / "Creative Activities", `ITSAppUsesNonExemptEncryption` false. IPA SHA-256
+  `bbc81842a31c3c82b3f295466473e1bfa7fa934a8006907b98ec89065399583c`.
+- `altool` validate and upload OK; build `8e29f169-5255-4a7f-9eb0-aa8e2e59ca5e` VALID and
+  attached to version 1.10.0. Age rating 4+.
+- Submission: review submission `0638f840-434f-4bb9-b558-4245fcf7de2b` exists, but adding
+  the version fails with `STATE_ERROR.APP_DATA_USAGES_REQUIRED` (App Privacy answers not
+  published). Availability is not reported as a blocker, but `appAvailabilityV2` still
+  returns 404 through the API.
+
 ## Open items
 
 - App Store: App Privacy ("Data Not Collected"), territory availability (the v2
