@@ -10,7 +10,7 @@ interface Props {
 const { items, id = 'faq', lang = 'en' } = Astro.props;
 const title = Astro.props.title ?? ui(lang).common.faqTitle;
 ---
-<section aria-labelledby={id}>
+<section aria-labelledby={id} class="reveal">
   <h2 id={id}>{title}</h2>
   <div class="faq">
     {

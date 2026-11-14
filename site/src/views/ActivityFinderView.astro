@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { PACKS } from '../data/packs';
 import '../styles/activities.css';
+import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { breadcrumbs, itemList } from '../lib/schema';
 import {
@@ -55,10 +56,6 @@ const easier = (kinds: { kind: string; text: string }[]) =>
     </section>
 
     <form class="finder" id="finder" aria-label="Find an activity">
-      <div class="finder__search" data-finder-search hidden>
-        <label for="finder-words">Search by name or material (optional)</label>
-        <input id="finder-words" name="words" type="search" autocomplete="off" placeholder="For example: flowers, music, yarn" />
-      </div>
       <fieldset>
         <legend>How much time do you have?</legend>
         {
@@ -98,6 +95,10 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       </fieldset>
       <details class="finder__more">
         <summary>More ways to fit the moment (optional)</summary>
+        <div class="finder__search" data-finder-search hidden>
+          <label for="finder-words">Search by name or material (optional)</label>
+          <input id="finder-words" name="words" type="search" autocomplete="off" placeholder="For example: flowers, music, yarn" />
+        </div>
         <fieldset>
           <legend>Where will you be?</legend>
           <label class="choice">
@@ -158,7 +159,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       Showing all {activities.length} activities.
     </p>
 
-    <ul class="activity-grid" id="finder-results">
+    <ul class="activity-grid finder__results" id="finder-results">
       {
         activities.map((a) => {
           const alt = easier(a.data.variations);
@@ -177,7 +178,9 @@ const easier = (kinds: { kind: string; text: string }[]) =>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
                 <span class="activity-card__name">{a.data.name}</span>
                 <span class="activity-card__summary">{a.data.summary}</span>
-                <span class="activity-card__glance">{glance(a.data).join(' · ')}</span>
+                <span class="activity-card__glance">
+                  {glance(a.data).map((fact) => <span class="activity-card__fact">{fact}</span>)}
+                </span>
                 <span class="activity-card__why" hidden />
                 <span class="activity-card__easier">
                   <strong>{VARIATION_LABELS[alt.kind]}:</strong> {alt.text}
@@ -195,7 +198,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 
     {
       hubs.length > 0 && (
-        <nav class="hub-next" aria-labelledby="by-situation">
+        <nav class="hub-next reveal" aria-labelledby="by-situation">
           <h2 id="by-situation">Browse by situation</h2>
           <ul class="activity-list">
             {hubs.map((h) => (

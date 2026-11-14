@@ -15,7 +15,10 @@ const alt = variation ? d.variations.find((v) => v.kind === variation) : undefin
   <span class="activity-card__type">{TYPE_LABELS[d.type]}</span>
   <span class="activity-card__name">{d.name}</span>
   <span class="activity-card__summary">{d.summary}</span>
-  <span class="activity-card__glance">{glance(d).join(' · ')}</span>
+  <span class="activity-card__glance">
+    {/* The space keeps facts apart for screen readers; flex hides it visually. */}
+    {glance(d).map((fact) => <><span class="activity-card__fact">{fact}</span>{' '}</>)}
+  </span>
   {
     alt && (
       <span class="activity-card__easier">

@@ -228,6 +228,20 @@
 .activity-card__glance {
   font-weight: 700;
 }
+/* Each glance fact is its own small paper tag, so facts never run together
+   and still read as separate items with no colour. */
+.activity-card__glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+.activity-card__fact {
+  padding: 2px var(--space-sm);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-sm);
+  background: var(--gm-background);
+  font-size: var(--text-sm);
+}
 .activity-card__why {
   padding: var(--space-xs) var(--space-sm);
   background: var(--gm-surface-sunken);

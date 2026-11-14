@@ -11,7 +11,7 @@ const { lang = 'en' } = Astro.props;
 const t = ui(lang).playCta;
 const { title = t.title, text = t.text } = Astro.props;
 ---
-<section class="cta-band" aria-label={t.aria}>
+<section class="cta-band cta-band--play" aria-label={t.aria}>
   <div>
     <h2>{title}</h2>
     <p>{text}</p>
@@ -21,3 +21,38 @@ const { title = t.title, text = t.text } = Astro.props;
     <a class="btn" href={localePath(lang, '/games/')}>{t.all}</a>
   </div>
 </section>
+
+<style>
+  /* One sun sheet, calm and warm: the highlight colour, with ink text only. */
+  .cta-band--play {
+    position: relative;
+    background: color-mix(in srgb, var(--gm-primary-container) 22%, var(--gm-surface));
+    border-color: color-mix(in srgb, var(--gm-primary-container) 60%, var(--gm-outline));
+  }
+  .cta-band--play::before {
+    content: '';
+    position: absolute;
+    inset-block: 8px -8px;
+    inset-inline: 8px -8px;
+    z-index: -1;
+    border-radius: inherit;
+    background: var(--gm-surface-sunken);
+    rotate: -0.7deg;
+  }
+  .cta-band--play p {
+    color: var(--gm-on-surface);
+  }
+  @media print {
+    .cta-band--play::before {
+      display: none;
+    }
+  }
+  @media (forced-colors: active) {
+    .cta-band--play::before {
+      display: none;
+    }
+  }
+  html[data-contrast='high'] .cta-band--play::before {
+    display: none;
+  }
+</style>
