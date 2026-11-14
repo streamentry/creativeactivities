@@ -20,7 +20,7 @@ const lead = variant === 'lead';
 <article class:list={['card', 'game-card', lead && 'game-card--lead']}>
   <div class="game-card__print">
     <div class="game-card__pics">
-      {game.cardPictures.map((id) => <img src={pictureUrl(id)} alt="" width="120" height="120" loading="lazy" decoding="async" />)}
+      {game.cardPictures.map((id) => <img src={pictureUrl(id)} alt="" width="120" height="120" loading={lead ? "eager" : "lazy"} decoding="async" />)}
     </div>
   </div>
   <div class="card__body">
