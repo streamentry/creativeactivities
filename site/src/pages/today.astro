@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { Today } from '../tools/Today';
+import '../styles/studio-finder.css';
 ---
 <PageLayout
   title="What is hardest today?"
@@ -11,7 +12,7 @@ import { Today } from '../tools/Today';
   lede="A quick answer for a hard moment, and a place to note what helped. Free, no sign-up, and your notes stay on this device."
 >
   <Today client:load />
-  <p class="muted">
+  <p class="muted reveal">
     General information for families, drawn from the sourced guides on this site. It is not medical advice and does not
     replace their doctor or care team.
   </p>

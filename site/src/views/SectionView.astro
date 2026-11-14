@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/studio-editorial.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import GuideCard from '../components/GuideCard.astro';
 import HealthNotice from '../components/HealthNotice.astro';
@@ -80,9 +81,9 @@ const itemList = {
           </a>
         )
       }
-      <ul class="card-grid">
+      <ol class="contents-list">
         {rest.map((g) => <li data-guide-search-item={enableGuideSearch ? '' : undefined} data-search-text={enableGuideSearch ? guideSearchText(g) : undefined}><GuideCard href={href(g)} title={g.entry.data.title} text={g.entry.data.description} headingLevel="h2" lang={lang} /></li>)}
-      </ul>
+      </ol>
     </div>
     <PlayCta lang={lang} />
     <AppCta placement="section" lang={lang} />

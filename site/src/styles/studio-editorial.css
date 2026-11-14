@@ -1,0 +1,368 @@
+/* Editorial reading pages (2026 refresh): search landings, guides, section
+   contents, and about, legal and app pages. A page header at display scale,
+   the direct answer on a torn paper sheet, a reading column of about 68
+   characters, a sticky contents rail on wide screens, activity lists as a bento
+   with the first item leading, FAQ rows that open like a contents page, and a
+   colophon for sources. Layout and ornament only: content, targets and
+   contrast come from tokens.css and components.css. */
+
+/* ---------- Page header: the title is the cover ---------- */
+.page-head {
+  padding-block: clamp(var(--space-lg), 1rem + 2vw, var(--space-2xl)) var(--space-xl);
+  margin-bottom: var(--space-xl);
+  border-bottom: 1px solid color-mix(in srgb, var(--gm-outline) 35%, transparent);
+}
+.page-head h1 {
+  max-width: 16em;
+  font-size: var(--text-hero);
+  line-height: var(--leading-hero);
+  letter-spacing: var(--tracking-hero);
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+.page-head .eyebrow {
+  margin-bottom: var(--space-md);
+}
+.page-head .lede {
+  margin-top: var(--space-md);
+}
+
+/* ---------- Reading column ---------- */
+.prose {
+  max-width: min(100%, 68ch);
+}
+.prose h2 {
+  font-size: clamp(1.75rem, 1.4rem + 1.2vw, 2.5rem);
+  text-wrap: balance;
+}
+
+/* ---------- Direct answer: a pull-quote on a torn paper sheet ---------- */
+.prose .answer {
+  position: relative;
+  margin-block: var(--space-2xl) var(--space-xl);
+  padding: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-xl));
+  padding-inline-start: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-xl));
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: var(--gm-surface);
+  box-shadow: var(--studio-shadow-sheet);
+}
+/* The torn top edge: a strip of the same paper, cut along the top. */
+.prose .answer::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -13px;
+  height: 14px;
+  background: var(--gm-surface);
+  -webkit-mask: var(--studio-torn) top / 100% 14px no-repeat;
+  mask: var(--studio-torn) top / 100% 14px no-repeat;
+}
+.prose .answer > p:not(.answer__label) {
+  font-size: clamp(1.375rem, 1.15rem + 0.8vw, 1.75rem);
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: var(--space-md);
+}
+.prose .answer__label {
+  font-size: var(--text-sm);
+  margin-bottom: var(--space-sm);
+}
+
+/* ---------- Contents rail: on wide screens the guide's contents sit beside the text ---------- */
+.aside-toc {
+  display: none;
+}
+@media (min-width: 1040px) {
+  .toc--inline {
+    display: none;
+  }
+  .aside-toc {
+    display: block;
+  }
+  .article-aside {
+    max-height: calc(100vh - 2 * var(--space-lg));
+    overflow-y: auto;
+  }
+}
+.aside-toc ol {
+  margin: 0;
+  padding-inline-start: 1.6em;
+}
+
+/* ---------- Bento: curated activities, the first one leads ---------- */
+.bento-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: minmax(0, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.bento-grid .activity-card {
+  box-shadow: var(--studio-shadow-sheet);
+}
+.bento-grid .activity-card:hover,
+.bento-grid .activity-card:focus-visible {
+  box-shadow: -7px 8px 0 -1px var(--gm-surface-sunken), var(--studio-shadow-lift);
+}
+[dir='rtl'] .bento-grid .activity-card:hover,
+[dir='rtl'] .bento-grid .activity-card:focus-visible {
+  box-shadow: 7px 8px 0 -1px var(--gm-surface-sunken), var(--studio-shadow-lift);
+}
+@media (min-width: 720px) {
+  .bento-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .bento-grid > li:first-child {
+    grid-column: 1 / -1;
+  }
+  .bento-grid > li:first-child .activity-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    column-gap: var(--space-xl);
+    align-content: start;
+    padding: var(--space-xl);
+    background: var(--gm-accent-pale);
+    border-top-color: var(--gm-primary);
+  }
+  .bento-grid > li:first-child .activity-card__name {
+    font-size: var(--text-h2);
+    line-height: var(--leading-tight);
+  }
+  .bento-grid > li:first-child .activity-card__summary {
+    font-size: var(--text-md);
+  }
+  .bento-grid > li:first-child .activity-card__glance {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    align-self: start;
+  }
+  .bento-grid > li:first-child .activity-card__easier {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: var(--space-md);
+  }
+}
+@media (min-width: 1040px) {
+  .bento-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .bento-grid > li:first-child {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---------- Section index: a magazine contents page ---------- */
+.contents-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  list-style: decimal-leading-zero;
+  padding-inline-start: 0;
+  margin: 0;
+  border-top: 2px solid var(--gm-primary);
+}
+/* The number hangs in the margin to the start of each entry, like a folio. */
+.contents-list > li {
+  display: block;
+  padding-block: var(--space-md);
+  padding-inline-end: var(--space-sm);
+  margin-inline-start: 2.6em;
+  border-bottom: 1px solid color-mix(in srgb, var(--gm-outline) 35%, transparent);
+  transition: background-color var(--duration-normal) ease, box-shadow var(--duration-normal) ease;
+}
+.contents-list > li::marker {
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+  color: var(--gm-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.contents-list > li:hover,
+.contents-list > li:focus-within {
+  background: var(--gm-surface);
+  box-shadow: var(--studio-shadow-sheet);
+}
+.contents-list .card {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  height: auto;
+  gap: var(--space-xs);
+}
+.contents-list .card:hover,
+.contents-list .card:focus-within {
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+.contents-list .card h2 {
+  font-size: clamp(1.375rem, 1.2rem + 0.6vw, 1.75rem);
+  line-height: var(--leading-heading);
+}
+@media (min-width: 760px) {
+  .contents-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--space-2xl);
+  }
+}
+
+/* ---------- Printable pack cover: a cover sheet ---------- */
+.pack-cover {
+  position: relative;
+  padding: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-2xl));
+  border-radius: var(--radius-sm);
+  background: var(--gm-surface);
+  box-shadow: var(--studio-shadow-sheet);
+  margin-top: var(--space-xl);
+}
+.pack-cover::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -13px;
+  height: 14px;
+  background: var(--gm-surface);
+  -webkit-mask: var(--studio-torn) top / 100% 14px no-repeat;
+  mask: var(--studio-torn) top / 100% 14px no-repeat;
+}
+.pack-supplies > div {
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  background: var(--gm-background);
+  border-top: 3px solid var(--gm-primary-container);
+}
+
+/* ---------- FAQ: topics as a contents strip, then disclosure rows ---------- */
+.faq-topics ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr));
+  column-gap: var(--space-xl);
+  padding-inline-start: 1.4em;
+}
+.faq-topics li {
+  break-inside: avoid;
+}
+.faq {
+  border-top: 2px solid var(--gm-primary);
+}
+.faq details {
+  border-bottom: 1px solid color-mix(in srgb, var(--gm-outline) 40%, transparent);
+  transition: background-color var(--duration-normal) ease;
+}
+.faq details[open] {
+  background: var(--gm-surface);
+}
+.faq details[open] summary {
+  color: var(--gm-primary);
+}
+.faq summary {
+  padding-inline: var(--space-xs);
+}
+.faq summary::after {
+  transition:
+    background-color var(--duration-fast) ease,
+    color var(--duration-fast) ease;
+}
+.faq details[open] summary::after {
+  background: var(--gm-primary);
+  color: var(--gm-on-primary);
+}
+.faq details > div {
+  padding-inline: var(--space-xs);
+}
+.faq details > div p {
+  max-width: 62ch;
+  margin-top: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .faq details[open] > div {
+    animation: editorial-open var(--duration-normal) var(--ease-out) both;
+  }
+}
+@keyframes editorial-open {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+/* ---------- Colophon: byline, dates and sources sit at the foot of the page ---------- */
+.prose .sources {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 2px solid var(--gm-primary);
+  font-size: var(--text-md);
+}
+.prose .sources h2 {
+  margin-top: 0;
+  font-size: var(--text-title-lg);
+}
+.prose .sources ol {
+  overflow-wrap: anywhere;
+}
+.activity-byline {
+  max-width: var(--content-max);
+  margin-top: var(--space-2xl);
+  padding: var(--space-lg);
+  border-top: 0;
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--gm-surface-sunken) 55%, var(--gm-background));
+  color: var(--gm-on-surface);
+  font-size: var(--text-sm);
+}
+.activity-byline p {
+  margin: 0;
+}
+
+/* ---------- Reveal: below-the-fold blocks settle in; print shows everything ---------- */
+@media print {
+  .reveal.reveal {
+    animation: none;
+  }
+  .page-head {
+    border-bottom: 0;
+  }
+  .prose .answer,
+  .pack-cover,
+  .pack-supplies > div,
+  .activity-byline {
+    box-shadow: none;
+    background: none;
+  }
+  .prose .answer::before,
+  .pack-cover::before {
+    display: none;
+  }
+  .contents-list > li:hover,
+  .contents-list > li:focus-within {
+    box-shadow: none;
+    background: none;
+  }
+  .bento-grid > li:first-child .activity-card {
+    background: none;
+  }
+}
+html[data-contrast='high'] .prose .answer,
+html[data-contrast='high'] .pack-cover,
+html[data-contrast='high'] .activity-byline {
+  box-shadow: none;
+  border: 1px solid var(--gm-on-surface);
+}
+html[data-contrast='high'] .prose .answer::before,
+html[data-contrast='high'] .pack-cover::before {
+  display: none;
+}
+@media (prefers-contrast: more), (forced-colors: active) {
+  .prose .answer,
+  .pack-cover,
+  .activity-byline {
+    box-shadow: none;
+    border: 1px solid CanvasText;
+  }
+  .prose .answer::before,
+  .pack-cover::before {
+    display: none;
+  }
+}

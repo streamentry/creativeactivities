@@ -2,6 +2,7 @@
 import { getCollection, getEntry, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/activities.css';
+import '../styles/studio-editorial.css';
 import ActivityCard from '../components/ActivityCard.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
@@ -63,10 +64,10 @@ const jsonLd = [
       </ul>
     </section>
 
-    <section aria-labelledby="hub-activities">
+    <section aria-labelledby="hub-activities" class="reveal">
       <h2 id="hub-activities">{activities.length} activities to start today</h2>
       <p>Each one has a materials list, one action per step, easier versions and a card to print.</p>
-      <ul class="activity-grid">
+      <ul class="activity-grid bento-grid">
         {
           activities.map((a) => (
             <li>
@@ -78,7 +79,7 @@ const jsonLd = [
       <p><a href="/activity/">Filter all activities by time, materials and setting</a></p>
     </section>
 
-    <article class="prose hub-body">
+    <article class="prose hub-body reveal">
       <Content />
       <Faq items={d.faq} title="Common questions" />
       {
@@ -99,7 +100,7 @@ const jsonLd = [
 
     {
       (guides.length > 0 || related.length > 0) && (
-        <nav class="hub-next" aria-labelledby="hub-next">
+        <nav class="hub-next reveal" aria-labelledby="hub-next">
           <h2 id="hub-next">Keep reading</h2>
           <ul class="activity-list">
             {related.map((h) => (
@@ -117,7 +118,7 @@ const jsonLd = [
       )
     }
 
-    <footer class="activity-byline">
+    <footer class="activity-byline reveal">
       <p>
         {/* Explicit spaces: Astro drops the line breaks between text and tags. */}
         By {d.author}. Not yet reviewed by an outside expert. Published{' '}

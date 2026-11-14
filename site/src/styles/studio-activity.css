@@ -1,0 +1,371 @@
+/* Activity page: "ready in one glance" (DESIGN.md §1 and §4B).
+   Loaded by ActivityView after activities.css and scoped to .activity-page,
+   so no other view changes. Ornament only: content, contrast and tap targets
+   come from tokens.css, components.css and activities.css. Every sheet, torn
+   edge and turn switches off for print, high contrast and forced colours.
+   Logical properties only, so RTL languages mirror cleanly. */
+
+/* ---------- The head is a recipe card laid on the table ---------- */
+.activity-page .activity-head {
+  position: relative;
+  max-width: var(--wide-max);
+  margin-top: var(--space-md);
+  padding: var(--space-xl) var(--space-lg) var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
+  border-radius: var(--radius-md);
+  box-shadow: var(--studio-shadow-sheet);
+}
+/* A sun sheet peeks out behind the card. z-index -1 keeps it under the text. */
+.activity-page .activity-head::after {
+  content: '';
+  position: absolute;
+  inset-block-start: 10px;
+  inset-block-end: -8px;
+  inset-inline-start: 10px;
+  inset-inline-end: -6px;
+  z-index: -1;
+  border-radius: var(--radius-md);
+  background: var(--studio-sheet-under-alt);
+  transform: rotate(0.9deg);
+}
+/* The torn top edge, cut from the same paper as the sheet it belongs to. */
+.activity-page .activity-head::before,
+.activity-page .activity-need::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -12px;
+  height: 12px;
+  background: var(--gm-surface);
+  -webkit-mask: var(--studio-torn) center / 100% 100% no-repeat;
+  mask: var(--studio-torn) center / 100% 100% no-repeat;
+}
+
+.activity-page .activity-head h1 {
+  font-size: var(--text-display);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  margin-bottom: var(--space-md);
+  text-wrap: balance;
+}
+.activity-page .activity-head__summary {
+  max-width: 46ch;
+}
+.activity-page .activity-need h3 {
+  margin-top: var(--space-xl);
+}
+
+/* The at-a-glance ticket: labelled cells, ruled with hairlines (no icons). */
+.activity-ledger {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 9.5rem), 1fr));
+  margin: var(--space-lg) 0 var(--space-md);
+  padding: 0;
+  background: var(--gm-outline);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.activity-ledger > div {
+  display: grid;
+  gap: 2px;
+  align-content: start;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--gm-surface);
+}
+.activity-ledger dt {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+}
+.activity-ledger dd {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+
+/* Start / Print / Save: the primary action leads and every target is tappable. */
+.activity-page .activity-head .btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-md);
+}
+.activity-page .activity-head .btn--primary {
+  min-height: var(--target-primary);
+}
+
+/* ---------- What you need: a checklist on a paper sheet ---------- */
+.activity-page .activity-need {
+  position: relative;
+  margin-top: var(--space-xl);
+  padding: var(--space-xl) var(--space-lg) var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
+  border-radius: var(--radius-md);
+  box-shadow: var(--studio-shadow-sheet);
+}
+/* The checkbox is drawn, so the list still reads with no colour. */
+.activity-page .activity-check {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.activity-page .activity-check li {
+  position: relative;
+  padding-inline-start: 2.25rem;
+}
+.activity-page .activity-check li + li {
+  margin-top: var(--space-sm);
+}
+.activity-page .activity-check li::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0.2em;
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: 4px;
+  background: var(--gm-background);
+}
+
+/* ---------- Steps: one action each, a large hanging numeral, ~65ch lines ---------- */
+.activity-page .activity-steps {
+  display: grid;
+  gap: 0;
+  max-width: 65ch;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.activity-page .activity-steps li {
+  display: block;
+  position: relative;
+  counter-increment: step;
+  padding-block: var(--space-md);
+  padding-inline-start: 4.5rem;
+  font-size: var(--text-lg);
+  border: 0;
+  background: none;
+}
+.activity-page .activity-steps li + li {
+  border-top: 1px solid var(--gm-surface-sunken);
+}
+.activity-page .activity-steps li::before {
+  content: counter(step);
+  display: block;
+  position: absolute;
+  inset-block-start: var(--space-md);
+  inset-inline-start: 0;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: none;
+  color: var(--gm-on-surface);
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 1.6rem + 1.6vw, 2.75rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gm-primary);
+  text-shadow: 3px 3px 0 var(--gm-primary-container);
+}
+
+/* ---------- Variations: side-by-side paper sheets on wide screens ---------- */
+.activity-page .activity-variations {
+  display: grid;
+  gap: var(--space-xl) var(--space-lg);
+}
+@media (min-width: 900px) {
+  .activity-page .activity-variations {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.activity-page .activity-variations > div {
+  position: relative;
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--studio-shadow-sheet);
+}
+/* Each sheet has a turned sheet under it: decoration only, never the text. */
+.activity-page .activity-variations > div::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 6px;
+  inset-block-end: -6px;
+  inset-inline-start: 6px;
+  inset-inline-end: -6px;
+  z-index: -1;
+  border-radius: var(--radius-sm);
+  background: var(--studio-sheet-under);
+  transform: rotate(-0.8deg);
+}
+.activity-page .activity-variations > div:nth-child(even)::before {
+  background: var(--studio-sheet-under-alt);
+  transform: rotate(0.8deg);
+}
+
+/* ---------- Related activities: cards lift off a sheet ---------- */
+.activity-page .activity-next .activity-grid > li {
+  position: relative;
+}
+.activity-page .activity-next .activity-grid > li::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 8px;
+  inset-block-end: -6px;
+  inset-inline-start: 8px;
+  inset-inline-end: -6px;
+  z-index: -1;
+  border-radius: var(--radius-lg);
+  background: var(--studio-sheet-under);
+  transform: rotate(-1deg);
+}
+.activity-page .activity-next .activity-grid > li:nth-child(even)::before {
+  background: var(--studio-sheet-under-alt);
+  transform: rotate(0.9deg);
+}
+
+/* ---------- Print: one card, no decoration, black on white ---------- */
+@media print {
+  .activity-page .activity-head,
+  .activity-page .activity-need,
+  .activity-page .activity-variations > div {
+    background: none;
+    border: 0;
+    box-shadow: none;
+  }
+  .activity-page .activity-head {
+    margin: 0;
+    padding: 0 0 2mm;
+  }
+  .activity-page .activity-head::before,
+  .activity-page .activity-head::after,
+  .activity-page .activity-need::before,
+  .activity-page .activity-variations > div::before,
+  .activity-page .activity-next .activity-grid > li::before {
+    display: none;
+  }
+  .activity-page .activity-head h1 {
+    font-size: 22pt;
+    margin: 0 0 1mm;
+  }
+  .activity-ledger {
+    gap: 0.3mm;
+    margin: 1.5mm 0 1mm;
+    background: #000;
+    border: 0;
+  }
+  .activity-ledger > div {
+    padding: 1mm 2mm;
+    background: #fff;
+  }
+  .activity-ledger dt,
+  .activity-ledger dd {
+    font-size: 10pt;
+  }
+  .activity-page .activity-need {
+    margin: 3mm 0 0;
+    padding: 0;
+  }
+  .activity-page .activity-check li {
+    padding-inline-start: 7mm;
+  }
+  .activity-page .activity-check li::before {
+    top: 0.3mm;
+    width: 4mm;
+    height: 4mm;
+    border: 1pt solid #000;
+  }
+  .activity-page .activity-steps {
+    max-width: none;
+  }
+  .activity-page .activity-steps li {
+    padding-block: 0;
+    padding-inline-start: 8mm;
+    border: 0;
+    break-inside: avoid;
+  }
+  .activity-page .activity-steps li + li {
+    border: 0;
+  }
+  .activity-page .activity-steps li::before {
+    inset-block-start: 0;
+    width: 6mm;
+    height: 6mm;
+    display: grid;
+    place-items: center;
+    border: 1.5pt solid #000;
+    font-size: 10pt;
+  }
+  .activity-page .activity-variations {
+    gap: 1.5mm;
+  }
+  .activity-page .activity-variations > div {
+    padding: 1.5mm 2.5mm;
+  }
+  .activity-page .reveal {
+    animation: none !important;
+  }
+}
+
+/* ---------- High contrast: borders instead of sheets ---------- */
+html[data-contrast='high'] .activity-page .activity-head,
+html[data-contrast='high'] .activity-page .activity-need,
+html[data-contrast='high'] .activity-page .activity-variations > div {
+  background: var(--gm-background);
+  border: 2px solid var(--gm-on-surface);
+  box-shadow: none;
+}
+html[data-contrast='high'] .activity-page .activity-head::before,
+html[data-contrast='high'] .activity-page .activity-head::after,
+html[data-contrast='high'] .activity-page .activity-need::before,
+html[data-contrast='high'] .activity-page .activity-variations > div::before,
+html[data-contrast='high'] .activity-page .activity-next .activity-grid > li::before {
+  display: none;
+}
+
+/* ---------- Forced colours: keep the structure, drop the paper ---------- */
+@media (forced-colors: active) {
+  .activity-page .activity-head::before,
+  .activity-page .activity-head::after,
+  .activity-page .activity-need::before,
+  .activity-page .activity-variations > div::before,
+  .activity-page .activity-next .activity-grid > li::before {
+    display: none;
+  }
+  .activity-ledger {
+    background: none;
+    border: 1px solid CanvasText;
+  }
+  .activity-ledger > div {
+    border: 1px solid CanvasText;
+    background: none;
+  }
+  .activity-page .activity-head,
+  .activity-page .activity-need,
+  .activity-page .activity-variations > div {
+    box-shadow: none;
+  }
+}
+
+/* Step numerals lose their sun offset wherever ornament is off. */
+html[data-contrast='high'] .activity-page .activity-steps li::before {
+  text-shadow: none;
+}
+@media print, (forced-colors: active) {
+  .activity-page .activity-steps li::before {
+    text-shadow: none;
+  }
+}
+@media print {
+  .activity-page .activity-steps li {
+    font-size: inherit;
+  }
+}

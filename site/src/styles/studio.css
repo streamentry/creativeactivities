@@ -1,0 +1,353 @@
+/* Studio layer (2026 refresh): "cut paper on a quiet table".
+   The logo is two overlapping sheets, an ink leaf and a torn clay sheet with
+   their shared space in sun. This layer turns that into the whole system:
+   paper grain, stacked sheets behind tappable cards, a torn edge where the
+   page meets the footer, editorial-scale headings, and motion that only ever
+   eases a sheet into place. Every effect is ornament: content, contrast and
+   tap targets come from tokens.css, base.css and components.css, unchanged.
+   Motion is opt-in (prefers-reduced-motion: no-preference) and every effect
+   switches off for print, higher contrast and forced colours. */
+
+:root {
+  /* Paper grain: an inline SVG noise tile tinted Ink at 5% (img-src allows data:). */
+  --studio-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .14 0 0 0 0 .22 0 0 0 0 .18 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  /* A hand-torn edge, used as a mask along the top of a sheet. */
+  --studio-torn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 12' preserveAspectRatio='none'%3E%3Cpath d='M0 12V6l8-3 9 4 10-5 8 3 11-2 7 4 12-5 9 3 10-1 8 4 11-4 9 2 10-3 8 5 12-4 7 2 11-3 9 4 10-2 8 3 11-5 9 4 8-2L240 5V12z'/%3E%3C/svg%3E");
+
+  /* Sheets: a card sits on a second, slightly turned sheet. */
+  --studio-sheet-under: var(--gm-surface-sunken); /* Sage */
+  --studio-sheet-under-alt: var(--gm-accent-pale); /* Sun pale */
+  --studio-sheet-tilt: -1.6deg;
+  --studio-shadow-sheet: 0 1px 1px rgb(36 55 47 / 6%), 0 10px 24px -12px rgb(36 55 47 / 22%);
+  --studio-shadow-lift: 0 2px 2px rgb(36 55 47 / 8%), 0 22px 40px -18px rgb(36 55 47 / 32%);
+
+  /* Editorial scale: one size above the hero for the single home question. */
+  --text-display: clamp(2.75rem, 1.2rem + 6.2vw, 6rem);
+  --leading-display: 1;
+  --tracking-display: -0.025em;
+
+  /* Motion: a soft settle, like a sheet laid down on a table. */
+  --ease-settle: cubic-bezier(0.22, 1.2, 0.36, 1);
+  --duration-slow: 600ms;
+
+  --header-h: 72px;
+}
+
+/* ---------- Grain: the whole page is paper ---------- */
+body {
+  background-image: var(--studio-grain);
+}
+p,
+li,
+dd {
+  text-wrap: pretty;
+}
+
+/* ---------- Page transitions (cross-document View Transitions) ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+  ::view-transition-old(root) {
+    animation: studio-leave 180ms ease-in both;
+  }
+  ::view-transition-new(root) {
+    animation: studio-enter 360ms var(--ease-out) both;
+  }
+}
+.site-header {
+  view-transition-name: site-header;
+}
+.site-footer {
+  view-transition-name: site-footer;
+}
+@keyframes studio-leave {
+  to {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+@keyframes studio-enter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+/* ---------- Header: a sheet of frosted paper that stays in reach ---------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background:
+    var(--gm-sunrise) top / 100% 4px no-repeat,
+    color-mix(in srgb, var(--gm-background) 86%, transparent);
+  -webkit-backdrop-filter: saturate(1.4) blur(14px);
+  backdrop-filter: saturate(1.4) blur(14px);
+  border-bottom-color: color-mix(in srgb, var(--gm-surface-sunken) 80%, transparent);
+}
+/* The header grows a soft shadow once the page scrolls under it. */
+@supports (animation-timeline: scroll()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .site-header {
+      animation: studio-header-lift linear both;
+      animation-timeline: scroll(root);
+      animation-range: 0 120px;
+    }
+  }
+}
+@keyframes studio-header-lift {
+  to {
+    box-shadow: 0 10px 30px -18px rgb(36 55 47 / 45%);
+  }
+}
+/* Layout: brand and the text controls share the first row, the navigation
+   runs along the second like tabs on a folder. On wide screens all three fit
+   on one row and only then does the header stay in reach while scrolling, so
+   a two-row header never eats a small screen's reading space. */
+@media (min-width: 720px) {
+  .site-header__inner {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas:
+      'brand . tools'
+      'nav nav nav';
+    row-gap: var(--space-xs);
+    padding-bottom: var(--space-sm);
+  }
+  .site-header .brand {
+    grid-area: brand;
+  }
+  .site-header .site-nav {
+    grid-area: nav;
+    margin-inline-start: -14px;
+  }
+  .site-header .text-size {
+    grid-area: tools;
+  }
+}
+@media (min-width: 1360px) {
+  .site-header .container {
+    max-width: calc(1360px + 2 * var(--gutter));
+  }
+  .site-header__inner {
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'brand nav tools';
+    column-gap: var(--space-lg);
+    padding-bottom: var(--space-md);
+  }
+  .site-header .site-nav {
+    margin-inline-start: 0;
+    justify-self: center;
+  }
+}
+@media (max-width: 1359px), (max-height: 560px) {
+  .site-header {
+    position: relative;
+  }
+}
+html[data-text-size='large'] .site-header {
+  position: relative;
+}
+.brand__mark {
+  transition: transform var(--duration-normal) var(--ease-settle);
+}
+.brand:hover .brand__mark {
+  transform: rotate(-6deg) scale(1.04);
+}
+.site-nav a {
+  transition:
+    background-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease;
+}
+
+/* ---------- Buttons: the primary button is a sheet on a sun sheet ---------- */
+.btn {
+  position: relative;
+}
+.btn--primary {
+  box-shadow:
+    0 2px 0 var(--gm-primary-deep),
+    4px 6px 0 -1px var(--gm-primary-container);
+}
+.btn--primary:hover {
+  transform: translateY(-1px);
+  box-shadow:
+    0 3px 0 var(--gm-primary-deep),
+    6px 8px 0 -1px var(--gm-primary-container);
+}
+.btn--primary:active {
+  transform: translateY(1px);
+  box-shadow:
+    0 1px 0 var(--gm-primary-deep),
+    2px 3px 0 -1px var(--gm-primary-container);
+}
+.btn svg[data-icon='arrow'] {
+  transition: translate var(--duration-fast) var(--ease-out);
+}
+.btn:hover svg[data-icon='arrow'] {
+  translate: 3px 0;
+}
+[dir='rtl'] .btn:hover svg[data-icon='arrow'] {
+  translate: -3px 0;
+}
+
+/* ---------- Eyebrow: a small paper label, not a coloured dot alone ---------- */
+.eyebrow {
+  padding: 4px 14px 4px 10px;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--gm-accent-pale) 70%, var(--gm-surface));
+  color: var(--gm-on-surface);
+  font-size: var(--text-sm);
+  letter-spacing: 0.01em;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--gm-accent) 25%, transparent);
+}
+.eyebrow::before {
+  width: 8px;
+  height: 8px;
+  box-shadow: none;
+}
+
+/* ---------- Cards: every tappable card sits on a second sheet ---------- */
+/* The sheet underneath is a hard offset shadow, so it never paints over the
+   card's own paper and costs nothing to composite. */
+.card {
+  --studio-under: var(--studio-sheet-under);
+  border-color: color-mix(in srgb, var(--gm-outline) 70%, transparent);
+  box-shadow: var(--studio-shadow-sheet);
+}
+.card-grid > li:nth-child(3n + 2) .card {
+  --studio-under: var(--studio-sheet-under-alt);
+}
+.card:hover,
+.card:focus-within {
+  transform: translate(3px, -4px);
+  box-shadow:
+    -7px 8px 0 -1px var(--studio-under),
+    -7px 8px 0 0 color-mix(in srgb, var(--gm-outline) 35%, transparent),
+    var(--studio-shadow-lift);
+}
+
+/* ---------- Sections: headings at editorial scale ---------- */
+.section-head h2 {
+  font-size: clamp(1.875rem, 1.2rem + 2.4vw, 3rem);
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+.section--linen {
+  background:
+    var(--studio-grain),
+    color-mix(in srgb, var(--gm-surface) 70%, var(--gm-surface-sunken));
+}
+
+/* ---------- Footer: the page ends on a torn edge ---------- */
+.site-footer {
+  position: relative;
+  border-top: 0;
+  margin-top: calc(var(--space-section) + 14px);
+}
+.site-footer::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -13px;
+  height: 14px;
+  background: var(--gm-on-surface);
+  -webkit-mask: var(--studio-torn) center / 100% 100% no-repeat;
+  mask: var(--studio-torn) center / 100% 100% no-repeat;
+}
+.site-footer::after {
+  /* the clay sheet peeking out under the torn edge */
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -18px;
+  height: 14px;
+  z-index: -1;
+  background: var(--gm-accent);
+  -webkit-mask: var(--studio-torn) center / 100% 100% no-repeat;
+  mask: var(--studio-torn) center / 100% 100% no-repeat;
+  transform: scaleX(-1);
+}
+
+/* ---------- Reveal: sheets settle into place as they scroll in ---------- */
+/* Opt-in with class="reveal". Without scroll-driven animation support,
+   or with reduced motion, content is simply there. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal {
+      animation: studio-settle linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 55%;
+    }
+  }
+}
+@keyframes studio-settle {
+  from {
+    opacity: 0.001;
+    transform: translateY(28px) rotate(-0.6deg);
+  }
+}
+
+/* ---------- Opt-outs: print, higher contrast, forced colours ---------- */
+@media print {
+  body {
+    background-image: none;
+  }
+  .site-header {
+    position: static;
+    backdrop-filter: none;
+  }
+  .site-footer::before,
+  .site-footer::after {
+    display: none;
+  }
+  .card {
+    box-shadow: none;
+  }
+}
+html[data-contrast='high'] body,
+html[data-contrast='high'] .section--linen {
+  background-image: none;
+}
+html[data-contrast='high'] .site-header {
+  background:
+    var(--gm-sunrise) top / 100% 4px no-repeat,
+    var(--gm-background);
+  backdrop-filter: none;
+}
+html[data-contrast='high'] .card:hover,
+html[data-contrast='high'] .card:focus-within {
+  box-shadow: var(--shadow-raised);
+}
+html[data-contrast='high'] .eyebrow {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+@media (prefers-contrast: more) {
+  body,
+  .section--linen {
+    background-image: none;
+  }
+  .card:hover,
+  .card:focus-within {
+    box-shadow: var(--shadow-raised);
+  }
+}
+@media (forced-colors: active) {
+  body,
+  .section--linen {
+    background-image: none;
+  }
+  .site-footer::before,
+  .site-footer::after {
+    display: none;
+  }
+  .site-header {
+    backdrop-filter: none;
+  }
+  .eyebrow {
+    box-shadow: none;
+    border: 1px solid CanvasText;
+  }
+}

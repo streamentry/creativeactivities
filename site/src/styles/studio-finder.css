@@ -1,0 +1,452 @@
+/* Studio finder (2026 refresh): the activity finder (/activity/) and the
+   /today chooser as a calm, tactile set of paper chips and sheets.
+   Scoped to .finder, .finder__results and .today so no other page changes.
+   Tokens only; no new colours, no new hooks. Every chip keeps its input, so
+   the whole label stays one tap target and the selected state is a check
+   mark, a heavier border and a sun fill, never colour alone. */
+
+/* ---------- The finder is one sheet of paper on a sage sheet ---------- */
+.finder {
+  gap: var(--space-xl);
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid color-mix(in srgb, var(--gm-outline) 60%, transparent);
+  border-radius: var(--radius-xl);
+  box-shadow:
+    10px 12px 0 -1px var(--studio-sheet-under),
+    var(--studio-shadow-sheet);
+  margin-bottom: var(--space-xl);
+}
+@media (min-width: 600px) {
+  .finder {
+    padding: var(--space-xl);
+  }
+}
+.finder legend {
+  padding-block-end: var(--space-xs);
+  font-size: var(--text-md);
+  letter-spacing: 0.005em;
+}
+
+/* ---------- Paper chips: large, tappable, clearly selected ---------- */
+.finder .choice span {
+  min-height: var(--target-min);
+  padding: var(--space-xs) var(--space-md) var(--space-xs) var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  background: var(--gm-background);
+  box-shadow: 0 3px 0 var(--studio-sheet-under);
+  transition:
+    background-color var(--duration-fast) ease,
+    border-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
+    transform var(--duration-fast) var(--ease-out);
+}
+/* The check mark keeps its space when hidden, so chips never jump. */
+.finder .choice span::before {
+  content: '✓';
+  inline-size: 0.9em;
+  text-align: center;
+  visibility: hidden;
+}
+.finder .choice:hover span {
+  border-color: var(--gm-primary);
+  background: var(--gm-surface);
+  box-shadow: 0 5px 0 var(--studio-sheet-under);
+}
+.finder .choice input:checked + span {
+  background: var(--gm-primary-container);
+  border-color: var(--gm-primary);
+  box-shadow:
+    inset 0 0 0 1px var(--gm-primary),
+    0 3px 0 var(--gm-primary);
+}
+.finder .choice input:checked + span::before {
+  visibility: visible;
+}
+.finder .choice:active span {
+  box-shadow: 0 1px 0 var(--studio-sheet-under);
+}
+.finder .choice input:checked:active + span {
+  box-shadow:
+    inset 0 0 0 1px var(--gm-primary),
+    0 1px 0 var(--gm-primary);
+}
+.finder .choice input:focus-visible + span {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .finder .choice:hover span {
+    transform: translateY(-2px);
+  }
+  .finder .choice:active span {
+    transform: translateY(1px);
+  }
+}
+
+/* ---------- Search, inside the optional section ---------- */
+.finder__search input {
+  min-height: var(--target-primary);
+  background: var(--gm-background);
+  font-size: var(--text-lg);
+}
+.finder__search input:hover {
+  border-color: var(--gm-primary);
+}
+
+/* ---------- Optional fit filters: a folded note that opens ---------- */
+.finder__more {
+  padding-block-start: var(--space-lg);
+  border-top: 2px dotted var(--gm-outline);
+}
+.finder__more > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  min-height: var(--target-primary);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-primary);
+  border-radius: var(--radius-full);
+  background: var(--gm-background);
+  box-shadow: 0 3px 0 var(--gm-primary);
+  font-size: var(--text-md);
+  font-weight: 700;
+  list-style: none;
+  cursor: pointer;
+  transition:
+    background-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease;
+}
+.finder__more > summary::-webkit-details-marker {
+  display: none;
+}
+.finder__more > summary::after {
+  content: '';
+  flex: none;
+  inline-size: 0.55em;
+  block-size: 0.55em;
+  margin-inline-end: 0.35em;
+  border-inline-end: 3px solid currentColor;
+  border-block-end: 3px solid currentColor;
+  transform: translateY(-0.2em) rotate(45deg);
+}
+.finder__more[open] > summary::after {
+  transform: translateY(0.2em) rotate(-135deg);
+}
+.finder__more > summary:hover {
+  background: var(--gm-surface-sunken);
+  box-shadow: 0 4px 0 var(--gm-primary);
+}
+.finder__more > summary:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 3px;
+}
+.finder__more[open] > summary {
+  margin-block-end: var(--space-lg);
+  background: var(--gm-surface-sunken);
+  box-shadow: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .finder__more > summary::after {
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+}
+
+/* ---------- Live count: a sage label that says what is showing ---------- */
+.finder__count {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-block: var(--space-lg) var(--space-md);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+  font-size: var(--text-md);
+  font-weight: 700;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--gm-primary) 30%, transparent);
+}
+.finder__empty {
+  padding: var(--space-lg);
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+}
+
+/* ---------- Results: cards on their own sheets, hierarchy first ---------- */
+.finder__results {
+  gap: var(--space-xl) var(--space-lg);
+  margin-block: 0 var(--space-2xl);
+}
+.finder__results > li {
+  position: relative;
+}
+.finder__results .activity-card {
+  --studio-under: var(--studio-sheet-under);
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
+  border-top-width: 6px;
+  background: var(--gm-surface);
+  box-shadow:
+    -7px 8px 0 -1px var(--studio-under),
+    var(--studio-shadow-sheet);
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) ease;
+}
+.finder__results > li:nth-child(3n + 2) .activity-card {
+  --studio-under: var(--studio-sheet-under-alt);
+}
+.finder__results .activity-card:hover,
+.finder__results .activity-card:focus-visible {
+  box-shadow:
+    -7px 8px 0 -1px var(--studio-under),
+    -7px 8px 0 0 color-mix(in srgb, var(--gm-outline) 35%, transparent),
+    var(--studio-shadow-lift);
+}
+.finder__results .activity-card:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 4px;
+}
+.finder__results .activity-card__type {
+  align-self: flex-start;
+  padding: 2px var(--space-sm);
+  border-radius: var(--radius-full);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+.finder__results .activity-card__name {
+  font-size: clamp(1.375rem, 1.1rem + 0.9vw, 1.75rem);
+  line-height: 1.2;
+}
+.finder__results .activity-card__summary {
+  font-size: var(--text-md);
+  line-height: var(--leading-body);
+  color: var(--gm-on-surface-variant);
+}
+.finder__results .activity-card__glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+.finder__results .activity-card__fact {
+  padding: 2px var(--space-sm);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-sm);
+  background: var(--gm-background);
+  font-size: var(--text-sm);
+}
+.finder__results .activity-card__why {
+  background: var(--gm-secondary-container);
+  border-left-color: var(--gm-secondary);
+}
+.finder__results .activity-card__easier {
+  padding-top: var(--space-sm);
+  border-top: 2px dotted var(--gm-surface-sunken);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .finder__results .activity-card:hover,
+  .finder__results .activity-card:focus-visible {
+    transform: translate(3px, -4px);
+  }
+}
+
+/* ---------- /today: the same chips, sheets and sun for the choice ---------- */
+.today .today__choices {
+  display: grid;
+  list-style: none;
+  margin-inline: 0;
+  padding-inline-start: 0;
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+}
+.today .today__choice {
+  min-height: var(--target-hero);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font-size: var(--text-lg);
+  line-height: 1.25;
+  box-shadow: 0 4px 0 var(--studio-sheet-under);
+  transition:
+    background-color var(--duration-fast) ease,
+    border-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
+    transform var(--duration-fast) var(--ease-out);
+}
+.today .today__choice::before {
+  content: '✓';
+  flex: none;
+  inline-size: 0.9em;
+  text-align: center;
+  visibility: hidden;
+}
+.today .today__choice:hover {
+  border-color: var(--gm-primary);
+  background: var(--gm-surface);
+  box-shadow: 0 6px 0 var(--studio-sheet-under);
+}
+.today .today__choice:active {
+  box-shadow: 0 1px 0 var(--studio-sheet-under);
+}
+.today .today__choice[aria-pressed='true'] {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  border-color: var(--gm-primary);
+  box-shadow:
+    inset 0 0 0 1px var(--gm-primary),
+    0 4px 0 var(--gm-primary);
+}
+.today .today__choice[aria-pressed='true']::before {
+  visibility: visible;
+}
+.today .today__choice:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .today .today__choice:hover {
+    transform: translateY(-2px);
+  }
+  .today .today__choice:active {
+    transform: translateY(2px);
+  }
+}
+
+.today .today__answer {
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  box-shadow:
+    10px 12px 0 -1px var(--studio-sheet-under),
+    var(--studio-shadow-sheet);
+}
+.today .today__help {
+  border-radius: var(--radius-md);
+  box-shadow: 0 3px 0 var(--studio-sheet-under);
+}
+.today .today__activity-choice {
+  border-radius: var(--radius-lg);
+  box-shadow: 0 3px 0 var(--studio-sheet-under);
+  transition:
+    border-color var(--duration-fast) ease,
+    box-shadow var(--duration-fast) ease,
+    transform var(--duration-fast) var(--ease-out);
+}
+.today .today__activity-choice:hover {
+  border-color: var(--gm-primary);
+  background: var(--gm-surface);
+  box-shadow: 0 6px 0 var(--studio-sheet-under);
+}
+.today .today__activity-choice:active {
+  box-shadow: 0 1px 0 var(--studio-sheet-under);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .today .today__activity-choice:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Outcome buttons: three equal sheets to press after trying something. */
+.today .today__outcomes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr));
+  gap: var(--space-sm);
+  width: 100%;
+}
+.today .today__outcomes > .btn {
+  width: 100%;
+  min-height: var(--target-primary);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  box-shadow: 0 4px 0 var(--studio-sheet-under);
+}
+.today .today__outcomes > .btn:hover {
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  box-shadow: 0 6px 0 var(--studio-sheet-under);
+}
+.today .today__outcomes > .btn:active {
+  box-shadow: 0 1px 0 var(--studio-sheet-under);
+}
+
+/* ---------- Opt-outs: print, higher contrast, forced colours ---------- */
+@media print {
+  .finder,
+  .finder__results .activity-card,
+  .today .today__answer,
+  .today .today__choice,
+  .today .today__activity-choice,
+  .today .today__outcomes > .btn,
+  .finder .choice span {
+    box-shadow: none !important;
+    transform: none !important;
+  }
+  .finder__more > summary {
+    box-shadow: none;
+  }
+}
+html[data-contrast='high'] .finder,
+html[data-contrast='high'] .finder__results .activity-card,
+html[data-contrast='high'] .today .today__answer,
+html[data-contrast='high'] .today .today__choice,
+html[data-contrast='high'] .today .today__outcomes > .btn,
+html[data-contrast='high'] .finder .choice span {
+  box-shadow: none;
+}
+html[data-contrast='high'] .finder {
+  border: 2px solid var(--gm-on-surface);
+}
+html[data-contrast='high'] .finder .choice span {
+  border-color: var(--gm-on-surface);
+}
+html[data-contrast='high'] .finder .choice input:checked + span {
+  box-shadow: inset 0 0 0 1px var(--gm-on-surface);
+}
+@media (prefers-contrast: more) {
+  .finder,
+  .finder__results .activity-card,
+  .today .today__answer,
+  .today .today__choice,
+  .today .today__outcomes > .btn,
+  .finder .choice span {
+    box-shadow: none;
+  }
+  .finder .choice input:checked + span {
+    box-shadow: inset 0 0 0 1px var(--gm-on-surface);
+  }
+}
+@media (forced-colors: active) {
+  .finder,
+  .finder__results .activity-card,
+  .today .today__answer,
+  .today .today__choice,
+  .today .today__outcomes > .btn,
+  .finder .choice span,
+  .finder__more > summary {
+    box-shadow: none;
+    border: 2px solid CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+  .finder .choice input:checked + span,
+  .today .today__choice[aria-pressed='true'] {
+    border-color: Highlight;
+    outline: 2px solid Highlight;
+    outline-offset: -4px;
+  }
+  .finder .choice input:focus-visible + span,
+  .finder__more > summary:focus-visible,
+  .today .today__choice:focus-visible {
+    outline-color: Highlight;
+  }
+  .finder__results .activity-card {
+    border-top-width: 6px;
+    border-color: CanvasText;
+  }
+}

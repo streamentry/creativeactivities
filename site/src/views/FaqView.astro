@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
+import '../styles/studio-editorial.css';
 import { SITE } from '../lib/site';
 import { localizeHtml } from '../i18n/locales';
 import { PUBLISHED, fill, ui } from '../i18n/ui';
@@ -16,7 +17,7 @@ const p = t.pages.faq;
 const all = p.groups.flatMap((g) => g.items);
 ---
 <PageLayout title={p.title} seoTitle={p.seoTitle} description={p.description} path="/faq/" crumb={p.crumb} lede={p.lede} jsonLd={[faqPage(all)]} lang={lang} available={PUBLISHED.map((l) => l.code)}>
-  <nav aria-label={t.common.topics} class="toc">
+  <nav aria-label={t.common.topics} class="toc faq-topics">
     <p class="toc__title" aria-hidden="true">{t.common.topics}</p>
     <ol>
       {p.groups.map((g) => <li><a href={`#${g.id}`}>{g.title}</a></li>)}

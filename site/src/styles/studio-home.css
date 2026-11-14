@@ -1,0 +1,619 @@
+/* Home page (2026 refresh). "Cut paper on a quiet table", applied to the home.
+   The hero is an editorial headline on paper, with the photo prints cut out
+   and laid on a clay sheet. Activity cards form a bento with the first one
+   larger. Hubs are index tabs. Each section has its own surface: canvas,
+   a torn sage band for games, linen for steps and approach, and a torn sun
+   sheet for the app. Everything here is ornament over tokens; all content,
+   targets and contrast come from tokens.css and components.css. */
+
+/* A torn top edge: the shape is filled from the jagged line down. The solid
+   layer fills the rest of the box, so the element can be any height. */
+.home-hero,
+.home-band,
+.home-app {
+  position: relative;
+  isolation: isolate;
+}
+.home-band::before,
+.home-app::before {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  top: -13px;
+  height: 14px;
+  z-index: -1;
+  -webkit-mask: var(--studio-torn) top / 100% 14px no-repeat;
+  mask: var(--studio-torn) top / 100% 14px no-repeat;
+}
+.home-band {
+  background: var(--studio-grain), var(--gm-surface-sunken);
+}
+.home-band::before {
+  background: var(--gm-surface-sunken);
+}
+.home-app {
+  background: var(--studio-grain), var(--gm-accent-pale);
+}
+.home-app::before {
+  background: var(--gm-accent-pale);
+}
+
+/* The reveal settle tilts a block by 0.6deg while it enters. Clip the
+   section so that tilt can never widen the page at 320px. */
+.section:has(.reveal) {
+  overflow-x: clip;
+}
+
+/* ---------- Hero ---------- */
+.home-hero {
+  overflow: hidden;
+  background: transparent;
+  padding-bottom: var(--space-lg);
+}
+.home-hero__grid {
+  display: grid;
+  gap: var(--space-2xl);
+  align-items: center;
+  padding-block: clamp(2.5rem, 1.5rem + 4vw, 5.5rem);
+}
+@media (min-width: 900px) {
+  .home-hero__grid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+}
+.home-hero h1 {
+  font-size: var(--text-display);
+  line-height: var(--leading-display);
+  letter-spacing: var(--tracking-display);
+  font-weight: 700;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  margin: 0 0 var(--space-lg);
+}
+.home-hero .lede {
+  margin-bottom: 0;
+  color: var(--gm-on-surface);
+  max-width: 34em;
+}
+
+/* The two paths are paper tiles, each at least 64px tall. */
+.home-paths {
+  display: grid;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+@media (min-width: 540px) {
+  .home-paths {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.home-path {
+  justify-content: space-between;
+  min-height: 72px;
+  padding: var(--space-md) var(--space-lg);
+  border-width: 2px;
+  text-align: start;
+}
+.home-path:not(.btn--primary) {
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  box-shadow: 6px 7px 0 -1px var(--gm-surface-sunken);
+}
+.home-path:not(.btn--primary):hover,
+.home-path:not(.btn--primary):focus-visible {
+  background: var(--gm-accent-pale);
+  border-color: var(--gm-primary);
+}
+.home-path:not(.btn--primary):active {
+  box-shadow: 2px 3px 0 -1px var(--gm-surface-sunken);
+}
+.home-path:not(.btn--primary) svg {
+  color: var(--gm-primary);
+}
+.home-path span {
+  min-width: 0;
+}
+.home-path svg:last-child {
+  width: 1.5em;
+  height: 1.5em;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-path {
+    transition:
+      background-color var(--duration-fast) ease,
+      transform var(--duration-fast) var(--ease-out),
+      box-shadow var(--duration-fast) ease;
+  }
+  .home-path:not(.btn--primary):hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 8px 9px 0 -1px var(--gm-surface-sunken);
+  }
+}
+
+.home-facts {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-xl) 0 0;
+  display: grid;
+  gap: var(--space-sm);
+  font-size: var(--text-md);
+}
+.home-facts li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.home-facts svg {
+  color: var(--gm-success);
+  flex: none;
+}
+.home-hero__app {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  margin: var(--space-md) 0 0;
+}
+.home-hero__app svg {
+  flex: none;
+}
+
+/* The album: four prints cut out and laid on a clay sheet and a sage sheet. */
+.home-album {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  max-width: 480px;
+  margin-inline: auto;
+  padding: var(--space-xl) var(--space-xl) 5rem;
+}
+.home-album::before,
+.home-album::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-mask: var(--studio-torn) top / 100% 14px no-repeat,
+    linear-gradient(#000 0 0) bottom / 100% calc(100% - 13px) no-repeat;
+  mask: var(--studio-torn) top / 100% 14px no-repeat,
+    linear-gradient(#000 0 0) bottom / 100% calc(100% - 13px) no-repeat;
+}
+.home-album::before {
+  inset: 0 0 8% 0;
+  background: var(--gm-accent);
+  transform: rotate(-2.5deg);
+}
+.home-album::after {
+  inset: auto 0 0 auto;
+  width: 62%;
+  height: 40%;
+  background: var(--gm-surface-sunken);
+  transform: rotate(3deg);
+}
+.home-print {
+  margin: 0;
+  padding: 12px 12px 30px;
+  background: var(--gm-surface-raised);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-print);
+  position: relative;
+}
+.home-print img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+}
+/* A strip of washi tape holds each print to the sheet. */
+.home-print::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 64px;
+  height: 22px;
+  transform: translateX(-50%) rotate(-3deg);
+  background: var(--gm-accent-pale);
+  border: 1px solid color-mix(in srgb, var(--gm-accent) 25%, transparent);
+  opacity: 0.9;
+}
+.home-print--1 {
+  transform: rotate(-4deg);
+}
+.home-print--2 {
+  transform: rotate(3deg) translateY(18px);
+}
+.home-print--3 {
+  transform: rotate(2deg) translateY(-6px);
+}
+.home-print--4 {
+  transform: rotate(-3deg) translateY(12px);
+}
+.home-album__note {
+  position: absolute;
+  inset-inline-start: 50%;
+  bottom: -2px;
+  translate: -50% 0;
+  margin: 0;
+  padding: 10px 18px;
+  width: max-content;
+  max-width: 92%;
+  background: var(--gm-on-surface);
+  color: var(--gm-background);
+  border-radius: var(--radius-md);
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-align: center;
+  box-shadow: var(--shadow-raised);
+  rotate: -1deg;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-print {
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+  .home-album:hover .home-print--1 {
+    transform: rotate(-6deg) translateY(-4px);
+  }
+  .home-album:hover .home-print--2 {
+    transform: rotate(5deg) translateY(10px);
+  }
+}
+
+/* ---------- Activities: a bento with the first card larger ---------- */
+.home-bento {
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 620px) {
+  .home-bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home-bento > li:first-child {
+    grid-column: 1 / -1;
+  }
+}
+@media (min-width: 960px) {
+  .home-bento {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .home-bento > li:first-child {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}
+.home-bento > li:first-child .activity-card {
+  padding: var(--space-xl);
+  background: var(--gm-accent-pale);
+  border-top-color: var(--gm-primary);
+}
+.home-bento > li:first-child .activity-card__name {
+  font-size: var(--text-h2);
+  line-height: var(--leading-tight);
+}
+.home-bento > li:first-child .activity-card__summary {
+  font-size: var(--text-md);
+}
+.home-bento .activity-card {
+  box-shadow: var(--studio-shadow-sheet);
+}
+.home-bento .activity-card:hover,
+.home-bento .activity-card:focus-visible {
+  box-shadow: -7px 8px 0 -1px var(--gm-surface-sunken), var(--studio-shadow-lift);
+}
+.home-bento .activity-card__summary {
+  display: block;
+}
+
+/* Hubs: index tabs along the top of a sheet. */
+.home-hubs {
+  margin-top: var(--space-2xl);
+}
+.home-hubs h3 {
+  margin-bottom: var(--space-md);
+}
+.home-hubs ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.home-hubs a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--target-min);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-bottom-width: 5px;
+  border-radius: var(--radius-md) var(--radius-md) 4px 4px;
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font-weight: 700;
+  text-decoration: none;
+}
+.home-hubs li:nth-child(3n + 2) a {
+  background: var(--gm-surface-sunken);
+}
+.home-hubs a:hover,
+.home-hubs a:focus-visible {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .home-hubs a {
+    transition:
+      transform var(--duration-fast) var(--ease-out),
+      background-color var(--duration-fast) ease;
+  }
+  .home-hubs a:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* ---------- Games band: cards on a torn sage sheet ---------- */
+.home-band .card {
+  --studio-under: var(--gm-accent-pale);
+}
+.home-band .card-grid > li:nth-child(3n + 2) .card {
+  --studio-under: var(--gm-surface-sunken);
+}
+
+/* ---------- How it works: big numerals with a sun offset ---------- */
+.home-steps {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-xl) 0 0;
+  display: grid;
+  gap: var(--space-2xl) var(--space-xl);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+}
+.home-steps li {
+  position: relative;
+  padding-top: var(--space-md);
+}
+.home-steps li::before {
+  content: '';
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  width: 64px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background: var(--gm-primary);
+}
+.home-steps__n {
+  display: block;
+  font-size: clamp(4rem, 3rem + 4vw, 6.5rem);
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gm-primary);
+  text-shadow: 6px 6px 0 var(--gm-primary-container);
+  margin-bottom: var(--space-md);
+}
+.home-steps p {
+  margin: 0;
+  color: var(--gm-on-surface-variant);
+}
+
+/* ---------- Stage cards: staggered, like sheets dealt across a table ---------- */
+.home-stagger {
+  align-items: start;
+}
+@media (min-width: 900px) {
+  .home-stagger > li:nth-child(2) {
+    margin-top: var(--space-2xl);
+  }
+  .home-stagger > li:nth-child(3) {
+    margin-top: var(--space-lg);
+  }
+}
+
+/* ---------- Approach: principles as sheets, alternating indent ---------- */
+.home-approach {
+  display: grid;
+  gap: var(--space-2xl);
+}
+@media (min-width: 900px) {
+  .home-approach {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+    align-items: start;
+  }
+}
+.home-principles {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-lg);
+}
+.home-principles li {
+  display: flex;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--studio-shadow-sheet);
+}
+@media (min-width: 620px) {
+  .home-principles li:nth-child(even) {
+    margin-inline-start: var(--space-2xl);
+  }
+}
+.home-principles li > svg {
+  flex: none;
+  box-sizing: content-box;
+  width: 32px;
+  height: 32px;
+  padding: var(--space-sm);
+  background: var(--gm-accent-pale);
+  border-radius: var(--radius-md);
+  color: var(--gm-primary);
+}
+.home-principles h3 {
+  font-size: var(--text-title-md);
+  margin-bottom: var(--space-xs);
+}
+.home-principles p {
+  margin: 0;
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-md);
+}
+
+/* ---------- Research bands: a teal sheet with an offset shadow ---------- */
+.home-research {
+  margin-top: var(--space-2xl);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-xl);
+  border-radius: var(--radius-xl);
+  background: var(--gm-secondary-container);
+  border: 1px solid var(--gm-secondary-outline);
+  border-inline-start: 8px solid var(--gm-secondary);
+  box-shadow: var(--studio-shadow-sheet);
+}
+.home-research h2 {
+  font-size: var(--text-title-lg);
+  margin-bottom: var(--space-sm);
+}
+.home-research p {
+  margin: 0;
+  max-width: 44em;
+}
+
+/* ---------- App band: a sun sheet ---------- */
+.home-app__inner {
+  max-width: calc(var(--content-max) + 2 * var(--gutter));
+}
+.home-app h2 {
+  font-size: var(--text-h2);
+  margin-bottom: var(--space-sm);
+}
+.home-app .btn--quiet {
+  color: var(--gm-on-surface);
+}
+
+/* ---------- Print: the page keeps its order and loses the paper ---------- */
+@media print {
+  .home-album,
+  .home-band::before,
+  .home-app::before {
+    display: none;
+  }
+  .home-band,
+  .home-app {
+    background: none;
+  }
+  .home-hero {
+    padding-bottom: 0;
+  }
+  .home-research,
+  .home-steps li,
+  .home-principles li,
+  .home-bento > li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .home-principles li,
+  .home-research,
+  .home-bento .activity-card,
+  .home-path {
+    box-shadow: none;
+  }
+  .home-steps__n {
+    text-shadow: none;
+  }
+}
+
+/* ---------- Higher contrast: flat paper, no ornament, no tilt ---------- */
+html[data-contrast='high'] .home-band,
+html[data-contrast='high'] .home-app {
+  background-image: none;
+}
+html[data-contrast='high'] .home-band::before,
+html[data-contrast='high'] .home-app::before,
+html[data-contrast='high'] .home-album::before,
+html[data-contrast='high'] .home-album::after {
+  display: none;
+}
+html[data-contrast='high'] .home-print,
+html[data-contrast='high'] .home-album__note {
+  box-shadow: none;
+}
+html[data-contrast='high'] .home-print {
+  border: 2px solid var(--gm-on-surface);
+}
+html[data-contrast='high'] .home-print--1,
+html[data-contrast='high'] .home-print--2,
+html[data-contrast='high'] .home-print--3,
+html[data-contrast='high'] .home-print--4 {
+  transform: none;
+}
+html[data-contrast='high'] .home-path:not(.btn--primary) {
+  box-shadow: none;
+  border-color: var(--gm-on-surface);
+}
+html[data-contrast='high'] .home-steps__n {
+  text-shadow: none;
+}
+html[data-contrast='high'] .home-principles li,
+html[data-contrast='high'] .home-research {
+  box-shadow: none;
+  border-color: var(--gm-on-surface);
+}
+html[data-contrast='high'] .home-bento .activity-card {
+  box-shadow: none;
+}
+
+/* ---------- Forced colours: the system palette takes over ---------- */
+@media (forced-colors: active) {
+  .home-band,
+  .home-app {
+    background: Canvas;
+    background-image: none;
+  }
+  .home-band::before,
+  .home-app::before,
+  .home-album::before,
+  .home-album::after {
+    display: none;
+  }
+  .home-print,
+  .home-album__note,
+  .home-path,
+  .home-principles li,
+  .home-research,
+  .home-bento .activity-card,
+  .home-hubs a {
+    box-shadow: none;
+    border-color: CanvasText;
+  }
+  .home-print {
+    border: 2px solid CanvasText;
+  }
+  .home-print--1,
+  .home-print--2,
+  .home-print--3,
+  .home-print--4 {
+    transform: none;
+  }
+  .home-album__note {
+    background: Highlight;
+    color: HighlightText;
+  }
+  .home-steps__n {
+    text-shadow: none;
+  }
+  .home-steps li::before {
+    background: CanvasText;
+  }
+  .home-research {
+    border-inline-start-color: Highlight;
+  }
+}

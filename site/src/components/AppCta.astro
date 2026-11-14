@@ -50,7 +50,70 @@ const { title = t.title, text = t.text } = Astro.props;
     gap: var(--space-sm);
     margin: var(--space-md) 0 var(--space-sm);
   }
+  /* A calm paper sheet, not a banner: no glow, one soft sage sheet behind it. */
+  .app-cta-box,
+  .cta-band--app {
+    position: relative;
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-surface-sunken);
+    box-shadow: var(--shadow-hairline);
+  }
+  .app-cta-box::before,
+  .cta-band--app::before {
+    content: '';
+    position: absolute;
+    inset-block: 8px -8px;
+    inset-inline: 8px -8px;
+    z-index: -1;
+    border-radius: inherit;
+    background: var(--gm-surface-sunken);
+    rotate: 0.8deg;
+  }
+  .app-cta-box {
+    margin-top: var(--space-lg);
+  }
+  .app-cta-box h2 {
+    font-size: var(--text-title-md);
+  }
   .cta-band--app {
     margin-top: var(--space-xl);
+    background: var(--gm-surface);
+    background-image: none;
+  }
+  .cta-band--app::before {
+    inset-block: 10px -10px;
+    inset-inline: 10px -10px;
+    rotate: -0.6deg;
+    background: color-mix(in srgb, var(--gm-primary-container) 30%, var(--gm-surface-sunken));
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .app-cta-box::before,
+    .cta-band--app::before {
+      transition: rotate var(--duration-normal) var(--ease-out);
+    }
+    .app-cta-box:hover::before,
+    .cta-band--app:hover::before {
+      rotate: 0deg;
+    }
+  }
+  @media print {
+    .app-cta-box,
+    .cta-band--app {
+      box-shadow: none;
+    }
+    .app-cta-box::before,
+    .cta-band--app::before {
+      display: none;
+    }
+  }
+  @media (prefers-contrast: more), (forced-colors: active) {
+    .app-cta-box::before,
+    .cta-band--app::before {
+      display: none;
+    }
+  }
+  html[data-contrast='high'] .app-cta-box::before,
+  html[data-contrast='high'] .cta-band--app::before {
+    display: none;
   }
 </style>

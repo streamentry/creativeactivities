@@ -10,6 +10,7 @@ import { GAME_BY_SLUG } from '../data/games';
 import { pictureUrl } from '../data/pictures';
 import { TYPE_LABELS, glance } from '../lib/activities';
 import '../styles/activities.css';
+import '../styles/studio-editorial.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
 import { localeInfo, localePath } from '../i18n/locales';
 import { localizeGame } from '../i18n/games';
@@ -102,7 +103,7 @@ const available = await guideLanguages(id);
         </section>
         {
           toc.length > 2 && (
-            <details class="toc">
+            <details class="toc toc--inline">
               <summary>{fill(g.onThisPage, { n: toc.length })}</summary>
               <ol>
                 {toc.map((h) => (
@@ -117,10 +118,10 @@ const available = await guideLanguages(id);
         <Content />
         {
           activityCards.length > 0 && (
-            <section class="guide-activities" aria-labelledby="activity-cards">
+            <section class="guide-activities reveal" aria-labelledby="activity-cards">
               <h2 id="activity-cards">Activities to start today{lang !== 'en' && ` ${t.common.englishOnly}`}</h2>
               <p>Each one has a materials list, simple steps, easier versions and a card to print.</p>
-              <ul class="activity-grid">
+              <ul class="activity-grid bento-grid">
                 {activityCards.map((a) => (
                   <li>
                     <a class="activity-card" href={`/activity/${a.id}/`} hreflang="en">
@@ -135,7 +136,7 @@ const available = await guideLanguages(id);
           )
         }
         <Faq items={d.faq} title={g.commonQuestions} lang={lang} />
-        <section class="sources" aria-labelledby="sources">
+        <section class="sources reveal" aria-labelledby="sources">
           <h2 id="sources">{g.sources}</h2>
           <p class="muted">{g.sourcesNote}</p>
           <ol>
@@ -150,6 +151,20 @@ const available = await guideLanguages(id);
         </section>
       </article>
       <aside class="article-aside" aria-label={g.related}>
+        {
+          toc.length > 2 && (
+            <nav class="aside-box aside-toc" aria-labelledby="aside-toc-title">
+              <h2 id="aside-toc-title">{fill(g.onThisPage, { n: toc.length })}</h2>
+              <ol>
+                {toc.map((h) => (
+                  <li>
+                    <a href={`#${h.slug}`}>{h.text}</a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )
+        }
         {
           relatedGames.length > 0 && (
             <div class="aside-box">

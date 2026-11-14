@@ -9,6 +9,7 @@ import { breadcrumbs, faqPage } from '../lib/schema';
 import { localePath, localizeHtml } from '../i18n/locales';
 import { localizedGames } from '../i18n/games';
 import { PUBLISHED, fill, ui } from '../i18n/ui';
+import '../styles/studio-games.css';
 
 interface Props {
   lang: string;
@@ -17,6 +18,15 @@ const { lang } = Astro.props;
 const t = ui(lang);
 const p = t.gamesIndex;
 const games = localizedGames(lang);
+// The first featured game leads; featured games after it take two columns on wide screens.
+const leadGame = games.find((g) => g.featured) ?? games[0];
+const restGames = games.filter((g) => g.slug !== leadGame.slug);
+const wideSlugs = new Set(
+  restGames
+    .filter((g) => g.featured)
+    .slice(0, 2)
+    .map((g) => g.slug),
+);
 const l = (path: string) => localePath(lang, path);
 const crumbs = [{ href: l('/games/'), label: p.crumb }];
 const stages: Stage[] = ['early', 'middle', 'late'];
@@ -29,16 +39,20 @@ const itemList = {
 ---
 <BaseLayout title={p.title} description={p.description} jsonLd={[breadcrumbs(crumbs, lang), itemList, faqPage(p.faq)]} available={PUBLISHED.map((x) => x.code)}>
   <Breadcrumbs items={crumbs} lang={lang} />
-  <div class="container">
-    <header class="page-head">
+  <div class="container games-index">
+    <header class="page-head games-head">
+      <p class="eyebrow">{t.gamePage.noTimer}</p>
       <h1>{p.h1}</h1>
       <p class="lede">{fill(p.lede, { count: games.length })}</p>
     </header>
-    <ul class="card-grid">
-      {games.map((g) => <li><GameCard game={g} headingLevel="h2" lang={lang} /></li>)}
+    <ul class="games-bento">
+      <li class="games-bento__lead"><GameCard game={leadGame} variant="lead" headingLevel="h2" lang={lang} /></li>
+      {restGames.map((g) => (
+        <li class:list={[wideSlugs.has(g.slug) && 'games-bento__wide']}><GameCard game={g} headingLevel="h2" lang={lang} /></li>
+      ))}
     </ul>
 
-    <section class="section" aria-labelledby="by-stage">
+    <section class="section reveal" aria-labelledby="by-stage">
       <h2 id="by-stage">{p.byStageTitle}</h2>
       <p class="lede">{p.byStageLede}</p>
       <div class="stage-table">

@@ -16,6 +16,7 @@ import { playProps } from '../i18n/play';
 import { fill, ui } from '../i18n/ui';
 import '../styles/games.css';
 import '../styles/activities.css';
+import '../styles/studio-games.css';
 import { GAME_ACTIVITIES } from '../data/game-activities';
 import { TYPE_LABELS, glance } from '../lib/activities';
 import PicturePairs from '../games/PicturePairs';
@@ -84,6 +85,7 @@ const photo = s === 'photo-pairs';
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head page-head--game">
+      <p class="eyebrow">{game.players}</p>
       <h1>{game.h1}</h1>
       <p class="lede">{game.short}</p>
     </header>
@@ -117,7 +119,7 @@ const photo = s === 'photo-pairs';
           {game.printable && <li class="tag"><Icon name="print" size={18} />{p.printable}</li>}
         </ul>
         <h2 id="how-to-play">{fill(p.howTo, { name: nameInText })}</h2>
-        <ol>
+        <ol class="game-steps">
           {game.howTo.map((step) => <li>{step}</li>)}
         </ol>
         <h2 id="tips">{p.tips}</h2>
@@ -152,7 +154,7 @@ const photo = s === 'photo-pairs';
 
     {
       awayFromScreen.length > 0 && (
-        <section class="section" aria-labelledby="away-from-screen">
+        <section class="section reveal" aria-labelledby="away-from-screen">
           <p class="eyebrow">Activity cards</p>
           <h2 id="away-from-screen">Try it away from the screen</h2>
           <p>The same kind of fun with your hands, at the table. Each card has simple steps, an easier version and a page to print.</p>
@@ -174,7 +176,7 @@ const photo = s === 'photo-pairs';
 
     <AppCta placement="game" lang={lang} />
 
-    <section class="section" aria-labelledby="more-games">
+    <section class="section reveal" aria-labelledby="more-games">
       <h2 id="more-games">{p.moreGames}</h2>
       <ul class="card-grid">
         {others.map((g) => <li><GameCard game={g} lang={lang} /></li>)}

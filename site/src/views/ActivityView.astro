@@ -2,6 +2,7 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/activities.css';
+import '../styles/studio-activity.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
 import { SITE } from '../lib/site';
@@ -21,6 +22,9 @@ const crumbs = [
   { href: '/activity/', label: 'Find an activity' },
   { href: path, label: d.name },
 ];
+/** The labelled ticket under the title: the facts a caregiver needs before starting. */
+const LEDGER = ['Setup', 'Activity', 'Cost', 'Mess', 'Where', 'Help'];
+const ledger = factList(d).filter((f) => LEDGER.includes(f.label));
 const qr = qrSvg(`${SITE.url}${path}`, `QR code for the ${d.name} page`);
 const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
@@ -54,15 +58,22 @@ const jsonLd = [
 ---
 <BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" image="/og/activities.png" jsonLd={jsonLd}>
   <Breadcrumbs items={crumbs} />
-  <div class="container activity">
+  <div class="container activity activity-page">
     <header class="activity-head">
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
       <h1>{d.name}</h1>
       <p class="activity-head__summary">{d.summary}</p>
       {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
-      <p class="activity-glance">
-        {glance(d).map((fact) => <span>{fact}</span>)}
-      </p>
+      <dl class="activity-ledger">
+        {
+          ledger.map((f) => (
+            <div>
+              <dt>{f.label}</dt>
+              <dd>{f.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
       <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
@@ -77,9 +88,9 @@ const jsonLd = [
 
     <div class="activity-layout">
       <div class="activity-main">
-        <section aria-labelledby="need">
+        <section class="activity-need" aria-labelledby="need">
           <h2 id="need">What you need</h2>
-          <ul class="activity-list">
+          <ul class="activity-list activity-check">
             {d.materials.map((m) => <li>{m}</li>)}
           </ul>
           {
@@ -94,19 +105,19 @@ const jsonLd = [
           }
         </section>
 
-        <section aria-labelledby="steps">
+        <section class="reveal" aria-labelledby="steps">
           <h2 id="steps" tabindex="-1">What to do</h2>
           <ol class="activity-steps">
             {d.steps.map((step) => <li>{step}</li>)}
           </ol>
         </section>
 
-        <section class="activity-stop" aria-labelledby="stop">
+        <section class="activity-stop reveal" aria-labelledby="stop">
           <h2 id="stop">It is okay to stop or change it</h2>
           <p>{d.stopNote}</p>
         </section>
 
-        <section class="activity-adapt" aria-labelledby="adapt">
+        <section class="activity-adapt reveal" aria-labelledby="adapt">
           <h2 id="adapt">Make it easier or different</h2>
           <dl class="activity-variations">
             {
@@ -120,7 +131,7 @@ const jsonLd = [
           </dl>
         </section>
 
-        <section class="activity-safety" aria-labelledby="safety">
+        <section class="activity-safety reveal" aria-labelledby="safety">
           <h2 id="safety"><Icon name="shield" />Safety</h2>
           <ul class="activity-list">
             {d.safety.map((s) => <li>{s}</li>)}
@@ -128,7 +139,7 @@ const jsonLd = [
           <p class="muted">These are practical suggestions, not medical advice. You know the person best.</p>
         </section>
 
-        <section class="prose activity-about" aria-label="About this activity">
+        <section class="prose activity-about reveal" aria-label="About this activity">
           <Content />
         </section>
       </div>
@@ -152,7 +163,7 @@ const jsonLd = [
 
     {
       related.length > 0 && (
-        <section class="section activity-next no-print" aria-labelledby="next">
+        <section class="section activity-next no-print reveal" aria-labelledby="next">
           <h2 id="next">What to try next</h2>
           <ul class="activity-grid">
             {related.map((a) => (

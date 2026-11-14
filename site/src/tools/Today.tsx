@@ -200,7 +200,7 @@ export function Today() {
             placeholder="e.g., Playing music in the kitchen calmed things down"
           />
           <TodayTimePicker value={timeOfDay} onChange={setTimeOfDay} />
-          <div className="btn-row" role="group" aria-labelledby="today-how">
+          <div className="btn-row today__outcomes" role="group" aria-labelledby="today-how">
             {(Object.keys(OUTCOME_LABEL) as Outcome[]).map((o) => (
               <button key={o} type="button" className="btn" onClick={() => record(o)}>
                 {OUTCOME_LABEL[o]}

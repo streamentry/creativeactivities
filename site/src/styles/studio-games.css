@@ -1,0 +1,343 @@
+/* Games as a box of picture cards (2026 refresh).
+   The index, the game cards and the intro, how-to-play and related chrome
+   around a game. The game board markup and its styles are not touched here.
+   Sheets are pseudo-elements with negative z-index: the card or box that
+   holds them must not be a stacking context of its own, except where noted. */
+
+/* ---------- Index header: editorial scale, a sun sheet behind it ---------- */
+.games-head {
+  position: relative;
+  padding-block: var(--space-xl) var(--space-2xl);
+}
+.games-head::before {
+  content: '';
+  position: absolute;
+  /* A small stack of picture cards fanned on the table: three sheets, one element. */
+  inset-block-start: var(--space-2xl);
+  inset-inline-end: calc(var(--space-2xl) + 36px);
+  z-index: -1;
+  inline-size: min(12vw, 150px);
+  aspect-ratio: 3 / 4;
+  border: 1px solid color-mix(in srgb, var(--gm-outline) 60%, transparent);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  box-shadow:
+    -22px 12px 0 -2px var(--gm-surface-sunken),
+    -44px 26px 0 -4px var(--gm-accent-pale),
+    var(--studio-shadow-sheet);
+  rotate: 8deg;
+  display: none;
+}
+@media (min-width: 900px) {
+  .games-head::before {
+    display: block;
+  }
+}
+.games-head h1 {
+  font-size: clamp(2.5rem, 1.2rem + 4.4vw, 4.75rem);
+  line-height: 1.02;
+  letter-spacing: var(--tracking-display);
+  max-width: 12.5em;
+  margin-block: var(--space-md);
+}
+.games-head .lede {
+  max-width: 34em;
+}
+
+/* ---------- Bento: one lead tile, then a grid with two wide tiles ---------- */
+.games-bento {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-lg);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .games-bento {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .games-bento__lead {
+    grid-column: 1 / -1;
+  }
+}
+@media (min-width: 1024px) {
+  .games-bento {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-flow: row dense;
+  }
+  .games-bento__wide {
+    grid-column: span 2;
+  }
+}
+.games-bento > li:nth-child(even) .card {
+  --studio-under: var(--studio-sheet-under-alt);
+}
+
+/* ---------- Game card: a print mounted on a sage sheet ---------- */
+.game-card {
+  isolation: isolate;
+  gap: var(--space-md);
+  padding: var(--space-md);
+}
+.game-card__print {
+  position: relative;
+  margin-bottom: 0;
+  padding: 10px;
+  border: 0;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-print);
+}
+.game-card__print::before {
+  content: '';
+  position: absolute;
+  inset-block: 8px -8px;
+  inset-inline: 8px -8px;
+  z-index: -1;
+  border-radius: inherit;
+  background: var(--gm-surface-sunken);
+  rotate: -1.2deg;
+}
+.games-bento > li:nth-child(even) .game-card__print::before {
+  rotate: 1deg;
+  background: color-mix(in srgb, var(--gm-accent-pale) 85%, var(--gm-surface));
+}
+.game-card__pics img {
+  border-radius: var(--radius-sm);
+}
+.game-card .card__body {
+  padding: 0 var(--space-xs) var(--space-xs);
+}
+.game-card h2 {
+  font-size: clamp(1.375rem, 1.1rem + 0.8vw, 1.75rem);
+  line-height: 1.15;
+}
+
+/* Chips say who a game suits: stage, number of people, printable. */
+.game-card .tag {
+  padding: 4px 12px;
+  line-height: 1.3;
+  text-align: start;
+}
+.game-card .tag--suits {
+  background: var(--gm-surface-sunken);
+  border-color: transparent;
+}
+.game-card .tag--print {
+  background: color-mix(in srgb, var(--gm-accent-pale) 80%, var(--gm-surface));
+  border-color: color-mix(in srgb, var(--gm-accent) 45%, transparent);
+}
+
+/* The play affordance is a small ink pill, large enough to tap. */
+.game-card .card__more {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  min-block-size: var(--target-min);
+  padding: 8px var(--space-md);
+  border-radius: var(--radius-full);
+  background: var(--gm-primary);
+  color: var(--gm-on-primary);
+  font-size: var(--text-md);
+  text-decoration: none;
+}
+.game-card:hover .card__more,
+.game-card:focus-within .card__more {
+  text-decoration: none;
+  background: var(--gm-primary-deep);
+}
+
+/* The lead tile: text beside three large prints, each mounted separately. */
+.game-card--lead {
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-lg);
+}
+@media (min-width: 720px) {
+  .game-card--lead {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    gap: clamp(var(--space-lg), 3vw, var(--space-2xl));
+    padding: clamp(var(--space-lg), 2.5vw, var(--space-2xl));
+  }
+}
+.game-card--lead .game-card__print {
+  padding: clamp(12px, 1.4vw, 18px);
+}
+.game-card--lead .game-card__pics {
+  gap: clamp(10px, 1.8vw, 18px);
+}
+.game-card--lead .game-card__pics img {
+  padding: 6px;
+  background: var(--gm-surface-raised);
+  box-shadow: var(--shadow-print);
+}
+.game-card--lead .game-card__pics img:nth-child(1) {
+  rotate: -3deg;
+}
+.game-card--lead .game-card__pics img:nth-child(2) {
+  rotate: 2deg;
+  translate: 0 -6px;
+}
+.game-card--lead .game-card__pics img:nth-child(3) {
+  rotate: -1.5deg;
+}
+.game-card--lead .card__body {
+  padding: 0;
+}
+.game-card--lead h2 {
+  font-size: clamp(2rem, 1.3rem + 2.6vw, 3.25rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+.game-card--lead p {
+  font-size: var(--text-lg);
+}
+
+/* Hover and focus: the print settles flat and the sheet follows. */
+@media (prefers-reduced-motion: no-preference) {
+  .game-card__print::before,
+  .card__more {
+    transition:
+      rotate var(--duration-normal) var(--ease-out),
+      background-color var(--duration-fast) ease;
+  }
+  .game-card:hover .game-card__print::before,
+  .game-card:focus-within .game-card__print::before {
+    rotate: 0deg;
+  }
+}
+
+/* ---------- Game page: editorial intro and numbered steps ---------- */
+.page-head--game {
+  padding-block: var(--space-lg) var(--space-md);
+}
+.page-head--game .eyebrow {
+  margin-block-end: var(--space-md);
+}
+.page-head--game h1 {
+  font-size: clamp(2.25rem, 1.4rem + 3.4vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: var(--tracking-display);
+  max-width: 14em;
+}
+.page-head--game .lede {
+  max-width: 34em;
+}
+.game-page-copy .prose h2 {
+  font-size: clamp(1.625rem, 1.2rem + 1.6vw, 2.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+
+.game-steps {
+  counter-reset: game-step;
+  display: grid;
+  gap: var(--space-md);
+  list-style: none;
+  margin: var(--space-lg) 0 var(--space-xl);
+  padding: 0;
+}
+.game-steps > li {
+  counter-increment: game-step;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-hairline);
+}
+.game-steps > li::before {
+  content: counter(game-step);
+  display: grid;
+  place-items: center;
+  inline-size: 56px;
+  block-size: 56px;
+  border-radius: var(--radius-full);
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  font-family: var(--font-display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+@media (max-width: 479px) {
+  .game-steps > li {
+    padding: var(--space-md);
+    gap: var(--space-sm);
+  }
+  .game-steps > li::before {
+    inline-size: 44px;
+    block-size: 44px;
+    font-size: 1.5rem;
+  }
+}
+
+/* ---------- Opt-outs: print, higher contrast, forced colours ---------- */
+@media print {
+  .games-head::before,
+  .game-card__print::before {
+    display: none;
+  }
+  .game-card__pics img {
+    rotate: none;
+    translate: none;
+    box-shadow: none;
+  }
+  .game-card,
+  .game-card__print,
+  .game-steps > li {
+    box-shadow: none;
+    break-inside: avoid;
+  }
+  .game-steps > li::before {
+    background: none;
+    border: 2px solid currentColor;
+    color: inherit;
+  }
+  .game-card .card__more {
+    background: none;
+    color: inherit;
+    border: 1px solid currentColor;
+  }
+}
+html[data-contrast='high'] .games-head::before,
+html[data-contrast='high'] .game-card__print::before {
+  display: none;
+}
+html[data-contrast='high'] .game-card__pics img {
+  rotate: none;
+  translate: none;
+  box-shadow: none;
+}
+@media (prefers-contrast: more), (forced-colors: active) {
+  .games-head::before,
+  .game-card__print::before {
+    display: none;
+  }
+  .game-card__pics img {
+    rotate: none;
+    translate: none;
+    box-shadow: none;
+  }
+}
+@media (forced-colors: active) {
+  .game-card__print,
+  .game-steps > li {
+    border: 1px solid CanvasText;
+    box-shadow: none;
+  }
+  .game-card .card__more {
+    border: 1px solid CanvasText;
+    background: ButtonFace;
+    color: ButtonText;
+  }
+  .game-steps > li::before {
+    border: 2px solid CanvasText;
+    background: Canvas;
+    color: CanvasText;
+  }
+}
