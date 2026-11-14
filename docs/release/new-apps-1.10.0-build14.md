@@ -73,7 +73,7 @@ failed in the agent browser.
   `res/values/ic_launcher_background.xml`; without it `bundleProductionRelease` fails with
   "Duplicate resources" against the new logo's `colors.xml`.
 - AAB signed with the registered upload certificate (SHA-256 `B5:3D:…:F7:2F`),
-  versionCode 16, `com.mindfulness.creative_activities`; `libapp.so` has 28
+  versionCode 16, `com.mindfulness.creative_activities`; the compiled Dart code has 28
   `creativeactivities.org` and 0 `dementiaactivities.games` strings. AAB SHA-256
   `33b339dadaf47fcd613cc503d4fba968bc26148e4b156736d397b2ee0f6d90b3`.
 - Play edit committed (`14706048092173215954`): production release 1.10.0 (16), status
