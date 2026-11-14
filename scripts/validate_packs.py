@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pack Validation Script for Golden Moments Memory Game
+Pack validation script for the Creative Activities picture packs
 
 This script validates the pack index JSON file and checks for common issues.
 Usage: python scripts/validate_packs.py
@@ -187,7 +187,7 @@ def main():
     """Main validation function."""
     import argparse
     
-    parser = argparse.ArgumentParser(description='Validate Golden Moments pack data')
+    parser = argparse.ArgumentParser(description='Validate Creative Activities pack data')
     parser.add_argument('--check-urls', action='store_true', 
                        help='Check image URL accessibility (slow)')
     parser.add_argument('--file', default='assets/data/packs_index.json',
@@ -195,7 +195,7 @@ def main():
     
     args = parser.parse_args()
     
-    print("🔍 Validating Golden Moments pack data...")
+    print("🔍 Validating Creative Activities pack data...")
     print(f"📁 File: {args.file}")
     print()
     
