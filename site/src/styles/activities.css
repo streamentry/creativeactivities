@@ -279,6 +279,31 @@
   font-size: var(--text-lg);
   margin-bottom: var(--space-sm);
 }
+.finder__search {
+  display: grid;
+  gap: var(--space-xs);
+  max-width: 32rem;
+}
+.finder__search[hidden] {
+  display: none;
+}
+.finder__search label {
+  font-weight: 700;
+  font-size: var(--text-lg);
+}
+.finder__search input {
+  min-height: var(--target-min);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font: inherit;
+}
+.finder__search input:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 2px;
+}
 .finder .choice {
   position: relative;
 }
