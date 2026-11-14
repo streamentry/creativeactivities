@@ -182,7 +182,8 @@ Depends on: TSA-012, [platform](15-platform-data-architecture.md).
 Risks / not doing: Do not add a tool "to see" data before the inventory exists.
 
 ### TSA-012 · Event allowlist and no health data
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`; payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed); the list is in `docs/specs/global/events.md`. Not done: the TSA-012 names `activity_view`, `activity_save`, `activity_share`, `app_cta_click` are not built; reason categories need a stigma review by a person; GTM's automatic form and click events (`gtm.formInteract`, `gtm.elementUrl`) sit outside the allowlist and need container settings changed by the maintainer.
 
 Why: Health details in analytics are a serious privacy and legal risk [R5 §5.2]. The product must not infer a condition [MISSION].
 
