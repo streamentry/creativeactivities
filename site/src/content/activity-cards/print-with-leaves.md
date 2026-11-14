@@ -40,6 +40,8 @@ variations:
     text: "Use one leaf and one color in a quiet spot, and skip handling the leaves if that feels uncomfortable."
   - kind: for-a-group
     text: "Each person prints a leaf on one shared sheet, arranged as a wreath or a line."
+  - kind: with-children
+    text: "A child paints the leaf and the grandparent presses it down and lifts it, then swap. Choose the colors together."
 safety:
   - "Check every leaf before handling. Avoid poison ivy, poison oak and sumac, and check for allergies."
   - "Use non-toxic, water-based paint, and wash hands afterward."

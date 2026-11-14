@@ -152,6 +152,18 @@ in `src/content.config.ts` enforces the fields; these rules are editorial.
   under "Activities to start today".
 - Cards are English only until a translation has cultural and safety review.
 
+## Printable packs
+
+A pack (`src/data/packs.ts`, served at `/activity/packs/<id>/`) prints a cover
+with a supply checklist, then one existing activity card per sheet
+(`../DESIGN.md` › Collection / printable pack). It only lists card slugs, so the
+cards stay the single source of their steps.
+
+- Choose 3–6 cards that suit one situation and need nothing unusual. Say on the
+  cover that there is no order to follow and no need to do them all.
+- After adding or changing a pack, print it to PDF and check that the cover fits
+  one page and each card one sheet. `src/data/packs.test.ts` checks the slugs and
+  the title and description lengths, not the printed layout.
 ## Search hubs
 
 Hubs (`src/content/hubs/<id>.md`, served at `/<id>/` by a one-line page in

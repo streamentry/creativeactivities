@@ -6,12 +6,12 @@ eyebrow: "Bedside activities"
 lede: >-
   Some days the whole activity has to fit on a lap tray. These cards work in bed or a chair, use few pieces and can be picked up or put down at any moment. Choose one, keep it short and let the person decide how far you go.
 choosing:
-  - "Works on a lap tray or clipboard, so no table is needed."
+  - "Works on a lap tray or clipboard, or with nothing to hold at all, so no table is needed."
   - "Nothing that spills easily: low water, dry materials and few loose pieces."
   - "Light materials that a tired hand can hold and move."
   - "Five to fifteen minutes, with an easy place to stop."
   - "Mostly watching and choosing, with the helper's hands doing the work."
-activities: [make-a-personal-songbook, draw-to-music, make-a-photo-postcard, sketch-what-is-on-the-table, make-a-lavender-sachet, write-a-letter-together, make-a-texture-board, make-a-color-collage, weave-paper-strips, wind-a-ball-of-yarn, arrange-flowers-together, draw-repeating-patterns]
+activities: [make-a-personal-songbook, make-a-playlist-together, watch-birds-from-a-window, draw-to-music, give-a-hand-massage, make-a-photo-postcard, look-through-a-photo-album, sketch-what-is-on-the-table, make-a-lavender-sachet, write-a-letter-together, make-a-texture-board, make-a-color-collage, weave-paper-strips, wind-a-ball-of-yarn, arrange-flowers-together, draw-repeating-patterns]
 variation: bedside
 faq:
   - q: "What if my mother can only manage a few minutes?"

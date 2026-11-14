@@ -42,6 +42,8 @@ const activityCards = lang === 'en'
       .filter((a) => FEATURED_ACTIVITIES.includes(a.id))
       .sort((a, b) => FEATURED_ACTIVITIES.indexOf(a.id) - FEATURED_ACTIVITIES.indexOf(b.id))
   : [];
+const hubs =
+  lang === 'en' ? (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title)) : [];
 ---
 <BaseLayout title={h.title} rawTitle description={h.description} jsonLd={jsonLd} available={PUBLISHED.map((p) => p.code)}>
   <section class="hero" aria-labelledby="hero-title">
@@ -107,6 +109,18 @@ const activityCards = lang === 'en'
               </li>
             ))}
           </ul>
+          {hubs.length > 0 && (
+            <nav class="home-hubs" aria-labelledby="hubs-title">
+              <h3 id="hubs-title">Or choose by situation</h3>
+              <ul>
+                {hubs.map((hub) => (
+                  <li>
+                    <a href={`/${hub.id}/`}>{hub.data.eyebrow}<Icon name="arrow" /></a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
         </div>
       </section>
     )

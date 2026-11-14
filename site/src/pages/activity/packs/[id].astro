@@ -1,0 +1,12 @@
+---
+import type { GetStaticPaths } from 'astro';
+import PackView from '../../../views/PackView.astro';
+import { PACKS, type ActivityPack } from '../../../data/packs';
+
+export const getStaticPaths = (() => PACKS.map((pack) => ({ params: { id: pack.id }, props: { pack } }))) satisfies GetStaticPaths;
+
+interface Props {
+  pack: ActivityPack;
+}
+---
+<PackView pack={Astro.props.pack} />
