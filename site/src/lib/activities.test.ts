@@ -67,6 +67,12 @@ describe('optional fit filters', () => {
     expect(matches({ ...COLLAGE, energy: 'medium' }, { energy: 'low' })).toBe(false);
     expect(matches({ ...COLLAGE, energy: 'medium' }, { energy: 'any' })).toBe(true);
   });
+
+  it('keeps only activities that need someone nearby when hands-on help is not possible', () => {
+    expect(matches(COLLAGE, { supervision: 'nearby' })).toBe(true);
+    expect(matches({ ...COLLAGE, supervision: 'hands-on' }, { supervision: 'nearby' })).toBe(false);
+    expect(matches({ ...COLLAGE, supervision: 'hands-on' }, { supervision: 'any' })).toBe(true);
+  });
 });
 
 describe('fitReasons', () => {
@@ -83,6 +89,10 @@ describe('fitReasons', () => {
       'little or no mess',
       'mostly sitting still',
     ]);
+  });
+
+  it('says the activity works with the helper nearby', () => {
+    expect(fitReasons(COLLAGE, { supervision: 'nearby' })).toEqual(['works with you nearby']);
   });
 
   it('names the actual cost and mess when they are better than asked', () => {
