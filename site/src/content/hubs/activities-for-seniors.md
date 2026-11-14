@@ -11,7 +11,7 @@ choosing:
   - "Seated and short: each one works at a table or in a chair, with a clear point to stop."
   - "Something to talk about: colors, places, seasons, recipes and songs give conversation an easy start."
   - "A real result: a card to send, a plant to water or a picture to hang, so the time has something to show for it."
-activities: [make-a-greeting-card, paint-with-watercolors, arrange-flowers-together, plant-seeds-in-a-pot, draw-to-music, make-a-personal-songbook, start-a-family-recipe-book, write-a-letter-together, press-leaves-and-flowers, make-a-photo-postcard, sketch-what-is-on-the-table]
+activities: [make-a-greeting-card, paint-with-watercolors, arrange-flowers-together, plant-seeds-in-a-pot, draw-to-music, make-a-personal-songbook, start-a-family-recipe-book, write-a-letter-together, press-leaves-and-flowers, make-a-photo-postcard, sketch-what-is-on-the-table, make-a-playlist-together, look-through-a-photo-album, fold-towels-together]
 variation: easier
 faq:
   - q: "What if they say they are not interested?"
