@@ -16,7 +16,8 @@ export const SITE = {
   supportEmail: 'web@creativeactivities.org',
   /** Google Analytics 4 web stream, added by the maintainer on 2026-10-25. */
   gtmContainerId: 'GTM-5ZSV72WC',
-  updated: '2026-10-25',
+  /** Last sitewide change (the move to creativeactivities.org); pages with their own date use it instead. */
+  updated: '2026-11-14',
 } as const;
 
 export interface NavItem {

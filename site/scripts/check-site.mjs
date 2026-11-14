@@ -279,7 +279,7 @@ for (const [prefix, xml] of langSitemaps) {
 }
 if (!readDist('robots.txt').includes(`Sitemap: ${SITE}/sitemap.xml`)) err('robots.txt', 'does not list /sitemap.xml');
 
-for (const required of ['sitemap.xml', 'sitemap-en.xml', 'vi/sitemap.xml', 'robots.txt', 'llms.txt', 'llms-full.txt', 'manifest.webmanifest', '_headers', 'favicon.svg', 'favicon.ico']) {
+for (const required of ['sitemap.xml', 'sitemap-en.xml', 'vi/sitemap.xml', 'robots.txt', 'llms.txt', 'llms-full.txt', 'llms-languages.txt', 'manifest.webmanifest', '_headers', 'favicon.svg', 'favicon.ico']) {
   if (!existsSync(join(DIST, required))) err('dist', `missing ${required}`);
 }
 

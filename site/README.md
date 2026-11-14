@@ -28,7 +28,7 @@ pnpm preview             # serves dist/ with the real Workers runtime, headers a
 
 | Path | What it is |
 | --- | --- |
-| `src/pages/` | Routes: home, `games/`, `[section]/` guides and hubs, legal pages, `robots.txt`, `llms.txt`, `llms-full.txt`, manifest, `pictures/[id].svg` |
+| `src/pages/` | Routes: home, `games/`, `[section]/` guides and hubs, legal pages, `robots.txt`, `llms.txt`, `llms-full.txt`, `llms-languages.txt`, manifest, `pictures/[id].svg` |
 | `src/content/activity-cards/*.md` | The English activity cards, served at `/activity/<slug>/` and filtered at `/activity/`. Logic and content checks in `src/lib/activities.ts` and its test |
 | `src/content/hubs/*.md` | Search hubs by situation, each served at `/<id>/` by a one-line `src/pages/<id>.astro` and rendered by `src/views/HubView.astro`; checks in `src/lib/hubs.test.ts` |
 | `src/content/guides/<section>/*.md` | The English guides (88 on 2026-11-14). Frontmatter is validated by `src/content.config.ts` |

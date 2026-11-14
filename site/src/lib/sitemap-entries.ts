@@ -30,8 +30,11 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
   const guides = await allGuides();
   // Activity cards are English-first until a translation has cultural and safety review.
   const activities = await getCollection('activityCards');
+  const hubs = await getCollection('hubs');
   const entries: SitemapEntry[] = [
     ...STATIC_PAGES.map((path) => ({ path, lastmod: SITE.updated, langs: LOCALIZED.has(path) ? EVERY : ['en'] })),
+    // Hubs are static pages too, but they carry their own edit date; later entries win below.
+    ...hubs.map((h) => ({ path: `/${h.id}/`, lastmod: h.data.updated.toISOString().slice(0, 10), langs: ['en'] })),
     ...GAMES.map((g) => ({ path: `/games/${g.slug}/`, lastmod: SITE.updated, langs: GAMES_LOCALIZED ? gameLanguages(g.slug) : ['en'] })),
     ...activities.map((a) => ({
       path: `/activity/${a.id}/`,

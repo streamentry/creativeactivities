@@ -87,3 +87,18 @@ export function languageSection(s: LanguageSupport): string[] {
     '',
   ];
 }
+
+/**
+ * The short version for /llms.txt: the summary without the per-language list,
+ * which has its own file so the English pages stay near the top of /llms.txt.
+ */
+export function languageOverview(s: LanguageSupport): string[] {
+  const all = languageSection(s);
+  const at = all.indexOf('### Every language');
+  if (at < 0) return all;
+  return [
+    ...all.slice(0, at - 1),
+    `- Per language (home page, page count, games, guides and sitemap for each): ${s.siteUrl}/llms-languages.txt`,
+    '',
+  ];
+}

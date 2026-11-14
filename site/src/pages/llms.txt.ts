@@ -5,46 +5,15 @@ import { PACKS } from '../data/packs';
 import { APP } from '../lib/app';
 import { SECTION_META, SITE } from '../lib/site';
 import { SECTIONS } from '../content.config';
-import { isIndexable, localePath } from '../i18n/locales';
+import { isIndexable } from '../i18n/locales';
 import { PUBLISHED } from '../i18n/ui';
-import { gameAvailable } from '../i18n/games';
-import { allGuides } from '../i18n/guides';
-import { languageSection, type LanguageSupport } from '../lib/language-support';
-import { sitemapEntries } from '../lib/sitemap-entries';
-import { sitemapPath } from '../lib/sitemap';
-
-/** Top-level paths such as `/` or `/about/`, not game or guide pages. */
-const isTopLevel = (path: string): boolean => path.split('/').filter(Boolean).length <= 1;
-
-async function languageSupport(totalGuides: number): Promise<LanguageSupport> {
-  const entries = await sitemapEntries();
-  const localGuides = await allGuides();
-  const langs = PUBLISHED.filter((l) => isIndexable(l.code));
-  return {
-    siteUrl: SITE.url,
-    totalGames: GAMES.length,
-    totalGuides,
-    everyLanguagePaths: entries.filter((e) => isTopLevel(e.path) && langs.every((l) => e.langs.includes(l.code))).map((e) => e.path),
-    englishOnlyPaths: entries.filter((e) => e.langs.length === 1 && e.langs[0] === 'en').map((e) => e.path),
-    rows: langs.map((l) => ({
-      code: l.code,
-      bcp47: l.bcp47,
-      name: l.name,
-      englishName: l.englishName,
-      dir: l.dir,
-      home: `${SITE.url}${localePath(l.code, '/')}`,
-      sitemap: `${SITE.url}${sitemapPath(l.code)}`,
-      pages: entries.filter((e) => e.langs.includes(l.code)).length,
-      missingGames: GAMES.filter((g) => !gameAvailable(g.slug, l.code)).map((g) => g.name),
-      guides: localGuides.filter((g) => g.lang === l.code).length,
-    })),
-  };
-}
+import { languageOverview } from '../lib/language-support';
+import { languageSupport } from '../lib/language-support-data';
 
 /** A plain-text map of the site for AI answer engines (llmstxt.org format). */
 export const GET: APIRoute = async () => {
   const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
-  const languages = languageSection(await languageSupport(guides.length));
+  const languages = languageOverview(await languageSupport(guides.length));
   const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
   const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const lines: string[] = [
