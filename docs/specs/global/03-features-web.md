@@ -974,7 +974,8 @@ Risks / not doing: Showing a credential we do not hold. Never show one.
 
 ### WEB-058 · Report a problem
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: Footer.astro "Report a problem" on every page (check-site.mjs); site/src/pages/corrections.astro. Response standard not yet published (maintainer decision).
 
 Why: Provenance and correction are part of the trust layer ([MISSION, "Provenance"](../../../MISSION.md); [DESIGN §4B](../../../DESIGN.md) correction link). A reporting path is expected for user content ([R5 §5.5](research/05-search-scale-trust.md)).
 

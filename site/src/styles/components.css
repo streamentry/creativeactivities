@@ -1694,3 +1694,14 @@ summary {
     outline-offset: 2px;
   }
 }
+
+/* Evidence labels beside benefit sentences (TSA-031) and the evidence table. */
+.evidence-label {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--gm-on-surface-variant);
+}
+
+.evidence-label a {
+  color: var(--gm-secondary);
+}

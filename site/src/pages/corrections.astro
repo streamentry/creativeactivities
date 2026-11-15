@@ -23,6 +23,27 @@ import { CORRECTIONS, CORRECTION_KINDS } from '../lib/corrections';
   <p><a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a></p>
   <p class="muted">This opens your email app. Please do not send health records or other personal details.</p>
 
+  <h2 id="report-a-problem">Report a problem</h2>
+  <p>
+    Choose the kind of problem. Each link opens an email with the subject filled in. You do not need an account or a name.
+    Put the address of the page in the email, so we can find it.
+  </p>
+  <ul>
+    <li><a href={`mailto:${SITE.supportEmail}?subject=Accessibility%20problem`}>Accessibility problem</a>: something you cannot read, use or print.</li>
+    <li><a href={`mailto:${SITE.supportEmail}?subject=Wrong%20step`}>Wrong step</a>: a step that does not work or is unclear.</li>
+    <li><a href={`mailto:${SITE.supportEmail}?subject=Other%20problem`}>Something else</a>.</li>
+  </ul>
+
+  <h2 id="report-safety">Report a safety problem</h2>
+  <p>
+    Use this for anything that could cause harm: a small part, food used as material, a hot or sharp step, a slip or fall
+    risk, or a warning that is missing. Put the activity address in the email. Please do not write any health details.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={`mailto:${SITE.supportEmail}?subject=Safety%20problem`}><Icon name="arrow" />Report a safety problem by email</a>
+  </div>
+  <p class="muted">Safety reports go to the editor, not to a general feedback box. Response times are not published yet; see below.</p>
+
   <h2 id="what-happens">What happens next</h2>
   <ol>
     <li>Every report reaches the editor, and we decide whether it is a safety, fact or claim issue.</li>
