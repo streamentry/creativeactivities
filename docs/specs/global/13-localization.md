@@ -109,7 +109,7 @@ Depends on: L10N-003, L10N-021.
 Risks / not doing: Do not hide machine text from a reader who has no other version. Show the English, marked, or show nothing for that segment.
 
 ### L10N-006 · Structure survives translation
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: Losing an adaptation in translation is the most likely quality defect [R5 §2.3]. The adaptation is the product [DESIGN §5].
 
@@ -122,6 +122,8 @@ Acceptance:
 
 Depends on: [DESIGN.md §5](../../../DESIGN.md) data model, L10N-010.
 Risks / not doing: Do not let translators rewrite adaptations to "sound more natural" without a reviewer's sign-off.
+
+Evidence: `site/src/lib/translation-structure.ts` (pure comparison: frontmatter keys and fixed values, headings, list items, links, numbers, activity steps, variations, safety flags, supervision) with `translation-structure.test.ts` and `yaml-subset.test.ts`; `translation-structure.content.test.ts` runs over all 11,373 translated guides and records 2,537 known mismatches in `translation-structure.baseline.json` (new drift fails). Translated activity cards are checked when `activity-cards-i18n/` exists (none yet; a missing variation fails, verified with a fixture). Remaining: 593 translated pages lack the `crisisRoute` flag their English guide sets (safety, needs a fix and L10N-009 review); digits and links need reviewer sign-off; no reviewed translated card exists yet. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-007 · Dementia terminology glossary per locale
 Priority P0 · Phase S2 · Status new · Pillars: CARE, all
@@ -139,7 +141,7 @@ Depends on: L10N-003.
 Risks / not doing: Do not use "patients" in copy. Use "people living with dementia" or the local equivalent [web SEO §6, CONTENT_GUIDE].
 
 ### L10N-008 · Brand-name propagation check
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: The product was renamed from Golden Moments on 2026-11-13. Old copy still exists in the web SEO strategy, link-building drafts and possibly translations [web SEO; link building note; language markets §5].
 
@@ -152,6 +154,8 @@ Acceptance:
 
 Depends on: L10N-001.
 Risks / not doing: Do not rename a translated product name without a reviewer. Naming is a native decision [native review].
+
+Evidence: `site/src/lib/brand-name.test.ts` scans launched content (site source, public files, ARB strings, store metadata, store descriptions, redirect Workers) for "Golden Moments" and `dementiaactivities.games`; the English mailto subjects were fixed; the remaining hits are listed in `BRAND_ALLOWLIST` with a kind and reason (store history notes, redirect configs, the App Store link path). Not yet zero: 14 translated guide summaries and `ff.json` keep the old name and need a native reviewer. Open for the maintainer: whether `dementiaactivities.games` is a redirect or a separate live site. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-009 · Local safety and crisis information
 Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE, GROW
