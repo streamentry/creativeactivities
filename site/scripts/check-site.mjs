@@ -176,12 +176,22 @@ for (const file of htmlFiles) {
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
   const canonical = html.match(/<link rel="canonical" href="([^"]*)"/)?.[1];
+  // Only the robots meta counts: page scripts may mention "noindex" (the finder sets it for filter combinations).
+  const noindexMeta = /<meta name="robots" content="[^"]*noindex/.test(html);
   if (!is404) {
     if (canonical !== `${SITE}${path}`) err(rel, `canonical ${canonical} should be ${SITE}${path}`);
-    if (!/noindex/.test(html)) indexable.push(`${SITE}${path}`);
+    if (!noindexMeta) indexable.push(`${SITE}${path}`);
     else noindexed.push(`${SITE}${path}`);
     // A page that asks not to be indexed must not advertise language alternates.
-    if (/noindex/.test(html) && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    if (noindexMeta && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    // WEB-005: the finder's address with filters stays canonical to /activity/, and the finder is indexable.
+    if (path === '/activity/') {
+      if (noindexMeta) err(rel, 'the finder must be indexable; filter combinations are noindexed by script');
+      // The rule ships in the finder's bundled script, so read the files the page loads.
+      const bundles = [...html.matchAll(/<script[^>]+src="(\/[^"]+\.js)"/g)].map((m) => join(DIST, m[1].split('?')[0]));
+      const hasRule = bundles.some((file) => existsSync(file) && readFileSync(file, 'utf8').includes('noindex, follow'));
+      if (!hasRule) err(rel, 'the finder has no rule to noindex combinations of three or more fit filters');
+    }
 
     if (/(^|\/)games\/photo-pairs\/$/.test(path)) {
       if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, 'Photo pairs loads Google Analytics');

@@ -39,7 +39,7 @@ const activities = pack.activities
       <h1>{pack.title}</h1>
       <p class="lede">{pack.lede}</p>
       <div class="btn-row no-print">
-        <button type="button" class="btn btn--primary" data-print><Icon name="print" />Print the pack</button>
+        <button type="button" class="btn btn--primary" data-print hidden><Icon name="print" />Print the pack</button>
       </div>
       <h2 class="no-print">In this pack</h2>
       <ol class="activity-list no-print">
@@ -82,6 +82,7 @@ const activities = pack.activities
 
 <script>
   for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.hidden = false;
     button.addEventListener('click', () => window.print());
   }
 </script>
