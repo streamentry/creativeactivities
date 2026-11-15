@@ -502,8 +502,9 @@
   .activity-next {
     display: none !important;
   }
+  /* WEB-014: body text 12 pt for older readers; headings scale with it. */
   .activity {
-    font-size: 11.5pt;
+    font-size: 12pt;
     line-height: 1.25;
   }
   .activity-head {
@@ -515,7 +516,7 @@
   }
   .activity-head__summary,
   .activity-glance {
-    font-size: 11.5pt;
+    font-size: 12pt;
     margin-bottom: 0.5mm;
   }
   .activity-materials {
@@ -534,11 +535,11 @@
     break-inside: avoid;
   }
   .activity-main h2 {
-    font-size: 13pt;
+    font-size: 14pt;
     margin: 0 0 0.5mm;
   }
   .activity-main h3 {
-    font-size: 11.5pt;
+    font-size: 12pt;
     margin: 0.8mm 0 0.3mm;
   }
   /* The "need" section's own heading rule (studio-activity.css) is more specific; match it here. */
@@ -606,7 +607,12 @@
   }
   .print-qr p {
     margin: 0;
-    font-size: 7.5pt;
+    font-size: 8pt;
+  }
+  /* WEB-016: the back of each printed card says which version it is and where the live card is. */
+  .print-version {
+    margin: 1.5mm 0 0;
+    font-size: 8pt;
   }
   .pack-card {
     break-before: page;

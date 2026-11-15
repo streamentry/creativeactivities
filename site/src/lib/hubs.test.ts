@@ -105,6 +105,33 @@ describe('hub index rules', () => {
   }
 });
 
+describe('hub overlap (H1) and the seniors hub (H1, H3)', () => {
+  // H1: if two hubs share more than half their cards, merge them. The limit is half of the smaller hub.
+  for (const hub of hubs) {
+    for (const other of hubs.filter((h) => h > hub)) {
+      it(`${hub} and ${other} share no more than half of the smaller hub (H1)`, () => {
+        const mine = list(hubText(hub), 'activities');
+        const theirs = list(hubText(other), 'activities');
+        const shared = mine.filter((slug) => theirs.includes(slug));
+        const limit = Math.floor(Math.min(mine.length, theirs.length) / 2);
+        expect(shared.length, `shared: ${shared.join(', ')}`).toBeLessThanOrEqual(limit);
+      });
+    }
+  }
+
+  it('activities-for-seniors lists no bedside-first card and still meets H3', () => {
+    const text = hubText('activities-for-seniors');
+    const activities = list(text, 'activities');
+    expect(activities.length, 'H3 needs eight cards').toBeGreaterThanOrEqual(8);
+    for (const slug of activities) {
+      expect(cardSettings(slug), `${slug} is bedside-first`).not.toContain('bedside');
+      const outdoorOrStanding = cardSettings(slug).some((s) => s === 'outdoors' || s === 'standing');
+      const withOthers = cardGroups(slug).some((g) => g !== 'one-to-one');
+      expect(outdoorOrStanding || withOthers, `${slug} is neither outdoors, standing nor with others`).toBe(true);
+    }
+  });
+});
+
 describe('seated activities hub (SEO-010)', () => {
   const text = hubText('seated-activities');
   const activities = list(text, 'activities');

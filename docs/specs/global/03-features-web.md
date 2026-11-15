@@ -255,7 +255,7 @@ Risks / not doing: Hiding variations behind a switch can hide them from search a
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
-Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print as exactly two pages (one sheet, both sides) on A4 and US Letter, front = what you need and what to do, back = make it easier or different and safety, navigation hidden, no background color needed. Body text 11.5 pt (headings 13 pt, title 22 pt); a single-sided version only fitted at 10 pt, which is too small for many older readers. Remaining: 12 pt target and the version/date line (WEB-016).
+Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print as exactly two pages (one sheet, both sides) on A4 and US Letter, front = what you need and what to do, back = make it easier or different and safety, navigation hidden, no background color needed. Body text now 12 pt (headings 14 pt, title 22 pt) in `site/src/styles/activities.css`; the back carries a print-only line `Version <updated date> · creativeactivities.org/activity/<slug>/` (WEB-016). Result of the 2026-11-15 run: 38 of 38 pass on A4 and Letter at 12 pt. Remaining: a printed copy checked on paper by a person (black and white, older reader) and the stop note check on the real sheet.
 
 Why: The Activity Card is "the memorable feature" and a potential distribution channel ([DESIGN §8](../../../DESIGN.md), [VISION](../../../VISION.md)). Printables are the way to reach people without a screen ([R1 §3.7](research/01-craft-diy-platforms.md)).
 
@@ -291,7 +291,8 @@ Risks / not doing: No print-only rewrite of claims. Print is a rendering of the 
 
 ### WEB-016 · Versioned prints
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: the print-only footer line on each card (`site/src/views/ActivityView.astro`, class `print-version`, styled in `site/src/styles/activities.css`) prints `Version <updated date> · creativeactivities.org/activity/<slug>/`. Not done: the version is the card's `updated` date, not a separate version number; no changelog entry (WEB-027) and no safety notice on the card page yet.
 
 Why: Printed copies cannot be updated, so each one must be dated and versioned ([R5 §4](research/05-search-scale-trust.md)). The risk of feature churn is named in [R1 §7](research/01-craft-diy-platforms.md): printed outputs must stay stable.
 

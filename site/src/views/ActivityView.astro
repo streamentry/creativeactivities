@@ -80,7 +80,7 @@ const jsonLd = withdrawn
 ---
 <BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" image="/og/activities.png" jsonLd={jsonLd} noindex={Boolean(withdrawn)}>
   <Breadcrumbs items={crumbs} />
-  <div class="container activity activity-page">
+  <div class="container activity activity-page" data-view={withdrawn ? undefined : activity.id}>
     {
       withdrawn ? (
         <header class="activity-head">
@@ -123,7 +123,7 @@ const jsonLd = withdrawn
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
         </button>
-        <button type="button" class="btn" data-share hidden><Icon name="share" />Share</button>
+        <button type="button" class="btn" data-share={activity.id} hidden><Icon name="share" />Share</button>
       </div>
       <p class="activity-status no-print" data-activity-status role="status" aria-live="polite"></p>
       {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
@@ -282,13 +282,18 @@ const jsonLd = withdrawn
       }
       {
         !withdrawn && (
-          <div class="print-only print-qr">
-            <Fragment set:html={qr} />
-            <p>
-              Scan for easier versions, safety notes and more ideas, or visit {SITE.domain}{path}.
-              Free to print and share for personal and noncommercial use.
+          <>
+            <div class="print-only print-qr">
+              <Fragment set:html={qr} />
+              <p>
+                Scan for easier versions, safety notes and more ideas, or visit {SITE.domain}{path}.
+                Free to print and share for personal and noncommercial use.
+              </p>
+            </div>
+            <p class="print-only print-version">
+              Version {isoDate(d.updated)} · {SITE.domain}{path}
             </p>
-          </div>
+          </>
         )
       }
     </footer>
@@ -297,6 +302,11 @@ const jsonLd = withdrawn
 
 <script>
   import { browserStorage, isSaved, loadSaved, saveSaved, toggleSaved } from '../lib/saved-activities';
+  import { track } from '../lib/track';
+
+  // One view per page load, with the activity key only (TSA-012).
+  const viewed = document.querySelector<HTMLElement>('[data-view]')?.dataset.view;
+  if (viewed) track('activity_view', { activity: viewed });
 
   const status = document.querySelector<HTMLElement>('[data-activity-status]');
   const say = (text: string) => {
@@ -323,6 +333,7 @@ const jsonLd = withdrawn
       }
       const saved = isSaved(next, slug);
       show(saved);
+      if (saved) track('activity_save', { activity: slug });
       say(saved ? 'Saved on this device. Find it under Saved activities on the Find an activity page.' : 'Removed from saved activities.');
     });
   }
@@ -333,6 +344,7 @@ const jsonLd = withdrawn
   if (shareButton && (typeof navigator.share === 'function' || navigator.clipboard)) {
     shareButton.hidden = false;
     shareButton.addEventListener('click', async () => {
+      track('activity_share', { activity: shareButton.dataset.share ?? '' });
       if (typeof navigator.share === 'function') {
         try {
           await navigator.share({ title: document.title, url });
