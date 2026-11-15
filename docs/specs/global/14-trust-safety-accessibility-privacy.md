@@ -53,6 +53,8 @@ Risks / not doing: Do not count a tester's answer to a survey as a usability tes
 ### TSA-003 · Zoom, reflow, motion and timing
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: a11y-check.mjs covers 320 px, 200% zoom (640 px) and 200% text on every template; no game is timed; the breathing game ends on its own after six breaths and can be stopped at any time with its stop button. Not done: manual tests at 320 px and 200% for each template.
+
 Why: Older users and people with low vision often use large text. Timed challenges exclude people who need more time [DESIGN §6].
 
 What: Content works at 200% text size and at 320px width without horizontal scrolling. Reduced-motion settings are honored everywhere. No game is timed by default. Where a timer exists, the user can turn it off or extend it (WCAG 2.2.1). The app's picture matching has no timer or score (baseline).
@@ -67,6 +69,8 @@ Risks / not doing: Do not add a score or streak to make a game feel finished [R4
 
 ### TSA-004 · Keyboard, focus and drag alternatives
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: keyboard pass on every template and game in a11y-check.mjs; sorting and puzzle use tap-then-tap, not drag (site/src/lib/games/games.test.ts covers the tap alternatives). Not done: focus contrast check on every background.
 
 Why: Keyboard and switch users can only use what they can reach and see. The sorting, puzzle and picture-matching games need drag-free paths [DESIGN §6; R4 §5].
 
@@ -83,6 +87,8 @@ Risks / not doing: Do not hide a control behind hover.
 ### TSA-005 · Color, contrast and text alternatives
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: axe colour-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
+
 Why: Instructions must not depend on color. Instructional images need text alternatives [DESIGN §6; SEO.md §5.2].
 
 What: Color is never the only cue. Palette tokens are checked for text and non-text contrast. Every instructional image has a text alternative, and every essential video has captions and a transcript.
@@ -96,7 +102,9 @@ Depends on: [DESIGN §2](../../../DESIGN.md) palette validation.
 Risks / not doing: Do not write alt text that repeats the keywords.
 
 ### TSA-006 · Flashing and motion in games
-Priority P1 · Phase S2 · Status new · Pillars: PLAY
+Priority P1 · Phase S2 · Status partial · Pillars: PLAY
+
+Evidence: no flashing content found in site/src/styles/games.css or game components; the breathing circle has no reduced-motion transform and its words carry the cue; a11y-check.mjs fails on looping animation under reduced motion. Not done: a flash analyser run on each game and animation.
 
 Why: Flashing content can trigger seizures, and the games use motion [R4 §5].
 
@@ -110,7 +118,9 @@ Depends on: TSA-003.
 Risks / not doing: Do not add motion to make a game "feel alive" at the cost of calm.
 
 ### TSA-007 · Accessibility statement and feedback route
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: site/src/pages/accessibility.astro states the tested pages and tools, dated known issues, a reporting route (mailto link checked by a11y-check.mjs) and a response target marked as a proposal. Not done: maintainer to confirm the address is monitored and the response target.
 
 Why: Users need a way to report barriers, and the European Accessibility Act sets duties for some services from 28 June 2025 [R5 §5.4]. The free site is probably outside the core scope, but the statement is cheap and builds trust.
 
@@ -139,7 +149,9 @@ Depends on: [content library](06-content-library.md) editorial process.
 Risks / not doing: Do not simplify so far that a safety instruction loses meaning.
 
 ### TSA-009 · Accessibility regression tests in CI
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
+
+Evidence: CI step "Accessibility checks" in .github/workflows/site.yaml runs site/scripts/a11y-check.mjs after the build; any violation fails the job and the log lists the result for each template and game.
 
 Why: Accessibility regresses silently when templates change.
 

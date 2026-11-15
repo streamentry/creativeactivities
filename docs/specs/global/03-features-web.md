@@ -648,7 +648,9 @@ Risks / not doing: Automated checks are necessary but not sufficient ([DESIGN §
 
 ### WEB-037 · Zoom and small-screen reflow
 
-Priority P0 · Phase S2 · Status partial · Pillars: all
+Priority P0 · Phase S2 · Status exists · Pillars: all
+
+Evidence: site/scripts/a11y-check.mjs runs every template at 320, 390, 640 (200% zoom), 1440 and 1440 with text at 200%, and fails on horizontal page scroll, content past the edge or clipped text (CI step "Accessibility checks" in .github/workflows/site.yaml).
 
 Why: DESIGN asks for 200% zoom and reflow at 320 CSS px without horizontal scrolling for ordinary content ([DESIGN §6](../../../DESIGN.md)).
 
@@ -897,7 +899,9 @@ Risks / not doing: Hints can do the work for the person. Hints are optional and 
 
 ### WEB-054 · Stop and rest on every game
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: Rest for now on every game through site/src/games/shared/GameFrame.tsx (checked for all 12 games by a11y-check.mjs: keyboard reachable, play area hidden and kept, Carry on restores it, no modal). Not done: the place is kept only while the page is open; it is not saved on the device between visits, so the Rest saving requirement is partly met.
 
 Why: "Adapt or stop without pressure" applies to games too ([MISSION](../../../MISSION.md)). A rest button that saves place is in the game concepts ([R4 §8, concept 22](research/04-games-engagement.md)).
 
@@ -1263,6 +1267,8 @@ Risks / not doing: Lab scores are not field data. Both are needed.
 ### WEB-075 · Accessibility tests in CI
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: axe at WCAG 2.2 AA on every template and game at five variants, keyboard pass, reduced-motion loop check, in CI (site/scripts/a11y-check.mjs). Not done: a token contrast table and visual screenshot comparison at 320, 768, 1024 and 1440.
 
 Why: The baseline runs axe on key pages. DESIGN asks that every token pairing is validated for contrast, and the web testing rules add keyboard, reduced-motion and visual checks at each breakpoint ([DESIGN §2](../../../DESIGN.md)).
 

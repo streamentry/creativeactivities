@@ -62,7 +62,7 @@
   }
   .activity-aside {
     position: sticky;
-    top: var(--space-lg);
+    top: var(--header-clear, 7rem);
   }
 }
 .activity-main section {
