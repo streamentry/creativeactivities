@@ -12,6 +12,7 @@
     "preview": "wrangler dev",
     "check:site": "node --max-old-space-size=6144 scripts/check-site.mjs",
     "check:budget": "node --max-old-space-size=6144 scripts/check-budget.mjs",
+    "check:duplicates": "node --max-old-space-size=6144 scripts/check-duplicates.mjs",
     "check:print": "node scripts/check-print.mjs",
     "check:a11y": "node scripts/a11y-check.mjs",
     "check:live": "node scripts/verify-live-legal.mjs",
