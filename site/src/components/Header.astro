@@ -43,3 +43,24 @@ const path = splitLocale(Astro.url.pathname).path;
     <TextSize lang={lang} />
   </div>
 </header>
+
+<script>
+  // The header grows with text size, so the space reserved above focused links and sticky asides follows its real height (WCAG 2.4.11).
+  // Without script, the CSS values (7rem) apply.
+  const header = document.querySelector<HTMLElement>('.site-header');
+  if (header && 'ResizeObserver' in window) {
+    new ResizeObserver(() => {
+      const clear = `${Math.ceil(header.getBoundingClientRect().height) + 16}px`;
+      document.documentElement.style.setProperty('--header-clear', clear);
+      document.documentElement.style.scrollPaddingTop = clear;
+    }).observe(header);
+  }
+  // Browsers do not scroll to a focused link that is already partly on screen, so one under the header stays hidden.
+  // Move the page just enough to bring a focused control below the header.
+  document.addEventListener('focusin', (event) => {
+    if (!header || !(event.target instanceof HTMLElement) || header.contains(event.target)) return;
+    const clearance = header.getBoundingClientRect().bottom + 16;
+    const top = event.target.getBoundingClientRect().top;
+    if (top < clearance && top > -1000) window.scrollBy(0, top - clearance);
+  });
+</script>

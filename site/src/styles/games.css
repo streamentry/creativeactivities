@@ -42,6 +42,28 @@
 .game__bar .btn--quiet:last-child {
   margin-inline-start: auto;
 }
+/* Rest: the play area is hidden but kept, and a calm panel takes its place. */
+.game [hidden] {
+  display: none !important;
+}
+.game__rest {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-md);
+  padding: var(--space-xl) var(--space-md);
+  text-align: center;
+  background: var(--gm-surface);
+  border-radius: var(--radius-xl);
+}
+.game__rest h2 {
+  margin: 0;
+}
+.game__rest-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  justify-content: center;
+}
 /* One optional question for the person helping, after play has begun. */
 .game__feedback {
   display: flex;

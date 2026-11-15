@@ -8,7 +8,7 @@ import { SITE } from '../lib/site';
   description="How Creative Activities is designed for older adults and people living with dementia: large text and targets, high contrast, no timers, keyboard and screen reader support."
   path="/accessibility/"
   crumb="Accessibility"
-  updated="2026-11-09"
+  updated="2026-11-15"
 >
   <p>
     We design for older eyes and hands first, and aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at
@@ -32,8 +32,31 @@ import { SITE } from '../lib/site';
     <li>Coloring pages are easiest with a mouse or touch, though every area can also be reached with the keyboard.</li>
     <li>By default, the gold text and links are 6.3 to 1 against the page, below the 7 to 1 level that many checklists ask for. Higher contrast raises them to 8.7 to 1.</li>
   </ul>
+  <h2>How we test</h2>
   <p>
-    We have not yet completed a formal audit with assistive technology users. If something is hard to use, please tell
-    us at <a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a> and we will work on it.
+    Every release is checked automatically in our build. Each page type is tested with the axe accessibility engine at
+    WCAG 2.2 level AA, at widths of 320, 390, 640 and 1440 pixels, at 200% zoom and with text at 200%. We also check
+    that keyboard focus is always visible and never hidden, that no page scrolls sideways, that no text is cut off, and
+    that nothing keeps moving when reduced motion is on. Every game is checked for a Rest control that a keyboard can reach.
+    The tested pages are the home page, the activity finder, an activity, a hub, a pack, a guide, a section index, a game,
+    Today, the about page, this statement, the translated and right-to-left home pages, and the not-found page.
+  </p>
+  <p>
+    Automated checks find only some problems. We have not yet tested with screen readers or other assistive technology
+    in a recorded session, so we do not claim full conformance.
+  </p>
+  <h2>Known issues, as of 15 November 2026</h2>
+  <ul>
+    <li>Rest keeps your place only while this page stays open. It is not yet saved on your device between visits.</li>
+    <li>The Rest, Carry on and Done for now labels are in English on pages in other languages until they are translated.</li>
+    <li>The breathing game keeps its timer running while it rests, so it may move on while you are away from it.</li>
+    <li>Screen reader sessions have not yet been recorded (see above).</li>
+  </ul>
+  <h2>Report a barrier</h2>
+  <p>
+    If something is hard to use, please write to
+    <a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a> and say which page, what you tried and what happened.
+    Tell us your browser and device if you can. We aim to reply within 10 working days. This response time is a proposal
+    from the maintainer and has not yet been confirmed.
   </p>
 </PageLayout>
