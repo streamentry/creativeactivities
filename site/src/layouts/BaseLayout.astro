@@ -15,6 +15,7 @@ import { fontPreloads } from '../lib/fonts';
 import { fitDescription } from '../lib/meta-description';
 import { composeTitle } from '../lib/seo-title';
 import { DEFAULT_LOCALE, isIndexable, localeInfo, localePath, splitLocale } from '../i18n/locales';
+import { englishPathFor } from '../lib/retired-guides';
 import { PUBLISHED, ui } from '../i18n/ui';
 
 interface Props {
@@ -123,7 +124,7 @@ const detectLanguage = lang === DEFAULT_LOCALE && path === '/';
       lang !== DEFAULT_LOCALE && (
         <aside aria-label={t.common.languages}>
           <p class="mt-notice container">
-            {t.common.machineTranslated} <a href={path} hreflang="en" lang="en">{t.common.readOriginal}</a>
+            {t.common.machineTranslated} <a href={englishPathFor(path)} hreflang="en" lang="en">{t.common.readOriginal}</a>
           </p>
         </aside>
       )

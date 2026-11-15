@@ -73,7 +73,7 @@ safety:
   - "Dried lavender and rice are small enough to swallow. Supervise closely if anything might be put in the mouth."
   - "Do not put the sachet near a heater, radiator or open flame."
 stopNote: "It is fine to stop at any point. A bowl of lavender to smell is enough on its own. Cover the bowl and offer to finish the sachet another day."
-guides: [activities/sensory, activities/late-stage, activities/arts-and-crafts]
+guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, crafts/easy-crafts-for-adults]
 related: [make-a-texture-board, press-leaves-and-flowers, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15

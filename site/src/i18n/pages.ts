@@ -1,4 +1,5 @@
 import { SECTIONS } from '../content.config';
+import { isRetiredSection } from '../lib/retired-guides';
 import { GAMES } from '../data/games';
 import { DEFAULT_LOCALE } from './locales';
 import { allGuides } from './guides';
@@ -27,7 +28,7 @@ export async function pathsIn(code: string): Promise<Set<string>> {
       ? [
           ...LOCALIZED_STATIC,
           ...GAMES.filter((g) => gameAvailable(g.slug, code)).map((g) => `/games/${g.slug}/`),
-          ...SECTIONS.map((s) => `/${s}/`),
+          ...SECTIONS.filter((s) => !(english && isRetiredSection(s))).map((s) => `/${s}/`),
           ...guides.filter((g) => g.lang === code).map((g) => `/${g.id}/`),
         ]
       : [],

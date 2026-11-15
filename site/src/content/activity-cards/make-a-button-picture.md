@@ -73,7 +73,7 @@ safety:
   - "Stay at the table the whole time; do not leave loose buttons within reach of the person or young children."
   - "Use a glue stick or white craft glue rather than hot glue, and check for skin sensitivity first."
 stopNote: "It is fine to stop after one or two buttons. Count the loose ones away, leave the picture to dry, and offer to add more another day."
-guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage]
+guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas]
 related: [tear-paper-mosaic, make-a-texture-board, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15

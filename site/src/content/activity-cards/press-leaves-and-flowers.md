@@ -73,7 +73,7 @@ safety:
   - "Dried petals and seed heads are small enough to swallow. Supervise if anything might be put in the mouth."
   - "Outdoors, choose level paths, wear sturdy shoes, and take a hat and water in the sun."
 stopNote: "It is fine to stop after one leaf. Close the book on whatever is in it, and you will still have something to open together later."
-guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/early-stage]
+guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, activities/ideas]
 related: [arrange-flowers-together, make-a-greeting-card, paint-with-watercolors, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15

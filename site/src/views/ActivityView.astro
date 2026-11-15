@@ -22,7 +22,7 @@ import {
   listedActivities,
   reviewByline,
 } from '../lib/activities';
-import { findGuide } from '../i18n/guides';
+import { resolveGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
 import ActivityChanges from '../components/ActivityChanges.astro';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
@@ -69,11 +69,13 @@ const guides = withdrawn
   : (
       await Promise.all(
         d.guides.map(async (ref) => {
-          const guide = await findGuide('en', ref);
-          return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
+          const guide = await resolveGuide('en', ref);
+          return guide ? { href: `/${guide.id}/`, title: guide.entry.data.title } : null;
         }),
       )
-    ).filter((g) => g !== null);
+    )
+      .filter((g) => g !== null)
+      .filter((g, i, all) => all.findIndex((x) => x.href === g.href) === i);
 /** Pictures of the finished result, and pictures attached to one step each (WEB-012). */
 const resultImages = d.images.filter((image) => image.step === undefined && image.kind !== 'materials');
 const materialsImages = d.images.filter((image) => image.kind === 'materials');

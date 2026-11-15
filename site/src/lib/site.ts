@@ -25,7 +25,7 @@ export interface NavItem {
   /** Key in the `common.nav` dictionary. */
   /** English-only pages keep their English path in every language. */
   englishOnly?: boolean;
-  key: 'home' | 'find' | 'games' | 'activities' | 'caregiving' | 'brainHealth';
+  key: 'home' | 'find' | 'crafts' | 'kids' | 'together' | 'creativeCalm' | 'games';
 }
 
 export const NAV: readonly NavItem[] = [
@@ -33,22 +33,44 @@ export const NAV: readonly NavItem[] = [
   { href: '/', key: 'home' },
   // The primary path (DESIGN.md › Information architecture).
   { href: '/activity/', key: 'find', englishOnly: true },
+  // The page groups of the mission (MISSION.md, 2026-11-15): crafts, children, generations, calm.
+  { href: '/crafts/', key: 'crafts' },
+  { href: '/kids/', key: 'kids' },
+  { href: '/together/', key: 'together' },
+  { href: '/creative-calm/', key: 'creativeCalm' },
   { href: '/games/', key: 'games' },
-  { href: '/activities/', key: 'activities' },
-  { href: '/caregiving/', key: 'caregiving' },
-  { href: '/brain-health/', key: 'brainHealth' },
 ];
 
 export const SECTION_META = {
   activities: {
-    label: 'Activities',
+    label: 'Activity guides',
     href: '/activities/',
-    title: 'Activities for People with Dementia',
+    title: 'Activity Guides',
+  },
+  crafts: {
+    label: 'Crafts',
+    href: '/crafts/',
+    title: 'Crafts for All Ages',
+  },
+  kids: {
+    label: 'Kids',
+    href: '/kids/',
+    title: 'Creative Activities for Kids',
+  },
+  together: {
+    label: 'Together',
+    href: '/together/',
+    title: 'Activities to Do Together',
+  },
+  'creative-calm': {
+    label: 'Creative calm',
+    href: '/creative-calm/',
+    title: 'Creative Calm',
   },
   caregiving: {
-    label: 'Caregiving',
+    label: 'Dementia care',
     href: '/caregiving/',
-    title: 'Caregiving Guides',
+    title: 'Caring for Someone with Dementia',
   },
   'brain-health': {
     label: 'Brain health',

@@ -71,7 +71,7 @@ safety:
   - "Use copies of photos so an original is never cut or glued by mistake."
   - "A glue stick is less messy than liquid glue; check for skin sensitivity first."
 stopNote: "It is fine to stop after one picture. Put the collage somewhere safe and offer to carry on another day, or simply enjoy looking at the pictures."
-guides: [activities/arts-and-crafts, activities/reminiscence, activities/ideas]
+guides: [crafts/easy-crafts-for-adults, activities/reminiscence, activities/ideas]
 related: [make-a-greeting-card, start-a-family-recipe-book, tear-paper-mosaic]
 published: 2026-11-13
 updated: 2026-11-15

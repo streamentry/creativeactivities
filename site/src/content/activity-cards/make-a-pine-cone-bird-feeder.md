@@ -76,7 +76,7 @@ safety:
   - "Hang the feeder from the ground or a stable step, never a chair or ladder. Keep paths clear outdoors to prevent falls."
   - "Pine cones collected outdoors can have sharp scales and sap. Choose dry, open ones and check them first."
 stopNote: "It is fine to stop once the cone has a little seed on it. The birds will not mind. Hang it as it is, or leave it on a tray and finish another day."
-guides: [activities/outdoor-and-gardening, activities/for-men, activities/arts-and-crafts]
+guides: [together/outdoor-and-garden-activities, activities/ideas, crafts/easy-crafts-for-adults]
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, decorate-a-plant-pot]
 published: 2026-11-13
 updated: 2026-11-15

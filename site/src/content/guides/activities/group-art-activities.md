@@ -47,7 +47,7 @@ One note on terms first. [Art therapy](/activities/art-therapy-or-creative-activ
 
 ## How do you choose a group art activity?
 
-Pick something that needs little skill, has few steps, and can be stopped at any point. The Alzheimer's Association's [activities guide](https://www.alz.org/help-support/caregiving/daily-care/activities) advises matching activities to people's abilities and past interests, keeping them simple, and focusing on the process rather than the result. Good choices use one table and materials you can clean up in a few minutes. For more on running groups in care settings, see the [care home groups guide](/activities/care-home-groups/) and the [activity ideas guide](/activities/ideas/).
+Pick something that needs little skill, has few steps, and can be stopped at any point. The Alzheimer's Association's [activities guide](https://www.alz.org/help-support/caregiving/daily-care/activities) advises matching activities to people's abilities and past interests, keeping them simple, and focusing on the process rather than the result. Good choices use one table and materials you can clean up in a few minutes. For more on running groups in care settings, see the [care home groups guide](/crafts/craft-group-sessions/) and the [activity ideas guide](/activities/ideas/).
 
 ## How should the room and table be set up?
 

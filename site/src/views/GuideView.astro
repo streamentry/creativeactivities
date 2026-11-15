@@ -16,7 +16,7 @@ import '../styles/studio-editorial.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
 import { localeInfo, localePath } from '../i18n/locales';
 import { localizeGame } from '../i18n/games';
-import { findGuide, guideLanguages, type LocalGuide } from '../i18n/guides';
+import { resolveGuide, guideLanguages, type LocalGuide } from '../i18n/guides';
 import { fill, ui } from '../i18n/ui';
 
 interface Props {
@@ -50,11 +50,12 @@ const relatedGames = d.relatedGames
 const related = (
   await Promise.all(
     d.related.map(async (ref) => {
-      const local = (await findGuide(lang, ref)) ?? (await findGuide('en', ref));
-      return local ? { href: localePath(local.lang, `/${ref}/`), title: local.entry.data.title } : null;
+      const local = await resolveGuide(lang, ref);
+      return local ? { href: localePath(local.lang, `/${local.id}/`), title: local.entry.data.title } : null;
     }),
   )
-).filter((r): r is { href: string; title: string } => r !== null);
+).filter((r): r is { href: string; title: string } => r !== null)
+  .filter((g, i, all) => all.findIndex((x) => x.href === g.href) === i);
 
 // Activity cards that name this guide make it their hub (English pages only).
 const activityCards = listedActivities(await getCollection('activityCards'))

@@ -59,7 +59,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: DOCTOR,
     activity: { href: '/games/conversation-cards/', label: 'Look at conversation cards together' },
-    guide: { href: '/caregiving/asking-to-go-home/', label: 'When they keep asking to go home' },
+    guide: { href: '/caregiving/after-dementia-diagnosis/', label: 'Getting help after a diagnosis' },
   },
   {
     id: 'same-question',
@@ -71,7 +71,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: DOCTOR,
     activity: { href: '/games/picture-pairs/', label: 'Play picture pairs side by side' },
-    guide: { href: '/caregiving/repeated-questions/', label: 'Answering repeated questions' },
+    guide: { href: '/activities/reminiscence/', label: 'Talking about the past, without quizzing' },
   },
   {
     id: 'says-no',
@@ -95,7 +95,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: DOCTOR,
     activity: { href: '/games/calm-breathing/', label: 'Breathe slowly together for a minute' },
-    guide: { href: '/caregiving/late-day-restlessness/', label: 'Calm late-afternoon activities' },
+    guide: { href: '/activities/ideas/', label: '101 activity ideas' },
   },
   {
     id: 'nothing-to-do',
@@ -110,8 +110,8 @@ export const SITUATIONS: readonly Situation[] = [
       'picture-pairs',
       {
         type: 'guide',
-        href: '/activities/music/',
-        label: 'Listen to a familiar song',
+        href: '/activities/late-stage/',
+        label: 'Comfort ideas, including a familiar song',
         description: 'Choose music they enjoy. Listening together is enough.',
         picture: 'radio',
       },
@@ -128,7 +128,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: DOCTOR,
     activity: { href: '/games/finish-the-saying/', label: 'Finish a few familiar sayings together' },
-    guide: { href: '/caregiving/communication-tips/', label: 'Communication tips' },
+    guide: { href: '/activities/reminiscence/', label: 'Talking about the past, without quizzing' },
   },
   {
     id: 'visit',
@@ -140,7 +140,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: 'If you notice a sudden change during a visit, tell the staff or their doctor the same day. In the U.S., call 911 for emergencies. Elsewhere, use your local emergency number.',
     activity: { href: '/games/photo-pairs/', label: 'Make a pairs game from family photos' },
-    guide: { href: '/activities/visiting/', label: 'Visiting someone with dementia' },
+    guide: { href: '/activities/ideas/', label: '101 activity ideas' },
   },
   {
     id: 'worn-out',
@@ -152,7 +152,7 @@ export const SITUATIONS: readonly Situation[] = [
     ],
     help: 'In the U.S. and its territories, call or text 988 for crisis support. Elsewhere, contact local crisis support. For emergencies, call 911 in the U.S. or your local emergency number elsewhere.',
     activity: { href: '/games/calm-breathing/', label: 'Take one slow minute for yourself' },
-    guide: { href: '/caregiving/caregiver-self-care/', label: 'Looking after yourself' },
+    guide: { href: '/activities/drawing-and-painting-to-relax/', label: 'Drawing and painting to relax' },
   },
 ];
 

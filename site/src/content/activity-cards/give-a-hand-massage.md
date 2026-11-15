@@ -68,7 +68,7 @@ safety:
   - "Do not press on red, swollen, bruised, broken or very thin skin. A dry, gentle wipe is enough there."
   - "Avoid sore joints, and never bend fingers past the point where they move easily."
 stopNote: "It is fine to stop after one hand, or even one finger. Wipe the hand dry, rest it on the towel, and sit quietly together."
-guides: [activities/sensory, activities/late-stage, activities/visiting]
+guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, together/visiting-someone-in-care]
 related: [fold-towels-together, wind-a-ball-of-yarn, make-a-texture-board]
 published: 2026-11-14
 updated: 2026-11-15

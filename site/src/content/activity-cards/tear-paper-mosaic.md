@@ -72,7 +72,7 @@ safety:
   - "Glossy magazine edges can occasionally nick skin, so offer softer paper if that is a concern."
   - "Supervise closely while small torn pieces are on the table, and clear them away afterward."
 stopNote: "It is fine to stop when only part of the shape is filled. A half-finished mosaic still looks good, and you can add more another day or leave it as it is."
-guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage, activities/group-art-activities]
+guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas, activities/group-art-activities]
 related: [make-a-memory-collage, make-a-button-picture, make-a-texture-board]
 published: 2026-11-13
 updated: 2026-11-15

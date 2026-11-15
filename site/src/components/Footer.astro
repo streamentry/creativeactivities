@@ -3,6 +3,7 @@ import { SITE } from '../lib/site';
 import { href as link, localePath } from '../i18n/locales';
 import { PUBLISHED, ui } from '../i18n/ui';
 import Icon from './Icon.astro';
+import { englishPathFor } from '../lib/retired-guides';
 
 interface Props {
   lang?: string;
@@ -34,18 +35,19 @@ const columns = [
   {
     title: f.activityIdeas,
     links: [
-      ['/activities/ideas/', f.ideas101],
-      ['/activities/late-stage/', f.lateStage],
-      ['/activities/printable/', f.printable],
+      ['/crafts/', f.crafts],
+      ['/kids/', f.kids],
+      ['/together/', f.together],
+      ['/creative-calm/', f.creativeCalm],
       ['/activities/', f.allActivities],
     ],
   },
   {
     title: f.forCaregivers,
     links: [
+      ['/dementia-activities/', f.dementiaActivities + en],
       ['/caregiving/how-to-play-together/', f.playTogether],
-      ['/caregiving/caregiver-self-care/', f.selfCare],
-      ['/brain-health/', f.brainHealth],
+      ['/creative-calm/creative-self-care-for-caregivers/', f.selfCare],
       ['/faq/', f.faq],
     ],
   },
@@ -121,7 +123,7 @@ const columns = [
               {PUBLISHED.map((l) => (
                 <li>
                   <a
-                    href={localePath(l.code, available.includes(l.code) ? path : '/')}
+                    href={localePath(l.code, available.includes(l.code) ? (l.code === 'en' ? englishPathFor(path) : path) : '/')}
                     hreflang={l.bcp47}
                     lang={l.bcp47}
                     aria-current={l.code === lang ? 'true' : undefined}

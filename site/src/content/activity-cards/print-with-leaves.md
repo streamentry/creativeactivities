@@ -71,7 +71,7 @@ safety:
   - "Keep leaves and paint away from the mouth, and do not let anyone chew or taste the plants."
   - "Pick up only fallen leaves, and never strip a living plant."
 stopNote: "It is fine to stop after one leaf. Leave the print flat to dry and carry on later, or go for a short look at the trees nearby."
-guides: [activities/outdoor-and-gardening, activities/sensory, activities/arts-and-crafts]
+guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activities-for-adults, crafts/easy-crafts-for-adults]
 related: [press-leaves-and-flowers, paint-a-garden-stone, plant-seeds-in-a-pot]
 published: 2026-11-13
 updated: 2026-11-15

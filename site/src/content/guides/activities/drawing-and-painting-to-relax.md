@@ -75,6 +75,6 @@ Say things that invite a reply without a test:
 - "Tell me more about this one."
 - "Which color should go next?"
 
-Avoid quizzes such as "What is that?", praise such as "Good job" which can feel childish, and any suggestion to fix the lines. The [communication tips guide](/caregiving/communication-tips/) has more on this. The NHS [activities page](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) says that in later stages, activities usually need to be simplified and can focus on the senses. A brush loaded with color, touched to paper, can be enough.
+Avoid quizzes such as "What is that?", praise such as "Good job" which can feel childish, and any suggestion to fix the lines. For next steps after a diagnosis, see [first steps after a diagnosis](/caregiving/after-dementia-diagnosis/). The NHS [activities page](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) says that in later stages, activities usually need to be simplified and can focus on the senses. A brush loaded with color, touched to paper, can be enough.
 
-If the person is not interested today, try [coloring](/activities/coloring/) on another day, or simply sit together and talk. Stopping early is fine.
+If the person is not interested today, try [coloring](/crafts/coloring-pages-for-adults/) on another day, or simply sit together and talk. Stopping early is fine.

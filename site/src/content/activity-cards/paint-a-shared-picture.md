@@ -74,7 +74,7 @@ safety:
   - "Wash hands after painting, and keep paint away from the face if skin is sensitive."
   - "Stay close while paint and brushes are in use, and keep the water cups out of reach of anyone who may drink from them."
 stopNote: "It is fine to stop after one mark. Leave the picture where it is, and carry on another time, or simply enjoy the marks made so far."
-guides: [activities/arts-and-crafts, activities/care-home-groups, activities/art-projects, activities/group-art-activities]
+guides: [crafts/easy-crafts-for-adults, crafts/craft-group-sessions, activities/group-art-activities]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-with-watercolors]
 published: 2026-11-13
 updated: 2026-11-15

@@ -8,7 +8,7 @@ import ActivityCard from '../components/ActivityCard.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import { breadcrumbs, faqPage, itemList } from '../lib/schema';
-import { findGuide } from '../i18n/guides';
+import { resolveGuide } from '../i18n/guides';
 import { listedActivities } from '../lib/activities';
 
 interface Props {
@@ -39,11 +39,13 @@ const related = d.related.map((id) => allHubs.find((h) => h.id === id)).filter((
 const guides = (
   await Promise.all(
     d.guides.map(async (ref) => {
-      const guide = await findGuide('en', ref);
-      return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
+      const guide = await resolveGuide('en', ref);
+      return guide ? { href: `/${guide.id}/`, title: guide.entry.data.title } : null;
     }),
   )
-).filter((g) => g !== null);
+)
+  .filter((g) => g !== null)
+  .filter((g, i, all) => all.findIndex((x) => x.href === g.href) === i);
 
 const jsonLd = [
   breadcrumbs(crumbs),

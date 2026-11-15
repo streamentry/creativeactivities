@@ -45,8 +45,8 @@ describe('situations', () => {
     expect(situation?.choices?.[0]).toBe('picture-pairs');
     expect(situation?.choices?.[1]).toEqual({
       type: 'guide',
-      href: '/activities/music/',
-      label: 'Listen to a familiar song',
+      href: '/activities/late-stage/',
+      label: 'Comfort ideas, including a familiar song',
       description: 'Choose music they enjoy. Listening together is enough.',
       picture: 'radio',
     });

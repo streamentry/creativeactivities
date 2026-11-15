@@ -636,3 +636,18 @@ html[data-contrast='high'] .home-bento .activity-card {
 .section-head .lede {
   margin: 0;
 }
+
+/* Four page groups: one column on phones, two on tablets, four on desktop (no orphaned card). */
+.home-groups {
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 540px) {
+  .home-groups {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (min-width: 960px) {
+  .home-groups {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}

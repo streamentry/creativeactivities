@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import { SECTIONS } from '../content.config';
+import { isRetiredSection } from './retired-guides';
 import { GAMES } from '../data/games';
 import { PACKS } from '../data/packs';
 import { listedActivities } from './activities';
@@ -44,14 +45,19 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
       langs: ['en'],
     })),
     ...PACKS.map((p) => ({ path: `/activity/packs/${p.id}/`, lastmod: SITE.updated, langs: ['en'] })),
-    ...SECTIONS.map((s) => ({ path: `/${s}/`, lastmod: SITE.updated, langs: EVERY })),
-    ...guides
-      .filter((g) => g.lang === 'en')
-      .map((g) => ({
-        path: `/${g.id}/`,
-        lastmod: g.entry.data.updated.toISOString().slice(0, 10),
-        langs: guides.filter((x) => x.id === g.id).map((x) => x.lang),
-      })),
+    // A retired section has no English page, but its translations stay live.
+    ...SECTIONS.map((s) => ({
+      path: `/${s}/`,
+      lastmod: SITE.updated,
+      langs: isRetiredSection(s) ? EVERY.filter((code) => code !== 'en') : EVERY,
+    })),
+    // Every English guide, retired ones included: a retired guide has no English page,
+    // but its live translations are still listed (see allGuides).
+    ...(await getCollection('guides')).map((entry) => ({
+      path: `/${entry.id}/`,
+      lastmod: entry.data.updated.toISOString().slice(0, 10),
+      langs: guides.filter((x) => x.id === entry.id).map((x) => x.lang),
+    })),
   ];
   // A held hub is noindex, so it must not be listed even though its page file is auto-listed above.
   const held = new Set(hubs.filter((h) => !h.data.indexable).map((h) => `/${h.id}/`));

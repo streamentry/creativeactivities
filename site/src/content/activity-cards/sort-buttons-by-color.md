@@ -65,7 +65,7 @@ safety:
   - "Count the buttons out at the start and back in at the end, so none are left on the floor or in a chair."
   - "Check buttons for cracks, sharp edges or loose threads before use, and remove any that are damaged."
 stopNote: "It is fine to stop after a few buttons. Tip the sorted buttons back into the bowl, and leave the dishes out for another time."
-guides: [activities/sensory, activities/household-tasks, activities/late-stage]
+guides: [creative-calm/sensory-activities-for-adults, activities/ideas, activities/late-stage]
 related: [make-a-button-picture, make-a-texture-board, fold-towels-together]
 published: 2026-11-14
 updated: 2026-11-15

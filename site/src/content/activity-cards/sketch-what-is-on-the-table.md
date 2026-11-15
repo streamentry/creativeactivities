@@ -70,7 +70,7 @@ safety:
   - "Choose a sturdy cup or soft fruit, and avoid glass or anything sharp on the table."
   - "Stay close if the object is small or edible, and do not let anyone eat it."
 stopNote: "It is fine to stop after a few lines. Leave the paper where it is and look at the object again later, or simply enjoy it together for a while."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/drawing-and-painting-to-relax]
+guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, paint-a-shared-picture, arrange-flowers-together]
 published: 2026-11-13
 updated: 2026-11-15

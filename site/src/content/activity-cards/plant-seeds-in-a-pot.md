@@ -76,7 +76,7 @@ safety:
   - "Outdoors, sit in the shade, offer water to drink, and keep the path clear of hoses and tools to prevent falls."
   - "Check for allergies to seeds or plants before handling them, and wash hands afterward."
 stopNote: "It is fine to stop after one seed. Water what is planted, put the pot somewhere bright, and finish another day if you both want to."
-guides: [activities/outdoor-and-gardening, activities/early-stage, activities/middle-stage]
+guides: [together/outdoor-and-garden-activities, activities/ideas]
 related: [decorate-a-plant-pot, arrange-flowers-together, paint-a-garden-stone, make-a-pine-cone-bird-feeder]
 published: 2026-11-13
 updated: 2026-11-15

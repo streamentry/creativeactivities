@@ -14,8 +14,8 @@ describe('ActivityChoiceBoard', () => {
     expect(html).toContain('Choose one together');
     expect(html).toContain('They can point; you can tap.');
     expect(html).toContain('href="/games/picture-pairs/"');
-    expect(html).toContain('href="/activities/music/"');
-    expect(html).toContain('Listen to a familiar song');
+    expect(html).toContain('href="/activities/late-stage/"');
+    expect(html).toContain('Comfort ideas, including a familiar song');
     expect(html).toContain('Choose music they enjoy. Listening together is enough.');
     expect(html).toContain('radio.svg');
     expect(html.match(/class="today__activity-choice"/g)).toHaveLength(2);

@@ -77,4 +77,4 @@ You do not need a therapist to enjoy art together. Choose something simple, set 
 - [Make a memory collage](/activity/make-a-memory-collage/) from photos and magazine pictures.
 - [Press leaves and flowers](/activity/press-leaves-and-flowers/) between the pages of a heavy book.
 
-For more ideas, see our [arts and crafts guide](/activities/arts-and-crafts/). Art can be a pleasant part of your week. It does not have to be called therapy to be worth doing.
+For more ideas, see our [arts and crafts guide](/crafts/easy-crafts-for-adults/). Art can be a pleasant part of your week. It does not have to be called therapy to be worth doing.

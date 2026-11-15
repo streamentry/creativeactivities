@@ -20,7 +20,7 @@ faq:
     a: "Use a thick handle, a sponge or a cotton swab, or tilt the board on the lap so the wrist stays supported. Choose tearing, sorting or weaving rather than drawn lines. If the hands are painful, stop early and try again on a better day."
   - q: "Are these projects only for people living with dementia?"
     a: "No. They suit any older adult who enjoys making things. The steps are simple to adjust, and each card has easier versions for days when someone is tired or needs more help."
-guides: [activities/arts-and-crafts, activities/art-supplies-for-older-adults, activities/drawing-and-painting-to-relax, activities/group-art-activities, activities/art-therapy-or-creative-activity]
+guides: [crafts/easy-crafts-for-adults, activities/art-supplies-for-older-adults, activities/drawing-and-painting-to-relax, activities/group-art-activities, activities/art-therapy-or-creative-activity]
 related: [activities-for-seniors, grandparent-grandchild-activities, bedside-activities]
 published: 2026-11-13
 updated: 2026-11-13

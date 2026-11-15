@@ -70,7 +70,7 @@ safety:
   - "Keep the window closed or fitted with a safety stop. Never let anyone lean out to see a bird."
   - "Check glasses are clean and on before watching, so details are easier to see."
 stopNote: "It is fine to stop when the birds leave. Close the curtain, sit quietly together, and try again on another day."
-guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage]
+guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activities-for-adults, activities/late-stage]
 related: [make-a-pine-cone-bird-feeder, sketch-what-is-on-the-table, draw-repeating-patterns]
 published: 2026-11-14
 updated: 2026-11-15

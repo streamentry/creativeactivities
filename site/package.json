@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "gen:redirects": "node scripts/gen-redirects.ts",
     "preview": "wrangler dev",
     "check:site": "node --max-old-space-size=6144 scripts/check-site.mjs",
     "check:budget": "node --max-old-space-size=6144 scripts/check-budget.mjs",
