@@ -32,7 +32,9 @@ Depends on: TSA-002, TSA-011 (no third-party elements that break focus).
 Risks / not doing: Do not describe a page as "accessible" based on a scan alone [DESIGN §6].
 
 ### TSA-002 · Testing with assistive-technology users
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: protocol and AT checklist drafted on 2026-11-14 (`docs/research/s1-usability-protocol.md`, `docs/research/at-testing-checklist.md`). No sessions run, so 0 of the 8 required. Open: recruitment route, consent and payment decision, and maintainer acceptance of the thresholds.
 
 Why: Automated checks are necessary and insufficient [DESIGN §6]. VISION sets 8 to 15 usability sessions across devices, ages and accessibility needs before expansion [VISION, Stage 1].
 
@@ -274,7 +276,9 @@ Risks / not doing: Do not describe a privacy feature that does not exist.
 ## C. Children
 
 ### TSA-018 · Child-reachable default
-Priority P0 · Phase S1 · Status new · Pillars: GROW, all
+Priority P0 · Phase S1 · Status partial · Pillars: GROW, all
+
+Evidence: code check on 2026-11-14. No account, sign-up, or age, birth-date or school field: every `input`, `select` and `textarea` in `site/src` is a finder option, the search box, a game control, or the Today note. No `fetch`, XHR, beacon or socket calls in `site/src`. `src/components/Analytics.astro` loads the GTM container on every page except Photo pairs (`BaseLayout` `analytics` prop). `src/lib/track.ts` sends an event name and a yes or not-really answer only. Open items are in the policy note below.
 
 Why: Children can reach a public free site, and parents share activities with children. COPPA's amended rule was fully enforceable by 22 April 2026 [R5 §5.1]. An FTC statement dated 25 February 2026 narrows enforcement for age-verification data only. It is not a safe harbor [R5 §5.1].
 
@@ -287,6 +291,8 @@ Acceptance:
 
 Depends on: TSA-011.
 Risks / not doing: Do not use an age gate as a substitute for design.
+
+Policy note (2026-11-14): S1 treats every page as child-reachable. Current pages have no accounts and no age fields, and `privacy.astro` says the site is not directed at children under 13. The item stays partial for three reasons. (1) The GTM container sets GA4 cookies by default. A persistent identifier that is not consent-gated could be linked to a child, which the acceptance line does not allow. Consent-gating or disabling analytics on child-reachable pages is a maintainer and counsel decision; no change has been made. (2) Google signals and ad personalization settings are kept in the GTM and GA4 admin, outside the repo. The maintainer records their state here when checked. (3) `privacy.astro` names Google Analytics 4 while the loader is the GTM container; the wording needs aligning. Counsel review is not recorded.
 
 ### TSA-019 · No ads or ad technology on child-reachable pages
 Priority P0 · Phase S2 · Status new · Pillars: all
@@ -580,7 +586,9 @@ Risks / not doing: Do not use AI-written reviews or testimonials [SEO.md §5.3].
 ## G. User content and image rights
 
 ### TSA-038 · Image rights and consent log
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `docs/specs/asset-provenance.json` `site_images` holds 199 entries logged 2026-11-14 (83 picture-library SVGs, 100 generated illustrations, 16 social cards). `site/src/lib/asset-provenance.test.ts` (10 tests) fails if a picture, illustration or social card has no entry, if an entry points at a missing file, or if a person or child is shown without a release. Open: every entry is `unreviewed`. Creator, licence text and review date are missing for the drawn art and the social cards, and the generated-illustration tool terms are not reviewed.
 
 Why: Images of older adults and children create image-rights and consent issues [R5 §5.5]. A person living with dementia may not be able to consent, and the rules for a legal representative vary by place.
 
