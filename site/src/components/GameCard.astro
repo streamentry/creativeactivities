@@ -2,7 +2,6 @@
 import { pictureUrl } from '../data/pictures';
 import type { GameInfo } from '../data/games';
 import { localePath } from '../i18n/locales';
-import { localStageHint } from '../i18n/games';
 import { fill, ui } from '../i18n/ui';
 interface Props {
   /** Already localized with `localizeGame`. */
@@ -16,6 +15,7 @@ const { game, headingLevel = 'h3', lang = 'en', variant = 'default' } = Astro.pr
 const H = headingLevel;
 const t = ui(lang).cards;
 const lead = variant === 'lead';
+// No dementia-stage tag on cards (2026-11-15): the games are for anyone; each game page says who it suits.
 ---
 <article class:list={['card', 'game-card', lead && 'game-card--lead']}>
   <div class="game-card__print">
@@ -27,7 +27,6 @@ const lead = variant === 'lead';
     <H><a class="card__link" href={localePath(lang, `/games/${game.slug}/`)}>{game.name}</a></H>
     <p>{game.short}</p>
     <ul class="tag-list" aria-label={t.aboutGame}>
-      <li class="tag tag--suits">{localStageHint(game.stages, lang)}</li>
       <li class="tag tag--people">{game.players}</li>
       {game.printable && <li class="tag tag--print">{t.printable}</li>}
     </ul>
