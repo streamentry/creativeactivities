@@ -68,6 +68,15 @@ export const RULES: Rule[] = [
     pattern: /\b(?:cognitive|memory|brain)\s+(?:benefits?|boosts?|improvements?|gains?|training|function)\b|\bbetter memory\b/gi,
   },
   { id: 'brain-training', pattern: /\bbrain[- ](?:training|age|boost(?:ing|er)?|workouts?|exercises?)\b|\btrain your brain\b/gi },
+  // TSA-029: games are described by what they are, never as exercises that improve something.
+  { id: 'memory-exercise', pattern: /\bmemory (?:exercises?|workouts?|training|boosters?)\b/gi },
+  { id: 'mental-workout', pattern: /\bmental (?:workouts?|exercises?|fitness|gym)\b/gi },
+  { id: 'keeps-sharp', pattern: /\bkeeps? (?:your |the |their |a )?(?:mind|brain|memory|wits)\s+(?:sharp|active|young|fit|healthy)\b/gi },
+  {
+    id: 'brain-benefit',
+    pattern: /\b(?:supports?|boosts?|improves?|protects?|helps?|good for|great for|best for)\s+(?:your |the |their |a |healthy )?(?:brain|memory|mind|cognition|cognitive)(?: health| function| power)?\b/gi,
+  },
+  { id: 'delays-decline', pattern: /\bdelays?\s+(?:the\s+)?(?:onset|progression|decline|dementia|alzheimer\S*|memory loss)\b/gi },
   { id: 'proof-claim', pattern: /\b(?:clinically|scientifically)\s+(?:proven|proved|shown|tested|validated)\b|\bproven\b/gi },
   { id: 'stress-relief', pattern: /\bstress[- ]relie(?:f|ving|ver)s?\b/gi },
   { id: 'dementia-sufferer', pattern: /\bdementia sufferers?\b/gi },
@@ -86,6 +95,9 @@ export const EXPLAINER_FILES = [
   'pages/art-therapy-and-creative-activities.astro',
 ];
 
+/** Link labels that point to an explainer page (TSA-030): the footer link names the profession boundary page. */
+export const EXPLAINER_LABELS = ['i18n/ui/en.json#/footer/artTherapyBoundary'];
+
 const PROFESSION_CONTEXT =
   /\b(?:profession|professional|professionals|qualified|credential\w*|registered|register|licensed|licen[cs]e|trained|training|regulated|protected title|ATR|ATR-BC|HCPC|therapists?|doctor|clinician|care team|find|look for|ask|check|refer\w*|explain\w*|difference)\b/i;
 
@@ -98,8 +110,8 @@ const RESEARCH_FRAME =
 /** Hedged modals are research framing only on health pages (CONTENT_GUIDE: "may lower risk"). */
 const HEDGE_MODAL = /\b(?:may|might|could)\b/i;
 
-/** Warnings about other people's claims: "be wary of any app that promises better memory". */
-const WARNING_FRAME = /\b(?:be wary|beware|watch out|red flags?|warning signs?|promises?|scam|misleading|false|avoid|claims? (?:that|to)|says? (?:it|that|they)|won[’']t|no (?:one|single|app|game))\b/i;
+/** Warnings, and contrasts with other people's products: "be wary of any app that promises better memory". */
+const WARNING_FRAME = /\b(?:be wary|beware|watch out|red flags?|warning signs?|promises?|scam|misleading|false|avoid|claims? (?:that|to)|says? (?:it|that|they)|won[’']t|no (?:one|single|app|game)|other (?:apps?|games?|sites?)|many apps|most of what|made for people who want)\b/i;
 
 /** Medical framing: a sentence about a doctor's or clinician's treatment, not our activity. */
 const MEDICAL_FRAME = /\b(?:doctor|clinician|medical|medication|medicines?|prescri\w*|care team|health care|healthcare|GP|specialist|diagnos\w*)\b/i;
@@ -164,7 +176,7 @@ function allowedInContext(c: { rule: Rule; before: string; sentence: string; inQ
 export function checkClaims(source: string, file: string): ClaimViolation[] {
   const text = maskLinks(source);
   const violations: ClaimViolation[] = [];
-  const explainer = EXPLAINER_FILES.includes(file);
+  const explainer = EXPLAINER_FILES.includes(file) || EXPLAINER_LABELS.includes(file);
   const healthPage = file.startsWith('guides/brain-health/') || /^health: true$/m.test(source);
   const titleLines = new Set<number>();
   text.split('\n').forEach((line, i) => {
@@ -206,18 +218,53 @@ function walk(dir: URL, rel = ''): string[] {
   return out;
 }
 
-/** Every English source the lint covers: activity cards, hubs, English guides, the explainer page, and English UI strings. */
+type Json = string | number | boolean | null | Json[] | { [key: string]: Json };
+
+/**
+ * Every string value in a JSON document, with its key path (`/a/b[0]`). Each value is checked on its
+ * own, so a negation in one value cannot excuse a claim in the next. Keys starting with `@` (ARB
+ * developer notes) are skipped: they are not shown to readers.
+ */
+export function jsonStrings(value: Json, path = '', skipAt = false): { path: string; text: string }[] {
+  if (typeof value === 'string') return [{ path, text: value }];
+  if (Array.isArray(value)) return value.flatMap((v, i) => jsonStrings(v, `${path}[${i}]`));
+  if (value && typeof value === 'object') {
+    return Object.entries(value).flatMap(([k, v]) => (skipAt && k.startsWith('@') ? [] : jsonStrings(v, `${path}/${k}`)));
+  }
+  return [];
+}
+
+/** English copy outside the content folders: the app ARB, store listings and store text files (TSA-032). */
+const REPO = new URL('../../../', import.meta.url);
+
+/** Every English source the lint covers: activity cards, hubs, English guides, the explainer page, English UI and game strings, the app ARB file and the English store copy. */
 export function englishSources(): { file: string; text: string }[] {
   const sources: { file: string; text: string }[] = [];
   const add = (file: string, path: URL) => sources.push({ file, text: readFileSync(path, 'utf8') });
+  const addJson = (file: string, path: URL, skipAt = false) => {
+    for (const { path: at, text } of jsonStrings(JSON.parse(readFileSync(path, 'utf8')) as Json, '', skipAt)) {
+      sources.push({ file: `${file}#${at}`, text });
+    }
+  };
   for (const f of walk(CONTENT).filter((f) => f.startsWith('activity-cards/') || f.startsWith('hubs/'))) {
     if (f.endsWith('.md')) add(f, new URL(f, CONTENT));
   }
   for (const f of walk(CONTENT).filter((f) => f.startsWith('guides/'))) {
     if (f.endsWith('.md')) add(f, new URL(f, CONTENT));
   }
-  add('i18n/ui/en.json', new URL('../i18n/ui/en.json', import.meta.url));
+  addJson('i18n/ui/en.json', new URL('../i18n/ui/en.json', import.meta.url));
+  addJson('i18n/games/en.json', new URL('../i18n/games/en.json', import.meta.url));
+  addJson('i18n/play/en.json', new URL('../i18n/play/en.json', import.meta.url));
   const page = 'art-therapy-and-creative-activities.astro';
   if (existsSync(new URL(page, PAGES))) add(`pages/${page}`, new URL(page, PAGES));
+  addJson('lib/l10n/arb/app_en.arb', new URL('lib/l10n/arb/app_en.arb', REPO), true);
+  addJson('metadata/app-store.en-US.json', new URL('metadata/app-store.en-US.json', REPO));
+  addJson('metadata/google-play.en-US.json', new URL('metadata/google-play.en-US.json', REPO));
+  for (const f of ['en-US/description.txt', 'en-US/promotional_text.txt', 'en-US/release_notes.txt', 'en-US/subtitle.txt', 'en-US/keywords.txt', 'en-US/name.txt']) {
+    add(`metadata/${f}`, new URL(`metadata/${f}`, REPO));
+  }
+  for (const f of ['full_description.txt', 'release_notes.txt', 'short_description.txt', 'name.txt']) {
+    add(`metadata/google-play/en-US/${f}`, new URL(`metadata/google-play/en-US/${f}`, REPO));
+  }
   return sources;
 }
