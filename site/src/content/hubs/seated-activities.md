@@ -22,7 +22,7 @@ faq:
     a: "Stop, adjust the cushion or backrest and offer a drink or a rest. A short session that ends comfortably is a good session, and the work can wait for another day."
   - q: "Are these exercise or rehabilitation?"
     a: "No. They are chosen because the work can be done sitting down, not to train movement, strength or balance. Check with the person's doctor or care team before starting anything that asks for a new movement."
-guides: [activities/arts-and-crafts, activities/outdoor-and-gardening, activities/art-supplies-for-older-adults, caregiving/how-to-play-together]
+guides: [crafts/easy-crafts-for-adults, together/outdoor-and-garden-activities, activities/art-supplies-for-older-adults, caregiving/how-to-play-together]
 related: [bedside-activities, arts-and-crafts-for-seniors, activities-for-seniors]
 published: 2026-11-14
 updated: 2026-11-14

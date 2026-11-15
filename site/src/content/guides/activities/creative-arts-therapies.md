@@ -82,7 +82,7 @@ A sing-along, a painting group or a dance class is a creative activity. It is fo
 
 The difference is in the training and the purpose. A creative arts therapist is trained to work with mental health needs and to plan toward goals. A group leader who sings old songs with a care home group is doing something good and social, but it is not therapy. Neither is worse. They are simply different.
 
-Our [music guide](/activities/music/) and [arts and crafts guide](/activities/arts-and-crafts/) describe creative activities for home and care settings. Activities such as [drawing to music](/activity/draw-to-music/) or [making a personal songbook](/activity/make-a-personal-songbook/) are ordinary creative ideas, not therapy.
+Our [music guide](/creative-calm/music-for-calm-and-connection/) and [arts and crafts guide](/crafts/easy-crafts-for-adults/) describe creative activities for home and care settings. Activities such as [drawing to music](/activity/draw-to-music/) or [making a personal songbook](/activity/make-a-personal-songbook/) are ordinary creative ideas, not therapy.
 
 ## What does the dementia research show?
 

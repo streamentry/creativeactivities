@@ -73,7 +73,7 @@ safety:
   - "Keep any hot glue gun and scissors with the helper. Let hot glue cool fully before the board is handled."
   - "Avoid sharp edges such as cut plastic, wire or sandpaper; check the board by hand before handing it over."
 stopNote: "It is fine to stop after one or two pieces. Feeling the scraps together is the activity too. Set the board aside to finish later, or keep it as it is."
-guides: [activities/sensory, activities/late-stage, activities/arts-and-crafts]
+guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, crafts/easy-crafts-for-adults]
 related: [make-a-button-picture, tear-paper-mosaic, make-a-lavender-sachet, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15

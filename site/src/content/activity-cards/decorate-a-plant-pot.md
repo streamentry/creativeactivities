@@ -70,7 +70,7 @@ safety:
   - "Choose plants that are safe to touch and not harmful if nibbled, such as basil, mint or parsley."
   - "Check food cans for sharp rims before use, and tape over any rough edge."
 stopNote: "It is fine to stop once the pot is painted. Let it dry and plant it another day, or use it as it is for pens, buttons or dried flowers."
-guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/household-tasks]
+guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, activities/ideas]
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, arrange-flowers-together]
 published: 2026-11-13
 updated: 2026-11-15

@@ -67,7 +67,7 @@ safety:
   - "Choose soft yarn that does not shed fibers; some wool can itch or irritate sensitive skin."
   - "Put the yarn away when the activity ends so nobody catches a foot in it later."
 stopNote: "It is fine to stop with a small ball and plenty of yarn left. Put it all in the basket together and pick it up again another day, or not at all."
-guides: [activities/household-tasks, activities/sensory, activities/late-stage]
+guides: [activities/ideas, creative-calm/sensory-activities-for-adults, activities/late-stage]
 related: [make-a-texture-board, make-a-lavender-sachet, make-a-paper-chain-garland]
 published: 2026-11-13
 updated: 2026-11-15

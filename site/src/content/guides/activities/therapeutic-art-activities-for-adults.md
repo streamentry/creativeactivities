@@ -55,7 +55,7 @@ Each idea below takes one or two sentences to explain. Most link to a full activ
 
 Prepare everything before you sit down. Cut paper, pour water, and lay out brushes so that no one waits while you search for supplies. Cover the table with a plastic cloth or an old sheet.
 
-Sit side by side and work on your own piece. Start the first stroke together if that helps. Talk about colors, textures and memories as you go, and avoid quiz questions such as "What is this?" For more ideas by stage, see our [arts and crafts guide](/activities/arts-and-crafts/), and for ways to share activities, see [how to play together](/caregiving/how-to-play-together/).
+Sit side by side and work on your own piece. Start the first stroke together if that helps. Talk about colors, textures and memories as you go, and avoid quiz questions such as "What is this?" For more ideas by stage, see our [arts and crafts guide](/crafts/easy-crafts-for-adults/), and for ways to share activities, see [how to play together](/caregiving/how-to-play-together/).
 
 ## How can I make an activity easier?
 

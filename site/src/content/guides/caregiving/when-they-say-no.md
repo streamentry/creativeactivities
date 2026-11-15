@@ -57,7 +57,7 @@ Usually there is a reason, even if the person cannot put it into words. The [Alz
 
 - **It feels too hard.** The activity now needs skills dementia has made difficult, and failing in front of someone is embarrassing.
 - **It feels childish.** Adults notice cartoonish pictures, sing-song voices and activities that look like they were made for kids.
-- **Tiredness.** Many people have less energy later in the day. See [calm late-afternoon activities](/caregiving/late-day-restlessness/).
+- **Tiredness.** Many people have less energy later in the day. See [calm late-afternoon activities](/creative-calm/calm-afternoon-activities/).
 - **Physical discomfort.** The [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) lists pain, lack of sleep, trouble seeing or hearing, constipation, hunger, thirst and side effects of new medicines as possible causes of distress.
 - **Too much going on.** A loud TV, several conversations or a crowded room can be overwhelming.
 - **Feeling pushed.** The NIA names being pushed to do something that Alzheimer's has made very hard, or to remember events or people, as a cause of agitation.
@@ -86,7 +86,7 @@ Slow down, lower your voice and reassure. The [Alzheimer's Association guidance 
 - "Do you have time to help me with something else?"
 - "Shall we have a cup of tea instead?"
 
-Then end the activity without making it a big deal. Our [communication tips](/caregiving/communication-tips/) have more on what to say.
+Then end the activity without making it a big deal. The [first steps after a diagnosis](/caregiving/after-dementia-diagnosis/) page is a starting point for support.
 
 ## What should I avoid?
 
@@ -128,7 +128,7 @@ Contact their doctor promptly if you notice:
 
 The Alzheimer's Association recommends a thorough medical checkup for anyone with behavioral symptoms, especially when they appear suddenly. The Family Caregiver Alliance also advises checking with the doctor first, because behavior problems may have a medical cause. Do not start, stop or change any medicine without talking to a doctor or pharmacist.
 
-If anyone is in danger or there are signs of a medical emergency, call 911. The NIA suggests telling the dispatcher that the person has dementia. For immediate safety steps when anger becomes physical, see our [guide to anger and aggression in dementia](/caregiving/when-anger-becomes-aggression-with-dementia/).
+If anyone is in danger or there are signs of a medical emergency, call 911. The NIA suggests telling the dispatcher that the person has dementia. If anger becomes physical, step away and ask the doctor or care team for advice.
 
 ## Is it okay if we do nothing at all?
 

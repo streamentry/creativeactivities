@@ -59,7 +59,7 @@ The [Alzheimer's Association guide to life after diagnosis](https://www.alz.org/
 
 Choose one question that would make this week easier. It could be finding out who will coordinate the person's follow-up care, asking where to get reliable information about their diagnosis, or identifying someone they trust to talk with. The person may want to take the lead, ask someone to help or wait before deciding.
 
-For the next appointment, write down a few questions together if the person wants. You might ask what the diagnosis means, what is still uncertain, when to follow up and whom to contact if a new concern comes up. Ask the clinician to explain any term or recommendation that is unclear. Our [doctor-visit guide](/caregiving/doctor-visit-with-dementia/) has a short preparation list.
+For the next appointment, write down a few questions together if the person wants. You might ask what the diagnosis means, what is still uncertain, when to follow up and whom to contact if a new concern comes up. Ask the clinician to explain any term or recommendation that is unclear. Writing them down before the visit can help.
 
 The person does not have to learn everything about dementia at once. Choose reliable information about the diagnosis they received, and write down questions that come up later. Be cautious with promises, cure claims or advice that tells everyone to follow the same treatment or plan.
 
@@ -69,13 +69,13 @@ Ask the person what kind of support would help and whom they would like involved
 
 Support is for the person with the diagnosis as well as family and friends. A caregiver might need respite or help with daily tasks; the person may want information or a chance to meet others living with dementia. These needs can differ. Ask before arranging a group, making an appointment or sharing personal details.
 
-Our [caregiver self-care guide](/caregiving/caregiver-self-care/) has ideas for asking others to share support. If the person would like more help during the day, the guides to [adult day programs](/caregiving/choosing-adult-day-program-dementia/) and [in-home care](/caregiving/choosing-in-home-dementia-care/) explain questions to ask about local services.
+Our [caregiver self-care guide](/creative-calm/creative-self-care-for-caregivers/) has ideas for asking others to share support. If the person would like more help during the day, the questions about future care below cover what to ask about local services.
 
 ## How can the person stay part of decisions?
 
 A diagnosis alone does not tell you what a person can decide or how they want to take part. Ask the person directly. Give them time, explain the choice in plain language and ask what support would make the conversation easier. Some choices may be easier to discuss in a quiet setting or across more than one conversation.
 
-If the person wants to plan for future health care, finances or living arrangements, start with what matters to them and who they trust. The [Dementia Australia planning guide](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) recommends discussing wishes with trusted people and relevant professionals. Legal documents and decision-making rules differ by location, so ask a qualified local professional before relying on a general guide. For everyday bill help and scam concerns, see our [guide to managing money with dementia](/caregiving/managing-money-with-dementia/).
+If the person wants to plan for future health care, finances or living arrangements, start with what matters to them and who they trust. The [Dementia Australia planning guide](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) recommends discussing wishes with trusted people and relevant professionals. Legal documents and decision-making rules differ by location, so ask a qualified local professional before relying on a general guide. For everyday bill help and scam concerns, talk with your bank or a trusted adviser.
 
 ### What can we ask in a first conversation about future care?
 
@@ -97,7 +97,7 @@ Do not make assumptions based only on the diagnosis or on one conversation. The 
 
 The person decides whether, when and how to tell other people, unless a specific safety or legal situation requires professional advice. Ask whom they want to tell and what they want those people to know. They may choose one trusted person first, or prefer not to share widely.
 
-If the person wants help with a conversation, ask what they would like you to say and whether they want to be there. Share only the information they have agreed to share. Our [communication guide](/caregiving/communication-tips/) covers respectful conversations with family and others.
+If the person wants help with a conversation, ask what they would like you to say and whether they want to be there. Share only the information they have agreed to share. Talk it over with a doctor, social worker or other trusted professional if you are unsure.
 
 ## How can daily life continue while we adjust?
 

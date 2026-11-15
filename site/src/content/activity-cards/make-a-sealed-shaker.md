@@ -69,7 +69,7 @@ safety:
   - "Stay close while the shaker is used, and keep it out of reach of anyone who may put it in their mouth."
   - "Check for food allergies before using rice or any grain, and wash hands after handling it."
 stopNote: "It is fine to stop after the first shake, or before the decoration is finished. Put the shaker on the shelf and finish it another day."
-guides: [activities/music, activities/arts-and-crafts, activities/sensory]
+guides: [creative-calm/music-for-calm-and-connection, crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults]
 related: [tap-a-rhythm-together, make-a-paper-chain-garland, make-a-texture-board]
 published: 2026-11-14
 updated: 2026-11-15

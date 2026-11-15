@@ -70,7 +70,7 @@ Dementia is often described in early, middle and late stages. These are loose la
 | What you may notice | Mostly independent; planning, new names and busy places get harder | Needs help starting and with steps; words come less easily | Needs help with most daily care; the senses matter most |
 | Activities that often fit | Cards, board games, cooking, gardening, journaling, outings, clubs | Folding laundry, sorting, simple cooking steps, singing, photo albums, guided walks | Favorite music, hand massage, soft things to hold, being read to, sitting outside |
 | Your role | Partner: ask what support they want | Set up, show, take over the hard parts | Bring the activity to them; your company is the activity |
-| More ideas | [Early stage](/activities/early-stage/) | [Middle stage](/activities/middle-stage/) | [Late stage](/activities/late-stage/) |
+| More ideas | Early stage: on this page | Middle stage: on this page | [Late stage](/activities/late-stage/) |
 
 ## How do you start an activity with someone who has dementia?
 
@@ -85,11 +85,11 @@ Start small, start alongside them, and make it easy to say yes. Many people stil
 7. **Let it be done their way.** Differently folded towels are fine.
 8. **Stop when it stops being pleasant.** Fidgeting, frowning or "I can't" are signs to switch or rest.
 
-See also [how to play together](/caregiving/how-to-play-together/) and [communication tips](/caregiving/communication-tips/).
+See also [how to play together](/caregiving/how-to-play-together/) and [first steps after a diagnosis](/caregiving/after-dementia-diagnosis/).
 
 ## Everyday tasks at home
 
-Household jobs are familiar and useful, which makes them a natural place to begin. The [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) lists dishes, setting the table, sweeping, sorting mail and folding laundry among activities people may enjoy. More in [household tasks](/activities/household-tasks/).
+Household jobs are familiar and useful, which makes them a natural place to begin. The [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) lists dishes, setting the table, sweeping, sorting mail and folding laundry among activities people may enjoy.
 
 1. **Fold warm towels.** Tip a basket from the dryer onto the table and fold side by side. Later, smoothing and stacking is just as helpful.
 2. **Pair socks.** Start with very different colors. Later, sorting light from dark is plenty.
@@ -106,7 +106,7 @@ Household jobs are familiar and useful, which makes them a natural place to begi
 
 ## Music
 
-Familiar music can reach people even when words are hard. The [Alzheimer's Association's music tips](https://www.alz.org/help-support/caregiving/daily-care/art-music) suggest familiar songs, no commercials and the TV off. See [music activities](/activities/music/).
+Familiar music can reach people even when words are hard. The [Alzheimer's Association's music tips](https://www.alz.org/help-support/caregiving/daily-care/art-music) suggest familiar songs, no commercials and the TV off. See [music activities](/creative-calm/music-for-calm-and-connection/).
 
 13. **Build a personal playlist.** Music from their teens and twenties, their wedding, their church and their culture.
 14. **Sing along.** Start singing yourself. Humming or listening counts.
@@ -134,7 +134,7 @@ Enjoy the past together without testing it. Skip "Do you remember...?" and "Who 
 
 ## Creative activities
 
-Art is about doing, not the finished piece. Keep materials adult and safe. See [arts and crafts](/activities/arts-and-crafts/).
+Art is about doing, not the finished piece. Keep materials adult and safe. See [arts and crafts](/crafts/easy-crafts-for-adults/).
 
 31. **Paint with watercolors.** Thick paper, a few colors. If starting is hard, guide the first strokes together.
 32. **Color adult designs.** Flowers or quilts, not cartoons. Our [coloring pages](/games/coloring/) work on screen or printed.
@@ -143,12 +143,12 @@ Art is about doing, not the finished piece. Keep materials adult and safe. See [
 35. **Knit or crochet together.** Simple rows on large needles. Later, winding yarn into balls.
 36. **Make cards for family.** Stamp, sign or decorate birthday and get-well cards for real people.
 37. **Shape air-dry clay.** Press out a small dish. Use non-toxic materials and stay nearby.
-38. **Sand and finish wood.** A pre-cut birdhouse kit and sandpaper, no power tools. See [activities for men](/activities/for-men/).
+38. **Sand and finish wood.** A pre-cut birdhouse kit and sandpaper, no power tools.
 39. **Write or dictate a letter.** To a grandchild or old friend. If writing is hard, they talk and you write.
 
 ## Outdoors and gardening
 
-Fresh air and daylight are good company. See [outdoor and gardening activities](/activities/outdoor-and-gardening/).
+Fresh air and daylight are good company. See [outdoor and gardening activities](/together/outdoor-and-garden-activities/).
 
 40. **Water plants.** A small can and a few pots. Daily watering gives the day a rhythm.
 41. **Plant a pot.** Set it on a table so nobody kneels. Seedlings are easier than seeds.
@@ -161,7 +161,7 @@ Fresh air and daylight are good company. See [outdoor and gardening activities](
 
 ## Sensory activities
 
-Touch, smell, taste, sound and sight matter more as dementia progresses. The [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) mentions music, objects to handle and hand massage for later stages. Check for allergies and choking risks first; see [sensory activities](/activities/sensory/).
+Touch, smell, taste, sound and sight matter more as dementia progresses. The [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) mentions music, objects to handle and hand massage for later stages. Check for allergies and choking risks first; see [sensory activities](/creative-calm/sensory-activities-for-adults/).
 
 48. **Give a hand massage.** Ask first and use a little lotion. Choose unscented if unsure about skin or allergies.
 49. **Feel fabrics.** A basket of velvet, corduroy, wool and satin to stroke and fold.
@@ -175,12 +175,12 @@ Touch, smell, taste, sound and sight matter more as dementia progresses. The [NH
 
 ## Games and puzzles
 
-Games work when there is no timer, score or pressure. If one starts to feel like a test, put it away. See [choosing apps and games](/caregiving/choosing-apps-and-games/) and [brain games](/brain-health/brain-games/).
+Games work when there is no timer, score or pressure. If one starts to feel like a test, put it away. See the [games page](/games/) and [dementia activities at home](/dementia-activities/).
 
 57. **Match pictures.** [Picture pairs](/games/picture-pairs/) lets pictures stay face up, so it is about noticing, not remembering.
 58. **Find the same picture.** [Find the same](/games/find-the-same/) offers two to four choices. Chat about each picture.
 59. **Sort into baskets.** [Sort together](/games/sort-together/) is like sorting socks on screen.
-60. **Do a large-piece jigsaw.** Adult images, an easy piece count. [Picture puzzle](/games/picture-puzzle/) keeps the whole picture visible. More in [puzzles for dementia](/activities/puzzles/).
+60. **Do a large-piece jigsaw.** Adult images, an easy piece count. [Picture puzzle](/games/picture-puzzle/) keeps the whole picture visible. More in [puzzles and table games](/together/puzzles-and-table-games/).
 61. **Play an old card game.** Whatever they played for years. Later, sorting the deck by color is a game in itself.
 62. **Play dominoes.** Match the ends. Later, just lining tiles up is fine.
 63. **Try a large-print word search.** Our [word search](/games/word-search/) has words across and down only, and prints.
@@ -203,10 +203,10 @@ The NIA suggests walks, a stationary bike, stretching bands, tossing a soft ball
 
 ## Social activities
 
-Company matters even when names are hard, and small groups are easier than big ones. The NIA notes that a person may not remember who a visitor is but often still enjoys the company. See [visiting](/activities/visiting/).
+Company matters even when names are hard, and small groups are easier than big ones. The NIA notes that a person may not remember who a visitor is but often still enjoys the company. See [visiting](/together/visiting-someone-in-care/).
 
 75. **Have one or two visitors at a time.** Short visits in a quiet room, with photos to look at.
-76. **Video call family.** Short calls, one voice at a time. See [phone and video calls](/activities/phone-and-video-calls/).
+76. **Video call family.** Short calls, one voice at a time. See [phone and video calls](/together/staying-connected-from-afar/).
 77. **Try a memory café.** Informal drop-in gatherings for people living with dementia and their caregivers. Ask your local Area Agency on Aging what is nearby.
 78. **Eat out at a quiet time.** The NIA suggests a familiar, quiet restaurant at off-hours, with a table near the restroom.
 79. **Visit a senior center or adult day program.** Company for them and a break for you.
@@ -250,6 +250,6 @@ Keep traditions, but simpler. The NIA suggests being realistic and having a quie
 
 ## What if an activity is not working?
 
-Stop, and try something different another time. The NIA suggests watching for frustration and letting the person simply watch if they prefer. A no often means the task is too hard, the time is wrong, or something else is bothering them, like pain, hunger or noise. Make it smaller, try earlier in the day, or start it yourself and see if they join in. See [when they say no](/caregiving/when-they-say-no/) and [late-day restlessness](/caregiving/late-day-restlessness/).
+Stop, and try something different another time. The NIA suggests watching for frustration and letting the person simply watch if they prefer. A no often means the task is too hard, the time is wrong, or something else is bothering them, like pain, hunger or noise. Make it smaller, try earlier in the day, or start it yourself and see if they join in. See [when they say no](/caregiving/when-they-say-no/) and [calm afternoon activities](/creative-calm/calm-afternoon-activities/).
 
-To fit activities between meals and rest, see [a gentle daily routine](/activities/daily-routine/). For things to have ready, see [printable activities](/activities/printable/), and if you lead a group, [care home group activities](/activities/care-home-groups/). Your own rest matters too: see [caregiver self-care](/caregiving/caregiver-self-care/).
+To fit activities between meals and rest, see [calm afternoon activities](/creative-calm/calm-afternoon-activities/). For things to have ready, see the [free printables on the games page](/games/), and if you lead a group, [care home group activities](/crafts/craft-group-sessions/). Your own rest matters too: see [caregiver self-care](/creative-calm/creative-self-care-for-caregivers/).

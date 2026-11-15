@@ -108,14 +108,14 @@ A life-story book is a simple album of photos and short captions about the perso
 
 ## More reminiscence ideas
 
-- **Play music from their youth** and talk about where it takes them. See [music activities](/activities/music/).
+- **Play music from their youth** and talk about where it takes them. See [music activities](/creative-calm/music-for-calm-and-connection/).
 - **Watch home movies or TV shows** from their favorite decades.
 - **Cook a childhood dish** and let the smells lead the conversation.
 - **Look at a map** of their hometown and trace familiar streets.
 - **Handle old catalogs or magazines** and talk about prices, fashions and cars.
 - **Record their stories** on a phone, with their permission, for the family.
-- **Share during calls.** Hold up one photo during a video call; see [phone and video calls](/activities/phone-and-video-calls/).
-- **Bring a photo or object when you visit.** It gives the visit an easy focus; see [visiting](/activities/visiting/).
+- **Share during calls.** Hold up one photo during a video call; see [phone and video calls](/together/staying-connected-from-afar/).
+- **Bring a photo or object when you visit.** It gives the visit an easy focus; see [visiting](/together/visiting-someone-in-care/).
 
 ## What if a memory is painful?
 
@@ -123,4 +123,4 @@ Some memories bring grief, regret or fear. If the person becomes upset, stop, co
 
 ## What does the research say?
 
-A [Cochrane review of reminiscence](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), covering 22 trials and 1,972 people, found that effects were inconsistent, small and varied by setting and format. It found no evidence of harm to people with dementia. We suggest reminiscence because it can make for warm, meaningful time together, not as a treatment. For more on easy conversation, see [communication tips](/caregiving/communication-tips/).
+A [Cochrane review of reminiscence](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), covering 22 trials and 1,972 people, found that effects were inconsistent, small and varied by setting and format. It found no evidence of harm to people with dementia. We suggest reminiscence because it can make for warm, meaningful time together, not as a treatment. For more on easy conversation, see [first steps after a diagnosis](/caregiving/after-dementia-diagnosis/).

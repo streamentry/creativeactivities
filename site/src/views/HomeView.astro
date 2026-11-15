@@ -88,6 +88,29 @@ const hubs =
   </section>
 
   {
+    lang === 'en' && (
+      <section class="section" aria-labelledby="groups-title">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">{h.groupsEyebrow}</p>
+              <h2 id="groups-title">{h.groupsTitle}</h2>
+              <p class="lede">{h.groupsLede}</p>
+            </div>
+          </div>
+          <ul class="card-grid home-groups reveal">
+            {h.groups.map((g) => (
+              <li>
+                <GuideCard href={l(g.href)} title={g.title} text={g.text} label={g.label} lang={lang} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  {
     activityCards.length > 0 && (
       <section class="section home-activities" aria-labelledby="start-title">
         <div class="container">
@@ -163,28 +186,31 @@ const hubs =
     </div>
   </section>
 
-  <section class="section" aria-labelledby="stage-title">
-    <div class="container">
-      <div class="section-head">
-        <div>
-          <p class="eyebrow">{h.stageEyebrow}</p>
-          <h2 id="stage-title">{h.stageTitle}</h2>
-          <p class="lede">{h.stageLede}</p>
+  {/* English drops the stage ladder: it frames the site around dementia stages. Other languages keep it. */}
+  {lang !== 'en' && (
+    <section class="section" aria-labelledby="stage-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">{h.stageEyebrow}</p>
+            <h2 id="stage-title">{h.stageTitle}</h2>
+            <p class="lede">{h.stageLede}</p>
+          </div>
+          <a class="btn" href={l('/activities/ideas/')}>{h.ideas101} <Icon name="arrow" /></a>
         </div>
-        <a class="btn" href={l('/activities/ideas/')}>{h.ideas101} <Icon name="arrow" /></a>
+        <ul class="stage-grid home-stagger reveal">
+          {
+            h.stages.map((s) => (
+              <li>
+                <GuideCard href={l(s.href)} title={s.title} text={s.text} label={s.label} lang={lang} />
+              </li>
+            ))
+          }
+        </ul>
+        <p class="lede" set:html={localizeHtml(lang, h.specificHtml)} />
       </div>
-      <ul class="stage-grid home-stagger reveal">
-        {
-          h.stages.map((s) => (
-            <li>
-              <GuideCard href={l(s.href)} title={s.title} text={s.text} label={s.label} lang={lang} />
-            </li>
-          ))
-        }
-      </ul>
-      <p class="lede" set:html={localizeHtml(lang, h.specificHtml)} />
-    </div>
-  </section>
+    </section>
+  )}
 
   <section class="section section--linen" aria-labelledby="approach-title">
     <div class="container home-approach">
@@ -226,11 +252,12 @@ const hubs =
         <aside class="home-research reveal" aria-labelledby="today-band">
           <div>
             <h2 id="today-band">What is hardest today?</h2>
-            <p>Pick the hard moment, such as asking to go home or a restless late afternoon. Get three things to try, when to get help and one gentle activity, and keep private notes to print for an appointment.</p>
+            <p>Pick the hard moment, such as a restless late afternoon or a refusal to join in. Get three things to try, when to get help and one gentle activity, and keep private notes to print for an appointment.</p>
           </div>
           <a class="btn" href="/today/">Start with today</a>
         </aside>
       )}
+      {lang !== 'en' && (
       <aside class="home-research reveal">
         <div>
           <h2>{h.researchTitle}</h2>
@@ -238,6 +265,7 @@ const hubs =
         </div>
         <a class="btn" href={l('/brain-health/')}>{h.researchLink}</a>
       </aside>
+      )}
     </div>
   </section>
 

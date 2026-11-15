@@ -71,7 +71,7 @@ safety:
   - "Some songs bring back sad memories or people who have died. Pause, listen kindly, and offer another song or a break."
   - "Avoid songs with lyrics or associations that may upset them; follow their lead on what to play."
 stopNote: "It is fine to stop after one song. Leave the book open at that page, play something gentle, or simply sit and listen together for a while."
-guides: [activities/music, activities/reminiscence, activities/late-stage]
+guides: [creative-calm/music-for-calm-and-connection, activities/reminiscence, activities/late-stage]
 related: [draw-to-music, start-a-family-recipe-book, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15

@@ -73,7 +73,7 @@ safety:
   - "Choose items too large to swallow, and leave out pins, buttons or anything sharp."
   - "Use copies of photos or papers, and keep the originals somewhere safe."
 stopNote: "It is fine to stop after one side. Put the box and its paper aside, and carry on another day, or simply enjoy a few of the items together."
-guides: [activities/arts-and-crafts, activities/reminiscence, activities/ideas]
+guides: [crafts/easy-crafts-for-adults, activities/reminiscence, activities/ideas]
 related: [make-a-memory-collage, make-a-greeting-card, start-a-family-recipe-book]
 published: 2026-11-13
 updated: 2026-11-15
