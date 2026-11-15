@@ -64,7 +64,9 @@ Depends on: SEO-002, SEO-003.
 Risks / not doing: Do not treat R5's ranking as a forecast. Do not add a cluster because a competitor has one.
 
 ### SEO-002 · Replace the wrong-market demand data
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: query list and runbook drafted on 2026-11-14 (`docs/research/s1-query-list.csv`, 44 rows from research/05 section 6 with no volumes; `docs/research/search-baseline-runbook.md`). No US export exists yet; the only volume data is still the VND export. Open: the maintainer runs the US English Keyword Planner export, a contrasting market, Trends, and the SERP audit.
 
 Why: The current export cannot support any US or English decision [R5 §3.1]. Competition in that export is a Google Ads metric, not organic difficulty [SEO.md §1].
 
@@ -97,6 +99,8 @@ Risks / not doing: Do not add keywords to paths for their own sake [SEO.md §4.1
 
 ### SEO-004 · Search consoles and a measurement baseline
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: maintainer runbook for both consoles and the baseline method (`docs/research/search-baseline-runbook.md`, Part B). Not verified: no property verification or sitemap submission is confirmed. Check `site/redirect-www/` first, since it still names `dementiaactivities.games`.
 
 Why: No ranking or demand claim can be checked without Search Console and Bing data [SEO.md §11.2].
 
