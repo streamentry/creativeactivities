@@ -4,6 +4,7 @@ export type GameSlug =
   | 'picture-pairs'
   | 'find-the-same'
   | 'shadow-match'
+  | 'four-together'
   | 'sort-together'
   | 'picture-puzzle'
   | 'finish-the-saying'
@@ -179,6 +180,47 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'What happens if the wrong picture is tapped?',
         a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture that was tapped and waits for the next tap.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'four-together',
+    name: 'Four together',
+    seoTitle: 'Picture Grouping Game for Adults: Four Together',
+    h1: 'Four Together: a Calm Picture Grouping Game',
+    description:
+      'Some of the pictures share a theme, such as fruit or weather. Tap the ones that go together. A free, calm grouping game with no timer and no score.',
+    short: 'Find the pictures that go together, like fruit or weather.',
+    cardPictures: ['pear', 'cherries', 'lemon'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people',
+    printable: false,
+    intro:
+      'A small set of pictures, and some of them belong together: four kinds of fruit, perhaps, or four ways to travel. Tap the ones that share a theme. If a picture goes with something else, the game simply names it and waits. After a quiet pause a hint names the theme, and "Show the group" reveals the answer at any time.',
+    howTo: [
+      'Choose four, six or eight pictures. Four is the simplest, with three that go together.',
+      'Look at the pictures together and talk about what they have in common.',
+      'Tap each picture that belongs in the group. It gets a gold border and a check mark.',
+      'If a picture goes with something else, the game names it and waits. Take your time.',
+      'Tap "Show the group" whenever you like, then "Another set" for new pictures.',
+    ],
+    tips: [
+      'Say what you notice out loud: "These two are both things to eat."',
+      'There is no rush. A hint naming the theme appears after a pause, and you can ignore it.',
+      'Talk about the group once it is found: a favorite fruit, a train journey, the weather today.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What happens if a picture from outside the group is tapped?',
+        a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture, says it goes with something else, and waits for the next tap.',
+      },
+      {
+        q: 'What are the groups?',
+        a: 'Everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one group.',
       },
       FREE_FAQ,
     ],

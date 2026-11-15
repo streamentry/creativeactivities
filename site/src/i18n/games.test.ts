@@ -1,7 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { gameAvailable } from './games';
+import { FOUR_TOGETHER_REVIEWED, gameAvailable } from './games';
+import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
 describe('which games a language offers', () => {
@@ -20,6 +21,11 @@ describe('which games a language offers', () => {
 
   it('still leaves the word search out where a letter grid does not suit the script', () => {
     for (const code of NO_LETTER_GRID) expect(gameAvailable('word-search', code), code).toBe(false);
+  });
+
+  it('offers Four together only where its group names were reviewed, English for now', () => {
+    expect(FOUR_TOGETHER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('four-together', code), code).toBe(code === 'en');
   });
 
   it('leaves the word search out when a translation lacks enough usable words', () => {

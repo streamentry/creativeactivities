@@ -12,6 +12,7 @@ export const GAME_SLUGS = [
   'picture-pairs',
   'find-the-same',
   'shadow-match',
+  'four-together',
   'sort-together',
   'picture-puzzle',
   'finish-the-saying',

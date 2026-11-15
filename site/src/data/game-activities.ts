@@ -9,6 +9,7 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'picture-pairs': ['make-a-button-picture', 'make-a-color-collage'],
   'find-the-same': ['make-a-color-collage', 'make-a-button-picture'],
   'shadow-match': ['print-with-leaves', 'sketch-what-is-on-the-table'],
+  'four-together': ['sort-buttons-by-color', 'sort-a-box-of-postcards'],
   'sort-together': ['make-a-button-picture', 'arrange-flowers-together'],
   'picture-puzzle': ['tear-paper-mosaic', 'weave-paper-strips'],
   'finish-the-saying': ['make-a-personal-songbook', 'start-a-family-recipe-book'],

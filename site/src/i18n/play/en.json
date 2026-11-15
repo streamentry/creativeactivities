@@ -66,6 +66,19 @@
       "shadowAlt": "A shadow to match",
       "foundAlt": "The shadow of the {name|lower}"
     },
+    "fourTogether": {
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "found": "Yes, the {name|lower} belongs in this group.",
+      "elsewhere": "The {name|lower} goes with something else. Take your time.",
+      "hint": "A hint: look for {theme|lower}.",
+      "together": "These go together: {theme}.",
+      "shown": "Here is the group: {theme}.",
+      "groupName": "Together: {theme}",
+      "show": "Show the group",
+      "next": "Another set"
+    },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",
       "restart": "New pictures",
@@ -1372,6 +1385,17 @@
             "Out and about"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Animals",
+        "travel": "Ways to travel",
+        "flowers": "Flowers",
+        "hot-drinks": "Things for a hot drink",
+        "weather": "Kinds of weather",
+        "baked": "Things baked in an oven"
       }
     }
   }

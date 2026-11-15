@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 133 | 210 | 407 |
+| S2 | 64 | 134 | 209 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **173** | **283** | **533** |
+| **All** | **77** | **174** | **282** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -91,6 +91,14 @@ CI fix: the Website workflow failed on `b725286` because the finder's Tab walk p
 | `check-print` counted the weekly program as a card; it now checks only real cards | WEB-014 upkeep | 53 of 53 cards print as one two-sided sheet |
 
 Checks after batch 6: vitest 71 files, 2,928 pass; `astro build` 16,519 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Not re-run: `check:a11y` (the system disk filled during this batch; 2.3 GB free afterwards).
+
+### Batch 7 (2026-11-15)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Four together" at `/games/four-together/` (built by a subagent, reviewed): pick 4, 6 or 8 pictures from the shared library; three or four share a theme from seven hand-picked groups any reader would accept; a mismatch gently stays unselected ("goes with something else"); a hint names the theme after 20 seconds without progress; "Show the group" with no penalty; Rest from the shared frame. No score, timer or mistake count. English only (`FOUR_TOGETHER_REVIEWED`), because the spec requires per-language category review before launch | GAME-022 → partial (trademark check on the name, native category review, and the spec's "two or three of four" variant: this build uses 3 of 4 or 4 of 6/8) | vitest 2,935 pass; `tsc` clean; build 16,520 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 106 (13 games) |
+
+Known gap: the hint timer keeps counting while the game is resting.
 
 ## What blocks the rest
 

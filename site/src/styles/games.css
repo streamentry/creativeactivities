@@ -316,6 +316,17 @@
   opacity: 0.78;
 }
 
+/* Four together: the hint, then the group's name, above the board. Empty
+   until needed, but it keeps its line so the board never jumps. */
+.together__note {
+  min-height: 1.6em;
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-align: center;
+  color: var(--gm-on-surface);
+}
+
 /* Sorting baskets */
 .baskets {
   display: grid;

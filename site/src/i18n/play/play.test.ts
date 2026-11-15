@@ -8,6 +8,7 @@ import { COLORING_PAGES, PAINTS } from '../../data/coloring';
 import { PICTURES } from '../../data/pictures';
 import { TALK_THEME_ORDER } from '../../data/prompts';
 import { lettersOf, normalizeWord } from '../../lib/games/wordsearch';
+import { TOGETHER_THEMES } from '../../lib/games/together';
 
 type Tree = { [key: string]: unknown };
 
@@ -117,6 +118,12 @@ describe('playProps', () => {
     }
   });
 
+  it('names every Four together group in English, in plain words', () => {
+    const names = playProps('en', 'four-together').content.fourTogether.themes;
+    expect(Object.keys(names).sort()).toEqual(TOGETHER_THEMES.map((t) => t.id).sort());
+    for (const name of Object.values(names)) expect(name).not.toMatch(/remember|score|brain|memory|wrong/i);
+  });
+
   it('returns plain JSON, so Astro can pass it to the islands', () => {
     const props = playProps('en');
     expect(JSON.parse(JSON.stringify(props))).toEqual(props);
@@ -150,7 +157,7 @@ describe('component text keys', () => {
       [...text.matchAll(new RegExp(`\\b${root}\\.([A-Za-z]\\w*)`, 'g'))].map((m) => m[1] as string);
     const shared = (name: string) => Object.entries(sources).find(([f]) => f.endsWith(`/shared/${name}.tsx`))?.[1] ?? '';
     const pascal = (slug: string) => slug.replace(/(^|-)(\w)/g, (_, __, c: string) => c.toUpperCase());
-    expect(Object.keys(GAME_TEXT)).toHaveLength(12);
+    expect(Object.keys(GAME_TEXT)).toHaveLength(13);
     for (const [slug, need] of Object.entries(GAME_TEXT)) {
       const file = Object.entries(sources).find(([f]) => f.endsWith(`/games/${pascal(slug)}.tsx`));
       expect(file, slug).toBeDefined();

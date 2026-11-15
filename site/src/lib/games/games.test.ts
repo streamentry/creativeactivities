@@ -6,7 +6,20 @@ import { cellsOf, createWordSearch, lettersOf, normalizeWord, wordBetween, words
 import { createBingoCards } from './bingo';
 import { createSort, dropInBasket, isSorted, selectItem } from './sorting';
 import { SHADOW_IDS, createShadowRound } from './shadow';
-import { PICTURE_BY_ID } from '../../data/pictures';
+import {
+  TOGETHER_COUNTS,
+  TOGETHER_THEMES,
+  createTogetherRound,
+  groupSize,
+  isTogether,
+  showGroup,
+  startTogether,
+  tapResult,
+  tapTogether,
+} from './together';
+import { ACTIVITY_MATERIALS, PICTURE_BY_ID, PICTURES } from '../../data/pictures';
+import { ACTIVITY_RESULTS_A } from '../../data/picture-art/activity-results-a';
+import { ACTIVITY_RESULTS_B } from '../../data/picture-art/activity-results-b';
 
 describe('random', () => {
   it('shuffles a copy without touching the input', () => {
@@ -246,5 +259,76 @@ describe('shadow match', () => {
   it('uses only real pictures, leaving out shapes that read as blobs', () => {
     for (const id of SHADOW_IDS) expect(PICTURE_BY_ID.has(id)).toBe(true);
     for (const blob of ['bread', 'dog', 'lemon']) expect(SHADOW_IDS).not.toContain(blob);
+  });
+});
+
+describe('four together', () => {
+  const themeOf = (id: string) => TOGETHER_THEMES.filter((t) => t.pictures.includes(id)).map((t) => t.id);
+
+  it('builds a group from one theme and fills the rest from other themes, one each', () => {
+    for (let seed = 0; seed < 80; seed++) {
+      for (const count of TOGETHER_COUNTS) {
+        const round = createTogetherRound(count, createRng(seed));
+        expect(round.pictures).toHaveLength(count);
+        expect(new Set(round.pictures).size).toBe(count);
+        expect(round.group).toHaveLength(groupSize(count));
+        for (const id of round.group) {
+          expect(round.pictures).toContain(id);
+          expect(themeOf(id)).toEqual([round.theme]);
+        }
+        const others = round.pictures.filter((id) => !round.group.includes(id)).map((id) => themeOf(id)[0]);
+        expect(others).not.toContain(round.theme);
+        // One picture per other theme, so no second group can form.
+        expect(new Set(others).size).toBe(others.length);
+      }
+    }
+  });
+
+  it('does not repeat the last theme straight away', () => {
+    for (let seed = 0; seed < 50; seed++) {
+      const first = createTogetherRound(6, createRng(seed));
+      expect(createTogetherRound(6, createRng(seed + 1000), first.theme).theme).not.toBe(first.theme);
+    }
+  });
+
+  it('uses only general library drawings, each in exactly one theme', () => {
+    const results = new Set([...ACTIVITY_RESULTS_A, ...ACTIVITY_RESULTS_B, ...ACTIVITY_MATERIALS].map((p) => p.id));
+    const general = new Set(PICTURES.map((p) => p.id));
+    for (const theme of TOGETHER_THEMES) {
+      expect(theme.pictures.length, theme.id).toBeGreaterThanOrEqual(4);
+      for (const id of theme.pictures) {
+        expect(PICTURE_BY_ID.has(id), id).toBe(true);
+        expect(general.has(id), id).toBe(true);
+        expect(results.has(id), id).toBe(false);
+        expect(themeOf(id), id).toEqual([theme.id]);
+      }
+    }
+  });
+
+  it('leaves out pictures a reader could place in two themes', () => {
+    const all = TOGETHER_THEMES.flatMap((t) => t.pictures);
+    for (const id of ['bee', 'butterfly', 'tractor', 'balloon', 'vase-of-flowers', 'umbrella', 'straw-hat', 'kite']) {
+      expect(all, id).not.toContain(id);
+    }
+  });
+
+  it('keeps group pictures, lets any other tap change nothing, and shows the group without a penalty', () => {
+    const round = createTogetherRound(8, createRng(7));
+    let state = startTogether(round);
+    const other = round.pictures.find((id) => !round.group.includes(id))!;
+    expect(tapResult(state, other)).toBe('elsewhere');
+    expect(tapTogether(state, other)).toBe(state);
+    const first = round.group[0]!;
+    state = tapTogether(state, first);
+    expect(state.found).toEqual([first]);
+    expect(tapResult(state, first)).toBe('already');
+    expect(isTogether(state)).toBe(false);
+    for (const id of round.group) state = tapTogether(state, id);
+    expect(isTogether(state)).toBe(true);
+
+    const shown = showGroup(startTogether(round));
+    expect(shown.shown).toBe(true);
+    expect(isTogether(shown)).toBe(true);
+    expect(Object.keys(shown).sort()).toEqual(['found', 'round', 'shown']);
   });
 });
