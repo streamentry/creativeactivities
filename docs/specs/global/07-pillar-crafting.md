@@ -240,6 +240,7 @@ S2 and S4 totals must match [06 §6](06-content-library.md#6-target-library-size
 
 - **CNT-700 · MAKE taxonomy and rules.** P0 · S1 · exists (partial). This section 2 and the categories above. Acceptance: every MAKE card has a primary category, a materials list, two substitutions, a safety line and at least one seated or low-dexterity variation.
 - **CNT-701 to CNT-716 · Categories.** Priorities P1 for paper, painting, drawing, nature, recycled and card-making (largest existing content); P2 for the others. Phases: S1 maintain and tag; S2 grow to the targets in §2; S4 target as in §2.
+  Status partial. Evidence: category guide pages for paper (CNT-701), recycled (CNT-709) and seasonal (CNT-713) at `site/src/content/guides/crafts/` (`paper-crafts.md`, `recycled-crafts.md`, `seasonal-crafts.md`), written 2026-11-15 and unreviewed.
 - **CNT-720 · Substitutions program.** P0 · S1 · new. §4.
 - **CNT-721 · Shared adaptations list.** P0 · S1 · partial. §5.
 - **CNT-722 · Safety notes by risk.** P0 · S1 · new. §6. Feeds [14](14-trust-safety-accessibility-privacy.md).
