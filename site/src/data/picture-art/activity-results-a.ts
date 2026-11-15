@@ -419,7 +419,7 @@ export const ACTIVITY_RESULTS_A: readonly Picture[] = [
   },
   {
     id: 'memory-collage-of-photos',
-    name: 'Memory collage of photos',
+    name: 'Collage of family photos',
     category: 'home',
     bg: BG.cream,
     body: `
