@@ -13,7 +13,9 @@
   padding: var(--space-xl) var(--space-lg) var(--space-lg);
   background: var(--gm-surface);
   border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
-  border-radius: var(--radius-md);
+  /* Torn along the top: cut paper has no rounded corners and no top rule there. */
+  border-block-start: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--studio-shadow-sheet);
 }
 /* A sun sheet peeks out behind the card. z-index -1 keeps it under the text. */
@@ -25,7 +27,7 @@
   inset-inline-start: 10px;
   inset-inline-end: -6px;
   z-index: -1;
-  border-radius: var(--radius-md);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   background: var(--studio-sheet-under-alt);
   transform: rotate(0.9deg);
 }
@@ -105,7 +107,8 @@
   padding: var(--space-xl) var(--space-lg) var(--space-lg);
   background: var(--gm-surface);
   border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
-  border-radius: var(--radius-md);
+  border-block-start: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--studio-shadow-sheet);
 }
 /* The checkbox is drawn, so the list still reads with no colour. */
