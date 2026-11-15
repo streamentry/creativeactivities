@@ -66,7 +66,7 @@ A printed photograph from home can make a very good puzzle. Some print shops off
 
 ## Word puzzles and word search
 
-Word searches and simple crosswords with large print suit many people who enjoy words. Circle or highlight words in a bright color, and read the words aloud together. Choose a word list about a topic the person knows: fruit, flowers, cars, ships, towns. Skip timers. A word that stays unfound can be left for later, or you can point to it together.
+Word searches and simple crosswords with large print suit many people who enjoy words. Circle or highlight words in a bright color, and read the words aloud together. Choose a word list about a topic the person knows: fruit, flowers, cars, ships, towns. Skip timers. A word nobody finds can be left for later, or you can point to it together.
 
 The free [word search](/games/word-search/) on this site has no timer and no score.
 
