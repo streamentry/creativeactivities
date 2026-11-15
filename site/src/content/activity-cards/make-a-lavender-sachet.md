@@ -44,6 +44,8 @@ variations:
     text: "Use a bright fabric on a dark tray, and a thick, textured ribbon that is easy to find and grip."
   - kind: with-children
     text: "A child spoons and gathers the fabric while the older adult chooses the fabric and ties or holds the ribbon."
+  - kind: large-grip
+    text: "The helper ties the ribbon. The person holds the bundle in an open hand, so the fabric does not need to be pinched."
 images:
   - src: /pictures/lavender-sachet.svg
     alt: "Drawing of a blue fabric sachet tied at the top with a red ribbon and bow, with purple lavender stalks standing beside it."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for small parts, skin contact, heat."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

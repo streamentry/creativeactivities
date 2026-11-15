@@ -43,6 +43,8 @@ variations:
     text: "A child cuts and glues while the older adult chooses and tells the story behind each picture."
   - kind: nonverbal
     text: "Hold up two pictures and watch where their eyes or hand go. Pointing and nodding are full answers."
+  - kind: large-grip
+    text: "Use a large glue stick, or wrap a regular one in tape, and lift each picture in the whole hand. The helper can press down the edges."
 images:
   - src: /pictures/memory-collage-of-photos.svg
     alt: "Drawing of a sand-colored board with three photo prints, a yellow magazine piece and a red torn scrap, pinned at slight angles."
@@ -79,6 +81,8 @@ changes:
     note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

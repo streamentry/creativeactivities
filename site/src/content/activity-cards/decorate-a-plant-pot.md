@@ -43,6 +43,8 @@ variations:
     text: "A child paints the pot while the older adult chooses the plant and shows how to firm the soil."
   - kind: for-a-group
     text: "Each person decorates a pot and the group plants a row of herbs to share on a common windowsill."
+  - kind: large-grip
+    text: "Paint with a sponge or a wide foam brush held in the whole hand, or wrap the twine around the pot while the helper holds the end in place."
 images:
   - src: /pictures/painted-plant-pot.svg
     alt: "Drawing of a blue pot painted with yellow zigzags and white dots, with a green herb plant growing out of it."
@@ -80,6 +82,8 @@ changes:
     note: "Added labelled safety flags above the steps for skin contact, glue or tape, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

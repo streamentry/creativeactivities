@@ -44,6 +44,8 @@ variations:
     text: "Children gather and wash the stones, and everyone paints one to set out together in a row."
   - kind: for-a-group
     text: "Each person paints a stone and the group arranges them along a path or around a planter."
+  - kind: large-grip
+    text: "Use a sponge or a thick foam brush in place of a small brush, and hold it in the whole hand to dab on dots or stripes."
 images:
   - src: /pictures/painted-garden-stone.svg
     alt: "Drawing of a smooth grey stone painted with a pink flower and blue dots, resting in grass outdoors."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for skin contact, small parts."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

@@ -43,5 +43,5 @@ Integration checks: vitest 2,345 tests pass; `tsc` clean; `astro build` 15,732 p
 
 ## Known issues found while building (not S1 items)
 
-- No card has a large-grip variation, so the arthritis cluster has no card support yet.
+- Fixed (partly): 30 of 38 cards now have a `large-grip` variation, "Easier to grip" (2026-11-15). The text is unreviewed and needs a reviewer. Left as they are: six cards already at the six-variation cap (`arrange-flowers-together`, `decorate-a-keepsake-box`, `draw-to-music`, `make-a-texture-board`, `press-leaves-and-flowers`, `tear-paper-mosaic`), and two cards where gripping plays no part (`give-a-hand-massage`, `fold-towels-together`).
 - On phones the six-link header is ~265 px tall; the Start button sits just below the first screen. Changing that means changing the always-visible navigation, a design decision.

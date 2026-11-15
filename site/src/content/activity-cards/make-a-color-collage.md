@@ -41,6 +41,8 @@ variations:
     text: "Hold up two colors and watch where the eyes or hand go. Pointing and nodding are full answers."
   - kind: with-children
     text: "A child tears and glues the pieces while the older adult chooses where each one goes."
+  - kind: large-grip
+    text: "Use a large glue stick, or wrap a regular one in tape to make it thicker. Tear wide pieces so each one can be lifted in the palm."
 images:
   - src: /pictures/blue-torn-paper-collage.svg
     alt: "Drawing of a white card covered with torn pieces of blue paper in dark, mid and pale blue."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact, small parts."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 
