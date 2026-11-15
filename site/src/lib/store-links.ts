@@ -1,7 +1,8 @@
 import { SITE } from './site';
 
 /** Where on the website an install link sits; shows up as `utm_medium` in Play Console. */
-export type StorePlacement = 'home' |'game' | 'game-aside' | 'guide' | 'section' | 'app-page';
+export const STORE_PLACEMENTS = ['home', 'game', 'game-aside', 'guide', 'section', 'app-page'] as const;
+export type StorePlacement = (typeof STORE_PLACEMENTS)[number];
 
 /**
  * The Google Play listing tagged with Play's install referrer, so Play Console's

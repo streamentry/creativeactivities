@@ -187,7 +187,7 @@ Risks / not doing: Do not add a tool "to see" data before the inventory exists.
 
 ### TSA-012 · Event allowlist and no health data
 Priority P0 · Phase S1 · Status partial · Pillars: all
-Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`; payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed); the list is in `docs/specs/global/events.md`. Not done: the TSA-012 names `activity_view`, `activity_save`, `activity_share`, `app_cta_click` are not built; reason categories need a stigma review by a person; GTM's automatic form and click events (`gtm.formInteract`, `gtm.elementUrl`) sit outside the allowlist and need container settings changed by the maintainer.
+Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`, now with `activity_view`, `activity_save`, `activity_share` (activity key only) and `app_cta_click` (fixed store and placement); payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed, wiring to `ActivityView.astro` and `AppCta.astro` checked); the list is in `docs/specs/global/events.md`. Not done: `activity_started_confirmed` and `activity_not_a_fit` are sent (WEB-025, WEB-026) but reason categories need a stigma review by a person; GTM's automatic form and click events (`gtm.formInteract`, `gtm.elementUrl`) sit outside the allowlist and need container settings changed by the maintainer; the app-store click is counted before the store opens, so a click that leaves the page may not always be reported.
 
 Why: Health details in analytics are a serious privacy and legal risk [R5 §5.2]. The product must not infer a condition [MISSION].
 

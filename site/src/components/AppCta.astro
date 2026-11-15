@@ -24,8 +24,8 @@ const { title = t.title, text = t.text } = Astro.props;
       <h2>{title}</h2>
       <p class="small-print">{text}</p>
       <div class="app-cta-links">
-        <a class="btn btn--primary" href={SITE.appStoreUrl} rel="noopener"><Icon name="phone" />{t.appStoreShort}</a>
-        <a class="btn" href={playStoreUrl(placement)} rel="noopener"><Icon name="phone" />{t.googlePlayShort}</a>
+        <a class="btn btn--primary" href={SITE.appStoreUrl} rel="noopener" data-app-store="app_store" data-placement={placement}><Icon name="phone" />{t.appStoreShort}</a>
+        <a class="btn" href={playStoreUrl(placement)} rel="noopener" data-app-store="google_play" data-placement={placement}><Icon name="phone" />{t.googlePlayShort}</a>
       </div>
       <a class="small-print" href={localePath(lang, '/app/')}>{t.about}</a>
     </div>
@@ -36,8 +36,8 @@ const { title = t.title, text = t.text } = Astro.props;
         <p>{text}</p>
       </div>
       <div class="btn-row">
-        <a class="btn btn--primary btn--hero" href={SITE.appStoreUrl} rel="noopener"><Icon name="phone" />{t.appStore}</a>
-        <a class="btn" href={playStoreUrl(placement)} rel="noopener"><Icon name="phone" />{t.googlePlay}</a>
+        <a class="btn btn--primary btn--hero" href={SITE.appStoreUrl} rel="noopener" data-app-store="app_store" data-placement={placement}><Icon name="phone" />{t.appStore}</a>
+        <a class="btn" href={playStoreUrl(placement)} rel="noopener" data-app-store="google_play" data-placement={placement}><Icon name="phone" />{t.googlePlay}</a>
       </div>
     </section>
   )
@@ -117,3 +117,14 @@ const { title = t.title, text = t.text } = Astro.props;
     display: none;
   }
 </style>
+
+<script>
+  import { track } from '../lib/track';
+
+  // App store badges: one listener for every CTA on the page. Counts the click only (TSA-012).
+  document.addEventListener('click', (event) => {
+    const link = (event.target as Element | null)?.closest<HTMLAnchorElement>('a[data-app-store]');
+    if (!link) return;
+    track('app_cta_click', { store: link.dataset.appStore ?? '', placement: link.dataset.placement ?? '' });
+  });
+</script>

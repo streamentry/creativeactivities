@@ -22,10 +22,17 @@ Status: draft for maintainer review. Code: `site/src/lib/track.ts` (`EVENT_DICTI
 | `activity_feedback` | `answer` | `yes`, `not_really` | Answer to the game's "did it help" question |
 | `activity_started_confirmed` | `activity` | activity key (lowercase slug) | "We tried this" on an activity page (WEB-025). Once per activity per browser |
 | `activity_not_a_fit` | `activity`, `reason` | activity key; `reason` one of `too_messy`, `too_hard`, `needs_materials`, `not_interested`, `too_loud_or_busy`, `hard_to_read_or_use`, `other` | "This didn't fit" submitted on an activity page (WEB-026) |
+| `activity_view` | `activity` | activity key (lowercase slug) | An activity page loads. Once per page load, not on withdrawn pages (TSA-012) |
+| `activity_save` | `activity` | activity key (lowercase slug) | "Save for later" is turned on for an activity. Not sent when it is removed (TSA-012) |
+| `activity_share` | `activity` | activity key (lowercase slug) | The Share button is used on an activity page (TSA-012) |
+| `app_cta_click` | `store`, `placement` | `store`: `app_store`, `google_play`; `placement`: `home`, `game`, `game-aside`, `guide`, `section`, `app-page` | An app store badge is clicked. `placement` is where the box sat (the same value as the Play referrer's `utm_medium`) (TSA-012) |
 
-## Not yet sent (TSA-012 names that have no code yet)
+## Metrics for the new events
 
-`activity_view`, `activity_save`, `activity_share`, `app_cta_click` appear in TSA-012 but are not in the dictionary. Add each one here and in code together, with its metric, before it is wired.
+- `activity_view`, `activity_save`, `activity_share`: the activity's use and its save and share rates per card (MET-001 north-star support). A metric row in [17-metrics-and-evidence.md](17-metrics-and-evidence.md) is still to be written; no new event is wired without one.
+- `app_cta_click`: the app's acquisition from the website, by store and by where the box sat (PLAT-024). Clicks are counted in the page, before the store opens; a click that leaves the page may not always be reported.
+
+Save and share send the key only. Nothing about the list of saved activities, the person or the device is sent.
 
 ## Transport and the open decision
 

@@ -11,7 +11,12 @@
  *
  * Where Analytics is not loaded (Photo pairs), every call does nothing.
  */
+import { STORE_PLACEMENTS } from './store-links';
+
 const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+/** Which store badge was used in an app CTA (TSA-012). */
+export const APP_STORES = ['app_store', 'google_play'] as const;
 
 export const FEEDBACK_ANSWERS = ['yes', 'not_really'] as const;
 export type FeedbackAnswer = (typeof FEEDBACK_ANSWERS)[number];
@@ -40,6 +45,14 @@ export const EVENT_DICTIONARY = {
   activity_started_confirmed: { activity: { pattern: SLUG } },
   /** "This didn't fit": the activity key and a fixed reason. */
   activity_not_a_fit: { activity: { pattern: SLUG }, reason: { values: NOT_A_FIT_REASONS } },
+  /** An activity page loaded: the activity key only, once per page load (TSA-012). */
+  activity_view: { activity: { pattern: SLUG } },
+  /** "Save for later" turned on for an activity: the key only. */
+  activity_save: { activity: { pattern: SLUG } },
+  /** The Share button used on an activity page: the key only. */
+  activity_share: { activity: { pattern: SLUG } },
+  /** An app store badge clicked: which store, and where on the site it sat (TSA-012). */
+  app_cta_click: { store: { values: APP_STORES }, placement: { values: STORE_PLACEMENTS } },
 } satisfies Record<string, Record<string, ParamRule>>;
 
 export type ActivityEvent = keyof typeof EVENT_DICTIONARY;
