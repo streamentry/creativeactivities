@@ -68,7 +68,7 @@ safety:
   - "Keep the album on a steady surface so it cannot slide off a lap or tray."
   - "Check photos for addresses or other private details before showing them to visitors or sharing them online."
 stopNote: "It is fine to stop after one page. Close the album, leave it on the table, and talk about something else or sit quietly together."
-guides: [activities/reminiscence, activities/late-stage, activities/visiting]
+guides: [activities/reminiscence, activities/late-stage, together/visiting-someone-in-care]
 related: [make-a-memory-collage, make-a-photo-postcard, start-a-family-recipe-book]
 published: 2026-11-14
 updated: 2026-11-15

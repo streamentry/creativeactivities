@@ -119,6 +119,19 @@ export function guideIdOfPath(path: string): string | null {
 }
 
 /**
+ * The English address to show for a path: the redirect target when the page is
+ * a retired English guide or section, otherwise the path itself. Translated pages
+ * use it for their "read the original" link.
+ */
+export function englishPathFor(path: string): string {
+  const id = guideIdOfPath(path);
+  if (id !== null && isRetiredGuide(id)) return RETIRED_GUIDES[id] ?? path;
+  const section = /^\/([a-z-]+)\/$/.exec(path)?.[1];
+  if (section !== undefined && isRetiredSection(section)) return RETIRED_SECTIONS[section] ?? path;
+  return path;
+}
+
+/**
  * The Cloudflare `_redirects` lines for every retired English address, with
  * and without the trailing slash so no visitor goes through two redirects.
  */

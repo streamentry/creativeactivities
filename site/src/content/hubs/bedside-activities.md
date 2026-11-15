@@ -20,7 +20,7 @@ faq:
     a: "Mostly no. A clipboard, a lap tray, a glue stick and paper cover most of these cards. Keep materials simple and wipe-clean where you can."
   - q: "Can these be done in a hospital bed?"
     a: "Often yes, once the person is sitting up with support. Check with the nurse or care team first, especially about positioning, swallowing and infection control."
-guides: [activities/late-stage, activities/sensory, activities/music, caregiving/hospital-visit-with-dementia, caregiving/how-to-play-together]
+guides: [activities/late-stage, creative-calm/sensory-activities-for-adults, creative-calm/music-for-calm-and-connection, together/visiting-someone-in-care, caregiving/how-to-play-together]
 related: [activities-for-seniors, arts-and-crafts-for-seniors, seated-activities]
 published: 2026-11-13
 updated: 2026-11-13
@@ -62,10 +62,10 @@ The person chooses the color, the song, the photo or the word. The helper cuts, 
 - [Write a letter together](/activity/write-a-letter-together/): you hold the pen and they say the words.
 - [Sketch what is on the table](/activity/sketch-what-is-on-the-table/): they look at a cup or a brush and say where the line should go.
 
-For a person who is very late in the illness, the [late-stage guide](/activities/late-stage/) explains how to offer choices without pressure. If music is a strong way in, the [music activities guide](/activities/music/) has more ideas to try in bed.
+For a person who is very late in the illness, the [late-stage guide](/activities/late-stage/) explains how to offer choices without pressure. If music is a strong way in, the [music activities guide](/creative-calm/music-for-calm-and-connection/) has more ideas to try in bed.
 
 ## How do you keep the bed and materials clean and safe?
 
 Wash your hands before and after each session, and again after tissues or bedding. Keep the work on a clipboard or tray rather than on the blanket. Keep beads, buttons, seeds and loose glitter off the bed, and put scissors away when the session ends. Keep liquid glue and hot drinks well away from the tray.
 
-Prepare pieces before you come to the bedside. A [texture board](/activity/make-a-texture-board/) is easier when the glue is already dry and the person only explores it by touch. The [sensory activities guide](/activities/sensory/) has more ideas for touch and sound that suit a bed.
+Prepare pieces before you come to the bedside. A [texture board](/activity/make-a-texture-board/) is easier when the glue is already dry and the person only explores it by touch. The [sensory activities guide](/creative-calm/sensory-activities-for-adults/) has more ideas for touch and sound that suit a bed.

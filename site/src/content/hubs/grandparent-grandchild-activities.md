@@ -20,7 +20,7 @@ faq:
     a: "That is fine. Let the child ask a question about the story, or say 'tell me more,' and enjoy it again. The activity is about time together, not about getting it right."
   - q: "How long should a visit last?"
     a: "Plan for 15 to 30 minutes of making, then something easy like a snack or a walk. Stop while both of them still want to continue, if you can."
-guides: [caregiving/talking-to-children-about-dementia, activities/visiting, activities/phone-and-video-calls, activities/reminiscence, activities/pen-pals-for-older-adults]
+guides: [caregiving/after-dementia-diagnosis, together/visiting-someone-in-care, together/staying-connected-from-afar, activities/reminiscence, activities/pen-pals-for-older-adults]
 related: [activities-for-seniors, arts-and-crafts-for-seniors]
 published: 2026-11-13
 updated: 2026-11-13
@@ -48,7 +48,7 @@ Treat the grandparent as an adult with a role, never as a second child. Ask thei
 
 Use simple, honest words before the visit. Say what is different and what stays the same. A child might be told that Grandpa may forget a name or tell the same story again, and that he still enjoys company. Children do better with a clear fact and a clear job than with a long explanation.
 
-It helps to ask the child for a small part of the story, not a test. Invite them to ask, "What was it like when you were young?" Avoid quizzing, such as asking whether the grandparent remembers something. The [talking to children about dementia guide](/caregiving/talking-to-children-about-dementia/) covers this in more detail. The [reminiscence guide](/activities/reminiscence/) has more open questions to try.
+It helps to ask the child for a small part of the story, not a test. Invite them to ask, "What was it like when you were young?" Avoid quizzing, such as asking whether the grandparent remembers something. The [talking to children about dementia guide](/caregiving/after-dementia-diagnosis/) covers this in more detail. The [reminiscence guide](/activities/reminiscence/) has more open questions to try.
 
 ## How do you keep both safe and comfortable?
 
@@ -58,4 +58,4 @@ When one of them has had enough, do not push. Say what is finished and what can 
 
 ## How can you keep the connection going between visits?
 
-The craft does not have to stop when the visit ends. Mail the postcard or letter, or set a phone call for the same time each week. The [visiting guide](/activities/visiting/), the [phone and video calls guide](/activities/phone-and-video-calls/) and the [pen pals guide](/activities/pen-pals-for-older-adults/) have ideas for keeping the link going when you cannot be together.
+The craft does not have to stop when the visit ends. Mail the postcard or letter, or set a phone call for the same time each week. The [visiting guide](/together/visiting-someone-in-care/), the [phone and video calls guide](/together/staying-connected-from-afar/) and the [pen pals guide](/activities/pen-pals-for-older-adults/) have ideas for keeping the link going when you cannot be together.

@@ -93,4 +93,4 @@ Waiting for a referral does not mean nothing can happen. Creative activities at 
 - [Make a greeting card](/activity/make-a-greeting-card/) for someone you both know.
 - [Arrange flowers together](/activity/arrange-flowers-together/) in a jar on the table.
 
-For more ideas that suit different stages, see our [arts and crafts guide](/activities/arts-and-crafts/). For a plain explanation of the difference between art therapy and a creative activity, read [art therapy or a creative activity](/activities/art-therapy-or-creative-activity/). Caring for someone takes energy too, so make time for your own rest. See our [caregiver self-care guide](/caregiving/caregiver-self-care/).
+For more ideas that suit different stages, see our [arts and crafts guide](/crafts/easy-crafts-for-adults/). For a plain explanation of the difference between art therapy and a creative activity, read [art therapy or a creative activity](/activities/art-therapy-or-creative-activity/). Caring for someone takes energy too, so make time for your own rest. See our [caregiver self-care guide](/creative-calm/creative-self-care-for-caregivers/).

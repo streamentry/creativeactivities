@@ -68,7 +68,7 @@ safety:
   - "Torn paper edges can nick fingers. Check hands at the end, and wipe glue from the fingers."
   - "Keep small pieces of paper away from the mouth."
 stopNote: "It is fine to stop after a handful of pieces. Leave the card on the table where it is easy to see, and carry on another time or simply enjoy the color."
-guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
+guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas]
 related: [make-a-memory-collage, tear-paper-mosaic, weave-paper-strips]
 published: 2026-11-13
 updated: 2026-11-15

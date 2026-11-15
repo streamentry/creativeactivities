@@ -71,7 +71,7 @@ safety:
   - "There are no wrong answers. If amounts or steps sound unusual, write them as told rather than correcting them."
   - "If you later cook a recipe together, check for allergies, swallowing needs and diet advice first."
 stopNote: "It is fine to stop after a single dish name. Close the book, leave it somewhere easy to find, and offer to add another page on a different day."
-guides: [activities/reminiscence, activities/conversation-games, activities/ideas]
+guides: [activities/reminiscence, together/conversation-games-for-all-ages, activities/ideas]
 related: [make-a-memory-collage, make-a-personal-songbook, make-a-family-tree-of-hands, make-a-greeting-card]
 published: 2026-11-13
 updated: 2026-11-15

@@ -68,7 +68,7 @@ safety:
   - "Some songs bring back sad memories. Pause, listen kindly, and offer another song or a break."
   - "Turn off autoplay video and ads before you start, so the music does not change to something unexpected."
 stopNote: "It is fine to stop after one or two songs. Leave the card as it is, play something gentle, or simply sit and listen together for a while."
-guides: [activities/music, activities/phone-and-video-calls, activities/late-stage]
+guides: [creative-calm/music-for-calm-and-connection, together/staying-connected-from-afar, activities/late-stage]
 related: [draw-to-music, make-a-personal-songbook, tap-a-rhythm-together]
 published: 2026-11-14
 updated: 2026-11-15

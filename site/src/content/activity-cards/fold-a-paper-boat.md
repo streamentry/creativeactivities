@@ -68,7 +68,7 @@ safety:
   - "Mop up spills straight away so the floor does not become slippery."
   - "Paper edges can give small cuts; fold with the flat of the hand if skin is fragile."
 stopNote: "It is fine to stop halfway. A folded triangle is a paper hat, which is a fine result on its own, and you can finish the boat another day or not at all."
-guides: [activities/arts-and-crafts, activities/for-men, activities/ideas]
+guides: [crafts/easy-crafts-for-adults, activities/ideas]
 related: [make-a-paper-chain-garland, make-a-greeting-card, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15

@@ -19,7 +19,7 @@ faq:
     a: "Choose a dry, mild day and a shaded spot, bring water and a hat, and keep a phone nearby. For soil and tools, check footing and balance first, and sit the person down for any kneeling or reaching."
   - q: "What if the group is too loud or tiring for one person?"
     a: "Split into pairs, or let one person choose the colors while another does the work. A quiet task with one helper still counts as joining in, and the group can carry on without them."
-guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/ideas, caregiving/how-to-play-together]
+guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, activities/ideas, caregiving/how-to-play-together]
 related: [seated-activities, arts-and-crafts-for-seniors, bedside-activities, grandparent-grandchild-activities]
 published: 2026-11-13
 updated: 2026-11-15
@@ -55,4 +55,4 @@ A group works best when each person has a part that suits them, and when nobody 
 
 For a week-long project, try [plant seeds in a pot](/activity/plant-seeds-in-a-pot/) and check on it each day. For a walk and a hanging task, try [make a pine cone bird feeder](/activity/make-a-pine-cone-bird-feeder/). For an afternoon with several people, [paint a shared picture](/activity/paint-a-shared-picture/) gives everyone a mark to make. For a short standing job, [fold towels together](/activity/fold-towels-together/) keeps the hands busy.
 
-For more on pacing and what to do when something is too hard, read [how to play together](/caregiving/how-to-play-together/). The [outdoor and gardening guide](/activities/outdoor-and-gardening/) has more ideas for work outside, and the [activity ideas guide](/activities/ideas/) lists more options by type.
+For more on pacing and what to do when something is too hard, read [how to play together](/caregiving/how-to-play-together/). The [outdoor and gardening guide](/together/outdoor-and-garden-activities/) has more ideas for work outside, and the [activity ideas guide](/activities/ideas/) lists more options by type.

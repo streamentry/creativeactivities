@@ -21,7 +21,7 @@ faq:
     a: "Accept it kindly and try another day, or try a different activity. Sitting nearby while you make a card, or listening to a song together, can be a full part of the visit."
   - q: "What if the person becomes upset or frustrated?"
     a: "Stop, lower the pressure and offer a drink or a rest. Each card has a stop note. Do not correct mistakes, and do not ask questions to see what the person can recall."
-guides: [caregiving/how-to-play-together, caregiving/communication-tips, caregiving/late-day-restlessness, caregiving/when-they-say-no, activities/reminiscence, caregiving/caregiver-self-care]
+guides: [caregiving/how-to-play-together, caregiving/after-dementia-diagnosis, creative-calm/calm-afternoon-activities, caregiving/when-they-say-no, activities/reminiscence, creative-calm/creative-self-care-for-caregivers]
 related: [activities-for-seniors, seated-activities, bedside-activities]
 published: 2026-11-14
 updated: 2026-11-14
@@ -43,14 +43,14 @@ A good activity fits the person's interests and energy. Familiar materials help:
 
 ## How do you handle a hard moment?
 
-Watch for restlessness, pulling away or raised voices. Lower the pressure at once: pause the activity, offer something to drink, dim a bright light or put the materials away. The [late-day restlessness guide](/caregiving/late-day-restlessness/) and the [when they say no guide](/caregiving/when-they-say-no/) have more on what to try next. If there is a risk of harm, follow the person's care plan and get help.
+Watch for restlessness, pulling away or raised voices. Lower the pressure at once: pause the activity, offer something to drink, dim a bright light or put the materials away. The [late-day restlessness guide](/creative-calm/calm-afternoon-activities/) and the [when they say no guide](/caregiving/when-they-say-no/) have more on what to try next. If there is a risk of harm, follow the person's care plan and get help.
 
 ## How do you talk while you make something?
 
-Use short sentences and simple choices, such as "this one or that one?" Give the person time to answer. Avoid quizzes, corrections and questions that test what they know. The [communication tips guide](/caregiving/communication-tips/) explains how to keep conversation easy, and the [reminiscence guide](/activities/reminiscence/) explains why talking about the past can be a warm way in.
+Use short sentences and simple choices, such as "this one or that one?" Give the person time to answer. Avoid quizzes, corrections and questions that test what they know. The [first steps after a diagnosis](/caregiving/after-dementia-diagnosis/) explains how to keep conversation easy, and the [reminiscence guide](/activities/reminiscence/) explains why talking about the past can be a warm way in.
 
 ## How is this hub different from the others?
 
 The [seated activities](/seated-activities/) hub is for any person who can sit up at a table or in a chair, whatever their diagnosis or history. The [bedside activities](/bedside-activities/) hub is for someone who stays in bed. This hub is about shared, low-pressure moments at home, so it leans on familiar materials, personal stories and calm, short sessions.
 
-Caring for someone takes energy too. The [caregiver self-care guide](/caregiving/caregiver-self-care/) is for you, and it is as much a part of the plan as any card.
+Caring for someone takes energy too. The [caregiver self-care guide](/creative-calm/creative-self-care-for-caregivers/) is for you, and it is as much a part of the plan as any card.

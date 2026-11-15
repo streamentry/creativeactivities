@@ -67,7 +67,7 @@ safety:
   - "Keep towels away from stove burners, space heaters and open flames."
   - "Stay with the person while they fold, and remove any pin or button before it can be dropped or swallowed."
 stopNote: "It is fine to stop after one towel. Leave the rest in the basket, or stack what is folded and sit together for a while."
-guides: [activities/household-tasks, activities/sensory, activities/late-stage]
+guides: [activities/ideas, creative-calm/sensory-activities-for-adults, activities/late-stage]
 related: [wind-a-ball-of-yarn, give-a-hand-massage, make-a-lavender-sachet]
 published: 2026-11-14
 updated: 2026-11-15
