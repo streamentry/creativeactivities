@@ -51,6 +51,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/sketch-materials.svg
+    alt: "A blue mug, a yellow pencil and a sheet of plain paper on a table."
+    caption: "What you need: one simple object to draw, plain paper and a soft pencil."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [allergen, ingestion]
 safety:
   - "If the object is a plant, check that it is not poisonous or an allergen, and do not let anyone taste it."

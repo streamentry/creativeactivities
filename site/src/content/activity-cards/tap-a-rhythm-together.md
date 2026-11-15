@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/rhythm-materials.svg
+    alt: "Phone playing a song, a red hand drum, a mustard tambourine and a pair of wooden blocks on a table."
+    caption: "What you need: a song with a steady beat, a drum or blocks, and a table to tap on."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts]
 safety:
   - "Keep taps gentle and stop if the hands or wrists hurt. Offer a softer surface or a slower song instead."

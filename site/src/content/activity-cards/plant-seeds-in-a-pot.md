@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/seed-pot-materials.svg
+    alt: "Terracotta pot on a saucer, a brown bag of potting mix and three large seeds on a table."
+    caption: "What you need: a pot with a saucer, potting mix and large seeds."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion, small-parts, fall-risk]
 safety:
   - "Wear gloves or wash hands after handling potting mix; it can contain bacteria and fungi, and some mixes include fertilizer."

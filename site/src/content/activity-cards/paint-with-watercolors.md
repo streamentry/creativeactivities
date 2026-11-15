@@ -54,6 +54,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/watercolor-materials.svg
+    alt: "Watercolor box with eight colored pans, two brushes and a sheet of paper with blue, pink and yellow washes."
+    caption: "What you need: a water-based watercolor set, two brushes and thick paper."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [ingestion, skin-contact, water]
 safety:
   - "Use only non-toxic, water-based paint, and keep the painting water separate from any drinking cups."

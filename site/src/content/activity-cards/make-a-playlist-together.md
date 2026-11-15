@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/playlist-materials.svg
+    alt: "Drawing of a phone, a small paper card and a thick red marker lying on a table."
+    caption: "What you need: a phone or player with songs, a card and a thick pen."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Set the volume low and check it with them. Sudden loud music can startle or hurt."

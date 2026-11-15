@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/pressing-materials.svg
+    alt: "Flat leaves and a small pink flower on a table, beside a heavy blue book with a brick on top."
+    caption: "What you need: flat leaves and flowers, a heavy book and a brick for weight."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [allergen, ingestion, skin-contact, small-parts, fall-risk]
 safety:
   - "Some plants are toxic or irritate skin, such as foxglove, poison ivy and giant hogweed. Check every plant you pick and wash hands afterward."

@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/yarn-materials.svg
+    alt: "A loop of soft mustard yarn beside a tan basket on a table."
+    caption: "What you need: a skein of soft, chunky yarn and a small bowl or basket."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [fall-risk, skin-contact]
 safety:
   - "Loose yarn is a trip and tangle hazard. Keep it in a basket and gather it up before anyone stands or walks."

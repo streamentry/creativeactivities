@@ -52,6 +52,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/letter-materials.svg
+    alt: "Ruled notepaper, a blue pen, and a white envelope with a blue stamp on a table."
+    caption: "What you need: notepaper, a pen that is easy to grip, and an envelope and stamp."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [ingestion, allergen, skin-contact, adhesive]
 safety:
   - "Never write bank details, passwords or PINs in a letter. Check the address before sealing the envelope."
