@@ -11,10 +11,13 @@
     "build": "astro build",
     "preview": "wrangler dev",
     "check:site": "node scripts/check-site.mjs",
+    "check:budget": "node scripts/check-budget.mjs",
+    "check:print": "node scripts/check-print.mjs",
+    "check:a11y": "node scripts/a11y-check.mjs",
     "check:live": "node scripts/verify-live-legal.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "test": "vitest run",
-    "verify": "vitest run && astro build && node scripts/check-site.mjs",
+    "verify": "vitest run && astro build && node scripts/check-site.mjs && node scripts/check-budget.mjs",
     "deploy": "astro build && node scripts/check-site.mjs && wrangler deploy"
   },
   "dependencies": {
@@ -37,6 +40,7 @@
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "axe-core": "4.14.0",
+    "playwright": "1.56.1",
     "typescript": "6.0.3",
     "vitest": "5.0.4",
     "wrangler": "4.151.1"
