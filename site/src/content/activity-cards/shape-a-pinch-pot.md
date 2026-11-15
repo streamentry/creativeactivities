@@ -41,6 +41,16 @@ variations:
     text: "Guide the clay with your hands over theirs, and watch for any sign they want to keep going or stop."
   - kind: low-vision
     text: "Choose a dark clay and work on a white tray so the shape stands out, and describe the shape aloud as you press."
+images:
+  - src: /pictures/pinch-pot-clay-bowl.svg
+    alt: "Drawing of a small clay bowl with thumb marks in its sides, next to a spare ball of clay on a cloth."
+    caption: "The finished pot, shaped with thumbs and ready to dry for a day or two."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [ingestion, skin-contact]
 safety:
   - "Use non-toxic air-dry clay, and keep clay and fingers away from the mouth."

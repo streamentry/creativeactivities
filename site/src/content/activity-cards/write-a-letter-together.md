@@ -42,6 +42,16 @@ variations:
     text: "Use a dark felt-tip marker on large, plain paper, and read each line aloud as you write it."
   - kind: with-children
     text: "A child writes the greeting and adds a drawing while the older adult says what to put in the letter."
+images:
+  - src: /pictures/letter-and-envelope.svg
+    alt: "Drawing of a folded letter standing out of an envelope with ruled lines and a blue stamp on the corner."
+    caption: "The finished letter, folded and ready to post or hand over in person."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [ingestion, allergen, skin-contact, adhesive]
 safety:
   - "Never write bank details, passwords or PINs in a letter. Check the address before sealing the envelope."

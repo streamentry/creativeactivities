@@ -40,6 +40,16 @@ variations:
     text: "Choose a soft, gentle song and tap with a flat hand rather than a drum. Keep the room quiet and the volume low."
   - kind: with-children
     text: "A child leads with quick taps on a drum and the older adult follows, then the roles swap so each takes a turn."
+images:
+  - src: /pictures/drum-with-beat-marks.svg
+    alt: "Drawing of a red drum with white lacing, two sticks resting on its head and curved marks showing the beat."
+    caption: "The drum and sticks, with sound marks showing the beat being tapped together."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts]
 safety:
   - "Keep taps gentle and stop if the hands or wrists hurt. Offer a softer surface or a slower song instead."

@@ -45,6 +45,16 @@ variations:
     text: "Use a bold, thick outline on pale card and strongly contrasting colors, such as dark blue on yellow."
   - kind: with-children
     text: "A child tears and sorts the pieces by color while the grandparent chooses where each one goes. Small pieces stay on the table."
+images:
+  - src: /pictures/torn-paper-flower.svg
+    alt: "Drawing of a flower built from small torn pieces of pink, red, orange and yellow paper, with paper showing in the gaps."
+    caption: "The finished mosaic, with no two pieces placed the same way."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Keep small torn pieces away from anyone who may put paper in their mouth, and clear them away afterward."

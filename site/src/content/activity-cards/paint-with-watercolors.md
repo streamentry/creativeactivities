@@ -44,6 +44,16 @@ variations:
     text: "Paint a sheet each, side by side, then swap and add a color to each other's painting."
   - kind: nonverbal
     text: "Hold up two paint colors and wait for a look, a reach or a nod. That choice is the whole conversation."
+images:
+  - src: /pictures/watercolor-washes-sheet.svg
+    alt: "Drawing of a sheet of paper with soft overlapping blue, pink, yellow and green washes, a paint tray and a brush."
+    caption: "A finished wash painting, where the colors run and blend into one another."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [ingestion, skin-contact, water]
 safety:
   - "Use only non-toxic, water-based paint, and keep the painting water separate from any drinking cups."

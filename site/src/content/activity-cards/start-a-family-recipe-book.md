@@ -43,6 +43,16 @@ variations:
     text: "Write in large, dark letters on unlined paper, one ingredient per line, and read each line aloud as you go."
   - kind: nonverbal
     text: "Show pictures of foods and let them point to favorites. Write down what they chose, in their own book."
+images:
+  - src: /pictures/family-recipe-book.svg
+    alt: "Drawing of a red hardbound recipe book with a blank label, a blue ribbon marker and a ruled recipe card leaning in front."
+    caption: "The finished book, with the first page written and kept on the shelf."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [heat, allergen]
 safety:
   - "This is a writing and talking activity, not cooking. Keep it away from a hot stove or oven, and do not test recipes during the session."

@@ -42,6 +42,16 @@ variations:
     text: "Each person prints a leaf on one shared sheet, arranged as a wreath or a line."
   - kind: with-children
     text: "A child paints the leaf and the grandparent presses it down and lifts it, then swap. Choose the colors together."
+images:
+  - src: /pictures/printed-leaves-sheet.svg
+    alt: "Drawing of a sheet of paper with leaf prints in green, orange, plum and mustard, showing pale veins, and one leaf lifted off."
+    caption: "The finished prints, with the pale veins of each leaf left on the paper."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [allergen, ingestion, skin-contact]
 safety:
   - "Check every leaf before handling. Avoid poison ivy, poison oak and sumac, and check for allergies."
