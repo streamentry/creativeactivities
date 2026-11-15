@@ -63,6 +63,15 @@ const headerRules = existsSync(join(DIST, '_headers'))
 const strictPolicy = (urlPath) =>
   headerRules.some((r) => r.pattern.test(urlPath) && /connect-src 'self';/.test(r.headers) && !/google/.test(r.headers));
 
+// TSA-041: the header policy must not allow scripts with 'unsafe-inline', and every
+// inline script hash that Astro writes into a page's meta CSP must also be listed in
+// the header, because browsers apply both policies and the header would block it.
+const sitePolicy = headerRules.find((r) => r.pattern.test('/'))?.headers.match(/Content-Security-Policy: ([^\n]*)/)?.[1] ?? '';
+const siteScripts = sitePolicy.match(/script-src [^;]*/)?.[0] ?? '';
+if (!sitePolicy) err('_headers', 'no Content-Security-Policy on the site-wide rule');
+if (/'unsafe-inline'/.test(siteScripts)) err('_headers', "script-src allows 'unsafe-inline'");
+const headerScriptHashes = new Set(siteScripts.match(/'sha256-[^']+'/g) ?? []);
+
 // Words a translation must not use for people living with dementia ("patients"):
 // errors where a language has been cleaned, warnings where it has not.
 const PATIENT_WORDS = {
@@ -147,6 +156,9 @@ for (const file of htmlFiles) {
   }
   if (!is404) descriptions.set(langKey + desc, [...(descriptions.get(langKey + desc) ?? []), rel]);
 
+  const pageCsp = html.match(/<meta http-equiv="content-security-policy" content="([^"]*)"/i)?.[1] ?? '';
+  const missingHash = (pageCsp.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
+  if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 

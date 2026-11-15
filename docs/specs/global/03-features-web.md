@@ -520,7 +520,9 @@ Risks / not doing: Collection names can contain personal information. The screen
 
 ### WEB-029 · Data control on the device
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status exists · Pillars: all
+
+Evidence: `/your-data/` page (`site/src/pages/your-data.astro`) with per-item and all-at-once download and delete, a confirmation step and a role=status message. Logic and tests: `site/src/lib/your-data.ts` and `site/src/lib/your-data.test.ts`. The list is server-rendered; the buttons need JavaScript.
 
 Why: "Provide deletion controls where personal data exists" ([MISSION, "Privacy"](../../../MISSION.md)). Local collections, feedback drafts and display settings are personal data on the device.
 

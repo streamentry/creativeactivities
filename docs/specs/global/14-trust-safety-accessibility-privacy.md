@@ -171,7 +171,9 @@ Depends on: [business model](16-business-model.md).
 Risks / not doing: Do not add an account to enable sharing without a separate decision and a free path.
 
 ### TSA-011 · Data and tracker inventory
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `docs/specs/global/data-inventory.md` lists every storage key, cookie, event and outside origin in the website and app; `site/src/lib/data-inventory.test.ts` fails on any unlisted one. Maintainer sign-off and the GTM/GA4 decision are open (section 6).
 
 Why: Nobody can promise minimal data without a list. The web SEO strategy refers to GA4, while DESIGN §7 forbids third-party trackers, so the live state is unknown.
 
@@ -246,7 +248,9 @@ Depends on: [app features](04-features-app.md).
 Risks / not doing: Do not add cloud sync for photos without a separate privacy review and an explicit opt-in.
 
 ### TSA-016 · Retention, deletion and data requests
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: draft `docs/legal/retention-and-data-requests.md` (schedule, deletion routes, request log, owner TBD). Draft only; not approved, not in the privacy notice. Manual deletion runs not yet done.
 
 Why: Where personal data exists, people need controls [MISSION, "Privacy"].
 
@@ -647,6 +651,8 @@ Risks / not doing: Do not rely on this summary as legal advice.
 ### TSA-041 · Security headers and content security policy
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: `site/src/lib/security-headers.test.ts`; `site/public/_headers` drops `unsafe-inline` from script-src (19 build hashes listed, checked by `site/scripts/check-site.mjs`); live headers read 2026-11-15 in `docs/specs/global/security-scans.md`. Re-scan after deploy; style-src still needs `unsafe-inline`.
+
 Why: A public site is a target, and the headers are cheap protection. The user's security rule requires a production CSP and listed headers.
 
 What: Check `site/public/_headers` against the target headers: HTTPS with HSTS, `X-Content-Type-Options: nosniff`, frame protection, a strict `Referrer-Policy`, a `Permissions-Policy` that denies camera, microphone and geolocation, and a CSP. The CSP uses only the origins the site needs. For a static site, a hash-based CSP may fit better than per-request nonces. Choose one with the build team.
@@ -660,7 +666,9 @@ Depends on: TSA-042.
 Risks / not doing: Do not copy a CSP block unchanged. Adjust it to the site.
 
 ### TSA-042 · Third-party scripts, fonts and subresource integrity
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: fonts self-hosted (19 files in `dist/fonts`, no Google Fonts request); the one external script (GTM loader) has no SRI, reason recorded in `site/src/lib/data-inventory.test.ts` and `docs/specs/global/security-scans.md`. GTM on every page is an open maintainer decision.
 
 Why: Third-party scripts add risk and slow pages [DESIGN §7; user's security rule].
 
@@ -674,7 +682,9 @@ Depends on: TSA-011, TSA-041.
 Risks / not doing: Do not load a script for a feature that is not yet built.
 
 ### TSA-043 · Secrets and dependencies
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/secrets.test.ts` scans all tracked files and signing-file names (no matches); `pnpm audit --prod` reported in `docs/specs/global/security-scans.md` (astro 7.4.0, patch upgrade recommended, not applied). Secret-manager storage and per-release scans need the maintainer.
 
 Why: Leaked keys and vulnerable packages are common failure paths.
 
@@ -731,7 +741,9 @@ Depends on: TSA-035, TSA-046.
 Risks / not doing: Do not wait for a full review before a warning goes up.
 
 ### TSA-046 · Privacy and security breach process
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: draft `docs/legal/breach-response-plan.md` (steps, owners TBD, log, templates marked not reviewed by counsel). Tabletop exercise not yet run.
 
 Why: Data breaches have statutory notice rules. Under GDPR, a notifiable breach must be reported to the supervisory authority within 72 hours where required (general knowledge; verify with counsel).
 
@@ -765,6 +777,8 @@ Risks / not doing: Do not route safety reports into a general feedback box.
 
 ### TSA-048 · Transparency pages set
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/components/Footer.astro` has a Transparency column linking the set; `site/src/lib/transparency.test.ts`. Still open: `/support/` and `/corrections/` have no page date; no business and funding statement (not written, the business model does not settle it).
 
 Why: Trust is the Definition of #1 [README]. Readers need to find who runs the site, how it is paid for, how content is checked and how to complain.
 
