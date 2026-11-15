@@ -100,7 +100,7 @@ Checks after batch 6: vitest 71 files, 2,928 pass; `astro build` 16,519 pages; `
 
 | Game "Odd one out" at `/games/odd-one-out/` (subagent, reviewed): sets of 3 or 4 from the Four together groups, the odd one always from another group; tapping a picture that belongs says it goes with the others; hint after 20 seconds; "Show me" with no penalty; English only (`ODD_ONE_OUT_REVIEWED`) | GAME-018 → partial (print twin, native category review) | vitest 2,941 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108 (14 games) |
 
-Known gaps: in both games the hint timer keeps counting while the game is resting; a found odd picture is read as "Matched", the shared tile's word.
+Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `onRestingChange`); a browser check rested 21 seconds and no hint showed on return. Still open: a found odd picture is read as "Matched", the shared tile's word.
 
 ## What blocks the rest
 

@@ -49,12 +49,14 @@ export default function FourTogether(props: PlayProps) {
   const done = state ? isTogether(state) : false;
   const foundCount = state?.found.length ?? 0;
 
+  // Rest pauses the hint wait; it starts again from zero on return.
+  const [resting, setResting] = useState(false);
   // The hint waits for a pause: the clock restarts whenever a picture is found.
   useEffect(() => {
-    if (!state || done || hint) return undefined;
+    if (!state || done || hint || resting) return undefined;
     const timer = window.setTimeout(() => setHint(true), HINT_AFTER_MS);
     return () => window.clearTimeout(timer);
-  }, [state?.round, foundCount, done, hint]);
+  }, [state?.round, foundCount, done, hint, resting]);
 
   if (!state) return null;
   const { round } = state;
@@ -94,6 +96,7 @@ export default function FourTogether(props: PlayProps) {
 
   return (
     <GameFrame
+      onRestingChange={setResting}
       ui={ui}
       lang={lang}
       guidance={guidance}

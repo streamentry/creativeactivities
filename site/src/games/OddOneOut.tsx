@@ -48,12 +48,14 @@ export default function OddOneOut(props: PlayProps) {
 
   const done = state?.found ?? false;
 
+  // Rest pauses the hint wait; it starts again from zero on return.
+  const [resting, setResting] = useState(false);
   // The hint waits for a quiet pause on an open set; taps never bring it sooner.
   useEffect(() => {
-    if (!state || done || hint) return undefined;
+    if (!state || done || hint || resting) return undefined;
     const timer = window.setTimeout(() => setHint(true), HINT_AFTER_MS);
     return () => window.clearTimeout(timer);
-  }, [state?.round, done, hint]);
+  }, [state?.round, done, hint, resting]);
 
   if (!state) return null;
   const { round } = state;
@@ -90,6 +92,7 @@ export default function OddOneOut(props: PlayProps) {
 
   return (
     <GameFrame
+      onRestingChange={setResting}
       ui={ui}
       lang={lang}
       guidance={guidance}
