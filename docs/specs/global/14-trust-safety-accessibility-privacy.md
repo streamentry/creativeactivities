@@ -19,6 +19,8 @@ This file sets the requirements that make the website and app safe to rely on: a
 ### TSA-001 · WCAG 2.2 AA as the release gate
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Evidence: `site/scripts/a11y-check.mjs` (`pnpm check:a11y`) runs axe at WCAG 2.2 AA on one page of each of 13 templates at 390 and 1440 px, with zero violations. A keyboard pass covers the same pages. The manual checklist and the per-release record are still open.
+
 Why: Accessibility is a core promise, and older users, people with low vision and people with motor limits are the primary audience [MISSION, "Accessible by default"; DESIGN §6]. WCAG 2.2 is the current W3C recommendation, and its 9 added criteria include several that matter here [R5 §5.4].
 
 What: Every template and game passes an automated scan and a manual checklist before release. The manual list must include the criteria the automated scan misses, including 2.4.11 (focus not obscured), 2.5.8 (target size, minimum 24px, with 48px as the product standard), 2.5.7 (dragging needs a non-drag alternative), 3.3.7 (redundant entry), 3.2.6 (consistent help) and 1.4.10 (reflow).

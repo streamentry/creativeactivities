@@ -196,6 +196,8 @@ Risks / not doing: Pillar hubs can become thin lists. The rules above prevent th
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Evidence: the activity page has Start (moves focus to step 1), Print and Save as labelled buttons. Body text is 20 px. Gap: at 375 px the glance facts start about 950 px down because the mobile site header is 301 px tall; a compact mobile header is a site-wide decision.
+
 Why: "An activity, ready in one glance" is the signature experience ([DESIGN §1](../../../DESIGN.md)). MISSION asks that a person can start in roughly a minute ([MISSION, "The product promise"](../../../MISSION.md)).
 
 What: The top of each card shows the name, a one-sentence purpose, the time, the materials, mess, setting, cost and help level, followed by Start, Print and Save. The baseline has the facts and a "Start activity" link to the steps. Print and Save on the card need checking (verify).
@@ -250,6 +252,8 @@ Risks / not doing: Hiding variations behind a switch can hide them from search a
 ### WEB-014 · One-page printable card
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print on one A4 sheet and one US Letter sheet, with navigation hidden and no background colour needed. Print body text is 10 pt, below the 12 pt proposal; that is a maintainer decision.
 
 Why: The Activity Card is "the memorable feature" and a potential distribution channel ([DESIGN §8](../../../DESIGN.md), [VISION](../../../VISION.md)). Printables are the way to reach people without a screen ([R1 §3.7](research/01-craft-diy-platforms.md)).
 
@@ -617,6 +621,8 @@ Risks / not doing: A setting nobody finds does not help. Put it in the header or
 ### WEB-036 · Keyboard, focus and screen reader on every template
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `pnpm check:a11y` (zero axe violations, visible focus, no focus trap, no focus under the sticky header, on every template). Testing with two screen readers before S1 exit is still open and needs a person.
 
 Why: "Build and test with people who use assistive technologies" ([MISSION, "Accessibility"](../../../MISSION.md)). WCAG 2.2 AA is the minimum ([brief](_WRITER_BRIEF.md)). The baseline runs axe on key pages only.
 
@@ -1226,6 +1232,8 @@ Risks / not doing: Stock images without a release for people. Use only images wi
 ### WEB-074 · Performance budget
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/scripts/check-budget.mjs` (`pnpm check:budget`, also in `pnpm verify`): 0 of 15,728 built pages are over the budgets in `rules/web/performance.md`. The 404 page loaded a 2.6 MB script and now loads the locale codes only. Image budget, Lighthouse in CI and field data are still open.
 
 Why: Core Web Vitals targets are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 at the 75th percentile ([DESIGN §7](../../../DESIGN.md); the web performance rules). Low-speed connections are a named requirement.
 
