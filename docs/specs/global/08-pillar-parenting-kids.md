@@ -42,6 +42,7 @@ Eleven families. Each has example activities, the adult's role (see §6), the ba
 ### CNT-810 · Sensory play
 
 Priority P1 · Phase S3
+Status partial. Evidence: `site/src/content/guides/kids/sensory-play-ideas.md` (unreviewed; child-facing, so the S3 gate in §10 still applies; no usability or OT review).
 
 - **Examples:** warm and cool bowls (water checked by an adult); a fabric feely bag with objects too large for the cylinder; bubble-wrap stomping; a sensory bottle (sealed plastic, glitter and water, glue-sealed cap; not for under-3s); a dry-bean tray for 5+ only, with an adult.
 - **Bands:** 0–2 for the water and fabric; 2–5 for the bottle with supervision.
@@ -51,6 +52,7 @@ Priority P1 · Phase S3
 ### CNT-811 · Art and craft (GROW versions)
 
 Priority P2 · Phase S3
+Status partial. Evidence: `site/src/content/guides/kids/art-activities-for-toddlers.md` and `process-art-for-kids.md` (unreviewed; S3 gate applies).
 
 - **Examples:** finger painting on a window (washable, non-toxic); torn-paper collage (3+); a cardboard robot (5+, adult cuts); printing with a sponge or potato (adult cuts); make a family tree of hands (exists, in the library).
 - **Bands:** 0–2 for finger paint on a window; 3–10 for most.
@@ -106,6 +108,7 @@ Priority P2 · Phase S3
 ### CNT-817 · Calm-down activities
 
 Priority P2 · Phase S3
+Status partial. Evidence: `site/src/content/guides/kids/calm-down-activities-for-kids.md` (unreviewed; no outcome claims; S3 gate applies).
 
 - **Examples:** tear paper slowly into strips; bubble breathing with a straw in a cup of water (supervised); color together with quiet music; a sensory bottle for holding (see CNT-810); a hand massage with lotion (adult and child).
 - **Bands:** 2–12; calm activities are offered as options, never as punishment.
@@ -116,6 +119,7 @@ Priority P2 · Phase S3
 ### CNT-818 · Rainy-day and indoor
 
 Priority P2 · Phase S3
+Status partial. Evidence: `site/src/content/guides/kids/rainy-day-crafts-for-kids.md` (unreviewed; S3 gate applies).
 
 - **Examples:** an indoor treasure hunt with a picture list; a den made from sheets and chairs; a cardboard-box theatre; indoor bowling with plastic bottles and a ball; a puppet show.
 - **Bands:** 3–10 mostly; the den is a family-size activity.
@@ -134,6 +138,7 @@ Priority P2 · Phase S3
 ### CNT-820 · Screen-free swaps
 
 Priority P1 · Phase S3
+Status partial. Evidence: `site/src/content/guides/kids/screen-free-activities-for-kids.md` (unreviewed; no screen limits printed; S3 gate applies).
 
 - **Examples:** "make the show" with paper puppets instead of watching one; card-based story making instead of a tablet game; a video call with a grandparent where both play the same card game.
 - **Bands:** all bands; the swap is always offered as an option, not a rule.
@@ -142,7 +147,8 @@ Priority P1 · Phase S3
 
 ## 4. Adaptations for sensory needs and different ways of playing (CNT-830)
 
-- **Priority P1 · Phase S3 (for child-facing content) · Status new.**
+- **Priority P1 · Phase S3 (for child-facing content) · Status partial.**
+- **Evidence:** `site/src/content/guides/kids/crafts-for-kids-with-sensory-needs.md` (unreviewed; the choose-your-level options are text only and have not been tested with a parent or carer who uses them; OT review still needed).
 - **Why:** the MISSION names "parents and caregivers seeking adaptable sensory-friendly and creative activities for children". R2 finds that sensory guidance is written for diagnosed children and for intervention, and that families who simply want low-mess, low-noise, texture-flexible play have little (R2 §6, gap 3).
 - **Principle:** describe the activity and the choices, never the child. Do not label an activity for a diagnosis or a group of people. Do not use "for autistic children" or similar titles ([VISION](../../../VISION.md)). Use "sensory-friendly", "low-mess", "quiet" and "choose your level".
 - **Choose-your-level options, on every family card where they apply:**
