@@ -36,4 +36,4 @@ These rank as broad head terms with very high competition ([02 H6](02-informatio
 
 - It does not rank clusters by demand. SEO-002 must supply US-English volumes first.
 - It does not create pages. Holds stay holds until the named item is built.
-- Hub overlap: `activities-for-seniors` shares 8 of its 14 cards with `bedside-activities` (more than half of the smaller hub). This breaks H1 for the existing pair. It is flagged for the H11 review before S1 exit and is not changed here.
+- Hub overlap: `activities-for-seniors` shared 8 of its 14 cards with `bedside-activities`, above H1. It was re-curated on 2026-11-15 to outdoor, standing and group cards (9 cards, 0 bedside-first), and `hubs.test.ts` now checks every pair of hubs against H1.
