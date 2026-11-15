@@ -43,6 +43,16 @@ variations:
     text: "A child applies the glue while the older adult picks the buttons and the spots. Keep buttons away from young children."
   - kind: nonverbal
     text: "Hold up two buttons and watch which one they reach for or look at. Pointing and nodding are full answers."
+images:
+  - src: /pictures/button-flower-card.svg
+    alt: "Drawing of a flower made of six colored sewn buttons around a center button, with green leaves and a stem, on a white card."
+    caption: "A flower made from sorted buttons, glued to a card."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Buttons are a choking hazard. Skip this activity if the person may put small objects in their mouth; use paper circles instead."

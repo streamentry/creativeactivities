@@ -44,6 +44,16 @@ variations:
     text: "Take turns choosing the music. A child and an older adult draw on the same sheet from opposite sides."
   - kind: more-collaborative
     text: "Draw on one shared sheet. One person draws while the music plays, the other adds color when it pauses."
+images:
+  - src: /pictures/music-drawn-lines.svg
+    alt: "Drawing of two beamed music notes above a sheet with blue and red wavy lines and a few circles drawn across it."
+    caption: "Lines and shapes drawn across the sheet as the music played."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion, adhesive]
 safety:
   - "Keep the volume comfortable and check hearing aids are in and switched on. Avoid sudden loud music."

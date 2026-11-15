@@ -40,6 +40,16 @@ variations:
     text: "Choose a photo with strong contrast and large details, and write the line in a thick dark marker."
   - kind: with-children
     text: "A child picks the photo and writes the name, while the older adult says the line to write."
+images:
+  - src: /pictures/photo-postcard-with-stamp.svg
+    alt: "Drawing of a postcard with a photo of a sun over hills glued on the left, and a yellow stamp and writing lines on the right."
+    caption: "A postcard with a photo glued on, a stamp and room to write."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [adhesive, skin-contact]
 safety:
   - "Use photo copies only, so an original is never cut, glued or lost."
