@@ -46,6 +46,16 @@ variations:
     text: "Each person adds one texture to a shared board, then you pass it around and compare favorites."
   - kind: with-children
     text: "A child finds and sorts the textures; the grandparent decides where each one goes. Use white glue only, and keep any hot glue gun with an adult."
+images:
+  - src: /pictures/texture-board-with-scraps.svg
+    alt: "Drawing of a wooden board with glued patches of blue fabric, corrugated card, buttons and a cotton ball to touch."
+    caption: "The finished board, flat and dry, with textures to touch and compare."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, sharp-tool, heat]
 safety:
   - "Glue all pieces firmly. Buttons, caps and beads are choking risks if they come loose and might be put in the mouth."

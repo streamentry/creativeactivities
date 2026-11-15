@@ -7,6 +7,7 @@
 
 import { BG, INK, S, SHADE, SHINE, type Picture, type PictureCategory } from './picture-art/kit.ts';
 import { ACTIVITY_RESULTS_A } from './picture-art/activity-results-a.ts';
+import { ACTIVITY_RESULTS_B } from './picture-art/activity-results-b.ts';
 import { MORE_PICTURES } from './picture-art/more.ts';
 
 export type { Picture, PictureCategory };
@@ -490,7 +491,7 @@ const FIRST_PICTURES: readonly Picture[] = [
   },
 ];
 
-export const PICTURES: readonly Picture[] = [...FIRST_PICTURES, ...MORE_PICTURES, ...ACTIVITY_RESULTS_A];
+export const PICTURES: readonly Picture[] = [...FIRST_PICTURES, ...MORE_PICTURES, ...ACTIVITY_RESULTS_A, ...ACTIVITY_RESULTS_B];
 
 export const PICTURE_BY_ID: ReadonlyMap<string, Picture> = new Map(PICTURES.map((p) => [p.id, p]));
 

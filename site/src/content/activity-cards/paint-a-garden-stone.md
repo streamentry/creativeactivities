@@ -44,6 +44,16 @@ variations:
     text: "Children gather and wash the stones, and everyone paints one to set out together in a row."
   - kind: for-a-group
     text: "Each person paints a stone and the group arranges them along a path or around a planter."
+images:
+  - src: /pictures/painted-garden-stone.svg
+    alt: "Drawing of a smooth grey stone painted with a pink flower and blue dots, resting in grass outdoors."
+    caption: "The finished stone, painted and placed where you both can see it."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, small-parts]
 safety:
   - "Use non-toxic, water-based paint; wash it off skin with soap and water, and check for skin sensitivity first."

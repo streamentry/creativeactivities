@@ -44,6 +44,16 @@ variations:
     text: "Divide a large sheet into sections, one for each person, and join the sections into one picture at the end."
   - kind: with-children
     text: "Give the child and the grandparent a corner each to start, then let the marks meet in the middle. Wash brushes together at the end."
+images:
+  - src: /pictures/shared-painted-canvas.svg
+    alt: "Drawing of a large canvas on an easel showing a yellow sun, a green hill and a blue wave, with dabs of color added by several people."
+    caption: "The finished picture, with a mark from each person in turn."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, skin-contact, ingestion, water, adhesive]
 safety:
   - "Use non-toxic, water-based paint only, and check for any known paint allergies first."
