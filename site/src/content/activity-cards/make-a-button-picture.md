@@ -43,6 +43,7 @@ variations:
     text: "A child applies the glue while the older adult picks the buttons and the spots. Keep buttons away from young children."
   - kind: nonverbal
     text: "Hold up two buttons and watch which one they reach for or look at. Pointing and nodding are full answers."
+safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Buttons are a choking hazard. Skip this activity if the person may put small objects in their mouth; use paper circles instead."
   - "Use large buttons only, keep the number small, and count them in and out so none go missing."

@@ -42,6 +42,7 @@ variations:
     text: "Use a large sheet of brightly colored paper on a dark table, and guide hands to each fold if they welcome it."
   - kind: for-a-group
     text: "Each person folds or decorates a boat, and the group floats them together in a wide tray of water."
+safetyFlags: [water]
 safety:
   - "Use only a few inches of water in a basin or tray, and stay with anyone near water."
   - "Mop up spills straight away so the floor does not become slippery."

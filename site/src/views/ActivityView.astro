@@ -5,9 +5,19 @@ import '../styles/activities.css';
 import '../styles/studio-activity.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
+import SafetyFlags from '../components/SafetyFlags.astro';
+import ActivityImage from '../components/ActivityImage.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs, howTo } from '../lib/schema';
-import { TYPE_LABELS, VARIATION_LABELS, factList, glance } from '../lib/activities';
+import {
+  SAFETY_FLAG_LABELS,
+  TYPE_LABELS,
+  VARIATION_LABELS,
+  factList,
+  glance,
+  listedActivities,
+  reviewByline,
+} from '../lib/activities';
 import { findGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
 
@@ -16,6 +26,7 @@ interface Props {
 }
 const { activity } = Astro.props;
 const d = activity.data;
+const withdrawn = d.withdrawn;
 const { Content } = await render(activity);
 const path = `/activity/${activity.id}/`;
 const crumbs = [
@@ -28,37 +39,67 @@ const ledger = factList(d).filter((f) => LEDGER.includes(f.label));
 const qr = qrSvg(`${SITE.url}${path}`, `QR code for the ${d.name} page`);
 const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const isoDate = (date: Date) => date.toISOString().slice(0, 10);
 
 const all = await getCollection('activityCards');
+const shown = listedActivities(all);
 const related = d.related
-  .map((slug) => all.find((a) => a.id === slug))
+  .map((slug) => shown.find((a) => a.id === slug))
   .filter((a) => a !== undefined);
-const guides = (
-  await Promise.all(
-    d.guides.map(async (ref) => {
-      const guide = await findGuide('en', ref);
-      return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
-    }),
-  )
-).filter((g) => g !== null);
+const guides = withdrawn
+  ? []
+  : (
+      await Promise.all(
+        d.guides.map(async (ref) => {
+          const guide = await findGuide('en', ref);
+          return guide ? { href: `/${ref}/`, title: guide.entry.data.title } : null;
+        }),
+      )
+    ).filter((g) => g !== null);
+/** Pictures of the finished result, and pictures attached to one step each (WEB-012). */
+const resultImages = d.images.filter((image) => image.step === undefined);
+const stepImages = (step: number) => d.images.filter((image) => image.step === step);
+const hasSmallParts = d.safetyFlags.includes('small-parts');
 
-const jsonLd = [
-  howTo({
-    path,
-    name: d.name,
-    description: d.description,
-    updated: d.updated,
-    published: d.published,
-    totalMinutes: d.prepMinutes + d.activityMinutes[1],
-    supplies: d.materials,
-    steps: d.steps,
-  }),
-  breadcrumbs(crumbs),
-];
+const jsonLd = withdrawn
+  ? [breadcrumbs(crumbs)]
+  : [
+      howTo({
+        path,
+        name: d.name,
+        description: d.description,
+        updated: d.updated,
+        published: d.published,
+        totalMinutes: d.prepMinutes + d.activityMinutes[1],
+        supplies: d.materials,
+        steps: d.steps,
+      }),
+      breadcrumbs(crumbs),
+    ];
 ---
-<BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" image="/og/activities.png" jsonLd={jsonLd}>
+<BaseLayout title={d.seoTitle ?? d.name} description={d.description} type="article" image="/og/activities.png" jsonLd={jsonLd} noindex={Boolean(withdrawn)}>
   <Breadcrumbs items={crumbs} />
   <div class="container activity activity-page">
+    {
+      withdrawn ? (
+        <header class="activity-head">
+          <p class="eyebrow">Withdrawn</p>
+          <h1>{d.name}</h1>
+          <section class="activity-withdrawn" aria-labelledby="withdrawn-title">
+            <h2 id="withdrawn-title">This activity has been withdrawn</h2>
+            <p>{withdrawn.reason}</p>
+            <p>
+              Withdrawn on <time datetime={isoDate(withdrawn.date)}>{dateText(withdrawn.date)}</time>. Please do not print
+              or use this card.
+            </p>
+            {withdrawn.replacement && <p>{withdrawn.replacement}</p>}
+            <p>
+              <a href="/activity/">Find another activity</a>
+            </p>
+          </section>
+        </header>
+      ) : (
+        <>
     <header class="activity-head">
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
       <h1>{d.name}</h1>
@@ -74,6 +115,7 @@ const jsonLd = [
           ))
         }
       </dl>
+      {hasSmallParts && <p class="activity-age"><strong>{SAFETY_FLAG_LABELS['small-parts']}.</strong></p>}
       <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
@@ -107,8 +149,16 @@ const jsonLd = [
 
         <section class="reveal" aria-labelledby="steps">
           <h2 id="steps" tabindex="-1">What to do</h2>
+          {resultImages.map((image) => <ActivityImage image={image} />)}
           <ol class="activity-steps">
-            {d.steps.map((step) => <li>{step}</li>)}
+            {
+              d.steps.map((step, i) => (
+                <li>
+                  {step}
+                  {stepImages(i + 1).map((image) => <ActivityImage image={image} />)}
+                </li>
+              ))
+            }
           </ol>
         </section>
 
@@ -133,11 +183,33 @@ const jsonLd = [
 
         <section class="activity-safety reveal" aria-labelledby="safety">
           <h2 id="safety"><Icon name="shield" />Safety</h2>
+          <SafetyFlags flags={d.safetyFlags} />
           <ul class="activity-list">
             {d.safety.map((s) => <li>{s}</li>)}
           </ul>
           <p class="muted">These are practical suggestions, not medical advice. You know the person best.</p>
         </section>
+
+        {
+          d.review && (
+            <section class="activity-review reveal" aria-labelledby="review">
+              <h2 id="review">What the reviewer checked</h2>
+              <p>{d.review.scope}</p>
+              <h3>Not for</h3>
+              <ul class="activity-list">
+                {d.review.notFor.map((s) => <li>{s}</li>)}
+              </ul>
+              <h3>Not for use without someone nearby</h3>
+              <ul class="activity-list">
+                {d.review.notUnsupervised.map((s) => <li>{s}</li>)}
+              </ul>
+              <h3>Stop if</h3>
+              <ul class="activity-list">
+                {d.review.stopSigns.map((s) => <li>{s}</li>)}
+              </ul>
+            </section>
+          )
+        }
 
         <section class="prose activity-about reveal" aria-label="About this activity">
           <Content />
@@ -179,14 +251,17 @@ const jsonLd = [
         </section>
       )
     }
+        </>
+      )
+    }
 
     <footer class="activity-byline">
       <p>
         {/* Explicit spaces: Astro drops the line breaks between text, expressions and tags. */}
         By {d.author}.{' '}
-        {d.reviewer ? <>Reviewed by {d.reviewer}.</> : <>Not yet reviewed by an outside expert.</>}{' '}
-        Published <time datetime={d.published.toISOString().slice(0, 10)}>{dateText(d.published)}</time>, updated{' '}
-        <time datetime={d.updated.toISOString().slice(0, 10)}>{dateText(d.updated)}</time>.{' '}
+        {reviewByline(d.review, dateText(d.review?.date ?? d.updated))}{' '}
+        Published <time datetime={isoDate(d.published)}>{dateText(d.published)}</time>, updated{' '}
+        <time datetime={isoDate(d.updated)}>{dateText(d.updated)}</time>.{' '}
         <a href="/editorial-policy/">How we write</a> · <a href="/support/">Report a mistake</a>
       </p>
       {
@@ -202,13 +277,17 @@ const jsonLd = [
           </p>
         )
       }
-      <div class="print-only print-qr">
-        <Fragment set:html={qr} />
-        <p>
-          Scan for easier versions, safety notes and more ideas, or visit {SITE.domain}{path}.
-          Free to print and share for personal and noncommercial use.
-        </p>
-      </div>
+      {
+        !withdrawn && (
+          <div class="print-only print-qr">
+            <Fragment set:html={qr} />
+            <p>
+              Scan for easier versions, safety notes and more ideas, or visit {SITE.domain}{path}.
+              Free to print and share for personal and noncommercial use.
+            </p>
+          </div>
+        )
+      }
     </footer>
   </div>
 </BaseLayout>

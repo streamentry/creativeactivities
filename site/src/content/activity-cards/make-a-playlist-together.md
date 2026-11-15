@@ -40,6 +40,7 @@ variations:
     text: "Write the titles in large, high-contrast letters, or read them aloud from the screen. Choose songs by sound rather than by picture."
   - kind: with-children
     text: "A grandchild finds the songs and plays them, while the older adult says what they like and the child writes the titles on the card."
+safetyFlags: [none]
 safety:
   - "Set the volume low and check it with them. Sudden loud music can startle or hurt."
   - "Check hearing aids are in and working. Use headphones only if they fit comfortably and do not pinch the ears."

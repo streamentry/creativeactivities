@@ -1,0 +1,19 @@
+---
+/** A step or result picture (WEB-012): always alt text, a caption and a visible credit. */
+interface Props {
+  image: {
+    src: string;
+    alt: string;
+    caption: string;
+    provenance: { creator: string; rights: string };
+  };
+}
+const { image } = Astro.props;
+---
+<figure class="activity-figure">
+  <img src={image.src} alt={image.alt} width="240" height="240" loading="lazy" decoding="async" />
+  <figcaption>
+    <span>{image.caption}</span>
+    <span class="activity-figure__credit">Picture: {image.provenance.creator}. {image.provenance.rights}</span>
+  </figcaption>
+</figure>

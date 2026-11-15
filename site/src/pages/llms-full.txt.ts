@@ -2,7 +2,7 @@ import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { GAMES } from '../data/games';
 import { APP, APP_FAQ, appFaqFor } from '../lib/app';
-import { VARIATION_LABELS, factList } from '../lib/activities';
+import { VARIATION_LABELS, factList, listedActivities } from '../lib/activities';
 import { SITE } from '../lib/site';
 import { isIndexable } from '../i18n/locales';
 import { PUBLISHED } from '../i18n/ui';
@@ -10,7 +10,7 @@ import { PUBLISHED } from '../i18n/ui';
 /** Self-contained answers from every page, for AI answer engines to quote accurately. */
 export const GET: APIRoute = async () => {
   const guides = (await getCollection('guides')).sort((a, b) => a.id.localeCompare(b.id));
-  const activities = (await getCollection('activityCards')).sort((a, b) => a.id.localeCompare(b.id));
+  const activities = listedActivities(await getCollection('activityCards')).sort((a, b) => a.id.localeCompare(b.id));
   const languages = PUBLISHED.filter((l) => isIndexable(l.code)).length;
   const out: string[] = [`# ${SITE.name}: summaries of every page`, '', `Source: ${SITE.url}`, ''];
   out.push(

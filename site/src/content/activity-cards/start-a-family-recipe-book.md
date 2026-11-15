@@ -43,6 +43,7 @@ variations:
     text: "Write in large, dark letters on unlined paper, one ingredient per line, and read each line aloud as you go."
   - kind: nonverbal
     text: "Show pictures of foods and let them point to favorites. Write down what they chose, in their own book."
+safetyFlags: [heat, allergen]
 safety:
   - "This is a writing and talking activity, not cooking. Keep it away from a hot stove or oven, and do not test recipes during the session."
   - "Food memories can bring up people who have died or hard times. Pause, listen, and let them lead, or move to another dish."

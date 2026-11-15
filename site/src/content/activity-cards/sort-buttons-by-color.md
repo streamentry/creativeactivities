@@ -36,6 +36,7 @@ variations:
     text: "Use only smooth, plain buttons in two colors, and sort on a soft cloth instead of a hard tray."
   - kind: low-vision
     text: "Use dark dishes for pale buttons, or pale dishes for dark ones, so each button stands out against the dish."
+safetyFlags: [small-parts]
 safety:
   - "Use only large buttons that cannot fit in the mouth, and remove any small or loose parts from the bowl."
   - "Never use this with someone who puts things in their mouth. Stay close and keep the bowl on the table."

@@ -44,6 +44,7 @@ variations:
     text: "Paint a sheet each, side by side, then swap and add a color to each other's painting."
   - kind: nonverbal
     text: "Hold up two paint colors and wait for a look, a reach or a nod. That choice is the whole conversation."
+safetyFlags: [ingestion, skin-contact, water]
 safety:
   - "Use only non-toxic, water-based paint, and keep the painting water separate from any drinking cups."
   - "Some people put brushes in their mouth; stay close and use clearly different cups for paint water and drinks."

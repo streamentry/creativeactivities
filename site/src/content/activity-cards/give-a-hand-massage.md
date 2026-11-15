@@ -41,6 +41,7 @@ variations:
     text: "Skip the lotion and use dry hands with very light touch, or wrap a warm towel around the hand instead."
   - kind: nonverbal
     text: "Offer an open palm and wait for the hand to come toward you. Stop if it pulls away or the face looks uneasy."
+safetyFlags: [skin-contact]
 safety:
   - "Ask permission before touching, and stop as soon as they pull away, tense up or say to stop."
   - "Test a small drop of plain lotion on the inside of the wrist first, and check for known allergies or skin reactions."

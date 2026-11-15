@@ -41,6 +41,7 @@ variations:
     text: "Hold up two colors and watch where the eyes or hand go. Pointing and nodding are full answers."
   - kind: with-children
     text: "A child tears and glues the pieces while the older adult chooses where each one goes."
+safetyFlags: [sharp-tool, adhesive, skin-contact, small-parts]
 safety:
   - "Tearing is the main method, so scissors stay with the helper."
   - "Use a glue stick, which is less messy than liquid glue, and check for skin sensitivity first."

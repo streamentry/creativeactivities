@@ -1,0 +1,17 @@
+---
+import { SAFETY_FLAG_LABELS, type SafetyFlag } from '../lib/activities';
+
+interface Props {
+  flags: readonly SafetyFlag[];
+}
+const { flags } = Astro.props;
+---
+<ul class="flag-chips" aria-label="Safety flags for this activity">
+  {
+    flags.map((flag) => (
+      <li class:list={['flag-chip', `flag-chip--${flag}`]} data-flag={flag}>
+        {SAFETY_FLAG_LABELS[flag]}
+      </li>
+    ))
+  }
+</ul>

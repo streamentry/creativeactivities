@@ -43,6 +43,7 @@ variations:
     text: "A child paints the pot while the older adult chooses the plant and shows how to firm the soil."
   - kind: for-a-group
     text: "Each person decorates a pot and the group plants a row of herbs to share on a common windowsill."
+safetyFlags: [skin-contact, adhesive, ingestion]
 safety:
   - "Use non-toxic, water-based paint, and wash it off skin with soap and water."
   - "Wear gloves or wash hands after handling potting soil, and keep it away from mouths."

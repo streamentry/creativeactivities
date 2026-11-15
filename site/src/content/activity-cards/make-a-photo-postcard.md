@@ -40,6 +40,7 @@ variations:
     text: "Choose a photo with strong contrast and large details, and write the line in a thick dark marker."
   - kind: with-children
     text: "A child picks the photo and writes the name, while the older adult says the line to write."
+safetyFlags: [adhesive, skin-contact]
 safety:
   - "Use photo copies only, so an original is never cut, glued or lost."
   - "Use a glue stick, which is less messy than liquid glue, and check for skin sensitivity first."

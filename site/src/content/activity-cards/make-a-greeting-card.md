@@ -42,6 +42,7 @@ variations:
     text: "Make one large card together for a shared friend or staff member, with each person adding a picture or a word."
   - kind: nonverbal
     text: "Offer two finished messages written on slips of paper and let them point to the one they like."
+safetyFlags: [sharp-tool, adhesive, skin-contact]
 safety:
   - "If you cut pictures, keep the scissors with the helper."
   - "A glue stick is less messy than liquid glue; check for skin sensitivity first."

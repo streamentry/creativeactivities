@@ -46,6 +46,7 @@ variations:
     text: "Choose large leaves with clear outlines, such as maple or oak, and press them on dark paper."
   - kind: with-children
     text: "A child collects the leaves and places them on the paper while the grandparent picks which ones to keep. Open the book together on the agreed day."
+safetyFlags: [allergen, ingestion, skin-contact, small-parts, fall-risk]
 safety:
   - "Some plants are toxic or irritate skin, such as foxglove, poison ivy and giant hogweed. Check every plant you pick and wash hands afterward."
   - "Avoid holly, roses with thorns, and prickly or stinging plants."

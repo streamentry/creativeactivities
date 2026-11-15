@@ -44,6 +44,7 @@ variations:
     text: "Use a bright fabric on a dark tray, and a thick, textured ribbon that is easy to find and grip."
   - kind: with-children
     text: "A child spoons and gathers the fabric while the older adult chooses the fabric and ties or holds the ribbon."
+safetyFlags: [small-parts, skin-contact, heat]
 safety:
   - "Strong scents can be unpleasant or trigger headaches or breathing problems for some people. Smell a little first and stop if anyone dislikes it."
   - "Some people react to lavender on the skin. Use a spoon and wash hands afterward if there is any sensitivity."

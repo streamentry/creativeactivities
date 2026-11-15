@@ -43,6 +43,7 @@ variations:
     text: "Bring the paper to the person on a lap tray or clipboard, so they need not move to the table."
   - kind: low-vision
     text: "Go over each pencil outline with a thick dark marker afterward so the shapes are easy to see."
+safetyFlags: [skin-contact, adhesive]
 safety:
   - "Trace with a pencil only and never put paint or ink on skin. Some skin bruises or tears easily, so trace gently and lift away from the hand."
   - "Ask before touching anyone's hand. If spreading fingers is painful, trace the hand relaxed or as a mitten shape."

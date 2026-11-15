@@ -41,6 +41,7 @@ variations:
     text: "Use bold colored markers on large paper and describe the birds' size and movement aloud. Bring the chair closer to the window."
   - kind: with-children
     text: "A child draws the birds on the paper while the older adult describes their colors and how they move."
+safetyFlags: [fall-risk]
 safety:
   - "Window glare can be strong. Use a sheer curtain or move the chair so the sun is not in the eyes."
   - "Glass can be cold in winter or hot in summer. Keep a blanket on the lap and the room at a comfortable temperature."

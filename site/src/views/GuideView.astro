@@ -8,7 +8,7 @@ import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
 import { GAME_BY_SLUG } from '../data/games';
 import { pictureUrl } from '../data/pictures';
-import { TYPE_LABELS, glance } from '../lib/activities';
+import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
 import '../styles/activities.css';
 import '../styles/studio-editorial.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
@@ -55,7 +55,7 @@ const related = (
 ).filter((r): r is { href: string; title: string } => r !== null);
 
 // Activity cards that name this guide make it their hub (English pages only).
-const activityCards = (await getCollection('activityCards'))
+const activityCards = listedActivities(await getCollection('activityCards'))
   .filter((a) => a.data.guides.includes(id))
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
 

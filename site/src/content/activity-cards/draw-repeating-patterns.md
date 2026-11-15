@@ -40,6 +40,7 @@ variations:
     text: "Use one color and a slow, quiet pace, and stop whenever it feels like too much."
   - kind: nonverbal
     text: "Offer to guide their hand gently, only if they seem comfortable with that, and pause often to see if they want to continue."
+safetyFlags: [skin-contact, ingestion]
 safety:
   - "Use washable, non-toxic markers or crayons, and keep them away from the mouth."
   - "Put the caps back on markers when not in use, since they dry out and can stain skin."

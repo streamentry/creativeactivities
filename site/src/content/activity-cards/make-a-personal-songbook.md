@@ -43,6 +43,7 @@ variations:
     text: "A grandchild finds the songs on a phone and plays them, then writes the titles while the older adult shares the stories."
   - kind: nonverbal
     text: "Play a short part of two songs and watch for a smile, tapping or humming. That reaction is the choice; write it down."
+safetyFlags: [none]
 safety:
   - "Keep the volume comfortable and check it with them. Sudden loud music can startle or hurt."
   - "Check hearing aids are in, switched on and not whistling. Some people prefer headphones off and the speaker nearby."

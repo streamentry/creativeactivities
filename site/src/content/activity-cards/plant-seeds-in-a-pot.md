@@ -46,6 +46,7 @@ variations:
     text: "Wear gloves and use a spoon for everything, so hands stay clean and dry."
   - kind: low-vision
     text: "Use big seeds such as beans or sunflowers on a light plate, and a dark pot so the soil level is easy to see."
+safetyFlags: [skin-contact, ingestion, small-parts, fall-risk]
 safety:
   - "Wear gloves or wash hands after handling potting mix; it can contain bacteria and fungi, and some mixes include fertilizer."
   - "Seeds can be a choking risk and many are treated with chemicals. Supervise closely if anything might be put in the mouth."

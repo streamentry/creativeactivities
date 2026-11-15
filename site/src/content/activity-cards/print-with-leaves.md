@@ -42,6 +42,7 @@ variations:
     text: "Each person prints a leaf on one shared sheet, arranged as a wreath or a line."
   - kind: with-children
     text: "A child paints the leaf and the grandparent presses it down and lifts it, then swap. Choose the colors together."
+safetyFlags: [allergen, ingestion, skin-contact]
 safety:
   - "Check every leaf before handling. Avoid poison ivy, poison oak and sumac, and check for allergies."
   - "Use non-toxic, water-based paint, and wash hands afterward."

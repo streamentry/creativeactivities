@@ -40,6 +40,7 @@ variations:
     text: "Use enlarged copies in bold, high-contrast prints, and read any captions aloud."
   - kind: with-children
     text: "A grandchild turns the pages and asks the older adult about each picture, then writes down the stories they choose to share."
+safetyFlags: [none]
 safety:
   - "Some photos bring up sadness or loss. Keep tissues close and do not push a conversation that is upsetting them."
   - "Handle old prints with clean, dry hands, and use copies for fragile or valuable photos."

@@ -40,6 +40,7 @@ variations:
     text: "Put in only a few grains, so the sound is soft. Hold the sealed shaker on the lap and feel its weight and gentle movement."
   - kind: with-children
     text: "A child chooses the decorations and presses the tape down, while the older adult fills the bottle with rice and picks the song."
+safetyFlags: [adhesive, small-parts, water]
 safety:
   - "Glue the lid shut and tape over it, then check the lid before each use. Replace the shaker if the lid loosens or the bottle cracks."
   - "Never make or use this with someone who puts things in their mouth. Keep the shaker away from anyone who may chew or swallow small grains."

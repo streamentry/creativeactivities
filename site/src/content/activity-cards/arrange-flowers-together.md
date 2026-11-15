@@ -46,6 +46,17 @@ variations:
     text: "Give each person one stem to add to a shared vase, then talk about the finished arrangement together."
   - kind: with-children
     text: "A child carries the stems and holds the vase steady while the grandparent chooses each flower and where it goes. Cutting stays with an adult."
+images:
+  - src: /pictures/vase-of-flowers.svg
+    alt: "Drawing of a glass jar of flowers standing on a table, the finished arrangement with stems placed together."
+    caption: The finished jar, with the stems chosen and placed together.
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-14
+safetyFlags: [sharp-tool, water, skin-contact, ingestion]
 safety:
   - "Some common flowers and plants, such as lily of the valley, foxglove and daffodils, are toxic if eaten. Check every plant before use."
   - "Lilies shed pollen that stains and can irritate skin; remove the pollen tips or choose other flowers."

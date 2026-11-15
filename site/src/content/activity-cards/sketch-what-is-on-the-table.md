@@ -41,6 +41,7 @@ variations:
     text: "Offer a choice of two objects, and watch which one they look at or reach toward."
   - kind: with-children
     text: "Each draws the same object side by side, then swap pages and add one line to each other's drawing. Neither drawing is the right one."
+safetyFlags: [allergen, ingestion]
 safety:
   - "If the object is a plant, check that it is not poisonous or an allergen, and do not let anyone taste it."
   - "Keep pencils and erasers away from the mouth if the person may chew or taste things."

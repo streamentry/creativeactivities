@@ -42,6 +42,7 @@ variations:
     text: "Use a dark felt-tip marker on large, plain paper, and read each line aloud as you write it."
   - kind: with-children
     text: "A child writes the greeting and adds a drawing while the older adult says what to put in the letter."
+safetyFlags: [ingestion, allergen, skin-contact, adhesive]
 safety:
   - "Never write bank details, passwords or PINs in a letter. Check the address before sealing the envelope."
   - "Keep pens and stamps away from the mouth if the person may chew or taste things."

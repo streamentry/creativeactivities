@@ -43,6 +43,7 @@ variations:
     text: "Use wider strips in two strongly contrasting colors and alternate them to make the pattern easy to follow."
   - kind: seated
     text: "Work on a lap tray and let the finished chain fall into a box at your feet as it grows."
+safetyFlags: [sharp-tool, heat, fall-risk, adhesive]
 safety:
   - "Keep scissors, staplers and paper trimmers with the helper."
   - "Hang the finished garland well away from candles, heaters and lamps."

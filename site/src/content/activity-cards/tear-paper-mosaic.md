@@ -45,6 +45,7 @@ variations:
     text: "Use a bold, thick outline on pale card and strongly contrasting colors, such as dark blue on yellow."
   - kind: with-children
     text: "A child tears and sorts the pieces by color while the grandparent chooses where each one goes. Small pieces stay on the table."
+safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Keep small torn pieces away from anyone who may put paper in their mouth, and clear them away afterward."
   - "Use a glue stick rather than liquid glue; check for skin sensitivity first."
