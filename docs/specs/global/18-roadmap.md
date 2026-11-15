@@ -515,7 +515,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-021 | P0 | partial | Finder index sharded by locale and facet |
 | PLAT-022 | P1 | new | Site-wide static search index |
 | PLAT-025 | P0 | exists | App analytics stance (no SDK) |
-| PLAT-026 | P0 | new | Consent, Global Privacy Control and retention |
+| PLAT-026 | P0 | partial | Consent, Global Privacy Control and retention |
 | PLAT-027 | P1 | new | Aggregate "We tried this" counters |
 | PLAT-034 | P1 | new | Website offline reading |
 | PLAT-035 | P1 | new | One content contract for web and app |

@@ -3,7 +3,7 @@
  * The analytics question (maintainer decision, 2026-11-15). A calm bar at the
  * top of the page, in the normal flow: not a dialog, never pinned over
  * content (so it can never hide what has keyboard focus, WCAG 2.4.11), and
- * "No thanks" comes first. It appears only while the question is unanswered; without
+ * "No thanks" comes first. With Global Privacy Control on, it never appears. It appears only while the question is unanswered; without
  * JavaScript it never appears and nothing is counted. Its script also serves
  * every other [data-consent] button on the page (the privacy page choice).
  */
@@ -32,20 +32,21 @@ const c = ui(lang).common.consent;
 <div hidden data-consent-words data-saved-no={c.savedNo} data-saved-yes={c.savedYes} data-no-storage={c.noStorage}></div>
 
 <script>
-  import { browserConsentStorage, readConsent, saveConsent, showConsentChoice, type Consent } from '../lib/consent';
+  import { browserConsentStorage, browserGpc, readConsent, saveConsent, shouldLoadAnalytics, showConsentChoice, type Consent } from '../lib/consent';
   import { loadAnalytics, stopAnalytics } from '../lib/consent-runtime';
 
   const storage = browserConsentStorage();
   const bar = document.querySelector<HTMLElement>('[data-consent-bar]');
   const said = document.querySelector<HTMLElement>('[data-consent-said]');
   const words = document.querySelector<HTMLElement>('[data-consent-words]')?.dataset ?? {};
+  const gpc = browserGpc();
   const containerId = document.querySelector<HTMLMetaElement>('meta[name="ca-gtm"]')?.content ?? '';
 
   const refresh = () => {
     const consent = readConsent(storage);
-    if (bar) bar.hidden = !showConsentChoice(consent);
+    if (bar) bar.hidden = !showConsentChoice(consent, gpc);
     for (const el of document.querySelectorAll<HTMLElement>('[data-consent-current]')) {
-      const key = consent === 'granted' ? 'currentYes' : consent === 'denied' ? 'currentNo' : 'currentNone';
+      const key = gpc ? 'currentGpc' : consent === 'granted' ? 'currentYes' : consent === 'denied' ? 'currentNo' : 'currentNone';
       el.textContent = el.dataset[key] ?? '';
     }
     for (const button of document.querySelectorAll<HTMLButtonElement>('[data-consent]')) {
@@ -55,7 +56,7 @@ const c = ui(lang).common.consent;
 
   const choose = (answer: Consent) => {
     const saved = saveConsent(storage, answer);
-    if (answer === 'granted' && saved) loadAnalytics(containerId);
+    if (saved && shouldLoadAnalytics(answer, gpc)) loadAnalytics(containerId);
     else stopAnalytics();
     if (said) said.textContent = !saved ? words.noStorage ?? '' : answer === 'granted' ? words.savedYes ?? '' : words.savedNo ?? '';
     refresh();

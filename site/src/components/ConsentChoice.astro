@@ -12,7 +12,7 @@ const { lang = 'en' } = Astro.props;
 const c = ui(lang).common.consent;
 ---
 <div class="consent-choice">
-  <p data-consent-current data-current-yes={c.currentYes} data-current-no={c.currentNo} data-current-none={c.currentNone}>
+  <p data-consent-current data-current-yes={c.currentYes} data-current-no={c.currentNo} data-current-none={c.currentNone} data-current-gpc={c.currentGpc}>
     {c.currentNone}
   </p>
   <div class="btn-row">

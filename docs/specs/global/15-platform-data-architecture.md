@@ -345,7 +345,8 @@ Depends on: none.
 Risks / not doing: blind spots (no in-app completion data). Use the pilot diaries and the metrics in [metrics](17-metrics-and-evidence.md).
 
 ### PLAT-026 · Consent, Global Privacy Control and retention
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: a browser sending Global Privacy Control never loads Google's scripts, sends no event and is never asked, even after an earlier yes (`gpcEnabled`, `shouldLoadAnalytics`, `showConsentChoice` in `site/src/lib/consent.ts`, tested in `consent.test.ts`); the privacy page says so. Consent mode and the consent choice: [analytics-consent.md](analytics-consent.md). Not done: GA4 retention setting (maintainer, console) and its entry in the decision log; region rules from counsel.
 Why: GA4 is the only analytics. If EEA or UK visitors are counted, consent rules apply (verify with counsel). [R5 §5.2] notes that health information is special-category data under GDPR, so the site must not collect it through analytics.
 What: honor Global Privacy Control signals. Configure GA4 consent mode for the region rules counsel gives. Set data retention to the shortest option that still supports the review cadence. Update the privacy page with every change.
 Acceptance:

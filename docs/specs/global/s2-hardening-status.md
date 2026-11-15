@@ -32,4 +32,4 @@ Integration checks: vitest 2,533 tests pass; `tsc` clean; `astro build` 15,733 p
 - Reviewer sign-off on edible materials, evidence ratings and scope wording (TSA-024, TSA-031, TSA-026); per-locale crisis lists (TSA-027).
 - A monitored safety address and response standard (TSA-047, WEB-058); accessibility feedback owner (TSA-007).
 - Manual screen-reader passes, a flash analysis for games and real printer tests (TSA-003–006, WEB-015).
-- `pnpm audit --prod` reports two advisories in astro 7.4.0; upgrade not attempted (TSA-043).
+- ~~`pnpm audit --prod` reports two advisories in astro 7.4.0~~: fixed 2026-11-15 by upgrading to astro 7.4.7 (TSA-043).

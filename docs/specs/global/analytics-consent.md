@@ -12,6 +12,7 @@ Read with [data-inventory.md](data-inventory.md), [events.md](events.md) and ite
 | "No thanks", no answer, or JavaScript off | Nothing | None |
 | "Allow" | Tag Manager (`gtm.js`), then GA4 as configured in the container | `_ga`, `_ga_<stream>` (Google's) |
 | "Allow", then later "No" (privacy page) | Consent mode updated to denied on the open page; nothing loads on later pages | `_ga*` cookies deleted from this browser |
+| Browser sends Global Privacy Control | Nothing, even after an earlier "Allow"; the question is not shown | None |
 | Photo pairs | Never | None |
 
 - **The question:** `site/src/components/ConsentBar.astro`, a bar at the top of the page in normal flow (not a dialog, never pinned over content, so it cannot hide keyboard focus). "No thanks" comes first; both buttons are the same size. It shows only while the question is unanswered.
