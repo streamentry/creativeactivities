@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 63 | 129 | 215 | 407 |
+| S2 | 63 | 130 | 214 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **76** | **169** | **288** | **533** |
+| **All** | **76** | **170** | **287** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -68,6 +68,15 @@ Checks after batch 3: vitest 67 files, 2,843 pass; `tsc` clean; `astro build` 16
 
 Checks after batch 4: vitest 2,844 pass; `tsc` clean; `astro build` 16,516 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Not run: `check:a11y` on the new large-print template.
 
+### Batch 5 (2026-11-15)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `/activity/weekly-program/`: a one-page weekly program for care homes, day centres and clubs. Staff pick a group card for each weekday (default: five different activity types); each day shows the group version and a one-to-one version; the materials line scales with the group size entered (one set per pair plus a spare). Header says it is an activity program, not a care plan. Fields are week, room and group size only; nothing typed is sent or saved. Linked from the finder | WEB-045 → partial (staff feedback route and the pack builder WEB-017 / group mode WEB-046 it depends on are not built) | `weekly-program.test.ts` (7 tests, including a field check for name, diagnosis and care-need fields); browser: swapping Monday's card and entering 9 people update the sheet; Playwright PDF: 1 page on A4 and on Letter |
+| CSP header: the new page's inline module script changed Astro's site-wide hash list; `_headers` updated (one stale hash replaced), found by `check-site` | TSA-041 upkeep | `check-site` 0 errors; `security-headers.test.ts` passes |
+
+Checks after batch 5: vitest 68 files, 2,851 pass; `tsc` clean; `astro build` 16,517 pages; `check-site` 0 errors; `check-budget` 0 over.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -83,4 +92,4 @@ Checks after batch 4: vitest 2,844 pass; `tsc` clean; `astro build` 16,516 pages
 ## Next batches (buildable without a person)
 
 1. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
-2. Web features that need no data or approval: care-home weekly sheet (WEB-045), a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).
+2. Web features that need no data or approval: a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).
