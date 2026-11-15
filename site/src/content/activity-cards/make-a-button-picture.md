@@ -53,6 +53,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/button-picture-materials.svg
+    alt: "Drawing of a sheet of thick card with a dashed outline, three large buttons and a bottle of glue, on a table."
+    caption: "What you need: thick card, large buttons and glue."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Buttons are a choking hazard. Skip this activity if the person may put small objects in their mouth; use paper circles instead."

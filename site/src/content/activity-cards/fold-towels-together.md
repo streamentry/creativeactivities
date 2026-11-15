@@ -49,6 +49,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/towels-materials.svg
+    alt: "Drawing of a wicker basket with blue and yellow towels, and a red towel folded on a table."
+    caption: "What you need: a basket of clean, dry towels and a flat table."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, heat, fall-risk]
 safety:
   - "Check towels are warm, not hot, before handing them over. Test with the inside of your wrist first."

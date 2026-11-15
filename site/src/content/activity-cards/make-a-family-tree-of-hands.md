@@ -53,6 +53,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/hands-tree-materials.svg
+    alt: "Drawing of a large sheet of paper, three crayons, a pencil and a roll of masking tape, on a table."
+    caption: "What you need: a large sheet of paper, crayons and masking tape."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, adhesive]
 safety:
   - "Trace with a pencil only and never put paint or ink on skin. Some skin bruises or tears easily, so trace gently and lift away from the hand."

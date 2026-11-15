@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/photo-postcard-materials.svg
+    alt: "Drawing of a printed photo, a blank postcard, a glue stick and a blue pen, on a table."
+    caption: "What you need: a copy of a photo, a blank postcard, a glue stick and a pen."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [adhesive, skin-contact]
 safety:
   - "Use photo copies only, so an original is never cut, glued or lost."

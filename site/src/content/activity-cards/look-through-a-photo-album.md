@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/photo-album-materials.svg
+    alt: "Drawing of a closed photo album, two loose photo prints, a glass of water and a box of tissues, on a table."
+    caption: "What you need: an album or photos, tissues and a drink of water."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Some photos bring up sadness or loss. Keep tissues close and do not push a conversation that is upsetting them."

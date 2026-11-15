@@ -52,6 +52,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/paper-boat-materials.svg
+    alt: "Drawing of a sheet of paper with a dashed fold line, a basin of water and a folded towel, on a table."
+    caption: "What you need: a sheet of paper, a basin of water and a towel."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [water]
 safety:
   - "Use only a few inches of water in a basin or tray, and stay with anyone near water."
