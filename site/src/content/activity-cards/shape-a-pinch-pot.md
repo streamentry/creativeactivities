@@ -41,6 +41,8 @@ variations:
     text: "Guide the clay with your hands over theirs, and watch for any sign they want to keep going or stop."
   - kind: low-vision
     text: "Choose a dark clay and work on a white tray so the shape stands out, and describe the shape aloud as you press."
+  - kind: large-grip
+    text: "Use a soft, pliable clay, and press the walls out with the side of the thumb or the whole palm instead of a pinch."
 images:
   - src: /pictures/pinch-pot-clay-bowl.svg
     alt: "Drawing of a small clay bowl with thumb marks in its sides, next to a spare ball of clay on a cloth."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for mouthing or swallowing, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

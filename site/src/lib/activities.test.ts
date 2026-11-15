@@ -12,8 +12,10 @@ import {
   matches,
   minutesRange,
   reviewByline,
+  VARIATION_LABELS,
   type ActivityFacts,
 } from './activities';
+import { VARIATION_KINDS } from './activity-schema';
 
 const COLLAGE: ActivityFacts = {
   type: 'craft',
@@ -242,5 +244,14 @@ describe('review byline (TSA-034)', () => {
     const line = reviewByline({ name: 'Jane Example', credential: 'Registered occupational therapist' }, 'November 10, 2026');
     expect(line).toBe('Reviewed by Jane Example, Registered occupational therapist, on November 10, 2026.');
     expect(line.toLowerCase()).not.toContain('clinically');
+  });
+});
+
+describe('variation labels', () => {
+  it('labels every variation kind in plain words, including large-grip', () => {
+    for (const kind of VARIATION_KINDS) {
+      expect(VARIATION_LABELS[kind], `no label for ${kind}`).toBeTruthy();
+    }
+    expect(VARIATION_LABELS['large-grip']).toBe('Easier to grip');
   });
 });

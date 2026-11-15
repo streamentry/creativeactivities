@@ -41,6 +41,8 @@ variations:
     text: "Offer a choice of two objects, and watch which one they look at or reach toward."
   - kind: with-children
     text: "Each draws the same object side by side, then swap pages and add one line to each other's drawing. Neither drawing is the right one."
+  - kind: large-grip
+    text: "Use a jumbo crayon, a thick marker or a pencil wrapped in tape, and draw large shapes with the whole arm rather than small details."
 images:
   - src: /pictures/table-sketch-pencil.svg
     alt: "Drawing of a sketchbook page with a pencil outline of a mug, light shading on one side and a yellow pencil beside it."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

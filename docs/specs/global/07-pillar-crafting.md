@@ -239,6 +239,7 @@ S2 and S4 totals must match [06 §6](06-content-library.md#6-target-library-size
 ## 9. Items
 
 - **CNT-700 · MAKE taxonomy and rules.** P0 · S1 · exists (partial). This section 2 and the categories above. Acceptance: every MAKE card has a primary category, a materials list, two substitutions, a safety line and at least one seated or low-dexterity variation.
+  - Evidence: `site/src/lib/activity-cards.test.ts` (CNT-700 block) checks that every MAKE card (types art, craft, nature; the card records no pillar) has a `seated` or `large-grip` variation. 30 cards gained `large-grip` on 2026-11-15 (text unreviewed). Two MAKE cards are still open, `arrange-flowers-together` and `decorate-a-keepsake-box`, because each already has six variations, the cap in the schema and [06](06-content-library.md); adding one means choosing one to drop. Stays partial: the open cards, the two-substitutions and primary-category bullets were not checked for every card, and the new variation text needs a reviewer.
 - **CNT-701 to CNT-716 · Categories.** Priorities P1 for paper, painting, drawing, nature, recycled and card-making (largest existing content); P2 for the others. Phases: S1 maintain and tag; S2 grow to the targets in §2; S4 target as in §2.
   Status partial. Evidence: category guide pages for paper (CNT-701), recycled (CNT-709) and seasonal (CNT-713) at `site/src/content/guides/crafts/` (`paper-crafts.md`, `recycled-crafts.md`, `seasonal-crafts.md`), written 2026-11-15 and unreviewed.
 - **CNT-720 · Substitutions program.** P0 · S1 · new. §4.

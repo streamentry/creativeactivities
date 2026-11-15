@@ -43,7 +43,7 @@ Production dependencies: 2 advisories, both on `astro` 7.4.0 (pinned exactly in 
 | moderate | astro | Image endpoint in `@astrojs/node` can read files from a case-variant sibling directory on case-sensitive filesystems (GHSA-r3h5-4585-7x3w) | >=5.14.3 <=7.4.6 | >=7.4.7 |
 | low | astro | XSS via attribute injection in dynamic tag names (GHSA-mh32-jxcr-mh9f) | <=7.4.4 | >=7.4.5 |
 
-The site builds to static files and does not use `@astrojs/node`, so the first advisory is unlikely to apply. The second affects dynamic tag names, which the site does not use. **Recommended for the maintainer:** a patch-level upgrade of `astro` to 7.4.7 or later, after the build and visual checks pass. Not done here, per the brief.
+The site builds to static files and does not use `@astrojs/node`, so the first advisory is unlikely to apply. The second affects dynamic tag names, which the site does not use. **Update 2026-11-15:** `astro` upgraded to 7.4.7, the first release with both fixes (released 2026-11-05). The build and site checks pass, and `pnpm audit --prod` now reports no known vulnerabilities.
 
 Development dependencies (full audit): 10 advisories, 8 on `undici` (4 high), 2 on `astro`. These come from the tooling (`wrangler`, `vitest`, `playwright`) and do not ship to visitors. Upgrade with the tooling update.
 

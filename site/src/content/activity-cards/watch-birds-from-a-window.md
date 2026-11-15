@@ -41,6 +41,8 @@ variations:
     text: "Use bold colored markers on large paper and describe the birds' size and movement aloud. Bring the chair closer to the window."
   - kind: with-children
     text: "A child draws the birds on the paper while the older adult describes their colors and how they move."
+  - kind: large-grip
+    text: "Use jumbo crayons to draw, and rest the binoculars on a folded blanket on the lap so they do not need to be held up."
 images:
   - src: /pictures/window-with-birds.svg
     alt: "Drawing of a wooden window with four panes of sky, three small birds flying past and an orange robin on the sill."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for falls."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

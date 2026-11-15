@@ -44,6 +44,8 @@ variations:
     text: "A grandchild finds the songs on a phone and plays them, then writes the titles while the older adult shares the stories."
   - kind: nonverbal
     text: "Play a short part of two songs and watch for a smile, tapping or humming. That reaction is the choice; write it down."
+  - kind: large-grip
+    text: "Use a thick marker or a pen wrapped in tape, and write only the title and one word at a time. The helper can write the rest."
 images:
   - src: /pictures/open-songbook-with-notes.svg
     alt: "Drawing of an open book with music staves and notes on both pages and a red ribbon bookmark."
@@ -81,6 +83,8 @@ changes:
     note: "Added a labelled safety line above the steps: no special hazard applies."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

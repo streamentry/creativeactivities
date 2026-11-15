@@ -306,7 +306,7 @@ Acceptance:
 Depends on: COM-009, CNT-961, CNT-1004.
 
 ### COM-031 · "Suggest a correction" on every activity
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: DESIGN §4B requires a correction link; trust depends on readers being able to fix errors without an account.
 What: each activity, guide and printable card has a "Suggest a correction" link to a short form (what is wrong, where, optional email for a reply). It goes to the editorial inbox, is not public, and no account is needed.
 Acceptance:
@@ -314,6 +314,7 @@ Acceptance:
 - The form does not store IP address or device identifiers beyond what the email system needs.
 - Corrections are logged, with the date of the fix shown on the page when a material change is made.
 Depends on: [03 web features](03-features-web.md).
+Evidence: `site/src/components/SuggestCorrection.astro` (plain mailto built by `site/src/lib/correction-mail.ts`, with a link to `/corrections/` as "Other ways to tell us") on all 38 activity cards, every guide and the printable packs; printed card line names `/corrections/` (`pnpm check:print` 38/38, pack cards at most two sheets); `correction-mail.test.ts` (helper and wiring); `check:a11y` 0 failing of 94. The date of a fix shows on activity cards ("What changed", WEB-016, `changes:` frontmatter); guides show only the last-updated date, and the public corrections log (TSA-035, `corrections.ts`) has no entries yet. Open: the editorial inbox at `web@` must be monitored and a response target published (maintainer and editor; not built here).
 
 ### 3.6 Partners and later items
 

@@ -40,6 +40,8 @@ variations:
     text: "Use thick yarn in a strong color against a plain dark lap blanket so the strand is easy to follow."
   - kind: with-children
     text: "A child holds the skein on outstretched hands while the older adult winds, or the other way around."
+  - kind: large-grip
+    text: "Wind around a wide cardboard tube held in the whole hand, not two fingers, and let the helper steady the skein on a chair back."
 images:
   - src: /pictures/yarn-ball-with-thread.svg
     alt: "Drawing of a neat red ball of yarn with wound lines across its surface and a loose thread trailing onto the table."
@@ -77,6 +79,8 @@ changes:
     note: "Added labelled safety flags above the steps for falls, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

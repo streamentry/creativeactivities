@@ -40,6 +40,8 @@ variations:
     text: "Put in only a few grains, so the sound is soft. Hold the sealed shaker on the lap and feel its weight and gentle movement."
   - kind: with-children
     text: "A child chooses the decorations and presses the tape down, while the older adult fills the bottle with rice and picks the song."
+  - kind: large-grip
+    text: "Choose a bottle with a wide, ridged cap, and let the helper screw and tape the lid. Hold the bottle in both hands while you shake it."
 images:
   - src: /pictures/sealed-rice-shaker.svg
     alt: "Drawing of a small sealed bottle with a red lid, half full of rice, with a striped label band and music notes beside it."
@@ -79,6 +81,8 @@ changes:
     note: "Added labelled safety flags above the steps for glue or tape, small parts, water."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

@@ -44,6 +44,8 @@ variations:
     text: "Paint a sheet each, side by side, then swap and add a color to each other's painting."
   - kind: nonverbal
     text: "Hold up two paint colors and wait for a look, a reach or a nod. That choice is the whole conversation."
+  - kind: large-grip
+    text: "Wrap each brush handle with tape or foam to make it thicker, so it can be held in a full fist."
 images:
   - src: /pictures/watercolor-washes-sheet.svg
     alt: "Drawing of a sheet of paper with soft overlapping blue, pink, yellow and green washes, a paint tray and a brush."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for mouthing or swallowing, skin contact, water."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

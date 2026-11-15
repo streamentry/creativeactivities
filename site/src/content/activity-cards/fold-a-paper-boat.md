@@ -42,6 +42,8 @@ variations:
     text: "Use a large sheet of brightly colored paper on a dark table, and guide hands to each fold if they welcome it."
   - kind: for-a-group
     text: "Each person folds or decorates a boat, and the group floats them together in a wide tray of water."
+  - kind: large-grip
+    text: "Crease each fold ahead of time, or press each one flat with a ruler or the side of a hand instead of pinching the paper."
 images:
   - src: /pictures/paper-boat-afloat.svg
     alt: "Drawing of a folded paper boat with a red top and a white hull, floating on blue water."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for water."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

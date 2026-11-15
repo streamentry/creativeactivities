@@ -43,6 +43,8 @@ variations:
     text: "Use wider strips in two strongly contrasting colors and alternate them to make the pattern easy to follow."
   - kind: seated
     text: "Work on a lap tray and let the finished chain fall into a box at your feet as it grows."
+  - kind: large-grip
+    text: "Use wider strips and a roll of wide tape to close each loop, so the ends are pressed together with the palm instead of pinched."
 images:
   - src: /pictures/paper-chain-garland.svg
     alt: "Drawing of a garland of colored paper links in red, yellow, green, pink, blue and orange, hanging in a curve across a blue sky background."
@@ -79,6 +81,8 @@ changes:
     note: "Added labelled safety flags above the steps for sharp tools, heat, falls, glue or tape."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

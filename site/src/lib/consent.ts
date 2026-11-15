@@ -40,14 +40,32 @@ export function saveConsent(storage: StorageLike | null, consent: Consent): bool
   }
 }
 
-/** Google's scripts load only after an explicit yes. */
-export function shouldLoadAnalytics(consent: Consent | null): boolean {
-  return consent === 'granted';
+/**
+ * Global Privacy Control (PLAT-026): a browser that sends the signal has
+ * already said no to sale and sharing, so it is never counted and never asked.
+ * Only a real `true` counts.
+ */
+export function gpcEnabled(nav: { globalPrivacyControl?: unknown } | null | undefined): boolean {
+  return nav?.globalPrivacyControl === true;
 }
 
-/** The question is shown only while it is unanswered. */
-export function showConsentChoice(consent: Consent | null): boolean {
-  return consent === null;
+/** Google's scripts load only after an explicit yes, and never with Global Privacy Control on. */
+export function shouldLoadAnalytics(consent: Consent | null, gpc = false): boolean {
+  return !gpc && consent === 'granted';
+}
+
+/** The question is shown only while it is unanswered, and not when Global Privacy Control answers it. */
+export function showConsentChoice(consent: Consent | null, gpc = false): boolean {
+  return !gpc && consent === null;
+}
+
+/** The browser's Global Privacy Control signal, false outside a browser. */
+export function browserGpc(): boolean {
+  try {
+    return typeof navigator !== 'undefined' && gpcEnabled(navigator as { globalPrivacyControl?: unknown });
+  } catch {
+    return false;
+  }
 }
 
 type ConsentState = 'granted' | 'denied';

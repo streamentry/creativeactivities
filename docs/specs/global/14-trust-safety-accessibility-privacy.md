@@ -710,7 +710,7 @@ Risks / not doing: Do not load a script for a feature that is not yet built.
 ### TSA-043 · Secrets and dependencies
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
-Evidence: `site/src/lib/secrets.test.ts` scans all tracked files and signing-file names (no matches); `pnpm audit --prod` reported in `docs/specs/global/security-scans.md` (astro 7.4.0, patch upgrade recommended, not applied). Secret-manager storage and per-release scans need the maintainer.
+Evidence: `site/src/lib/secrets.test.ts` scans all tracked files and signing-file names (no matches); `pnpm audit --prod` reported in `docs/specs/global/security-scans.md` (astro upgraded 7.4.0 → 7.4.7 on 2026-11-15, the first release with both fixes; `pnpm audit --prod` now reports no known vulnerabilities). Secret-manager storage and per-release scans need the maintainer.
 
 Why: Leaked keys and vulnerable packages are common failure paths.
 

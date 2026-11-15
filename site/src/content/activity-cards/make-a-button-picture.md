@@ -43,6 +43,8 @@ variations:
     text: "A child applies the glue while the older adult picks the buttons and the spots. Keep buttons away from young children."
   - kind: nonverbal
     text: "Hold up two buttons and watch which one they reach for or look at. Pointing and nodding are full answers."
+  - kind: large-grip
+    text: "Use large, flat buttons with a wide edge, and press each one down with the flat of a thumb or a small sponge instead of a pinch."
 images:
   - src: /pictures/button-flower-card.svg
     alt: "Drawing of a flower made of six colored sewn buttons around a center button, with green leaves and a stem, on a white card."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for small parts, glue or tape, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

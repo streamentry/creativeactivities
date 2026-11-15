@@ -10,6 +10,7 @@ import SafetyFlags from '../components/SafetyFlags.astro';
 import CrisisRoute from '../components/CrisisRoute.astro';
 import ActivityImage from '../components/ActivityImage.astro';
 import ActivityFeedback from '../components/ActivityFeedback.astro';
+import SuggestCorrection from '../components/SuggestCorrection.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs, howTo } from '../lib/schema';
 import {
@@ -305,9 +306,10 @@ const jsonLd = withdrawn
         {reviewByline(d.review, dateText(d.review?.date ?? d.updated))}{' '}
         Published <time datetime={isoDate(d.published)}>{dateText(d.published)}</time>, updated{' '}
         <time datetime={isoDate(d.updated)}>{dateText(d.updated)}</time>.{' '}
-        <a href="/editorial-policy/">How we write</a> · <a href="/corrections/">Report a mistake</a> ·{' '}
+        <a href="/editorial-policy/">How we write</a> ·{' '}
         <a href="/corrections/#report-safety">Report a safety problem</a>
       </p>
+      <SuggestCorrection title={d.name} path={path} />
       {
         guides.length > 0 && (
           <p class="no-print">

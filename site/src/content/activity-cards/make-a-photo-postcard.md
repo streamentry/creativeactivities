@@ -40,6 +40,8 @@ variations:
     text: "Choose a photo with strong contrast and large details, and write the line in a thick dark marker."
   - kind: with-children
     text: "A child picks the photo and writes the name, while the older adult says the line to write."
+  - kind: large-grip
+    text: "Wrap a thin pen in a few layers of tape, or use a thick marker. Press the photo flat with the whole palm instead of the fingertips."
 images:
   - src: /pictures/photo-postcard-with-stamp.svg
     alt: "Drawing of a postcard with a photo of a sun over hills glued on the left, and a yellow stamp and writing lines on the right."
@@ -76,6 +78,8 @@ changes:
     note: "Added labelled safety flags above the steps for glue or tape, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

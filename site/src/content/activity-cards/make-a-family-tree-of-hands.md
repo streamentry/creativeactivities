@@ -44,6 +44,8 @@ variations:
     text: "Bring the paper to the person on a lap tray or clipboard, so they need not move to the table."
   - kind: low-vision
     text: "Go over each pencil outline with a thick dark marker afterward so the shapes are easy to see."
+  - kind: large-grip
+    text: "Trace with a thick crayon or a pencil wrapped in tape, and color in with jumbo crayons held in the whole hand."
 images:
   - src: /pictures/family-tree-of-hands.svg
     alt: "Drawing of a brown tree trunk with a crown of five colored hand shapes, each one a traced hand, at the ends of the branches."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for skin contact, glue or tape."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

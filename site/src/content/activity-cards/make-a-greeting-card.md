@@ -42,6 +42,8 @@ variations:
     text: "Make one large card together for a shared friend or staff member, with each person adding a picture or a word."
   - kind: nonverbal
     text: "Offer two finished messages written on slips of paper and let them point to the one they like."
+  - kind: large-grip
+    text: "Wrap the pen in a foam hair curler or a few layers of tape, or use a thick felt-tip marker. The helper can write the words if the hand tires."
 images:
   - src: /pictures/open-greeting-card.svg
     alt: "Drawing of an open red and white greeting card with a white heart on the front and blue wavy lines for a message inside."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 
