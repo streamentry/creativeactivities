@@ -12,7 +12,8 @@ html[data-text-size='large'] {
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  scroll-padding-top: var(--space-lg);
+  /* Clears the sticky header (about 85px on desktop) so focused links are not hidden under it (WCAG 2.4.11). */
+  scroll-padding-top: 7rem;
 }
 
 body {

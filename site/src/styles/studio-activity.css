@@ -253,22 +253,24 @@
     display: none;
   }
   .activity-page .activity-head h1 {
-    font-size: 22pt;
-    margin: 0 0 1mm;
+    font-size: 19pt;
+    margin: 0 0 0.5mm;
   }
   .activity-ledger {
+    grid-template-columns: repeat(6, 1fr);
     gap: 0.3mm;
-    margin: 1.5mm 0 1mm;
+    margin: 1mm 0;
     background: #000;
     border: 0;
   }
   .activity-ledger > div {
-    padding: 1mm 2mm;
+    padding: 0.6mm 1.2mm;
     background: #fff;
   }
   .activity-ledger dt,
   .activity-ledger dd {
-    font-size: 10pt;
+    font-size: 8.5pt;
+    line-height: 1.2;
   }
   .activity-page .activity-need {
     margin: 3mm 0 0;

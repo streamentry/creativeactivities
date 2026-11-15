@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Icon from '../components/Icon.astro';
+import { PUBLISHED } from '../i18n/ui';
+// The codes only: the browser script must not bundle every translation dictionary (it did, at 2.6 MB gzipped).
+const localeCodes = PUBLISHED.map((l) => l.code).join(' ');
 ---
 <BaseLayout title="Page not found" description="This page could not be found. Try a gentle game or browse activity ideas." noindex>
-  <div class="container container--narrow section">
+  <div class="container container--narrow section" data-locale-codes={localeCodes}>
     <h1>We could not find that page</h1>
     <p class="lede">It may have moved. Here are good places to start instead.</p>
     <div class="btn-row">
@@ -16,9 +19,8 @@ import Icon from '../components/Icon.astro';
 
 <script>
   import { detectPathLocale, readCookie } from '../lib/language-choice';
-  import { PUBLISHED } from '../i18n/ui';
 
-  const validCodes = PUBLISHED.map((l) => l.code);
+  const validCodes = (document.querySelector<HTMLElement>('[data-locale-codes]')?.dataset.localeCodes ?? '').split(' ');
   const lang = detectPathLocale(location.pathname, validCodes) ?? readCookie(document.cookie);
   if (lang && lang !== 'en' && validCodes.includes(lang)) {
     const prefix = `/${lang}`;
