@@ -44,6 +44,17 @@ variations:
     text: "Two people each hold a side of the paper, fold together, and take turns with the tape and the ribbon."
   - kind: with-children
     text: "The older adult decides how to fold and where the ribbon goes, and the child holds the paper and hands over tape strips. Scissors stay with an adult."
+images:
+  - src: /pictures/gift-wrap-materials.svg
+    alt: "Drawing of a book, a roll of patterned wrapping paper, a spool of ribbon, a roll of tape and a blank gift tag, on a table."
+    caption: "What you need: a small gift, wrapping paper, ribbon, tape and a tag."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive]
 safety:
   - "Keep the scissors with the helper. Cut the paper, tape and ribbon before you start."

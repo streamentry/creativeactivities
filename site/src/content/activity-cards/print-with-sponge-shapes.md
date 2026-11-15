@@ -44,6 +44,17 @@ variations:
     text: "Use dark paint on pale card, or bright paint on dark card, and large shapes with plain edges."
   - kind: with-children
     text: "A child chooses the color and the older adult presses the shape, then swap. Keep paint plates out of reach of anyone who might taste it."
+images:
+  - src: /pictures/sponge-print-materials.svg
+    alt: "Drawing of a sheet of card printed with circles and squares, a square sponge and a round sponge, and a plate with two colors of paint, on a table."
+    caption: "What you need: sponge shapes, paint on a plate and thick paper or card."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, skin-contact, ingestion]
 safety:
   - "The helper cuts the sponges with scissors beforehand and puts them away before the person sits down. The person does not cut anything."

@@ -78,6 +78,7 @@ const lowerStatic = (() => {
         Planning for a group? <a href="/activity/weekly-program/">Print a weekly activity program</a> with a group and a
         one-to-one version for each day.
       </p>
+      <p>Not sure what a craft word means? <a href="/glossary/">See the glossary</a>.</p>
     </header>
 
     <section class="finder-saved" id="saved-activities" aria-labelledby="saved-title" hidden>
@@ -234,6 +235,14 @@ const lowerStatic = (() => {
       Showing all {activities.length} activities.
     </p>
 
+    <section class="finder__one-idea" id="one-idea" aria-labelledby="one-idea-title" hidden>
+      <h2 id="one-idea-title">One idea right now</h2>
+      <p class="muted">Short on time? See one activity that fits your choices, then another if it does not suit. It stops after a few.</p>
+      <ul class="activity-grid" id="one-idea-list" aria-live="polite"></ul>
+      <p class="muted" id="one-idea-end" hidden></p>
+      <button type="button" class="btn" id="one-idea-next">Show me one idea</button>
+    </section>
+
     <section class="finder__lower" id="finder-lower" aria-labelledby="finder-lower-title" hidden={!lowerStatic}>
       <h2 id="finder-lower-title">A lower-effort option</h2>
       <p class="muted" id="finder-lower-why">{lowerStatic ? `Why it is lighter: ${lowerStatic.reasons.join(', ')}.` : ''}</p>
@@ -322,6 +331,7 @@ const lowerStatic = (() => {
   import { matchesGuideSearch } from '../lib/guide-search';
   import { countFitFilters, parseFinderState, serializeFinderState, shouldNoindex } from '../lib/finder-state';
   import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
+  import { ideaAt, ideaEndText } from '../lib/one-idea';
 
   const form = document.getElementById('finder') as HTMLFormElement | null;
   const words = document.getElementById('finder-words') as HTMLInputElement | null;
@@ -411,6 +421,50 @@ const lowerStatic = (() => {
     if (robots) robots.content = noindex ? 'noindex, follow' : indexedRobots;
   }
 
+  // One idea right now (WEB-007): one card at a time from the cards that fit, ending after a short run.
+  const ideaBox = document.getElementById('one-idea');
+  const ideaList = document.getElementById('one-idea-list');
+  const ideaEnd = document.getElementById('one-idea-end');
+  const ideaNext = document.getElementById('one-idea-next') as HTMLButtonElement | null;
+  let ideaIndex = 0;
+  const fittingSlugs = () => items.filter((li) => !li.hidden).map((li) => li.dataset.slug ?? '');
+  function resetIdeas(): void {
+    ideaIndex = 0;
+    ideaList?.replaceChildren();
+    if (ideaEnd) ideaEnd.hidden = true;
+    if (ideaNext) {
+      ideaNext.hidden = false;
+      ideaNext.textContent = 'Show me one idea';
+    }
+  }
+  function showNextIdea(): void {
+    if (!ideaList || !ideaNext || !ideaEnd) return;
+    const step = ideaAt(fittingSlugs(), ideaIndex);
+    ideaList.replaceChildren();
+    if (step.slug) {
+      const source = items.find((li) => li.dataset.slug === step.slug);
+      const anchor = source?.querySelector<HTMLAnchorElement>('a.activity-card');
+      if (anchor) {
+        const item = document.createElement('li');
+        item.append(anchor.cloneNode(true));
+        ideaList.append(item);
+      }
+      ideaIndex += 1;
+    }
+    if (step.slug && step.more) {
+      ideaNext.textContent = 'Another idea';
+      ideaEnd.hidden = true;
+    } else {
+      ideaNext.hidden = true;
+      ideaEnd.hidden = false;
+      ideaEnd.textContent = ideaEndText(step.slug ? step.position : step.position - 1);
+    }
+  }
+  if (ideaBox && ideaNext) {
+    ideaBox.hidden = false;
+    ideaNext.addEventListener('click', showNextIdea);
+  }
+
   function render(choice: FinderChoice): void {
     const wordsValue = words?.value ?? '';
     const visible: HTMLLIElement[] = [];
@@ -432,6 +486,7 @@ const lowerStatic = (() => {
     }
     if (empty) empty.hidden = shown > 0;
     renderLower(visible);
+    resetIdeas();
     setRobots(shouldNoindex(choice));
   }
 

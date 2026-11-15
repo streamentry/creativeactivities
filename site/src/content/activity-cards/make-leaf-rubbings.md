@@ -45,6 +45,17 @@ variations:
     text: "Use a dark crayon on white paper over a big leaf, and trace the veins aloud as they appear."
   - kind: with-children
     text: "A child holds the paper still while the grandparent rubs, then swap. Choose a color for each leaf together."
+images:
+  - src: /pictures/leaf-rubbing-materials.svg
+    alt: "Drawing of an orange leaf rubbing on paper taped to a clipboard, a green leaf and three crayons with their wrappers peeled off, on a table."
+    caption: "What you need: a few leaves, thin paper, peeled crayons, a clipboard and tape."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [adhesive, allergen, ingestion, skin-contact]
 safety:
   - "Use leaves from a garden, a park or a houseplant that you know. Do not pick wild plants that could be poisonous, and avoid poison ivy, poison oak and sumac."

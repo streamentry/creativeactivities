@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 63 | 130 | 214 | 407 |
+| S2 | 64 | 133 | 210 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **76** | **170** | **287** | **533** |
+| **All** | **77** | **173** | **283** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -79,6 +79,19 @@ Checks after batch 5: vitest 68 files, 2,851 pass; `tsc` clean; `astro build` 16
 
 CI fix: the Website workflow failed on `b725286` because the finder's Tab walk passed the a11y script's 120-stop safety cap (more cards and hubs, no trap). The cap is now 240, with a comment. Adding the two new templates to the a11y check then caught real defects on the weekly page (a date field read as a focus trap, select overflow at 320 px), both fixed.
 
+### Batch 6 (2026-11-15)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| "One idea right now" on the finder: one card at a time from the cards that fit the current choices, "Another idea" up to five, then a plain end line; resets when choices change; hidden without JavaScript | WEB-007 → partial (no user test yet) | `one-idea.test.ts` (4 tests) |
+| `/seasonal-activities/` hub: ten cards across the year, written for any tradition, no candles; FAQ covers people who do not celebrate and dates that are hard | SEO-036 → partial (the per-season `/seasons/<season>/` layer and cultural review are not done) | `hubs.test.ts` H1/H3, claims lint |
+| Notification policy enforced by a test: no notification permission or push API anywhere in site code, no "you missed" or streak wording in English content | WEB-070 → exists | `notification-policy.test.ts` (4 tests, with pattern self-checks) |
+| `/glossary/`: 38 craft and setup words from the cards, one plain sentence each, with a translator note in the data; linked from the finder | CNT-012 → partial (spec asks for about 60 terms, chosen by usage) | `glossary.test.ts`: every term appears in a card, one sentence, alphabetical, no clinical words |
+| Materials drawings for the 15 new cards, drawn in the house kit by a subagent (`activity-materials-c.ts`), with alt text, captions and provenance entries; site-only, not exported to the app | WEB-012 stays partial (result drawings for the 15 cards not drawn; three of the new pictures read weakly at 120 px) | Provenance test; all 15 rendered and looked at |
+| `check-print` counted the weekly program as a card; it now checks only real cards | WEB-014 upkeep | 53 of 53 cards print as one two-sided sheet |
+
+Checks after batch 6: vitest 71 files, 2,928 pass; `astro build` 16,519 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Not re-run: `check:a11y` (the system disk filled during this batch; 2.3 GB free afterwards).
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -93,5 +106,6 @@ CI fix: the Website workflow failed on `b725286` because the finder's Tab walk p
 
 ## Next batches (buildable without a person)
 
-1. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
-2. Web features that need no data or approval: a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).
+1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
+2. Games from 05 that need no data (for example GAME-022 Four together, GAME-029 Singing sheets, GAME-059 Spot the difference), each with the site's game rules: no score, no timer, Rest always visible.
+3. Result drawings for the new cards (shared with the app; needs names in all app languages).

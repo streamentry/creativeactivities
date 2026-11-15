@@ -43,6 +43,17 @@ variations:
     text: "Rest the board on a lap tray with a few pastels in a shallow box beside it, so everything is within reach."
   - kind: with-children
     text: "A child picks the next color and the older adult chooses where it goes on the page, then swap. Each person can also take one half of the sheet."
+images:
+  - src: /pictures/oil-pastel-materials.svg
+    alt: "Drawing of a sheet of dark blue paper with bright marks on a clipboard, beside an open box of oil pastels, on a table."
+    caption: "What you need: oil pastels, dark paper and a clipboard or board."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion]
 safety:
   - "Oil pastels are waxy and can stain skin, clothes and furniture, so cover the table and wipe fingers as you go."

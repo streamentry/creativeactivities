@@ -43,6 +43,17 @@ variations:
     text: "Hold up two simple drawings of the next box and let them point to the one they like. Draw it together."
   - kind: large-grip
     text: "Use a thick marker or a crayon with a foam grip, and make the boxes big, with only a few large shapes in each."
+images:
+  - src: /pictures/comic-strip-materials.svg
+    alt: "Drawing of a sheet of paper with three boxes drawn on it, a ruler, a pencil and two markers, on a table."
+    caption: "What you need: plain paper, a pencil, markers and a ruler if you like."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion]
 safety:
   - "Use washable markers if you can, and keep ink off skin that is sensitive."

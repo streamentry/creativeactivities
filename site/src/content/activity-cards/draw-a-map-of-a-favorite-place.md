@@ -43,6 +43,17 @@ variations:
     text: "The helper draws and points to a spot on the map. They answer by nodding, pointing or taking the pen to make a mark."
   - kind: with-children
     text: "A grandchild draws what the older adult points to and talks about, and adds a small picture of their own beside it if they like."
+images:
+  - src: /pictures/favorite-map-materials.svg
+    alt: "Drawing of a large sheet of paper on a board with a simple map of a house, a tree, a pond and a dotted path, beside a marker and a crayon."
+    caption: "What you need: a large sheet of paper, a thick marker or crayons and a board."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "A place can bring back strong feelings. Listen kindly and let them lead. Offer to put the pen down, or move on to something lighter."

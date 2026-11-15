@@ -42,6 +42,17 @@ variations:
     text: "Use three strongly different colors on a plain dark surface, and say each move aloud: right over, left over."
   - kind: with-children
     text: "A child holds the knot steady while the grandparent braids, then swap. Choose the three colors together."
+images:
+  - src: /pictures/friendship-bracelet-materials.svg
+    alt: "Drawing of three strands of yarn in red, yellow and blue taped to a clipboard and plaited partway down, with a roll of masking tape and scissors."
+    caption: "What you need: three colors of yarn, masking tape, a clipboard and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [adhesive, sharp-tool, small-parts, skin-contact, fall-risk]
 safety:
   - "Scissors are for the helper only. Cut the strands before you start and put the scissors away."

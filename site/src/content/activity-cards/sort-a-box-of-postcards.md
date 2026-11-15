@@ -41,6 +41,17 @@ variations:
     text: "Hold up two cards and let them point to the one they like. Move cards to a pile by pointing or nodding, with no words needed."
   - kind: with-children
     text: "The child hands over one card at a time and the older adult decides which pile it joins. They can swap roles whenever they like."
+images:
+  - src: /pictures/postcards-materials.svg
+    alt: "Drawing of an open box with picture postcards standing in it, one loose postcard and a plate holding a small pile of cards, on a table."
+    caption: "What you need: a box of postcards and a plate or sheet for each pile."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Do not ask them to name, date or explain any card. Looking and choosing is the whole job."

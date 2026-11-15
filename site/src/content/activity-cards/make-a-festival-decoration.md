@@ -43,6 +43,17 @@ variations:
     text: "Each person makes one piece for a celebration of their own choosing, then hang them together as a shared display of different traditions."
   - kind: low-vision
     text: "Use bold, high-contrast paper, such as dark on pale, with thick markers. Describe each piece aloud as you hand it over."
+images:
+  - src: /pictures/festival-decoration-materials.svg
+    alt: "Drawing of a string of colored paper flags, a stack of colored paper, a glue stick and scissors, on a table."
+    caption: "What you need: colored paper, a glue stick, scissors and string to hang it."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, heat]
 safety:
   - "Keep scissors with the helper, and put them away between steps."

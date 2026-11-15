@@ -42,6 +42,17 @@ variations:
     text: "Play two short tunes and watch where their eyes, hands or feet go. Tapping, smiling or leaning in is an answer."
   - kind: with-children
     text: "The older adult picks a tune they like and the child picks the next one. Either can clap, hum or simply listen, and both can say pass."
+images:
+  - src: /pictures/sing-along-materials.svg
+    alt: "Drawing of a red radio with a handle and an aerial and a phone showing a music note, with music notes above them, on a table."
+    caption: "What you need: a phone, radio or music player, or just your voices."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Set the volume low and check it with them. Sudden loud sound can startle or hurt."

@@ -44,6 +44,17 @@ variations:
     text: "Use a bright scarf against a plain background. Say what you are doing in a few words and rest a hand lightly on theirs to share the beat."
   - kind: seated
     text: "Choose a chair with arms and sit beside them, not in front, so they can follow your movement from the side."
+images:
+  - src: /pictures/chair-music-materials.svg
+    alt: "Drawing of a sturdy wooden chair with a soft scarf over its back and a phone showing a music note, with music notes in the air."
+    caption: "What you need: a sturdy chair, a tune they like and a light scarf."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [fall-risk]
 safety:
   - "Keep them seated in a stable chair with no wheels, feet flat on the floor. Do not ask them to stand up and dance."

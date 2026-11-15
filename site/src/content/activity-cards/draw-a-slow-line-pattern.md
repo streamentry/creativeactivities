@@ -43,6 +43,17 @@ variations:
     text: "Use a jumbo crayon or a thick marker, or push a pencil through a foam ball so it is easy to hold in a loose fist."
   - kind: with-children
     text: "A child holds the cup steady and traces the circle, then the older adult chooses the repeat for each section and a child copies it in another circle."
+images:
+  - src: /pictures/slow-line-materials.svg
+    alt: "Drawing of a sheet of paper with a pattern of overlapping traced circles, a cup with a round rim and two pencils, on a table."
+    caption: "What you need: plain paper, a cup to trace round and a pencil or marker."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion]
 safety:
   - "Use washable, non-toxic markers or crayons and keep them away from the mouth."

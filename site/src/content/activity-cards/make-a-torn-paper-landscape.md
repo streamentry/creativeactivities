@@ -44,6 +44,17 @@ variations:
     text: "Choose strongly contrasting colors, such as dark blue sky above bright green hills, and say each color aloud as it is placed."
   - kind: with-children
     text: "A child tears the strips and hands them over while the older adult decides which strip goes where and glues it down."
+images:
+  - src: /pictures/torn-landscape-materials.svg
+    alt: "Drawing of a card with a landscape of torn paper strips in blue, green and brown, a box lid of torn strips and a glue stick, on a table."
+    caption: "What you need: scrap paper in blues, greens and browns, card and a glue stick."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [adhesive, skin-contact, small-parts]
 safety:
   - "Use a glue stick rather than liquid glue, and check for skin sensitivity first."

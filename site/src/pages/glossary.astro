@@ -1,0 +1,30 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { GLOSSARY } from '../data/glossary';
+
+// CNT-012: plain meanings for the craft and setup words used on the activity cards.
+const slug = (term: string) => term.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+---
+<PageLayout
+  title="Craft words, explained"
+  seoTitle="Craft Words Explained: A Plain Glossary for Activities"
+  description="Plain meanings for the craft and setup words on our activity cards, from contact film and skein to lap tray and oil pastel, with swaps you may already have."
+  path="/glossary/"
+  crumb="Glossary"
+  lede="Some craft words can stop you before you start. Here is what each one on our activity cards means, in one sentence."
+>
+  <dl class="glossary">
+    {
+      GLOSSARY.map((t) => (
+        <>
+          <dt id={slug(t.term)}>{t.term}</dt>
+          <dd>{t.meaning}</dd>
+        </>
+      ))
+    }
+  </dl>
+  <p>
+    Cannot find a word? Use the <a href="/corrections/#report">Report a mistake</a> link on the card, and we will add it or
+    write the card more plainly.
+  </p>
+</PageLayout>

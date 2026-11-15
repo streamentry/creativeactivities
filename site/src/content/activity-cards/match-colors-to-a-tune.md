@@ -43,6 +43,17 @@ variations:
     text: "Play one tune for everyone, then let each person lay a color on a shared tray. Look at how the colors differ, with no right answer."
   - kind: with-children
     text: "The older adult chooses the tune and the child lays out the colors they pick, then they swap. Each can explain their choice or not."
+images:
+  - src: /pictures/color-tune-materials.svg
+    alt: "Drawing of a phone showing a music note and four squares of colored paper in red, yellow, blue and green above a tray, on a table."
+    caption: "What you need: a phone or music player and squares of colored paper."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Keep the volume low and check it with them. A sudden loud sound can startle."
