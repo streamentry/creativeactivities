@@ -768,12 +768,26 @@
   .activity-figure {
     break-inside: avoid;
   }
-  .activity-figure img {
-    max-height: 32mm;
-    width: auto;
+  /* The drawing sits beside the steps, not above them, so text stays 12 pt. */
+  .activity-figure {
+    float: inline-end;
+    width: 30mm;
+    margin: 0 0 1.5mm 4mm;
   }
-  .activity-figure figcaption,
-  .activity-figure__credit {
+  .activity-figure img {
+    max-height: 30mm;
+    width: 100%;
+    height: auto;
+  }
+  .activity-figure figcaption {
     font-size: 9pt;
+  }
+  /* Our own drawings: the credit stays on the web page; the card's source line covers print. */
+  .activity-figure__credit {
+    display: none;
+  }
+  /* The stop note never runs under the drawing. */
+  .activity-stop {
+    clear: both;
   }
 }

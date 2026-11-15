@@ -1,6 +1,6 @@
 # S1 status: what is built, and what only people can finish
 
-Updated 2026-11-15 on branch `s1/integration`. Read with the [roadmap](18-roadmap.md) §2 (the 40 S1 items) and [id-index.tsv](id-index.tsv).
+Updated 2026-11-15 (round 2) on branch `s1/integration`. Read with the [roadmap](18-roadmap.md) §2 (the 40 S1 items) and [id-index.tsv](id-index.tsv).
 
 **Summary.** All 40 S1 items now have code, content or a ready-to-run protocol: 12 `exists`, 28 `partial`, 0 `new`. Every `partial` item is waiting on a person, an account or a maintainer decision, not on more building. S2 cannot start until the S1 gate passes ([roadmap](18-roadmap.md) §3), and that gate needs real usability sessions and a search baseline, which software cannot produce.
 
@@ -25,16 +25,23 @@ Integration checks: vitest 2,345 tests pass; `tsc` clean; `astro build` 15,732 p
 | Maintainer + recruits | Run 8–15 usability sessions with the protocol, including screen-reader, magnification and switch users | MET-029, TSA-002, the S1 gate |
 | Maintainer | Google Keyword Planner US-English export and Search Console + Bing verification, per the runbook | SEO-002, SEO-004, the S1 gate, SEO-009's H3 threshold |
 | Maintainer | Name credentialed reviewers (art therapist, OT, dementia specialist) with written permission | TSA-034 records, WEB-060 review, SEO-009 indexing |
-| Maintainer | Process photos or illustrations with rights records for the 38 cards (one done) | WEB-012 |
+| Maintainer | Per-step process photos or illustrations, rights review of the 38 result drawings, and redraws of the three weakest (hand massage, towel stack, torn-paper flower) | WEB-012 |
 | Maintainer + counsel | GTM/GA4 cookies vs DESIGN's no-tracker rule and TSA-018's no-identifier line; GTM auto-events that carry full URLs | TSA-018, TSA-012, PLAT-024 |
 | Maintainer | Correction response targets; withdraw-drill; safety-label legal wording | TSA-035, TSA-045, WEB-022 |
 | Maintainer | URL contract decision; per-locale crisis list owner; 12 pt print target | SEO-003, WEB-061, WEB-014 |
 | Native reviewers | Claims check for translated locales (the claims test covers English only) | TSA-028 |
 
+## Round 2 (2026-11-15)
+
+| Item | Change | Evidence |
+|---|---|---|
+| WEB-012 | An original result drawing on every one of the 38 cards (was 1) | `activity-results-a.ts`, `activity-results-b.ts`, provenance register 236 entries, app picture exports regenerated (83 → 120) |
+| WEB-014, WEB-016 | Print at 12 pt, one sheet two sides for all 38, version and address line on the back; the drawing floats beside the steps | `pnpm check:print` 38/38 |
+| TSA-012, PLAT-024 | `activity_view`, `activity_save`, `activity_share`, `app_cta_click` added to the allowlist and wired | `track.test.ts`, [events.md](events.md) |
+| Hub rule H1 | `activities-for-seniors` re-curated (outdoor, standing, group); no two hubs share more than the H1 limit | `hubs.test.ts` pairwise check |
+| Docs | Content guide documents `review` and `safetyFlags`; privacy page names Google Tag Manager | `site/CONTENT_GUIDE.md`, `site/src/pages/privacy.astro` |
+
 ## Known issues found while building (not S1 items)
 
-- The `activities-for-seniors` and `bedside-activities` hubs share 8 of 14 cards, against hub rule H1.
 - No card has a large-grip variation, so the arthritis cluster has no card support yet.
 - On phones the six-link header is ~265 px tall; the Start button sits just below the first screen. Changing that means changing the always-visible navigation, a design decision.
-- `privacy.astro` names GA4 while the loader is now GTM.
-- `CONTENT_GUIDE.md` still describes the old `reviewer` field.
