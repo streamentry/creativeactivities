@@ -176,12 +176,20 @@ def main() -> int:
             return cache[pid]
 
         pages = [
-            ("default", ["teacup", "sunflower", "dog"], "Free · No sign-up · No timers",
-             "Gentle Games & Activities for People with Dementia", "Simple picture games to enjoy together, at your own pace."),
-            ("activities", ["watering-can", "bread", "tulip"], "Activity ideas",
-             "Activities for People with Dementia", "Ideas for every stage, at home or in a group."),
-            ("caregiving", ["kettle", "armchair", "lamp"], "For caregivers",
-             "Practical Guides for Everyday Care", "Playing together, communication and caring for yourself."),
+            ("default", ["torn-paper-flower", "shared-painted-canvas", "paper-boat-afloat"], "Free · No sign-up · Print or play",
+             "Make Something Together", "Activities that fit the person, the moment and what you have."),
+            ("activities", ["watering-can", "sketch-materials", "tulip"], "Activity guides",
+             "Ideas, Supplies and Ways to Begin", "Plain guides for starting an activity with someone."),
+            ("crafts", ["paper-chain-garland", "painted-plant-pot", "woven-paper-mat"], "Crafts",
+             "Crafts for All Ages", "From what most homes already have, each with an easier version."),
+            ("kids", ["paper-boat-afloat", "rainbow", "kite"], "Kids",
+             "Creative Activities for Kids", "Art and play ideas with clear safety notes and an adult nearby."),
+            ("together", ["family-tree-of-hands", "open-photo-album", "letter-and-envelope"], "Together",
+             "Activities to Do Together", "For parents, grandparents, children and friends, near or far."),
+            ("creative-calm", ["watercolor-washes-sheet", "teacup", "repeating-pattern-sheet"], "Creative calm",
+             "Slow Down with a Pencil or a Song", "Gentle creative activities. Not therapy, and no skill needed."),
+            ("caregiving", ["kettle", "armchair", "lamp"], "Dementia care",
+             "Caring for Someone with Dementia", "Activities that fit, and where to find trusted help."),
             ("brain-health", ["apple", "bicycle", "moon"], "Brain health",
              "What the Research Really Says", "Plain, sourced answers. General information, not medical advice."),
         ]
