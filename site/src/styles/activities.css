@@ -819,3 +819,8 @@
     display: none;
   }
 }
+
+/* Buttons that need JavaScript start hidden (print, save, share); the .btn display must not undo that. */
+.btn[hidden] {
+  display: none;
+}

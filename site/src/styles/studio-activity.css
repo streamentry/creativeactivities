@@ -415,3 +415,51 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
     font-size: var(--text-sm);
   }
 }
+
+/* Variation chips (WEB-013): real links to each version. The chosen one is marked by a border,
+   a fill and aria-current, never by colour alone. Every version stays visible, and print ignores chips. */
+.activity-page .variation-chips {
+  margin-block-end: var(--space-md);
+}
+.activity-page .variation-chips__label {
+  margin: 0 0 var(--space-xs);
+  font-weight: 700;
+}
+.activity-page .variation-chips__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.activity-page .variation-chips a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target-min);
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-full);
+  background: var(--gm-background);
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+.activity-page .variation-chips a:hover {
+  border-color: var(--gm-primary);
+}
+.activity-page .variation-chips a:focus-visible,
+.activity-page .activity-variation:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 3px;
+}
+.activity-page .variation-chips a[aria-current='true'] {
+  background: var(--gm-primary-container);
+  border-color: var(--gm-primary);
+  box-shadow: inset 0 0 0 1px var(--gm-primary);
+}
+.activity-page .activity-variations > div.is-chosen,
+.activity-page .activity-variations > div:target {
+  border-color: var(--gm-primary);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}

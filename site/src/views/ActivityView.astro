@@ -21,6 +21,7 @@ import {
 } from '../lib/activities';
 import { findGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
+import { relatedCards, type RelatedFacts } from '../lib/related';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -44,7 +45,18 @@ const isoDate = (date: Date) => date.toISOString().slice(0, 10);
 
 const all = await getCollection('activityCards');
 const shown = listedActivities(all);
-const related = d.related
+/** Related cards: hand-picked first, then the best functional matches to three (WEB-008). */
+const facts = (a: (typeof shown)[number]): RelatedFacts => ({
+  slug: a.id,
+  type: a.data.type,
+  energy: a.data.energy,
+  settings: a.data.settings,
+  groups: a.data.groups,
+  senses: a.data.senses,
+  materials: a.data.materials,
+});
+const relatedSlugs = withdrawn ? [] : relatedCards(facts(activity), shown.map(facts), d.related, { min: 3, max: 4 });
+const related = relatedSlugs
   .map((slug) => shown.find((a) => a.id === slug))
   .filter((a) => a !== undefined);
 const guides = withdrawn
@@ -120,7 +132,7 @@ const jsonLd = withdrawn
       <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
-        <button type="button" class="btn" data-print><Icon name="print" />Print the card</button>
+        <button type="button" class="btn" data-print hidden><Icon name="print" />Print the card</button>
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
         </button>
@@ -174,10 +186,24 @@ const jsonLd = withdrawn
 
         <section class="activity-adapt reveal" aria-labelledby="adapt">
           <h2 id="adapt">Make it easier or different</h2>
+          {
+            d.variations.length > 1 && (
+              <nav class="variation-chips no-print" aria-labelledby="variation-chips-label">
+                <p id="variation-chips-label" class="variation-chips__label">Jump to a version</p>
+                <ul class="variation-chips__list">
+                  {d.variations.map((v) => (
+                    <li>
+                      <a href={`#${v.kind}`} data-variation={v.kind}>{VARIATION_LABELS[v.kind]}</a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )
+          }
           <dl class="activity-variations">
             {
               d.variations.map((v) => (
-                <div>
+                <div id={v.kind} class="activity-variation" tabindex="-1">
                   <dt>{VARIATION_LABELS[v.kind]}</dt>
                   <dd>{v.text}</dd>
                 </div>
@@ -364,9 +390,41 @@ const jsonLd = withdrawn
     });
   }
 
+  // Print is a button only with JavaScript; without it, the browser's own print command shows the same print styles.
   for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.hidden = false;
     button.addEventListener('click', () => window.print());
   }
+
+  // Variation chips: a real link to each version (works without JavaScript). With it, the chosen version
+  // is marked and focused in place, without a reload, and every version stays on the page.
+  const chips = [...document.querySelectorAll<HTMLAnchorElement>('[data-variation]')];
+  const choose = (kind: string) => {
+    for (const chip of chips) {
+      if (chip.dataset.variation === kind) chip.setAttribute('aria-current', 'true');
+      else chip.removeAttribute('aria-current');
+    }
+    for (const item of document.querySelectorAll<HTMLElement>('.activity-variation')) {
+      item.classList.toggle('is-chosen', item.id === kind);
+    }
+  };
+  for (const chip of chips) {
+    chip.addEventListener('click', (event) => {
+      const kind = chip.dataset.variation ?? '';
+      const target = document.getElementById(kind);
+      if (!target) return;
+      event.preventDefault();
+      choose(kind);
+      history.replaceState(null, '', `#${kind}`);
+      target.focus();
+    });
+  }
+  const chooseFromHash = () => {
+    const kind = location.hash.slice(1);
+    if (chips.some((chip) => chip.dataset.variation === kind)) choose(kind);
+  };
+  chooseFromHash();
+  window.addEventListener('hashchange', chooseFromHash);
   // "Start activity" moves focus to the steps, not only the scroll position.
   document.querySelector('a[href="#steps"]')?.addEventListener('click', () => {
     requestAnimationFrame(() => document.getElementById('steps')?.focus());

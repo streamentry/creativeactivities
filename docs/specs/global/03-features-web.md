@@ -90,6 +90,8 @@ Risks / not doing: Search results go through the same claim rules as the pages. 
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: `site/src/lib/lower-effort.test.ts`: `lowerEffortPick` (never the top card, never heavier on any dimension, strictly lighter on one) and `lowerEffortReasons`; rendered in `ActivityFinderView.astro` (`#finder-lower`) and updated on every choice. Remaining: usability sessions (five of five participants can say why a card was offered) need people.
+
 Why: DESIGN asks that results explain why they fit and offer a lower-effort alternative, "not a mysterious match score" ([DESIGN §3](../../../DESIGN.md)).
 
 What: The why-it-fits line exists in the baseline. The lower-effort option is new: beside each result set, one card with fewer materials or less energy, never the same card as the top result.
@@ -106,7 +108,9 @@ Risks / not doing: Do not use "AI match". Do not rank by revenue.
 
 ### WEB-005 · Finder state in the URL
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
+
+Evidence: `site/src/lib/finder-state.test.ts` (serialize/parse round trip, only facet values, no search text, noindex from three fit filters); finder script in `site/src/views/ActivityFinderView.astro` restores choices from the query, uses `history.pushState` per change and `popstate` for Back, and sets robots noindex for three or more fit filters; `site/scripts/check-site.mjs` checks the `/activity/` canonical, that it is indexable, and that the bundled finder script carries the noindex rule. Checked in a browser (2026-11-15): reload restores results, Back returns to the previous choice, search words never reach the URL.
 
 Why: Visitors share a plan with a relative, a care team or a class ([MISSION, "Share the moment"](../../../MISSION.md)). A shareable link makes the finder useful to more than one person.
 
@@ -151,6 +155,8 @@ Priority P2 · Phase S2 · Status new · Pillars: all
 ### WEB-008 · Related cards by function
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/related.test.ts` and `site/src/lib/related.ts`: hand-picked `related` first, then the best functional matches (type, setting, senses, energy, group, material class) to three, never a keyword-only match; used in `ActivityView.astro`. Remaining: the one-time human review of each card's related list before S1 exit.
 
 Why: VISION asks that related activities are chosen by "functional similarity, not arbitrary keywords" ([VISION, "Each activity page should answer the entire task"](../../../VISION.md)). Cards have a `related` field in the baseline.
 
@@ -236,6 +242,8 @@ Risks / not doing: Stock photos are not enough; they must show the actual proces
 ### WEB-013 · Variation chips with an in-page switch
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: Chips in `site/src/views/ActivityView.astro` are real links (`#<kind>`) with `aria-current`; JS marks and focuses the chosen version without reload (`site/src/styles/studio-activity.css`); all versions stay in the HTML and print. Checked in a browser with JS on and off (2026-11-15). Remaining: each variation must change at least one step (content review across the 38 cards).
 
 Why: One idea, many adaptations, is a core differentiator ([MISSION, "What makes us different"](../../../MISSION.md)). Variations exist as text in the baseline; switching between them is new.
 
@@ -666,6 +674,8 @@ Risks / not doing: Tables and step images can overflow. Fix them in the template
 ### WEB-038 · Works without JavaScript, within a page budget
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: Checked with `javaScriptEnabled: false` on nine templates (home, finder, card, pack, hub, guide, game, today, prose; 2026-11-15): content renders, the finder lists all 38 cards, card variations and print work; the Print, Save and Share buttons start hidden and appear only with JS (`activities.css`, `ActivityView.astro`, `PackView.astro`). Budget: `pnpm check:budget` 0 over (microsite largest JS 3.0 kB). Remaining: the finder's filtering needs JS by design, and a human print check.
 
 Why: "Progressive enhancement: HTML content and critical navigation work before JavaScript" ([DESIGN §7](../../../DESIGN.md)). Low-speed connections are a named underserved condition ([VISION, "Ten-year vision"](../../../VISION.md)).
 
