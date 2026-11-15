@@ -53,7 +53,13 @@ const jsonLd = [
   faqPage(d.faq),
 ];
 ---
-<BaseLayout title={d.seoTitle ?? d.title} description={d.description} image="/og/activities.png" jsonLd={jsonLd}>
+<BaseLayout
+  title={d.seoTitle ?? d.title}
+  description={d.description}
+  image="/og/activities.png"
+  jsonLd={jsonLd}
+  noindex={!d.indexable}
+>
   <Breadcrumbs items={crumbs} />
   <div class="container hub">
     <header class="page-head">

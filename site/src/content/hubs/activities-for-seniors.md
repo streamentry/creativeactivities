@@ -21,7 +21,7 @@ faq:
   - q: "Do these activities test memory or skill?"
     a: "No. Nothing here asks someone to recall facts or get an answer right. The aim is company and a pleasant result, so there is no score and no wrong way to do it."
 guides: [activities/ideas, activities/arts-and-crafts, activities/outdoor-and-gardening, activities/music, caregiving/how-to-play-together]
-related: [arts-and-crafts-for-seniors, bedside-activities, grandparent-grandchild-activities]
+related: [arts-and-crafts-for-seniors, bedside-activities, grandparent-grandchild-activities, dementia-activities]
 published: 2026-11-13
 updated: 2026-11-13
 author: Creative Activities editorial team

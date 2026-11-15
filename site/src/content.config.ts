@@ -119,7 +119,11 @@ const hubs = defineCollection({
     sources: z
       .array(z.object({ title: z.string(), publisher: z.string(), url: z.string().url() }))
       .default([]),
-  }),
+    /** Indexed only when the H3 threshold passes and any required reviewer has signed off (02 H3; 12 SEO-009). */
+    indexable: z.boolean().default(true),
+    /** Why the hub is held from search. Required when `indexable` is false. */
+    indexHold: z.string().max(400).optional(),
+  }).refine((d) => d.indexable || (d.indexHold ?? '').length > 0, 'a noindex hub needs an indexHold reason'),
 });
 
 export const collections = { guides, guidesI18n, activityCards, hubs };
