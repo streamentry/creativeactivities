@@ -43,7 +43,9 @@ function fileGz(cache, absPath) {
 export function pageWeight(html, relPath, cache) {
   const weight = { js: 0, css: 0, img: 0, imgs: [] };
   const seen = new Set();
-  for (const [, url] of html.matchAll(LINK_RE)) {
+  for (const [tag, url] of html.matchAll(LINK_RE)) {
+    // Print-only stylesheets do not block the screen render, so they are not critical CSS.
+    if (/\bmedia="print"/.test(tag)) continue;
     const abs = join(DIST, url.split('?')[0]);
     if (seen.has(abs) || !existsSync(abs)) continue;
     seen.add(abs);

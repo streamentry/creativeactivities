@@ -39,3 +39,24 @@ import { EVIDENCE_ROWS, STRENGTH_LABELS } from '../lib/evidence-labels';
     </table>
   </div>
 </section>
+
+<style>
+/* Only pages that render the table load these rules. */
+.evidence-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.evidence-table th,
+.evidence-table td {
+  padding: 0.6rem;
+  border-bottom: 1px solid var(--gm-secondary-outline);
+  text-align: left;
+  vertical-align: top;
+}
+
+.evidence-table tr:target {
+  background: var(--gm-primary-container);
+}
+</style>

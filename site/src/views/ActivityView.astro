@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activity-cards.css';
 import '../styles/activities.css';
 import '../styles/studio-activity.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
@@ -336,6 +337,7 @@ const jsonLd = withdrawn
       }
     </footer>
   </div>
+  <link rel="stylesheet" href="/styles/activity-print.css" media="print" />
 </BaseLayout>
 
 <script>

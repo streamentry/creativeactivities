@@ -110,9 +110,13 @@ Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` doe
 | `https://play.google.com` | Google Play listing and store badge (`site/src/lib/site.ts`, app share) |
 | `https://creativeactivities.org` | The site's own address, used in app links and share text (`lib/shared/utils/`) |
 | `https://reportaproblem.apple.com` | Apple's purchase support, linked from the terms and support pages |
-| `https://www.apple.com` | Apple's end-user licence terms, linked from the terms page |
+| `https://www.apple.com` | Apple's end-user license terms, linked from the terms page |
 | `https://policies.google.com`, `https://tools.google.com` | Google's privacy and ads-settings pages, linked from the privacy notice |
 | `https://www.cloudflare.com` | Host information, linked from the privacy notice |
+| `https://arttherapy.org` | American Art Therapy Association credentials page, cited as a source and linked from the art-therapy guides (`finding-an-art-therapist`, `group-art-activities`) |
+| `https://atcb.org` | Art Therapy Credentials Board register, linked from `/art-therapy-and-creative-activities/` so readers can check a US credential |
+| `https://www.baat.org` | British Association of Art Therapists, linked from the same page |
+| `https://www.hcpc-uk.org` | Health and Care Professions Council register (UK protected titles), linked from the same page |
 
 ### 4d. Namespace identifiers (not requested)
 

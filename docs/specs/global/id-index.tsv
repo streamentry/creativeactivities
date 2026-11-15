@@ -3,7 +3,7 @@ WEB-001	P0	S1	exists	03-features-web.md	Activity finder
 WEB-002	P1	S2	new	03-features-web.md	Describe your situation
 WEB-003	P1	S2	new	03-features-web.md	Site search with care and family language
 WEB-004	P1	S2	partial	03-features-web.md	Why it fits, and a lower-effort option
-WEB-005	P1	S2	new	03-features-web.md	Finder state in the URL
+WEB-005	P1	S2	exists	03-features-web.md	Finder state in the URL
 WEB-006	P1	S2	new	03-features-web.md	What I have mode
 WEB-007	P2	S2	new	03-features-web.md	One idea right now
 WEB-008	P1	S2	partial	03-features-web.md	Related cards by function
@@ -25,9 +25,9 @@ WEB-023	P0	S2	partial	03-features-web.md	Scope line on every page
 WEB-024	P0	S1	exists	03-features-web.md	It's fine to stop and "not today"
 WEB-025	P0	S1	partial	03-features-web.md	We tried this
 WEB-026	P0	S1	partial	03-features-web.md	This didn't fit
-WEB-027	P1	S2	new	03-features-web.md	Card changelog
+WEB-027	P1	S2	partial	03-features-web.md	Card changelog
 WEB-028	P1	S2	partial	03-features-web.md	Saved collections on the device
-WEB-029	P0	S2	new	03-features-web.md	Data control on the device
+WEB-029	P0	S2	exists	03-features-web.md	Data control on the device
 WEB-030	P2	S3	new	03-features-web.md	Account-optional sync
 WEB-031	P1	S2	partial	03-features-web.md	Weekly plan, printable
 WEB-032	P1	S2	new	03-features-web.md	Paths
@@ -35,7 +35,7 @@ WEB-033	P2	S2	new	03-features-web.md	Seasonal hubs and a "this season" calendar
 WEB-034	P1	S2	new	03-features-web.md	Occasion hubs
 WEB-035	P0	S1	exists	03-features-web.md	Large text, high contrast and reduced motion
 WEB-036	P0	S1	partial	03-features-web.md	Keyboard, focus and screen reader on every template
-WEB-037	P0	S2	partial	03-features-web.md	Zoom and small-screen reflow
+WEB-037	P0	S2	exists	03-features-web.md	Zoom and small-screen reflow
 WEB-038	P0	S2	partial	03-features-web.md	Works without JavaScript, within a page budget
 WEB-039	P1	S2	new	03-features-web.md	Plain-language mode
 WEB-040	P1	S2	new	03-features-web.md	Offline reading
@@ -52,11 +52,11 @@ WEB-050	P1	S2	new	03-features-web.md	Share a card
 WEB-051	P1	S2	partial	03-features-web.md	Games filters
 WEB-052	P1	S2	new	03-features-web.md	Printable partner on each game page
 WEB-053	P1	S2	new	03-features-web.md	Difficulty without scores
-WEB-054	P0	S2	new	03-features-web.md	Stop and rest on every game
+WEB-054	P0	S2	partial	03-features-web.md	Stop and rest on every game
 WEB-055	P0	S1	exists	03-features-web.md	Family photos stay on the device
 WEB-056	P0	S1	exists	03-features-web.md	Structured data that matches visible content
 WEB-057	P0	S1	partial	03-features-web.md	Byline and reviewer block
-WEB-058	P0	S2	new	03-features-web.md	Report a problem
+WEB-058	P0	S2	partial	03-features-web.md	Report a problem
 WEB-059	P0	S2	partial	03-features-web.md	Intent hub template
 WEB-060	P0	S1	partial	03-features-web.md	Art-therapy boundary page
 WEB-061	P0	S1	partial	03-features-web.md	Crisis-safe route
@@ -123,7 +123,7 @@ GAME-007	P1	S2	exists	05-games.md	Large-print word search
 GAME-022	P1	S2	new	05-games.md	Four together
 GAME-023	P2	S3	new	05-games.md	Word and picture pairs
 GAME-024	P3	S3	new	05-games.md	Rhyme pictures
-GAME-025	P1	S2	exists	05-games.md	Story dice
+GAME-025	P1	S2	new	05-games.md	Story dice
 GAME-026	P2	S2	new	05-games.md	Sound loop maker
 GAME-027	P2	S2	new	05-games.md	Keep the beat
 GAME-028	P2	S3	new	05-games.md	Music choices
@@ -389,17 +389,17 @@ TSA-002	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Testing with assi
 TSA-003	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Zoom, reflow, motion and timing
 TSA-004	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Keyboard, focus and drag alternatives
 TSA-005	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Color, contrast and text alternatives
-TSA-006	P1	S2	new	14-trust-safety-accessibility-privacy.md	Flashing and motion in games
-TSA-007	P1	S2	new	14-trust-safety-accessibility-privacy.md	Accessibility statement and feedback route
+TSA-006	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Flashing and motion in games
+TSA-007	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Accessibility statement and feedback route
 TSA-008	P1	S2	new	14-trust-safety-accessibility-privacy.md	Plain-language standard
-TSA-009	P1	S2	new	14-trust-safety-accessibility-privacy.md	Accessibility regression tests in CI
+TSA-009	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Accessibility regression tests in CI
 TSA-010	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No accounts for the core product
-TSA-011	P0	S2	new	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
+TSA-011	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
 TSA-012	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Event allowlist and no health data
 TSA-013	P0	S2	new	14-trust-safety-accessibility-privacy.md	Special-category data posture (GDPR Article 9)
 TSA-014	P1	S2	new	14-trust-safety-accessibility-privacy.md	Consent for non-essential storage
 TSA-015	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Photos stay on the device
-TSA-016	P1	S2	new	14-trust-safety-accessibility-privacy.md	Retention, deletion and data requests
+TSA-016	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Retention, deletion and data requests
 TSA-017	P1	S2	new	14-trust-safety-accessibility-privacy.md	Privacy notice and store privacy labels
 TSA-018	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Child-reachable default
 TSA-019	P0	S2	new	14-trust-safety-accessibility-privacy.md	No ads or ad technology on child-reachable pages
@@ -407,30 +407,30 @@ TSA-020	P0	S2	new	14-trust-safety-accessibility-privacy.md	UK Age Appropriate De
 TSA-021	P0	S2	new	14-trust-safety-accessibility-privacy.md	Children in media
 TSA-022	P1	S2	new	14-trust-safety-accessibility-privacy.md	Parenting content boundaries
 TSA-023	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Standard safety vocabulary and fields
-TSA-024	P0	S2	new	14-trust-safety-accessibility-privacy.md	Supervision and food-as-material rules
+TSA-024	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Supervision and food-as-material rules
 TSA-025	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Stop-and-switch note
 TSA-026	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Scope statement on each card
-TSA-027	P0	S2	new	14-trust-safety-accessibility-privacy.md	Crisis route on activities that invite disclosure
+TSA-027	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Crisis route on activities that invite disclosure
 TSA-028	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Claims vocabulary and banned words
-TSA-029	P0	S2	new	14-trust-safety-accessibility-privacy.md	No cognitive or brain-training outcome claims
-TSA-030	P0	S2	new	14-trust-safety-accessibility-privacy.md	Art therapy boundary
+TSA-029	P0	S2	exists	14-trust-safety-accessibility-privacy.md	No cognitive or brain-training outcome claims
+TSA-030	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Art therapy boundary
 TSA-031	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Evidence labels next to benefit sentences
-TSA-032	P1	S2	new	14-trust-safety-accessibility-privacy.md	Store, partner and marketing copy under the same policy
+TSA-032	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Store, partner and marketing copy under the same policy
 TSA-033	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Editorial policy and roles
 TSA-034	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Credentialed review scope record
 TSA-035	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Corrections route and log
 TSA-036	P1	S2	new	14-trust-safety-accessibility-privacy.md	Review cadence
-TSA-037	P1	S2	new	14-trust-safety-accessibility-privacy.md	AI-assistance disclosure
+TSA-037	P1	S2	partial	14-trust-safety-accessibility-privacy.md	AI-assistance disclosure
 TSA-038	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Image rights and consent log
 TSA-039	P1	S2	new	14-trust-safety-accessibility-privacy.md	Moderation and review integrity for user content
 TSA-040	P1	S2	new	14-trust-safety-accessibility-privacy.md	Platform law check for user content
 TSA-041	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Security headers and content security policy
-TSA-042	P1	S2	new	14-trust-safety-accessibility-privacy.md	Third-party scripts, fonts and subresource integrity
-TSA-043	P1	S2	new	14-trust-safety-accessibility-privacy.md	Secrets and dependencies
+TSA-042	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Third-party scripts, fonts and subresource integrity
+TSA-043	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Secrets and dependencies
 TSA-044	P1	S2	new	14-trust-safety-accessibility-privacy.md	Forms: anti-abuse without heavy CAPTCHA
 TSA-045	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Response to an unsafe or wrong activity
-TSA-046	P0	S2	new	14-trust-safety-accessibility-privacy.md	Privacy and security breach process
-TSA-047	P1	S2	new	14-trust-safety-accessibility-privacy.md	Safety report route
+TSA-046	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Privacy and security breach process
+TSA-047	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Safety report route
 TSA-048	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Transparency pages set
 TSA-049	P1	S2	new	14-trust-safety-accessibility-privacy.md	Sponsorship and partner disclosure
 TSA-050	P3	S4	new	14-trust-safety-accessibility-privacy.md	Physical kit product safety, if sold

@@ -1,0 +1,92 @@
+/* Activity cards: the card list used by guides, games, hubs, home, the finder
+   and related cards. Split from activities.css so pages that only list cards do
+   not load the activity page, finder and print styles (WEB-074 budget). */
+
+/* ---------- Activity cards (finder, related, guides, home) ---------- */
+.activity-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.activity-grid > li[hidden] {
+  display: none;
+}
+.activity-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  height: 100%;
+  padding: var(--space-lg);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-top: 6px solid var(--gm-accent);
+  border-radius: var(--radius-lg);
+  color: var(--gm-on-surface);
+  text-decoration: none;
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) ease;
+}
+.activity-card:hover,
+.activity-card:focus-visible {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-raised);
+}
+.activity-card__type {
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+}
+.activity-card__name {
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+  line-height: var(--leading-heading);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.activity-card__glance {
+  font-weight: 700;
+}
+/* Each glance fact is its own small paper tag, so facts never run together
+   and still read as separate items with no colour. */
+.activity-card__glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+.activity-card__fact {
+  padding: 2px var(--space-sm);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-sm);
+  background: var(--gm-background);
+  font-size: var(--text-sm);
+}
+.activity-card__why {
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--gm-surface-sunken);
+  border-left: 4px solid var(--gm-primary);
+  border-radius: var(--radius-sm);
+  font-size: var(--text-sm);
+}
+.activity-card__why[hidden] {
+  display: none;
+}
+.activity-card__easier {
+  margin-top: auto;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--gm-surface-sunken);
+  font-size: var(--text-sm);
+}
+@media (prefers-reduced-motion: reduce) {
+  .activity-card {
+    transition: none;
+  }
+  .activity-card:hover,
+  .activity-card:focus-visible {
+    transform: none;
+  }
+}

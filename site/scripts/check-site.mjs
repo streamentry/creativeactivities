@@ -170,7 +170,9 @@ for (const file of htmlFiles) {
   if (!is404) descriptions.set(langKey + desc, [...(descriptions.get(langKey + desc) ?? []), rel]);
 
   const pageCsp = html.match(/<meta http-equiv="content-security-policy" content="([^"]*)"/i)?.[1] ?? '';
-  const missingHash = (pageCsp.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
+  // Only the page's script-src hashes matter here; style-src hashes are a separate directive.
+  const pageScripts = pageCsp.match(/script-src [^;]*/)?.[0] ?? '';
+  const missingHash = (pageScripts.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);

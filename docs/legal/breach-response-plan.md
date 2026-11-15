@@ -12,8 +12,8 @@ The legal points below are general knowledge, not advice. Counsel must verify ea
 
 We hold little personal data (see [retention and data requests](retention-and-data-requests.md)). The realistic incidents are:
 
-- Unauthorised access to the support mailbox, which holds requests and safety reports.
-- Unauthorised access to the analytics account, the hosting account (Cloudflare), the git host, or an app store developer account.
+- Unauthorized access to the support mailbox, which holds requests and safety reports.
+- Unauthorized access to the analytics account, the hosting account (Cloudflare), the git host, or an app store developer account.
 - A secret in the repository or in a build, such as an API key or the app's signing material (see the secret scan in `site/src/lib/secrets.test.ts`).
 - A website change that exposes reader data, such as a script that sends more than the inventory lists ([data-inventory.md](../specs/global/data-inventory.md)).
 - Loss of the signing keys for the app.

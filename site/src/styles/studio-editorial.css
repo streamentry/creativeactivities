@@ -375,28 +375,4 @@ html[data-contrast='high'] .pack-cover::before {
   }
 }
 
-.evidence-table table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.95rem;
-}
 
-.evidence-table th,
-.evidence-table td {
-  padding: 0.6rem;
-  border-bottom: 1px solid var(--gm-secondary-outline);
-  text-align: left;
-  vertical-align: top;
-}
-
-.evidence-table tr:target {
-  background: var(--gm-primary-container);
-}
-
-/* Crisis route printed on an activity card (TSA-027). */
-.activity-crisis {
-  margin-top: 0.75rem;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid var(--gm-outline);
-  font-size: 0.9rem;
-}

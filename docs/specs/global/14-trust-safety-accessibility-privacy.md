@@ -87,7 +87,7 @@ Risks / not doing: Do not hide a control behind hover.
 ### TSA-005 · Color, contrast and text alternatives
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
-Evidence: axe colour-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
+Evidence: axe color-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
 
 Why: Instructions must not depend on color. Instructional images need text alternatives [DESIGN §6; SEO.md §5.2].
 
@@ -104,7 +104,7 @@ Risks / not doing: Do not write alt text that repeats the keywords.
 ### TSA-006 · Flashing and motion in games
 Priority P1 · Phase S2 · Status partial · Pillars: PLAY
 
-Evidence: no flashing content found in site/src/styles/games.css or game components; the breathing circle has no reduced-motion transform and its words carry the cue; a11y-check.mjs fails on looping animation under reduced motion. Not done: a flash analyser run on each game and animation.
+Evidence: no flashing content found in site/src/styles/games.css or game components; the breathing circle has no reduced-motion transform and its words carry the cue; a11y-check.mjs fails on looping animation under reduced motion. Not done: a flash analyzer run on each game and animation.
 
 Why: Flashing content can trigger seizures, and the games use motion [R4 §5].
 
