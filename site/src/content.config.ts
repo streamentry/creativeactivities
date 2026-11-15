@@ -46,6 +46,8 @@ const guideSchema = z.object({
     relatedGames: z.array(z.enum(GAME_SLUGS)).default([]),
     related: z.array(z.string()).default([]),
     health: z.boolean().default(false),
+    /** Shows the crisis-safe route (WEB-061) on pages that invite talk about feelings, grief or loss. */
+    crisisRoute: z.boolean().default(false),
 });
 
 const guides = defineCollection({

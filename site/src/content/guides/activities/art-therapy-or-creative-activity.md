@@ -34,6 +34,7 @@ sources:
 relatedGames: [coloring, conversation-cards]
 related: [activities/arts-and-crafts, activities/finding-an-art-therapist, activities/creative-arts-therapies, activities/art-projects, caregiving/how-to-play-together]
 health: true
+crisisRoute: true
 ---
 
 Art therapy and a creative art activity can look alike from the outside. Both use paper, paint and clay. They are different in purpose, in who leads them and in the training behind them. Knowing the difference helps you choose the right kind of support, and it keeps you from calling a fun afternoon of painting something it is not. This page explains the difference and what you can do at home today.
@@ -65,7 +66,7 @@ The activities on this site are ordinary activities of this kind. They are for t
 
 Talk to a doctor first. A doctor can tell you whether a referral to a licensed mental health professional makes sense. If someone you care for has ongoing anxiety, depression, trauma or other emotional difficulties, a professional can help in ways a craft table cannot.
 
-For help finding and checking a therapist, read [how to find and check an art therapist](/activities/finding-an-art-therapist/). If a person talks about harming themselves, or you are worried about their safety, do not wait. Contact a doctor, a crisis line or emergency services right away.
+For help finding and checking a therapist, read [how to find and check an art therapist](/activities/finding-an-art-therapist/). For a plain explanation of how the profession and our activities differ, see [art therapy and creative activities](/art-therapy-and-creative-activities/). If a person talks about harming themselves, or you are worried about their safety, do not wait. Contact a doctor, a crisis line or emergency services right away.
 
 ## What can you do at home today?
 

@@ -31,6 +31,7 @@ sources:
 relatedGames: [coloring, conversation-cards]
 related: [activities/art-therapy-or-creative-activity, activities/arts-and-crafts, activities/sensory, activities/ideas, caregiving/how-to-play-together]
 health: false
+crisisRoute: true
 ---
 
 These are relaxing creative activities for adults to try at home. They are not art therapy, and they do not treat, cure or prevent any condition. They are simply enjoyable ways to make something with your hands, alone or with someone you care about. If you want to know what art therapy is as a profession, read [art therapy or a creative activity](/activities/art-therapy-or-creative-activity/) first, then come back here for ideas.

@@ -64,6 +64,7 @@ sources:
 relatedGames: [calm-breathing, picture-bingo, conversation-cards]
 related: [caregiving/how-to-play-together, caregiving/late-day-restlessness, caregiving/when-they-say-no, activities/care-home-groups, activities/visiting]
 health: false
+crisisRoute: true
 ---
 
 If you are caring for someone living with dementia, you are probably reading this late, tired, and with a list of things you have not done. That is normal. Caring for yourself is not a luxury or a reward for finishing everything. It is what lets you keep going.

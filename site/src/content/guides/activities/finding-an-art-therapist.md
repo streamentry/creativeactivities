@@ -40,6 +40,7 @@ sources:
 relatedGames: []
 related: [activities/art-therapy-or-creative-activity, activities/creative-arts-therapies, activities/arts-and-crafts, caregiving/after-dementia-diagnosis, caregiving/caregiver-self-care]
 health: true
+crisisRoute: true
 ---
 
 Finding a suitable art therapist takes some checking. The title is not the same everywhere, and not every person who offers art sessions is trained in therapy. This page explains how to check credentials in the United States and the United Kingdom, how to search the official register, and what to ask before a first session. It also covers what you can do at home while you look.
@@ -86,7 +87,7 @@ A good therapist will answer these plainly. If you feel rushed or pressured, tha
 
 ## What can we do at home while we look?
 
-Waiting for a referral does not mean nothing can happen. Creative activities at home can be a pleasant part of your week, and they do not need to be called therapy. Some easy starting points are:
+Waiting for a referral does not mean nothing can happen. Creative activities at home can be a pleasant part of your week, and they do not need to be called therapy. For the difference between the profession and our activities, see [art therapy and creative activities](/art-therapy-and-creative-activities/). Some easy starting points are:
 
 - [Draw to music](/activity/draw-to-music/), letting lines and colors follow the sound.
 - [Make a greeting card](/activity/make-a-greeting-card/) for someone you both know.
