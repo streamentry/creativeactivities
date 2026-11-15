@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import { SECTIONS } from '../content.config';
+import { isRetiredSection } from './retired-guides';
 import { GAMES } from '../data/games';
 import { PACKS } from '../data/packs';
 import { listedActivities } from './activities';
@@ -44,7 +45,7 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
       langs: ['en'],
     })),
     ...PACKS.map((p) => ({ path: `/activity/packs/${p.id}/`, lastmod: SITE.updated, langs: ['en'] })),
-    ...SECTIONS.map((s) => ({ path: `/${s}/`, lastmod: SITE.updated, langs: EVERY })),
+    ...SECTIONS.filter((s) => !isRetiredSection(s)).map((s) => ({ path: `/${s}/`, lastmod: SITE.updated, langs: EVERY })),
     ...guides
       .filter((g) => g.lang === 'en')
       .map((g) => ({

@@ -2,7 +2,11 @@ import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
 
-export const SECTIONS = ['activities', 'caregiving', 'brain-health'] as const;
+/**
+ * Guide sections. `brain-health` is retired in English (lib/retired-guides.ts)
+ * but stays here so its translations remain valid until they are replaced.
+ */
+export const SECTIONS = ['activities', 'crafts', 'kids', 'together', 'creative-calm', 'caregiving', 'brain-health'] as const;
 
 export const GAME_SLUGS = [
   'picture-pairs',

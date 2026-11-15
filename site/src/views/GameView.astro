@@ -11,7 +11,7 @@ import type { GameInfo } from '../data/games';
 import { breadcrumbs, faqPage, game as gameSchema } from '../lib/schema';
 import { localeInfo, localePath, localizeHtml } from '../i18n/locales';
 import { gameLanguages, localStageHint, localizeGame, localizedGames } from '../i18n/games';
-import { findGuide } from '../i18n/guides';
+import { resolveGuide } from '../i18n/guides';
 import { playProps } from '../i18n/play';
 import { fill, ui } from '../i18n/ui';
 import '../styles/games.css';
@@ -56,11 +56,12 @@ const others = localizedGames(lang)
 const guides = (
   await Promise.all(
     game.relatedGuides.map(async (ref) => {
-      const local = (await findGuide(lang, ref)) ?? (await findGuide('en', ref));
-      return local ? { href: localePath(local.lang, `/${ref}/`), title: local.entry.data.title } : null;
+      const local = await resolveGuide(lang, ref);
+      return local ? { href: localePath(local.lang, `/${local.id}/`), title: local.entry.data.title } : null;
     }),
   )
-).filter((g): g is { href: string; title: string } => g !== null);
+).filter((g): g is { href: string; title: string } => g !== null)
+  .filter((g, i, all) => all.findIndex((x) => x.href === g.href) === i);
 
 const ogImage = `/og/games/${game.slug}.png`;
 const faq = [...game.faq, appFaqFor(game.slug, lang)];

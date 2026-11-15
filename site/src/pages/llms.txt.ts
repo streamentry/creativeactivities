@@ -10,17 +10,18 @@ import { PUBLISHED } from '../i18n/ui';
 import { languageOverview } from '../lib/language-support';
 import { languageSupport } from '../lib/language-support-data';
 import { listedActivities } from '../lib/activities';
+import { isRetiredGuide, isRetiredSection } from '../lib/retired-guides';
 
 /** A plain-text map of the site for AI answer engines (llmstxt.org format). */
 export const GET: APIRoute = async () => {
-  const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
+  const guides = (await getCollection('guides')).filter((g) => !isRetiredGuide(g.id)).sort((a, b) => a.data.order - b.data.order);
   const languages = languageOverview(await languageSupport(guides.length));
   const activities = listedActivities(await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
   const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const lines: string[] = [
     `# ${SITE.name} (${SITE.domain})`,
     '',
-    `> Free creative activities to do together, with printable cards, plus gentle browser games, a free mobile app and practical guides, first for families with older adults, including people living with dementia. No sign-up, no timers, no scores. Recreational and informational only: not medical advice, and no claims to diagnose, treat or prevent dementia.`,
+    `> Free creative activities to do together, for anyone caring for someone else, whatever their age, ability, language or budget: printable activity cards with easier versions, crafts, children's activities, activities across generations, creative calm, gentle browser games and a free mobile app. No sign-up, no timers, no scores. Recreational and informational only: not medical advice, and no claims to diagnose, treat or prevent dementia.`,
     '',
     'Key facts:',
     '- All games are free, run in a web browser and need no account.',
@@ -49,7 +50,7 @@ export const GET: APIRoute = async () => {
     '## Games',
     ...GAMES.map((g) => `- [${g.name}](${SITE.url}/games/${g.slug}/): ${g.description}`),
   ];
-  for (const section of SECTIONS) {
+  for (const section of SECTIONS.filter((s) => !isRetiredSection(s))) {
     lines.push('', `## ${SECTION_META[section].title}`);
     for (const g of guides.filter((e) => e.data.section === section)) {
       lines.push(`- [${g.data.title}](${SITE.url}/${g.id}/): ${g.data.description}`);
