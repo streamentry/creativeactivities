@@ -364,7 +364,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | COM-019 | P0 | new | Contributor credit and license |
 | COM-020 | P0 | new | Contributor guidelines and claim rules |
 | COM-021 | P1 | new | Editorial review queue and roles |
-| COM-031 | P0 | new | Suggest a correction on every activity |
+| COM-031 | P0 | partial | Suggest a correction on every activity |
 | COM-024 | P2 | new | My made list (private, on the device) |
 | COM-025 | P2 | new | Made together printable card with credit |
 | COM-028 | P2 | new | Email digest of new activities (opt-in) |
@@ -376,13 +376,13 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 |---|---|---|---|
 | SEO-005 | P0 | new | Migrate from the old domain and old host |
 | SEO-006 | P0 | partial | Page-type rules and the canonical activity |
-| SEO-007 | P0 | new | No thin or programmatic pages |
+| SEO-007 | P0 | partial | No thin or programmatic pages |
 | SEO-008 | P0 | partial | Intent ownership map |
 | SEO-011 | P0 | partial | Answer block on every activity and hub |
 | SEO-012 | P0 | partial | Bylines, reviewers and dates |
 | SEO-013 | P0 | partial | Structured data policy |
 | SEO-014 | P0 | partial | Internal linking graph |
-| SEO-015 | P0 | new | Duplicate and near-duplicate audit |
+| SEO-015 | P0 | partial | Duplicate and near-duplicate audit |
 | SEO-016 | P1 | new | Reminiscence hub (non-clinical) |
 | SEO-017 | P1 | new | Crafts for limited hand strength or arthritis |
 | SEO-018 | P1 | partial | Grandparent and grandchild expansion |
@@ -420,9 +420,9 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-003 | P0 | partial | Native review workflow |
 | L10N-004 | P0 | new | Reviewer recruitment and credentials |
 | L10N-005 | P0 | new | Content that is never published by machine alone |
-| L10N-006 | P0 | new | Structure survives translation |
+| L10N-006 | P0 | partial | Structure survives translation |
 | L10N-007 | P0 | new | Dementia terminology glossary per locale |
-| L10N-008 | P0 | new | Brand-name propagation check |
+| L10N-008 | P0 | partial | Brand-name propagation check |
 | L10N-009 | P0 | new | Local safety and crisis information |
 | L10N-010 | P0 | partial | Translation memory, term base and ARB extraction |
 | L10N-011 | P0 | new | Activity cards localized before guides |

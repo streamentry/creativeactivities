@@ -14,6 +14,18 @@ Updated 2026-11-15 on branch `s2h/integration`. Read with the [roadmap](18-roadm
 | Claims and safety | TSA-029, TSA-030, TSA-032, TSA-023, TSA-024, TSA-027, TSA-031, TSA-037, WEB-058, TSA-047 | Claims lint now also covers game UI, the app's English strings and store copy (no store text changed); food-as-material and supervision rules as card tests; crisis route on cards that invite disclosure; report-a-problem and safety routes |
 | Finder and cards | WEB-005, WEB-004, WEB-013, WEB-008, WEB-038 | Finder state in the URL (never search text); lower-effort option; variation chips; related cards by function; nine templates checked with JavaScript off |
 
+## Round 2 (2026-11-15)
+
+| Items | Change | Evidence |
+|---|---|---|
+| PLAT-026, TSA-043 | Global Privacy Control honored (never asked, never counted); astro 7.4.0 → 7.4.7, `pnpm audit --prod` clean | `consent.test.ts`; browser test with GPC on: no Google request even after a stored yes |
+| COM-031 | "Suggest a correction" mail link (page URL, three prompts, nothing about the visitor) on activity, guide and pack pages; printed card names `/corrections/` | `correction-mail.test.ts`, `corrections.test.ts` |
+| CNT-700 | New variation kind `large-grip` ("Easier to grip") on 30 of 38 cards; six cards are at the six-variation cap (maintainer call) | `activity-cards.test.ts` CNT-700 block |
+| SEO-007, SEO-015 | Near-duplicate and thin-page audit (`pnpm check:duplicates`, report only); 11 near-duplicate pairs, all translated game pages; all 38 cards miss only a named author | [duplicate-audit.md](duplicate-audit.md) |
+| L10N-006, L10N-008 | Translation structure check with a baseline of today's differences; old-brand check; five English mail subjects fixed | [l10n-checks.md](l10n-checks.md) |
+
+Found and not fixed: 593 translated guide pages lack the `crisisRoute` flag their English source sets, so they do not show the crisis-safe route; the fix needs a reviewer to confirm each language's crisis route (TSA-027).
+
 ## Fixed while integrating
 
 - **CSP check bug.** `check-site.mjs` compared style hashes with the script allowlist, which had led to style hashes being copied into `script-src`. It now compares script-src only; `_headers` lists exactly the 11 site-wide script hashes. Verified by serving the build with the real `_headers` and loading 11 key pages: 0 CSP violations.
