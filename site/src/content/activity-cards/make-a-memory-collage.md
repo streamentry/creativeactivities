@@ -11,6 +11,7 @@ cost: low
 mess: low
 energy: low
 supervision: nearby
+crisisRoute: true
 settings: [tabletop, seated]
 groups: [one-to-one, small-group, intergenerational]
 materials:
