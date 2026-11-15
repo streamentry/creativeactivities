@@ -1,0 +1,193 @@
+---
+/**
+ * "We tried this" and "This didn't fit" on an activity page (WEB-025, WEB-026).
+ * Hidden until the script runs, so a page without JavaScript shows no dead
+ * buttons. Each answer records a local tried list and sends one allowlisted
+ * event through track(). No free text, no account, no health details.
+ */
+import Icon from './Icon.astro';
+import { REASON_LABELS, REASON_NEXT } from '../lib/activity-feedback';
+import { NOT_A_FIT_REASONS } from '../lib/track';
+
+interface Props {
+  /** The activity's key (its URL slug). Sent as the only identifier. */
+  activity: string;
+}
+const { activity } = Astro.props;
+---
+<section class="activity-feedback no-print" aria-labelledby="feedback-heading" data-activity-feedback={activity} hidden>
+  <h2 id="feedback-heading">Did you try this?</h2>
+  <p class="activity-feedback__intro">Your answer helps us make better cards. We record the activity and your choice, not who took part.</p>
+
+  <div class="activity-feedback__actions">
+    <button type="button" class="btn btn--primary" data-tried aria-pressed="false"><Icon name="check" />We tried this</button>
+    <button type="button" class="btn" data-not-fit aria-expanded="false" aria-controls="not-fit-form">This didn't fit</button>
+  </div>
+
+  <form id="not-fit-form" class="activity-feedback__form" data-not-fit-form hidden>
+    <fieldset>
+      <legend>What did not fit?</legend>
+      {
+        NOT_A_FIT_REASONS.map((reason) => (
+          <label class="activity-feedback__reason">
+            <input type="radio" name="reason" value={reason} required />
+            <span>{REASON_LABELS[reason]}</span>
+          </label>
+        ))
+      }
+    </fieldset>
+    <button type="submit" class="btn btn--primary">Send</button>
+  </form>
+
+  <div class="activity-feedback__result" data-feedback-result tabindex="-1">
+    <p data-feedback-status role="status" aria-live="polite"></p>
+    {
+      NOT_A_FIT_REASONS.map((reason) => (
+        <p class="activity-feedback__next" data-next={reason} hidden>
+          {REASON_NEXT[reason].text} <a href={REASON_NEXT[reason].href}>{REASON_NEXT[reason].label}</a>
+        </p>
+      ))
+    }
+  </div>
+</section>
+
+<script>
+  import { loadTried, markTried } from '../lib/activity-feedback';
+  import { browserStorage } from '../lib/saved-activities';
+  import { track, type NotAFitReason } from '../lib/track';
+
+  for (const section of document.querySelectorAll<HTMLElement>('[data-activity-feedback]')) {
+    const activity = section.dataset.activityFeedback ?? '';
+    const storage = browserStorage();
+    const tried = section.querySelector<HTMLButtonElement>('[data-tried]');
+    const notFit = section.querySelector<HTMLButtonElement>('[data-not-fit]');
+    const form = section.querySelector<HTMLFormElement>('[data-not-fit-form]');
+    const result = section.querySelector<HTMLElement>('[data-feedback-result]');
+    const status = section.querySelector<HTMLElement>('[data-feedback-status]');
+    if (!tried || !notFit || !form || !result || !status) continue;
+
+    const showResult = (message: string, reason?: NotAFitReason) => {
+      status.textContent = message;
+      for (const next of result.querySelectorAll<HTMLElement>('[data-next]')) {
+        next.hidden = next.dataset.next !== reason;
+      }
+      result.hidden = false;
+      result.focus();
+    };
+
+    // Shown only now, so the page without JavaScript has no buttons that do nothing.
+    section.hidden = false;
+    result.hidden = true;
+    form.hidden = true;
+
+    if (loadTried(storage).includes(activity)) tried.setAttribute('aria-pressed', 'true');
+
+    tried.addEventListener('click', () => {
+      const { stored, first } = markTried(storage, activity);
+      if (first) track('activity_started_confirmed', { activity });
+      tried.setAttribute('aria-pressed', 'true');
+      showResult(
+        first
+          ? stored
+            ? 'Thanks. We noted that on this device.'
+            : 'Thanks. This browser did not allow saving, so nothing is kept here.'
+          : 'You already marked this one. Thanks.',
+      );
+    });
+
+    notFit.addEventListener('click', () => {
+      const open = form.hidden;
+      form.hidden = !open;
+      notFit.setAttribute('aria-expanded', String(open));
+      if (open) form.querySelector<HTMLInputElement>('input')?.focus();
+    });
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const picked = new FormData(form).get('reason');
+      const reason = typeof picked === 'string' ? (picked as NotAFitReason) : undefined;
+      if (!reason) return;
+      track('activity_not_a_fit', { activity, reason });
+      form.hidden = true;
+      notFit.setAttribute('aria-expanded', 'false');
+      showResult('Thanks, that helps. Here is a next step:', reason);
+    });
+  }
+</script>
+
+<style>
+  .activity-feedback {
+    margin: var(--space-lg) 0;
+    padding: var(--space-md);
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-surface-sunken);
+    border-radius: 12px;
+  }
+  .activity-feedback [hidden] {
+    display: none;
+  }
+  .activity-feedback h2 {
+    margin-top: 0;
+  }
+  .activity-feedback__intro {
+    color: var(--gm-on-surface-variant);
+  }
+  .activity-feedback__actions,
+  .activity-feedback__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    align-items: flex-start;
+  }
+  .activity-feedback__form {
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: var(--space-sm);
+  }
+  .activity-feedback fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: var(--space-xs);
+  }
+  .activity-feedback legend {
+    font-weight: 600;
+    margin-bottom: var(--space-xs);
+  }
+  .activity-feedback__reason {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    min-height: 48px;
+    cursor: pointer;
+  }
+  .activity-feedback__reason input {
+    width: 24px;
+    height: 24px;
+    flex: none;
+  }
+  .activity-feedback__result {
+    margin-top: var(--space-sm);
+  }
+  .activity-feedback__result:focus-visible,
+  .activity-feedback button:focus-visible,
+  .activity-feedback input:focus-visible,
+  .activity-feedback a:focus-visible {
+    outline: 3px solid var(--gm-primary-container);
+    outline-offset: 3px;
+  }
+  .activity-feedback__next a {
+    font-weight: 600;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .activity-feedback__form {
+      animation: activity-feedback-in 200ms ease-out;
+    }
+  }
+  @keyframes activity-feedback-in {
+    from {
+      opacity: 0;
+    }
+  }
+</style>

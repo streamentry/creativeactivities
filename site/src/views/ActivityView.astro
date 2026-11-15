@@ -7,6 +7,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
 import SafetyFlags from '../components/SafetyFlags.astro';
 import ActivityImage from '../components/ActivityImage.astro';
+import ActivityFeedback from '../components/ActivityFeedback.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs, howTo } from '../lib/schema';
 import {
@@ -166,6 +167,8 @@ const jsonLd = withdrawn
           <h2 id="stop">It is okay to stop or change it</h2>
           <p>{d.stopNote}</p>
         </section>
+
+        <ActivityFeedback activity={activity.id} />
 
         <section class="activity-adapt reveal" aria-labelledby="adapt">
           <h2 id="adapt">Make it easier or different</h2>

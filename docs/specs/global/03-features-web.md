@@ -442,7 +442,8 @@ Risks / not doing: Stop notes can become a formula. Write each one for its activ
 
 ### WEB-025 · "We tried this"
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: `site/src/components/ActivityFeedback.astro`, `site/src/lib/activity-feedback.ts` (+ tests), event `activity_started_confirmed` in `site/src/lib/track.ts`. Not built: the visitor note (no free text was shipped), the public count after the minimum (needs an aggregate endpoint, see PLAT-027 and a maintainer decision).
 
 Why: The north-star proxy is "activity starts that users voluntarily confirm" ([VISION, metrics](../../../VISION.md)), and the definition of #1 counts confirmed starts first ([README](README.md#definition-of-1-how-we-will-know)).
 
@@ -460,7 +461,8 @@ Risks / not doing: Counts can be gamed or can look like pressure. The count is a
 
 ### WEB-026 · "This didn't fit"
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: `site/src/components/ActivityFeedback.astro` (fixed reasons, next step per reason), event `activity_not_a_fit` in `site/src/lib/track.ts`, tests in `site/src/lib/activity-feedback.test.ts` and `site/src/lib/track.test.ts`. Not built: routing to the editors' queue (no backend; the event goes only to the analytics path, a maintainer decision), and the "other" text box (deliberately left out: no free text).
 
 Why: VISION names "helpful and not-fit feedback" as a usefulness measure ([VISION, Stage 1](../../../VISION.md)). Reasons such as "too messy" or "not an option for this person" tell us what to adapt ([R1 §3, "Pins… feedback"](research/01-craft-diy-platforms.md)).
 
