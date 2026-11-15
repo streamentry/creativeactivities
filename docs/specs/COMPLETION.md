@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 63 | 128 | 216 | 407 |
+| S2 | 63 | 129 | 215 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **76** | **168** | **289** | **533** |
+| **All** | **76** | **169** | **288** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -59,6 +59,15 @@ Not done for batch 1: drawings for the eight new cards (WEB-012; the 38 older ca
 
 Checks after batch 3: vitest 67 files, 2,843 pass; `tsc` clean; `astro build` 16,463 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Browser check of the built site (served locally): music hub indexable, reminiscence hub `noindex, follow`, no horizontal overflow at 375 px on a new card. CI on PR #59 after batch 1: 7 checks passed, 1 pending.
 
+### Batch 4 (2026-11-15)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Reader notice: a card past its 12-month review says "Due for a check since …" and asks readers to read the safety notes with care; the date is never refreshed without a review | WEB-076 (both acceptance lines now built; still needs an owner), TSA-036 | `overdueSince` test; a build with one card backdated showed the notice on that card only (reverted) |
+| Large-print card at `/activity/<slug>/large-print/` for every listed card: same words, steps 24 px on screen and 18 pt on paper, token ink on paper, grayscale pictures, 2-inch QR code; linked from each card and pack page; `noindex`, not in the sitemap | WEB-018 → partial (needs the three large-print readers the spec asks for) | Browser: steps 24 px, `noindex, follow`, no overflow; `check-site` caught a missing `<h1>`, fixed |
+
+Checks after batch 4: vitest 2,844 pass; `tsc` clean; `astro build` 16,516 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Not run: `check:a11y` on the new large-print template.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -73,6 +82,5 @@ Checks after batch 3: vitest 67 files, 2,843 pass; `tsc` clean; `astro build` 16
 
 ## Next batches (buildable without a person)
 
-1. Public overdue-review notice on cards (finishes WEB-076's second acceptance line).
-2. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
-3. Web features that need no data or approval: large-print editions (WEB-018), care-home weekly sheet (WEB-045), a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).
+1. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
+2. Web features that need no data or approval: care-home weekly sheet (WEB-045), a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { REVIEW_INTERVAL_MONTHS, dueDate, readFrontmatterDates, reviewQueue } from '../../scripts/review-queue-lib.mjs';
+import { REVIEW_INTERVAL_MONTHS, dueDate, overdueSince, readFrontmatterDates, reviewQueue } from '../../scripts/review-queue-lib.mjs';
 
 /** WEB-076 and TSA-036: an internal list of pages past their review date, safety-flagged cards first. */
 const item = (id: string, checked: string, safetyFlagged = false, kind = 'activity') => ({ id, kind, checked, safetyFlagged });
@@ -46,5 +46,11 @@ describe('review queue (WEB-076, TSA-036)', () => {
 
   it('rejects a bad date instead of guessing', () => {
     expect(() => reviewQueue([item('bad', 'not-a-date')], '2026-11-15')).toThrow(/bad/);
+  });
+
+  it('gives the reader notice its due date only once a page is past it', () => {
+    expect(overdueSince('2025-10-15', '2026-11-15')).toBe('2026-10-15');
+    expect(overdueSince('2025-11-15', '2026-11-15')).toBeNull();
+    expect(overdueSince('2026-06-01', '2026-11-15')).toBeNull();
   });
 });

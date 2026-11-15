@@ -43,6 +43,19 @@ export function readFrontmatterDates(frontmatter) {
 }
 
 /**
+ * The due date when a page checked on `checked` is past its review on `today`, else null.
+ * Used at build time for the reader-facing notice on activity cards (WEB-076, TSA-036).
+ * @param {string} checked ISO date
+ * @param {string} today ISO date
+ * @param {number} [months]
+ * @returns {string | null}
+ */
+export function overdueSince(checked, today, months = REVIEW_INTERVAL_MONTHS) {
+  const due = dueDate(checked, months);
+  return due < today ? due : null;
+}
+
+/**
  * @typedef {{ id: string, kind: string, checked: string, safetyFlagged: boolean }} ReviewItem
  * @typedef {ReviewItem & { due: string, daysOverdue: number }} ReviewEntry
  */
