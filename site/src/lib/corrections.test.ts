@@ -19,11 +19,15 @@ describe('corrections and boundary routes are linked (TSA-035, WEB-060)', () => 
   const read = (path: string) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 
   it('points every "Report a mistake" link at /corrections/, not /support/', () => {
-    for (const view of ['views/ActivityView.astro', 'views/HubView.astro']) {
+    for (const view of ['views/HubView.astro']) {
       const text = read(view);
       expect(text, view).toContain('href="/corrections/">Report a mistake');
       expect(text, view).not.toContain('href="/support/">Report a mistake');
     }
+    // Activity pages use "Suggest a correction" (COM-031), which also links /corrections/.
+    expect(read('views/ActivityView.astro')).toContain('<SuggestCorrection');
+    expect(read('components/SuggestCorrection.astro')).toContain('/corrections/');
+    expect(read('views/ActivityView.astro')).not.toContain('href="/support/">Report a mistake');
   });
 
   it('links the corrections page and the art-therapy boundary page from the footer', () => {

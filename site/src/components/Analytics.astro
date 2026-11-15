@@ -8,16 +8,17 @@
  * no answer, a "No thanks" or no JavaScript all mean no analytics. Consent
  * mode starts all denied and a yes grants analytics storage only; Tag
  * Manager's automatic click, link, form and other listeners and Custom HTML
- * tags are blocklisted in code (lib/consent.ts). Not rendered on Photo
+ * tags are blocklisted in code (lib/consent.ts). A browser sending Global
+ * Privacy Control is never counted and never asked. Not rendered on Photo
  * pairs, which keeps a no-third-party policy for family photos.
  */
 import { SITE } from '../lib/site';
 ---
 <meta name="ca-gtm" content={SITE.gtmContainerId} />
 <script>
-  import { browserConsentStorage, readConsent, shouldLoadAnalytics } from '../lib/consent';
+  import { browserConsentStorage, browserGpc, readConsent, shouldLoadAnalytics } from '../lib/consent';
   import { loadAnalytics } from '../lib/consent-runtime';
 
   const id = document.querySelector<HTMLMetaElement>('meta[name="ca-gtm"]')?.content ?? '';
-  if (shouldLoadAnalytics(readConsent(browserConsentStorage()))) loadAnalytics(id);
+  if (shouldLoadAnalytics(readConsent(browserConsentStorage()), browserGpc())) loadAnalytics(id);
 </script>

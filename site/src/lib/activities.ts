@@ -61,6 +61,7 @@ export const VARIATION_LABELS: Record<string, string> = {
   'with-children': 'With children',
   'low-vision': 'For low vision',
   nonverbal: 'Without words',
+  'large-grip': 'Easier to grip',
 };
 
 const COST: Record<ActivityFacts['cost'], string> = { free: 'free', low: 'low cost', some: 'some cost' };

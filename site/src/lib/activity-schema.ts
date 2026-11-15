@@ -15,6 +15,7 @@ export const VARIATION_KINDS = [
   'with-children',
   'low-vision',
   'nonverbal',
+  'large-grip',
 ] as const;
 
 /**

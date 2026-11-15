@@ -36,6 +36,8 @@ variations:
     text: "Use only smooth, plain buttons in two colors, and sort on a soft cloth instead of a hard tray."
   - kind: low-vision
     text: "Use dark dishes for pale buttons, or pale dishes for dark ones, so each button stands out against the dish."
+  - kind: large-grip
+    text: "Use only large, flat buttons, and sweep each one into its dish with the whole hand instead of picking up one at a time."
 images:
   - src: /pictures/buttons-in-muffin-tin.svg
     alt: "Drawing of a grey muffin tin with six cups, each holding buttons of one color: red, mustard yellow, blue, green, purple and pink."
@@ -73,6 +75,8 @@ changes:
     note: "Added labelled safety flags above the steps for small parts."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

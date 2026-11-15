@@ -46,6 +46,8 @@ variations:
     text: "Wear gloves and use a spoon for everything, so hands stay clean and dry."
   - kind: low-vision
     text: "Use big seeds such as beans or sunflowers on a light plate, and a dark pot so the soil level is easy to see."
+  - kind: large-grip
+    text: "Use a spoon with a thick, built-up handle to make the holes, and drop large seeds such as beans in with the palm instead of a pinch."
 images:
   - src: /pictures/seedling-in-pot.svg
     alt: "Drawing of a terracotta pot of soil with three young green seedlings and drops of water beside it."
@@ -84,6 +86,8 @@ changes:
     note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing, small parts, falls."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

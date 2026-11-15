@@ -123,3 +123,37 @@ describe('activity cards: review field (TSA-034)', () => {
     });
   }
 });
+
+/**
+ * CNT-700: every MAKE card has at least one seated or large-grip variation. The pillar is not
+ * recorded on the card, so MAKE is read here as the making types (art, craft, nature).
+ */
+const MAKE_TYPES = ['art', 'craft', 'nature'];
+
+/**
+ * Cards that cannot take a large-grip variation yet: each already has six variations, the
+ * schema and spec 06 cap at six, and adding one means choosing one to drop. Editorial decision.
+ */
+const CNT700_OPEN = ['arrange-flowers-together', 'decorate-a-keepsake-box'];
+
+describe('activity cards: seated or large-grip variation (CNT-700)', () => {
+  for (const file of files) {
+    const slug = file.replace(/\.md$/, '');
+    const fm = frontmatter(readFileSync(new URL(file, dir), 'utf8'));
+    const type = fm.match(/^type: (\w+)$/m)?.[1] ?? '';
+    const kinds = [...fm.matchAll(/^ {2}- kind: ([a-z-]+)$/gm)].map((m) => m[1]);
+
+    if (!MAKE_TYPES.includes(type)) continue;
+
+    if (CNT700_OPEN.includes(slug)) {
+      it(`${slug}: still open (six variations, no seated or large-grip); remove from CNT700_OPEN once fixed`, () => {
+        expect(kinds).not.toContain('seated');
+        expect(kinds).not.toContain('large-grip');
+      });
+    } else {
+      it(`${slug}: has a seated or large-grip variation`, () => {
+        expect(kinds.some((k) => k === 'seated' || k === 'large-grip'), `${slug} variations: ${kinds.join(', ')}`).toBe(true);
+      });
+    }
+  }
+});

@@ -44,6 +44,8 @@ variations:
     text: "Write in large, dark letters on unlined paper, one ingredient per line, and read each line aloud as you go."
   - kind: nonverbal
     text: "Show pictures of foods and let them point to favorites. Write down what they chose, in their own book."
+  - kind: large-grip
+    text: "Use a thick marker or a pen wrapped in tape, and a large notebook that lies flat, so it does not need holding open."
 images:
   - src: /pictures/family-recipe-book.svg
     alt: "Drawing of a red hardbound recipe book with a blank label, a blue ribbon marker and a ruled recipe card leaning in front."
@@ -81,6 +83,8 @@ changes:
     note: "Added labelled safety flags above the steps for heat, allergens."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

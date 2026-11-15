@@ -7,6 +7,7 @@ import '../styles/studio-editorial.css';
 import ActivityPrintCard from '../components/ActivityPrintCard.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
+import SuggestCorrection from '../components/SuggestCorrection.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
 import { listedActivities } from '../lib/activities';
@@ -75,6 +76,7 @@ const activities = pack.activities
       <p class="pack-cover__source">
         {SITE.name} · {SITE.domain}{path} · Free to print and share for personal and noncommercial use.
       </p>
+      <SuggestCorrection title={pack.title} path={path} />
     </header>
 
     {activities.map((a) => <ActivityPrintCard activity={a} variation={pack.variation} />)}

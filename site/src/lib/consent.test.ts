@@ -4,6 +4,7 @@ import {
   GTM_BLOCKLIST,
   consentDefaults,
   consentUpdate,
+  gpcEnabled,
   readConsent,
   saveConsent,
   shouldLoadAnalytics,
@@ -93,5 +94,26 @@ describe('Tag Manager blocklist', () => {
 
   it('never blocks the GA4 tags themselves', () => {
     for (const id of ['gaawc', 'gaawe', 'googtag', 'google']) expect(GTM_BLOCKLIST).not.toContain(id);
+  });
+});
+
+describe('Global Privacy Control (PLAT-026)', () => {
+  it('reads the browser signal, and only a real true counts', () => {
+    expect(gpcEnabled({ globalPrivacyControl: true })).toBe(true);
+    expect(gpcEnabled({ globalPrivacyControl: false })).toBe(false);
+    expect(gpcEnabled({})).toBe(false);
+    expect(gpcEnabled({ globalPrivacyControl: 'true' as unknown as boolean })).toBe(false);
+    expect(gpcEnabled(null)).toBe(false);
+  });
+
+  it('never loads analytics when the browser sends the signal, even after a yes', () => {
+    expect(shouldLoadAnalytics('granted', true)).toBe(false);
+    expect(shouldLoadAnalytics(null, true)).toBe(false);
+    expect(shouldLoadAnalytics('granted', false)).toBe(true);
+  });
+
+  it('does not ask the question when the signal already answers it', () => {
+    expect(showConsentChoice(null, true)).toBe(false);
+    expect(showConsentChoice(null, false)).toBe(true);
   });
 });

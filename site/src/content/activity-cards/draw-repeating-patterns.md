@@ -40,6 +40,8 @@ variations:
     text: "Use one color and a slow, quiet pace, and stop whenever it feels like too much."
   - kind: nonverbal
     text: "Offer to guide their hand gently, only if they seem comfortable with that, and pause often to see if they want to continue."
+  - kind: large-grip
+    text: "Use a jumbo crayon or a thick marker, or wrap a regular pencil in a foam hair curler so it is easy to hold in a loose fist."
 images:
   - src: /pictures/repeating-pattern-sheet.svg
     alt: "Drawing of a sheet divided into nine boxes, each filled with a different simple repeating pattern of lines, waves, dots and triangles, with a pencil beside it."
@@ -76,6 +78,8 @@ changes:
     note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

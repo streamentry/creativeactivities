@@ -146,7 +146,8 @@ Depends on: SEO-003.
 Risks / not doing: Do not split a page to chase a long-tail phrase.
 
 ### SEO-007 · No thin or programmatic pages
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: `site/src/lib/similarity.ts` `missingBarFields` (tests in `similarity.test.ts`); thin-page check of the 38 activity cards in [duplicate-audit.md](duplicate-audit.md), 2026-11-15: all 38 miss only the named author (byline is the team, and no named reviewer exists). Other bar fields pass on all 38. No corpus test added, since not all 38 pass. Open: maintainer decision on the author bar.
 
 Why: Penalized patterns include mass-generated pages and third-party content on a strong domain [R5 §2.4]. Our risk is a template with noun swaps, which the content-farm objection in [SEO.md §14] predicts.
 
@@ -280,7 +281,8 @@ Depends on: SEO-003.
 Risks / not doing: Do not link by keyword similarity alone. Related activities are chosen by function [SEO.md §4.2, §4.3].
 
 ### SEO-015 · Duplicate and near-duplicate audit
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: `site/scripts/check-duplicates.mjs` (`pnpm run check:duplicates`, `--strict` optional, not in CI), `site/src/lib/similarity.ts` and tests; first run 2026-11-15 on a fresh build: 15,731 pages, 1 exact H1 duplicate, 11 near-duplicate pairs at the provisional 0.5 threshold. Method, counts and example pairs in [duplicate-audit.md](duplicate-audit.md). Threshold awaits editor sample review; flagged pairs need decisions.
 
 Why: Mass-similar pages are the main risk the strategy names [SEO.md §14; VISION counter-metrics]. Duplication should be caught before it ships, not in a quarterly review.
 
