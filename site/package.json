@@ -17,6 +17,7 @@
     "check:print": "node scripts/check-print.mjs",
     "check:a11y": "node scripts/a11y-check.mjs",
     "check:live": "node scripts/verify-live-legal.mjs",
+    "review:queue": "node scripts/review-queue.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "test": "vitest run",
     "verify": "vitest run && astro build && node --max-old-space-size=6144 scripts/check-site.mjs && node --max-old-space-size=6144 scripts/check-budget.mjs",

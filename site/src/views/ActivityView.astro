@@ -144,7 +144,7 @@ const jsonLd = withdrawn
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
         </button>
-        <button type="button" class="btn" data-share={activity.id} hidden><Icon name="share" />Share</button>
+        <button type="button" class="btn" data-share={activity.id} data-share-text={activity.data.summary} hidden><Icon name="share" />Share</button>
       </div>
       <p class="activity-status no-print" data-activity-status role="status" aria-live="polite"></p>
       {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
@@ -391,7 +391,7 @@ const jsonLd = withdrawn
       track('activity_share', { activity: shareButton.dataset.share ?? '' });
       if (typeof navigator.share === 'function') {
         try {
-          await navigator.share({ title: document.title, url });
+          await navigator.share({ title: document.title, text: shareButton.dataset.shareText, url });
         } catch {
           // Closing the share sheet is a choice, not an error.
         }
