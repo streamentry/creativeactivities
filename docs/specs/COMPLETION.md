@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 62 | 122 | 223 | 407 |
+| S2 | 63 | 128 | 216 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **75** | **162** | **296** | **533** |
+| **All** | **76** | **168** | **289** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -42,6 +42,23 @@ Checks (site, Node 24.11.1): vitest 66 files, 2,749 pass; `astro build` 16,454 p
 
 Not done for batch 1: drawings for the eight new cards (WEB-012; the 38 older cards have two each), a hands-on test of the new steps, translations (English-first), reviewer sign-off.
 
+### Batch 2 (2026-11-15, commit `89237e8`)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Seven cards: `draw-a-slow-line-pattern` (CNT-1010), `make-a-torn-paper-landscape` (CNT-1012), `match-colors-to-a-tune` (CNT-1014), `make-leaf-rubbings` (CNT-1015), `make-a-friendship-bracelet` (CNT-1018, "a quiet hour of making", no stress-relief claim), `move-to-music-in-a-chair` (CNT-927, says plainly it is not exercise), `make-a-festival-decoration` (CNT-926, the family chooses the tradition, no candles) | CALM S1 targets met (one new card each for 1010, 1012, 1015, 1018); all stay partial until a CALM reviewer signs off | Same test set as batch 1 |
+| `/music-activities/` hub: eight cards, each doing something with the music; FAQ separates it from music therapy | SEO-037 → exists | Indexable; passes H1 overlap and H3 |
+
+### Batch 3 (2026-11-15, commit `f0af9db`)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `/reminiscence-activities/` hub: ten cards, no quiz wording, crisis route on the seven cards that invite talk; `noindex` until a dementia specialist reviews it (CNT-903) | SEO-016 → partial | `hubs.test.ts`; claims lint caught "Not therapy." in the description, changed to "Not treatment." |
+| Share a card already existed; it now passes the card summary as share text, as the spec asks | WEB-050 → partial (iOS and Android share sheets untested) | Built page carries `data-share-text` |
+| `pnpm review:queue`: internal list of cards, hubs and guides past a 12-month review (TSA-036 proposal), safety-flagged cards first, never built into the site | WEB-076, TSA-036 → partial (interval not yet set by the maintainer; public overdue notice not built; no owner) | `src/lib/review-queue.test.ts` (8 tests); today 0 of 177 pages overdue |
+
+Checks after batch 3: vitest 67 files, 2,843 pass; `tsc` clean; `astro build` 16,463 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 of 53. Browser check of the built site (served locally): music hub indexable, reminiscence hub `noindex, follow`, no horizontal overflow at 375 px on a new card. CI on PR #59 after batch 1: 7 checks passed, 1 pending.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -56,7 +73,6 @@ Not done for batch 1: drawings for the eight new cards (WEB-012; the 38 older ca
 
 ## Next batches (buildable without a person)
 
-1. CALM first four new cards (CNT-1010, 1012, 1015, 1018), seated movement (CNT-927) and a faith-and-culture card written as a choice of traditions (CNT-926).
-2. Music hub (SEO-037) and reminiscence hub (SEO-016), held from search until reviewed where the spec asks for review.
-3. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
-4. Web features that need no data or approval: large-print editions (WEB-018), share a card (WEB-050), care-home weekly sheet (WEB-045), due-for-review queue (WEB-076, PLAT-012), a seasonal hub written as a choice of festivals (SEO-036).
+1. Public overdue-review notice on cards (finishes WEB-076's second acceptance line).
+2. Drawings for the new cards (WEB-012), following the picture kit in `site/src/data/picture-art/`.
+3. Web features that need no data or approval: large-print editions (WEB-018), care-home weekly sheet (WEB-045), a seasonal hub written as a choice of festivals (SEO-036), one idea right now (WEB-007).
