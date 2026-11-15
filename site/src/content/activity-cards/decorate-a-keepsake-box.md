@@ -46,6 +46,16 @@ variations:
     text: "Two or three people each decorate one side of the same box."
   - kind: with-children
     text: "A child smooths the paper onto each side while the grandparent chooses the paper and the things to keep inside, and says why each one matters."
+images:
+  - src: /pictures/decorated-keepsake-box.svg
+    alt: "Drawing of a shoebox-sized box with a pink lid and green paper with red dots, tied with a yellow ribbon and bow, beside a star and a button."
+    caption: "The finished box, covered in paper and tied with a ribbon, with a few small things beside it."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, small-parts, ingestion]
 safety:
   - "Scissors are for the helper only, and keep the glue away from the mouth."

@@ -40,6 +40,16 @@ variations:
     text: "Use enlarged copies in bold, high-contrast prints, and read any captions aloud."
   - kind: with-children
     text: "A grandchild turns the pages and asks the older adult about each picture, then writes down the stories they choose to share."
+images:
+  - src: /pictures/open-photo-album.svg
+    alt: "Drawing of an open photo album with a brown cover and four photos on its pages, showing a sun over hills, a tree, mountains and flowers."
+    caption: "An open album with photos on both pages, ready to talk about."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Some photos bring up sadness or loss. Keep tissues close and do not push a conversation that is upsetting them."

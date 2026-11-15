@@ -41,6 +41,16 @@ variations:
     text: "Skip the lotion and use dry hands with very light touch, or wrap a warm towel around the hand instead."
   - kind: nonverbal
     text: "Offer an open palm and wait for the hand to come toward you. Stop if it pulls away or the face looks uneasy."
+images:
+  - src: /pictures/hand-massage-with-lotion.svg
+    alt: "Drawing of an open hand resting palm up on a blue towel, with a drop of lotion above it and a lotion bottle at the left."
+    caption: "A hand resting on a towel after a massage, with the lotion bottle beside it."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact]
 safety:
   - "Ask permission before touching, and stop as soon as they pull away, tense up or say to stop."

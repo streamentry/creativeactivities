@@ -39,6 +39,16 @@ variations:
     text: "Use towels at room temperature instead of warm ones, or choose plain cotton without loops if rough fabric is uncomfortable."
   - kind: more-collaborative
     text: "Two people hold opposite corners of each towel and fold it together, one towel at a time."
+images:
+  - src: /pictures/folded-towel-stack.svg
+    alt: "Drawing of three folded towels stacked neatly, blue at the bottom, then yellow, then red on top."
+    caption: "Towels folded and stacked, with no wrong way to fold them."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, heat, fall-risk]
 safety:
   - "Check towels are warm, not hot, before handing them over. Test with the inside of your wrist first."

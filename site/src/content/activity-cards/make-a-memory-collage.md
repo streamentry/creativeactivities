@@ -42,6 +42,16 @@ variations:
     text: "A child cuts and glues while the older adult chooses and tells the story behind each picture."
   - kind: nonverbal
     text: "Hold up two pictures and watch where their eyes or hand go. Pointing and nodding are full answers."
+images:
+  - src: /pictures/memory-collage-of-photos.svg
+    alt: "Drawing of a sand-colored board with three photo prints, a yellow magazine piece and a red torn scrap, pinned at slight angles."
+    caption: "A collage of photos and cut-out pictures, arranged at slight angles."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, skin-contact]
 safety:
   - "Keep scissors with the helper if cutting is unsafe or tiring."
