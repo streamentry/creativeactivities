@@ -1,14 +1,14 @@
 ---
 title: "Crafts for Limited Dexterity: Easier Grips, Tape and One-Handed Set-Ups"
 seoTitle: "Crafts for Limited Grip: Easier Tools and Set-Ups"
-description: "Crafts for people with limited grip, strength or fine control: built-up handles, tape, larger pieces and one-handed set-ups, with cards chosen for easier making."
+description: "Crafts for people with limited grip, strength or fine control: built-up handles, tape, larger pieces and one-handed setups, with cards chosen for easier making."
 section: crafts
 order: 60
 published: 2026-11-15
 updated: 2026-11-15
 summary: >-
   Grip, strength and fine control can change with age, illness or injury, and
-  a craft can still be enjoyed with the right set-up. Build up thin handles with
+  a craft can still be enjoyed with the right setup. Build up thin handles with
   foam tape, tape the paper down, choose larger pieces, and use a tray or clamp
   so one hand can do the work. Choose projects with few fine movements, such as
   tearing, arranging flowers or tapping a rhythm. These are craft adaptations,
@@ -38,11 +38,11 @@ related: [activities/art-supplies-for-older-adults, activities/drawing-and-paint
 health: true
 ---
 
-Grip, strength and fine control can change for many reasons. Arthritis, a recent illness, an injury, a long period in bed and the normal changes of getting older can each make a pen, a pair of scissors or a small piece of paper harder to manage. A craft can still be enjoyed, and the right set-up often matters more than the project. This page covers the adaptations that work across many crafts, and the cards on this site chosen because they need few fine movements.
+Grip, strength and fine control can change for many reasons. Arthritis, a recent illness, an injury, a long period in bed and the normal changes of getting older can each make a pen, a pair of scissors or a small piece of paper harder to manage. A craft can still be enjoyed, and the right setup often matters more than the project. This page covers the adaptations that work across many crafts, and the cards on this site chosen because they need few fine movements.
 
 These suggestions are for people who want to make something and find some hand tasks difficult. They are not a diagnosis, and they are not medical advice. If holding a tool causes pain, stop. A doctor, a physiotherapist or an occupational therapist can advise on hand health and on equipment.
 
-## What set-up helps most?
+## What setup helps most?
 
 The biggest difference often comes from how the materials are arranged, not from the project itself.
 

@@ -1,7 +1,7 @@
 ---
 title: "Running a Craft Session for a Group: Library, Care Home or Family"
 seoTitle: "Running a Group Craft Session: Plans and Set-Up"
-description: "How to run a group craft session in a library, care home, club, classroom or family gathering: room set-up, group size, mixed abilities, and a calm ending."
+description: "How to run a group craft session in a library, care home, club, classroom or family gathering: room setup, group size, mixed abilities, and a calm ending."
 section: crafts
 order: 70
 published: 2026-11-15
