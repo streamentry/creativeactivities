@@ -3,6 +3,12 @@
 
     python3 scripts/agy_translate.py status
     python3 scripts/agy_translate.py run  --kinds ui,games,play,guides [--langs is,ka] [--jobs 8]
+    python3 scripts/agy_translate.py run  --changed-since <git ref> --progress <file>
+
+`--changed-since` refreshes only what changed in English since that commit:
+the changed strings of each dictionary (merged into the existing translation)
+and every changed guide that is not retired. Finished tasks are recorded in
+`--progress`, so a long run can stop and resume.
 
 Kinds: ui, games, play (JSON dictionaries) and guides (markdown). A language
 whose file is missing, or still an English copy, is (re)translated; finished
@@ -37,7 +43,7 @@ PLURALS = ('zero', 'one', 'two', 'few', 'many', 'other')
 NO_LETTER_GRID = {'zh-Hans', 'zh-Hant', 'ja', 'ko', 'th', 'my', 'yo', 'lo', 'ii', 'bo', 'dz', 'km', 'zh'}
 lock = threading.Lock()
 
-RULES = """You are a professional localizer for a website of simple, free picture activities that families play with an adult living with dementia.
+RULES = """You are a professional localizer for Creative Activities, a free website of creative activities people do together with someone they care for: crafts for all ages, children's activities, activities across generations, calm creative breaks, and simple picture games, including for adults living with dementia. Dementia is one situation among several; never make a page sound like a dementia site when the English does not.
 Rules:
 - Warm, plain, respectful adult language, grade 6-8 reading level. Say what a native speaker naturally says; never word for word.
 - Say the local equivalent of "people living with dementia" / "the person you care for". Never "patients", "sufferers", "demented", or baby talk. Use the polite-but-warm adult form of address.
@@ -381,10 +387,20 @@ def translate_chunk(lang: dict, chunk: dict, cats: list[str], extra: str, depth=
     raise RuntimeError(f'{lang["code"]}: {keys[0]} failed: {last}')
 
 
-def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
+def translate_json(kind: str, lang: dict, cats: list[str], only: set | None = None) -> Path:
     code = lang['code']
     en = json.loads((I18N / kind / 'en.json').read_text())
     work = json.loads(json.dumps(en))
+    existing = I18N / kind / f'{code}.json'
+    if only is not None and existing.exists():
+        # Keep the current translation and refresh only the changed English strings.
+        old = json.loads(existing.read_text())
+        for path, _ in list(units(en)):
+            if path not in only:
+                try:
+                    set_path(work, path, get_path(old, path))
+                except (KeyError, IndexError, TypeError):
+                    pass
     extra = ''
     if kind == 'play':
         content = work.get('content', {})
@@ -398,7 +414,7 @@ def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
         if code in NO_LETTER_GRID:
             extra = 'Picture names: short concrete nouns, the noun first. Conversation prompts are open invitations, never quiz questions.'
         work['content'] = content
-    items = list(units(work))
+    items = [(p, v) for p, v in units(work) if only is None or p in only]
     chunk, size, chunks = {}, 0, []
     for path, v in items:
         k = '/'.join(map(str, path))
@@ -411,7 +427,7 @@ def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
     if chunk:
         chunks.append(chunk)
     paths = {'/'.join(map(str, p)): p for p, _ in items}
-    for ch in chunks:
+    for ch in chunks if items else []:
         res = translate_chunk(lang, ch, cats, extra)
         for k, v in res.items():
             set_path(work, paths[k], v)
@@ -575,6 +591,23 @@ def guide_paths(selected: list[str] | None = None) -> list[str]:
     return result
 
 
+def changed_units(kind: str, ref: str) -> set:
+    """Paths of strings in en.json that are new or different since `ref`."""
+    old = subprocess.run(['git', 'show', f'{ref}:site/src/i18n/{kind}/en.json'], capture_output=True, text=True, cwd=SITE.parent)
+    before = dict(units(json.loads(old.stdout))) if old.returncode == 0 else {}
+    now = dict(units(json.loads((I18N / kind / 'en.json').read_text())))
+    return {p for p, v in now.items() if before.get(p) != v}
+
+
+def changed_guides(ref: str) -> list[str]:
+    """Live English guides changed since `ref` (retired guides are skipped)."""
+    out = subprocess.run(['git', 'diff', '--name-only', ref, 'HEAD', '--', 'site/src/content/guides'],
+                         capture_output=True, text=True, cwd=SITE.parent, check=True).stdout.split()
+    retired = set(re.findall(r"^  '([a-z0-9-]+/[a-z0-9-]+)':", (SITE / 'src/lib/retired-guides.ts').read_text(), re.M))
+    rels = [f.removeprefix('site/src/content/guides/') for f in out]
+    return [r for r in rels if (GUIDES / r).exists() and r.removesuffix('.md') not in retired]
+
+
 def pending(kinds, codes, guides: list[str] | None = None):
     todo = []
     rels = guide_paths(guides) if 'guides' in kinds else []
@@ -596,7 +629,11 @@ def main():
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--guides', default='', help='comma-separated guide paths (section/slug); only these guides are considered')
     ap.add_argument('--free-only', action='store_true', help='use only free contributor/free-tier translation backends')
+    ap.add_argument('--changed-since', default='', help='git ref: refresh only English strings and guides changed since then')
+    ap.add_argument('--progress', default='', help='file recording finished refresh tasks (required with --changed-since)')
     a = ap.parse_args()
+    if a.changed_since and not a.progress:
+        ap.error('--changed-since needs --progress')
     if a.free_only:
         configure_free_only()
     meta = locale_codes()
@@ -613,10 +650,24 @@ def main():
     selected_guides = [guide.strip() for guide in a.guides.split(',') if guide.strip()]
     if selected_guides and 'guides' not in kinds:
         ap.error('--guides requires guides in --kinds')
-    try:
-        todo = pending(kinds, codes, selected_guides or None)
-    except ValueError as error:
-        ap.error(str(error))
+    only_units = {}
+    progress_file = Path(a.progress) if a.progress else None
+    finished = set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+    if a.changed_since:
+        only_units = {k: changed_units(k, a.changed_since) for k in kinds if k != 'guides'}
+        rels = selected_guides or changed_guides(a.changed_since)
+        todo = []
+        for c in codes:  # language order from --langs, so the biggest languages can go first
+            for k in kinds:
+                if k == 'guides':
+                    todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
+                elif only_units.get(k) and f'{k}|{c}|' not in finished:
+                    todo.append((k, c, None))
+    else:
+        try:
+            todo = pending(kinds, codes, selected_guides or None)
+        except ValueError as error:
+            ap.error(str(error))
     by = {}
     for k, c, r in todo:
         by.setdefault(k, set()).add(c)
@@ -645,7 +696,7 @@ def main():
                 with lock:
                     if c not in cats:
                         cats[c] = plural_cats(meta[c]['bcp47'])
-                res = t, str(translate_json(k, lang, cats[c]))
+                res = t, str(translate_json(k, lang, cats[c], only_units.get(k) if a.changed_since else None))
         except Exception:
             with lock:
                 lang_bad[c] = lang_bad.get(c, 0) + 1
@@ -663,6 +714,10 @@ def main():
                 t, p = f.result()
                 done += 1
                 print(f'[{done}/{len(todo)}] ok {t[0]} {t[1]} {t[2] or ""}', flush=True)
+                if progress_file:
+                    with lock:
+                        finished.add(f'{t[0]}|{t[1]}|{t[2] or ""}')
+                        progress_file.write_text(json.dumps(sorted(finished)))
             except Exception as e:  # noqa: BLE001
                 print('FAIL', str(e)[:200], flush=True)
 
