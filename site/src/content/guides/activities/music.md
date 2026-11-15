@@ -70,7 +70,7 @@ If you are not sure where to start, try a few minutes from each of these and wat
 
 - **No commercials.** The Alzheimer's Association warns that ads can cause confusion. Use downloaded music, CDs, records or an ad-free service.
 - **One simple device.** A speaker with one big button, or a playlist saved and ready, so anyone can start it.
-- **Two short lists.** A calm list for settling and a lively list for lifting the mood.
+- **Two short lists.** A calm list for settling and a lively list for singing or dancing along.
 - **Label it.** Write the person's name and "favorite music" on the device so visiting family and care staff can use it too.
 
 ## 15 music activities to try

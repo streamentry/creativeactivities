@@ -1,0 +1,52 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Icon from '../components/Icon.astro';
+import { SITE } from '../lib/site';
+import { CORRECTIONS, CORRECTION_KINDS } from '../lib/corrections';
+---
+<PageLayout
+  title="Corrections"
+  seoTitle="Corrections: How to Report a Mistake on Creative Activities"
+  description="How to report a mistake on Creative Activities, what happens next, and a public log of changes that affect safety, facts or claims."
+  path="/corrections/"
+  crumb="Corrections"
+  lede="Tell us when something is wrong. We log every change that affects safety, facts or claims, so you can see what changed."
+>
+  <h2 id="report">How to report a mistake</h2>
+  <p>
+    Use the <strong>Report a mistake</strong> link on any activity or guide, or write to us directly. Say which page it is, what
+    is wrong, and what you think is right. Include a source if you have one.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn--primary" href={`mailto:${SITE.supportEmail}?subject=Corrections`}><Icon name="arrow" />Report a mistake by email</a>
+  </div>
+  <p><a href={`mailto:${SITE.supportEmail}`}>{SITE.supportEmail}</a></p>
+  <p class="muted">This opens your email app. Please do not send health records or other personal details.</p>
+
+  <h2 id="what-happens">What happens next</h2>
+  <ol>
+    <li>Every report reaches the editor, and we decide whether it is a safety, fact or claim issue.</li>
+    <li>A safety problem can hold or pause the activity while it is reviewed.</li>
+    <li>Each change that matters is published in the log below, with the date and the page.</li>
+  </ol>
+  <p>
+    <strong>Response times are not published yet.</strong> The maintainer is setting targets for safety and correction reports.
+    This page will show them once they are set.
+  </p>
+
+  <h2 id="log">Correction log</h2>
+  {
+    CORRECTIONS.length === 0 ? (
+      <p>No corrections have been logged yet. Entries appear here, newest first, as changes are made.</p>
+    ) : (
+      <ol class="correction-log">
+        {CORRECTIONS.map((e) => (
+          <li>
+            <time datetime={e.date}>{e.date}</time> · <a href={e.page}>{e.page}</a> · {CORRECTION_KINDS[e.kind]}
+            <p>{e.change}</p>
+          </li>
+        ))}
+      </ol>
+    )
+  }
+</PageLayout>

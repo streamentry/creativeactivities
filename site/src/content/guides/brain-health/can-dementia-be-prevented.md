@@ -165,7 +165,7 @@ trials found.
 ### FINGER (Finland)
 
 The FINGER trial enrolled 1,260 adults aged 60 to 77 who were at higher risk of
-dementia. Half received a two-year program of diet advice, exercise, computer
+dementia. In the trial, half received a two-year program of diet advice, exercise, computer
 brain exercises and checks on heart and blood vessel health; the other half
 received general health advice. The program group did slightly better on a set
 of thinking tests, a small but statistically significant difference

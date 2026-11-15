@@ -1001,7 +1001,9 @@ Risks / not doing: Hub sprawl. The rules and the publish threshold do the work.
 
 ### WEB-060 · Art-therapy boundary page
 
-Priority P0 · Phase S1 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence: `site/src/pages/art-therapy-and-creative-activities.astro` (built, linked from footer and from the two CALM explainer guides; claims lint covers it). Open: the page is marked "not yet reviewed by a registered art therapist"; the reviewer, the BAAT/HCPC link checks on the publish date, and the reviewer's named credential are still needed.
 
 Why: "Art therapy is a professional practice, not a marketing synonym for crafts" ([MISSION, "Evidence and humility"](../../../MISSION.md)). Visitors search for art therapy ([R3 §4.1](research/03-art-therapy-wellbeing.md)), and the profession has protected titles that vary by place ([R3 §2](research/03-art-therapy-wellbeing.md)).
 
@@ -1019,7 +1021,9 @@ Risks / not doing: Writing the boundary page as a sales page for our activities.
 
 ### WEB-061 · Crisis-safe route
 
-Priority P0 · Phase S1 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence: `site/src/components/CrisisRoute.astro`, shown on Today, the boundary page and nine guides with `crisisRoute: true` (frontmatter, `content.config.ts`). US 988 and UK/Ireland Samaritans 116 123 were checked on 2026-11-15 against 988lifeline.org and samaritans.org. Open: the per-locale route list (L10N-009 owner) for each later language.
 
 Why: "Any activity that invites personal disclosure… should carry a visible, plain-language crisis route. Do not wait for a keyword match" ([R3 §4.4](research/03-art-therapy-wellbeing.md)). No creative-activity site reviewed in R3 shows one on its activity pages.
 

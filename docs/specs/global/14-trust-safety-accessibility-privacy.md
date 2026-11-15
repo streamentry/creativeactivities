@@ -427,7 +427,9 @@ Risks / not doing: Do not wait for a keyword match to show the route.
 ## E. Claims
 
 ### TSA-028 · Claims vocabulary and banned words
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/claims.ts` and `claims.test.ts` lint English activity cards, hubs, guides, `i18n/ui/en.json` and the boundary page; English passes. Translated locales are not covered yet (needs the reviewer's equivalents list).
 
 Why: Therapy and treatment words spread quickly into marketing and create regulatory and trust risk [R3 §7; plan README, claims].
 
@@ -533,7 +535,9 @@ Depends on: TSA-033, [README](README.md) open questions (named reviewers).
 Risks / not doing: A review does not turn a craft into therapy [R3 §7].
 
 ### TSA-035 · Corrections route and log
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/src/pages/corrections.astro` and `site/src/lib/corrections.ts` (log, empty for now); "Report a mistake" on activity and hub bylines and the footer point to `/corrections/`, tested in `site/src/lib/corrections.test.ts`. Open: response targets are for the maintainer (TSA-045, decision 12); the page says they are not yet published.
 
 Why: Corrections build trust, and a corrections log shows that errors are taken seriously [SEO.md §4.1 `/corrections/`].
 
