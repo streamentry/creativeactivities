@@ -54,6 +54,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/garden-stone-materials.svg
+    alt: "Two smooth grey stones, one with a pink dot, beside a blue paint pot and a brush with a red handle."
+    caption: "What you need: smooth flat stones, water-based paint and a brush."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, small-parts]
 safety:
   - "Use non-toxic, water-based paint; wash it off skin with soap and water, and check for skin sensitivity first."

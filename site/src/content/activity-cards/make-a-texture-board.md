@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/texture-board-materials.svg
+    alt: "Sheet of cardboard with glued patches of blue felt, red velvet and mustard corduroy, a button, and a bottle of glue."
+    caption: "What you need: sturdy cardboard, textured scraps, a household texture and glue."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, sharp-tool, heat]
 safety:
   - "Glue all pieces firmly. Buttons, caps and beads are choking risks if they come loose and might be put in the mouth."

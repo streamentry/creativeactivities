@@ -54,6 +54,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/shared-painting-materials.svg
+    alt: "Large sheet of paper with a yellow and a green dab, beside a blue and a red paint tube, a yellow sponge and a green brush."
+    caption: "What you need: large paper, washable paint, a sponge and a brush."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, skin-contact, ingestion, water, adhesive]
 safety:
   - "Use non-toxic, water-based paint only, and check for any known paint allergies first."

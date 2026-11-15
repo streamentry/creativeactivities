@@ -52,6 +52,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/leaf-print-materials.svg
+    alt: "Three leaves with clear veins, one lying on a sheet of thick paper, beside a blue paint pot."
+    caption: "What you need: leaves with clear veins, washable paint and thick paper."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [allergen, ingestion, skin-contact]
 safety:
   - "Check every leaf before handling. Avoid poison ivy, poison oak and sumac, and check for allergies."

@@ -46,6 +46,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/sort-buttons-materials.svg
+    alt: "Grey muffin tin with six empty cups beside a bowl of buttons in red, mustard, blue and green."
+    caption: "What you need: a muffin tin or small dishes, and a tub of large buttons."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts]
 safety:
   - "Use only large buttons that cannot fit in the mouth, and remove any small or loose parts from the bowl."

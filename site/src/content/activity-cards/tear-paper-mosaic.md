@@ -55,6 +55,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/torn-paper-materials.svg
+    alt: "Stack of blue, mustard and green paper, a magazine page with a photo and a glue stick on a table."
+    caption: "What you need: colored paper or old magazine pages, and a glue stick."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, adhesive, skin-contact]
 safety:
   - "Keep small torn pieces away from anyone who may put paper in their mouth, and clear them away afterward."

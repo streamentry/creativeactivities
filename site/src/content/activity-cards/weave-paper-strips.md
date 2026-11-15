@@ -52,6 +52,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/weaving-materials.svg
+    alt: "Thick card with parallel slits, three paper strips in red, mustard and blue, and a pair of scissors."
+    caption: "What you need: card with slits, paper strips and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, small-parts]
 safety:
   - "Scissors are for the helper only. The person weaves with their hands alone."

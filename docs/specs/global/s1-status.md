@@ -25,7 +25,7 @@ Integration checks: vitest 2,345 tests pass; `tsc` clean; `astro build` 15,732 p
 | Maintainer + recruits | Run 8–15 usability sessions with the protocol, including screen-reader, magnification and switch users | MET-029, TSA-002, the S1 gate |
 | Maintainer | Google Keyword Planner US-English export and Search Console + Bing verification, per the runbook | SEO-002, SEO-004, the S1 gate, SEO-009's H3 threshold |
 | Maintainer | Name credentialed reviewers (art therapist, OT, dementia specialist) with written permission | TSA-034 records, WEB-060 review, SEO-009 indexing |
-| Maintainer | Per-step process photos or illustrations, rights review of the 38 result drawings, and redraws of the three weakest (hand massage, towel stack, torn-paper flower) | WEB-012 |
+| Maintainer | Rights review of the 76 drawings, optional per-step images or real process photos, redraws of the three weakest (hand massage, towel stack, torn-paper flower), and one table style for the materials drawings | WEB-012 |
 | Maintainer + counsel | GTM/GA4 cookies vs DESIGN's no-tracker rule and TSA-018's no-identifier line; GTM auto-events that carry full URLs | TSA-018, TSA-012, PLAT-024 |
 | Maintainer | Correction response targets; withdraw-drill; safety-label legal wording | TSA-035, TSA-045, WEB-022 |
 | Maintainer | URL contract decision; per-locale crisis list owner; 12 pt print target | SEO-003, WEB-061, WEB-014 |
@@ -35,7 +35,7 @@ Integration checks: vitest 2,345 tests pass; `tsc` clean; `astro build` 15,732 p
 
 | Item | Change | Evidence |
 |---|---|---|
-| WEB-012 | An original result drawing on every one of the 38 cards (was 1) | `activity-results-a.ts`, `activity-results-b.ts`, provenance register 236 entries, app picture exports regenerated (83 → 120) |
+| WEB-012 | Two original drawings on every one of the 38 cards (was 1 in total): the result, and "What you need" (`kind: materials`) | `activity-results-*.ts`, `activity-materials-*.ts`, provenance register 274 entries; app library 120 pictures (results only; materials scenes stay out of games and the app) |
 | WEB-014, WEB-016 | Print at 12 pt, one sheet two sides for all 38, version and address line on the back; the drawing floats beside the steps | `pnpm check:print` 38/38 |
 | TSA-012, PLAT-024 | `activity_view`, `activity_save`, `activity_share`, `app_cta_click` added to the allowlist and wired | `track.test.ts`, [events.md](events.md) |
 | Hub rule H1 | `activities-for-seniors` re-curated (outdoor, standing, group); no two hubs share more than the H1 limit | `hubs.test.ts` pairwise check |

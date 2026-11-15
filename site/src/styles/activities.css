@@ -792,13 +792,27 @@
   }
 }
 
-/* A materials picture sits beside the checklist on wide screens. */
-@media (min-width: 720px) {
-  .activity-figure--materials {
-    float: inline-end;
-    max-width: 200px;
-    margin: 0 0 var(--space-md) var(--space-lg);
+/* A materials picture sits beside the checklist at every width, so the list
+   stays near the top; it is smaller on phones. */
+.activity-figure--materials {
+  float: inline-end;
+  width: min(38%, 200px);
+  margin: 0 0 var(--space-sm) var(--space-md);
+}
+.activity-figure--materials figcaption {
+  font-size: var(--text-sm);
+}
+@media (max-width: 599px) {
+  .activity-figure--materials .activity-figure__credit {
+    display: none;
   }
+}
+.activity-need .activity-check,
+.activity-need h3 {
+  overflow-wrap: anywhere;
+}
+.activity-need > h3 {
+  clear: both;
 }
 @media print {
   .activity-figure--materials {

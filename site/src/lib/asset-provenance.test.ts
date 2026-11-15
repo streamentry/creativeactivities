@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import { PICTURES } from '../data/pictures';
+import { ALL_SERVED_PICTURES } from '../data/pictures';
 
 /**
  * TSA-038: every image the website serves has a rights and consent entry in
@@ -94,7 +94,7 @@ describe('site image provenance register', () => {
 
 describe('every image the website references has an entry', () => {
   it('covers each picture in the picture library', () => {
-    const missing = PICTURES.map((p) => `/pictures/${p.id}.svg`).filter((url) => !byUrl.has(url));
+    const missing = ALL_SERVED_PICTURES.map((p) => `/pictures/${p.id}.svg`).filter((url) => !byUrl.has(url));
     expect(missing).toEqual([]);
   });
 
@@ -112,7 +112,7 @@ describe('every image the website references has an entry', () => {
   });
 
   it('has no stale entries: every entry points at an image that still exists', () => {
-    const pictureUrls = new Set(PICTURES.map((p) => `/pictures/${p.id}.svg`));
+    const pictureUrls = new Set(ALL_SERVED_PICTURES.map((p) => `/pictures/${p.id}.svg`));
     const illustrationUrls = new Set(manifest.illustrations.map((i) => `/illustrations/${i.id}.webp`));
     const stale = images
       .filter((img) => {
