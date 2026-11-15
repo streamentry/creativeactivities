@@ -1,0 +1,39 @@
+---
+import { ui } from '../i18n/ui';
+import { correctionMailto } from '../lib/correction-mail';
+
+interface Props {
+  /** The page's name, used in the email subject. */
+  title: string;
+  /** The page path, starting with a slash. Any query string or fragment is dropped. */
+  path: string;
+  lang?: string;
+}
+const { title, path, lang = 'en' } = Astro.props;
+const t = ui(lang).corrections;
+const href = correctionMailto({ title, path });
+---
+<p class="suggest-correction no-print">
+  <a class="suggest-correction__link" href={href}>{t.suggest}</a>
+  <span class="suggest-correction__sep" aria-hidden="true">·</span>
+  <a class="suggest-correction__link" href="/corrections/">{t.otherWays}</a>
+</p>
+
+<style>
+/* A quiet standalone control: a plain mail link, with a 48px target and the page's own focus ring. */
+.suggest-correction {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 var(--space-sm);
+  margin: var(--space-sm) 0 0;
+  font-size: var(--text-sm);
+  color: var(--gm-on-surface-variant);
+}
+.suggest-correction__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  color: var(--gm-primary);
+}
+</style>

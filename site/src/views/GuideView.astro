@@ -7,6 +7,7 @@ import HealthNotice from '../components/HealthNotice.astro';
 import CrisisRoute from '../components/CrisisRoute.astro';
 import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
+import SuggestCorrection from '../components/SuggestCorrection.astro';
 import { GAME_BY_SLUG } from '../data/games';
 import { pictureUrl } from '../data/pictures';
 import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
@@ -151,6 +152,7 @@ const available = await guideLanguages(id);
             }
           </ol>
         </section>
+        <SuggestCorrection title={d.title} path={path} lang={lang} />
       </article>
       <aside class="article-aside" aria-label={g.related}>
         {
