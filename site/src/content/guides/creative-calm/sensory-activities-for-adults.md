@@ -7,12 +7,12 @@ order: 40
 published: 2026-11-15
 updated: 2026-11-15
 summary: >-
-  Sensory activities use touch, smell, taste, sound and sight: a hand massage with unscented lotion, a basket of soft fabrics, fresh herbs to smell, nature sounds, or birds at a window. They need no particular skill and no right answers. Check first for allergies, skin problems and choking risks, offer one sense at a time, and stop if the person seems uneasy. This is a creative activity, not therapy.
+  Sensory activities use touch, smell, sound and sight: a hand massage with unscented lotion, a basket of soft fabrics, fresh herbs to smell, nature sounds, or birds at a window. They need no particular skill and no right answers. Check first for allergies, skin problems and choking risks, offer one sense at a time, and stop if the person seems uneasy. This is a creative activity, not therapy.
 keyPoints:
   - "Sensory activities have no right answers, so they work for adults in a chair, in bed or on a walk."
   - "Offer one sense at a time, in a quiet room, and ask before you touch."
   - "Keep small items, lotions and scented products out of reach, since anyone may put things in their mouth."
-  - "Check for allergies, skin problems and breathing issues before using lotions, scents or foods."
+  - "Check for allergies, skin problems and breathing issues before using lotions or scents."
   - "Some people find mild, familiar scents pleasant. A Cochrane review found no convincing evidence that aromatherapy helps people with dementia, so treat scent as enjoyment only."
 faq:
   - q: "What are good sensory activities for adults?"
@@ -37,7 +37,7 @@ health: true
 crisisRoute: false
 ---
 
-Sensory activities use the five senses: touch, smell, taste, sound and sight. They are simple experiences built around one sense at a time, like feeling a soft scarf, smelling mint or listening to rain. This is a creative activity, not therapy. A few safety checks make them relaxing for everyone. If you or the person you care for has a health concern, such as swallowing trouble, a skin condition or an allergy, talk with your own doctor or a licensed professional first.
+Sensory activities use the senses of touch, smell, sound and sight. We leave taste out, so nothing in them is meant to be eaten. They are simple experiences built around one sense at a time, like feeling a soft scarf, smelling mint or listening to rain. This is a creative activity, not therapy. A few safety checks make them relaxing for everyone. If you or the person you care for has a health concern, such as swallowing trouble, a skin condition or an allergy, talk with your own doctor or a licensed professional first.
 
 ## Who is this for?
 
@@ -65,11 +65,6 @@ Sensory activities suit adults at many stages of life. They work well for someon
 - **Fresh herbs.** Rub a mint, rosemary or basil leaf between your fingers, then hold it near the nose.
 - **Kitchen smells.** Coffee brewing, bread toasting, or an orange being peeled nearby.
 - **Dried lavender.** A small sachet, sewn shut. The [make a lavender sachet](/activity/make-a-lavender-sachet/) card shows how.
-
-**Taste**
-
-- **A favorite flavor.** A small spoonful of something loved, such as applesauce or pudding, in a texture that is safe for the person to swallow. Follow the advice of the person's care team on textures.
-- **Baking together.** Tasting a little fruit or frosting while you bake.
 
 **Sound**
 
@@ -103,7 +98,7 @@ Sensory activities are gentle, but some risks matter, especially for someone who
 
 | Risk | What to do |
 | --- | --- |
-| Choking | Use only items too large to swallow. No buttons, beads, coins or small toys loose in a box. Offer food only in textures the care team says are safe. |
+| Choking | Use only items too large to swallow. No buttons, beads, coins or small toys loose in a box. |
 | Things that look like food | Lock up or put away lotions, soaps, shampoos and perfume after use, since they can look or smell like food. Remove artificial fruit. |
 | Allergies | Check for allergies to nuts, latex, wool, plants or fragrances before you start. |
 | Strong scents | Avoid strong perfumes and essential oils, especially with asthma or other breathing problems. Mild, natural smells are safer. |
