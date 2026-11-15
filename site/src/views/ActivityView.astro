@@ -58,7 +58,8 @@ const guides = withdrawn
       )
     ).filter((g) => g !== null);
 /** Pictures of the finished result, and pictures attached to one step each (WEB-012). */
-const resultImages = d.images.filter((image) => image.step === undefined);
+const resultImages = d.images.filter((image) => image.step === undefined && image.kind !== 'materials');
+const materialsImages = d.images.filter((image) => image.kind === 'materials');
 const stepImages = (step: number) => d.images.filter((image) => image.step === step);
 const hasSmallParts = d.safetyFlags.includes('small-parts');
 
@@ -133,6 +134,7 @@ const jsonLd = withdrawn
       <div class="activity-main">
         <section class="activity-need" aria-labelledby="need">
           <h2 id="need">What you need</h2>
+          {materialsImages.map((image) => <ActivityImage image={image} variant="materials" />)}
           <ul class="activity-list activity-check">
             {d.materials.map((m) => <li>{m}</li>)}
           </ul>

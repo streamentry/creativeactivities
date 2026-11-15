@@ -28,8 +28,10 @@ export const activityImageSchema = z.object({
   /** What matters in the picture, written so someone who cannot see it gets the same point. */
   alt: z.string().min(20).max(240),
   caption: z.string().min(10).max(200),
-  /** The step (1-based) this picture belongs to; absent for a picture of the finished result. */
+  /** The step (1-based) this picture belongs to; absent for a picture of the finished result or the materials. */
   step: z.number().int().min(1).max(9).optional(),
+  /** 'materials' shows what you need (WEB-012); a picture of the result needs no kind. */
+  kind: z.enum(['materials']).optional(),
   provenance: z.object({
     creator: z.string().min(2).max(120),
     source: z.string().min(10).max(200),
@@ -37,6 +39,8 @@ export const activityImageSchema = z.object({
     people: z.enum(['none', 'adult-release-on-file']),
     date: z.coerce.date(),
   }),
+}).refine((image) => !(image.kind === 'materials' && image.step !== undefined), {
+  message: 'a materials picture belongs to "What you need", not to a step',
 });
 
 /** Withdrawal of a card that is unsafe or wrong (TSA-045). */

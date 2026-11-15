@@ -105,6 +105,13 @@ describe('activity card schema', () => {
       expect(parse({ images: [withPeople('unknown')] }).success).toBe(false);
     });
 
+    it('marks a materials picture with kind, never together with a step', () => {
+      const { step: _step, ...materials } = IMAGE;
+      expect(parse({ images: [{ ...materials, kind: 'materials' }] }).success).toBe(true);
+      expect(parse({ images: [{ ...IMAGE, kind: 'materials', step: 2 }] }).success).toBe(false);
+      expect(parse({ images: [{ ...materials, kind: 'sketch' }] }).success).toBe(false);
+    });
+
     it('only points at the picture library', () => {
       expect(parse({ images: [{ ...IMAGE, src: 'https://example.org/photo.jpg' }] }).success).toBe(false);
       expect(parse({ images: [{ ...IMAGE, src: '/pictures/../secret.svg' }] }).success).toBe(false);
