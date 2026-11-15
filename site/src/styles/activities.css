@@ -487,8 +487,13 @@
   font-weight: 700;
 }
 
-/* ---------- Print: one Activity Card ---------- */
+/* ---------- Print: one Activity Card on one A4 or US Letter sheet (WEB-014) ----------
+   Two text columns below the title; the back-of-card page break is gone. Checked by
+   scripts/check-print.mjs. */
 @media print {
+  @page {
+    margin: 6mm 9mm;
+  }
   .activity-layout {
     display: block !important;
   }
@@ -497,46 +502,54 @@
   .activity-next {
     display: none !important;
   }
-  /* "Print the card": compact type and spacing, still 11.5pt. */
   .activity {
-    font-size: 11.5pt;
-    line-height: 1.35;
+    font-size: 10pt;
+    line-height: 1.25;
   }
   .activity-head {
     padding: 0 0 2mm;
   }
   .activity-head h1 {
-    font-size: 22pt;
-    margin: 0 0 1mm;
+    font-size: 19pt;
+    margin: 0 0 0.5mm;
   }
   .activity-head__summary,
   .activity-glance {
-    font-size: 11.5pt;
-    margin-bottom: 1mm;
+    font-size: 10pt;
+    margin-bottom: 0.5mm;
   }
   .activity-materials {
     display: none;
   }
+  .activity-main {
+    columns: 2;
+    column-gap: 5mm;
+  }
   .activity-main section {
-    margin-bottom: 3mm;
+    margin-bottom: 1mm;
+    break-inside: avoid;
   }
   .activity-main h2 {
-    font-size: 13pt;
-    margin: 0 0 1mm;
+    font-size: 11.5pt;
+    margin: 0 0 0.5mm;
   }
   .activity-main h3 {
-    font-size: 11.5pt;
-    margin: 2mm 0 1mm;
+    font-size: 10pt;
+    margin: 0.8mm 0 0.3mm;
+  }
+  /* The "need" section's own heading rule (studio-activity.css) is more specific; match it here. */
+  .activity-page .activity-main .activity-need h3 {
+    margin: 0.8mm 0 0.3mm;
   }
   .activity-main p,
   .activity-main li {
     margin-block: 0;
   }
   .activity-list li + li {
-    margin-top: 0.5mm;
+    margin-top: 0;
   }
   .activity-steps {
-    gap: 1mm;
+    gap: 0.6mm;
   }
   .activity-steps li {
     grid-template-columns: 7mm 1fr;
@@ -554,9 +567,6 @@
     border: 1.5pt solid #000;
   }
   /* Two sides (DESIGN.md › Activity Cards): need and do on the front, adapt and safety on the back. */
-  .activity-adapt {
-    break-before: page;
-  }
   .activity-variations {
     grid-template-columns: 1fr 1fr;
     gap: 1.5mm;
@@ -571,20 +581,28 @@
     border: 1pt solid #000 !important;
     padding: 1.5mm 2.5mm;
   }
+  .activity-byline {
+    font-size: 7.5pt;
+    line-height: 1.3;
+  }
+  .activity-byline p {
+    margin: 0;
+  }
   .print-qr {
     display: flex !important;
     align-items: center;
-    gap: 4mm;
-    margin-top: 3mm;
+    gap: 3mm;
+    margin-top: 1.5mm;
     break-inside: avoid;
   }
   .print-qr svg {
     flex: none;
-    width: 22mm;
-    height: 22mm;
+    width: 16mm;
+    height: 16mm;
   }
   .print-qr p {
     margin: 0;
+    font-size: 7.5pt;
   }
   .pack-card {
     break-before: page;
