@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/pine-cone-feeder-materials.svg
+    alt: "Drawing of a dry pine cone, a jar of peanut butter, a dish of birdseed and a coil of twine, on a table."
+    caption: "What you need: a pine cone, peanut butter, birdseed and twine."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [allergen, small-parts, sharp-tool, fall-risk, ingestion]
 safety:
   - "Peanut butter can cause a severe allergic reaction. Ask about nut allergies first, and use vegetable shortening if anyone is unsure."

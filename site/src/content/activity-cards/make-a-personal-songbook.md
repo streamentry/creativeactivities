@@ -53,6 +53,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/songbook-materials.svg
+    alt: "Drawing of a blue notebook with a sheet of lyrics, a red pen and a music player, on a table."
+    caption: "What you need: a notebook, a pen and a music player."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [none]
 safety:
   - "Keep the volume comfortable and check it with them. Sudden loud music can startle or hurt."

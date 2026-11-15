@@ -51,6 +51,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/hand-massage-materials.svg
+    alt: "Drawing of a pump bottle of lotion, a folded blue towel and a soft pillow, on a table."
+    caption: "What you need: plain lotion, a soft towel and a pillow for the arm."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact]
 safety:
   - "Ask permission before touching, and stop as soon as they pull away, tense up or say to stop."

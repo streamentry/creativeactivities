@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/keepsake-box-materials.svg
+    alt: "Drawing of a shoebox with its lid, a sheet of pink paper with dots, a glue stick and scissors, on a table."
+    caption: "What you need: a box, paper, a glue stick and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, small-parts, ingestion]
 safety:
   - "Scissors are for the helper only, and keep the glue away from the mouth."

@@ -56,6 +56,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-14
+  - src: /pictures/arrange-flowers-materials.svg
+    alt: "Drawing of a jar with water, three flower heads on stems and a pair of scissors, on a table."
+    caption: "What you need: a jar, flowers, water and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, water, skin-contact, ingestion]
 safety:
   - "Some common flowers and plants, such as lily of the valley, foxglove and daffodils, are toxic if eaten. Check every plant before use."

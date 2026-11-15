@@ -53,6 +53,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/plant-pot-materials.svg
+    alt: "Drawing of an empty terracotta plant pot, a tin of blue paint, a paint brush and a sprig of herb, on a table."
+    caption: "What you need: a plant pot, paint, a brush and a little plant."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, adhesive, ingestion]
 safety:
   - "Use non-toxic, water-based paint, and wash it off skin with soap and water."

@@ -54,6 +54,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/lavender-sachet-materials.svg
+    alt: "Drawing of a square of blue cotton fabric, a small bunch of purple lavender and a red ribbon, on a table."
+    caption: "What you need: a square of cotton, dried lavender and a ribbon."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [small-parts, skin-contact, heat]
 safety:
   - "Strong scents can be unpleasant or trigger headaches or breathing problems for some people. Smell a little first and stop if anyone dislikes it."

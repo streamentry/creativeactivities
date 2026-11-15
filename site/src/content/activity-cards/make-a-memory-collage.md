@@ -52,6 +52,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/photos-paper-and-glue-materials.svg
+    alt: "Drawing of three printed photos, a magazine, a glue stick and scissors, on a table."
+    caption: "What you need: copies of photos, a magazine, a glue stick and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [sharp-tool, adhesive, skin-contact]
 safety:
   - "Keep scissors with the helper if cutting is unsafe or tiring."

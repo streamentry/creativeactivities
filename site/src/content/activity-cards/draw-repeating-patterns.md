@@ -50,6 +50,16 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
+  - src: /pictures/repeating-patterns-materials.svg
+    alt: "Drawing of a sheet of paper with a grid of boxes, a pencil, a marker and a ruler, on a table."
+    caption: "What you need: paper with a grid, a pencil or marker, and a ruler."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
 safetyFlags: [skin-contact, ingestion]
 safety:
   - "Use washable, non-toxic markers or crayons, and keep them away from the mouth."
