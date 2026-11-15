@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../lib/site';
+import ConsentChoice from '../components/ConsentChoice.astro';
 ---
 <PageLayout
   title="Privacy"
@@ -22,31 +23,38 @@ import { SITE } from '../lib/site';
 
   <h2 id="google-analytics">Google Analytics</h2>
   <p>
-    We use Google Analytics 4, a service from Google loaded through Google Tag Manager, to count visits and see which pages and games are used, so we
-    can improve the site. When a page loads, Google Analytics sets cookies in your browser (named <code>_ga</code>
-    and <code>_ga_X4CNGM5F8Z</code>) and sends Google the page address, the page that linked to it, your browser,
-    device and screen size, an approximate location based on your IP address, and a random identifier for your
-    browser. We have turned off Google signals and ad personalization, so these visits are not used for advertising.
-    Google Analytics is not loaded on Photo pairs.
+    We would like to count visits with Google Analytics 4, a service from Google loaded through Google Tag Manager, to
+    see which pages, games and activities are used, so we can improve the site. <strong>We ask first.</strong> Until you
+    choose "Allow", nothing from Google loads on this site: no Google script, no Google cookie, and no visit counted.
+    "No thanks", not answering, or turning off JavaScript all mean no counting, and the site works the same either way.
   </p>
   <p>
-    On game pages it also records when a game is started, started again, printed or left with "Done for now", and,
-    if you choose to answer "Did this help today?", whether you tapped Yes or Not really. It records the event and
-    the page, never what was tapped, chosen, typed or drawn in the game, and nothing about the person playing. This
-    tells us which activities families found helpful, not just which pages are visited.
+    If you allow it, Google Analytics sets cookies in your browser (named <code>_ga</code> and
+    <code>_ga_X4CNGM5F8Z</code>) and sends Google the page address, the page that linked to it, your browser, device and
+    screen size, an approximate location based on your IP address, and a random identifier for your browser. We tell
+    Google's consent mode that storage for advertising stays denied, we have turned off Google signals and ad
+    personalization, and the site blocks Tag Manager's automatic click, link and form tracking. Google Analytics is never
+    loaded on Photo pairs.
   </p>
+  <p>
+    If you allow it, game and activity pages also record a few named events, such as a game started or printed, "We
+    tried this", or the reason you chose in "This didn't fit". Each event carries only the activity's short name and a
+    fixed answer, never what was tapped, chosen, typed or drawn, and nothing about the person taking part. The full list
+    is in our <a href="https://github.com/streamentry/creativeactivities/blob/main/docs/specs/global/events.md">event
+    dictionary</a>.
+  </p>
+  <h3 id="analytics-choice">Your answer</h3>
+  <p>You can change your answer here at any time. Saying no later also removes Google's cookies from this browser.</p>
+  <ConsentChoice />
   <p>
     Google describes how it uses this information in
     <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites that use its services</a>.
-    To opt out, block cookies for this site, turn on your browser’s tracking protection or install
-    <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google’s opt-out add-on</a>. The site works the
-    same either way.
   </p>
 
   <h2>Cookies</h2>
   <p>
-    The only cookies are the Google Analytics cookies above. Our host, Cloudflare, may also set a strictly necessary
-    security cookie if it needs to check for automated traffic.
+    The only cookies are the Google Analytics cookies above, and only after you choose "Allow". Our host, Cloudflare,
+    may also set a strictly necessary security cookie if it needs to check for automated traffic.
   </p>
 
   <h2>Photos in Photo pairs</h2>

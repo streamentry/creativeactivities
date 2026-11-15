@@ -38,6 +38,7 @@ describe('site storage registry', () => {
     expect(keys.sort()).toEqual(
       [
         'cookie:gm_lang',
+        'localStorage:ca-analytics-consent-v1',
         'localStorage:ca-saved-activities-v1',
         'localStorage:ca-tried-activities-v1',
         'localStorage:gm-contrast',

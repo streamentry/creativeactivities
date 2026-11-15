@@ -1,0 +1,109 @@
+---
+/**
+ * The analytics question (maintainer decision, 2026-11-15). A calm bar at the
+ * top of the page, in the normal flow: not a dialog, never pinned over
+ * content (so it can never hide what has keyboard focus, WCAG 2.4.11), and
+ * "No thanks" comes first. It appears only while the question is unanswered; without
+ * JavaScript it never appears and nothing is counted. Its script also serves
+ * every other [data-consent] button on the page (the privacy page choice).
+ */
+import { ui } from '../i18n/ui';
+
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props;
+const c = ui(lang).common.consent;
+---
+<aside class="consent-bar" data-consent-bar aria-labelledby="consent-title" hidden>
+  <div class="container consent-bar__inner">
+    <p class="consent-bar__text">
+      <strong id="consent-title">{c.title}</strong>
+      {c.text}{' '}
+      <a href="/privacy/#google-analytics" hreflang="en">{c.more}</a>
+    </p>
+    <div class="consent-bar__actions">
+      <button type="button" class="btn" data-consent="denied">{c.no}</button>
+      <button type="button" class="btn" data-consent="granted">{c.yes}</button>
+    </div>
+  </div>
+</aside>
+<p class="visually-hidden" role="status" aria-live="polite" data-consent-said></p>
+<div hidden data-consent-words data-saved-no={c.savedNo} data-saved-yes={c.savedYes} data-no-storage={c.noStorage}></div>
+
+<script>
+  import { browserConsentStorage, readConsent, saveConsent, showConsentChoice, type Consent } from '../lib/consent';
+  import { loadAnalytics, stopAnalytics } from '../lib/consent-runtime';
+
+  const storage = browserConsentStorage();
+  const bar = document.querySelector<HTMLElement>('[data-consent-bar]');
+  const said = document.querySelector<HTMLElement>('[data-consent-said]');
+  const words = document.querySelector<HTMLElement>('[data-consent-words]')?.dataset ?? {};
+  const containerId = document.querySelector<HTMLMetaElement>('meta[name="ca-gtm"]')?.content ?? '';
+
+  const refresh = () => {
+    const consent = readConsent(storage);
+    if (bar) bar.hidden = !showConsentChoice(consent);
+    for (const el of document.querySelectorAll<HTMLElement>('[data-consent-current]')) {
+      const key = consent === 'granted' ? 'currentYes' : consent === 'denied' ? 'currentNo' : 'currentNone';
+      el.textContent = el.dataset[key] ?? '';
+    }
+    for (const button of document.querySelectorAll<HTMLButtonElement>('[data-consent]')) {
+      button.setAttribute('aria-pressed', String(button.dataset.consent === consent));
+    }
+  };
+
+  const choose = (answer: Consent) => {
+    const saved = saveConsent(storage, answer);
+    if (answer === 'granted' && saved) loadAnalytics(containerId);
+    else stopAnalytics();
+    if (said) said.textContent = !saved ? words.noStorage ?? '' : answer === 'granted' ? words.savedYes ?? '' : words.savedNo ?? '';
+    refresh();
+  };
+
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-consent]')) {
+    button.addEventListener('click', () => choose(button.dataset.consent === 'granted' ? 'granted' : 'denied'));
+  }
+  refresh();
+</script>
+
+<style>
+  .consent-bar {
+    background: var(--gm-surface);
+    border-bottom: 2px solid var(--gm-primary);
+    padding-block: var(--space-sm);
+  }
+  .consent-bar__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-sm) var(--space-lg);
+  }
+  .consent-bar__text {
+    margin: 0;
+    max-width: 62ch;
+    font-size: var(--text-md);
+  }
+  .consent-bar__text strong {
+    display: block;
+  }
+  .consent-bar__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+  }
+  .consent-bar__actions .btn {
+    min-height: var(--target-min);
+  }
+  @media print {
+    .consent-bar {
+      display: none;
+    }
+  }
+  @media (forced-colors: active) {
+    .consent-bar {
+      border-bottom-color: CanvasText;
+    }
+  }
+</style>

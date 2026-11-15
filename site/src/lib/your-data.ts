@@ -8,6 +8,7 @@
  * not in the inventory, so keep both in step.
  */
 import { parseTried, TRIED_STORAGE_KEY } from './activity-feedback';
+import { CONSENT_KEY } from './consent';
 import { CONTRAST_KEY, PLAY_SETTINGS_KEY, TEXT_SIZE_KEY } from './display-settings';
 import { LANGUAGE_COOKIE, readCookie } from './language-choice';
 import { parseSaved, STORAGE_KEY as SAVED_KEY } from './saved-activities';
@@ -49,6 +50,14 @@ export const SITE_STORES: readonly SiteStore[] = [
     label: 'Today notes',
     description: 'Notes you wrote on the Today page, with the day and how the activity went.',
     count: (raw) => parseNotes(raw).length,
+  },
+  {
+    id: 'analytics-consent',
+    kind: 'localStorage',
+    key: CONSENT_KEY,
+    label: 'Your answer about visit counting',
+    description:
+      'Whether you allowed Google Analytics to count your visits. Deleting it removes the answer, and the site asks again on your next page.',
   },
   {
     id: 'text-size',

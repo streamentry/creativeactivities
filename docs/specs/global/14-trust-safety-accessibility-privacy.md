@@ -9,7 +9,7 @@ This file sets the requirements that make the website and app safe to rely on: a
 - Accessibility: the design system targets WCAG 2.2 AA. Axe checks run on key pages. Print styles, RTL and reduced motion exist ([README baseline](README.md)).
 - No accounts for the core product. The app works offline with no account. Family photos stay on the device. The web photo game uses local photos and never uploads them ([README baseline](README.md)).
 - Pages exist for the editorial policy, the safety and medical disclaimer, the FAQ and organizations. No accessibility statement, corrections page or public privacy notice is listed in the baseline. Confirm.
-- Analytics: the web SEO strategy refers to GA4, while DESIGN forbids third-party trackers. The live state is unknown (TSA-011).
+- Analytics: GA4 through Tag Manager, loaded only after the visitor allows it (maintainer decision 2026-11-15, [analytics-consent.md](analytics-consent.md)).
 - Security headers: `site/public/_headers` exists. Its contents have not been checked against the target below.
 
 ---
@@ -185,7 +185,7 @@ Risks / not doing: Do not add an account to enable sharing without a separate de
 ### TSA-011 · Data and tracker inventory
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
-Evidence: `docs/specs/global/data-inventory.md` lists every storage key, cookie, event and outside origin in the website and app; `site/src/lib/data-inventory.test.ts` fails on any unlisted one. Maintainer sign-off and the GTM/GA4 decision are open (section 6).
+Evidence: `docs/specs/global/data-inventory.md` lists every storage key, cookie, event and outside origin in the website and app; `site/src/lib/data-inventory.test.ts` fails on any unlisted one. The GTM/GA4 decision is made (consent first, [analytics-consent.md](analytics-consent.md)); maintainer sign-off of the inventory is open.
 
 Why: Nobody can promise minimal data without a list. The web SEO strategy refers to GA4, while DESIGN §7 forbids third-party trackers, so the live state is unknown.
 
@@ -201,7 +201,7 @@ Risks / not doing: Do not add a tool "to see" data before the inventory exists.
 
 ### TSA-012 · Event allowlist and no health data
 Priority P0 · Phase S1 · Status partial · Pillars: all
-Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`, now with `activity_view`, `activity_save`, `activity_share` (activity key only) and `app_cta_click` (fixed store and placement); payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed, wiring to `ActivityView.astro` and `AppCta.astro` checked); the list is in `docs/specs/global/events.md`. Not done: `activity_started_confirmed` and `activity_not_a_fit` are sent (WEB-025, WEB-026) but reason categories need a stigma review by a person; GTM's automatic form and click events (`gtm.formInteract`, `gtm.elementUrl`) sit outside the allowlist and need container settings changed by the maintainer; the app-store click is counted before the store opens, so a click that leaves the page may not always be reported.
+Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`, now with `activity_view`, `activity_save`, `activity_share` (activity key only) and `app_cta_click` (fixed store and placement); payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed, wiring to `ActivityView.astro` and `AppCta.astro` checked); the list is in `docs/specs/global/events.md`. Not done: `activity_started_confirmed` and `activity_not_a_fit` are sent (WEB-025, WEB-026) but reason categories need a stigma review by a person; GTM's automatic click, link and form listeners are now blocklisted in code (`GTM_BLOCKLIST`), but GA4 Enhanced measurement can still send form and outbound-click events until the maintainer turns them off ([analytics-consent.md](analytics-consent.md)); the app-store click is counted before the store opens, so a click that leaves the page may not always be reported.
 
 Why: Health details in analytics are a serious privacy and legal risk [R5 §5.2]. The product must not infer a condition [MISSION].
 
@@ -231,7 +231,9 @@ Depends on: TSA-011, [README](README.md) open questions.
 Risks / not doing: Do not use "age" as a proxy for condition.
 
 ### TSA-014 · Consent for non-essential storage
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: GA4's cookies load only after "Allow"; "No thanks" first, same size, no pre-ticked choice, nothing before the first activity because the bar sits in the page flow; answer changeable on `/privacy/#analytics-choice` and deletable on `/your-data/` ([analytics-consent.md](analytics-consent.md)). Not done: counsel's check per market; the words exist in English only.
 
 Why: Where consent is needed, the choice must be as easy as accepting, and must not nudge. The most privacy-preserving option is the default (the user's global privacy rule).
 
