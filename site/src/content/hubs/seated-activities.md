@@ -1,12 +1,12 @@
 ---
 title: "Seated Activities to Do Together at a Table or in a Chair"
 seoTitle: "Seated Activities for Older Adults to Do Together"
-description: "Creative activities for someone who sits up at a table, on a lap tray or in a garden chair. Each card has a seated set-up, light energy and an easy stop."
+description: "Creative activities for someone who sits up at a table, on a lap tray or in a garden chair. Each card has a seated setup, light energy and an easy stop."
 eyebrow: "Seated activities"
 lede: >-
-  Sitting up is not the same as staying in bed. These eight activities work at a table, on a lap tray or in a garden chair, and each one has its seated set-up written into the materials or steps, not just a label. Pick one, bring the chair in close and keep the session going only as long as it stays comfortable.
+  Sitting up is not the same as staying in bed. These eight activities work at a table, on a lap tray or in a garden chair, and each one has its seated setup written into the materials or steps, not just a label. Pick one, bring the chair in close and keep the session going only as long as it stays comfortable.
 choosing:
-  - "A seated set-up on every card: a lap tray, clipboard, low table or garden chair, shown in the seated note under each one."
+  - "A seated setup on every card: a lap tray, clipboard, low table or garden chair, shown in the seated note under each one."
   - "Light energy: short, steady tasks, with the helper doing the reaching, cutting and carrying."
   - "Work that stays put: nothing needs standing, walking to a shelf or bending to the floor."
   - "A clear stop: one leaf, one hand or one link already counts as a session."
@@ -30,7 +30,7 @@ author: Creative Activities editorial team
 sources: []
 ---
 
-Seated activities are for the many days when sitting at a table or in a chair is the right level of effort. The goal is to make something together, or to share a task, with the work close at hand. Keep the set-up simple and let the person decide how much to do.
+Seated activities are for the many days when sitting at a table or in a chair is the right level of effort. The goal is to make something together, or to share a task, with the work close at hand. Keep the setup simple and let the person decide how much to do.
 
 ## How do you set up the seat and the table first?
 

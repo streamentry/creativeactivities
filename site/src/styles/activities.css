@@ -503,38 +503,42 @@
     display: none !important;
   }
   .activity {
-    font-size: 10pt;
+    font-size: 11.5pt;
     line-height: 1.25;
   }
   .activity-head {
     padding: 0 0 2mm;
   }
   .activity-head h1 {
-    font-size: 19pt;
+    font-size: 22pt;
     margin: 0 0 0.5mm;
   }
   .activity-head__summary,
   .activity-glance {
-    font-size: 10pt;
+    font-size: 11.5pt;
     margin-bottom: 0.5mm;
   }
   .activity-materials {
     display: none;
   }
+  /* DESIGN.md §8: the back of the card starts with "Make it easier or different". */
+  .activity-main .activity-adapt {
+    break-before: page;
+  }
+  /* One column, so the page break before the back side always applies. */
   .activity-main {
-    columns: 2;
-    column-gap: 5mm;
+    columns: auto;
   }
   .activity-main section {
     margin-bottom: 1mm;
     break-inside: avoid;
   }
   .activity-main h2 {
-    font-size: 11.5pt;
+    font-size: 13pt;
     margin: 0 0 0.5mm;
   }
   .activity-main h3 {
-    font-size: 10pt;
+    font-size: 11.5pt;
     margin: 0.8mm 0 0.3mm;
   }
   /* The "need" section's own heading rule (studio-activity.css) is more specific; match it here. */
@@ -751,4 +755,19 @@
   border: 1px solid var(--gm-secondary-outline);
   background: var(--gm-secondary-container);
   border-radius: var(--radius-md);
+}
+
+/* Print: a small preview image, so the card stays one sheet, two sides. */
+@media print {
+  .activity-figure {
+    break-inside: avoid;
+  }
+  .activity-figure img {
+    max-height: 32mm;
+    width: auto;
+  }
+  .activity-figure figcaption,
+  .activity-figure__credit {
+    font-size: 9pt;
+  }
 }

@@ -2,7 +2,7 @@
 
 Status: draft, 2026-11-14. Used with the [S1 usability protocol](s1-usability-protocol.md) for TSA-002. It is a moderator checklist, not a certification. Passing it does not replace a session with a person who uses the technology daily.
 
-Project rules that apply to every item: WCAG 2.2 AA is the release gate ([TSA-001](../specs/global/14-trust-safety-accessibility-privacy.md)); targets are at least 48px; focus is always visible; no information is given by colour alone; the page works at 320px wide and at 200% zoom; reduced motion is respected; the printed card works ([DESIGN §6](../../DESIGN.md)).
+Project rules that apply to every item: WCAG 2.2 AA is the release gate ([TSA-001](../specs/global/14-trust-safety-accessibility-privacy.md)); targets are at least 48px; focus is always visible; no information is given by color alone; the page works at 320px wide and at 200% zoom; reduced motion is respected; the printed card works ([DESIGN §6](../../DESIGN.md)).
 
 ## 1. Before the session
 
@@ -77,10 +77,10 @@ Project rules that apply to every item: WCAG 2.2 AA is the release gate ([TSA-00
 - [ ] No keyboard trap.
 - [ ] Skip link or landmarks let a keyboard user reach the main content.
 
-### Low vision and colour
+### Low vision and color
 
 - [ ] Contrast of text and key controls meets 4.5:1 for text and 3:1 for controls and focus.
-- [ ] Information is not conveyed by colour alone (the gold border in picture games is paired with a label or shape).
+- [ ] Information is not conveyed by color alone (the gold border in picture games is paired with a label or shape).
 - [ ] Reduced motion setting on: no auto-playing or looping motion, and transitions are short or removed.
 
 ### Arthritis and limited dexterity

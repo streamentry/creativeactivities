@@ -399,7 +399,10 @@
   ],
   "overrides": [
     {
-      "filename": "**/docs/specs/**",
+      "filename": [
+        "**/docs/specs/**",
+        "**/docs/research/**"
+      ],
       "words": [
         "AATA",
         "AATA's",
@@ -433,6 +436,7 @@
         "Craftsy",
         "Cricut",
         "Cricut's",
+        "defaultdict",
         "Domestika",
         "Domestika's",
         "Dotdash",
@@ -456,6 +460,7 @@
         "Giannou",
         "Gramling",
         "grandkids",
+        "gtag",
         "Headspace",
         "Healio",
         "healthychildren",
@@ -514,6 +519,7 @@
         "SAMHSA",
         "SAMHSA's",
         "set-up",
+        "setdefault",
         "Similarweb",
         "Siteimprove",
         "Skillademia",

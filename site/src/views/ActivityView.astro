@@ -105,7 +105,6 @@ const jsonLd = withdrawn
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
       <h1>{d.name}</h1>
       <p class="activity-head__summary">{d.summary}</p>
-      {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
       <dl class="activity-ledger">
         {
           ledger.map((f) => (
@@ -127,6 +126,7 @@ const jsonLd = withdrawn
         <button type="button" class="btn" data-share hidden><Icon name="share" />Share</button>
       </div>
       <p class="activity-status no-print" data-activity-status role="status" aria-live="polite"></p>
+      {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
     </header>
 
     <div class="activity-layout">

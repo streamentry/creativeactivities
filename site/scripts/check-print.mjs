@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-// One-page print check (WEB-014, WEB-011). For every activity card in dist/activity/<slug>/, prints the page
+// Two-sided print check (WEB-014, WEB-011). For every activity card in dist/activity/<slug>/, prints the page
 // to PDF on A4 and on US Letter with the browser's print media and browser defaults (no background colour,
 // as a printer prints it), counts the sheets, and checks that the site header and navigation are hidden.
-// Fails if any card is not exactly one sheet in both sizes.
+// DESIGN.md §8: the Activity Card is one sheet with two sides: what you need and
+// what to do on the front, make it easier / different on the back. Fails if any
+// card is not exactly two pages (one sheet, printed both sides) in both sizes.
 // Usage: node scripts/check-print.mjs            (serves dist/ on a free local port; run `pnpm build` first)
 //        node scripts/check-print.mjs --base=http://127.0.0.1:4345
 // First-time browser install: pnpm exec playwright install chromium
@@ -15,6 +17,7 @@ import { chromium } from 'playwright';
 
 const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
 const FORMATS = ['A4', 'Letter'];
+const SIDES = 2;
 const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ttf': 'font/ttf', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.ico': 'image/x-icon' };
 
 function serveDist(dir) {
@@ -64,7 +67,7 @@ async function main() {
       for (const format of FORMATS) {
         counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
       }
-      const ok = hidden && FORMATS.every((f) => counts[f] === 1);
+      const ok = hidden && FORMATS.every((f) => counts[f] === SIDES);
       if (!ok) failures.push({ slug, counts, hidden });
       console.log(`${slug.padEnd(42)} A4 ${counts.A4}  Letter ${counts.Letter}  navigation hidden ${hidden ? 'yes' : 'NO'}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
@@ -73,7 +76,7 @@ async function main() {
     await browser.close();
     server?.close();
   }
-  console.log(`\nChecked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one sheet.`);
+  console.log(`\nChecked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet.`);
   process.exit(failures.length ? 1 : 0);
 }
 

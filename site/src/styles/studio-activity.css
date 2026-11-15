@@ -371,3 +371,47 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
     font-size: inherit;
   }
 }
+
+/* ---------- Phones: an activity, ready in one glance ----------
+   DESIGN.md asks for the name, purpose, facts and Start in the first screen.
+   On small screens the head drops its editorial scale and padding so the
+   facts and the Start button sit within about one screen. */
+@media (max-width: 599px) {
+  .activity-page .activity-head {
+    margin-top: var(--space-xs);
+    padding: var(--space-lg) var(--space-md) var(--space-md);
+  }
+  .activity-page .activity-head h1 {
+    font-size: clamp(1.875rem, 1.25rem + 3.2vw, 2.375rem);
+    line-height: var(--leading-tight);
+    letter-spacing: -0.01em;
+    margin-bottom: var(--space-sm);
+  }
+  .activity-page .activity-head .eyebrow {
+    margin-bottom: var(--space-xs);
+  }
+  .activity-page .activity-head__summary {
+    margin-bottom: 0;
+  }
+  .activity-page .activity-ledger {
+    margin: var(--space-md) 0 var(--space-sm);
+  }
+  .activity-page .activity-ledger > div {
+    padding: 6px var(--space-sm);
+  }
+  .activity-page .activity-head .btn-row {
+    margin-top: var(--space-sm);
+  }
+  .activity-page .breadcrumbs ol {
+    margin: var(--space-sm) 0 var(--space-xs);
+  }
+}
+@media (min-width: 340px) and (max-width: 599px) {
+  /* Three narrow columns keep all six facts in two rows. */
+  .activity-page .activity-ledger {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .activity-page .activity-ledger dd {
+    font-size: var(--text-sm);
+  }
+}

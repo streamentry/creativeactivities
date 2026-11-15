@@ -208,7 +208,7 @@ Acceptance:
 - Print and Save work by keyboard, with labels.
 - Body text is at least 18 px on the page (DESIGN §2).
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-028](#web-028--saved-collections-on-the-device).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-028](#web-028--saved-collections-on-the-device).
 
 Risks / not doing: More than three buttons dilutes the first action. Keep these three.
 
@@ -247,22 +247,22 @@ Acceptance:
 - Each variation changes at least one step, not only a sentence.
 - Printing shows all variations unless one is selected.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card); variation kinds in [02 §4.2](02-information-architecture.md#42-fit-facets).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card); variation kinds in [02 §4.2](02-information-architecture.md#42-fit-facets).
 
 Risks / not doing: Hiding variations behind a switch can hide them from search and from print. Keep them in the HTML.
 
-### WEB-014 · One-page printable card
+### WEB-014 · One-sheet, two-sided printable card
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
-Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print on one A4 sheet and one US Letter sheet, with navigation hidden and no background colour needed. Print body text is 10 pt, below the 12 pt proposal; that is a maintainer decision.
+Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print as exactly two pages (one sheet, both sides) on A4 and US Letter, front = what you need and what to do, back = make it easier or different and safety, navigation hidden, no background color needed. Body text 11.5 pt (headings 13 pt, title 22 pt); a single-sided version only fitted at 10 pt, which is too small for many older readers. Remaining: 12 pt target and the version/date line (WEB-016).
 
 Why: The Activity Card is "the memorable feature" and a potential distribution channel ([DESIGN §8](../../../DESIGN.md), [VISION](../../../VISION.md)). Printables are the way to reach people without a screen ([R1 §3.7](research/01-craft-diy-platforms.md)).
 
-What: One page per activity, with the title and image, what you need and what to do, the easier side ("make it easier or different"), the note "It's okay to stop or change it", a source line and a short URL or QR code. The baseline has a print card with a QR code. Checking the easier side and stop note on the print is needed (verify).
+What: One sheet per activity, two sides as DESIGN §8 describes ("What you need" and "what to do" on one side, "Make it easier / make it different" on the other), with the title and image, what you need and what to do, the easier side ("make it easier or different"), the note "It's okay to stop or change it", a source line and a short URL or QR code. The baseline has a print card with a QR code. Checking the easier side and stop note on the print is needed (verify).
 
 Acceptance:
-- Fits on one A4 sheet and one US Letter sheet at 100% scale.
+- Fits on one A4 sheet and one US Letter sheet at 100% scale, printed on both sides (exactly two pages); the back starts with "Make it easier or different".
 - Body text is at least 12 pt in print (proposal), and the stop note is never cut.
 - Works in black and white.
 - Shows the card version and date ([WEB-016](#web-016--versioned-prints)).
@@ -285,7 +285,7 @@ Acceptance:
 - Print content matches the web content exactly. No print-only claims.
 - The card works with no URL or QR code.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card).
 
 Risks / not doing: No print-only rewrite of claims. Print is a rendering of the same card.
 
@@ -321,7 +321,7 @@ Acceptance:
 - A card can be added only with its chosen variation.
 - The pack states "for personal, noncommercial use" (VISION's print and share permission).
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-016](#web-016--versioned-prints).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-016](#web-016--versioned-prints).
 
 Risks / not doing: Bulk copying for resale. The noncommercial line and the free-core rule cover it. No watermark on a family's own print.
 
@@ -339,7 +339,7 @@ Acceptance:
 - The content is the same as the standard print.
 - Works in black and white.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-015](#web-015--no-ink-no-url-print-version).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-015](#web-015--no-ink-no-url-print-version).
 
 Risks / not doing: A second content version to maintain. The layout changes; the words do not.
 
@@ -865,14 +865,14 @@ Priority P1 · Phase S2 · Status new · Pillars: PLAY, GROW, CARE
 
 Why: "Printable plus digital pairs for the same game" is an open gap ([R4 §6](research/04-games-engagement.md)). Printable counterparts are in the game concepts ([R4 §8](research/04-games-engagement.md)).
 
-What: Each game with a printable partner links to the partner card, which follows the same card rules ([WEB-014](#web-014--one-page-printable-card) to [WEB-016](#web-016--versioned-prints)). The game page says which rules are the same.
+What: Each game with a printable partner links to the partner card, which follows the same card rules ([WEB-014](#web-014--one-sheet-two-sided-printable-card) to [WEB-016](#web-016--versioned-prints)). The game page says which rules are the same.
 
 Acceptance:
 - Each of the 12 existing games has a printable partner or a written reason why not.
 - The rules text is the same on both.
 - The printed partner has a version and date.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [05 games](05-games.md).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [05 games](05-games.md).
 
 Risks / not doing: A printable partner that is a worse game. Write the rules once and check both.
 

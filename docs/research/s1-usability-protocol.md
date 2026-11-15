@@ -41,7 +41,7 @@ Recruitment is done by the maintainer or a named partner. Claude and other agent
 
 Channels, in the order to try:
 
-1. **Organisations that already work with the groups.** Local senior centres, memory cafés and caregiver support groups, public libraries that run older-adult classes, and vision-loss and disability user groups. Ask the organisation to share a written invitation. Do not imply endorsement by the organisation.
+1. **Organizations that already work with the groups.** Local senior centres, memory cafés and caregiver support groups, public libraries that run older-adult classes, and vision-loss and disability user groups. Ask the organization to share a written invitation. Do not imply endorsement by the organization.
 2. **Assistive-technology user communities** (online and local groups for screen reader, magnification and switch users). Post the invitation only where the group's rules allow it.
 3. **A paid research panel** with a screener. If a panel is used, the screener questions must not ask for diagnosis, medication or health details; ask only for the group, the device and whether the person is willing to take part.
 4. **Personal network of the maintainer.** Allowed for the first two or three sessions only, with a note that the participant knows the maintainer. Count them, but report the channel for every session.
@@ -65,7 +65,7 @@ Recording:
 Storage and deletion:
 
 - Session notes use the template in section 8, with the participant code (P01, P02), never the name.
-- Raw notes and any recordings are deleted within 90 days of the stage report (proposed; the maintainer confirms). Only the aggregate report and the anonymised findings are kept.
+- Raw notes and any recordings are deleted within 90 days of the stage report (proposed; the maintainer confirms). Only the aggregate report and the anonymized findings are kept.
 - The study adds no study-specific events or cookies to the site. Note that the live site loads the Google Tag Manager container on every page except Photo pairs (see TSA-018 evidence). The maintainer decides whether sessions run on the live site or on a test build with analytics off, and records which.
 - A participant can ask for their notes to be deleted at any time, before the report or after. Record the request and do it within 14 days.
 
