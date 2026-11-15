@@ -40,6 +40,27 @@ variations:
     text: "Use one color and a slow, quiet pace, and stop whenever it feels like too much."
   - kind: nonverbal
     text: "Offer to guide their hand gently, only if they seem comfortable with that, and pause often to see if they want to continue."
+images:
+  - src: /pictures/repeating-pattern-sheet.svg
+    alt: "Drawing of a sheet divided into nine boxes, each filled with a different simple repeating pattern of lines, waves, dots and triangles, with a pencil beside it."
+    caption: "A page of boxes filled with simple repeats, one pattern to each box."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/repeating-patterns-materials.svg
+    alt: "Drawing of a sheet of paper with a grid of boxes, a pencil, a marker and a ruler, on a table."
+    caption: "What you need: paper with a grid, a pencil or marker, and a ruler."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [skin-contact, ingestion]
 safety:
   - "Use washable, non-toxic markers or crayons, and keep them away from the mouth."
   - "Put the caps back on markers when not in use, since they dry out and can stain skin."

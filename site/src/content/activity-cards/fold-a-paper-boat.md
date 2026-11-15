@@ -42,6 +42,27 @@ variations:
     text: "Use a large sheet of brightly colored paper on a dark table, and guide hands to each fold if they welcome it."
   - kind: for-a-group
     text: "Each person folds or decorates a boat, and the group floats them together in a wide tray of water."
+images:
+  - src: /pictures/paper-boat-afloat.svg
+    alt: "Drawing of a folded paper boat with a red top and a white hull, floating on blue water."
+    caption: "A folded paper boat, ready to float on water."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/paper-boat-materials.svg
+    alt: "Drawing of a sheet of paper with a dashed fold line, a basin of water and a folded towel, on a table."
+    caption: "What you need: a sheet of paper, a basin of water and a towel."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [water]
 safety:
   - "Use only a few inches of water in a basin or tray, and stay with anyone near water."
   - "Mop up spills straight away so the floor does not become slippery."

@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Icon from '../components/Icon.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
+import { listedActivities } from '../lib/activities';
 import type { ActivityPack } from '../data/packs';
 
 interface Props {
@@ -20,11 +21,15 @@ const crumbs = [
   { href: path, label: 'Printable pack' },
 ];
 const cards = await getCollection('activityCards');
-const activities = pack.activities.map((slug) => {
-  const card = cards.find((a) => a.id === slug);
-  if (!card) throw new Error(`Pack ${pack.id} lists a missing activity: ${slug}`);
-  return card;
-});
+// A withdrawn card is never printed (TSA-045); a missing slug is still an error.
+const shown = new Set(listedActivities(cards).map((a) => a.id));
+const activities = pack.activities
+  .map((slug) => {
+    const card = cards.find((a) => a.id === slug);
+    if (!card) throw new Error(`Pack ${pack.id} lists a missing activity: ${slug}`);
+    return card;
+  })
+  .filter((card) => shown.has(card.id));
 ---
 <BaseLayout title={pack.seoTitle} description={pack.description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
   <Breadcrumbs items={crumbs} />

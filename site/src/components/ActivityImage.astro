@@ -1,0 +1,21 @@
+---
+/** A step, result or materials picture (WEB-012): always alt text, a caption and a visible credit. */
+interface Props {
+  /** "materials" pictures sit in "What you need" and stay off the printed card (the list covers it). */
+  variant?: 'result' | 'materials';
+  image: {
+    src: string;
+    alt: string;
+    caption: string;
+    provenance: { creator: string; rights: string };
+  };
+}
+const { image, variant = 'result' } = Astro.props;
+---
+<figure class:list={['activity-figure', variant === 'materials' && 'activity-figure--materials']}>
+  <img src={image.src} alt={image.alt} width="240" height="240" loading="lazy" decoding="async" />
+  <figcaption>
+    <span>{image.caption}</span>
+    <span class="activity-figure__credit">Picture: {image.provenance.creator}. {image.provenance.rights}</span>
+  </figcaption>
+</figure>

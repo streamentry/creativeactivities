@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/activities.css';
 import '../styles/studio-home.css';
-import { TYPE_LABELS, glance } from '../lib/activities';
+import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
 import GameCard from '../components/GameCard.astro';
 import GuideCard from '../components/GuideCard.astro';
 import Faq from '../components/Faq.astro';
@@ -39,7 +39,7 @@ const FEATURED_ACTIVITIES = [
   'make-a-family-tree-of-hands',
 ];
 const activityCards = lang === 'en'
-  ? (await getCollection('activityCards'))
+  ? listedActivities(await getCollection('activityCards'))
       .filter((a) => FEATURED_ACTIVITIES.includes(a.id))
       .sort((a, b) => FEATURED_ACTIVITIES.indexOf(a.id) - FEATURED_ACTIVITIES.indexOf(b.id))
   : [];

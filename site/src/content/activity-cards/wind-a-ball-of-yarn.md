@@ -40,6 +40,27 @@ variations:
     text: "Use thick yarn in a strong color against a plain dark lap blanket so the strand is easy to follow."
   - kind: with-children
     text: "A child holds the skein on outstretched hands while the older adult winds, or the other way around."
+images:
+  - src: /pictures/yarn-ball-with-thread.svg
+    alt: "Drawing of a neat red ball of yarn with wound lines across its surface and a loose thread trailing onto the table."
+    caption: "The finished ball, wound neatly with the end tucked under the last wrap."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/yarn-materials.svg
+    alt: "A loop of soft mustard yarn beside a tan basket on a table."
+    caption: "What you need: a skein of soft, chunky yarn and a small bowl or basket."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [fall-risk, skin-contact]
 safety:
   - "Loose yarn is a trip and tangle hazard. Keep it in a basket and gather it up before anyone stands or walks."
   - "Never wrap yarn around a wrist, finger or neck tightly enough to press, and keep long strands away from the neck."

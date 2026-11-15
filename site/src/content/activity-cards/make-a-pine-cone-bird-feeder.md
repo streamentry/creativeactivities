@@ -46,6 +46,27 @@ variations:
     text: "A child does the rolling and sprinkling while the older adult chooses the spot and names the birds that visit."
   - kind: for-a-group
     text: "Make one feeder each and hang them all on the same tree, then watch together from indoors."
+images:
+  - src: /pictures/pine-cone-bird-feeder.svg
+    alt: "Drawing of a pine cone coated in fat and seed, hanging by string from a branch, with a small blue bird perched on the branch."
+    caption: "A pine cone coated in fat and seed, hung outside for the birds."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/pine-cone-feeder-materials.svg
+    alt: "Drawing of a dry pine cone, a jar of peanut butter, a dish of birdseed and a coil of twine, on a table."
+    caption: "What you need: a pine cone, peanut butter, birdseed and twine."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [allergen, small-parts, sharp-tool, fall-risk, ingestion]
 safety:
   - "Peanut butter can cause a severe allergic reaction. Ask about nut allergies first, and use vegetable shortening if anyone is unsure."
   - "Birdseed is not food for people, and small seeds can be a choking risk. Supervise if anything might be put in the mouth."

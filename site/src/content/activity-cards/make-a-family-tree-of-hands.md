@@ -43,6 +43,27 @@ variations:
     text: "Bring the paper to the person on a lap tray or clipboard, so they need not move to the table."
   - kind: low-vision
     text: "Go over each pencil outline with a thick dark marker afterward so the shapes are easy to see."
+images:
+  - src: /pictures/family-tree-of-hands.svg
+    alt: "Drawing of a brown tree trunk with a crown of five colored hand shapes, each one a traced hand, at the ends of the branches."
+    caption: "A tree with a traced hand for each family member at the ends of the branches."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/hands-tree-materials.svg
+    alt: "Drawing of a large sheet of paper, three crayons, a pencil and a roll of masking tape, on a table."
+    caption: "What you need: a large sheet of paper, crayons and masking tape."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [skin-contact, adhesive]
 safety:
   - "Trace with a pencil only and never put paint or ink on skin. Some skin bruises or tears easily, so trace gently and lift away from the hand."
   - "Ask before touching anyone's hand. If spreading fingers is painful, trace the hand relaxed or as a mitten shape."

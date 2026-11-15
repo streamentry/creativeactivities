@@ -196,6 +196,8 @@ Risks / not doing: Pillar hubs can become thin lists. The rules above prevent th
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Evidence: the activity page has Start (moves focus to step 1), Print and Save as labelled buttons. Body text is 20 px. Gap: at 375 px the glance facts start about 950 px down because the mobile site header is 301 px tall; a compact mobile header is a site-wide decision.
+
 Why: "An activity, ready in one glance" is the signature experience ([DESIGN §1](../../../DESIGN.md)). MISSION asks that a person can start in roughly a minute ([MISSION, "The product promise"](../../../MISSION.md)).
 
 What: The top of each card shows the name, a one-sentence purpose, the time, the materials, mess, setting, cost and help level, followed by Start, Print and Save. The baseline has the facts and a "Start activity" link to the steps. Print and Save on the card need checking (verify).
@@ -206,15 +208,17 @@ Acceptance:
 - Print and Save work by keyboard, with labels.
 - Body text is at least 18 px on the page (DESIGN §2).
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-028](#web-028--saved-collections-on-the-device).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-028](#web-028--saved-collections-on-the-device).
 
 Risks / not doing: More than three buttons dilutes the first action. Keep these three.
 
 ### WEB-012 · Step photos or illustrations
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
 
-Why: VISION asks for "original activity media" and "photographed or illustrated steps" ([VISION, "Moat we can actually build"](../../../VISION.md)). DESIGN says photos should never be the only form of instruction ([DESIGN §2](../../../DESIGN.md)). None of the 38 card files references an image.
+Evidence: every one of the 38 cards has two original drawings in the house kit: the finished result (`activity-results-a.ts`, `activity-results-b.ts`, plus `vase-of-flowers` in `home.ts`) and "What you need" with `kind: materials` (`activity-materials-a.ts`, `activity-materials-b.ts`). Acceptance bullet 1 (materials and result) holds for all 38. Each image has specific alt text, a caption and a provenance entry (`docs/specs/asset-provenance.json`, 274 site images, checked by `asset-provenance.test.ts`); schema rules in `activity-schema.ts` (`kind: materials` never with a step). Materials drawings are served at `/pictures/<id>.svg` but kept out of `PICTURES`, so the games, the printable gallery and the app library do not get busy multi-object scenes. In print the result drawing floats beside the steps and the materials drawing is omitted (the list covers it), so cards stay one two-sided sheet at 12 pt. Per-step images are optional (DESIGN §4B: "optional image"); none yet. Still open: rights review of the drawings (all `unreviewed`), real process photos if wanted, and redraws of the weakest (hand massage, towel stack, torn-paper flower).
+
+Why: VISION asks for "original activity media" and "photographed or illustrated steps" ([VISION, "Moat we can actually build"](../../../VISION.md)). DESIGN says photos should never be the only form of instruction ([DESIGN §2](../../../DESIGN.md)). Before 2026-11-15 none of the 38 card files referenced an image.
 
 What: Each card gets an original photo or tactile illustration for its materials and for its key steps, with a caption and alt text that carries the instruction. Step text stays alongside every image. Images have explicit dimensions and are compressed.
 
@@ -243,20 +247,22 @@ Acceptance:
 - Each variation changes at least one step, not only a sentence.
 - Printing shows all variations unless one is selected.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card); variation kinds in [02 §4.2](02-information-architecture.md#42-fit-facets).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card); variation kinds in [02 §4.2](02-information-architecture.md#42-fit-facets).
 
 Risks / not doing: Hiding variations behind a switch can hide them from search and from print. Keep them in the HTML.
 
-### WEB-014 · One-page printable card
+### WEB-014 · One-sheet, two-sided printable card
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Evidence: `site/scripts/check-print.mjs` (`pnpm check:print`): all 38 activity cards print as exactly two pages (one sheet, both sides) on A4 and US Letter, front = what you need and what to do, back = make it easier or different and safety, navigation hidden, no background color needed. Body text now 12 pt (headings 14 pt, title 22 pt) in `site/src/styles/activities.css`; the back carries a print-only line `Version <updated date> · creativeactivities.org/activity/<slug>/` (WEB-016). Result of the 2026-11-15 run: 38 of 38 pass on A4 and Letter at 12 pt. Remaining: a printed copy checked on paper by a person (black and white, older reader) and the stop note check on the real sheet.
+
 Why: The Activity Card is "the memorable feature" and a potential distribution channel ([DESIGN §8](../../../DESIGN.md), [VISION](../../../VISION.md)). Printables are the way to reach people without a screen ([R1 §3.7](research/01-craft-diy-platforms.md)).
 
-What: One page per activity, with the title and image, what you need and what to do, the easier side ("make it easier or different"), the note "It's okay to stop or change it", a source line and a short URL or QR code. The baseline has a print card with a QR code. Checking the easier side and stop note on the print is needed (verify).
+What: One sheet per activity, two sides as DESIGN §8 describes ("What you need" and "what to do" on one side, "Make it easier / make it different" on the other), with the title and image, what you need and what to do, the easier side ("make it easier or different"), the note "It's okay to stop or change it", a source line and a short URL or QR code. The baseline has a print card with a QR code. Checking the easier side and stop note on the print is needed (verify).
 
 Acceptance:
-- Fits on one A4 sheet and one US Letter sheet at 100% scale.
+- Fits on one A4 sheet and one US Letter sheet at 100% scale, printed on both sides (exactly two pages); the back starts with "Make it easier or different".
 - Body text is at least 12 pt in print (proposal), and the stop note is never cut.
 - Works in black and white.
 - Shows the card version and date ([WEB-016](#web-016--versioned-prints)).
@@ -279,13 +285,14 @@ Acceptance:
 - Print content matches the web content exactly. No print-only claims.
 - The card works with no URL or QR code.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card).
 
 Risks / not doing: No print-only rewrite of claims. Print is a rendering of the same card.
 
 ### WEB-016 · Versioned prints
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: the print-only footer line on each card (`site/src/views/ActivityView.astro`, class `print-version`, styled in `site/src/styles/activities.css`) prints `Version <updated date> · creativeactivities.org/activity/<slug>/`. Not done: the version is the card's `updated` date, not a separate version number; no changelog entry (WEB-027) and no safety notice on the card page yet.
 
 Why: Printed copies cannot be updated, so each one must be dated and versioned ([R5 §4](research/05-search-scale-trust.md)). The risk of feature churn is named in [R1 §7](research/01-craft-diy-platforms.md): printed outputs must stay stable.
 
@@ -315,7 +322,7 @@ Acceptance:
 - A card can be added only with its chosen variation.
 - The pack states "for personal, noncommercial use" (VISION's print and share permission).
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-016](#web-016--versioned-prints).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-016](#web-016--versioned-prints).
 
 Risks / not doing: Bulk copying for resale. The noncommercial line and the free-core rule cover it. No watermark on a family's own print.
 
@@ -333,7 +340,7 @@ Acceptance:
 - The content is the same as the standard print.
 - Works in black and white.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [WEB-015](#web-015--no-ink-no-url-print-version).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [WEB-015](#web-015--no-ink-no-url-print-version).
 
 Risks / not doing: A second content version to maintain. The layout changes; the words do not.
 
@@ -382,6 +389,8 @@ Risks / not doing: No third-party speech service. A cloud voice would change the
 ### WEB-022 · Structured safety flags
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `safetyFlags` enum on every card (38 tagged; `none` for cards with no listed hazard). Text-labelled chips in the Safety section and on the print card; "Not for under 3: small parts" in the header. Finder checkboxes "Leave out activities that need" for the five filterable flags (`activities.ts`; tests in `activities.test.ts` and `activity-cards.test.ts`). Open: legal wording of the labels still needs review under 14 before S1 exit.
 
 Why: Safety labeling is a non-negotiable: scissors, heat, choking risks, skin contact, allergens and supervision ([MISSION, "Safety"](../../../MISSION.md)). Small-parts labels need a default ([R2 §4](research/02-parenting-kids-platforms.md)). The baseline has a safety list in text, not structured flags.
 
@@ -438,7 +447,8 @@ Risks / not doing: Stop notes can become a formula. Write each one for its activ
 
 ### WEB-025 · "We tried this"
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: `site/src/components/ActivityFeedback.astro`, `site/src/lib/activity-feedback.ts` (+ tests), event `activity_started_confirmed` in `site/src/lib/track.ts`. Not built: the visitor note (no free text was shipped), the public count after the minimum (needs an aggregate endpoint, see PLAT-027 and a maintainer decision).
 
 Why: The north-star proxy is "activity starts that users voluntarily confirm" ([VISION, metrics](../../../VISION.md)), and the definition of #1 counts confirmed starts first ([README](README.md#definition-of-1-how-we-will-know)).
 
@@ -456,7 +466,8 @@ Risks / not doing: Counts can be gamed or can look like pressure. The count is a
 
 ### WEB-026 · "This didn't fit"
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: `site/src/components/ActivityFeedback.astro` (fixed reasons, next step per reason), event `activity_not_a_fit` in `site/src/lib/track.ts`, tests in `site/src/lib/activity-feedback.test.ts` and `site/src/lib/track.test.ts`. Not built: routing to the editors' queue (no backend; the event goes only to the analytics path, a maintainer decision), and the "other" text box (deliberately left out: no free text).
 
 Why: VISION names "helpful and not-fit feedback" as a usefulness measure ([VISION, Stage 1](../../../VISION.md)). Reasons such as "too messy" or "not an option for this person" tell us what to adapt ([R1 §3, "Pins… feedback"](research/01-craft-diy-platforms.md)).
 
@@ -617,6 +628,8 @@ Risks / not doing: A setting nobody finds does not help. Put it in the header or
 ### WEB-036 · Keyboard, focus and screen reader on every template
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `pnpm check:a11y` (zero axe violations, visible focus, no focus trap, no focus under the sticky header, on every template). Testing with two screen readers before S1 exit is still open and needs a person.
 
 Why: "Build and test with people who use assistive technologies" ([MISSION, "Accessibility"](../../../MISSION.md)). WCAG 2.2 AA is the minimum ([brief](_WRITER_BRIEF.md)). The baseline runs axe on key pages only.
 
@@ -853,14 +866,14 @@ Priority P1 · Phase S2 · Status new · Pillars: PLAY, GROW, CARE
 
 Why: "Printable plus digital pairs for the same game" is an open gap ([R4 §6](research/04-games-engagement.md)). Printable counterparts are in the game concepts ([R4 §8](research/04-games-engagement.md)).
 
-What: Each game with a printable partner links to the partner card, which follows the same card rules ([WEB-014](#web-014--one-page-printable-card) to [WEB-016](#web-016--versioned-prints)). The game page says which rules are the same.
+What: Each game with a printable partner links to the partner card, which follows the same card rules ([WEB-014](#web-014--one-sheet-two-sided-printable-card) to [WEB-016](#web-016--versioned-prints)). The game page says which rules are the same.
 
 Acceptance:
 - Each of the 12 existing games has a printable partner or a written reason why not.
 - The rules text is the same on both.
 - The printed partner has a version and date.
 
-Depends on: [WEB-014](#web-014--one-page-printable-card), [05 games](05-games.md).
+Depends on: [WEB-014](#web-014--one-sheet-two-sided-printable-card), [05 games](05-games.md).
 
 Risks / not doing: A printable partner that is a worse game. Write the rules once and check both.
 
@@ -997,7 +1010,9 @@ Risks / not doing: Hub sprawl. The rules and the publish threshold do the work.
 
 ### WEB-060 · Art-therapy boundary page
 
-Priority P0 · Phase S1 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence: `site/src/pages/art-therapy-and-creative-activities.astro` (built, linked from footer and from the two CALM explainer guides; claims lint covers it). Open: the page is marked "not yet reviewed by a registered art therapist"; the reviewer, the BAAT/HCPC link checks on the publish date, and the reviewer's named credential are still needed.
 
 Why: "Art therapy is a professional practice, not a marketing synonym for crafts" ([MISSION, "Evidence and humility"](../../../MISSION.md)). Visitors search for art therapy ([R3 §4.1](research/03-art-therapy-wellbeing.md)), and the profession has protected titles that vary by place ([R3 §2](research/03-art-therapy-wellbeing.md)).
 
@@ -1015,7 +1030,9 @@ Risks / not doing: Writing the boundary page as a sales page for our activities.
 
 ### WEB-061 · Crisis-safe route
 
-Priority P0 · Phase S1 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence: `site/src/components/CrisisRoute.astro`, shown on Today, the boundary page and nine guides with `crisisRoute: true` (frontmatter, `content.config.ts`). US 988 and UK/Ireland Samaritans 116 123 were checked on 2026-11-15 against 988lifeline.org and samaritans.org. Open: the per-locale route list (L10N-009 owner) for each later language.
 
 Why: "Any activity that invites personal disclosure… should carry a visible, plain-language crisis route. Do not wait for a keyword match" ([R3 §4.4](research/03-art-therapy-wellbeing.md)). No creative-activity site reviewed in R3 shows one on its activity pages.
 
@@ -1226,6 +1243,8 @@ Risks / not doing: Stock images without a release for people. Use only images wi
 ### WEB-074 · Performance budget
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/scripts/check-budget.mjs` (`pnpm check:budget`, also in `pnpm verify`): 0 of 15,728 built pages are over the budgets in `rules/web/performance.md`. The 404 page loaded a 2.6 MB script and now loads the locale codes only. Image budget, Lighthouse in CI and field data are still open.
 
 Why: Core Web Vitals targets are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 at the 75th percentile ([DESIGN §7](../../../DESIGN.md); the web performance rules). Low-speed connections are a named requirement.
 

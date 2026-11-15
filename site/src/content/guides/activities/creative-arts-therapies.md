@@ -43,6 +43,7 @@ sources:
 relatedGames: [conversation-cards]
 related: [activities/art-therapy-or-creative-activity, activities/finding-an-art-therapist, activities/music, activities/reminiscence, activities/arts-and-crafts]
 health: true
+crisisRoute: true
 ---
 
 The creative arts therapies are a family of mental health professions. Each one uses a different art form in a clinical relationship: art, music, dance and movement, drama and poetry. Each has its own training, and each therapist holds a credential specific to their field. This page explains the types, how expressive arts therapy combines them, how they differ from everyday creative activities, and what the dementia research shows.

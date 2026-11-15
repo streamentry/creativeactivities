@@ -40,6 +40,7 @@ sources:
 relatedGames: [conversation-cards, photo-pairs, finish-the-saying]
 related: [activities/reminiscence, activities/music, activities/trivia, activities/visiting, caregiving/communication-tips, caregiving/repeated-questions]
 health: false
+crisisRoute: true
 ---
 
 Reminiscence is the practice of talking together about the past: childhood homes, first jobs, favorite foods, songs, weddings and holidays. For many people with dementia, a warm conversation about their own life is one of the most enjoyable parts of the day. The key is to ask in a way that invites a story and never tests a memory. These questions are grouped by theme, with tips on how to use them.

@@ -487,8 +487,13 @@
   font-weight: 700;
 }
 
-/* ---------- Print: one Activity Card ---------- */
+/* ---------- Print: one Activity Card on one A4 or US Letter sheet (WEB-014) ----------
+   Two text columns below the title; the back-of-card page break is gone. Checked by
+   scripts/check-print.mjs. */
 @media print {
+  @page {
+    margin: 6mm 9mm;
+  }
   .activity-layout {
     display: block !important;
   }
@@ -497,46 +502,59 @@
   .activity-next {
     display: none !important;
   }
-  /* "Print the card": compact type and spacing, still 11.5pt. */
+  /* WEB-014: body text 12 pt for older readers; headings scale with it. */
   .activity {
-    font-size: 11.5pt;
-    line-height: 1.35;
+    font-size: 12pt;
+    line-height: 1.25;
   }
   .activity-head {
     padding: 0 0 2mm;
   }
   .activity-head h1 {
     font-size: 22pt;
-    margin: 0 0 1mm;
+    margin: 0 0 0.5mm;
   }
   .activity-head__summary,
   .activity-glance {
-    font-size: 11.5pt;
-    margin-bottom: 1mm;
+    font-size: 12pt;
+    margin-bottom: 0.5mm;
   }
   .activity-materials {
     display: none;
   }
+  /* DESIGN.md §8: the back of the card starts with "Make it easier or different". */
+  .activity-main .activity-adapt {
+    break-before: page;
+  }
+  /* One column, so the page break before the back side always applies. */
+  .activity-main {
+    columns: auto;
+  }
   .activity-main section {
-    margin-bottom: 3mm;
+    margin-bottom: 1mm;
+    break-inside: avoid;
   }
   .activity-main h2 {
-    font-size: 13pt;
-    margin: 0 0 1mm;
+    font-size: 14pt;
+    margin: 0 0 0.5mm;
   }
   .activity-main h3 {
-    font-size: 11.5pt;
-    margin: 2mm 0 1mm;
+    font-size: 12pt;
+    margin: 0.8mm 0 0.3mm;
+  }
+  /* The "need" section's own heading rule (studio-activity.css) is more specific; match it here. */
+  .activity-page .activity-main .activity-need h3 {
+    margin: 0.8mm 0 0.3mm;
   }
   .activity-main p,
   .activity-main li {
     margin-block: 0;
   }
   .activity-list li + li {
-    margin-top: 0.5mm;
+    margin-top: 0;
   }
   .activity-steps {
-    gap: 1mm;
+    gap: 0.6mm;
   }
   .activity-steps li {
     grid-template-columns: 7mm 1fr;
@@ -554,9 +572,6 @@
     border: 1.5pt solid #000;
   }
   /* Two sides (DESIGN.md › Activity Cards): need and do on the front, adapt and safety on the back. */
-  .activity-adapt {
-    break-before: page;
-  }
   .activity-variations {
     grid-template-columns: 1fr 1fr;
     gap: 1.5mm;
@@ -571,20 +586,33 @@
     border: 1pt solid #000 !important;
     padding: 1.5mm 2.5mm;
   }
+  .activity-byline {
+    font-size: 7.5pt;
+    line-height: 1.3;
+  }
+  .activity-byline p {
+    margin: 0;
+  }
   .print-qr {
     display: flex !important;
     align-items: center;
-    gap: 4mm;
-    margin-top: 3mm;
+    gap: 3mm;
+    margin-top: 1.5mm;
     break-inside: avoid;
   }
   .print-qr svg {
     flex: none;
-    width: 22mm;
-    height: 22mm;
+    width: 16mm;
+    height: 16mm;
   }
   .print-qr p {
     margin: 0;
+    font-size: 8pt;
+  }
+  /* WEB-016: the back of each printed card says which version it is and where the live card is. */
+  .print-version {
+    margin: 1.5mm 0 0;
+    font-size: 8pt;
   }
   .pack-card {
     break-before: page;
@@ -660,5 +688,134 @@
   .activity-byline {
     font-size: 10pt;
     padding: 0;
+  }
+}
+
+/* ---------- Safety flags (WEB-022): labelled chips, text first ---------- */
+.flag-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin: 0 0 var(--space-md);
+  padding: 0;
+  list-style: none;
+}
+.flag-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.8rem;
+  border: 1.5px solid var(--gm-on-surface-variant);
+  border-radius: 999px;
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font-weight: 700;
+  line-height: 1.3;
+}
+.flag-chip--small-parts {
+  border-color: var(--gm-error);
+  background: var(--gm-surface);
+  color: var(--gm-error);
+  box-shadow: inset 0 0 0 1px var(--gm-error);
+}
+.flag-chip--none {
+  font-weight: 400;
+}
+.activity-age {
+  margin: 0 0 var(--space-sm);
+  color: var(--gm-error);
+}
+
+/* ---------- Step and result pictures (WEB-012) ---------- */
+.activity-figure {
+  display: grid;
+  gap: var(--space-xs);
+  justify-items: start;
+  margin: var(--space-sm) 0;
+  max-width: 14rem;
+}
+.activity-figure img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+}
+.activity-figure figcaption {
+  display: grid;
+  gap: 0.2rem;
+  font-size: 0.95rem;
+}
+.activity-figure__credit {
+  color: var(--gm-on-surface-variant);
+  font-size: 0.85rem;
+}
+
+/* ---------- Withdrawn card (TSA-045) and review record (TSA-034) ---------- */
+.activity-withdrawn {
+  padding: var(--space-lg);
+  border: 2px solid var(--gm-error);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+.activity-review {
+  padding: var(--space-lg);
+  border: 1px solid var(--gm-secondary-outline);
+  background: var(--gm-secondary-container);
+  border-radius: var(--radius-md);
+}
+
+/* Print: a small preview image, so the card stays one sheet, two sides. */
+@media print {
+  .activity-figure {
+    break-inside: avoid;
+  }
+  /* The drawing sits beside the steps, not above them, so text stays 12 pt. */
+  .activity-figure {
+    float: inline-end;
+    width: 30mm;
+    margin: 0 0 1.5mm 4mm;
+  }
+  .activity-figure img {
+    max-height: 30mm;
+    width: 100%;
+    height: auto;
+  }
+  .activity-figure figcaption {
+    font-size: 9pt;
+  }
+  /* Our own drawings: the credit stays on the web page; the card's source line covers print. */
+  .activity-figure__credit {
+    display: none;
+  }
+  /* The stop note never runs under the drawing. */
+  .activity-stop {
+    clear: both;
+  }
+}
+
+/* A materials picture sits beside the checklist at every width, so the list
+   stays near the top; it is smaller on phones. */
+.activity-figure--materials {
+  float: inline-end;
+  width: min(38%, 200px);
+  margin: 0 0 var(--space-sm) var(--space-md);
+}
+.activity-figure--materials figcaption {
+  font-size: var(--text-sm);
+}
+@media (max-width: 599px) {
+  .activity-figure--materials .activity-figure__credit {
+    display: none;
+  }
+}
+.activity-need .activity-check,
+.activity-need h3 {
+  overflow-wrap: anywhere;
+}
+.activity-need > h3 {
+  clear: both;
+}
+@media print {
+  .activity-figure--materials {
+    display: none;
   }
 }

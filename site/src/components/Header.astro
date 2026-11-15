@@ -14,7 +14,7 @@ const path = splitLocale(Astro.url.pathname).path;
 ---
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="brand" href={localePath(lang, '/')} aria-label={t.common.homeLabel}>
+    <a class="brand" href={localePath(lang, "/")}>
       <BrandMark class="brand__mark" />
       <span class="brand__text">
         <span class="brand__name">{t.common.brandName}</span>

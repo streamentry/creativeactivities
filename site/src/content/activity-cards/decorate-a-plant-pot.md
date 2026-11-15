@@ -43,6 +43,27 @@ variations:
     text: "A child paints the pot while the older adult chooses the plant and shows how to firm the soil."
   - kind: for-a-group
     text: "Each person decorates a pot and the group plants a row of herbs to share on a common windowsill."
+images:
+  - src: /pictures/painted-plant-pot.svg
+    alt: "Drawing of a blue pot painted with yellow zigzags and white dots, with a green herb plant growing out of it."
+    caption: "A plain pot after painting, ready for a herb or small plant."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/plant-pot-materials.svg
+    alt: "Drawing of an empty terracotta plant pot, a tin of blue paint, a paint brush and a sprig of herb, on a table."
+    caption: "What you need: a plant pot, paint, a brush and a little plant."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [skin-contact, adhesive, ingestion]
 safety:
   - "Use non-toxic, water-based paint, and wash it off skin with soap and water."
   - "Wear gloves or wash hands after handling potting soil, and keep it away from mouths."

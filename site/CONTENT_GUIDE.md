@@ -145,9 +145,15 @@ in `src/content.config.ts` enforces the fields; these rules are editorial.
   (scissors, small parts that could be swallowed, toxic plants, allergens,
   heat, water). Safety notes are practical suggestions, not medical advice.
 - Everyday, low-cost materials, with substitutions.
-- `author` is the editorial team or a named person. Leave `reviewer` unset
-  until a named person has actually reviewed the card; the page then says
+- `author` is the editorial team or a named person. Leave `review` unset
+  until a named, credentialed person has actually reviewed the card and given
+  written permission to be named (TSA-034). The record holds their name,
+  credential, date, the scope of what they checked, who the activity is not
+  for, what needs supervision and the stop signs; without it the page says
   "Not yet reviewed by an outside expert".
+- `safetyFlags` lists the hazards the card's own materials and safety text
+  name (use `none` only when there are none). Tests check the flags against
+  the card text.
 - `guides` lists the guides that recommend the card. Those guides show it
   under "Activities to start today".
 - Cards are English only until a translation has cultural and safety review.

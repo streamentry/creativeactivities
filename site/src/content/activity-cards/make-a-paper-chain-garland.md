@@ -43,6 +43,27 @@ variations:
     text: "Use wider strips in two strongly contrasting colors and alternate them to make the pattern easy to follow."
   - kind: seated
     text: "Work on a lap tray and let the finished chain fall into a box at your feet as it grows."
+images:
+  - src: /pictures/paper-chain-garland.svg
+    alt: "Drawing of a garland of colored paper links in red, yellow, green, pink, blue and orange, hanging in a curve across a blue sky background."
+    caption: "A finished paper chain, looped together and hung in a curve."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/paper-chain-materials.svg
+    alt: "Drawing of three strips of colored paper, a yellow ruler, a pair of scissors and a glue stick, on a table."
+    caption: "What you need: colored paper strips, a ruler, scissors and a glue stick."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [sharp-tool, heat, fall-risk, adhesive]
 safety:
   - "Keep scissors, staplers and paper trimmers with the helper."
   - "Hang the finished garland well away from candles, heaters and lamps."

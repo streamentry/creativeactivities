@@ -18,11 +18,14 @@ import {
   TIME_CHOICES,
   TYPE_LABELS,
   VARIATION_LABELS,
+  FILTER_LABELS,
+  FILTERABLE_FLAGS,
   glance,
+  listedActivities,
 } from '../lib/activities';
 
 const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
-const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+const activities = listedActivities(await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
 const crumbs = [{ href: '/activity/', label: 'Find an activity' }];
 const title = 'Find an Activity to Do Together';
 const description =
@@ -187,6 +190,17 @@ const easier = (kinds: { kind: string; text: string }[]) =>
             ))
           }
         </fieldset>
+        <fieldset>
+          <legend>Leave out activities that need</legend>
+          {
+            FILTERABLE_FLAGS.map((flag) => (
+              <label class="choice">
+                <input type="checkbox" name="avoid" value={flag} />
+                <span>{FILTER_LABELS[flag] ?? flag}</span>
+              </label>
+            ))
+          }
+        </fieldset>
         <p class="muted">We never ask about a diagnosis. Fit the activity to the moment, not to a label.</p>
       </details>
     </form>
@@ -212,6 +226,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
               data-supervision={a.data.supervision}
               data-senses={a.data.senses.join(' ')}
               data-variations={a.data.variations.map((v) => v.kind).join(' ')}
+              data-flags={a.data.safetyFlags.join(' ')}
             >
               <a class="activity-card" href={`/activity/${a.id}/`}>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
@@ -253,7 +268,7 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 </BaseLayout>
 
 <script>
-  import { fitReasons, matches, type ActivityFacts, type ActivitySense, type FinderChoice } from '../lib/activities';
+  import { fitReasons, matches, type ActivityFacts, type ActivitySense, type FinderChoice, type SafetyFlag } from '../lib/activities';
   import { browserStorage, loadSaved } from '../lib/saved-activities';
   import { matchesGuideSearch } from '../lib/guide-search';
 
@@ -276,15 +291,19 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       supervision: d.supervision as ActivityFacts['supervision'],
       senses: (d.senses ?? '').split(' ').filter(Boolean) as ActivitySense[],
       variationKinds: (d.variations ?? '').split(' ').filter(Boolean),
+      safetyFlags: (d.flags ?? '').split(' ').filter(Boolean) as SafetyFlag[],
     };
   }
 
   function update(): void {
     if (!form) return;
     const data = new FormData(form);
-    const choice: FinderChoice = Object.fromEntries(
-      ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision', 'sense', 'talking'].map((k) => [k, String(data.get(k) ?? 'any')]),
-    );
+    const choice: FinderChoice = {
+      ...Object.fromEntries(
+        ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision', 'sense', 'talking'].map((k) => [k, String(data.get(k) ?? 'any')]),
+      ),
+      avoid: data.getAll('avoid').map(String),
+    };
     const words = String(data.get('words') ?? '');
     let shown = 0;
     for (const li of items) {

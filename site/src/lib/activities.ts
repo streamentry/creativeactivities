@@ -24,6 +24,8 @@ export interface ActivityFacts {
   senses?: readonly ActivitySense[];
   /** Kinds of the written variations, e.g. 'less-sensory' or 'nonverbal'. */
   variationKinds?: readonly string[];
+  /** Structured safety flags from the card (WEB-022). */
+  safetyFlags?: readonly SafetyFlag[];
 }
 
 export const TYPE_LABELS: Record<ActivityType, string> = {
@@ -146,6 +148,8 @@ export const SUPERVISION_CHOICES = [
 ] as const;
 
 export interface FinderChoice {
+  /** Safety flags the visitor wants to leave out (WEB-022). */
+  avoid?: readonly string[];
   time?: string;
   materials?: string;
   type?: string;
@@ -182,6 +186,8 @@ export function matches(a: ActivityFacts, c: FinderChoice): boolean {
   if (chosen(c.talking) && !(a.variationKinds ?? []).includes('nonverbal')) return false;
   const supervision = SUPERVISION_CHOICES.find((s) => s.value === c.supervision);
   if (supervision && !(supervision.allows as readonly string[]).includes(a.supervision)) return false;
+  const flags = a.safetyFlags ?? [];
+  if ((c.avoid ?? []).some((flag) => flags.includes(flag as SafetyFlag))) return false;
   return true;
 }
 
@@ -204,4 +210,66 @@ export function fitReasons(a: ActivityFacts, c: FinderChoice): string[] {
   if (chosen(c.talking)) reasons.push('works without words');
   if (chosen(c.supervision)) reasons.push('works with you nearby');
   return reasons;
+}
+
+/**
+ * Structured safety flags (WEB-022; labels from docs/specs/global/02 section 4.3).
+ * `none` means the card was checked and no listed flag applies. Legal
+ * wording of the labels still needs review (TSA section 14).
+ */
+export const SAFETY_FLAGS = [
+  'small-parts',
+  'sharp-tool',
+  'heat',
+  'adhesive',
+  'skin-contact',
+  'allergen',
+  'ingestion',
+  'water',
+  'fall-risk',
+  'none',
+] as const;
+export type SafetyFlag = (typeof SAFETY_FLAGS)[number];
+
+/** The label shown as a chip beside the flag, in plain words. */
+export const SAFETY_FLAG_LABELS: Record<SafetyFlag, string> = {
+  'small-parts': 'Not for under 3: small parts',
+  'sharp-tool': 'Adult needed for sharp tools',
+  heat: 'Adult needed for heat',
+  adhesive: 'Check for glue or tape sensitivity',
+  'skin-contact': 'Check for skin sensitivity to paint or materials',
+  allergen: 'Check for food or plant allergies',
+  ingestion: 'Keep away from mouths',
+  water: 'Spills and wet floors',
+  'fall-risk': 'Check the chair and space before standing',
+  none: 'No listed safety flag. Read the safety notes.',
+};
+
+/** Flags a visitor can leave out in the finder (spec 02 section 4.3, filter: yes). */
+export const FILTERABLE_FLAGS: readonly SafetyFlag[] = ['small-parts', 'sharp-tool', 'heat', 'adhesive', 'skin-contact'];
+
+/** Short names for the finder's checkboxes. */
+export const FILTER_LABELS: Partial<Record<SafetyFlag, string>> = {
+  'small-parts': 'Small parts',
+  'sharp-tool': 'Sharp tools',
+  heat: 'Heat',
+  adhesive: 'Glue or tape',
+  'skin-contact': 'Paint or materials on skin',
+};
+
+/**
+ * Activities a withdrawn card must not appear in (TSA-045). The card's own
+ * page stays up, with a notice and noindex, so old links explain themselves.
+ */
+export function listedActivities<T extends { data: { withdrawn?: unknown } }>(cards: readonly T[]): T[] {
+  return cards.filter((card) => !card.data.withdrawn);
+}
+
+/**
+ * The byline line for the review record (TSA-034). It names only what the
+ * record holds, and says plainly when there is no record.
+ */
+export function reviewByline(review: { name: string; credential: string } | undefined, dateText: string): string {
+  if (!review) return 'Not yet reviewed by an outside expert.';
+  return `Reviewed by ${review.name}, ${review.credential}, on ${dateText}.`;
 }

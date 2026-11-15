@@ -46,35 +46,35 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | BIZ-001 | Free core, forever | exists | Free core, forever: every S1 card and printable stays free and login-free | none |
 | BIZ-002 | No ads inside activities, games or child-directed pages | exists | No ads inside activities or child-directed pages; CSP already blocks ad domains | TSA-019 (S2 child-page rule) |
 | BIZ-003 | No sale or sharing of personal or health data | exists | No sale or sharing of personal or health data | PLAT-026 (consent and GPC, S2); policy holds until then |
-| WEB-012 | Step photos or illustrations | new | Step photos or illustrations: VISION asks for the actual process shown; biggest quality gap | TSA-038, CNT-031 |
+| WEB-012 | Step photos or illustrations | partial | Step photos or illustrations: VISION asks for the actual process shown; biggest quality gap | TSA-038, CNT-031 |
 | WEB-014 | One-page printable card | partial | One-page printable card: print is a VISION S1 requirement and the share unit | WEB-012, WEB-011 |
 | WEB-011 | At-a-glance block with Start, Print and Save | partial | At-a-glance block with Start, Print and Save: time, setup and materials before scrolling | WEB-025, WEB-014 |
 | WEB-057 | Byline and reviewer block | partial | Byline and reviewer block: named author, review status, date; "not yet reviewed" shown honestly | TSA-034 |
-| WEB-025 | We tried this | new | "We tried this": the north-star proxy (MET-001), with no account and no health field | PLAT-024, TSA-012 |
-| WEB-026 | This didn't fit | new | "This didn't fit": not-fit feedback that drives the next recommendation | PLAT-024 |
-| SEO-009 | Dementia activities hub | new | Dementia activities hub: VISION hub 1 and the wedge cluster; indexable only if H3 passes | TSA-034 (named reviewer), SEO-001, H3 |
-| SEO-010 | Seated activities hub | new | Seated activities hub: VISION hub 2 (seated and bedside wedge) | SEO-001, SEO-003 |
+| WEB-025 | We tried this | partial | "We tried this": the north-star proxy (MET-001), with no account and no health field | PLAT-024, TSA-012 |
+| WEB-026 | This didn't fit | partial | "This didn't fit": not-fit feedback that drives the next recommendation | PLAT-024 |
+| SEO-009 | Dementia activities hub | partial | Dementia activities hub: VISION hub 1 and the wedge cluster; indexable only if H3 passes | TSA-034 (named reviewer), SEO-001, H3 |
+| SEO-010 | Seated activities hub | exists | Seated activities hub: VISION hub 2 (seated and bedside wedge) | SEO-001, SEO-003 |
 | SEO-001 | Cluster map from the R5 ranking | partial | Cluster map from the R5 ranking: chooses the three S1 hubs | SEO-002 |
-| SEO-002 | Replace the wrong-market demand data | new | Replace the wrong-market demand data: Stage 0 evidence for one market | none (US-English Keyword Planner export) |
-| SEO-003 | One URL contract | new | One URL contract: three documents disagree on hub and activity paths | open decision 4 |
+| SEO-002 | Replace the wrong-market demand data | partial | Replace the wrong-market demand data: Stage 0 evidence for one market | none (US-English Keyword Planner export) |
+| SEO-003 | One URL contract | partial | One URL contract: three documents disagree on hub and activity paths | open decision 4 |
 | SEO-004 | Search consoles and a measurement baseline | partial | Search consoles and a measurement baseline: needed for the S1 gate and MET-021 | domain verification (17, open question 3) |
 | WEB-036 | Keyboard, focus and screen reader on every template | partial | Keyboard, focus and screen reader on every template: WCAG 2.2 AA on S1 surfaces | TSA-001 |
 | WEB-074 | Performance budget | partial | Performance budget: VISION asks for working mobile performance on basic phones | PLAT-036 |
 | TSA-001 | WCAG 2.2 AA as the release gate | partial | WCAG 2.2 AA as the release gate for all S1 work | none |
-| TSA-002 | Testing with assistive-technology users | new | Testing with assistive-technology users: automated checks are necessary and insufficient | MET-029 (recruitment) |
-| MET-029 | Usability study program | new | Usability study program: 8 to 15 sessions before expansion (VISION Stage 1) | TSA-002 |
+| TSA-002 | Testing with assistive-technology users | partial | Testing with assistive-technology users: automated checks are necessary and insufficient | MET-029 (recruitment) |
+| MET-029 | Usability study program | partial | Usability study program: 8 to 15 sessions before expansion (VISION Stage 1) | TSA-002 |
 | PLAT-024 | Website event dictionary and payload rules | partial | Website event dictionary and payload rules: the privacy-conscious events VISION asks for | open decision 1 (GA4) |
-| TSA-012 | Event allowlist and no health data | new | Event allowlist and no health data: enforces PLAT-024; no health detail in analytics | PLAT-024 |
+| TSA-012 | Event allowlist and no health data | partial | Event allowlist and no health data: enforces PLAT-024; no health detail in analytics | PLAT-024 |
 | WEB-022 | Structured safety flags | partial | Structured safety flags: materials, supervision and food-as-material risk shown consistently | TSA-023 and TSA-024 (S2 vocabulary and rules) |
-| WEB-060 | Art-therapy boundary page | new | Art-therapy boundary page: existing copy uses "therapeutic" and therapy-adjacent guides | TSA-028 |
-| WEB-061 | Crisis-safe route | new | Crisis-safe route on pages that invite disclosure; UK, Ireland and US verified | CNT-1003 (country list), L10N-009 (owner) |
+| WEB-060 | Art-therapy boundary page | partial | Art-therapy boundary page: existing copy uses "therapeutic" and therapy-adjacent guides | TSA-028 |
+| WEB-061 | Crisis-safe route | partial | Crisis-safe route on pages that invite disclosure; UK, Ireland and US verified | CNT-1003 (country list), L10N-009 (owner) |
 | WEB-062 | Translation status and no-index for unreviewed copies | partial | Translation status and no-index for unreviewed copies: 189 machine-translated locale codes | L10N-033 (decision), L10N-020 |
-| TSA-035 | Corrections route and log | new | Corrections route and log: wrong information needs a visible fix path | TSA-045, response targets (open decision 12) |
-| TSA-028 | Claims vocabulary and banned words | new | Claims vocabulary and banned words: stops therapy, cure and cognitive claims; drives the CNT-909 title fix | TSA-031, L10N-007 |
-| TSA-034 | Credentialed review scope record | new | Credentialed review scope record: what each reviewer checked; required for the dementia hub | named reviewers (open decision 8) |
-| TSA-038 | Image rights and consent log | new | Image rights and consent log: every S1 photo or illustration has a record; child flag | PLAT-003 (S2 media records) |
-| TSA-045 | Response to an unsafe or wrong activity | new | Response to an unsafe or wrong activity: stop-and-withdraw path before traffic grows | TSA-035, response targets (open decision 12) |
-| TSA-018 | Child-reachable default | new | Child-reachable default: S1 has no child data and no child-directed design | TSA-019, TSA-020 (S2) |
+| TSA-035 | Corrections route and log | partial | Corrections route and log: wrong information needs a visible fix path | TSA-045, response targets (open decision 12) |
+| TSA-028 | Claims vocabulary and banned words | partial | Claims vocabulary and banned words: stops therapy, cure and cognitive claims; drives the CNT-909 title fix | TSA-031, L10N-007 |
+| TSA-034 | Credentialed review scope record | partial | Credentialed review scope record: what each reviewer checked; required for the dementia hub | named reviewers (open decision 8) |
+| TSA-038 | Image rights and consent log | partial | Image rights and consent log: every S1 photo or illustration has a record; child flag | PLAT-003 (S2 media records) |
+| TSA-045 | Response to an unsafe or wrong activity | partial | Response to an unsafe or wrong activity: stop-and-withdraw path before traffic grows | TSA-035, response targets (open decision 12) |
+| TSA-018 | Child-reachable default | partial | Child-reachable default: S1 has no child data and no child-directed design | TSA-019, TSA-020 (S2) |
 
 ## 3. Phases S2, S3 and S4: goals, gates and items
 

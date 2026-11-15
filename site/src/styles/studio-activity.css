@@ -253,22 +253,24 @@
     display: none;
   }
   .activity-page .activity-head h1 {
-    font-size: 22pt;
-    margin: 0 0 1mm;
+    font-size: 19pt;
+    margin: 0 0 0.5mm;
   }
   .activity-ledger {
+    grid-template-columns: repeat(6, 1fr);
     gap: 0.3mm;
-    margin: 1.5mm 0 1mm;
+    margin: 1mm 0;
     background: #000;
     border: 0;
   }
   .activity-ledger > div {
-    padding: 1mm 2mm;
+    padding: 0.6mm 1.2mm;
     background: #fff;
   }
   .activity-ledger dt,
   .activity-ledger dd {
-    font-size: 10pt;
+    font-size: 9.5pt;
+    line-height: 1.2;
   }
   .activity-page .activity-need {
     margin: 3mm 0 0;
@@ -367,5 +369,49 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
 @media print {
   .activity-page .activity-steps li {
     font-size: inherit;
+  }
+}
+
+/* ---------- Phones: an activity, ready in one glance ----------
+   DESIGN.md asks for the name, purpose, facts and Start in the first screen.
+   On small screens the head drops its editorial scale and padding so the
+   facts and the Start button sit within about one screen. */
+@media (max-width: 599px) {
+  .activity-page .activity-head {
+    margin-top: var(--space-xs);
+    padding: var(--space-lg) var(--space-md) var(--space-md);
+  }
+  .activity-page .activity-head h1 {
+    font-size: clamp(1.875rem, 1.25rem + 3.2vw, 2.375rem);
+    line-height: var(--leading-tight);
+    letter-spacing: -0.01em;
+    margin-bottom: var(--space-sm);
+  }
+  .activity-page .activity-head .eyebrow {
+    margin-bottom: var(--space-xs);
+  }
+  .activity-page .activity-head__summary {
+    margin-bottom: 0;
+  }
+  .activity-page .activity-ledger {
+    margin: var(--space-md) 0 var(--space-sm);
+  }
+  .activity-page .activity-ledger > div {
+    padding: 6px var(--space-sm);
+  }
+  .activity-page .activity-head .btn-row {
+    margin-top: var(--space-sm);
+  }
+  .activity-page .breadcrumbs ol {
+    margin: var(--space-sm) 0 var(--space-xs);
+  }
+}
+@media (min-width: 340px) and (max-width: 599px) {
+  /* Three narrow columns keep all six facts in two rows. */
+  .activity-page .activity-ledger {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .activity-page .activity-ledger dd {
+    font-size: var(--text-sm);
   }
 }

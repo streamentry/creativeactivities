@@ -46,6 +46,27 @@ variations:
     text: "Wear gloves and use a spoon for everything, so hands stay clean and dry."
   - kind: low-vision
     text: "Use big seeds such as beans or sunflowers on a light plate, and a dark pot so the soil level is easy to see."
+images:
+  - src: /pictures/seedling-in-pot.svg
+    alt: "Drawing of a terracotta pot of soil with three young green seedlings and drops of water beside it."
+    caption: "The finished pot, watered and ready for a bright windowsill."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/seed-pot-materials.svg
+    alt: "Terracotta pot on a saucer, a brown bag of potting mix and three large seeds on a table."
+    caption: "What you need: a pot with a saucer, potting mix and large seeds."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [skin-contact, ingestion, small-parts, fall-risk]
 safety:
   - "Wear gloves or wash hands after handling potting mix; it can contain bacteria and fungi, and some mixes include fertilizer."
   - "Seeds can be a choking risk and many are treated with chemicals. Supervise closely if anything might be put in the mouth."

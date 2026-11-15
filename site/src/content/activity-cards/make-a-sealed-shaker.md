@@ -40,6 +40,27 @@ variations:
     text: "Put in only a few grains, so the sound is soft. Hold the sealed shaker on the lap and feel its weight and gentle movement."
   - kind: with-children
     text: "A child chooses the decorations and presses the tape down, while the older adult fills the bottle with rice and picks the song."
+images:
+  - src: /pictures/sealed-rice-shaker.svg
+    alt: "Drawing of a small sealed bottle with a red lid, half full of rice, with a striped label band and music notes beside it."
+    caption: "The finished shaker: rice sealed in a bottle, decorated and ready to shake."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/shaker-materials.svg
+    alt: "Clear bottle with a red lid and a mustard label, a pile of rice, a funnel and a roll of mustard tape on a table."
+    caption: "What you need: a clean bottle, dried rice, a funnel and tape."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [adhesive, small-parts, water]
 safety:
   - "Glue the lid shut and tape over it, then check the lid before each use. Replace the shaker if the lid loosens or the bottle cracks."
   - "Never make or use this with someone who puts things in their mouth. Keep the shaker away from anyone who may chew or swallow small grains."

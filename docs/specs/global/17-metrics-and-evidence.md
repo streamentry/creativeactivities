@@ -330,7 +330,9 @@ Risks / not doing: counting downloads as use.
 ### Usability and evidence
 
 ### MET-029 · Usability study program
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: protocol drafted on 2026-11-14 (`docs/research/s1-usability-protocol.md`: participant mix, recruitment, consent and storage, tasks, moderator script, findings rules, results template). No sessions run. Open: a recruitment route through partners or a panel, and the pre-session checklist in its section 9.
 Why: VISION asks for 8 to 15 usability sessions before content is expanded, and DESIGN §6 asks for assistive-technology users. The plan's measures are not yet run.
 What: 8 to 15 sessions per stage, with a mix of assistive-technology users, caregivers and older participants. Each session records task success, the point where the person stopped, and their words. Fixes come before the next stage.
 Acceptance:

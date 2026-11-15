@@ -1,35 +1,110 @@
 /**
- * Activity events for the site's existing Google Analytics 4 tag
- * (components/Analytics.astro). They answer one question the page views
- * cannot: did a visit become a shared activity, and did it help?
+ * Activity events, sent through the site's one analytics path (this file).
+ * The vendor behind it is a maintainer decision (GTM/GA4 in Analytics.astro
+ * today, versus DESIGN §7's no-tracker rule), so nothing else in the site
+ * calls a vendor directly.
  *
- * Only an event name and, for feedback, a fixed answer are sent. Never what
- * someone tapped, typed, drew or chose, and nothing about the person playing.
+ * EVENT_DICTIONARY is the allowlist. Each event lists its properties and the
+ * only values each may hold. Anything else is dropped here: an unknown event,
+ * an unknown property, or a value outside its rule. Properties are never free
+ * text. Keep docs/specs/global/events.md in step with this table; a test checks it.
+ *
  * Where Analytics is not loaded (Photo pairs), every call does nothing.
  */
-export type ActivityEvent =
-  | 'activity_start'
-  | 'activity_restart'
-  | 'activity_done'
-  | 'activity_print'
-  | 'activity_feedback';
+import { STORE_PLACEMENTS } from './store-links';
 
-export type FeedbackAnswer = 'yes' | 'not_really';
+const SLUG = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+
+/** Which store badge was used in an app CTA (TSA-012). */
+export const APP_STORES = ['app_store', 'google_play'] as const;
+
+export const FEEDBACK_ANSWERS = ['yes', 'not_really'] as const;
+export type FeedbackAnswer = (typeof FEEDBACK_ANSWERS)[number];
+
+/** Fixed reasons for "This didn't fit". Plain words, reviewed for stigma; no free text. */
+export const NOT_A_FIT_REASONS = [
+  'too_messy',
+  'too_hard',
+  'needs_materials',
+  'not_interested',
+  'too_loud_or_busy',
+  'hard_to_read_or_use',
+  'other',
+] as const;
+export type NotAFitReason = (typeof NOT_A_FIT_REASONS)[number];
+
+type ParamRule = { readonly values: readonly string[] } | { readonly pattern: RegExp };
+
+export const EVENT_DICTIONARY = {
+  activity_start: {},
+  activity_restart: {},
+  activity_done: {},
+  activity_print: {},
+  activity_feedback: { answer: { values: FEEDBACK_ANSWERS } },
+  /** "We tried this": the activity key only. */
+  activity_started_confirmed: { activity: { pattern: SLUG } },
+  /** "This didn't fit": the activity key and a fixed reason. */
+  activity_not_a_fit: { activity: { pattern: SLUG }, reason: { values: NOT_A_FIT_REASONS } },
+  /** An activity page loaded: the activity key only, once per page load (TSA-012). */
+  activity_view: { activity: { pattern: SLUG } },
+  /** "Save for later" turned on for an activity: the key only. */
+  activity_save: { activity: { pattern: SLUG } },
+  /** The Share button used on an activity page: the key only. */
+  activity_share: { activity: { pattern: SLUG } },
+  /** An app store badge clicked: which store, and where on the site it sat (TSA-012). */
+  app_cta_click: { store: { values: APP_STORES }, placement: { values: STORE_PLACEMENTS } },
+} satisfies Record<string, Record<string, ParamRule>>;
+
+export type ActivityEvent = keyof typeof EVENT_DICTIONARY;
+
+export type EventParams<E extends ActivityEvent> = {
+  [K in keyof (typeof EVENT_DICTIONARY)[E]]: string;
+};
 
 interface GtagWindow {
   gtag?: (command: 'event', name: string, params?: Record<string, string>) => void;
+  dataLayer?: unknown[];
 }
 
 const browser = (): GtagWindow => (typeof window === 'undefined' ? {} : (window as GtagWindow));
 
 export function analyticsAvailable(w: GtagWindow = browser()): boolean {
-  return typeof w.gtag === 'function';
+  return typeof w.gtag === 'function' || Array.isArray(w.dataLayer);
+}
+
+function accepts(rule: ParamRule, value: string): boolean {
+  if ('values' in rule) return rule.values.includes(value);
+  return rule.pattern.test(value);
+}
+
+/**
+ * The properties an event may send, or null when the event must not be sent.
+ * Unknown properties are dropped; a missing or disallowed allowed property
+ * drops the whole event.
+ */
+export function allowedParams(event: string, params: Record<string, unknown> = {}): Record<string, string> | null {
+  if (!Object.prototype.hasOwnProperty.call(EVENT_DICTIONARY, event)) return null;
+  const rules = EVENT_DICTIONARY[event as ActivityEvent] as Record<string, ParamRule>;
+  const out: Record<string, string> = {};
+  for (const [key, rule] of Object.entries(rules)) {
+    const value = params[key];
+    if (typeof value !== 'string' || !accepts(rule, value)) return null;
+    out[key] = value;
+  }
+  return out;
 }
 
 /** Sends one activity event; returns whether it was handed to Analytics. */
-export function track(event: ActivityEvent, params?: { answer: FeedbackAnswer }, w: GtagWindow = browser()): boolean {
-  if (typeof w.gtag !== 'function') return false;
-  w.gtag('event', event, params);
+export function track<E extends ActivityEvent>(event: E, params?: EventParams<E>, w: GtagWindow = browser()): boolean {
+  if (!analyticsAvailable(w)) return false;
+  const clean = allowedParams(event, params);
+  if (!clean) return false;
+  const hasParams = Object.keys(clean).length > 0;
+  if (typeof w.gtag === 'function') {
+    w.gtag('event', event, hasParams ? clean : undefined);
+    return true;
+  }
+  w.dataLayer?.push({ event, ...clean });
   return true;
 }
 

@@ -42,6 +42,27 @@ variations:
     text: "Make one large card together for a shared friend or staff member, with each person adding a picture or a word."
   - kind: nonverbal
     text: "Offer two finished messages written on slips of paper and let them point to the one they like."
+images:
+  - src: /pictures/open-greeting-card.svg
+    alt: "Drawing of an open red and white greeting card with a white heart on the front and blue wavy lines for a message inside."
+    caption: "A folded card with a picture on the front and a short message inside."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/greeting-card-materials.svg
+    alt: "Drawing of a folded red card, two small picture clippings, a felt-tip marker and a glue stick, on a table."
+    caption: "What you need: a folded card, picture clippings, a marker and a glue stick."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [sharp-tool, adhesive, skin-contact]
 safety:
   - "If you cut pictures, keep the scissors with the helper."
   - "A glue stick is less messy than liquid glue; check for skin sensitivity first."

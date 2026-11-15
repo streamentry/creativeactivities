@@ -48,6 +48,7 @@ sources:
 relatedGames: []
 related: [caregiving/doctor-visit-with-dementia, caregiving/caregiver-self-care, caregiving/choosing-adult-day-program-dementia, caregiving/medication-support-with-dementia]
 health: true
+crisisRoute: true
 ---
 
 A dementia diagnosis can bring questions about health, daily life, support and the future. People respond in different ways: some want time to absorb the news, while others want to start planning. There is no single right reaction or timetable. Begin with what matters to the person now, and return to other questions when they are ready.

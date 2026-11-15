@@ -49,6 +49,7 @@ Google's spam policies name scaled content abuse and site reputation abuse [R5 �
 
 ### SEO-001 · Cluster map from the R5 ranking
 Priority P0 · Phase S1 · Status partial · Pillars: CARE, MAKE, CALM, GROW (cross-cutting TOGETHER)
+Evidence: [cluster-map.md](cluster-map.md), 2026-11-15: every rank 1 to 12 has an owner or a held reason; ranks 13 to 15 have no page. SEO-002 data still missing, so partial.
 
 Why: Search work needs one ordered list of clusters, each with an owner, or pages get written by enthusiasm [R5 §6; VISION "search-first growth"].
 
@@ -63,7 +64,9 @@ Depends on: SEO-002, SEO-003.
 Risks / not doing: Do not treat R5's ranking as a forecast. Do not add a cluster because a competitor has one.
 
 ### SEO-002 · Replace the wrong-market demand data
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: query list and runbook drafted on 2026-11-14 (`docs/research/s1-query-list.csv`, 44 rows from research/05 section 6 with no volumes; `docs/research/search-baseline-runbook.md`). No US export exists yet; the only volume data is still the VND export. Open: the maintainer runs the US English Keyword Planner export, a contrasting market, Trends, and the SERP audit.
 
 Why: The current export cannot support any US or English decision [R5 §3.1]. Competition in that export is a Google Ads metric, not organic difficulty [SEO.md §1].
 
@@ -78,7 +81,8 @@ Depends on: none.
 Risks / not doing: Do not invent volumes for the head terms "activities for seniors" or "dementia" [SEO.md §1].
 
 ### SEO-003 · One URL contract
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: [url-contract.md](url-contract.md), 2026-11-15, proposal pending maintainer decision. No URL moved.
 
 Why: Three documents give three URL schemes. The shipped site uses `/activity/<slug>/`. [SEO.md §4.1](../../../SEO.md) proposes root hubs such as `/activities-for-seniors/` and `/activities/memory-collage/`. The [web SEO strategy](../../strategy/web-seo.md) proposes `/activities/alzheimers/` and `/games/`. A rename after indexing loses rankings.
 
@@ -95,6 +99,8 @@ Risks / not doing: Do not add keywords to paths for their own sake [SEO.md §4.1
 
 ### SEO-004 · Search consoles and a measurement baseline
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: maintainer runbook for both consoles and the baseline method (`docs/research/search-baseline-runbook.md`, Part B). Not verified: no property verification or sitemap submission is confirmed. Check `site/redirect-www/` first, since it still names `dementiaactivities.games`.
 
 Why: No ranking or demand claim can be checked without Search Console and Bing data [SEO.md §11.2].
 
@@ -170,7 +176,8 @@ Depends on: SEO-003, SEO-009.
 Risks / not doing: Do not let the home page drift into a catalog of activities.
 
 ### SEO-009 · Dementia activities hub
-Priority P0 · Phase S1 · Status new · Pillars: CARE (lead), CALM, TOGETHER
+Priority P0 · Phase S1 · Status partial · Pillars: CARE (lead), CALM, TOGETHER
+Evidence: `site/src/content/hubs/dementia-activities.md` with `indexable: false` and an `indexHold` reason. Page `/dementia-activities/` renders noindex, is left out of the sitemap, and is listed in the finder. Tests: `site/src/lib/hubs.test.ts`. Held until a named reviewer signs off (TSA-034) and H3 is checked against Search Console.
 
 Why: Dementia is the wedge for the whole program [VISION "The wedge"; SEO.md §0]. R5 estimates demand as medium to high with a high trust bar, and the cluster is missing from the four shipped hubs [R5 §6 rank 7; baseline].
 
@@ -187,7 +194,8 @@ Depends on: SEO-008, SEO-012, reviewer named in [README](README.md).
 Risks / not doing: Not a medical resource. Do not reuse care-service intent for the title.
 
 ### SEO-010 · Seated activities hub
-Priority P0 · Phase S1 · Status new · Pillars: CARE, MAKE
+Priority P0 · Phase S1 · Status exists · Pillars: CARE, MAKE
+Evidence: `site/src/content/hubs/seated-activities.md`, page `/seated-activities/` (indexed). Tests: `site/src/lib/hubs.test.ts` (seated variation on every card, bedside cross-link, H1 overlap). Cross-linked from `bedside-activities.md`.
 
 Why: Rank 1 in R5 is seated and bedside activities, with fewer strong pages than competitors [R5 §6]. The product's distinct adaptation is seated and bedside use [DESIGN.md §5]. The shipped bedside hub covers only part of the intent.
 

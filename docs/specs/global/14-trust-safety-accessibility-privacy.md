@@ -19,6 +19,8 @@ This file sets the requirements that make the website and app safe to rely on: a
 ### TSA-001 · WCAG 2.2 AA as the release gate
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Evidence: `site/scripts/a11y-check.mjs` (`pnpm check:a11y`) runs axe at WCAG 2.2 AA on one page of each of 13 templates at 390 and 1440 px, with zero violations. A keyboard pass covers the same pages. The manual checklist and the per-release record are still open.
+
 Why: Accessibility is a core promise, and older users, people with low vision and people with motor limits are the primary audience [MISSION, "Accessible by default"; DESIGN §6]. WCAG 2.2 is the current W3C recommendation, and its 9 added criteria include several that matter here [R5 §5.4].
 
 What: Every template and game passes an automated scan and a manual checklist before release. The manual list must include the criteria the automated scan misses, including 2.4.11 (focus not obscured), 2.5.8 (target size, minimum 24px, with 48px as the product standard), 2.5.7 (dragging needs a non-drag alternative), 3.3.7 (redundant entry), 3.2.6 (consistent help) and 1.4.10 (reflow).
@@ -32,7 +34,9 @@ Depends on: TSA-002, TSA-011 (no third-party elements that break focus).
 Risks / not doing: Do not describe a page as "accessible" based on a scan alone [DESIGN §6].
 
 ### TSA-002 · Testing with assistive-technology users
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: protocol and AT checklist drafted on 2026-11-14 (`docs/research/s1-usability-protocol.md`, `docs/research/at-testing-checklist.md`). No sessions run, so 0 of the 8 required. Open: recruitment route, consent and payment decision, and maintainer acceptance of the thresholds.
 
 Why: Automated checks are necessary and insufficient [DESIGN §6]. VISION sets 8 to 15 usability sessions across devices, ages and accessibility needs before expansion [VISION, Stage 1].
 
@@ -182,7 +186,8 @@ Depends on: TSA-012, [platform](15-platform-data-architecture.md).
 Risks / not doing: Do not add a tool "to see" data before the inventory exists.
 
 ### TSA-012 · Event allowlist and no health data
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+Evidence: allowlist `EVENT_DICTIONARY` in `site/src/lib/track.ts`, now with `activity_view`, `activity_save`, `activity_share` (activity key only) and `app_cta_click` (fixed store and placement); payload tests in `site/src/lib/track.test.ts` (extra fields dropped, free text rejected, reasons fixed, wiring to `ActivityView.astro` and `AppCta.astro` checked); the list is in `docs/specs/global/events.md`. Not done: `activity_started_confirmed` and `activity_not_a_fit` are sent (WEB-025, WEB-026) but reason categories need a stigma review by a person; GTM's automatic form and click events (`gtm.formInteract`, `gtm.elementUrl`) sit outside the allowlist and need container settings changed by the maintainer; the app-store click is counted before the store opens, so a click that leaves the page may not always be reported.
 
 Why: Health details in analytics are a serious privacy and legal risk [R5 §5.2]. The product must not infer a condition [MISSION].
 
@@ -274,7 +279,9 @@ Risks / not doing: Do not describe a privacy feature that does not exist.
 ## C. Children
 
 ### TSA-018 · Child-reachable default
-Priority P0 · Phase S1 · Status new · Pillars: GROW, all
+Priority P0 · Phase S1 · Status partial · Pillars: GROW, all
+
+Evidence: code check on 2026-11-14. No account, sign-up, or age, birth-date or school field: every `input`, `select` and `textarea` in `site/src` is a finder option, the search box, a game control, or the Today note. No `fetch`, XHR, beacon or socket calls in `site/src`. `src/components/Analytics.astro` loads the GTM container on every page except Photo pairs (`BaseLayout` `analytics` prop). `src/lib/track.ts` sends an event name and a yes or not-really answer only. Open items are in the policy note below.
 
 Why: Children can reach a public free site, and parents share activities with children. COPPA's amended rule was fully enforceable by 22 April 2026 [R5 §5.1]. An FTC statement dated 25 February 2026 narrows enforcement for age-verification data only. It is not a safe harbor [R5 §5.1].
 
@@ -287,6 +294,8 @@ Acceptance:
 
 Depends on: TSA-011.
 Risks / not doing: Do not use an age gate as a substitute for design.
+
+Policy note (2026-11-14): S1 treats every page as child-reachable. Current pages have no accounts and no age fields, and `privacy.astro` says the site is not directed at children under 13. The item stays partial for three reasons. (1) The GTM container sets GA4 cookies by default. A persistent identifier that is not consent-gated could be linked to a child, which the acceptance line does not allow. Consent-gating or disabling analytics on child-reachable pages is a maintainer and counsel decision; no change has been made. (2) Google signals and ad personalization settings are kept in the GTM and GA4 admin, outside the repo. The maintainer records their state here when checked. (3) `privacy.astro` names Google Analytics 4 while the loader is the GTM container; the wording needs aligning. Counsel review is not recorded.
 
 ### TSA-019 · No ads or ad technology on child-reachable pages
 Priority P0 · Phase S2 · Status new · Pillars: all
@@ -427,7 +436,9 @@ Risks / not doing: Do not wait for a keyword match to show the route.
 ## E. Claims
 
 ### TSA-028 · Claims vocabulary and banned words
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/claims.ts` and `claims.test.ts` lint English activity cards, hubs, guides, `i18n/ui/en.json` and the boundary page; English passes. Translated locales are not covered yet (needs the reviewer's equivalents list).
 
 Why: Therapy and treatment words spread quickly into marketing and create regulatory and trust risk [R3 §7; plan README, claims].
 
@@ -516,7 +527,9 @@ Depends on: [SEO-012](12-search-geo-distribution.md), [L10N-004](13-localization
 Risks / not doing: Do not describe testing that did not happen.
 
 ### TSA-034 · Credentialed review scope record
-Priority P0 · Phase S1 · Status new · Pillars: CARE, CALM, GROW
+Priority P0 · Phase S1 · Status partial · Pillars: CARE, CALM, GROW
+
+Evidence: optional `review` record on cards (`reviewSchema` in `site/src/lib/activity-schema.ts`: name, credential, date, scope, not-for, not-unsupervised, stop signs, `permissionOnFile: true`). The plain `reviewer` string is removed. The byline says "Not yet reviewed by an outside expert." when no record exists (`reviewByline` in `activities.ts`, tested). No card has a record: no credentialed reviewer has been named or given written permission. Open: the maintainer must find reviewers and file the permission before any record is added.
 
 Why: A reviewer's name on a page implies endorsement. R3 and DESIGN require the reviewer's name, credential, date and scope on the page [R3 §7; DESIGN §5].
 
@@ -531,7 +544,9 @@ Depends on: TSA-033, [README](README.md) open questions (named reviewers).
 Risks / not doing: A review does not turn a craft into therapy [R3 §7].
 
 ### TSA-035 · Corrections route and log
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/src/pages/corrections.astro` and `site/src/lib/corrections.ts` (log, empty for now); "Report a mistake" on activity and hub bylines and the footer point to `/corrections/`, tested in `site/src/lib/corrections.test.ts`. Open: response targets are for the maintainer (TSA-045, decision 12); the page says they are not yet published.
 
 Why: Corrections build trust, and a corrections log shows that errors are taken seriously [SEO.md §4.1 `/corrections/`].
 
@@ -580,7 +595,9 @@ Risks / not doing: Do not use AI-written reviews or testimonials [SEO.md §5.3].
 ## G. User content and image rights
 
 ### TSA-038 · Image rights and consent log
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `docs/specs/asset-provenance.json` `site_images` holds 199 entries logged 2026-11-14 (83 picture-library SVGs, 100 generated illustrations, 16 social cards). `site/src/lib/asset-provenance.test.ts` (10 tests) fails if a picture, illustration or social card has no entry, if an entry points at a missing file, or if a person or child is shown without a release. Open: every entry is `unreviewed`. Creator, license text and review date are missing for the drawn art and the social cards, and the generated-illustration tool terms are not reviewed.
 
 Why: Images of older adults and children create image-rights and consent issues [R5 §5.5]. A person living with dementia may not be able to consent, and the rules for a legal representative vary by place.
 
@@ -690,7 +707,16 @@ Risks / not doing: Do not store form data that is not needed.
 ## I. Incidents
 
 ### TSA-045 · Response to an unsafe or wrong activity
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `withdrawn` field on cards (date and reason, `withdrawnSchema`). `listedActivities()` in `activities.ts`, tested with fixtures in `activities.test.ts`, drops withdrawn cards from the finder, hubs, packs, home, game and guide pages, `llms.txt`, `llms-full.txt` and the sitemap. A withdrawn card keeps its URL, shows only the withdrawal notice and is noindex (`ActivityView.astro`). No real card has been withdrawn. Open: the same-day response target and the pre-gate drill are maintainer decisions; the drill has not been run.
+
+Runbook (stop and withdraw a card):
+1. Hold the card: add `withdrawn: { date: <today>, reason: <what was wrong, 40 to 400 characters, no reporter details> }` to its front matter, and `replacement` if a corrected version exists.
+2. Rebuild. Check that `/activity/<slug>/` shows the notice and noindex, and that the slug is gone from `/activity/`, the sitemap, `llms.txt` and every hub and pack. Tell the maintainer if a hub or pack is left too thin.
+3. Log the change in the corrections log (TSA-035) with the date and reason.
+4. Tell partners who use the activity. Printed copies carry their version and date; publish a notice for the version that is wrong.
+5. Fix the card. Remove `withdrawn` only after a second person has checked the fix, and log the reinstatement.
 
 Why: An unsafe activity or wrong safety instruction is a real harm, and printed copies cannot be updated [R5 §4].
 

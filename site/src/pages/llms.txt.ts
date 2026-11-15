@@ -9,12 +9,13 @@ import { isIndexable } from '../i18n/locales';
 import { PUBLISHED } from '../i18n/ui';
 import { languageOverview } from '../lib/language-support';
 import { languageSupport } from '../lib/language-support-data';
+import { listedActivities } from '../lib/activities';
 
 /** A plain-text map of the site for AI answer engines (llmstxt.org format). */
 export const GET: APIRoute = async () => {
   const guides = (await getCollection('guides')).sort((a, b) => a.data.order - b.data.order);
   const languages = languageOverview(await languageSupport(guides.length));
-  const activities = (await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
+  const activities = listedActivities(await getCollection('activityCards')).sort((a, b) => a.data.name.localeCompare(b.data.name));
   const hubs = (await getCollection('hubs')).sort((a, b) => a.data.title.localeCompare(b.data.title));
   const lines: string[] = [
     `# ${SITE.name} (${SITE.domain})`,

@@ -54,6 +54,8 @@ The biggest sites in the world won one question each: Wikipedia ("what is it?"),
 
 Writers follow [_WRITER_BRIEF.md](_WRITER_BRIEF.md): ID scheme, priorities (`P0`–`P3`), phases (`S1`–`S4`), status (`exists`, `partial`, `new`).
 
+**S1 progress (2026-11-15):** all 40 S1 items are built or prepared (12 exists, 28 partial); what remains needs people or maintainer decisions. See [s1-status.md](s1-status.md).
+
 ## Where we are today (baseline, checked 2026-11-14 on `main` at `dab0f10`)
 
 **Website** (Astro, static, Cloudflare; `site/`)

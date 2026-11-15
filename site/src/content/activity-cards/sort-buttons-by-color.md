@@ -36,6 +36,27 @@ variations:
     text: "Use only smooth, plain buttons in two colors, and sort on a soft cloth instead of a hard tray."
   - kind: low-vision
     text: "Use dark dishes for pale buttons, or pale dishes for dark ones, so each button stands out against the dish."
+images:
+  - src: /pictures/buttons-in-muffin-tin.svg
+    alt: "Drawing of a grey muffin tin with six cups, each holding buttons of one color: red, mustard yellow, blue, green, purple and pink."
+    caption: "The finished sort, with each dish holding one color of button."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/sort-buttons-materials.svg
+    alt: "Grey muffin tin with six empty cups beside a bowl of buttons in red, mustard, blue and green."
+    caption: "What you need: a muffin tin or small dishes, and a tub of large buttons."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [small-parts]
 safety:
   - "Use only large buttons that cannot fit in the mouth, and remove any small or loose parts from the bowl."
   - "Never use this with someone who puts things in their mouth. Stay close and keep the bowl on the table."

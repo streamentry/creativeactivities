@@ -41,6 +41,27 @@ variations:
     text: "Offer a choice of two objects, and watch which one they look at or reach toward."
   - kind: with-children
     text: "Each draws the same object side by side, then swap pages and add one line to each other's drawing. Neither drawing is the right one."
+images:
+  - src: /pictures/table-sketch-pencil.svg
+    alt: "Drawing of a sketchbook page with a pencil outline of a mug, light shading on one side and a yellow pencil beside it."
+    caption: "A finished sketch, with the outline and a few marks, made without comparing it to anything."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/sketch-materials.svg
+    alt: "A blue mug, a yellow pencil and a sheet of plain paper on a table."
+    caption: "What you need: one simple object to draw, plain paper and a soft pencil."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [allergen, ingestion]
 safety:
   - "If the object is a plant, check that it is not poisonous or an allergen, and do not let anyone taste it."
   - "Keep pencils and erasers away from the mouth if the person may chew or taste things."

@@ -46,6 +46,27 @@ variations:
     text: "Choose large leaves with clear outlines, such as maple or oak, and press them on dark paper."
   - kind: with-children
     text: "A child collects the leaves and places them on the paper while the grandparent picks which ones to keep. Open the book together on the agreed day."
+images:
+  - src: /pictures/pressed-leaves-in-book.svg
+    alt: "Drawing of an open book with a pressed pink flower and green, yellow and orange leaves flat between its pages."
+    caption: "The finished pressing, with leaves and flowers flat inside the book until the agreed day."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/pressing-materials.svg
+    alt: "Flat leaves and a small pink flower on a table, beside a heavy blue book with a brick on top."
+    caption: "What you need: flat leaves and flowers, a heavy book and a brick for weight."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [allergen, ingestion, skin-contact, small-parts, fall-risk]
 safety:
   - "Some plants are toxic or irritate skin, such as foxglove, poison ivy and giant hogweed. Check every plant you pick and wash hands afterward."
   - "Avoid holly, roses with thorns, and prickly or stinging plants."

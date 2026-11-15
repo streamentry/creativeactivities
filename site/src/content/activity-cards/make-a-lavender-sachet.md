@@ -44,6 +44,27 @@ variations:
     text: "Use a bright fabric on a dark tray, and a thick, textured ribbon that is easy to find and grip."
   - kind: with-children
     text: "A child spoons and gathers the fabric while the older adult chooses the fabric and ties or holds the ribbon."
+images:
+  - src: /pictures/lavender-sachet.svg
+    alt: "Drawing of a blue fabric sachet tied at the top with a red ribbon and bow, with purple lavender stalks standing beside it."
+    caption: "A small sachet of dried lavender, tied with ribbon."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/lavender-sachet-materials.svg
+    alt: "Drawing of a square of blue cotton fabric, a small bunch of purple lavender and a red ribbon, on a table."
+    caption: "What you need: a square of cotton, dried lavender and a ribbon."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [small-parts, skin-contact, heat]
 safety:
   - "Strong scents can be unpleasant or trigger headaches or breathing problems for some people. Smell a little first and stop if anyone dislikes it."
   - "Some people react to lavender on the skin. Use a spoon and wash hands afterward if there is any sensitivity."

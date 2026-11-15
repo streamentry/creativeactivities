@@ -6,6 +6,10 @@
  */
 
 import { BG, INK, S, SHADE, SHINE, type Picture, type PictureCategory } from './picture-art/kit.ts';
+import { ACTIVITY_RESULTS_A } from './picture-art/activity-results-a.ts';
+import { ACTIVITY_RESULTS_B } from './picture-art/activity-results-b.ts';
+import { ACTIVITY_MATERIALS_A } from './picture-art/activity-materials-a.ts';
+import { ACTIVITY_MATERIALS_B } from './picture-art/activity-materials-b.ts';
 import { MORE_PICTURES } from './picture-art/more.ts';
 
 export type { Picture, PictureCategory };
@@ -489,9 +493,21 @@ const FIRST_PICTURES: readonly Picture[] = [
   },
 ];
 
-export const PICTURES: readonly Picture[] = [...FIRST_PICTURES, ...MORE_PICTURES];
+/** The picture library: the games, the printable gallery and the app all draw from this list. */
+export const PICTURES: readonly Picture[] = [...FIRST_PICTURES, ...MORE_PICTURES, ...ACTIVITY_RESULTS_A, ...ACTIVITY_RESULTS_B];
 
-export const PICTURE_BY_ID: ReadonlyMap<string, Picture> = new Map(PICTURES.map((p) => [p.id, p]));
+/**
+ * "What you need" drawings for activity cards (WEB-012). Each shows several
+ * objects on a table, too busy for a calm matching game, so they are served
+ * at /pictures/<id>.svg for the activity pages but kept out of PICTURES: not
+ * in the games, the printable gallery or the app library.
+ */
+export const ACTIVITY_MATERIALS: readonly Picture[] = [...ACTIVITY_MATERIALS_A, ...ACTIVITY_MATERIALS_B];
+
+/** Every drawing the site serves as an SVG: the library plus the materials drawings. */
+export const ALL_SERVED_PICTURES: readonly Picture[] = [...PICTURES, ...ACTIVITY_MATERIALS];
+
+export const PICTURE_BY_ID: ReadonlyMap<string, Picture> = new Map(ALL_SERVED_PICTURES.map((p) => [p.id, p]));
 
 /**
  * The mounted-print look shared by the website and the app (the app bundles

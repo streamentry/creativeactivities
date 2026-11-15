@@ -41,6 +41,27 @@ variations:
     text: "Hold up two colors and watch where the eyes or hand go. Pointing and nodding are full answers."
   - kind: with-children
     text: "A child tears and glues the pieces while the older adult chooses where each one goes."
+images:
+  - src: /pictures/blue-torn-paper-collage.svg
+    alt: "Drawing of a white card covered with torn pieces of blue paper in dark, mid and pale blue."
+    caption: "A finished collage, made from torn pieces of one color."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/color-collage-materials.svg
+    alt: "Drawing of a magazine with colored blocks, three sheets of colored paper, a glue stick and scissors, on a table."
+    caption: "What you need: a magazine or colored paper, a glue stick and scissors."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [sharp-tool, adhesive, skin-contact, small-parts]
 safety:
   - "Tearing is the main method, so scissors stay with the helper."
   - "Use a glue stick, which is less messy than liquid glue, and check for skin sensitivity first."

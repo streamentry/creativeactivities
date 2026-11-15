@@ -32,6 +32,7 @@ sources:
 relatedGames: [coloring]
 related: [activities/arts-and-crafts, activities/coloring, activities/music, caregiving/communication-tips]
 health: false
+crisisRoute: true
 ---
 
 Many adults say "I can't draw" and stop before they start. This page is for families and care staff helping adults who feel that way, including people living with dementia. The aim is a few minutes of making marks together, with no right answer. It is not a drawing lesson, and nobody needs to be good at it.

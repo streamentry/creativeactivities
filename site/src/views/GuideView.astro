@@ -4,11 +4,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import HealthNotice from '../components/HealthNotice.astro';
+import CrisisRoute from '../components/CrisisRoute.astro';
 import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
 import { GAME_BY_SLUG } from '../data/games';
 import { pictureUrl } from '../data/pictures';
-import { TYPE_LABELS, glance } from '../lib/activities';
+import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
 import '../styles/activities.css';
 import '../styles/studio-editorial.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
@@ -55,7 +56,7 @@ const related = (
 ).filter((r): r is { href: string; title: string } => r !== null);
 
 // Activity cards that name this guide make it their hub (English pages only).
-const activityCards = (await getCollection('activityCards'))
+const activityCards = listedActivities(await getCollection('activityCards'))
   .filter((a) => a.data.guides.includes(id))
   .sort((a, b) => a.data.name.localeCompare(b.data.name));
 
@@ -94,6 +95,7 @@ const available = await guideLanguages(id);
     <div class="article-layout">
       <article class="prose">
         {d.health && <HealthNotice lang={lang} />}
+        {d.crisisRoute && <CrisisRoute />}
         <section class="answer" aria-labelledby="short-answer">
           <p class="answer__label" id="short-answer">{g.shortAnswer}</p>
           <p>{d.summary}</p>

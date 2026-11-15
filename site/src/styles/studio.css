@@ -351,3 +351,30 @@ html[data-contrast='high'] .eyebrow {
     border: 1px solid CanvasText;
   }
 }
+
+/* ---------- Narrow phones: a shorter header ----------
+   The navigation stays visible (a word, not only the logo, leads home), but
+   the tagline goes and the tabs use DESIGN.md's 44px minimum target. */
+@media (max-width: 479px) {
+  .site-header__inner {
+    padding-block: var(--space-sm);
+    gap: var(--space-xs) var(--space-sm);
+  }
+  .brand__tag {
+    display: none;
+  }
+  .site-nav a {
+    min-height: 44px;
+  }
+}
+
+/* Phones: the last crumb repeats the page title directly below it, so it
+   gives way; the trail still leads back up. */
+@media (max-width: 599px) {
+  .breadcrumbs li:last-child {
+    display: none;
+  }
+  .breadcrumbs li:nth-last-child(2)::after {
+    content: none;
+  }
+}

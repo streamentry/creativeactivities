@@ -40,6 +40,27 @@ variations:
     text: "Write the titles in large, high-contrast letters, or read them aloud from the screen. Choose songs by sound rather than by picture."
   - kind: with-children
     text: "A grandchild finds the songs and plays them, while the older adult says what they like and the child writes the titles on the card."
+images:
+  - src: /pictures/playlist-phone-and-card.svg
+    alt: "Drawing of a phone playing a song, beside a paper card with a short list of chosen songs."
+    caption: "The finished list: a few songs chosen together and written on a card."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+  - src: /pictures/playlist-materials.svg
+    alt: "Drawing of a phone, a small paper card and a thick red marker lying on a table."
+    caption: "What you need: a phone or player with songs, a card and a thick pen."
+    kind: materials
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-15
+safetyFlags: [none]
 safety:
   - "Set the volume low and check it with them. Sudden loud music can startle or hurt."
   - "Check hearing aids are in and working. Use headphones only if they fit comfortably and do not pinch the ears."
