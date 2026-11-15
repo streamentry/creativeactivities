@@ -77,7 +77,13 @@ stopNote: "It is fine to stop after one or two stems. A single flower in a jar i
 guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage, activities/group-art-activities]
 related: [press-leaves-and-flowers, plant-seeds-in-a-pot, decorate-a-plant-pot]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, water, skin contact, mouthing or swallowing."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

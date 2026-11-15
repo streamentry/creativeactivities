@@ -115,6 +115,15 @@ function text(html) {
     .replace(/\s+/g, ' ');
 }
 
+// WEB-023 and TSA-026: the approved scope note is in the footer of every English page, and each
+// card (and its printable) repeats the card scope line and the stop-and-switch note (TSA-025).
+const SCOPE_NOTE = JSON.parse(readFileSync(new URL('../src/i18n/ui/en.json', import.meta.url), 'utf8')).footer.note;
+const scopeSource = readFileSync(new URL('../src/lib/scope.ts', import.meta.url), 'utf8');
+const quoted = (name) => scopeSource.match(new RegExp(`export const ${name} =\\s*'([^']*)'`))?.[1] ?? '';
+const CARD_SCOPE_LINE = quoted('SCOPE_LINE');
+const PAUSE_LINE = quoted('PAUSE_LINE');
+if (!CARD_SCOPE_LINE || !PAUSE_LINE) err('src/lib/scope.ts', 'SCOPE_LINE or PAUSE_LINE not found');
+
 const titles = new Map();
 const descriptions = new Map();
 const indexable = [];
@@ -125,6 +134,10 @@ for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const path = pathFor(file);
   const is404 = rel === '404.html';
+  if (!is404 && !prefixIn(rel) && !html.includes(SCOPE_NOTE)) err(rel, 'missing the approved scope note in the footer (WEB-023)');
+  const cardPage = /^activity\/[^/]+\/index\.html$/.test(rel) && !html.includes('This activity has been withdrawn');
+  if (cardPage && !html.includes(CARD_SCOPE_LINE)) err(rel, 'card is missing its scope line (TSA-026)');
+  if (cardPage && !html.includes(PAUSE_LINE)) err(rel, 'card is missing the stop-and-switch note (TSA-025)');
 
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
   if (!title) err(rel, 'missing <title>');

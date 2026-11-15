@@ -71,7 +71,13 @@ stopNote: "It is fine to stop with just a picture on the front. Keep the card in
 guides: [activities/arts-and-crafts, activities/holidays, activities/ideas, activities/pen-pals-for-older-adults]
 related: [make-a-memory-collage, press-leaves-and-flowers, make-a-button-picture]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

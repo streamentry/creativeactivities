@@ -73,7 +73,13 @@ stopNote: "It is fine to stop after one song. Leave the book open at that page, 
 guides: [activities/music, activities/reminiscence, activities/late-stage]
 related: [draw-to-music, start-a-family-recipe-book, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added a labelled safety line above the steps: no special hazard applies."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

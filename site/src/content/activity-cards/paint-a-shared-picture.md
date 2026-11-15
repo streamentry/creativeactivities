@@ -74,7 +74,13 @@ stopNote: "It is fine to stop after one mark. Leave the picture where it is, and
 guides: [activities/arts-and-crafts, activities/care-home-groups, activities/art-projects, activities/group-art-activities]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-with-watercolors]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for small parts, skin contact, mouthing or swallowing, water, glue or tape."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

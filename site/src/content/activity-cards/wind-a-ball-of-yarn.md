@@ -70,7 +70,13 @@ stopNote: "It is fine to stop with a small ball and plenty of yarn left. Put it 
 guides: [activities/household-tasks, activities/sensory, activities/late-stage]
 related: [make-a-texture-board, make-a-lavender-sachet, make-a-paper-chain-garland]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for falls, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

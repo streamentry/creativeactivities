@@ -76,7 +76,13 @@ stopNote: "It is fine to stop after one seed. Water what is planted, put the pot
 guides: [activities/outdoor-and-gardening, activities/early-stage, activities/middle-stage]
 related: [decorate-a-plant-pot, arrange-flowers-together, paint-a-garden-stone, make-a-pine-cone-bird-feeder]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing, small parts, falls."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

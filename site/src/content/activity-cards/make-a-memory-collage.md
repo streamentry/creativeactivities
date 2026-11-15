@@ -71,7 +71,13 @@ stopNote: "It is fine to stop after one picture. Put the collage somewhere safe 
 guides: [activities/arts-and-crafts, activities/reminiscence, activities/ideas]
 related: [make-a-greeting-card, start-a-family-recipe-book, tear-paper-mosaic]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

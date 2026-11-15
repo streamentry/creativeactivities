@@ -71,7 +71,13 @@ stopNote: "It is fine to stop after one sentence. Put the letter aside, and fini
 guides: [activities/ideas, activities/reminiscence, activities/phone-and-video-calls, activities/pen-pals-for-older-adults]
 related: [make-a-greeting-card, make-a-photo-postcard, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for mouthing or swallowing, allergens, skin contact, glue or tape."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

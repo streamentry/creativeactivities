@@ -391,6 +391,8 @@ Risks / not doing: Do not describe food as therapeutic.
 ### TSA-025 · Stop-and-switch note
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: each card has a visible stop note ("It is okay to stop or change it", the card's `stopNote`) and `PAUSE_LINE` in `site/src/lib/scope.ts`, which names pain, distress and tiredness in plain words. It appears on the card and on the printable card. `site/scripts/check-site.mjs` requires it on every card. Not done: a native reviewer's tone check for each language (English only today).
+
 Why: No one should feel pressure to finish an activity [MISSION, "Consent"; DESIGN voice].
 
 What: Each activity has a visible stop note ("It is fine to stop") and the signs that suggest pausing (pain, distress, fatigue) in plain words. The note is not a medical instruction.
@@ -404,6 +406,8 @@ Risks / not doing: Do not frame stopping as failure.
 
 ### TSA-026 · Scope statement on each card
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `SCOPE_LINE` in `site/src/lib/scope.ts` is shown in the card header, visible without a click, and on the printable card (`site/src/components/ActivityPrintCard.astro`). `site/scripts/check-site.mjs` fails the build if any card page lacks it. Its wording passes the claims lint (`site/src/lib/activity-changes.test.ts`). Not done: the wording has not been reviewed by a reviewer, and no translated locale has the line.
 
 Why: Adaptations are not medical advice, and visitors must see that on the page they use [MISSION; SEO.md §11.1].
 

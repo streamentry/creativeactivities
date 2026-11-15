@@ -72,7 +72,13 @@ stopNote: "It is fine to stop after one leaf. Leave the print flat to dry and ca
 guides: [activities/outdoor-and-gardening, activities/sensory, activities/arts-and-crafts]
 related: [press-leaves-and-flowers, paint-a-garden-stone, plant-seeds-in-a-pot]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 
