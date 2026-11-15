@@ -22,8 +22,8 @@ Script: `site/scripts/check-duplicates.mjs`, run with `pnpm run check:duplicates
 
 1. **Pages.** Every `dist/**/index.html`. Pages with `<meta name="robots">` containing `noindex` are excluded, and so are pages whose `rel=canonical` is another URL.
 2. **Fields.** Title, first H1, meta description, and the text inside `<main>`, with scripts, styles and SVG removed and tags stripped.
-3. **Normalisation.** NFKD, lowercase, punctuation reduced to spaces, NFC. Han, Kana, Thai, Lao, Khmer and Myanmar characters count as one word each, because those scripts have no spaces. This is a character n-gram approximation, not word segmentation.
-4. **Exact duplicates.** Normalised values are compared within the same `<html lang>` only.
+3. **Normalization.** NFKD, lowercase, punctuation reduced to spaces, NFC. Han, Kana, Thai, Lao, Khmer and Myanmar characters count as one word each, because those scripts have no spaces. This is a character n-gram approximation, not word segmentation.
+4. **Exact duplicates.** Normalized values are compared within the same `<html lang>` only.
 5. **Near duplicates.** 5-word shingles, hashed with 32-bit FNV-1a. MinHash with 120 hash functions. LSH banding (at the 0.3 scan floor: 60 bands of 2 rows, about 99.7% recall at Jaccard 0.3). Candidate pairs are confirmed with exact Jaccard similarity on the shingle sets. Pages in different languages are never compared.
 6. **Floor and threshold.** Pairs are scanned from 0.3 so that the sample review can compare cut-offs. The **proposed** threshold is 0.5. It is provisional and is not a decision.
 7. **Skips.** A page with fewer than 30 shingles (about 35 words) is skipped and counted. None were skipped in this build.
@@ -79,7 +79,7 @@ The full list at 0.3 and above is in the report (`/Volumes/SANDISK-Data/ca-shots
 4. **H1 `What would you like to do together`** on `/` and `/activity/`: rewrite one, or mark as a deliberate variation.
 5. **Release gate.** The spec says the report blocks release until each pair has a decision. `--strict` exits 1 when anything is flagged, so it can be used as the gate once the threshold is set. It is not wired into CI and should not be until then.
 
-Do not optimise for passing the check. A rewrite must add content, not synonyms.
+Do not optimize for passing the check. A rewrite must add content, not synonyms.
 
 ## Thin-page check (SEO-007)
 
