@@ -427,7 +427,9 @@ Risks / not doing: Do not wait for a keyword match to show the route.
 ## E. Claims
 
 ### TSA-028 · Claims vocabulary and banned words
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/claims.ts` and `claims.test.ts` lint English activity cards, hubs, guides, `i18n/ui/en.json` and the boundary page; English passes. Translated locales are not covered yet (needs the reviewer's equivalents list).
 
 Why: Therapy and treatment words spread quickly into marketing and create regulatory and trust risk [R3 §7; plan README, claims].
 

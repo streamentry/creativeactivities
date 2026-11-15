@@ -101,7 +101,7 @@ Many things besides dementia can affect memory, and some get better with treatme
 - **Head injury**, such as a concussion
 - **Major stress or grief**, such as retirement or losing a spouse
 
-Hearing and vision problems can also be mistaken for confusion; see our [hearing guide](/brain-health/hearing/). This is why a medical check matters. According to the [Alzheimer's Association](https://www.alz.org/alzheimers-dementia/diagnosis/visiting-your-doctor), doctors often order blood work to check for thyroid problems, vitamin deficiencies and infection. Good [sleep](/brain-health/sleep/) and treating depression are worth raising too.
+Hearing and vision problems can also be mistaken for confusion; see our [hearing guide](/brain-health/hearing/). This is why a medical check matters. According to the [Alzheimer's Association](https://www.alz.org/alzheimers-dementia/diagnosis/visiting-your-doctor), doctors often order blood work to check for thyroid problems, vitamin deficiencies and infection. Sleep problems ([our sleep guide](/brain-health/sleep/) covers them) and low mood are worth raising with a doctor too.
 
 ## Sudden confusion is an emergency
 
