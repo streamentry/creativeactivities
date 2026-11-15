@@ -21,7 +21,7 @@ faq:
   - q: "Can these be done in a hospital bed?"
     a: "Often yes, once the person is sitting up with support. Check with the nurse or care team first, especially about positioning, swallowing and infection control."
 guides: [activities/late-stage, activities/sensory, activities/music, caregiving/hospital-visit-with-dementia, caregiving/how-to-play-together]
-related: [activities-for-seniors, arts-and-crafts-for-seniors]
+related: [activities-for-seniors, arts-and-crafts-for-seniors, seated-activities]
 published: 2026-11-13
 updated: 2026-11-13
 author: Creative Activities editorial team
@@ -29,6 +29,8 @@ sources: []
 ---
 
 Bedside activities are for the days when getting up is hard, or not safe. The goal is company and something to look at together, not a finished piece. Keep the materials on a lap tray, keep the session short and let the person decide what happens next.
+
+If the person can sit up at a table or in a chair, the [seated activities](/seated-activities/) hub covers work set up for sitting, while this hub covers work for someone who stays in bed.
 
 ## How should you set up the bed or chair first?
 

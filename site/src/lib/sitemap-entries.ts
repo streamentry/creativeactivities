@@ -51,5 +51,9 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
         langs: guides.filter((x) => x.id === g.id).map((x) => x.lang),
       })),
   ];
-  return [...new Map(entries.map((e) => [e.path, e])).values()].sort((a, b) => a.path.localeCompare(b.path));
+  // A held hub is noindex, so it must not be listed even though its page file is auto-listed above.
+  const held = new Set(hubs.filter((h) => !h.data.indexable).map((h) => `/${h.id}/`));
+  return [...new Map(entries.map((e) => [e.path, e])).values()]
+    .filter((e) => !held.has(e.path))
+    .sort((a, b) => a.path.localeCompare(b.path));
 }
