@@ -4,6 +4,7 @@ import { SITE } from '../lib/site';
 import { SAFETY_FLAG_LABELS, TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
 import ActivityImage from './ActivityImage.astro';
 import SafetyFlags from './SafetyFlags.astro';
+import { CHECKED_ON, PRINT_CRISIS_LINE } from './CrisisRoute.astro';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -54,5 +55,14 @@ const stepImages = (step: number) => d.images.filter((image) => image.step === s
   <h3>Safety</h3>
   <SafetyFlags flags={d.safetyFlags} />
   <ul class="activity-list">{d.safety.map((s) => <li>{s}</li>)}</ul>
-  <p class="pack-card__source">More versions and safety notes: {SITE.domain}{path}</p>
+  {
+    d.crisisRoute && (
+      <div class="activity-crisis" data-crisis-route>
+        <p><strong>If you are in crisis:</strong> {PRINT_CRISIS_LINE} Numbers checked on {CHECKED_ON}.</p>
+      </div>
+    )
+  }
+  <p class="pack-card__source">
+    More versions and safety notes: {SITE.domain}{path}. Report a safety problem: {SITE.domain}/corrections/#report-safety
+  </p>
 </section>

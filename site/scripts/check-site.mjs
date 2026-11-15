@@ -325,6 +325,49 @@ for (const [page, phrases] of Object.entries(LEGAL_PAGES)) {
   if (banned) err(page, `legal page says "${banned[0]}"`);
 }
 
+// Trust routes on every template (WEB-058, TSA-047, TSA-027, TSA-031). The footer carries the
+// problem report on every page; each activity and printed card carries the safety route; a card that
+// opts in to the crisis route shows it on its page and on its print pages.
+const crisisCards = new Set(
+  readdirSync(join(SRC, 'content/activity-cards'))
+    .filter((f) => f.endsWith('.md'))
+    .filter((f) => /^crisisRoute: true$/m.test(readFileSync(join(SRC, 'content/activity-cards', f), 'utf8')))
+    .map((f) => f.replace(/\.md$/, '')),
+);
+for (const file of htmlFiles) {
+  const rel = relative(DIST, file);
+  const html = readFileSync(file, 'utf8');
+  if (/<footer class="site-footer"/.test(html) && !html.includes('Report a problem')) err(rel, 'footer has no "Report a problem" link (WEB-058)');
+}
+const activityDir = join(DIST, 'activity');
+if (existsSync(activityDir)) {
+  for (const id of readdirSync(activityDir).filter((n) => statSync(join(activityDir, n)).isDirectory() && n !== 'packs')) {
+    const file = join(activityDir, id, 'index.html');
+    if (!existsSync(file)) continue;
+    const html = readFileSync(file, 'utf8');
+    if (!html.includes('Report a safety problem')) err(`activity/${id}/`, 'no "Report a safety problem" link (TSA-047)');
+    if (crisisCards.has(id) && !html.includes('class="notice crisis-route"')) err(`activity/${id}/`, 'opts in to the crisis route but shows none (TSA-027)');
+  }
+  const packDir = join(activityDir, 'packs');
+  if (existsSync(packDir)) {
+    for (const pack of readdirSync(packDir)) {
+      const file = join(packDir, pack, 'index.html');
+      if (!existsSync(file)) continue;
+      const html = readFileSync(file, 'utf8');
+      if (!html.includes('Report a safety problem')) err(`activity/packs/${pack}/`, 'printed cards have no safety report link (TSA-047)');
+      for (const id of crisisCards) {
+        if (html.includes(`/activity/${id}/`) && !html.includes('data-crisis-route')) err(`activity/packs/${pack}/`, `prints ${id} without the crisis route (TSA-027)`);
+      }
+    }
+  }
+}
+if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editorial-policy/index.html').includes('id="evidence"')) {
+  err('editorial-policy/', 'evidence table is missing (TSA-031)');
+}
+if (existsSync(join(DIST, 'faq/index.html')) && !readDist('faq/index.html').includes('class="evidence-label"')) {
+  err('faq/', 'benefit answers have no evidence label (TSA-031)');
+}
+
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);
 console.log(`Checked ${htmlFiles.length} pages: ${errors.length} errors, ${warnings.length} warnings.`);

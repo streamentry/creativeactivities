@@ -208,6 +208,15 @@ someone choose from the cards for one situation.
 | `picture-bingo` | Printable picture bingo cards plus an on-screen caller, for groups |
 | `calm-breathing` | A slow, quiet breathing pause to share, started and stopped by you |
 
+## Copy review checklist (TSA-029, TSA-032)
+
+Before any English copy, store listing, partner sheet or outreach email goes out:
+
+- [ ] No cognitive, memory, brain-health or disease-course claim. Games are described by what they are and what they do together, never as exercises that improve something.
+- [ ] `pnpm test` passes: `src/lib/claims.test.ts` scans English UI, game strings, the app ARB and the store copy.
+- [ ] Any benefit sentence has a row in `src/lib/evidence-labels.ts`, worded as the row allows.
+- [ ] A partner or press text adds no claim the site does not make.
+
 ## Sources we trust
 
 Prefer, in order: National Institute on Aging (nia.nih.gov) and other NIH

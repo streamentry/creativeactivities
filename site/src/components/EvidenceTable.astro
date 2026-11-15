@@ -1,0 +1,41 @@
+---
+/**
+ * The evidence table for benefit sentences (TSA-031), published on the editorial policy page.
+ * Each row is the target of an "Evidence" label beside a sentence on an English page.
+ */
+import { EVIDENCE_ROWS, STRENGTH_LABELS } from '../lib/evidence-labels';
+---
+<section id="evidence" class="evidence-table" aria-labelledby="evidence-title">
+  <h2 id="evidence-title">Evidence for benefit sentences</h2>
+  <p>
+    Where a page says something may help, the sentence has a label. The label gives the strength of the evidence, its source and
+    the date it was checked. A row marked <strong>proposed</strong> is the editor's first reading and waits for a reviewer.
+  </p>
+  <div class="table-scroll" tabindex="0" role="region" aria-labelledby="evidence-title">
+    <table>
+      <caption>Benefit sentences, strength of evidence, source and date checked</caption>
+      <thead>
+        <tr>
+          <th scope="col">Sentence and what it allows</th>
+          <th scope="col">Strength</th>
+          <th scope="col">Source</th>
+          <th scope="col">Checked</th>
+          <th scope="col">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          EVIDENCE_ROWS.map((row) => (
+            <tr id={row.id}>
+              <th scope="row">{row.allowed}</th>
+              <td>{STRENGTH_LABELS[row.strength]}</td>
+              <td>{row.source}</td>
+              <td><time datetime={row.date}>{row.date}</time></td>
+              <td>{row.status}</td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -364,6 +364,7 @@ Risks / not doing: Do not cite WHO or AAP limits as a product feature.
 
 ### TSA-023 · Standard safety vocabulary and fields
 Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/activity-safety.test.ts (vocabulary, flags on every card, small parts); reviewer names for "none identified" still needed.
 
 Why: Printed or app activities with small parts and no supervision line are a real harm [R2 §7]. The data model already has `safety_flags` and `supervision` fields [DESIGN §5].
 
@@ -378,7 +379,8 @@ Depends on: [DESIGN §5](../../../DESIGN.md), L10N-005.
 Risks / not doing: Do not write "safe" as a claim. Describe the flags.
 
 ### TSA-024 · Supervision and food-as-material rules
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/activity-safety.test.ts (edible materials carry ingestion and allergen flags; supervision line on small-part and edible cards); reviewer approval for edible materials is not recorded (no card has a review record).
 
 Why: A child, or an adult with reduced swallowing or cognitive capacity, may be at risk from small objects and food [R2 §7; DESIGN §5].
 
@@ -421,7 +423,8 @@ Depends on: TSA-028.
 Risks / not doing: Do not bury the statement in a footer.
 
 ### TSA-027 · Crisis route on activities that invite disclosure
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE, TOGETHER
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE, TOGETHER
+Evidence: crisisRoute opt-in on 9 cards (site/src/content/activity-cards); ActivityView.astro and ActivityPrintCard.astro render CrisisRoute; activity-safety.test.ts. Per-locale route verification (L10N-009) still open.
 
 Why: An activity that invites personal memories, feelings or grief can surface distress without warning. R3 found no creative-activity site with a visible crisis route on its activity pages [R3 §6, §4.4].
 
@@ -456,7 +459,8 @@ Depends on: TSA-031, [L10N-007](13-localization.md).
 Risks / not doing: Do not allow the banned words in quoted third-party text without a note.
 
 ### TSA-029 · No cognitive or brain-training outcome claims
-Priority P0 · Phase S2 · Status new · Pillars: CARE, PLAY, CALM
+Priority P0 · Phase S2 · Status exists · Pillars: CARE, PLAY, CALM
+Evidence: site/src/lib/claims.test.ts covers English UI, game, ARB and store copy, with memory-exercise, brain-benefit and delays-decline rules; store copy passes.
 
 Why: Brain-training claims are the template for regulatory action [R4 §7, FTC action]. The plan says app copy must not claim anything about cognition, memory, agitation, sundowning, caregiver burden or disease course [plan README, claims].
 
@@ -470,7 +474,8 @@ Depends on: TSA-028.
 Risks / not doing: Do not use "mental acuity" wording, even if a regulator permits some wellness phrasing [R3 §7 on FDA wellness].
 
 ### TSA-030 · Art therapy boundary
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE
+Evidence: site/src/pages/art-therapy-and-creative-activities.astro (citations and "What we do not claim"); trust-routes.test.ts. Credentialed reviewer records still needed (TSA-034).
 
 Why: Art therapy is a credentialed clinical profession [MISSION; R3 §7]. Crafts sold as therapy create false trust.
 
@@ -485,6 +490,7 @@ Risks / not doing: Do not market a credential we have not verified.
 
 ### TSA-031 · Evidence labels next to benefit sentences
 Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/evidence-labels.ts and evidence-labels.test.ts; labels on FAQ benefit answers; table on /editorial-policy/#evidence. Ratings are proposed and need a reviewer; only FAQ sentences are covered so far.
 
 Why: Honest evidence labels build trust, and no app R3 reviewed showed the strength of evidence next to its claim [R3 §6].
 
@@ -498,7 +504,8 @@ Depends on: [research 03](research/03-art-therapy-wellbeing.md).
 Risks / not doing: Do not promote a weak finding to a claim.
 
 ### TSA-032 · Store, partner and marketing copy under the same policy
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/claims.test.ts scans metadata/app-store.en-US.json, google-play.en-US.json and en-US text files (no violations). Partner sheets and per-submission check remain manual.
 
 Why: Store copy is read as the app's intended purpose, and partner sheets are read as endorsements [R3 §7; plan README].
 
@@ -580,7 +587,8 @@ Depends on: TSA-033.
 Risks / not doing: Do not refresh a date without a substantive review.
 
 ### TSA-037 · AI-assistance disclosure
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/i18n/ui/en.json pages.editorial "How AI is used"; trust-routes.test.ts. Per-page AI use log (editorial record) not yet kept.
 
 Why: AI assistance does not count as human testing [SEO.md §5.3]. Generated steps or images presented as verified are misleading.
 
@@ -758,7 +766,8 @@ Depends on: TSA-011, TSA-043.
 Risks / not doing: Do not promise a timeline to users that counsel has not checked.
 
 ### TSA-047 · Safety report route
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: ActivityView.astro byline and ActivityPrintCard.astro link to /corrections/#report-safety (check-site.mjs checks every activity and pack). Monitored address owner needs maintainer confirmation.
 
 Why: Readers must be able to report an unsafe instruction from the page they are reading.
 

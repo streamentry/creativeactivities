@@ -60,12 +60,14 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
-safetyFlags: [adhesive, small-parts, water]
+safetyFlags: [adhesive, small-parts, water, ingestion, allergen]
 safety:
   - "Glue the lid shut and tape over it, then check the lid before each use. Replace the shaker if the lid loosens or the bottle cracks."
   - "Never make or use this with someone who puts things in their mouth. Keep the shaker away from anyone who may chew or swallow small grains."
   - "Fill with dried rice only. Do not add small beads, coins, buttons or other small items, which can be swallowed."
   - "Sweep up spilled rice at once, because loose grains on the floor are a slip hazard."
+  - "Stay close while the shaker is used, and keep it out of reach of anyone who may put it in their mouth."
+  - "Check for food allergies before using rice or any grain, and wash hands after handling it."
 stopNote: "It is fine to stop after the first shake, or before the decoration is finished. Put the shaker on the shelf and finish it another day."
 guides: [activities/music, activities/arts-and-crafts, activities/sensory]
 related: [tap-a-rhythm-together, make-a-paper-chain-garland, make-a-texture-board]

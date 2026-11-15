@@ -117,6 +117,11 @@ export const activityCardSchema = z
     withdrawn: withdrawnSchema.optional(),
     /** Absent until a named, credentialed person has reviewed the card (TSA-034). */
     review: reviewSchema.optional(),
+    /**
+     * Shows the crisis route on the page and on the printed card (TSA-027). Set on any card that invites
+     * talk about memories, feelings or grief. Tested in activity-safety.test.ts.
+     */
+    crisisRoute: z.boolean().default(false),
     sources: z
       .array(z.object({ title: z.string(), publisher: z.string(), url: z.string().url() }))
       .default([]),

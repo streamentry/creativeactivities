@@ -65,6 +65,7 @@ safety:
   - "Before folding, check each towel for pins, loose buttons or other small items that could be dropped or swallowed."
   - "If standing, keep the floor clear of dropped towels and pets, and keep a chair close so they can sit whenever they like."
   - "Keep towels away from stove burners, space heaters and open flames."
+  - "Stay with the person while they fold, and remove any pin or button before it can be dropped or swallowed."
 stopNote: "It is fine to stop after one towel. Leave the rest in the basket, or stack what is folded and sit together for a while."
 guides: [activities/household-tasks, activities/sensory, activities/late-stage]
 related: [wind-a-ball-of-yarn, give-a-hand-massage, make-a-lavender-sachet]
