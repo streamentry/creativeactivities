@@ -40,6 +40,7 @@ Started 2026-11-15 for the goal "read MISSION, VISION and docs/specs and complet
 
 - Read MISSION, VISION, product, senior-first status, global README, S1 status and roadmap.
 - Counted the real state (tables above) so the next reader does not have to.
+- Validation run on this branch (main plus this file), 2026-11-15: Python tests 113 pass; `release_metadata.py --check` passes. **Not run:** `dart format`, `flutter analyze` and `flutter test`, because no Flutter SDK (pinned 3.47.7) or FVM is installed on this machine. So no Flutter result is claimed here.
 - Nothing is built or marked passed by this file.
 
 ## Next executable actions (no person needed)
