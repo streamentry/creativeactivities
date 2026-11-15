@@ -516,7 +516,9 @@ Depends on: [SEO-012](12-search-geo-distribution.md), [L10N-004](13-localization
 Risks / not doing: Do not describe testing that did not happen.
 
 ### TSA-034 · Credentialed review scope record
-Priority P0 · Phase S1 · Status new · Pillars: CARE, CALM, GROW
+Priority P0 · Phase S1 · Status partial · Pillars: CARE, CALM, GROW
+
+Evidence: optional `review` record on cards (`reviewSchema` in `site/src/lib/activity-schema.ts`: name, credential, date, scope, not-for, not-unsupervised, stop signs, `permissionOnFile: true`). The plain `reviewer` string is removed. The byline says "Not yet reviewed by an outside expert." when no record exists (`reviewByline` in `activities.ts`, tested). No card has a record: no credentialed reviewer has been named or given written permission. Open: the maintainer must find reviewers and file the permission before any record is added.
 
 Why: A reviewer's name on a page implies endorsement. R3 and DESIGN require the reviewer's name, credential, date and scope on the page [R3 §7; DESIGN §5].
 
@@ -690,7 +692,16 @@ Risks / not doing: Do not store form data that is not needed.
 ## I. Incidents
 
 ### TSA-045 · Response to an unsafe or wrong activity
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `withdrawn` field on cards (date and reason, `withdrawnSchema`). `listedActivities()` in `activities.ts`, tested with fixtures in `activities.test.ts`, drops withdrawn cards from the finder, hubs, packs, home, game and guide pages, `llms.txt`, `llms-full.txt` and the sitemap. A withdrawn card keeps its URL, shows only the withdrawal notice and is noindex (`ActivityView.astro`). No real card has been withdrawn. Open: the same-day response target and the pre-gate drill are maintainer decisions; the drill has not been run.
+
+Runbook (stop and withdraw a card):
+1. Hold the card: add `withdrawn: { date: <today>, reason: <what was wrong, 40 to 400 characters, no reporter details> }` to its front matter, and `replacement` if a corrected version exists.
+2. Rebuild. Check that `/activity/<slug>/` shows the notice and noindex, and that the slug is gone from `/activity/`, the sitemap, `llms.txt` and every hub and pack. Tell the maintainer if a hub or pack is left too thin.
+3. Log the change in the corrections log (TSA-035) with the date and reason.
+4. Tell partners who use the activity. Printed copies carry their version and date; publish a notice for the version that is wrong.
+5. Fix the card. Remove `withdrawn` only after a second person has checked the fix, and log the reinstatement.
 
 Why: An unsafe activity or wrong safety instruction is a real harm, and printed copies cannot be updated [R5 §4].
 

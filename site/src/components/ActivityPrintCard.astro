@@ -1,7 +1,9 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { SITE } from '../lib/site';
-import { TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
+import { SAFETY_FLAG_LABELS, TYPE_LABELS, VARIATION_LABELS, glance } from '../lib/activities';
+import ActivityImage from './ActivityImage.astro';
+import SafetyFlags from './SafetyFlags.astro';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -13,12 +15,17 @@ const d = activity.data;
 const path = `/activity/${activity.id}/`;
 const easier = d.variations.find((v) => v.kind === variation) ?? d.variations[0];
 const id = `card-${activity.id}`;
+const resultImages = d.images.filter((image) => image.step === undefined);
+const stepImages = (step: number) => d.images.filter((image) => image.step === step);
 ---
 <section class="pack-card" aria-labelledby={id}>
   <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
   <h2 id={id}><a href={path}>{d.name}</a></h2>
   <p class="pack-card__summary">{d.summary}</p>
-  <p class="activity-glance">{glance(d).map((fact) => <span>{fact}</span>)}</p>
+  <p class="activity-glance">
+    {glance(d).map((fact) => <span>{fact}</span>)}
+    {d.safetyFlags.includes('small-parts') && <span>{SAFETY_FLAG_LABELS['small-parts']}</span>}
+  </p>
   <div class="pack-card__columns">
     <div>
       <h3>What you need</h3>
@@ -30,11 +37,22 @@ const id = `card-${activity.id}`;
     </div>
   </div>
   <h3>What to do</h3>
-  <ol class="activity-steps">{d.steps.map((step) => <li>{step}</li>)}</ol>
+  {resultImages.map((image) => <ActivityImage image={image} />)}
+  <ol class="activity-steps">
+    {
+      d.steps.map((step, i) => (
+        <li>
+          {step}
+          {stepImages(i + 1).map((image) => <ActivityImage image={image} />)}
+        </li>
+      ))
+    }
+  </ol>
   <div class="activity-stop">
     <p><strong>It is okay to stop.</strong> {d.stopNote}</p>
   </div>
   <h3>Safety</h3>
+  <SafetyFlags flags={d.safetyFlags} />
   <ul class="activity-list">{d.safety.map((s) => <li>{s}</li>)}</ul>
   <p class="pack-card__source">More versions and safety notes: {SITE.domain}{path}</p>
 </section>

@@ -18,7 +18,7 @@ import '../styles/games.css';
 import '../styles/activities.css';
 import '../styles/studio-games.css';
 import { GAME_ACTIVITIES } from '../data/game-activities';
-import { TYPE_LABELS, glance } from '../lib/activities';
+import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
 import PicturePairs from '../games/PicturePairs';
 import FindTheSame from '../games/FindTheSame';
 import ShadowMatch from '../games/ShadowMatch';
@@ -65,7 +65,7 @@ const guides = (
 const ogImage = `/og/games/${game.slug}.png`;
 const faq = [...game.faq, appFaqFor(game.slug, lang)];
 // Activity cards are English-first, so other languages skip this section.
-const cards = await getCollection('activityCards');
+const cards = listedActivities(await getCollection('activityCards'));
 const awayFromScreen =
   lang === 'en'
     ? (GAME_ACTIVITIES[game.slug as keyof typeof GAME_ACTIVITIES] ?? [])

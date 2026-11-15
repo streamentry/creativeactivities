@@ -44,6 +44,7 @@ variations:
     text: "Children gather and wash the stones, and everyone paints one to set out together in a row."
   - kind: for-a-group
     text: "Each person paints a stone and the group arranges them along a path or around a planter."
+safetyFlags: [skin-contact, small-parts]
 safety:
   - "Use non-toxic, water-based paint; wash it off skin with soap and water, and check for skin sensitivity first."
   - "Choose stones too large to fit in the mouth, and lift heavy ones for the participant."

@@ -40,6 +40,7 @@ variations:
     text: "Use thick yarn in a strong color against a plain dark lap blanket so the strand is easy to follow."
   - kind: with-children
     text: "A child holds the skein on outstretched hands while the older adult winds, or the other way around."
+safetyFlags: [fall-risk, skin-contact]
 safety:
   - "Loose yarn is a trip and tangle hazard. Keep it in a basket and gather it up before anyone stands or walks."
   - "Never wrap yarn around a wrist, finger or neck tightly enough to press, and keep long strands away from the neck."

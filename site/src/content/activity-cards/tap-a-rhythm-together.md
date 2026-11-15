@@ -40,6 +40,7 @@ variations:
     text: "Choose a soft, gentle song and tap with a flat hand rather than a drum. Keep the room quiet and the volume low."
   - kind: with-children
     text: "A child leads with quick taps on a drum and the older adult follows, then the roles swap so each takes a turn."
+safetyFlags: [small-parts]
 safety:
   - "Keep taps gentle and stop if the hands or wrists hurt. Offer a softer surface or a slower song instead."
   - "Use soft drumsticks, fingers or a flat palm. Hard sticks can bruise thin skin."

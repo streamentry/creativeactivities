@@ -44,6 +44,7 @@ variations:
     text: "Take turns choosing the music. A child and an older adult draw on the same sheet from opposite sides."
   - kind: more-collaborative
     text: "Draw on one shared sheet. One person draws while the music plays, the other adds color when it pauses."
+safetyFlags: [skin-contact, ingestion, adhesive]
 safety:
   - "Keep the volume comfortable and check hearing aids are in and switched on. Avoid sudden loud music."
   - "Use washable, non-toxic markers or crayons. Marker on skin usually washes off with soap and water; avoid drawing on skin."

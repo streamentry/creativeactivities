@@ -1,6 +1,19 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { factList, fitReasons, glance, matches, minutesRange, type ActivityFacts } from './activities';
+import {
+  FILTERABLE_FLAGS,
+  FILTER_LABELS,
+  SAFETY_FLAGS,
+  SAFETY_FLAG_LABELS,
+  factList,
+  fitReasons,
+  glance,
+  listedActivities,
+  matches,
+  minutesRange,
+  reviewByline,
+  type ActivityFacts,
+} from './activities';
 
 const COLLAGE: ActivityFacts = {
   type: 'craft',
@@ -183,4 +196,51 @@ describe('activity cards on disk', () => {
       }
     });
   }
+});
+
+describe('safety flags in the finder (WEB-022)', () => {
+  const FLAGGED: ActivityFacts = { ...COLLAGE, safetyFlags: ['small-parts', 'adhesive'] };
+
+  it('leaves out activities that need a flag the visitor chose to avoid', () => {
+    expect(matches(FLAGGED, { avoid: ['small-parts'] })).toBe(false);
+    expect(matches(FLAGGED, { avoid: ['heat'] })).toBe(true);
+    expect(matches(FLAGGED, { avoid: [] })).toBe(true);
+  });
+
+  it('never filters an activity with no recorded flags out, but flags are always labelled', () => {
+    expect(matches(COLLAGE, { avoid: ['small-parts'] })).toBe(true);
+    for (const flag of SAFETY_FLAGS) expect(SAFETY_FLAG_LABELS[flag].length, flag).toBeGreaterThan(10);
+    expect(SAFETY_FLAG_LABELS['small-parts']).toContain('Not for under 3');
+  });
+
+  it('offers only the flags the spec makes filterable', () => {
+    expect([...FILTERABLE_FLAGS].sort()).toEqual(['adhesive', 'heat', 'sharp-tool', 'skin-contact', 'small-parts']);
+    for (const flag of FILTERABLE_FLAGS) expect(FILTER_LABELS[flag]).toBeTruthy();
+  });
+});
+
+describe('withdrawn activities (TSA-045)', () => {
+  // Fixtures stand in for cards: no real activity is withdrawn to test this.
+  const card = (id: string, withdrawn?: { date: Date; reason: string }) => ({ id, data: { withdrawn } });
+
+  it('drops withdrawn cards from every listing and keeps the rest in order', () => {
+    const cards = [card('a'), card('b', { date: new Date('2026-11-14'), reason: 'A fixture reason, long enough.' }), card('c')];
+    expect(listedActivities(cards).map((c) => c.id)).toEqual(['a', 'c']);
+  });
+
+  it('keeps everything when nothing is withdrawn', () => {
+    expect(listedActivities([card('a'), card('b')]).length).toBe(2);
+  });
+});
+
+describe('review byline (TSA-034)', () => {
+  it('says plainly when no outside expert has reviewed the card', () => {
+    expect(reviewByline(undefined, 'November 13, 2026')).toBe('Not yet reviewed by an outside expert.');
+  });
+
+  it('names the reviewer, credential and date only as the record says them', () => {
+    const line = reviewByline({ name: 'Jane Example', credential: 'Registered occupational therapist' }, 'November 10, 2026');
+    expect(line).toBe('Reviewed by Jane Example, Registered occupational therapist, on November 10, 2026.');
+    expect(line.toLowerCase()).not.toContain('clinically');
+  });
 });

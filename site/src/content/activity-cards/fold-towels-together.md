@@ -39,6 +39,7 @@ variations:
     text: "Use towels at room temperature instead of warm ones, or choose plain cotton without loops if rough fabric is uncomfortable."
   - kind: more-collaborative
     text: "Two people hold opposite corners of each towel and fold it together, one towel at a time."
+safetyFlags: [small-parts, heat, fall-risk]
 safety:
   - "Check towels are warm, not hot, before handing them over. Test with the inside of your wrist first."
   - "Before folding, check each towel for pins, loose buttons or other small items that could be dropped or swallowed."

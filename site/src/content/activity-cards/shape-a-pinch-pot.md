@@ -41,6 +41,7 @@ variations:
     text: "Guide the clay with your hands over theirs, and watch for any sign they want to keep going or stop."
   - kind: low-vision
     text: "Choose a dark clay and work on a white tray so the shape stands out, and describe the shape aloud as you press."
+safetyFlags: [ingestion, skin-contact]
 safety:
   - "Use non-toxic air-dry clay, and keep clay and fingers away from the mouth."
   - "Clay can dry out the skin. Keep a bowl of water nearby, and offer hand cream afterward if needed."

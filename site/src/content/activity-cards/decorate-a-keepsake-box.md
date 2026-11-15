@@ -46,6 +46,7 @@ variations:
     text: "Two or three people each decorate one side of the same box."
   - kind: with-children
     text: "A child smooths the paper onto each side while the grandparent chooses the paper and the things to keep inside, and says why each one matters."
+safetyFlags: [sharp-tool, adhesive, small-parts, ingestion]
 safety:
   - "Scissors are for the helper only, and keep the glue away from the mouth."
   - "Use a glue stick or double-sided tape rather than spray glue."

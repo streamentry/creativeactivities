@@ -42,6 +42,7 @@ variations:
     text: "Place a strip in their hand and guide it gently over and under, pausing to see if they want to go on."
   - kind: with-children
     text: "A child cuts the strips in advance, and the two take turns on each row."
+safetyFlags: [sharp-tool, adhesive, small-parts]
 safety:
   - "Scissors are for the helper only. The person weaves with their hands alone."
   - "Check the slit edges for sharp corners, and round them off with the helper before weaving."

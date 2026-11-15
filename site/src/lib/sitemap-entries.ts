@@ -2,6 +2,7 @@ import { getCollection } from 'astro:content';
 import { SECTIONS } from '../content.config';
 import { GAMES } from '../data/games';
 import { PACKS } from '../data/packs';
+import { listedActivities } from './activities';
 import { gameLanguages } from '../i18n/games';
 import { allGuides } from '../i18n/guides';
 import { PUBLISHED } from '../i18n/ui';
@@ -29,7 +30,8 @@ const GAMES_LOCALIZED = Object.keys(import.meta.glob('../pages/\\[lang\\]/games/
 export async function sitemapEntries(): Promise<SitemapEntry[]> {
   const guides = await allGuides();
   // Activity cards are English-first until a translation has cultural and safety review.
-  const activities = await getCollection('activityCards');
+  // Withdrawn cards are not listed (TSA-045); their pages are noindex.
+  const activities = listedActivities(await getCollection('activityCards'));
   const hubs = await getCollection('hubs');
   const entries: SitemapEntry[] = [
     ...STATIC_PAGES.map((path) => ({ path, lastmod: SITE.updated, langs: LOCALIZED.has(path) ? EVERY : ['en'] })),

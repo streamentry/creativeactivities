@@ -212,7 +212,9 @@ Risks / not doing: More than three buttons dilutes the first action. Keep these 
 
 ### WEB-012 · Step photos or illustrations
 
-Priority P0 · Phase S1 · Status new · Pillars: all
+Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: optional `images` on cards (`site/src/lib/activity-schema.ts`, `activityImageSchema`), rendered per step and in print by `ActivityView.astro` and `ActivityPrintCard.astro`. Alt text, caption, provenance and the no-child rule are tested in `activity-schema.test.ts` and `activity-cards.test.ts`. One hero illustration (vase-of-flowers, an original drawing) on arrange-flowers-together. No real process photos yet, so the step-photo acceptance is not met; it needs real photos or illustrations and a WEB-073 rights-log entry.
 
 Why: VISION asks for "original activity media" and "photographed or illustrated steps" ([VISION, "Moat we can actually build"](../../../VISION.md)). DESIGN says photos should never be the only form of instruction ([DESIGN §2](../../../DESIGN.md)). None of the 38 card files references an image.
 
@@ -382,6 +384,8 @@ Risks / not doing: No third-party speech service. A cloud voice would change the
 ### WEB-022 · Structured safety flags
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Evidence: `safetyFlags` enum on every card (38 tagged; `none` for cards with no listed hazard). Text-labelled chips in the Safety section and on the print card; "Not for under 3: small parts" in the header. Finder checkboxes "Leave out activities that need" for the five filterable flags (`activities.ts`; tests in `activities.test.ts` and `activity-cards.test.ts`). Open: legal wording of the labels still needs review under 14 before S1 exit.
 
 Why: Safety labeling is a non-negotiable: scissors, heat, choking risks, skin contact, allergens and supervision ([MISSION, "Safety"](../../../MISSION.md)). Small-parts labels need a default ([R2 §4](research/02-parenting-kids-platforms.md)). The baseline has a safety list in text, not structured flags.
 

@@ -42,6 +42,7 @@ variations:
     text: "A child cuts and glues while the older adult chooses and tells the story behind each picture."
   - kind: nonverbal
     text: "Hold up two pictures and watch where their eyes or hand go. Pointing and nodding are full answers."
+safetyFlags: [sharp-tool, adhesive, skin-contact]
 safety:
   - "Keep scissors with the helper if cutting is unsafe or tiring."
   - "Use copies of photos so an original is never cut or glued by mistake."

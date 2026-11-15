@@ -46,6 +46,7 @@ variations:
     text: "A child does the rolling and sprinkling while the older adult chooses the spot and names the birds that visit."
   - kind: for-a-group
     text: "Make one feeder each and hang them all on the same tree, then watch together from indoors."
+safetyFlags: [allergen, small-parts, sharp-tool, fall-risk, ingestion]
 safety:
   - "Peanut butter can cause a severe allergic reaction. Ask about nut allergies first, and use vegetable shortening if anyone is unsure."
   - "Birdseed is not food for people, and small seeds can be a choking risk. Supervise if anything might be put in the mouth."

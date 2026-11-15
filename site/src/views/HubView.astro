@@ -8,6 +8,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import { breadcrumbs, faqPage, itemList } from '../lib/schema';
 import { findGuide } from '../i18n/guides';
+import { listedActivities } from '../lib/activities';
 
 interface Props {
   /** The hub's id, which is also its path: `/<id>/`. */
@@ -23,11 +24,15 @@ const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 
 const cards = await getCollection('activityCards');
-const activities = d.activities.map((slug) => {
-  const card = cards.find((a) => a.id === slug);
-  if (!card) throw new Error(`Hub ${hub.id} lists a missing activity: ${slug}`);
-  return card;
-});
+// A withdrawn card drops out of the hub (TSA-045); a missing slug is still an error.
+const shown = new Set(listedActivities(cards).map((a) => a.id));
+const activities = d.activities
+  .map((slug) => {
+    const card = cards.find((a) => a.id === slug);
+    if (!card) throw new Error(`Hub ${hub.id} lists a missing activity: ${slug}`);
+    return card;
+  })
+  .filter((card) => shown.has(card.id));
 const allHubs = await getCollection('hubs');
 const related = d.related.map((id) => allHubs.find((h) => h.id === id)).filter((h) => h !== undefined);
 const guides = (
