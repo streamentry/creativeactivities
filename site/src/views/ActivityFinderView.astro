@@ -5,7 +5,10 @@ import { PACKS } from '../data/packs';
 import '../styles/activities.css';
 import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ActivityCard from '../components/ActivityCard.astro';
 import { breadcrumbs, itemList } from '../lib/schema';
+import { FINDER_SETTINGS } from '../lib/finder-state';
+import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
 import {
   ENERGY_CHOICES,
   SUPERVISION_CHOICES,
@@ -31,10 +34,27 @@ const title = 'Find an Activity to Do Together';
 const description =
   'Free creative activities to start together today: crafts, painting, plants, music and stories, with setup time, materials, easier versions and a printable card.';
 const types = Object.entries(TYPE_LABELS);
-const settings = (['seated', 'bedside', 'outdoors'] as const).map((s) => [s, SETTING_LABELS[s]] as const);
+const settings = FINDER_SETTINGS.map((s) => [s, SETTING_LABELS[s]] as const);
 const groups = Object.entries(GROUP_LABELS);
 const easier = (kinds: { kind: string; text: string }[]) =>
   kinds.find((v) => v.kind === 'easier') ?? kinds.find((v) => v.kind === 'bedside') ?? kinds[0];
+/** Effort of a card, for the lower-effort option (WEB-004). */
+const effortOf = (a: (typeof activities)[number]): EffortFacts => ({
+  slug: a.id,
+  energy: a.data.energy,
+  cost: a.data.cost,
+  materials: a.data.materials.length,
+  prepMinutes: a.data.prepMinutes,
+});
+/** The static fallback: the first card is the top result with no choices made, and the option is its lighter candidate. */
+const lowerStatic = (() => {
+  const [top, ...rest] = activities;
+  if (!top) return undefined;
+  const pick = lowerEffortPick(effortOf(top), rest.map(effortOf));
+  const card = rest.find((a) => a.id === pick?.slug);
+  if (!card || !pick) return undefined;
+  return { card, reasons: lowerEffortReasons(pick, effortOf(top)) };
+})();
 ---
 <BaseLayout title={title} description={description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs), itemList(title, activities.map((a) => ({ path: `/activity/${a.id}/`, name: a.data.name })))]}>
   <Breadcrumbs items={crumbs} />
@@ -209,6 +229,20 @@ const easier = (kinds: { kind: string; text: string }[]) =>
       Showing all {activities.length} activities.
     </p>
 
+    <section class="finder__lower" id="finder-lower" aria-labelledby="finder-lower-title" hidden={!lowerStatic}>
+      <h2 id="finder-lower-title">A lower-effort option</h2>
+      <p class="muted" id="finder-lower-why">{lowerStatic ? `Why it is lighter: ${lowerStatic.reasons.join(', ')}.` : ''}</p>
+      <ul class="activity-grid" id="finder-lower-list">
+        {
+          lowerStatic && (
+            <li>
+              <ActivityCard activity={lowerStatic.card} variation={easier(lowerStatic.card.data.variations).kind} />
+            </li>
+          )
+        }
+      </ul>
+    </section>
+
     <ul class="activity-grid finder__results" id="finder-results">
       {
         activities.map((a) => {
@@ -227,6 +261,9 @@ const easier = (kinds: { kind: string; text: string }[]) =>
               data-senses={a.data.senses.join(' ')}
               data-variations={a.data.variations.map((v) => v.kind).join(' ')}
               data-flags={a.data.safetyFlags.join(' ')}
+              data-slug={a.id}
+              data-materials={a.data.materials.length}
+              data-prep={a.data.prepMinutes}
             >
               <a class="activity-card" href={`/activity/${a.id}/`}>
                 <span class="activity-card__type">{TYPE_LABELS[a.data.type]}</span>
@@ -268,14 +305,32 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 </BaseLayout>
 
 <script>
-  import { fitReasons, matches, type ActivityFacts, type ActivitySense, type FinderChoice, type SafetyFlag } from '../lib/activities';
+  import {
+    fitReasons,
+    matches,
+    type ActivityFacts,
+    type ActivitySense,
+    type FinderChoice,
+    type SafetyFlag,
+  } from '../lib/activities';
   import { browserStorage, loadSaved } from '../lib/saved-activities';
   import { matchesGuideSearch } from '../lib/guide-search';
+  import { countFitFilters, parseFinderState, serializeFinderState, shouldNoindex } from '../lib/finder-state';
+  import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
 
   const form = document.getElementById('finder') as HTMLFormElement | null;
+  const words = document.getElementById('finder-words') as HTMLInputElement | null;
   const items = [...document.querySelectorAll<HTMLLIElement>('#finder-results > li')];
   const count = document.getElementById('finder-count');
   const empty = document.getElementById('finder-empty');
+  const lower = document.getElementById('finder-lower');
+  const lowerList = document.getElementById('finder-lower-list');
+  const lowerWhy = document.getElementById('finder-lower-why');
+  const robots = document.querySelector<HTMLMetaElement>('meta[name="robots"]');
+  const indexedRobots = robots?.content ?? 'index, follow';
+
+  /** The choices the URL carries (WEB-005). The search box is not one of them. */
+  const KEYS = ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'sense', 'talking', 'supervision'] as const;
 
   function facts(li: HTMLLIElement): ActivityFacts {
     const d = li.dataset;
@@ -295,19 +350,67 @@ const easier = (kinds: { kind: string; text: string }[]) =>
     };
   }
 
-  function update(): void {
-    if (!form) return;
+  function effort(li: HTMLLIElement): EffortFacts {
+    const d = li.dataset;
+    return {
+      slug: d.slug ?? '',
+      energy: d.energy as EffortFacts['energy'],
+      cost: d.cost as EffortFacts['cost'],
+      materials: Number(d.materials),
+      prepMinutes: Number(d.prep),
+    };
+  }
+
+  /** The choices as the form shows them now. */
+  function readForm(): FinderChoice {
+    if (!form) return {};
     const data = new FormData(form);
-    const choice: FinderChoice = {
-      ...Object.fromEntries(
-        ['time', 'materials', 'type', 'setting', 'group', 'mess', 'energy', 'supervision', 'sense', 'talking'].map((k) => [k, String(data.get(k) ?? 'any')]),
-      ),
+    return {
+      ...Object.fromEntries(KEYS.map((k) => [k, String(data.get(k) ?? 'any')])),
       avoid: data.getAll('avoid').map(String),
     };
-    const words = String(data.get('words') ?? '');
-    let shown = 0;
+  }
+
+  /** Shows the choices in the form, as the URL says them. */
+  function writeForm(choice: FinderChoice): void {
+    if (!form) return;
+    for (const key of KEYS) {
+      const value = choice[key] ?? 'any';
+      for (const input of form.querySelectorAll<HTMLInputElement>(`input[name="${key}"]`)) {
+        input.checked = input.value === value;
+      }
+    }
+    for (const box of form.querySelectorAll<HTMLInputElement>('input[name="avoid"]')) {
+      box.checked = (choice.avoid ?? []).includes(box.value);
+    }
+  }
+
+  /** Shows the lower-effort card for the first shown result (WEB-004). */
+  function renderLower(visible: HTMLLIElement[]): void {
+    if (!lower || !lowerList || !lowerWhy) return;
+    const [top, ...rest] = visible;
+    const pick = top ? lowerEffortPick(effort(top), rest.map(effort)) : undefined;
+    const pickItem = rest.find((li) => li.dataset.slug === pick?.slug);
+    lower.hidden = !(top && pickItem);
+    lowerList.replaceChildren();
+    if (!top || !pickItem) return;
+    const item = document.createElement('li');
+    const anchor = pickItem.querySelector<HTMLAnchorElement>('a.activity-card');
+    if (anchor) item.append(anchor.cloneNode(true));
+    lowerList.append(item);
+    lowerWhy.textContent = `Why it is lighter: ${lowerEffortReasons(effort(pickItem), effort(top)).join(', ')}.`;
+  }
+
+  /** Three or more fit filters: noindex, so near-duplicate states stay out of search (WEB-005). */
+  function setRobots(noindex: boolean): void {
+    if (robots) robots.content = noindex ? 'noindex, follow' : indexedRobots;
+  }
+
+  function render(choice: FinderChoice): void {
+    const wordsValue = words?.value ?? '';
+    const visible: HTMLLIElement[] = [];
     for (const li of items) {
-      const fits = matches(facts(li), choice) && matchesGuideSearch(li.dataset.search ?? '', words);
+      const fits = matches(facts(li), choice) && matchesGuideSearch(li.dataset.search ?? '', wordsValue);
       li.hidden = !fits;
       const why = li.querySelector<HTMLElement>('.activity-card__why');
       const reasons = fits ? fitReasons(facts(li), choice) : [];
@@ -315,14 +418,56 @@ const easier = (kinds: { kind: string; text: string }[]) =>
         why.hidden = reasons.length === 0;
         why.textContent = reasons.length > 0 ? `Why it fits: ${reasons.join(', ')}.` : '';
       }
-      if (fits) shown += 1;
+      if (fits) visible.push(li);
     }
+    const shown = visible.length;
     if (count) {
       count.textContent =
         shown === items.length ? `Showing all ${items.length} activities.` : `Showing ${shown} of ${items.length} activities.`;
     }
     if (empty) empty.hidden = shown > 0;
+    renderLower(visible);
+    setRobots(shouldNoindex(choice));
   }
+
+  /**
+   * Keeps the address in step with the choices. A change of choice is a history
+   * entry, so Back returns to the previous choices; a restore replaces the entry.
+   */
+  function syncAddress(choice: FinderChoice, push: boolean): void {
+    const query = serializeFinderState(choice);
+    const next = query ? `${location.pathname}?${query}` : location.pathname;
+    if (next === `${location.pathname}${location.search}`) return;
+    if (push) history.pushState(null, '', next);
+    else history.replaceState(null, '', next);
+  }
+
+  function openIfChosen(choice: FinderChoice): void {
+    if (countFitFilters(choice) > 0) document.querySelector<HTMLDetailsElement>('.finder__more')?.setAttribute('open', '');
+  }
+
+  // Restore the choices from the address, then show them.
+  const initial = parseFinderState(location.search);
+  writeForm(initial);
+  openIfChosen(initial);
+  render(readForm());
+  syncAddress(readForm(), false);
+
+  form?.addEventListener('change', (event) => {
+    const choice = readForm();
+    render(choice);
+    // The search box is not in the address, so typing or leaving it never adds history.
+    if (event.target !== words) syncAddress(choice, true);
+  });
+  form?.addEventListener('input', (event) => {
+    if (event.target === words) render(readForm());
+  });
+  window.addEventListener('popstate', () => {
+    const choice = parseFinderState(location.search);
+    writeForm(choice);
+    openIfChosen(choice);
+    render(readForm());
+  });
 
   // Activities saved on their own pages, listed by the names already on this page.
   const savedSection = document.getElementById('saved-activities');
@@ -348,7 +493,5 @@ const easier = (kinds: { kind: string; text: string }[]) =>
 
   // The word search needs this script, so it appears only when the script runs.
   document.querySelector<HTMLElement>('[data-finder-search]')?.removeAttribute('hidden');
-  form?.addEventListener('change', update);
-  form?.addEventListener('input', update);
   form?.addEventListener('submit', (event) => event.preventDefault());
 </script>
