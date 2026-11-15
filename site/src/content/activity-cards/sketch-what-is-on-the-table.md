@@ -66,11 +66,18 @@ safety:
   - "If the object is a plant, check that it is not poisonous or an allergen, and do not let anyone taste it."
   - "Keep pencils and erasers away from the mouth if the person may chew or taste things."
   - "Choose a sturdy cup or soft fruit, and avoid glass or anything sharp on the table."
+  - "Stay close if the object is small or edible, and do not let anyone eat it."
 stopNote: "It is fine to stop after a few lines. Leave the paper where it is and look at the object again later, or simply enjoy it together for a while."
 guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, paint-a-shared-picture, arrange-flowers-together]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

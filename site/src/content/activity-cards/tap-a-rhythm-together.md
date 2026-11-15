@@ -66,11 +66,18 @@ safety:
   - "Use soft drumsticks, fingers or a flat palm. Hard sticks can bruise thin skin."
   - "Keep the volume comfortable and check hearing aids are in and working. Loud bass can startle."
   - "Small blocks can be swallowed. Keep them on the table or tray, and put them away when the activity ends."
+  - "Stay close while small blocks or drums are in use, and put them away when the activity ends."
 stopNote: "It is fine to stop after a few bars. Rest the hands on the table, say that is enough for now, and sit quietly together."
 guides: [activities/music, activities/sensory, activities/late-stage]
 related: [make-a-playlist-together, make-a-sealed-shaker, draw-to-music]
 published: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for small parts."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

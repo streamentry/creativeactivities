@@ -1,6 +1,7 @@
 ---
 import type { FaqItem } from '../lib/schema';
 import { ui } from '../i18n/ui';
+import { evidenceFor, STRENGTH_LABELS } from '../lib/evidence-labels';
 interface Props {
   items: readonly FaqItem[];
   title?: string;
@@ -19,6 +20,15 @@ const title = Astro.props.title ?? ui(lang).common.faqTitle;
           <summary>{f.q}</summary>
           <div>
             <p>{f.a}</p>
+            {
+              lang === 'en' && evidenceFor(f.a) && (
+                <p class="evidence-label">
+                  <strong>Evidence: {STRENGTH_LABELS[evidenceFor(f.a)!.strength]}</strong>
+                  {evidenceFor(f.a)!.status === 'proposed' ? ' (proposed, awaiting review)' : ''}.{' '}
+                  <a href={`/editorial-policy/#${evidenceFor(f.a)!.id}`}>Source and date</a>
+                </p>
+              )
+            }
           </div>
         </details>
       ))

@@ -90,6 +90,8 @@ Risks / not doing: Search results go through the same claim rules as the pages. 
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: `site/src/lib/lower-effort.test.ts`: `lowerEffortPick` (never the top card, never heavier on any dimension, strictly lighter on one) and `lowerEffortReasons`; rendered in `ActivityFinderView.astro` (`#finder-lower`) and updated on every choice. Remaining: usability sessions (five of five participants can say why a card was offered) need people.
+
 Why: DESIGN asks that results explain why they fit and offer a lower-effort alternative, "not a mysterious match score" ([DESIGN §3](../../../DESIGN.md)).
 
 What: The why-it-fits line exists in the baseline. The lower-effort option is new: beside each result set, one card with fewer materials or less energy, never the same card as the top result.
@@ -106,7 +108,9 @@ Risks / not doing: Do not use "AI match". Do not rank by revenue.
 
 ### WEB-005 · Finder state in the URL
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
+
+Evidence: `site/src/lib/finder-state.test.ts` (serialize/parse round trip, only facet values, no search text, noindex from three fit filters); finder script in `site/src/views/ActivityFinderView.astro` restores choices from the query, uses `history.pushState` per change and `popstate` for Back, and sets robots noindex for three or more fit filters; `site/scripts/check-site.mjs` checks the `/activity/` canonical, that it is indexable, and that the bundled finder script carries the noindex rule. Checked in a browser (2026-11-15): reload restores results, Back returns to the previous choice, search words never reach the URL.
 
 Why: Visitors share a plan with a relative, a care team or a class ([MISSION, "Share the moment"](../../../MISSION.md)). A shareable link makes the finder useful to more than one person.
 
@@ -151,6 +155,8 @@ Priority P2 · Phase S2 · Status new · Pillars: all
 ### WEB-008 · Related cards by function
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/related.test.ts` and `site/src/lib/related.ts`: hand-picked `related` first, then the best functional matches (type, setting, senses, energy, group, material class) to three, never a keyword-only match; used in `ActivityView.astro`. Remaining: the one-time human review of each card's related list before S1 exit.
 
 Why: VISION asks that related activities are chosen by "functional similarity, not arbitrary keywords" ([VISION, "Each activity page should answer the entire task"](../../../VISION.md)). Cards have a `related` field in the baseline.
 
@@ -237,6 +243,8 @@ Risks / not doing: Stock photos are not enough; they must show the actual proces
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: Chips in `site/src/views/ActivityView.astro` are real links (`#<kind>`) with `aria-current`; JS marks and focuses the chosen version without reload (`site/src/styles/studio-activity.css`); all versions stay in the HTML and print. Checked in a browser with JS on and off (2026-11-15). Remaining: each variation must change at least one step (content review across the 38 cards).
+
 Why: One idea, many adaptations, is a core differentiator ([MISSION, "What makes us different"](../../../MISSION.md)). Variations exist as text in the baseline; switching between them is new.
 
 What: Variations appear as chips above the variations section. Choosing one shows it without a reload and updates the URL fragment. All variations stay in the HTML, so printing and screen readers see them.
@@ -275,6 +283,8 @@ Risks / not doing: Long cards are cut at the wrong place. Cut the photo first, n
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: print styles hide the header, footer, breadcrumbs and navigation (`site/src/styles/components.css`, `site/src/styles/activities.css`). The card prints on one A4 and one US Letter sheet, two sides, at 12 pt (`site/scripts/check-print.mjs`, 38 of 38 on 2026-11-15). The card does not depend on the QR code or the URL. Not done: no test yet on one inkjet and one laser printer or from a phone's print dialog (a person must run it; record the device list with the result). Print hides the "At a glance" panel and the About text, so print is not yet identical to the web page.
+
 Why: DESIGN requires that the print page works with no internet, no color ink and no URL access ([DESIGN §4B](../../../DESIGN.md)). Print styles exist in the baseline; their results on real devices are not recorded.
 
 What: `@media print` removes navigation, banners and decoration, keeps the materials and steps in large type, and prints the same content as the web page. Printing works from a phone's print dialog.
@@ -292,7 +302,7 @@ Risks / not doing: No print-only rewrite of claims. Print is a rendering of the 
 ### WEB-016 · Versioned prints
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
-Evidence: the print-only footer line on each card (`site/src/views/ActivityView.astro`, class `print-version`, styled in `site/src/styles/activities.css`) prints `Version <updated date> · creativeactivities.org/activity/<slug>/`. Not done: the version is the card's `updated` date, not a separate version number; no changelog entry (WEB-027) and no safety notice on the card page yet.
+Evidence: the print-only footer line `Version <date> · creativeactivities.org/activity/<slug>/` (`site/src/views/ActivityView.astro`, class `print-version`). The web page shows the same version date under "What changed" (`site/src/components/ActivityChanges.astro`). Each change is dated, safety changes are labelled, and the web page says that a printed copy made before a safety change may not show it. Tests: `site/src/lib/activity-changes.test.ts`. Not done: the version is the card's date, not a version number; there is no separate last-checked date; the printed pack footer is not checked.
 
 Why: Printed copies cannot be updated, so each one must be dated and versioned ([R5 §4](research/05-search-scale-trust.md)). The risk of feature churn is named in [R1 §7](research/01-craft-diy-platforms.md): printed outputs must stay stable.
 
@@ -410,6 +420,8 @@ Risks / not doing: A flag is not a guarantee. Supervision text stays on the card
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: the approved footer note (`footer.note` in `site/src/i18n/ui/en.json`, "for enjoyment ... not medical advice") is on every English page. `site/scripts/check-site.mjs` fails the build if an English page lacks it (15,732 pages, 0 errors on 2026-11-15). Cards also carry the card scope line (TSA-026). Not done: translated pages are not checked by the script; the reviewer's scope note for reviewed pages does not exist yet.
+
 Why: "We describe activities as creative, recreational, supportive, or engaging" ([MISSION, "Evidence and humility"](../../../MISSION.md)). R3 recommends the same sentence on every activity page: "This is a creative activity, not therapy or medical advice" ([R3 §3.1](research/03-art-therapy-wellbeing.md)). The baseline has a medical disclaimer page; the per-page line is new.
 
 What: The line appears on every card, hub, pack, game and guide. It sits in the glance block or the footer.
@@ -485,7 +497,9 @@ Risks / not doing: Free text is where personal information arrives. The screenin
 
 ### WEB-027 · Card changelog
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `changes:` on all 38 cards in `site/src/content/activity-cards/`, seeded only from git history (2026-11-15, commit 888b4cf: labelled safety flags and drawings of the result and materials). The two-sided print layout (commit e0852b8, 2026-11-14) is not listed because it is not a materials, steps or safety change. `changeSchema` is in `site/src/lib/activity-schema.ts`; `recentChanges` in `site/src/lib/activity-changes.ts` shows the newest three. Not done: no link to a full log page (none exists yet); the log is written by hand in each card file, not generated from git.
 
 Why: "Documented editorial process" and visible update dates build trust ([VISION, metrics](../../../VISION.md); [R5 §5.6](research/05-search-scale-trust.md)).
 
@@ -520,7 +534,9 @@ Risks / not doing: Collection names can contain personal information. The screen
 
 ### WEB-029 · Data control on the device
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status exists · Pillars: all
+
+Evidence: `/your-data/` page (`site/src/pages/your-data.astro`) with per-item and all-at-once download and delete, a confirmation step and a role=status message. Logic and tests: `site/src/lib/your-data.ts` and `site/src/lib/your-data.test.ts`. The list is server-rendered; the buttons need JavaScript.
 
 Why: "Provide deletion controls where personal data exists" ([MISSION, "Privacy"](../../../MISSION.md)). Local collections, feedback drafts and display settings are personal data on the device.
 
@@ -648,7 +664,9 @@ Risks / not doing: Automated checks are necessary but not sufficient ([DESIGN §
 
 ### WEB-037 · Zoom and small-screen reflow
 
-Priority P0 · Phase S2 · Status partial · Pillars: all
+Priority P0 · Phase S2 · Status exists · Pillars: all
+
+Evidence: site/scripts/a11y-check.mjs runs every template at 320, 390, 640 (200% zoom), 1440 and 1440 with text at 200%, and fails on horizontal page scroll, content past the edge or clipped text (CI step "Accessibility checks" in .github/workflows/site.yaml).
 
 Why: DESIGN asks for 200% zoom and reflow at 320 CSS px without horizontal scrolling for ordinary content ([DESIGN §6](../../../DESIGN.md)).
 
@@ -666,6 +684,8 @@ Risks / not doing: Tables and step images can overflow. Fix them in the template
 ### WEB-038 · Works without JavaScript, within a page budget
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: Checked with `javaScriptEnabled: false` on nine templates (home, finder, card, pack, hub, guide, game, today, prose; 2026-11-15): content renders, the finder lists all 38 cards, card variations and print work; the Print, Save and Share buttons start hidden and appear only with JS (`activities.css`, `ActivityView.astro`, `PackView.astro`). Budget: `pnpm check:budget` 0 over (microsite largest JS 3.0 kB). Remaining: the finder's filtering needs JS by design, and a human print check.
 
 Why: "Progressive enhancement: HTML content and critical navigation work before JavaScript" ([DESIGN §7](../../../DESIGN.md)). Low-speed connections are a named underserved condition ([VISION, "Ten-year vision"](../../../VISION.md)).
 
@@ -897,7 +917,9 @@ Risks / not doing: Hints can do the work for the person. Hints are optional and 
 
 ### WEB-054 · Stop and rest on every game
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: Rest for now on every game through site/src/games/shared/GameFrame.tsx (checked for all 12 games by a11y-check.mjs: keyboard reachable, play area hidden and kept, Carry on restores it, no modal). Not done: the place is kept only while the page is open; it is not saved on the device between visits, so the Rest saving requirement is partly met.
 
 Why: "Adapt or stop without pressure" applies to games too ([MISSION](../../../MISSION.md)). A rest button that saves place is in the game concepts ([R4 §8, concept 22](research/04-games-engagement.md)).
 
@@ -974,7 +996,8 @@ Risks / not doing: Showing a credential we do not hold. Never show one.
 
 ### WEB-058 · Report a problem
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: Footer.astro "Report a problem" on every page (check-site.mjs); site/src/pages/corrections.astro. Response standard not yet published (maintainer decision).
 
 Why: Provenance and correction are part of the trust layer ([MISSION, "Provenance"](../../../MISSION.md); [DESIGN §4B](../../../DESIGN.md) correction link). A reporting path is expected for user content ([R5 §5.5](research/05-search-scale-trust.md)).
 
@@ -1263,6 +1286,8 @@ Risks / not doing: Lab scores are not field data. Both are needed.
 ### WEB-075 · Accessibility tests in CI
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: axe at WCAG 2.2 AA on every template and game at five variants, keyboard pass, reduced-motion loop check, in CI (site/scripts/a11y-check.mjs). Not done: a token contrast table and visual screenshot comparison at 320, 768, 1024 and 1440.
 
 Why: The baseline runs axe on key pages. DESIGN asks that every token pairing is validated for contrast, and the web testing rules add keyboard, reduced-motion and visual checks at each breakpoint ([DESIGN §2](../../../DESIGN.md)).
 

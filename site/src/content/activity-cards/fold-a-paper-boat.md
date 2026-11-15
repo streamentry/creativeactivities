@@ -71,7 +71,13 @@ stopNote: "It is fine to stop halfway. A folded triangle is a paper hat, which i
 guides: [activities/arts-and-crafts, activities/for-men, activities/ideas]
 related: [make-a-paper-chain-garland, make-a-greeting-card, wind-a-ball-of-yarn]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for water."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

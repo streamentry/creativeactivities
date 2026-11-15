@@ -82,8 +82,54 @@ describe('English content sources', () => {
     expect(files.some((f) => f.startsWith('activity-cards/'))).toBe(true);
     expect(files.some((f) => f.startsWith('hubs/'))).toBe(true);
     expect(files.some((f) => f.startsWith('guides/'))).toBe(true);
-    expect(files).toContain('i18n/ui/en.json');
+    expect(files.some((f) => f.startsWith('i18n/ui/en.json'))).toBe(true);
     expect(files.some((f) => f.startsWith('guides-i18n/'))).toBe(false);
+  });
+
+  it('covers the English game and play strings, the app ARB file and the English store copy (TSA-029, TSA-032)', () => {
+    const files = englishSources().map((s) => s.file);
+    expect(files.some((f) => f.startsWith('i18n/games/en.json'))).toBe(true);
+    expect(files.some((f) => f.startsWith('i18n/play/en.json'))).toBe(true);
+    expect(files.some((f) => f.startsWith('lib/l10n/arb/app_en.arb'))).toBe(true);
+    expect(files.some((f) => f.startsWith('metadata/app-store.en-US.json'))).toBe(true);
+    expect(files.some((f) => f.startsWith('metadata/google-play.en-US.json'))).toBe(true);
+    expect(files).toContain('metadata/en-US/description.txt');
+    expect(files).toContain('metadata/google-play/en-US/full_description.txt');
+  });
+
+  it('reads each JSON string on its own, so a negation in one value cannot excuse the next', () => {
+    const sources = englishSources().filter((s) => s.file.startsWith('metadata/app-store.en-US.json'));
+    expect(sources.length).toBeGreaterThan(5);
+    expect(sources.every((s) => !s.text.includes('\\n'))).toBe(true);
+  });
+});
+
+describe('claims lint: cognitive and brain-training outcome wording (TSA-029)', () => {
+  it.each([
+    ['Try this memory exercise every morning.'],
+    ['This mental workout keeps your mind sharp.'],
+    ['Sorting buttons is good for your brain.'],
+    ['This game delays dementia for a while.'],
+    ['Our picture game supports brain health.'],
+    ['Keeps the mind sharp with a daily picture.'],
+  ])('flags: %s', (text) => {
+    expect(flagged(text).length).toBeGreaterThan(0);
+  });
+
+  it.each([
+    ['Are these games good for your brain?'],
+    ['No game is good for your memory, and we do not say so.'],
+    ['Pictures are for enjoyment, not a memory exercise.'],
+  ])('allows questions, negations and warnings: %s', (text) => {
+    expect(flagged(text)).toEqual([]);
+  });
+});
+
+describe('claims lint: store and app copy has no violations (TSA-032)', () => {
+  it('passes every English store and app string', () => {
+    const violations = englishSources().flatMap((s) => checkClaims(s.text, s.file));
+    const report = violations.map((v) => `${v.file}:${v.line} "${v.match}" (${v.rule}) ...${v.sentence}...`).join('\n');
+    expect(violations, report).toEqual([]);
   });
 });
 

@@ -70,11 +70,18 @@ safety:
   - "Keep small torn pieces away from anyone who may put paper in their mouth, and clear them away afterward."
   - "Use a glue stick rather than liquid glue; check for skin sensitivity first."
   - "Glossy magazine edges can occasionally nick skin, so offer softer paper if that is a concern."
+  - "Supervise closely while small torn pieces are on the table, and clear them away afterward."
 stopNote: "It is fine to stop when only part of the shape is filled. A half-finished mosaic still looks good, and you can add more another day or leave it as it is."
 guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage, activities/group-art-activities]
 related: [make-a-memory-collage, make-a-button-picture, make-a-texture-board]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for small parts, glue or tape, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

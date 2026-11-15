@@ -66,17 +66,24 @@ images:
       rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
       people: none
       date: 2026-11-15
-safetyFlags: [skin-contact, ingestion, small-parts, fall-risk]
+safetyFlags: [skin-contact, ingestion, small-parts, fall-risk, allergen]
 safety:
   - "Wear gloves or wash hands after handling potting mix; it can contain bacteria and fungi, and some mixes include fertilizer."
   - "Seeds can be a choking risk and many are treated with chemicals. Supervise closely if anything might be put in the mouth."
   - "Some seeds, such as sweet peas, are toxic if eaten. Read the packet and choose edible-garden seeds if unsure."
   - "Outdoors, sit in the shade, offer water to drink, and keep the path clear of hoses and tools to prevent falls."
+  - "Check for allergies to seeds or plants before handling them, and wash hands afterward."
 stopNote: "It is fine to stop after one seed. Water what is planted, put the pot somewhere bright, and finish another day if you both want to."
 guides: [activities/outdoor-and-gardening, activities/early-stage, activities/middle-stage]
 related: [decorate-a-plant-pot, arrange-flowers-together, paint-a-garden-stone, make-a-pine-cone-bird-feeder]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing, small parts, falls."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

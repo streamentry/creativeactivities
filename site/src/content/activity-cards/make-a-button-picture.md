@@ -74,7 +74,13 @@ stopNote: "It is fine to stop after one or two buttons. Count the loose ones awa
 guides: [activities/arts-and-crafts, activities/sensory, activities/middle-stage]
 related: [tear-paper-mosaic, make-a-texture-board, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for small parts, glue or tape, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

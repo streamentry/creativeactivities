@@ -279,6 +279,7 @@
   display: inline-flex;
   align-items: center;
   min-height: var(--target-min);
+  overflow-wrap: anywhere;
   font-size: var(--text-md);
 }
 .footer-note {
@@ -846,7 +847,7 @@
   }
   .article-aside {
     position: sticky;
-    top: var(--space-lg);
+    top: var(--header-clear, 7rem);
   }
 }
 .aside-box {
@@ -1693,4 +1694,15 @@ summary {
     outline: 3px solid Highlight;
     outline-offset: 2px;
   }
+}
+
+/* Evidence labels beside benefit sentences (TSA-031) and the evidence table. */
+.evidence-label {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--gm-on-surface-variant);
+}
+
+.evidence-label a {
+  color: var(--gm-secondary);
 }

@@ -32,6 +32,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    env:
+      # check-site and check-budget read all ~15,700 built pages; the default
+      # Node heap runs out (seen locally on 2026-11-15).
+      NODE_OPTIONS: --max-old-space-size=6144
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6
@@ -49,6 +53,12 @@ jobs:
         run: pnpm exec astro build
       - name: Check pages, links, metadata and claims wording
         run: pnpm exec node scripts/check-site.mjs
+      - name: Page weight budget (WEB-074)
+        run: pnpm exec node scripts/check-budget.mjs
+      - name: Install Playwright Chromium for accessibility checks
+        run: pnpm exec playwright install --with-deps chromium
+      - name: Accessibility checks (axe, reflow, zoom, motion, Rest on every game)
+        run: pnpm check:a11y
       - name: Keep the checked build for the deploy job
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v7

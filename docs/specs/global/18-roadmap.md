@@ -100,7 +100,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-002 | P1 | new | Describe your situation |
 | WEB-003 | P1 | new | Site search with care and family language |
 | WEB-004 | P1 | partial | Why it fits, and a lower-effort option |
-| WEB-005 | P1 | new | Finder state in the URL |
+| WEB-005 | P1 | exists | Finder state in the URL |
 | WEB-006 | P1 | new | What I have mode |
 | WEB-007 | P2 | new | One idea right now |
 | WEB-008 | P1 | partial | Related cards by function |
@@ -108,20 +108,20 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-010 | P1 | ? | Facet browse pages |
 | WEB-013 | P1 | partial | Variation chips with an in-page switch |
 | WEB-015 | P0 | partial | No-ink, no-URL print version |
-| WEB-016 | P0 | new | Versioned prints |
+| WEB-016 | P0 | partial | Versioned prints |
 | WEB-017 | P1 | new | Printable pack builder |
 | WEB-018 | P1 | new | Large-print editions |
 | WEB-019 | P1 | new | Picture-led card |
 | WEB-020 | P1 | new | Read-aloud |
 | WEB-023 | P0 | partial | Scope line on every page |
-| WEB-027 | P1 | new | Card changelog |
+| WEB-027 | P1 | partial | Card changelog |
 | WEB-028 | P1 | partial | Saved collections on the device |
-| WEB-029 | P0 | new | Data control on the device |
+| WEB-029 | P0 | exists | Data control on the device |
 | WEB-031 | P1 | partial | Weekly plan, printable |
 | WEB-032 | P1 | new | Paths |
 | WEB-033 | P2 | ? | Seasonal hubs and a "this season" calendar |
 | WEB-034 | P1 | new | Occasion hubs |
-| WEB-037 | P0 | partial | Zoom and small-screen reflow |
+| WEB-037 | P0 | exists | Zoom and small-screen reflow |
 | WEB-038 | P0 | partial | Works without JavaScript, within a page budget |
 | WEB-039 | P1 | new | Plain-language mode |
 | WEB-040 | P1 | new | Offline reading |
@@ -133,8 +133,8 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-051 | P1 | partial | Games filters |
 | WEB-052 | P1 | new | Printable partner on each game page |
 | WEB-053 | P1 | new | Difficulty without scores |
-| WEB-054 | P0 | new | Stop and rest on every game |
-| WEB-058 | P0 | new | Report a problem |
+| WEB-054 | P0 | partial | Stop and rest on every game |
+| WEB-058 | P0 | partial | Report a problem |
 | WEB-059 | P0 | partial | Intent hub template |
 | WEB-063 | P1 | exists | Sitemaps, IndexNow and llms.txt |
 | WEB-064 | P1 | partial | Answer-first summaries |
@@ -334,7 +334,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-1002 | P0 | new | Trauma-informed defaults |
 | CNT-1003 | P0 | partial | Crisis route by country (UK, Ireland, US checked; others unverified) |
 | CNT-1004 | P0 | new | Reviewer roles and review record |
-| CNT-1020 | P1 | new | Referral guides |
+| CNT-1020 | P1 | partial | Referral guides |
 
 #### Community and UGC (11)
 
@@ -452,41 +452,41 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-003 | P0 | partial | Zoom, reflow, motion and timing |
 | TSA-004 | P0 | partial | Keyboard, focus and drag alternatives |
 | TSA-005 | P1 | partial | Color, contrast and text alternatives |
-| TSA-006 | P1 | new | Flashing and motion in games |
-| TSA-007 | P1 | new | Accessibility statement and feedback route |
+| TSA-006 | P1 | partial | Flashing and motion in games |
+| TSA-007 | P1 | partial | Accessibility statement and feedback route |
 | TSA-008 | P1 | new | Plain-language standard |
-| TSA-009 | P1 | new | Accessibility regression tests in CI |
+| TSA-009 | P1 | exists | Accessibility regression tests in CI |
 | TSA-010 | P0 | partial | No accounts for the core product |
-| TSA-011 | P0 | new | Data and tracker inventory |
+| TSA-011 | P0 | partial | Data and tracker inventory |
 | TSA-013 | P0 | new | Special-category data posture (GDPR Article 9) |
 | TSA-014 | P1 | new | Consent for non-essential storage |
 | TSA-015 | P0 | partial | Photos stay on the device |
-| TSA-016 | P1 | new | Retention, deletion and data requests |
+| TSA-016 | P1 | partial | Retention, deletion and data requests |
 | TSA-017 | P1 | new | Privacy notice and store privacy labels |
 | TSA-019 | P0 | new | No ads or ad technology on child-reachable pages |
 | TSA-020 | P0 | new | UK Age Appropriate Design Code assessment |
 | TSA-021 | P0 | new | Children in media |
 | TSA-022 | P1 | new | Parenting content boundaries |
 | TSA-023 | P0 | partial | Standard safety vocabulary and fields |
-| TSA-024 | P0 | new | Supervision and food-as-material rules |
+| TSA-024 | P0 | partial | Supervision and food-as-material rules |
 | TSA-025 | P1 | partial | Stop-and-switch note |
 | TSA-026 | P1 | partial | Scope statement on each card |
-| TSA-027 | P0 | new | Crisis route on activities that invite disclosure |
-| TSA-029 | P0 | new | No cognitive or brain-training outcome claims |
-| TSA-030 | P0 | new | Art therapy boundary |
+| TSA-027 | P0 | partial | Crisis route on activities that invite disclosure |
+| TSA-029 | P0 | exists | No cognitive or brain-training outcome claims |
+| TSA-030 | P0 | partial | Art therapy boundary |
 | TSA-031 | P1 | partial | Evidence labels next to benefit sentences |
-| TSA-032 | P1 | new | Store, partner and marketing copy under the same policy |
+| TSA-032 | P1 | partial | Store, partner and marketing copy under the same policy |
 | TSA-033 | P0 | partial | Editorial policy and roles |
 | TSA-036 | P1 | new | Review cadence |
-| TSA-037 | P1 | new | AI-assistance disclosure |
+| TSA-037 | P1 | partial | AI-assistance disclosure |
 | TSA-039 | P1 | new | Moderation and review integrity for user content |
 | TSA-040 | P1 | new | Platform law check for user content |
 | TSA-041 | P0 | partial | Security headers and content security policy |
-| TSA-042 | P1 | new | Third-party scripts, fonts and subresource integrity |
-| TSA-043 | P1 | new | Secrets and dependencies |
+| TSA-042 | P1 | partial | Third-party scripts, fonts and subresource integrity |
+| TSA-043 | P1 | partial | Secrets and dependencies |
 | TSA-044 | P1 | new | Forms: anti-abuse without heavy CAPTCHA |
-| TSA-046 | P0 | new | Privacy and security breach process |
-| TSA-047 | P1 | new | Safety report route |
+| TSA-046 | P0 | partial | Privacy and security breach process |
+| TSA-047 | P1 | partial | Safety report route |
 | TSA-048 | P0 | partial | Transparency pages set |
 | TSA-049 | P1 | new | Sponsorship and partner disclosure |
 

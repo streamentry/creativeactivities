@@ -52,6 +52,18 @@ export const withdrawnSchema = z.object({
 });
 
 /**
+ * One entry in the card's changelog (WEB-027). Only changes to materials, steps, safety
+ * or the pictures that show them are listed; cosmetic edits are not. Written by hand
+ * from the editorial history, with the date the change went live.
+ */
+export const changeSchema = z.object({
+  date: z.coerce.date(),
+  /** A safety change is labelled, and a printed copy from before its date may not show it. */
+  safety: z.boolean().default(false),
+  note: z.string().min(20).max(200),
+});
+
+/**
  * The credentialed review record (TSA-034). It exists only when a named
  * person has checked the card and agreed to be named. The page shows only
  * what this record says.
@@ -113,10 +125,17 @@ export const activityCardSchema = z
     author: z.string(),
     /** Step photos or illustrations (WEB-012). Empty until real images exist. */
     images: z.array(activityImageSchema).max(6).default([]),
+    /** What changed and when, oldest first (WEB-027). The page shows the last three. */
+    changes: z.array(changeSchema).max(12).default([]),
     /** Set when the card is unsafe or wrong; hides it from every listing (TSA-045). */
     withdrawn: withdrawnSchema.optional(),
     /** Absent until a named, credentialed person has reviewed the card (TSA-034). */
     review: reviewSchema.optional(),
+    /**
+     * Shows the crisis route on the page and on the printed card (TSA-027). Set on any card that invites
+     * talk about memories, feelings or grief. Tested in activity-safety.test.ts.
+     */
+    crisisRoute: z.boolean().default(false),
     sources: z
       .array(z.object({ title: z.string(), publisher: z.string(), url: z.string().url() }))
       .default([]),

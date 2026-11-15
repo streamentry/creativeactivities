@@ -53,6 +53,8 @@ Risks / not doing: Do not count a tester's answer to a survey as a usability tes
 ### TSA-003 · Zoom, reflow, motion and timing
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: a11y-check.mjs covers 320 px, 200% zoom (640 px) and 200% text on every template; no game is timed; the breathing game ends on its own after six breaths and can be stopped at any time with its stop button. Not done: manual tests at 320 px and 200% for each template.
+
 Why: Older users and people with low vision often use large text. Timed challenges exclude people who need more time [DESIGN §6].
 
 What: Content works at 200% text size and at 320px width without horizontal scrolling. Reduced-motion settings are honored everywhere. No game is timed by default. Where a timer exists, the user can turn it off or extend it (WCAG 2.2.1). The app's picture matching has no timer or score (baseline).
@@ -67,6 +69,8 @@ Risks / not doing: Do not add a score or streak to make a game feel finished [R4
 
 ### TSA-004 · Keyboard, focus and drag alternatives
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: keyboard pass on every template and game in a11y-check.mjs; sorting and puzzle use tap-then-tap, not drag (site/src/lib/games/games.test.ts covers the tap alternatives). Not done: focus contrast check on every background.
 
 Why: Keyboard and switch users can only use what they can reach and see. The sorting, puzzle and picture-matching games need drag-free paths [DESIGN §6; R4 §5].
 
@@ -83,6 +87,8 @@ Risks / not doing: Do not hide a control behind hover.
 ### TSA-005 · Color, contrast and text alternatives
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: axe color-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
+
 Why: Instructions must not depend on color. Instructional images need text alternatives [DESIGN §6; SEO.md §5.2].
 
 What: Color is never the only cue. Palette tokens are checked for text and non-text contrast. Every instructional image has a text alternative, and every essential video has captions and a transcript.
@@ -96,7 +102,9 @@ Depends on: [DESIGN §2](../../../DESIGN.md) palette validation.
 Risks / not doing: Do not write alt text that repeats the keywords.
 
 ### TSA-006 · Flashing and motion in games
-Priority P1 · Phase S2 · Status new · Pillars: PLAY
+Priority P1 · Phase S2 · Status partial · Pillars: PLAY
+
+Evidence: no flashing content found in site/src/styles/games.css or game components; the breathing circle has no reduced-motion transform and its words carry the cue; a11y-check.mjs fails on looping animation under reduced motion. Not done: a flash analyzer run on each game and animation.
 
 Why: Flashing content can trigger seizures, and the games use motion [R4 §5].
 
@@ -110,7 +118,9 @@ Depends on: TSA-003.
 Risks / not doing: Do not add motion to make a game "feel alive" at the cost of calm.
 
 ### TSA-007 · Accessibility statement and feedback route
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: site/src/pages/accessibility.astro states the tested pages and tools, dated known issues, a reporting route (mailto link checked by a11y-check.mjs) and a response target marked as a proposal. Not done: maintainer to confirm the address is monitored and the response target.
 
 Why: Users need a way to report barriers, and the European Accessibility Act sets duties for some services from 28 June 2025 [R5 §5.4]. The free site is probably outside the core scope, but the statement is cheap and builds trust.
 
@@ -139,7 +149,9 @@ Depends on: [content library](06-content-library.md) editorial process.
 Risks / not doing: Do not simplify so far that a safety instruction loses meaning.
 
 ### TSA-009 · Accessibility regression tests in CI
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
+
+Evidence: CI step "Accessibility checks" in .github/workflows/site.yaml runs site/scripts/a11y-check.mjs after the build; any violation fails the job and the log lists the result for each template and game.
 
 Why: Accessibility regresses silently when templates change.
 
@@ -171,7 +183,9 @@ Depends on: [business model](16-business-model.md).
 Risks / not doing: Do not add an account to enable sharing without a separate decision and a free path.
 
 ### TSA-011 · Data and tracker inventory
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `docs/specs/global/data-inventory.md` lists every storage key, cookie, event and outside origin in the website and app; `site/src/lib/data-inventory.test.ts` fails on any unlisted one. Maintainer sign-off and the GTM/GA4 decision are open (section 6).
 
 Why: Nobody can promise minimal data without a list. The web SEO strategy refers to GA4, while DESIGN §7 forbids third-party trackers, so the live state is unknown.
 
@@ -246,7 +260,9 @@ Depends on: [app features](04-features-app.md).
 Risks / not doing: Do not add cloud sync for photos without a separate privacy review and an explicit opt-in.
 
 ### TSA-016 · Retention, deletion and data requests
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: draft `docs/legal/retention-and-data-requests.md` (schedule, deletion routes, request log, owner TBD). Draft only; not approved, not in the privacy notice. Manual deletion runs not yet done.
 
 Why: Where personal data exists, people need controls [MISSION, "Privacy"].
 
@@ -360,6 +376,7 @@ Risks / not doing: Do not cite WHO or AAP limits as a product feature.
 
 ### TSA-023 · Standard safety vocabulary and fields
 Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/activity-safety.test.ts (vocabulary, flags on every card, small parts); reviewer names for "none identified" still needed.
 
 Why: Printed or app activities with small parts and no supervision line are a real harm [R2 §7]. The data model already has `safety_flags` and `supervision` fields [DESIGN §5].
 
@@ -374,7 +391,8 @@ Depends on: [DESIGN §5](../../../DESIGN.md), L10N-005.
 Risks / not doing: Do not write "safe" as a claim. Describe the flags.
 
 ### TSA-024 · Supervision and food-as-material rules
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/activity-safety.test.ts (edible materials carry ingestion and allergen flags; supervision line on small-part and edible cards); reviewer approval for edible materials is not recorded (no card has a review record).
 
 Why: A child, or an adult with reduced swallowing or cognitive capacity, may be at risk from small objects and food [R2 §7; DESIGN §5].
 
@@ -391,6 +409,8 @@ Risks / not doing: Do not describe food as therapeutic.
 ### TSA-025 · Stop-and-switch note
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: each card has a visible stop note ("It is okay to stop or change it", the card's `stopNote`) and `PAUSE_LINE` in `site/src/lib/scope.ts`, which names pain, distress and tiredness in plain words. It appears on the card and on the printable card. `site/scripts/check-site.mjs` requires it on every card. Not done: a native reviewer's tone check for each language (English only today).
+
 Why: No one should feel pressure to finish an activity [MISSION, "Consent"; DESIGN voice].
 
 What: Each activity has a visible stop note ("It is fine to stop") and the signs that suggest pausing (pain, distress, fatigue) in plain words. The note is not a medical instruction.
@@ -405,6 +425,8 @@ Risks / not doing: Do not frame stopping as failure.
 ### TSA-026 · Scope statement on each card
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: `SCOPE_LINE` in `site/src/lib/scope.ts` is shown in the card header, visible without a click, and on the printable card (`site/src/components/ActivityPrintCard.astro`). `site/scripts/check-site.mjs` fails the build if any card page lacks it. Its wording passes the claims lint (`site/src/lib/activity-changes.test.ts`). Not done: the wording has not been reviewed by a reviewer, and no translated locale has the line.
+
 Why: Adaptations are not medical advice, and visitors must see that on the page they use [MISSION; SEO.md §11.1].
 
 What: One sentence on each activity card and printable: the activity is for enjoyment and time together, adaptations are suggestions, and questions about health or safety go to a care team or professional.
@@ -417,7 +439,8 @@ Depends on: TSA-028.
 Risks / not doing: Do not bury the statement in a footer.
 
 ### TSA-027 · Crisis route on activities that invite disclosure
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE, TOGETHER
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE, TOGETHER
+Evidence: crisisRoute opt-in on 9 cards (site/src/content/activity-cards); ActivityView.astro and ActivityPrintCard.astro render CrisisRoute; activity-safety.test.ts. Per-locale route verification (L10N-009) still open.
 
 Why: An activity that invites personal memories, feelings or grief can surface distress without warning. R3 found no creative-activity site with a visible crisis route on its activity pages [R3 §6, §4.4].
 
@@ -452,7 +475,8 @@ Depends on: TSA-031, [L10N-007](13-localization.md).
 Risks / not doing: Do not allow the banned words in quoted third-party text without a note.
 
 ### TSA-029 · No cognitive or brain-training outcome claims
-Priority P0 · Phase S2 · Status new · Pillars: CARE, PLAY, CALM
+Priority P0 · Phase S2 · Status exists · Pillars: CARE, PLAY, CALM
+Evidence: site/src/lib/claims.test.ts covers English UI, game, ARB and store copy, with memory-exercise, brain-benefit and delays-decline rules; store copy passes.
 
 Why: Brain-training claims are the template for regulatory action [R4 §7, FTC action]. The plan says app copy must not claim anything about cognition, memory, agitation, sundowning, caregiver burden or disease course [plan README, claims].
 
@@ -466,7 +490,8 @@ Depends on: TSA-028.
 Risks / not doing: Do not use "mental acuity" wording, even if a regulator permits some wellness phrasing [R3 §7 on FDA wellness].
 
 ### TSA-030 · Art therapy boundary
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE
+Evidence: site/src/pages/art-therapy-and-creative-activities.astro (citations and "What we do not claim"); trust-routes.test.ts. Credentialed reviewer records still needed (TSA-034).
 
 Why: Art therapy is a credentialed clinical profession [MISSION; R3 §7]. Crafts sold as therapy create false trust.
 
@@ -481,6 +506,7 @@ Risks / not doing: Do not market a credential we have not verified.
 
 ### TSA-031 · Evidence labels next to benefit sentences
 Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/evidence-labels.ts and evidence-labels.test.ts; labels on FAQ benefit answers; table on /editorial-policy/#evidence. Ratings are proposed and need a reviewer; only FAQ sentences are covered so far.
 
 Why: Honest evidence labels build trust, and no app R3 reviewed showed the strength of evidence next to its claim [R3 §6].
 
@@ -494,7 +520,8 @@ Depends on: [research 03](research/03-art-therapy-wellbeing.md).
 Risks / not doing: Do not promote a weak finding to a claim.
 
 ### TSA-032 · Store, partner and marketing copy under the same policy
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/lib/claims.test.ts scans metadata/app-store.en-US.json, google-play.en-US.json and en-US text files (no violations). Partner sheets and per-submission check remain manual.
 
 Why: Store copy is read as the app's intended purpose, and partner sheets are read as endorsements [R3 §7; plan README].
 
@@ -576,7 +603,8 @@ Depends on: TSA-033.
 Risks / not doing: Do not refresh a date without a substantive review.
 
 ### TSA-037 · AI-assistance disclosure
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: site/src/i18n/ui/en.json pages.editorial "How AI is used"; trust-routes.test.ts. Per-page AI use log (editorial record) not yet kept.
 
 Why: AI assistance does not count as human testing [SEO.md §5.3]. Generated steps or images presented as verified are misleading.
 
@@ -647,6 +675,8 @@ Risks / not doing: Do not rely on this summary as legal advice.
 ### TSA-041 · Security headers and content security policy
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: `site/src/lib/security-headers.test.ts`; `site/public/_headers` drops `unsafe-inline` from script-src (19 build hashes listed, checked by `site/scripts/check-site.mjs`); live headers read 2026-11-15 in `docs/specs/global/security-scans.md`. Re-scan after deploy; style-src still needs `unsafe-inline`.
+
 Why: A public site is a target, and the headers are cheap protection. The user's security rule requires a production CSP and listed headers.
 
 What: Check `site/public/_headers` against the target headers: HTTPS with HSTS, `X-Content-Type-Options: nosniff`, frame protection, a strict `Referrer-Policy`, a `Permissions-Policy` that denies camera, microphone and geolocation, and a CSP. The CSP uses only the origins the site needs. For a static site, a hash-based CSP may fit better than per-request nonces. Choose one with the build team.
@@ -660,7 +690,9 @@ Depends on: TSA-042.
 Risks / not doing: Do not copy a CSP block unchanged. Adjust it to the site.
 
 ### TSA-042 · Third-party scripts, fonts and subresource integrity
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: fonts self-hosted (19 files in `dist/fonts`, no Google Fonts request); the one external script (GTM loader) has no SRI, reason recorded in `site/src/lib/data-inventory.test.ts` and `docs/specs/global/security-scans.md`. GTM on every page is an open maintainer decision.
 
 Why: Third-party scripts add risk and slow pages [DESIGN §7; user's security rule].
 
@@ -674,7 +706,9 @@ Depends on: TSA-011, TSA-041.
 Risks / not doing: Do not load a script for a feature that is not yet built.
 
 ### TSA-043 · Secrets and dependencies
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/lib/secrets.test.ts` scans all tracked files and signing-file names (no matches); `pnpm audit --prod` reported in `docs/specs/global/security-scans.md` (astro 7.4.0, patch upgrade recommended, not applied). Secret-manager storage and per-release scans need the maintainer.
 
 Why: Leaked keys and vulnerable packages are common failure paths.
 
@@ -731,7 +765,9 @@ Depends on: TSA-035, TSA-046.
 Risks / not doing: Do not wait for a full review before a warning goes up.
 
 ### TSA-046 · Privacy and security breach process
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: draft `docs/legal/breach-response-plan.md` (steps, owners TBD, log, templates marked not reviewed by counsel). Tabletop exercise not yet run.
 
 Why: Data breaches have statutory notice rules. Under GDPR, a notifiable breach must be reported to the supervisory authority within 72 hours where required (general knowledge; verify with counsel).
 
@@ -746,7 +782,8 @@ Depends on: TSA-011, TSA-043.
 Risks / not doing: Do not promise a timeline to users that counsel has not checked.
 
 ### TSA-047 · Safety report route
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence: ActivityView.astro byline and ActivityPrintCard.astro link to /corrections/#report-safety (check-site.mjs checks every activity and pack). Monitored address owner needs maintainer confirmation.
 
 Why: Readers must be able to report an unsafe instruction from the page they are reading.
 
@@ -765,6 +802,8 @@ Risks / not doing: Do not route safety reports into a general feedback box.
 
 ### TSA-048 · Transparency pages set
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `site/src/components/Footer.astro` has a Transparency column linking the set; `site/src/lib/transparency.test.ts`. Still open: `/support/` and `/corrections/` have no page date; no business and funding statement (not written, the business model does not settle it).
 
 Why: Trust is the Definition of #1 [README]. Readers need to find who runs the site, how it is paid for, how content is checked and how to complain.
 

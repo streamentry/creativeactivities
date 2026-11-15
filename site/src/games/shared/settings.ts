@@ -1,10 +1,11 @@
 import { createStore, useSelector } from '@tanstack/react-store';
+import { PLAY_SETTINGS_KEY } from '../../lib/display-settings';
 
 export interface PlaySettings {
   sound: boolean;
 }
 
-const KEY = 'gm-play-settings';
+const KEY = PLAY_SETTINGS_KEY;
 const DEFAULTS: PlaySettings = { sound: false };
 
 function load(): PlaySettings {

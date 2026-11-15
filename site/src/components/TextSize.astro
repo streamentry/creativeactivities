@@ -30,7 +30,7 @@ const t = ui(lang);
 <script>
   // Per-viewer convenience only: the choice lives in this browser. Every read
   // and write is guarded, so the site works with storage blocked.
-  const KEY = 'gm-text-size';
+  import { CONTRAST_KEY, TEXT_SIZE_KEY as KEY } from '../lib/display-settings';
   const root = document.documentElement;
 
   function apply(size: 'standard' | 'large') {
@@ -58,7 +58,6 @@ const t = ui(lang);
   }
 
   // Higher contrast deepens the gold used for text and links (6.3:1 to 8.7:1).
-  const CONTRAST_KEY = 'gm-contrast';
   function contrastSaved(): boolean {
     try {
       return localStorage.getItem(CONTRAST_KEY) === 'high';

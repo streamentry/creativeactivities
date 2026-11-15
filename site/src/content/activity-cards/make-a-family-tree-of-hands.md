@@ -11,6 +11,7 @@ cost: low
 mess: low
 energy: low
 supervision: nearby
+crisisRoute: true
 settings: [tabletop, seated]
 groups: [one-to-one, small-group, intergenerational]
 materials:
@@ -73,7 +74,13 @@ stopNote: "It is fine to stop after one hand. Add more names whenever family vis
 guides: [activities/arts-and-crafts, activities/visiting, activities/holidays, activities/group-art-activities]
 related: [make-a-memory-collage, start-a-family-recipe-book, make-a-greeting-card]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, glue or tape."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

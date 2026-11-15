@@ -52,14 +52,27 @@ const columns = [
   {
     title: f.about,
     links: [
-      ['/about/', f.approach],
-      ['/editorial-policy/', f.howWeWrite],
       ['/for-organizations/', f.organizations],
       ['/app/', f.app],
       ['/help/', f.appHelp + en],
-      ['/support/', f.support + en],
       ['/art-therapy-and-creative-activities/', f.artTherapyBoundary + en],
+    ],
+  },
+  // TSA-048: one set of pages that say who runs the site, how content is checked,
+  // how data is handled and how to complain.
+  {
+    title: f.transparency,
+    links: [
+      ['/about/', f.approach],
+      ['/editorial-policy/', f.howWeWrite],
       ['/corrections/', f.corrections + en],
+      ['/safety/', f.safety + en],
+      ['/accessibility/', f.accessibility + en],
+      ['/privacy/', f.sitePrivacy + en],
+      ['/your-data/', f.yourData + en],
+      ['/terms/', f.terms + en],
+      ['/support/', f.support + en],
+      ['/corrections/#report-a-problem', f.reportProblem + en],
     ],
   },
   {

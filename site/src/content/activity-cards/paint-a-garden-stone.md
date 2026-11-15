@@ -74,7 +74,13 @@ stopNote: "It is fine to stop after one color. A plain painted stone looks good 
 guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/drawing-and-painting-to-relax]
 related: [decorate-a-plant-pot, plant-seeds-in-a-pot, paint-with-watercolors]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, small parts."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

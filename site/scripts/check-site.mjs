@@ -63,6 +63,15 @@ const headerRules = existsSync(join(DIST, '_headers'))
 const strictPolicy = (urlPath) =>
   headerRules.some((r) => r.pattern.test(urlPath) && /connect-src 'self';/.test(r.headers) && !/google/.test(r.headers));
 
+// TSA-041: the header policy must not allow scripts with 'unsafe-inline', and every
+// inline script hash that Astro writes into a page's meta CSP must also be listed in
+// the header, because browsers apply both policies and the header would block it.
+const sitePolicy = headerRules.find((r) => r.pattern.test('/'))?.headers.match(/Content-Security-Policy: ([^\n]*)/)?.[1] ?? '';
+const siteScripts = sitePolicy.match(/script-src [^;]*/)?.[0] ?? '';
+if (!sitePolicy) err('_headers', 'no Content-Security-Policy on the site-wide rule');
+if (/'unsafe-inline'/.test(siteScripts)) err('_headers', "script-src allows 'unsafe-inline'");
+const headerScriptHashes = new Set(siteScripts.match(/'sha256-[^']+'/g) ?? []);
+
 // Words a translation must not use for people living with dementia ("patients"):
 // errors where a language has been cleaned, warnings where it has not.
 const PATIENT_WORDS = {
@@ -115,6 +124,15 @@ function text(html) {
     .replace(/\s+/g, ' ');
 }
 
+// WEB-023 and TSA-026: the approved scope note is in the footer of every English page, and each
+// card (and its printable) repeats the card scope line and the stop-and-switch note (TSA-025).
+const SCOPE_NOTE = JSON.parse(readFileSync(new URL('../src/i18n/ui/en.json', import.meta.url), 'utf8')).footer.note;
+const scopeSource = readFileSync(new URL('../src/lib/scope.ts', import.meta.url), 'utf8');
+const quoted = (name) => scopeSource.match(new RegExp(`export const ${name} =\\s*'([^']*)'`))?.[1] ?? '';
+const CARD_SCOPE_LINE = quoted('SCOPE_LINE');
+const PAUSE_LINE = quoted('PAUSE_LINE');
+if (!CARD_SCOPE_LINE || !PAUSE_LINE) err('src/lib/scope.ts', 'SCOPE_LINE or PAUSE_LINE not found');
+
 const titles = new Map();
 const descriptions = new Map();
 const indexable = [];
@@ -125,6 +143,10 @@ for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const path = pathFor(file);
   const is404 = rel === '404.html';
+  if (!is404 && !prefixIn(rel) && !html.includes(SCOPE_NOTE)) err(rel, 'missing the approved scope note in the footer (WEB-023)');
+  const cardPage = /^activity\/[^/]+\/index\.html$/.test(rel) && !html.includes('This activity has been withdrawn');
+  if (cardPage && !html.includes(CARD_SCOPE_LINE)) err(rel, 'card is missing its scope line (TSA-026)');
+  if (cardPage && !html.includes(PAUSE_LINE)) err(rel, 'card is missing the stop-and-switch note (TSA-025)');
 
   const title = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
   if (!title) err(rel, 'missing <title>');
@@ -147,16 +169,31 @@ for (const file of htmlFiles) {
   }
   if (!is404) descriptions.set(langKey + desc, [...(descriptions.get(langKey + desc) ?? []), rel]);
 
+  const pageCsp = html.match(/<meta http-equiv="content-security-policy" content="([^"]*)"/i)?.[1] ?? '';
+  // Only the page's script-src hashes matter here; style-src hashes are a separate directive.
+  const pageScripts = pageCsp.match(/script-src [^;]*/)?.[0] ?? '';
+  const missingHash = (pageScripts.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
+  if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
   const canonical = html.match(/<link rel="canonical" href="([^"]*)"/)?.[1];
+  // Only the robots meta counts: page scripts may mention "noindex" (the finder sets it for filter combinations).
+  const noindexMeta = /<meta name="robots" content="[^"]*noindex/.test(html);
   if (!is404) {
     if (canonical !== `${SITE}${path}`) err(rel, `canonical ${canonical} should be ${SITE}${path}`);
-    if (!/noindex/.test(html)) indexable.push(`${SITE}${path}`);
+    if (!noindexMeta) indexable.push(`${SITE}${path}`);
     else noindexed.push(`${SITE}${path}`);
     // A page that asks not to be indexed must not advertise language alternates.
-    if (/noindex/.test(html) && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    if (noindexMeta && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    // WEB-005: the finder's address with filters stays canonical to /activity/, and the finder is indexable.
+    if (path === '/activity/') {
+      if (noindexMeta) err(rel, 'the finder must be indexable; filter combinations are noindexed by script');
+      // The rule ships in the finder's bundled script, so read the files the page loads.
+      const bundles = [...html.matchAll(/<script[^>]+src="(\/[^"]+\.js)"/g)].map((m) => join(DIST, m[1].split('?')[0]));
+      const hasRule = bundles.some((file) => existsSync(file) && readFileSync(file, 'utf8').includes('noindex, follow'));
+      if (!hasRule) err(rel, 'the finder has no rule to noindex combinations of three or more fit filters');
+    }
 
     if (/(^|\/)games\/photo-pairs\/$/.test(path)) {
       if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, 'Photo pairs loads Google Analytics');
@@ -311,6 +348,49 @@ for (const [page, phrases] of Object.entries(LEGAL_PAGES)) {
   for (const phrase of phrases) if (!html.includes(phrase.replace(/’/g, "'"))) err(page, `legal page lost "${phrase}"`);
   const banned = text(html).match(LEGAL_BANNED);
   if (banned) err(page, `legal page says "${banned[0]}"`);
+}
+
+// Trust routes on every template (WEB-058, TSA-047, TSA-027, TSA-031). The footer carries the
+// problem report on every page; each activity and printed card carries the safety route; a card that
+// opts in to the crisis route shows it on its page and on its print pages.
+const crisisCards = new Set(
+  readdirSync(join(SRC, 'content/activity-cards'))
+    .filter((f) => f.endsWith('.md'))
+    .filter((f) => /^crisisRoute: true$/m.test(readFileSync(join(SRC, 'content/activity-cards', f), 'utf8')))
+    .map((f) => f.replace(/\.md$/, '')),
+);
+for (const file of htmlFiles) {
+  const rel = relative(DIST, file);
+  const html = readFileSync(file, 'utf8');
+  if (/<footer class="site-footer"/.test(html) && !html.includes('Report a problem')) err(rel, 'footer has no "Report a problem" link (WEB-058)');
+}
+const activityDir = join(DIST, 'activity');
+if (existsSync(activityDir)) {
+  for (const id of readdirSync(activityDir).filter((n) => statSync(join(activityDir, n)).isDirectory() && n !== 'packs')) {
+    const file = join(activityDir, id, 'index.html');
+    if (!existsSync(file)) continue;
+    const html = readFileSync(file, 'utf8');
+    if (!html.includes('Report a safety problem')) err(`activity/${id}/`, 'no "Report a safety problem" link (TSA-047)');
+    if (crisisCards.has(id) && !html.includes('class="notice crisis-route"')) err(`activity/${id}/`, 'opts in to the crisis route but shows none (TSA-027)');
+  }
+  const packDir = join(activityDir, 'packs');
+  if (existsSync(packDir)) {
+    for (const pack of readdirSync(packDir)) {
+      const file = join(packDir, pack, 'index.html');
+      if (!existsSync(file)) continue;
+      const html = readFileSync(file, 'utf8');
+      if (!html.includes('Report a safety problem')) err(`activity/packs/${pack}/`, 'printed cards have no safety report link (TSA-047)');
+      for (const id of crisisCards) {
+        if (html.includes(`/activity/${id}/`) && !html.includes('data-crisis-route')) err(`activity/packs/${pack}/`, `prints ${id} without the crisis route (TSA-027)`);
+      }
+    }
+  }
+}
+if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editorial-policy/index.html').includes('id="evidence"')) {
+  err('editorial-policy/', 'evidence table is missing (TSA-031)');
+}
+if (existsSync(join(DIST, 'faq/index.html')) && !readDist('faq/index.html').includes('class="evidence-label"')) {
+  err('faq/', 'benefit answers have no evidence label (TSA-031)');
 }
 
 for (const w of warnings) console.warn(`warn  ${w}`);

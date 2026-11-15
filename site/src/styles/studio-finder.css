@@ -450,3 +450,11 @@ html[data-contrast='high'] .finder .choice input:checked + span {
     border-color: CanvasText;
   }
 }
+
+/* Lower-effort option (WEB-004): one card beside the results, never the top result. */
+.finder__lower {
+  margin-block: var(--space-lg);
+}
+.finder__lower h2 {
+  font-size: var(--text-lg);
+}
