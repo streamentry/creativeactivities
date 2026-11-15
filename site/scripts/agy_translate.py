@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Translate the website into many languages with the Antigravity CLI (`agy`).
+"""Translate the website into many languages with Claude Haiku (default) or the Antigravity CLI (`agy`).
 
     python3 scripts/agy_translate.py status
     python3 scripts/agy_translate.py run  --kinds ui,games,play,guides [--langs is,ka] [--jobs 8]
@@ -93,12 +93,17 @@ slots = threading.BoundedSemaphore(MAX_JOBS)
 
 
 _rr = itertools.count()
-BACKENDS = ['agy', 'opencode']  # primary pool
+# Default translator (maintainer decision, 2026-11-15): Claude Haiku through the Claude Code CLI,
+# run headless with no tools. `--backends agy,opencode` brings back the earlier pool and fallbacks.
+HAIKU_MODEL = 'claude-haiku-5-5'
+HAIKU_SYSTEM = 'You are a professional website localizer. Output only the requested translation, in the requested format, with no commentary.'
+BACKENDS = ['haiku']  # primary pool
 # Fallbacks: join the pool only while 'opencode' is rate-limited; once opencode's health check
 # passes they drop out again. The two *free* models are separate quota buckets from the paid
 # opencode-go and explabs ones, and are DeepSeek / GLM flash models of comparable quality.
-FALLBACKS = ['iceman', 'deepseek', 'dsfree', 'glmfree']
-ALL_BACKENDS = ['agy', 'opencode', *FALLBACKS]
+FALLBACKS: list[str] = []
+LEGACY_FALLBACKS = ['iceman', 'deepseek', 'dsfree', 'glmfree']
+ALL_BACKENDS = ['haiku']
 OPENCODE_MODEL = 'opencode-go/claude-haiku-5-5'
 DEEPSEEK_MODEL = 'explabs/deepseek-v4.1-flash'
 DEEPSEEK_FREE_MODEL = 'opencode/deepseek-v4.1-flash-free'
@@ -107,6 +112,14 @@ ICEMAN_MODEL = 'opencode-go/iceman-contributor-free'
 MODEL_FOR = {'opencode': OPENCODE_MODEL, 'deepseek': DEEPSEEK_MODEL, 'dsfree': DEEPSEEK_FREE_MODEL, 'glmfree': GLM_FREE_MODEL, 'iceman': ICEMAN_MODEL}
 
 FREE_BACKENDS = ['iceman', 'dsfree', 'glmfree']
+
+
+def configure_backends(names: list[str]) -> None:
+    """Use these backends; with agy/opencode the old free fallbacks join while opencode is limited."""
+    global BACKENDS, FALLBACKS, ALL_BACKENDS
+    BACKENDS = list(names)
+    FALLBACKS = list(LEGACY_FALLBACKS) if 'opencode' in names else []
+    ALL_BACKENDS = [*BACKENDS, *FALLBACKS]
 
 
 def configure_free_only() -> None:
@@ -186,6 +199,19 @@ def _run_opencode(argv: list[str], cwd: str, timeout: int) -> str:
 
 def _run(backend: str, prompt: str, cwd: str, timeout: int) -> str:
     """Run one backend; return the answer text or raise BackendError with a classified kind."""
+    if backend == 'haiku':
+        # Headless Claude Code: no tools, no saved session; the prompt goes on stdin.
+        argv = ['claude', '-p', '--model', HAIKU_MODEL, '--output-format', 'text', '--tools', '',
+                '--no-session-persistence', '--system-prompt', HAIKU_SYSTEM]
+        try:
+            r = subprocess.run(argv, input=prompt, capture_output=True, text=True, cwd=cwd, timeout=timeout)
+        except subprocess.TimeoutExpired:
+            raise BackendError('error', 'timeout')
+        answer = r.stdout.strip()
+        if r.returncode != 0 or not answer:
+            msg = ((r.stderr or '') + answer)[:300] or 'no output'
+            raise BackendError('quota' if QUOTA.search(msg) else 'auth' if AUTH.search(msg) else 'error', msg)
+        return r.stdout
     if backend == 'agy':
         argv = ['agy', '--model', MODEL, f'-p={prompt}']
     else:
@@ -629,11 +655,13 @@ def main():
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--guides', default='', help='comma-separated guide paths (section/slug); only these guides are considered')
     ap.add_argument('--free-only', action='store_true', help='use only free contributor/free-tier translation backends')
+    ap.add_argument('--backends', default='haiku', help='comma-separated: haiku (default), agy, opencode')
     ap.add_argument('--changed-since', default='', help='git ref: refresh only English strings and guides changed since then')
     ap.add_argument('--progress', default='', help='file recording finished refresh tasks (required with --changed-since)')
     a = ap.parse_args()
     if a.changed_since and not a.progress:
         ap.error('--changed-since needs --progress')
+    configure_backends([b.strip() for b in a.backends.split(',') if b.strip()])
     if a.free_only:
         configure_free_only()
     meta = locale_codes()
@@ -655,7 +683,7 @@ def main():
     finished = set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
     if a.changed_since:
         only_units = {k: changed_units(k, a.changed_since) for k in kinds if k != 'guides'}
-        rels = selected_guides or changed_guides(a.changed_since)
+        rels = guide_paths(selected_guides) if selected_guides else changed_guides(a.changed_since)
         todo = []
         for c in codes:  # language order from --langs, so the biggest languages can go first
             for k in kinds:
