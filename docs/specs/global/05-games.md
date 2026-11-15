@@ -24,7 +24,7 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 | GAME-003 | Shadow match | Match a shadow to its picture | Early and middle stages | Side by side | No | Yes | Labels | P1 | S2 | exists |
 | GAME-013 | Visible picture matching (app) | Native version of GAME-001 with 4 to 12 tiles, offline | Adults, all stages | Solo or side by side | Yes (app) | Yes | App text per language | P0 | S2 | exists |
 | GAME-014 | Hidden picture matching (app) | Face-down classic version, opt-in only, from the pack route | Adults who want the challenge | Solo or side by side | No | Yes | App text | P2 | S2 | exists. Recall needed, so never the default |
-| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | new |
+| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | partial. Website, English only (2026-11-15), reusing Four together's groups; per-language category review and a printed twin pending |
 | GAME-020 | Color match | Match pictures by color: a red apple and a red cup | Early stages; children 3+; low vision with high contrast | Side by side | Yes | Yes | None | P2 | S2 | new |
 | GAME-021 | Halves match | Tap the two halves of one picture that fit together | Early stages; children 3+ | Side by side | Yes | Yes | None | P2 | S2 | new |
 

@@ -23,6 +23,7 @@ import PicturePairs from '../games/PicturePairs';
 import FindTheSame from '../games/FindTheSame';
 import ShadowMatch from '../games/ShadowMatch';
 import FourTogether from '../games/FourTogether';
+import OddOneOut from '../games/OddOneOut';
 import SortTogether from '../games/SortTogether';
 import PicturePuzzle from '../games/PicturePuzzle';
 import FinishTheSaying from '../games/FinishTheSaying';
@@ -100,6 +101,7 @@ const photo = s === 'photo-pairs';
       {s === 'find-the-same' && <FindTheSame client:load {...play} />}
       {s === 'shadow-match' && <ShadowMatch client:load {...play} />}
       {s === 'four-together' && <FourTogether client:load {...play} />}
+      {s === 'odd-one-out' && <OddOneOut client:load {...play} />}
       {s === 'sort-together' && <SortTogether client:load {...play} />}
       {s === 'picture-puzzle' && <PicturePuzzle client:load {...play} />}
       {s === 'finish-the-saying' && <FinishTheSaying client:load {...play} />}

@@ -77,7 +77,7 @@ export function languageSection(s: LanguageSupport): string[] {
     `- Every language is indexable, has its own sitemap (all listed in ${s.siteUrl}/sitemap.xml) and declares hreflang alternates for the others, with English as x-default.`,
     `- In every language: ${s.everyLanguagePaths.join(', ')}, plus the game pages and translated guides.`,
     `- English only, linked from every language: ${s.englishOnlyPaths.join(', ')}.`,
-    `- Games: ${allGames} of ${s.rows.length} languages have all ${s.totalGames} games. A game is left out of a language rather than shown empty or invented (Word search needs an alphabet that suits a letter grid; Finish the saying needs genuine sayings in that language; Four together waits for a per-language review of its group names).`,
+    `- Games: ${allGames} of ${s.rows.length} languages have all ${s.totalGames} games. A game is left out of a language rather than shown empty or invented (Word search needs an alphabet that suits a letter grid; Finish the saying needs genuine sayings in that language; Four together and Odd one out wait for a per-language review of their group names).`,
     `- Guides: ${allGuides} of ${s.rows.length} languages have all ${s.totalGuides} guides.`,
     '- Language choice: a first visit to the English home page may open the language the browser prefers; a language picked in the menu is remembered and always wins.',
     '',

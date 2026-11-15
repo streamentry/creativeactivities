@@ -5,6 +5,7 @@ export type GameSlug =
   | 'find-the-same'
   | 'shadow-match'
   | 'four-together'
+  | 'odd-one-out'
   | 'sort-together'
   | 'picture-puzzle'
   | 'finish-the-saying'
@@ -221,6 +222,47 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'What are the groups?',
         a: 'Everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one group.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'odd-one-out',
+    name: 'Odd one out',
+    seoTitle: 'Odd One Out Picture Game for Adults',
+    h1: 'Odd One Out: a Relaxed Picture Game',
+    description:
+      'Three or four pictures, and all but one share a theme, such as fruit or weather. Tap the one that does not belong. Free, calm, no timer and no score.',
+    short: 'Spot the picture that does not belong with the others.',
+    cardPictures: ['apple', 'pear', 'bus'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people',
+    printable: false,
+    intro:
+      'Three or four pictures, and all but one go together: fruit, perhaps, or ways to travel. Tap the picture that does not belong. If a picture does go with the others, the game simply says so and waits. After a quiet pause a hint names what the others share, and "Show me" points out the odd one at any time.',
+    howTo: [
+      'Choose three or four pictures. Three is the simplest.',
+      'Look at the pictures together and talk about what most of them have in common.',
+      'Tap the picture that does not belong. It gets a gold border and a check mark.',
+      'If a picture goes with the others, the game says so and waits. Take your time.',
+      'Tap "Show me" whenever you like, then "Another set" for new pictures.',
+    ],
+    tips: [
+      'Talk it through out loud: "The apple and the pear are both fruit. What about the bus?"',
+      'There is no rush. A hint naming the theme appears after a pause, and you can ignore it.',
+      'Any picture is a good start for a chat: a favorite fruit, a bus ride, a rainy day.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What happens if a picture that belongs is tapped?',
+        a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture, says it goes with the others, and waits for the next tap.',
+      },
+      {
+        q: 'How is the odd picture chosen?',
+        a: 'The pictures come from everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one theme, and the odd one always comes from a different theme.',
       },
       FREE_FAQ,
     ],
