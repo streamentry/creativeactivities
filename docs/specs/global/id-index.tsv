@@ -2,30 +2,30 @@ id	priority	phase	status	file	title
 WEB-001	P0	S1	exists	03-features-web.md	Activity finder
 WEB-002	P1	S2	new	03-features-web.md	Describe your situation
 WEB-003	P1	S2	new	03-features-web.md	Site search with care and family language
-WEB-004	P1	S2	partial	03-features-web.md	Why it fits, and a lower-effort option
+WEB-004	P1	S2	exists	03-features-web.md	Why it fits, and a lower-effort option
 WEB-005	P1	S2	exists	03-features-web.md	Finder state in the URL
 WEB-006	P1	S2	new	03-features-web.md	What I have mode
 WEB-007	P2	S2	new	03-features-web.md	One idea right now
-WEB-008	P1	S2	partial	03-features-web.md	Related cards by function
+WEB-008	P1	S2	exists	03-features-web.md	Related cards by function
 WEB-009	P1	S2	new	03-features-web.md	Pillar tiles and pillar hubs
 WEB-010	P1	S2	new	03-features-web.md	Facet browse pages
 WEB-011	P0	S1	partial	03-features-web.md	At-a-glance block with Start, Print and Save
 WEB-012	P0	S1	partial	03-features-web.md	Step photos or illustrations
-WEB-013	P1	S2	partial	03-features-web.md	Variation chips with an in-page switch
+WEB-013	P1	S2	exists	03-features-web.md	Variation chips with an in-page switch
 WEB-014	P0	S1	partial	03-features-web.md	One-page printable card
 WEB-015	P0	S2	partial	03-features-web.md	No-ink, no-URL print version
-WEB-016	P0	S2	partial	03-features-web.md	Versioned prints
+WEB-016	P0	S2	exists	03-features-web.md	Versioned prints
 WEB-017	P1	S2	new	03-features-web.md	Printable pack builder
 WEB-018	P1	S2	new	03-features-web.md	Large-print editions
 WEB-019	P1	S2	new	03-features-web.md	Picture-led card
 WEB-020	P1	S2	new	03-features-web.md	Read-aloud
 WEB-021	P2	S3	new	03-features-web.md	Short demo video per activity
 WEB-022	P0	S1	partial	03-features-web.md	Structured safety flags
-WEB-023	P0	S2	partial	03-features-web.md	Scope line on every page
+WEB-023	P0	S2	exists	03-features-web.md	Scope line on every page
 WEB-024	P0	S1	exists	03-features-web.md	It's fine to stop and "not today"
 WEB-025	P0	S1	partial	03-features-web.md	We tried this
 WEB-026	P0	S1	partial	03-features-web.md	This didn't fit
-WEB-027	P1	S2	partial	03-features-web.md	Card changelog
+WEB-027	P1	S2	exists	03-features-web.md	Card changelog
 WEB-028	P1	S2	partial	03-features-web.md	Saved collections on the device
 WEB-029	P0	S2	exists	03-features-web.md	Data control on the device
 WEB-030	P2	S3	new	03-features-web.md	Account-optional sync
@@ -36,7 +36,7 @@ WEB-034	P1	S2	new	03-features-web.md	Occasion hubs
 WEB-035	P0	S1	exists	03-features-web.md	Large text, high contrast and reduced motion
 WEB-036	P0	S1	partial	03-features-web.md	Keyboard, focus and screen reader on every template
 WEB-037	P0	S2	exists	03-features-web.md	Zoom and small-screen reflow
-WEB-038	P0	S2	partial	03-features-web.md	Works without JavaScript, within a page budget
+WEB-038	P0	S2	exists	03-features-web.md	Works without JavaScript, within a page budget
 WEB-039	P1	S2	new	03-features-web.md	Plain-language mode
 WEB-040	P1	S2	new	03-features-web.md	Offline reading
 WEB-041	P3	S3	partial	03-features-web.md	Installable web app
@@ -52,7 +52,7 @@ WEB-050	P1	S2	new	03-features-web.md	Share a card
 WEB-051	P1	S2	partial	03-features-web.md	Games filters
 WEB-052	P1	S2	new	03-features-web.md	Printable partner on each game page
 WEB-053	P1	S2	new	03-features-web.md	Difficulty without scores
-WEB-054	P0	S2	partial	03-features-web.md	Stop and rest on every game
+WEB-054	P0	S2	exists	03-features-web.md	Stop and rest on every game
 WEB-055	P0	S1	exists	03-features-web.md	Family photos stay on the device
 WEB-056	P0	S1	exists	03-features-web.md	Structured data that matches visible content
 WEB-057	P0	S1	partial	03-features-web.md	Byline and reviewer block
@@ -73,7 +73,7 @@ WEB-071	P1	S2	new	03-features-web.md	Email digest, opt-in only
 WEB-072	P0	S2	new	03-features-web.md	Child-facing pages rule
 WEB-073	P0	S2	new	03-features-web.md	Image consent and rights log
 WEB-074	P0	S1	partial	03-features-web.md	Performance budget
-WEB-075	P0	S2	partial	03-features-web.md	Accessibility tests in CI
+WEB-075	P0	S2	exists	03-features-web.md	Accessibility tests in CI
 WEB-076	P1	S2	new	03-features-web.md	Due-for-review queue
 APP-014	P0	S2	new	04-features-app.md	App-to-website handoff: every activity links to its full guide
 APP-018	P0	S2	partial	04-features-app.md	Screen-reader-first activity reading
@@ -107,7 +107,7 @@ APP-023	P2	S2	new	04-features-app.md	Optional haptics
 APP-024	P3	S2	partial	04-features-app.md	Dark theme after contrast check
 APP-027	P3	S3	new	04-features-app.md	Adult-set child mode
 APP-028	P2	S2	new	04-features-app.md	One-switch and keyboard play
-APP-032	P2	S3	?	04-features-app.md	Read-aloud for cards
+APP-032	P2	S3	new	04-features-app.md	Read-aloud for cards
 APP-033	P3	S3	new	04-features-app.md	Printable "what we did" log
 APP-035	P3	S3	new	04-features-app.md	Opt-in aggregate counts
 GAME-001	P0	S2	exists	05-games.md	Picture pairs
@@ -202,68 +202,68 @@ CNT-707	P1	S2	exists	07-pillar-crafting.md	Nature crafts
 CNT-708	P2	S2	exists	07-pillar-crafting.md	Printmaking
 CNT-709	P1	S2	exists	07-pillar-crafting.md	Recycled and upcycled
 CNT-710	P1	S2	exists	07-pillar-crafting.md	Card-making
-CNT-711	P3	S3	?	07-pillar-crafting.md	Beads and jewellery
+CNT-711	P3	S3	new	07-pillar-crafting.md	Beads and jewellery
 CNT-712	P2	S2	exists	07-pillar-crafting.md	Woodless simple construction
 CNT-713	P1	S2	exists	07-pillar-crafting.md	Seasonal and holiday, across cultures
 CNT-714	P2	S2	exists	07-pillar-crafting.md	Photography and phone crafts
 CNT-715	P2	S2	exists	07-pillar-crafting.md	Writing and bookmaking
 CNT-716	P2	S2	exists	07-pillar-crafting.md	Music-making with household items
-CNT-810	P1	S3	?	08-pillar-parenting-kids.md	Sensory play
+CNT-810	P1	S3	partial	08-pillar-parenting-kids.md	Sensory play
 CNT-811	P2	S3	exists	08-pillar-parenting-kids.md	Art and craft (GROW versions)
-CNT-812	P2	S3	?	08-pillar-parenting-kids.md	Pretend play
-CNT-813	P2	S3	?	08-pillar-parenting-kids.md	Outdoor play
-CNT-814	P2	S3	?	08-pillar-parenting-kids.md	Music and movement
-CNT-815	P2	S3	?	08-pillar-parenting-kids.md	Early literacy and numeracy through play
-CNT-816	P2	S3	?	08-pillar-parenting-kids.md	Science-ish making
-CNT-817	P2	S3	?	08-pillar-parenting-kids.md	Calm-down activities
-CNT-818	P2	S3	?	08-pillar-parenting-kids.md	Rainy-day and indoor
-CNT-819	P2	S3	?	08-pillar-parenting-kids.md	Travel and waiting-room
-CNT-820	P1	S3	?	08-pillar-parenting-kids.md	Screen-free swaps
-CNT-800	P0	S3	?	08-pillar-parenting-kids.md	GROW pillar rules and gate
-CNT-801	P0	S2	?	08-pillar-parenting-kids.md	Age bands and choking rule
-CNT-830	P1	S3	?	08-pillar-parenting-kids.md	Choose-your-level adaptations
-CNT-840	P1	S3	?	08-pillar-parenting-kids.md	Co-play roles
-CNT-850	P0	S2	?	08-pillar-parenting-kids.md	Safety rules for GROW
-CNT-860	P2	S3	?	08-pillar-parenting-kids.md	School and early-years programme
-CNT-870	P1	S2	?	08-pillar-parenting-kids.md	Intergenerational and remote versions
-CNT-880	P0	S2	?	08-pillar-parenting-kids.md	Privacy and design constraints
-CNT-890	P0	S3	?	08-pillar-parenting-kids.md	Child-facing gate
-CNT-930	P0	S2	?	09-pillar-older-adults-dementia.md	Home, with family
-CNT-931	P1	S2	?	09-pillar-older-adults-dementia.md	Living alone
-CNT-932	P1	S2	?	09-pillar-older-adults-dementia.md	Care home
-CNT-933	P1	S2	?	09-pillar-older-adults-dementia.md	Hospital and bedside
-CNT-934	P2	S2	?	09-pillar-older-adults-dementia.md	Day centre
-CNT-935	P1	S2	?	09-pillar-older-adults-dementia.md	Remote family
-CNT-920	P1	S2	?	09-pillar-older-adults-dementia.md	Reminiscence (non-quiz)
-CNT-921	P1	S2	?	09-pillar-older-adults-dementia.md	Music
-CNT-922	P2	S2	?	09-pillar-older-adults-dementia.md	Nature
-CNT-923	P2	S2	?	09-pillar-older-adults-dementia.md	Household tasks with purpose
-CNT-924	P1	S2	?	09-pillar-older-adults-dementia.md	Art (adult, seated)
-CNT-925	P1	S2	?	09-pillar-older-adults-dementia.md	Sensory
-CNT-926	P2	S2	?	09-pillar-older-adults-dementia.md	Faith and culture
-CNT-927	P2	S2	?	09-pillar-older-adults-dementia.md	Movement
-CNT-928	P1	S2	?	09-pillar-older-adults-dementia.md	Conversation
-CNT-901	P0	S2	?	09-pillar-older-adults-dementia.md	1
-CNT-902	P1	S2	?	09-pillar-older-adults-dementia.md	2
-CNT-903	P0	S2	?	09-pillar-older-adults-dementia.md	3
-CNT-904	P1	S2	?	09-pillar-older-adults-dementia.md	4
-CNT-905	P1	S2	?	09-pillar-older-adults-dementia.md	5
-CNT-906	P2	S2	?	09-pillar-older-adults-dementia.md	6
+CNT-812	P2	S3	new	08-pillar-parenting-kids.md	Pretend play
+CNT-813	P2	S3	partial	08-pillar-parenting-kids.md	Outdoor play
+CNT-814	P2	S3	new	08-pillar-parenting-kids.md	Music and movement
+CNT-815	P2	S3	new	08-pillar-parenting-kids.md	Early literacy and numeracy through play
+CNT-816	P2	S3	new	08-pillar-parenting-kids.md	Science-ish making
+CNT-817	P2	S3	partial	08-pillar-parenting-kids.md	Calm-down activities
+CNT-818	P2	S3	partial	08-pillar-parenting-kids.md	Rainy-day and indoor
+CNT-819	P2	S3	new	08-pillar-parenting-kids.md	Travel and waiting-room
+CNT-820	P1	S3	partial	08-pillar-parenting-kids.md	Screen-free swaps
+CNT-800	P0	S3	partial	08-pillar-parenting-kids.md	GROW pillar rules and gate
+CNT-801	P0	S2	partial	08-pillar-parenting-kids.md	Age bands and choking rule
+CNT-830	P1	S3	new	08-pillar-parenting-kids.md	Choose-your-level adaptations
+CNT-840	P1	S3	partial	08-pillar-parenting-kids.md	Co-play roles
+CNT-850	P0	S2	partial	08-pillar-parenting-kids.md	Safety rules for GROW
+CNT-860	P2	S3	new	08-pillar-parenting-kids.md	School and early-years programme
+CNT-870	P1	S2	partial	08-pillar-parenting-kids.md	Intergenerational and remote versions
+CNT-880	P0	S2	partial	08-pillar-parenting-kids.md	Privacy and design constraints
+CNT-890	P0	S3	new	08-pillar-parenting-kids.md	Child-facing gate
+CNT-930	P0	S2	partial	09-pillar-older-adults-dementia.md	Home, with family
+CNT-931	P1	S2	partial	09-pillar-older-adults-dementia.md	Living alone
+CNT-932	P1	S2	partial	09-pillar-older-adults-dementia.md	Care home
+CNT-933	P1	S2	partial	09-pillar-older-adults-dementia.md	Hospital and bedside
+CNT-934	P2	S2	partial	09-pillar-older-adults-dementia.md	Day centre
+CNT-935	P1	S2	partial	09-pillar-older-adults-dementia.md	Remote family
+CNT-920	P1	S2	partial	09-pillar-older-adults-dementia.md	Reminiscence (non-quiz)
+CNT-921	P1	S2	partial	09-pillar-older-adults-dementia.md	Music
+CNT-922	P2	S2	partial	09-pillar-older-adults-dementia.md	Nature
+CNT-923	P2	S2	partial	09-pillar-older-adults-dementia.md	Household tasks with purpose
+CNT-924	P1	S2	partial	09-pillar-older-adults-dementia.md	Art (adult, seated)
+CNT-925	P1	S2	partial	09-pillar-older-adults-dementia.md	Sensory
+CNT-926	P2	S2	new	09-pillar-older-adults-dementia.md	Faith and culture
+CNT-927	P2	S2	partial	09-pillar-older-adults-dementia.md	Movement
+CNT-928	P1	S2	partial	09-pillar-older-adults-dementia.md	Conversation
+CNT-901	P0	S2	partial	09-pillar-older-adults-dementia.md	1
+CNT-902	P1	S2	partial	09-pillar-older-adults-dementia.md	2
+CNT-903	P0	S2	partial	09-pillar-older-adults-dementia.md	3
+CNT-904	P1	S2	partial	09-pillar-older-adults-dementia.md	4
+CNT-905	P1	S2	partial	09-pillar-older-adults-dementia.md	5
+CNT-906	P2	S2	partial	09-pillar-older-adults-dementia.md	6
 CNT-907	P0	S2	new	09-pillar-older-adults-dementia.md	7
-CNT-908	P1	S2	?	09-pillar-older-adults-dementia.md	8
+CNT-908	P1	S2	partial	09-pillar-older-adults-dementia.md	8
 CNT-909	P0	S2	new	09-pillar-older-adults-dementia.md	9
-CNT-910	P1	S2	?	09-pillar-older-adults-dementia.md	10
-CNT-911	P2	S2	?	09-pillar-older-adults-dementia.md	11
+CNT-910	P1	S2	partial	09-pillar-older-adults-dementia.md	10
+CNT-911	P2	S2	partial	09-pillar-older-adults-dementia.md	11
 CNT-1010	P2	S2	new	10-pillar-creative-wellbeing.md	Calm drawing and doodling
-CNT-1011	P2	S2	?	10-pillar-creative-wellbeing.md	Colouring
-CNT-1012	P2	S2	?	10-pillar-creative-wellbeing.md	Collage
-CNT-1013	P2	S2	?	10-pillar-creative-wellbeing.md	Journaling (non-disclosure)
-CNT-1014	P2	S2	?	10-pillar-creative-wellbeing.md	Music for mood
-CNT-1015	P2	S2	?	10-pillar-creative-wellbeing.md	Nature art
-CNT-1016	P2	S2	?	10-pillar-creative-wellbeing.md	Gratitude crafts
+CNT-1011	P2	S2	partial	10-pillar-creative-wellbeing.md	Colouring
+CNT-1012	P2	S2	partial	10-pillar-creative-wellbeing.md	Collage
+CNT-1013	P2	S2	partial	10-pillar-creative-wellbeing.md	Journaling (non-disclosure)
+CNT-1014	P2	S2	partial	10-pillar-creative-wellbeing.md	Music for mood
+CNT-1015	P2	S2	partial	10-pillar-creative-wellbeing.md	Nature art
+CNT-1016	P2	S2	partial	10-pillar-creative-wellbeing.md	Gratitude crafts
 CNT-1017	P2	S2	new	10-pillar-creative-wellbeing.md	Grief and remembrance making
-CNT-1018	P2	S2	?	10-pillar-creative-wellbeing.md	Stress-relief making
-CNT-1019	P2	S2	?	10-pillar-creative-wellbeing.md	Creative routines
+CNT-1018	P2	S2	partial	10-pillar-creative-wellbeing.md	Stress-relief making
+CNT-1019	P2	S2	new	10-pillar-creative-wellbeing.md	Creative routines
 CNT-1000	P0	S2	new	10-pillar-creative-wellbeing.md	Art-therapy boundary policy
 CNT-1001	P0	S2	new	10-pillar-creative-wellbeing.md	Claim register and phrasing rules
 CNT-1002	P0	S2	new	10-pillar-creative-wellbeing.md	Trauma-informed defaults
@@ -294,7 +294,7 @@ COM-030	P0	S2	new	11-community-ugc.md	Accessible community features
 COM-019	P0	S2	new	11-community-ugc.md	Contributor credit and licence
 COM-020	P0	S2	new	11-community-ugc.md	Contributor guidelines and claim rules
 COM-021	P1	S2	new	11-community-ugc.md	Editorial review queue and roles
-COM-031	P0	S2	new	11-community-ugc.md	Suggest a correction on every activity
+COM-031	P0	S2	exists	11-community-ugc.md	Suggest a correction on every activity
 COM-022	P2	S3	new	11-community-ugc.md	Partner organisation pages ("Groups that use this")
 COM-023	P2	S3	new	11-community-ugc.md	Care-home coordinator feedback channel
 COM-024	P2	S2	new	11-community-ugc.md	My made list (private, on the device)
@@ -310,7 +310,7 @@ SEO-003	P0	S1	partial	12-search-geo-distribution.md	One URL contract
 SEO-004	P0	S1	partial	12-search-geo-distribution.md	Search consoles and a measurement baseline
 SEO-005	P0	S2	new	12-search-geo-distribution.md	Migrate from the old domain and old host
 SEO-006	P0	S2	partial	12-search-geo-distribution.md	Page-type rules and the canonical activity
-SEO-007	P0	S2	new	12-search-geo-distribution.md	No thin or programmatic pages
+SEO-007	P0	S2	partial	12-search-geo-distribution.md	No thin or programmatic pages
 SEO-008	P0	S2	partial	12-search-geo-distribution.md	Intent ownership map
 SEO-009	P0	S1	partial	12-search-geo-distribution.md	Dementia activities hub
 SEO-010	P0	S1	exists	12-search-geo-distribution.md	Seated activities hub
@@ -318,9 +318,9 @@ SEO-011	P0	S2	partial	12-search-geo-distribution.md	Answer block on every activi
 SEO-012	P0	S2	partial	12-search-geo-distribution.md	Bylines, reviewers and dates
 SEO-013	P0	S2	partial	12-search-geo-distribution.md	Structured data policy
 SEO-014	P0	S2	partial	12-search-geo-distribution.md	Internal linking graph
-SEO-015	P0	S2	new	12-search-geo-distribution.md	Duplicate and near-duplicate audit
+SEO-015	P0	S2	partial	12-search-geo-distribution.md	Duplicate and near-duplicate audit
 SEO-016	P1	S2	new	12-search-geo-distribution.md	Reminiscence hub (non-clinical)
-SEO-017	P1	S2	new	12-search-geo-distribution.md	Crafts for limited hand strength or arthritis
+SEO-017	P1	S2	partial	12-search-geo-distribution.md	Crafts for limited hand strength or arthritis
 SEO-018	P1	S2	partial	12-search-geo-distribution.md	Grandparent and grandchild expansion
 SEO-019	P1	S2	new	12-search-geo-distribution.md	Measure AI discovery and citations
 SEO-020	P1	S2	partial	12-search-geo-distribution.md	Referral and app attribution
@@ -356,9 +356,9 @@ L10N-002	P0	S2	partial	13-localization.md	Launch order and evidence gates
 L10N-003	P0	S2	partial	13-localization.md	Native review workflow
 L10N-004	P0	S2	new	13-localization.md	Reviewer recruitment and credentials
 L10N-005	P0	S2	new	13-localization.md	Content that is never published by machine alone
-L10N-006	P0	S2	new	13-localization.md	Structure survives translation
+L10N-006	P0	S2	partial	13-localization.md	Structure survives translation
 L10N-007	P0	S2	new	13-localization.md	Dementia terminology glossary per locale
-L10N-008	P0	S2	new	13-localization.md	Brand-name propagation check
+L10N-008	P0	S2	partial	13-localization.md	Brand-name propagation check
 L10N-009	P0	S2	new	13-localization.md	Local safety and crisis information
 L10N-010	P0	S2	partial	13-localization.md	Translation memory, term base and ARB extraction
 L10N-011	P0	S2	new	13-localization.md	Activity cards localized before guides
@@ -379,7 +379,7 @@ L10N-025	P1	S2	new	13-localization.md	Defect tracking and quality metrics
 L10N-026	P1	S2	partial	13-localization.md	Local search phrases as hypotheses
 L10N-027	P2	S2	new	13-localization.md	Imagery and people across cultures
 L10N-028	P2	S3	new	13-localization.md	Community translation with reviewers
-L10N-029	P2	S3	?	13-localization.md	Participant-language test (GM-041)
+L10N-029	P2	S3	new	13-localization.md	Participant-language test (GM-041)
 L10N-030	P3	S4	new	13-localization.md	Languages beyond the reviewed list
 L10N-031	P2	S3	partial	13-localization.md	Word games and sayings per language
 L10N-032	P2	S2	partial	13-localization.md	Quiz and activity local swaps
@@ -389,12 +389,12 @@ TSA-002	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Testing with assi
 TSA-003	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Zoom, reflow, motion and timing
 TSA-004	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Keyboard, focus and drag alternatives
 TSA-005	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Color, contrast and text alternatives
-TSA-006	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Flashing and motion in games
+TSA-006	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Flashing and motion in games
 TSA-007	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Accessibility statement and feedback route
 TSA-008	P1	S2	new	14-trust-safety-accessibility-privacy.md	Plain-language standard
 TSA-009	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Accessibility regression tests in CI
 TSA-010	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No accounts for the core product
-TSA-011	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
+TSA-011	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
 TSA-012	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Event allowlist and no health data
 TSA-013	P0	S2	new	14-trust-safety-accessibility-privacy.md	Special-category data posture (GDPR Article 9)
 TSA-014	P1	S2	new	14-trust-safety-accessibility-privacy.md	Consent for non-essential storage
@@ -406,32 +406,32 @@ TSA-019	P0	S2	new	14-trust-safety-accessibility-privacy.md	No ads or ad technolo
 TSA-020	P0	S2	new	14-trust-safety-accessibility-privacy.md	UK Age Appropriate Design Code assessment
 TSA-021	P0	S2	new	14-trust-safety-accessibility-privacy.md	Children in media
 TSA-022	P1	S2	new	14-trust-safety-accessibility-privacy.md	Parenting content boundaries
-TSA-023	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Standard safety vocabulary and fields
+TSA-023	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Standard safety vocabulary and fields
 TSA-024	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Supervision and food-as-material rules
-TSA-025	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Stop-and-switch note
+TSA-025	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Stop-and-switch note
 TSA-026	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Scope statement on each card
 TSA-027	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Crisis route on activities that invite disclosure
 TSA-028	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Claims vocabulary and banned words
 TSA-029	P0	S2	exists	14-trust-safety-accessibility-privacy.md	No cognitive or brain-training outcome claims
-TSA-030	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Art therapy boundary
+TSA-030	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Art therapy boundary
 TSA-031	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Evidence labels next to benefit sentences
-TSA-032	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Store, partner and marketing copy under the same policy
+TSA-032	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Store, partner and marketing copy under the same policy
 TSA-033	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Editorial policy and roles
 TSA-034	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Credentialed review scope record
 TSA-035	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Corrections route and log
 TSA-036	P1	S2	new	14-trust-safety-accessibility-privacy.md	Review cadence
-TSA-037	P1	S2	partial	14-trust-safety-accessibility-privacy.md	AI-assistance disclosure
+TSA-037	P1	S2	exists	14-trust-safety-accessibility-privacy.md	AI-assistance disclosure
 TSA-038	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Image rights and consent log
 TSA-039	P1	S2	new	14-trust-safety-accessibility-privacy.md	Moderation and review integrity for user content
 TSA-040	P1	S2	new	14-trust-safety-accessibility-privacy.md	Platform law check for user content
-TSA-041	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Security headers and content security policy
-TSA-042	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Third-party scripts, fonts and subresource integrity
+TSA-041	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Security headers and content security policy
+TSA-042	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Third-party scripts, fonts and subresource integrity
 TSA-043	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Secrets and dependencies
 TSA-044	P1	S2	new	14-trust-safety-accessibility-privacy.md	Forms: anti-abuse without heavy CAPTCHA
 TSA-045	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Response to an unsafe or wrong activity
 TSA-046	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Privacy and security breach process
 TSA-047	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Safety report route
-TSA-048	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Transparency pages set
+TSA-048	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Transparency pages set
 TSA-049	P1	S2	new	14-trust-safety-accessibility-privacy.md	Sponsorship and partner disclosure
 TSA-050	P3	S4	new	14-trust-safety-accessibility-privacy.md	Physical kit product safety, if sold
 PLAT-001	P0	S2	partial	15-platform-data-architecture.md	Stable entity IDs separate from slugs
@@ -459,7 +459,7 @@ PLAT-022	P1	S2	new	15-platform-data-architecture.md	Site-wide static search inde
 PLAT-023	P3	S4	new	15-platform-data-architecture.md	Server-side search for 100k pages and more
 PLAT-024	P0	S1	partial	15-platform-data-architecture.md	Website event dictionary and payload rules
 PLAT-025	P0	S2	exists	15-platform-data-architecture.md	App analytics stance (no SDK)
-PLAT-026	P0	S2	new	15-platform-data-architecture.md	Consent, Global Privacy Control and retention
+PLAT-026	P0	S2	partial	15-platform-data-architecture.md	Consent, Global Privacy Control and retention
 PLAT-027	P1	S2	new	15-platform-data-architecture.md	Aggregate "We tried this" counters
 PLAT-028	P3	S4	new	15-platform-data-architecture.md	Optional account (gated)
 PLAT-029	P2	S3	new	15-platform-data-architecture.md	Local-first sync of saved items (end-to-end)

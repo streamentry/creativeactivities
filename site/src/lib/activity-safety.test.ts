@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { SAFETY_FLAGS, SAFETY_FLAG_LABELS, type SafetyFlag } from './activities';
 
 /**
- * Safety rules over the 38 activity cards on disk (TSA-023, TSA-024, TSA-027).
+ * Safety rules over the 46 activity cards on disk (TSA-023, TSA-024, TSA-027).
  * The rules read the cards' safetyFlags, materials, safety lines and prompts. They
  * describe what the card must say; they never call an activity "safe" (TSA-023).
  */
