@@ -70,7 +70,13 @@ stopNote: "It is fine to stop after one towel. Leave the rest in the basket, or 
 guides: [activities/household-tasks, activities/sensory, activities/late-stage]
 related: [wind-a-ball-of-yarn, give-a-hand-massage, make-a-lavender-sachet]
 published: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for small parts, heat, falls."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

@@ -76,7 +76,13 @@ stopNote: "It is fine to stop after one side. Put the box and its paper aside, a
 guides: [activities/arts-and-crafts, activities/reminiscence, activities/ideas]
 related: [make-a-memory-collage, make-a-greeting-card, start-a-family-recipe-book]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, glue or tape, small parts, mouthing or swallowing."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

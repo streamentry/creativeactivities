@@ -72,7 +72,13 @@ stopNote: "It is fine to stop after the first shake, or before the decoration is
 guides: [activities/music, activities/arts-and-crafts, activities/sensory]
 related: [tap-a-rhythm-together, make-a-paper-chain-garland, make-a-texture-board]
 published: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for glue or tape, small parts, water."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

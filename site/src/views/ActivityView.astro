@@ -22,6 +22,8 @@ import {
 } from '../lib/activities';
 import { findGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
+import ActivityChanges from '../components/ActivityChanges.astro';
+import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -107,6 +109,7 @@ const jsonLd = withdrawn
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
       <h1>{d.name}</h1>
       <p class="activity-head__summary">{d.summary}</p>
+      <p class="activity-scope">{SCOPE_LINE}</p>
       <dl class="activity-ledger">
         {
           ledger.map((f) => (
@@ -169,6 +172,7 @@ const jsonLd = withdrawn
         <section class="activity-stop reveal" aria-labelledby="stop">
           <h2 id="stop">It is okay to stop or change it</h2>
           <p>{d.stopNote}</p>
+          <p>{PAUSE_LINE}</p>
         </section>
 
         <ActivityFeedback activity={activity.id} />
@@ -262,6 +266,8 @@ const jsonLd = withdrawn
         </>
       )
     }
+
+    {!withdrawn && <ActivityChanges changes={d.changes} updated={d.updated} />}
 
     <footer class="activity-byline">
       <p>

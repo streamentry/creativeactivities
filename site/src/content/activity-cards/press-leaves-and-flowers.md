@@ -76,7 +76,13 @@ stopNote: "It is fine to stop after one leaf. Close the book on whatever is in i
 guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/early-stage]
 related: [arrange-flowers-together, make-a-greeting-card, paint-with-watercolors, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing, skin contact, small parts, falls."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

@@ -75,7 +75,13 @@ stopNote: "It is fine to stop after a few marks or a single song. Keep listening
 guides: [activities/music, activities/arts-and-crafts, activities/late-stage, activities/drawing-and-painting-to-relax]
 related: [make-a-personal-songbook, paint-with-watercolors, tear-paper-mosaic]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing, glue or tape."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

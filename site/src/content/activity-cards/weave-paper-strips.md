@@ -71,7 +71,13 @@ stopNote: "It is fine to stop after one row. Leave the card on the table with th
 guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/art-supplies-for-older-adults]
 related: [make-a-color-collage, tear-paper-mosaic, make-a-paper-chain-garland]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, glue or tape, small parts."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

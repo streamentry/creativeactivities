@@ -71,7 +71,13 @@ stopNote: "It is fine to stop after one or two songs. Leave the card as it is, p
 guides: [activities/music, activities/phone-and-video-calls, activities/late-stage]
 related: [draw-to-music, make-a-personal-songbook, tap-a-rhythm-together]
 published: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added a labelled safety line above the steps: no special hazard applies."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

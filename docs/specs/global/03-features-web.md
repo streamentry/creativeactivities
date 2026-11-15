@@ -275,6 +275,8 @@ Risks / not doing: Long cards are cut at the wrong place. Cut the photo first, n
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: print styles hide the header, footer, breadcrumbs and navigation (`site/src/styles/components.css`, `site/src/styles/activities.css`). The card prints on one A4 and one US Letter sheet, two sides, at 12 pt (`site/scripts/check-print.mjs`, 38 of 38 on 2026-11-15). The card does not depend on the QR code or the URL. Not done: no test yet on one inkjet and one laser printer or from a phone's print dialog (a person must run it; record the device list with the result). Print hides the "At a glance" panel and the About text, so print is not yet identical to the web page.
+
 Why: DESIGN requires that the print page works with no internet, no color ink and no URL access ([DESIGN §4B](../../../DESIGN.md)). Print styles exist in the baseline; their results on real devices are not recorded.
 
 What: `@media print` removes navigation, banners and decoration, keeps the materials and steps in large type, and prints the same content as the web page. Printing works from a phone's print dialog.
@@ -292,7 +294,7 @@ Risks / not doing: No print-only rewrite of claims. Print is a rendering of the 
 ### WEB-016 · Versioned prints
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
-Evidence: the print-only footer line on each card (`site/src/views/ActivityView.astro`, class `print-version`, styled in `site/src/styles/activities.css`) prints `Version <updated date> · creativeactivities.org/activity/<slug>/`. Not done: the version is the card's `updated` date, not a separate version number; no changelog entry (WEB-027) and no safety notice on the card page yet.
+Evidence: the print-only footer line `Version <date> · creativeactivities.org/activity/<slug>/` (`site/src/views/ActivityView.astro`, class `print-version`). The web page shows the same version date under "What changed" (`site/src/components/ActivityChanges.astro`). Each change is dated, safety changes are labelled, and the web page says that a printed copy made before a safety change may not show it. Tests: `site/src/lib/activity-changes.test.ts`. Not done: the version is the card's date, not a version number; there is no separate last-checked date; the printed pack footer is not checked.
 
 Why: Printed copies cannot be updated, so each one must be dated and versioned ([R5 §4](research/05-search-scale-trust.md)). The risk of feature churn is named in [R1 §7](research/01-craft-diy-platforms.md): printed outputs must stay stable.
 
@@ -410,6 +412,8 @@ Risks / not doing: A flag is not a guarantee. Supervision text stays on the card
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: the approved footer note (`footer.note` in `site/src/i18n/ui/en.json`, "for enjoyment ... not medical advice") is on every English page. `site/scripts/check-site.mjs` fails the build if an English page lacks it (15,732 pages, 0 errors on 2026-11-15). Cards also carry the card scope line (TSA-026). Not done: translated pages are not checked by the script; the reviewer's scope note for reviewed pages does not exist yet.
+
 Why: "We describe activities as creative, recreational, supportive, or engaging" ([MISSION, "Evidence and humility"](../../../MISSION.md)). R3 recommends the same sentence on every activity page: "This is a creative activity, not therapy or medical advice" ([R3 §3.1](research/03-art-therapy-wellbeing.md)). The baseline has a medical disclaimer page; the per-page line is new.
 
 What: The line appears on every card, hub, pack, game and guide. It sits in the glance block or the footer.
@@ -485,7 +489,9 @@ Risks / not doing: Free text is where personal information arrives. The screenin
 
 ### WEB-027 · Card changelog
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `changes:` on all 38 cards in `site/src/content/activity-cards/`, seeded only from git history (2026-11-15, commit 888b4cf: labelled safety flags and drawings of the result and materials). The two-sided print layout (commit e0852b8, 2026-11-14) is not listed because it is not a materials, steps or safety change. `changeSchema` is in `site/src/lib/activity-schema.ts`; `recentChanges` in `site/src/lib/activity-changes.ts` shows the newest three. Not done: no link to a full log page (none exists yet); the log is written by hand in each card file, not generated from git.
 
 Why: "Documented editorial process" and visible update dates build trust ([VISION, metrics](../../../VISION.md); [R5 §5.6](research/05-search-scale-trust.md)).
 

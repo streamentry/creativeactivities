@@ -73,7 +73,13 @@ stopNote: "It is fine to stop once the pot is painted. Let it dry and plant it a
 guides: [activities/outdoor-and-gardening, activities/arts-and-crafts, activities/household-tasks]
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, arrange-flowers-together]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for skin contact, glue or tape, mouthing or swallowing."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

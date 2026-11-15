@@ -74,7 +74,13 @@ stopNote: "It is fine to stop after a single dish name. Close the book, leave it
 guides: [activities/reminiscence, activities/conversation-games, activities/ideas]
 related: [make-a-memory-collage, make-a-personal-songbook, make-a-family-tree-of-hands, make-a-greeting-card]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for heat, allergens."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

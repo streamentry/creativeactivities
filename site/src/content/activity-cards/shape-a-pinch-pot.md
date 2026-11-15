@@ -71,7 +71,13 @@ stopNote: "It is fine to stop once the clay feels tiring. Wrap it in a damp clot
 guides: [activities/arts-and-crafts, activities/sensory, activities/ideas, activities/art-supplies-for-older-adults]
 related: [decorate-a-plant-pot, tear-paper-mosaic, paint-a-garden-stone]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for mouthing or swallowing, skin contact."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

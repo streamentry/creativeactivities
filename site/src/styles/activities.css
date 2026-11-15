@@ -173,6 +173,31 @@
   margin: 0;
 }
 
+.activity-scope {
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+/* WEB-027: what changed, newest first. The version is the card's date (WEB-016). */
+.activity-changes {
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--gm-secondary-outline);
+}
+.activity-changes h2 {
+  font-size: var(--text-md);
+}
+.activity-changes__list {
+  padding-left: 1.25em;
+  margin: var(--space-sm) 0;
+}
+.activity-changes__list li + li {
+  margin-top: var(--space-xs);
+}
+.activity-changes__tag {
+  font-weight: 700;
+}
+
 .activity-byline {
   border-top: 1px solid var(--gm-surface-sunken);
   padding-block: var(--space-lg) var(--space-2xl);
@@ -585,6 +610,26 @@
     background: none !important;
     border: 1pt solid #000 !important;
     padding: 1.5mm 2.5mm;
+  }
+  .activity-changes {
+    margin-top: 2mm;
+    padding-top: 1.5mm;
+    font-size: 10pt;
+  }
+  .activity-changes h2 {
+    font-size: 11pt;
+    margin: 0;
+  }
+  .activity-changes__list {
+    margin: 0.5mm 0;
+    padding-left: 4mm;
+  }
+  .activity-changes__list li + li {
+    margin-top: 0.5mm;
+  }
+  .activity-changes__version,
+  .activity-changes__note {
+    margin: 0.5mm 0;
   }
   .activity-byline {
     font-size: 7.5pt;

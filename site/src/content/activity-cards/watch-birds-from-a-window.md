@@ -71,7 +71,13 @@ stopNote: "It is fine to stop when the birds leave. Close the curtain, sit quiet
 guides: [activities/outdoor-and-gardening, activities/sensory, activities/late-stage]
 related: [make-a-pine-cone-bird-feeder, sketch-what-is-on-the-table, draw-repeating-patterns]
 published: 2026-11-14
-updated: 2026-11-14
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for falls."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

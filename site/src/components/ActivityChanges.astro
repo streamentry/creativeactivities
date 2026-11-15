@@ -1,0 +1,39 @@
+---
+import { recentChanges, type CardChange } from '../lib/activity-changes';
+
+interface Props {
+  changes: CardChange[];
+  /** The version date the card and its printed copies show (WEB-016). */
+  updated: Date;
+}
+const { changes, updated } = Astro.props;
+const shown = recentChanges(changes);
+const isoDate = (date: Date) => date.toISOString().slice(0, 10);
+const dateText = (date: Date) =>
+  date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+const hasSafety = shown.some((change) => change.safety);
+---
+{
+  shown.length > 0 && (
+    <section class="activity-changes" aria-labelledby="changes-title">
+      <h2 id="changes-title">What changed</h2>
+      <p class="activity-changes__version">
+        Version <time datetime={isoDate(updated)}>{isoDate(updated)}</time>
+      </p>
+      <ul class="activity-changes__list">
+        {shown.map((change) => (
+          <li>
+            <time datetime={isoDate(change.date)}>{dateText(change.date)}</time>.{' '}
+            {change.safety && <strong class="activity-changes__tag">Safety change.</strong>}{' '}
+            {change.note}
+          </li>
+        ))}
+      </ul>
+      {hasSafety && (
+        <p class="activity-changes__note">
+          A printed copy made before a safety change may not show it. Compare its version date with this page.
+        </p>
+      )}
+    </section>
+  )
+}

@@ -72,7 +72,13 @@ stopNote: "It is fine to stop after a few links. A short chain still looks cheer
 guides: [activities/holidays, activities/arts-and-crafts, activities/care-home-groups, activities/group-art-activities]
 related: [make-a-greeting-card, fold-a-paper-boat, wind-a-ball-of-yarn]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, heat, falls, glue or tape."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 

@@ -71,7 +71,13 @@ stopNote: "It is fine to stop after a handful of pieces. Leave the card on the t
 guides: [activities/arts-and-crafts, activities/sensory, activities/ideas]
 related: [make-a-memory-collage, tear-paper-mosaic, weave-paper-strips]
 published: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-15
+changes:
+  - date: 2026-11-15
+    safety: true
+    note: "Added labelled safety flags above the steps for sharp tools, glue or tape, skin contact, small parts."
+  - date: 2026-11-15
+    note: "Added a drawing of the finished result and a drawing of the materials."
 author: Creative Activities editorial team
 ---
 
