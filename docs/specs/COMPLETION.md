@@ -75,7 +75,9 @@ Checks after batch 4: vitest 2,844 pass; `tsc` clean; `astro build` 16,516 pages
 | `/activity/weekly-program/`: a one-page weekly program for care homes, day centres and clubs. Staff pick a group card for each weekday (default: five different activity types); each day shows the group version and a one-to-one version; the materials line scales with the group size entered (one set per pair plus a spare). Header says it is an activity program, not a care plan. Fields are week, room and group size only; nothing typed is sent or saved. Linked from the finder | WEB-045 → partial (staff feedback route and the pack builder WEB-017 / group mode WEB-046 it depends on are not built) | `weekly-program.test.ts` (7 tests, including a field check for name, diagnosis and care-need fields); browser: swapping Monday's card and entering 9 people update the sheet; Playwright PDF: 1 page on A4 and on Letter |
 | CSP header: the new page's inline module script changed Astro's site-wide hash list; `_headers` updated (one stale hash replaced), found by `check-site` | TSA-041 upkeep | `check-site` 0 errors; `security-headers.test.ts` passes |
 
-Checks after batch 5: vitest 68 files, 2,851 pass; `tsc` clean; `astro build` 16,517 pages; `check-site` 0 errors; `check-budget` 0 over.
+Checks after batch 5: vitest 68 files, 2,851 pass; `tsc` clean; `astro build` 16,517 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 104 page checks (16 templates, now including large print and the weekly program).
+
+CI fix: the Website workflow failed on `b725286` because the finder's Tab walk passed the a11y script's 120-stop safety cap (more cards and hubs, no trap). The cap is now 240, with a comment. Adding the two new templates to the a11y check then caught real defects on the weekly page (a date field read as a focus trap, select overflow at 320 px), both fixed.
 
 ## What blocks the rest
 

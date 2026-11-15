@@ -28,7 +28,11 @@
   list-style: none;
   padding: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 1rem;
+}
+.weekly-program__day select {
+  width: 100%;
 }
 .weekly-program__day {
   border: 1px solid var(--gm-outline);
@@ -65,7 +69,7 @@
     min-height: 0;
   }
   .weekly-program__days {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     gap: 2mm;
   }
   .weekly-program__day {

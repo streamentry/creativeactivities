@@ -51,7 +51,7 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
       <p class="weekly-program__notice"><strong>This is an activity program, not a care plan.</strong> Follow each person's own care plan and choices first.</p>
       <h2 id="sheet-title">Activities this week</h2>
       <div class="weekly-program__fields">
-        <label>Week starting <input type="date" name="week" data-field="week" /></label>
+        <label>Week starting <input type="text" name="week" maxlength="30" autocomplete="off" placeholder="for example, 18 November" data-field="week" /></label>
         <label>Room or place <input type="text" name="room" maxlength="40" autocomplete="off" data-field="room" /></label>
         <label>Expected group size <input type="number" name="group-size" min="2" max="40" inputmode="numeric" data-field="group-size" /></label>
       </div>
