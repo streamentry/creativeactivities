@@ -617,3 +617,22 @@ html[data-contrast='high'] .home-bento .activity-card {
     border-inline-start-color: Highlight;
   }
 }
+
+/* ---------- Section heads: heading on the left, "See all" on the right ----------
+   Restores the layout the home page had before its styles moved here: the
+   button sits beside the heading on wide screens and below it on phones, and
+   the head always keeps clear space above the grid that follows. */
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  justify-content: space-between;
+  gap: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-xl);
+}
+.section-head h2 {
+  margin-bottom: var(--space-sm);
+}
+.section-head .lede {
+  margin: 0;
+}
