@@ -284,6 +284,7 @@ export const ENGLISH_ONLY = [
   '/privacy/',
   '/app-privacy/',
   '/privacy-choices/',
+  '/your-data/',
   '/terms/',
   '/safety/',
   '/accessibility/',

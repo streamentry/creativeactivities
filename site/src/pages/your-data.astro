@@ -1,0 +1,187 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE_STORES } from '../lib/your-data';
+---
+<PageLayout
+  title="Your data on this device"
+  seoTitle="Your Data on This Device: See, Download or Delete"
+  description="See what Creative Activities keeps in this browser, download a readable copy, or delete each item or everything at once."
+  path="/your-data/"
+  crumb="Your data"
+  updated="2026-11-15"
+  lede="The site keeps a few choices in this browser so it can remember them. Nothing on this list is sent to us."
+>
+  <p>
+    Creative Activities has no accounts and no server-side personal data. The items below are the only things the site
+    keeps, and they stay on this device until you delete them or clear this site’s data in your browser.
+  </p>
+  <noscript>
+    <p class="notice">Turn on JavaScript to see whether each item is stored here and to download or delete it. The list itself is shown either way.</p>
+  </noscript>
+
+  <h2 id="items">What this browser keeps</h2>
+  <ul class="data-list" data-your-data>
+    {
+      SITE_STORES.map((store) => (
+        <li class="data-item" data-store={store.id}>
+          <h3>{store.label}</h3>
+          <p>{store.description}</p>
+          <p class="data-item__where">
+            Where: {store.kind === 'cookie' ? 'a cookie' : 'this browser’s local storage'}, named <code>{store.key}</code>
+          </p>
+          <p class="data-item__status" data-status aria-live="polite"></p>
+          <div class="data-item__actions">
+            <button type="button" class="btn btn--quiet" data-action="download" data-store={store.id}>
+              Download {store.label.toLowerCase()}
+            </button>
+            <button type="button" class="btn btn--quiet" data-action="delete" data-store={store.id}>
+              Delete {store.label.toLowerCase()}
+            </button>
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+
+  <h2 id="everything">Everything at once</h2>
+  <div class="btn-row">
+    <button type="button" class="btn btn--quiet" data-action="download-all">Download everything</button>
+    <button type="button" class="btn btn--primary" data-action="delete-all">Delete everything</button>
+  </div>
+  <p class="data-result" role="status" data-result></p>
+
+  <p>
+    Deleting an item does not change what you have on other devices or in other browsers, and it cannot be undone. Your
+    original photos on your phone or computer are never touched by this page.
+  </p>
+  <p>
+    If you use the Creative Activities app, its data is kept by the app. See the <a href="/app-privacy/">app privacy policy</a>
+    and <a href="/privacy-choices/">privacy choices</a>. The <a href="/privacy/">website privacy notice</a> covers the rest.
+  </p>
+</PageLayout>
+
+<style>
+  .data-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-md) 0;
+    display: grid;
+    gap: var(--space-sm);
+  }
+  .data-item {
+    padding: var(--space-md);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-lg, 12px);
+    background: var(--gm-surface-raised);
+  }
+  .data-item h3 {
+    margin: 0 0 var(--space-xs);
+  }
+  .data-item__where {
+    font-size: 0.95rem;
+  }
+  .data-item__where code {
+    overflow-wrap: anywhere;
+  }
+  .data-item__status {
+    font-weight: 600;
+    min-height: 1.5em;
+  }
+  .data-item__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+  .data-result {
+    min-height: 1.5em;
+    font-weight: 600;
+  }
+  @media print {
+    .data-item__actions,
+    .btn-row {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  import { browserStorage } from '../lib/saved-activities';
+  import { exportText, readAll, removeAll, removeStore, SITE_STORES, type StoreRow } from '../lib/your-data';
+
+  const list = document.querySelector<HTMLElement>('[data-your-data]');
+  const result = document.querySelector<HTMLElement>('[data-result]');
+
+  // Expiring a cookie is the only way to remove one from script.
+  const expireCookie = (name: string) => {
+    document.cookie = `${name}=; Path=/; Max-Age=0; SameSite=Lax`;
+  };
+
+  const countText = (row: StoreRow): string => {
+    if (row.raw === null) return 'Not stored in this browser.';
+    if (row.count === null) return 'Stored in this browser.';
+    return `Stored: ${row.count} ${row.count === 1 ? 'entry' : 'entries'}.`;
+  };
+
+  function refresh() {
+    const rows = readAll(browserStorage(), document.cookie);
+    for (const row of rows) {
+      const status = list?.querySelector<HTMLElement>(`[data-store="${row.store.id}"] [data-status]`);
+      if (status) status.textContent = countText(row);
+    }
+    return rows;
+  }
+
+  function say(message: string) {
+    if (result) result.textContent = message;
+  }
+
+  function download(name: string, text: string) {
+    const url = URL.createObjectURL(new Blob([text], { type: 'text/plain;charset=utf-8' }));
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = name;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 0);
+  }
+
+  const storeById = (id: string) => SITE_STORES.find((s) => s.id === id);
+
+  list?.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest<HTMLButtonElement>('button[data-action]');
+    if (!button) return;
+    const store = storeById(button.dataset.store ?? '');
+    if (!store) return;
+    if (button.dataset.action === 'download') {
+      const [row] = readAll(browserStorage(), document.cookie).filter((r) => r.store.id === store.id);
+      if (!row) return;
+      download(`creative-activities-${store.id}.txt`, exportText([row]));
+      say(`Downloaded ${store.label.toLowerCase()}.`);
+      return;
+    }
+    if (!window.confirm(`Delete ${store.label.toLowerCase()} from this browser? This cannot be undone.`)) return;
+    const ok = removeStore(store, browserStorage(), expireCookie);
+    refresh();
+    say(ok ? `Deleted ${store.label.toLowerCase()}. Reload the page to see the site’s defaults.` : `Could not delete ${store.label.toLowerCase()}. The browser refused.`);
+  });
+
+  document.querySelector('[data-action="download-all"]')?.addEventListener('click', () => {
+    const rows = readAll(browserStorage(), document.cookie);
+    download('creative-activities-your-data.txt', exportText(rows));
+    say('Downloaded everything the site keeps in this browser.');
+  });
+
+  document.querySelector('[data-action="delete-all"]')?.addEventListener('click', () => {
+    if (!window.confirm('Delete everything the site keeps in this browser? Saved activities, notes and choices will be removed. This cannot be undone.')) return;
+    const { removed, failed } = removeAll(browserStorage(), expireCookie);
+    refresh();
+    say(
+      failed === 0
+        ? `Deleted ${removed} items. Reload the page to see the site’s defaults.`
+        : `Deleted ${removed} items. ${failed} could not be deleted because the browser refused.`,
+    );
+  });
+
+  refresh();
+</script>
