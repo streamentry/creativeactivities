@@ -27,7 +27,7 @@ Integration checks: vitest 2,533 tests pass; `tsc` clean; `astro build` 15,733 p
 
 ## Still needs people or decisions
 
-- GTM/GA4 loads on every page, including health and child-reachable pages (TSA-011, TSA-018): maintainer decision.
+- GTM/GA4: decided 2026-11-15, it now loads only after a visitor allows it ([analytics-consent.md](analytics-consent.md)). Still open: GA4 and Tag Manager console settings (maintainer) and whether health and child-reachable pages should skip it even after a yes (TSA-018).
 - Counsel review of the retention and breach drafts (TSA-016, TSA-046); owners and a tabletop exercise.
 - Reviewer sign-off on edible materials, evidence ratings and scope wording (TSA-024, TSA-031, TSA-026); per-locale crisis lists (TSA-027).
 - A monitored safety address and response standard (TSA-047, WEB-058); accessibility feedback owner (TSA-007).

@@ -1,0 +1,22 @@
+---
+/**
+ * Change the analytics answer at any time (privacy page). The buttons are
+ * wired by ConsentBar.astro's script, which every page with analytics loads.
+ */
+import { ui } from '../i18n/ui';
+
+interface Props {
+  lang?: string;
+}
+const { lang = 'en' } = Astro.props;
+const c = ui(lang).common.consent;
+---
+<div class="consent-choice">
+  <p data-consent-current data-current-yes={c.currentYes} data-current-no={c.currentNo} data-current-none={c.currentNone}>
+    {c.currentNone}
+  </p>
+  <div class="btn-row">
+    <button type="button" class="btn" data-consent="denied">{c.no}</button>
+    <button type="button" class="btn" data-consent="granted">{c.yes}</button>
+  </div>
+</div>

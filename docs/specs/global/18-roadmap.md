@@ -459,7 +459,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-010 | P0 | partial | No accounts for the core product |
 | TSA-011 | P0 | partial | Data and tracker inventory |
 | TSA-013 | P0 | new | Special-category data posture (GDPR Article 9) |
-| TSA-014 | P1 | new | Consent for non-essential storage |
+| TSA-014 | P1 | partial | Consent for non-essential storage |
 | TSA-015 | P0 | partial | Photos stay on the device |
 | TSA-016 | P1 | partial | Retention, deletion and data requests |
 | TSA-017 | P1 | new | Privacy notice and store privacy labels |
@@ -829,7 +829,7 @@ These were raised by writers in the source files. Each needs an answer before th
 
 | # | Decision | Options | Blocks | Source |
 |---|---|---|---|---|
-| 1 | **GA4 versus the no-tracker rule.** GA4 is live (approved 2026-10-25, ad personalization off). DESIGN section 7 forbids third-party trackers. | (a) Keep restricted GA4 with consent mode and amend DESIGN section 7; (b) remove GA4 and use a cookieless first-party counter (PLAT-027, which needs a server component); (c) both, documented. | WEB-025, WEB-068, PLAT-024, TSA-012, MET-001; S1 gate | [03](03-features-web.md) Q1; [14](14-trust-safety-accessibility-privacy.md) Q1; [15](15-platform-data-architecture.md) Q4; [12](12-search-geo-distribution.md) Q4 |
+| 1 | **GA4 versus the no-tracker rule.** Decided 2026-11-15: (a), GA4 kept with consent first and consent mode ([analytics-consent.md](analytics-consent.md)). GA4 is live (approved 2026-10-25, ad personalization off). DESIGN section 7 forbids third-party trackers. | (a) Keep restricted GA4 with consent mode and amend DESIGN section 7; (b) remove GA4 and use a cookieless first-party counter (PLAT-027, which needs a server component); (c) both, documented. | WEB-025, WEB-068, PLAT-024, TSA-012, MET-001; S1 gate | [03](03-features-web.md) Q1; [14](14-trust-safety-accessibility-privacy.md) Q1; [15](15-platform-data-architecture.md) Q4; [12](12-search-geo-distribution.md) Q4 |
 | 2 | **`/brain-health/` naming.** The guide section (10 guides) implies a cognitive outcome, which R4 section 5 rejects. | (a) Rename to a non-outcome term with a redirect-safe move; (b) keep and add a scope line on every guide. | TSA-029 wording; any CARE brain-health claim | [02](02-information-architecture.md) section 3 |
 | 3 | **"Therapeutic" SEO title on `therapeutic-art-activities-for-adults`.** The title must change now. The slug question needs a redirect. | (a) Change title only; (b) change title and slug with redirect and a Search Console check. | CNT-909 (S2 content); TSA-028 (S1) | [09](09-pillar-older-adults-dementia.md) CNT-909; [10](10-pillar-creative-wellbeing.md) open question |
 | 4 | **URL scheme.** Three documents disagree: shipped `/activity/<slug>/`; root hubs in SEO.md section 4.1; the web-SEO strategy's paths. | Pick one scheme and record it as the contract. | SEO-003, SEO-009, SEO-010, all redirects | [12](12-search-geo-distribution.md) Q1; [02](02-information-architecture.md) section 3 |

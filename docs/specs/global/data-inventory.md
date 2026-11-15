@@ -20,6 +20,7 @@ These are written by the site's own code. None is sent to Creative Activities. E
 |---|---|---|---|---|---|
 | `ca-saved-activities-v1` | local storage | `site/src/lib/saved-activities.ts` (activity page, Save) | Short names of activities saved for later, up to 60 | No | The reader removes them or clears site data |
 | `ca-tried-activities-v1` | local storage | `site/src/lib/activity-feedback.ts` (activity page, "We tried this") | Short names of activities marked as tried, up to 200 | The first mark for each activity sends `activity_started_confirmed` (section 3) | As above |
+| `ca-analytics-consent-v1` | local storage | `site/src/lib/consent.ts`, set by `ConsentBar.astro` and the privacy page choice | `granted` or `denied`; absent until the visitor answers | No. It decides whether Google Tag Manager loads at all | As above; deleting it on `/your-data/` makes the site ask again |
 | `gm-today-notes-v1` | local storage | `site/src/lib/today/notes.ts` (Today page) | The reader's own notes, up to 280 characters each, with the day, outcome and time of day | No | As above |
 | `gm-text-size` | local storage | `site/src/components/TextSize.astro` | `standard` or `large` | No | As above |
 | `gm-contrast` | local storage | `site/src/components/TextSize.astro` | `standard` or `high` | No | As above |
@@ -30,7 +31,7 @@ Not used by the site: `sessionStorage`, IndexedDB, Cache Storage, service worker
 
 ### Cookies set by Google's tag (not written by site code)
 
-Google Tag Manager, which loads from `Analytics.astro` (section 4), can set its own cookies, for example `_ga` and `_ga_` followed by the container or stream ID, and `_gcl_au` for ads conversion linking. The names come from Google's public documentation. **They have not been confirmed in a live browser session.** Check them in a clean browser profile before sign-off. Whether these cookies are set at all depends on the GTM and GA4 settings, which live in the Google console and are not in this repository.
+Google Tag Manager, which loads from `Analytics.astro` (section 4) **only after the visitor chooses "Allow"** (consent first, maintainer decision 2026-11-15), can set its own cookies, for example `_ga` and `_ga_` followed by the container or stream ID, and `_gcl_au` for ads conversion linking. The names come from Google's public documentation. **They have not been confirmed in a live browser session.** Check them in a clean browser profile before sign-off. Whether these cookies are set at all depends on the GTM and GA4 settings, which live in the Google console and are not in this repository.
 
 ---
 
@@ -94,7 +95,7 @@ Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` doe
 
 | Origin | Used for | Where it loads | Integrity |
 |---|---|---|---|
-| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations (`Analytics.astro`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
+| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
 | `https://*.googletagmanager.com`, `https://*.google-analytics.com`, `https://*.analytics.google.com` | Measurement requests and the image beacon, set by Google's tag | Pages with the tag. Allowed in `connect-src` and `img-src` in `public/_headers` | Not applicable (data requests) |
 
 ### 4b. Fonts and images
@@ -113,6 +114,7 @@ Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` doe
 | `https://www.apple.com` | Apple's end-user license terms, linked from the terms page |
 | `https://policies.google.com`, `https://tools.google.com` | Google's privacy and ads-settings pages, linked from the privacy notice |
 | `https://www.cloudflare.com` | Host information, linked from the privacy notice |
+| `https://github.com` | The public event dictionary (`docs/specs/global/events.md`), linked from the privacy notice |
 | `https://arttherapy.org` | American Art Therapy Association credentials page, cited as a source and linked from the art-therapy guides (`finding-an-art-therapist`, `group-art-activities`) |
 | `https://atcb.org` | Art Therapy Credentials Board register, linked from `/art-therapy-and-creative-activities/` so readers can check a US credential |
 | `https://www.baat.org` | British Association of Art Therapists, linked from the same page |

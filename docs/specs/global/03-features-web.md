@@ -1160,6 +1160,8 @@ Risks / not doing: A catalog of printables that nobody prints. Track prints in t
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Evidence: decision recorded 2026-11-15, route (a): GA4 through Tag Manager, loaded only after "Allow", consent mode with ad storage denied, Tag Manager's automatic listeners blocklisted ([analytics-consent.md](analytics-consent.md)). Not done: the GA4 and Tag Manager console settings listed there (maintainer); counsel's check of the wording.
+
 Why: "Collect the minimum data necessary" ([MISSION, "Privacy"](../../../MISSION.md)); "avoid third-party trackers… keep anonymized analytics minimal and consent-aware" ([DESIGN §7](../../../DESIGN.md)). The baseline loads Google Analytics 4 site-wide except on the photo game. That conflicts with DESIGN and needs a decision.
 
 What: Define the events the north-star needs: card view, print, save, "We tried this", "This didn't fit", share and finder use. Choose one of two routes and record the choice in [15](15-platform-data-architecture.md) and [17](17-metrics-and-evidence.md): (a) keep GA4 but restrict it to these events, with consent where required; or (b) a privacy-first, cookieless count.
@@ -1177,6 +1179,8 @@ Risks / not doing: Losing the measure. The north-star depends on this item, so t
 ### WEB-069 · No ads, no third-party embeds, and a cookie rule
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: the only non-essential cookies are Google Analytics', set only after "Allow" in a bar in the page flow (no pop-up, no dialog) where "No thanks" comes first and both buttons are the same size ([analytics-consent.md](analytics-consent.md)).
 
 Why: "No ads masquerading as activity instructions" and no "pop-up before the first activity" ([DESIGN §7](../../../DESIGN.md); [DESIGN §9](../../../DESIGN.md)). Ad-supported family surfaces are a named risk ([R2 §7](research/02-parenting-kids-platforms.md)). The baseline's header allows only the site and Google's analytics endpoints.
 
@@ -1339,7 +1343,7 @@ Status against the baseline: 7 `exists`, 26 `partial`, 43 `new`. The `exists` it
 
 ## Open questions
 
-1. **Analytics route.** WEB-068 needs a decision between restricted GA4 and a cookieless count. Which one, and who signs off the trade-off?
+1. **Analytics route.** Decided 2026-11-15 by the maintainer: restricted GA4 with consent first ([analytics-consent.md](analytics-consent.md)).
 2. **Step images.** WEB-012 needs photographs or illustrations for every S1 card. Who produces them, and what is the budget?
 3. **Print URL and easier side.** Confirm the baseline print card's URL, and whether its easier side and stop note are printed (WEB-014).
 4. **Crisis routes by region.** WEB-061 needs a route list per locale, checked against official pages. Who keeps it current?
