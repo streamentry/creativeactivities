@@ -43,6 +43,8 @@ variations:
     text: "Use a dark felt-tip marker on large, plain paper, and read each line aloud as you write it."
   - kind: with-children
     text: "A child writes the greeting and adds a drawing while the older adult says what to put in the letter."
+  - kind: large-grip
+    text: "Use a thick marker or a pen wrapped in a foam hair curler, and write a short greeting. The helper can write the rest."
 images:
   - src: /pictures/letter-and-envelope.svg
     alt: "Drawing of a folded letter standing out of an envelope with ruled lines and a blue stamp on the corner."
@@ -79,6 +81,8 @@ changes:
     note: "Added labelled safety flags above the steps for mouthing or swallowing, allergens, skin contact, glue or tape."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

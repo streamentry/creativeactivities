@@ -41,6 +41,8 @@ variations:
     text: "Write the titles in large, high-contrast letters, or read them aloud from the screen. Choose songs by sound rather than by picture."
   - kind: with-children
     text: "A grandchild finds the songs and plays them, while the older adult says what they like and the child writes the titles on the card."
+  - kind: large-grip
+    text: "Prop the phone or tablet in a stand so it does not need holding, and write the titles with a thick marker or a pen wrapped in tape."
 images:
   - src: /pictures/playlist-phone-and-card.svg
     alt: "Drawing of a phone playing a song, beside a paper card with a short list of chosen songs."
@@ -78,6 +80,8 @@ changes:
     note: "Added a labelled safety line above the steps: no special hazard applies."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

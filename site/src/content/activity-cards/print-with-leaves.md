@@ -42,6 +42,8 @@ variations:
     text: "Each person prints a leaf on one shared sheet, arranged as a wreath or a line."
   - kind: with-children
     text: "A child paints the leaf and the grandparent presses it down and lifts it, then swap. Choose the colors together."
+  - kind: large-grip
+    text: "Paint the leaf with a sponge or a foam roller instead of a brush, and press it down with the flat palm."
 images:
   - src: /pictures/printed-leaves-sheet.svg
     alt: "Drawing of a sheet of paper with leaf prints in green, orange, plum and mustard, showing pale veins, and one leaf lifted off."
@@ -79,6 +81,8 @@ changes:
     note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing, skin contact."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

@@ -42,6 +42,8 @@ variations:
     text: "Place a strip in their hand and guide it gently over and under, pausing to see if they want to go on."
   - kind: with-children
     text: "A child cuts the strips in advance, and the two take turns on each row."
+  - kind: large-grip
+    text: "Use wide, stiff strips that can be pushed over and under with the flat hand, so no pinch grip is needed."
 images:
   - src: /pictures/woven-paper-mat.svg
     alt: "Drawing of a square of paper woven with red, mustard, blue and green strips, with one loose strip taped on the corner."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for sharp tools, glue or tape, small parts."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

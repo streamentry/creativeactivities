@@ -41,6 +41,8 @@ variations:
     text: "Use enlarged copies in bold, high-contrast prints, and read any captions aloud."
   - kind: with-children
     text: "A grandchild turns the pages and asks the older adult about each picture, then writes down the stories they choose to share."
+  - kind: large-grip
+    text: "Use a book stand or a folded towel to hold the album open, and turn each page with a sweep of the flat hand instead of a pinch."
 images:
   - src: /pictures/open-photo-album.svg
     alt: "Drawing of an open photo album with a brown cover and four photos on its pages, showing a sun over hills, a tree, mountains and flowers."
@@ -78,6 +80,8 @@ changes:
     note: "Added a labelled safety line above the steps: no special hazard applies."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

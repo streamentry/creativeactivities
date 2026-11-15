@@ -44,6 +44,8 @@ variations:
     text: "Divide a large sheet into sections, one for each person, and join the sections into one picture at the end."
   - kind: with-children
     text: "Give the child and the grandparent a corner each to start, then let the marks meet in the middle. Wash brushes together at the end."
+  - kind: large-grip
+    text: "Give each person a large sponge or a foam roller in place of a brush, held in the whole hand."
 images:
   - src: /pictures/shared-painted-canvas.svg
     alt: "Drawing of a large canvas on an easel showing a yellow sun, a green hill and a blue wave, with dabs of color added by several people."
@@ -82,6 +84,8 @@ changes:
     note: "Added labelled safety flags above the steps for small parts, skin contact, mouthing or swallowing, water, glue or tape."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

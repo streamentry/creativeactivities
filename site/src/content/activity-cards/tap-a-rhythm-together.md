@@ -40,6 +40,8 @@ variations:
     text: "Choose a soft, gentle song and tap with a flat hand rather than a drum. Keep the room quiet and the volume low."
   - kind: with-children
     text: "A child leads with quick taps on a drum and the older adult follows, then the roles swap so each takes a turn."
+  - kind: large-grip
+    text: "Tap with a flat palm, or hold one large soft block or a wide hand drum in both hands so there is nothing small to grip."
 images:
   - src: /pictures/drum-with-beat-marks.svg
     alt: "Drawing of a red drum with white lacing, two sticks resting on its head and curved marks showing the beat."
@@ -78,6 +80,8 @@ changes:
     note: "Added labelled safety flags above the steps for small parts."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 

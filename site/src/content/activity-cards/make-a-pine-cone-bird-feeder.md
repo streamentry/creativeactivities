@@ -46,6 +46,8 @@ variations:
     text: "A child does the rolling and sprinkling while the older adult chooses the spot and names the birds that visit."
   - kind: for-a-group
     text: "Make one feeder each and hang them all on the same tree, then watch together from indoors."
+  - kind: large-grip
+    text: "Spread the fat with a wide spoon that has a thick handle, and press the seed on with the palm instead of the fingers."
 images:
   - src: /pictures/pine-cone-bird-feeder.svg
     alt: "Drawing of a pine cone coated in fat and seed, hanging by string from a branch, with a small blue bird perched on the branch."
@@ -84,6 +86,8 @@ changes:
     note: "Added labelled safety flags above the steps for allergens, small parts, sharp tools, falls, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-15
+    note: "Added an easier-to-grip version."
 author: Creative Activities editorial team
 ---
 
