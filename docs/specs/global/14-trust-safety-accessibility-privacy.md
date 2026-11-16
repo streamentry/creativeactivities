@@ -135,7 +135,9 @@ Depends on: TSA-002.
 Risks / not doing: Do not claim full conformance without a test record.
 
 ### TSA-008 · Plain-language standard
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): `pnpm review:plain` (`site/scripts/plain-language.mjs` and `plain-language-lib.mjs`) reads the steps of all 53 cards (413 steps) and the sentences of the 14 hubs, and lists what an editor may want to look at: 5 steps of 25 words or more, 40 steps of more than one sentence and 8 hub sentences of 30 words or more. It prints the mean reading grade of a step (4.4) as a prompt and not as a score target. The rule in the acceptance, that no step joins two actions with "and then", is a test in `site/src/lib/plain-language.test.ts`: none does ("now and then" means "sometimes" and is let through), and the same test stops any step from passing 60 words between reviews. Not done: the editor's checklist on every activity and hub, which is a person's work; the five long steps and the long hub sentences have not been looked at; "one action per step" cannot be checked by a program, so the tool only points at steps of several sentences; and the counts and the word rules are for English only.
 
 Why: Short language is easier for everyone, and it matters most for stressed caregivers and people who prefer short text [DESIGN §6].
 

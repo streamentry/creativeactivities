@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 161 | 182 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **201** | **255** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 19 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A plain-language report for editors. `pnpm review:plain` reads every card's steps and every hub's sentences and lists what an editor may want to look at: long steps, steps of more than one sentence and long hub sentences, with the mean reading grade as a prompt and not a score target. The spec's rule, that no step joins two actions with "and then", is now a test, and a second test stops any step from passing 60 words. Today: 413 steps in 53 cards, none breaks the rule, 5 steps have 25 words or more, 40 have more than one sentence, and 8 hub sentences have 30 words or more | TSA-008 → partial (the editor's checklist on every activity and hub is a person's work; the long steps and sentences listed have not been looked at; English only) | vitest 3,413 pass, 1 skipped as before (17 in `plain-language.test.ts`: words, sentences, syllables and the reading grade, the rule and its idiom, reading a card and a hub, and the real cards and hubs); `tsc` clean; `pnpm review:plain` on the real content runs with 0 steps breaking the rule |
 
 ## What blocks the rest
 
