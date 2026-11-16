@@ -270,7 +270,14 @@ export function listedActivities<T extends { data: { withdrawn?: unknown } }>(ca
  * The byline line for the review record (TSA-034). It names only what the
  * record holds, and says plainly when there is no record.
  */
-export function reviewByline(review: { name: string; credential: string } | undefined, dateText: string): string {
+export function reviewByline(
+  review: { name: string; credential: string; body?: string | undefined } | undefined,
+  dateText: string,
+): string {
   if (!review) return 'Not yet reviewed by an outside expert.';
-  return `Reviewed by ${review.name}, ${review.credential}, on ${dateText}.`;
+  const who = review.body ? `${review.credential} (${review.body})` : review.credential;
+  return `Reviewed by ${review.name}, ${who}, on ${dateText}.`;
 }
+
+/** What a shown review says about its limit: a review checks the card, it does not make the activity therapy (CNT-1004). */
+export const REVIEW_LIMIT = 'This review checked what is written here. It does not make the activity therapy.';

@@ -80,7 +80,8 @@ const detectLanguage = lang === DEFAULT_LOCALE && path === '/';
       alternates.length > 1 &&
         alternates.map((l) => <link rel="alternate" hreflang={l.bcp47} href={absoluteUrl(localePath(l.code, path))} />)
     }
-    {alternates.length > 1 && <link rel="alternate" hreflang="x-default" href={absoluteUrl(path)} />}
+    {/* x-default is the English page; a page whose English version is retired has none (SEO-031). */}
+    {alternates.length > 1 && alternates.some((l) => l.code === DEFAULT_LOCALE) && <link rel="alternate" hreflang="x-default" href={absoluteUrl(path)} />}
     {blockIndexing && <meta name="robots" content="noindex, follow" />}
     {!blockIndexing && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
     <meta name="theme-color" content="#FAF8F2" />

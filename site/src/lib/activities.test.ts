@@ -12,6 +12,7 @@ import {
   matches,
   minutesRange,
   reviewByline,
+  REVIEW_LIMIT,
   VARIATION_LABELS,
   type ActivityFacts,
 } from './activities';
@@ -244,6 +245,18 @@ describe('review byline (TSA-034)', () => {
     const line = reviewByline({ name: 'Jane Example', credential: 'Registered occupational therapist' }, 'November 10, 2026');
     expect(line).toBe('Reviewed by Jane Example, Registered occupational therapist, on November 10, 2026.');
     expect(line.toLowerCase()).not.toContain('clinically');
+  });
+
+  it('names the body that holds the credential when the record has one (CNT-1004)', () => {
+    const line = reviewByline(
+      { name: 'Jane Example', credential: 'ATR-BC', body: 'Art Therapy Credentials Board' },
+      'November 10, 2026',
+    );
+    expect(line).toBe('Reviewed by Jane Example, ATR-BC (Art Therapy Credentials Board), on November 10, 2026.');
+  });
+
+  it('says on every shown review that it does not make the activity therapy (CNT-1004)', () => {
+    expect(REVIEW_LIMIT).toMatch(/does not make the activity therapy/);
   });
 });
 

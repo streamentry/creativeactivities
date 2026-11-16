@@ -340,7 +340,9 @@ Depends on: [SEO-030](12-search-geo-distribution.md), [SEO-031](12-search-geo-di
 Risks / not doing: Do not use indexation to test whether a language would rank.
 
 ### L10N-021 · Stale translations after English changes
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: every translated guide records `translatedFrom`, the English `updated` date it was made from, so staleness is found from two dates and set by no one. A translated guide made from an older English page now shows an "out of date" notice at the top, in English until a language has its own wording (marked `lang="en"` for screen readers), with a link to the current English page and, on a guide that carries health advice, a line to check the English page and ask a doctor or nurse. `site/scripts/check-site.mjs` fails the build if a stale translation of a live English guide lacks the notice or a current one shows it. `pnpm translations:queue` lists the stale translations with protected guides (health advice or the crisis route) first, then the most days behind. `site/src/lib/translation-freshness.test.ts` covers the date rules, the order and a fixture folder. Today 362 translations in 182 languages are behind two English guides that were retired on 2026-11-15; those translations stay live until replaced (maintainer decision), so they are reported separately and show no notice. No translation of a live guide is stale. Proven by temporarily moving two live guides' `updated` date forward: 75 translations of the health guide showed the notice and the build check passed; the dates were then restored. Not done: a re-review SLA in the roadmap; segment-level states (depends on [L10N-005](#l10n-005--content-that-is-never-published-by-machine-alone)); hiding a stale protected page instead of flagging it; stale activity cards and interface strings (cards are English only).
 
 Why: An English fix that does not reach the translation keeps the error in place. A translated safety line that no longer matches the English is a harm.
 
