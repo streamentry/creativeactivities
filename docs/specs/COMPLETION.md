@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 155 | 188 | 407 |
+| S2 | 64 | 156 | 187 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **195** | **261** | **533** |
+| **All** | **77** | **196** | **260** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -140,6 +140,7 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Claims lint extended to each card picture's alt text and caption (a condition-led description fails) and to badge phrases such as "clinically reviewed" and "therapist-approved"; new slug test fails on any address that names therapy, healing or cure or pairs art or music with a condition, except the explainers and one legacy address (`activities/therapeutic-art-activities-for-adults`, kept for inbound links) | CNT-1000 → partial (benefit sentences traced to the register and signed off by a reviewer; rename of the legacy address with a redirect) | vitest 3,082 pass (5 slug tests, 6 claims tests, 3 schema tests and 2 byline tests new; 4 of the new claims tests fail against the old lint); build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; `tsc` clean for the changed files |
 | Review record now holds the reviewer's role (nine roles) and the register or board that holds the credential (required except for lived experience); a shown review prints the body in the byline and says it does not make the activity therapy | CNT-1004 → partial (no reviewer named, so no card has a record; no marker for a declined page) | schema, byline and claims tests; a trial record on one card showed the byline and section in the built page, then was removed |
 | Classified two dementia and CALM table rows from the repo: the retired dementia guides now lead to the hub and the kept ideas list (none reviewed), and the "Therapeutic" guide was retitled as relaxing activities (the address keeps its old slug); fixed the garbled titles of the CNT-901 to 911 rows in the index | CNT-907, CNT-909 → partial (specialist, OT and lived-experience review; CALM reviewer) | docs only; titles read from the guide front matter |
+| Parenting boundaries: the claims lint now fails on "builds, develops, boosts, improves, teaches ... a named skill" and on "skill-building" unless negated, questioned, quoted, warned about or cited as research; `check-site` fails any autoplaying video or audio element or frame. No current copy needed changing | TSA-022 → partial ("playful practice" wording is not checked; child-development reviewer not named) | vitest 3,091 pass; claims tests 61 (4 new fail against the old lint); injecting an autoplay video into a built page made `check-site` fail, then restored |
 
 ## What blocks the rest
 

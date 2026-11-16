@@ -179,6 +179,8 @@ for (const file of htmlFiles) {
   const pageScripts = pageCsp.match(/script-src [^;]*/)?.[0] ?? '';
   const missingHash = (pageScripts.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
+  // TSA-022, WEB-035: nothing plays by itself. Words about autoplay in advice are fine; media elements and frames are not.
+  if (/<(?:video|audio)\b[^>]*\sautoplay\b/i.test(html) || /\sallow="[^"]*\bautoplay\b/i.test(html)) err(rel, 'media is set to autoplay (TSA-022)');
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 

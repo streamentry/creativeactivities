@@ -80,6 +80,13 @@ export const RULES: Rule[] = [
   { id: 'proof-claim', pattern: /\b(?:clinically|scientifically)\s+(?:proven|proved|shown|tested|validated)\b|\bproven\b/gi },
   { id: 'stress-relief', pattern: /\bstress[- ]relie(?:f|ving|ver)s?\b/gi },
   { id: 'dementia-sufferer', pattern: /\bdementia sufferers?\b/gi },
+  // TSA-022: an activity is "playful practice", never a claim to build a named skill, unless the sentence cites evidence.
+  {
+    id: 'skill-claim',
+    pattern:
+      /\b(?:builds?|develops?|boosts?|improves?|strengthens?|teaches|enhances?|promotes?|fosters?|sharpens?)\s+(?:\w+\s+){0,3}?(?:skills?|motor|literacy|numeracy|vocabulary|coordination|confidence|creativity|dexterity|imagination|self-esteem|resilience|empathy|school readiness|development)\b/gi,
+  },
+  { id: 'skill-building', pattern: /\bskill[- ]building\b/gi },
   // CNT-1004: no "reviewed" badge in copy. A review is shown only from a card's review record.
   {
     id: 'review-badge',
