@@ -281,6 +281,24 @@ for (const file of htmlFiles) {
 for (const [key, pages] of titles) if (pages.length > 1) err(pages.join(', '), `duplicate title "${key.split('|').slice(1).join('|')}"`);
 for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join(', '), `duplicate description`);
 
+// WEB-003: every page the search index lists is a built page, and nothing is listed twice.
+{
+  const indexPath = join(DIST, 'search-index.json');
+  if (!existsSync(indexPath)) err('search-index.json', 'is missing: site search has nothing to look through');
+  else {
+    const file = JSON.parse(readFileSync(indexPath, 'utf8'));
+    const entries = Array.isArray(file.entries) ? file.entries : [];
+    if (entries.length < 100) err('search-index.json', `lists only ${entries.length} pages`);
+    const seenUrls = new Set();
+    for (const e of entries) {
+      if (typeof e.url !== 'string' || typeof e.title !== 'string' || !e.title.trim()) err('search-index.json', `has an entry with no address or title: ${JSON.stringify(e).slice(0, 80)}`);
+      else if (!existsSync(join(DIST, e.url, 'index.html'))) err('search-index.json', `lists ${e.url}, which is not a built page`);
+      if (seenUrls.has(e.url)) err('search-index.json', `lists ${e.url} twice`);
+      seenUrls.add(e.url);
+    }
+  }
+}
+
 // Every translated guide written for a published language must be built. Folder names keep their
 // case (pt-BR, zh-Hant) while the URL prefix is lowercase; a case mismatch once dropped all 40
 // guides in four languages without any other check noticing.
