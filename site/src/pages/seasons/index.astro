@@ -1,0 +1,75 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SeasonNow } from '../../tools/SeasonNow';
+import { SEASON_PAGES } from '../../data/seasons';
+---
+<PageLayout
+  title="Activities by Season"
+  seoTitle="Activities by Season, North or South"
+  description="Choose the season where you live, in the northern or southern half of the world, and find activities that suit it. No holiday assumed, everyday materials."
+  path="/seasons/"
+  crumb="Seasons"
+  lede="Seasons run opposite ways in the two halves of the world, so you choose yours. We do not tie a season to any holiday."
+>
+  <SeasonNow client:load />
+  <h2>The four seasons</h2>
+  <ul class="activity-list">
+    {
+      SEASON_PAGES.map((p) => (
+        <li>
+          <a href={`/seasons/${p.id}/`}>{p.title}</a>. {p.months}
+        </li>
+      ))
+    }
+  </ul>
+  <p>
+    For making something for a festival or a family day of your own choosing, see{' '}
+    <a href="/seasonal-activities/">seasonal activities for any celebration</a>.
+  </p>
+</PageLayout>
+
+<style is:global>
+  .season-now {
+    margin: var(--space-lg) 0 var(--space-xl);
+    padding: var(--space-lg);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    background: var(--gm-surface-raised);
+  }
+  .season-now__choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    border: 0;
+    padding: 0;
+    margin: 0 0 var(--space-md);
+  }
+  .season-now__choices legend {
+    padding: 0;
+    margin-bottom: var(--space-xs);
+    font-weight: 600;
+  }
+  .season-now__choice {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    min-height: 3rem;
+    padding: 0 var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    cursor: pointer;
+  }
+  .season-now__choice:has(input:checked) {
+    background: var(--gm-primary-container);
+    color: var(--gm-on-primary-container);
+    box-shadow: inset 0 0 0 2px var(--gm-primary);
+  }
+  .season-now__choice:has(input:focus-visible) {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+  }
+  .season-now__answer {
+    margin: 0;
+    font-size: 1.125rem;
+  }
+</style>

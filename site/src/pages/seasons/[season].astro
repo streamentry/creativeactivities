@@ -1,0 +1,10 @@
+---
+import SeasonView from '../../views/SeasonView.astro';
+import { SEASON_PAGES } from '../../data/seasons';
+
+export function getStaticPaths() {
+  return SEASON_PAGES.map((page) => ({ params: { season: page.id }, props: { page } }));
+}
+const { page } = Astro.props;
+---
+<SeasonView page={page} />

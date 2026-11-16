@@ -54,7 +54,9 @@ describe('search hubs', () => {
             : slug
               ? new URL(`../content/guides/${kind}/${slug}.md`, import.meta.url)
               : new URL(`${kind}.md`, hubDir);
-        expect(path === '/activity/' || existsSync(target), `${hub} links to missing page ${path}`).toBe(true);
+        // The seasons pages are routes, not content files (src/pages/seasons).
+        const seasonRoute = kind === 'seasons' && existsSync(new URL('seasons/index.astro', pageDir));
+        expect(path === '/activity/' || seasonRoute || existsSync(target), `${hub} links to missing page ${path}`).toBe(true);
       }
     });
 
