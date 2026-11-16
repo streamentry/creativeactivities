@@ -21,7 +21,9 @@ Four things are true of every CALM page:
 
 Art therapy is a regulated profession in some countries and a protected title in others (R3 §2). Professional bodies use the term to describe a practice inside a clinical or psychotherapeutic relationship. Consumer sites often use it loosely (R3 §2 and §7 cite Calm's blog and a coloring app listing). MISSION says: "Art therapy" is a professional practice, not a marketing synonym for crafts. This section turns that into rules.
 
-**CNT-1000 · Art-therapy boundary policy** · P0 · Phase S1 · Status new · Pillars: CALM (all)
+**CNT-1000 · Art-therapy boundary policy** · P0 · Phase S1 · Status partial · Pillars: CALM (all)
+
+Evidence (2026-11-16): the claims lint (`site/src/lib/claims.ts`) fails the build on the banned column of the table below, with the explainer pages as its only allow-list (`EXPLAINER_FILES`). It reads activity cards, hubs, English guides, the English interface, game and app strings, the app's ARB file and the English store copy. It now also reads each card picture's alt text and caption, so a condition-led description such as "Art for anxiety" fails, and it rejects badge phrases such as "clinically reviewed" and "therapist-approved". `site/src/lib/claims-slugs.test.ts` fails on any address that names therapy, healing or cure, or pairs an art or music word with a condition, except the explainers and one legacy address (`activities/therapeutic-art-activities-for-adults`, kept so inbound links work; its title and text were rewritten as relaxing activities, not therapy). Not done: every benefit sentence on a CALM page traced to a row in section 3 and signed off by a credentialed reviewer; renaming the legacy address with a redirect; the other conflicting guides are tracked under CNT-960.
 
 Why: MISSION non-negotiable 6 and VISION "evidence and humility"; R3 §7 regulatory exposure (Apple 1.4.1, FDA general wellness, MHRA guidance, Google Play health policy) and credential misuse. [R3 §5, §7]
 
@@ -132,7 +134,9 @@ Risks / not doing: we do not run a helpline, do not chat with users in crisis, a
 
 Art therapy is a credentialed profession. Activities that touch emotion, grief, trauma or mental health need reviewers who hold the right credential, and the credential must be checked, not assumed.
 
-**CNT-1004 · CALM reviewer roles and review record** · P0 · Phase S1 · Status new · Pillars: CALM
+**CNT-1004 · CALM reviewer roles and review record** · P0 · Phase S1 · Status partial · Pillars: CALM
+
+Evidence (2026-11-16): the review record (`reviewSchema` in `site/src/lib/activity-schema.ts`) holds the reviewer's role (nine roles, including the five in the table below), name, credential, the register or board that holds it (required for every role except lived experience), date, scope, not-for, not-without-someone-nearby, stop signs and `permissionOnFile: true`. A shown review prints the credential with its body in the byline and says "This review checked what is written here. It does not make the activity therapy." Copy that says "clinically reviewed", "therapist-approved" or the like fails the claims lint, so a reviewed badge can only come from a record. Tested in `activity-schema.test.ts`, `activities.test.ts` and `claims.test.ts`; a trial record on one card showed the byline and the review section in the built page, then was removed. Not done: no reviewer has been named or has given permission, so no card has a record; nothing marks a page a reviewer declined; the credential check against the issuing body is the reviewer's, not automated.
 
 Roles (at least one for each page type before it is published):
 
@@ -223,11 +227,11 @@ This list is binding. A request to add any of these is a product decision, not a
 
 | CNT | Item | Priority | Phase | Status |
 |---|---|---|---|---|
-| CNT-1000 | Art-therapy boundary policy | P0 | S2 | new |
-| CNT-1001 | Claim register and phrasing rules | P0 | S2 | new |
+| CNT-1000 | Art-therapy boundary policy | P0 | S2 | partial |
+| CNT-1001 | Claim register and phrasing rules | P0 | S2 | partial |
 | CNT-1002 | Trauma-informed defaults | P0 | S2 | new |
 | CNT-1003 | Crisis route by country (UK, Ireland, US checked; others unverified) | P0 | S2 | partial |
-| CNT-1004 | Reviewer roles and review record | P0 | S2 | new |
+| CNT-1004 | Reviewer roles and review record | P0 | S2 | partial |
 | CNT-1010 to 1019 | Activity families (section 8) | P1 to P2 | S1 to S3 | new |
 | CNT-1020 | Referral guides | P1 | S2 | partial |
 | CNT-1017 | Grief and remembrance making | P2 | S2 | new |

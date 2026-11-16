@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 151 | 192 | 407 |
+| S2 | 64 | 155 | 188 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **191** | **265** | **533** |
+| **All** | **77** | **195** | **261** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -137,6 +137,9 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | Stale-translation notice: a translated guide made from an older English page shows an "out of date" notice with a link to the current English page (a stronger line on health guides), found from the `translatedFrom` and `updated` dates; `pnpm translations:queue` lists stale translations with protected guides first; `check-site` fails if a stale page lacks the notice or a current one shows it. Today 362 translations (182 languages) are behind two retired English guides and are reported separately, with no notice; none of a live guide is stale | L10N-021 → partial (re-review SLA, segment-level states, hiding a stale protected page) | vitest 3,066 pass (20 new); `tsc` clean for the new files; build 16,526 pages; `check-site` 0 errors; proven by moving two live guides' dates forward (75 translations of the health guide showed the notice, check passed) and restoring them; viewed in the browser |
 | Hreflang reciprocity check in `check-site`: each page lists itself, no repeated code, every alternate is a built page that links back, `x-default` is in the set. First run failed 10,541 pages, a real defect from the guide retirement (`x-default` and the retired section's alternates pointed at redirecting English addresses); fixed in the layout and the section view | SEO-031 → partial (reviewed-language gate, content-identifier mapping, partial-translation rule) | `check-site` 0 errors on 16,526 pages; removing one back-link from a built page produced the expected error, then restored |
+| Claims lint extended to each card picture's alt text and caption (a condition-led description fails) and to badge phrases such as "clinically reviewed" and "therapist-approved"; new slug test fails on any address that names therapy, healing or cure or pairs art or music with a condition, except the explainers and one legacy address (`activities/therapeutic-art-activities-for-adults`, kept for inbound links) | CNT-1000 → partial (benefit sentences traced to the register and signed off by a reviewer; rename of the legacy address with a redirect) | vitest 3,082 pass (5 slug tests, 6 claims tests, 3 schema tests and 2 byline tests new; 4 of the new claims tests fail against the old lint); build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; `tsc` clean for the changed files |
+| Review record now holds the reviewer's role (nine roles) and the register or board that holds the credential (required except for lived experience); a shown review prints the body in the byline and says it does not make the activity therapy | CNT-1004 → partial (no reviewer named, so no card has a record; no marker for a declined page) | schema, byline and claims tests; a trial record on one card showed the byline and section in the built page, then was removed |
+| Classified two dementia and CALM table rows from the repo: the retired dementia guides now lead to the hub and the kept ideas list (none reviewed), and the "Therapeutic" guide was retitled as relaxing activities (the address keeps its old slug); fixed the garbled titles of the CNT-901 to 911 rows in the index | CNT-907, CNT-909 → partial (specialist, OT and lived-experience review; CALM reviewer) | docs only; titles read from the guide front matter |
 
 ## What blocks the rest
 
