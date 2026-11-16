@@ -22,6 +22,20 @@ const SIDES = 2;
 // list, and for each card. The same numbers are in src/lib/pack.ts; pack.test.ts fails if they differ.
 const COVER_PAGES = 2;
 const CARD_PAGES = 2;
+// Print templates (PLAT-039, MET-020): every template with a paper version prints within the pages it declares, on A4 and on
+// US Letter, and its steps are as large as the standard says. The limits are what each template printed on when they were
+// last read (2026-11-17), so a layout that grows fails here and has to be looked at.
+/** Step text in print, in points: WEB-014 asks 12 for a card and a pack, WEB-018 asks 18 for large print (both proposals). */
+export const STEP_PT = { card: 12, pack: 12, largePrint: 18 };
+const LARGE_PRINT_PAGES = 5;
+/** A cover and two pages for each of five cards. */
+const FIXED_PACK_PAGES = 12;
+const WEEKLY_PROGRAM_PAGES = 2;
+/**
+ * A game's paper version is one page (WEB-052), except the sets of cards to cut out. Bingo cards are drawn at random each time
+ * the page loads, so its set runs from 8 to 9 pages and the limit leaves one more.
+ */
+export const GAME_SHEET_PAGES = { 'conversation-cards': 6, 'picture-bingo': 10 };
 // A four-week path (WEB-032) prints on at most this many pages (two pages are one sheet printed on both sides), with its
 // buttons and counts left off the paper and its addresses and version line on it.
 const PATH_PAGES = 2;
@@ -109,6 +123,38 @@ async function longestSupplyList(context, base) {
   return result;
 }
 
+/** The smallest printed size, in points, of the steps on a page, or null when it shows none. */
+async function stepSize(page) {
+  return page.evaluate(() => {
+    const sizes = [...document.querySelectorAll('.activity-steps li')]
+      .filter((el) => getComputedStyle(el).display !== 'none' && el.offsetParent !== null)
+      .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
+    return sizes.length ? Math.min(...sizes) : null;
+  });
+}
+
+/** The text of each step on a page, as printed: the words that must not change between the standard and the large-print edition. */
+async function stepTexts(page) {
+  return page.evaluate(() =>
+    [...document.querySelectorAll('.activity-steps li')]
+      .filter((el) => getComputedStyle(el).display !== 'none' && el.offsetParent !== null)
+      .map((el) => el.textContent.replace(/\s+/g, ' ').trim()),
+  );
+}
+
+/** Pages a page prints on, on each paper size. */
+async function printedPages(page) {
+  const counts = {};
+  for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+  return counts;
+}
+
+/** The games that have a paper version, from the table in src/data/game-print.ts: `{ slug, kind }` for kind page or island. */
+export function gamesWithPaper() {
+  const source = readFileSync(new URL('../src/data/game-print.ts', import.meta.url), 'utf8');
+  return [...source.matchAll(/^\s*'?([a-z-]+)'?:\s*\{\s*kind:\s*'(page|island|none)'/gm)].filter((m) => m[2] !== 'none').map((m) => ({ slug: m[1], kind: m[2] }));
+}
+
 async function main() {
   if (!existsSync(join(DIST, 'index.html'))) {
     console.error('dist/ is missing. Run `pnpm build` first.');
@@ -133,6 +179,16 @@ async function main() {
   const failures = [];
   let packChecked = 0;
   let pathsChecked = 0;
+  // The pass rate per template type (MET-020): how many pages of each type passed, of how many were checked.
+  const templates = new Map();
+  /** The steps each card prints, to compare with its large-print edition: the layout changes and the words do not (WEB-018). */
+  const cardSteps = new Map();
+  const record = (type, ok) => {
+    const row = templates.get(type) ?? { ok: 0, total: 0 };
+    row.total += 1;
+    if (ok) row.ok += 1;
+    templates.set(type, row);
+  };
   try {
     for (const slug of slugs) {
       const page = await context.newPage();
@@ -146,9 +202,12 @@ async function main() {
       for (const format of FORMATS) {
         counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
       }
-      const ok = hidden && FORMATS.every((f) => counts[f] === SIDES);
-      if (!ok) failures.push({ slug, counts, hidden });
-      console.log(`${slug.padEnd(42)} A4 ${counts.A4}  Letter ${counts.Letter}  navigation hidden ${hidden ? 'yes' : 'NO'}  ${ok ? 'ok' : 'FAIL'}`);
+      const stepPt = await stepSize(page);
+      cardSteps.set(slug, await stepTexts(page));
+      const ok = hidden && FORMATS.every((f) => counts[f] === SIDES) && stepPt !== null && stepPt >= STEP_PT.card;
+      if (!ok) failures.push({ slug, counts, hidden, stepPt });
+      record('card', ok);
+      console.log(`${slug.padEnd(42)} A4 ${counts.A4}  Letter ${counts.Letter}  navigation hidden ${hidden ? 'yes' : 'NO'}  steps ${stepPt?.toFixed(0) ?? 'none'} pt  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     }
 
@@ -161,6 +220,7 @@ async function main() {
       for (const format of FORMATS) counts[format].card = counts[format].whole - counts[format].cover;
       const ok = shown && FORMATS.every((f) => counts[f].cover <= COVER_PAGES && counts[f].card <= CARD_PAGES);
       if (!ok) packFailures.push({ slug, counts, shown });
+      record('pack builder', ok);
       console.log(`pack: ${slug.padEnd(42)} cover A4 ${counts.A4.cover} Letter ${counts.Letter.cover}  card A4 ${counts.A4.card} Letter ${counts.Letter.card}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     }
@@ -175,6 +235,7 @@ async function main() {
       const limit = COVER_PAGES + CARD_PAGES * 8;
       const ok = shownCards === 8 && FORMATS.every((f) => counts[f].cover <= COVER_PAGES && counts[f].whole <= limit);
       if (!ok) packFailures.push({ slug: 'the longest supply list', counts, shownCards });
+      record('pack builder', ok);
       console.log(`pack: the longest supply list found, ${search.lines} lines for 8 cards: cover A4 ${counts.A4.cover} Letter ${counts.Letter.cover}, whole pack A4 ${counts.A4.whole} Letter ${counts.Letter.whole} (limit ${limit})  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     }
@@ -190,6 +251,7 @@ async function main() {
       const seen = await page.evaluate(() => [...document.querySelectorAll('[data-pack-card]:not([hidden])')].map((c) => ({ id: c.dataset.packCard, versions: [...c.querySelectorAll('[data-variation]:not([hidden])')].map((v) => v.dataset.variation) })));
       const ok = three.length === 3 && seen.map((c) => c.id).join() === three.join() && seen.every((c) => c.versions.join() === 'bedside');
       if (!ok) packFailures.push({ slug: 'bedside order', three, seen });
+      record('pack builder', ok);
       console.log(`pack: three cards in the order named, all in the bedside version: ${seen.map((c) => `${c.id} [${c.versions.join(',')}]`).join(' ')}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     }
@@ -221,15 +283,47 @@ async function main() {
       for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
       const ok = paper.offTotal > 0 && paper.offShown === 0 && paper.onTotal > 0 && paper.onHidden === 0 && FORMATS.every((f) => counts[f] <= PATH_PAGES);
       if (!ok) failures.push({ slug: `paths/${id}`, counts, paper });
+      record('path', ok);
       console.log(`path: ${id.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  left off the paper ${paper.offTotal - paper.offShown}/${paper.offTotal}  on the paper ${paper.onTotal - paper.onHidden}/${paper.onTotal}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
       pathsChecked += 1;
+    }
+
+    // The other templates with a paper version: large print, the fixed packs, the weekly program and the games.
+    const check = async (type, label, url, maxPages, minStepPt, sameStepsAs = null) => {
+      const page = await context.newPage();
+      await page.goto(`${base}${url}`, { waitUntil: 'networkidle' });
+      await page.emulateMedia({ media: 'print' });
+      const counts = await printedPages(page);
+      const stepPt = minStepPt ? await stepSize(page) : null;
+      const sameWords = !sameStepsAs || JSON.stringify(await stepTexts(page)) === JSON.stringify(sameStepsAs);
+      const ok = FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages) && (!minStepPt || (stepPt !== null && stepPt >= minStepPt)) && sameWords;
+      if (!ok) failures.push({ slug: `${type}: ${label}`, counts, maxPages, stepPt, sameWords });
+      record(type, ok);
+      console.log(`${type}: ${label.padEnd(36)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}${minStepPt ? `  steps ${stepPt?.toFixed(0) ?? 'none'} pt (at least ${minStepPt})` : ''}${sameStepsAs ? `  same words as the card ${sameWords ? 'yes' : 'NO'}` : ''}  ${ok ? 'ok' : 'FAIL'}`);
+      await page.close();
+    };
+    for (const slug of slugs) {
+      if (existsSync(join(DIST, 'activity', slug, 'large-print', 'index.html'))) {
+        await check('large-print card', slug, `/activity/${slug}/large-print/`, LARGE_PRINT_PAGES, STEP_PT.largePrint, cardSteps.get(slug));
+      }
+    }
+    const packDir = join(DIST, 'activity', 'packs');
+    for (const id of existsSync(packDir) ? readdirSync(packDir) : []) {
+      if (existsSync(join(packDir, id, 'index.html'))) await check('pack', id, `/activity/packs/${id}/`, FIXED_PACK_PAGES, STEP_PT.pack);
+    }
+    await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
+    for (const { slug, kind } of gamesWithPaper()) {
+      await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }
   } finally {
     await browser.close();
     server?.close();
   }
-  console.log(`\nChecked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over a page limit (${packChecked} pack builds and ${pathsChecked} paths checked).`);
+  const types = [...templates];
+  const passing = types.filter(([, row]) => row.ok === row.total).length;
+  console.log(`\nPrint templates: ${passing} of ${types.length} pass (${types.length ? Math.round((100 * passing) / types.length) : 0}%): ${types.map(([type, row]) => `${type} ${row.ok}/${row.total}`).join(', ')}.`);
+  console.log(`Checked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over a page limit (${packChecked} pack builds and ${pathsChecked} paths checked).`);
   process.exit(failures.length ? 1 : 0);
 }
 

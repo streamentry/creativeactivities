@@ -346,7 +346,9 @@ Risks / not doing: Bulk copying for resale. The noncommercial line and the free-
 
 ### WEB-018 · Large-print editions
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, MAKE
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, MAKE
+
+Evidence (2026-11-17): every one of the 53 cards has a large-print edition at `/activity/<slug>/large-print/` (`site/src/views/LargePrintView.astro`, `large-print.css`), linked from the card and from the fixed packs, with a larger QR code, and not indexed. `pnpm check:print` prints all 53 on A4 and US Letter and fails the run unless the step text prints at 18 pt or more, each edition fits in 5 pages, and its steps are word for word the standard card's. Not done: the test with at least three people who read large print in their daily lives; a check in black and white beyond printing without backgrounds, which is how a browser prints; and a link from the pack builder.
 
 Why: Low vision is one of the situations we must serve ([01, row 12](01-positioning-and-audiences.md#3-situations)), and DESIGN asks for large type and strong contrast ([DESIGN §6](../../../DESIGN.md); [MISSION, "Accessible by default"](../../../MISSION.md)).
 
