@@ -51,7 +51,7 @@ WEB-049	P3	S4	new	03-features-web.md	Organization accounts
 WEB-050	P1	S2	partial	03-features-web.md	Share a card
 WEB-051	P1	S2	partial	03-features-web.md	Games filters
 WEB-052	P1	S2	partial	03-features-web.md	Printable partner on each game page
-WEB-053	P1	S2	new	03-features-web.md	Difficulty without scores
+WEB-053	P1	S2	partial	03-features-web.md	Difficulty without scores
 WEB-054	P0	S2	exists	03-features-web.md	Stop and rest on every game
 WEB-055	P0	S1	exists	03-features-web.md	Family photos stay on the device
 WEB-056	P0	S1	exists	03-features-web.md	Structured data that matches visible content
@@ -70,8 +70,8 @@ WEB-068	P0	S2	partial	03-features-web.md	Privacy-minimal analytics
 WEB-069	P0	S2	partial	03-features-web.md	No ads, no third-party embeds, and a cookie rule
 WEB-070	P0	S2	exists	03-features-web.md	Notification policy
 WEB-071	P1	S2	new	03-features-web.md	Email digest, opt-in only
-WEB-072	P0	S2	new	03-features-web.md	Child-facing pages rule
-WEB-073	P0	S2	new	03-features-web.md	Image consent and rights log
+WEB-072	P0	S2	partial	03-features-web.md	Child-facing pages rule
+WEB-073	P0	S2	partial	03-features-web.md	Image consent and rights log
 WEB-074	P0	S1	partial	03-features-web.md	Performance budget
 WEB-075	P0	S2	exists	03-features-web.md	Accessibility tests in CI
 WEB-076	P1	S2	partial	03-features-web.md	Due-for-review queue
@@ -187,11 +187,11 @@ CNT-013	P2	S2	new	06-content-library.md	Seasonal calendar and collections
 CNT-014	P2	S2	new	06-content-library.md	Educator and care-setting programme
 CNT-015	P1	S2	exists	06-content-library.md	FAQ
 CNT-030	P0	S2	new	06-content-library.md	Editorial pipeline
-CNT-031	P0	S2	new	06-content-library.md	Media rights and provenance
+CNT-031	P0	S2	partial	06-content-library.md	Media rights and provenance
 CNT-032	P0	S2	new	06-content-library.md	AI-assistance policy
 CNT-033	P1	S2	new	06-content-library.md	Target library sizes
-CNT-034	P1	S2	new	06-content-library.md	Update, correction and retirement
-CNT-040	P0	S2	new	06-content-library.md	Library inventory
+CNT-034	P1	S2	partial	06-content-library.md	Update, correction and retirement
+CNT-040	P0	S2	partial	06-content-library.md	Library inventory
 CNT-701	P1	S2	exists	07-pillar-crafting.md	Paper
 CNT-702	P1	S2	exists	07-pillar-crafting.md	Painting
 CNT-703	P1	S2	exists	07-pillar-crafting.md	Drawing
@@ -265,8 +265,8 @@ CNT-1017	P2	S2	new	10-pillar-creative-wellbeing.md	Grief and remembrance making
 CNT-1018	P2	S2	partial	10-pillar-creative-wellbeing.md	Stress-relief making
 CNT-1019	P2	S2	new	10-pillar-creative-wellbeing.md	Creative routines
 CNT-1000	P0	S2	new	10-pillar-creative-wellbeing.md	Art-therapy boundary policy
-CNT-1001	P0	S2	new	10-pillar-creative-wellbeing.md	Claim register and phrasing rules
-CNT-1002	P0	S2	new	10-pillar-creative-wellbeing.md	Trauma-informed defaults
+CNT-1001	P0	S2	partial	10-pillar-creative-wellbeing.md	Claim register and phrasing rules
+CNT-1002	P0	S2	partial	10-pillar-creative-wellbeing.md	Trauma-informed defaults
 CNT-1003	P0	S2	partial	10-pillar-creative-wellbeing.md	Crisis route by country (UK, Ireland, US checked; others unverified)
 CNT-1004	P0	S2	new	10-pillar-creative-wellbeing.md	Reviewer roles and review record
 CNT-1020	P1	S2	partial	10-pillar-creative-wellbeing.md	Referral guides
@@ -402,9 +402,9 @@ TSA-015	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Photos stay on th
 TSA-016	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Retention, deletion and data requests
 TSA-017	P1	S2	new	14-trust-safety-accessibility-privacy.md	Privacy notice and store privacy labels
 TSA-018	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Child-reachable default
-TSA-019	P0	S2	new	14-trust-safety-accessibility-privacy.md	No ads or ad technology on child-reachable pages
+TSA-019	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No ads or ad technology on child-reachable pages
 TSA-020	P0	S2	new	14-trust-safety-accessibility-privacy.md	UK Age Appropriate Design Code assessment
-TSA-021	P0	S2	new	14-trust-safety-accessibility-privacy.md	Children in media
+TSA-021	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Children in media
 TSA-022	P1	S2	new	14-trust-safety-accessibility-privacy.md	Parenting content boundaries
 TSA-023	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Standard safety vocabulary and fields
 TSA-024	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Supervision and food-as-material rules
@@ -436,7 +436,7 @@ TSA-049	P1	S2	new	14-trust-safety-accessibility-privacy.md	Sponsorship and partn
 TSA-050	P3	S4	new	14-trust-safety-accessibility-privacy.md	Physical kit product safety, if sold
 PLAT-001	P0	S2	partial	15-platform-data-architecture.md	Stable entity IDs separate from slugs
 PLAT-002	P1	S2	new	15-platform-data-architecture.md	Variations as first-class records
-PLAT-003	P0	S2	new	15-platform-data-architecture.md	Media asset records and rights log
+PLAT-003	P0	S2	partial	15-platform-data-architecture.md	Media asset records and rights log
 PLAT-004	P0	S2	partial	15-platform-data-architecture.md	Translation records with source hashes
 PLAT-005	P0	S2	partial	15-platform-data-architecture.md	Review records that cannot be faked
 PLAT-006	P1	S2	partial	15-platform-data-architecture.md	Source records and claim links

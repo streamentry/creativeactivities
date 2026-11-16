@@ -43,6 +43,15 @@ variations:
   - kind: with-children
     text: "A child holds the knot steady while the grandparent braids, then swap. Choose the three colors together."
 images:
+  - src: /pictures/friendship-bracelet.svg
+    alt: "Drawing of a braided bracelet in red, yellow and blue thread, tied in a loop with loose ends at the top."
+    caption: "A finished braided bracelet."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/friendship-bracelet-materials.svg
     alt: "Drawing of three strands of yarn in red, yellow and blue taped to a clipboard and plaited partway down, with a roll of masking tape and scissors."
     caption: "What you need: three colors of yarn, masking tape, a clipboard and scissors."

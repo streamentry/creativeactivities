@@ -18,7 +18,7 @@ import {
   tapTogether,
 } from './together';
 import { ODD_COUNTS, createOddRound, oddTapResult, sharedSize, showOdd, startOdd, tapOdd } from './odd-one-out';
-import { ACTIVITY_MATERIALS, PICTURE_BY_ID, PICTURES } from '../../data/pictures';
+import { ACTIVITY_MATERIALS, ACTIVITY_RESULTS_SITE, PICTURE_BY_ID, PICTURES } from '../../data/pictures';
 import { ACTIVITY_RESULTS_A } from '../../data/picture-art/activity-results-a';
 import { ACTIVITY_RESULTS_B } from '../../data/picture-art/activity-results-b';
 
@@ -293,7 +293,7 @@ describe('four together', () => {
   });
 
   it('uses only general library drawings, each in exactly one theme', () => {
-    const results = new Set([...ACTIVITY_RESULTS_A, ...ACTIVITY_RESULTS_B, ...ACTIVITY_MATERIALS].map((p) => p.id));
+    const results = new Set([...ACTIVITY_RESULTS_A, ...ACTIVITY_RESULTS_B, ...ACTIVITY_MATERIALS, ...ACTIVITY_RESULTS_SITE].map((p) => p.id));
     const general = new Set(PICTURES.map((p) => p.id));
     for (const theme of TOGETHER_THEMES) {
       expect(theme.pictures.length, theme.id).toBeGreaterThanOrEqual(4);

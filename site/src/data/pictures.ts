@@ -11,6 +11,7 @@ import { ACTIVITY_RESULTS_B } from './picture-art/activity-results-b.ts';
 import { ACTIVITY_MATERIALS_A } from './picture-art/activity-materials-a.ts';
 import { ACTIVITY_MATERIALS_B } from './picture-art/activity-materials-b.ts';
 import { ACTIVITY_MATERIALS_C } from './picture-art/activity-materials-c.ts';
+import { ACTIVITY_RESULTS_C } from './picture-art/activity-results-c.ts';
 import { MORE_PICTURES } from './picture-art/more.ts';
 
 export type { Picture, PictureCategory };
@@ -509,8 +510,15 @@ export const ACTIVITY_MATERIALS: readonly Picture[] = [
   ...ACTIVITY_MATERIALS_C,
 ];
 
-/** Every drawing the site serves as an SVG: the library plus the materials drawings. */
-export const ALL_SERVED_PICTURES: readonly Picture[] = [...PICTURES, ...ACTIVITY_MATERIALS];
+/**
+ * Finished-result drawings for the newer activity cards (WEB-012). Served at
+ * /pictures/<id>.svg for the activity pages only, like the materials drawings:
+ * not in PICTURES, so the games, the printable gallery and the app are unchanged.
+ */
+export const ACTIVITY_RESULTS_SITE: readonly Picture[] = ACTIVITY_RESULTS_C;
+
+/** Every drawing the site serves as an SVG: the library plus the activity drawings. */
+export const ALL_SERVED_PICTURES: readonly Picture[] = [...PICTURES, ...ACTIVITY_MATERIALS, ...ACTIVITY_RESULTS_SITE];
 
 export const PICTURE_BY_ID: ReadonlyMap<string, Picture> = new Map(ALL_SERVED_PICTURES.map((p) => [p.id, p]));
 

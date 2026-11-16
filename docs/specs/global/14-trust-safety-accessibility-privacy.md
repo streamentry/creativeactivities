@@ -316,7 +316,9 @@ Risks / not doing: Do not use an age gate as a substitute for design.
 Policy note (2026-11-14): S1 treats every page as child-reachable. Current pages have no accounts and no age fields, and `privacy.astro` says the site is not directed at children under 13. The item stays partial for three reasons. (1) The GTM container sets GA4 cookies by default. A persistent identifier that is not consent-gated could be linked to a child, which the acceptance line does not allow. Consent-gating or disabling analytics on child-reachable pages is a maintainer and counsel decision; no change has been made. (2) Google signals and ad personalization settings are kept in the GTM and GA4 admin, outside the repo. The maintainer records their state here when checked. (3) `privacy.astro` names Google Analytics 4 while the loader is the GTM container; the wording needs aligning. Counsel review is not recorded.
 
 ### TSA-019 · No ads or ad technology on child-reachable pages
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the site has no ad network, retargeting pixel or ad SDK; the default CSP in `site/public/_headers` allows only first-party sources plus Google Tag Manager and Analytics (measurement, not advertising), and Photo pairs, which handles family photos, has a stricter first-party CSP. There is no child-directed page (WEB-072). `check-site` (part of `pnpm verify`) now fails the build on any page that references a known ad network (Google ads, Meta pixel and other ad networks) or loads a script, frame, image, media file or stylesheet from a host other than this site and Google Tag Manager; shown to catch both by injecting them into a built page. It reads page markup, not the scripts GTM itself would load at run time. Remaining: the inventory check (TSA-011) as a recorded release step, the app, and your decision on whether analytics may stay on pages a child could reach.
 
 Why: COPPA requires separate verifiable parental consent before disclosing children's data to third parties, including for targeted advertising [R5 §5.1]. Ads inside activities and games are rejected by product rule [MISSION; R4 §7]. Ad-led feeds on craft platforms drift toward paid placement and trust loss [R1 §7].
 
@@ -345,7 +347,9 @@ Depends on: TSA-011, TSA-013.
 Risks / not doing: Do not cite the standard numbers in public copy until verified.
 
 ### TSA-021 · Children in media
-Priority P0 · Phase S2 · Status new · Pillars: GROW, all
+Priority P0 · Phase S2 · Status partial · Pillars: GROW, all
+
+Evidence (2026-11-16): no public image shows a child or any person; `asset-provenance.test.ts` and `child-image-rules.test.ts` fail the build if a logged image shows a child without a release reference or a card picture shows a person. Remaining: a release log for any future child image or video, and the made-for-kids label check on YouTube uploads (no video is published).
 
 Why: Public images of children need an explicit parental release, and video labels have legal effect on YouTube [R5 §4, §5.1].
 

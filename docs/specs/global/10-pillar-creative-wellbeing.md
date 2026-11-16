@@ -49,7 +49,9 @@ Risks / not doing: no search-led pages for "art therapy near me" or for treatmen
 
 Every benefit statement on a CALM page must pass this table. It is adapted from R3 §5, which rates evidence from R3's reading of sources (not a formal grading). Ratings are judgement and are shown on the review record. Where a source needs checking, it is marked.
 
-**CNT-1001 · Claim register and phrasing rules** · P0 · Phase S1 · Status new · Pillars: CALM, CARE
+**CNT-1001 · Claim register and phrasing rules** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence (2026-11-16): the banned and allowed phrasings are enforced on our own English copy by the claims lint (`site/src/lib/claims.ts`, tested in `claims.test.ts` and run over cards, hubs and guides). Remaining: a reviewer checks each citation in the register below (several say "verify") and signs it off.
 
 | Claim | Evidence (from R3) | Strength | How we may phrase it on site |
 |---|---|---|---|
@@ -76,7 +78,9 @@ Rules that apply to the table:
 
 Trauma and grief are common in the audience. The defaults below apply to every CALM activity, and to any app or site feature that asks for personal reflection. They adapt SAMHSA's six principles (safety; trustworthiness and transparency; peer support; collaboration and mutuality; empowerment, voice and choice; cultural, historical and gender issues) and R3 §4.3.
 
-**CNT-1002 · Trauma-informed defaults for CALM** · P0 · Phase S1 · Status new · Pillars: CALM, CARE, GROW (review)
+**CNT-1002 · Trauma-informed defaults for CALM** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE, GROW (review)
+
+Evidence (2026-11-16): rules 4, 5, 8 and 9 are enforced in the build. No game or finder shows a timer, count or score (`no-pressure.test.ts`); there are no accounts, no sharing feature and no push notifications (`notification-policy.test.ts`), and the Photo pairs page has a first-party-only CSP; every card needs a `stopNote` (activity schema); cards that mention memory, feelings or story force the crisis route. Remaining: rules 1 to 3, 6 and 7 are editorial and need a trauma-informed reviewer's check of the cards and pictures.
 
 What:
 1. **No prompt asks anyone to depict trauma, abuse, loss, illness or a diagnosis.** Prompts are about materials, shapes, colors, textures and the sensory experience of making. "Draw what is on your table" is a default; "Draw how you felt" is not.

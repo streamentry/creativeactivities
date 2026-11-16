@@ -43,6 +43,15 @@ variations:
   - kind: with-children
     text: "The older adult picks a tune they like and the child picks the next one. Either can clap, hum or simply listen, and both can say pass."
 images:
+  - src: /pictures/sing-along-song-sheet.svg
+    alt: "Drawing of a large-print song sheet with thick lines of text and two music notes beside it."
+    caption: "A large-print song sheet, ready to sing from."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/sing-along-materials.svg
     alt: "Drawing of a red radio with a handle and an aerial and a phone showing a music note, with music notes above them, on a table."
     caption: "What you need: a phone, radio or music player, or just your voices."

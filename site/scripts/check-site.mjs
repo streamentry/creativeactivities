@@ -42,6 +42,8 @@ const CLAIMS_REVIEW_PENDING = new Set([
 // "aita" and "eab" are Nauru negations (src/i18n/ui/na.json); the list is otherwise English-only.
 const ALLOWED_CONTEXT = /\b(aita|eab|no|none|nothing|unproven|not|never|nor|don[’']t|doesn[’']t|does not|cannot|can[’']t|without|claim|claims|claimed|claiming|unsupported|deceptive|whether|if|ftc|lumosity|marketing|be wary|be cautious|beware|watch out|promise|promises|promising)\b|\?/i;
 
+/** Hosts a page may load a resource from: this site, and Google Tag Manager for measurement (TSA-019). */
+const THIRD_PARTY_OK = /^https:\/\/(creativeactivities\.org|www\.googletagmanager\.com)(\/|$)/;
 const errors = [];
 const warnings = [];
 const err = (file, msg) => errors.push(`${file}: ${msg}`);
@@ -203,6 +205,18 @@ for (const file of htmlFiles) {
     const prefix = prefixIn(path);
     const patient = prefix && PATIENT_WORDS[prefix];
     if (patient && patient.re.test(text(html))) (patient.fail ? err : warn)(rel, 'uses "patients" wording for people living with dementia');
+  }
+
+  // TSA-019: no ad technology and no unexpected third-party load on any page. Measurement is limited to
+  // Google Tag Manager; anything else that is fetched from another host, or any ad network, fails the build.
+  const AD_TECH = /doubleclick\.net|googlesyndication\.com|adsbygoogle|googleadservices\.com|connect\.facebook\.net|fbevents\.js|criteo\.|taboola\.|outbrain\.|adservice\.|amazon-adsystem\.com|ads-twitter\.com|snap\.licdn\.com|hotjar\.com/i;
+  const adHit = html.match(AD_TECH);
+  if (adHit) err(rel, `references ad technology (${adHit[0]})`);
+  for (const m of html.matchAll(/<(script|iframe|embed|object|img|source|video|audio)\b[^>]*?\s(?:src|data)="(https?:\/\/[^"]+)"/gi)) {
+    if (!THIRD_PARTY_OK.test(m[2])) err(rel, `<${m[1].toLowerCase()}> loads from a host that is not allowed: ${m[2]}`);
+  }
+  for (const m of html.matchAll(/<link\b[^>]*\brel="(?:stylesheet|preload|modulepreload|prefetch)"[^>]*\shref="(https?:\/\/[^"]+)"/gi)) {
+    if (!THIRD_PARTY_OK.test(m[1])) err(rel, `<link> loads from a host that is not allowed: ${m[1]}`);
   }
 
   const og = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1];
