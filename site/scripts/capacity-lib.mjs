@@ -23,15 +23,25 @@ export const GROWTH = 10;
 
 const KIB = 1024;
 
-/** A language folder is a top-level folder with a home page whose name is a language code, such as "de" or "pt-br". */
+/** A language folder holds a whole translated site, so it has at least this many files; a single page in a folder is not one. */
+export const MIN_LOCALE_FILES = 10;
+
+/**
+ * A language folder is a top-level folder with a home page, whose name is a language code such as "de" or "pt-br", and
+ * which holds a whole translated site. A section with a short name (such as "faq") or one page is not one.
+ */
 export function localeFolders(entries) {
-  const withHome = new Set(
-    entries
-      .map((e) => e.path.split('/'))
-      .filter((parts) => parts.length === 2 && parts[1] === 'index.html')
-      .map((parts) => parts[0]),
-  );
-  return [...withHome].filter((name) => /^[a-z]{2,3}(?:-[a-z0-9]{2,8})?$/.test(name)).sort();
+  const files = new Map();
+  const withHome = new Set();
+  for (const { path } of entries) {
+    const parts = path.split('/');
+    if (parts.length < 2) continue;
+    files.set(parts[0], (files.get(parts[0]) ?? 0) + 1);
+    if (parts.length === 2 && parts[1] === 'index.html') withHome.add(parts[0]);
+  }
+  return [...withHome]
+    .filter((name) => /^[a-z]{2,3}(?:-[a-z0-9]{2,8})?$/.test(name) && (files.get(name) ?? 0) >= MIN_LOCALE_FILES)
+    .sort();
 }
 
 /** Counts for a list of files, each `{ path: 'de/index.html', bytes }` with a path relative to dist and "/" separators. */

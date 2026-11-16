@@ -12,7 +12,7 @@ Measured on 2026-11-17 from a full build on a 10-core machine with 16 GiB of mem
 | --- | --- |
 | Files in `site/dist` | 17,254, of which 16,532 are pages |
 | Size of `site/dist` | 1,906 MiB |
-| Language folders | 192, most holding 78 to 108 files each |
+| Language folders | 189, each holding 69 to 108 files (median 78), 16,504 files in all |
 | Largest single file | 1.8 MiB (a language's sitemap) |
 | Build time | 16,532 pages in 51 seconds (`astro build` log) |
 
@@ -35,12 +35,12 @@ one) and takes `--plan=paid` to measure against the Paid limit. Check the page a
 ## What it means
 
 - The build is at **86% of the Free limit**: 2,746 files of headroom.
-- Most files come from the language folders. A page type that exists in every language adds about 192 files, so the
+- Almost all files (16,504 of 17,254) are in the language folders. A page type that exists in every language adds about 189 files, so the
   headroom is about 14 such page types. A page in English only adds one file (the four-week paths and the pack builder add
   a few).
 - At ten times the pages, the planning multiple in PLAT-015, the build would hold about 166,000 files. That is over the
   Paid limit as well.
-- Under the Paid limit the headroom is 82,746 files, or about 430 page types for every language.
+- Under the Paid limit the headroom is 82,746 files, or about 437 page types for every language.
 
 `pnpm check:capacity` prints these numbers for the current build. It warns from 80% of the limit and fails from 98% or on
 a file over 25 MiB, so a release that could not deploy is found by the build and not by the deploy. It runs in the website
@@ -54,7 +54,7 @@ workflow after the page weight budget. Today it passes with a warning, which the
    one deploy per group.
 3. **Render the long tail on demand** (PLAT-016). Keep indexable pages static and render the rest at the edge. This
    needs a server adapter and a fallback.
-4. **Choose which page types exist in every language.** Each one costs about 192 files, so a new page type can start in
+4. **Choose which page types exist in every language.** Each one costs about 189 files, so a new page type can start in
    English only and be translated when it has earned its place.
 
 ## Not done

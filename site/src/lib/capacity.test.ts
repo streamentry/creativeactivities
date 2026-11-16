@@ -37,17 +37,23 @@ describe('what a build holds (PLAT-015)', () => {
     expect(summary.topLevel.get('_astro')).toBe(1);
   });
 
-  it('knows a language folder by its home page and its code, and nothing else', () => {
+  it('knows a language folder by its home page, its code and the size of the site in it, and nothing else', () => {
+    const site = (folder: string, files: number): Entry[] =>
+      Array.from({ length: files }, (_, i) => ({ path: i === 0 ? `${folder}/index.html` : `${folder}/page-${i}/index.html`, bytes: 1 }));
     const entries = [
-      { path: 'de/index.html', bytes: 1 },
-      { path: 'pt-br/index.html', bytes: 1 },
-      { path: 'haw/index.html', bytes: 1 },
-      { path: 'activity/index.html', bytes: 1 },
+      ...site('de', 12),
+      ...site('pt-br', 10),
+      ...site('haw', 30),
+      ...site('activity', 40),
+      ...site('faq', 1),
+      ...site('app', 1),
+      ...site('app-privacy', 1),
+      ...site('fr', 9),
+      ...site('_astro', 50),
       { path: 'pictures/a.svg', bytes: 1 },
-      { path: 'fr/games/index.html', bytes: 1 },
-      { path: '_astro/index.html', bytes: 1 },
     ];
-    // "activity" is a section of the site, "fr" has no home page of its own in this list, and "_astro" is not a code.
+    // "activity" is a section of the site; "faq", "app" and "app-privacy" are single pages with short names; "fr" here is
+    // too small to be a whole translated site; "_astro" is not a code.
     expect(localeFolders(entries)).toEqual(['de', 'haw', 'pt-br']);
   });
 });
