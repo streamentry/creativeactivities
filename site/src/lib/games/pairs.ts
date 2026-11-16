@@ -16,10 +16,19 @@ export interface PairsState {
   lastMatch: number | null;
 }
 
-export function createPairs(values: readonly string[], rng: Rng): PairsState {
+/** The pictures whose pair has been matched. */
+export function matchedValues(state: PairsState): string[] {
+  return [...new Set(state.tiles.filter((t) => t.matched).map((t) => t.value))];
+}
+
+/**
+ * A new board for [values]. Pictures in [matched] start already matched, so a
+ * board resized mid-game (WEB-053) keeps the pairs a person has found.
+ */
+export function createPairs(values: readonly string[], rng: Rng, matched: ReadonlySet<string> = new Set()): PairsState {
   const doubled = values.flatMap((value, i) => [
-    { key: `${i}-a`, value, matched: false },
-    { key: `${i}-b`, value, matched: false },
+    { key: `${i}-a`, value, matched: matched.has(value) },
+    { key: `${i}-b`, value, matched: matched.has(value) },
   ]);
   return { tiles: shuffle(doubled, rng), selected: null, mismatch: null, lastMatch: null };
 }

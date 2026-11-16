@@ -3,6 +3,8 @@ import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
 import { boardColumns } from '../lib/games/pairs';
 import { createRng, randomSeed } from '../lib/games/random';
+import { resizeOddState } from '../lib/games/resize';
+import { TOGETHER_THEMES } from '../lib/games/together';
 import {
   ODD_COUNTS,
   createOddRound,
@@ -44,9 +46,24 @@ export default function OddOneOut(props: PlayProps) {
   };
 
   useEffect(() => {
-    fresh(newState(count, state?.round));
+    fresh(newState(count));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [count]);
+  }, []);
+
+  // WEB-053: a different count keeps the theme, the odd picture and whether it was found.
+  const changeCount = (n: number) => {
+    setCount(n);
+    if (!state) return;
+    const next = resizeOddState(state, n, createRng(randomSeed()), TOGETHER_THEMES);
+    setState(next);
+    // A fresh round (the theme ran out of pictures) clears the note; otherwise it still applies.
+    if (next.round.odd !== state.round.odd) {
+      setMessage('');
+      setHint(false);
+    } else if (!next.found) {
+      setMessage('');
+    }
+  };
 
   const done = state?.found ?? false;
 
@@ -102,7 +119,7 @@ export default function OddOneOut(props: PlayProps) {
       message={message}
       options={
         <>
-          <ChoiceChips legend={ui.oddOneOut.countLegend} choices={counts} value={count} onChange={setCount} />
+          <ChoiceChips legend={ui.oddOneOut.countLegend} choices={counts} value={count} onChange={changeCount} />
           <ChoiceChips
             legend={ui.oddOneOut.hintLegend}
             choices={[
