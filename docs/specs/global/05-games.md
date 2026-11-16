@@ -144,7 +144,7 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | new |
+| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | partial |
 
 ## Totals
 
@@ -200,6 +200,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a missed day shows no message; the archive opens to any past day; the same date yields the same card for every user; no account and no notification.
 - **Depends on:** APP-021 for the result card; a content calendar in [content library](06-content-library.md).
 - **Risks:** pressure creep. Any "daily" reminder needs APP-012 approval and stays off by default.
+- **Status (2026-11-16, partial):** website only, in Picture pairs as "Today's card" (English only). Four pairs from a date seed (`site/src/lib/games/daily.ts`), the same for everyone; a 30-day archive in a day picker; a missed day shows nothing; result line "Made 4 pairs together." with a copy button that sends nothing. No account, storage or notification. Open: app version (APP-021 result card), print calendar, content calendar in the library, per-language text.
 
 ### GAME-032 · Two-hand drawing duet (P1, S2)
 

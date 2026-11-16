@@ -1645,3 +1645,35 @@
     color: CanvasText;
   }
 }
+
+/* Daily card (GAME-061): day picker and a plain result line */
+.chips .game__select {
+  display: block;
+  width: 100%;
+  min-height: 3.5rem;
+  padding: var(--space-sm) var(--space-md);
+  font: inherit;
+  font-size: var(--text-md);
+  color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+}
+.game__help {
+  font-size: var(--text-md);
+  font-weight: 400;
+  margin-block: var(--space-sm) 0;
+}
+.game__done .game__help {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.game__result {
+  margin-bottom: var(--space-md);
+}
+@media print {
+  .game__select,
+  .game__result {
+    display: none;
+  }
+}
