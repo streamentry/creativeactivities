@@ -12,8 +12,8 @@ import { SITE } from './site';
 
 const EVERY = PUBLISHED.map((l) => l.code);
 
-// Tool pages that ask not to be indexed (WEB-003): left out of the sitemap, as a noindex page must be.
-const NOINDEX_PAGES: ReadonlySet<string> = new Set(['/search/']);
+// Tool pages that ask not to be indexed (WEB-003, WEB-017): left out of the sitemap, as a noindex page must be.
+const NOINDEX_PAGES: ReadonlySet<string> = new Set(['/search/', '/activity/pack/']);
 
 // Every non-dynamic page in src/pages, so new pages are listed automatically.
 const STATIC_PAGES = Object.keys(import.meta.glob('../pages/**/*.astro'))

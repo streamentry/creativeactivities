@@ -425,6 +425,9 @@ for (const [page, phrases] of Object.entries(LEGAL_PAGES)) {
 // Trust routes on every template (WEB-058, TSA-047, TSA-027, TSA-031). The footer carries the
 // problem report on every page; each activity and printed card carries the safety route; a card that
 // opts in to the crisis route shows it on its page and on its print pages.
+// The footer line under a printed card (ActivityPrintCard.astro) and the version date it must begin with.
+const PRINTED_CARD_SOURCE = /<p class="pack-card__source"[^>]*>[^<]*<\/p>/g;
+const PRINTED_VERSION = /Version \d{4}-\d{2}-\d{2}\./;
 const crisisCards = new Set(
   readdirSync(join(SRC, 'content/activity-cards'))
     .filter((f) => f.endsWith('.md'))
@@ -455,6 +458,25 @@ if (existsSync(activityDir)) {
       for (const id of crisisCards) {
         if (html.includes(`/activity/${id}/`) && !html.includes('data-crisis-route')) err(`activity/packs/${pack}/`, `prints ${id} without the crisis route (TSA-027)`);
       }
+      for (const source of html.match(PRINTED_CARD_SOURCE) ?? []) {
+        if (!PRINTED_VERSION.test(source)) err(`activity/packs/${pack}/`, 'a printed card shows no version date (WEB-016)');
+      }
+    }
+  }
+  // The pack builder (WEB-017) prints any cards the visitor picks, so every card on its page must be complete: its
+  // version date, and the crisis route when the card opts in to it.
+  const builderFile = join(activityDir, 'pack', 'index.html');
+  if (existsSync(builderFile)) {
+    const html = readFileSync(builderFile, 'utf8');
+    const sources = html.match(PRINTED_CARD_SOURCE) ?? [];
+    if (sources.length === 0) err('activity/pack/', 'the pack builder has no cards on the page (WEB-017)');
+    for (const source of sources) {
+      if (!PRINTED_VERSION.test(source)) err('activity/pack/', 'a printed card shows no version date (WEB-016)');
+    }
+    for (const block of html.split('data-pack-card="').slice(1)) {
+      const id = block.slice(0, block.indexOf('"'));
+      const card = block.slice(0, block.indexOf('</section>'));
+      if (crisisCards.has(id) && !card.includes('data-crisis-route')) err('activity/pack/', `prints ${id} without the crisis route (TSA-027)`);
     }
   }
 }

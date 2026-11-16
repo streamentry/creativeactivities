@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 161 | 182 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **201** | **255** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 16 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Printable pack builder at `/activity/pack/`: tick up to eight cards, choose one version for the pack, and print a cover with a combined supply list ("Main supplies", with what it assumes), then the cards. The pack lives in the address, not on a server or in storage, and the page says that a visitor who allowed visit counts shares that address like any other. A card is in a pack only with the chosen version: a box that cannot be ticked is dimmed, stays reachable and says why; a link that names cards that are gone or lack the version opens a shorter pack and says so. The page count is shown before printing as "up to N pages". The cover carries a pack key, a version, the address and the noncommercial line. Every card printed in a pack, fixed or built, now ends with its own version date, and `check-site` fails a built pack page when one has none. Linked from the finder; `noindex`. A second Claude agent reviewed the diff before this was recorded, and its findings are fixed | WEB-017 → partial (one version for the whole pack; the page count is an upper bound; no PDF; no static pack page per key; supply lists not reviewed by a person; one language; no real-printer, screen-reader, Firefox or Safari test); WEB-016 stays partial (the printed pack footer is now checked; still no version number or last-checked date) | vitest 3,428 pass, 1 skipped as before (32 in `pack.test.ts`: the link, the version rule, the notes, a seeded 600-trial check that the supply list is met exactly when every card is, the page limits equal the print check's, and no storage or request in the island); `tsc` clean; build 16,533 pages; `check-site` 0 errors; `check-budget` 0 over; `check:print` 0 failing: all 53 cards through the builder on A4 and Letter at one page of cover and two of card, the longest supply list the page itself can make (35 lines, eight cards) at 18 pages on both sizes, which is the stated limit, and three cards named out of order printing in that order in the bedside version; `check:a11y` 0 failing of 143 (the page empty and with a pack chosen); tried in the browser: ticking, a version one card lacks, the full-pack note and a refused tick, a link with an unknown card, saved activities with an unknown slug, clear, the copy fallback, and 375 px |
 
 ## What blocks the rest
 
