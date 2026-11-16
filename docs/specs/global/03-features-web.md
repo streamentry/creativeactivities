@@ -901,7 +901,9 @@ Risks / not doing: A printable partner that is a worse game. Write the rules onc
 
 ### WEB-053 · Difficulty without scores
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, PLAY
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, PLAY
+
+Evidence: difficulty is a choice of tile or picture count, never a level. `site/src/games/no-pressure.test.ts` fails the build if an English game string carries score, timer, streak, move-count or failure wording, if any game uses a repeating clock (read-aloud pacing excepted), or if a hint starts sooner than 20 seconds idle; only Four together and Odd one out have a hint. Remaining: changing the count currently starts a new board rather than keeping the place; hints cannot yet be switched off; no testing with five adults.
 
 Why: Frustration-free difficulty works for people with dementia and for everyone else ([R4 §3.4](research/04-games-engagement.md)). Blame-the-player difficulty is a named risk ([R4 §7](research/04-games-engagement.md)).
 
