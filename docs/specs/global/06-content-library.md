@@ -266,7 +266,8 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-031 · Media rights and provenance
 
-- **Priority P0 · Phase S2 · Status new.**
+- **Priority P0 · Phase S2 · Status partial.**
+- **Evidence (2026-11-16):** `docs/specs/asset-provenance.json` has a record for every served picture, illustration and social card, and CI (`asset-provenance.test.ts`, `child-image-rules.test.ts`) fails when a served image has none or when a person or child appears without a release. Remaining: the check covers the website only, not the app's bundled assets; every record is still `unreviewed`.
 - **What:** the asset record and rules in §4.
 - **Acceptance:** an asset with no record cannot be committed to the site or app; photos of people have a release reference; no child's face is in any public asset without a parental release.
 
@@ -284,7 +285,8 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-034 · Update, correction and retirement
 
-- **Priority P1 · Phase S2 · Status new.**
+- **Priority P1 · Phase S2 · Status partial.**
+- **Evidence (2026-11-16):** cards, hubs and guides each show a dated byline (checked in the built pages); cards carry a public change log (`changes`, WEB-027) and a `withdrawn` notice; `/corrections/` takes reports (TSA-045); retired guides redirect (`site/src/lib/retired-guides.ts`); `pnpm review:queue` lists pages past their 12-month review (WEB-076). Remaining: the 48-hour logging of a confirmed safety correction is a maintainer process with no target set, and a card's displayed date is `updated`, not a named reviewer's check.
 - **What:** the cadence and rules in §3, including the public correction note and redirect-on-retire.
 - **Acceptance:** every page shows its last review date; every safety correction is logged within 48 hours of confirmation (target).
 
