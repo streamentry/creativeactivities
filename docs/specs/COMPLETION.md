@@ -125,6 +125,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | Season pages: `/seasons/` with a northern, southern or "not four seasons" choice (a language-setting guess until chosen, kept only in the open page) and four pages, one per season, each with its own opening, selection rule, "not for" line, stop note and swap. Season-only cards never repeat across pages; six any-season cards follow on each. The four season pages are `noindex` and out of the sitemap until evidence shows they answer a different question than the seasonal hub; the seasonal hub links to `/seasons/` | WEB-033 → partial (calendar view, remembering the choice, search or usability evidence, outside review) | vitest 3,014 pass (21 new in `seasons.test.ts` and `data/seasons.test.ts`); `tsc` clean for the new files; build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; browser: November guess is autumn, choosing southern shows spring, nothing in localStorage |
 
+### Batch 10 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Changing the picture count keeps the place in Find the same, Shadow match, Odd one out, Four together and Picture pairs: the target, theme, odd picture, found pictures or matched pairs stay, and only extras are added or taken away. In Picture pairs, switching between showing and hidden pictures no longer restarts the board. A new `resize.ts` holds the logic. Picture puzzle, Picture bingo, Word search and Sort together still restart | WEB-053 stays partial (those four games, five-adult testing) | vitest 3,046 pass (16 resize, 5 pairs-carry, 11 keep-place; keep-place fails against the old code); `tsc` clean for the game files; build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108; browser: pairs kept a matched pair from 4 to 8 to 4 tiles and a finished board reopened on growing, Four together kept two found pictures from 8 to 4 to 8, Find the same and Odd one out kept their pictures, no console errors |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |

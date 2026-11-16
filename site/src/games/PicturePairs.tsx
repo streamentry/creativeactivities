@@ -5,6 +5,7 @@ import { localePath } from '../i18n/locales';
 import { fill, plural } from '../i18n/play/format';
 import { archiveDays, dailyValues, dayKey, resultLine } from '../lib/games/daily';
 import { createRng, randomSeed, sample } from '../lib/games/random';
+import { resizeValues } from '../lib/games/resize';
 import { ChoiceChips } from './shared/ChoiceChips';
 import { GameFrame } from './shared/GameFrame';
 import { PairsBoard } from './shared/PairsBoard';
@@ -25,21 +26,25 @@ export default function PicturePairs(props: PlayProps) {
   const [copied, setCopied] = useState(false);
   const days = useMemo(() => (day ? archiveDays(new Date()) : []), [day]);
 
-  // A fresh set of pictures each round, or the day's fixed card.
-  const values = useMemo(
-    () =>
-      day
-        ? dailyValues(day, PICTURES.map((p) => p.id))
-        : sample(PICTURES.map((p) => p.id), size / 2, createRng(randomSeed())),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [size, round, day],
-  );
+  // A fresh set of pictures each round, or the day's fixed card. WEB-053: a different
+  // size keeps the pictures on the board and the pairs already matched.
+  const ids = useMemo(() => PICTURES.map((p) => p.id), []);
+  const freshPicks = (pairs: number) => sample(ids, pairs, createRng(randomSeed()));
+  const [picks, setPicks] = useState<string[]>(() => freshPicks(size / 2));
+  const values = useMemo(() => (day ? dailyValues(day, ids) : picks), [day, ids, picks]);
 
   const restart = () => {
     sounds.tap();
     setDone(false);
     setCopied(false);
+    setPicks(freshPicks(size / 2));
     setRound((r) => r + 1);
+  };
+
+  const changeSize = (n: number) => {
+    setSize(n);
+    setDone(false);
+    setPicks((p) => resizeValues(p, n / 2, ids, createRng(randomSeed())));
   };
 
   const copyResult = async () => {
@@ -89,6 +94,7 @@ export default function PicturePairs(props: PlayProps) {
                 setDone(false);
                 setCopied(false);
                 setDay(v === 'daily' ? dayKey(new Date()) : null);
+                setPicks(freshPicks(size / 2));
                 setRound((r) => r + 1);
               }}
             />
@@ -115,8 +121,8 @@ export default function PicturePairs(props: PlayProps) {
               <p className="game__help">{ui.picturePairs.dayHelp}</p>
             </div>
           ) : null}
-          {daily ? null : <ChoiceChips legend={ui.picturePairs.sizeLegend} choices={sizes} value={size} onChange={(v) => { setSize(v); setDone(false); }} />}
-          {daily ? null : <ChoiceChips legend={ui.picturePairs.viewLegend} choices={views} value={view} onChange={(v) => { setView(v); restart(); }} />}
+          {daily ? null : <ChoiceChips legend={ui.picturePairs.sizeLegend} choices={sizes} value={size} onChange={changeSize} />}
+          {daily ? null : <ChoiceChips legend={ui.picturePairs.viewLegend} choices={views} value={view} onChange={setView} />}
         </>
       }
       footer={
@@ -141,7 +147,7 @@ export default function PicturePairs(props: PlayProps) {
         ) : null
       }
     >
-      <PairsBoard play={props} values={values} hidden={!daily && view === 'hidden'} round={round} onMessage={setMessage} onComplete={() => setDone(true)} />
+      <PairsBoard play={props} values={values} hidden={!daily && view === 'hidden'} round={round} keepPlace onMessage={setMessage} onComplete={() => setDone(true)} />
     </GameFrame>
   );
 }

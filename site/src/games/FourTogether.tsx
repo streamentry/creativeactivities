@@ -3,8 +3,10 @@ import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
 import { boardColumns } from '../lib/games/pairs';
 import { createRng, randomSeed } from '../lib/games/random';
+import { resizeTogetherState } from '../lib/games/resize';
 import {
   TOGETHER_COUNTS,
+  TOGETHER_THEMES,
   createTogetherRound,
   groupSize,
   isTogether,
@@ -46,7 +48,15 @@ export default function FourTogether(props: PlayProps) {
   useEffect(() => {
     fresh(newState(count));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [count]);
+  }, []);
+
+  // WEB-053: a different count keeps the theme and the pictures already found.
+  const changeCount = (n: number) => {
+    setCount(n);
+    if (!state) return;
+    setState(resizeTogetherState(state, n, createRng(randomSeed()), TOGETHER_THEMES));
+    setMessage('');
+  };
 
   const done = state ? isTogether(state) : false;
   const foundCount = state?.found.length ?? 0;
@@ -106,7 +116,7 @@ export default function FourTogether(props: PlayProps) {
       message={message}
       options={
         <>
-          <ChoiceChips legend={ui.fourTogether.countLegend} choices={counts} value={count} onChange={setCount} />
+          <ChoiceChips legend={ui.fourTogether.countLegend} choices={counts} value={count} onChange={changeCount} />
           <ChoiceChips
             legend={ui.fourTogether.hintLegend}
             choices={[
