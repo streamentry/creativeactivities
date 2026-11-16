@@ -42,6 +42,15 @@ variations:
   - kind: with-children
     text: "The child hands over one card at a time and the older adult decides which pile it joins. They can swap roles whenever they like."
 images:
+  - src: /pictures/sorted-postcards.svg
+    alt: "Drawing of three tidy piles of postcards in blue, green, orange, yellow and pink, each with a red mark on the top card."
+    caption: "Postcards sorted into three piles."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/postcards-materials.svg
     alt: "Drawing of an open box with picture postcards standing in it, one loose postcard and a plate holding a small pile of cards, on a table."
     caption: "What you need: a box of postcards and a plate or sheet for each pile."

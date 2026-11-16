@@ -44,6 +44,15 @@ variations:
   - kind: low-vision
     text: "Use bold, high-contrast paper, such as dark on pale, with thick markers. Describe each piece aloud as you hand it over."
 images:
+  - src: /pictures/festival-paper-decoration.svg
+    alt: "Drawing of a yellow paper star hanging from a string, with a red center and four colored paper tassels below."
+    caption: "A finished paper star with tassels."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/festival-decoration-materials.svg
     alt: "Drawing of a string of colored paper flags, a stack of colored paper, a glue stick and scissors, on a table."
     caption: "What you need: colored paper, a glue stick, scissors and string to hang it."

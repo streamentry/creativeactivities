@@ -46,6 +46,15 @@ variations:
   - kind: with-children
     text: "The older adult chooses each color and where it goes, and the child hands over the pieces and presses them flat. Cutting stays with an adult."
 images:
+  - src: /pictures/tissue-paper-window-picture.svg
+    alt: "Drawing of a window picture made of colored tissue paper, with a yellow sun, green hills and a pink flower shape behind wooden window bars."
+    caption: "A finished tissue paper picture, ready for the window."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/tissue-window-materials.svg
     alt: "Drawing of a clear sheet of sticky film covered in colored tissue paper pieces, taped at the corners, two small bowls of tissue and a roll of masking tape, on a table."
     caption: "What you need: clear sticky film, torn tissue paper, bowls and masking tape."

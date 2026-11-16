@@ -44,6 +44,15 @@ variations:
   - kind: with-children
     text: "A child holds the cup steady and traces the circle, then the older adult chooses the repeat for each section and a child copies it in another circle."
 images:
+  - src: /pictures/slow-line-pattern.svg
+    alt: "Drawing of a sheet with five slow wavy lines in blue, red, yellow, green and purple, one under the other."
+    caption: "A sheet of slow wavy lines."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/slow-line-materials.svg
     alt: "Drawing of a sheet of paper with a pattern of overlapping traced circles, a cup with a round rim and two pencils, on a table."
     caption: "What you need: plain paper, a cup to trace round and a pencil or marker."

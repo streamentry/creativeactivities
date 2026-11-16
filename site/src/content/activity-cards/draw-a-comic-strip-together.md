@@ -44,6 +44,15 @@ variations:
   - kind: large-grip
     text: "Use a thick marker or a crayon with a foam grip, and make the boxes big, with only a few large shapes in each."
 images:
+  - src: /pictures/comic-strip-three-panels.svg
+    alt: "Drawing of a comic strip with three panels: a yellow sun on blue, a red house, and a green tree, with no words."
+    caption: "A finished strip of three small pictures."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/comic-strip-materials.svg
     alt: "Drawing of a sheet of paper with three boxes drawn on it, a ruler, a pencil and two markers, on a table."
     caption: "What you need: plain paper, a pencil, markers and a ruler if you like."

@@ -45,6 +45,15 @@ variations:
   - kind: with-children
     text: "A child tears the strips and hands them over while the older adult decides which strip goes where and glues it down."
 images:
+  - src: /pictures/torn-paper-landscape.svg
+    alt: "Drawing of a finished torn paper landscape: a blue sky with a yellow sun, green hills, a brown field and a river."
+    caption: "A finished torn paper landscape."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/torn-landscape-materials.svg
     alt: "Drawing of a card with a landscape of torn paper strips in blue, green and brown, a stack of torn strips beside it and a glue stick, on a table."
     caption: "What you need: scrap paper in blues, greens and browns, card and a glue stick."
