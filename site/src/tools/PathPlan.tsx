@@ -22,6 +22,8 @@ export interface PathActivityInfo {
 export interface PathWeekInfo {
   title: string;
   note: string;
+  /** How long the week's activities take, such as "10–40 min", worked out from the cards. */
+  minutes: string;
   activities: PathActivityInfo[];
 }
 
@@ -144,7 +146,9 @@ export function PathPlan({ pathId, weeks, allPathIds, address }: Props) {
                   <span>{PATH_TEXT.triedOf(here?.tried ?? 0, here?.of ?? 0)}</span>
                 </p>
               </div>
-              <p>{week.note}</p>
+              <p>
+                {week.note} <span className="muted path-week__minutes">{PATH_TEXT.eachTakes(week.minutes)}</span>
+              </p>
               {skipped && <p className="path-week__skipped no-print">{PATH_TEXT.skipped}</p>}
               <ul className="path-week__activities">
                 {week.activities.map((a) => (
@@ -164,6 +168,8 @@ export function PathPlan({ pathId, weeks, allPathIds, address }: Props) {
                   </li>
                 ))}
               </ul>
+              {/* A blank line to write on, on paper only. */}
+              <p className="print-only path-week__notes">{PATH_TEXT.whatWeDid}</p>
               <div className={`btn-row no-print${unread}`}>
                 <button
                   type="button"
@@ -190,6 +196,8 @@ export function PathPlan({ pathId, weeks, allPathIds, address }: Props) {
           );
         })}
       </ol>
+
+      <p className="path-end">{PATH_TEXT.theEnd}</p>
 
       <div className={`btn-row no-print${unread}`}>
         <button type="button" className="btn btn--primary" onClick={() => window.print()}>

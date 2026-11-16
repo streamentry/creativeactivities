@@ -86,11 +86,12 @@ Rules that apply to every type:
 
 ### CNT-006 · Path (weekly plan or multi-week sequence)
 
-- **Priority P1 · Phase S2 · Status new**.
+- **Priority P1 · Phase S2 · Status partial**.
 - **Why:** a free one-page weekly plan with three to five activities is a low-commitment entry point that needs no account ([R2 §3, pattern 4](research/02-parenting-kids-platforms.md#3-feature-patterns-worth-adopting)).
 - **Anatomy:** a title for the situation; one line on time per day; a row per day or per activity; links to the cards; a blank row for "what we did"; a closing line that says the path is finished and that stopping is fine.
 - **Rules:** no streaks, no "you missed a day" message, no email sign-up needed, and no paid unlock for the first week. A path ends.
 - **Count rule:** two paths in S2 (one for older adults, one intergenerational); more only if the S2 test shows completion without pressure.
+- **Evidence (2026-11-17):** two paths are published at `/paths/` (one for a caregiver and an older adult, one for a child and an older relative), each four weeks long and each ending. A page has a title, a time line for each week worked out from its cards (the least of their lows to the most of their highs), a row for each activity with a box to tick on paper and a link, a blank ruled line for "what we did" on paper, and a closing line that says the path is finished, that stopping here is fine and that it can be started again from any week (`site/src/data/paths.ts`, `site/src/tools/PathPlan.tsx`). A test scans the words of the paths, the page and its source for streak, schedule and debt words, none sends or asks for an email, and nothing is locked. Not done: the time is for a week and not for each day; the S2 test that shows whether completion happens without pressure; and the rest of the work is in [WEB-032](03-features-web.md#web-032--paths).
 
 ### CNT-007 · Printable template
 

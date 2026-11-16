@@ -14,6 +14,8 @@ import {
   progressOf,
   savePaths,
   triedCounts,
+  weekMinutes,
+  PATH_TEXT,
   type PathAction,
   type PathsState,
 } from './paths';
@@ -182,6 +184,22 @@ describe('what a person can do on a path (WEB-032)', () => {
   });
 });
 
+describe('how long a week takes, and how a path ends (CNT-006)', () => {
+  it('takes the least of the lows and the most of the highs across a week\u2019s activities', () => {
+    expect(weekMinutes([[10, 30], [15, 40]])).toEqual([10, 40]);
+    expect(weekMinutes([[20, 45]])).toEqual([20, 45]);
+    expect(weekMinutes([[5, 10], [5, 10], [3, 50]])).toEqual([3, 50]);
+    expect(weekMinutes([])).toEqual([0, 0]);
+  });
+
+  it('says a path ends, that stopping is fine, and that it can be started again from any week', () => {
+    expect(PATH_TEXT.theEnd).toMatch(/end of this path/i);
+    expect(PATH_TEXT.theEnd).toMatch(/stopping here is fine/i);
+    expect(PATH_TEXT.theEnd).toMatch(/start again from any week/i);
+    expect(PATH_TEXT.eachTakes('10\u201340 min')).toBe('Each takes 10\u201340 min.');
+  });
+});
+
 describe('tried counts (WEB-032)', () => {
   const weeks = [['a', 'b'], ['c', 'd'], ['e'], ['f', 'a']];
 
@@ -288,6 +306,12 @@ describe('what the paths page keeps, sends and says (WEB-032)', () => {
     expect(code).toContain('commitAction(');
     expect(code).toContain('loadTried(');
     expect(code).not.toMatch(/markTried|TRIED_STORAGE_KEY/);
+  });
+
+  it('gives each week a time line and a blank line to write on, and ends the path with a closing line', () => {
+    expect(code).toContain('PATH_TEXT.eachTakes(');
+    expect(code).toContain('PATH_TEXT.whatWeDid');
+    expect(code).toContain('PATH_TEXT.theEnd');
   });
 
   it('keeps nothing about a person in the address', () => {

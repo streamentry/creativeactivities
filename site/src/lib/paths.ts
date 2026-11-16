@@ -142,6 +142,12 @@ export function nextWeek(progress: PathProgress): number | null {
   return null;
 }
 
+/** The shortest and the longest time a week's activities take: the least of the lows and the most of the highs, in minutes. */
+export function weekMinutes(ranges: readonly (readonly [number, number])[]): readonly [number, number] {
+  if (ranges.length === 0) return [0, 0];
+  return [Math.min(...ranges.map(([low]) => low)), Math.max(...ranges.map(([, high]) => high))];
+}
+
 export interface TriedCounts {
   /** Distinct activities on the path that are on the tried list. */
   readonly tried: number;
@@ -179,6 +185,9 @@ export const PATH_TEXT = {
   triedMark: 'Tried',
   nothingWaiting: 'Nothing is waiting from your start. Pick any week to try.',
   print: 'Print this path',
+  whatWeDid: 'What we did:',
+  theEnd: 'That is the end of this path. Stopping here is fine, and you can start again from any week.',
+  eachTakes: (range: string): string => `Each takes ${range}.`,
   forget: 'Forget my place on this path',
   forgotten: 'Done. This page no longer remembers where you started or what you skipped.',
   notKept: 'This browser did not allow saving, so your place is kept only until you leave this page.',

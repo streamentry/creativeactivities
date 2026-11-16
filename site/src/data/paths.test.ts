@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { checkClaims } from '../lib/claims';
-import { PATH_TEXT, PRESSURE_WORDS, WEEKS_PER_PATH } from '../lib/paths';
+import { PATH_TEXT, PRESSURE_WORDS, WEEKS_PER_PATH, weekMinutes } from '../lib/paths';
 import { PATHS, PATH_BY_ID, PATH_INDEX_HOLD, pathActivities, type PathDef } from './paths';
 
 const cardsDir = new URL('../content/activity-cards/', import.meta.url);
@@ -40,6 +40,18 @@ describe('paths (WEB-032)', () => {
         expect(w.activities.length, `${p.id} week ${i + 1}`).toBeGreaterThanOrEqual(1);
         expect(w.activities.length, `${p.id} week ${i + 1}`).toBeLessThanOrEqual(3);
         for (const slug of w.activities) expect(cardFiles.has(slug), `${p.id}: ${slug}`).toBe(true);
+      }
+    }
+  });
+
+  it('has a time for every week that the cards give, from at least five minutes to under an hour', () => {
+    for (const p of PATHS) {
+      for (const [i, w] of p.weeks.entries()) {
+        const ranges = w.activities.map((slug) => list(slug, 'activityMinutes').map(Number) as [number, number]);
+        const [low, high] = weekMinutes(ranges);
+        expect(low, `${p.id} week ${i + 1}`).toBeGreaterThanOrEqual(5);
+        expect(high, `${p.id} week ${i + 1}`).toBeLessThanOrEqual(60);
+        expect(low, `${p.id} week ${i + 1}`).toBeLessThanOrEqual(high);
       }
     }
   });

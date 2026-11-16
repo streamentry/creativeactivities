@@ -8,7 +8,8 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { PathPlan, type PathWeekInfo } from '../tools/PathPlan';
 import { PATHS, type PathDef } from '../data/paths';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
-import { TYPE_LABELS, listedActivities } from '../lib/activities';
+import { TYPE_LABELS, listedActivities, minutesRange } from '../lib/activities';
+import { weekMinutes } from '../lib/paths';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { SITE } from '../lib/site';
 
@@ -23,15 +24,20 @@ const crumbs = [
 
 // A withdrawn card is never printed (TSA-045), so a path that lists one cannot be built.
 const cards = new Map(listedActivities(await getCollection('activityCards')).map((a) => [a.id, a]));
-const weeks: PathWeekInfo[] = path.weeks.map((week) => ({
-  title: week.title,
-  note: week.note,
-  activities: week.activities.map((slug) => {
+const weeks: PathWeekInfo[] = path.weeks.map((week) => {
+  const listed = week.activities.map((slug) => {
     const card = cards.get(slug);
     if (!card) throw new Error(`Path ${path.id} lists an activity that is missing or withdrawn: ${slug}`);
-    return { id: card.id, name: card.data.name, summary: card.data.summary, typeLabel: TYPE_LABELS[card.data.type] };
-  }),
-}));
+    return card;
+  });
+  return {
+    title: week.title,
+    note: week.note,
+    // The time comes from the cards, so it cannot drift from what each card says.
+    minutes: minutesRange(weekMinutes(listed.map((card) => card.data.activityMinutes))),
+    activities: listed.map((card) => ({ id: card.id, name: card.data.name, summary: card.data.summary, typeLabel: TYPE_LABELS[card.data.type] })),
+  };
+});
 const dateText = new Date(`${path.updated}T00:00:00Z`).toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
@@ -191,12 +197,15 @@ const others = PATHS.filter((p) => p.id !== path.id);
       display: block;
     }
   }
-  .path-stop {
+  .path-stop,
+  .path-end {
     font-weight: 700;
   }
+
   @media print {
+    /* A week may continue on the next page, but a heading stays with what follows it and an activity is never cut. */
     .path-week {
-      break-inside: avoid;
+      break-inside: auto;
       border: 0;
       border-top: 1px solid #000;
       border-radius: 0;
@@ -236,6 +245,20 @@ const others = PATHS.filter((p) => p.id !== path.id);
     }
     .path-week__address {
       margin-inline-start: auto;
+    }
+    /* A ruled line to write on, for what the two of them did that week. */
+    .path-week h3 {
+      break-after: avoid;
+    }
+    .path-week__activities li {
+      break-inside: avoid;
+    }
+    .path-week__notes {
+      display: block;
+      min-height: 7mm;
+      margin-top: 1mm;
+      border-bottom: 1px solid #000;
+      break-before: avoid;
     }
     /* Two pages at most, on A4 and on Letter (checked by pnpm check:print), in 12 pt as the cards are. */
     .path-page {
