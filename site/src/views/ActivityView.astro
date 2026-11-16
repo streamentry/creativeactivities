@@ -21,6 +21,7 @@ import {
   glance,
   listedActivities,
   reviewByline,
+  REVIEW_LIMIT,
 } from '../lib/activities';
 import { resolveGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
@@ -241,6 +242,7 @@ const jsonLd = withdrawn
             <section class="activity-review reveal" aria-labelledby="review">
               <h2 id="review">What the reviewer checked</h2>
               <p>{d.review.scope}</p>
+              <p class="muted">{REVIEW_LIMIT}</p>
               <h3>Not for</h3>
               <ul class="activity-list">
                 {d.review.notFor.map((s) => <li>{s}</li>)}

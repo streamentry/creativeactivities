@@ -3,6 +3,7 @@
 // image alt text and claims wording. Exits 1 on any error.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
 const SITE = 'https://creativeactivities.org';
@@ -139,6 +140,8 @@ const titles = new Map();
 const descriptions = new Map();
 const indexable = [];
 const noindexed = [];
+// SEO-031: the hreflang set of every page that lists alternates, checked for reciprocity after the loop.
+const alternatesByPage = new Map();
 
 for (const file of htmlFiles) {
   const rel = relative(DIST, file);
@@ -176,6 +179,8 @@ for (const file of htmlFiles) {
   const pageScripts = pageCsp.match(/script-src [^;]*/)?.[0] ?? '';
   const missingHash = (pageScripts.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
+  // TSA-022, WEB-035: nothing plays by itself. Words about autoplay in advice are fine; media elements and frames are not.
+  if (/<(?:video|audio)\b[^>]*\sautoplay\b/i.test(html) || /\sallow="[^"]*\bautoplay\b/i.test(html)) err(rel, 'media is set to autoplay (TSA-022)');
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
@@ -188,6 +193,8 @@ for (const file of htmlFiles) {
     else noindexed.push(`${SITE}${path}`);
     // A page that asks not to be indexed must not advertise language alternates.
     if (noindexMeta && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)].map((m) => [m[1], m[2]]);
+    if (alternates.length > 0) alternatesByPage.set(`${SITE}${path}`, { rel, alternates });
     // WEB-005: the finder's address with filters stays canonical to /activity/, and the finder is indexable.
     if (path === '/activity/') {
       if (noindexMeta) err(rel, 'the finder must be indexable; filter combinations are noindexed by script');
@@ -299,6 +306,23 @@ for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join('
   }
 }
 
+// SEO-031: hreflang alternates are exact and reciprocal. Each page lists itself, every alternate is a page
+// that lists alternates and links back, no language code repeats, and x-default is one of the pages listed.
+for (const [url, { rel, alternates }] of alternatesByPage) {
+  const codes = alternates.map(([code]) => code);
+  if (new Set(codes).size !== codes.length) err(rel, 'a hreflang code is listed more than once');
+  const hrefs = alternates.filter(([code]) => code !== 'x-default').map(([, href]) => href);
+  if (!hrefs.includes(url)) err(rel, 'the hreflang set does not include this page itself');
+  const xDefault = alternates.find(([code]) => code === 'x-default');
+  if (xDefault && !hrefs.includes(xDefault[1])) err(rel, `x-default ${xDefault[1]} is not one of the pages in the hreflang set`);
+  for (const href of hrefs) {
+    if (href === url) continue;
+    const other = alternatesByPage.get(href);
+    if (!other) err(rel, `hreflang alternate ${href} is not a built page that lists alternates`);
+    else if (!other.alternates.some(([, back]) => back === url)) err(rel, `hreflang alternate ${href} does not link back to this page`);
+  }
+}
+
 // Every translated guide written for a published language must be built. Folder names keep their
 // case (pt-BR, zh-Hant) while the URL prefix is lowercase; a case mismatch once dropped all 40
 // guides in four languages without any other check noticing.
@@ -307,12 +331,28 @@ const GUIDES_I18N = join(SRC, 'content/guides-i18n');
 const englishGuides = new Set(
   walk(join(SRC, 'content/guides')).filter((f) => f.endsWith('.md')).map((f) => relative(join(SRC, 'content/guides'), f).replace(/\.md$/, '')),
 );
+// L10N-021: a translation made from an older English page must say so, and a current one must not.
+const frontmatterOf = (path) => readFileSync(path, 'utf8').match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
+const englishUpdated = new Map(
+  [...englishGuides].map((id) => [id, readFreshnessFields(frontmatterOf(join(SRC, 'content/guides', `${id}.md`))).updated ?? '']),
+);
 for (const lang of existsSync(GUIDES_I18N) ? readdirSync(GUIDES_I18N) : []) {
   const prefix = lang.toLowerCase();
   if (!LOCALE_PREFIXES.has(prefix) || !existsSync(join(SRC, 'i18n/ui', `${lang}.json`))) continue;
   for (const file of walk(join(GUIDES_I18N, lang)).filter((f) => f.endsWith('.md'))) {
     const id = relative(join(GUIDES_I18N, lang), file).replace(/\.md$/, '');
-    if (englishGuides.has(id) && !existsSync(join(DIST, prefix, id, 'index.html'))) err(`${prefix}/${id}/`, `translated guide ${lang}/${id}.md was not built`);
+    if (!englishGuides.has(id)) continue;
+    const built = join(DIST, prefix, id, 'index.html');
+    if (!existsSync(built)) {
+      err(`${prefix}/${id}/`, `translated guide ${lang}/${id}.md was not built`);
+      continue;
+    }
+    // A retired English guide has no English page (it redirects), so there is nothing for the notice to point to.
+    const live = existsSync(join(DIST, id, 'index.html'));
+    const stale = live && isStale(readFreshnessFields(frontmatterOf(file)).translatedFrom ?? '', englishUpdated.get(id) ?? '');
+    const shows = readFileSync(built, 'utf8').includes('data-stale-translation');
+    if (stale && !shows) err(`${prefix}/${id}/`, 'translation is older than the English page but shows no out-of-date notice (L10N-021)');
+    if (!stale && shows) err(`${prefix}/${id}/`, 'translation is current, or its English guide is retired, but it shows the out-of-date notice (L10N-021)');
   }
 }
 

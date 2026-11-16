@@ -77,7 +77,8 @@ describe('launched content has no old name outside the allowlist (L10N-008)', ()
       if (!actual.has(entry.file)) problems.push(`${entry.file}: allowlisted but no longer has a hit (remove the entry)`);
     }
     expect(problems).toEqual([]);
-  });
+    // Reads every tracked file, so it takes about five seconds when many tests run at once; the default limit is five.
+  }, 60_000);
 
   it('gives every allowlist entry a kind and a reason', () => {
     for (const entry of BRAND_ALLOWLIST) {

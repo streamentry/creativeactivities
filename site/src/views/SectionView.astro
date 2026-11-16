@@ -8,7 +8,8 @@ import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
 import { absoluteUrl, type SectionKey } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
-import { localePath } from '../i18n/locales';
+import { DEFAULT_LOCALE, localePath } from '../i18n/locales';
+import { isRetiredSection } from '../lib/retired-guides';
 import { sectionGuides } from '../i18n/guides';
 import { PUBLISHED, ui } from '../i18n/ui';
 
@@ -29,6 +30,8 @@ const guideSearchText = (g: (typeof entries)[number]) => [
   g.entry.data.summary,
   ...(g.entry.data.keyPoints ?? []),
 ].join(' ');
+// A retired section has no English page (it redirects), so it is not an hreflang alternate (SEO-031).
+const available = PUBLISHED.map((p) => p.code).filter((code) => !(isRetiredSection(section) && code === DEFAULT_LOCALE));
 const crumbs = [{ href: localePath(lang, `/${section}/`), label: meta.label }];
 const [lead, ...rest] = entries;
 const itemList = {
@@ -37,7 +40,7 @@ const itemList = {
   itemListElement: entries.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: absoluteUrl(href(g)), name: g.entry.data.title })),
 };
 ---
-<BaseLayout title={meta.seo} description={meta.description} jsonLd={[breadcrumbs(crumbs, lang), itemList]} available={PUBLISHED.map((p) => p.code)}>
+<BaseLayout title={meta.seo} description={meta.description} jsonLd={[breadcrumbs(crumbs, lang), itemList]} available={available}>
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head">

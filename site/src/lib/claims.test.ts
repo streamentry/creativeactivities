@@ -20,8 +20,41 @@ describe('claims lint: banned claims in our own copy', () => {
     ['Stress relief in ten minutes.'],
     ['Art helps reduce loneliness in care homes.'],
     ['Lift your mood with a quick sketch.'],
+    ['This game builds fine motor skills in toddlers.'],
+    ['Painting develops creativity and confidence.'],
+    ['A skill-building activity for preschoolers.'],
+    ['Threading beads improves hand coordination.'],
+    ['Every guide is clinically reviewed.'],
+    ['These activities are therapist-approved.'],
+    ['Doctor-approved activities for the whole family.'],
   ])('flags: %s', (text) => {
     expect(flagged(text).length).toBeGreaterThan(0);
+  });
+
+  it('flags a condition-led picture description or caption, not only titles (CNT-1000)', () => {
+    const alt = flagged('images:\n  - src: /pictures/x.svg\n    alt: "Art for anxiety: a drawing of a bowl"\n', 'activity-cards/x.md');
+    expect(alt.map((v) => v.rule)).toContain('condition-title');
+    const caption = flagged('    caption: "Music for stress, shown on a tray"\n', 'activity-cards/x.md');
+    expect(caption.map((v) => v.rule)).toContain('condition-title');
+  });
+
+  it.each([
+    ['These are ideas to try, not skill-building exercises.'],
+    ['No activity here is shown to build motor skills, and we do not say so.'],
+    ['Researchers have studied whether play builds language skills, and the evidence is mixed.'],
+    ['Pour water, tear paper and press leaves: playful practice with hands and eyes.'],
+    ['Build a tower of cups together, then knock it down.'],
+  ])('allows playful-practice wording and negated or sourced mentions: %s', (text) => {
+    expect(flagged(text, 'guides/kids/x.md')).toEqual([]);
+  });
+
+  it('allows an ordinary picture description and caption', () => {
+    expect(flagged('    alt: "A hand holds a paper star beside a jar of glue sticks on a table"\n    caption: "The finished star"\n', 'activity-cards/x.md')).toEqual([]);
+  });
+
+  it('allows a page that says it is not reviewed, since that is a plain statement of fact', () => {
+    expect(flagged('Not yet reviewed by an outside expert.')).toEqual([]);
+    expect(flagged('This page is not clinically reviewed.')).toEqual([]);
   });
 
   it.each([

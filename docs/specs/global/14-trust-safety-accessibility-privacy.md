@@ -363,7 +363,9 @@ Depends on: TSA-038.
 Risks / not doing: Do not use a stock child photo as a demonstration of a real activity.
 
 ### TSA-022 · Parenting content boundaries
-Priority P1 · Phase S2 · Status new · Pillars: GROW
+Priority P1 · Phase S2 · Status partial · Pillars: GROW
+
+Evidence (2026-11-16): the claims lint (`site/src/lib/claims.ts`) now fails on copy that says an activity builds, develops, boosts, improves, strengthens, teaches or promotes a named skill or quality (fine motor, literacy, vocabulary, coordination, confidence, creativity and the like) and on "skill-building", unless the sentence is negated, a question, a quotation, a warning or cited research. It runs over all English cards, hubs and guides (including the kids section), the interface, game and app strings and the store copy; no current copy needed changing. `site/scripts/check-site.mjs` fails any page with an autoplaying video or audio element or a frame allowed to autoplay; there are none, and the code has no infinite scroll or load-more. Not done: the "playful practice" wording is a writing rule and is not checked; whether a citation is enough for a skill claim is a reviewer's call (the lint accepts research framing in the same sentence); the child-development reviewer is not yet named.
 
 Why: Developmental over-promise and screen-time framing are the common failures in parenting content [R2 §7].
 

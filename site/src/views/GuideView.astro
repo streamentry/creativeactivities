@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Faq from '../components/Faq.astro';
 import HealthNotice from '../components/HealthNotice.astro';
 import CrisisRoute from '../components/CrisisRoute.astro';
+import Icon from '../components/Icon.astro';
 import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
 import SuggestCorrection from '../components/SuggestCorrection.astro';
@@ -16,7 +17,8 @@ import '../styles/studio-editorial.css';
 import { article, breadcrumbs, faqPage } from '../lib/schema';
 import { localeInfo, localePath } from '../i18n/locales';
 import { localizeGame } from '../i18n/games';
-import { resolveGuide, guideLanguages, type LocalGuide } from '../i18n/guides';
+import { findGuide, resolveGuide, guideLanguages, type LocalGuide } from '../i18n/guides';
+import { isStale } from '../../scripts/translation-freshness-lib.mjs';
 import { fill, ui } from '../i18n/ui';
 
 interface Props {
@@ -80,6 +82,15 @@ const jsonLd = [
   faqPage(d.faq),
 ];
 const available = await guideLanguages(id);
+
+// L10N-021: a translation made from an older English page says so, and points to the current one.
+// A retired English guide has no page to point to (its translations stay live until replaced), so it shows no notice.
+const isoDay = (date: Date) => date.toISOString().slice(0, 10);
+const englishGuide = lang === 'en' ? undefined : await findGuide('en', id);
+const stale =
+  'translatedFrom' in d && englishGuide !== undefined && isStale(isoDay(d.translatedFrom), isoDay(englishGuide.entry.data.updated));
+// Until a language has its own wording, the notice shows the English text; say so to screen readers.
+const staleInEnglish = g.staleText === ui('en').guide.staleText;
 ---
 <BaseLayout title={d.seoTitle ?? d.title} description={d.description} type="article" image={ogImage} jsonLd={jsonLd} available={available}>
   <Breadcrumbs items={crumbs} lang={lang} />
@@ -96,6 +107,20 @@ const available = await guideLanguages(id);
 
     <div class="article-layout">
       <article class="prose">
+        {
+          stale && (
+            <aside class="notice" aria-label={g.staleAria} lang={staleInEnglish ? 'en' : undefined} data-stale-translation>
+              <Icon name="info" />
+              <div>
+                <strong>{g.staleTitle}</strong>
+                <p>
+                  {g.staleText} {d.health && g.staleHealth}{' '}
+                  <a href={localePath('en', `/${id}/`)} hreflang="en" lang="en">{g.staleLink}</a>
+                </p>
+              </div>
+            </aside>
+          )
+        }
         {d.health && <HealthNotice lang={lang} />}
         {d.crisisRoute && <CrisisRoute />}
         <section class="answer" aria-labelledby="short-answer">
