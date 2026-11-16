@@ -19,6 +19,7 @@ These are written by the site's own code. None is sent to Creative Activities. E
 | Name | Kind | Written by | What it holds | Sent off the device? | Kept until |
 |---|---|---|---|---|---|
 | `ca-saved-activities-v1` | local storage | `site/src/lib/saved-activities.ts` (activity page, Save) | Short names of activities saved for later, up to 60 | No | The reader removes them or clears site data |
+| `ca-what-i-have-v1` | local storage | `site/src/lib/what-i-have.ts` (What I have page) | Short names of the everyday items ticked on the What I have page, from a fixed list | No | The reader clears the list on the page or removes it on `/your-data/`, or clears site data |
 | `ca-tried-activities-v1` | local storage | `site/src/lib/activity-feedback.ts` (activity page, "We tried this") | Short names of activities marked as tried, up to 200 | The first mark for each activity sends `activity_started_confirmed` (section 3) | As above |
 | `ca-analytics-consent-v1` | local storage | `site/src/lib/consent.ts`, set by `ConsentBar.astro` and the privacy page choice | `granted` or `denied`; absent until the visitor answers | No. It decides whether Google Tag Manager loads at all | As above; deleting it on `/your-data/` makes the site ask again |
 | `gm-today-notes-v1` | local storage | `site/src/lib/today/notes.ts` (Today page) | The reader's own notes, up to 280 characters each, with the day, outcome and time of day | No | As above |

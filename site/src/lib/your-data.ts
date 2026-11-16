@@ -8,6 +8,7 @@
  * not in the inventory, so keep both in step.
  */
 import { parseTried, TRIED_STORAGE_KEY } from './activity-feedback';
+import { parseHave, STORAGE_KEY as WHAT_I_HAVE_KEY } from './what-i-have';
 import { CONSENT_KEY } from './consent';
 import { CONTRAST_KEY, PLAY_SETTINGS_KEY, TEXT_SIZE_KEY } from './display-settings';
 import { LANGUAGE_COOKIE, readCookie } from './language-choice';
@@ -33,6 +34,14 @@ export const SITE_STORES: readonly SiteStore[] = [
     label: 'Saved activities',
     description: 'Activities you chose to save for later, kept as their short names.',
     count: (raw) => parseSaved(raw).length,
+  },
+  {
+    id: 'what-i-have',
+    kind: 'localStorage',
+    key: WHAT_I_HAVE_KEY,
+    label: 'What I have list',
+    description: 'The everyday items you ticked on the What I have page, kept as short names.',
+    count: (raw) => parseHave(raw).length,
   },
   {
     id: 'tried',

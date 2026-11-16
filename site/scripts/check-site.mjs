@@ -288,6 +288,24 @@ for (const file of htmlFiles) {
 for (const [key, pages] of titles) if (pages.length > 1) err(pages.join(', '), `duplicate title "${key.split('|').slice(1).join('|')}"`);
 for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join(', '), `duplicate description`);
 
+// WEB-003: every page the search index lists is a built page, and nothing is listed twice.
+{
+  const indexPath = join(DIST, 'search-index.json');
+  if (!existsSync(indexPath)) err('search-index.json', 'is missing: site search has nothing to look through');
+  else {
+    const file = JSON.parse(readFileSync(indexPath, 'utf8'));
+    const entries = Array.isArray(file.entries) ? file.entries : [];
+    if (entries.length < 100) err('search-index.json', `lists only ${entries.length} pages`);
+    const seenUrls = new Set();
+    for (const e of entries) {
+      if (typeof e.url !== 'string' || typeof e.title !== 'string' || !e.title.trim()) err('search-index.json', `has an entry with no address or title: ${JSON.stringify(e).slice(0, 80)}`);
+      else if (!existsSync(join(DIST, e.url, 'index.html'))) err('search-index.json', `lists ${e.url}, which is not a built page`);
+      if (seenUrls.has(e.url)) err('search-index.json', `lists ${e.url} twice`);
+      seenUrls.add(e.url);
+    }
+  }
+}
+
 // SEO-031: hreflang alternates are exact and reciprocal. Each page lists itself, every alternate is a page
 // that lists alternates and links back, no language code repeats, and x-default is one of the pages listed.
 for (const [url, { rel, alternates }] of alternatesByPage) {

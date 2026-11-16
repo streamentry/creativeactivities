@@ -12,10 +12,13 @@ import { SITE } from './site';
 
 const EVERY = PUBLISHED.map((l) => l.code);
 
+// Tool pages that ask not to be indexed (WEB-003): left out of the sitemap, as a noindex page must be.
+const NOINDEX_PAGES: ReadonlySet<string> = new Set(['/search/']);
+
 // Every non-dynamic page in src/pages, so new pages are listed automatically.
 const STATIC_PAGES = Object.keys(import.meta.glob('../pages/**/*.astro'))
   .map((file) => file.replace(/^\.\.\/pages/, ''))
-  .filter((file) => !file.includes('[') && file !== '/404.astro')
+  .filter((file) => !file.includes('[') && file !== '/404.astro' && !NOINDEX_PAGES.has(file.replace(/\.astro$/, '/')))
   .map((file) => file.replace(/index\.astro$/, '').replace(/\.astro$/, '/'));
 
 // Pages that also exist under /<language>/ (src/pages/[lang]/*.astro).

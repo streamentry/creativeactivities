@@ -70,7 +70,9 @@ Risks / not doing: A phrase must never imply a condition ("forgetful" is not a d
 
 ### WEB-003 · Site search with care and family language
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `/search/` searches activity cards, situations (hubs), games and the live English guides, and a "Search" link sits in the header of every page (it opens the English page from other languages). Results list activities first, then situations, games and guides. A question must match every word; if no page does, the closest matches are shown and say so; if nothing matches, the page says so and links to the activity finder. Words are matched with a light stem, so "painting", "paints" and "watercolor" meet, and with an editor-owned list of 37 synonym groups (`site/src/data/search-synonyms.ts`: "nan", "granny" and "grandma" are one word; "care home" and "nursing home" are one phrase). `site/src/lib/search.test.ts` checks the list has 30 or more groups, that no word sits in two groups, that no group maps an everyday word to a condition, diagnosis or treatment, and that ten sample questions find the right page in the real content. The question stays in the browser: no storage, no request except the index on this site, no analytics event, and it is kept out of the address so page-view reports cannot see it (all tested by scanning the search code). The box is labeled and keyboard-operable and the page passes the accessibility check at 320 to 1440 px and 200% text. Not done: a search box on every page (there is a link, not a box); an editor's review of the synonym groups (one author wrote them); a basic query without JavaScript (the page offers the finder and the "what I have" page instead); a screen-reader test of the results; other languages; the rule that every query returns a card or hub (a query that matches only guides shows guides).
 
 Why: Search is a main way in, and people use varied words for the same need, such as "grandma", "nan", "memory care" and "elderly" ([R5 §3](research/05-search-scale-trust.md)).
 
@@ -128,7 +130,9 @@ Risks / not doing: Long filter URLs can create near-duplicate pages. The `noinde
 
 ### WEB-006 · "What I have" mode
 
-Priority P1 · Phase S2 · Status new · Pillars: MAKE, CARE, GROW
+Priority P1 · Phase S2 · Status partial · Pillars: MAKE, CARE, GROW
+
+Evidence (2026-11-16): `/what-i-have/` lists 61 everyday items in seven groups, each with its own checkbox label (`site/src/data/materials.ts`). Ticking items shows the cards whose every need is met, and a card that is one thing short is listed apart with the missing choice named. `site/src/data/card-needs.ts` records, for all 53 cards, which groups of items each needs (a group is met by any one of its items, as in "a glue stick or double-sided tape") and which extras are optional. `site/src/data/materials.test.ts` reads every line of every card's materials list both ways: a line that names an item must be recorded, a recorded item must be named in the card, and a line that names nothing must be one of the few not asked about (furniture, tap water, comfort extras). `site/src/lib/what-i-have.test.ts` checks that no card is shown ready when it needs something that was not ticked. The card's own substitutions show beside each result under "If something is missing". The ticked list stays in this browser (`ca-what-i-have-v1`, listed in the data inventory and on `/your-data/`) and the page has a "Clear my list" button. With the editors' picture of a plain household stash (23 items: paper, pens, crayons, scissors, glue stick, tape, bowls, cups, towels, photos, a music player and the like) 21 cards are ready, above the proposed 20. Checked: build 16,527 pages, `check-site` 0 errors, `check:a11y` 0 failing of 123 (the page passes at 320 to 1440 px and 200% text). Not done: a reviewer's check of the 61 items and of each card's record (one author classified them, so a wrong match is possible; the page tells people to read the card's own list); the materials class facet (nothing needed, things at home, simple purchase, specialist) and a "substitute: yes" mark on an item; other languages; the link from [WEB-002](#web-002--describe-your-situation).
 
 Why: MISSION asks for activities started "with everyday materials" ([MISSION](../../../MISSION.md), "The problem"). A stash-style view reduces buying pressure ([R1 §5](research/01-craft-diy-platforms.md)).
 
@@ -605,7 +609,9 @@ Evidence: `/seasons/` asks which half of the world the visitor lives in (norther
 
 ### WEB-034 · Occasion hubs
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): four occasion hubs are built at `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/` and `/occasions/gift/` (`site/src/content/hubs/occasions/`). Each lists ten cards chosen by a written rule, and has its own opening, a stop note and a "not for" line. `site/src/lib/hubs.test.ts` checks each hub against its own rule (the visit hub lists only seated or bedside cards that take five minutes or less to set up; the short break hub only cards with five minutes or less of setup and a first go of ten or less; the rainy day hub only table activities for more than one person), checks that none names a festival, and checks the overlap limit with every other hub (H1). Writing the tests found one card that did not fit the visit rule and it was swapped. The gift hub has no link to a store, no product name and no price wording (tested). Bed rest and celebrations are not separate hubs: each would share more than half its cards with the bedside hub and the seasonal hub (H1), so those two hubs serve them. All four hubs are held from search (`indexable: false`) because 02 H11 allows new hubs in this phase only with search and usability evidence, and none exists yet; they are linked from the home page and the finder, and pass the accessibility check. Not done: the printable gift card; search or usability evidence; outside review of the wording.
 
 Why: Occasions capture time-bound searches and real situations: a visit, a rainy day, bed rest, a short break, a gift ([01 rows 1, 4, 16, 28](01-positioning-and-audiences.md#3-situations); [R5 §6](research/05-search-scale-trust.md)).
 

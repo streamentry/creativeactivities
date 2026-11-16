@@ -56,7 +56,8 @@ describe('secrets in the repository (TSA-043)', () => {
       for (const { name, re } of PATTERNS) if (re.test(text)) hits.push(`${file}: ${name}`);
     }
     expect(hits).toEqual([]);
-  });
+    // Reads every tracked file, so it takes about five seconds when many tests run at once; the default limit is five.
+  }, 60_000);
 
   it('tracks no signing keys or key files', () => {
     expect(files.filter((f) => FORBIDDEN_FILES.test(f))).toEqual([]);

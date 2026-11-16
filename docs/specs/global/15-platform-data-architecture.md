@@ -300,7 +300,9 @@ Depends on: PLAT-014.
 Risks / not doing: a single global index. Do not build one.
 
 ### PLAT-022 · Site-wide static search index
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `/search-index.json` is built with the site (`site/src/pages/search-index.json.ts`), 110 KB and 34 KB gzipped for 53 cards, 14 hubs, 41 live English guides and 14 games, and is downloaded only by the search page. A short matcher in `site/src/lib/search.ts` reads it in the browser, so no third-party service receives a query and the only request is to this site (the page's security policy also allows only this origin for fetches). No query text is logged, stored or counted (tested). `site/scripts/check-site.mjs` fails the build if the index is missing, lists fewer than 100 pages, lists a page twice or names a page that was not built. Not done: sharding by language (the index is English only, which is all the site searches today); the "indexed pairs only" rule (the index also lists hubs held from search, because the home page links to them); a combobox pattern and a screen-reader test (the page is a plain search box with a list of results); a tool choice tested at a larger size (the matcher is fine at this size and has not been measured at 100,000 pages).
 Why: VISION makes the site search-first, and the catalog will outgrow navigation alone. [R5 §3] says search demand is spread across many small intents.
 What: a build-time, locale-sharded index that loads only on the search page. Choose a static index tool after a test on the real content size. No third-party search service that receives queries.
 Acceptance:
