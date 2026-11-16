@@ -67,7 +67,9 @@ Depends on: PLAT-008.
 Risks / not doing: one-time migration of the 38 cards. Do not add IDs to guides in S1 unless a guide needs to be referenced by ID.
 
 ### PLAT-002 · Variations as first-class records
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): a hub can list cards and show each card's variation of one kind without copying its text (`variation` in the hub schema; the seated and bedside hubs use it), and every card's variations carry one of the ten kinds in `VARIATION_KINDS`. Not done: an ID for each variation; a review record for a variation apart from its card; retiring one without touching its card; validation that a variation changes at least one step (a variation is a short text, not a set of changed steps).
 Why: the VISION "adaptation graph" is the moat it names. Variations are currently array items inside each card (`variations` in `content.config.ts`), so a hub cannot select one by its own ID or review it separately. The hub schema already has a `variation` field.
 What: each variation has its own ID, a `kind` from the existing nine values, the steps it changes, optional media, and its own review record.
 Acceptance:
@@ -127,7 +129,9 @@ Depends on: PLAT-011.
 Risks / not doing: link rot and licenses for archived copies. Archive only what the license allows; link otherwise.
 
 ### PLAT-007 · Versions, change log and corrections
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): each activity card prints its version date and address in the print footer (WEB-016) and keeps a dated change log, with safety changes labelled and a notice that a printed copy from before a safety change may not show it (WEB-027, `site/src/lib/activity-changes.test.ts`). Only changes to materials, steps, safety or the pictures that show them are listed, so a typo fix is not. The corrections page and log take reports (TSA-035). Not done: a version number for each entity (the version is the card's date); entries created from the diff (they are written by hand); a public correction log of material changes kept for 24 months across guides and hubs; the printed pack footer is not checked.
 Why: DESIGN §4B requires a correction link. [R5 §4] says printed copies cannot be updated, so each print must carry a date and version.
 What: each published entity has a version number and a change-log entry. Material changes (safety, materials, claims, steps) appear on a public correction log for 24 months.
 Acceptance:

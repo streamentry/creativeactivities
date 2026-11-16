@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 167 | 176 | 407 |
+| S2 | 64 | 169 | 174 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **207** | **249** | **533** |
+| **All** | **77** | **209** | **247** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -165,6 +165,7 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | `pnpm metrics:content` reads the repository and reports, each with its count and date: pages with a current, stale or no review record (health-adjacent apart from the rest), pages past a 12-month review, translation coverage and staleness per language, and source coverage on health-adjacent guides. Today: 0 of 10 health-adjacent guides and 0 of 98 other pages reviewed, 0 of 108 overdue, 189 languages with 5 to 6 of 41 live guides each and 0 stale, 0 native-reviewed, 10 of 10 health-adjacent guides sourced and 0 with a dated source | MET-010, MET-011, MET-012, MET-015 → partial (content-hash staleness, owners, weekly run, native-review records, dated sources) | vitest 3,416 pass (20 new); `tsc` clean for the new files |
 | The print check (`pnpm check:print`: every activity card is one two-sided sheet on A4 and US Letter, navigation hidden) now runs in the website workflow. It passes locally for all 53 cards in 34 seconds. Classified two items from existing evidence: the print and translation tests and the staleness queue | PLAT-039, PLAT-012 → partial (print checks beyond cards; owners and a weekly run) | `check:print` 0 of 53 cards failing; the CI step is proven by this pull request's own run |
 | The year as twelve months on `/seasons/`, for the northern or southern half, with this month marked and each month linking to its season; a test that each season's own cards include a seated and a large-grip version | CNT-013 → partial (six-weeks-ahead publishing; holidays from many traditions with cultural review; editor review); WEB-033 stays partial | vitest 3,420 pass (calendar and seated and large-grip tests); tried in the browser for north, south and "not four seasons" |
+| Classified two items from existing evidence: print version and dated change log per card (PLAT-007), and hubs showing a card's variation by kind without copying text (PLAT-002) | PLAT-007, PLAT-002 → partial (version numbers, diff-made entries, variation IDs and review records) | docs only; read from `ActivityView.astro`, `activity-changes.test.ts` and the hub schema |
 
 ## What blocks the rest
 
