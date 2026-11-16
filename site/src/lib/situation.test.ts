@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { serializeFinderState } from './finder-state';
-import { FACET_ORDER, MORE_FACETS, RULES, chipLabel, interpret, mentionsChild, minutesIn, planFinderChanges, type Facet } from './situation';
+import { FACET_ORDER, MORE_FACETS, RULES, chipLabel, interpret, mentionsChild, minutesIn, overrideFacet, planFinderChanges, read, type Facet } from './situation';
 import { normalize } from './search';
 
 const chips = (text: string) => interpret(text).map((c) => `${c.facet}=${c.value}`);
@@ -153,7 +153,7 @@ describe('every choice is one the finder offers', () => {
 });
 
 describe('setting the finder from the chips (WEB-002)', () => {
-  const chip = (facet: Facet, value: string) => ({ facet, value, label: `${facet}: ${value}` });
+  const chip = (facet: Facet, value: string) => ({ facet, value, label: `${facet}: ${value}`, source: value });
 
   it('sets each chosen question and nothing else', () => {
     const plan = planFinderChanges([chip('type', 'music'), chip('energy', 'low')], new Map());
@@ -176,6 +176,108 @@ describe('setting the finder from the chips (WEB-002)', () => {
     const plan = planFinderChanges([], new Map<Facet, string>([['time', '15'], ['group', 'intergenerational']]));
     expect([...plan.set]).toEqual([['time', 'any'], ['group', 'any']]);
     expect(plan.applied.size).toBe(0);
+  });
+});
+
+describe('a person who changes the finder by hand is not overruled (WEB-002)', () => {
+  const chip = (facet: Facet, value: string) => ({ facet, value, label: `${facet}: ${value}`, source: value });
+
+  it('leaves a question alone that the person changed after the box set it, while the words say the same', () => {
+    const applied = new Map<Facet, string>([['type', 'music']]);
+    const { applied: after, overridden } = overrideFacet(applied, new Map(), 'type');
+    expect([...after]).toEqual([]);
+    expect([...overridden]).toEqual([['type', 'music']]);
+    const plan = planFinderChanges([chip('type', 'music'), chip('setting', 'seated')], after, overridden);
+    expect([...plan.set]).toEqual([['setting', 'seated']]);
+    expect([...plan.overridden]).toEqual([['type', 'music']]);
+  });
+
+  it('sets the question again when the words now say something else about it, and forgets the override', () => {
+    const plan = planFinderChanges([chip('type', 'art')], new Map(), new Map<Facet, string>([['type', 'music']]));
+    expect([...plan.set]).toEqual([['type', 'art']]);
+    expect(plan.overridden.size).toBe(0);
+  });
+
+  it('forgets an override once no chip names the question, so a later description starts fresh', () => {
+    const plan = planFinderChanges([], new Map(), new Map<Facet, string>([['type', 'music']]));
+    expect(plan.overridden.size).toBe(0);
+    const again = planFinderChanges([chip('type', 'music')], new Map(), plan.overridden);
+    expect([...again.set]).toEqual([['type', 'music']]);
+  });
+
+  it('does nothing for a question the box never set', () => {
+    const { applied, overridden } = overrideFacet(new Map(), new Map(), 'energy');
+    expect(applied.size + overridden.size).toBe(0);
+  });
+});
+
+describe('a negation stays inside its clause and covers phrases too (WEB-002)', () => {
+  it('splits a description into clauses at punctuation and at "but"', () => {
+    const r = read('No mess, quick. Music but not loud');
+    expect(r.tokens).toEqual(['no', 'mess', 'quick', 'music', 'not', 'loud']);
+    expect(r.clause).toEqual([0, 0, 1, 2, 3, 3]);
+  });
+
+  it.each([
+    ['She is not in bed, she is in the garden', ['type=nature'], ['setting=bedside']],
+    ['He would like to avoid old memories', [], ['type=conversation']],
+    ['He never gets tired', [], ['energy=low']],
+    ['He isn\u2019t tired', [], ['energy=low']],
+    ['She doesn\u2019t tire quickly', [], ['energy=low', 'setting=seated']],
+    ['No mess, quick', ['mess=none', 'time=15'], []],
+    ['She hates mess. Music is her thing.', ['mess=none', 'type=music'], []],
+    ['We are on our own but want music', ['type=music'], []],
+  ])('%s', (text, has, hasNot) => {
+    const got = chips(text);
+    for (const c of has) expect(got, text).toContain(c);
+    for (const c of hasNot) expect(got, text).not.toContain(c);
+  });
+});
+
+describe('an ordinary word, or a limit, is not a wish (WEB-002)', () => {
+  it.each([
+    'Hard of hearing',
+    'hearing loss',
+    'difficulty walking',
+    'trouble moving about',
+    'short term memory loss',
+    'I\u2019m feeling anxious',
+    'he is unable to listen for long',
+  ])('turns "%s" into nothing', (text) => {
+    expect(chips(text)).toEqual([]);
+  });
+
+  it.each([
+    ['loves loud music', ['type=music']],
+    ['some sort of music', ['type=music']],
+    ['we have to leave in 20 minutes', ['time=30']],
+    ['we want something quiet', ['sense=calm']],
+    ['it is too loud at home', ['sense=calm']],
+    ['a short craft', ['time=15', 'type=craft']],
+    ['sorting buttons', ['type=sensory']],
+    ['pressing autumn leaves', ['type=nature']],
+  ])('reads "%s" as only what it says', (text, expected) => {
+    expect(chips(text).sort()).toEqual([...expected].sort());
+  });
+
+  it('knows who takes part from a child\u2019s age and not from any number near "aged"', () => {
+    expect(chips('my grown up children')).toEqual([]);
+    expect(chips('my adult children visit')).toEqual([]);
+    expect(chips('mother, aged 90, has ten minutes')).toEqual(['time=15']);
+    expect(mentionsChild(read('aged 6 and 9').tokens)).toBe(true);
+    expect(mentionsChild(read('aged 90 and 4').tokens)).toBe(true);
+    expect(mentionsChild(read('aged 90 and 85').tokens)).toBe(false);
+    expect(chips('two grandchildren')).toContain('group=intergenerational');
+  });
+
+  it('keeps the pronoun "I" a capital on a chip', () => {
+    expect(chipLabel('supervision', 'nearby')).toMatch(/: I can stay nearby/);
+  });
+
+  it('remembers the words each chip came from, so removing one is about those words', () => {
+    expect(interpret('music')[0]?.source).toBe('music');
+    expect(interpret('singing')[0]?.source).toBe('singing');
+    expect(interpret('twenty minutes')[0]?.source).toBe('20 minutes');
   });
 });
 
