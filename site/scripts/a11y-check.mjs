@@ -43,6 +43,8 @@ const TEMPLATES = [
   { name: 'home', path: '/' },
   { name: 'finder', path: '/activity/' },
   { name: 'activity-card', path: '/activity/arrange-flowers-together/' },
+  // The group view (WEB-046) open on a card: its own screen, with the page behind it out of reach.
+  { name: 'group-view', path: '/activity/arrange-flowers-together/', open: '[data-group-stage]' },
   { name: 'hub', path: '/activities-for-seniors/' },
   { name: 'occasion-hub', path: '/occasions/gift/' },
   { name: 'pack', path: '/activity/packs/five-quiet-bedside-activities/' },
@@ -315,13 +317,22 @@ async function pool(items, limit, fn) {
 }
 
 /** One page at one width. Returns the printed line and the problems found. */
-async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, width, textScale }) {
+async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, open, width, textScale }) {
   const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true });
   const page = await context.newPage();
   try {
     const response = await page.goto(base + path, { waitUntil: 'networkidle', timeout: 90000 });
     await page.evaluate(() => document.fonts.ready);
     if (textScale) await page.addStyleTag({ content: `html { font-size: ${textScale} !important; }` });
+    if (open) {
+      // A state to check: press this control and wait for what it opens, as a person would.
+      await page.waitForSelector(`${open}:not([hidden])`, { timeout: 10000 });
+      await page.click(open);
+      await page.waitForSelector('dialog[open]', { timeout: 10000 });
+      // The Tab walk starts at the top of what opened, not on the control that was pressed (focus there is already
+      // on the last button, so the first Tab would leave the page). Focus on the dialog itself is that starting point.
+      await page.evaluate(() => document.querySelector('dialog[open]')?.focus());
+    }
     const notes = [];
     if (response.status() !== status) notes.push(`HTTP ${response.status()}, expected ${status}`);
     const dir = await page.evaluate(() => document.documentElement.dir);
@@ -358,7 +369,7 @@ async function main() {
   if (server) await new Promise((done) => server.listen(port, '127.0.0.1', done));
   const base = given ?? `http://127.0.0.1:${server.address().port}`;
 
-  const jobs = [];
+  let jobs = [];
   for (const t of TEMPLATES) for (const v of VARIANTS) jobs.push({ ...t, ...v, label: t.name, game: false });
   const games = gamePaths();
   for (const path of games) {
@@ -366,6 +377,9 @@ async function main() {
     for (const v of GAME_VARIANTS) jobs.push({ name, label: `game:${name}`, path, ...v, game: true });
   }
 
+  // --only=name keeps one template (or game:name) while a fix is tried; CI runs them all.
+  const only = process.argv.find((a) => a.startsWith('--only='))?.slice('--only='.length);
+  if (only) jobs = jobs.filter((j) => j.label === only);
   const browser = await chromium.launch();
   let results;
   try {

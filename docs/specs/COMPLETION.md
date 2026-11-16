@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 161 | 182 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **201** | **255** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 22 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Group mode for facilitators: every activity card has a "Show steps to a group" button that opens a full-screen view built from the text already on the page. A start screen shows the name, summary, what you need and the note about pausing or stopping; then one screen for each step, in the card's own words in large type; then a last screen with the card's own note that it is fine to stop. The person leading moves on with Next, Previous, the left and right arrow keys, or Page Down and Page Up; Pause hides the step until Carry on; Done for now is on every screen. The buttons keep focus, each new screen is read out, and the buttons never take more than 45% of the screen. No clock, score, sound or autoplay, no number but the step count, nothing stored or sent, and the code and styles load only when the button is pressed. An independent review found a focus and keys risk, a crowded button bar on small screens, a check that could pass while broken, and several claims that went further than the evidence; all are fixed or stated. Adding the button made the 320 px page 1 px wider than the accessibility check allows, because the tilted sheet behind the card head grows with the head; the sheet is now tilted less on phones | WEB-046 → partial (materials do not scale to the group size; offline needs WEB-040; not tried in Firefox or Safari, on a real tablet, TV, cast screen or clicker, or with a screen reader; English only) | vitest 3,420 pass (24 in `group-stage.test.ts`); `tsc` clean; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 cards; new `pnpm check:group`, also a CI step, in Chromium with the page's security policy enforced: 53 of 53 cards pass the walk-through, 42 of 42 fit checks pass (three demanding cards, eight screen sizes from 320 by 256, normal and 200% text), 53 of 53 card pages fit a 320 px screen, and it fails with the styles missing or the button bar uncapped; `check:a11y` 0 failing of 138 (the open view is a new template) |
 
 ## What blocks the rest
 
