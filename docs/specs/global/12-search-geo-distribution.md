@@ -529,7 +529,9 @@ Depends on: [localization](13-localization.md) review gates.
 Risks / not doing: Do not index a language to see if it ranks.
 
 ### SEO-031 · Hreflang implementation
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: each page lists itself and the other languages it exists in as `hreflang` alternates, with a self-referencing canonical and an `x-default` for the English page. `site/scripts/check-site.mjs` now checks, on all built pages, that each page lists itself, that no language code repeats, that every alternate is a built page that links back, and that `x-default` is one of the pages listed; it failed on 10,541 pages when first run. The cause was the 2026-11-15 guide retirement: `x-default` and the translated retired section's index pointed at English addresses that now redirect. The layout now leaves out `x-default` where English is not in the set, and a retired section no longer lists its English redirect as an alternate; the check passes on 16,526 pages, and removing one back-link from a built page makes it fail. `site/src/middleware.ts` only rewrites links inside translated pages and redirects nothing; the language choice on the English home page reads the browser's language list and never the address, and a saved choice always wins. Not done: every one of the 189 languages is advertised as an alternate because none is held from the index (`HELD_FROM_INDEX` is empty; the index decision is L10N-033 in [13](13-localization.md)), so there is no reviewed-locale gate yet; alternates are built from path and the content list of languages, not from a mapping of content identifiers; no check yet that a page with only part of its text translated is left out.
 
 Why: Language alternates help the right page reach the right reader only when they are reciprocal and exact [SEO.md §8.1].
 

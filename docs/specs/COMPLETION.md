@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 149 | 194 | 407 |
+| S2 | 64 | 151 | 192 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **189** | **267** | **533** |
+| **All** | **77** | **191** | **265** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -130,6 +130,13 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Changing the picture count keeps the place in Find the same, Shadow match, Odd one out, Four together and Picture pairs: the target, theme, odd picture, found pictures or matched pairs stay, and only extras are added or taken away. In Picture pairs, switching between showing and hidden pictures no longer restarts the board. A new `resize.ts` holds the logic. Picture puzzle, Picture bingo, Word search and Sort together still restart | WEB-053 stays partial (those four games, five-adult testing) | vitest 3,046 pass (16 resize, 5 pairs-carry, 11 keep-place; keep-place fails against the old code); `tsc` clean for the game files; build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108; browser: pairs kept a matched pair from 4 to 8 to 4 tiles and a finished board reopened on growing, Four together kept two found pictures from 8 to 4 to 8, Find the same and Odd one out kept their pictures, no console errors |
+
+### Batch 11 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Stale-translation notice: a translated guide made from an older English page shows an "out of date" notice with a link to the current English page (a stronger line on health guides), found from the `translatedFrom` and `updated` dates; `pnpm translations:queue` lists stale translations with protected guides first; `check-site` fails if a stale page lacks the notice or a current one shows it. Today 362 translations (182 languages) are behind two retired English guides and are reported separately, with no notice; none of a live guide is stale | L10N-021 → partial (re-review SLA, segment-level states, hiding a stale protected page) | vitest 3,066 pass (20 new); `tsc` clean for the new files; build 16,526 pages; `check-site` 0 errors; proven by moving two live guides' dates forward (75 translations of the health guide showed the notice, check passed) and restoring them; viewed in the browser |
+| Hreflang reciprocity check in `check-site`: each page lists itself, no repeated code, every alternate is a built page that links back, `x-default` is in the set. First run failed 10,541 pages, a real defect from the guide retirement (`x-default` and the retired section's alternates pointed at redirecting English addresses); fixed in the layout and the section view | SEO-031 → partial (reviewed-language gate, content-identifier mapping, partial-translation rule) | `check-site` 0 errors on 16,526 pages; removing one back-link from a built page produced the expected error, then restored |
 
 ## What blocks the rest
 
