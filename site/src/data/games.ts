@@ -31,6 +31,7 @@ export interface GameInfo {
   cardPictures: string[];
   stages: Stage[];
   players: string;
+  /** Has a paper version; must agree with `GAME_PRINT` in `game-print.ts` (WEB-052). */
   printable: boolean;
   intro: string;
   howTo: string[];
@@ -78,7 +79,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['teacup', 'sunflower', 'teacup'],
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people, side by side',
-    printable: false,
+    printable: true,
     intro:
       'Tap a picture, then tap the one that matches it. Pictures stay showing by default, so nothing has to be remembered. When two pictures go together they get a gold border and a check mark.',
     howTo: [
@@ -120,7 +121,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['apple', 'pear', 'apple'],
     stages: ['middle', 'late'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'A single picture sits at the top of the screen. Below it are two, three or four pictures. Tap the one that is the same. It is one simple choice at a time, with plenty of room to talk.',
     howTo: [
@@ -157,7 +158,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['teacup', 'umbrella', 'bicycle'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'Shadow matching is a familiar activity from printed worksheets, here with large pictures and nothing to print. A soft shadow sits at the top of the screen and two, three or four pictures wait below. Tap the one that makes the shadow. Shapes like a bicycle, an umbrella or a teacup are easy to talk about too.',
     howTo: [
@@ -198,7 +199,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['pear', 'cherries', 'lemon'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'A small set of pictures, and some of them belong together: four kinds of fruit, perhaps, or four ways to travel. Tap the ones that share a theme. If a picture goes with something else, the game simply names it and waits. After a quiet pause a hint names the theme, and "Show the group" reveals the answer at any time.',
     howTo: [
@@ -239,7 +240,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['apple', 'pear', 'bus'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'Three or four pictures, and all but one go together: fruit, perhaps, or ways to travel. Tap the picture that does not belong. If a picture does go with the others, the game simply says so and waits. After a quiet pause a hint names what the others share, and "Show me" points out the odd one at any time.',
     howTo: [
@@ -280,7 +281,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['kettle', 'watering-can', 'bread'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'Sorting is a familiar, satisfying everyday task, like putting away groceries or pairing socks. Tap a picture, then tap the basket where it belongs. There is no rush and no wrong turn.',
     howTo: [
@@ -317,7 +318,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['sailboat', 'house', 'balloon'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed.',
     howTo: [

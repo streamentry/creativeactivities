@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 135 | 208 | 407 |
+| S2 | 64 | 136 | 207 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **175** | **281** | **533** |
+| **All** | **77** | **176** | **280** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -101,6 +101,12 @@ Checks after batch 6: vitest 71 files, 2,928 pass; `astro build` 16,519 pages; `
 | Game "Odd one out" at `/games/odd-one-out/` (subagent, reviewed): sets of 3 or 4 from the Four together groups, the odd one always from another group; tapping a picture that belongs says it goes with the others; hint after 20 seconds; "Show me" with no penalty; English only (`ODD_ONE_OUT_REVIEWED`) | GAME-018 → partial (print twin, native category review) | vitest 2,941 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108 (14 games) |
 
 Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `onRestingChange`); a browser check rested 21 seconds and no hint showed on return. Still open: a found odd picture is read as "Matched", the shared tile's word.
+
+### Batch 8 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Printable partner audit of all 14 games (subagent, reviewed): 11 have a one-page paper version (7 new sheets: Picture pairs, Find the same, Shadow match, Four together, Odd one out, Sort together, Picture puzzle; 4 existing: Word search, Coloring, Conversation cards, Picture bingo, now with rules and version line). 3 have a written reason: Finish the saying (all endings would show at once), Photo pairs (own photos never leave the device), Calm breathing (the on-screen pace is the activity). Game pages gain a "Play on paper" section; rules text reads from the same key as the game. English only; other languages fall back | WEB-052 → partial (native review of translated sheets; print on real printers) | vitest 2,947 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108; Playwright A4/Letter: new sheets 1 page each |
 
 ## What blocks the rest
 

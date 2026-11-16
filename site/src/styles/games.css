@@ -1019,7 +1019,7 @@
     display: grid;
     grid-template-columns: repeat(var(--cols), 1fr);
     border: 3px solid #000;
-    max-width: 175mm;
+    max-width: 150mm /* room for the rules and version lines (WEB-052) */;
   }
   .sheet-bingo div {
     border: 2px solid #222;
@@ -1058,6 +1058,126 @@
   .sheet-color svg {
     width: 100%;
     max-height: 230mm;
+  }
+
+  /* WEB-052: the paper version of a game (GamePrintSheet.astro), one page. */
+  .sheet-paper {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-paper h2 {
+    margin-bottom: 3mm;
+  }
+  .sheet-paper__rules {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 2mm;
+  }
+  .sheet-paper__how {
+    font-size: 13pt;
+    margin: 0 0 5mm;
+    color: #000;
+  }
+  .sheet-paper figure {
+    margin: 0;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .sheet-paper__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 170mm;
+  }
+  .sheet-paper__cards figure {
+    border: 1.5px dashed #333;
+    padding: 3mm;
+  }
+  .sheet-paper__rows {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 175mm;
+  }
+  .sheet-paper__rows li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5mm;
+    align-items: end;
+    padding: 2mm 0;
+    border-bottom: 1.5px solid #333;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* Small pictures, full-width captions: long translated names wrap less. */
+  .sheet-paper__rows li > figure img {
+    max-width: 26mm;
+    margin-inline: auto;
+  }
+  .sheet-paper__target {
+    justify-self: center;
+    border: 2.5px solid #000;
+    padding: 2mm;
+  }
+  .sheet-paper__target[data-shadow='yes'] img {
+    filter: brightness(0);
+    opacity: 0.7;
+  }
+  .sheet-paper__baskets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+    max-width: 170mm;
+    margin-top: 6mm;
+  }
+  .sheet-paper__baskets div {
+    min-height: 58mm;
+    border: 2.5px solid #000;
+    padding: 3mm;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__puzzle {
+    display: grid;
+    grid-template-columns: 40mm 1fr;
+    gap: 8mm;
+    align-items: start;
+  }
+  .sheet-paper__pieces {
+    position: relative;
+    max-width: 125mm;
+  }
+  .sheet-paper__cut {
+    position: absolute;
+    border: 0 dashed #000;
+  }
+  .sheet-paper__cut[data-cut='across'] {
+    inset: 50% 0 auto;
+    border-top-width: 2px;
+  }
+  .sheet-paper__cut[data-cut='down'] {
+    inset: 0 auto 0 50%;
+    border-left-width: 2px;
+  }
+  .sheet-foot {
+    margin-top: 5mm;
+    font-size: 12pt;
+    line-height: 1.35;
+    color: #000;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-foot p {
+    margin: 0 0 1.5mm;
   }
 }
 
