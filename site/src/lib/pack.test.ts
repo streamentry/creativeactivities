@@ -278,6 +278,13 @@ describe('what the builder keeps, sends and shows (WEB-017)', () => {
     expect(island).toContain('serializePackState(state)');
   });
 
+  it('claims nothing about all the cards that the cards do not each say', () => {
+    // "Can stop after the first step" and "no right answer" are not written on every card; the stop wording the site
+    // has reviewed (PAUSE_LINE) says a person may pause or stop whenever they want to, and the cover says only that.
+    expect(island).not.toMatch(/Every activity|none has a right answer|after the first step/i);
+    expect(island).toContain('Pause or stop whenever the person wants to.');
+  });
+
   it('has no place to type, so nothing a person writes can reach the address or a printout', () => {
     expect(island).not.toMatch(/type="(?:text|search|email|tel|url|number|password)"|<textarea|contentEditable/i);
   });

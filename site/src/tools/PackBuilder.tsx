@@ -237,7 +237,7 @@ export function PackBuilder({ cards, variations, version, address }: Props) {
           <p className="eyebrow">Printable pack</p>
           <h2 id="pack-cover-title">My activity pack</h2>
           <p>
-            {chosen.length} {chosen.length === 1 ? 'activity' : 'activities'}, each in the {versionName(state.variation)} version. Every activity can stop after the first step, and none has a right answer.
+            {chosen.length} {chosen.length === 1 ? 'activity' : 'activities'}, each in the {versionName(state.variation)} version. Pause or stop whenever the person wants to.
           </p>
           <ol className="activity-list">
             {chosen.map((c) => <li key={c.id}>{c.name}</li>)}
