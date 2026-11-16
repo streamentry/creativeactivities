@@ -357,6 +357,55 @@
   outline: 3px solid var(--gm-secondary);
   outline-offset: 2px;
 }
+/* "Describe your situation" (WEB-002): a few words become removable choices on the finder. */
+.describe {
+  display: grid;
+  gap: var(--space-xs);
+  max-width: 40rem;
+  margin-bottom: var(--space-lg);
+}
+.describe label {
+  font-weight: 700;
+  font-size: var(--text-lg);
+}
+.describe input {
+  min-height: var(--target-min);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font: inherit;
+}
+.describe input:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 2px;
+}
+.describe p {
+  margin: 0;
+}
+.describe__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  list-style: none;
+  margin: var(--space-xs) 0 0;
+  padding: 0;
+}
+.describe__chip {
+  min-height: var(--target-min);
+  padding: 0 var(--space-md);
+  border: 2px solid var(--gm-primary);
+  border-radius: 999px;
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+  font: inherit;
+  cursor: pointer;
+}
+.describe__chip:focus-visible {
+  outline: 3px solid var(--gm-secondary);
+  outline-offset: 2px;
+}
 .finder .choice {
   position: relative;
 }

@@ -52,7 +52,9 @@ Risks / not doing: More visible filters slow a tired visitor down. Do not add a 
 
 ### WEB-002 · Describe your situation
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the finder has a box above its filters where a few words become removable choices (`site/src/lib/situation.ts`, `site/src/tools/DescribeSituation.tsx`). "My father likes music but tires quickly" gives the music kind, seated and low energy. The first version reads a list of words and phrases, not a language model. A number of minutes is put in the finder's time bands, a child's age means a child is taking part, and a word turned around by "not" or "dislikes" is left out ("she does not like music" gives nothing). The chips use the finder's own words and can be removed with the keyboard, focus stays in the box, and the results and the address change once after a pause in typing. The words are not sent, stored or put in the address (tested by scanning the code), and a note beside the box says so. A word that names a condition, a diagnosis or a feeling that points to one gives nothing (tested with 27 such words and over the whole rule list). With no known word the box says it could not turn the words into choices and points to the filters below. 41 test situations taken from 01 §3 each give the expected choices (`site/src/lib/situation.test.ts`). The finder still passes the accessibility check at 320 to 1440 px and 200% text. Not done: an editor's check of the situations and of what each word maps to (one author wrote both); words and phrases in other languages (the box is English only); a mapping for needs the finder has no question for (grip, vision, one hand).
 
 Why: Visitors describe situations, not categories: "my dad likes music but tires quickly" ([VISION, ten-year vision](../../../VISION.md)). Demand is in specific queries, not head terms ([R5 §3, §6](research/05-search-scale-trust.md)).
 

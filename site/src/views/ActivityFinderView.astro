@@ -7,6 +7,7 @@ import '../styles/activities.css';
 import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ActivityCard from '../components/ActivityCard.astro';
+import { DescribeSituation } from '../tools/DescribeSituation';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { FINDER_SETTINGS } from '../lib/finder-state';
 import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
@@ -90,6 +91,8 @@ const lowerStatic = (() => {
       <p class="muted">Kept on this device only. Clearing this site's data removes them.</p>
       <ul class="activity-list" id="saved-list"></ul>
     </section>
+
+    <DescribeSituation client:load />
 
     <form class="finder" id="finder" aria-label="Find an activity">
       <fieldset>
