@@ -115,6 +115,12 @@ describe('reviewed coverage (MET-010)', () => {
     expect(reviewedCoverage([page({ hasReviewRecord: false })]).other.current).toBe(0);
   });
 
+  it('does not count a page that names a reviewer in its front matter but has no review record', () => {
+    const named = pageFacts('activity', 'a', fm(['name: "A"', 'updated: 2026-05-01', 'reviewer: "A. Person, RN"']));
+    expect(named.hasReviewRecord).toBe(false);
+    expect(reviewedCoverage([named], '2026-11-17').other).toEqual({ total: 1, current: 0, stale: 0, none: 1 });
+  });
+
   it('does not count a record whose date cannot be read, or lies after today, as current', () => {
     const r = reviewedCoverage(
       [
