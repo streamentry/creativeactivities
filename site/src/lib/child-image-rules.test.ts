@@ -48,7 +48,7 @@ describe('card images and the rights log (WEB-073)', () => {
     expect(offenders).toEqual([]);
   });
 
-  it('uses only the register's two rights statuses', () => {
+  it('uses only the two rights statuses the register allows', () => {
     const odd = REGISTER.site_images.filter((i) => !['unreviewed', 'reviewed'].includes(i.rights_status));
     expect(odd).toEqual([]);
   });
