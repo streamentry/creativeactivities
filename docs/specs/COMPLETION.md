@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 139 | 204 | 407 |
+| S2 | 64 | 140 | 203 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **179** | **277** | **533** |
+| **All** | **77** | **180** | **276** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -112,6 +112,7 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Glossary grown from 38 to 59 terms (garland, craft glue, crease, twine, saucer, tracing paper and others), each from a word that appears in a card, with a one-sentence meaning and translator note | CNT-012 stays partial (translations and reviewer sign-off) | vitest 2,974 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108 |
 | Finished-result drawings for the 15 new cards (gift, postcards, sponge prints, tissue window, comic strip, oil pastels, song sheet, map, line pattern, torn landscape, color row, leaf rubbings, bracelet, scarf swirl, paper star); each card now shows the result first, then the materials. Served on the website only, outside the game, print and app libraries, so names in the app languages are not needed yet; provenance logged as unreviewed | WEB-012 stays partial (reviewer sign-off; app adoption would need names in all app languages) | vitest 2,974 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; all 15 viewed at 150 px |
 | Guard tests for the image rights log and child pages: every card picture has a log entry, no card shows a person or child, and no page can be marked child-directed without a privacy review record, a form or a script | WEB-072, WEB-073 → partial (privacy review record, named art reviewer, legal advice) | vitest `child-image-rules.test.ts` 7 pass |
+| Library inventory from the content files: `library-inventory.csv` (178 English pages: 53 cards, 10 hubs, 115 guides, against a baseline of 38, 4 and 88), a regeneration script, a drift test and six overlap candidates. Reviewer, tested date and AI-assisted read `none` or `not recorded`; nothing is inferred | CNT-040 → partial (source data for those columns; editor decision on overlaps) | vitest 2,986 pass; `tsc` clean |
 
 ## What blocks the rest
 
