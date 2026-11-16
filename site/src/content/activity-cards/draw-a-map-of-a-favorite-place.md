@@ -44,6 +44,15 @@ variations:
   - kind: with-children
     text: "A grandchild draws what the older adult points to and talks about, and adds a small picture of their own beside it if they like."
 images:
+  - src: /pictures/drawn-map-of-a-place.svg
+    alt: "Drawing of a hand-drawn map with a winding path, a red house, a tree and a blue pond."
+    caption: "A map of a favorite place, with a path, a house, a tree and a pond."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/favorite-map-materials.svg
     alt: "Drawing of a large sheet of paper on a board with a simple map of a house, a tree, a pond and a dotted path, beside a marker and a crayon."
     caption: "What you need: a large sheet of paper, a thick marker or crayons and a board."

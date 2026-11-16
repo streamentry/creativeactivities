@@ -45,6 +45,15 @@ variations:
   - kind: seated
     text: "Choose a chair with arms and sit beside them, not in front, so they can follow your movement from the side."
 images:
+  - src: /pictures/scarf-swirl-music.svg
+    alt: "Drawing of a wooden chair with a purple scarf swirling in the air above it and music notes beside it."
+    caption: "Moving a scarf to the music, seated."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/chair-music-materials.svg
     alt: "Drawing of a sturdy wooden chair with a soft purple scarf hanging over its seat and a phone showing a music note, with music notes in the air."
     caption: "What you need: a sturdy chair, a tune they like and a light scarf."

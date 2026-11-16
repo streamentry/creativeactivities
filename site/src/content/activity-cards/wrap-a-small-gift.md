@@ -45,6 +45,15 @@ variations:
   - kind: with-children
     text: "The older adult decides how to fold and where the ribbon goes, and the child holds the paper and hands over tape strips. Scissors stay with an adult."
 images:
+  - src: /pictures/wrapped-small-gift.svg
+    alt: "Drawing of a small gift wrapped in blue paper with a yellow ribbon, a bow on top and a hanging gift tag."
+    caption: "A finished gift with a ribbon, a bow and a tag."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/gift-wrap-materials.svg
     alt: "Drawing of a book, a roll of patterned wrapping paper, a spool of ribbon, a roll of tape and a blank gift tag, on a table."
     caption: "What you need: a small gift, wrapping paper, ribbon, tape and a tag."

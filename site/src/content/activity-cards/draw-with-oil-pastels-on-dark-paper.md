@@ -44,6 +44,15 @@ variations:
   - kind: with-children
     text: "A child picks the next color and the older adult chooses where it goes on the page, then swap. Each person can also take one half of the sheet."
 images:
+  - src: /pictures/oil-pastel-drawing-dark-paper.svg
+    alt: "Drawing of dark paper with bright oil pastel marks: a yellow sun with rays, a pink and an orange flower, and a blue wavy line."
+    caption: "Bright oil pastel drawing on dark paper."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/oil-pastel-materials.svg
     alt: "Drawing of a sheet of dark blue paper with bright marks on a clipboard, beside an open box of oil pastels, on a table."
     caption: "What you need: oil pastels, dark paper and a clipboard or board."

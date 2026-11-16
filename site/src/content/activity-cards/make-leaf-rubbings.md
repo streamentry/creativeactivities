@@ -46,6 +46,15 @@ variations:
   - kind: with-children
     text: "A child holds the paper still while the grandparent rubs, then swap. Choose a color for each leaf together."
 images:
+  - src: /pictures/leaf-rubbing-sheet.svg
+    alt: "Drawing of a sheet of paper with three leaf rubbings in orange, red and green wax crayon, showing the leaf outlines and veins."
+    caption: "A sheet of leaf rubbings."
+    provenance:
+      creator: Creative Activities editorial team
+      source: Original drawing made for this website
+      rights: Owned by Creative Activities. Free to print for personal and noncommercial use.
+      people: none
+      date: 2026-11-16
   - src: /pictures/leaf-rubbing-materials.svg
     alt: "Drawing of an orange leaf rubbing on paper taped to a clipboard, a green leaf and three crayons with their wrappers peeled off, on a table."
     caption: "What you need: a few leaves, thin paper, peeled crayons, a clipboard and tape."
