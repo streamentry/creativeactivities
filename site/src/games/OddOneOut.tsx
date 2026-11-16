@@ -34,6 +34,8 @@ export default function OddOneOut(props: PlayProps) {
   const [state, setState] = useState<OddState | null>(null);
   const [message, setMessage] = useState('');
   const [hint, setHint] = useState(false);
+  // WEB-053: hints are optional. Turning them off also hides one already showing.
+  const [hintsOn, setHintsOn] = useState(true);
 
   const fresh = (next: OddState) => {
     setState(next);
@@ -52,10 +54,10 @@ export default function OddOneOut(props: PlayProps) {
   const [resting, setResting] = useState(false);
   // The hint waits for a quiet pause on an open set; taps never bring it sooner.
   useEffect(() => {
-    if (!state || done || hint || resting) return undefined;
+    if (!state || done || hint || resting || !hintsOn) return undefined;
     const timer = window.setTimeout(() => setHint(true), HINT_AFTER_MS);
     return () => window.clearTimeout(timer);
-  }, [state?.round, done, hint, resting]);
+  }, [state?.round, done, hint, resting, hintsOn]);
 
   if (!state) return null;
   const { round } = state;
@@ -98,7 +100,23 @@ export default function OddOneOut(props: PlayProps) {
       guidance={guidance}
       readAloudText={done ? othersNote : guidance}
       message={message}
-      options={<ChoiceChips legend={ui.oddOneOut.countLegend} choices={counts} value={count} onChange={setCount} />}
+      options={
+        <>
+          <ChoiceChips legend={ui.oddOneOut.countLegend} choices={counts} value={count} onChange={setCount} />
+          <ChoiceChips
+            legend={ui.oddOneOut.hintLegend}
+            choices={[
+              { value: 'on', label: ui.oddOneOut.hintOn },
+              { value: 'off', label: ui.oddOneOut.hintOff },
+            ] as const}
+            value={hintsOn ? 'on' : 'off'}
+            onChange={(v) => {
+              setHintsOn(v === 'on');
+              setHint(false);
+            }}
+          />
+        </>
+      }
       footer={
         <div className="btn-row btn-row--center">
           {done ? null : (

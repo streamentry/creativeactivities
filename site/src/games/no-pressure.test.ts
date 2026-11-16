@@ -49,6 +49,13 @@ describe('games show no pressure (WEB-053)', () => {
     }
   });
 
+  it('lets a player switch the hint off, and then never starts the wait', () => {
+    for (const s of sources.filter((x) => /HINT_AFTER_MS/.test(x.text))) {
+      expect(s.text, s.f).toMatch(/const \[hintsOn, setHintsOn\] = useState\(true\)/);
+      expect(s.text, s.f).toMatch(/!hintsOn\) return undefined/);
+    }
+  });
+
   it('allows a timeout only for the hint wait and the breathing circle', () => {
     const offenders = sources.filter((s) => /setTimeout\(/.test(s.text) && !['FourTogether.tsx', 'OddOneOut.tsx', 'CalmBreathing.tsx'].includes(s.f));
     expect(offenders.map((s) => s.f)).toEqual([]);

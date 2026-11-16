@@ -34,6 +34,8 @@ export default function FourTogether(props: PlayProps) {
   const [state, setState] = useState<TogetherState | null>(null);
   const [message, setMessage] = useState('');
   const [hint, setHint] = useState(false);
+  // WEB-053: hints are optional. Turning them off also hides one already showing.
+  const [hintsOn, setHintsOn] = useState(true);
 
   const fresh = (next: TogetherState) => {
     setState(next);
@@ -53,10 +55,10 @@ export default function FourTogether(props: PlayProps) {
   const [resting, setResting] = useState(false);
   // The hint waits for a pause: the clock restarts whenever a picture is found.
   useEffect(() => {
-    if (!state || done || hint || resting) return undefined;
+    if (!state || done || hint || resting || !hintsOn) return undefined;
     const timer = window.setTimeout(() => setHint(true), HINT_AFTER_MS);
     return () => window.clearTimeout(timer);
-  }, [state?.round, foundCount, done, hint, resting]);
+  }, [state?.round, foundCount, done, hint, resting, hintsOn]);
 
   if (!state) return null;
   const { round } = state;
@@ -102,7 +104,23 @@ export default function FourTogether(props: PlayProps) {
       guidance={guidance}
       readAloudText={done ? fill(ui.fourTogether.groupName, { theme: themeName }, lang) : guidance}
       message={message}
-      options={<ChoiceChips legend={ui.fourTogether.countLegend} choices={counts} value={count} onChange={setCount} />}
+      options={
+        <>
+          <ChoiceChips legend={ui.fourTogether.countLegend} choices={counts} value={count} onChange={setCount} />
+          <ChoiceChips
+            legend={ui.fourTogether.hintLegend}
+            choices={[
+              { value: 'on', label: ui.fourTogether.hintOn },
+              { value: 'off', label: ui.fourTogether.hintOff },
+            ] as const}
+            value={hintsOn ? 'on' : 'off'}
+            onChange={(v) => {
+              setHintsOn(v === 'on');
+              setHint(false);
+            }}
+          />
+        </>
+      }
       footer={
         <div className="btn-row btn-row--center">
           {done ? null : (
