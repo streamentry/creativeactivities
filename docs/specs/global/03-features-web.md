@@ -607,7 +607,9 @@ Evidence: `/seasons/` asks which half of the world the visitor lives in (norther
 
 ### WEB-034 · Occasion hubs
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): four occasion hubs are built at `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/` and `/occasions/gift/` (`site/src/content/hubs/occasions/`). Each lists ten cards chosen by a written rule, and has its own opening, a stop note and a "not for" line. `site/src/lib/hubs.test.ts` checks each hub against its own rule (the visit hub lists only seated or bedside cards that take five minutes or less to set up; the short break hub only cards with five minutes or less of setup and a first go of ten or less; the rainy day hub only table activities for more than one person), checks that none names a festival, and checks the overlap limit with every other hub (H1). Writing the tests found one card that did not fit the visit rule and it was swapped. The gift hub has no link to a store, no product name and no price wording (tested). Bed rest and celebrations are not separate hubs: each would share more than half its cards with the bedside hub and the seasonal hub (H1), so those two hubs serve them. All four hubs are held from search (`indexable: false`) because 02 H11 allows new hubs in this phase only with search and usability evidence, and none exists yet; they are linked from the home page and the finder, and pass the accessibility check. Not done: the printable gift card; search or usability evidence; outside review of the wording.
 
 Why: Occasions capture time-bound searches and real situations: a visit, a rainy day, bed rest, a short break, a gift ([01 rows 1, 4, 16, 28](01-positioning-and-audiences.md#3-situations); [R5 §6](research/05-search-scale-trust.md)).
 

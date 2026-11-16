@@ -13,13 +13,15 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 
 ### Global index (`global/id-index.tsv`, 533 items)
 
+Generated from the index. Do not edit the table by hand: change a status in `global/id-index.tsv`, then run `python3 scripts/spec_tally.py --write`. The same command resolves a merge conflict in it, and `tests/test_spec_tally.py` fails when the table and the index disagree.
+
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 150 | 193 | 407 |
+| S2 | 64 | 151 | 192 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **190** | **266** | **533** |
+| **All** | **77** | **191** | **265** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -136,6 +138,8 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | "What I have" page at `/what-i-have/`: tick everyday items (61, in seven groups) and see the cards whose every need is met, with cards one thing short listed apart and each card's own substitutions beside it. A reviewed record of what each of the 53 cards needs, tied to each card's materials list by a two-way test; the ticked list stays in the browser, is listed in the data inventory and on `/your-data/`, and can be cleared. The finder links to it. Also added the new season pages and this page to the accessibility check | WEB-006 → partial (reviewer check of the items and records; materials class facet; other languages) | vitest 3,228 pass (170 materials, 17 matching and storage); `tsc` clean for the new files; build 16,527 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 123 (it first failed: the card link filled its cell and the "If something is missing" toggle sat under the next heading; fixed); 21 cards ready for the editors' 23-item stash; tried in the browser at desktop and 375 px: ticking, reload keeps the list, clearing empties it |
+| Occasion hubs at `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/` and `/occasions/gift/`: ten cards each by a written rule, own opening, stop note and "not for" line. Tests check each hub against its own rule, that none names a festival, that the gift hub has no store link or product, and the overlap limit with every other hub. A card that broke the visit rule was swapped. Bed rest and celebrations are served by the bedside and seasonal hubs, since separate hubs would share most of their cards (H1). All four are held from search (H11) and linked from the home page and the finder | WEB-034 → partial (printable gift card; search and usability evidence; outside review) | vitest 3,315 pass (hub tests 195); build 16,531 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 128; `check:duplicates` 0 exact duplicates; home page shows the four new situations |
+| The tally table above is now generated from the index by `scripts/spec_tally.py`, with a test that fails when they differ and a `--write` that fixes a merge conflict in it. Until now the counts were typed by hand | tracker only | `tests/test_spec_tally.py` 8 tests; 121 Python tests pass |
 
 ## What blocks the rest
 

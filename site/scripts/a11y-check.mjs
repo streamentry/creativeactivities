@@ -44,6 +44,7 @@ const TEMPLATES = [
   { name: 'finder', path: '/activity/' },
   { name: 'activity-card', path: '/activity/arrange-flowers-together/' },
   { name: 'hub', path: '/activities-for-seniors/' },
+  { name: 'occasion-hub', path: '/occasions/gift/' },
   { name: 'pack', path: '/activity/packs/five-quiet-bedside-activities/' },
   { name: 'large-print', path: '/activity/wrap-a-small-gift/large-print/' },
   { name: 'weekly-program', path: '/activity/weekly-program/' },
