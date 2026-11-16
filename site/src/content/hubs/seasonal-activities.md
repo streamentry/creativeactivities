@@ -43,6 +43,8 @@ Ask, and offer a few choices: "Is there a day coming up you would like to make s
 - **Winter:** [watch birds from a window](/activity/watch-birds-from-a-window/) or hang a [tissue paper window picture](/activity/make-a-tissue-paper-window-picture/).
 - **Any celebration:** a [festival decoration](/activity/make-a-festival-decoration/), a [paper chain garland](/activity/make-a-paper-chain-garland/) or a [greeting card](/activity/make-a-greeting-card/).
 
+Which season is it where you are? The seasons run opposite ways in the two halves of the world, so [choose your own on the seasons page](/seasons/) and see activities that suit it.
+
 ## What if a holiday is a hard time?
 
 Some dates bring back people who have died or times that were difficult. If an occasion seems to upset the person, leave it out. Making something for the season, with no date attached, is just as good. The [seasonal crafts guide](/crafts/seasonal-crafts/) has more ideas.

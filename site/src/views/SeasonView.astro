@@ -1,0 +1,99 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activity-cards.css';
+import '../styles/activities.css';
+import '../styles/studio-editorial.css';
+import ActivityCard from '../components/ActivityCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { breadcrumbs, itemList } from '../lib/schema';
+import { listedActivities } from '../lib/activities';
+import { ANYTIME_ACTIVITIES, SEASON_PAGES, type SeasonPage } from '../data/seasons';
+import { SITE } from '../lib/site';
+
+interface Props {
+  page: SeasonPage;
+}
+const { page } = Astro.props;
+const crumbs = [
+  { href: '/seasons/', label: 'Seasons' },
+  { href: `/seasons/${page.id}/`, label: page.eyebrow },
+];
+
+const cards = await getCollection('activityCards');
+const shown = new Map(listedActivities(cards).map((a) => [a.id, a]));
+const pick = (slugs: readonly string[]) =>
+  slugs.map((slug) => {
+    if (!cards.some((c) => c.id === slug)) throw new Error(`Season ${page.id} lists a missing activity: ${slug}`);
+    return shown.get(slug);
+  }).filter((c) => c !== undefined);
+const own = pick(page.activities);
+const anytime = pick(ANYTIME_ACTIVITIES);
+const others = SEASON_PAGES.filter((p) => p.id !== page.id);
+const dateText = new Date(`${SITE.updated}T00:00:00Z`).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+const jsonLd = [
+  breadcrumbs(crumbs),
+  itemList(page.title, [...own, ...anytime].map((a) => ({ path: `/activity/${a.id}/`, name: a.data.name }))),
+];
+---
+<BaseLayout title={page.seoTitle} description={page.description} image="/og/activities.png" jsonLd={jsonLd} noindex>
+  <Breadcrumbs items={crumbs} />
+  <div class="container hub">
+    <header class="page-head">
+      <p class="eyebrow">{page.eyebrow}</p>
+      <h1>{page.title}</h1>
+      <p class="lede">{page.opening}</p>
+    </header>
+
+    <section class="hub-choosing" aria-labelledby="choosing">
+      <h2 id="choosing">How we chose these</h2>
+      <ul class="activity-list">
+        <li>{page.rule}</li>
+        <li>{page.notFor}</li>
+        <li>{page.months}</li>
+        <li>{page.swap}</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="season-activities" class="reveal">
+      <h2 id="season-activities">{own.length} for {page.eyebrow.toLowerCase()}</h2>
+      <p>{page.stopNote}</p>
+      <ul class="activity-grid bento-grid">
+        {own.map((a) => <li><ActivityCard activity={a} /></li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="any-time" class="reveal">
+      <h2 id="any-time">Any time of year, indoors</h2>
+      <p>These do not depend on the weather, so they fit any season.</p>
+      <ul class="activity-grid bento-grid">
+        {anytime.map((a) => <li><ActivityCard activity={a} /></li>)}
+      </ul>
+      <p><a href="/activity/">Filter all activities by time, materials and setting</a></p>
+    </section>
+
+    <nav class="hub-next reveal" aria-labelledby="hub-next">
+      <h2 id="hub-next">Keep reading</h2>
+      <ul class="activity-list">
+        <li><a href="/seasons/">Which season is it where you are?</a></li>
+        {others.map((p) => <li><a href={`/seasons/${p.id}/`}>{p.title}</a></li>)}
+        <li><a href="/seasonal-activities/">Seasonal activities for any celebration</a></li>
+      </ul>
+    </nav>
+
+    <footer class="activity-byline reveal">
+      <p>
+        By Creative Activities editorial team. Not yet reviewed by an outside expert. Updated{' '}
+        <time datetime={SITE.updated}>{dateText}</time>.{' '}
+        This page is kept out of search until it is checked against a different question than the{' '}
+        <a href="/seasonal-activities/">seasonal hub</a>. <a href="/editorial-policy/">How we write</a> ·{' '}
+        <a href="/corrections/">Report a mistake</a>
+      </p>
+    </footer>
+  </div>
+</BaseLayout>

@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 148 | 195 | 407 |
+| S2 | 64 | 149 | 194 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **188** | **268** | **533** |
+| **All** | **77** | **189** | **267** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -118,6 +118,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Classified two items from evidence already in the repo, with no new code: dated bylines on every page type, a change log, withdrawal notices, redirect on retire, a corrections page and a review queue; and the provenance register with CI checks | CNT-034, CNT-031 → partial (48-hour correction process, app assets, named art reviewer) | spot-checked dates in the built card, hub and guide pages |
 | Classified five more items from evidence in the repo, each with an Evidence line that also says what is missing: the claims lint (CNT-1001), no-pressure and no-accounts guards (CNT-1002), ad-free site (TSA-019, now with an automated check, below), child-image tests (TSA-021) and the provenance register (PLAT-003) | CNT-1001, CNT-1002, TSA-019, TSA-021, PLAT-003 → partial | docs only; claims lint scope confirmed in `claims.ts`; CSP read from `_headers` |
 | Ad and third-party check added to `check-site`: a page fails the build if it names a known ad network or loads any resource from a host other than this site and Google Tag Manager. Proved by injecting a disallowed script and an ad image into a built page (4 errors), then restoring it (0) | TSA-019 (stays partial: TSA-011 inventory, app, analytics-on-child-pages decision) | `check:site` 0 errors on 16,521 pages |
+
+### Batch 9 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Season pages: `/seasons/` with a northern, southern or "not four seasons" choice (a language-setting guess until chosen, kept only in the open page) and four pages, one per season, each with its own opening, selection rule, "not for" line, stop note and swap. Season-only cards never repeat across pages; six any-season cards follow on each. The four season pages are `noindex` and out of the sitemap until evidence shows they answer a different question than the seasonal hub; the seasonal hub links to `/seasons/` | WEB-033 → partial (calendar view, remembering the choice, search or usability evidence, outside review) | vitest 3,014 pass (21 new in `seasons.test.ts` and `data/seasons.test.ts`); `tsc` clean for the new files; build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; browser: November guess is autumn, choosing southern shows spring, nothing in localStorage |
 
 ## What blocks the rest
 
