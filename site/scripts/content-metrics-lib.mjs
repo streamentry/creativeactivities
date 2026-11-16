@@ -3,16 +3,20 @@
 // carries its count (MET-038). Nothing here is a proxy for a review that has not happened: a page with no review
 // record is counted as not reviewed.
 import { reviewQueue } from './review-queue-lib.mjs';
+import { isProtected } from './translation-freshness-lib.mjs';
 
 const ISO = /^\d{4}-\d{2}-\d{2}$/;
 
-/** @param {string} frontmatter @param {string} key @returns {string | null} */
-function isoField(frontmatter, key) {
-  const value = frontmatter.match(new RegExp(`^${key}: "?(\\d{4}-\\d{2}-\\d{2})"?\\s*$`, 'm'))?.[1] ?? null;
+/** A date that exists: 2026-13-45 has the shape of a date and is not one. @param {string | null} value @returns {string | null} */
+function calendarDate(value) {
   if (value === null || !ISO.test(value)) return null;
-  // 2026-13-45 has the shape of a date and is not one.
   const date = new Date(`${value}T00:00:00Z`);
   return Number.isNaN(date.getTime()) || date.toISOString().slice(0, 10) !== value ? null : value;
+}
+
+/** @param {string} frontmatter @param {string} key @returns {string | null} */
+function isoField(frontmatter, key) {
+  return calendarDate(frontmatter.match(new RegExp(`^${key}: "?(\\d{4}-\\d{2}-\\d{2})"?\\s*$`, 'm'))?.[1] ?? null);
 }
 
 /** The lines of one top-level front matter block, without the key line. */
@@ -39,11 +43,15 @@ export function pageFacts(kind, id, frontmatter) {
   const sources = block(frontmatter, 'sources');
   const updated = isoField(frontmatter, 'updated');
   const published = isoField(frontmatter, 'published');
-  const reviewDate = review ? (review.match(/^[ \t]+date: "?(\d{4}-\d{2}-\d{2})"?\s*$/m)?.[1] ?? null) : null;
+  // A review date may be written with a time ("2026-03-01T10:00:00Z"), which the site's schema accepts; only the day counts.
+  const reviewDate = review ? calendarDate(review.match(/^[ \t]+date: "?(\d{4}-\d{2}-\d{2})(?:T[^\s"']*)?"?\s*$/m)?.[1] ?? null) : null;
   return {
     kind,
     id,
-    health: /^health: true\s*$/m.test(frontmatter),
+    // Health-adjacent is what the translation queue calls protected: a health flag or a crisis route (L10N-021).
+    health: isProtected({ health: /^health: true\s*$/m.test(frontmatter), crisisRoute: /^crisisRoute: true\s*$/m.test(frontmatter) }),
+    // A hub held from search is not an indexed page, which is what MET-010 counts.
+    indexable: !/^indexable: false\s*$/m.test(frontmatter),
     hasReviewRecord: review.trim().length > 0,
     reviewDate,
     updated,
@@ -64,12 +72,16 @@ export function median(values) {
 
 /**
  * MET-010: pages with a review record that is not older than the page, pages whose review is older than the
- * last update (stale), and pages with no record. Health-adjacent pages are counted apart from the rest.
+ * last update (stale), and pages with no record. A record whose date cannot be read, or lies after today, is not
+ * current. Health-adjacent pages are counted apart from the rest.
  * @param {ReturnType<typeof pageFacts>[]} pages
+ * @param {string} [today] ISO date
  */
-export function reviewedCoverage(pages) {
+export function reviewedCoverage(pages, today = new Date().toISOString().slice(0, 10)) {
   const count = (group) => {
-    const current = group.filter((p) => p.hasReviewRecord && (!p.updated || !p.reviewDate || p.reviewDate >= p.updated)).length;
+    const current = group.filter(
+      (p) => p.hasReviewRecord && p.reviewDate !== null && p.reviewDate <= today && (!p.updated || p.reviewDate >= p.updated),
+    ).length;
     const stale = group.filter((p) => p.hasReviewRecord).length - current;
     return { total: group.length, current, stale, none: group.filter((p) => !p.hasReviewRecord).length };
   };
@@ -98,8 +110,9 @@ export function overdueReviews(pages, today) {
 }
 
 /**
- * MET-012: for each language, how many live English guides it has and how many of those are stale. Native
- * review is counted from review records, and there is none for any translation.
+ * MET-012: for each language, how many live English guides it has and how many of those are stale. Translations
+ * of retired guides stay published, so the stale ones among them are counted too, apart. Native review is a
+ * fixed 0: the repository holds no native review record for any translation, so it is not yet a measure.
  * @param {{ lang: string, retired: boolean, stale: boolean }[]} translations
  * @param {number} liveEnglishGuides
  */
@@ -120,13 +133,14 @@ export function translationCoverage(translations, liveEnglishGuides) {
     stalePages: rows.reduce((n, r) => n + r.stale, 0),
     nativeReviewedPages: 0,
     behindRetiredGuides: translations.filter((t) => t.retired).length,
+    staleBehindRetired: translations.filter((t) => t.retired && t.stale).length,
     min: rows.length ? Math.min(...rows.map((r) => r.translated)) : 0,
     max: rows.length ? Math.max(...rows.map((r) => r.translated)) : 0,
   };
 }
 
 /**
- * MET-015: health-adjacent pages with at least one source, and with a dated source.
+ * MET-015: health-adjacent pages (a health flag or a crisis route) with at least one source, and with a dated source.
  * @param {ReturnType<typeof pageFacts>[]} pages
  */
 export function sourceCoverage(pages) {
@@ -141,7 +155,7 @@ export function sourceCoverage(pages) {
 const share = (part, whole) => (whole === 0 ? 'n/a' : `${Math.round((part / whole) * 100)}%`);
 
 /** The report as lines of plain text. Every figure is shown with its count and the date it was read. */
-export function formatReport(r, today) {
+export function formatReport(r, today, { rows = false } = {}) {
   const { reviewed, overdue, translation, sources } = r;
   const line = (label, g) =>
     `  ${label}: ${g.current} of ${g.total} have a current review record (${share(g.current, g.total)}); ${g.stale} stale, ${g.none} with none`;
@@ -149,7 +163,7 @@ export function formatReport(r, today) {
     `Content metrics as of ${today}: ${r.pageCount} live English pages and ${translation.translatedPages} guide translations in the repository.`,
     '',
     'MET-010 Reviewed coverage',
-    line('health-adjacent guides', reviewed.health),
+    line('health-adjacent pages (a health flag or a crisis route)', reviewed.health),
     line('all other pages', reviewed.other),
     '',
     'MET-011 Overdue reviews (12 months from the review date, else the last update)',
@@ -158,10 +172,11 @@ export function formatReport(r, today) {
     '',
     'MET-012 Translation coverage and staleness',
     `  ${translation.languages} languages; each has ${translation.min} to ${translation.max} of ${translation.liveEnglishGuides} live English guides`,
-    `  ${translation.stalePages} of ${translation.translatedPages} translated pages are stale; ${translation.nativeReviewedPages} are native-reviewed (no review record exists for any translation)`,
-    `  ${translation.behindRetiredGuides} more translations belong to retired English guides and are not counted`,
+    `  ${translation.stalePages} of ${translation.translatedPages} translated pages behind a live English guide are stale; ${translation.nativeReviewedPages} are native-reviewed (the repository has no native review record, so that is a fixed 0 and not yet a measure)`,
+    `  ${translation.behindRetiredGuides} more translations belong to retired English guides and are still live; ${translation.staleBehindRetired} of them are stale (pnpm translations:queue lists them)`,
+    ...(rows ? translation.rows.map((x) => `    ${x.lang}: ${x.translated} of ${translation.liveEnglishGuides} translated, ${x.stale} stale`) : []),
     '',
-    'MET-015 Source coverage on health-adjacent guides',
-    `  ${sources.withSource} of ${sources.total} have at least one source (${share(sources.withSource, sources.total)}); ${sources.withDatedSource} have a dated source`,
+    'MET-015 Source coverage on health-adjacent pages (a card has no field for a source)',
+    `  ${sources.withDatedSource} of ${sources.total} have a dated source (${share(sources.withDatedSource, sources.total)}); ${sources.withSource} have at least one source`,
   ];
 }

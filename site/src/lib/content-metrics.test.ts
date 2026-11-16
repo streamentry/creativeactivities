@@ -59,6 +59,25 @@ describe('reading one page (MET-010, MET-015)', () => {
     expect(pageFacts('hub', 'h', 'updated: 2026-13-45').updated).toBeNull();
   });
 
+  it('counts a crisis route as health-adjacent, as the translation queue does', () => {
+    expect(pageFacts('activity', 'a', fm(['name: "A"', 'crisisRoute: true'])).health).toBe(true);
+    expect(pageFacts('guide', 'g', fm(['title: "G"', 'health: true'])).health).toBe(true);
+    expect(pageFacts('guide', 'g', fm(['title: "G"', 'crisisRoute: false'])).health).toBe(false);
+  });
+
+  it('reads whether a hub is held from search', () => {
+    expect(pageFacts('hub', 'h', fm(['title: "H"', 'indexable: false'])).indexable).toBe(false);
+    expect(pageFacts('hub', 'h', fm(['title: "H"', 'indexable: true'])).indexable).toBe(true);
+    expect(pageFacts('hub', 'h', fm(['title: "H"'])).indexable).toBe(true);
+  });
+
+  it('reads a review date written with a time, as the site\u2019s schema allows', () => {
+    const facts = pageFacts('activity', 'a', fm(['updated: 2026-06-01', 'review:', '  date: 2026-03-01T10:00:00Z', '  name: R']));
+    expect(facts.reviewDate).toBe('2026-03-01');
+    expect(pageFacts('activity', 'a', fm(['review:', '  date: "2026-03-01"', '  name: R'])).reviewDate).toBe('2026-03-01');
+    expect(pageFacts('activity', 'a', fm(['review:', '  date: 2026-13-45', '  name: R'])).reviewDate).toBeNull();
+  });
+
   it('does not take a date inside a source or a list for the page date', () => {
     expect(pageFacts('guide', 'g', fm(['sources:', '  - title: "S"', '    updated: 2020-01-01'])).updated).toBeNull();
   });
@@ -95,6 +114,18 @@ describe('reviewed coverage (MET-010)', () => {
   it('does not count a page with a reviewer name but no record as reviewed', () => {
     expect(reviewedCoverage([page({ hasReviewRecord: false })]).other.current).toBe(0);
   });
+
+  it('does not count a record whose date cannot be read, or lies after today, as current', () => {
+    const r = reviewedCoverage(
+      [
+        page({ hasReviewRecord: true, reviewDate: null }),
+        page({ hasReviewRecord: true, reviewDate: '2027-06-01' }),
+        page({ hasReviewRecord: true, reviewDate: '2026-06-01' }),
+      ],
+      '2026-11-17',
+    );
+    expect(r.other).toEqual({ total: 3, current: 1, stale: 2, none: 0 });
+  });
 });
 
 describe('overdue reviews (MET-011)', () => {
@@ -124,8 +155,13 @@ describe('translation coverage (MET-012)', () => {
 
   it('counts live translations and stale ones per language, and sets those behind a retired guide apart', () => {
     const r = translationCoverage(rows, 10);
-    expect(r).toMatchObject({ languages: 2, translatedPages: 3, stalePages: 1, behindRetiredGuides: 1, min: 1, max: 2, liveEnglishGuides: 10 });
+    expect(r).toMatchObject({ languages: 2, translatedPages: 3, stalePages: 1, behindRetiredGuides: 1, staleBehindRetired: 1, min: 1, max: 2, liveEnglishGuides: 10 });
     expect(r.rows.map((x: { lang: string }) => x.lang)).toEqual(['de', 'fr']);
+  });
+
+  it('counts a stale translation of a retired guide, which stays published, and shows it apart', () => {
+    const r = translationCoverage([{ lang: 'fr', retired: true, stale: true }, { lang: 'fr', retired: true, stale: false }], 3);
+    expect(r).toMatchObject({ translatedPages: 0, stalePages: 0, behindRetiredGuides: 2, staleBehindRetired: 1 });
   });
 
   it('never counts machine translation as native review', () => {
@@ -157,6 +193,22 @@ describe('the report', () => {
     expect(text).not.toMatch(/NaN|undefined|Infinity/);
     expect(text).toMatch(/\d+ of \d+/);
   });
+
+  it('says what the native-reviewed figure is, how many retired-guide translations are stale, and leads with the dated sources', () => {
+    const { today, result } = buildReport(undefined, '2026-11-16');
+    const text = formatReport(result, today).join('\n');
+    expect(text).toContain('a fixed 0 and not yet a measure');
+    expect(text).toMatch(/\d+ of them are stale/);
+    expect(text).toMatch(/\d+ of \d+ have a dated source \(\d+%\); \d+ have at least one source/);
+  });
+
+  it('lists each language when asked', () => {
+    const { today, result } = buildReport(undefined, '2026-11-16');
+    const withRows = formatReport(result, today, { rows: true });
+    const without = formatReport(result, today);
+    expect(withRows.length).toBe(without.length + result.translation.languages);
+    expect(withRows.join('\n')).toMatch(/\n    [a-z-]+: \d+ of \d+ translated, \d+ stale/);
+  });
 });
 
 describe('the report over the real pages', () => {
@@ -170,13 +222,17 @@ describe('the report over the real pages', () => {
 
   it('counts every live English page once', () => {
     const cards = ids('activity-cards/').filter((id) => !/^withdrawn:/m.test(text('activity-cards/', id))).length;
-    expect(result.pageCount).toBe(cards + ids('hubs/').length + liveGuides.length);
+    const hubs = ids('hubs/').filter((id) => !/^indexable: false\s*$/m.test(text('hubs/', id))).length;
+    expect(result.pageCount).toBe(cards + hubs + liveGuides.length);
   });
 
-  it('counts the health-adjacent guides the same way the front matter flags them', () => {
-    const flagged = liveGuides.filter((id) => /^health: true\s*$/m.test(text('guides/', id))).length;
-    expect(result.reviewed.health.total).toBe(flagged);
-    expect(result.sources.total).toBe(flagged);
+  it('counts the health-adjacent pages the way the translation queue counts protected ones: a health flag or a crisis route', () => {
+    const flagged = (dir: string, list: string[]) => list.filter((id) => /^(?:health|crisisRoute): true\s*$/m.test(text(dir, id))).length;
+    const cards = ids('activity-cards/').filter((id) => !/^withdrawn:/m.test(text('activity-cards/', id)));
+    const hubs = ids('hubs/').filter((id) => !/^indexable: false\s*$/m.test(text('hubs/', id)));
+    const total = flagged('activity-cards/', cards) + flagged('hubs/', hubs) + flagged('guides/', liveGuides);
+    expect(result.reviewed.health.total).toBe(total);
+    expect(result.sources.total).toBe(total);
   });
 
   it('reports no page as reviewed until a review record exists, and says so with counts', () => {

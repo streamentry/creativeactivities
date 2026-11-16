@@ -1,5 +1,5 @@
 // Prints the content-quality metrics the repository can answer (MET-010, MET-011, MET-012, MET-015).
-// Internal: nothing here is built into the site. Usage: node scripts/content-metrics.mjs [--today=YYYY-MM-DD] [--json]
+// Internal: nothing here is built into the site. Usage: node scripts/content-metrics.mjs [--today=YYYY-MM-DD] [--json] [--rows]
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -30,7 +30,10 @@ export function buildReport(root = content, today = new Date().toISOString().sli
       const fm = frontmatter(path);
       return withdrawn(fm) ? [] : [pageFacts('activity', id, fm)];
     }),
-    ...markdown(join(root, 'hubs')).map(({ id, path }) => pageFacts('hub', id, frontmatter(path))),
+    // A hub held from search (indexable: false) is not an indexed page, which MET-010 counts.
+    ...markdown(join(root, 'hubs'))
+      .map(({ id, path }) => pageFacts('hub', id, frontmatter(path)))
+      .filter((hub) => hub.indexable),
     // A retired guide has no English page, so it is not a live page.
     ...markdown(join(root, 'guides'))
       .filter(({ id }) => !retired.has(id))
@@ -40,7 +43,7 @@ export function buildReport(root = content, today = new Date().toISOString().sli
   const translations = readTranslations(root, retired);
   const result = {
     pageCount: pages.length,
-    reviewed: reviewedCoverage(pages),
+    reviewed: reviewedCoverage(pages, today),
     overdue: overdueReviews(pages, today),
     translation: translationCoverage(translations, liveGuides),
     sources: sourceCoverage(pages),
@@ -52,9 +55,8 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const today = process.argv.find((a) => a.startsWith('--today='))?.split('=')[1] ?? new Date().toISOString().slice(0, 10);
   const { result } = buildReport(content, today);
   if (process.argv.includes('--json')) {
-    const { translation, ...rest } = result;
-    console.log(JSON.stringify({ today, ...rest, translation: { ...translation, rows: undefined } }, null, 2));
+    console.log(JSON.stringify({ today, ...result }, null, 2));
   } else {
-    console.log(formatReport(result, today).join('\n'));
+    console.log(formatReport(result, today, { rows: process.argv.includes('--rows') }).join('\n'));
   }
 }
