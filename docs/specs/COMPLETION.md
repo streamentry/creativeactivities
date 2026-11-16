@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 161 | 182 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **201** | **255** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 18 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A hosting capacity check and a written record. The build holds 17,254 files (16,532 pages in 192 language folders), which is 86% of the 20,000-file limit Cloudflare documents for Workers Static Assets on the Free plan (100,000 on Paid, 25 MiB per file). That leaves 2,746 files, about 14 page types that exist in every language, and ten times the pages would be about 166,000 files, over the Paid limit. `pnpm check:capacity` prints this for any build, warns from 80% of the limit, fails from 98% or on an oversize file, and runs in the website workflow after the page weight budget. The numbers, the limits, the options (record the plan, shard, render the long tail on demand, choose which page types exist in every language) and what was not measured are in `docs/engineering/hosting-capacity.md` | PLAT-015 → partial (no synthetic site at ten times the pages, built and deployed, so upload size, deploy time and cache behavior are not measured; the decision is the maintainer's; the account's plan is not recorded in the repository) | vitest 3,406 pass, 1 skipped as before (10 in `capacity.test.ts`: the counts, language folders, the warn and fail thresholds on both plans, an oversize file, the page types left in the headroom, the ten-times projection, and the limits with their source and date); `tsc` clean; `pnpm check:capacity` on the real build: 17,254 files, 86.3% of the Free limit, passes with a warning; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; limits read from Cloudflare's documentation on 2026-11-17 |
 
 ## What blocks the rest
 
