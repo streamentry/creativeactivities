@@ -41,6 +41,7 @@ describe('site storage registry', () => {
         'localStorage:ca-analytics-consent-v1',
         'localStorage:ca-saved-activities-v1',
         'localStorage:ca-tried-activities-v1',
+        'localStorage:ca-what-i-have-v1',
         'localStorage:gm-contrast',
         'localStorage:gm-play-settings',
         'localStorage:gm-text-size',
@@ -79,6 +80,11 @@ describe('readStore and readAll', () => {
     expect(rows.find((r) => r.store.id === 'saved')?.count).toBe(2);
     expect(rows.find((r) => r.store.id === 'text-size')?.count).toBeNull();
     expect(rows.find((r) => r.store.id === 'tried')?.raw).toBeNull();
+  });
+
+  it('counts the items on the What I have list and ignores names that are not on the list', () => {
+    const storage = fakeStorage({ 'ca-what-i-have-v1': '["plain-paper","pencil","not-an-item"]' });
+    expect(readAll(storage, '').find((r) => r.store.id === 'what-i-have')?.count).toBe(2);
   });
 });
 

@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 149 | 194 | 407 |
+| S2 | 64 | 150 | 193 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **189** | **267** | **533** |
+| **All** | **77** | **190** | **266** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -130,6 +130,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Changing the picture count keeps the place in Find the same, Shadow match, Odd one out, Four together and Picture pairs: the target, theme, odd picture, found pictures or matched pairs stay, and only extras are added or taken away. In Picture pairs, switching between showing and hidden pictures no longer restarts the board. A new `resize.ts` holds the logic. Picture puzzle, Picture bingo, Word search and Sort together still restart | WEB-053 stays partial (those four games, five-adult testing) | vitest 3,046 pass (16 resize, 5 pairs-carry, 11 keep-place; keep-place fails against the old code); `tsc` clean for the game files; build 16,526 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108; browser: pairs kept a matched pair from 4 to 8 to 4 tiles and a finished board reopened on growing, Four together kept two found pictures from 8 to 4 to 8, Find the same and Odd one out kept their pictures, no console errors |
+
+### Batch 12 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| "What I have" page at `/what-i-have/`: tick everyday items (61, in seven groups) and see the cards whose every need is met, with cards one thing short listed apart and each card's own substitutions beside it. A reviewed record of what each of the 53 cards needs, tied to each card's materials list by a two-way test; the ticked list stays in the browser, is listed in the data inventory and on `/your-data/`, and can be cleared. The finder links to it. Also added the new season pages and this page to the accessibility check | WEB-006 → partial (reviewer check of the items and records; materials class facet; other languages) | vitest 3,228 pass (170 materials, 17 matching and storage); `tsc` clean for the new files; build 16,527 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 123 (it first failed: the card link filled its cell and the "If something is missing" toggle sat under the next heading; fixed); 21 cards ready for the editors' 23-item stash; tried in the browser at desktop and 375 px: ticking, reload keeps the list, clearing empties it |
 
 ## What blocks the rest
 

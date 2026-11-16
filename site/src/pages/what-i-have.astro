@@ -1,0 +1,127 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../layouts/PageLayout.astro';
+import '../styles/activity-cards.css';
+import '../styles/activities.css';
+import { WhatIHave, type WhatIHaveCard } from '../tools/WhatIHave';
+import { CARD_NEEDS } from '../data/card-needs';
+import { ASSUMED_NOTE, tagsByGroup } from '../data/materials';
+import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
+
+const cards: WhatIHaveCard[] = listedActivities(await getCollection('activityCards'))
+  .filter((a) => CARD_NEEDS[a.id] !== undefined)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name))
+  .map((a) => {
+    const record = CARD_NEEDS[a.id]!;
+    return {
+      id: a.id,
+      name: a.data.name,
+      summary: a.data.summary,
+      typeLabel: TYPE_LABELS[a.data.type],
+      facts: glance(a.data),
+      needs: record.needs.map((group) => [...group]),
+      optional: [...(record.optional ?? [])],
+      substitutions: [...a.data.substitutions],
+    };
+  });
+const groups = tagsByGroup().map((g) => ({ id: g.id, label: g.label, tags: g.tags.map((t) => ({ id: t.id, label: t.label })) }));
+---
+<PageLayout
+  title="Activities from what you have at home"
+  seoTitle="Activities You Can Make With What You Have"
+  description="Tick the paper, pens, yarn and other things you already have, and see the activities you can start now. Your list stays on your device."
+  path="/what-i-have/"
+  crumb="What I have"
+  lede="Start with what is already in the house. Tick what you have and we show the activities that need only that. Nothing to buy."
+>
+  <WhatIHave client:load cards={cards} groups={groups} assumed={ASSUMED_NOTE} />
+  <noscript>
+    <p>
+      This page needs JavaScript to match your list. Without it, <a href="/activity/">filter all activities by time,
+      materials and setting</a> instead.
+    </p>
+  </noscript>
+  <p class="muted">
+    These are suggestions for enjoyment and time together. Each activity page has its own safety notes; read them
+    before you start.
+  </p>
+</PageLayout>
+
+<style is:global>
+  .wih__groups {
+    display: grid;
+    gap: var(--space-md);
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    margin: var(--space-md) 0;
+  }
+  .wih__group {
+    margin: 0;
+    padding: var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    background: var(--gm-surface-raised);
+  }
+  .wih__group legend {
+    padding: 0 var(--space-xs);
+    font-weight: 700;
+  }
+  .wih__ticked {
+    font-weight: 400;
+  }
+  .wih__items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .wih__item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    min-height: 3rem;
+    padding: var(--space-2xs) 0;
+    cursor: pointer;
+  }
+  .wih__item input {
+    flex: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    accent-color: var(--gm-primary);
+  }
+  .wih__item input:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 3px;
+  }
+  .wih__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+  }
+  .wih__actions p {
+    margin: 0;
+  }
+  .wih__results {
+    margin-top: var(--space-xl);
+  }
+  /* The card fills its cell (height: 100%); a column keeps the lines under it inside the cell. */
+  .wih__cell {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .wih__cell .activity-card {
+    height: auto;
+    flex: 1 1 auto;
+  }
+  .wih__extras,
+  .wih__swaps {
+    margin: var(--space-xs) 0 0;
+  }
+  .wih__swaps summary {
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+</style>
