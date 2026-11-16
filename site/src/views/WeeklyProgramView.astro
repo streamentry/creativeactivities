@@ -1,0 +1,138 @@
+---
+/**
+ * WEB-045: a one-page weekly activity program for care homes and day centres. Staff choose a card for
+ * each weekday; each shows its group version and a one-to-one version. Nothing typed here is sent or
+ * saved, and the sheet has no field for a person's details. It is an activity program, not a care plan.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activity-cards.css';
+import '../styles/activities.css';
+import '../styles/weekly-program.css';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Icon from '../components/Icon.astro';
+import { SITE } from '../lib/site';
+import { breadcrumbs } from '../lib/schema';
+import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
+import { PROGRAM_DAYS, defaultWeek, groupCards, programEntry } from '../lib/weekly-program';
+
+const path = '/activity/weekly-program/';
+const crumbs = [
+  { href: '/activity/', label: 'Find an activity' },
+  { href: path, label: 'Weekly activity program' },
+];
+const cards = await getCollection('activityCards');
+const options = groupCards(cards).map(programEntry);
+const week = defaultWeek(cards);
+const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne }]));
+---
+<BaseLayout
+  title="Weekly Activity Program to Print for a Group"
+  description="Plan a week of group activities for a care home, day centre or club. Each day shows a group version and a one-to-one version. Prints on one page. Not a care plan."
+  image="/og/activities.png"
+  jsonLd={[breadcrumbs(crumbs)]}
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container weekly-program">
+    <header class="page-head no-print">
+      <p class="eyebrow">For activity staff and volunteers</p>
+      <h1>Weekly activity program</h1>
+      <p class="lede">
+        Choose one activity for each weekday, then print the week on one page. Every activity here has a version for a
+        group and a version for one person, so nobody who prefers to sit out of the group is left out.
+      </p>
+      <p>
+        Nothing you type on this page is sent anywhere or saved. The sheet has no space for anyone's name or details, on
+        purpose.
+      </p>
+    </header>
+
+    <section class="weekly-program__sheet" aria-labelledby="sheet-title">
+      <p class="weekly-program__notice"><strong>This is an activity program, not a care plan.</strong> Follow each person's own care plan and choices first.</p>
+      <h2 id="sheet-title">Activities this week</h2>
+      <div class="weekly-program__fields">
+        <label>Week starting <input type="text" name="week" maxlength="30" autocomplete="off" placeholder="for example, 18 November" data-field="week" /></label>
+        <label>Room or place <input type="text" name="room" maxlength="40" autocomplete="off" data-field="room" /></label>
+        <label>Expected group size <input type="number" name="group-size" min="2" max="40" inputmode="numeric" data-field="group-size" /></label>
+      </div>
+      <p class="weekly-program__materials" data-materials hidden></p>
+
+      <ol class="weekly-program__days">
+        {
+          PROGRAM_DAYS.map((day, i) => (
+            <li class="weekly-program__day" data-day={day.toLowerCase()}>
+              <h3>{day}</h3>
+              <label class="no-print">
+                Activity for {day}{' '}
+                <select name={day.toLowerCase()} data-choose={day.toLowerCase()}>
+                  {options.map((o) => (
+                    <option value={o.id} selected={o.id === week[i]?.id}>
+                      {o.data.name}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              <p class="weekly-program__name">
+                <a href={`/activity/${week[i]?.id}/`} data-name>{week[i]?.data.name}</a>
+              </p>
+              <p><strong>With the group:</strong> <span data-group>{week[i]?.group}</span></p>
+              <p><strong>One to one:</strong> <span data-one>{week[i]?.oneToOne}</span></p>
+            </li>
+          ))
+        }
+      </ol>
+      <p class="weekly-program__footer">
+        Full steps, materials and safety notes for each activity: {SITE.domain}/activity/. Anyone can stop at any time,
+        and watching counts as taking part.
+      </p>
+      <p class="activity-scope">{SCOPE_LINE}</p>
+      <p>{PAUSE_LINE}</p>
+      <p class="no-print"><a href="/corrections/#report-safety">Report a safety problem</a> with any activity on this sheet.</p>
+    </section>
+
+    <div class="btn-row no-print">
+      <button type="button" class="btn btn--primary" data-print hidden><Icon name="print" />Print this week</button>
+      <a class="btn" href="/activity/">Find an activity</a>
+    </div>
+  </div>
+  <script type="application/json" id="weekly-program-data" set:html={JSON.stringify(data)} />
+</BaseLayout>
+
+<script>
+  import { programMaterialsLine } from '../lib/weekly-program-text';
+
+  type Entry = { name: string; group: string; oneToOne: string };
+  const raw = document.getElementById('weekly-program-data')?.textContent ?? '{}';
+  const data = JSON.parse(raw) as Record<string, Entry>;
+
+  for (const select of document.querySelectorAll<HTMLSelectElement>('[data-choose]')) {
+    select.addEventListener('change', () => {
+      const day = select.closest<HTMLElement>('[data-day]');
+      const entry = data[select.value];
+      if (!day || !entry) return;
+      const name = day.querySelector<HTMLAnchorElement>('[data-name]');
+      if (name) {
+        name.textContent = entry.name;
+        name.href = `/activity/${select.value}/`;
+      }
+      const group = day.querySelector('[data-group]');
+      if (group) group.textContent = entry.group;
+      const one = day.querySelector('[data-one]');
+      if (one) one.textContent = entry.oneToOne;
+    });
+  }
+
+  const size = document.querySelector<HTMLInputElement>('[data-field="group-size"]');
+  const materials = document.querySelector<HTMLElement>('[data-materials]');
+  size?.addEventListener('input', () => {
+    if (!materials) return;
+    const line = programMaterialsLine(size.value);
+    materials.hidden = line === '';
+    materials.textContent = line;
+  });
+
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.hidden = false;
+    button.addEventListener('click', () => window.print());
+  }
+</script>

@@ -49,7 +49,9 @@ async function main() {
   const server = given ? null : serveDist(DIST);
   if (server) await new Promise((done) => server.listen(0, '127.0.0.1', done));
   const base = given ?? `http://127.0.0.1:${server.address().port}`;
-  const slugs = readdirSync(join(DIST, 'activity')).filter((name) => existsSync(join(DIST, 'activity', name, 'index.html')));
+  // Cards only: other pages under /activity/ (the finder's packs, the weekly program) are not activity cards.
+  const cardIds = new Set(readdirSync(new URL('../src/content/activity-cards/', import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3)));
+  const slugs = readdirSync(join(DIST, 'activity')).filter((name) => cardIds.has(name) && existsSync(join(DIST, 'activity', name, 'index.html')));
 
   const browser = await chromium.launch();
   const context = await browser.newContext({ bypassCSP: true });

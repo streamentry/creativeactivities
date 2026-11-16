@@ -47,7 +47,16 @@
       "viewShowing": "Pictures showing",
       "viewHidden": "Hidden pictures",
       "playAgain": "Play again with new pictures",
-      "talk": "Talk about pictures together"
+      "talk": "Talk about pictures together",
+      "modeLegend": "Which pictures",
+      "modePlay": "Any pictures",
+      "modeDaily": "Today\u2019s card",
+      "dayLegend": "Which day",
+      "dayHelp": "Everyone gets the same pictures on the same day. Any earlier day is here too, and skipping a day costs nothing.",
+      "guidanceDaily": "Today\u2019s card has four pairs. Tap a picture, then tap the one that matches it.",
+      "restartDaily": "Start this card again",
+      "copy": "Copy this line",
+      "copied": "Copied. Nothing is sent anywhere."
     },
     "choose": {
       "countLegend": "How many pictures",
@@ -65,6 +74,31 @@
       "next": "Next shadow",
       "shadowAlt": "A shadow to match",
       "foundAlt": "The shadow of the {name|lower}"
+    },
+    "fourTogether": {
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "found": "Yes, the {name|lower} belongs in this group.",
+      "elsewhere": "The {name|lower} goes with something else. Take your time.",
+      "hint": "A hint: look for {theme|lower}.",
+      "together": "These go together: {theme}.",
+      "shown": "Here is the group: {theme}.",
+      "groupName": "Together: {theme}",
+      "show": "Show the group",
+      "next": "Another set"
+    },
+    "oddOneOut": {
+      "guidance": "Find the picture that does not belong with the others, and tap it.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "belongs": "The {name|lower} goes with the others. Take your time.",
+      "found": "Yes, the {name|lower} is the odd one out. The others are {theme|lower}.",
+      "shown": "Here it is: the {name|lower}. The others are {theme|lower}.",
+      "hint": "A hint: {n} of these are {theme|lower}.",
+      "others": "The others: {theme}",
+      "show": "Show me",
+      "next": "Another set"
     },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",
@@ -1372,6 +1406,17 @@
             "Out and about"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Animals",
+        "travel": "Ways to travel",
+        "flowers": "Flowers",
+        "hot-drinks": "Things for a hot drink",
+        "weather": "Kinds of weather",
+        "baked": "Things baked in an oven"
       }
     }
   }

@@ -1,0 +1,95 @@
+---
+/**
+ * WEB-052: the print-only paper version of a game, rendered at build time
+ * from a fixed sheet (`src/lib/games/print-sheet.ts`). Hidden on screen
+ * (`.sheet`); games.css lays it out for one A4 or US Letter page.
+ */
+import { pictureShadowUrl, pictureUrl } from '../data/pictures';
+import type { PrintSheet } from '../lib/games/print-sheet';
+
+interface Props {
+  sheet: PrintSheet;
+  title: string;
+  /** The game's own guidance line, word for word. */
+  rules: string;
+  /** How to use the paper version: cut out, point or circle. */
+  howTo: string;
+  pictureNames: Record<string, string>;
+  /** The two basket names, for the sorting sheet. */
+  baskets?: readonly [string, string];
+}
+
+const { sheet, title, rules, howTo, pictureNames, baskets } = Astro.props;
+const name = (id: string) => pictureNames[id] ?? '';
+---
+<section class="sheet sheet-paper" aria-hidden="true">
+  <h2>{title}</h2>
+  <p class="sheet-paper__rules">{rules}</p>
+  <p class="sheet-paper__how">{howTo}</p>
+  {
+    sheet.layout === 'cards' && (
+      <div class="sheet-paper__cards">
+        {sheet.pictures.map((id) => (
+          <figure>
+            <img src={pictureUrl(id)} alt="" width="120" height="120" />
+            <figcaption>{name(id)}</figcaption>
+          </figure>
+        ))}
+      </div>
+    )
+  }
+  {
+    sheet.layout === 'rows' && (
+      <ol class="sheet-paper__rows">
+        {sheet.rows.map((row) => (
+          <li data-target={row.target ? 'yes' : 'no'}>
+            {row.target && (
+              <figure class="sheet-paper__target" data-shadow={sheet.shadow ? 'yes' : 'no'}>
+                <img src={sheet.shadow ? pictureShadowUrl(row.target) : pictureUrl(row.target)} alt="" width="120" height="120" />
+              </figure>
+            )}
+            {row.choices.map((id) => (
+              <figure>
+                <img src={pictureUrl(id)} alt="" width="120" height="120" />
+                <figcaption>{name(id)}</figcaption>
+              </figure>
+            ))}
+          </li>
+        ))}
+      </ol>
+    )
+  }
+  {
+    sheet.layout === 'sort' && (
+      <>
+        <div class="sheet-paper__cards">
+          {sheet.pictures.map((id) => (
+            <figure>
+              <img src={pictureUrl(id)} alt="" width="120" height="120" />
+              <figcaption>{name(id)}</figcaption>
+            </figure>
+          ))}
+        </div>
+        <div class="sheet-paper__baskets">
+          {(baskets ?? ['', '']).map((b) => <div><span>{b}</span></div>)}
+        </div>
+      </>
+    )
+  }
+  {
+    sheet.layout === 'puzzle' && (
+      <div class="sheet-paper__puzzle">
+        <figure class="sheet-paper__guide">
+          <img src={pictureUrl(sheet.picture)} alt="" width="120" height="120" />
+          <figcaption>{name(sheet.picture)}</figcaption>
+        </figure>
+        <div class="sheet-paper__pieces">
+          <img src={pictureUrl(sheet.picture)} alt="" width="120" height="120" />
+          <span class="sheet-paper__cut" data-cut="across" />
+          <span class="sheet-paper__cut" data-cut="down" />
+        </div>
+      </div>
+    )
+  }
+  <slot />
+</section>

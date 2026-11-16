@@ -3,6 +3,21 @@ import { DEFAULT_LOCALE, localeInfo } from './locales';
 import { PUBLISHED, deepMerge, fill, ui } from './ui';
 import { NO_SAYINGS_GAME, playProps } from './play';
 
+/**
+ * Languages where Four together's group names have been reviewed. A language
+ * is added only after a native speaker checks every theme name and that each
+ * group still reads as one group (no machine translation).
+ */
+export const FOUR_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Odd one out has passed its category review. It reuses Four
+ * together's group names, but a language is added only after a native speaker
+ * also checks that the odd picture plainly sits outside every set, so it has
+ * its own list.
+ */
+export const ODD_ONE_OUT_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /** Translatable fields of a game; everything else (slug, pictures, stages) is shared. */
 export type GameText = Partial<
   Pick<GameInfo, 'name' | 'seoTitle' | 'h1' | 'description' | 'short' | 'players' | 'intro' | 'howTo' | 'tips' | 'faq'>
@@ -25,8 +40,13 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
  * and enough translated words to fill every theme, while Finish the saying needs
  * 30 genuine sayings. A language leaves an unsupported game out entirely (no
  * page, card or hreflang) rather than show an empty or invented one.
+ * Four together stays English-only until its group names pass a per-language
+ * category review (GAME-022 in docs/specs/global/05-games.md), and Odd one out
+ * likewise (GAME-018).
  */
 export function gameAvailable(slug: string, code: string): boolean {
+  if (slug === 'four-together') return FOUR_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'odd-one-out') return ODD_ONE_OUT_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);
   if (slug !== 'word-search') return true;
   return playProps(code, slug).content.wordSearch.available;

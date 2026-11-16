@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 12 browser games read their words from here. The mobile app's exporter also
+The 14 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | 200 strings in 16 sections | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether` and `ui.oddOneOut` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -48,6 +48,8 @@ member or carer. Write plain, warm, adult language.
 | `content.conversation` | 9 theme labels + at least 2 cards per theme (English has 43 cards) | Conversation cards |
 | `content.coloring` | 5 page names + 47 region names | Coloring |
 | `content.sorting` | 3 themes × (label + 2 basket names) | Sort together |
+| `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
+| `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -185,6 +187,24 @@ flower 16, house 10, teacup 6, butterfly 8, sailboat 7.
 `kitchen-garden`, `fruit-animals`, `home-travel`: a chip `label` and two
 `baskets` names, in that order (the pictures sorted into each basket are
 fixed).
+
+### Four together (`ui.fourTogether`, `content.fourTogether`)
+
+Four together is offered in English only. Its group names (`fruit`,
+`animals`, `travel`, `flowers`, `hot-drinks`, `weather`, `baked`) must pass a
+per-language category review before the game appears in another language
+(GAME-022): a native speaker checks that each name is plain and that every
+picture in a group still reads as belonging to it, and only to it. After that
+review, add the translated strings here and the language code to
+`FOUR_TOGETHER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Odd one out (`ui.oddOneOut`)
+
+Odd one out reuses the Four together group names and is also English only
+(GAME-018). Its category review also checks that, in the language, the odd
+picture plainly sits outside every group. After that review, add the
+`ui.oddOneOut` strings and the language code to `ODD_ONE_OUT_REVIEWED` in
+`../games.ts`.
 
 ## Right-to-left languages
 

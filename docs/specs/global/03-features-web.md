@@ -882,14 +882,16 @@ Risks / not doing: Too many filters on a small library. Show filters only when a
 
 ### WEB-052 · Printable partner on each game page
 
-Priority P1 · Phase S2 · Status new · Pillars: PLAY, GROW, CARE
+Priority P1 · Phase S2 · Status partial · Pillars: PLAY, GROW, CARE
+
+Evidence (2026-11-15): all 14 games are audited in `site/src/data/game-print.ts`: 11 print (4 from the game's own sheet, 7 from a fixed build-time sheet in `site/src/lib/games/print-sheet.ts`, one page on A4 and US Letter), 3 give a written reason (photo pairs, calm breathing, finish the saying); the printed rules line is the game's own guidance string and each printable carries `Version <date>` (tests: `site/src/data/game-print.test.ts`). Not done: paper check by a person, native review of the new print strings (English fallback elsewhere), and a paper version for finish the saying.
 
 Why: "Printable plus digital pairs for the same game" is an open gap ([R4 §6](research/04-games-engagement.md)). Printable counterparts are in the game concepts ([R4 §8](research/04-games-engagement.md)).
 
 What: Each game with a printable partner links to the partner card, which follows the same card rules ([WEB-014](#web-014--one-sheet-two-sided-printable-card) to [WEB-016](#web-016--versioned-prints)). The game page says which rules are the same.
 
 Acceptance:
-- Each of the 12 existing games has a printable partner or a written reason why not.
+- Each of the 14 existing games has a printable partner or a written reason why not.
 - The rules text is the same on both.
 - The printed partner has a version and date.
 

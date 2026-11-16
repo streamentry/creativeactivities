@@ -4,6 +4,8 @@ export type GameSlug =
   | 'picture-pairs'
   | 'find-the-same'
   | 'shadow-match'
+  | 'four-together'
+  | 'odd-one-out'
   | 'sort-together'
   | 'picture-puzzle'
   | 'finish-the-saying'
@@ -29,6 +31,7 @@ export interface GameInfo {
   cardPictures: string[];
   stages: Stage[];
   players: string;
+  /** Has a paper version; must agree with `GAME_PRINT` in `game-print.ts` (WEB-052). */
   printable: boolean;
   intro: string;
   howTo: string[];
@@ -76,7 +79,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['teacup', 'sunflower', 'teacup'],
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people, side by side',
-    printable: false,
+    printable: true,
     intro:
       'Tap a picture, then tap the one that matches it. Pictures stay showing by default, so nothing has to be remembered. When two pictures go together they get a gold border and a check mark.',
     howTo: [
@@ -118,7 +121,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['apple', 'pear', 'apple'],
     stages: ['middle', 'late'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'A single picture sits at the top of the screen. Below it are two, three or four pictures. Tap the one that is the same. It is one simple choice at a time, with plenty of room to talk.',
     howTo: [
@@ -155,7 +158,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['teacup', 'umbrella', 'bicycle'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'Shadow matching is a familiar activity from printed worksheets, here with large pictures and nothing to print. A soft shadow sits at the top of the screen and two, three or four pictures wait below. Tap the one that makes the shadow. Shapes like a bicycle, an umbrella or a teacup are easy to talk about too.',
     howTo: [
@@ -186,6 +189,88 @@ export const GAMES: readonly GameInfo[] = [
     featured: false,
   },
   {
+    slug: 'four-together',
+    name: 'Four together',
+    seoTitle: 'Picture Grouping Game for Adults: Four Together',
+    h1: 'Four Together: a Calm Picture Grouping Game',
+    description:
+      'Some of the pictures share a theme, such as fruit or weather. Tap the ones that go together. A free, calm grouping game with no timer and no score.',
+    short: 'Find the pictures that go together, like fruit or weather.',
+    cardPictures: ['pear', 'cherries', 'lemon'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people',
+    printable: true,
+    intro:
+      'A small set of pictures, and some of them belong together: four kinds of fruit, perhaps, or four ways to travel. Tap the ones that share a theme. If a picture goes with something else, the game simply names it and waits. After a quiet pause a hint names the theme, and "Show the group" reveals the answer at any time.',
+    howTo: [
+      'Choose four, six or eight pictures. Four is the simplest, with three that go together.',
+      'Look at the pictures together and talk about what they have in common.',
+      'Tap each picture that belongs in the group. It gets a gold border and a check mark.',
+      'If a picture goes with something else, the game names it and waits. Take your time.',
+      'Tap "Show the group" whenever you like, then "Another set" for new pictures.',
+    ],
+    tips: [
+      'Say what you notice out loud: "These two are both things to eat."',
+      'There is no rush. A hint naming the theme appears after a pause, and you can ignore it.',
+      'Talk about the group once it is found: a favorite fruit, a train journey, the weather today.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What happens if a picture from outside the group is tapped?',
+        a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture, says it goes with something else, and waits for the next tap.',
+      },
+      {
+        q: 'What are the groups?',
+        a: 'Everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one group.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'odd-one-out',
+    name: 'Odd one out',
+    seoTitle: 'Odd One Out Picture Game for Adults',
+    h1: 'Odd One Out: a Relaxed Picture Game',
+    description:
+      'Three or four pictures, and all but one share a theme, such as fruit or weather. Tap the one that does not belong. Free, calm, no timer and no score.',
+    short: 'Spot the picture that does not belong with the others.',
+    cardPictures: ['apple', 'pear', 'bus'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people',
+    printable: true,
+    intro:
+      'Three or four pictures, and all but one go together: fruit, perhaps, or ways to travel. Tap the picture that does not belong. If a picture does go with the others, the game simply says so and waits. After a quiet pause a hint names what the others share, and "Show me" points out the odd one at any time.',
+    howTo: [
+      'Choose three or four pictures. Three is the simplest.',
+      'Look at the pictures together and talk about what most of them have in common.',
+      'Tap the picture that does not belong. It gets a gold border and a check mark.',
+      'If a picture goes with the others, the game says so and waits. Take your time.',
+      'Tap "Show me" whenever you like, then "Another set" for new pictures.',
+    ],
+    tips: [
+      'Talk it through out loud: "The apple and the pear are both fruit. What about the bus?"',
+      'There is no rush. A hint naming the theme appears after a pause, and you can ignore it.',
+      'Any picture is a good start for a chat: a favorite fruit, a bus ride, a rainy day.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What happens if a picture that belongs is tapped?',
+        a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture, says it goes with the others, and waits for the next tap.',
+      },
+      {
+        q: 'How is the odd picture chosen?',
+        a: 'The pictures come from everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one theme, and the odd one always comes from a different theme.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
     slug: 'sort-together',
     name: 'Sort together',
     seoTitle: 'Sorting Game: Sort Together for Adults',
@@ -196,7 +281,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['kettle', 'watering-can', 'bread'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'Sorting is a familiar, satisfying everyday task, like putting away groceries or pairing socks. Tap a picture, then tap the basket where it belongs. There is no rush and no wrong turn.',
     howTo: [
@@ -233,7 +318,7 @@ export const GAMES: readonly GameInfo[] = [
     cardPictures: ['sailboat', 'house', 'balloon'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
-    printable: false,
+    printable: true,
     intro:
       'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed.',
     howTo: [

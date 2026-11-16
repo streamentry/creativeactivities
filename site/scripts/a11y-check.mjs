@@ -34,7 +34,8 @@ const VARIANTS = [
 /** Games are checked at phone and zoomed widths, with the Rest flow, which needs a real interaction. */
 const GAME_VARIANTS = [{ label: '390', width: 390 }, { label: '640 (200% zoom)', width: 640 }];
 const CONCURRENCY = 4;
-const MAX_STOPS = 120;
+/** A safety cap on the Tab walk, not an accessibility limit: the finder lists every card and hub, so it grows with the library. */
+const MAX_STOPS = 240;
 const AXE_TAGS = ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa'];
 
 /** One page per template. The 404 entry requests a missing path, so the real 404 page is what gets checked. */
@@ -44,6 +45,8 @@ const TEMPLATES = [
   { name: 'activity-card', path: '/activity/arrange-flowers-together/' },
   { name: 'hub', path: '/activities-for-seniors/' },
   { name: 'pack', path: '/activity/packs/five-quiet-bedside-activities/' },
+  { name: 'large-print', path: '/activity/wrap-a-small-gift/large-print/' },
+  { name: 'weekly-program', path: '/activity/weekly-program/' },
   { name: 'guide', path: '/caregiving/after-dementia-diagnosis/' },
   { name: 'section-index', path: '/caregiving/' },
   { name: 'game', path: '/games/picture-pairs/' },

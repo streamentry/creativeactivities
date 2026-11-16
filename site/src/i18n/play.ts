@@ -6,7 +6,7 @@ import { localeInfo } from './locales';
 import { deepMerge } from './ui';
 
 /**
- * Text for the 12 game islands, one language at a time.
+ * Text for the 14 game islands, one language at a time.
  *
  * English is the source (`./play/en.json`); `./play/<code>.json` holds a
  * translation with the same shape and is deep-merged over English, so a
@@ -41,6 +41,10 @@ export interface PlayContent {
   sorting: {
     /** Chip label and the two basket names, keyed by the theme ids in `SortTogether.tsx`. */
     themes: Record<string, { label: string; baskets: [string, string] }>;
+  };
+  fourTogether: {
+    /** The name of each group, keyed by the theme ids in `src/lib/games/together.ts`. Odd one out reuses them. */
+    themes: Record<string, string>;
   };
 }
 
@@ -96,6 +100,8 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'picture-pairs': { ui: ['pairs', 'picturePairs'], content: [] },
   'find-the-same': { ui: ['choose', 'findTheSame'], content: [] },
   'shadow-match': { ui: ['choose', 'shadowMatch'], content: [] },
+  'four-together': { ui: ['fourTogether'], content: ['fourTogether'] },
+  'odd-one-out': { ui: ['oddOneOut'], content: ['fourTogether'] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },
   'picture-puzzle': { ui: ['picturePuzzle'], content: [] },
   'finish-the-saying': { ui: ['finishTheSaying'], content: ['sayings'] },

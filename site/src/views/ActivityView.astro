@@ -27,6 +27,7 @@ import { qrSvg } from '../lib/qr';
 import ActivityChanges from '../components/ActivityChanges.astro';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
 import { relatedCards, type RelatedFacts } from '../lib/related';
+import { overdueSince } from '../../scripts/review-queue-lib.mjs';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -47,6 +48,8 @@ const qr = qrSvg(`${SITE.url}${path}`, `QR code for the ${d.name} page`);
 const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const isoDate = (date: Date) => date.toISOString().slice(0, 10);
+/** WEB-076, TSA-036: past its review date at build time, the card says so; the date is never refreshed without a review. */
+const reviewDue = overdueSince(isoDate(d.review?.date ?? d.updated), isoDate(new Date()));
 
 const all = await getCollection('activityCards');
 const shown = listedActivities(all);
@@ -144,8 +147,9 @@ const jsonLd = withdrawn
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
         </button>
-        <button type="button" class="btn" data-share={activity.id} hidden><Icon name="share" />Share</button>
+        <button type="button" class="btn" data-share={activity.id} data-share-text={activity.data.summary} hidden><Icon name="share" />Share</button>
       </div>
+      <p class="no-print activity-large-print"><a href={`${path}large-print/`}>Large-print card</a> (same steps, bigger type)</p>
       <p class="activity-status no-print" data-activity-status role="status" aria-live="polite"></p>
       {d.enjoy && <p class="activity-head__enjoy"><strong>Who might enjoy it:</strong> {d.enjoy}</p>}
     </header>
@@ -306,6 +310,12 @@ const jsonLd = withdrawn
         {reviewByline(d.review, dateText(d.review?.date ?? d.updated))}{' '}
         Published <time datetime={isoDate(d.published)}>{dateText(d.published)}</time>, updated{' '}
         <time datetime={isoDate(d.updated)}>{dateText(d.updated)}</time>.{' '}
+        {reviewDue && (
+          <>
+            <strong data-review-due>Due for a check since <time datetime={reviewDue}>{dateText(new Date(`${reviewDue}T00:00:00Z`))}</time>.</strong>{' '}
+            Read the safety notes with extra care until it is checked.{' '}
+          </>
+        )}
         <a href="/editorial-policy/">How we write</a> ·{' '}
         <a href="/corrections/#report-safety">Report a safety problem</a>
       </p>
@@ -391,7 +401,7 @@ const jsonLd = withdrawn
       track('activity_share', { activity: shareButton.dataset.share ?? '' });
       if (typeof navigator.share === 'function') {
         try {
-          await navigator.share({ title: document.title, url });
+          await navigator.share({ title: document.title, text: shareButton.dataset.shareText, url });
         } catch {
           // Closing the share sheet is a choice, not an error.
         }

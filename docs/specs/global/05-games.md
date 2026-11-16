@@ -19,12 +19,12 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-001 | Picture pairs | Tap two matching pictures; matches stay marked; 4 to 12 tiles | Adults, all stages | Side by side | No | Yes | Labels per language | P0 | S2 | exists |
-| GAME-002 | Find the same | One picture at the top, match one of 2 to 4 below | Middle and later stages | Side by side | No | Yes | Labels | P0 | S2 | exists |
-| GAME-003 | Shadow match | Match a shadow to its picture | Early and middle stages | Side by side | No | Yes | Labels | P1 | S2 | exists |
+| GAME-001 | Picture pairs | Tap two matching pictures; matches stay marked; 4 to 12 tiles | Adults, all stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels per language | P0 | S2 | exists |
+| GAME-002 | Find the same | One picture at the top, match one of 2 to 4 below | Middle and later stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels | P0 | S2 | exists |
+| GAME-003 | Shadow match | Match a shadow to its picture | Early and middle stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels | P1 | S2 | exists |
 | GAME-013 | Visible picture matching (app) | Native version of GAME-001 with 4 to 12 tiles, offline | Adults, all stages | Solo or side by side | Yes (app) | Yes | App text per language | P0 | S2 | exists |
 | GAME-014 | Hidden picture matching (app) | Face-down classic version, opt-in only, from the pack route | Adults who want the challenge | Solo or side by side | No | Yes | App text | P2 | S2 | exists. Recall needed, so never the default |
-| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | new |
+| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | partial. Website, English only (2026-11-15), reusing Four together's groups; printed twin on the game page (WEB-052); per-language category review pending |
 | GAME-020 | Color match | Match pictures by color: a red apple and a red cup | Early stages; children 3+; low vision with high contrast | Side by side | Yes | Yes | None | P2 | S2 | new |
 | GAME-021 | Halves match | Tap the two halves of one picture that fit together | Early stages; children 3+ | Side by side | Yes | Yes | None | P2 | S2 | new |
 
@@ -34,7 +34,7 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-006 | Finish the saying | Complete a familiar saying from three choices, then talk | Early and middle stages; adults; groups | 1, 2 or group | No | Yes | Sayings reviewed per language; unavailable where none exist | P1 | S2 | exists |
 | GAME-007 | Large-print word search | Few words, across or down, big grid; print a fresh puzzle | Early stage; adults | 1 or 2 | Yes | Yes | Word lists reviewed per language ([gating](../../../site/src/i18n/games.ts)) | P1 | S2 | exists |
-| GAME-022 | Four together | Group four pictures by theme; no timer, no pass or fail | Adults, including people with reading difficulty | Side by side or group | Yes | Yes | Category words per language; name needs a trademark check | P1 | S2 | new |
+| GAME-022 | Four together | Group four pictures by theme; no timer, no pass or fail | Adults, including people with reading difficulty | Side by side or group | Yes | Yes | Category words per language; name needs a trademark check | P1 | S2 | partial. Website, English only (2026-11-15); per-language category review and trademark check pending |
 | GAME-023 | Word and picture pairs | Match a written label to its picture; label can be read aloud | Adults learning or relearning a language; children 6+ | Side by side | Yes | Yes | Labels per language, reviewed | P2 | S3 | new |
 | GAME-024 | Rhyme pictures | Match pictures that rhyme | Children 4 to 7 and early readers | Adult and child | Yes | Yes | Rhyme sets written per language, not translated | P3 | S3 | new |
 | GAME-025 | Story dice | Roll picture dice; tell the story aloud; no right answer | Mixed reading levels; families; groups | Group, or adult and child | Yes | Yes | None (pictures) | P1 | S2 | new |
@@ -130,8 +130,8 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-004 | Sort together | Tap a picture, then the basket it belongs in | Early and middle stages; adults; children 3+ | 1 or 2 people | No | Yes | Category review per language | P1 | S2 | exists |
-| GAME-005 | Picture puzzle (web) | Four or nine large pieces; tap two to swap | Early and middle stages | 1 or 2 people | No | Yes | None | P1 | S2 | exists |
+| GAME-004 | Sort together | Tap a picture, then the basket it belongs in | Early and middle stages; adults; children 3+ | 1 or 2 people | Yes (paper version on the game page, WEB-052) | Yes | Category review per language | P1 | S2 | exists |
+| GAME-005 | Picture puzzle (web) | Four or nine large pieces; tap two to swap | Early and middle stages | 1 or 2 people | Yes (paper version on the game page, WEB-052) | Yes | None | P1 | S2 | exists |
 | GAME-015 | Picture puzzle (app) | Native jigsaw from a bundled pack | Adults | Solo or side by side | No | Yes | App text | P1 | S2 | partial. Input method to verify on device; the legacy timed mode must be removed |
 | GAME-016 | Tap-to-place puzzle (app) | Two or four pieces; tap a piece, then its place; optional reference | Adults who like puzzles; limited motor control | Solo or side by side | No | Yes | App text | P2 | S2 | new. Experiment, GM-009 |
 | GAME-017 | Picture sorting (app) | Tap a picture, then a group; undo | Adults; children | Solo or side by side | Yes | Yes | App text | P2 | S2 | new. Experiment, GM-010 |
@@ -144,7 +144,7 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | new |
+| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | partial |
 
 ## Totals
 
@@ -200,6 +200,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a missed day shows no message; the archive opens to any past day; the same date yields the same card for every user; no account and no notification.
 - **Depends on:** APP-021 for the result card; a content calendar in [content library](06-content-library.md).
 - **Risks:** pressure creep. Any "daily" reminder needs APP-012 approval and stays off by default.
+- **Status (2026-11-16, partial):** website only, in Picture pairs as "Today's card" (English only). Four pairs from a date seed (`site/src/lib/games/daily.ts`), the same for everyone; a 30-day archive in a day picker; a missed day shows nothing; result line "Made 4 pairs together." with a copy button that sends nothing. No account, storage or notification. Open: app version (APP-021 result card), print calendar, content calendar in the library, per-language text.
 
 ### GAME-032 · Two-hand drawing duet (P1, S2)
 
