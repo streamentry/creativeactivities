@@ -78,7 +78,9 @@ Depends on: PLAT-001, PLAT-005.
 Risks / not doing: variation sprawl. Add a kind only when a tested need exists.
 
 ### PLAT-003 · Media asset records and rights log
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `docs/specs/asset-provenance.json` has one record per served picture, illustration and social card (source, creator, licence, rights status, people and child flags, consent, release reference); `asset-provenance.test.ts` fails the build when a served image has no record. Remaining: a hash and alt text per record, audio and video records, a rights report command, and the rule that app catalog photos cannot be referenced from the website.
 Why: DESIGN §2 and §10 require original or licensed images with correct alt text. [R5 §5.5] names image rights and consent as a live risk. The app's catalog photos are not cleared for the website ([site/README.md](../../../site/README.md)).
 What: every image, audio or video file has a record with its hash, source, license, rights holder, consent status for any identifiable person (including a child-release flag), alt text, caption and the surfaces it may appear on.
 Acceptance:

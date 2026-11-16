@@ -16,10 +16,10 @@ Started 2026-11-15 for the maintainer goal "work until all docs/specs are comple
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 143 | 200 | 407 |
+| S2 | 64 | 148 | 195 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **183** | **273** | **533** |
+| **All** | **77** | **188** | **268** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -116,6 +116,7 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | No-pressure guard for all 14 games: no score, timer, streak, move-count or failure wording in English strings, no repeating clock, hints only after 20 seconds idle (two games have hints) | WEB-053 → partial (keep the place when the count changes, test with five adults) | vitest `no-pressure.test.ts` 6 pass |
 | "Hints" choice (hint after a pause, or no hints) added to Four together and Odd one out; turning hints off stops the wait and hides a showing hint | WEB-053 (switch-off requirement met) | vitest 2,993 pass; `tsc` clean; build 16,521 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 108; browser: chip shown and selectable, no hint text |
 | Classified two items from evidence already in the repo, with no new code: dated bylines on every page type, a change log, withdrawal notices, redirect on retire, a corrections page and a review queue; and the provenance register with CI checks | CNT-034, CNT-031 → partial (48-hour correction process, app assets, named art reviewer) | spot-checked dates in the built card, hub and guide pages |
+| Classified five more items from evidence in the repo, each with an Evidence line that also says what is missing: the claims lint (CNT-1001), no-pressure and no-accounts guards (CNT-1002), ad-free site by reading headers and source, with no automated ad check yet (TSA-019), child-image tests (TSA-021) and the provenance register (PLAT-003) | CNT-1001, CNT-1002, TSA-019, TSA-021, PLAT-003 → partial | docs only; claims lint scope confirmed in `claims.ts`; CSP read from `_headers` |
 
 ## What blocks the rest
 
