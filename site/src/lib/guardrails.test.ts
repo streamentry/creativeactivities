@@ -86,7 +86,7 @@ const TIMERS: Record<string, { calls: number; why: string }> = {
   'games/shared/ReadAloud.tsx': { calls: 1, why: 'asks the speech engine every 0.4 seconds whether it has finished, so the button can change back' },
   'pages/your-data.astro': { calls: 1, why: 'releases the file made for a download right after it starts' },
   // Listed here for the describe-your-situation box, which is a separate change: the entry stays true once that file exists.
-  'tools/DescribeSituation.tsx': { calls: 1, why: 'waits 350 milliseconds after typing stops before it updates the finder, so the page is not redrawn on every letter; it shows no clock' },
+  'tools/DescribeSituation.tsx': { calls: 2, why: 'two waits of 350 milliseconds after typing stops: one before the finder is updated, so the page is not redrawn on every letter, and one before the reading is announced, so a screen reader is not spoken to on every letter; neither shows a clock or ends anything' },
 };
 
 describe('every timer in the interface is accounted for (MET-035)', () => {
