@@ -124,7 +124,9 @@ Risks / not doing: guessing group use from page views.
 ### Content quality and honesty
 
 ### MET-010 · Reviewed coverage of indexed pages
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `pnpm metrics:content` counts, from the repository, the live English pages (activity cards, hubs and guides that are not retired) with a current review record, with a stale one (a review older than the last update) and with none. Health-adjacent guides are counted apart from the rest, and every figure shows its count and the date it was read. Today 0 of 10 health-adjacent guides and 0 of 98 other pages have a review record. `site/src/lib/content-metrics.test.ts` checks that a reviewer's name without a record is not counted and that a review older than the page shows as stale. Not done: staleness by content hash (PLAT-005; the report compares the review date with the page's `updated` date); a review record field on guides and hubs (only cards have one, so only cards can ever count as reviewed); translations (no record exists for any); a weekly run and a dashboard.
 Why: [R3 §7] and DESIGN §5 require that any review shown is documented. This metric measures whether that holds.
 What: share of indexed (entity, locale) pairs whose review record matches the current content hash ([platform](15-platform-data-architecture.md) PLAT-005). Reported separately for health-adjacent and other pages.
 Acceptance:
@@ -135,7 +137,9 @@ Depends on: PLAT-005, PLAT-014.
 Risks / not doing: counting pages with a reviewer name but no matching review record.
 
 ### MET-011 · Overdue reviews
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the same report counts live pages past a 12-month review and the median days over, with health-adjacent pages listed first (`site/scripts/review-queue-lib.mjs`). Today 0 of 108 pages are overdue. Not done: a date that only a review can move (the report counts a page as checked on its review date, else its `updated` date, so editing resets the clock, which PLAT-012 warns against); a named owner per item; a weekly report to the owner and a monthly one to the maintainer.
 Why: VISION lists "updates overdue" as a quality metric. [R5 §5.6] asks for "last checked" dates.
 What: count and median age of items past `next_review_due` ([platform](15-platform-data-architecture.md) PLAT-012), with a named owner per item.
 Acceptance:
@@ -145,7 +149,9 @@ Depends on: PLAT-012.
 Risks / not doing: clearing the list by bumping dates. Only a review clears it.
 
 ### MET-012 · Translation coverage and staleness
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the report counts, for each language, the live English guides it has and how many of those are stale (found from `translatedFrom`, see L10N-021), and counts native-reviewed pages from review records. Today there are 189 languages, each with 5 to 6 of the 41 live English guides; 0 of 1,020 translated pages are stale; 0 are native-reviewed because no review record exists for any; 10,352 further translations belong to retired guides and are not counted. Machine translation is never counted as coverage. Not done: a native-review record (so the native-reviewed share is a fixed 0, not yet a measure); limiting the figures to indexed languages (all 189 are indexed today); the coverage target that gates indexing.
 Why: [R5 §2.3] says machine text needs native review before it is shown. The plan has 19 languages held out of the index ([docs/plan/README.md](../../plan/README.md) §8).
 What: for each indexed locale, the share of pages that are native-reviewed and the share that are stale.
 Acceptance:
@@ -176,7 +182,9 @@ Depends on: [platform](15-platform-data-architecture.md) PLAT-040.
 Risks / not doing: counting 404s from pages that are not indexed.
 
 ### MET-015 · Source coverage on health-adjacent pages
-Priority P1 · Phase S2 · Status new · Pillars: CARE, CALM
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, CALM
+
+Evidence (2026-11-16): the report counts health-adjacent live guides with at least one source and with a dated source. Today 10 of 10 have a source and 0 have a dated source, because no source carries a date field. Not done: a retrieved date on each source (PLAT-006); a check by a reviewer that sources are primary; reporting per template.
 Why: [R5 §5.6] and DESIGN §10 require sources for factual claims.
 What: share of health-adjacent pages with at least one dated source ([platform](15-platform-data-architecture.md) PLAT-006).
 Acceptance:

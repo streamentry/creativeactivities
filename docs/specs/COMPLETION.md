@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 164 | 179 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **204** | **252** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 14 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `pnpm metrics:content` reads the repository and reports, each with its count and date: pages with a current, stale or no review record (health-adjacent apart from the rest), pages past a 12-month review, translation coverage and staleness per language, and source coverage on health-adjacent guides. Today: 0 of 10 health-adjacent guides and 0 of 98 other pages reviewed, 0 of 108 overdue, 189 languages with 5 to 6 of 41 live guides each and 0 stale, 0 native-reviewed, 10 of 10 health-adjacent guides sourced and 0 with a dated source | MET-010, MET-011, MET-012, MET-015 → partial (content-hash staleness, owners, weekly run, native-review records, dated sources) | vitest 3,416 pass (20 new); `tsc` clean for the new files |
 
 ## What blocks the rest
 
