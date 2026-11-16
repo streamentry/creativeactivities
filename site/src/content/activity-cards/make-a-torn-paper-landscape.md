@@ -46,7 +46,7 @@ variations:
     text: "A child tears the strips and hands them over while the older adult decides which strip goes where and glues it down."
 images:
   - src: /pictures/torn-landscape-materials.svg
-    alt: "Drawing of a card with a landscape of torn paper strips in blue, green and brown, a box lid of torn strips and a glue stick, on a table."
+    alt: "Drawing of a card with a landscape of torn paper strips in blue, green and brown, a stack of torn strips beside it and a glue stick, on a table."
     caption: "What you need: scrap paper in blues, greens and browns, card and a glue stick."
     kind: materials
     provenance:

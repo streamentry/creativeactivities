@@ -46,7 +46,7 @@ variations:
     text: "Choose a chair with arms and sit beside them, not in front, so they can follow your movement from the side."
 images:
   - src: /pictures/chair-music-materials.svg
-    alt: "Drawing of a sturdy wooden chair with a soft scarf over its back and a phone showing a music note, with music notes in the air."
+    alt: "Drawing of a sturdy wooden chair with a soft purple scarf hanging over its seat and a phone showing a music note, with music notes in the air."
     caption: "What you need: a sturdy chair, a tune they like and a light scarf."
     kind: materials
     provenance:

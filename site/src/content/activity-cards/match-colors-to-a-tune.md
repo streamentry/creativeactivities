@@ -45,7 +45,7 @@ variations:
     text: "The older adult chooses the tune and the child lays out the colors they pick, then they swap. Each can explain their choice or not."
 images:
   - src: /pictures/color-tune-materials.svg
-    alt: "Drawing of a phone showing a music note and four squares of colored paper in red, yellow, blue and green above a tray, on a table."
+    alt: "Drawing of a phone showing a music note and four squares of colored paper in red, yellow, blue and green standing in a row beside it, on a table."
     caption: "What you need: a phone or music player and squares of colored paper."
     kind: materials
     provenance:

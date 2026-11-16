@@ -250,38 +250,38 @@ export const ACTIVITY_MATERIALS_C: readonly Picture[] = [
   },
   {
     id: 'torn-landscape-materials',
-    name: 'Card with a torn paper landscape, tray of strips and glue stick',
+    name: 'Card with a torn paper landscape, a stack of torn strips and a glue stick',
     category: 'home',
     bg: BG.sky,
     body: `${TABLE}
-      <rect x="8" y="24" width="62" height="66" rx="2" fill="${C.paper}" ${S}/>
-      <path d="M12 28h54v26l-5 2-4-3-6 3-5-2-6 3-5-2-6 3-5-2-6 2-6-2z" fill="${C.sky}" ${S} stroke-width="1.5"/>
-      <path d="M12 66q10-14 22-8t20-8q8-2 12 4v16l-4 2-5-2-5 2-6-2-6 2-6-2-6 2-6-2-5 2z" fill="${C.green}" ${S} stroke-width="1.5"/>
-      <path d="M12 76l6-2 5 2 6-2 6 2 6-2 6 2 6-2 5 2 8-2v12H12z" fill="${C.brown}" ${S} stroke-width="1.5"/>
-      <circle cx="54" cy="38" r="6" fill="${C.yellow}" ${S} stroke-width="1.5"/>
-      <g ${S} stroke-width="1.5">
-        <path d="M78 82l2-22 4 2 2-2 2 22z" fill="${C.blue}"/>
-        <path d="M86 82l4-26 3 3 3-1-2 24z" fill="${C.green}"/>
-        <path d="M80 82l10-18 2 3 3 0-8 15z" fill="${C.brown}"/>
+      <rect x="6" y="24" width="60" height="66" rx="2" fill="${C.paper}" ${S}/>
+      <path d="M10 28h52v26l-5 2-4-3-6 3-5-2-6 3-5-2-6 3-5-2-6 2-4-2z" fill="${C.sky}" ${S} stroke-width="1.5"/>
+      <path d="M10 66q10-14 22-8t20-8q8-2 10 4v16l-4 2-5-2-5 2-6-2-6 2-6-2-6 2-6-2-4 2z" fill="${C.green}" ${S} stroke-width="1.5"/>
+      <path d="M10 76l6-2 5 2 6-2 6 2 6-2 6 2 6-2 5 2v12H10z" fill="${C.brown}" ${S} stroke-width="1.5"/>
+      <circle cx="50" cy="38" r="6" fill="${C.yellow}" ${S} stroke-width="1.5"/>
+      <g ${S} stroke-width="1.8">
+        <path d="M72 96v-9l3-2 3 2 3-2 3 2 3-2 3 2 3-2 3 2v9z" fill="${C.brown}"/>
+        <path d="M74 84v-8l3-2 3 2 3-2 3 2 3-2 3 2 3-2v10z" fill="${C.green}"/>
+        <path d="M72 74v-8l3-2 3 2 3-2 3 2 3-2 3 2 3-2 3 2v10z" fill="${C.blue}"/>
       </g>
-      <rect x="74" y="80" width="40" height="16" rx="2" fill="${C.sand}" ${S}/>
-      ${glueStick(98, 80, C.red)}
-      <path d="M80 85h12" ${SHINE}/>`,
+      ${glueStick(100, 96, C.red)}
+      <path d="M78 90h12" ${SHINE}/>`,
   },
   {
     id: 'color-tune-materials',
-    name: 'Phone, music notes and colored paper squares on a tray',
+    name: 'Phone, music notes and a row of colored paper squares',
     category: 'home',
     bg: BG.blush,
     body: `${TABLE}
       ${phone(10, 38, 30)}
-      <rect x="48" y="78" width="66" height="18" rx="3" fill="${C.wood}" ${S}/>
-      <path d="M54 84h54" stroke="${C.paper}" stroke-opacity=".4" stroke-width="2"/>
-      <rect x="54" y="52" width="22" height="22" rx="2" fill="${C.red}" ${S} transform="rotate(-8 65 63)"/>
-      <rect x="80" y="54" width="22" height="22" rx="2" fill="${C.yellow}" ${S} transform="rotate(6 91 65)"/>
-      <rect x="60" y="28" width="22" height="22" rx="2" fill="${C.blue}" ${S} transform="rotate(5 71 39)"/>
-      <rect x="86" y="30" width="22" height="22" rx="2" fill="${C.green}" ${S} transform="rotate(-6 97 41)"/>
-      ${note(48, 26)}
+      <g ${S}>
+        <rect x="46" y="66" width="20" height="30" rx="2" fill="${C.red}" transform="rotate(-6 56 96)"/>
+        <rect x="60" y="62" width="20" height="34" rx="2" fill="${C.yellow}" transform="rotate(-2 70 96)"/>
+        <rect x="75" y="62" width="20" height="34" rx="2" fill="${C.blue}" transform="rotate(3 85 96)"/>
+        <rect x="90" y="66" width="20" height="30" rx="2" fill="${C.green}" transform="rotate(7 100 96)"/>
+      </g>
+      ${note(52, 40)}
+      ${note(82, 30)}
       <path d="M16 46c2-2 4-3 7-3" ${SHINE}/>`,
   },
   {
@@ -340,7 +340,7 @@ export const ACTIVITY_MATERIALS_C: readonly Picture[] = [
   },
   {
     id: 'chair-music-materials',
-    name: 'Sturdy chair, soft scarf and a phone playing music',
+    name: 'Sturdy chair with a soft scarf over the seat and a phone playing music',
     category: 'home',
     bg: BG.sage,
     body: `${TABLE}
@@ -349,9 +349,9 @@ export const ACTIVITY_MATERIALS_C: readonly Picture[] = [
       <rect x="22" y="20" width="40" height="36" rx="5" fill="${C.wood}" ${S}/>
       <rect x="28" y="26" width="28" height="24" rx="3" fill="${C.tan}" ${S} stroke-width="2"/>
       <rect x="14" y="54" width="56" height="11" rx="3" fill="${C.wood}" ${S}/>
-      <path d="M44 18q10 4 8 22q-2 20 6 34l-8 2q-8-16-6-36q1-14-4-20z" fill="${C.plum}" ${S}/>
-      <path d="M45 76l1 6M49 76l2 6M53 74l3 6" stroke="${C.plum}" stroke-width="2.5" stroke-linecap="round"/>
-      <path d="M60 20h2v36h-6z" ${SHADE}/>
+      <rect x="34" y="50" width="16" height="36" rx="3" fill="${C.plum}" ${S}/>
+      <path d="M34 62h16M34 70h16" stroke="${C.paper}" stroke-opacity=".6" stroke-width="2.5"/>
+      <path d="M37 86v5M42 86v6M47 86v5" stroke="${C.plum}" stroke-width="2.5" stroke-linecap="round"/>
       ${phone(84, 50)}
       ${note(80, 34)}
       ${note(102, 26)}
