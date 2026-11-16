@@ -1235,7 +1235,9 @@ Risks / not doing: Email is personal data. Keep the list small and the data mini
 
 ### WEB-072 · Child-facing pages rule
 
-Priority P0 · Phase S2 · Status new · Pillars: GROW
+Priority P0 · Phase S2 · Status partial · Pillars: GROW
+
+Evidence: the site has no child-directed page, no accounts, no ads and no third-party embeds. `site/src/lib/child-image-rules.test.ts` fails the build if any page declares `childDirected: true` without a privacy review record at `docs/privacy/child-pages-review.md`, or if such a page contains a form, input, script or iframe. Remaining: the privacy review record and legal advice before the first child page, and the visible label for a child-directed page.
 
 Why: "Children: COPPA / UK Age Appropriate Design Code by default; no child accounts, no child-facing data collection, no public child images" ([brief](_WRITER_BRIEF.md)). The amended COPPA rule and the UK children's code both apply to online services ([R5 §5.1](research/05-search-scale-trust.md); [R2 §7](research/02-parenting-kids-platforms.md)).
 
@@ -1253,7 +1255,9 @@ Risks / not doing: Legal advice is required. This item states the product rule, 
 
 ### WEB-073 · Image consent and rights log
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence: `docs/specs/asset-provenance.json` logs every served picture, illustration and social card (`asset-provenance.test.ts`). `child-image-rules.test.ts` checks that every picture on a card page has a log entry and that no card picture shows a person or a child. All entries are `unreviewed`. Remaining: a named reviewer for each entry, consent records for any future photo of a person, and keeping the log outside the public site once photos are used.
 
 Why: Uploads and photos of older adults and children create consent and rights issues, and no child's face may be published without a parental release ([R5 §5.5](research/05-search-scale-trust.md)). "Original media and licenses we control" is a moat ([VISION](../../../VISION.md)).
 
