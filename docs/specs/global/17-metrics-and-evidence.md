@@ -399,7 +399,9 @@ Depends on: MET-001.
 Risks / not doing: optimizing for time. Not done.
 
 ### MET-035 · Dark-pattern guardrails
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence (2026-11-17): the count of prompts that create urgency is zero, and it is a test (`site/src/lib/guardrails.test.ts`). It scans 243 files of the site's code and 68 files of its English copy (cards, hubs and interface words) for urgency phrases, guilt and run-counting phrases, a stopwatch, a countdown, a score table, a move count, lives, confetti, requests to interrupt (notifications, push, vibration, an icon badge) and emoji used as praise, and it fails on any. It also lists every timer in the interface with the reason it is not pressure (5 in all: the breathing pace, two hints offered after a pause, a check that speech has finished and the release of a download), and fails on a timer that is not listed. The site sends no notifications and no email, so the counts for those complaints and for unsubscribing are zero by construction. Not done: the monthly report with counts; a place where a complaint about pressure can be made and the same-week review; and whether the experience is gentle, which a scan cannot show and a person must judge.
+
 Why: DESIGN §9 and MISSION ban guilt notifications, streak shame and manipulative prompts. Guardrails must be measured, not just promised.
 What: notification complaints; opt-out completion rate; time to unsubscribe from email; support messages about pressure or guilt; count of prompts that create urgency (target zero).
 Acceptance:
