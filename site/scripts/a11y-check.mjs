@@ -53,6 +53,7 @@ const TEMPLATES = [
   { name: 'game', path: '/games/picture-pairs/' },
   { name: 'today', path: '/today/' },
   { name: 'what-i-have', path: '/what-i-have/' },
+  { name: 'search', path: '/search/' },
   { name: 'seasons', path: '/seasons/' },
   { name: 'season', path: '/seasons/winter/' },
   { name: 'prose-legal', path: '/about/' },

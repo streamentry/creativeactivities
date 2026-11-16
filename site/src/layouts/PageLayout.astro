@@ -18,15 +18,17 @@ interface Props {
   lang?: string;
   /** Languages this page exists in; English only by default. */
   available?: readonly string[];
+  /** For pages that are tools, not content: left out of search results and the sitemap. */
+  noindex?: boolean;
 }
-const { title, seoTitle, description, path, crumb, lede, updated, jsonLd = [], lang = 'en', available } = Astro.props;
+const { title, seoTitle, description, path, crumb, lede, updated, jsonLd = [], lang = 'en', available, noindex = false } = Astro.props;
 const crumbs = [{ href: localePath(lang, path), label: crumb }];
 const t = ui(lang).common;
 const updatedText = updated
   ? new Date(updated).toLocaleDateString(localeInfo(lang).bcp47, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })
   : undefined;
 ---
-<BaseLayout title={seoTitle ?? title} description={description} jsonLd={[breadcrumbs(crumbs, lang), ...jsonLd]} available={available}>
+<BaseLayout title={seoTitle ?? title} description={description} jsonLd={[breadcrumbs(crumbs, lang), ...jsonLd]} available={available} noindex={noindex}>
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head">
