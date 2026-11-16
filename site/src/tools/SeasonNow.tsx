@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { SEASON_PAGE_BY_ID } from '../data/seasons';
-import { currentSeason, hemisphereFromLocale, type Hemisphere, type HemisphereChoice } from '../lib/seasons';
+import { currentSeason, hemisphereFromLocale, seasonCalendar, type Hemisphere, type HemisphereChoice } from '../lib/seasons';
 
 const CHOICES: readonly { value: HemisphereChoice; label: string }[] = [
   { value: 'north', label: 'Northern half' },
@@ -48,6 +48,20 @@ export function SeasonNow() {
           </label>
         ))}
       </fieldset>
+      {shown !== 'neither' && (
+        <>
+          <h3 id="season-year-title">The year where you are</h3>
+          <ol className="season-year" aria-labelledby="season-year-title">
+            {seasonCalendar(shown).map((m) => (
+              <li key={m.month} aria-current={m.month === month ? 'date' : undefined} className={m.month === month ? 'season-year__now' : undefined}>
+                <span className="season-year__month">{m.name}</span>{' '}
+                <a href={`/seasons/${m.season}/`}>{SEASON_PAGE_BY_ID[m.season].eyebrow.toLowerCase()}</a>
+                {m.month === month ? <span className="season-year__marker"> (this month)</span> : null}
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
       <p className="season-now__answer" role="status">
         {page ? (
           <>
