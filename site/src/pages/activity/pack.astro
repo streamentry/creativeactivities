@@ -195,16 +195,4 @@ const BUILDER_VERSION = '2026-11-16';
   .pack-cards > div[hidden] {
     display: none;
   }
-  @media print {
-    .pack-builder .pack-supplies--one {
-      grid-template-columns: 1fr;
-    }
-    .pack-supplies--one .pack-checklist {
-      columns: 2;
-      column-gap: 8mm;
-    }
-    .pack-supplies--one .pack-checklist li {
-      break-inside: avoid;
-    }
-  }
 </style>
