@@ -128,7 +128,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-042 | P2 | ? | Display options: dark theme and reading settings |
 | WEB-044 | P1 | partial | Partner page with permission rules |
 | WEB-045 | P1 | new | Care-home weekly program sheet |
-| WEB-046 | P1 | new | Group mode for facilitators |
+| WEB-046 | P1 | partial | Group mode for facilitators |
 | WEB-050 | P1 | new | Share a card |
 | WEB-051 | P1 | partial | Games filters |
 | WEB-052 | P1 | new | Printable partner on each game page |
