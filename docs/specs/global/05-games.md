@@ -110,8 +110,8 @@ Screen-cast or printed. The host sets the pace, not a timer.
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-011 | Picture bingo | Printable bingo cards; a big-screen caller for the room | Groups of 2 to 30; care homes; classrooms | Group | Yes | Yes (cards) | Caller labels per language | P0 | S2 | exists |
-| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | new |
-| GAME-051 | Big-screen picture talk | Large pictures with prompts on a TV or tablet; manual advance; no autoplay | Groups; families in the same room | Group, with a screen | Yes (prompt cards) | Yes | Prompts per language | P1 | S2 | new. Casting needs APP-008 approval |
+| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option; no passing-circle rules text, not tried with a group |
+| GAME-051 | Big-screen picture talk | Large pictures with prompts on a TV or tablet; manual advance; no autoplay | Groups; families in the same room | Group, with a screen | Yes (prompt cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option. Casting needs APP-008 approval |
 | GAME-052 | Group coloring wall | One large printed sheet colored by many hands in sections | Classrooms; care homes; families | Group | Yes | Yes | None | P2 | S2 | new |
 
 ### Kids, early years
@@ -249,6 +249,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a person may pass without any explanation; the host can stop at any moment; no one is asked to name or recall.
 - **Depends on:** printed picture set; GAME-051 for the screen version.
 - **Risks:** pressure to speak. Passing is always allowed.
+- **Evidence (2026-11-17):** Conversation cards (`/games/conversation-cards/`) is a deck of picture cards, each with an open prompt and no right answer, with Next card and Previous card and a printed set of every card. With the Big picture option, each card shows large with "Anyone may pass." under the prompt once a prompt is showing, and Rest is always on the screen. Gap: no rules text for passing a card round a circle (how to start, how to pass), the printed set carries no passing instructions, and it has not been tried with a group.
 
 ### GAME-051 · Big-screen picture talk (P1, S2)
 
@@ -257,6 +258,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** the host controls every change; the screen can be cast or shown from the web or app; large text meets the tablet layout tests.
 - **Depends on:** APP-008 approval for casting; GAME-052 for printed prompts.
 - **Risks:** casting is a new use case. Do not claim it until tested on the device types named.
+- **Evidence (2026-11-17):** Conversation cards has a Big picture option, a choice that is off at the start. One picture and its prompt show large: the picture up to 55% of the screen height and the prompt in 38 to 68 px type depending on the screen, in one centered column or side by side on a wide screen held sideways, using the full width of the page. Next card and Previous card are pressed by the person leading; nothing moves by itself, and there is no sound unless the player turns it on. Looked at in a browser at 1280 by 720, 768 by 1024 and 390 by 844, with no sideways scroll. Gap: not tried on a TV, a cast screen or a real tablet, so casting is not claimed; the label and the pass line are English only (other languages show the English text until translated); no automated check opens the big mode, since the games accessibility check runs the default one; GAME-052 printed prompts.
 
 ### GAME-022 · Four together (P1, S2)
 

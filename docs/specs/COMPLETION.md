@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 182 | 161 | 407 |
+| S2 | 64 | 184 | 159 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **222** | **234** | **533** |
+| **All** | **77** | **224** | **232** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -222,6 +222,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | An image check on every built page (`pnpm check:images`, also a CI step): each image has an alt attribute (empty for decoration), width and height in the page, and a picture file no more than twice as wide as it is shown. It found 8,209 pictures on the Conversation cards print sheet with no size; they now have one, and the printed size was measured in a browser before and after and did not change. The 100 illustrations sent at three times their shown width are allowed by a listed exception, which is a decision to revisit rather than a finding of fine | PLAT-017 → partial (no AVIF, WebP or JPEG derivatives at several widths, no cache by content hash, no step photographs yet) | vitest 3,413 pass (12 in `image-check.test.ts`); `tsc` clean; build 16,532 pages; `check:images` passes on 100,023 images; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 cards; `check:a11y` 0 failing of 133 |
 | A units test fails if a card or a hub uses US customary and metric measures together (numeric forms only; the English guides are not covered) (shown to fail on a planted "8 inches (20 cm)"); today the cards use US customary only. Classified from existing evidence: the German and Arabic home pages are checked at 320 px, 200% zoom and 200% text for scroll, overflow and clipped text | L10N-014 → partial (no conversion to the reader's units, no print test per locale); L10N-018 → partial (two of 189 languages, home page only, no longest-label test, no screenshot per language) | vitest (5 in `units.test.ts`); the accessibility check's `translated` and `rtl` templates pass at all five variants |
+
+### Batch 24 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Conversation cards gains a "Big picture, for a group" choice, off at the start: one picture and its prompt large enough to share across a room (picture up to 55% of the screen height, prompt in 38 to 68 px type, one column or side by side on a wide screen held sideways, the full width of the page), with "Anyone may pass." under the prompt once a prompt is showing. Next card and Previous card are still pressed by the person leading; nothing moves by itself. The deck, its open prompts and its printed set were already there | GAME-051, GAME-050 → partial (not tried on a TV, cast screen or real tablet; no rules text for passing a card round a circle; label and pass line in English only, other languages show English; no automated check opens the big mode) | vitest 3,397 pass (the game's own test checks the choice is offered and off at the start; turning it on is not tested automatically); `tsc` clean; looked at in a browser at 1280 by 720, 768 by 1024 and 390 by 844, no sideways scroll; `check:a11y` runs the default mode |
 
 ## What blocks the rest
 
