@@ -75,9 +75,13 @@ function main() {
       console.log(`  ${e.src}${detail} on ${e.page}`);
     }
   }
+  if (pages.length < 100 || images < 1000) {
+    console.error(`Only ${images} images on ${pages.length} pages were found; the scan is broken or dist/ is incomplete.`);
+    process.exit(1);
+  }
   const failing = [...counts.values()].reduce((a, b) => a + b, 0);
   const rule = EXCEPTIONS.map((e) => `${e.prefix} up to ${e.density} times`).join(', ');
-  console.log(`Checked ${images.toLocaleString('en-US')} images on ${pages.length.toLocaleString('en-US')} pages: ${failing === 0 ? 'every image has alt text and a size, and no picture is sent at more than twice its width' : `${failing.toLocaleString('en-US')} problems`}${allowed ? ` (${allowed.toLocaleString('en-US')} uses allowed by the listed exception: ${rule})` : ''}.`);
+  console.log(`Checked ${images.toLocaleString('en-US')} images on ${pages.length.toLocaleString('en-US')} pages: ${failing === 0 ? 'every image has alt text and a size, and no plain picture file is wider than twice its width attribute (vector images, srcset and CSS images are not measured)' : `${failing.toLocaleString('en-US')} problems`}${allowed ? ` (${allowed.toLocaleString('en-US')} uses allowed by the listed exception: ${rule})` : ''}.`);
   process.exit(failing === 0 ? 0 : 1);
 }
 

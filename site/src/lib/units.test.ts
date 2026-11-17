@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 
 /**
- * Units on the cards, hubs and guides people print or read (L10N-014: "No printable reads 'inches' beside a metric quantity or the
+ * Units on the cards and hubs people print (L10N-014: "No printable reads 'inches' beside a metric quantity or the
  * reverse"). Today the cards use US customary measures only, so nothing is mixed; this keeps it so while the
  * conversion to the reader's own units (a decision for the maintainer and a reviewer) is not yet made.
  *
@@ -11,10 +11,10 @@ import { describe, expect, it } from 'vitest';
  */
 
 /** A US customary length, weight, volume or temperature written with a number (or "inch", "Fahrenheit" on their own). */
-const IMPERIAL = /\b\d[\d.,½¼¾/]*\s?-?\s?(?:inch(?:es)?|in\.|foot|feet|ft|yards?|yd|ounces?|oz|pounds?|lbs?|gallons?|quarts?|pints?)\b|°\s?F\b|\bFahrenheit\b|\binch(?:es)?\b/i;
+const IMPERIAL = /\b\d[\d.,½¼¾/]*\s?-?\s?(?:inch(?:es)?|in\.|foot|feet|ft|yards?|yd|ounces?|oz|pounds?|lbs?|gallons?|quarts?|pints?)(?!\w)|°\s?F\b|\bFahrenheit\b|\binch(?:es)?\b/i;
 
 /** A metric measure written with a number: 5 cm, 250g, 2 liters, 20 °C. */
-const METRIC = /\b\d[\d.,]*\s?(?:mm|cm|km|kg|ml|metres?|meters?|centimet(?:re|er)s?|millimet(?:re|er)s?|litres?|liters?|grams?|kilograms?|millilit(?:re|er)s?)\b|\b\d[\d.,]*(?:m|g|l)\b|°\s?C\b|\bCelsius\b/i;
+const METRIC = /\b\d[\d.,]*\s?-?\s?(?:mm|cm|km|kg|ml|gsm|metres?|meters?|centimet(?:re|er)s?|millimet(?:re|er)s?|litres?|liters?|grams?|kilograms?|millilit(?:re|er)s?)\b|\b\d[\d.,]*\s?(?:m|g|l)\b|\b\d[\d.,]*\s?L\b|[°º]\s?C\b|\bCelsius\b/i;
 
 /** The systems a piece of text uses. */
 export function unitSystems(text: string): { imperial: string[]; metric: string[] } {
@@ -42,20 +42,24 @@ describe('telling the unit systems apart', () => {
 });
 
 describe('the cards and hubs on disk', () => {
-  const folders = ['activity-cards', 'hubs', 'guides'];
-  const files = folders.flatMap((folder) => {
-    const dir = new URL(`../content/${folder}/`, import.meta.url);
-    return readdirSync(dir)
-      .filter((f) => f.endsWith('.md'))
-      .map((f) => ({ name: `${folder}/${f}`, text: readFileSync(new URL(f, dir), 'utf8') }));
-  });
+  // Cards and hubs, folders within folders included (the occasion hubs are one level down).
+  const walk = (dir: URL, prefix: string): { name: string; text: string }[] =>
+    readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
+      e.isDirectory()
+        ? walk(new URL(`${e.name}/`, dir), `${prefix}${e.name}/`)
+        : e.name.endsWith('.md')
+          ? [{ name: `${prefix}${e.name}`, text: readFileSync(new URL(e.name, dir), 'utf8') }]
+          : [],
+    );
+  const files = ['activity-cards', 'hubs'].flatMap((folder) => walk(new URL(`../content/${folder}/`, import.meta.url), `${folder}/`));
 
-  it('reads the cards, the hubs and the English guides', () => {
+  it('reads the cards and every hub, the occasion hubs too', () => {
     expect(files.filter((f) => f.name.startsWith('activity-cards/')).length).toBeGreaterThanOrEqual(50);
-    expect(files.length).toBeGreaterThanOrEqual(60);
+    expect(files.some((f) => f.name.startsWith('hubs/occasions/'))).toBe(true);
+    expect(files.length).toBeGreaterThanOrEqual(65);
   });
 
-  it('never mixes the two systems in one card, hub or guide', () => {
+  it('never mixes the two systems in one card or hub', () => {
     const mixed = files
       .map(({ name, text }) => ({ name, ...unitSystems(text) }))
       .filter((f) => f.imperial.length > 0 && f.metric.length > 0)

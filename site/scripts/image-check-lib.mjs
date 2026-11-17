@@ -62,9 +62,14 @@ export function sizeOfImage(buffer, ext) {
     }
     if (ext === '.avif') {
       // The image-spatial-extents box: "ispe", four bytes of version and flags, then width and height.
-      const at = buffer.subarray(0, Math.min(buffer.length, 8192)).indexOf('ispe');
-      if (at < 0 || at + 16 > buffer.length) return null;
-      return { width: buffer.readUInt32BE(at + 8), height: buffer.readUInt32BE(at + 12) };
+      // A file may hold several boxes (a thumbnail, a grid); the picture is the largest.
+      const head = buffer.subarray(0, Math.min(buffer.length, 8192));
+      let best = null;
+      for (let at = head.indexOf('ispe'); at >= 0 && at + 16 <= buffer.length; at = head.indexOf('ispe', at + 4)) {
+        const size = { width: buffer.readUInt32BE(at + 8), height: buffer.readUInt32BE(at + 12) };
+        if (!best || size.width > best.width) best = size;
+      }
+      return best;
     }
   } catch {
     return null;
@@ -89,7 +94,7 @@ export function attributesOf(tag) {
 
 /** Every image tag in a page, with its attributes. */
 export function imagesIn(html) {
-  return [...html.matchAll(/<img\b[^>]*>/gi)].map((m) => attributesOf(m[0]));
+  return [...html.matchAll(/<img\b(?:[^>"']|"[^"]*"|'[^']*')*>/gi)].map((m) => attributesOf(m[0]));
 }
 
 const remote = (src) => /^(?:[a-z][a-z0-9+.-]*:)?\/\//i.test(src) || src.startsWith('data:');
@@ -106,7 +111,7 @@ export function imageProblems(html, { sizeOf }) {
     const missing = [img.width ? null : 'width', img.height ? null : 'height'].filter(Boolean).join(' and ');
     if (missing) problems.push({ kind: 'no-size', src, missing });
     if (!src || remote(src) || img.srcset || !img.width) continue;
-    const path = src.split('?')[0];
+    const path = src.split(/[?#]/)[0];
     if (!RASTER.has(extname(path).toLowerCase())) continue;
     const natural = sizeOf(path);
     if (!natural) {
