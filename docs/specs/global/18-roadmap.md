@@ -192,7 +192,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-006 | P1 | exists | Finish the saying |
 | GAME-007 | P1 | exists | Large-print word search |
 | GAME-022 | P1 | new | Four together |
-| GAME-025 | P1 | new | Story dice |
+| GAME-025 | P1 | partial | Story dice |
 | GAME-026 | P2 | new | Sound loop maker |
 | GAME-027 | P2 | new | Keep the beat |
 | GAME-029 | P1 | new | Singing sheets |

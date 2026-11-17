@@ -103,6 +103,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'four-together': { ui: ['fourTogether'], content: ['fourTogether'] },
   'odd-one-out': { ui: ['oddOneOut'], content: ['fourTogether'] },
   'story-chain': { ui: ['storyChain'], content: [] },
+  'story-dice': { ui: ['storyDice'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },
   'picture-puzzle': { ui: ['picturePuzzle'], content: [] },
   'finish-the-saying': { ui: ['finishTheSaying'], content: ['sayings'] },

@@ -14,6 +14,7 @@ const RESIZERS: Record<string, string> = {
   OddOneOut: 'resizeOddState',
   FourTogether: 'resizeTogetherState',
   PicturePairs: 'resizeValues',
+  StoryDice: 'resizeDice',
 };
 
 describe('changing the count keeps the place', () => {
