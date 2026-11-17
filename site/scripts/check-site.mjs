@@ -485,6 +485,15 @@ if (existsSync(activityDir)) {
     }
   }
 }
+// A path is printed like a card, so it carries the scope line and the stop-and-switch note (WEB-032, TSA-025, TSA-026).
+const pathsDir = join(DIST, 'paths');
+if (existsSync(pathsDir)) {
+  for (const id of readdirSync(pathsDir).filter((name) => existsSync(join(pathsDir, name, 'index.html')))) {
+    const html = readFileSync(join(pathsDir, id, 'index.html'), 'utf8');
+    if (!html.includes(CARD_SCOPE_LINE)) err(`paths/${id}/`, 'path is missing its scope line (TSA-026)');
+    if (!html.includes(PAUSE_LINE)) err(`paths/${id}/`, 'path is missing the stop-and-switch note (TSA-025)');
+  }
+}
 if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editorial-policy/index.html').includes('id="evidence"')) {
   err('editorial-policy/', 'evidence table is missing (TSA-031)');
 }

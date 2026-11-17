@@ -22,6 +22,9 @@ const SIDES = 2;
 // list, and for each card. The same numbers are in src/lib/pack.ts; pack.test.ts fails if they differ.
 const COVER_PAGES = 2;
 const CARD_PAGES = 2;
+// A four-week path (WEB-032) prints on at most this many pages (two pages are one sheet printed on both sides), with its
+// buttons and counts left off the paper and its addresses and version line on it.
+const PATH_PAGES = 2;
 const MIME = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml', '.png': 'image/png', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ttf': 'font/ttf', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.ico': 'image/x-icon' };
 
 function serveDist(dir) {
@@ -129,6 +132,7 @@ async function main() {
   const context = await browser.newContext({ bypassCSP: true });
   const failures = [];
   let packChecked = 0;
+  let pathsChecked = 0;
   try {
     for (const slug of slugs) {
       const page = await context.newPage();
@@ -191,11 +195,41 @@ async function main() {
     }
     failures.push(...packFailures);
     packChecked = slugs.length + 2;
+
+    // The paths: each prints on two pages at most, with the start and skip buttons and the counts left off the paper.
+    const pathIds = existsSync(join(DIST, 'paths'))
+      ? readdirSync(join(DIST, 'paths')).filter((name) => existsSync(join(DIST, 'paths', name, 'index.html')))
+      : [];
+    for (const id of pathIds) {
+      const page = await context.newPage();
+      await page.goto(`${base}/paths/${id}/`, { waitUntil: 'networkidle' });
+      await page.waitForSelector('.path-plan[data-ready]', { timeout: 15000 });
+      await page.emulateMedia({ media: 'print' });
+      // Global print CSS hides every .btn, so look at what the path itself marks: the parts with no-print (the summary,
+      // the counts, the button rows) must be off the paper, and the parts with print-only (addresses, version) on it.
+      const paper = await page.evaluate(() => {
+        const off = [...document.querySelectorAll('.path-plan .no-print')];
+        const on = [...document.querySelectorAll('.path-page .print-only')];
+        return {
+          offTotal: off.length,
+          offShown: off.filter((el) => getComputedStyle(el).display !== 'none').length,
+          onTotal: on.length,
+          onHidden: on.filter((el) => getComputedStyle(el).display === 'none').length,
+        };
+      });
+      const counts = {};
+      for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+      const ok = paper.offTotal > 0 && paper.offShown === 0 && paper.onTotal > 0 && paper.onHidden === 0 && FORMATS.every((f) => counts[f] <= PATH_PAGES);
+      if (!ok) failures.push({ slug: `paths/${id}`, counts, paper });
+      console.log(`path: ${id.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  left off the paper ${paper.offTotal - paper.offShown}/${paper.offTotal}  on the paper ${paper.onTotal - paper.onHidden}/${paper.onTotal}  ${ok ? 'ok' : 'FAIL'}`);
+      await page.close();
+      pathsChecked += 1;
+    }
   } finally {
     await browser.close();
     server?.close();
   }
-  console.log(`\nChecked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over the pack builder's page limits (${packChecked} pack builds checked).`);
+  console.log(`\nChecked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over a page limit (${packChecked} pack builds and ${pathsChecked} paths checked).`);
   process.exit(failures.length ? 1 : 0);
 }
 
