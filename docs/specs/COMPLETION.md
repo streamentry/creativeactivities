@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 163 | 180 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **203** | **253** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,13 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 23 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| An image check on every built page (`pnpm check:images`, also a CI step): each image has an alt attribute (empty for decoration), width and height in the page, and a picture file no more than twice as wide as it is shown. It found 8,209 pictures on the Conversation cards print sheet with no size; they now have one, and the printed size was measured before and after and did not change. The 100 illustrations sent at three times their shown width are allowed by a listed exception, which is a decision to revisit rather than a finding of fine | PLAT-017 → partial (no AVIF, WebP or JPEG derivatives at several widths, no cache by content hash, no step photographs yet) | vitest 3,413 pass (12 in `image-check.test.ts`); `tsc` clean; build 16,532 pages; `check:images` passes on 100,023 images; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 cards; `check:a11y` 0 failing of 133 |
+| A units test fails if a card, a hub or an English guide uses US customary and metric measures together (shown to fail on a planted "8 inches (20 cm)"); today the cards use US customary only. Classified from existing evidence: the German and Arabic home pages are checked at 320 px, 200% zoom and 200% text for scroll, overflow and clipped text | L10N-014 → partial (no conversion to the reader's units, no print test per locale); L10N-018 → partial (two of 189 languages, home page only, no longest-label test, no screenshot per language) | vitest (5 in `units.test.ts`); the accessibility check's `translated` and `rtl` templates pass at all five variants |
 
 ## What blocks the rest
 

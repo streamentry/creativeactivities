@@ -235,7 +235,9 @@ Depends on: L10N-012, [SEO-036](12-search-geo-distribution.md).
 Risks / not doing: Do not assume Christmas, Lunar New Year, Ramadan or any other event applies to all readers.
 
 ### L10N-014 · Units, paper sizes and printing
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): the print check (`pnpm check:print`) prints every activity card on A4 and on US Letter and confirms each is one two-sided sheet in both. A test (`site/src/lib/units.test.ts`) fails if a card, a hub or an English guide uses US customary and metric measures together; today the cards use US customary only (four lengths in inches, and cups and teaspoons) and none uses metric, so nothing reads "inches" beside a metric quantity. Gap: no conversion to the reader's own units (a decision for the maintainer, then a reviewer to check the conversions); no print test for each launched locale with a title heavy in diacritics or script, since the cards are English only; cups and teaspoons are outside the rule.
 
 Why: Printables are a core distribution asset [R5 §4]. Paper size differs by country (A4 widely, US Letter in the US and Canada), and so do units.
 
@@ -295,7 +297,9 @@ Depends on: [performance and platform](15-platform-data-architecture.md).
 Risks / not doing: Do not ship a web font subset that drops a launched language's letters.
 
 ### L10N-018 · Text length and 200% layout per language
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): the accessibility check opens the German home page and the Arabic home page (right to left) at 320 px, at 640 px (200% zoom), and at 1440 px with 200% text, and fails on any axe violation, sideways scroll, content past the edge or clipped text; both pass. Gap: two of 189 languages and the home page only; no test of the longest labels in each language, or of the finder, tabs or print card in other languages (the cards are English only); no screenshot per language kept with a sign-off record.
 
 Why: German and Korean labels run about 30% longer than English [language markets §3]. Layouts break at 200% zoom in ways that English hides.
 

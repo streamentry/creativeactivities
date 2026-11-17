@@ -127,7 +127,7 @@ export default function PictureBingo(props: PlayProps) {
             <div className="sheet-bingo" data-cols={Math.sqrt(squares)}>
               {card.map((id) => (
                 <div key={id}>
-                  <img src={pictureUrl(id)} alt="" />
+                  <img src={pictureUrl(id)} alt="" width={120} height={120} />
                   {pictureName(id)}
                 </div>
               ))}
