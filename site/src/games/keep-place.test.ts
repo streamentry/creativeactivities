@@ -16,6 +16,7 @@ const RESIZERS: Record<string, string> = {
   PicturePairs: 'resizeValues',
   StoryDice: 'resizeDice',
   ColorMatch: 'resizeColorState',
+  HalvesMatch: 'resizeHalvesState',
 };
 
 describe('changing the count keeps the place', () => {

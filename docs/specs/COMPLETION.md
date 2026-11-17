@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 188 | 155 | 407 |
+| S2 | 64 | 189 | 154 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **228** | **228** | **533** |
+| **All** | **77** | **229** | **227** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -252,6 +252,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Color match" at `/games/color-match/` (English only, built by a subagent, checked by me): a large swatch with the color's name written beside it, and 4 or 6 pictures to tap that are that color; a tap on another picture names it ("The pear is green.") and waits; Show them and Another color; Rest from the shared frame; no score, timer, miss count or failure wording. A hand-curated table of 34 pictures in five colors (red 10, orange 5, yellow 7, green 7, blue 5), each checked by a test against the dominant fill color in its own SVG | GAME-020 → partial (not tried with children or low-vision players; the dominant color is an estimate from shape boxes, not a renderer; no purple; English only, other languages show English) | vitest 3,813 pass; `tsc` clean; build 16,539 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 14 of 14 game sheets; `check:capacity` 17,279 files (86.4%); `check:a11y` 0 failing of 169 (agent's run) |
+
+### Batch 30 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Halves match" at `/games/halves-match/` (English only, built by a subagent, checked by me): the left halves of two or three pictures beside their right halves in another order; tap a half, then the half that fits it; a pair that fits joins into the whole picture with a border and a check mark, and one that does not simply separates with a gentle message; Show me and Another set; Rest from the shared frame; no score, timer, miss count or failure wording. Twenty pictures chosen from a contact sheet of their halves, never two of one category in a round; every half is a native button named for its picture, with the left column first in tab order | GAME-021 → partial (not tried with children or low-vision players; two pictures in a round can share a background tint that may hint at the answer; the last pair is trivial; the paper sheet reuses the on-screen wording; English only) | vitest 3,851 pass (35 new); `tsc` clean; build 16,540 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7, one page on A4 and Letter; `check:capacity` 17,282 files (86.4%); `check:a11y` 0 failing of 171 (agent's run) |
 
 ## What blocks the rest
 

@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 17 browser games read their words from here. The mobile app's exporter also
+The 18 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -51,6 +51,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
 | `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
 | `ui.colorMatch` | 10 strings + 5 color names | Color match (English only for now; see below) |
+| `ui.halvesMatch` | 16 strings | Halves match (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -222,6 +223,20 @@ drawings. Colors are named differently across languages and cultures (some
 languages have one word for blue and green), so a native speaker must confirm
 that each name describes the same five colors before the language code is added
 to `COLOR_MATCH_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Halves match (`ui.halvesMatch`)
+
+Halves match is English only for now (GAME-021). It has 16 strings: one guidance
+line (which is also the line printed on its paper version, so it has no
+placeholders), the two column labels, the spoken name of each half, the live
+messages and three buttons. `{name|lower}` is the picture name. Two halves that
+do not fit are never called wrong: the message only says they do not fit
+together and invites another try. The spoken names of the halves
+(`left`, `right`) name the picture, as every picture tile does, because that is
+how a screen reader user can play at all. The pictures are a hand-picked list
+(`src/data/halves-match.ts`). After a native speaker checks the strings, add the
+translated `ui.halvesMatch` strings and the language code to
+`HALVES_MATCH_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

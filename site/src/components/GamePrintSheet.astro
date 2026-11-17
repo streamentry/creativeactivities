@@ -82,6 +82,26 @@ const name = (id: string) => pictureNames[id] ?? '';
     )
   }
   {
+    sheet.layout === 'halves' && (
+      <div class="sheet-paper__halves">
+        <div class="sheet-paper__halves-column">
+          {sheet.pictures.map((id) => (
+            <span class="sheet-paper__half sheet-paper__half--left">
+              <img src={pictureUrl(id)} alt="" width="120" height="120" />
+            </span>
+          ))}
+        </div>
+        <div class="sheet-paper__halves-column">
+          {sheet.rightOrder.map((id) => (
+            <span class="sheet-paper__half sheet-paper__half--right">
+              <img src={pictureUrl(id)} alt="" width="120" height="120" />
+            </span>
+          ))}
+        </div>
+      </div>
+    )
+  }
+  {
     sheet.layout === 'sort' && (
       <>
         <div class="sheet-paper__cards">

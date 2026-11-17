@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, ODD_ONE_OUT_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -36,6 +36,11 @@ describe('which games a language offers', () => {
   it('offers Color match in English only until its color names are reviewed', () => {
     expect(COLOR_MATCH_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('color-match', code), code).toBe(code === 'en');
+  });
+
+  it('offers Halves match in English only until its words are reviewed', () => {
+    expect(HALVES_MATCH_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('halves-match', code), code).toBe(code === 'en');
   });
 
   it('offers Story chain in English only until its words are reviewed', () => {

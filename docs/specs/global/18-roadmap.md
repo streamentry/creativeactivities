@@ -188,7 +188,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-014 | P2 | exists | Hidden picture matching (app) |
 | GAME-018 | P1 | new | Odd one out |
 | GAME-020 | P2 | partial | Color match |
-| GAME-021 | P2 | new | Halves match |
+| GAME-021 | P2 | partial | Halves match |
 | GAME-006 | P1 | exists | Finish the saying |
 | GAME-007 | P1 | exists | Large-print word search |
 | GAME-022 | P1 | new | Four together |

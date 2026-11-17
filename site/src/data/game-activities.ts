@@ -12,6 +12,7 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'four-together': ['sort-buttons-by-color', 'sort-a-box-of-postcards'],
   'odd-one-out': ['sort-a-box-of-postcards', 'sketch-what-is-on-the-table'],
   'color-match': ['make-a-color-collage', 'sort-buttons-by-color'],
+  'halves-match': ['fold-towels-together', 'make-a-greeting-card'],
   'story-chain': ['make-a-memory-collage', 'make-a-paper-chain-garland'],
   'story-dice': ['make-a-memory-collage', 'start-a-family-recipe-book'],
   'sort-together': ['make-a-button-picture', 'arrange-flowers-together'],
