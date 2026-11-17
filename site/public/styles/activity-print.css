@@ -274,3 +274,18 @@
     display: none;
   }
 }
+
+/* The pack builder's cover (WEB-017): one box of supplies as wide as the page, in two columns. Kept here, in the file that
+   is linked for print only, so the page's own first-paint CSS stays inside its budget. */
+@media print {
+  .pack-builder .pack-supplies--one {
+    grid-template-columns: 1fr;
+  }
+  .pack-supplies--one .pack-checklist {
+    columns: 2;
+    column-gap: 8mm;
+  }
+  .pack-supplies--one .pack-checklist li {
+    break-inside: avoid;
+  }
+}

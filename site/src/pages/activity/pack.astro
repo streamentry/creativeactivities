@@ -1,0 +1,198 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/activity-cards.css';
+import '../../styles/activities.css';
+import '../../styles/studio-editorial.css';
+import ActivityPrintCard from '../../components/ActivityPrintCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { PackBuilder, type PackCardInfo } from '../../tools/PackBuilder';
+import { CARD_NEEDS } from '../../data/card-needs';
+import { TYPE_LABELS, VARIATION_LABELS, listedActivities } from '../../lib/activities';
+import { VARIATION_KINDS } from '../../lib/activity-schema';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+
+const crumbs = [
+  { href: '/activity/', label: 'Find an activity' },
+  { href: '/activity/pack/', label: 'Build a pack' },
+];
+// A withdrawn card is never printed (TSA-045); a card with no record of what it needs cannot be listed in a supply list.
+const cards = listedActivities(await getCollection('activityCards'))
+  .filter((a) => CARD_NEEDS[a.id] !== undefined)
+  .sort((a, b) => a.data.name.localeCompare(b.data.name));
+const info: PackCardInfo[] = cards.map((a) => ({
+  id: a.id,
+  name: a.data.name,
+  summary: a.data.summary,
+  typeLabel: TYPE_LABELS[a.data.type],
+  variations: a.data.variations.map((v) => v.kind),
+  needs: CARD_NEEDS[a.id]!.needs.map((g) => [...g]),
+  optional: [...(CARD_NEEDS[a.id]!.optional ?? [])],
+}));
+// Versions offered: those at least one card has, in the order the schema lists them.
+const present = new Set(info.flatMap((c) => c.variations));
+const variations = VARIATION_KINDS.filter((k) => present.has(k)).map((kind) => ({ kind, label: VARIATION_LABELS[kind] ?? kind }));
+// The version printed on a pack is the date this builder's layout and rules last changed; change it with them.
+const BUILDER_VERSION = '2026-11-16';
+---
+<BaseLayout
+  title="Build Your Own Printable Activity Pack"
+  description="Pick up to eight free activity cards, choose the easier or seated version, and print one pack with a supply checklist. No account, nothing saved."
+  image="/og/activities.png"
+  jsonLd={[breadcrumbs(crumbs)]}
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container pack pack-builder">
+    <header class="page-head no-print">
+      <p class="eyebrow">Printable pack</p>
+      <h1>Build your own printable pack</h1>
+      <p class="lede">
+        Pick the activities, choose the version, and print them as one pack with a supply checklist. The pack is in the
+        address, so you can share it as a link. Ready-made packs are on the <a href="/activity/">activity finder</a>.
+      </p>
+    </header>
+
+    <PackBuilder client:load cards={info} variations={variations} version={BUILDER_VERSION} address={SITE.domain} />
+
+    <div id="pack-cards" class="pack-cards">
+      {
+        cards.map((a) => (
+          <div data-pack-card={a.id} hidden>
+            <ActivityPrintCard activity={a} allVariations />
+          </div>
+        ))
+      }
+    </div>
+
+    <noscript>
+      <p>
+        The pack builder needs JavaScript. Without it, <a href="/activity/">use the activity finder</a> to open and print
+        one card at a time.
+      </p>
+    </noscript>
+  </div>
+  <link rel="stylesheet" href="/styles/activity-print.css" media="print" />
+</BaseLayout>
+
+<style is:global>
+  .pack-picker__version {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    border: 0;
+    padding: 0;
+    margin: var(--space-md) 0;
+  }
+  .pack-picker__version legend {
+    font-weight: 700;
+    font-size: var(--text-lg);
+    margin-bottom: var(--space-sm);
+  }
+  /* The version choices look like the finder's chips: the whole chip is the target, and a check mark shows the choice. */
+  .pack-picker__version .choice {
+    position: relative;
+  }
+  .pack-picker__version .choice input {
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .pack-picker__version .choice span {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    min-height: var(--target-min);
+    padding: var(--space-xs) var(--space-md) var(--space-xs) var(--space-sm);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-full);
+    background: var(--gm-background);
+    font-weight: 700;
+  }
+  .pack-picker__version .choice span::before {
+    content: '✓';
+    inline-size: 0.9em;
+    text-align: center;
+    visibility: hidden;
+  }
+  .pack-picker__version .choice:hover span {
+    border-color: var(--gm-primary);
+    background: var(--gm-surface);
+  }
+  .pack-picker__version .choice input:checked + span {
+    background: var(--gm-primary-container);
+    border-color: var(--gm-primary);
+    box-shadow: inset 0 0 0 1px var(--gm-primary);
+  }
+  .pack-picker__version .choice input:checked + span::before {
+    visibility: visible;
+  }
+  .pack-picker__version .choice input:focus-visible + span {
+    outline: 3px solid var(--gm-secondary);
+    outline-offset: 3px;
+  }
+  html[data-contrast='high'] .pack-picker__version .choice span {
+    border-color: var(--gm-on-surface);
+  }
+  /* A tick that is refused is dimmed, never removed from the keyboard, and the note beside the list says why. */
+  .pack-picker__note {
+    margin: var(--space-md) 0 0;
+    padding: var(--space-sm) var(--space-md);
+    border-inline-start: 4px solid var(--gm-primary);
+    background: var(--gm-surface);
+    font-weight: 700;
+  }
+  .pack-picker__row:has(input[aria-disabled='true']) {
+    cursor: not-allowed;
+  }
+  .pack-picker__row input[aria-disabled='true'] {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .pack-picker__privacy {
+    max-width: 62ch;
+  }
+  /* The message line stays on the page, so it is a live region from the start, and takes no room while empty. */
+  .pack-summary__message:empty {
+    margin: 0;
+  }
+  .pack-picker__list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-md) 0 var(--space-xl);
+    columns: 2 22rem;
+    column-gap: var(--space-xl);
+  }
+  .pack-picker__list li {
+    break-inside: avoid;
+  }
+  .pack-picker__row {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-sm);
+    min-height: 3rem;
+    padding: var(--space-xs) 0;
+    cursor: pointer;
+  }
+  .pack-picker__row input {
+    flex: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.15rem;
+    accent-color: var(--gm-primary);
+  }
+  .pack-picker__row input:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 3px;
+  }
+  /* One box of supplies, as wide as the cover: the print sheet's two-column grid would leave it half the width. */
+  .pack-builder .pack-supplies--one {
+    grid-template-columns: 1fr;
+  }
+  .pack-cards > div[hidden] {
+    display: none;
+  }
+</style>

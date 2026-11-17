@@ -12,6 +12,8 @@ import { parseHave, STORAGE_KEY as WHAT_I_HAVE_KEY } from './what-i-have';
 import { CONSENT_KEY } from './consent';
 import { CONTRAST_KEY, PLAY_SETTINGS_KEY, TEXT_SIZE_KEY } from './display-settings';
 import { LANGUAGE_COOKIE, readCookie } from './language-choice';
+import { PATHS } from '../data/paths';
+import { parsePaths, PATHS_STORAGE_KEY } from './paths';
 import { parseSaved, STORAGE_KEY as SAVED_KEY } from './saved-activities';
 import { parseNotes, STORAGE_KEY as TODAY_NOTES_KEY } from './today/notes';
 
@@ -51,6 +53,14 @@ export const SITE_STORES: readonly SiteStore[] = [
     description:
       'Activities you marked as tried, kept as their short names to show your mark. Your first mark for each activity is also counted in site analytics.',
     count: (raw) => parseTried(raw).length,
+  },
+  {
+    id: 'paths',
+    kind: 'localStorage',
+    key: PATHS_STORAGE_KEY,
+    label: 'Place on four-week paths',
+    description: 'Where you chose to start on each path and which weeks you skipped, kept as week numbers.',
+    count: (raw) => Object.keys(parsePaths(raw, new Set(PATHS.map((p) => p.id)))).length,
   },
   {
     id: 'today-notes',
