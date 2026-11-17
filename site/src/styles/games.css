@@ -165,7 +165,8 @@
   outline: 3px solid var(--gm-primary);
   outline-offset: 3px;
 }
-.conversation-cards__prompt-toggle {
+.conversation-cards__prompt-toggle,
+.sort-together__larger-toggle {
   justify-self: start;
   max-width: 100%;
 }
@@ -424,6 +425,54 @@
   user-select: none;
   -webkit-user-select: none;
   -webkit-user-drag: none;
+}
+
+/* Larger targets (GAME-019): two baskets side by side, bigger pictures, wider
+   gaps so a shaking hand lands where it meant to, and the darkest ink token on
+   every edge. Tokens only; the site's higher-contrast setting darkens them
+   further. Nothing here animates, and nothing shrinks below the normal size. */
+.baskets--large {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-lg);
+}
+/* Two columns even at larger text on a phone: the pair stays side by side. */
+@media (max-width: 479px) {
+  html[data-text-size='large'] .baskets--large {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.basket--large {
+  min-height: 240px;
+  padding: var(--space-sm);
+  border: 4px solid var(--gm-on-surface);
+  background: var(--gm-surface);
+}
+/* Ready adds a second ring, so it is a shape as well as a tint. */
+.basket--large:hover,
+.basket--large.basket--ready {
+  border: 4px solid var(--gm-on-surface);
+  background: var(--gm-primary-container);
+  outline: 4px solid var(--gm-on-surface);
+  outline-offset: 2px;
+}
+.basket--large:focus-visible {
+  outline: 4px solid var(--gm-primary);
+  outline-offset: 4px;
+}
+.basket--large .basket__items {
+  gap: var(--space-md);
+}
+.basket--large .basket__items img {
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--gm-on-surface);
+}
+.board--large {
+  --tile-min: 96px;
+  gap: var(--space-lg);
+}
+.board--large .tile {
+  border: 3px solid var(--gm-on-surface);
 }
 
 /* Puzzle */
@@ -1418,6 +1467,10 @@
   .basket--ready,
   .basket:hover {
     border: 4px solid #000000;
+  }
+  .basket--large {
+    border-style: solid;
+    border-width: 4px;
   }
   .basket__items img {
     border: 2px solid #000000;

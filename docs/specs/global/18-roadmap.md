@@ -226,7 +226,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-015 | P1 | partial | Picture puzzle (app) |
 | GAME-016 | P2 | new | Tap-to-place puzzle (app) |
 | GAME-017 | P2 | new | Picture sorting (app) |
-| GAME-019 | P1 | new | Large-target sort |
+| GAME-019 | P1 | partial | Large-target sort |
 | GAME-058 | P2 | new | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
 | GAME-060 | P3 | new | Quiet shapes puzzle |
