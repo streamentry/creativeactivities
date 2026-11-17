@@ -17,9 +17,11 @@ interface Props {
   pictureNames: Record<string, string>;
   /** The two basket names, for the sorting sheet. */
   baskets?: readonly [string, string];
+  /** Color names by id, for the rows of the Color match sheet. */
+  colorNames?: Record<string, string>;
 }
 
-const { sheet, title, rules, howTo, pictureNames, baskets } = Astro.props;
+const { sheet, title, rules, howTo, pictureNames, baskets, colorNames } = Astro.props;
 const name = (id: string) => pictureNames[id] ?? '';
 ---
 <section class="sheet sheet-paper" aria-hidden="true">
@@ -42,7 +44,13 @@ const name = (id: string) => pictureNames[id] ?? '';
     sheet.layout === 'rows' && (
       <ol class="sheet-paper__rows">
         {sheet.rows.map((row) => (
-          <li data-target={row.target ? 'yes' : 'no'}>
+          <li data-target={row.target ? 'yes' : 'no'} data-color={row.color ? 'yes' : 'no'}>
+            {row.color && (
+              <p class="sheet-paper__color">
+                <span class="sheet-paper__swatch" data-color={row.color} />
+                {colorNames?.[row.color] ?? ''}
+              </p>
+            )}
             {row.target && (
               <figure class="sheet-paper__target" data-shadow={sheet.shadow ? 'yes' : 'no'}>
                 <img src={sheet.shadow ? pictureShadowUrl(row.target) : pictureUrl(row.target)} alt="" width="120" height="120" />

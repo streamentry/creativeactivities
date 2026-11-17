@@ -1,4 +1,6 @@
+import { MATCH_COLORS } from '../../data/color-match';
 import { picturesIn } from '../../data/pictures';
+import { colorRoundFor } from './color-match';
 import { createOddRound } from './odd-one-out';
 import { DICE_POOL } from './story-dice';
 import { createRng, sample, shuffle, type Rng } from './random';
@@ -31,6 +33,8 @@ export interface PrintRow {
   target?: string;
   /** The pictures to choose from, in order. */
   choices: string[];
+  /** The color to find in this row (Color match): a key of `ui.colorMatch.names`. */
+  color?: string;
 }
 
 export type PrintSheet =
@@ -96,6 +100,19 @@ export function printSheet(slug: string): PrintSheet | null {
           return { choices: round.pictures };
         }),
       };
+    }
+    case 'color-match': {
+      // Four rows, each a different color, with two pictures of it among four. No picture is used
+      // twice on the sheet, so a picture is never a match in one row and an "other" in another.
+      const rows: PrintRow[] = [];
+      const used = new Set<string>();
+      for (const color of shuffle(MATCH_COLORS, rng).slice(0, ROWS)) {
+        const open = MATCH_COLORS.map((c) => ({ ...c, pictures: c.pictures.filter((id) => !used.has(id)) }));
+        const round = colorRoundFor(open.find((c) => c.id === color.id) as (typeof open)[number], 4, rng, open);
+        for (const id of round.pictures) used.add(id);
+        rows.push({ color: round.color, choices: round.pictures });
+      }
+      return { layout: 'rows', rows, shadow: false };
     }
     case 'story-chain':
       return { layout: 'chain', pictures: [...buildChain(rng).pictures] };

@@ -14,6 +14,7 @@ export const GAME_SLUGS = [
   'shadow-match',
   'four-together',
   'odd-one-out',
+  'color-match',
   'story-chain',
   'story-dice',
   'sort-together',

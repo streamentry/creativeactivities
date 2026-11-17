@@ -328,6 +328,60 @@
   color: var(--gm-on-surface);
 }
 
+/* Color match: a large patch of the color with its name written beside it, so
+   color is never the only signal. The name stays the same size at every text size. */
+.color-match__target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  max-inline-size: 560px;
+  margin-inline: auto;
+  margin-block-end: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+}
+.color-match__swatch {
+  flex: none;
+  inline-size: clamp(5rem, 24vw, 8rem);
+  block-size: clamp(5rem, 24vw, 8rem);
+  border: 4px solid var(--gm-on-surface);
+  border-radius: var(--radius-lg);
+  background: var(--match-color, var(--gm-surface-sunken));
+  forced-color-adjust: none;
+}
+.color-match__name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  color: var(--gm-on-surface);
+  overflow-wrap: anywhere;
+}
+.color-match__swatch[data-color='red'],
+.sheet-paper__swatch[data-color='red'] {
+  --match-color: #c8473a;
+}
+.color-match__swatch[data-color='orange'],
+.sheet-paper__swatch[data-color='orange'] {
+  --match-color: #e07b28;
+}
+.color-match__swatch[data-color='yellow'],
+.sheet-paper__swatch[data-color='yellow'] {
+  --match-color: #f2cc3d;
+}
+.color-match__swatch[data-color='green'],
+.sheet-paper__swatch[data-color='green'] {
+  --match-color: #4e8a3e;
+}
+.color-match__swatch[data-color='blue'],
+.sheet-paper__swatch[data-color='blue'] {
+  --match-color: #2f6f9e;
+}
+
 /* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
 .chain {
   display: flex;
@@ -1257,6 +1311,28 @@
     filter: brightness(0);
     opacity: 0.7;
   }
+  /* Color match: each row begins, in its own first cell, with the color's name and a patch of it. */
+  .sheet-paper__rows li[data-color='yes'] {
+    grid-template-columns: 1.2fr repeat(4, 1fr);
+  }
+  .sheet-paper__color {
+    align-self: center;
+    display: grid;
+    justify-items: center;
+    gap: 2mm;
+    margin: 0;
+    font-size: 15pt;
+    font-weight: 700;
+  }
+  .sheet-paper__swatch {
+    display: block;
+    inline-size: 16mm;
+    block-size: 16mm;
+    border: 2px solid #000;
+    background: var(--match-color, #fff);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
   .sheet-paper__chain {
     list-style: none;
     display: grid;
@@ -1430,6 +1506,12 @@
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
 @media (prefers-contrast: more) {
+  .color-match__swatch {
+    border: 8px solid #000000;
+  }
+  .color-match__target {
+    border: 3px solid #000000;
+  }
   .tile {
     border: 2px solid #000000;
   }
