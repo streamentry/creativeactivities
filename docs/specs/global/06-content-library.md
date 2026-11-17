@@ -136,7 +136,8 @@ Rules that apply to every type:
 
 ### CNT-013 · Seasonal calendar and collections
 
-- **Priority P2 · Phase S2 · Status new**.
+- **Priority P2 · Phase S2 · Status partial**.
+- **Evidence (2026-11-16):** four season pages (`/seasons/spring/` to `/winter/`) and a calendar on `/seasons/` that shows the year as twelve months for the northern or southern half of the world, with this month marked (WEB-033). No holiday is assumed. Each season's own cards include at least one with a seated version and one with a large-grip version (tested in `site/src/data/seasons.test.ts`). After a season the page stays where it is and links to the seasonal hub and the other seasons. Not done: publishing six weeks ahead (the pages are not tied to a release date); holidays from many traditions with cultural review (none is included; the seasonal hub is written for any celebration); an editor's review of the collections.
 - **Why:** time-bound search and planning. R5 cluster 6 (holiday crafts for seniors, seated and low-dexterity) is the first case.
 - **Rules:** published at least six weeks before the season it serves; each collection has seated and low-dexterity versions; holidays from many traditions are included with cultural review (see [07](07-pillar-crafting.md) for the seasonal category and [13](13-localization.md)); after the season, the page stays at its URL and points to the evergreen hub.
 

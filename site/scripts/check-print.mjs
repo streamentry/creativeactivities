@@ -118,6 +118,12 @@ async function main() {
   // Cards only: other pages under /activity/ (the finder's packs, the weekly program) are not activity cards.
   const cardIds = new Set(readdirSync(new URL('../src/content/activity-cards/', import.meta.url)).filter((f) => f.endsWith('.md')).map((f) => f.slice(0, -3)));
   const slugs = readdirSync(join(DIST, 'activity')).filter((name) => cardIds.has(name) && existsSync(join(DIST, 'activity', name, 'index.html')));
+  // A build with no cards would pass by checking nothing.
+  if (slugs.length === 0) {
+    console.error('No activity card pages found under dist/activity. Run `pnpm build` first.');
+    server?.close();
+    process.exit(1);
+  }
 
   const browser = await chromium.launch();
   const context = await browser.newContext({ bypassCSP: true });

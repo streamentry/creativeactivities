@@ -3,6 +3,7 @@
 // image alt text and claims wording. Exits 1 on any error.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { postingForm, captchaLoaded } from './post-rules.mjs';
 import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
@@ -181,6 +182,10 @@ for (const file of htmlFiles) {
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
   // TSA-022, WEB-035: nothing plays by itself. Words about autoplay in advice are fine; media elements and frames are not.
   if (/<(?:video|audio)\b[^>]*\sautoplay\b/i.test(html) || /\sallow="[^"]*\bautoplay\b/i.test(html)) err(rel, 'media is set to autoplay (TSA-022)');
+  // TSA-044: no form posts anywhere (none sets an action or method) and no captcha service is loaded. A form that posts
+  // data would need the controls in that item first: server checks, a rate limit, a honeypot and a test with a screen reader.
+  if (postingForm(html)) err(rel, 'a form sets an action or method, but the site posts no form to a server (TSA-044)');
+  if (captchaLoaded(html)) err(rel, 'loads a captcha service (TSA-044)');
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
