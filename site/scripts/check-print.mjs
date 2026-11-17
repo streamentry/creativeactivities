@@ -306,6 +306,11 @@ async function main() {
     for (const slug of slugs) {
       if (existsSync(join(DIST, 'activity', slug, 'large-print', 'index.html'))) {
         await check('large-print card', slug, `/activity/${slug}/large-print/`, LARGE_PRINT_PAGES, STEP_PT.largePrint, cardSteps.get(slug));
+      } else {
+        // Every card has a large-print edition; a missing one is a failure, not a smaller total.
+        record('large-print card', false);
+        failures.push({ slug, missing: 'large-print page' });
+        console.log(`large-print card: ${slug.padEnd(36)} no page was built  FAIL`);
       }
     }
     const packDir = join(DIST, 'activity', 'packs');
