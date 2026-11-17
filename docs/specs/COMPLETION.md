@@ -170,6 +170,21 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | GROW child-facing items (CNT-8xx, S3) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
 | S4 languages | Native reviewers per language | Reviewers |
 
+## Decisions only the maintainer can make
+
+Each of these blocks work that no one else can unblock. The last column is a suggestion to make the decision quicker. None is decided, and nothing in the repository acts on it.
+
+| Decision | Unblocks | Options | Suggested |
+| --- | --- | --- | --- |
+| Hosting plan | Any page type that exists in every language (each adds about 189 files); PLAT-015 | Stay on the Cloudflare Free plan (20,000 files per version; about 17,300 in use, 86%) or move to Paid (100,000) | Move to Paid before adding another all-language page type; until then add new page types for English only |
+| Indexing the weakest seven expansion languages: Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo (L10N-033) | L10N-020, L10N-033 | Index them now, as the 2026-11-01 decision says, or keep them `noindex` until a native reviewer has checked each | Keep `noindex` until reviewed; the review guide already puts these seven first |
+| Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md |
+| Crawlers for AI products (SEO-035) | SEO-035, SEO-019 | Allow all (today, including GPTBot); allow search crawlers (Googlebot, Bingbot, OAI-SearchBot) and disallow training crawlers; disallow all | Allow search crawlers, decide training separately, never block Googlebot or Bingbot; `robots.txt` is a request, not access control |
+| AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | CNT-032, CNT-030 | Adopt the written rule and the one-line disclosure, with the wording confirmed by counsel, or not | Adopt, with counsel confirming the wording before it ships |
+| A first-party "We tried this" counter (PLAT-027) | PLAT-027, MET-001, MET-002, MET-003 | None (Google Analytics with consent only), or a cookieless endpoint that stores daily counts per activity and language with small cells hidden (proposed minimum 10) | Approve it in principle: Google Analytics cannot see an activity done away from the screen, and the north star is confirmed starts |
+| A service worker for offline reading (WEB-040, PLAT-034) | WEB-040, PLAT-034 | Keep `worker-src 'none'` in the security headers (no offline reading on the web) or allow a reviewed service worker for the site's own address | Allow it after a privacy review; care homes with poor Wi-Fi are the case for it |
+| Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
+
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
