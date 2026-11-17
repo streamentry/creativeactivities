@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 177 | 166 | 407 |
+| S2 | 64 | 178 | 165 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **217** | **239** | **533** |
+| **All** | **77** | **218** | **238** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -203,6 +203,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | The "no pressure" rule is measured. A test scans 243 files of the site's code and 68 files of its English copy for urgency phrases, guilt and run-counting phrases, a stopwatch, a countdown, a score table, a move count, lives, confetti, requests to interrupt (notifications, push, vibration, an icon badge) and emoji used as praise, and finds none (urgency, guilt and emoji praise are checked in the English copy as well as the code; stopwatch, countdown, score and interruption in the code only; the game strings, middleware and styles are not scanned). Every timer in the interface is listed with the reason it is not pressure, and a new one fails the test until it is listed. A planted violation of each kind fails the test | MET-035 → partial (no monthly report with counts; no place to complain about pressure and no same-week review; a clean scan does not show the experience is gentle) | vitest 3,405 pass, 1 skipped as before (9 in `guardrails.test.ts`, shown to fail on a planted urgency phrase, run-counting phrase, confetti, timer and escaped emoji); `tsc` clean; the test also passes with the paths library and the describe box (two waits after typing stops, listed) from the open PRs added |
+
+### Batch 21 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| The print check now covers every template with a paper version and prints the pass rate. It prints the activity cards, their large-print editions, the fixed packs, the weekly program, each game's paper version, the pack builder and the paths on A4 and US Letter. Each must fit the pages it declares, a card's steps must print at 12 pt or more and a large-print edition's at 18 pt or more, and a large-print edition's steps must be word for word the card's. Today 7 of 7 template types pass (100%) | MET-020 → partial; WEB-018 evidence recorded (its section still said "new" while the index said "partial") (no black-and-white printer check; the rate is in the workflow log and not in a record for each release; no test with people who read large print) | vitest 3,488 pass, 1 skipped as before (3 in `print-templates.test.ts`: the game list equals the data, the page table has no stale entry, the type sizes); `tsc` clean; `pnpm check:print` on a full build: card 53/53, pack builder 55/55, path 2/2, large-print card 53/53, fixed pack 2/2, weekly program 1/1, game sheet 11/11 |
 
 ## What blocks the rest
 

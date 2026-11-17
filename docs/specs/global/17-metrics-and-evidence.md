@@ -240,7 +240,9 @@ Depends on: [platform](15-platform-data-architecture.md) PLAT-011.
 Risks / not doing: relying only on word lists. Add a human review of every health-adjacent page.
 
 ### MET-020 · Print legibility pass rate
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Evidence (2026-11-17): `pnpm check:print` prints the pass rate at every run and fails the run when any print template fails, so failures are fixed before a release. Today: 7 of 7 template types pass (100%): activity card 53 of 53, large-print card 53 of 53, fixed pack 2 of 2, weekly program 1 of 1, game paper version 11 of 11, pack builder 55 of 55 and four-week path 2 of 2. A template passes when it prints within the pages it declares on both A4 and US Letter (a card is exactly two, one sheet both sides), its navigation is off the paper, and its steps print at 12 pt or more (18 pt in large print). The games come from the table in `site/src/data/game-print.ts`, the other templates are listed in the check, and `site/src/lib/print-templates.test.ts` keeps the game list true. Not done: "no color dependency" is checked only by printing without backgrounds, which is how a browser prints, and not by someone using a black-and-white printer; the rate is in the workflow log and not in a record kept for each release; a template added later has to be added to the check.
+
 Why: print is a product path (DESIGN §4B). A card that does not print is not a card.
 What: share of print templates that pass the print tests (one page at A4 and US Letter, no color dependency, no navigation).
 Acceptance:
