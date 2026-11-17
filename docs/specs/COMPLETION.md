@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 189 | 154 | 407 |
+| S2 | 64 | 190 | 153 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **229** | **227** | **533** |
+| **All** | **77** | **230** | **226** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -258,6 +258,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Halves match" at `/games/halves-match/` (English only, built by a subagent, checked by me): the left halves of two or three pictures beside their right halves in another order; tap a half, then the half that fits it; a pair that fits joins into the whole picture with a border and a check mark, and one that does not simply separates with a gentle message; Show me and Another set; Rest from the shared frame; no score, timer, miss count or failure wording. Twenty pictures chosen from a contact sheet of their halves, never two of one category in a round; every half is a native button named for its picture, with the left column first in tab order | GAME-021 → partial (not tried with children or low-vision players; two pictures in a round can share a background tint that may hint at the answer; the last pair is trivial; the paper sheet reuses the on-screen wording; English only) | vitest 3,851 pass (35 new); `tsc` clean; build 16,540 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7, one page on A4 and Letter; `check:capacity` 17,282 files (86.4%); `check:a11y` 0 failing of 171 (agent's run) |
+
+### Batch 31 (2026-11-18)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Color by number" at `/games/color-by-number/` (English only, built by a subagent, checked by me): a grid of large numbered cells (4 by 4, 6 by 6 or 8 by 8), a key of four colors each with its number, its written name and its own small shape, and a tap fills a cell with the chosen color; there is no wrong color, a gentle message when every cell has its numbered color, Fill with the numbers, Clear and Another picture; arrow keys move between cells; Rest from the shared frame; no score, timer, miss count or failure wording; a one-page print sheet to color with pencils. A test simulates three kinds of color-vision difference and requires every pair of the four colors to stay at least 30 apart (closest about 32, yellow and orange) | GAME-031 → partial (nobody with color-vision differences, a tremor or a bedside setup has tried it; Clear has no undo; the 6 by 6 and 8 by 8 grids scroll sideways at 320 px; names not reviewed by a person; English only) | vitest 3,915 pass; `tsc` clean; build 16,541 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` one page on A4 and Letter; `check:capacity` exits 0; `check:a11y` 0 failing of 173 (agent's run) |
 
 ## What blocks the rest
 

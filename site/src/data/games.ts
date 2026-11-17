@@ -8,6 +8,7 @@ export type GameSlug =
   | 'odd-one-out'
   | 'color-match'
   | 'halves-match'
+  | 'color-by-number'
   | 'story-dice'
   | 'story-chain'
   | 'sort-together'
@@ -362,6 +363,56 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'Is there a paper version?',
         a: 'Yes. A one-page sheet has the left halves of three pictures in one column and their right halves, in a different order, in the other. Draw a line from each left half to the half that fits it.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'color-by-number',
+    name: 'Color by number',
+    seoTitle: 'Color by Number: a Calm Large-Print Fill Game',
+    h1: 'Color by Number: Fill the Squares, Any Color You Like',
+    description:
+      'A grid of large numbered squares and a key of four colors with their names. Choose a color, then tap squares to fill them. Any color is fine, there is no timer or score, and a button fills the rest by the numbers. Free to play and print.',
+    short: 'Choose a color, then tap the numbered squares to fill them.',
+    cardPictures: ['sunflower', 'sailboat', 'tree'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people, side by side',
+    printable: true,
+    intro:
+      'A square grid of large squares, each with a number, and a key above it with four colors, each with its number and its written name. Choose a color from the key, then tap squares to fill them. The grid is 4 by 4 to start, with 6 by 6 and 8 by 8 when you want more squares. When every square has the color of its number, the grid is the picture on the sheet. Squares filled with any other color are simply your own picture, and the game says nothing about it. "Fill with the numbers" fills every empty square for you.',
+    howTo: [
+      'Choose the grid size. 4 by 4 has the biggest squares and is the simplest.',
+      'Look at the key above the grid. Each color has a number and a name, such as 1 Yellow.',
+      'Tap a color in the key, then tap the squares you would like to fill with it.',
+      'Use the color on the number, or any color you like. Both are fine.',
+      'Tap "Fill with the numbers" for the empty squares, "Clear" to start the grid again, or "Another picture" for a different one.',
+    ],
+    tips: [
+      'Sit side by side and take turns: one person chooses the color, the other taps the square.',
+      'Talk about the colors: "I like the green." There is no need to name what the picture will be.',
+      'On a narrow screen the 8 by 8 grid scrolls sideways inside its own box. The squares stay a comfortable size.',
+      'The paper version works as well with pencils at a bedside table.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What if I use a different color from the number?',
+        a: 'Nothing happens, and that is the point. Any color can go in any square, and the game says nothing about it. When every square has the color of its number the game says so gently, and a picture in your own colors is just as good.',
+      },
+      {
+        q: 'Can the four colors be told apart by people with color-blindness?',
+        a: 'They were chosen to be. Every color also has a number, a written name and its own small shape, so color is never the only way to tell them apart. The four fills were checked with simulations of red-green and blue-yellow color blindness, and they also differ in lightness. A person with color blindness has not yet tried them, so please tell us if two look alike.',
+      },
+      {
+        q: 'Are the squares big enough for a tremor or a small screen?',
+        a: 'Every square is at least 48 pixels across, and 56 on the 4 by 4 grid. If a grid is too wide for the screen, it scrolls sideways inside its own box rather than shrinking the squares.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. A one-page sheet has a numbered grid and the key of four colors with their names. Color each square with a pencil of the color on its number, or any color you like.',
       },
       FREE_FAQ,
     ],

@@ -16,6 +16,7 @@ export const GAME_SLUGS = [
   'odd-one-out',
   'color-match',
   'halves-match',
+  'color-by-number',
   'story-chain',
   'story-dice',
   'sort-together',

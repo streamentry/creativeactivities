@@ -16,6 +16,7 @@ const COMPONENT: Record<string, string> = {
   'odd-one-out': 'OddOneOut',
   'color-match': 'ColorMatch',
   'halves-match': 'HalvesMatch',
+  'color-by-number': 'ColorByNumber',
   'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
@@ -30,8 +31,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 18 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(18);
+  it('covers all 19 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(19);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -115,6 +116,14 @@ describe('printable partner on each game page (WEB-052)', () => {
     expect([...halves.rightOrder].sort()).toEqual([...halves.pictures].sort());
     halves.rightOrder.forEach((id, row) => expect(id).not.toBe(halves.pictures[row]));
     expect(rulesText('halves-match', playProps('en').ui)).toBe('Tap a half on the left, then tap the half on the right that fits it.');
+    const grid = printSheet('color-by-number');
+    if (grid?.layout !== 'grid') throw new Error('grid sheet');
+    expect(grid.size).toBe(6);
+    expect(grid.rows).toHaveLength(6);
+    for (const row of grid.rows) expect(row).toHaveLength(6);
+    expect(new Set(grid.rows.flat())).toEqual(new Set([1, 2, 3]));
+    expect(sheetPictures(grid)).toEqual([]);
+    expect(rulesText('color-by-number', playProps('en').ui)).toBe('Choose a color from the key, then fill a square with it. Any color is fine.');
     const chain = printSheet('story-chain');
     if (chain?.layout !== 'chain') throw new Error('chain sheet');
     expect(chain.pictures).toHaveLength(8);

@@ -6,7 +6,7 @@ import { localeInfo } from './locales';
 import { deepMerge } from './ui';
 
 /**
- * Text for the 18 game islands, one language at a time.
+ * Text for the 19 game islands, one language at a time.
  *
  * English is the source (`./play/en.json`); `./play/<code>.json` holds a
  * translation with the same shape and is deep-merged over English, so a
@@ -104,6 +104,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'odd-one-out': { ui: ['oddOneOut'], content: ['fourTogether'] },
   'color-match': { ui: ['colorMatch'], content: [] },
   'halves-match': { ui: ['halvesMatch'], content: [] },
+  'color-by-number': { ui: ['colorByNumber'], content: [] },
   'story-chain': { ui: ['storyChain'], content: [] },
   'story-dice': { ui: ['storyDice'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },

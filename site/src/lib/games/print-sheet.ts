@@ -1,4 +1,5 @@
 import { MATCH_COLORS } from '../../data/color-match';
+import { MOTIFS, type ColorNumber, type GridSize } from '../../data/color-by-number';
 import { picturesIn } from '../../data/pictures';
 import { colorRoundFor } from './color-match';
 import { HALVES_PRINT_COUNT, createHalvesRound } from './halves-match';
@@ -26,6 +27,9 @@ export const TOGETHER_PRINT_COUNT = 4;
 /** The sorting theme on paper; its basket names are `content.sorting.themes[...]`. */
 export const SORT_PRINT_THEME = 'kitchen-garden';
 
+/** Color by number on paper: a 6 by 6 grid has squares large enough for a pencil, and it fits one page with the key. */
+export const GRID_PRINT_SIZE: GridSize = 6;
+
 /** The picture on the paper puzzle; a puzzle picture in the game too. */
 export const PUZZLE_PRINT_PICTURE = 'sailboat';
 
@@ -50,7 +54,9 @@ export type PrintSheet =
   /** Eight different pictures in a chain, read left to right (Story chain). */
   | { layout: 'chain'; pictures: string[] }
   /** Halves match: the left halves top to bottom, and the right halves in another order, to join with a line. */
-  | { layout: 'halves'; pictures: string[]; rightOrder: string[] };
+  | { layout: 'halves'; pictures: string[]; rightOrder: string[] }
+  /** Color by number: the numbers of one picture, row by row, to color with pencils from the key of four colors. */
+  | { layout: 'grid'; size: GridSize; picture: string; rows: ColorNumber[][] };
 
 const ROWS = 4;
 
@@ -122,6 +128,10 @@ export function printSheet(slug: string): PrintSheet | null {
       const round = createHalvesRound(HALVES_PRINT_COUNT, rng);
       return { layout: 'halves', pictures: round.pictures, rightOrder: round.rightOrder };
     }
+    case 'color-by-number': {
+      const motif = MOTIFS[GRID_PRINT_SIZE][0];
+      return { layout: 'grid', size: GRID_PRINT_SIZE, picture: motif.id, rows: motif.rows.map((row) => [...row]) };
+    }
     case 'story-chain':
       return { layout: 'chain', pictures: [...buildChain(rng).pictures] };
     case 'story-dice': {
@@ -152,6 +162,8 @@ export function sheetPictures(sheet: PrintSheet): string[] {
       return sheet.pictures;
     case 'halves':
       return sheet.pictures;
+    case 'grid':
+      return [];
     case 'rows':
       return sheet.rows.flatMap((r) => (r.target ? [r.target, ...r.choices] : r.choices));
     case 'puzzle':
