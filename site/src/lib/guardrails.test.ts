@@ -36,7 +36,7 @@ const hits = (files: string[], pattern: RegExp): string[] =>
 /** Phrases that push a person to act now or hold them to a run. */
 const URGENCY = /\b(?:act now|last chance|don.?t miss|limited time|only \d+ (?:left|spots|seats)|expires? (?:soon|today|in \d)|before it.s too late|while supplies last|hurry up|offer ends|sale ends)\b/i;
 /** Phrases that count a person's days, or tell them they fell short. Saying a page has no streak is not one of these. */
-const GUILT = /\b(?:days?|weeks?) in a row\b|\bkeep it up\b|\byou(?:'ve| have)? missed\b|\bbreak the chain\b|\bdon.?t lose your\b|\b\d+[- ]day streak\b|\bcurrent streak\b|\bstreak (?:count|counter|bonus)\b/i;
+const GUILT = /\b(?:days?|weeks?) in a row\b|\bkeep it up\b|\byou(?:['’]ve| have)? missed\b|\bbreak the chain\b|\bdon.?t lose your\b|\b\d+[- ]day streak\b|\bcurrent streak\b|\bstreak (?:count|counter|bonus)\b/i;
 /** A stopwatch, a countdown, a score table, a move count, lives, confetti. */
 const SCORE_AND_CLOCK = /confetti|fireworks|countdown|stopwatch|\bhigh ?score\b|\bleaderboard\b|\bscoreboard\b|\bmoveCount\b|\bmovesMade\b|\btriesLeft\b|\blives(?:Left|Remaining)\b/i;
 /** The browser asking to interrupt a person: a notification, a push message, a buzz, a badge on the icon. */
@@ -111,5 +111,17 @@ describe('every timer in the interface is accounted for (MET-035)', () => {
 
   it('gives every timer a reason of its own', () => {
     for (const [file, { why }] of Object.entries(TIMERS)) expect(why.length, file).toBeGreaterThan(30);
+  });
+});
+
+describe('each pattern matches what it names (so a rotted pattern cannot pass the scan)', () => {
+  it('urgency, guilt, clock and score, interruption and emoji praise', () => {
+    expect('Last chance to join').toMatch(URGENCY);
+    expect('You’ve missed a day').toMatch(GUILT);
+    expect('You\'ve missed a day').toMatch(GUILT);
+    expect('a 5 day streak').toMatch(GUILT);
+    expect('show the countdown').toMatch(SCORE_AND_CLOCK);
+    expect('Notification.requestPermission()').toMatch(INTERRUPT);
+    expect('Well done! 🎉').toMatch(EMOJI_PRAISE);
   });
 });
