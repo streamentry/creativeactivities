@@ -1,3 +1,4 @@
+import { readFileSync, readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
   LONG_STEP_WORDS,
@@ -132,6 +133,17 @@ describe('the cards and hubs on the site (TSA-008)', () => {
     expect(cards.length).toBeGreaterThanOrEqual(53);
     for (const card of cards) expect(card.steps.length, card.id).toBeGreaterThanOrEqual(3);
     expect(summarize(cards).steps).toBeGreaterThan(400);
+  });
+
+  it('reads every step of every card: the count equals the dash lines in the steps block', () => {
+    const dir = new URL('../content/activity-cards/', import.meta.url);
+    for (const file of readdirSync(dir).filter((f) => f.endsWith('.md'))) {
+      const text = readFileSync(new URL(file, dir), 'utf8');
+      const block = text.match(/^steps:\n((?:[ \t]+.*\n|\n)*)/m)?.[1] ?? '';
+      const lines = block.split('\n').filter((l) => l.trim() !== '');
+      expect(lines.every((l) => /^ {2}- /.test(l)), `${file}: a line in the steps block is not a plain step`).toBe(true);
+      expect(readSteps(text).length, file).toBe(lines.length);
+    }
   });
 
   it('has no step that joins two actions with "and then"', () => {
