@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 175 | 168 | 407 |
+| S2 | 64 | 176 | 167 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **215** | **241** | **533** |
+| **All** | **77** | **216** | **240** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -191,6 +191,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | A hosting capacity check and a written record. The build holds 17,254 files (16,532 pages, 16,504 of the files in 189 language folders), which is 86% of the 20,000-file limit Cloudflare documents for Workers Static Assets on the Free plan (100,000 on Paid, 25 MiB per file). That leaves 2,746 files, about 12 page types (counted to the point where the check fails, 98%) that exist in every language, and ten times the pages would be about 166,000 files, over the Paid limit. `pnpm check:capacity` prints this for any build, warns from 80% of the limit, fails from 98% or on an oversize file, and runs in the website workflow after the page weight budget. The numbers, the limits, the options (record the plan, shard, render the long tail on demand, choose which page types exist in every language) and what was not measured are in `docs/engineering/hosting-capacity.md` | PLAT-015 → partial (no synthetic site at ten times the pages, built and deployed, so upload size, deploy time and cache behavior are not measured; the decision is the maintainer's; the account's plan is not recorded in the repository) | vitest 3,406 pass, 1 skipped as before (10 in `capacity.test.ts`: the counts, language folders, the warn and fail thresholds on both plans, an oversize file, the page types left in the headroom, the ten-times projection, and the limits with their source and date); `tsc` clean; `pnpm check:capacity` on the real build: 17,254 files, 86.3% of the Free limit, passes with a warning; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; limits read from Cloudflare's documentation on 2026-11-17 |
+
+### Batch 19 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A plain-language report for editors. `pnpm review:plain` reads every card's steps and every hub's sentences and lists what an editor may want to look at: long steps, steps of more than one sentence and long hub sentences, with the mean reading grade as a prompt and not a score target. The spec's rule, that no step joins two actions with "and then", is now a test, and (the literal words only: about 33 steps chain actions with ", then" and are not caught) a second test stops any step from passing 60 words. Today: 413 steps in 53 cards, none breaks the rule, 5 steps have 25 words or more, 40 have more than one sentence, and 8 hub sentences have 30 words or more | TSA-008 → partial (the editor's checklist on every activity and hub is a person's work; the long steps and sentences listed have not been looked at; English only) | vitest 3,413 pass, 1 skipped as before (17 in `plain-language.test.ts`: words, sentences, syllables and the reading grade, the rule and its idiom, reading a card and a hub, and the real cards and hubs); `tsc` clean; `pnpm review:plain` on the real content runs with 0 steps breaking the rule |
 
 ## What blocks the rest
 
