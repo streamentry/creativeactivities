@@ -114,7 +114,7 @@ export default function ConversationCards(props: PlayProps) {
             <div aria-live="polite" aria-atomic="true">
               {promptPresentation.visiblePrompt ? <p className="talk-card__prompt">{promptPresentation.visiblePrompt}</p> : null}
             </div>
-            {big ? <p className="talk-card__pass">{ui.conversationCards.passNote}</p> : null}
+            {big && promptPresentation.visiblePrompt ? <p className="talk-card__pass">{ui.conversationCards.passNote}</p> : null}
           </div>
         </article>
       </GameFrame>

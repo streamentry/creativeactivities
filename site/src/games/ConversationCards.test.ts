@@ -14,7 +14,7 @@ describe('ConversationCards', () => {
     expect(html).not.toContain('class="talk-card__prompt"');
   });
 
-  it('offers a big picture for a group by choice: off at the start, and the pass note only when it is on', () => {
+  it('offers a big picture for a group by choice, off at the start (the page renders once, so only that state is checked here)', () => {
     const html = renderToStaticMarkup(createElement(ConversationCards, playProps('en', 'conversation-cards')));
 
     expect(html).toContain('Big picture, for a group');

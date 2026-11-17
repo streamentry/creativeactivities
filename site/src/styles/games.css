@@ -577,7 +577,7 @@
 /* Big picture (GAME-051): one picture and its prompt large enough to share across a room, for a group on a tablet or a
    TV. The person leading still moves on; nothing changes by itself. */
 .talk-card--big {
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 1fr);
   justify-items: center;
   text-align: center;
 }
@@ -596,6 +596,7 @@
 .talk-card--big .talk-card__prompt {
   font-size: var(--text-hero);
   line-height: 1.2;
+  overflow-wrap: anywhere; /* a long word in another language wraps rather than widening the page */
 }
 .talk-card__pass {
   margin: var(--space-md) 0 0;
@@ -604,7 +605,7 @@
 }
 @media (min-width: 900px) and (orientation: landscape) {
   .talk-card--big {
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto minmax(0, 1fr);
     justify-items: stretch;
     text-align: start;
   }

@@ -249,7 +249,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a person may pass without any explanation; the host can stop at any moment; no one is asked to name or recall.
 - **Depends on:** printed picture set; GAME-051 for the screen version.
 - **Risks:** pressure to speak. Passing is always allowed.
-- **Evidence (2026-11-17):** Conversation cards (`/games/conversation-cards/`) is a deck of picture cards, each with an open prompt and no right answer, with Next card and Previous card and a printed set of every card. With the Big picture option, each card shows large with "Anyone may pass." under it, and Rest is always on the screen. Gap: no rules text for passing a card round a circle (how to start, how to pass), the printed set carries no passing instructions, and it has not been tried with a group.
+- **Evidence (2026-11-17):** Conversation cards (`/games/conversation-cards/`) is a deck of picture cards, each with an open prompt and no right answer, with Next card and Previous card and a printed set of every card. With the Big picture option, each card shows large with "Anyone may pass." under the prompt once a prompt is showing, and Rest is always on the screen. Gap: no rules text for passing a card round a circle (how to start, how to pass), the printed set carries no passing instructions, and it has not been tried with a group.
 
 ### GAME-051 · Big-screen picture talk (P1, S2)
 
