@@ -38,7 +38,7 @@ export function Search() {
           type="search"
           autoComplete="off"
           autoCapitalize="off"
-          spellCheck
+          spellCheck={false}
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           aria-describedby="site-search-note"

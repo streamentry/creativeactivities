@@ -37,6 +37,16 @@ export function seasonFor(month: number, hemisphere: Hemisphere): SeasonId {
   return hemisphere === 'north' ? north : OPPOSITE[north];
 }
 
+export const MONTH_NAMES = [
+  'January', 'February', 'March', 'April', 'May', 'June',
+  'July', 'August', 'September', 'October', 'November', 'December',
+] as const;
+
+/** The year as twelve months, each with its season in a half of the world (CNT-013, WEB-033). */
+export function seasonCalendar(hemisphere: Hemisphere): { month: number; name: string; season: SeasonId }[] {
+  return MONTH_NAMES.map((name, month) => ({ month, name, season: seasonFor(month, hemisphere) }));
+}
+
 /** Countries that lie mostly or wholly south of the equator and have four seasons. */
 const SOUTH_REGIONS: ReadonlySet<string> = new Set([
   'AU', 'NZ', 'ZA', 'AR', 'CL', 'UY', 'PY', 'BO', 'BR', 'LS', 'SZ', 'NA', 'BW', 'ZW', 'MZ', 'ZM', 'MW', 'MG',

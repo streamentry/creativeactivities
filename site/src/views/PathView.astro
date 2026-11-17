@@ -1,0 +1,205 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activity-cards.css';
+import '../styles/activities.css';
+import '../styles/studio-editorial.css';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { PathPlan, type PathWeekInfo } from '../tools/PathPlan';
+import { PATHS, type PathDef } from '../data/paths';
+import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
+import { TYPE_LABELS, listedActivities, minutesRange } from '../lib/activities';
+import { weekMinutes } from '../lib/paths';
+import { breadcrumbs, itemList } from '../lib/schema';
+import { SITE } from '../lib/site';
+
+interface Props {
+  path: PathDef;
+}
+const { path } = Astro.props;
+const crumbs = [
+  { href: '/paths/', label: 'Paths' },
+  { href: `/paths/${path.id}/`, label: path.title },
+];
+
+// A withdrawn card is never printed (TSA-045), so a path that lists one cannot be built.
+const cards = new Map(listedActivities(await getCollection('activityCards')).map((a) => [a.id, a]));
+const weeks: PathWeekInfo[] = path.weeks.map((week) => {
+  const listed = week.activities.map((slug) => {
+    const card = cards.get(slug);
+    if (!card) throw new Error(`Path ${path.id} lists an activity that is missing or withdrawn: ${slug}`);
+    return card;
+  });
+  return {
+    title: week.title,
+    note: week.note,
+    // The time comes from the cards, so it cannot drift from what each card says.
+    minutes: minutesRange(weekMinutes(listed.map((card) => card.data.activityMinutes))),
+    activities: listed.map((card) => ({ id: card.id, name: card.data.name, summary: card.data.summary, typeLabel: TYPE_LABELS[card.data.type] })),
+  };
+});
+const dateText = new Date(`${path.updated}T00:00:00Z`).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+const jsonLd = [
+  breadcrumbs(crumbs),
+  itemList(path.title, weeks.flatMap((w) => w.activities).map((a) => ({ path: `/activity/${a.id}/`, name: a.name }))),
+];
+const others = PATHS.filter((p) => p.id !== path.id);
+---
+<BaseLayout title={path.seoTitle} description={path.description} image="/og/activities.png" jsonLd={jsonLd} noindex>
+  <Breadcrumbs items={crumbs} />
+  <div class="container hub path-page">
+    <header class="page-head">
+      <p class="eyebrow">{path.eyebrow}</p>
+      <h1>{path.title}</h1>
+      <p class="lede">{path.purpose}</p>
+      <p class="muted"><strong>For:</strong> {path.who}</p>
+    </header>
+
+    <section class="hub-choosing" aria-labelledby="choosing">
+      <h2 id="choosing">How we chose these</h2>
+      <ul class="activity-list">
+        <li>{path.rule}</li>
+        <li>{path.notFor}</li>
+      </ul>
+    </section>
+
+    <p class="path-plan__nojs no-print">The start and skip buttons need JavaScript. The four weeks are below to read and print.</p>
+    <PathPlan client:load pathId={path.id} weeks={weeks} allPathIds={PATHS.map((p) => p.id)} address={SITE.domain} />
+
+
+    <p class="path-stop">{path.stopNote}</p>
+    <p class="activity-scope">{SCOPE_LINE}</p>
+    <p>{PAUSE_LINE}</p>
+    <p class="print-only path-version">
+      Version {path.updated} · {SITE.domain}/paths/{path.id}/ · Free to print and share for personal and noncommercial use.
+    </p>
+
+    <nav class="hub-next reveal no-print" aria-labelledby="hub-next">
+      <h2 id="hub-next">Keep reading</h2>
+      <ul class="activity-list">
+        <li><a href="/paths/">All the paths</a></li>
+        {others.map((p) => <li><a href={`/paths/${p.id}/`}>{p.title}</a></li>)}
+        <li><a href="/activity/">Find a single activity</a></li>
+      </ul>
+    </nav>
+
+    <footer class="activity-byline reveal">
+      <p>
+        By Creative Activities editorial team. Not yet reviewed by an outside expert. Updated{' '}
+        <time datetime={path.updated}>{dateText}</time>.
+        <span class="no-print">
+          {' '}This page is kept out of search until there is evidence that a path answers a different question than the hubs.{' '}
+          <a href="/editorial-policy/">How we write</a> · <a href="/corrections/">Report a mistake</a>
+        </span>
+      </p>
+    </footer>
+  </div>
+  <link rel="stylesheet" href="/styles/path-print.css" media="print" />
+</BaseLayout>
+
+<style is:global>
+  .path-weeks {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-lg) 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+  .path-week {
+    padding: var(--space-md) var(--space-lg);
+    background: var(--gm-surface);
+    border: 2px solid var(--gm-outline-variant, var(--gm-outline));
+    border-radius: var(--radius-sm);
+  }
+  /* The next week and a week set aside are told apart by words and a border, never by color alone. */
+  .path-week--next {
+    border-color: var(--gm-primary);
+    box-shadow: inset 4px 0 0 var(--gm-primary);
+  }
+  .path-week--skipped {
+    border-style: dashed;
+  }
+  .path-week__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-xs) var(--space-md);
+  }
+  .path-week__head h3 {
+    margin: 0;
+  }
+  .path-week__marks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-xs) var(--space-sm);
+    margin: 0;
+  }
+  .path-pill {
+    display: inline-block;
+    padding: 0.1rem var(--space-sm);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-full);
+    font-weight: 700;
+    background: var(--gm-background);
+  }
+  .path-pill--next {
+    background: var(--gm-primary-container);
+    border-color: var(--gm-primary);
+  }
+  .path-week__skipped {
+    font-weight: 700;
+  }
+  .path-week__activities {
+    padding-inline-start: 1.25rem;
+  }
+  .path-week__activities li + li {
+    margin-top: var(--space-sm);
+  }
+  .path-activity__name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 var(--space-sm);
+    margin: 0;
+    font-weight: 700;
+  }
+  /* Each activity's link is a target of its own, so it is tall enough to tap. */
+  .path-activity__name a {
+    display: inline-flex;
+    align-items: center;
+    min-height: var(--target-min);
+  }
+  .path-activity__summary {
+    margin: 0;
+  }
+  .path-plan__message:empty {
+    margin: 0;
+  }
+  /* Held back, with its room kept, until the page has read this device (a class, as the CSP blocks style attributes). */
+  .path-plan--unread {
+    visibility: hidden;
+  }
+  /* Without JavaScript the buttons and counts would do nothing, so they are left out and a sentence says why. */
+  .path-plan__nojs {
+    display: none;
+  }
+  @media (scripting: none) {
+    .path-plan--unread {
+      display: none;
+    }
+    .path-plan__nojs {
+      display: block;
+    }
+  }
+  .path-stop,
+  .path-end {
+    font-weight: 700;
+  }
+</style>

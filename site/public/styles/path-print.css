@@ -1,0 +1,103 @@
+/* How a four-week path prints (WEB-032, CNT-006): on two pages at most, in 12 pt, with the buttons and counts left off the
+   paper and a box to tick, the address and a ruled line by each week. Linked for print only, so the page's own first-paint
+   CSS stays small. Checked by `pnpm check:print`. */
+  @media print {
+    /* A week may continue on the next page, but a heading stays with what follows it and an activity is never cut. */
+    .path-week {
+      break-inside: auto;
+      border: 0;
+      border-top: 1px solid #000;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 2mm 0;
+      background: none;
+    }
+    .path-weeks {
+      gap: 1mm;
+      margin: 3mm 0;
+    }
+    /* An empty box to tick on paper, as on the printed checklist. */
+    .path-week__activities {
+      list-style: none;
+      padding-inline-start: 0;
+    }
+    .path-week__activities li {
+      position: relative;
+      padding-inline-start: 1.75em;
+    }
+    .path-week__activities li::before {
+      content: '';
+      position: absolute;
+      inset-inline-start: 0;
+      top: 0.25em;
+      width: 1em;
+      height: 1em;
+      border: 2px solid #000;
+      border-radius: 3px;
+    }
+    .path-week__address,
+    .path-version {
+      font-size: 8.5pt;
+      font-weight: 400;
+      display: block;
+      margin: 0;
+    }
+    .path-week__address {
+      margin-inline-start: auto;
+    }
+    /* A ruled line to write on, for what the two of them did that week. */
+    .path-week h3 {
+      break-after: avoid;
+    }
+    .path-week__activities li {
+      break-inside: avoid;
+    }
+    .path-week__notes {
+      display: block;
+      min-height: 7mm;
+      margin-top: 1mm;
+      border-bottom: 1px solid #000;
+      break-before: avoid;
+    }
+    /* Two pages at most, on A4 and on Letter (checked by pnpm check:print), in 12 pt as the cards are. */
+    .path-page {
+      font-size: 12pt;
+      line-height: 1.3;
+    }
+    .path-page .page-head h1 {
+      font-size: 22pt;
+      margin: 2mm 0;
+    }
+    .path-page .lede {
+      font-size: 12pt;
+      margin: 0 0 2mm;
+    }
+    .path-page .page-head {
+      margin-bottom: 2mm;
+    }
+    .path-page .hub-choosing {
+      margin: 3mm 0;
+      padding: 3mm 4mm;
+    }
+    .path-page .hub-choosing h2,
+    .path-page .path-plan > h2 {
+      font-size: 14pt;
+      margin: 0 0 1mm;
+    }
+    .path-week h3 {
+      font-size: 14pt;
+    }
+    .path-week p {
+      margin: 1mm 0;
+    }
+    .path-week__activities li + li {
+      margin-top: 1.5mm;
+    }
+    .path-activity__name a {
+      min-height: 0;
+    }
+    .path-page .activity-byline {
+      font-size: 9pt;
+      margin: 3mm 0 0;
+    }
+  }

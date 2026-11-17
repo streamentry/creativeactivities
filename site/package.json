@@ -24,7 +24,8 @@
     "verify": "vitest run && astro build && node --max-old-space-size=6144 scripts/check-site.mjs && node --max-old-space-size=6144 scripts/check-budget.mjs",
     "deploy": "astro build && node --max-old-space-size=6144 scripts/check-site.mjs && wrangler deploy",
     "library:inventory": "node scripts/library-inventory.mjs",
-    "translations:queue": "node scripts/translation-queue.mjs"
+    "translations:queue": "node scripts/translation-queue.mjs",
+    "metrics:content": "node scripts/content-metrics.mjs"
   },
   "dependencies": {
     "@astrojs/react": "7.1.0",

@@ -1,4 +1,4 @@
-import { readdirSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { checkClaims } from '../lib/claims';
 import { SEASON_IDS } from '../lib/seasons';
@@ -88,6 +88,14 @@ describe('season pages (WEB-033)', () => {
     const violations = SEASON_PAGES.flatMap((p) => checkClaims(textOf(p), `seasons/${p.id}`));
     const report = violations.map((v) => `${v.file}:${v.line} "${v.match}" (${v.rule})`).join('\n');
     expect(violations, report).toEqual([]);
+  });
+
+  it('offers each season a seated version and a large-grip version among its own cards (CNT-013)', () => {
+    const kinds = (slug: string) => [...readFileSync(new URL(`../content/activity-cards/${slug}.md`, import.meta.url), 'utf8').matchAll(/kind: ([a-z-]+)/g)].map((m) => m[1]);
+    for (const p of SEASON_PAGES) {
+      expect(p.activities.some((slug) => kinds(slug).includes('seated')), `${p.id} seated`).toBe(true);
+      expect(p.activities.some((slug) => kinds(slug).includes('large-grip')), `${p.id} large grip`).toBe(true);
+    }
   });
 
   it('says why the pages are held from search', () => {
