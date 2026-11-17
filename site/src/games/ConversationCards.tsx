@@ -17,6 +17,7 @@ export default function ConversationCards(props: PlayProps) {
   const pictureName = pictureNamer(props);
   const [theme, setTheme] = useState<TalkTheme | 'all'>('all');
   const [showPrompt, setShowPrompt] = useState(false);
+  const [big, setBig] = useState(false);
   const [seed, setSeed] = useState(0);
   const [index, setIndex] = useState(0);
 
@@ -54,6 +55,17 @@ export default function ConversationCards(props: PlayProps) {
                 }}
               />
               <span>{ui.conversationCards.showPrompt}</span>
+            </label>
+            <label className="chip conversation-cards__big-toggle">
+              <input
+                type="checkbox"
+                checked={big}
+                onChange={(event) => {
+                  sounds.tap();
+                  setBig(event.currentTarget.checked);
+                }}
+              />
+              <span>{ui.conversationCards.bigPicture}</span>
             </label>
           </>
         }
@@ -95,13 +107,14 @@ export default function ConversationCards(props: PlayProps) {
           </div>
         }
       >
-        <article className="talk-card">
+        <article className={big ? 'talk-card talk-card--big' : 'talk-card'}>
           <img src={pictureUrl(card.picture)} alt={pictureName(card.picture)} width={220} height={220} />
           <div>
             <p className="talk-card__theme">{themes[card.theme]}</p>
             <div aria-live="polite" aria-atomic="true">
               {promptPresentation.visiblePrompt ? <p className="talk-card__prompt">{promptPresentation.visiblePrompt}</p> : null}
             </div>
+            {big ? <p className="talk-card__pass">{ui.conversationCards.passNote}</p> : null}
           </div>
         </article>
       </GameFrame>

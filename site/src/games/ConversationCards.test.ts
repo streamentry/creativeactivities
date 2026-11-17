@@ -14,6 +14,15 @@ describe('ConversationCards', () => {
     expect(html).not.toContain('class="talk-card__prompt"');
   });
 
+  it('offers a big picture for a group by choice: off at the start, and the pass note only when it is on', () => {
+    const html = renderToStaticMarkup(createElement(ConversationCards, playProps('en', 'conversation-cards')));
+
+    expect(html).toContain('Big picture, for a group');
+    expect(html).toContain('<article class="talk-card">');
+    expect(html).not.toContain('talk-card--big');
+    expect(html).not.toContain('Anyone may pass.');
+  });
+
   it('uses the English source label until a locale has a reviewed translation', () => {
     const english = playProps('en', 'conversation-cards');
     const spanish = playProps('es', 'conversation-cards');

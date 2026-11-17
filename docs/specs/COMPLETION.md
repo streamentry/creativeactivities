@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 160 | 183 | 407 |
+| S2 | 64 | 162 | 181 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **200** | **256** | **533** |
+| **All** | **77** | **202** | **254** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 24 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Conversation cards gains a "Big picture, for a group" choice, off at the start: one picture and its prompt large enough to share across a room (picture up to 55% of the screen height, prompt in 38 to 68 px type, one column or side by side on a wide screen held sideways, the full width of the page), with "Anyone may pass." under it. Next card and Previous card are still pressed by the person leading; nothing moves by itself. The deck, its open prompts and its printed set were already there | GAME-051, GAME-050 → partial (not tried on a TV, cast screen or real tablet; no rules text for passing a card round a circle; label and pass line in English only, other languages show English; no automated check opens the big mode) | vitest 3,397 pass (the game's own test now checks the choice is offered, off, and that the pass line appears only when it is on); `tsc` clean; looked at in a browser at 1280 by 720, 768 by 1024 and 390 by 844, no sideways scroll; `check:a11y` runs the default mode |
 
 ## What blocks the rest
 
