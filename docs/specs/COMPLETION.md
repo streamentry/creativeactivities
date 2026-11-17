@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 162 | 181 | 407 |
+| S2 | 64 | 171 | 172 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **202** | **254** | **533** |
+| **All** | **77** | **211** | **245** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -157,6 +157,15 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Site search at `/search/` with a "Search" link in every page header: activities, situations, games and live guides, matched by word with a light stem and 37 synonym groups ("nan", "granny", "grandma"; "care home", "nursing home"). Every word must match, otherwise closest matches or "nothing matched" with a link to the finder. The question never leaves the browser: no storage, no request but the index, no analytics event, and it stays out of the address (all tested by scanning the code). The index is built with the site (110 KB, 34 KB gzipped) and `check-site` fails if it lists a page that was not built | WEB-003, PLAT-022 → partial (a box on every page; an editor's review of the synonyms; no-JavaScript search; screen-reader test; other languages; sharding and "indexed pairs only") | vitest 3,351 pass (36 search tests, 14 of them over the real pages); `tsc` clean for the new files; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check:a11y` 0 failing of 133; `check:duplicates` 0 exact duplicates; tried in the browser: "nan", "rainy day", "painting", a made-up word and a part-match, address unchanged and nothing stored; the nav link shows on a translated page |
+
+### Batch 14 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `pnpm metrics:content` reads the repository and reports, each with its count and date: pages with a current, stale or no review record (health-adjacent apart from the rest), pages past a 12-month review, translation coverage and staleness per language, and source coverage on health-adjacent pages (a health flag or a crisis route, as the translation queue counts them; hubs held from search are not indexed pages). Today: 0 of 23 health-adjacent pages and 0 of 78 other pages reviewed, 0 of 101 overdue (and none can be before 2027-10-26, so that says nothing yet), 189 languages with 5 to 6 of 41 live guides each and 0 stale, 362 of the 10,352 translations behind retired guides, which stay published, stale, a native-reviewed count that is a fixed 0 because no record exists, and 0 of 23 with a dated source (14 with any source; a card has no field for one). A second Claude agent reviewed the diff and its findings are fixed | MET-010, MET-011, MET-012, MET-015 → partial (content-hash staleness, owners, weekly run, native-review records, dated sources) | vitest 3,428 pass (28 in `content-metrics.test.ts`, covering a reviewer named without a record,  dates with a time, future and unreadable dates, crisis routes, hubs held from search, stale translations behind retired guides, and the per-language rows); `tsc` clean |
+| The print check (`pnpm check:print`: every activity card is one two-sided sheet on A4 and US Letter, navigation hidden) now runs in the website workflow, and it fails when it finds no cards instead of passing by checking nothing. It passes locally for all 53 cards in 34 seconds. Classified two items from existing evidence: the print and translation tests and the staleness queue | PLAT-039, PLAT-012 → partial (print checks beyond cards; owners and a weekly run) | `check:print` 0 of 53 cards failing; the CI step is proven by this pull request's own run |
+| The year as twelve months on `/seasons/`, for the northern or southern half, with this month marked and each month linking to its season; a test that each season's own cards include a seated and a large-grip version | CNT-013 → partial (six-weeks-ahead publishing; holidays from many traditions with cultural review; editor review); WEB-033 stays partial | vitest 3,420 pass (calendar and seated and large-grip tests); tried in the browser for north, south and "not four seasons" |
+| Classified two items from existing evidence: print version and dated change log per card (PLAT-007), and hubs showing a card's variation by kind without copying text (PLAT-002) | PLAT-007, PLAT-002 → partial (version numbers, diff-made entries, variation IDs and review records) | docs only; read from `ActivityView.astro`, `activity-changes.test.ts` and the hub schema |
 
 ### Batch 15 (2026-11-16)
 
