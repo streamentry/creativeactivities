@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 186 | 157 | 407 |
+| S2 | 64 | 187 | 156 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **226** | **230** | **533** |
+| **All** | **77** | **227** | **229** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -240,6 +240,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Story chain" at `/games/story-chain/` (English only, built by a subagent and checked by me): a row that starts with one picture and grows by one picture at a time up to eight, while people take turns saying a sentence aloud (nothing typed or recorded); Add a picture, Take the last one off and Start a new chain, an "Anyone may pass" note, a one-page print sheet. No score, timer, streak or count; Rest from the shared frame | GAME-046 → partial (not tried with a group or on a real device; text not reviewed by a person; English only) | vitest 3,719 pass; `tsc` clean; build 16,537 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 12 of 12 game sheets; `check:capacity` 17,272 files (86.4%); `check:a11y` 0 failing of 165 (agent's run) |
+
+### Batch 28 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Sort together gains a "Larger targets" choice, off at the start (built by a subagent, checked by me): exactly two bins at least 40% of the board wide, pictures at least 96 px, at least 16 px between targets, and the strongest contrast the design tokens allow; toggling it keeps the round and says so in a live message. Measured in Chromium at 320 px: bins 46% wide, 24 px apart, board pictures 132 px, no sideways scroll | GAME-019 → partial (not tried with real tremor, low vision or a real device; not checked in Safari, Firefox or forced-colors mode; label in English only, other languages show English) | vitest 3,747 pass; `tsc` clean; build 16,538 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7; `check:a11y` 0 failing of 167 (agent's run) |
 
 ## What blocks the rest
 

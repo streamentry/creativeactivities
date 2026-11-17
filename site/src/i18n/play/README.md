@@ -40,8 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut` and `ui.storyChain` | Guidance, buttons, chips, live messages, labels, print headings |
-| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
