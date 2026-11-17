@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 176 | 167 | 407 |
+| S2 | 64 | 177 | 166 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **216** | **240** | **533** |
+| **All** | **77** | **217** | **239** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -197,6 +197,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | A plain-language report for editors. `pnpm review:plain` reads every card's steps and every hub's sentences and lists what an editor may want to look at: long steps, steps of more than one sentence and long hub sentences, with the mean reading grade as a prompt and not a score target. The spec's rule, that no step joins two actions with "and then", is now a test, and (the literal words only: about 33 steps chain actions with ", then" and are not caught) a second test stops any step from passing 60 words. Today: 413 steps in 53 cards, none breaks the rule, 5 steps have 25 words or more, 40 have more than one sentence, and 8 hub sentences have 30 words or more | TSA-008 → partial (the editor's checklist on every activity and hub is a person's work; the long steps and sentences listed have not been looked at; English only) | vitest 3,413 pass, 1 skipped as before (17 in `plain-language.test.ts`: words, sentences, syllables and the reading grade, the rule and its idiom, reading a card and a hub, and the real cards and hubs); `tsc` clean; `pnpm review:plain` on the real content runs with 0 steps breaking the rule |
+
+### Batch 20 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| The "no pressure" rule is measured. A test scans 243 files of the site's code and 68 files of its English copy for urgency phrases, guilt and run-counting phrases, a stopwatch, a countdown, a score table, a move count, lives, confetti, requests to interrupt (notifications, push, vibration, an icon badge) and emoji used as praise, and finds none (urgency, guilt and emoji praise are checked in the English copy as well as the code; stopwatch, countdown, score and interruption in the code only; the game strings, middleware and styles are not scanned). Every timer in the interface is listed with the reason it is not pressure, and a new one fails the test until it is listed. A planted violation of each kind fails the test | MET-035 → partial (no monthly report with counts; no place to complain about pressure and no same-week review; a clean scan does not show the experience is gentle) | vitest 3,405 pass, 1 skipped as before (9 in `guardrails.test.ts`, shown to fail on a planted urgency phrase, run-counting phrase, confetti, timer and escaped emoji); `tsc` clean; the test also passes with the paths library and the describe box (two waits after typing stops, listed) from the open PRs added |
 
 ## What blocks the rest
 
