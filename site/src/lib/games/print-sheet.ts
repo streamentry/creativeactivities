@@ -1,5 +1,6 @@
 import { picturesIn } from '../../data/pictures';
 import { createOddRound } from './odd-one-out';
+import { DICE_POOL } from './story-dice';
 import { createRng, sample, shuffle, type Rng } from './random';
 import { SHADOW_IDS, createShadowRound } from './shadow';
 import { createSort } from './sorting';
@@ -35,7 +36,7 @@ export type PrintSheet =
   /** Picture cards to cut out (Picture pairs: each picture twice). */
   | { layout: 'cards'; pictures: string[] }
   /** Rows of pictures, one choice per row. `shadow` darkens each row's target. */
-  | { layout: 'rows'; rows: PrintRow[]; shadow: boolean }
+  | { layout: 'rows'; rows: PrintRow[]; shadow: boolean; dice?: boolean }
   /** Cards to cut out and two baskets to sort them into. */
   | { layout: 'sort'; pictures: string[]; theme: string }
   /** One picture with dashed cut lines into `size` x `size` pieces, and a small guide. */
@@ -92,6 +93,13 @@ export function printSheet(slug: string): PrintSheet | null {
           return { choices: round.pictures };
         }),
       };
+    }
+    case 'story-dice': {
+      // Four rows of four dice, no picture twice, so the paper set is sixteen different pictures.
+      const rows: PrintRow[] = [];
+      const pool = shuffle(DICE_POOL, rng);
+      for (let i = 0; i < ROWS; i++) rows.push({ choices: pool.slice(i * 4, i * 4 + 4) });
+      return { layout: 'rows', rows, shadow: false, dice: true };
     }
     case 'sort-together': {
       const ids = (category: 'kitchen' | 'garden') => picturesIn(category).map((p) => p.id);

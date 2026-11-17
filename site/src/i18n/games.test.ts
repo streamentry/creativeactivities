@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { FOUR_TOGETHER_REVIEWED, ODD_ONE_OUT_REVIEWED, gameAvailable } from './games';
+import { FOUR_TOGETHER_REVIEWED, ODD_ONE_OUT_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -31,6 +31,11 @@ describe('which games a language offers', () => {
   it('offers Odd one out only where its categories were reviewed, English for now', () => {
     expect(ODD_ONE_OUT_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('odd-one-out', code), code).toBe(code === 'en');
+  });
+
+  it('offers Story dice in English only for now', () => {
+    expect(STORY_DICE_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('story-dice', code), code).toBe(code === 'en');
   });
 
   it('leaves the word search out when a translation lacks enough usable words', () => {

@@ -6,6 +6,7 @@ export type GameSlug =
   | 'shadow-match'
   | 'four-together'
   | 'odd-one-out'
+  | 'story-dice'
   | 'sort-together'
   | 'picture-puzzle'
   | 'finish-the-saying'
@@ -268,6 +269,51 @@ export const GAMES: readonly GameInfo[] = [
       FREE_FAQ,
     ],
     relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'story-dice',
+    name: 'Story dice',
+    seoTitle: 'Story Dice: a Picture Storytelling Game',
+    h1: 'Story Dice: Tell a Story with Pictures',
+    description:
+      'Three or four picture dice to tell a story with, in any order. No reading, no right answer, no timer and no score. Roll again, or pass. Free to play and print.',
+    short: 'Roll picture dice and tell a story together, in any order.',
+    cardPictures: ['lighthouse', 'umbrella', 'cat'],
+    stages: ['early', 'middle', 'late'],
+    players: '2 or more people, or an adult and a child',
+    printable: true,
+    intro:
+      'Three or four pictures are shown, like dice. Together, make up a story that uses them, in any order. A story can be one sentence or a few, and it can be silly or true to life. There is no right story, and nobody has to name or remember anything. Tap "Roll again" for new pictures, and anyone may pass.',
+    howTo: [
+      'Choose three or four dice. Three is the simplest.',
+      'Look at the pictures together. Tap one if you would like to begin with it.',
+      'Take turns telling a story that uses the pictures, in any order. One sentence each is plenty.',
+      'Anyone may pass. Tap "Pass" and the next person can start.',
+      'Tap "Roll again" for new pictures whenever you like, or tap Rest to stop.',
+    ],
+    tips: [
+      'Ask a question rather than waiting for an answer: "Where might the umbrella be going?"',
+      'Add to what the last person said instead of correcting it. Any story works.',
+      'A story can be about a real memory. A picture is a good start for one.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Do I need to read or name the pictures?',
+        a: 'No. The game works with the pictures alone. Players can point, describe or simply say what the picture reminds them of. Nobody is asked to name or recall anything.',
+      },
+      {
+        q: 'What if someone does not want to take a turn?',
+        a: 'They can pass at any time with no explanation. The game just waits, and the next person can start or you can roll again.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. A one-page sheet has sixteen different pictures in four rows. Pick a row, or cut the pictures out and draw some from a pile.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/conversation-games-for-all-ages', 'activities/ideas', 'caregiving/how-to-play-together'],
     featured: false,
   },
   {

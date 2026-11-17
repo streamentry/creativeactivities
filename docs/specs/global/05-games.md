@@ -37,7 +37,7 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 | GAME-022 | Four together | Group four pictures by theme; no timer, no pass or fail | Adults, including people with reading difficulty | Side by side or group | Yes | Yes | Category words per language; name needs a trademark check | P1 | S2 | partial. Website, English only (2026-11-15); per-language category review and trademark check pending |
 | GAME-023 | Word and picture pairs | Match a written label to its picture; label can be read aloud | Adults learning or relearning a language; children 6+ | Side by side | Yes | Yes | Labels per language, reviewed | P2 | S3 | new |
 | GAME-024 | Rhyme pictures | Match pictures that rhyme | Children 4 to 7 and early readers | Adult and child | Yes | Yes | Rhyme sets written per language, not translated | P3 | S3 | new |
-| GAME-025 | Story dice | Roll picture dice; tell the story aloud; no right answer | Mixed reading levels; families; groups | Group, or adult and child | Yes | Yes | None (pictures) | P1 | S2 | new |
+| GAME-025 | Story dice | Roll picture dice; tell the story aloud; no right answer | Mixed reading levels; families; groups | Group, or adult and child | Yes | Yes | None (pictures) | P1 | S2 | partial. English only: three or four picture dice at `/games/story-dice/`, Roll again, Pass, a one-page print sheet; not tried with a group, text and picture mix not reviewed by a person |
 
 ### Music and rhythm
 
