@@ -55,6 +55,22 @@ const TEMPLATES = [
   { name: 'game', path: '/games/picture-pairs/' },
   { name: 'today', path: '/today/' },
   { name: 'what-i-have', path: '/what-i-have/' },
+  // The pack builder twice: empty, and with a pack chosen so the printable cover and its supply checklist are on the page.
+  { name: 'pack-builder', path: '/activity/pack/' },
+  { name: 'pack-chosen', path: '/activity/pack/?cards=arrange-flowers-together,decorate-a-keepsake-box,wrap-a-small-gift', ready: '.pack-cover--built' },
+  // The paths: the list, and one path once its script has read the device (the weeks, the skip buttons and the counts).
+  { name: 'paths', path: '/paths/' },
+  { name: 'path', path: '/paths/quiet-weeks-at-the-table/', ready: '.path-plan[data-ready]' },
+  // The other path with a place kept on the device: a start at week 2, weeks 1 and 4 skipped, two activities tried.
+  {
+    name: 'path-state',
+    path: '/paths/making-across-generations/',
+    ready: '.path-plan[data-ready]',
+    storage: {
+      'ca-paths-v1': JSON.stringify({ 'making-across-generations': { start: 1, skipped: [0, 3] } }),
+      'ca-tried-activities-v1': JSON.stringify(['fold-a-paper-boat', 'write-a-letter-together']),
+    },
+  },
   { name: 'search', path: '/search/' },
   { name: 'seasons', path: '/seasons/' },
   { name: 'season', path: '/seasons/winter/' },
@@ -317,12 +333,26 @@ async function pool(items, limit, fn) {
 }
 
 /** One page at one width. Returns the printed line and the problems found. */
-async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, open, width, textScale }) {
+async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, storage, open, width, textScale }) {
   const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true });
+  // A page that behaves differently once the device holds something is checked in that state.
+  if (storage) {
+    await context.addInitScript((entries) => {
+      for (const [key, value] of Object.entries(entries)) {
+        try {
+          localStorage.setItem(key, value);
+        } catch {
+          // A browser that refuses storage is the page's other state, checked by the first template.
+        }
+      }
+    }, storage);
+  }
   const page = await context.newPage();
   try {
     const response = await page.goto(base + path, { waitUntil: 'networkidle', timeout: 90000 });
     await page.evaluate(() => document.fonts.ready);
+    // A page whose content appears once its script has run names what to wait for.
+    if (ready) await page.waitForSelector(ready, { timeout: 10000 });
     if (textScale) await page.addStyleTag({ content: `html { font-size: ${textScale} !important; }` });
     if (open) {
       // A state to check: press this control and wait for what it opens, as a person would.

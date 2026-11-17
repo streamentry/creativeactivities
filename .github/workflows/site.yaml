@@ -55,10 +55,14 @@ jobs:
         run: pnpm exec node scripts/check-site.mjs
       - name: Page weight budget (WEB-074)
         run: pnpm exec node scripts/check-budget.mjs
+      - name: Hosting capacity, files against the host's limit (PLAT-015)
+        run: pnpm exec node scripts/check-capacity.mjs
       - name: Install Playwright Chromium for accessibility checks
         run: pnpm exec playwright install --with-deps chromium
       - name: Accessibility checks (axe, reflow, zoom, motion, Rest on every game)
         run: pnpm check:a11y
+      - name: Print check (every activity card is one two-sided sheet on A4 and US Letter)
+        run: pnpm check:print
       - name: Group view (opens on every card, walks every step, fits eight screen sizes)
         run: pnpm check:group
       - name: Keep the checked build for the deploy job

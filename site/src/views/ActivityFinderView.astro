@@ -7,6 +7,7 @@ import '../styles/activities.css';
 import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ActivityCard from '../components/ActivityCard.astro';
+import { DescribeSituation } from '../tools/DescribeSituation';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { FINDER_SETTINGS } from '../lib/finder-state';
 import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
@@ -79,6 +80,14 @@ const lowerStatic = (() => {
         one-to-one version for each day.
       </p>
       <p>
+        Want one printout of several activities? <a href="/activity/pack/">Build your own printable pack</a> with a supply
+        checklist.
+      </p>
+      <p>
+        Want a gentle plan for a month? <a href="/paths/">Try a four-week path</a>, with a place to start and a skip for any
+        week.
+      </p>
+      <p>
         Want to use what is already in the house? <a href="/what-i-have/">Tick what you have</a> and see the activities
         that need only that.
       </p>
@@ -90,6 +99,8 @@ const lowerStatic = (() => {
       <p class="muted">Kept on this device only. Clearing this site's data removes them.</p>
       <ul class="activity-list" id="saved-list"></ul>
     </section>
+
+    <DescribeSituation client:load />
 
     <form class="finder" id="finder" aria-label="Find an activity">
       <fieldset>

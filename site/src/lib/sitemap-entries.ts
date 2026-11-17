@@ -12,14 +12,16 @@ import { SITE } from './site';
 
 const EVERY = PUBLISHED.map((l) => l.code);
 
-// Tool pages that ask not to be indexed (WEB-003): left out of the sitemap, as a noindex page must be.
-const NOINDEX_PAGES: ReadonlySet<string> = new Set(['/search/']);
+// Tool pages that ask not to be indexed (WEB-003, WEB-017, WEB-032): left out of the sitemap, as a noindex page must be.
+const NOINDEX_PAGES: ReadonlySet<string> = new Set(['/search/', '/activity/pack/', '/paths/']);
 
 // Every non-dynamic page in src/pages, so new pages are listed automatically.
 const STATIC_PAGES = Object.keys(import.meta.glob('../pages/**/*.astro'))
   .map((file) => file.replace(/^\.\.\/pages/, ''))
-  .filter((file) => !file.includes('[') && file !== '/404.astro' && !NOINDEX_PAGES.has(file.replace(/\.astro$/, '/')))
-  .map((file) => file.replace(/index\.astro$/, '').replace(/\.astro$/, '/'));
+  .filter((file) => !file.includes('[') && file !== '/404.astro')
+  .map((file) => file.replace(/index\.astro$/, '').replace(/\.astro$/, '/'))
+  // An index page is its folder's address ("/paths/"), so compare the address, not the file name.
+  .filter((path) => !NOINDEX_PAGES.has(path));
 
 // Pages that also exist under /<language>/ (src/pages/[lang]/*.astro).
 const LOCALIZED = new Set(
