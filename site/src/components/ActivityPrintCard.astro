@@ -11,12 +11,19 @@ interface Props {
   activity: CollectionEntry<'activityCards'>;
   /** Which variation to print; "easier" unless the pack is about one need. */
   variation?: string;
+  /**
+   * Print every variation, each in its own block, with only `variation` showing. The pack builder (WEB-017)
+   * uses it so one page can print any version; the fixed packs print the one they name.
+   */
+  allVariations?: boolean;
 }
-const { activity, variation = 'easier' } = Astro.props;
+const { activity, variation = 'easier', allVariations = false } = Astro.props;
 const d = activity.data;
 const path = `/activity/${activity.id}/`;
 const easier = d.variations.find((v) => v.kind === variation) ?? d.variations[0];
 const id = `card-${activity.id}`;
+// The date of the card's last change: the same version the card's own page and its single print show (WEB-016).
+const version = d.updated.toISOString().slice(0, 10);
 const resultImages = d.images.filter((image) => image.step === undefined);
 const stepImages = (step: number) => d.images.filter((image) => image.step === step);
 ---
@@ -34,10 +41,23 @@ const stepImages = (step: number) => d.images.filter((image) => image.step === s
       <h3>What you need</h3>
       <ul class="activity-list">{d.materials.map((m) => <li>{m}</li>)}</ul>
     </div>
-    <div>
-      <h3>{VARIATION_LABELS[easier.kind]}</h3>
-      <p>{easier.text}</p>
-    </div>
+    {
+      allVariations ? (
+        <div>
+          {d.variations.map((v) => (
+            <div data-variation={v.kind} hidden={v.kind !== variation}>
+              <h3>{VARIATION_LABELS[v.kind]}</h3>
+              <p>{v.text}</p>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div>
+          <h3>{VARIATION_LABELS[easier.kind]}</h3>
+          <p>{easier.text}</p>
+        </div>
+      )
+    }
   </div>
   <h3>What to do</h3>
   {resultImages.map((image) => <ActivityImage image={image} />)}
@@ -66,7 +86,7 @@ const stepImages = (step: number) => d.images.filter((image) => image.step === s
     )
   }
   <p class="pack-card__source">
-    More versions and safety notes: {SITE.domain}{path}. Report a safety problem: {SITE.domain}/corrections/#report-safety. Corrections: {SITE.domain}/corrections/
+    Version {version}. More versions and safety notes: {SITE.domain}{path}. Report a safety problem: {SITE.domain}/corrections/#report-safety. Corrections: {SITE.domain}/corrections/
   </p>
 </section>
 

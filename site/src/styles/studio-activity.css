@@ -31,6 +31,15 @@
   background: var(--studio-sheet-under-alt);
   transform: rotate(0.9deg);
 }
+/* The sheet behind the card is tilted, so the taller the head, the further its corner reaches sideways. On a narrow
+   screen the head is tall (an extra row of buttons is enough) and the sheet reached a pixel or two past the page, which
+   showed as a sideways scroll. A gentler tilt and a slimmer edge keep it inside the page's side padding there. */
+@media (max-width: 30rem) {
+  .activity-page .activity-head::after {
+    inset-inline-end: -4px;
+    transform: rotate(0.45deg);
+  }
+}
 /* The torn top edge, cut from the same paper as the sheet it belongs to. */
 .activity-page .activity-head::before,
 .activity-page .activity-need::before {

@@ -1072,6 +1072,7 @@
   }
   .sheet-bingo img {
     width: 100%;
+    height: auto; /* the picture's size attributes give its shape; the sheet sets its size */
     aspect-ratio: 1;
   }
   .sheet-cards {
@@ -1095,6 +1096,7 @@
   }
   .sheet-cards img {
     width: 30mm;
+    height: auto;
   }
   .sheet-color svg {
     width: 100%;

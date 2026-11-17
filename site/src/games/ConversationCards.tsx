@@ -123,7 +123,7 @@ export default function ConversationCards(props: PlayProps) {
         <div className="sheet-cards">
           {cards.map((c, i) => (
             <article key={i}>
-              <img src={pictureUrl(c.picture)} alt="" />
+              <img src={pictureUrl(c.picture)} alt="" width={120} height={120} />
               <span>{c.prompt}</span>
             </article>
           ))}

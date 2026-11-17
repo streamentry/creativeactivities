@@ -86,11 +86,12 @@ Rules that apply to every type:
 
 ### CNT-006 · Path (weekly plan or multi-week sequence)
 
-- **Priority P1 · Phase S2 · Status new**.
+- **Priority P1 · Phase S2 · Status partial**.
 - **Why:** a free one-page weekly plan with three to five activities is a low-commitment entry point that needs no account ([R2 §3, pattern 4](research/02-parenting-kids-platforms.md#3-feature-patterns-worth-adopting)).
 - **Anatomy:** a title for the situation; one line on time per day; a row per day or per activity; links to the cards; a blank row for "what we did"; a closing line that says the path is finished and that stopping is fine.
 - **Rules:** no streaks, no "you missed a day" message, no email sign-up needed, and no paid unlock for the first week. A path ends.
 - **Count rule:** two paths in S2 (one for older adults, one intergenerational); more only if the S2 test shows completion without pressure.
+- **Evidence (2026-11-17):** two paths are published at `/paths/` (one for a caregiver and an older adult, one for a child and an older relative), each four weeks long and each ending. A page has a title, a time line for each week worked out from its cards (the least of their lows to the most of their highs), a row for each activity with a box to tick on paper and a link, a blank ruled line for "what we did" on paper, and a closing line that says the path is finished, that stopping here is fine and that it can be started again from any week (`site/src/data/paths.ts`, `site/src/tools/PathPlan.tsx`). A test scans the words of the paths, the page and its source for streak, schedule and debt words, none sends or asks for an email, and nothing is locked. Not done: the time is for a week and not for each day; the S2 test that shows whether completion happens without pressure; and the rest of the work is in [WEB-032](03-features-web.md#web-032--paths).
 
 ### CNT-007 · Printable template
 
@@ -136,7 +137,8 @@ Rules that apply to every type:
 
 ### CNT-013 · Seasonal calendar and collections
 
-- **Priority P2 · Phase S2 · Status new**.
+- **Priority P2 · Phase S2 · Status partial**.
+- **Evidence (2026-11-16):** four season pages (`/seasons/spring/` to `/winter/`) and a calendar on `/seasons/` that shows the year as twelve months for the northern or southern half of the world, with this month marked (WEB-033). No holiday is assumed. Each season's own cards include at least one with a seated version and one with a large-grip version (tested in `site/src/data/seasons.test.ts`). After a season the page stays where it is and links to the seasonal hub and the other seasons. Not done: publishing six weeks ahead (the pages are not tied to a release date); holidays from many traditions with cultural review (none is included; the seasonal hub is written for any celebration); an editor's review of the collections.
 - **Why:** time-bound search and planning. R5 cluster 6 (holiday crafts for seniors, seated and low-dexterity) is the first case.
 - **Rules:** published at least six weeks before the season it serves; each collection has seated and low-dexterity versions; holidays from many traditions are included with cultural review (see [07](07-pillar-crafting.md) for the seasonal category and [13](13-localization.md)); after the season, the page stays at its URL and points to the evergreen hub.
 

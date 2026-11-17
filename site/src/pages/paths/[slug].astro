@@ -1,0 +1,10 @@
+---
+import PathView from '../../views/PathView.astro';
+import { PATHS } from '../../data/paths';
+
+export function getStaticPaths() {
+  return PATHS.map((path) => ({ params: { slug: path.id }, props: { path } }));
+}
+const { path } = Astro.props;
+---
+<PathView path={path} />
