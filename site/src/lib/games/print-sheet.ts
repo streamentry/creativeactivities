@@ -1,6 +1,7 @@
 import { MATCH_COLORS } from '../../data/color-match';
 import { picturesIn } from '../../data/pictures';
 import { colorRoundFor } from './color-match';
+import { HALVES_PRINT_COUNT, createHalvesRound } from './halves-match';
 import { createOddRound } from './odd-one-out';
 import { DICE_POOL } from './story-dice';
 import { createRng, sample, shuffle, type Rng } from './random';
@@ -47,7 +48,9 @@ export type PrintSheet =
   /** One picture with dashed cut lines into `size` x `size` pieces, and a small guide. */
   | { layout: 'puzzle'; picture: string; size: 2 }
   /** Eight different pictures in a chain, read left to right (Story chain). */
-  | { layout: 'chain'; pictures: string[] };
+  | { layout: 'chain'; pictures: string[] }
+  /** Halves match: the left halves top to bottom, and the right halves in another order, to join with a line. */
+  | { layout: 'halves'; pictures: string[]; rightOrder: string[] };
 
 const ROWS = 4;
 
@@ -114,6 +117,11 @@ export function printSheet(slug: string): PrintSheet | null {
       }
       return { layout: 'rows', rows, shadow: false };
     }
+    case 'halves-match': {
+      // Three pictures from three different categories; no right half is level with its own left half.
+      const round = createHalvesRound(HALVES_PRINT_COUNT, rng);
+      return { layout: 'halves', pictures: round.pictures, rightOrder: round.rightOrder };
+    }
     case 'story-chain':
       return { layout: 'chain', pictures: [...buildChain(rng).pictures] };
     case 'story-dice': {
@@ -141,6 +149,8 @@ export function sheetPictures(sheet: PrintSheet): string[] {
     case 'cards':
     case 'sort':
     case 'chain':
+      return sheet.pictures;
+    case 'halves':
       return sheet.pictures;
     case 'rows':
       return sheet.rows.flatMap((r) => (r.target ? [r.target, ...r.choices] : r.choices));
