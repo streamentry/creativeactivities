@@ -97,7 +97,8 @@ describe('how full the build is (PLAT-015)', () => {
     const result = assess(summarize(build(100, 100)));
     expect(result.perLocalePage).toBe(100);
     expect(result.headroom).toBe(LIMITS.filesFree - 10004);
-    expect(result.pageTypesInHeadroom).toBe(Math.floor(result.headroom / 100));
+    // Counted to the point where the check fails (98%), not to the plan's hard limit.
+    expect(result.pageTypesInHeadroom).toBe(Math.floor((LIMITS.filesFree * 0.98 - 10004) / 100));
   });
 
   it('projects ten times the pages and says whether that fits either plan', () => {

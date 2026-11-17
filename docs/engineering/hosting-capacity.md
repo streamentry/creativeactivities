@@ -36,7 +36,7 @@ one) and takes `--plan=paid` to measure against the Paid limit. Check the page a
 
 - The build is at **86% of the Free limit**: 2,746 files of headroom.
 - Almost all files (16,504 of 17,254) are in the language folders. A page type that exists in every language adds about 189 files, so the
-  headroom is about 14 such page types. A page in English only adds one file (the four-week paths and the pack builder add
+  headroom is about 12 such page types (counted to the point where the check fails, 98%). A page in English only adds one file (the four-week paths and the pack builder add
   a few).
 - At ten times the pages, the planning multiple in PLAT-015, the build would hold about 166,000 files. That is over the
   Paid limit as well.

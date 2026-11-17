@@ -32,7 +32,12 @@ function main() {
     console.error('dist/ is missing. Run `pnpm build` first.');
     process.exit(1);
   }
-  const plan = process.argv.includes('--plan=paid') ? 'paid' : 'free';
+  const asked = process.argv.find((a) => a.startsWith('--plan='))?.slice('--plan='.length);
+  if (asked !== undefined && asked !== 'paid' && asked !== 'free') {
+    console.error(`Unknown plan "${asked}": use --plan=free or --plan=paid.`);
+    process.exit(2);
+  }
+  const plan = asked === 'paid' ? 'paid' : 'free';
   const summary = summarize(listFiles(DIST));
   const result = assess(summary, { plan });
   for (const line of describe(summary, result)) console.log(line);

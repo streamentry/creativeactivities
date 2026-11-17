@@ -81,7 +81,8 @@ export function assess(summary, { plan = 'free', limits = LIMITS } = {}) {
     share,
     headroom,
     // A page type that exists in every language adds one file per language.
-    pageTypesInHeadroom: Math.max(0, Math.floor(headroom / perLocalePage)),
+    // Counted to the level where the check fails, not to the plan's hard limit.
+    pageTypesInHeadroom: Math.max(0, Math.floor((limit * FAIL_AT - summary.files) / perLocalePage)),
     perLocalePage,
     projected,
     projectedFitsFree: projected <= limits.filesFree,
