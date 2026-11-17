@@ -1,0 +1,63 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/activity-cards.css';
+import '../../styles/activities.css';
+import '../../styles/studio-editorial.css';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { PATHS } from '../../data/paths';
+import { breadcrumbs } from '../../lib/schema';
+
+const crumbs = [{ href: '/paths/', label: 'Paths' }];
+---
+<BaseLayout
+  title="Four-Week Activity Paths"
+  description="Four-week plans of simple activities with a place to start and a skip for any week. No schedule and nothing to keep up. Free to print."
+  image="/og/activities.png"
+  jsonLd={[breadcrumbs(crumbs)]}
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container hub">
+    <header class="page-head">
+      <p class="eyebrow">Paths</p>
+      <h1>Four-week paths</h1>
+      <p class="lede">
+        A path is four weeks of activities with a place to start and a skip for any week. There is no schedule to keep,
+        and each week offers more than one way in.
+      </p>
+    </header>
+
+    <ul class="activity-list paths-list">
+      {
+        PATHS.map((path) => (
+          <li class="paths-list__item">
+            <h2><a href={`/paths/${path.id}/`}>{path.title}</a></h2>
+            <p class="muted"><strong>For:</strong> {path.who}</p>
+            <p>{path.purpose}</p>
+            <p>{path.notFor}</p>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p><a href="/activity/">Find a single activity instead</a></p>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .paths-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: var(--space-lg);
+  }
+  .paths-list__item {
+    padding: var(--space-md) var(--space-lg);
+    background: var(--gm-surface);
+    border-radius: var(--radius-sm);
+    border: 2px solid var(--gm-outline-variant, var(--gm-outline));
+  }
+  .paths-list__item h2 {
+    margin-top: 0;
+  }
+</style>

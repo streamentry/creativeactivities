@@ -3,6 +3,7 @@
 // image alt text and claims wording. Exits 1 on any error.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { postingForm, captchaLoaded } from './post-rules.mjs';
 import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
@@ -181,6 +182,10 @@ for (const file of htmlFiles) {
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
   // TSA-022, WEB-035: nothing plays by itself. Words about autoplay in advice are fine; media elements and frames are not.
   if (/<(?:video|audio)\b[^>]*\sautoplay\b/i.test(html) || /\sallow="[^"]*\bautoplay\b/i.test(html)) err(rel, 'media is set to autoplay (TSA-022)');
+  // TSA-044: no form posts anywhere (none sets an action or method) and no captcha service is loaded. A form that posts
+  // data would need the controls in that item first: server checks, a rate limit, a honeypot and a test with a screen reader.
+  if (postingForm(html)) err(rel, 'a form sets an action or method, but the site posts no form to a server (TSA-044)');
+  if (captchaLoaded(html)) err(rel, 'loads a captcha service (TSA-044)');
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
@@ -425,6 +430,9 @@ for (const [page, phrases] of Object.entries(LEGAL_PAGES)) {
 // Trust routes on every template (WEB-058, TSA-047, TSA-027, TSA-031). The footer carries the
 // problem report on every page; each activity and printed card carries the safety route; a card that
 // opts in to the crisis route shows it on its page and on its print pages.
+// The footer line under a printed card (ActivityPrintCard.astro) and the version date it must begin with.
+const PRINTED_CARD_SOURCE = /<p class="pack-card__source"[^>]*>[^<]*<\/p>/g;
+const PRINTED_VERSION = /Version \d{4}-\d{2}-\d{2}\./;
 const crisisCards = new Set(
   readdirSync(join(SRC, 'content/activity-cards'))
     .filter((f) => f.endsWith('.md'))
@@ -455,7 +463,35 @@ if (existsSync(activityDir)) {
       for (const id of crisisCards) {
         if (html.includes(`/activity/${id}/`) && !html.includes('data-crisis-route')) err(`activity/packs/${pack}/`, `prints ${id} without the crisis route (TSA-027)`);
       }
+      for (const source of html.match(PRINTED_CARD_SOURCE) ?? []) {
+        if (!PRINTED_VERSION.test(source)) err(`activity/packs/${pack}/`, 'a printed card shows no version date (WEB-016)');
+      }
     }
+  }
+  // The pack builder (WEB-017) prints any cards the visitor picks, so every card on its page must be complete: its
+  // version date, and the crisis route when the card opts in to it.
+  const builderFile = join(activityDir, 'pack', 'index.html');
+  if (existsSync(builderFile)) {
+    const html = readFileSync(builderFile, 'utf8');
+    const sources = html.match(PRINTED_CARD_SOURCE) ?? [];
+    if (sources.length === 0) err('activity/pack/', 'the pack builder has no cards on the page (WEB-017)');
+    for (const source of sources) {
+      if (!PRINTED_VERSION.test(source)) err('activity/pack/', 'a printed card shows no version date (WEB-016)');
+    }
+    for (const block of html.split('data-pack-card="').slice(1)) {
+      const id = block.slice(0, block.indexOf('"'));
+      const card = block.slice(0, block.indexOf('</section>'));
+      if (crisisCards.has(id) && !card.includes('data-crisis-route')) err('activity/pack/', `prints ${id} without the crisis route (TSA-027)`);
+    }
+  }
+}
+// A path is printed like a card, so it carries the scope line and the stop-and-switch note (WEB-032, TSA-025, TSA-026).
+const pathsDir = join(DIST, 'paths');
+if (existsSync(pathsDir)) {
+  for (const id of readdirSync(pathsDir).filter((name) => existsSync(join(pathsDir, name, 'index.html')))) {
+    const html = readFileSync(join(pathsDir, id, 'index.html'), 'utf8');
+    if (!html.includes(CARD_SCOPE_LINE)) err(`paths/${id}/`, 'path is missing its scope line (TSA-026)');
+    if (!html.includes(PAUSE_LINE)) err(`paths/${id}/`, 'path is missing the stop-and-switch note (TSA-025)');
   }
 }
 if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editorial-policy/index.html').includes('id="evidence"')) {

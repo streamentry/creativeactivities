@@ -4,7 +4,9 @@ import {
   currentSeason,
   hemisphereFromLocale,
   isSeasonId,
+  MONTH_NAMES,
   regionOf,
+  seasonCalendar,
   seasonFor,
 } from './seasons';
 
@@ -82,5 +84,25 @@ describe('isSeasonId', () => {
     for (const id of SEASON_IDS) expect(isSeasonId(id)).toBe(true);
     expect(isSeasonId('monsoon')).toBe(false);
     expect(isSeasonId('')).toBe(false);
+  });
+});
+
+describe('the year as a calendar (CNT-013)', () => {
+  it('lists twelve months in order, each with the season for that month', () => {
+    const north = seasonCalendar('north');
+    expect(north.map((m) => m.name)).toEqual([...MONTH_NAMES]);
+    expect(north.map((m) => m.month)).toEqual([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]);
+    for (const m of north) expect(m.season).toBe(seasonFor(m.month, 'north'));
+  });
+
+  it('has the opposite season in the south for every month', () => {
+    const opposite = { spring: 'autumn', summer: 'winter', autumn: 'spring', winter: 'summer' } as const;
+    for (const [i, m] of seasonCalendar('south').entries()) expect(m.season).toBe(opposite[seasonCalendar('north')[i]!.season]);
+  });
+
+  it('gives every season exactly three months in each half', () => {
+    for (const h of ['north', 'south'] as const) {
+      for (const id of SEASON_IDS) expect(seasonCalendar(h).filter((m) => m.season === id)).toHaveLength(3);
+    }
   });
 });

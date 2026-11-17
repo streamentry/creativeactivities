@@ -574,6 +574,47 @@
   margin: 0;
 }
 
+/* Big picture (GAME-051): one picture and its prompt large enough to share across a room, for a group on a tablet or a
+   TV. The person leading still moves on; nothing changes by itself. */
+.talk-card--big {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+/* The frame is narrow for the small cards; a big picture uses the width of the page (where :has() is not known, the
+   frame stays narrow and the picture is still larger than the small one). */
+.game:has(.talk-card--big) {
+  max-width: none;
+}
+.talk-card--big img {
+  width: min(45vh, 100%);
+  max-width: none;
+}
+.talk-card--big .talk-card__theme {
+  font-size: var(--text-title-lg);
+}
+.talk-card--big .talk-card__prompt {
+  font-size: var(--text-hero);
+  line-height: 1.2;
+  overflow-wrap: anywhere; /* a long word in another language wraps rather than widening the page */
+}
+.talk-card__pass {
+  margin: var(--space-md) 0 0;
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-title-lg);
+}
+@media (min-width: 900px) and (orientation: landscape) {
+  .talk-card--big {
+    grid-template-columns: auto minmax(0, 1fr);
+    justify-items: stretch;
+    text-align: start;
+  }
+  .talk-card--big img {
+    width: min(55vh, 40vw);
+    max-width: 100%;
+  }
+}
+
 /* Word search */
 .ws {
   display: grid;
@@ -1031,6 +1072,7 @@
   }
   .sheet-bingo img {
     width: 100%;
+    height: auto; /* the picture's size attributes give its shape; the sheet sets its size */
     aspect-ratio: 1;
   }
   .sheet-cards {
@@ -1054,6 +1096,7 @@
   }
   .sheet-cards img {
     width: 30mm;
+    height: auto;
   }
   .sheet-color svg {
     width: 100%;

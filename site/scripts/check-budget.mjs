@@ -26,7 +26,9 @@ const TOP = Number(process.argv.find((a) => a.startsWith('--top='))?.slice(6) ??
 /** Page type from its path under dist/ (locale prefixes such as `de/` are allowed). */
 export function classify(relPath) {
   if (/^(?:[a-z]{2,3}(?:-[a-z]{2,4})?\/)?index\.html$/.test(relPath)) return 'landing';
-  if (/^(?:[a-z-]{2,7}\/)?(?:activity\/index\.html$|games\/|today\/)/.test(relPath)) return 'app';
+  // App pages hydrate a tool that needs styles of its own: the finder, the games, Today, the printable pack builder, which
+  // carries all the cards as well as its pickers, and the four-week paths, which keep a place on the device.
+  if (/^(?:[a-z-]{2,7}\/)?(?:activity\/index\.html$|activity\/pack\/|games\/|today\/|paths\/)/.test(relPath)) return 'app';
   return 'microsite';
 }
 

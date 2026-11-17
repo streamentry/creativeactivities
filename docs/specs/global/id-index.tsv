@@ -1,6 +1,6 @@
 id	priority	phase	status	file	title
 WEB-001	P0	S1	exists	03-features-web.md	Activity finder
-WEB-002	P1	S2	new	03-features-web.md	Describe your situation
+WEB-002	P1	S2	partial	03-features-web.md	Describe your situation
 WEB-003	P1	S2	partial	03-features-web.md	Site search with care and family language
 WEB-004	P1	S2	exists	03-features-web.md	Why it fits, and a lower-effort option
 WEB-005	P1	S2	exists	03-features-web.md	Finder state in the URL
@@ -15,7 +15,7 @@ WEB-013	P1	S2	exists	03-features-web.md	Variation chips with an in-page switch
 WEB-014	P0	S1	partial	03-features-web.md	One-page printable card
 WEB-015	P0	S2	partial	03-features-web.md	No-ink, no-URL print version
 WEB-016	P0	S2	exists	03-features-web.md	Versioned prints
-WEB-017	P1	S2	new	03-features-web.md	Printable pack builder
+WEB-017	P1	S2	partial	03-features-web.md	Printable pack builder
 WEB-018	P1	S2	partial	03-features-web.md	Large-print editions
 WEB-019	P1	S2	new	03-features-web.md	Picture-led card
 WEB-020	P1	S2	new	03-features-web.md	Read-aloud
@@ -30,7 +30,7 @@ WEB-028	P1	S2	partial	03-features-web.md	Saved collections on the device
 WEB-029	P0	S2	exists	03-features-web.md	Data control on the device
 WEB-030	P2	S3	new	03-features-web.md	Account-optional sync
 WEB-031	P1	S2	partial	03-features-web.md	Weekly plan, printable
-WEB-032	P1	S2	new	03-features-web.md	Paths
+WEB-032	P1	S2	partial	03-features-web.md	Paths
 WEB-033	P2	S2	partial	03-features-web.md	Seasonal hubs and a "this season" calendar
 WEB-034	P1	S2	partial	03-features-web.md	Occasion hubs
 WEB-035	P0	S1	exists	03-features-web.md	Large text, high contrast and reduced motion
@@ -44,7 +44,7 @@ WEB-042	P2	S2	new	03-features-web.md	Display options: dark theme and reading set
 WEB-043	P1	S3	partial	03-features-web.md	Right-to-left and long-text layouts
 WEB-044	P1	S2	partial	03-features-web.md	Partner page with permission rules
 WEB-045	P1	S2	partial	03-features-web.md	Care-home weekly programme sheet
-WEB-046	P1	S2	new	03-features-web.md	Group mode for facilitators
+WEB-046	P1	S2	partial	03-features-web.md	Group mode for facilitators
 WEB-047	P2	S3	new	03-features-web.md	Educator pages
 WEB-048	P2	S3	new	03-features-web.md	Referrer handout for health and social professionals
 WEB-049	P3	S4	new	03-features-web.md	Organization accounts
@@ -153,8 +153,8 @@ GAME-047	P2	S2	new	05-games.md	Find together
 GAME-048	P2	S2	new	05-games.md	Build-it-together grid
 GAME-049	P2	S2	new	05-games.md	Seated toss tally
 GAME-011	P0	S2	exists	05-games.md	Picture bingo
-GAME-050	P1	S2	new	05-games.md	Picture passing circle
-GAME-051	P1	S2	new	05-games.md	Big-screen picture talk
+GAME-050	P1	S2	partial	05-games.md	Picture passing circle
+GAME-051	P1	S2	partial	05-games.md	Big-screen picture talk
 GAME-052	P2	S2	new	05-games.md	Group coloring wall
 GAME-053	P2	S3	new	05-games.md	Sticker scene builder
 GAME-054	P2	S3	new	05-games.md	Big shapes and colors
@@ -176,14 +176,14 @@ CNT-002	P0	S1	exists	06-content-library.md	Variation
 CNT-003	P0	S1	exists	06-content-library.md	Search hub
 CNT-004	P1	S2	exists	06-content-library.md	Guide
 CNT-005	P1	S2	exists	06-content-library.md	Printable pack
-CNT-006	P1	S2	new	06-content-library.md	Path (weekly plan or multi-week sequence)
+CNT-006	P1	S2	partial	06-content-library.md	Path (weekly plan or multi-week sequence)
 CNT-007	P1	S2	partial	06-content-library.md	Printable template
 CNT-008	P2	S2	partial	06-content-library.md	Coloring page
 CNT-009	P1	S2	new	06-content-library.md	Step photos and illustrations
 CNT-010	P2	S2	new	06-content-library.md	Short video
 CNT-011	P2	S2	new	06-content-library.md	Audio read-aloud
 CNT-012	P1	S2	partial	06-content-library.md	Glossary
-CNT-013	P2	S2	new	06-content-library.md	Seasonal calendar and collections
+CNT-013	P2	S2	partial	06-content-library.md	Seasonal calendar and collections
 CNT-014	P2	S2	new	06-content-library.md	Educator and care-setting programme
 CNT-015	P1	S2	exists	06-content-library.md	FAQ
 CNT-030	P0	S2	new	06-content-library.md	Editorial pipeline
@@ -364,11 +364,11 @@ L10N-010	P0	S2	partial	13-localization.md	Translation memory, term base and ARB 
 L10N-011	P0	S2	new	13-localization.md	Activity cards localized before guides
 L10N-012	P1	S2	new	13-localization.md	Cultural adaptation register
 L10N-013	P1	S2	new	13-localization.md	Holidays, faith and food defaults
-L10N-014	P1	S2	new	13-localization.md	Units, paper sizes and printing
+L10N-014	P1	S2	partial	13-localization.md	Units, paper sizes and printing
 L10N-015	P1	S2	new	13-localization.md	Family structures and forms of address
 L10N-016	P1	S2	partial	13-localization.md	Right-to-left layout
 L10N-017	P1	S2	partial	13-localization.md	Scripts and font coverage
-L10N-018	P1	S2	new	13-localization.md	Text length and 200% layout per language
+L10N-018	P1	S2	partial	13-localization.md	Text length and 200% layout per language
 L10N-019	P1	S2	partial	13-localization.md	Store localization mechanics
 L10N-020	P1	S2	partial	13-localization.md	Indexing and hreflang only for reviewed locales
 L10N-021	P1	S2	partial	13-localization.md	Stale translations after English changes
@@ -391,7 +391,7 @@ TSA-004	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Keyboard, focus a
 TSA-005	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Color, contrast and text alternatives
 TSA-006	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Flashing and motion in games
 TSA-007	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Accessibility statement and feedback route
-TSA-008	P1	S2	new	14-trust-safety-accessibility-privacy.md	Plain-language standard
+TSA-008	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Plain-language standard
 TSA-009	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Accessibility regression tests in CI
 TSA-010	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No accounts for the core product
 TSA-011	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
@@ -427,7 +427,7 @@ TSA-040	P1	S2	new	14-trust-safety-accessibility-privacy.md	Platform law check fo
 TSA-041	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Security headers and content security policy
 TSA-042	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Third-party scripts, fonts and subresource integrity
 TSA-043	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Secrets and dependencies
-TSA-044	P1	S2	new	14-trust-safety-accessibility-privacy.md	Forms: anti-abuse without heavy CAPTCHA
+TSA-044	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Forms: anti-abuse without heavy CAPTCHA
 TSA-045	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Response to an unsafe or wrong activity
 TSA-046	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Privacy and security breach process
 TSA-047	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Safety report route
@@ -435,22 +435,22 @@ TSA-048	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Transparency pages
 TSA-049	P1	S2	new	14-trust-safety-accessibility-privacy.md	Sponsorship and partner disclosure
 TSA-050	P3	S4	new	14-trust-safety-accessibility-privacy.md	Physical kit product safety, if sold
 PLAT-001	P0	S2	partial	15-platform-data-architecture.md	Stable entity IDs separate from slugs
-PLAT-002	P1	S2	new	15-platform-data-architecture.md	Variations as first-class records
+PLAT-002	P1	S2	partial	15-platform-data-architecture.md	Variations as first-class records
 PLAT-003	P0	S2	partial	15-platform-data-architecture.md	Media asset records and rights log
 PLAT-004	P0	S2	partial	15-platform-data-architecture.md	Translation records with source hashes
 PLAT-005	P0	S2	partial	15-platform-data-architecture.md	Review records that cannot be faked
 PLAT-006	P1	S2	partial	15-platform-data-architecture.md	Source records and claim links
-PLAT-007	P1	S2	new	15-platform-data-architecture.md	Versions, change log and corrections
+PLAT-007	P1	S2	partial	15-platform-data-architecture.md	Versions, change log and corrections
 PLAT-008	P1	S2	partial	15-platform-data-architecture.md	URL policy, redirects and canonical registry
 PLAT-009	P0	S2	exists	15-platform-data-architecture.md	Git-first editorial flow
 PLAT-010	P1	S2	new	15-platform-data-architecture.md	Editorial states and review queue
 PLAT-011	P0	S2	partial	15-platform-data-architecture.md	One validation command for every content type
-PLAT-012	P1	S2	new	15-platform-data-architecture.md	Staleness and re-review queue
+PLAT-012	P1	S2	partial	15-platform-data-architecture.md	Staleness and re-review queue
 PLAT-013	P0	S2	new	15-platform-data-architecture.md	Partitioned, incremental builds
 PLAT-014	P0	S2	partial	15-platform-data-architecture.md	Publishing state per (entity, locale)
-PLAT-015	P0	S2	new	15-platform-data-architecture.md	Hosting capacity check at 10× the page count
+PLAT-015	P0	S2	partial	15-platform-data-architecture.md	Hosting capacity check at 10× the page count
 PLAT-016	P2	S4	new	15-platform-data-architecture.md	On-demand rendering for the long tail
-PLAT-017	P0	S2	new	15-platform-data-architecture.md	Image pipeline: masters to AVIF, WebP and fallback
+PLAT-017	P0	S2	partial	15-platform-data-architecture.md	Image pipeline: masters to AVIF, WebP and fallback
 PLAT-018	P1	S2	new	15-platform-data-architecture.md	Step photo and caption standard
 PLAT-019	P1	S2	new	15-platform-data-architecture.md	Print-ready cards and generated PDFs
 PLAT-020	P2	S3	new	15-platform-data-architecture.md	Short video with captions and transcript
@@ -472,7 +472,7 @@ PLAT-035	P1	S2	new	15-platform-data-architecture.md	One content contract for web
 PLAT-036	P0	S2	partial	15-platform-data-architecture.md	Performance budgets gated in CI
 PLAT-037	P0	S2	new	15-platform-data-architecture.md	Visual regression at standard widths
 PLAT-038	P0	S2	partial	15-platform-data-architecture.md	Accessibility automation and assistive-technology gates
-PLAT-039	P1	S2	new	15-platform-data-architecture.md	Print and i18n tests
+PLAT-039	P1	S2	partial	15-platform-data-architecture.md	Print and i18n tests
 PLAT-040	P1	S2	partial	15-platform-data-architecture.md	Observability, uptime, broken links and cost guardrails
 BIZ-001	P0	S1	exists	16-business-model.md	Free core, forever
 BIZ-002	P0	S1	exists	16-business-model.md	No ads inside activities, games or child-directed pages
@@ -501,17 +501,17 @@ MET-006	P0	S2	new	17-metrics-and-evidence.md	Pillar input: CARE (older adults, d
 MET-007	P2	S3	new	17-metrics-and-evidence.md	Pillar input: CALM (creative wellbeing)
 MET-008	P1	S2	new	17-metrics-and-evidence.md	Pillar input: PLAY (games)
 MET-009	P2	S2	new	17-metrics-and-evidence.md	Pillar input: TOGETHER (groups and intergenerational)
-MET-010	P0	S2	new	17-metrics-and-evidence.md	Reviewed coverage of indexed pages
-MET-011	P1	S2	new	17-metrics-and-evidence.md	Overdue reviews
-MET-012	P0	S2	new	17-metrics-and-evidence.md	Translation coverage and staleness
+MET-010	P0	S2	partial	17-metrics-and-evidence.md	Reviewed coverage of indexed pages
+MET-011	P1	S2	partial	17-metrics-and-evidence.md	Overdue reviews
+MET-012	P0	S2	partial	17-metrics-and-evidence.md	Translation coverage and staleness
 MET-013	P1	S2	new	17-metrics-and-evidence.md	Correction speed
 MET-014	P1	S2	partial	17-metrics-and-evidence.md	Broken links and 404s on indexed pages
-MET-015	P1	S2	new	17-metrics-and-evidence.md	Source coverage on health-adjacent pages
+MET-015	P1	S2	partial	17-metrics-and-evidence.md	Source coverage on health-adjacent pages
 MET-016	P0	S2	partial	17-metrics-and-evidence.md	Accessibility defects per release
 MET-017	P0	S2	new	17-metrics-and-evidence.md	Assistive-technology task success
 MET-018	P0	S2	partial	17-metrics-and-evidence.md	Safety reports and safety-field completeness
 MET-019	P0	S2	partial	17-metrics-and-evidence.md	Claim-audit failures
-MET-020	P1	S2	new	17-metrics-and-evidence.md	Print legibility pass rate
+MET-020	P1	S2	partial	17-metrics-and-evidence.md	Print legibility pass rate
 MET-021	P0	S2	new	17-metrics-and-evidence.md	Non-branded search impressions by cluster and locale
 MET-022	P1	S2	new	17-metrics-and-evidence.md	Top-three share for task queries
 MET-023	P1	S2	new	17-metrics-and-evidence.md	Search share per cluster
@@ -526,7 +526,7 @@ MET-031	P1	S2	new	17-metrics-and-evidence.md	Return households
 MET-032	P1	S3	new	17-metrics-and-evidence.md	Outcome research programme
 MET-033	P3	S4	new	17-metrics-and-evidence.md	Caregiver wellbeing with a validated scale (partner-run)
 MET-034	P0	S2	new	17-metrics-and-evidence.md	Time on site and page views (counter-metric)
-MET-035	P0	S2	new	17-metrics-and-evidence.md	Dark-pattern guardrails
+MET-035	P0	S2	partial	17-metrics-and-evidence.md	Dark-pattern guardrails
 MET-036	P2	S3	new	17-metrics-and-evidence.md	Channel dependence
 MET-037	P0	S2	new	17-metrics-and-evidence.md	Privacy-preserving measurement principles
 MET-038	P1	S2	new	17-metrics-and-evidence.md	Data-quality checks
