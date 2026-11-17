@@ -197,7 +197,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-027 | P2 | new | Keep the beat |
 | GAME-029 | P1 | new | Singing sheets |
 | GAME-008 | P0 | exists | Coloring |
-| GAME-031 | P1 | new | Paint-by-number lite |
+| GAME-031 | P1 | partial | Paint-by-number lite |
 | GAME-032 | P1 | new | Two-hand drawing duet |
 | GAME-033 | P2 | new | Collage board |
 | GAME-034 | P2 | new | Pattern maker |

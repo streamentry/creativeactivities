@@ -153,6 +153,34 @@
       "show": "Show me",
       "next": "Another set"
     },
+    "colorByNumber": {
+      "guidance": "Choose a color from the key, then fill a square with it. Any color is fine.",
+      "sizeLegend": "Grid size",
+      "size": "{n} by {n}",
+      "keyLegend": "Colors",
+      "colors": ["Yellow", "Orange", "Green", "Purple"],
+      "motifs": {
+        "house": "a house",
+        "flower": "a flower",
+        "heart": "a heart",
+        "tree": "a tree",
+        "boat": "a sailing boat",
+        "pot-plant": "a plant in a pot"
+      },
+      "region": "Picture grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cell": "Number {number}, row {row}, column {column}, {color}",
+      "empty": "empty",
+      "chose": "{name} chosen. Tap a square to fill it.",
+      "painted": "{name} in row {row}, column {column}.",
+      "sheet": "Every square has the color of its number. This is the picture on the sheet: {name}.",
+      "own": "Every square is filled. This is your own picture.",
+      "fillAll": "Fill with the numbers",
+      "filledAll": "Every empty square now has the color of its number.",
+      "clear": "Clear",
+      "cleared": "The grid is clear.",
+      "next": "Another picture",
+      "fresh": "Here is another picture to color."
+    },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",
       "restart": "New pictures",

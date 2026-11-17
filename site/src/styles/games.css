@@ -514,6 +514,212 @@
   box-shadow: 0 1px 3px rgb(60 44 10 / 25%); /* shadow-ink */
 }
 
+/* Color by number: a key of four colors above a square grid of large numbered cells. Every cell
+   is at least 48px (56px on the 4 by 4 grid) and never shrinks below that: when a grid is too wide
+   for the screen it scrolls sideways inside its own labelled region. The grid is laid out left to
+   right in every language, like a picture. A color is always paired with its number, its written
+   name and a shape. The page's style policy blocks style attributes, so each fill is chosen by
+   `data-fill` (the color's number) here, and `color-by-number.test.ts` checks that these hex values
+   are the ones in `src/data/color-by-number.ts`. */
+.cbn [data-fill='1'],
+.sheet-paper [data-fill='1'] {
+  --cbn-fill: #f7e98e;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='2'],
+.sheet-paper [data-fill='2'] {
+  --cbn-fill: #e69f00;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='3'],
+.sheet-paper [data-fill='3'] {
+  --cbn-fill: #009e73;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='4'],
+.sheet-paper [data-fill='4'] {
+  --cbn-fill: #7b3f98;
+  --cbn-ink: #ffffff;
+}
+.cbn {
+  display: grid;
+  gap: var(--space-md);
+}
+.cbn__key {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: var(--space-sm);
+}
+.cbn__key-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: var(--target-primary);
+  padding: var(--space-sm) var(--space-md) var(--space-sm) 12px;
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font: inherit;
+  font-size: var(--text-md);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: start;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+.cbn__key-button:hover {
+  border-color: var(--gm-primary);
+}
+.cbn__key-button:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+/* The chosen color: a thicker frame drawn inside the border (no shift), a tinted well and a check mark. */
+.cbn__key-button[aria-pressed='true'] {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 3px var(--gm-primary);
+}
+.cbn__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--cbn-fill);
+  color: var(--cbn-ink);
+  forced-color-adjust: none;
+}
+.cbn__key-number {
+  font-size: var(--text-title-lg);
+  font-family: var(--font-display);
+}
+.cbn__key-name {
+  flex: 1;
+  min-inline-size: 0;
+  overflow-wrap: break-word;
+}
+/* The check mark sits in the corner, so the name keeps all of its room. */
+.cbn__key-button > svg {
+  position: absolute;
+  inset-block-start: 4px;
+  inset-inline-end: 4px;
+}
+.cbn__shape {
+  display: block;
+  flex: none;
+  inline-size: 0.875rem;
+  block-size: 0.875rem;
+  background: currentColor;
+}
+.cbn__shape[data-shape='circle'] {
+  border-radius: var(--radius-full);
+}
+.cbn__shape[data-shape='square'] {
+  border-radius: 2px;
+}
+.cbn__shape[data-shape='triangle'] {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+.cbn__shape[data-shape='diamond'] {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.cbn__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.cbn__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The cell is as wide as the screen allows, never below its floor and never above its cap. The grid
+   takes the width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.cbn__grid {
+  --cbn-gap: 4px;
+  --cbn-floor: 48px;
+  --cbn-cap: 5.5rem;
+  --cbn-cell: max(var(--cbn-floor), min(var(--cbn-cap), calc((100cqw - (var(--cbn-n) - 1) * var(--cbn-gap)) / var(--cbn-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--cbn-n), var(--cbn-cell));
+  gap: var(--cbn-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.cbn__grid[data-size='4'],
+.sheet-paper__grid[data-size='4'] {
+  --cbn-n: 4;
+}
+.cbn__grid[data-size='6'],
+.sheet-paper__grid[data-size='6'] {
+  --cbn-n: 6;
+}
+.cbn__grid[data-size='8'],
+.sheet-paper__grid[data-size='8'] {
+  --cbn-n: 8;
+}
+.cbn__grid[data-size='4'] {
+  --cbn-floor: 56px;
+  --cbn-cap: 7.5rem;
+  --cbn-gap: 6px;
+}
+.cbn__grid[data-size='8'] {
+  --cbn-cap: 4.5rem;
+}
+.cbn__cell {
+  position: relative;
+  display: grid;
+  place-items: center;
+  inline-size: var(--cbn-cell);
+  block-size: var(--cbn-cell);
+  padding: 0;
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--cbn-fill, var(--gm-surface));
+  color: var(--cbn-ink, var(--gm-on-surface));
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+.cbn__cell[data-fill] {
+  border-color: var(--gm-on-surface);
+  forced-color-adjust: none;
+}
+.cbn__cell:hover {
+  border-color: var(--gm-primary);
+  box-shadow: 0 0 0 2px var(--gm-primary);
+}
+.cbn__cell:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  z-index: 1;
+}
+.cbn__number {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, calc(var(--cbn-cell) * 0.45), 3rem);
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+.cbn__cell .cbn__shape {
+  position: absolute;
+  inset-block-end: 4px;
+  inset-inline-end: 4px;
+  inline-size: 0.75rem;
+  block-size: 0.75rem;
+  pointer-events: none;
+}
+
 /* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
 .chain {
   display: flex;
@@ -742,6 +948,8 @@
   .tile,
   .piece,
   .half,
+  .cbn__cell,
+  .cbn__key-button,
   .called img {
     transition: none;
   }
@@ -1576,6 +1784,58 @@
   .sheet-paper__half--right::after {
     inset-inline-start: -1.75mm;
   }
+  /* Color by number on paper: the key of four colors, then the numbered grid to color with pencils.
+     Each key color has its name, its number and its shape, so it reads in black and white too. */
+  .sheet-paper__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 5mm;
+    padding: 0;
+    list-style: none;
+  }
+  .sheet-paper__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__key-swatch {
+    display: grid;
+    place-items: center;
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--cbn-fill, #fff);
+    color: var(--cbn-ink, #000);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet-paper__key-swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .sheet-paper__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cbn-n), 1fr);
+    max-width: 135mm;
+    border: 2.5px solid #000;
+    direction: ltr;
+  }
+  .sheet-paper__cell {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border: 1.5px solid #000;
+    font-size: 26pt;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+  }
   .sheet-foot {
     margin-top: 5mm;
     font-size: 12pt;
@@ -1694,6 +1954,22 @@
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
 @media (prefers-contrast: more) {
+  .cbn__cell,
+  .cbn__key-button {
+    border: 3px solid #000000;
+  }
+  .cbn__cell:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .cbn__cell:focus-visible,
+  .cbn__key-button:focus-visible,
+  .cbn__region:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .cbn__key-button[aria-pressed='true'] {
+    box-shadow: inset 0 0 0 4px #000000;
+  }
   .half {
     border: 2px solid #000000;
   }
@@ -1912,6 +2188,17 @@
 }
 
 @media (forced-colors: active) {
+  .cbn__cell:hover,
+  .cbn__cell:focus-visible,
+  .cbn__key-button:focus-visible,
+  .cbn__region:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .cbn__key-button[aria-pressed='true'] {
+    border-color: Highlight;
+    box-shadow: inset 0 0 0 3px Highlight;
+  }
   .half:hover {
     outline: 2px solid Highlight;
     outline-offset: 2px;

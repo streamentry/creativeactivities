@@ -5,6 +5,7 @@
  * (`.sheet`); games.css lays it out for one A4 or US Letter page.
  */
 import { pictureShadowUrl, pictureUrl } from '../data/pictures';
+import { NUMBER_COLORS } from '../data/color-by-number';
 import type { PrintSheet } from '../lib/games/print-sheet';
 
 interface Props {
@@ -19,9 +20,11 @@ interface Props {
   baskets?: readonly [string, string];
   /** Color names by id, for the rows of the Color match sheet. */
   colorNames?: Record<string, string>;
+  /** The four color names of Color by number, in the order of the numbers 1 to 4. */
+  numberColorNames?: readonly string[];
 }
 
-const { sheet, title, rules, howTo, pictureNames, baskets, colorNames } = Astro.props;
+const { sheet, title, rules, howTo, pictureNames, baskets, colorNames, numberColorNames } = Astro.props;
 const name = (id: string) => pictureNames[id] ?? '';
 ---
 <section class="sheet sheet-paper" aria-hidden="true">
@@ -99,6 +102,25 @@ const name = (id: string) => pictureNames[id] ?? '';
           ))}
         </div>
       </div>
+    )
+  }
+  {
+    sheet.layout === 'grid' && (
+      <>
+        <ul class="sheet-paper__key">
+          {NUMBER_COLORS.map((color) => (
+            <li data-fill={color.number}>
+              <span class="sheet-paper__key-swatch">
+                <span class="cbn__shape" data-shape={color.shape} />
+              </span>
+              {color.number} {numberColorNames?.[color.number - 1] ?? ''}
+            </li>
+          ))}
+        </ul>
+        <div class="sheet-paper__grid" data-size={sheet.size}>
+          {sheet.rows.flatMap((row) => row.map((n) => <span class="sheet-paper__cell">{n}</span>))}
+        </div>
+      </>
     )
   }
   {
