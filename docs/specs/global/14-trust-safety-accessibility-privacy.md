@@ -731,7 +731,9 @@ Depends on: none.
 Risks / not doing: Do not commit a test key that works in production.
 
 ### TSA-044 · Forms: anti-abuse without heavy CAPTCHA
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the site has no form that posts to a server. Its 55 forms (the finder, the search box and one "did this fit" form on each of the 53 activity pages) run in the browser; the last one sends a single allowlisted choice as an analytics event and takes no free text. No form sets an action or method, no page loads a captcha service, and the security policy allows form posts only to this site. `site/scripts/check-site.mjs` now fails the build if a form sets an action or method or a page loads a captcha service, so a form that posts data cannot arrive without this item's controls. Not done: the controls themselves (server-side validation, a rate limit, a honeypot and light bot checks), because there is nothing yet to protect; a test of a posting form with browser validation off and with a screen reader.
 
 Why: Forms (for organizations, contact, email sign-up) are abuse targets. Heavy CAPTCHA defaults harm accessibility [user's security rule].
 

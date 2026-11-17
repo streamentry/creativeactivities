@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 169 | 174 | 407 |
+| S2 | 64 | 171 | 172 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **209** | **247** | **533** |
+| **All** | **77** | **211** | **245** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -166,6 +166,13 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | The print check (`pnpm check:print`: every activity card is one two-sided sheet on A4 and US Letter, navigation hidden) now runs in the website workflow, and it fails when it finds no cards instead of passing by checking nothing. It passes locally for all 53 cards in 34 seconds. Classified two items from existing evidence: the print and translation tests and the staleness queue | PLAT-039, PLAT-012 → partial (print checks beyond cards; owners and a weekly run) | `check:print` 0 of 53 cards failing; the CI step is proven by this pull request's own run |
 | The year as twelve months on `/seasons/`, for the northern or southern half, with this month marked and each month linking to its season; a test that each season's own cards include a seated and a large-grip version | CNT-013 → partial (six-weeks-ahead publishing; holidays from many traditions with cultural review; editor review); WEB-033 stays partial | vitest 3,420 pass (calendar and seated and large-grip tests); tried in the browser for north, south and "not four seasons" |
 | Classified two items from existing evidence: print version and dated change log per card (PLAT-007), and hubs showing a card's variation by kind without copying text (PLAT-002) | PLAT-007, PLAT-002 → partial (version numbers, diff-made entries, variation IDs and review records) | docs only; read from `ActivityView.astro`, `activity-changes.test.ts` and the hub schema |
+
+### Batch 15 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| "Describe your situation" on the finder: a few words become removable choices (kind, time, materials, where, who, energy, mess, what they enjoy, talking, help), read from a list of words and phrases, with a number of minutes put in the finder's bands, a child's age read as a child, and a word turned around by "not", "dislikes" or "difficulty" left out, inside its clause and for phrases as well as words. Nothing typed is sent, stored or put in the address, the browser's spell-check is off in the box and in the site search, and the note beside the box says the chosen filters appear in the address as any filter does. A choice made by hand is not overruled, going back clears the box, and a word naming a condition or a limit gives nothing. A second Claude agent reviewed the diff and its findings are fixed | WEB-002 → partial (an editor's check of the 41 situations and the mapping; other languages; needs the finder has no question for) | vitest 3,501 pass, 1 skipped as before (90 in `situation.test.ts`: 41 situations from 01 §3, 27 condition words, negation inside clauses and for phrases, ordinary words, ages, overrides; 15 in `no-posts.test.ts`); `tsc` clean; build 16,532 pages; `check:a11y` 0 failing of 133; tried in the browser: chips, removal with focus kept in the box, gibberish, clearing, address holds only the choices |
+| `check-site` fails the build if a form, or a button in one, sets where or how it sends (with or without spaces around the equals sign) or a script or frame loads a captcha service, and a test fails if the site's code sends a POST, PUT, PATCH, DELETE or beacon. Today: 55 forms, none posts, no captcha | TSA-044 → partial (the controls for a posting form, which does not exist yet) | `check-site` result below; injecting a form with an action into a built page made it fail, then restored |
 
 ## What blocks the rest
 
