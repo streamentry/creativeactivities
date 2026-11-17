@@ -59,6 +59,8 @@ jobs:
         run: pnpm exec playwright install --with-deps chromium
       - name: Accessibility checks (axe, reflow, zoom, motion, Rest on every game)
         run: pnpm check:a11y
+      - name: Print check (every activity card is one two-sided sheet on A4 and US Letter)
+        run: pnpm check:print
       - name: Keep the checked build for the deploy job
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v7

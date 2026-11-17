@@ -183,7 +183,7 @@ CNT-009	P1	S2	new	06-content-library.md	Step photos and illustrations
 CNT-010	P2	S2	new	06-content-library.md	Short video
 CNT-011	P2	S2	new	06-content-library.md	Audio read-aloud
 CNT-012	P1	S2	partial	06-content-library.md	Glossary
-CNT-013	P2	S2	new	06-content-library.md	Seasonal calendar and collections
+CNT-013	P2	S2	partial	06-content-library.md	Seasonal calendar and collections
 CNT-014	P2	S2	new	06-content-library.md	Educator and care-setting programme
 CNT-015	P1	S2	exists	06-content-library.md	FAQ
 CNT-030	P0	S2	new	06-content-library.md	Editorial pipeline
@@ -435,17 +435,17 @@ TSA-048	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Transparency pages
 TSA-049	P1	S2	new	14-trust-safety-accessibility-privacy.md	Sponsorship and partner disclosure
 TSA-050	P3	S4	new	14-trust-safety-accessibility-privacy.md	Physical kit product safety, if sold
 PLAT-001	P0	S2	partial	15-platform-data-architecture.md	Stable entity IDs separate from slugs
-PLAT-002	P1	S2	new	15-platform-data-architecture.md	Variations as first-class records
+PLAT-002	P1	S2	partial	15-platform-data-architecture.md	Variations as first-class records
 PLAT-003	P0	S2	partial	15-platform-data-architecture.md	Media asset records and rights log
 PLAT-004	P0	S2	partial	15-platform-data-architecture.md	Translation records with source hashes
 PLAT-005	P0	S2	partial	15-platform-data-architecture.md	Review records that cannot be faked
 PLAT-006	P1	S2	partial	15-platform-data-architecture.md	Source records and claim links
-PLAT-007	P1	S2	new	15-platform-data-architecture.md	Versions, change log and corrections
+PLAT-007	P1	S2	partial	15-platform-data-architecture.md	Versions, change log and corrections
 PLAT-008	P1	S2	partial	15-platform-data-architecture.md	URL policy, redirects and canonical registry
 PLAT-009	P0	S2	exists	15-platform-data-architecture.md	Git-first editorial flow
 PLAT-010	P1	S2	new	15-platform-data-architecture.md	Editorial states and review queue
 PLAT-011	P0	S2	partial	15-platform-data-architecture.md	One validation command for every content type
-PLAT-012	P1	S2	new	15-platform-data-architecture.md	Staleness and re-review queue
+PLAT-012	P1	S2	partial	15-platform-data-architecture.md	Staleness and re-review queue
 PLAT-013	P0	S2	new	15-platform-data-architecture.md	Partitioned, incremental builds
 PLAT-014	P0	S2	partial	15-platform-data-architecture.md	Publishing state per (entity, locale)
 PLAT-015	P0	S2	new	15-platform-data-architecture.md	Hosting capacity check at 10× the page count
@@ -472,7 +472,7 @@ PLAT-035	P1	S2	new	15-platform-data-architecture.md	One content contract for web
 PLAT-036	P0	S2	partial	15-platform-data-architecture.md	Performance budgets gated in CI
 PLAT-037	P0	S2	new	15-platform-data-architecture.md	Visual regression at standard widths
 PLAT-038	P0	S2	partial	15-platform-data-architecture.md	Accessibility automation and assistive-technology gates
-PLAT-039	P1	S2	new	15-platform-data-architecture.md	Print and i18n tests
+PLAT-039	P1	S2	partial	15-platform-data-architecture.md	Print and i18n tests
 PLAT-040	P1	S2	partial	15-platform-data-architecture.md	Observability, uptime, broken links and cost guardrails
 BIZ-001	P0	S1	exists	16-business-model.md	Free core, forever
 BIZ-002	P0	S1	exists	16-business-model.md	No ads inside activities, games or child-directed pages
@@ -501,12 +501,12 @@ MET-006	P0	S2	new	17-metrics-and-evidence.md	Pillar input: CARE (older adults, d
 MET-007	P2	S3	new	17-metrics-and-evidence.md	Pillar input: CALM (creative wellbeing)
 MET-008	P1	S2	new	17-metrics-and-evidence.md	Pillar input: PLAY (games)
 MET-009	P2	S2	new	17-metrics-and-evidence.md	Pillar input: TOGETHER (groups and intergenerational)
-MET-010	P0	S2	new	17-metrics-and-evidence.md	Reviewed coverage of indexed pages
-MET-011	P1	S2	new	17-metrics-and-evidence.md	Overdue reviews
-MET-012	P0	S2	new	17-metrics-and-evidence.md	Translation coverage and staleness
+MET-010	P0	S2	partial	17-metrics-and-evidence.md	Reviewed coverage of indexed pages
+MET-011	P1	S2	partial	17-metrics-and-evidence.md	Overdue reviews
+MET-012	P0	S2	partial	17-metrics-and-evidence.md	Translation coverage and staleness
 MET-013	P1	S2	new	17-metrics-and-evidence.md	Correction speed
 MET-014	P1	S2	partial	17-metrics-and-evidence.md	Broken links and 404s on indexed pages
-MET-015	P1	S2	new	17-metrics-and-evidence.md	Source coverage on health-adjacent pages
+MET-015	P1	S2	partial	17-metrics-and-evidence.md	Source coverage on health-adjacent pages
 MET-016	P0	S2	partial	17-metrics-and-evidence.md	Accessibility defects per release
 MET-017	P0	S2	new	17-metrics-and-evidence.md	Assistive-technology task success
 MET-018	P0	S2	partial	17-metrics-and-evidence.md	Safety reports and safety-field completeness
