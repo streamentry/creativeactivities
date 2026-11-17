@@ -428,11 +428,11 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-011 | P0 | new | Activity cards localized before guides |
 | L10N-012 | P1 | new | Cultural adaptation register |
 | L10N-013 | P1 | new | Holidays, faith and food defaults |
-| L10N-014 | P1 | new | Units, paper sizes and printing |
+| L10N-014 | P1 | partial | Units, paper sizes and printing |
 | L10N-015 | P1 | new | Family structures and forms of address |
 | L10N-016 | P1 | partial | Right-to-left layout |
 | L10N-017 | P1 | partial | Scripts and font coverage |
-| L10N-018 | P1 | new | Text length and 200% layout per language |
+| L10N-018 | P1 | partial | Text length and 200% layout per language |
 | L10N-019 | P1 | partial | Store localization mechanics |
 | L10N-020 | P1 | partial | Indexing and hreflang only for reviewed locales |
 | L10N-021 | P1 | new | Stale translations after English changes |
@@ -509,7 +509,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-013 | P0 | new | Partitioned, incremental builds |
 | PLAT-014 | P0 | partial | Publishing state per (entity, locale) |
 | PLAT-015 | P0 | new | Hosting capacity check at 10× the page count |
-| PLAT-017 | P0 | new | Image pipeline: masters to AVIF, WebP and fallback |
+| PLAT-017 | P0 | partial | Image pipeline: masters to AVIF, WebP and fallback |
 | PLAT-018 | P1 | new | Step photo and caption standard |
 | PLAT-019 | P1 | new | Print-ready cards and generated PDFs |
 | PLAT-021 | P0 | partial | Finder index sharded by locale and facet |

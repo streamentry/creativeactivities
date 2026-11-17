@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 179 | 164 | 407 |
+| S2 | 64 | 182 | 161 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **219** | **237** | **533** |
+| **All** | **77** | **222** | **234** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -215,6 +215,13 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Group mode for facilitators: every activity card has a "Show steps to a group" button that opens a full-screen view built from the text already on the page. A start screen shows the name, summary, what you need and the note about pausing or stopping; then one screen for each step, in the card's own words in large type; then a last screen with the card's own note that it is fine to stop. The person leading moves on with Next, Previous, the left and right arrow keys, or Page Down and Page Up; Pause hides the step until Carry on; Done for now is on every screen. The buttons keep focus, each new screen is read out, and the buttons never take more than 45% of the screen. No clock, score, sound or autoplay, no number but the step count, nothing stored or sent, and the code and styles load only when the button is pressed. An independent review found a focus and keys risk, a crowded button bar on small screens, a check that could pass while broken, and several claims that went further than the evidence; all are fixed or stated. Adding the button made the 320 px page 1 px wider than the accessibility check allows, because the tilted sheet behind the card head grows with the head; the sheet is now tilted less on phones | WEB-046 → partial (materials do not scale to the group size; offline needs WEB-040; not tried in Firefox or Safari, on a real tablet, TV, cast screen or clicker, or with a screen reader; English only) | vitest 3,420 pass (24 in `group-stage.test.ts`); `tsc` clean; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 cards; new `pnpm check:group`, also a CI step, in Chromium with the page's security policy enforced: 53 of 53 cards pass the walkthrough, 42 of 42 fit checks pass (three demanding cards, eight screen sizes from 320 by 256, normal and 200% text), 53 of 53 card pages fit a 320 px screen, and it fails with the styles missing or the button bar uncapped; `check:a11y` 0 failing of 138 (the open view is a new template) |
+
+### Batch 23 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| An image check on every built page (`pnpm check:images`, also a CI step): each image has an alt attribute (empty for decoration), width and height in the page, and a picture file no more than twice as wide as it is shown. It found 8,209 pictures on the Conversation cards print sheet with no size; they now have one, and the printed size was measured in a browser before and after and did not change. The 100 illustrations sent at three times their shown width are allowed by a listed exception, which is a decision to revisit rather than a finding of fine | PLAT-017 → partial (no AVIF, WebP or JPEG derivatives at several widths, no cache by content hash, no step photographs yet) | vitest 3,413 pass (12 in `image-check.test.ts`); `tsc` clean; build 16,532 pages; `check:images` passes on 100,023 images; `check-site` 0 errors; `check-budget` 0 over; `check-print` 53 cards; `check:a11y` 0 failing of 133 |
+| A units test fails if a card or a hub uses US customary and metric measures together (numeric forms only; the English guides are not covered) (shown to fail on a planted "8 inches (20 cm)"); today the cards use US customary only. Classified from existing evidence: the German and Arabic home pages are checked at 320 px, 200% zoom and 200% text for scroll, overflow and clipped text | L10N-014 → partial (no conversion to the reader's units, no print test per locale); L10N-018 → partial (two of 189 languages, home page only, no longest-label test, no screenshot per language) | vitest (5 in `units.test.ts`); the accessibility check's `translated` and `rtl` templates pass at all five variants |
 
 ## What blocks the rest
 

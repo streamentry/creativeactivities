@@ -249,7 +249,9 @@ Risks / not doing: runtime cost and a larger attack surface. Verify current adap
 ### Images, print and video
 
 ### PLAT-017 · Image pipeline: masters to AVIF, WebP and fallback
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): `pnpm check:images`, also a CI step, reads every built page and checks each image: it has an alt attribute (empty is fine for decoration), it has width and height in the page, and a picture file is no more than twice as wide as it is shown. It passes on all 100,023 images on 16,532 pages. It found 8,209 pictures on the print sheet of Conversation cards with no size; they now have one, and the printed size was measured in a browser before and after (three pictures per sheet, not kept as a test) and did not change. The 100 illustrations in `/illustrations/` are sent at 720 px for a 240 px display, three times, which a listed exception allows for phones with very sharp screens (12 to 33 kB each); that exception is a decision to revisit, not a finding of fine. Only plain `<img src>` pictures are measured: vector images, `srcset` and CSS images are not. Rules and tests: `site/scripts/image-check-lib.mjs`, `site/src/lib/image-check.test.ts`. Gap: nothing generates AVIF, WebP or JPEG derivatives at 320 to 1280 px or caches them by content hash; there are no step photographs yet (CNT-009); images set in CSS are not checked; the width a stylesheet finally gives an image is not measured, the width attribute stands for it.
 Why: DESIGN §2 requires actual process photos and tactile illustrations. The performance rules require explicit dimensions, AVIF or WebP with fallbacks, and no image much larger than its rendered size. Today nothing generates responsive derivatives.
 What: masters are kept in the repo (small files) or in R2 (large files; decision). Build generates AVIF, WebP and JPEG derivatives at 320 to 1280 pixel widths, with `width` and `height` set and `loading` set per placement.
 Acceptance:
