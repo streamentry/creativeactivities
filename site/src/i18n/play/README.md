@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 16 browser games read their words from here. The mobile app's exporter also
+The 17 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -50,6 +50,7 @@ member or carer. Write plain, warm, adult language.
 | `content.sorting` | 3 themes × (label + 2 basket names) | Sort together |
 | `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
 | `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
+| `ui.colorMatch` | 10 strings + 5 color names | Color match (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -207,6 +208,20 @@ Odd one out reuses the Four together group names and is also English only
 picture plainly sits outside every group. After that review, add the
 `ui.oddOneOut` strings and the language code to `ODD_ONE_OUT_REVIEWED` in
 `../games.ts`.
+
+### Color match (`ui.colorMatch`)
+
+Color match is English only for now (GAME-020). It has 10 strings and the names
+of its five colors (`red`, `orange`, `yellow`, `green`, `blue` under
+`ui.colorMatch.names`). The guidance line is also the line printed on its paper
+version, so it has no placeholders. `{color|lower}` is the color name and
+`{name|lower}` the picture name; a wrong tap is never called wrong, the picture
+is only named with its color ("The pear is green."). The pictures in each color
+are a hand-picked table (`src/data/color-match.ts`) checked against the picture
+drawings. Colors are named differently across languages and cultures (some
+languages have one word for blue and green), so a native speaker must confirm
+that each name describes the same five colors before the language code is added
+to `COLOR_MATCH_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

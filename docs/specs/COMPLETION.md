@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 187 | 156 | 407 |
+| S2 | 64 | 188 | 155 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **227** | **229** | **533** |
+| **All** | **77** | **228** | **228** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -246,6 +246,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Sort together gains a "Larger targets" choice, off at the start (built by a subagent, checked by me): exactly two bins at least 40% of the board wide, pictures at least 96 px, at least 16 px between targets, and the strongest contrast the design tokens allow; toggling it keeps the round and says so in a live message. Measured in Chromium at 320 px: bins 46% wide, 24 px apart, board pictures 132 px, no sideways scroll | GAME-019 → partial (not tried with real tremor, low vision or a real device; not checked in Safari, Firefox or forced-colors mode; label in English only, other languages show English) | vitest 3,747 pass; `tsc` clean; build 16,538 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7; `check:a11y` 0 failing of 167 (agent's run) |
+
+### Batch 29 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Color match" at `/games/color-match/` (English only, built by a subagent, checked by me): a large swatch with the color's name written beside it, and 4 or 6 pictures to tap that are that color; a tap on another picture names it ("The pear is green.") and waits; Show them and Another color; Rest from the shared frame; no score, timer, miss count or failure wording. A hand-curated table of 34 pictures in five colors (red 10, orange 5, yellow 7, green 7, blue 5), each checked by a test against the dominant fill color in its own SVG | GAME-020 → partial (not tried with children or low-vision players; the dominant color is an estimate from shape boxes, not a renderer; no purple; English only, other languages show English) | vitest 3,813 pass; `tsc` clean; build 16,539 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 14 of 14 game sheets; `check:capacity` 17,279 files (86.4%); `check:a11y` 0 failing of 169 (agent's run) |
 
 ## What blocks the rest
 

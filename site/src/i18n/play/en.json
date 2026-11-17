@@ -116,6 +116,25 @@
       "rolled": "New pictures: {names}.",
       "tapped": "{name}. Begin with this one, or any other."
     },
+    "colorMatch": {
+      "guidance": "Look at the color and its name, then tap every picture that is that color.",
+      "target": "The color is {color|lower}. Tap every picture that is {color|lower}.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "found": "Yes, the {name|lower} is {color|lower}.",
+      "named": "The {name|lower} is {color|lower}.",
+      "all": "Those are all the {color|lower} pictures.",
+      "shown": "Here are the {color|lower} pictures.",
+      "show": "Show them",
+      "next": "Another color",
+      "names": {
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue"
+      }
+    },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",
       "restart": "New pictures",

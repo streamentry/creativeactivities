@@ -6,6 +6,7 @@ export type GameSlug =
   | 'shadow-match'
   | 'four-together'
   | 'odd-one-out'
+  | 'color-match'
   | 'story-dice'
   | 'story-chain'
   | 'sort-together'
@@ -266,6 +267,55 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'How is the odd picture chosen?',
         a: 'The pictures come from everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one theme, and the odd one always comes from a different theme.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'color-match',
+    name: 'Color match',
+    seoTitle: 'Color Match: a Gentle Picture Game',
+    h1: 'Color Match: Find the Pictures of One Color',
+    description:
+      'A large color with its name, and four or six pictures. Tap every picture that is that color. No timer, no score, and another color is simply named. Free to play and print.',
+    short: 'Find every picture that is the same color as the one shown.',
+    cardPictures: ['apple', 'banana', 'pear'],
+    stages: ['early', 'middle'],
+    players: '1 or 2 people, or an adult and a child',
+    printable: true,
+    intro:
+      'A large patch of color is shown with its name written beside it, and below it are four or six pictures. Tap every picture that is that color: a red apple and a red cup, for example. If a picture is another color, the game simply names it ("The pear is green.") and waits. "Show them" points out the pictures that match at any time, and "Another color" moves on.',
+    howTo: [
+      'Choose four or six pictures. Four is the simplest.',
+      'Look at the color and read its name together.',
+      'Tap every picture that is that color. Each one gets a thick border and a check mark.',
+      'If a picture is another color, the game says what color it is and waits. Take your time.',
+      'Tap "Show them" whenever you like, then "Another color" for a new color.',
+    ],
+    tips: [
+      'Say the color out loud, then look around the room: what else is that color?',
+      'Use your own words if you like. "Tomato" or "sky" is as good as "red" or "blue".',
+      'Pointing works as well as tapping. Sit side by side so you can both see the screen.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'What happens if a picture of another color is tapped?',
+        a: 'Nothing unpleasant. There is no buzzer, red cross or shaking. The game names the picture and its color, such as "The pear is green.", and waits for the next tap.',
+      },
+      {
+        q: 'Is color the only clue?',
+        a: 'No. The color is shown as a large patch and also written as a word, and every picture is named when it is tapped. Someone who finds a color hard to see can still play by reading the name.',
+      },
+      {
+        q: 'Is every picture really that color?',
+        a: 'The pictures are chosen by hand, and only ones where the main object is plainly one color. Pictures with several colors, such as a kite or a bee, are left out.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. A one-page sheet has four rows. Each row names a color and shows four pictures to point to or circle.',
       },
       FREE_FAQ,
     ],
