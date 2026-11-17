@@ -6,6 +6,7 @@ export type GameSlug =
   | 'shadow-match'
   | 'four-together'
   | 'odd-one-out'
+  | 'story-chain'
   | 'sort-together'
   | 'picture-puzzle'
   | 'finish-the-saying'
@@ -264,6 +265,47 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'How is the odd picture chosen?',
         a: 'The pictures come from everyday themes that need no special knowledge: fruit, animals, flowers, weather, ways to travel, things for a hot drink and things baked in an oven. Each picture belongs to just one theme, and the odd one always comes from a different theme.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'story-chain',
+    name: 'Story chain',
+    seoTitle: 'Story Chain: a Shared Picture Story Game',
+    h1: 'Story Chain: Tell a Story One Picture at a Time',
+    description:
+      'A row of pictures grows one at a time, and each person says a sentence about it aloud. Nothing to type, no right answer. Free, calm, no timer and no score.',
+    short: 'Add a picture, then say a sentence each, taking turns.',
+    cardPictures: ['teapot', 'rainbow', 'sailboat'],
+    stages: ['early', 'middle'],
+    players: '2 or more people',
+    printable: true,
+    intro:
+      'The game starts with one picture and grows the chain one picture at a time. Each person says one sentence about the chain so far, out loud, in turn. A sentence can be about what you see, a place it brings to mind, or something silly. Nothing is typed, recorded or kept, there is no right answer, and anyone may pass. The chain stops at eight pictures, and then you can start a new one.',
+    howTo: [
+      'Look at the first picture together.',
+      'Take turns: each person says one sentence about the chain so far. Anyone may pass.',
+      'Tap "Add a picture" to put the next picture at the end of the chain.',
+      'Tap "Take the last one off" if you would rather go back a picture.',
+      'When the chain has eight pictures, tap "Start a new chain" for a fresh one, or simply stop.',
+    ],
+    tips: [
+      'Short is fine: "Someone put the kettle on." The next person carries on, or passes.',
+      'Let the pictures lead. There is no story you are meant to arrive at.',
+      'Stop whenever you like. Stopping halfway is a perfectly good way to finish.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Is anything typed or recorded?',
+        a: 'No. The sentences are spoken aloud and are not typed, recorded or sent anywhere. The game only shows the pictures.',
+      },
+      {
+        q: 'What if someone does not want to say anything?',
+        a: 'Anyone may pass, and the next person goes on. Nobody has to name or remember a picture.',
       },
       FREE_FAQ,
     ],

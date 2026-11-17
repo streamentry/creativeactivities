@@ -213,7 +213,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-009 | P0 | exists | Conversation cards |
 | GAME-010 | P0 | exists | Photo pairs |
 | GAME-044 | P1 | new | Reminiscence card match |
-| GAME-046 | P1 | new | Story chain |
+| GAME-046 | P1 | partial | Story chain |
 | GAME-047 | P2 | new | Find together |
 | GAME-048 | P2 | new | Build-it-together grid |
 | GAME-049 | P2 | new | Seated toss tally |

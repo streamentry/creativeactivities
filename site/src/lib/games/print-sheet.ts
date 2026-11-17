@@ -3,6 +3,7 @@ import { createOddRound } from './odd-one-out';
 import { createRng, sample, shuffle, type Rng } from './random';
 import { SHADOW_IDS, createShadowRound } from './shadow';
 import { createSort } from './sorting';
+import { buildChain } from './story-chain';
 import { createTogetherRound } from './together';
 
 /**
@@ -39,7 +40,9 @@ export type PrintSheet =
   /** Cards to cut out and two baskets to sort them into. */
   | { layout: 'sort'; pictures: string[]; theme: string }
   /** One picture with dashed cut lines into `size` x `size` pieces, and a small guide. */
-  | { layout: 'puzzle'; picture: string; size: 2 };
+  | { layout: 'puzzle'; picture: string; size: 2 }
+  /** Eight different pictures in a chain, read left to right (Story chain). */
+  | { layout: 'chain'; pictures: string[] };
 
 const ROWS = 4;
 
@@ -93,6 +96,8 @@ export function printSheet(slug: string): PrintSheet | null {
         }),
       };
     }
+    case 'story-chain':
+      return { layout: 'chain', pictures: [...buildChain(rng).pictures] };
     case 'sort-together': {
       const ids = (category: 'kitchen' | 'garden') => picturesIn(category).map((p) => p.id);
       const state = createSort(ids('kitchen'), ids('garden'), 4, rng);
@@ -110,6 +115,7 @@ export function sheetPictures(sheet: PrintSheet): string[] {
   switch (sheet.layout) {
     case 'cards':
     case 'sort':
+    case 'chain':
       return sheet.pictures;
     case 'rows':
       return sheet.rows.flatMap((r) => (r.target ? [r.target, ...r.choices] : r.choices));

@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 14 browser games read their words from here. The mobile app's exporter also
+The 15 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether` and `ui.oddOneOut` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut` and `ui.storyChain` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -50,6 +50,7 @@ member or carer. Write plain, warm, adult language.
 | `content.sorting` | 3 themes × (label + 2 basket names) | Sort together |
 | `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
 | `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
+| `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -205,6 +206,15 @@ Odd one out reuses the Four together group names and is also English only
 picture plainly sits outside every group. After that review, add the
 `ui.oddOneOut` strings and the language code to `ODD_ONE_OUT_REVIEWED` in
 `../games.ts`.
+
+### Story chain (`ui.storyChain`)
+
+Story chain is English only for now (GAME-046). It has 12 strings: one guidance
+line (which is also the line printed on its paper version), a note that
+anyone may pass, button labels and short live messages. Nothing is typed or
+recorded and nothing is counted. After a native speaker checks them, add the
+translated `ui.storyChain` strings and the language code to
+`STORY_CHAIN_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
 ## Right-to-left languages
 

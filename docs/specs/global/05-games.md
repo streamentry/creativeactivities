@@ -91,7 +91,7 @@ Conversation is the goal. Nobody is quizzed, and no answer is wrong.
 | GAME-010 | Photo pairs | Match the person's own photos; nothing uploaded | Families; middle and later stages | Side by side | No | Yes | Interface text | P0 | S2 | exists |
 | GAME-044 | Reminiscence card match | Match family-photo cards; a gentle hint after a pause, never a miss count | Anyone at any stage; carers | Side by side | Yes | Yes | Interface text | P1 | S2 | new. Extends GAME-010 |
 | GAME-045 | Photo timeline | Family photos placed on a year line with captions; consent needed | Families; carers; classrooms, with consent | Side by side | Yes | Yes | Captions written by the family | P3 | S3 | new |
-| GAME-046 | Story chain | Each person adds a sentence or a picture in turn | Mixed-age pairs; groups | Side by side or group | Yes | Yes | None | P1 | S2 | new |
+| GAME-046 | Story chain | Each person adds a sentence or a picture in turn | Mixed-age pairs; groups | Side by side or group | Yes | Yes | None | P1 | S2 | partial. English only: a growing row of up to eight pictures at `/games/story-chain/`, Anyone may pass, a one-page print sheet; the sentences are spoken, not typed; not tried with a group, text not reviewed by a person |
 
 ### Co-op and two-player
 

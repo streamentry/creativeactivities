@@ -18,6 +18,13 @@ export const FOUR_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
  */
 export const ODD_ONE_OUT_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
+/**
+ * Languages where Story chain is offered. It is English-only for now: its
+ * words are one guidance line and a few buttons, and a language is added only
+ * after a native speaker has checked them (no machine translation).
+ */
+export const STORY_CHAIN_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /** Translatable fields of a game; everything else (slug, pictures, stages) is shared. */
 export type GameText = Partial<
   Pick<GameInfo, 'name' | 'seoTitle' | 'h1' | 'description' | 'short' | 'players' | 'intro' | 'howTo' | 'tips' | 'faq'>
@@ -41,12 +48,13 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
  * 30 genuine sayings. A language leaves an unsupported game out entirely (no
  * page, card or hreflang) rather than show an empty or invented one.
  * Four together stays English-only until its group names pass a per-language
- * category review (GAME-022 in docs/specs/global/05-games.md), and Odd one out
- * likewise (GAME-018).
+ * category review (GAME-022 in docs/specs/global/05-games.md), Odd one out
+ * likewise (GAME-018), and Story chain (GAME-046).
  */
 export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'four-together') return FOUR_TOGETHER_REVIEWED.includes(code);
   if (slug === 'odd-one-out') return ODD_ONE_OUT_REVIEWED.includes(code);
+  if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);
   if (slug !== 'word-search') return true;
   return playProps(code, slug).content.wordSearch.available;

@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 184 | 159 | 407 |
+| S2 | 64 | 185 | 158 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **224** | **232** | **533** |
+| **All** | **77** | **225** | **231** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -228,6 +228,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Conversation cards gains a "Big picture, for a group" choice, off at the start: one picture and its prompt large enough to share across a room (picture up to 55% of the screen height, prompt in 38 to 68 px type, one column or side by side on a wide screen held sideways, the full width of the page), with "Anyone may pass." under the prompt once a prompt is showing. Next card and Previous card are still pressed by the person leading; nothing moves by itself. The deck, its open prompts and its printed set were already there | GAME-051, GAME-050 → partial (not tried on a TV, cast screen or real tablet; no rules text for passing a card round a circle; label and pass line in English only, other languages show English; no automated check opens the big mode) | vitest 3,397 pass (the game's own test checks the choice is offered and off at the start; turning it on is not tested automatically); `tsc` clean; looked at in a browser at 1280 by 720, 768 by 1024 and 390 by 844, no sideways scroll; `check:a11y` runs the default mode |
+
+### Batch 27 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Story chain" at `/games/story-chain/` (English only, built by a subagent and checked by me): a row that starts with one picture and grows by one picture at a time up to eight, while people take turns saying a sentence aloud (nothing typed or recorded); Add a picture, Take the last one off and Start a new chain, an "Anyone may pass" note, a one-page print sheet. No score, timer, streak or count; Rest from the shared frame | GAME-046 → partial (not tried with a group or on a real device; text not reviewed by a person; English only) | vitest 3,719 pass; `tsc` clean; build 16,537 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 12 of 12 game sheets; `check:capacity` 17,272 files (86.4%); `check:a11y` 0 failing of 165 (agent's run) |
 
 ## What blocks the rest
 
