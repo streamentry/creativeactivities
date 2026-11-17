@@ -59,7 +59,7 @@ jobs:
         run: pnpm exec playwright install --with-deps chromium
       - name: Accessibility checks (axe, reflow, zoom, motion, Rest on every game)
         run: pnpm check:a11y
-      - name: Group view (opens on every card, walks every step, fits six screen sizes)
+      - name: Group view (opens on every card, walks every step, fits eight screen sizes)
         run: pnpm check:group
       - name: Keep the checked build for the deploy job
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
