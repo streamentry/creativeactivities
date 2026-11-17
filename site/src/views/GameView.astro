@@ -29,6 +29,7 @@ import FindTheSame from '../games/FindTheSame';
 import ShadowMatch from '../games/ShadowMatch';
 import FourTogether from '../games/FourTogether';
 import OddOneOut from '../games/OddOneOut';
+import StoryChain from '../games/StoryChain';
 import StoryDice from '../games/StoryDice';
 import SortTogether from '../games/SortTogether';
 import PicturePuzzle from '../games/PicturePuzzle';
@@ -97,6 +98,7 @@ const paper = GAME_PRINT[game.slug];
 const rules = rulesText(game.slug, play.ui, lang);
 const sheet = paper.kind === 'page' ? printSheet(game.slug) : null;
 const versionLine = paper.kind === 'none' ? '' : fill(pp.version, { date: paper.version, url: `${SITE.domain}${path}` });
+const sheetHowTo = !sheet ? '' : sheet.layout === 'cards' ? pp.cards : sheet.layout === 'sort' ? pp.sort : sheet.layout === 'puzzle' ? pp.puzzle : sheet.layout === 'chain' ? pp.chain : sheet.rows.some((r) => r.target) ? pp.pointTarget : pp.point;
 const sheetHowTo = !sheet ? '' : sheet.layout === 'cards' ? pp.cards : sheet.layout === 'sort' ? pp.sort : sheet.layout === 'puzzle' ? pp.puzzle : sheet.rows.some((r) => r.target) ? pp.pointTarget : sheet.dice ? pp.dice : pp.point;
 const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.theme]?.baskets : undefined;
 ---
@@ -118,6 +120,7 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'shadow-match' && <ShadowMatch client:load {...play} />}
       {s === 'four-together' && <FourTogether client:load {...play} />}
       {s === 'odd-one-out' && <OddOneOut client:load {...play} />}
+      {s === 'story-chain' && <StoryChain client:load {...play} />}
       {s === 'story-dice' && <StoryDice client:load {...play} />}
       {s === 'sort-together' && <SortTogether client:load {...play} />}
       {s === 'picture-puzzle' && <PicturePuzzle client:load {...play} />}

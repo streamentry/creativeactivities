@@ -13,6 +13,7 @@ const COMPONENT: Record<string, string> = {
   'shadow-match': 'ShadowMatch',
   'four-together': 'FourTogether',
   'odd-one-out': 'OddOneOut',
+  'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
   'picture-puzzle': 'PicturePuzzle',
@@ -26,8 +27,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 15 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(15);
+  it('covers all 16 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(16);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -94,6 +95,11 @@ describe('printable partner on each game page (WEB-052)', () => {
       expect(sheet.rows).toHaveLength(4);
       for (const row of sheet.rows) expect(new Set(row.choices).size).toBe(4);
     }
+    const chain = printSheet('story-chain');
+    if (chain?.layout !== 'chain') throw new Error('chain sheet');
+    expect(chain.pictures).toHaveLength(8);
+    expect(new Set(chain.pictures).size).toBe(8);
+    expect(rulesText('story-chain', playProps('en').ui)).toBe('Take turns: one sentence each, add the next picture.');
     const dice = printSheet('story-dice');
     if (dice?.layout !== 'rows') throw new Error('dice sheet');
     expect(dice.dice).toBe(true);

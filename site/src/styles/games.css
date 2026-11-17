@@ -327,6 +327,40 @@
   color: var(--gm-on-surface);
 }
 
+/* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
+.chain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-tile-gap);
+  list-style: none;
+  margin: 0 auto var(--space-md);
+  padding: 0;
+  max-width: 720px;
+}
+.chain__item {
+  width: clamp(88px, 22%, 160px);
+  aspect-ratio: 1;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--gm-surface);
+}
+.chain__item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.chain__item[data-newest='yes'] {
+  border: 3px solid var(--gm-primary);
+}
+.chain__actions {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-sm);
+}
+
 /* Sorting baskets */
 .baskets {
   display: grid;
@@ -1173,6 +1207,24 @@
   .sheet-paper__target[data-shadow='yes'] img {
     filter: brightness(0);
     opacity: 0.7;
+  }
+  .sheet-paper__chain {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6mm 5mm;
+    max-width: 175mm;
+    margin: 0;
+    padding: 0;
+  }
+  .sheet-paper__chain li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-paper__chain img {
+    max-width: 34mm;
+    margin-inline: auto;
+    border: 1.5px solid #333;
   }
   .sheet-paper__baskets {
     display: grid;

@@ -60,6 +60,20 @@ const name = (id: string) => pictureNames[id] ?? '';
     )
   }
   {
+    sheet.layout === 'chain' && (
+      <ol class="sheet-paper__chain">
+        {sheet.pictures.map((id) => (
+          <li>
+            <figure>
+              <img src={pictureUrl(id)} alt="" width="120" height="120" />
+              <figcaption>{name(id)}</figcaption>
+            </figure>
+          </li>
+        ))}
+      </ol>
+    )
+  }
+  {
     sheet.layout === 'sort' && (
       <>
         <div class="sheet-paper__cards">
