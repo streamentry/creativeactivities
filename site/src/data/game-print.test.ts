@@ -13,6 +13,7 @@ const COMPONENT: Record<string, string> = {
   'shadow-match': 'ShadowMatch',
   'four-together': 'FourTogether',
   'odd-one-out': 'OddOneOut',
+  'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
   'picture-puzzle': 'PicturePuzzle',
   'finish-the-saying': 'FinishTheSaying',
@@ -25,8 +26,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 14 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(14);
+  it('covers all 15 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(15);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -93,6 +94,12 @@ describe('printable partner on each game page (WEB-052)', () => {
       expect(sheet.rows).toHaveLength(4);
       for (const row of sheet.rows) expect(new Set(row.choices).size).toBe(4);
     }
+    const dice = printSheet('story-dice');
+    if (dice?.layout !== 'rows') throw new Error('dice sheet');
+    expect(dice.dice).toBe(true);
+    expect(dice.rows).toHaveLength(4);
+    for (const row of dice.rows) expect(new Set(row.choices).size).toBe(4);
+    expect(new Set(dice.rows.flatMap((r) => r.choices)).size).toBe(16);
     const sort = printSheet('sort-together');
     if (sort?.layout !== 'sort') throw new Error('sort sheet');
     expect(sort.pictures).toHaveLength(8);

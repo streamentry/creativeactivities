@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether` and `ui.oddOneOut` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -50,6 +50,7 @@ member or carer. Write plain, warm, adult language.
 | `content.sorting` | 3 themes × (label + 2 basket names) | Sort together |
 | `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
 | `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
+| `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -205,6 +206,13 @@ Odd one out reuses the Four together group names and is also English only
 picture plainly sits outside every group. After that review, add the
 `ui.oddOneOut` strings and the language code to `ODD_ONE_OUT_REVIEWED` in
 `../games.ts`.
+
+### Story dice (`ui.storyDice`)
+
+Story dice is English only (GAME-025). It needs no picture names to play, but
+its guidance, button and message text have not been reviewed in other
+languages. After a native speaker reviews the `ui.storyDice` strings, add them
+here and add the language code to `STORY_DICE_REVIEWED` in `../games.ts`.
 
 ## Right-to-left languages
 

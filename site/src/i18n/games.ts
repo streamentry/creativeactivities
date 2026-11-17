@@ -18,6 +18,13 @@ export const FOUR_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
  */
 export const ODD_ONE_OUT_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
+/**
+ * Languages where Story dice is offered. It needs no picture names to play,
+ * but its page text and prompts are English only until a native speaker has
+ * reviewed them (GAME-025), so it has its own list.
+ */
+export const STORY_DICE_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /** Translatable fields of a game; everything else (slug, pictures, stages) is shared. */
 export type GameText = Partial<
   Pick<GameInfo, 'name' | 'seoTitle' | 'h1' | 'description' | 'short' | 'players' | 'intro' | 'howTo' | 'tips' | 'faq'>
@@ -47,6 +54,7 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
 export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'four-together') return FOUR_TOGETHER_REVIEWED.includes(code);
   if (slug === 'odd-one-out') return ODD_ONE_OUT_REVIEWED.includes(code);
+  if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);
   if (slug !== 'word-search') return true;
   return playProps(code, slug).content.wordSearch.available;
