@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 171 | 172 | 407 |
+| S2 | 64 | 172 | 171 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **211** | **245** | **533** |
+| **All** | **77** | **212** | **244** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -173,6 +173,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | "Describe your situation" on the finder: a few words become removable choices (kind, time, materials, where, who, energy, mess, what they enjoy, talking, help), read from a list of words and phrases, with a number of minutes put in the finder's bands, a child's age read as a child, and a word turned around by "not", "dislikes" or "difficulty" left out, inside its clause and for phrases as well as words. Nothing typed is sent, stored or put in the address, the browser's spell-check is off in the box and in the site search, and the note beside the box says the chosen filters appear in the address as any filter does. A choice made by hand is not overruled, going back clears the box, and a word naming a condition or a limit gives nothing. A second Claude agent reviewed the diff and its findings are fixed | WEB-002 → partial (an editor's check of the 41 situations and the mapping; other languages; needs the finder has no question for) | vitest 3,501 pass, 1 skipped as before (90 in `situation.test.ts`: 41 situations from 01 §3, 27 condition words, negation inside clauses and for phrases, ordinary words, ages, overrides; 15 in `no-posts.test.ts`); `tsc` clean; build 16,532 pages; `check:a11y` 0 failing of 133; tried in the browser: chips, removal with focus kept in the box, gibberish, clearing, address holds only the choices |
 | `check-site` fails the build if a form, or a button in one, sets where or how it sends (with or without spaces around the equals sign) or a script or frame loads a captcha service, and a test fails if the site's code sends a POST, PUT, PATCH, DELETE or beacon. Today: 55 forms, none posts, no captcha | TSA-044 → partial (the controls for a posting form, which does not exist yet) | `check-site` result below; injecting a form with an action into a built page made it fail, then restored |
+
+### Batch 16 (2026-11-16)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Printable pack builder at `/activity/pack/`: tick up to eight cards, choose one version for the pack, and print a cover with a combined supply list ("Main supplies", with what it assumes), then the cards. The pack lives in the address, not on a server or in storage, and the page says that a visitor who allowed visit counts shares that address like any other. A card is in a pack only with the chosen version: a box that cannot be ticked is dimmed, stays reachable and says why; a link that names cards that are gone or lack the version opens a shorter pack and says so. The page count is shown before printing as "up to N pages". The cover carries a pack key, a version, the address and the noncommercial line. Every card printed in a pack, fixed or built, now ends with its own version date, and `check-site` fails a built pack page when one has none. It counts as an app page for the page weight budget (first-paint styles 14.9 kB gzipped). Linked from the finder; `noindex`. A second Claude agent reviewed the diff before this was recorded, and its findings are fixed. The cover says only that a person may pause or stop whenever they want to, matching the site's pause note | WEB-017 → partial (one version for the whole pack; the page count is an upper bound; no PDF; no static pack page per key; supply lists not reviewed by a person; one language; no real-printer, screen-reader, Firefox or Safari test); WEB-016 stays partial (the printed pack footer is now checked; still no version number or last-checked date) | vitest 3,432 pass, 1 skipped as before (3 in `budget-classes.test.ts` for which page weight budget a page gets; 33 in `pack.test.ts`: the link, the version rule, the notes, a seeded 600-trial check that the supply list is met exactly when every card is, the page limits equal the print check's, no storage or request in the island, and a cover that claims nothing the cards do not each say); `tsc` clean; build 16,533 pages; `check-site` 0 errors; `check-budget` 0 over; `check:print` 0 failing: all 53 cards through the builder on A4 and Letter at one page of cover and two of card, the longest supply list the page itself can make (35 lines, eight cards) at 18 pages on both sizes, which is the stated limit, and three cards named out of order printing in that order in the bedside version; `check:a11y` 0 failing of 143 (the page empty and with a pack chosen); tried in the browser: ticking, a version one card lacks, the full-pack note and a refused tick, a link with an unknown card, saved activities with an unknown slug, clear, the copy fallback, and 375 px |
 
 ## What blocks the rest
 

@@ -53,6 +53,9 @@ const TEMPLATES = [
   { name: 'game', path: '/games/picture-pairs/' },
   { name: 'today', path: '/today/' },
   { name: 'what-i-have', path: '/what-i-have/' },
+  // The pack builder twice: empty, and with a pack chosen so the printable cover and its supply checklist are on the page.
+  { name: 'pack-builder', path: '/activity/pack/' },
+  { name: 'pack-chosen', path: '/activity/pack/?cards=arrange-flowers-together,decorate-a-keepsake-box,wrap-a-small-gift', ready: '.pack-cover--built' },
   { name: 'search', path: '/search/' },
   { name: 'seasons', path: '/seasons/' },
   { name: 'season', path: '/seasons/winter/' },
@@ -315,12 +318,14 @@ async function pool(items, limit, fn) {
 }
 
 /** One page at one width. Returns the printed line and the problems found. */
-async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, width, textScale }) {
+async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, width, textScale }) {
   const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true });
   const page = await context.newPage();
   try {
     const response = await page.goto(base + path, { waitUntil: 'networkidle', timeout: 90000 });
     await page.evaluate(() => document.fonts.ready);
+    // A page whose content appears once its script has run names what to wait for.
+    if (ready) await page.waitForSelector(ready, { timeout: 10000 });
     if (textScale) await page.addStyleTag({ content: `html { font-size: ${textScale} !important; }` });
     const notes = [];
     if (response.status() !== status) notes.push(`HTTP ${response.status()}, expected ${status}`);
