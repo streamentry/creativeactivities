@@ -27,6 +27,7 @@ import { resolveGuide } from '../i18n/guides';
 import { qrSvg } from '../lib/qr';
 import ActivityChanges from '../components/ActivityChanges.astro';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
+import { STAGE_TEXT } from '../lib/group-stage';
 import { relatedCards, type RelatedFacts } from '../lib/related';
 import { overdueSince } from '../../scripts/review-queue-lib.mjs';
 
@@ -127,8 +128,8 @@ const jsonLd = withdrawn
         <>
     <header class="activity-head">
       <p class="eyebrow">{TYPE_LABELS[d.type]}</p>
-      <h1>{d.name}</h1>
-      <p class="activity-head__summary">{d.summary}</p>
+      <h1 data-stage="title">{d.name}</h1>
+      <p class="activity-head__summary" data-stage="summary">{d.summary}</p>
       <p class="activity-scope">{SCOPE_LINE}</p>
       <dl class="activity-ledger">
         {
@@ -144,6 +145,7 @@ const jsonLd = withdrawn
       <p class="activity-materials"><strong>Materials:</strong> {d.materials.length} everyday things, listed below</p>
       <div class="btn-row no-print">
         <a class="btn btn--primary" href="#steps"><Icon name="play" />Start activity</a>
+        <button type="button" class="btn" data-group-stage hidden><Icon name="people" />{STAGE_TEXT.open}</button>
         <button type="button" class="btn" data-print hidden><Icon name="print" />Print the card</button>
         <button type="button" class="btn" data-save={activity.id} aria-pressed="false" hidden>
           <Icon name="heart" /><span data-save-label>Save for later</span>
@@ -160,7 +162,7 @@ const jsonLd = withdrawn
         <section class="activity-need" aria-labelledby="need">
           <h2 id="need">What you need</h2>
           {materialsImages.map((image) => <ActivityImage image={image} variant="materials" />)}
-          <ul class="activity-list activity-check">
+          <ul class="activity-list activity-check" data-stage="materials">
             {d.materials.map((m) => <li>{m}</li>)}
           </ul>
           {
@@ -178,7 +180,7 @@ const jsonLd = withdrawn
         <section class="reveal" aria-labelledby="steps">
           <h2 id="steps" tabindex="-1">What to do</h2>
           {resultImages.map((image) => <ActivityImage image={image} />)}
-          <ol class="activity-steps">
+          <ol class="activity-steps" data-stage="steps">
             {
               d.steps.map((step, i) => (
                 <li>
@@ -192,7 +194,7 @@ const jsonLd = withdrawn
 
         <section class="activity-stop reveal" aria-labelledby="stop">
           <h2 id="stop">It is okay to stop or change it</h2>
-          <p>{d.stopNote}</p>
+          <p data-stage="stop">{d.stopNote}</p>
           <p>{PAUSE_LINE}</p>
         </section>
 
@@ -453,6 +455,19 @@ const jsonLd = withdrawn
   };
   chooseFromHash();
   window.addEventListener('hashchange', chooseFromHash);
+  // Group mode (WEB-046): the card one step at a time on a shared screen. Its code and styles load only when it is opened.
+  const stageButton = document.querySelector<HTMLButtonElement>('[data-group-stage]');
+  if (stageButton && typeof HTMLDialogElement !== 'undefined' && typeof HTMLDialogElement.prototype.showModal === 'function') {
+    stageButton.hidden = false;
+    stageButton.addEventListener('click', async () => {
+      try {
+        const { openGroupStage } = await import('../lib/group-stage-dom');
+        await openGroupStage(stageButton);
+      } catch {
+        say('The group view did not open. The steps are still on this page.');
+      }
+    });
+  }
   // "Start activity" moves focus to the steps, not only the scroll position.
   document.querySelector('a[href="#steps"]')?.addEventListener('click', () => {
     requestAnimationFrame(() => document.getElementById('steps')?.focus());

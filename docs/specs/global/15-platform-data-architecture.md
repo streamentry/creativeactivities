@@ -67,7 +67,9 @@ Depends on: PLAT-008.
 Risks / not doing: one-time migration of the 38 cards. Do not add IDs to guides in S1 unless a guide needs to be referenced by ID.
 
 ### PLAT-002 · Variations as first-class records
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): a hub can list cards and show each card's variation of one kind without copying its text (`variation` in the hub schema; the seated and bedside hubs use it), and every card's variations carry one of the ten kinds in `VARIATION_KINDS`. Not done: an ID for each variation; a review record for a variation apart from its card; retiring one without touching its card; validation that a variation changes at least one step (a variation is a short text, not a set of changed steps).
 Why: the VISION "adaptation graph" is the moat it names. Variations are currently array items inside each card (`variations` in `content.config.ts`), so a hub cannot select one by its own ID or review it separately. The hub schema already has a `variation` field.
 What: each variation has its own ID, a `kind` from the existing nine values, the steps it changes, optional media, and its own review record.
 Acceptance:
@@ -127,7 +129,9 @@ Depends on: PLAT-011.
 Risks / not doing: link rot and licenses for archived copies. Archive only what the license allows; link otherwise.
 
 ### PLAT-007 · Versions, change log and corrections
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): each activity card prints its version date and address in the print footer (WEB-016) and keeps a dated change log, with safety changes labelled and a notice that a printed copy from before a safety change may not show it (WEB-027, `site/src/lib/activity-changes.test.ts`). Only changes to materials, steps, safety or the pictures that show them are listed, so a typo fix is not. The corrections page and log take reports (TSA-035). Not done: a version number for each entity (the version is the card's date); entries created from the diff (they are written by hand); a public correction log of material changes kept for 24 months across guides and hubs; the printed pack footer is not checked.
 Why: DESIGN §4B requires a correction link. [R5 §4] says printed copies cannot be updated, so each print must carry a date and version.
 What: each published entity has a version number and a change-log entry. Material changes (safety, materials, claims, steps) appear on a public correction log for 24 months.
 Acceptance:
@@ -183,7 +187,9 @@ Depends on: PLAT-003, PLAT-005.
 Risks / not doing: slow validation at scale. Measure it at 10× the current content before the gate.
 
 ### PLAT-012 · Staleness and re-review queue
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `pnpm review:queue` lists English cards, hubs and guides (retired guides included) past a 12-month review, safety-flagged cards first (`site/scripts/review-queue-lib.mjs`), and a card past its date says so on the page. `pnpm metrics:content` reports the count and the median days over. `pnpm translations:queue` lists stale translations, protected guides first. Nothing is overdue today, and nothing can be before 2027-10-26, because the oldest page was last updated on 2026-10-25. Not done: an owner on each item; a weekly run that reports to the owner; a "last checked" date that only a review can move (a page with no review record counts as checked on its `updated` date, so editing resets the clock, which this item warns against); the 24-month default for content that is not health-adjacent (the queue uses 12 months for all); the internal dashboard.
 Why: the VISION metric "updates overdue" needs a source. [R5 §5.6] asks for "last checked" dates. A date that is bumped without a review is dishonest.
 What: each entity has `next_review_due`. Proposed defaults: 12 months for health-adjacent or care content, 24 months otherwise. A weekly report lists overdue items and their owners.
 Acceptance:
@@ -219,7 +225,8 @@ Depends on: PLAT-004.
 Risks / not doing: losing the appearance of language coverage. That loss is intended. Coverage counts only reviewed pairs ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-015 · Hosting capacity check at 10× the page count
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence (2026-11-17): the build holds 17,254 files (16,532 pages, 189 language folders, 1,906 MiB) and builds in 51 seconds. Cloudflare documents 20,000 files per version on the Free plan and 100,000 on the Paid plan, and 25 MiB per file ([limits page](https://developers.cloudflare.com/workers/platform/limits/), read that day). The site is at 86% of the Free limit with 2,746 files of headroom, about 12 page types (counted to the point where the check fails, 98%) that exist in every language, and at ten times the pages it would hold about 166,000 files, over the Paid limit. `pnpm check:capacity` (`site/scripts/check-capacity.mjs`, `capacity-lib.mjs`, `site/src/lib/capacity.test.ts`) prints this for any build, warns from 80% of the limit, and fails from 98% or on a file over 25 MiB. The numbers, the limits and the options are written in [hosting-capacity.md](../../engineering/hosting-capacity.md). Not done: a synthetic site at ten times the pages, built and deployed, for upload size, deploy time and cache behavior; the decision (shard deploys, render the long tail on demand, or accept the limit with a dated plan), which is the maintainer's; and recording which plan the account is on. The check runs in the website workflow after the page weight budget and today passes with a warning.
 Why: Workers Static Assets serve files from `dist`. A 10× build means well over 150,000 HTML files before images. Platform limits on file count, file size and deploy size must be checked, not assumed.
 What: build a synthetic site at 10× the current page count and image count. Measure build time, upload size, deploy time and cache behavior. Record the current limits from Cloudflare's documentation.
 Acceptance:
@@ -507,7 +514,9 @@ Depends on: PLAT-037.
 Risks / not doing: treating a clean scan as proof. Say in reports that scans are necessary and insufficient ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-039 · Print and i18n tests
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): a missing or one-way hreflang pair fails the build (`site/scripts/check-site.mjs`, SEO-031). `pnpm check:print` prints every activity card on A4 and on US Letter with the browser's print media and checks that it is one two-sided sheet with the site navigation hidden: 53 cards, 0 failures, in 34 seconds. It now runs in the website workflow after the accessibility check. `pnpm check:a11y` covers each page template in its list, including a translated page (German) and a right-to-left page (Arabic), at 320 px and 640 px and at 200% text, for overflow, reflow and focus. Not done: print checks for hubs, packs and the large-print pages; a long-string test with translated samples as such (the translated pages in the accessibility check are the only samples); a PDF page-count check on generated PDFs (none are generated, PLAT-019); the right-to-left layout check is gated to a reviewed right-to-left language.
 Why: print is a product path (DESIGN §4B). Multilingual pages can break through missing hreflang pairs, long strings or missing right-to-left support ([R5 §2.3]).
 What: print emulation snapshots for each template, with no navigation and no color dependency. PDF page-count check (PLAT-019). Reciprocal hreflang check. Right-to-left layout check once an RTL language is `indexed`. A long-string test with translated samples.
 Acceptance:
