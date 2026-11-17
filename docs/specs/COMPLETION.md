@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 174 | 169 | 407 |
+| S2 | 64 | 175 | 168 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **214** | **242** | **533** |
+| **All** | **77** | **215** | **241** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -185,6 +185,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Four-week paths at `/paths/`: a care path ("Four Quiet Weeks at the Table", for a caregiver and an older adult) and a together path ("Four Weeks of Making Across the Generations", for a child and an older relative). Each states its purpose, who it is not for, why its activities were chosen and a stop note; each week offers two activities. A visitor starts at any week, skips any week in one tap and brings it back in one tap; the page points at the first week from the start that is not skipped. It shows how many of the path's activities are tried, read from the tried list the activity pages keep and never written by the path. The only thing kept is the start and the skipped weeks, in one local key listed in the data inventory and on `/your-data/`. Each week has a time line worked out from its cards, and the path ends with a line that says it is finished, that stopping is fine and that it can be started again from any week. A path prints on two pages in 12 pt with the buttons and counts left off, a box to tick and the address by each activity, a blank line for what the two of them did, the scope and pause lines and a version line. The pages count as app pages for the page weight budget (first-paint styles 14.6 kB gzipped) and their print-only styles are in the file linked for print. The pages are `noindex`, out of the sitemap, linked from the finder | WEB-032 and CNT-006 → partial (no person has checked that the activities suit the people each path names; no session with caregivers or families; no path for other audiences or from a situation; no links from the hubs or Today; one language; saved collections and the weekly plan it depends on are partial) | vitest 3,485 pass, 1 skipped as before (37 in `lib/paths.test.ts`: refused and shared storage, 8 seeded 400-step runs showing that no path action touches the tried list and no count goes down, and a scan of the island for storage, requests, style attributes and words that make a path a streak or a debt; 15 in `data/paths.test.ts` checking the paths against the card files and the claims lint; the new store in the `your-data` tests); `tsc` clean; build 16,536 pages; `check-site` 0 errors (including a new rule that every path carries the scope and pause lines); `check-budget` 0 over; `check:print` 0 failing, both paths on 2 pages on A4 and Letter with the summary, counts and buttons off the paper and the addresses and version on it; `check:a11y` 0 failing of 158 (the list, one path as a new visitor sees it and the other with a place kept, at 320 to 1440 px and 200% text); a second Claude agent reviewed the diff and its findings are fixed; tried in the browser: start, skip, bring back, forget, tried marks arriving from another tab, 375 px |
+
+### Batch 18 (2026-11-17)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A hosting capacity check and a written record. The build holds 17,254 files (16,532 pages, 16,504 of the files in 189 language folders), which is 86% of the 20,000-file limit Cloudflare documents for Workers Static Assets on the Free plan (100,000 on Paid, 25 MiB per file). That leaves 2,746 files, about 12 page types (counted to the point where the check fails, 98%) that exist in every language, and ten times the pages would be about 166,000 files, over the Paid limit. `pnpm check:capacity` prints this for any build, warns from 80% of the limit, fails from 98% or on an oversize file, and runs in the website workflow after the page weight budget. The numbers, the limits, the options (record the plan, shard, render the long tail on demand, choose which page types exist in every language) and what was not measured are in `docs/engineering/hosting-capacity.md` | PLAT-015 → partial (no synthetic site at ten times the pages, built and deployed, so upload size, deploy time and cache behavior are not measured; the decision is the maintainer's; the account's plan is not recorded in the repository) | vitest 3,406 pass, 1 skipped as before (10 in `capacity.test.ts`: the counts, language folders, the warn and fail thresholds on both plans, an oversize file, the page types left in the headroom, the ten-times projection, and the limits with their source and date); `tsc` clean; `pnpm check:capacity` on the real build: 17,254 files, 86.3% of the Free limit, passes with a warning; build 16,532 pages; `check-site` 0 errors; `check-budget` 0 over; limits read from Cloudflare's documentation on 2026-11-17 |
 
 ## What blocks the rest
 
