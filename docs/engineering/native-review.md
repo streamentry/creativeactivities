@@ -139,3 +139,38 @@ These were noticed while translating; none is decided.
 
 A reviewer sign-off does not authorize a release, an upload or a deploy; those
 stay separate approvals.
+
+## Logging a defect
+
+A reviewer records each finding as one row in `docs/l10n/defects.csv`. The log
+is data that scripts read, so it is a CSV file, not a page in this guide.
+
+1. Add a row with a new `id` (no spaces, unique across the file).
+2. `language` is a code from `localization.languages` in
+   `docs/specs/release-status.json`.
+3. `severity` is one of `safety` (could cause harm if followed), `claim` (a
+   medical, cognitive or other promise the product cannot support), `factual`
+   (a wrong fact), `meaning` (the sentence says something other than the
+   source) or `style` (wording, tone, grammar).
+4. `location` is a repository path, optionally with `:line`, for example
+   `metadata/i18n/es.json:12`. The path must exist.
+5. `found_on` and `closed_on` are dates as `YYYY-MM-DD`. `found_by` is the
+   reviewer's name or initials, as agreed with the maintainer.
+6. An open row leaves `fixed_in` and `closed_on` empty. When the fix lands,
+   set `status` to `closed`, `fixed_in` to the commit, PR or file, and
+   `closed_on` to the date.
+
+Check the log with `python3 scripts/l10n_defects.py`. It prints a summary per
+language and exits non-zero on any invalid row.
+
+What blocks a release:
+
+- An open `safety` or `claim` defect blocks the next release of that language.
+  `python3 scripts/l10n_defects.py --release es` names the blockers.
+- `scripts/release_metadata.py --release` also fails when any language marked
+  `reviewed` has an open `safety` or `claim` defect.
+- `factual`, `meaning` and `style` rows never block a release by themselves.
+  Fix them in the next batch of changes.
+
+Counts from the log are internal release gates. Do not publish them as a
+quality badge, a score or a claim that a language is "fully reviewed".
