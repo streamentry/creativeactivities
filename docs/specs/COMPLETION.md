@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 235 | 106 | 407 |
+| S2 | 66 | 238 | 103 | 407 |
 | S3 | 2 | 15 | 58 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **278** | **175** | **533** |
+| **All** | **80** | **281** | **172** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -428,6 +428,13 @@ Three Haiku subagents in parallel, each reviewed and browser-checked (light and 
 | Guide "Making a Life-Story Book Together, One Page at a Time" | SEO-038 → exists | Review fix: the guide said never to ask what someone recalls, yet several prompts were recall questions ("Where did the kettle sit?"); the prompts are now about the thing in front of you and the rule says no quizzing. Crisis route shown in the browser; library inventory regenerated |
 
 Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
+
+### Batch 49 (2026-11-19): localization registers
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| [Cultural adaptation register](global/cultural-adaptation-register.md): 21 rows, one per known point in the native review guide plus a Ukrainian men's-guide row found on the way, each with its file and line, the English counterpart and a proposal (keep, change, remove or reviewer to choose); "Decided by" empty everywhere | L10N-012 → partial | Drafted by a Haiku subagent from the repository only. Six citations spot-checked against the files (Italian chrysanthemum caption, German informal quoted line, Japanese uniformed-work row, Thai rating word, Arabic arrow, Spanish trivia row): all correct. Three points could not be tied to one file (Arabic layout is a run-time check; the Ukrainian source language is not recorded; the Thai store label key) and say so |
+| [Family terms register](global/family-terms-register.md): English source audit of 22 family and age words, legitimate uses separated from example scripts that assume one family; forms of address for German, Spanish, French, Italian, Ukrainian, Russian and Arabic | L10N-015 → partial | Same agent. Review found the scope note wrongly said the game and play strings had no English file; they were searched (three hits, all legitimate) and the note corrected. No "patient" or "sufferer" for the older person. Changing the example scripts and choosing each form of address wait for the maintainer and reviewers |
 
 ## What blocks the rest
 

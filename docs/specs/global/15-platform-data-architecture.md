@@ -468,7 +468,7 @@ Depends on: PLAT-015, PLAT-019.
 Risks / not doing: printed copies that look current when they are not. The version footer covers that.
 
 ### PLAT-035 · One content contract for web and app
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: the app has its own picture packs and content. Two copies of an activity will drift. VISION says one activity can carry many adaptations.
 What: one JSON schema generated from the same source as the site. The app receives a generated bundle per release with the same IDs, statuses and review data.
 Acceptance:
@@ -477,6 +477,8 @@ Acceptance:
 - Translation status is shared.
 Depends on: PLAT-001, PLAT-004.
 Risks / not doing: app release cycles are slower than web. Keep the app bundle small and versioned.
+
+Evidence (2026-11-19): `pnpm content:bundle` writes `site/content-bundle/content-bundle.v1.json` (versioned schema `creative-activities/content-bundle`, 53 activities, about 210 kB) from the same activity cards the site renders: id, status, title, summary, steps, short steps, materials, safety flags and notes, the stop note, variations, pictures, review record, dates, languages and surfaces. A JSON Schema sits beside the builder; a test fails if the committed bundle drifts from the cards. `pnpm content:diff old new` lists changed, added and removed ids and the surfaces each change reaches (web card, large print, print, app). Translation status is shared as the cards have it today: English only. Gaps: the app does not read the bundle yet (Flutter work, not verifiable on the maintainer's machine); substitutions, sources and image captions are left out.
 
 ### Performance, testing and operations
 

@@ -426,10 +426,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-009 | P0 | partial | Local safety and crisis information |
 | L10N-010 | P0 | partial | Translation memory, term base and ARB extraction |
 | L10N-011 | P0 | new | Activity cards localized before guides |
-| L10N-012 | P1 | new | Cultural adaptation register |
+| L10N-012 | P1 | partial | Cultural adaptation register |
 | L10N-013 | P1 | partial | Holidays, faith and food defaults |
 | L10N-014 | P1 | partial | Units, paper sizes and printing |
-| L10N-015 | P1 | new | Family structures and forms of address |
+| L10N-015 | P1 | partial | Family structures and forms of address |
 | L10N-016 | P1 | partial | Right-to-left layout |
 | L10N-017 | P1 | partial | Scripts and font coverage |
 | L10N-018 | P1 | partial | Text length and 200% layout per language |
@@ -518,7 +518,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-026 | P0 | partial | Consent, Global Privacy Control and retention |
 | PLAT-027 | P1 | new | Aggregate "We tried this" counters |
 | PLAT-034 | P1 | new | Website offline reading |
-| PLAT-035 | P1 | new | One content contract for web and app |
+| PLAT-035 | P1 | partial | One content contract for web and app |
 | PLAT-036 | P0 | partial | Performance budgets gated in CI |
 | PLAT-037 | P0 | partial | Visual regression at standard widths |
 | PLAT-038 | P0 | partial | Accessibility automation and assistive-technology gates |
