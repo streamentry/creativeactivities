@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -51,6 +51,11 @@ describe('which games a language offers', () => {
   it('offers Pattern maker in English only until its words are reviewed', () => {
     expect(PATTERN_MAKER_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('pattern-maker', code), code).toBe(code === 'en');
+  });
+
+  it('offers Build together in English only until its words are reviewed', () => {
+    expect(BUILD_TOGETHER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('build-together', code), code).toBe(code === 'en');
   });
 
   it('offers Story chain in English only until its words are reviewed', () => {

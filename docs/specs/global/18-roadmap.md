@@ -215,7 +215,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-044 | P1 | new | Reminiscence card match |
 | GAME-046 | P1 | partial | Story chain |
 | GAME-047 | P2 | new | Find together |
-| GAME-048 | P2 | new | Build-it-together grid |
+| GAME-048 | P2 | partial | Build-it-together grid |
 | GAME-049 | P2 | new | Seated toss tally |
 | GAME-011 | P0 | exists | Picture bingo |
 | GAME-050 | P1 | partial | Picture passing circle |

@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 20 browser games read their words from here. The mobile app's exporter also
+The 21 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -54,6 +54,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.halvesMatch` | 16 strings | Halves match (English only for now; see below) |
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
+| `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -276,6 +277,30 @@ is a pure orange, Green a bluish green, Purple a red-blue purple), because a
 person reads the name beside the shape. A native speaker should check the names,
 then add the translated strings and the language code to `PATTERN_MAKER_REVIEWED`
 in `../games.ts`. Do not machine-translate them.
+
+### Build together (`ui.buildTogether`)
+
+Build together is English only for now (GAME-048). Two people fill one shared grid,
+taking turns. It has one guidance line (also printed on its paper version, and it
+says that nothing the people make is saved or sent), the grid size labels, the
+names of the two people (`people`, a list of two, replaced whole), the four color
+names, the line that says whose turn it is, the spoken name of each place and the
+live messages. `colors` is a list of four names in the order of the palette
+(Yellow, Orange, Green, Purple). `turn` always names the person in words, as in
+"Your turn, first person", and `{person|lower}` puts the name in lowercase inside the
+sentence; where your language does not lowercase names, write `{person}`.
+`cellEmpty` and `cellFilled` are the accessible names of every place: its row, its
+column and either "empty" or the color and the person who put the piece there. A
+place that already has a piece is never called wrong; the message only asks for an
+empty place. `inUse` is shown on the color the other person has, because two people
+may not hold the same color. When the grid is full the page says it is built
+together; nobody wins, and there is no count, score or timer, so keep every string
+free of those ideas. The four fills are the ones Pattern maker uses, fixed in
+`src/data/pattern-maker.ts`; a translator must give four plain, common names that
+name those four fills (Orange is a pure orange, Green a bluish green, Purple a
+red-blue purple). A native speaker should check the names, then add the translated
+strings and the language code to `BUILD_TOGETHER_REVIEWED` in `../games.ts`. Do
+not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

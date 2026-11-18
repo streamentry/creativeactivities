@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 191 | 152 | 407 |
+| S2 | 64 | 192 | 151 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **231** | **225** | **533** |
+| **All** | **77** | **232** | **224** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -270,6 +270,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Pattern maker" at `/games/pattern-maker/` (English only, built by a subagent, checked by me): the player edits one small tile (3 by 3 or 4 by 4) by tapping squares through four colors, each with a written name and a shape, and sees it repeated in a 3 by 3 block; Print my pattern gives one page; Start again with a one-step Put it back, and Surprise me; arrow keys move between squares; Rest from the shared frame; nothing is saved or sent; no score, timer or failure wording. Two small refactors share the arrow-key and color-vision helpers with Color by number | GAME-034 → partial (nobody with color-vision differences has tried it; the color names are not reviewed by a person; the paper copy reuses the on-screen wording; English only) | vitest 3,971 pass (55 new); `tsc` clean; build 16,542 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` one page on A4 and Letter; `check:capacity` exits 0; `check:a11y` 0 failing of 175 (agent's run) |
+
+### Batch 33 (2026-11-18)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Build together" at `/games/build-together/` (English only, built by a subagent, checked by me): two people build one pattern on a shared grid (4 by 4 or 3 by 3), each with their own named color and shape, taking turns to place a piece; either may pass; Take back the last piece; no winner, count, score or timer, and a gentle message when the grid is built together; arrow keys move between squares; Rest from the shared frame; nothing saved or sent; a one-page print sheet | GAME-048 → partial (not tried with real pairs or with anyone with color-vision differences; Start again cannot be taken back; strings and color names not reviewed by a person; English only) | vitest 4,033 pass (61 new); `tsc` clean; build 16,543 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 18 of 18; `check:capacity` 17,293 files (86.5%); `check:a11y` 0 failing of 177 (agent's run) |
 
 ## What blocks the rest
 
