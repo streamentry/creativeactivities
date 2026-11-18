@@ -41,7 +41,7 @@ The recorded JSON of build 2:
 
 How the numbers are read:
 
-- **Wall time** covers the whole `astro build` process, including Node start-up. The spread between builds (58 to 97 s)
+- **Wall time** covers the whole `astro build` process, including Node startup. The spread between builds (58 to 97 s)
   is larger than any change this page would measure. Use the median of several runs when setting a target.
 - **Peak memory** is the `maximum resident set size` from `/usr/bin/time -l`. On Unix that value is the largest single
   process that the time command waited for, not the sum over the tree. Astro's build runs in one Node process, so the
@@ -50,7 +50,7 @@ How the numbers are read:
 - **Pages** is the number of `.html` files in `dist/`. PLAT-015 (2026-11-17) counted 16,532 pages and 17,254 files. The
   site has grown since then (recent batches merged to main), and the counting rule was not reconciled, so the two numbers are
   not compared directly.
-- The PLAT-015 build took 51 s on Astro's own log (2026-11-17). This page's figures include Node start-up and the time
+- The PLAT-015 build took 51 s on Astro's own log (2026-11-17). This page's figures include Node startup and the time
   wrapper, so they are not directly comparable with that log line.
 
 Not measured: CI runner time and memory; the build with a 10× fixture (PLAT-015 still lists that as not done).
