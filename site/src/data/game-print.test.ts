@@ -21,6 +21,7 @@ const COMPONENT: Record<string, string> = {
   'build-together': 'BuildTogether',
   'find-together': 'FindTogether',
   'drawing-duet': 'DrawingDuet',
+  'color-wash': 'ColorWash',
   'seated-toss': 'SeatedToss',
   'decorate-a-card': 'DecorateACard',
   'seasonal-pack': 'SeasonalPack',
@@ -36,11 +37,12 @@ const COMPONENT: Record<string, string> = {
   'picture-bingo': 'PictureBingo',
   'calm-breathing': 'CalmBreathing',
   'quiet-shapes': 'QuietShapes',
+  'collage-board': 'CollageBoard',
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 27 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(27);
+  it('covers all 29 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(29);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];

@@ -98,6 +98,18 @@ export const DECORATE_A_CARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const QUIET_SHAPES_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Color wash is offered. Its guidance, color names, brush names and the messages are English
+ * only until a native speaker has checked them (GAME-038), so it has its own list.
+ */
+export const COLOR_WASH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Collage board is offered. Its cut-out names, the two people, the marks and its messages are
+ * English only until a native speaker has checked them (GAME-033), so it has its own list.
+ */
+export const COLLAGE_BOARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Story dice is offered. It needs no picture names to play,
  * but its page text and prompts are English only until a native speaker has
  * reviewed them (GAME-025), so it has its own list.
@@ -143,6 +155,8 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'drawing-duet') return DRAWING_DUET_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
   if (slug === 'quiet-shapes') return QUIET_SHAPES_REVIEWED.includes(code);
+  if (slug === 'color-wash') return COLOR_WASH_REVIEWED.includes(code);
+  if (slug === 'collage-board') return COLLAGE_BOARD_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);

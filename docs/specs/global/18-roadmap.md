@@ -199,12 +199,12 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-008 | P0 | exists | Coloring |
 | GAME-031 | P1 | partial | Paint-by-number lite |
 | GAME-032 | P1 | partial | Two-hand drawing duet |
-| GAME-033 | P2 | new | Collage board |
+| GAME-033 | P2 | partial | Collage board |
 | GAME-034 | P2 | partial | Pattern maker |
 | GAME-035 | P2 | partial | Co-decorate a card |
 | GAME-037 | P2 | new | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |
-| GAME-038 | P2 | new | Color wash |
+| GAME-038 | P2 | partial | Color wash |
 | GAME-039 | P3 | new | Quiet scene |
 | GAME-040 | P1 | partial | Seasonal puzzle pack |
 | GAME-041 | P2 | new | Garden planner |

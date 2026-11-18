@@ -38,6 +38,7 @@ import FindTogether from '../games/FindTogether';
 import DrawingDuet from '../games/DrawingDuet';
 import SeatedToss from '../games/SeatedToss';
 import QuietShapes from '../games/QuietShapes';
+import CollageBoard from '../games/CollageBoard';
 import DecorateACard from '../games/DecorateACard';
 import SeasonalPack from '../games/SeasonalPack';
 import StoryChain from '../games/StoryChain';
@@ -51,6 +52,7 @@ import ConversationCards from '../games/ConversationCards';
 import PhotoPairs from '../games/PhotoPairs';
 import PictureBingo from '../games/PictureBingo';
 import CalmBreathing from '../games/CalmBreathing';
+import ColorWash from '../games/ColorWash';
 
 const NON_GAMES = new Set(['calm-breathing', 'conversation-cards']);
 
@@ -157,6 +159,8 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'picture-bingo' && <PictureBingo client:load {...play} />}
       {s === 'calm-breathing' && <CalmBreathing client:load {...play} />}
       {s === 'quiet-shapes' && <QuietShapes client:load {...play} />}
+      {s === 'color-wash' && <ColorWash client:load {...play} />}
+      {s === 'collage-board' && <CollageBoard client:load {...play} />}
     </div>
 
     {
