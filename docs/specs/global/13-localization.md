@@ -140,6 +140,8 @@ Acceptance:
 Depends on: L10N-003.
 Risks / not doing: Do not use "patients" in copy. Use "people living with dementia" or the local equivalent [web SEO §6, CONTENT_GUIDE].
 
+Draft glossary: [terminology.md](terminology.md) (2026-11-19), unreviewed.
+
 ### L10N-008 · Brand-name propagation check
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
