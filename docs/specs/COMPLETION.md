@@ -462,5 +462,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): GAME-042 Garden bird spotter needs bird drawings; the music games need a sound licence review. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): GAME-042 Garden bird spotter needs bird drawings; the music games need a sound license review. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).
