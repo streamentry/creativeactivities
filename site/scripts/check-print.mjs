@@ -31,6 +31,8 @@ const LARGE_PRINT_PAGES = 5;
 /** A cover and two pages for each of five cards. */
 const FIXED_PACK_PAGES = 12;
 const WEEKLY_PROGRAM_PAGES = 2;
+/** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
+const PROFESSIONALS_HANDOUT_PAGES = 1;
 /**
  * A game's paper version is one page (WEB-052), except the sets of cards to cut out. Bingo cards are drawn at random each time
  * the page loads, so its set runs from 8 to 9 pages and the limit leaves one more.
@@ -332,6 +334,7 @@ async function main() {
       if (existsSync(join(packDir, id, 'index.html'))) await check('pack', id, `/activity/packs/${id}/`, FIXED_PACK_PAGES, STEP_PT.pack);
     }
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
+    await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }

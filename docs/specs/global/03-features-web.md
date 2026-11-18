@@ -858,7 +858,9 @@ Risks / not doing: A facilitator timer can become pressure. It is off by default
 
 | Priority | Phase | Status | Pillars | Notes |
 |---|---|---|---|---|
-| P2 | S3 | new | CARE, CALM | A printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers ([01](01-positioning-and-audiences.md#2-audiences)). It states the scope line, what the activity is not, and the signs to stop. Reviewed by a credentialed reviewer. Uses no "prescription", "treatment" or "outcome" language ([R3 §7](research/03-art-therapy-wellbeing.md)). |
+| P2 | S3 | partial | CARE, CALM | A printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers ([01](01-positioning-and-audiences.md#2-audiences)). It states the scope line, what the activity is not, and the signs to stop. Reviewed by a credentialed reviewer. Uses no "prescription", "treatment" or "outcome" language ([R3 §7](research/03-art-therapy-wellbeing.md)). |
+
+Evidence (2026-11-19): `/for-professionals/` (`site/src/pages/for-professionals.astro`), linked only from `/for-organizations/`, `noindex` and out of the sitemap (`site/src/lib/noindex-pages.ts`) until a credentialed reviewer signs it. It says what the site is and is not, uses the site's own scope and pause lines (imported, not retyped), and tells professionals how to point families to the finder, the large-print cards and the pack builder, with the addresses written out for paper and a QR code. A test bans prescription, treatment, outcome, therapy and similar words outside "not therapy" and "not treatment". One page on A4 and Letter (`check:print`). Gaps: not reviewed by a credentialed professional; not tried with referrers.
 
 ### WEB-049 · Organization accounts
 

@@ -19,9 +19,9 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
 | S2 | 65 | 233 | 109 | 407 |
-| S3 | 1 | 14 | 60 | 75 |
+| S3 | 1 | 15 | 59 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **78** | **275** | **180** | **533** |
+| **All** | **78** | **276** | **179** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -394,6 +394,14 @@ Checks: vitest 150 files, 4,655 pass (1 skipped); `tsc` clean; build 16,708 page
 | A dark theme that follows the device, from DESIGN.md palette colors only; a "Colors on this site" choice (Light, Dark, Same as this device) on the Accessibility page; high contrast wins; print stays light | WEB-042 → partial (line-length and spacing options not built) | Built by a Haiku subagent. Review: the real build failed on a duplicate `saved` declaration in `TextSize.astro` that `tsc` and the unit tests do not parse; renamed. The agent put the colors choice in the header, adding a row to every mobile page, moved to the Accessibility page. In dark, the current nav item showed light text on the sun fill; 22 rules that paint the sun fill now set their dark text color, and a test enforces it. Light pages compared by screenshot on 15 page types: unchanged apart from the footer text tone |
 
 Checks: vitest 153 files, 4,719 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 226, now with a 390 px dark variant. On its first run the dark variant failed six pages (the path pill, pack choices, a season link and the lead-guide card, which used the always-white tile color); fixed, and the sun-fill test now also reads views and pages.
+
+### Batch 44 (2026-11-19): a handout for professionals
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A one-page printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers, at `/for-professionals/`, held from search until a credentialed reviewer signs it | WEB-048 → partial | Built by a Haiku subagent. Review: it printed on two pages because the QR code is inserted as raw SVG, which Astro's scoped styles do not reach, so the size rule never applied (on screen too); fixed with `:global(svg)` and tighter print spacing. Its small print-button script changed a script Astro inlines on every page, so `check:site` failed on a hash missing from the security headers; the button was replaced by a line telling people how to print, so no security header changed. Link targets are written out for paper |
+
+Checks: vitest 151 files, 4,663 pass (1 skipped); build 16,709 pages; `check:site` 0 errors; `check:print` 8 of 8 (the handout is now one of the templates); `check:a11y` 0 failing of 199.
 
 ## What blocks the rest
 
