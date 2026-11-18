@@ -1,5 +1,7 @@
 # Build baseline (PLAT-013)
 
+<!-- cspell:ignore Cpus Prerender -->
+
 PLAT-013 asks for partitioned, incremental builds. This page is the first measured step: what the website build costs
 today, whether two builds of the same inputs match, and what the installed Astro version can already do. It does not
 change the build. The targets are not set yet, on purpose (see the end).
