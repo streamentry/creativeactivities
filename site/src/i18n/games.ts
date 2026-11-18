@@ -115,6 +115,9 @@ export const COLOR_WASH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
  */
 export const COLLAGE_BOARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
+/** Languages where Scrapbook is offered. Its words are English only until a native speaker reviews them (GAME-037). */
+export const SCRAPBOOK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /**
  * Languages where Garden planner is offered. Its summary words, its messages and its plural picture names are English
  * only until a native speaker has checked them (GAME-041), so it has its own list.
@@ -171,6 +174,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'collage-board') return COLLAGE_BOARD_REVIEWED.includes(code);
   if (slug === 'garden-planner') return GARDEN_PLANNER_REVIEWED.includes(code);
   if (slug === 'coloring-wall') return COLORING_WALL_REVIEWED.includes(code);
+  if (slug === 'scrapbook') return SCRAPBOOK_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);

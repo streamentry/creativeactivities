@@ -31,6 +31,7 @@ export type GameSlug =
   | 'collage-board'
   | 'garden-planner'
   | 'coloring-wall'
+  | 'scrapbook'
   | 'calm-breathing';
 
 export type Stage = 'early' | 'middle' | 'late';
@@ -1443,6 +1444,50 @@ export const GAMES: readonly GameInfo[] = [
       FREE_FAQ,
     ],
     relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'scrapbook',
+    name: 'Scrapbook',
+    seoTitle: 'Scrapbook: Turn Family Photos Together, Page by Page',
+    h1: 'Scrapbook: Add Your Photos and Captions, Then Turn the Pages',
+    description:
+      'Choose two to twelve of your own family photos on your device and turn them as a book, with a few words under each. Nothing is uploaded. Free to print.',
+    short: 'Page through your own family photos together, like a book.',
+    cardPictures: ['house', 'sunflower', 'dog'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Solo, or 2 people side by side',
+    printable: true,
+    intro:
+      'Choose two to twelve of your own photos from this device. Each photo becomes one page of a book, large enough to see, with an optional few words under it. Turn the pages with the buttons or the arrow keys, and use "Look together" to sit side by side with just the photos and words. Your photos stay on this device. They are not uploaded or saved, and the book is gone when you close the page. "Print the scrapbook" prints one photo and its words on each page, with page numbers.',
+    howTo: [
+      'Tap "Choose photos" and pick two to twelve photos. Ask before using a photo of someone who cannot say yes.',
+      'Turn the pages with "Previous page" and "Next page", or with the Left and Right arrow keys.',
+      'Add a few words under a photo if you like. Use "Move earlier" or "Move later" to change the order.',
+      'Tap "Look together" to hide the editing controls and look at the book side by side.',
+      'Tap "Print the scrapbook" for a paper copy, or "Clear the book" when you are done. Nothing is kept.',
+    ],
+    tips: [
+      'Choose photos of happy, familiar things: a garden, a pet, a favorite place. Talk about each page as you turn it.',
+      'Let the person say a few words for each page, even a single word, and write them down exactly as they say them.',
+      'On paper, the printed pages can go into a folder, and the family can add their own pictures and notes around them.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed, scored or counted, and nobody wins. The page number is only there so you know where you are in the book.',
+      },
+      {
+        q: 'Are our photos or captions saved, uploaded or sent?',
+        a: 'No. The photos are read by this page only, and they are not uploaded, stored or sent anywhere. The captions are kept only while the page is open. When you close the page, the book is gone.',
+      },
+      {
+        q: 'Can we print the book?',
+        a: 'Yes. "Print the scrapbook" prints one photo and its caption on each page, with page numbers. Choose A4 or US Letter in the print dialog.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
     featured: false,
   },
 ];

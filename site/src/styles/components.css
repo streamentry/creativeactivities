@@ -480,63 +480,7 @@
   text-underline-offset: 3px;
 }
 
-/* A game card shows its picture mounted like a print in an album. */
-.game-card {
-  padding: var(--space-md);
-}
-.game-card__print {
-  background: var(--gm-surface-raised);
-  padding: var(--space-mat);
-  border-radius: var(--radius-md);
-  border: 1px solid var(--gm-surface-sunken);
-  box-shadow: var(--shadow-hairline);
-  margin-bottom: var(--space-sm);
-}
-.game-card__print img {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
-  border-radius: var(--radius-sm);
-}
-.game-card__pics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 6px;
-}
-.game-card__pics img {
-  aspect-ratio: 1;
-  width: 100%;
-  border-radius: var(--radius-sm);
-}
-.game-card .card__body {
-  padding: 0 var(--space-sm) var(--space-sm);
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-sm);
-  flex: 1;
-}
 
-/* ---------- Chips and tags ---------- */
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 4px 12px;
-  border: 1px solid var(--gm-outline);
-  border-radius: var(--radius-md);
-  background: var(--gm-background);
-  font-size: var(--text-sm);
-  font-weight: 700;
-  color: var(--gm-on-surface);
-}
 
 /* ---------- Notices ---------- */
 .notice {
@@ -582,33 +526,6 @@
 }
 
 /* ---------- Answer box (GEO: the quotable summary) ---------- */
-.answer {
-  position: relative;
-  padding: var(--space-lg);
-  padding-inline-start: calc(var(--space-lg) + 8px);
-  background: var(--gm-surface-raised);
-  border: 1px solid var(--gm-surface-sunken);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-raised);
-  margin-block: var(--space-lg) var(--space-xl);
-}
-.answer::before {
-  content: '';
-  position: absolute;
-  inset-inline-start: 0;
-  top: 18px;
-  bottom: 18px;
-  width: 6px;
-  border-start-end-radius: 6px;
-  border-end-end-radius: 6px;
-  background: var(--gm-accent);
-}
-.answer__label {
-  font-size: var(--text-md);
-  font-weight: 700;
-  color: var(--gm-on-surface-variant);
-  margin-bottom: var(--space-xs);
-}
 .answer p {
   font-size: 1.3125rem;
   line-height: 1.5;
@@ -674,51 +591,10 @@
 }
 
 /* ---------- Table of contents ---------- */
-.toc {
-  border: 1px solid var(--gm-surface-sunken);
-  border-radius: var(--radius-lg);
-  background: var(--gm-surface);
-  padding: var(--space-md) var(--space-lg);
-  margin-block: var(--space-lg);
-}
-.toc__title {
-  font-weight: 700;
-  font-size: var(--text-title-sm);
-  color: var(--gm-on-surface);
-  margin: 0 0 var(--space-xs);
-}
-.toc summary {
-  min-height: var(--target-min);
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  cursor: pointer;
-}
-.toc summary:hover {
-  color: var(--gm-primary);
-}
-.toc summary:focus-visible {
-  outline: 3px solid var(--gm-primary);
-  outline-offset: 4px;
-  border-radius: var(--radius-sm);
-}
 .toc ol {
   margin: var(--space-sm) 0 0;
   padding-inline-start: 1.4em;
   font-size: var(--text-md);
-}
-.toc ol a {
-  color: var(--gm-primary);
-  text-decoration: underline;
-  text-underline-offset: 2px;
-}
-.toc ol a:hover {
-  color: var(--gm-on-surface);
-}
-.toc ol a:focus-visible {
-  outline: 3px solid var(--gm-primary);
-  outline-offset: 2px;
-  border-radius: var(--radius-sm);
 }
 .toc li {
   margin-bottom: 6px;
@@ -731,65 +607,17 @@
 .faq details {
   border-bottom: 1px solid var(--gm-outline);
 }
-.faq summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-md);
-  min-height: var(--target-primary);
-  padding-block: var(--space-md);
-  font-size: var(--text-title-md);
-  font-weight: 700;
-  cursor: pointer;
-  list-style: none;
-}
-.faq summary:hover {
-  color: var(--gm-primary);
-}
 .faq summary:hover::after {
   background: var(--gm-primary-container);
   color: var(--gm-on-primary-container);
 }
-.faq summary:focus-visible {
-  outline: 3px solid var(--gm-primary);
-  outline-offset: 4px;
-  border-radius: var(--radius-sm);
-}
-.faq summary::-webkit-details-marker {
-  display: none;
-}
-.faq summary::after {
-  content: '+';
-  flex: none;
-  display: grid;
-  place-items: center;
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-full);
-  border: 2px solid var(--gm-primary);
-  color: var(--gm-primary);
-  font-size: 1.5rem;
-  line-height: 1;
-}
-.faq details[open] summary::after {
-  content: '−';
-}
-.faq details > div {
-  padding-bottom: var(--space-lg);
-}
 
 /* ---------- Sources ---------- */
-.sources {
-  font-size: var(--text-md);
-}
 .sources ol {
   padding-inline-start: 1.4em;
 }
 .sources li {
   margin-bottom: var(--space-sm);
-}
-.sources .publisher {
-  color: var(--gm-on-surface-variant);
 }
 
 /* ---------- Page header ---------- */
@@ -799,52 +627,11 @@
 .page-head h1 {
   max-width: 22em;
 }
-.meta-line {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm) var(--space-lg);
-  font-size: var(--text-md);
-  color: var(--gm-on-surface-variant);
-  margin-top: var(--space-md);
-}
-.meta-line a {
-  color: var(--gm-primary);
-}
-.meta-line a:focus-visible {
-  outline: 3px solid var(--gm-primary);
-  outline-offset: 2px;
-  border-radius: var(--radius-sm);
-}
 
-/* ---------- Copyable text block for organizations and resource lists ---------- */
-.copy-text {
-  background: var(--gm-surface-sunken);
-  border: 1px solid var(--gm-outline-variant);
-  border-inline-start: 4px solid var(--gm-primary);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  padding: var(--space-md) var(--space-lg);
-  margin-block: var(--space-md) var(--space-lg);
-  font-size: var(--text-md);
-  line-height: var(--leading-body);
-}
-.copy-text p {
-  margin: 0;
-}
 
 /* ---------- Two column article on wide screens ---------- */
-.article-layout {
-  display: grid;
-  gap: var(--space-2xl);
-}
 /* Let wide tables scroll inside the column instead of widening the page. */
-.article-layout > * {
-  min-width: 0;
-}
 @media (min-width: 1040px) {
-  .article-layout {
-    grid-template-columns: minmax(0, var(--content-max)) minmax(260px, 1fr);
-    align-items: start;
-  }
   .article-aside {
     position: sticky;
     top: var(--header-clear, 7rem);
@@ -885,28 +672,6 @@
   flex: none;
 }
 
-/* ---------- Stage cards ---------- */
-.stage-grid {
-  display: grid;
-  gap: var(--space-lg);
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.stage-card__step {
-  display: inline-grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: var(--radius-full);
-  background: var(--gm-surface-raised);
-  border: 2px solid var(--gm-primary);
-  color: var(--gm-primary);
-  font-family: var(--font-display);
-  font-size: var(--text-title-lg);
-  font-weight: 700;
-}
 
 /* ---------- Print helpers ---------- */
 .print-only {
@@ -928,11 +693,9 @@
   .mt-notice,
   .no-print,
   .btn,
-  .cta-band,
   .article-aside,
   .app-cta,
   .play-cta,
-  .toc,
   .jump-nav {
     display: none !important;
   }
@@ -942,12 +705,6 @@
   .section,
   .container {
     padding: 0;
-  }
-  .article-layout {
-    display: block !important;
-  }
-  .article-layout > * {
-    max-width: 100% !important;
   }
   h1,
   h2,
@@ -962,27 +719,14 @@
     orphans: 3;
     widows: 3;
   }
-  .answer,
   .aside-box,
-  .sources,
   .sources li,
-  .copy-text,
   tr,
   blockquote,
   .faq details,
   .prose pre {
     break-inside: avoid;
     page-break-inside: avoid;
-  }
-  .faq details > div {
-    display: block !important;
-  }
-  .faq details summary::after {
-    display: none !important;
-  }
-  .faq summary {
-    break-after: avoid;
-    page-break-after: avoid;
   }
   a {
     color: inherit;
@@ -991,28 +735,6 @@
 }
 
 /* ---------- Call to action band ---------- */
-.cta-band {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: var(--space-lg);
-  margin-top: var(--space-section);
-  padding: clamp(1.5rem, 1rem + 2.5vw, 3rem);
-  border-radius: var(--radius-xl);
-  background:
-    radial-gradient(600px 240px at 100% 0%, var(--gm-glow), transparent 70%),
-    var(--gm-surface);
-  border: 1px solid var(--gm-surface-sunken);
-}
-.cta-band h2 {
-  margin-bottom: var(--space-sm);
-}
-.cta-band p {
-  margin: 0;
-  max-width: 34em;
-  color: var(--gm-on-surface-variant);
-}
 
 /* ---------- Small utilities (no inline styles under the CSP) ---------- */
 .m-0 {
@@ -1112,10 +834,8 @@ summary {
   }
   .card,
   .guide-card,
-  .game-card__print,
   .aside-box,
-  .faq details,
-  .answer {
+  .faq details {
     border: 2px solid #222222 !important;
   }
   .card:has(.card__link:focus-visible) {
@@ -1133,13 +853,6 @@ summary {
     text-decoration: underline;
     text-decoration-thickness: 2px;
   }
-  .answer::before {
-    background: #000000;
-  }
-  .answer__label {
-    color: #000000;
-    font-weight: 800;
-  }
   a.small-print {
     color: #000000;
     font-weight: 800;
@@ -1151,19 +864,6 @@ summary {
   a.small-print:focus-visible {
     outline: 4px solid #000000;
     outline-offset: 2px;
-  }
-  .cta-band {
-    border: 2px solid #000000;
-    background: #FFFFFF;
-  }
-  .faq summary::after {
-    border: 3px solid #000000;
-    color: #000000;
-    font-weight: 800;
-  }
-  .faq summary:focus-visible {
-    outline: 4px solid #000000;
-    outline-offset: 4px;
   }
   .notice {
     border: 2px solid #000000;
@@ -1189,80 +889,9 @@ summary {
   .aside-box img {
     border: 1px solid #000000;
   }
-  .tag {
-    border: 2px solid #000000;
-    font-weight: 800;
-  }
-  .toc {
-    border: 2px solid #000000;
-  }
-  .toc__title {
-    color: #000000;
-    font-weight: 800;
-  }
-  .toc summary:hover {
-    color: #000000;
-    text-decoration: underline;
-  }
-  .toc summary:focus-visible {
-    outline: 4px solid #000000;
-    outline-offset: 4px;
-  }
-  .toc ol a {
-    color: #000000;
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
-  }
-  .toc ol a:hover {
-    text-decoration-thickness: 3px;
-  }
-  .toc ol a:focus-visible {
-    outline: 3px solid #000000;
-    outline-offset: 2px;
-  }
-  .faq summary:hover {
-    color: #000000;
-    text-decoration: underline;
-  }
   .faq summary:hover::after {
     background: #000000;
     color: #FFFFFF;
-  }
-  .sources .publisher {
-    color: #000000;
-  }
-  .sources a {
-    color: #000000;
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
-  }
-  .sources a:hover {
-    text-decoration-thickness: 3px;
-  }
-  .sources a:focus-visible {
-    outline: 3px solid #000000;
-    outline-offset: 2px;
-  }
-  .meta-line {
-    color: #000000;
-  }
-  .meta-line a {
-    color: #000000;
-    text-decoration: underline;
-    text-decoration-thickness: 1.5px;
-  }
-  .meta-line a:hover {
-    text-decoration-thickness: 3px;
-  }
-  .meta-line a:focus-visible {
-    outline: 3px solid #000000;
-    outline-offset: 2px;
-  }
-  .copy-text {
-    border: 2px solid #000000;
-    border-inline-start: 6px solid #000000;
-    background: #FFFFFF;
-    color: #000000;
   }
   .prose blockquote {
     border-inline-start: 4px solid #000000;
@@ -1447,10 +1076,8 @@ summary {
   }
   .card,
   .guide-card,
-  .game-card__print,
   .aside-box,
-  .faq details,
-  .answer {
+  .faq details {
     border: 2px solid CanvasText;
   }
   .card:has(.card__link:focus-visible) {
@@ -1467,14 +1094,6 @@ summary {
     color: Highlight;
     text-decoration: underline;
   }
-  .answer::before {
-    forced-color-adjust: none;
-    background: Highlight;
-  }
-  .answer__label {
-    color: CanvasText;
-    font-weight: 800;
-  }
   a.small-print {
     color: LinkText;
   }
@@ -1484,17 +1103,6 @@ summary {
   a.small-print:focus-visible {
     outline: 3px solid Highlight;
     outline-offset: 2px;
-  }
-  .faq summary::after {
-    border: 2px solid CanvasText;
-    color: CanvasText;
-  }
-  .faq summary:focus-visible {
-    outline: 3px solid Highlight;
-    outline-offset: 4px;
-  }
-  .cta-band {
-    border: 2px solid CanvasText;
   }
   .notice {
     border: 2px solid CanvasText;
@@ -1514,64 +1122,9 @@ summary {
   .aside-box img {
     border: 1px solid CanvasText;
   }
-  .tag {
-    border: 2px solid CanvasText;
-  }
-  .toc {
-    border: 2px solid CanvasText;
-  }
-  .toc__title {
-    color: CanvasText;
-    font-weight: 700;
-  }
-  .toc summary:hover {
-    color: Highlight;
-  }
-  .toc summary:focus-visible {
-    outline: 3px solid Highlight;
-    outline-offset: 4px;
-  }
-  .toc ol a {
-    color: LinkText;
-  }
-  .toc ol a:hover {
-    color: Highlight;
-  }
-  .toc ol a:focus-visible {
-    outline: 3px solid Highlight;
-    outline-offset: 2px;
-  }
-  .faq summary:hover {
-    color: Highlight;
-  }
   .faq summary:hover::after {
     background: Highlight;
     color: HighlightText;
-  }
-  .sources .publisher {
-    color: CanvasText;
-  }
-  .sources a {
-    color: LinkText;
-  }
-  .sources a:focus-visible {
-    outline: 3px solid Highlight;
-    outline-offset: 2px;
-  }
-  .meta-line {
-    color: CanvasText;
-  }
-  .meta-line a {
-    color: LinkText;
-  }
-  .meta-line a:focus-visible {
-    outline: 3px solid Highlight;
-    outline-offset: 2px;
-  }
-  .copy-text {
-    border: 1px solid CanvasText;
-    border-inline-start: 4px solid Highlight;
-    color: CanvasText;
   }
   .prose blockquote {
     border-inline-start: 4px solid Highlight;

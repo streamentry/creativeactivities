@@ -4869,3 +4869,202 @@
     color: #000;
   }
 }
+
+/* GAME-037 Scrapbook: one family photo a page, large, with its caption under it. Nothing widens a layout:
+   long captions wrap and are contained, and every grid track can shrink. */
+.scrapbook {
+  display: grid;
+  gap: var(--space-lg);
+  min-width: 0;
+}
+.scrapbook:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-lg);
+}
+.scrapbook__page {
+  display: grid;
+  gap: var(--space-md);
+  justify-items: center;
+  margin: 0;
+  min-width: 0;
+  padding: var(--space-md);
+  background: var(--gm-surface);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+}
+.scrapbook__photo {
+  display: block;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: min(62vh, 680px);
+  object-fit: contain;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .scrapbook__photo {
+    animation: scrapbook-fade 300ms ease-out;
+  }
+}
+@keyframes scrapbook-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.scrapbook__caption {
+  contain: inline-size;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-align: center;
+}
+.scrapbook__turn {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-sm) var(--space-md);
+  min-width: 0;
+}
+.scrapbook__pageof {
+  grid-column: 1 / -1;
+  margin: 0;
+  text-align: center;
+  font-size: var(--text-lg);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.scrapbook__btn,
+.scrapbook__turn .btn,
+.scrapbook__move .btn,
+.scrapbook__edit .btn {
+  box-sizing: border-box;
+  min-width: 0;
+  min-height: var(--target-primary);
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.scrapbook__btn:disabled,
+.scrapbook__move .btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.scrapbook__edit {
+  display: grid;
+  gap: var(--space-md);
+  min-width: 0;
+}
+.scrapbook__move {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-sm) var(--space-md);
+}
+.scrapbook__caption-field {
+  display: grid;
+  gap: var(--space-xs);
+  min-width: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.scrapbook__caption-input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: var(--target-primary);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  font-family: inherit;
+  font-size: var(--text-lg);
+  font-weight: 400;
+}
+.scrapbook__caption-input:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+.scrapbook__hint {
+  margin: 0;
+  font-size: var(--text-md);
+  overflow-wrap: anywhere;
+}
+.scrapbook__choose {
+  min-width: 0;
+}
+
+/* The paper version: one photo and its caption a page, with the page number. Hidden on screen only by its own rule. */
+@media screen {
+  .scrapbook-sheet {
+    display: none;
+  }
+}
+@media print {
+  .scrapbook-sheet {
+    display: block;
+    color: #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .scrapbook-sheet h2 {
+    font-size: 22pt;
+    margin: 0 0 4mm;
+    break-after: avoid;
+  }
+  .scrapbook-sheet__how,
+  .scrapbook-sheet__num {
+    margin: 0 0 3mm;
+    font-size: 13pt;
+    color: #000;
+  }
+  .scrapbook-sheet__page {
+    display: grid;
+    justify-items: center;
+    gap: 3mm;
+    margin: 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .scrapbook-sheet__frame {
+    display: grid;
+    place-items: center;
+    inline-size: 150mm;
+    block-size: 120mm;
+    border: 0.6mm dashed #000;
+    font-size: 14pt;
+  }
+  .scrapbook-sheet__words {
+    justify-self: start;
+    margin: 4mm 0 0;
+    font-size: 13pt;
+  }
+  .scrapbook-sheet__line {
+    display: block;
+    inline-size: 150mm;
+    block-size: 10mm;
+    border-block-end: 0.3mm solid #000;
+  }
+  .scrapbook-sheet__page img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 170mm;
+    max-height: 170mm;
+    object-fit: contain;
+    border: 1px solid #000;
+  }
+  .scrapbook-sheet__page figcaption {
+    max-width: 170mm;
+    overflow-wrap: anywhere;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+  }
+}

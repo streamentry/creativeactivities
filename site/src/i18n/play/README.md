@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 31 browser games read their words from here. The mobile app's exporter also
+The 32 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain`, `ui.storyDice` and `ui.scrapbook` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -67,6 +67,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
+| `ui.scrapbook` | 31 strings, including the plural `skipped` | Scrapbook (English only for now; GAME-037) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -446,6 +447,19 @@ taken back or the board started again. Nothing here scores, counts or ends the g
 The paper version prints `sheetTitle`, `sheetHow` (the cutting line, which names an
 adult) and `sheetTray`, beside the sharp-tool safety label from the activity
 safety list.
+
+### Scrapbook (`ui.scrapbook`)
+
+Scrapbook is English only for now (GAME-037). The family chooses two to twelve of
+their own photos, which become pages of one book, each with an optional caption of
+up to 80 characters. It has a guidance line for choosing (`guidanceEmpty`), one for
+the book (`guidance`, which is also printed on its paper version and says nothing
+is saved or sent), and one for looking together (`lookGuidance`). `consent` and
+`privacy` are the two statements shown beside the photo chooser. `pageOf` is
+"Page {n} of {total}", and `moved` names the new page after a move. `skipped` is a
+plural object (see the plural rules above), and `usingFirst` takes `{max}`. The
+paper version prints `sheetTitle`, `sheetHow` and `sheetEmpty`, which shows when no
+photos have been chosen. Nothing here scores, times, counts or ends the game.
 
 ### Group coloring wall (`ui.coloringWall`)
 

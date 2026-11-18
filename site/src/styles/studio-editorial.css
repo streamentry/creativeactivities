@@ -6,6 +6,219 @@
    colophon for sources. Layout and ornament only: content, targets and
    contrast come from tokens.css and components.css. */
 
+.answer {
+  position: relative;
+  padding: var(--space-lg);
+  padding-inline-start: calc(var(--space-lg) + 8px);
+  background: var(--gm-surface-raised);
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-raised);
+  margin-block: var(--space-lg) var(--space-xl);
+}
+.answer::before {
+  content: '';
+  position: absolute;
+  inset-inline-start: 0;
+  top: 18px;
+  bottom: 18px;
+  width: 6px;
+  border-start-end-radius: 6px;
+  border-end-end-radius: 6px;
+  background: var(--gm-accent);
+}
+.answer__label {
+  font-size: var(--text-md);
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+  margin-bottom: var(--space-xs);
+}
+.toc {
+  border: 1px solid var(--gm-surface-sunken);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  padding: var(--space-md) var(--space-lg);
+  margin-block: var(--space-lg);
+}
+.toc__title {
+  font-weight: 700;
+  font-size: var(--text-title-sm);
+  color: var(--gm-on-surface);
+  margin: 0 0 var(--space-xs);
+}
+.toc summary {
+  min-height: var(--target-min);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.toc summary:hover {
+  color: var(--gm-primary);
+}
+.toc summary:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+.toc ol a {
+  color: var(--gm-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.toc ol a:hover {
+  color: var(--gm-on-surface);
+}
+.toc ol a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.sources {
+  font-size: var(--text-md);
+}
+.sources .publisher {
+  color: var(--gm-on-surface-variant);
+}
+/* ---------- Copyable text block for organizations and resource lists ---------- */
+.copy-text {
+  background: var(--gm-surface-sunken);
+  border: 1px solid var(--gm-outline-variant);
+  border-inline-start: 4px solid var(--gm-primary);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: var(--space-md) var(--space-lg);
+  margin-block: var(--space-md) var(--space-lg);
+  font-size: var(--text-md);
+  line-height: var(--leading-body);
+}
+.copy-text p {
+  margin: 0;
+}
+@media (prefers-contrast: more) {
+  .answer {
+    border: 2px solid #222222 !important;
+  }
+  .answer::before {
+    background: #000000;
+  }
+  .answer__label {
+    color: #000000;
+    font-weight: 800;
+  }
+  .toc {
+    border: 2px solid #000000;
+  }
+  .toc__title {
+    color: #000000;
+    font-weight: 800;
+  }
+  .toc summary:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+  .toc summary:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+  .toc ol a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .toc ol a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .toc ol a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .sources .publisher {
+    color: #000000;
+  }
+  .sources a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .sources a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .sources a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+  .copy-text {
+    border: 2px solid #000000;
+    border-inline-start: 6px solid #000000;
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
+@media (forced-colors: active) {
+  .answer {
+    border: 2px solid CanvasText;
+  }
+  .answer::before {
+    forced-color-adjust: none;
+    background: Highlight;
+  }
+  .answer__label {
+    color: CanvasText;
+    font-weight: 800;
+  }
+  .toc {
+    border: 2px solid CanvasText;
+  }
+  .toc__title {
+    color: CanvasText;
+    font-weight: 700;
+  }
+  .toc summary:hover {
+    color: Highlight;
+  }
+  .toc summary:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+  .toc ol a {
+    color: LinkText;
+  }
+  .toc ol a:hover {
+    color: Highlight;
+  }
+  .toc ol a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .sources .publisher {
+    color: CanvasText;
+  }
+  .sources a {
+    color: LinkText;
+  }
+  .sources a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .copy-text {
+    border: 1px solid CanvasText;
+    border-inline-start: 4px solid Highlight;
+    color: CanvasText;
+  }
+}
+@media print {
+  .answer,
+  .sources,
+  .copy-text {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .toc {
+    display: none !important;
+  }
+}
+
+
 /* ---------- Page header: the title is the cover ---------- */
 .page-head {
   padding-block: clamp(var(--space-lg), 1rem + 2vw, var(--space-2xl)) var(--space-xl);

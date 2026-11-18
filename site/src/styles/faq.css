@@ -1,0 +1,97 @@
+/* FAQ rows. Moved out of components.css (WEB-074): Faq.astro renders them. The border rules on .faq and
+   .faq details stay in components.css, where their order against studio-editorial.css is unchanged. */
+.faq summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  min-height: var(--target-primary);
+  padding-block: var(--space-md);
+  font-size: var(--text-title-md);
+  font-weight: 700;
+  cursor: pointer;
+  list-style: none;
+}
+
+.faq summary:hover {
+  color: var(--gm-primary);
+}
+
+.faq summary:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary::after {
+  content: '+';
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--gm-primary);
+  color: var(--gm-primary);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.faq details[open] summary::after {
+  content: '−';
+}
+
+.faq details > div {
+  padding-bottom: var(--space-lg);
+}
+
+@media (prefers-contrast: more) {
+  .faq summary::after {
+    border: 3px solid #000000;
+    color: #000000;
+    font-weight: 800;
+  }
+
+  .faq summary:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 4px;
+  }
+
+  .faq summary:hover {
+    color: #000000;
+    text-decoration: underline;
+  }
+}
+@media (forced-colors: active) {
+  .faq summary::after {
+    border: 2px solid CanvasText;
+    color: CanvasText;
+  }
+
+  .faq summary:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 4px;
+  }
+
+  .faq summary:hover {
+    color: Highlight;
+  }
+}
+@media print {
+  .faq details > div {
+    display: block !important;
+  }
+
+  .faq details summary::after {
+    display: none !important;
+  }
+
+  .faq summary {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+}

@@ -202,7 +202,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-033 | P2 | partial | Collage board |
 | GAME-034 | P2 | partial | Pattern maker |
 | GAME-035 | P2 | partial | Co-decorate a card |
-| GAME-037 | P2 | new | Scrapbook builder |
+| GAME-037 | P2 | partial | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |
 | GAME-038 | P2 | partial | Color wash |
 | GAME-039 | P3 | new | Quiet scene |

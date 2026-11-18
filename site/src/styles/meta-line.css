@@ -1,0 +1,48 @@
+/* Meta line under a page header. Moved out of components.css (WEB-074): PageLayout and GuideView. */
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  font-size: var(--text-md);
+  color: var(--gm-on-surface-variant);
+  margin-top: var(--space-md);
+}
+.meta-line a {
+  color: var(--gm-primary);
+}
+.meta-line a:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-contrast: more) {
+  .meta-line {
+    color: #000000;
+  }
+  .meta-line a {
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+  }
+  .meta-line a:hover {
+    text-decoration-thickness: 3px;
+  }
+  .meta-line a:focus-visible {
+    outline: 3px solid #000000;
+    outline-offset: 2px;
+  }
+}
+
+@media (forced-colors: active) {
+  .meta-line {
+    color: CanvasText;
+  }
+  .meta-line a {
+    color: LinkText;
+  }
+  .meta-line a:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+}
