@@ -441,6 +441,7 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | GROW child-facing items (CNT-8xx, S3) and the games for children 2 to 6 (GAME-053, GAME-054, GAME-055, GAME-057) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
 | S4 languages | Native reviewers per language | Reviewers |
 
+<!-- cspell:ignore démence apparentées cognitifs maladie maladies troubles -->
 ## Decisions only the maintainer can make
 
 Each of these blocks work that no one else can unblock. The last column is a suggestion to make the decision quicker. None is decided, and nothing in the repository acts on it.

@@ -1,3 +1,4 @@
+<!-- cspell:disable -- this glossary is mostly terms in other languages, quoted from the research -->
 # Dementia terminology glossary (draft)
 
 Status: draft, unreviewed. Drafted 2026-11-19 from the repository's own research.
