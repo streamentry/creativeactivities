@@ -17,6 +17,8 @@ Finish the saying is left out instead of padded with invented proverbs.
 
 The improvement goal uses the 185 unique codes in docs/languages.csv, including English at the root and 184 non-English translations. A numbered site-guide improvement is complete only when its changed guide has a translated file for each non-English code, passes the guide checker, and remains marked unreviewed until native review. If the English source uses generic local urgent services and names no number, translations must not add an emergency number; the checker rejects numerals absent from the source.
 
+**Translator (2026-11-15):** `scripts/agy_translate.py` uses Claude Haiku by default (`claude -p` with no tools and no saved session). `--backends agy,opencode` brings back the earlier Gemini/OpenCode pool. To refresh only what changed in English since a commit, and resume after a stop: `python3 scripts/agy_translate.py run --changed-since <ref> --progress <file> [--langs es,fr]`.
+
 For one improvement at a time, limit the translation queue to its guide: python3 scripts/agy_translate.py status --kinds guides --guides caregiving/<slug>; add run, --free-only, and --langs es,fr to use free backends for a chosen set. This avoids queueing unrelated guides.
 
 ## Files per language (`<code>` as in `locales.ts`)

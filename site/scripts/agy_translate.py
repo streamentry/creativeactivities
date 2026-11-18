@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
-"""Translate the website into many languages with the Antigravity CLI (`agy`).
+"""Translate the website into many languages with Claude Haiku (default) or the Antigravity CLI (`agy`).
 
     python3 scripts/agy_translate.py status
     python3 scripts/agy_translate.py run  --kinds ui,games,play,guides [--langs is,ka] [--jobs 8]
+    python3 scripts/agy_translate.py run  --changed-since <git ref> --progress <file>
+
+`--changed-since` refreshes only what changed in English since that commit:
+the changed strings of each dictionary (merged into the existing translation)
+and every changed guide that is not retired. Finished tasks are recorded in
+`--progress`, so a long run can stop and resume.
 
 Kinds: ui, games, play (JSON dictionaries) and guides (markdown). A language
 whose file is missing, or still an English copy, is (re)translated; finished
@@ -37,12 +43,12 @@ PLURALS = ('zero', 'one', 'two', 'few', 'many', 'other')
 NO_LETTER_GRID = {'zh-Hans', 'zh-Hant', 'ja', 'ko', 'th', 'my', 'yo', 'lo', 'ii', 'bo', 'dz', 'km', 'zh'}
 lock = threading.Lock()
 
-RULES = """You are a professional localizer for a website of simple, free picture activities that families play with an adult living with dementia.
+RULES = """You are a professional localizer for Creative Activities, a free website of creative activities people do together with someone they care for: crafts for all ages, children's activities, activities across generations, calm creative breaks, and simple picture games, including for adults living with dementia. Dementia is one situation among several; never make a page sound like a dementia site when the English does not.
 Rules:
 - Warm, plain, respectful adult language, grade 6-8 reading level. Say what a native speaker naturally says; never word for word.
 - Say the local equivalent of "people living with dementia" / "the person you care for". Never "patients", "sufferers", "demented", or baby talk. Use the polite-but-warm adult form of address.
 - Never claim or imply any activity treats, slows, prevents, cures or "trains" anything. Keep every hedge ("may", "linked with").
-- Keep EXACTLY: {placeholders} such as {name}, HTML tags and every href/URL, markdown link targets, the brand "Creative Activities", and the store name "Dementia Games: Creative Activities". Keep numbers.
+- Keep EXACTLY: {placeholders} such as {name}, HTML tags and every href/URL, markdown link targets, the brand "Creative Activities", and the store name "Dementia Games: Creative Activities". Keep every number as the same digits, in the same quantity: never spell a number out as a word, never drop or add one (phone numbers, years, counts, minutes).
 - Use the language's own punctuation and quotation marks. No emoji, no exclamation-mark praise, no ALL CAPS.
 - Never add an emergency number or clinical detail that the English source does not provide. Localize a number only when the source explicitly gives one; if it asks readers to contact local urgent care or services without a number, keep it number-free. Keep cited source titles, publishers and URLs unchanged.
 """
@@ -87,12 +93,17 @@ slots = threading.BoundedSemaphore(MAX_JOBS)
 
 
 _rr = itertools.count()
-BACKENDS = ['agy', 'opencode']  # primary pool
+# Default translator (maintainer decision, 2026-11-15): Claude Haiku through the Claude Code CLI,
+# run headless with no tools. `--backends agy,opencode` brings back the earlier pool and fallbacks.
+HAIKU_MODEL = 'claude-haiku-5-5'
+HAIKU_SYSTEM = 'You are a professional website localizer. Output only the requested translation, in the requested format, with no commentary.'
+BACKENDS = ['haiku']  # primary pool
 # Fallbacks: join the pool only while 'opencode' is rate-limited; once opencode's health check
 # passes they drop out again. The two *free* models are separate quota buckets from the paid
 # opencode-go and explabs ones, and are DeepSeek / GLM flash models of comparable quality.
-FALLBACKS = ['iceman', 'deepseek', 'dsfree', 'glmfree']
-ALL_BACKENDS = ['agy', 'opencode', *FALLBACKS]
+FALLBACKS: list[str] = []
+LEGACY_FALLBACKS = ['iceman', 'deepseek', 'dsfree', 'glmfree']
+ALL_BACKENDS = ['haiku']
 OPENCODE_MODEL = 'opencode-go/claude-haiku-5-5'
 DEEPSEEK_MODEL = 'explabs/deepseek-v4.1-flash'
 DEEPSEEK_FREE_MODEL = 'opencode/deepseek-v4.1-flash-free'
@@ -103,12 +114,20 @@ MODEL_FOR = {'opencode': OPENCODE_MODEL, 'deepseek': DEEPSEEK_MODEL, 'dsfree': D
 FREE_BACKENDS = ['iceman', 'dsfree', 'glmfree']
 
 
+def configure_backends(names: list[str]) -> None:
+    """Use these backends; with agy/opencode the old free fallbacks join while opencode is limited."""
+    global BACKENDS, FALLBACKS, ALL_BACKENDS
+    BACKENDS = list(names)
+    FALLBACKS = list(LEGACY_FALLBACKS) if 'opencode' in names else []
+    ALL_BACKENDS = [*BACKENDS, *FALLBACKS]
+
+
 def configure_free_only() -> None:
     global BACKENDS, FALLBACKS, ALL_BACKENDS
     BACKENDS = list(FREE_BACKENDS)
     FALLBACKS = []
     ALL_BACKENDS = list(FREE_BACKENDS)
-QUOTA = re.compile(r'RESOURCE_EXHAUSTED|\b429\b|\b402\b|provider\.quota|usage limit|quota|insufficient funds|rate.?limit|too many requests|overloaded', re.I)
+QUOTA = re.compile(r'weekly limit|hit your (?:\w+ )?limit|limit · resets|RESOURCE_EXHAUSTED|\b429\b|\b402\b|provider\.quota|usage limit|quota|insufficient funds|rate.?limit|too many requests|overloaded', re.I)
 AUTH = re.compile(r'authentication required|not logged in|unauthorized|invalid api key|\b401\b|\b403\b', re.I)
 fails: dict[str, int] = {}
 hits: dict[str, int] = {}
@@ -180,6 +199,19 @@ def _run_opencode(argv: list[str], cwd: str, timeout: int) -> str:
 
 def _run(backend: str, prompt: str, cwd: str, timeout: int) -> str:
     """Run one backend; return the answer text or raise BackendError with a classified kind."""
+    if backend == 'haiku':
+        # Headless Claude Code: no tools, no saved session; the prompt goes on stdin.
+        argv = ['claude', '-p', '--model', HAIKU_MODEL, '--output-format', 'text', '--tools', '',
+                '--no-session-persistence', '--system-prompt', HAIKU_SYSTEM]
+        try:
+            r = subprocess.run(argv, input=prompt, capture_output=True, text=True, cwd=cwd, timeout=timeout)
+        except subprocess.TimeoutExpired:
+            raise BackendError('error', 'timeout')
+        answer = r.stdout.strip()
+        if r.returncode != 0 or not answer:
+            msg = ((r.stderr or '') + answer)[:300] or 'no output'
+            raise BackendError('quota' if QUOTA.search(msg) else 'auth' if AUTH.search(msg) else 'error', msg)
+        return r.stdout
     if backend == 'agy':
         argv = ['agy', '--model', MODEL, f'-p={prompt}']
     else:
@@ -381,10 +413,20 @@ def translate_chunk(lang: dict, chunk: dict, cats: list[str], extra: str, depth=
     raise RuntimeError(f'{lang["code"]}: {keys[0]} failed: {last}')
 
 
-def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
+def translate_json(kind: str, lang: dict, cats: list[str], only: set | None = None) -> Path:
     code = lang['code']
     en = json.loads((I18N / kind / 'en.json').read_text())
     work = json.loads(json.dumps(en))
+    existing = I18N / kind / f'{code}.json'
+    if only is not None and existing.exists():
+        # Keep the current translation and refresh only the changed English strings.
+        old = json.loads(existing.read_text())
+        for path, _ in list(units(en)):
+            if path not in only:
+                try:
+                    set_path(work, path, get_path(old, path))
+                except (KeyError, IndexError, TypeError):
+                    pass
     extra = ''
     if kind == 'play':
         content = work.get('content', {})
@@ -398,7 +440,7 @@ def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
         if code in NO_LETTER_GRID:
             extra = 'Picture names: short concrete nouns, the noun first. Conversation prompts are open invitations, never quiz questions.'
         work['content'] = content
-    items = list(units(work))
+    items = [(p, v) for p, v in units(work) if only is None or p in only]
     chunk, size, chunks = {}, 0, []
     for path, v in items:
         k = '/'.join(map(str, path))
@@ -411,7 +453,7 @@ def translate_json(kind: str, lang: dict, cats: list[str]) -> Path:
     if chunk:
         chunks.append(chunk)
     paths = {'/'.join(map(str, p)): p for p, _ in items}
-    for ch in chunks:
+    for ch in chunks if items else []:
         res = translate_chunk(lang, ch, cats, extra)
         for k, v in res.items():
             set_path(work, paths[k], v)
@@ -530,6 +572,12 @@ def guide_problems(src: str, out: str) -> str:
         errs.append('heading levels differ')
     if unsafe_number_additions(ba, bb):
         errs.append('numbers added that are absent from the English source')
+    # Every number must survive as digits (phone numbers, years, counts), as the site's
+    # structure test (L10N-006) requires: a dropped "116 123" is a wrong helpline.
+    from collections import Counter
+    na, nb = Counter(visible_number_tokens(ba)), Counter(visible_number_tokens(bb))
+    if na != nb:
+        errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
     return '; '.join(errs)
 
 
@@ -575,6 +623,23 @@ def guide_paths(selected: list[str] | None = None) -> list[str]:
     return result
 
 
+def changed_units(kind: str, ref: str) -> set:
+    """Paths of strings in en.json that are new or different since `ref`."""
+    old = subprocess.run(['git', 'show', f'{ref}:site/src/i18n/{kind}/en.json'], capture_output=True, text=True, cwd=SITE.parent)
+    before = dict(units(json.loads(old.stdout))) if old.returncode == 0 else {}
+    now = dict(units(json.loads((I18N / kind / 'en.json').read_text())))
+    return {p for p, v in now.items() if before.get(p) != v}
+
+
+def changed_guides(ref: str) -> list[str]:
+    """Live English guides changed since `ref` (retired guides are skipped)."""
+    out = subprocess.run(['git', 'diff', '--name-only', ref, 'HEAD', '--', 'site/src/content/guides'],
+                         capture_output=True, text=True, cwd=SITE.parent, check=True).stdout.split()
+    retired = set(re.findall(r"^  '([a-z0-9-]+/[a-z0-9-]+)':", (SITE / 'src/lib/retired-guides.ts').read_text(), re.M))
+    rels = [f.removeprefix('site/src/content/guides/') for f in out]
+    return [r for r in rels if (GUIDES / r).exists() and r.removesuffix('.md') not in retired]
+
+
 def pending(kinds, codes, guides: list[str] | None = None):
     todo = []
     rels = guide_paths(guides) if 'guides' in kinds else []
@@ -596,7 +661,13 @@ def main():
     ap.add_argument('--limit', type=int, default=0)
     ap.add_argument('--guides', default='', help='comma-separated guide paths (section/slug); only these guides are considered')
     ap.add_argument('--free-only', action='store_true', help='use only free contributor/free-tier translation backends')
+    ap.add_argument('--backends', default='haiku', help='comma-separated: haiku (default), agy, opencode')
+    ap.add_argument('--changed-since', default='', help='git ref: refresh only English strings and guides changed since then')
+    ap.add_argument('--progress', default='', help='file recording finished refresh tasks (required with --changed-since)')
     a = ap.parse_args()
+    if a.changed_since and not a.progress:
+        ap.error('--changed-since needs --progress')
+    configure_backends([b.strip() for b in a.backends.split(',') if b.strip()])
     if a.free_only:
         configure_free_only()
     meta = locale_codes()
@@ -613,10 +684,24 @@ def main():
     selected_guides = [guide.strip() for guide in a.guides.split(',') if guide.strip()]
     if selected_guides and 'guides' not in kinds:
         ap.error('--guides requires guides in --kinds')
-    try:
-        todo = pending(kinds, codes, selected_guides or None)
-    except ValueError as error:
-        ap.error(str(error))
+    only_units = {}
+    progress_file = Path(a.progress) if a.progress else None
+    finished = set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+    if a.changed_since:
+        only_units = {k: changed_units(k, a.changed_since) for k in kinds if k != 'guides'}
+        rels = guide_paths(selected_guides) if selected_guides else changed_guides(a.changed_since)
+        todo = []
+        for c in codes:  # language order from --langs, so the biggest languages can go first
+            for k in kinds:
+                if k == 'guides':
+                    todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
+                elif only_units.get(k) and f'{k}|{c}|' not in finished:
+                    todo.append((k, c, None))
+    else:
+        try:
+            todo = pending(kinds, codes, selected_guides or None)
+        except ValueError as error:
+            ap.error(str(error))
     by = {}
     for k, c, r in todo:
         by.setdefault(k, set()).add(c)
@@ -645,7 +730,7 @@ def main():
                 with lock:
                     if c not in cats:
                         cats[c] = plural_cats(meta[c]['bcp47'])
-                res = t, str(translate_json(k, lang, cats[c]))
+                res = t, str(translate_json(k, lang, cats[c], only_units.get(k) if a.changed_since else None))
         except Exception:
             with lock:
                 lang_bad[c] = lang_bad.get(c, 0) + 1
@@ -663,6 +748,10 @@ def main():
                 t, p = f.result()
                 done += 1
                 print(f'[{done}/{len(todo)}] ok {t[0]} {t[1]} {t[2] or ""}', flush=True)
+                if progress_file:
+                    with lock:
+                        finished.add(f'{t[0]}|{t[1]}|{t[2] or ""}')
+                        progress_file.write_text(json.dumps(sorted(finished)))
             except Exception as e:  # noqa: BLE001
                 print('FAIL', str(e)[:200], flush=True)
 

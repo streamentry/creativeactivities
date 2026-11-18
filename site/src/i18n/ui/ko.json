@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "본문으로 바로 가기",
     "brandName": "Creative Activities",
@@ -12,10 +13,15 @@
     "machineTranslated": "이 페이지는 자동 번역되었으며, 아직 한국어 원어민의 검토를 거치지 않았어요.",
     "readOriginal": "영어 원문 읽기",
     "nav": {
+      "find": "Find an activity",
       "games": "게임",
       "activities": "활동",
       "caregiving": "돌봄",
-      "brainHealth": "뇌 건강"
+      "brainHealth": "뇌 건강",
+      "crafts": "공예",
+      "kids": "어린이",
+      "together": "함께",
+      "creativeCalm": "차분한 창작"
     },
     "faqTitle": "자주 묻는 질문",
     "breadcrumb": "현재 위치",
@@ -27,6 +33,21 @@
       "smaller": "기본 글자",
       "larger": "큰 글자",
       "contrast": "대비 높이기"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +56,12 @@
     "conversationCards": "대화 카드",
     "pictureBingo": "그림 빙고",
     "allGames": "모든 게임",
+    "pictures": "인쇄용 그림",
     "activityIdeas": "활동 아이디어",
     "ideas101": "활동 아이디어 101가지",
     "lateStage": "후기 단계 활동",
     "printable": "인쇄용 활동지",
-    "allActivities": "모든 활동",
+    "allActivities": "모든 활동 안내",
     "forCaregivers": "돌보는 분들을 위해",
     "playTogether": "함께 게임하는 방법",
     "selfCare": "나 자신 돌보기",
@@ -52,10 +74,15 @@
     "app": "Creative Activities 앱",
     "appHelp": "앱 도움말",
     "support": "고객 지원",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "법적 고지",
     "sitePrivacy": "웹사이트 개인정보 처리방침",
     "appPrivacy": "앱 개인정보 처리방침",
     "privacyChoices": "개인정보 선택 사항",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "이용약관 및 앱 라이선스",
     "safety": "안전 및 사용 목적",
     "accessibility": "접근성",
@@ -63,14 +90,18 @@
     "allLegal": "모든 법적 고지",
     "note": "Creative Activities는 함께 즐기는 간단한 활동을 제공해요. 의학적 조언이나 검사, 치료가 아니며, 누구도 진단하거나 측정하거나 점수를 매기지 않아요. 건강에 관한 궁금한 점은 의사와 상담하세요. 응급 상황에서는 119에 전화하세요.",
     "publisher": "발행: Cloudjet Solutions Pte. Ltd.",
-    "pictures": "인쇄용 그림"
+    "crafts": "모든 연령을 위한 공예",
+    "kids": "어린이를 위한 활동",
+    "together": "함께하는 활동",
+    "creativeCalm": "차분한 창작",
+    "dementiaActivities": "치매가 있는 분을 위한 활동"
   },
   "home": {
-    "title": "치매·알츠하이머 어르신 게임과 활동 | Creative Activities",
-    "description": "치매나 알츠하이머가 있는 분과 돌보는 가족을 위한 무료 온라인 그림 게임과 어르신 놀이 아이디어. 가입, 타이머, 점수가 없어요.",
+    "title": "누군가를 돌보는 모든 분을 위한 창작 활동",
+    "description": "누군가를 돌보는 모든 분을 위한 무료 창작 활동: 공예, 어린이를 위한 놀이, 함께하는 활동, 차분한 창작 아이디어.",
     "eyebrow": "무료 · 가입 없음 · 타이머와 점수 없음",
-    "h1": "치매가 있는 분을 위한 편안한 게임과 활동",
-    "lede": "간단한 그림 게임, 익숙한 사진, 함께 즐기는 활동을 천천히, 원하는 속도로.",
+    "h1": "함께 무언가 만들어 보세요",
+    "lede": "그분과 지금 이 순간, 그리고 지금 있는 재료에 맞는 활동을 찾아보세요. 쉬운 공예, 어린이 미술, 함께하는 활동, 차분한 창작 아이디어를 더 쉬운 방법과 인쇄할 수 있는 카드와 함께 제공합니다. 언제든 그만두셔도 됩니다.",
     "playGame": "게임 시작하기",
     "findIdeas": "활동 아이디어 찾기",
     "facts": [
@@ -105,13 +136,13 @@
     "ideas101": "활동 아이디어 101가지",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "초기 단계",
         "text": "좋아하시던 일을 조금씩 맞춰 가며 계속하세요. 취미, 나들이, 말놀이, 함께 계획 세우기.",
         "label": "초기 단계 아이디어"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "중기 단계",
         "text": "단계를 나눈 간단하고 익숙한 일. 빨래 개기, 분류하기, 음악, 그림 게임, 짧은 산책.",
         "label": "중기 단계 아이디어"
@@ -123,10 +154,10 @@
         "label": "후기 단계 아이디어"
       }
     ],
-    "specificHtml": "찾으시는 것이 있나요? <a href=\"/activities/alzheimers/\">알츠하이머가 있는 분을 위한 활동과 게임</a>, <a href=\"/activities/memory-games/\">부담 없는 기억 게임</a>, <a href=\"/activities/trivia/\">쉬운 상식 퀴즈</a>, <a href=\"/activities/puzzles/\">퍼즐</a>을 살펴보세요.",
+    "specificHtml": "특정한 무언가를 찾고 계신가요? <a href=\"/dementia-activities/\">알츠하이머가 있는 분을 위한 활동과 게임</a>, <a href=\"/together/puzzles-and-table-games/\">퍼즐과 보드게임</a>, <a href=\"/together/conversation-games-for-all-ages/\">대화 게임</a>, <a href=\"/together/puzzles-and-table-games/\">퍼즐</a>을 살펴보세요.",
     "approachEyebrow": "저희가 일하는 방식",
-    "approachTitle": "기억력 시험이 아닌, 함께하는 활동",
-    "approachLede": "많은 “두뇌 게임”은 속도, 점수, 연속 기록을 중심으로 만들어져요. 치매가 있는 분에게는 시험처럼 느껴질 수 있어요. 저희는 그 반대로 만들었어요.",
+    "approachTitle": "함께하는 활동이지, 시험이 아닙니다",
+    "approachLede": "많은 ‘두뇌 게임’은 속도, 점수, 연속 성공을 중심으로 만들어집니다. 피곤하거나 몸이 좋지 않거나 치매가 있는 분에게는 그것이 시험처럼 느껴질 수 있습니다. 우리는 그 반대를 만들었습니다.",
     "approachLink": "이렇게 만든 이유",
     "principles": [
       {
@@ -165,14 +196,14 @@
         "text": "거절하시는 흔한 이유와, 나중에 부드럽게 다시 권하는 방법."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "태블릿 설정하기",
-        "text": "더 큰 글씨, 줄어든 알림, 단순한 홈 화면 하나."
+        "href": "/activities/group-art-activities/",
+        "title": "단체 미술 활동",
+        "text": "여러 사람이 한 테이블에 둘러앉아 함께하는 활동으로, 각자 맡을 역할이 있습니다."
       },
       {
-        "href": "/activities/printable/",
-        "title": "무료 인쇄용 활동지",
-        "text": "큰 글씨 낱말 찾기, 색칠하기, 빙고, 대화 카드."
+        "href": "/activities/ideas/",
+        "title": "101가지 활동 아이디어",
+        "text": "간단한 아이디어를, 가지고 있는 재료와 남은 기운에 따라 정리했습니다."
       }
     ],
     "researchTitle": "뇌 건강: 연구가 실제로 말하는 것",
@@ -184,16 +215,16 @@
     "aboutApp": "앱 소개",
     "faq": [
       {
-        "q": "치매가 있는 분께 좋은 게임은 무엇인가요?",
-        "a": "간단하고 익숙하며 부담이 없는 게임이 좋아요. 큰 그림 짝 맞추기, 분류하기, 쉬운 퍼즐, 익숙한 속담 완성하기, 색칠하기, 그림 빙고, 대화 카드 등이 있어요. 가장 좋은 선택은 오늘 그분이 즐거워하시는 것이에요. 타이머, 점수, 시험처럼 느껴지는 것은 피하세요."
+        "q": "어르신에게 좋은 게임은 무엇인가요?",
+        "a": "좋은 게임은 간단하고 익숙하며 부담이 없습니다. 큰 그림 맞추기, 분류하기, 쉬운 직소 퍼즐, 잘 알려진 속담 마무리하기, 색칠하기, 그림 빙고, 대화 카드 같은 것이 있습니다. 이런 게임은 치매가 있는 분을 포함해 많은 어르신께 잘 맞습니다. 가장 좋은 선택은 오늘 그분이 즐거워하는 것입니다. 타이머, 점수, 시험처럼 느껴지는 것은 피하세요."
       },
       {
-        "q": "이 치매 게임은 무료인가요?",
+        "q": "이 게임들은 무료인가요?",
         "a": "네. Creative Activities의 모든 게임과 인쇄용 활동지는 무료이며, 계정이나 가입, 다운로드가 필요 없어요. 게임은 휴대폰, 태블릿, 컴퓨터의 웹 브라우저에서 바로 실행돼요."
       },
       {
         "q": "두뇌 게임이 치매를 예방하나요?",
-        "a": "치매를 예방한다고 입증된 게임은 없으며, Creative Activities도 무엇을 치료하거나 예방한다고 주장하지 않아요. 저희 게임은 즐거움과 함께하는 시간을 위한 것이에요. 뇌 건강 섹션에서 연구가 보여 주는 것과 보여 주지 않는 것을 설명해요."
+        "a": "어떤 게임도 치매를 예방한다고 입증된 바 없으며, Creative Activities는 그 무엇도 치료하거나 예방한다고 주장하지 않습니다. 우리의 게임은 즐거움과 함께하는 시간을 위한 것이며, 어떤 활동 페이지도 건강상의 효능을 주장하지 않습니다."
       },
       {
         "q": "알츠하이머가 있는 분께도 맞는 게임인가요?",
@@ -209,7 +240,36 @@
       },
       {
         "q": "Creative Activities는 누가 만드나요?",
-        "a": "Creative Activities는 가족과 돌보는 분들을 위해 차분하고 어른에게 맞는 그림 활동을 웹과 무료 앱으로 만드는 작은 팀이에요. 저희는 의료진이 아니며, 여기의 어떤 내용도 의학적 조언이 아니에요."
+        "a": "Creative Activities는 누군가를 돌보는 모든 분을 위해 차분한 어른용 창작 활동을 만드는 작은 팀이며, 웹사이트와 무료 앱으로 제공합니다. 우리는 의료 전문가가 아니며, 이곳의 어떤 내용도 의학적 조언이 아닙니다."
+      }
+    ],
+    "groupsEyebrow": "여기서 시작해 보세요",
+    "groupsTitle": "네 가지 창작 활동",
+    "groupsLede": "함께 있는 사람과 지금 있는 재료에 맞는 항목부터 시작해 보세요. 각 페이지에는 더 쉬운 방법과 안전 유의 사항이 있습니다.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "공예",
+        "text": "종이, 물감, 재활용품, 계절에 맞는 만들기로, 모두 더 쉬운 방법이 있습니다.",
+        "label": "공예 둘러보기"
+      },
+      {
+        "href": "/kids/",
+        "title": "어린이",
+        "text": "어른이 곁에 있고 안전 유의 사항이 분명한 어린이 미술과 놀이.",
+        "label": "어린이 활동 둘러보기"
+      },
+      {
+        "href": "/together/",
+        "title": "함께",
+        "text": "대화, 퍼즐, 야외에서 보내는 시간, 세대를 넘어 가까이 지내는 방법.",
+        "label": "함께할 수 있는 활동 둘러보기"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "차분한 창작",
+        "text": "연필, 종이 한 장, 노래와 함께하는 느리고 조용한 창작의 시간. 치료가 아닙니다.",
+        "label": "차분한 창작 둘러보기"
       }
     ]
   },
@@ -248,18 +308,46 @@
   },
   "sections": {
     "activities": {
-      "label": "활동",
-      "title": "치매가 있는 분을 위한 활동",
-      "seo": "치매 어르신 활동: 단계별 놀이 아이디어",
-      "description": "단계별 치매 어르신 활동 아이디어: 음악, 추억 나누기, 일상의 일, 감각 활동, 만들기, 야외 활동, 무료 인쇄용 활동지까지.",
-      "lede": "의미 있는 활동이란 편안함, 보람, 또는 잠깐의 교감을 주는 모든 것이에요. 그분이 늘 좋아하시던 것에서 시작해 오늘에 맞게 바꿔 보세요."
+      "label": "활동 안내",
+      "title": "활동 안내",
+      "seo": "활동 안내: 아이디어, 미술 재료, 시작하는 방법",
+      "description": "누군가와 함께할 수 있는 창작 활동에 대한 쉬운 안내: 간단한 아이디어, 알뜰한 미술 재료, 단체 미술, 편지, 추억, 그리고 미술 치료에 대한 설명.",
+      "lede": "나이와 능력에 상관없이 누군가와 활동을 고르고 시작하는 데 도움이 되는 짧고 실용적인 안내."
+    },
+    "crafts": {
+      "label": "공예",
+      "title": "모든 연령을 위한 공예",
+      "seo": "모든 연령을 위한 쉬운 공예, 더 쉬운 방법까지",
+      "description": "어른, 어린이, 온 가족을 위한 쉬운 공예: 종이, 색칠, 재활용, 계절 공예로, 손에 쥐기 쉬운 방법과 앉아서 하는 방법이 있으며 특별한 솜씨가 필요 없습니다.",
+      "lede": "대부분의 집에 이미 있는 재료로 시작하는 공예로, 모두 더 쉬운 방법이 있어 누구나 무언가를 만들 수 있습니다."
+    },
+    "kids": {
+      "label": "어린이",
+      "title": "어린이를 위한 창작 활동",
+      "seo": "어린이를 위한 창작 활동: 미술, 감각 놀이, 차분함",
+      "description": "어린이를 위한 창작 활동: 유아 미술, 과정 중심 미술, 감각 놀이, 비 오는 날의 만들기, 마음을 가라앉히는 아이디어로, 안전 유의 사항과 감각 요구에 맞춘 방법이 있습니다.",
+      "lede": "다양한 나이와 필요를 가진 어린이를 위한 미술과 놀이 아이디어로, 분명한 안전 유의 사항과 곁에 있는 어른이 함께합니다."
+    },
+    "together": {
+      "label": "함께",
+      "title": "함께하는 활동",
+      "seo": "세대를 넘어 함께하는 활동",
+      "description": "두 세대 이상이 함께하는 활동: 대화 게임, 퍼즐, 야외에서 보내는 시간, 조부모와 손주를 위한 공예, 멀리서도 가까이 지내는 방법.",
+      "lede": "부모님, 조부모님, 아이, 친구와 시간을 나누는 아이디어로, 집에서, 야외에서, 방문했을 때, 멀리서도 할 수 있습니다."
+    },
+    "creative-calm": {
+      "label": "차분한 창작",
+      "title": "차분한 창작",
+      "seo": "차분한 창작: 긴장을 풀어 주는 편안한 미술과 활동",
+      "description": "어른과 돌보는 사람을 위한 편안한 창작 활동: 마음 챙김 미술, 글쓰기, 음악, 감각의 순간, 차분한 오후. 창작 활동이지, 치료가 아닙니다.",
+      "lede": "연필, 종이 한 장, 노래와 함께 천천히 속도를 늦추는 부드러운 방법. 이것은 창작 활동이지 치료가 아니며, 어떤 솜씨도 필요로 하지 않습니다."
     },
     "caregiving": {
-      "label": "돌봄",
-      "title": "돌봄 가이드",
-      "seo": "치매 돌봄 가이드: 일상에 바로 쓰는 도움말",
-      "description": "치매 가족을 돌보는 분을 위한 친절한 실용 가이드: 함께 게임하기, 대화, 거절, 해 질 녘 불안, 태블릿, 앱 고르기, 나 자신 돌보기.",
-      "lede": "치매가 있는 분을 돌보는 일상의 순간을 위한 쉽고 실용적인 도움말. 돌보는 나 자신을 챙기는 방법도 함께 담았어요."
+      "label": "치매 돌봄",
+      "title": "치매가 있는 분 돌보기",
+      "seo": "치매가 있는 분 돌보기: 활동과 도움",
+      "description": "치매가 있는 분을 돌보는 가족을 위한 안내: 함께 놀이하는 방법, 그분이 싫다고 할 때 어떻게 할지, 진단 후 믿을 만한 도움을 어디서 찾을지.",
+      "lede": "치매가 있는 분을 돌보는 가족을 위한 활동 중심 도움말, 그리고 의료와 돌봄에 대한 조언을 어디서 구할지."
     },
     "brain-health": {
       "label": "뇌 건강",
@@ -284,6 +372,10 @@
     "related": "관련 글",
     "startHere": "여기서 시작하세요"
   },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
+  },
   "healthNotice": {
     "aria": "건강 정보 안내",
     "title": "일반 정보이며 의학적 조언이 아니에요",
@@ -291,24 +383,24 @@
   },
   "pages": {
     "about": {
-      "title": "기억력 시험이 아닌, 함께하는 활동",
+      "title": "함께하는 활동이지, 시험이 아닙니다",
       "seoTitle": "Creative Activities 소개: 저희가 일하는 방식",
-      "description": "Creative Activities 게임에 타이머, 점수, 연속 기록이 없는 이유, 그림이 계속 보이는 이유, 그리고 치매에 대해 저희가 주장하는 것과 주장하지 않는 것.",
+      "description": "Creative Activities에 타이머, 점수, 연속 기록이 없는 이유, 그림이 계속 보이게 하는 이유, 그리고 건강과 관련해 우리가 말하는 것과 말하지 않는 것에 대해 안내합니다.",
       "crumb": "저희가 일하는 방식",
-      "lede": "Creative Activities는 돌보는 분과 치매가 있는 분이 나란히 앉아 즐길 수 있는, 차분하고 어른에게 맞는 그림 활동을 만들어요.",
-      "bodyHtml": "<h2>저희가 믿는 것</h2><p>활동의 의미는 그 순간 자체에 있어요. 나누는 대화, 미소, 두 그림을 맞췄을 때의 뿌듯함, 혹은 그저 가까이 앉아 있는 시간이요. 누군가를 측정하거나, 더 몰아붙이거나, 무언가를 증명하려는 것이 아니에요.</p><p>많은 두뇌 훈련 앱은 속도, 점수, 연속 기록, 레벨을 중심으로 만들어져 있어요. 치매가 있는 분에게는 통과할 수 없는 시험처럼 느껴질 수 있어요. 저희는 그 반대로 만들었고, 다음 원칙을 지켜요.</p><ul><li><strong>틀릴 일이 없어요.</strong> 어떤 화면에도 시계, 점수, 이동 횟수, 목숨, 연속 기록, 축하 꽃가루, 카운트다운이 없어요.</li><li><strong>기억해 내기보다 알아보기.</strong> 그림은 기본적으로 계속 보여요. 질문은 대화를 청할 뿐, 이름이나 추억을 묻는 퀴즈를 내지 않아요.</li><li><strong>크고, 쉽고, 한결같게.</strong> 큰 글씨와 그림, 뚜렷한 대비, 늘 같은 자리에 있는 버튼.</li><li><strong>어른으로서의 품위.</strong> 실제 사물 그림과 쉽고 따뜻한 말. 만화, 노래하듯 하는 칭찬, 이모티콘 보상은 없어요.</li><li><strong>쉽게 멈출 수 있어요.</strong> “오늘은 여기까지” 버튼이 항상 보여요. 중간에 멈추는 것도 좋은 마무리예요.</li><li><strong>처음부터 개인정보 보호.</strong> 계정도 광고도 없어요. 고르신 사진은 기기 안에만 남아요.</li></ul><h2>저희가 주장하지 않는 것</h2><p>저희 게임은 즐거움과 교감을 위한 것이에요. 치매나 알츠하이머병을 진단, 검사, 측정, 치료하거나 늦추거나 예방하지 않으며, 그런 목적으로 고르셔서는 안 돼요. <a href=\"/brain-health/\">뇌 건강 페이지</a>에서 연구를 다룰 때는 근거가 약한 부분을 분명히 밝히고, 저희 게임과 절대 연결 짓지 않아요.</p><h2>저희는 누구인가요</h2><p>Creative Activities는 작은 독립 팀이에요. 저희는 의료진이 아니에요. 가이드는 미국 국립노화연구소(National Institute on Aging), 알츠하이머협회(Alzheimer’s Association) 같은 기관이 발표한 안내를 바탕으로 쓰며, 모든 가이드에 출처를 밝혀요. <a href=\"/editorial-policy/\">페이지를 쓰고 확인하는 방법</a>도 읽어 보세요.</p><h2>도움이 될 만한 것을 알려 주세요</h2><p>무엇이 도움이 되고 무엇이 그렇지 않은지 꼭 듣고 싶어요. 특히 치매가 있는 분, 가족 돌봄자, 활동 담당자의 이야기를 기다려요. 이메일: <a href=\"mailto:{email}\">{email}</a></p>"
+      "lede": "Creative Activities는 두 사람이 나란히 함께 즐길 수 있는 차분하고 어른다운 활동을 만듭니다. 한 사람이 다른 사람을 돌보는 관계이든, 단지 함께 시간을 보내고 싶든 누구나 이용할 수 있습니다.",
+      "bodyHtml": "<h2>누구를 위한 곳인가요</h2><p>누군가를 돌보는 모든 분을 위한 곳입니다. 부모님, 조부모님, 자녀, 배우자, 친구, 또는 치매를 살아가는 분을 돌보는 분도 포함됩니다. 가족, 어르신, 활동 담당자 모두 같은 페이지를 이용할 수 있습니다.</p><h2>우리가 중요하게 생각하는 것</h2><p>활동의 의미는 그 순간 자체에 있습니다. 함께 나누는 대화, 미소, 두 그림을 맞추며 느끼는 만족감, 또는 그저 가까이 앉아 있는 시간입니다. 누구를 평가하거나, 더 나아가도록 몰아붙이거나, 무엇인가를 증명하기 위한 것이 아닙니다.</p><p>많은 두뇌 훈련 앱은 속도, 점수, 연속 기록, 단계에 맞춰 설계되어 있습니다. 피곤하거나 몸이 불편한 분, 또는 치매를 살아가는 분께는 통과할 수 없는 시험처럼 느껴질 수 있습니다. 우리는 그와 반대로 설계했으며, 다음 원칙을 지키고 있습니다.</p><ul><li><strong>실패가 없습니다.</strong> 어떤 화면에서도 시계, 점수, 이동 횟수, 생명, 연속 기록, 폭죽 효과, 카운트다운이 없습니다.</li><li><strong>기억해 내기보다 알아보기.</strong> 그림은 기본적으로 계속 보입니다. 안내 문구는 대화를 이끌 뿐, 이름이나 기억을 묻지 않습니다.</li><li><strong>크고, 분명하고, 편안하게.</strong> 큰 글자와 그림, 높은 대비, 항상 같은 자리에 있는 조작 버튼을 사용합니다.</li><li><strong>어른으로서의 존중.</strong> 실제 사진과 따뜻하고 평이한 말투를 사용합니다. 만화 그림, 유치한 칭찬, 이모지 보상은 없습니다.</li><li><strong>언제든 쉽게 멈출 수 있습니다.</strong> 「잠시 여기까지」가 항상 보입니다. 중간에 멈추는 것도 좋은 선택입니다.</li><li><strong>기본적으로 비공개입니다.</strong> 계정이나 광고가 없습니다. 사용자가 선택한 사진은 기기에만 저장됩니다.</li></ul><h2>우리가 말하지 않는 것</h2><p>우리의 게임과 활동은 즐거움과 연결감을 위한 것입니다. 치매나 알츠하이머병을 진단하거나, 검사하거나, 측정하거나, 치료하거나, 진행을 늦추거나, 예방하지 않으며, 그런 이유로 선택해서는 안 됩니다. 건강 연구에 대해 쓸 때는 근거가 부족한 부분을 분명하게 밝히며, 이를 우리의 활동과 연결해 말하지 않습니다.</p><h2>우리는 누구인가요</h2><p>Creative Activities는 작은 독립 팀입니다. 우리는 의료 전문가가 아닙니다. 우리의 안내 글은 National Institute on Aging, Alzheimer’s Association과 같은 기관에서 발표한 자료를 바탕으로 작성되며, 모든 안내 글에 출처를 함께 제공합니다. <a href=\"/editorial-policy/\">페이지를 작성하고 확인하는 방식</a>을 읽어 보세요.</p><h2>도움이 되는 점을 알려 주세요</h2><p>무엇이 도움이 되었고 무엇이 어려웠는지 듣고 싶습니다. 특히 치매를 살아가는 분, 가족 돌봄을 하는 분, 활동 담당자분들의 의견을 기다립니다. <a href=\"mailto:{email}\">{email}</a>으로 연락해 주세요.</p>"
     },
     "editorial": {
       "title": "페이지를 쓰고 확인하는 방법",
       "seoTitle": "편집 원칙",
-      "description": "Creative Activities가 치매 활동과 뇌 건강 페이지를 조사하고, 쓰고, 출처를 밝히고, 수정하는 방법, 그리고 절대 싣지 않는 내용.",
+      "description": "Creative Activities가 활동 및 건강 관련 페이지를 어떻게 조사하고, 작성하고, 출처를 밝히고, 업데이트하는지, 그리고 우리가 게시하지 않는 내용에 대해 안내합니다.",
       "crumb": "편집 원칙",
       "bodyHtml": "<h2>저희의 출처</h2><p>가이드는 미국 국립노화연구소(NIA), 미국 질병통제예방센터(CDC), 알츠하이머협회(Alzheimer’s Association), 미국 알츠하이머재단(Alzheimer’s Foundation of America), 가족돌봄자연합(Family Caregiver Alliance), 영국 국민보건서비스(NHS) 같은 기관의 공개 안내와, 코크란(Cochrane) 리뷰와 대규모 임상시험 같은 동료 심사를 거친 연구를 바탕으로 해요. 모든 가이드에 근거로 삼은 출처를 밝혀요. 인용하기 전에 출처를 직접 열어 보고, 실제로 쓰여 있는 내용만 전해요.</p><h2>글을 쓰는 원칙</h2><ul><li>실용이 먼저: 오늘 할 수 있는 일을 쉬운 말로.</li><li>근거에 솔직하게: 사실이 그렇다면 “관련이 있다”, “~일 수 있다”, “근거가 엇갈린다”라고 써요.</li><li>존중하며: 치매가 있는 분을 어른으로 대하며 쓰고, 시험하거나 부끄럽게 만드는 말은 쓰지 않아요.</li><li>지어낸 내용 없음: 꾸며 낸 통계, 인용, 전문가, 연구, 후기, 추천 글은 없어요.</li></ul><h2>페이지를 검토하는 사람</h2><p>페이지는 Creative Activities 팀이 쓰고 확인하며, 조사와 초안 작성에 AI 글쓰기 도구의 도움을 받아요. 모든 페이지는 팀이 출처와 대조해 확인해요. 저희 페이지는 의사나 다른 의료진의 검토를 <strong>받지 않았으며</strong>, 받았다고 주장하지도 않아요. 일반 정보이며 의학적 조언이 아니에요.</p><h2>절대 싣지 않는 내용</h2><ul><li>게임, 음식, 건강기능식품, 단식, 생활 습관이 치매를 예방하거나 치료하거나 늦추거나 낫게 한다는 주장.</li><li>누군가가 치매가 있다거나 없다고 암시하는 검사, 퀴즈, 점수.</li><li>약을 시작하거나 끊거나 바꾸라는 조언.</li><li>안내처럼 꾸민 광고나 협찬 콘텐츠.</li></ul><h2>수정과 정정</h2><p>각 페이지에는 마지막으로 수정한 날짜가 표시돼요. 잘못된 내용이나 오래된 출처를 발견하시면 <a href=\"mailto:{email}\">{email}</a>로 이메일을 보내 주세요. 빠르게 확인할게요.</p>"
     },
     "faq": {
       "title": "자주 묻는 질문",
-      "seoTitle": "치매 게임과 어르신 활동: 자주 묻는 질문",
-      "description": "치매 게임과 활동에 관한 자주 묻는 질문: 어떤 게임을 해 볼지, 얼마나 할지, 후기 단계 아이디어, 뇌 건강, 개인정보.",
+      "seoTitle": "Creative Activities에 관한 질문과 답변",
+      "description": "게임과 활동에 관한 자주 묻는 질문에 대한 답변입니다. 어떤 활동을 해볼지, 얼마나 오래 할지, 모임 활동, 진행이 많이 된 단계에서의 아이디어, 건강, 개인정보 보호에 대해 안내합니다.",
       "crumb": "자주 묻는 질문",
       "lede": "돌보는 분들이 가장 많이 묻는 질문에 짧고 쉽게 답했어요.",
       "groups": [
@@ -317,7 +409,7 @@
           "title": "게임에 대해",
           "items": [
             {
-              "q": "치매가 있는 분께 가장 좋은 게임은 무엇인가요?",
+              "q": "어르신께 잘 맞는 게임은 무엇인가요?",
               "a": "익숙하고 간단하며 부담이 없는 게임이 가장 좋고, 오늘 그분이 즐거워하시는 것이 정답이에요. 그림이 보이는 짝 맞추기, 분류하기, 쉬운 퍼즐, 익숙한 속담 완성하기, 색칠하기, 그림 빙고는 많은 분들께 잘 맞아요. 타이머, 점수, 시험처럼 느껴지는 것은 피하세요."
             },
             {
@@ -362,7 +454,7 @@
         },
         {
           "id": "health",
-          "title": "뇌 건강",
+          "title": "치매와 건강",
           "items": [
             {
               "q": "게임으로 치매를 예방하거나 늦출 수 있나요?",
@@ -393,7 +485,7 @@
           ]
         }
       ],
-      "moreHtml": "더 자세히 보기: <a href=\"/caregiving/how-to-play-together/\">함께 게임하는 방법</a>, <a href=\"/caregiving/when-they-say-no/\">거절하실 때</a>, <a href=\"/activities/late-stage/\">후기 단계 활동</a>, <a href=\"/brain-health/can-dementia-be-prevented/\">치매는 예방할 수 있을까요?</a>"
+      "moreHtml": "자세한 내용: <a href=\"/caregiving/how-to-play-together/\">함께 하는 방법</a>, <a href=\"/caregiving/when-they-say-no/\">싫다고 할 때</a>, <a href=\"/activities/late-stage/\">진행이 많이 된 단계의 활동</a>, <a href=\"/dementia-activities/\">집에서 하는 치매 관련 활동</a>을 참고해 주세요."
     },
     "handout": {
       "title": "치매가 있는 분을 위한 무료 편안한 게임",
@@ -407,21 +499,21 @@
     },
     "organizations": {
       "title": "요양원, 도서관, 자조 모임을 위해",
-      "seoTitle": "요양원·주간보호센터용 무료 치매 어르신 활동",
-      "description": "요양원, 주간보호센터, 도서관, 노인 복지 기관, 자조 모임에서 무료 치매 게임을 활용하는 방법과 자료 목록에 추가할 소개 문구.",
+      "seoTitle": "요양 시설, 도서관, 모임을 위한 무료 활동",
+      "description": "요양 시설, 주간 보호 프로그램, 도서관, 노인 지원 기관, 지원 모임에서 우리의 무료 게임과 활동 안내 글을 활용하는 방법과 자료 목록에 추가할 수 있는 문구를 제공합니다.",
       "crumb": "기관 및 단체용",
       "lede": "이 사이트의 모든 것은 입소자, 회원, 이용자와 함께 무료로 쓸 수 있으며 계정, 라이선스, 비용이 필요 없어요. 이 페이지에서 무엇이 있는지, 어떻게 공유하는지 안내해요.",
-      "shortText": "{name}: 치매가 있는 분과 돌보는 분을 위한 무료 그림 게임과 활동 가이드. 가입, 타이머, 점수가 없어요.",
-      "longText": "{name}({domain})에서는 치매가 있는 분을 위해 만든 무료 브라우저 게임 {count}가지를 제공해요. 그림이 계속 보이는 짝 맞추기, 쉬운 퍼즐, 분류하기, 익숙한 속담, 인쇄용 카드가 있는 그림 빙고 등이 있어요. 계정, 광고, 타이머, 점수가 없어요. 또한 미국 국립노화연구소(National Institute on Aging)와 알츠하이머협회(Alzheimer's Association)의 자료를 인용한, 치매 단계별 쉬운 활동 가이드도 있어요.",
+      "shortText": "{name}: 어르신, 가족, 치매를 살아가는 분을 위한 무료의 부드러운 그림 게임과 활동 안내 글입니다. 가입, 타이머, 점수가 없습니다.",
+      "longText": "{name} ({domain})은 어르신, 가족, 치매를 살아가는 분을 위한 무료 브라우저 게임 {count}개를 제공합니다. 그림이 계속 보이는 같은 그림 찾기, 쉬운 퍼즐, 분류하기, 익숙한 속담 맞히기, 인쇄 가능한 카드와 화면 진행자가 있는 그림 빙고가 포함됩니다. 계정, 광고, 타이머, 점수가 없습니다. 이 사이트에는 가족, 어르신, 담당자를 위한 쉬운 말로 된 활동 안내 글도 있으며, National Institute on Aging, Alzheimer's Association과 같은 출처가 함께 제공됩니다.",
       "useTitle": "기관에서 활용할 수 있는 것",
       "gamesItemHtml": "<strong>브라우저 게임 {count}가지</strong>: 노트북, 태블릿, 컴퓨터에 연결한 TV에서 실행돼요. 설치, 계정, 다운로드가 필요 없어요. <a href=\"/games/\">모든 게임</a>을 살펴보세요.",
       "printablesLabel": "인쇄용 활동지 {count}가지:",
       "printablesAfter": "각 페이지의 인쇄 버튼을 사용하세요.",
-      "moreItemsHtml": "<li><strong>단체 활동:</strong> <a href=\"/games/picture-bingo/\">그림 빙고</a>에는 인쇄용 카드와 화면 진행 기능이 있고, <a href=\"/activities/trivia/\">쉬운 상식 퀴즈</a>에는 보기와 이야깃거리가 있는 질문 50개가 있어요.</li><li>직원과 가족을 위한 <strong>활동 가이드</strong>: 단계별, 유형별로 쉬운 말과 출처를 담았어요. <a href=\"/activities/ideas/\">활동 아이디어 101가지</a>나 <a href=\"/activities/care-home-groups/\">요양원 단체 활동</a>부터 시작해 보세요.</li>",
+      "moreItemsHtml": "<li><strong>모임 활동 형식:</strong> <a href=\"/games/picture-bingo/\">그림 빙고</a>에는 인쇄 가능한 카드와 화면 진행자가 있으며, <a href=\"/together/conversation-games-for-all-ages/\">대화 게임</a>에는 보기와 대화 주제가 있는 질문이 있습니다.</li><li><strong>활동 안내 글:</strong> 담당자와 가족을 위한 쉬운 말로 된 안내 글로, 출처가 함께 제공됩니다. <a href=\"/activities/ideas/\">101가지 활동 아이디어</a> 또는 <a href=\"/crafts/craft-group-sessions/\">요양 시설을 위한 모임 활동</a>부터 살펴보세요.</li>",
       "restHtml": "<h2>단체에서 활용하는 방법</h2><ul><li><strong>요양원과 치매 전담 시설:</strong> 공용 거실 TV로 그림 빙고나 속담 완성하기를 하고, 한 분이 모두를 위해 화면을 눌러요.</li><li><strong>주간보호센터:</strong> 그림 짝 맞추기를 타일 네 개로 맞춘 태블릿 자리를 마련해 짧은 일대일 시간을 가져요.</li><li><strong>공공 도서관:</strong> 인쇄한 낱말 찾기와 대화 카드를 기억 꾸러미에 넣고, 도서관 태블릿에 사이트를 즐겨찾기해 두어요.</li><li><strong>가족 자조 모임과 치매 카페:</strong> 가족이 집에 가져갈 수 있는 <a href=\"/handout/\">한 장짜리 인쇄용 안내문</a>.</li><li><strong>병원과 퇴원 지원 담당자:</strong> 집이나 병상 곁에서 할 수 있는 차분한 활동으로 돌봄 안내 자료에 안내문을 넣어요.</li></ul><h2>저희가 하지 않는 것</h2><p>게임은 즐거움과 함께하는 시간을 위한 것이에요. 치매를 진단, 검사, 점수화, 치료하거나 늦추지 않으며, 기관에서도 그렇게 소개하지 않도록 부탁드려요. 광고가 없고, 게임은 이름, 건강 정보, 사진 업로드를 요구하지 않아요. 웹사이트는 방문 수를 세기 위해 Google 애널리틱스를 사용해요. 무엇이 수집되는지는 <a href=\"/privacy/\">개인정보 처리방침</a>에서 설명해요. <a href=\"/games/photo-pairs/\">사진 짝 맞추기</a>에 쓴 사진은 브라우저 안에만 머물러요.</p><h2>자료 목록에 추가해 주세요</h2><p>돌보는 분들을 위한 자료 목록이 있다면 <a href=\"/\">{domain}</a>을 자유롭게 링크해 주세요. 아래 소개 문구 중 하나를 복사해 쓰셔도 돼요.</p>",
       "shortTitle": "짧은 소개",
       "longTitle": "긴 소개",
-      "linksHtml": "<p>바로 링크하기 좋은 페이지: <a href=\"/games/\">무료 게임</a>, <a href=\"/activities/printable/\">무료 인쇄용 활동지</a>, <a href=\"/activities/alzheimers/\">알츠하이머 어르신 활동</a>, <a href=\"/caregiving/how-to-play-together/\">함께 게임하는 방법</a>.</p><h2>질문이나 정정 요청</h2><p>사이트 내용이 틀리거나 분명하지 않거나, 입소자의 필요에 맞는 것이 없다면 <a href=\"mailto:{email}\">{email}</a>로 알려 주세요. 입소자나 이용자의 개인정보나 건강 정보는 보내지 말아 주세요.</p>"
+      "linksHtml": "<p>바로 연결할 수 있는 유용한 페이지: <a href=\"/games/\">무료 게임</a>, <a href=\"/games/\">무료 인쇄 자료</a>, <a href=\"/dementia-activities/\">집에서 하는 치매 활동</a>, <a href=\"/caregiving/how-to-play-together/\">함께 즐기는 방법</a>.</p><h2>문의나 수정 요청</h2><p>사이트 내용에 잘못되었거나 명확하지 않은 부분이 있거나, 이곳의 자료가 입소자의 필요에 맞지 않는다면 <a href=\"mailto:{email}\">{email}</a>으로 알려주세요. 입소자나 이용자의 개인정보 또는 건강 정보는 보내지 말아 주시기 바랍니다.</p>"
     },
     "app": {
       "title": "Creative Activities 앱",
@@ -436,17 +528,17 @@
     }
   },
   "gamesIndex": {
-    "title": "무료 온라인 치매·알츠하이머 어르신 게임",
-    "description": "치매나 알츠하이머가 있는 어르신을 위한 무료 온라인 게임: 그림 짝 맞추기, 쉬운 퍼즐, 분류하기, 속담, 색칠하기, 빙고. 가입, 타이머, 점수 없음.",
+    "title": "온라인에서 함께 즐기는 무료 게임",
+    "description": "어르신과 가족, 치매가 있는 분들이 함께 즐길 수 있는 무료 온라인 게임: 그림 맞추기, 쉬운 직소 퍼즐, 분류하기, 속담, 색칠하기, 빙고. 회원가입이나 제한 시간, 점수가 없습니다.",
     "crumb": "게임",
-    "h1": "치매가 있는 분을 위한 편안한 게임",
+    "h1": "함께 즐기는 편안한 게임",
     "lede": "브라우저에서 함께 즐기는 무료 게임 {count}가지. 큰 그림, 쉬운 말, 틀릴 일 없음. 타이머도, 점수도, 가입도 없어요.",
-    "listName": "치매가 있는 분을 위한 편안한 게임",
+    "listName": "함께 즐기는 편안한 게임",
     "byStageTitle": "단계에 따라 게임 고르기",
     "byStageLede": "단계는 대략적인 기준일 뿐이에요. 그분이 즐거워하시고 오늘 편안하게 느끼시는 것을 따르세요.",
     "stageCol": "단계",
     "gamesCol": "잘 맞는 경우가 많은 게임",
-    "moreHtml": "화면 밖에서 해 볼 아이디어: <a href=\"/activities/ideas/\">치매가 있는 분을 위한 활동 101가지</a>, <a href=\"/activities/alzheimers/\">알츠하이머가 있는 분을 위한 활동과 게임</a>, <a href=\"/activities/memory-games/\">부담 없는 기억 게임</a>, <a href=\"/activities/puzzles/\">퍼즐</a>.",
+    "moreHtml": "화면 밖에서 할 수 있는 더 많은 아이디어: <a href=\"/activities/ideas/\">101가지 활동 아이디어</a>, <a href=\"/dementia-activities/\">집에서 하는 치매 활동</a>, <a href=\"/crafts/\">만들기</a>.",
     "faq": [
       {
         "q": "어떤 게임부터 시작하면 좋을까요?",
@@ -462,7 +554,7 @@
       },
       {
         "q": "어르신을 위한 기억력 게임인가요?",
-        "a": "어떤 어르신이든 즐길 수 있는 짝 맞추기와 그림 게임이지만, 기억력을 시험하지 않도록 만들었어요. 그림 짝 맞추기에서는 따로 설정하지 않는 한 그림이 앞면으로 보여요. 치매가 있는 어르신을 위한 기억 게임 가이드에서 어떤 기억 게임이든 부담 없이 하는 방법을 설명해요."
+        "a": "어르신이라면 누구나 즐길 수 있는 짝 맞추기 및 그림 게임이지만, 기억력을 시험하지 않도록 만들어졌습니다. 예를 들어 '그림 짝 맞추기(Picture pairs)'에서는 다른 설정을 선택하지 않는 한 그림이 앞면을 향한 채 그대로 유지됩니다. 어떤 기억력 게임이든 제한 시간과 점수를 없애면 훨씬 편안하게 즐길 수 있습니다."
       },
       {
         "q": "요양원에서 여럿이 할 수 있는 게임이 있나요?",
@@ -483,7 +575,7 @@
     ],
     "faq": [
       {
-        "q": "치매 어르신 활동 앱이 있나요?",
+        "q": "어르신과 가족을 위한 앱도 있나요?",
         "a": "네. Creative Activities(스토어 이름 “{storeName}”)는 App Store와 Google Play에서 무료예요. 큰 타일로 하는 편안한 그림 짝 맞추기, 직접 고른 가족사진으로 하는 게임, 오프라인에서도 되는 그림 묶음이 있어요."
       },
       {
@@ -525,7 +617,7 @@
     "printable": "인쇄 가능",
     "howTo": "{name} 하는 방법",
     "tips": "함께 즐기는 요령",
-    "newToPlayingHtml": "치매가 있는 분과 함께 게임하는 것이 처음이신가요? 흥미를 잃으실 때 어떻게 하면 좋은지를 포함해 <a href=\"/caregiving/how-to-play-together/\">함께 게임하는 방법</a>을 읽어 보세요.",
+    "newToPlayingHtml": "어르신이나 치매가 있는 분과 함께 게임을 하는 것이 처음이신가요? 흥미를 잃으셨을 때 대처하는 방법을 비롯해 <a href=\"/caregiving/how-to-play-together/\">함께 게임하는 방법</a>을 읽어보세요.",
     "moreAria": "더 둘러보기",
     "helpfulGuides": "도움이 되는 가이드",
     "appTitle": "앱으로 즐기기",

@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Aller au contenu principal",
     "brandName": "Creative Activities",
@@ -12,10 +13,15 @@
     "machineTranslated": "Cette page a été traduite automatiquement et n’a pas encore été relue par une personne de langue maternelle française.",
     "readOriginal": "Lire l’original en anglais",
     "nav": {
+      "find": "Find an activity",
       "games": "Jeux",
       "activities": "Activités",
       "caregiving": "Aidants",
-      "brainHealth": "Santé du cerveau"
+      "brainHealth": "Santé du cerveau",
+      "crafts": "Activités manuelles",
+      "kids": "Enfants",
+      "together": "Ensemble",
+      "creativeCalm": "Calme créatif"
     },
     "faqTitle": "Questions et réponses",
     "breadcrumb": "Fil d’Ariane",
@@ -27,6 +33,21 @@
       "smaller": "Texte standard",
       "larger": "Texte plus grand",
       "contrast": "Contraste plus élevé"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +56,12 @@
     "conversationCards": "Cartes de conversation",
     "pictureBingo": "Loto en images",
     "allGames": "Tous les jeux",
+    "pictures": "Images à imprimer",
     "activityIdeas": "Idées d’activités",
     "ideas101": "101 idées d’activités",
     "lateStage": "Activités au stade avancé",
     "printable": "Activités à imprimer",
-    "allActivities": "Toutes les activités",
+    "allActivities": "Tous les guides d'activités",
     "forCaregivers": "Pour les aidants",
     "playTogether": "Comment jouer ensemble",
     "selfCare": "Prendre soin de soi",
@@ -52,10 +74,15 @@
     "app": "L’application Creative Activities",
     "appHelp": "Aide de l’application",
     "support": "Assistance",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Informations légales",
     "sitePrivacy": "Confidentialité du site",
     "appPrivacy": "Politique de confidentialité de l’application",
     "privacyChoices": "Vos choix de confidentialité",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Conditions d’utilisation et licence de l’application",
     "safety": "Sécurité et usage prévu",
     "accessibility": "Accessibilité",
@@ -63,14 +90,18 @@
     "allLegal": "Toutes les informations légales",
     "note": "Creative Activities propose des activités simples à partager, pour le plaisir. Ce n’est ni un avis médical, ni un test, ni un traitement : rien ici ne pose de diagnostic, ne mesure ni ne note qui que ce soit. Pour toute question de santé, parlez-en à un médecin. En cas d’urgence, appelez le numéro d’urgence de votre pays (le 112 en Europe).",
     "publisher": "Publié par Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Images à imprimer"
+    "crafts": "Activités manuelles pour tous les âges",
+    "kids": "Activités pour les enfants",
+    "together": "Activités à faire ensemble",
+    "creativeCalm": "Calme créatif",
+    "dementiaActivities": "Activités pour les personnes vivant avec la démence"
   },
   "home": {
-    "title": "Jeux et activités Alzheimer et démence | Creative Activities",
-    "description": "Jeux d’images gratuits en ligne et idées d’activités pour les personnes atteintes d’Alzheimer ou de démence et leurs aidants. Sans inscription, chrono ni score.",
+    "title": "Creative Activities pour tous ceux qui accompagnent un proche",
+    "description": "Activités créatives gratuites pour tous ceux qui accompagnent un proche : créations manuelles, idées pour les enfants, moments à partager et pauses calmes.",
     "eyebrow": "Gratuit · Sans inscription · Sans chrono ni score",
-    "h1": "Jeux et activités tout en douceur pour les personnes atteintes de démence",
-    "lede": "Des jeux d’images simples, des photos familières et des activités à partager, à votre rythme.",
+    "h1": "Créer ensemble",
+    "lede": "Trouvez une activité adaptée à la personne, au moment présent et à ce que vous avez sous la main. Des activités manuelles simples, des ateliers pour enfants, des choses à faire ensemble et des idées créatives apaisantes, avec des versions simplifiées et une fiche à imprimer. Arrêtez-vous quand vous voulez.",
     "playGame": "Jouer à un jeu",
     "findIdeas": "Trouver des idées d’activités",
     "facts": [
@@ -105,13 +136,13 @@
     "ideas101": "101 idées d’activités",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Stade précoce",
         "text": "Continuer à faire ce que la personne aime, avec de petits ajustements : loisirs, sorties, jeux de mots et projets préparés ensemble.",
         "label": "Idées pour le stade précoce"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Stade intermédiaire",
         "text": "Des tâches simples et familières, découpées en étapes : plier le linge, trier, écouter de la musique, jeux d’images et courtes promenades.",
         "label": "Idées pour le stade intermédiaire"
@@ -123,10 +154,10 @@
         "label": "Idées pour le stade avancé"
       }
     ],
-    "specificHtml": "Vous cherchez quelque chose de précis ? Essayez les <a href=\"/activities/alzheimers/\">activités et jeux pour la maladie d’Alzheimer</a>, les <a href=\"/activities/memory-games/\">jeux de mémoire tout en douceur</a>, les <a href=\"/activities/trivia/\">quiz faciles</a> ou les <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "specificHtml": "Vous cherchez quelque chose de précis ? Découvrez les <a href=\"/dementia-activities/\">activités et jeux pour la maladie d'Alzheimer</a>, les <a href=\"/together/puzzles-and-table-games/\">casse-têtes et jeux de table</a>, les <a href=\"/together/conversation-games-for-all-ages/\">jeux de conversation</a> ou les <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
     "approachEyebrow": "Notre démarche",
-    "approachTitle": "Une activité à partager, pas un test de mémoire",
-    "approachLede": "Beaucoup de « jeux pour le cerveau » reposent sur la vitesse, les scores et les séries. Pour une personne atteinte de démence, cela peut ressembler à un examen. Nous avons fait l’inverse.",
+    "approachTitle": "Une activité partagée, pas un examen",
+    "approachLede": "De nombreux « jeux d'entraînement cérébral » reposent sur la vitesse, les scores et la performance. Pour une personne fatiguée, souffrante ou vivant avec la démence, cela peut ressembler à un examen. Nous avons conçu tout le contraire.",
     "approachLink": "Pourquoi nous les concevons ainsi",
     "principles": [
       {
@@ -165,14 +196,14 @@
         "text": "Les raisons fréquentes d’un refus, et des façons douces de réessayer plus tard."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Configurer une tablette",
-        "text": "Texte plus grand, moins d’interruptions et un seul écran d’accueil, tout simple."
+        "href": "/activities/group-art-activities/",
+        "title": "Activités artistiques en groupe",
+        "text": "Des projets à partager autour d'une table à plusieurs, avec un rôle adapté à chacun."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Activités gratuites à imprimer",
-        "text": "Mots mêlés en gros caractères, coloriages, loto en images et cartes de conversation."
+        "href": "/activities/ideas/",
+        "title": "101 idées d'activités",
+        "text": "Des idées simples, choisies selon ce que vous avez sous la main et l'énergie du moment."
       }
     ],
     "researchTitle": "Santé du cerveau : ce que dit vraiment la recherche",
@@ -184,16 +215,16 @@
     "aboutApp": "À propos de l’application",
     "faq": [
       {
-        "q": "Quels jeux conviennent aux personnes atteintes de démence ?",
-        "a": "Les bons jeux sont simples, familiers et sans pression : de grandes images à associer, du tri, des puzzles faciles, des proverbes connus à compléter, du coloriage, un loto en images et des cartes de conversation. Le meilleur choix est celui qui plaît à la personne aujourd’hui. Évitez les chronomètres, les scores et tout ce qui ressemble à un test."
+        "q": "Quels sont les jeux adaptés pour les personnes âgées ?",
+        "a": "Les jeux les plus adaptés sont simples, familiers et sans pression : associations de grandes images, activités de tri, puzzles faciles, phrases ou dictons connus à terminer, coloriage, loto en images et cartes de conversation. Ils conviennent à beaucoup de personnes âgées, y compris celles vivant avec la démence. Le meilleur choix reste celui qui fait plaisir à la personne aujourd'hui. Évitez les chronomètres, les points et tout ce qui ressemble à un test."
       },
       {
-        "q": "Ces jeux pour personnes atteintes de démence sont-ils gratuits ?",
+        "q": "Ces jeux sont-ils gratuits ?",
         "a": "Oui. Tous les jeux et documents à imprimer de Creative Activities sont gratuits, sans compte, sans inscription et sans téléchargement. Les jeux fonctionnent dans le navigateur d’un téléphone, d’une tablette ou d’un ordinateur."
       },
       {
         "q": "Les jeux pour le cerveau préviennent-ils la démence ?",
-        "a": "Non. Aucun jeu n’a fait la preuve qu’il prévient la démence, et Creative Activities ne prétend ni soigner ni prévenir quoi que ce soit. Nos jeux sont faits pour le plaisir et les moments partagés. Notre rubrique sur la santé du cerveau explique ce que la recherche montre, et ce qu’elle ne montre pas."
+        "a": "Il n'est pas prouvé qu'un jeu permette de prévenir la démence, et Creative Activities ne prétend rien traiter ni prévenir. Nos jeux sont conçus pour le plaisir et pour partager un bon moment ; aucune page d'activité ne formule de promesse pour la santé."
       },
       {
         "q": "Ces jeux conviennent-ils à une personne atteinte de la maladie d’Alzheimer ?",
@@ -209,7 +240,36 @@
       },
       {
         "q": "Qui est derrière Creative Activities ?",
-        "a": "Creative Activities est une petite équipe qui crée des activités en images, calmes et pensées pour les adultes, destinées aux familles et aux aidants, sur le web et dans une application gratuite. Nous ne sommes pas des professionnels de santé, et rien ici ne constitue un avis médical."
+        "a": "Creative Activities est une petite équipe qui crée des activités créatives calmes, pensées pour les adultes, à l'intention de toute personne qui accompagne un proche, sur le web et via une application gratuite. Nous ne sommes pas des soignants et rien ici ne constitue un avis médical."
+      }
+    ],
+    "groupsEyebrow": "Par où commencer",
+    "groupsTitle": "Quatre types d'activités créatives",
+    "groupsLede": "Choisissez la catégorie qui correspond le mieux à la personne qui vous accompagne et à ce que vous avez chez vous. Chaque page propose des versions simplifiées et des conseils de sécurité.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Activités manuelles",
+        "text": "Projets avec du papier, de la peinture, des matériaux recyclés ou au fil des saisons, avec une version simplifiée pour chacun d'eux.",
+        "label": "Explorer les activités manuelles"
+      },
+      {
+        "href": "/kids/",
+        "title": "Enfants",
+        "text": "Activités artistiques et jeux pour les enfants, avec un adulte à proximité et des consignes de sécurité claires.",
+        "label": "Explorer les activités pour enfants"
+      },
+      {
+        "href": "/together/",
+        "title": "Ensemble",
+        "text": "Conversations, puzzles, moments en extérieur et occasions de rester proches entre générations.",
+        "label": "Explorer les activités à faire ensemble"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calme créatif",
+        "text": "Des moments créatifs doux et tranquilles avec un crayon, une page ou une chanson. Sans visée thérapeutique.",
+        "label": "Explorer le calme créatif"
       }
     ]
   },
@@ -248,18 +308,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Activités",
-      "title": "Activités pour personnes atteintes de démence",
-      "seo": "Activités pour personnes atteintes de démence, par stade",
-      "description": "Idées d’activités pour personnes âgées atteintes de démence, à chaque stade : musique, souvenirs, gestes du quotidien, sens, loisirs créatifs, fiches à imprimer.",
-      "lede": "Une activité qui a du sens, c’est tout ce qui apporte du réconfort, un but ou un moment de lien."
+      "label": "Guides d'activités",
+      "title": "Guides d'activités",
+      "seo": "Guides d'activités : idées, matériel et façons de débuter",
+      "description": "Des guides clairs pour partager des activités créatives avec un proche : idées simples, matériel sans se ruiner, créations collectives, lettres, souvenirs et repères sur l'art-thérapie.",
+      "lede": "Des guides courts et pratiques pour choisir et démarrer une activité avec un proche, quel que soit son âge ou ses capacités."
+    },
+    "crafts": {
+      "label": "Activités manuelles",
+      "title": "Activités manuelles pour tous les âges",
+      "seo": "Activités manuelles faciles pour tous les âges, avec versions simplifiées",
+      "description": "Activités manuelles simples pour adultes, enfants et familles : papier, coloriage, matériaux recyclés et projets de saison, avec des variantes assises ou faciles à tenir, sans compétence particulière.",
+      "lede": "Des créations à faire à partir de ce que l'on a déjà à la maison, chacune avec une version simplifiée pour que chacun puisse participer."
+    },
+    "kids": {
+      "label": "Enfants",
+      "title": "Activités créatives pour les enfants",
+      "seo": "Activités créatives pour enfants : art, éveil sensoriel et calme",
+      "description": "Activités créatives pour enfants : créations pour les tout-petits, découverte des matières, jeux sensoriels, bricolages pour jours de pluie et idées pour s'apaiser, avec consignes de sécurité et adaptations selon les sensibilités.",
+      "lede": "Des idées artistiques et ludiques pour les enfants de différents âges et besoins, avec des consignes de sécurité claires et la présence d'un adulte."
+    },
+    "together": {
+      "label": "Ensemble",
+      "title": "Activités à faire ensemble",
+      "seo": "Activités à faire ensemble, entre générations",
+      "description": "Activités réunissant deux générations ou plus : jeux de conversation, puzzles, moments dehors, bricolages pour grands-parents et petits-enfants, et idées pour rester proches malgré la distance.",
+      "lede": "Des idées pour partager du temps avec un parent, un grand-parent, un enfant ou un ami, à la maison, dehors, lors d'une visite ou à distance."
+    },
+    "creative-calm": {
+      "label": "Calme créatif",
+      "title": "Calme créatif",
+      "seo": "Calme créatif : art relaxant et activités pour se détendre",
+      "description": "Activités créatives relaxantes pour adultes et aidants : art méditatif, journal créatif, musique, éveils sensoriels et après-midis paisibles. De simples activités créatives, pas une thérapie.",
+      "lede": "Des manières douces de ralentir le pas avec un crayon, une page ou une musique. Ce sont des activités créatives, pas une thérapie, et elles ne demandent aucun savoir-faire particulier."
     },
     "caregiving": {
-      "label": "Aidants",
-      "title": "Guides pour les aidants",
-      "seo": "Guides pour aidants Alzheimer : aide pratique au quotidien",
-      "description": "Guides pratiques et bienveillants pour les aidants : jouer ensemble, communiquer, refus, agitation du soir, tablettes, choix d’applis et prendre soin de soi.",
-      "lede": "Une aide simple et concrète pour les moments du quotidien auprès d’une personne atteinte de démence, y compris pour prendre soin de vous."
+      "label": "Accompagner la démence",
+      "title": "Accompagner un proche vivant avec la démence",
+      "seo": "Accompagner un proche vivant avec la démence : activités et soutien",
+      "description": "Guides pour les familles accompagnant un proche vivant avec la démence : comment partager des activités, que faire en cas de refus et vers qui se tourner pour un soutien fiable après un diagnostic.",
+      "lede": "Un soutien centré sur l'activité pour les familles qui accompagnent un proche vivant avec la démence, et des repères pour trouver conseils médicaux et accompagnement."
     },
     "brain-health": {
       "label": "Santé du cerveau",
@@ -284,6 +372,10 @@
     "related": "À lire aussi",
     "startHere": "Pour commencer"
   },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
+  },
   "healthNotice": {
     "aria": "Avertissement sur les informations de santé",
     "title": "Information générale, pas un avis médical",
@@ -291,24 +383,24 @@
   },
   "pages": {
     "about": {
-      "title": "Une activité à partager, pas un test de mémoire",
+      "title": "Une activité partagée, pas un examen",
       "seoTitle": "À propos de Creative Activities : notre démarche",
-      "description": "Pourquoi les jeux Creative Activities n’ont ni chrono, ni score, ni série, pourquoi les images restent visibles, et ce que nous affirmons ou non sur la démence.",
+      "description": "Pourquoi Creative Activities n'a ni minuteur, ni score, ni série de jours réussis, pourquoi les images restent affichées, et ce que nous affirmons ou non au sujet de la santé.",
       "crumb": "Notre démarche",
-      "lede": "Creative Activities crée des activités en images, calmes et pensées pour les adultes, qu’un aidant et une personne atteinte de démence peuvent apprécier côte à côte.",
-      "bodyHtml": "<h2>Ce que nous croyons</h2><p>Le sens d’une activité, c’est le moment lui-même : une conversation, un sourire, la satisfaction d’associer deux images, ou simplement le fait d’être assis tout près. Il ne s’agit pas de mesurer qui que ce soit, de pousser la personne plus loin ni de prouver quoi que ce soit.</p><p>Beaucoup d’applications d’entraînement cérébral sont construites autour de la vitesse, des scores, des séries et des niveaux. Pour une personne atteinte de démence, cela peut ressembler à un examen impossible à réussir. Nous avons conçu l’inverse, et nous nous imposons ces règles :</p><ul><li><strong>Rien à rater.</strong> Pas de chrono, de score, de compteur de coups, de vies, de séries, de confettis ni de compte à rebours, sur aucun écran.</li><li><strong>Reconnaître plutôt que se souvenir.</strong> Les images restent visibles par défaut. Les suggestions invitent à la conversation et ne demandent jamais de retrouver un nom ou un souvenir.</li><li><strong>Grand, simple et stable.</strong> Texte et images de grande taille, contraste élevé et commandes qui restent toujours au même endroit.</li><li><strong>La dignité de l’adulte.</strong> Des images du quotidien et des mots simples et chaleureux. Pas de dessins enfantins, de compliments chantonnés ni d’émojis en récompense.</li><li><strong>Une sortie facile.</strong> Le bouton « Fini pour l’instant » est toujours visible. S’arrêter à mi-parcours est une bonne façon de finir.</li><li><strong>Confidentiel par défaut.</strong> Ni compte ni publicité. Les photos que vous choisissez restent sur votre appareil.</li></ul><h2>Ce que nous ne prétendons pas</h2><p>Nos jeux sont faits pour le plaisir et le lien. Ils ne diagnostiquent, ne testent, ne mesurent, ne traitent, ne ralentissent ni ne préviennent la démence ou la maladie d’Alzheimer, et personne ne devrait les choisir pour cette raison. Lorsque nous parlons de la recherche dans nos <a href=\"/brain-health/\">pages sur la santé du cerveau</a>, nous disons clairement quand les preuves sont faibles, et nous ne les relions jamais à nos propres jeux.</p><h2>Qui nous sommes</h2><p>Creative Activities est une petite équipe indépendante. Nous ne sommes pas des professionnels de santé. Nos guides s’appuient sur les recommandations publiées par des organismes tels que le National Institute on Aging et l’Alzheimer’s Association, et chaque guide indique ses sources. Découvrez <a href=\"/editorial-policy/\">comment nous rédigeons et vérifions nos pages</a>.</p><h2>Dites-nous ce qui vous aiderait</h2><p>Nous aimerions savoir ce qui fonctionne pour vous et ce qui ne fonctionne pas, en particulier auprès des personnes atteintes de démence, des aidants familiaux et des animateurs. Écrivez-nous à <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities propose des activités calmes et pensées pour les adultes, que deux personnes peuvent partager côte à côte, que l'une prenne soin de l'autre ou que le simple désir soit de passer un moment ensemble.",
+      "bodyHtml": "<h2>À qui cela s'adresse</h2><p>À toute personne qui prend soin de quelqu'un : un parent, un grand-parent, un enfant, un conjoint, un ami, ou une personne vivant avec une démence. Les familles, les personnes âgées et les professionnels de l'animation peuvent tous utiliser les mêmes pages.</p><h2>Ce en quoi nous croyons</h2><p>L'intérêt d'une activité, c'est le moment lui-même : une conversation, un sourire, la satisfaction de réunir deux images, ou tout simplement le plaisir d'être assis l'un près de l'autre. Il ne s'agit pas de mesurer qui que ce soit, de pousser plus loin ni de faire ses preuves.</p><p>Beaucoup d'applications d'entraînement cérébral sont conçues autour de la vitesse, des scores, des séries et des niveaux. Pour une personne fatiguée, souffrante ou vivant avec une démence, cela peut ressembler à un examen qu'elle ne peut pas réussir. Nous avons conçu l'inverse, et nous nous tenons à ces règles :</p><ul><li><strong>Rien à rater.</strong> Aucun chronomètre, score, compteur de coups, vie, série, confetti ni compte à rebours, sur aucun écran.</li><li><strong>Reconnaître plutôt que se souvenir.</strong> Les images restent affichées par défaut. Les invitations ouvrent la conversation et ne testent jamais les noms ni les souvenirs.</li><li><strong>Grand, simple et stable.</strong> Des textes et des images de grande taille, un fort contraste, et des commandes qui restent au même endroit.</li><li><strong>La dignité de l'adulte.</strong> Des images du quotidien et des mots simples et chaleureux. Pas de dessins animés, de félicitations chantantes ni de récompenses en emoji.</li><li><strong>Une sortie facile.</strong> « Terminé pour l'instant » reste toujours visible. S'arrêter à mi-chemin est un bon résultat.</li><li><strong>Confidentiel par défaut.</strong> Ni compte ni publicité. Les photos que vous choisissez restent sur votre appareil.</li></ul><h2>Ce que nous n'affirmons pas</h2><p>Nos jeux et nos activités servent au plaisir et au lien. Ils ne diagnostiquent, ne testent, ne mesurent, ne soignent, ne ralentissent ni ne préviennent la démence ni la maladie d'Alzheimer, et personne ne devrait les choisir pour cette raison. Lorsque nous parlons de recherches sur la santé, nous disons clairement où les preuves sont fragiles, et nous ne les relions jamais à nos propres activités.</p><h2>Qui nous sommes</h2><p>Creative Activities est une petite équipe indépendante. Nous ne sommes pas des soignants. Nos guides sont rédigés à partir de recommandations publiées par des organismes tels que le National Institute on Aging et l'Alzheimer's Association, et chaque guide cite ses sources. Découvrez <a href=\"/editorial-policy/\">comment nous rédigeons et vérifions nos pages</a>.</p><h2>Dites-nous ce qui vous aiderait</h2><p>Nous serions ravis de savoir ce qui fonctionne pour vous et ce qui ne fonctionne pas, en particulier de la part de personnes vivant avec une démence, de proches aidants et de professionnels de l'animation. Écrivez-nous à <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Comment nous rédigeons et vérifions nos pages",
       "seoTitle": "Charte éditoriale",
-      "description": "Comment Creative Activities se documente, rédige, cite ses sources et met à jour ses pages sur les activités et la santé du cerveau, et ce que nous ne publierons jamais.",
+      "description": "Comment Creative Activities documente, rédige, source et met à jour ses pages d'activités et de santé, et ce que nous ne publierons jamais.",
       "crumb": "Charte éditoriale",
       "bodyHtml": "<h2>Nos sources</h2><p>Nos guides s’appuient sur les recommandations publiques d’organismes tels que le National Institute on Aging, les CDC, l’Alzheimer’s Association, l’Alzheimer’s Foundation of America, la Family Caregiver Alliance et le NHS, ainsi que sur des recherches évaluées par des pairs, comme les revues Cochrane et de grands essais cliniques. Chaque guide indique les sources sur lesquelles il repose. Nous ouvrons chaque source avant de la citer, et nous ne rapportons que ce qu’elle dit réellement.</p><h2>Notre façon d’écrire</h2><ul><li>Le concret d’abord : ce que vous pouvez faire aujourd’hui, en langage simple.</li><li>Honnêtes sur les preuves : nous écrivons « associé à », « pourrait » et « les résultats sont contrastés » quand c’est la vérité.</li><li>Respectueux : nous parlons des personnes atteintes de démence comme des adultes, sans jamais les interroger comme à un examen ni employer de mots qui font honte.</li><li>Aucun contenu inventé : pas de statistiques, de citations, d’experts, d’études, d’avis ou de témoignages inventés.</li></ul><h2>Qui relit nos pages</h2><p>Les pages sont rédigées et vérifiées par l’équipe Creative Activities, avec l’aide d’outils d’écriture par IA pour la recherche et les premières versions. Chaque page est vérifiée par l’équipe au regard de ses sources. Nos pages n’ont <strong>pas</strong> été relues par un médecin ni par un autre professionnel de santé, et nous ne prétendons pas le contraire. Il s’agit d’informations générales, pas d’avis médicaux.</p><h2>Ce que nous ne publierons jamais</h2><ul><li>L’affirmation qu’un jeu, un aliment, un complément, un jeûne ou une routine prévient, traite, ralentit ou guérit la démence.</li><li>Des tests, quiz ou scores laissant entendre qu’une personne est atteinte, ou non, de démence.</li><li>Des conseils pour commencer, arrêter ou modifier un médicament.</li><li>De la publicité ou du contenu sponsorisé déguisé en conseil.</li></ul><h2>Mises à jour et corrections</h2><p>Chaque page indique la date de sa dernière mise à jour. Si vous trouvez une erreur ou une source dépassée, écrivez-nous à <a href=\"mailto:{email}\">{email}</a> et nous vérifierons rapidement.</p>"
     },
     "faq": {
       "title": "Questions et réponses",
-      "seoTitle": "Jeux et activités Alzheimer : questions et réponses",
-      "description": "Réponses aux questions fréquentes sur les jeux et activités pour personnes atteintes de démence : quels jeux essayer, durée, stade avancé, confidentialité.",
+      "seoTitle": "Questions et réponses sur Creative Activities",
+      "description": "Réponses aux questions fréquentes sur les jeux et les activités : lesquels essayer, combien de temps jouer, idées pour les groupes et les stades avancés, santé et confidentialité.",
       "crumb": "Questions et réponses",
       "lede": "Des réponses courtes et claires aux questions que les aidants posent le plus souvent.",
       "groups": [
@@ -317,7 +409,7 @@
           "title": "À propos des jeux",
           "items": [
             {
-              "q": "Quels sont les meilleurs jeux pour une personne atteinte de démence ?",
+              "q": "Quels sont les meilleurs jeux pour les personnes âgées ?",
               "a": "Les meilleurs jeux sont familiers, simples et sans pression, et le bon jeu est celui qui plaît à la personne aujourd’hui. Associer des images visibles, trier, faire un puzzle facile, compléter des proverbes connus, colorier ou jouer au loto en images conviennent bien à beaucoup de personnes. Évitez les chronomètres, les scores et tout ce qui ressemble à un test."
             },
             {
@@ -362,7 +454,7 @@
         },
         {
           "id": "health",
-          "title": "Santé du cerveau",
+          "title": "Démence et santé",
           "items": [
             {
               "q": "Les jeux peuvent-ils prévenir ou ralentir la démence ?",
@@ -393,7 +485,7 @@
           ]
         }
       ],
-      "moreHtml": "Pour aller plus loin : <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>, <a href=\"/caregiving/when-they-say-no/\">quand la personne refuse</a>, <a href=\"/activities/late-stage/\">activités au stade avancé</a> et <a href=\"/brain-health/can-dementia-be-prevented/\">peut-on prévenir la démence ?</a>"
+      "moreHtml": "Pour en savoir plus : <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>, <a href=\"/caregiving/when-they-say-no/\">quand la personne dit non</a>, <a href=\"/activities/late-stage/\">les activités pour les stades avancés</a> et <a href=\"/dementia-activities/\">des activités à la maison avec une démence</a>."
     },
     "handout": {
       "title": "Jeux gratuits et tout en douceur pour personnes atteintes de démence",
@@ -407,21 +499,21 @@
     },
     "organizations": {
       "title": "Pour les EHPAD, les médiathèques et les groupes de parole",
-      "seoTitle": "Activités Alzheimer gratuites pour EHPAD et groupes",
-      "description": "Comment EHPAD, accueils de jour, médiathèques et associations d’aidants utilisent nos jeux gratuits pour la démence, et un texte pour nous citer dans vos ressources.",
+      "seoTitle": "Activités gratuites pour les maisons de retraite, les bibliothèques et les groupes",
+      "description": "Comment les maisons de retraite, les centres de jour pour adultes, les bibliothèques, les organismes pour personnes âgées et les groupes de soutien utilisent nos jeux et nos guides d'activités gratuits, avec un texte pour nous ajouter à une liste de ressources.",
       "crumb": "Pour les établissements",
       "lede": "Tout ce qui se trouve sur ce site peut être utilisé gratuitement avec vos résidents, adhérents et bénéficiaires, sans compte, licence ni frais.",
-      "shortText": "{name} : jeux d’images gratuits et tout en douceur, et guides d’activités pour les personnes atteintes de démence et leurs aidants. Sans inscription, sans chrono, sans score.",
-      "longText": "{name} ({domain}) propose {count} jeux gratuits dans le navigateur, conçus pour les personnes atteintes de démence, dont un jeu de paires aux images visibles, un puzzle facile, un jeu de tri, des proverbes familiers et un loto en images avec cartons à imprimer. Il n’y a ni compte, ni publicité, ni chrono, ni score. Le site propose aussi, pour chaque stade de la maladie, des guides d’activités en langage simple qui citent le National Institute on Aging et l’Alzheimer’s Association.",
+      "shortText": "{name} : des jeux d'images doux et gratuits, et des guides d'activités pour les personnes âgées, les familles et les personnes vivant avec une démence. Sans inscription, sans minuteur, sans score.",
+      "longText": "{name} ({domain}) propose {count} jeux gratuits dans le navigateur pour les personnes âgées, les familles et les personnes vivant avec une démence, notamment des paires à associer avec les images toujours visibles, un puzzle facile, des tris, des dictons familiers et un bingo d'images avec des cartes à imprimer. Pas de compte, pas de publicité, pas de minuteur, pas de score. Le site propose aussi des guides d'activités en langage simple pour les familles, les personnes âgées et les professionnels, avec des sources telles que le National Institute on Aging et l'Alzheimer's Association.",
       "useTitle": "Ce que les établissements peuvent utiliser",
       "gamesItemHtml": "<strong>{count} jeux dans le navigateur</strong> qui fonctionnent sur un ordinateur portable, une tablette ou une télévision reliée à un ordinateur. Aucune installation, aucun compte, aucun téléchargement. Voir <a href=\"/games/\">tous les jeux</a>.",
       "printablesLabel": "{count} documents à imprimer :",
       "printablesAfter": "Utilisez le bouton Imprimer sur chaque page.",
-      "moreItemsHtml": "<li><strong>Formats de groupe :</strong> le <a href=\"/games/picture-bingo/\">Loto en images</a> propose des cartons à imprimer et un tirage à l’écran, et le <a href=\"/activities/trivia/\">quiz facile</a> compte 50 questions avec choix de réponses et pistes de conversation.</li><li><strong>Des guides d’activités</strong> pour les équipes et les familles, par stade et par type, rédigés en langage simple avec leurs sources. Commencez par <a href=\"/activities/ideas/\">101 idées d’activités</a> ou les <a href=\"/activities/care-home-groups/\">activités de groupe en établissement</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formats de groupe :</strong> le <a href=\"/games/picture-bingo/\">bingo d'images</a> propose des cartes à imprimer et un animateur à l'écran, et les <a href=\"/together/conversation-games-for-all-ages/\">jeux de conversation</a> proposent des questions avec des choix de réponses et des pistes de discussion.</li><li><strong>Des guides d'activités</strong> pour les professionnels et les familles, rédigés en langage simple et sourcés. Commencez par <a href=\"/activities/ideas/\">101 idées d'activités</a> ou par <a href=\"/crafts/craft-group-sessions/\">des activités de groupe pour les maisons de retraite</a>.</li>",
       "restHtml": "<h2>Comment les groupes l’utilisent</h2><ul><li><strong>EHPAD et unités protégées :</strong> loto en images ou proverbes à compléter sur la télévision de la salle commune, avec une personne qui touche l’écran pour tout le groupe.</li><li><strong>Accueils de jour :</strong> un poste tablette avec Paires d’images réglé sur quatre cartes, pour de courts moments en tête-à-tête.</li><li><strong>Bibliothèques et médiathèques :</strong> des mots mêlés et des cartes de conversation imprimés dans des kits mémoire, et le site en favori sur les tablettes de la bibliothèque.</li><li><strong>Groupes de parole pour aidants et cafés mémoire :</strong> une <a href=\"/handout/\">fiche d’une page à imprimer</a> que les familles peuvent emporter.</li><li><strong>Hôpitaux et équipes de sortie :</strong> la fiche dans les documents remis aux aidants, pour une activité calme à la maison ou au chevet.</li></ul><h2>Ce que nous ne faisons pas</h2><p>Les jeux sont faits pour le plaisir et les moments partagés. Ils ne diagnostiquent, ne testent, ne notent, ne traitent ni ne ralentissent la démence, et nous demandons aux établissements de ne pas les présenter ainsi. Il n’y a pas de publicité, et les jeux ne demandent ni nom, ni information de santé, ni envoi de photos. Le site utilise Google Analytics pour compter les visites ; notre <a href=\"/privacy/\">politique de confidentialité</a> explique ce que cela collecte. Les photos utilisées dans <a href=\"/games/photo-pairs/\">Paires de photos</a> restent dans le navigateur.</p><h2>Ajoutez-nous à votre liste de ressources</h2><p>Si vous tenez une liste de ressources pour les aidants, vous pouvez faire un lien vers <a href=\"/\">{domain}</a>. Vous pouvez copier l’une ou l’autre des descriptions.</p>",
       "shortTitle": "Description courte",
       "longTitle": "Description longue",
-      "linksHtml": "<p>Pages utiles vers lesquelles faire un lien : <a href=\"/games/\">jeux gratuits</a>, <a href=\"/activities/printable/\">documents gratuits à imprimer</a>, <a href=\"/activities/alzheimers/\">activités pour la maladie d’Alzheimer</a> et <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>.</p><h2>Questions ou corrections</h2><p>Si quelque chose sur le site est faux ou peu clair, ou si ce que nous proposons ne répond pas aux besoins d’un résident, écrivez-nous à <a href=\"mailto:{email}\">{email}</a>. Merci de ne pas nous envoyer d’informations personnelles ou de santé concernant vos résidents ou bénéficiaires.</p>"
+      "linksHtml": "<p>Pages utiles à consulter directement : <a href=\"/games/\">jeux gratuits</a>, <a href=\"/games/\">activités à imprimer gratuites</a>, <a href=\"/dementia-activities/\">activités à la maison pour une personne vivant avec un trouble neurocognitif</a> et <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>.</p><h2>Questions ou corrections</h2><p>Si quelque chose sur le site est incorrect ou peu clair, ou si les besoins d’une personne ne sont pas pris en compte ici, vous pouvez nous en informer à l’adresse <a href=\"mailto:{email}\">{email}</a>. Merci de ne pas envoyer d’informations personnelles ou de santé concernant des résidents ou des personnes accompagnées.</p>"
     },
     "app": {
       "title": "L’application Creative Activities",
@@ -436,17 +528,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Jeux Alzheimer et démence gratuits en ligne",
-    "description": "Jeux gratuits pour personnes âgées atteintes d’Alzheimer ou de démence : paires d’images, puzzles, tri, proverbes, coloriage, loto. Sans inscription ni chrono.",
+    "title": "Jeux gratuits à faire ensemble en ligne",
+    "description": "Jeux en ligne gratuits pour les personnes âgées, les familles et les personnes vivant avec un trouble neurocognitif : jeux d’association d’images, puzzles faciles, tri, expressions, coloriage et bingo. Sans inscription, sans chronomètre ni score.",
     "crumb": "Jeux",
-    "h1": "Jeux tout en douceur pour personnes atteintes d’Alzheimer ou de démence",
+    "h1": "Des jeux doux à faire ensemble",
     "lede": "{count} jeux gratuits à partager dans votre navigateur. De grandes images, des mots simples et rien à rater : ni chrono, ni score, ni inscription.",
-    "listName": "Jeux tout en douceur pour personnes atteintes de démence",
+    "listName": "Jeux doux à faire ensemble",
     "byStageTitle": "Choisir un jeu selon le stade",
     "byStageLede": "Les stades ne sont qu’un repère approximatif. Suivez ce qui plaît à la personne et ce qui lui convient aujourd’hui.",
     "stageCol": "Stade",
     "gamesCol": "Jeux qui conviennent souvent",
-    "moreHtml": "D’autres idées loin de l’écran : <a href=\"/activities/ideas/\">101 activités pour personnes atteintes de démence</a>, <a href=\"/activities/alzheimers/\">activités et jeux pour la maladie d’Alzheimer</a>, <a href=\"/activities/memory-games/\">jeux de mémoire tout en douceur</a> et <a href=\"/activities/puzzles/\">puzzles</a>.",
+    "moreHtml": "D’autres idées loin de l’écran : <a href=\"/activities/ideas/\">101 idées d’activités</a>, <a href=\"/dementia-activities/\">activités à la maison pour une personne vivant avec un trouble neurocognitif</a> et <a href=\"/crafts/\">activités manuelles</a>.",
     "faq": [
       {
         "q": "Par quel jeu commencer ?",
@@ -462,7 +554,7 @@
       },
       {
         "q": "S’agit-il de jeux de mémoire pour seniors ?",
-        "a": "Ce sont des jeux d’association et d’images que toute personne âgée peut apprécier, mais ils sont conçus pour ne pas tester la mémoire : dans Paires d’images, les images restent face visible, sauf si vous en décidez autrement. Notre guide sur les jeux de mémoire pour seniors atteints de démence explique comment garder n’importe quel jeu de mémoire tout en douceur."
+        "a": "Ce sont des jeux d’association et des jeux d’images que toute personne âgée peut apprécier, mais ils sont conçus pour ne pas mettre la mémoire à l’épreuve : dans Paires d’images, les images restent face visible, sauf si vous en décidez autrement. Tout jeu de mémoire peut être rendu plus doux en supprimant le chronomètre et les scores."
       },
       {
         "q": "Existe-t-il des jeux de groupe pour les EHPAD ?",
@@ -483,7 +575,7 @@
     ],
     "faq": [
       {
-        "q": "Existe-t-il une application d’activités pour personnes atteintes de démence ?",
+        "q": "Existe-t-il une application pour les personnes âgées et les familles ?",
         "a": "Oui. Creative Activities (référencée sous le nom « {storeName} ») est gratuite sur l’App Store et Google Play. Elle propose un jeu de paires d’images tout en douceur avec de grandes cartes, des jeux avec les photos de famille que vous choisissez et des séries d’images qui fonctionnent hors ligne."
       },
       {
@@ -525,7 +617,7 @@
     "printable": "À imprimer",
     "howTo": "Comment jouer à {name}",
     "tips": "Conseils pour jouer ensemble",
-    "newToPlayingHtml": "Vous n’avez pas l’habitude de jouer avec une personne atteinte de démence ? Lisez <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>, y compris que faire si elle perd intérêt.",
+    "newToPlayingHtml": "Vous découvrez les jeux avec une personne âgée ou une personne vivant avec un trouble neurocognitif ? Consultez <a href=\"/caregiving/how-to-play-together/\">comment jouer ensemble</a>, y compris ce que vous pouvez faire si la personne se désintéresse du jeu.",
     "moreAria": "À découvrir aussi",
     "helpfulGuides": "Guides utiles",
     "appTitle": "Jouez dans l’application",
