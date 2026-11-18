@@ -207,7 +207,9 @@ Risks / not doing: Do not translate the finder interface before the cards it fin
 ---
 
 ### L10N-012 · Cultural adaptation register
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-19): a draft register, [cultural-adaptation-register.md](cultural-adaptation-register.md), has one row for each known point in the native review guide with the file it lives in and a proposal, plus one Ukrainian row found on the way. Nothing is decided: every row waits for a named native reviewer at locale sign-off.
 
 Why: "Global" does not mean one culture. Some content travels badly: a flower is a funeral flower in some countries, a military row is sensitive in others, and a religious song category depends on the reader [native review, "Known points"; SEO.md §8.2].
 
@@ -254,7 +256,9 @@ Depends on: L10N-017, [SEO-022](12-search-geo-distribution.md).
 Risks / not doing: Do not print a version number without a date.
 
 ### L10N-015 · Family structures and forms of address
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-19): a draft audit, [family-terms-register.md](family-terms-register.md), counts family words in the English source and separates legitimate uses (pages about grandparents, search titles, a searcher's own question) from example scripts that assume one family ("Hi Dad, it's Sarah, your daughter"). No use of "patient" or "sufferer" for the older person was found. Forms of address are recorded for seven languages; German mixes the formal and informal forms, as the native review notes. No copy is changed and no form is chosen: that waits for the maintainer and each locale's reviewer.
 
 Why: Many households are multigenerational, and terms such as "grandmother," "parent" or "spouse" vary by culture [MISSION, "Cultural openness"]. Forms of address (formal or informal) differ by language.
 
