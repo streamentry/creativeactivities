@@ -165,7 +165,8 @@
   outline: 3px solid var(--gm-primary);
   outline-offset: 3px;
 }
-.conversation-cards__prompt-toggle {
+.conversation-cards__prompt-toggle,
+.sort-together__larger-toggle {
   justify-self: start;
   max-width: 100%;
 }
@@ -316,6 +317,956 @@
   opacity: 0.78;
 }
 
+/* Four together: the hint, then the group's name, above the board. Empty
+   until needed, but it keeps its line so the board never jumps. */
+.together__note {
+  min-height: 1.6em;
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-align: center;
+  color: var(--gm-on-surface);
+}
+
+/* Color match: a large patch of the color with its name written beside it, so
+   color is never the only signal. The name stays the same size at every text size. */
+.color-match__target {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  max-inline-size: 560px;
+  margin-inline: auto;
+  margin-block-end: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+}
+.color-match__swatch {
+  flex: none;
+  inline-size: clamp(5rem, 24vw, 8rem);
+  block-size: clamp(5rem, 24vw, 8rem);
+  border: 4px solid var(--gm-on-surface);
+  border-radius: var(--radius-lg);
+  background: var(--match-color, var(--gm-surface-sunken));
+  forced-color-adjust: none;
+}
+.color-match__name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  color: var(--gm-on-surface);
+  overflow-wrap: anywhere;
+}
+.color-match__swatch[data-color='red'],
+.sheet-paper__swatch[data-color='red'] {
+  --match-color: #c8473a;
+}
+.color-match__swatch[data-color='orange'],
+.sheet-paper__swatch[data-color='orange'] {
+  --match-color: #e07b28;
+}
+.color-match__swatch[data-color='yellow'],
+.sheet-paper__swatch[data-color='yellow'] {
+  --match-color: #f2cc3d;
+}
+.color-match__swatch[data-color='green'],
+.sheet-paper__swatch[data-color='green'] {
+  --match-color: #4e8a3e;
+}
+.color-match__swatch[data-color='blue'],
+.sheet-paper__swatch[data-color='blue'] {
+  --match-color: #2f6f9e;
+}
+
+/* Halves match: the left halves in one column, the right halves in the other. Each half is
+   the same drawing cropped to one side. The picture is drawn left to right in every language,
+   like the puzzle, so the board keeps its direction. A half is never narrower than a picture
+   tile (64px) and the whole picture is never wider than 40% of the screen, so both columns
+   fit at 320px and at 200% text. */
+.halves {
+  --halves-whole: min(clamp(8rem, 34vw, 11rem), 40vw);
+  --halves-gap: clamp(1rem, 8vw, 3rem);
+  display: flex;
+  justify-content: center;
+  gap: var(--halves-gap);
+  direction: ltr;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.halves__column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-tile-gap);
+}
+.half {
+  position: relative;
+  display: block;
+  flex: none;
+  inline-size: calc(var(--halves-whole) / 2);
+  block-size: var(--halves-whole);
+  padding: 0;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  transition: border-color var(--duration-fast) ease;
+}
+.half__crop {
+  display: block;
+  position: relative;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: hidden;
+  border-radius: calc(var(--radius-lg) - 1px);
+  pointer-events: none;
+}
+/* The whole drawing is twice as wide as the half; the left half shows its left side, the right half its right side. */
+.half__crop img {
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  inline-size: 200%;
+  max-inline-size: none;
+  block-size: 100%;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+.half--right .half__crop img {
+  inset-inline-start: -100%;
+}
+.half:hover {
+  border-color: var(--gm-primary);
+  box-shadow: 0 4px 12px rgb(60 44 10 / 15%);
+}
+.half:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+/* Chosen and joined draw a thick outline over the edge, so the picture never shrinks or shifts. */
+.half--selected::after,
+.half--joined::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border: 4px solid var(--gm-primary);
+  border-radius: var(--radius-lg);
+  pointer-events: none;
+}
+.half--selected {
+  border-color: var(--gm-primary);
+}
+.half--joined:hover {
+  box-shadow: none;
+}
+/* A joined pair is one picture: the halves meet with no gap, no inner border and one frame. */
+.half--joined {
+  cursor: default;
+  border-color: var(--gm-primary);
+  box-shadow: none;
+}
+.half--left.half--joined,
+.half--left.half--joined .half__crop,
+.half--left.half--joined::after {
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
+}
+.half--right.half--joined,
+.half--right.half--joined .half__crop,
+.half--right.half--joined::after {
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+}
+.half--left.half--joined {
+  border-inline-end-width: 0;
+}
+.half--right.half--joined {
+  border-inline-start-width: 0;
+  margin-inline-start: calc(var(--halves-gap) * -1);
+}
+.half--left.half--joined::after {
+  border-inline-end-width: 0;
+}
+.half--right.half--joined::after {
+  border-inline-start-width: 0;
+}
+.half__badge {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  inset-inline-end: -10px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--gm-primary);
+  color: var(--gm-on-primary);
+  border: 3px solid var(--gm-on-primary);
+  box-shadow: 0 1px 3px rgb(60 44 10 / 25%); /* shadow-ink */
+}
+
+/* Color by number: a key of four colors above a square grid of large numbered cells. Every cell
+   is at least 48px (56px on the 4 by 4 grid) and never shrinks below that: when a grid is too wide
+   for the screen it scrolls sideways inside its own labelled region. The grid is laid out left to
+   right in every language, like a picture. A color is always paired with its number, its written
+   name and a shape. The page's style policy blocks style attributes, so each fill is chosen by
+   `data-fill` (the color's number) here, and `color-by-number.test.ts` checks that these hex values
+   are the ones in `src/data/color-by-number.ts`. */
+.cbn [data-fill='1'],
+.sheet-paper [data-fill='1'] {
+  --cbn-fill: #f7e98e;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='2'],
+.sheet-paper [data-fill='2'] {
+  --cbn-fill: #e69f00;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='3'],
+.sheet-paper [data-fill='3'] {
+  --cbn-fill: #009e73;
+  --cbn-ink: #16231d;
+}
+.cbn [data-fill='4'],
+.sheet-paper [data-fill='4'] {
+  --cbn-fill: #7b3f98;
+  --cbn-ink: #ffffff;
+}
+.cbn {
+  display: grid;
+  gap: var(--space-md);
+}
+.cbn__key {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+  gap: var(--space-sm);
+}
+.cbn__key-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: var(--target-primary);
+  padding: var(--space-sm) var(--space-md) var(--space-sm) 12px;
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+  font: inherit;
+  font-size: var(--text-md);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: start;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+.cbn__key-button:hover {
+  border-color: var(--gm-primary);
+}
+.cbn__key-button:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+/* The chosen color: a thicker frame drawn inside the border (no shift), a tinted well and a check mark. */
+.cbn__key-button[aria-pressed='true'] {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 3px var(--gm-primary);
+}
+.cbn__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--cbn-fill);
+  color: var(--cbn-ink);
+  forced-color-adjust: none;
+}
+.cbn__key-number {
+  font-size: var(--text-title-lg);
+  font-family: var(--font-display);
+}
+.cbn__key-name {
+  flex: 1;
+  min-inline-size: 0;
+  overflow-wrap: break-word;
+}
+/* The check mark sits in the corner, so the name keeps all of its room. */
+.cbn__key-button > svg {
+  position: absolute;
+  inset-block-start: 4px;
+  inset-inline-end: 4px;
+}
+.cbn__shape {
+  display: block;
+  flex: none;
+  inline-size: 0.875rem;
+  block-size: 0.875rem;
+  background: currentColor;
+}
+.cbn__shape[data-shape='circle'] {
+  border-radius: var(--radius-full);
+}
+.cbn__shape[data-shape='square'] {
+  border-radius: 2px;
+}
+.cbn__shape[data-shape='triangle'] {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+.cbn__shape[data-shape='diamond'] {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.cbn__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.cbn__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The cell is as wide as the screen allows, never below its floor and never above its cap. The grid
+   takes the width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.cbn__grid {
+  --cbn-gap: 4px;
+  --cbn-floor: 48px;
+  --cbn-cap: 5.5rem;
+  --cbn-cell: max(var(--cbn-floor), min(var(--cbn-cap), calc((100cqw - (var(--cbn-n) - 1) * var(--cbn-gap)) / var(--cbn-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--cbn-n), var(--cbn-cell));
+  gap: var(--cbn-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.cbn__grid[data-size='4'],
+.sheet-paper__grid[data-size='4'] {
+  --cbn-n: 4;
+}
+.cbn__grid[data-size='6'],
+.sheet-paper__grid[data-size='6'] {
+  --cbn-n: 6;
+}
+.cbn__grid[data-size='8'],
+.sheet-paper__grid[data-size='8'] {
+  --cbn-n: 8;
+}
+.cbn__grid[data-size='4'] {
+  --cbn-floor: 56px;
+  --cbn-cap: 7.5rem;
+  --cbn-gap: 6px;
+}
+.cbn__grid[data-size='8'] {
+  --cbn-cap: 4.5rem;
+}
+.cbn__cell {
+  position: relative;
+  display: grid;
+  place-items: center;
+  inline-size: var(--cbn-cell);
+  block-size: var(--cbn-cell);
+  padding: 0;
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--cbn-fill, var(--gm-surface));
+  color: var(--cbn-ink, var(--gm-on-surface));
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  transition: border-color var(--duration-fast) ease;
+}
+.cbn__cell[data-fill] {
+  border-color: var(--gm-on-surface);
+  forced-color-adjust: none;
+}
+.cbn__cell:hover {
+  border-color: var(--gm-primary);
+  box-shadow: 0 0 0 2px var(--gm-primary);
+}
+.cbn__cell:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+  z-index: 1;
+}
+.cbn__number {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, calc(var(--cbn-cell) * 0.45), 3rem);
+  font-weight: 700;
+  line-height: 1;
+  pointer-events: none;
+}
+.cbn__cell .cbn__shape {
+  position: absolute;
+  inset-block-end: 4px;
+  inset-inline-end: 4px;
+  inline-size: 0.75rem;
+  block-size: 0.75rem;
+  pointer-events: none;
+}
+
+/* Pattern maker: a key of four colors, then a small tile of large squares beside "your pattern", the tile
+   repeated in a block. Each square is at least 56px and never shrinks below that: a tile too wide for the
+   screen scrolls sideways inside its own labelled region. Both grids read left to right in every language,
+   like a picture. A color is always paired with its written name and a shape. The page's style policy blocks
+   style attributes, so each color is chosen by `data-tone` (its place in the palette, 0 to 3) here, and
+   `pattern-maker.test.ts` checks that these hex values are the ones in `src/data/pattern-maker.ts`. */
+.pm [data-tone='0'],
+.pm-sheet [data-tone='0'] {
+  --pm-fill: #f7e98e;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='1'],
+.pm-sheet [data-tone='1'] {
+  --pm-fill: #e69f00;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='2'],
+.pm-sheet [data-tone='2'] {
+  --pm-fill: #009e73;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='3'],
+.pm-sheet [data-tone='3'] {
+  --pm-fill: #7b3f98;
+  --pm-ink: #ffffff;
+}
+.pm {
+  display: grid;
+  gap: var(--space-lg);
+}
+.pm__label {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.pm__key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pm__key li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.pm__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  forced-color-adjust: none;
+}
+.pm__stage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: var(--space-lg);
+  align-items: start;
+}
+.pm__panel {
+  min-inline-size: 0;
+}
+.pm__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.pm__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The square is as wide as the screen allows, never below its floor and never above its cap. The tile takes the
+   width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.pm__tile {
+  --pm-gap: 6px;
+  --pm-floor: 56px;
+  --pm-cap: 7rem;
+  --pm-cell: max(var(--pm-floor), min(var(--pm-cap), calc((100cqw - (var(--pm-n) - 1) * var(--pm-gap)) / var(--pm-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--pm-n), var(--pm-cell));
+  gap: var(--pm-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.pm__tile[data-size='3'] {
+  --pm-n: 3;
+}
+.pm__tile[data-size='4'] {
+  --pm-n: 4;
+  --pm-cap: 5.5rem;
+}
+.pm__square {
+  display: grid;
+  place-items: center;
+  inline-size: var(--pm-cell);
+  block-size: var(--pm-cell);
+  padding: 0;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  forced-color-adjust: none;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.pm__square:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.pm__square:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.pm__square .cbn__shape,
+.pm__mini .cbn__shape,
+.pm-sheet__square .cbn__shape {
+  inline-size: 38%;
+  block-size: auto;
+  aspect-ratio: 1;
+}
+.pm__pattern {
+  --pm-across: 9;
+  display: grid;
+  grid-template-columns: repeat(var(--pm-across), 1fr);
+  inline-size: min(100%, 28rem);
+  margin-inline: auto;
+  border: 2px solid var(--gm-on-surface);
+  direction: ltr;
+}
+.pm__pattern[data-size='3'],
+.pm-sheet__grid[data-size='3'] {
+  --pm-across: 9;
+}
+.pm__pattern[data-size='4'],
+.pm-sheet__grid[data-size='4'] {
+  --pm-across: 12;
+}
+.pm__mini {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  forced-color-adjust: none;
+}
+/* The first row and column of each repeat of the tile are marked, so the repeat can be seen. */
+.pm__mini[data-tile-left='yes'] {
+  box-shadow: inset 2px 0 0 var(--gm-on-surface);
+}
+.pm__mini[data-tile-top='yes'] {
+  box-shadow: inset 0 2px 0 var(--gm-on-surface);
+}
+.pm__mini[data-tile-left='yes'][data-tile-top='yes'] {
+  box-shadow: inset 2px 2px 0 var(--gm-on-surface);
+}
+@media print {
+  .pm-sheet,
+  .pm-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .pm-sheet__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 5mm;
+    padding: 0;
+    list-style: none;
+  }
+  .pm-sheet__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .pm-sheet__swatch {
+    display: grid;
+    place-items: center;
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--pm-fill, #fff);
+    color: var(--pm-ink, #000);
+  }
+  .pm-sheet__swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .pm-sheet__grid {
+    --pm-across: 9;
+    display: grid;
+    grid-template-columns: repeat(var(--pm-across), 1fr);
+    max-inline-size: 150mm;
+    border: 2.5px solid #000;
+    direction: ltr;
+  }
+  .pm-sheet__square {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border: 0.75px solid #555;
+    background: var(--pm-fill, #fff);
+    color: var(--pm-ink, #000);
+  }
+  .pm-sheet__square[data-tile-left='yes'] {
+    border-inline-start: 2.5px solid #000;
+  }
+  .pm-sheet__square[data-tile-top='yes'] {
+    border-block-start: 2.5px solid #000;
+  }
+}
+
+/* Build together: two people fill one shared grid in turns. Each has a color of their own, always shown with its
+   written name and a shape. Every place is at least 56px and never shrinks below that: a grid too wide for the
+   screen scrolls sideways inside its own labelled region. The grid reads left to right in every language, like a
+   picture. The page's style policy blocks style attributes, so each color is chosen by `data-tone` (its place in
+   the palette, 0 to 3) here, and `build-together.test.ts` checks that these hex values are the ones in
+   `src/data/pattern-maker.ts`, which Build together shares. Nothing here moves: the only transition is a shadow. */
+.bt [data-tone='0'],
+.bt-sheet [data-tone='0'] {
+  --bt-fill: #f7e98e;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='1'],
+.bt-sheet [data-tone='1'] {
+  --bt-fill: #e69f00;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='2'],
+.bt-sheet [data-tone='2'] {
+  --bt-fill: #009e73;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='3'],
+.bt-sheet [data-tone='3'] {
+  --bt-fill: #7b3f98;
+  --bt-ink: #ffffff;
+}
+.bt {
+  display: grid;
+  gap: var(--space-lg);
+}
+.bt__label {
+  margin: 0 0 calc(var(--space-sm) * -1);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: var(--space-md);
+}
+/* Whose turn it is shows as a second, inner border as well as in words, so it is not told by color alone. */
+.bt__player {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+.bt__player[data-turn='yes'] {
+  border-color: var(--gm-on-surface);
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+.bt__legend {
+  padding: 0 var(--space-xs);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+}
+.bt__pick {
+  position: relative;
+  display: flex;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.bt__pick input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.bt__face {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  min-block-size: 56px;
+  padding: 6px var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__pick:hover .bt__face {
+  border-color: var(--gm-primary);
+}
+.bt__pick input:checked + .bt__face {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}
+.bt__pick input:focus-visible + .bt__face {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+/* The color the other person has is dashed and says so in words, so it is not told by dimming alone. */
+.bt__pick[data-in-use='yes'] .bt__face {
+  border-style: dashed;
+  background: var(--gm-surface-sunken);
+}
+.bt__pick[data-in-use='yes'] input {
+  cursor: default;
+}
+.bt__note {
+  flex-basis: 100%;
+  font-size: var(--text-sm);
+  font-weight: 400;
+}
+.bt__swatch,
+.bt-sheet__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--bt-fill, var(--gm-surface));
+  color: var(--bt-ink, var(--gm-on-surface));
+  forced-color-adjust: none;
+}
+.bt__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.bt__turn[data-built='yes'] {
+  border-style: double;
+  border-width: 5px;
+}
+.bt__turn-line,
+.bt__turn-color {
+  margin: 0;
+}
+.bt__turn-line {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.bt__turn-color {
+  font-size: var(--text-md);
+}
+.bt__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.bt__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The place is as wide as the screen allows, never below its floor and never above its cap. The grid takes the
+   width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.bt__grid {
+  --bt-gap: 6px;
+  --bt-floor: 56px;
+  --bt-cap: 6rem;
+  --bt-cell: max(var(--bt-floor), min(var(--bt-cap), calc((100cqw - (var(--bt-n) - 1) * var(--bt-gap)) / var(--bt-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--bt-n), var(--bt-cell));
+  gap: var(--bt-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.bt__grid[data-size='3'] {
+  --bt-n: 3;
+  --bt-cap: 7rem;
+}
+.bt__grid[data-size='4'] {
+  --bt-n: 4;
+}
+.bt__cell {
+  display: grid;
+  place-items: center;
+  inline-size: var(--bt-cell);
+  block-size: var(--bt-cell);
+  padding: 0;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--bt-fill, var(--gm-surface-sunken));
+  color: var(--bt-ink, var(--gm-on-surface));
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  forced-color-adjust: none;
+  transition: box-shadow var(--duration-fast) ease;
+}
+/* An empty place has a dashed edge and a filled one a solid edge and a shape, so a piece is not told by color alone. */
+.bt__cell[data-state='empty'] {
+  border-style: dashed;
+}
+.bt__cell[data-state='filled'] {
+  cursor: default;
+}
+.bt__cell[data-state='empty']:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.bt__cell:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.bt__cell .cbn__shape {
+  inline-size: 38%;
+  block-size: auto;
+  aspect-ratio: 1;
+}
+@media print {
+  .bt-sheet,
+  .bt-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .bt-sheet__help {
+    margin: 0 0 5mm;
+    font-size: 14pt;
+    color: #000;
+  }
+  .bt-sheet__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 6mm;
+    padding: 0;
+    list-style: none;
+  }
+  .bt-sheet__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .bt-sheet__swatch {
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--bt-fill, #fff);
+    color: var(--bt-ink, #000);
+  }
+  .bt-sheet__swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .bt-sheet__grid {
+    --bt-across: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--bt-across), 1fr);
+    gap: 2.5mm;
+    max-inline-size: 150mm;
+    direction: ltr;
+  }
+  .bt-sheet__grid[data-size='3'] {
+    --bt-across: 3;
+  }
+  .bt-sheet__grid[data-size='4'] {
+    --bt-across: 4;
+  }
+  .bt-sheet__square {
+    aspect-ratio: 1;
+    border: 2.5px solid #000;
+    background: #fff;
+  }
+}
+
+/* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
+.chain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-tile-gap);
+  list-style: none;
+  margin: 0 auto var(--space-md);
+  padding: 0;
+  max-width: 720px;
+}
+.chain__item {
+  width: clamp(88px, 22%, 160px);
+  aspect-ratio: 1;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--gm-surface);
+}
+.chain__item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.chain__item[data-newest='yes'] {
+  border: 3px solid var(--gm-primary);
+}
+.chain__actions {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-sm);
+}
+
 /* Sorting baskets */
 .baskets {
   display: grid;
@@ -379,6 +1330,54 @@
   user-select: none;
   -webkit-user-select: none;
   -webkit-user-drag: none;
+}
+
+/* Larger targets (GAME-019): two baskets side by side, bigger pictures, wider
+   gaps so a shaking hand lands where it meant to, and the darkest ink token on
+   every edge. Tokens only; the site's higher-contrast setting darkens them
+   further. Nothing here animates, and nothing shrinks below the normal size. */
+.baskets--large {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-lg);
+}
+/* Two columns even at larger text on a phone: the pair stays side by side. */
+@media (max-width: 479px) {
+  html[data-text-size='large'] .baskets--large {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+.basket--large {
+  min-height: 240px;
+  padding: var(--space-sm);
+  border: 4px solid var(--gm-on-surface);
+  background: var(--gm-surface);
+}
+/* Ready adds a second ring, so it is a shape as well as a tint. */
+.basket--large:hover,
+.basket--large.basket--ready {
+  border: 4px solid var(--gm-on-surface);
+  background: var(--gm-primary-container);
+  outline: 4px solid var(--gm-on-surface);
+  outline-offset: 2px;
+}
+.basket--large:focus-visible {
+  outline: 4px solid var(--gm-primary);
+  outline-offset: 4px;
+}
+.basket--large .basket__items {
+  gap: var(--space-md);
+}
+.basket--large .basket__items img {
+  width: 96px;
+  height: 96px;
+  border: 2px solid var(--gm-on-surface);
+}
+.board--large {
+  --tile-min: 96px;
+  gap: var(--space-lg);
+}
+.board--large .tile {
+  border: 3px solid var(--gm-on-surface);
 }
 
 /* Puzzle */
@@ -461,8 +1460,14 @@
   }
   .tile,
   .piece,
+  .half,
+  .cbn__cell,
+  .cbn__key-button,
   .called img {
     transition: none;
+  }
+  .half:hover {
+    box-shadow: none;
   }
   .tile:hover,
   .tile:not(.tile--matched):hover {
@@ -561,6 +1566,47 @@
   font-size: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
   font-weight: 700;
   margin: 0;
+}
+
+/* Big picture (GAME-051): one picture and its prompt large enough to share across a room, for a group on a tablet or a
+   TV. The person leading still moves on; nothing changes by itself. */
+.talk-card--big {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+/* The frame is narrow for the small cards; a big picture uses the width of the page (where :has() is not known, the
+   frame stays narrow and the picture is still larger than the small one). */
+.game:has(.talk-card--big) {
+  max-width: none;
+}
+.talk-card--big img {
+  width: min(45vh, 100%);
+  max-width: none;
+}
+.talk-card--big .talk-card__theme {
+  font-size: var(--text-title-lg);
+}
+.talk-card--big .talk-card__prompt {
+  font-size: var(--text-hero);
+  line-height: 1.2;
+  overflow-wrap: anywhere; /* a long word in another language wraps rather than widening the page */
+}
+.talk-card__pass {
+  margin: var(--space-md) 0 0;
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-title-lg);
+}
+@media (min-width: 900px) and (orientation: landscape) {
+  .talk-card--big {
+    grid-template-columns: auto minmax(0, 1fr);
+    justify-items: stretch;
+    text-align: start;
+  }
+  .talk-card--big img {
+    width: min(55vh, 40vw);
+    max-width: 100%;
+  }
 }
 
 /* Word search */
@@ -1008,7 +2054,7 @@
     display: grid;
     grid-template-columns: repeat(var(--cols), 1fr);
     border: 3px solid #000;
-    max-width: 175mm;
+    max-width: 150mm /* room for the rules and version lines (WEB-052) */;
   }
   .sheet-bingo div {
     border: 2px solid #222;
@@ -1020,6 +2066,7 @@
   }
   .sheet-bingo img {
     width: 100%;
+    height: auto; /* the picture's size attributes give its shape; the sheet sets its size */
     aspect-ratio: 1;
   }
   .sheet-cards {
@@ -1043,10 +2090,275 @@
   }
   .sheet-cards img {
     width: 30mm;
+    height: auto;
   }
   .sheet-color svg {
     width: 100%;
     max-height: 230mm;
+  }
+
+  /* WEB-052: the paper version of a game (GamePrintSheet.astro), one page. */
+  .sheet-paper {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-paper h2 {
+    margin-bottom: 3mm;
+  }
+  .sheet-paper__rules {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 2mm;
+  }
+  .sheet-paper__how {
+    font-size: 13pt;
+    margin: 0 0 5mm;
+    color: #000;
+  }
+  .sheet-paper figure {
+    margin: 0;
+    text-align: center;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .sheet-paper__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 170mm;
+  }
+  .sheet-paper__cards figure {
+    border: 1.5px dashed #333;
+    padding: 3mm;
+  }
+  .sheet-paper__rows {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 175mm;
+  }
+  .sheet-paper__rows li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5mm;
+    align-items: end;
+    padding: 2mm 0;
+    border-bottom: 1.5px solid #333;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  /* Small pictures, full-width captions: long translated names wrap less. */
+  .sheet-paper__rows li > figure img {
+    max-width: 26mm;
+    margin-inline: auto;
+  }
+  .sheet-paper__target {
+    justify-self: center;
+    border: 2.5px solid #000;
+    padding: 2mm;
+  }
+  .sheet-paper__target[data-shadow='yes'] img {
+    filter: brightness(0);
+    opacity: 0.7;
+  }
+  /* Color match: each row begins, in its own first cell, with the color's name and a patch of it. */
+  .sheet-paper__rows li[data-color='yes'] {
+    grid-template-columns: 1.2fr repeat(4, 1fr);
+  }
+  .sheet-paper__color {
+    align-self: center;
+    display: grid;
+    justify-items: center;
+    gap: 2mm;
+    margin: 0;
+    font-size: 15pt;
+    font-weight: 700;
+  }
+  .sheet-paper__swatch {
+    display: block;
+    inline-size: 16mm;
+    block-size: 16mm;
+    border: 2px solid #000;
+    background: var(--match-color, #fff);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet-paper__chain {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6mm 5mm;
+    max-width: 175mm;
+    margin: 0;
+    padding: 0;
+  }
+  .sheet-paper__chain li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-paper__chain img {
+    max-width: 34mm;
+    margin-inline: auto;
+    border: 1.5px solid #333;
+  }
+  .sheet-paper__baskets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6mm;
+    max-width: 170mm;
+    margin-top: 6mm;
+  }
+  .sheet-paper__baskets div {
+    min-height: 58mm;
+    border: 2.5px solid #000;
+    padding: 3mm;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__puzzle {
+    display: grid;
+    grid-template-columns: 40mm 1fr;
+    gap: 8mm;
+    align-items: start;
+  }
+  .sheet-paper__pieces {
+    position: relative;
+    max-width: 125mm;
+  }
+  .sheet-paper__cut {
+    position: absolute;
+    border: 0 dashed #000;
+  }
+  .sheet-paper__cut[data-cut='across'] {
+    inset: 50% 0 auto;
+    border-top-width: 2px;
+  }
+  .sheet-paper__cut[data-cut='down'] {
+    inset: 0 auto 0 50%;
+    border-left-width: 2px;
+  }
+  /* Halves match on paper: left halves and right halves in two columns, with room between to draw a line.
+     A dot on each cut edge marks where a line starts and ends. */
+  .sheet-paper__halves {
+    display: flex;
+    justify-content: center;
+    gap: 70mm;
+    max-width: 175mm;
+    margin-top: 2mm;
+  }
+  .sheet-paper__halves-column {
+    display: flex;
+    flex-direction: column;
+    gap: 7mm;
+  }
+  .sheet-paper__half {
+    position: relative;
+    display: block;
+    inline-size: 26mm;
+    block-size: 52mm;
+    overflow: hidden;
+    border: 2.5px solid #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet-paper .sheet-paper__half img {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    inline-size: 200%;
+    max-width: none;
+    block-size: 100%;
+  }
+  .sheet-paper .sheet-paper__half--right img {
+    inset-inline-start: -100%;
+  }
+  .sheet-paper__half::after {
+    content: '';
+    position: absolute;
+    inset-block-start: 50%;
+    inline-size: 3.5mm;
+    block-size: 3.5mm;
+    margin-block-start: -1.75mm;
+    border: 1.5px solid #000;
+    border-radius: 50%;
+    background: #fff;
+  }
+  .sheet-paper__half--left::after {
+    inset-inline-end: -1.75mm;
+  }
+  .sheet-paper__half--right::after {
+    inset-inline-start: -1.75mm;
+  }
+  /* Color by number on paper: the key of four colors, then the numbered grid to color with pencils.
+     Each key color has its name, its number and its shape, so it reads in black and white too. */
+  .sheet-paper__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 5mm;
+    padding: 0;
+    list-style: none;
+  }
+  .sheet-paper__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__key-swatch {
+    display: grid;
+    place-items: center;
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--cbn-fill, #fff);
+    color: var(--cbn-ink, #000);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .sheet-paper__key-swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .sheet-paper__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--cbn-n), 1fr);
+    max-width: 135mm;
+    border: 2.5px solid #000;
+    direction: ltr;
+  }
+  .sheet-paper__cell {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border: 1.5px solid #000;
+    font-size: 26pt;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+  }
+  .sheet-foot {
+    margin-top: 5mm;
+    font-size: 12pt;
+    line-height: 1.35;
+    color: #000;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-foot p {
+    margin: 0 0 1.5mm;
   }
 }
 
@@ -1155,6 +2467,86 @@
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
 @media (prefers-contrast: more) {
+  .pm__square {
+    border: 3px solid #000000;
+  }
+  .pm__square:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .pm__square:focus-visible,
+  .pm__region:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .pm__pattern,
+  .pm__swatch {
+    border-color: #000000;
+  }
+  .bt__cell {
+    border-width: 3px;
+    border-color: #000000;
+  }
+  .bt__cell[data-state='empty']:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .bt__cell:focus-visible,
+  .bt__region:focus-visible,
+  .bt__pick input:focus-visible + .bt__face {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .bt__face,
+  .bt__player,
+  .bt__turn,
+  .bt__swatch {
+    border-color: #000000;
+  }
+  .bt__pick input:checked + .bt__face {
+    box-shadow: inset 0 0 0 3px #000000;
+  }
+  .bt__turn-line,
+  .bt__legend,
+  .bt__face {
+    font-weight: 800;
+  }
+  .cbn__cell,
+  .cbn__key-button {
+    border: 3px solid #000000;
+  }
+  .cbn__cell:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .cbn__cell:focus-visible,
+  .cbn__key-button:focus-visible,
+  .cbn__region:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .cbn__key-button[aria-pressed='true'] {
+    box-shadow: inset 0 0 0 4px #000000;
+  }
+  .half {
+    border: 2px solid #000000;
+  }
+  .half:hover {
+    outline: 2px solid #000000;
+    outline-offset: 2px;
+  }
+  .half:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .half--selected::after,
+  .half--joined::after {
+    border-width: 6px;
+    border-color: #000000;
+  }
+  .color-match__swatch {
+    border: 8px solid #000000;
+  }
+  .color-match__target {
+    border: 3px solid #000000;
+  }
   .tile {
     border: 2px solid #000000;
   }
@@ -1192,6 +2584,10 @@
   .basket--ready,
   .basket:hover {
     border: 4px solid #000000;
+  }
+  .basket--large {
+    border-style: solid;
+    border-width: 4px;
   }
   .basket__items img {
     border: 2px solid #000000;
@@ -1347,6 +2743,47 @@
 }
 
 @media (forced-colors: active) {
+  .pm__square:hover,
+  .pm__square:focus-visible,
+  .pm__region:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .bt__cell[data-state='empty']:hover,
+  .bt__cell:focus-visible,
+  .bt__region:focus-visible,
+  .bt__pick input:focus-visible + .bt__face {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .bt__pick input:checked + .bt__face,
+  .bt__player[data-turn='yes'] {
+    border-color: Highlight;
+    box-shadow: inset 0 0 0 3px Highlight;
+  }
+  .cbn__cell:hover,
+  .cbn__cell:focus-visible,
+  .cbn__key-button:focus-visible,
+  .cbn__region:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .cbn__key-button[aria-pressed='true'] {
+    border-color: Highlight;
+    box-shadow: inset 0 0 0 3px Highlight;
+  }
+  .half:hover {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+  .half:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+  }
+  .half--selected::after,
+  .half--joined::after {
+    border-color: Highlight;
+  }
   /* Crucial: preserve color swatches and user coloring in Windows High Contrast Mode */
   .swatch__dot {
     forced-color-adjust: none;
@@ -1512,5 +2949,203 @@
   }
   .talk-card__theme {
     color: CanvasText;
+  }
+}
+
+/* Daily card (GAME-061): day picker and a plain result line */
+.chips .game__select {
+  display: block;
+  width: 100%;
+  min-height: 3.5rem;
+  padding: var(--space-sm) var(--space-md);
+  font: inherit;
+  font-size: var(--text-md);
+  color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+}
+.game__help {
+  font-size: var(--text-md);
+  font-weight: 400;
+  margin-block: var(--space-sm) 0;
+}
+.game__done .game__help {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.game__result {
+  margin-bottom: var(--space-md);
+}
+@media print {
+  .game__select,
+  .game__result {
+    display: none;
+  }
+}
+
+/* Seated toss tally (GAME-049): safety first, the steps, and a small picture of the printed sheet. Nothing here
+   moves or counts. The ring names are written on the rings, so no color is needed to tell them apart. */
+.toss {
+  display: grid;
+  gap: var(--space-xl);
+  max-inline-size: 44rem;
+  margin-inline: auto;
+}
+.toss h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+}
+.toss__safety {
+  padding: var(--space-md) var(--space-lg);
+  border: 2px solid var(--gm-on-surface);
+  border-inline-start-width: 8px;
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.toss__safety-line {
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.toss__flags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: 0 0 var(--space-md);
+  padding: 0;
+  list-style: none;
+}
+.toss__flags li {
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.toss__safety-list,
+.toss__steps {
+  margin: 0;
+  padding-inline-start: 1.5em;
+  font-size: var(--text-md);
+}
+.toss__safety-list li,
+.toss__steps li {
+  margin-block-end: var(--space-sm);
+}
+.toss__preview {
+  margin: 0;
+}
+.toss__sheet {
+  display: grid;
+  gap: var(--space-md);
+  justify-items: center;
+  padding: var(--space-md);
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-print-white);
+  color: #000;
+}
+.toss__target {
+  inline-size: min(100%, 14rem);
+  block-size: auto;
+}
+.toss__ring {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2;
+}
+.toss__ring-name {
+  fill: #000;
+  font-size: 12px;
+  font-weight: 700;
+}
+.toss__tally {
+  inline-size: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-md);
+}
+.toss__tally th,
+.toss__tally td {
+  padding: var(--space-xs) var(--space-sm);
+  border: 1.5px solid #000;
+  text-align: start;
+}
+.toss__box {
+  display: inline-block;
+  inline-size: 1.1rem;
+  block-size: 1.1rem;
+  margin-inline-end: 0.35rem;
+  border: 1.5px solid #000;
+  vertical-align: middle;
+}
+.toss__preview figcaption {
+  margin-block-start: var(--space-sm);
+  font-size: var(--text-md);
+}
+@media (forced-colors: active) {
+  .toss__ring {
+    stroke: CanvasText;
+  }
+  .toss__ring-name {
+    fill: CanvasText;
+  }
+}
+
+/* The paper version: one page with a large target, the tally and the safety line. Printed black on white. */
+@media print {
+  .sheet-paper__target-art {
+    display: block;
+    inline-size: 98mm;
+    block-size: 98mm;
+    margin: 0 auto 4mm;
+  }
+  .sheet-paper__ring {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2.4;
+  }
+  .sheet-paper__ring-name {
+    fill: #000;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .sheet-paper__tally {
+    inline-size: 100%;
+    border-collapse: collapse;
+    margin: 0 0 4mm;
+    font-size: 13pt;
+    color: #000;
+  }
+  .sheet-paper__tally th,
+  .sheet-paper__tally td {
+    padding: 1.5mm 2mm;
+    border: 1.5px solid #000;
+    text-align: start;
+    font-weight: 700;
+  }
+  .sheet-paper__tally td {
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  .sheet-paper__tally th:first-child {
+    inline-size: 26mm;
+  }
+  .sheet-paper__box {
+    display: inline-block;
+    inline-size: 6.5mm;
+    block-size: 6.5mm;
+    margin-inline-end: 1.5mm;
+    border: 1.5px solid #000;
+    vertical-align: middle;
+  }
+  .sheet-paper__safety {
+    margin: 0;
+    padding: 2mm 3mm;
+    border: 2px solid #000;
+    font-size: 12pt;
+    line-height: 1.3;
+    color: #000;
   }
 }

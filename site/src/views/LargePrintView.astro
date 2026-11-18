@@ -1,0 +1,50 @@
+---
+/**
+ * Large-print edition of one activity card (WEB-018): the same words as the standard card,
+ * set at 18 pt or more in black on white, with a larger QR code. Not indexed and not in the
+ * sitemap, because the standard card is the canonical page.
+ */
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/activity-cards.css';
+import '../styles/activities.css';
+import '../styles/large-print.css';
+import ActivityPrintCard from '../components/ActivityPrintCard.astro';
+import Icon from '../components/Icon.astro';
+import { SITE } from '../lib/site';
+import { qrSvg } from '../lib/qr';
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+}
+const { activity } = Astro.props;
+const d = activity.data;
+const cardPath = `/activity/${activity.id}/`;
+const qr = qrSvg(`${SITE.url}${cardPath}`, `QR code for the ${d.name} page`);
+---
+<BaseLayout
+  title={`Large print: ${d.name}`}
+  description={`A large-print copy of the ${d.name.toLowerCase()} activity card, with the same steps and safety notes in bigger type.`}
+  noindex
+>
+  <div class="container large-print">
+    <div class="large-print__intro no-print">
+      <p><a href={cardPath}>Back to the full card</a></p>
+      <h1>Large print: {d.name}</h1>
+      <p>This is the same card in bigger type, black on white. It may print on more than one sheet.</p>
+      <button type="button" class="btn btn--primary" data-print hidden><Icon name="print" />Print large print</button>
+    </div>
+    <ActivityPrintCard activity={activity} />
+    <figure class="large-print__qr">
+      <Fragment set:html={qr} />
+      <figcaption>Scan for easier versions and more ideas, or visit {SITE.domain}{cardPath}.</figcaption>
+    </figure>
+  </div>
+</BaseLayout>
+
+<script>
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.hidden = false;
+    button.addEventListener('click', () => window.print());
+  }
+</script>

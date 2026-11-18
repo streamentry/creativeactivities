@@ -3,6 +3,8 @@
 // image alt text and claims wording. Exits 1 on any error.
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
+import { postingForm, captchaLoaded } from './post-rules.mjs';
+import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
 const SITE = 'https://creativeactivities.org';
@@ -42,6 +44,8 @@ const CLAIMS_REVIEW_PENDING = new Set([
 // "aita" and "eab" are Nauru negations (src/i18n/ui/na.json); the list is otherwise English-only.
 const ALLOWED_CONTEXT = /\b(aita|eab|no|none|nothing|unproven|not|never|nor|don[’']t|doesn[’']t|does not|cannot|can[’']t|without|claim|claims|claimed|claiming|unsupported|deceptive|whether|if|ftc|lumosity|marketing|be wary|be cautious|beware|watch out|promise|promises|promising)\b|\?/i;
 
+/** Hosts a page may load a resource from: this site, and Google Tag Manager for measurement (TSA-019). */
+const THIRD_PARTY_OK = /^https:\/\/(creativeactivities\.org|www\.googletagmanager\.com)(\/|$)/;
 const errors = [];
 const warnings = [];
 const err = (file, msg) => errors.push(`${file}: ${msg}`);
@@ -137,6 +141,8 @@ const titles = new Map();
 const descriptions = new Map();
 const indexable = [];
 const noindexed = [];
+// SEO-031: the hreflang set of every page that lists alternates, checked for reciprocity after the loop.
+const alternatesByPage = new Map();
 
 for (const file of htmlFiles) {
   const rel = relative(DIST, file);
@@ -174,6 +180,12 @@ for (const file of htmlFiles) {
   const pageScripts = pageCsp.match(/script-src [^;]*/)?.[0] ?? '';
   const missingHash = (pageScripts.match(/'sha256-[^']+'/g) ?? []).find((h) => !headerScriptHashes.has(h));
   if (missingHash) err(rel, `inline script hash ${missingHash} is not in the script-src of _headers (update it, or the header will block the script)`);
+  // TSA-022, WEB-035: nothing plays by itself. Words about autoplay in advice are fine; media elements and frames are not.
+  if (/<(?:video|audio)\b[^>]*\sautoplay\b/i.test(html) || /\sallow="[^"]*\bautoplay\b/i.test(html)) err(rel, 'media is set to autoplay (TSA-022)');
+  // TSA-044: no form posts anywhere (none sets an action or method) and no captcha service is loaded. A form that posts
+  // data would need the controls in that item first: server checks, a rate limit, a honeypot and a test with a screen reader.
+  if (postingForm(html)) err(rel, 'a form sets an action or method, but the site posts no form to a server (TSA-044)');
+  if (captchaLoaded(html)) err(rel, 'loads a captcha service (TSA-044)');
   const h1s = html.match(/<h1[\s>]/g) ?? [];
   if (h1s.length !== 1) err(rel, `has ${h1s.length} <h1> elements`);
 
@@ -186,6 +198,8 @@ for (const file of htmlFiles) {
     else noindexed.push(`${SITE}${path}`);
     // A page that asks not to be indexed must not advertise language alternates.
     if (noindexMeta && /rel="alternate" hreflang=/.test(html)) err(rel, 'noindex page lists hreflang alternates');
+    const alternates = [...html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)].map((m) => [m[1], m[2]]);
+    if (alternates.length > 0) alternatesByPage.set(`${SITE}${path}`, { rel, alternates });
     // WEB-005: the finder's address with filters stays canonical to /activity/, and the finder is indexable.
     if (path === '/activity/') {
       if (noindexMeta) err(rel, 'the finder must be indexable; filter combinations are noindexed by script');
@@ -203,6 +217,18 @@ for (const file of htmlFiles) {
     const prefix = prefixIn(path);
     const patient = prefix && PATIENT_WORDS[prefix];
     if (patient && patient.re.test(text(html))) (patient.fail ? err : warn)(rel, 'uses "patients" wording for people living with dementia');
+  }
+
+  // TSA-019: no ad technology and no unexpected third-party load on any page. Measurement is limited to
+  // Google Tag Manager; anything else that is fetched from another host, or any ad network, fails the build.
+  const AD_TECH = /doubleclick\.net|googlesyndication\.com|adsbygoogle|googleadservices\.com|connect\.facebook\.net|fbevents\.js|criteo\.|taboola\.|outbrain\.|adservice\.|amazon-adsystem\.com|ads-twitter\.com|snap\.licdn\.com|hotjar\.com/i;
+  const adHit = html.match(AD_TECH);
+  if (adHit) err(rel, `references ad technology (${adHit[0]})`);
+  for (const m of html.matchAll(/<(script|iframe|embed|object|img|source|video|audio)\b[^>]*?\s(?:src|data)="(https?:\/\/[^"]+)"/gi)) {
+    if (!THIRD_PARTY_OK.test(m[2])) err(rel, `<${m[1].toLowerCase()}> loads from a host that is not allowed: ${m[2]}`);
+  }
+  for (const m of html.matchAll(/<link\b[^>]*\brel="(?:stylesheet|preload|modulepreload|prefetch)"[^>]*\shref="(https?:\/\/[^"]+)"/gi)) {
+    if (!THIRD_PARTY_OK.test(m[1])) err(rel, `<link> loads from a host that is not allowed: ${m[1]}`);
   }
 
   const og = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1];
@@ -267,6 +293,41 @@ for (const file of htmlFiles) {
 for (const [key, pages] of titles) if (pages.length > 1) err(pages.join(', '), `duplicate title "${key.split('|').slice(1).join('|')}"`);
 for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join(', '), `duplicate description`);
 
+// WEB-003: every page the search index lists is a built page, and nothing is listed twice.
+{
+  const indexPath = join(DIST, 'search-index.json');
+  if (!existsSync(indexPath)) err('search-index.json', 'is missing: site search has nothing to look through');
+  else {
+    const file = JSON.parse(readFileSync(indexPath, 'utf8'));
+    const entries = Array.isArray(file.entries) ? file.entries : [];
+    if (entries.length < 100) err('search-index.json', `lists only ${entries.length} pages`);
+    const seenUrls = new Set();
+    for (const e of entries) {
+      if (typeof e.url !== 'string' || typeof e.title !== 'string' || !e.title.trim()) err('search-index.json', `has an entry with no address or title: ${JSON.stringify(e).slice(0, 80)}`);
+      else if (!existsSync(join(DIST, e.url, 'index.html'))) err('search-index.json', `lists ${e.url}, which is not a built page`);
+      if (seenUrls.has(e.url)) err('search-index.json', `lists ${e.url} twice`);
+      seenUrls.add(e.url);
+    }
+  }
+}
+
+// SEO-031: hreflang alternates are exact and reciprocal. Each page lists itself, every alternate is a page
+// that lists alternates and links back, no language code repeats, and x-default is one of the pages listed.
+for (const [url, { rel, alternates }] of alternatesByPage) {
+  const codes = alternates.map(([code]) => code);
+  if (new Set(codes).size !== codes.length) err(rel, 'a hreflang code is listed more than once');
+  const hrefs = alternates.filter(([code]) => code !== 'x-default').map(([, href]) => href);
+  if (!hrefs.includes(url)) err(rel, 'the hreflang set does not include this page itself');
+  const xDefault = alternates.find(([code]) => code === 'x-default');
+  if (xDefault && !hrefs.includes(xDefault[1])) err(rel, `x-default ${xDefault[1]} is not one of the pages in the hreflang set`);
+  for (const href of hrefs) {
+    if (href === url) continue;
+    const other = alternatesByPage.get(href);
+    if (!other) err(rel, `hreflang alternate ${href} is not a built page that lists alternates`);
+    else if (!other.alternates.some(([, back]) => back === url)) err(rel, `hreflang alternate ${href} does not link back to this page`);
+  }
+}
+
 // Every translated guide written for a published language must be built. Folder names keep their
 // case (pt-BR, zh-Hant) while the URL prefix is lowercase; a case mismatch once dropped all 40
 // guides in four languages without any other check noticing.
@@ -275,12 +336,28 @@ const GUIDES_I18N = join(SRC, 'content/guides-i18n');
 const englishGuides = new Set(
   walk(join(SRC, 'content/guides')).filter((f) => f.endsWith('.md')).map((f) => relative(join(SRC, 'content/guides'), f).replace(/\.md$/, '')),
 );
+// L10N-021: a translation made from an older English page must say so, and a current one must not.
+const frontmatterOf = (path) => readFileSync(path, 'utf8').match(/^---\n([\s\S]*?)\n---/)?.[1] ?? '';
+const englishUpdated = new Map(
+  [...englishGuides].map((id) => [id, readFreshnessFields(frontmatterOf(join(SRC, 'content/guides', `${id}.md`))).updated ?? '']),
+);
 for (const lang of existsSync(GUIDES_I18N) ? readdirSync(GUIDES_I18N) : []) {
   const prefix = lang.toLowerCase();
   if (!LOCALE_PREFIXES.has(prefix) || !existsSync(join(SRC, 'i18n/ui', `${lang}.json`))) continue;
   for (const file of walk(join(GUIDES_I18N, lang)).filter((f) => f.endsWith('.md'))) {
     const id = relative(join(GUIDES_I18N, lang), file).replace(/\.md$/, '');
-    if (englishGuides.has(id) && !existsSync(join(DIST, prefix, id, 'index.html'))) err(`${prefix}/${id}/`, `translated guide ${lang}/${id}.md was not built`);
+    if (!englishGuides.has(id)) continue;
+    const built = join(DIST, prefix, id, 'index.html');
+    if (!existsSync(built)) {
+      err(`${prefix}/${id}/`, `translated guide ${lang}/${id}.md was not built`);
+      continue;
+    }
+    // A retired English guide has no English page (it redirects), so there is nothing for the notice to point to.
+    const live = existsSync(join(DIST, id, 'index.html'));
+    const stale = live && isStale(readFreshnessFields(frontmatterOf(file)).translatedFrom ?? '', englishUpdated.get(id) ?? '');
+    const shows = readFileSync(built, 'utf8').includes('data-stale-translation');
+    if (stale && !shows) err(`${prefix}/${id}/`, 'translation is older than the English page but shows no out-of-date notice (L10N-021)');
+    if (!stale && shows) err(`${prefix}/${id}/`, 'translation is current, or its English guide is retired, but it shows the out-of-date notice (L10N-021)');
   }
 }
 
@@ -353,6 +430,9 @@ for (const [page, phrases] of Object.entries(LEGAL_PAGES)) {
 // Trust routes on every template (WEB-058, TSA-047, TSA-027, TSA-031). The footer carries the
 // problem report on every page; each activity and printed card carries the safety route; a card that
 // opts in to the crisis route shows it on its page and on its print pages.
+// The footer line under a printed card (ActivityPrintCard.astro) and the version date it must begin with.
+const PRINTED_CARD_SOURCE = /<p class="pack-card__source"[^>]*>[^<]*<\/p>/g;
+const PRINTED_VERSION = /Version \d{4}-\d{2}-\d{2}\./;
 const crisisCards = new Set(
   readdirSync(join(SRC, 'content/activity-cards'))
     .filter((f) => f.endsWith('.md'))
@@ -383,7 +463,35 @@ if (existsSync(activityDir)) {
       for (const id of crisisCards) {
         if (html.includes(`/activity/${id}/`) && !html.includes('data-crisis-route')) err(`activity/packs/${pack}/`, `prints ${id} without the crisis route (TSA-027)`);
       }
+      for (const source of html.match(PRINTED_CARD_SOURCE) ?? []) {
+        if (!PRINTED_VERSION.test(source)) err(`activity/packs/${pack}/`, 'a printed card shows no version date (WEB-016)');
+      }
     }
+  }
+  // The pack builder (WEB-017) prints any cards the visitor picks, so every card on its page must be complete: its
+  // version date, and the crisis route when the card opts in to it.
+  const builderFile = join(activityDir, 'pack', 'index.html');
+  if (existsSync(builderFile)) {
+    const html = readFileSync(builderFile, 'utf8');
+    const sources = html.match(PRINTED_CARD_SOURCE) ?? [];
+    if (sources.length === 0) err('activity/pack/', 'the pack builder has no cards on the page (WEB-017)');
+    for (const source of sources) {
+      if (!PRINTED_VERSION.test(source)) err('activity/pack/', 'a printed card shows no version date (WEB-016)');
+    }
+    for (const block of html.split('data-pack-card="').slice(1)) {
+      const id = block.slice(0, block.indexOf('"'));
+      const card = block.slice(0, block.indexOf('</section>'));
+      if (crisisCards.has(id) && !card.includes('data-crisis-route')) err('activity/pack/', `prints ${id} without the crisis route (TSA-027)`);
+    }
+  }
+}
+// A path is printed like a card, so it carries the scope line and the stop-and-switch note (WEB-032, TSA-025, TSA-026).
+const pathsDir = join(DIST, 'paths');
+if (existsSync(pathsDir)) {
+  for (const id of readdirSync(pathsDir).filter((name) => existsSync(join(pathsDir, name, 'index.html')))) {
+    const html = readFileSync(join(pathsDir, id, 'index.html'), 'utf8');
+    if (!html.includes(CARD_SCOPE_LINE)) err(`paths/${id}/`, 'path is missing its scope line (TSA-026)');
+    if (!html.includes(PAUSE_LINE)) err(`paths/${id}/`, 'path is missing the stop-and-switch note (TSA-025)');
   }
 }
 if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editorial-policy/index.html').includes('id="evidence"')) {

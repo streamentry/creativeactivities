@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { activityCardSchema } from './activity-schema';
+import { REVIEW_ROLES, activityCardSchema } from './activity-schema';
 
 const DESCRIPTION =
   'Fold a basket of clean, warm towels together at a table. Easy steps, an easier version and a clear place to stop.';
@@ -140,7 +140,9 @@ describe('activity card schema', () => {
   describe('review record (TSA-034)', () => {
     const REVIEW = {
       name: 'Jane Example',
+      role: 'occupational-therapist',
       credential: 'Registered occupational therapist',
+      body: 'Example Register of Occupational Therapists',
       date: '2026-11-10',
       scope: 'Checked the steps and stop signs for people living with early dementia. Not checked for medical use.',
       notFor: ['Anyone who is in distress when asked to make something.'],
@@ -161,6 +163,26 @@ describe('activity card schema', () => {
       expect(parse({ review: { ...REVIEW, credential: undefined } }).success).toBe(false);
       expect(parse({ review: { ...REVIEW, scope: 'Short' } }).success).toBe(false);
       expect(parse({ review: { ...REVIEW, stopSigns: [] } }).success).toBe(false);
+    });
+
+    it('records the reviewer\'s role and the body that holds the credential (CNT-1004)', () => {
+      expect(parse({ review: { ...REVIEW, role: undefined } }).success).toBe(false);
+      expect(parse({ review: { ...REVIEW, role: 'wellness-coach' } }).success).toBe(false);
+      expect(parse({ review: { ...REVIEW, body: undefined } }).success).toBe(false);
+      expect(parse({ review: { ...REVIEW, body: '' } }).success).toBe(false);
+    });
+
+    it('lets a lived-experience reviewer have no credential body, and no one else', () => {
+      const lived = { ...REVIEW, role: 'lived-experience', credential: 'Cared for a parent with dementia', body: undefined };
+      expect(parse({ review: lived }).success).toBe(true);
+      expect(parse({ review: { ...lived, role: 'art-therapist' } }).success).toBe(false);
+    });
+
+    it('accepts every role the reviewer table names', () => {
+      for (const role of REVIEW_ROLES) {
+        const body = role === 'lived-experience' ? undefined : 'Example Register';
+        expect(parse({ review: { ...REVIEW, role, body } }).success, role).toBe(true);
+      }
     });
 
     it('no longer takes the plain reviewer string', () => {

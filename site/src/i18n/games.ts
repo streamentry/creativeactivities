@@ -3,6 +3,77 @@ import { DEFAULT_LOCALE, localeInfo } from './locales';
 import { PUBLISHED, deepMerge, fill, ui } from './ui';
 import { NO_SAYINGS_GAME, playProps } from './play';
 
+/**
+ * Languages where Four together's group names have been reviewed. A language
+ * is added only after a native speaker checks every theme name and that each
+ * group still reads as one group (no machine translation).
+ */
+export const FOUR_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Odd one out has passed its category review. It reuses Four
+ * together's group names, but a language is added only after a native speaker
+ * also checks that the odd picture plainly sits outside every set, so it has
+ * its own list.
+ */
+export const ODD_ONE_OUT_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Story chain is offered. It is English-only for now: its
+ * words are one guidance line and a few buttons, and a language is added only
+ * after a native speaker has checked them (no machine translation).
+ */
+export const STORY_CHAIN_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Color match is offered. It needs five color names and a few
+ * short messages, but they are English only until a native speaker has checked
+ * them, and until each color name is confirmed to name the same color for
+ * people of that language (GAME-020), so it has its own list.
+ */
+export const COLOR_MATCH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Halves match is offered. It needs one guidance line, a few
+ * buttons and short messages, all English only until a native speaker has
+ * checked them (GAME-021), so it has its own list.
+ */
+export const HALVES_MATCH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Color by number is offered. It needs the names of four colors
+ * and of six small pictures, a few buttons and short messages, all English only
+ * until a native speaker has checked them (GAME-031), so it has its own list.
+ */
+export const COLOR_BY_NUMBER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Pattern maker is offered. It needs the names of four colors,
+ * a few buttons and short messages, all English only until a native speaker has
+ * checked them (GAME-034), so it has its own list.
+ */
+export const PATTERN_MAKER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Build together is offered. It needs the names of four colors and
+ * of two people, a few buttons and short messages, all English only until a native
+ * speaker has checked them (GAME-048), so it has its own list.
+ */
+export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Seated toss tally is offered. Its page text and safety wording are English only until a
+ * native speaker and a safety reviewer have checked them (GAME-049), so it has its own list.
+ */
+export const SEATED_TOSS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Story dice is offered. It needs no picture names to play,
+ * but its page text and prompts are English only until a native speaker has
+ * reviewed them (GAME-025), so it has its own list.
+ */
+export const STORY_DICE_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /** Translatable fields of a game; everything else (slug, pictures, stages) is shared. */
 export type GameText = Partial<
   Pick<GameInfo, 'name' | 'seoTitle' | 'h1' | 'description' | 'short' | 'players' | 'intro' | 'howTo' | 'tips' | 'faq'>
@@ -25,8 +96,22 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
  * and enough translated words to fill every theme, while Finish the saying needs
  * 30 genuine sayings. A language leaves an unsupported game out entirely (no
  * page, card or hreflang) rather than show an empty or invented one.
+ * Four together stays English-only until its group names pass a per-language
+ * category review (GAME-022 in docs/specs/global/05-games.md), Odd one out
+ * likewise (GAME-018), Story chain (GAME-046), Color match (GAME-020),
+ * Halves match (GAME-021), Color by number (GAME-031), Pattern maker (GAME-034), Build together (GAME-048) and Seated toss tally (GAME-049).
  */
 export function gameAvailable(slug: string, code: string): boolean {
+  if (slug === 'four-together') return FOUR_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'odd-one-out') return ODD_ONE_OUT_REVIEWED.includes(code);
+  if (slug === 'color-match') return COLOR_MATCH_REVIEWED.includes(code);
+  if (slug === 'halves-match') return HALVES_MATCH_REVIEWED.includes(code);
+  if (slug === 'color-by-number') return COLOR_BY_NUMBER_REVIEWED.includes(code);
+  if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
+  if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
+  if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
+  if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);
   if (slug !== 'word-search') return true;
   return playProps(code, slug).content.wordSearch.available;

@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 12 browser games read their words from here. The mobile app's exporter also
+The 22 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | 200 strings in 16 sections | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -48,6 +48,16 @@ member or carer. Write plain, warm, adult language.
 | `content.conversation` | 9 theme labels + at least 2 cards per theme (English has 43 cards) | Conversation cards |
 | `content.coloring` | 5 page names + 47 region names | Coloring |
 | `content.sorting` | 3 themes × (label + 2 basket names) | Sort together |
+| `ui.fourTogether`, `content.fourTogether` | 11 strings + 7 group names | Four together (English only for now; see below) |
+| `ui.oddOneOut` | 10 strings (reuses `content.fourTogether`) | Odd one out (English only for now; see below) |
+| `ui.colorMatch` | 10 strings + 5 color names | Color match (English only for now; see below) |
+| `ui.halvesMatch` | 16 strings | Halves match (English only for now; see below) |
+| `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
+| `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
+| `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
+| `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
+| `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
+| `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -185,6 +195,148 @@ flower 16, house 10, teacup 6, butterfly 8, sailboat 7.
 `kitchen-garden`, `fruit-animals`, `home-travel`: a chip `label` and two
 `baskets` names, in that order (the pictures sorted into each basket are
 fixed).
+
+### Four together (`ui.fourTogether`, `content.fourTogether`)
+
+Four together is offered in English only. Its group names (`fruit`,
+`animals`, `travel`, `flowers`, `hot-drinks`, `weather`, `baked`) must pass a
+per-language category review before the game appears in another language
+(GAME-022): a native speaker checks that each name is plain and that every
+picture in a group still reads as belonging to it, and only to it. After that
+review, add the translated strings here and the language code to
+`FOUR_TOGETHER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Odd one out (`ui.oddOneOut`)
+
+Odd one out reuses the Four together group names and is also English only
+(GAME-018). Its category review also checks that, in the language, the odd
+picture plainly sits outside every group. After that review, add the
+`ui.oddOneOut` strings and the language code to `ODD_ONE_OUT_REVIEWED` in
+`../games.ts`.
+
+### Color match (`ui.colorMatch`)
+
+Color match is English only for now (GAME-020). It has 10 strings and the names
+of its five colors (`red`, `orange`, `yellow`, `green`, `blue` under
+`ui.colorMatch.names`). The guidance line is also the line printed on its paper
+version, so it has no placeholders. `{color|lower}` is the color name and
+`{name|lower}` the picture name; a wrong tap is never called wrong, the picture
+is only named with its color ("The pear is green."). The pictures in each color
+are a hand-picked table (`src/data/color-match.ts`) checked against the picture
+drawings. Colors are named differently across languages and cultures (some
+languages have one word for blue and green), so a native speaker must confirm
+that each name describes the same five colors before the language code is added
+to `COLOR_MATCH_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Halves match (`ui.halvesMatch`)
+
+Halves match is English only for now (GAME-021). It has 16 strings: one guidance
+line (which is also the line printed on its paper version, so it has no
+placeholders), the two column labels, the spoken name of each half, the live
+messages and three buttons. `{name|lower}` is the picture name. Two halves that
+do not fit are never called wrong: the message only says they do not fit
+together and invites another try. The spoken names of the halves
+(`left`, `right`) name the picture, as every picture tile does, because that is
+how a screen reader user can play at all. The pictures are a hand-picked list
+(`src/data/halves-match.ts`). After a native speaker checks the strings, add the
+translated `ui.halvesMatch` strings and the language code to
+`HALVES_MATCH_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Color by number (`ui.colorByNumber`)
+
+Color by number is English only for now (GAME-031). It has one guidance line
+(also printed on its paper version, so it has no placeholders), the grid size
+labels, the four color names, six picture names, the spoken name of each cell
+and the live messages. `colors` is a list of four names in the order of the
+numbers 1 to 4 (Yellow, Orange, Green, Purple) and, as a list, is replaced whole.
+`cell` is the accessible name of every cell: its number, its row and column, and
+the name of the color it holds (or `empty`). A cell filled with a color other
+than the number is never called wrong; only the picture on the sheet is named,
+when every cell matches. The four fills are fixed in `src/data/color-by-number.ts`,
+chosen and tested to stay apart for red-green and blue-yellow color-vision
+differences; a translator must give four plain, common names that name those
+four fills (Orange is a pure orange, Green a bluish green, Purple a red-blue
+purple), because a person reads the name beside the number. A native speaker
+should check the names, then add the translated strings and the language code to
+`COLOR_BY_NUMBER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Pattern maker (`ui.patternMaker`)
+
+Pattern maker is English only for now (GAME-034). It has one guidance line (also
+printed on its paper version, and it says that nothing the person makes is saved
+or sent), the tile size labels, the four color names, the labels of the tile and
+of "your pattern", the spoken name of each square and the live messages. `colors`
+is a list of four names in the order a tap changes a square (Yellow, Orange,
+Green, Purple) and, as a list, is replaced whole. `square` is the accessible name
+of every square: its row, its column and the name of the color it holds. Nothing
+is called wrong; there is no right pattern. Start again and Surprise me replace the
+whole tile, so a Put it back button brings the old tile back once. The four fills
+are the ones Color by number uses, fixed in `src/data/pattern-maker.ts`, chosen and
+tested to stay apart for red-green and blue-yellow color-vision differences; a
+translator must give four plain, common names that name those four fills (Orange
+is a pure orange, Green a bluish green, Purple a red-blue purple), because a
+person reads the name beside the shape. A native speaker should check the names,
+then add the translated strings and the language code to `PATTERN_MAKER_REVIEWED`
+in `../games.ts`. Do not machine-translate them.
+
+### Build together (`ui.buildTogether`)
+
+Build together is English only for now (GAME-048). Two people fill one shared grid,
+taking turns. It has one guidance line (also printed on its paper version, and it
+says that nothing the people make is saved or sent), the grid size labels, the
+names of the two people (`people`, a list of two, replaced whole), the four color
+names, the line that says whose turn it is, the spoken name of each place and the
+live messages. `colors` is a list of four names in the order of the palette
+(Yellow, Orange, Green, Purple). `turn` always names the person in words, as in
+"Your turn, first person", and `{person|lower}` puts the name in lowercase inside the
+sentence; where your language does not lowercase names, write `{person}`.
+`cellEmpty` and `cellFilled` are the accessible names of every place: its row, its
+column and either "empty" or the color and the person who put the piece there. A
+place that already has a piece is never called wrong; the message only asks for an
+empty place. `inUse` is shown on the color the other person has, because two people
+may not hold the same color. When the grid is full the page says it is built
+together; nobody wins, and there is no count, score or timer, so keep every string
+free of those ideas. The four fills are the ones Pattern maker uses, fixed in
+`src/data/pattern-maker.ts`; a translator must give four plain, common names that
+name those four fills (Orange is a pure orange, Green a bluish green, Purple a
+red-blue purple). A native speaker should check the names, then add the translated
+strings and the language code to `BUILD_TOGETHER_REVIEWED` in `../games.ts`. Do
+not machine-translate them.
+
+### Seated toss tally (`ui.seatedToss`)
+
+Seated toss tally is English only for now (GAME-049). Two people sit at a table and
+toss a soft bag onto a printed target; the tally is ticked on paper, so the page
+counts nothing. `guidance` is also the line printed on the paper version, so it has
+no placeholders. `safetyLine` is the one-line safety statement: it is shown at the top
+of the page and printed on the sheet. `safetyHeading` is printed in front of it.
+`flags` are the two labels the activity cards use for small parts and for mouths
+(`SAFETY_FLAG_LABELS` in `../../lib/activities.ts`), and a test checks that they are
+the same words, so change them there and here together. `safety` and `steps` are lists
+and, as lists, are replaced whole. The page also shows the site's pause line from
+`../../lib/scope.ts` after the safety lines. `rings` names the three rings from the outside in
+(Near, Middle, Far) and is written on the target, so the printed sheet does not rely
+on color. `people` names the two columns of the tally, and `ringHeading` heads the
+first column. `previewLabel` describes the small picture of the sheet for a screen reader.
+Keep every string free of score, timer, winner and miss ideas. Nobody is asked to recall
+or name anything. The safety wording needs a native speaker and a safety reviewer to
+check it, then add the translated strings and the language code to
+`SEATED_TOSS_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Story chain (`ui.storyChain`)
+
+Story chain is English only for now (GAME-046). It has 12 strings: one guidance
+line (which is also the line printed on its paper version), a note that
+anyone may pass, button labels and short live messages. Nothing is typed or
+recorded and nothing is counted. After a native speaker checks them, add the
+translated `ui.storyChain` strings and the language code to
+`STORY_CHAIN_REVIEWED` in `../games.ts`. Do not machine-translate them.
+### Story dice (`ui.storyDice`)
+
+Story dice is English only (GAME-025). It needs no picture names to play, but
+its guidance, button and message text have not been reviewed in other
+languages. After a native speaker reviews the `ui.storyDice` strings, add them
+here and add the language code to `STORY_DICE_REVIEWED` in `../games.ts`.
 
 ## Right-to-left languages
 

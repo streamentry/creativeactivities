@@ -216,8 +216,9 @@ Hubs are where search and understanding meet. The baseline has four hubs and the
 |---|---|---|
 | `/activities-for-seniors/` | exists | Run the H1 overlap test with the arts hub |
 | `/arts-and-crafts-for-seniors/` | exists | Keep if it differs by adaptation; otherwise merge |
-| `/bedside-activities/` | exists | Keep; the bedside selection rule is distinct |
+| `/bedside-activities/` | exists | Keep; the bedside selection rule is distinct. It also serves the "bed rest" occasion, which would share most of its cards (H1) |
 | `/grandparent-grandchild-activities/` | exists | Keep; the intergenerational rule is distinct |
+| `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/`, `/occasions/gift/` | exists, held from search | Built 2026-11-16 under WEB-034; held until search and usability evidence supports them (H11). Celebrations of any tradition are served by `/seasonal-activities/` (H1) |
 | `/dementia-activities/` | planned in VISION | Create only after the reviewer and H3 threshold pass ([09](09-pillar-older-adults-dementia.md)) |
 | `/sensory-friendly-activities/` | planned in VISION | Only after validation; wording must avoid "for autistic children" as a headline ([08](08-pillar-parenting-kids.md)) |
 

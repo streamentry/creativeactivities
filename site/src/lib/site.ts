@@ -25,7 +25,7 @@ export interface NavItem {
   /** Key in the `common.nav` dictionary. */
   /** English-only pages keep their English path in every language. */
   englishOnly?: boolean;
-  key: 'home' | 'find' | 'crafts' | 'kids' | 'together' | 'creativeCalm' | 'games';
+  key: 'home' | 'find' | 'crafts' | 'kids' | 'together' | 'creativeCalm' | 'games' | 'search';
 }
 
 export const NAV: readonly NavItem[] = [
@@ -39,6 +39,8 @@ export const NAV: readonly NavItem[] = [
   { href: '/together/', key: 'together' },
   { href: '/creative-calm/', key: 'creativeCalm' },
   { href: '/games/', key: 'games' },
+  // WEB-003: search is English only; it opens from every page.
+  { href: '/search/', key: 'search', englishOnly: true },
 ];
 
 export const SECTION_META = {

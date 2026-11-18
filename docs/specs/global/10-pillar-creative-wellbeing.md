@@ -21,7 +21,9 @@ Four things are true of every CALM page:
 
 Art therapy is a regulated profession in some countries and a protected title in others (R3 §2). Professional bodies use the term to describe a practice inside a clinical or psychotherapeutic relationship. Consumer sites often use it loosely (R3 §2 and §7 cite Calm's blog and a coloring app listing). MISSION says: "Art therapy" is a professional practice, not a marketing synonym for crafts. This section turns that into rules.
 
-**CNT-1000 · Art-therapy boundary policy** · P0 · Phase S1 · Status new · Pillars: CALM (all)
+**CNT-1000 · Art-therapy boundary policy** · P0 · Phase S1 · Status partial · Pillars: CALM (all)
+
+Evidence (2026-11-16): the claims lint (`site/src/lib/claims.ts`) fails the build on the banned column of the table below, with the explainer pages as its only allow-list (`EXPLAINER_FILES`). It reads activity cards, hubs, English guides, the English interface, game and app strings, the app's ARB file and the English store copy. It now also reads each card picture's alt text and caption, so a condition-led description such as "Art for anxiety" fails, and it rejects badge phrases such as "clinically reviewed" and "therapist-approved". `site/src/lib/claims-slugs.test.ts` fails on any address that names therapy, healing or cure, or pairs an art or music word with a condition, except the explainers and one legacy address (`activities/therapeutic-art-activities-for-adults`, kept so inbound links work; its title and text were rewritten as relaxing activities, not therapy). Not done: every benefit sentence on a CALM page traced to a row in section 3 and signed off by a credentialed reviewer; renaming the legacy address with a redirect; the other conflicting guides are tracked under CNT-960.
 
 Why: MISSION non-negotiable 6 and VISION "evidence and humility"; R3 §7 regulatory exposure (Apple 1.4.1, FDA general wellness, MHRA guidance, Google Play health policy) and credential misuse. [R3 §5, §7]
 
@@ -49,7 +51,9 @@ Risks / not doing: no search-led pages for "art therapy near me" or for treatmen
 
 Every benefit statement on a CALM page must pass this table. It is adapted from R3 §5, which rates evidence from R3's reading of sources (not a formal grading). Ratings are judgement and are shown on the review record. Where a source needs checking, it is marked.
 
-**CNT-1001 · Claim register and phrasing rules** · P0 · Phase S1 · Status new · Pillars: CALM, CARE
+**CNT-1001 · Claim register and phrasing rules** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE
+
+Evidence (2026-11-16): the banned and allowed phrasings are enforced on our own English copy by the claims lint (`site/src/lib/claims.ts`, tested in `claims.test.ts` and run over cards, hubs and guides). Remaining: a reviewer checks each citation in the register below (several say "verify") and signs it off.
 
 | Claim | Evidence (from R3) | Strength | How we may phrase it on site |
 |---|---|---|---|
@@ -76,7 +80,9 @@ Rules that apply to the table:
 
 Trauma and grief are common in the audience. The defaults below apply to every CALM activity, and to any app or site feature that asks for personal reflection. They adapt SAMHSA's six principles (safety; trustworthiness and transparency; peer support; collaboration and mutuality; empowerment, voice and choice; cultural, historical and gender issues) and R3 §4.3.
 
-**CNT-1002 · Trauma-informed defaults for CALM** · P0 · Phase S1 · Status new · Pillars: CALM, CARE, GROW (review)
+**CNT-1002 · Trauma-informed defaults for CALM** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE, GROW (review)
+
+Evidence (2026-11-16): rules 4, 5, 8 and 9 are enforced in the build. No game or finder shows a timer, count or score (`no-pressure.test.ts`); there are no accounts, no sharing feature and no push notifications (`notification-policy.test.ts`), and the Photo pairs page has a first-party-only CSP; every card needs a `stopNote` (activity schema); cards that mention memory, feelings or story force the crisis route. Remaining: rules 1 to 3, 6 and 7 are editorial and need a trauma-informed reviewer's check of the cards and pictures.
 
 What:
 1. **No prompt asks anyone to depict trauma, abuse, loss, illness or a diagnosis.** Prompts are about materials, shapes, colors, textures and the sensory experience of making. "Draw what is on your table" is a default; "Draw how you felt" is not.
@@ -128,7 +134,9 @@ Risks / not doing: we do not run a helpline, do not chat with users in crisis, a
 
 Art therapy is a credentialed profession. Activities that touch emotion, grief, trauma or mental health need reviewers who hold the right credential, and the credential must be checked, not assumed.
 
-**CNT-1004 · CALM reviewer roles and review record** · P0 · Phase S1 · Status new · Pillars: CALM
+**CNT-1004 · CALM reviewer roles and review record** · P0 · Phase S1 · Status partial · Pillars: CALM
+
+Evidence (2026-11-16): the review record (`reviewSchema` in `site/src/lib/activity-schema.ts`) holds the reviewer's role (nine roles, including the five in the table below), name, credential, the register or board that holds it (required for every role except lived experience), date, scope, not-for, not-without-someone-nearby, stop signs and `permissionOnFile: true`. A shown review prints the credential with its body in the byline and says "This review checked what is written here. It does not make the activity therapy." Copy that says "clinically reviewed", "therapist-approved" or the like fails the claims lint, so a reviewed badge can only come from a record. Tested in `activity-schema.test.ts`, `activities.test.ts` and `claims.test.ts`; a trial record on one card showed the byline and the review section in the built page, then was removed. Not done: no reviewer has been named or has given permission, so no card has a record; nothing marks a page a reviewer declined; the credential check against the issuing body is the reviewer's, not automated.
 
 Roles (at least one for each page type before it is published):
 
@@ -219,11 +227,11 @@ This list is binding. A request to add any of these is a product decision, not a
 
 | CNT | Item | Priority | Phase | Status |
 |---|---|---|---|---|
-| CNT-1000 | Art-therapy boundary policy | P0 | S2 | new |
-| CNT-1001 | Claim register and phrasing rules | P0 | S2 | new |
+| CNT-1000 | Art-therapy boundary policy | P0 | S2 | partial |
+| CNT-1001 | Claim register and phrasing rules | P0 | S2 | partial |
 | CNT-1002 | Trauma-informed defaults | P0 | S2 | new |
 | CNT-1003 | Crisis route by country (UK, Ireland, US checked; others unverified) | P0 | S2 | partial |
-| CNT-1004 | Reviewer roles and review record | P0 | S2 | new |
+| CNT-1004 | Reviewer roles and review record | P0 | S2 | partial |
 | CNT-1010 to 1019 | Activity families (section 8) | P1 to P2 | S1 to S3 | new |
 | CNT-1020 | Referral guides | P1 | S2 | partial |
 | CNT-1017 | Grief and remembrance making | P2 | S2 | new |

@@ -135,7 +135,9 @@ Depends on: TSA-002.
 Risks / not doing: Do not claim full conformance without a test record.
 
 ### TSA-008 · Plain-language standard
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): `pnpm review:plain` (`site/scripts/plain-language.mjs` and `plain-language-lib.mjs`) reads the steps of all 53 cards (413 steps) and the sentences of the 14 hubs, and lists what an editor may want to look at: 5 steps of 25 words or more, 40 steps of more than one sentence and 8 hub sentences of 30 words or more. It prints the mean reading grade of a step (4.4) as a prompt and not as a score target. The rule in the acceptance, that no step joins two actions with "and then", is a test in `site/src/lib/plain-language.test.ts`: none (the literal words only: about 33 steps chain actions with ", then" and are not caught) does ("now and then" means "sometimes" and is let through), and the same test stops any step from passing 60 words between reviews. Not done: the editor's checklist on every activity and hub, which is a person's work; the five long steps and the long hub sentences have not been looked at; "one action per step" cannot be checked by a program, so the tool only points at steps of several sentences; and the counts and the word rules are for English only.
 
 Why: Short language is easier for everyone, and it matters most for stressed caregivers and people who prefer short text [DESIGN §6].
 
@@ -316,7 +318,9 @@ Risks / not doing: Do not use an age gate as a substitute for design.
 Policy note (2026-11-14): S1 treats every page as child-reachable. Current pages have no accounts and no age fields, and `privacy.astro` says the site is not directed at children under 13. The item stays partial for three reasons. (1) The GTM container sets GA4 cookies by default. A persistent identifier that is not consent-gated could be linked to a child, which the acceptance line does not allow. Consent-gating or disabling analytics on child-reachable pages is a maintainer and counsel decision; no change has been made. (2) Google signals and ad personalization settings are kept in the GTM and GA4 admin, outside the repo. The maintainer records their state here when checked. (3) `privacy.astro` names Google Analytics 4 while the loader is the GTM container; the wording needs aligning. Counsel review is not recorded.
 
 ### TSA-019 · No ads or ad technology on child-reachable pages
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the site has no ad network, retargeting pixel or ad SDK; the default CSP in `site/public/_headers` allows only first-party sources plus Google Tag Manager and Analytics (measurement, not advertising), and Photo pairs, which handles family photos, has a stricter first-party CSP. There is no child-directed page (WEB-072). `check-site` (part of `pnpm verify`) now fails the build on any page that references a known ad network (Google ads, Meta pixel and other ad networks) or loads a script, frame, image, media file or stylesheet from a host other than this site and Google Tag Manager; shown to catch both by injecting them into a built page. It reads page markup, not the scripts GTM itself would load at run time. Remaining: the inventory check (TSA-011) as a recorded release step, the app, and your decision on whether analytics may stay on pages a child could reach.
 
 Why: COPPA requires separate verifiable parental consent before disclosing children's data to third parties, including for targeted advertising [R5 §5.1]. Ads inside activities and games are rejected by product rule [MISSION; R4 §7]. Ad-led feeds on craft platforms drift toward paid placement and trust loss [R1 §7].
 
@@ -345,7 +349,9 @@ Depends on: TSA-011, TSA-013.
 Risks / not doing: Do not cite the standard numbers in public copy until verified.
 
 ### TSA-021 · Children in media
-Priority P0 · Phase S2 · Status new · Pillars: GROW, all
+Priority P0 · Phase S2 · Status partial · Pillars: GROW, all
+
+Evidence (2026-11-16): no public image shows a child or any person; `asset-provenance.test.ts` and `child-image-rules.test.ts` fail the build if a logged image shows a child without a release reference or a card picture shows a person. Remaining: a release log for any future child image or video, and the made-for-kids label check on YouTube uploads (no video is published).
 
 Why: Public images of children need an explicit parental release, and video labels have legal effect on YouTube [R5 §4, §5.1].
 
@@ -359,7 +365,9 @@ Depends on: TSA-038.
 Risks / not doing: Do not use a stock child photo as a demonstration of a real activity.
 
 ### TSA-022 · Parenting content boundaries
-Priority P1 · Phase S2 · Status new · Pillars: GROW
+Priority P1 · Phase S2 · Status partial · Pillars: GROW
+
+Evidence (2026-11-16): the claims lint (`site/src/lib/claims.ts`) now fails on copy that says an activity builds, develops, boosts, improves, strengthens, teaches or promotes a named skill or quality (fine motor, literacy, vocabulary, coordination, confidence, creativity and the like) and on "skill-building", unless the sentence is negated, a question, a quotation, a warning or cited research. It runs over all English cards, hubs and guides (including the kids section), the interface, game and app strings and the store copy; no current copy needed changing. `site/scripts/check-site.mjs` fails any page with an autoplaying video or audio element or a frame allowed to autoplay; there are none, and the code has no infinite scroll or load-more. Not done: the "playful practice" wording is a writing rule and is not checked; whether a citation is enough for a skill claim is a reviewer's call (the lint accepts research framing in the same sentence); the child-development reviewer is not yet named.
 
 Why: Developmental over-promise and screen-time framing are the common failures in parenting content [R2 §7].
 
@@ -725,7 +733,9 @@ Depends on: none.
 Risks / not doing: Do not commit a test key that works in production.
 
 ### TSA-044 · Forms: anti-abuse without heavy CAPTCHA
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): the site has no form that posts to a server. Its 55 forms (the finder, the search box and one "did this fit" form on each of the 53 activity pages) run in the browser; the last one sends a single allowlisted choice as an analytics event and takes no free text. No form sets an action or method, no page loads a captcha service, and the security policy allows form posts only to this site. `site/scripts/check-site.mjs` now fails the build if a form sets an action or method or a page loads a captcha service, so a form that posts data cannot arrive without this item's controls. Not done: the controls themselves (server-side validation, a rate limit, a honeypot and light bot checks), because there is nothing yet to protect; a test of a posting form with browser validation off and with a screen reader.
 
 Why: Forms (for organizations, contact, email sign-up) are abuse targets. Heavy CAPTCHA defaults harm accessibility [user's security rule].
 

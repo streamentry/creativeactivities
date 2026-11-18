@@ -1,0 +1,89 @@
+/* WEB-045: weekly activity program. On screen a planning form; on paper one page in large type. */
+.weekly-program__notice {
+  border-inline-start: 4px solid var(--gm-secondary);
+  padding: 0.5rem 0.75rem;
+  background: var(--gm-secondary-container);
+}
+.weekly-program__fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-block: 1rem;
+}
+.weekly-program__fields label,
+.weekly-program__day label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-weight: 600;
+}
+.weekly-program__fields input,
+.weekly-program__day select {
+  min-height: 48px;
+  font: inherit;
+  padding: 0.25rem 0.5rem;
+  max-width: 100%;
+}
+.weekly-program__days {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+}
+.weekly-program__day select {
+  width: 100%;
+}
+.weekly-program__day {
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1rem;
+  background: var(--gm-surface);
+}
+.weekly-program__day h3 {
+  margin: 0 0 0.5rem;
+}
+.weekly-program__name {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+@media print {
+  @page {
+    margin: 10mm;
+  }
+  /* One page per week (WEB-045 acceptance) at the cards' 12 pt print size. */
+  .weekly-program {
+    font-size: 12pt;
+    line-height: 1.25;
+  }
+  .weekly-program h2 {
+    font-size: 16pt;
+    margin: 1mm 0;
+  }
+  .weekly-program__fields {
+    margin-block: 1mm;
+  }
+  .weekly-program__fields input {
+    border: 0;
+    border-bottom: 1px solid currentColor;
+    min-height: 0;
+  }
+  .weekly-program__days {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 2mm;
+  }
+  .weekly-program__day {
+    break-inside: avoid;
+    padding: 2mm 3mm;
+  }
+  .weekly-program__day p {
+    margin: 0.5mm 0;
+  }
+  .weekly-program__name {
+    font-size: 13pt;
+  }
+  .weekly-program__day h3 {
+    font-size: 13pt;
+    margin: 0;
+  }
+}

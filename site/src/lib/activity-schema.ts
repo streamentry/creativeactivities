@@ -65,20 +65,45 @@ export const changeSchema = z.object({
 });
 
 /**
- * The credentialed review record (TSA-034). It exists only when a named
+ * The roles a reviewer can fill (CNT-1004, CNT-961). A lived-experience reviewer holds no credential; every
+ * other role names the register or board that does.
+ */
+export const REVIEW_ROLES = [
+  'art-therapist',
+  'music-therapist',
+  'psychologist-or-counsellor',
+  'grief-practitioner',
+  'occupational-therapist',
+  'dementia-specialist',
+  'early-years-educator',
+  'lived-experience',
+  'other-credentialed',
+] as const;
+
+/**
+ * The credentialed review record (TSA-034, CNT-1004). It exists only when a named
  * person has checked the card and agreed to be named. The page shows only
  * what this record says.
  */
-export const reviewSchema = z.object({
-  name: z.string().min(2).max(80),
-  credential: z.string().min(2).max(120),
-  date: z.coerce.date(),
-  scope: z.string().min(40).max(400),
-  notFor: z.array(z.string().min(3)).min(1).max(6),
-  notUnsupervised: z.array(z.string().min(3)).min(1).max(6),
-  stopSigns: z.array(z.string().min(3)).min(1).max(6),
-  permissionOnFile: z.literal(true),
-});
+export const reviewSchema = z
+  .object({
+    name: z.string().min(2).max(80),
+    /** The role the reviewer filled for this card. */
+    role: z.enum(REVIEW_ROLES),
+    credential: z.string().min(2).max(120),
+    /** The register or board that holds the credential, checked by the reviewer's own body; none for lived experience. */
+    body: z.string().min(2).max(120).optional(),
+    date: z.coerce.date(),
+    scope: z.string().min(40).max(400),
+    notFor: z.array(z.string().min(3)).min(1).max(6),
+    notUnsupervised: z.array(z.string().min(3)).min(1).max(6),
+    stopSigns: z.array(z.string().min(3)).min(1).max(6),
+    permissionOnFile: z.literal(true),
+  })
+  .refine((r) => r.role === 'lived-experience' || (r.body ?? '').length > 0, {
+    message: 'a credentialed reviewer needs the register or board that holds the credential',
+    path: ['body'],
+  });
 
 /**
  * One startable activity (DESIGN.md › Content design and data model). The

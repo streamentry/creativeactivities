@@ -13,7 +13,9 @@
   padding: var(--space-xl) var(--space-lg) var(--space-lg);
   background: var(--gm-surface);
   border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
-  border-radius: var(--radius-md);
+  /* Torn along the top: cut paper has no rounded corners and no top rule there. */
+  border-block-start: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--studio-shadow-sheet);
 }
 /* A sun sheet peeks out behind the card. z-index -1 keeps it under the text. */
@@ -25,9 +27,18 @@
   inset-inline-start: 10px;
   inset-inline-end: -6px;
   z-index: -1;
-  border-radius: var(--radius-md);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   background: var(--studio-sheet-under-alt);
   transform: rotate(0.9deg);
+}
+/* The sheet behind the card is tilted, so the taller the head, the further its corner reaches sideways. On a narrow
+   screen the head is tall (an extra row of buttons is enough) and the sheet reached a pixel or two past the page, which
+   showed as a sideways scroll. A gentler tilt and a slimmer edge keep it inside the page's side padding there. */
+@media (max-width: 30rem) {
+  .activity-page .activity-head::after {
+    inset-inline-end: -4px;
+    transform: rotate(0.45deg);
+  }
 }
 /* The torn top edge, cut from the same paper as the sheet it belongs to. */
 .activity-page .activity-head::before,
@@ -105,7 +116,8 @@
   padding: var(--space-xl) var(--space-lg) var(--space-lg);
   background: var(--gm-surface);
   border: 1px solid color-mix(in srgb, var(--gm-outline) 70%, transparent);
-  border-radius: var(--radius-md);
+  border-block-start: 0;
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--studio-shadow-sheet);
 }
 /* The checkbox is drawn, so the list still reads with no colour. */

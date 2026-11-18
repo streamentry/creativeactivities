@@ -43,7 +43,7 @@
   padding: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-xl));
   padding-inline-start: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-xl));
   border: 0;
-  border-radius: var(--radius-sm);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   background: var(--gm-surface);
   box-shadow: var(--studio-shadow-sheet);
 }
@@ -212,7 +212,7 @@
 .pack-cover {
   position: relative;
   padding: clamp(var(--space-lg), 1rem + 1.5vw, var(--space-2xl));
-  border-radius: var(--radius-sm);
+  border-radius: 0 0 var(--radius-sm) var(--radius-sm);
   background: var(--gm-surface);
   box-shadow: var(--studio-shadow-sheet);
   margin-top: var(--space-xl);

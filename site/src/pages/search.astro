@@ -1,0 +1,54 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { Search } from '../tools/Search';
+---
+<PageLayout
+  title="Search"
+  seoTitle="Search Activities, Situations, Games and Guides"
+  description="Search free creative activities, situations, games and guides in your own words. What you type stays on your device."
+  path="/search/"
+  crumb="Search"
+  noindex
+>
+  <Search client:load />
+  <noscript>
+    <p>
+      Search needs JavaScript. Without it, <a href="/activity/">filter all activities by time, materials and setting</a>,
+      or <a href="/what-i-have/">tick what you have at home</a>.
+    </p>
+  </noscript>
+  <p class="muted">
+    Results are the titles and summaries of our own pages. Nothing here is a suggestion about treatment or health;
+    each page has its own safety notes.
+  </p>
+</PageLayout>
+
+<style is:global>
+  .site-search__label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    font-weight: 700;
+  }
+  .site-search__box {
+    width: 100%;
+    max-width: 40rem;
+    min-height: 3.5rem;
+    padding: 0 var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-lg);
+    background: var(--gm-surface);
+    color: var(--gm-on-surface);
+    font: inherit;
+  }
+  .site-search__box:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 3px;
+  }
+  .site-search__status {
+    min-height: 2rem;
+    margin: var(--space-md) 0;
+  }
+  .site-search__group {
+    margin-top: var(--space-lg);
+  }
+</style>

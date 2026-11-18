@@ -47,7 +47,16 @@
       "viewShowing": "Pictures showing",
       "viewHidden": "Hidden pictures",
       "playAgain": "Play again with new pictures",
-      "talk": "Talk about pictures together"
+      "talk": "Talk about pictures together",
+      "modeLegend": "Which pictures",
+      "modePlay": "Any pictures",
+      "modeDaily": "Today’s card",
+      "dayLegend": "Which day",
+      "dayHelp": "Everyone gets the same pictures on the same day. Any earlier day is here too, and skipping a day costs nothing.",
+      "guidanceDaily": "Today’s card has four pairs. Tap a picture, then tap the one that matches it.",
+      "restartDaily": "Start this card again",
+      "copy": "Copy this line",
+      "copied": "Copied. Nothing is sent anywhere."
     },
     "choose": {
       "countLegend": "How many pictures",
@@ -66,6 +75,189 @@
       "shadowAlt": "A shadow to match",
       "foundAlt": "The shadow of the {name|lower}"
     },
+    "fourTogether": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint after a pause",
+      "hintOff": "No hints",
+      "guidance": "Find the {n} pictures that go together, and tap each one.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "found": "Yes, the {name|lower} belongs in this group.",
+      "elsewhere": "The {name|lower} goes with something else. Take your time.",
+      "hint": "A hint: look for {theme|lower}.",
+      "together": "These go together: {theme}.",
+      "shown": "Here is the group: {theme}.",
+      "groupName": "Together: {theme}",
+      "show": "Show the group",
+      "next": "Another set"
+    },
+    "oddOneOut": {
+      "hintLegend": "Hints",
+      "hintOn": "Hint after a pause",
+      "hintOff": "No hints",
+      "guidance": "Find the picture that does not belong with the others, and tap it.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "belongs": "The {name|lower} goes with the others. Take your time.",
+      "found": "Yes, the {name|lower} is the odd one out. The others are {theme|lower}.",
+      "shown": "Here it is: the {name|lower}. The others are {theme|lower}.",
+      "hint": "A hint: {n} of these are {theme|lower}.",
+      "others": "The others: {theme}",
+      "show": "Show me",
+      "next": "Another set"
+    },
+    "seatedToss": {
+      "guidance": "Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.",
+      "stepsHeading": "How it goes",
+      "steps": [
+        "Print the target and tally sheet, and lay it flat on the table between you.",
+        "Sit comfortably, one on each side. Take turns with one gentle toss each, or pass if you would rather not.",
+        "When a toss lands in a ring, the person who tossed ticks one box in their column, on the row for that ring.",
+        "Look at the ticks together when you stop, if you like. Nobody has to add anything up.",
+        "Stop whenever anyone is ready to."
+      ],
+      "safetyHeading": "Safety",
+      "safetyLine": "Use only a bag with a sewn-shut cover or a rolled-up sock, stay seated, never toss toward a face, and keep an adult nearby. Small parts are a choking hazard.",
+      "flags": ["Not for under 3: small parts", "Keep away from mouths"],
+      "safety": [
+        "Choose a bean bag with a sewn-shut cover, or roll up a clean sock. Check it first for holes or loose stitches, so no filling can come out.",
+        "Beans, rice and other small fillings are a choking hazard. Keep them away from young children and from anyone who puts things in their mouth.",
+        "Stay within arm's reach and supervise closely if anything might be put in the mouth.",
+        "Stay seated. Toss gently and low toward the target on the table, never toward a face."
+      ],
+      "previewLabel": "The printed sheet: a target of three rings named Near, Middle and Far, from the outside in, and a tally with a column for each person and a row of empty boxes for each ring.",
+      "sheetHow": "Lay the sheet flat between you. When a toss lands in a ring, tick a box in your column, on that ring's row.",
+      "rings": ["Near", "Middle", "Far"],
+      "people": ["First person", "Second person"],
+      "ringHeading": "Ring",
+      "print": "Print the target and tally sheet"
+    },
+    "storyDice": {
+      "guidance": "Look at the pictures and tell a story using them, in any order. There is no right story.",
+      "countLegend": "How many dice",
+      "count": "{n} dice",
+      "roll": "Roll again",
+      "pass": "Pass",
+      "passed": "Passing is fine. The next person can start, or you can roll again.",
+      "rolled": "New pictures: {names}.",
+      "tapped": "{name}. Begin with this one, or any other."
+    },
+    "colorMatch": {
+      "guidance": "Look at the color and its name, then tap every picture that is that color.",
+      "target": "The color is {color|lower}. Tap every picture that is {color|lower}.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "found": "Yes, the {name|lower} is {color|lower}.",
+      "named": "The {name|lower} is {color|lower}.",
+      "all": "Those are all the {color|lower} pictures.",
+      "shown": "Here are the {color|lower} pictures.",
+      "show": "Show them",
+      "next": "Another color",
+      "names": {
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue"
+      }
+    },
+    "halvesMatch": {
+      "guidance": "Tap a half on the left, then tap the half on the right that fits it.",
+      "countLegend": "How many pictures",
+      "count": "{n} pictures",
+      "leftGroup": "Left halves",
+      "rightGroup": "Right halves",
+      "left": "Left half of the {name|lower}",
+      "right": "Right half of the {name|lower}",
+      "joined": "Joined",
+      "pickRight": "Now tap the half on the right that fits it.",
+      "pickLeft": "Now tap the half on the left that fits it.",
+      "fit": "Yes, those two make the {name|lower}.",
+      "apart": "Those two do not fit together. Try another.",
+      "all": "Every picture is whole.",
+      "shown": "Here are the pictures, joined.",
+      "show": "Show me",
+      "next": "Another set"
+    },
+    "colorByNumber": {
+      "guidance": "Choose a color from the key, then fill a square with it. Any color is fine.",
+      "sizeLegend": "Grid size",
+      "size": "{n} by {n}",
+      "keyLegend": "Colors",
+      "colors": ["Yellow", "Orange", "Green", "Purple"],
+      "motifs": {
+        "house": "a house",
+        "flower": "a flower",
+        "heart": "a heart",
+        "tree": "a tree",
+        "boat": "a sailing boat",
+        "pot-plant": "a plant in a pot"
+      },
+      "region": "Picture grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cell": "Number {number}, row {row}, column {column}, {color}",
+      "empty": "empty",
+      "chose": "{name} chosen. Tap a square to fill it.",
+      "painted": "{name} in row {row}, column {column}.",
+      "sheet": "Every square has the color of its number. This is the picture on the sheet: {name}.",
+      "own": "Every square is filled. This is your own picture.",
+      "fillAll": "Fill with the numbers",
+      "filledAll": "Every empty square now has the color of its number.",
+      "clear": "Clear",
+      "cleared": "The grid is clear.",
+      "next": "Another picture",
+      "fresh": "Here is another picture to color."
+    },
+    "patternMaker": {
+      "guidance": "Tap a square to change its color. Your pattern grows beside it. Nothing you make is saved or sent.",
+      "sizeLegend": "Tile size",
+      "size": "{n} by {n}",
+      "keyLegend": "Colors, in the order a tap changes them",
+      "colors": ["Yellow", "Orange", "Green", "Purple"],
+      "tileLabel": "Your tile",
+      "region": "Your tile, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "patternLabel": "Your pattern",
+      "pattern": "Your pattern: your tile repeated {n} across and {n} down.",
+      "square": "Row {row}, column {column}, {color}",
+      "changed": "Row {row}, column {column} is now {color}.",
+      "cleared": "The tile is clear. You can put it back.",
+      "surprise": "Surprise me",
+      "surprised": "Here is a new tile. You can put the old one back.",
+      "putBack": "Put it back",
+      "restored": "Your tile is back as it was.",
+      "print": "Print my pattern",
+      "sheetTitle": "My pattern"
+    },
+    "buildTogether": {
+      "guidance": "Take turns to put a piece in an empty place. Each of you has your own color. Nothing you make is saved or sent.",
+      "sizeLegend": "Grid size",
+      "size": "{n} by {n}",
+      "people": ["First person", "Second person"],
+      "colorLegend": "{person}'s color",
+      "colors": ["Yellow", "Orange", "Green", "Purple"],
+      "inUse": "In use",
+      "turn": "Your turn, {person|lower}",
+      "yourColor": "Your color is {color|lower}.",
+      "built": "Built together. This is the picture the two of you made.",
+      "gridLabel": "The shared grid",
+      "region": "The shared grid, {n} by {n}. It scrolls sideways if the screen is narrow.",
+      "cellEmpty": "Row {row}, column {column}, empty",
+      "cellFilled": "Row {row}, column {column}, {color}, placed by the {person|lower}",
+      "placed": "Row {row}, column {column} is now {color}. Your turn, {next|lower}.",
+      "placedLast": "Row {row}, column {column} is now {color}. Built together.",
+      "taken": "Row {row}, column {column} already has a piece. Choose an empty place.",
+      "pass": "Pass",
+      "passed": "Passing is fine. Your turn, {person|lower}.",
+      "takeBack": "Take back the last piece",
+      "takeBackPass": "Take back the pass",
+      "tookBack": "The piece is taken back. Your turn, {person|lower}.",
+      "tookBackPass": "The pass is taken back. Your turn, {person|lower}.",
+      "colorChanged": "{person} now has {color|lower}.",
+      "restarted": "The grid is empty. Your turn, {person|lower}.",
+      "print": "Print the grid",
+      "sheetTitle": "Build together",
+      "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
+      "sheetKey": "{person}: {color}"
+    },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",
       "restart": "New pictures",
@@ -75,6 +267,10 @@
       "hint": "The {name|lower} could go in \"{basket}\". Tap that basket to put it there.",
       "placed": "The {name|lower} is in \"{basket}\".",
       "sorted": "Everything is sorted. Look through the baskets together, or try another theme.",
+      "largerTargets": "Larger targets",
+      "largerOn": "Larger targets are on. Nothing has moved.",
+      "largerOff": "Larger targets are off. Nothing has moved.",
+      "largerOnNewRound": "Larger targets are on, with two baskets. Here are new pictures to sort.",
       "basket": {
         "one": "{basket} basket, {count} picture inside",
         "other": "{basket} basket, {count} pictures inside"
@@ -195,6 +391,8 @@
       "position": "Card {n} of {total}",
       "themeLegend": "Theme",
       "showPrompt": "Show a conversation prompt",
+      "bigPicture": "Big picture, for a group",
+      "passNote": "Anyone may pass.",
       "next": "Next card",
       "previous": "Previous card",
       "print": "Print all cards",
@@ -268,6 +466,20 @@
       "started": "Started. Breathe in as the circle grows.",
       "stopped": "Stopped.",
       "finished": "That was six slow breaths. Start again whenever you like."
+    },
+    "storyChain": {
+      "guidance": "Take turns: one sentence each, add the next picture.",
+      "passNote": "Say your sentence aloud. Nothing is typed or kept. Anyone may pass.",
+      "chainLabel": "The chain so far",
+      "item": "Picture {n}: {name}",
+      "add": "Add a picture",
+      "fullAdd": "The chain is full. Start a new chain",
+      "newChain": "Start a new chain",
+      "takeOff": "Take the last one off",
+      "added": "The {name|lower} is now at the end of the chain.",
+      "removed": "The {name|lower} is off the chain.",
+      "fresh": "A new chain, starting with the {name|lower}.",
+      "full": "The chain has all eight pictures. Tell the whole story, or start a new chain."
     }
   },
   "pictures": {
@@ -1372,6 +1584,17 @@
             "Out and about"
           ]
         }
+      }
+    },
+    "fourTogether": {
+      "themes": {
+        "fruit": "Fruit",
+        "animals": "Animals",
+        "travel": "Ways to travel",
+        "flowers": "Flowers",
+        "hot-drinks": "Things for a hot drink",
+        "weather": "Kinds of weather",
+        "baked": "Things baked in an oven"
       }
     }
   }

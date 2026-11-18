@@ -19,14 +19,14 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-001 | Picture pairs | Tap two matching pictures; matches stay marked; 4 to 12 tiles | Adults, all stages | Side by side | No | Yes | Labels per language | P0 | S2 | exists |
-| GAME-002 | Find the same | One picture at the top, match one of 2 to 4 below | Middle and later stages | Side by side | No | Yes | Labels | P0 | S2 | exists |
-| GAME-003 | Shadow match | Match a shadow to its picture | Early and middle stages | Side by side | No | Yes | Labels | P1 | S2 | exists |
+| GAME-001 | Picture pairs | Tap two matching pictures; matches stay marked; 4 to 12 tiles | Adults, all stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels per language | P0 | S2 | exists |
+| GAME-002 | Find the same | One picture at the top, match one of 2 to 4 below | Middle and later stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels | P0 | S2 | exists |
+| GAME-003 | Shadow match | Match a shadow to its picture | Early and middle stages | Side by side | Yes (paper version on the game page, WEB-052) | Yes | Labels | P1 | S2 | exists |
 | GAME-013 | Visible picture matching (app) | Native version of GAME-001 with 4 to 12 tiles, offline | Adults, all stages | Solo or side by side | Yes (app) | Yes | App text per language | P0 | S2 | exists |
 | GAME-014 | Hidden picture matching (app) | Face-down classic version, opt-in only, from the pack route | Adults who want the challenge | Solo or side by side | No | Yes | App text | P2 | S2 | exists. Recall needed, so never the default |
-| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | new |
-| GAME-020 | Color match | Match pictures by color: a red apple and a red cup | Early stages; children 3+; low vision with high contrast | Side by side | Yes | Yes | None | P2 | S2 | new |
-| GAME-021 | Halves match | Tap the two halves of one picture that fit together | Early stages; children 3+ | Side by side | Yes | Yes | None | P2 | S2 | new |
+| GAME-018 | Odd one out | Tap the picture that does not belong in a set of 3 or 4 | Early and middle stages; children 4+ | Side by side | Yes | Yes | Labels; category review | P1 | S2 | partial. Website, English only (2026-11-15), reusing Four together's groups; printed twin on the game page (WEB-052); per-language category review pending |
+| GAME-020 | Color match | Match pictures by color: a red apple and a red cup | Early stages; children 3+; low vision with high contrast | Side by side | Yes | Yes | None | P2 | S2 | partial. English only: a color shown with its name and four or six pictures at `/games/color-match/`, tap every picture of that color, a tap on another is only named, Show them, Another color, a one-page print sheet; five colors from a hand-picked table checked against the picture drawings; not tried with children or with low-vision players, color names not reviewed by a person |
+| GAME-021 | Halves match | Tap the two halves of one picture that fit together | Early stages; children 3+ | Side by side | Yes | Yes | None | P2 | S2 | partial. English only: the left halves of two or three pictures beside their right halves in another order at `/games/halves-match/`, tap a half then the half that fits it, a pair that fits is joined and a pair that does not simply separates with a gentle message, Show me, Another set, a one-page print sheet to join by drawing a line; 20 hand-picked pictures from the library, never two of one category in a round; not tried with children or with people who find a half hard to see, text not reviewed by a person |
 
 ### Words and language
 
@@ -34,10 +34,10 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-006 | Finish the saying | Complete a familiar saying from three choices, then talk | Early and middle stages; adults; groups | 1, 2 or group | No | Yes | Sayings reviewed per language; unavailable where none exist | P1 | S2 | exists |
 | GAME-007 | Large-print word search | Few words, across or down, big grid; print a fresh puzzle | Early stage; adults | 1 or 2 | Yes | Yes | Word lists reviewed per language ([gating](../../../site/src/i18n/games.ts)) | P1 | S2 | exists |
-| GAME-022 | Four together | Group four pictures by theme; no timer, no pass or fail | Adults, including people with reading difficulty | Side by side or group | Yes | Yes | Category words per language; name needs a trademark check | P1 | S2 | new |
+| GAME-022 | Four together | Group four pictures by theme; no timer, no pass or fail | Adults, including people with reading difficulty | Side by side or group | Yes | Yes | Category words per language; name needs a trademark check | P1 | S2 | partial. Website, English only (2026-11-15); per-language category review and trademark check pending |
 | GAME-023 | Word and picture pairs | Match a written label to its picture; label can be read aloud | Adults learning or relearning a language; children 6+ | Side by side | Yes | Yes | Labels per language, reviewed | P2 | S3 | new |
 | GAME-024 | Rhyme pictures | Match pictures that rhyme | Children 4 to 7 and early readers | Adult and child | Yes | Yes | Rhyme sets written per language, not translated | P3 | S3 | new |
-| GAME-025 | Story dice | Roll picture dice; tell the story aloud; no right answer | Mixed reading levels; families; groups | Group, or adult and child | Yes | Yes | None (pictures) | P1 | S2 | new |
+| GAME-025 | Story dice | Roll picture dice; tell the story aloud; no right answer | Mixed reading levels; families; groups | Group, or adult and child | Yes | Yes | None (pictures) | P1 | S2 | partial. English only: three or four picture dice at `/games/story-dice/`, Roll again, Pass, a one-page print sheet; not tried with a group, text and picture mix not reviewed by a person |
 
 ### Music and rhythm
 
@@ -54,10 +54,10 @@ Recognition, not recall. Pictures stay visible unless the person chooses otherwi
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-008 | Coloring | Tap a color, then a part of the picture; print pages | All stages | Solo or side by side | Yes | Yes | None | P0 | S2 | exists |
-| GAME-031 | Paint-by-number lite | Large, calm fill with an adjustable grid | Seated adults with fine-motor limits; bedside | Solo or side by side | Yes | Yes | None | P1 | S2 | new |
+| GAME-031 | Paint-by-number lite | Large, calm fill with an adjustable grid | Seated adults with fine-motor limits; bedside | Solo or side by side | Yes | Yes | None | P1 | S2 | partial. English only, as "Color by number" at `/games/color-by-number/`: a key of four colors (1 Yellow, 2 Orange, 3 Green, 4 Purple), each with its number, written name and shape, above a 4 by 4, 6 by 6 or 8 by 8 grid of numbered cells that are native buttons (at least 48 px, 56 px on 4 by 4; a wide grid scrolls sideways in its own labelled region); choose a color then tap cells, any color may go in any cell, a gentle message when every cell has the color of its number and none otherwise; Fill with the numbers, Clear, Another picture, two pictures per size, a one-page 6 by 6 print sheet to color with pencils; the four colors checked against simulated protanopia, deuteranopia and tritanopia (a standard color-distance measure distance at least 30) and grayscale lightness steps by test, not by a person with color-vision differences; not tried with seated adults, with a tremor or at a bedside; color names and picture names not reviewed by a person |
 | GAME-032 | Two-hand drawing duet | Two people draw on one canvas in turns, with a color choice each | Grandparents and children; partners | Side by side | Yes (paper duet) | Yes | None | P1 | S2 | new |
 | GAME-033 | Collage board | Place cut-outs on a shared board in turns | Couples, siblings, carers | Side by side | Yes | Yes | None | P2 | S2 | new |
-| GAME-034 | Pattern maker | Tile-based drawing that exports to a print sheet | All ages | Solo or side by side | Yes | Yes | None | P2 | S2 | new |
+| GAME-034 | Pattern maker | Tile-based drawing that exports to a print sheet | All ages | Solo or side by side | Yes | Yes | None | P2 | S2 | partial. English only, as "Pattern maker" at `/games/pattern-maker/`: one tile of 3 by 3 or 4 by 4 squares (3 by 3 to start) whose squares are native buttons (at least 56 px; a wide tile scrolls sideways in its own labelled region, arrow keys move between squares), each tap changing a square to the next of four colors, each with a written name and a shape; beside it "your pattern", the tile repeated 3 across and 3 down, updating at once; Surprise me (a seeded left-right mirrored tile), Start again, Put it back (one step, for Start again and Surprise me), and Print my pattern, a one-page print of the repeated pattern with the four colors and their names. Nothing is saved or sent, said in the guidance line. The four colors are the ones checked for Color by number (protanopia, deuteranopia, tritanopia and grayscale lightness steps by test, not by a person with color-vision differences); not tried with children, seated adults, with a tremor or at a bedside; color names not reviewed by a person |
 | GAME-035 | Co-decorate a card | Two people decorate a printed card for an occasion | Intergenerational families; care settings | Side by side | Yes (print first) | Yes | None | P2 | S2 | new |
 | GAME-036 | Stop-motion frame maker | Photograph paper cut-outs; play back a short clip, saved on the device | Families; classrooms | Side by side | No | Yes | None | P3 | S3 | new |
 | GAME-037 | Scrapbook builder | Add photos and captions to a book the person pages through | Carers and families | Side by side | Yes | Yes | Captions written by the family | P2 | S2 | new |
@@ -91,7 +91,7 @@ Conversation is the goal. Nobody is quizzed, and no answer is wrong.
 | GAME-010 | Photo pairs | Match the person's own photos; nothing uploaded | Families; middle and later stages | Side by side | No | Yes | Interface text | P0 | S2 | exists |
 | GAME-044 | Reminiscence card match | Match family-photo cards; a gentle hint after a pause, never a miss count | Anyone at any stage; carers | Side by side | Yes | Yes | Interface text | P1 | S2 | new. Extends GAME-010 |
 | GAME-045 | Photo timeline | Family photos placed on a year line with captions; consent needed | Families; carers; classrooms, with consent | Side by side | Yes | Yes | Captions written by the family | P3 | S3 | new |
-| GAME-046 | Story chain | Each person adds a sentence or a picture in turn | Mixed-age pairs; groups | Side by side or group | Yes | Yes | None | P1 | S2 | new |
+| GAME-046 | Story chain | Each person adds a sentence or a picture in turn | Mixed-age pairs; groups | Side by side or group | Yes | Yes | None | P1 | S2 | partial. English only: a growing row of up to eight pictures at `/games/story-chain/`, Anyone may pass, a one-page print sheet; the sentences are spoken, not typed; not tried with a group, text not reviewed by a person |
 
 ### Co-op and two-player
 
@@ -100,8 +100,8 @@ Shared control of one screen or one sheet. Turn markers, no timer, no winner.
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-047 | Find together | Pairs found by two people working together; one shared tally, never shown as misses | Couples; carers and a child; babysitters and a child | Side by side, shared control | No | Yes | None | P2 | S2 | new |
-| GAME-048 | Build-it-together grid | Two people build one pattern from alternating pieces | Siblings; carers and a child | Side by side | Yes | Yes | None | P2 | S2 | new |
-| GAME-049 | Seated toss tally | Bean-bag toss into a large target; tally kept on paper | Limited mobility; two people at a table | Side by side | Yes (print first) | Yes | None | P2 | S2 | new. Safety line for small parts and supervision |
+| GAME-048 | Build-it-together grid | Two people build one pattern from alternating pieces | Siblings; carers and a child | Side by side | Yes | Yes | None | P2 | S2 | partial. English only, as "Build together" at `/games/build-together/`: one shared grid of 4 by 4 places (3 by 3 on choice) whose places are native buttons (at least 56 px; a wide grid scrolls sideways in its own labelled region, arrow keys move between places); each of two people, "First person" and "Second person", picks one of four colors, each with a written name and a shape, and the two colors must differ (a color the other person has is marked "In use"); the turn is said in words ("Your turn, first person") with the active color named and shown; each tap puts that person's piece in an empty place and gives the turn to the other person; Pass for either person, Take back the last piece (one step, a piece or a pass), Start again; when every place has a piece a gentle message says it is built together, with no winner, loser, score, count or timer; a one-page print of the empty grid with the two colors and their names, to build with two pencils. Nothing is saved or sent, said in the guidance line. The four colors are the ones checked for Pattern maker and Color by number (by test, not by a person with color-vision differences); not tried with siblings, a carer and a child, seated adults, with a tremor or at a bedside; Start again cannot be taken back; text and color names not reviewed by a person |
+| GAME-049 | Seated toss tally | Bean-bag toss into a large target; tally kept on paper | Limited mobility; two people at a table | Side by side | Yes (print first) | Yes | None | P2 | S2 | partial. English only, as "Seated toss tally" at `/games/seated-toss/`: the page gives a safety block first (a sewn-shut bag or a rolled-up sock, small parts and mouths, an adult nearby, stay seated, never toward a face, the site's pause line), five short steps and a Print button, with nothing counted, timed or saved on screen; the paper version is one page of a large target with its three rings named Near, Middle and Far, a tally table with a column for each person and rows of boxes to tick, no total or winner row, and the safety line; not yet tried by two people with a real bag, the one-page fit is checked only in a headless browser, and the safety wording has not had a reviewer |
 
 ### Group, care home and classroom
 
@@ -110,8 +110,8 @@ Screen-cast or printed. The host sets the pace, not a timer.
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-011 | Picture bingo | Printable bingo cards; a big-screen caller for the room | Groups of 2 to 30; care homes; classrooms | Group | Yes | Yes (cards) | Caller labels per language | P0 | S2 | exists |
-| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | new |
-| GAME-051 | Big-screen picture talk | Large pictures with prompts on a TV or tablet; manual advance; no autoplay | Groups; families in the same room | Group, with a screen | Yes (prompt cards) | Yes | Prompts per language | P1 | S2 | new. Casting needs APP-008 approval |
+| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option; no passing-circle rules text, not tried with a group |
+| GAME-051 | Big-screen picture talk | Large pictures with prompts on a TV or tablet; manual advance; no autoplay | Groups; families in the same room | Group, with a screen | Yes (prompt cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option. Casting needs APP-008 approval |
 | GAME-052 | Group coloring wall | One large printed sheet colored by many hands in sections | Classrooms; care homes; families | Group | Yes | Yes | None | P2 | S2 | new |
 
 ### Kids, early years
@@ -130,12 +130,12 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-004 | Sort together | Tap a picture, then the basket it belongs in | Early and middle stages; adults; children 3+ | 1 or 2 people | No | Yes | Category review per language | P1 | S2 | exists |
-| GAME-005 | Picture puzzle (web) | Four or nine large pieces; tap two to swap | Early and middle stages | 1 or 2 people | No | Yes | None | P1 | S2 | exists |
+| GAME-004 | Sort together | Tap a picture, then the basket it belongs in | Early and middle stages; adults; children 3+ | 1 or 2 people | Yes (paper version on the game page, WEB-052) | Yes | Category review per language | P1 | S2 | exists |
+| GAME-005 | Picture puzzle (web) | Four or nine large pieces; tap two to swap | Early and middle stages | 1 or 2 people | Yes (paper version on the game page, WEB-052) | Yes | None | P1 | S2 | exists |
 | GAME-015 | Picture puzzle (app) | Native jigsaw from a bundled pack | Adults | Solo or side by side | No | Yes | App text | P1 | S2 | partial. Input method to verify on device; the legacy timed mode must be removed |
 | GAME-016 | Tap-to-place puzzle (app) | Two or four pieces; tap a piece, then its place; optional reference | Adults who like puzzles; limited motor control | Solo or side by side | No | Yes | App text | P2 | S2 | new. Experiment, GM-009 |
 | GAME-017 | Picture sorting (app) | Tap a picture, then a group; undo | Adults; children | Solo or side by side | Yes | Yes | App text | P2 | S2 | new. Experiment, GM-010 |
-| GAME-019 | Large-target sort | Two large bins; big targets; high-contrast option; no timer | Low vision, tremor, limited reach | Side by side | Yes | Yes | None | P1 | S2 | new. From R4 §8 #18 |
+| GAME-019 | Large-target sort | Two large bins; big targets; high-contrast option; no timer | Low vision, tremor, limited reach | Side by side | Yes | Yes | None | P1 | S2 | partial. A "Larger targets" option in Sort together: two bins, much larger targets, stronger contrast; not tried with real tremor or low vision. From R4 §8 #18 |
 | GAME-058 | Jigsaw from your photo | Make a jigsaw from a photo on the device; never uploaded | Families; anyone | Solo or side by side | Yes (print pieces) | Yes | None | P2 | S2 | new |
 | GAME-059 | Spot the difference | Two near-identical pictures; 3 to 5 differences; a hint after a pause | Adults; children 5+ | Side by side | Yes | Yes | None | P1 | S2 | new. Needs commissioned art |
 | GAME-060 | Quiet shapes puzzle | Tangram-style shapes with a picture hint; no timer | Adults who like geometry | Solo | Yes | Yes | None | P3 | S2 | new |
@@ -144,7 +144,7 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | new |
+| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | partial |
 
 ## Totals
 
@@ -200,6 +200,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a missed day shows no message; the archive opens to any past day; the same date yields the same card for every user; no account and no notification.
 - **Depends on:** APP-021 for the result card; a content calendar in [content library](06-content-library.md).
 - **Risks:** pressure creep. Any "daily" reminder needs APP-012 approval and stays off by default.
+- **Status (2026-11-16, partial):** website only, in Picture pairs as "Today's card" (English only). Four pairs from a date seed (`site/src/lib/games/daily.ts`), the same for everyone; a 30-day archive in a day picker; a missed day shows nothing; result line "Made 4 pairs together." with a copy button that sends nothing. No account, storage or notification. Open: app version (APP-021 result card), print calendar, content calendar in the library, per-language text.
 
 ### GAME-032 · Two-hand drawing duet (P1, S2)
 
@@ -248,6 +249,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** a person may pass without any explanation; the host can stop at any moment; no one is asked to name or recall.
 - **Depends on:** printed picture set; GAME-051 for the screen version.
 - **Risks:** pressure to speak. Passing is always allowed.
+- **Evidence (2026-11-17):** Conversation cards (`/games/conversation-cards/`) is a deck of picture cards, each with an open prompt and no right answer, with Next card and Previous card and a printed set of every card. With the Big picture option, each card shows large with "Anyone may pass." under the prompt once a prompt is showing, and Rest is always on the screen. Gap: no rules text for passing a card round a circle (how to start, how to pass), the printed set carries no passing instructions, and it has not been tried with a group.
 
 ### GAME-051 · Big-screen picture talk (P1, S2)
 
@@ -256,6 +258,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 - **Acceptance:** the host controls every change; the screen can be cast or shown from the web or app; large text meets the tablet layout tests.
 - **Depends on:** APP-008 approval for casting; GAME-052 for printed prompts.
 - **Risks:** casting is a new use case. Do not claim it until tested on the device types named.
+- **Evidence (2026-11-17):** Conversation cards has a Big picture option, a choice that is off at the start. One picture and its prompt show large: the picture up to 55% of the screen height and the prompt in 38 to 68 px type depending on the screen, in one centered column or side by side on a wide screen held sideways, using the full width of the page. Next card and Previous card are pressed by the person leading; nothing moves by itself, and there is no sound unless the player turns it on. Looked at in a browser at 1280 by 720, 768 by 1024 and 390 by 844, with no sideways scroll. Gap: not tried on a TV, a cast screen or a real tablet, so casting is not claimed; the label and the pass line are English only (other languages show the English text until translated); no automated check opens the big mode, since the games accessibility check runs the default one; GAME-052 printed prompts.
 
 ### GAME-022 · Four together (P1, S2)
 

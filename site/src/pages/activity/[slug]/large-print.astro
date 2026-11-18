@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import LargePrintView from '../../../views/LargePrintView.astro';
+import { listedActivities } from '../../../lib/activities';
+
+// Withdrawn cards get no large-print copy (TSA-045).
+export const getStaticPaths = (async () => {
+  const activities = listedActivities(await getCollection('activityCards'));
+  return activities.map((activity) => ({ params: { slug: activity.id }, props: { activity } }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  activity: CollectionEntry<'activityCards'>;
+}
+---
+<LargePrintView activity={Astro.props.activity} />

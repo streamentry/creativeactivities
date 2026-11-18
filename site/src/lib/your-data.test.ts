@@ -39,14 +39,23 @@ describe('site storage registry', () => {
       [
         'cookie:gm_lang',
         'localStorage:ca-analytics-consent-v1',
+        'localStorage:ca-paths-v1',
         'localStorage:ca-saved-activities-v1',
         'localStorage:ca-tried-activities-v1',
+        'localStorage:ca-what-i-have-v1',
         'localStorage:gm-contrast',
         'localStorage:gm-play-settings',
         'localStorage:gm-text-size',
         'localStorage:gm-today-notes-v1',
       ].sort(),
     );
+  });
+
+  it('counts the paths that have a place kept, and ignores places on paths that do not exist', () => {
+    const paths = SITE_STORES.find((s) => s.id === 'paths');
+    expect(paths?.count?.(JSON.stringify({ 'quiet-weeks-at-the-table': { start: 1, skipped: [] }, 'no-such-path': { start: 2, skipped: [] } }))).toBe(1);
+    expect(paths?.count?.('not json')).toBe(0);
+    expect(paths?.count?.('{}')).toBe(0);
   });
 
   it('gives every store a plain label and a description', () => {
@@ -79,6 +88,11 @@ describe('readStore and readAll', () => {
     expect(rows.find((r) => r.store.id === 'saved')?.count).toBe(2);
     expect(rows.find((r) => r.store.id === 'text-size')?.count).toBeNull();
     expect(rows.find((r) => r.store.id === 'tried')?.raw).toBeNull();
+  });
+
+  it('counts the items on the What I have list and ignores names that are not on the list', () => {
+    const storage = fakeStorage({ 'ca-what-i-have-v1': '["plain-paper","pencil","not-an-item"]' });
+    expect(readAll(storage, '').find((r) => r.store.id === 'what-i-have')?.count).toBe(2);
   });
 });
 

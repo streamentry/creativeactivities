@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { picturesIn, pictureUrl, type PictureCategory } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill, plural } from '../i18n/play/format';
+import { LARGE_PICTURE_PX, needsNewRound, visibleBaskets } from '../lib/games/large-targets';
 import { createRng, randomSeed } from '../lib/games/random';
 import { createSort, dropInBasket, isSorted, selectItem, type SortState } from '../lib/games/sorting';
 import { ChoiceChips } from './shared/ChoiceChips';
@@ -29,10 +30,13 @@ export default function SortTogether(props: PlayProps) {
   const pictureName = pictureNamer(props);
   const [themeKey, setThemeKey] = useState(THEMES[0]!.value);
   const [round, setRound] = useState(0);
+  // Larger targets is a choice for tremor, low vision or limited reach: off at the start.
+  const [larger, setLarger] = useState(false);
   const [message, setMessage] = useState('');
   const theme = THEMES.find((t) => t.value === themeKey) ?? THEMES[0]!;
   const text = (t: Theme) => content.sorting.themes[t.value] ?? { label: t.value, baskets: t.categories };
-  const baskets = text(theme).baskets;
+  const allBaskets = text(theme).baskets;
+  const baskets = visibleBaskets(allBaskets, larger);
 
   const store = useCreateStore<SortState, { select: (id: string) => void; drop: (b: 0 | 1) => void; reset: (t: Theme) => void }>(
     { items: [], placed: {}, selected: null, hint: null },
@@ -76,6 +80,15 @@ export default function SortTogether(props: PlayProps) {
     }
   };
 
+  const changeLarger = (on: boolean) => {
+    sounds.tap();
+    // Only a basket that would be hidden can strand a picture; then, and only then, the round starts again.
+    const again = needsNewRound(allBaskets.length, on);
+    setLarger(on);
+    if (again) store.actions.reset(theme);
+    setMessage(on ? (again ? ui.sortTogether.largerOnNewRound : ui.sortTogether.largerOn) : ui.sortTogether.largerOff);
+  };
+
   const choices = THEMES.map((t) => ({ value: t.value, label: text(t).label }));
   const waiting = state.items.filter((i) => state.placed[i.id] === undefined);
   const done = state.items.length > 0 && waiting.length === 0;
@@ -91,7 +104,15 @@ export default function SortTogether(props: PlayProps) {
         setRound((r) => r + 1);
       }}
       restartLabel={ui.sortTogether.restart}
-      options={<ChoiceChips legend={ui.sortTogether.themeLegend} choices={choices} value={themeKey} onChange={setThemeKey} />}
+      options={
+        <>
+          <ChoiceChips legend={ui.sortTogether.themeLegend} choices={choices} value={themeKey} onChange={setThemeKey} />
+          <label className="chip sort-together__larger-toggle">
+            <input type="checkbox" checked={larger} onChange={(event) => changeLarger(event.currentTarget.checked)} />
+            <span>{ui.sortTogether.largerTargets}</span>
+          </label>
+        </>
+      }
       footer={
         done ? (
           <div className="game__done">
@@ -113,7 +134,7 @@ export default function SortTogether(props: PlayProps) {
       }
     >
       {waiting.length > 0 ? (
-        <div className="board" data-cols={3} data-width="medium">
+        <div className={larger ? 'board board--large' : 'board'} data-cols={larger ? 2 : 3} data-width="medium">
           {waiting.map((item, i) => (
             <PictureTile
               key={item.id}
@@ -127,14 +148,14 @@ export default function SortTogether(props: PlayProps) {
           ))}
         </div>
       ) : null}
-      <div className="baskets">
+      <div className={larger ? 'baskets baskets--large' : 'baskets'}>
         {baskets.map((name, b) => {
           const inside = state.items.filter((i) => state.placed[i.id] === b);
           return (
             <button
               key={`${theme.value}-${b}`}
               type="button"
-              className={`basket${state.selected ? ' basket--ready' : ''}`}
+              className={`basket${larger ? ' basket--large' : ''}${state.selected ? ' basket--ready' : ''}`}
               onClick={() => drop(b as 0 | 1)}
               aria-label={fill(plural(ui.sortTogether.basket, inside.length, lang), { basket: name, count: inside.length })}
             >
@@ -142,7 +163,7 @@ export default function SortTogether(props: PlayProps) {
               <span className="basket__items">
                 {inside.map((i) => {
                   const label = pictureName(i.id);
-                  return <img key={i.id} src={pictureUrl(i.id)} alt={label} title={label} width={48} height={48} />;
+                  return <img key={i.id} src={pictureUrl(i.id)} alt={label} title={label} width={larger ? LARGE_PICTURE_PX : 48} height={larger ? LARGE_PICTURE_PX : 48} />;
                 })}
               </span>
             </button>

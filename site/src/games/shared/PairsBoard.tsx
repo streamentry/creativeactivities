@@ -1,8 +1,8 @@
 import { useCreateStore, useSelector } from '@tanstack/react-store';
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import type { PlayProps } from '../../i18n/play';
 import { fill } from '../../i18n/play/format';
-import { boardColumns, createPairs, isComplete, tapPair, tileVisualState, type PairsState } from '../../lib/games/pairs';
+import { boardColumns, createPairs, isComplete, matchedValues, tapPair, tileVisualState, type PairsState } from '../../lib/games/pairs';
 import { createRng, randomSeed } from '../../lib/games/random';
 import { photoTileName } from '../../lib/games/photo-label';
 import { PictureTile, pictureNamer } from './PictureTile';
@@ -18,25 +18,32 @@ interface PairsBoardProps {
   photoLabels?: readonly string[];
   /** Changing this starts a new board. */
   round: number;
+  /** When `values` change within the same round, keep the pairs already matched (WEB-053). */
+  keepPlace?: boolean;
   onMessage: (message: string) => void;
   onComplete: () => void;
 }
 
-export function PairsBoard({ play, values, hidden, photos = false, photoLabels, round, onMessage, onComplete }: PairsBoardProps) {
+export function PairsBoard({ play, values, hidden, photos = false, photoLabels, round, keepPlace = false, onMessage, onComplete }: PairsBoardProps) {
   const { ui, lang } = play;
   const pictureName = pictureNamer(play);
   const wide = useWide();
-  const store = useCreateStore<PairsState, { tap: (i: number) => void; reset: (v: readonly string[]) => void }>(
+  const store = useCreateStore<PairsState, { tap: (i: number) => void; reset: (v: readonly string[], matched?: ReadonlySet<string>) => void }>(
     { tiles: [], selected: null, mismatch: null, lastMatch: null },
     ({ setState }) => ({
       tap: (i) => setState((s) => tapPair(s, i)),
-      reset: (v) => setState(() => createPairs(v, createRng(randomSeed()))),
+      reset: (v, matched) => setState(() => createPairs(v, createRng(randomSeed()), matched)),
     }),
   );
   const state = useSelector(store);
 
+  const lastRound = useRef(round);
   useEffect(() => {
-    store.actions.reset(values);
+    const sameRound = lastRound.current === round;
+    lastRound.current = round;
+    store.actions.reset(values, keepPlace && sameRound ? new Set(matchedValues(store.state)) : undefined);
+    // A board that is already all matched after resizing is a finished board.
+    if (isComplete(store.state)) onComplete();
     onMessage('');
     // `round` intentionally restarts the board.
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -4,9 +4,12 @@ import { describe, expect, it } from 'vitest';
 const hubDir = new URL('../content/hubs/', import.meta.url);
 const cardDir = new URL('../content/activity-cards/', import.meta.url);
 const pageDir = new URL('../pages/', import.meta.url);
-const hubs = readdirSync(hubDir)
+// Intent hubs sit at the top of the folder; occasion hubs sit in occasions/ (ids such as `occasions/visit`).
+const hubs = (readdirSync(hubDir, { recursive: true }) as string[])
+  .map((f) => f.split('\\').join('/'))
   .filter((f) => f.endsWith('.md'))
-  .map((f) => f.replace(/\.md$/, ''));
+  .map((f) => f.replace(/\.md$/, ''))
+  .sort();
 const cards = new Set(
   readdirSync(cardDir)
     .filter((f) => f.endsWith('.md'))
@@ -27,6 +30,14 @@ describe('search hubs', () => {
     const text = readFileSync(new URL(`${hub}.md`, hubDir), 'utf8');
 
     it(`${hub}: has a page at /${hub}/`, () => {
+      const [folder] = hub.split('/');
+      if (hub.includes('/')) {
+        // A folder of hubs is served by one dynamic page.
+        const page = readFileSync(new URL(`${folder}/[slug].astro`, pageDir), 'utf8');
+        expect(page).toContain('<HubView id={`' + folder + '/${slug}`} />');
+        expect(page).toContain(`hub.id.startsWith('${folder}/')`);
+        return;
+      }
       const page = readFileSync(new URL(`${hub}.astro`, pageDir), 'utf8');
       expect(page).toContain(`<HubView id="${hub}" />`);
     });
@@ -54,7 +65,9 @@ describe('search hubs', () => {
             : slug
               ? new URL(`../content/guides/${kind}/${slug}.md`, import.meta.url)
               : new URL(`${kind}.md`, hubDir);
-        expect(path === '/activity/' || existsSync(target), `${hub} links to missing page ${path}`).toBe(true);
+        // The seasons pages are routes, not content files (src/pages/seasons).
+        const seasonRoute = kind === 'seasons' && existsSync(new URL('seasons/index.astro', pageDir));
+        expect(path === '/activity/' || seasonRoute || existsSync(target), `${hub} links to missing page ${path}`).toBe(true);
       }
     });
 
@@ -184,5 +197,78 @@ describe('dementia activities hub (SEO-009)', () => {
   it('makes no cognitive, memory or slowing claims', () => {
     expect(text).not.toMatch(/\b(slow|slows|slowing|prevent|prevents|reverse|improve|improves|sharpen|boost)\b/i);
     expect(text).not.toMatch(/memory (care|loss|function)|cognitive|therap/i);
+  });
+});
+
+describe('occasion hubs (WEB-034)', () => {
+  const occasions = hubs.filter((h) => h.startsWith('occasions/'));
+  /** Named festivals and holidays. "A new year" or "a harvest" is generic; these are particular traditions. */
+  const NAMED_HOLIDAY =
+    /\b(christmas|xmas|easter|halloween|thanksgiving|hanukkah|diwali|ramadan|eid|lunar new year|passover|valentine|santa|advent|yule|kwanzaa)\b/i;
+  const STORE_OR_BRAND = /\b(amazon|etsy|ebay|walmart|ikea|hobby lobby|michaels|joann|temu|aliexpress)\b/i;
+
+  it('has the four occasions that are not already served by another hub', () => {
+    // Bed rest is the bedside hub and celebrations are the seasonal hub: each would share most of its cards (H1).
+    expect(occasions).toEqual(['occasions/gift', 'occasions/rainy-day', 'occasions/short-break', 'occasions/visit']);
+  });
+
+  for (const hub of occasions) {
+    const text = hubText(hub);
+
+    it(`${hub}: has its own stop note and a line saying who it is not for (H4)`, () => {
+      expect(text).toMatch(/^## When should you stop\?$/m);
+      expect(text).toMatch(/\bThis hub is not for\b/);
+    });
+
+    it(`${hub}: is held from search until search and usability evidence supports it (H11)`, () => {
+      expect(text).toMatch(/^indexable: false$/m);
+      expect(text).toMatch(/^indexHold: .*H11/m);
+    });
+
+    it(`${hub}: assumes no festival or tradition`, () => {
+      expect(text).not.toMatch(NAMED_HOLIDAY);
+      for (const slug of list(text, 'activities')) {
+        const card = cardText(slug);
+        expect(NAMED_HOLIDAY.test(card) && !/tradition/i.test(card), `${slug} names a holiday without an adapt note`).toBe(false);
+      }
+    });
+
+    it(`${hub}: lists only cards with a stop note and a safety line, so the hub can promise an easy exit`, () => {
+      for (const slug of list(text, 'activities')) {
+        expect(cardText(slug), slug).toMatch(/^stopNote: .{20,}/m);
+        expect(cardText(slug), slug).toMatch(/^safety:\n  - /m);
+      }
+    });
+  }
+
+  it('the gift hub links to no store, names no product and sells nothing', () => {
+    const text = hubText('occasions/gift');
+    expect(text).not.toMatch(/\]\(https?:/);
+    expect(text).not.toMatch(/<a\b|href=/i);
+    expect(text).not.toMatch(STORE_OR_BRAND);
+    expect(text).toMatch(/^sources: \[\]$/m);
+    expect(text).not.toMatch(/\b(buy|price|discount|sale|shop now)\b/i);
+  });
+
+  it('the short break hub lists only cards that take five minutes or less to set up and a first go of ten or less', () => {
+    for (const slug of list(hubText('occasions/short-break'), 'activities')) {
+      const card = cardText(slug);
+      expect(Number(card.match(/^prepMinutes: (\d+)$/m)?.[1]), `${slug} setup`).toBeLessThanOrEqual(5);
+      expect(Number(card.match(/^activityMinutes: \[(\d+),/m)?.[1]), `${slug} first go`).toBeLessThanOrEqual(10);
+    }
+  });
+
+  it('the rainy day hub lists only table activities for more than one person', () => {
+    for (const slug of list(hubText('occasions/rainy-day'), 'activities')) {
+      expect(cardSettings(slug), slug).toContain('tabletop');
+      expect(cardGroups(slug).some((g) => g !== 'one-to-one'), `${slug} is for one person only`).toBe(true);
+    }
+  });
+
+  it('the visit hub lists only seated or bedside cards that take five minutes or less to set up', () => {
+    for (const slug of list(hubText('occasions/visit'), 'activities')) {
+      expect(cardSettings(slug).some((s) => s === 'seated' || s === 'bedside'), slug).toBe(true);
+      expect(Number(cardText(slug).match(/^prepMinutes: (\d+)$/m)?.[1]), `${slug} setup`).toBeLessThanOrEqual(5);
+    }
   });
 });

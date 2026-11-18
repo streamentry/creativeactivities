@@ -235,7 +235,9 @@ Depends on: L10N-012, [SEO-036](12-search-geo-distribution.md).
 Risks / not doing: Do not assume Christmas, Lunar New Year, Ramadan or any other event applies to all readers.
 
 ### L10N-014 · Units, paper sizes and printing
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): the print check (`pnpm check:print`) prints every activity card on A4 and on US Letter and confirms each is one two-sided sheet in both. A test (`site/src/lib/units.test.ts`) fails if a card or a hub (the occasion hubs included) uses US customary and metric measures together, for the numeric forms its patterns recognize; the English guides are not covered (one explains a conversion, "5 kilograms (around 11 pounds)"). Today the cards use US customary only (inch measures in six cards, and cups and teaspoons) and none uses metric, so nothing reads "inches" beside a metric quantity. Gap: no conversion to the reader's own units (a decision for the maintainer, then a reviewer to check the conversions); no print test for each launched locale with a title heavy in diacritics or script, since the cards are English only; cups and teaspoons are outside the rule.
 
 Why: Printables are a core distribution asset [R5 §4]. Paper size differs by country (A4 widely, US Letter in the US and Canada), and so do units.
 
@@ -295,7 +297,9 @@ Depends on: [performance and platform](15-platform-data-architecture.md).
 Risks / not doing: Do not ship a web font subset that drops a launched language's letters.
 
 ### L10N-018 · Text length and 200% layout per language
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): the accessibility check opens the German home page and the Arabic home page (right to left) at 320 px, at 640 px (200% zoom), and at 1440 px with 200% text, and fails on any axe violation, sideways scroll, content past the edge or clipped text; both pass. Gap: two of 189 languages and the home page only; no test of the longest labels in each language, or of the finder, tabs or print card in other languages (the cards are English only); no screenshot per language kept with a sign-off record.
 
 Why: German and Korean labels run about 30% longer than English [language markets §3]. Layouts break at 200% zoom in ways that English hides.
 
@@ -340,7 +344,9 @@ Depends on: [SEO-030](12-search-geo-distribution.md), [SEO-031](12-search-geo-di
 Risks / not doing: Do not use indexation to test whether a language would rank.
 
 ### L10N-021 · Stale translations after English changes
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence: every translated guide records `translatedFrom`, the English `updated` date it was made from, so staleness is found from two dates and set by no one. A translated guide made from an older English page now shows an "out of date" notice at the top, in English until a language has its own wording (marked `lang="en"` for screen readers), with a link to the current English page and, on a guide that carries health advice, a line to check the English page and ask a doctor or nurse. `site/scripts/check-site.mjs` fails the build if a stale translation of a live English guide lacks the notice or a current one shows it. `pnpm translations:queue` lists the stale translations with protected guides (health advice or the crisis route) first, then the most days behind. `site/src/lib/translation-freshness.test.ts` covers the date rules, the order and a fixture folder. Today 362 translations in 182 languages are behind two English guides that were retired on 2026-11-15; those translations stay live until replaced (maintainer decision), so they are reported separately and show no notice. No translation of a live guide is stale. Proven by temporarily moving two live guides' `updated` date forward: 75 translations of the health guide showed the notice and the build check passed; the dates were then restored. Not done: a re-review SLA in the roadmap; segment-level states (depends on [L10N-005](#l10n-005--content-that-is-never-published-by-machine-alone)); hiding a stale protected page instead of flagging it; stale activity cards and interface strings (cards are English only).
 
 Why: An English fix that does not reach the translation keeps the error in place. A translated safety line that no longer matches the English is a harm.
 

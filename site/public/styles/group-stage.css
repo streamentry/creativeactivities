@@ -1,0 +1,131 @@
+/* Group mode (WEB-046): the card one step at a time on a shared screen. Loaded by script the first time someone
+   opens it, so card pages carry nothing for it. Design tokens only. Type is large because it is read across a room; a long step scrolls instead of shrinking. */
+html.group-stage-open {
+  overflow: hidden;
+}
+
+.group-stage {
+  position: fixed;
+  inset: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: var(--gm-background);
+  color: var(--gm-on-surface);
+}
+.group-stage[open] {
+  display: flex;
+  flex-direction: column;
+}
+/* The view itself can take focus (so a press on a blank part keeps the keys working); it is not a control. */
+.group-stage:focus {
+  outline: none;
+}
+
+.group-stage__body {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: var(--space-xl) var(--space-lg);
+}
+
+/* When a screen is taller than the room for it, the keyboard can reach it to scroll it, and the ring shows that. */
+.group-stage__body:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: -3px;
+}
+
+/* Centred when short; starts at the top, never clipped, when it is taller than the screen. */
+.group-stage__slide {
+  width: 100%;
+  max-width: 62rem;
+  margin: auto;
+  overflow-wrap: break-word;
+}
+
+.group-stage__label {
+  margin: 0 0 var(--space-md);
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+}
+.group-stage__title {
+  margin: 0 0 var(--space-md);
+  font-size: var(--text-hero);
+  line-height: 1.1;
+}
+.group-stage__summary {
+  margin: 0 0 var(--space-lg);
+  font-size: var(--text-h2);
+  line-height: 1.35;
+}
+.group-stage__subhead {
+  margin: var(--space-lg) 0 var(--space-sm);
+  font-size: var(--text-h2);
+}
+.group-stage__list {
+  margin: 0 0 var(--space-lg);
+  padding-inline-start: 1.25em;
+  font-size: var(--text-h2);
+  line-height: 1.4;
+}
+.group-stage__list li + li {
+  margin-top: var(--space-sm);
+}
+.group-stage__text {
+  margin: 0;
+  font-size: var(--text-h1);
+  line-height: 1.3;
+}
+.group-stage__note {
+  margin: 0;
+  color: var(--gm-on-surface-variant);
+  font-size: var(--text-title-lg);
+  line-height: 1.4;
+}
+
+@media (min-width: 900px) {
+  .group-stage__text {
+    font-size: var(--text-hero);
+  }
+}
+
+/* The buttons stay on the screen while the words scroll. On a phone the filled one takes the bottom row, where a thumb is.
+   They never take more than 45% of the screen, so there is always room to read; past that, the bar scrolls. */
+.group-stage__bar {
+  display: flex;
+  flex: none;
+  flex-wrap: wrap;
+  max-height: 45vh;
+  max-height: 45dvh;
+  overflow-y: auto;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-top: 2px solid var(--gm-outline);
+  background: var(--gm-surface);
+}
+.group-stage__bar .btn--primary {
+  min-width: 9rem;
+  margin-inline-start: auto;
+}
+@media (max-width: 599px) {
+  .group-stage__bar .btn {
+    flex: 1 1 8rem;
+  }
+  .group-stage__bar .btn--primary {
+    flex-basis: 100%;
+  }
+}
+
+@media print {
+  .group-stage {
+    display: none !important;
+  }
+}

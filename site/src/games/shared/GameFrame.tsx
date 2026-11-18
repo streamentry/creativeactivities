@@ -19,12 +19,14 @@ interface GameFrameProps {
   children: ReactNode;
   footer?: ReactNode;
   onRestart?: () => void;
+  /** Told when Rest starts and ends, so a game can pause anything that waits, such as a hint. */
+  onRestingChange?: (resting: boolean) => void;
   restartLabel?: string;
   /** Optional spoken text for ReadAloud, defaulting to guidance. */
   readAloudText?: string;
 }
 
-export function GameFrame({ ui, lang, guidance, message, options, children, footer, onRestart, restartLabel, readAloudText }: GameFrameProps) {
+export function GameFrame({ ui, lang, guidance, message, options, children, footer, onRestart, onRestingChange, restartLabel, readAloudText }: GameFrameProps) {
   const sound = useSound();
   const [started, setStarted] = useState(false);
   const [answer, setAnswer] = useState<FeedbackAnswer | null>(null);
@@ -51,6 +53,8 @@ export function GameFrame({ ui, lang, guidance, message, options, children, foot
     if (resting) resumeButton.current?.focus();
     else if (wasResting.current) restButton.current?.focus();
     wasResting.current = resting;
+    onRestingChange?.(resting);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [resting]);
 
   // A click is a real choice on the board; Tab, arrow keys and scrolling

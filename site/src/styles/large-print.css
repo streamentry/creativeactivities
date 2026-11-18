@@ -1,0 +1,71 @@
+/* Large-print edition of an activity card (WEB-018): steps at 18 pt or more, black on white,
+   on screen and on paper. Same words as the standard card; only the layout changes. */
+.large-print {
+  --lp-ink: var(--gm-on-surface);
+  --lp-paper: var(--gm-surface);
+  max-width: 46rem;
+  color: var(--lp-ink);
+  background: var(--lp-paper);
+  font-size: 1.5rem; /* 24px on screen, about 18 pt */
+  line-height: 1.45;
+}
+.large-print .pack-card {
+  border: 0;
+  box-shadow: none;
+  background: var(--lp-paper);
+  color: var(--lp-ink);
+}
+.large-print .pack-card h2 {
+  font-size: 2.25rem;
+}
+.large-print .pack-card h3 {
+  font-size: 1.75rem;
+}
+.large-print .pack-card__columns {
+  display: block;
+}
+.large-print .activity-steps li,
+.large-print .activity-list li,
+.large-print p {
+  font-size: 1.5rem;
+}
+.large-print .eyebrow,
+.large-print .activity-glance span {
+  font-size: 1.25rem;
+  color: var(--lp-ink);
+}
+.large-print a {
+  color: var(--lp-ink);
+}
+.large-print__qr {
+  margin: 1.5rem 0;
+}
+.large-print__qr svg {
+  width: 2in;
+  height: 2in;
+}
+@media print {
+  .large-print {
+    font-size: 18pt;
+    max-width: none;
+  }
+  .large-print .pack-card h2 {
+    font-size: 26pt;
+  }
+  .large-print .pack-card h3 {
+    font-size: 21pt;
+  }
+  .large-print .activity-steps li,
+  .large-print .activity-list li,
+  .large-print p {
+    font-size: 18pt;
+  }
+  .large-print .eyebrow,
+  .large-print .activity-glance span {
+    font-size: 16pt;
+  }
+  .large-print img,
+  .large-print svg {
+    filter: grayscale(1);
+  }
+}

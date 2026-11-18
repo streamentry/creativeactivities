@@ -1,0 +1,14 @@
+---
+import { getCollection } from 'astro:content';
+import HubView from '../../views/HubView.astro';
+
+// WEB-034: occasion hubs live in src/content/hubs/occasions/ and are served at /occasions/<slug>/.
+export async function getStaticPaths() {
+  const hubs = await getCollection('hubs');
+  return hubs
+    .filter((hub) => hub.id.startsWith('occasions/'))
+    .map((hub) => ({ params: { slug: hub.id.slice('occasions/'.length) } }));
+}
+const { slug } = Astro.params;
+---
+<HubView id={`occasions/${slug}`} />

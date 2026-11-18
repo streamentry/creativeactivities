@@ -4,7 +4,7 @@ import { PICTURE_BY_ID } from '../data/pictures';
 import { SAFETY_FLAGS, type SafetyFlag } from './activities';
 
 /**
- * Checks on the 38 activity cards on disk: the structured safety flags
+ * Checks on the 53 activity cards on disk: the structured safety flags
  * (WEB-022), step images (WEB-012) and the review field (TSA-034). The Astro
  * schema checks the shape at build time; these checks check the content.
  */
@@ -62,8 +62,8 @@ const MUST: Partial<Record<SafetyFlag, RegExp>> = {
 };
 
 describe('activity cards: safety flags (WEB-022)', () => {
-  it('covers all 38 cards', () => {
-    expect(files.length).toBe(38);
+  it('covers all 53 cards', () => {
+    expect(files.length).toBe(53);
   });
 
   for (const file of files) {

@@ -12,6 +12,16 @@ export const GAME_SLUGS = [
   'picture-pairs',
   'find-the-same',
   'shadow-match',
+  'four-together',
+  'odd-one-out',
+  'color-match',
+  'halves-match',
+  'color-by-number',
+  'pattern-maker',
+  'build-together',
+  'seated-toss',
+  'story-chain',
+  'story-dice',
   'sort-together',
   'picture-puzzle',
   'finish-the-saying',
@@ -97,7 +107,8 @@ const activityCards = defineCollection({
  * it never copies their steps.
  */
 const hubs = defineCollection({
-  loader: glob({ pattern: '*.md', base: './src/content/hubs' }),
+  // Intent hubs sit at the top; occasion hubs sit in `occasions/` and are served at /occasions/<slug>/ (WEB-034).
+  loader: glob({ pattern: '**/*.md', base: './src/content/hubs' }),
   schema: z.object({
     title: z.string().max(80),
     seoTitle: z.string().max(60).optional(),

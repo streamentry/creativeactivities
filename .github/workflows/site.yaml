@@ -30,8 +30,8 @@ defaults:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
     env:
       # check-site and check-budget read all ~15,700 built pages; the default
       # Node heap runs out (seen locally on 2026-11-15).
@@ -55,10 +55,18 @@ jobs:
         run: pnpm exec node scripts/check-site.mjs
       - name: Page weight budget (WEB-074)
         run: pnpm exec node scripts/check-budget.mjs
+      - name: Images (alt text, size in the page, no picture sent at over twice its width)
+        run: pnpm exec node scripts/check-images.mjs
+      - name: Hosting capacity, files against the host's limit (PLAT-015)
+        run: pnpm exec node scripts/check-capacity.mjs
       - name: Install Playwright Chromium for accessibility checks
         run: pnpm exec playwright install --with-deps chromium
       - name: Accessibility checks (axe, reflow, zoom, motion, Rest on every game)
         run: pnpm check:a11y
+      - name: Print check (every activity card is one two-sided sheet on A4 and US Letter)
+        run: pnpm check:print
+      - name: Group view (opens on every card, walks every step, fits eight screen sizes)
+        run: pnpm check:group
       - name: Keep the checked build for the deploy job
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: actions/upload-artifact@v7
@@ -75,7 +83,7 @@ jobs:
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     environment:
       name: production

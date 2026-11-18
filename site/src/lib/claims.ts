@@ -80,6 +80,18 @@ export const RULES: Rule[] = [
   { id: 'proof-claim', pattern: /\b(?:clinically|scientifically)\s+(?:proven|proved|shown|tested|validated)\b|\bproven\b/gi },
   { id: 'stress-relief', pattern: /\bstress[- ]relie(?:f|ving|ver)s?\b/gi },
   { id: 'dementia-sufferer', pattern: /\bdementia sufferers?\b/gi },
+  // TSA-022: an activity is "playful practice", never a claim to build a named skill, unless the sentence cites evidence.
+  {
+    id: 'skill-claim',
+    pattern:
+      /\b(?:builds?|develops?|boosts?|improves?|strengthens?|teaches|enhances?|promotes?|fosters?|sharpens?)\s+(?:\w+\s+){0,3}?(?:skills?|motor|literacy|numeracy|vocabulary|coordination|confidence|creativity|dexterity|imagination|self-esteem|resilience|empathy|school readiness|development)\b/gi,
+  },
+  { id: 'skill-building', pattern: /\bskill[- ]building\b/gi },
+  // CNT-1004: no "reviewed" badge in copy. A review is shown only from a card's review record.
+  {
+    id: 'review-badge',
+    pattern: /\b(?:clinically|medically|therapist|doctor|clinician|expert|professionally|credentialed)[- ](?:reviewed|approved|endorsed|verified|certified)\b/gi,
+  },
   {
     id: 'condition-title',
     titleOnly: true,
@@ -116,7 +128,9 @@ const WARNING_FRAME = /\b(?:be wary|beware|watch out|red flags?|warning signs?|p
 /** Medical framing: a sentence about a doctor's or clinician's treatment, not our activity. */
 const MEDICAL_FRAME = /\b(?:doctor|clinician|medical|medication|medicines?|prescri\w*|care team|health care|healthcare|GP|specialist|diagnos\w*)\b/i;
 
-const TITLE_FIELD = /^(title|seoTitle|description|name):/;
+// Titles, descriptions and names, and the alt text and caption of a card's picture (CNT-1000): all are shown
+// out of context, in results and to screen readers, so no context excuses a claim in them.
+const TITLE_FIELD = /^(?:title|seoTitle|description|name):|^\s+(?:alt|caption):/;
 
 /** Sentence and paragraph boundaries. Wrapped lines do not end a sentence; blank lines, list items and YAML keys do. */
 const FRONT_KEY =

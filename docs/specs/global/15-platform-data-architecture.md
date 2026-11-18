@@ -67,7 +67,9 @@ Depends on: PLAT-008.
 Risks / not doing: one-time migration of the 38 cards. Do not add IDs to guides in S1 unless a guide needs to be referenced by ID.
 
 ### PLAT-002 · Variations as first-class records
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): a hub can list cards and show each card's variation of one kind without copying its text (`variation` in the hub schema; the seated and bedside hubs use it), and every card's variations carry one of the ten kinds in `VARIATION_KINDS`. Not done: an ID for each variation; a review record for a variation apart from its card; retiring one without touching its card; validation that a variation changes at least one step (a variation is a short text, not a set of changed steps).
 Why: the VISION "adaptation graph" is the moat it names. Variations are currently array items inside each card (`variations` in `content.config.ts`), so a hub cannot select one by its own ID or review it separately. The hub schema already has a `variation` field.
 What: each variation has its own ID, a `kind` from the existing nine values, the steps it changes, optional media, and its own review record.
 Acceptance:
@@ -78,7 +80,9 @@ Depends on: PLAT-001, PLAT-005.
 Risks / not doing: variation sprawl. Add a kind only when a tested need exists.
 
 ### PLAT-003 · Media asset records and rights log
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `docs/specs/asset-provenance.json` has one record per served picture, illustration and social card (source, creator, license, rights status, people and child flags, consent, release reference); `asset-provenance.test.ts` fails the build when a served image has no record. Remaining: a hash and alt text per record, audio and video records, a rights report command, and the rule that app catalog photos cannot be referenced from the website.
 Why: DESIGN §2 and §10 require original or licensed images with correct alt text. [R5 §5.5] names image rights and consent as a live risk. The app's catalog photos are not cleared for the website ([site/README.md](../../../site/README.md)).
 What: every image, audio or video file has a record with its hash, source, license, rights holder, consent status for any identifiable person (including a child-release flag), alt text, caption and the surfaces it may appear on.
 Acceptance:
@@ -125,7 +129,9 @@ Depends on: PLAT-011.
 Risks / not doing: link rot and licenses for archived copies. Archive only what the license allows; link otherwise.
 
 ### PLAT-007 · Versions, change log and corrections
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): each activity card prints its version date and address in the print footer (WEB-016) and keeps a dated change log, with safety changes labelled and a notice that a printed copy from before a safety change may not show it (WEB-027, `site/src/lib/activity-changes.test.ts`). Only changes to materials, steps, safety or the pictures that show them are listed, so a typo fix is not. The corrections page and log take reports (TSA-035). Not done: a version number for each entity (the version is the card's date); entries created from the diff (they are written by hand); a public correction log of material changes kept for 24 months across guides and hubs; the printed pack footer is not checked.
 Why: DESIGN §4B requires a correction link. [R5 §4] says printed copies cannot be updated, so each print must carry a date and version.
 What: each published entity has a version number and a change-log entry. Material changes (safety, materials, claims, steps) appear on a public correction log for 24 months.
 Acceptance:
@@ -181,7 +187,9 @@ Depends on: PLAT-003, PLAT-005.
 Risks / not doing: slow validation at scale. Measure it at 10× the current content before the gate.
 
 ### PLAT-012 · Staleness and re-review queue
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `pnpm review:queue` lists English cards, hubs and guides (retired guides included) past a 12-month review, safety-flagged cards first (`site/scripts/review-queue-lib.mjs`), and a card past its date says so on the page. `pnpm metrics:content` reports the count and the median days over. `pnpm translations:queue` lists stale translations, protected guides first. Nothing is overdue today, and nothing can be before 2027-10-26, because the oldest page was last updated on 2026-10-25. Not done: an owner on each item; a weekly run that reports to the owner; a "last checked" date that only a review can move (a page with no review record counts as checked on its `updated` date, so editing resets the clock, which this item warns against); the 24-month default for content that is not health-adjacent (the queue uses 12 months for all); the internal dashboard.
 Why: the VISION metric "updates overdue" needs a source. [R5 §5.6] asks for "last checked" dates. A date that is bumped without a review is dishonest.
 What: each entity has `next_review_due`. Proposed defaults: 12 months for health-adjacent or care content, 24 months otherwise. A weekly report lists overdue items and their owners.
 Acceptance:
@@ -217,7 +225,8 @@ Depends on: PLAT-004.
 Risks / not doing: losing the appearance of language coverage. That loss is intended. Coverage counts only reviewed pairs ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-015 · Hosting capacity check at 10× the page count
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Evidence (2026-11-17): the build holds 17,254 files (16,532 pages, 189 language folders, 1,906 MiB) and builds in 51 seconds. Cloudflare documents 20,000 files per version on the Free plan and 100,000 on the Paid plan, and 25 MiB per file ([limits page](https://developers.cloudflare.com/workers/platform/limits/), read that day). The site is at 86% of the Free limit with 2,746 files of headroom, about 12 page types (counted to the point where the check fails, 98%) that exist in every language, and at ten times the pages it would hold about 166,000 files, over the Paid limit. `pnpm check:capacity` (`site/scripts/check-capacity.mjs`, `capacity-lib.mjs`, `site/src/lib/capacity.test.ts`) prints this for any build, warns from 80% of the limit, and fails from 98% or on a file over 25 MiB. The numbers, the limits and the options are written in [hosting-capacity.md](../../engineering/hosting-capacity.md). Not done: a synthetic site at ten times the pages, built and deployed, for upload size, deploy time and cache behavior; the decision (shard deploys, render the long tail on demand, or accept the limit with a dated plan), which is the maintainer's; and recording which plan the account is on. The check runs in the website workflow after the page weight budget and today passes with a warning.
 Why: Workers Static Assets serve files from `dist`. A 10× build means well over 150,000 HTML files before images. Platform limits on file count, file size and deploy size must be checked, not assumed.
 What: build a synthetic site at 10× the current page count and image count. Measure build time, upload size, deploy time and cache behavior. Record the current limits from Cloudflare's documentation.
 Acceptance:
@@ -240,7 +249,9 @@ Risks / not doing: runtime cost and a larger attack surface. Verify current adap
 ### Images, print and video
 
 ### PLAT-017 · Image pipeline: masters to AVIF, WebP and fallback
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-17): `pnpm check:images`, also a CI step, reads every built page and checks each image: it has an alt attribute (empty is fine for decoration), it has width and height in the page, and a picture file is no more than twice as wide as it is shown. It passes on all 100,023 images on 16,532 pages. It found 8,209 pictures on the print sheet of Conversation cards with no size; they now have one, and the printed size was measured in a browser before and after (three pictures per sheet, not kept as a test) and did not change. The 100 illustrations in `/illustrations/` are sent at 720 px for a 240 px display, three times, which a listed exception allows for phones with very sharp screens (12 to 33 kB each); that exception is a decision to revisit, not a finding of fine. Only plain `<img src>` pictures are measured: vector images, `srcset` and CSS images are not. Rules and tests: `site/scripts/image-check-lib.mjs`, `site/src/lib/image-check.test.ts`. Gap: nothing generates AVIF, WebP or JPEG derivatives at 320 to 1280 px or caches them by content hash; there are no step photographs yet (CNT-009); images set in CSS are not checked; the width a stylesheet finally gives an image is not measured, the width attribute stands for it.
 Why: DESIGN §2 requires actual process photos and tactile illustrations. The performance rules require explicit dimensions, AVIF or WebP with fallbacks, and no image much larger than its rendered size. Today nothing generates responsive derivatives.
 What: masters are kept in the repo (small files) or in R2 (large files; decision). Build generates AVIF, WebP and JPEG derivatives at 320 to 1280 pixel widths, with `width` and `height` set and `loading` set per placement.
 Acceptance:
@@ -298,7 +309,9 @@ Depends on: PLAT-014.
 Risks / not doing: a single global index. Do not build one.
 
 ### PLAT-022 · Site-wide static search index
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): `/search-index.json` is built with the site (`site/src/pages/search-index.json.ts`), 110 KB and 34 KB gzipped for 53 cards, 14 hubs, 41 live English guides and 14 games, and is downloaded only by the search page. A short matcher in `site/src/lib/search.ts` reads it in the browser, so no third-party service receives a query and the only request is to this site (the page's security policy also allows only this origin for fetches). No query text is logged, stored or counted (tested). `site/scripts/check-site.mjs` fails the build if the index is missing, lists fewer than 100 pages, lists a page twice or names a page that was not built. Not done: sharding by language (the index is English only, which is all the site searches today); the "indexed pairs only" rule (the index also lists hubs held from search, because the home page links to them); a combobox pattern and a screen-reader test (the page is a plain search box with a list of results); a tool choice tested at a larger size (the matcher is fine at this size and has not been measured at 100,000 pages).
 Why: VISION makes the site search-first, and the catalog will outgrow navigation alone. [R5 §3] says search demand is spread across many small intents.
 What: a build-time, locale-sharded index that loads only on the search page. Choose a static index tool after a test on the real content size. No third-party search service that receives queries.
 Acceptance:
@@ -501,7 +514,9 @@ Depends on: PLAT-037.
 Risks / not doing: treating a clean scan as proof. Say in reports that scans are necessary and insufficient ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-039 · Print and i18n tests
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Evidence (2026-11-16): a missing or one-way hreflang pair fails the build (`site/scripts/check-site.mjs`, SEO-031). `pnpm check:print` prints every activity card on A4 and on US Letter with the browser's print media and checks that it is one two-sided sheet with the site navigation hidden: 53 cards, 0 failures, in 34 seconds. It now runs in the website workflow after the accessibility check. `pnpm check:a11y` covers each page template in its list, including a translated page (German) and a right-to-left page (Arabic), at 320 px and 640 px and at 200% text, for overflow, reflow and focus. Not done: print checks for hubs, packs and the large-print pages; a long-string test with translated samples as such (the translated pages in the accessibility check are the only samples); a PDF page-count check on generated PDFs (none are generated, PLAT-019); the right-to-left layout check is gated to a reviewed right-to-left language.
 Why: print is a product path (DESIGN §4B). Multilingual pages can break through missing hreflang pairs, long strings or missing right-to-left support ([R5 §2.3]).
 What: print emulation snapshots for each template, with no navigation and no color dependency. PDF page-count check (PLAT-019). Reciprocal hreflang check. Right-to-left layout check once an RTL language is `indexed`. A long-string test with translated samples.
 Acceptance:

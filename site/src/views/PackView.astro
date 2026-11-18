@@ -48,7 +48,8 @@ const activities = pack.activities
         {
           activities.map((a) => (
             <li>
-              <a href={`#card-${a.id}`}>{a.data.name}</a>
+              <a href={`#card-${a.id}`}>{a.data.name}</a> ·{' '}
+              <a href={`/activity/${a.id}/large-print/`}>large print</a>
             </li>
           ))
         }

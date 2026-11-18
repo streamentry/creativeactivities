@@ -18,10 +18,25 @@ import '../styles/games.css';
 import '../styles/activity-cards.css';
 import '../styles/studio-games.css';
 import { GAME_ACTIVITIES } from '../data/game-activities';
+import { GAME_PRINT, rulesText } from '../data/game-print';
+import { printSheet } from '../lib/games/print-sheet';
+import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
+import { SITE } from '../lib/site';
+import GamePrintSheet from '../components/GamePrintSheet.astro';
 import { TYPE_LABELS, glance, listedActivities } from '../lib/activities';
 import PicturePairs from '../games/PicturePairs';
 import FindTheSame from '../games/FindTheSame';
 import ShadowMatch from '../games/ShadowMatch';
+import FourTogether from '../games/FourTogether';
+import OddOneOut from '../games/OddOneOut';
+import ColorMatch from '../games/ColorMatch';
+import HalvesMatch from '../games/HalvesMatch';
+import ColorByNumber from '../games/ColorByNumber';
+import PatternMaker from '../games/PatternMaker';
+import BuildTogether from '../games/BuildTogether';
+import SeatedToss from '../games/SeatedToss';
+import StoryChain from '../games/StoryChain';
+import StoryDice from '../games/StoryDice';
 import SortTogether from '../games/SortTogether';
 import PicturePuzzle from '../games/PicturePuzzle';
 import FinishTheSaying from '../games/FinishTheSaying';
@@ -81,6 +96,19 @@ const jsonLd = [
 const s = game.slug;
 const play = playProps(lang, s);
 const photo = s === 'photo-pairs';
+// WEB-052: the paper partner, or the reason there is none. The rules line is the game's own guidance.
+// A page-kind sheet also prints the scope and pause lines; an island's own sheet fills its page, so it
+// gets the rules and version lines only.
+const pp = p.print;
+const paper = GAME_PRINT[game.slug];
+const rules = rulesText(game.slug, play.ui, lang);
+const sheet = paper.kind === 'page' ? printSheet(game.slug) : null;
+const versionLine = paper.kind === 'none' ? '' : fill(pp.version, { date: paper.version, url: `${SITE.domain}${path}` });
+const sheetHowTo = !sheet ? '' : sheet.layout === 'cards' ? pp.cards : sheet.layout === 'sort' ? pp.sort : sheet.layout === 'puzzle' ? pp.puzzle : sheet.layout === 'chain' ? pp.chain : sheet.layout === 'halves' ? pp.halves : sheet.layout === 'grid' ? pp.grid : sheet.layout === 'toss' ? play.ui.seatedToss.sheetHow : sheet.rows.some((r) => r.target) ? pp.pointTarget : sheet.dice ? pp.dice : sheet.rows.some((r) => r.color) ? pp.colors : pp.point;
+const colorNames = sheet?.layout === 'rows' && sheet.rows.some((r) => r.color) ? play.ui.colorMatch.names : undefined;
+const numberColorNames = sheet?.layout === 'grid' ? play.ui.colorByNumber.colors : undefined;
+const toss = sheet?.layout === 'toss' ? play.ui.seatedToss : undefined;
+const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.theme]?.baskets : undefined;
 ---
 <BaseLayout title={game.seoTitle} description={game.description} image={ogImage} imageAlt={fill(p.imageAlt, { name: game.name })} jsonLd={jsonLd} analytics={!photo} available={gameLanguages(game.slug)}>
   <Breadcrumbs items={crumbs} lang={lang} />
@@ -98,6 +126,16 @@ const photo = s === 'photo-pairs';
       {s === 'picture-pairs' && <PicturePairs client:load {...play} />}
       {s === 'find-the-same' && <FindTheSame client:load {...play} />}
       {s === 'shadow-match' && <ShadowMatch client:load {...play} />}
+      {s === 'four-together' && <FourTogether client:load {...play} />}
+      {s === 'odd-one-out' && <OddOneOut client:load {...play} />}
+      {s === 'color-match' && <ColorMatch client:load {...play} />}
+      {s === 'halves-match' && <HalvesMatch client:load {...play} />}
+      {s === 'color-by-number' && <ColorByNumber client:load {...play} />}
+      {s === 'pattern-maker' && <PatternMaker client:load {...play} />}
+      {s === 'build-together' && <BuildTogether client:load {...play} />}
+      {s === 'seated-toss' && <SeatedToss client:load {...play} />}
+      {s === 'story-chain' && <StoryChain client:load {...play} />}
+      {s === 'story-dice' && <StoryDice client:load {...play} />}
       {s === 'sort-together' && <SortTogether client:load {...play} />}
       {s === 'picture-puzzle' && <PicturePuzzle client:load {...play} />}
       {s === 'finish-the-saying' && <FinishTheSaying client:load {...play} />}
@@ -108,6 +146,27 @@ const photo = s === 'photo-pairs';
       {s === 'picture-bingo' && <PictureBingo client:load {...play} />}
       {s === 'calm-breathing' && <CalmBreathing client:load {...play} />}
     </div>
+
+    {
+      sheet && (
+        <GamePrintSheet sheet={sheet} title={fill(pp.sheetTitle, { name: game.name })} rules={rules} howTo={sheetHowTo} pictureNames={play.pictureNames} baskets={baskets} colorNames={colorNames} numberColorNames={numberColorNames} toss={toss}>
+          <footer class="sheet-foot">
+            {sheet.layout !== 'rows' && sheet.layout !== 'halves' && sheet.layout !== 'grid' && sheet.layout !== 'toss' && <p>{pp.cutSafety}</p>}
+            <p>{SCOPE_LINE}</p>
+            <p>{PAUSE_LINE}</p>
+            <p class="print-version">{versionLine}</p>
+          </footer>
+        </GamePrintSheet>
+      )
+    }
+    {
+      paper.kind === 'island' && (
+        <footer class="print-only sheet-foot">
+          <p class="sheet-paper__rules">{rules}</p>
+          <p class="print-version">{versionLine}</p>
+        </footer>
+      )
+    }
 
     <div class="game-page-copy article-layout">
       <div class="prose">
@@ -123,6 +182,21 @@ const photo = s === 'photo-pairs';
         <ol class="game-steps">
           {game.howTo.map((step) => <li>{step}</li>)}
         </ol>
+        <section class="paper-version" aria-labelledby="paper-version">
+          <h2 id="paper-version">{pp.heading}</h2>
+          {
+            paper.kind === 'none' ? (
+              <p>{pp.reasons[paper.reason]}</p>
+            ) : (
+              <>
+                <p>{pp.sameRules}</p>
+                <p class="paper-version__rules">{rules}</p>
+                <p class="small-print">{fill(paper.kind === 'page' ? pp.pageNote : pp.islandNote, { date: paper.version })}</p>
+                <button type="button" class="btn" data-print hidden><Icon name="print" />{pp.button}</button>
+              </>
+            )
+          }
+        </section>
         <h2 id="tips">{p.tips}</h2>
         <ul>
           {game.tips.map((tip) => <li>{tip}</li>)}
@@ -186,6 +260,14 @@ const photo = s === 'photo-pairs';
   </div>
 </BaseLayout>
 
+<script>
+  // Print is a button only with JavaScript; without it, the browser's own print command prints the same sheet.
+  for (const button of document.querySelectorAll<HTMLButtonElement>('[data-print]')) {
+    button.hidden = false;
+    button.addEventListener('click', () => window.print());
+  }
+</script>
+
 <style>
   .page-head--game {
     padding-bottom: var(--space-md);
@@ -207,6 +289,12 @@ const photo = s === 'photo-pairs';
       border: 0;
       box-shadow: none;
     }
+  }
+  .paper-version__rules {
+    padding: var(--space-sm) var(--space-md);
+    border-inline-start: 4px solid var(--gm-primary);
+    background: var(--gm-surface-raised);
+    font-weight: 700;
   }
   @media (prefers-contrast: more) {
     .game-stage {

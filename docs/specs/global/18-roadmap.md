@@ -128,7 +128,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-042 | P2 | ? | Display options: dark theme and reading settings |
 | WEB-044 | P1 | partial | Partner page with permission rules |
 | WEB-045 | P1 | new | Care-home weekly program sheet |
-| WEB-046 | P1 | new | Group mode for facilitators |
+| WEB-046 | P1 | partial | Group mode for facilitators |
 | WEB-050 | P1 | new | Share a card |
 | WEB-051 | P1 | partial | Games filters |
 | WEB-052 | P1 | new | Printable partner on each game page |
@@ -187,20 +187,20 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-013 | P0 | exists | Visible picture matching (app) |
 | GAME-014 | P2 | exists | Hidden picture matching (app) |
 | GAME-018 | P1 | new | Odd one out |
-| GAME-020 | P2 | new | Color match |
-| GAME-021 | P2 | new | Halves match |
+| GAME-020 | P2 | partial | Color match |
+| GAME-021 | P2 | partial | Halves match |
 | GAME-006 | P1 | exists | Finish the saying |
 | GAME-007 | P1 | exists | Large-print word search |
 | GAME-022 | P1 | new | Four together |
-| GAME-025 | P1 | new | Story dice |
+| GAME-025 | P1 | partial | Story dice |
 | GAME-026 | P2 | new | Sound loop maker |
 | GAME-027 | P2 | new | Keep the beat |
 | GAME-029 | P1 | new | Singing sheets |
 | GAME-008 | P0 | exists | Coloring |
-| GAME-031 | P1 | new | Paint-by-number lite |
+| GAME-031 | P1 | partial | Paint-by-number lite |
 | GAME-032 | P1 | new | Two-hand drawing duet |
 | GAME-033 | P2 | new | Collage board |
-| GAME-034 | P2 | new | Pattern maker |
+| GAME-034 | P2 | partial | Pattern maker |
 | GAME-035 | P2 | new | Co-decorate a card |
 | GAME-037 | P2 | new | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |
@@ -213,20 +213,20 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-009 | P0 | exists | Conversation cards |
 | GAME-010 | P0 | exists | Photo pairs |
 | GAME-044 | P1 | new | Reminiscence card match |
-| GAME-046 | P1 | new | Story chain |
+| GAME-046 | P1 | partial | Story chain |
 | GAME-047 | P2 | new | Find together |
-| GAME-048 | P2 | new | Build-it-together grid |
-| GAME-049 | P2 | new | Seated toss tally |
+| GAME-048 | P2 | partial | Build-it-together grid |
+| GAME-049 | P2 | partial | Seated toss tally |
 | GAME-011 | P0 | exists | Picture bingo |
-| GAME-050 | P1 | new | Picture passing circle |
-| GAME-051 | P1 | new | Big-screen picture talk |
+| GAME-050 | P1 | partial | Picture passing circle |
+| GAME-051 | P1 | partial | Big-screen picture talk |
 | GAME-052 | P2 | new | Group coloring wall |
 | GAME-004 | P1 | exists | Sort together |
 | GAME-005 | P1 | exists | Picture puzzle (web) |
 | GAME-015 | P1 | partial | Picture puzzle (app) |
 | GAME-016 | P2 | new | Tap-to-place puzzle (app) |
 | GAME-017 | P2 | new | Picture sorting (app) |
-| GAME-019 | P1 | new | Large-target sort |
+| GAME-019 | P1 | partial | Large-target sort |
 | GAME-058 | P2 | new | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
 | GAME-060 | P3 | new | Quiet shapes puzzle |
@@ -428,11 +428,11 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-011 | P0 | new | Activity cards localized before guides |
 | L10N-012 | P1 | new | Cultural adaptation register |
 | L10N-013 | P1 | new | Holidays, faith and food defaults |
-| L10N-014 | P1 | new | Units, paper sizes and printing |
+| L10N-014 | P1 | partial | Units, paper sizes and printing |
 | L10N-015 | P1 | new | Family structures and forms of address |
 | L10N-016 | P1 | partial | Right-to-left layout |
 | L10N-017 | P1 | partial | Scripts and font coverage |
-| L10N-018 | P1 | new | Text length and 200% layout per language |
+| L10N-018 | P1 | partial | Text length and 200% layout per language |
 | L10N-019 | P1 | partial | Store localization mechanics |
 | L10N-020 | P1 | partial | Indexing and hreflang only for reviewed locales |
 | L10N-021 | P1 | new | Stale translations after English changes |
@@ -509,7 +509,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-013 | P0 | new | Partitioned, incremental builds |
 | PLAT-014 | P0 | partial | Publishing state per (entity, locale) |
 | PLAT-015 | P0 | new | Hosting capacity check at 10× the page count |
-| PLAT-017 | P0 | new | Image pipeline: masters to AVIF, WebP and fallback |
+| PLAT-017 | P0 | partial | Image pipeline: masters to AVIF, WebP and fallback |
 | PLAT-018 | P1 | new | Step photo and caption standard |
 | PLAT-019 | P1 | new | Print-ready cards and generated PDFs |
 | PLAT-021 | P0 | partial | Finder index sharded by locale and facet |

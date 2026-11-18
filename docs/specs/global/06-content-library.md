@@ -6,7 +6,7 @@ This file defines every content type the website and app publish: what each one 
 
 ## 1. Baseline (checked 2026-11-14)
 
-Counts come from the [README baseline](README.md#where-we-are-today-baseline-checked-2026-11-14-on-main-at-dab0f10). They are not a re-count. CNT-040 re-verifies them.
+Counts come from the [README baseline](README.md#where-we-are-today-baseline-checked-2026-11-14-on-main-at-dab0f10). They are not a re-count. CNT-040 re-verifies them: see [library-inventory.md](library-inventory.md) for the 2026-11-16 count (53 cards, 10 hubs, 115 guides).
 
 | Type | Today | Where it lives |
 |---|---|---|
@@ -86,11 +86,12 @@ Rules that apply to every type:
 
 ### CNT-006 · Path (weekly plan or multi-week sequence)
 
-- **Priority P1 · Phase S2 · Status new**.
+- **Priority P1 · Phase S2 · Status partial**.
 - **Why:** a free one-page weekly plan with three to five activities is a low-commitment entry point that needs no account ([R2 §3, pattern 4](research/02-parenting-kids-platforms.md#3-feature-patterns-worth-adopting)).
 - **Anatomy:** a title for the situation; one line on time per day; a row per day or per activity; links to the cards; a blank row for "what we did"; a closing line that says the path is finished and that stopping is fine.
 - **Rules:** no streaks, no "you missed a day" message, no email sign-up needed, and no paid unlock for the first week. A path ends.
 - **Count rule:** two paths in S2 (one for older adults, one intergenerational); more only if the S2 test shows completion without pressure.
+- **Evidence (2026-11-17):** two paths are published at `/paths/` (one for a caregiver and an older adult, one for a child and an older relative), each four weeks long and each ending. A page has a title, a time line for each week worked out from its cards (the least of their lows to the most of their highs), a row for each activity with a box to tick on paper and a link, a blank ruled line for "what we did" on paper, and a closing line that says the path is finished, that stopping here is fine and that it can be started again from any week (`site/src/data/paths.ts`, `site/src/tools/PathPlan.tsx`). A test scans the words of the paths, the page and its source for streak, schedule and debt words, none sends or asks for an email, and nothing is locked. Not done: the time is for a week and not for each day; the S2 test that shows whether completion happens without pressure; and the rest of the work is in [WEB-032](03-features-web.md#web-032--paths).
 
 ### CNT-007 · Printable template
 
@@ -136,7 +137,8 @@ Rules that apply to every type:
 
 ### CNT-013 · Seasonal calendar and collections
 
-- **Priority P2 · Phase S2 · Status new**.
+- **Priority P2 · Phase S2 · Status partial**.
+- **Evidence (2026-11-16):** four season pages (`/seasons/spring/` to `/winter/`) and a calendar on `/seasons/` that shows the year as twelve months for the northern or southern half of the world, with this month marked (WEB-033). No holiday is assumed. Each season's own cards include at least one with a seated version and one with a large-grip version (tested in `site/src/data/seasons.test.ts`). After a season the page stays where it is and links to the seasonal hub and the other seasons. Not done: publishing six weeks ahead (the pages are not tied to a release date); holidays from many traditions with cultural review (none is included; the seasonal hub is written for any celebration); an editor's review of the collections.
 - **Why:** time-bound search and planning. R5 cluster 6 (holiday crafts for seniors, seated and low-dexterity) is the first case.
 - **Rules:** published at least six weeks before the season it serves; each collection has seated and low-dexterity versions; holidays from many traditions are included with cultural review (see [07](07-pillar-crafting.md) for the seasonal category and [13](13-localization.md)); after the season, the page stays at its URL and points to the evergreen hub.
 
@@ -266,7 +268,8 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-031 · Media rights and provenance
 
-- **Priority P0 · Phase S2 · Status new.**
+- **Priority P0 · Phase S2 · Status partial.**
+- **Evidence (2026-11-16):** `docs/specs/asset-provenance.json` has a record for every served picture, illustration and social card, and CI (`asset-provenance.test.ts`, `child-image-rules.test.ts`) fails when a served image has none or when a person or child appears without a release. Remaining: the check covers the website only, not the app's bundled assets; every record is still `unreviewed`.
 - **What:** the asset record and rules in §4.
 - **Acceptance:** an asset with no record cannot be committed to the site or app; photos of people have a release reference; no child's face is in any public asset without a parental release.
 
@@ -284,13 +287,15 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-034 · Update, correction and retirement
 
-- **Priority P1 · Phase S2 · Status new.**
+- **Priority P1 · Phase S2 · Status partial.**
+- **Evidence (2026-11-16):** cards, hubs and guides each show a dated byline (checked in the built pages); cards carry a public change log (`changes`, WEB-027) and a `withdrawn` notice; `/corrections/` takes reports (TSA-045); retired guides redirect (`site/src/lib/retired-guides.ts`); `pnpm review:queue` lists pages past their 12-month review (WEB-076). Remaining: the 48-hour logging of a confirmed safety correction is a maintainer process with no target set, and a card's displayed date is `updated`, not a named reviewer's check.
 - **What:** the cadence and rules in §3, including the public correction note and redirect-on-retire.
 - **Acceptance:** every page shows its last review date; every safety correction is logged within 48 hours of confirmation (target).
 
 ### CNT-040 · Library inventory
 
-- **Priority P0 · Phase S2 · Status new.**
+- **Priority P0 · Phase S2 · Status partial.**
+- **Evidence (2026-11-16):** [library-inventory.csv](library-inventory.csv) lists all 178 English pages (53 cards, 10 hubs, 115 guides) from the content files, regenerated by `pnpm library:inventory` and checked by `site/src/lib/library-inventory.test.ts`; [library-inventory.md](library-inventory.md) gives the real counts and six overlap candidates. Remaining: reviewer, tested date and AI-assisted columns have no source data yet, and the overlap pairs need an editor's decision.
 - **Why:** the baseline counts are from the README and have not been verified page by page. The 88 guides include machine-translated copies. We cannot plan S2 without knowing what exists.
 - **What:** a single inventory with one row per page: type, pillar, language, status, tested date, reviewer (or none), sources present (yes or no), safety check date, last updated, print view (yes or no), AI-assisted (yes or no).
 - **Acceptance:** the inventory replaces the baseline counts in §1 and §6; near-duplicate guides and hubs are listed for merge.
