@@ -52,7 +52,7 @@ const prefixFacet = (id: string, prefix: string): FacetDef => ({
 
 const hub = (id: string, cards: string[]): FacetHub => ({ id, cards, indexable: true });
 
-const ALLOWED: Verdict[] = ['page', 'route-to-hub', 'route-to-facet', 'filter-only'];
+const ALLOWED: Verdict[] = ['candidate', 'route-to-hub', 'route-to-facet', 'too-broad', 'filter-only'];
 
 describe('H3 threshold', () => {
   it('fails at seven cards and passes at eight when three profiles differ', () => {
@@ -80,17 +80,19 @@ describe('H3 threshold', () => {
 
 describe('H1 overlap and verdicts', () => {
   const facetA = prefixFacet('test:a', 'a');
-  const cards = varied('a', 8);
+  // Ten other cards, so the 8 matching cards are under half the catalog and not too broad.
+  const filler = varied('z', 10);
+  const cards = [...varied('a', 8), ...filler];
 
   it('computes the share as a fraction of the facet cards', () => {
     expect(overlapShare(['a0', 'a1', 'a2', 'a3'], new Set(['a0', 'a1']))).toBe(0.5);
     expect(overlapShare([], new Set(['a0']))).toBe(0);
   });
 
-  it('gives page at exactly half overlap with a hub', () => {
+  it('gives candidate at exactly half overlap with a hub', () => {
     const [result] = evaluateFacets(cards, [hub('hub-x', ['a0', 'a1', 'a2', 'a3'])], [facetA]);
     expect(result.largestHub?.share).toBe(0.5);
-    expect(result.verdict).toBe('page');
+    expect(result.verdict).toBe('candidate');
     expect(result.routeTo).toBeNull();
   });
 
@@ -106,9 +108,20 @@ describe('H1 overlap and verdicts', () => {
     const range = (from: number, to: number) => Array.from({ length: to - from + 1 }, (_, i) => `a${from + i}`);
     const first9: FacetDef = { id: 'test:first9', label: 'x', rule: 'x', matches: (c) => range(0, 8).includes(c.id) };
     const later: FacetDef = { id: 'test:later', label: 'y', rule: 'y', matches: (c) => range(4, 11).includes(c.id) };
-    const results = evaluateFacets(twelve, [], [first9, later]);
+    const results = evaluateFacets([...twelve, ...varied('z', 12)], [], [first9, later]);
     expect(results[0].verdict).toBe('route-to-facet');
     expect(results[0].routeTo).toBe('test:later');
+  });
+
+  it('is too-broad when it holds more than half of all live cards, and is never a routing target', () => {
+    const range = (from: number, to: number) => Array.from({ length: to - from + 1 }, (_, i) => `a${from + i}`);
+    const all = [...varied('a', 8), ...varied('z', 2)]; // facetA holds 8 of 10
+    const small: FacetDef = { id: 'test:small', label: 's', rule: 's', matches: (c) => range(0, 7).includes(c.id) };
+    const results = evaluateFacets(all, [], [facetA, small]);
+    expect(results[0].verdict).toBe('too-broad');
+    expect(results[0].routeTo).toBeNull();
+    // small is also 8 of 10, so too broad as well; neither routes to the other.
+    expect(results[1].verdict).toBe('too-broad');
   });
 
   it('is filter-only when H3 fails, whatever the overlap', () => {
@@ -137,9 +150,11 @@ describe('real cards', () => {
     for (const r of results) expect(ALLOWED).toContain(r.verdict);
   });
 
-  it('never gives page to a facet that fails H3 or overlaps a hub by more than half', () => {
+  it('never gives candidate to a facet that fails H3, is too broad, or overlaps a hub by more than half', () => {
+    const live = cardsOnDisk.filter((c) => !c.withdrawn).length;
     for (const r of results) {
-      if (r.verdict === 'page') {
+      if (r.verdict === 'candidate') {
+        expect(r.cards.length / live, r.id).toBeLessThanOrEqual(0.5);
         expect(r.passesH3, r.id).toBe(true);
         expect(r.largestHub?.share ?? 0, r.id).toBeLessThanOrEqual(0.5);
         expect(r.largestFacet?.share ?? 0, r.id).toBeLessThanOrEqual(0.5);
@@ -148,11 +163,11 @@ describe('real cards', () => {
     }
   });
 
-  it('does not give the bedside facet page when it overlaps the bedside hub by more than half', () => {
+  it('does not give the bedside facet candidate when it overlaps the bedside hub by more than half', () => {
     const bedside = results.find((r) => r.id === 'setting:bedside');
     expect(bedside).toBeDefined();
     const overlap = bedside?.cards.filter((id) => hubs.find((h) => h.id === 'bedside-activities')?.cards.includes(id)).length ?? 0;
     const share = overlap / (bedside?.cards.length || 1);
-    if (share > 0.5) expect(bedside?.verdict).not.toBe('page');
+    if (share > 0.5) expect(bedside?.verdict).not.toBe('candidate');
   });
 });

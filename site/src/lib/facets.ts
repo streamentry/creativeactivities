@@ -10,11 +10,15 @@
  * - filter-only: fails H3 (fewer than MIN_CARDS live cards, or fewer than
  *   MIN_DIFFERENT distinct card profiles). Use it as a finder filter only.
  * - route-to-hub: passes H3 but more than OVERLAP_LIMIT of its cards are
- *   listed by an existing hub (H1). The facet links or canonicalises to that hub.
+ *   listed by an existing hub (H1). The facet links or canonicalizes to that hub.
+ * - too-broad: passes H3 but holds more than BROAD_LIMIT of all live cards, so
+ *   a page for it would be most of the catalog again. A finder filter only. Broad
+ *   facets are also left out as routing targets below.
  * - route-to-facet: passes H3 but more than OVERLAP_LIMIT of its cards sit in
- *   another facet. H1 says nothing about facet-to-facet overlap, so this rule
- *   extends it to match. The facet routes to the other facet.
- * - page: passes H3 and overlaps no hub or facet by more than the limit.
+ *   another facet that is not too broad. H1 says nothing about facet-to-facet
+ *   overlap, so this rule extends it to match. The facet routes to the other facet.
+ * - candidate: passes every rule above. It may become a page only with search
+ *   and usability evidence (H11), never from this report alone.
  */
 
 export interface FacetCard {
@@ -49,7 +53,10 @@ export interface FacetDef {
   readonly matches: (card: FacetCard) => boolean;
 }
 
-export type Verdict = 'page' | 'route-to-hub' | 'route-to-facet' | 'filter-only';
+export type Verdict = 'candidate' | 'route-to-hub' | 'route-to-facet' | 'too-broad' | 'filter-only';
+
+/** A facet holding more than this share of all live cards narrows nothing (too-broad). */
+export const BROAD_LIMIT = 0.5;
 
 export interface Overlap {
   /** The hub or facet id. */
@@ -191,13 +198,15 @@ function largest(overlaps: readonly Overlap[]): Overlap | null {
 
 function verdictFor(
   passes: boolean,
+  broad: boolean,
   largestHub: Overlap | null,
   largestFacet: Overlap | null,
 ): { verdict: Verdict; routeTo: string | null } {
   if (!passes) return { verdict: 'filter-only', routeTo: null };
   if (largestHub !== null && largestHub.share > OVERLAP_LIMIT) return { verdict: 'route-to-hub', routeTo: largestHub.other };
+  if (broad) return { verdict: 'too-broad', routeTo: null };
   if (largestFacet !== null && largestFacet.share > OVERLAP_LIMIT) return { verdict: 'route-to-facet', routeTo: largestFacet.other };
-  return { verdict: 'page', routeTo: null };
+  return { verdict: 'candidate', routeTo: null };
 }
 
 /**
@@ -212,7 +221,11 @@ export function evaluateFacets(
   const live = allCards.filter((card) => !card.withdrawn);
   const members = facets.map((facet) => ({ facet, cards: live.filter(facet.matches) }));
   const hubSets = hubs.map((hub) => ({ id: hub.id, listed: new Set(hub.cards) }));
-  const facetIds = members.map((m) => ({ id: m.facet.id, ids: m.cards.map((c) => c.id) }));
+  const isBroad = (count: number): boolean => live.length > 0 && count / live.length > BROAD_LIMIT;
+  // Broad facets are not routing targets: routing to one would point at most of the catalog.
+  const facetIds = members
+    .filter((m) => !isBroad(m.cards.length))
+    .map((m) => ({ id: m.facet.id, ids: m.cards.map((c) => c.id) }));
 
   return members.map(({ facet, cards }) => {
     const ids = cards.map((c) => c.id);
@@ -223,7 +236,7 @@ export function evaluateFacets(
         .filter((other) => other.id !== facet.id)
         .map((other) => ({ other: other.id, share: overlapShare(ids, new Set(other.ids)) })),
     );
-    const { verdict, routeTo } = verdictFor(passes, largestHub, largestFacet);
+    const { verdict, routeTo } = verdictFor(passes, isBroad(ids.length), largestHub, largestFacet);
     return {
       id: facet.id,
       label: facet.label,
