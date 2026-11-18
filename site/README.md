@@ -24,6 +24,24 @@ pnpm preview             # serves dist/ with the real Workers runtime, headers a
 `pnpm verify` runs tests, build and checks together; CI runs the same steps in
 `.github/workflows/site.yaml`.
 
+### Visual review (PLAT-037)
+
+`pnpm check:visual` takes full-page screenshots of the key templates at 320, 768,
+1024 and 1440 px, in light and dark, plus print for two pages, then compares two runs.
+Build each commit first, then:
+
+```sh
+pnpm build && pnpm check:visual shoot --out <scratch>/before     # base commit
+pnpm build && pnpm check:visual shoot --out <scratch>/after      # change
+pnpm check:visual compare --before <scratch>/before --after <scratch>/after --out <scratch>/report
+```
+
+`report/report.md` lists changed, size-changed and one-sided files; `report/diff/`
+holds a red-on-faded diff for each changed image. The compare always exits 0: the
+pull request reviewer decides. Shots are deterministic (fixed clock and timezone,
+animations off, font hinting off, random game boards masked), so two runs of the
+same build should report 0 changed.
+
 ## Layout
 
 | Path | What it is |
