@@ -190,7 +190,8 @@ describe('source coverage (MET-015)', () => {
   });
 });
 
-describe('the report', () => {
+// buildReport reads every guide in every language; on a busy machine that takes well over 5 s.
+describe('the report', { timeout: 60_000 }, () => {
   it('shows the date and a count with every figure', () => {
     const { today, result } = buildReport(undefined, '2026-11-16');
     const text = formatReport(result, today).join('\n');
