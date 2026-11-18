@@ -11,6 +11,7 @@ export type GameSlug =
   | 'color-by-number'
   | 'pattern-maker'
   | 'build-together'
+  | 'drawing-duet'
   | 'seated-toss'
   | 'story-dice'
   | 'story-chain'
@@ -531,6 +532,43 @@ export const GAMES: readonly GameInfo[] = [
       FREE_FAQ,
     ],
     relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'drawing-duet',
+    name: "Drawing duet",
+    seoTitle: "Drawing Duet: Two People, One Picture",
+    h1: "Drawing Duet: Two People, One Sheet",
+    description: "Two people take turns drawing lines on one shared canvas, each in a color of their own. Nobody scores or wins, and the picture can be saved or printed. Free to play, with no account.",
+    short: "Take turns drawing one shared picture with someone beside you.",
+    cardPictures: ['sunflower', 'balloon', 'sailboat'],
+    stages: ['early', 'middle', 'late'],
+    players: "2 people, side by side",
+    printable: true,
+    intro: "One canvas, two people. Each of you picks a color, and each color has its own written name. You take turns: draw one line or shape, then pass the pen. Either of you may pass at any time. There is no right picture and no score. Save the picture to your device if you like it, or print the paper version: one sheet, two pens.",
+    howTo: [
+      "Each of you picks a color. The banner says whose turn it is, with that person's color by name.",
+      "Draw one line or shape with a finger, a mouse or a pen. Or use the arrow keys and Space to draw without a pointer.",
+      "When you are ready, tap \"Pass the pen\". Either of you may pass at any time.",
+      "Tap \"Take back my last line\" to remove the newest line of the person whose turn it is.",
+      "Tap \"Save picture\" to make a picture file on this device, or \"Print the paper version\" for one sheet and two pens.",
+    ],
+    tips: [
+      "Sit side by side and talk as you draw: \"I will add a sun in the corner.\"",
+      "Start with a dot, a line or a simple shape, and let the other person answer it.",
+      "Nobody has to draw a picture of anything. A pattern of lines is just as good as a scene.",
+      "If you want to stop, tap \"Done for now\". Your picture is not kept after you leave the page unless you save it.",
+    ],
+    faq: [
+      { q: "Is there a winner or a score?", a: "No. There is no winner, no score, no timer and no count of turns. There is no right picture, and nothing is ranked or compared." },
+      { q: "Is the picture saved or sent?", a: "No, nothing is sent anywhere. The picture stays on this page until you close it. If you tap Save picture, a file is made on your device for you to download. Nothing is uploaded." },
+      { q: "Can I take back a line?", a: "Yes. \"Take back my last line\" removes the newest line of the person whose turn it is. \"Start again\" clears the sheet, and \"Put it back\" brings the lines back, one step only." },
+      { q: "Can I use this without a mouse or touch screen?", a: "Yes. When the drawing has focus, the arrow keys move a pen dot, and the Space key puts the pen down or up. The screen says \"Pen down\" or \"Pen up\" each time." },
+      { q: "What colors are they, and can people with color-blindness tell them apart?", a: "Yellow, orange, green and purple, the same four colors used in our other picture games. Each has a written name, and the names show beside the turn. The colors were checked with simulations of common color-vision differences, but a person with color-vision differences has not yet tried them." },
+      { q: "Is there a paper version?", a: "Yes. \"Print the paper version\" prints one sheet with the rules on it and a large blank frame to draw in, for two people with two pens. It works in black and white." },
+      FREE_FAQ,
+    ],
+    relatedGuides: ["together/puzzles-and-table-games", "activities/ideas", "caregiving/how-to-play-together"],
     featured: false,
   },
   {

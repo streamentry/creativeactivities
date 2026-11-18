@@ -19,6 +19,7 @@ export const GAME_SLUGS = [
   'color-by-number',
   'pattern-maker',
   'build-together',
+  'drawing-duet',
   'seated-toss',
   'story-chain',
   'story-dice',

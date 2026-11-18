@@ -3149,3 +3149,173 @@
     color: #000;
   }
 }
+
+/* Drawing duet (GAME-032): one canvas, two people, turns, a color each. The page's style policy blocks style
+   attributes, so each color is chosen by `data-tone` here; drawing-duet.test.ts checks these hex values against
+   the palette in src/data/pattern-maker.ts. touch-action is none on the canvas only. */
+.dd [data-tone='0'] {
+  --dd-fill: #f7e98e;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='1'] {
+  --dd-fill: #e69f00;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='2'] {
+  --dd-fill: #009e73;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='3'] {
+  --dd-fill: #7b3f98;
+  --dd-ink: #ffffff;
+}
+.dd {
+  display: grid;
+  gap: var(--space-lg);
+}
+.dd__players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: var(--space-md);
+}
+.dd__player {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+/* Whose turn it is also has an inner border, so the turn is not told by color alone. */
+.dd__player[data-turn='yes'] {
+  border-color: var(--gm-on-surface);
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+.dd__legend {
+  padding: 0 var(--space-xs);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.dd__picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+}
+.dd__pick {
+  position: relative;
+  display: flex;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.dd__pick input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.dd__face {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  min-block-size: 56px;
+  padding: 6px var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.dd__pick:hover .dd__face {
+  border-color: var(--gm-primary);
+}
+.dd__pick input:checked + .dd__face {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}
+.dd__pick input:focus-visible + .dd__face {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.dd__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--dd-fill, var(--gm-surface));
+  color: var(--dd-ink, var(--gm-on-surface));
+  forced-color-adjust: none;
+}
+/* The turn banner: always visible, with the person, the color's name and its shape. */
+.dd__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.dd__turn-line,
+.dd__turn-color {
+  margin: 0;
+}
+.dd__turn-line {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.dd__turn-color {
+  font-size: var(--text-md);
+}
+.dd__board {
+  padding: var(--space-xs);
+}
+.dd__canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  touch-action: none;
+  cursor: crosshair;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.dd__canvas:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.dd__keys {
+  margin: 0;
+  font-size: var(--text-md);
+}
+@media print {
+  .dd-sheet,
+  .dd-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .dd-sheet__rules {
+    margin: 0 0 6mm;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .dd-sheet__frame {
+    inline-size: 100%;
+    max-inline-size: 170mm;
+    aspect-ratio: 4 / 3;
+    border: 3px solid #000;
+  }
+}
