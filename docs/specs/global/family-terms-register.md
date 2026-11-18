@@ -33,9 +33,13 @@ Searched, in English only: `site/src/content/guides/`,
 `assets/data/i18n/packs_en.json`, `metadata/app-store.en-US.json`,
 `metadata/en-US/` and `metadata/google-play.en-US.json`.
 
-Not searched: `guides-i18n/` (translations, covered by the other register) and
-the game and play folders under `site/src/i18n/`, which have no separate English
-file. Store keywords and titles are included because they are search terms.
+Also searched: the English game and play strings, `site/src/i18n/games/en.json`
+and `site/src/i18n/play/en.json`. They hold three hits, all legitimate: "calm and
+patient" (the adjective), the saying "Necessity is the mother of", and "senior
+groups" in the bingo description. They are not counted in the table below.
+
+Not searched: `guides-i18n/` (translations, covered by the other register).
+Store keywords and titles are included because they are search terms.
 
 ## Term audit
 
