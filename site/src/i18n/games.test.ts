@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -58,6 +58,16 @@ describe('which games a language offers', () => {
     for (const { code } of LOCALES) expect(gameAvailable('build-together', code), code).toBe(code === 'en');
   });
 
+  it('offers Find together in English only until its words are reviewed', () => {
+    expect(FIND_TOGETHER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('find-together', code), code).toBe(code === 'en');
+  });
+
+  it('offers Drawing duet in English only until its words are reviewed', () => {
+    expect(DRAWING_DUET_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('drawing-duet', code), code).toBe(code === 'en');
+  });
+
   it('offers Story chain in English only until its words are reviewed', () => {
     expect(STORY_CHAIN_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('story-chain', code), code).toBe(code === 'en');
@@ -66,6 +76,11 @@ describe('which games a language offers', () => {
   it('offers Seated toss tally in English only for now', () => {
     expect(SEATED_TOSS_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('seated-toss', code), code).toBe(code === 'en');
+  });
+
+  it('offers Decorate a card together in English only for now', () => {
+    expect(DECORATE_A_CARD_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('decorate-a-card', code), code).toBe(code === 'en');
   });
 
   it('offers Story dice in English only for now', () => {

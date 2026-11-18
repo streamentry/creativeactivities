@@ -20,7 +20,7 @@ import { TOGETHER_PRINT_COUNT } from '../lib/games/print-sheet';
  * prints as `Version <date>`, the same way activity cards print theirs (WEB-016).
  * Change it whenever the sheet or the rules line changes.
  */
-export type NoPrintReason = 'photos' | 'paced' | 'sayings';
+export type NoPrintReason = 'photos' | 'paced' | 'sayings' | 'turns';
 
 export type GamePrint =
   | { kind: 'island'; version: string }
@@ -38,7 +38,10 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'color-by-number': { kind: 'page', version: '2026-11-17' },
   'pattern-maker': { kind: 'island', version: '2026-11-18' },
   'build-together': { kind: 'island', version: '2026-11-18' },
+  'find-together': { kind: 'none', reason: 'turns' },
+  'drawing-duet': { kind: 'island', version: '2026-11-18' },
   'seated-toss': { kind: 'page', version: '2026-11-18' },
+  'decorate-a-card': { kind: 'page', version: '2026-11-18' },
   'story-chain': { kind: 'page', version: '2026-11-17' },
   'story-dice': { kind: 'page', version: '2026-11-17' },
   'sort-together': { kind: 'page', version: '2026-11-15' },
@@ -73,7 +76,10 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'color-by-number': ['colorByNumber', 'guidance'],
   'pattern-maker': ['patternMaker', 'guidance'],
   'build-together': ['buildTogether', 'guidance'],
+  'find-together': ['findTogether', 'guidance'],
+  'drawing-duet': ['drawingDuet', 'guidance'],
   'seated-toss': ['seatedToss', 'guidance'],
+  'decorate-a-card': ['decorateACard', 'guidance'],
   'story-chain': ['storyChain', 'guidance'],
   'story-dice': ['storyDice', 'guidance'],
   'sort-together': ['sortTogether', 'guidance'],

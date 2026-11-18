@@ -132,6 +132,36 @@
       "ringHeading": "Ring",
       "print": "Print the target and tally sheet"
     },
+    "decorateACard": {
+      "guidance": "Choose an occasion, then decorate a card together with crayons or pens. There is no right card.",
+      "occasionLegend": "Choose an occasion",
+      "occasions": {
+        "birthday": { "label": "Birthday", "words": "Happy birthday" },
+        "thank-you": { "label": "Thank you", "words": "Thank you" },
+        "thinking-of-you": { "label": "Thinking of you", "words": "Thinking of you" },
+        "new-season": { "label": "A new season", "words": "A new season" },
+        "just-because": { "label": "Just because", "words": "Just because" }
+      },
+      "stepsHeading": "How to decorate it together",
+      "steps": {
+        "fold": "Print the card and fold it in half along the dashed line, so the front is on the outside.",
+        "front": "One person decorates the front, around the words.",
+        "inside": "The other person decorates the back, or you take turns on one side.",
+        "message": "Write a message together. One person can write while the other says the words.",
+        "stop": "Stop whenever you like. There is no right card, and a simple one is just as good."
+      },
+      "materials": "Use crayons, colored pencils or felt-tip pens. Nothing needs cutting, gluing or sticking.",
+      "previewLabel": "A preview of the card folded in half. The front says {words}, with a simple frame of leaves and stars. The back has lines for a message and a line for From.",
+      "from": "From",
+      "sheetHow": "Fold the card in half along the dashed line, with the front on the outside. Write the message on the back.",
+      "rulesHeading": "For two people",
+      "sheetRules": [
+        "Take turns, or split the work: one person decorates the front, the other the back.",
+        "Write the message together, or one person writes what the other says.",
+        "Anyone may stop at any time. There is no right card."
+      ],
+      "print": "Print the card"
+    },
     "storyDice": {
       "guidance": "Look at the pictures and tell a story using them, in any order. There is no right story.",
       "countLegend": "How many dice",
@@ -257,6 +287,75 @@
       "sheetTitle": "Build together",
       "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
       "sheetKey": "{person}: {color}"
+    },
+    "findTogether": {
+      "guidance": "Take turns. On your turn, turn over two cards to look for a pair. Find the pairs together.",
+      "sizeLegend": "How many cards",
+      "size": "{n} cards",
+      "viewLegend": "How to play",
+      "viewShowing": "Play with pictures showing",
+      "viewHidden": "Cards face down",
+      "people": ["First person", "Second person"],
+      "turn": "Turn: {person}",
+      "turnDone": "All the pairs are found.",
+      "tally": "Pairs found together: {n}",
+      "cardNamed": "{name}, card {n}",
+      "cardFaceDown": "Card {n}, face down",
+      "first": "{name}. Now turn over a second card.",
+      "found": "{name}: a pair, found together. Now it is the {next|lower}'s turn.",
+      "allTogether": "You found all the pairs together.",
+      "different": "{a} and {b} are different. Take your time, then press Turn them back.",
+      "waiting": "Press Turn them back when you are ready. Then the turn passes.",
+      "turnedBack": "Turned back. Now it is the {person|lower}'s turn.",
+      "passed": "Passing is fine. Now it is the {person|lower}'s turn.",
+      "turnBack": "Turn them back",
+      "pass": "Pass",
+      "playAgain": "Play again"
+    },
+    "drawingDuet": {
+    "guidance": "Take turns with one line each, then pass the pen. Anyone may pass. Nothing is sent anywhere. A picture leaves this page only if you save it.",
+    "people": ["First person", "Second person"],
+    "colorLegend": "{person}'s color",
+    "colors": ["Yellow", "Orange", "Green", "Purple"],
+    "turn": "{person}'s turn",
+    "penColor": "Pen color: {color}.",
+    "canvasLabel": "Shared drawing, {n} lines so far",
+    "canvasLabelOne": "Shared drawing, {n} line so far",
+    "keys": "Arrow keys move the pen dot on the drawing. Space puts the pen down or up.",
+    "penDown": "Pen down",
+    "penUp": "Pen up",
+    "pass": "Pass the pen",
+    "passed": "Passing is fine. Your turn, {person|lower}.",
+    "takeBack": "Take back my last line",
+    "tookBack": "The last line by the {person|lower} is taken back.",
+    "noLine": "There is no line by the {person|lower} to take back.",
+    "restarted": "The sheet is clear. The first person has the turn. Put it back if you did not mean to.",
+    "putBack": "Put it back",
+    "restored": "The lines are back as they were.",
+    "save": "Save picture",
+    "saved": "Your picture is ready. Use the download link to keep it on this device.",
+    "download": "Download drawing-duet.png",
+    "print": "Print the paper version",
+    "sheetTitle": "Drawing duet",
+    "paperRules": "Two people, one sheet, two pens. Take turns: one line or shape each, then pass the pen. Anyone may pass. There is no right picture."
+  },
+    "sortTogether": {
+      "guidance": "Tap a picture, then tap the basket it belongs in.",
+      "restart": "New pictures",
+      "themeLegend": "Theme",
+      "selected": "{name}. Now tap the basket it goes in.",
+      "pickFirst": "First tap a picture, then tap a basket.",
+      "hint": "The {name|lower} could go in \"{basket}\". Tap that basket to put it there.",
+      "placed": "The {name|lower} is in \"{basket}\".",
+      "sorted": "Everything is sorted. Look through the baskets together, or try another theme.",
+      "largerTargets": "Larger targets",
+      "largerOn": "Larger targets are on. Nothing has moved.",
+      "largerOff": "Larger targets are off. Nothing has moved.",
+      "largerOnNewRound": "Larger targets are on, with two baskets. Here are new pictures to sort.",
+      "basket": {
+        "one": "{basket} basket, {count} picture inside",
+        "other": "{basket} basket, {count} pictures inside"
+      }
     },
     "sortTogether": {
       "guidance": "Tap a picture, then tap the basket it belongs in.",

@@ -3149,3 +3149,426 @@
     color: #000;
   }
 }
+
+/* Decorate a card together (GAME-035): choices, and a preview of the card folded in half. Nothing here moves or counts. */
+.card-deco {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xl);
+  max-inline-size: 44rem;
+  margin-inline: auto;
+}
+.card-deco__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-inline-size: 0;
+}
+.card-deco__choices legend {
+  margin-block-end: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.card-deco__choice {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: 56px;
+  min-inline-size: 48px;
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  font-size: var(--text-md);
+  font-weight: 600;
+  cursor: pointer;
+}
+.card-deco__choice:has(input:checked) {
+  border-width: 3px;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  font-weight: 700;
+}
+.card-deco__choice input {
+  inline-size: 1.4rem;
+  block-size: 1.4rem;
+  margin: 0;
+  accent-color: var(--gm-on-surface);
+}
+.card-deco__preview {
+  margin: 0;
+}
+.card-deco__sheet {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  inline-size: min(100%, 36rem);
+  margin-inline: auto;
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  overflow: hidden;
+}
+.card-deco__panel {
+  position: relative;
+  aspect-ratio: 90 / 125;
+  display: grid;
+  place-items: center;
+}
+.card-deco__panel--front {
+  border-inline-start: 2px dashed var(--gm-outline);
+}
+.card-deco__art {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+.card-deco__line {
+  stroke-width: 0.4;
+  opacity: 0.35;
+}
+.card-deco__words {
+  position: relative;
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-sm) 14%;
+  font-size: clamp(1.1rem, 0.8rem + 2vw, 1.9rem);
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.card-deco__from {
+  position: absolute;
+  inset-inline-start: 24%;
+  inset-block-end: 17%;
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.card-deco__steps,
+.card-deco__rules {
+  margin: 0;
+  padding-inline-start: 1.5em;
+  font-size: var(--text-md);
+}
+.card-deco__steps li,
+.card-deco__rules li {
+  margin-block-end: var(--space-sm);
+}
+.card-deco__preview figcaption {
+  margin-block-start: var(--space-sm);
+  font-size: var(--text-md);
+}
+.card-deco__materials,
+.card-deco__pause {
+  font-size: var(--text-md);
+}
+.card-deco__rules-heading {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+}
+@media (forced-colors: active) {
+  .card-deco__art,
+  .card-deco__sheet {
+    border-color: CanvasText;
+    stroke: CanvasText;
+  }
+}
+
+/* The paper card: one page, a card of two halves (inside left, front right) folded along the dashed line. */
+@media print {
+  .sheet-paper__card {
+    display: grid;
+    grid-template-columns: 90mm 90mm;
+    inline-size: 180mm;
+    margin: 0 auto 4mm;
+    border: 0.4mm solid #000;
+    color: #000;
+  }
+  .sheet-paper__panel {
+    position: relative;
+    inline-size: 90mm;
+    block-size: 125mm;
+    background: #fff;
+  }
+  .sheet-paper__panel[hidden] {
+    display: none !important;
+  }
+  .sheet-paper__panel--front {
+    border-inline-start: 0.35mm dashed #000;
+  }
+  .sheet-paper__panel svg {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+  }
+  .sheet-paper__frame,
+  .sheet-paper__mark {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.6;
+  }
+  .sheet-paper__line {
+    stroke: #000;
+    stroke-width: 0.25;
+    stroke-opacity: 0.4;
+  }
+  .sheet-paper__words {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 14mm 8mm;
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    color: #000;
+  }
+  .sheet-paper__from {
+    position: absolute;
+    inset-inline-start: 22mm;
+    inset-block-end: 19mm;
+    margin: 0;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__card-rules {
+    margin: 2mm 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 9pt;
+    line-height: 1.3;
+    color: #000;
+  }
+}
+
+
+/* Find together (GAME-047): the turn with a shape and words, and the shared tally. Cards reuse the picture tiles. */
+.ft {
+  display: grid;
+  gap: var(--space-md);
+}
+.ft__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+/* Whose turn it is also shows as an inner border, not by color alone. */
+.ft__turn[data-turn] {
+  border-color: var(--gm-on-surface);
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+.ft__turn-line {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.ft__marker {
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--gm-on-surface);
+  background: var(--gm-primary);
+}
+.ft__marker[data-shape='circle'] {
+  border-radius: 50%;
+}
+.ft__marker[data-shape='square'] {
+  border-radius: var(--radius-sm);
+}
+.ft__tally {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/* Drawing duet (GAME-032): one canvas, two people, turns, a color each. The page's style policy blocks style
+   attributes, so each color is chosen by `data-tone` here; drawing-duet.test.ts checks these hex values against
+   the palette in src/data/pattern-maker.ts. touch-action is none on the canvas only. */
+.dd [data-tone='0'] {
+  --dd-fill: #f7e98e;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='1'] {
+  --dd-fill: #e69f00;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='2'] {
+  --dd-fill: #009e73;
+  --dd-ink: #16231d;
+}
+.dd [data-tone='3'] {
+  --dd-fill: #7b3f98;
+  --dd-ink: #ffffff;
+}
+.dd {
+  display: grid;
+  gap: var(--space-lg);
+}
+.dd__players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: var(--space-md);
+}
+.dd__player {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+/* Whose turn it is also has an inner border, so the turn is not told by color alone. */
+.dd__player[data-turn='yes'] {
+  border-color: var(--gm-on-surface);
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+.dd__legend {
+  padding: 0 var(--space-xs);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.dd__picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+}
+.dd__pick {
+  position: relative;
+  display: flex;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.dd__pick input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.dd__face {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  min-block-size: 56px;
+  padding: 6px var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.dd__pick:hover .dd__face {
+  border-color: var(--gm-primary);
+}
+.dd__pick input:checked + .dd__face {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}
+.dd__pick input:focus-visible + .dd__face {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.dd__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--dd-fill, var(--gm-surface));
+  color: var(--dd-ink, var(--gm-on-surface));
+  forced-color-adjust: none;
+}
+/* The turn banner: always visible, with the person, the color's name and its shape. */
+.dd__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.dd__turn-line,
+.dd__turn-color {
+  margin: 0;
+}
+.dd__turn-line {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.dd__turn-color {
+  font-size: var(--text-md);
+}
+.dd__board {
+  padding: var(--space-xs);
+}
+.dd__canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  touch-action: none;
+  cursor: crosshair;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.dd__canvas:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.dd__keys {
+  margin: 0;
+  font-size: var(--text-md);
+}
+@media print {
+  .dd-sheet,
+  .dd-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .dd-sheet__rules {
+    margin: 0 0 6mm;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .dd-sheet__frame {
+    inline-size: 100%;
+    max-inline-size: 170mm;
+    aspect-ratio: 4 / 3;
+    border: 3px solid #000;
+  }
+}

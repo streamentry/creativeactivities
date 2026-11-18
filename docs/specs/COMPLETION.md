@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 193 | 150 | 407 |
+| S2 | 64 | 196 | 147 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **233** | **223** | **533** |
+| **All** | **77** | **236** | **220** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -283,6 +283,18 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | Game page "Seated toss tally" at `/games/seated-toss/` (English only, built by a subagent, checked by me): two people at a table toss a small bag into a large target and keep the tally on paper. The page opens with a safety block that is always shown (small parts, mouths, an adult within reach, the pause line) built from the site's own safety labels, a short how-to, and a one-page print sheet with a three-ring target whose rings are named in words and a plain tally table with no total row; no on-screen scoring, timer, miss count or winner wording | GAME-049 → partial (the safety wording and the ring order have had no reviewer; nobody has tried it with a real bag; English only) | vitest 4,049 pass; `tsc` clean; build 16,544 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 19 of 19, one page on A4 and Letter; `check:capacity` 17,297 files (86.5%); `check:a11y` 0 failing of 179 (agent's run) |
 
+### Batch 35 (2026-11-18)
+
+Three games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. All three are English only and print or play with no score, timer, winner or count of misses.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Drawing duet" at `/games/drawing-duet/`: one canvas, two people, each with one of the four Color by number colors named in words and shapes (orange and purple to start); a banner always shows whose turn it is and the pen color by name; draw with a finger, mouse or pen, or with the arrow keys and Space; Pass the pen, Take back my last line (only the current person's own line), Start again with a one-step Put it back, Save picture (a PNG made on the device, nothing sent) and a one-page paper version with the rules on the sheet | GAME-032 → partial (not tried with real pairs, children or with a tremor; a person may still choose yellow, which is faint as a line; keyboard drawing not tried with a screen reader or switch; English only) | Browser at 390 px: a drag drew an orange line, Pass gave the turn to the second person in purple, Take back left the first person's line in place |
+| Game page "Decorate a card together" at `/games/decorate-a-card/`: five occasions (no religious or health occasions), a preview, five steps and a one-page sheet that folds in half, with the occasion words in an outline frame on the front and message lines and From on the back; the rules for two print on the sheet; crayons, pencils or pens only | GAME-035 → partial (not tried by real pairs or in a care setting; occasion names not reviewed; English only) | Review fixes: the agent's copy said the message goes "inside", which a one-sided sheet cannot do once folded, now "the back"; a "safe to use at a table" claim removed; the preview scrolled sideways at 390 px (`check:a11y`), fixed by letting the grid and the fieldset shrink |
+| Game "Find together" at `/games/find-together/`: 6, 8 or 12 Picture pairs cards, pictures showing to start (as Picture pairs does) or face down; turns of two cards; two different cards stay face up until "Turn them back"; Pass at any time; one shared tally "Pairs found together" that only counts up | GAME-047 → partial (not tried with real pairs or a carer and a child; English only) | Review fixes: the agent started face down, changed to pictures showing (AGENTS.md visible-picture play); `check:images` found the card pictures had no width or height, added |
+
+Checks on the integrated branch: vitest 129 files, 4,162 pass (1 skipped); `tsc` clean; build 16,547 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 21 of 21, both new sheets one page on A4 and Letter; `check:capacity` 86.5%; `check:a11y` 0 failing of 185 (25 games at two widths); Python 121 tests and `release_metadata.py --check` pass. Share images for the three games made with `make-images.py` and checked by eye (one subtitle shortened so it is not cut off).
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -313,5 +325,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data (for example GAME-022 Four together, GAME-029 Singing sheets, GAME-059 Spot the difference), each with the site's game rules: no score, no timer, Rest always visible.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-040 Seasonal puzzle pack and GAME-060 Quiet shapes puzzle, then GAME-038 Color wash and GAME-033 Collage board. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).
