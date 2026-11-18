@@ -2256,6 +2256,198 @@
   font-weight: 700;
 }
 
+/* Group coloring wall (GAME-052): choices, the page grid over the picture, and the steps on screen. Line widths
+   are set as attributes in ColoringWall.tsx, so these rules only set colors and fills. */
+.cw-game {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xl);
+  max-inline-size: 44rem;
+  margin-inline: auto;
+}
+.cw__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-inline-size: 0;
+}
+.cw__choices legend {
+  margin-block-end: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.cw__choice {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: 56px;
+  min-inline-size: 48px;
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  font-size: var(--text-md);
+  font-weight: 600;
+  cursor: pointer;
+}
+.cw__choice:has(input:checked) {
+  border-width: 3px;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  font-weight: 700;
+}
+.cw__choice input {
+  inline-size: 1.4rem;
+  block-size: 1.4rem;
+  margin: 0;
+  accent-color: var(--gm-on-surface);
+}
+.cw__preview {
+  margin: 0;
+}
+.cw__preview figcaption,
+.cw__note,
+.cw__pause,
+.cw__steps {
+  font-size: var(--text-md);
+}
+.cw__note,
+.cw__pause {
+  margin: 0;
+}
+.cw__art {
+  display: block;
+  inline-size: min(100%, 26rem);
+  block-size: auto;
+  aspect-ratio: 1;
+  margin-inline: auto;
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.cw-art__region {
+  fill: var(--gm-surface);
+  stroke: var(--gm-on-surface);
+  stroke-linejoin: round;
+}
+.cw-art__line {
+  fill: none;
+  stroke: var(--gm-on-surface);
+  stroke-linecap: round;
+}
+.cw__cut {
+  fill: none;
+  stroke: var(--gm-on-surface);
+  stroke-width: 2;
+  stroke-dasharray: 8 6;
+}
+.cw__chip {
+  fill: var(--gm-surface-raised);
+  stroke: var(--gm-on-surface);
+  stroke-width: 1.5;
+}
+.cw__chip-label {
+  fill: var(--gm-on-surface);
+  font-size: 20px;
+  font-weight: 700;
+}
+.cw-map {
+  display: block;
+  inline-size: min(100%, 14rem);
+  block-size: auto;
+  margin: 0 auto var(--space-md);
+}
+.cw-map__cell {
+  fill: var(--gm-surface-raised);
+  stroke: var(--gm-on-surface);
+  stroke-width: 1.5;
+}
+.cw-map__label {
+  fill: var(--gm-on-surface);
+  font-size: 7px;
+  font-weight: 700;
+}
+.cw__steps {
+  margin: 0;
+  padding-inline-start: 1.5em;
+}
+
+/* Printed wall: a first page of steps and a map, then one page per section, each a fixed box in mm (set inline). */
+@media print {
+  .cw-sheet .cw-howto {
+    break-after: page;
+    page-break-after: always;
+  }
+  .cw-howto__line,
+  .cw-howto__steps,
+  .cw-howto__edge {
+    font-size: 13pt;
+    color: #000;
+  }
+  .cw-howto__line,
+  .cw-howto__edge {
+    margin: 0 0 4mm;
+  }
+  .cw-howto__steps {
+    margin: 0 0 4mm;
+    padding-inline-start: 7mm;
+  }
+  .cw-sheet .cw-howto .cw-map {
+    inline-size: 80mm;
+    margin: 0 0 6mm;
+  }
+  .cw-sheet .cw-map__cell {
+    fill: #fff;
+    stroke: #000;
+  }
+  .cw-sheet .cw-map__label {
+    fill: #000;
+  }
+  .cw-page {
+    position: relative;
+    margin: 0;
+    break-after: page;
+    page-break-after: always;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .cw-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+  .cw-page__art {
+    display: block;
+  }
+  .cw-sheet .cw-art__region {
+    fill: #fff;
+    stroke: #000;
+  }
+  .cw-sheet .cw-art__line {
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+  }
+  .cw-page__edge {
+    fill: none;
+    stroke: #000;
+  }
+  .cw-page__label {
+    position: absolute;
+    inset-block-start: 2mm;
+    inset-inline-start: 2mm;
+    padding: 0 2mm;
+    border: 1.5px solid #000;
+    background: #fff;
+    color: #000;
+    font-size: 16pt;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+}
+
 /* Printable sheets: hidden on screen, laid out for paper */
 .sheet {
   display: none;
@@ -4325,6 +4517,172 @@
 .cb__chosen {
   font-size: var(--text-sm);
   font-weight: 700;
+}
+
+/* Garden planner (GAME-041). Twelve beds, four across and three down (three across on a narrow screen). Nothing moves:
+   the only transitions are shadows. */
+.gp {
+  display: grid;
+  gap: var(--space-lg);
+}
+.gp__beds {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-sm);
+  max-inline-size: 760px;
+  margin-inline: auto;
+  width: 100%;
+}
+@media (max-width: 440px) {
+  .gp__beds {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.gp__bed {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-inline-size: 64px;
+  min-block-size: 64px;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.gp__bed[data-state='filled'] {
+  border-style: solid;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface-raised);
+}
+.gp__bed:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.gp__bed:focus-visible,
+.gp__pick:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.gp__bed img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+}
+.gp__no {
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.gp__summary h2,
+.gp__tray-section h2 {
+  margin: 0 0 var(--space-xs);
+  font-size: var(--text-lg);
+}
+.gp__summary p,
+.gp__notice {
+  margin: 0;
+  font-size: var(--text-md);
+}
+.gp__tray {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.gp__pick {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  inline-size: 100%;
+  min-block-size: 48px;
+  padding: var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  cursor: pointer;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.gp__pick img {
+  inline-size: 96px;
+  block-size: 96px;
+}
+.gp__pick:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.gp__pick[data-chosen='yes'] {
+  border: 3px solid var(--gm-on-surface);
+  background: var(--gm-primary-container);
+}
+.gp__pick-name {
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-align: center;
+}
+.gp__chosen {
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+/* The paper version: the twelve beds in four columns of 40 mm, the summary, and five lines for notes. It is one page on
+   A4 and US Letter. The rules are scoped to .gp-sheet so no other sheet's image rule can reach them. */
+@media print {
+  .gp-sheet,
+  .gp-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #000;
+  }
+  .gp-sheet h2 {
+    margin: 0 0 3mm;
+  }
+  .gp-sheet__summary,
+  .gp-sheet__how,
+  .gp-sheet__notice,
+  .gp-sheet__pause {
+    margin: 0 0 3mm;
+    font-size: 12pt;
+  }
+  .gp-sheet .gp-sheet__beds {
+    display: grid;
+    grid-template-columns: repeat(4, 34mm);
+    gap: 4mm;
+    margin: 0 0 4mm;
+  }
+  .gp-sheet .gp-sheet__bed {
+    display: block;
+    inline-size: 34mm;
+    block-size: 34mm;
+    border: 0.6mm solid #000;
+    background: #fff;
+    overflow: hidden;
+  }
+  .gp-sheet .gp-sheet__bed img {
+    display: block;
+    inline-size: 30mm;
+    block-size: 30mm;
+    margin: 1.5mm;
+    object-fit: contain;
+  }
+  .gp-sheet .gp-sheet__notes {
+    margin: 0 0 1mm;
+    font-size: 14pt;
+  }
+  .gp-sheet .gp-sheet__line {
+    display: block;
+    block-size: 6mm;
+    border-block-end: 0.3mm solid #000;
+  }
+  .gp-sheet .gp-sheet__pause {
+    font-size: 10pt;
+  }
 }
 
 /* The paper version: twelve boxes on top and the eight cut-outs below, all at the same 24 mm size.

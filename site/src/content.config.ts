@@ -38,6 +38,8 @@ export const GAME_SLUGS = [
   'quiet-shapes',
   'color-wash',
   'collage-board',
+  'garden-planner',
+  'coloring-wall',
 ] as const;
 
 const guideSchema = z.object({

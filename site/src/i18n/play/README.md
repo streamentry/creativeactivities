@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 29 browser games read their words from here. The mobile app's exporter also
+The 31 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -57,6 +57,8 @@ member or carer. Write plain, warm, adult language.
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
 | `ui.quietShapes` | About 40 strings, 6 picture names, 5 piece names and 5 shape descriptions | Quiet shapes puzzle (English only for now; GAME-060) |
 | `ui.collageBoard` | 31 strings, 2 names of the people and 2 mark names | Collage board (English only for now; GAME-033) |
+| `ui.gardenPlanner` | 25 strings; the singular and plural picture names are in `src/data/garden-planner.ts` | Garden planner (English only for now; GAME-041) |
+| `ui.coloringWall` | 17 strings, 3 size names, 5 steps (the picture names are `content.coloring`) | Group coloring wall (English only for now; GAME-052) |
 | `ui.seasonalPack` | 11 strings + 4 season names + 3 puzzles (title, how, describe) | Seasonal puzzle pack (English only for now; see below) |
 | `ui.drawingDuet` | 24 strings + 2 names of the people + 4 color names | Drawing duet (English only for now; see below) |
 | `ui.colorWash` | 12 strings + 4 color names + 2 brush names | Color wash (English only for now; see below) |
@@ -416,6 +418,17 @@ the layout mirrors; the picture puzzle stays left to right on purpose. Write
 Arabic text normally; do not add direction marks unless a mixed-direction
 string displays wrongly.
 
+### Garden planner (`ui.gardenPlanner`)
+
+Garden planner is English only for now (GAME-041). A person chooses a picture from a
+tray of plants and garden things, then taps one of twelve beds to put it there. It
+has one guidance line (also printed on its paper version). The summary is built from
+`summary` ("Your plan has {list}."), `and` (the joining word) and the English singular
+and plural picture names in `src/data/garden-planner.ts`, which a translation would
+need to replace with its own counting. `summaryNone` says that no bed is planted yet.
+The paper version prints `sheetTitle`, `sheetHow`, `sheetNotes` and `notice`, which
+says it is a picture plan, not planting advice. Nothing here scores, times or ends the game.
+
 ### Collage board (`ui.collageBoard`)
 
 Collage board is English only for now (GAME-033). Two people take turns placing a
@@ -433,3 +446,19 @@ taken back or the board started again. Nothing here scores, counts or ends the g
 The paper version prints `sheetTitle`, `sheetHow` (the cutting line, which names an
 adult) and `sheetTray`, beside the sharp-tool safety label from the activity
 safety list.
+
+### Group coloring wall (`ui.coloringWall`)
+
+Group coloring wall is English only for now (GAME-052). One picture from the
+Coloring game is printed across 4, 6 or 9 pages. It has one guidance line (also
+printed on its paper version, and it says that nothing is timed, scored or
+saved), the picture and size legends, and three size names (`sizes`, keyed `2x2`,
+`3x2` and `3x3`). `previewLabel` is the accessible description of the on-screen
+picture with its page lines; `{picture|lower}` puts the picture name in a
+sentence, and the picture names come from `content.coloring`. `steps` is the list
+of five steps, and `wallHeading` is the heading for both the steps on screen and
+the first printed page. `mapLabel`, `pictureLine` and `edgeNote` are the words on
+the map and the printed first page; `labelsNote` says that letters run down the
+wall and numbers across it. The paper version has no scissors step: the pages are
+laid edge to edge along the dashed line, or overlapped, and joined with tape on
+the back.

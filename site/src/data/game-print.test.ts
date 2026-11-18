@@ -38,11 +38,13 @@ const COMPONENT: Record<string, string> = {
   'calm-breathing': 'CalmBreathing',
   'quiet-shapes': 'QuietShapes',
   'collage-board': 'CollageBoard',
+  'garden-planner': 'GardenPlanner',
+  'coloring-wall': 'ColoringWall',
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 29 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(29);
+  it('covers all 31 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(31);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];

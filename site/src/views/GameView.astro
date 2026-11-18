@@ -39,6 +39,8 @@ import DrawingDuet from '../games/DrawingDuet';
 import SeatedToss from '../games/SeatedToss';
 import QuietShapes from '../games/QuietShapes';
 import CollageBoard from '../games/CollageBoard';
+import GardenPlanner from '../games/GardenPlanner';
+import ColoringWall from '../games/ColoringWall';
 import DecorateACard from '../games/DecorateACard';
 import SeasonalPack from '../games/SeasonalPack';
 import StoryChain from '../games/StoryChain';
@@ -161,6 +163,8 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'quiet-shapes' && <QuietShapes client:load {...play} />}
       {s === 'color-wash' && <ColorWash client:load {...play} />}
       {s === 'collage-board' && <CollageBoard client:load {...play} />}
+      {s === 'garden-planner' && <GardenPlanner client:load {...play} />}
+      {s === 'coloring-wall' && <ColoringWall client:load {...play} />}
     </div>
 
     {

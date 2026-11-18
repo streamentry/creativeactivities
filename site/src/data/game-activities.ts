@@ -35,4 +35,6 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'quiet-shapes': ['tear-paper-mosaic', 'draw-a-slow-line-pattern'],
   'color-wash': ['paint-with-watercolors', 'paint-a-garden-stone'],
   'collage-board': ['make-a-color-collage', 'tear-paper-mosaic'],
+  'garden-planner': ['arrange-flowers-together', 'plant-seeds-in-a-pot'],
+  'coloring-wall': ['paint-a-shared-picture', 'paint-with-watercolors'],
 };

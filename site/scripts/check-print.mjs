@@ -35,7 +35,7 @@ const WEEKLY_PROGRAM_PAGES = 2;
  * A game's paper version is one page (WEB-052), except the sets of cards to cut out. Bingo cards are drawn at random each time
  * the page loads, so its set runs from 8 to 9 pages and the limit leaves one more.
  */
-export const GAME_SHEET_PAGES = { 'conversation-cards': 6, 'picture-bingo': 10 };
+export const GAME_SHEET_PAGES = { 'conversation-cards': 6, 'picture-bingo': 10, 'coloring-wall': 10 };
 // A four-week path (WEB-032) prints on at most this many pages (two pages are one sheet printed on both sides), with its
 // buttons and counts left off the paper and its addresses and version line on it.
 const PATH_PAGES = 2;
