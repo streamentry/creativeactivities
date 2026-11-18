@@ -80,10 +80,22 @@ export const DRAWING_DUET_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const SEATED_TOSS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Seasonal puzzle pack is offered. Its season names, puzzle titles and lines are English only
+ * until a native speaker has checked them (GAME-040), so it has its own list.
+ */
+export const SEASONAL_PACK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Decorate a card together is offered. Its occasion names, steps and safety wording are English
  * only until a native speaker has checked them (GAME-035), so it has its own list.
  */
 export const DECORATE_A_CARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Quiet shapes puzzle is offered. Its six picture names, piece names, messages and the paper
+ * wording are English only until a native speaker has checked them (GAME-060), so it has its own list.
+ */
+export const QUIET_SHAPES_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
  * Languages where Story dice is offered. It needs no picture names to play,
@@ -130,7 +142,9 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'find-together') return FIND_TOGETHER_REVIEWED.includes(code);
   if (slug === 'drawing-duet') return DRAWING_DUET_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
+  if (slug === 'quiet-shapes') return QUIET_SHAPES_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
+  if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);

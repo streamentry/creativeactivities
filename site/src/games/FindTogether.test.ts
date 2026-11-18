@@ -75,7 +75,8 @@ describe('FindTogether', () => {
   });
 
   it('says nothing negative or competitive, and nothing about a winner, time or score', () => {
-    const text = JSON.stringify(t) + render();
+    // Card names and picture files come from the picture set (one is "Mantel clock"), so the dealt cards' labels and picture paths (img and preload links) are left out.
+    const text = JSON.stringify(t) + render().replace(/aria-label="[^"]*, card \d+"/g, '').replace(/\/pictures\/[^"]+/g, '');
 
     expect(text).not.toMatch(/score|timer|clock|streak|miss|wrong|incorrect|fail|mistake|try again|correct|attempt/i);
     expect(text).not.toMatch(/\b(win|wins|winner|won|lose|lost|loser|remaining|points?|best|better|faster|slower|hurry)\b/i);

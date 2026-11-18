@@ -42,6 +42,7 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'drawing-duet': { kind: 'island', version: '2026-11-18' },
   'seated-toss': { kind: 'page', version: '2026-11-18' },
   'decorate-a-card': { kind: 'page', version: '2026-11-18' },
+  'seasonal-pack': { kind: 'page', version: '2026-11-18' },
   'story-chain': { kind: 'page', version: '2026-11-17' },
   'story-dice': { kind: 'page', version: '2026-11-17' },
   'sort-together': { kind: 'page', version: '2026-11-15' },
@@ -53,6 +54,7 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'photo-pairs': { kind: 'none', reason: 'photos' },
   'picture-bingo': { kind: 'island', version: '2026-11-15' },
   'calm-breathing': { kind: 'none', reason: 'paced' },
+  'quiet-shapes': { kind: 'island', version: '2026-11-18' },
 };
 
 /** Whether a game has a paper version (built in or rendered by the page). */
@@ -80,6 +82,7 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'drawing-duet': ['drawingDuet', 'guidance'],
   'seated-toss': ['seatedToss', 'guidance'],
   'decorate-a-card': ['decorateACard', 'guidance'],
+  'seasonal-pack': ['seasonalPack', 'guidance'],
   'story-chain': ['storyChain', 'guidance'],
   'story-dice': ['storyDice', 'guidance'],
   'sort-together': ['sortTogether', 'guidance'],
@@ -91,6 +94,7 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'photo-pairs': ['photoPairs', 'guidance'],
   'picture-bingo': ['pictureBingo', 'guidance'],
   'calm-breathing': ['calmBreathing', 'guidance'],
+  'quiet-shapes': ['quietShapes', 'guidance'],
 };
 
 /** The one-line rules text, identical on the game and on its paper version. */
