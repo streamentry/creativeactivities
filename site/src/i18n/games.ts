@@ -119,6 +119,12 @@ export const COLLAGE_BOARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const SCRAPBOOK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Picnic planner is offered. Its summary words, its messages, its checklist wording and its picture
+ * phrases are English only until a native speaker has checked them (GAME-043), so it has its own list.
+ */
+export const PICNIC_PLANNER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Garden planner is offered. Its summary words, its messages and its plural picture names are English
  * only until a native speaker has checked them (GAME-041), so it has its own list.
  */
@@ -149,6 +155,12 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
 }
 
 /**
+ * Languages where Quiet scene is offered. It is one picture and a few short lines, English only until a
+ * native speaker has checked them (GAME-039), so it has its own list.
+ */
+export const QUIET_SCENE_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Whether a game is offered in `code`. Word search needs a suitable letter grid
  * and enough translated words to fill every theme, while Finish the saying needs
  * 30 genuine sayings. A language leaves an unsupported game out entirely (no
@@ -175,6 +187,8 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'garden-planner') return GARDEN_PLANNER_REVIEWED.includes(code);
   if (slug === 'coloring-wall') return COLORING_WALL_REVIEWED.includes(code);
   if (slug === 'scrapbook') return SCRAPBOOK_REVIEWED.includes(code);
+  if (slug === 'picnic-planner') return PICNIC_PLANNER_REVIEWED.includes(code);
+  if (slug === 'quiet-scene') return QUIET_SCENE_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);

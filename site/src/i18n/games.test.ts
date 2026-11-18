@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { BUILD_TOGETHER_REVIEWED, COLLAGE_BOARD_REVIEWED, COLORING_WALL_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, COLOR_WASH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, GARDEN_PLANNER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, QUIET_SHAPES_REVIEWED, SCRAPBOOK_REVIEWED, SEASONAL_PACK_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLLAGE_BOARD_REVIEWED, COLORING_WALL_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, COLOR_WASH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, GARDEN_PLANNER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, PICNIC_PLANNER_REVIEWED, QUIET_SHAPES_REVIEWED, SCRAPBOOK_REVIEWED, SEASONAL_PACK_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -21,6 +21,11 @@ describe('which games a language offers', () => {
 
   it('still leaves the word search out where a letter grid does not suit the script', () => {
     for (const code of NO_LETTER_GRID) expect(gameAvailable('word-search', code), code).toBe(false);
+  });
+
+  it('offers Picnic planner in English only until its words are reviewed', () => {
+    expect(PICNIC_PLANNER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('picnic-planner', code), code).toBe(code === 'en');
   });
 
   it('offers Scrapbook in English only until its words are reviewed', () => {
@@ -71,6 +76,10 @@ describe('which games a language offers', () => {
   it('offers Color wash in English only until its words are reviewed', () => {
     expect(COLOR_WASH_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('color-wash', code), code).toBe(code === 'en');
+  });
+
+  it('offers Quiet scene in English only until its words are reviewed', () => {
+    for (const { code } of LOCALES) expect(gameAvailable('quiet-scene', code), code).toBe(code === 'en');
   });
 
   it('offers Drawing duet in English only until its words are reviewed', () => {

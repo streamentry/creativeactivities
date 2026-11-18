@@ -41,6 +41,8 @@ export const GAME_SLUGS = [
   'garden-planner',
   'coloring-wall',
   'scrapbook',
+  'picnic-planner',
+  'quiet-scene',
 ] as const;
 
 const guideSchema = z.object({
