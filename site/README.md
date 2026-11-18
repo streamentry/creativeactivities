@@ -38,7 +38,7 @@ pnpm check:visual compare --before <scratch>/before --after <scratch>/after --ou
 
 `report/report.md` lists changed, size-changed and one-sided files; `report/diff/`
 holds a red-on-faded diff for each changed image. The compare always exits 0: the
-pull request reviewer decides. Shots are deterministic (fixed clock and timezone,
+pull request reviewer decides. Shots are deterministic (fixed clock and time zone,
 animations off, font hinting off, random game boards masked), so two runs of the
 same build should report 0 changed.
 
