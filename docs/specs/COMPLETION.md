@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 236 | 105 | 407 |
+| S2 | 66 | 238 | 103 | 407 |
 | S3 | 2 | 16 | 57 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **280** | **173** | **533** |
+| **All** | **80** | **282** | **171** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -435,6 +435,12 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | --- | --- | --- |
 | Word and picture pairs at `/games/word-and-picture-pairs/`, English only: 4 or 6 pictures in view with their words in another order, Read aloud for each word, quiet clearing of a tap that does not match, New pictures, Start again with Put it back, and a one-page print sheet | GAME-023 → partial | Built by a Haiku subagent. Review: the picture pool was judged on ids, so it was checked against the names players actually see (all 41 read one way); the share image cut the short line mid-phrase ("hear the word read") and the line was shortened; checked in the browser in the dark theme with 6 pictures. Not tried with adults learning English |
 | Session plans for care homes and day centers at `/for-organizations/care-settings/` (`noindex`): 10, 20 and 30 minute plans from existing cards, a staff summary per plan, a family note with no resident data and a permission template the organization keeps; the build fails if a linked card is missing, withdrawn, has no group version or does not fit its plan length | CNT-014 → partial (adult pilot only) | Built by a Haiku subagent. Review swapped the 20-minute "family tree of hands" for "Arrange flowers together": a family tree leaves out residents with no family nearby (the L10N-015 register). Clean-up time says "Check the card" because no card records it. Needs a care-setting reviewer before it is indexed |
+### Batch 49 (2026-11-19): localization registers
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| [Cultural adaptation register](global/cultural-adaptation-register.md): 21 rows, one per known point in the native review guide plus a Ukrainian men's-guide row found on the way, each with its file and line, the English counterpart and a proposal (keep, change, remove or reviewer to choose); "Decided by" empty everywhere | L10N-012 → partial | Drafted by a Haiku subagent from the repository only. Six citations spot-checked against the files (Italian chrysanthemum caption, German informal quoted line, Japanese uniformed-work row, Thai rating word, Arabic arrow, Spanish trivia row): all correct. Three points could not be tied to one file (Arabic layout is a run-time check; the Ukrainian source language is not recorded; the Thai store label key) and say so |
+| [Family terms register](global/family-terms-register.md): English source audit of 22 family and age words, legitimate uses separated from example scripts that assume one family; forms of address for German, Spanish, French, Italian, Ukrainian, Russian and Arabic | L10N-015 → partial | Same agent. Review found the scope note wrongly said the game and play strings had no English file; they were searched (three hits, all legitimate) and the note corrected. No "patient" or "sufferer" for the older person. Changing the example scripts and choosing each form of address wait for the maintainer and reviewers |
 
 ## What blocks the rest
 
