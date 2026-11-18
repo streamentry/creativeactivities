@@ -14,7 +14,7 @@ export interface CarePlan {
 
 export const CARE_PLANS: readonly CarePlan[] = [
   { minutes: 10, cards: ['hold-a-sing-along-at-home', 'match-colors-to-a-tune', 'fold-a-paper-boat'] },
-  { minutes: 20, cards: ['make-a-family-tree-of-hands', 'make-a-greeting-card'] },
+  { minutes: 20, cards: ['arrange-flowers-together', 'make-a-greeting-card'] },
   { minutes: 30, cards: ['paint-a-shared-picture', 'make-a-festival-decoration'] },
 ];
 
