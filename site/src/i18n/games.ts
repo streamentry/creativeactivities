@@ -68,6 +68,12 @@ export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const SEATED_TOSS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Decorate a card together is offered. Its occasion names, steps and safety wording are English
+ * only until a native speaker has checked them (GAME-035), so it has its own list.
+ */
+export const DECORATE_A_CARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Story dice is offered. It needs no picture names to play,
  * but its page text and prompts are English only until a native speaker has
  * reviewed them (GAME-025), so it has its own list.
@@ -110,6 +116,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
   if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
+  if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);

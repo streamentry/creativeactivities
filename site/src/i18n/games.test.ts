@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, DECORATE_A_CARD_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -66,6 +66,11 @@ describe('which games a language offers', () => {
   it('offers Seated toss tally in English only for now', () => {
     expect(SEATED_TOSS_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('seated-toss', code), code).toBe(code === 'en');
+  });
+
+  it('offers Decorate a card together in English only for now', () => {
+    expect(DECORATE_A_CARD_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('decorate-a-card', code), code).toBe(code === 'en');
   });
 
   it('offers Story dice in English only for now', () => {
