@@ -9,6 +9,7 @@ import { colorRoundFor } from './color-match';
 import { HALVES_PRINT_COUNT, createHalvesRound } from './halves-match';
 import { createOddRound } from './odd-one-out';
 import { DICE_POOL } from './story-dice';
+import { WORD_PICTURE_POOL, WORD_PRINT_COUNT, wordOrderFor } from './word-picture';
 import { createRng, sample, shuffle, type Rng } from './random';
 import { SHADOW_IDS, createShadowRound } from './shadow';
 import { createSort } from './sorting';
@@ -59,6 +60,8 @@ export type PrintSheet =
   | { layout: 'chain'; pictures: string[] }
   /** Halves match: the left halves top to bottom, and the right halves in another order, to join with a line. */
   | { layout: 'halves'; pictures: string[]; rightOrder: string[] }
+  /** Word and picture pairs (GAME-023): the pictures, and their words in another order, to cut out or join with a line. */
+  | { layout: 'words'; pictures: string[]; words: string[] }
   /** Color by number: the numbers of one picture, row by row, to color with pencils from the key of four colors. */
   | { layout: 'grid'; size: GridSize; picture: string; rows: ColorNumber[][] }
   /** Seated toss tally: a large target of named rings, and a table of empty boxes to tick, a column for each of two people. */
@@ -157,6 +160,10 @@ export function printSheet(slug: string): PrintSheet | null {
       for (let i = 0; i < ROWS; i++) rows.push({ choices: pool.slice(i * 4, i * 4 + 4) });
       return { layout: 'rows', rows, shadow: false, dice: true };
     }
+    case 'word-and-picture-pairs': {
+      const pictures = sample(WORD_PICTURE_POOL, WORD_PRINT_COUNT, rng);
+      return { layout: 'words', pictures, words: wordOrderFor(pictures, rng) };
+    }
     case 'sort-together': {
       const ids = (category: 'kitchen' | 'garden') => picturesIn(category).map((p) => p.id);
       const state = createSort(ids('kitchen'), ids('garden'), 4, rng);
@@ -177,6 +184,8 @@ export function sheetPictures(sheet: PrintSheet): string[] {
     case 'chain':
       return sheet.pictures;
     case 'halves':
+      return sheet.pictures;
+    case 'words':
       return sheet.pictures;
     case 'grid':
     case 'toss':

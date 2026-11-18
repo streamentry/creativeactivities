@@ -97,6 +97,24 @@ const cardLines = messageLineYs();
     )
   }
   {
+    sheet.layout === 'words' && (
+      <div class="sheet-paper__pairs">
+        <div class="sheet-paper__pairs-pictures">
+          {sheet.pictures.map((id) => (
+            <figure>
+              <img src={pictureUrl(id)} alt="" width="120" height="120" />
+            </figure>
+          ))}
+        </div>
+        <ul class="sheet-paper__pairs-words">
+          {sheet.words.map((id) => (
+            <li>{name(id)}</li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+  {
     sheet.layout === 'halves' && (
       <div class="sheet-paper__halves">
         <div class="sheet-paper__halves-column">

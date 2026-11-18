@@ -23,6 +23,7 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'seasonal-pack': ['plant-seeds-in-a-pot', 'make-leaf-rubbings'],
   'story-chain': ['make-a-memory-collage', 'make-a-paper-chain-garland'],
   'story-dice': ['make-a-memory-collage', 'start-a-family-recipe-book'],
+  'word-and-picture-pairs': ['make-a-button-picture', 'sketch-what-is-on-the-table'],
   'sort-together': ['make-a-button-picture', 'arrange-flowers-together'],
   'picture-puzzle': ['tear-paper-mosaic', 'weave-paper-strips'],
   'finish-the-saying': ['make-a-personal-songbook', 'start-a-family-recipe-book'],
