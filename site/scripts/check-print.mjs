@@ -150,6 +150,11 @@ async function printedPages(page) {
 }
 
 /** The games that have a paper version, from the table in src/data/game-print.ts: `{ slug, kind }` for kind page or island. */
+/** How many `.sheet` elements are shown with some height when the page is printed (call after emulating print). */
+async function visibleSheets(page) {
+  return page.evaluate(() => [...document.querySelectorAll('.sheet')].filter((e) => getComputedStyle(e).display !== 'none' && e.getBoundingClientRect().height > 100).length);
+}
+
 export function gamesWithPaper() {
   const source = readFileSync(new URL('../src/data/game-print.ts', import.meta.url), 'utf8');
   return [...source.matchAll(/^\s*'?([a-z-]+)'?:\s*\{\s*kind:\s*'(page|island|none)'/gm)].filter((m) => m[2] !== 'none').map((m) => ({ slug: m[1], kind: m[2] }));
@@ -297,10 +302,12 @@ async function main() {
       const counts = await printedPages(page);
       const stepPt = minStepPt ? await stepSize(page) : null;
       const sameWords = !sameStepsAs || JSON.stringify(await stepTexts(page)) === JSON.stringify(sameStepsAs);
-      const ok = FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages) && (!minStepPt || (stepPt !== null && stepPt >= minStepPt)) && sameWords;
-      if (!ok) failures.push({ slug: `${type}: ${label}`, counts, maxPages, stepPt, sameWords });
+      // A blank page still counts as one page, so a game sheet must also show a printed `.sheet` with content.
+      const sheetShown = type !== 'game sheet' || (await visibleSheets(page)) > 0;
+      const ok = FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages) && (!minStepPt || (stepPt !== null && stepPt >= minStepPt)) && sameWords && sheetShown;
+      if (!ok) failures.push({ slug: `${type}: ${label}`, counts, maxPages, stepPt, sameWords, sheetShown });
       record(type, ok);
-      console.log(`${type}: ${label.padEnd(36)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}${minStepPt ? `  steps ${stepPt?.toFixed(0) ?? 'none'} pt (at least ${minStepPt})` : ''}${sameStepsAs ? `  same words as the card ${sameWords ? 'yes' : 'NO'}` : ''}  ${ok ? 'ok' : 'FAIL'}`);
+      console.log(`${type}: ${label.padEnd(36)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}${minStepPt ? `  steps ${stepPt?.toFixed(0) ?? 'none'} pt (at least ${minStepPt})` : ''}${sameStepsAs ? `  same words as the card ${sameWords ? 'yes' : 'NO'}` : ''}${sheetShown ? '' : '  sheet hidden in print'}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     };
     for (const slug of slugs) {
