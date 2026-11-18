@@ -20,7 +20,7 @@ import { TOGETHER_PRINT_COUNT } from '../lib/games/print-sheet';
  * prints as `Version <date>`, the same way activity cards print theirs (WEB-016).
  * Change it whenever the sheet or the rules line changes.
  */
-export type NoPrintReason = 'photos' | 'paced' | 'sayings' | 'turns' | 'wash';
+export type NoPrintReason = 'photos' | 'paced' | 'sayings' | 'turns' | 'wash' | 'screen';
 
 export type GamePrint =
   | { kind: 'island'; version: string }
@@ -60,6 +60,8 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'garden-planner': { kind: 'island', version: '2026-11-18' },
   'coloring-wall': { kind: 'island', version: '2026-11-18' },
   scrapbook: { kind: 'island', version: '2026-11-19' },
+  'picnic-planner': { kind: 'island', version: '2026-11-19' },
+  'quiet-scene': { kind: 'none', reason: 'screen' },
 };
 
 /** Whether a game has a paper version (built in or rendered by the page). */
@@ -105,6 +107,8 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'garden-planner': ['gardenPlanner', 'guidance'],
   'coloring-wall': ['coloringWall', 'guidance'],
   scrapbook: ['scrapbook', 'guidance'],
+  'picnic-planner': ['picnicPlanner', 'guidance'],
+  'quiet-scene': ['quietScene', 'guidance'],
 };
 
 /** The one-line rules text, identical on the game and on its paper version. */

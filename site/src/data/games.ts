@@ -32,6 +32,8 @@ export type GameSlug =
   | 'garden-planner'
   | 'coloring-wall'
   | 'scrapbook'
+  | 'picnic-planner'
+  | 'quiet-scene'
   | 'calm-breathing';
 
 export type Stage = 'early' | 'middle' | 'late';
@@ -1485,6 +1487,77 @@ export const GAMES: readonly GameInfo[] = [
         q: 'Can we print the book?',
         a: 'Yes. "Print the scrapbook" prints one photo and its caption on each page, with page numbers. Choose A4 or US Letter in the print dialog.',
       },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'picnic-planner',
+    name: 'Picnic planner',
+    seoTitle: 'Picnic Planner: Choose Pictures for an Outing',
+    h1: 'Picnic Planner: Choose Pictures, Then Match Them',
+    description:
+      'Choose food and things-to-do pictures for a picnic, then play a gentle matching round with them. Nothing is timed. Free to play and print.',
+    short: 'Pick food and outing pictures for a picnic, then match them.',
+    cardPictures: ['bread', 'kite', 'apple'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Solo, or 2 people side by side',
+    printable: true,
+    intro:
+      'Tap pictures of food and things to do to put them in a picnic basket, which holds up to six. A sentence in words says what is in the basket, such as "Our picnic: bread, cheese, apples and a kite." Then tap "Let\'s play with our picnic" for a gentle matching round made from the chosen pictures. The pictures stay showing, and nothing is timed, scored or saved. "Print our picnic list" prints a checklist of what you chose, with a tick box for each thing to pack.',
+    howTo: [
+      'Tap a picture of food or something to do. It goes into the basket.',
+      'Tap a picture in the basket to take it out again.',
+      'Choose at least two things, then tap "Let\'s play with our picnic".',
+      'Tap two pictures that are the same. The pictures stay showing, so there is nothing to remember.',
+      'Tap "Print our picnic list" for a paper checklist to take with you.',
+    ],
+    tips: [
+      'Ask the people you are with what they would like to bring, and choose the pictures together.',
+      'Talk about each picture as it goes in: "Do you remember the kite we flew at the beach?"',
+      'On paper, the blank lines are for anything else you want to bring, or for a name.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed or counted, and nobody wins. The matching round has no misses and no points.',
+      },
+      {
+        q: 'Is this a meal plan?',
+        a: 'No. It is a picture plan for an outing, to talk about and to take on paper. It does not say what anyone should eat.',
+      },
+      {
+        q: 'Are the pictures we choose saved or sent?',
+        a: 'No. The basket stays on this page only. It is not saved, uploaded or sent, and it is gone when you close the page.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print our picnic list" prints one page, on A4 or US Letter. It shows the pictures you chose with a tick box for each, and blank lines for anything else.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'quiet-scene',
+    name: 'Quiet scene',
+    seoTitle: 'Quiet Scene: One Picture at a Time',
+    h1: 'Quiet Scene: One Still Picture at a Time',
+    description: "One large, still picture at a time, each with one gentle line under it. Press Next or Previous when you are ready. Nothing moves or plays on its own, and there is no timer or score. Free to play, with no account.",
+    short: "Look at one still picture at a time, at your own pace.",
+    cardPictures: ['sunrise', 'teacup', 'sailboat'],
+    stages: ['early', 'middle', 'late'],
+    players: "Alone, or a group in the same room",
+    printable: false,
+    intro: "One large picture fills the screen, with one short line under it. Press \"Next picture\" or \"Previous picture\" when you are ready for another. Nothing moves, fades or changes on its own, and nothing is timed. Tap \"Bigger picture\" to show only the picture, so the whole room can see it on a television.",
+    howTo: ["Look at the picture together.","Read the line under it aloud if you like.","Press \"Next picture\" or \"Previous picture\" when you are ready.","Tap \"Bigger picture\" to show only the picture, and \"Show everything\" to bring the rest back.","Stop whenever you like with \"Done for now\"."],
+    tips: ["Let the person choose when to move on: wait for them to look, then press Next.","For a group, use \"Bigger picture\" on a television or large screen and sit where everyone can see it.","There is no right way to look at a picture. Simply talking about one is a complete activity."],
+    faq: [
+      NO_PRESSURE_FAQ,
+      { q: 'Does it play sound or move?', a: 'No. There is no sound, and nothing moves, fades or changes by itself. A picture changes only when you press a button.' },
+      { q: 'Is there a paper version?', a: 'No. This is a picture to look at together on a screen. A favorite photo or postcard on the table does the same.' },
       FREE_FAQ,
     ],
     relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],

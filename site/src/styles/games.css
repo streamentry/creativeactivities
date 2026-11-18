@@ -5084,3 +5084,239 @@
     text-align: center;
   }
 }
+
+/* Picnic planner (GAME-043). A basket of six slots, two tray lists, and a matching round. Nothing moves; no timers. */
+.picnic {
+  display: grid;
+  gap: var(--space-lg);
+}
+.picnic__basket h2,
+.picnic__tray-section h2 {
+  margin: 0 0 var(--space-xs);
+  font-size: var(--text-lg);
+}
+.picnic__slots {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-sm);
+  max-inline-size: 640px;
+  margin: 0 auto var(--space-sm);
+  padding: 0;
+  list-style: none;
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .picnic__slots {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+.picnic__slot {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  gap: var(--space-xs);
+  min-inline-size: 0;
+  min-block-size: 112px;
+  padding: var(--space-xs);
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+  font: inherit;
+  cursor: pointer;
+}
+.picnic__slot--empty {
+  cursor: default;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.picnic__slot img {
+  display: block;
+  inline-size: 80px;
+  block-size: 80px;
+}
+.picnic__slot-name {
+  font-size: var(--text-md);
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.picnic__slot:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.picnic__slot:focus-visible,
+.picnic__pick:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.picnic__summary,
+.picnic__notice {
+  margin: 0;
+  font-size: var(--text-md);
+}
+.picnic__tray {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.picnic__pick {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  inline-size: 100%;
+  min-block-size: 64px;
+  padding: var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  cursor: pointer;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.picnic__pick img {
+  inline-size: 96px;
+  block-size: 96px;
+}
+.picnic__pick:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.picnic__pick[data-in='yes'] {
+  border: 3px solid var(--gm-on-surface);
+  background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
+}
+.picnic__pick-name {
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-align: center;
+}
+.picnic__in {
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+
+/* The paper version: a checklist with a tick box for each thing to pack. Hidden on screen only by its own rule. */
+@media screen {
+  .picnic-sheet {
+    display: none;
+  }
+}
+@media print {
+  .picnic-sheet,
+  .picnic-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #000;
+  }
+  .picnic-sheet {
+    display: block;
+  }
+  .picnic-sheet h2 {
+    margin: 0 0 3mm;
+  }
+  .picnic-sheet__how,
+  .picnic-sheet__summary,
+  .picnic-sheet__notice {
+    margin: 0 0 3mm;
+    font-size: 12pt;
+  }
+  .picnic-sheet__head {
+    margin: 0 0 2mm;
+    font-size: 14pt;
+  }
+  .picnic-sheet__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .picnic-sheet__row {
+    display: grid;
+    grid-template-columns: 8mm 24mm minmax(0, 1fr);
+    align-items: center;
+    gap: 4mm;
+    min-block-size: 24mm;
+    border-block-end: 0.3mm solid #ccc;
+  }
+  .picnic-sheet__row--blank {
+    grid-template-columns: 8mm minmax(0, 1fr);
+  }
+  .picnic-sheet__box {
+    display: block;
+    inline-size: 7mm;
+    block-size: 7mm;
+    border: 0.6mm solid #000;
+  }
+  .picnic-sheet__row img {
+    display: block;
+    inline-size: 22mm;
+    block-size: 22mm;
+    object-fit: contain;
+  }
+  .picnic-sheet__name {
+    font-size: 16pt;
+  }
+  .picnic-sheet__line {
+    display: block;
+    border-block-end: 0.3mm solid #000;
+    align-self: end;
+    block-size: 7mm;
+  }
+}
+
+
+/* Quiet scene (GAME-039): one still picture at a time. Nothing moves; a press is the only change. */
+.quiet-scene {
+  display: grid;
+  gap: var(--space-lg);
+  justify-items: center;
+}
+.quiet-scene__figure {
+  margin: 0;
+  display: grid;
+  gap: var(--space-md);
+  justify-items: center;
+  text-align: center;
+  width: 100%;
+}
+.quiet-scene__picture {
+  width: min(70vh, 100%);
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  object-fit: contain;
+}
+.quiet-scene__line {
+  font-size: var(--text-title-lg);
+  line-height: 1.3;
+  max-width: 40ch;
+  overflow-wrap: anywhere;
+}
+.quiet-scene__edge {
+  margin: 0;
+  min-height: 1.5em;
+  font-size: var(--text-lg);
+}
+.quiet-scene__nav .btn {
+  min-height: var(--target-hero);
+}
+.quiet-scene__show-all {
+  min-height: var(--target-hero);
+}
+/* Bigger picture: only the picture, its line, Previous and Next, and Show everything. Rest stays visible. */
+.quiet-scene--big .quiet-scene__picture {
+  width: min(84vh, 100%);
+}
+.quiet-scene--big .quiet-scene__line {
+  font-size: var(--text-hero);
+  line-height: 1.2;
+}
+.quiet-scene--big .game__guidance,
+.quiet-scene--big .read-aloud {
+  display: none;
+}
+.game-stage:has(.quiet-scene--big) .game {
+  max-width: none;
+}
