@@ -30,6 +30,21 @@ steps:
   - "Move to the next section and try a different repeat, such as small circles, dots or zigzags."
   - "Go one section at a time, resting the pencil between sections if you like."
   - "Stop when the circle is full or whenever they want to, then turn the page around and look at it together."
+plainSteps:
+  - Set the paper in front of the person.
+  - Choose a pencil or marker together.
+  - Hold the cup steady on the paper.
+  - They trace round its rim to make a circle.
+  - Draw three or four curved or straight lines across the circle.
+  - This splits the circle into sections.
+  - Pick one section.
+  - Fill it with a slow repeat, such as short lines all leaning one way.
+  - Move to the next section.
+  - Try a different repeat, such as small circles, dots or zigzags.
+  - Go one section at a time.
+  - Rest the pencil between sections if you like.
+  - Stop when the circle is full, or whenever they want to.
+  - Turn the page around and look at it together.
 variations:
   - kind: easier
     text: "Trace the circle for them and draw only one dividing line. Fill the two halves with the same simple repeat, such as lines."

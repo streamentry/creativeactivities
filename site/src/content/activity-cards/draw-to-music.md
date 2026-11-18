@@ -32,6 +32,19 @@ steps:
   - "Swap colors whenever either of you likes."
   - "Stop the music and look at the drawing together. Talk about it only if they want to."
   - "Try a different piece of music on a new sheet, or stop there."
+plainSteps:
+  - Tape a sheet of paper to the table so it does not slide.
+  - Lay out the crayons or markers.
+  - Offer a choice of color.
+  - Play the first piece of music at a comfortable volume.
+  - Draw lines or shapes together that follow the music.
+  - Make them fast or slow, big or small.
+  - Swap colors whenever either of you likes.
+  - Stop the music.
+  - Look at the drawing together.
+  - Talk about it only if they want to.
+  - Try a different piece of music on a new sheet.
+  - Or stop there.
 variations:
   - kind: easier
     text: "Use one chunky crayon and one slow piece of music. Simply moving the crayon back and forth is a full way to take part."

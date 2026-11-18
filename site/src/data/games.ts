@@ -911,14 +911,14 @@ export const GAMES: readonly GameInfo[] = [
     seoTitle: 'Easy Online Jigsaw: 4 or 9 Large Pieces',
     h1: 'Picture Puzzle: an Easy Jigsaw',
     description:
-      'An easy online jigsaw for adults: 4 or 9 large pieces, the whole picture stays visible, and you tap two pieces to swap them. Free, no timer.',
+      'An easy online jigsaw for adults: 4 or 9 large pieces, the whole picture stays visible, and you tap two pieces to swap them. Use your own photo, which stays on this device. Free, no timer.',
     short: 'Tap two pieces to swap them until the picture is whole.',
     cardPictures: ['sailboat', 'house', 'balloon'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
     intro:
-      'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed.',
+      'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed. You can also use one of your own photos. It stays on this device and is never uploaded.',
     howTo: [
       'Choose a picture and 4 or 9 pieces. Four is a gentle start.',
       'Look at the whole picture at the top.',
@@ -1105,10 +1105,11 @@ export const GAMES: readonly GameInfo[] = [
     players: '2 people, side by side',
     printable: false,
     intro:
-      'Choose two to six photos from your phone, tablet or computer, and they become a matching game with large, visible pictures. The photos are shown only inside this page. They are not uploaded, saved or shared, and they disappear when you close the page.',
+      'Choose two to six of your own family photos from your phone, tablet or computer, and they become a matching game with large, visible pictures. The photos are shown only inside this page. They are not uploaded, saved or shared, and they disappear when you close the page. If you like, add a few words under each photo, and a gentle hint can point to one pair after a pause. This is a way of looking at family photos together.',
     howTo: [
       'Tap "Choose photos" and pick two to six photos.',
       'Each photo appears twice. Tap one, then tap its pair.',
+      'If you like, add a few words under each photo. Captions are not saved.',
       'Talk about each photo as you find it.',
       'When you are done, close the page or tap "Clear photos". Nothing is kept.',
     ],

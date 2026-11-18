@@ -32,6 +32,23 @@ steps:
   - "Glue or tape the pieces where needed. They press and hold while you secure it."
   - "Decorate with pens or crayons, adding patterns, symbols or words they choose."
   - "Choose where to hang or stand it, and hang it together with string or ribbon."
+plainSteps:
+  - "Ask which celebration or season they would like to make something for."
+  - "It can be their own tradition, another one, or a time they enjoy."
+  - "Offer a few ideas, such as a lantern, a star or a garland."
+  - "Let them choose or suggest their own."
+  - "Check before starting."
+  - "If a symbol or object is sacred to them, ask before making it."
+  - "Choose something else if they would rather not."
+  - "Lay out paper in colors they like for the celebration."
+  - "The helper cuts the paper to size."
+  - "Fold, roll or loop it together into the chosen shape."
+  - "Glue or tape the pieces where needed."
+  - "They press and hold while you secure it."
+  - "Decorate with pens or crayons."
+  - "Add patterns, symbols or words they choose."
+  - "Choose where to hang or stand it."
+  - "Hang it together with string or ribbon."
 variations:
   - kind: easier
     text: "Make just one piece: a single paper star, a folded card or one lantern. The helper prepares the cut paper and they choose the colors and decorate."

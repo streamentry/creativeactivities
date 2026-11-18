@@ -32,6 +32,22 @@ steps:
   - "Lay a second color over the first if they like. The colors will blend together."
   - "Wipe fingers on a paper towel when the pastel gets onto them."
   - "Stop when they put the pastel down, then look at the picture together and choose where to put it."
+plainSteps:
+  - Spread newspaper over the table.
+  - Rest the dark paper on a clipboard or flat board.
+  - Open the pastels.
+  - Set out a few bright colors where they are easy to reach.
+  - Ask which color they would like to start with.
+  - Any choice is fine.
+  - Draw a shape or a line on the dark paper.
+  - Press firmly so the color shows clearly.
+  - Add one thing at a time, such as a sky, a sun or lines.
+  - Lay a second color over the first if they like.
+  - The colors will blend together.
+  - Wipe fingers on a paper towel when the pastel gets onto them.
+  - Stop when they put the pastel down.
+  - Look at the drawing together.
+  - Choose where to put it.
 variations:
   - kind: easier
     text: "Offer only three colors and ask for one big shape or a few long lines. A single bold shape is a complete picture."

@@ -32,6 +32,22 @@ steps:
   - "Add a few words in a speech bubble if you like, written by whoever is holding the pencil."
   - "Draw the last box together, with an ending that is funny or quiet, whichever you prefer."
   - "Read the strip out loud, then put it where you can both see it. Stop here, or start a second strip."
+plainSteps:
+  - "Fold or draw lines to make three or four boxes."
+  - "Choose something ordinary to draw about together."
+  - "Say in one short line what happens in each box."
+  - "Let the other person change it if they like."
+  - "One person draws the first box."
+  - "The other person says what goes in it."
+  - "Stick figures and simple shapes are fine."
+  - "Swap, so the other person draws the next box."
+  - "Add a few words in a speech bubble if you like."
+  - "Whoever holds the pencil writes the words."
+  - "Draw the last box together."
+  - "Make the ending funny or quiet, whichever you prefer."
+  - "Read the strip out loud."
+  - "Put it where you can both see it."
+  - "Stop here, or start a second strip."
 variations:
   - kind: easier
     text: "Make just three boxes and agree on the whole plan first. One person draws every box while the other chooses what goes in them."

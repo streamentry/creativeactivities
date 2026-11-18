@@ -32,6 +32,20 @@ steps:
   - "Add more pictures around it, taking turns choosing and placing."
   - "Stop when it feels finished, or when you have had enough for today."
   - "Agree on a place to keep or show the collage, such as a fridge or a frame."
+plainSteps:
+  - "Clear a table."
+  - "Lay out the paper, the glue stick and a small pile of photos."
+  - "Look through the photos together."
+  - "Talk about any that catch an eye."
+  - "Ask which photo should go in the middle."
+  - "Any answer is the right one."
+  - "Glue the back of that photo."
+  - "Press it down together."
+  - "Add more photos around it."
+  - "Take turns choosing and placing."
+  - "Stop when it feels finished."
+  - "Or stop when you have had enough for today."
+  - "Agree on a place to keep or show the collage."
 variations:
   - kind: easier
     text: "Cut the pictures out before you start and offer two at a time to choose from."

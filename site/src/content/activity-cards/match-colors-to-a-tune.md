@@ -30,6 +30,20 @@ steps:
   - "Lay the chosen colors in a row on the tray. Any color is a good answer."
   - "Play the next tune and start a new row beside the first."
   - "Look at the rows together, and keep the one they like best if they wish."
+plainSteps:
+  - Spread the colored squares where they can see them all.
+  - Ask which tune they would like first.
+  - Or offer two to choose from.
+  - Play the tune at a comfortable volume.
+  - Listen together.
+  - When it ends, ask which color seems to go with it.
+  - Let them pick one or a few.
+  - Lay the chosen colors in a row on the tray.
+  - Any color is a good answer.
+  - Play the next tune.
+  - Start a new row beside the first.
+  - Look at the rows together.
+  - Keep the one they like best, if they wish.
 variations:
   - kind: easier
     text: "Offer only two colors after each tune and let them point to one. One tune and one color is a full session."

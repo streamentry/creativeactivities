@@ -33,6 +33,20 @@ steps:
   - "Add more pieces, taking turns choosing where each one goes."
   - "Leave the board flat to dry, as the glue bottle suggests."
   - "Run your hands across the finished board together and talk about favorites."
+plainSteps:
+  - Lay the textured scraps out in a row.
+  - Pass each one over and feel it together.
+  - Say what it is like, if you wish.
+  - Ask which texture they would like on the board first.
+  - Spread glue on the back of that piece.
+  - The helper can do this.
+  - Press it onto the board together.
+  - Hold it for a few seconds.
+  - Add more pieces.
+  - Take turns choosing where each one goes.
+  - Leave the board flat to dry, as the glue bottle suggests.
+  - Run your hands across the finished board together.
+  - Talk about favorites.
 variations:
   - kind: easier
     text: "Cut all the pieces to the same size beforehand and offer two at a time. Choosing is the main job."

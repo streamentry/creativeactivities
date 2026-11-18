@@ -33,6 +33,22 @@ steps:
   - "Next time, play a song and hold the shaker so it is easy to move."
   - "Shake gently in time with the beat, then try a slower shake."
   - "Set the shaker down and store it out of reach of anyone who puts things in their mouth."
+plainSteps:
+  - "Sit at a table with the bottle, rice, funnel and decorations in reach."
+  - "Pour in a small handful of rice."
+  - "Use enough rice to fill about a quarter of the bottle."
+  - "Ask the helper to glue the lid shut."
+  - "Wrap tape firmly over the lid."
+  - "Decorate the outside with tape, paper or stickers."
+  - "Decorate one piece at a time while the glue dries."
+  - "Leave the shaker to dry fully, overnight if possible."
+  - "Check the lid is firm."
+  - "Next time, play a song."
+  - "Hold the shaker so it is easy to move."
+  - "Shake gently in time with the beat."
+  - "Then try a slower shake."
+  - "Set the shaker down."
+  - "Store it out of reach of anyone who puts things in their mouth."
 variations:
   - kind: easier
     text: "The helper fills, seals and decorates the bottle beforehand. The only job is to shake it along to a song and say which tempo they like."

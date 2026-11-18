@@ -32,6 +32,21 @@ steps:
   - "Move to each finger in turn, with light, slow pressure."
   - "Ask how it feels, and stop straight away if they pull away."
   - "Wipe any extra lotion with the towel, and let the hand rest."
+plainSteps:
+  - Wash and dry your hands.
+  - Sit beside them with the lotion and towel in reach.
+  - Ask if they would like a hand massage.
+  - Wait for a clear yes.
+  - Ask which hand they would like to start with.
+  - Rest that hand on the towel.
+  - Warm a small drop of lotion between your palms.
+  - Rest your hands lightly around theirs, without gripping.
+  - Stroke slowly from the wrist toward the knuckles, on the back of the hand.
+  - Move to each finger in turn, with light, slow pressure.
+  - Ask how it feels.
+  - Stop straight away if they pull away.
+  - Wipe any extra lotion with the towel.
+  - Let the hand rest.
 variations:
   - kind: easier
     text: "Hold the hand in both of yours and make a few slow strokes on the back of it, or simply hold it for a moment."

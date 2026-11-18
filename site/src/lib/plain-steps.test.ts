@@ -19,19 +19,9 @@ const cards = readdirSync(dir)
 const list = (value: unknown): string[] => (Array.isArray(value) ? value.map(String) : []);
 
 describe('plain steps on the cards on disk (WEB-039)', () => {
-  it('has plain steps on the eight chosen cards', () => {
-    expect(cards.map((c) => c.file).sort()).toEqual(
-      [
-        'arrange-flowers-together.md',
-        'fold-a-paper-boat.md',
-        'hold-a-sing-along-at-home.md',
-        'make-a-greeting-card.md',
-        'make-leaf-rubbings.md',
-        'press-leaves-and-flowers.md',
-        'sort-buttons-by-color.md',
-        'wind-a-ball-of-yarn.md',
-      ].sort(),
-    );
+  it('has plain steps on every listed card, so the Short steps switch is never missing', () => {
+    const all = readdirSync(dir).filter((f) => f.endsWith('.md'));
+    expect(cards.map((c) => c.file).sort()).toEqual(all.sort());
   });
 
   it.each(cards.map((c) => [c.file, c] as const))('%s: each plain step is short and does one action', (_file, card) => {
@@ -47,8 +37,8 @@ describe('plain steps on the cards on disk (WEB-039)', () => {
     ).toEqual([]);
   });
 
-  it.each(cards.map((c) => [c.file, c] as const))('%s: plain steps name only materials the card lists', (_file, card) => {
-    expect(plainMaterialProblems(list(card.data.plainSteps), list(card.data.materials))).toEqual([]);
+  it.each(cards.map((c) => [c.file, c] as const))('%s: plain steps name only things the card already names', (_file, card) => {
+    expect(plainMaterialProblems(list(card.data.plainSteps), list(card.data.materials), list(card.data.steps))).toEqual([]);
   });
 });
 
@@ -96,6 +86,10 @@ describe('plainSafetyProblems', () => {
 describe('plainMaterialProblems', () => {
   it('flags a named object the materials do not list', () => {
     expect(plainMaterialProblems(['Lay the paper on the tray.'], ['A sheet of paper'])).toHaveLength(1);
+  });
+
+  it('accepts a named object the standard steps already mention', () => {
+    expect(plainMaterialProblems(['Offer a drink of water.'], ['A chair'], ['Offer a drink of water when you finish.'])).toEqual([]);
   });
 
   it('accepts a named object the materials list', () => {

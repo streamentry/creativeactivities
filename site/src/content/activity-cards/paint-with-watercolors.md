@@ -33,6 +33,20 @@ steps:
   - "Tilt the paper gently if you both want the colors to run and mix."
   - "Talk about what the shapes look like, such as a sky, a field or nothing at all."
   - "Leave the painting flat to dry and decide together whether to paint another."
+plainSteps:
+  - Cover the table with the towel or newspaper.
+  - Set out the paint, brushes and water.
+  - Ask which two or three colors they would like to use today.
+  - Brush clean water over the whole sheet of paper together.
+  - Dip a brush in one color.
+  - Touch it to the wet paper.
+  - Watch together as the color spreads.
+  - Add a second color next to it.
+  - Tilt the paper gently if you both want the colors to run and mix.
+  - Talk about what the shapes look like.
+  - It might look like a sky, a field or nothing at all.
+  - Leave the painting flat to dry.
+  - Decide together whether to paint another.
 variations:
   - kind: easier
     text: "Wet the paper and load the brush in advance, so the only task is touching the brush to the page."

@@ -32,6 +32,21 @@ steps:
   - "Write the title on the card if they say yes."
   - "Choose the next song together, and repeat until the card has five to eight titles."
   - "Read the list aloud and ask which song they would like to hear first."
+plainSteps:
+  - Sit together.
+  - Keep the phone, the card and the pen in reach.
+  - Ask what kind of music they enjoy.
+  - Or offer two familiar styles to choose from.
+  - Find one song they name.
+  - Or pick one from the choices you offered.
+  - Play the song at a comfortable volume.
+  - Listen together.
+  - Ask whether they like it.
+  - Write the title on the card if they say yes.
+  - Choose the next song together.
+  - Repeat until the card has five to eight titles.
+  - Read the list aloud.
+  - Ask which song they would like to hear first.
 variations:
   - kind: easier
     text: "Choose three or four songs in advance and offer them as simple yes or no choices. The helper handles the phone and writes the titles."

@@ -32,8 +32,10 @@ export const SAFETY_KEYWORDS = [
 
 /**
  * Everyday objects a plain step may name. A plain step names one only when the
- * card's materials list names it too, so a shortened step cannot add a thing to
- * gather. Furniture (table, chair) is left out on purpose: it is not a material.
+ * card already does, in its materials list or in its standard steps, so a
+ * shortened step cannot add a thing to gather but may keep what the standard
+ * steps say (a drink of water, a flower bed). Furniture (table, chair) is left
+ * out on purpose: it is not a material.
  */
 const MATERIAL_WORDS: readonly RegExp[] = [
   /\bpaper/i,
@@ -114,14 +116,14 @@ export function plainSafetyProblems(
   return problems;
 }
 
-/** A plain step may name an everyday object only when the card's materials list names it. */
-export function plainMaterialProblems(plain: readonly string[], materials: readonly string[]): string[] {
-  const materialsText = materials.join('\n');
+/** A plain step may name an everyday object only when the card's materials list or standard steps name it. */
+export function plainMaterialProblems(plain: readonly string[], materials: readonly string[], steps: readonly string[] = []): string[] {
+  const materialsText = [...materials, ...steps].join('\n');
   const problems: string[] = [];
   for (const step of plain) {
     for (const pattern of MATERIAL_WORDS) {
       const match = pattern.exec(step);
-      if (match && !pattern.test(materialsText)) problems.push(`plain step "${step}" names "${match[0]}", which the materials do not list`);
+      if (match && !pattern.test(materialsText)) problems.push(`plain step "${step}" names "${match[0]}", which the card's materials and steps do not`);
     }
   }
   return problems;

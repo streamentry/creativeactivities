@@ -31,6 +31,21 @@ steps:
   - "Ask who the card is for, and what one line they would like to write."
   - "Write the line on the back of the card, in the words the person chooses, and sign it together."
   - "If sending, put the card in an envelope with the address and a stamp."
+plainSteps:
+  - "Look through the photo copies together."
+  - "Choose one to send."
+  - "Place the photo on the card to see how it fits."
+  - "Ask the helper to trim it if needed."
+  - "Glue the back of the photo."
+  - "Press it onto the card."
+  - "Press the photo flat with a hand."
+  - "Hold it for a few seconds."
+  - "Ask who the card is for."
+  - "Ask what one line they would like to write."
+  - "Write the line on the back of the card, in the words they choose."
+  - "Sign it together."
+  - "If sending, put the card in an envelope."
+  - "Add the address and a stamp."
 variations:
   - kind: easier
     text: "Choose the photo and have the card already trimmed, and offer one or two suggested lines to pick from."
