@@ -33,6 +33,7 @@ import ColorMatch from '../games/ColorMatch';
 import HalvesMatch from '../games/HalvesMatch';
 import ColorByNumber from '../games/ColorByNumber';
 import PatternMaker from '../games/PatternMaker';
+import BuildTogether from '../games/BuildTogether';
 import StoryChain from '../games/StoryChain';
 import StoryDice from '../games/StoryDice';
 import SortTogether from '../games/SortTogether';
@@ -129,6 +130,7 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'halves-match' && <HalvesMatch client:load {...play} />}
       {s === 'color-by-number' && <ColorByNumber client:load {...play} />}
       {s === 'pattern-maker' && <PatternMaker client:load {...play} />}
+      {s === 'build-together' && <BuildTogether client:load {...play} />}
       {s === 'story-chain' && <StoryChain client:load {...play} />}
       {s === 'story-dice' && <StoryDice client:load {...play} />}
       {s === 'sort-together' && <SortTogether client:load {...play} />}

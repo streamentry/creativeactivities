@@ -950,6 +950,289 @@
   }
 }
 
+/* Build together: two people fill one shared grid in turns. Each has a color of their own, always shown with its
+   written name and a shape. Every place is at least 56px and never shrinks below that: a grid too wide for the
+   screen scrolls sideways inside its own labelled region. The grid reads left to right in every language, like a
+   picture. The page's style policy blocks style attributes, so each color is chosen by `data-tone` (its place in
+   the palette, 0 to 3) here, and `build-together.test.ts` checks that these hex values are the ones in
+   `src/data/pattern-maker.ts`, which Build together shares. Nothing here moves: the only transition is a shadow. */
+.bt [data-tone='0'],
+.bt-sheet [data-tone='0'] {
+  --bt-fill: #f7e98e;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='1'],
+.bt-sheet [data-tone='1'] {
+  --bt-fill: #e69f00;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='2'],
+.bt-sheet [data-tone='2'] {
+  --bt-fill: #009e73;
+  --bt-ink: #16231d;
+}
+.bt [data-tone='3'],
+.bt-sheet [data-tone='3'] {
+  --bt-fill: #7b3f98;
+  --bt-ink: #ffffff;
+}
+.bt {
+  display: grid;
+  gap: var(--space-lg);
+}
+.bt__label {
+  margin: 0 0 calc(var(--space-sm) * -1);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__players {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: var(--space-md);
+}
+/* Whose turn it is shows as a second, inner border as well as in words, so it is not told by color alone. */
+.bt__player {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+.bt__player[data-turn='yes'] {
+  border-color: var(--gm-on-surface);
+  box-shadow: inset 0 0 0 2px var(--gm-on-surface);
+}
+.bt__legend {
+  padding: 0 var(--space-xs);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+}
+.bt__pick {
+  position: relative;
+  display: flex;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.bt__pick input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.bt__face {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  min-block-size: 56px;
+  padding: 6px var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.bt__pick:hover .bt__face {
+  border-color: var(--gm-primary);
+}
+.bt__pick input:checked + .bt__face {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}
+.bt__pick input:focus-visible + .bt__face {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+/* The color the other person has is dashed and says so in words, so it is not told by dimming alone. */
+.bt__pick[data-in-use='yes'] .bt__face {
+  border-style: dashed;
+  background: var(--gm-surface-sunken);
+}
+.bt__pick[data-in-use='yes'] input {
+  cursor: default;
+}
+.bt__note {
+  flex-basis: 100%;
+  font-size: var(--text-sm);
+  font-weight: 400;
+}
+.bt__swatch,
+.bt-sheet__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--bt-fill, var(--gm-surface));
+  color: var(--bt-ink, var(--gm-on-surface));
+  forced-color-adjust: none;
+}
+.bt__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.bt__turn[data-built='yes'] {
+  border-style: double;
+  border-width: 5px;
+}
+.bt__turn-line,
+.bt__turn-color {
+  margin: 0;
+}
+.bt__turn-line {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.bt__turn-color {
+  font-size: var(--text-md);
+}
+.bt__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.bt__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The place is as wide as the screen allows, never below its floor and never above its cap. The grid takes the
+   width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.bt__grid {
+  --bt-gap: 6px;
+  --bt-floor: 56px;
+  --bt-cap: 6rem;
+  --bt-cell: max(var(--bt-floor), min(var(--bt-cap), calc((100cqw - (var(--bt-n) - 1) * var(--bt-gap)) / var(--bt-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--bt-n), var(--bt-cell));
+  gap: var(--bt-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.bt__grid[data-size='3'] {
+  --bt-n: 3;
+  --bt-cap: 7rem;
+}
+.bt__grid[data-size='4'] {
+  --bt-n: 4;
+}
+.bt__cell {
+  display: grid;
+  place-items: center;
+  inline-size: var(--bt-cell);
+  block-size: var(--bt-cell);
+  padding: 0;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--bt-fill, var(--gm-surface-sunken));
+  color: var(--bt-ink, var(--gm-on-surface));
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  forced-color-adjust: none;
+  transition: box-shadow var(--duration-fast) ease;
+}
+/* An empty place has a dashed edge and a filled one a solid edge and a shape, so a piece is not told by color alone. */
+.bt__cell[data-state='empty'] {
+  border-style: dashed;
+}
+.bt__cell[data-state='filled'] {
+  cursor: default;
+}
+.bt__cell[data-state='empty']:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.bt__cell:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.bt__cell .cbn__shape {
+  inline-size: 38%;
+  block-size: auto;
+  aspect-ratio: 1;
+}
+@media print {
+  .bt-sheet,
+  .bt-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .bt-sheet__help {
+    margin: 0 0 5mm;
+    font-size: 14pt;
+    color: #000;
+  }
+  .bt-sheet__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 6mm;
+    padding: 0;
+    list-style: none;
+  }
+  .bt-sheet__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .bt-sheet__swatch {
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--bt-fill, #fff);
+    color: var(--bt-ink, #000);
+  }
+  .bt-sheet__swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .bt-sheet__grid {
+    --bt-across: 4;
+    display: grid;
+    grid-template-columns: repeat(var(--bt-across), 1fr);
+    gap: 2.5mm;
+    max-inline-size: 150mm;
+    direction: ltr;
+  }
+  .bt-sheet__grid[data-size='3'] {
+    --bt-across: 3;
+  }
+  .bt-sheet__grid[data-size='4'] {
+    --bt-across: 4;
+  }
+  .bt-sheet__square {
+    aspect-ratio: 1;
+    border: 2.5px solid #000;
+    background: #fff;
+  }
+}
+
 /* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
 .chain {
   display: flex;
@@ -2199,6 +2482,33 @@
   .pm__swatch {
     border-color: #000000;
   }
+  .bt__cell {
+    border-width: 3px;
+    border-color: #000000;
+  }
+  .bt__cell[data-state='empty']:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .bt__cell:focus-visible,
+  .bt__region:focus-visible,
+  .bt__pick input:focus-visible + .bt__face {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .bt__face,
+  .bt__player,
+  .bt__turn,
+  .bt__swatch {
+    border-color: #000000;
+  }
+  .bt__pick input:checked + .bt__face {
+    box-shadow: inset 0 0 0 3px #000000;
+  }
+  .bt__turn-line,
+  .bt__legend,
+  .bt__face {
+    font-weight: 800;
+  }
   .cbn__cell,
   .cbn__key-button {
     border: 3px solid #000000;
@@ -2438,6 +2748,18 @@
   .pm__region:focus-visible {
     outline: 3px solid Highlight;
     outline-offset: 2px;
+  }
+  .bt__cell[data-state='empty']:hover,
+  .bt__cell:focus-visible,
+  .bt__region:focus-visible,
+  .bt__pick input:focus-visible + .bt__face {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
+  .bt__pick input:checked + .bt__face,
+  .bt__player[data-turn='yes'] {
+    border-color: Highlight;
+    box-shadow: inset 0 0 0 3px Highlight;
   }
   .cbn__cell:hover,
   .cbn__cell:focus-visible,
