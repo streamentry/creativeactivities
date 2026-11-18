@@ -27,6 +27,7 @@ These are written by the site's own code. None is sent to Creative Activities. E
 | `gm-text-size` | local storage | `site/src/components/TextSize.astro` | `standard` or `large` | No | As above |
 | `gm-contrast` | local storage | `site/src/components/TextSize.astro` | `standard` or `high` | No | As above |
 | `ca-plain-steps` | local storage | `site/src/components/PlainToggle.tsx` (activity page, Short steps) | `1` or `0`: whether activity cards show short steps | No | As above |
+| `gm-theme` | local storage | `site/src/lib/display-settings.ts` (`THEME_KEY`), set by `site/src/components/TextSize.astro` | `light` or `dark`; absent means the device setting | No | As above |
 | `gm-play-settings` | local storage | `site/src/games/shared/settings.ts` | Game sound on or off | No | As above |
 | `gm_lang` | cookie, one year, `SameSite=Lax`, path `/` | `site/src/components/LanguageChoice.astro` through `site/src/lib/language-choice.ts`, and expired by `site/src/pages/your-data.astro` | The language code the reader chose | Sent to the site's host with each page request, as every cookie is | One year, or until removed |
 

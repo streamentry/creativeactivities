@@ -3,10 +3,13 @@ import { ui } from '../i18n/ui';
 
 interface Props {
   lang?: string;
+  /** `reading` (the header): text size and contrast. `colors`: the Light, Dark or device choice (WEB-042), shown on the Accessibility page so the header stays short. */
+  part?: 'reading' | 'colors';
 }
-const { lang = 'en' } = Astro.props;
+const { lang = 'en', part = 'reading' } = Astro.props;
 const t = ui(lang);
 ---
+{part === 'reading' && (
 <div class="text-size" role="group" aria-label={t.common.textSize.label} data-text-size>
   <button type="button" class="text-size__btn" data-size="standard" aria-pressed="true" aria-label={t.common.textSize.smaller} title={t.common.textSize.smaller}>
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
@@ -26,11 +29,25 @@ const t = ui(lang);
     <span>{t.common.textSize.contrast}</span>
   </button>
 </div>
+)}
+{part === 'colors' && (
+<div class="text-size text-size--colors" role="group" aria-label={t.common.textSize.colors} data-theme-group>
+  <button type="button" class="text-size__btn text-size__btn--label" data-theme-choice="light" aria-pressed="false">
+    <span>{t.common.textSize.light}</span>
+  </button>
+  <button type="button" class="text-size__btn text-size__btn--label" data-theme-choice="dark" aria-pressed="false">
+    <span>{t.common.textSize.dark}</span>
+  </button>
+  <button type="button" class="text-size__btn text-size__btn--label" data-theme-choice="device" aria-pressed="true">
+    <span>{t.common.textSize.device}</span>
+  </button>
+</div>
+)}
 
 <script>
   // Per-viewer convenience only: the choice lives in this browser. Every read
   // and write is guarded, so the site works with storage blocked.
-  import { CONTRAST_KEY, TEXT_SIZE_KEY as KEY } from '../lib/display-settings';
+  import { CONTRAST_KEY, TEXT_SIZE_KEY as KEY, readTheme, writeTheme, type ThemeChoice } from '../lib/display-settings';
   const root = document.documentElement;
 
   function apply(size: 'standard' | 'large') {
@@ -93,6 +110,33 @@ const t = ui(lang);
       apply(size);
     });
   });
+
+  // Colors (WEB-042): /theme-init.js in head already set data-theme before paint;
+  // this keeps the buttons in step and handles clicks. Absent means the device setting.
+  function applyTheme(choice: ThemeChoice) {
+    if (choice === 'device') delete root.dataset.theme;
+    else root.dataset.theme = choice;
+    document.querySelectorAll<HTMLButtonElement>('[data-theme-choice]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.themeChoice === choice));
+    });
+  }
+  function storage(): Storage | null {
+    try {
+      return localStorage;
+    } catch {
+      return null;
+    }
+  }
+  document.querySelectorAll<HTMLButtonElement>('[data-theme-choice]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const choice = (b.dataset.themeChoice ?? 'device') as ThemeChoice;
+      const store = storage();
+      if (store) writeTheme(store, choice);
+      applyTheme(choice);
+    });
+  });
+  const themeStore = storage();
+  if (themeStore) applyTheme(readTheme(themeStore));
 </script>
 
 <style>
@@ -151,6 +195,7 @@ const t = ui(lang);
   .text-size__btn:hover {
     border-color: var(--gm-primary);
     background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
   }
   .text-size__btn:focus-visible {
     outline: 3px solid var(--gm-primary);

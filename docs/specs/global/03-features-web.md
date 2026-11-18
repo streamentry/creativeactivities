@@ -767,7 +767,9 @@ Risks / not doing: A stale cached safety change. The version rule in WEB-016 cov
 
 | Priority | Phase | Status | Pillars | Notes |
 |---|---|---|---|---|
-| P2 | S2 | new | all | A dark theme that follows the system setting, and line-length and spacing options. No dark theme was found in the styles checked. Both themes need contrast checks against the token pairings in [DESIGN §2](../../../DESIGN.md). Dark mode is a choice, not the default. |
+| P2 | S2 | partial | all | A dark theme that follows the system setting, and line-length and spacing options. Both themes need contrast checks against the token pairings in [DESIGN §2](../../../DESIGN.md). Dark mode is a choice, not the default. |
+
+Evidence (2026-11-19): a dark theme built only from DESIGN.md palette colors as a token override in `site/src/styles/tokens.css`, applied when the device is set to dark or when a person chooses Dark under "Colors on this site" on the Accessibility page (`gm-theme`, listed on the Your data page); applied before first paint by a same-origin script, so no security-policy hash changed; high contrast always wins; print stays black on white; pictures keep their light tiles. `theme-contrast.test.ts` checks every text and background pairing at AA (body text 15.3:1, muted 12.8:1, borders 10.2:1), and `fill-text.test.ts` requires every sun-filled rule to set its dark text color (22 rules; the current nav item showed light text on yellow before). `check:a11y` has a 390 px dark variant. Light pages compared by screenshot on 15 page types: unchanged apart from the footer text moving from white to the off-white ink. Gaps: line-length and spacing options not built; not tried by people who use dark mode; the `theme-color` meta stays light.
 
 ### WEB-043 · Right-to-left and long-text layouts
 

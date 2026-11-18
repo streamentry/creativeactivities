@@ -230,7 +230,8 @@ const itemList = {
     padding: clamp(1.5rem, 1rem + 2vw, 2.5rem);
     margin-bottom: var(--space-xl);
     border-radius: var(--radius-xl);
-    background: var(--gm-print-white);
+    /* A text card, not a picture tile: the surface token (the same white in light) turns dark in the dark theme. */
+    background: var(--gm-surface-raised);
     border: 1px solid var(--gm-surface-sunken);
     box-shadow: var(--shadow-raised);
     color: var(--gm-on-surface);

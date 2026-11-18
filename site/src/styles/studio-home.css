@@ -365,6 +365,7 @@
 .home-hubs a:focus-visible {
   border-color: var(--gm-primary);
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
 }
 @media (prefers-reduced-motion: no-preference) {
   .home-hubs a {
