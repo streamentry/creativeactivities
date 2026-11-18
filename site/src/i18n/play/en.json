@@ -404,6 +404,58 @@
       "sheetHow": "Cut out the pictures and take turns placing them on the board. An adult can do the cutting.",
       "sheetTray": "The pictures to cut out"
     },
+    "gardenPlanner": {
+      "guidance": "Tap a picture, then tap a bed to put it there. Tap a bed that has a picture, with nothing chosen, to clear it.",
+      "bedsLabel": "The garden beds",
+      "bedEmpty": "Bed {n}, empty",
+      "bedFilled": "Bed {n}, {picture|lower}",
+      "plantsHeading": "Plants",
+      "extrasHeading": "Garden extras",
+      "chosenLabel": "Chosen",
+      "chosen": "{picture} is chosen. Now tap a bed.",
+      "unchosen": "No picture is chosen.",
+      "needPicture": "Choose a picture first, then tap a bed.",
+      "planted": "{picture} is in bed {n}.",
+      "replaced": "{picture} takes the place of the picture in bed {n}.",
+      "cleared": "Bed {n} is empty. Put it back if you want the picture again.",
+      "restarted": "Every bed is empty.",
+      "putBack": "Put it back",
+      "putBackDone": "The pictures are back in their beds.",
+      "summaryHeading": "My garden",
+      "summary": "Your plan has {list}.",
+      "summaryNone": "No picture is in a bed yet.",
+      "and": "and",
+      "print": "Print the plan",
+      "sheetTitle": "Our garden plan",
+      "sheetHow": "The beds show the pictures chosen on screen. Draw in the empty beds if you like.",
+      "sheetNotes": "Notes",
+      "notice": "This is a picture plan to talk about, not planting advice."
+    },
+    "coloringWall": {
+      "guidance": "Choose a picture and how many pages. Print the wall, and each person colors one or more pages. Nothing is timed, scored or saved.",
+      "pictureLegend": "Picture",
+      "sizeLegend": "How many pages",
+      "sizes": {
+        "2x2": "4 pages (2 by 2)",
+        "3x2": "6 pages (3 by 2)",
+        "3x3": "9 pages (3 by 3)"
+      },
+      "previewLabel": "The {picture|lower} split into {n} pages, {across} across and {down} down. Each page has a label in its corner.",
+      "previewCaption": "The picture with the page lines and labels drawn on it.",
+      "labelsNote": "Letters go down the wall and numbers go across it, so A1 is the top left page.",
+      "wallHeading": "How to put the wall together",
+      "steps": [
+        "Print all the pages. The first page is these steps and a map of the wall.",
+        "Each person takes one or more pages and colors them.",
+        "Colors and styles do not need to match. Every page is part of the same picture.",
+        "Lay the pages out by their labels, then join them with tape on the back.",
+        "Put the wall up where everyone can see it."
+      ],
+      "mapLabel": "A map of the wall: {down} rows of {across} pages, labelled from A1 to {last}.",
+      "edgeNote": "The dashed line marks the edge of each page. Lay the pages edge to edge along it, or overlap it a little.",
+      "pictureLine": "Picture: {picture}. This wall is {n} pages: {across} across and {down} down.",
+      "print": "Print the wall"
+    },
     "findTogether": {
       "guidance": "Take turns. On your turn, turn over two cards to look for a pair. Find the pairs together.",
       "sizeLegend": "How many cards",

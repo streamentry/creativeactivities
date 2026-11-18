@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 200 | 143 | 407 |
+| S2 | 64 | 202 | 141 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **240** | **216** | **533** |
+| **All** | **77** | **242** | **214** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -318,6 +318,18 @@ Two games, each built by a Haiku subagent in its own worktree, then reviewed, co
 
 Checks on the integrated branch: vitest 137 files, 4,293 pass (1 skipped); `tsc` clean; build 16,551 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 24 of 24; `check:capacity` passes; `check:a11y` 0 failing of 193. Replayed onto main after the maintainer merged #91 and the re-translation PR #89 (no shared files); tests, `tsc`, Python tests and the build rerun there. Share images for both games made with `make-images.py` and checked by eye.
 
+### Batch 38 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent, plus a print bug on main found in review. GAME-054 Big shapes and colors was scheduled for this batch and set aside: it is for children 2 to 5, behind the child-facing gate (see the blockers table).
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Collage board printed a blank page (batch 37, on main): its screen-hide rule beat the print rule that shows `.sheet`. `check:print` counted the blank page as a pass. Fixed (shipped as #93), the board printed 6 by 2 to fit one Letter page, and `check:print` now needs a printed `.sheet` with content for every game sheet | GAME-033 (fix); check upkeep | A probe of all 24 game sheets in print mode: Collage board the only blank one; print-mode screenshot after the fix shows the board, pictures, label and pause line |
+| Game "Garden planner" at `/games/garden-planner/`: 12 beds, plant pictures from the shared set plus a watering can and birdhouse; tap a picture then a bed; tap a planted bed to clear it; Start again with Put it back; a summary in words; one-page print with note lines; says it is a picture plan, not planting advice | GAME-041 → partial (not per climate; not tried; English only) | Browser at 390 px: "Your plan has 2 sunflowers and 1 rose." updated after a clear; beds 114 px; nothing inside `aria-hidden`. `check:print` found two Letter pages; beds and note lines made smaller, now one |
+| Game page "Group coloring wall" at `/games/coloring-wall/`: one of five Coloring outlines across 4, 6 or 9 pages, with a how-to page and corner labels; taped on the back, no scissors | GAME-052 → partial (corner pages of some pictures are mostly blank at 9 pages; not tried with a group; English only) | The 9-page wall prints 10 pages on A4 and Letter (how-to plus nine), within its limit of 10; the preview description follows the size chosen |
+
+Checks on the integrated branch: vitest 141 files, 4,353 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:budget` 0 over; `check:images` passes; `check:capacity` passes; `check:print` 7 of 7 templates, game sheets 26 of 26 with the new hidden-sheet rule; `check:a11y` 0 failing of 197. Share images for both games made with `make-images.py` and checked by eye.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -327,7 +339,7 @@ Checks on the integrated branch: vitest 137 files, 4,293 pass (1 skipped); `tsc`
 | `GM-010`, `GM-011` (APP-032) | R2: only if the pilot chooses them; read-aloud needs its approval | Pilot, maintainer |
 | `GM-021`, `GM-022`, `GM-035` | R3, explicitly not authorized | Maintainer |
 | Accounts, payments, community, sync, email digest and telemetry items in S2–S4 (COM-, paid BIZ-, WEB-071, SEO-026, PLAT-027 and others) | Written approval and a privacy decision | Maintainer |
-| GROW child-facing items (CNT-8xx, S3) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
+| GROW child-facing items (CNT-8xx, S3) and the games for children 2 to 6 (GAME-053, GAME-054, GAME-055, GAME-057) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
 | S4 languages | Native reviewers per language | Reviewers |
 
 ## Decisions only the maintainer can make
@@ -348,5 +360,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-054 Big shapes and colors and GAME-052 Group coloring wall. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

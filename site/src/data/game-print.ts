@@ -57,6 +57,8 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'quiet-shapes': { kind: 'island', version: '2026-11-18' },
   'color-wash': { kind: 'none', reason: 'wash' },
   'collage-board': { kind: 'island', version: '2026-11-18' },
+  'garden-planner': { kind: 'island', version: '2026-11-18' },
+  'coloring-wall': { kind: 'island', version: '2026-11-18' },
 };
 
 /** Whether a game has a paper version (built in or rendered by the page). */
@@ -99,6 +101,8 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'quiet-shapes': ['quietShapes', 'guidance'],
   'color-wash': ['colorWash', 'guidance'],
   'collage-board': ['collageBoard', 'guidance'],
+  'garden-planner': ['gardenPlanner', 'guidance'],
+  'coloring-wall': ['coloringWall', 'guidance'],
 };
 
 /** The one-line rules text, identical on the game and on its paper version. */

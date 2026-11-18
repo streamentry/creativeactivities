@@ -207,7 +207,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-038 | P2 | partial | Color wash |
 | GAME-039 | P3 | new | Quiet scene |
 | GAME-040 | P1 | partial | Seasonal puzzle pack |
-| GAME-041 | P2 | new | Garden planner |
+| GAME-041 | P2 | partial | Garden planner |
 | GAME-042 | P2 | new | Garden bird spotter |
 | GAME-043 | P2 | new | Picnic planner |
 | GAME-009 | P0 | exists | Conversation cards |
@@ -220,7 +220,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-011 | P0 | exists | Picture bingo |
 | GAME-050 | P1 | partial | Picture passing circle |
 | GAME-051 | P1 | partial | Big-screen picture talk |
-| GAME-052 | P2 | new | Group coloring wall |
+| GAME-052 | P2 | partial | Group coloring wall |
 | GAME-004 | P1 | exists | Sort together |
 | GAME-005 | P1 | exists | Picture puzzle (web) |
 | GAME-015 | P1 | partial | Picture puzzle (app) |

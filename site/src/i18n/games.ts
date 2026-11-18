@@ -92,6 +92,12 @@ export const SEASONAL_PACK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const DECORATE_A_CARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Group coloring wall is offered. Its labels, steps and paper wording are English only until a
+ * native speaker has checked them (GAME-052), so it has its own list.
+ */
+export const COLORING_WALL_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Quiet shapes puzzle is offered. Its six picture names, piece names, messages and the paper
  * wording are English only until a native speaker has checked them (GAME-060), so it has its own list.
  */
@@ -108,6 +114,12 @@ export const COLOR_WASH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
  * English only until a native speaker has checked them (GAME-033), so it has its own list.
  */
 export const COLLAGE_BOARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Garden planner is offered. Its summary words, its messages and its plural picture names are English
+ * only until a native speaker has checked them (GAME-041), so it has its own list.
+ */
+export const GARDEN_PLANNER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
  * Languages where Story dice is offered. It needs no picture names to play,
@@ -157,6 +169,8 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'quiet-shapes') return QUIET_SHAPES_REVIEWED.includes(code);
   if (slug === 'color-wash') return COLOR_WASH_REVIEWED.includes(code);
   if (slug === 'collage-board') return COLLAGE_BOARD_REVIEWED.includes(code);
+  if (slug === 'garden-planner') return GARDEN_PLANNER_REVIEWED.includes(code);
+  if (slug === 'coloring-wall') return COLORING_WALL_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
