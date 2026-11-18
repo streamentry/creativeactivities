@@ -40,6 +40,7 @@ describe('site storage registry', () => {
         'cookie:gm_lang',
         'localStorage:ca-analytics-consent-v1',
         'localStorage:ca-paths-v1',
+        'localStorage:ca-plain-steps',
         'localStorage:ca-saved-activities-v1',
         'localStorage:ca-tried-activities-v1',
         'localStorage:ca-what-i-have-v1',

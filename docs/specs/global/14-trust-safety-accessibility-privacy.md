@@ -218,7 +218,7 @@ Depends on: TSA-011.
 Risks / not doing: Do not use a pixel that records full URLs.
 
 ### TSA-013 · Special-category data posture (GDPR Article 9)
-Priority P0 · Phase S2 · Status new · Pillars: CARE, CALM, GROW
+Priority P0 · Phase S2 · Status partial · Pillars: CARE, CALM, GROW
 
 Why: Information about a person's health is special-category data under GDPR Article 9(1). A dementia diagnosis or care need recorded about someone is health data [R5 §5.2].
 
@@ -281,7 +281,7 @@ Depends on: TSA-011.
 Risks / not doing: Do not keep email lists longer than the schedule.
 
 ### TSA-017 · Privacy notice and store privacy labels
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Store privacy labels and the site notice must match each other and the inventory. A mismatch is a trust failure and a store risk.
 

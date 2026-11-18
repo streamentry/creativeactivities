@@ -1,5 +1,6 @@
 import { z } from 'astro/zod';
 import { SAFETY_FLAGS } from './activities';
+import { plainStepProblems } from './plain-steps';
 
 /** The finder's three first questions (DESIGN.md › Finder filters). */
 export const ACTIVITY_TYPES = ['art', 'craft', 'nature', 'music', 'sensory', 'conversation'] as const;
@@ -134,6 +135,8 @@ export const activityCardSchema = z
     senses: z.array(z.enum(['sight', 'touch', 'smell', 'hearing', 'movement'])).min(1),
     /** One action per step (DESIGN.md › Accessibility). */
     steps: z.array(z.string().max(220)).min(3).max(9),
+    /** Short steps (WEB-039): optional; one action and at most 14 words each (plain-steps.ts). */
+    plainSteps: z.array(z.string().max(120)).min(3).max(16).optional(),
     variations: z
       .array(z.object({ kind: z.enum(VARIATION_KINDS), text: z.string().max(260) }))
       .min(2)
@@ -171,4 +174,9 @@ export const activityCardSchema = z
   .refine(
     (d) => d.images.every((image) => image.step === undefined || image.step <= d.steps.length),
     'an image names a step the card does not have',
-  );
+  )
+  .superRefine((d, ctx) => {
+    for (const problem of plainStepProblems(d.plainSteps ?? [])) {
+      ctx.addIssue({ code: 'custom', message: problem, path: ['plainSteps'] });
+    }
+  });

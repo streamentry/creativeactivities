@@ -179,11 +179,13 @@ Risks / not doing: Auto-generated related lists can look random. Review them.
 
 ### WEB-009 · Pillar tiles and pillar hubs
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
 
 Why: MISSION names the situations, and the six pillars organize them ([README](README.md#pillars)). Visitors who do not know what they want need a way in besides search.
 
-What: Tiles on `/activity/` and the home page link to pillar hubs: `/make/`, `/calm/`, `/together/` and `/for-older-adults/`. `/kids-and-families/` waits for S2 content. Hubs follow the template in [WEB-059](#web-059--intent-hub-template).
+What: Tiles on `/activity/` and the home page link to pillar hubs. They are the live section pages `/crafts/`, `/together/`, `/creative-calm/` and `/caregiving/` (older adults and dementia care); the spec's earlier paths `/make/`, `/calm/` and `/for-older-adults/` were never built and are not needed (decided 2026-11-19 to keep live URLs). `/kids/` stays a section, not a pillar, until the child-facing gate and SEO-041 are decided; its home tile is kept. Hubs follow the template in [WEB-059](#web-059--intent-hub-template).
+
+Evidence (2026-11-19): `site/src/data/pillars.ts` holds each pillar's opening, selection rule, not-for line, card rule and intent hubs; `SectionView.astro` shows them above the guide list in English only (translated pages unchanged); `pillars.test.ts` checks six or more real cards, the overlap rule against every hub list, banned words and hub links. Browser at 390 px: `/caregiving/` shows six cards and three hub links, no sideways scroll; `/de/caregiving/` unchanged.
 
 Acceptance:
 - Each pillar hub links to at least six cards and to its intent hubs.
@@ -384,7 +386,7 @@ Risks / not doing: Pictures can carry cultural assumptions. Test them with peopl
 
 ### WEB-020 · Read-aloud
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Reading aloud helps people with low vision, low literacy and tired eyes, and it supports shared reading in a group ([MISSION, "Accessible by default"](../../../MISSION.md)).
 
@@ -399,6 +401,8 @@ Acceptance:
 Depends on: [WEB-036](#web-036--keyboard-focus-and-screen-reader-on-every-template).
 
 Risks / not doing: No third-party speech service. A cloud voice would change the privacy position.
+
+Evidence (2026-11-19): "Listen to the steps" and a Listen button on each step of every activity card (`site/src/components/CardListen.tsx`, `site/src/lib/listen-card.ts`), with Pause, Resume, Stop and a Normal or Slower speed; nothing speaks until pressed; it reads the title, then every safety flag and note, then the steps; it stops on `pagehide` and when the tab is hidden; the controls appear only where the browser has speech and are hidden in print; the note "Uses your device's own voice. Some devices send the text to their maker to speak it." is under the control. Checked in Chromium at 390 px (180 voices). Gaps: Firefox and Safari not tried; whether a given device sends text to its maker is stated generally, not verified per platform; English cards only.
 
 ### WEB-021 · Short demo video per activity
 
@@ -718,7 +722,7 @@ Risks / not doing: The finder needs JavaScript for its best behavior. Its basic 
 
 ### WEB-039 · Plain-language mode
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, GROW
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, GROW
 
 Why: DESIGN asks for comprehension with people who prefer short language, with "one action per step" ([DESIGN §6](../../../DESIGN.md)).
 
@@ -732,6 +736,8 @@ Acceptance:
 Depends on: [06 content library](06-content-library.md) for the editorial work.
 
 Risks / not doing: Shortening text can remove a safety step. The safety check runs on both versions.
+
+Evidence (2026-11-19): an optional `plainSteps` list on a card (`site/src/lib/activity-schema.ts`), checked by `site/src/lib/plain-steps.ts`: at most 14 words and one action per step; every safety keyword in a standard step (adult, scissors, cut, hot, water, glue, near and others) appears in a plain step too; a plain step may use a safety word or name a material only if the card already does. The Safety section is shared, not rewritten. A "Short steps" switch (`site/src/components/PlainToggle.tsx`) swaps the steps list and remembers the choice on the device (`ca-plain-steps`, listed on the Your data page). Eight cards have plain steps; the other 45 show no switch and keep the standard text. Browser at 390 px: on Arrange flowers together, 8 steps become 11, "Let the helper do the cutting." is its own step, the choice survives a reload. Gaps: 45 cards have no plain steps yet; not tested with five people who prefer short language; read-aloud still reads the standard steps in Short steps mode.
 
 ### WEB-040 · Offline reading
 

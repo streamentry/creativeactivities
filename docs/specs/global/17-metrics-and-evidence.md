@@ -24,7 +24,7 @@ Summary: 40 items. P0 15, P1 17, P2 7, P3 1. Every item has a block here; sectio
 ### North star and core usefulness
 
 ### MET-001 · Confirmed activity starts ("We tried this")
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: VISION names this as the north-star proxy. It is the only measure that counts an activity done away from the screen. The README defines #1 by it ([README](README.md#definition-of-1-how-we-will-know)).
 What: a count of people who confirm they tried an activity. Web: a "We tried this" button on activity pages sends an aggregate increment ([platform](15-platform-data-architecture.md) PLAT-027). App: confirmed in a consented pilot diary. Partners: reported in aggregate.
 Acceptance:
@@ -78,7 +78,7 @@ Depends on: [parenting and kids](08-pillar-parenting-kids.md); [trust, safety, a
 Risks / not doing: measuring children. Not done.
 
 ### MET-006 · Pillar input: CARE (older adults, dementia, caregivers)
-Priority P0 · Phase S2 · Status new · Pillars: CARE
+Priority P0 · Phase S2 · Status partial · Pillars: CARE
 Why: CARE is the first market and the wedge in VISION. Its success depends on a caregiver finding a fit quickly.
 What: starts from the situation hubs; "not a fit" feedback with a short reason code (too hard, too messy, not interested, needs supplies, not the right time); time to first usable instruction in usability sessions.
 Acceptance:
@@ -90,7 +90,7 @@ Depends on: [positioning and audiences](01-positioning-and-audiences.md); [platf
 Risks / not doing: inferring cognition or ability from taps. Never ([senior-first product contract](../../specs/product.md)).
 
 ### MET-007 · Pillar input: CALM (creative wellbeing)
-Priority P2 · Phase S3 · Status new · Pillars: CALM
+Priority P2 · Phase S3 · Status partial · Pillars: CALM
 Why: CALM handles grief, stress and loneliness, where people may be in distress. Its metrics must include safety.
 What: starts of calm activities; views of crisis-signposting blocks on grief and stress pages (aggregate, no identifiers). A rise in signposting views is reviewed as a safety signal.
 Acceptance:
@@ -162,7 +162,7 @@ Depends on: PLAT-004, PLAT-014.
 Risks / not doing: counting machine translation as coverage.
 
 ### MET-013 · Correction speed
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: a wrong materials list or safety step can cause harm. [R5 §5.6] and DESIGN §4B require a correction route.
 What: median days from report to correction, and the share of safety and material corrections fixed the same working day (proposed target).
 Acceptance:
@@ -328,7 +328,7 @@ Depends on: MET-026.
 Risks / not doing: asking partners for personal data.
 
 ### MET-028 · Printable distribution and reprints
-Priority P2 · Phase S2 · Status new · Pillars: all
+Priority P2 · Phase S2 · Status partial · Pillars: all
 Why: printing is a distribution path ([VISION.md]; [R5 §4]). Reprints show that a card is used more than once.
 What: downloads of printable cards and packs; partner reprints where partners report them; QR-code visits counted as an aggregate through a short link.
 Acceptance:
@@ -434,7 +434,7 @@ Risks / not doing: optimizing one channel at the expense of trust.
 ### Measurement design and operations
 
 ### MET-037 · Privacy-preserving measurement principles
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: MISSION sets privacy as a non-negotiable. The app has no analytics SDK by decision ([measurement plan](../../plan/measurement.md)). The website has GA4 only.
 What: the design rules for every metric in this file: aggregate counts only; no health data, diagnosis or free text; no person-level data in public reports; minimum cell size (proposed: 10); retention set to the shortest useful period; consent respected (see [platform](15-platform-data-architecture.md) PLAT-026).
 Acceptance:
@@ -445,7 +445,7 @@ Depends on: PLAT-024, PLAT-026.
 Risks / not doing: adding a metric that needs a new SDK without a decision ([measurement plan](../../plan/measurement.md)).
 
 ### MET-038 · Data-quality checks
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: a metric with no count or date is not evidence. The plan says every figure carries its count and date ([docs/plan/README.md](../../plan/README.md) §8).
 What: automated checks for event schema failures, missing counts and dates on every report, consent-mode coverage, and sudden drops in event volume.
 Acceptance:
@@ -455,7 +455,7 @@ Depends on: PLAT-024.
 Risks / not doing: presenting noisy weekly numbers as trends. Read weeks, not days ([measurement plan](../../plan/measurement.md)).
 
 ### MET-039 · Dashboards and review cadence
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: metrics only change decisions when someone reviews them on a schedule.
 What: three levels. Weekly ops (incidents, broken links, safety reports, overdue reviews). Monthly metrics review (MET-001 to MET-031). Quarterly evidence-gate review tied to [roadmap](18-roadmap.md). Each dashboard names its owner, its sources and its last update.
 Acceptance:

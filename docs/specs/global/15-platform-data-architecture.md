@@ -165,7 +165,7 @@ Depends on: PLAT-011.
 Risks / not doing: non-developer reviewers blocked by Git. That is the trigger for PLAT-010, not a reason to skip review.
 
 ### PLAT-010 · Editorial states and review queue
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: a review queue becomes necessary once reviewers and translators are not developers.
 What: states `draft`, `in-review`, `reviewer-approved`, `published`, `needs-review`, `retired`. Roles: author, reviewer, translator, native reviewer, maintainer. Implement with Git labels first; move to a Git-based or headless CMS with workflow only when the gate is met.
 Acceptance:
@@ -262,7 +262,7 @@ Depends on: PLAT-003.
 Risks / not doing: build time with many images. Cache derivatives. Do not add a runtime image service in S1.
 
 ### PLAT-018 · Step photo and caption standard
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: DESIGN §2 says photos are never the only instruction, and §4B makes steps optional images. [R1 §4] names photo-per-step as the strongest format for low-vision and printed use.
 What: a step may have one image, one caption of one sentence, and alt text that describes the action, not "image of". The text of the step is always present.
 Acceptance:
@@ -274,7 +274,7 @@ Depends on: PLAT-003, PLAT-017.
 Risks / not doing: photo production cost. Start with 10 flagship activities and measure use ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-019 · Print-ready cards and generated PDFs
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: printing is a primary distribution path ([VISION.md]; [R5 §4]). DESIGN §4B says the print page must work with no internet and no color ink.
 What: each activity and pack has a print stylesheet (one card) and a generated PDF in A4 and US Letter, black and white, plus a large-print variant. The footer shows version, date and a short link or QR code.
 Acceptance:

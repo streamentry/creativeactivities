@@ -108,7 +108,7 @@ Rules that apply to every type:
 
 ### CNT-009 · Step photos and illustrations
 
-- **Priority P1 · Phase S2 · Status new** (cards are text-only steps today).
+- **Priority P1 · Phase S2 · Status partial** (cards are text-only steps today).
 - **Why:** photos and drawings help people who follow pictures, and DESIGN requires actual materials and steps to be shown. A photo is never the only instruction.
 - **Rules:** one image per step where the step is hard to read from text alone; alt text describes the action ("Press the button down with your thumb"), not the scene; the same style across a set; hands and objects over faces; diverse people without staging.
 - **Technical:** AVIF or WebP with JPEG fallback; explicit width and height; lazy-loaded below the fold; never more than twice the rendered size.
@@ -257,7 +257,7 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-030 · Editorial pipeline
 
-- **Priority P0 · Phase S2 · Status new.**
+- **Priority P0 · Phase S2 · Status partial.**
 - **Why:** the first thing that makes the library trusted is that every page has passed the same steps ([R5 §5.5 and §5.6](research/05-search-scale-trust.md#56-trust-and-transparency-checklist-for-every-page)).
 - **What:** the eight stages in §3, with a checklist per stage stored with the page.
 - **Acceptance:**
@@ -281,7 +281,7 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 
 ### CNT-033 · Target library sizes
 
-- **Priority P1 · Phase S2 · Status new.**
+- **Priority P1 · Phase S2 · Status partial.**
 - **What:** §6, re-set at the end of S1 from usability and capacity data, not from market size.
 - **Acceptance:** each size change in the roadmap cites the evidence that prompted it.
 

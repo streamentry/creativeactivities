@@ -30,6 +30,9 @@ import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
 import { STAGE_TEXT } from '../lib/group-stage';
 import { relatedCards, type RelatedFacts } from '../lib/related';
 import { overdueSince } from '../../scripts/review-queue-lib.mjs';
+import { CardListen, StepListen } from '../components/CardListen';
+import { PlainToggle } from '../components/PlainToggle';
+import { ui } from '../i18n/ui';
 
 interface Props {
   activity: CollectionEntry<'activityCards'>;
@@ -86,6 +89,11 @@ const resultImages = d.images.filter((image) => image.step === undefined && imag
 const materialsImages = d.images.filter((image) => image.kind === 'materials');
 const stepImages = (step: number) => d.images.filter((image) => image.step === step);
 const hasSmallParts = d.safetyFlags.includes('small-parts');
+/** WEB-020: the Listen controls. Safety notes shown above the steps are read first. */
+const listen = ui('en').listen;
+const listenStep = { listen: listen.listen, stop: listen.stop, stepLabel: listen.stepLabel, stopStep: listen.stopStep };
+// Read-aloud says the safety flags and notes before the steps, so a listener hears them before starting.
+const listenLead = [...d.safetyFlags.map((flag) => SAFETY_FLAG_LABELS[flag]).filter(Boolean), ...d.safety];
 
 const jsonLd = withdrawn
   ? [breadcrumbs(crumbs)]
@@ -179,17 +187,25 @@ const jsonLd = withdrawn
 
         <section class="reveal" aria-labelledby="steps">
           <h2 id="steps" tabindex="-1">What to do</h2>
+          <CardListen client:idle title={d.name} steps={d.steps} lead={listenLead} ui={listen} />
+          {d.plainSteps && <PlainToggle client:idle />}
           {resultImages.map((image) => <ActivityImage image={image} />)}
           <ol class="activity-steps" data-stage="steps">
             {
               d.steps.map((step, i) => (
                 <li>
                   {step}
+                  <StepListen client:idle n={i + 1} text={step} ui={listenStep} />
                   {stepImages(i + 1).map((image) => <ActivityImage image={image} />)}
                 </li>
               ))
             }
           </ol>
+          {d.plainSteps && (
+            <ol class="activity-steps activity-steps--plain" hidden>
+              {d.plainSteps.map((step) => <li>{step}</li>)}
+            </ol>
+          )}
         </section>
 
         <section class="activity-stop reveal" aria-labelledby="stop">

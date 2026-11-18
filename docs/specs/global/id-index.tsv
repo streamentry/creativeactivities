@@ -7,7 +7,7 @@ WEB-005	P1	S2	exists	03-features-web.md	Finder state in the URL
 WEB-006	P1	S2	partial	03-features-web.md	What I have mode
 WEB-007	P2	S2	partial	03-features-web.md	One idea right now
 WEB-008	P1	S2	exists	03-features-web.md	Related cards by function
-WEB-009	P1	S2	new	03-features-web.md	Pillar tiles and pillar hubs
+WEB-009	P1	S2	exists	03-features-web.md	Pillar tiles and pillar hubs
 WEB-010	P1	S2	new	03-features-web.md	Facet browse pages
 WEB-011	P0	S1	partial	03-features-web.md	At-a-glance block with Start, Print and Save
 WEB-012	P0	S1	partial	03-features-web.md	Step photos or illustrations
@@ -18,7 +18,7 @@ WEB-016	P0	S2	exists	03-features-web.md	Versioned prints
 WEB-017	P1	S2	partial	03-features-web.md	Printable pack builder
 WEB-018	P1	S2	partial	03-features-web.md	Large-print editions
 WEB-019	P1	S2	new	03-features-web.md	Picture-led card
-WEB-020	P1	S2	new	03-features-web.md	Read-aloud
+WEB-020	P1	S2	partial	03-features-web.md	Read-aloud
 WEB-021	P2	S3	new	03-features-web.md	Short demo video per activity
 WEB-022	P0	S1	partial	03-features-web.md	Structured safety flags
 WEB-023	P0	S2	exists	03-features-web.md	Scope line on every page
@@ -37,7 +37,7 @@ WEB-035	P0	S1	exists	03-features-web.md	Large text, high contrast and reduced mo
 WEB-036	P0	S1	partial	03-features-web.md	Keyboard, focus and screen reader on every template
 WEB-037	P0	S2	exists	03-features-web.md	Zoom and small-screen reflow
 WEB-038	P0	S2	exists	03-features-web.md	Works without JavaScript, within a page budget
-WEB-039	P1	S2	new	03-features-web.md	Plain-language mode
+WEB-039	P1	S2	partial	03-features-web.md	Plain-language mode
 WEB-040	P1	S2	new	03-features-web.md	Offline reading
 WEB-041	P3	S3	partial	03-features-web.md	Installable web app
 WEB-042	P2	S2	new	03-features-web.md	Display options: dark theme and reading settings
@@ -77,13 +77,13 @@ WEB-075	P0	S2	exists	03-features-web.md	Accessibility tests in CI
 WEB-076	P1	S2	partial	03-features-web.md	Due-for-review queue
 APP-014	P0	S2	new	04-features-app.md	App-to-website handoff: every activity links to its full guide
 APP-018	P0	S2	partial	04-features-app.md	Screen-reader-first activity reading
-APP-019	P0	S2	new	04-features-app.md	First run asks for nothing
-APP-001	P1	S2	new	04-features-app.md	Offline activity cards (bundled subset)
+APP-019	P0	S2	partial	04-features-app.md	First run asks for nothing
+APP-001	P1	S2	partial	04-features-app.md	Offline activity cards (bundled subset)
 APP-002	P1	S2	new	04-features-app.md	Print an activity card or pack from the app
 APP-003	P1	S2	new	04-features-app.md	Personal activity plan on the device
-APP-004	P1	S2	new	04-features-app.md	On-device "We tried this" list
+APP-004	P1	S2	partial	04-features-app.md	On-device "We tried this" list
 APP-005	P1	S2	new	04-features-app.md	Offline finder with the website filters
-APP-006	P1	S2	new	04-features-app.md	Helper mode on one device
+APP-006	P1	S2	partial	04-features-app.md	Helper mode on one device
 APP-013	P1	S2	new	04-features-app.md	Website-to-app link for offline use
 APP-011	P1	S2	new	04-features-app.md	Home-screen quick actions
 APP-020	P1	S2	new	04-features-app.md	Share an activity as text and a link
@@ -92,7 +92,7 @@ APP-026	P1	S2	partial	04-features-app.md	Content changes only through app releas
 APP-029	P1	S2	new	04-features-app.md	Facilitator page for each card
 APP-030	P1	S2	new	04-features-app.md	I have this materials checklist
 APP-031	P1	S2	new	04-features-app.md	Picture-only card view
-APP-034	P1	S2	new	04-features-app.md	Experiment gates
+APP-034	P1	S2	partial	04-features-app.md	Experiment gates
 APP-007	P2	S3	new	04-features-app.md	Care-setting kiosk
 APP-008	P2	S3	new	04-features-app.md	Large-screen group session
 APP-009	P3	S3	new	04-features-app.md	Apple Watch glance
@@ -179,17 +179,17 @@ CNT-005	P1	S2	exists	06-content-library.md	Printable pack
 CNT-006	P1	S2	partial	06-content-library.md	Path (weekly plan or multi-week sequence)
 CNT-007	P1	S2	partial	06-content-library.md	Printable template
 CNT-008	P2	S2	partial	06-content-library.md	Coloring page
-CNT-009	P1	S2	new	06-content-library.md	Step photos and illustrations
+CNT-009	P1	S2	partial	06-content-library.md	Step photos and illustrations
 CNT-010	P2	S2	new	06-content-library.md	Short video
 CNT-011	P2	S2	new	06-content-library.md	Audio read-aloud
 CNT-012	P1	S2	partial	06-content-library.md	Glossary
 CNT-013	P2	S2	partial	06-content-library.md	Seasonal calendar and collections
 CNT-014	P2	S2	new	06-content-library.md	Educator and care-setting programme
 CNT-015	P1	S2	exists	06-content-library.md	FAQ
-CNT-030	P0	S2	new	06-content-library.md	Editorial pipeline
+CNT-030	P0	S2	partial	06-content-library.md	Editorial pipeline
 CNT-031	P0	S2	partial	06-content-library.md	Media rights and provenance
 CNT-032	P0	S2	new	06-content-library.md	AI-assistance policy
-CNT-033	P1	S2	new	06-content-library.md	Target library sizes
+CNT-033	P1	S2	partial	06-content-library.md	Target library sizes
 CNT-034	P1	S2	partial	06-content-library.md	Update, correction and retirement
 CNT-040	P0	S2	partial	06-content-library.md	Library inventory
 CNT-701	P1	S2	exists	07-pillar-crafting.md	Paper
@@ -342,7 +342,7 @@ SEO-035	P1	S2	new	12-search-geo-distribution.md	AI crawler policy
 SEO-036	P2	S2	partial	12-search-geo-distribution.md	Holiday and seasonal pages (R5 rank 6)
 SEO-037	P2	S2	exists	12-search-geo-distribution.md	Music activities for seniors (R5 rank 10)
 SEO-038	P2	S3	new	12-search-geo-distribution.md	Life-story and storytelling (R5 rank 11)
-SEO-039	P2	S3	new	12-search-geo-distribution.md	Relaxing art for adults (R5 rank 9)
+SEO-039	P2	S3	partial	12-search-geo-distribution.md	Relaxing art for adults (R5 rank 9)
 SEO-040	P3	S3	new	12-search-geo-distribution.md	Sensory activities for children (R5 rank 12)
 SEO-041	P3	S3	new	12-search-geo-distribution.md	Broad rainy-day and adult or kids' crafts (R5 ranks 13 to 15)
 SEO-042	P2	S2	partial	12-search-geo-distribution.md	FAQPage on visible questions
@@ -355,15 +355,15 @@ L10N-001	P0	S2	partial	13-localization.md	Current-state inventory and count reco
 L10N-002	P0	S2	partial	13-localization.md	Launch order and evidence gates
 L10N-003	P0	S2	partial	13-localization.md	Native review workflow
 L10N-004	P0	S2	new	13-localization.md	Reviewer recruitment and credentials
-L10N-005	P0	S2	new	13-localization.md	Content that is never published by machine alone
+L10N-005	P0	S2	partial	13-localization.md	Content that is never published by machine alone
 L10N-006	P0	S2	partial	13-localization.md	Structure survives translation
 L10N-007	P0	S2	new	13-localization.md	Dementia terminology glossary per locale
 L10N-008	P0	S2	partial	13-localization.md	Brand-name propagation check
-L10N-009	P0	S2	new	13-localization.md	Local safety and crisis information
+L10N-009	P0	S2	partial	13-localization.md	Local safety and crisis information
 L10N-010	P0	S2	partial	13-localization.md	Translation memory, term base and ARB extraction
 L10N-011	P0	S2	new	13-localization.md	Activity cards localized before guides
 L10N-012	P1	S2	new	13-localization.md	Cultural adaptation register
-L10N-013	P1	S2	new	13-localization.md	Holidays, faith and food defaults
+L10N-013	P1	S2	partial	13-localization.md	Holidays, faith and food defaults
 L10N-014	P1	S2	partial	13-localization.md	Units, paper sizes and printing
 L10N-015	P1	S2	new	13-localization.md	Family structures and forms of address
 L10N-016	P1	S2	partial	13-localization.md	Right-to-left layout
@@ -377,7 +377,7 @@ L10N-023	P1	S2	partial	13-localization.md	Accessibility in each language
 L10N-024	P1	S2	partial	13-localization.md	Review budget and cost estimate
 L10N-025	P1	S2	new	13-localization.md	Defect tracking and quality metrics
 L10N-026	P1	S2	partial	13-localization.md	Local search phrases as hypotheses
-L10N-027	P2	S2	new	13-localization.md	Imagery and people across cultures
+L10N-027	P2	S2	partial	13-localization.md	Imagery and people across cultures
 L10N-028	P2	S3	new	13-localization.md	Community translation with reviewers
 L10N-029	P2	S3	new	13-localization.md	Participant-language test (GM-041)
 L10N-030	P3	S4	new	13-localization.md	Languages beyond the reviewed list
@@ -396,11 +396,11 @@ TSA-009	P1	S2	exists	14-trust-safety-accessibility-privacy.md	Accessibility regr
 TSA-010	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No accounts for the core product
 TSA-011	P0	S2	exists	14-trust-safety-accessibility-privacy.md	Data and tracker inventory
 TSA-012	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Event allowlist and no health data
-TSA-013	P0	S2	new	14-trust-safety-accessibility-privacy.md	Special-category data posture (GDPR Article 9)
-TSA-014	P1	S2	new	14-trust-safety-accessibility-privacy.md	Consent for non-essential storage
+TSA-013	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Special-category data posture (GDPR Article 9)
+TSA-014	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Consent for non-essential storage
 TSA-015	P0	S2	partial	14-trust-safety-accessibility-privacy.md	Photos stay on the device
 TSA-016	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Retention, deletion and data requests
-TSA-017	P1	S2	new	14-trust-safety-accessibility-privacy.md	Privacy notice and store privacy labels
+TSA-017	P1	S2	partial	14-trust-safety-accessibility-privacy.md	Privacy notice and store privacy labels
 TSA-018	P0	S1	partial	14-trust-safety-accessibility-privacy.md	Child-reachable default
 TSA-019	P0	S2	partial	14-trust-safety-accessibility-privacy.md	No ads or ad technology on child-reachable pages
 TSA-020	P0	S2	new	14-trust-safety-accessibility-privacy.md	UK Age Appropriate Design Code assessment
@@ -443,7 +443,7 @@ PLAT-006	P1	S2	partial	15-platform-data-architecture.md	Source records and claim
 PLAT-007	P1	S2	partial	15-platform-data-architecture.md	Versions, change log and corrections
 PLAT-008	P1	S2	partial	15-platform-data-architecture.md	URL policy, redirects and canonical registry
 PLAT-009	P0	S2	exists	15-platform-data-architecture.md	Git-first editorial flow
-PLAT-010	P1	S2	new	15-platform-data-architecture.md	Editorial states and review queue
+PLAT-010	P1	S2	partial	15-platform-data-architecture.md	Editorial states and review queue
 PLAT-011	P0	S2	partial	15-platform-data-architecture.md	One validation command for every content type
 PLAT-012	P1	S2	partial	15-platform-data-architecture.md	Staleness and re-review queue
 PLAT-013	P0	S2	new	15-platform-data-architecture.md	Partitioned, incremental builds
@@ -451,8 +451,8 @@ PLAT-014	P0	S2	partial	15-platform-data-architecture.md	Publishing state per (en
 PLAT-015	P0	S2	partial	15-platform-data-architecture.md	Hosting capacity check at 10× the page count
 PLAT-016	P2	S4	new	15-platform-data-architecture.md	On-demand rendering for the long tail
 PLAT-017	P0	S2	partial	15-platform-data-architecture.md	Image pipeline: masters to AVIF, WebP and fallback
-PLAT-018	P1	S2	new	15-platform-data-architecture.md	Step photo and caption standard
-PLAT-019	P1	S2	new	15-platform-data-architecture.md	Print-ready cards and generated PDFs
+PLAT-018	P1	S2	partial	15-platform-data-architecture.md	Step photo and caption standard
+PLAT-019	P1	S2	partial	15-platform-data-architecture.md	Print-ready cards and generated PDFs
 PLAT-020	P2	S3	new	15-platform-data-architecture.md	Short video with captions and transcript
 PLAT-021	P0	S2	partial	15-platform-data-architecture.md	Finder index sharded by locale and facet
 PLAT-022	P1	S2	partial	15-platform-data-architecture.md	Site-wide static search index
@@ -492,19 +492,19 @@ BIZ-015	P2	S4	new	16-business-model.md	App premium only for genuinely new featur
 BIZ-016	P1	S2	new	16-business-model.md	Paid review and translation as a cost line
 BIZ-017	P3	S4	new	16-business-model.md	Non-clinical facilitator training
 BIZ-018	P0	S2	new	16-business-model.md	No paid child content and no in-app purchases for children
-MET-001	P0	S2	new	17-metrics-and-evidence.md	Confirmed activity starts ("We tried this")
+MET-001	P0	S2	partial	17-metrics-and-evidence.md	Confirmed activity starts ("We tried this")
 MET-002	P0	S2	new	17-metrics-and-evidence.md	Start rate
 MET-003	P1	S2	new	17-metrics-and-evidence.md	Prints, saves and shares per 1,000 card views
 MET-004	P1	S2	new	17-metrics-and-evidence.md	Pillar input: MAKE
 MET-005	P2	S3	new	17-metrics-and-evidence.md	Pillar input: GROW (kids and parenting)
-MET-006	P0	S2	new	17-metrics-and-evidence.md	Pillar input: CARE (older adults, dementia, caregivers)
-MET-007	P2	S3	new	17-metrics-and-evidence.md	Pillar input: CALM (creative wellbeing)
+MET-006	P0	S2	partial	17-metrics-and-evidence.md	Pillar input: CARE (older adults, dementia, caregivers)
+MET-007	P2	S3	partial	17-metrics-and-evidence.md	Pillar input: CALM (creative wellbeing)
 MET-008	P1	S2	new	17-metrics-and-evidence.md	Pillar input: PLAY (games)
 MET-009	P2	S2	new	17-metrics-and-evidence.md	Pillar input: TOGETHER (groups and intergenerational)
 MET-010	P0	S2	partial	17-metrics-and-evidence.md	Reviewed coverage of indexed pages
 MET-011	P1	S2	partial	17-metrics-and-evidence.md	Overdue reviews
 MET-012	P0	S2	partial	17-metrics-and-evidence.md	Translation coverage and staleness
-MET-013	P1	S2	new	17-metrics-and-evidence.md	Correction speed
+MET-013	P1	S2	partial	17-metrics-and-evidence.md	Correction speed
 MET-014	P1	S2	partial	17-metrics-and-evidence.md	Broken links and 404s on indexed pages
 MET-015	P1	S2	partial	17-metrics-and-evidence.md	Source coverage on health-adjacent pages
 MET-016	P0	S2	partial	17-metrics-and-evidence.md	Accessibility defects per release
@@ -519,7 +519,7 @@ MET-024	P1	S2	new	17-metrics-and-evidence.md	Index coverage of indexed pairs
 MET-025	P2	S3	new	17-metrics-and-evidence.md	AI-answer citations (exploratory)
 MET-026	P1	S2	new	17-metrics-and-evidence.md	Partner adoption
 MET-027	P2	S3	new	17-metrics-and-evidence.md	Partner-reported use (aggregate)
-MET-028	P2	S2	new	17-metrics-and-evidence.md	Printable distribution and reprints
+MET-028	P2	S2	partial	17-metrics-and-evidence.md	Printable distribution and reprints
 MET-029	P0	S1	partial	17-metrics-and-evidence.md	Usability study programme
 MET-030	P1	S2	new	17-metrics-and-evidence.md	Comprehension test pass rate
 MET-031	P1	S2	new	17-metrics-and-evidence.md	Return households
@@ -528,7 +528,7 @@ MET-033	P3	S4	new	17-metrics-and-evidence.md	Caregiver wellbeing with a validate
 MET-034	P0	S2	new	17-metrics-and-evidence.md	Time on site and page views (counter-metric)
 MET-035	P0	S2	partial	17-metrics-and-evidence.md	Dark-pattern guardrails
 MET-036	P2	S3	new	17-metrics-and-evidence.md	Channel dependence
-MET-037	P0	S2	new	17-metrics-and-evidence.md	Privacy-preserving measurement principles
-MET-038	P1	S2	new	17-metrics-and-evidence.md	Data-quality checks
-MET-039	P0	S2	new	17-metrics-and-evidence.md	Dashboards and review cadence
+MET-037	P0	S2	partial	17-metrics-and-evidence.md	Privacy-preserving measurement principles
+MET-038	P1	S2	partial	17-metrics-and-evidence.md	Data-quality checks
+MET-039	P0	S2	partial	17-metrics-and-evidence.md	Dashboards and review cadence
 MET-040	P1	S2	new	17-metrics-and-evidence.md	Cost per confirmed start

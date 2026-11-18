@@ -138,7 +138,12 @@ async function stepTexts(page) {
   return page.evaluate(() =>
     [...document.querySelectorAll('.activity-steps li')]
       .filter((el) => getComputedStyle(el).display !== 'none' && el.offsetParent !== null)
-      .map((el) => el.textContent.replace(/\s+/g, ' ').trim()),
+      // Compare the words that print: on-screen controls in a step (the Listen button, WEB-020) are left out.
+      .map((el) => {
+        const copy = el.cloneNode(true);
+        for (const control of copy.querySelectorAll('.no-print, button, astro-island')) control.remove();
+        return copy.textContent.replace(/\s+/g, ' ').trim();
+      }),
   );
 }
 

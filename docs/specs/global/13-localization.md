@@ -89,7 +89,7 @@ Depends on: [TSA file](14-trust-safety-accessibility-privacy.md) (reviewer and c
 Risks / not doing: Do not use a translation vendor's word for a clinical review.
 
 ### L10N-005 · Content that is never published by machine alone
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: A mistranslated instruction about materials or safety is a real harm [R5 §2.3]. Health and crisis content is the highest risk [MISSION, non-negotiables].
 
@@ -158,7 +158,7 @@ Risks / not doing: Do not rename a translated product name without a reviewer. N
 Evidence: `site/src/lib/brand-name.test.ts` scans launched content (site source, public files, ARB strings, store metadata, store descriptions, redirect Workers) for "Golden Moments" and `dementiaactivities.games`; the English mailto subjects were fixed; the remaining hits are listed in `BRAND_ALLOWLIST` with a kind and reason (store history notes, redirect configs, the App Store link path). Not yet zero: 14 translated guide summaries and `ff.json` keep the old name and need a native reviewer. Open for the maintainer: whether `dementiaactivities.games` is a redirect or a separate live site. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-009 · Local safety and crisis information
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE, GROW
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE, GROW
 
 Why: A wrong emergency or crisis number is the most serious possible translation error. Local emergency numbers vary, and the English "911" is not valid everywhere [native review, check 4; R3 §4.4].
 
@@ -220,7 +220,7 @@ Depends on: L10N-003.
 Risks / not doing: Do not replace a US example with a stereotype of another culture.
 
 ### L10N-013 · Holidays, faith and food defaults
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Holiday crafts are a top-ranked cluster in English [R5 §6 rank 6], but a holiday default for every reader would exclude many. Faith imagery, food and fasting practices affect what is appropriate [MISSION, "Cultural openness"].
 
@@ -426,7 +426,7 @@ Risks / not doing: Do not publish defect counts as a quality badge.
 | ID | Item | Priority · Phase · Status | What and acceptance | Depends on |
 | --- | --- | --- | --- | --- |
 | L10N-026 | Local search phrases as hypotheses | P1 · S2 · partial | Use the local phrase lists in [language markets §5](../../plan/language-markets.md) to seed reviews and titles. Acceptance: a phrase is used only after its market's Search Console data is read ([SEO-032](12-search-geo-distribution.md)). | SEO-032 |
-| L10N-027 | Imagery and people across cultures | P2 · S2 · new | Show a range of families, clothing, homes and ages. Acceptance: no local stereotype; each image's rights and consent are logged ([TSA](14-trust-safety-accessibility-privacy.md)). | L10N-012 |
+| L10N-027 | Imagery and people across cultures | P2 · S2 · partial | Show a range of families, clothing, homes and ages. Acceptance: no local stereotype; each image's rights and consent are logged ([TSA](14-trust-safety-accessibility-privacy.md)). | L10N-012 |
 | L10N-028 | Community translation with reviewers | P2 · S3 · new | Volunteer translation through a review step, as in the Khan Academy model [R5 §2.2]. Acceptance: non-protected content only; volunteers credited only with permission; reviewer sign-off required. | L10N-003, L10N-005 |
 | L10N-029 | Participant-language test (GM-041) | P2 · S3 · hypothesis | Test whether families who speak Spanish or Vietnamese prefer their first language for the activity. Acceptance: runs only after the test in [app features](04-features-app.md); evidence is mixed, so treat the result as a hypothesis. | L10N-002 |
 | L10N-030 | Languages beyond the reviewed list | P3 · S4 · new | Any language outside the launch order enters only at S4, with its own search and review gates. Acceptance: a language entering requires L10N-002 gates and a named reviewer. | L10N-002 |

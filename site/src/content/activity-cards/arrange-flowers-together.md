@@ -33,6 +33,18 @@ steps:
   - "Take turns choosing and adding stems. There is no right shape."
   - "Turn the jar around and look at it from each side together."
   - "Agree on where the flowers should go, such as a windowsill or the table."
+plainSteps:
+  - "Spread the towel on the table."
+  - "Lay the stems out side by side."
+  - "Fill the jar about halfway with water."
+  - "Ask which stem they would like to start with."
+  - "Trim the end of that stem to fit the jar."
+  - "Let the helper do the cutting."
+  - "Place the first stem in the jar, or hand it over."
+  - "Take turns choosing and adding stems."
+  - "There is no right shape."
+  - "Turn the jar and look at each side."
+  - "Agree on where to put them, like a windowsill."
 variations:
   - kind: easier
     text: "Trim all the stems to the same length before you start and offer two at a time to choose from."
