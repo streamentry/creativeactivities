@@ -1,36 +1,36 @@
 ---
 title: "Comment jouer avec une personne atteinte de démence"
-description: "Un guide pratique pour jouer avec une personne atteinte de démence : préparer, trouver le bon rythme, ne jamais corriger, simplifier les jeux et savoir quand arrêter."
+description: "Guide pratique pour jouer avec une personne atteinte de démence : installation, rythme, pas de correction, jeux plus simples et moment de s'arrêter."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Voyez un jeu comme un moment ensemble, pas comme un test. Choisissez un moment
-  calme de la journée, asseyez-vous côte à côte dans une pièce tranquille et
-  proposez un seul jeu simple. Laissez la personne donner le rythme, ne
-  corrigez jamais les erreurs sans conséquence, simplifiez le jeu au premier
-  signe de tension, et faites des images un point de départ pour parler.
-  Arrêtez tant que c’est encore agréable. S’arrêter tôt, ou simplement regarder
+  Considérez le jeu comme un moment passé ensemble, pas comme une épreuve.
+  Choisissez un moment calme de la journée, asseyez-vous côte à côte dans une
+  pièce tranquille et proposez un seul jeu simple. Laissez la personne donner le
+  rythme, ne corrigez pas les petites erreurs sans conséquence, simplifiez le jeu
+  dès les premiers signes de tension et transformez les images en conversation.
+  Arrêtez tant que tout reste agréable. S'arrêter tôt, ou simplement regarder
   ensemble, est une bonne issue.
 keyPoints:
-  - "Le but est le plaisir et le lien, pas de finir ni de donner les bonnes réponses."
-  - "Préparez d’abord : une pièce calme, une bonne lumière, lunettes et appareils auditifs en place, télévision éteinte, un seul jeu prêt."
-  - "Ne corrigez pas les erreurs sans conséquence. Dites « Essayons comme ça » ou continuez simplement."
-  - "Simplifiez un jeu avant que la frustration monte : moins d’images, moins de choix, des images laissées visibles."
-  - "Servez-vous des images pour lancer des histoires avec « Racontez-moi… » plutôt que « Vous vous souvenez… ? »"
-  - "Arrêtez aux premiers signes de fatigue ou de contrariété. S’arrêter tôt est une réussite, pas un échec."
+  - "Le but est le plaisir et le lien, pas de finir le jeu ni de donner les bonnes réponses."
+  - "Préparez d'abord : pièce calme, bonne lumière, lunettes et appareils auditifs en place, télévision éteinte, un seul jeu prêt."
+  - "Ne corrigez pas les erreurs sans conséquence. Dites « Essayons autrement » ou continuez simplement."
+  - "Simplifiez un jeu avant que la frustration ne monte : moins d'images, moins de choix, images laissées visibles."
+  - "Servez-vous des images pour amorcer des récits avec « Parlez-moi de... » plutôt que « Vous rappelez-vous... ? »"
+  - "Arrêtez dès les premiers signes de fatigue ou de contrariété. S'arrêter tôt est une réussite, pas un échec."
 faq:
-  - q: "Combien de temps faut-il jouer ?"
-    a: "Il n’y a pas de bonne durée. Pour beaucoup de personnes, quelques minutes suffisent largement, et certains jours une seule partie est assez. Regardez la personne plutôt que l’horloge, et arrêtez tant qu’elle semble encore détendue."
-  - q: "Dois-je laisser la personne gagner ou faire semblant de ne pas voir les erreurs ?"
-    a: "Dans un jeu partagé et sans pression, il n’y a rien à gagner ni à perdre. Si une erreur ne la dérange pas, laissez passer. Si elle semble la contrarier, aidez discrètement ou simplifiez le jeu sans le faire remarquer."
-  - q: "Et si la personne préfère me regarder jouer ?"
-    a: "C’est très bien. Le National Institute on Aging suggère de laisser une personne simplement regarder si elle semble y prendre plus de plaisir. Parlez de ce que vous voyez et invitez-la à montrer du doigt ou à choisir quand elle le souhaite."
-  - q: "Ces jeux sont-ils un moyen de tester la mémoire ?"
-    a: "Non. Nos jeux sont de simples activités à partager, pour le plaisir et la conversation. Ce ne sont pas des tests de mémoire, ils ne mesurent rien, et ce ne sont pas des traitements de la démence."
-  - q: "Par quel jeu vaut-il mieux commencer ?"
-    a: "Commencez par le plus simple qui convient à la personne. Paires d’images avec quatre cartes et les images laissées visibles, ou Trouver la même avec deux choix, sont des points de départ en douceur. Les Cartes de conversation fonctionnent bien si la personne préfère parler plutôt que toucher l’écran."
+  - q: "Combien de temps doit durer un jeu ?"
+    a: "Il n'existe pas de durée idéale. Pour beaucoup de personnes, quelques minutes suffisent, et certains jours une seule manche est assez. Observez la personne plutôt que l'horloge, et arrêtez tant qu'elle semble encore détendue."
+  - q: "Dois-je laisser gagner la personne ou faire semblant de ne pas voir ses erreurs ?"
+    a: "Dans un jeu partagé et sans pression, il n'y a rien à gagner ni à perdre. Si une erreur ne gêne pas la personne, laissez-la passer. Si elle semble la gêner, aidez discrètement ou simplifiez le jeu sans la relever."
+  - q: "Et si la personne préfère me regarder jouer ?"
+    a: "C'est très bien. Le National Institute on Aging suggère de laisser la personne simplement regarder si elle semble y prendre plus de plaisir. Parlez de ce que vous voyez et invitez-la à montrer ou à choisir quand elle le souhaite."
+  - q: "Ces jeux servent-ils à tester la mémoire ?"
+    a: "Non. Nos jeux sont des activités partagées et simples, destinées au plaisir et à la conversation. Ce ne sont pas un test de mémoire, ils ne mesurent rien et ne constituent pas un traitement de la démence."
+  - q: "Quel jeu choisir pour commencer ?"
+    a: "Commencez par le plus simple qui convient à la personne. Les Paires d'images avec quatre tuiles et les images laissées visibles, ou Trouver le pareil avec deux choix, sont des débuts doux. Les Cartes de conversation conviennent bien si la personne aime davantage parler que toucher l'écran."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -49,127 +49,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Une bonne partie de jeu avec une personne atteinte de démence ne ressemble pas à une compétition. Elle ressemble à deux personnes assises l’une près de l’autre, qui montrent des images du doigt, rient d’un proverbe et parlent de ce qui leur vient. Le jeu n’est qu’une raison de passer du temps ensemble.
+Un bon moment de jeu avec une personne atteinte de démence ne ressemble pas à une compétition. On voit deux personnes assises l'une près de l'autre, qui pointent des images, rient d'un proverbe et parlent de ce qui leur vient à l'esprit. Le jeu n'est qu'une occasion de passer du temps ensemble.
 
-Ce guide explique comment préparer, comment trouver le bon rythme, que dire quand quelque chose « ne va pas », comment rendre n’importe quel jeu plus facile ou un peu plus difficile, comment en faire une conversation, et comment savoir quand arrêter. Il vaut pour nos [jeux](/games/) comme pour les cartes, les puzzles et les jeux de société que vous avez déjà.
+Ce guide explique comment préparer le moment, comment rythmer une partie, quoi dire quand quelque chose « ne va pas », comment rendre n'importe quel jeu plus facile ou un peu plus difficile, comment le transformer en conversation et comment savoir quand s'arrêter. Il fonctionne avec nos [jeux](/games/) comme avec les cartes, puzzles et jeux de société que vous avez déjà.
 
-## Quelle est la meilleure façon de jouer avec une personne atteinte de démence ?
+## Quelle est la meilleure façon de jouer avec une personne atteinte de démence ?
 
-Misez sur le plaisir, pas sur la réussite. C’est le conseil central des [recommandations de l’Alzheimer’s Association sur les activités](https://www.alz.org/help-support/caregiving/daily-care/activities) : s’appuyer sur les capacités que la personne a encore, l’aider à démarrer, terminer vous-même les parties difficiles, et ne pas critiquer ni corriger les activités sans conséquence.
+Privilégiez le plaisir plutôt que la performance. C'est le conseil central des [recommandations de l'Alzheimer's Association sur les activités](https://www.alz.org/help-support/caregiving/daily-care/activities) : s'appuyer sur les capacités que la personne conserve, l'aider à se lancer, terminer vous-même les parties difficiles, et ne pas critiquer ni corriger les activités sans conséquence.
 
-Concrètement, cela veut dire :
+Concrètement, cela signifie :
 
-- **Asseyez-vous à côté d’elle, pas en face.** Côte à côte, vous voyez tous les deux l’écran ou la table, et aider ressemble à un travail d’équipe plutôt qu’à une surveillance.
-- **Proposez un seul jeu à la fois.** Un menu de choix peut ressembler à un test avant même d’avoir commencé.
-- **Suivez son fil.** Si elle veut toucher les images dans son propre ordre, parler d’une seule image pendant dix minutes ou s’arrêter après deux tours, c’est ça, le jeu du jour.
-- **Comptez les bons moments, pas les parties terminées.** Un sourire, une histoire ou une demi-heure paisible, voilà le résultat que vous cherchez.
+- **Asseyez-vous à côté d'elle, pas en face.** Côte à côte, vous voyez tous deux l'écran ou la table, et l'aide ressemble à un travail d'équipe plutôt qu'à une surveillance.
+- **Proposez un seul jeu à la fois.** Un menu de choix peut ressembler à un examen avant même que le jeu ne commence.
+- **Suivez son initiative.** Si elle veut toucher les images dans son ordre, parler d'une seule image pendant dix minutes ou s'arrêter après deux tours, c'est le jeu du jour.
+- **Comptez les bons moments, pas les manches terminées.** Un sourire, une histoire ou une demi-heure paisible sont le résultat recherché.
 
-## Comment préparer avant de commencer ?
+## Comment préparer le moment avant de commencer ?
 
-Quelques minutes de préparation évitent la plupart des frustrations que l’on attribue au jeu lui-même.
+Quelques minutes de préparation évitent la plupart des frustrations que l'on attribue au jeu lui-même.
 
-1. **Choisissez son meilleur moment de la journée.** Les [recommandations du National Institute on Aging (NIA) pour adapter les activités](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) conseillent de prévoir sorties et activités au moment de la journée où la personne est le plus en forme. Pour beaucoup, c’est en milieu de matinée. La fin d’après-midi est souvent plus difficile ; voir [des activités calmes pour la fin d’après-midi](/caregiving/late-day-restlessness/).
-2. **Faites le calme dans la pièce.** Éteignez la télévision et la radio, et fermez la porte si vous le pouvez. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) recommande de limiter le bruit et les distractions avant d’essayer de parler.
-3. **Vérifiez d’abord le confort.** Une boisson à portée de main, un passage aux toilettes avant, un fauteuil confortable, et lunettes et appareils auditifs en place.
-4. **Éclairez bien.** Une lumière vive et uniforme, sans reflet sur l’écran, rend les images plus faciles à voir.
-5. **Préparez le jeu avant de vous asseoir.** Ouvrez-le, choisissez les réglages et réglez le volume vous-même. Puis tournez l’écran vers elle. Pour des conseils sur les tablettes, voir [installer une tablette ou un téléphone](/caregiving/tablets-and-screens/).
-6. **Calez l’appareil.** Un support ou un étui qui maintient la tablette droite évite à quiconque de la tenir, et il est plus facile de montrer du doigt.
+1. **Choisissez le moment de la journée où elle est la plus en forme.** Le [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) conseille de prévoir les sorties et les activités au moment où la personne est à son meilleur. Pour beaucoup, c'est le milieu de la matinée. La fin d'après-midi est souvent plus difficile ; voir [activités calmes en fin de journée](/creative-calm/calm-afternoon-activities/).
+2. **Rendez la pièce calme.** Éteignez la télévision et la radio, et fermez la porte si c'est possible. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) recommande de limiter le bruit et les distractions avant d'essayer de parler.
+3. **Vérifiez d'abord le confort.** Une boisson à portée de main, un passage aux toilettes avant de commencer, un fauteuil confortable, et lunettes et appareils auditifs en place.
+4. **Éclairez bien l'espace.** Une lumière vive et uniforme, sans reflet sur l'écran, rend les images plus faciles à voir.
+5. **Préparez le jeu avant de vous asseoir.** Ouvrez-le, choisissez les réglages et réglez vous-même le volume. Ensuite, tournez l'écran vers la personne. Activez les textes en grand sur l'appareil si cela aide.
+6. **Installez l'appareil sur un support.** Un pied ou un étui qui maintient la tablette droite évite que quelqu'un ait à la tenir, et il est plus facile de montrer du doigt.
 
-## Comment l’inviter sans mettre de pression ?
+## Comment l'inviter sans pression ?
 
-Faites une invitation décontractée, qu’il soit facile de refuser. Quelques phrases qui passent souvent bien :
+Rendez l'invitation décontractée et facile à refuser. Quelques formules qui fonctionnent souvent bien :
 
-- « J’ai trouvé des images de jardin. Vous voulez les regarder avec moi ? »
-- « Vous pourriez m’aider avec ce puzzle ? Je bloque. »
-- « Vous préférez les fleurs ou les oiseaux aujourd’hui ? » (choisir entre deux est plus facile qu’une question ouverte)
-- « Je fais une carte pour votre sœur. De quelle couleur on la fait ? »
+- « J'ai trouvé des images de jardin. Vous voulez les regarder avec moi ? »
+- « Pourriez-vous m'aider avec ce puzzle ? Je bloque. »
+- « Vous préférez les fleurs ou les oiseaux aujourd'hui ? » (un choix entre deux est plus facile qu'une question ouverte)
+- « Je fais une carte pour votre sœur. Quelle couleur vous semble la plus jolie ? »
 
-L’Alzheimer’s Association conseille d’expliquer le but d’une activité, par exemple faire une carte pour une amie, car une raison lui donne du sens. Demander de l’aide fonctionne aussi, parce que la personne se sent utile.
+L'Alzheimer's Association suggère d'expliquer le but d'une activité, par exemple la fabrication d'une carte pour une amie, car une raison donne du sens au geste. Demander de l'aide fonctionne aussi, car la personne se sent utile.
 
-Si elle dit non, acceptez-le. Réessayez plus tard ou proposez autre chose. Notre guide [que faire quand la personne dit non](/caregiving/when-they-say-no/) va plus loin.
+Si elle refuse, acceptez. Réessayez plus tard ou proposez autre chose. Notre guide sur [que faire quand elle dit non](/caregiving/when-they-say-no/) va plus loin.
 
-## Combien de temps doit durer un jeu, et à quel rythme ?
+## Combien de temps doit durer un jeu, et à quel rythme aller ?
 
-Laissez la personne donner le rythme, et prévoyez des moments courts. Il n’existe pas de durée idéale fondée sur des données pour un jeu partagé. Deux à cinq minutes paisibles peuvent constituer une activité complète.
+Laissez la personne donner le rythme et prévoyez des séances courtes. Il n'existe pas de durée idéale fondée sur des preuves pour un jeu partagé. Deux à cinq minutes calmes peuvent constituer une activité complète.
 
-- **Attendez plus longtemps que ce qui vous paraît naturel.** Le NIA conseille de laisser plus de temps à la personne pour répondre et d’éviter de l’interrompre. Comptez jusqu’à dix dans votre tête avant d’aider.
-- **Une étape à la fois.** Donnez une seule consigne courte (« Touchez une image »), puis attendez. Montrez plutôt qu’expliquer : désignez du doigt l’endroit où toucher.
-- **Faites des pauses librement.** Si elle s’arrête pour parler d’une image, le jeu peut attendre. Rien ne presse.
-- **Laissez-la regarder.** Le NIA note que certaines personnes préfèrent regarder, et c’est un choix tout à fait valable.
+- **Attendez plus longtemps qu'il ne semble naturel.** Le NIA conseille de laisser plus de temps pour répondre et d'éviter d'interrompre. Comptez mentalement jusqu'à dix avant d'aider.
+- **Une étape à la fois.** Donnez une consigne courte (« Touchez une image »), puis attendez. Montrez plutôt qu'expliquer : pointez l'endroit où toucher.
+- **Marquez des pauses sans hésiter.** Si elle s'arrête pour parler d'une image, le jeu peut attendre. Inutile de se presser.
+- **Laissez-la regarder.** Le NIA note que certaines personnes préfèrent regarder, et c'est un choix légitime.
 
-## Faut-il corriger les mauvaises réponses ?
+## Faut-il corriger les mauvaises réponses ?
 
-Non. Corriger quelqu’un, même gentiment, encore et encore, lui fait comprendre qu’il échoue, même si vous avez de bonnes intentions. L’Alzheimer’s Association conseille de ne pas critiquer ni corriger les activités sans conséquence. Dans un jeu, presque toutes les erreurs sont sans conséquence.
+Non. Corriger encore et encore, même avec de bonnes intentions, lui fait sentir qu'elle échoue. L'Alzheimer's Association recommande de ne pas critiquer ni corriger les activités sans conséquence. Dans un jeu, presque chaque erreur est sans conséquence.
 
 | Au lieu de | Essayez |
 | --- | --- |
-| « Non, c’est faux. » | « Essayons comme ça. » (un exemple donné par le NIA) |
-| « Ce n’est pas une paire. Regardez encore. » | Ne dites rien et jouez le tour suivant, ou « Tiens, elles sont rouges toutes les deux. » |
-| « Vous vous souvenez de qui c’est ? » | « Parlez-moi de cette image. » |
-| « Vous avez déjà fait celle-là. » | « Elle est bien, celle-là. On la refait. » |
-| « Allez, vous le savez. » | « Je vous montre la fin ? » |
+| « Non, c'est faux. » | « Essayons autrement. » (exemple donné par le NIA) |
+| « Ce n'est pas une paire. Regardez encore. » | Ne rien dire et passer au tour suivant, ou « Oh, celles-ci sont toutes les deux rouges. » |
+| « Vous rappelez-vous qui c'est ? » | « Parlez-moi de cette image. » |
+| « Vous avez déjà fait celle-là. » | « C'est une belle image. Refaisons-la. » |
+| « Allez, vous connaissez ça. » | « Voulez-vous que je vous montre la fin ? » |
 
-Si une erreur la frustre visiblement, aidez discrètement. Montrez la bonne image, jouez un tour vous-même, ou simplifiez le jeu à la partie suivante. Si un proverbe reçoit une fin drôle et inattendue, riez avec elle. Sa fin est peut-être meilleure.
+Si une erreur la contrarie clairement, aidez discrètement. Montrez la bonne image du doigt, jouez un tour vous-même ou simplifiez le jeu au tour suivant. Si un proverbe prend une fin drôle et fausse, riez avec elle. Sa fin est peut-être meilleure.
 
-## Comment rendre un jeu plus facile ou plus difficile ?
+## Comment rendre un jeu plus facile ou plus difficile ?
 
-Adaptez le jeu à la personne ce jour-là, pas à une étiquette de stade. La même personne peut avoir besoin d’une version plus simple le soir que le matin. Le premier conseil du NIA est d’adapter l’activité à ce que la personne peut faire et de veiller à ce qu’elle ait le sentiment de réussir.
+Adaptez le jeu à la personne du jour, pas à une étape de la maladie. La même personne peut avoir besoin d'une version plus simple le soir que le matin. Le premier conseil du NIA est d'adapter l'activité à ce que la personne peut faire et de veiller à ce qu'elle se sente en réussite.
 
-| Jeu | Pour simplifier | Pour corser un peu |
+| Jeu | Plus facile | Un peu plus difficile |
 | --- | --- | --- |
-| [Paires d’images](/games/picture-pairs/) | Commencez avec 4 cartes et laissez les images visibles | Plus de cartes, ou cacher les images si cela reste confortable |
-| [Trouver la même](/games/find-the-same/) | 2 choix | Jusqu’à 4 choix |
-| [Trier ensemble](/games/sort-together/) | Vous tenez l’image, elle montre le panier | Elle touche seule l’image puis le panier |
-| [Puzzle en images](/games/picture-puzzle/) | 4 pièces, et parlez d’abord de l’image entière | 9 pièces |
-| [Proverbes à compléter](/games/finish-the-saying/) | Affichez la fin, puis dites-la ensemble | Laissez-la dire la fin avant de toucher |
-| [Mots mêlés en gros caractères](/games/word-search/) | Imprimez la grille, cherchez un mot ensemble, montrez sa première lettre | Laissez-la choisir le prochain mot à chercher |
-| [Coloriages](/games/coloring/) | Vous choisissez deux couleurs, elle choisit entre les deux | Elle choisit toutes les couleurs |
-| [Cartes de conversation](/games/conversation-cards/) | Regardez simplement l’image ensemble | Utilisez les invitations ouvertes de la carte |
-| [Paires de photos](/games/photo-pairs/) | Quelques photos de famille très aimées | Ajoutez des photos |
-| [Loto en images](/games/picture-bingo/) | Un accompagnant s’assoit à côté de chaque joueur | Les joueurs marquent eux-mêmes leur carton |
-| [Respiration calme](/games/calm-breathing/) | Asseyez-vous et regardez simplement ensemble | Respirez lentement en suivant le rythme |
+| [Paires d'images](/games/picture-pairs/) | Commencer avec 4 tuiles et laisser les images visibles | Plus de tuiles, ou cacher les images si cela semble confortable |
+| [Trouver le pareil](/games/find-the-same/) | 2 choix | Jusqu'à 4 choix |
+| [Trier ensemble](/games/sort-together/) | Vous tenez l'image, elle montre le panier | Elle touche seule l'image et le panier |
+| [Puzzle d'images](/games/picture-puzzle/) | 4 pièces, parler d'abord de l'image entière | 9 pièces |
+| [Finir le proverbe](/games/finish-the-saying/) | Montrer la fin, puis la dire ensemble | La laisser dire la fin avant de toucher |
+| [Mots cachés](/games/word-search/) | Imprimer, chercher un seul mot ensemble, montrer sa première lettre | La laisser choisir le prochain mot à trouver |
+| [Coloriage](/games/coloring/) | Vous choisissez deux couleurs, elle choisit entre les deux | Elle choisit toutes les couleurs |
+| [Cartes de conversation](/games/conversation-cards/) | Simplement regarder l'image ensemble | Utiliser les questions ouvertes de la carte |
+| [Paires de photos](/games/photo-pairs/) | Quelques photos de famille qu'elle aime | Ajouter plus de photos |
+| [Loto d'images](/games/picture-bingo/) | Un accompagnant assis auprès de chaque joueur | Les joueurs marquent leurs propres cartes |
+| [Respiration calme](/games/calm-breathing/) | Simplement s'asseoir et regarder ensemble | Respirer lentement en même temps |
 
-Signes que le jeu est trop difficile : de longues pauses qui ont l’air inquiètes plutôt que réfléchies, des « Je n’y arrive pas » répétés, l’appareil repoussé, ou des erreurs qui la contrarient. Signes qu’il est peut-être trop facile : l’ennui, ou si elle dit que c’est puéril. Dans ce cas, respectez-le et passez à quelque chose qui paraît adulte, comme des mots mêlés, un puzzle tiré d’une vraie photographie, ou une conversation autour d’une image de son ancien métier.
+Signes qu'un jeu est trop difficile : de longs silences qui ressemblent à de l'inquiétude plutôt qu'à de la réflexion, des « Je n'y arrive pas » répétés, l'appareil repoussé, ou des erreurs qui la contrarient. Signes qu'il est peut-être trop facile : de l'ennui, ou la personne qui dit que c'est enfantin. Si cela arrive, respectez-le et passez à quelque chose qui lui semble adulte, comme des mots cachés, un puzzle à partir d'une vraie photographie, ou une conversation sur une image liée à son ancien métier.
 
-## Comment faire d’un jeu une conversation ?
+## Comment transformer un jeu en conversation ?
 
-Servez-vous de chaque image comme d’une invitation à parler, et considérez tout ce qu’elle dit comme une bonne réponse. Pour beaucoup de familles, c’est le meilleur moment du jeu.
+Servez-vous de chaque image comme d'une invitation à parler, et considérez toute réponse comme une bonne réponse. Pour beaucoup de familles, c'est la meilleure partie du jeu.
 
-- **Posez des questions ouvertes, sans mauvaise réponse possible.** « Qu’est-ce que vous remarquez ? » « Laquelle vous plaît ? » « Parlez-moi d’une cuisine comme celle-ci. »
-- **Partagez d’abord.** « Ma grand-mère avait un chien comme celui-là. » Votre histoire l’aide à en raconter une à son tour.
-- **Suivez les digressions.** Si l’image d’une voiture mène à l’histoire d’un voyage en voiture, l’histoire est l’activité. Laissez le jeu en pause.
-- **Ne vérifiez pas les faits.** Quand on évoque des souvenirs, une conversation agréable compte plus que l’exactitude des détails. Si l’histoire a changé depuis la dernière fois, profitez de la nouvelle version.
-- **Utilisez les invitations intégrées.** [Proverbes à compléter](/games/finish-the-saying/) fait suivre chaque proverbe d’une question pour parler, et les [Cartes de conversation](/games/conversation-cards/) sont conçues exactement pour cela. [Paires de photos](/games/photo-pairs/) utilise vos propres photos de famille, qui font souvent naître les histoires les plus riches.
+- **Posez des questions ouvertes, sans mauvaise réponse.** « Qu'est-ce que vous remarquez ? » « Laquelle vous plaît ? » « Parlez-moi d'une cuisine comme celle-ci. »
+- **Commencez par partager.** « Ma grand-mère avait un chien comme celui-ci. » Votre histoire rend plus facile le partage de la sienne.
+- **Suivez la digression.** Si une image de voiture amène un récit de voyage, c'est ce récit qui est l'activité. Laissez le jeu en pause.
+- **Ne vérifiez pas les faits.** Dans la remémoration, une conversation agréable compte plus que des détails exacts. Si l'histoire diffère de la dernière fois, profitez de la nouvelle version.
+- **Utilisez les questions prévues.** [Finir le proverbe](/games/finish-the-saying/) fait suivre chaque proverbe d'une question pour parler, et les [Cartes de conversation](/games/conversation-cards/) sont conçues exactement pour cela. Les [Paires de photos](/games/photo-pairs/) utilisent vos propres photos de famille, qui font souvent naître les plus riches récits.
 
-Vous trouverez d’autres idées dans nos guides sur [les activités autour des souvenirs](/activities/reminiscence/) et [les conseils pour communiquer](/caregiving/communication-tips/).
+Vous trouverez d'autres idées dans notre guide sur les [activités de remémoration](/activities/reminiscence/). Pour un soutien après un diagnostic, voir [les premières étapes après un diagnostic](/caregiving/after-dementia-diagnosis/).
 
-## Quand faut-il arrêter ?
+## Quand faut-il arrêter ?
 
-Arrêtez aux premiers signes de fatigue ou de contrariété, et idéalement un peu avant. L’Alzheimer’s Association conseille d’arrêter ou de changer d’activité quand l’attention baisse ou que la frustration monte.
+Arrêtez dès les premiers signes de fatigue ou de contrariété, et idéalement un peu avant. L'Alzheimer's Association conseille d'arrêter ou de changer d'activité lorsque l'attention faiblit ou que la frustration augmente.
 
-Guettez :
+Soyez attentif à :
 
-- des bâillements, une posture qui s’affaisse ou un regard qui se détourne de l’écran ;
-- de l’agitation, le fait de se lever ou de demander à partir ;
-- des soupirs, des réponses brèves, ou « Ce n’est pas pour moi, ce jeu » ;
-- des touches au hasard ou l’appareil repoussé ;
-- des larmes, de l’irritation ou un changement d’humeur soudain.
+- les bâillements, un affaissement ou des yeux qui quittent l'écran ;
+- l'agitation, le fait de se lever ou de demander à partir ;
+- les soupirs, les réponses courtes ou « Je ne suis pas doué pour ça » ;
+- les touches données au hasard ou l'appareil repoussé ;
+- les larmes, l'irritation ou un changement d'humeur soudain.
 
-Comment bien arrêter :
+Comment bien arrêter :
 
-- **Finissez sur quelque chose de facile.** Une dernière paire qu’elle peut trouver, ou une dernière image à admirer.
-- **Ramenez-le à vous.** « J’ai bien envie d’une tasse de thé. On s’arrête là ? » évite de laisser entendre qu’elle a mal joué.
-- **Passez à quelque chose de physique ou d’apaisant.** Une courte promenade, un en-cas, plier le linge ou de la musique.
-- **Dites quelque chose de chaleureux.** « J’ai aimé faire ça avec vous. » Pas de compliments pour « avoir bien répondu », juste le plaisir du moment partagé.
+- **Terminez sur quelque chose de facile.** Une dernière association qu'elle peut faire, ou une dernière image à admirer.
+- **Parlez de vous.** « Je prendrais bien une tasse de thé. On s'arrête là ? » évite toute impression qu'elle a mal fait.
+- **Passez à quelque chose de physique ou d'apaisant.** Une courte promenade, une collation, plier le linge ou écouter de la musique.
+- **Dites quelque chose de chaleureux.** « J'ai aimé faire ça avec vous. » Pas de compliment pour « avoir réussi », seulement le plaisir du temps partagé.
 
-S’arrêter tôt, changer de programme, ou laisser tomber le jeu et rester simplement assis ensemble : ce sont toutes de bonnes issues.
+Arrêter tôt, changer de programme ou renoncer au jeu pour simplement rester assis ensemble sont autant de bonnes issues.
 
-## Peut-on jouer en groupe ou par appel vidéo ?
+## Peut-on jouer en groupe ou par visioconférence ?
 
-Oui, avec un peu plus de préparation. En groupe, limitez-vous à quelques personnes, installez des accompagnants à côté de ceux qui en ont besoin, et choisissez un jeu avec un centre d’attention commun bien clair. Le [Loto en images](/games/picture-bingo/) propose des cartons à imprimer et un tirage à l’écran pour les groupes. Voir [les activités de groupe en établissement](/activities/care-home-groups/) pour en savoir plus.
+Oui, avec un peu de préparation supplémentaire. En groupe, limitez-vous à quelques personnes, installez les accompagnants à côté de ceux qui en ont besoin, et choisissez un jeu avec un objectif commun clair. Le [Loto d'images](/games/picture-bingo/) propose des cartes imprimables et un animateur à l'écran pour les groupes. Voir [activités pour les groupes en établissement](/crafts/craft-group-sessions/) pour en savoir plus.
 
-Lors d’un appel vidéo, la personne à distance peut décrire une image pendant que quelqu’un dans la pièce montre du doigt et touche l’écran. Gardez des appels courts et familiers. Notre guide [les appels téléphoniques et vidéo](/activities/phone-and-video-calls/) donne d’autres conseils.
+En visioconférence, la personne à l'écran peut décrire une image pendant qu'un proche sur place la montre et la touche. Gardez les appels courts et familiers. Notre guide sur les [appels téléphoniques et vidéo](/together/staying-connected-from-afar/) contient d'autres conseils.
 
-## Et si un jeu ne marche vraiment pas ?
+## Que faire si un jeu ne fonctionne pas ?
 
-Certains jours, rien ne prend, et cela ne dit rien ni sur vous ni sur elle. Rangez le jeu et essayez un autre moment de la journée, un autre jeu, ou pas de jeu du tout. Beaucoup de bonnes activités n’ont rien à voir avec les écrans : la musique, plier des serviettes, feuilleter un album photo ou une courte promenade. Parcourez nos [idées d’activités](/activities/ideas/) pour en trouver d’autres.
+Certains jours rien ne prend, et ce n'est pas un reflet de vous ni d'elle. Rangez le jeu et essayez à un autre moment de la journée, avec un autre jeu, ou sans jeu du tout. De nombreuses bonnes activités n'ont rien à voir avec les écrans : la musique, plier du linge, feuilleter un album photo ou une courte promenade. Parcourez nos [idées d'activités](/activities/ideas/) pour en trouver d'autres.

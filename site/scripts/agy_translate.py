@@ -127,7 +127,7 @@ def configure_free_only() -> None:
     BACKENDS = list(FREE_BACKENDS)
     FALLBACKS = []
     ALL_BACKENDS = list(FREE_BACKENDS)
-QUOTA = re.compile(r'RESOURCE_EXHAUSTED|\b429\b|\b402\b|provider\.quota|usage limit|quota|insufficient funds|rate.?limit|too many requests|overloaded', re.I)
+QUOTA = re.compile(r'weekly limit|hit your (?:\w+ )?limit|limit · resets|RESOURCE_EXHAUSTED|\b429\b|\b402\b|provider\.quota|usage limit|quota|insufficient funds|rate.?limit|too many requests|overloaded', re.I)
 AUTH = re.compile(r'authentication required|not logged in|unauthorized|invalid api key|\b401\b|\b403\b', re.I)
 fails: dict[str, int] = {}
 hits: dict[str, int] = {}
