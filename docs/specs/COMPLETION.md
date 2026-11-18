@@ -411,6 +411,12 @@ Checks: vitest 151 files, 4,663 pass (1 skipped); build 16,709 pages; `check:sit
 
 Checks: vitest 153 files, 4,731 pass (1 skipped); build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7; `check:a11y` 0 failing of 226, including the dark variant.
 
+### Batch 46 (2026-11-19): a cross-browser check
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `pnpm check:browsers` runs eight flows in Playwright Chromium, Firefox and WebKit: read-aloud order, Short steps across a reload, colors and text settings applied before paint, the device's dark setting, Photo pairs and Scrapbook with test photos and no network request, game print sheets shown in print, and no sideways scroll at 320 px. Added to the site CI job | WEB-020 and the testing rules' minimum browser set; upkeep | Written by a Haiku subagent. Local run: all eight flows pass in Chromium and in WebKit (Safari's engine, not Safari itself). Playwright's Firefox build does not start on this macOS (sandbox and software-renderer errors, also with the shell sandbox off), so Firefox runs on the Linux CI runner instead |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
