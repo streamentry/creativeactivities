@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 25 browser games read their words from here. The mobile app's exporter also
+The 27 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -55,6 +55,8 @@ member or carer. Write plain, warm, adult language.
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
+| `ui.quietShapes` | About 40 strings, 6 picture names, 5 piece names and 5 shape descriptions | Quiet shapes puzzle (English only for now; GAME-060) |
+| `ui.seasonalPack` | 11 strings + 4 season names + 3 puzzles (title, how, describe) | Seasonal puzzle pack (English only for now; see below) |
 | `ui.drawingDuet` | 24 strings + 2 names of the people + 4 color names | Drawing duet (English only for now; see below) |
 | `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
 | `ui.decorateACard` | 9 strings + 5 occasions (label and front words) + 5 steps + 3 rules for two | Decorate a card together (English only for now; see below) |
@@ -362,6 +364,20 @@ word that ranks it). `penDown` and `penUp` are announced for the keyboard pen.
 Keep every string free of scores, timers, winners and comparisons. Add the
 translated strings and the language code to `DRAWING_DUET_REVIEWED` in `../games.ts`
 only after a native speaker has checked them. Do not machine-translate them.
+
+### Seasonal puzzle pack (`ui.seasonalPack`)
+
+Seasonal puzzle pack is English only for now (GAME-040). A person chooses a season and
+prints one page of three small paper puzzles drawn from the shared pictures: Match the
+pairs, Which one is different?, and Color it in. The screen never shows or checks an answer.
+`seasons` names the four seasons, and the months under each come from the season pages
+(`../../data/seasons.ts`), so both halves of the world are covered there, not here. `restDay`
+and `restLine` are the rest-day choice and its one calm line; keep them free of guilt,
+streak or reminder ideas. `puzzles` holds a `title`, a `how` (printed) and a `describe` (for
+a screen reader) for each puzzle. `printFooter` is printed at the bottom of the sheet. Do not
+name festivals or foods tied to one culture. A native speaker should check the strings, then
+add the translated strings and the language code to `SEASONAL_PACK_REVIEWED` in `../games.ts`.
+Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

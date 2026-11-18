@@ -29,9 +29,11 @@ interface Props {
   toss?: PlayUi['seatedToss'];
   /** The words of Decorate a card together: occasion names and front words, the inside label and the rules for two. */
   card?: PlayUi['decorateACard'];
+  /** The words of Seasonal puzzle pack: season names, puzzle titles and lines, and the footer. */
+  seasonal?: PlayUi['seasonalPack'];
 }
 
-const { sheet, title, rules, howTo, pictureNames, baskets, colorNames, numberColorNames, toss, card } = Astro.props;
+const { sheet, title, rules, howTo, pictureNames, baskets, colorNames, numberColorNames, toss, card, seasonal } = Astro.props;
 const name = (id: string) => pictureNames[id] ?? '';
 const rings = toss ? ringMarks(toss.rings) : [];
 const cardMarks = frameMarks();
@@ -232,6 +234,50 @@ const cardLines = messageLineYs();
           <span class="sheet-paper__cut" data-cut="down" />
         </div>
       </div>
+    )
+  }
+  {
+    sheet.layout === 'seasonal' && seasonal && (
+      <>
+        {sheet.seasons.map((pack) => (
+          <div class="sheet-paper__season" data-season-pack={pack.season} hidden={pack.season !== sheet.defaultSeason}>
+            <h3>{seasonal.seasons[pack.season]}</h3>
+            <p class="sheet-paper__when">{pack.months}</p>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.pairs.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.pairs.how}</p>
+              <div class="sheet-paper__pair-columns">
+                <div>
+                  {pack.pairsLeft.map((id) => <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />)}
+                </div>
+                <div>
+                  {pack.pairsRight.map((id) => <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />)}
+                </div>
+              </div>
+            </section>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.different.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.different.how}</p>
+              <div class="sheet-paper__row">
+                {pack.differentRow.map((id) => (
+                  <figure>
+                    <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />
+                  </figure>
+                ))}
+              </div>
+            </section>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.color.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.color.how}</p>
+              <figure class="sheet-paper__color-picture">
+                <img src={pictureUrl(pack.color)} alt={name(pack.color)} width="240" height="240" />
+                <figcaption>{name(pack.color)}</figcaption>
+              </figure>
+            </section>
+            <p class="sheet-paper__season-foot">{seasonal.printFooter}</p>
+          </div>
+        ))}
+      </>
     )
   }
   <slot />

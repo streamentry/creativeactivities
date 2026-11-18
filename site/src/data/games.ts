@@ -14,6 +14,7 @@ export type GameSlug =
   | 'drawing-duet'
   | 'seated-toss'
   | 'decorate-a-card'
+  | 'seasonal-pack'
   | 'find-together'
   | 'story-dice'
   | 'story-chain'
@@ -25,6 +26,7 @@ export type GameSlug =
   | 'conversation-cards'
   | 'photo-pairs'
   | 'picture-bingo'
+  | 'quiet-shapes'
   | 'calm-breathing';
 
 export type Stage = 'early' | 'middle' | 'late';
@@ -727,6 +729,56 @@ export const GAMES: readonly GameInfo[] = [
     featured: false,
   },
   {
+    slug: 'seasonal-pack',
+    name: 'Seasonal puzzle pack',
+    seoTitle: 'Seasonal Puzzle Pack: Printable Paper Puzzles',
+    h1: 'Seasonal Puzzle Pack: Three Paper Puzzles for Each Season',
+    description:
+      'Three small printable puzzles for spring, summer, autumn or winter: match the pairs, circle the one that is different, and color a picture in. Choose a season, or take a rest day. Free to print.',
+    short: 'Three printable puzzles for the season you choose, or a rest day.',
+    cardPictures: ['sunflower', 'sailboat', 'snowflake'],
+    stages: ['early', 'middle', 'late'],
+    players: 'All ages, solo or side by side',
+    printable: true,
+    intro:
+      'Choose a season, and the page shows three small paper puzzles drawn from that season\'s pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. You print one page, then do one, two or all three, at your own pace. Choose "Today is a rest day" instead and there is nothing to do.',
+    howTo: [
+      'Choose a season, or choose "Today is a rest day".',
+      'Look at the three puzzles, then tap "Print this season\'s pack".',
+      'Do one, two or all three, at your own pace.',
+      'Join the matching pictures with a line, circle the one that is different, and color the large picture in.',
+      'Stop whenever you like. A rest day is a good day too.',
+    ],
+    tips: [
+      'Start with the puzzle that feels easiest today. One is enough.',
+      'Say the name of each picture aloud, if that helps.',
+      'Use crayons or pencils. Any colors are fine.',
+      'Keep the page for next time, or let it go.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Does the page know which season it is?',
+        a: 'No. You choose the season. The page does not look at the date or your location.',
+      },
+      {
+        q: 'Is there a score or a right answer?',
+        a: 'No. Nothing is timed, scored or checked on the screen, and no answers are shown. Each puzzle is only a picture to look at, join, circle or color.',
+      },
+      {
+        q: 'What if nobody wants puzzles today?',
+        a: 'Choose "Today is a rest day". The page then shows one calm line, and there is nothing to print or do.',
+      },
+      {
+        q: 'What is on the printed sheet?',
+        a: 'One page for the season you chose: its three puzzles, each with a short line of how to do it, and a line saying you can do one, two or all three.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
     slug: 'story-dice',
     name: 'Story dice',
     seoTitle: 'Story Dice: a Picture Storytelling Game',
@@ -1118,6 +1170,55 @@ export const GAMES: readonly GameInfo[] = [
     ],
     relatedGuides: ['crafts/craft-group-sessions', 'activities/ideas'],
     featured: true,
+  },
+  {
+    slug: 'quiet-shapes',
+    name: 'Quiet shapes puzzle',
+    seoTitle: 'Quiet Shapes Puzzle: Fit Shapes Into a Picture',
+    h1: 'Quiet Shapes Puzzle: Fit the Pieces into the Picture',
+    description:
+      'Fit simple shapes into the outline of a house, a boat, a fish and more. Tap a piece, then a space of the same shape. There is no timer or score. Free to play and print.',
+    short: 'Fit simple shapes into a picture, at your own pace.',
+    cardPictures: ['sailboat', 'tulip', 'balloon'],
+    stages: ['middle', 'late'],
+    players: '1 person, at a table',
+    printable: true,
+    intro:
+      'A picture outline, such as a house, a boat or a rocket, is divided into spaces. Each space has a piece of the same shape, a large or small triangle, a square, a parallelogram or a rectangle. Tap a piece, then tap a space of the same shape, and it fits. The space turns the piece for you, so there is nothing to drag or rotate. If a piece is a different shape from a space, it stays in the tray with a short note. Nothing is timed or scored, and nothing is saved or sent. "Print this shape" prints the outline and its pieces on one page to color or cut out.',
+    howTo: [
+      'Tap a piece in the tray. It shows "Chosen" while it is selected.',
+      'Tap a space in the picture. If the shape matches, the piece fits there.',
+      'If it does not match, try another space. Nothing is lost by trying.',
+      'Tap a piece in the picture to take it back to the tray, or use "Start again" to take all of them back.',
+      'When every space has its piece, the picture is complete. Tap "Another shape" for a new one, or tap Rest to stop.',
+    ],
+    tips: [
+      'Turn the hint lines on to see each space. Turn them off for more of a puzzle, with only the outline to go by.',
+      'Start with the big shapes, such as the large triangles and the rectangles. The small pieces often go last.',
+      'Name the shapes out loud as you go: "a triangle, a square, a long rectangle". Talking can make it a shared activity.',
+      'On paper, color the pieces with two or three colors, or cut them out with an adult helping.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a move count?',
+        a: 'No. Nothing is timed, counted or scored. A piece that does not fit is simply not placed, and you can stop whenever you like.',
+      },
+      {
+        q: 'Is anything we make saved or sent?',
+        a: 'No. The picture stays on this page only. It is not saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'Are the places big enough for a tremor or a small screen?',
+        a: 'The outline is drawn as large as the screen allows, and each space is a button you can reach with a finger or with the Tab key. The pieces in the tray are the large buttons of the page.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print this shape" prints one picture on one page: the outline with its hint lines, and the pieces drawn at the same size beside it. Color the pieces, or cut them out to fit. An adult can do the cutting.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
   },
   {
     slug: 'calm-breathing',

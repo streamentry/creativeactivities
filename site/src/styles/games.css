@@ -1233,6 +1233,276 @@
   }
 }
 
+/* Quiet shapes puzzle (GAME-060). The outline is drawn in layers: a thick edge, the coloured spaces on top (so only
+   the outside edge shows), and the hint lines when they are on. Each space is a button clipped to its own shape, so
+   a tap lands only inside that shape. The qs-clip-* classes below are generated from clipPath() in
+   src/lib/games/quiet-shapes.ts; quiet-shapes.test.ts checks they still match. */
+.qs {
+  display: grid;
+  gap: var(--space-lg);
+}
+.qs__picture,
+.qs__done {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.qs__done {
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.qs__hints {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: 48px;
+  font-size: var(--text-md);
+  cursor: pointer;
+}
+.qs__hints input {
+  inline-size: 24px;
+  block-size: 24px;
+  accent-color: var(--gm-primary);
+}
+.qs__outline {
+  inline-size: 100%;
+  max-inline-size: 480px;
+  justify-self: center;
+  min-inline-size: 0;
+}
+.qs__art {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  overflow: visible;
+}
+.qs__art foreignObject {
+  overflow: visible;
+}
+.qs__edge {
+  fill: var(--gm-on-surface);
+  stroke: var(--gm-on-surface);
+  stroke-width: 6;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.qs__area {
+  stroke-width: 1;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.qs__area[data-state='empty'] {
+  fill: var(--gm-surface);
+  stroke: var(--gm-surface);
+}
+.qs__area[data-state='filled'][data-shape='large-triangle'] {
+  fill: var(--gm-accent-pale);
+  stroke: var(--gm-accent-pale);
+}
+.qs__area[data-state='filled'][data-shape='small-triangle'] {
+  fill: var(--gm-primary-container);
+  stroke: var(--gm-primary-container);
+}
+.qs__area[data-state='filled'][data-shape='square'] {
+  fill: var(--gm-secondary-container);
+  stroke: var(--gm-secondary-container);
+}
+.qs__area[data-state='filled'][data-shape='parallelogram'] {
+  fill: var(--gm-sunrise);
+  stroke: var(--gm-sunrise);
+}
+.qs__area[data-state='filled'][data-shape='rectangle'] {
+  fill: var(--gm-accent);
+  stroke: var(--gm-accent);
+}
+.qs__hint {
+  fill: none;
+  stroke: var(--gm-on-surface);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+  pointer-events: none;
+}
+.qs__cell {
+  position: relative;
+  inline-size: 100%;
+  block-size: 100%;
+}
+.qs__hit {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.qs__hit:hover {
+  background: color-mix(in srgb, var(--gm-on-surface) 10%, transparent);
+}
+.qs__hit:focus-visible {
+  outline: none;
+}
+/* The focus ring is drawn outside the clipped button, so it is not cut off by the shape. */
+.qs__ring {
+  display: none;
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+.qs__ring polygon {
+  fill: none;
+  stroke: var(--gm-on-surface);
+  stroke-width: 4;
+  stroke-dasharray: 8 4;
+}
+.qs__cell:has(.qs__hit:focus-visible) .qs__ring {
+  display: block;
+}
+.qs__tray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.qs__tray li {
+  min-inline-size: 0;
+}
+.qs__piece {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  min-inline-size: 96px;
+  min-block-size: 96px;
+  padding: var(--space-sm);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  font: inherit;
+  font-size: var(--text-md);
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.qs__piece[data-chosen='yes'] {
+  border-width: 5px;
+  background: var(--gm-surface);
+}
+.qs__piece:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.qs__piece-art {
+  inline-size: 64px;
+  block-size: 64px;
+  overflow: visible;
+}
+.qs__piece-art polygon {
+  stroke: var(--gm-on-surface);
+  stroke-width: 2;
+  stroke-linejoin: round;
+}
+.qs__piece-art polygon[data-shape='large-triangle'] {
+  fill: var(--gm-accent-pale);
+}
+.qs__piece-art polygon[data-shape='small-triangle'] {
+  fill: var(--gm-primary-container);
+}
+.qs__piece-art polygon[data-shape='square'] {
+  fill: var(--gm-secondary-container);
+}
+.qs__piece-art polygon[data-shape='parallelogram'] {
+  fill: var(--gm-sunrise);
+}
+.qs__piece-art polygon[data-shape='rectangle'] {
+  fill: var(--gm-accent);
+}
+.qs__piece-name {
+  font-weight: 700;
+}
+.qs__chosen {
+  font-weight: 700;
+  text-decoration: underline;
+}
+.qs-clip-large-triangle-0 { clip-path: polygon(0% 0%, 100% 0%, 0% 100%); }
+.qs-clip-large-triangle-90 { clip-path: polygon(100% 0%, 100% 100%, 0% 0%); }
+.qs-clip-large-triangle-180 { clip-path: polygon(100% 100%, 0% 100%, 100% 0%); }
+.qs-clip-large-triangle-270 { clip-path: polygon(0% 100%, 0% 0%, 100% 100%); }
+.qs-clip-small-triangle-0 { clip-path: polygon(0% 0%, 100% 0%, 0% 100%); }
+.qs-clip-small-triangle-90 { clip-path: polygon(100% 0%, 100% 100%, 0% 0%); }
+.qs-clip-small-triangle-180 { clip-path: polygon(100% 100%, 0% 100%, 100% 0%); }
+.qs-clip-small-triangle-270 { clip-path: polygon(0% 100%, 0% 0%, 100% 100%); }
+.qs-clip-square-0 { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
+.qs-clip-square-90 { clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%); }
+.qs-clip-square-180 { clip-path: polygon(100% 100%, 0% 100%, 0% 0%, 100% 0%); }
+.qs-clip-square-270 { clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%); }
+.qs-clip-parallelogram-0 { clip-path: polygon(0% 0%, 50% 0%, 100% 100%, 50% 100%); }
+.qs-clip-parallelogram-90 { clip-path: polygon(100% 0%, 100% 50%, 0% 100%, 0% 50%); }
+.qs-clip-parallelogram-180 { clip-path: polygon(100% 100%, 50% 100%, 0% 0%, 50% 0%); }
+.qs-clip-parallelogram-270 { clip-path: polygon(0% 100%, 0% 50%, 100% 0%, 100% 50%); }
+.qs-clip-rectangle-0 { clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); }
+.qs-clip-rectangle-90 { clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 0%); }
+.qs-clip-rectangle-180 { clip-path: polygon(100% 100%, 0% 100%, 0% 0%, 100% 0%); }
+.qs-clip-rectangle-270 { clip-path: polygon(0% 100%, 0% 0%, 100% 0%, 100% 100%); }
+
+@media print {
+  .qs-sheet__picture,
+  .qs-sheet__label,
+  .qs-sheet__how,
+  .qs-sheet__safety {
+    margin: 0 0 4mm;
+    font-size: 14pt;
+    color: #000;
+  }
+  .qs-sheet__outline {
+    display: block;
+    margin: 0 0 6mm;
+  }
+  .qs-sheet__line {
+    fill: none;
+    stroke: #000;
+    stroke-width: 2;
+    stroke-linejoin: round;
+  }
+  .qs-sheet__pieces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6mm;
+    margin: 0 0 6mm;
+    padding: 0;
+    list-style: none;
+  }
+  .qs-sheet__pieces li {
+    display: grid;
+    justify-items: start;
+    gap: 2mm;
+    font-size: 14pt;
+    color: #000;
+  }
+  .qs-sheet__piece {
+    display: block;
+    overflow: visible;
+  }
+  .qs-sheet__safety {
+    display: inline-block;
+    padding: 1mm 3mm;
+    border: 2px solid #000;
+    font-weight: 700;
+  }
+}
+
 /* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
 .chain {
   display: flex;
@@ -3570,5 +3840,185 @@
     max-inline-size: 170mm;
     aspect-ratio: 4 / 3;
     border: 3px solid #000;
+  }
+}
+
+/* Seasonal puzzle pack (GAME-040): a season choice, a rest day, and a preview of the three paper puzzles. */
+.seasonal {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xl);
+  max-inline-size: 44rem;
+  margin-inline: auto;
+}
+.seasonal__seasons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-inline-size: 0;
+}
+.seasonal__seasons legend {
+  margin-block-end: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.seasonal__choice,
+.seasonal__rest {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: 56px;
+  min-inline-size: 48px;
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  font-size: var(--text-md);
+  font-weight: 600;
+  cursor: pointer;
+}
+.seasonal__choice:has(input:checked) {
+  border-width: 3px;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  font-weight: 700;
+}
+.seasonal__choice input,
+.seasonal__rest input {
+  inline-size: 1.4rem;
+  block-size: 1.4rem;
+  margin: 0;
+  accent-color: var(--gm-on-surface);
+}
+.seasonal__when,
+.seasonal__rest-line {
+  margin: 0;
+  font-size: var(--text-md);
+}
+.seasonal__rest-line {
+  padding: var(--space-md);
+  border-inline-start: 4px solid var(--gm-primary);
+  background: var(--gm-surface-raised);
+}
+.seasonal__preview h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+}
+.seasonal__puzzle {
+  display: grid;
+  gap: var(--space-sm);
+  padding-block: var(--space-md);
+  border-block-start: 2px dashed var(--gm-outline);
+}
+.seasonal__puzzle h3 {
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.seasonal__puzzle p {
+  margin: 0;
+  font-size: var(--text-md);
+}
+.seasonal__pairs {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xl);
+}
+.seasonal__pairs ul,
+.seasonal__row {
+  display: grid;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.seasonal__pairs ul {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.seasonal__row {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.seasonal img {
+  display: block;
+  inline-size: 100%;
+  max-inline-size: 9rem;
+  block-size: auto;
+  margin-inline: auto;
+}
+.seasonal__color img {
+  max-inline-size: 16rem;
+}
+.seasonal__color {
+  display: grid;
+  justify-items: center;
+}
+
+@media print {
+  .sheet-paper__season[hidden] {
+    display: none !important;
+  }
+  .sheet-paper__season {
+    color: #000;
+  }
+  .sheet-paper__season h3 {
+    margin: 0 0 1mm;
+    font-size: 16pt;
+  }
+  .sheet-paper__season h4 {
+    margin: 2mm 0 0.5mm;
+    font-size: 12pt;
+  }
+  .sheet-paper__when,
+  .sheet-paper__how {
+    margin: 0 0 1mm;
+    font-size: 10pt;
+  }
+  .sheet-paper__puzzle-block {
+    padding-block-start: 2mm;
+    border-block-start: 0.3mm dashed #000;
+  }
+  .sheet-paper__pair-columns {
+    display: grid;
+    gap: 10mm;
+    justify-content: center;
+  }
+  .sheet-paper__pair-columns > div {
+    display: grid;
+    grid-template-columns: repeat(4, 20mm);
+    gap: 5mm;
+  }
+  .sheet-paper__pair-columns img {
+    inline-size: 18mm;
+    block-size: 18mm;
+  }
+  .sheet-paper__row {
+    display: grid;
+    grid-template-columns: repeat(4, 20mm);
+    gap: 5mm;
+    justify-content: center;
+  }
+  .sheet-paper__row img {
+    inline-size: 18mm;
+    block-size: 18mm;
+  }
+  .sheet-paper__color-picture {
+    margin: 0;
+    text-align: center;
+  }
+  .sheet-paper__color-picture img {
+    inline-size: 34mm;
+    block-size: 34mm;
+  }
+  .sheet-paper__color-picture figcaption {
+    font-size: 9pt;
+  }
+  .sheet-paper__season-foot {
+    margin: 2mm 0 0;
+    font-size: 10pt;
+    font-weight: 700;
+    text-align: center;
   }
 }

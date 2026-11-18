@@ -111,6 +111,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'drawing-duet': { ui: ['drawingDuet'], content: [] },
   'seated-toss': { ui: ['seatedToss'], content: [] },
   'decorate-a-card': { ui: ['decorateACard'], content: [] },
+  'seasonal-pack': { ui: ['seasonalPack'], content: [] },
   'story-chain': { ui: ['storyChain'], content: [] },
   'story-dice': { ui: ['storyDice'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },
@@ -122,6 +123,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'photo-pairs': { ui: ['pairs', 'photoPairs'], content: [] },
   'picture-bingo': { ui: ['pictureBingo'], content: [] },
   'calm-breathing': { ui: ['calmBreathing'], content: [] },
+  'quiet-shapes': { ui: ['quietShapes'], content: [] },
 };
 
 function pick<T extends object>(source: T, keys: readonly (keyof T)[]): T {

@@ -23,6 +23,7 @@ export const GAME_SLUGS = [
   'drawing-duet',
   'seated-toss',
   'decorate-a-card',
+  'seasonal-pack',
   'story-chain',
   'story-dice',
   'sort-together',
@@ -34,6 +35,7 @@ export const GAME_SLUGS = [
   'photo-pairs',
   'picture-bingo',
   'calm-breathing',
+  'quiet-shapes',
 ] as const;
 
 const guideSchema = z.object({

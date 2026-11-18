@@ -132,6 +132,40 @@
       "ringHeading": "Ring",
       "print": "Print the target and tally sheet"
     },
+    "seasonalPack": {
+    "guidance": "Choose a season, print its three paper puzzles, then do one, two or all three together.",
+    "seasonLegend": "Choose a season",
+    "seasons": {
+      "spring": "Spring",
+      "summer": "Summer",
+      "autumn": "Autumn",
+      "winter": "Winter"
+    },
+    "whenLabel": "When it usually runs",
+    "restDay": "Today is a rest day",
+    "restLine": "No puzzles today. A rest day is a good day too.",
+    "previewHeading": "The three puzzles",
+    "puzzles": {
+      "pairs": {
+        "title": "Match the pairs",
+        "how": "Draw a line from each picture in the top row to the same picture in the bottom row.",
+        "describe": "Two rows of the same four pictures, in a different order."
+      },
+      "different": {
+        "title": "Which one is different?",
+        "how": "Circle the picture that is different from the other three.",
+        "describe": "A row of four pictures. Three are the same, and one is different."
+      },
+      "color": {
+        "title": "Color it in",
+        "how": "Color the picture however you like, with crayons or pencils.",
+        "describe": "One large picture to color in."
+      }
+    },
+    "print": "Print this season's pack",
+    "sheetHow": "Print one page. Do one, two or all three puzzles, in any order.",
+    "printFooter": "Do one, two or all three. Stop whenever you like."
+  },
     "decorateACard": {
       "guidance": "Choose an occasion, then decorate a card together with crayons or pens. There is no right card.",
       "occasionLegend": "Choose an occasion",
@@ -287,6 +321,55 @@
       "sheetTitle": "Build together",
       "sheetHelp": "Take turns. In an empty square, each person draws their own shape with their own pencil.",
       "sheetKey": "{person}: {color}"
+    },
+    "quietShapes": {
+      "guidance": "Tap a piece, then tap the space in the picture where it goes. Nothing you make is saved or sent.",
+      "hints": "Show the hint lines",
+      "pictureLine": "This one is a {picture}.",
+      "pictures": {
+        "house": "house",
+        "boat": "boat",
+        "tree": "tree",
+        "fish": "fish",
+        "cat": "cat",
+        "rocket": "rocket"
+      },
+      "outlineLabel": "The outline of the {picture}. Tap a space to put a chosen piece in it.",
+      "trayHeading": "The pieces",
+      "pieces": {
+        "large-triangle": "Large triangle",
+        "small-triangle": "Small triangle",
+        "square": "Square",
+        "parallelogram": "Parallelogram",
+        "rectangle": "Rectangle"
+      },
+      "shapes": {
+        "large-triangle": "a large triangle",
+        "small-triangle": "a small triangle",
+        "square": "a square",
+        "parallelogram": "a parallelogram",
+        "rectangle": "a rectangle"
+      },
+      "chosenLabel": "Chosen",
+      "spaceEmpty": "Space {n}, {shape}, empty",
+      "spaceFilled": "Space {n}, {shape}, has its piece. Tap to take the piece back.",
+      "chosen": "{piece} is chosen. Now tap a space in the picture.",
+      "unchosen": "The piece is not chosen any more.",
+      "placed": "The piece is in space {n}.",
+      "complete": "The {picture} is complete.",
+      "different": "That piece is a different shape from this space. Try another space.",
+      "needPiece": "Choose a piece from the tray first.",
+      "filled": "That space already has its piece. Tap it to take the piece back.",
+      "tookBack": "The piece is back in the tray.",
+      "cleared": "The pieces are back in the tray. Put it back if you changed your mind.",
+      "restored": "The pieces are back in the picture.",
+      "next": "This one is a {picture}.",
+      "putBack": "Put it back",
+      "another": "Another shape",
+      "print": "Print this shape",
+      "sheetTitle": "Quiet shapes",
+      "sheetHow": "Color the pieces, or cut them out to fit the outline. An adult can do the cutting.",
+      "sheetPieces": "The pieces, the same size as the outline"
     },
     "findTogether": {
       "guidance": "Take turns. On your turn, turn over two cards to look for a pair. Find the pairs together.",

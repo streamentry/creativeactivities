@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 196 | 147 | 407 |
+| S2 | 64 | 198 | 145 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **236** | **220** | **533** |
+| **All** | **77** | **238** | **218** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -295,6 +295,17 @@ Three games, each built by a Haiku subagent in its own worktree, then reviewed, 
 
 Checks on the integrated branch: vitest 129 files, 4,162 pass (1 skipped); `tsc` clean; build 16,547 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 21 of 21, both new sheets one page on A4 and Letter; `check:capacity` 86.5%; `check:a11y` 0 failing of 185 (25 games at two widths); Python 121 tests and `release_metadata.py --check` pass. Share images for the three games made with `make-images.py` and checked by eye (one subtitle shortened so it is not cut off).
 
+### Batch 36 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. Both are English only, with no score, timer, winner or count.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game page "Seasonal puzzle pack" at `/games/seasonal-pack/`: choose Spring, Summer, Autumn or Winter (never detected), with the months for both halves of the world from the season pages; one printed page of three puzzles from the shared pictures (Match the pairs in two rows, Which one is different?, Color it in); answers are never shown or checked; "Today is a rest day" hides the puzzles and the print button and shows one calm line | GAME-040 → partial (by season rather than month; picture sets not checked for the southern half or other cultures; not tried; English only) | Review fixes: a candle in winter (fire, and a holiday reading) and a teapot beside a kettle changed to kettle and moon; sun beside sunflower changed to a straw hat; the translators' README section the agent left out written; `check:print` found two pages, cut to one on A4 and Letter by laying the pairs in rows |
+| Game "Quiet shapes puzzle" at `/games/quiet-shapes/`: six outlines split into spaces; tap a piece, then a space of the same shape, and it fits with no dragging or turning; a different shape is not placed and a calm line says so; hint lines on to start; take back, Start again with Put it back, Another shape; a print of the outline and pieces with the sharp-tools label | GAME-060 → partial (no parallelogram yet; not tried with a tremor or by people who like geometry; English only) | `check:a11y` found the space buttons inside an `aria-hidden` drawing, so a screen reader could not reach them; fixed, with a unit test that fails if it comes back. Browser at 390 px: a rectangle refused by a triangle space, accepted by a rectangle space, the house completed with one calm line, smallest button 69 px |
+
+Checks on the integrated branch: vitest 133 files, 4,228 pass (1 skipped); `tsc` clean; build 16,549 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 23 of 23; `check:capacity` 86.6%; `check:a11y` 0 failing of 189. Share images for both games made with `make-images.py` and checked by eye.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -325,5 +336,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-040 Seasonal puzzle pack and GAME-060 Quiet shapes puzzle, then GAME-038 Color wash and GAME-033 Collage board. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-038 Color wash and GAME-033 Collage board, then GAME-054 Big shapes and colors. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

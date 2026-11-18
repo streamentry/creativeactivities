@@ -206,7 +206,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-012 | P1 | exists | Calm breathing |
 | GAME-038 | P2 | new | Color wash |
 | GAME-039 | P3 | new | Quiet scene |
-| GAME-040 | P1 | new | Seasonal puzzle pack |
+| GAME-040 | P1 | partial | Seasonal puzzle pack |
 | GAME-041 | P2 | new | Garden planner |
 | GAME-042 | P2 | new | Garden bird spotter |
 | GAME-043 | P2 | new | Picnic planner |
@@ -229,7 +229,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-019 | P1 | partial | Large-target sort |
 | GAME-058 | P2 | new | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
-| GAME-060 | P3 | new | Quiet shapes puzzle |
+| GAME-060 | P3 | partial | Quiet shapes puzzle |
 | GAME-061 | P1 | new | Daily shared card |
 
 #### Content library (06)

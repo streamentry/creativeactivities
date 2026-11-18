@@ -20,6 +20,7 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'drawing-duet': ['paint-a-shared-picture', 'draw-a-slow-line-pattern'],
   'seated-toss': ['wind-a-ball-of-yarn', 'move-to-music-in-a-chair'],
   'decorate-a-card': ['make-a-greeting-card', 'write-a-letter-together'],
+  'seasonal-pack': ['plant-seeds-in-a-pot', 'make-leaf-rubbings'],
   'story-chain': ['make-a-memory-collage', 'make-a-paper-chain-garland'],
   'story-dice': ['make-a-memory-collage', 'start-a-family-recipe-book'],
   'sort-together': ['make-a-button-picture', 'arrange-flowers-together'],
@@ -31,4 +32,5 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'photo-pairs': ['make-a-memory-collage', 'make-a-photo-postcard'],
   'picture-bingo': ['make-a-paper-chain-garland', 'paint-a-shared-picture'],
   'calm-breathing': ['make-a-lavender-sachet', 'wind-a-ball-of-yarn'],
+  'quiet-shapes': ['tear-paper-mosaic', 'draw-a-slow-line-pattern'],
 };

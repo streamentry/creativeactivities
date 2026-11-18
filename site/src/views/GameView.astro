@@ -37,7 +37,9 @@ import BuildTogether from '../games/BuildTogether';
 import FindTogether from '../games/FindTogether';
 import DrawingDuet from '../games/DrawingDuet';
 import SeatedToss from '../games/SeatedToss';
+import QuietShapes from '../games/QuietShapes';
 import DecorateACard from '../games/DecorateACard';
+import SeasonalPack from '../games/SeasonalPack';
 import StoryChain from '../games/StoryChain';
 import StoryDice from '../games/StoryDice';
 import SortTogether from '../games/SortTogether';
@@ -107,11 +109,12 @@ const paper = GAME_PRINT[game.slug];
 const rules = rulesText(game.slug, play.ui, lang);
 const sheet = paper.kind === 'page' ? printSheet(game.slug) : null;
 const versionLine = paper.kind === 'none' ? '' : fill(pp.version, { date: paper.version, url: `${SITE.domain}${path}` });
-const sheetHowTo = !sheet ? '' : sheet.layout === 'cards' ? pp.cards : sheet.layout === 'sort' ? pp.sort : sheet.layout === 'puzzle' ? pp.puzzle : sheet.layout === 'chain' ? pp.chain : sheet.layout === 'halves' ? pp.halves : sheet.layout === 'grid' ? pp.grid : sheet.layout === 'toss' ? play.ui.seatedToss.sheetHow : sheet.layout === 'card' ? play.ui.decorateACard.sheetHow : sheet.rows.some((r) => r.target) ? pp.pointTarget : sheet.dice ? pp.dice : sheet.rows.some((r) => r.color) ? pp.colors : pp.point;
+const sheetHowTo = !sheet ? '' : sheet.layout === 'cards' ? pp.cards : sheet.layout === 'sort' ? pp.sort : sheet.layout === 'puzzle' ? pp.puzzle : sheet.layout === 'chain' ? pp.chain : sheet.layout === 'halves' ? pp.halves : sheet.layout === 'grid' ? pp.grid : sheet.layout === 'toss' ? play.ui.seatedToss.sheetHow : sheet.layout === 'card' ? play.ui.decorateACard.sheetHow : sheet.layout === 'seasonal' ? play.ui.seasonalPack.sheetHow : sheet.rows.some((r) => r.target) ? pp.pointTarget : sheet.dice ? pp.dice : sheet.rows.some((r) => r.color) ? pp.colors : pp.point;
 const colorNames = sheet?.layout === 'rows' && sheet.rows.some((r) => r.color) ? play.ui.colorMatch.names : undefined;
 const numberColorNames = sheet?.layout === 'grid' ? play.ui.colorByNumber.colors : undefined;
 const toss = sheet?.layout === 'toss' ? play.ui.seatedToss : undefined;
 const card = sheet?.layout === 'card' ? play.ui.decorateACard : undefined;
+const seasonal = sheet?.layout === 'seasonal' ? play.ui.seasonalPack : undefined;
 const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.theme]?.baskets : undefined;
 ---
 <BaseLayout title={game.seoTitle} description={game.description} image={ogImage} imageAlt={fill(p.imageAlt, { name: game.name })} jsonLd={jsonLd} analytics={!photo} available={gameLanguages(game.slug)}>
@@ -141,6 +144,7 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'drawing-duet' && <DrawingDuet client:load {...play} />}
       {s === 'seated-toss' && <SeatedToss client:load {...play} />}
       {s === 'decorate-a-card' && <DecorateACard client:load {...play} />}
+      {s === 'seasonal-pack' && <SeasonalPack client:load {...play} />}
       {s === 'story-chain' && <StoryChain client:load {...play} />}
       {s === 'story-dice' && <StoryDice client:load {...play} />}
       {s === 'sort-together' && <SortTogether client:load {...play} />}
@@ -152,13 +156,14 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'photo-pairs' && <PhotoPairs client:load {...play} />}
       {s === 'picture-bingo' && <PictureBingo client:load {...play} />}
       {s === 'calm-breathing' && <CalmBreathing client:load {...play} />}
+      {s === 'quiet-shapes' && <QuietShapes client:load {...play} />}
     </div>
 
     {
       sheet && (
-        <GamePrintSheet sheet={sheet} title={fill(pp.sheetTitle, { name: game.name })} rules={rules} howTo={sheetHowTo} pictureNames={play.pictureNames} baskets={baskets} colorNames={colorNames} numberColorNames={numberColorNames} toss={toss} card={card}>
+        <GamePrintSheet sheet={sheet} title={fill(pp.sheetTitle, { name: game.name })} rules={rules} howTo={sheetHowTo} pictureNames={play.pictureNames} baskets={baskets} colorNames={colorNames} numberColorNames={numberColorNames} toss={toss} card={card} seasonal={seasonal}>
           <footer class="sheet-foot">
-            {sheet.layout !== 'rows' && sheet.layout !== 'halves' && sheet.layout !== 'grid' && sheet.layout !== 'toss' && sheet.layout !== 'card' && <p>{pp.cutSafety}</p>}
+            {sheet.layout !== 'rows' && sheet.layout !== 'halves' && sheet.layout !== 'grid' && sheet.layout !== 'toss' && sheet.layout !== 'card' && sheet.layout !== 'seasonal' && <p>{pp.cutSafety}</p>}
             <p>{SCOPE_LINE}</p>
             <p>{PAUSE_LINE}</p>
             <p class="print-version">{versionLine}</p>

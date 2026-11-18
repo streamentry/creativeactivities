@@ -23,6 +23,7 @@ const COMPONENT: Record<string, string> = {
   'drawing-duet': 'DrawingDuet',
   'seated-toss': 'SeatedToss',
   'decorate-a-card': 'DecorateACard',
+  'seasonal-pack': 'SeasonalPack',
   'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
@@ -34,11 +35,12 @@ const COMPONENT: Record<string, string> = {
   'photo-pairs': 'PhotoPairs',
   'picture-bingo': 'PictureBingo',
   'calm-breathing': 'CalmBreathing',
+  'quiet-shapes': 'QuietShapes',
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 25 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(25);
+  it('covers all 27 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(27);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
