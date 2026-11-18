@@ -309,6 +309,33 @@ html[data-contrast='high'] {
   --gm-error: #a32d32;
 }
 
+/* Reading settings (WEB-042): shorter lines and more space, on reading text only
+   (.prose pages and activity steps). Buttons, nav and game boards are untouched.
+   Screen only, so print keeps the standard layout. */
+@media screen {
+  html[data-line='short'] .prose {
+    /* Guides set their own width (68ch), so set the width itself, not only the token. */
+    --content-max: 42ch;
+    max-width: min(100%, 42ch);
+  }
+  html[data-line='short'] .activity-steps {
+    max-width: min(100%, 42ch);
+  }
+  html[data-spacing='more'] .prose {
+    line-height: 1.8;
+  }
+  html[data-spacing='more'] .prose p {
+    margin-bottom: calc(var(--space-md) * 1.5);
+  }
+  html[data-spacing='more'] .prose li {
+    margin-bottom: calc(var(--space-sm) * 1.5);
+  }
+  html[data-spacing='more'] .activity-steps {
+    gap: calc(var(--space-md) * 1.5);
+    line-height: 1.8;
+  }
+}
+
 @media (min-width: 600px) {
   :root {
     --gutter: 24px;

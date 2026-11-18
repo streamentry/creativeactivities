@@ -3,8 +3,8 @@ import { ui } from '../i18n/ui';
 
 interface Props {
   lang?: string;
-  /** `reading` (the header): text size and contrast. `colors`: the Light, Dark or device choice (WEB-042), shown on the Accessibility page so the header stays short. */
-  part?: 'reading' | 'colors';
+  /** `reading` (the header): text size and contrast. `colors`: the Light, Dark or device choice (WEB-042), shown on the Accessibility page so the header stays short. `reading-extra`: line length and spacing (WEB-042), also on the Accessibility page. */
+  part?: 'reading' | 'colors' | 'reading-extra';
 }
 const { lang = 'en', part = 'reading' } = Astro.props;
 const t = ui(lang);
@@ -43,11 +43,45 @@ const t = ui(lang);
   </button>
 </div>
 )}
+{part === 'reading-extra' && (
+<>
+  <p class="text-size__name" id="line-length-name">{t.common.textSize.lineLength}</p>
+  <div class="text-size text-size--colors" role="group" aria-label={t.common.textSize.lineLength} data-line-group>
+    <button type="button" class="text-size__btn text-size__btn--label" data-line-choice="standard" aria-pressed="true">
+      <span>{t.common.textSize.standardLines}</span>
+    </button>
+    <button type="button" class="text-size__btn text-size__btn--label" data-line-choice="short" aria-pressed="false">
+      <span>{t.common.textSize.shorterLines}</span>
+    </button>
+  </div>
+  <p class="text-size__name">{t.common.textSize.spacing}</p>
+  <div class="text-size text-size--colors" role="group" aria-label={t.common.textSize.spacing} data-spacing-group>
+    <button type="button" class="text-size__btn text-size__btn--label" data-spacing-choice="standard" aria-pressed="true">
+      <span>{t.common.textSize.standardSpacing}</span>
+    </button>
+    <button type="button" class="text-size__btn text-size__btn--label" data-spacing-choice="more" aria-pressed="false">
+      <span>{t.common.textSize.moreSpace}</span>
+    </button>
+  </div>
+</>
+)}
 
 <script>
   // Per-viewer convenience only: the choice lives in this browser. Every read
   // and write is guarded, so the site works with storage blocked.
-  import { CONTRAST_KEY, TEXT_SIZE_KEY as KEY, readTheme, writeTheme, type ThemeChoice } from '../lib/display-settings';
+  import {
+    CONTRAST_KEY,
+    TEXT_SIZE_KEY as KEY,
+    readLineLength,
+    readSpacing,
+    readTheme,
+    writeLineLength,
+    writeSpacing,
+    writeTheme,
+    type LineLength,
+    type Spacing,
+    type ThemeChoice,
+  } from '../lib/display-settings';
   const root = document.documentElement;
 
   function apply(size: 'standard' | 'large') {
@@ -137,6 +171,44 @@ const t = ui(lang);
   });
   const themeStore = storage();
   if (themeStore) applyTheme(readTheme(themeStore));
+
+  // Reading settings (WEB-042): theme-init.js set data-line and data-spacing before paint.
+  // Absent means standard, and the buttons say so.
+  function applyLineLength(choice: LineLength) {
+    if (choice === 'short') root.dataset.line = 'short';
+    else delete root.dataset.line;
+    document.querySelectorAll<HTMLButtonElement>('[data-line-choice]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.lineChoice === choice));
+    });
+  }
+  function applySpacing(choice: Spacing) {
+    if (choice === 'more') root.dataset.spacing = 'more';
+    else delete root.dataset.spacing;
+    document.querySelectorAll<HTMLButtonElement>('[data-spacing-choice]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.spacingChoice === choice));
+    });
+  }
+  document.querySelectorAll<HTMLButtonElement>('[data-line-choice]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const choice: LineLength = b.dataset.lineChoice === 'short' ? 'short' : 'standard';
+      const store = storage();
+      if (store) writeLineLength(store, choice);
+      applyLineLength(choice);
+    });
+  });
+  document.querySelectorAll<HTMLButtonElement>('[data-spacing-choice]').forEach((b) => {
+    b.addEventListener('click', () => {
+      const choice: Spacing = b.dataset.spacingChoice === 'more' ? 'more' : 'standard';
+      const store = storage();
+      if (store) writeSpacing(store, choice);
+      applySpacing(choice);
+    });
+  });
+  const readingStore = storage();
+  if (readingStore) {
+    applyLineLength(readLineLength(readingStore));
+    applySpacing(readSpacing(readingStore));
+  }
 </script>
 
 <style>
@@ -157,6 +229,10 @@ const t = ui(lang);
     background: var(--gm-surface-raised);
     color: var(--gm-on-surface);
     cursor: pointer;
+  }
+  .text-size__name {
+    margin: var(--space-md) 0 0;
+    font-weight: 700;
   }
   .text-size__btn svg {
     width: 24px;
