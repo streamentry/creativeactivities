@@ -17,7 +17,7 @@
         "type": "object",
         "additionalProperties": false,
         "required": [
-          "id", "status", "title", "summary", "steps", "materials", "safetyFlags", "safety",
+          "id", "status", "title", "summary", "steps", "materials", "safetyFlags", "safety", "stopNote",
           "variations", "pictures", "review", "published", "updated", "languages", "surfaces"
         ],
         "properties": {
@@ -36,6 +36,7 @@
             }
           },
           "safety": { "type": "array", "minItems": 1, "maxItems": 6, "items": { "type": "string", "minLength": 1 } },
+          "stopNote": { "type": "string", "minLength": 1 },
           "variations": {
             "type": "array",
             "minItems": 2,

@@ -93,6 +93,7 @@ function sample(id: string, overrides: Record<string, unknown> = {}): CardInput 
       materials: ['Paper'],
       safetyFlags: ['none'],
       safety: ['Keep it simple.'],
+      stopNote: 'Stop whenever you like.',
       variations: [
         { kind: 'easier', text: 'Do less at a time.' },
         { kind: 'seated', text: 'Sit at a table.' },
@@ -205,5 +206,12 @@ describe('content bundle (PLAT-035)', () => {
   it('prints "No content changes." when nothing differs', () => {
     const bundle = buildContentBundle([sample('a')], { generated: '2026-11-19' });
     expect(formatDiff(diffBundles(bundle, bundle))).toEqual(['No content changes.']);
+  });
+});
+
+describe('stop guidance travels with the steps', () => {
+  it('gives every bundled activity its stop note', () => {
+    const bundle = JSON.parse(readFileSync(new URL('../../content-bundle/content-bundle.v1.json', import.meta.url), 'utf8'));
+    for (const a of bundle.activities) expect(a.stopNote, a.id).toMatch(/\S/);
   });
 });

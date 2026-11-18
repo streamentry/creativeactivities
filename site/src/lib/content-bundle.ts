@@ -28,6 +28,8 @@ export interface CardData {
   materials: readonly string[];
   safetyFlags: readonly string[];
   safety: readonly string[];
+  /** When and how to stop; travels with the steps so no surface shows steps without it. */
+  stopNote: string;
   variations: readonly { kind: string; text: string }[];
   images: readonly { src: string }[];
   review?: {
@@ -71,6 +73,7 @@ export interface BundleActivity {
   materials: string[];
   safetyFlags: string[];
   safety: string[];
+  stopNote: string;
   variations: BundleVariation[];
   pictures: string[];
   review: BundleReview | null;
@@ -154,6 +157,7 @@ function activityOf(card: CardInput, options: BundleOptions): BundleActivity {
     materials: [...d.materials],
     safetyFlags: [...d.safetyFlags],
     safety: [...d.safety],
+    stopNote: d.stopNote,
     variations: d.variations.map((v) => ({ kind: v.kind, text: v.text })),
     pictures: d.images.map((image) => image.src),
     review: reviewOf(d.review),
@@ -197,6 +201,7 @@ export const FIELD_SURFACES: Readonly<Record<string, readonly Surface[]>> = {
   materials: SURFACES,
   safetyFlags: SURFACES,
   safety: SURFACES,
+  stopNote: SURFACES,
   variations: SURFACES,
   pictures: SURFACES,
   review: SURFACES,
