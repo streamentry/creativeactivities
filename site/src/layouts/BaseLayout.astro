@@ -71,6 +71,7 @@ const detectLanguage = lang === DEFAULT_LOCALE && path === '/';
 <html lang={locale.htmlLang} dir={locale.dir}>
   <head>
     <meta charset="utf-8" />
+    <script is:inline src="/theme-init.js"></script>
     {analytics && <Analytics />}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
@@ -85,7 +86,7 @@ const detectLanguage = lang === DEFAULT_LOCALE && path === '/';
     {blockIndexing && <meta name="robots" content="noindex, follow" />}
     {!blockIndexing && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />}
     <meta name="theme-color" content="#FAF8F2" />
-    <meta name="color-scheme" content="only light" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="format-detection" content="telephone=no" />
 
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />

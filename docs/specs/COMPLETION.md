@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 65 | 232 | 110 | 407 |
+| S2 | 65 | 233 | 109 | 407 |
 | S3 | 1 | 14 | 60 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **78** | **274** | **181** | **533** |
+| **All** | **78** | **275** | **180** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -387,6 +387,14 @@ Checks: vitest 147 files, 4,614 pass (1 skipped); `tsc` clean; build 16,707 page
 
 Checks: vitest 150 files, 4,655 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7, game sheets 27 of 27; `check:a11y` 0 failing of 199.
 
+### Batch 43 (2026-11-19): dark theme
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A dark theme that follows the device, from DESIGN.md palette colors only; a "Colors on this site" choice (Light, Dark, Same as this device) on the Accessibility page; high contrast wins; print stays light | WEB-042 → partial (line-length and spacing options not built) | Built by a Haiku subagent. Review: the real build failed on a duplicate `saved` declaration in `TextSize.astro` that `tsc` and the unit tests do not parse; renamed. The agent put the colors choice in the header, adding a row to every mobile page, moved to the Accessibility page. In dark, the current nav item showed light text on the sun fill; 22 rules that paint the sun fill now set their dark text color, and a test enforces it. Light pages compared by screenshot on 15 page types: unchanged apart from the footer text tone |
+
+Checks: vitest 153 files, 4,719 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 226, now with a 390 px dark variant. On its first run the dark variant failed six pages (the path pill, pack choices, a season link and the lead-guide card, which used the always-white tile color); fixed, and the sun-fill test now also reads views and pages.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -420,5 +428,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. The card page CSS has about 1 kB of room after batch 42; the dark theme (WEB-042) will need more, from the rules every page shares. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

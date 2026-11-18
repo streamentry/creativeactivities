@@ -47,6 +47,7 @@ describe('site storage registry', () => {
         'localStorage:gm-contrast',
         'localStorage:gm-play-settings',
         'localStorage:gm-text-size',
+        'localStorage:gm-theme',
         'localStorage:gm-today-notes-v1',
       ].sort(),
     );
