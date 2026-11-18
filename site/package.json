@@ -29,7 +29,9 @@
     "deploy": "astro build && node --max-old-space-size=6144 scripts/check-site.mjs && wrangler deploy",
     "library:inventory": "node scripts/library-inventory.mjs",
     "translations:queue": "node scripts/translation-queue.mjs",
-    "metrics:content": "node scripts/content-metrics.mjs"
+    "metrics:content": "node scripts/content-metrics.mjs",
+    "content:bundle": "node scripts/content-bundle.mjs",
+    "content:diff": "node scripts/content-diff.mjs"
   },
   "dependencies": {
     "@astrojs/react": "7.1.0",
