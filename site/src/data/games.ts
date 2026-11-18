@@ -11,6 +11,7 @@ export type GameSlug =
   | 'color-by-number'
   | 'pattern-maker'
   | 'build-together'
+  | 'seated-toss'
   | 'story-dice'
   | 'story-chain'
   | 'sort-together'
@@ -526,6 +527,56 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'Is there a paper version?',
         a: 'Yes. "Print the grid" prints an empty grid on one page with the two colors and their names, to build with two pencils. It works in black and white because every color has its own shape.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'seated-toss',
+    name: 'Seated toss tally',
+    seoTitle: 'Seated Toss Tally: a Bean-Bag Game for Two',
+    h1: 'Seated Toss Tally: Toss Together at a Table',
+    description:
+      'Two people at a table take turns tossing a soft bean bag into a big target and keep the tally on paper. Nothing is timed or scored. Free to print.',
+    short: 'Take turns tossing a bean bag at a big target, with the tally on paper.',
+    cardPictures: ['balloon', 'sun', 'armchair'],
+    stages: ['early', 'middle'],
+    players: '2 people, at a table',
+    printable: true,
+    intro:
+      'A calm tossing game for two people sitting at a table. You lay a printed target on the table and take turns tossing a soft bean bag, or a rolled-up sock, so that it lands on the rings. Each of you keeps a tally by ticking boxes on paper, and you look at the ticks together when you stop. Nothing is timed, nothing is added up on screen, and nothing is saved or sent. Please read the safety notes first: small fillings are a choking hazard.',
+    howTo: [
+      'Read the safety notes. Choose a bag with a sewn-shut cover, or roll up a clean sock.',
+      'Tap "Print the target and tally sheet" and lay the sheet flat on the table between you.',
+      'Sit comfortably, one on each side, and take turns with one gentle toss each. Anyone may pass.',
+      'When a toss lands in a ring, tick a box in your column, on the row for that ring.',
+      'Look at the ticks together when you stop, or tap Rest to pause.',
+    ],
+    tips: [
+      'Sit close enough that a gentle underhand toss reaches the target without any stretching.',
+      'Talk about the toss, not the result: "That was a soft one." Everyone cheers for every toss.',
+      'A rolled-up sock is light and easy to hold with a weak grip. Rest an arm on the table between turns.',
+      'If someone would rather watch, they can be the one who ticks the boxes.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Is it safe to toss a bean bag?',
+        a: 'It can be, with care. Use a bag with a sewn-shut cover or a rolled-up sock, never loose beans, rice or small fillings, which are a choking hazard for young children and for anyone who puts things in their mouth. Stay seated, toss gently toward the table and never toward a face, and keep an adult close by.',
+      },
+      {
+        q: 'Is anything counted or saved on the screen?',
+        a: 'No. The tally is only on paper, in boxes you tick yourselves. The page keeps no count and no timer, and nothing is saved or sent.',
+      },
+      {
+        q: 'What if someone cannot toss, or the bag lands off the sheet?',
+        a: 'Anyone may pass, and a bag that lands off the sheet is simply picked up for the next turn. Nothing is counted for it.',
+      },
+      {
+        q: 'What is on the printed sheet?',
+        a: 'One page: a large target with its three rings named Near, Middle and Far, a table with a column for each person and a row of small boxes to tick for each ring, and a line of safety advice. The names are written on the rings, so it works in black and white.',
       },
       FREE_FAQ,
     ],

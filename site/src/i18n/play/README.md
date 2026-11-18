@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 21 browser games read their words from here. The mobile app's exporter also
+The 22 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -55,6 +55,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
+| `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -301,6 +302,26 @@ name those four fills (Orange is a pure orange, Green a bluish green, Purple a
 red-blue purple). A native speaker should check the names, then add the translated
 strings and the language code to `BUILD_TOGETHER_REVIEWED` in `../games.ts`. Do
 not machine-translate them.
+
+### Seated toss tally (`ui.seatedToss`)
+
+Seated toss tally is English only for now (GAME-049). Two people sit at a table and
+toss a soft bag onto a printed target; the tally is ticked on paper, so the page
+counts nothing. `guidance` is also the line printed on the paper version, so it has
+no placeholders. `safetyLine` is the one-line safety statement: it is shown at the top
+of the page and printed on the sheet. `safetyHeading` is printed in front of it.
+`flags` are the two labels the activity cards use for small parts and for mouths
+(`SAFETY_FLAG_LABELS` in `../../lib/activities.ts`), and a test checks that they are
+the same words, so change them there and here together. `safety` and `steps` are lists
+and, as lists, are replaced whole. The page also shows the site's pause line from
+`../../lib/scope.ts` after the safety lines. `rings` names the three rings from the outside in
+(Near, Middle, Far) and is written on the target, so the printed sheet does not rely
+on color. `people` names the two columns of the tally, and `ringHeading` heads the
+first column. `previewLabel` describes the small picture of the sheet for a screen reader.
+Keep every string free of score, timer, winner and miss ideas. Nobody is asked to recall
+or name anything. The safety wording needs a native speaker and a safety reviewer to
+check it, then add the translated strings and the language code to
+`SEATED_TOSS_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 
