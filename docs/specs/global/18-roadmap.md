@@ -518,7 +518,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-026 | P0 | partial | Consent, Global Privacy Control and retention |
 | PLAT-027 | P1 | new | Aggregate "We tried this" counters |
 | PLAT-034 | P1 | new | Website offline reading |
-| PLAT-035 | P1 | new | One content contract for web and app |
+| PLAT-035 | P1 | partial | One content contract for web and app |
 | PLAT-036 | P0 | partial | Performance budgets gated in CI |
 | PLAT-037 | P0 | new | Visual regression at standard widths |
 | PLAT-038 | P0 | partial | Accessibility automation and assistive-technology gates |
