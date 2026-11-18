@@ -130,7 +130,9 @@ const LOCALE_FACT_NUMBERS = new Set(['911', '112', '999', '119', '988']);
  */
 export function normalizeDigits(text: string): string[] {
   const cleaned = text
-    .replace(/\]\([^\n]*?\)(?=[\s.,;:!?]|$)/gm, ' ')
+    // A link target ends at its closing parenthesis; one level of parentheses inside it (a DOI) is allowed.
+    // Text may follow with no space (Japanese, Chinese), so the end is not found by looking for a space.
+    .replace(/\]\((?:[^()\s]|\([^()\s]*\))*\)/g, ' ')
     .replace(/https?:\/\/\S+/g, ' ')
     .replace(/\+?\d[\d\s().-]{5,}\d/g, (match) => (match.replace(/\D/g, '').length >= 7 ? ' ' : match))
     .replace(/(?<!\p{Nd})\p{Nd}{1,3}(?:[.,\u00a0\u202f' ’]\p{Nd}{3}(?!\p{Nd}))+/gu, (match) => match.replace(/\D/g, ''));

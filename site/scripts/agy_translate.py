@@ -547,6 +547,17 @@ def unsafe_number_additions(source: str, translated: str) -> bool:
     return not source_emergency or len(translated_emergency) > len(source_emergency)
 
 
+def frontmatter_prose(fm: dict) -> str:
+    """The translated words in a guide's frontmatter (titles, summary, key points, FAQ),
+    the same fields the site's structure test reads numbers from."""
+    parts = [str(fm.get(k) or '') for k in ('title', 'seoTitle', 'description', 'summary')]
+    parts += [str(p) for p in fm.get('keyPoints') or []]
+    for pair in fm.get('faq') or []:
+        if isinstance(pair, dict):
+            parts += [str(pair.get('q') or ''), str(pair.get('a') or '')]
+    return '\n'.join(parts)
+
+
 def guide_problems(src: str, out: str) -> str:
     import yaml
     try:
@@ -575,7 +586,8 @@ def guide_problems(src: str, out: str) -> str:
     # Every number must survive as digits (phone numbers, years, counts), as the site's
     # structure test (L10N-006) requires: a dropped "116 123" is a wrong helpline.
     from collections import Counter
-    na, nb = Counter(visible_number_tokens(ba)), Counter(visible_number_tokens(bb))
+    na = Counter(visible_number_tokens(ba + '\n' + frontmatter_prose(fa)))
+    nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
     return '; '.join(errs)
