@@ -590,18 +590,18 @@ export const GAMES: readonly GameInfo[] = [
     seoTitle: 'Decorate a Card Together: a Printable Greeting Card',
     h1: 'Decorate a Card Together: Make One for Someone',
     description:
-      'Two people decorate a printed greeting card for a birthday, a thank you or just because, then write inside together. Crayons or pens only. No timer or score. Free to print.',
+      'Two people decorate a printed greeting card for a birthday, a thank you or just because, then write a message on the back together. Crayons or pens only. No timer or score. Free to print.',
     short: 'Decorate a printed greeting card together, for an occasion or just because.',
     cardPictures: ['balloon', 'sun', 'sunflower'],
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: true,
     intro:
-      'A quiet making game for two people sitting side by side. You print one sheet, which folds in half to make a card. Choose an occasion, such as a birthday or a thank you, and decorate the front around its words. Then write a message inside, together or one person writing what the other says. Use crayons, colored pencils or felt-tip pens. There is no right card, and nothing is timed, scored or sent.',
+      'A quiet making game for two people sitting side by side. You print one sheet, which folds in half to make a card. Choose an occasion, such as a birthday or a thank you, and decorate the front around its words. Then write a message on the back, together or one person writing what the other says. Use crayons, colored pencils or felt-tip pens. There is no right card, and nothing is timed, scored or sent.',
     howTo: [
       'Choose an occasion, then tap "Print the card".',
       'Fold the sheet in half along the dashed line, so the front is on the outside.',
-      'One person decorates the front, and the other decorates the inside, or you take turns on one side.',
+      'One person decorates the front, and the other decorates the back, or you take turns on one side.',
       'Write a message together. One person can write while the other says the words.',
       'Stop whenever you like. A simple card is just as good as a detailed one.',
     ],
@@ -615,7 +615,7 @@ export const GAMES: readonly GameInfo[] = [
       NO_PRESSURE_FAQ,
       {
         q: 'Do we need glue, scissors or stickers?',
-        a: 'No. Crayons, colored pencils or felt-tip pens are enough. Nothing needs cutting, gluing or sticking, so the sheet is safe to use at a table.',
+        a: 'No. Crayons, colored pencils or felt-tip pens are enough. Nothing needs cutting, gluing or sticking.',
       },
       {
         q: 'Can we make a card for an occasion that is not on the list?',
@@ -627,7 +627,7 @@ export const GAMES: readonly GameInfo[] = [
       },
       {
         q: 'What is on the printed sheet?',
-        a: 'One page: a card folded in half, with the occasion words and a simple frame on the front, and lines for a message and a From line inside. The rules for two people are printed along the bottom.',
+        a: 'One page: a card folded in half, with the occasion words and a simple frame on the front, and lines for a message and a From line on the back. The rules for two people are printed along the bottom.',
       },
       FREE_FAQ,
     ],
