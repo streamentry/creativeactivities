@@ -33,4 +33,6 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'picture-bingo': ['make-a-paper-chain-garland', 'paint-a-shared-picture'],
   'calm-breathing': ['make-a-lavender-sachet', 'wind-a-ball-of-yarn'],
   'quiet-shapes': ['tear-paper-mosaic', 'draw-a-slow-line-pattern'],
+  'color-wash': ['paint-with-watercolors', 'paint-a-garden-stone'],
+  'collage-board': ['make-a-color-collage', 'tear-paper-mosaic'],
 };

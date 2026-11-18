@@ -36,6 +36,8 @@ export const GAME_SLUGS = [
   'picture-bingo',
   'calm-breathing',
   'quiet-shapes',
+  'color-wash',
+  'collage-board',
 ] as const;
 
 const guideSchema = z.object({

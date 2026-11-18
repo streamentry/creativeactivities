@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 198 | 145 | 407 |
+| S2 | 64 | 200 | 143 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **238** | **218** | **533** |
+| **All** | **77** | **240** | **216** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -306,6 +306,18 @@ Two games, each built by a Haiku subagent in its own worktree, then reviewed, co
 
 Checks on the integrated branch: vitest 133 files, 4,228 pass (1 skipped); `tsc` clean; build 16,549 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 23 of 23; `check:capacity` 86.6%; `check:a11y` 0 failing of 189. Share images for both games made with `make-images.py` and checked by eye.
 
+### Batch 37 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. Both are English only, with no score, timer, winner or count.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Color wash" at `/games/color-wash/`: one page where a wide, see-through brush lays down color with a finger, mouse or pen, or with the arrow keys and Space; four named colors, Wide and Very wide brushes; A fresh page with one-step Put it back; no end point, praise or count; no paper version | GAME-038 → partial (a plain see-through line, not a soft edge; yellow still faint if chosen; not tried at a bedside or with a tremor; English only) | Browser at 390 px: the agent's default yellow at 40% was barely visible on the page, so a first stroke looked like nothing happened; now green at 55%, checked by painting a stroke |
+| Game "Collage board" at `/games/collage-board/`: 12 places and 8 picture cut-outs (two sets); two people take turns, each placed piece marked with that person's circle or square, also said in words; Pass, Take back, Start again with Put it back; a full board gets a neutral line; a one-page print with the sharp-tools label | GAME-033 → partial (not tried with real pairs; English only) | Browser at 390 px: a turn passed to the second person, place labels name the picture and who placed it, places 114 px, no button inside `aria-hidden`; `check:a11y` found the empty-place numbers faded below contrast by `opacity: 0.7`, removed |
+| Flaky test in Find together (batch 35, already on main): the wording check banned "clock" across the whole page, which since the pictures-showing default includes the dealt cards; the "Mantel clock" card failed it at random | Test fix only, shipped in batch 36's PR | 2,000 forced deals pass, about 40 with the clock card |
+
+Checks on the integrated branch: vitest 137 files, 4,293 pass (1 skipped); `tsc` clean; build 16,551 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 24 of 24; `check:capacity` passes; `check:a11y` 0 failing of 193. Replayed onto main after the maintainer merged #91 and the re-translation PR #89 (no shared files); tests, `tsc`, Python tests and the build rerun there. Share images for both games made with `make-images.py` and checked by eye.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -336,5 +348,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-038 Color wash and GAME-033 Collage board, then GAME-054 Big shapes and colors. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-054 Big shapes and colors and GAME-052 Group coloring wall. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

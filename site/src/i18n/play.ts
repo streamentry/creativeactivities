@@ -124,6 +124,8 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'picture-bingo': { ui: ['pictureBingo'], content: [] },
   'calm-breathing': { ui: ['calmBreathing'], content: [] },
   'quiet-shapes': { ui: ['quietShapes'], content: [] },
+  'color-wash': { ui: ['colorWash'], content: [] },
+  'collage-board': { ui: ['collageBoard'], content: [] },
 };
 
 function pick<T extends object>(source: T, keys: readonly (keyof T)[]): T {

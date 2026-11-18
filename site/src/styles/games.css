@@ -3843,6 +3843,167 @@
   }
 }
 
+/* Color wash (GAME-038): one soft brush on one page, four palette colors, two wide brushes, no end point. The page's
+   style policy blocks style attributes, so each color is chosen by `data-tone` here; color-wash tests check these hex
+   values against the palette in src/data/pattern-maker.ts. touch-action is none on the canvas only. */
+.cw [data-tone='0'] {
+  --cw-fill: #f7e98e;
+  --cw-ink: #16231d;
+}
+.cw [data-tone='1'] {
+  --cw-fill: #e69f00;
+  --cw-ink: #16231d;
+}
+.cw [data-tone='2'] {
+  --cw-fill: #009e73;
+  --cw-ink: #16231d;
+}
+.cw [data-tone='3'] {
+  --cw-fill: #7b3f98;
+  --cw-ink: #ffffff;
+}
+.cw {
+  display: grid;
+  gap: var(--space-lg);
+}
+.cw__controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: var(--space-md);
+}
+.cw__group {
+  min-inline-size: 0;
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface);
+}
+.cw__legend {
+  padding: 0 var(--space-xs);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.cw__picks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+}
+.cw__sizes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 8rem), 1fr));
+  gap: var(--space-sm);
+}
+.cw__pick,
+.cw__size {
+  position: relative;
+  display: flex;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+.cw__pick input,
+.cw__size input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.cw__face {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-sm);
+  min-block-size: 56px;
+  padding: 6px var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.cw__pick:hover .cw__face,
+.cw__size:hover .cw__face {
+  border-color: var(--gm-primary);
+}
+.cw__pick input:checked + .cw__face,
+.cw__size input:checked + .cw__face {
+  border-color: var(--gm-primary);
+  background: var(--gm-primary-container);
+  box-shadow: inset 0 0 0 2px var(--gm-primary);
+}
+.cw__pick input:focus-visible + .cw__face,
+.cw__size input:focus-visible + .cw__face {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.cw__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--cw-fill, var(--gm-surface));
+  color: var(--cw-ink, var(--gm-on-surface));
+  forced-color-adjust: none;
+}
+/* The brush sizes show their own thickness, so the size is also seen, not only read. */
+.cw__stroke {
+  flex: none;
+  inline-size: 2.5rem;
+  border-radius: 999px;
+  background: var(--gm-on-surface);
+}
+.cw__size[data-size='wide'] .cw__stroke {
+  block-size: 0.75rem;
+}
+.cw__size[data-size='veryWide'] .cw__stroke {
+  block-size: 1.75rem;
+}
+/* The current choice in words, always visible: color, size and whether the brush is down. */
+.cw__now {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin: 0;
+  padding: var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+.cw__board {
+  padding: var(--space-xs);
+}
+.cw__canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+  aspect-ratio: 4 / 3;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  touch-action: none;
+  cursor: crosshair;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.cw__canvas:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.cw__keys {
+  margin: 0;
+  font-size: var(--text-md);
+}
+
 /* Seasonal puzzle pack (GAME-040): a season choice, a rest day, and a preview of the three paper puzzles. */
 .seasonal {
   display: grid;
@@ -4020,5 +4181,210 @@
     font-size: 10pt;
     font-weight: 700;
     text-align: center;
+  }
+}
+
+/* Collage board (GAME-033). Two people place cut-outs on one board in turns. The board is four places across and three
+   down, and three across and four down on a narrow screen. Each person's pieces carry their own shape (a circle, then a
+   square), so the two are told apart without color. Nothing moves: the only transitions are shadows. */
+.cb {
+  display: grid;
+  gap: var(--space-lg);
+}
+.cb__turn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+}
+.cb__turn-line,
+.cb__turn-mark {
+  margin: 0;
+}
+.cb__turn-line {
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.cb__turn-mark {
+  font-size: var(--text-md);
+}
+.cb__marker {
+  inline-size: 2rem;
+  block-size: 2rem;
+  flex: none;
+  color: var(--gm-on-surface);
+}
+.cb__board {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-sm);
+  max-inline-size: 760px;
+  margin-inline: auto;
+  width: 100%;
+}
+@media (max-width: 440px) {
+  .cb__board {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.cb__place {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-inline-size: 64px;
+  min-block-size: 64px;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+  cursor: pointer;
+  overflow: hidden;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.cb__place[data-state='filled'] {
+  border-style: solid;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface-raised);
+}
+.cb__place:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.cb__place:focus-visible,
+.cb__cutout:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.cb__no {
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.cb__art {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+.cb__corner {
+  position: absolute;
+  inset-block-end: 4px;
+  inset-inline-end: 4px;
+  inline-size: 0.875rem;
+  block-size: 0.875rem;
+  background: var(--gm-on-surface);
+  border: 2px solid var(--gm-surface-raised);
+  pointer-events: none;
+}
+.cb__tray-section h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+}
+.cb__tray {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 7.5rem), 1fr));
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.cb__cutout {
+  display: grid;
+  justify-items: center;
+  gap: var(--space-xs);
+  inline-size: 100%;
+  min-block-size: 48px;
+  padding: var(--space-sm);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  cursor: pointer;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.cb__cutout img {
+  inline-size: 96px;
+  block-size: 96px;
+}
+.cb__cutout:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.cb__cutout[data-chosen='yes'] {
+  border: 3px solid var(--gm-on-surface);
+  background: var(--gm-primary-container);
+}
+.cb__cutout-name {
+  font-size: var(--text-md);
+  font-weight: 700;
+  text-align: center;
+}
+.cb__chosen {
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+/* The paper version: twelve boxes on top and the eight cut-outs below, all at the same 24 mm size. */
+.cb-sheet {
+  display: none;
+}
+@media print {
+  .cb-sheet,
+  .cb-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .cb-sheet h2 {
+    margin: 0 0 4mm;
+  }
+  .cb-sheet__how,
+  .cb-sheet__label,
+  .cb-sheet__pause {
+    margin: 0 0 4mm;
+    font-size: 14pt;
+    color: #000;
+  }
+  .cb-sheet__board {
+    display: grid;
+    grid-template-columns: repeat(4, 24mm);
+    gap: 4mm;
+    margin: 0 0 6mm;
+  }
+  .cb-sheet__box {
+    inline-size: 24mm;
+    block-size: 24mm;
+    border: 2px solid #000;
+    background: #fff;
+  }
+  .cb-sheet__tray {
+    display: grid;
+    grid-template-columns: repeat(4, 24mm);
+    gap: 4mm 6mm;
+    margin: 0 0 6mm;
+    padding: 0;
+    list-style: none;
+  }
+  .cb-sheet__tray li {
+    display: grid;
+    justify-items: start;
+    gap: 1mm;
+    font-size: 11pt;
+    color: #000;
+  }
+  .cb-sheet__tray img {
+    inline-size: 24mm;
+    block-size: 24mm;
+    display: block;
+  }
+  .cb-sheet__safety {
+    display: inline-block;
+    margin: 0 0 3mm;
+    padding: 1mm 3mm;
+    border: 2px solid #000;
+    font-weight: 700;
+    color: #000;
   }
 }

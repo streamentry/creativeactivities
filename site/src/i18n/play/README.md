@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 27 browser games read their words from here. The mobile app's exporter also
+The 29 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -56,8 +56,10 @@ member or carer. Write plain, warm, adult language.
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
 | `ui.quietShapes` | About 40 strings, 6 picture names, 5 piece names and 5 shape descriptions | Quiet shapes puzzle (English only for now; GAME-060) |
+| `ui.collageBoard` | 31 strings, 2 names of the people and 2 mark names | Collage board (English only for now; GAME-033) |
 | `ui.seasonalPack` | 11 strings + 4 season names + 3 puzzles (title, how, describe) | Seasonal puzzle pack (English only for now; see below) |
 | `ui.drawingDuet` | 24 strings + 2 names of the people + 4 color names | Drawing duet (English only for now; see below) |
+| `ui.colorWash` | 12 strings + 4 color names + 2 brush names | Color wash (English only for now; see below) |
 | `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
 | `ui.decorateACard` | 9 strings + 5 occasions (label and front words) + 5 steps + 3 rules for two | Decorate a card together (English only for now; see below) |
 | `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
@@ -365,6 +367,19 @@ Keep every string free of scores, timers, winners and comparisons. Add the
 translated strings and the language code to `DRAWING_DUET_REVIEWED` in `../games.ts`
 only after a native speaker has checked them. Do not machine-translate them.
 
+### Color wash (`ui.colorWash`)
+
+Color wash is English only for now (GAME-038). One soft brush paints washes across one
+page, with four colors and two brush sizes. `guidance` is the one line always shown.
+`color` is the sentence naming the current color (keep `{color}`), and `sizes` names the
+two brushes (`wide` and `veryWide`, an object, replaced whole). `colors` lists the four
+names in palette order, replaced whole. `brushDown` and `brushUp` are announced for the
+keyboard brush, and `freshMessage`, `restored` and `canvasLabel` are neutral messages
+for screen readers. Keep every string free of scores, timers, endings and comparisons:
+the page never finishes. Add the translated strings and the language code to
+`COLOR_WASH_REVIEWED` in `../games.ts` only after a native speaker has checked them. Do
+not machine-translate them.
+
 ### Seasonal puzzle pack (`ui.seasonalPack`)
 
 Seasonal puzzle pack is English only for now (GAME-040). A person chooses a season and
@@ -400,3 +415,21 @@ here and add the language code to `STORY_DICE_REVIEWED` in `../games.ts`.
 the layout mirrors; the picture puzzle stays left to right on purpose. Write
 Arabic text normally; do not add direction marks unless a mixed-direction
 string displays wrongly.
+
+### Collage board (`ui.collageBoard`)
+
+Collage board is English only for now (GAME-033). Two people take turns placing a
+cut-out picture on one shared board of twelve places. It has one guidance line
+(also printed on its paper version, and it says that nothing the people make is
+saved or sent), the names of the two people (`people`, a list of two, replaced
+whole), the two mark names (`marks`, a list of two: "a circle" and "a square", so
+each person's pieces are told apart by shape as well as by name), and the turn
+line. `turn` always names the person in words, as in "Your turn, first person";
+`{person|lower}` puts the name in lowercase inside the sentence. `placeEmpty` and
+`placeFilled` are the accessible names of every place. A place that already has a
+picture is never called wrong; the `filled` message only asks for an empty place.
+The `full` line is neutral: it says every place has a picture and that one can be
+taken back or the board started again. Nothing here scores, counts or ends the game.
+The paper version prints `sheetTitle`, `sheetHow` (the cutting line, which names an
+adult) and `sheetTray`, beside the sharp-tool safety label from the activity
+safety list.
