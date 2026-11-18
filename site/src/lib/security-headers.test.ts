@@ -102,7 +102,7 @@ describe('_headers global rule (TSA-041)', () => {
 });
 
 describe('_headers photo pairs rules (no third parties for family photos)', () => {
-  const photoRoutes = ['/games/photo-pairs/', '/:lang/games/photo-pairs/'];
+  const photoRoutes = ['/games/photo-pairs/', '/:lang/games/photo-pairs/', '/games/scrapbook/'];
 
   it.each(photoRoutes)('%s has its own strict policy that allows only this site', (route) => {
     const rule = rules.get(route);
