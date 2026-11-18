@@ -40,14 +40,15 @@ describe('FindTogether', () => {
     expect(html).not.toMatch(/misses?|tries|attempts?|moves?\b|score/i);
   });
 
-  it('deals six native buttons, each face down and named by its place', () => {
+  it('deals six native buttons with the pictures showing, each named by its picture and place', () => {
     const html = render();
-    const cards = html.match(/<button[^>]*class="tile tile--hidden"[^>]*>/g) ?? [];
+    const cards = html.match(/<button[^>]*class="tile[^"]*"[^>]*>/g) ?? [];
 
     expect(cards).toHaveLength(6);
+    expect(html).not.toContain('face down"');
     cards.forEach((tag, i) => {
       expect(tag).toContain('type="button"');
-      expect(tag).toContain(`aria-label="Card ${i + 1}, face down"`);
+      expect(tag).toMatch(new RegExp(`aria-label="[^"]+, card ${i + 1}"`));
     });
   });
 

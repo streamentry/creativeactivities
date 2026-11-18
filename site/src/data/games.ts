@@ -597,7 +597,7 @@ export const GAMES: readonly GameInfo[] = [
     players: '2 people, side by side',
     printable: false,
     intro:
-      'Cards are laid out face down, or with the pictures showing if you prefer. On your turn you turn over two cards. If they are a pair, you have found it together and the turn passes. If they are different, they stay face up until you press "Turn them back", so you can both look. Pass at any time. The tally at the top only goes up: the pairs you have found together.',
+      'The cards start with their pictures showing, or you can lay them face down. On your turn you turn over two cards. If they are a pair, you have found it together and the turn passes. If they are different, they stay face up until you press "Turn them back", so you can both look. Pass at any time. The tally at the top only goes up: the pairs you have found together.',
     howTo: [
       'Choose how many cards to use. Six cards, three pairs, is a calm place to start.',
       'The screen says whose turn it is, with a circle for the first person and a square for the second.',
@@ -608,7 +608,7 @@ export const GAMES: readonly GameInfo[] = [
     tips: [
       'Sit side by side and name the pictures out loud together: "A teacup. Do you take milk in your tea?"',
       'Let the person you care for do the tapping, even if it takes a while. Point rather than tap for them.',
-      'Choose "Play with pictures showing" if you both prefer every picture to stay in view.',
+      'Choose "Cards face down" if you both enjoy turning cards over to find the pictures.',
       'A person who tires easily can pass as often as they like. The pairs are still found together.',
     ],
     faq: [
@@ -618,7 +618,7 @@ export const GAMES: readonly GameInfo[] = [
       },
       {
         q: 'Do we have to remember where the pictures are?',
-        a: 'Not if you prefer. Choose "Play with pictures showing" and every picture stays in view. With the cards face down, you can ask each other what you saw, or simply turn them over again.',
+        a: 'No. The game starts with every picture in view. With the cards face down, you can ask each other what you saw, or simply turn them over again.',
       },
       {
         q: 'What happens when two cards are different?',

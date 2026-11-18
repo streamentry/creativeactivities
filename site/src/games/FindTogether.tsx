@@ -30,9 +30,9 @@ import { useWide } from './shared/useWide';
 /** Every picture in the library. Each new board is dealt from these. */
 const PICTURE_IDS = PICTURES.map((p) => p.id);
 
-/** "Play with pictures showing" or face-down cards. The game starts face down. */
+/** "Play with pictures showing" or face-down cards. The game starts with the pictures showing, as Picture pairs does. */
 type View = 'showing' | 'hidden';
-const DEFAULT_VIEW: View = 'hidden';
+const DEFAULT_VIEW: View = 'showing';
 
 const newBoard = (cards: CardCount): FindState => deal(cards, PICTURE_IDS, createRng(randomSeed()));
 
