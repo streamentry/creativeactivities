@@ -18,14 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 237 | 104 | 407 |
+| S2 | 66 | 238 | 103 | 407 |
 | S3 | 2 | 15 | 58 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **280** | **173** | **533** |
-
-| S3 | 1 | 15 | 59 | 75 |
-| S4 | 0 | 0 | 11 | 11 |
-| **All** | **79** | **277** | **177** | **533** |
+| **All** | **80** | **281** | **172** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -452,6 +448,7 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | GROW child-facing items (CNT-8xx, S3) and the games for children 2 to 6 (GAME-053, GAME-054, GAME-055, GAME-057) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
 | S4 languages | Native reviewers per language | Reviewers |
 
+<!-- cspell:ignore démence apparentées cognitifs maladie maladies troubles الخرف الزهايمر -->
 ## Decisions only the maintainer can make
 
 Each of these blocks work that no one else can unblock. The last column is a suggestion to make the decision quicker. None is decided, and nothing in the repository acts on it.
@@ -468,6 +465,7 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | The app's automatic rating prompt (APP-019) | APP-019, GM-001 | Keep the prompt the app shows after 4 finished games on 2 days (`lib/shared/rating/review_request.dart`), or change the app so the person opens the rating control, as APP-019 says | Change the app: the spec and DESIGN.md forbid prompts the person did not ask for |
 | The seven live kids guides (SEO-041) | SEO-041 | Keep the guides for parents in `site/src/content/guides/kids/` (adult-facing, so not behind the child-facing gate) and change SEO-041, or move them to hub links only as SEO-041 says | Keep them and change SEO-041: they are written for adults and already published; removing pages loses links |
 | Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
+| The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
 
 ## Next batches (buildable without a person)
