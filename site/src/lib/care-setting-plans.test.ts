@@ -87,7 +87,7 @@ describe('care-settings page (CNT-014, adult variant)', () => {
     expect(PAUSE_LINE).toContain('Pause or stop');
   });
 
-  it('has no forms, scripts, email capture or hard-coded colours', () => {
+  it('has no forms, scripts, email capture or hard-coded colors', () => {
     expect(page).not.toMatch(/<form[\s>]/i);
     expect(page).not.toMatch(/<script[\s>]/i);
     expect(page).not.toMatch(/type="email"/i);
