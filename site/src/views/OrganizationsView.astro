@@ -38,4 +38,7 @@ const html = (s: string) => localizeHtml(lang, fill(s, values));
   <h3>{p.longTitle}</h3>
   <blockquote class="copy-text"><p>{fill(p.longText, values)}</p></blockquote>
   <Fragment set:html={html(p.linksHtml)} />
+  {lang === 'en' && (
+    <p>For health and social care professionals: <a href="/for-professionals/">a one-page handout to give to families</a>.</p>
+  )}
 </PageLayout>
