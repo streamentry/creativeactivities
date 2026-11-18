@@ -157,7 +157,7 @@ describe('component text keys', () => {
       [...text.matchAll(new RegExp(`\\b${root}\\.([A-Za-z]\\w*)`, 'g'))].map((m) => m[1] as string);
     const shared = (name: string) => Object.entries(sources).find(([f]) => f.endsWith(`/shared/${name}.tsx`))?.[1] ?? '';
     const pascal = (slug: string) => slug.replace(/(^|-)(\w)/g, (_, __, c: string) => c.toUpperCase());
-    expect(Object.keys(GAME_TEXT)).toHaveLength(22);
+    expect(Object.keys(GAME_TEXT)).toHaveLength(23);
     for (const [slug, need] of Object.entries(GAME_TEXT)) {
       const file = Object.entries(sources).find(([f]) => f.endsWith(`/games/${pascal(slug)}.tsx`));
       expect(file, slug).toBeDefined();

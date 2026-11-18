@@ -3149,3 +3149,205 @@
     color: #000;
   }
 }
+
+/* Decorate a card together (GAME-035): choices, and a preview of the card folded in half. Nothing here moves or counts. */
+.card-deco {
+  display: grid;
+  gap: var(--space-xl);
+  max-inline-size: 44rem;
+  margin-inline: auto;
+}
+.card-deco__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.card-deco__choices legend {
+  margin-block-end: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.card-deco__choice {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-block-size: 56px;
+  min-inline-size: 48px;
+  padding: var(--space-xs) var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  font-size: var(--text-md);
+  font-weight: 600;
+  cursor: pointer;
+}
+.card-deco__choice:has(input:checked) {
+  border-width: 3px;
+  border-color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  font-weight: 700;
+}
+.card-deco__choice input {
+  inline-size: 1.4rem;
+  block-size: 1.4rem;
+  margin: 0;
+  accent-color: var(--gm-on-surface);
+}
+.card-deco__preview {
+  margin: 0;
+}
+.card-deco__sheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  inline-size: min(100%, 36rem);
+  margin-inline: auto;
+  border: 2px dashed var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  overflow: hidden;
+}
+.card-deco__panel {
+  position: relative;
+  aspect-ratio: 90 / 125;
+  display: grid;
+  place-items: center;
+}
+.card-deco__panel--front {
+  border-inline-start: 2px dashed var(--gm-outline);
+}
+.card-deco__art {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.2;
+}
+.card-deco__line {
+  stroke-width: 0.4;
+  opacity: 0.35;
+}
+.card-deco__words {
+  position: relative;
+  margin: 0;
+  padding: var(--space-sm);
+  font-size: clamp(1.1rem, 0.8rem + 2vw, 1.9rem);
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.card-deco__from {
+  position: absolute;
+  inset-inline-start: 24%;
+  inset-block-end: 17%;
+  margin: 0;
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.card-deco__steps,
+.card-deco__rules {
+  margin: 0;
+  padding-inline-start: 1.5em;
+  font-size: var(--text-md);
+}
+.card-deco__steps li,
+.card-deco__rules li {
+  margin-block-end: var(--space-sm);
+}
+.card-deco__preview figcaption {
+  margin-block-start: var(--space-sm);
+  font-size: var(--text-md);
+}
+.card-deco__materials,
+.card-deco__pause {
+  font-size: var(--text-md);
+}
+.card-deco__rules-heading {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-lg);
+}
+@media (forced-colors: active) {
+  .card-deco__art,
+  .card-deco__sheet {
+    border-color: CanvasText;
+    stroke: CanvasText;
+  }
+}
+
+/* The paper card: one page, a card of two halves (inside left, front right) folded along the dashed line. */
+@media print {
+  .sheet-paper__card {
+    display: grid;
+    grid-template-columns: 90mm 90mm;
+    inline-size: 180mm;
+    margin: 0 auto 4mm;
+    border: 0.4mm solid #000;
+    color: #000;
+  }
+  .sheet-paper__panel {
+    position: relative;
+    inline-size: 90mm;
+    block-size: 125mm;
+    background: #fff;
+  }
+  .sheet-paper__panel[hidden] {
+    display: none !important;
+  }
+  .sheet-paper__panel--front {
+    border-inline-start: 0.35mm dashed #000;
+  }
+  .sheet-paper__panel svg {
+    position: absolute;
+    inset: 0;
+    inline-size: 100%;
+    block-size: 100%;
+  }
+  .sheet-paper__frame,
+  .sheet-paper__mark {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.6;
+  }
+  .sheet-paper__line {
+    stroke: #000;
+    stroke-width: 0.25;
+    stroke-opacity: 0.4;
+  }
+  .sheet-paper__words {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 14mm 8mm;
+    font-size: 22pt;
+    font-weight: 700;
+    line-height: 1.15;
+    text-align: center;
+    color: #000;
+  }
+  .sheet-paper__from {
+    position: absolute;
+    inset-inline-start: 22mm;
+    inset-block-end: 19mm;
+    margin: 0;
+    font-size: 14pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .sheet-paper__card-rules {
+    margin: 2mm 0 0;
+    padding: 0;
+    list-style: none;
+    font-size: 9pt;
+    line-height: 1.3;
+    color: #000;
+  }
+}
