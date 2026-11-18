@@ -205,11 +205,11 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-037 | P2 | partial | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |
 | GAME-038 | P2 | partial | Color wash |
-| GAME-039 | P3 | new | Quiet scene |
+| GAME-039 | P3 | partial | Quiet scene |
 | GAME-040 | P1 | partial | Seasonal puzzle pack |
 | GAME-041 | P2 | partial | Garden planner |
 | GAME-042 | P2 | new | Garden bird spotter |
-| GAME-043 | P2 | new | Picnic planner |
+| GAME-043 | P2 | partial | Picnic planner |
 | GAME-009 | P0 | exists | Conversation cards |
 | GAME-010 | P0 | exists | Photo pairs |
 | GAME-044 | P1 | partial | Reminiscence card match |
@@ -675,7 +675,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| SEO-038 | P2 | new | Life-story and storytelling (R5 rank 11) |
+| SEO-038 | P2 | exists | Life-story and storytelling (R5 rank 11) |
 | SEO-039 | P2 | partial | Relaxing art for adults (R5 rank 9) |
 | SEO-040 | P3 | new | Sensory activities for children (R5 rank 12) |
 | SEO-041 | P3 | new | Broad rainy-day and adult or kids' crafts (R5 ranks 13 to 15) |

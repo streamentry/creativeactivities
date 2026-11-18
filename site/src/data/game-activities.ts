@@ -38,4 +38,6 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'garden-planner': ['arrange-flowers-together', 'plant-seeds-in-a-pot'],
   'coloring-wall': ['paint-a-shared-picture', 'paint-with-watercolors'],
   scrapbook: ['make-a-photo-postcard', 'make-a-memory-collage'],
+  'picnic-planner': ['sketch-what-is-on-the-table', 'make-a-photo-postcard'],
+  'quiet-scene': ['arrange-flowers-together', 'paint-a-shared-picture'],
 };

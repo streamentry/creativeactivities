@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 32 browser games read their words from here. The mobile app's exporter also
+The 34 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain`, `ui.storyDice` and `ui.scrapbook` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain`, `ui.storyDice`, `ui.scrapbook`, `ui.picnicPlanner` and `ui.quietScene` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -67,7 +67,9 @@ member or carer. Write plain, warm, adult language.
 | `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
+| `ui.quietScene` | 7 strings, a line for each of 12 pictures (keyed by picture id) | Quiet scene (English only for now; GAME-039) |
 | `ui.scrapbook` | 31 strings, including the plural `skipped` | Scrapbook (English only for now; GAME-037) |
+| `ui.picnicPlanner` | 26 strings; the picture phrases are in `src/data/picnic-planner.ts` | Picnic planner (English only for now; GAME-043) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -412,6 +414,14 @@ its guidance, button and message text have not been reviewed in other
 languages. After a native speaker reviews the `ui.storyDice` strings, add them
 here and add the language code to `STORY_DICE_REVIEWED` in `../games.ts`.
 
+### Quiet scene (`ui.quietScene`)
+
+Quiet scene is English only for now (GAME-039). One still picture is shown at a time, with a
+line under it from `lines`, keyed by picture id. Keep each line plain, warm and short, with
+no question, no prompt to remember and no clinical or relaxation wording. `first` and `last`
+are the polite messages when Previous or Next cannot move. Add translations and the language
+code to `QUIET_SCENE_REVIEWED` in `../games.ts` only after a native speaker has checked them.
+
 ## Right-to-left languages
 
 `ar` pages get `<html dir="rtl">`. The games use logical CSS properties, so
@@ -460,6 +470,18 @@ is saved or sent), and one for looking together (`lookGuidance`). `consent` and
 plural object (see the plural rules above), and `usingFirst` takes `{max}`. The
 paper version prints `sheetTitle`, `sheetHow` and `sheetEmpty`, which shows when no
 photos have been chosen. Nothing here scores, times, counts or ends the game.
+
+### Picnic planner (`ui.picnicPlanner`)
+
+Picnic planner is English only for now (GAME-043). A person taps food and things-to-do
+pictures to put them in a basket of six slots, then plays a matching round with the
+chosen pictures (the existing pairs board, `ui.pairs`). `guidance` is the plan-stage line,
+also printed on the paper version; `guidancePlay` is the line for the matching round.
+`summary` is "Our picnic: {list}.", and `and` joins the list. The singular and plural
+picture phrases are in `src/data/picnic-planner.ts`, which a translation would replace.
+The paper version prints `sheetTitle`, `sheetHow` and `sheetToPack`, as a checklist with
+a tick box for each thing and blank lines to make up six. Nothing here scores, times or
+counts misses.
 
 ### Group coloring wall (`ui.coloringWall`)
 

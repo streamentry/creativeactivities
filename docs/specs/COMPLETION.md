@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 232 | 109 | 407 |
-| S3 | 1 | 15 | 59 | 75 |
+| S2 | 66 | 234 | 107 | 407 |
+| S3 | 2 | 15 | 58 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **79** | **275** | **179** | **533** |
+| **All** | **80** | **277** | **176** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -415,7 +415,19 @@ Checks: vitest 153 files, 4,731 pass (1 skipped); build 16,708 pages; `check:sit
 
 | Change | Items | Evidence |
 | --- | --- | --- |
-| `pnpm check:browsers` runs eight flows in Playwright Chromium, Firefox and WebKit: read-aloud order, Short steps across a reload, colors and text settings applied before paint, the device's dark setting, Photo pairs and Scrapbook with test photos and no network request, game print sheets shown in print, and no sideways scroll at 320 px. Added to the site CI job | WEB-020 and the testing rules' minimum browser set; upkeep | Written by a Haiku subagent. Local run: all eight flows pass in Chromium and in WebKit (Safari's engine, not Safari itself). Playwright's Firefox build does not start on this macOS (sandbox and software-renderer errors, also with the shell sandbox off), so Firefox runs on the Linux CI runner instead |
+| `pnpm check:browsers` runs eight flows in Playwright Chromium, Firefox and WebKit: read-aloud order, Short steps across a reload, colors and text settings applied before paint, the device's dark setting, Photo pairs and Scrapbook with test photos and no network request, game print sheets shown in print, and no sideways scroll at 320 px. Added to the site CI job | WEB-020 and the testing rules' minimum browser set; upkeep | Written by a Haiku subagent. Local run: all eight flows pass in Chromium and in WebKit (Safari's engine, not Safari itself). Playwright's Firefox build does not start on this macOS (sandbox and software-renderer errors, also with the shell sandbox off), so Firefox runs on the Linux CI runner instead. First CI run (#102): 24 of 24 flow runs pass, Firefox included |
+
+### Batch 47 (2026-11-19): two games and a life-story guide
+
+Three Haiku subagents in parallel, each reviewed and browser-checked (light and dark, 390 px) by the PM agent.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Picnic planner": choose up to six food and outing pictures, a sentence in words, a pairs round from the choices, a printable packing checklist | GAME-043 → partial | Browser: "Our picnic: bread, apples and a kite.", a 3-pair round, the checklist prints (blank lines when nothing is chosen) |
+| Game "Quiet scene": twelve still pictures with one line each, Next and Previous only, a Bigger picture view, no sound, no motion | GAME-039 → partial | Browser: "This is the first picture." and "This is the last picture." at the ends; no sideways scroll |
+| Guide "Making a Life-Story Book Together, One Page at a Time" | SEO-038 → exists | Review fix: the guide said never to ask what someone recalls, yet several prompts were recall questions ("Where did the kettle sit?"); the prompts are now about the thing in front of you and the rule says no quizzing. Crisis route shown in the browser; library inventory regenerated |
+
+Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
 
 ## What blocks the rest
 
@@ -450,5 +462,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): GAME-042 Garden bird spotter needs bird drawings; the music games need a sound license review. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

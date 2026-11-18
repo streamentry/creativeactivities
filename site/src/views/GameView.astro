@@ -58,6 +58,8 @@ import PictureBingo from '../games/PictureBingo';
 import CalmBreathing from '../games/CalmBreathing';
 import ColorWash from '../games/ColorWash';
 import Scrapbook from '../games/Scrapbook';
+import PicnicPlanner from '../games/PicnicPlanner';
+import QuietScene from '../games/QuietScene';
 
 const NON_GAMES = new Set(['calm-breathing', 'conversation-cards']);
 
@@ -170,6 +172,8 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'garden-planner' && <GardenPlanner client:load {...play} />}
       {s === 'coloring-wall' && <ColoringWall client:load {...play} />}
       {s === 'scrapbook' && <Scrapbook client:load {...play} />}
+      {s === 'picnic-planner' && <PicnicPlanner client:load {...play} />}
+      {s === 'quiet-scene' && <QuietScene client:load {...play} />}
     </div>
 
     {
