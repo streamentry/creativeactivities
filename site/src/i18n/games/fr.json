@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Paires d’images",
-    "seoTitle": "Jeu des paires pour adultes : paires d'images",
+    "seoTitle": "Jeu d'association pour adultes : paires d'images",
     "h1": "Paires d’images : un jeu d’association tout en douceur",
-    "description": "Un jeu des paires doux et gratuit pour les adultes et les personnes âgées, y compris les personnes vivant avec la démence. Les images peuvent rester visibles. Sans chronomètre ni score.",
+    "description": "Un jeu d'association gratuit et doux, pour adultes et personnes âgées, y compris les personnes qui vivent avec une démence. Les images peuvent rester visibles. Pas de minuteur ni de score.",
     "short": "Trouvez les deux images identiques. Les images peuvent rester visibles.",
     "players": "1 ou 2 personnes, côte à côte",
     "intro": "Touchez une image, puis celle qui lui correspond. Par défaut, les images restent visibles : il n’y a rien à mémoriser. Quand deux images vont ensemble, elles reçoivent un contour doré et une coche.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Trouver la même",
-    "seoTitle": "Trouver la même image : un jeu d'images simple",
+    "seoTitle": "Trouver la même image : jeu d'images simple",
     "h1": "Trouver la même image",
-    "description": "Une image en haut, deux à quatre en dessous. Touchez celle qui est identique. Un jeu d'images calme et gratuit pour les adultes, les personnes âgées et les familles, sans chronomètre.",
+    "description": "Une image en haut, deux à quatre en dessous. Touchez celle qui est identique. Un jeu d'images calme et gratuit pour adultes, personnes âgées et familles, sans minuteur.",
     "short": "Regardez l’image du haut et touchez la même en dessous.",
     "players": "1 ou 2 personnes",
     "intro": "Une seule image est affichée en haut de l’écran. En dessous, il y en a deux, trois ou quatre. Touchez celle qui est identique. Un seul choix simple à la fois, avec tout le temps de parler.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Jeu des ombres",
-    "seoTitle": "Jeu des ombres : gratuit en ligne pour adultes",
+    "seoTitle": "Jeu d'association d'ombres : gratuit en ligne pour adultes",
     "h1": "Jeu des ombres : un jeu d’images tout en douceur",
-    "description": "Une ombre foncée en haut, deux à quatre images en dessous. Touchez l'image qui correspond à l'ombre. Un jeu des ombres calme et gratuit, sans chronomètre.",
+    "description": "Une ombre sombre en haut, deux à quatre images en dessous. Touchez l'image qui correspond à l'ombre. Un jeu d'association d'ombres gratuit et calme, sans minuteur.",
     "short": "Regardez l’ombre et touchez l’image qui lui correspond.",
     "players": "1 ou 2 personnes",
     "intro": "Associer une image à son ombre est une activité familière des fiches imprimées, ici avec de grandes images et rien à imprimer. Une ombre douce est affichée en haut de l’écran, et deux, trois ou quatre images attendent en dessous. Touchez celle qui fait cette ombre. Des formes comme un vélo, un parapluie ou une tasse donnent aussi matière à conversation.",
@@ -100,8 +100,8 @@
         "a": "Non. Il n’y a ni chronomètre, ni score, ni compteur de coups, ni partie perdue. Vous pouvez arrêter à tout moment, et s’arrêter à mi-parcours est une très bonne façon de finir."
       },
       {
-        "q": "Les personnes vivant avec la démence peuvent-elles apprécier le jeu des ombres ?",
-        "a": "De nombreux adultes l'apprécient, y compris certaines personnes vivant avec la démence, souvent aux premiers stades. Les formes sont plus faciles à reconnaître que les mots. C'est une activité pour le plaisir et l'échange, pas un test, et elle ne permet ni de soigner ni de ralentir la démence. Si cela suscite de la frustration, essayez « Trouver la même image » ou regardez simplement des images ensemble."
+        "q": "Les personnes qui vivent avec une démence peuvent-elles apprécier l'association d'ombres ?",
+        "a": "Beaucoup d'adultes l'apprécient, y compris certaines personnes qui vivent avec une démence, souvent aux premiers stades. Les formes sont plus faciles à reconnaître que les mots. C'est un jeu pour le plaisir et la conversation, pas un test, et il ne traite pas la démence et ne la ralentit pas. S'il provoque de la frustration, essayez Trouver la même image ou regardez simplement des images ensemble."
       },
       {
         "q": "Que se passe-t-il si on touche la mauvaise image ?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Quatre ensemble",
+    "seoTitle": "Jeu de regroupement d'images pour adultes : Quatre ensemble",
+    "h1": "Quatre ensemble : un jeu calme de regroupement d'images",
+    "description": "Certaines images partagent un thème, comme les fruits ou la météo. Touchez celles qui vont ensemble. Un jeu de regroupement gratuit et calme, sans minuteur ni score.",
+    "short": "Trouvez les images qui vont ensemble, comme les fruits ou la météo.",
+    "players": "1 ou 2 personnes",
+    "intro": "Un petit ensemble d'images, dont certaines vont ensemble : quatre sortes de fruits, par exemple, ou quatre moyens de voyager. Touchez celles qui partagent un thème. Si une image va avec autre chose, le jeu la nomme simplement et attend. Après une courte pause silencieuse, un indice nomme le thème, et « Montrer le groupe » révèle la réponse à tout moment.",
+    "howTo": [
+      "Choisissez quatre, six ou huit images. Quatre est le plus simple, avec trois images qui vont ensemble.",
+      "Regardez les images ensemble et parlez de ce qu'elles ont en commun.",
+      "Touchez chaque image qui appartient au groupe. Elle reçoit une bordure dorée et une coche.",
+      "Si une image va avec autre chose, le jeu la nomme et attend. Prenez votre temps.",
+      "Touchez « Montrer le groupe » quand vous le souhaitez, puis « Un autre ensemble » pour de nouvelles images."
+    ],
+    "tips": [
+      "Dites à voix haute ce que vous remarquez : « Ces deux-là, ce sont des choses qu'on mange. »",
+      "Il n'y a pas de hâte. Un indice nommant le thème apparaît après une pause, et vous pouvez l'ignorer.",
+      "Parlez du groupe une fois trouvé : un fruit préféré, un trajet en train, le temps qu'il fait aujourd'hui."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de terminer."
+      },
+      {
+        "q": "Que se passe-t-il si une image qui ne fait pas partie du groupe est touchée ?",
+        "a": "Rien de désagréable. Il n'y a ni buzzer, ni croix rouge, ni secousse. Le jeu nomme l'image, indique qu'elle va avec autre chose, et attend le toucher suivant."
+      },
+      {
+        "q": "Quels sont les groupes ?",
+        "a": "Des thèmes du quotidien qui ne demandent aucune connaissance particulière : fruits, animaux, fleurs, météo, moyens de voyager, choses pour une boisson chaude et choses cuites au four. Chaque image n'appartient qu'à un seul groupe."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Il fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "L'intrus",
+    "seoTitle": "Jeu de l'intrus en images pour adultes",
+    "h1": "L'intrus : un jeu d'images détendu",
+    "description": "Trois ou quatre images, dont toutes sauf une partagent un thème, comme les fruits ou la météo. Touchez celle qui n'a pas sa place. Gratuit, calme, sans minuteur ni score.",
+    "short": "Repérez l'image qui n'a pas sa place parmi les autres.",
+    "players": "1 ou 2 personnes",
+    "intro": "Trois ou quatre images, dont toutes sauf une vont ensemble : des fruits, par exemple, ou des moyens de voyager. Touchez l'image qui n'a pas sa place. Si une image va bien avec les autres, le jeu le dit simplement et attend. Après une courte pause silencieuse, un indice nomme ce que les autres ont en commun, et « Montre-moi » désigne l'intrus à tout moment.",
+    "howTo": [
+      "Choisissez trois ou quatre images. Trois est le plus simple.",
+      "Regardez les images ensemble et parlez de ce que la plupart d'entre elles ont en commun.",
+      "Touchez l'image qui n'a pas sa place. Elle reçoit une bordure dorée et une coche.",
+      "Si une image va avec les autres, le jeu le dit et attend. Prenez votre temps.",
+      "Touchez « Montre-moi » quand vous le souhaitez, puis « Un autre ensemble » pour de nouvelles images."
+    ],
+    "tips": [
+      "Parlez-en à voix haute : « La pomme et la poire sont toutes les deux des fruits. Et le bus ? »",
+      "Il n'y a pas de hâte. Un indice nommant le thème apparaît après une pause, et vous pouvez l'ignorer.",
+      "Chaque image est un bon point de départ pour discuter : un fruit préféré, un trajet en bus, une journée de pluie."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de terminer."
+      },
+      {
+        "q": "Que se passe-t-il si une image qui fait partie du groupe est touchée ?",
+        "a": "Rien de désagréable. Il n'y a ni buzzer, ni croix rouge, ni secousse. Le jeu nomme l'image, indique qu'elle va avec les autres, et attend le toucher suivant."
+      },
+      {
+        "q": "Comment l'image intruse est-elle choisie ?",
+        "a": "Les images proviennent de thèmes du quotidien qui ne demandent aucune connaissance particulière : fruits, animaux, fleurs, météo, moyens de voyager, choses pour une boisson chaude et choses cuites au four. Chaque image n'appartient qu'à un seul thème, et l'intrus vient toujours d'un thème différent."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Associer les couleurs",
+    "seoTitle": "Associer les couleurs : un jeu d'images doux",
+    "h1": "Associer les couleurs : trouver les images d'une même couleur",
+    "description": "Une grande couleur avec son nom, et quatre ou six images. Touchez chaque image de cette couleur. Pas de minuterie, pas de score, et une autre couleur est simplement nommée. Jeu gratuit à jouer et à imprimer.",
+    "short": "Trouvez toutes les images de la même couleur que celle montrée.",
+    "players": "1 ou 2 personnes, ou un adulte et un enfant",
+    "intro": "Une grande plage de couleur s'affiche, son nom écrit à côté, et en dessous quatre ou six images. Touchez chaque image de cette couleur : une pomme rouge et une tasse rouge, par exemple. Si une image est d'une autre couleur, le jeu se contente de la nommer (« La poire est verte. ») et attend. « Les montrer » signale à tout moment les images correspondantes, et « Une autre couleur » passe à la suivante.",
+    "howTo": [
+      "Choisissez quatre ou six images. Quatre est le plus simple.",
+      "Regardez la couleur et lisez son nom ensemble.",
+      "Touchez chaque image de cette couleur. Chacune reçoit un contour épais et une coche.",
+      "Si une image est d'une autre couleur, le jeu indique sa couleur et attend. Prenez votre temps.",
+      "Touchez « Les montrer » quand vous le souhaitez, puis « Une autre couleur » pour une nouvelle couleur."
+    ],
+    "tips": [
+      "Dites la couleur à voix haute, puis regardez autour de la pièce : qu'est-ce qui d'autre a cette couleur ?",
+      "Utilisez vos propres mots si vous voulez. « Tomate » ou « ciel » valent bien « rouge » ou « bleu ».",
+      "Montrer du doigt fonctionne aussi bien que toucher. Asseyez-vous côte à côte pour voir l'écran tous les deux."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il une minuterie ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de finir."
+      },
+      {
+        "q": "Que se passe-t-il si l'on touche une image d'une autre couleur ?",
+        "a": "Rien de désagréable. Pas de buzzer, de croix rouge ni de secousse. Le jeu nomme l'image et sa couleur, par exemple « La poire est verte. », puis attend le geste suivant."
+      },
+      {
+        "q": "La couleur est-elle le seul indice ?",
+        "a": "Non. La couleur est montrée sous forme de grande plage et écrite en toutes lettres, et chaque image est nommée quand on la touche. Quelqu'un qui distingue mal une couleur peut tout de même jouer en lisant le nom."
+      },
+      {
+        "q": "Chaque image est-elle vraiment de cette couleur ?",
+        "a": "Les images sont choisies à la main, et seulement celles dont l'objet principal est clairement d'une seule couleur. Les images à plusieurs couleurs, comme un cerf-volant ou une abeille, sont écartées."
+      },
+      {
+        "q": "Existe-t-il une version papier ?",
+        "a": "Oui. Une feuille d'une page comporte quatre lignes. Chaque ligne nomme une couleur et montre quatre images à désigner ou à entourer."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Moitiés assorties",
+    "seoTitle": "Moitiés assorties : un jeu d'images doux",
+    "h1": "Moitiés assorties : réunir les deux moitiés d'une image",
+    "description": "Les moitiés gauches de deux ou trois images d'un côté, leurs moitiés droites de l'autre. Touchez une moitié, puis celle qui lui correspond. Pas de minuterie, pas de score, et les moitiés qui ne vont pas ensemble se séparent simplement. Jeu gratuit à jouer et à imprimer.",
+    "short": "Touchez les deux moitiés qui s'assemblent pour former une seule image.",
+    "players": "1 ou 2 personnes, ou un adulte et un enfant",
+    "intro": "Chaque image est coupée en son milieu. Les moitiés gauches de deux ou trois images sont dans une colonne, et leurs moitiés droites, dans un autre ordre, sont dans l'autre colonne. Touchez une moitié à gauche, puis touchez la moitié de droite qui lui correspond, comme le bec d'une bouilloire et son anse. Les moitiés qui vont ensemble se rejoignent pour former une image entière. Celles qui ne vont pas ensemble se séparent à nouveau, et le jeu le signale avec douceur. « Montrez-moi » les réunit toutes.",
+    "howTo": [
+      "Choisissez deux ou trois images. Deux est le plus simple.",
+      "Regardez ensemble les moitiés de gauche. À quoi pensez-vous que chacune appartient ?",
+      "Touchez une moitié à gauche, puis la moitié de droite qui lui correspond. Cela fonctionne aussi dans l'autre sens.",
+      "Les moitiés qui vont ensemble se rejoignent, avec un contour épais et une coche. Celles qui ne vont pas ensemble se séparent à nouveau, et vous pouvez essayer une autre combinaison.",
+      "Touchez « Montrez-moi » quand vous le souhaitez, puis « Un autre ensemble » pour de nouvelles images."
+    ],
+    "tips": [
+      "Suivez du doigt le bord d'une moitié. À quel endroit le dessin atteint-il le milieu ?",
+      "Dites ce que vous voyez : « Celle-ci a une anse. » Inutile de nommer chaque image.",
+      "Montrer du doigt fonctionne aussi bien que toucher. Asseyez-vous côte à côte pour voir l'écran tous les deux."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il une minuterie ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de finir."
+      },
+      {
+        "q": "Que se passe-t-il si deux moitiés ne vont pas ensemble ?",
+        "a": "Rien de désagréable. Pas de buzzer, de croix rouge ni de secousse. Les deux moitiés se séparent à nouveau et le jeu dit : « Ces deux-là ne vont pas ensemble. Essayez-en une autre. » Rien n'est compté."
+      },
+      {
+        "q": "Les images sont-elles faciles à distinguer ?",
+        "a": "Oui. Les images sont choisies à la main, et deux images d'un même tableau ne viennent jamais du même groupe, comme deux fruits ou deux animaux. Les images dont les deux moitiés se ressemblent, comme le soleil ou un arc-en-ciel, sont écartées."
+      },
+      {
+        "q": "Existe-t-il une version papier ?",
+        "a": "Oui. Une feuille d'une page présente, dans une colonne, les moitiés gauches de trois images et, dans l'autre colonne, leurs moitiés droites, dans un ordre différent. Tracez un trait entre chaque moitié gauche et la moitié qui lui correspond."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement à faire. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Colorier par numéro",
+    "seoTitle": "Colorier par numéro : un jeu de remplissage calme en gros caractères",
+    "h1": "Colorier par numéro : remplissez les carrés de la couleur de votre choix",
+    "description": "Une grille de grands carrés numérotés et une légende de quatre couleurs avec leurs noms. Choisissez une couleur, puis touchez les carrés pour les remplir. Toutes les couleurs conviennent, il n'y a ni minuterie ni score, et un bouton remplit le reste selon les numéros. Jeu et impression gratuits.",
+    "short": "Choisissez une couleur, puis touchez les carrés numérotés pour les remplir.",
+    "players": "1 ou 2 personnes, côte à côte",
+    "intro": "Une grille carrée de grands carrés, chacun avec un numéro, et au-dessus une légende avec quatre couleurs, chacune avec son numéro et son nom écrit. Choisissez une couleur dans la légende, puis touchez les carrés pour les remplir. La grille fait 4 sur 4 pour commencer, avec 6 sur 6 et 8 sur 8 si vous voulez davantage de carrés. Lorsque chaque carré a la couleur de son numéro, la grille devient l'image de la feuille. Les carrés remplis d'une autre couleur forment simplement votre propre image, et le jeu n'en dit rien. « Remplir avec les numéros » remplit à votre place chaque carré vide.",
+    "howTo": [
+      "Choisissez la taille de la grille. Le 4 sur 4 a les plus grands carrés et est le plus simple.",
+      "Regardez la légende au-dessus de la grille. Chaque couleur a un numéro et un nom, par exemple 1 Jaune.",
+      "Touchez une couleur dans la légende, puis touchez les carrés que vous voulez remplir avec cette couleur.",
+      "Utilisez la couleur indiquée par le numéro, ou toute autre couleur de votre choix. Les deux conviennent.",
+      "Touchez « Remplir avec les numéros » pour les carrés vides, « Effacer » pour recommencer la grille, ou « Une autre image » pour en obtenir une différente."
+    ],
+    "tips": [
+      "Installez-vous côte à côte et jouez à tour de rôle : l'une choisit la couleur, l'autre touche le carré.",
+      "Parlez des couleurs : « J'aime le vert. » Il n'est pas nécessaire de dire ce que représentera l'image.",
+      "Sur un petit écran, la grille 8 sur 8 défile latéralement dans son propre cadre. Les carrés gardent une taille confortable.",
+      "La version sur papier fonctionne tout aussi bien, avec des crayons, à côté du lit."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il une minuterie ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-parcours est une très bonne façon de finir."
+      },
+      {
+        "q": "Que se passe-t-il si j'utilise une couleur différente de celle du numéro ?",
+        "a": "Rien ne se passe, et c'est le principe. Toute couleur peut aller dans n'importe quel carré, et le jeu n'en dit rien. Lorsque chaque carré a la couleur de son numéro, le jeu le signale avec douceur, mais une image dans vos propres couleurs est tout aussi réussie."
+      },
+      {
+        "q": "Les quatre couleurs sont-elles faciles à distinguer pour les personnes daltoniennes ?",
+        "a": "Elles ont été choisies pour cela. Chaque couleur a aussi un numéro, un nom écrit et sa propre petite forme, de sorte que la couleur n'est jamais le seul moyen de les distinguer. Les quatre remplissages ont été vérifiés à l'aide de simulations du daltonisme rouge-vert et bleu-jaune, et ils diffèrent aussi par leur clarté. Une personne daltonienne ne les a pas encore essayés, alors dites-nous si deux d'entre elles se ressemblent."
+      },
+      {
+        "q": "Les carrés sont-ils assez grands pour un tremblement ou un petit écran ?",
+        "a": "Chaque carré mesure au moins 48 pixels de côté, et 56 sur la grille 4 sur 4. Si une grille est trop large pour l'écran, elle défile latéralement dans son propre cadre au lieu de réduire la taille des carrés."
+      },
+      {
+        "q": "Existe-t-il une version sur papier ?",
+        "a": "Oui. Une feuille d'une page présente une grille numérotée et la légende des quatre couleurs avec leurs noms. Coloriez chaque carré avec un crayon de la couleur indiquée par son numéro, ou de toute autre couleur de votre choix."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement à faire. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Créateur de motifs",
+    "seoTitle": "Créateur de motifs : concevez une tuile et imprimez le motif",
+    "h1": "Créateur de motifs : concevez une tuile et regardez-la se répéter",
+    "description": "Changez les carrés d'une petite tuile et regardez-la se répéter en motif à côté, avec quatre couleurs ayant chacune un nom et une forme. Ni minuterie ni score. Jeu et impression gratuits.",
+    "short": "Changez les carrés d'une petite tuile et regardez-la se répéter en motif.",
+    "players": "1 ou 2 personnes, côte à côte",
+    "intro": "Une petite tuile de 3 sur 3 carrés, ou de 4 sur 4 si vous préférez, et à côté « votre motif » : la même tuile répétée en bloc. Touchez un carré et il passe à la couleur suivante parmi quatre, chacune avec son nom écrit et sa forme. Le motif à côté change aussitôt. Il n'existe pas de bon motif, et rien n'est enregistré ni envoyé. « Imprimer mon motif » place le motif répété sur une seule page à garder, à colorier ou à offrir.",
+    "howTo": [
+      "Regardez la tuile et votre motif à côté. Il s'agit de la même tuile, répétée.",
+      "Touchez un carré. Il passe à la couleur suivante de la rangée des quatre couleurs ci-dessus.",
+      "Continuez à toucher des carrés jusqu'à ce que le motif vous plaise. Tout motif est un bon motif.",
+      "Touchez « Surprenez-moi » pour une nouvelle tuile, ou « Recommencer » pour une tuile vierge. « Remettre comme avant » rétablit la tuile que vous aviez.",
+      "Touchez « Imprimer mon motif » si vous le souhaitez sur papier, ou touchez Pause pour arrêter."
+    ],
+    "tips": [
+      "Asseyez-vous côte à côte et chacun son tour : l'un touche une case, l'autre dit ce qu'il remarque.",
+      "Parlez de ce que vous voyez : « Ça ressemble à une fleur. » Inutile de donner un nom à tout.",
+      "Essayez la même tuile avec seulement deux couleurs, puis avec les quatre.",
+      "Sur papier, le motif peut être colorié avec des crayons, découpé en bandes pour une carte, ou servir à emballer un petit cadeau."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de finir."
+      },
+      {
+        "q": "Ce que je crée est-il enregistré ou envoyé ?",
+        "a": "Non. Votre tuile reste uniquement sur cette page. Elle n'est ni enregistrée, ni envoyée, ni comptabilisée, et elle disparaît quand vous fermez la page. Si vous souhaitez garder un motif, imprimez-le."
+      },
+      {
+        "q": "Et si je touche la mauvaise case ou si j'efface la tuile par erreur ?",
+        "a": "Il n'y a pas de mauvaise case : touchez-la à nouveau pour passer à la couleur suivante. Après « Recommencer » ou « Surprenez-moi », « Remettre » rétablit la tuile que vous aviez."
+      },
+      {
+        "q": "Les quatre couleurs sont-elles faciles à distinguer pour les personnes daltoniennes ?",
+        "a": "Elles ont été choisies pour cela. Chaque couleur possède aussi un nom écrit et une petite forme qui lui est propre dans chaque case, si bien que la couleur n'est jamais le seul moyen de les distinguer. Les quatre couleurs ont été vérifiées par des simulations de daltonisme rouge-vert et bleu-jaune. Une personne daltonienne ne les a pas encore testées : merci de nous dire si deux d'entre elles se ressemblent."
+      },
+      {
+        "q": "Les cases sont-elles assez grandes pour un tremblement ou un petit écran ?",
+        "a": "Chaque case mesure au moins 56 pixels de large. Si la tuile est trop large pour l'écran, elle défile latéralement dans son propre cadre au lieu de rétrécir les cases."
+      },
+      {
+        "q": "Existe-t-il une version papier ?",
+        "a": "Oui. « Imprimer mon motif » imprime le motif que vous avez créé sur une seule page, avec les quatre couleurs et leurs noms ; il reste lisible en noir et blanc, car chaque couleur a sa propre forme."
+      },
+      {
+        "q": "C'est gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Construire ensemble",
+    "seoTitle": "Construire ensemble : deux personnes composent un même motif",
+    "h1": "Construire ensemble : deux personnes, une seule grille",
+    "description": "Deux personnes posent chacune leur tour une pièce dans une grille commune jusqu'à ce qu'elle soit pleine, chacune avec sa propre couleur, dotée d'un nom et d'une forme. Personne ne gagne, et il n'y a ni minuteur ni score. Gratuit à jouer et à imprimer.",
+    "short": "Jouez chacun votre tour avec une personne à vos côtés pour remplir une seule grille commune.",
+    "players": "2 personnes, côte à côte",
+    "intro": "Une grille commune de 4 sur 4 cases, ou de 3 sur 3 si vous préférez. Chacun choisit une couleur, et chaque couleur a son propre nom écrit et sa forme. Vous jouez à tour de rôle : à votre tour, touchez une case vide pour y placer votre pièce. Quand chaque case contient une pièce, l'image est construite ensemble. Il n'y a pas de gagnant, car vous la faites à deux, et rien n'est enregistré ni envoyé. « Imprimer la grille » affiche une grille vide sur une page, pour construire à deux crayons.",
+    "howTo": [
+      "Chacun choisit une couleur. Une couleur déjà prise par l'autre personne est signalée « Déjà utilisée ».",
+      "La première personne commence. L'écran indique à qui c'est le tour et quelle est sa couleur.",
+      "Touchez une case vide pour y placer votre pièce. Le tour passe à l'autre personne.",
+      "Si vous préférez ne pas placer de pièce, touchez « Passer ». Chacun peut passer à tout moment.",
+      "Quand chaque case contient une pièce, vous avez construit l'image ensemble. Touchez « Recommencer » pour en construire une autre, ou touchez Pause pour vous arrêter."
+    ],
+    "tips": [
+      "Asseyez-vous côte à côte pour voir et atteindre l'écran tous les deux. Parlez en jouant : « Je mets la mienne à côté de la tienne. »",
+      "Essayez de construire un motif — des rayures, un damier ou une bordure —, ou placez simplement les pièces où vous voulez. Les deux sont bien.",
+      "Un enfant ou une personne qui se fatigue vite peut passer autant de fois qu'elle le souhaite. L'image reste construite ensemble.",
+      "Sur papier, chaque personne utilise un crayon et dessine sa propre forme dans les cases vides."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un gagnant, un minuteur ou un score ?",
+        "a": "Non. Il n'y a pas de gagnant, car vous construisez une seule image ensemble. Il n'y a ni horloge, ni score, ni compte des pièces, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de finir."
+      },
+      {
+        "q": "Ce que nous créons est-il enregistré ou envoyé ?",
+        "a": "Non. La grille reste uniquement sur cette page. Elle n'est ni enregistrée, ni envoyée, ni comptabilisée, et elle disparaît quand vous fermez la page. Si vous souhaitez la garder, imprimez la grille et construisez sur papier."
+      },
+      {
+        "q": "Et si je place une pièce au mauvais endroit ?",
+        "a": "Il n'y a pas de mauvais endroit. Touchez « Reprendre la dernière pièce » et le tour revient à vous. Vous pouvez reprendre une étape à la fois, et un passage peut aussi être annulé."
+      },
+      {
+        "q": "Les quatre couleurs sont-elles faciles à distinguer pour les personnes daltoniennes ?",
+        "a": "Elles ont été choisies pour cela. Chaque couleur possède aussi un nom écrit et une petite forme qui lui est propre dans chaque pièce, si bien que la couleur n'est jamais le seul moyen de les distinguer. Les quatre couleurs ont été vérifiées par des simulations de daltonisme rouge-vert et bleu-jaune. Une personne daltonienne ne les a pas encore testées : merci de nous dire si deux d'entre elles se ressemblent."
+      },
+      {
+        "q": "Les cases sont-elles assez grandes pour un tremblement ou un petit écran ?",
+        "a": "Chaque case mesure au moins 56 pixels de large. Si la grille est trop large pour l'écran, elle défile latéralement dans son propre cadre au lieu de rétrécir les cases."
+      },
+      {
+        "q": "Existe-t-il une version papier ?",
+        "a": "Oui. « Imprimer la grille » imprime une grille vide sur une seule page, avec les deux couleurs et leurs noms, à remplir avec deux crayons. Cela fonctionne en noir et blanc, car chaque couleur a sa propre forme."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Lancer assis : tableau de points",
+    "seoTitle": "Lancer assis : un jeu de sacs de graines à deux",
+    "h1": "Lancer assis : lancer ensemble à table",
+    "description": "Deux personnes assises à une table se relaient pour lancer un sac de graines souple vers une grande cible et notent les points sur papier. Rien n'est chronométré ni compté. Gratuit à imprimer.",
+    "short": "Lancez chacun votre tour un sac de graines vers une grande cible, les points étant notés sur papier.",
+    "players": "2 personnes, à table",
+    "intro": "Un jeu de lancer tranquille pour deux personnes assises à une table. Vous posez sur la table une cible imprimée et vous lancez chacun votre tour un sac de graines souple, ou une chaussette roulée, pour qu'il tombe sur les anneaux. Chacun note ses points en cochant des cases sur papier, et vous regardez les coches ensemble lorsque vous vous arrêtez. Rien n'est chronométré, rien n'est compté à l'écran, et rien n'est enregistré ni envoyé. Lisez d'abord les conseils de sécurité : les petits remplissages présentent un risque d'étouffement.",
+    "howTo": [
+      "Lisez les conseils de sécurité. Choisissez un sac à couverture cousue, ou roulez une chaussette propre.",
+      "Appuyez sur « Imprimer la cible et la feuille de points » et posez la feuille à plat sur la table, entre vous.",
+      "Installez-vous confortablement, chacun d'un côté, et lancez chacun votre tour, doucement, une seule fois. Chacun peut passer son tour.",
+      "Lorsqu'un lancer tombe dans un anneau, cochez une case dans votre colonne, sur la ligne de cet anneau.",
+      "Regardez les coches ensemble lorsque vous vous arrêtez, ou appuyez sur Pause pour faire une halte."
+    ],
+    "tips": [
+      "Asseyez-vous assez près pour qu'un lancer doux, par en dessous, atteigne la cible sans avoir à vous étirer.",
+      "Parlez du lancer, et non du résultat : « Celui-là était doux. » Chacun applaudit chaque lancer.",
+      "Une chaussette roulée est légère et facile à tenir même avec une prise faible. Posez un bras sur la table entre deux tours.",
+      "Si quelqu'un préfère regarder, il peut être celui qui coche les cases."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter en cours de route est une très bonne façon de terminer."
+      },
+      {
+        "q": "Est-il sans danger de lancer un sac de graines ?",
+        "a": "Oui, avec des précautions. Utilisez un sac à couverture cousue ou une chaussette roulée, jamais des graines, du riz ou de petits remplissages en vrac, qui présentent un risque d'étouffement pour les jeunes enfants et pour quiconque met des objets dans sa bouche. Restez assis, lancez doucement vers la table, jamais vers un visage, et gardez un adulte à proximité."
+      },
+      {
+        "q": "Quelque chose est-il compté ou enregistré à l'écran ?",
+        "a": "Non. Les points ne sont notés que sur papier, dans des cases que vous cochez vous-mêmes. La page ne garde ni décompte ni minuteur, et rien n'est enregistré ni envoyé."
+      },
+      {
+        "q": "Que faire si quelqu'un ne peut pas lancer, ou si le sac tombe en dehors de la feuille ?",
+        "a": "Chacun peut passer son tour, et un sac tombé en dehors de la feuille est simplement ramassé pour le tour suivant. Ce lancer n'est pas compté."
+      },
+      {
+        "q": "Que contient la feuille imprimée ?",
+        "a": "Une seule page : une grande cible dont les trois anneaux portent les noms Proche, Moyen et Loin, un tableau avec une colonne pour chaque personne et une rangée de petites cases à cocher pour chaque anneau, ainsi qu'une ligne de conseils de sécurité. Les noms sont inscrits sur les anneaux, de sorte que cela fonctionne en noir et blanc."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement. Cela fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Dés à histoires",
+    "seoTitle": "Dés à histoires : un jeu d'histoires en images",
+    "h1": "Dés à histoires : raconter une histoire avec des images",
+    "description": "Trois ou quatre dés illustrés pour raconter une histoire, dans l'ordre de votre choix. Pas de lecture, pas de bonne réponse, pas de minuteur ni de score. Relancez, ou passez. Jeu et impression gratuits.",
+    "short": "Lancez des dés illustrés et racontez une histoire ensemble, dans l'ordre de votre choix.",
+    "players": "2 personnes ou plus, ou un adulte et un enfant",
+    "intro": "Trois ou quatre images s'affichent, comme des dés. Ensemble, inventez une histoire qui les utilise, dans l'ordre de votre choix. Une histoire peut tenir en une phrase ou en plusieurs, elle peut être drôle ou proche du réel. Il n'existe pas de bonne histoire, et personne n'a besoin de nommer ni de se souvenir de quoi que ce soit. Appuyez sur « Relancer » pour de nouvelles images, et chacun peut passer son tour.",
+    "howTo": [
+      "Choisissez trois ou quatre dés. Trois est le plus simple.",
+      "Regardez les images ensemble. Appuyez sur l'une d'elles si vous souhaitez commencer par elle.",
+      "Racontez chacun votre tour une histoire qui utilise les images, dans l'ordre de votre choix. Une phrase chacun suffit.",
+      "Chacun peut passer son tour. Appuyez sur « Passer » et la personne suivante peut commencer.",
+      "Appuyez sur « Relancer » pour de nouvelles images quand vous le souhaitez, ou sur Pause pour arrêter."
+    ],
+    "tips": [
+      "Posez une question plutôt que d'attendre une réponse : « Où l'parapluie pourrait-il bien aller ? »",
+      "Complétez ce qu'a dit la personne précédente au lieu de la corriger. Toute histoire convient.",
+      "Une histoire peut porter sur un souvenir réel. Une image est un bon point de départ."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter en cours de route est une très bonne façon de terminer."
+      },
+      {
+        "q": "Faut-il lire ou nommer les images ?",
+        "a": "Non. Le jeu fonctionne avec les seules images. Les joueurs peuvent montrer du doigt, décrire ou simplement dire ce que l'image leur rappelle. Personne n'est invité à nommer ni à se rappeler quoi que ce soit."
+      },
+      {
+        "q": "Que faire si quelqu'un ne souhaite pas jouer à son tour ?",
+        "a": "Ils peuvent passer à tout moment, sans explication. Le jeu attend simplement, et la personne suivante peut commencer, ou vous pouvez relancer le dé."
+      },
+      {
+        "q": "Existe-t-il une version papier ?",
+        "a": "Oui. Une feuille d'une page présente seize images différentes en quatre rangées. Choisissez une rangée, ou découpez les images et tirez-en au hasard dans une pile."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement à faire. Le jeu fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Trier ensemble",
     "seoTitle": "Jeu de tri : trier ensemble pour adultes",
     "h1": "Trier ensemble : une activité de tri en images",
-    "description": "Touchez une image, puis le panier correspondant : cuisine ou jardin, fruits ou animaux. Un jeu de tri calme et gratuit pour les adultes et les familles.",
+    "description": "Touchez une image, puis le panier où elle va : cuisine ou jardin, fruits ou animaux. Un jeu de tri calme et gratuit pour adultes et familles.",
     "short": "Rangez chaque image dans son panier : cuisine ou jardin, et d’autres thèmes.",
     "players": "1 ou 2 personnes",
     "intro": "Trier est une tâche du quotidien familière et satisfaisante, comme ranger les courses ou assortir les chaussettes. Touchez une image, puis le panier où elle va. Rien ne presse, et il n’y a pas de faux pas.",
@@ -152,7 +563,7 @@
     "name": "Puzzle en images",
     "seoTitle": "Puzzle en ligne facile : 4 ou 9 grandes pièces",
     "h1": "Puzzle en images : un puzzle facile",
-    "description": "Un puzzle en ligne facile pour adultes : 4 ou 9 grandes pièces, l'image entière reste visible et vous touchez deux pièces pour les échanger. Gratuit, sans chronomètre.",
+    "description": "Un puzzle en ligne facile pour adultes : 4 ou 9 grandes pièces, l'image entière reste visible, et il suffit de toucher deux pièces pour les échanger. Gratuit, sans minuteur.",
     "short": "Touchez deux pièces pour les échanger jusqu’à ce que l’image soit complète.",
     "players": "1 ou 2 personnes",
     "intro": "Une image accueillante est découpée en quatre ou neuf grandes pièces, puis mélangée. L’image entière reste visible comme modèle. Touchez une pièce, puis une autre, et elles échangent leur place. Pas besoin de faire glisser.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Proverbes à compléter",
-    "seoTitle": "Finir le proverbe : jeu d'expressions familières",
+    "seoTitle": "Finissez le proverbe : jeu de dictons connus",
     "h1": "Proverbes à compléter",
     "description": "Des proverbes familiers dont le dernier mot manque, comme « Petit à petit, l’oiseau fait son ___ ». Touchez un choix ou affichez la fin, puis parlez-en.",
     "short": "Complétez ensemble des proverbes familiers, puis parlez-en.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Mots mêlés en gros caractères",
-    "seoTitle": "Mots mêlés en gros caractères, gratuits et à imprimer",
+    "seoTitle": "Mots mêlés en gros caractères, gratuit et imprimable",
     "h1": "Mots mêlés en gros caractères",
-    "description": "Des mots mêlés gratuits en gros caractères pour les personnes âgées et les familles. Peu de mots, de grandes lettres, des mots à l'horizontale et à la verticale uniquement. Jouez en ligne ou imprimez.",
+    "description": "Une grille de mots mêlés en gros caractères, gratuite, pour les personnes âgées et les familles. Peu de mots, de grandes lettres, mots à l'horizontale et à la verticale seulement. À jouer en ligne ou à imprimer.",
     "short": "Grandes lettres, quelques mots, à l’horizontale et à la verticale seulement. À imprimer aussi.",
     "players": "1 ou 2 personnes",
     "intro": "Une petite grille aux grandes lettres et seulement quelques mots, tous à lire de gauche à droite ou de haut en bas. Touchez la première lettre d’un mot, puis sa dernière lettre. Vous préférez le papier ? Imprimez une nouvelle grille d’une seule touche.",
@@ -254,7 +665,7 @@
   },
   "coloring": {
     "name": "Coloriages",
-    "seoTitle": "Coloriages gratuits pour adultes, grands et simples",
+    "seoTitle": "Pages de coloriage gratuites pour adultes, grandes et simples",
     "h1": "Coloriages",
     "description": "Coloriages simples pour adultes, avec de grandes zones : touchez une couleur, puis le dessin. Rien à salir, pas de mauvaise couleur, et tout s’imprime gratuitement.",
     "short": "Touchez une couleur, puis une partie du dessin. Pages à imprimer aussi.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Cartes de conversation",
-    "seoTitle": "Sujets de conversation : cartes illustrées pour les familles",
+    "seoTitle": "Amorces de conversation : cartes illustrées pour les familles",
     "h1": "Cartes de conversation",
-    "description": "Des cartes illustrées avec des idées de conversation bienveillantes pour les familles, les amis et les personnes âgées, y compris les personnes vivant avec la démence. Pas de test, pas de bonne réponse.",
+    "description": "Des cartes illustrées avec des amorces de conversation douces, pour les familles, les amis et les personnes âgées, y compris les personnes vivant avec une démence. Pas d'interrogatoire, pas de bonne réponse.",
     "short": "Des cartes illustrées avec des questions ouvertes et douces. Rien d’un interrogatoire.",
     "players": "2 personnes ou un groupe",
     "intro": "Chaque carte associe une image familière à une invitation ouverte à parler, comme « Quel temps préférez-vous ? » Il n’y a pas de bonne réponse et rien à retenir. Choisissez un thème ou mélangez toutes les cartes.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Loto en images",
-    "seoTitle": "Bingo en images à imprimer pour les groupes",
+    "seoTitle": "Loto d'images à imprimer pour les groupes",
     "h1": "Loto en images pour les groupes",
-    "description": "Un bingo en images gratuit à imprimer pour les familles, les groupes de seniors et les maisons de retraite. De grandes images avec des mots, 9 ou 16 cases, et un tirage grand format à l'écran.",
+    "description": "Loto d'images gratuit à imprimer pour les familles, les groupes de seniors et les maisons de retraite. De grandes images avec des mots, 9 ou 16 cases, et un animateur à l'écran en gros caractères.",
     "short": "Des cartons de loto en images à imprimer et un tirage sur grand écran pour les groupes.",
     "players": "Un groupe de 2 à 30 personnes",
     "intro": "Le loto classique, avec des images à la place des numéros : personne n’a besoin de lire de petits caractères. Imprimez une série de cartons tous différents, puis utilisez le tirage à l’écran pour afficher chaque image en grand sur une télévision, un ordinateur portable ou une tablette.",
@@ -423,6 +834,45 @@
       {
         "q": "Est-ce gratuit, et faut-il s’inscrire ?",
         "a": "Oui, c’est gratuit, et il n’y a ni compte, ni inscription, ni téléchargement. Tout se passe dans le navigateur d’un téléphone, d’une tablette ou d’un ordinateur."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Chaîne d'histoire",
+    "seoTitle": "Chaîne d'histoire : un jeu d'histoire en images à partager",
+    "h1": "Chaîne d'histoire : raconter une histoire, une image à la fois",
+    "description": "Une rangée d'images s'allonge une à une, et chacun dit à voix haute une phrase à leur sujet. Rien à taper, pas de bonne réponse. Gratuit, calme, sans minuteur ni score.",
+    "short": "Ajoutez une image, puis chacun dit une phrase, à tour de rôle.",
+    "players": "2 personnes ou plus",
+    "intro": "Le jeu commence avec une seule image, et la chaîne s'allonge une image à la fois. Chacun dit à voix haute une phrase sur la chaîne déjà formée, à tour de rôle. La phrase peut porter sur ce que l'on voit, sur un lieu qu'elle évoque, ou sur quelque chose de drôle. Rien n'est tapé, enregistré ni conservé, il n'y a pas de bonne réponse, et chacun peut passer. La chaîne s'arrête à huit images, puis vous pouvez en commencer une nouvelle.",
+    "howTo": [
+      "Regardez ensemble la première image.",
+      "À tour de rôle, chacun dit une phrase sur la chaîne déjà formée. Chacun peut passer.",
+      "Touchez « Ajouter une image » pour placer la image suivante à la fin de la chaîne.",
+      "Touchez « Retirer la dernière » si vous préférez revenir en arrière d'une image.",
+      "Quand la chaîne compte huit images, touchez « Commencer une nouvelle chaîne » pour en repartir une neuve, ou arrêtez simplement."
+    ],
+    "tips": [
+      "Une phrase courte suffit : « Quelqu'un a mis la bouilloire à chauffer. » La personne suivante continue, ou passe.",
+      "Laissez les images guider. Il n'y a pas d'histoire que vous êtes censés atteindre.",
+      "Arrêtez quand vous le souhaitez. S'arrêter à mi-chemin est une très bonne façon de terminer."
+    ],
+    "faq": [
+      {
+        "q": "Y a-t-il un minuteur ou un score ?",
+        "a": "Non. Il n'y a ni horloge, ni score, ni compteur de coups, ni défaite. Vous pouvez vous arrêter à tout moment, et s'arrêter à mi-chemin est une très bonne façon de terminer."
+      },
+      {
+        "q": "Quelque chose est-il tapé ou enregistré ?",
+        "a": "Non. Les phrases sont dites à voix haute, elles ne sont ni tapées, ni enregistrées, ni envoyées ailleurs. Le jeu n'affiche que les images."
+      },
+      {
+        "q": "Que faire si quelqu'un ne veut rien dire ?",
+        "a": "Chacun peut passer, et la personne suivante continue. Personne n'a à nommer ni à se souvenir d'une image."
+      },
+      {
+        "q": "Est-ce gratuit, et faut-il s'inscrire ?",
+        "a": "Oui, c'est gratuit, et il n'y a ni compte, ni inscription, ni téléchargement à faire. Le jeu fonctionne dans le navigateur web d'un téléphone, d'une tablette ou d'un ordinateur."
       }
     ]
   }
