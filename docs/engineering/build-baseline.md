@@ -58,7 +58,7 @@ Not measured: CI runner time and memory; the build with a 10× fixture (PLAT-015
 Two builds from the same commit were compared file by file with SHA-256 (`pnpm check:determinism`,
 `site/scripts/check-determinism.mjs`).
 
-**Result: not identical.** 17,496 of 17,497 files are identical. One file differs:
+**Result on `ff1a26c7`: not identical.** 17,496 of 17,497 files were identical. One file differed:
 
 - `games/find-together/index.html`
 
@@ -71,8 +71,9 @@ and "Butterfly" in the other). The island's `uid` is a hash of the rendered HTML
 
 Consequences: each deploy shows a different starting board in the static page, and the browser then creates its own
 random board when it starts. Whether that produces a hydration warning was not checked in a browser. This is a real
-output difference, not build time, so the checker has no allowlist entry for it. Fixing it is a product and game
-decision (for example a fixed seed at build time, with the random board only after the page loads); it is not done here.
+output difference, not build time, so the checker has no allowlist entry for it. Fixed in the same change: the built page and the first render now use one fixed deal, and the random board is dealt after the page loads (`FIRST_BOARD_SEED` in `FindTogether.tsx`; a test renders the game twice and expects the same HTML).
+
+**Result after the fix (same day, same machine):** two builds, 17,497 files each, all identical. `check:determinism` passes with an empty allowlist.
 
 Other files: the other 17,496 files, including all other game pages, the sitemaps and every `_astro` asset, are
 byte-identical across the two builds. The check found no build-time stamps.
@@ -116,12 +117,12 @@ below rest on the code and the type comments, not on release notes.
 | No-change build finishes within a target | Not set yet: set from this baseline in CI, not on a laptop. Laptop median here is about 70 s. |
 | One-activity change rebuilds only that activity's pages and affected indexes | Not measured. Needs incremental support or a shard step first. |
 | Peak memory under the CI limit for a 10× fixture | Not set yet: set from this baseline in CI. The CI memory limit is not written in the repository. The 6,144 MiB heap cap is the only limit recorded. |
-| Two builds from the same inputs produce identical output | Fails today: one file (`games/find-together/index.html`). See Determinism. |
+| Two builds from the same inputs produce identical output | Met on a laptop after the Find together fix: 17,497 of 17,497 files identical. Not yet run in CI. |
 
 ## Next steps (not done here)
 
-1. Fix the random starting board in FindTogether, or decide that the static page shows a fixed layout. Then the
-   determinism check can run in CI.
+1. Run the determinism check in CI (it needs a second build, about a minute on a laptop). The Find together board
+   that broke it is fixed.
 2. Run `pnpm build:baseline` on a CI runner (a temporary branch or the workflow's build job, not this change) and set
    the targets from its numbers.
 3. Decide whether to test `experimental.incrementalBuild` on one dynamic route family, with `cacheKey` set and a
