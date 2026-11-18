@@ -492,7 +492,7 @@ Depends on: none.
 Risks / not doing: games exceeding budget. Set a budget per template, not one number for the site. Verify whether `check-site.mjs` already gates size.
 
 ### PLAT-037 · Visual regression at standard widths
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: the testing rules require screenshots at 320, 768, 1024 and 1440 pixels for key templates. The site is light-only today ([site/README.md]), so dark-theme snapshots are not needed yet.
 What: Playwright snapshots of the activity, hub, finder, print and game templates, plus key states (filters open, error, empty results).
 Acceptance:
@@ -501,6 +501,8 @@ Acceptance:
 - The flake rate stays under a target set after the first month.
 Depends on: none.
 Risks / not doing: font rendering differences between machines. Run in one fixed container.
+
+Evidence (2026-11-19): `pnpm check:visual shoot` takes full-page Chromium screenshots of 12 key pages and the finder with a filter, at 320, 768, 1024 and 1440 px in light and dark, plus print-media shots (112 files), with animations off, a fixed clock and font hinting off, and masks over shuffled game boards; `compare` writes a report and red diff images. Two runs of the same build: 112 unchanged; a planted 40 by 40 change was found exactly. Gaps: not yet a CI step with diffs shown in the pull request; the flake rate is not measured over a month; run on one machine only.
 
 ### PLAT-038 · Accessibility automation and assistive-technology gates
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -579,7 +581,7 @@ Risks / not doing: alert fatigue. Alert only on thresholds that need action. Cos
 | PLAT-034 | Website offline reading | P1 | S2 | new |
 | PLAT-035 | One content contract | P1 | S2 | new |
 | PLAT-036 | Performance budgets in CI | P0 | S1 | partial |
-| PLAT-037 | Visual regression | P0 | S1 | new |
+| PLAT-037 | Visual regression | P0 | S1 | partial |
 | PLAT-038 | Accessibility gates | P0 | S1 | partial |
 | PLAT-039 | Print and i18n tests | P1 | S1 | new |
 | PLAT-040 | Observability and cost guardrails | P1 | S1 | partial |
