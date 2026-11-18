@@ -168,6 +168,12 @@
 .activity-page .activity-steps li + li {
   border-top: 1px solid var(--gm-surface-sunken);
 }
+.activity-page .activity-steps[hidden] {
+  display: none;
+}
+.activity-page .activity-steps--plain li {
+  padding-block: var(--space-lg);
+}
 .activity-page .activity-steps li::before {
   content: counter(step);
   display: block;

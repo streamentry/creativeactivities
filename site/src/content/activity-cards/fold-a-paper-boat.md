@@ -31,6 +31,21 @@ steps:
   - "Open it again from the bottom and press it flat into a smaller diamond."
   - "Gently pull the two top points apart, and the boat will open out."
   - "Float it together in a basin of water, or set it on a shelf to keep."
+plainSteps:
+  - "Fold the sheet in half from top to bottom."
+  - "Run a thumbnail along the crease."
+  - "Fold the two top corners down to the middle."
+  - "Fold the bottom strip up over the triangle."
+  - "Do the same on the other side."
+  - "Open the shape from the bottom."
+  - "Press it flat into a diamond."
+  - "Fold the bottom point up to the top."
+  - "Do the same on the other side, to make a small triangle."
+  - "Open it again from the bottom."
+  - "Press it flat into a smaller diamond."
+  - "Gently pull the two top points apart."
+  - "Float the boat in a basin of water."
+  - "Or set it on a shelf to keep."
 variations:
   - kind: easier
     text: "Fold the first few steps in advance and invite them to do the last pull that opens the boat out."

@@ -79,7 +79,7 @@ Risks / not doing: Device testing is the gate. Do not claim screen-reader suppor
 
 ### APP-019 · First run asks for nothing
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: A person caring for someone should reach an activity within a minute without a setup step, and the product forbids pop-ups before the first activity ([DESIGN](../../../DESIGN.md) section 9; [product](../product.md), "Existing core promises" G1).
 
@@ -97,7 +97,7 @@ Risks / not doing: Reminders stay opt-in (APP-012) and are never requested at la
 
 ### APP-001 · Offline activity cards (bundled subset)
 
-Priority P1 · Phase S2 · Status new · Pillars: MAKE, CARE, GROW, CALM
+Priority P1 · Phase S2 · Status partial · Pillars: MAKE, CARE, GROW, CALM
 
 Why: The activity card is the product's unit ([DESIGN](../../../DESIGN.md) section 8). Offline cards are the clearest reason for the app to exist beside the website ([VISION](../../../VISION.md), "app bridges"; [R2 §5] on the printable card as the offline path).
 
@@ -151,7 +151,7 @@ Risks / not doing: Do not build a calendar. A plan is a short list.
 
 ### APP-004 · On-device "We tried this" list
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Confirmed starts are the north-star proxy, and the person, not the app, records them ([README](README.md), "Definition of #1"; [R4 §3 #3] on collections over streaks).
 
@@ -187,7 +187,7 @@ Risks / not doing: Do not add an opaque "match score" ([DESIGN](../../../DESIGN.
 
 ### APP-006 · Helper mode on one device
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, GROW, TOGETHER
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, GROW, TOGETHER
 
 Why: Most sessions are one adult with one person on one device. The helper needs step-by-step guidance without the screen pulling attention from the person ([R3 §3 #5] on "do it alongside someone").
 
@@ -345,7 +345,7 @@ Risks / not doing: Do not claim literacy support until tested.
 
 ### APP-034 · Experiment gates
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Experimental modes must not reach people before a pilot selects them ([activities](../senior-first/activities.md), GM-009 and GM-010 "before promotion").
 

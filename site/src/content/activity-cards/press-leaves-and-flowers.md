@@ -33,6 +33,23 @@ steps:
   - "Close the book gently and stack the other books on top."
   - "Write the date on a slip of paper and tuck it in the cover."
   - "Agree on a day, about two weeks away, to open the book together."
+plainSteps:
+  - "Walk outside together to look for leaves."
+  - "Or bring a few leaves and flowers to the table."
+  - "Lay them out on the table."
+  - "Look at the shapes and colors together."
+  - "Ask which ones they would like to keep."
+  - "Choose flat, dry pieces, since they press best."
+  - "Open the book near the middle."
+  - "Lay a sheet of paper on the open page."
+  - "Place the leaves and flowers on the paper, spaced apart."
+  - "Lay a second sheet of paper on top."
+  - "Close the book gently."
+  - "Stack the other books on top."
+  - "Write the date on a slip of paper."
+  - "Tuck the slip inside the cover."
+  - "Agree on a day about two weeks away."
+  - "Open the book together on that day."
 variations:
   - kind: easier
     text: "Collect and dry the pieces beforehand. At the table, the only choice is which leaf goes in the book next."

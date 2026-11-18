@@ -7,6 +7,8 @@ import '../styles/activities.css';
 import '../styles/studio-finder.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import ActivityCard from '../components/ActivityCard.astro';
+import GuideCard from '../components/GuideCard.astro';
+import { PILLARS } from '../data/pillars';
 import { DescribeSituation } from '../tools/DescribeSituation';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { FINDER_SETTINGS } from '../lib/finder-state';
@@ -315,6 +317,17 @@ const lowerStatic = (() => {
       Nothing fits all of those choices yet. Try “Any” for one of them, or <a href="/activities/ideas/">browse more
       activity ideas</a>.
     </p>
+
+    <section class="reveal" aria-labelledby="pillars-title">
+      <h2 id="pillars-title">Or start from a kind of activity</h2>
+      <ul class="card-grid">
+        {PILLARS.map((p) => (
+          <li>
+            <GuideCard href={`/${p.section}/`} title={p.tileTitle} text={p.tileText} label={p.tileLabel} />
+          </li>
+        ))}
+      </ul>
+    </section>
 
     {
       hubs.length > 0 && (

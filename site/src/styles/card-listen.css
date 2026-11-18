@@ -1,0 +1,31 @@
+/* Read-aloud on activity cards (WEB-020). Tokens only; kept small for the 15 kB card budget. */
+.card-listen {
+  display: grid;
+  gap: var(--space-sm);
+  margin-block: var(--space-md);
+}
+.card-listen__controls,
+.card-listen__speed {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-sm);
+}
+.card-listen__speed,
+.card-listen__note {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-inline-size: 0;
+}
+.card-listen__speed label {
+  /* A flex item, so flex and inline-flex render the same; flex is shorter. */
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+}
+/* The step grid puts the number in column 1; the Listen button sits under the step text in column 2. */
+.activity-steps li > astro-island {
+  grid-column: 2;
+  justify-self: start;
+}

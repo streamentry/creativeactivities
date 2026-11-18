@@ -6,6 +6,11 @@ import GuideCard from '../components/GuideCard.astro';
 import HealthNotice from '../components/HealthNotice.astro';
 import AppCta from '../components/AppCta.astro';
 import PlayCta from '../components/PlayCta.astro';
+import ActivityCard from '../components/ActivityCard.astro';
+import '../styles/activity-cards.css';
+import { getCollection } from 'astro:content';
+import { listedActivities } from '../lib/activities';
+import { pillarCards, pillarFor } from '../data/pillars';
 import { absoluteUrl, type SectionKey } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
 import { DEFAULT_LOCALE, localePath } from '../i18n/locales';
@@ -33,6 +38,19 @@ const guideSearchText = (g: (typeof entries)[number]) => [
 // A retired section has no English page (it redirects), so it is not an hreflang alternate (SEO-031).
 const available = PUBLISHED.map((p) => p.code).filter((code) => !(isRetiredSection(section) && code === DEFAULT_LOCALE));
 const crumbs = [{ href: localePath(lang, `/${section}/`), label: meta.label }];
+// WEB-009: a pillar opens its section in English only; translated pages keep the guide list alone.
+const pillar = lang === 'en' ? pillarFor(section) : undefined;
+const pillarCardsByRule = pillar
+  ? await (async () => {
+      const cards = listedActivities(await getCollection('activityCards'));
+      const bySlug = new Map(cards.map((c) => [c.id, c]));
+      const slugs = pillarCards(pillar, new Map(cards.map((c) => [c.id, c.data])));
+      return slugs.map((slug) => bySlug.get(slug)).filter((c) => c !== undefined);
+    })()
+  : [];
+const pillarHubs = pillar
+  ? (await getCollection('hubs')).filter((h) => pillar.hubs.includes(h.id))
+  : [];
 const [lead, ...rest] = entries;
 const itemList = {
   '@type': 'ItemList',
@@ -54,6 +72,31 @@ const itemList = {
           Need help with one hard moment right now? <a href={localePath(lang, '/today/')}>Choose what is hardest today</a> for three things to
           try and private notes you can print.
         </p>
+      )
+    }
+    {
+      pillar && (
+        <section class="pillar" aria-labelledby="pillar-start">
+          <p class="pillar__opening">{pillar.opening}</p>
+          <p class="pillar__rule">{pillar.rule}</p>
+          <p class="pillar__not-for">{pillar.notFor}</p>
+          <h2 id="pillar-start">Start with these</h2>
+          <ul class="activity-grid bento-grid">
+            {pillarCardsByRule.map((a) => <li><ActivityCard activity={a} /></li>)}
+          </ul>
+          {pillarHubs.length > 0 && (
+            <nav class="pillar__hubs" aria-labelledby="pillar-hubs">
+              <h2 id="pillar-hubs">Choose by situation</h2>
+              <ul class="pillar__hubs-list">
+                {pillarHubs.map((h) => (
+                  <li>
+                    <a href={`/${h.id}/`}>{h.data.eyebrow}</a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
+        </section>
       )
     }
     {
@@ -316,6 +359,33 @@ const itemList = {
       outline: 3px solid Highlight;
       outline-offset: 2px;
     }
+  }
+  .pillar {
+    margin-bottom: var(--space-xl);
+  }
+  .pillar__opening {
+    font-size: var(--text-lg);
+    max-width: var(--content-max);
+  }
+  .pillar__rule,
+  .pillar__not-for {
+    max-width: var(--content-max);
+    color: var(--gm-on-surface-variant);
+  }
+  .pillar__hubs {
+    margin-top: var(--space-xl);
+  }
+  .pillar__hubs-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .pillar__hubs a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+    font-weight: 700;
+    color: var(--gm-primary);
   }
   @media print {
     .guide-search {

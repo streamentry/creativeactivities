@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 202 | 141 | 407 |
-| S3 | 1 | 12 | 62 | 75 |
+| S2 | 65 | 229 | 113 | 407 |
+| S3 | 1 | 14 | 60 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **242** | **214** | **533** |
+| **All** | **78** | **271** | **184** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -330,6 +330,31 @@ Two games, each built by a Haiku subagent in its own worktree, then reviewed, co
 
 Checks on the integrated branch: vitest 141 files, 4,353 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:budget` 0 over; `check:images` passes; `check:capacity` passes; `check:print` 7 of 7 templates, game sheets 26 of 26 with the new hidden-sheet rule; `check:a11y` 0 failing of 197. Share images for both games made with `make-images.py` and checked by eye.
 
+### Batch 39 (2026-11-19): status audit
+
+Three read-only Haiku subagents compared every remaining `new` item outside games, community and business (143 items in 03, 04, 06, 07, 08, 10, 12, 13, 14, 15 and 17) with the code; the PM agent spot-checked the evidence paths before changing any status. No item was fully built. 29 had real partial work under another name or in an earlier round and move to `partial`; the rest stay `new` (not built) or are gated by their own spec text.
+
+| Moved to partial | What exists (what is still missing) |
+| --- | --- |
+| APP-001, APP-004, APP-006, APP-019, APP-034 | Bundled packs and pictures (no steps or safety text in the app); on-device Daily moment history and pack favorites (no per-activity "We tried this"); helper setup sheet (no helper-only view); no launch-time permission (the rating prompt is automatic, see decisions); one experiments flag (not every experiment behind it) |
+| WEB-009, WEB-020, CNT-009, CNT-030, CNT-033, SEO-039 | Section pages at `/crafts/`, `/kids/`, `/together/`, `/creative-calm/` (not the spec's paths; no pillar tiles or "not for" line); read-aloud in games (not on cards); result and materials pictures (no step pictures); review record and dates (no per-stage record); targets table (no change log); a relaxing-art guide with a non-therapy statement (its URL still says "therapeutic") |
+| L10N-005, L10N-009, L10N-013, L10N-027 | Language-level "not yet reviewed" status (no per-segment status); dated crisis numbers for the US and UK (no per-locale table); a secular season default (no per-locale calendar); a picture rights log with a no-child check (no check for range of families) |
+| TSA-013, TSA-014, TSA-017 | No health fields, and the privacy page asks people not to send diagnoses (no DPIA); consent before the Google tag (no counsel check per market; the spec body already said partial); English privacy notices (no per-language review) |
+| PLAT-010, PLAT-018, PLAT-019 | Card review record and redirects (no draft or review states); image schema with alt and caption (no step images); A4 and Letter print checks with a version footer and large-print cards (no generated PDFs) |
+| MET-001, MET-006, MET-007, MET-013, MET-028, MET-037, MET-038, MET-039 | "We tried this" button; fixed "not a fit" reasons; crisis route on flagged pages; corrections route; print footer and QR; allowlisted aggregate events with an inventory test; event schema test; weekly App Store record. None has its report yet |
+
+Not moved, on purpose: MET-002, MET-003, MET-004 and MET-008 have events but no calculation or report (an event is not a metric); PLAT-030 has a share button, which is not the expiring share link it specifies. Also found, not changed: the app's `isHapticsOn` setting defaults to on and nothing reads it (`lib/features/game/models/user_preferences.dart`), while APP-023 says haptics are off by default, so the default must change before haptics are built; and PLAT-018 is S1 in the roadmap table and S2 in its section.
+
+Built in the same batch, each by a Haiku subagent, reviewed and corrected by the PM agent:
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Read-aloud on activity cards: "Listen to the steps" and a Listen button per step, using the device's own voice; Pause, Resume, Stop, Normal or Slower; nothing speaks until pressed; stops on leaving; hidden in print and where there is no speech | WEB-020 stays partial (Firefox and Safari not tried) | Review fixes: the agent read only the small-parts line before the steps, now every safety flag and note; `aria-pressed` on a changing label removed. Browser: the islands never hydrated, because `client:visible` watches the island's children and this island renders none until it knows speech works, so it would never have loaded in any browser; changed to `client:idle`, then checked: nothing spoken before the press, then title, safety, steps. `check:budget` found the card pages 0.1 kB over the 15 kB CSS budget; the new stylesheet trimmed |
+| Plain-language mode: an optional set of short steps per card, one action each, with a "Short steps" switch on the card that remembers the choice on the device; safety text shared, never rewritten; short steps written for eight cards | WEB-039 → partial (45 cards still without short steps; not tested with five people) | Tests check the word limit, one action per step, that every safety keyword in a standard step survives, and that no new materials or safety words appear. The data-inventory test caught the new device key; it is now in `data-inventory.md` and on the Your data page. `check:budget` found the card pages a few bytes over again; the read-aloud styles trimmed further. The card page CSS is now 2 bytes under its 15 kB budget |
+| Pillar tiles and pillar openings: four tiles on home and `/activity/`; `/crafts/`, `/together/`, `/creative-calm/` and `/caregiving/` each open with their own opening, selection rule, not-for line, six or more cards chosen by rule and links to their intent hubs (English only) | WEB-009 → exists | Review fixes: the older-adults tile said "For older adults and care" but led to the dementia care section, now "Older adults and dementia care"; the agent dropped the Kids tile from home, restored (SEO-041 is undecided). `check:budget` found every section page in every language 0.7 kB over, because the view imported the activities stylesheet for one list style; import removed |
+
+Checks: vitest 143 files, 4,407 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates (it first failed all 53 large-print cards: its "same words as the card" check read the new Listen button as step text; the check now compares the words that print and leaves out on-screen controls); `check:a11y` 0 failing of 197. Spec tally regenerated.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -355,10 +380,12 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | CNT-032, CNT-030 | Adopt the written rule and the one-line disclosure, with the wording confirmed by counsel, or not | Adopt, with counsel confirming the wording before it ships |
 | A first-party "We tried this" counter (PLAT-027) | PLAT-027, MET-001, MET-002, MET-003 | None (Google Analytics with consent only), or a cookieless endpoint that stores daily counts per activity and language with small cells hidden (proposed minimum 10) | Approve it in principle: Google Analytics cannot see an activity done away from the screen, and the north star is confirmed starts |
 | A service worker for offline reading (WEB-040, PLAT-034) | WEB-040, PLAT-034 | Keep `worker-src 'none'` in the security headers (no offline reading on the web) or allow a reviewed service worker for the site's own address | Allow it after a privacy review; care homes with poor Wi-Fi are the case for it |
+| The app's automatic rating prompt (APP-019) | APP-019, GM-001 | Keep the prompt the app shows after 4 finished games on 2 days (`lib/shared/rating/review_request.dart`), or change the app so the person opens the rating control, as APP-019 says | Change the app: the spec and DESIGN.md forbid prompts the person did not ask for |
+| The seven live kids guides (SEO-041) | SEO-041 | Keep the guides for parents in `site/src/content/guides/kids/` (adult-facing, so not behind the child-facing gate) and change SEO-041, or move them to hub links only as SEO-041 says | Keep them and change SEO-041: they are written for adults and already published; removing pages loses links |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
 
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. Before any new feature on the activity card page: free CSS first. The card page is 2 bytes under its 15 kB budget (2026-11-19), so the next card feature fails `check:budget` unless it removes unused card CSS. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

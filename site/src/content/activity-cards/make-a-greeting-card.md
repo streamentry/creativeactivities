@@ -31,6 +31,18 @@ steps:
   - "Write the message, or let them write it if they prefer."
   - "Ask whether they would like to sign it, add a mark, or have you sign for both of you."
   - "Put the card in the envelope and agree together when to send or deliver it."
+plainSteps:
+  - "Talk about who the card is for."
+  - "Lay out four or five pictures."
+  - "Ask which picture suits that person."
+  - "Glue the chosen picture to the front of the card."
+  - "Open the card."
+  - "Ask what they would like to say."
+  - "Write the message, or let them write it."
+  - "Ask whether they would like to sign it."
+  - "They can also add a mark, or you can sign for both."
+  - "Put the card in the envelope."
+  - "Agree when to send or deliver it."
 variations:
   - kind: easier
     text: "Glue the picture on before you start, so the only choice is what to say or who to send it to."
