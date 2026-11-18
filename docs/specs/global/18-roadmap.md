@@ -200,7 +200,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-031 | P1 | partial | Paint-by-number lite |
 | GAME-032 | P1 | new | Two-hand drawing duet |
 | GAME-033 | P2 | new | Collage board |
-| GAME-034 | P2 | new | Pattern maker |
+| GAME-034 | P2 | partial | Pattern maker |
 | GAME-035 | P2 | new | Co-decorate a card |
 | GAME-037 | P2 | new | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |

@@ -1,4 +1,4 @@
-import { useRef, useState, type KeyboardEvent } from 'react';
+import { useRef, useState } from 'react';
 import { GRID_SIZES, NUMBER_COLORS, colorOf, type CellValue, type ColorNumber, type GridSize, type NumberColor } from '../data/color-by-number';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -22,20 +22,13 @@ import {
 import { ChoiceChips } from './shared/ChoiceChips';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
+import { moveInGrid } from './shared/gridKeys';
 import { sounds } from './shared/sound';
 
 /** A small shape beside a color, so the color is also known by its shape. */
 export function ColorShape({ shape }: { shape: NumberColor['shape'] }) {
   return <span className="cbn__shape" data-shape={shape} aria-hidden="true" />;
 }
-
-/** Where each arrow key moves, as a change in row and column. */
-const ARROWS: Record<string, readonly [number, number]> = {
-  ArrowUp: [-1, 0],
-  ArrowDown: [1, 0],
-  ArrowLeft: [0, -1],
-  ArrowRight: [0, 1],
-};
 
 /**
  * Color by number (GAME-031): a square grid of large cells, each with a number.
@@ -111,28 +104,6 @@ export default function ColorByNumber(props: PlayProps) {
     setMessage('');
   };
 
-  // Arrow keys move between cells; every cell is still reachable with Tab.
-  const move = (event: KeyboardEvent<HTMLDivElement>) => {
-    const target = event.target as HTMLElement;
-    const at = Number(target.dataset.index);
-    if (!target.matches('button[data-index]') || Number.isNaN(at)) return;
-    let to: number | undefined;
-    const arrow = ARROWS[event.key];
-    if (arrow) {
-      const row = Math.floor(at / size) + arrow[0];
-      const column = (at % size) + arrow[1];
-      if (row >= 0 && row < size && column >= 0 && column < size) to = row * size + column;
-    } else if (event.key === 'Home') {
-      to = event.ctrlKey ? 0 : Math.floor(at / size) * size;
-    } else if (event.key === 'End') {
-      to = event.ctrlKey ? size * size - 1 : Math.floor(at / size) * size + size - 1;
-    } else {
-      return;
-    }
-    event.preventDefault();
-    if (to !== undefined) grid.current?.querySelector<HTMLButtonElement>(`button[data-index="${to}"]`)?.focus();
-  };
-
   const sizes = GRID_SIZES.map((n) => ({ value: n, label: fill(ui.colorByNumber.size, { n }, lang) }));
   const done = isSheetPicture(size, board);
 
@@ -178,7 +149,7 @@ export default function ColorByNumber(props: PlayProps) {
           ))}
         </div>
         <div className="cbn__region" role="region" aria-label={fill(ui.colorByNumber.region, { n: size }, lang)} tabIndex={0}>
-          <div ref={grid} className="cbn__grid" data-size={size} onKeyDown={move}>
+          <div ref={grid} className="cbn__grid" data-size={size} onKeyDown={(event) => moveInGrid(event, grid.current, size)}>
             {board.cells.map((cell, index) => (
               <Cell key={index} index={index} size={size} board={board} cell={cell} text={props} onTap={() => paint(index)} colorName={colorName} />
             ))}

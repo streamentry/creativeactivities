@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 19 browser games read their words from here. The mobile app's exporter also
+The 20 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -53,6 +53,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.colorMatch` | 10 strings + 5 color names | Color match (English only for now; see below) |
 | `ui.halvesMatch` | 16 strings | Halves match (English only for now; see below) |
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
+| `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -256,6 +257,25 @@ four fills (Orange is a pure orange, Green a bluish green, Purple a red-blue
 purple), because a person reads the name beside the number. A native speaker
 should check the names, then add the translated strings and the language code to
 `COLOR_BY_NUMBER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Pattern maker (`ui.patternMaker`)
+
+Pattern maker is English only for now (GAME-034). It has one guidance line (also
+printed on its paper version, and it says that nothing the person makes is saved
+or sent), the tile size labels, the four color names, the labels of the tile and
+of "your pattern", the spoken name of each square and the live messages. `colors`
+is a list of four names in the order a tap changes a square (Yellow, Orange,
+Green, Purple) and, as a list, is replaced whole. `square` is the accessible name
+of every square: its row, its column and the name of the color it holds. Nothing
+is called wrong; there is no right pattern. Start again and Surprise me replace the
+whole tile, so a Put it back button brings the old tile back once. The four fills
+are the ones Color by number uses, fixed in `src/data/pattern-maker.ts`, chosen and
+tested to stay apart for red-green and blue-yellow color-vision differences; a
+translator must give four plain, common names that name those four fills (Orange
+is a pure orange, Green a bluish green, Purple a red-blue purple), because a
+person reads the name beside the shape. A native speaker should check the names,
+then add the translated strings and the language code to `PATTERN_MAKER_REVIEWED`
+in `../games.ts`. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

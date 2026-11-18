@@ -105,6 +105,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'color-match': { ui: ['colorMatch'], content: [] },
   'halves-match': { ui: ['halvesMatch'], content: [] },
   'color-by-number': { ui: ['colorByNumber'], content: [] },
+  'pattern-maker': { ui: ['patternMaker'], content: [] },
   'story-chain': { ui: ['storyChain'], content: [] },
   'story-dice': { ui: ['storyDice'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },

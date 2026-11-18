@@ -9,6 +9,7 @@ import {
   colorOf,
   type GridSize,
 } from './color-by-number';
+import { VISION, contrast, distance, lab, rgbOf, seen, type Matrix } from '../lib/color-vision';
 
 describe('the pictures', () => {
   it('offers the three grid sizes, 4 by 4 first', () => {
@@ -85,41 +86,6 @@ describe('the four colors', () => {
     expect(new Set(NUMBER_COLORS.map((c) => c.hex)).size).toBe(4);
     expect(colorOf(3).id).toBe('green');
   });
-
-  // sRGB to linear light, then the Machado, Oliveira and Fernandes (2009) matrices for full-strength
-  // protanopia, deuteranopia and tritanopia, then CIELAB so distances follow what an eye sees.
-  const channel = (hex: string, at: number) => parseInt(hex.slice(at, at + 2), 16) / 255;
-  const linear = (c: number) => (c <= 0.04045 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4);
-  const rgbOf = (hex: string): [number, number, number] => [linear(channel(hex, 1)), linear(channel(hex, 3)), linear(channel(hex, 5))];
-  type Matrix = readonly (readonly [number, number, number])[];
-  const NORMAL: Matrix = [[1, 0, 0], [0, 1, 0], [0, 0, 1]];
-  const VISION: Record<string, Matrix> = {
-    normal: NORMAL,
-    protanopia: [[0.152286, 1.052583, -0.204868], [0.114503, 0.786281, 0.099216], [-0.003882, -0.048116, 1.051998]],
-    deuteranopia: [[0.367322, 0.860646, -0.227968], [0.280085, 0.672501, 0.047413], [-0.01182, 0.04294, 0.968881]],
-    tritanopia: [[1.255528, -0.076749, -0.178779], [-0.078411, 0.930809, 0.147602], [0.004733, 0.691367, 0.3039]],
-  };
-  const seen = (hex: string, m: Matrix): [number, number, number] => {
-    const [r, g, b] = rgbOf(hex);
-    const out = m.map((row) => Math.min(1, Math.max(0, row[0] * r + row[1] * g + row[2] * b)));
-    return [out[0] as number, out[1] as number, out[2] as number];
-  };
-  const lab = ([r, g, b]: [number, number, number]): [number, number, number] => {
-    const x = (0.4124 * r + 0.3576 * g + 0.1805 * b) / 0.95047;
-    const y = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-    const z = (0.0193 * r + 0.1192 * g + 0.9505 * b) / 1.08883;
-    const f = (t: number) => (t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116);
-    return [116 * f(y) - 16, 500 * (f(x) - f(y)), 200 * (f(y) - f(z))];
-  };
-  const distance = (a: [number, number, number], b: [number, number, number]) => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
-  const luminance = (hex: string) => {
-    const [r, g, b] = rgbOf(hex);
-    return 0.2126 * r + 0.7152 * g + 0.0722 * b;
-  };
-  const contrast = (a: string, b: string) => {
-    const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x) as [number, number];
-    return (hi + 0.05) / (lo + 0.05);
-  };
 
   for (const [vision, matrix] of Object.entries(VISION)) {
     it(`stay apart for ${vision} vision (every pair at least ${MIN_CVD_DISTANCE} apart in CIELAB)`, () => {
