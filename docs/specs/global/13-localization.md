@@ -126,7 +126,7 @@ Risks / not doing: Do not let translators rewrite adaptations to "sound more nat
 Evidence: `site/src/lib/translation-structure.ts` (pure comparison: frontmatter keys and fixed values, headings, list items, links, numbers, activity steps, variations, safety flags, supervision) with `translation-structure.test.ts` and `yaml-subset.test.ts`; `translation-structure.content.test.ts` runs over all 11,373 translated guides and records 2,537 known mismatches in `translation-structure.baseline.json` (new drift fails). Translated activity cards are checked when `activity-cards-i18n/` exists (none yet; a missing variation fails, verified with a fixture). Remaining: 593 translated pages lack the `crisisRoute` flag their English guide sets (safety, needs a fix and L10N-009 review); digits and links need reviewer sign-off; no reviewed translated card exists yet. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-007 · Dementia terminology glossary per locale
-Priority P0 · Phase S2 · Status new · Pillars: CARE, all
+Priority P0 · Phase S2 · Status partial · Pillars: CARE, all
 
 Why: The word for dementia is stigmatized in several languages, and a title that uses the wrong one loses trust and search. Each locale's public term is a decision, not a translation [language markets §1; native review, "Naming"].
 
