@@ -325,5 +325,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or licence, each with the site's game rules (no score, no timer, Rest always visible): next GAME-040 Seasonal puzzle pack and GAME-060 Quiet shapes puzzle, then GAME-038 Color wash and GAME-033 Collage board. GAME-029 Singing sheets waits on a lyrics licence review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-040 Seasonal puzzle pack and GAME-060 Quiet shapes puzzle, then GAME-038 Color wash and GAME-033 Collage board. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).
