@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 192 | 151 | 407 |
+| S2 | 64 | 193 | 150 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **232** | **224** | **533** |
+| **All** | **77** | **233** | **223** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -276,6 +276,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Build together" at `/games/build-together/` (English only, built by a subagent, checked by me): two people build one pattern on a shared grid (4 by 4 or 3 by 3), each with their own named color and shape, taking turns to place a piece; either may pass; Take back the last piece; no winner, count, score or timer, and a gentle message when the grid is built together; arrow keys move between squares; Rest from the shared frame; nothing saved or sent; a one-page print sheet | GAME-048 → partial (not tried with real pairs or with anyone with color-vision differences; Start again cannot be taken back; strings and color names not reviewed by a person; English only) | vitest 4,033 pass (61 new); `tsc` clean; build 16,543 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 18 of 18; `check:capacity` 17,293 files (86.5%); `check:a11y` 0 failing of 177 (agent's run) |
+
+### Batch 34 (2026-11-18)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game page "Seated toss tally" at `/games/seated-toss/` (English only, built by a subagent, checked by me): two people at a table toss a small bag into a large target and keep the tally on paper. The page opens with a safety block that is always shown (small parts, mouths, an adult within reach, the pause line) built from the site's own safety labels, a short how-to, and a one-page print sheet with a three-ring target whose rings are named in words and a plain tally table with no total row; no on-screen scoring, timer, miss count or winner wording | GAME-049 → partial (the safety wording and the ring order have had no reviewer; nobody has tried it with a real bag; English only) | vitest 4,049 pass; `tsc` clean; build 16,544 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 19 of 19, one page on A4 and Letter; `check:capacity` 17,297 files (86.5%); `check:a11y` 0 failing of 179 (agent's run) |
 
 ## What blocks the rest
 

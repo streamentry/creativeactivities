@@ -62,6 +62,12 @@ export const PATTERN_MAKER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Seated toss tally is offered. Its page text and safety wording are English only until a
+ * native speaker and a safety reviewer have checked them (GAME-049), so it has its own list.
+ */
+export const SEATED_TOSS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Story dice is offered. It needs no picture names to play,
  * but its page text and prompts are English only until a native speaker has
  * reviewed them (GAME-025), so it has its own list.
@@ -93,7 +99,7 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
  * Four together stays English-only until its group names pass a per-language
  * category review (GAME-022 in docs/specs/global/05-games.md), Odd one out
  * likewise (GAME-018), Story chain (GAME-046), Color match (GAME-020),
- * Halves match (GAME-021), Color by number (GAME-031), Pattern maker (GAME-034) and Build together (GAME-048).
+ * Halves match (GAME-021), Color by number (GAME-031), Pattern maker (GAME-034), Build together (GAME-048) and Seated toss tally (GAME-049).
  */
 export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'four-together') return FOUR_TOGETHER_REVIEWED.includes(code);
@@ -103,6 +109,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'color-by-number') return COLOR_BY_NUMBER_REVIEWED.includes(code);
   if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
   if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);

@@ -19,6 +19,7 @@ const COMPONENT: Record<string, string> = {
   'color-by-number': 'ColorByNumber',
   'pattern-maker': 'PatternMaker',
   'build-together': 'BuildTogether',
+  'seated-toss': 'SeatedToss',
   'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
@@ -33,8 +34,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 21 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(21);
+  it('covers all 22 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(22);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -137,6 +138,12 @@ describe('printable partner on each game page (WEB-052)', () => {
     expect(dice.rows).toHaveLength(4);
     for (const row of dice.rows) expect(new Set(row.choices).size).toBe(4);
     expect(new Set(dice.rows.flatMap((r) => r.choices)).size).toBe(16);
+    const toss = printSheet('seated-toss');
+    if (toss?.layout !== 'toss') throw new Error('toss sheet');
+    expect(toss.rings).toEqual(['near', 'middle', 'far']);
+    expect(toss.boxes).toBeGreaterThanOrEqual(6);
+    expect(sheetPictures(toss)).toEqual([]);
+    expect(rulesText('seated-toss', playProps('en').ui)).toBe('Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.');
     const sort = printSheet('sort-together');
     if (sort?.layout !== 'sort') throw new Error('sort sheet');
     expect(sort.pictures).toHaveLength(8);

@@ -16,6 +16,7 @@ export const GAME_ACTIVITIES: Record<(typeof GAME_SLUGS)[number], readonly strin
   'color-by-number': ['paint-a-shared-picture', 'draw-repeating-patterns'],
   'pattern-maker': ['draw-repeating-patterns', 'draw-a-slow-line-pattern'],
   'build-together': ['paint-a-shared-picture', 'tear-paper-mosaic'],
+  'seated-toss': ['wind-a-ball-of-yarn', 'move-to-music-in-a-chair'],
   'story-chain': ['make-a-memory-collage', 'make-a-paper-chain-garland'],
   'story-dice': ['make-a-memory-collage', 'start-a-family-recipe-book'],
   'sort-together': ['make-a-button-picture', 'arrange-flowers-together'],

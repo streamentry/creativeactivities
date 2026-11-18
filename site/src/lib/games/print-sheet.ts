@@ -1,6 +1,7 @@
 import { MATCH_COLORS } from '../../data/color-match';
 import { MOTIFS, type ColorNumber, type GridSize } from '../../data/color-by-number';
 import { picturesIn } from '../../data/pictures';
+import { RING_IDS, TALLY_BOXES, type RingId } from '../../data/seated-toss';
 import { colorRoundFor } from './color-match';
 import { HALVES_PRINT_COUNT, createHalvesRound } from './halves-match';
 import { createOddRound } from './odd-one-out';
@@ -56,7 +57,9 @@ export type PrintSheet =
   /** Halves match: the left halves top to bottom, and the right halves in another order, to join with a line. */
   | { layout: 'halves'; pictures: string[]; rightOrder: string[] }
   /** Color by number: the numbers of one picture, row by row, to color with pencils from the key of four colors. */
-  | { layout: 'grid'; size: GridSize; picture: string; rows: ColorNumber[][] };
+  | { layout: 'grid'; size: GridSize; picture: string; rows: ColorNumber[][] }
+  /** Seated toss tally: a large target of named rings, and a table of empty boxes to tick, a column for each of two people. */
+  | { layout: 'toss'; rings: readonly RingId[]; boxes: number };
 
 const ROWS = 4;
 
@@ -132,6 +135,8 @@ export function printSheet(slug: string): PrintSheet | null {
       const motif = MOTIFS[GRID_PRINT_SIZE][0];
       return { layout: 'grid', size: GRID_PRINT_SIZE, picture: motif.id, rows: motif.rows.map((row) => [...row]) };
     }
+    case 'seated-toss':
+      return { layout: 'toss', rings: RING_IDS, boxes: TALLY_BOXES };
     case 'story-chain':
       return { layout: 'chain', pictures: [...buildChain(rng).pictures] };
     case 'story-dice': {
@@ -163,6 +168,7 @@ export function sheetPictures(sheet: PrintSheet): string[] {
     case 'halves':
       return sheet.pictures;
     case 'grid':
+    case 'toss':
       return [];
     case 'rows':
       return sheet.rows.flatMap((r) => (r.target ? [r.target, ...r.choices] : r.choices));
