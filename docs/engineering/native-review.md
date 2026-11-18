@@ -147,7 +147,8 @@ is data that scripts read, so it is a CSV file, not a page in this guide.
 
 1. Add a row with a new `id` (no spaces, unique across the file).
 2. `language` is a code from `localization.languages` in
-   `docs/specs/release-status.json`.
+   `docs/specs/release-status.json` (app languages), or a website language
+   (a file in `site/src/i18n/ui/`).
 3. `severity` is one of `safety` (could cause harm if followed), `claim` (a
    medical, cognitive or other promise the product cannot support), `factual`
    (a wrong fact), `meaning` (the sentence says something other than the
@@ -169,6 +170,9 @@ What blocks a release:
   `python3 scripts/l10n_defects.py --release es` names the blockers.
 - `scripts/release_metadata.py --release` also fails when any language marked
   `reviewed` has an open `safety` or `claim` defect.
+- For a website language, an open `safety` or `claim` defect means the
+  language is not added to `REVIEWED_LANGUAGES` until it is closed. This is a
+  rule for the person unlocking the language; no script enforces it yet.
 - `factual`, `meaning` and `style` rows never block a release by themselves.
   Fix them in the next batch of changes.
 

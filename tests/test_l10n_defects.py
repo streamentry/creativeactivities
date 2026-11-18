@@ -54,6 +54,16 @@ class LogValidationTests(TempRepo):
                                         closed_on='2026-11-05')])
         self.assertEqual(l10n_defects.check(root), [])
 
+    def test_website_language_can_be_logged(self):
+        root = self.make_root([make_row(language='ha', severity='meaning')])
+        (root / 'site/src/i18n/ui').mkdir(parents=True)
+        (root / 'site/src/i18n/ui/ha.json').write_text('{}', encoding='utf-8')
+        self.assertEqual(l10n_defects.check(root), [])
+
+    def test_code_in_neither_list_is_an_error(self):
+        root = self.make_root([make_row(language='xx')])
+        self.assertTrue(any('xx' in error for error in l10n_defects.check(root)))
+
     def test_real_repository_log_validates(self):
         self.assertEqual(l10n_defects.check(ROOT), [])
         self.assertEqual(l10n_defects.release_blockers(ROOT), [])

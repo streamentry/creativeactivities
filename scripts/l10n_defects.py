@@ -19,6 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LOG_RELATIVE = 'docs/l10n/defects.csv'
 STATUS_RELATIVE = 'docs/specs/release-status.json'
+SITE_UI_RELATIVE = 'site/src/i18n/ui'
 COLUMNS = ['id', 'language', 'severity', 'location', 'summary', 'found_by',
            'found_on', 'status', 'fixed_in', 'closed_on']
 SEVERITIES = ('safety', 'claim', 'factual', 'meaning', 'style')
@@ -42,6 +43,13 @@ def read_status(root=ROOT):
     """Language code -> entry, from localization.languages in release-status.json."""
     data = json.loads((root / STATUS_RELATIVE).read_text(encoding='utf-8'))
     return data.get('localization', {}).get('languages', {})
+
+
+def site_languages(root=ROOT):
+    """Website language codes: one UI strings file per language. A defect in website text may be logged
+    for any of them; only the app languages in release-status.json have a release gate."""
+    folder = root / SITE_UI_RELATIVE
+    return {path.stem for path in folder.glob('*.json')} if folder.is_dir() else set()
 
 
 def read_log(root=ROOT):
@@ -100,8 +108,9 @@ def record_problems(root, languages, number, row, seen_ids):
         add('duplicate id')
     else:
         seen_ids.add(row['id'])
-    if row['language'] not in languages:
-        add(f'language {row["language"]!r} is not in {STATUS_RELATIVE} localization.languages')
+    if row['language'] not in languages and row['language'] not in site_languages(root):
+        add(f'language {row["language"]!r} is not in {STATUS_RELATIVE} localization.languages '
+            f'or the website languages ({SITE_UI_RELATIVE}/*.json)')
     if row['severity'] not in SEVERITIES:
         add(f'severity must be one of {", ".join(SEVERITIES)}')
     problem = location_problem(root, row['location'])
