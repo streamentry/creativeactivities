@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 190 | 153 | 407 |
+| S2 | 64 | 191 | 152 | 407 |
 | S3 | 1 | 12 | 62 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **230** | **226** | **533** |
+| **All** | **77** | **231** | **225** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -264,6 +264,12 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | Change | Items | Evidence |
 | --- | --- | --- |
 | Game "Color by number" at `/games/color-by-number/` (English only, built by a subagent, checked by me): a grid of large numbered cells (4 by 4, 6 by 6 or 8 by 8), a key of four colors each with its number, its written name and its own small shape, and a tap fills a cell with the chosen color; there is no wrong color, a gentle message when every cell has its numbered color, Fill with the numbers, Clear and Another picture; arrow keys move between cells; Rest from the shared frame; no score, timer, miss count or failure wording; a one-page print sheet to color with pencils. A test simulates three kinds of color-vision difference and requires every pair of the four colors to stay at least 30 apart (closest about 32, yellow and orange) | GAME-031 → partial (nobody with color-vision differences, a tremor or a bedside setup has tried it; Clear has no undo; the 6 by 6 and 8 by 8 grids scroll sideways at 320 px; names not reviewed by a person; English only) | vitest 3,915 pass; `tsc` clean; build 16,541 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` one page on A4 and Letter; `check:capacity` exits 0; `check:a11y` 0 failing of 173 (agent's run) |
+
+### Batch 32 (2026-11-18)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Pattern maker" at `/games/pattern-maker/` (English only, built by a subagent, checked by me): the player edits one small tile (3 by 3 or 4 by 4) by tapping squares through four colors, each with a written name and a shape, and sees it repeated in a 3 by 3 block; Print my pattern gives one page; Start again with a one-step Put it back, and Surprise me; arrow keys move between squares; Rest from the shared frame; nothing is saved or sent; no score, timer or failure wording. Two small refactors share the arrow-key and color-vision helpers with Color by number | GAME-034 → partial (nobody with color-vision differences has tried it; the color names are not reviewed by a person; the paper copy reuses the on-screen wording; English only) | vitest 3,971 pass (55 new); `tsc` clean; build 16,542 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` one page on A4 and Letter; `check:capacity` exits 0; `check:a11y` 0 failing of 175 (agent's run) |
 
 ## What blocks the rest
 

@@ -17,6 +17,7 @@ export const GAME_SLUGS = [
   'color-match',
   'halves-match',
   'color-by-number',
+  'pattern-maker',
   'story-chain',
   'story-dice',
   'sort-together',

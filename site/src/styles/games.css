@@ -720,6 +720,236 @@
   pointer-events: none;
 }
 
+/* Pattern maker: a key of four colors, then a small tile of large squares beside "your pattern", the tile
+   repeated in a block. Each square is at least 56px and never shrinks below that: a tile too wide for the
+   screen scrolls sideways inside its own labelled region. Both grids read left to right in every language,
+   like a picture. A color is always paired with its written name and a shape. The page's style policy blocks
+   style attributes, so each color is chosen by `data-tone` (its place in the palette, 0 to 3) here, and
+   `pattern-maker.test.ts` checks that these hex values are the ones in `src/data/pattern-maker.ts`. */
+.pm [data-tone='0'],
+.pm-sheet [data-tone='0'] {
+  --pm-fill: #f7e98e;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='1'],
+.pm-sheet [data-tone='1'] {
+  --pm-fill: #e69f00;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='2'],
+.pm-sheet [data-tone='2'] {
+  --pm-fill: #009e73;
+  --pm-ink: #16231d;
+}
+.pm [data-tone='3'],
+.pm-sheet [data-tone='3'] {
+  --pm-fill: #7b3f98;
+  --pm-ink: #ffffff;
+}
+.pm {
+  display: grid;
+  gap: var(--space-lg);
+}
+.pm__label {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.pm__key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pm__key li {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-md);
+  font-weight: 700;
+}
+.pm__swatch {
+  flex: none;
+  display: grid;
+  place-items: center;
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-sm);
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  forced-color-adjust: none;
+}
+.pm__stage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: var(--space-lg);
+  align-items: start;
+}
+.pm__panel {
+  min-inline-size: 0;
+}
+.pm__region {
+  container-type: inline-size;
+  overflow-x: auto;
+  padding: var(--space-xs);
+  border-radius: var(--radius-md);
+}
+.pm__region:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+/* The square is as wide as the screen allows, never below its floor and never above its cap. The tile takes the
+   width it needs and is centred with auto margins, which never push a start edge out of reach. */
+.pm__tile {
+  --pm-gap: 6px;
+  --pm-floor: 56px;
+  --pm-cap: 7rem;
+  --pm-cell: max(var(--pm-floor), min(var(--pm-cap), calc((100cqw - (var(--pm-n) - 1) * var(--pm-gap)) / var(--pm-n))));
+  display: grid;
+  grid-template-columns: repeat(var(--pm-n), var(--pm-cell));
+  gap: var(--pm-gap);
+  inline-size: max-content;
+  margin-inline: auto;
+  direction: ltr;
+}
+.pm__tile[data-size='3'] {
+  --pm-n: 3;
+}
+.pm__tile[data-size='4'] {
+  --pm-n: 4;
+  --pm-cap: 5.5rem;
+}
+.pm__square {
+  display: grid;
+  place-items: center;
+  inline-size: var(--pm-cell);
+  block-size: var(--pm-cell);
+  padding: 0;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-md);
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  forced-color-adjust: none;
+  transition: box-shadow var(--duration-fast) ease;
+}
+.pm__square:hover {
+  box-shadow: 0 0 0 3px var(--gm-primary);
+}
+.pm__square:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+  z-index: 1;
+}
+.pm__square .cbn__shape,
+.pm__mini .cbn__shape,
+.pm-sheet__square .cbn__shape {
+  inline-size: 38%;
+  block-size: auto;
+  aspect-ratio: 1;
+}
+.pm__pattern {
+  --pm-across: 9;
+  display: grid;
+  grid-template-columns: repeat(var(--pm-across), 1fr);
+  inline-size: min(100%, 28rem);
+  margin-inline: auto;
+  border: 2px solid var(--gm-on-surface);
+  direction: ltr;
+}
+.pm__pattern[data-size='3'],
+.pm-sheet__grid[data-size='3'] {
+  --pm-across: 9;
+}
+.pm__pattern[data-size='4'],
+.pm-sheet__grid[data-size='4'] {
+  --pm-across: 12;
+}
+.pm__mini {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 1;
+  background: var(--pm-fill);
+  color: var(--pm-ink);
+  forced-color-adjust: none;
+}
+/* The first row and column of each repeat of the tile are marked, so the repeat can be seen. */
+.pm__mini[data-tile-left='yes'] {
+  box-shadow: inset 2px 0 0 var(--gm-on-surface);
+}
+.pm__mini[data-tile-top='yes'] {
+  box-shadow: inset 0 2px 0 var(--gm-on-surface);
+}
+.pm__mini[data-tile-left='yes'][data-tile-top='yes'] {
+  box-shadow: inset 2px 2px 0 var(--gm-on-surface);
+}
+@media print {
+  .pm-sheet,
+  .pm-sheet * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .pm-sheet__key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3mm;
+    margin: 0 0 5mm;
+    padding: 0;
+    list-style: none;
+  }
+  .pm-sheet__key li {
+    display: flex;
+    align-items: center;
+    gap: 3mm;
+    padding: 1.5mm 3.5mm 1.5mm 1.5mm;
+    border: 2px solid #000;
+    font-size: 16pt;
+    font-weight: 700;
+    color: #000;
+  }
+  .pm-sheet__swatch {
+    display: grid;
+    place-items: center;
+    inline-size: 12mm;
+    block-size: 12mm;
+    border: 2px solid #000;
+    background: var(--pm-fill, #fff);
+    color: var(--pm-ink, #000);
+  }
+  .pm-sheet__swatch .cbn__shape {
+    inline-size: 4mm;
+    block-size: 4mm;
+  }
+  .pm-sheet__grid {
+    --pm-across: 9;
+    display: grid;
+    grid-template-columns: repeat(var(--pm-across), 1fr);
+    max-inline-size: 150mm;
+    border: 2.5px solid #000;
+    direction: ltr;
+  }
+  .pm-sheet__square {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border: 0.75px solid #555;
+    background: var(--pm-fill, #fff);
+    color: var(--pm-ink, #000);
+  }
+  .pm-sheet__square[data-tile-left='yes'] {
+    border-inline-start: 2.5px solid #000;
+  }
+  .pm-sheet__square[data-tile-top='yes'] {
+    border-block-start: 2.5px solid #000;
+  }
+}
+
 /* Story chain: the pictures so far, in a row that wraps. Pictures are not buttons. */
 .chain {
   display: flex;
@@ -1954,6 +2184,21 @@
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
 @media (prefers-contrast: more) {
+  .pm__square {
+    border: 3px solid #000000;
+  }
+  .pm__square:hover {
+    box-shadow: 0 0 0 3px #000000;
+  }
+  .pm__square:focus-visible,
+  .pm__region:focus-visible {
+    outline: 4px solid #000000;
+    outline-offset: 3px;
+  }
+  .pm__pattern,
+  .pm__swatch {
+    border-color: #000000;
+  }
   .cbn__cell,
   .cbn__key-button {
     border: 3px solid #000000;
@@ -2188,6 +2433,12 @@
 }
 
 @media (forced-colors: active) {
+  .pm__square:hover,
+  .pm__square:focus-visible,
+  .pm__region:focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 2px;
+  }
   .cbn__cell:hover,
   .cbn__cell:focus-visible,
   .cbn__key-button:focus-visible,
