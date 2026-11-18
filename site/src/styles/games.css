@@ -4327,9 +4327,12 @@
   font-weight: 700;
 }
 
-/* The paper version: twelve boxes on top and the eight cut-outs below, all at the same 24 mm size. */
-.cb-sheet {
-  display: none;
+/* The paper version: twelve boxes on top and the eight cut-outs below, all at the same 24 mm size.
+   Hidden on screen only: an unconditional rule here would beat the print rule that shows `.sheet`. */
+@media screen {
+  .cb-sheet {
+    display: none;
+  }
 }
 @media print {
   .cb-sheet,
@@ -4349,7 +4352,7 @@
   }
   .cb-sheet__board {
     display: grid;
-    grid-template-columns: repeat(4, 24mm);
+    grid-template-columns: repeat(6, 24mm);
     gap: 4mm;
     margin: 0 0 6mm;
   }
