@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 24 browser games read their words from here. The mobile app's exporter also
+The 25 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -55,6 +55,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
+| `ui.drawingDuet` | 24 strings + 2 names of the people + 4 color names | Drawing duet (English only for now; see below) |
 | `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
 | `ui.decorateACard` | 9 strings + 5 occasions (label and front words) + 5 steps + 3 rules for two | Decorate a card together (English only for now; see below) |
 | `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
@@ -348,6 +349,19 @@ whole), the turn and tally lines, the spoken name of each card (`cardNamed` and
 winner ideas: the tally only counts pairs found together. A native speaker should check
 the strings, then add the translated strings and the language code to
 `FIND_TOGETHER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Drawing duet (`ui.drawingDuet`)
+
+Drawing duet is English only for now (GAME-032). Two people draw lines on one
+shared canvas, taking turns, each with a color of their own. Its guidance line
+says that nothing is sent anywhere. `paperRules` is the rules text printed on the
+paper version; `people` and `colors` are replaced whole, as in Build together.
+`turn` and `penColor` name the person and the color in words, and `canvasLabel`
+and `canvasLabelOne` describe the drawing neutrally for screen readers (never a
+word that ranks it). `penDown` and `penUp` are announced for the keyboard pen.
+Keep every string free of scores, timers, winners and comparisons. Add the
+translated strings and the language code to `DRAWING_DUET_REVIEWED` in `../games.ts`
+only after a native speaker has checked them. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 

@@ -20,6 +20,7 @@ export const GAME_SLUGS = [
   'pattern-maker',
   'build-together',
   'find-together',
+  'drawing-duet',
   'seated-toss',
   'decorate-a-card',
   'story-chain',

@@ -68,6 +68,12 @@ export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const FIND_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Drawing duet is offered. Its name, its guidance and its color names
+ * are English only until a native speaker has checked them (GAME-032), so it has its own list.
+ */
+export const DRAWING_DUET_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Seated toss tally is offered. Its page text and safety wording are English only until a
  * native speaker and a safety reviewer have checked them (GAME-049), so it has its own list.
  */
@@ -122,6 +128,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
   if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
   if (slug === 'find-together') return FIND_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'drawing-duet') return DRAWING_DUET_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
   if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);

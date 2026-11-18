@@ -35,6 +35,7 @@ import ColorByNumber from '../games/ColorByNumber';
 import PatternMaker from '../games/PatternMaker';
 import BuildTogether from '../games/BuildTogether';
 import FindTogether from '../games/FindTogether';
+import DrawingDuet from '../games/DrawingDuet';
 import SeatedToss from '../games/SeatedToss';
 import DecorateACard from '../games/DecorateACard';
 import StoryChain from '../games/StoryChain';
@@ -137,6 +138,7 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'pattern-maker' && <PatternMaker client:load {...play} />}
       {s === 'build-together' && <BuildTogether client:load {...play} />}
       {s === 'find-together' && <FindTogether client:load {...play} />}
+      {s === 'drawing-duet' && <DrawingDuet client:load {...play} />}
       {s === 'seated-toss' && <SeatedToss client:load {...play} />}
       {s === 'decorate-a-card' && <DecorateACard client:load {...play} />}
       {s === 'story-chain' && <StoryChain client:load {...play} />}

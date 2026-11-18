@@ -20,6 +20,7 @@ const COMPONENT: Record<string, string> = {
   'pattern-maker': 'PatternMaker',
   'build-together': 'BuildTogether',
   'find-together': 'FindTogether',
+  'drawing-duet': 'DrawingDuet',
   'seated-toss': 'SeatedToss',
   'decorate-a-card': 'DecorateACard',
   'story-chain': 'StoryChain',
@@ -36,8 +37,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 24 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(24);
+  it('covers all 25 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(25);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
