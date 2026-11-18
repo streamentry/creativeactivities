@@ -62,6 +62,12 @@ export const PATTERN_MAKER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Find together is offered. Its cards, the two people and a few buttons are
+ * English only until a native speaker has checked them (GAME-047), so it has its own list.
+ */
+export const FIND_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Seated toss tally is offered. Its page text and safety wording are English only until a
  * native speaker and a safety reviewer have checked them (GAME-049), so it has its own list.
  */
@@ -109,6 +115,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'color-by-number') return COLOR_BY_NUMBER_REVIEWED.includes(code);
   if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
   if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'find-together') return FIND_TOGETHER_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
