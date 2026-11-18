@@ -31,6 +31,20 @@ steps:
   - "Push each new row up against the last one, so the card is covered."
   - "When a strip runs out, tape its end to the back of the card and start a new strip."
   - "Stop when the card is covered, then tape down the loose ends on the back."
+plainSteps:
+  - Lay the slit card on the table, slits running up and down.
+  - Keep the strips within reach.
+  - Choose the first strip together.
+  - Any color is fine.
+  - Start at the bottom and push the strip over the first upright.
+  - Push it under the next, and so on across.
+  - Pull gently, so the strip lies flat without bending the card.
+  - For the next row, go under the first upright, then over the next.
+  - Push each new row up against the last one.
+  - When a strip runs out, tape its end to the back.
+  - Start a new strip.
+  - Stop when the card is covered.
+  - Tape down the loose ends on the back.
 variations:
   - kind: easier
     text: "Weave with one color and wide strips, and work only the middle row together."

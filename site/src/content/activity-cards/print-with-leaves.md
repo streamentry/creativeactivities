@@ -31,6 +31,22 @@ steps:
   - "Turn the leaf over and press it paint-side down onto the paper, then press gently all over with a paper towel."
   - "Lift the leaf slowly from one edge and set it aside."
   - "Let the print dry flat, then choose another leaf and try a different color."
+plainSteps:
+  - Cover the table with newspaper or a plastic cloth.
+  - Set out the paper, paint and brush.
+  - Choose a leaf together.
+  - Look at its veins.
+  - Any leaf is a good leaf.
+  - Lay the leaf vein-side up on the newspaper.
+  - Paint a thin, even layer over the veins with the brush.
+  - Turn the leaf over.
+  - Press it paint-side down onto the paper.
+  - Press gently all over with a paper towel.
+  - Lift the leaf slowly from one edge.
+  - Set it aside.
+  - Let the print dry flat.
+  - Then choose another leaf.
+  - Try a different color.
 variations:
   - kind: easier
     text: "Paint the leaf ahead of time, so the person only needs to press it onto the paper and lift it."

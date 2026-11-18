@@ -32,6 +32,21 @@ steps:
   - "Smell the plant or herb together and talk about where it might sit."
   - "Spoon soil into the pot and set the plant in it, taking turns if that suits you both."
   - "Water it lightly and put it on a windowsill or table where you can both see it."
+plainSteps:
+  - Cover the table.
+  - Put the pot and materials within reach.
+  - Offer two ways to decorate, such as paint or wrapped twine.
+  - Let them choose.
+  - Paint the outside of the pot, or wrap twine around it.
+  - Hold the end of the twine in place while you wrap.
+  - Leave the paint to dry for about an hour.
+  - Twine is ready straight away.
+  - Smell the plant or herb together.
+  - Talk about where it might sit.
+  - Spoon soil into the pot.
+  - Set the plant in it, taking turns if that suits you both.
+  - Water it lightly.
+  - Put it on a windowsill or table where you can both see it.
 variations:
   - kind: easier
     text: "Paint a base coat in advance and offer one color for stripes or dots, or a ready-cut strip of paper to glue on."

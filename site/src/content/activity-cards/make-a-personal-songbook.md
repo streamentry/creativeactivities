@@ -33,6 +33,19 @@ steps:
   - "Invite a story about the song, such as where they heard it or who they danced with."
   - "Write a few words about the story, in their words."
   - "Play the song again if they would like, or choose the next one."
+plainSteps:
+  - Sit together.
+  - Open the notebook to a blank page.
+  - Ask about a song they enjoy.
+  - Or offer a choice of two familiar songs.
+  - Play the song at a comfortable volume.
+  - Listen together.
+  - Write the song title at the top of the page.
+  - Add the singer or a favorite line, if they want to.
+  - Invite a story about the song, such as where they heard it.
+  - Write a few words about the story, in their words.
+  - Play the song again if they would like.
+  - Or choose the next one.
 variations:
   - kind: easier
     text: "Prepare pages ahead with the title and chorus already printed. Together you only listen, sing along and add a sticker or a word."

@@ -40,19 +40,20 @@ describe('games show no pressure (WEB-053)', () => {
     expect(offenders.map((s) => s.f)).toEqual([]);
   });
 
-  it('starts a hint only after 20 seconds with no tap, in the two games that have one', () => {
+  it('starts a hint only after 20 seconds with no tap, in the three games that have one', () => {
     const withHint = sources.filter((s) => /HINT_AFTER_MS/.test(s.text));
-    expect(withHint.map((s) => s.f).sort()).toEqual(['FourTogether.tsx', 'OddOneOut.tsx']);
+    expect(withHint.map((s) => s.f).sort()).toEqual(['FourTogether.tsx', 'OddOneOut.tsx', 'PhotoPairs.tsx']);
     for (const s of withHint) {
       expect(s.text, s.f).toMatch(/HINT_AFTER_MS = 20_000/);
-      expect(s.text, s.f).toMatch(/clearTimeout/);
+      // Photo pairs keeps its pause in the shared hint wait (lib/games/photo-hint.ts), which clears its timer.
+      expect(s.text, s.f).toMatch(/clearTimeout|createHintWait/);
     }
   });
 
   it('lets a player switch the hint off, and then never starts the wait', () => {
     for (const s of sources.filter((x) => /HINT_AFTER_MS/.test(x.text))) {
       expect(s.text, s.f).toMatch(/const \[hintsOn, setHintsOn\] = useState\(true\)/);
-      expect(s.text, s.f).toMatch(/!hintsOn\) return undefined/);
+      expect(s.text, s.f).toMatch(/!hintsOn\) return undefined|hintsOn && !resting\)/);
     }
   });
 

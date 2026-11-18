@@ -33,6 +33,23 @@ steps:
   - "Invite a story, such as who made it, where it was eaten, or what it smelled like."
   - "Read the page back aloud and change anything they want changed."
   - "Stop after one page, or carry on with another dish if you both want to."
+plainSteps:
+  - "Sit together at a table with the notebook."
+  - "Open it to a blank page."
+  - "Ask about a food they liked to make or eat."
+  - "For example, a Sunday meal or a holiday treat."
+  - "Write its name at the top of the page."
+  - "Ask what went into it."
+  - "Write the ingredients as a simple list."
+  - "Rough amounts are fine."
+  - "Ask how it was made."
+  - "Write the steps in their own words."
+  - "Invite a story about who made it."
+  - "Or about where it was eaten or what it smelled like."
+  - "Read the page back aloud."
+  - "Change anything they want changed."
+  - "Stop after one page."
+  - "Or carry on with another one if you both want to."
 variations:
   - kind: easier
     text: "Choose the dish together from two or three food pictures, and write only the name and one sentence about it."

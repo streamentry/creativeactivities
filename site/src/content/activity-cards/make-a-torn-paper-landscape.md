@@ -31,6 +31,23 @@ steps:
   - "Glue the bottom and add the ground strips, overlapping the bottom of the hills."
   - "Add a torn round of yellow paper for a sun, or a few small green scraps for trees, if wanted."
   - "Press the picture flat with a clean hand and leave it to dry, then choose where to put it."
+plainSteps:
+  - "Lay the card flat in front of the person."
+  - "Set the long side across, if they prefer."
+  - "Tear a few long strips of pale blue or white paper for the sky."
+  - "Place the strips in a tray."
+  - "Tear strips in greens for hills, and in browns or yellows for the ground."
+  - "Rub glue on the top third of the card."
+  - "Press the sky strips on, letting them overlap."
+  - "Glue the middle of the card."
+  - "Press on the green strips."
+  - "Tear a wavy edge along the top for the hills."
+  - "Glue the bottom of the card."
+  - "Add the ground strips, overlapping the bottom of the hills."
+  - "Add a torn yellow sun, or a few green scraps for trees, if wanted."
+  - "Press it flat with a clean hand."
+  - "Leave it to dry."
+  - "Then choose where to put it."
 variations:
   - kind: easier
     text: "Tear the strips in advance and place just three colors on the table: one for sky, one for hills and one for ground."

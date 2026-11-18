@@ -35,6 +35,19 @@ steps:
   - "Choose a branch or hook that can be seen from a window or chair."
   - "Hang the feeder there together, or let them watch while you hang it."
   - "Sit by the window and see which birds arrive, if you like."
+plainSteps:
+  - Cover the table.
+  - Set out the pine cone, the fat and the dish of seed.
+  - Tie the string around the top of the pine cone.
+  - The helper can do this.
+  - Spread fat into the gaps of the cone with the spoon or knife.
+  - Roll the cone together in the dish of seed.
+  - Press it in.
+  - Sprinkle any bare patches with more seed by hand.
+  - Choose a branch or hook that can be seen from a window or chair.
+  - Hang the feeder there together.
+  - Or let them watch while you hang it.
+  - Sit by the window and see which birds arrive, if you like.
 variations:
   - kind: easier
     text: "The helper spreads the fat first. The only job is rolling the cone in seed, or sprinkling seed on with fingers."

@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 65 | 229 | 113 | 407 |
+| S2 | 65 | 231 | 111 | 407 |
 | S3 | 1 | 14 | 60 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **78** | **271** | **184** | **533** |
+| **All** | **78** | **273** | **182** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -355,6 +355,29 @@ Built in the same batch, each by a Haiku subagent, reviewed and corrected by the
 
 Checks: vitest 143 files, 4,407 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates (it first failed all 53 large-print cards: its "same words as the card" check read the new Listen button as step text; the check now compares the words that print and leaves out on-screen controls); `check:a11y` 0 failing of 197. Spec tally regenerated.
 
+### Batch 40 (2026-11-19): short steps for every card
+
+Three Haiku subagents wrote short steps for the 45 cards without them, 15 each in separate files; the PM agent read the riskiest cards in full (hand massage, sealed shaker, photo album) and wrote one card by hand.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Short steps on all 53 listed cards; a test now fails if a listed card has none | WEB-039 stays partial (not tested with five people who prefer short language) | Kept as steps of their own where the standard steps had them: "Wait for a clear yes" and "Stop straight away if they pull away" (hand massage), "Ask the helper to glue the lid shut" and out-of-reach storage (sealed shaker), "Accept it without checking or correcting it" and the pause for sadness (photo album) |
+| The "no new materials" rule only allowed the materials list, which made agents drop words the standard steps already use (flower, dish, picture) and blocked the chair-music card, whose last step offers a drink of water | Test rule fix | Objects named in the standard steps are now allowed too; a new test covers it. The PM agent wrote the chair-music short steps; the safety check then caught "near" added where the standard step says "around", and the wording was matched |
+| A standard step on Sort a box of postcards read "ask whether the card would like a pile of its own" | Copy fix | Now "ask whether they would like the card on a pile of its own or with another" |
+
+Checks: vitest 145 files, 4,585 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over (short steps add markup, not CSS); `check:print` 7 of 7 templates; `check:a11y` 0 failing of 197.
+
+### Batch 41 (2026-11-19): family photo games
+
+Two changes to existing games, each built by a Haiku subagent and reviewed, browser-checked and corrected by the PM agent. Both keep the photo boundary unchanged: explicit selection only, read in the browser, never uploaded or stored.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Photo pairs: a gentle hint after 20 seconds with no tap (dashed outline and a "Here" marker; restarts on every tap; Hints on/off), family captions up to 60 characters under both cards, and a consent line | GAME-044 → partial | Headless browser with test photos at 390 px: hint fired with "Here is a pair you could try."; captions under both cards; no request left the page. A 60-character caption pushed the board past the screen; fixed with `contain: inline-size` on the caption and checked twice |
+| Picture puzzle: "Use your own photo", cropped to a square in the browser (camera location and time dropped by re-encoding), played as the 4 or 9 piece puzzle, with a printed photo grid | GAME-058 → partial | Browser: 4 pieces named by position, the photo sheet prints on one page on A4 and Letter while the built-in sheet is hidden. Analytics on this page left as it is and put to the maintainer (decisions table), because the data inventory says the code does not add or remove a vendor without that decision |
+
+Checks: vitest 147 files, 4,614 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 197.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -382,6 +405,7 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | A service worker for offline reading (WEB-040, PLAT-034) | WEB-040, PLAT-034 | Keep `worker-src 'none'` in the security headers (no offline reading on the web) or allow a reviewed service worker for the site's own address | Allow it after a privacy review; care homes with poor Wi-Fi are the case for it |
 | The app's automatic rating prompt (APP-019) | APP-019, GM-001 | Keep the prompt the app shows after 4 finished games on 2 days (`lib/shared/rating/review_request.dart`), or change the app so the person opens the rating control, as APP-019 says | Change the app: the spec and DESIGN.md forbid prompts the person did not ask for |
 | The seven live kids guides (SEO-041) | SEO-041 | Keep the guides for parents in `site/src/content/guides/kids/` (adult-facing, so not behind the child-facing gate) and change SEO-041, or move them to hub links only as SEO-041 says | Keep them and change SEO-041: they are written for adults and already published; removing pages loses links |
+| Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
 
 ## Next batches (buildable without a person)

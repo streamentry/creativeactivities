@@ -32,6 +32,21 @@ steps:
   - "Keep adding links, taking turns or with one person threading and the other closing."
   - "Hold the chain up together now and then to see how long it has grown."
   - "Decide together where to hang it, such as a window, a doorway or across a mantel."
+plainSteps:
+  - Cut paper into strips, about one inch wide and eight inches long.
+  - Do this before you begin.
+  - Lay the strips out.
+  - Ask which colors or patterns to use.
+  - Bend one strip into a loop.
+  - Glue or tape the ends together.
+  - Thread the next strip through the first loop.
+  - Close the second loop to join the two links.
+  - Keep adding links.
+  - Take turns, or let one person thread while the other closes.
+  - Hold the chain up from time to time.
+  - See how long it has grown.
+  - Decide together where to hang it.
+  - It could be a window, a doorway or across a mantel.
 variations:
   - kind: easier
     text: "The helper threads each strip through, and the participant presses the ends together to close the loop."

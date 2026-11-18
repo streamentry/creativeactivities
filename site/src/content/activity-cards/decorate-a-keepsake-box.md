@@ -33,6 +33,23 @@ steps:
   - "Look through the small items together and choose a few to keep inside."
   - "Place the chosen items in the box and put the lid on."
   - "Agree on a place to keep the box, such as a shelf or the bedside table."
+plainSteps:
+  - Set the box on the table with the lid off.
+  - Lay out the paper, the glue and the small items.
+  - Choose the paper or fabric together.
+  - Lay the paper on one side of the box.
+  - Ask the helper to trim it a little larger than that side.
+  - Glue the back of the paper.
+  - Press it onto the side of the box.
+  - Fold the extra paper over the edges and smooth it flat.
+  - Turn the box and repeat on each side.
+  - Then cover the lid the same way.
+  - Set the box aside for a few minutes so the glue holds.
+  - Look through the small items together.
+  - Choose a few to keep inside.
+  - Place the chosen items in the box.
+  - Put the lid on.
+  - Agree on a place to keep it, like a shelf.
 variations:
   - kind: easier
     text: "Start with a box that is already covered or painted, and add only a ribbon and a few small items."

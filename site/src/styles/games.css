@@ -2160,6 +2160,62 @@
   justify-content: center;
 }
 
+/* Photo pairs: a family caption sits under its square, and a hinted pair has a
+   dashed outline plus a "Here" marker, so the hint never relies on colour. */
+.tile-cell {
+  display: grid;
+  gap: var(--space-xs);
+  min-width: 0;
+}
+.tile__caption {
+  /* A long caption wraps inside its card and never widens the board (a 60-character caption pushed it past 390 px). */
+  contain: inline-size;
+  margin: 0;
+  min-height: 1.4em;
+  overflow-wrap: anywhere;
+  font-size: var(--text-md);
+  line-height: 1.3;
+  text-align: center;
+}
+.tile--hinted::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border: 4px dashed var(--gm-on-surface);
+  border-radius: var(--radius-lg);
+  pointer-events: none;
+  z-index: 1;
+}
+.tile__here {
+  position: absolute;
+  z-index: 2;
+  top: 4px;
+  inset-inline-start: 4px;
+  padding: 0 6px;
+  border: 2px solid var(--gm-on-surface);
+  border-radius: var(--radius-full);
+  background: var(--gm-surface-raised);
+  color: var(--gm-on-surface);
+  font-size: var(--text-md);
+  font-weight: 700;
+  line-height: 1.4;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .tile--hinted::before {
+    animation: tile-hint-pulse 1.6s ease-in-out 3;
+  }
+}
+@keyframes tile-hint-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+}
+
 /* Bingo caller */
 .caller {
   overflow-wrap: anywhere;
@@ -4741,6 +4797,70 @@
     display: block;
   }
   .cb-sheet__safety {
+    display: inline-block;
+    margin: 0 0 3mm;
+    padding: 1mm 3mm;
+    border: 2px solid #000;
+    font-weight: 700;
+    color: #000;
+  }
+}
+
+/* GAME-058 Picture puzzle from your own photo: the cut-up photo prints only while the person's photo is in use. */
+@media screen {
+  .pp-photo-sheet {
+    display: none;
+  }
+}
+@media print {
+  /* The built-in picture sheet is replaced while a photo is in use. */
+  .game-stage:has(.pp-photo-sheet) + .sheet-paper {
+    display: none !important;
+  }
+  .pp-photo-sheet {
+    display: block;
+    color: #000;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .pp-photo-sheet h2 {
+    font-size: 22pt;
+    margin: 0 0 6mm;
+    color: #000;
+    break-after: avoid;
+  }
+  .pp-photo-sheet__how,
+  .pp-photo-sheet__scope,
+  .pp-photo-sheet__pause {
+    margin: 0 0 4mm;
+    font-size: 13pt;
+    color: #000;
+  }
+  .pp-photo-sheet__grid {
+    display: grid;
+    gap: 0;
+    margin: 0 0 6mm;
+  }
+  .pp-photo-sheet__grid[data-size='2'] {
+    grid-template-columns: repeat(2, 85mm);
+  }
+  .pp-photo-sheet__grid[data-size='3'] {
+    grid-template-columns: repeat(3, 56mm);
+  }
+  .pp-photo-sheet__cell {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    aspect-ratio: 1;
+    border: 0.4mm solid #000;
+  }
+  .pp-photo-sheet__cell img {
+    position: absolute;
+    display: block;
+    max-width: none;
+    border: 0;
+  }
+  .pp-photo-sheet__safety {
     display: inline-block;
     margin: 0 0 3mm;
     padding: 1mm 3mm;

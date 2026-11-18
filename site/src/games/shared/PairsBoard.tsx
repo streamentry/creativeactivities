@@ -5,6 +5,7 @@ import { fill } from '../../i18n/play/format';
 import { boardColumns, createPairs, isComplete, matchedValues, tapPair, tileVisualState, type PairsState } from '../../lib/games/pairs';
 import { createRng, randomSeed } from '../../lib/games/random';
 import { photoTileName } from '../../lib/games/photo-label';
+import { nextHintValue } from '../../lib/games/photo-hint';
 import { PictureTile, pictureNamer } from './PictureTile';
 import { sounds } from './sound';
 import { useWide } from './useWide';
@@ -16,6 +17,12 @@ interface PairsBoardProps {
   photos?: boolean;
   /** Optional, page-only captions for family photos. */
   photoLabels?: readonly string[];
+  /** Photo pairs: while true, the first unmatched pair is marked as a hint. */
+  hinting?: boolean;
+  /** Visible marker on the hinted pair, such as "Here". */
+  hintLabel?: string;
+  /** Called on every tap, including one that changes nothing, so a hint pause can start again. */
+  onTapped?: () => void;
   /** Changing this starts a new board. */
   round: number;
   /** When `values` change within the same round, keep the pairs already matched (WEB-053). */
@@ -24,7 +31,20 @@ interface PairsBoardProps {
   onComplete: () => void;
 }
 
-export function PairsBoard({ play, values, hidden, photos = false, photoLabels, round, keepPlace = false, onMessage, onComplete }: PairsBoardProps) {
+export function PairsBoard({
+  play,
+  values,
+  hidden,
+  photos = false,
+  photoLabels,
+  hinting = false,
+  hintLabel,
+  onTapped,
+  round,
+  keepPlace = false,
+  onMessage,
+  onComplete,
+}: PairsBoardProps) {
   const { ui, lang } = play;
   const pictureName = pictureNamer(play);
   const wide = useWide();
@@ -57,6 +77,7 @@ export function PairsBoard({ play, values, hidden, photos = false, photoLabels, 
   };
 
   const onTap = (i: number) => {
+    onTapped?.();
     const before = store.state;
     if (before.tiles[i]?.matched) return;
     store.actions.tap(i);
@@ -88,6 +109,7 @@ export function PairsBoard({ play, values, hidden, photos = false, photoLabels, 
   };
 
   const cols = boardColumns(state.tiles.length, wide);
+  const hintValue = hinting ? nextHintValue(state.tiles) : null;
   return (
     <div className="board" data-cols={cols} data-width={state.tiles.length <= 4 ? 'small' : 'large'}>
       {state.tiles.map((t, i) => (
@@ -100,6 +122,9 @@ export function PairsBoard({ play, values, hidden, photos = false, photoLabels, 
           position={i + 1}
           state={tileVisualState(state, i, hidden)}
           onTap={() => onTap(i)}
+          hinted={hintValue !== null && t.value === hintValue}
+          hintLabel={photos ? hintLabel : undefined}
+          caption={photos ? (photoLabels?.[values.indexOf(t.value)] ?? '') : undefined}
         />
       ))}
     </div>

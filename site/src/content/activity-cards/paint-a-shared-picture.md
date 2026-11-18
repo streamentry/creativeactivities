@@ -33,6 +33,21 @@ steps:
   - "Rinse the brush in the water cup before changing color."
   - "Stop when the picture feels finished, then leave it flat to dry."
   - "When the paint is dry, remove the tape and choose a place to hang the picture."
+plainSteps:
+  - Cover the table with a plastic cloth.
+  - Tape the large paper flat over it at all four corners.
+  - Set out the paints, brushes and water cups within everyone's reach.
+  - Ask each person what they would like to begin with.
+  - It could be a sky, a shape, a line or a color.
+  - Any choice is fine.
+  - Let everyone make a first mark anywhere on the paper.
+  - Take turns adding one mark or shape at a time.
+  - Pause to look at the whole painting between turns.
+  - Rinse the brush in the water cup before changing color.
+  - Stop when the painting feels finished.
+  - Leave it flat to dry.
+  - When the paint is dry, remove the tape.
+  - Choose a place to hang the painting.
 variations:
   - kind: easier
     text: "Give each person one color and a sponge, so they only need to dab the paper."

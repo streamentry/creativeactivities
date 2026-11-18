@@ -25,11 +25,27 @@ steps:
   - "Look through the box first and set aside any card with writing you would rather not read aloud."
   - "Place the box on the table and let them take out a card whenever they like."
   - "Look at the card together and say what you can see, such as a beach, a flower or a bridge."
-  - "Offer a plate and ask whether the card would like a pile of its own or go with another."
+  - "Offer a plate and ask whether they would like the card on a pile of its own or with another."
   - "Let them choose the piles, such as places, colors or the ones they like best."
   - "Move the card to the pile they choose, and move it again if they change their mind."
   - "Carry on for as long as they enjoy it, and look at a favorite card for a while if they wish."
   - "Put the piles back in the box in any order, or leave a favorite card on the table."
+plainSteps:
+  - Look through the box first.
+  - Set aside any card with writing you would rather not read aloud.
+  - Place the box on the table.
+  - Let them take out a card whenever they like.
+  - Look at the card together.
+  - Say what you can see, such as a beach or a bridge.
+  - Offer a plate.
+  - Ask whether they would like it in its own pile, or with another.
+  - Let them choose the piles, such as places, colors or favorites.
+  - Move the card to the pile they choose.
+  - Move it again if they change their mind.
+  - Carry on for as long as they enjoy it.
+  - Look at a favorite card for a while if they wish.
+  - Put the piles back in the box in any order.
+  - Or leave a favorite card on the table.
 variations:
   - kind: easier
     text: "Use only six to eight large, clear pictures and two piles, such as ones they like and ones they do not."

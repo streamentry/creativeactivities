@@ -31,6 +31,20 @@ steps:
   - "Keep going, right over middle, then left over middle, pulling each strand snug but not tight."
   - "When the braid is long enough to go around the wrist or lie in a book, tie a loose knot at the end."
   - "Trim the ends to a short tassel, or tie the bracelet around a wrist loosely. The helper does the trimming."
+plainSteps:
+  - Lay the three strands side by side.
+  - Tie one loose knot at the top.
+  - Leave a tail of about two inches.
+  - Tape the knot to the table or tray.
+  - Spread the strands apart.
+  - Keep one on each side and one in the middle.
+  - Lay the right strand over the middle one.
+  - Lay the left strand over the new middle one.
+  - Keep going, right over the middle, then left over it.
+  - Pull each strand snug, but not tight.
+  - When the braid is long enough, tie a loose knot at the end.
+  - Let the helper trim the ends to a short tassel.
+  - Or tie the bracelet loosely around a wrist.
 variations:
   - kind: easier
     text: "Start the braid ahead of time and use only two or three crossings together, or braid with one color on a chunky cord."

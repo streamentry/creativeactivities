@@ -212,7 +212,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-043 | P2 | new | Picnic planner |
 | GAME-009 | P0 | exists | Conversation cards |
 | GAME-010 | P0 | exists | Photo pairs |
-| GAME-044 | P1 | new | Reminiscence card match |
+| GAME-044 | P1 | partial | Reminiscence card match |
 | GAME-046 | P1 | partial | Story chain |
 | GAME-047 | P2 | partial | Find together |
 | GAME-048 | P2 | partial | Build-it-together grid |
@@ -227,7 +227,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-016 | P2 | new | Tap-to-place puzzle (app) |
 | GAME-017 | P2 | new | Picture sorting (app) |
 | GAME-019 | P1 | partial | Large-target sort |
-| GAME-058 | P2 | new | Jigsaw from your photo |
+| GAME-058 | P2 | partial | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
 | GAME-060 | P3 | partial | Quiet shapes puzzle |
 | GAME-061 | P1 | new | Daily shared card |

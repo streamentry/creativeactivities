@@ -31,6 +31,22 @@ steps:
   - "Move at their pace and in their way. There is no right shape and nothing to count."
   - "Move along with them, and follow any movement they come up with."
   - "Let the song end, then sit quietly together and offer a drink of water."
+plainSteps:
+  - "Set a sturdy chair with no wheels on a flat floor."
+  - "Clear anything they could trip over around the chair."
+  - "Ask what tune they would like."
+  - "Offer two or three choices, or let them pick."
+  - "Help them sit back with both feet flat on the floor."
+  - "Play the tune at a comfortable volume."
+  - "Start small, such as tapping one foot."
+  - "Let them copy you or lead."
+  - "Try one movement at a time."
+  - "Sway side to side, roll the shoulders or reach a scarf up."
+  - "Move at their pace and in their way."
+  - "Follow any movement they come up with."
+  - "Let the song end."
+  - "Sit quietly together."
+  - "Offer a drink of water."
 variations:
   - kind: easier
     text: "Only tap a foot or a hand to the beat, or simply listen while you move. Joining in for a few moments is enough."
