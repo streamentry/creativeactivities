@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 23 browser games read their words from here. The mobile app's exporter also
+The 24 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -57,6 +57,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
 | `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
 | `ui.decorateACard` | 9 strings + 5 occasions (label and front words) + 5 steps + 3 rules for two | Decorate a card together (English only for now; see below) |
+| `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 
@@ -336,6 +337,17 @@ page. `previewLabel` describes the card for a screen reader and takes `{words}`.
 here may mention score, timer, winner, ranking or a religious or health occasion. The
 occasion names need a native speaker's check, then add the translated strings and the
 language code to `DECORATE_A_CARD_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Find together (`ui.findTogether`)
+
+Find together is English only for now (GAME-047). Two people share one screen and take
+turns turning over two cards to find a pair. It has the guidance line, the card counts,
+the two ways to play, the names of the two people (`people`, a list of two, replaced
+whole), the turn and tally lines, the spoken name of each card (`cardNamed` and
+`cardFaceDown`) and the live messages. Keep every string free of score, timer, miss and
+winner ideas: the tally only counts pairs found together. A native speaker should check
+the strings, then add the translated strings and the language code to
+`FIND_TOGETHER_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
 ### Story chain (`ui.storyChain`)
 
