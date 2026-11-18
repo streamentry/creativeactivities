@@ -72,6 +72,8 @@ export const MATERIAL_TAGS: readonly MaterialTag[] = [
   { id: 'fabric', label: 'Fabric, felt or a clean cloth', group: 'cloth' },
   { id: 'towels', label: 'Towels or old cloths', group: 'cloth' },
   { id: 'plastic-cloth', label: 'A plastic tablecloth or oilcloth', group: 'cloth' },
+  { id: 'beads', label: 'Large beads with big holes (not small seed beads)', group: 'cloth' },
+  { id: 'elastic-cord', label: 'Stretchy elastic bead cord', group: 'cloth' },
 
   // Kitchen and home
   { id: 'bowls-plates', label: 'Bowls, plates, saucers or a muffin tin', group: 'home' },
@@ -85,6 +87,7 @@ export const MATERIAL_TAGS: readonly MaterialTag[] = [
   { id: 'spread', label: 'Vegetable shortening or peanut butter', group: 'home' },
   { id: 'heavy-book', label: 'A large, heavy book', group: 'home' },
   { id: 'small-gift', label: 'A small, unbreakable gift to wrap', group: 'home' },
+  { id: 'straw', label: 'A thin drinking straw', group: 'home' },
 
   // Garden and nature
   { id: 'leaves', label: 'Leaves with clear veins', group: 'nature' },
@@ -102,6 +105,7 @@ export const MATERIAL_TAGS: readonly MaterialTag[] = [
   { id: 'photos', label: 'Printed photos or copies, or a photo album', group: 'keepsakes' },
   { id: 'music-device', label: 'A phone, radio or music player', group: 'keepsakes' },
   { id: 'buttons', label: 'Large buttons', group: 'keepsakes' },
+  { id: 'keyring', label: 'A split keyring', group: 'keepsakes' },
   { id: 'clay', label: 'Air-dry clay', group: 'keepsakes' },
 ];
 

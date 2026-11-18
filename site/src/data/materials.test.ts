@@ -91,6 +91,10 @@ const HINTS: Readonly<Record<string, RegExp>> = {
   'music-device': /\bphone\b|radio|music player|tablet|\bplayer\b|music service/,
   buttons: /\bbuttons?\b/,
   clay: /air-dry clay/,
+  beads: /\bbeads?\b/,
+  'elastic-cord': /elastic (?:bead )?cord/,
+  straw: /drinking straw|\bstraw\b/,
+  keyring: /key ?ring/,
 };
 
 /**
