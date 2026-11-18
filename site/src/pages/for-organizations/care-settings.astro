@@ -1,0 +1,148 @@
+---
+import { getCollection } from 'astro:content';
+import PageLayout from '../../layouts/PageLayout.astro';
+import '../../styles/care-settings.css';
+import { SITE } from '../../lib/site';
+import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
+import { CARE_PLANS, CLEANUP_TEXT, STOP_RULE, cardFitsPlan, setupText } from '../../lib/care-setting-plans';
+
+/** The date the words on this page last changed. Change it with them. */
+const UPDATED = '2026-11-19';
+const updatedText = new Date(`${UPDATED}T00:00:00Z`).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+
+const cards = await getCollection('activityCards');
+const byId = new Map(cards.map((card) => [card.id, card]));
+
+// Every linked card must exist, be live, fit the plan length, and have its own group version. A failure stops the build.
+const plans = CARE_PLANS.map((plan) => ({
+  minutes: plan.minutes,
+  cards: plan.cards.map((slug) => {
+    const card = byId.get(slug);
+    if (!card || card.data.withdrawn) throw new Error(`care-settings: ${slug} is missing or withdrawn`);
+    if (!cardFitsPlan(card.data.activityMinutes, plan.minutes)) {
+      throw new Error(`care-settings: ${slug} does not fit ${plan.minutes} minutes`);
+    }
+    const group = card.data.variations.find((v) => v.kind === 'for-a-group');
+    if (!group) throw new Error(`care-settings: ${slug} has no for-a-group variation`);
+    return {
+      slug,
+      name: card.data.name,
+      summary: card.data.summary,
+      range: card.data.activityMinutes,
+      setup: setupText(card.data.prepMinutes),
+      materials: card.data.materials,
+      group: group.text,
+    };
+  }),
+}));
+---
+<PageLayout
+  title="Session plans for care homes and day centers"
+  description="Plan 10, 20 or 30 minute group sessions with free activity cards, plus staff summaries and printable family and permission notes for care homes and day centers."
+  path="/for-organizations/care-settings/"
+  crumb="Care settings"
+  lede="A ready plan for group sessions, built from free activity cards. It is not therapy and not a clinical program."
+  noindex
+>
+  <div class="care-settings">
+    <section class="care-settings__lead" aria-labelledby="who">
+      <h2 id="who">Who this is for</h2>
+      <p>Activity coordinators, care staff and day-center volunteers who run group sessions and want a plan they can repeat.</p>
+
+      <h2 id="what-it-is">What it is</h2>
+      <p>A plan for group sessions at 10, 20 or 30 minutes, using the free activity cards on this site. Each card is free to print, and no account is needed.</p>
+
+      <h2 id="what-it-is-not">What it is not</h2>
+      <ul>
+        <li>Not therapy, not treatment, and not an assessment or a test of memory.</li>
+        <li>Not a clinical program. It does not replace the care plan or the judgment of the staff who know each person.</li>
+      </ul>
+      <p>{SCOPE_LINE}</p>
+      <p>{PAUSE_LINE}</p>
+    </section>
+
+    <section class="care-settings__plans" aria-labelledby="plans">
+      <h2 id="plans">Session plans</h2>
+      {plans.map((plan) => (
+        <div class="care-plan" aria-labelledby={`plan-${plan.minutes}`}>
+          <h3 id={`plan-${plan.minutes}`}>{plan.minutes}-minute session</h3>
+          <p>Each card below lists an activity time that includes {plan.minutes} minutes.</p>
+          <ul class="care-plan__cards">
+            {plan.cards.map((card) => (
+              <li>
+                <a href={`/activity/${card.slug}/`}>{card.name}</a>: {card.summary}
+                <p><strong>Group version:</strong> {card.group}</p>
+                <p><strong>Activity time on the card:</strong> {card.range[0]} to {card.range[1]} minutes.</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+
+    <section class="care-settings__sheets" aria-labelledby="sheets">
+      <h2 id="sheets">Printable sheets</h2>
+      <p class="care-settings__note no-print">Each sheet below prints on one page on A4 or US Letter. Use Print in your browser menu.</p>
+
+      {plans.map((plan) => (
+        <article class="care-sheet" data-care-sheet aria-labelledby={`staff-${plan.minutes}`}>
+          <p class="care-sheet__kicker">Staff summary</p>
+          <h3 id={`staff-${plan.minutes}`}>{plan.minutes}-minute session</h3>
+          {plan.cards.map((card) => (
+            <div class="care-sheet__card">
+              <h4>{card.name}</h4>
+              <p><strong>Setup:</strong> {card.setup}</p>
+              <p><strong>Clean-up:</strong> {CLEANUP_TEXT}</p>
+              <p><strong>Activity time:</strong> {card.range[0]} to {card.range[1]} minutes</p>
+              <ul class="care-sheet__materials">
+                {card.materials.map((item) => <li>{item}</li>)}
+              </ul>
+            </div>
+          ))}
+          <p><strong>Stop rule:</strong> {STOP_RULE}</p>
+          <p class="care-sheet__foot">Full steps and safety notes for each card: {SITE.domain}/activity/.</p>
+        </article>
+      ))}
+
+      <article class="care-sheet" data-care-sheet data-family-note aria-labelledby="family-note">
+        <p class="care-sheet__kicker">Family note</p>
+        <h3 id="family-note">Today we did something together</h3>
+        <p>Today we spent time together doing an activity:</p>
+        <div class="care-sheet__line"></div>
+        <p>It was done for enjoyment and time together. Taking part is always a choice. It was fine to stop at any time.</p>
+        <p>If you would like to try it at home, free printable activity cards are at {SITE.domain}/activity/.</p>
+        <p class="care-sheet__foot">{SCOPE_LINE}</p>
+      </article>
+
+      <article class="care-sheet" data-care-sheet data-permission-template aria-labelledby="permission">
+        <p class="care-sheet__kicker">Permission template: adapt it for your service before use</p>
+        <h3 id="permission">Taking part in creative activities</h3>
+        <p>[Name of our service] offers creative activities in small groups. Taking part is always a choice. You may join in fully, join in a little, watch, or stop at any time. Nothing is held against anyone who does not take part.</p>
+        <p><strong>Photos:</strong> we will take photos during activities only with the consent of the person taking part, or of their legal representative. Photos are not shared outside [Name of our service] without separate consent. Consent can be changed or withdrawn at any time by telling [staff role].</p>
+        <p>[Name of our service] owns and keeps this note and every completed copy. It is not sent to Creative Activities or to anyone else.</p>
+        <div class="care-sheet__field">Name of person taking part:</div>
+        <div class="care-sheet__field">Photos allowed: <span class="care-sheet__box" aria-hidden="true"></span> Yes <span class="care-sheet__box" aria-hidden="true"></span> No</div>
+        <div class="care-sheet__field">Signed by the person, or by their legal representative:</div>
+        <div class="care-sheet__field">If signed by a legal representative, their relationship to the person:</div>
+        <div class="care-sheet__field">Date:</div>
+      </article>
+    </section>
+
+    <section class="care-settings__partners" aria-labelledby="partners">
+      <h2 id="partners">About partners</h2>
+      <p>No organization is named as using this site without written agreement. This site does not imply clinical endorsement by any organization or professional.</p>
+    </section>
+
+    <section class="care-settings__notes" aria-labelledby="notes">
+      <h2 id="notes">For your notes</h2>
+      <p class="muted">Last updated <time datetime={UPDATED}>{updatedText}</time>.</p>
+      <p>This page has not yet been reviewed by a care-setting reviewer. It is not listed in search results until it has been.</p>
+      <p>To report a problem with this page, use the <a href="/corrections/">corrections page</a>.</p>
+    </section>
+  </div>
+</PageLayout>
