@@ -246,7 +246,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-011 | P2 | new | Audio read-aloud |
 | CNT-012 | P1 | new | Glossary |
 | CNT-013 | P2 | new | Seasonal calendar and collections |
-| CNT-014 | P2 | new | Educator and care-setting program |
+| CNT-014 | P2 | partial | Educator and care-setting program |
 | CNT-015 | P1 | exists | FAQ |
 | CNT-030 | P0 | partial | Editorial pipeline |
 | CNT-031 | P0 | new | Media rights and provenance |
@@ -622,7 +622,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| GAME-023 | P2 | new | Word and picture pairs |
+| GAME-023 | P2 | partial | Word and picture pairs |
 | GAME-024 | P3 | new | Rhyme pictures |
 | GAME-028 | P2 | new | Music choices |
 | GAME-030 | P3 | new | Draw a sound |

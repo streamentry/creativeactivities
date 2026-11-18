@@ -144,7 +144,7 @@ Rules that apply to every type:
 
 ### CNT-014 · Educator and care-setting program
 
-- **Priority P2 · Phase S2 (one pilot) · Status new**.
+- **Priority P2 · Phase S2 (one pilot) · Status partial** (2026-11-19: the care-home and day-center pilot only, at `/for-organizations/care-settings/`, English, `noindex` until a care-setting reviewer has read it. Session plans at 10, 20 and 30 minutes from existing cards, each fitting by the card's own activity time and quoting its group version; a staff summary per plan with setup from the card's prep time, clean-up as "Check the card" because cards have no clean-up field, materials and the stop rule; a family note with no resident data; a permission template the organization keeps. No partner named. The weekly path from CNT-006 is not yet part of it, and the early-years variant is behind the child-facing gate).
 - **Why:** schools, libraries and care homes are the partners who can make the product routine ([R5 §4](research/05-search-scale-trust.md#4-distribution-beyond-search)).
 - **Bundle:** a weekly path (CNT-006); group variations; a session plan at 10, 20 or 30 minutes; a one-page staff summary with setup and clean-up time; a family note to take home (no child data collected); a consent or permission template for the organization to use with its own people.
 - **Variants:** early-years and classroom (owned by [08](08-pillar-parenting-kids.md)); care-home and day-center (owned by [09](09-pillar-older-adults-dementia.md)).

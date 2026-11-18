@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 234 | 107 | 407 |
-| S3 | 2 | 15 | 58 | 75 |
+| S2 | 66 | 235 | 106 | 407 |
+| S3 | 2 | 16 | 57 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **277** | **176** | **533** |
+| **All** | **80** | **279** | **174** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -428,6 +428,13 @@ Three Haiku subagents in parallel, each reviewed and browser-checked (light and 
 | Guide "Making a Life-Story Book Together, One Page at a Time" | SEO-038 → exists | Review fix: the guide said never to ask what someone recalls, yet several prompts were recall questions ("Where did the kettle sit?"); the prompts are now about the thing in front of you and the rule says no quizzing. Crisis route shown in the browser; library inventory regenerated |
 
 Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
+
+### Batch 50 (2026-11-19): Word and picture pairs, and session plans for care settings
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Word and picture pairs at `/games/word-and-picture-pairs/`, English only: 4 or 6 pictures in view with their words in another order, Read aloud for each word, quiet clearing of a tap that does not match, New pictures, Start again with Put it back, and a one-page print sheet | GAME-023 → partial | Built by a Haiku subagent. Review: the picture pool was judged on ids, so it was checked against the names players actually see (all 41 read one way); the share image cut the short line mid-phrase ("hear the word read") and the line was shortened; checked in the browser in the dark theme with 6 pictures. Not tried with adults learning English |
+| Session plans for care homes and day centers at `/for-organizations/care-settings/` (`noindex`): 10, 20 and 30 minute plans from existing cards, a staff summary per plan, a family note with no resident data and a permission template the organization keeps; the build fails if a linked card is missing, withdrawn, has no group version or does not fit its plan length | CNT-014 → partial (adult pilot only) | Built by a Haiku subagent. Review swapped the 20-minute "family tree of hands" for "Arrange flowers together": a family tree leaves out residents with no family nearby (the L10N-015 register). Clean-up time says "Check the card" because no card records it. Needs a care-setting reviewer before it is indexed |
 
 ## What blocks the rest
 

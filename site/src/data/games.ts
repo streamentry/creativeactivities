@@ -879,7 +879,7 @@ export const GAMES: readonly GameInfo[] = [
     h1: 'Word and Picture Pairs: Match the Word to the Picture',
     description:
       'Match English words to their pictures, and hear any word read aloud. Pictures stay in view, with no timer, score or count of tries. Free to play and print.',
-    short: 'Match each English word to its picture, and hear the word read aloud.',
+    short: 'Match each word to its picture, and hear it read aloud.',
     cardPictures: ['teacup', 'owl', 'lighthouse'],
     stages: ['early', 'middle'],
     players: 'One adult, or a family playing side by side',
