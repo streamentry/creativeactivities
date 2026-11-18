@@ -1,0 +1,77 @@
+/* Game cards and their chips. Moved out of components.css (WEB-074): only GameCard.astro renders them,
+   and GameCard.astro is rendered only by HomeView, GamesIndexView and GameView. */
+/* A game card shows its picture mounted like a print in an album. */
+.game-card {
+  padding: var(--space-md);
+}
+/* ---------- Chips and tags ---------- */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  background: var(--gm-background);
+  font-size: var(--text-sm);
+  font-weight: 700;
+  color: var(--gm-on-surface);
+}
+
+.game-card__print {
+  background: var(--gm-surface-raised);
+  padding: var(--space-mat);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gm-surface-sunken);
+  box-shadow: var(--shadow-hairline);
+  margin-bottom: var(--space-sm);
+}
+.game-card__print img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+.game-card__pics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+.game-card__pics img {
+  aspect-ratio: 1;
+  width: 100%;
+  border-radius: var(--radius-sm);
+}
+.game-card .card__body {
+  padding: 0 var(--space-sm) var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  flex: 1;
+}
+
+@media (prefers-contrast: more) {
+  .game-card__print {
+    border: 2px solid #222222 !important;
+  }
+  .tag {
+    border: 2px solid #000000;
+    font-weight: 800;
+  }
+}
+@media (forced-colors: active) {
+  .game-card__print {
+    border: 2px solid CanvasText;
+  }
+  .tag {
+    border: 2px solid CanvasText;
+  }
+}

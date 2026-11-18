@@ -40,11 +40,12 @@ const COMPONENT: Record<string, string> = {
   'collage-board': 'CollageBoard',
   'garden-planner': 'GardenPlanner',
   'coloring-wall': 'ColoringWall',
+  scrapbook: 'Scrapbook',
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 31 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(31);
+  it('covers all 32 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(32);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];

@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/game-cards.css';
+import '../styles/article-layout.css';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import AppCta from '../components/AppCta.astro';
 import Faq from '../components/Faq.astro';
@@ -55,6 +57,7 @@ import PhotoPairs from '../games/PhotoPairs';
 import PictureBingo from '../games/PictureBingo';
 import CalmBreathing from '../games/CalmBreathing';
 import ColorWash from '../games/ColorWash';
+import Scrapbook from '../games/Scrapbook';
 
 const NON_GAMES = new Set(['calm-breathing', 'conversation-cards']);
 
@@ -104,7 +107,8 @@ const jsonLd = [
 ];
 const s = game.slug;
 const play = playProps(lang, s);
-const photo = s === 'photo-pairs';
+// Photo pairs and Scrapbook read the family's own photos, so they load no analytics.
+const photo = s === 'photo-pairs' || s === 'scrapbook';
 // WEB-052: the paper partner, or the reason there is none. The rules line is the game's own guidance.
 // A page-kind sheet also prints the scope and pause lines; an island's own sheet fills its page, so it
 // gets the rules and version lines only.
@@ -165,6 +169,7 @@ const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.the
       {s === 'collage-board' && <CollageBoard client:load {...play} />}
       {s === 'garden-planner' && <GardenPlanner client:load {...play} />}
       {s === 'coloring-wall' && <ColoringWall client:load {...play} />}
+      {s === 'scrapbook' && <Scrapbook client:load {...play} />}
     </div>
 
     {

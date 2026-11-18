@@ -88,7 +88,7 @@ Source: `EVENT_DICTIONARY` in `site/src/lib/track.ts`, the only place events are
 
 These events are sent through `dataLayer` to Google Tag Manager, and from there to Google Analytics 4 if the container is set up that way. The GA4 setup is in the Google console and is not in this repository (section 6).
 
-Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` does nothing there.
+Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two pages built to open family photos, load no analytics at all, and `track()` does nothing there.
 
 ---
 
@@ -98,7 +98,7 @@ Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` doe
 
 | Origin | Used for | Where it loads | Integrity |
 |---|---|---|---|
-| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
+| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations and `/games/scrapbook/`, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
 | `https://*.googletagmanager.com`, `https://*.google-analytics.com`, `https://*.analytics.google.com` | Measurement requests and the image beacon, set by Google's tag | Pages with the tag. Allowed in `connect-src` and `img-src` in `public/_headers` | Not applicable (data requests) |
 
 ### 4b. Fonts and images

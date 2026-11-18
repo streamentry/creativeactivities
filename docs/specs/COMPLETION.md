@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 65 | 231 | 111 | 407 |
+| S2 | 65 | 232 | 110 | 407 |
 | S3 | 1 | 14 | 60 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **78** | **273** | **182** | **533** |
+| **All** | **78** | **274** | **181** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -378,6 +378,15 @@ Two changes to existing games, each built by a Haiku subagent and reviewed, brow
 
 Checks: vitest 147 files, 4,614 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 197.
 
+### Batch 42 (2026-11-19): Scrapbook and room in the card CSS budget
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Scrapbook" at `/games/scrapbook/`: two to twelve of the person's own photos as a book, one to a page, with optional family captions, reordering, paging by button or arrow key, a "Look together" view and a print; no analytics on the page, like Photo pairs | GAME-037 → partial | The print check's blank-sheet rule (added after the Collage board bug) failed it: the print section sat inside the game frame, which every game hides in print, so even a full book printed blank. Moved beside the frame, with a blank photo page for the empty state. Then, with four test photos at 390 px: pages 1 to 4, four printed pages on A4 and Letter, no request left the page |
+| Page-specific CSS moved out of the stylesheet every page loads (game cards, editorial answers and contents, the app call-to-action band, FAQ, article layout, meta line) into the templates that use them | WEB-074 upkeep | About 1 kB gzipped freed on card pages (the target was 1.5 kB; the rest is in rules every page shares). Before and after screenshots of 15 page types at 390 and 1280 px, built with only this change: identical apart from the two pages with random game decks and one lazy-loaded picture. A test keeps the moved selectors out of the global files |
+
+Checks: vitest 150 files, 4,655 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7, game sheets 27 of 27; `check:a11y` 0 failing of 199.
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -411,5 +420,5 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. Before any new feature on the activity card page: free CSS first. The card page is 2 bytes under its 15 kB budget (2026-11-19), so the next card feature fails `check:budget` unless it removes unused card CSS. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): next GAME-043 Picnic planner and GAME-039 Quiet scene (sound off); GAME-042 Garden bird spotter needs bird drawings. The card page CSS has about 1 kB of room after batch 42; the dark theme (WEB-042) will need more, from the rules every page shares. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

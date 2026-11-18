@@ -59,6 +59,7 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'collage-board': { kind: 'island', version: '2026-11-18' },
   'garden-planner': { kind: 'island', version: '2026-11-18' },
   'coloring-wall': { kind: 'island', version: '2026-11-18' },
+  scrapbook: { kind: 'island', version: '2026-11-19' },
 };
 
 /** Whether a game has a paper version (built in or rendered by the page). */
@@ -103,6 +104,7 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'collage-board': ['collageBoard', 'guidance'],
   'garden-planner': ['gardenPlanner', 'guidance'],
   'coloring-wall': ['coloringWall', 'guidance'],
+  scrapbook: ['scrapbook', 'guidance'],
 };
 
 /** The one-line rules text, identical on the game and on its paper version. */
