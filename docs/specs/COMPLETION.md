@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 65 | 233 | 109 | 407 |
+| S2 | 66 | 232 | 109 | 407 |
 | S3 | 1 | 15 | 59 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **78** | **276** | **179** | **533** |
+| **All** | **79** | **275** | **179** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -402,6 +402,14 @@ Checks: vitest 153 files, 4,719 pass (1 skipped); `tsc` clean; build 16,708 page
 | A one-page printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers, at `/for-professionals/`, held from search until a credentialed reviewer signs it | WEB-048 → partial | Built by a Haiku subagent. Review: it printed on two pages because the QR code is inserted as raw SVG, which Astro's scoped styles do not reach, so the size rule never applied (on screen too); fixed with `:global(svg)` and tighter print spacing. Its small print-button script changed a script Astro inlines on every page, so `check:site` failed on a hash missing from the security headers; the button was replaced by a line telling people how to print, so no security header changed. Link targets are written out for paper |
 
 Checks: vitest 151 files, 4,663 pass (1 skipped); build 16,709 pages; `check:site` 0 errors; `check:print` 8 of 8 (the handout is now one of the templates); `check:a11y` 0 failing of 199.
+
+### Batch 45 (2026-11-19): reading settings
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| "Reading on this site" on the Accessibility page: Shorter lines and More space, stored on the device, applied before first paint, screen only | WEB-042 → exists (with the dark theme from batch 43) | Built by a Haiku subagent (210 bytes gzipped). Browser check: the settings changed activity cards but not guides, because guides set their own width (68ch) rather than the token; the override now sets the width itself. The agent's narrower width was 720 to 680 px, too small to notice; set to a 42-character measure (720 to 544 px). Print ignores both; no sideways scroll at 320 px. The data-inventory test caught the two new device keys; rows added |
+
+Checks: vitest 153 files, 4,731 pass (1 skipped); build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7; `check:a11y` 0 failing of 226, including the dark variant.
 
 ## What blocks the rest
 
