@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Translation defect log and release gate (L10N-025).
 
+cspell:ignore metavar
+
     python3 scripts/l10n_defects.py               # validate the log, print a summary
     python3 scripts/l10n_defects.py --release es  # exit 1 if es has an open safety or claim defect
 

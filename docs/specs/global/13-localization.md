@@ -405,7 +405,9 @@ Depends on: L10N-002.
 Risks / not doing: Do not spend on languages past the gate without a maintainer decision.
 
 ### L10N-025 · Defect tracking and quality metrics
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-19): the log is `docs/l10n/defects.csv` (empty: no confirmed defect yet), checked by `scripts/l10n_defects.py`. `scripts/release_metadata.py --release` fails when a reviewed app language has an open safety or claim defect. Website languages can be logged; for them the rule is written in the native review guide, not enforced by a script. Metric definitions are in [17](17-metrics-and-evidence.md). The script reports defects found after review as one total per language; the quarterly split is defined but not computed. Waits on reviewers to use it.
 
 Why: Quality needs a number, or the review process is only a feeling [metrics file].
 

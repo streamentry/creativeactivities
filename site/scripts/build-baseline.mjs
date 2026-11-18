@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// cspell:ignore machdep kbytes sysctl hrtime
 // Build baseline (PLAT-013): runs `astro build` once as a child process with the same NODE_OPTIONS as the
 // website workflow, then prints one JSON object with wall time, peak memory, page count and dist/ size.
 // Peak memory comes from `/usr/bin/time` (`-l` on macOS, `-v` on Linux). Its maximum resident set size is the
