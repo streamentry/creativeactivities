@@ -3153,6 +3153,7 @@
 /* Decorate a card together (GAME-035): choices, and a preview of the card folded in half. Nothing here moves or counts. */
 .card-deco {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--space-xl);
   max-inline-size: 44rem;
   margin-inline: auto;
@@ -3164,6 +3165,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  min-inline-size: 0;
 }
 .card-deco__choices legend {
   margin-block-end: var(--space-sm);
@@ -3201,7 +3203,7 @@
 }
 .card-deco__sheet {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   inline-size: min(100%, 36rem);
   margin-inline: auto;
   border: 2px dashed var(--gm-outline);
@@ -3234,8 +3236,11 @@
 }
 .card-deco__words {
   position: relative;
+  box-sizing: border-box;
+  inline-size: 100%;
+  min-inline-size: 0;
   margin: 0;
-  padding: var(--space-sm);
+  padding: var(--space-sm) 14%;
   font-size: clamp(1.1rem, 0.8rem + 2vw, 1.9rem);
   font-weight: 700;
   line-height: 1.15;

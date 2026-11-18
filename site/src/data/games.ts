@@ -630,7 +630,7 @@ export const GAMES: readonly GameInfo[] = [
     h1: 'Decorate a Card Together: Make One for Someone',
     description:
       'Two people decorate a printed greeting card for a birthday, a thank you or just because, then write a message on the back together. Crayons or pens only. No timer or score. Free to print.',
-    short: 'Decorate a printed greeting card together, for an occasion or just because.',
+    short: 'Decorate a printed greeting card together.',
     cardPictures: ['balloon', 'sun', 'sunflower'],
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',

@@ -198,10 +198,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-029 | P1 | new | Singing sheets |
 | GAME-008 | P0 | exists | Coloring |
 | GAME-031 | P1 | partial | Paint-by-number lite |
-| GAME-032 | P1 | new | Two-hand drawing duet |
+| GAME-032 | P1 | partial | Two-hand drawing duet |
 | GAME-033 | P2 | new | Collage board |
 | GAME-034 | P2 | partial | Pattern maker |
-| GAME-035 | P2 | new | Co-decorate a card |
+| GAME-035 | P2 | partial | Co-decorate a card |
 | GAME-037 | P2 | new | Scrapbook builder |
 | GAME-012 | P1 | exists | Calm breathing |
 | GAME-038 | P2 | new | Color wash |
@@ -214,7 +214,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-010 | P0 | exists | Photo pairs |
 | GAME-044 | P1 | new | Reminiscence card match |
 | GAME-046 | P1 | partial | Story chain |
-| GAME-047 | P2 | new | Find together |
+| GAME-047 | P2 | partial | Find together |
 | GAME-048 | P2 | partial | Build-it-together grid |
 | GAME-049 | P2 | partial | Seated toss tally |
 | GAME-011 | P0 | exists | Picture bingo |

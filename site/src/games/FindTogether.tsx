@@ -200,7 +200,7 @@ export default function FindTogether(props: PlayProps) {
                 aria-disabled={tile.matched ? true : undefined}
               >
                 {faceUp ? (
-                  <img src={pictureUrl(tile.value)} alt="" draggable={false} />
+                  <img src={pictureUrl(tile.value)} alt="" width={160} height={160} draggable={false} />
                 ) : (
                   <span className="tile__back" aria-hidden="true">
                     <Icon name="photo" size={40} />
