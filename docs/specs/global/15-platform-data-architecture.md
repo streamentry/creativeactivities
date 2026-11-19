@@ -202,7 +202,8 @@ Risks / not doing: automatic "still accurate" stamps. Do not build them.
 ### Build and rendering
 
 ### PLAT-013 · Partitioned, incremental builds
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
+Status note (2026-11-19): baseline recorded in [build-baseline.md](../../engineering/build-baseline.md) (laptop, about 70 s and 4.5 GiB peak for 16,712 pages; CI numbers not yet taken). `pnpm check:determinism` compares two builds; it found a random Find together board baked into the page, now fixed, and two builds are identical. Astro 7.4.7 has `experimental.incrementalBuild` (pages with a `cacheKey`); the site does not use it yet. No sharding, no CI targets and no 10× fixture yet.
 Why: the current build is near the memory limit of a 2-concurrency CI run. A build of 100,000 or more pages in one process will not run.
 What: split the build by section and locale into shards. Cache rendered HTML by content hash. Rebuild only what changed: an activity change rebuilds its pages and the indexes that list it.
 Acceptance:

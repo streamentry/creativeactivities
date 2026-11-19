@@ -3,7 +3,12 @@
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
+
+# The defect log gate lives in l10n_defects.py; import it beside this file.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import l10n_defects  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'metadata/app-store.en-US.json'
@@ -142,6 +147,9 @@ def main():
                 path.write_text(expected, encoding='utf-8')
             elif not path.is_file() or path.read_text(encoding='utf-8') != expected:
                 errors.append(f'outdated export: {path.relative_to(ROOT)}; run --write')
+    # A release also stops on open safety or claim defects in reviewed languages.
+    errors.extend(l10n_defects.release_blockers(ROOT) if args.release
+                  else l10n_defects.check(ROOT))
     for error in errors:
         print(f'ERROR: {error}')
     if errors:

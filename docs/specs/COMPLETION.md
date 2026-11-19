@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 242 | 99 | 407 |
+| S2 | 66 | 245 | 96 | 407 |
 | S3 | 2 | 16 | 57 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **286** | **167** | **533** |
+| **All** | **80** | **289** | **164** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -435,6 +435,13 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | --- | --- | --- |
 | Word and picture pairs at `/games/word-and-picture-pairs/`, English only: 4 or 6 pictures in view with their words in another order, Read aloud for each word, quiet clearing of a tap that does not match, New pictures, Start again with Put it back, and a one-page print sheet | GAME-023 → partial | Built by a Haiku subagent. Review: the picture pool was judged on ids, so it was checked against the names players actually see (all 41 read one way); the share image cut the short line mid-phrase ("hear the word read") and the line was shortened; checked in the browser in the dark theme with 6 pictures. Not tried with adults learning English |
 | Session plans for care homes and day centers at `/for-organizations/care-settings/` (`noindex`): 10, 20 and 30 minute plans from existing cards, a staff summary per plan, a family note with no resident data and a permission template the organization keeps; the build fails if a linked card is missing, withdrawn, has no group version or does not fit its plan length | CNT-014 → partial (adult pilot only) | Built by a Haiku subagent. Review swapped the 20-minute "family tree of hands" for "Arrange flowers together": a family tree leaves out residents with no family nearby (the L10N-015 register). Clean-up time says "Check the card" because no card records it. Needs a care-setting reviewer before it is indexed |
+### Batch 51 (2026-11-19): defect log, facet report and a reproducible build
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Translation defect log `docs/l10n/defects.csv` with `scripts/l10n_defects.py` (validation, a summary per language, `--release LANG`); `release_metadata.py --release` fails on an open safety or claim defect in a reviewed language; "Logging a defect" in the native review guide; metric definitions in 17 | L10N-025 → partial | Built by a Haiku subagent. Review: it accepted only the 64 app languages, so a reviewer could not log a defect in website text for the other languages; website codes are now accepted (two tests added) and the guide says the website rule is not script-enforced. 24 new tests; no defect invented |
+| Facet report: `site/src/lib/facets.ts` applies H1 and H3 to 15 facets built from card fields; [facet-report.md](global/facet-report.md) | WEB-010 → partial | Built by a Haiku subagent. Its literal rule routed ten facets to "seated" and "low cost", which hold all 53 cards. Review added a `too-broad` verdict (more than half the catalog) and renamed `page` to `candidate`, since H11 asks for search evidence before any new hub. Result: one candidate, bedside routes to its hub, no page built |
+| Build baseline and `check:determinism` ([build-baseline.md](../engineering/build-baseline.md)) | PLAT-013 → partial | Built by a Haiku subagent: three laptop builds (58 to 97 s; recorded 70 s, 4.5 GiB peak), and a determinism check that found Find together dealing a random board into the built page, a different board on every deploy and a hydration mismatch. Fixed: a fixed first deal, the random board after load, and a test that renders twice. Two builds after the fix: 17,497 of 17,497 files identical. CI targets not set |
 ### Batch 49 (2026-11-19): localization registers
 
 | Change | Items | Evidence |
