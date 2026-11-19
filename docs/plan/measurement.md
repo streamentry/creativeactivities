@@ -73,6 +73,35 @@ installs a day, many daily cells will be blank or noisy. Read weeks, not days.
   noise. Report the direction with the cohort sizes; do not claim significance.
   Seasonality (holidays) and store-ranking changes confound a before/after read.
 
+## Counter-metric: time on site and page views (MET-034)
+
+Time on site and page views are diagnostics. They are never a headline result
+and never a goal: a longer session is not success, and a page that holds
+someone longer is not a better page for this audience. A caregiver who finishes
+an activity in five minutes and closes the page has succeeded.
+
+Where they come from: the website only, through Google Analytics after the
+visitor chooses "Allow" (see [data-inventory](../specs/global/data-inventory.md)).
+Visitors who do not allow analytics are not counted, so these figures describe
+consented traffic only.
+
+**Review trigger.** If, over one calendar month, average time on site or page
+views per visit rise by more than 20% while confirmed starts ("We tried this",
+MET-001, the `activity_started_confirmed` event) per 1,000 card views fall, the
+maintainer reviews that month's change log for anything that may be holding
+people on screen (a new prompt, a longer page, an extra step) before anything
+else ships in that area. Card views are not counted as such; this trigger uses
+the `activity_view` event, which counts activity page loads, as the denominator.
+
+**Who checks it.** The maintainer, in the monthly metrics review. The check is
+done each month, whether or not the trigger fires, and the result is written in
+that review's notes.
+
+**Limit.** Confirmed starts reach analytics only from consented visits, so the
+trigger can be checked only on that traffic. A rise or fall in a small consented
+sample is noise until the counts are large enough to read; record the counts
+with the percentages.
+
 ## Reversibility
 
 The card is behind a compile-time switch. Build without it:
