@@ -1,34 +1,35 @@
 ---
-title: "Kas-Kallaco Luk Yan Num Qagitto Cinise Yimki"
-seoTitle: "Kas-Kallaco Luk Yan Num Qagitto Cinise Yimki"
-description: "Kas-kallaco luk yan num qagitto ciniseh gibbata sabbata, aakamah aban taamoomi, caddinoonum kee xakkiimih xaqut geytima waktiti."
+title: "Kiyo Ka Dementia Ka Dhibaan Oo Ka Diida ama Ka Xanaaqda Hawl-wadaag"
+seoTitle: "Markii Qof Dementia Qaba Hawl-wadaag Diido"
+description: "Sababta qofka nolol maalmeed dementia la noolyahay u diidi karo ama uu u xanaaqi karo hawl-wadaag, waxa isku dayi karo halkeeda, waxa laga fogaado, iyo goorta isbedel degdeg ah dhakhtar u baahan yahay."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Kas-kallaco luk yan num maleeyo yoome waqdi, sahhayuk oggolaay sarrah
-  wacyi culus ama aka fantaaxaw kaah hayisa. Ciniyyo fan-faniinik sabbata le:
-  taama gibiduk geytimtam, carok abnissit akah tantaw, dalka, jabu, xala ama
-  caracarak garab-baxo. Cinal maangacinaay macadlisina. Culaalayisa, namma
-  doora kaah hayisa, ama qokol kaak essera. Wakti caddod sissikuk gacta caalat,
-  xagan dhiibi kaxxa bicak sarrah takkem, sissikuk xakkiimih xaqut geytimtam faxximta.
+  Markii qof dementia qabo uu yidhaahdo maya, si degan u aqbal oo mar dambe
+  isku day ama wax kale u bandhig. Diidmadu waxay inta badan leedahay sabab:
+  hawshu way adkaatay ama way carruurnimo yihiin, way daallan yihiin, xanuun
+  ama gaajo ayay qabaan, ama buuqu way ka culaysan yahay. Ha muran ama ha
+  cadaadin. Fudayd, labo doorasho bixi, ama caawimaad weydii. Isbedel degdeg ah
+  ama si dhakhso ah u beddelma dhaqanka, gaar ahaan kadib cudur faafa ama daawo
+  cusub, dhakhtar ayaa loo baahan yahay isla markiiba.
 keyPoints:
-  - "\"Maleeyo\" cinaay gaba kaak kacan maxco kinni, gibda xaloonu hinna."
-  - "Ciniyyoh sabbata tan: gibidiyya, carok abnisiyya, dalka, dhiiba, manno-way ama caracara."
-  - "Gaba kaak kalah, wadaay sarrah wacyi culus, aka saaqatal ama culaalayise gurral hay."
-  - "Taama abito kaak esserak, qokol kaak essertam baxaabaxsa le afo le."
-  - "Macadlisina, maangacina, massa-massa maabinina. Sissik-maqaaneh kaat mayasaysacina."
-  - "Sissikuk gacta caalat, dhiibiyya ama cusub xarashah sarrah takkem, sissikuk xakkiimil orbisan."
+  - "\"Maya\" waa jawaab la ixtiraamo, ma aha dhibaato in laga adkaado."
+  - "Diidmadu badanaa sabab leedahay: way adkaatay, way carruurnimo tahay, way daallan yihiin, way xanuunsan yihiin, way ku wareersan yihiin, ama way ka culaysan yihiin."
+  - "Ka noqo, sug, oo mar dambe isku day, waqti kale, ama nooc fudud."
+  - "Caawimaad weydiintu waxay ka shaqaysaa si fiican in la weydiiyo inay sameeyaan."
+  - "Ha muran, ha cadaadin, ha su'aasho, ha sixin. Naftaada hubi inaad degdeg u dhaqaaqeyso ama u soo ururisid."
+  - "Isbedel degdeg ah ama si dhakhso ah u beddelma dhaqanka, gaar ahaan cudur faafa ama daawo cusub, waa in isla markiiba dhakhtar la tago."
 faq:
-  - q: "Taamoomik kullum gaba akak kacan mayalla?"
-    a: "Yeey, woo ayro xalayuk. Ittat koboxuuk daffeyan, muuziqa ankacisan ama baaxo tubleeniik xiqtam tekke. Num agar-agarak kulliimtih wacyi waaseek, xakkiimih xaqut iyyi, sabbatah kaxxa rooce-gacsi, jabu ama aka dhiibi elle yan mayalla."
-  - q: "Kulliimik manguk kicnon baaxooya maacinisan?"
-    a: "Qadoh kicnoonu sugeenim dambiik yantuk geytimtam xiqta, kas-kallaco xiqtoota gibdissa waqdi, woo numuk weelo-way elle geytimtam xiqta. Qagittok culaala taama kaah aba, ceelalloh karafitti koboxiyya darat aaxaguk saglaala, ama dareemut bustaan bica tubleeniik aaxaguk daabisa."
-  - q: "Kaah oggolisaamal maangacoo?"
-    a: "Maleey. Kas-kallaco numuk gibdissam kaat mangacisan waqdi, roocak kaxxa cabsi kee gibbat akak tamaate. Maleeyo oggolaay, walal gaca, sarrah aka wacayuk kaah culus ama fantaaxaw dooris."
-  - q: "Caalatih gacaayiti aakamah xakkiimih sissik-gacsi kinni?"
-    a: "Num meesik addat yan waqdi ama sissik dhiiba geytimek 17 lakqoh hayisa. Saaqootak ama ayroorak addat sissikuk gacta kaskas-bayo, bica kaxxa dhiibi ama cusub xarashat geytimtam, sissikuk xakkiimil iyyi."
+  - q: "Ma waa ogol inay hawlaha oo dhan ka gudbaan?"
+    a: "Haa, maalin kasta. Wada fadhiid, muusig dhegaysi ama dunida oo daawasho ayaa ku filan. Haddii qof bilo ka dhammaan wax kasta oo uu jeclaan jiray, ka sheeg dhakhtarkiisa, maxaa yeelay niyad-jabka, xanuunka ama dhibaatooyinka kale ee caafimaadka ayaa suurtagal ah inay ku lug yeeshaan."
+  - q: "Maxaa sababa inay diidaan waxyaabo ay markii hore jeclaan jireen?"
+    a: "Hobbi hore wuxuu noqon karaa mid niyad-jabiya marka hadda la rabo xirfado ay dementia ka dhigtay kuwo adag, qofkuna wuu isku qaylo-dhaan karaa. Isku day qayb fudud oo isla hawshaas ah, sida kala soocidda batoonnada halkii aad dharka ka soo qaban lahayd, ama sawirada beerta daawashada halkii aad dhirta beeri lahayd."
+  - q: "Ma waa in aan isku dayo inaan ku qanciyo?"
+    a: "Maya. Qof cadaadinta wax uu dementia ka dhigtay kuwo adag waa keenaha la yaqaan ee kicinta xanaaqa. Aqbal diidmada, mawduuca beddel, oo mar dambe ama siyaabo kale mar kale u bandhig."
+  - q: "Goorma isbedelka dhaqanka uu degdeg ah yahay?"
+    a: "Wac 911 haddii qof khatar ku jiro ama calaamado xaalad caafimaad oo degdeg ah muujinayo. Ruuxnimo degdeg ah ama dhaqan saacado ama maalmo gudahood si dhakhso ah u beddelma, gaar ahaan kulul, cudur faafa ama daawo cusub, si isla markiiba u xiriir dhakhtarkooda."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +51,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Kulliim tamxixxige, qagitto ama gexsit kaat culusse, tohik sarrah "Maleeyo" yoome. Ama qagitto meqek tabeeh tablet foocat kak kalisan kee calcal afoh gacta. Taamay roocak cabsi leem kinni, kinnuk manguk geytinta. Ciniyyo kee gibbata fan-faniinik xiqtootu kinni, cina mayan. Woo afoh fan-faniinu aaxaguk geytimaanam sarrah tu akah abtan gurra sin taybulluh xiqta.
+Waxaad diyaar u dhigtaa wax walba, waxaad soo jeedinaysaa ciyaar ama socod, oo waxaad maqashaa "Maya." Ama hawshu si wanaagsan ayay u bilaabataa, oo waxay ku dhammaataa taabletka la riixay iyo eray qallafsan. Waa niyad-jabin, waana wax aad u badan oo caadi ah. Diidmadu iyo xanaaqu badanaa waa farriin, ma aha adkaysi. Ogaanshaha farriinta ayaa inta badan kuu muujiya waxa xiga ee aad isku dayi karto.
 
-## Kas-kallaco luk yan num qagitto maacinisa?
+## Muxaad qofka dementia qabo hawlaha u diidaa?
 
-Fan-faniinik sabbata le, woh yaabak xiqe waay yanim takkekkay. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) iyyaanam, ciniyyoh xiqtootu taama abe wayto xiqtam ama abeynah meesitak geytimam takkem xiqta. Ta fan-faniinik xiqta sabbatittek tuut:
+Badanaa sabab way leedahay, xitaa haddii aanu qofku ereyo ku sharxi karin. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) waxay sheegaysaa in iska caabintu macnaheedu noqon karto in qofku aanu hawsha qaban karin ama uu ka baqo inuu isku dayo. Sababaha caadiga ah waxaa ka mid ah:
 
-- **Gibiduk geytima.** Qagitto kassiita xiqtoota faxximta, kas-kallaco gibdissam kinni, num foocat duude waynam numut cisaaba le.
-- **Caroh abnissa kinni.** Kaxxa maray kaxxa-marih buxxah bica, caroh afoo kee caroh xiqtah meklit abnaan qagittol aaxagu duddan.
-- **Dalka.** Mangoh yan marih saaqat afoh xiqtootu dagoota. Gubal tuble [assah caroraq wacyi](/caregiving/late-day-restlessness/).
-- **Maysaxxaqayih dhiiba.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) qaddoosam: jabu, xinin wayya, xabuk abalaay ankacisa dhabe waynaanam, baqud-dhab, xala, faqa kee cusub xarashak yamaate dhiiba roocah gibbata akah maata.
-- **Mangoh tan caracara.** Kaxxa TV, mangoh tan marih yaaba ama buxxak koboxi kaxxa kaxxa-garab akah yaake.
-- **Maangaco.** NIA qaddoosam: Alzheimer dhiibik sabbatah gibda taamoomit maangaco, ama taariikaay mara kassisan gurral maangaco roocah xiqtootu kaxxaaxissa.
-- **Roocah daylo.** Kulliimtih wacyi waasaanam roocah dhiibak takkem xiqta, xakkiimih xaqut elle yaabaanam faxximta.
-- **Caxa-kutut wacyi waasaanam.** Kaxxa maray maleeyo iyyam akah oggolam kinni.
+- **Way adkaatay.** Hawshu hadda xirfado ka dhigtay kuwo adag oo dementia ka dhigtay kuwo adag, qofkuna waa ka xishadaa in uu hortooda guuldaraysto.
+- **Way carruurnimo tahay.** Dadka waaweyn waxay ogaadaan sawirada qosolka leh, codka ku hadallada ilmaha iyo hawlaha u muuqda kuwo carruurta loogu talagalay.
+- **Daal.** Dad badan tamarta ayaa ka yaraata fiidkii. Eeg [hawlaha fiidnimada ee degan](/creative-calm/calm-afternoon-activities/).
+- **Dhib jidh.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) waxay liistaa xanuunka, hurdo la'aanta, aragga ama maqalka oo dhibaysan, qabaridda, harraadka, gaajada, iyo saamaynta daawooyinka cusub inay yihiin sababo suurtagal ah oo walaac keena.
+- **Wax badan oo socda.** TV-ga cod weyn leh, wada-hadallo badan ama qol buuxa ayaa laga yaabaa inay ku dhib badiyaan.
+- **Cadaadis lagu saaray.** NIA waxay sheegtaa in lagu cadaadiyo inuu wax sameeyo oo Alzheimer uu aad u adkeeyay, ama inuu xusuusto dhacdooyin ama dad, inay tahay sabab walaac.
+- **Mood hooseeya.** Xiiso la'aanta waxyaabaha waxay noqon kartaa calaamad niyad-jab, taas oo mudan in dhakhtar lagu wargeliyo.
+- **Ma doonayaan.** Dadka waaweyn way ogolyihiin inay maya yidhaahdaan.
 
-## Maleeyo yeenik tu akah maaba?
+## Maxaan isku dayaa markay yidhaahdaan maya?
 
-Maleeyo yaab sahhayuk oggolaay, sarrah baxaabaxsa ab: saaqata, qagitto, culaala gurra ama akah essertan gurra.
+Aqbal diidmada si degan, kadibna wax bedel: waqtiga, hawsha, adkaanta ama sida aad wax u weydiiso.
 
-1. **Ta saaqatal cinaay cab.** "Meqem, sarrah nakke." Tohik sarrah kaxxa rooce-gacsik maleh aka caalatat gaxa.
-2. **Sarrah wacyi culus.** Alzheimer's Association tascasseemik sarrah ama aka saaqatal wacyi culusan.
-3. **Culaalayisaay daggoysa.** Kulli qagittok tiya qokol. Gaba-sarik tiya qokol. Dago bica, dago doora, bicoosak caddol taturak yabbalan.
-4. **Namma doora kaah hay.** "Haada bica tullu kictaa hinnay muuziqa tankacisu kictaa?" Doorit akah hayteenik doora kaat gactam akah tamxixxige.
-5. **Taama abito kaak esserak, qokol kaak esser.** "Taam koboxiyyat yoo qokoltoo?" ama "Iyya bica kaxxam meqe?" Qokol faxximtam num elle geytintaam kee taamissi kaat abaanam baxaabaxsa le.
-6. **Atu esserak maleh eglisa.** Esserak maleh kaah garabal taama aba. Mangoh yan mari taama eglisek koboxan, eglise waay yaanekkay ittat sugtan waktit geytinta.
-7. **Maysaxxaqah fantaaxaw ama sahhayih taamal gaxa.** Dago gexsit, muuziqa, maaqo, sari bica, ama ittat [sahhayuk fanti-gaca](/games/calm-breathing/) caba. NIA tascasseemik kas-kallaco muuziqat, kitaabal ama gexsiitit gacisaanam xiqtam takke.
-8. **Isih faxa gurral abe kaah oggola.** Qagittok mekla fan-fanik abe kicek, kaat gaxa. Alzheimer's Association fanteenuk caddol tan gurra tascasse.
+1. **Hadda u daa.** "Waa fiican. Mar dambe ayaan isku dayi karnaa." Kadibna u gudub wax kale iyada oo aan neefsasho cabsi leh lahayn.
+2. **Mar dambe isku day.** Alzheimer's Association waxay soo jeedinaysaa in mar dambe ama waqti maalinta ah oo kale lagu isku dayo.
+3. **Yarey.** Hal kibrit halkii ciyaar oo dhan. Hal tuwaal halkii dharka oo dhan. Sawir yar, doorasho yar, sawirrada oo la arko.
+4. **Labo doorasho bixi.** "Ma jeceshahay inaad eegto sawirada shimbiraha ama aad muusig dhegaysato?" Doorasho ayaa dib u siinaysa dareen xakameyn.
+5. **Caawimaad weydii halkii aad waxqabad rabtay.** "Ma i caawin kartaa inaad kuwan kala soociso?" ama "Ma i sheegi kartaa midabka ugu fiican?" Loo baahan yahay waa wax aad uga duwan tijaabin.
+6. **Adigu bilow.** Hawsha ku bilow agtooda adigoo aan weydiinin. Dad badan ayaa ku biiraan markii wax horay u socdaan, haddii aanay ku biirin, wakhti la qaadatay ayaad weli wada qaadatay.
+7. **U beddel mid jireed ama nafeeya.** Socod gaaban, muusig, naas, dharka qabashada, ama neefsasho degan oo la wada qaato [calm breathing](/games/calm-breathing/). NIA waxay soo jeedinaysaa in dareenka loo wareejiyo muusig, buug ama socod.
+8. **U oggolow inay si ay doonayaan u sameeyaan.** Haddii ay rabaan inay ciyaar kale ka ciyaaraan sharciyada ku qoran, la kulan. Alzheimer's Association waxay talinaysaa in la noqdo mid dabacsan.
 
-## Rooca gibbata waqdi tu kaak maaxa?
+## Maxaan leeyahay markay niyad-jabaan ama xanaaqaan?
 
-Sissik-maqaane gaba kaak kelaay, afo qunxoosaay sahhayisa. [Alzheimer's Association agitation gudgud](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) tascasseemik gaba kaak kelaay oggol essera, sahhayu le meqe yaabat gaxa, namma doorik doorit hayisa. Yaaba meqe gurral iyyinam:
+Gabbaadii hoos u dhig, codkaaga hoos u dhig oo dhiirrigelin. [Alzheimer's Association talooyinka walaaca](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) waxay soo jeedinaysaa in la ka noqdo oo la weydiiyo ogolaansho, la isticmaalo hadal degan oo wanaagsan, iyo doorasho la hagayo oo labo ikhtiyaar ah. Erayo habkaas ku jira:
 
-- "Yoo duma, ta qagitto gibda. Cabno."
-- "Atu meqe gurral tanta. Anu kok garabal aniyo."
-- "Aka taamal yoo qokoltu saaqat litoo?"
-- "Aka fantaaxawat shaahi cabnoo?"
+- "Waan ka xumahay, tan waa cabsi leh. Joogso."
+- "Waad wanaagsan tahay. Halkan ayaan joogaa."
+- "Ma waqti baad heshaa inaad i caawiso wax kale?"
+- "Ma wax shaah ah baa yeelannaa halkii?"
 
-Tohik sarrah kaxxa xawoh abe kalik qagitto caba. Ni [communication tips](/caregiving/communication-tips/) addat mangoh tan maxcootat geytinta.
+Kadibna hawsha si aan wax weyn loo dhigin u dhammee. Bogga [tallaabooyinka hore ee ka dib ogaanshaha](/caregiving/after-dementia-diagnosis/) waa bilow lagu caawinayo.
 
-## Tu kak mayasaysacoo?
+## Maxaan ka fogaadaa?
 
-Tenneek yamaate abnissitte caalat mangacissaam takke.
+Dabeecado dabiici ah qaar ayaa inta badan xaaladda sii xumeeya.
 
-- **Cadlisiyya ama maangaco.** "Koo, gaba kelaay tiyaaba ab" ama "Kicnitom" iyyam maqaane mayacta.
-- **Esser-esser ama massa-massa.** "Taam taaxige" ama "Maleey, woo tiya kosa" iyyam kaxxa gibbat akah maata.
-- **Koolat haytam.** NIA dacayri abeytiitih tascasseemik kas-kallaco dhiibi kinni, woo num hinna woo abnissak sabbata kinni.
-- **Sissik-baxa ama caddol garab-baxo.** Alzheimer's Association afo qunxoose waynaamak, meesit yubulliyeeniik, caddol baatooyak, caracarak, calcaluk, agag-waynaamak ama cadlisiyyak meesitaanam tascasse.
-- **Rooce-dhabat haytam.** "Koo sabbatah aam bicise" iyyam namma marak rooca waytissa.
-- **Migaqa carit haytam.** "Cina num" ama "Gibda num" iyyam fan-faniin sabbata cawissaay baxsale xalo akah dhabta.
+- **Muran ama cadaadin.** "Kaalay, mar keliya" ama "Waad jeceshahay tan" inta badan ma caawiyaan.
+- **Su'aalaha ama sixidda.** "Waad ogtahay waxan waa maxay" ama "Maya, kaas waa qalad" cadaadis ayuu kordhiyaa.
+- **Shakhsi u qaadashada.** NIA waxay xusuusinaysaa daryeelayaasha in cudurku, ma aha qofka, uu keenayo isbedelladan.
+- **Riixid ama degdeg.** Alzheimer's Association waxay talinaysaa in aan codkaaga kor loo qaadin, calaamad cabsi lahayn la tusin, qof gees lagu hayn, qof lagu xakamayn, qof dhaleeceyn, qof iska indho tiray ama qof la muran, iyo in dhaqdhaqaaq degdeg ah oo ka baxsan aragtiisa laga fogaado.
+- **Dambi siin.** "Dhammaan tan waxaan kuu diyaariyey" wuxuu labadiinba nafta ka dhaawacaa.
+- **Calaamad siin.** "Qallafsan" ama "adag" ayaa sababta dhabta ah qarsada oo dhibaatada ka dhigaysa mid adag in la xalliyo.
 
-## Mangoh tan ciniyyoh sabbata mannal garca?
+## Sidee u ogaadaa waxa ka dambeeya diidmooyinka soo noqnoqda?
 
-Kulli saaqatal ayroorik tiya ama nammayot warqaqat elle gina. NIA tascasseemik abnissih gacaayiti ginaanamaay dacayri haytam kee xakkiimih mara xalo aaxagu qokla.
+Hal todobaad ama laba ilaa qoraal fudud hay. NIA waxay sheegtaa in raadinta isbedelka dhaqanka ay caawin karto daryeelayaasha iyo bixiyayaasha daryeelka caafimaadka inay ogaadaan qaab, oo ay ogaadaan sababta.
 
-Kutbe:
+Qor:
 
-- ayrok saaqata;
-- kaat culusseenim kee akah essertan gurra;
-- sin garabal sugeem (caracara, daddal-mari, TV);
-- mannal xine, yakme, yacbe kee baqud-dhabat gexe saaqata;
-- cusub xarash ama dhiibi yamaateem.
+- waqtiga maalinta;
+- waxa aad soo jeedisay iyo sida aad weydiisay;
+- waxa ku wareegsan (buuq, marti, TV);
+- sida ay u seexdeen, cunteen iyo cabbeen, iyo markii ugu dambeysay ee ay musqulaha tageen;
+- daawooyin cusub ama cudur dhowaan la qabay.
 
-Kulli gurrak tuut sissikuk caddol yamaate: 4 saaqatak sarrah cinaam, tiya qagittol cinaam, ama TV yaake waqdi cinaam. Family Caregiver Alliance [guide to dementia behaviors](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) qaddoosam: num mekla madudna, kinnuk ninke abnissa kee sin garab baxaabaxsa abnu duddan.
+Qaababka badanaa si dhakhso ah ayay u soo baxaan: diidmooyin kaliya ka dhacaya kadib 4 p.m., kaliya ciyaar gaar ah, ama kaliya marka TV-gu furan yahay. Family Caregiver Alliance [hage dhaqanka dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) wuxuu si fudud u dhigayaa: qofka ma beddeli karno, laakiin dabeecaddayada iyo deegaanka ayaan beddeli karnaa.
 
-## Ciniyyo kee gibbatah caalat xakkiimil mannal yaaban?
+## Goorma dhakhtar la hadlaa diidmada ama niyad-jabka?
 
-Sissikuk, dagal ama dhiibik xiqtootat abnissa gactek xakkiimil yaaba. NIA qaddoosam: sissikuk gacta abnissitte, xagan dhiibi ama cusub xarashak sarrah tekkeemik, sissikuk xakkiimih xaqut orbisan.
+Dhakhtar la hadal marka dhaqanku si degdeg ah, si dhakhso ah, ama calaamadaha cudur la socda u beddelmo. NIA waxay sheegtaa in isbedello degdeg ah ama si dhakhso ah u kala duwanaanaya dhaqanka, gaar ahaan haddii qofku uu qabo cudur faafa ama uu dhowaan daawada beddelay, in dhakhtar isla markiiba loo sheego.
 
-Taam tubleeniik xakkiimil sissikuk yaaba:
+Degdeg u xiriir dhakhtarkooda haddii aad aragto:
 
-- saaqootak ama ayroorak addat sissik kas-kallaco ama kaxxa gacaayiti;
-- dhiibak xiqtootu, caddol afaaqu, maysaxxaqa aalle waytam ama gexso gibdissam;
-- bica kaxxa dhiibi ama aka xagan xiqtootu;
-- cusub xarashak sarrah abnissih gacaayiti;
-- kulliimtih wacyi waasaanam, rooce-xabiyya ama agag-wayto namma ayroorak dagal tekkeemik;
-- maaqo kee cabti cinam.
+- ruuxnimo degdeg ah ama isbedel weyn saacado ama maalmo gudahood;
+- calaamadaha xanuunka, sida indho-yarayn, qayb jidh la ilaalinayo, ama dhaqdhaqaaq cusub oo adag;
+- kulul ama calaamado kale oo cudur faafa;
+- daawooyin cusub ama kuwa la beddelay, kadibna isbedel dhaqan;
+- xiiso la'aan ku timaadda waxyaabaha oo dhan, ilmo-daadasho ama is-dhex-galid wax ka badan laba toddobaad;
+- diidmada cunto ama cabitaan.
 
-Alzheimer's Association sissikuk yamaate abnissih xakkiimih sakbisiyya tascasse. Family Caregiver Alliance dhiibik sabbatah takkem xiqtaamih sabbatah xakkiimil yaabaanam tascasse. Xakkiimih yaabak maleh xarash maleey yaanaay, cabaay ama baxaabaxsa maabinina.
+Alzheimer's Association waxay talinaysaa in qof kasta oo leh calaamado dhaqan baadh caafimaad oo buuxa la sameeyo, gaar ahaan haddii ay si degdeg ah u soo baxaan. Family Caregiver Alliance sidoo kale waxay talinaysaa in marka hore dhakhtar la weydiiyo, sababtoo ah dhibaatooyinka dhaqanku sabab caafimaad ayay leeyihiin. Ha bilaabin, ha joojin, ha beddelin daawo kasta adigoo aan la hadlin dhakhtar ama farmashiye.
 
-Num meesik addat yan waqdi ama sissik dhiiba geytimek, 17 lakqoh hayisa. NIA tascasseemik woo num kas-kallaco leem sissikuk qaddoosaanam kinni.
+Haddii qof khatar ku jirto ama calaamado xaalad caafimaad oo degdeg ah jiraan, wac 911. NIA waxay soo jeedinaysaa in aad u sheegto qabashada dementia qofka. Haddii cadho ay noqoto mid jidh ah, ka tag oo dhakhtarka ama kooxda daryeelka la kulan talo.
 
-## Tu abeek kalah sugnek meqee?
+## Ma waa ogol haddii aan waxba samayno?
 
-Yeey. Tuut ayroorak addat kulli qagitto dagok sugteenim meqem kinni: ittat daffeyan, gaba ittal haytan, kicnon muuziqa ankacisan, ama daaqatak haada tubleeniik sugtaanam. Toh kallaaku hinna. Ni [guide to playing together](/caregiving/how-to-play-together/) qaddoosem sissikuk cabaay, ama eglise wayto meqe gurra akak takkem kinni.
+Haa. Maalmaha qaarkood hawsha ugu wanaagsan waa in aan wax la samayn: wada fadhiid, gacmo isku qabo, muusig aad jeceshahay dhegaysi, ama shimbiraha daaqadda ka eeg. Taasi kuma guuldaraysanayso. [Hagayaashayada wada ciyaarista](/caregiving/how-to-play-together/) wuxuu sharraxayaa sababta joojinta hore, ama aan bilaabin, ay u noqon karto go'aanka saxda ah.

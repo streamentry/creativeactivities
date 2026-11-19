@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Paren zoeken",
-    "seoTitle": "Memoryspel bij dementie: Paren zoeken",
+    "seoTitle": "Spelletje memory voor volwassenen: plaatjesparen",
     "h1": "Paren zoeken: een rustig memoryspel",
-    "description": "Een gratis, rustig spel om paren te zoeken voor mensen met dementie. Grote plaatjes blijven zichtbaar, er is geen klok of score en je kiest 4 tot 12 kaartjes.",
+    "description": "Een gratis, rustig memoryspel voor volwassenen en oudere volwassenen, ook voor mensen met dementie. De plaatjes mogen zichtbaar blijven. Geen timer en geen score.",
     "short": "Zoek de twee plaatjes die hetzelfde zijn. Plaatjes kunnen zichtbaar blijven.",
     "players": "1 of 2 personen, naast elkaar",
     "intro": "Tik op een plaatje en dan op het plaatje dat erbij hoort. De plaatjes blijven standaard zichtbaar, dus je hoeft niets te onthouden. Horen twee plaatjes bij elkaar, dan krijgen ze een gouden rand en een vinkje.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Hetzelfde plaatje",
-    "seoTitle": "Hetzelfde plaatje: eenvoudig spel bij dementie",
+    "seoTitle": "Zoek het gelijke plaatje: eenvoudig plaatjesspel",
     "h1": "Zoek hetzelfde plaatje",
-    "description": "Eén plaatje bovenaan, twee tot vier eronder. Tik op het plaatje dat hetzelfde is. Een rustig, gratis plaatjesspel voor mensen met dementie, zonder klok.",
+    "description": "Een plaatje bovenaan, twee tot vier eronder. Tik op het plaatje dat hetzelfde is. Een rustig, gratis plaatjesspel voor volwassenen, oudere volwassenen en gezinnen, zonder timer.",
     "short": "Kijk naar het plaatje bovenaan en tik hieronder op hetzelfde plaatje.",
     "players": "1 of 2 personen",
     "intro": "Bovenaan het scherm staat één plaatje. Daaronder staan er twee, drie of vier. Tik op het plaatje dat hetzelfde is. Steeds één eenvoudige keuze, met volop ruimte om te praten.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Schaduwplaatjes",
-    "seoTitle": "Schaduwplaatjes: gratis schaduwspel bij dementie",
+    "seoTitle": "Schaduwspel: gratis online voor volwassenen",
     "h1": "Schaduwplaatjes: een rustig plaatjesspel",
-    "description": "Bovenaan een donkere schaduw, eronder twee tot vier plaatjes. Tik op het plaatje dat erbij hoort. Een gratis, rustig schaduwspel bij dementie, zonder klok.",
+    "description": "Een donkere schaduw bovenaan, twee tot vier plaatjes eronder. Tik op het plaatje dat de schaduw maakt. Een gratis, rustig schaduwspel zonder timer.",
     "short": "Kijk naar de schaduw en tik op het plaatje dat erbij hoort.",
     "players": "1 of 2 personen",
     "intro": "De juiste schaduw zoeken kennen veel mensen van werkbladen op papier. Hier gaat het met grote plaatjes en hoef je niets te printen. Bovenaan het scherm staat een zachte schaduw en eronder wachten twee, drie of vier plaatjes. Tik op het plaatje dat bij de schaduw hoort. Over vormen als een fiets, een paraplu of een theekopje kun je ook fijn praten.",
@@ -100,8 +100,8 @@
         "a": "Nee. Er is geen klok, score, zettenteller en je kunt niet verliezen. Je kunt op elk moment stoppen, en halverwege stoppen is een prima manier om te eindigen."
       },
       {
-        "q": "Is een schaduwspel geschikt voor mensen met dementie?",
-        "a": "Voor sommige mensen kan het een fijne, eenvoudige activiteit zijn, vooral in de vroegere fasen. Vormen zijn makkelijker te herkennen dan woorden. Het is bedoeld voor plezier en gesprek, niet als test, en het behandelt of vertraagt geen dementie. Geeft het frustratie, probeer dan Hetzelfde plaatje of bekijk gewoon samen wat plaatjes."
+        "q": "Kunnen mensen met dementie plezier beleven aan een schaduwspel?",
+        "a": "Veel volwassenen vinden het leuk, ook sommige mensen met dementie, vaak in de vroege fase. Vormen zijn makkelijker te herkennen dan woorden. Het is bedoeld voor plezier en gesprek, geen test, en het behandelt of vertraagt dementie niet. Als het frustratie oplevert, probeer dan Zoek het gelijke of bekijk gewoon samen plaatjes."
       },
       {
         "q": "Wat gebeurt er als er op een ander plaatje wordt getikt?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Vier bij elkaar",
+    "seoTitle": "Groeperingsspel voor volwassenen: vier bij elkaar",
+    "h1": "Vier bij elkaar: een rustig groeperingsspel met plaatjes",
+    "description": "Sommige plaatjes horen bij hetzelfde thema, zoals fruit of weer. Tik op de plaatjes die bij elkaar horen. Een gratis, rustig groeperingsspel zonder timer en zonder score.",
+    "short": "Zoek de plaatjes die bij elkaar horen, zoals fruit of weer.",
+    "players": "1 of 2 personen",
+    "intro": "Een kleine set plaatjes, en sommige horen bij elkaar: misschien vier soorten fruit, of vier manieren om te reizen. Tik op de plaatjes die hetzelfde thema delen. Als een plaatje bij iets anders hoort, noemt het spel dat gewoon en wacht het af. Na een rustig moment noemt een hint het thema, en met \"Toon de groep\" onthult u het antwoord op elk moment.",
+    "howTo": [
+      "Kies vier, zes of acht plaatjes. Vier is het eenvoudigst, met drie die bij elkaar horen.",
+      "Bekijk de plaatjes samen en praat over wat ze gemeen hebben.",
+      "Tik op elk plaatje dat bij de groep hoort. Het krijgt een gouden rand en een vinkje.",
+      "Als een plaatje bij iets anders hoort, noemt het spel dat en wacht het af. Neem gerust de tijd.",
+      "Tik op \"Toon de groep\" wanneer u wilt, en daarna op \"Andere set\" voor nieuwe plaatjes."
+    ],
+    "tips": [
+      "Zeg hardop wat u opmerkt: \"Deze twee zijn allebei dingen om te eten.\"",
+      "Er is geen haast. Na een pauze verschijnt een hint met het thema, en u mag die negeren.",
+      "Praat over de groep zodra die is gevonden: een favoriet stuk fruit, een treinreis, het weer van vandaag."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, tellers voor zetten en ook geen verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te ronden."
+      },
+      {
+        "q": "Wat gebeurt er als een plaatje buiten de groep wordt aangetikt?",
+        "a": "Niets vervelends. Er is geen zoemer, geen rood kruis en geen schudden. Het spel noemt het plaatje, zegt dat het bij iets anders hoort, en wacht op de volgende tik."
+      },
+      {
+        "q": "Welke groepen zijn er?",
+        "a": "Dagelijkse thema's waarvoor geen speciale kennis nodig is: fruit, dieren, bloemen, weer, manieren om te reizen, dingen voor een warme drank en dingen die in de oven worden gebakken. Elk plaatje hoort bij precies één groep."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis, en er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Wat past niet?",
+    "seoTitle": "Wat past niet? Plaatjesspel voor volwassenen",
+    "h1": "Wat past niet: een rustig plaatjesspel",
+    "description": "Drie of vier plaatjes, en alle behalve één horen bij hetzelfde thema, zoals fruit of weer. Tik op het plaatje dat er niet bij hoort. Gratis, rustig, zonder timer en zonder score.",
+    "short": "Zoek het plaatje dat niet bij de andere hoort.",
+    "players": "1 of 2 personen",
+    "intro": "Drie of vier plaatjes, en alle behalve één horen bij elkaar: fruit, misschien, of manieren om te reizen. Tik op het plaatje dat er niet bij hoort. Als een plaatje wel bij de andere hoort, zegt het spel dat gewoon en wacht het af. Na een rustig moment noemt een hint wat de andere gemeen hebben, en met \"Toon mij\" wijst u op elk moment het afwijkende plaatje aan.",
+    "howTo": [
+      "Kies drie of vier plaatjes. Drie is het eenvoudigst.",
+      "Bekijk de plaatjes samen en praat over wat de meeste ervan gemeen hebben.",
+      "Tik op het plaatje dat er niet bij hoort. Het krijgt een gouden rand en een vinkje.",
+      "Als een plaatje bij de andere hoort, zegt het spel dat en wacht het af. Neem gerust de tijd.",
+      "Tik op \"Toon mij\" wanneer u wilt, en daarna op \"Andere set\" voor nieuwe plaatjes."
+    ],
+    "tips": [
+      "Praat hardop: \"De appel en de peer zijn allebei fruit. En de bus?\"",
+      "Er is geen haast. Na een pauze verschijnt een hint met het thema, en u mag die negeren.",
+      "Elk plaatje is een goed begin voor een gesprek: een favoriet stuk fruit, een busrit, een regenachtige dag."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, tellers voor zetten en ook geen verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te ronden."
+      },
+      {
+        "q": "Wat gebeurt er als een plaatje dat wel bij de groep hoort wordt aangetikt?",
+        "a": "Niets vervelends. Er is geen zoemer, geen rood kruis en geen schudden. Het spel noemt het plaatje, zegt dat het bij de andere hoort, en wacht op de volgende tik."
+      },
+      {
+        "q": "Hoe wordt het afwijkende plaatje gekozen?",
+        "a": "De plaatjes komen uit dagelijkse thema's waarvoor geen speciale kennis nodig is: fruit, dieren, bloemen, weer, manieren om te reizen, dingen voor een warme drank en dingen die in de oven worden gebakken. Elk plaatje hoort bij precies één thema, en het afwijkende plaatje komt altijd uit een ander thema."
+      },
+      {
+        "q": "Is het gratis, en moet ik me registreren?",
+        "a": "Ja, het is gratis, en er is geen account, registratie of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Kleuren zoeken",
+    "seoTitle": "Kleuren zoeken: een rustig plaatjesspel",
+    "h1": "Kleuren zoeken: vind de plaatjes in één kleur",
+    "description": "Een grote kleur met de naam erbij, en vier of zes plaatjes. Tik op elk plaatje dat die kleur heeft. Geen timer, geen score, en een andere kleur wordt gewoon genoemd. Gratis om te spelen en af te drukken.",
+    "short": "Vind alle plaatjes die dezelfde kleur hebben als de getoonde kleur.",
+    "players": "1 of 2 personen, of een volwassene en een kind",
+    "intro": "Er wordt een grote kleurvlek getoond, met de naam ervan ernaast geschreven. Daaronder staan vier of zes plaatjes. Tik op elk plaatje dat die kleur heeft: bijvoorbeeld een rode appel en een rode kop. Als een plaatje een andere kleur heeft, noemt het spel die gewoon (\"De peer is groen.\") en wacht het. \"Laat ze zien\" wijst op elk moment de passende plaatjes aan, en \"Andere kleur\" gaat verder.",
+    "howTo": [
+      "Kies vier of zes plaatjes. Vier is het eenvoudigst.",
+      "Kijk naar de kleur en lees de naam samen.",
+      "Tik op elk plaatje dat die kleur heeft. Elk plaatje krijgt dan een dikke rand en een vinkje.",
+      "Als een plaatje een andere kleur heeft, zegt het spel welke kleur het is en wacht het. Neem de tijd.",
+      "Tik op \"Laat ze zien\" wanneer u wilt, en daarna op \"Andere kleur\" voor een nieuwe kleur."
+    ],
+    "tips": [
+      "Zeg de kleur hardop en kijk dan om u heen: wat is er nog meer die kleur?",
+      "Gebruik uw eigen woorden als u wilt. \"Tomaat\" of \"lucht\" is net zo goed als \"rood\" of \"blauw\".",
+      "Wijzen werkt net zo goed als tikken. Zit naast elkaar, zodat u allebei het scherm kunt zien."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, teller van zetten of verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te sluiten."
+      },
+      {
+        "q": "Wat gebeurt er als er op een plaatje met een andere kleur wordt getikt?",
+        "a": "Niets vervelends. Er is geen zoemer, geen rood kruis en geen schudden. Het spel noemt het plaatje en de kleur, zoals \"De peer is groen.\", en wacht op de volgende tik."
+      },
+      {
+        "q": "Is kleur de enige aanwijzing?",
+        "a": "Nee. De kleur wordt getoond als een grote vlek en ook als woord geschreven, en elk plaatje wordt bij het tikken benoemd. Iemand die een kleur moeilijk kan zien, kan toch meespelen door de naam te lezen."
+      },
+      {
+        "q": "Heeft elk plaatje echt die kleur?",
+        "a": "De plaatjes worden met de hand gekozen, en alleen als het hoofdvoorwerp duidelijk één kleur heeft. Plaatjes met meerdere kleuren, zoals een vlieger of een bij, vallen af."
+      },
+      {
+        "q": "Is er een papieren versie?",
+        "a": "Ja. Een vel van één pagina heeft vier rijen. Elke rij noemt een kleur en toont vier plaatjes om naar te wijzen of omheen te cirkelen."
+      },
+      {
+        "q": "Is het gratis, en moet ik me registreren?",
+        "a": "Ja, het is gratis, en er is geen account, registratie of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Helften zoeken",
+    "seoTitle": "Helften zoeken: een rustig plaatjesspel",
+    "h1": "Helften zoeken: voeg de twee helften van een plaatje samen",
+    "description": "De linkerhelften van twee of drie plaatjes aan de ene kant, hun rechterhelften aan de andere. Tik op een helft en dan op de helft die erbij past. Geen timer, geen score, en helften die niet passen worden gewoon weer losgemaakt. Gratis om te spelen en af te drukken.",
+    "short": "Tik op de twee helften die bij elkaar passen en samen één plaatje vormen.",
+    "players": "1 of 2 personen, of een volwassene en een kind",
+    "intro": "Elk plaatje is midden doorgesneden. De linkerhelften van twee of drie plaatjes staan in de ene kolom, en hun rechterhelften, in een andere volgorde, in de andere. Tik op een helft links en tik daarna op de helft rechts die erbij past, zoals de tuit van een ketel en zijn handvat. Helften die passen worden samengevoegd tot één geheel plaatje. Helften die niet passen worden weer losgemaakt, en het spel zegt dat rustig. \"Laat het zien\" voegt ze allemaal samen.",
+    "howTo": [
+      "Kies twee of drie plaatjes. Twee is het eenvoudigst.",
+      "Bekijk de linkerhelften samen. Wat denkt u dat elk deel is van?",
+      "Tik op een helft links en tik daarna op de helft rechts die erbij past. Het werkt ook andersom.",
+      "Helften die passen worden samengevoegd, met een dikke rand en een vinkje. Helften die niet passen worden weer losgemaakt, en u kunt iets anders proberen.",
+      "Tik op \"Laat het zien\" wanneer u wilt, en daarna op \"Andere set\" voor nieuwe plaatjes."
+    ],
+    "tips": [
+      "Volg de rand van een helft met een vinger. Waar loopt de tekening naar het midden?",
+      "Zeg wat u ziet: \"Die heeft een handvat.\" Het is niet nodig elk plaatje te benoemen.",
+      "Wijzen werkt net zo goed als tikken. Zit naast elkaar, zodat u allebei het scherm kunt zien."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, teller van zetten of verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te sluiten."
+      },
+      {
+        "q": "Wat gebeurt er als twee helften niet passen?",
+        "a": "Niets vervelends. Er is geen zoemer, geen rood kruis en geen schudden. De twee helften worden weer losgemaakt en het spel zegt: \"Die twee passen niet bij elkaar. Probeer een andere.\" Er wordt niets geteld."
+      },
+      {
+        "q": "Zijn de plaatjes makkelijk uit elkaar te houden?",
+        "a": "Ja. De plaatjes worden met de hand gekozen, en twee plaatjes op één bord komen nooit uit dezelfde groep, zoals twee soorten fruit of twee dieren. Plaatjes waarvan de twee helften op elkaar lijken, zoals de zon of een regenboog, vallen af."
+      },
+      {
+        "q": "Is er een papieren versie?",
+        "a": "Ja. Een pagina met een werkblad heeft de linkerhelften van drie plaatjes in de ene kolom en hun rechterhelften, in een andere volgorde, in de andere kolom. Trek een lijn van elke linkerhelft naar de helft die erbij past."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Kleuren op nummer",
+    "seoTitle": "Kleuren op nummer: een rustig spel met grote vlakken",
+    "h1": "Kleuren op nummer: vul de vakjes in, in de kleur die je wilt",
+    "description": "Een raster van grote genummerde vakjes en een legenda met vier kleuren en hun namen. Kies een kleur en tik daarna op de vakjes om ze in te kleuren. Elke kleur mag, er is geen timer of score, en een knop vult de rest in op basis van de nummers. Gratis om te spelen en af te drukken.",
+    "short": "Kies een kleur en tik daarna op de genummerde vakjes om ze in te kleuren.",
+    "players": "1 of 2 personen, naast elkaar",
+    "intro": "Een vierkant raster van grote vakjes, elk met een nummer, en daarboven een legenda met vier kleuren. Elke kleur heeft een nummer en een geschreven naam. Kies een kleur uit de legenda en tik daarna op de vakjes om ze in te kleuren. Het raster is eerst 4 bij 4, en 6 bij 6 en 8 bij 8 als je meer vakjes wilt. Wanneer elk vakje de kleur van zijn nummer heeft, is het raster het plaatje op het werkblad. Vakjes in een andere kleur vormen gewoon jouw eigen plaatje, en het spel zegt daar niets over. \"Vul met de nummers\" vult voor jou elk leeg vakje.",
+    "howTo": [
+      "Kies de rastergrootte. 4 bij 4 heeft de grootste vakjes en is het eenvoudigst.",
+      "Kijk naar de legenda boven het raster. Elke kleur heeft een nummer en een naam, zoals 1 Geel.",
+      "Tik op een kleur in de legenda en tik daarna op de vakjes die je ermee wilt inkleuren.",
+      "Gebruik de kleur van het nummer, of een kleur naar keuze. Beide zijn goed.",
+      "Tik op \"Vul met de nummers\" voor de lege vakjes, op \"Wissen\" om het raster opnieuw te beginnen, of op \"Ander plaatje\" voor een ander plaatje."
+    ],
+    "tips": [
+      "Zit naast elkaar en wissel elkaar af: de ene persoon kiest de kleur, de andere tikt het vakje aan.",
+      "Praat over de kleuren: \"Ik vind het groen mooi.\" Het is niet nodig te zeggen wat het plaatje moet worden.",
+      "Op een smal scherm schuift het raster van 8 bij 8 binnen zijn eigen kader opzij. De vakjes blijven een prettige grootte.",
+      "De papieren versie werkt net zo goed, met potloden aan een tafeltje naast het bed."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, tellen van zetten of verliezen. Je kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te ronden."
+      },
+      {
+        "q": "Wat als ik een andere kleur gebruik dan het nummer?",
+        "a": "Er gebeurt niets, en dat is de bedoeling. Elke kleur mag in elk vakje, en het spel zegt er niets over. Wanneer elk vakje de kleur van zijn nummer heeft, laat het spel dat zachtjes weten, en een plaatje in je eigen kleuren is net zo goed."
+      },
+      {
+        "q": "Kunnen mensen met kleurenblindheid de vier kleuren uit elkaar houden?",
+        "a": "Ze zijn zo gekozen. Elke kleur heeft ook een nummer, een geschreven naam en een eigen kleine vorm, zodat kleur nooit de enige manier is om ze te onderscheiden. De vier kleuren zijn gecontroleerd met simulaties van rood-groen- en blauw-geel-kleurenblindheid, en ze verschillen ook in lichtheid. Een persoon met kleurenblindheid heeft ze nog niet getest, dus laat het ons weten als twee er hetzelfde uitzien."
+      },
+      {
+        "q": "Zijn de vakjes groot genoeg bij trillende handen of een klein scherm?",
+        "a": "Elk vakje is minstens 48 pixels breed, en 56 bij het raster van 4 bij 4. Als een raster te breed is voor het scherm, schuift het binnen zijn eigen kader opzij, in plaats van dat de vakjes kleiner worden."
+      },
+      {
+        "q": "Is er een papieren versie?",
+        "a": "Ja. Een pagina met een werkblad heeft een genummerd raster en de legenda met vier kleuren en hun namen. Kleur elk vakje in met een potlood in de kleur van zijn nummer, of in een kleur naar keuze."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Patroonmaker",
+    "seoTitle": "Patroonmaker: ontwerp een tegel en druk het patroon af",
+    "h1": "Patroonmaker: ontwerp een tegel en zie hem zich herhalen",
+    "description": "Verander de vakjes van een kleine tegel en zie hoe die naast je tegel tot een patroon wordt herhaald, in vier kleuren die elk een naam en een vorm hebben. Geen timer en geen score. Gratis om te spelen en af te drukken.",
+    "short": "Verander de vakjes van een kleine tegel en zie hoe die zich tot een patroon herhaalt.",
+    "players": "1 of 2 personen, naast elkaar",
+    "intro": "Een kleine tegel van 3 bij 3 vakjes, of 4 bij 4 als je dat wilt, en ernaast \"jouw patroon\": dezelfde tegel, herhaald in een blok. Tik op een vakje en het verandert in de volgende van vier kleuren, elk met een eigen geschreven naam en vorm. Het patroon ernaast verandert meteen mee. Er is geen goed of fout patroon, en niets wordt bewaard of verstuurd. \"Mijn patroon afdrukken\" zet het herhaalde patroon op één pagina, om te bewaren, in te kleuren of weg te geven.",
+    "howTo": [
+      "Kijk naar de tegel en naar jouw patroon ernaast. Het is dezelfde tegel, herhaald.",
+      "Tik op een vakje. Het verandert in de volgende kleur uit de rij van vier kleuren hierboven.",
+      "Blijf vakjes aantikken tot het patroon eruitziet zoals je wilt. Elk patroon is goed.",
+      "Tik op \"Verras me\" voor een nieuwe tegel, of op \"Opnieuw beginnen\" voor een lege. \"Zet terug\" brengt de tegel terug die je had.",
+      "Tik op \"Mijn patroon afdrukken\" als je het op papier wilt, of tik op Rust om te stoppen."
+    ],
+    "tips": [
+      "Zit naast elkaar en wissel elkaar af: de ene persoon tikt op een vakje, de ander vertelt wat hij of zij opmerkt.",
+      "Praat over wat u ziet: \"Dat lijkt op een bloem.\" U hoeft niets een naam te geven.",
+      "Probeer dezelfde tegel eerst in slechts twee kleuren en daarna in alle vier.",
+      "Op papier kan het patroon ingekleurd worden met potloden, in stroken geknipt voor een kaartje, of gebruikt worden om een klein cadeautje in te pakken."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, zettellenteller en geen verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te ronden."
+      },
+      {
+        "q": "Wordt wat ik maak opgeslagen of verstuurd?",
+        "a": "Nee. Uw tegel blijft alleen op deze pagina staan. Hij wordt niet opgeslagen, geüpload of geteld, en is weg zodra u de pagina sluit. Wilt u een patroon bewaren, print het dan uit."
+      },
+      {
+        "q": "Wat als ik per ongeluk het verkeerde vakje aantik of de tegel wis?",
+        "a": "Er is geen verkeerd vakje: tik er opnieuw op om naar de volgende kleur te gaan. Na \"Opnieuw beginnen\" of \"Verras me\" brengt \"Terugzetten\" de tegel terug die u had."
+      },
+      {
+        "q": "Kunnen mensen met kleurenblindheid de vier kleuren uit elkaar houden?",
+        "a": "Ze zijn daarvoor gekozen. Elke kleur heeft ook een geschreven naam en een eigen klein vormpje in elk vakje, zodat kleur nooit de enige manier is om ze uit elkaar te houden. De vier kleuren zijn gecontroleerd met simulaties van rood-groene en blauw-gele kleurenblindheid. Een persoon met kleurenblindheid heeft ze nog niet geprobeerd, dus laat ons weten als er twee op elkaar lijken."
+      },
+      {
+        "q": "Zijn de vakjes groot genoeg bij trillende handen of een klein scherm?",
+        "a": "Elk vakje is minstens 56 pixels breed. Als de tegel te breed is voor het scherm, scrolt hij zijdelings binnen zijn eigen kader in plaats van dat de vakjes kleiner worden."
+      },
+      {
+        "q": "Is er een papieren versie?",
+        "a": "Ja. \"Mijn patroon printen\" print het patroon dat u maakte op één pagina, met de vier kleuren en hun namen. Het ziet er ook goed uit in zwart-wit, omdat elke kleur een eigen vorm heeft."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis, en er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Samen bouwen",
+    "seoTitle": "Samen bouwen: twee mensen bouwen één patroon",
+    "h1": "Samen bouwen: twee mensen, één raster",
+    "description": "Twee mensen wisselen elkaar af om een stuk in een gedeeld raster te zetten, totdat het vol is. Ieder heeft een eigen kleur met een naam en een vorm. Niemand wint, en er is geen timer of score. Gratis om te spelen en te printen.",
+    "short": "Wissel met iemand naast u af om samen één gedeeld raster te vullen.",
+    "players": "2 personen, naast elkaar",
+    "intro": "Een gedeeld raster van 4 bij 4 plaatsen, of 3 bij 3 als u dat liever heeft. Ieder kiest een kleur, en elke kleur heeft een eigen geschreven naam en vorm. U wisselt om de beurt af: tik op uw beurt een lege plaats aan om daar uw stuk neer te zetten. Als elke plaats een stuk heeft, is het beeld samen gebouwd. Er is geen winnaar, omdat u het als tweetal maakt, en er wordt niets opgeslagen of verstuurd. \"Raster printen\" zet een leeg raster op één pagina, zodat u met twee potloden kunt bouwen.",
+    "howTo": [
+      "Ieder kiest een kleur. Een kleur die de ander al heeft, staat aangegeven als \"In gebruik\".",
+      "De eerste persoon begint. Het scherm laat zien wie er aan de beurt is en welke kleur bij die persoon hoort.",
+      "Tik op een lege plaats om daar uw stuk neer te zetten. De beurt gaat dan naar de ander.",
+      "Als u liever geen stuk neerzet, tik dan op \"Overslaan\". Ieder van u mag op elk moment overslaan.",
+      "Als elke plaats een stuk heeft, hebt u het beeld samen gebouwd. Tik op \"Opnieuw beginnen\" om er nog een te bouwen, of tik op Rust om te stoppen."
+    ],
+    "tips": [
+      "Zit naast elkaar, zodat u beiden het scherm kunt zien en bereiken. Praat onderweg mee: \"Ik zet de mijne naast de jouwe.\"",
+      "Probeer een patroon te bouwen, strepen, een dambordpatroon of een rand, of plaats stukken gewoon waar u wilt. Beide zijn goed.",
+      "Een kind of iemand die snel moe wordt, kan zo vaak overslaan als hij of zij wil. Het beeld wordt nog steeds samen gebouwd.",
+      "Op papier gebruikt ieder één potlood en tekent hij of zij de eigen vorm in de lege vakjes."
+    ],
+    "faq": [
+      {
+        "q": "Is er een winnaar, een timer of een score?",
+        "a": "Nee. Er is geen winnaar, omdat u samen één beeld bouwt. Er is geen klok, score, telling van de stukken of verliezen. U kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te ronden."
+      },
+      {
+        "q": "Wordt wat we maken opgeslagen of verstuurd?",
+        "a": "Nee. Het raster blijft alleen op deze pagina staan. Het wordt niet opgeslagen, geüpload of geteld, en is weg zodra u de pagina sluit. Wilt u het bewaren, print het raster dan uit en bouw op papier verder."
+      },
+      {
+        "q": "Wat als ik een stuk op de verkeerde plek zet?",
+        "a": "Er is geen verkeerde plek. Tik op \"Het laatste stuk terugnemen\", en de beurt gaat terug naar u. U kunt één stap per keer terugnemen, en een overgeslagen beurt kan ook worden teruggenomen."
+      },
+      {
+        "q": "Kunnen mensen met kleurenblindheid de vier kleuren uit elkaar houden?",
+        "a": "Ze zijn daarvoor gekozen. Elke kleur heeft ook een geschreven naam en een eigen klein vormpje in elk stuk, zodat kleur nooit de enige manier is om ze uit elkaar te houden. De vier kleuren zijn gecontroleerd met simulaties van rood-groene en blauw-gele kleurenblindheid. Een persoon met kleurenblindheid heeft ze nog niet geprobeerd, dus laat ons weten als er twee op elkaar lijken."
+      },
+      {
+        "q": "Zijn de plaatsen groot genoeg bij trillende handen of een klein scherm?",
+        "a": "Elke plaats is minstens 56 pixels breed. Als het raster te breed is voor het scherm, scrolt het zijdelings binnen zijn eigen kader in plaats van dat de plaatsen kleiner worden."
+      },
+      {
+        "q": "Is er een papieren versie?",
+        "a": "Ja. \"Print the grid\" drukt een leeg raster op één pagina af, met de twee kleuren en hun namen, om met twee potloden in te kleuren. Het werkt ook in zwart-wit, omdat elke kleur een eigen vorm heeft."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, geen aanmelding en geen download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Zittend gooien, puntentelling",
+    "seoTitle": "Zittend gooien: een zitspel met zakjes voor twee",
+    "h1": "Zittend gooien: samen gooien aan tafel",
+    "description": "Twee mensen aan tafel wisselen elkaar af met het gooien van een zacht zakje naar een groot doel, en houden de score bij op papier. Er wordt niets op tijd gemeten of gescoord. Gratis om af te drukken.",
+    "short": "Om de beurt een zakje gooien naar een groot doel, met de score op papier.",
+    "players": "2 personen, aan tafel",
+    "intro": "Een rustig gooispel voor twee personen die aan tafel zitten. Je legt een afgedrukt doel op tafel en gooit om de beurt een zacht zakje, of een opgerolde sok, zodat het op de ringen landt. Ieder houdt de score bij door vakjes op papier af te vinken, en samen kijken jullie naar de afvinkingen als jullie stoppen. Niets wordt op tijd gemeten, er wordt niets op het scherm opgeteld, en niets wordt opgeslagen of verstuurd. Lees eerst de veiligheidsadviezen: kleine vulling is een verstikkingsgevaar.",
+    "howTo": [
+      "Lees de veiligheidsadviezen. Kies een zakje met een dichtgenaaide hoes, of rol een schone sok op.",
+      "Tik op \"Print the target and tally sheet\" en leg het blad plat op tafel tussen jullie in.",
+      "Zit prettig, een aan elke kant, en wissel elkaar af met één zachte worp per keer. Iedereen mag overslaan.",
+      "Als een worp in een ring terechtkomt, vink je een vakje in je kolom af, op de rij van die ring.",
+      "Kijk samen naar de afvinkingen als jullie stoppen, of tik op Rust om te pauzeren."
+    ],
+    "tips": [
+      "Zit dicht genoeg bij elkaar dat een zachte worp van onderhands het doel bereikt zonder dat je hoeft te rekken.",
+      "Praat over de worp, niet over de uitslag: \"Dat was een zachte.\" Iedereen juicht bij elke worp.",
+      "Een opgerolde sok is licht en makkelijk vast te houden met een zwakke grip. Laat tussen de beurten een arm op tafel rusten.",
+      "Als iemand liever toekijkt, kan die persoon de vakjes afvinken."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, zettellteller of verlies. Je kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te sluiten."
+      },
+      {
+        "q": "Is het veilig om met een zakje te gooien?",
+        "a": "Dat kan, met zorg. Gebruik een zakje met een dichtgenaaide hoes of een opgerolde sok, nooit losse korrels, rijst of kleine vulling. Dat is een verstikkingsgevaar voor jonge kinderen en voor iedereen die dingen in de mond stopt. Blijf zitten, gooi zacht richting de tafel en nooit naar een gezicht, en houd een volwassene in de buurt."
+      },
+      {
+        "q": "Wordt er iets op het scherm geteld of opgeslagen?",
+        "a": "Nee. De score staat alleen op papier, in vakjes die jullie zelf afvinken. De pagina houdt geen telling en geen timer bij, en er wordt niets opgeslagen of verstuurd."
+      },
+      {
+        "q": "Wat als iemand niet kan gooien, of het zakje naast het blad valt?",
+        "a": "Iedereen mag overslaan. Een zakje dat naast het blad valt, wordt gewoon opgeraapt voor de volgende beurt. Daarvoor wordt niets geteld."
+      },
+      {
+        "q": "Wat staat er op het afgedrukte blad?",
+        "a": "Één pagina: een groot doel met drie ringen, genaamd Near, Middle en Far, een tabel met een kolom voor ieder persoon en een rij kleine vakjes om per ring af te vinken, en een regel met veiligheidsadvies. De namen staan op de ringen geschreven, dus het werkt ook in zwart-wit."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, geen aanmelding en geen download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Verhaaldobbelstenen",
+    "seoTitle": "Verhaaldobbelstenen: een verhaalspel met plaatjes",
+    "h1": "Verhaaldobbelstenen: vertel een verhaal met plaatjes",
+    "description": "Drie of vier dobbelstenen met plaatjes waarmee je een verhaal vertelt, in elke volgorde. Niets om te lezen, geen goed antwoord, geen timer en geen score. Gooi opnieuw, of sla over. Gratis om te spelen en af te drukken.",
+    "short": "Gooi met plaatjesdobbelstenen en vertel samen een verhaal, in elke volgorde.",
+    "players": "2 of meer personen, of een volwassene en een kind",
+    "intro": "Er worden drie of vier plaatjes getoond, als dobbelstenen. Verzin samen een verhaal dat ze gebruikt, in elke volgorde. Een verhaal kan uit één zin bestaan of uit een paar, en het mag gek zijn of uit het echte leven komen. Er is geen goed verhaal, en niemand hoeft iets te benoemen of te onthouden. Tik op \"Roll again\" voor nieuwe plaatjes, en iedereen mag overslaan.",
+    "howTo": [
+      "Kies drie of vier dobbelstenen. Drie is het eenvoudigst.",
+      "Bekijk de plaatjes samen. Tik op een plaatje als je ermee wilt beginnen.",
+      "Vertel om de beurt een verhaal dat de plaatjes gebruikt, in elke volgorde. Eén zin per persoon is genoeg.",
+      "Iedereen mag overslaan. Tik op \"Pass\" en de volgende persoon kan beginnen.",
+      "Tik op \"Roll again\" voor nieuwe plaatjes wanneer je wilt, of tik op Rust om te stoppen."
+    ],
+    "tips": [
+      "Stel een vraag in plaats van te wachten op een antwoord: \"Waar zou de paraplu naartoe gaan?\"",
+      "Bouw voort op wat de vorige persoon zei in plaats van te verbeteren. Elk verhaal telt.",
+      "Een verhaal mag over een echte herinnering gaan. Een plaatje is een goed begin."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, score, zettellteller of verlies. Je kunt op elk moment stoppen, en halverwege stoppen is een prima manier om af te sluiten."
+      },
+      {
+        "q": "Moet ik de plaatjes lezen of benoemen?",
+        "a": "Nee. Het spel werkt met alleen de plaatjes. Spelers kunnen wijzen, beschrijven of gewoon zeggen waar het plaatje hen aan doet denken. Niemand wordt gevraagd iets te benoemen of te herinneren."
+      },
+      {
+        "q": "Wat als iemand niet om de beurt wil spelen?",
+        "a": "Ze mogen op elk moment passen, zonder uitleg. Het spel wacht gewoon af, en de volgende persoon kan beginnen, of u kunt opnieuw gooien."
+      },
+      {
+        "q": "Is er ook een papieren versie?",
+        "a": "Ja. Er is een afdrukbaar blad met 16 verschillende plaatjes in 4 rijen. Kies een rij, of knip de plaatjes uit en trek er een uit een stapel."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Samen sorteren",
-    "seoTitle": "Sorteerspel bij dementie: Samen sorteren",
+    "seoTitle": "Sorteerspel: samen sorteren voor volwassenen",
     "h1": "Samen sorteren: plaatjes in het juiste mandje",
-    "description": "Tik op een plaatje en dan op het mandje waar het in hoort: keuken of tuin, fruit of dieren. Een rustige, gratis sorteeractiviteit voor mensen met dementie.",
+    "description": "Tik op een plaatje en daarna op de mand waar het bij hoort: keuken of tuin, fruit of dieren. Een rustig, gratis sorteerspel voor volwassenen en gezinnen.",
     "short": "Leg elk plaatje in het goede mandje: keuken of tuin, en meer.",
     "players": "1 of 2 personen",
     "intro": "Sorteren is een vertrouwde, voldoening gevende klus, zoals boodschappen opruimen of sokken bij elkaar zoeken. Tik op een plaatje en dan op het mandje waar het in hoort. Er is geen haast en je kunt niets verkeerd doen.",
@@ -150,9 +561,9 @@
   },
   "picture-puzzle": {
     "name": "Plaatjespuzzel",
-    "seoTitle": "Makkelijke legpuzzel bij dementie: 4 of 9 stukjes",
+    "seoTitle": "Makkelijke online puzzel: 4 of 9 grote stukjes",
     "h1": "Plaatjespuzzel: een makkelijke legpuzzel",
-    "description": "Een makkelijke online legpuzzel voor mensen met dementie: 4 of 9 grote stukjes, het hele plaatje blijft zichtbaar en je tikt op twee stukjes om ze te wisselen.",
+    "description": "Een makkelijke online puzzel voor volwassenen: 4 of 9 grote stukjes, het hele plaatje blijft zichtbaar, en u tikt op twee stukjes om ze te wisselen. Gratis, zonder timer.",
     "short": "Tik op twee stukjes om ze te wisselen, tot het plaatje heel is.",
     "players": "1 of 2 personen",
     "intro": "Een vriendelijk plaatje is in vier of negen grote stukjes geknipt en door elkaar gehusseld. Het hele plaatje blijft zichtbaar als voorbeeld. Tik op een stukje en dan op een ander, en ze wisselen van plek. Slepen is niet nodig.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Spreekwoorden afmaken",
-    "seoTitle": "Spreekwoorden afmaken: spel voor ouderen",
+    "seoTitle": "Maak de zin af: spel met bekende spreekwoorden",
     "h1": "Spreekwoorden afmaken",
     "description": "Bekende Nederlandse spreekwoorden waarvan het laatste woord ontbreekt, zoals “Oost west, thuis ___”. Tik op een woord of laat het einde zien, en praat erover.",
     "short": "Maak samen bekende spreekwoorden af en praat erover.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Woordzoeker in grote letters",
-    "seoTitle": "Woordzoeker in grote letters bij dementie, printbaar",
+    "seoTitle": "Woordzoeker met grote letters, gratis en printbaar",
     "h1": "Woordzoeker in grote letters",
-    "description": "Een gratis woordzoeker in grote letters voor ouderen en mensen met dementie. Weinig woorden, alleen horizontaal en verticaal. Online spelen of printen.",
+    "description": "Een gratis woordzoeker met grote letters voor oudere volwassenen en gezinnen. Weinig woorden, grote letters, alleen horizontaal en verticaal. Speel online of print hem uit.",
     "short": "Grote letters, een paar woorden, alleen horizontaal en verticaal. Ook om te printen.",
     "players": "1 of 2 personen",
     "intro": "Een klein rooster met grote letters en maar een handvol woorden, allemaal horizontaal of verticaal. Tik op de eerste letter van een woord en dan op de laatste letter. Liever op papier? Print met één tik een nieuwe puzzel.",
@@ -254,7 +665,7 @@
   },
   "coloring": {
     "name": "Kleurplaten",
-    "seoTitle": "Kleurplaten voor volwassenen met dementie (gratis)",
+    "seoTitle": "Gratis kleurplaten voor volwassenen, groot en eenvoudig",
     "h1": "Kleurplaten",
     "description": "Eenvoudige kleurplaten voor volwassenen, met grote vlakken: tik op een kleur en dan op het plaatje. Geen geknoei, geen foute kleuren, gratis te printen.",
     "short": "Tik op een kleur en dan op een deel van het plaatje. Ook om te printen.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Gesprekskaarten",
-    "seoTitle": "Gespreksstarters bij dementie: kaarten met plaatjes",
+    "seoTitle": "Gespreksstarters: plaatjeskaarten voor gezinnen",
     "h1": "Gesprekskaarten",
-    "description": "Kaarten met plaatjes en vriendelijke gespreksstarters voor mensen met dementie: geen overhoren, geen goede antwoorden. Op het scherm of de hele set printen.",
+    "description": "Plaatjeskaarten met zachte gespreksstarters voor gezinnen, vrienden en oudere volwassenen, ook voor mensen met dementie. Geen overhoring, geen goede antwoorden.",
     "short": "Kaarten met plaatjes en open, vriendelijke vragen. Geen overhoren.",
     "players": "2 personen of een groep",
     "intro": "Elke kaart combineert een vertrouwd plaatje met een open uitnodiging om te praten, zoals “Van wat voor weer houd jij het meest?” Er zijn geen goede antwoorden en niets om te onthouden. Kies een thema of schud alle kaarten.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Plaatjesbingo",
-    "seoTitle": "Plaatjesbingo voor ouderen met dementie: printbaar",
+    "seoTitle": "Afdrukbare plaatjesbingo voor groepen",
     "h1": "Plaatjesbingo voor groepen",
-    "description": "Gratis plaatjesbingo om te printen voor groepen in de zorg en dagbesteding, met een grote omroeper op het scherm. Grote plaatjes met woorden, 9 of 16 vakjes.",
+    "description": "Gratis afdrukbare plaatjesbingo voor gezinnen, seniorengroepen en verzorgingshuizen. Grote plaatjes met woorden, 9 of 16 vakjes, en een grote oproeper op het scherm.",
     "short": "Bingokaarten met plaatjes om te printen en een omroeper op groot scherm.",
     "players": "Een groep van 2 tot 30",
     "intro": "Klassieke bingo met plaatjes in plaats van cijfers, zodat niemand kleine lettertjes hoeft te lezen. Print een set kaarten die allemaal anders zijn, en gebruik de omroeper op het scherm om elk plaatje groot te laten zien op een tv, laptop of tablet.",
@@ -394,7 +805,7 @@
   },
   "calm-breathing": {
     "name": "Rustig ademen",
-    "seoTitle": "Rustig ademen: een pauze voor ouderen en mantelzorgers",
+    "seoTitle": "Een rustige ademhalingspauze om samen te delen",
     "h1": "Even rustig ademen",
     "description": "Een langzame, stille ademhalingspauze om samen te doen: een zachte cirkel wordt groter en kleiner, zes ademhalingen lang. Jij start, en je kunt altijd stoppen.",
     "short": "Adem mee met een langzame cirkel. Start en stop wanneer je wilt.",
@@ -423,6 +834,45 @@
       {
         "q": "Is het gratis, en moet ik me aanmelden?",
         "a": "Ja, het is gratis, en er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Verhalenketen",
+    "seoTitle": "Verhalenketen: een gedeeld plaatjesverhaalspel",
+    "h1": "Verhalenketen: vertel een verhaal, plaatje voor plaatje",
+    "description": "Een rij plaatjes groeit stap voor stap, en elke persoon zegt hardop een zin over het plaatje. Niets om te typen, geen goed of fout antwoord. Gratis, rustig, zonder timer en zonder score.",
+    "short": "Voeg een plaatje toe en zeg daarna om de beurt een zin.",
+    "players": "2 of meer personen",
+    "intro": "Het spel begint met een plaatje, en de keten groeit telkens met een nieuw plaatje erbij. Elke persoon zegt hardop om de beurt een zin over de keten tot nu toe. Een zin kan gaan over wat u ziet, over een plek die bij u opkomt, of over iets geks. Er wordt niets getypt, opgenomen of bewaard, er is geen goed antwoord, en iedereen mag passen. De keten stopt bij 8 plaatjes, daarna kunt u een nieuwe keten beginnen.",
+    "howTo": [
+      "Bekijk samen het eerste plaatje.",
+      "Wissel om de beurt af: elke persoon zegt een zin over de keten tot nu toe. Iedereen mag passen.",
+      "Tik op „Voeg een plaatje toe” om het volgende plaatje aan het eind van de keten te zetten.",
+      "Tik op „Haal het laatste plaatje weg” als u liever een plaatje terug wilt gaan.",
+      "Als de keten 8 plaatjes heeft, tik dan op „Start een nieuwe keten” voor een frisse start, of stop gewoon."
+    ],
+    "tips": [
+      "Kort is prima: „Iemand zet de waterkoker aan.” De volgende persoon gaat verder, of past.",
+      "Laat de plaatjes de weg wijzen. Er is geen verhaal waar u naartoe moet.",
+      "Stop wanneer u wilt. Halverwege stoppen is ook een prima manier om af te sluiten."
+    ],
+    "faq": [
+      {
+        "q": "Is er een timer of een score?",
+        "a": "Nee. Er is geen klok, geen score, geen beurtenteller en geen verliezen. U kunt op elk moment stoppen, en halverwege stoppen is ook een prima manier om af te ronden."
+      },
+      {
+        "q": "Wordt er iets getypt of opgenomen?",
+        "a": "Nee. De zinnen worden hardop uitgesproken en niet getypt, opgenomen of ergens naartoe gestuurd. Het spel toont alleen de plaatjes."
+      },
+      {
+        "q": "Wat als iemand niets wil zeggen?",
+        "a": "Iedereen mag passen, en de volgende persoon gaat verder. Niemand hoeft een plaatje te benoemen of te onthouden."
+      },
+      {
+        "q": "Is het gratis, en moet ik me aanmelden?",
+        "a": "Ja, het is gratis. Er is geen account, aanmelding of download nodig. Het werkt in de webbrowser op een telefoon, tablet of computer."
       }
     ]
   }

@@ -13,10 +13,16 @@
     "machineTranslated": "Hierdie bladsy is outomaties vertaal en is nog nie deur 'n moedertaalspreker nagegaan nie.",
     "readOriginal": "Lees die oorspronklike in Engels",
     "nav": {
+      "find": "Find an activity",
       "games": "Speletjies",
       "activities": "Aktiwiteite",
       "caregiving": "Versorging",
-      "brainHealth": "Brein gesondheid"
+      "brainHealth": "Brein gesondheid",
+      "crafts": "Handwerk",
+      "kids": "Kinders",
+      "together": "Saam",
+      "creativeCalm": "Kreatiewe rus",
+      "search": "Soek"
     },
     "faqTitle": "Vrae en antwoorde",
     "breadcrumb": "Broodkrummel",
@@ -28,6 +34,21 @@
       "smaller": "Standaard teks",
       "larger": "Groter teks",
       "contrast": "Hoër kontras"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +62,7 @@
     "ideas101": "101 aktiwiteit idees",
     "lateStage": "Laat-stadium aktiwiteite",
     "printable": "Drukbare aktiwiteite",
-    "allActivities": "Alle aktiwiteite",
+    "allActivities": "Alle aktiwiteitsgidse",
     "forCaregivers": "Vir versorgers",
     "playTogether": "Hoe om saam te speel",
     "selfCare": "Omgee vir jouself",
@@ -54,24 +75,34 @@
     "app": "Die Creative Activities-toepassing",
     "appHelp": "App hulp",
     "support": "Ondersteuning",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Wettig",
     "sitePrivacy": "Webwerf privaatheid",
     "appPrivacy": "Program-privaatheidsbeleid",
     "privacyChoices": "Privaatheid keuses",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Bepalings en toepassingslisensie",
     "safety": "Veiligheid en beoogde gebruik",
     "accessibility": "Toeganklikheid",
     "healthNotice": "Kennisgewing oor gesondheidsinligting",
     "allLegal": "Alle wetlike inligting",
     "note": "Creative Activities bied eenvoudige gedeelde aktiwiteite vir genot. Dit is nie mediese advies, 'n toets of 'n behandeling nie, en dit diagnoseer, meet of telling niemand nie. Praat met 'n dokter vir gesondheidsvrae. In 'n noodgeval, skakel 911.",
-    "publisher": "Gepubliseer deur Cloudjet Solutions Pte. Bpk."
+    "publisher": "Gepubliseer deur Cloudjet Solutions Pte. Bpk.",
+    "crafts": "Handwerk vir alle ouderdomme",
+    "kids": "Aktiwiteite vir kinders",
+    "together": "Aktiwiteite om saam te doen",
+    "creativeCalm": "Kreatiewe rus",
+    "dementiaActivities": "Aktiwiteite vir mense met demensie"
   },
   "home": {
-    "title": "Demensie en Alzheimer se speletjies en aktiwiteite | Goue Oomblikke",
-    "description": "Gratis, sagte prentjiespeletjies om aanlyn te speel en aktiwiteitsidees vir mense wat met demensie of Alzheimers en hul versorgers leef.",
+    "title": "Kreatiewe aktiwiteite vir almal wat na iemand omsien",
+    "description": "Gratis kreatiewe aktiwiteite vir almal wat na iemand omsien: handwerk, dinge vir kinders, aktiwiteite om saam te doen en rustige kreatiewe idees.",
     "eyebrow": "Gratis · Geen advertensies · Geen aanmelding · Geen tydtellers of tellings nie",
-    "h1": "Sagte speletjies en aktiwiteite vir mense met demensie",
-    "lede": "Eenvoudige prentspeletjies, bekende foto's en aktiwiteite om saam te geniet—teen jou eie pas.",
+    "h1": "Maak iets saam",
+    "lede": "Vind 'n aktiwiteit wat pas by die persoon, die oomblik en wat jy het. Maklike handwerk, kinderkuns, dinge om saam te doen en rustige kreatiewe idees, met makliker weergawes en 'n kaartjie om te druk. Hou op wanneer jy wil.",
     "playGame": "Speel 'n speletjie",
     "findIdeas": "Soek aktiwiteitsidees",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 aktiwiteit idees",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Vroeë stadium",
         "text": "Hou aan om te doen waarvoor hulle lief is, met klein aanpassings: stokperdjies, uitstappies, woordspeletjies en beplanning saam.",
         "label": "Vroeë stadium idees"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Middelstadium",
         "text": "Eenvoudige, bekende take opgedeel in stappe: vou, sorteer, musiek, prentspeletjies en kort staptogte.",
         "label": "Middelstadium idees"
@@ -124,10 +155,10 @@
         "label": "Later-stadium idees"
       }
     ],
-    "specificHtml": "Op soek na iets spesifiek? Probeer <a href=\"/activities/alzheimers/\">aktiwiteite en speletjies vir Alzheimers</a>, <a href=\"/activities/memory-games/\">sagte geheuespeletjies</a>, <a href=\"/activities/trivia/\">maklike trivia</a> of <a href=\"/activities/puzzles/\">raaisels</a>.",
+    "specificHtml": "Soek iets spesifiek? Probeer <a href=\"/dementia-activities/\">aktiwiteite en speletjies vir Alzheimer se siekte</a>, <a href=\"/together/puzzles-and-table-games/\">legkaarte en tafelspeletjies</a>, <a href=\"/together/conversation-games-for-all-ages/\">gespreksspeletjies</a> of <a href=\"/together/puzzles-and-table-games/\">legkaarte</a>.",
     "approachEyebrow": "Ons benadering",
-    "approachTitle": "'n Gedeelde aktiwiteit, nie 'n geheuetoets nie",
-    "approachLede": "Baie \"breinspeletjies\" is gebou rondom spoed, tellings en strepe. Vir iemand wat met demensie leef wat soos 'n eksamen kan voel. Ons het die teenoorgestelde gebou.",
+    "approachTitle": "'n Gedeelde aktiwiteit, nie 'n toets nie",
+    "approachLede": "Baie “breingespeletjies” is gebou rondom spoed, tellings en reekse. Vir iemand wat moeg of siek is, of met demensie leef, kan dit soos 'n eksamen voel. Ons het die teenoorgestelde gebou.",
     "approachLink": "Hoekom ontwerp ons dit so",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Algemene redes vir weiering, en sagte maniere om later weer te probeer."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Stel 'n tablet op",
-        "text": "Groter teks, minder onderbrekings en 'n enkele eenvoudige tuisskerm."
+        "href": "/activities/group-art-activities/",
+        "title": "Groepkunsaktiwiteite",
+        "text": "Gedeelde projekte vir 'n tafel met verskeie mense, met 'n taak vir elke persoon."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Gratis drukbare aktiwiteite",
-        "text": "Grootdruk woordsoektogte, inkleurbladsye, bingo en gesprekskaartjies."
+        "href": "/activities/ideas/",
+        "title": "101 aktiwiteitsidees",
+        "text": "Eenvoudige idees, gesorteer volgens wat jy het en hoeveel energie daar is."
       }
     ],
     "researchTitle": "Breingesondheid: wat die navorsing regtig sê",
@@ -185,16 +216,16 @@
     "aboutApp": "Oor die toepassing",
     "faq": [
       {
-        "q": "Wat is goeie speletjies vir mense met demensie?",
-        "a": "Goeie speletjies is eenvoudig, bekend en vry van druk: groot prente om by te pas, sorteer, maklike legkaarte, afwerking van bekende gesegdes, inkleur, prentbingo en gesprekskaartjies. Die beste keuse is die een wat die persoon vandag geniet. Vermy timers, tellings en enigiets wat soos 'n toets voel."
+        "q": "Wat is goeie speletjies vir ouer volwassenes?",
+        "a": "Goeie speletjies is eenvoudig, vertroud en sonder druk: groot prente om te pas, sorteer, maklike legkaarte, bekende spreuke voltooi, kleur, prentjie-bingo en gespreks kaartjies. Hulle pas by baie ouer volwassenes, insluitend mense wat met demensie leef. Die beste keuse is die een wat die persoon vandag geniet. Vermy tydmeters, tellings en enigiets wat soos 'n toets voel."
       },
       {
-        "q": "Is hierdie demensiespeletjies gratis?",
+        "q": "Is hierdie speletjies gratis?",
         "a": "Ja. Elke speletjie en drukbaar op Creative Activities is gratis, sonder rekening, registrasie of aflaai. Die speletjies loop in die webblaaier op 'n foon, tablet of rekenaar."
       },
       {
         "q": "Voorkom breinspeletjies demensie?",
-        "a": "Geen speletjie is getoon om demensie te voorkom nie, en Creative Activities beweer nie dat dit enigiets behandel of voorkom nie. Ons speletjies is vir genot en tyd saam. Ons breingesondheidsafdeling verduidelik wat navorsing doen en nie wys nie."
+        "a": "Geen speletjie is al getoon om demensie te voorkom nie, en Kreatiewe Aktiwiteite beweer nie dat ons enigiets behandel of voorkom nie. Ons speletjies is vir plesier en tyd saam, en geen aktiwiteitsbladsy maak 'n gesondheidseis nie."
       },
       {
         "q": "Is hierdie speletjies geskik vir iemand met Alzheimers?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "Wie maak Goue Oomblikke?",
-        "a": "Creative Activities is 'n klein span wat rustige, volwasse prentjie-aktiwiteite vir gesinne en versorgers, op die web en as 'n gratis toepassing maak. Ons is nie klinici nie, en niks hier is mediese advies nie."
+        "a": "Kreatiewe Aktiwiteite is 'n klein span wat rustige, volwasse kreatiewe aktiwiteite maak vir almal wat na iemand omsien, op die web en as 'n gratis app. Ons is nie klinici nie, en niks hier is mediese advies nie."
+      }
+    ],
+    "groupsEyebrow": "Vind jou pad",
+    "groupsTitle": "Vier soorte kreatiewe aktiwiteit",
+    "groupsLede": "Begin by die groep wat pas by wie jy saam is en wat jy het. Elke bladsy het makliker weergawes en veiligheidsnotas.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Handwerk",
+        "text": "Papier-, verf-, herwinde en seisoenale projekte, met 'n makliker weergawe vir elkeen.",
+        "label": "Blaai deur handwerk"
+      },
+      {
+        "href": "/kids/",
+        "title": "Kinders",
+        "text": "Kuns en spel vir kinders, met 'n volwassene naby en duidelike veiligheidsnotas.",
+        "label": "Blaai deur kinderaktiwiteite"
+      },
+      {
+        "href": "/together/",
+        "title": "Saam",
+        "text": "Gesprek, legkaarte, buitetyd en maniere om oor generasies na mekaar te bly.",
+        "label": "Blaai deur dinge om saam te doen"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreatiewe rus",
+        "text": "Stadige, stil kreatiewe oomblikke met 'n potlood, 'n bladsy of 'n liedjie. Nie terapie nie.",
+        "label": "Blaai deur kreatiewe rus"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktiwiteite",
-      "title": "Aktiwiteite vir mense met demensie",
-      "seo": "Aktiwiteite vir mense met demensie: idees volgens stadium",
-      "description": "Aktiwiteitsidees vir mense wat met demensie in elke stadium leef: musiek, herinneringe, alledaagse take, sensoriese oomblikke, kunsvlyt, buitelewe en gratis drukstukke.",
-      "lede": "Betekenisvolle aktiwiteit is enigiets wat troos, doel of 'n oomblik van verbinding bring. Begin met wat die persoon nog altyd geniet het, en pas dit aan by vandag."
+      "label": "Aktiwiteitsgidse",
+      "title": "Aktiwiteitsgidse",
+      "seo": "Aktiwiteitsgidse: idees, kunsbenodigdhede en maniere om te begin",
+      "description": "Eenvoudige gidse oor kreatiewe aktiwiteite wat jy met iemand kan doen: eenvoudige idees, kunsbenodigdhede op 'n begroting, groepkuns, briewe, herinneringe en kunsterapie verduidelik.",
+      "lede": "Kort, praktiese gidse om 'n aktiwiteit saam met iemand te kies en te begin, ongeag hulle ouderdom of vermoë."
+    },
+    "crafts": {
+      "label": "Handwerk",
+      "title": "Handwerk vir alle ouderdomme",
+      "seo": "Maklike handwerk vir alle ouderdomme, met makliker weergawes",
+      "description": "Maklike handwerk vir volwassenes, kinders en gesinne: papier, kleur, herwinde en seisoenale handwerk, met makliker-om-vas en sittende weergawes en geen spesiale vaardigheid nie.",
+      "lede": "Handwerk wat begin met wat die meeste huise alreeds het, elk met 'n makliker weergawe, sodat enigiemand iets kan maak."
+    },
+    "kids": {
+      "label": "Kinders",
+      "title": "Kreatiewe aktiwiteite vir kinders",
+      "seo": "Kreatiewe aktiwiteite vir kinders: kuns, sensories en rustig",
+      "description": "Kreatiewe aktiwiteite vir kinders: kleuterkuns, proseskuns, sensoriese spel, reëndag-handwerk en idees om te bedaar, met veiligheidsnotas en weergawes vir sensoriese behoeftes.",
+      "lede": "Kuns- en speelidees vir kinders van verskillende ouderdomme en behoeftes, met duidelike veiligheidsnotas en 'n volwassene naby."
+    },
+    "together": {
+      "label": "Saam",
+      "title": "Aktiwiteite om saam te doen",
+      "seo": "Aktiwiteite om saam te doen, oor generasies heen",
+      "description": "Aktiwiteite vir twee of meer generasies: gespreksspeletjies, legkaarte, buitetyd, handwerk vir grootouers en kleinkinders, en maniere om van ver af na mekaar te bly.",
+      "lede": "Idees om tyd te deel met 'n ouer, grootouer, kind of vriend, by die huis, buite, op 'n besoek of van ver af."
+    },
+    "creative-calm": {
+      "label": "Kreatiewe rus",
+      "title": "Kreatiewe rus",
+      "seo": "Kreatiewe rus: ontspannende kuns en aktiwiteite om te ontspan",
+      "description": "Ontspannende kreatiewe aktiwiteite vir volwassenes en versorgers: bewuste kuns, joernaalskryf, musiek, sensoriese oomblikke en rustige middae. Kreatiewe aktiwiteit, nie terapie nie.",
+      "lede": "Sagte maniere om stadiger te word met 'n potlood, 'n bladsy of 'n liedjie. Dit is kreatiewe aktiwiteite, nie terapie nie, en hulle vereis geen vaardigheid nie."
     },
     "caregiving": {
-      "label": "Versorging",
-      "title": "Versorgingsgidse",
-      "seo": "Demensie-versorgingsgidse: Praktiese alledaagse hulp",
-      "description": "Praktiese, vriendelike gidse vir demensieversorgers: saam speletjies speel, kommunikasie, weiering, laat-dag rusteloosheid, tablette, die keuse van toepassings en.",
-      "lede": "Eenvoudige, praktiese hulp vir die alledaagse oomblikke van die versorging van iemand wat met demensie leef, insluitend die versorging van jouself."
+      "label": "Versorging vir demensie",
+      "title": "Om na iemand met demensie om te sien",
+      "seo": "Om na iemand met demensie om te sien: aktiwiteite en hulp",
+      "description": "Gidse vir gesinne wat na iemand met demensie omsien: hoe om saam te speel, wat om te doen as hulle nee sê, en waar om betroubare hulp te vind ná 'n diagnose.",
+      "lede": "Aktiwiteit-eerste hulp vir gesinne wat na iemand met demensie omsien, en waarheen om te gaan vir mediese en versorgingsadvies."
     },
     "brain-health": {
       "label": "Brein gesondheid",
@@ -283,7 +371,16 @@
     "tryTogether": "Probeer saam",
     "relatedGuides": "Verwante gidse",
     "related": "Verwant",
-    "startHere": "Begin hier"
+    "startHere": "Begin hier",
+    "staleAria": "Vertaling is verouderd",
+    "staleTitle": "Hierdie vertaling is verouderd",
+    "staleText": "Het is gemaak uit 'n vroeëre weergawe van die Engelse bladsy, wat sedertdien verander het. Die Engelse bladsy is die huidige een.",
+    "staleHealth": "Dit bevat gesondheidsinligting, so kontroleer die Engelse bladsy en vra 'n dokter of verpleegkundige voordat jy daarop optree.",
+    "staleLink": "Lees die huidige Engelse bladsy"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Kennisgewing oor gesondheidsinligting",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "'n Gedeelde aktiwiteit, nie 'n geheuetoets nie",
+      "title": "'n Gedeelde Aktiwiteit, Nie 'n Toets Nie",
       "seoTitle": "Oor Goue Oomblikke: Ons Benadering",
-      "description": "Hoekom Creative Activities-speletjies geen tydtellers, tellings of strepe het nie, hoekom prente bly wys, en wat ons oor demensie sal en nie sal beweer nie.",
+      "description": "Waarom Creative Activities geen timers, tellings of reekse het nie, waarom foto's sigbaar bly, en wat ons wel en nie sal beweer oor gesondheid nie.",
       "crumb": "Ons benadering",
-      "lede": "Goue Oomblikke maak rustige, volwasse prentjie-aktiwiteite wat 'n versorger en iemand wat met demensie leef langs mekaar kan geniet.",
-      "bodyHtml": "<h2>Wat ons glo</h2><p>Die punt van 'n aktiwiteit is die oomblik self: 'n gesprek, 'n glimlag, die bevrediging om twee prente bymekaar te sit, of om eenvoudig naby te sit. Dit is nie om iemand te meet, verder te druk of enigiets te bewys nie.</p><p>Baie breinopleidingsprogramme is ontwerp rondom spoed, tellings, strepe en vlakke. Vir 'n persoon wat met demensie leef wat soos 'n eksamen kan voel wat hulle nie kan slaag nie. Ons het die teenoorgestelde ontwerp, en ons hou ons by hierdie reëls:</p><ul><li><strong>Niks om te misluk nie.</strong> Geen horlosie, telling, skuifteller, lewens, strepe, konfetti of aftellings op enige skerm nie.</li><li><strong>Erkenning oor herroeping.</strong> Prente bly by verstek wys. Vrae nooi gesprek uit en stel nooit name of herinneringe vas nie.</li><li><strong>Groot, eenvoudig en bestendig.</strong> Groot teks en prente, hoë kontras en kontroles wat op dieselfde plek bly.</li><li><strong>Volwasse waardigheid.</strong> Werklike prente en eenvoudige, warm woorde. Geen spotprente, sing-lied-lofprysing of emoji-belonings nie.</li><li><strong>'n Maklike uitweg.</strong> \"Vir nou klaar\" is altyd sigbaar. Om halfpad te stop is 'n goeie uitkoms.</li><li><strong>Privaat by verstek.</strong> Geen rekeninge of advertensies nie. Foto's wat jy kies, bly op jou toestel.</li></ul><h2>Wat ons nie aanspraak maak nie</h2><p>Ons speletjies is vir genot en konneksie. Hulle diagnoseer nie, toets, meet, behandel, vertraag of voorkom demensie of Alzheimer se siekte nie, en niemand moet hulle om daardie rede kies nie. Wanneer ons skryf oor navorsing oor ons <a href=\"/brain-health/\">brein gesondheid bladsye</a>, sê ons duidelik waar die bewyse swak is, en ons koppel dit nooit aan ons eie speletjies nie.</p><h2>Wie ons is</h2><p>Creative Activities is 'n klein onafhanklike span. Ons is nie klinici nie. Ons gidse is geskryf uit gepubliseerde leiding deur organisasies soos die National Institute on Aging en die Alzheimer's Association, en elke gids lys sy bronne. Lees <a href=\"/editorial-policy/\">hoe ons ons bladsye skryf en nagaan</a>.</p><h2>Vertel ons wat sal help</h2><p>Ons sal graag wil hoor wat vir jou werk en wat nie, veral van mense wat met demensie leef, gesinsversorgers en aktiwiteitspersoneel. E-pos <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities maak rustige, volwasse aktiwiteite wat twee mense saam kan geniet, of een iemand na die ander omsien of hulle eenvoudig tyd saam wil deurbring.",
+      "bodyHtml": "<h2>Vir wie dit bedoel is</h2><p>Enigiemand wat na iemand omsien: 'n ouer, 'n grootouer, 'n kind, 'n lewensmaat, 'n vriend, of 'n persoon wat met demensie leef. Gesinne, ouer volwassenes en aktiwiteitspersoneel kan almal dieselfde bladsye gebruik.</p><h2>Wat ons glo</h2><p>Die doel van 'n aktiwiteit is die oomblik self: 'n gesprek, 'n glimlag, die voldoening om twee foto's saam te pas, of eenvoudig om naby mekaar te sit. Dit is nie om iemand te meet, verder te druk of iets te bewys nie.</p><p>Baie breinopleidingsprogramme is ontwerp rondom spoed, tellings, reekse en vlakke. Vir iemand wat moeg of siek is, of met demensie leef, kan dit voel soos 'n eksamen wat hulle nie kan slaag nie. Ons het die teenoorgestelde ontwerp, en ons hou onsself aan hierdie reëls:</p><ul><li><strong>Niks om te misluk nie.</strong> Geen klok, telling, skuifteller, lewens, reekse, konfetti of aftellers nie, op enige skerm.</li><li><strong>Herkenning eerder as herroeping.</strong> Foto's bly standaard sigbaar. Aansporings nooi uit tot gesprek en toets nooit name of herinneringe nie.</li><li><strong>Groot, eenvoudig en stabiel.</strong> Groot teks en foto's, hoë kontras, en kontroles wat op dieselfde plek bly.</li><li><strong>Volwasse waardigheid.</strong> Foto's uit die werklike lewe en eenvoudige, warm woorde. Geen tekenfilmfigure, singerige lof of emoji-belonings nie.</li><li><strong>'n Maklike uitweg.</strong> “Klaar vir nou” is altyd sigbaar. Halfpad ophou is 'n goeie uitkoms.</li><li><strong>Privaat by verstek.</strong> Geen rekeninge of advertensies nie. Foto's wat jy kies, bly op jou toestel.</li></ul><h2>Wat ons nie beweer nie</h2><p>Ons speletjies en aktiwiteite is vir plesier en verbinding. Hulle diagnoseer, toets, meet, behandel, vertraag of voorkom nie demensie of Alzheimer se siekte nie, en niemand moet hulle om daardie rede kies nie. Wanneer ons oor gesondheidsnavorsing skryf, sê ons duidelik waar die bewyse swak is, en ons koppel dit nooit aan ons eie aktiwiteite nie.</p><h2>Wie ons is</h2><p>Creative Activities is 'n klein onafhanklike span. Ons is nie klinici nie. Ons gidse is geskryf uit gepubliseerde riglyne van organisasies soos die National Institute on Aging en die Alzheimer's Association, en elke gids lys sy bronne. Lees <a href=\"/editorial-policy/\">hoe ons ons bladsye skryf en nagaan</a>.</p><h2>Vertel ons wat sou help</h2><p>Ons sal graag hoor wat vir jou werk en wat nie, veral van mense wat met demensie leef, familiesorgers en aktiwiteitspersoneel. E-pos <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Hoe ons ons bladsye skryf en nagaan",
       "seoTitle": "Redaksionele beleid",
-      "description": "Hoe Creative Activities sy demensieaktiwiteit en breingesondheidbladsye navors, skryf, bronne en bywerk, en wat ons nooit sal publiseer nie.",
+      "description": "Hoe Creative Activities sy aktiwiteit- en gesondheidsbladsye navors, skryf, bronne verskaf en opdateer, en wat ons nooit sal publiseer nie.",
       "crumb": "Redaksionele beleid",
       "bodyHtml": "<h2>Ons bronne</h2><p>Ons baseer ons gidse op openbare leiding van organisasies soos die National Institute on Aging, die CDC, die Alzheimer's Association, die Alzheimer's Foundation of America, die Family Caregiver Alliance en die NHS, en op eweknie-geëvalueerde navorsing soos Cochrane-resensies en groot kliniese proewe. Elke gids lys die bronne waarop dit staatmaak. Ons maak elke bron oop voordat ons dit aanhaal, en ons rapporteer net wat dit werklik sê.</p><h2>Hoe ons skryf</h2><ul><li>Prakties eerstens: wat om vandag te doen, in gewone taal.</li><li>Eerlik oor bewyse: ons sê \"verbonde met\", \"mag\" en \"die bewyse is gemeng\" wanneer dit die waarheid is.</li><li>Respekvol: ons skryf oor mense wat as volwassenes met demensie leef, en ons gebruik nooit vasvra- of skandetaal nie.</li><li>Geen uitgevind inhoud: geen opgemaakte statistieke, aanhalings, kundiges, studies, resensies of getuigskrifte.</li></ul><h2>Wie hersien ons bladsye</h2><p>Bladsye word geskryf en gekontroleer deur die Creative Activities-span, met hulp van KI-skryfinstrumente vir navorsing en opstel. Elke bladsy word deur die span teen sy bronne nagegaan. Ons bladsye het <strong>nie</strong> is deur 'n dokter of ander klinikus hersien, en ons beweer nie anders nie. Dit is algemene inligting, nie mediese advies nie.</p><h2>Wat ons nooit sal publiseer nie</h2><ul><li>Bewerings dat 'n speletjie, kos, aanvulling, vas of roetine demensie voorkom, behandel, vertraag of genees.</li><li>Toetse, vasvrae of tellings wat daarop dui dat iemand demensie het of nie het nie.</li><li>Raad om enige medisyne te begin, te stop of te verander.</li><li>Advertensies of geborgde inhoud vermom as leiding.</li></ul><h2>Opdaterings en regstellings</h2><p>Elke bladsy wys die datum waarop dit laas opgedateer is. As jy 'n fout of 'n verouderde bron vind, stuur 'n e-pos <a href=\"mailto:{email}\">{email}</a> en ons sal dit dadelik nagaan.</p>"
     },
     "faq": {
       "title": "Vrae en Antwoorde",
-      "seoTitle": "Demensiespeletjies en -aktiwiteite: Vrae en antwoorde",
-      "description": "Antwoorde op algemene vrae oor demensiespeletjies en -aktiwiteite: watter speletjies om te probeer, hoe lank om te speel, latere stadium idees, breingesondheid en.",
+      "seoTitle": "Vrae en Antwoorde oor Creative Activities",
+      "description": "Antwoorde op algemene vrae oor die speletjies en aktiwiteite: watter om te probeer, hoe lank om te speel, groepe en idees vir latere stadiums, gesondheid en privaatheid.",
       "crumb": "Vrae en antwoorde",
       "lede": "Kort, duidelike antwoorde op die vrae wat versorgers die meeste vra.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Oor die speletjies",
           "items": [
             {
-              "q": "Wat is die beste speletjies vir iemand met demensie?",
+              "q": "Watter speletjies is die beste vir ouer volwassenes?",
               "a": "Die beste speletjies is bekend, eenvoudig en vry van druk, en die regte een is wat die persoon ook al vandag geniet. Prentjiepassing met sigbare prente, sortering, maklike figuursae, afwerking van bekende gesegdes, inkleur en prentbingo werk alles goed vir baie mense. Vermy timers, tellings en enigiets wat soos 'n toets voel."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Brein gesondheid",
+          "title": "Demensie en gesondheid",
           "items": [
             {
               "q": "Kan speletjies demensie voorkom of vertraag?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Meer besonderhede: <a href=\"/caregiving/how-to-play-together/\">hoe om saam te speel</a>, <a href=\"/caregiving/when-they-say-no/\">wanneer hulle nee sê</a>, <a href=\"/activities/late-stage/\">later stadium aktiwiteite</a> en <a href=\"/brain-health/can-dementia-be-prevented/\">kan demensie voorkom word?</a>"
+      "moreHtml": "Meer besonderhede: <a href=\"/caregiving/how-to-play-together/\">hoe om saam te speel</a>, <a href=\"/caregiving/when-they-say-no/\">wanneer hulle nee sê</a>, <a href=\"/activities/late-stage/\">aktiwiteite vir latere stadiums</a> en <a href=\"/dementia-activities/\">demensie-aktiwiteite by die huis</a>."
     },
     "handout": {
       "title": "Gratis, sagte speletjies vir mense wat met demensie leef",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "Vir versorgingshuise, biblioteke en ondersteuningsgroepe",
-      "seoTitle": "Gratis demensie-aktiwiteite vir versorgingshuise en -groepe",
-      "description": "Hoe versorgingshuise, dagprogramme vir volwassenes, biblioteke, verouderingsagentskappe en ondersteuningsgroepe ons gratis demensiespeletjies gebruik, plus teks om.",
+      "seoTitle": "Gratis Aktiwiteite vir Versorgingshuise, Biblioteke en Groepe",
+      "description": "Hoe versorgingshuise, dagprogramme vir volwassenes, biblioteke, ouderdomsagentskappe en steungroepe ons gratis speletjies en aktiwiteitsgidse gebruik, plus teks om ons by 'n hulpbronlys te voeg.",
       "crumb": "Vir organisasies",
       "lede": "Alles op hierdie webwerf is gratis om met inwoners, lede en kliënte te gebruik, sonder enige rekening, lisensie of fooi. Hierdie bladsy verduidelik wat hier is en hoe om dit te deel.",
-      "shortText": "{name}: gratis, sagte prentspeletjies en aktiwiteitsgidse vir mense wat met demensie leef en hul versorgers. Geen aanmelding, geen tydtellers, geen tellings nie.",
-      "longText": "{name} ({domain}) bied {count} gratis blaaierspeletjies gemaak vir mense wat met demensie leef, insluitend bypassende pare met prente wat links wys, 'n maklike legkaart, sortering, bekende gesegdes en prentbingo met drukbare kaarte. Daar is geen rekening, advertensies, tydhouer of telling nie. Die webwerf het ook eenvoudige taalaktiwiteitsgidse vir elke stadium van demensie wat die Nasionale Instituut vir Veroudering en die Alzheimer-vereniging aanhaal.",
+      "shortText": "{name}: gratis, sagte prentspeletjies en aktiwiteitsgidse vir ouer volwassenes, gesinne en mense wat met demensie leef. Geen registrasie nie, geen timers nie, geen tellings nie.",
+      "longText": "{name} ({domain}) bied {count} gratis blatertjie-speletjies aan vir ouer volwassenes, gesinne en mense wat met demensie leef, insluitend pasmaak-pare met foto's wat sigbaar bly, 'n maklike legkaart, sortering, bekende spreuke en prentbingo met drukbare kaarte. Daar is geen rekening, advertensies, timer of telling nie. Die webwerf het ook eenvoudige taal-aktiwiteitsgidse vir gesinne, ouer volwassenes en personeel, met bronne soos die National Institute on Aging en die Alzheimer's Association.",
       "useTitle": "Wat organisasies kan gebruik",
       "gamesItemHtml": "<strong>{count} blaaierspeletjies</strong> wat werk op 'n skootrekenaar, tablet of 'n TV wat aan 'n rekenaar gekoppel is. Geen installasie, rekening of aflaai nie. Sien <a href=\"/games/\">alle speletjies</a>.",
       "printablesLabel": "{count} drukbare items:",
       "printablesAfter": "Gebruik die Druk-knoppie op elke bladsy.",
-      "moreItemsHtml": "<li><strong>Groepformate:</strong> <a href=\"/games/picture-bingo/\">Foto bingo</a> het drukbare kaarte en 'n oproeper op die skerm, en <a href=\"/activities/trivia/\">maklike trivia</a> het 50 vrae met antwoordkeuses en praatpunte.</li><li><strong>Aktiwiteitsgidse</strong> vir personeel en gesinne, volgens stadium en volgens tipe, in gewone taal met bronne geskryf. Begin met <a href=\"/activities/ideas/\">101 aktiwiteit idees</a> of <a href=\"/activities/care-home-groups/\">groepaktiwiteite vir versorgingshuise</a>.</li>",
+      "moreItemsHtml": "<li><strong>Groepsformate:</strong> <a href=\"/games/picture-bingo/\">Prenthuis-bingo</a> het drukbare kaarte en 'n uitroeper op die skerm, en <a href=\"/together/conversation-games-for-all-ages/\">gespreksspeletjies</a> het vrae met antwoordkeuses en gesprekspunte.</li><li><strong>Aktiwiteitsgidse</strong> vir personeel en families, in eenvoudige taal en met bronne. Begin by <a href=\"/activities/ideas/\">101 aktiwiteitsidees</a> of <a href=\"/crafts/craft-group-sessions/\">groepaktiwiteite vir versorgingstehuise</a>.</li>",
       "restHtml": "<h2>Hoe groepe dit gebruik</h2><ul><li><strong>Versorgingshuise en geheuesorg:</strong> prentbingo of klaar-die-gesegde op die gemeenskaplike kamer-TV, met een persoon wat vir die groep tik.</li><li><strong>Volwasse dagprogramme:</strong> 'n tabletstasie met prentpare ingestel op vier teëls, vir kort een-tot-een sessies.</li><li><strong>Openbare biblioteke:</strong> gedrukte woordsoektogte en gesprekskaarte in geheuestelle, en die webwerf geboekmerk op biblioteektablette.</li><li><strong>Versorger ondersteuningsgroepe en geheue kafees:</strong> a <a href=\"/handout/\">een-bladsy drukbare uitdeelstuk</a> vir gesinne om huis toe te neem.</li><li><strong>Hospitale en ontslagbeplanners:</strong> die uitdeelstuk in versorgerpakkies, vir iets rustigs om by die huis of by die bed te doen.</li></ul><h2>Wat ons nie doen nie</h2><p>Die speletjies is vir genot en tyd saam. Hulle diagnoseer, toets, score, behandel of vertraag demensie nie, en ons vra organisasies om hulle nie so te beskryf nie. Daar is geen advertensies nie, en die speletjies vra nie dat name, gesondheidsbesonderhede of foto's opgelaai moet word nie. Die webwerf gebruik Google Analytics om besoeke te tel; ons <a href=\"/privacy/\">privaatheidskennisgewing</a> verduidelik wat dit insamel. Foto's gebruik in <a href=\"/games/photo-pairs/\">Foto pare</a> bly in die blaaier.</p><h2>Voeg ons by jou hulpbronlys</h2><p>As jy 'n lys van hulpbronne vir versorgers hou, is jy welkom om na te skakel <a href=\"/\">{domain}</a>. Jy kan enige beskrywing kopieer.</p>",
       "shortTitle": "Kort beskrywing",
       "longTitle": "Langer beskrywing",
-      "linksHtml": "<p>Nuttige bladsye om direk na te skakel: <a href=\"/games/\">gratis speletjies</a>, <a href=\"/activities/printable/\">gratis printables</a>, <a href=\"/activities/alzheimers/\">aktiwiteite vir Alzheimers</a> en <a href=\"/caregiving/how-to-play-together/\">hoe om saam te speel</a>.</p><h2>Vrae of regstellings</h2><p>Indien iets op die terrein verkeerd of onduidelik is, of 'n inwoner se behoeftes nie bevredig word deur wat hier staan ​​nie, vertel ons asseblief by <a href=\"mailto:{email}\">{email}</a>. Moet asseblief nie persoonlike of gesondheidsinligting oor inwoners of kliënte stuur nie.</p>"
+      "linksHtml": "<p>Nuttige bladsye om direk na te verwys: <a href=\"/games/\">gratis speletjies</a>, <a href=\"/games/\">gratis druksels</a>, <a href=\"/dementia-activities/\">demensie-aktiwiteite by die huis</a> en <a href=\"/caregiving/how-to-play-together/\">hoe om saam te speel</a>.</p><h2>Vrae of regstellings</h2><p>As iets op die webwerf verkeerd of onduidelik is, of as 'n inwoner se behoeftes nie deur wat hier is, behandel word nie, laat ons asseblief weet by <a href=\"mailto:{email}\">{email}</a>. Stuur asseblief geen persoonlike of gesondheidsinligting oor inwoners of kliënte nie.</p>"
     },
     "app": {
       "title": "Die Goue Oomblikke App",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Gratis demensie- en Alzheimer-speletjies aanlyn",
-    "description": "Gratis aanlyn speletjies vir seniors wat met demensie of Alzheimer's leef: prente wat pas, maklike figuursae, sorteer, gesegdes, inkleur, bingo.",
+    "title": "Gratis speletjies om saam online te speel",
+    "description": "Gratis aanlyn-speletjies vir ouer volwassenes, gesinne en mense wat met demensie leef: prenthuispaar, maklike legkaarte, sorteer, spreekwoorde, kleurlegging en bingo. Geen registrasie, tydhouers of tellings nie.",
     "crumb": "Speletjies",
-    "h1": "Sagte speletjies vir mense met demensie",
+    "h1": "Rustige speletjies om saam te speel",
     "lede": "{count} gratis speletjies om saam in jou blaaier te speel. Groot prente, eenvoudige woorde, en niks om te misluk nie: geen tydtellers, geen tellings, geen aanmelding.",
-    "listName": "Sagte speletjies vir mense met demensie",
+    "listName": "Rustige speletjies om saam te speel",
     "byStageTitle": "Kies 'n speletjie volgens stadium",
     "byStageLede": "Stadiums is slegs 'n rowwe gids. Volg wat die persoon geniet en wat vandag gemaklik voel.",
     "stageCol": "Verhoog",
     "gamesCol": "Speletjies wat dikwels pas",
-    "moreHtml": "Nog idees weg van die skerm af: <a href=\"/activities/ideas/\">101 aktiwiteite vir mense met demensie</a>, <a href=\"/activities/alzheimers/\">aktiwiteite en speletjies vir Alzheimers</a>, <a href=\"/activities/memory-games/\">sagte geheuespeletjies</a> en <a href=\"/activities/puzzles/\">raaisels</a>.",
+    "moreHtml": "Meer idees wat weg van die skerm af is: <a href=\"/activities/ideas/\">101 aktiwiteitsidees</a>, <a href=\"/dementia-activities/\">demensie-aktiwiteite by die huis</a> en <a href=\"/crafts/\">handwerk</a>.",
     "faq": [
       {
         "q": "Met watter wedstryd moet ons begin?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Is hierdie geheuespeletjies vir seniors?",
-        "a": "Dit is bypassende en prentspeletjies wat enige ouer volwassene kan geniet, maar hulle is gebou om nie geheue te toets nie: in prentpare bly die prente gesig na bo, tensy jy anders kies. Ons gids tot geheuespeletjies vir seniors met demensie verduidelik hoe om enige geheuespeletjie sag te hou."
+        "a": "Dit is passende- en prenspeletjies wat enige ouer volwassene kan geniet, maar hulle is nie ontwerp om geheue te toets nie: by Prenthuispare bly die prente met die gesig na bo, tensy jy anders kies. Enige geheuespeletjie kan sagter gemaak word deur die tydhouer en die tellings weg te laat."
       },
       {
         "q": "Is daar speletjies vir groepe in 'n versorgingshuis?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Is daar 'n demensieaktiwiteite-toepassing?",
+        "q": "Is daar 'n app vir ouer volwassenes en gesinne?",
         "a": "Ja. Goue oomblikke (gelys as \"{storeName}\") is gratis op die App Store en Google Play. Dit bied sagte prentpassing met groot teëls, speletjies met gesinsfoto's wat jy kies, en prentpakkette wat vanlyn werk."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "Drukbaar",
     "howTo": "Hoe om te speel {name}",
     "tips": "Wenke om saam te speel",
-    "newToPlayingHtml": "Nuut om met iemand te speel wat demensie het? Lees <a href=\"/caregiving/how-to-play-together/\">hoe om saam speletjies te speel</a>, insluitend wat om te doen as hulle belangstelling verloor.",
+    "newToPlayingHtml": "Nuut met speel saam met 'n ouer volwassene of iemand wat met demensie leef? Lees <a href=\"/caregiving/how-to-play-together/\">hoe om speletjies saam te speel</a>, insluitend wat om te doen as hulle belangstelling verloor.",
     "moreAria": "Meer om te verken",
     "helpfulGuides": "Nuttige gidse",
     "appTitle": "Speel dit in die toepassing",
@@ -536,6 +633,31 @@
     "goodToKnow": "Goed om te weet",
     "goodToKnowText": "Hierdie speletjie is vir genot en tyd saam. Dit toets, meet of behandel niks nie.",
     "moreGames": "Meer sagte speletjies",
-    "crumb": "Speletjies"
+    "crumb": "Speletjies",
+    "print": {
+      "heading": "Speel op papier",
+      "sameRules": "Die papierweergawe het dieselfde reëls as die speletjie op die skerm:",
+      "button": "Druk 'n papierweergawe",
+      "pageNote": "Een bladsy op A4 of US Letter, goed in swart-wit. Weergawe {date}.",
+      "islandNote": "Dit druk wat nou op die skerm is. Weergawe {date}.",
+      "sheetTitle": "{name}: papierweergawe",
+      "point": "Op papier, wys na 'n prent in plaas van om daarop te tik, of omcirkel dit met 'n pen. Elke ry is 'n nuwe stel.",
+      "pointTarget": "Op papier is die prent om na te kyk in die blokkie aan die begin van elke ry. Wys na 'n prent in plaas van om daarop te tik, of omcirkel dit met 'n pen.",
+      "halves": "Elke prent is in die middel deurgesny. Trek 'n lyn van elke helfte aan die linkerkant na die helfte aan die regterkant wat daarby pas, of wys met 'n vinger. Niks hoef gesny te word nie.",
+      "grid": "Elke vierkantjie het 'n nommer. Soek daardie nommer in die sleutel en kleur die vierkantjie met 'n potlood in daardie kleur. Enige ander kleur wat jy wil hê, is ook goed. Niks hoef gesny te word nie.",
+      "colors": "Elke ry noem 'n kleur. Wys na elke prent wat daardie kleur is, of omcirkel dit met 'n pen. Elke ry is 'n nuwe stel.",
+      "dice": "Elke ry is 'n stel dobbelstene. Kies 'n ry, of knip die prente uit en trek 'n paar uit 'n stapel, en vertel dan 'n verhaal met hulle in enige volgorde. Enigiemand mag oorslaan.",
+      "cards": "Knip die kaarte langs die stippellyne uit. Lê hulle met die gesig na bo op die tafel, en soek dan die pare.",
+      "chain": "Op papier, lees die prente van links na regs, een na die ander. Elke persoon sê een sin oor die prente tot dusver, en wys dan na die volgende prent. Enigiemand mag oorslaan.",
+      "sort": "Knip die prente langs die stippellyne uit, en sit dan elkeen in die boks waar dit hoort.",
+      "puzzle": "Knip die groot prent langs die stippellyne in vier stukke en skommel hulle. Ruil twee stukke op 'n slag totdat die prent heel is. Die klein prent is 'n gids.",
+      "cutSafety": "'n Helper kan die snywerk doen voordat jy begin. Berg die skêr daarna weg.",
+      "version": "Weergawe {date} · {url}",
+      "reasons": {
+        "photos": "Daar is geen papierweergawe nie. Hierdie speletjie gebruik jou eie foto's, wat in jou blaaier bly en nooit opgelaai word nie, so die webwerf kan dit nie druk nie. Om op papier te speel, druk twee afskrifte van 'n paar gunsteling-foto's by die huis en pas hulle op die tafel.",
+        "paced": "Daar is geen papierweergawe nie. Die sirkel bepaal 'n stadige, bestendige tempo op die skerm, en 'n gedrukte bladsy kan dit nie doen nie, so dit sou 'n ander aktiwiteit wees. 'n Stil onderbreking saam sonder 'n skerm is altyd 'n opsie.",
+        "sayings": "Daar is nog geen papierweergawe nie. Op papier sou elke slot dadelik wys, en die sagte stap \"Wys die slot\" sou verlore gaan. Lees die spreekwoorde saam van die skerm af, of deel 'n paar wat julle albei ken."
+      }
+    }
   }
 }

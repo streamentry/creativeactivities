@@ -1,30 +1,30 @@
 ---
 title: "Po diagnozie demencji: od czego zacząć"
-seoTitle: "Co robić po diagnozie demencji"
-description: "Jasny punkt wyjścia po diagnozie demencji: zaplanuj kolejne wizyty, znajdź wsparcie i zapraszaj osobę do wyborów we właściwym dla niej tempie."
+seoTitle: "Kolejne kroki po diagnozie demencji"
+description: "Jasny punkt wyjścia po diagnozie demencji: zaplanuj dalsze wizyty, znajdź wsparcie i zaangażuj osobę w wybory w tempie, które jej odpowiada."
 section: caregiving
 order: 30
 updated: 2026-11-11
 translatedFrom: 2026-11-11
 summary: >-
-  Po diagnozie daj sobie czas, by ją przetrawić, i wybierz jeden kolejny krok.
+  Po diagnozie daj sobie czas, by ją przetrawić, i wybierz jeden następny krok.
   Zapytaj zespół opieki, co diagnoza oznacza, znajdź zaufane źródło wsparcia
-  i zapraszaj osobę do decyzji oraz planowania przyszłości, na tyle, na ile
-  tego chce.
+  i zaangażuj osobę w decyzje oraz planowanie przyszłości, na tyle, na ile
+  sama tego chce.
 keyPoints:
-  - "Nie musisz rozwiązać wszystkich pytań naraz; zacznij od tego, co jest teraz najważniejsze."
-  - "Zapytaj, kto będzie koordynował dalszą opiekę, i spisz pytania na następną wizytę."
-  - "Znajdź wsparcie dla osoby po diagnozie oraz dla rodziny lub przyjaciół, którzy go chcą."
-  - "Włączaj osobę w wybory i planowanie przyszłości, tak jak sobie życzy, a w sprawach prawnych lub finansowych zasięgnij porady lokalnego specjalisty."
+  - "Nie musisz rozwiązać wszystkich kwestii naraz; zacznij od tego, co jest teraz najważniejsze."
+  - "Zapytaj, kto będzie koordynował dalszą opiekę, i zapisz pytania na następną wizytę."
+  - "Znajdź wsparcie dla osoby z diagnozą oraz dla rodziny lub przyjaciół, którzy go potrzebują."
+  - "Angażuj osobę w wybory i planowanie przyszłości zgodnie z jej życzeniem, a w sprawach prawnych lub finansowych zasięgnij lokalnej porady specjalisty."
 faq:
   - q: "Co zrobić najpierw po diagnozie demencji?"
-    a: "Zacznij od jednego praktycznego kroku, na przykład od wyjaśnienia planu dalszej opieki z lekarzem, który postawił diagnozę, albo od znalezienia zaufanej usługi wsparcia. Osoba może potrzebować czasu, by oswoić diagnozę, więc nie trzeba kończyć długiej listy w jeden dzień."
+    a: "Zacznij od jednego przydatnego kroku, na przykład wyjaśnienia planu dalszej opieki z lekarzem, który postawił diagnozę, lub znalezienia zaufanej usługi wsparcia. Osoba może potrzebować czasu, by oswoić diagnozę, więc nie trzeba kończyć długiej listy zadań w jeden dzień."
   - q: "Czy diagnoza demencji oznacza, że osoba nie może już podejmować decyzji?"
-    a: "Sama diagnoza nie przesądza o tym, co osoba może zdecydować. Zapytaj ją, jak chce brać udział, a w konkretnej sprawie zdrowotnej, prawnej lub finansowej szukaj wykwalifikowanej porady na miejscu."
+    a: "Sama diagnoza nie rozstrzyga, co osoba może decydować. Zapytaj ją, jak chce brać udział w decyzjach, a w sprawie konkretnej decyzji zdrowotnej, prawnej lub finansowej zasięgnij porady wykwalifikowanego specjalisty w swojej okolicy."
   - q: "Czy powinienem powiedzieć rodzinie i przyjaciołom o diagnozie?"
-    a: "To informacja osoby i to ona decyduje, czym się dzieli. Zapytaj, komu chce o niej powiedzieć, co ci ludzie mają wiedzieć i czy chce pomocy w tej rozmowie."
+    a: "To informacja osoby, która ją otrzymała, i to ona decyduje, czy i jak ją przekazać. Zapytaj, komu chce o tym powiedzieć, co chce, żeby inni wiedzieli, i czy chciałaby pomocy w tej rozmowie."
   - q: "Kiedy rozmawiać o planowaniu przyszłości?"
-    a: "Możecie zacząć, gdy osoba będzie gotowa. Jeśli chce podjąć lub zapisać decyzje na przyszłość, zapytaj wykwalifikowanych lokalnych specjalistów, jakie są możliwości i terminy w jej miejscu zamieszkania. Kilka krótszych rozmów może być łatwiejszych niż jedna duża."
+    a: "Możecie zacząć, gdy osoba będzie na to gotowa. Jeśli chce podejmować lub zapisywać decyzje dotyczące przyszłości, zapytaj wykwalifikowanych lokalnych specjalistów, jakie możliwości i terminy obowiązują tam, gdzie mieszkacie. Kilka krótszych rozmów może być łatwiejszych niż jedna duża."
 sources:
   - title: "Life After Diagnosis"
     publisher: "Alzheimer's Association"
@@ -50,66 +50,67 @@ sources:
 relatedGames: []
 related: [caregiving/doctor-visit-with-dementia, caregiving/caregiver-self-care, caregiving/choosing-adult-day-program-dementia, caregiving/medication-support-with-dementia]
 health: true
+crisisRoute: true
 ---
 
-Diagnoza demencji może rodzić pytania o zdrowie, codzienne życie, wsparcie i przyszłość. Ludzie reagują na nią różnie: jedni potrzebują czasu, by przyjąć tę wiadomość, inni chcą od razu zacząć planować. Nie ma jednej właściwej reakcji ani jednego harmonogramu. Zacznij od tego, co dla osoby jest teraz ważne, i wracaj do innych pytań, gdy będzie na to gotowa.
+Diagnoza demencji może rodzić pytania o zdrowie, codzienne życie, wsparcie i przyszłość. Ludzie reagują na nią różnie: jedni potrzebują czasu, by oswoić tę wiadomość, inni chcą od razu zacząć planować. Nie ma jednej właściwej reakcji ani jednego harmonogramu. Zacznij od tego, co jest teraz ważne dla tej osoby, a do pozostałych pytań wróć, gdy będzie na nie gotowa.
 
-[Przewodnik Alzheimer’s Association o życiu po diagnozie](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis) wskazuje na dalszą opiekę medyczną, lokalne wsparcie i planowanie przyszłości. [Wskazówki Dementia Australia dotyczące radzenia sobie z diagnozą](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis) podkreślają, że ludzie reagują inaczej i mogą szukać wsparcia wtedy, gdy tego chcą. Ta strona jest punktem wyjścia, a nie osobistym planem medycznym, prawnym ani finansowym.
+[Przewodnik Alzheimer's Association o życiu po diagnozie](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis) wskazuje, jak zadbać o dalszą opiekę medyczną, lokalne wsparcie i planowanie przyszłości. [Wskazówki Dementia Australia dotyczące radzenia sobie z diagnozą](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis) podkreślają, że ludzie reagują różnie i mogą sięgnąć po wsparcie, kiedy tylko zechcą. Ta strona jest punktem wyjścia, a nie osobistym planem medycznym, prawnym ani finansowym.
 
 ## Jaki jest jeden przydatny pierwszy krok?
 
-Wybierz jedno pytanie, które sprawi, że ten tydzień będzie łatwiejszy. Może to być ustalenie, kto będzie koordynował dalszą opiekę medyczną osoby, pytanie, gdzie znaleźć rzetelne informacje o jej diagnozie, albo wskazanie kogoś, komu osoba ufa i z kim chce porozmawiać. Osoba może chcieć przejąć inicjatywę, poprosić kogoś o pomoc albo poczekać z decyzjami.
+Wybierz jedno pytanie, które sprawi, że najbliższy tydzień będzie łatwiejszy. Może to być ustalenie, kto będzie koordynował dalszą opiekę nad tą osobą, zapytanie, gdzie znaleźć rzetelne informacje o diagnozie, albo wskazanie kogoś, komu ta osoba ufa i z kim chce rozmawiać. Osoba może chcieć przejąć inicjatywę, poprosić kogoś o pomoc albo poczekać z decyzjami.
 
-Na następną wizytę zapiszcie razem kilka pytań, jeśli osoba tego chce. Możesz zapytać, co oznacza diagnoza, co jest wciąż niepewne, kiedy zrobić kolejną kontrolę i z kim się skontaktować, jeśli pojawi się nowy problem. Poproś lekarza, by wyjaśnił każde niejasne określenie lub zalecenie. Nasz [przewodnik o wizycie u lekarza](/caregiving/doctor-visit-with-dementia/) zawiera krótką listę przygotowań.
+Na kolejną wizytę, jeśli osoba tego chce, zapiszcie razem kilka pytań. Możecie zapytać, co oznacza diagnoza, co wciąż jest niejasne, kiedy wrócić na kontrolę i z kim się skontaktować, gdy pojawi się nowy problem. Poproś lekarza o wyjaśnienie każdego pojęcia lub zalecenia, które jest niezrozumiałe. Spisanie pytań przed wizytą może pomóc.
 
-Osoba nie musi od razu poznać wszystkiego o demencji. Wybierz rzetelne informacje o diagnozie, którą otrzymała, i zapisuj pytania, które pojawią się później. Zachowaj ostrożność wobec obietnic, twierdzeń o wyleczeniu i porad, które każą wszystkim stosować ten sam plan leczenia.
+Osoba nie musi od razu poznać wszystkiego o demencji. Wybierz rzetelne informacje o diagnozie, którą otrzymała, a pytania, które pojawią się później, zapisuj na bieżąco. Zachowaj ostrożność wobec obietnic, twierdzeń o wyleczeniu i porad, które każą wszystkim stosować ten sam sposób leczenia lub ten sam plan.
 
-## Gdzie znaleźć wsparcie?
+## Gdzie można znaleźć wsparcie?
 
-Zapytaj osobę, jakie wsparcie by jej pomogło i kogo chciałaby w nie włączyć. Pierwszą rozmową może być ta z zaufanym przyjacielem lub członkiem rodziny. Niektórzy wolą grupę wsparcia, psychologa, lokalną organizację zajmującą się demencją albo rozmowę z zespołem opieki. Właściwa możliwość zależy od osoby i od tego, co jest dostępne w pobliżu.
+Zapytaj osobę, jakie wsparcie byłoby dla niej pomocne i kogo chciałaby w nie zaangażować. Dobrym pierwszym krokiem może być rozmowa z zaufanym przyjacielem lub członkiem rodziny. Niektórzy wolą grupę wsparcia, psychologa, lokalną organizację zajmującą się demencją albo rozmowę z zespołem opiekującym się nimi. Wybór zależy od osoby i od tego, co jest dostępne w pobliżu.
 
-Wsparcie jest potrzebne zarówno osobie z diagnozą, jak i rodzinie oraz przyjaciołom. Opiekun może potrzebować wytchnienia lub pomocy w codziennych zadaniach; osoba może chcieć informacji albo możliwości spotkania innych osób żyjących z demencją. Te potrzeby mogą się różnić. Zapytaj, zanim umówisz grupę, wizytę lub podasz komuś osobiste dane.
+Wsparcie przysługuje zarówno osobie z diagnozą, jak i rodzinie oraz przyjaciołom. Opiekun może potrzebować chwili wytchnienia lub pomocy przy codziennych obowiązkach, a osoba może chcieć informacji albo możliwości poznania innych osób żyjących z demencją. Te potrzeby mogą się różnić. Zapytaj, zanim umówisz się na spotkanie grupy, wizytę lub udostępnisz dane osobowe.
 
-Nasz [przewodnik o dbaniu o siebie jako opiekun](/caregiving/caregiver-self-care/) zawiera pomysły, jak prosić innych o wsparcie. Jeśli osoba chciałaby więcej pomocy w ciągu dnia, przewodniki o [dziennych ośrodkach opieki](/caregiving/choosing-adult-day-program-dementia/) i [opiece domowej](/caregiving/choosing-in-home-dementia-care/) wyjaśniają pytania, które warto zadać o lokalnych usługach.
+Nasz [przewodnik po dbaniu o siebie dla opiekunów](/creative-calm/creative-self-care-for-caregivers/) zawiera pomysły, jak prosić innych o wsparcie. Jeśli osoba chciałaby mieć więcej pomocy w ciągu dnia, pytania o przyszłą opiekę poniżej pokażą, o co warto zapytać w lokalnych usługach.
 
 ## Jak osoba może pozostać częścią decyzji?
 
-Sama diagnoza nie mówi, co osoba może zdecydować ani jak chce brać udział. Zapytaj ją bezpośrednio. Daj jej czas, wyjaśnij wybór prostym językiem i zapytaj, jakie wsparcie ułatwiłoby rozmowę. Niektóre wybory łatwiej omówić w spokojnym otoczeniu albo podczas kilku rozmów.
+Sama diagnoza nie mówi, jakie decyzje dana osoba może podejmować ani jak chce brać w nich udział. Zapytaj ją bezpośrednio. Daj jej czas, wyjaśnij wybór prostym językiem i zapytaj, jakie wsparcie ułatwiłoby rozmowę. Niektóre tematy łatwiej omówić w spokojnym miejscu lub podczas kilku rozmów.
 
-Jeśli osoba chce zaplanować opiekę zdrowotną, sprawy finansowe lub miejsce zamieszkania w przyszłości, zacznij od tego, co dla niej ważne i komu ufa. [Przewodnik planowania Dementia Australia](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) zaleca rozmawiać o życzeniach z zaufanymi osobami i odpowiednimi specjalistami. Przepisy prawne i zasady podejmowania decyzji różnią się w zależności od kraju i regionu, dlatego przed poleganiem na ogólnym poradniku zapytaj wykwalifikowanego lokalnego specjalistę. W sprawie bieżących rachunków i podejrzanych ofert zobacz nasz [przewodnik o zarządzaniu pieniędzmi przy demencji](/caregiving/managing-money-with-dementia/).
+Jeśli osoba chce zaplanować opiekę zdrowotną, finanse lub miejsce zamieszkania, zacznij od tego, co jest dla niej ważne i komu ufa. [Przewodnik Dementia Australia dotyczący planowania](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) zaleca rozmowę o swoich życzeniach z zaufanymi osobami i odpowiednimi specjalistami. Przepisy dotyczące dokumentów prawnych i podejmowania decyzji różnią się w zależności od kraju i regionu, dlatego przed skorzystaniem z ogólnego poradnika porozmawiaj z wykwalifikowanym prawnikiem lub doradcą w swojej okolicy. Z codziennymi sprawami rachunków i podejrzanymi wiadomościami o wyłudzeniach zwróć się do swojego banku lub zaufanego doradcy.
 
-### O co można zapytać w pierwszej rozmowie o przyszłej opiece?
+### O co można zapytać podczas pierwszej rozmowy o przyszłej opiece?
 
-Zapytaj, czy osoba chce rozmawiać już teraz, i poruszajcie jeden temat naraz. [Alzheimer’s Association zaleca kilka krótkich rozmów, prosty język i słuchanie tego, co osoba uważa za ważne, w co wierzy i czego oczekuje](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimer’s Society zauważa, że ludzie różnie czują się gotowi, by myśleć o przyszłości](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Można zrobić przerwę i wrócić do tematu innego dnia.
+Zapytaj, czy osoba chce porozmawiać już teraz, i poruszaj jeden temat naraz. [Alzheimer's Association zaleca kilka krótkich rozmów, prosty język i słuchanie tego, czego osoba chce, w co wierzy i co uważa za ważne](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimer's Society zwraca uwagę, że ludzie różnią się tym, jak gotowi są myśleć o przyszłości](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Można się zatrzymać i wrócić do tematu innego dnia.
 
-Jeśli osoba chce podpowiedzi, spróbuj jednego z tych pytań:
+Jeśli osoba chce podpowiedzi, wypróbuj jedno z tych pytań:
 
-- "Jakie elementy dnia chcesz zachować najbardziej?"
-- "Kogo chcesz włączyć, gdy będziemy rozmawiać o przyszłej opiece?"
-- "Co pomaga ci czuć się komfortowo i z szacunkiem, gdy potrzebujesz pomocy?"
-- "Czy jest coś, co twój zespół opieki powinien wiedzieć o tym, co jest dla ciebie ważne?"
-- "Czy chcesz, żebym zapisał, co powiedziałeś, i kto powinien to zobaczyć?"
+- „Które części dnia chciałby Pan/chciałaby Pani zachować najbardziej?”
+- „Kogo chciałby Pan/chciałaby Pani zaprosić do rozmowy o przyszłej opiece?”
+- „Co pomaga Panu/Pani czuć się komfortowo i z szacunkiem, gdy potrzebuje Pan/Pani pomocy?”
+- „Czy jest coś, o czym zespół opiekujący się Panem/Panią powinien wiedzieć, co jest dla Pana/Pani ważne?”
+- „Czy chce Pan/Pani, żebym spisał/spisała to, co Pan/Pani mówi, i ustalił/ustaliła z Panem/Panią, kto powinien to zobaczyć?”
 
-Słuchaj, nie prosząc od razu o decyzję. [National Institute on Aging opisuje rozmowy o wartościach i preferencjach jako centralny element planowania opieki](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Jeśli osoba się zgodzi, zanotuj jej słowa, datę i to, kto był obecny. Zapytaj o zgodę, zanim udostępnisz notatkę. Takie zapiski mogą pomóc w późniejszych rozmowach, ale nie są dokumentami prawnymi ani zleceniami medycznymi.
+Słuchaj bez natychmiastowego oczekiwania decyzji. [Narodowy Instytut ds. Starzenia się opisuje znaczące rozmowy o wartościach i preferencjach jako kluczowe dla planowania opieki z wyprzedzeniem](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Jeśli osoba się zgodzi, zapisz jej słowa, datę i to, kto był obecny. Zapytaj o zgodę, zanim udostępnisz notatkę. Takie notatki mogą pomóc w kolejnych rozmowach, ale nie są dokumentami prawnymi ani zleceniami medycznymi.
 
-Nie zakładaj niczego wyłącznie na podstawie diagnozy albo jednej rozmowy. Preferencje osoby mogą się zmieniać, a ona może poprosić o wstrzymanie tematu lub powrót do niego później. Angażuj ją w decyzje, które jej dotyczą, na tyle, na ile chce.
+Nie zakładaj niczego wyłącznie na podstawie diagnozy ani jednej rozmowy. Preferencje osoby mogą się zmieniać, a ona może poprosić o przerwę lub powrót do tematu później. Pozwól jej uczestniczyć w decyzjach, które jej dotyczą, na tyle, na ile tego chce.
 
 ## Kto powinien wiedzieć o diagnozie?
 
-To osoba decyduje, czy, kiedy i jak informować innych, chyba że konkretna sytuacja dotycząca bezpieczeństwa lub prawa wymaga porady specjalisty. Zapytaj, komu chce o tym powiedzieć i co ci ludzie mają wiedzieć. Może wybrać jedną zaufaną osobę na początek albo nie chcieć szerzej tego udostępniać.
+O tym, czy, kiedy i jak informować innych, decyduje osoba, chyba że konkretna sytuacja dotycząca bezpieczeństwa lub prawa wymaga porady specjalisty. Zapytaj, komu chce o tym powiedzieć i co ci ludzie powinni wiedzieć. Może wybrać najpierw jedną zaufaną osobę albo wolić nie rozgłaszać tego szeroko.
 
-Jeśli osoba chce pomocy w rozmowie, zapytaj, co chciałaby, żebyś powiedział, i czy chce być obecna. Udostępniaj tylko te informacje, na które się zgodziła. Nasz [przewodnik o komunikacji](/caregiving/communication-tips/) opisuje szacunek w rozmowach z rodziną i innymi osobami.
+Jeśli osoba chce pomocy w rozmowie, zapytaj, co chciałaby, żebyś powiedział/powiedziała, i czy chce być obecna. Dziel się tylko informacjami, na które osoba się zgodziła. Jeśli nie masz pewności, omów to z lekarzem, pracownikiem socjalnym lub innym zaufanym specjalistą.
 
-## Jak może toczyć się codzienne życie, gdy się dostosowujecie?
+## Jak codzienne życie może trwać, gdy się przystosowujecie?
 
-Podtrzymuj rutynę i zajęcia, które są dla osoby ważne, o ile nadal czuje się w nich dobrze. Diagnoza nie oznacza, że każde hobby, wyjście czy rola w domu musi się skończyć. Jeśli coś staje się trudniejsze, zapytaj osobę, co chciałaby zmienić. Krótsza wizyta, znajoma muzyka, pomoc przy jednym kroku albo inna pora dnia mogą jej bardziej odpowiadać.
+Zachowuj rutyny i zajęcia, które są dla osoby ważne, o ile nadal czuje się w nich dobrze. Diagnoza nie oznacza, że każde hobby, wyjście czy rola w domu muszą się skończyć. Jeśli coś staje się trudniejsze, zapytaj, co osoba chciałaby zmienić. Krótsza wizyta, znajoma muzyka, pomoc przy jednym kroku lub inna pora dnia mogą jej bardziej odpowiadać.
 
-Osoba może też potrzebować przestrzeni, by przetrawić wiadomość, bez rozmów o planach. Regularnie się upewniaj, jak się czuje, ale nie zamieniaj każdej rozmowy w spotkanie opiekuńcze. Można odpocząć od planowania i po prostu spędzić czas razem, w zwyczajny sposób.
+Osoba może też potrzebować przestrzeni, by oswoić tę wiadomość, bez rozmów o planach. Dalej sprawdzaj, jak się czuje, ale nie zamieniaj każdej rozmowy w spotkanie opiekuńcze. Można zrobić przerwę od planowania i spędzić czas razem w zwyczajny sposób.
 
-## Kiedy zapytać specjalistę?
+## Kiedy warto zapytać specjalistę?
 
-Pytania o diagnozę, zdrowie, leki lub objawy osoby kieruj do jej lekarza. W sprawach prawnych i finansowych rozmawiaj z wykwalifikowanymi specjalistami, którzy znają przepisy obowiązujące tam, gdzie osoba mieszka. Ogólna strona internetowa nie powie ci, jakie leczenie, dokument lub usługa będzie właściwe dla konkretnej osoby.
+Pytania dotyczące diagnozy, zdrowia, leków lub objawów osoby warto kierować do jej lekarza prowadzącego. W sprawach prawnych i finansowych rozmawiaj z wykwalifikowanymi specjalistami, którzy znają przepisy obowiązujące tam, gdzie mieszka osoba. Ogólna strona internetowa nie może powiedzieć, jakie leczenie, dokument lub usługa są właściwe dla konkretnej osoby.
 
-Nagłe splątanie lub inna gwałtowna zmiana stanu zdrowia wymaga pilnej pomocy medycznej. [Wytyczne NHS dotyczące nagłego splątania](https://www.nhs.uk/symptoms/confusion/) mówią, by natychmiast szukać pomocy medycznej. Skorzystaj z lokalnego systemu pomocy w nagłych przypadkach albo z pilnej opieki w miejscu zamieszkania osoby; nie zakładaj, że nagła zmiana jest częścią jej zwykłego stanu.
+Nagłe splątanie lub inna nagła zmiana stanu zdrowia wymagają pilnej pomocy medycznej. [Wytyczne NHS dotyczące nagłego splątania](https://www.nhs.uk/symptoms/confusion/) mówią, aby natychmiast uzyskać pomoc medyczną. Skorzystaj z lokalnego systemu pomocy w nagłych przypadkach lub pilnej opieki, właściwego dla miejsca zamieszkania osoby, i nie zakładaj, że nagła zmiana jest częścią jej zwykłego stanu.
 
-Jeśli planowanie przytłacza, wybierz jedną zaufaną osobę lub jedną usługę, która pomoże uporządkować pytania na pilne i na późniejsze tematy. Tempo ustala osoba, która sama decyduje, w czym chce pomocy. Diagnoza jest ważną informacją, ale nie określa zainteresowań, relacji ani codziennego życia tej osoby.
+Jeśli planowanie wydaje się przytłaczające, wybierz jedną zaufaną osobę lub jedną usługę, która pomoże podzielić pytania na pilne i takie, które mogą poczekać. Osoba może ustalać tempo i decydować, w czym chce otrzymać pomoc. Diagnoza jest ważną informacją, ale nie określa zainteresowań, relacji ani codziennego życia tej osoby.

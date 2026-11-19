@@ -13,10 +13,16 @@
     "machineTranslated": "Tämä sivu on käännetty automaattisesti, eikä äidinkielinen puhuja ole vielä tarkistanut sitä.",
     "readOriginal": "Lukekaa alkuperäinen englanniksi",
     "nav": {
+      "find": "Find an activity",
       "games": "Pelit",
       "activities": "Toiminnat",
       "caregiving": "Hoiva",
-      "brainHealth": "Aivoterveys"
+      "brainHealth": "Aivoterveys",
+      "crafts": "Käsityöt",
+      "kids": "Lapsille",
+      "together": "Yhdessä",
+      "creativeCalm": "Luova rauha",
+      "search": "Haku"
     },
     "faqTitle": "Kysymykset ja vastaukset",
     "breadcrumb": "Polku",
@@ -28,6 +34,21 @@
       "smaller": "Normaali teksti",
       "larger": "Suurempi teksti",
       "contrast": "Suurempi kontrasti"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -36,11 +57,12 @@
     "conversationCards": "Keskustelukortit",
     "pictureBingo": "Kuvabingo",
     "allGames": "Kaikki pelit",
+    "pictures": "Tulostettavat kuvat",
     "activityIdeas": "Toimintaideat",
     "ideas101": "101 toimintaideaa",
     "lateStage": "Toimintaa myöhäisvaiheeseen",
     "printable": "Tulostettavat toiminnat",
-    "allActivities": "Kaikki toiminnat",
+    "allActivities": "Kaikki toimintaoppaat",
     "forCaregivers": "Läheisille ja hoitajille",
     "playTogether": "Näin pelaatte yhdessä",
     "selfCare": "Huolenpito itsestä",
@@ -53,10 +75,15 @@
     "app": "Creative Activities -sovellus",
     "appHelp": "Sovelluksen ohjeet",
     "support": "Tuki",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Oikeudelliset tiedot",
     "sitePrivacy": "Verkkosivuston tietosuoja",
     "appPrivacy": "Sovelluksen tietosuojaseloste",
     "privacyChoices": "Tietosuojavalinnat",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Ehdot ja sovelluslisenssi",
     "safety": "Turvallisuus ja käyttötarkoitus",
     "accessibility": "Saavutettavuus",
@@ -64,14 +91,18 @@
     "allLegal": "Kaikki oikeudelliset tiedot",
     "note": "Creative Activities tarjoaa yksinkertaisia yhteisiä toimintoja virkistykseksi. Se ei ole lääketieteellistä neuvontaa, testi tai hoito, eikä se diagnosoi, mittaa tai pisteytä ketään. Terveyteen liittyvissä kysymyksissä kääntykää lääkärin puoleen. Hätätilanteessa soittakaa hätänumeroon 112.",
     "publisher": "Julkaisija: Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Tulostettavat kuvat"
+    "crafts": "Käsitöitä kaikenikäisille",
+    "kids": "Toimintaa lapsille",
+    "together": "Yhteistä tekemistä",
+    "creativeCalm": "Luova rauha",
+    "dementiaActivities": "Toimintaa muistisairautta sairastaville"
   },
   "home": {
-    "title": "Dementia- ja Alzheimer-pelit ja -toiminnat | Creative Activities",
-    "description": "Ilmaisia, rauhallisia kuvapelejä verkossa ja toimintaideoita dementiaa sairastaville ja läheisille. Ei rekisteröitymistä, ajastimia eikä pisteitä.",
+    "title": "Creative Activities kenelle tahansa läheisestään huolehtivalle",
+    "description": "Ilmaisia luovia toimintoja kenelle tahansa läheisestään huolehtivalle: käsitöitä, lapsille suunnattua toimintaa, yhteistä tekemistä ja rauhallisia luovia ideoita.",
     "eyebrow": "Ilmainen · Ei mainoksia · Ei rekisteröitymistä · Ei ajastimia eikä pisteitä",
-    "h1": "Rauhallisia pelejä ja toimintaa muistisairaille",
-    "lede": "Helppoja kuvapelejä, tuttuja valokuvia ja yhteistä tekemistä, omaan tahtiin.",
+    "h1": "Tehkää yhdessä jotakin",
+    "lede": "Etsikää toiminta, joka sopii läheisellenne, hetkeen ja siihen, mitä teillä on käsillä. Helppoja käsitöitä, lasten taidetta, yhteistä tekemistä ja rauhallisia luovia ideoita, joihin on helpompia versioita ja tulostettava kortti. Lopettakaa milloin tahansa.",
     "playGame": "Pelaa peliä",
     "findIdeas": "Etsi toimintaideoita",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 toimintaideaa",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Alkuvaihe",
         "text": "Jatkakaa sitä, mistä he pitävät, pienin muutoksin: harrastuksia, retkiä, sanapelejä ja yhteistä suunnittelua.",
         "label": "Alkuvaiheen ideat"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Keskivaihe",
         "text": "Yksinkertaisia, tuttuja tehtäviä vaiheisiin jaettuna: taittelua, lajittelua, musiikkia, kuvapelejä ja lyhyitä kävelyjä.",
         "label": "Keskivaiheen ideat"
@@ -124,10 +155,10 @@
         "label": "Myöhäisvaiheen ideat"
       }
     ],
-    "specificHtml": "Etsittekö jotakin tiettyä? Kokeilkaa <a href=\"/activities/alzheimers/\">toimintoja ja pelejä Alzheimerin tautia sairastaville</a>, <a href=\"/activities/memory-games/\">rauhallisia muistipelejä</a>, <a href=\"/activities/trivia/\">helppoa tietovisaa</a> tai <a href=\"/activities/puzzles/\">palapelejä</a>.",
+    "specificHtml": "Etsittekö jotakin tiettyä? Kokeilkaa <a href=\"/dementia-activities/\">toimintaa ja pelejä Alzheimerin tautia sairastaville</a>, <a href=\"/together/puzzles-and-table-games/\">palapelejä ja pöytäpelejä</a>, <a href=\"/together/conversation-games-for-all-ages/\">keskustelupelejä</a> tai <a href=\"/together/puzzles-and-table-games/\">palapelejä</a>.",
     "approachEyebrow": "Lähestymistapamme",
-    "approachTitle": "Yhteinen toiminta, ei muistitesti",
-    "approachLede": "Monet ”aivopelit” on rakennettu nopeuden, pisteiden ja putkien ympärille. Dementiaa sairastavalle se voi tuntua kokeelta. Me teimme päinvastoin.",
+    "approachTitle": "Yhteistä tekemistä, ei koetta",
+    "approachLede": "Monet „aivopelit” perustuvat nopeuteen, pisteisiin ja peräkkäisten onnistumisten laskemiseen. Väsyneelle, voinniltaan heikolle tai muistisairautta sairastavalle ihmiselle se voi tuntua kokeelta. Me teimme päinvastoin.",
     "approachLink": "Miksi suunnittelemme näin",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Yleisiä syitä kieltäytymiseen ja lempeitä tapoja yrittää uudelleen myöhemmin."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Tabletin valmistelu",
-        "text": "Isompaa tekstiä, vähemmän keskeytyksiä ja yksi yksinkertainen aloitusnäyttö."
+        "href": "/activities/group-art-activities/",
+        "title": "Ryhmätaidetoiminta",
+        "text": "Yhteisiä projekteja pöydän ääreen useammalle ihmiselle, jokaiselle oma tehtävä."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ilmaisia tulostettavia toimintoja",
-        "text": "Isokokoisia sanahakuja, värityskuvia, bingoa ja keskustelukortteja."
+        "href": "/activities/ideas/",
+        "title": "101 ideaa toimintaan",
+        "text": "Yksinkertaisia ideoita, lajiteltuina sen mukaan, mitä teillä on ja kuinka paljon voimia on."
       }
     ],
     "researchTitle": "Aivoterveys: mitä tutkimus todella kertoo",
@@ -185,16 +216,16 @@
     "aboutApp": "Tietoa sovelluksesta",
     "faq": [
       {
-        "q": "Mitkä ovat hyviä pelejä muistisairaille?",
-        "a": "Hyvät pelit ovat yksinkertaisia, tuttuja ja vailla painetta: isoja kuvia pareiksi, lajittelua, helppoja palapelejä, tuttujen sanontojen päättämistä, värittämistä, kuvabingoa ja keskustelukortteja. Paras valinta on se, josta ihminen nauttii tänään. Välttäkää ajastimia, pisteitä ja kaikkea, mikä tuntuu kokeelta."
+        "q": "Mitkä pelit sopivat hyvin ikääntyneille?",
+        "a": "Hyvät pelit ovat yksinkertaisia, tuttuja ja ilman painetta: kuvaparien yhdistämistä, lajittelua, helppoja palapelejä, tunnettujen sanontojen täydentämistä, värittämistä, kuvabingoa ja keskustelukortteja. Ne sopivat monille ikääntyneille, myös muistisairautta sairastaville. Paras valinta on se, josta ihminen nauttii juuri tänään. Vältä ajastimia, pisteitä ja kaikkea, mikä tuntuu kokeelta."
       },
       {
-        "q": "Ovatko nämä dementiapelit ilmaisia?",
+        "q": "Ovatko nämä pelit ilmaisia?",
         "a": "Kyllä. Jokainen Creative Activitiesin peli ja tulostettava aineisto on ilmainen, eikä käyttäjätiliä, rekisteröitymistä tai lataamista tarvita. Pelit toimivat verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
       },
       {
         "q": "Ehkäisevätkö aivopelit dementiaa?",
-        "a": "Mitään peliä ei ole osoitettu ehkäiseväksi dementiaa vastaan, eikä Creative Activities väitä hoitavansa tai ehkäisevänsä mitään. Pelimme on tarkoitettu virkistykseksi ja yhdessäoloon. Aivoterveysosiomme kertoo, mitä tutkimus osoittaa ja mitä ei."
+        "a": "Mikään peli ei ole osoittautunut ehkäisevän muistisairautta, eikä Creative Activities väitä hoitavansa tai ehkäisevänsä mitään. Pelit on tarkoitettu iloon ja yhdessä vietettyyn aikaan, eikä mikään toimintasivu esitä terveysväitteitä."
       },
       {
         "q": "Sopivatko nämä pelit Alzheimerin tautia sairastavalle?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "Kuka Creative Activitiesin tekee?",
-        "a": "Creative Activities on pieni tiimi, joka tekee rauhallisia, aikuisille sopivia kuvatoimintoja perheille ja läheisille verkossa ja ilmaisena sovelluksena. Emme ole kliinikkoja, eikä mikään täällä ole lääketieteellistä neuvontaa."
+        "a": "Creative Activities on pieni tiimi, joka tekee rauhallisia, aikuisille suunnattuja luovia toimintoja kenelle tahansa läheisestään huolehtivalle, verkossa ja ilmaisena sovelluksena. Emme ole kliinikoita, eikä mikään täällä ole lääketieteellistä neuvoa."
+      }
+    ],
+    "groupsEyebrow": "Aloita täältä",
+    "groupsTitle": "4 luovan toiminnan lajia",
+    "groupsLede": "Aloittakaa ryhmästä, joka sopii siihen, kenen kanssa olette ja mitä teillä on käytössä. Jokaisella sivulla on helpompia versioita ja turvallisuusohjeita.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Käsityöt",
+        "text": "Paperi-, maali-, kierrätys- ja vuodenaikaprojekteja, joihin on helpompi versio jokaiseen.",
+        "label": "Selaa käsitöitä"
+      },
+      {
+        "href": "/kids/",
+        "title": "Lapsille",
+        "text": "Taidetta ja leikkiä lapsille aikuisen läheisyydessä ja selkeine turvallisuusohjeineen.",
+        "label": "Selaa lasten toimintoja"
+      },
+      {
+        "href": "/together/",
+        "title": "Yhdessä",
+        "text": "Keskustelua, palapelejä, ulkoilua ja tapoja pysyä lähellä toisiaan eri sukupolvien kesken.",
+        "label": "Selaa yhteistä tekemistä"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Luova rauha",
+        "text": "Hitaita, hiljaisia luovia hetkiä kynän, sivun tai laulun kanssa. Ei terapiaa.",
+        "label": "Selaa luovaa rauhaa"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Toiminnat",
-      "title": "Toimintaa muistisairaille",
-      "seo": "Toimintaa muistisairaille: ideoita vaiheittain",
-      "description": "Toimintaideoita dementiaa sairastaville jokaiseen vaiheeseen: musiikkia, muistelua, arkisia askareita, aistihetkiä, askartelua, ulkoilua ja ilmaisia tulostettavia.",
-      "lede": "Merkityksellinen toiminta on kaikkea, mikä tuo turvaa, tarkoitusta tai hetken yhteyttä. Aloittakaa siitä, mistä ihminen on aina pitänyt, ja sovittakaa se tähän päivään."
+      "label": "Toimintaoppaat",
+      "title": "Toimintaoppaat",
+      "seo": "Toimintaoppaat: ideoita, taidetarvikkeita ja aloitustapoja",
+      "description": "Selkeitä oppaita luovaan toimintaan läheisen kanssa: yksinkertaisia ideoita, edullisia taidetarvikkeita, ryhmätaidetta, kirjeitä, muistoja sekä taideterapian selitys.",
+      "lede": "Lyhyitä, käytännöllisiä oppaita toiminnan valintaan ja aloittamiseen läheisen kanssa iästä tai taidoista riippumatta."
+    },
+    "crafts": {
+      "label": "Käsityöt",
+      "title": "Käsitöitä kaikenikäisille",
+      "seo": "Helppoja käsitöitä kaikenikäisille, helpompine versioineen",
+      "description": "Helppoja käsitöitä aikuisille, lapsille ja perheille: paperi-, värityspohjaisia, kierrätys- ja vuodenaikaprojekteja, helpommin otettavilla ja istuen tehtävillä versioilla ilman erityistaitoja.",
+      "lede": "Käsitöitä, jotka lähtevät liikkeelle siitä, mitä useimmissa kodeissa jo on. Jokaisella on helpompi versio, joten kuka tahansa voi tehdä jotakin."
+    },
+    "kids": {
+      "label": "Lapsille",
+      "title": "Creative Activities lapsille",
+      "seo": "Creative Activities lapsille: taide, aistit ja rauhoittuminen",
+      "description": "Luovaa toimintaa lapsille: taidetta, prosessitaidetta, aistileikkejä, sateisten päivien käsitöitä ja rauhoittumisideoita turvallisuusohjeineen sekä aistitarpeisiin sopivine versioineen.",
+      "lede": "Taide- ja leikkiideoita eri-ikäisille ja eri tarpeisiin, selkeine turvallisuusohjeineen ja aikuisen läheisyydessä."
+    },
+    "together": {
+      "label": "Yhdessä",
+      "title": "Yhteistä tekemistä",
+      "seo": "Yhteistä tekemistä yli sukupolvien",
+      "description": "Toimintaa kahdelle tai useammalle sukupolvelle: keskustelupelejä, palapelejä, ulkoilua, käsitöitä isovanhempien ja lastenlasten kanssa sekä tapoja pysyä läheisenä kaukaakin.",
+      "lede": "Ideoita ajan jakamiseen vanhemman, isovanhemman, lapsen tai ystävän kanssa kotona, ulkona, vierailulla tai kaukaa."
+    },
+    "creative-calm": {
+      "label": "Luova rauha",
+      "title": "Luova rauha",
+      "seo": "Luova rauha: rentouttavaa taidetta ja toimintaa",
+      "description": "Rentouttavia luovia toimintoja aikuisille ja läheisistä huolehtiville: tietoista taidetta, päiväkirjan kirjoittamista, musiikkia, aistihetkiä ja rauhallisia iltapäiviä. Luovaa toimintaa, ei terapiaa.",
+      "lede": "Hitaita tapoja hidastaa kynän, sivun tai laulun kanssa. Nämä ovat luovaa toimintaa, eivät terapiaa, eikä niihin tarvita taitoja."
     },
     "caregiving": {
-      "label": "Hoiva",
-      "title": "Hoivaoppaat",
-      "seo": "Dementiaa sairastavan läheisen oppaat: käytännön apua arkeen",
-      "description": "Käytännön oppaita dementiaa sairastavan läheisille: yhdessä pelaaminen, kommunikointi, kieltäytymiset, iltapäivän levottomuus, tabletit ja oma jaksaminen.",
-      "lede": "Selkeää, käytännöllistä apua dementiaa sairastavan ihmisen arjen hetkiin, myös omasta jaksamisestanne huolehtimiseen."
+      "label": "Muistisairauden hoito",
+      "title": "Muistisairaan läheisestä huolehtiminen",
+      "seo": "Muistisairaan läheisestä huolehtiminen: toimintaa ja apua",
+      "description": "Oppaita perheille, jotka huolehtivat muistisairaasta läheisestä: miten pelata yhdessä, mitä tehdä, kun hän sanoo ei, ja mistä löytää luotettavaa apua diagnoosin jälkeen.",
+      "lede": "Toimintalähtöistä apua perheille, jotka huolehtivat muistisairautta sairastavasta läheisestään, sekä tietoa siitä, mistä saa lääketieteellistä ja hoitoneuvontaa."
     },
     "brain-health": {
       "label": "Aivoterveys",
@@ -283,7 +371,16 @@
     "tryTogether": "Kokeilkaa yhdessä",
     "relatedGuides": "Aiheeseen liittyvät oppaat",
     "related": "Aiheeseen liittyvää",
-    "startHere": "Aloittakaa tästä"
+    "startHere": "Aloittakaa tästä",
+    "staleAria": "Käännös on vanhentunut",
+    "staleTitle": "Tämä käännös on vanhentunut",
+    "staleText": "Se on tehty englanninkielisen sivun aiemmasta versiosta, joka on sittemmin muuttunut. Ajantasainen sivu on englanninkielinen.",
+    "staleHealth": "Sivu sisältää terveystietoa, joten tarkista englanninkielinen sivu ja kysy lääkäriltä tai sairaanhoitajalta ennen kuin toimit sen perusteella.",
+    "staleLink": "Lue ajantasainen englanninkielinen sivu"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Terveystietoja koskeva huomautus",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Yhteinen toiminta, ei muistitesti",
+      "title": "Yhteinen toiminta, ei koe",
       "seoTitle": "Tietoa Creative Activitiesista: lähestymistapamme",
-      "description": "Miksi Creative Activitiesin peleissä ei ole ajastimia, pisteitä tai putkia, miksi kuvat pysyvät näkyvissä ja mitä väitämme ja emme väitä dementiasta.",
+      "description": "Miksi Creative Activitiesissa ei ole ajastimia, pisteitä tai peräkkäisiä onnistumisia, miksi kuvat pysyvät näkyvissä ja mitä emme väitä terveydestä.",
       "crumb": "Lähestymistapamme",
-      "lede": "Creative Activities tekee rauhallisia, aikuisille sopivia kuvatoimintoja, joista läheinen ja dementiaa sairastava ihminen voivat nauttia vierekkäin.",
-      "bodyHtml": "<h2>Mihin uskomme</h2><p>Toiminnan tarkoitus on itse hetki: keskustelu, hymy, tyydytys kahden kuvan yhdistämisestä tai pelkkä läheisyys. Tarkoitus ei ole mitata ketään, viedä heitä pidemmälle tai todistaa mitään.</p><p>Monet aivojumppasovellukset on suunniteltu nopeuden, pisteiden, putkien ja tasojen ympärille. Dementiaa sairastavalle se voi tuntua kokeelta, josta ei voi selvitä. Suunnittelimme päinvastoin ja noudatamme näitä sääntöjä:</p><ul><li><strong>Mikään ei voi epäonnistua.</strong> Ei kelloa, pisteitä, siirtolaskuria, henkiä, putkia, konfettia eikä lähtölaskentaa millään näytöllä.</li><li><strong>Tunnistaminen ennen muistamista.</strong> Kuvat pysyvät oletuksena näkyvissä. Keskustelun aloitukset kutsuvat juttelemaan, eivätkä koskaan tentti nimiä tai muistoja.</li><li><strong>Iso, selkeä ja tasainen.</strong> Iso teksti ja isot kuvat, korkea kontrasti ja painikkeet, jotka pysyvät samassa paikassa.</li><li><strong>Aikuisen arvokkuus.</strong> Oikean maailman kuvia sekä selkeitä ja lämpimiä sanoja. Ei sarjakuvahahmoja, lässytyskehuja eikä emojipalkkioita.</li><li><strong>Helppo tapa lopettaa.</strong> ”Tältä erää riittää” on aina näkyvissä. Puolivälissä lopettaminen on hyvä lopputulos.</li><li><strong>Yksityinen oletuksena.</strong> Ei käyttäjätilejä eikä mainoksia. Valitsemanne kuvat pysyvät laitteellanne.</li></ul><h2>Mitä emme väitä</h2><p>Pelimme on tarkoitettu virkistykseen ja yhteyteen. Ne eivät diagnosoi, testaa, mittaa, hoida, hidasta tai ehkäise dementiaa tai Alzheimerin tautia, eikä kenenkään pidä valita niitä sen vuoksi. Kun kirjoitamme tutkimuksista <a href=\"/brain-health/\">aivoterveyssivuillamme</a>, kerromme selvästi, missä näyttö on heikkoa, emmekä koskaan yhdistä sitä omiin peleihimme.</p><h2>Keitä olemme</h2><p>Creative Activities on pieni itsenäinen tiimi. Emme ole kliinikkoja. Oppaamme on kirjoitettu julkaistujen ohjeiden pohjalta, joita ovat antaneet muun muassa National Institute on Aging ja Alzheimer’s Association, ja jokainen opas luettelee lähteensä. Lukekaa, <a href=\"/editorial-policy/\">miten kirjoitamme ja tarkistamme sivumme</a>.</p><h2>Kertokaa, mikä auttaisi</h2><p>Kuulisimme mielellämme, mikä toimii teillä ja mikä ei, erityisesti dementiaa sairastavilta, läheisiltä ja toimintaa ohjaavilta työntekijöiltä. Kirjoittakaa osoitteeseen <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities tarjoaa rauhallisia aikuisille sopivia toimintoja, joista kaksi ihmistä voi nauttia rinnakkain, olipa toinen toisensa hoitaja tai he yksinkertaisesti haluavat viettää aikaa yhdessä.",
+      "bodyHtml": "<h2>Kenelle se on tarkoitettu</h2><p>Kenelle tahansa, joka hoitaa toista: vanhemmalle, isovanhemmalle, lapselle, puolisolle, ystävälle tai dementiaa sairastavalle ihmiselle. Perheet, ikääntyneet ja toimintaohjaajat voivat kaikki käyttää samoja sivuja.</p><h2>Mitä uskomme</h2><p>Toiminnan tarkoitus on hetki itsessään: keskustelu, hymy, tyydytys siitä, kun kaksi kuvaa sovitetaan yhteen, tai yksinkertaisesti istuminen lähekkäin. Sen ei ole tarkoitus mitata ketään, vaatia heiltä enempää tai todistaa mitään.</p><p>Monet aivoharjoitussovellukset on suunniteltu nopeuden, pisteiden, peräkkäisten onnistumisten ja tasojen ympärille. Väsyneelle, sairaalle tai dementiaa sairastavalle ihmiselle se voi tuntua kokeelta, jossa ei voi menestyä. Me olemme suunnitelleet päinvastaisesti ja sitoudumme näihin sääntöihin:</p><ul><li><strong>Ei mitään, mitä voi epäonnistua.</strong> Ei kelloa, pisteitä, siirtolaskuria, elämiä, peräkkäisiä onnistumisia, konfettia tai laskureita, millään näytöllä.</li><li><strong>Tunnistaminen ennen muistamista.</strong> Kuvat pysyvät oletuksena näkyvissä. Kehotteet kutsuvat keskusteluun eivätkä koskaan kysele nimiä tai muistoja.</li><li><strong>Suuri, selkeä ja vakaa.</strong> Suuri teksti ja kuvat, suuri kontrasti sekä painikkeet, jotka pysyvät samalla paikalla.</li><li><strong>Aikuisen arvokkuus.</strong> Todellisen maailman kuvia ja selkeitä, lämpimiä sanoja. Ei piirrettyjä, lapsellista kehua tai emojipalkintoja.</li><li><strong>Helppo tapa lopettaa.</strong> ”Lopetetaan toistaiseksi” on aina näkyvissä. Kesken jättäminen on hyvä lopputulos.</li><li><strong>Oletuksena yksityistä.</strong> Ei tilejä eikä mainoksia. Valitsemasi kuvat pysyvät laitteellasi.</li></ul><h2>Mitä emme väitä</h2><p>Pelimme ja toimintamme on tarkoitettu nautintoon ja yhteyteen. Ne eivät diagnosoi, testaa, mittaa, hoida, hidasta tai ehkäise dementiaa tai Alzheimerin tautia, eikä kenenkään pidä valita niitä sillä perusteella. Kun kirjoitamme terveystutkimuksesta, sanomme selvästi, missä näyttö on heikkoa, emmekä koskaan yhdistä sitä omiin toimintoihimme.</p><h2>Keitä me olemme</h2><p>Creative Activities on pieni itsenäinen tiimi. Emme ole kliinikoita. Oppaamme perustuvat julkaistuihin ohjeisiin, joita antavat organisaatiot, kuten National Institute on Aging ja Alzheimer’s Association, ja jokainen opas luettelee lähteensä. Lue <a href=\"/editorial-policy/\">miten kirjoitamme ja tarkistamme sivumme</a>.</p><h2>Kerro meille, mikä auttaisi</h2><p>Haluaisimme kuulla, mikä teillä toimii ja mikä ei, erityisesti dementiaa sairastavilta ihmisiltä, omaishoitajilta ja toimintaohjaajilta. Lähetä sähköpostia osoitteeseen <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Näin kirjoitamme ja tarkistamme sivumme",
       "seoTitle": "Toimituksellinen linjaus",
-      "description": "Miten Creative Activities tutkii, kirjoittaa, lähteistää ja päivittää dementiatoiminta- ja aivoterveyssivunsa ja mitä emme koskaan julkaise.",
+      "description": "Miten Creative Activities tutkii, kirjoittaa, lähdemerkitsee ja päivittää toiminta- ja terveyssivujaan sekä mitä emme koskaan julkaise.",
       "crumb": "Toimituksellinen linjaus",
       "bodyHtml": "<h2>Lähteemme</h2><p>Oppaamme perustuvat julkisiin ohjeisiin, joita ovat antaneet esimerkiksi National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance ja NHS, sekä vertaisarvioituun tutkimukseen, kuten Cochrane-katsauksiin ja suuriin kliinisiin tutkimuksiin. Jokainen opas luettelee lähteensä. Avaamme jokaisen lähteen ennen siihen viittaamista, ja kerromme vain sen, mitä se todella sanoo.</p><h2>Näin kirjoitamme</h2><ul><li>Käytännöllisyys ensin: mitä tehdä tänään, selkeällä kielellä.</li><li>Rehellisyys näytöstä: sanomme ”liittyy”, ”voi” ja ”näyttö on ristiriitaista”, kun se on totta.</li><li>Kunnioitus: kirjoitamme dementiaa sairastavista aikuisina emmekä koskaan käytä tenttaavaa tai häpäisevää kieltä.</li><li>Ei keksittyä sisältöä: ei keksittyjä tilastoja, lainauksia, asiantuntijoita, tutkimuksia, arvosteluja tai suosituksia.</li></ul><h2>Kuka tarkistaa sivumme</h2><p>Sivut kirjoittaa ja tarkistaa Creative Activities -tiimi, ja apuna käytetään tekoälyn kirjoitustyökaluja tutkimukseen ja luonnosteluun. Tiimi tarkistaa jokaisen sivun sen lähteitä vasten. Sivujamme <strong>ei</strong> ole tarkistuttanut lääkäri tai muu kliinikko, emmekä väitä muuta. Ne ovat yleistä tietoa, eivät lääketieteellistä neuvontaa.</p><h2>Mitä emme koskaan julkaise</h2><ul><li>Väitteitä, että peli, ruoka, lisäravinne, paasto tai rutiini ehkäisee, hoitaa, hidastaa tai parantaa dementiaa.</li><li>Testejä, tietovisoja tai pisteitä, jotka antavat ymmärtää, että jollakulla on tai ei ole dementiaa.</li><li>Neuvoja aloittaa, lopettaa tai muuttaa mitään lääkitystä.</li><li>Mainontaa tai sponsoroitua sisältöä, joka on naamioitu ohjeiksi.</li></ul><h2>Päivitykset ja korjaukset</h2><p>Jokaisella sivulla näkyy sen viimeisin päivityspäivä. Jos löydätte virheen tai vanhentuneen lähteen, kirjoittakaa osoitteeseen <a href=\"mailto:{email}\">{email}</a>, niin tarkistamme asian pian.</p>"
     },
     "faq": {
       "title": "Kysymykset ja vastaukset",
-      "seoTitle": "Dementiapelit ja -toiminnat: kysymykset ja vastaukset",
-      "description": "Vastauksia yleisiin kysymyksiin dementiapeleistä ja -toiminnoista: mitä pelejä kokeilla, kuinka kauan pelata, myöhäisvaiheen ideat, aivoterveys ja tietosuoja.",
+      "seoTitle": "Kysymyksiä ja vastauksia Creative Activitiesista",
+      "description": "Vastauksia yleisiin kysymyksiin peleistä ja toiminnoista: mitä kokeilla, kuinka kauan pelata, ryhmät ja myöhemmän vaiheen ideat, terveys ja yksityisyys.",
       "crumb": "Kysymykset ja vastaukset",
       "lede": "Lyhyitä, selkeitä vastauksia kysymyksiin, joita läheiset kysyvät eniten.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Peleistä",
           "items": [
             {
-              "q": "Mitkä ovat parhaita pelejä muistisairaalle?",
+              "q": "Mitkä ovat parhaat pelit ikääntyneille?",
               "a": "Parhaat pelit ovat tuttuja, yksinkertaisia ja vailla painetta, ja oikea peli on se, josta ihminen nauttii tänään. Kuvaparit näkyvissä olevilla kuvilla, lajittelu, helpot palapelit, tuttujen sanontojen päättäminen, värittäminen ja kuvabingo sopivat monille. Välttäkää ajastimia, pisteitä ja kaikkea, mikä tuntuu kokeelta."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Aivoterveys",
+          "title": "Dementia ja terveys",
           "items": [
             {
               "q": "Voivatko pelit ehkäistä tai hidastaa dementiaa?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Lisätietoa: <a href=\"/caregiving/how-to-play-together/\">näin pelaatte yhdessä</a>, <a href=\"/caregiving/when-they-say-no/\">kun he sanovat ei</a>, <a href=\"/activities/late-stage/\">myöhäisvaiheen toiminnat</a> ja <a href=\"/brain-health/can-dementia-be-prevented/\">voiko dementiaa ehkäistä?</a>"
+      "moreHtml": "Lisätietoja: <a href=\"/caregiving/how-to-play-together/\">miten pelata yhdessä</a>, <a href=\"/caregiving/when-they-say-no/\">kun he sanovat ei</a>, <a href=\"/activities/late-stage/\">myöhemmän vaiheen toiminnat</a> ja <a href=\"/dementia-activities/\">dementiatoiminnat kotona</a>."
     },
     "handout": {
       "title": "Ilmaisia, rauhallisia pelejä dementiaa sairastaville",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "Hoivakodeille, kirjastoille ja tukiryhmille",
-      "seoTitle": "Ilmaisia dementiatoimintoja hoivakodeille ja ryhmille",
-      "description": "Miten hoivakodit, päivätoiminta, kirjastot ja tukiryhmät käyttävät ilmaisia dementiapelejämme, sekä teksti, jolla meidät voi lisätä resurssilistaan.",
+      "seoTitle": "Ilmaisia toimintoja hoivakodeille, kirjastoille ja ryhmille",
+      "description": "Miten hoivakodit, päivätoimintaohjelmat, kirjastot, ikääntymisen palvelut ja tukiryhmät käyttävät ilmaisia pelejä ja toimintaoppaitamme, sekä valmis teksti, jolla meidät voi lisätä resurssilistalle.",
       "crumb": "Organisaatioille",
       "lede": "Kaikki tämän sivuston sisältö on ilmaista käyttää asukkaiden, jäsenten ja asiakkaiden kanssa, ilman tiliä, lisenssiä tai maksua.",
-      "shortText": "{name}: ilmaisia, rauhallisia kuvapelejä ja toimintaoppaita dementiaa sairastaville ja heidän läheisilleen. Ei rekisteröitymistä, ajastimia eikä pisteitä.",
-      "longText": "{name} ({domain}) tarjoaa {count} ilmaista selainpeliä dementiaa sairastaville, mukaan lukien kuvaparit näkyvissä olevilla kuvilla, helpon palapelin, lajittelun, tuttuja sanontoja ja kuvabingon tulostettavilla korteilla. Käyttäjätiliä, mainontaa, ajastinta tai pisteitä ei ole. Sivustolla on myös selkokielisiä toimintaoppaita dementian jokaiseen vaiheeseen, ja ne viittaavat National Institute on Agingiin ja Alzheimer’s Associationiin.",
+      "shortText": "{name}: ilmaisia, lempeitä kuvapelejä ja toimintaoppaita ikääntyneille, perheille ja dementiaa sairastaville ihmisille. Ei rekisteröitymistä, ei ajastimia, ei pisteitä.",
+      "longText": "{name} ({domain}) tarjoaa {count} ilmaista selainpeliä ikääntyneille, perheille ja dementiaa sairastaville ihmisille. Mukana on muun muassa kuvaparien etsiminen, jossa kuvat jäävät näkyviin, helppo palapeli, lajittelu, tutut sanonnat ja kuvabingo tulostettavilla korteilla. Tilejä, mainoksia, ajastimia tai pisteitä ei ole. Sivustolla on myös selkeäkielisiä toimintaoppaita perheille, ikääntyneille ja henkilökunnalle, ja niiden lähteinä ovat esimerkiksi National Institute on Aging ja Alzheimer's Association.",
       "useTitle": "Mitä organisaatiot voivat käyttää",
       "gamesItemHtml": "<strong>{count} selainpeliä</strong>, jotka toimivat kannettavalla, tabletilla tai tietokoneeseen kytketyllä televisiolla. Ei asennusta, tiliä eikä latausta. Katsokaa <a href=\"/games/\">kaikki pelit</a>.",
       "printablesLabel": "{count} tulostettavaa:",
       "printablesAfter": "Käyttäkää jokaisen sivun Tulosta-painiketta.",
-      "moreItemsHtml": "<li><strong>Ryhmämuodot:</strong> <a href=\"/games/picture-bingo/\">Kuvabingossa</a> on tulostettavat kortit ja ruudulla näkyvä numeronkutsuja, ja <a href=\"/activities/trivia/\">helpossa tietovisassa</a> on 50 kysymystä vastausvaihtoehtoineen ja keskustelunaiheineen.</li><li><strong>Toimintaoppaat</strong> henkilökunnalle ja perheille vaiheittain ja tyypeittäin, selkeällä kielellä ja lähteineen. Aloittakaa sivuilta <a href=\"/activities/ideas/\">101 toimintaideaa</a> tai <a href=\"/activities/care-home-groups/\">ryhmätoiminnat hoivakodeille</a>.</li>",
+      "moreItemsHtml": "<li><strong>Ryhmämuodot:</strong> <a href=\"/games/picture-bingo/\">Kuvabingo</a> sisältää tulostettavat kortit ja ruudulla olevan numeroiden kutsujan, ja <a href=\"/together/conversation-games-for-all-ages/\">keskustelupelit</a> sisältää kysymyksiä vastausvaihtoehdoin sekä keskustelunaiheita.</li><li><strong>Toimintaoppaat</strong> henkilökunnalle ja perheille, kirjoitettu selkeällä kielellä ja lähteineen. Aloita <a href=\"/activities/ideas/\">101 toimintaideasta</a> tai <a href=\"/crafts/craft-group-sessions/\">ryhmätoiminnoista hoivakodeille</a>.</li>",
       "restHtml": "<h2>Miten ryhmät käyttävät sitä</h2><ul><li><strong>Hoivakodit ja muistisairaiden hoiva:</strong> kuvabingo tai sanontojen päättäminen yhteisen oleskelutilan televisiossa, ja yksi henkilö napauttaa ryhmän puolesta.</li><li><strong>Päivätoimintaohjelmat:</strong> tablettipiste, jossa Kuvaparit on asetettu neljään ruutuun, lyhyisiin kahdenkeskisiin hetkiin.</li><li><strong>Yleiset kirjastot:</strong> tulostettuja sanahakuja ja keskustelukortteja muistilaukkuihin sekä sivusto kirjanmerkkinä kirjaston tableteissa.</li><li><strong>Läheisten tukiryhmät ja muistikahvilat:</strong> <a href=\"/handout/\">yhden sivun tulostettava tiedote</a> perheille kotiin vietäväksi.</li><li><strong>Sairaalat ja kotiutuksen suunnittelijat:</strong> tiedote läheisten pakkauksissa, rauhallista tekemistä kotiin tai vuoteen äärelle.</li></ul><h2>Mitä emme tee</h2><p>Pelit on tarkoitettu virkistykseen ja yhdessäoloon. Ne eivät diagnosoi, testaa, pisteytä, hoida tai hidasta dementiaa, ja pyydämme organisaatioita olemaan kuvaamatta niitä niin. Mainoksia ei ole, eivätkä pelit pyydä nimiä, terveystietoja tai valokuvien lähettämistä. Verkkosivusto käyttää Google Analyticsia käyntien laskemiseen; <a href=\"/privacy/\">tietosuojaselosteemme</a> kertoo, mitä se kerää. <a href=\"/games/photo-pairs/\">Kuvaparit-pelissä</a> käytetyt valokuvat pysyvät selaimessa.</p><h2>Lisätkää meidät resurssilistaanne</h2><p>Jos ylläpidätte listaa läheisille tarkoitetuista resursseista, voitte vapaasti linkittää sivustoon <a href=\"/\">{domain}</a>. Voitte kopioida kumman tahansa kuvauksen.</p>",
       "shortTitle": "Lyhyt kuvaus",
       "longTitle": "Pidempi kuvaus",
-      "linksHtml": "<p>Hyödyllisiä sivuja, joihin voi linkittää suoraan: <a href=\"/games/\">ilmaiset pelit</a>, <a href=\"/activities/printable/\">ilmaiset tulostettavat</a>, <a href=\"/activities/alzheimers/\">toimintaa Alzheimerin tautia sairastaville</a> ja <a href=\"/caregiving/how-to-play-together/\">näin pelaatte yhdessä</a>.</p><h2>Kysymykset tai korjaukset</h2><p>Jos jokin sivustolla on väärin tai epäselvää tai jos asukkaan tarpeita ei huomioida täällä olevalla sisällöllä, kertokaa meille osoitteessa <a href=\"mailto:{email}\">{email}</a>. Älkää lähettäkö asukkaiden tai asiakkaiden henkilö- tai terveystietoja.</p>"
+      "linksHtml": "<p>Hyödyllisiä sivuja, joihin voit linkittää suoraan: <a href=\"/games/\">ilmaiset pelit</a>, <a href=\"/games/\">ilmaiset tulostettavat</a>, <a href=\"/dementia-activities/\">muistisairaiden toiminta kotona</a> ja <a href=\"/caregiving/how-to-play-together/\">miten pelata yhdessä</a>.</p><h2>Kysymyksiä tai korjauksia</h2><p>Jos sivustolla on jotain virheellistä tai epäselvää, tai jos asukkaan tarpeisiin ei vastata täällä olevalla sisällöllä, kerro siitä osoitteeseen <a href=\"mailto:{email}\">{email}</a>. Älä lähetä asukkaiden tai asiakkaiden henkilö- tai terveystietoja.</p>"
     },
     "app": {
       "title": "Creative Activities -sovellus",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Ilmaiset dementia- ja Alzheimer-pelit verkossa",
-    "description": "Ilmaisia verkkopelejä dementiaa tai Alzheimerin tautia sairastaville: kuvaparit, palapelit, lajittelu, sanonnat ja bingo. Ei ajastimia eikä pisteitä.",
+    "title": "Ilmaiset yhdessä pelattavat pelit verkossa",
+    "description": "Ilmaisia verkkopelejä ikäihmisille, perheille ja muistisairaiden kanssa elaville: kuvaparien etsintää, helppoja palapelejä, lajittelua, sanontoja, värittämistä ja bingoa. Ei rekisteröitymistä, ajastimia eikä pisteitä.",
     "crumb": "Pelit",
-    "h1": "Rauhallisia pelejä muistisairaille",
+    "h1": "Rauhallisia pelejä yhdessä",
     "lede": "{count} ilmaista peliä, joita voitte pelata yhdessä selaimessa. Isoja kuvia, selkeitä sanoja ja mikään ei voi epäonnistua: ei ajastimia, ei pisteitä, ei.",
-    "listName": "Rauhallisia pelejä muistisairaille",
+    "listName": "Rauhallisia pelejä yhdessä",
     "byStageTitle": "Pelin valinta vaiheen mukaan",
     "byStageLede": "Vaiheet ovat vain suuntaa antavia. Seuratkaa sitä, mistä ihminen pitää ja mikä tuntuu tänään hyvältä.",
     "stageCol": "Vaihe",
     "gamesCol": "Pelejä, jotka usein sopivat",
-    "moreHtml": "Lisää ideoita ruudun ulkopuolelle: <a href=\"/activities/ideas/\">101 toimintaa dementiaa sairastaville</a>, <a href=\"/activities/alzheimers/\">toimintaa ja pelejä Alzheimerin tautia sairastaville</a>, <a href=\"/activities/memory-games/\">rauhallisia muistipelejä</a> ja <a href=\"/activities/puzzles/\">palapelejä</a>.",
+    "moreHtml": "Ruudun ulkopuolisia ideoita: <a href=\"/activities/ideas/\">101 toimintaideaa</a>, <a href=\"/dementia-activities/\">muistisairaiden toiminta kotona</a> ja <a href=\"/crafts/\">käsityöt</a>.",
     "faq": [
       {
         "q": "Mistä pelistä meidän kannattaa aloittaa?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Ovatko nämä muistipelejä ikäihmisille?",
-        "a": "Ne ovat parien etsintä- ja kuvapelejä, joista jokainen ikääntynyt voi nauttia, mutta ne on tehty niin, etteivät ne testaa muistia: Kuvapareissa kuvat pysyvät näkyvissä, ellette valitse toisin. Muistipelejä dementiaa sairastaville ikäihmisille käsittelevä oppaamme selittää, miten mikä tahansa muistipeli pidetään rauhallisena."
+        "a": "Ne ovat yhdistely- ja kuvapelejä, joista kuka tahansa ikäihminen voi nauttia, mutta ne on tehty niin, ettei muistia koeta: Kuvaparit-pelissä kuvat pysyvät ylöspäin käännettyinä, ellei toisin valita. Mikä tahansa muistipeli voidaan tehdä rauhallisemmaksi jättämällä pois ajastin ja pisteet."
       },
       {
         "q": "Onko ryhmille pelejä hoivakodissa?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Onko olemassa dementiatoimintojen sovellusta?",
+        "q": "Onko ikäihmisille ja perheille sovellusta?",
         "a": "Kyllä. Creative Activities (listattuna nimellä \"{storeName}\") on ilmainen App Storessa ja Google Playssa. Se tarjoaa rauhallista kuvaparien etsintää isoilla ruuduilla, pelejä valitsemillanne perhekuvilla ja kuvasarjoja, jotka toimivat ilman verkkoa."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "Tulostettava",
     "howTo": "Näin pelaatte: {name}",
     "tips": "Vinkkejä yhdessä pelaamiseen",
-    "newToPlayingHtml": "Onko dementiaa sairastavan kanssa pelaaminen uutta? Lukekaa <a href=\"/caregiving/how-to-play-together/\">näin pelaatte pelejä yhdessä</a>, myös siitä, mitä tehdä, jos kiinnostus loppuu.",
+    "newToPlayingHtml": "Oletko pelannut ikäihmisen tai muistisairaan kanssa ensimmäistä kertaa? Lue <a href=\"/caregiving/how-to-play-together/\">miten pelata yhdessä</a>, myös siitä, mitä tehdä, jos hän menettää kiinnostuksensa.",
     "moreAria": "Lisää tutustuttavaa",
     "helpfulGuides": "Hyödyllisiä oppaita",
     "appTitle": "Pelatkaa sovelluksessa",
@@ -536,6 +633,31 @@
     "goodToKnow": "Hyvä tietää",
     "goodToKnowText": "Tämä peli on tarkoitettu virkistykseen ja yhdessäoloon. Se ei testaa, mittaa tai hoida mitään.",
     "moreGames": "Lisää rauhallisia pelejä",
-    "crumb": "Pelit"
+    "crumb": "Pelit",
+    "print": {
+      "heading": "Pelaa paperilla",
+      "sameRules": "Paperiversiolla on samat säännöt kuin ruudulla pelattavalla pelillä:",
+      "button": "Tulosta paperiversio",
+      "pageNote": "Yksi sivu A4- tai US Letter -koossa, sopii mustavalkoisena. Versio {date}.",
+      "islandNote": "Tulostuu se, mitä ruudulla on juuri nyt. Versio {date}.",
+      "sheetTitle": "{name}: paperiversio",
+      "point": "Paperilla osoita kuvaa sormella sen sijaan, että napauttaisit sitä, tai ympyröi se kynällä. Jokainen rivi on uusi sarja.",
+      "pointTarget": "Paperilla katsottava kuva on jokaisen rivin alussa olevassa ruudussa. Osoita kuvaa sormella sen sijaan, että napauttaisit sitä, tai ympyröi se kynällä.",
+      "halves": "Jokainen kuva on leikattu keskeltä. Vedä viiva vasemmalla olevasta puoliskosta oikealla olevaan sopivaan puoliskoon, tai osoita sormella. Mitään ei tarvitse leikata.",
+      "grid": "Jokaisessa ruudussa on numero. Etsi tämä numero avaimesta ja väritä ruutu sen värisellä kynällä. Mikä tahansa muu väri käy myös. Mitään ei tarvitse leikata.",
+      "colors": "Jokaisella rivillä on väri. Osoita jokaista kuvaa, jonka väri on tämä, tai ympyröi se kynällä. Jokainen rivi on uusi sarja.",
+      "dice": "Jokainen rivi on noppasarja. Valitse rivi, tai leikkaa kuvat irti ja nosta niitä pinosta, ja kerro niiden avulla tarina missä järjestyksessä tahansa. Kuka tahansa voi ohittaa vuoronsa.",
+      "cards": "Leikkaa kortit irti katkoviivoja pitkin. Aseta ne ylöspäin pöydälle ja etsi parit.",
+      "chain": "Paperilla lue kuvat vasemmalta oikealle, yksi kerrallaan. Jokainen kertoo yhden lauseen tähän asti näkyvistä kuvista ja osoittaa sitten seuraavaa kuvaa. Kuka tahansa voi ohittaa vuoronsa.",
+      "sort": "Leikkaa kuvat irti katkoviivoja pitkin ja aseta kukin siihen laatikkoon, johon se kuuluu.",
+      "puzzle": "Leikkaa suuri kuva katkoviivoja pitkin neljään palaan ja sekoita ne. Vaihda kahta palaa kerrallaan, kunnes kuva on kokonainen. Pieni kuva on apuna.",
+      "cutSafety": "Avustaja voi tehdä leikkaamisen ennen aloittamista. Laita sakset pois käytön jälkeen.",
+      "version": "Versio {date} · {url}",
+      "reasons": {
+        "photos": "Paperiversiota ei ole. Tämä peli käyttää omia valokuviasi, jotka pysyvät selaimessasi eikä niitä koskaan ladata palveluun, joten sivusto ei voi tulostaa niitä. Jos haluat pelata paperilla, tulosta kotona kaksi kappaletta muutamasta suosikkivalokuvasta ja etsi niistä parit pöydän ääressä.",
+        "paced": "Paperiversiota ei ole. Ympyrä asettaa ruudulla hitaan, tasaisen tahdin, eikä tulostettu sivu voi tehdä samaa, joten se olisi eri toiminta. Hiljainen yhteinen tauko ilman ruutua on aina vaihtoehto.",
+        "sayings": "Paperiversiota ei ole vielä. Paperilla kaikki lopetukset näkyisivät heti, ja rauhallinen \"Näytä lopetus\" -vaihe jäisi pois. Lukekaa sanonnat yhdessä ruudulta tai kertokaa muutama, jonka te molemmat tunnette."
+      }
+    }
   }
 }

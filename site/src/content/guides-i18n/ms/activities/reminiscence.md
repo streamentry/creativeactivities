@@ -1,32 +1,33 @@
 ---
-title: "Aktiviti Mengenang Kembali: Kotak Kenangan, Kisah Hidup dan Foto"
-seoTitle: "Aktiviti Mengenang Kembali untuk Demensia Tanpa Kuiz"
-description: "Cara berkongsi kenangan dengan orang yang hidup dengan demensia tanpa menyoal: bual tentang foto, kotak kenangan dan buku kisah hidup, dengan ayat yang santai."
+title: "Aktiviti Imbauan: Kotak Kenangan, Kisah Hidup dan Foto"
+seoTitle: "Aktiviti Imbauan untuk Demensia: Idea Tanpa Kuiz"
+description: "Cara berkongsi kenangan dengan orang yang hidup dengan demensia tanpa kuiz: berbual tentang foto, kotak kenangan dan buku kisah hidup, dengan ungkapan yang membuatkan suasana kekal santai."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Mengenang kembali bermaksud menikmati masa lalu bersama melalui foto, benda,
-  muzik dan cerita. Buat kotak kenangan, bina buku kisah hidup yang mudah, atau
-  lihat foto sebelah-menyebelah. Jangan sekali-kali menyoal: langkau "Ingat
-  tak?" dan "Siapa ini?" dan gunakan jemputan terbuka seperti "Ceritakan
-  tentang ini." Perbualan yang mesra lebih penting daripada fakta yang betul.
+  Imbauan bermaksud menikmati masa lalu bersama-sama melalui foto, barang,
+  muzik dan cerita. Buat kotak kenangan, susun buku kisah hidup yang ringkas,
+  atau lihat foto bersebelahan. Jangan sekali-kali menguji ingatan: elakkan
+  "Ingat tak?" dan "Ini siapa?" dan gunakan jemputan terbuka seperti "Ceritakan
+  tentang gambar ini." Perbualan yang mesra lebih penting daripada memastikan
+  setiap fakta betul.
 keyPoints:
-  - "Mengenang kembali ialah perbualan, bukan ujian. Ketepatan tidak penting; keseronokan penting."
-  - "Gantikan 'Ingat tak...?' dan 'Siapa ini?' dengan komen dan jemputan seperti 'Ceritakan tentang hari ini.'"
-  - "Kotak kenangan berisi benda daripada kehidupan orang itu memberi tangan dan perbualan sesuatu untuk dipegang."
-  - "Buku kisah hidup membantu keluarga, pelawat dan kakitangan penjagaan mengenali orang itu, bukan sekadar diagnosisnya."
-  - "Jika sesuatu kenangan membawa kesedihan, beri keselesaan dahulu dan beralih dengan lembut."
+  - "Imbauan ialah perbualan, bukan ujian. Ketepatan tidak penting; keseronokan yang penting."
+  - "Gantikan 'Ingat tak...?' dan 'Ini siapa?' dengan komen dan jemputan seperti 'Ceritakan tentang hari ini.'"
+  - "Kotak kenangan berisi barang dari kehidupan seseorang memberi tangan dan perbualan sesuatu untuk dipegang."
+  - "Buku kisah hidup membantu keluarga, tetamu dan kakitangan penjagaan mengenali orang itu, bukan sekadar diagnosisnya."
+  - "Jika sesuatu kenangan membawa kesedihan, tenangkan dahulu dan perlahan-lahan alihkan topik."
 faq:
-  - q: "Apakah itu mengenang kembali untuk orang dengan demensia?"
-    a: "Mengenang kembali ialah berkongsi kenangan dan pengalaman lalu, selalunya dengan bantuan foto, benda, muzik atau video. Ia boleh berlaku berdua atau dalam kumpulan. Tujuannya ialah perbualan yang menyenangkan dan bermakna, bukan menguji apa yang dapat diingat oleh orang itu."
-  - q: "Mengapakah saya tidak patut bertanya 'Ingat tak?'"
-    a: "Soalan yang menguji ingatan boleh membuat seseorang berasa malu atau cemas apabila jawapan tidak datang. National Institute on Aging menyenaraikan bertanya sama ada seseorang ingat sesuatu atau seseorang antara perkara yang perlu dielakkan. Beri komen tentang apa yang anda lihat, dan biarkan orang itu menambah apa sahaja yang dia suka."
-  - q: "Apakah yang patut saya letakkan dalam kotak kenangan?"
-    a: "Pilih benda yang selamat dan kukuh yang berkaitan dengan hidup orang itu: barang kerja, peralatan hobi, selendang kegemaran, poskad, kad resipi, cenderamata sukan atau salinan foto. Elakkan barang tajam, benda kecil yang boleh tertelan, dan barang asal yang tidak boleh diganti."
+  - q: "Apakah imbauan untuk orang yang hidup dengan demensia?"
+    a: "Imbauan ialah berkongsi kenangan dan pengalaman lalu, selalunya dengan bantuan foto, barang, muzik atau video. Ia boleh berlaku secara seorang dengan seorang atau dalam kumpulan. Tujuannya ialah perbualan yang menyenangkan dan bermakna, bukan menguji apa yang dapat diingat oleh orang itu."
+  - q: "Mengapa saya tidak sepatutnya bertanya 'Ingat tak?'"
+    a: "Soalan yang menguji ingatan boleh membuatkan seseorang berasa malu atau resah apabila jawapan tidak datang. National Institute on Aging menyenaraikan bertanya sama ada seseorang ingat sesuatu atau seseorang sebagai perkara yang patut dielakkan. Sebaliknya, komenlah tentang apa yang anda lihat, dan biarkan orang itu menambah apa sahaja yang dia mahu."
+  - q: "Apa yang patut saya letakkan dalam kotak kenangan?"
+    a: "Pilih barang yang selamat dan kukuh yang berkaitan dengan kehidupan orang itu: barang kerja, peralatan hobi, selendang kegemaran, kad pos, kad resipi, cenderamata sukan atau salinan foto. Elakkan barang tajam, barang kecil yang boleh tertelan, dan barang asal yang tidak boleh diganti."
   - q: "Bagaimana jika mereka tersilap fakta?"
-    a: "Biarkan sahaja. Jika ibu anda berkata foto itu menunjukkan adiknya padahal itu sepupunya, tidak mengapa. Membetulkan menjadikan saat yang mesra suatu ujian. Ikut cerita yang sedang dia sampaikan dan nikmati bersama-sama."
+    a: "Biarkan sahaja. Jika ibu anda berkata gambar itu menunjukkan kakaknya padahal itu sepupunya, tidak mengapa. Membetulkan akan menukar saat yang mesra menjadi ujian. Ikutilah cerita yang mereka sampaikan dan nikmatinya bersama-sama."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -41,86 +42,87 @@ sources:
     publisher: "NHS"
     url: "https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/"
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
-related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
+related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Mengenang kembali sekadar bermaksud menikmati masa lalu bersama. Bagi ramai orang yang hidup dengan demensia, kenangan berpuluh tahun lalu kekal lebih jelas daripada apa yang berlaku pagi tadi. Foto, benda yang dikenali, muzik dan cerita boleh membuka kenangan itu dan memberi anda sesuatu yang mesra untuk dikongsi. Satu-satunya peraturan: ia perbualan, bukan kuiz.
+Imbauan bermaksud menikmati masa lalu bersama-sama. Bagi ramai orang yang hidup dengan demensia, kenangan dari puluhan tahun lalu selalunya lebih jelas daripada apa yang berlaku pagi ini. Foto, barang-barang yang biasa, muzik dan cerita boleh membuka kenangan tersebut dan memberi anda sesuatu yang hangat untuk dikongsi. Satu peraturan utama: ia adalah perbualan, bukan kuiz.
 
-## Apakah itu mengenang kembali, dan apakah bezanya daripada menyoal?
+## Apakah imbauan, dan apa bezanya dengan menguji ingatan?
 
-Mengenang kembali ialah berkongsi kenangan melalui foto, benda, muzik atau video, mengikut kadar orang itu sendiri. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) menerangkannya sebagai berkongsi pengalaman dan cerita lalu dengan bantuan foto, benda, video atau muzik, dalam buku atau pada tablet. Menyoal adalah berbeza: ia meminta orang itu memberikan jawapan yang betul, dan itu boleh membawa rasa malu dan bukan keseronokan.
+Imbauan ialah berkongsi kenangan melalui foto, barang, muzik atau video, mengikut kelajuan orang itu sendiri. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) menerangkannya sebagai berkongsi pengalaman dan cerita lalu dengan bantuan foto, barang, video atau muzik, dalam buku atau pada tablet. Kuiz pula berbeza: ia meminta orang itu memberikan jawapan yang betul, dan itu boleh membawa rasa malu dan bukannya keseronokan.
 
-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) menyenaraikan bertanya kepada seseorang sama ada dia ingat sesuatu atau seseorang sebagai perkara yang perlu dielakkan. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) mencadangkan mengelakkan soalan yang bergantung pada ingatan jangka pendek dan bercakap tentang masa lalu yang lebih jauh sebagai gantinya.
+[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) menyenaraikan bertanya sama ada seseorang ingat sesuatu atau seseorang sebagai perkara yang patut dielakkan. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) mencadangkan agar soalan yang bergantung pada ingatan jangka pendek dielakkan dan perbualan beralih kepada masa lalu yang lebih jauh.
 
 | Daripada | Cuba |
 | --- | --- |
-| "Ingat tak ini?" | "Ini nampak seperti hari yang gembira. Ceritakan tentangnya." |
-| "Siapa ini?" | "Ini Mak Cik Aminah di pantai. Lihat topi itu." |
-| "Tahun berapa ini?" | "Ini nampak seperti rumah lama. Bagaimana rasanya tinggal di situ?" |
-| "Bukan, itu bukan Ahmad, itu Kamal." | "Dia nampak sangat menyeronokkan." |
-| "Awak dah beritahu saya tadi." | "Saya suka cerita itu." |
+| "Ingat tak gambar ini?" | "Nampak macam hari yang gembira. Ceritakan tentang hari itu." |
+| "Ini siapa?" | "Ini Mak Cik Rose di pantai. Tengok topi dia." |
+| "Gambar ini tahun berapa?" | "Nampak macam rumah lama. Macam mana rasanya tinggal di situ?" |
+| "Tak, itu bukan Bill, itu Frank." | "Dia nampak seronok sangat." |
+| "Awak dah ceritakan itu tadi." | "Saya suka cerita itu." |
 
-## Bagaimanakah bercakap tentang foto tanpa menyoal?
+## Bagaimana berbual tentang foto tanpa menguji?
 
 Mulakan dengan apa yang anda lihat, kemudian beri ruang kepada orang itu untuk menambah sesuatu jika dia mahu.
 
-1. **Duduk sebelah-menyebelah.** Pegang album di antara anda supaya anda melihat bersama-sama, bukan menguji dari seberang meja.
-2. **Pilih beberapa foto.** Lima foto yang baik lebih baik daripada sekotak penuh. Cetakan yang besar dan jelas paling sesuai.
-3. **Sebut nama orang sendiri.** "Ini awak dan Ayah pada hari perkahwinan awak" menghilangkan tekanan.
-4. **Beri komen tentang butiran.** Pakaian, kereta, makanan, cuaca, wajah. "Cantiknya kereta ini. Nampak berkilat."
-5. **Jemput, jangan menuntut.** "Ceritakan tentang..." atau "Apa yang awak perasan?" Diam pun tidak mengapa.
-6. **Ikut pilihannya.** Jika dia bercakap tentang sesuatu yang lain sepenuhnya, ikutlah.
-7. **Berhenti ketika masih menyenangkan.** Tutup album sebelum keletihan muncul.
+1. **Duduk bersebelahan.** Pegang album di antara anda supaya anda melihatnya bersama, bukan menguji dari seberang meja.
+2. **Pilih beberapa foto.** Lima foto yang baik lebih baik daripada satu kotak penuh. Cetakan yang besar dan jelas paling sesuai.
+3. **Sebut nama orang itu sendiri.** "Ini awak dan ayah semasa hari perkahwinan" menghilangkan tekanan.
+4. **Komen tentang butiran.** Pakaian, kereta, makanan, cuaca, wajah. "Wah, kereta ini. Nampak sangat berkilat."
+5. **Jemput, jangan paksa.** "Ceritakan tentang..." atau "Apa yang awak perasan?" Diam pun tidak mengapa.
+6. **Ikut rentak mereka.** Jika mereka bercakap tentang sesuatu yang lain sama sekali, ikutkan sahaja.
+7. **Berhenti ketika masih menyenangkan.** Tutup album sebelum keletihan datang.
 
-Untuk pertanyaan bergambar yang sedia ada, cuba [kad perbualan](/games/conversation-cards/). Untuk menjadikan foto keluarga anda sendiri sebagai permainan padanan yang lembut, cuba [pasangan foto](/games/photo-pairs/); foto yang anda pilih kekal dalam penyemak imbas anda.
+Untuk gesaan gambar yang sedia ada, cuba [kad perbualan](/games/conversation-cards/). Untuk menukar foto keluarga anda sendiri menjadi permainan padanan yang lembut, cuba [pasangan foto](/games/photo-pairs/); foto yang anda pilih kekal dalam pelayar anda.
 
-## Bagaimanakah membuat kotak kenangan?
+## Bagaimana membuat kotak kenangan?
 
-Kotak kenangan ialah bekas berisi benda daripada kehidupan orang itu untuk dipegang dan dibualkan.
+Kotak kenangan ialah bekas yang berisi barang dari kehidupan orang itu untuk dipegang dan dibualkan.
 
 1. **Pilih kotak yang kukuh** dan mudah dibuka, seperti kotak kasut, kotak topi atau peti kayu kecil.
-2. **Pilih tema atau campuran.** Kerja, hobi, tempat, dekad, atau sedikit daripada semuanya.
-3. **Kumpulkan benda yang selamat.** Lima hingga sepuluh barang sudah memadai untuk bermula.
-4. **Gunakan salinan bagi barang yang berharga.** Salin foto dan dokumen yang tidak boleh diganti dan simpan yang asal dengan selamat.
-5. **Keluarkan barang satu demi satu.** Serahkan satu, katakan sesuatu tentangnya, dan lihat ke mana perbualan pergi.
+2. **Pilih tema atau campuran.** Kerja, hobi, sesuatu tempat, sepuluh tahun tertentu, atau sedikit daripada semuanya.
+3. **Kumpulkan barang yang selamat.** Lima hingga sepuluh barang sudah cukup untuk permulaan.
+4. **Gunakan salinan barang berharga.** Salin foto dan dokumen yang tidak boleh diganti dan simpan yang asal dengan selamat.
+5. **Keluarkan barang satu demi satu.** Serahkan satu barang, katakan sesuatu tentangnya, dan lihat ke mana perbualan itu membawa.
 
 Idea untuk dimasukkan:
 
-- **Kerja:** tag nama, perkakas kecil, lencana pakaian seragam, buku lejar, pin jururawat, buku resipi.
-- **Rumah:** kad resipi dengan tulisan tangannya, kain lap pinggan, selendang atau tali leher kegemaran.
-- **Hobi:** umpan pancing tanpa mata kail, bola, segulung benang bulu, paket biji benih.
-- **Tempat:** poskad, peta, cenderamata pelancong, keratan akhbar kampung halaman.
+- **Kerja:** lencana nama, alat kecil, tampal pada uniform, buku catatan, pin jururawat, buku masakan dari kedai makan.
+- **Rumah:** kad resipi dengan tulisan tangan mereka, kain lap, selendang atau tali leher kegemaran.
+- **Hobi:** umpan memancing tanpa mata kail, bola besbol, segulung benang, sampul biji benih.
+- **Tempat:** kad pos, peta, cenderamata pelancong, keratan akhbar kampung halaman.
 - **Keluarga:** salinan foto, lukisan kanak-kanak, kad jemputan perkahwinan.
 
-Tinggalkan barang tajam, benda kecil yang boleh tertelan, dan apa-apa yang mungkin membawa kenangan yang menyakitkan melainkan anda tahu ia dialu-alukan.
+Jauhkan barang tajam, barang kecil yang boleh tertelan, dan apa-apa yang mungkin membawa kenangan menyakitkan melainkan anda pasti ia diterima dengan baik.
 
-## Bagaimanakah membuat buku kisah hidup?
+## Bagaimana membuat buku kisah hidup?
 
-Buku kisah hidup ialah album ringkas foto dan keterangan pendek tentang hidup orang itu. Ia sesuatu untuk dilihat bersama, dan ia membantu pelawat dan kakitangan penjagaan melihat seseorang itu secara keseluruhan.
+Buku kisah hidup ialah album ringkas yang mengandungi foto dan kapsyen pendek tentang kehidupan orang itu. Ia sesuatu untuk dilihat bersama, dan ia membantu tetamu serta kakitangan penjagaan melihat keseluruhan diri orang itu.
 
-1. **Pilih format.** Fail dengan sarung helaian, buku foto bercetak, atau tayangan slaid pada tablet.
+1. **Pilih format.** Fail pengikat dengan pelindung helaian, buku foto cetakan, atau tayangan slaid di tablet.
 2. **Rancang beberapa bahagian.** Zaman kanak-kanak, sekolah, kerja, keluarga, tempat tinggal, kepercayaan, hobi, makanan dan muzik kegemaran.
-3. **Tambah satu atau dua foto setiap halaman** dengan keterangan pendek bercetak besar: "Aminah, umur 22, mula bekerja di bank."
-4. **Masukkan perkara yang disukai dan rutin.** "Minum kopi dengan susu. Suka lagu rohani setiap hujung minggu. Tidak suka televisyen yang kuat." Ini membantu sesiapa yang menjaganya.
-5. **Libatkan orang itu** sebanyak yang dia mahu, memilih foto, bercerita atau sekadar memerhati ia disiapkan.
-6. **Terus menambah.** Ia tidak perlu siap untuk berguna.
+3. **Tambah satu atau dua foto setiap halaman** dengan kapsyen ringkas bertulisan besar: "Mary, umur 22 tahun, mula bekerja di bank."
+4. **Masukkan kegemaran dan rutin.** "Minum kopi dengan susu. Suka lagu pujian pada hari Ahad. Tidak suka TV yang kuat." Ini membantu sesiapa sahaja yang menjaga mereka.
+5. **Libatkan orang itu** sejauh yang dia mahu, sama ada memilih foto, bercerita atau sekadar memerhati buku itu terbentuk.
+6. **Teruskan menambah.** Ia tidak perlu siap untuk berguna.
 
-## Lebih banyak idea mengenang kembali
+## Lebih banyak idea imbauan
 
-- **Pasang muzik zaman mudanya** dan bual tentang ke mana ia membawanya. Lihat [aktiviti muzik](/activities/music/).
-- **Tonton video keluarga atau rancangan televisyen** dari dekad kegemarannya.
-- **Masak hidangan zaman kanak-kanak** dan biarkan bau memimpin perbualan.
-- **Lihat peta** kampung halamannya dan telusuri jalan yang dikenali.
-- **Pegang katalog atau majalah lama** dan bual tentang harga, fesyen dan kereta.
-- **Rakam cerita mereka** pada telefon, dengan kebenaran mereka, untuk keluarga.
-- **Kongsi semasa panggilan.** Angkat satu foto semasa panggilan video; lihat [panggilan telefon dan video](/activities/phone-and-video-calls/).
-- **Bawa foto atau benda apabila anda melawat.** Ia memberi lawatan itu tumpuan yang mudah; lihat [melawat](/activities/visiting/).
+- **Mainkan muzik dari zaman remaja mereka** dan bualkan ke mana muzik itu membawa fikiran mereka. Lihat [aktiviti muzik](/creative-calm/music-for-calm-and-connection/).
+- **Tonton rakaman rumah atau rancangan TV** dari dekad kegemaran mereka.
+- **Masak hidangan zaman kanak-kanak** dan biarkan baunya memandu perbualan.
+- **Lihat peta** kampung halaman mereka dan jejaki jalan-jalan yang dikenali.
+- **Belek katalog atau majalah lama** dan bualkan tentang harga, fesyen dan kereta.
+- **Rakam cerita mereka** dengan telefon, dengan kebenaran mereka, untuk keluarga.
+- **Kongsi semasa panggilan.** Tunjukkan satu foto semasa panggilan video; lihat [panggilan telefon dan video](/together/staying-connected-from-afar/).
+- **Bawa foto atau barang apabila anda melawat.** Ia memberi lawatan itu tumpuan yang mudah; lihat [melawat](/together/visiting-someone-in-care/).
 
 ## Bagaimana jika sesuatu kenangan menyakitkan?
 
-Sesetengah kenangan membawa kesedihan, penyesalan atau ketakutan. Jika orang itu menjadi tertekan, berhenti, beri keselesaan dan tukar topik atau aktiviti dengan lembut. Jangan berbalah tentang apa yang berlaku. Family Caregiver Alliance menasihatkan agar tidak cuba meyakinkan seseorang bahawa dia salah dan mencadangkan membalas perasaan yang ditunjukkannya, yang benar-benar nyata. Jika dia bercakap tentang seseorang yang sudah meninggal seolah-olah masih hidup, balas perasaannya: "Awak rindukan dia. Ceritakan tentang dia."
+Sesetengah kenangan membawa kesedihan, penyesalan atau ketakutan. Jika orang itu menjadi resah, berhenti, tenangkan dia dan alihkan topik atau aktiviti dengan perlahan-lahan. Jangan berdebat tentang apa yang berlaku. Family Caregiver Alliance menasihatkan agar tidak cuba meyakinkan seseorang bahawa dia salah, dan mencadangkan agar kita memberi respons kepada perasaan yang ditunjukkan, kerana perasaan itu nyata. Jika mereka bercakap tentang seseorang yang sudah meninggal dunia seolah-olah orang itu masih hidup, responslah kepada perasaannya: "Awak rindukan dia. Ceritakan tentang dia."
 
-## Apakah kata kajian?
+## Apakata kajian?
 
-[Kajian Cochrane tentang mengenang kembali](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), yang meliputi 22 percubaan dan 1,972 orang, mendapati kesannya tidak konsisten, kecil dan berbeza mengikut tempat dan format. Ia tidak menemui bukti bahaya kepada orang dengan demensia. Kami mencadangkan mengenang kembali kerana ia boleh menjadikan masa bersama yang mesra dan bermakna, bukan sebagai rawatan. Untuk lebih banyak tentang perbualan yang mudah, lihat [petua komunikasi](/caregiving/communication-tips/).
+[Kajian semula Cochrane tentang imbauan](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), yang merangkumi 22 percubaan dan 1,972 orang, mendapati kesannya tidak konsisten, kecil, dan berbeza mengikut suasana dan format. Tiada bukti kemudaratan kepada orang yang hidup dengan demensia. Kami mencadangkan imbauan kerana ia boleh menjadikan masa bersama lebih hangat dan bermakna, bukan sebagai rawatan. Untuk lebih banyak tentang perbualan yang mudah, lihat [langkah pertama selepas diagnosis](/caregiving/after-dementia-diagnosis/).

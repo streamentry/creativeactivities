@@ -1,35 +1,35 @@
 ---
-title: "Spelletjes spelen met iemand met dementie: zo doe je dat"
-description: "Praktische gids voor spelletjes met iemand met dementie: klaarzetten, tempo, nooit verbeteren, spelletjes makkelijker maken en weten wanneer je stopt."
+title: "Hoe u spelletjes speelt met iemand met dementie"
+description: "Praktische tips om samen te spelen met iemand die met dementie leeft: voorbereiden, het tempo bepalen, nooit corrigeren, spelletjes makkelijker maken en weten wanneer u moet stoppen."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Zie een spelletje als tijd samen, niet als een test. Kies een rustig moment
-  van de dag, ga naast elkaar zitten in een stille kamer en bied één eenvoudig
-  spelletje aan. Laat je naaste het tempo bepalen, verbeter nooit onschuldige
-  vergissingen, maak het spel makkelijker bij het eerste teken van moeite en
-  maak van plaatjes een gesprek. Stop zolang het nog goed voelt. Vroeg stoppen,
-  of gewoon samen kijken, is een goede uitkomst.
+  Behandel een spelletje als tijd samen, niet als een test. Kies een rustig
+  moment van de dag, zit naast elkaar in een stille kamer en bied één eenvoudig
+  spelletje aan. Laat de persoon het tempo bepalen, corrigeer onschuldige
+  fouten nooit, maak het spel makkelijker zodra er spanning ontstaat en laat
+  plaatjes uitgroeien tot een gesprek. Stop terwijl het nog prettig voelt.
+  Vroeg stoppen, of gewoon samen naar iets kijken, is ook een goed resultaat.
 keyPoints:
-  - "Het doel is plezier en contact, niet het spel afmaken of de antwoorden goed hebben."
-  - "Zet eerst alles klaar: stille kamer, goed licht, bril op en hoortoestellen in, tv uit, één spelletje klaar."
-  - "Verbeter geen onschuldige vergissingen. Zeg “Laten we het zo eens proberen” of ga gewoon verder."
-  - "Maak een spel makkelijker voordat frustratie oploopt: minder plaatjes, minder keuzes, plaatjes zichtbaar laten."
-  - "Gebruik plaatjes als begin van een verhaal met “Vertel eens over…” in plaats van “Weet je nog…?”"
-  - "Stop bij de eerste tekenen van vermoeidheid of verdriet. Vroeg stoppen is een succes, geen mislukking."
+  - "Het doel is plezier en contact, niet het afmaken of goede antwoorden geven."
+  - "Bereid eerst voor: rustige kamer, goed licht, bril en gehoorapparaat in, tv uit, één spel klaar."
+  - "Corrigeer onschuldige fouten niet. Zeg „Laten we het eens zo proberen” of ga gewoon door."
+  - "Maak een spel makkelijker voordat frustratie groeit: minder plaatjes, minder keuzes, plaatjes zichtbaar houden."
+  - "Gebruik plaatjes als startpunt voor verhalen met „Vertel eens over...” in plaats van „Herinnert u zich nog...?”"
+  - "Stop bij de eerste tekenen van vermoeidheid of onrust. Vroeg stoppen is een geslaagd moment, geen mislukking."
 faq:
-  - q: "Hoe lang spelen we een spelletje?"
-    a: "Er is geen juiste duur. Voor veel mensen is een paar minuten ruim genoeg, en op sommige dagen is één ronde genoeg. Let op je naaste in plaats van op de klok, en stop zolang hij of zij nog ontspannen lijkt."
-  - q: "Moet ik mijn naaste laten winnen of doen alsof ik vergissingen niet zie?"
-    a: "In een gedeeld spel zonder druk valt er niets te winnen of te verliezen. Zit een vergissing je naaste niet dwars, laat het dan gaan. Lijkt het je naaste wel dwars te zitten, help dan stilletjes of maak het spel makkelijker zonder er iets over te zeggen."
-  - q: "Wat als mijn naaste liever kijkt hoe ik speel?"
-    a: "Dat is prima. Het National Institute on Aging raadt aan iemand gewoon te laten kijken als dat fijner lijkt. Praat over wat je ziet en nodig je naaste uit om te wijzen of te kiezen wanneer hij of zij maar wil."
-  - q: "Zijn deze spelletjes een manier om het geheugen te testen?"
-    a: "Nee. Onze spelletjes zijn eenvoudige activiteiten om samen te doen, voor plezier en gesprek. Ze zijn geen geheugentest, meten niets en zijn geen behandeling voor dementie."
-  - q: "Met welk spelletje begin je het best?"
-    a: "Begin met het eenvoudigste spelletje dat bij je naaste past. Paren zoeken met vier kaartjes en zichtbare plaatjes, of Hetzelfde plaatje met twee keuzes, zijn rustige beginpunten. Gesprekskaarten werken goed als je naaste liever praat dan tikt."
+  - q: "Hoe lang moeten we een spel spelen?"
+    a: "Er is geen juiste lengte. Voor veel mensen is een paar minuten genoeg, en op sommige dagen is één ronde al voldoende. Kijk naar de persoon in plaats van naar de klok, en stop terwijl hij of zij nog ontspannen lijkt."
+  - q: "Moet ik laten winnen of doen alsof ik fouten niet zie?"
+    a: "In een gedeeld spel zonder druk valt er niets te winnen of te verliezen. Als een fout de persoon niet stoort, laat u hem gaan. Als het hem wel lijkt dwars te zitten, help dan rustig mee of maak het spel makkelijker zonder het aan te wijzen."
+  - q: "Wat als de persoon liever naar mij kijkt terwijl ik speel?"
+    a: "Dat is prima. Het National Institute on Aging adviseert om iemand gewoon te laten kijken als dat leuker lijkt. Praat over wat u ziet en nodig uit om te wijzen of te kiezen wanneer de persoon dat wil."
+  - q: "Zijn deze spelletjes bedoeld om het geheugen te testen?"
+    a: "Nee. Onze spelletjes zijn eenvoudige gedeelde activiteiten voor plezier en gesprek. Het zijn geen geheugentest, ze meten niets en ze zijn geen behandeling voor dementie."
+  - q: "Welk spel kunt u het beste als eerste proberen?"
+    a: "Begin met het eenvoudigste spel dat bij de persoon past. Plaatjesparen met vier tegels en zichtbare plaatjes, of Vind hetzelfde met twee keuzes, zijn zachte startpunten. Gespreksskaarten werken goed als de persoon liever praat dan tikt."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Een goed spelletje met iemand met dementie ziet er niet uit als een wedstrijd. Het ziet eruit als twee mensen die dicht bij elkaar zitten, naar plaatjes wijzen, lachen om een spreekwoord en praten over wat er maar opkomt. Het spel is gewoon een reden om samen tijd door te brengen.
+Een goed spel met iemand die met dementie leeft ziet er niet uit als een wedstrijd. Het ziet eruit als twee mensen die dicht bij elkaar zitten, naar plaatjes wijzen, lachen om een spreekwoord en praten over wat er bij hen opkomt. Het spel is slechts een reden om samen tijd door te brengen.
 
-Deze gids gaat over klaarzetten, het tempo van een spel, wat je zegt als er iets “fout” gaat, hoe je een spel makkelijker of iets moeilijker maakt, hoe je er een gesprek van maakt en hoe je weet wanneer je stopt. Het werkt voor onze [spelletjes](/games/) en voor kaarten, puzzels en bordspellen die je al in huis hebt.
+Deze gids behandelt hoe u het spel voorbereidt, hoe u het tempo bepaalt, wat u kunt zeggen als iets „misgaat”, hoe u elk spel makkelijker of iets moeilijker maakt, hoe u er een gesprek van maakt en hoe u weet wanneer u moet stoppen. Hij werkt voor onze [spelletjes](/games/) en voor kaarten, puzzels en bordspellen die u al hebt.
 
-## Hoe speel je het best een spelletje met iemand met dementie?
+## Wat is de beste manier om een spel te spelen met iemand met dementie?
 
-Richt je op plezier, niet op prestatie. Dat is de kern van het [advies van de Alzheimer's Association over activiteiten](https://www.alz.org/help-support/caregiving/daily-care/activities): bouw op vaardigheden die je naaste nog heeft, help bij het beginnen, maak de moeilijke stukken zelf af, en bekritiseer of verbeter geen onschuldige bezigheden.
+Richt u op plezier, niet op prestaties. Dat is de kern van het advies in de [richtlijnen van de Alzheimer's Association over activiteiten](https://www.alz.org/help-support/caregiving/daily-care/activities): bouw voort op vaardigheden die de persoon nog heeft, help de persoon op gang, maak de moeilijke stukjes zelf af en bekritiseer of corrigeer onschuldige activiteiten niet.
 
 In de praktijk betekent dat:
 
-- **Ga naast je naaste zitten, niet tegenover.** Naast elkaar zien jullie allebei het scherm of de tafel, en voelt helpen als samenwerken in plaats van toezicht houden.
-- **Bied één spelletje tegelijk aan.** Een lijst met keuzes kan als een test voelen voordat er iets begonnen is.
-- **Volg je naaste.** Wil je naaste de plaatjes in een eigen volgorde aantikken, tien minuten over één plaatje praten of na twee beurten stoppen, dan is dat vandaag het spel.
-- **Tel de fijne momenten, niet de afgemaakte rondes.** Een glimlach, een verhaal of een rustig halfuur is de uitkomst waar het om gaat.
+- **Zit naast de persoon, niet tegenover.** Naast elkaar kunt u allebei het scherm of de tafel zien, en helpen voelt als teamwork in plaats van toezicht.
+- **Bied één spel tegelijk aan.** Een keuzemenu kan aanvoelen als een test voordat er iets begonnen is.
+- **Volg het initiatief van de persoon.** Als hij of zij de plaatjes in een eigen volgorde wil aantikken, tien minuten over één plaatje wil praten of na twee beurten wil stoppen, dan is dat het spel van vandaag.
+- **Tel de goede momenten, niet de afgemaakte rondes.** Een glimlach, een verhaal of een rustig half uur zijn het resultaat waar u naar zoekt.
 
-## Hoe zet ik alles klaar voordat we beginnen?
+## Hoe bereid ik me voor voordat we beginnen?
 
-Een paar minuten klaarzetten voorkomt de meeste frustratie die mensen aan het spel zelf toeschrijven.
+Enkele minuten voorbereiding voorkomen de meeste frustratie die mensen aan het spel zelf wijten.
 
-1. **Kies het beste moment van de dag.** Het [advies van het National Institute on Aging (NIA) over het aanpassen van activiteiten](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) raadt aan uitstapjes en activiteiten te plannen op het moment van de dag waarop je naaste op zijn of haar best is. Voor veel mensen is dat halverwege de ochtend. Het eind van de middag is vaak moeilijker; zie [rustige activiteiten aan het eind van de middag](/caregiving/late-day-restlessness/).
-2. **Maak de kamer stil.** Zet de tv en de radio uit en doe de deur dicht als dat kan. De [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) raadt aan lawaai en afleiding te beperken voordat je een gesprek probeert te voeren.
-3. **Zorg eerst voor comfort.** Iets te drinken binnen handbereik, vooraf naar de wc, een gemakkelijke stoel, en bril op en hoortoestellen in.
-4. **Zorg voor goed licht.** Helder, gelijkmatig licht zonder schittering op het scherm maakt plaatjes beter zichtbaar.
-5. **Zet het spel klaar voordat je gaat zitten.** Open het, kies de instellingen en zet zelf het volume goed. Draai dan het scherm naar je naaste toe. Voor tips over tablets, zie [een tablet of telefoon instellen](/caregiving/tablets-and-screens/).
-6. **Zet het apparaat rechtop.** Met een standaard of hoes die de tablet rechtop houdt, hoeft niemand hem vast te houden en is wijzen makkelijker.
+1. **Kies het moment van de dag waarop het de persoon het beste lukt.** De [richtlijnen van het National Institute on Aging (NIA) over het aanpassen van activiteiten](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) adviseren om uitjes en activiteiten te plannen op het moment van de dag waarop de persoon het best functioneert. Voor veel mensen is dat midden in de ochtend. De late namiddag is vaak moeilijker; zie [rustige activiteiten voor de late namiddag](/creative-calm/calm-afternoon-activities/).
+2. **Maak de ruimte rustig.** Zet de tv en radio uit en sluit de deur als dat kan. De [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) raadt aan lawaai en afleiding te beperken voordat u gaat praten.
+3. **Controleer eerst het comfort.** Een drankje in de buurt, een toiletbezoek vooraf, een comfortabele stoel, en bril en gehoorapparaat op.
+4. **Verlicht de ruimte goed.** Helder, gelijkmatig licht zonder spiegeling op het scherm maakt plaatjes makkelijker te zien.
+5. **Maak het spel klaar voordat u gaat zitten.** Open het, kies de instellingen en stel het volume zelf in. Draai het scherm daarna naar de persoon toe. Zet grotere tekst op het apparaat aan als dat helpt.
+6. **Zet het apparaat rechtop.** Een standaard of hoes die de tablet rechtop houdt, betekent dat niemand hem hoeft vast te houden, en dan is het makkelijker om ernaar te wijzen.
 
-## Hoe nodig ik mijn naaste uit zonder druk?
+## Hoe nodig ik uit zonder druk?
 
-Maak de uitnodiging luchtig en makkelijk om af te slaan. Een paar zinnen die vaak goed vallen:
+Maak de uitnodiging informeel en makkelijk af te wijzen. Enkele zinnen die meestal goed vallen:
 
-- “Ik heb plaatjes van tuinen gevonden. Kijk je even mee?”
-- “Kun je me helpen met deze puzzel? Ik kom er niet uit.”
-- “Heb je vandaag zin in de bloemen of in de vogels?” (kiezen uit twee is makkelijker dan een open vraag)
-- “Ik maak een kaart voor je zus. Welke kleur moet dit worden?”
+- „Ik heb wat tuinplaatjes gevonden. Wilt u er samen met mij naar kijken?”
+- „Kunt u me helpen met deze puzzel? Ik kom er niet uit.”
+- „Wilt u vandaag de bloemen of de vogels?” (een keuze uit twee is makkelijker dan een open vraag)
+- „Ik maak een kaart voor uw zus. Welke kleur moet deze krijgen?”
 
-De Alzheimer's Association raadt aan het doel van een activiteit uit te leggen, zoals een kaart maken voor een vriendin, omdat een reden de activiteit betekenis geeft. Om hulp vragen werkt ook, omdat je naaste zich dan nuttig kan voelen.
+De Alzheimer's Association raadt aan het doel van een activiteit uit te leggen, zoals het maken van een kaart voor een vriend, omdat een reden er betekenis aan geeft. Om hulp vragen werkt ook, omdat de persoon zich dan nuttig kan voelen.
 
-Zegt je naaste nee, accepteer dat dan. Probeer het later opnieuw of bied iets anders aan. Onze gids over [wat je doet als je naaste nee zegt](/caregiving/when-they-say-no/) gaat daar verder op in.
+Als de persoon nee zegt, accepteer dat. Probeer het later opnieuw of bied iets anders aan. Onze gids over [wat te doen als de persoon nee zegt](/caregiving/when-they-say-no/) gaat hier verder op in.
 
-## Hoe lang duurt een spelletje, en hoe snel gaan we?
+## Hoe lang moet een spel duren en hoe snel moeten we gaan?
 
-Laat je naaste het tempo bepalen, en ga uit van korte momenten. Er is geen op bewijs gebaseerde ideale duur voor een gedeeld spelletje. Twee tot vijf rustige minuten kunnen een volwaardige activiteit zijn.
+Laat de persoon het tempo bepalen en plan korte sessies. Er is geen op bewijs gebaseerde ideale lengte voor een gedeeld spel. Twee tot vijf rustige minuten kunnen al een volledige activiteit zijn.
 
-- **Wacht langer dan natuurlijk voelt.** Het NIA raadt aan iemand meer tijd te geven om te reageren en te proberen niet te onderbreken. Tel in gedachten tot tien voordat je helpt.
-- **Eén stap tegelijk.** Geef één korte aanwijzing (“Tik op een plaatje”) en wacht dan. Laat zien in plaats van uit te leggen: wijs aan waar je tikt.
-- **Pauzeer gerust.** Stopt je naaste om over een plaatje te praten, dan kan het spel wachten. Er is geen haast.
-- **Laat je naaste kijken.** Het NIA schrijft dat sommige mensen liever kijken, en dat is een prima keuze.
+- **Wacht langer dan natuurlijk voelt.** Het NIA adviseert om de persoon meer tijd te geven om te reageren en te proberen niet te onderbreken. Tel in gedachten tot tien voordat u helpt.
+- **Één stap tegelijk.** Geef één korte instructie („Tik op een plaatje”) en wacht dan. Laat zien in plaats van uit te leggen: wijs aan waar u moet tikken.
+- **Pauzeer gerust.** Als de persoon stopt om over een plaatje te praten, mag het spel wachten. U hoeft niet te haasten.
+- **Laat de persoon kijken.** Het NIA merkt op dat sommige mensen liever kijken, en dat is een geldige keuze.
 
-## Moet ik foute antwoorden verbeteren?
+## Moet ik foute antwoorden corrigeren?
 
-Nee. Iemand steeds weer voorzichtig verbeteren zegt tegen de persoon dat het mislukt, ook als je het goed bedoelt. De Alzheimer's Association raadt aan onschuldige bezigheden niet te bekritiseren of te verbeteren. In een spelletje is bijna elke vergissing onschuldig.
+Nee. Steeds opnieuw zachtjes corrigeren laat de persoon voelen dat hij of zij faalt, ook als u het goed bedoelt. De Alzheimer's Association adviseert om onschuldige activiteiten niet te bekritiseren of te corrigeren. In een spel is bijna elke fout onschuldig.
 
 | In plaats van | Probeer |
 | --- | --- |
-| “Nee, dat is fout.” | “Laten we het zo eens proberen.” (een voorbeeld dat het NIA geeft) |
-| “Die horen niet bij elkaar. Kijk nog eens.” | Zeg niets en neem de volgende beurt, of “O, die zijn allebei rood.” |
-| “Weet je nog wie dit is?” | “Vertel eens over dit plaatje.” |
-| “Die heb je al gehad.” | “Dat is een mooie. Laten we hem nog een keer doen.” |
-| “Kom op, dit weet je wel.” | “Zal ik het einde laten zien?” |
+| „Nee, dat is fout.” | „Laten we het eens zo proberen.” (een voorbeeld dat het NIA geeft) |
+| „Dat hoort niet bij elkaar. Kijk nog eens.” | Zeg niets en neem de volgende beurt, of zeg „Oh, die zijn allebei rood.” |
+| „Weet u nog wie dit is?” | „Vertel eens over dit plaatje.” |
+| „Dat hebt u al gedaan.” | „Dat is een mooie. Laten we hem nog eens doen.” |
+| „Kom op, dit weet u.” | „Wilt u dat ik het einde laat zien?” |
 
-Frustreert een vergissing je naaste duidelijk, help dan stilletjes. Wijs het goede plaatje aan, neem zelf een beurt of maak het spel de volgende ronde makkelijker. Krijgt een spreekwoord een grappig verkeerd einde, lach dan mee. Misschien is dat einde wel beter.
+Als een fout de persoon duidelijk frustreert, help dan rustig. Wijs het juiste plaatje aan, neem zelf een beurt of maak het spel de volgende ronde makkelijker. Als een spreekwoord een grappig verkeerd einde krijgt, lach dan mee. Hun einde is misschien beter.
 
 ## Hoe maak ik een spel makkelijker of moeilijker?
 
-Pas het spel aan op de persoon op die dag, niet op het label van een fase. Dezelfde persoon heeft ’s avonds misschien een eenvoudigere versie nodig dan ’s ochtends. De eerste tip van het NIA is de activiteit af te stemmen op wat iemand kan en ervoor te zorgen dat de persoon zich succesvol voelt.
+Pas het spel aan de persoon van die dag aan, niet aan een fase. Dezelfde persoon heeft 's avonds misschien een eenvoudigere versie nodig dan 's ochtends. De eerste tip van het NIA is om de activiteit af te stemmen op wat de persoon kan, en ervoor te zorgen dat de persoon zich succesvol voelt.
 
-| Spel | Makkelijker maken | Iets moeilijker maken |
+| Spel | Maak het makkelijker | Maak het iets moeilijker |
 | --- | --- | --- |
-| [Paren zoeken](/games/picture-pairs/) | Begin met 4 kaartjes en laat de plaatjes zichtbaar | Meer kaartjes, of plaatjes verbergen als dat prettig voelt |
-| [Hetzelfde plaatje](/games/find-the-same/) | 2 keuzes | Tot 4 keuzes |
-| [Samen sorteren](/games/sort-together/) | Jij houdt het plaatje vast, je naaste wijst de mand aan | Je naaste tikt zelf op plaatje en mand |
+| [Plaatjesparen](/games/picture-pairs/) | Begin met 4 tegels en laat de plaatjes zichtbaar | Meer tegels, of verberg de plaatjes als dat prettig voelt |
+| [Vind hetzelfde](/games/find-the-same/) | 2 keuzes | Tot 4 keuzes |
+| [Samen sorteren](/games/sort-together/) | U houdt het plaatje vast, de persoon wijst de mand aan | De persoon tikt zelf op het plaatje én op de mand |
 | [Plaatjespuzzel](/games/picture-puzzle/) | 4 stukjes, praat eerst over het hele plaatje | 9 stukjes |
-| [Spreekwoorden afmaken](/games/finish-the-saying/) | Laat het einde zien en zeg het dan samen | Laat je naaste het einde zeggen voordat je tikt |
-| [Woordzoeker in grote letters](/games/word-search/) | Print hem, zoek samen één woord, wijs de eerste letter aan | Laat je naaste het volgende woord kiezen |
-| [Kleurplaten](/games/coloring/) | Jij kiest twee kleuren, je naaste kiest daartussen | Je naaste kiest alle kleuren |
-| [Gesprekskaarten](/games/conversation-cards/) | Kijk alleen samen naar het plaatje | Gebruik de open vragen op de kaart |
-| [Fotoparen](/games/photo-pairs/) | Een paar geliefde familiefoto’s | Voeg meer foto’s toe |
-| [Plaatjesbingo](/games/picture-bingo/) | Een helper zit naast elke speler | Spelers kruisen hun eigen kaart af |
-| [Rustig ademen](/games/calm-breathing/) | Zit er gewoon samen naar te kijken | Adem langzaam mee |
+| [Maak het spreekwoord af](/games/finish-the-saying/) | Laat het einde zien en zeg het samen | Laat de persoon het einde zeggen voordat u tikt |
+| [Woordzoeker](/games/word-search/) | Print hem uit, zoek samen één woord en wijs de eerste letter aan | Laat de persoon het volgende woord kiezen |
+| [Kleuren](/games/coloring/) | U kiest twee kleuren, de persoon kiest tussen die twee | De persoon kiest alle kleuren |
+| [Gespreksskaarten](/games/conversation-cards/) | Bekijk samen gewoon het plaatje | Gebruik de open vragen op de kaart |
+| [Fotoparen](/games/photo-pairs/) | Een paar geliefde familiefoto's | Voeg meer foto's toe |
+| [Plaatjesbingo](/games/picture-bingo/) | Een helper zit bij elke speler | Spelers markeren hun eigen kaarten |
+| [Rustig ademhalen](/games/calm-breathing/) | Zit gewoon samen te kijken | Adem langzaam mee |
 
-Tekenen dat het spel te moeilijk is: lange pauzes die bezorgd lijken in plaats van bedachtzaam, steeds “Ik kan het niet”, het apparaat wegschuiven, of vergissingen die van streek maken. Tekenen dat het misschien te makkelijk is: verveling, of je naaste die zegt dat het kinderachtig is. Gebeurt dat, respecteer het dan en stap over op iets wat volwassen voelt, zoals een woordzoeker, een puzzel van een echte foto, of praten over een plaatje van het vroegere werk van je naaste.
+Signalen dat het spel te moeilijk is: lange pauzes die eerder bezorgd dan nadenkend lijken, herhaald „Ik kan dit niet”, het apparaat wegduwen, of fouten die de persoon van streek maken. Signalen dat het misschien te makkelijk is: verveling, of de opmerking dat het kinderachtig is. Gebeurt dat, respecteer het dan en schakel over naar iets dat volwassen aanvoelt, zoals een woordzoeker, een puzzel van een echte foto, of praten over een foto van vroeger werk.
 
-## Hoe maak ik van een spelletje een gesprek?
+## Hoe maak ik van een spel een gesprek?
 
-Gebruik elk plaatje als uitnodiging om te praten, en zie alles wat je naaste zegt als een goed antwoord. Voor veel families is dit het mooiste deel van het spelen.
+Gebruik elk plaatje als uitnodiging om te praten, en behandel alles wat de persoon zegt als een goed antwoord. Voor veel families is dit het beste deel van het spelen.
 
-- **Stel open vragen zonder fout antwoord.** “Wat valt je op?” “Welke vind jij mooi?” “Vertel eens over een keuken zoals deze.”
-- **Vertel eerst zelf iets.** “Mijn oma had zo’n hond.” Jouw verhaal maakt het makkelijker voor je naaste om er ook een te vertellen.
-- **Ga mee met zijpaden.** Leidt een plaatje van een auto tot een verhaal over een lange autorit, dan is dat verhaal de activiteit. Laat het spel even stilstaan.
-- **Controleer geen feiten.** Bij herinneringen ophalen is een prettig gesprek belangrijker dan kloppende details. Is het verhaal anders dan de vorige keer, geniet dan van de nieuwe versie.
-- **Gebruik de ingebouwde vragen.** [Spreekwoorden afmaken](/games/finish-the-saying/) laat na elk spreekwoord een vraag volgen om over te praten, en [Gesprekskaarten](/games/conversation-cards/) zijn precies hiervoor gemaakt. [Fotoparen](/games/photo-pairs/) gebruikt je eigen familiefoto’s, en die roepen vaak de mooiste verhalen op.
+- **Stel open vragen waarop geen fout antwoord is.** „Wat ziet u?” „Welke vindt u mooi?” „Vertel eens over een keuken zoals deze.”
+- **Begin zelf.** „Mijn grootmoeder had een hond zoals deze.” Uw verhaal maakt het makkelijker voor de persoon om er ook een te delen.
+- **Volg de zijweg.** Als een plaatje van een auto leidt tot een verhaal over een reis, dan is het verhaal de activiteit. Laat het spel pauzeren.
+- **Controleer de feiten niet.** Bij herinneringsgesprekken is een prettig gesprek belangrijker dan nauwkeurige details. Als het verhaal anders is dan de vorige keer, geniet dan van de nieuwe versie.
+- **Gebruik de ingebouwde vragen.** [Maak het spreekwoord af](/games/finish-the-saying/) geeft na elk spreekwoord een gespreksvraag, en [Gespreksskaarten](/games/conversation-cards/) zijn precies daarvoor gemaakt. [Fotoparen](/games/photo-pairs/) gebruikt uw eigen familiefoto's, die vaak de rijkste verhalen oproepen.
 
-Meer ideeën vind je in onze gidsen over [herinneringen ophalen](/activities/reminiscence/) en [tips voor communicatie](/caregiving/communication-tips/).
+Meer ideeën vindt u in onze gids over [herinneringsactiviteiten](/activities/reminiscence/). Voor steun na een diagnose, zie [eerste stappen na een diagnose](/caregiving/after-dementia-diagnosis/).
 
-## Wanneer stoppen we?
+## Wanneer moeten we stoppen?
 
-Stop bij de eerste tekenen van vermoeidheid of verdriet, en liefst net daarvoor. De Alzheimer's Association raadt aan te stoppen of iets anders te gaan doen als de aandacht wegzakt of de frustratie oploopt.
+Stop bij de eerste tekenen van vermoeidheid of onrust, en bij voorkeur een beetje eerder. De Alzheimer's Association adviseert om te stoppen of de activiteit te veranderen wanneer de aandacht verslapt of de frustratie toeneemt.
 
 Let op:
 
-- gapen, onderuitzakken of ogen die van het scherm afdwalen;
-- friemelen, opstaan of vragen om weg te gaan;
-- zuchten, korte antwoorden, of “Ik kan dit niet goed”;
-- willekeurig tikken of het apparaat wegschuiven;
-- tranen, geïrriteerdheid of een plotselinge verandering in stemming.
+- geeuwen, onderuitzakken of ogen die van het scherm afdwalen;
+- friemelen, opstaan of vragen om weg te mogen;
+- zuchten, korte antwoorden of „Ik ben er niet goed in”;
+- willekeurig tikken of het apparaat wegduwen;
+- tranen, geïrriteerdheid of een plotselinge stemmingswisseling.
 
-Zo stop je op een goede manier:
+Zo stopt u goed:
 
-- **Eindig met iets makkelijks.** Nog één paar dat je naaste kan vinden, of een laatste plaatje om te bewonderen.
-- **Maak het over jezelf.** “Ik heb wel zin in een kopje thee. Zullen we hier stoppen?” voorkomt elke hint dat je naaste het slecht deed.
-- **Ga over op iets lichamelijks of rustgevends.** Een korte wandeling, iets lekkers, de was opvouwen of muziek.
-- **Zeg iets warms.** “Ik vond het fijn om dat samen met jou te doen.” Geen lof voor “het goed doen”, gewoon plezier in de tijd samen.
+- **Eindig met iets makkelijks.** Eén laatste paar dat de persoon kan maken, of een laatste plaatje om naar te kijken.
+- **Maak het over uzelf.** „Ik zou wel een kopje thee lusten. Zullen we hier stoppen?” voorkomt elke suggestie dat de persoon het slecht deed.
+- **Ga over op iets fysieks of rustgevends.** Een korte wandeling, een hapje, was opvouwen of muziek.
+- **Zeg iets warms.** „Ik vond het fijn om dat met u te doen.” Geen lof voor „het goed doen”, alleen plezier in de tijd samen.
 
-Vroeg stoppen, de plannen veranderen, of het spel laten voor wat het is en gewoon samen zitten zijn allemaal goede uitkomsten.
+Vroeg stoppen, van plan veranderen, of het spel opgeven en gewoon samen zitten, zijn allemaal goede uitkomsten.
 
-## Kunnen we in een groep of via een videogesprek spelen?
+## Kunnen we in een groep spelen of via een videogesprek?
 
-Ja, met wat extra voorbereiding. Houd een groep klein, zet helpers naast iedereen die hulp nodig heeft, en kies een spel met een duidelijk gezamenlijk middelpunt. [Plaatjesbingo](/games/picture-bingo/) heeft kaarten om te printen en een omroeper op het scherm voor groepen. Zie [groepsactiviteiten in het verpleeghuis](/activities/care-home-groups/) voor meer.
+Ja, met wat extra voorbereiding. In een groep houdt u het bij enkele personen, zet u helpers naast iedereen die dat nodig heeft, en kiest u een spel met een duidelijk gedeeld doel. [Plaatjesbingo](/games/picture-bingo/) heeft printbare kaarten en een op het scherm getoonde oproeper voor groepen. Zie [activiteiten voor groepen in verzorgingshuizen](/crafts/craft-group-sessions/) voor meer.
 
-Bij een videogesprek kan de persoon aan de andere kant een plaatje beschrijven terwijl iemand in de kamer wijst en tikt. Houd gesprekken kort en vertrouwd. Onze gids over [telefoon- en videogesprekken](/activities/phone-and-video-calls/) heeft meer tips.
+Bij een videogesprek kan de persoon aan de andere kant een plaatje beschrijven, terwijl iemand in de kamer wijst en tikt. Houd gesprekken kort en vertrouwd. Onze gids over [telefoon- en videogesprekken](/together/staying-connected-from-afar/) bevat meer tips.
 
-## Wat als een spelletje gewoon niet werkt?
+## Wat als een spel gewoon niet werkt?
 
-Op sommige dagen slaat niets aan, en dat zegt niets over jou of over je naaste. Leg het spel weg en probeer een ander moment van de dag, een ander spel of helemaal geen spel. Veel goede activiteiten hebben niets met schermen te maken: muziek, handdoeken vouwen, door een fotoalbum bladeren of een korte wandeling. Bekijk onze [ideeën voor activiteiten](/activities/ideas/) voor meer.
+Sommige dagen slaat niets aan, en dat zegt niets over u of over de persoon. Leg het spel weg en probeer een ander moment van de dag, een ander spel of helemaal geen spel. Veel goede activiteiten hebben niets met schermen te maken: muziek, handdoeken vouwen, door een fotoalbum bladeren of een korte wandeling. Bekijk onze [activiteitenideeën](/activities/ideas/) voor meer.

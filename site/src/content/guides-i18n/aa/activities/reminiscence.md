@@ -1,32 +1,33 @@
 ---
-title: "Kassititaano: Kassiti Sanduuqa, Manô Warraytii kee Suwár"
-seoTitle: "Kas Dagna Lemarih Kassititaano: Esseera Maleh Yan Yaab"
-description: "Kas dagna le numuk kassititaano esseera aallekal ittat maaxisen gurra: suwârh yaaba, kassiti sanduuqa kee manô kitaab, yaab xalisa yaaba luk."
+title: "Yaadannoo Hojjetiyyo: Sanduqa, Seenaa fi Sawirri"
+seoTitle: "Hojjetiyyoo Yaadannoo Dementiyaaf: Gaaffii Malee"
+description: "Namicha dementiyaa qabu waliin gaaffii malee yaadannoo wal-qooddaa: sawirri, sanduqa yaadannoo fi kitaaba seenaa nolaa, jechoota jabeeyyan."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Kassititaano warrayte araca ittalluk wallagoona suwár, miqiyyi hayteem, koora kee
-  warraytotta luk baxxaqisaana axci koboxa. Kassiti sanduuqa qiba, dagô manô
-  kitaab bicisa, hinnay itti gambit suwár wagita. Esseeroota maabbina: "Kassittaa?"
-  kee "Tah iyya?" axcekal, "Ta aracak yoh waris" innaan yaabak xalisa. Cakkik
-  yaaboona akkaluk ruffo le yaaba aallaanam muxxi kicnih tanim kinni.
+  Yaadannoon yaada duraa wal-qooddaa jechuudha: sawirri, meeshaalee, faaruu fi
+  seenaadhaan. Sanduqa yaadannoo ijaaraa, kitaaba seenaa nolaa salphaa
+  tokko qopheessaa, yookaan sawirri wal-bira taa'aa ilaalaa. Gaaffii hin
+  gaafatin: "Yaadatta?" fi "Kun eenyu?" jedhu hin jedhin, akkasumas "Waan kana
+  natti himi." jedhaa afeera jabeessaa. Mariin jabeessaan, sirrii ta'uu
+  isaa caalaa, sirrii ta'uu hin qabu.
 keyPoints:
-  - "Kassititaano yaaba kinni, mokkoro hinna. Numma akke waytam dambik mayan; wallaguk yaabaanam kinni axwah tanim."
-  - "'Kassittaa...?' kee 'Tah iyya?' axcekal, 'Ta ayrók yoh waris' innaan maxcoota kee fantaaxawwa luk yaaba."
-  - "Numuk manô miqiyyik yibbixeen kassiti sanduuqi, gaboobi kee yaabak yabbixeenim yeceema."
-  - "Manô warrayti kitaabi buxah mara, asgalle mara kee wagittoynaani num kassiise lem yayse yaaxigeenimkeh cato yacee."
-  - "Kassiti rookateenat culteek, qokol gaba heenik xalissuk aka yaabal cula."
+  - "Yaadannoon mariidha, qormaata miti. Sirrii ta'uun hin barbaachisu; gammachuun barbaachisa."
+  - "'Yaadatta?' fi 'Kun eenyu?' jedhan irra, 'Guyyaa kana natti himi.' jedhaa yaada fi afeera kenni."
+  - "Sanduqa meeshaalee jireenya namichaa keessaa qabu harka fi mariif wal-qabsiisa."
+  - "Kitaaba seenaa nolaa maatii, afeerroota fi hojjettoota kunuunsaa namicha akka beekan gargaara, dhukkuba qofa osoo hin taane."
+  - "Yaadannoon gaddaa yoo fide, jajjabeessuu jalqabi, booda salphaatti jijjiiri."
 faq:
-  - q: "Kas dagna le marak kassititaano axci macah yan koboxaa?"
-    a: "Kassititaano warrayte waktik warraytotta ittat maaxisaanam kinni, suwár, miqiyyi, koora hinnay viidiyook cato geyak. Tonnaak num-ke-numuk hinnay koboxut tekkelem takkewwam duuda. Kacanik tan yaaba geyaanam kinni meqe axwah tanim, num kassitaamal mokkoro abaanam hinna."
-  - q: "Maccah 'Kassittaa?' iyyu maaxigoo?"
-    a: "Kassit mokkora esseerooti qellisaanam kee sababi aallekal rammisaanam abbicak tanoo waan xaloot baaha waydu. National Institute on Aging num kassitaa waytaamal esseera abaanam xaban meqeemik yeceen. Taway tablinimik yaaba, wohuk sarra numuk isi gaba kaloonu waan gurral fayxi leem edde osisaanam meqe."
-  - q: "Kassiti sanduuqul macah tan miqiyyi heeyoo?"
-    a: "Amaan le, meqe miqiyyi numuk manô taamal xabbaateh tanim doora: taamâ miqiyyi, saytunnooti, kacnu le shaash, kaartoota, kaxxa-maaqô tabeela, fardi ganoonih taamoota hinnay suwârik qokol suwár. Sibit le miqiyyi, qoltelem kee baxxaqisa wayta fula maheenina."
-  - q: "Numma miqiyyit cakkik aalle waayeenik maccah abiyoo?"
-    a: "Mawaaninina. Ku inna suwuri isi toobokoytak iyyaamak, wuli abba-xala tekkek, tu mawaana. Yayse heem korsaanam kacanik tan waktik mokkoro bicissa. Usun warisaanamik kataataay ittalluk wallaga."
+  - q: "Yaadannoon namoota dementiyaa qabanii maal jechuu dha?"
+    a: "Yaadannoon yaada fi muuxannoo darbe wal-qooddaa jechuudha, yeroo baay'ee sawirri, meeshaalee, faaruu yookaan viidiyoodhaan gargaaramuun. Tokkoon tokkoon ykn garee keessatti ta'uu danda'a. Kaayyoon mariin gammachiisaa fi bu'aa qabu, yaadannoo namichaa qorachuu miti."
+  - q: "Maaliif 'Yaadatta?' jedhu hin gaafadhu?"
+    a: "Gaaffiin yaadannoo qorata namicha yoo deebiin dhufuu baatu ajaa'iba fi hadhaa'ina keessa galchuu danda'a. Instituutiin Nama Umurii Biyyaa (National Institute on Aging) waan namichi yaadatu yookaan namicha yaadatu gaafachuu akka waan hin barbaachifne tarreessa. Kanaaf waan ilaaltu irratti yaada kenni, namichi immoo waan barbaadu akka dabalu kennii."
+  - q: "Sanduqa yaadannoo keessatti maal kaasuu qabna?"
+    a: "Meeshaalee nageenya qaban, jabeeyyan, jireenya namichaa waliin wal-qabatan filadhu: hojii, meeshaa mana hojii, huccuu isaa jaallatu, kaardii nyaataa, kaartoota, yaadannoo ispoortii yookaan kopiiwwan sawirrii. Meeshaalee xiyyeeffachuu fi xixiqqoo harkaan dhangala'uu danda'an, akkasumas ori'inaala deebi'uu hin dandeenye hin fudhatin."
+  - q: "Yoo gaddisiifatoota sirrii hin taane yoo dubbatan maal godha?"
+    a: "Dhiisi. Yoo haadha kee sawirri obboleessa ishee yoo ta'us ibsitu obboleessa ishee ta'uu isaa osoo jiraatee, sun ni ta'a. Sirreessuun mariin gammachiisaa gaaffii godha. Seenaa isaan dubbatan hordofi, waliin ni gammadu."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -43,84 +44,85 @@ sources:
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
 related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Kassititaano warrayte saakuut ittalluk wallagaanam kinni. Kas dagna le marak maggo marih warrayte kumootat sugte kassiisi asaaku maaqo gacteelemik gersi waktil yayse gacak raaqa. Suwár, xannaba le miqiyyi, koora kee warraytooti too kassit faakeh ittalluk ruffo le waktî yaaba sin yaceewwam duuda. Inki madqa le: yaaba kinni, mokkoro hinna.
+Yaadannoon yaada duraa wal-qooddaa jechuudha. Namoota dementiyaa qabanii baay'een, yaadannoon waggoota dheeraa dura ture, waan har'a kakaasan caalaa ifaa ta'a. Sawirri, meeshaalee beekamoo, faaruu fi seenaan yaadannoo kana banuu danda'u, waan gammachiisaa wal-qooddaa keessa kennu. Seera tokko qofa: waraqaa gaaffii hin ta'u, mariidha.
 
-## Kassititaano macah yan koboxaa, esserô mokkorok mannal baxsitaa?
+## Yaadannoon maali, fi gaaffii irraa maaltu isa adda?
 
-Kassititaano warrayte saakuuk suwár, miqiyyi, koora hinnay viidiyoot luk numuk isi xalootuk gacisak ittat maaxisaanam kinni. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) tekkem warrayte taama kee warraytooti suwár, miqiyyi, viidiyoot hinnay koorâ cato luk, kitaabal hinnay taableetit ittat maaxisaanam iyyan. Mokkorô esseerooti baxsita: cakki gabaasa yaceenim faxxa, toh kay edde rammisam bahta akke waytek ruffo male.
+Yaadannoon sawirri, meeshaalee, faaruu yookaan viidiyoodhaan yaada wal-qooddaa, saffisa namichaa eeggachuun. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) akka ibsutti, muuxannoo fi seenaa darbe sawirri, meeshaalee, viidiyoo yookaan faaruudhaan wal-qooddaa, kitaaba yookaan tabletiin. Gaaffiin garuu adda: deebii sirrii akka kennu namicha gaafata, kunis ajaa'iba fi hadhaa'ina fidu danda'a.
 
-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) numuk tu hinnay num kassitaa innaan esseero esseraanam xaban meqeemik kassiise. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) dagô waktî kassitit celta esseero xabanik, derre gacte warrayti kassitit yaabaanam xiqsissa.
+[Instituutiin Nama Umurii Biyyaa (National Institute on Aging)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) namicha yaadatu yookaan namicha yaadatu gaafachuu akka waan irra jirtu tarreessa. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) gaaffii yaadannoo yeroo gabaabaa irratti hundaa'an dhiisuu akka qabnu, yeroo fagoo irratti wal-dubbachuu akka qabnu ni gorsa.
 
-| Ta axcekal | Tah geera |
+| Yoo kana gaafate | Kana yaali |
 | --- | --- |
-| "Tah kassittaa?" | "Tah ruffo le ayró celta. Wohuk yoh waris." |
-| "Tah iyya?" | "Koo Aunt Rose badô gariil tan. Too koobiyyata wagit." |
-| "Ta ayró anni sanata?" | "Ta araca kaxxa buxah celta. Too buxal manom mannal sugteeh?" |
-| "Hinna, toh Bill hinna, Frank kinni." | "Usuk kaxxa wallag le numuk celta." |
-| "Toh taway yoh warisseh sugtek." | "Too warrayto kaxxa kacanik liyo." |
+| "Kana yaadatta?" | "Kun guyyaa gammachuu ta'uu fakkaata. Natti himi." |
+| "Kun eenyu?" | "Kun Aantii Roozii dha gombii irra. Uffata ishee ilaali." |
+| "Kun waggaa kam ture?" | "Kun mana dullaa fakkaata. Achi jiraachuun akkam ture?" |
+| "Lakki, kun Biilii miti, Fraankii dha." | "Namicha gammachiisaa fakkaata." |
+| "Kana dura natti himtee turte." | "Seenaa kana jaallachuu nan danda'a." |
 
-## Suwárik esseera maleh mannal yaabaanaah?
+## Sawirri gaaffii malee akkamitti haasofna?
 
-Tablinimik yaaba, sarra num faxek isi gaba edde haamkeh caxxa le gaba acuy.
+Waan ilaaltu jalqabi, booda yaada dabalu namichaaf iddoo kenni.
 
-1. **Itti garil koboxuta.** Suwârih albam sin itti fantaaxawwat tabbixeenik ittalluk wagittaana, miizâ gambik itti wagitak mokkorô gurral hinna.
-2. **Dagooma suwár doora.** Konoy meqe suura maggo sanduuqak tayse. Kaxxa, baxxaqqa le suwár tayse.
-3. **Maro ku gabat migaq acuy.** "Koo kee Abbah aroocah ayró taama" axceet kaxxa taama kalta.
-4. **Baxxaqqa leemik yaaba.** Sara, makinaani, maaqo, ayrô xaloota, fooca. "Mannah tan makinaay. Cisa leem celta."
-5. **Kacanik fantaaxawwa acuy, faxe kal.** "Yoh waris..." hinnay "Maccah tableeh?" Gab-axcekal sugaanay faxe waytam maane.
-6. **Kay gabaasa kataata.** Aka yaabal culeenik, woo yaabak ittalluk gaca.
-7. **Ruffo litinik xalisa.** Daacur geytimak suge kal albam alifa.
+1. **Wal-bira taa'i.** Kitaaba sawirrii kanaa lamaan wal-bira qabaatii ilaaluu, akka gaaffii tokkoo hin taane.
+2. **Sawirri muraasa filadhu.** Sawirri shan gaarii, kuusaa guutuu caalaa gaarii dha. Sawirri ballaa'aa fi ifaa gaarii dha.
+3. **Namoota ofuma kee maqaa.** "Kun ati fi abbaan kee guyyaa heerichaa dha" jechuun dhiphina hambisa.
+4. **Qixxee irratti yaada kenni.** Uffata, konkolaataa, nyaata, qilleensa, fuula. "Konkolaataa kana! Ifa fakkaata."
+5. **Gaafadhu, hin dirqisiisin.** "Natti himi..." yookaan "Maal argita?" jedhi. Callisuun gaarii dha.
+6. **Hordofi.** Yoo waan biraa tokko dubbatan, waliin deemi.
+7. **Yeroo gammachuu jiru dhaabi.** Dadhabuun dhufuu dura kitaaba cufi.
 
-Bicisse suwârih maaxootah, [conversation cards](/games/conversation-cards/) geera. Ku buxah suwár ittat celta ganoonih tabsiisaanamkeh, [photo pairs](/games/photo-pairs/) geera; dooritan suwár ku braawzerit raaqta.
+Sagantaalee sawirri gaaffii fi yaadaa qopheeffaman argachuuf, [kaardii wal-dubbachuu](/games/conversation-cards/) ilaali. Sawirri maatii keetii taphaa salphaa ta'e tokkootti jijjiiruuf, [sawirri lamaan](/games/photo-pairs/) ilaali; sawirri filattan browsera keessatti hafu.
 
-## Kassiti sanduuqa mannal bicisaanaah?
+## Sanduqa yaadannoo akkamitti ijaarra?
 
-Kassiti sanduuqi numuk manô miqiyyik yibbixeen, gaba luk yaabaanamkeh tan koboxa kinni.
+Sanduqa yaadannoo jechuun meeshaalee jireenya namichaa irraa harkaan qabatanii waliin dubbatan qabu jechuudha.
 
-1. **Meqe sanduuq doora** xalissuk fakkiimtam, koobiyyatâ sanduuqa, saaqatâ sanduuqa hinnay qaxarih qasbata.
-2. **Kobox hinnay baxa-baxsal doora.** Taama, saytunno, araca, wuli saakuuta, hinnay inkih dagooma.
-3. **Amaan le miqiyyi gabaasa.** Konooyik taban fanah tan miqiyyi qimboh geytima.
-4. **Qokol suwár kee waraaqat gabaasa.** Maggah tan suwár kee kitaabittek qokol bicisaay kaxxa waraaqitte amaanat heeya.
-5. **Miqiyyi inkitti-inkittuk awqisa.** Inki miqiyyi gaba heenik, kay yaaba acuy, yaab mannal gacaah wagit.
+1. **Sanduqa jabaa filadhu** banuu salphaa, akka sanduqa kophee, sanduqa xuqaa yookaan sanduqa xixiqqaa qurqurii.
+2. **Mata-duree yookaan walitti makuu filadhu.** Hojii, hawwii, iddoo, waggaa kudhan, yookaan wanta xixiqqaa hunda.
+3. **Meeshaalee nageenya qaban walitti qabi.** Meeshaalee shan hanga kudhan jalqabaaf ni ga'u.
+4. **Kopiiwwan waan gatii qabu fayyadami.** Sawirri yookaan waraqaa irraa deebi'anii hin argamne kopiitu kopii godhi, ori'inaala nageenyaan kaai.
+5. **Meeshaa tokko tokko baasi.** Tokko kennii, waa'ee isaa wanta tokko dubbadhu, dubbiin akkamitti akka dhufu ilaali.
 
-Bicisaanâ fanah tan miqiyyi:
+Hammi meeshaalee fakkaatan:
 
-- **Taama:** migaq bardi, dagoona taamâ miqiyyi, yunifoormih calaamata, xisabâ waraaqa, kalkalitte, kaxxa-maaqô kitaaba.
-- **Buxa:** qaxarih gabat yente kaxxa-maaqô waraaqa, shaash, foocah faylaata hinnay ruffo le marro.
-- **Saytunnooti:** kusaatâ koboxa, buullâ kubba, doqiyya, xanxuub.
-- **Baxa-baxsale araca:** bostâ kaartoota, kaartá, daqô sooleela, ku baaxô gaazetta.
-- **Buxah maro:** suwârik qokol, urrih taswiira, aroocah doora.
+- **Hojii:** qabxii maqaa, meeshaa xixiqqaa, qabxii uffata hojii, galmee, mucaa nyaataa koosaa.
+- **Mana:** kaardii nyaataa barreeffama isaanii qabu, mana'a shaayii, huccuu yookaan xiyyaa jaallatan.
+- **Hawwii:** dhuumaa qaraa malee, sosoo, boolii, daqiiqoo dhangala'aa.
+- **Iddoowwan:** kaartoota, karaa, meeshaa turistii, mata-duree magaalaa fi karaa hoodaa.
+- **Maatii:** kopiiwwan sawirrii, sawirrii ijoollee, afeera fudhattii.
 
-Sibit le miqiyyi, qoltelem kee rookateenat baaha waam kalteeni meqe, sin celtaamah akke waytek.
+Meeshaalee qaraa, meeshaalee yoo liqimfamanii dhangala'uu danda'u, fi yaadannoo dhiphisiisaa fidu yoo hin beekin hin galchin.
 
-## Manô warrayti kitaab mannal bicisaanaah?
+## Kitaaba seenaa nolaa akkamitti ijaarra?
 
-Manô warrayti kitaabi suwár kee caxxa le waraaqitte luk numuk mano baxxaqisa kitaab kinni. Ittalluk wagitoonuh meqe, tonnaak asgalle maray care abta num inkih yaaxigeenimkeh cato yacee.
+Kitaabni seenaa nolaa albuumii salphaa sawirrii fi barreeffama gabaabaa jireenya namichaa irratti qabu. Waliin ilaaluuf, afeeruu fi hojjettoota kunuunsaa namicha guutumaan guutuutti akka hubatan gargaara.
 
-1. **Kitaabâ cayna doora.** Faayil, pirintik yewqe suwârih kitaaba, hinnay taableetit yaalen viidiyoo.
-2. **Dagooma baxsiyya bicisa.** Qunxaaneyna, madrasa, taama, buxa, sugte araca, iimaana, saytunno, kacnu le maaqo kee koora.
-3. **Inki warqatal inki hinnay namma suura heeya** kaxxa fula luk: "Mary, 22 sanat luk, baankit taama qimbiseh sugte ayró."
-4. **Kacanu leem kee caada heeya.** "Bun caxâ cado luk yaaqube. Ayrobaqó koora kicni. Kaxxa raaq le TV ma-kicna." Tah qokol yacee marak yaaxigeenimkeh cato yacee.
-5. **Num isih faxannal edde heeya**, suwár doorak, warraytoota warisak hinnay wagitak.
-6. **Edde oosaay suga.** Dhumuk taamite waytek kacanik taamata.
+1. **Akkaataa filadhu.** Binder sheet protectors waliin, kitaaba sawirrii maxxanfame, yookaan slaayidii tablet irratti.
+2. **Kutaa muraasa qopheessi.** Ijoollummaa, barumsa, hojii, maatii, iddoowwan jireenyaa, amantaa, hawwii, nyaata fi faaruu jaallatan.
+3. **Fuula tokkoo tokkoo keessatti sawirri tokko yookaan lama godhi,** barreeffama gabaabaa fi ifaa guddaa qabu: "Maariyaam, umurii 22 keessatti, hojii baankii jalqabde."
+4. **Jaalala fi duudhaalee galchi.** "Buna aannaan wajjin dhugu. Faaruu Dilbata jaalata. Sagalee TV guddaa jibba." Kunis namni kunuunsu hunda gargaara.
+5. **Namicha hirmaachisi** hangam barbaade, sawirri filachuun, seenaa himuun, yookaan kitaaba sana ilaaluun.
+6. **Itti dabali.** Guutamuu hin qabu, gargaaruu danda'a.
 
-## Gersi kassititaano ganooni
+## Yaadannoo biroo
 
-- **Qunxaaneynal sugte koora culaay** too aracak yaaba. Wagit [music activities](/activities/music/).
-- **Warrayte waktik buxah viidiyoo hinnay TV wagit.**
-- **Qunxaaneynal akmiyen maaqo bicisaay** soono luk yaaba.
-- **Ku baaxô kaarta wagitak** yaaxigeen gariil gaba heeya.
-- **Warrayte waraaqat kee kitaab wagitaay** gati, sara kee makinaanik yaaba.
-- **Warisaanam silkik kasba**, sin idni luk, buxah maroh.
-- **Silkih yaabat ittat maaxisa.** Viidiyook yaabat inki suura gaba heeya; wagit [phone and video calls](/activities/phone-and-video-calls/).
-- **Asgallat suura hinnay miqiyyi luk gaca.** Ganoona kaxxa fantaaxawwa geyta; wagit [visiting](/activities/visiting/).
+- **Faaruu ijoollummaa isaanii taphadhu,** yaada isaan irra ceesisan wal-qooddaa. Ilaali [taphaa faaruu](/creative-calm/music-for-calm-and-connection/).
+- **Viidiyoo maatii yookaan agarsiiftuu gaaffii isaanii** ilaalaa.
+- **Nyaata ijoollummaa isaanii bulchi,** urgaan isaa dubbii qajeelchu.
+- **Maapiin magaalaa isaanii ilaali,** karaa beekamoo irratti eeri.
+- **Kataloogii yookaan maagaziinii durii ilaali,** gatii, uffata fi konkolaataa wal-dubbadhu.
+- **Seenaa isaanii galmeessi** bilbilaan, fudhannaan isaanii, maatiif.
+- **Yeroo wal-argu sawirri tokko qabadhu.** Yeroo bilbila viidiyoo sawirri tokko agarsiisi; ilaali [bilbila fi viidiyoo](/together/staying-connected-from-afar/).
+- **Yeroo ilaaltu sawirri yookaan meeshaa fidi.** Yeroo sanatti xiyyeeffannaa salphaa kenna; ilaali [ilaalchaa](/together/visiting-someone-in-care/).
 
-## Kassiti rookat baahek maccah abiyoo?
+## Yaadannoo dhiphisiisaa yoo ta'e maal godha?
 
-Wuli kassiti rookata, naddom hinnay meesi bahta. Num rammisek, soolaay, xalisaay kacanik aka yaaba hinnay taamat cula. Sugteemik mokkoro ma-abina. Family Caregiver Alliance maro dambit yan iyyeenik yayse amol aalle waam kaslissa, usun yayse heem xabak tan rookati numma kinni axce kassiise. Rabe numuk manot yan innaan yaabak sugeek, xalootul gaca: "Kaa kassitta. Wohuk yoh waris."
+Yaadannoo tokko tokko gaddaa, gadhiisuu yookaan sodaa fida. Yoo namichi gaddu, dhaabi, jajjabeessi, booda salphaatti mata-duree yookaan hojii jijjiiri. Waan uumame irratti hin falmin. Family Caregiver Alliance namicha dogoggora irra jiraa jedhee amansiisuu akka hin yaalle gorsa, akkasumas yaadaa isaan agarsiisan, kunis dhugaa dha, deebisuu akka qabnu ni gorsa. Yoo namicha du'e akka jiraatu ta'een dubbatan, yaada sana deebisi: "Ishee gaddu. Ishee waa'ee gaarii natti himi."
 
-## Taamâ barittoota macah ittaa?
+## Qorannoon maal jedha?
 
-[Cochrane review of reminiscence](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia) 22 mokkoro kee 1,972 numuk geytimte baritto, kassiisih taama baxsa le aracal dagooma baxsiyya luk yembexxeqem geyte. Kas dagna le maral kaxxa dambi luk ma-geytiminna. Kassititaano kacanik tan waktii kee wallag bahta taagah xiqsisna, qaffi daway hinna. Xalisa yaaba kassiisaanamkeh, wagit [communication tips](/caregiving/communication-tips/).
+[Qorannoo Cochrane waa'ee yaadannoo](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), qorannoo 22 fi namoota 1,972 hammatu, bu'aan isaa ni jijjiirama, xiqqaa fi iddoo fi akkaataa irratti hundaa'a jedhe. Akkasumas, namoota dementiyaa qabanii irratti miidhaa akka hin qabne argame. Yaadannoon wal-qooddaa gammachiisaa fi bu'aa qabu ta'uu danda'a jennee yaadnu, malee yaala tokkoo akka hin ta'in. Dubbii salphaa irratti odeeffannoo dabalataa, ilaali [tarkaanfiiwwan jalqabaa booda ragaa dhukkubaa](/caregiving/after-dementia-diagnosis/).

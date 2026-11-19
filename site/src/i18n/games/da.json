@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Billedpar",
-    "seoTitle": "Parspil ved demens: Billedpar",
+    "seoTitle": "Hukommelsesspil for voksne: Billedpar",
     "h1": "Billedpar: et roligt parspil",
-    "description": "Et gratis, roligt parspil for mennesker, der lever med demens. Store billeder bliver synlige, der er intet ur eller point, og du vælger 4 til 12 brikker.",
+    "description": "Et gratis, roligt hukommelsesspil for voksne og ældre, herunder mennesker med demens. Billederne kan blive vist. Ingen timer og ingen point.",
     "short": "Find de to billeder, der er ens. Billederne kan blive synlige.",
     "players": "1 eller 2 personer side om side",
     "intro": "Tryk på et billede, og tryk derefter på det, der passer til. Billederne er som standard synlige, så der er intet at huske. Når to billeder hører sammen, får de en gylden ramme og et flueben.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Find det samme",
-    "seoTitle": "Find det samme billede: Enkelt spil ved demens",
+    "seoTitle": "Find det samme billede: Enkelt billedspil",
     "h1": "Find det samme billede",
-    "description": "Ét billede øverst, to til fire nedenunder. Tryk på det, der er det samme. Et roligt, gratis billedspil for mennesker, der lever med demens, uden ur.",
+    "description": "Ét billede øverst, to til fire nedenunder. Tryk på det, der er det samme. Et roligt, gratis billedspil for voksne, ældre og familier, uden timer.",
     "short": "Se på billedet øverst, og tryk på det samme nedenunder.",
     "players": "1 eller 2 personer",
     "intro": "Ét billede står øverst på skærmen. Nedenunder er der to, tre eller fire billeder. Tryk på det, der er det samme. Det er ét enkelt valg ad gangen med god plads til at snakke.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Find skyggen",
-    "seoTitle": "Skyggespil ved demens: Gratis online",
+    "seoTitle": "Skyggespil: Gratis online for voksne",
     "h1": "Find skyggen: et roligt billedspil",
-    "description": "En mørk skygge øverst, to til fire billeder nedenunder. Tryk på det billede, der giver skyggen. Et gratis, roligt skyggespil ved demens, uden ur.",
+    "description": "En mørk skygge øverst, to til fire billeder nedenunder. Tryk på det billede, der laver skyggen. Et gratis, roligt skyggespil uden timer.",
     "short": "Se på skyggen, og tryk på det billede, der giver den.",
     "players": "1 eller 2 personer",
     "intro": "At finde skygger er en kendt aktivitet fra ark på papir, her med store billeder og uden noget at udskrive. En blød skygge står øverst på skærmen, og to, tre eller fire billeder venter nedenunder. Tryk på det, der giver skyggen. Former som en cykel, en paraply eller en tekop er også nemme at tale om.",
@@ -100,8 +100,8 @@
         "a": "Nej. Der er intet ur, ingen point, ingen tæller af træk og ingen tab. Du kan stoppe når som helst, og at stoppe midtvejs er en helt god måde at slutte på."
       },
       {
-        "q": "Er skyggespil godt for mennesker med demens?",
-        "a": "Det kan være en rar, enkel aktivitet for nogle, især i de tidligere faser. Former er nemmere at genkende end ord. Det er til fornøjelse og samtale, ikke en prøve, og det behandler eller bremser ikke demens. Hvis det giver frustration, så prøv Find det samme, eller se bare på billeder sammen."
+        "q": "Kan mennesker med demens more sig med skyggespil?",
+        "a": "Mange voksne synes godt om det, herunder nogle mennesker med demens, ofte i de tidlige stadier. Former er lettere at genkende end ord. Det er til glæde og samtale, ikke en test, og det kan hverken behandle eller bremse demens. Hvis det skaber frustration, kan du prøve Find det samme eller blot kigge på billeder sammen."
       },
       {
         "q": "Hvad sker der, hvis der trykkes på det forkerte billede?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Fire sammen",
+    "seoTitle": "Billedgrupperingsspil for voksne: Fire sammen",
+    "h1": "Fire sammen: et roligt billedgrupperingsspil",
+    "description": "Nogle af billederne hører sammen i et tema, fx frugt eller vejr. Tryk på dem, der hører sammen. Et gratis, roligt grupperingsspil uden timer og uden point.",
+    "short": "Find de billeder, der hører sammen, fx frugt eller vejr.",
+    "players": "1 eller 2 personer",
+    "intro": "Et lille sæt billeder, og nogle af dem hører sammen: måske fire slags frugt eller fire måder at rejse på. Tryk på dem, der deler et tema. Hvis et billede hører til noget andet, nævner spillet blot det og venter. Efter en stille pause viser et hint temaet, og \"Vis gruppen\" afslører svaret når som helst.",
+    "howTo": [
+      "Vælg fire, seks eller otte billeder. Fire er det enkleste, med tre, der hører sammen.",
+      "Se billederne sammen, og tal om, hvad de har til fælles.",
+      "Tryk på hvert billede, der hører til i gruppen. Det får en guldkant og et hakmærke.",
+      "Hvis et billede hører til noget andet, nævner spillet det og venter. Tag din tid.",
+      "Tryk på \"Vis gruppen\", når du vil, og derefter \"Et nyt sæt\" for nye billeder."
+    ],
+    "tips": [
+      "Sig højt, hvad du lægger mærke til: \"De to her er begge ting, man kan spise.\"",
+      "Der er ingen hast. Et hint, der nævner temaet, dukker op efter en pause, og du kan lade være at tage det.",
+      "Tal om gruppen, når den er fundet: en yndlingsfrugt, en togrejse, vejret i dag."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er ingen ur, score, trækteller eller tab. Du kan stoppe når som helst, og at stoppe halvvejs er en helt fin måde at afslutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis et billede uden for gruppen bliver trykket på?",
+        "a": "Intet ubehageligt. Der er ingen summer, intet rødt kryds og ingen rystelser. Spillet nævner billedet, siger at det hører til noget andet, og venter på næste tryk."
+      },
+      {
+        "q": "Hvilke grupper findes der?",
+        "a": "Hverdagstemaer, der ikke kræver særlig viden: frugt, dyr, blomster, vejr, måder at rejse på, ting til en varm drik og ting, der bages i ovnen. Hvert billede hører kun til én gruppe."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der kræves ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Den, der ikke passer",
+    "seoTitle": "Den, der ikke passer: billedspil for voksne",
+    "h1": "Den, der ikke passer: et afslappet billedspil",
+    "description": "Tre eller fire billeder, og alle undtagen ét deler et tema, fx frugt eller vejr. Tryk på det, der ikke hører til. Gratis, roligt, uden timer og uden point.",
+    "short": "Find det billede, der ikke hører til sammen med de andre.",
+    "players": "1 eller 2 personer",
+    "intro": "Tre eller fire billeder, og alle undtagen ét hører sammen: frugt, måske, eller måder at rejse på. Tryk på det billede, der ikke hører til. Hvis et billede faktisk hører til de andre, siger spillet blot det og venter. Efter en stille pause viser et hint, hvad de andre har til fælles, og \"Vis mig\" peger på den, der ikke passer, når som helst.",
+    "howTo": [
+      "Vælg tre eller fire billeder. Tre er det enkleste.",
+      "Se billederne sammen, og tal om, hvad de fleste har til fælles.",
+      "Tryk på det billede, der ikke hører til. Det får en guldkant og et hakmærke.",
+      "Hvis et billede hører til de andre, siger spillet det og venter. Tag din tid.",
+      "Tryk på \"Vis mig\", når du vil, og derefter \"Et nyt sæt\" for nye billeder."
+    ],
+    "tips": [
+      "Tal det igennem højt: \"Æblet og peberfrugten er begge frugt. Hvad med bussen?\"",
+      "Der er ingen hast. Et hint, der nævner temaet, dukker op efter en pause, og du kan lade være at tage det.",
+      "Ethvert billede er et godt udgangspunkt for en samtale: en yndlingsfrugt, en bustur, en regnfuld dag."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er ingen ur, score, trækteller eller tab. Du kan stoppe når som helst, og at stoppe halvvejs er en helt fin måde at afslutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis et billede, der hører til, bliver trykket på?",
+        "a": "Intet ubehageligt. Der er ingen summer, intet rødt kryds og ingen rystelser. Spillet nævner billedet, siger at det hører sammen med de andre, og venter på næste tryk."
+      },
+      {
+        "q": "Hvordan vælges billedet, der ikke passer?",
+        "a": "Billederne kommer fra hverdagstemaer, der ikke kræver særlig viden: frugt, dyr, blomster, vejr, måder at rejse på, ting til en varm drik og ting, der bages i ovnen. Hvert billede hører kun til ét tema, og det billede, der ikke passer, kommer altid fra et andet tema."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der kræves ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Farvematch",
+    "seoTitle": "Farvematch: et roligt billedspil",
+    "h1": "Farvematch: Find billederne i én farve",
+    "description": "En stor farveflade med sit navn og fire eller seks billeder. Tryk på alle billeder i den farve. Ingen timer, ingen point, og en anden farve nævnes blot. Gratis at spille og printe.",
+    "short": "Find alle billeder, der har samme farve som den viste.",
+    "players": "1 eller 2 personer, eller en voksen og et barn",
+    "intro": "Der vises en stor farveflade med farvens navn skrevet ved siden af, og nedenunder er fire eller seks billeder. Tryk på alle billeder i den farve: for eksempel et rødt æble og en rød kop. Hvis et billede har en anden farve, nævner spillet blot farven (\"Peren er grøn.\") og venter. \"Vis dem\" peger på de billeder, der passer, når som helst, og \"Anden farve\" går videre.",
+    "howTo": [
+      "Vælg fire eller seks billeder. Fire er det enkleste.",
+      "Kig på farven, og læs navnet sammen.",
+      "Tryk på alle billeder i den farve. Hvert billede får en tyk kant og et hak.",
+      "Hvis et billede har en anden farve, siger spillet, hvilken farve det er, og venter. Tag den tid, I har brug for.",
+      "Tryk på \"Vis dem\", når du vil, og derefter på \"Anden farve\" for en ny farve."
+    ],
+    "tips": [
+      "Sig farven højt, og kig så rundt i rummet: hvad andet har den farve?",
+      "Brug dine egne ord, hvis du vil. \"Tomat\" eller \"himmel\" er lige så godt som \"rød\" eller \"blå\".",
+      "Det virker lige så godt at pege som at trykke. Sid ved siden af hinanden, så I begge kan se skærmen."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er ingen ur, score, trækteller eller nederlag. Du kan stoppe til enhver tid, og at stoppe halvvejs er en helt god måde at afslutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis man trykker på et billede i en anden farve?",
+        "a": "Intet ubehageligt. Der er ingen summer, intet rødt kryds og ingen rystelser. Spillet nævner billedet og dets farve, for eksempel \"Peren er grøn.\", og venter på det næste tryk."
+      },
+      {
+        "q": "Er farven det eneste hjælpemiddel?",
+        "a": "Nej. Farven vises som en stor flade og også skrevet som et ord, og hvert billede nævnes med navn, når der trykkes på det. Den, der har svært ved at se en farve, kan stadig spille ved at læse navnet."
+      },
+      {
+        "q": "Er alle billederne virkelig i den farve?",
+        "a": "Billederne er udvalgt i hånden, og kun billeder, hvor hovedgenstanden tydeligt har én farve. Billeder med flere farver, såsom en drage eller en bi, er udeladt."
+      },
+      {
+        "q": "Findes der en papirudgave?",
+        "a": "Ja. Et ark på én side har fire rækker. Hver række nævner en farve og viser fire billeder, man kan pege på eller sætte en ring om."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der kræves ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Halvdele matcher",
+    "seoTitle": "Halvdele matcher: et roligt billedspil",
+    "h1": "Halvdele matcher: Sæt to halvdele af et billede sammen",
+    "description": "De venstre halvdele af to eller tre billeder på den ene side, og deres højre halvdele på den anden. Tryk på en halvdel og derefter på den halvdel, der passer til. Ingen timer, ingen point, og halvdele, der ikke passer, skilles blot igen. Gratis at spille og printe.",
+    "short": "Tryk på de to halvdele, der passer sammen og danner ét billede.",
+    "players": "1 eller 2 personer, eller en voksen og et barn",
+    "intro": "Hvert billede er skåret midt over. De venstre halvdele af to eller tre billeder står i den ene kolonne, og deres højre halvdele, i en anden rækkefølge, står i den anden. Tryk på en halvdel til venstre, og tryk derefter på den halvdel til højre, der passer, for eksempel tuden på en kedel og dens håndtag. Halvdele, der passer, sættes sammen til et helt billede. Halvdele, der ikke passer, skilles igen, og spillet siger det stille og roligt. \"Vis mig\" sætter dem alle sammen.",
+    "howTo": [
+      "Vælg to eller tre billeder. To er det enkleste.",
+      "Kig på de venstre halvdele sammen. Hvad tror I, hver af dem er en del af?",
+      "Tryk på en halvdel til venstre, og tryk derefter på den halvdel til højre, der passer. Det virker også den anden vej rundt.",
+      "Halvdele, der passer, sættes sammen med en tyk kant og et hak. Halvdele, der ikke passer, skilles igen, og du kan prøve en anden.",
+      "Tryk på \"Vis mig\", når du vil, og derefter på \"Et andet sæt\" for nye billeder."
+    ],
+    "tips": [
+      "Følg kanten af en halvdel med en finger. Hvor når tegningen hen til midten?",
+      "Sig, hvad du kan se: \"Den har et håndtag.\" Det er ikke nødvendigt at nævne alle billederne.",
+      "Det virker lige så godt at pege som at trykke. Sid ved siden af hinanden, så I begge kan se skærmen."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er ingen ur, score, trækteller eller nederlag. Du kan stoppe til enhver tid, og at stoppe halvvejs er en helt god måde at afslutte på."
+      },
+      {
+        "q": "Hvad sker der, hvis to halvdele ikke passer sammen?",
+        "a": "Intet ubehageligt. Der er ingen summer, intet rødt kryds og ingen rystelser. De to halvdele skilles igen, og spillet siger: \"De to passer ikke sammen. Prøv en anden.\" Intet tælles."
+      },
+      {
+        "q": "Er billederne nemme at skelne fra hinanden?",
+        "a": "Ja. Billederne er udvalgt i hånden, og to billeder på samme plade er aldrig fra samme gruppe, for eksempel to frugter eller to dyr. Billeder, hvor de to halvdele ligner hinanden, såsom solen eller en regnbue, er udeladt."
+      },
+      {
+        "q": "Findes der en papirudgave?",
+        "a": "Ja. Et enkelt ark har venstre halvdel af tre billeder i den ene kolonne og højre halvdel af de samme billeder, i en anden rækkefølge, i den anden. Tegn en linje fra hver venstre halvdel til den halvdel, der passer til den."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Farv efter tal",
+    "seoTitle": "Farv efter tal: Et roligt spil med store felter",
+    "h1": "Farv efter tal: Udfyld felterne i den farve, du selv vælger",
+    "description": "Et gitter med store nummererede felter og en nøgle med fire farver og deres navne. Vælg en farve, og tryk derefter på felterne for at udfylde dem. Enhver farve er i orden, der er ingen timer eller point, og en knap udfylder resten efter tallene. Gratis at spille og printe.",
+    "short": "Vælg en farve, og tryk derefter på de nummererede felter for at udfylde dem.",
+    "players": "1 eller 2 personer, side om side",
+    "intro": "Et kvadratisk gitter med store felter, hvert med et tal, og en nøgle ovenover med fire farver, hver med sit tal og sit skrevne navn. Vælg en farve fra nøglen, og tryk derefter på felterne for at udfylde dem. Gitteret er 4 gange 4 felter til at begynde med, og 6 gange 6 og 8 gange 8, når du ønsker flere felter. Når hvert felt har farven fra sit tal, er gitteret billedet på arket. Felter, der er udfyldt med andre farver, er blot dit eget billede, og spillet siger ikke noget om det. \"Udfyld efter tallene\" udfylder alle tomme felter for dig.",
+    "howTo": [
+      "Vælg gitterstørrelsen. 4 gange 4 har de største felter og er det enkleste.",
+      "Se på nøglen ovenover gitteret. Hver farve har et tal og et navn, for eksempel 1 Gul.",
+      "Tryk på en farve i nøglen, og tryk derefter på de felter, du gerne vil udfylde med den.",
+      "Brug farven på tallet, eller en hvilken som helst anden farve. Begge dele er fint.",
+      "Tryk på \"Udfyld efter tallene\" for de tomme felter, \"Ryd\" for at starte gitteret forfra, eller \"Et andet billede\" for et nyt."
+    ],
+    "tips": [
+      "Sid side om side, og tag tur: Den ene vælger farven, den anden trykker på feltet.",
+      "Tal om farverne: \"Jeg kan godt lide den grønne.\" Der er ingen grund til at sige, hvad billedet skal forestille.",
+      "På en smal skærm kan gitteret 8 gange 8 rulles sidelæns inde i sin egen boks. Felterne bevarer en behagelig størrelse.",
+      "Papirudgaven virker lige så godt med blyanter ved et sengebord."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er ingen ur, point, trækteller eller nederlag. Du kan stoppe på et hvilket som helst tidspunkt, og at stoppe halvvejs er en helt god måde at afslutte på."
+      },
+      {
+        "q": "Hvad hvis jeg bruger en anden farve end tallet?",
+        "a": "Der sker ingenting, og det er netop pointen. Enhver farve kan komme i ethvert felt, og spillet siger ikke noget om det. Når hvert felt har farven fra sit tal, siger spillet det blidt, men et billede i dine egne farver er lige så godt."
+      },
+      {
+        "q": "Kan folk med farveblindhed skelne de fire farver fra hinanden?",
+        "a": "Det er de valgt til. Hver farve har også et tal, et skrevet navn og sin egen lille form, så farven aldrig er den eneste måde at skelne dem på. De fire udfyldninger er kontrolleret med simuleringer af rød-grøn og blå-gul farveblindhed, og de adskiller sig også i lysstyrke. En person med farveblindhed har endnu ikke prøvet dem, så sig gerne til, hvis to ser ens ud."
+      },
+      {
+        "q": "Er felterne store nok til rystelser eller en lille skærm?",
+        "a": "Hvert felt er mindst 48 pixels bredt, og 56 på gitteret 4 gange 4. Hvis et gitter er for bredt til skærmen, kan det rulles sidelæns inde i sin egen boks i stedet for at gøre felterne mindre."
+      },
+      {
+        "q": "Findes der en papirudgave?",
+        "a": "Ja. Et enkelt ark har et nummereret gitter og nøglen med fire farver og deres navne. Farv hvert felt med en blyant i farven fra dets tal, eller i en hvilken som helst anden farve."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Mønstermager",
+    "seoTitle": "Mønstermager: Tegn en flise, og print mønstret",
+    "h1": "Mønstermager: Tegn en flise, og se den gentage sig",
+    "description": "Skift felterne i en lille flise, og se den gentage sig til et mønster ved siden af, i fire farver, der hver har et navn og en form. Ingen timer eller point. Gratis at spille og printe.",
+    "short": "Skift felterne i en lille flise, og se den gentage sig til et mønster.",
+    "players": "1 eller 2 personer, side om side",
+    "intro": "En lille flise på 3 gange 3 felter, eller 4 gange 4 hvis du foretrækker det, og ved siden af den \"dit mønster\": den samme flise gentaget i en blok. Tryk på et felt, og det skifter til den næste af fire farver, hver med sit eget skrevne navn og sin form. Mønstret ved siden af ændrer sig med det samme. Der findes intet rigtigt mønster, og intet gemmes eller sendes. \"Print mit mønster\" lægger det gentagne mønster på én side, så du kan beholde det, farvelægge det eller give det væk.",
+    "howTo": [
+      "Se på flisen og på dit mønster ved siden af. De er den samme flise, gentaget.",
+      "Tryk på et felt. Det skifter til den næste farve i rækken af fire farver ovenfor.",
+      "Bliv ved med at trykke på felterne, indtil mønstret ser ud, som du gerne vil have det. Ethvert mønster er et godt mønster.",
+      "Tryk på \"Overrask mig\" for en ny flise, eller \"Start forfra\" for en tom. \"Sæt den tilbage\" henter den flise, du havde før.",
+      "Tryk på \"Print mit mønster\", hvis du gerne vil have det på papir, eller tryk på Hvil for at stoppe."
+    ],
+    "tips": [
+      "Sid side om side og skift om: den ene trykker på en firkant, den anden fortæller, hvad hun eller han lægger mærke til.",
+      "Tal om det, I ser: \"Det ligner en blomst.\" Det er ikke nødvendigt at give noget et navn.",
+      "Prøv den samme flise i kun to farver, og derefter igen i alle fire.",
+      "På papir kan mønstret farvelægges med blyanter, klippes i strimler til et kort eller bruges til at pakke en lille gave ind."
+    ],
+    "faq": [
+      {
+        "q": "Er der et stopur eller en score?",
+        "a": "Nej. Der er ingen tid, ingen score, ingen tæller for træk og ingen nederlag. Du kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at slutte på."
+      },
+      {
+        "q": "Bliver det, jeg laver, gemt eller sendt?",
+        "a": "Nej. Din flise bliver kun på denne side. Den bliver ikke gemt, uploadet eller registreret, og den er væk, når du lukker siden. Hvis du gerne vil beholde et mønster, kan du udskrive det."
+      },
+      {
+        "q": "Hvad hvis jeg trykker på den forkerte firkant eller rydder flisen ved en fejl?",
+        "a": "Der findes ingen forkert firkant: tryk på den igen for at gå videre til den næste farve. Efter \"Start forfra\" eller \"Overrask mig\" henter \"Sæt den tilbage\" den flise, du havde."
+      },
+      {
+        "q": "Kan personer med farveblindhed skelne de fire farver fra hinanden?",
+        "a": "De er valgt, så det kan lade sig gøre. Hver farve har også et skrevet navn og sin egen lille form i hver firkant, så farve aldrig er den eneste måde at skelne dem på. De fire farver er kontrolleret med simuleringer af rød-grøn og blå-gul farveblindhed. En person med farveblindhed har endnu ikke prøvet dem, så sig gerne til, hvis to ligner hinanden."
+      },
+      {
+        "q": "Er firkanterne store nok til en rysten i hånden eller en lille skærm?",
+        "a": "Hver firkant er mindst 56 pixels bred. Hvis flisen er for bred til skærmen, kan den rulles vandret inde i sin egen boks i stedet for at gøre firkanterne mindre."
+      },
+      {
+        "q": "Findes der en udgave på papir?",
+        "a": "Ja. \"Udskriv mit mønster\" udskriver det mønster, du har lavet, på én side med de fire farver og deres navne. Det fungerer fint i sort-hvid, fordi hver farve har sin egen form."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Byg sammen",
+    "seoTitle": "Byg sammen: To personer bygger ét mønster",
+    "h1": "Byg sammen: To personer, ét gitter",
+    "description": "To personer skiftes til at placere en brik i et fælles gitter, indtil det er fyldt. Hver har sin egen farve med et navn og en form. Ingen vinder, og der er hverken tid eller score. Gratis at spille og udskrive.",
+    "short": "Skiftes til at lægge brikker med en person ved siden af, så et fælles gitter bliver fyldt.",
+    "players": "2 personer, side om side",
+    "intro": "Et fælles gitter med 4 gange 4 felter, eller 3 gange 3 hvis du foretrækker det. Hver af jer vælger en farve, og hver farve har sit eget skrevne navn og sin egen form. I skiftes: når det er din tur, trykker du på et tomt felt for at lægge din brik der. Når alle felter har en brik, er billedet bygget sammen. Der er ingen vinder, fordi I laver det sammen som et par, og intet bliver gemt eller sendt. \"Udskriv gitteret\" lægger et tomt gitter på én side, så I kan bygge med to blyanter.",
+    "howTo": [
+      "Hver af jer vælger en farve. En farve, som den anden person har valgt, er markeret \"I brug\".",
+      "Den første person begynder. Skærmen viser, hvis tur det er, og hvilken farve der hører til.",
+      "Tryk på et tomt felt for at lægge din brik der. Turen går så til den anden person.",
+      "Hvis du hellere vil lade være med at lægge en brik, kan du trykke på \"Pas\". Begge må passe når som helst.",
+      "Når alle felter har en brik, har I bygget billedet sammen. Tryk på \"Start forfra\" for at bygge et nyt, eller tryk på Hvil for at stoppe."
+    ],
+    "tips": [
+      "Sid side om side, så I begge kan se og nå skærmen. Tal undervejs: \"Jeg lægger min ved siden af din.\"",
+      "Prøv at bygge et mønster med striber, et skakbræt eller en kant, eller læg brikkerne et vilkårligt sted. Begge dele er fine.",
+      "Et barn eller en person, der hurtigt bliver træt, kan passe så tit, de har lyst til. Billedet bliver stadig bygget sammen.",
+      "På papir bruger hver person én blyant og tegner sin egen form i de tomme firkanter."
+    ],
+    "faq": [
+      {
+        "q": "Er der en vinder, et stopur eller en score?",
+        "a": "Nej. Der er ingen vinder, fordi I bygger ét billede sammen. Der er ingen tid, score, optælling af brikker eller nederlag. Du kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at slutte på."
+      },
+      {
+        "q": "Bliver det, vi laver, gemt eller sendt?",
+        "a": "Nej. Gitteret bliver kun på denne side. Det bliver ikke gemt, uploadet eller registreret, og det er væk, når du lukker siden. Hvis du gerne vil beholde det, kan du udskrive gitteret og bygge videre på papir."
+      },
+      {
+        "q": "Hvad hvis jeg lægger en brik det forkerte sted?",
+        "a": "Der findes ikke noget forkert sted. Tryk på \"Tag den sidste brik tilbage\", så går turen tilbage til dig. Du kan tage tilbage ét trin ad gangen, og et pas kan også tages tilbage."
+      },
+      {
+        "q": "Kan personer med farveblindhed skelne de fire farver fra hinanden?",
+        "a": "De er valgt, så det kan lade sig gøre. Hver farve har også et skrevet navn og sin egen lille form i hver brik, så farve aldrig er den eneste måde at skelne dem på. De fire farver er kontrolleret med simuleringer af rød-grøn og blå-gul farveblindhed. En person med farveblindhed har endnu ikke prøvet dem, så sig gerne til, hvis to ligner hinanden."
+      },
+      {
+        "q": "Er felterne store nok til en rysten i hånden eller en lille skærm?",
+        "a": "Hvert felt er mindst 56 pixels bredt. Hvis gitteret er for bredt til skærmen, kan det rulles vandret inde i sin egen boks i stedet for at gøre felterne mindre."
+      },
+      {
+        "q": "Findes der en udgave på papir?",
+        "a": "Ja. \"Print the grid\" udskriver et tomt gitter på én side med de to farver og deres navne, så I kan bygge med to blyanter. Det virker også i sort-hvid, fordi hver farve har sin egen form."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Kast siddende med point-kort",
+    "seoTitle": "Kast siddende med point-kort: et sækkekast-spil for to",
+    "h1": "Kast siddende med point-kort: kast sammen ved et bord",
+    "description": "To personer ved et bord skiftes til at kaste en blød sækkekast-pose ned i et stort mål og holder styr på pointene på papir. Intet er tidtaget eller point-sat. Gratis at udskrive.",
+    "short": "Skiftes til at kaste en sækkekast-pose mod et stort mål, med pointene på papir.",
+    "players": "2 personer, ved et bord",
+    "intro": "Et roligt kastespil for to personer, der sidder ved et bord. I lægger et udskrevet mål på bordet og skiftes til at kaste en blød sækkekast-pose, eller en oprullet strømpe, så den lander på ringene. Hver af jer holder styr på pointene ved at sætte kryds i felter på papiret, og I ser på krydsene sammen, når I stopper. Intet er tidtaget, intet lægges sammen på skærmen, og intet gemmes eller sendes. Læs venligst sikkerhedsnoterne først: små fyldstoffer kan forårsage kvælning.",
+    "howTo": [
+      "Læs sikkerhedsnoterne. Vælg en pose med en syet lukning, eller rul en ren strømpe op.",
+      "Tryk på \"Print the target and tally sheet\" og læg arket fladt på bordet mellem jer.",
+      "Sid behageligt, én på hver side, og skiftes til at kaste ét blødt kast hver. Enhver må passe.",
+      "Når et kast lander i en ring, sæt et kryds i din kolonne, på rækken for den ring.",
+      "Se på krydsene sammen, når I stopper, eller tryk på Hvil for at holde pause."
+    ],
+    "tips": [
+      "Sid tæt nok på, så et blødt kast nedefra når målet uden at strække sig.",
+      "Tal om kastet, ikke om resultatet: \"Det var et blødt et.\" Alle klapper for hvert kast.",
+      "En oprullet strømpe er let og nem at holde, selv med svag gribekraft. Lad en arm hvile på bordet mellem tureene.",
+      "Hvis nogen hellere vil se på, kan de være den, der sætter krydserne."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er intet ur, ingen score, intet træktæller og intet tab. I kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at afslutte på."
+      },
+      {
+        "q": "Er det sikkert at kaste med en sækkekast-pose?",
+        "a": "Det kan være, hvis man er forsigtig. Brug en pose med en syet lukning eller en oprullet strømpe, aldrig løse bønner, ris eller små fyldstoffer, som er en kvælningsfare for små børn og for alle, der putter ting i munden. Bliv siddende, kast blidt mod bordet og aldrig mod et ansigt, og hold en voksen i nærheden."
+      },
+      {
+        "q": "Bliver noget talt op eller gemt på skærmen?",
+        "a": "Nej. Pointene findes kun på papir, i felter I selv sætter kryds i. Siden holder ingen optælling og intet ur, og intet gemmes eller sendes."
+      },
+      {
+        "q": "Hvad hvis nogen ikke kan kaste, eller posen lander uden for arket?",
+        "a": "Enhver må passe, og en pose, der lander uden for arket, bliver bare samlet op til næste tur. Der tælles intet for den."
+      },
+      {
+        "q": "Hvad står der på det udskrevne ark?",
+        "a": "Én side: et stort mål med de tre ringe, navngivet Near, Middle og Far, et bord med en kolonne til hver person og en række små felter at sætte kryds i for hver ring, samt en linje med sikkerhedsråd. Navnene står skrevet på ringene, så det virker i sort-hvid."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Historieterninger",
+    "seoTitle": "Historieterninger: et billedfortællespil",
+    "h1": "Historieterninger: fortæl en historie med billeder",
+    "description": "Tre eller fire billedterninger at fortælle en historie med, i en vilkårlig rækkefølge. Ingen læsning, intet rigtigt svar, ingen timer og ingen score. Slå igen, eller pas. Gratis at spille og udskrive.",
+    "short": "Slå billedterninger og fortæl en historie sammen, i en vilkårlig rækkefølge.",
+    "players": "2 eller flere personer, eller en voksen og et barn",
+    "intro": "Tre eller fire billeder vises, ligesom terninger. Find sammen på en historie, der bruger dem, i en vilkårlig rækkefølge. En historie kan være én sætning eller flere, og den kan være fjollet eller tæt på virkeligheden. Der findes ingen rigtig historie, og ingen skal nævne eller huske noget. Tryk på \"Roll again\" for nye billeder, og enhver må passe.",
+    "howTo": [
+      "Vælg tre eller fire terninger. Tre er det enkleste.",
+      "Se på billederne sammen. Tryk på et, hvis I gerne vil starte med det.",
+      "Skiftes til at fortælle en historie, der bruger billederne, i en vilkårlig rækkefølge. En sætning hver er rigeligt.",
+      "Enhver må passe. Tryk på \"Pass\", så kan den næste person begynde.",
+      "Tryk på \"Roll again\" for nye billeder, når I har lyst, eller tryk på Hvil for at stoppe."
+    ],
+    "tips": [
+      "Stil et spørgsmål i stedet for at vente på et svar: \"Hvor mon paraplyen er på vej hen?\"",
+      "Byg videre på det, den sidste sagde, i stedet for at rette det. Enhver historie duer.",
+      "En historie kan handle om et ægte minde. Et billede er en god start på en sådan."
+    ],
+    "faq": [
+      {
+        "q": "Er der en timer eller en score?",
+        "a": "Nej. Der er intet ur, ingen score, intet træktæller og intet tab. I kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at afslutte på."
+      },
+      {
+        "q": "Skal jeg læse eller navngive billederne?",
+        "a": "Nej. Spillet virker med billederne alene. Spillerne kan pege, beskrive eller blot sige, hvad billedet minder dem om. Ingen bliver bedt om at navngive eller huske noget."
+      },
+      {
+        "q": "Hvad hvis nogen ikke har lyst til at tage en tur?",
+        "a": "De kan passe når som helst uden forklaring. Spillet venter bare, og den næste person kan starte, eller du kan slå terningen igen."
+      },
+      {
+        "q": "Findes der en papirudgave?",
+        "a": "Ja. Et enkelt ark har seksten forskellige billeder i fire rækker. Vælg en række, eller klip billederne ud og tag nogle fra en bunke."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Sorter sammen",
-    "seoTitle": "Sorteringsspil ved demens: Sorter sammen",
+    "seoTitle": "Sorteringsspil: Sortér sammen for voksne",
     "h1": "Sorter sammen: en aktivitet med sortering af billeder",
-    "description": "Tryk på et billede, og tryk på den kurv, det hører til i: køkken eller have, frugt eller dyr. En rolig, gratis sorteringsaktivitet ved demens.",
+    "description": "Tryk på et billede og derefter på den kurv, det hører til: køkken eller have, frugt eller dyr. Et roligt, gratis sorteringsspil for voksne og familier.",
     "short": "Læg hvert billede i sin kurv: køkken eller have og mere.",
     "players": "1 eller 2 personer",
     "intro": "At sortere er en velkendt, tilfredsstillende hverdagsopgave, som at lægge indkøb på plads eller finde par af sokker. Tryk på et billede, og tryk derefter på den kurv, det hører til i. Der er ingen hast og ingen forkerte skridt.",
@@ -150,9 +561,9 @@
   },
   "picture-puzzle": {
     "name": "Billedpuslespil",
-    "seoTitle": "Nemt puslespil ved demens: 4 eller 9 brikker",
+    "seoTitle": "Let puslespil online: 4 eller 9 store brikker",
     "h1": "Billedpuslespil: et nemt puslespil",
-    "description": "Et nemt puslespil online for mennesker, der lever med demens: 4 eller 9 store brikker, hele billedet bliver synligt, og du trykker på to brikker for at bytte dem.",
+    "description": "Et let puslespil online for voksne: 4 eller 9 store brikker, hele billedet er synligt, og du bytter to brikker ved at trykke på dem. Gratis, uden tidsur.",
     "short": "Tryk på to brikker for at bytte dem, til billedet er helt.",
     "players": "1 eller 2 personer",
     "intro": "Et venligt billede er skåret i fire eller ni store brikker og blandet. Hele billedet bliver synligt som en hjælp. Tryk på én brik og derefter på en anden, og de bytter plads. Man behøver ikke trække.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Gør talemåden færdig",
-    "seoTitle": "Gør talemåden færdig: Ordsprogsspil for seniorer",
+    "seoTitle": "Fuldend ordsproget: Spil med kendte ordsprog",
     "h1": "Gør talemåden færdig",
     "description": "Velkendte danske talemåder, hvor det sidste ord mangler, som »Det er ikke guld alt, hvad der ___«. Tryk på et valg, eller vis slutningen, og tal så om det.",
     "short": "Gør velkendte talemåder færdige sammen, og tal så om dem.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Ordsøgning med stor skrift",
-    "seoTitle": "Ordsøgning med stor skrift ved demens, til udskrivning",
+    "seoTitle": "Ordsøgning med store bogstaver, gratis og til print",
     "h1": "Ordsøgning med stor skrift",
-    "description": "En gratis ordsøgning med stor skrift til seniorer og mennesker, der lever med demens. Få ord, store bogstaver, kun ord på tværs og nedad. Spil online eller print.",
+    "description": "En gratis ordsøgning med store bogstaver for ældre voksne og familier. Få ord, store bogstaver, kun vandret og lodret. Spil online eller print den ud.",
     "short": "Store bogstaver, få ord, kun på tværs og nedad. Du kan også printe den.",
     "players": "1 eller 2 personer",
     "intro": "Et lille gitter med store bogstaver og bare en håndfuld ord, der alle læses på tværs eller nedad. Tryk på ordets første bogstav og derefter på det sidste. Foretrækker du papir? Print en ny opgave med ét tryk.",
@@ -254,7 +665,7 @@
   },
   "coloring": {
     "name": "Farvelægningsark",
-    "seoTitle": "Farvelægningsark til voksne med demens (gratis)",
+    "seoTitle": "Gratis malesider for voksne, store og enkle",
     "h1": "Farvelægningsark",
     "description": "Enkle farvelægningsark til voksne med store felter: tryk på en farve, og tryk så på billedet. Ingen sjask, ingen forkerte farver, og alle ark kan printes gratis.",
     "short": "Tryk på en farve og derefter på en del af billedet. Du kan også printe ark.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Samtalekort",
-    "seoTitle": "Samtaleåbnere ved demens: Billedkort",
+    "seoTitle": "Samtalestartere: billedkort til familier",
     "h1": "Samtalekort",
-    "description": "Billedkort med rolige samtaleåbnere for mennesker, der lever med demens: ingen udspørgen, ingen rigtige svar. Brug dem på skærmen, eller print hele sættet.",
+    "description": "Billedkort med milde samtalestartere til familier, venner og ældre voksne, herunder mennesker med demens. Ingen quiz, ingen rigtige svar.",
     "short": "Billedkort med åbne, rolige spørgsmål. Ingen udspørgen.",
     "players": "2 personer eller en gruppe",
     "intro": "Hvert kort kobler et velkendt billede med en åben invitation til at tale, som »Hvad er dit yndlingsvejr?« Der er ingen rigtige svar og intet at huske. Vælg et tema, eller bland dem alle.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Billedbingo",
-    "seoTitle": "Billedbingo til seniorer med demens: Til udskrivning",
+    "seoTitle": "Bingo med billeder til print, til grupper",
     "h1": "Billedbingo til grupper",
-    "description": "Gratis billedbingo til udskrivning for demensafsnit og seniorgrupper med en stor oplæser på skærmen. Store billeder med ord, 9 eller 16 felter, ingen læsning nødvendig.",
+    "description": "Gratis bingo med billeder til print, til familier, seniorgrupper og plejehjem. Store billeder med ord, 9 eller 16 felter og en stor oplæser på skærmen.",
     "short": "Billedbingo-kort til udskrivning og en oplæser til stor skærm til grupper.",
     "players": "En gruppe på 2 til 30",
     "intro": "Klassisk bingo med billeder i stedet for tal, så ingen behøver at læse småt. Print et sæt unikke kort, og brug så oplæseren på skærmen til at vise hvert billede stort på et tv, en bærbar computer eller en tablet.",
@@ -394,7 +805,7 @@
   },
   "calm-breathing": {
     "name": "Rolig vejrtrækning",
-    "seoTitle": "En rolig pause med vejrtrækning til seniorer og pårørende",
+    "seoTitle": "En rolig vejrtrækningspause at dele",
     "h1": "En rolig pause med vejrtrækning",
     "description": "En langsom, stille pause med vejrtrækning at dele: En blid cirkel vokser og skrumper i seks åndedrag. Du starter den, og du kan stoppe når som helst.",
     "short": "En langsom cirkel at trække vejret efter. Start og stop, når du vil.",
@@ -423,6 +834,45 @@
       {
         "q": "Er det gratis, og skal jeg tilmelde mig?",
         "a": "Ja, det er gratis, og der er ingen konto, tilmelding eller download. Det virker i webbrowseren på en telefon, tablet eller computer."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Historiekæde",
+    "seoTitle": "Historiekæde: et fælles billedhistorie-spil",
+    "h1": "Historiekæde: fortæl en historie ét billede ad gangen",
+    "description": "En række billeder vokser ét ad gangen, og hver person siger en sætning om det højt. Intet at skrive, intet rigtigt svar. Gratis, roligt, uden tidsur og uden point.",
+    "short": "Tilføj et billede, og sig så en sætning hver, på skift.",
+    "players": "2 eller flere personer",
+    "intro": "Spillet starter med ét billede, og kæden vokser ét billede ad gangen. Hver person siger højt én sætning om kæden indtil nu, på skift. En sætning kan handle om det, man ser, et sted det får en til at tænke på, eller noget skørt. Intet skrives, optages eller gemmes, der er ikke noget rigtigt svar, og alle må passe. Kæden stopper ved otte billeder, og så kan I starte en ny.",
+    "howTo": [
+      "Kig på det første billede sammen.",
+      "Skift til at tale: hver person siger én sætning om kæden indtil nu. Alle må passe.",
+      "Tryk på \"Tilføj et billede\" for at lægge det næste billede til sidst i kæden.",
+      "Tryk på \"Tag det sidste væk\", hvis du hellere vil gå et billede tilbage.",
+      "Når kæden har otte billeder, kan du trykke på \"Start en ny kæde\" for en frisk en, eller bare stoppe."
+    ],
+    "tips": [
+      "Kort er fint: \"Nogen satte vandet over.\" Den næste person fortsætter, eller passer.",
+      "Lad billederne bestemme retningen. Der er ingen historie, I skal nå frem til.",
+      "Stop, når du vil. At stoppe halvvejs er en helt god måde at slutte på."
+    ],
+    "faq": [
+      {
+        "q": "Findes der et tidsur eller point?",
+        "a": "Nej. Der er intet ur, ingen point, ingen trækketæller og ingen tab. Du kan stoppe når som helst, og at stoppe halvvejs er en helt god måde at slutte på."
+      },
+      {
+        "q": "Skrives eller optages noget?",
+        "a": "Nej. Sætningerne siges højt og skrives ikke, optages ikke og sendes ikke nogen steder hen. Spillet viser kun billederne."
+      },
+      {
+        "q": "Hvad hvis nogen ikke har lyst til at sige noget?",
+        "a": "Alle må passe, og den næste person fortsætter. Ingen skal navngive eller huske et billede."
+      },
+      {
+        "q": "Er det gratis, og skal jeg oprette mig?",
+        "a": "Ja, det er gratis, og der er ingen konto, oprettelse eller download. Det virker i webbrowseren på telefon, tablet eller computer."
       }
     ]
   }

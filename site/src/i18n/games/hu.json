@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Képpárok",
-    "seoTitle": "Párosító játék demenciával élőknek: Képpárok",
+    "seoTitle": "Párosító játék felnőtteknek: képpárok",
     "h1": "Képpárok: nyugodt párosító játék",
-    "description": "Ingyenes, nyugodt párosító játék demenciával élő embereknek. A nagy képek látszanak, nincs időzítő és pontszám, és 4–12 kártyát választhat.",
+    "description": "Ingyenes, nyugodt párosító játék felnőtteknek és idősebb felnőtteknek, köztük demenciával élőknek. A képek mutatva maradhatnak. Nincs időzítő és nincs pontszám.",
     "short": "Keresse meg a két egyforma képet. A képek látszhatnak végig.",
     "players": "1 vagy 2 ember, egymás mellett",
     "intro": "Érintsen meg egy képet, majd azt, amelyik illik hozzá. A képek alapból látszanak, így semmit sem kell megjegyezni. Ha két kép összetartozik, arany keretet és pipát kapnak.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Keresse az egyformát",
-    "seoTitle": "Keresse az egyforma képet: egyszerű játék demenciával élőknek",
+    "seoTitle": "Keresd meg az azonos képet: egyszerű képes játék",
     "h1": "Keresse az egyforma képet",
-    "description": "Egy kép fent, két–négy lent. Érintse meg az egyformát. Nyugodt, ingyenes képes játék demenciával élő embereknek, időzítő nélkül.",
+    "description": "Egy kép fent, alatta kettő–négy. Koppints arra, amelyik ugyanaz. Nyugodt, ingyenes képes játék felnőtteknek, idősebbeknek és családoknak, időzítő nélkül.",
     "short": "Nézze meg a felső képet, és érintse meg az egyformát alul.",
     "players": "1 vagy 2 ember",
     "intro": "A képernyő tetején egyetlen kép áll. Alatta két, három vagy négy kép látszik. Érintse meg az egyformát. Egyszerre egy egyszerű választás, bőven hagyva időt a beszélgetésre.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Árnyékpárosítás",
-    "seoTitle": "Árnyékpárosító játék demenciával élőknek: ingyen online",
+    "seoTitle": "Árnyékpárosító játék: ingyenes online felnőtteknek",
     "h1": "Árnyékpárosítás: nyugodt képes játék",
-    "description": "Egy sötét árnyék fent, két–négy kép lent. Érintse meg azt a képet, amelyik az árnyékot veti. Ingyenes, nyugodt árnyékpárosító játék demenciával élőknek, időzítő nélkül.",
+    "description": "Fent egy sötét árnyék, alatta kettő–négy kép. Koppints arra a képre, amelyik az árnyékot adja. Ingyenes, nyugodt árnyékpárosító játék időzítő nélkül.",
     "short": "Nézze meg az árnyékot, és érintse meg a képet, amelyik veti.",
     "players": "1 vagy 2 ember",
     "intro": "Az árnyékpárosítás ismerős tevékenység a nyomtatott feladatlapokról, itt nagy képekkel, nyomtatás nélkül. A képernyő tetején egy halk árnyék áll, alatta két, három vagy négy kép vár. Érintse meg azt, amelyik az árnyékot veti. Az olyan formákról, mint a bicikli, az esernyő vagy a teáscsésze, könnyű beszélgetni is.",
@@ -100,8 +100,8 @@
         "a": "Nem. Nincs óra, pontszám, lépésszámláló vagy vesztés. Bármikor abbahagyhatják, és a félbehagyás is teljesen jó befejezés."
       },
       {
-        "q": "Jó az árnyékpárosítás demenciával élő embereknek?",
-        "a": "Egyeseknek kellemes, egyszerű tevékenység lehet, főleg a korábbi szakaszokban. Az alakzatokat könnyebb felismerni, mint a szavakat. Az élvezetre és a beszélgetésre való, nem teszt, és nem kezeli vagy lassítja a demenciát. Ha bosszúságot okoz, próbálják a Keresse az egyformát játékot, vagy egyszerűen nézzenek együtt képeket."
+        "q": "Élvezhetik az árnyékpárosító játékot a demenciával élő emberek?",
+        "a": "Sok felnőtt szereti, köztük néhány demenciával élő ember is, gyakran a korai szakaszban. A formákat könnyebb felismerni, mint a szavakat. A játék szórakozásra és beszélgetésre szolgál, nem tesztnek, és nem kezeli és nem lassítja a demenciát. Ha bosszúságot okoz, próbálja ki a Keresd meg az azonosat játékot, vagy egyszerűen nézegessenek együtt képeket."
       },
       {
         "q": "Mi történik, ha a rossz képet érintik meg?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Négy együtt",
+    "seoTitle": "Képcsoportosító játék felnőtteknek: Négy együtt",
+    "h1": "Négy együtt: nyugodt képcsoportosító játék",
+    "description": "Néhány kép közös témát mutat, például gyümölcsöket vagy időjárást. Koppints azokra, amelyek egymáshoz tartoznak. Ingyenes, nyugodt csoportosító játék időzítő és pontszám nélkül.",
+    "short": "Keresse meg azokat a képeket, amelyek egymáshoz tartoznak, például gyümölcsöket vagy időjárási jelenségeket.",
+    "players": "1 vagy 2 személy",
+    "intro": "Kis számú kép, és közülük néhány egymáshoz tartozik: például négyféle gyümölcs vagy négyféle közlekedési mód. Koppintson azokra, amelyek közös témát mutatnak. Ha egy kép máshoz tartozik, a játék egyszerűen megnevezi, és vár. Egy csendes szünet után a segítség megnevezi a témát, a „Mutasd a csoportot” pedig bármikor felfedi a megoldást.",
+    "howTo": [
+      "Válasszon négy, hat vagy nyolc képet. A négy a legegyszerűbb, három, amelyek egymáshoz tartoznak.",
+      "Nézzék együtt a képeket, és beszélgessenek arról, miben hasonlítanak.",
+      "Koppintson minden olyan képre, amely a csoportba tartozik. Arany keretet és pipát kap.",
+      "Ha egy kép máshoz tartozik, a játék ezt megnevezi, és vár. Nyugodtan vegye rá az időt.",
+      "Bármikor koppinthat a „Mutasd a csoportot” gombra, majd az „Újabb készlet” gombra új képekért."
+    ],
+    "tips": [
+      "Mondja ki hangosan, amit észrevesz: „Ez a két dolog mindkettő étel.”",
+      "Nincs sietség. Egy szünet után megjelenik a témát megnevező segítség, amelyet figyelmen kívül hagyhat.",
+      "Ha a csoportot megtalálták, beszélgessenek róla: kedvenc gyümölcs, vonatutazás, a mai időjárás."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen jó módja a befejezésnek."
+      },
+      {
+        "q": "Mi történik, ha a csoporton kívüli képre koppintanak?",
+        "a": "Semmi kellemetlen. Nincs csengő, piros kereszt vagy rázkódás. A játék megnevezi a képet, jelzi, hogy másokhoz tartozik, és vár a következő koppintásra."
+      },
+      {
+        "q": "Milyenek a csoportok?",
+        "a": "Mindennapi témák, amelyekhez nincs szükség különleges tudásra: gyümölcs, állatok, virágok, időjárás, közlekedési módok, forró italhoz valók és sütőben sült dolgok. Minden kép csak egy csoportba tartozik."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Kakukktojás",
+    "seoTitle": "Kakukktojás képes játék felnőtteknek",
+    "h1": "Kakukktojás: nyugodt képes játék",
+    "description": "Három vagy négy kép, és mindegyik kivételével közös témát mutat, például gyümölcsöket vagy időjárást. Koppintson arra, amelyik nem illik a többihez. Ingyenes, nyugodt, időzítő és pontszám nélkül.",
+    "short": "Keresse meg azt a képet, amely nem illik a többi közé.",
+    "players": "1 vagy 2 személy",
+    "intro": "Három vagy négy kép, és mindegyik kivételével egymáshoz tartozik: például gyümölcsök vagy közlekedési módok. Koppintson arra a képre, amelyik nem illik a többihez. Ha egy kép mégis illik a többihez, a játék ezt egyszerűen jelzi, és vár. Egy csendes szünet után a segítség megnevezi, mi köti össze a többit, a „Mutasd meg” gomb pedig bármikor rámutat a kakukktojásra.",
+    "howTo": [
+      "Válasszon három vagy négy képet. A három a legegyszerűbb.",
+      "Nézzék együtt a képeket, és beszélgessenek arról, miben hasonlít a legtöbb.",
+      "Koppintson arra a képre, amelyik nem illik a többihez. Arany keretet és pipát kap.",
+      "Ha egy kép illik a többihez, a játék ezt jelzi, és vár. Nyugodtan vegye rá az időt.",
+      "Bármikor koppinthat a „Mutasd meg” gombra, majd az „Újabb készlet” gombra új képekért."
+    ],
+    "tips": [
+      "Beszélje át hangosan: „Az alma és a körte is gyümölcs. Mi a helyzet a busszal?”",
+      "Nincs sietség. Egy szünet után megjelenik a témát megnevező segítség, amelyet figyelmen kívül hagyhat.",
+      "Bármelyik kép jó kiindulópont a beszélgetéshez: kedvenc gyümölcs, buszozás, esős nap."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen jó módja a befejezésnek."
+      },
+      {
+        "q": "Mi történik, ha egy odatartozó képre koppintanak?",
+        "a": "Semmi kellemetlen. Nincs csengő, piros kereszt vagy rázkódás. A játék megnevezi a képet, jelzi, hogy a többihez tartozik, és vár a következő koppintásra."
+      },
+      {
+        "q": "Hogyan választják ki a kakukktojás képet?",
+        "a": "A képek mindennapi témákból származnak, amelyekhez nincs szükség különleges tudásra: gyümölcs, állatok, virágok, időjárás, közlekedési módok, forró italhoz valók és sütőben sült dolgok. Minden kép csak egy témához tartozik, a kakukktojás pedig mindig más témából származik."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. A telefonon, táblagépen vagy számítógépen működik, a webböngészőben."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Színillesztő",
+    "seoTitle": "Színillesztő: egy szelíd képes játék",
+    "h1": "Színillesztő: Keressük meg az egy színű képeket",
+    "description": "Egy nagy színfolt a nevével, alatta négy vagy hat kép. Koppintson az összes olyan képre, amelynek ez a színe. Nincs időmérő, nincs pontszám, a többi színt egyszerűen megnevezi a játék. Ingyenesen játszható és nyomtatható.",
+    "short": "Keressük meg az összes olyan képet, amelynek ugyanaz a színe, mint a mintának.",
+    "players": "1 vagy 2 személy, vagy egy felnőtt és egy gyermek",
+    "intro": "Egy nagy színfolt látható mellette a színe nevével, alatta négy vagy hat kép. Koppintson minden olyan képre, amelynek ez a színe: például egy piros alma és egy piros csésze. Ha egy kép más színű, a játék csak megnevezi (\"A körte zöld.\"), és vár. A \"Mutasd meg\" gomb bármikor rámutat az egyező képekre, a \"Másik szín\" pedig továbblép.",
+    "howTo": [
+      "Válasszon négy vagy hat képet. A négy a legegyszerűbb.",
+      "Nézzék meg együtt a színt, és olvassák el a nevét.",
+      "Koppintson minden olyan képre, amelynek ez a színe. Mindegyik vastag keretet és pipát kap.",
+      "Ha egy kép más színű, a játék megmondja, milyen színű, és vár. Nyugodtan vegyenek rá időt.",
+      "Bármikor koppintson a \"Mutasd meg\" gombra, majd a \"Másik szín\" gombra egy új színhez."
+    ],
+    "tips": [
+      "Mondják ki hangosan a színt, majd nézzenek körül a szobában: mi más van ilyen színben?",
+      "Használhatnak saját szavakat is. A \"paradicsom\" vagy az \"ég\" ugyanannyit ér, mint a \"piros\" vagy a \"kék\".",
+      "A mutatás ugyanolyan jó, mint a koppintás. Üljenek egymás mellé, hogy mindketten lássák a képernyőt."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen rendben van."
+      },
+      {
+        "q": "Mi történik, ha egy más színű képre koppintanak?",
+        "a": "Semmi kellemetlen. Nincs hangjelzés, piros kereszt vagy rázkódás. A játék megnevezi a képet és a színét, például: \"A körte zöld.\", majd vár a következő koppintásra."
+      },
+      {
+        "q": "Csak a szín a segítség?",
+        "a": "Nem. A szín nagy színfoltként látható, szóban is meg van nevezve, és minden képet megnevez a játék, amikor megérinti. Aki nehezen látja a színeket, a név olvasásával is tud játszani."
+      },
+      {
+        "q": "Tényleg az a színe minden képnek?",
+        "a": "A képeket kézzel válogatjuk ki, csak olyanokat, ahol a fő tárgy egyértelműen egy színű. A több színű képeket, például a sárkányt vagy a méhet, kihagyjuk."
+      },
+      {
+        "q": "Van nyomtatható változat?",
+        "a": "Igen. Az egy oldalas lap négy sorból áll. Minden sor megnevez egy színt, és négy képet mutat, amelyekre rámutathatnak vagy karikázhatnak."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. A telefonon, táblagépen vagy számítógépen működik, a webböngészőben."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Fél-párosító",
+    "seoTitle": "Fél-párosító: egy szelíd képes játék",
+    "h1": "Fél-párosító: Illesszük össze a kép két felét",
+    "description": "Két vagy három kép bal fele az egyik oldalon, a jobb felük a másikon. Koppintson egy félre, majd arra a félre, amelyik illik hozzá. Nincs időmérő, nincs pontszám, a nem illő félek egyszerűen szétválnak. Ingyenesen játszható és nyomtatható.",
+    "short": "Koppintson a két olyan félre, amely összeillik, és egy képet alkot.",
+    "players": "1 vagy 2 személy, vagy egy felnőtt és egy gyermek",
+    "intro": "Minden kép középen ketté van vágva. Két vagy három kép bal fele az egyik oszlopban van, a jobb felük pedig, más sorrendben, a másikban. Koppintson a bal oldali félre, majd a jobb oldalon arra a félre, amelyik illik hozzá, például egy vízforraló kiöntőcsövére és a fogantyújára. Az illeszkedő félek egész képpé állnak össze. A nem illő félek újra szétválnak, és a játék ezt finoman jelzi. A \"Mutasd meg\" gomb mindet összeilleszti.",
+    "howTo": [
+      "Válasszon két vagy három képet. A kettő a legegyszerűbb.",
+      "Nézzék meg együtt a bal oldali feleket. Szerintük mynek a része mindegyik?",
+      "Koppintson a bal oldali félre, majd a jobb oldalon arra a félre, amelyik illik hozzá. Fordítva is működik.",
+      "Az illeszkedő felek összeállnak, vastag kerettel és pipával. A nem illők újra szétválnak, és másikat is kipróbálhat.",
+      "Bármikor koppintson a \"Mutasd meg\" gombra, majd a \"Másik készlet\" gombra új képekhez."
+    ],
+    "tips": [
+      "Ujjal kövessék a fél szélét. Hol ér a rajz a középvonalig?",
+      "Mondják el, mit látnak: \"Annak van fogantyúja.\" Nem kell minden képet megnevezni.",
+      "A mutatás ugyanolyan jó, mint a koppintás. Üljenek egymás mellé, hogy mindketten lássák a képernyőt."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen rendben van."
+      },
+      {
+        "q": "Mi történik, ha két fél nem illik össze?",
+        "a": "Semmi kellemetlen. Nincs hangjelzés, piros kereszt vagy rázkódás. A két fél újra szétválik, a játék pedig ezt mondja: \"Ez a két fél nem illik össze. Próbáljon másikat.\" Semmi nem kerül számolásra."
+      },
+      {
+        "q": "Könnyen megkülönböztethetők a képek?",
+        "a": "Igen. A képeket kézzel válogatjuk, és egy táblán sosem szerepel két kép ugyanabból a csoportból, például két gyümölcs vagy két állat. A kihagyjuk azokat a képeket, amelyek két fele egymásra hasonlít, például a nap vagy a szivárvány."
+      },
+      {
+        "q": "Van nyomtatható változat?",
+        "a": "Igen. Egy oldalas lapon az első oszlopban három kép bal fele, a másik oszlopban ugyanezek jobb fele található, más sorrendben. Húzz vonalat minden bal félből ahhoz a félhez, amelyik hozzá illik."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen a webböngészőben működik."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Színezés számok szerint",
+    "seoTitle": "Színezés számok szerint: nyugodt, nagybetűs kitöltő játék",
+    "h1": "Színezés számok szerint: töltsd ki a négyzeteket, bármilyen színnel",
+    "description": "Nagy, számozott négyzetekből álló rács, fölötte pedig négy szín a nevükkel. Válassz egy színt, majd koppints a négyzetekre, hogy kitöltsd őket. Bármilyen szín jó, nincs időmérő vagy pontszám, és egy gomb a többi négyzetet is kitölti a számok szerint. Ingyenesen játszható és nyomtatható.",
+    "short": "Válassz egy színt, majd koppints a számozott négyzetekre, hogy kitöltsd őket.",
+    "players": "1 vagy 2 személy, egymás mellett",
+    "intro": "Nagy, számozott négyzetekből álló négyzetrács, fölötte pedig egy kulcs négy színnel, mindegyik a számával és a nevével. Válassz egy színt a kulcsból, majd koppints a négyzetekre, hogy kitöltsd őket. A rács kezdetben 4 x 4-es, de ha több négyzetet szeretnél, 6 x 6-os és 8 x 8-as is lehet. Amikor minden négyzet a számának megfelelő színt kapja, a rács a lapon látható kép lesz. A más színnel kitöltött négyzetek egyszerűen a saját képed, és a játék erről nem mond semmit. A \"Kitöltés a számok szerint\" gomb minden üres négyzetet kitölt helyetted.",
+    "howTo": [
+      "Válaszd ki a rács méretét. A 4 x 4-es négyzetek a legnagyobbak és a legegyszerűbbek.",
+      "Nézd meg a kulcsot a rács fölött. Minden színnek van száma és neve, például 1 Sárga.",
+      "Koppints a kulcsban egy színre, majd azokra a négyzetekre, amelyeket ezzel a színnel szeretnél kitölteni.",
+      "Használhatod a számnak megfelelő színt, vagy bármilyen más színt. Mindkettő rendben van.",
+      "Az üres négyzetekhez koppints a \"Kitöltés a számok szerint\" gombra, a rács újrakezdéséhez a \"Törlés\" gombra, egy másik képhez pedig az \"Másik kép\" gombra."
+    ],
+    "tips": [
+      "Üljetek egymás mellett, és váltogassátok egymást: az egyikőtök választja a színt, a másik koppint a négyzetre.",
+      "Beszélgessetek a színekről: \"Nekem a zöld tetszik.\" Nem kell megnevezni, hogy mi lesz a kép.",
+      "Keskeny képernyőn a 8 x 8-as rács a saját dobozán belül vízszintesen görgethető. A négyzetek kényelmes méretűek maradnak.",
+      "Papíron ceruzákkal, egy éjjeliszekrény mellett is működik."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatod, és a félbehagyás is teljesen jó módja a befejezésnek."
+      },
+      {
+        "q": "Mi van, ha a számnak nem megfelelő színt használok?",
+        "a": "Semmi nem történik, és éppen ez a lényeg. Bármilyen szín bármelyik négyzetbe kerülhet, a játék pedig erről nem mond semmit. Amikor minden négyzet a számának megfelelő színt kapja, a játék ezt finoman jelzi, de a saját színeiddel készült kép ugyanilyen jó."
+      },
+      {
+        "q": "Meg tudják különböztetni a négy színt a színvakok?",
+        "a": "Úgy lettek kiválasztva, hogy így legyen. Minden színnek van száma, írott neve és saját kis alakzata is, így a szín nem az egyetlen módja a megkülönböztetésnek. A négy színt vörös-zöld és kék-sárga színvakság szimulációival ellenőriztük, és a világosságuk is eltér. Színvak személy még nem próbálta ki őket, ezért kérjük, szólj, ha két szín hasonlónak tűnik."
+      },
+      {
+        "q": "Elég nagyok a négyzetek remegő kézhez vagy kis képernyőhöz?",
+        "a": "Minden négyzet legalább 48 képpont széles, a 4 x 4-es rácsnál pedig 56. Ha egy rács túl széles a képernyőhöz, a saját dobozán belül vízszintesen görgethető, ahelyett hogy a négyzetek összezsugorodnának."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. Egy oldalas lapon számozott rács található, és a négy szín a nevükkel. Minden négyzetet színezz ki a számának megfelelő színű ceruzával, vagy bármilyen más színnel."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen a webböngészőben működik."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Mintakészítő",
+    "seoTitle": "Mintakészítő: tervezz egy csempét, és nyomtasd ki a mintát",
+    "h1": "Mintakészítő: tervezz egy csempét, és nézd, ahogy ismétlődik",
+    "description": "Változtasd meg egy kis csempe négyzeteit, és nézd, ahogy mellette mintává ismétlődik, négy színben, amelyek mindegyikének neve és alakzata van. Nincs időmérő vagy pontszám. Ingyenesen játszható és nyomtatható.",
+    "short": "Változtasd meg egy kis csempe négyzeteit, és nézd, ahogy mintává ismétlődik.",
+    "players": "1 vagy 2 személy, egymás mellett",
+    "intro": "Egy kis, 3 x 3-as csempe, vagy ha szeretnéd, 4 x 4-es, mellette pedig a \"te mintád\": ugyanez a csempe ismétlődik egy blokkban. Koppints egy négyzetre, és az átvált a négy szín következőjére, amelyek mindegyikének saját írott neve és alakzata van. A mellette lévő minta azonnal változik. Nincs helyes minta, és semmi nem mentődik el vagy küldődik el. A \"Mintám nyomtatása\" az ismétlődő mintát egy oldalra teszi, hogy megtarthasd, kiszínezhesd vagy odaadhasd.",
+    "howTo": [
+      "Nézd meg a csempét és mellette a mintádat. Ugyanaz a csempe, ismétlődve.",
+      "Koppints egy négyzetre. Az átvált a fölötte lévő négy szín következőjére.",
+      "Koppintgass tovább a négyzetekre, amíg a minta olyan nem lesz, ahogy szeretnéd. Bármelyik minta jó.",
+      "Koppints a \"Meglepj\" gombra új csempéhez, vagy a \"Kezdjük újra\" gombra tiszta lapért. A \"Visszaállítás\" visszahozza az előző csempét.",
+      "Koppints a \"Mintám nyomtatása\" gombra, ha papíron szeretnéd, vagy koppints a Pihenés gombra a leállításhoz."
+    ],
+    "tips": [
+      "Üljenek egymás mellé, és váltogassák egymást: az egyik ember megérint egy négyzetet, a másik pedig elmondja, mit lát rajta.",
+      "Beszéljenek arról, amit látnak: „Ez úgy néz ki, mint egy virág.” Nem kell semmit megnevezni.",
+      "Próbálják ki ugyanazt a csempét csak két színnel, majd utána mind a négy színnel.",
+      "Papíron a mintát ceruzával ki lehet színezni, csíkokra lehet vágni egy kártyához, vagy egy kis ajándék csomagolására is lehet használni."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatják, és a félbehagyás is teljesen rendben van befejezésként."
+      },
+      {
+        "q": "Elmentődik vagy elküldődik valami abból, amit készítek?",
+        "a": "Nem. A csempe csak ezen az oldalon marad meg. Nem mentődik, nem töltődik fel és nem számolódik, az oldal bezárásakor pedig eltűnik. Ha meg szeretnék őrizni a mintát, nyomtassák ki."
+      },
+      {
+        "q": "Mi van, ha véletlenül rossz négyzetre kattintok, vagy törlöm a csempét?",
+        "a": "Nincs rossz négyzet: kattintson rá újra, és továbblép a következő színre. A „Kezdje újra” vagy a „Lepjen meg” gomb után a „Visszaállítás” visszahozza az előző csempét."
+      },
+      {
+        "q": "Meg tudják különböztetni a négy színt a színvakok?",
+        "a": "Úgy lettek kiválasztva, hogy meg tudják. Minden színnek van írott neve és saját kis alakzata is minden négyzetben, így a szín sosem az egyetlen módja a megkülönböztetésnek. A négy színt a vörös-zöld és a kék-sárga színvakság szimulációival ellenőriztük. Színvak ember még nem próbálta ki őket, ezért kérjük, szóljon nekünk, ha két szín túlságosan hasonlónak látszik."
+      },
+      {
+        "q": "Elég nagyok a négyzetek remegő kézhez vagy kis képernyőhöz?",
+        "a": "Minden négyzet legalább 56 képpont széles. Ha a csempe túl széles a képernyőhöz, a saját dobozán belül vízszintesen görgethető, ahelyett, hogy a négyzetek zsugorodnának."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. A „Mintám nyomtatása” gomb az elkészített mintát egy oldalon nyomtatja ki a négy színnel és a nevükkel. Fekete-fehérben is jól látszik, mert minden színnek saját alakzata van."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Közösen építsünk",
+    "seoTitle": "Közösen építsünk: két ember egy mintát épít",
+    "h1": "Közösen építsünk: két ember, egy rács",
+    "description": "Két ember felváltva tesz egy-egy darabot a közös rácsba, amíg tele nem lesz. Mindkettőjüknek saját színe van, amelynek neve és alakzata is van. Senki sem nyer, nincs időzítő és pontszám. Ingyenesen játszható és nyomtatható.",
+    "short": "Váltogassák egymást egy közös rács kitöltésében a mellettük ülővel.",
+    "players": "2 ember, egymás mellett",
+    "intro": "Közös rács 4 x 4 hellyel, vagy ha úgy tetszik, 3 x 3-mal. Mindkettőjük választ egy színt, és minden színnek megvan a saját írott neve és alakzata. Felváltva játszanak: a soron lévő játékos egy üres helyre kattintva teszi le a darabját. Amikor minden helyen van darab, a kép közösen elkészül. Nincs győztes, mert párban építik, és semmi sem mentődik vagy küldődik el. A „Rács nyomtatása” gomb egy üres rácsot nyomtat ki egy oldalra, hogy két ceruzával is lehessen építeni.",
+    "howTo": [
+      "Mindketten válasszanak egy színt. Az a szín, amelyet a másik már választott, „Használatban” jelzést kap.",
+      "Az kezd, aki első. A képernyő mutatja, kinek a sora van, és melyik szín az övé.",
+      "Kattintson egy üres helyre a darab letételéhez. A sor átkerül a másik játékoshoz.",
+      "Ha nem szeretne darabot letenni, kattintson a „Passz” gombra. Bármelyikük bármikor passzolhat.",
+      "Amikor minden helyen van darab, közösen elkészítették a képet. A „Kezdje újra” gombbal újat építhetnek, a Pihenés gombbal pedig abbahagyhatják."
+    ],
+    "tips": [
+      "Üljenek egymás mellé, hogy mindketten lássák és elérjék a képernyőt. Közben beszélgessenek: „Az enyémet a tiéd mellé teszem.”",
+      "Próbáljanak mintát építeni: csíkokat, sakktáblát vagy szegélyt, de az is jó, ha bárhová tesznek darabot. Mindkettő rendben van.",
+      "A gyermek vagy az, aki hamar elfárad, annyiszor passzolhat, ahányszor csak szeretne. A kép attól még közösen készül el.",
+      "Papíron mindketten egy ceruzát használnak, és a saját alakzatukat rajzolják az üres négyzetekbe."
+    ],
+    "faq": [
+      {
+        "q": "Van győztes, időzítő vagy pontszám?",
+        "a": "Nincs. Nincs győztes, mert egy képet építenek közösen. Nincs óra, pontszám, darabszámlálás és vereség sem. Bármikor abbahagyhatják, és a félbehagyás is teljesen rendben van befejezésként."
+      },
+      {
+        "q": "Elmentődik vagy elküldődik valami abból, amit együtt készítünk?",
+        "a": "Nem. A rács csak ezen az oldalon marad meg. Nem mentődik, nem töltődik fel és nem számolódik, az oldal bezárásakor pedig eltűnik. Ha meg szeretnék őrizni, nyomtassák ki a rácsot, és papíron építsenek tovább."
+      },
+      {
+        "q": "Mi van, ha rossz helyre teszek darabot?",
+        "a": "Nincs rossz hely. Kattintson a „Az utolsó darab visszavétele” gombra, és a sor visszakerül önhöz. Egy lépést lehet egyszerre visszavenni, és a passzt is vissza lehet vonni."
+      },
+      {
+        "q": "Meg tudják különböztetni a négy színt a színvakok?",
+        "a": "Úgy lettek kiválasztva, hogy meg tudják. Minden színnek van írott neve és saját kis alakzata minden darabon, így a szín sosem az egyetlen módja a megkülönböztetésnek. A négy színt a vörös-zöld és a kék-sárga színvakság szimulációival ellenőriztük. Színvak ember még nem próbálta ki őket, ezért kérjük, szóljon nekünk, ha két szín túlságosan hasonlónak látszik."
+      },
+      {
+        "q": "Elég nagyok a helyek remegő kézhez vagy kis képernyőhöz?",
+        "a": "Minden hely legalább 56 képpont széles. Ha a rács túl széles a képernyőhöz, a saját dobozán belül vízszintesen görgethető, ahelyett, hogy a helyek zsugorodnának."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. A „Rács nyomtatása” gombbal egy üres rács nyomtatódik ki egy oldalra, a két színnel és a nevükkel, hogy két ceruzával lehessen kirakni. Fekete-fehérben is működik, mert minden színnek saját alakja van."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Ülő dobás pontszámláló",
+    "seoTitle": "Ülő dobás pontszámláló: babzsákos játék kettőnknek",
+    "h1": "Ülő dobás pontszámláló: dobjatok együtt az asztalnál",
+    "description": "Két ember az asztalnál felváltva dob egy puha babzsákot egy nagy célpontba, a találatokat pedig papíron vezetik. Nincs időmérés és pontozás. Ingyenesen nyomtatható.",
+    "short": "Felváltva dobjatok babzsákot egy nagy célpontba, a találatokat papíron vezetve.",
+    "players": "2 személy, asztalnál",
+    "intro": "Nyugodt dobójáték két személynek, akik asztalnál ülnek. Kinyomtatott célpontot tesztek az asztalra, és felváltva dobtok egy puha babzsákot vagy egy feltekert zoknit, hogy a karikákba essen. Mindketten pipákkal jelöljük a találatokat a papíron, és megnézzük együtt a pipákat, amikor abbahagyjátok. Nincs időmérés, a képernyőn nincs összesítés, és semmi nem mentődik vagy küldődik el. Kérjük, előbb olvassa el a biztonsági tudnivalókat: a kis töltőanyagok fulladásveszélyt jelentenek.",
+    "howTo": [
+      "Olvassa el a biztonsági tudnivalókat. Válasszon olyan babzsákot, amelynek a huzata le van varrva, vagy tekerjen fel egy tiszta zoknit.",
+      "Koppintson a „Célpont és jegyzőlap nyomtatása” gombra, és fektesse a lapot laposan az asztalra kettőjük közé.",
+      "Üljenek kényelmesen, egyikük az asztal egyik, másikuk a másik oldalán, és felváltva dobjanak egy-egy gyengéd dobást. Bárki kihagyhatja a körét.",
+      "Ha a dobás karikába esik, jelöljön be egy négyzetet a saját oszlopában, arra a sorra, amely ahhoz a karikához tartozik.",
+      "Amikor abbahagyják, nézzék meg együtt a pipákat, vagy koppintson a Szünet gombra, ha meg szeretné állítani a játékot."
+    ],
+    "tips": [
+      "Üljenek elég közel egymáshoz ahhoz, hogy egy gyengéd, alulról indított dobás nyújtózkodás nélkül elérje a célpontot.",
+      "A dobásról beszéljenek, ne az eredményről: „Ez egy szelíd dobás volt.” Mindenki örüljön minden dobásnak.",
+      "A feltekert zokni könnyű, és gyenge fogással is könnyen tartható. Nyugtassa a karját az asztalon a körök között.",
+      "Ha valaki inkább nézné a játékot, ő is jelölhet be négyzeteket."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vesztés. Bármikor abbahagyhatják, és a félbehagyás is teljesen rendben lévő befejezés."
+      },
+      {
+        "q": "Biztonságos babzsákot dobálni?",
+        "a": "Gondos használat mellett igen. Olyan babzsákot használjon, amelynek a huzata le van varrva, vagy feltekert zoknit, soha ne laza babot, rizst vagy kis töltőanyagot, mert ezek fulladásveszélyesek a kisgyermekek és mindazok számára, akik a szájukba veszik a dolgokat. Maradjanak ülve, az asztal felé dobjanak gyengéden, soha ne arc felé, és legyen közel egy felnőtt."
+      },
+      {
+        "q": "Számolja vagy menti valami a képernyőn?",
+        "a": "Nem. A találatok csak papíron vannak, azokban a négyzetekben, amelyeket maguk jelölnek be. Az oldal nem tart nyilván számlálót és időzítőt, és semmi nem mentődik vagy küldődik el."
+      },
+      {
+        "q": "Mi van, ha valaki nem tud dobni, vagy a babzsák a lapon kívülre esik?",
+        "a": "Bárki kihagyhatja a körét, a lapon kívülre eső babzsákot pedig egyszerűen felveszik a következő körre. Ez nem számít bele semmibe."
+      },
+      {
+        "q": "Mi van a kinyomtatott lapon?",
+        "a": "Egy oldal: egy nagy célpont három karikával, amelyek neve Közel, Középen és Távol, egy táblázat személyenként egy oszloppal, és minden karikához egy sor kis négyzet, amelyeket be lehet jelölni, valamint egy sor biztonsági tanács. A nevek a karikákra vannak írva, így fekete-fehérben is használható."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Történetkocka",
+    "seoTitle": "Történetkocka: képes mesélős játék",
+    "h1": "Történetkocka: meséljenek el egy történetet képekkel",
+    "description": "Három vagy négy képes kocka, amellyel bármilyen sorrendben lehet történetet mesélni. Nem kell olvasni, nincs helyes válasz, időzítő és pontszám sincs. Dobjon újra, vagy passzoljon. Ingyenesen játszható és nyomtatható.",
+    "short": "Dobjanak képes kockákat, és meséljenek el közösen egy történetet, bármilyen sorrendben.",
+    "players": "2 vagy több személy, vagy egy felnőtt és egy gyermek",
+    "intro": "Három vagy négy kép jelenik meg, mint a kockák. Együtt találjanak ki egy történetet, amely ezeket használja, bármilyen sorrendben. A történet lehet egy mondat vagy néhány, lehet vicces vagy valósághű. Nincs helyes történet, és senkinek nem kell semmit megnevezni vagy megjegyezni. Koppintson az „Újradobás” gombra új képekért, és bárki passzolhat.",
+    "howTo": [
+      "Válasszon három vagy négy kockát. A három a legegyszerűbb.",
+      "Nézzék meg együtt a képeket. Koppintson egyre, ha azzal szeretne kezdeni.",
+      "Felváltva meséljenek el egy történetet, amely a képeket használja, bármilyen sorrendben. Egy-egy mondat is elég.",
+      "Bárki passzolhat. Koppintson a „Passz” gombra, és a következő személy kezdhet.",
+      "Bármikor koppintson az „Újradobás” gombra új képekért, vagy a Szünet gombra a megállításhoz."
+    ],
+    "tips": [
+      "Inkább kérdezzen, mintsem a válaszra várjon: „Hová mehet az esernyő?”",
+      "A mondottakhoz fűzzenek hozzá, ne javítsák ki azt. Bármilyen történet jó.",
+      "A történet lehet valódi emlék is. Egy kép jó kiindulópont lehet hozzá."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vesztés. Bármikor abbahagyhatják, és a félbehagyás is teljesen rendben lévő befejezés."
+      },
+      {
+        "q": "Kell olvasni vagy megnevezni a képeket?",
+        "a": "Nem. A játék a képekkel is működik. A játékosok mutathatnak, leírhatnak, vagy egyszerűen elmondhatják, mire emlékezteti őket a kép. Senkitől nem kérik, hogy bármit megnevezzen vagy felidézzen."
+      },
+      {
+        "q": "Mi van, ha valaki nem akar sorra kerülni?",
+        "a": "Bárki bármikor passzolhat, indoklás nélkül. A játék ilyenkor egyszerűen vár, a következő személy pedig elkezdheti, vagy újra dobhatsz."
+      },
+      {
+        "q": "Van nyomtatható változata?",
+        "a": "Igen. Egy egyoldalas lapon tizenhat különböző kép van, négy sorban. Válassz egy sort, vagy vágd ki a képeket, és húzz közülük egy kupacból."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, tableten vagy számítógépen, a webböngészőben működik."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Közös válogatás",
-    "seoTitle": "Válogatójáték demenciával élőknek: közös válogatás",
+    "seoTitle": "Válogatós játék: Közös rendezgetés felnőtteknek",
     "h1": "Közös válogatás: képes válogató tevékenység",
-    "description": "Érintsen meg egy képet, majd a kosarat, amelybe tartozik: konyha vagy kert, gyümölcs vagy állat. Nyugodt, ingyenes válogató tevékenység demenciával élő embereknek.",
+    "description": "Koppints egy képre, majd arra a kosárra, amelyikbe való: konyha vagy kert, gyümölcs vagy állat. Nyugodt, ingyenes válogatós játék felnőtteknek és családoknak.",
     "short": "Tegye minden képet a kosarába: konyha vagy kert, és más párok.",
     "players": "1 vagy 2 ember",
     "intro": "A válogatás ismerős, kielégítő hétköznapi feladat, mint a bevásárlás elpakolása vagy a zoknik párosítása. Érintsen meg egy képet, majd a kosarat, amelybe tartozik. Nincs sietség, és nincs rossz lépés.",
@@ -150,9 +561,9 @@
   },
   "picture-puzzle": {
     "name": "Képkirakó",
-    "seoTitle": "Könnyű kirakó demenciával élőknek: 4 vagy 9 darab",
+    "seoTitle": "Könnyű online kirakós: 4 vagy 9 nagy darabból",
     "h1": "Képkirakó: könnyű kirakó",
-    "description": "Könnyű online kirakó demenciával élő embereknek: 4 vagy 9 nagy darab, a teljes kép végig látszik, és két darab megérintésével cserélhetők.",
+    "description": "Könnyű online kirakós felnőtteknek: 4 vagy 9 nagy darab, a teljes kép végig látszik, a darabokat két koppintással cserélheted. Ingyenes, idő nélkül.",
     "short": "Érintsen meg két darabot a cseréhez, amíg a kép egész nem lesz.",
     "players": "1 vagy 2 ember",
     "intro": "Egy barátságos képet négy vagy kilenc nagy darabra vágunk, és összekeverünk. A teljes kép végig látszik útmutatóként. Érintsen meg egy darabot, majd egy másikat, és helyet cserélnek. Húzni nem kell.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Fejezze be a mondást",
-    "seoTitle": "Fejezze be a mondást: közmondásjáték időseknek",
+    "seoTitle": "Fejezd be a mondást: ismert közmondások játéka",
     "h1": "Fejezze be a mondást",
     "description": "Ismerős magyar közmondások az utolsó szó nélkül, például „Addig nyújtózkodj, amíg a takaród ___”. Válasszon, majd beszélgessenek róla.",
     "short": "Fejezzenek be együtt ismerős mondásokat, aztán beszélgessenek róluk.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Nagybetűs szókereső",
-    "seoTitle": "Nagybetűs szókereső demenciával élőknek, nyomtatható",
+    "seoTitle": "Nagy betűs szókereső, ingyenes és nyomtatható",
     "h1": "Nagybetűs szókereső",
-    "description": "Ingyenes, nagybetűs szókereső időseknek és demenciával élőknek. Kevés szó, nagy betűk, vízszintesen és függőlegesen. Online vagy nyomtatva.",
+    "description": "Ingyenes, nagy betűs szókereső idősebb felnőtteknek és családoknak. Kevés szó, nagy betűk, csak vízszintes és függőleges keresés. Játszhatsz online vagy kinyomtathatod.",
     "short": "Nagy betűk, néhány szó, csak vízszintesen és függőlegesen. Ki is nyomtatható.",
     "players": "1 vagy 2 ember",
     "intro": "Egy kis rács nagy betűkkel és csak néhány szóval, mind vízszintesen vagy függőlegesen olvasható. Érintse meg egy szó első betűjét, majd az utolsót. Inkább papíron? Egy érintéssel nyomtathat új feladványt.",
@@ -254,7 +665,7 @@
   },
   "coloring": {
     "name": "Színezők",
-    "seoTitle": "Színezők demenciával élő felnőtteknek (ingyen)",
+    "seoTitle": "Ingyenes felnőtt színezőlapok, nagyok és egyszerűek",
     "h1": "Színezők",
     "description": "Egyszerű, felnőtteknek való színezők nagy foltokkal: érintsen meg egy színt, majd a képet. Nincs maszatolás, nincs rossz szín, és minden oldal ingyen kinyomtatható.",
     "short": "Érintsen meg egy színt, majd a kép egy részét. Az oldalak ki is nyomtathatók.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Beszélgetőkártyák",
-    "seoTitle": "Beszélgetésindítók demenciával élőknek: képes kártyák",
+    "seoTitle": "Beszélgetésindítók: képes kártyák családoknak",
     "h1": "Beszélgetőkártyák",
-    "description": "Képes kártyák finom beszélgetésindítókkal demenciával élő embereknek: kikérdezés és helyes válasz nélkül. Használja a képernyőn, vagy nyomtassa ki a teljes készletet.",
+    "description": "Képes kártyák finom beszélgetésindítókkal családoknak, barátoknak és idősebb felnőtteknek, köztük demenciával élő embereknek. Nincs kikérdezés, nincs helyes válasz.",
     "short": "Képes kártyák nyitott, finom kérdésekkel. Kikérdezés nélkül.",
     "players": "2 ember vagy egy csoport",
     "intro": "Minden kártyán egy ismerős kép és egy nyitott beszélgetésre hívás áll, például „Milyen az Ön kedvenc időjárása?”. Nincs helyes válasz, és semmit sem kell megjegyezni. Válasszon témát, vagy keverje össze az összeset.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Képes bingó",
-    "seoTitle": "Képes bingó demenciával élő időseknek: nyomtatható",
+    "seoTitle": "Nyomtatható képes bingó csoportoknak",
     "h1": "Képes bingó csoportoknak",
-    "description": "Ingyenes, nyomtatható képes bingó gondozóotthonoknak és idősek csoportjainak, nagy képernyős számhúzóval. Nagy képek szavakkal, 9 vagy 16 mező, olvasás nélkül.",
+    "description": "Ingyenes, nyomtatható képes bingó családoknak, idősek csoportjainak és gondozóotthonoknak. Nagy képek szavakkal, 9 vagy 16 mező, és nagy méretű képernyős felolvasó.",
     "short": "Nyomtatható képes bingókártyák és nagyképernyős számhúzó csoportoknak.",
     "players": "2–30 fős csoport",
     "intro": "Klasszikus bingó számok helyett képekkel, így senkinek sem kell apró betűt olvasnia. Nyomtasson egyedi kártyákat, majd a képernyős számhúzóval mutassa meg minden képet nagyban a tévén, laptopon vagy táblagépen.",
@@ -394,7 +805,7 @@
   },
   "calm-breathing": {
     "name": "Nyugodt légzés",
-    "seoTitle": "Nyugodt légzőszünet időseknek és gondozóknak",
+    "seoTitle": "Nyugodt légzőpihenő, amelyet együtt tarthattok",
     "h1": "Nyugodt légzőszünet",
     "description": "Lassú, csendes légzőszünet közösen: egy szelíd kör nő és zsugorodik hat lélegzetvételig. Ön indítja el, és bármikor megállíthatja.",
     "short": "Egy lassú kör, amelyhez igazíthatja a légzését. Indítsa és állítsa meg, amikor akarja.",
@@ -423,6 +834,45 @@
       {
         "q": "Ingyenes, és regisztrálni kell?",
         "a": "Igen, ingyenes, és nincs fiók, regisztráció vagy letöltés. A böngészőben működik telefonon, táblagépen vagy számítógépen."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Történetlánc",
+    "seoTitle": "Történetlánc: közös képes történetmesélő játék",
+    "h1": "Történetlánc: mesélj egy történetet, egyszerre egy képpel",
+    "description": "A képek sorra egyesével bővülnek, és mindenki hangosan mond egy mondatot róluk. Nem kell gépelni, nincs helyes válasz. Ingyenes, nyugodt, idő- és pontszámítás nélkül.",
+    "short": "Adj hozzá egy képet, majd mindenki mond egy mondatot, körbe.",
+    "players": "2 vagy több személy",
+    "intro": "A játék egyetlen képpel indul, és a képek száma egyesével nő. Mindenki sorban, hangosan mond egy mondatot a addigi láncról. A mondat lehet arról, amit látsz, egy helyről, amely eszedbe jut, vagy valami vicces. Semmit sem gépelnek be, nem rögzítenek és nem őriznek meg, nincs helyes válasz, és bárki passzolhat. A lánc nyolc képnél megáll, utána új láncot kezdhettek.",
+    "howTo": [
+      "Nézzétek meg együtt az első képet.",
+      "Sorban, mindenki mond egy mondatot az addigi láncról. Bárki passzolhat.",
+      "Koppints az \"Kép hozzáadása\" gombra, hogy a lánc végére kerüljön a következő kép.",
+      "Koppints a \"Vedd le az utolsót\" gombra, ha inkább egy képpel vissza szeretnél lépni.",
+      "Ha a láncnak nyolc képe van, koppints az \"Új lánc indítása\" gombra egy frissért, vagy egyszerűen hagyd abba."
+    ],
+    "tips": [
+      "A rövid is jó: \"Valaki feltette a vizet.\" A következő személy folytatja, vagy passzol.",
+      "Hagyd, hogy a képek vezessenek. Nincs olyan történet, amelyhez el kellene jutni.",
+      "Akkor állj meg, amikor szeretnél. Félúton abbahagyni is teljesen jó befejezés."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vesztés sem. Bármikor abbahagyhatod, és a félúton való abbahagyás teljesen jó befejezés."
+      },
+      {
+        "q": "Gépelés vagy rögzítés történik?",
+        "a": "Nem. A mondatokat hangosan mondják ki, nem gépelik be, nem rögzítik és nem küldik sehová. A játék csak a képeket mutatja."
+      },
+      {
+        "q": "Mi van, ha valaki nem akar semmit mondani?",
+        "a": "Bárki passzolhat, a következő személy pedig folytatja. Senkinek nem kell képet megnevezni vagy megjegyezni."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, tableten vagy számítógépen, a webböngészőben működik."
       }
     ]
   }

@@ -13,10 +13,16 @@
     "machineTranslated": "Awtomatikong isinalin ang pahinang ito at hindi pa nasusuri ng isang katutubong nagsasalita.",
     "readOriginal": "Basahin ang orihinal sa Ingles",
     "nav": {
+      "find": "Find an activity",
       "games": "Mga laro",
       "activities": "Mga gawain",
       "caregiving": "Pag-aalaga",
-      "brainHealth": "Kalusugan ng utak"
+      "brainHealth": "Kalusugan ng utak",
+      "crafts": "Mga Craft",
+      "kids": "Mga Bata",
+      "together": "Magkasama",
+      "creativeCalm": "Malikhaing katahimikan",
+      "search": "Maghanap"
     },
     "faqTitle": "Mga tanong at sagot",
     "breadcrumb": "Landas ng pahina",
@@ -28,6 +34,21 @@
       "smaller": "Karaniwang teksto",
       "larger": "Mas malaking teksto",
       "contrast": "Mas malinaw na kaibahan"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +62,7 @@
     "ideas101": "101 ideya sa gawain",
     "lateStage": "Mga gawain para sa huling yugto",
     "printable": "Mga gawaing maaaring i-print",
-    "allActivities": "Lahat ng gawain",
+    "allActivities": "Lahat ng gabay sa aktibidad",
     "forCaregivers": "Para sa mga tagapag-alaga",
     "playTogether": "Paano maglaro nang magkasama",
     "selfCare": "Pag-aalaga sa sarili",
@@ -54,24 +75,34 @@
     "app": "Ang app na Creative Activities",
     "appHelp": "Tulong sa app",
     "support": "Suporta",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Legal",
     "sitePrivacy": "Privacy ng website",
     "appPrivacy": "Patakaran sa privacy ng app",
     "privacyChoices": "Mga pagpipilian sa privacy",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Mga tuntunin at lisensya ng app",
     "safety": "Kaligtasan at nilalayong gamit",
     "accessibility": "Pagiging accessible",
     "healthNotice": "Paunawa tungkol sa impormasyong pangkalusugan",
     "allLegal": "Lahat ng impormasyong legal",
     "note": "Nag-aalok ang Creative Activities ng mga simpleng gawaing pinagsasaluhan para sa kasiyahan. Hindi ito payo medikal, pagsusuri o gamot, at hindi nito dina-diagnose, sinusukat o binibigyan ng iskor ang sinuman. Para sa mga tanong tungkol sa kalusugan, makipag-usap sa doktor. Sa emergency, tumawag sa 911.",
-    "publisher": "Inilathala ng Cloudjet Solutions Pte. Ltd."
+    "publisher": "Inilathala ng Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Mga craft para sa lahat ng edad",
+    "kids": "Mga aktibidad para sa mga bata",
+    "together": "Mga aktibidad na gagawin nang magkasama",
+    "creativeCalm": "Malikhaing katahimikan",
+    "dementiaActivities": "Mga aktibidad para sa mga taong may dementia"
   },
   "home": {
-    "title": "Mga Laro at Gawain para sa Demensya at Alzheimer's | Creative Activities",
-    "description": "Libre at banayad na mga larong may larawan na maaaring laruin online, at mga ideya sa gawain para sa mga taong may demensya o Alzheimer's at sa kanilang mga tagapag-alaga. Walang kailangang i-sign up, walang timer o iskor.",
+    "title": "Malikhaing Aktibidad para sa Sinumang Nag-aalaga ng Isang Tao",
+    "description": "Libreng malikhaing aktibidad para sa sinumang nag-aalaga ng isang tao: mga craft, mga bagay para sa mga bata, mga aktibidad na gagawin nang magkasama at mga kalmadong malikhaing ideya.",
     "eyebrow": "Libre · Walang ad · Walang sign-up · Walang timer o iskor",
-    "h1": "Mga Banayad na Laro at Gawain para sa mga Taong may Demensya",
-    "lede": "Mga simpleng larong may larawan, pamilyar na litrato, at mga gawaing masayang gawin nang magkasama, ayon sa sarili ninyong bilis.",
+    "h1": "Gumawa ng isang bagay nang magkasama",
+    "lede": "Maghanap ng aktibidad na akma sa tao, sa sandaling ito, at sa mayroon ka. Madaling craft, sining para sa mga bata, mga bagay na gagawin nang magkasama at mga kalmadong malikhaing ideya, may mas madaling bersyon at kard na maaaring i-print. Huminto kailan mo man gusto.",
     "playGame": "Maglaro ng isang laro",
     "findIdeas": "Maghanap ng ideya sa gawain",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 ideya sa gawain",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Maagang yugto",
         "text": "Ipagpatuloy ang mga bagay na gustong-gusto nila, na may maliliit na pagbabago: mga libangan, lakad sa labas, larong salita at magkasamang pagpaplano.",
         "label": "Mga ideya para sa maagang yugto"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Gitnang yugto",
         "text": "Simple at pamilyar na mga gawain na hinati sa mga hakbang: pagtutupi, pag-uuri, musika, larong larawan at maiikling lakad.",
         "label": "Mga ideya para sa gitnang yugto"
@@ -124,10 +155,10 @@
         "label": "Mga ideya para sa huling yugto"
       }
     ],
-    "specificHtml": "Naghahanap ng partikular? Subukan ang <a href=\"/activities/alzheimers/\">mga gawain at laro para sa Alzheimer's</a>, <a href=\"/activities/memory-games/\">banayad na larong pang-alaala</a>, <a href=\"/activities/trivia/\">madaling trivia</a> o <a href=\"/activities/puzzles/\">mga puzzle</a>.",
+    "specificHtml": "May hinahanap na partikular? Subukan ang <a href=\"/dementia-activities/\">mga aktibidad at laro para sa Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">mga puzzle at larong pang-mesa</a>, <a href=\"/together/conversation-games-for-all-ages/\">mga larong pag-uusap</a> o <a href=\"/together/puzzles-and-table-games/\">mga puzzle</a>.",
     "approachEyebrow": "Ang aming paraan",
-    "approachTitle": "Isang pinagsasaluhang gawain, hindi pagsusulit sa alaala",
-    "approachLede": "Maraming “brain game” ang nakabatay sa bilis, iskor at sunod-sunod na panalo. Para sa taong may demensya, maaari itong maging parang pagsusulit. Ginawa namin ang kabaligtaran.",
+    "approachTitle": "Isang pinagsasaluhang aktibidad, hindi pagsusulit",
+    "approachLede": "Maraming “brain game” ang nakabatay sa bilis, puntos at sunod-sunod na panalo. Para sa taong pagod, may karamdaman o may dementia, maaari itong maging parang pagsusulit. Ang ginawa namin ay ang kabaligtaran nito.",
     "approachLink": "Bakit namin dinisenyo ito nang ganito",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Mga karaniwang dahilan ng pagtanggi, at banayad na paraan para subukan ulit sa ibang pagkakataon."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Pag-aayos ng tablet",
-        "text": "Mas malaking teksto, mas kaunting abala, at iisang simpleng home screen."
+        "href": "/activities/group-art-activities/",
+        "title": "Mga aktibidad sa sining na pangkatan",
+        "text": "Mga pinagsasaluhang proyekto para sa isang mesa na may ilang tao, na may bahagi ang bawat isa."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Mga gawaing maaaring i-print nang libre",
-        "text": "Mga word search na malaki ang letra, pangkulay, bingo at mga kard para sa usapan."
+        "href": "/activities/ideas/",
+        "title": "101 ideya sa aktibidad",
+        "text": "Simpleng ideya, nakaayos ayon sa mayroon ka at kung gaano karami ang enerhiya."
       }
     ],
     "researchTitle": "Kalusugan ng utak: ano ba talaga ang sinasabi ng pananaliksik",
@@ -185,16 +216,16 @@
     "aboutApp": "Tungkol sa app",
     "faq": [
       {
-        "q": "Ano ang mga magandang laro para sa mga taong may demensya?",
-        "a": "Ang mabubuting laro ay payak, pamilyar at walang pilit: malalaking larawang itutugma, pag-uuri, madaling jigsaw, pagtatapos ng mga kilalang kasabihan, pagkukulay, picture bingo at mga conversation card. Ang pinakamainam na pagpipilian ay ang larong gusto ng tao ngayon. Iwasan ang timer, iskor at anumang parang pagsusulit."
+        "q": "Ano ang magagandang laro para sa mga nakatatanda?",
+        "a": "Ang magagandang laro ay simple, pamilyar at walang presyon: malalaking larawan na itutugma, pag-uuri-uri, madaling jigsaw puzzle, pagtatapos ng mga kilalang kasabihan, pagkukulay, picture bingo at mga kard para sa pag-uusap. Angkop ang mga ito sa maraming nakatatanda, kasama ang mga taong may dementia. Ang pinakamainam na pagpili ay ang laro na ikinasisiya ng tao ngayon. Iwasan ang timer, puntos at anumang parang pagsusulit."
       },
       {
-        "q": "Libre ba ang mga larong ito para sa dementia?",
+        "q": "Libre ba ang mga larong ito?",
         "a": "Oo. Lahat ng laro at printable sa Creative Activities ay libre, walang account, sign-up o download. Tumatakbo ang mga laro sa web browser ng telepono, tablet o kompyuter."
       },
       {
         "q": "Napipigilan ba ng brain games ang dementia?",
-        "a": "Walang larong napatunayang nakapipigil ng dementia, at hindi inaangkin ng Creative Activities na nagagamot o napipigilan ng alinman. Para sa kasiyahan at pagsasama ang aming mga laro. Ipinaliliwanag ng aming seksyon tungkol sa kalusugan ng utak kung ano ang ipinapakita at hindi ipinapakita ng pananaliksik."
+        "a": "Walang larong napatunayang nakapagpipigil ng dementia, at hindi kailanman inaangkin ng Creative Activities na nakagagamot o nakapipigil ng anuman. Ang aming mga laro ay para sa kasiyahan at para sa oras na magkasama, at walang pahina ng aktibidad ang gumagawa ng pahayag tungkol sa kalusugan."
       },
       {
         "q": "Angkop ba ang mga larong ito para sa taong may Alzheimer's?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "Sino ang gumawa ng Creative Activities?",
-        "a": "Ang Creative Activities ay maliit na team na gumagawa ng mahinahon at pang-adultong picture activities para sa mga pamilya at tagapag-alaga, sa web at bilang libreng app. Hindi kami mga clinician, at walang medikal na payo rito."
+        "a": "Ang Creative Activities ay isang maliit na pangkat na gumagawa ng kalmado at malikhaing aktibidad para sa mga adulto, para sa sinumang nag-aalaga ng isang tao, sa web at bilang libreng app. Hindi kami mga clinician, at walang nakasulat dito na medikal na payo."
+      }
+    ],
+    "groupsEyebrow": "Alamin kung saan magsisimula",
+    "groupsTitle": "Apat na uri ng malikhaing aktibidad",
+    "groupsLede": "Magsimula sa pangkat na akma sa kasama mo at sa mayroon ka. May mas madaling bersyon at paalala sa kaligtasan ang bawat pahina.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Mga craft",
+        "text": "Mga proyektong gawa sa papel, pintura, nirecycle at ayon sa panahon, na may mas madaling bersyon para sa bawat isa.",
+        "label": "Tingnan ang mga craft"
+      },
+      {
+        "href": "/kids/",
+        "title": "Mga Bata",
+        "text": "Sining at laro para sa mga bata, may malapit na nasa hustong gulang at malinaw na paalala sa kaligtasan.",
+        "label": "Tingnan ang mga aktibidad para sa bata"
+      },
+      {
+        "href": "/together/",
+        "title": "Magkasama",
+        "text": "Pag-uusap, puzzle, oras sa labas at mga paraan para manatiling malapit sa iba't ibang henerasyon.",
+        "label": "Tingnan ang mga bagay na gagawin nang magkasama"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Malikhaing katahimikan",
+        "text": "Mabagal at tahimik na malikhaing sandali gamit ang lapis, pahina o awit. Hindi ito therapy.",
+        "label": "Tingnan ang malikhaing katahimikan"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Mga Aktibidad",
-      "title": "Mga Aktibidad para sa Taong may Dementia",
-      "seo": "Mga Aktibidad para sa Taong may Dementia: Mga Ideya ayon sa Yugto",
-      "description": "Mga ideya ng aktibidad para sa mga taong may dementia sa bawat yugto: musika, pag-alala sa nakaraan, mga araw-araw na gawain, pandama, sining, labas at libreng printable.",
-      "lede": "Ang makabuluhang aktibidad ay anumang nagbibigay ng ginhawa, layunin o sandali ng pagkakaugnay. Magsimula sa kung ano ang laging nagugustuhan ng tao, at iangkop ito sa kasalukuyan."
+      "label": "Mga gabay sa aktibidad",
+      "title": "Mga Gabay sa Aktibidad",
+      "seo": "Mga Gabay sa Aktibidad: Mga Ideya, Kagamitan sa Sining at Paraan ng Pagsisimula",
+      "description": "Malinaw na gabay sa malikhaing aktibidad na magagawa mo kasama ang isang tao: simpleng ideya, murang kagamitan sa sining, sining na pangkatan, mga liham, alaala, at paliwanag sa art therapy.",
+      "lede": "Maikli at praktikal na gabay sa pagpili at pagsisimula ng aktibidad kasama ang isang tao, anuman ang kanyang edad o kakayahan."
+    },
+    "crafts": {
+      "label": "Mga craft",
+      "title": "Mga Craft para sa Lahat ng Edad",
+      "seo": "Madaling Craft para sa Lahat ng Edad, May Mas Madaling Bersyon",
+      "description": "Madaling craft para sa mga adulto, bata at pamilya: papel, pagkukulay, nirecycle at ayon sa panahon na craft, may mas madaling hawakan at mga bersyong nakaupo, at walang espesyal na kasanayang kailangan.",
+      "lede": "Mga craft na nagsisimula sa mga bagay na halos bawat bahay ay mayroon, bawat isa ay may mas madaling bersyon, para may magawa ang sinuman."
+    },
+    "kids": {
+      "label": "Mga Bata",
+      "title": "Malikhaing Aktibidad para sa mga Bata",
+      "seo": "Malikhaing Aktibidad para sa mga Bata: Sining, Pandama at Katahimikan",
+      "description": "Malikhaing aktibidad para sa mga bata: sining para sa maliliit, sining sa proseso, laro para sa pandama, craft para sa maulan na araw at ideya para pakalmahin ang bata, may paalala sa kaligtasan at mga bersyon para sa pangangailangan sa pandama.",
+      "lede": "Mga ideya sa sining at laro para sa mga batang may iba't ibang edad at pangangailangan, may malinaw na paalala sa kaligtasan at isang nasa hustong gulang sa malapit."
+    },
+    "together": {
+      "label": "Magkasama",
+      "title": "Mga Aktibidad na Gagawin nang Magkasama",
+      "seo": "Mga Aktibidad na Gagawin nang Magkasama, Sa Iba't Ibang Henerasyon",
+      "description": "Mga aktibidad para sa dalawa o higit pang henerasyon: mga larong pag-uusap, puzzle, oras sa labas, craft para sa lolo at lola at mga apo, at mga paraan para manatiling malapit kahit malayo.",
+      "lede": "Mga ideya para magbahagi ng oras kasama ang magulang, lolo o lola, anak o kaibigan, sa bahay, sa labas, sa pagbisita o mula sa malayo."
+    },
+    "creative-calm": {
+      "label": "Malikhaing katahimikan",
+      "title": "Malikhaing Katahimikan",
+      "seo": "Malikhaing Katahimikan: Nakakarelaks na Sining at Aktibidad para Magpahinga",
+      "description": "Nakakarelaks na malikhaing aktibidad para sa mga adulto at tagapag-alaga: mindful na sining, pagsusulat sa journal, musika, sandali para sa pandama at tahimik na hapon. Malikhaing aktibidad ito, hindi therapy.",
+      "lede": "Mga banayad na paraan para bumagal gamit ang lapis, pahina o awit. Ito ay malikhaing aktibidad, hindi therapy, at walang kasanayang kailangan."
     },
     "caregiving": {
-      "label": "Pag-aalaga",
-      "title": "Mga Gabay sa Pag-aalaga",
-      "seo": "Mga Gabay sa Pag-aalaga sa Dementia: Praktikal na Tulong sa Araw-araw",
-      "description": "Praktikal at maawaing gabay para sa mga tagapag-alaga ng may dementia: paglalaro nang magkasama, komunikasyon, pagtanggi, pagkabalisa sa gabi, tablet, pagpili ng app at pag-aalaga sa sarili.",
-      "lede": "Simple at praktikal na tulong para sa araw-araw na sandali ng pag-aalaga sa taong may dementia, kasama na ang pag-aalaga sa iyong sarili."
+      "label": "Pangangalaga sa dementia",
+      "title": "Pag-aalaga sa Taong may Dementia",
+      "seo": "Pag-aalaga sa Taong may Dementia: Mga Aktibidad at Tulong",
+      "description": "Mga gabay para sa pamilyang nag-aalaga ng taong may dementia: paano maglaro nang magkasama, ano ang gagawin kapag tumanggi sila, at saan makakahanap ng mapagkakatiwalaang tulong pagkatapos ng diagnosis.",
+      "lede": "Tulong na nakatuon sa aktibidad para sa mga pamilyang nag-aalaga ng taong may dementia, at kung saan lalapit para sa payo medikal at pangangalaga."
     },
     "brain-health": {
       "label": "Kalusugan ng utak",
@@ -283,7 +371,16 @@
     "tryTogether": "Subukan nang magkasama",
     "relatedGuides": "Mga kaugnay na gabay",
     "related": "Kaugnay",
-    "startHere": "Magsimula dito"
+    "startHere": "Magsimula dito",
+    "staleAria": "Lipas na ang salin",
+    "staleTitle": "Lipas na ang salin na ito",
+    "staleText": "Ginawa ito mula sa naunang bersyon ng English na pahina, at nagbago na ang pahinang iyon simula noon. Ang English na pahina ang kasalukuyang bersyon.",
+    "staleHealth": "Naglalaman ito ng impormasyong pangkalusugan, kaya tingnan muna ang English na pahina at kumonsulta sa doktor o nars bago kumilos ayon dito.",
+    "staleLink": "Basahin ang kasalukuyang English na pahina"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Paunawa tungkol sa kalusugan",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Isang Pinagsasaluhang Aktibidad, Hindi Pagsusulit sa Memorya",
+      "title": "Isang Gawaing Pinagsasaluhan, Hindi Pagsusulit",
       "seoTitle": "Tungkol sa Creative Activities: Ang Aming Pamamaraan",
-      "description": "Bakit walang timer, iskor o streak ang mga laro ng Creative Activities, bakit nananatiling nakikita ang mga larawan, at ano ang hindi namin ipinapangakong magagawa tungkol sa dementia.",
+      "description": "Bakit walang timer, iskor o sunod-sunod na panalo ang Creative Activities, bakit nananatiling nakikita ang mga larawan, at ano ang hindi namin ipinangangako tungkol sa kalusugan.",
       "crumb": "Ang aming pamamaraan",
-      "lede": "Gumagawa ang Creative Activities ng mahinahon at pang-adultong picture activities na masisiyahan nang magkatabi ang tagapag-alaga at ang taong may dementia.",
-      "bodyHtml": "<h2>Ang aming paniniwala</h2><p>Ang layunin ng isang aktibidad ay ang sandaling mismo: isang usapan, isang ngiti, ang kasiyahan ng pagpapares ng dalawang larawan, o simpleng pag-upo nang malapit sa isa’t isa. Hindi ito para sukatin ang sinuman, itulak sila nang higit pa, o patunayan ang anuman.</p><p>Maraming app para sa pagsasanay ng utak ang ginawa batay sa bilis, puntos, sunod-sunod na panalo at antas. Para sa taong may dementia, maaaring maramdaman itong parang pagsusulit na hindi niya kayang pumasa. Kabaligtaran ang idinisenyo namin, at sinusunod namin ang mga tuntuning ito:</p><ul><li><strong>Walang dapat ikabigo.</strong> Walang orasan, puntos, bilang ng galaw, buhay, sunod-sunod na panalo, confetti o countdown, sa anumang screen.</li><li><strong>Pagkilala, hindi pag-alala.</strong> Nananatiling nakikita ang mga larawan bilang default. Ang mga paalala ay nag-iimbita ng usapan at hindi kailanman nagtatanong ng mga pangalan o alaala.</li><li><strong>Malaki, simple at matatag.</strong> Malalaking teksto at larawan, matingkad na kaibahan, at mga kontrol na nananatili sa parehong lugar.</li><li><strong>Dignidad ng nasa hustong gulang.</strong> Mga totoong larawan at simple, mainit na salita. Walang cartoon, pagpuring parang awit o gantimpalang emoji.</li><li><strong>Madaling paraan para huminto.</strong> Laging nakikita ang “Tapos muna sa ngayon”. Ang pagtigil sa kalagitnaan ay magandang resulta.</li><li><strong>Pribado bilang default.</strong> Walang account o ad. Ang mga larawang pipiliin ninyo ay nananatili sa inyong device.</li></ul><h2>Ang hindi namin sinasabi</h2><p>Ang aming mga laro ay para sa kasiyahan at pakikipag-ugnayan. Hindi nila dina-diagnose, sinusuri, sinusukat, ginagamot, pinabagal o pinipigilan ang dementia o Alzheimer’s disease, at walang dapat pumili sa mga ito para sa ganoong dahilan. Kapag sumusulat kami tungkol sa pananaliksik sa aming <a href=\"/brain-health/\">mga pahina tungkol sa kalusugan ng utak</a>, malinaw naming sinasabi kung mahina ang ebidensya, at hindi namin ito kailanman iniuugnay sa aming sariling mga laro.</p><h2>Sino kami</h2><p>Ang Creative Activities ay isang maliit at independiyenteng koponan. Hindi kami mga clinician. Ang aming mga gabay ay isinulat batay sa mga nailathalang gabay ng mga organisasyon tulad ng National Institute on Aging at Alzheimer’s Association, at nakalista sa bawat gabay ang mga pinagkukunan nito. Basahin ang <a href=\"/editorial-policy/\">kung paano namin isinusulat at sinusuri ang aming mga pahina</a>.</p><h2>Sabihin ninyo sa amin kung ano ang makatutulong</h2><p>Gusto naming marinig kung ano ang gumagana para sa inyo at kung ano ang hindi, lalo na mula sa mga taong may dementia, mga pamilyang tagapag-alaga at mga staff ng aktibidad. Mag-email sa <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Gumagawa ang Creative Activities ng mahinahon at pang-adultong mga gawain na masisiyahan ng dalawang tao nang magkatabi, kahit ang isa ay nag-aalaga sa kasama o gusto lang nilang magkasama.",
+      "bodyHtml": "<h2>Para kanino ito</h2><p>Para sa sinumang nag-aalaga ng iba: magulang, lolo o lola, anak, kapareha, kaibigan, o taong may dementia. Puwedeng gamitin ng mga pamilya, nakatatanda, at staff ng mga programa ang parehong mga pahina.</p><h2>Ano ang pinaniniwalaan namin</h2><p>Ang punto ng isang gawain ay ang mismong sandali: ang isang usapan, isang ngiti, ang kasiyahan ng pagtutugma ng dalawang larawan, o simpleng pag-upo nang magkalapit. Hindi ito para sukatin ang sinuman, itulak pa sila, o patunayan ang anuman.</p><p>Maraming brain-training app ang dinisenyo sa paligid ng bilis, iskor, sunod-sunod na panalo at antas. Para sa taong pagod, may karamdaman, o may dementia, parang pagsusulit itong hindi kayang pumasa. Ang kabaligtaran ang dinisenyo namin, at sinusunod namin ang mga patakarang ito:</p><ul><li><strong>Walang puwedeng bumagsak.</strong> Walang orasan, iskor, bilang ng galaw, buhay, sunod-sunod na panalo, confetti o countdown, sa anumang screen.</li><li><strong>Pagkilala nang higit sa pag-alala.</strong> Nananatiling nakikita ang mga larawan bilang default. Ang mga mungkahi ay nag-iimbita ng usapan at hindi nagtatanong tungkol sa mga pangalan o alaala.</li><li><strong>Malaki, payak at matatag.</strong> Malalaking teksto at larawan, mataas na kontrast, at mga kontrol na nananatili sa iisang lugar.</li><li><strong>Dangal ng adulto.</strong> Mga larawang kumakatawan sa totoong mundo at payak at mainit na mga salita. Walang cartoon, paulit-ulit na papuri o emoji na gantimpala.</li><li><strong>Madaling paraan palabas.</strong> Laging nakikita ang “Tapos na muna.” Ang pagtigil sa kalagitnaan ay isang magandang kinalabasan.</li><li><strong>Pribado bilang default.</strong> Walang account o ad. Ang mga larawang pipiliin mo ay nananatili sa iyong device.</li></ul><h2>Ang hindi namin inaangkin</h2><p>Ang aming mga laro at gawain ay para sa libangan at koneksiyon. Hindi nila dinidiagnose, sinusuri, sinusukat, ginagamot, pinababagal o pinipigilan ang dementia o sakit na Alzheimer, at walang dapat pumili sa mga ito para sa ganoong layunin. Kapag sumusulat kami tungkol sa pananaliksik sa kalusugan, malinaw naming sinasabi kung mahina ang ebidensiya, at hindi namin ito kailanman iniuugnay sa aming mga gawain.</p><h2>Sino kami</h2><p>Maliit na independent na koponan ang Creative Activities. Hindi kami mga clinician. Ang aming mga gabay ay isinulat batay sa nailathalang patnubay ng mga organisasyon gaya ng National Institute on Aging at Alzheimer’s Association, at nakalista sa bawat gabay ang mga pinagmulan nito. Basahin ang <a href=\"/editorial-policy/\">kung paano namin sinusulat at sinusuri ang aming mga pahina</a>.</p><h2>Sabihin sa amin kung ano ang makakatulong</h2><p>Gusto naming malaman kung ano ang gumagana para sa iyo at kung ano ang hindi, lalo na mula sa mga taong may dementia, mga miyembro ng pamilyang nag-aalaga, at mga staff ng programa. Mag-email sa <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Paano Namin Sinusulat at Sinusuri ang Aming mga Pahina",
       "seoTitle": "Patakaran sa Editoryal",
-      "description": "Paano sinasaliksik, isinusulat, pinagkukunan at ina-update ng Creative Activities ang aming mga pahina tungkol sa mga aktibidad para sa dementia at kalusugan ng utak, at kung ano ang hindi namin kailanman ilalathala.",
+      "description": "Paano sinasaliksik, sinusulat, kinukuha ang mga pinagmulan, at ina-update ng Creative Activities ang aming mga pahina ng gawain at kalusugan, at ang mga hindi namin kailanman ilalathala.",
       "crumb": "Patakaran sa editoryal",
       "bodyHtml": "<h2>Aming mga pinagkukunan</h2><p>Batay ang aming mga gabay sa mga pampublikong gabay ng mga organisasyon tulad ng National Institute on Aging, ang CDC, ang Alzheimer’s Association, ang Alzheimer’s Foundation of America, ang Family Caregiver Alliance at ang NHS, at sa mga pananaliksik na sinuri ng mga eksperto tulad ng mga Cochrane review at malalaking klinikal na pagsubok. Nakalista sa bawat gabay ang mga pinagkukunang ginamit nito. Binubuksan namin ang bawat pinagkukunan bago ito banggitin, at iniuulat lamang namin ang tunay na sinasabi nito.</p><h2>Paano kami sumusulat</h2><ul><li>Praktikal muna: ang dapat gawin ngayon, sa simpleng wika.</li><li>Tapat tungkol sa ebidensya: sinasabi namin ang “nauugnay sa”, “maaaring” at “halo-halo ang ebidensya” kapag iyon ang totoo.</li><li>Magalang: isinusulat namin ang tungkol sa mga taong may dementia bilang mga nasa hustong gulang, at hindi kailanman gumagamit ng wikang mapanlait o nakahihiya.</li><li>Walang gawa-gawang nilalaman: walang imbentong estadistika, sipi, eksperto, pag-aaral, pagsusuri o patotoo.</li></ul><h2>Sino ang nagsusuri ng aming mga pahina</h2><p>Isinusulat at sinusuri ang mga pahina ng koponan ng Creative Activities, na tinutulungan ng mga AI na kasangkapan sa pagsulat para sa pananaliksik at pag-draft. Sinusuri ng koponan ang bawat pahina laban sa mga pinagkukunan nito. Ang aming mga pahina ay <strong>hindi</strong> pa nasuri ng doktor o ng ibang clinician, at hindi namin ito inaangkin. Pangkalahatang impormasyon ang mga ito, hindi medikal na payo.</p><h2>Ano ang hindi namin kailanman ilalathala</h2><ul><li>Mga pahayag na ang laro, pagkain, supplement, pag-aayuno o nakagawiang gawain ay pumipigil, gumagamot, nagpapabagal o nagpapagaling ng dementia.</li><li>Mga pagsusulit, quiz o puntos na nagpapahiwatig na may dementia o wala ang isang tao.</li><li>Payo na simulan, itigil o baguhin ang anumang gamot.</li><li>Patalastas o bayad na nilalaman na nagkukunwaring gabay.</li></ul><h2>Mga update at pagwawasto</h2><p>Ipinapakita ng bawat pahina ang petsa ng huling update nito. Kung may makita kayong mali o lipas nang pinagkukunan, mangyaring mag-email sa <a href=\"mailto:{email}\">{email}</a> at agad naming titingnan.</p>"
     },
     "faq": {
       "title": "Mga Tanong at Sagot",
-      "seoTitle": "Mga Laro at Aktibidad para sa Dementia: Mga Tanong at Sagot",
-      "description": "Mga sagot sa karaniwang tanong tungkol sa mga laro at aktibidad para sa dementia: aling mga laro ang subukan, gaano katagal maglaro, mga ideya para sa mas huling yugto, kalusugan ng utak at privacy.",
+      "seoTitle": "Mga Tanong at Sagot Tungkol sa Creative Activities",
+      "description": "Mga sagot sa karaniwang tanong tungkol sa mga laro at gawain: alin ang subukan, gaano katagal maglaro, mga grupo at mga ideya para sa mas malalang yugto, kalusugan at privacy.",
       "crumb": "Mga tanong at sagot",
       "lede": "Maikli at simpleng sagot sa mga tanong na madalas itanong ng mga tagapag-alaga.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Tungkol sa mga laro",
           "items": [
             {
-              "q": "Ano ang pinakamahusay na mga laro para sa taong may dementia?",
+              "q": "Ano ang pinakamagagandang laro para sa mga nakatatanda?",
               "a": "Ang pinakamahusay na mga laro ay pamilyar, simple at walang pressure, at ang tamang laro ay ang nagugustuhan ng tao sa araw na iyon. Ang pagpapares ng larawan gamit ang nakikitang mga larawan, pag-uuri, madaling jigsaw, pagtatapos ng pamilyar na kasabihan, pagkukulay at picture bingo ay gumagana para sa maraming tao. Iwasan ang timer, puntos at anumang parang pagsusulit."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Kalusugan ng utak",
+          "title": "Dementia at kalusugan",
           "items": [
             {
               "q": "Napipigilan o napapabagal ba ng mga laro ang dementia?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Higit pang detalye: <a href=\"/caregiving/how-to-play-together/\">paano maglaro nang magkasama</a>, <a href=\"/caregiving/when-they-say-no/\">kapag ayaw nila</a>, <a href=\"/activities/late-stage/\">mga gawain sa mas malalang yugto</a> at <a href=\"/brain-health/can-dementia-be-prevented/\">maiiwasan ba ang dementia?</a>"
+      "moreHtml": "Higit pang detalye: <a href=\"/caregiving/how-to-play-together/\">paano maglaro nang magkasama</a>, <a href=\"/caregiving/when-they-say-no/\">kapag tumanggi sila</a>, <a href=\"/activities/late-stage/\">mga gawain para sa mas malalang yugto</a> at <a href=\"/dementia-activities/\">mga gawain para sa dementia sa bahay</a>."
     },
     "handout": {
       "title": "Libre at Banayad na Laro para sa mga Taong may Dementia",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "Para sa Care Home, Aklatan at Support Group",
-      "seoTitle": "Libreng Aktibidad sa Demensya para sa mga Tahanan ng Pangangalaga at mga Grupo",
-      "description": "Paano ginagamit ng mga tahanan ng pangangalaga, programa para sa matatanda tuwing araw, aklatan, ahensya para sa nakatatanda at grupo ng suporta ang aming libreng laro para sa demensya, at teksto para idagdag kami sa listahan ng mga sanggunian.",
+      "seoTitle": "Libreng Gawain para sa Care Home, Aklatan at Grupo",
+      "description": "Paano ginagamit ng mga care home, adult day program, aklatan, ahensiya para sa nakatatanda at support group ang aming libreng laro at gabay sa gawain, kasama ang teksto para idagdag kami sa listahan ng mapagkukunan.",
       "crumb": "Para sa mga organisasyon",
       "lede": "Lahat ng nasa site na ito ay libre gamitin kasama ang mga residente, miyembro at kliyente, walang account, lisensya o bayad. Ipinapaliwanag ng pahinang ito kung ano ang narito at kung paano ito ibahagi.",
-      "shortText": "{name}: libre, banayad na larong may larawan at mga gabay sa aktibidad para sa mga taong may demensya at sa kanilang mga tagapag-alaga. Walang sign-up, walang timer, walang iskor.",
-      "longText": "Ang {name} ({domain}) ay may {count} libreng larong pang-browser na ginawa para sa mga taong may demensya, kabilang ang pagtutugma ng magkapares na larawan na nananatiling nakikita ang mga larawan, isang madaling jigsaw, pag-uuri, mga pamilyar na kasabihan at picture bingo na may mga card na maaaring i-print. Walang account, patalastas, timer o iskor. May mga gabay sa aktibidad na nakasulat sa simpleng wika para sa bawat yugto ng demensya ang site, na tumutukoy sa National Institute on Aging at sa Alzheimer's Association.",
+      "shortText": "{name}: libre, mahinahong mga laro gamit ang larawan at mga gabay sa gawain para sa nakatatanda, pamilya, at mga taong may dementia. Walang sign-up, walang timer, walang iskor.",
+      "longText": "Nag-aalok ang {name} ({domain}) ng {count} libreng browser game para sa nakatatanda, pamilya, at mga taong may dementia, kabilang ang pagtutugma ng magkapares na larawan na nananatiling nakikita, isang madaling jigsaw, pag-uuri, pamilyar na kasabihan, at picture bingo na may mga card na maaaring i-print. Walang account, advertising, timer o iskor. May payak na mga gabay sa gawain din ang site para sa mga pamilya, nakatatanda, at staff, na may mga pinagmulan gaya ng National Institute on Aging at Alzheimer's Association.",
       "useTitle": "Ano ang maaaring gamitin ng mga organisasyon",
       "gamesItemHtml": "<strong>{count} larong pang-browser</strong> na gumagana sa laptop, tablet o TV na nakakonekta sa computer. Walang pag-install, account o pag-download. Tingnan ang <a href=\"/games/\">lahat ng laro</a>.",
       "printablesLabel": "{count} na maaaring i-print:",
       "printablesAfter": "Gamitin ang Print button sa bawat pahina.",
-      "moreItemsHtml": "<li><strong>Mga format para sa grupo:</strong> ang <a href=\"/games/picture-bingo/\">Picture bingo</a> ay may mga card na maaaring i-print at tagatawag sa screen, at ang <a href=\"/activities/trivia/\">madaling trivia</a> ay may 50 tanong na may mga pagpipilian ng sagot at mga puntong maaaring pag-usapan.</li><li><strong>Mga gabay sa aktibidad</strong> para sa staff at pamilya, ayon sa yugto at uri, nakasulat sa simpleng wika na may mga sanggunian. Magsimula sa <a href=\"/activities/ideas/\">101 ideya sa aktibidad</a> o sa <a href=\"/activities/care-home-groups/\">aktibidad para sa grupo sa mga care home</a>.</li>",
+      "moreItemsHtml": "<li><strong>Mga format ng grupo:</strong> Ang <a href=\"/games/picture-bingo/\">Picture bingo</a> ay may mga card na maaaring i-print at tagatawag sa screen, at ang <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> ay may mga tanong na may pagpipiliang sagot at mga paksa para pag-usapan.</li><li><strong>Mga gabay sa aktibidad</strong> para sa mga staff at pamilya, nakasulat sa simpleng wika na may mga sanggunian. Magsimula sa <a href=\"/activities/ideas/\">101 activity ideas</a> o sa <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
       "restHtml": "<h2>Paano ginagamit ng mga grupo</h2><ul><li><strong>Mga care home at pangangalaga sa alaala:</strong> picture bingo o pagtatapos ng kasabihan sa TV ng common room, kung saan isang tao ang nagpipindot para sa buong grupo.</li><li><strong>Mga programa para sa matatanda tuwing araw:</strong> istasyon sa tablet na may Picture pairs na nakatakda sa apat na tile, para sa maiikling sesyon na one-to-one.</li><li><strong>Mga pampublikong aklatan:</strong> mga naka-print na word search at card ng usapan sa mga memory kit, at ang site ay naka-bookmark sa mga tablet ng aklatan.</li><li><strong>Mga grupo ng suporta sa tagapag-alaga at memory café:</strong> isang <a href=\"/handout/\">isang pahinang handout na maaaring i-print</a> para maiuwi ng mga pamilya.</li><li><strong>Mga ospital at tagaplano ng paglabas:</strong> ang handout sa mga packet para sa tagapag-alaga, para may tahimik na gawin sa bahay o sa tabi ng kama.</li></ul><h2>Ang hindi namin ginagawa</h2><p>Ang mga laro ay para sa kasiyahan at para sa oras na magkasama. Hindi nila dinidiagnose, sinusubok, binibigyan ng iskor, ginagamot o pinapabagal ang demensya, at hinihiling namin sa mga organisasyon na huwag itong ilarawan sa ganoong paraan. Walang patalastas, at hindi humihingi ang mga laro ng pangalan, detalye sa kalusugan o pag-upload ng larawan. Gumagamit ang website ng Google Analytics para bilangin ang mga bisita; ipinapaliwanag ng aming <a href=\"/privacy/\">abiso sa privacy</a> kung ano ang kinokolekta nito. Ang mga larawang ginagamit sa <a href=\"/games/photo-pairs/\">Photo pairs</a> ay nananatili sa browser.</p><h2>Idagdag kami sa inyong listahan ng sanggunian</h2><p>Kung may listahan kayo ng sanggunian para sa mga tagapag-alaga, malugod kayong mag-link sa <a href=\"/\">{domain}</a>. Maaari ninyong kopyahin ang alinman sa dalawang paglalarawan.</p>",
       "shortTitle": "Maikling paglalarawan",
       "longTitle": "Mas mahabang paglalarawan",
-      "linksHtml": "<p>Mga kapaki-pakinabang na pahina na direktang i-link: <a href=\"/games/\">libreng laro</a>, <a href=\"/activities/printable/\">libreng mga maaaring i-print</a>, <a href=\"/activities/alzheimers/\">aktibidad para sa Alzheimer's</a> at <a href=\"/caregiving/how-to-play-together/\">paano maglaro nang magkasama</a>.</p><h2>Mga tanong o pagwawasto</h2><p>Kung may mali o hindi malinaw sa site, o kung hindi natutugunan ng narito ang pangangailangan ng isang residente, pakisabi sa amin sa <a href=\"mailto:{email}\">{email}</a>. Pakiusap, huwag magpadala ng personal o impormasyong pangkalusugan tungkol sa mga residente o kliyente.</p>"
+      "linksHtml": "<p>Mga kapaki-pakinabang na pahina na maaari ninyong i-link nang direkta: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> at <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Mga tanong o pagwawasto</h2><p>Kung may mali o hindi malinaw sa site, o kung hindi natutugunan ng nilalaman dito ang pangangailangan ng isang residente, mangyaring sabihin sa amin sa <a href=\"mailto:{email}\">{email}</a>. Mangyaring huwag magpadala ng personal o impormasyong pangkalusugan tungkol sa mga residente o kliyente.</p>"
     },
     "app": {
       "title": "Ang Creative Activities App",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Libreng Laro para sa Dementia at Alzheimer's Online",
-    "description": "Libreng online na laro para sa mga nakatatandang may dementia o Alzheimer's: pagtutugma ng larawan, madaling jigsaw, pag-uuri, kasabihan, pagkukulay, bingo. Walang pag-sign up, timer o iskor.",
+    "title": "Mga Libreng Laro na Maaaring Laruin Nang Magkasama Online",
+    "description": "Mga libreng online na laro para sa mga nakatatanda, pamilya at mga taong nabubuhay na may dementia: pagtutugma ng larawan, madaling jigsaw, pag-uuri, salawikain, pagkukulay at bingo. Walang kailangang mag-sign up, walang timer o puntos.",
     "crumb": "Mga Laro",
-    "h1": "Mahinahong Laro para sa Taong may Dementia",
+    "h1": "Mga Banayad na Laro na Maaaring Laruin Nang Magkasama",
     "lede": "{count} libreng laro na masayang laruin nang magkasama sa inyong browser. Malalaking larawan at simpleng salita, at walang mabibigo: walang timer, walang iskor, walang pag-sign up.",
-    "listName": "Mahinahong laro para sa taong may dementia",
+    "listName": "Mga banayad na laro na maaaring laruin nang magkasama",
     "byStageTitle": "Pagpili ng laro ayon sa yugto",
     "byStageLede": "Magaspang na gabay lamang ang mga yugto. Sundin ang gustong gawin ng taong inaalagaan ninyo at kung ano ang komportable ngayon.",
     "stageCol": "Yugto",
     "gamesCol": "Mga larong kadalasang angkop",
-    "moreHtml": "Mas maraming ideya na hindi kailangan ng screen: <a href=\"/activities/ideas/\">101 gawain para sa mga taong may dementia</a>, <a href=\"/activities/alzheimers/\">mga gawain at laro para sa Alzheimer's</a>, <a href=\"/activities/memory-games/\">mahinahong laro sa alaala</a> at <a href=\"/activities/puzzles/\">puzzle</a>.",
+    "moreHtml": "Mas maraming ideya na hindi kailangan ng screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> at <a href=\"/crafts/\">crafts</a>.",
     "faq": [
       {
         "q": "Aling laro ang dapat naming simulan?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Mga laro ba ito sa alaala para sa nakatatanda?",
-        "a": "Mga larong pagtutugma at larawan ang mga ito na maaaring tangkilikin ng sinumang nakatatanda, pero ginawa ang mga ito para hindi subukin ang alaala. Sa Magkapares na larawan, nananatiling nakaharap ang mga larawan maliban kung piliin ninyong iba. Ipinaliliwanag ng aming gabay sa mga laro sa alaala para sa nakatatandang may dementia kung paano panatilihing mahinahon ang anumang laro sa alaala."
+        "a": "Ang mga ito ay mga laro ng pagtutugma at larawan na maaaring tangkilikin ng sinumang nakatatanda, ngunit ginawa ang mga ito upang hindi sukatin ang alaala: sa Picture pairs, nananatiling nakaharap ang mga larawan maliban kung pipiliin mo kung hindi. Anumang laro ng alaala ay maaaring gawing mas banayad sa pamamagitan ng pag-alis ng timer at mga puntos."
       },
       {
         "q": "May mga laro ba para sa grupo sa care home?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Mayroon bang app para sa mga gawain sa dementia?",
+        "q": "May app ba para sa mga nakatatanda at pamilya?",
         "a": "Mayroon. Ang Creative Activities (nakalista bilang \"{storeName}\") ay libre sa App Store at Google Play. Nag-aalok ito ng mahinahong pagtutugma ng larawan na may malalaking kahon, mga laro gamit ang mga larawan ng pamilyang pinili ninyo, at mga pakete ng larawan na gumagana nang walang internet."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "Maaaring i-print",
     "howTo": "Paano laruin ang {name}",
     "tips": "Mga tip sa paglalaro nang magkasama",
-    "newToPlayingHtml": "Bago pa lang sa paglalaro kasama ang taong may dementia? Basahin ang <a href=\"/caregiving/how-to-play-together/\">kung paano maglaro nang magkasama</a>, kasama ang dapat gawin kung mawalan sila ng interes.",
+    "newToPlayingHtml": "Bago ka pa lang sa paglalaro kasama ang isang nakatatanda o taong nabubuhay na may dementia? Basahin ang <a href=\"/caregiving/how-to-play-together/\">how to play games together</a>, kabilang ang kung ano ang gagawin kung nawalan sila ng interes.",
     "moreAria": "Iba pang mapagtutuklasan",
     "helpfulGuides": "Mga kapaki-pakinabang na gabay",
     "appTitle": "Laruin ito sa app",
@@ -536,6 +633,31 @@
     "goodToKnow": "Magandang malaman",
     "goodToKnowText": "Ang larong ito ay para sa kasiyahan at pagsasama-sama ng oras. Hindi ito nagsusubok, sumusukat o gumagamot ng kahit ano.",
     "moreGames": "Iba pang banayad na laro",
-    "crumb": "Mga Laro"
+    "crumb": "Mga Laro",
+    "print": {
+      "heading": "Maglaro gamit ang papel",
+      "sameRules": "Ang bersyon sa papel ay may parehong patakaran gaya ng laro sa screen:",
+      "button": "Mag-print ng bersyon sa papel",
+      "pageNote": "Isang pahina sa A4 o US Letter, maayos kahit itim at puti. Bersyon {date}.",
+      "islandNote": "Ini-print nito ang nasa screen ngayon. Bersyon {date}.",
+      "sheetTitle": "{name}: bersyon sa papel",
+      "point": "Sa papel, ituro ang larawan sa halip na pindutin ito, o bilugan ito gamit ang panulat. Ang bawat hanay ay bagong set.",
+      "pointTarget": "Sa papel, ang larawang titingnan ay nasa kahon sa simula ng bawat hanay. Ituro ang larawan sa halip na pindutin ito, o bilugan ito gamit ang panulat.",
+      "halves": "Ang bawat larawan ay nahahati sa gitna. Gumuhit ng linya mula sa bawat kalahati sa kaliwa papunta sa kalahating bagay dito sa kanan, o ituro gamit ang daliri. Walang kailangang gupitin.",
+      "grid": "Bawat parisukat ay may numero. Hanapin ang numerong iyon sa susi, at kulayan ang parisukat ng lapis na may kulay na iyon. Puwede rin ang anumang iba pang kulay na gusto ninyo. Walang kailangang gupitin.",
+      "colors": "Ang bawat hanay ay may pangalan ng kulay. Ituro ang bawat larawang may ganoong kulay, o bilugan ito gamit ang panulat. Ang bawat hanay ay bagong set.",
+      "dice": "Ang bawat hanay ay isang set ng dice. Pumili ng isang hanay, o gupitin ang mga larawan at kumuha ng ilan mula sa tumpok, pagkatapos ay magkwento gamit ang mga ito sa anumang pagkakasunod-sunod. Puwedeng lumaktaw ang sinuman.",
+      "cards": "Gupitin ang mga card sa kahabaang may tuldok na linya. Ilatag ang mga ito nang nakaharap sa mesa, pagkatapos hanapin ang mga pares.",
+      "chain": "Sa papel, basahin ang mga larawan mula kaliwa pakanan, isa-isa. Ang bawat tao ay magsasabi ng isang pangungusap tungkol sa mga larawang nakita na, pagkatapos ay ituturo ang susunod na larawan. Puwedeng lumaktaw ang sinuman.",
+      "sort": "Gupitin ang mga larawan sa kahabaang may tuldok na linya, pagkatapos ilagay ang bawat isa sa kahon kung saan ito nararapat.",
+      "puzzle": "Gupitin ang malaking larawan sa kahabaang may tuldok na linya sa apat na piraso at haluin ang mga ito. Magpalitan ng dalawang piraso sa bawat pagkakataon hanggang mabuo ang larawan. Gabay ang maliit na larawan.",
+      "cutSafety": "Maaaring gawin ng katulong ang pagputol bago kayo magsimula. Itabi ang gunting pagkatapos.",
+      "version": "Bersyon {date} · {url}",
+      "reasons": {
+        "photos": "Walang bersyon sa papel. Ginagamit ng larong ito ang sarili ninyong mga larawan, na nananatili sa inyong browser at hindi kailanman ina-upload, kaya hindi ito maaaring i-print ng site. Para maglaro sa papel, mag-print ng dalawang kopya ng ilang paboritong larawan sa bahay at itugma ang mga ito sa mesa.",
+        "paced": "Walang bersyon sa papel. Ang bilog ay nagtatakda ng mabagal at tuloy-tuloy na bilis sa screen, at hindi ito kayang gawin ng naka-print na pahina, kaya magiging ibang aktibidad ito. Palaging may opsyon ang tahimik na pahinga nang magkasama nang walang screen.",
+        "sayings": "Wala pang bersyon sa papel. Sa papel, lalabas nang sabay-sabay ang lahat ng wakas, at mawawala ang banayad na hakbang na \"Ipakita ang wakas\". Basahin nang magkasama ang mga salawikain mula sa screen, o magbahagi ng ilan na pareho ninyong alam."
+      }
+    }
   }
 }

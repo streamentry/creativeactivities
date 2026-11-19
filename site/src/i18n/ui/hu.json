@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Ugrás a fő tartalomra",
     "brandName": "Creative Activities",
@@ -12,10 +13,16 @@
     "machineTranslated": "Ezt az oldalt automatikusan fordítottuk, anyanyelvi olvasó még nem ellenőrizte.",
     "readOriginal": "Az eredeti angol változat elolvasása",
     "nav": {
+      "find": "Find an activity",
       "games": "Játékok",
       "activities": "Tevékenységek",
       "caregiving": "Gondozás",
-      "brainHealth": "Agyi egészség"
+      "brainHealth": "Agyi egészség",
+      "crafts": "Kézművesség",
+      "kids": "Gyerekeknek",
+      "together": "Közösen",
+      "creativeCalm": "Kreatív nyugalom",
+      "search": "Keresés"
     },
     "faqTitle": "Kérdések és válaszok",
     "breadcrumb": "Navigációs útvonal",
@@ -27,6 +34,21 @@
       "smaller": "Normál szöveg",
       "larger": "Nagyobb szöveg",
       "contrast": "Nagyobb kontraszt"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +57,12 @@
     "conversationCards": "Beszélgetőkártyák",
     "pictureBingo": "Képes bingó",
     "allGames": "Minden játék",
+    "pictures": "Nyomtatható képek",
     "activityIdeas": "Tevékenységötletek",
     "ideas101": "101 tevékenységötlet",
     "lateStage": "Tevékenységek a későbbi szakaszra",
     "printable": "Nyomtatható tevékenységek",
-    "allActivities": "Minden tevékenység",
+    "allActivities": "Összes tevékenységi útmutató",
     "forCaregivers": "Gondozóknak",
     "playTogether": "Hogyan játsszunk együtt",
     "selfCare": "Gondoskodás önmagunkról",
@@ -52,10 +75,15 @@
     "app": "A Creative Activities alkalmazás",
     "appHelp": "Alkalmazássúgó",
     "support": "Ügyfélszolgálat",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Jogi tudnivalók",
     "sitePrivacy": "A weboldal adatvédelme",
     "appPrivacy": "Az alkalmazás adatvédelmi irányelvei",
     "privacyChoices": "Adatvédelmi lehetőségek",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Feltételek és alkalmazáslicenc",
     "safety": "Biztonság és rendeltetés",
     "accessibility": "Akadálymentesség",
@@ -63,14 +91,18 @@
     "allLegal": "Minden jogi tudnivaló",
     "note": "A Creative Activities egyszerű, közös, kikapcsolódásra szánt tevékenységeket kínál. Nem orvosi tanács, nem teszt és nem kezelés, és nem diagnosztizál, mér vagy pontoz senkit. Egészségügyi kérdéssel forduljon orvoshoz. Vészhelyzetben hívja a 112-es segélyhívószámot.",
     "publisher": "Kiadó: Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Nyomtatható képek"
+    "crafts": "Kézműves foglalkozások minden korosztálynak",
+    "kids": "Tevékenységek gyerekeknek",
+    "together": "Közös tevékenységek",
+    "creativeCalm": "Kreatív nyugalom",
+    "dementiaActivities": "Tevékenységek demenciával élőknek"
   },
   "home": {
-    "title": "Demencia és Alzheimer-kór: játékok és tevékenységek | Creative Activities",
-    "description": "Ingyenes, nyugodt képes játékok online, és tevékenységötletek demenciával vagy Alzheimer-kórral élő embereknek és gondozóiknak.",
+    "title": "Creative Activities: kreatív tevékenységek mindenkinek, aki valakit gondoz",
+    "description": "Ingyenes kreatív tevékenységek mindenkinek, aki valakit gondoz: kézműves foglalkozások, játékok gyerekeknek, közös tevékenységek és nyugodt kreatív ötletek.",
     "eyebrow": "Ingyenes · Reklámmentes · Regisztráció nélkül · Időzítő és pontszám nélkül",
-    "h1": "Nyugodt játékok és tevékenységek demenciával élőknek",
-    "lede": "Egyszerű képes játékok, ismerős fotók és közös tevékenységek, saját tempóban.",
+    "h1": "Készítsünk együtt valamit",
+    "lede": "Keressen olyan tevékenységet, amely illik ahhoz a személyhez, ahhoz a helyzethez és ahhoz, ami éppen rendelkezésre áll. Egyszerű kézműves munkák, gyerekrajzolás, közös tevékenységek és nyugodt kreatív ötletek, könnyebb változatokkal és nyomtatható kártyával. Bármikor abbahagyhatja.",
     "playGame": "Játék indítása",
     "findIdeas": "Tevékenységötletek",
     "facts": [
@@ -105,13 +137,13 @@
     "ideas101": "101 tevékenységötlet",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Korai szakasz",
         "text": "Folytassák, amit szeretnek, apró módosításokkal: hobbik, kirándulások, szójátékok és közös tervezés.",
         "label": "Ötletek a korai szakaszra"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Középső szakasz",
         "text": "Egyszerű, ismerős feladatok lépésekre bontva: hajtogatás, válogatás, zene, képes játékok és rövid séták.",
         "label": "Ötletek a középső szakaszra"
@@ -123,10 +155,10 @@
         "label": "Ötletek a későbbi szakaszra"
       }
     ],
-    "specificHtml": "Valami konkrétat keres? Próbálja ki az <a href=\"/activities/alzheimers/\">Alzheimer-kórral kapcsolatos tevékenységeket és játékokat</a>, a <a href=\"/activities/memory-games/\">nyugodt emlékezős játékokat</a>, az <a href=\"/activities/trivia/\">könnyű találós kérdéseket</a> vagy a <a href=\"/activities/puzzles/\">kirakókat</a>.",
+    "specificHtml": "Valami konkrétra vágyik? Próbálja ki az <a href=\"/dementia-activities/\">Alzheimer-kórhoz kapcsolódó tevékenységeket és játékokat</a>, a <a href=\"/together/puzzles-and-table-games/\">kirakós és asztali játékokat</a>, a <a href=\"/together/conversation-games-for-all-ages/\">beszélgetős játékokat</a> vagy a <a href=\"/together/puzzles-and-table-games/\">kirakósokat</a>.",
     "approachEyebrow": "Szemléletünk",
-    "approachTitle": "Közös tevékenység, nem emlékezetpróba",
-    "approachLede": "Sok „agytorna” a gyorsaságra, a pontszámra és a sorozatokra épül. Demenciával élő embernek ez vizsgának tűnhet. Mi az ellenkezőjét készítettük.",
+    "approachTitle": "Közös tevékenység, nem teszt",
+    "approachLede": "Sok „agytorna” játék a gyorsaságra, pontszámokra és sorozatokra épül. Egy fáradt, nem jól érzett vagy demenciával élő ember számára ez vizsgának tűnhet. Mi az ellenkezőjét építettük.",
     "approachLink": "Miért így tervezzük",
     "principles": [
       {
@@ -165,14 +197,14 @@
         "text": "A visszautasítás gyakori okai, és finom módok a későbbi újrapróbálásra."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "A táblagép beállítása",
-        "text": "Nagyobb szöveg, kevesebb megszakítás és egyetlen egyszerű kezdőképernyő."
+        "href": "/activities/group-art-activities/",
+        "title": "Csoportos művészeti tevékenységek",
+        "text": "Közös projektek több ember számára egy asztal körül, minden résztvevőnek saját feladattal."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ingyenes nyomtatható tevékenységek",
-        "text": "Nagybetűs szókeresők, színezők, bingó és beszélgetőkártyák."
+        "href": "/activities/ideas/",
+        "title": "101 tevékenységi ötlet",
+        "text": "Egyszerű ötletek, rendezve aszerint, hogy mi van otthon és mennyi energia van."
       }
     ],
     "researchTitle": "Agyi egészség: mit mond valójában a kutatás",
@@ -184,16 +216,16 @@
     "aboutApp": "Az alkalmazásról",
     "faq": [
       {
-        "q": "Mik a jó játékok demenciával élő embereknek?",
-        "a": "A jó játékok egyszerűek, ismerősek és nyomásmentesek: nagy képek párosítása, válogatás, könnyű kirakók, ismert mondások befejezése, színezés, képes bingó és beszélgetőkártyák. A legjobb választás az, amit a másik ember ma szívesen csinál. Kerülje az időzítőt, a pontszámot és mindent, ami tesztre emlékeztet."
+        "q": "Mik a jó játékok idősebb felnőtteknek?",
+        "a": "A jó játékok egyszerűek, ismerősek és nyomásmentesek: nagy képek párosítása, rendezgetés, könnyű kirakók, ismert közmondások befejezése, színezés, képes lottó és beszélgetőkártyák. Sok idősebb felnőttnek jók, köztük demenciával élőknek is. A legjobb választás az, amit az illető ma élvez. Kerülje az időzítőket, a pontszámokat és mindent, ami tesztnek hat."
       },
       {
-        "q": "Ingyenesek ezek a demencia-játékok?",
+        "q": "Ingyenesek ezek a játékok?",
         "a": "Igen. A Creative Activities minden játéka és nyomtatnivalója ingyenes, fiók, regisztráció és letöltés nélkül. A játékok a böngészőben futnak telefonon, táblagépen vagy számítógépen."
       },
       {
         "q": "Megelőzik a demenciát az agytornák?",
-        "a": "Egyetlen játékról sem bizonyították, hogy megelőzi a demenciát, és a Creative Activities sem állítja, hogy bármit kezelne vagy megelőzne. Játékaink az élvezetre és az együtt töltött időre valók. Az agyi egészségről szóló részünk elmagyarázza, mit mutat és mit nem mutat a kutatás."
+        "a": "Egyetlen játékról sem bizonyították, hogy megelőzi a demenciát, és a Creative Activities nem állítja, hogy bármit kezel vagy megelőz. Játékaink szórakozásra és közös időtöltésre készülnek, és egyetlen tevékenységi oldal sem tesz egészségügyi állítást."
       },
       {
         "q": "Alkalmasak ezek a játékok Alzheimer-kórral élő embernek?",
@@ -209,7 +241,36 @@
       },
       {
         "q": "Ki készíti a Creative Activities-et?",
-        "a": "A Creative Activities egy kis csapat, amely nyugodt, felnőtteknek szóló képes tevékenységeket készít családoknak és gondozóknak, a weben és ingyenes alkalmazásként. Nem vagyunk klinikai szakemberek, és semmi itt nem orvosi tanács."
+        "a": "A Creative Activities egy kis csapat, amely nyugodt, felnőtteknek szóló kreatív tevékenységeket készít mindenkinek, aki valakit gondoz, webes felületen és ingyenes alkalmazásként. Nem vagyunk klinikusok, és semmi itt nem minősül orvosi tanácsnak."
+      }
+    ],
+    "groupsEyebrow": "Tájékozódjon",
+    "groupsTitle": "Négyféle kreatív tevékenység",
+    "groupsLede": "Kezdje azzal a csoporttal, amely illik ahhoz, akivel van, és ahhoz, ami rendelkezésre áll. Minden oldalon vannak könnyebb változatok és biztonsági tudnivalók.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Kézművesség",
+        "text": "Papír-, festék-, újrahasznosított és évszakos munkák, minden munkához könnyebb változattal.",
+        "label": "Kézműves ötletek böngészése"
+      },
+      {
+        "href": "/kids/",
+        "title": "Gyerekeknek",
+        "text": "Rajzolás és játék gyerekeknek, felnőtt közelségével és világos biztonsági tudnivalókkal.",
+        "label": "Gyerekeknek szóló tevékenységek böngészése"
+      },
+      {
+        "href": "/together/",
+        "title": "Közösen",
+        "text": "Beszélgetés, kirakók, szabadtéri időtöltés és módok arra, hogy generációk között is közel maradjunk.",
+        "label": "Közös tevékenységek böngészése"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreatív nyugalom",
+        "text": "Lassú, csendes kreatív pillanatok ceruzával, lappal vagy dallal. Nem terápia.",
+        "label": "Kreatív nyugalom böngészése"
       }
     ]
   },
@@ -248,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Tevékenységek",
-      "title": "Tevékenységek demenciával élőknek",
-      "seo": "Tevékenységek demenciával élőknek: ötletek szakaszok szerint",
-      "description": "Tevékenységötletek demenciával élőknek a betegség minden szakaszára: zene, emlékek, mindennapi feladatok, kézművesség és ingyenes nyomtatnivalók.",
-      "lede": "Értelmes tevékenység minden, ami kényelmet, célt vagy egy kapcsolódási pillanatot ad. Induljon abból, amit a másik ember mindig is szeretett, és igazítsa a mai naphoz."
+      "label": "Tevékenységi útmutatók",
+      "title": "Tevékenységi útmutatók",
+      "seo": "Tevékenységi útmutatók: ötletek, művészeti eszközök és kezdési módok",
+      "description": "Egyszerű útmutatók kreatív tevékenységekhez valakivel együtt: egyszerű ötletek, olcsó művészeti eszközök, csoportos művészet, levelek, emlékek, valamint a művészetterápia bemutatása.",
+      "lede": "Rövid, gyakorlati útmutatók ahhoz, hogy valakivel együtt válasszon és kezdjen el egy tevékenységet, bármilyen életkorban vagy képességgel."
+    },
+    "crafts": {
+      "label": "Kézművesség",
+      "title": "Kézműves foglalkozások minden korosztálynak",
+      "seo": "Egyszerű kézműves munkák minden korosztálynak, könnyebb változatokkal",
+      "description": "Egyszerű kézműves munkák felnőtteknek, gyerekeknek és családoknak: papír-, színezős, újrahasznosított és évszakos munkák, könnyebben fogható és ülő változatokkal, különleges készség nélkül.",
+      "lede": "Olyan kézműves munkák, amelyek a legtöbb otthonban meglévő anyagokból indulnak, mindegyikhez könnyebb változattal, hogy bárki készíthessen valamit."
+    },
+    "kids": {
+      "label": "Gyerekeknek",
+      "title": "Kreatív tevékenységek gyerekeknek",
+      "seo": "Kreatív tevékenységek gyerekeknek: művészet, érzékelés és nyugalom",
+      "description": "Kreatív tevékenységek gyerekeknek: kisdedek rajzolása, folyamatművészet, érzékszervi játék, esős napi kézművesség és megnyugtató ötletek, biztonsági tudnivalókkal és érzékenységi igényekhez igazított változatokkal.",
+      "lede": "Rajzolási és játékötletek különböző korú és igényű gyerekeknek, világos biztonsági tudnivalókkal és felnőtt közelségével."
+    },
+    "together": {
+      "label": "Közösen",
+      "title": "Közös tevékenységek",
+      "seo": "Közös tevékenységek generációk között",
+      "description": "Tevékenységek két vagy több generációnak: beszélgetős játékok, kirakók, szabadtéri időtöltés, kézműves munkák nagyszülőknek és unokáknak, valamint módok arra, hogy távolról is közel maradjunk.",
+      "lede": "Ötletek arra, hogyan töltsön időt szülővel, nagyszülővel, gyerekkel vagy barátjával, otthon, szabadban, látogatáskor vagy távolról."
+    },
+    "creative-calm": {
+      "label": "Kreatív nyugalom",
+      "title": "Kreatív nyugalom",
+      "seo": "Kreatív nyugalom: pihentető művészet és tevékenységek a kikapcsolódáshoz",
+      "description": "Pihentető kreatív tevékenységek felnőtteknek és gondozóknak: tudatos művészet, naplóírás, zene, érzékszervi pillanatok és nyugodt délutánok. Kreatív tevékenység, nem terápia.",
+      "lede": "Finom módok arra, hogy ceruzával, lappal vagy dallal lassítson. Ezek kreatív tevékenységek, nem terápia, és nem kérnek semmilyen készséget."
     },
     "caregiving": {
-      "label": "Gondozás",
-      "title": "Gondozási útmutatók",
-      "seo": "Útmutatók demencia gondozóknak: gyakorlati segítség a mindennapokra",
-      "description": "Gyakorlati, kedves útmutatók demencia gondozóknak: közös játék, kommunikáció, visszautasítás, késő délutáni nyugtalanság és önmagunkról való gondoskodás.",
-      "lede": "Egyszerű, gyakorlati segítség a demenciával élő ember gondozásának mindennapi pillanataihoz, az önmagáról való gondoskodást is beleértve."
+      "label": "Demenciagondozás",
+      "title": "Gondozás demenciával élő szeretteinknek",
+      "seo": "Demenciával élő szerettünk gondozása: tevékenységek és segítség",
+      "description": "Útmutatók demenciával élő szeretteiket gondozó családoknak: hogyan játsszanak együtt, mit tegyenek, ha nemet mondanak, és hol találhatnak megbízható segítséget a diagnózis után.",
+      "lede": "Tevékenység-alapú segítség demenciával élő szeretteiket gondozó családoknak, és hol forduljanak orvosi és gondozási tanácsért."
     },
     "brain-health": {
       "label": "Agyi egészség",
@@ -282,7 +371,16 @@
     "tryTogether": "Próbálják ki együtt",
     "relatedGuides": "Kapcsolódó útmutatók",
     "related": "Kapcsolódó",
-    "startHere": "Kezdje itt"
+    "startHere": "Kezdje itt",
+    "staleAria": "A fordítás elavult",
+    "staleTitle": "Ez a fordítás elavult",
+    "staleText": "Készült a tartalom egy korábbi változatából. Az angol oldal azóta megváltozott. A jelenleg érvényes oldal az angol.",
+    "staleHealth": "Egészségügyi információt tartalmaz, ezért a cselekvés előtt nézze meg az angol oldalt, és kérdezze meg orvosát vagy ápolóját.",
+    "staleLink": "Olvassa el a jelenlegi angol oldalt"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Egészségügyi tájékoztató",
@@ -291,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Közös tevékenység, nem emlékezetpróba",
+      "title": "Közös tevékenység, nem teszt",
       "seoTitle": "A Creative Activities: szemléletünk",
-      "description": "Miért nincs időzítő, pontszám és sorozat a Creative Activities játékaiban, miért látszanak végig a képek, és mit állítunk, illetve nem állítunk a demenciáról.",
+      "description": "Miért nincs időzítő, pontszám vagy sorozatteljesítmény a Creative Activities oldalain, miért maradnak látszódni a képek, és mit állítunk, illetve mit nem állítunk az egészségről.",
       "crumb": "Szemléletünk",
-      "lede": "A Creative Activities nyugodt, felnőtteknek szóló képes tevékenységeket készít, amelyeket egy gondozó és egy demenciával élő ember egymás mellett élvezhet.",
-      "bodyHtml": "<h2>Miben hiszünk</h2><p>A tevékenység lényege maga a pillanat: egy beszélgetés, egy mosoly, két kép összeillesztésének öröme, vagy egyszerűen a közel ülés. Nem az a célja, hogy bárkit megmérjen, tovább lökjön vagy bármit bizonyítson.</p><p>Sok agytréning-alkalmazás a gyorsaságra, a pontszámra, a sorozatokra és a szintekre épül. Demenciával élő embernek ez olyan vizsgának tűnhet, amelyet nem tud letenni. Mi az ellenkezőjét terveztük, és ezeket a szabályokat tartjuk be:</p><ul><li><strong>Nincs mit elrontani.</strong> Egyetlen képernyőn sincs óra, pontszám, lépésszámláló, élet, sorozat, konfetti vagy visszaszámlálás.</li><li><strong>Felismerés az emlékezés helyett.</strong> A képek alapból végig látszanak. A beszélgetésindítók beszélgetésre hívnak, és soha nem kérdeznek nevekre vagy emlékekre.</li><li><strong>Nagy, egyszerű és állandó.</strong> Nagy szöveg és képek, erős kontraszt, és a vezérlők mindig ugyanazon a helyen maradnak.</li><li><strong>Felnőttekhez illő méltóság.</strong> Valódi képek, egyszerű, meleg szavak. Nincs rajzfilm, negédes dicséret vagy emojis jutalom.</li><li><strong>Könnyű kiszállás.</strong> A „Mára elég” mindig látható. A félbehagyás jó kimenetel.</li><li><strong>Alapból privát.</strong> Nincs fiók és nincs reklám. Az Ön által választott fotók az eszközén maradnak.</li></ul><h2>Amit nem állítunk</h2><p>Játékaink az élvezetre és a kapcsolódásra valók. Nem diagnosztizálják, nem tesztelik, nem mérik, nem kezelik, nem lassítják és nem előzik meg a demenciát vagy az Alzheimer-kórt, és senki se emiatt válassza őket. Amikor az <a href=\"/brain-health/\">agyi egészségről szóló oldalainkon</a> kutatásokról írunk, őszintén megmondjuk, hol gyengék a bizonyítékok, és soha nem kapcsoljuk össze őket a saját játékainkkal.</p><h2>Kik vagyunk</h2><p>A Creative Activities egy kis, független csapat. Nem vagyunk klinikai szakemberek. Útmutatóink olyan szervezetek közzétett ajánlásaira épülnek, mint az amerikai National Institute on Aging és az Alzheimer’s Association, és minden útmutató felsorolja a forrásait. Olvassa el, <a href=\"/editorial-policy/\">hogyan írjuk és ellenőrizzük oldalainkat</a>.</p><h2>Mondja el, mi segítene</h2><p>Szívesen megtudnánk, mi működik Önnél és mi nem, különösen demenciával élőktől, családi gondozóktól és foglalkoztatási munkatársaktól. Írjon a <a href=\"mailto:{email}\">{email}</a> címre.</p>"
+      "lede": "A Creative Activities nyugodt, felnőtteknek szóló tevékenységeket kínál, amelyeket két ember élvezhet egymás mellett, akár úgy, hogy az egyik gondoskodik a másikról, akár úgy, hogy egyszerűen együtt szeretnének időt tölteni.",
+      "bodyHtml": "<h2>Kinek szól</h2><p>Mindenkinek, aki valakiről gondoskodik: szülőnek, nagyszülőnek, gyereknek, élettársnak, barátnak, vagy olyan személynek, aki demenciával él. Családok, idősebb felnőttek és foglalkoztatásban dolgozók is ugyanazokat az oldalakat használhatják.</p><h2>Amiben hiszünk</h2><p>A tevékenység lényege maga a pillanat: a beszélgetés, a mosoly, az elégedettség, amikor két képet egymás mellé teszünk, vagy egyszerűen az, hogy együtt ülünk. Nem arra szolgál, hogy bárkit megmérjünk, tovább hajtsunk vagy bizonyítsunk vele valamit.</p><p>Sok agytréning-alkalmazás a gyorsaságra, pontszámokra, sorozatokra és szintekre épül. Egy fáradt, rosszul érzó vagy demenciával élő ember számára ez olyan vizsgának tűnhet, amelyet nem tud teljesíteni. Mi az ellenkezőjét terveztük, és ezekhez a szabályokhoz tartjuk magunkat:</p><ul><li><strong>Nincs megbukás.</strong> Sem óra, sem pontszám, sem lépésszámláló, sem életek, sorozatok, konfetti vagy visszaszámlálás, egyetlen képernyőn sincs.</li><li><strong>Felismerés, nem felidézés.</strong> A képek alapértelmezés szerint láthatók maradnak. A felkérések beszélgetésre hívnak, és soha nem kérdeznek neveket vagy emlékeket.</li><li><strong>Nagy, egyszerű és nyugodt.</strong> Nagy szöveg és képek, erős kontraszt, és olyan vezérlők, amelyek mindig ugyanott vannak.</li><li><strong>Felnőtt méltóság.</strong> Valódi életből vett képek és egyszerű, meleg szavak. Nincsenek rajzfilmek, éneklő dicséret vagy hangulatjeles jutalmak.</li><li><strong>Könnyű kilépés.</strong> A „Most elég” gomb mindig látható. Ha félbeszakítják, az is jó eredmény.</li><li><strong>Alapértelmezetten magán.</strong> Nincs fiók és nincs hirdetés. Az Ön által kiválasztott fotók az eszközén maradnak.</li></ul><h2>Amit nem állítunk</h2><p>Játékaink és tevékenységeink az örömet és a kapcsolódást szolgálják. Nem diagnosztizálnak, nem vizsgálnak, nem mérnek, nem kezelnek, nem lassítanak és nem előznek meg demenciát vagy Alzheimer-kórt, és senki nem azért válassza őket, hogy ezt elérje. Amikor egészségügyi kutatásokról írunk, egyértelműen jelezzük, ha a bizonyítékok gyengék, és soha nem kapcsoljuk ezeket a saját tevékenységeinkhez.</p><h2>Kik vagyunk</h2><p>A Creative Activities egy kis, független csapat. Nem vagyunk klinikusok. Útmutatóinkat olyan szervezetek közzétett ajánlásai alapján írjuk, mint a National Institute on Aging és az Alzheimer's Association, és minden útmutató felsorolja a forrásait. Olvassa el, <a href=\"/editorial-policy/\">hogyan írjuk és ellenőrizzük oldalainkat</a>.</p><h2>Ossza meg velünk, mi segítene</h2><p>Szívesen hallunk arról, mi válik be Önnél és mi nem, különösen demenciával élőktől, családi gondozóktól és foglalkoztatásban dolgozóktól. Írjon a <a href=\"mailto:{email}\">{email}</a> címre.</p>"
     },
     "editorial": {
       "title": "Hogyan írjuk és ellenőrizzük oldalainkat",
       "seoTitle": "Szerkesztési irányelvek",
-      "description": "Hogyan kutatja, írja, forrásolja és frissíti a Creative Activities a demencia-tevékenységekről és az agyi egészségről szóló oldalait, és mit nem teszünk közzé soha.",
+      "description": "Hogyan kutatja, írja, forrásolja és frissíti a Creative Activities a tevékenység- és egészségügyi oldalait, és mit soha nem fogunk közzétenni.",
       "crumb": "Szerkesztési irányelvek",
       "bodyHtml": "<h2>Forrásaink</h2><p>Útmutatóinkat olyan szervezetek nyilvános ajánlásaira építjük, mint az amerikai National Institute on Aging, a CDC, az Alzheimer’s Association, az Alzheimer’s Foundation of America, a Family Caregiver Alliance és az NHS, valamint lektorált kutatásokra, például Cochrane-áttekintésekre és nagy klinikai vizsgálatokra. Minden útmutató felsorolja a forrásait. Minden forrást megnyitunk, mielőtt hivatkozunk rá, és csak azt közöljük, amit valóban állít.</p><h2>Hogyan írunk</h2><ul><li>Először a gyakorlat: mit tegyen ma, egyszerű nyelven.</li><li>Őszinték vagyunk a bizonyítékokról: „összefüggésben áll”, „lehet” és „a bizonyítékok vegyesek” szavakat használunk, ha ez az igazság.</li><li>Tiszteletteljesek vagyunk: a demenciával élő emberekről felnőttként írunk, és soha nem használunk kikérdező vagy megszégyenítő nyelvet.</li><li>Semmi kitalált tartalom: nincsenek kitalált statisztikák, idézetek, szakértők, vizsgálatok, vélemények vagy ajánlások.</li></ul><h2>Ki nézi át oldalainkat</h2><p>Az oldalakat a Creative Activities csapata írja és ellenőrzi, a kutatáshoz és a megfogalmazáshoz mesterséges intelligenciás írószerszámok segítenek. Minden oldalt a csapat egyeztet a forrásaival. Oldalainkat orvos vagy más klinikai szakember <strong>nem</strong> nézte át, és ennek ellenkezőjét nem állítjuk. Általános tájékoztatást adnak, nem orvosi tanácsot.</p><h2>Amit soha nem teszünk közzé</h2><ul><li>Olyan állítást, hogy egy játék, étel, táplálékkiegészítő, böjt vagy napirend megelőzi, kezeli, lassítja vagy gyógyítja a demenciát.</li><li>Olyan teszteket, kvízeket vagy pontszámokat, amelyek azt sugallják, hogy valakinek van vagy nincs demenciája.</li><li>Tanácsot gyógyszer elkezdésére, abbahagyására vagy megváltoztatására.</li><li>Útmutatónak álcázott reklámot vagy szponzorált tartalmat.</li></ul><h2>Frissítések és javítások</h2><p>Minden oldalon látszik az utolsó frissítés dátuma. Ha hibát vagy elavult forrást talál, kérjük, írjon a <a href=\"mailto:{email}\">{email}</a> címre, és gyorsan utánanézünk.</p>"
     },
     "faq": {
       "title": "Kérdések és válaszok",
-      "seoTitle": "Demencia-játékok és -tevékenységek: kérdések és válaszok",
-      "description": "Válaszok a demencia-játékokkal és -tevékenységekkel kapcsolatos gyakori kérdésekre: mit próbáljon ki, meddig játsszanak, agyi egészség, adatvédelem.",
+      "seoTitle": "Gyakori kérdések a Creative Activities oldalairól",
+      "description": "Válaszok a játékok és tevékenységek gyakori kérdéseire: melyiket érdemes kipróbálni, mennyi ideig játsszunk, csoportok és a későbbi szakasz ötletei, egészség és adatvédelem.",
       "crumb": "Kérdések és válaszok",
       "lede": "Rövid, egyszerű válaszok a gondozók leggyakoribb kérdéseire.",
       "groups": [
@@ -317,7 +415,7 @@
           "title": "A játékokról",
           "items": [
             {
-              "q": "Melyek a legjobb játékok demenciával élő embernek?",
+              "q": "Melyek a legjobb játékok idősebb felnőtteknek?",
               "a": "A legjobb játékok ismerősek, egyszerűek és nyomásmentesek, és a megfelelő az, amit a másik ember ma szívesen csinál. Sok embernek jól működik a képpárosítás látható képekkel, a válogatás, a könnyű kirakó, az ismert mondások befejezése, a színezés és a képes bingó. Kerülje az időzítőt, a pontszámot és mindent, ami tesztre emlékeztet."
             },
             {
@@ -362,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Agyi egészség",
+          "title": "Demencia és egészség",
           "items": [
             {
               "q": "Megelőzhetik vagy lassíthatják a játékok a demenciát?",
@@ -393,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "További részletek: <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a>, <a href=\"/caregiving/when-they-say-no/\">ha nemet mond</a>, <a href=\"/activities/late-stage/\">tevékenységek a későbbi szakaszra</a> és <a href=\"/brain-health/can-dementia-be-prevented/\">megelőzhető-e a demencia?</a>"
+      "moreHtml": "Részletesebben: <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a>, <a href=\"/caregiving/when-they-say-no/\">mit tegyünk, ha nemet mondanak</a>, <a href=\"/activities/late-stage/\">tevékenységek a késői szakaszban</a> és <a href=\"/dementia-activities/\">demenciával kapcsolatos tevékenységek otthon</a>."
     },
     "handout": {
       "title": "Ingyenes, nyugodt játékok demenciával élőknek",
@@ -407,21 +505,21 @@
     },
     "organizations": {
       "title": "Gondozóotthonoknak, könyvtáraknak és támogató csoportoknak",
-      "seoTitle": "Ingyenes demencia-tevékenységek gondozóotthonoknak és csoportoknak",
-      "description": "Hogyan használják a gondozóotthonok, könyvtárak és támogató csoportok ingyenes demencia-játékainkat, és szöveg a forráslistára való felvételhez.",
+      "seoTitle": "Ingyenes tevékenységek idősotthonoknak, könyvtáraknak és csoportoknak",
+      "description": "Hogyan használják idősotthonok, nappali ellátók, könyvtárak, idősügyi szervezetek és támogató csoportok ingyenes játékainkat és tevékenységi útmutatóinkat, valamint hogyan vehetnek fel minket erőforráslistára szöveges üzenettel.",
       "crumb": "Szervezeteknek",
       "lede": "Az oldalon minden ingyenesen használható a lakókkal, tagokkal és ügyfelekkel, fiók, licenc és díj nélkül.",
-      "shortText": "{name}: ingyenes, nyugodt képes játékok és tevékenységi útmutatók demenciával élő embereknek és gondozóiknak. Regisztráció, időzítő és pontszám nélkül.",
-      "longText": "A(z) {name} ({domain}) {count} ingyenes böngészős játékot kínál demenciával élő embereknek, köztük látható képekkel párosítót, könnyű kirakót, válogatót, ismert mondásokat és képes bingót nyomtatható kártyákkal. Nincs fiók, reklám, időzítő vagy pontszám. Az oldalon a demencia minden szakaszához egyszerű nyelvű tevékenységi útmutatók is vannak, amelyek a National Institute on Agingre és az Alzheimer’s Associationre hivatkoznak.",
+      "shortText": "{name}: ingyenes, nyugodt képes játékok és tevékenységi útmutatók idősebb felnőtteknek, családoknak és demenciával élő embereknek. Nincs regisztráció, nincs időzítő, nincs pontszám.",
+      "longText": "A {name} ({domain}) {count} ingyenes böngészős játékot kínál idősebb felnőtteknek, családoknak és demenciával élő embereknek. Ezek között van párkereső képes játék, ahol a képek láthatók maradnak, egy könnyű puzzle, rendezés, ismert mondások és nyomtatható kártyákkal készült képes bingó. Nincs fiók, hirdetés, időzítő vagy pontszám. Az oldalon emellett egyszerű nyelvezetű tevékenységi útmutatók is vannak családoknak, idősebb felnőtteknek és munkatársaknak, forrásokkal, például a National Institute on Aging és az Alzheimer's Association anyagaival.",
       "useTitle": "Mit használhatnak a szervezetek",
       "gamesItemHtml": "<strong>{count} böngészős játék</strong>, amely laptopon, táblagépen vagy számítógéphez kötött tévén fut. Telepítés, fiók és letöltés nélkül. Lásd az <a href=\"/games/\">összes játékot</a>.",
       "printablesLabel": "{count} nyomtatnivaló:",
       "printablesAfter": "Használja az egyes oldalakon a Nyomtatás gombot.",
-      "moreItemsHtml": "<li><strong>Csoportos formák:</strong> a <a href=\"/games/picture-bingo/\">Képes bingóhoz</a> nyomtatható kártyák és képernyős számhúzó tartozik, a <a href=\"/activities/trivia/\">könnyű találós kérdésekben</a> pedig 50 kérdés van válaszlehetőségekkel és beszélgetési szempontokkal.</li><li><strong>Tevékenységi útmutatók</strong> munkatársaknak és családoknak, szakaszok és típusok szerint, egyszerű nyelven, forrásokkal. Kezdje a <a href=\"/activities/ideas/\">101 tevékenységötlettel</a> vagy a <a href=\"/activities/care-home-groups/\">gondozóotthoni csoportos tevékenységekkel</a>.</li>",
+      "moreItemsHtml": "<li><strong>Csoportos formák:</strong> a <a href=\"/games/picture-bingo/\">Képes bingó</a> nyomtatható kártyákkal és a képernyőn megjelenő felolvasóval készül, a <a href=\"/together/conversation-games-for-all-ages/\">beszélgetős játékok</a> pedig válaszlehetőségekkel és beszélgetési témákkal.</li><li><strong>Tevékenységi útmutatók</strong> munkatársaknak és családoknak, közérthetően megírva, forrásokkal. Kezdje a <a href=\"/activities/ideas/\">101 tevékenységi ötlettel</a> vagy a <a href=\"/crafts/craft-group-sessions/\">idősotthonoknak szóló csoportos foglalkozásokkal</a>.</li>",
       "restHtml": "<h2>Hogyan használják a csoportok</h2><ul><li><strong>Gondozóotthonok és memóriagondozás:</strong> képes bingó vagy mondásbefejező a társalgó tévéjén, egy ember érint a csoport nevében.</li><li><strong>Nappali programok:</strong> egy táblagépes állomás négy kártyára állított Képpárokkal, rövid, egyéni alkalmakhoz.</li><li><strong>Közkönyvtárak:</strong> kinyomtatott szókeresők és beszélgetőkártyák az emlékezős készletekben, és a könyvtári táblagépeken könyvjelzőzött oldal.</li><li><strong>Gondozói támogató csoportok és emlékkávézók:</strong> egy <a href=\"/handout/\">egyoldalas nyomtatható tájékoztató</a>, amelyet a családok hazavihetnek.</li><li><strong>Kórházak és hazabocsátást tervezők:</strong> a tájékoztató a gondozói csomagokban, hogy legyen valami nyugodt tennivaló otthon vagy az ágy mellett.</li></ul><h2>Amit nem teszünk</h2><p>A játékok az élvezetre és az együtt töltött időre valók. Nem diagnosztizálják, nem tesztelik, nem pontozzák, nem kezelik és nem lassítják a demenciát, és kérjük a szervezeteket, hogy ne így mutassák be őket. Nincs reklám, és a játékok nem kérnek nevet, egészségügyi adatot vagy feltöltendő fotót. A weboldal a Google Analytics szolgáltatással számolja a látogatásokat; az <a href=\"/privacy/\">adatvédelmi tájékoztatónk</a> elmagyarázza, mit gyűjt ez. A <a href=\"/games/photo-pairs/\">Fotópárok</a> játékban használt fotók a böngészőben maradnak.</p><h2>Vegyen fel minket a forráslistájára</h2><p>Ha gondozóknak szóló forráslistát vezet, szívesen látjuk, ha a <a href=\"/\">{domain}</a> oldalra hivatkozik. Bármelyik leírást kimásolhatja.</p>",
       "shortTitle": "Rövid leírás",
       "longTitle": "Hosszabb leírás",
-      "linksHtml": "<p>Hasznos oldalak, amelyekre közvetlenül hivatkozhat: <a href=\"/games/\">ingyenes játékok</a>, <a href=\"/activities/printable/\">ingyenes nyomtatnivalók</a>, <a href=\"/activities/alzheimers/\">tevékenységek Alzheimer-kór esetén</a> és <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a>.</p><h2>Kérdések vagy javítások</h2><p>Ha valami hibás vagy nem érthető az oldalon, vagy egy lakó szükségleteit nem fedi le az itt található tartalom, kérjük, írjon nekünk a <a href=\"mailto:{email}\">{email}</a> címre. Kérjük, ne küldjön lakókról vagy ügyfelekről személyes vagy egészségügyi adatokat.</p>"
+      "linksHtml": "<p>Hasznos oldalak, amelyekre közvetlenül érdemes hivatkozni: <a href=\"/games/\">ingyenes játékok</a>, <a href=\"/games/\">ingyenes nyomtatható anyagok</a>, <a href=\"/dementia-activities/\">demenciával élők otthoni tevékenységei</a> és <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a>.</p><h2>Kérdések vagy javítások</h2><p>Ha az oldalon valami hibás vagy érthetetlen, vagy ha egy lakó igényeit nem fedik le az itt található anyagok, kérjük, jelezze nekünk a <a href=\"mailto:{email}\">{email}</a> címen. Kérjük, ne küldjön személyes vagy egészségügyi adatokat lakókról vagy ellátottakról.</p>"
     },
     "app": {
       "title": "A Creative Activities alkalmazás",
@@ -436,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Ingyenes demencia- és Alzheimer-játékok online",
-    "description": "Ingyenes online játékok demenciával vagy Alzheimer-kórral élő időseknek: képpárosítás, kirakók, válogatás, bingó. Regisztráció és időzítő nélkül.",
+    "title": "Ingyenes játékok, amelyeket együtt játszhatnak online",
+    "description": "Ingyenes online játékok idősebb felnőtteknek, családoknak és demenciával élőknek: képpárosítás, egyszerű kirakók, válogatás, közmondások, színezés és bingó. Regisztráció, időzítő és pontszám nélkül.",
     "crumb": "Játékok",
-    "h1": "Nyugodt játékok demenciával élőknek",
+    "h1": "Gyengéd játékok, amelyeket együtt játszhatnak",
     "lede": "{count} ingyenes játék, amelyet együtt játszhatnak a böngészőben. Nagy képek, egyszerű szavak, és nincs mit elrontani: nincs időzítő, pontszám és regisztráció.",
-    "listName": "Nyugodt játékok demenciával élőknek",
+    "listName": "Gyengéd játékok, amelyeket együtt játszhatnak",
     "byStageTitle": "Játék választása szakasz szerint",
     "byStageLede": "A szakaszok csak nagyjából tájékoztatnak. Kövesse, mit élvez a másik ember, és mi kényelmes ma.",
     "stageCol": "Szakasz",
     "gamesCol": "Gyakran illő játékok",
-    "moreHtml": "További ötletek a képernyőn kívül: <a href=\"/activities/ideas/\">101 tevékenység demenciával élőknek</a>, <a href=\"/activities/alzheimers/\">tevékenységek és játékok Alzheimer-kór esetén</a>, <a href=\"/activities/memory-games/\">nyugodt emlékezős játékok</a> és <a href=\"/activities/puzzles/\">kirakók</a>.",
+    "moreHtml": "Képernyő nélküli ötletek: <a href=\"/activities/ideas/\">101 tevékenységi ötlet</a>, <a href=\"/dementia-activities/\">demenciával élők otthoni tevékenységei</a> és <a href=\"/crafts/\">kézműves foglalkozások</a>.",
     "faq": [
       {
         "q": "Melyik játékkal kezdjük?",
@@ -462,7 +560,7 @@
       },
       {
         "q": "Ezek emlékezős játékok időseknek?",
-        "a": "Párosító- és képes játékok, amelyeket bármelyik idősebb felnőtt élvezhet, de úgy készültek, hogy ne az emlékezetet tesztelják: a Képpárokban a képek felfordítva maradnak, hacsak másképp nem dönt. A demenciával élő időseknek szóló emlékezős játékokról szóló útmutatónk elmagyarázza, hogyan tartható nyugodtan bármelyik ilyen játék."
+        "a": "Ezek párosító és képes játékok, amelyeket bármely idősebb felnőtt élvezhet, de úgy készültek, hogy ne a memóriát tesztelják: a Képpárok játékban a képek alapértelmezés szerint színükkel felfelé maradnak, hacsak Ön másképp nem választ. Bármely memóriajáték gyengédebbé tehető, ha elhagyja az időzítőt és a pontszámokat."
       },
       {
         "q": "Vannak játékok csoportoknak egy gondozóotthonban?",
@@ -483,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Van demencia-tevékenységeket kínáló alkalmazás?",
+        "q": "Van alkalmazás idősebb felnőtteknek és családoknak?",
         "a": "Igen. A Creative Activities (az áruházban „{storeName}” néven szerepel) ingyenes az App Store-ban és a Google Playen. Nyugodt képpárosítást kínál nagy kártyákkal, játékokat az Ön által választott családi fotókkal, és internet nélkül is működő képcsomagokat."
       },
       {
@@ -525,7 +623,7 @@
     "printable": "Nyomtatható",
     "howTo": "Hogyan játsszuk: {name}",
     "tips": "Tippek a közös játékhoz",
-    "newToPlayingHtml": "Új Önnek a demenciával élő emberrel való játék? Olvassa el, <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a>, többek között azt is, mit tegyen, ha elveszti az érdeklődését.",
+    "newToPlayingHtml": "Új az idősebb felnőttel vagy demenciával élő személlyel való játék? Olvassa el a <a href=\"/caregiving/how-to-play-together/\">hogyan játsszunk együtt</a> oldalt, benne azzal, mit tegyen, ha a személy elveszíti az érdeklődését.",
     "moreAria": "További felfedezni valók",
     "helpfulGuides": "Hasznos útmutatók",
     "appTitle": "Játsszon az alkalmazásban",
@@ -535,6 +633,31 @@
     "goodToKnow": "Jó tudni",
     "goodToKnowText": "Ez a játék az élvezetre és az együtt töltött időre való. Nem tesztel, nem mér és nem kezel semmit.",
     "moreGames": "További nyugodt játékok",
-    "crumb": "Játékok"
+    "crumb": "Játékok",
+    "print": {
+      "heading": "Játék papíron",
+      "sameRules": "A papíros változat szabályai megegyeznek a képernyőn futó játékéival:",
+      "button": "Papíros változat nyomtatása",
+      "pageNote": "Egy oldal A4 vagy US Letter méretben, fekete-fehérben is megfelelő. {date} verzió.",
+      "islandNote": "A most képernyőn látható tartalmat nyomtatja ki. {date} verzió.",
+      "sheetTitle": "{name}: papíros változat",
+      "point": "Papíron a képre mutasson, ahelyett hogy megérintené, vagy tollal karikázza be. Minden sor új készlet.",
+      "pointTarget": "Papíron a megnézendő kép minden sor elején, a dobozban van. A képre mutasson, ahelyett hogy megérintené, vagy tollal karikázza be.",
+      "halves": "Minden kép középen el van vágva. Húzzon vonalat a bal oldali minden félkép és a jobb oldali, hozzá illő félkép közé, vagy mutasson ujjal. Semmit nem kell kivágni.",
+      "grid": "Minden négyzetnek van száma. Keresse meg a számot a kulcsban, és színezze be a négyzetet a megfelelő színű ceruzával. Bármely más szín is megfelel. Semmit nem kell kivágni.",
+      "colors": "Minden sor egy színt nevez meg. Mutasson minden olyan képre, amely ilyen színű, vagy karikázza be tollal. Minden sor új készlet.",
+      "dice": "Minden sor kockák készlete. Válasszon egy sort, vagy vágja ki a képeket, húzzon belőlük párat egy halomból, majd meséljen történetet a kép-kártyák felhasználásával, bármilyen sorrendben. Bárki passzolhat.",
+      "cards": "Vágja ki a kártyákat a szaggatott vonalak mentén. Fektesse őket színükkel felfelé az asztalra, majd keressen párokat.",
+      "chain": "Papíron a képeket balról jobbra, egymás után olvassa. Mindenki mond egy mondatot az eddigi képekről, majd a következő képre mutat. Bárki passzolhat.",
+      "sort": "Vágja ki a képeket a szaggatott vonalak mentén, majd tegye mindegyiket abba a dobozba, ahova tartozik.",
+      "puzzle": "Vágja szét a nagy képet a szaggatott vonalak mentén négy darabra, és keverje össze. Egyszerre két darabot cseréljen, amíg a kép ki nem rakódik. A kis kép útmutatóul szolgál.",
+      "cutSafety": "Kezdés előtt a vágást elvégezheti egy segítő is. Használat után tegye el az ollót.",
+      "version": "{date} verzió · {url}",
+      "reasons": {
+        "photos": "Papíros változat nincs. Ez a játék az Ön saját fényképeit használja, amelyek a böngészőben maradnak, és soha nem töltődnek fel, ezért a webhely nem tudja őket kinyomtatni. Papíron való játékhoz nyomtasson otthon két példányt néhány kedvenc fényképből, és párosítsa őket az asztalon.",
+        "paced": "Papíros változat nincs. A kör a képernyőn lassú, egyenletes tempót diktál, amit a nyomtatott oldal nem tud megtenni, ezért más tevékenység lenne. Csendes szünet képernyő nélkül együtt mindig választható.",
+        "sayings": "Papíros változat egyelőre nincs. Papíron minden befejezés egyszerre látszana, és a gyengéd \"A befejezés megmutatása\" lépés elveszne. Olvassák a közmondásokat együtt a képernyőről, vagy osszanak meg néhányat, amelyeket mindketten ismernek."
+      }
+    }
   }
 }

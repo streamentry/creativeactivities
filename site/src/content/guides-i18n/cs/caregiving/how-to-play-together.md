@@ -1,30 +1,35 @@
 ---
-title: "Jak hrát hry s člověkem, který má demenci"
-description: "Praktický návod, jak hrát hry s člověkem, který žije s demencí: příprava, tempo, neopravování, zjednodušení hry a poznání, kdy přestat."
+title: "Jak hrát hry s člověkem s demencí"
+description: "Praktický průvodce hraním her s člověkem žijícím s demencí: příprava, tempo, žádné opravování, zjednodušování her a poznání, kdy přestat."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Berte hru jako společně strávený čas, ne jako test. Vyberte klidnou denní dobu, sedněte si vedle sebe v tichém pokoji a nabídněte jednu jednoduchou hru. Nechte člověka určovat tempo, nikdy neopravujte neškodné chyby, při prvním náznaku únavy hru zjednodušte a obrázky proměňte v rozhovor. Přestaňte, dokud je to ještě příjemné. Brzké ukončení nebo jen společné sledování je dobrý výsledek.
+  Berte hru jako čas strávený spolu, ne jako test. Vyberte klidnou denní dobu,
+  sedněte si vedle sebe v tiché místnosti a nabídněte jednu jednoduchou hru.
+  Nechte člověka určovat tempo, neopravujte neškodné chyby, při prvních
+  známkách únavy hru zjednodušte a obrázky proměňte v rozhovor. Přestaňte,
+  dokud je to ještě příjemné. Ukončit hru včas nebo jen spolu sledovat je
+  dobrý výsledek.
 keyPoints:
-  - "Cílem je potěšení a spojení, ne dokončení nebo správné odpovědi."
-  - "Nejdřív připravte: tichá místnost, dobré světlo, brýle a naslouchadla na místě, vypnutá televize, jedna hra připravená."
-  - "Neškodné chyby neopravujte. Řekněte „Zkusme to takhle“ nebo prostě pokračujte."
-  - "Hru zjednodušte dřív, než vznikne frustrace: méně obrázků, méně možností, obrázky ponechte viditelné."
-  - "Obrázky používejte jako začátek příběhů s „Povězte mi o…“ místo „Pamatujete si…?“"
-  - "Přestaňte při prvních známkách únavy nebo rozrušení. Brzké ukončení je úspěch, ne selhání."
+  - "Cílem je radost a spojení, ne dohrát nebo odpovídat správně."
+  - "Nejdřív připravte prostředí: tichá místnost, dobré světlo, brýle a naslouchadla nasazená, vypnutá televize, jedna připravená hra."
+  - "Neopravujte neškodné chyby. Řekněte „Zkusme to takhle“ nebo prostě pokračujte."
+  - "Hru zjednodušte dřív, než vznikne frustrace: méně obrázků, méně možností, obrázky zůstanou vidět."
+  - "Obrázky použijte jako začátek příběhů s „Povězte mi o...“ místo „Pamatujete si...?“"
+  - "Přestaňte při prvních známkách únavy nebo rozrušení. Včasné ukončení je úspěch, ne neúspěch."
 faq:
-  - q: "Jak dlouho bychom měli hrát?"
-    a: "Neexistuje správná délka. Pro mnoho lidí stačí několik minut a některé dny stačí jedno kolo. Sledujte člověka, ne hodiny, a přestaňte, dokud se zdá uvolněný."
-  - q: "Mám nechat vyhrát nebo předstírat, že nevidím chyby?"
-    a: "Ve sdílené hře bez tlaku není co vyhrávat ani prohrávat. Pokud chyba člověka netrápí, nechte ji být. Pokud se zdá, že ho trápí, tiše pomozte nebo hru zjednodušte, aniž byste na chybu upozorňovali."
-  - q: "Co když by raději sledoval, jak hraji já?"
-    a: "To je v pořádku. Národní institut pro stárnutí doporučuje nechat člověka jen sledovat, pokud se zdá, že ho to baví víc. Mluvte o tom, co vidíte, a pozvěte ho, ať ukazuje nebo vybírá, kdykoli bude chtít."
+  - q: "Jak dlouho máme hrát jednu hru?"
+    a: "Neexistuje správná délka. Mnoha lidem stačí pár minut a některé dny stačí jediné kolo. Sledujte člověka, ne hodiny, a přestaňte, dokud působí uvolněně."
+  - q: "Mám ho nechat vyhrát, nebo dělat, že nevidím chyby?"
+    a: "Ve společné hře bez tlaku není co vyhrávat ani prohrávat. Pokud chybu člověk nevnímá jako problém, nechte ji být. Pokud ho zjevně trápí, nenápadně pomozte nebo hru zjednodušte, aniž byste na chybu upozorňovali."
+  - q: "Co když by raději jen sledoval, jak hrajete vy?"
+    a: "To je v pořádku. Národní institut stárnutí (NIA) doporučuje nechat člověka jen sledovat, pokud mu to zjevně víc vyhovuje. Mluvte o tom, co vidíte, a vyzvěte ho, aby ukázal nebo vybral, kdykoli bude chtít."
   - q: "Jsou tyto hry způsobem, jak testovat paměť?"
-    a: "Ne. Naše hry jsou jednoduché společné aktivity pro potěšení a rozhovor. Nejsou testem paměti, nic neměří a nejsou léčbou demence."
-  - q: "Kterou hru začít?"
-    a: "Začněte nejjednodušší, která se člověku hodí. Dvojice obrázků se čtyřmi dlaždicemi, kde obrázky zůstávají viditelné, nebo Najděte stejné se dvěma volbami jsou jemné začátky. Karty k rozhovoru fungují dobře, pokud člověk rád mluví víc než klepá."
+    a: "Ne. Naše hry jsou jednoduché společné aktivity pro radost a rozhovor. Nejsou to test paměti, nic neměří a nejsou léčbou demence."
+  - q: "Se kterou hrou začít?"
+    a: "Začněte nejjednodušší hrou, která se danému člověku hodí. Jemným začátkem jsou Dvojice obrázků se čtyřmi dlaždicemi a viditelnými obrázky nebo Najdi stejné se dvěma možnostmi. Karty pro rozhovor se hodí, pokud člověk rád mluví víc než klepá."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -43,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Dobrá hra s člověkem, který žije s demencí, nevypadá jako soutěž. Vypadá jako dva lidé, kteří sedí blízko u sebe, ukazují na obrázky, smějí se rčení a povídají si o tom, co zrovna přijde na mysl. Hra je jen důvod, proč trávit čas spolu.
+Dobrá hra s člověkem žijícím s demencí nevypadá jako soutěž. Vypadá jako dva lidé, kteří sedí blízko u sebe, ukazují na obrázky, smějí se rčení a povídají si o tom, co je napadne. Hra je jen záminka, jak spolu strávit čas.
 
-Tento návod popisuje, jak hru připravit, jak určovat její tempo, co říct, když se něco „pokazí“, jak hru zjednodušit nebo trochu zesložitit, jak z ní udělat rozhovor a jak poznat, kdy přestat. Funguje pro naše [hry](/games/) i pro karty, skládačky a deskové hry, které už máte doma.
+Tento průvodce popisuje, jak připravit prostředí, jak hru tempovat, co říct, když se něco „pokazí“, jak kteroukoli hru zjednodušit nebo mírně zesložitit, jak z ní udělat rozhovor a jak poznat, kdy přestat. Hodí se pro naše [hry](/games/) i pro karty, puzzle a společenské hry, které už doma máte.
 
-## Jaký je nejlepší způsob, jak hrát hru s člověkem s demencí?
+## Jak nejlépe hrát hru s člověkem s demencí?
 
-Soustřeďte se na potěšení, ne na výkon. To je hlavní rada z [pokynů Alzheimer's Association k aktivitám](https://www.alz.org/help-support/caregiving/daily-care/activities): stavět na dovednostech, které člověk ještě má, pomoci mu začít, těžké části dokončit sami a nekritizovat ani neopravovat neškodné aktivity.
+Soustřeďte se na radost, ne na výkon. To je hlavní rada z [doporučení Alzheimer's Association k aktivitám](https://www.alz.org/help-support/caregiving/daily-care/activities): stavět na dovednostech, které člověk ještě má, pomoci mu začít, těžké části dokončit za něj a neshazovat ani neopravovat neškodné aktivity.
 
 V praxi to znamená:
 
-- **Sedněte si vedle něj, ne naproti.** Vedle sebe můžete oba vidět obrazovku nebo stůl a pomoc je spíš týmová práce než dohled.
-- **Nabídněte vždy jednu hru.** Nabídka možností může působit jako test ještě předtím, než cokoli začne.
-- **Řiďte se jeho vedením.** Pokud chce klepat na obrázky ve svém vlastním pořadí, mluvit deset minut o jednom obrázku nebo skončit po dvou tazích, je to dnes ta hra.
-- **Počítejte dobré chvíle, ne dokončená kola.** Úsměv, příběh nebo klidná půlhodina je výsledek, který hledáte.
+- **Sedněte vedle něj, ne naproti.** Vedle sebe oba vidíte obrazovku nebo stůl a pomoc vypadá jako týmová práce, ne jako dohled.
+- **Nabídněte vždy jednu hru.** Nabídka možností může působit jako test ještě před začátkem.
+- **Řiďte se jeho tempem.** Pokud chce klepat na obrázky ve svém pořadí, deset minut mluvit o jednom obrázku nebo skončit po dvou tazích, je to dnešní hra.
+- **Počítejte dobré chvíle, ne dokončená kola.** Úsměv, příběh nebo klidná půlhodina jsou výsledek, o který jde.
 
 ## Jak připravit vše před začátkem?
 
-Několik minut přípravy zabrání většině frustrace, kterou lidé svádějí na samotnou hru.
+Pár minut přípravy zabrání většině frustrace, kterou lidé svádějí na samotnou hru.
 
-1. **Vyberte jeho nejlepší denní dobu.** [Pokyny NIA k přizpůsobení aktivit](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) doporučují plánovat výlety a aktivity na dobu dne, kdy je člověk v nejlepší formě. Pro mnohé je to uprostřed dopoledne. Pozdní odpoledne bývá často těžší; viz [klidné aktivity pozdě odpoledne](/caregiving/late-day-restlessness/).
+1. **Vyberte jeho nejlepší denní dobu.** [Národní institut stárnutí (NIA) v doporučení k úpravě aktivit](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) radí plánovat výlety a aktivity na dobu, kdy je člověk v nejlepší formě. Pro mnohé je to dopoledne. Pozdní odpoledne bývá často náročnější; viz [klidné aktivity pro odpoledne](/creative-calm/calm-afternoon-activities/).
 2. **Ztište místnost.** Vypněte televizi a rádio a pokud můžete, zavřete dveře. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) doporučuje omezit hluk a rušivé podněty dřív, než začnete mluvit.
-3. **Zkontrolujte pohodlí jako první.** Nápoj v dosahu, návštěva toalety předem, pohodlná židle a brýle a naslouchadla na místě.
-4. **Dobře osvětlete prostor.** Jasné, rovnoměrné světlo bez odlesku na obrazovce usnadní vidět obrázky.
-5. **Připravte hru dřív, než si sednete.** Otevřete ji, vyberte nastavení a hlasitost nastavte sami. Pak otočte obrazovku k němu. Tipy pro tablet najdete v [návodu k nastavení tabletu nebo telefonu](/caregiving/tablets-and-screens/).
-6. **Podepřete zařízení.** Stojánek nebo pouzdro, které drží tablet vzpřímeně, znamená, že ho nikdo nemusí držet, a na obrazovku se lépe ukazuje.
+3. **Nejdřív zkontrolujte pohodlí.** Pití na dosah, návštěvu toalety předem, pohodlnou židli a nasazené brýle a naslouchadla.
+4. **Dobře osvětlete prostor.** Jasné rovnoměrné světlo bez odlesků na obrazovce usnadní vidění obrázků.
+5. **Připravte hru ještě před posazením.** Otevřete ji, nastavte možnosti a hlasitost. Pak otočte obrazovku k němu. Pokud pomůže, zapněte na zařízení větší text.
+6. **Zařízení opřete.** Stojánek nebo pouzdro, které drží tablet vzpřímeně, znamená, že ho nikdo nemusí držet, a ukazovat se na něj dá snáze.
 
-## Jak je pozvat bez tlaku?
+## Jak ho pozvat bez tlaku?
 
-Pozvánku udělejte nenuceně a tak, aby se dala snadno odmítnout. Fráze, které obvykle fungují dobře:
+Pozvánka ať je nenucená a snadno odmítnutelná. Fráze, které obvykle fungují dobře:
 
-- „Mám tu obrázky ze zahrady. Podíváme se na ně spolu?“
-- „Potřebuji pomoc s tímhle puzzle. Pomůžete mi?“
-- „Chcete dnes květiny, nebo ptáčky?“ (výběr ze dvou možností je snazší než otevřená otázka)
-- „Dělám kartu pro vaši sestru. Která barva by tu měla být?“
+- „Mám obrázky zahrady. Chcete se na ně podívat se mnou?“
+- „Mohl byste mi pomoct s tímto puzzle? Nějak se v něm ztrácím.“
+- „Chcete dnes ptáky, nebo květiny?“ (volba mezi dvěma je snazší než otevřená otázka)
+- „Dělám kartu pro vaši sestru. Jakou barvu má mít?“
 
-Alzheimer's Association doporučuje vysvětlit účel aktivity, například výrobu přání pro přítele, protože účel jí dává smysl. Žádost o pomoc také funguje, protože člověk může cítit, že je užitečný.
+Alzheimer's Association doporučuje vysvětlit účel aktivity, například výrobu přání pro přítele, protože důvod dává činnosti smysl. Funguje i žádost o pomoc, protože člověk se tak cítí užitečný.
 
-Pokud řekne ne, respektujte to. Zkuste to později nebo nabídněte něco jiného. Náš návod [co dělat, když řeknou ne](/caregiving/when-they-say-no/) jde dál.
+Pokud řekne ne, respektujte to. Zkuste to později nebo nabídněte něco jiného. Náš průvodce [co dělat, když řekne ne](/caregiving/when-they-say-no/) jde dál.
 
-## Jak dlouho má hra trvat a jak rychle máme jít?
+## Jak dlouho má hra trvat a jak rychle postupovat?
 
-Nechte člověka určovat tempo a počítejte s krátkými sezeními. Pro sdílenou hru neexistuje podložená ideální délka. Dvě až pět klidných minut může být celá aktivita.
+Nechte člověka určit tempo a počítejte s krátkými sezeními. Pro společnou hru neexistuje ideální délka podložená důkazy. Dvě až pět klidných minut může být plnohodnotná aktivita.
 
-- **Čekejte déle, než je přirozené.** NIA doporučuje dát člověku víc času na odpověď a nepřerušovat ho. Než zasáhnete, v hlavě si pomalu odpočítejte do deseti.
-- **Jeden krok najednou.** Dejte jediný krátký pokyn („Klepněte na obrázek“) a pak počkejte. Spíš ukažte, než vysvětlujte: ukažte, kam klepnout.
-- **Pauzujte volně.** Pokud se zastaví, aby mluvil o obrázku, hra může počkat. Není důvod spěchat.
-- **Nechte ho sledovat.** NIA uvádí, že někteří lidé dávají přednost sledování, a to je platná volba.
+- **Počkejte déle, než se zdá přirozené.** NIA radí dát člověku více času na odpověď a snažit se ho nepřerušovat. V duchu počítejte do deseti, než pomůžete.
+- **Jeden krok najednou.** Dejte jedinou krátkou instrukci („Klepněte na obrázek“) a počkejte. Spíš ukažte, než vysvětlujte: ukažte, kam klepnout.
+- **Pauzy jsou v pořádku.** Pokud se zastaví a mluví o obrázku, hra počká. Není důvod spěchat.
+- **Nechte ho sledovat.** NIA upozorňuje, že někteří lidé dávají přednost sledování, a je to platná volba.
 
 ## Mám opravovat špatné odpovědi?
 
-Ne. Opakované jemné opravování člověku říká, že selhává, i když to myslíte dobře. Alzheimer's Association radí nekritizovat ani neopravovat neškodné aktivity. Ve hře je téměř každá chyba neškodná.
+Ne. Opakované jemné opravování dává najevo, že člověk selhává, i když to myslíte dobře. Alzheimer's Association radí neshazovat ani neopravovat neškodné aktivity. Ve hře je téměř každá chyba neškodná.
 
-| Místo toho | Zkuste |
+| Místo toho, abyste řekli | Zkuste |
 | --- | --- |
 | „Ne, to je špatně.“ | „Zkusme to takhle.“ (příklad, který uvádí NIA) |
-| „To nejsou shodné. Podívejte se znovu.“ | Nic neříkejte a jděte na další tah, nebo řekněte „Ó, obě jsou červené.“ |
-| „Pamatujete si, kdo je tohle?“ | „Povězte mi o tomhle obrázku.“ |
-| „Tohle už jsme dělali.“ | „To je dobré. Zkusme to znovu.“ |
-| „No tak, to přece víte.“ | „Chcete vidět konec?“ |
+| „To nejsou pár. Podívejte se znovu.“ | Nic neříkejte a jděte na další tah, nebo řekněte „Ty jsou obě červené.“ |
+| „Pamatujete si, kdo je na tomto obrázku?“ | „Povězte mi o tomto obrázku.“ |
+| „Ten jsme už dělali.“ | „Tohle je hezké. Zkusme ho ještě jednou.“ |
+| „No tak, to přece znáte.“ | „Chcete vidět konec?“ |
 
-Pokud chyba člověka jasně frustruje, pomozte tiše. Ukažte na správný obrázek, zahrajte si tah sami nebo hru příště zjednodušte. Pokud rčení dostane vtipný špatný konec, smějte se s ním. Jeho konec může být lepší.
+Pokud chybu zjevně trápí, pomozte nenápadně. Ukažte na správný obrázek, zahrajte si tah sami nebo hru v dalším kole zjednodušte. Pokud rčení dostane vtipný špatný konec, smějte se s ním. Jeho konec může být lepší.
 
 ## Jak hru zjednodušit nebo zesložitit?
 
-Upravte hru podle člověka v daný den, ne podle nálepky fáze. Stejný člověk může večer potřebovat jednodušší verzi než ráno. První tip NIA je přizpůsobit aktivitu tomu, co člověk zvládne, a zajistit, aby se cítil úspěšný.
+Přizpůsobte hru tomu, jak se člověku daří daný den, ne nějakému označení fáze. Stejný člověk může večer potřebovat jednodušší verzi než ráno. První tip NIA je sladit aktivitu s tím, co člověk zvládá, a pomoct mu, aby se cítil úspěšně.
 
-| Hra | Zjednodušit | Trochu zesložitit |
+| Hra | Zjednodušte | Mírně zesložitěte |
 | --- | --- | --- |
-| [Dvojice obrázků](/games/picture-pairs/) | Začněte se 4 dlaždicemi a nechte obrázky viditelné | Více dlaždic, nebo skryjte obrázky, pokud je to pohodlné |
-| [Najděte stejné](/games/find-the-same/) | 2 volby | Až 4 volby |
-| [Třídění společně](/games/sort-together/) | Vy držíte obrázek, on ukazuje na košík | Klepá na obrázek i košík sám |
-| [Skládačka z obrázku](/games/picture-puzzle/) | 4 kusy, nejdřív mluvte o celém obrázku | 9 kusů |
-| [Doplňte rčení](/games/finish-the-saying/) | Ukažte konec a pak ho řekněte společně | Nechte ho říct konec, než klepne |
-| [Osmisměrka velkým písmem](/games/word-search/) | Vytiskněte ji, hledejte spolu jedno slovo, ukažte na jeho první písmeno | Nechte ho vybrat další slovo k nalezení |
-| [Omalovánky](/games/coloring/) | Vy vyberete dvě barvy, on vybírá mezi nimi | Vybírá všechny barvy |
-| [Karty k rozhovoru](/games/conversation-cards/) | Jen se společně podívejte na obrázek | Použijte otevřené podněty na kartě |
-| [Dvojice fotek](/games/photo-pairs/) | Několik oblíbených rodinných fotek | Přidejte další fotky |
-| [Obrázkové bingo](/games/picture-bingo/) | Pomocník sedí u každého hráče | Hráči si značí vlastní karty |
-| [Klidné dýchání](/games/calm-breathing/) | Jen sedět a dívat se na to spolu | Dýchat společně pomalu |
+| [Dvojice obrázků](/games/picture-pairs/) | Začněte se 4 dlaždicemi a nechte obrázky viditelné | Více dlaždic, nebo obrázky skryjte, pokud to vyhovuje |
+| [Najdi stejné](/games/find-the-same/) | 2 možnosti | Až 4 možnosti |
+| [Třídění spolu](/games/sort-together/) | Obrázek držíte vy, on ukazuje na košík | Klepne na obrázek i košík sám |
+| [Obrázkové puzzle](/games/picture-puzzle/) | 4 dílky, nejdřív mluvte o celém obrázku | 9 dílků |
+| [Dokonči rčení](/games/finish-the-saying/) | Ukažte konec a řekněte ho společně | Nechte ho říct konec, než klepnete |
+| [Hledání slov](/games/word-search/) | Vytiskněte ji, hledejte spolu jedno slovo a ukažte na jeho první písmeno | Nechte ho vybrat další slovo k hledání |
+| [Vybarvování](/games/coloring/) | Vyberete dvě barvy, on volí mezi nimi | Volí všechny barvy sám |
+| [Karty pro rozhovor](/games/conversation-cards/) | Jen se spolu podívejte na obrázek | Použijte otevřené podněty na kartě |
+| [Dvojice fotografií](/games/photo-pairs/) | Několik oblíbených rodinných fotografií | Přidejte další fotografie |
+| [Obrázkové bingo](/games/picture-bingo/) | Každý hráč má vedle sebe pomocníka | Hráči označují své karty sami |
+| [Klidné dýchání](/games/calm-breathing/) | Jen sedět a sledovat to spolu | Dýchat pomalu spolu s tím |
 
-Známky, že je hra příliš těžká: dlouhé pauzy, které vypadají spíš ustaraně než zamyšleně, opakované „nemůžu“, odstrkování zařízení nebo chyby, které je rozrušují. Známky, že může být příliš lehká: nuda nebo tvrzení, že je to dětinské. Pokud se to stane, respektujte to a přejděte k něčemu, co působí dospěle, například k osmisměrce, skládačce z opravdové fotografie nebo k rozhovoru o obrázku z jeho dřívější práce.
+Známky, že hra je příliš těžká: dlouhé pauzy, které vypadají spíš ustrašeně než zamyšleně, opakované „Nemůžu“, odstrkování zařízení nebo chyby, které je rozrušují. Známky, že je příliš lehká: nuda nebo tvrzení, že je to dětinské. Pak to respektujte a přejděte na něco, co působí dospěle, například hledání slov, puzzle podle skutečné fotografie nebo povídání o obrázku z jejich dřívější práce.
 
 ## Jak z hry udělat rozhovor?
 
-Použijte každý obrázek jako pozvání k rozhovoru a vše, co řekne, berte jako dobrou odpověď. Pro mnoho rodin je to nejlepší část hraní.
+Každý obrázek používejte jako pozvánku k rozhovoru a cokoli řekne, berte jako dobrou odpověď. Pro mnoho rodin je to nejlepší část hraní.
 
-- **Ptejte se otevřeně, bez špatných odpovědí.** „Čeho si všímáte?“ „Který se vám líbí?“ „Povězte mi o kuchyni, jako je tahle.“
-- **Začněte sami.** „Moje babička měla takového psa.“ Váš příběh mu usnadní, aby sdílel svůj.
-- **Jděte za odbočkou.** Pokud obrázek auta vede k příběhu o výletu, je příběh aktivita. Hru nechte pozastavenou.
-- **Nekontrolujte fakta.** Při vzpomínání je důležitější příjemný rozhovor než přesné detaily. Pokud se příběh změní oproti minule, užijte si novou verzi.
-- **Využijte vestavěné podněty.** [Doplňte rčení](/games/finish-the-saying/) nabízí po každém rčení podnět k rozhovoru a [karty k rozhovoru](/games/conversation-cards/) jsou navrženy přesně pro tohle. [Dvojice fotek](/games/photo-pairs/) používá vaše vlastní rodinné fotky, které často vyvolají nejbohatší příběhy.
+- **Ptejte se otevřeně, bez špatné odpovědi.** „Čeho si všímáte?“ „Který se vám líbí?“ „Povězte mi o kuchyni, jako je tato.“
+- **Začněte sami.** „Moje babička měla takového psa.“ Váš příběh mu usnadní sdílet jeho.
+- **Jděte za odbočkou.** Pokud obrázek auta vede k příběhu o výletu, příběh je aktivita. Hru nechte pozastavenou.
+- **Nekontrolujte fakta.** Při vzpomínání je příjemný rozhovor důležitější než přesné detaily. Pokud se příběh oproti minule změnil, užijte si novou verzi.
+- **Využijte vestavěné podněty.** [Dokonči rčení](/games/finish-the-saying/) ke každému rčení přidává podnět k rozhovoru a [Karty pro rozhovor](/games/conversation-cards/) jsou navrženy přesně pro tohle. [Dvojice fotografií](/games/photo-pairs/) používá vaše vlastní rodinné fotografie, které často vyvolají nejbohatší příběhy.
 
-Další nápady najdete v našich návodech k [aktivitám ke vzpomínání](/activities/reminiscence/) a [tipům ke komunikaci](/caregiving/communication-tips/).
+Další nápady najdete v našem průvodci [aktivitami na vzpomínání](/activities/reminiscence/). Podporu po diagnóze hledejte v [prvních krocích po diagnóze](/caregiving/after-dementia-diagnosis/).
 
 ## Kdy přestat?
 
-Přestaňte při prvních známkách únavy nebo rozrušení, ideálně o něco dřív. Alzheimer's Association radí přestat nebo aktivitu změnit, když pozornost ubývá nebo frustrace roste.
+Přestaňte při prvních známkách únavy nebo rozrušení, ideálně o něco dřív. Alzheimer's Association radí aktivitu ukončit nebo změnit, když pozornost slábne nebo roste frustrace.
 
 Sledujte:
 
-- zívání, sesunutí nebo pohled, který uniká z obrazovky;
-- neklid, vstávání nebo žádost, aby mohl odejít;
-- povzdechy, krátké odpovědi nebo „Na tohle nejsem dobrý“;
+- zívání, sesouvání se nebo odcházení očí od obrazovky;
+- neklid, vstávání nebo žádost o odchod;
+- vzdechy, krátké odpovědi nebo „Na to nejsem dobrý“;
 - náhodné klepání nebo odstrkování zařízení;
 - slzy, podrážděnost nebo náhlou změnu nálady.
 
 Jak přestat dobře:
 
-- **Skončete na něčem snadném.** Jeden poslední pár, který může spojit, nebo závěrečný obrázek k obdivování.
-- **Mluvte o sobě.** „Mám chuť na šálek čaje. Skončíme tady?“ se vyhne jakémukoli náznaku, že se mu nedařilo.
-- **Přejděte k něčemu fyzickému nebo uklidňujícímu.** Krátká procházka, svačina, skládání prádla nebo hudba.
-- **Řekněte něco vřelého.** „Bylo mi s vámi hezky.“ Ne chválu za „správnou odpověď“, jen radost z času spolu.
+- **Skončete něčím lehkým.** Jednou poslední dvojicí, kterou zvládne, nebo posledním obrázkem k obdivování.
+- **Mluvte o sobě.** „Já si dám čaj. Skončíme tady?“ se vyhne jakémukoli náznaku, že to šlo špatně.
+- **Přejděte na něco fyzického nebo uklidňujícího.** Krátká procházka, svačina, skládání prádla nebo hudba.
+- **Řekněte něco vřelého.** „Bylo hezké to dělat s vámi.“ Žádná chvála za „správné“ odpovědi, jen radost z času spolu.
 
-Brzké ukončení, změna plánů nebo vzdání se hry a jen spolu sezení jsou všechno dobré výsledky.
+Předčasné ukončení, změna plánu, vzdání se hry a prosté sezení spolu jsou všechno dobré výsledky.
 
 ## Můžeme hrát ve skupině nebo přes videohovor?
 
-Ano, s trochou navíc přípravy. Ve skupině udržujte počet lidí malý, posaďte pomocníky vedle každého, kdo je potřebuje, a vyberte hru s jasným společným cílem. [Obrázkové bingo](/games/picture-bingo/) má tištěné karty a vypravěče na obrazovce pro skupiny. Více najdete v [aktivitách pro skupiny v domovech pro seniory](/activities/care-home-groups/).
+Ano, s trochou navíc přípravy. Ve skupině to držte na několika lidech, pomocníky posaďte vedle těch, kdo je potřebují, a vyberte hru s jasným společným cílem. [Obrázkové bingo](/games/picture-bingo/) má tisknutelné karty a hlasatele na obrazovce pro skupiny. Více najdete v [aktivitách pro skupiny v domově pro seniory](/crafts/craft-group-sessions/).
 
-Při videohovoru může člověk na hovoru popisovat obrázek, zatímco někdo v místnosti ukazuje a klepá. Hovory udržujte krátké a známé. Naše návody [telefonáty a videohovory](/activities/phone-and-video-calls/) nabízejí další tipy.
+Při videohovoru může člověk na druhém konci popisovat obrázek, zatímco někdo v místnosti ukazuje a klepá. Hovory držte krátké a povědomé. Náš průvodce [telefonními a videohovory](/together/staying-connected-from-afar/) nabízí další tipy.
 
 ## Co když hra prostě nefunguje?
 
-Některé dny nic nezabere a nejde o váš ani jeho nedostatek. Odložte hru a zkuste jinou denní dobu, jinou hru, nebo žádnou hru. Mnoho dobrých aktivit nemá nic společného s obrazovkami: hudba, skládání ručníků, prohlížení fotoalba nebo krátká procházka. Další nápady najdete v našem [seznamu nápadů na aktivity](/activities/ideas/).
+Některé dny nic nezabere a není to odrazem ani vás, ani jeho. Hru odložte a zkuste jinou denní dobu, jinou hru, nebo žádnou hru. Mnoho dobrých aktivit nemá nic společného s obrazovkami: hudba, skládání ručníků, prohlížení fotoalba nebo krátká procházka. Další nápady najdete v našem přehledu [nápadů na aktivity](/activities/ideas/).

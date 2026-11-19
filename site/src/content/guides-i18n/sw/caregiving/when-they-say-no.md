@@ -1,34 +1,34 @@
 ---
-title: "Mtu Mwenye Dementia Anapokataa au Kukasirika na Shughuli"
-seoTitle: "Mtu Mwenye Dementia Anapokataa Shughuli"
-description: "Kwa nini mtu mwenye dementia anaweza kukataa au kukasirika na shughuli, cha kujaribu badala yake, cha kuepuka, na wakati badiliko la ghafla linahitaji daktari."
+title: "Mtu Anayeishi na Dementia Anapokataa au Kukasirika na Shughuli"
+seoTitle: "Mtu Anayeishi na Dementia Anapokataa Shughuli"
+description: "Kwa nini mtu anayeishi na dementia hukataa au kukasirika na shughuli, nini cha kujaribu, nini cha kuepuka, na lini mabadiliko ya ghafla yanahitaji daktari."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Mtu mwenye dementia akisema hapana, ikubali kwa utulivu na ujaribu tena
-  baadaye au toa kitu tofauti. Kukataa mara nyingi kuna sababu: kazi inahisiwa
-  kuwa ngumu mno au ya kitoto, amechoka, ana maumivu, ana njaa, au amezidiwa na
-  kelele. Usibishane wala kulazimisha. Rahisisha, toa machaguo mawili, au omba
-  msaada wake. Tabia ya ghafla au inayobadilika haraka, hasa baada ya maambukizi
-  au dawa mpya, inahitaji daktari haraka.
+  Mtu anayeishi na dementia anaposema hapana, kubali kwa utulivu na ujaribu
+  tena baadaye au mpe kitu tofauti. Kukataa mara nyingi kuna sababu: shughuli
+  inaonekana ngumu sana au ya kitoto, amechoka, ana maumivu, ana njaa, au
+  amezidiwa na kelele. Usibishane wala kulazimisha. Rahisisha, mpe chaguo mbili,
+  au mwombe akusaidie. Tabia ya ghafla au inayobadilika haraka, hasa baada ya
+  maambukizi au dawa mpya, inahitaji daktari haraka.
 keyPoints:
   - "“Hapana” ni jibu la kuheshimiwa, si tatizo la kushindwa."
-  - "Kukataa kwa kawaida kuna sababu: ngumu mno, ya kitoto mno, uchovu, kutojisikia vizuri, usumbufu, au kuzidiwa."
-  - "Rudi nyuma, subiri, na ujaribu baadaye, wakati tofauti, au kwa toleo rahisi zaidi."
-  - "Kuomba msaada wake hufanya kazi vizuri zaidi kuliko kumwomba aonyeshe uwezo."
-  - "Usibishane, kulazimisha, kuuliza maswali ya kupima wala kurekebisha. Jikague kama unakimbilia au unambana."
-  - "Tabia ya ghafla au inayobadilika haraka, hasa pamoja na maambukizi au dawa mpya, inapaswa kufikishwa kwa daktari mara moja."
+  - "Kukataa mara nyingi kuna sababu: ni ngumu sana, ya kitoto sana, amechoka, hajisikii vizuri, hana raha, au amezidiwa."
+  - "Rudi nyuma, subiri, kisha ujaribu tena baadaye, kwa wakati tofauti, au kwa toleo rahisi zaidi."
+  - "Kumwomba msaada kunafanya kazi vizuri zaidi kuliko kumwomba aonyeshe uwezo wake."
+  - "Usibishane, usilazimishe, usimuulize maswali ya kujaribu wala usirekebishe. Jichunguze kama unaharakisha au unamkaribia sana."
+  - "Tabia ya ghafla au inayobadilika haraka, hasa pamoja na maambukizi au dawa mpya, inapaswa kumfikisha kwa daktari mara moja."
 faq:
-  - q: "Je, ni sawa kuwaacha waruke shughuli kabisa?"
-    a: "Ndiyo, siku yoyote. Kukaa pamoja, kusikiliza muziki au kutazama ulimwengu ukipita kunaweza kutosha. Kama mtu anaacha kufurahia kila kitu kwa wiki kadhaa, mwambie daktari wake, kwa kuwa hali ya moyo ya chini, maumivu au matatizo mengine ya afya yanaweza kuwa sehemu ya picha."
-  - q: "Kwa nini wanakataa vitu walivyokuwa wakivipenda?"
-    a: "Mapendeleo ya zamani yanaweza kuwa ya kuudhi sasa yanapohitaji ujuzi ambao dementia umeufanya kuwa mgumu zaidi, na mtu huyo anaweza kuhisi aibu. Jaribu sehemu rahisi zaidi ya shughuli ileile, kama kupanga vifungo badala ya kushona, au kutazama picha za bustani badala ya kupanda."
+  - q: "Je, ni sawa kumruhusu aruke shughuli kabisa?"
+    a: "Ndiyo, kwa siku yoyote ile. Kukaa pamoja, kusikiliza muziki au kutazama watu wakipita kunaweza kutosha. Iwapo mtu ataacha kufurahia kila kitu kwa wiki kadhaa, mweleze daktari, kwa sababu hali ya chini ya moyo, maumivu au matatizo mengine ya kiafya yanaweza kuwa sehemu ya picha hiyo."
+  - q: "Kwa nini anakataa vitu alivyokuwa anavipenda zamani?"
+    a: "Burudani ya zamani inaweza kuwa ya kukatisha tamaa ikiwa sasa inahitaji ujuzi ambao dementia imeufanya kuwa mgumu, na yeye anaweza kujisikia aibu. Jaribu sehemu rahisi zaidi ya shughuli hiyo hiyo, kama kupanga vifungo badala ya kushona, au kutazama picha za bustani badala ya kupanda."
   - q: "Je, nijaribu kumshawishi?"
-    a: "Hapana. Kumsukuma mtu kufanya kitu ambacho dementia umekifanya kuwa kigumu ni kichocheo kinachojulikana cha kutotulia. Kubali hapana, badilisha mada, na utoe tena baadaye au kwa njia tofauti."
-  - q: "Badiliko la tabia ni dharura lini?"
-    a: "Piga namba ya dharura ya eneo lako kama mtu yuko hatarini au ana dalili za dharura ya kitabibu. Kwa kuchanganyikiwa kwa ghafla au tabia inayobadilika haraka ndani ya saa au siku, hasa pamoja na homa, maambukizi au dawa mpya, wasiliana na daktari wake mara moja."
+    a: "Hapana. Kumsukuma mtu afanye kitu ambacho dementia imekifanya kuwa kigumu ni chanzo kinachojulikana cha kuchafuka kwa hisia. Kubali hapana, badilisha mada, kisha mpe pendekezo tena baadaye au kwa njia nyingine."
+  - q: "Mabadiliko ya tabia ni dharura lini?"
+    a: "Piga 911 ikiwa mtu yuko hatarini au ana dalili za dharura ya kiafya. Kwa kuchanganyikiwa kwa ghafla au tabia inayobadilika haraka ndani ya saa au siku, hasa pamoja na homa, maambukizi au dawa mpya, wasiliana na daktari wake mara moja."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Umeandaa kila kitu, unatoa mchezo au matembezi, na unasikia “Hapana.” Au shughuli inaanza vizuri na kuishia kwa kompyuta kibao iliyosukumwa mbali na neno kali. Inakatisha tamaa, na ni jambo la kawaida sana. Kukataa na kukasirika kwa kawaida ni ujumbe, si ukaidi. Kugundua ujumbe ni nini mara nyingi kunaonyesha cha kujaribu baadaye.
+Umeandaa kila kitu, umempa mchezo au umpeleke matembezi, kisha unasikia “Hapana.” Au shughuli inaanza vizuri lakini inaishia kwa kompyuta kibao kusukumwa pembeni na neno kali. Inakatisha tamaa, na jambo hili ni la kawaida sana. Kukataa na kukasirika mara nyingi ni ujumbe, si ukaidi. Kugundua ujumbe huo unasema nini mara nyingi kunakuonyesha la kujaribu baadaye.
 
-## Kwa nini mtu mwenye dementia hukataa shughuli?
+## Kwa nini mtu anayeishi na dementia hukataa shughuli?
 
-Kwa kawaida kuna sababu, hata kama mtu huyo hawezi kuiweka kwa maneno. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) inabainisha kwamba upinzani unaweza kumaanisha mtu hawezi kufanya kazi hiyo au anaogopa kujaribu. Sababu za kawaida ni pamoja na:
+Mara nyingi kuna sababu, hata kama mtu hawezi kuieleza kwa maneno. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) inaeleza kwamba upinzani unaweza kumaanisha mtu hawezi kufanya kazi hiyo au anaogopa kujaribu. Sababu za kawaida ni:
 
-- **Inahisiwa kuwa ngumu mno.** Shughuli sasa inahitaji ujuzi ambao dementia umeufanya kuwa mgumu, na kushindwa mbele ya mtu kunaaibisha.
-- **Inahisiwa kuwa ya kitoto.** Watu wazima huona picha za katuni, sauti za kuimbaimba na shughuli zinazoonekana kutengenezwa kwa ajili ya watoto.
-- **Uchovu.** Watu wengi wana nguvu kidogo baadaye mchana. Tazama [shughuli tulivu za alasiri](/caregiving/late-day-restlessness/).
-- **Usumbufu wa mwili.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) inataja maumivu, kukosa usingizi, shida ya kuona au kusikia, kuvimbiwa, njaa, kiu na madhara ya dawa mpya kama sababu zinazowezekana za dhiki.
-- **Mambo mengi mno yanaendelea.** Televisheni yenye sauti kubwa, mazungumzo kadhaa au chumba chenye watu wengi vinaweza kuzidi uwezo.
-- **Kuhisi kusukumwa.** NIA inataja kusukumwa kufanya kitu ambacho Alzheimer umekifanya kuwa kigumu sana, au kukumbuka matukio au watu, kama sababu ya kutotulia.
-- **Hali ya moyo ya chini.** Kupoteza hamu ya vitu kunaweza kuwa dalili ya huzuni, jambo linalofaa kuzungumzwa na daktari.
-- **Hawataki tu.** Watu wazima wana haki ya kusema hapana.
+- **Inaonekana ngumu.** Shughuli sasa inahitaji ujuzi ambao dementia imeufanya kuwa mgumu, na kushindwa mbele ya mtu mwingine ni kuaibisha.
+- **Inaonekana ya kitoto.** Watu wazima huona picha za katuni, sauti za kuimba-imba na shughuli zinazoonekana zimetengenezwa kwa watoto.
+- **Uchovu.** Watu wengi huwa na nguvu kidogo baadaye mchana. Tazama [shughuli tulivu za alasiri](/creative-calm/calm-afternoon-activities/).
+- **Usumbufu wa mwili.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) inaorodhesha maumivu, kukosa usingizi, matatizo ya kuona au kusikia, kuvimbiwa, njaa, kiu na madhara ya dawa mpya kuwa sababu zinazowezekana za msongo.
+- **Mambo mengi yanaendelea.** Runinga yenye sauti kubwa, mazungumzo kadhaa au chumba kilichojaa watu vinaweza kuzidisha.
+- **Kuhisi kusukumwa.** NIA inataja kusukumwa kufanya kitu ambacho Alzheimer's imekifanya kuwa kigumu sana, au kulazimishwa kukumbuka matukio au watu, kuwa chanzo cha kuchafuka kwa hisia.
+- **Hali ya chini ya moyo.** Kupoteza hamu ya mambo kunaweza kuwa dalili ya msongo wa mawazo (depression), jambo linalostahili kumweleza daktari.
+- **Hataki tu.** Watu wazima wana haki ya kusema hapana.
 
-## Nijaribu nini wanaposema hapana?
+## Nifanye nini anaposema hapana?
 
-Kubali hapana kwa utulivu, kisha ubadilishe kitu: wakati, shughuli, ugumu au jinsi unavyoomba.
+Kubali hapana kwa utulivu, kisha badilisha jambo moja: wakati, shughuli, ugumu au jinsi unavyouliza.
 
-1. **Iache kwa sasa.** “Ni sawa. Labda baadaye.” Kisha endelea na kitu kingine bila kuugua kwa uchovu.
-2. **Jaribu tena baadaye.** Alzheimer's Association inapendekeza kujaribu tena baadaye, au wakati tofauti wa siku.
-3. **Ifanye ndogo zaidi.** Jozi moja badala ya mchezo mzima. Taulo moja badala ya kikapu chote cha nguo. Picha chache, machaguo machache, picha zikiachwa zionekane.
-4. **Toa machaguo mawili.** “Ungependa kutazama picha za ndege au kusikiliza muziki?” Chaguo hurudisha hisia ya kudhibiti.
-5. **Omba msaada badala ya kuonyesha uwezo.** “Unaweza kunisaidia kupanga hivi?” au “Unaweza kuniambia ni rangi ipi inaonekana vizuri zaidi?” Kuhitajiwa kunahisiwa tofauti sana na kupimwa.
-6. **Ianzishe wewe mwenyewe.** Anza shughuli kando yake bila kuomba. Watu wengi hujiunga kitu kinapokuwa tayari kinaendelea, na kama hawafanyi hivyo, bado mmetumia muda pamoja.
-7. **Badilisha kwenda kitu cha mwili au cha kutuliza.** Matembezi mafupi, muziki, kitafunio, kukunja nguo, au kituo cha pamoja cha [pumzi tulivu](/games/calm-breathing/). NIA inapendekeza kuelekeza usikivu kwenye muziki, kitabu au matembezi.
-8. **Mwache afanye kwa njia yake.** Kama anataka kucheza tofauti na sheria zinavyosema, mkubalie. Alzheimer's Association inashauri kubadilika.
+1. **Iache kwa sasa.** “Sawa kabisa. Labda baadaye.” Kisha endelea na jambo jingine bila kuguna.
+2. **Jaribu tena baadaye.** Alzheimer's Association inapendekeza ujaribu tena baadaye, au kwa wakati tofauti wa siku.
+3. **Fanya iwe ndogo.** Mechi moja badala ya mchezo mzima. Taulo moja badala ya kikapu chote cha nguo. Picha chache, chaguo chache, picha zikibaki zikionekana.
+4. **Mpe chaguo mbili.** “Ungependa kuangalia picha za ndege au kusikiliza muziki?” Chaguo humrudishia hisia ya kudhibiti mambo.
+5. **Muombe msaada badala ya kumtaka aonyeshe uwezo.** “Unaweza kunisaidia kupanga hizi?” au “Unadhani rangi gani inapendeza zaidi?” Kuhitajika kunahisi tofauti sana na kupimwa.
+6. **Anza mwenyewe.** Anza shughuli karibu naye bila kumwuliza. Watu wengi hujiunga mara jambo linapokuwa tayari linaendelea, na wasipojiunga, bado mmetumia muda pamoja.
+7. **Badilisha kwenda kwenye kitu cha mwili au cha kutuliza.** Matembezi mafupi, muziki, vitafunio, kukunja nguo, au pumziko la pamoja la [kupumua kwa utulivu](/games/calm-breathing/). NIA inapendekeza kuelekeza umakini kwenye muziki, kitabu au matembezi.
+8. **Mruhusu afanye kwa njia yake.** Akitaka kucheza tofauti na kanuni zinavyosema, kubali. Alzheimer's Association inashauri kunyumbulika.
 
-## Nisemeje wanapokasirika?
+## Nisemeje anapokasirika?
 
-Punguza mwendo, shusha sauti yako na uwatulize. [Mwongozo wa Alzheimer's Association kuhusu kutotulia](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) unapendekeza kurudi nyuma na kuomba ruhusa, kutumia kauli tulivu na chanya, na kutoa chaguo la kuongozwa kati ya machaguo mawili. Maneno ya mwelekeo huo:
+Punguza mwendo, shusha sauti yako na mpe faraja. [Mwongozo wa Alzheimer's Association kuhusu kuchafuka kwa hisia](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) unapendekeza kurudi nyuma na kuomba ruhusa, kutumia kauli tulivu na chanya, na kumpa chaguo mbili linaloongozwa. Maneno yanayofuata roho hiyo:
 
-- “Samahani, hii inaudhi. Hebu tuache.”
+- “Samahani, hili linakera. Tuache.”
 - “Unaendelea vizuri. Niko hapa.”
-- “Una muda wa kunisaidia na kitu kingine?”
-- “Tunywe kikombe cha chai badala yake?”
+- “Je, una muda wa kunisaidia jambo jingine?”
+- “Tunywe chai badala yake?”
 
-Kisha maliza shughuli bila kulifanya jambo kubwa. [Vidokezo vyetu vya mawasiliano](/caregiving/communication-tips/) vina zaidi kuhusu cha kusema.
+Kisha maliza shughuli bila kuifanya jambo kubwa. Ukurasa wa [hatua za kwanza baada ya utambuzi](/caregiving/after-dementia-diagnosis/) ni mwanzo mzuri wa kupata msaada.
 
-## Nini nikiepuke?
+## Nini cha kuepuka?
 
-Baadhi ya miitikio ya kawaida huelekea kufanya mambo kuwa mabaya zaidi.
+Baadhi ya majibu ya kawaida huelekea kufanya mambo kuwa mabaya zaidi.
 
-- **Kubishana au kulazimisha.** “Haya, mara moja tu zaidi” au “Unapenda hii” mara chache husaidia.
-- **Kuuliza maswali ya kupima au kurekebisha.** “Unajua hii ni nini” au “Hapana, hiyo si sahihi” huongeza shinikizo.
-- **Kuchukulia kibinafsi.** NIA inawakumbusha walezi kwamba ugonjwa, si mtu, ndio unaosababisha mabadiliko haya.
-- **Kumbana au kukimbiza.** Alzheimer's Association inashauri kutopaza sauti, kutoonyesha hofu, kutomsonga ukutani, kutombana, kutomzuia kwa nguvu, kutomkosoa, kutomwacha au kutobishana naye, na kuepuka harakati za ghafla nje ya mwonekano wake.
-- **Kutumia hatia.** “Nimeandaa haya yote kwa ajili yako” huwaacha nyote wawili mkijisikia vibaya zaidi.
-- **Kuweka lebo.** “Mkaidi” au “mgumu” huficha sababu halisi na hufanya iwe vigumu kutatua.
+- **Kubishana au kulazimisha.** “Njoo, moja tu zaidi” au “Unalipenda hili” mara chache husaidia.
+- **Kumuuliza maswali au kurekebisha.** “Unajua hii ni nini?” au “La, hiyo si sahihi” huongeza shinikizo.
+- **Kuchukulia kibinafsi.** NIA inawakumbusha walezi kwamba ugonjwa, si mtu mwenyewe, ndio unaosababisha mabadiliko haya.
+- **Kumsonga au kuharakisha.** Alzheimer's Association inashauri usipaze sauti, usionyeshe hofu, usimbane kwenye kona, usimzingire, usimzuie, usimkosoe, usipuuze wala kubishana naye, na uepuke miondoko ya ghafla nje ya macho yake.
+- **Kutumia hatia.** “Nimepanga yote haya kwa ajili yako” huwafanya nyote wawili mjisikie vibaya zaidi.
+- **Kumbandika lebo.** “Mkaidi” au “mgumu” huficha sababu halisi na hufanya tatizo kuwa gumu zaidi kutatuliwa.
 
-## Nawezaje kugundua kilicho nyuma ya kukataa kunakorudiwa?
+## Ninawezaje kujua nini kiko nyuma ya kukataa mara kwa mara?
 
-Weka kidokezo rahisi kwa wiki moja au mbili. NIA inasema kufuatilia mabadiliko ya tabia kunaweza kusaidia walezi na watoa huduma za afya kutambua mfumo na kugundua sababu.
+Weka kumbukumbu rahisi kwa wiki moja au mbili. NIA inasema kufuatilia mabadiliko ya tabia kunaweza kuwasaidia walezi na watoa huduma za afya kutambua mfumo na kugundua chanzo.
 
 Andika:
 
 - wakati wa siku;
-- ulichotoa na jinsi ulivyoomba;
-- kilichokuwa kikiendelea kuzunguka (kelele, wageni, televisheni);
-- jinsi alivyolala, alivyokula na kunywa, na lini alitumia choo mara ya mwisho;
-- dawa zozote mpya au ugonjwa wa karibuni.
+- ulichotoa na jinsi ulivyouliza;
+- kilichokuwa kikiendelea karibu nawe (kelele, wageni, runinga);
+- alivyolala, alivyokula na kunywa, na alipotumia choo mara ya mwisho;
+- dawa mpya zozote au ugonjwa wa hivi karibuni.
 
-Mifumo mara nyingi huonekana haraka: kukataa kunakotokea tu baada ya saa 10 jioni (4 p.m.), tu na mchezo fulani, au tu televisheni ikiwa imewashwa. [Mwongozo wa Family Caregiver Alliance kuhusu tabia za dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) unalisema kwa urahisi: hatuwezi kumbadilisha mtu, lakini tunaweza kubadilisha tabia yetu wenyewe na mazingira.
+Mifumo mara nyingi huonekana haraka: kukataa kunakotokea tu baada ya 4 p.m., kukataa kwa mchezo fulani tu, au kukataa wakati runinga imewashwa tu. Miongozo ya Family Caregiver Alliance kuhusu [tabia za dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) inalisema kwa urahisi: hatuwezi kumbadilisha mtu, lakini tunaweza kubadilisha tabia zetu wenyewe na mazingira.
 
-## Nizungumze na daktari lini kuhusu kukataa au kukasirika?
+## Ni lini nizungumze na daktari kuhusu kukataa au kukasirika?
 
-Zungumza na daktari tabia inapobadilika ghafla, haraka, au pamoja na dalili za ugonjwa. NIA inasema mabadiliko ya ghafla au yanayobadilika haraka ya tabia, hasa kama mtu amekuwa na maambukizi au mabadiliko ya karibuni ya dawa, yanapaswa kufikishwa kwa daktari mara moja.
+Zungumza na daktari tabia inapobadilika ghafla, kwa haraka, au pamoja na dalili za ugonjwa. NIA inasema mabadiliko ya ghafla au yanayobadilika-badilika haraka ya tabia, hasa ikiwa mtu amepata maambukizi au mabadiliko ya hivi karibuni ya dawa, yanapaswa kumfikia daktari mara moja.
 
-Wasiliana na daktari wake haraka kama unaona:
+Wasiliana na daktari wake mara moja ukiona:
 
-- kuchanganyikiwa kwa ghafla au badiliko kubwa ndani ya saa au siku;
-- ishara za maumivu, kama kukunja uso, kulinda sehemu ya mwili, au shida mpya ya kusogea;
-- homa au ishara nyingine za maambukizi;
-- dawa mpya au zilizobadilishwa zikifuatiwa na badiliko la tabia;
-- kupoteza hamu ya karibu kila kitu, kulia au kujitenga kunakodumu zaidi ya wiki kadhaa;
+- kuchanganyikiwa kwa ghafla au mabadiliko makubwa ndani ya saa au siku;
+- dalili za maumivu, kama kukunja uso, kulinda sehemu fulani ya mwili, au tatizo jipya la kusogea;
+- homa au dalili nyingine za maambukizi;
+- dawa mpya au zilizobadilishwa zikifuatiwa na mabadiliko ya tabia;
+- kupoteza hamu ya karibu kila kitu, kulia mara kwa mara au kujitenga kwa zaidi ya wiki kadhaa;
 - kukataa chakula au kinywaji.
 
-Alzheimer's Association inapendekeza uchunguzi kamili wa kitabibu kwa yeyote mwenye dalili za kitabia, hasa zinapojitokeza ghafla. Family Caregiver Alliance pia inashauri kuwasiliana na daktari kwanza, kwa sababu matatizo ya tabia yanaweza kuwa na sababu ya kitabibu. Usianze, usiache wala usibadilishe dawa yoyote bila kuzungumza na daktari au mfamasia.
+Alzheimer's Association inapendekeza uchunguzi wa kina wa kiafya kwa mtu yeyote mwenye dalili za kitabia, hasa zinapojitokeza ghafla. Family Caregiver Alliance pia inashauri kumwona daktari kwanza, kwa sababu matatizo ya kitabia yanaweza kuwa na chanzo cha kiafya. Usianze, usiache wala kubadilisha dawa yoyote bila kuzungumza na daktari au mfamasia.
 
-Kama mtu yeyote yuko hatarini au kuna dalili za dharura ya kitabibu, piga namba ya dharura ya eneo lako. NIA inapendekeza kumwambia mpokeaji wa simu kwamba mtu huyo ana dementia.
+Mtu yeyote akiwa hatarini au dalili za dharura ya kiafya zikionekana, piga 911. NIA inapendekeza umwambie mhudumu wa simu kwamba mtu huyo ana dementia. Hasira ikigeuka kuwa vitendo vya kimwili, jiondoe pembeni kisha omba ushauri kutoka kwa daktari au timu ya uangalizi.
 
-## Je, ni sawa kama hatufanyi chochote kabisa?
+## Je, ni sawa tusifanye chochote kabisa?
 
-Ndiyo. Siku nyingine shughuli bora ni kutokuwa na shughuli: kukaa pamoja, kushikana mikono, kusikiliza rekodi anayoipenda, au kutazama ndege nje ya dirisha. Hiyo si kushindwa. [Mwongozo wetu wa kucheza pamoja](/caregiving/how-to-play-together/) unaeleza kwa nini kuacha mapema, au kutoanza kamwe, kunaweza kuwa uamuzi sahihi.
+Ndiyo. Siku zingine shughuli bora ni kutofanya shughuli yoyote: kukaa pamoja, kushikana mikono, kusikiliza wimbo mnaoupenda, au kutazama ndege nje ya dirisha. Hiyo si kushindwa. [Mwongozo wetu wa kucheza pamoja](/caregiving/how-to-play-together/) unaeleza kwa nini kuacha mapema, au kutoanza kabisa, kunaweza kuwa uamuzi sahihi.

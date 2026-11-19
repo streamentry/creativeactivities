@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Treceți la conținutul principal",
     "brandName": "Creative Activities",
@@ -12,10 +13,16 @@
     "machineTranslated": "Această pagină a fost tradusă automat și nu a fost încă verificată de un vorbitor nativ.",
     "readOriginal": "Citiți originalul în engleză",
     "nav": {
+      "find": "Find an activity",
       "games": "Jocuri",
       "activities": "Activități",
       "caregiving": "Îngrijire",
-      "brainHealth": "Sănătatea creierului"
+      "brainHealth": "Sănătatea creierului",
+      "crafts": "Lucru manual",
+      "kids": "Copii",
+      "together": "Împreună",
+      "creativeCalm": "Calm creativ",
+      "search": "Căutare"
     },
     "faqTitle": "Întrebări și răspunsuri",
     "breadcrumb": "Cale de navigare",
@@ -27,6 +34,21 @@
       "smaller": "Text standard",
       "larger": "Text mai mare",
       "contrast": "Contrast mai mare"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +57,12 @@
     "conversationCards": "Cartonașe de conversație",
     "pictureBingo": "Bingo cu imagini",
     "allGames": "Toate jocurile",
+    "pictures": "Imagini de tipărit",
     "activityIdeas": "Idei de activități",
     "ideas101": "101 idei de activități",
     "lateStage": "Activități pentru stadiul avansat",
     "printable": "Activități de tipărit",
-    "allActivities": "Toate activitățile",
+    "allActivities": "Toate ghidurile de activități",
     "forCaregivers": "Pentru îngrijitori",
     "playTogether": "Cum să jucați împreună",
     "selfCare": "Grija față de dumneavoastră",
@@ -52,10 +75,15 @@
     "app": "Aplicația Creative Activities",
     "appHelp": "Ajutor pentru aplicație",
     "support": "Asistență",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Informații juridice",
     "sitePrivacy": "Confidențialitatea site-ului",
     "appPrivacy": "Politica de confidențialitate a aplicației",
     "privacyChoices": "Opțiuni de confidențialitate",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Termeni și licența aplicației",
     "safety": "Siguranță și utilizare prevăzută",
     "accessibility": "Accesibilitate",
@@ -63,14 +91,18 @@
     "allLegal": "Toate informațiile juridice",
     "note": "Creative Activities oferă activități simple, de făcut împreună, pentru plăcere. Nu este sfat medical, test sau tratament și nu diagnostichează, nu măsoară și nu evaluează pe nimeni. Pentru întrebări despre sănătate, discutați cu un medic. În caz de urgență, sunați la numărul local de urgență.",
     "publisher": "Publicat de Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Imagini de tipărit"
+    "crafts": "Lucru manual pentru toate vârstele",
+    "kids": "Activități pentru copii",
+    "together": "Activități de făcut împreună",
+    "creativeCalm": "Calm creativ",
+    "dementiaActivities": "Activități pentru persoane cu demență"
   },
   "home": {
-    "title": "Jocuri pentru demență și Alzheimer | Creative Activities",
-    "description": "Jocuri blânde gratuite cu imagini și idei de activități pentru persoane cu demență sau Alzheimer și pentru îngrijitori. Fără cont, cronometre sau scoruri.",
+    "title": "Creative Activities pentru oricine are grijă de cineva",
+    "description": "Activități creative gratuite pentru oricine are grijă de cineva: lucru manual, lucruri pentru copii, activități de făcut împreună și idei creative liniștite.",
     "eyebrow": "Gratuit · Fără reclame · Fără cont · Fără cronometre sau scoruri",
-    "h1": "Jocuri și activități blânde pentru persoane cu demență",
-    "lede": "Jocuri simple cu imagini, fotografii familiare și activități de făcut împreună, în ritmul dumneavoastră.",
+    "h1": "Creați ceva împreună",
+    "lede": "Găsiți o activitate potrivită persoanei, momentului și ceea ce aveți la îndemână. Lucru manual ușor, artă pentru copii, lucruri de făcut împreună și idei creative liniștite, cu versiuni mai ușoare și un card de tipărit. Opriți-vă oricând doriți.",
     "playGame": "Jucați un joc",
     "findIdeas": "Găsiți idei de activități",
     "facts": [
@@ -105,13 +137,13 @@
     "ideas101": "101 idei de activități",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Stadiul incipient",
         "text": "Continuați să faceți ce le place, cu mici ajustări: pasiuni, ieșiri, jocuri de cuvinte și planuri făcute împreună.",
         "label": "Idei pentru stadiul incipient"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Stadiul mediu",
         "text": "Treburi simple și familiare împărțite în pași: împăturit, sortat, muzică, jocuri cu imagini și plimbări scurte.",
         "label": "Idei pentru stadiul mediu"
@@ -123,10 +155,10 @@
         "label": "Idei pentru stadiul avansat"
       }
     ],
-    "specificHtml": "Căutați ceva anume? Încercați <a href=\"/activities/alzheimers/\">activități și jocuri pentru Alzheimer</a>, <a href=\"/activities/memory-games/\">jocuri blânde de memorie</a>, <a href=\"/activities/trivia/\">întrebări ușoare de cultură generală</a> sau <a href=\"/activities/puzzles/\">puzzle-uri</a>.",
+    "specificHtml": "Căutați ceva anume? Încercați <a href=\"/dementia-activities/\">activități și jocuri pentru Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzzle-uri și jocuri de masă</a>, <a href=\"/together/conversation-games-for-all-ages/\">jocuri de conversație</a> sau <a href=\"/together/puzzles-and-table-games/\">puzzle-uri</a>.",
     "approachEyebrow": "Abordarea noastră",
-    "approachTitle": "O activitate făcută împreună, nu un test de memorie",
-    "approachLede": "Multe „jocuri pentru minte” sunt construite în jurul vitezei, scorurilor și seriilor. Pentru o persoană care trăiește cu demență, acestea pot semăna cu un examen. Noi am construit opusul.",
+    "approachTitle": "O activitate comună, nu un test",
+    "approachLede": "Multe „jocuri pentru creier” se bazează pe viteză, punctaje și serii de reușite. Pentru cineva obosit, care nu se simte bine sau trăiește cu demență, acest lucru poate părea un examen. Noi am construit exact invers.",
     "approachLink": "De ce le concepem așa",
     "principles": [
       {
@@ -165,14 +197,14 @@
         "text": "Motive frecvente de refuz și moduri blânde de a încerca din nou mai târziu."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Configurarea unei tablete",
-        "text": "Text mai mare, mai puține întreruperi și un singur ecran de pornire simplu."
+        "href": "/activities/group-art-activities/",
+        "title": "Activități artistice de grup",
+        "text": "Proiecte comune pentru o masă cu mai mulți oameni, cu o sarcină pentru fiecare persoană."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Activități gratuite de tipărit",
-        "text": "Căutări de cuvinte cu litere mari, pagini de colorat, bingo și cartonașe de conversație."
+        "href": "/activities/ideas/",
+        "title": "101 idei de activități",
+        "text": "Idei simple, grupate după ce aveți la îndemână și cât de multă energie există."
       }
     ],
     "researchTitle": "Sănătatea creierului: ce spune cu adevărat cercetarea",
@@ -184,16 +216,16 @@
     "aboutApp": "Despre aplicație",
     "faq": [
       {
-        "q": "Care sunt jocurile potrivite pentru persoanele cu demență?",
-        "a": "Jocurile potrivite sunt simple, familiare și fără presiune: imagini mari de potrivit, sortare, puzzle-uri ușoare, completarea unor proverbe cunoscute, colorat, bingo cu imagini și cartonașe de conversație. Cea mai bună alegere este cea care îi place persoanei azi. Evitați cronometrele, scorurile și orice seamănă cu un test."
+        "q": "Ce jocuri sunt potrivite pentru persoanele în vârstă?",
+        "a": "Jocurile bune sunt simple, familiare și fără presiune: imagini mari de potrivit, sortare, puzzle-uri ușoare, completarea unor cuvinte sau expresii cunoscute, colorat, bingo cu imagini și cărți de conversație. Ele se potrivesc multor persoane în vârstă, inclusiv celor care trăiesc cu demență. Cea mai bună alegere este cea care îi place persoanei astăzi. Evitați cronometrele, punctajele și orice lucru care seamănă cu un test."
       },
       {
-        "q": "Sunt gratuite aceste jocuri pentru demență?",
+        "q": "Sunt aceste jocuri gratuite?",
         "a": "Da. Fiecare joc și fiecare material de tipărit de pe Creative Activities este gratuit, fără cont, înregistrare sau descărcare. Jocurile rulează în browser, pe telefon, tabletă sau computer."
       },
       {
         "q": "Previn jocurile pentru minte demența?",
-        "a": "Nu s-a demonstrat că vreun joc previne demența, iar Creative Activities nu pretinde că tratează sau previne ceva. Jocurile noastre sunt pentru plăcere și timp petrecut împreună. Secțiunea noastră despre sănătatea creierului explică ce arată și ce nu arată cercetarea."
+        "a": "Nu s-a dovedit că vreun joc ar preveni demența, iar Creative Activities nu pretinde că tratează sau previne ceva. Jocurile noastre sunt pentru bucurie și timp petrecut împreună, iar nicio pagină cu activități nu face afirmații despre sănătate."
       },
       {
         "q": "Sunt potrivite aceste jocuri pentru o persoană cu Alzheimer?",
@@ -209,7 +241,36 @@
       },
       {
         "q": "Cine face Creative Activities?",
-        "a": "Creative Activities este o echipă mică, care creează activități calme cu imagini, potrivite pentru adulți, destinate familiilor și îngrijitorilor, pe web și ca aplicație gratuită. Nu suntem clinicieni, iar nimic de aici nu este sfat medical."
+        "a": "Creative Activities este o echipă mică ce creează activități creative calme, pentru adulți, destinate oricui are grijă de cineva, pe web și ca aplicație gratuită. Nu suntem clinicieni, iar nimic de aici nu reprezintă sfat medical."
+      }
+    ],
+    "groupsEyebrow": "Alegeți de unde să începeți",
+    "groupsTitle": "Patru tipuri de activități creative",
+    "groupsLede": "Începeți cu grupul potrivit pentru cine sunteți împreună și ce aveți la îndemână. Fiecare pagină are versiuni mai ușoare și note de siguranță.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Lucru manual",
+        "text": "Proiecte din hârtie, vopsea, materiale reciclate și proiecte sezoniere, cu o versiune mai ușoară pentru fiecare.",
+        "label": "Răsfoiți lucrul manual"
+      },
+      {
+        "href": "/kids/",
+        "title": "Copii",
+        "text": "Artă și joc pentru copii, cu un adult alături și note clare de siguranță.",
+        "label": "Răsfoiți activitățile pentru copii"
+      },
+      {
+        "href": "/together/",
+        "title": "Împreună",
+        "text": "Conversație, puzzle-uri, timp afară și moduri de a rămâne aproape între generații.",
+        "label": "Răsfoiți lucruri de făcut împreună"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calm creativ",
+        "text": "Momente creative lente și liniștite, cu un creion, o pagină sau un cântec. Nu este terapie.",
+        "label": "Răsfoiți calmul creativ"
       }
     ]
   },
@@ -248,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Activități",
-      "title": "Activități pentru persoane cu demență",
-      "seo": "Activități pentru demență: idei pe stadii",
-      "description": "Idei de activități pentru persoane cu demență, în orice stadiu: muzică, amintiri, treburi zilnice, momente senzoriale, lucru manual și materiale de tipărit.",
-      "lede": "O activitate cu sens este orice aduce confort, un scop sau un moment de apropiere. Porniți de la ce i-a plăcut dintotdeauna persoanei și adaptați la ziua de azi."
+      "label": "Ghiduri de activități",
+      "title": "Ghiduri de activități",
+      "seo": "Ghiduri de activități: idei, materiale artistice și moduri de a începe",
+      "description": "Ghiduri simple despre activități creative pe care le puteți face cu cineva: idei simple, materiale artistice ieftine, artă de grup, scrisori, amintiri și o explicație a arteterapiei.",
+      "lede": "Ghiduri scurte și practice pentru alegerea și începerea unei activități cu cineva, indiferent de vârstă sau de capacități."
+    },
+    "crafts": {
+      "label": "Lucru manual",
+      "title": "Lucru manual pentru toate vârstele",
+      "seo": "Lucru manual ușor pentru toate vârstele, cu versiuni mai ușoare",
+      "description": "Lucru manual ușor pentru adulți, copii și familii: hârtie, colorat, proiecte din materiale reciclate și sezoniere, cu versiuni mai ușor de ținut și versiuni pe scaun, fără abilități speciale.",
+      "lede": "Lucruri manuale care pornesc de la ceea ce are majoritatea caselor, fiecare cu o versiune mai ușoară, ca oricine să poată face ceva."
+    },
+    "kids": {
+      "label": "Copii",
+      "title": "Activități creative pentru copii",
+      "seo": "Activități creative pentru copii: artă, senzorial și calm",
+      "description": "Activități creative pentru copii: artă pentru cei mici, arta procesului, joc senzorial, lucru manual pentru zilele ploioase și idei pentru liniștire, cu note de siguranță și versiuni pentru nevoi senzoriale.",
+      "lede": "Idei de artă și joc pentru copii de diferite vârste și nevoi, cu note clare de siguranță și un adult alături."
+    },
+    "together": {
+      "label": "Împreună",
+      "title": "Activități de făcut împreună",
+      "seo": "Activități de făcut împreună, între generații",
+      "description": "Activități pentru două sau mai multe generații: jocuri de conversație, puzzle-uri, timp afară, lucru manual pentru bunici și nepoți și moduri de a fi aproape de la distanță.",
+      "lede": "Idei pentru a împărți timpul cu un părinte, un bunic, un copil sau un prieten, acasă, afară, în vizită sau de departe."
+    },
+    "creative-calm": {
+      "label": "Calm creativ",
+      "title": "Calm creativ",
+      "seo": "Calm creativ: artă relaxantă și activități pentru a vă destinde",
+      "description": "Activități creative relaxante pentru adulți și îngrijitori: artă cu atenție deplină, jurnal, muzică, momente senzoriale și după-amiezi liniștite. Activitate creativă, nu terapie.",
+      "lede": "Moduri blânde de a încetini cu un creion, o pagină sau un cântec. Acestea sunt activități creative, nu terapie, și nu cer nicio abilitate."
     },
     "caregiving": {
-      "label": "Îngrijire",
-      "title": "Ghiduri pentru îngrijitori",
-      "seo": "Ghiduri pentru îngrijitorii persoanelor cu demență",
-      "description": "Ghiduri practice pentru îngrijitorii persoanelor cu demență: jocuri împreună, comunicare, refuzuri, neliniște spre seară, tablete, aplicații și grija de sine.",
-      "lede": "Ajutor simplu și practic pentru momentele de zi cu zi ale îngrijirii unei persoane care trăiește cu demență, inclusiv pentru grija față de dumneavoastră."
+      "label": "Îngrijirea în demență",
+      "title": "Îngrijirea cuiva cu demență",
+      "seo": "Îngrijirea cuiva cu demență: activități și ajutor",
+      "description": "Ghiduri pentru familiile care au grijă de cineva cu demență: cum să jucați împreună, ce să faceți când spune nu și unde să găsiți ajutor de încredere după un diagnostic.",
+      "lede": "Ajutor axat pe activități pentru familiile care au grijă de cineva care trăiește cu demență, și unde să apelați pentru sfaturi medicale și de îngrijire."
     },
     "brain-health": {
       "label": "Sănătatea creierului",
@@ -282,7 +371,16 @@
     "tryTogether": "Încercați împreună",
     "relatedGuides": "Ghiduri conexe",
     "related": "Conexe",
-    "startHere": "Începeți de aici"
+    "startHere": "Începeți de aici",
+    "staleAria": "Traducere învechită",
+    "staleTitle": "Această traducere este învechită",
+    "staleText": "A fost creat dintr-o versiune anterioară a paginii în engleză, care între timp s-a schimbat. Pagina în engleză este versiunea actuală.",
+    "staleHealth": "Conține informații despre sănătate, așa că verificați pagina în engleză și întrebați un medic sau o asistentă medicală înainte de a acționa în baza ei.",
+    "staleLink": "Citiți pagina actuală în engleză"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Notă de informare medicală",
@@ -291,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "O activitate făcută împreună, nu un test de memorie",
+      "title": "O activitate comună, nu un test",
       "seoTitle": "Despre Creative Activities: abordarea noastră",
-      "description": "De ce jocurile Creative Activities nu au cronometre, scoruri sau serii, de ce imaginile rămân la vedere și ce susținem și ce nu susținem despre demență.",
+      "description": "De ce Creative Activities nu are cronometre, punctaje sau serii de succes, de ce imaginile rămân vizibile și ce vom afirma și ce nu vom afirma despre sănătate.",
       "crumb": "Abordarea noastră",
-      "lede": "Creative Activities creează activități calme cu imagini, pentru adulți, pe care un îngrijitor și o persoană care trăiește cu demență le pot face împreună, unul lângă altul.",
-      "bodyHtml": "<h2>În ce credem</h2><p>Rostul unei activități este chiar momentul: o conversație, un zâmbet, mulțumirea de a potrivi două imagini sau pur și simplu a sta aproape. Nu este scopul să măsurăm pe cineva, să-l împingem mai departe sau să dovedim ceva.</p><p>Multe aplicații de antrenament pentru minte sunt concepute în jurul vitezei, scorurilor, seriilor și nivelurilor. Pentru o persoană care trăiește cu demență, acestea pot semăna cu un examen pe care nu îl poate trece. Noi am conceput opusul și ne ținem de aceste reguli:</p><ul><li><strong>Nimic de greșit.</strong> Fără ceas, scor, contor de mutări, vieți, serii, confetti sau numărătoare inversă, pe niciun ecran.</li><li><strong>Recunoaștere, nu reamintire.</strong> Imaginile rămân implicit la vedere. Ideile de conversație invită la discuție și nu cer niciodată nume sau amintiri.</li><li><strong>Mari, simple și stabile.</strong> Text și imagini mari, contrast ridicat și butoane care rămân mereu în același loc.</li><li><strong>Demnitate de adult.</strong> Imagini din viața reală și cuvinte simple, calde. Fără desene animate, laude siropoase sau recompense cu emoji.</li><li><strong>O ieșire ușoară.</strong> „Gata pentru acum” este mereu vizibil. A te opri la jumătate este un rezultat bun.</li><li><strong>Private implicit.</strong> Fără conturi sau reclame. Fotografiile alese de dumneavoastră rămân pe dispozitiv.</li></ul><h2>Ce nu susținem</h2><p>Jocurile noastre sunt pentru plăcere și apropiere. Nu diagnostichează, nu testează, nu măsoară, nu tratează, nu încetinesc și nu previn demența sau boala Alzheimer și nimeni nu ar trebui să le aleagă din acest motiv. Când scriem despre cercetare în <a href=\"/brain-health/\">paginile noastre despre sănătatea creierului</a>, spunem deschis unde dovezile sunt slabe și nu le legăm niciodată de propriile jocuri.</p><h2>Cine suntem</h2><p>Creative Activities este o echipă mică, independentă. Nu suntem clinicieni. Ghidurile noastre sunt scrise pe baza recomandărilor publicate de organizații precum National Institute on Aging și Alzheimer’s Association, iar fiecare ghid își listează sursele. Citiți <a href=\"/editorial-policy/\">cum scriem și verificăm paginile</a>.</p><h2>Spuneți-ne ce ar ajuta</h2><p>Ne-ar plăcea să aflăm ce funcționează pentru dumneavoastră și ce nu, mai ales de la persoane care trăiesc cu demență, de la îngrijitori din familie și de la personalul care organizează activități. Scrieți la <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities oferă activități liniștite, pentru adulți, pe care două persoane le pot savura împreună, fie că una dintre ele îl îngrijește pe celălalt, fie că vor pur și simplu să petreacă timp împreună.",
+      "bodyHtml": "<h2>Pentru cine este</h2><p>Pentru oricine are grijă de cineva: un părinte, un bunic, un copil, un partener, un prieten sau o persoană care trăiește cu demență. Familiile, adulții în vârstă și personalul din centrele de activități pot folosi aceleași pagini.</p><h2>Ce credem</h2><p>Rostul unei activități este chiar momentul: o conversație, un zâmbet, bucuria de a potrivi două imagini sau pur și simplu de a sta alături. Nu este să măsoare pe cineva, să-l împingă mai departe sau să demonstreze ceva.</p><p>Multe aplicații de antrenare a creierului sunt construite în jurul vitezei, al punctajelor, al seriilor de succes și al nivelurilor. Pentru cineva care este obosit, nu se simte bine sau trăiește cu demență, acest lucru poate părea un examen pe care nu îl poate trece. Am făcut exact opusul și ne ținem de aceste reguli:</p><ul><li><strong>Nimic de ratat.</strong> Fără ceas, punctaj, contor de mutări, vieți, serii de succes, confetti sau numărătoare inversă, pe niciun ecran.</li><li><strong>Recunoaștere mai degrabă decât reamintire.</strong> Imaginile rămân vizibile implicit. Întrebările invită la conversație și nu testează nume sau amintiri.</li><li><strong>Mare, simplu și stabil.</strong> Text și imagini mari, contrast ridicat și comenzi care rămân la același loc.</li><li><strong>Demnitatea adultului.</strong> Imagini din viața reală și cuvinte simple, calde. Fără desene animate, laude cântate sau recompense cu emoji.</li><li><strong>O ieșire ușoară.</strong> „Terminăm pentru acum” este mereu vizibil. Oprirea la jumătatea drumului este un rezultat bun.</li><li><strong>Confidențialitate implicită.</strong> Fără conturi și fără reclame. Fotografiile pe care le alegeți rămân pe dispozitivul dumneavoastră.</li></ul><h2>Ce nu afirmăm</h2><p>Jocurile și activitățile noastre sunt pentru plăcere și conectare. Ele nu diagnostichează, nu testează, nu măsoară, nu tratează, nu încetinesc și nu previn demența sau boala Alzheimer și nimeni nu ar trebui să le aleagă din acest motiv. Atunci când scriem despre cercetările din domeniul sănătății, spunem clar unde dovezile sunt slabe și nu le legăm niciodată de propriile noastre activități.</p><h2>Cine suntem</h2><p>Creative Activities este o echipă mică, independentă. Nu suntem clinicieni. Ghidurile noastre sunt scrise pe baza recomandărilor publicate de organizații precum National Institute on Aging și Alzheimer’s Association, iar fiecare ghid își enumeră sursele. Citiți <a href=\"/editorial-policy/\">cum scriem și verificăm paginile noastre</a>.</p><h2>Spuneți-ne ce ar ajuta</h2><p>Ne-ar plăcea să aflăm ce funcționează pentru dumneavoastră și ce nu, mai ales de la persoanele care trăiesc cu demență, de la membrii familiei care îngrijesc și de la personalul din activități. Scrieți-ne la <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Cum scriem și verificăm paginile",
       "seoTitle": "Politica editorială",
-      "description": "Cum cercetează, scrie, citează și actualizează Creative Activities paginile despre activități pentru demență și sănătatea creierului și ce nu vom publica niciodată.",
+      "description": "Cum cercetează, scriu, documentează și actualizează Creative Activities paginile sale despre activități și sănătate și ce nu vom publica niciodată.",
       "crumb": "Politica editorială",
       "bodyHtml": "<h2>Sursele noastre</h2><p>Ne bazăm ghidurile pe recomandări publice ale unor organizații precum National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance și NHS, precum și pe cercetări evaluate de specialiști, cum sunt analizele Cochrane și studiile clinice mari. Fiecare ghid își listează sursele. Deschidem fiecare sursă înainte de a o cita și raportăm doar ce spune ea de fapt.</p><h2>Cum scriem</h2><ul><li>Întâi practic: ce puteți face azi, în limbaj simplu.</li><li>Cinstiți în privința dovezilor: spunem „asociat cu”, „poate” și „dovezile sunt contradictorii” atunci când acesta este adevărul.</li><li>Cu respect: scriem despre persoanele care trăiesc cu demență ca despre adulți și nu folosim niciodată un limbaj care pune întrebări-test sau rușinează.</li><li>Fără conținut inventat: fără statistici, citate, experți, studii, recenzii sau mărturii născocite.</li></ul><h2>Cine ne verifică paginile</h2><p>Paginile sunt scrise și verificate de echipa Creative Activities, cu ajutorul unor instrumente de scriere bazate pe inteligență artificială pentru cercetare și ciorne. Echipa verifică fiecare pagină față de surse. Paginile noastre <strong>nu</strong> au fost revizuite de un medic sau de alt clinician și nu pretindem altceva. Sunt informații generale, nu sfat medical.</p><h2>Ce nu vom publica niciodată</h2><ul><li>Afirmații că un joc, un aliment, un supliment, un post sau o rutină previne, tratează, încetinește sau vindecă demența.</li><li>Teste, chestionare sau scoruri care sugerează că cineva are sau nu are demență.</li><li>Sfaturi de a începe, a opri sau a schimba un medicament.</li><li>Reclame sau conținut sponsorizat deghizat în recomandări.</li></ul><h2>Actualizări și corecturi</h2><p>Fiecare pagină arată data ultimei actualizări. Dacă găsiți o greșeală sau o sursă depășită, scrieți la <a href=\"mailto:{email}\">{email}</a> și o vom verifica prompt.</p>"
     },
     "faq": {
       "title": "Întrebări și răspunsuri",
-      "seoTitle": "Jocuri și activități pentru demență: întrebări și răspunsuri",
-      "description": "Răspunsuri la întrebări despre jocuri și activități pentru demență: ce să încercați, cât să jucați, stadiul avansat, sănătatea creierului și confidențialitate.",
+      "seoTitle": "Întrebări și răspunsuri despre Creative Activities",
+      "description": "Răspunsuri la întrebările frecvente despre jocuri și activități: ce să încercați, cât timp să jucați, idei pentru grupuri și pentru etapele avansate, sănătate și confidențialitate.",
       "crumb": "Întrebări și răspunsuri",
       "lede": "Răspunsuri scurte și simple la întrebările pe care le pun cel mai des îngrijitorii.",
       "groups": [
@@ -317,7 +415,7 @@
           "title": "Despre jocuri",
           "items": [
             {
-              "q": "Care sunt cele mai bune jocuri pentru o persoană cu demență?",
+              "q": "Care sunt cele mai bune jocuri pentru adulții în vârstă?",
               "a": "Cele mai bune jocuri sunt familiare, simple și fără presiune, iar cel potrivit este cel care îi place persoanei azi. Potrivirea de imagini lăsate la vedere, sortarea, puzzle-urile ușoare, completarea unor proverbe cunoscute, colorarea și bingo cu imagini merg bine pentru mulți oameni. Evitați cronometrele, scorurile și orice seamănă cu un test."
             },
             {
@@ -362,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Sănătatea creierului",
+          "title": "Demență și sănătate",
           "items": [
             {
               "q": "Pot jocurile să prevină sau să încetinească demența?",
@@ -393,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Mai multe detalii: <a href=\"/caregiving/how-to-play-together/\">cum să jucați împreună</a>, <a href=\"/caregiving/when-they-say-no/\">când persoana refuză</a>, <a href=\"/activities/late-stage/\">activități pentru stadiul avansat</a> și <a href=\"/brain-health/can-dementia-be-prevented/\">poate fi prevenită demența?</a>"
+      "moreHtml": "Mai multe detalii: <a href=\"/caregiving/how-to-play-together/\">cum să jucați împreună</a>, <a href=\"/caregiving/when-they-say-no/\">ce faceți când spune nu</a>, <a href=\"/activities/late-stage/\">activități pentru etapele avansate</a> și <a href=\"/dementia-activities/\">activități pentru demență acasă</a>."
     },
     "handout": {
       "title": "Jocuri blânde și gratuite pentru persoane cu demență",
@@ -407,21 +505,21 @@
     },
     "organizations": {
       "title": "Pentru cămine, biblioteci și grupuri de sprijin",
-      "seoTitle": "Activități gratuite pentru demență, pentru cămine și grupuri",
-      "description": "Cum folosesc căminele, centrele de zi, bibliotecile și grupurile de sprijin jocurile noastre gratuite pentru demență, plus text pentru o listă de resurse.",
+      "seoTitle": "Activități gratuite pentru cămine, biblioteci și grupuri",
+      "description": "Cum folosesc căminele, programele de zi pentru adulți, bibliotecile, agențiile pentru vârstnici și grupurile de sprijin jocurile și ghidurile noastre de activități gratuite, plus un text pentru a ne adăuga într-o listă de resurse.",
       "crumb": "Pentru organizații",
       "lede": "Tot ce se află pe acest site este gratuit pentru a fi folosit cu rezidenți, membri și clienți, fără cont, licență sau taxă.",
-      "shortText": "{name}: jocuri blânde gratuite cu imagini și ghiduri de activități pentru persoane care trăiesc cu demență și pentru îngrijitorii lor. Fără cont, cronometre sau scoruri.",
-      "longText": "{name} ({domain}) oferă {count} jocuri gratuite în browser, create pentru persoane care trăiesc cu demență, printre care perechi de potrivit cu imagini lăsate la vedere, un puzzle ușor, sortare, proverbe cunoscute și bingo cu imagini, cu cartonașe de tipărit. Nu există cont, reclame, cronometru sau scor. Site-ul conține și ghiduri de activități în limbaj simplu pentru fiecare stadiu al demenței, care citează National Institute on Aging și Alzheimer's Association.",
+      "shortText": "{name}: jocuri cu imagini gingașe și gratuite și ghiduri de activități pentru adulții în vârstă, familii și persoane care trăiesc cu demență. Fără înregistrare, fără cronometre, fără punctaje.",
+      "longText": "{name} ({domain}) oferă {count} jocuri gratuite în browser pentru adulții în vârstă, familii și persoane care trăiesc cu demență, inclusiv potrivirea perechilor de imagini cu imaginile lăsate vizibile, un puzzle simplu, sortare, proverbe cunoscute și bingo cu imagini, cu cartonașe care pot fi tipărite. Nu există cont, publicitate, cronometru sau punctaj. Site-ul mai are și ghiduri de activități în limbaj simplu pentru familii, adulți în vârstă și personal, cu surse precum National Institute on Aging și Alzheimer's Association.",
       "useTitle": "Ce pot folosi organizațiile",
       "gamesItemHtml": "<strong>{count} jocuri în browser</strong> care rulează pe un laptop, o tabletă sau un televizor conectat la un computer. Fără instalare, cont sau descărcare. Vedeți <a href=\"/games/\">toate jocurile</a>.",
       "printablesLabel": "{count} materiale de tipărit:",
       "printablesAfter": "Folosiți butonul Tipărire de pe fiecare pagină.",
-      "moreItemsHtml": "<li><strong>Formate pentru grup:</strong> <a href=\"/games/picture-bingo/\">Bingo cu imagini</a> are cartonașe de tipărit și un crainic pe ecran, iar <a href=\"/activities/trivia/\">întrebările ușoare de cultură generală</a> au 50 de întrebări cu variante de răspuns și subiecte de discuție.</li><li><strong>Ghiduri de activități</strong> pentru personal și familii, pe stadii și pe tipuri, scrise în limbaj simplu, cu surse. Începeți cu <a href=\"/activities/ideas/\">101 idei de activități</a> sau cu <a href=\"/activities/care-home-groups/\">activități de grup pentru cămine</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formate pentru grupuri:</strong> <a href=\"/games/picture-bingo/\">Bingo cu imagini</a> are cartonașe pentru imprimat și un animator pe ecran, iar <a href=\"/together/conversation-games-for-all-ages/\">jocurile de conversație</a> au întrebări cu variante de răspuns și idei de discuție.</li><li><strong>Ghiduri de activități</strong> pentru personal și familii, scrise pe înțelesul tuturor, cu surse. Începeți cu <a href=\"/activities/ideas/\">101 idei de activități</a> sau <a href=\"/crafts/craft-group-sessions/\">activități de grup pentru cămine de bătrâni</a>.</li>",
       "restHtml": "<h2>Cum îl folosesc grupurile</h2><ul><li><strong>Cămine și centre de îngrijire:</strong> bingo cu imagini sau completarea proverbelor pe televizorul din sala comună, cu o persoană care atinge ecranul pentru grup.</li><li><strong>Centre de zi:</strong> o stație cu tabletă, cu Perechi de imagini setat pe patru plăcuțe, pentru sesiuni scurte, individuale.</li><li><strong>Biblioteci publice:</strong> căutări de cuvinte și cartonașe de conversație tipărite în truse de amintiri, iar site-ul salvat la favorite pe tabletele bibliotecii.</li><li><strong>Grupuri de sprijin pentru îngrijitori și cafenele de memorie:</strong> o <a href=\"/handout/\">fișă de o pagină, de tipărit</a>, pe care familiile să o ia acasă.</li><li><strong>Spitale și specialiști în externare:</strong> fișa în pachetele pentru îngrijitori, pentru ceva liniștit de făcut acasă sau la căpătâiul patului.</li></ul><h2>Ce nu facem</h2><p>Jocurile sunt pentru plăcere și timp petrecut împreună. Nu diagnostichează, nu testează, nu evaluează, nu tratează și nu încetinesc demența, iar rugăm organizațiile să nu le descrie astfel. Nu există reclame, iar jocurile nu cer nume, date de sănătate sau încărcarea de fotografii. Site-ul folosește Google Analytics pentru a număra vizitele; <a href=\"/privacy/\">nota noastră de confidențialitate</a> explică ce se colectează. Fotografiile folosite în <a href=\"/games/photo-pairs/\">Perechi de fotografii</a> rămân în browser.</p><h2>Adăugați-ne pe lista dumneavoastră de resurse</h2><p>Dacă țineți o listă de resurse pentru îngrijitori, ne puteți trimite link către <a href=\"/\">{domain}</a>. Puteți copia oricare dintre descrieri.</p>",
       "shortTitle": "Descriere scurtă",
       "longTitle": "Descriere mai lungă",
-      "linksHtml": "<p>Pagini utile către care puteți trimite direct: <a href=\"/games/\">jocuri gratuite</a>, <a href=\"/activities/printable/\">materiale gratuite de tipărit</a>, <a href=\"/activities/alzheimers/\">activități pentru Alzheimer</a> și <a href=\"/caregiving/how-to-play-together/\">cum să jucați împreună</a>.</p><h2>Întrebări sau corecturi</h2><p>Dacă ceva de pe site este greșit sau neclar, sau dacă nevoile unui rezident nu sunt acoperite de ce găsiți aici, scrieți-ne la <a href=\"mailto:{email}\">{email}</a>. Vă rugăm să nu trimiteți informații personale sau de sănătate despre rezidenți sau clienți.</p>"
+      "linksHtml": "<p>Pagini utile la care puteți trimite direct: <a href=\"/games/\">jocuri gratuite</a>, <a href=\"/games/\">materiale gratuite pentru imprimat</a>, <a href=\"/dementia-activities/\">activități pentru demență acasă</a> și <a href=\"/caregiving/how-to-play-together/\">cum să jucați împreună</a>.</p><h2>Întrebări sau corecturi</h2><p>Dacă ceva de pe site este greșit sau neclar, sau dacă nevoile unui rezident nu sunt acoperite de ceea ce găsiți aici, vă rugăm să ne scrieți la <a href=\"mailto:{email}\">{email}</a>. Vă rugăm să nu trimiteți informații personale sau medicale despre rezidenți sau beneficiari.</p>"
     },
     "app": {
       "title": "Aplicația Creative Activities",
@@ -436,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Jocuri gratuite online pentru demență și Alzheimer",
-    "description": "Jocuri online gratuite pentru seniori cu demență sau Alzheimer: potrivire de imagini, puzzle ușor, sortare, proverbe, colorat, bingo. Fără cont sau scoruri.",
+    "title": "Jocuri gratuite de jucat împreună online",
+    "description": "Jocuri online gratuite pentru persoane în vârstă, familii și persoane care trăiesc cu demență: potrivirea imaginilor, puzzle-uri ușoare, sortare, proverbe, colorat și bingo. Fără înregistrare, cronometre sau punctaje.",
     "crumb": "Jocuri",
-    "h1": "Jocuri blânde pentru persoane cu demență",
+    "h1": "Jocuri blânde de jucat împreună",
     "lede": "{count} jocuri gratuite de jucat împreună în browser. Imagini mari, cuvinte simple și nimic de greșit: fără cronometre, fără scoruri, fără înregistrare.",
-    "listName": "Jocuri blânde pentru persoane cu demență",
+    "listName": "Jocuri blânde de jucat împreună",
     "byStageTitle": "Alegerea unui joc în funcție de stadiu",
     "byStageLede": "Stadiile sunt doar un reper aproximativ. Urmați ce îi place persoanei și ce este confortabil azi.",
     "stageCol": "Stadiu",
     "gamesCol": "Jocuri care se potrivesc adesea",
-    "moreHtml": "Mai multe idei, departe de ecran: <a href=\"/activities/ideas/\">101 activități pentru persoane cu demență</a>, <a href=\"/activities/alzheimers/\">activități și jocuri pentru Alzheimer</a>, <a href=\"/activities/memory-games/\">jocuri blânde de memorie</a> și <a href=\"/activities/puzzles/\">puzzle-uri</a>.",
+    "moreHtml": "Mai multe idei fără ecran: <a href=\"/activities/ideas/\">101 idei de activități</a>, <a href=\"/dementia-activities/\">activități pentru demență acasă</a> și <a href=\"/crafts/\">lucru manual</a>.",
     "faq": [
       {
         "q": "Cu ce joc să începem?",
@@ -462,7 +560,7 @@
       },
       {
         "q": "Sunt acestea jocuri de memorie pentru seniori?",
-        "a": "Sunt jocuri de potrivire și jocuri cu imagini pe care le poate savura orice adult în vârstă, dar sunt făcute să nu testeze memoria: în Perechi de imagini, imaginile rămân la vedere, dacă nu alegeți altfel. Ghidul nostru despre jocurile de memorie pentru seniori cu demență explică cum puteți păstra blând orice joc de memorie."
+        "a": "Sunt jocuri de potrivire și cu imagini, pe care le poate face orice persoană în vârstă, dar sunt gândite să nu testeze memoria: în Perechi de imagini, imaginile rămân cu fața în sus, dacă nu alegeți altfel. Orice joc de memorie poate fi făcut mai blând, renunțând la cronometru și la punctaje."
       },
       {
         "q": "Există jocuri pentru grupuri dintr-un cămin de îngrijire?",
@@ -483,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Există o aplicație cu activități pentru demență?",
+        "q": "Există o aplicație pentru persoane în vârstă și familii?",
         "a": "Da. Creative Activities (listată ca „{storeName}”) este gratuită în App Store și Google Play. Oferă potrivire blândă de imagini cu plăcuțe mari, jocuri cu fotografii de familie alese de dumneavoastră și pachete de imagini care funcționează offline."
       },
       {
@@ -525,7 +623,7 @@
     "printable": "De tipărit",
     "howTo": "Cum se joacă {name}",
     "tips": "Sfaturi pentru jocul împreună",
-    "newToPlayingHtml": "Jucați pentru prima dată cu o persoană care are demență? Citiți <a href=\"/caregiving/how-to-play-together/\">cum să jucați jocuri împreună</a>, inclusiv ce să faceți dacă persoana își pierde interesul.",
+    "newToPlayingHtml": "Sunteți nou în a juca alături de o persoană în vârstă sau de cineva care trăiește cu demență? Citiți <a href=\"/caregiving/how-to-play-together/\">cum să jucați jocuri împreună</a>, inclusiv ce să faceți dacă își pierde interesul.",
     "moreAria": "Mai multe de descoperit",
     "helpfulGuides": "Ghiduri utile",
     "appTitle": "Jucați-l în aplicație",
@@ -535,6 +633,31 @@
     "goodToKnow": "Bine de știut",
     "goodToKnowText": "Acest joc este pentru plăcere și timp petrecut împreună. Nu testează, nu măsoară și nu tratează nimic.",
     "moreGames": "Mai multe jocuri blânde",
-    "crumb": "Jocuri"
+    "crumb": "Jocuri",
+    "print": {
+      "heading": "Jucați pe hârtie",
+      "sameRules": "Versiunea pe hârtie are aceleași reguli ca jocul de pe ecran:",
+      "button": "Imprimați o versiune pe hârtie",
+      "pageNote": "O pagină pe A4 sau US Letter, potrivită și în alb-negru. Versiunea {date}.",
+      "islandNote": "Se imprimă ceea ce este acum pe ecran. Versiunea {date}.",
+      "sheetTitle": "{name}: versiune pe hârtie",
+      "point": "Pe hârtie, arătați spre o imagine în loc să o atingeți sau încercuiți-o cu un creion. Fiecare rând este un set nou.",
+      "pointTarget": "Pe hârtie, imaginea de privit se află în caseta de la începutul fiecărui rând. Arătați spre o imagine în loc să o atingeți sau încercuiți-o cu un creion.",
+      "halves": "Fiecare imagine este tăiată pe mijloc. Trageți o linie de la fiecare jumătate din stânga până la jumătatea din dreapta care i se potrivește sau arătați cu degetul. Nu este nevoie să tăiați nimic.",
+      "grid": "Fiecare pătrat are un număr. Găsiți numărul acela în legendă și colorați pătratul cu un creion de culoarea respectivă. Este bine și orice altă culoare. Nu este nevoie să tăiați nimic.",
+      "colors": "Fiecare rând numește o culoare. Arătați spre fiecare imagine care are culoarea respectivă sau încercuiți-o cu un creion. Fiecare rând este un set nou.",
+      "dice": "Fiecare rând este un set de zaruri. Alegeți un rând sau tăiați imaginile și trageți câteva dintr-un teanc, apoi spuneți o poveste folosindu-le în orice ordine. Oricine poate trece.",
+      "cards": "Tăiați cartonașele de-a lungul liniilor punctate. Așezați-le cu fața în sus pe masă, apoi căutați perechile.",
+      "chain": "Pe hârtie, citiți imaginile de la stânga la dreapta, una după alta. Fiecare persoană spune o propoziție despre imaginile de până acum, apoi arată spre următoarea imagine. Oricine poate trece.",
+      "sort": "Tăiați imaginile de-a lungul liniilor punctate, apoi puneți fiecare în cutia unde îi este locul.",
+      "puzzle": "Tăiați imaginea mare de-a lungul liniilor punctate în patru piese și amestecați-le. Schimbați câte două piese până când imaginea este întreagă. Imaginea mică este un ghid.",
+      "cutSafety": "Un ajutor poate face tăierea înainte să începeți. Puneți foarfecele deoparte după aceea.",
+      "version": "Versiunea {date} · {url}",
+      "reasons": {
+        "photos": "Nu există o versiune pe hârtie. Acest joc folosește propriile dumneavoastră fotografii, care rămân în browserul dumneavoastră și nu sunt încărcate niciodată, așa că site-ul nu le poate imprima. Pentru a juca pe hârtie, imprimați acasă două exemplare din câteva fotografii preferate și potriviți-le pe masă.",
+        "paced": "Nu există o versiune pe hârtie. Cercul stabilește pe ecran un ritm lent și constant, iar o pagină tipărită nu poate face asta, așa că ar fi o altă activitate. O pauză liniștită împreună, fără ecran, este întotdeauna o opțiune.",
+        "sayings": "Nu există încă o versiune pe hârtie. Pe hârtie, fiecare final ar apărea deodată, iar pasul blând „Arată finalul” s-ar pierde. Citiți proverbele de pe ecran împreună sau spuneți-vă câteva pe care le cunoașteți amândoi."
+      }
+    }
   }
 }

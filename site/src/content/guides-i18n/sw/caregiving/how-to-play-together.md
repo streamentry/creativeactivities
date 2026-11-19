@@ -1,34 +1,35 @@
 ---
-title: "Jinsi ya Kucheza Michezo na Mtu Mwenye Dementia"
-description: "Mwongozo wa vitendo wa kucheza michezo na mtu anayeishi na dementia: kuandaa, mwendo, kutosahihisha, kurahisisha michezo, na kujua wakati wa kusimama."
+title: "Jinsi ya Kucheza Michezo na Mtu Anayeishi na Dementia"
+description: "Mwongozo wa vitendo wa kucheza na mtu anayeishi na dementia: kuandaa, kasi, kutosahihisha, kurahisisha na kujua wakati wa kuacha."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Chukulia mchezo kama wakati wa kuwa pamoja, si mtihani. Chagua wakati tulivu
-  wa siku, kaeni bega kwa bega katika chumba tulivu, na toa mchezo mmoja rahisi.
-  Mwache mtu aweke mwendo, usisahihishe makosa yasiyo na madhara, rahisisha
-  mchezo dalili ya kwanza ya mkazo, na ugeuze picha kuwa mazungumzo. Simama
-  ukiwa bado mnafurahia. Kumaliza mapema, au kutazama pamoja tu, ni matokeo mazuri.
+  Chukulieni mchezo kama muda pamoja, si mtihani. Chagueni wakati tulivu wa
+  siku, kaeni kando kwa kando katika chumba kisicho na kelele, na toeni mchezo
+  mmoja rahisi. Mruhusuni yeye aweke kasi, msirekebishe makosa yasiyo na madhara,
+  fanyeni mchezo kuwa rahisi mara tu mnapoona dalili za shinikizo, na geuzeni
+  picha kuwa mazungumzo. Acheni wakati mchezo bado unapendeza. Kuacha mapema, au
+  kukaa tu pamoja mkitazama, ni matokeo mazuri.
 keyPoints:
-  - "Lengo ni furaha na ukaribu, si kumaliza wala kupata majibu sahihi."
-  - "Andaa kwanza: chumba tulivu, mwanga mzuri, miwani na vifaa vya kusikia vimevaliwa, televisheni imezimwa, mchezo mmoja uko tayari."
-  - "Usisahihishe makosa yasiyo na madhara. Sema \"Tujaribu hivi\" au endelea tu."
-  - "Rahisisha mchezo kabla kuchoka hakujaongezeka: picha chache, machaguo machache, picha zikiachwa wazi."
-  - "Tumia picha kama mwanzo wa hadithi kwa \"Niambie kuhusu...\" badala ya \"Unakumbuka...?\""
-  - "Simama dalili ya kwanza ya uchovu au kusikitika. Kusimama mapema ni mafanikio, si kushindwa."
+  - "Lengo ni furaha na uhusiano, si kumaliza au kupata majibu sahihi."
+  - "Andaeni kwanza: chumba tulivu, mwanga mzuri, miwani na vifaa vya kusikia vimevaliwa, TV imezimwa, na mchezo mmoja tayari."
+  - "Msirekebishe makosa yasiyo na madhara. Semeni “Tujaribu kwa njia hii” au endelea tu."
+  - "Fanyeni mchezo uwe rahisi kabla kufadhaika hakujaongezeka: picha chache, chaguo chache, na picha zibaki zinaonekana."
+  - "Tumieni picha kama mwanzo wa hadithi kwa “Niambie kuhusu...” badala ya “Unakumbuka...?”"
+  - "Acheni mchezo mara ya kwanza mnapoona uchovu au kukasirika. Kuacha mapema ni mafanikio, si kushindwa."
 faq:
-  - q: "Tucheze mchezo kwa muda gani?"
-    a: "Hakuna urefu sahihi. Kwa watu wengi, dakika chache zinatosha, na siku nyingine raundi moja inatosha. Mwangalie mtu badala ya saa, na usimame akiwa bado ametulia."
-  - q: "Je, nimwache ashinde au nijifanye sioni makosa?"
-    a: "Katika mchezo wa pamoja usio na shinikizo hakuna cha kushinda wala kushindwa. Kosa likiwa halimsumbui mtu, liache. Likionekana kumsumbua, msaidie kimya kimya au rahisisha mchezo bila kulionyesha."
-  - q: "Je, akipendelea kunitazama nikicheza?"
-    a: "Hilo ni sawa. National Institute on Aging inapendekeza kumwacha mtu atazame tu ikiwa anaonekana kufurahia hilo zaidi. Zungumza kuhusu unachokiona na umkaribishe aonyeshe au achague wakati wowote anapopenda."
+  - q: "Tunapaswa kucheza mchezo kwa muda gani?"
+    a: "Hakuna urefu sahihi. Kwa watu wengi, dakika chache zinatosha, na siku zingine raundi moja inatosha. Angalieni yeye badala ya saa, na acheni mchezo akiwa bado anaonekana mtulivu."
+  - q: "Je, nimruhusu ashinde au nijifanye sioni makosa?"
+    a: "Katika mchezo wa pamoja usio na shinikizo, hakuna cha kushinda wala kupoteza. Ikiwa kosa halimsumbui, liache lipite. Ikiwa linaonekana kumsumbua, msaidieni kimya kimya au fanyeni mchezo kuwa rahisi bila kulitaja kosa."
+  - q: "Itakuwaje kama yeye angependelea kunitazama nikicheza?"
+    a: "Hiyo ni sawa. National Institute on Aging inapendekeza kumruhusu tu aangalie ikiwa anaonekana kufurahia hivyo zaidi. Zungumzieni mnachokiona na mwalikeni aelekeze au achague wakati wowote apendapo."
   - q: "Je, michezo hii ni njia ya kupima kumbukumbu?"
-    a: "Hapana. Michezo yetu ni shughuli rahisi za pamoja kwa ajili ya burudani na mazungumzo. Si mtihani wa kumbukumbu, haipimi chochote, na si tiba ya dementia."
-  - q: "Ni mchezo upi bora wa kuanza nao?"
-    a: "Anza na ulio rahisi zaidi unaomfaa mtu. Jozi za picha zenye vigae vinne na picha zikiachwa wazi, au Tafuta inayofanana yenye machaguo mawili, ni mahali pa upole pa kuanzia. Kadi za mazungumzo hufanya kazi vizuri ikiwa mtu anapenda kuzungumza kuliko kugusa."
+    a: "Hapana. Michezo yetu ni shughuli rahisi za pamoja kwa ajili ya furaha na mazungumzo. Si kipimo cha kumbukumbu, hapimi chochote, na si tiba ya dementia."
+  - q: "Mchezo upi ni bora kuanza nao?"
+    a: "Anzeni na mchezo rahisi zaidi unaomfaa yeye. Picture Pairs yenye vigae vinne na picha zikibaki zinaonekana, au Find the Same yenye chaguo mbili, ni mwanzo mpole. Conversation Cards zinafaa ikiwa yeye anapenda kuzungumza zaidi kuliko kugusa."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Mchezo mzuri na mtu anayeishi na dementia hauonekani kama mashindano. Unaonekana kama watu wawili wakikaa karibu, wakionyesha picha, wakicheka methali, na kuzungumza chochote kinachojitokeza. Mchezo ni sababu tu ya kutumia wakati pamoja.
+Mchezo mzuri na mtu anayeishi na dementia haufanani na shindano. Unafanana na watu wawili wakikaa karibu, wakionyesha picha, wakicheka methali, na kuzungumza kuhusu chochote kinachojitokeza. Mchezo ni sababu tu ya kutumia muda pamoja.
 
-Mwongozo huu unaeleza jinsi ya kuandaa, jinsi ya kuweka mwendo wa mchezo, cha kusema jambo linapoenda "vibaya", jinsi ya kufanya mchezo wowote kuwa rahisi zaidi au mgumu kidogo, jinsi ya kuugeuza kuwa mazungumzo, na jinsi ya kujua wakati wa kusimama. Unafaa kwa [michezo yetu](/games/) na kwa karata, mafumbo na michezo ya ubao ambayo tayari mnayo.
+Mwongozo huu unaeleza jinsi ya kuandaa, jinsi ya kudhibiti kasi ya mchezo, nini cha kusema mambo yanapoenda “vibaya”, jinsi ya kufanya mchezo wowote uwe rahisi au kidogo mgumu, jinsi ya kuugeuza kuwa mazungumzo, na jinsi ya kujua wakati wa kuacha. Unafaa kwa [michezo yetu](/games/) na kwa kadi, mafumbo na michezo ya ubao mliyo nayo tayari.
 
-## Njia bora ya kucheza mchezo na mtu mwenye dementia ni ipi?
+## Njia bora ya kucheza mchezo na mtu anayeishi na dementia ni ipi?
 
-Zingatia furaha, si mafanikio. Huo ndio ushauri wa msingi kutoka kwenye [mwongozo wa Alzheimer's Association kuhusu shughuli](https://www.alz.org/help-support/caregiving/daily-care/activities): jenga juu ya ujuzi ambao mtu bado anao, msaidie kuanza, maliza sehemu ngumu mwenyewe, na usikosoe wala kusahihisha shughuli zisizo na madhara.
+Zingatieni furaha, si mafanikio. Hilo ndilo ushauri mkuu kutoka [mwongozo wa Alzheimer's Association kuhusu shughuli](https://www.alz.org/help-support/caregiving/daily-care/activities): jengeni juu ya ujuzi ambao yeye bado anao, msaidieni kuanza, maliza sehemu ngumu mwenyewe, na msikosoe wala kurekebisha shughuli zisizo na madhara.
 
-Kwa vitendo hiyo inamaanisha:
+Kwa vitendo, hii inamaanisha:
 
-- **Kaa kando yake, si mkabala.** Bega kwa bega, nyote mnaweza kuona skrini au meza, na kusaidia kunahisiwa kama kazi ya timu badala ya usimamizi.
-- **Toa mchezo mmoja kwa wakati.** Menyu ya machaguo inaweza kuhisiwa kama mtihani kabla hata hakujaanza chochote.
-- **Mfuate.** Akitaka kugusa picha kwa mpangilio wake mwenyewe, kuzungumza kuhusu picha moja kwa dakika kumi, au kusimama baada ya zamu mbili, huo ndio mchezo wa leo.
-- **Hesabu nyakati nzuri, si raundi zilizokamilika.** Tabasamu, hadithi au nusu saa tulivu ndiyo matokeo unayoyatafuta.
+- **Kaeni pembeni yake, si mkabala.** Mkiwa kando kwa kando, nyote mnaweza kuona skrini au meza, na kusaidia kunahisiwa kama kazi ya pamoja badala ya usimamizi.
+- **Toeni mchezo mmoja kwa wakati.** Orodha ndefu ya chaguo inaweza kuonekana kama mtihani kabla hata haujaanza.
+- **Fuateni anachoongoza.** Ikiwa anataka kugusa picha kwa mpangilio wake, kuzungumzia picha moja kwa dakika kumi, au kusimama baada ya zamu mbili, hiyo ndiyo mchezo wa leo.
+- **Hesabuni nyakati nzuri, si raundi zilizokamilika.** Tabasamu, hadithi au nusu saa tulivu ndiyo matokeo mnayotafuta.
 
-## Naandaaje kabla hatujaanza?
+## Nifanyeje maandalizi kabla hatujaanza?
 
-Dakika chache za maandalizi huzuia kuchoka au kukata tamaa kwingi ambako watu huulaumu mchezo wenyewe.
+Dakika chache za maandalizi huzuia kero nyingi ambazo watu huilaumu kwenye mchezo wenyewe.
 
-1. **Chagua wakati wake bora wa siku.** [Mwongozo wa National Institute on Aging (NIA) kuhusu kurekebisha shughuli](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) unapendekeza kupanga matembezi na shughuli kwa wakati wa siku ambapo mtu yuko katika hali yake bora. Kwa watu wengi ni katikati ya asubuhi. Alasiri ya mwisho mara nyingi ni ngumu zaidi; tazama [shughuli tulivu za alasiri ya mwisho](/caregiving/late-day-restlessness/).
-2. **Fanya chumba kiwe tulivu.** Zima televisheni na redio na ufunge mlango ukiweza. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) inapendekeza kupunguza kelele na vitu vinavyovuruga kabla ya kujaribu kuzungumza.
-3. **Angalia faraja kwanza.** Kinywaji karibu, kwenda chooni kabla, kiti cha starehe, na miwani na vifaa vya kusikia vimevaliwa.
-4. **Weka mwanga mzuri mahali hapo.** Mwanga mkali na sawia bila mng'ao kwenye skrini hurahisisha kuona picha.
-5. **Andaa mchezo kabla ya kukaa.** Ufungue, chagua mipangilio na uweke sauti mwenyewe. Kisha geuza skrini kumwelekea. Kwa vidokezo vya kompyuta kibao, tazama [kuandaa kompyuta kibao au simu](/caregiving/tablets-and-screens/).
-6. **Simamisha kifaa.** Stendi au kasha linaloshikilia kompyuta kibao wima humaanisha hakuna anayehitaji kuishika, na ni rahisi kuonyesha.
+1. **Chagueni wakati wake bora wa siku.** [Mwongozo wa National Institute on Aging (NIA) kuhusu kurekebisha shughuli](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) unapendekeza kupanga safari na shughuli kwa wakati ambao mtu huyo yuko katika hali yake bora. Kwa watu wengi ni katikati ya asubuhi. Alasiri ya kuchelewa mara nyingi huwa ngumu zaidi; ona [shughuli tulivu za alasiri](/creative-calm/calm-afternoon-activities/).
+2. **Fanyeni chumba kiwe tulivu.** Zimeni TV na redio, na funga mlango ikiwezekana. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) inapendekeza kupunguza kelele na vitu vinavyovuruga kabla ya kujaribu kuzungumza.
+3. **Hakikisheni starehe kwanza.** Kinywaji karibu, choo kabla ya kuanza, kiti kizuri, na miwani pamoja na vifaa vya kusikia vimevaliwa.
+4. **Weka mwanga mzuri.** Mwanga angavu na sawasawa, bila mng'ao kwenye skrini, hufanya picha zionekane kwa urahisi zaidi.
+5. **Andaeni mchezo kabla ya kukaa.** Ufungue, chagueni mipangilio na weka sauti mwenyewe. Kisha geuza skrini kumwelekea yeye. Washeni maandishi makubwa kwenye kifaa ikiwa yatasaidia.
+6. **Weka kifaa kimesimama wima.** Stendi au kesi inayoshikilia kifaa wima inamaanisha hakuna anayelazimika kukishikilia, na ni rahisi kuonyesha.
 
-## Namkaribishaje bila shinikizo?
+## Nawezaje kumwalika bila shinikizo?
 
-Fanya mwaliko uwe wa kawaida na rahisi kukataa. Baadhi ya maneno yanayoelekea kufanya kazi vizuri:
+Fanyeni mwaliko uwe wa kawaida na rahisi kukataa. Hizi ni baadhi ya kauli zinazofanya kazi vizuri:
 
-- "Nimepata picha za bustani. Unataka kuzitazama pamoja nami?"
-- "Unaweza kunisaidia na fumbo hili? Nimekwama."
-- "Ungependa maua au ndege leo?" (chaguo la mawili ni rahisi kuliko swali wazi)
-- "Ninatengeneza kadi kwa ajili ya dada yako. Hii iwe rangi gani?"
+- “Nimepata picha za bustani. Ungependa kuziangalia pamoja nami?”
+- “Unaweza kunisaidia na fumbo hili? Nimekwama.”
+- “Leo ungependa maua au ndege?” (chaguo kati ya mawili ni rahisi kuliko swali lisilo na mipaka)
+- “Ninatengeneza kadi ya dada yako. Hiki kinapaswa kuwa rangi gani?”
 
-Alzheimer's Association inapendekeza kueleza kusudi la shughuli, kama kutengeneza kadi kwa rafiki, kwa sababu sababu huipa maana. Kuomba msaada pia hufanya kazi kwa sababu humwezesha mtu kujihisi mwenye manufaa.
+Alzheimer's Association inapendekeza kueleza lengo la shughuli, kama kutengeneza kadi kwa rafiki, kwa sababu lengo hupa shughuli maana. Kuomba msaada pia hufanya kazi kwa sababu humwezesha yeye ajisikie kuwa ana mchango.
 
-Akisema hapana, kubali. Jaribu tena baadaye au toa kitu tofauti. Mwongozo wetu kuhusu [cha kufanya wanaposema hapana](/caregiving/when-they-say-no/) unaenda mbali zaidi.
+Akisema hapana, kubalini. Jaribuni tena baadaye au mpe kitu tofauti. Mwongozo wetu kuhusu [unachopaswa kufanya akisema hapana](/caregiving/when-they-say-no/) unaeleza zaidi.
 
-## Mchezo udumu kwa muda gani, na tuende kwa kasi gani?
+## Mchezo unapaswa kudumu kwa muda gani, na tuende kwa kasi gani?
 
-Mwache mtu aweke mwendo, na upange vikao vifupi. Hakuna urefu bora unaotegemea ushahidi kwa mchezo wa pamoja. Dakika mbili hadi tano tulivu zinaweza kuwa shughuli kamili.
+Acheni yeye aamue kasi, na panga vipindi vifupi. Hakuna urefu bora uliothibitishwa kwa mchezo wa pamoja. Dakika mbili hadi tano tulivu zinaweza kuwa shughuli kamili.
 
-- **Subiri zaidi ya inavyoonekana kawaida.** NIA inashauri kutoa muda zaidi kwa mtu kujibu na kujaribu kutokatiza. Hesabu hadi kumi akilini kabla ya kusaidia.
-- **Hatua moja kwa wakati.** Toa maagizo moja mafupi ("Gusa picha"), kisha subiri. Onyesha badala ya kueleza: onyesha mahali pa kugusa.
-- **Simama kwa uhuru.** Akisimama kuzungumza kuhusu picha, mchezo unaweza kusubiri. Hakuna haja ya haraka.
-- **Mwache atazame.** NIA inabainisha kwamba baadhi ya watu hupendelea kutazama, na hilo ni chaguo halali.
+- **Subirini muda mrefu kuliko inavyohisi kuwa wa kawaida.** NIA inashauri kumpa muda zaidi wa kujibu na kujaribu kutomkatiza. Hesabuni hadi kumi kichwani kabla ya kumsaidia.
+- **Hatua moja kwa wakati.** Toeni maelekezo mafupi moja (“Gusa picha”), kisha subiri. Onyesheni badala ya kueleza: elekezeni mahali pa kugusa.
+- **Simameni bila kusita.** Akisimama kuzungumzia picha, mchezo unaweza kusubiri. Hakuna haja ya kukimbilia.
+- **Mwacheni aangalie.** NIA inaeleza kwamba baadhi ya watu wanapendelea kutazama, na hiyo ni chaguo halali.
 
-## Je, nisahihishe majibu yasiyo sahihi?
+## Nisahihishe majibu yasiyo sahihi?
 
-Hapana. Kusahihisha mtu kwa upole tena na tena kunamwambia kwamba anashindwa, hata ukikusudia mema. Alzheimer's Association inashauri kutokosoa wala kusahihisha shughuli zisizo na madhara. Katika mchezo, karibu kila kosa halina madhara.
+Hapana. Kumsahihisha tena na tena kwa upole kunamwambia kwamba anashindwa, hata kama nia yenu ni nzuri. Kwenye mchezo, karibu kila kosa halina madhara. Alzheimer's Association inashauri kutokosoa wala kurekebisha shughuli zisizo na madhara.
 
 | Badala ya | Jaribu |
 | --- | --- |
-| "Hapana, si sahihi." | "Tujaribu hivi." (mfano ambao NIA inautoa) |
-| "Hiyo haifanani. Tazama tena." | Usiseme chochote na uchukue zamu inayofuata, au "Oh, zote mbili ni nyekundu." |
-| "Unakumbuka huyu ni nani?" | "Niambie kuhusu picha hii." |
-| "Ulishafanya hiyo." | "Hiyo ni nzuri. Tuifanye tena." |
-| "Haya, unajua hii." | "Unataka nikuonyeshe mwisho?" |
+| “Hapana, hilo si sahihi.” | “Tujaribu kwa njia hii.” (mfano ambao NIA wanautoa) |
+| “Hiyo si mechi. Tazama tena.” | Usiseme chochote na chukua zamu inayofuata, au sema “Oh, zote mbili ni nyekundu.” |
+| “Unakumbuka huyu ni nani?” | “Niambie kuhusu picha hii.” |
+| “Umeshafanya hiyo tayari.” | “Hiyo ni nzuri. Tufanye tena.” |
+| “Haya, unalijua hili.” | “Unataka nikuonyeshe mwisho?” |
 
-Kosa likimsumbua wazi, msaidie kimya kimya. Onyesha picha sahihi, chukua zamu mwenyewe, au rahisisha mchezo raundi ijayo. Methali ikipata mwisho wa kuchekesha usio sahihi, cheka pamoja. Mwisho wake unaweza kuwa bora zaidi.
+Ikiwa kosa linamkasirisha wazi, msaidieni kimya kimya. Elekezeni picha sahihi, cheza zamu yenu mwenyewe, au fanyeni mchezo uwe rahisi raundi ijayo. Ikiwa methali ina mwisho wa kuchekesha usio sahihi, chekeni pamoja naye. Mwisho wake unaweza kuwa bora zaidi.
 
-## Nawezaje kufanya mchezo uwe rahisi zaidi au mgumu zaidi?
+## Nifanye mchezo uwe rahisi au mgumu vipi?
 
-Rekebisha mchezo kulingana na mtu siku husika, si jina la hatua. Mtu yule yule anaweza kuhitaji toleo rahisi zaidi jioni kuliko asubuhi. Kidokezo cha kwanza cha NIA ni kulinganisha shughuli na anachoweza kufanya mtu na kuhakikisha anajihisi kufanikiwa.
+Rekebisheni mchezo kulingana na yeye siku hiyo, si kulingana na hatua ya ugonjwa aliyonayo. Mtu huyo huyo anaweza kuhitaji toleo rahisi zaidi jioni kuliko asubuhi. Kidokezo cha kwanza cha NIA ni kulinganisha shughuli na kile anachoweza kufanya, na kuhakikisha anajisikia kufanikiwa.
 
-| Mchezo | Uufanye rahisi zaidi | Uufanye mgumu kidogo |
+| Mchezo | Fanya iwe rahisi | Fanya iwe kidogo mgumu |
 | --- | --- | --- |
-| [Jozi za picha](/games/picture-pairs/) | Anza na vigae 4 na uache picha zikionekana | Vigae zaidi, au ficha picha ikiwa inahisiwa vizuri |
-| [Tafuta inayofanana](/games/find-the-same/) | Machaguo 2 | Hadi machaguo 4 |
-| [Panga pamoja](/games/sort-together/) | Wewe unashika picha, yeye anaonyesha kikapu | Yeye anagusa picha na kikapu mwenyewe |
-| [Fumbo la picha](/games/picture-puzzle/) | Vipande 4, zungumzeni kuhusu picha nzima kwanza | Vipande 9 |
-| [Kamilisha methali](/games/finish-the-saying/) | Onyesha mwisho, kisha uusemeni pamoja | Mwache aseme mwisho kabla ya kugusa |
-| [Fumbo la maneno](/games/word-search/) | Ichapishe, tafuteni neno moja pamoja, onyesha herufi yake ya kwanza | Mwache achague neno linalofuata la kutafuta |
-| [Kupaka rangi](/games/coloring/) | Wewe unachagua rangi mbili, yeye anachagua kati yake | Yeye anachagua rangi zote |
-| [Kadi za mazungumzo](/games/conversation-cards/) | Tazameni picha tu pamoja | Tumia maswali wazi ya kwenye kadi |
-| [Jozi za picha za familia](/games/photo-pairs/) | Picha chache za familia anazozipenda sana | Ongeza picha zaidi |
-| [Bingo ya picha](/games/picture-bingo/) | Msaidizi anakaa na kila mchezaji | Wachezaji wanaweka alama kwenye kadi zao wenyewe |
-| [Pumzi tulivu](/games/calm-breathing/) | Kaeni na mtazame pamoja tu | Pumueni pamoja polepole |
+| [Picture Pairs](/games/picture-pairs/) | Anza na vigae 4 na acha picha zionekane | Vigae zaidi, au ficha picha ikiwa hilo linamfaa |
+| [Find the Same](/games/find-the-same/) | Chaguo 2 | Hadi chaguo 4 |
+| [Sort Together](/games/sort-together/) | Ninyi mnashikilia picha, yeye anaelekeza kikapu | Yeye anagusa picha na kikapu mwenyewe |
+| [Picture Puzzle](/games/picture-puzzle/) | Vipande 4, zungumzieni picha nzima kwanza | Vipande 9 |
+| [Finish the Saying](/games/finish-the-saying/) | Onyesheni mwisho, kisha semeni pamoja | Yeye aseme mwisho kabla ya kugusa |
+| [Word Search](/games/word-search/) | Chapisheni, tafuteni neno moja pamoja, elekezeni herufi yake ya kwanza | Yeye achague neno linalofuata la kutafuta |
+| [Coloring](/games/coloring/) | Ninyi mnachagua rangi mbili, yeye anachagua kati ya hizo | Yeye anachagua rangi zote |
+| [Conversation Cards](/games/conversation-cards/) | Tazameni picha pamoja tu | Tumieni maswali wazi yaliyo kwenye kadi |
+| [Photo Pairs](/games/photo-pairs/) | Picha chache za familia anazozipenda | Ongeza picha zaidi |
+| [Picture Bingo](/games/picture-bingo/) | Msaidizi akae na kila mchezaji | Wachezaji waweke alama kwenye kadi zao wenyewe |
+| [Calm Breathing](/games/calm-breathing/) | Kaeni tu na kutazama pamoja | Pumueni polepole pamoja nao |
 
-Dalili kwamba mchezo ni mgumu mno: kimya kirefu kinachoonekana cha wasiwasi badala ya kufikiri, kurudia "siwezi", kusukuma kifaa mbali, au makosa yanayomkasirisha. Dalili kwamba unaweza kuwa rahisi mno: kuchoka, au yeye kusema ni wa kitoto. Hilo likitokea, liheshimu na ubadilishe kuwa kitu kinachohisiwa cha watu wazima, kama fumbo la maneno, fumbo la picha halisi, au kuzungumza kuhusu picha ya kazi yake ya zamani.
+Dalili kwamba mchezo ni mgumu mno: kusita kwa muda mrefu kunakoonekana kuwa na wasiwasi badala ya kufikiri, kurudia “Siwezi”, kusukuma kifaa mbali, au makosa yanayomkasirisha. Dalili kwamba mchezo ni rahisi mno: kuchoka, au kusema kwamba ni cha kitoto. Ikitokea hivyo, heshimuni hilo na badilisheni kwenda kwenye kitu kinachohisi cha watu wazima, kama utafutaji wa maneno, fumbo la picha halisi, au kuzungumzia picha ya kazi yake ya zamani.
 
-## Nageuzaje mchezo kuwa mazungumzo?
+## Nawezaje kugeuza mchezo kuwa mazungumzo?
 
-Tumia kila picha kama mwaliko wa kuzungumza, na uchukulie chochote asemacho kuwa jibu zuri. Kwa familia nyingi, hii ndiyo sehemu bora ya kucheza.
+Tumieni kila picha kama mwaliko wa kuzungumza, na chukulieni chochote anachosema kuwa jibu zuri. Kwa familia nyingi, hii ndiyo sehemu bora ya kucheza.
 
-- **Uliza maswali wazi yasiyo na jibu baya.** "Unaona nini?" "Unapenda ipi?" "Niambie kuhusu jiko kama hili."
-- **Shiriki kwanza.** "Bibi yangu alikuwa na mbwa kama huyu." Hadithi yako hurahisisha kwake kushiriki yake.
-- **Fuata mada nyingine.** Picha ya gari ikiongoza kwenye hadithi ya safari ya barabarani, hadithi ndiyo shughuli. Acha mchezo usimamishwe.
-- **Usikague ukweli.** Katika kukumbushana, mazungumzo ya kupendeza ni muhimu kuliko maelezo sahihi. Hadithi ikibadilika kutoka mara ya mwisho, furahia toleo jipya.
-- **Tumia maswali yaliyojengewa ndani.** [Kamilisha methali](/games/finish-the-saying/) hufuata kila methali na kidokezo cha kuzungumza, na [Kadi za mazungumzo](/games/conversation-cards/) zimeundwa kwa jambo hili hasa. [Jozi za picha za familia](/games/photo-pairs/) hutumia picha zako za familia, ambazo mara nyingi huchochea hadithi tajiri zaidi.
+- **Ulizeni maswali ya wazi yasiyo na jibu baya.** “Unaona nini?” “Unapenda ipi?” “Niambie kuhusu jiko kama hili.”
+- **Shirikini kwanza.** “Bibi yangu alikuwa na mbwa kama huyu.” Hadithi yenu inamrahisishia yeye kushiriki yake.
+- **Fuateni mkondo wa mazungumzo.** Ikiwa picha ya gari inamwongoza kwenye hadithi ya safari ya barabarani, hadithi ndiyo shughuli. Acheni mchezo usimame.
+- **Msikague ukweli.** Katika mazungumzo ya kukumbuka zamani, mazungumzo mazuri ni muhimu kuliko maelezo sahihi. Ikiwa hadithi imebadilika tangu mara ya mwisho, furahieni toleo jipya.
+- **Tumieni maswali yaliyojengwa ndani.** [Finish the Saying](/games/finish-the-saying/) inafuatiwa na kidokezo cha mazungumzo kwa kila methali, na [Conversation Cards](/games/conversation-cards/) zimeundwa kwa ajili hiyo hasa. [Photo Pairs](/games/photo-pairs/) hutumia picha zenu za familia, ambazo mara nyingi huibua hadithi tajiri zaidi.
 
-Mawazo zaidi yako katika miongozo yetu ya [shughuli za kukumbushana](/activities/reminiscence/) na [vidokezo vya mawasiliano](/caregiving/communication-tips/).
+Mawazo zaidi yapo kwenye mwongozo wetu wa [shughuli za kukumbuka zamani](/activities/reminiscence/). Kwa msaada baada ya utambuzi, ona [hatua za kwanza baada ya utambuzi](/caregiving/after-dementia-diagnosis/).
 
-## Tusimame lini?
+## Tunapaswa kuacha lini?
 
-Simama dalili za kwanza za uchovu au kusikitika, na ikiwezekana kidogo kabla. Alzheimer's Association inashauri kusimamisha au kubadilisha shughuli umakini unapopungua au kuchoka au kukata tamaa kunapoongezeka.
+Acheni mara ya kwanza unapoona uchovu au kukasirika, na ikiwezekana kidogo kabla ya hapo. Alzheimer's Association inashauri kusimamisha au kubadilisha shughuli umakini unapopungua au kukasirika kunapoongezeka.
 
-Angalia:
+Angalieni dalili hizi:
 
-- kupiga miayo, kulegea au macho kuhama mbali na skrini;
-- kutotulia, kusimama, au kuomba kuondoka;
-- kuugua, majibu mafupi, au "Sina uwezo katika hili";
-- kugusa ovyo au kusukuma kifaa mbali;
-- machozi, kukereka, au mabadiliko ya ghafla ya hali ya moyo.
+- kupiga miayo, kuinama au macho kuhama kutoka skrini;
+- kutikisika, kusimama, au kuomba kuondoka;
+- kuugua kwa kuchoka, majibu mafupi, au “Sifai kwenye hili”;
+- kugonga kifaa bila mpangilio au kukisukuma mbali;
+- kulia, kuwashwa, au mabadiliko ya ghafla ya hisia.
 
-Jinsi ya kusimama vizuri:
+Jinsi ya kuacha vizuri:
 
-- **Malizia kwa jambo rahisi.** Jozi moja ya mwisho anayoweza kuipata, au picha ya mwisho ya kustaajabia.
-- **Ifanye iwe kuhusu wewe.** "Ningeweza kunywa kikombe cha chai. Tusimame hapa?" huepuka dokezo lolote kwamba alifanya vibaya.
-- **Hamia kwenye kitu cha mwili au cha kutuliza.** Matembezi mafupi, kitafunio, kukunja nguo au muziki.
-- **Sema jambo la joto.** "Nilipenda kufanya hivyo nawe." Hakuna sifa kwa "kupata sawa", ni furaha tu ya wakati pamoja.
+- **Malizieni kwa jambo rahisi.** Mechi moja ya mwisho wanayoweza kufanya, au picha ya mwisho ya kuvutiwa nayo.
+- **Lifanyeni lihusu ninyi.** “Nahitaji kikombe cha chai hivi sasa. Tusimamishe hapa?” kunaepuka dokezo lolote kwamba alifanya vibaya.
+- **Hamieni kwenye jambo la mwili au la kutuliza.** Matembezi mafupi, vitafunio, kukunja nguo au muziki.
+- **Sema kitu chenye joto.** “Nilifurahia kufanya hivyo nawe.” Hakuna sifa kwa “kupata sahihi”, furaha tu katika muda pamoja.
 
-Kumaliza mapema, kubadilisha mipango, au kuacha mchezo na kukaa pamoja tu ni matokeo mazuri yote.
+Kuacha mapema, kubadilisha mipango, au kuacha mchezo na kukaa tu pamoja vyote ni matokeo mazuri.
 
 ## Je, tunaweza kucheza kwa kikundi au kwa simu ya video?
 
-Ndiyo, kwa maandalizi kidogo ya ziada. Kwenye kikundi, weka watu wachache, wakalishe wasaidizi karibu na yeyote anayewahitaji, na uchague mchezo wenye kitovu wazi cha pamoja. [Bingo ya picha](/games/picture-bingo/) ina kadi za kuchapisha na mtangazaji wa kwenye skrini kwa vikundi. Tazama [shughuli za vikundi vya nyumba za utunzaji](/activities/care-home-groups/) kwa zaidi.
+Ndiyo, kwa maandalizi kidogo zaidi. Katika kikundi, wekeni watu wachache, wekeni wasaidizi karibu na yeyote anayehitaji msaada, na chagueni mchezo wenye lengo wazi la pamoja. [Picture Bingo](/games/picture-bingo/) ina kadi zinazoweza kuchapishwa na mtangazaji wa skrini kwa vikundi. Tazama [shughuli za vikundi vya makao ya wazee](/crafts/craft-group-sessions/) kwa zaidi.
 
-Kwenye simu ya video, mtu aliye kwenye simu anaweza kueleza picha huku mtu aliye chumbani akionyesha na kugusa. Weka simu ziwe fupi na zinazojulikana. Mwongozo wetu wa [simu na simu za video](/activities/phone-and-video-calls/) una vidokezo zaidi.
+Kwenye simu ya video, mtu aliye kwenye simu anaweza kuelezea picha huku mtu aliye chumbani akielekeza na kugusa. Weka simu fupi na zinazojulikana. Mwongozo wetu kuhusu [simu na video](/together/staying-connected-from-afar/) una vidokezo zaidi.
 
-## Je, mchezo ukishindwa kufanya kazi?
+## Itakuwaje mchezo usipofanya kazi?
 
-Siku nyingine hakuna kinachofanikiwa, na hilo si kielelezo kwako wala kwake. Weka mchezo kando na ujaribu wakati tofauti wa siku, mchezo tofauti, au bila mchezo kabisa. Shughuli nyingi nzuri hazihusiani na skrini: muziki, kukunja taulo, kutazama albamu ya picha, au matembezi mafupi. Pitia [mawazo yetu ya shughuli](/activities/ideas/) kwa zaidi.
+Siku zingine hakuna kinachofanikiwa, na hilo si onyesho la ninyi wala yeye. Wekeni mchezo kando na mjaribu wakati mwingine wa siku, mchezo tofauti, au kutokuwa na mchezo kabisa. Shughuli nyingi nzuri hazihusiani na skrini: muziki, kukunja taulo, kutazama albamu ya picha, au matembezi mafupi. Tazameni [mawazo ya shughuli](/activities/ideas/) kwa zaidi.

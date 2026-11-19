@@ -1,32 +1,28 @@
 ---
-title: "Nkaebɔ Adwuma: Nkaepɔ Kɔkɔbɔ, Nkaebɔ Nhoma ne Mfonini"
-seoTitle: "Nkaebɔ Adwuma ma Dementia: Nkaebɔ a Ɛnyɛ Nsɛmmisa"
-description: "Ɛyɛ dɛn na wobɛka nkaebɔ kyerɛ obi a dementia atwa no ankyerɛ nsɛmmisa: mfonini kasa, nkaebɔ kɔkɔbɔ ne nkaebɔ nhoma, nkyerɛwee a ɛma nneɛma yɛ anigye."
+title: "Nkaebɔ Adwuma: Adekɔ, Asetra Nkɛntɛnsɛm ne Mfonini"
+seoTitle: "Nkaebɔ Adwuma ma Dementia: Nsɛmmisa Nni Hɔ"
+description: "Sɛnea wobɛkyerɛ ɔno a wowɔ dementia nkaebɔ a nsɛmmisa nni mu: mfonini asɛm, adekɔ ne asetra nkɛntɛnsɛm, ne nsɛm a ɛma nneɛma kɔ yie."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Nkaebɔ ne ɔkwan a yɛfa so di abɔdeɛ anigye wɔ nkɔsoɔ fa mfonini, nneɛma, nnwom
-  ne nsɛm so. Yɛ nkaebɔ kɔkɔbɔ, yɛ nkaebɔ nhoma a ɛyɛ mmerɛw, anaa hwɛ mfonini
-  wɔ akyɛ wɔ ho. Nsɛmmisa mma: mma “Wokae saa?” ne “Hena ne ɔno?” nnsa, na fa
-  mmɔborɔhɔ a ɛbue pue, te sɛ “Ka ho asɛm kyerɛ me.” Nkasa a ɛyɛ anigye yɛ
-  nneɛma pii sen sɛ wobɛka nneɛma no nyinaa mu yiye.
+  Nkaebɔ yɛ sɛ yɛn ho ahome wɔ dabi a atwam ho, de mfonini, nneɛma, nnwom ne nkɛntɛnsɛm. Yɛ adekɔ bɔkɔɔ, yɛ asetra nkɛntɛnsɛm, anaa hwɛ mfonini bom wɔ ho. Nnyɛ nsɛmmisa: mma “Wokae saa?” ne “Hwan ni?” nka, fa “Ka saa ho asɛm maa me” kɔ so. Nea ɛho hia paa ne nkɔmmɔ a ɛyɛ anigye, nnyɛ nsɛm a ɛyɛ pɛpɛ.
 keyPoints:
-  - "Nkaebɔ yɛ nkasa, ɛnyɛ nsɛmmisa. Nokorɔ ntwentwen nni hwee, anigye na ɛho hia."
-  - "Fa “Wokae saa?” ne “Hena ne ɔno?” to nkyɛn, na fa nkyerɛkyerɛ ne nsrɛ te sɛ “Ka ho asɛm kyerɛ me saa da no.”"
-  - "Nneɛma a ɛfiri obi asetena mu wɔ nkaebɔ kɔkɔbɔ bɛma nsa ne nkasa wɔ biribi a wobɛkyere."
-  - "Nkaebɔ nhoma bɛboa abusua, ahɔhoɔ ne ahoboafoɔ a wɔhwɛ obi no ma wɔahunu onipa no, na ɛnyɛ yɛn yadeɛ nko."
-  - "Sɛ nkaebɔ bi de awerɛhyɛ ba a, kyerɛ ɔhome ne boa ntɛm, na afi hɔ kɔ nkɔso akyɛre."
+  - "Nkaebɔ yɛ nkɔmmɔ, nnyɛ sɔhwɛ. Ɛnyɛ nokorɛ a ɛho hia; anigye na ɛho hia."
+  - "Fa “Wokae saa?” ne “Hwan ni?” to hɔ, na fa nkyerɛkyerɛ ne nsɛm te sɛ “Ka saa da no ho asɛm maa me” ansa."
+  - "Adekɔ bɔkɔɔ fi ɔno asetra mu bɛma nsa ne nkɔmmɔ wɔ biribi a wobɛkyere."
+  - "Asetra nkɛntɛnsɛm boa abusuafo, nkɔhyɛfo ne ahwɛfo a wɔhwɛ no, ma wohu onipa no, na ɛnyɛ ne yadeɛ nko."
+  - "Sɛ nkaeɛ bɛma awerɛhyɛ a, ma ɔdwene ayɛ mmerɛ kan, na afei fa ne ho kɔ adeɛ foforo so bɔbɔ."
 faq:
-  - q: "Dɛn ne nkaebɔ ma nnipa a dementia atwa wɔn?"
-    a: "Nkaebɔ ne ɔkwan a yɛfa so ka nkaebɔ ne asetena ho asɛm kyerɛ obi, a ɛboro so yɛfa mfonini, nneɛma, nnwom anaa wiase so kɔkɔbɔ boa. Ɛbɛtumi aba ɔdeɛ baako ne baako anaa nnipa pii ntam. Ɛno botae ne nkasa a ɛyɛ anigye na ɛyɛ hia, na ɛnyɛ sɛ wɔsɔ obi no nkaebɔ ho hwɛ."
-  - q: "Adɛn nti na ɛnsɛ sɛ mebisa “Wokae saa?”"
-    a: "Nsɛmmisa a ɛsɔ obi nkaebɔ ho hwɛ wɔ mmerɛ a obi nsi kwan kyerɛ no no, bɛma ɔbɛyɛ ayayade anaa ɔnwiri. Ɛnsɛ sɛ wobisa; kyerɛ nea wuhu, na ma obi no mfa nea ɔpɛ ka nka. Ɛyɛ mmara sɛ wɔka mmerɛ a ɛtwa ho nkɔ a ɔhyɛ National Institute on Aging nso: wɔka sɛ bisa obi sɛ ɔkae biribi anaa obi no, ɛyɛ biribi a ɛsɛ sɛ wɔgyina so."
-  - q: "Dɛn na ɛsɛ sɛ mede kɔ nkaebɔ nhoma mu?"
-    a: "Fa nneɛma a ɛyɛ den, ɛyɛ mmerɛw ne a ɛfa obi asetena ho ayɛ: adwuma nneɛma, adwuma akɔnnɔ ho nneɛma, ntama a wɔpɛ, mpɔsitikaad, nkyerɛwee a wɔkyerɛw nnuanom ho, anaa mfonini a wɔatwa mmoa. Yɛ mfiri nneɛma a ɛyɛ nnwene, nneɛma kakra a wobetumi agugu, ne nneɛma a wɔrentumi nnya bio."
-  - q: "Sɛ wɔkyerɛ nsɛm a ɛnyɛ nokorɔ?"
-    a: "Gyae. Sɛ wo maame ka sɛ mfonini no yɛ ne nuabaa bere a ɛyɛ ne kɔkɔ, saa ara nti. Sɛ wokasa nokorɔ a, ɛde anigye no bɛyɛ nsɛmmisa. Di asɛm a wɔreka no akyi, na mo nyinaa mfa anigye."
+  - q: "Dɛn ne nkaebɔ ma nnipa a wɔwɔ dementia?"
+    a: "Nkaebɔ ne nkɔmmɔ a ɛfa dabi a atwam ho nsɛm ne nkaeɛ, a ɛboa mfonini, nneɛma, nnwom anaa video. Ɛbɛtumi aba ɔkwan a ɛbɛba mu kɔ mu anaa wɔ nnipa abɛɛnsa mu. Ɛnam ankasa hwɛ sɛ ɔno ɛbɛtumi akae anaa. Ɛnam nkɔmmɔ ne nkɔmmɔ a ɛyɛ anigye, na ɛsɛ sɛ ɛyɛ nkɔmmɔ a ɛyɛ mmerɛ, nnyɛ sɔhwɛ."
+  - q: "Adɛn nti na ɛnsɛ sɛ mebisa “Wokae?”"
+    a: "Nsɛmmisa a ɛsɔ nkaeɛ hwɛ mu bɛma ɔno ani agu anaa ɔbɛtumi asuro sɛ ɔnkae nea ɔrebisa no. The National Institute on Aging kyerɛkyerɛ sɛ ɛnsɛ sɛ wobisa sɛ ɔkae biribi anaa onipa bi bi, ɛyɛ nea ɛnsɛ sɛ wɔyɛ. Fa ho hwɛ nea wuhu, na ma ɔno nso ka nea ɔpɛ."
+  - q: "Dɛn na mɛde ahyɛ adekɔ bɔkɔɔ mu?"
+    a: "Fa nneɛma a ɛyɛ den, a wɔn ho ntɛm, ne nneɛma a ɛfa ɔno asetra ho: adwuma nneɛma, nneɛma a wɔde di adwuma, kɔti a ɔpɛ, postcard, aduane nkyerɛwde, asɛmpa nneɛma anaa mfonini nkɔpi. Kwati nneɛma a ɛyɛ nwiam, nneɛma kakraa a wɔbɛtumi agugu, ne nneɛma a wɔrentumi nsan nnyina."
+  - q: "Sɛ wɔka nsɛm a ɛnyɛ nokorɛ a?"
+    a: "Ma ɛnkɔ so. Sɛ wo maame ka sɛ mfonini no yɛ ne nuabaa bere a ɛyɛ ne nuabarima, ɛyɛ yie. Sɛ wɔsesa no a, ɛbɛyɛ nsɛmmisa, na anigye no bɛba awiei. Di asɛm a wɔreka no akyi na mo nyinaa nni anigye."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -43,84 +39,85 @@ sources:
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
 related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Nkaebɔ kyerɛ ara sɛ yɛde anigye di abɔdeɛ bom. Nnipa pii a dementia atwa wɔn ho mu no, wɔn mfe pii a atwam no nkaebɔ tena wɔn adwene mu yie sen nea ɛbaa anɔpa yi. Mfonini, nneɛma a wɔde di dwuma daa, nnwom ne nsɛm bɛma nkaebɔ no abue, na ɛma wo ne wɔn nyinaa mfa anigye akyɛ. Mmara a ɛyɛ titiriw: ɛyɛ nkasa, ɛnyɛ nsɛmmisa.
+Nkaebɔ kyerɛ sɛ yɛn ho ahome wɔ dabi a atwam ho. Ma nnipa pii a wɔwɔ dementia, nkaeɛ a ɛfiri mmere a atwam ho di pɛn sen nea ɛbaeɛ nnɛ mprɛnsa. Mfonini, nneɛma a wɔadi dedaw, nnwom ne nkɛntɛnsɛm bɛtumi abue nkaeɛ no ano, na ɛbɛma wo ne ɔno nya nkɔmmɔ a ɛyɛ anigye. Ɛno ara ne mmara biako: ɛyɛ nkɔmmɔ, ɛnyɛ nsɛmmisa.
 
-## Nkaebɔ ne dɛn, na ɛyɛ dɛn a ɛfa nsɛmmisa ho?
+## Dɛn ne nkaebɔ, na ɛyɛ sɛn nsɛmmisa?
 
-Nkaebɔ ne sɛ yɛka nkaebɔ kyerɛ obi wɔ mfonini, nneɛma, nnwom anaa wiase so kɔkɔbɔ mu, na ɛyɛ ɔkwan a obi no ara tumi di so. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) kyerɛ sɛ ɛyɛ sɛ yɛka wɔn asetena ne nsɛm kyerɛ obi, yɛfa mfonini, nneɛma, wiase so kɔkɔbɔ anaa nnwom boa, wɔ nhoma mu anaa wɔ tablet so. Nsɛmmisa yɛ adwuma foforɔ: ɛde obi no hia sɛ ɔbɛka nokorɔ bi, na saa ara nti awerɛhyɛ betumi aba.
+Nkaebɔ yɛ sɛ yɛka nkaeɛ wɔ mfonini, nneɛma, nnwom anaa video mu, wɔ ɔno ankasa ntɛmpɔ so. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) kyerɛkyerɛ sɛ ɛyɛ sɛ yɛka dabi a atwam ho nsɛm ne nkaeɛ ho asɛm, de mfonini, nneɛma, video anaa nnwom boa, wɔ buuk mu anaa tablet so. Nsɛmmisa yɛ adwuma a ɛyɛ soronko: ɛhwehwɛ sɛ ɔno de mmuae a ɛyɛ pɛpɛ ba, na yei betumi ama ɔno ani agu anaa ɔsuro.
 
-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) kyerɛ sɛ ɛsɛ sɛ wɔmfa nsɛmmisa a ɛbisa obi sɛ ɔkae biribi anaa obi no nnsa. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) kyerɛ sɛ ɛsɛ sɛ wɔde nsɛmmisa a ɛhwehwɛ tebea a ɛda akyire ankɔ so.
+[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) kyerɛkyerɛ sɛ ɛnsɛ sɛ wobisa onipa sɛ ɔkae biribi anaa onipa bi, na ɛyɛ biribi a ɛsɛ sɛ wosie. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) ka sɛ wɛnsɛ nsɛmmisa a ɛhwehwɛ ntɛm a ɛntɛn, na mmom ka dabi a atwam ho nkaeɛ ho asɛm.
 
-| Sɛ wobɛka | Yɛ saa |
+| Sɛ wodi | Sɔ hwɛ |
 | --- | --- |
-| “Wokae eyi?” | “Eyi te sɛ da a anigye wɔ hɔ. Ka ho asɛm kyerɛ me.” |
-| “Hena ne ɔno?” | “Ɛno ne Aunt Rose wɔ mpoano. Hwɛ kɔkɔɔ a ɔhyɛ.” |
-| “Afeha bɛn na ɛyɛ?” | “Eyi te sɛ fie a ɛda hɔ no. Ɛte sɛ dɛn sɛ wowɔ hɔ tẽ?” |
-| “Ɛnyɛ Bill, ɛyɛ Frank.” | “Ɔte sɛ obi a ɔnyɛ ayayade.” |
-| “Wo ka saa asɛm no kyerɛɛ me dedaw.” | “Me ani gye saa asɛm no.” |
+| “Wokae yei?” | “Ɛte sɛ da a anigye wɔ mu. Ka ho asɛm maa me.” |
+| “Hwan ne ɔno?” | “Yei ne Maame Rose wɔ ɛpon so. Hwɛ ne ntadeɛ.” |
+| “Afe bɛn na yei yɛe?” | “Ɛte sɛ fie a ɛyɛ kane. Ɛte sɛ dɛn sɛ wotenaa hɔ?” |
+| “Dabi, ɛnyɛ Bill, ɛyɛ Frank.” | “Ɔte sɛ ɔyɛ anigye pii.” |
+| “Woaka saa kan.” | “Mpɛ saa asɛm yi.” |
 
-## Ɛyɛ dɛn na wobɛka mfonini ho asɛm a wunnsɛmmisa?
+## Ɛbɛyɛ dɛn na wɔbɛka mfonini ho asɛm a wɔrenyɛ nsɛmmisa?
 
-Fi nea wohwɛ ase ka, na afei ma obi no hia bere sɛ ɔbɛka biribi a ɔpɛ.
+Fi nea wuhu ase, na afei ma ɔno hia sɛ ɔbɛka biribi ka ho sɛ ɔpɛ.
 
-1. **Fa mo ho mo ho.** Di abum no ntam mo nyinaa, na mo nyinaa hwɛ mu, na ɛnyɛ sɛ wode bɛhwɛ mo ho ankasa.
-2. **Yi mfonini kakra.** Mfonini baanu anaa mfonini enum a ɛyɛ mmerɛ anaa a ɛyɛ pa yɛ nea ɛboa sen nkaeɛ ahodoɔ. Mfonini a ɛyɛ kɛse, a ɛyɛ mmerɛ pa yɛ nea ɛyɛ mfasoɔ.
-3. **Ka din no wo ho.** “Ɛno ne wo ne Papa wɔ w’awadie da no.” Saa yɛ tu ahohia no.
-4. **Ka nneɛma a ɛwɔ mfonini mu.** Ntoma, kar, aduane, ewiem tebea, nnipa anim. “Kar no ne ɛyɛ! Ɛte sɛ ɛyɛ anigye.”
-5. **Frɛ, nnyɛ sɛ wohwehwɛ.** “Ka ho asɛm kyerɛ me” anaa “Wohu dɛn?” Ɛnsɛ sɛ wodi ntoro ho ɔsɛ.
-6. **Di nea wɔpɛ akyi.** Sɛ wɔka asɛm foforɔ koraa a, di akyi.
-7. **Gyae bere a ɛrekɔ so yɛ anigye.** Ntɛn ada no ansi ansa na wo ne wɔn bɛgyae abum no.
+1. **Fa mo ho, mo ne mo nyinaa hwɛ.** Ma mo nyinaa hwɛ buuk no, na mo nyinaa hwɛ, nnyɛ sɛ moretwɛn ɔpon so.
+2. **Yi mfonini kakraa.** Mfonini kakraa a ɛye pa yɛ ɛsen bɔkɔɔ nyinaa. Mfonini a ɛyɛ kɛse na ɛyɛ mpɛn pɛpɛ yɛ ɛpɛ sen biara.
+3. **Ka nnipa no din wo ho.** “Yei ne wo ne Papa wɔ wo ayaresa da no” yɛ ade a ɛyi ɔhaw fi hɔ.
+4. **Ka nsɛm a ɛwɔ mfonini no mu ho.** Ntadeɛ, kar, aduan, ewiase, anwummere. “Kar yi yɛ den. Ɛte sɛ ɛyɛ anigye.”
+5. **Frɛ, nnyɛ sɛ wɔhyɛ ɔno.** “Ka ho asɛm maa me” anaa “Wohu dɛn?” Ɛnyɛ bɔne sɛ ɔmmuaa.
+6. **Di ne kwan akyi.** Sɛ ɔka nea ɛfa asɛm foforo ho a, di akyi.
+7. **Gyae bere a ɛnyɛ den.** To buuk no ansa na ɔbrɛ.
 
-Sɛ wopɛ ɛmfonini a wɔatwa ho nkɔkɔbɔ a, hwehwɛ [nkasa kaadi](/games/conversation-cards/). Sɛ wopɛ sɛ wode wo abusua mfonini ayɛ agoro a ɛyɛ mmerɛw, hwehwɛ [mfonini nkabom](/games/photo-pairs/); mfonini a wopɛ no ara gyina wo browser mu.
+Sɛ wopɛ mfonini ho nkɔmmɔ a wɔayɛ dedaw, sɔ [nkɔmmɔ kaad](/games/conversation-cards/) hwɛ. Sɛ wopɛ sɛ wobɛdan wo mfonini ho dwumadie a ɛyɛ mmerɛ, sɔ [mfonini nkabom](/games/photo-pairs/) hwɛ; mfonini a wopɛ no bɛtena wo browser mu.
 
-## Ɛyɛ dɛn na wobɛyɛ nkaebɔ nhoma?
+## Ɛbɛyɛ dɛn na wɔbɛyɛ adekɔ bɔkɔɔ?
 
-Nkaebɔ nhoma yɛ nneɛma a ɛfiri obi asetena mu a wɔbɛkyerɛ bɛka ho asɛm.
+Adekɔ bɔkɔɔ yɛ nneɛma a ɛfiri ɔno asetra mu a wɔbɛdi so na wɔaka ho asɛm.
 
-1. **Yi adekyeɛ a ɛyɛ den.** Yi nhoma a ɛyɛ mmerɛ a ɛyɛ mmerɛw a wobɛbue, te sɛ bokɔ anaa hat box anaa dua kakra a wɔde yɛ.
-2. **Yi asɛm anaa nneɛma a ɛyɛ mu.** Adwuma, akɔnnɔ, beaeɛ, mfirihyia anaa biribi kakra a ɛyɛ mu.
-3. **Boa nneɛma a ɛyɛ mmerɛ.** Nneɛma ɔha kɔsi ɔwɔtwe ase ɛboro ɛmfa.
-4. **Fa nkyerɛwee ne mfonini a wɔatwa ho kɔkɔbɔ.** Kɔkɔbɔ mfonini ne nkyerɛwee a wɔrentumi nnya bio, na kora nea ɛyɛ nokorɔ.
-5. **Yi nneɛma baako baako firi nhoma mu.** Ma obi no baako, ka ho asɛm, na hwɛ baabi a asɛm no bɛkɔ.
+1. **Fa nkotodwe a ɛyɛ den.** Fa ɔpɔn ketekete, sika kɔti anaa ɔwɔ mmoa a ɛyɛ kɛse.
+2. **Yi asɛm anaa nneɛma a ɛyɛ nyinaa.** Adwuma, adwuma a ɔpɛ, baabi, mfe anaa nneɛma kakraa a ɛyɛ nyinaa.
+3. **Boa nneɛma a ɛyɛ nwiam.** Nneɛma nnum kɔsi du kakraa na ɛmfa nni.
+4. **Fa mfonini anaa nkyerɛwde a wɔakɔpi.** Kɔpi mfonini anaa nkyerɛwde a ɛyɛ mmerɛ, na kora nea ɛyɛ mmerɛ no yie.
+5. **Yi nneɛma baako baako.** Ma ɔno mu, ka ho asɛm, na hwɛ baabi a nkɔmmɔ no kɔ.
 
-Nneɛma a wobetumi de ka ho:
+Nneɛma a wɔbɛtumi de ahyɛ mu:
 
-- **Adwuma:** din bɔdɔma, nneɛma a wɔde yɛ adwuma akakra, adwuma nnɛboa, nkaebɔ, ɔbenfoɔ ntama, aborɔfo nnoma kɔkɔbɔ.
-- **Fie:** nkyerɛwee a wɔakyerɛw wɔ ne nsa ntwerɛ mu, ntoma tuo, kar anaa ntaa a ɔpɛ.
-- **Akɔnnɔ:** ɛmpɛ a ɛnni nkɔnkɔ, bɔl, ɔyare, nkɔsoɔ anaa nkɔnkɔ.
-- **Beaeɛ:** postkaad, mapa, asomdwoeɛ mfiri, kurow no nkɔsɛm a wɔatwe.
-- **Abusua:** mfonini a wɔatwa, ababa adaka, ɔwaresɛm ahyɛdeɛ.
+- **Adwuma:** din ntoto, nneɛma kakraa a wɔde yɛ adwuma, adwuma kɔtɔn, nkyerɛwde ahodoɔ, nkɔhyɛfo nkyerɛwde, nkɔmmɔ kɔnkɔnkɔnkɔ.
+- **Fie:** nkyerɛwde a ɛwɔ ne nsa nkyerɛwde mu, ntadeɛ kɔtɔ, kar anaa sinkafa a ɔdi dedaw.
+- **Ahoɔden:** agyinamu ntɔn a ɛnni nsɛn, baseball, nkaadaa a wɔde ndɔ, aba akyi.
+- **Baabi:** postcard, mmaa, nneɛma a wɔnnɔn wɔ baabi bi, kuropɔ a wɔkyerɛwde ho.
+- **Abusua:** mfonini kɔpi, abofra nsɛnkyerɛnne, awaredeɛ nkɔmmɔ.
 
-Fa nneɛma a ɛyɛ den, nneɛma kakra a wobetumi agugu, ne nneɛma a wobetumi de awerɛhyɛ aba ankyerɛ, gye sɛ wɔbɔ ho ban.
+Yiyi akyi nneɛma a ɛyɛ den, nneɛma kakraa a wɔbɛtumi agugu, ne nneɛma a ɛbɛtumi ama awerɛhyɛ sɛ wonnim sɛ ɔpɛ.
 
-## Ɛyɛ dɛn na wobɛyɛ nkaebɔ nhoma?
+## Ɛbɛyɛ dɛn na wɔbɛyɛ asetra nkɛntɛnsɛm buuk?
 
-Nkaebɔ nhoma yɛ abum a ɛyɛ mmerɛw a mfonini ne nkyerɛwee nketenkete wɔ obi asetena ho. Ɛyɛ biribi a wobetumi ahwɛ bom, na ɛboa ahɔhoɔ ne ahoboafoɔ a wɔhwɛ wɔn ho ahunu obi no nyinaa.
+Asetra nkɛntɛnsɛm buuk yɛ mfonini ne nkyerɛwde a ɛyɛ tiaa wɔ ɔno asetra ho. Ɛyɛ biribi a mo nyinaa bɛhwɛ, na ɛboa nnipa a wɔbɛsrɛ anaa ahwɛfo hu ɔno mmerɛ nyinaa.
 
-1. **Yi kwan a wobedi so.** Binder a wɔde sheet protectors ahyɛ mu, nhoma a wɔabɔ mfonini, anaa slideshow wɔ tablet so.
-2. **Hyehyɛ ntu kakra.** Mmofra mfe, sukuu, adwuma, abusua, beaeɛ a wɔtenaa, gyidi, akɔnnɔ, adidibea ne nnwom a wɔpɛ.
-3. **Fa mfonini baako anaa mmienu wɔ kwan biara so** ne nkyerɛwee tiaa, a ɛyɛ kɛse: “Mary, afe 22, ɔreyɛ adwuma wɔ bank.”
-4. **Ka nea wɔpɛ ne nneyɛe a wɔyɛ daa.** “Ɔnom kɔfe a nsuo mu. Ɔpɛ Sunday nnwom. Ɔmpɛ nnwom a ɛyɛ ɔsɔre wɔ TV so.” Saa boa obiara a ɔhwɛ wɔn.
-5. **Ma obi no nyɛ adwuma nso** sɛdeɛ ɔpɛ, sɛ ɔbɛpaw mfonini, aka asɛm, anaa ɔhwɛ nea ɛreba.
-6. **Kɔ so de nneɛma ka ho.** Ɛnsɛ sɛ wɔawie ansa na ɛboa.
+1. **Yi kwan a wobɛfa so.** Buuk a wɔde nsɔre bɔ mu, nkɔmmɔ buuk a wɔde pɛn, anaa slideshow wɔ tablet so.
+2. **Hyehyɛ nkyekyɛmu kakraa.** Abakɔsɛm, sukuu, adwuma, abusua, baabi a wɔtenaa, asomdwoe, ahoɔden, nnuane ne nnwom a ɔpɛ.
+3. **Fa mfonini baako anaa baanu wɔ kwan biara so,** de nkyerɛwde tiaa, kɛse a ɛyɛ pɛpɛ: “Mary, afe 22, ɔrehyɛ adwuma wɔ sika fie.”
+4. **Fa nea ɔpɛ ne nea ɔyɛ daa ka.** “Ɔnom kɔfi a wɔde nufɔ ka ho. Ɔpɛ nnwom a wɔto Sɔnda. Ɔnpɛ TV a ɛyɛ mmerɛ.” Eyi boa obiara a ɔhwɛ no.
+5. **Ma ɔno nso nni hɔ** sɛnea ɔpɛ, sɛ ɔbɛyi mfonini, aka nsɛm anaa ɔhwɛ nea ɛreba mu.
+6. **Hyehyɛ bio.** Ɛnsɛ sɛ ɛba awiei ansa na ɛbɛyɛ adwuma.
 
-## Nkaebɔ foforɔ bi
+## Nkaebɔ afotu foforo
 
-- **Gyina nnwom a wɔtee bere a wɔyouth mu** na ka nea ɛma wɔkɔ. Hwɛ [nnwom adwuma](/activities/music/).
-- **Hwɛ fie mu video anaa TV a wɔpɛ** firi mfe a wɔpɛ.
-- **Yɛ aduane a wɔdidiiɛ bere a wɔyɛ mmofra** na ma aduane no bɔ kasa.
-- **Hwɛ mapa a ɛda kurow a wɔtenaa so** na tew nkwan a wɔanya.
-- **Hwɛ nkaebɔ anaa magazine a ɛyɛ tẽ** na ka nea ɛfa bo, mfaso ne kar ho.
-- **Kyerɛw wɔn nkaebɔ** wɔ fon so, sɛ wɔapene so, ma abusua.
-- **Kasa bere a wɔfrɛ.** Kyerɛ mfonini baako wɔ video frɛ mu; hwɛ [fon ne video frɛ](/activities/phone-and-video-calls/).
-- **Fa mfonini anaa nneɛma bra bere a wobɛsra.** Ɛma nkɔsra no wɔ asɛm a ɛyɛ mmerɛw; hwɛ [nkɔsra](/activities/visiting/).
+- **Gyina nnwom a ɔteɛ wɔ ne mmerɛ mu,** na ka nea ɛde no kɔ ne nkaeɛ mu. Hwɛ [nnwom adwuma](/creative-calm/music-for-calm-and-connection/).
+- **Hwɛ ne nkɛntɛnsɛm anaa TV a ɔpɛ** fi nna a ɔpɛ mu.
+- **Yɛ ɔduane a ɔtenaa so** na ma ɛnam nhwɛ no so ma nkɔmmɔ no ankɔ so.
+- **Hwɛ ne kurom mmaa** na tu ne baabi a ɔtenaa so.
+- **Hwɛ nkyerɛwde a wɔde kɔtɔn anaa mmɔdensɛm** na ka boɔ, ntadeɛ ne kar ho asɛm.
+- **Kyerɛw ne nkɛntɛnsɛm** wɔ foon so, sɛ ɔpɛ, ma abusua.
+- **Ka wo ho asɛm wɔ video frɛ mu.** Ma mfonini baako bra wɔ video frɛ mu; hwɛ [foon ne video frɛ](/together/staying-connected-from-afar/).
+- **Fa mfonini anaa nneɛma bra sɛ woreba ahwehwɛ.** Ɛma nhwehwɛ no nni ɔkwan; hwɛ [ahwehwɛ](/together/visiting-someone-in-care/).
 
-## Sɛ nkaebɔ bi ma ɔhaw?
+## Sɛ nkaeɛ no bɛma awerɛhyɛ a?
 
-Nkaebɔ bi de awerɛkyɛ, ɔpɛ a wɔanya anaa suro ba. Sɛ obi no ayɛ ayayade a, gyae, ka wɔn ho, na fa asɛm anaa adwuma no nkɔ fam bɔ mmɔden. Mma wo ho nnhwɛ nea ɛbaa no ho. Family Caregiver Alliance kyerɛ sɛ ɛnsɛ sɛ wobɔ mmɔden sɛ wobɛma obi no te sɛ ɔyɛ mfomsoɔ, na ɛsɛ sɛ wodi ne ahosɛpɛw a ɔda no adi ho ɔkwan. Sɛ wokasa obi a awu no sɛ ɔte hɔ, ka sɛ: “Wo pɛ no. Ka ho asɛm kyerɛ me.”
+Nkaeɛ bi bɛma awerɛhyɛ, awerɛkyekye anaa suro. Sɛ ɔno ayɛ mmerɛ a, gyae, boa no, na sesa asɛm anaa adwuma no mmerɛ. Mma wɔnnyɛ nkɔtrɔ wɔ nea aba ho. Family Caregiver Alliance kyerɛkyerɛ sɛ wɔnnsɔ ɔno nnwen sɛ ɔnyɛ nokorɛ, na mmom ɛsɛ sɛ wodi ne nneyɛe a ɔda no adi so, a ɛyɛ nokorɛ. Sɛ ɔka onipa a awu sɛ ɔte ase no, di nea ɔredi so: “Ɔyɛ wo hwee sɛ ɔnte ase. Ka ne ho asɛm maa me.”
 
-## Nnyinsɛm nhwehwɛmu ka dɛn?
+## Nhwehwɛmu no ka dɛn?
 
-[Cochrane review ho nkaebɔ](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), a ɛhwehwɛɛ nhwehwɛmu 22 ne nnipa 1,972, huu sɛ nea ɛba no ntɛmntɛm, nea ɛyɛ kakra, ne nea ɛsesa sɛdeɛ ɛbɛyɛ wɔ baabi ne ɔkwan a wɔfa so no so. Ɛnhunu biribiara a ɛma nnipa a dementia atwa wɔn ho ayɛ bɔne. Yɛka sɛ nkaebɔ yɛ ade, ɛnyɛ sɛ ɛyɛ ayaresa, efisɛ ɛboa ma bere a wo ne wɔn di bom yɛ anigye na ɛyɛ hia. Sɛ wopɛ nkɔsoɔ wɔ nkasa a ɛyɛ mmerɛw ho, hwɛ [nkasa tebea](/caregiving/communication-tips/).
+Cochrane nhwehwɛmu a wɔyɛe wɔ [nkaebɔ ho](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), a ɛfa nnwinnadeɛ 22 ne nnipa 1,972 ho, hunuu sɛ nea ɛba mu no ankyerɛ pɛpɛ, nea ɛyɛ kakraa, na ɛsesa sɛnea ɛte ne baabi ne ɔkwan a wɔfa so no. Wohunuu sɛ ɛnnyin ɔhaw biara ankɔ dementia nnipa so. Yɛbɔ nkaebɔ ban sɛ ɛbɛtumi ama mo nyinaa nya mmere a ɛyɛ anigye na ɛho hia, nnyɛ sɛ ɛyɛ ayaresa. Ma nkɔmmɔ a ɛyɛ mmerɛ, sɔ [nkɔmmɔ ahyɛ ase wɔ dementia ansa](/caregiving/after-dementia-diagnosis/) hwɛ.

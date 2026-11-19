@@ -1,35 +1,30 @@
 ---
-title: "Tevékenységek demenciával élő személyeknek: 101 egyszerű ötlet"
-seoTitle: "101 tevékenység demenciával élő személyeknek"
-description: "101 egyszerű, felnőtteknek való tevékenység a hajtogatástól a zenéig és a fényképekig, mindegyikhez tippekkel, hogyan könnyítse meg, ha nehezebbé válik."
+title: "Tevékenységek demenciával élőknek: 101 egyszerű ötlet"
+seoTitle: "Demenciás tevékenységek: 101 egyszerű ötlet"
+description: "101 egyszerű, felnőtteknek való tevékenység demenciával élő személlyel: ruhahajtogatás, zene, fényképek, séta, és tippek a nehezebb napokra."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  A demenciával élő személy számára a jó tevékenységek ismerősek, felnőttesek és
-  könnyen megoszthatók: ruhák hajtogatása, rendezés, főzés, zene, fényképek
-  nézegetése, séta, kertészkedés, idő egy háziállattal és egyszerű játékok.
-  Válassza azt, amit a személy mindig is szeretett, vegye át a nehéz részeket, és
-  hagyja abba, amikor elfárad. A kellemes együtt töltött idő fontosabb, mint
-  bármit befejezni.
+  A demenciával élő személy számára jó tevékenységek ismerősek, felnőttesek és könnyen megoszthatók: ruhák hajtogatása, rendezés, főzés, zene, fényképnézegetés, séta, kertészkedés, időtöltés háziállattal és egyszerű játékok. Válassza azt, amit a személy mindig is szeretett, vegye át a nehéz részeket, és hagyja abba, amikor elfárad. A közös, kellemes idő fontosabb, mint bármit befejezni.
 keyPoints:
-  - "Induljon ki a személy saját életéből: a munkája, a hobbijai, a hite és a kedvenc zenéje a legjobb útmutató."
-  - "Szükség szerint egyszerűsítse a tevékenységeket: kevesebb lépés, kevesebb választás, a nehéz részt Ön végzi."
-  - "A nézés, valami tartása vagy egyszerűen a közelben ülés mind a részvételnek számít."
-  - "Hagyja abba vagy váltson, ha fáradtságot, frusztrációt vagy unalmat lát. A korai befejezés jó kimenetel."
-  - "Az együtt végzett tevékenység fontosabb, mint hogy helyesen csinálják."
+  - "Induljon a személy saját életéből: a munkája, hobbija, hite és kedvenc zenéje a legjobb útmutató."
+  - "Szükség szerint tegye kisebbé a tevékenységet: kevesebb lépés, kevesebb választás, a nehéz részt Ön végezze."
+  - "A nézés, valami tartása vagy egyszerűen a közelben ülés is részvételnek számít."
+  - "Álljon meg vagy váltson, ha fáradtságot, frusztrációt vagy unalmat lát. A korai befejezés is jó kimenetel."
+  - "A közös tevékenység fontosabb, mint a helyes elvégzés."
 faq:
   - q: "Milyen tevékenységek jók demenciával élő személynek?"
-    a: "Olyan ismerős tevékenységek, amelyeket a személy évek óta csinál, kicsit egyszerűbb formában: ruhák hajtogatása, az asztal terítése, főzés, zene, fényképek nézegetése, séta, kertészkedés és idő egy háziállattal. Válasszon olyasmit, ami felnőttesnek és hasznosnak érződik, és csinálják együtt."
-  - q: "Milyen hosszú legyen egy tevékenység?"
-    a: "Nincs helyes hossz. Egyik nap néhány perc törölközőhajtogatás is elég lehet, másik nap egy óra a kertben könnyűnek tűnhet. Hagyja, hogy a személy szabja meg a tempót, és fejezzék be, amíg még kellemes."
+    a: "Olyan ismerős tevékenységek, amelyeket a személy évekig csinált, kicsit egyszerűbb formában: ruhák hajtogatása, asztal terítése, főzés, zene, fényképnézegetés, séta, kertészkedés és időtöltés háziállattal. Válasszon olyan dolgokat, amelyek felnőttesek és hasznosak érződnek, és csinálják őket együtt."
+  - q: "Meddig tartson egy tevékenység?"
+    a: "Nincs helyes hossz. Egy nap néhány perc törölközőhajtogatás elég lehet, máskor pedig könnyen elválik egy órás kertezés. Hagyja, hogy a személy diktálja a tempót, és fejezze be, amíg még kellemes."
   - q: "Mi van, ha a személy nem akar részt venni egy tevékenységben?"
-    a: "Ne erőltesse. A nem jelentheti, hogy a feladat túl nehéznek tűnik, rossz az időzítés, vagy fáradt vagy kényelmetlenül érzi magát. Próbálja később, ajánljon egy kisebb változatot, vagy kezdje el maga a feladatot a közelben, és hívja meg a személyt, hogy segítsen."
-  - q: "Jók az agyi játékok demenciával élő személynek?"
-    a: "A játékok kellemes módjai lehetnek az együtt töltött időnek, de egyetlen játékról sem bizonyították, hogy kezelné, lassítaná vagy megállítaná a demenciát. Válasszon olyan játékokat, amelyekben nincs időzítő, pontszám vagy hibás válaszra adott hangjelzés, és közös tevékenységként kezelje őket, ne vizsgaként."
+    a: "Ne erőltesse. A nem jelentheti azt, hogy a feladat túl nehéznek érződik, rossz az idő, vagy fáradt vagy kényelmetlenül érzi magát. Próbálja később, ajánljon kisebb változatot, vagy kezdje el a feladatot maga a közelben, és hívja meg a személyt, hogy segítsen."
+  - q: "Jók-e az agytornajátékok demenciával élőknek?"
+    a: "A játékok kellemes módja lehetnek az együtt töltött időnek, de egyetlen játékról sincs bizonyíték, hogy kezelné, lassítaná vagy megállítaná a demenciát. Válasszon időzítő, pontszám és rossz válasz hangja nélküli játékokat, és közös tevékenységként kezelje őket, ne tesztként."
   - q: "Hogyan kerülhetem el, hogy a tevékenységek gyerekesnek hassanak?"
-    a: "Használjon valódi, felnőtt anyagokat: valódi törölközőket, valódi recepteket, felnőtt zenét és festőeszközöket, valamint felnőtt témájú képeket. Mutassa be a feladatokat úgy, mint valódi segítségkérést, és beszéljen a személlyel felnőttként, aki valójában."
+    a: "Használjon valódi, felnőtt anyagokat: valódi törölközőket, valódi recepteket, felnőtteknek szóló zenét és festőeszközöket, felnőtt témájú képeket. Úgy keretezze a feladatokat, mint valódi segítséget, és úgy beszéljen a személlyel, ahogy a felnőtt embert szólítaná meg."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +46,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-A demenciával élő személy számára a legjobb tevékenység általában olyan, amit már ismer, kicsit egyszerűbb formában, egy megbízható emberrel együtt. Alább 101 ötlet található, típus szerint csoportosítva, mindegyikhez azzal, hogyan állítsa be, és hogyan könnyítse meg, ha nehezebbé válik. Nincs szükség különleges eszközre, és nem kell semmit befejezni. Egy jó délután lehet egy kosár törölköző és egy csésze kávé együtt.
+A demenciával élő személy számára legjobb tevékenység általában az, amit már ismer, kicsit egyszerűbb formában, megbízható személlyel együtt végezve. Az alábbiakban 101 ötlet található, típus szerint csoportosítva, mindegyikhez azzal, hogyan készítse elő, és hogyan könnyítse meg, ha nehezebbé válik. Nincs szükség különleges eszközre, és nem kell semmit befejeznie. Egy jó délután lehet egy kosár törölköző és egy csésze kávé együtt.
 
 ## Hogyan válassza ki a megfelelő tevékenységet?
 
-A személy alapján válasszon, ne a lista alapján: induljon ki abból, amit mindig is szeretett, és amit ma kényelmesen el tud végezni.
+Válasszon a személy alapján, ne a lista alapján: kezdjen azzal, amit mindig is szeretett, és amit ma kényelmesen meg tud csinálni.
 
-- **Gondoljon a munkájára és a hobbijaira.** Az [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) azt javasolja, hogy egy egykori irodai dolgozó élvezheti az érmék rendezését vagy a postai küldemények összeállítását, egy kertész pedig a kerti munkát.
-- **Figyelje meg, mit csinál már.** Ha az apja minden reggel kérés nélkül seper a teraszon, építse ezt bele a napba.
-- **Tervezzen a korlátokhoz igazodva.** A fáradtság, a látás, a hallás, a fájós kezek és az egyensúly mind számítanak.
-- **Figyelje a hangulatát.** A zajos, mozgalmas tevékenységek egyeseknek jól esnek, másokat megijesztenek.
-- **Adjon neki célt.** Egy egyházi vacsorához szalvétát hajtogatni értelmesebbnek érződik, mint egy önmagáért való torna.
+- **Gondoljon a munkájára és a hobbijaira.** Az [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) szerint egy egykori irodai dolgozó örömét lelheti az érmék rendezésében vagy a postai küldemények összeállításában, a kertész pedig a kerti munkában.
+- **Figyelje meg, mit csinál már most.** Ha édesapja minden reggel kérés nélkül felseper a verandán, építse ezt bele a napjába.
+- **Tervezzen a korlátok szerint.** Számítanak a fáradtság, a látás, a hallás, a fájó kezek és az egyensúly.
+- **Figyelje a hangulatát.** A zajos, mozgalmas tevékenységek egyeseknek jól esnek, másoknak ijesztőek.
+- **Adjon neki célt.** Egy egyházi vacsorához szánt szalvéták hajtogatása többnek érződik, mint egy önmagáért való torna.
 
-### Nagyjából útmutató szakaszonként
+### Durva útmutató szakaszonként
 
-A demenciát gyakran korai, középső és késői szakaszra osztják. Ezek lazán megfogalmazott címkék, nem dobozok, és sokan jobb és nehezebb napokat élnek meg, ezért arra támaszkodjon, amit ma lát. Az [Alzheimer's Foundation of America szakaszonkénti listája](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) hasonló mintát követ.
+A demenciát gyakran korai, középső és késői szakaszra osztják. Ezek lazán meghatározott címkék, nem dobozok, és sokan jobb és nehezebb napokat is megélnek, ezért inkább arra figyeljen, amit ma lát. Az [Alzheimer's Foundation of America szakaszonkénti listája](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) hasonló felosztást követ.
 
 | Téma | Korai szakasz | Középső szakasz | Késői szakasz |
 | --- | --- | --- | --- |
-| Mit vehet észre | Többnyire önálló; a tervezés, az új nevek és a zsúfolt helyek nehezebbek lesznek | Segítségre van szüksége a kezdésnél és a lépéseknél; a szavak nehezebben jönnek | A legtöbb napi gondozásban segítségre szorul; az érzékszervek a legfontosabbak |
-| Gyakran illő tevékenységek | Kártya- és társasjátékok, főzés, kertészkedés, naplóírás, kirándulások, klubok | Ruhák hajtogatása, rendezés, egyszerű főzési lépések, éneklés, fotóalbumok, vezetett séták | Kedvenc zene, kézmasszázs, puha dolgok a kézbe, felolvasás, ülés a szabadban |
-| Az Ön szerepe | Társ: kérdezze meg, milyen támogatást szeretne | Készítsen elő, mutasson, vegye át a nehéz részeket | Hozza el a tevékenységet hozzá; az Ön társasága maga a tevékenység |
-| További ötletek | [Korai szakasz](/activities/early-stage/) | [Középső szakasz](/activities/middle-stage/) | [Késői szakasz](/activities/late-stage/) |
+| Mit vehet észre | Többnyire önálló; a tervezés, az új nevek és a zsúfolt helyek nehezebbek | Segítségre van szüksége az elinduláshoz és a lépésekhez; a szavak nehezebben jönnek | A mindennapi ellátás nagy részében segítségre szorul; az érzékek a legfontosabbak |
+| Tevékenységek, amelyek gyakran illenek | Kártyázás, társasjátékok, főzés, kertészkedés, naplóírás, programok, klubok | Ruhák hajtogatása, rendezés, egyszerű főzési lépések, éneklés, fotóalbumok, vezetett séták | Kedvenc zene, kézmasszázs, puha tárgyak tartása, felolvasás, ülés a szabadban |
+| Az Ön szerepe | Társ: kérdezze meg, milyen támogatást szeretne | Készítse elő, mutassa meg, vegye át a nehéz részeket | Vigye hozzá a tevékenységet; az Ön társasága maga a tevékenység |
+| További ötletek | Korai szakasz: ezen az oldalon | Középső szakasz: ezen az oldalon | [Késői szakasz](/activities/late-stage/) |
 
 ## Hogyan kezdjen el egy tevékenységet demenciával élő személlyel?
 
-Kezdje kicsiben, kezdjék együtt, és tegye könnyűvé az igent. Sokan még szeretnének részt venni, de nehezen terveznek vagy kezdenek bele.
+Kezdjen kicsiben, a személy mellett, és tegye könnyűvé az igent. Sokan még mindig szeretnének részt venni, de nehezükre esik a tervezés vagy az elkezdés.
 
-1. **Válassza a legjobb idejét,** ami gyakran a reggel.
-2. **Rakjon ki mindent előre,** hogy azonnal el lehessen kezdeni.
+1. **Válassza ki a legjobb idejüket,** ami gyakran a reggel.
+2. **Készítsen elő mindent előre,** hogy azonnal el lehessen kezdeni.
 3. **Kérjen segítséget, ne előadást:** „Segítene nekem ezekkel?”
-4. **Kezdje el maga.** Hajtogassa az első törölközőt, és hagyja, hogy a személy csatlakozzon. A mutatás jobb, mint a magyarázat.
-5. **Egyszerre egy lépést ajánljon.**
-6. **Vegye át a legnehezebb részt.** Az Alzheimer's Association azt javasolja, hogy Ön mérje ki a hozzávalókat, majd adja át a kanalat a kevergetéshez.
-7. **Hagyja, hogy a saját módján csinálja.** Más módon hajtogatott törölköző is rendben van.
-8. **Hagyja abba, amikor már nem kellemes.** A nyugtalanság, a ráncolt homlok vagy az „Nem tudom” jelzi, hogy váltani vagy pihenni kell.
+4. **Kezdje el maga.** Hajtsa össze az első törölközőt, és hagyja, hogy csatlakozzon. A bemutatás jobb, mint a magyarázat.
+5. **Egyszerre egy lépést kínáljon fel.**
+6. **Vegye át a legnehezebb részt.** Az Alzheimer's Association azt javasolja, hogy Ön mérje ki a hozzávalókat, majd adja át a kanalat a keverésre.
+7. **Hagyja, hogy a saját módján csinálja.** A más módon összehajtott törölköző is jó.
+8. **Hagyja abba, amikor már nem esik jól.** Az idegesség, a homlokráncolás vagy a „nem tudom” jelei arra utalnak, hogy váltson vagy pihenjen.
 
-Lásd még: [hogyan játsszanak együtt](/caregiving/how-to-play-together/) és [kommunikációs tippek](/caregiving/communication-tips/).
+Lásd még: [hogyan játsszunk együtt](/caregiving/how-to-play-together/) és [az első lépések a diagnózis után](/caregiving/after-dementia-diagnosis/).
 
 ## Mindennapi feladatok otthon
 
-A háztartási munkák ismerősek és hasznosak, ezért természetes kiindulópontok. A [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) az edénymosást, az asztal terítését, a söprést, a posta rendezését és a ruhák hajtogatását sorolja fel azok közé, amelyeket az emberek élvezhetnek. Több a [háztartási feladatok](/activities/household-tasks/) oldalon.
+A háztartási munkák ismerősek és hasznosak, ezért természetes kiindulópontok. A [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) a tálak elmosását, az asztalterítést, a seprést, a levelek rendezését és a ruhák hajtogatását sorolja fel azok közé a tevékenységek közé, amelyekben az emberek örömet lelhetnek.
 
-1. **Hajtogasson meleg törölközőket.** Borítsa ki a szárítóból a kosarat az asztalra, és hajtogassanak egymás mellett. Később a simítás és a halmozás ugyanolyan hasznos.
-2. **Párosítson zoknikat.** Kezdje nagyon különböző színekkel. Később elég a világos és a sötét szétválogatása.
-3. **Terítsen asztalt.** Egyszerre egyfajta tárgyat adjon át. Egy terítéket Ön terítsen meg példaként.
-4. **Mosson vagy szárítson edényt.** Meleg, szappanos víz és törhetetlen edények. Ülve szárítani kíméli a lábakat.
-5. **Törölje le az asztalt.** Étkezés után adjon át egy nedves kendőt. Ez valódi munka a nyugtalan kezeknek.
-6. **Rendezze a postát.** A katalógusokat és a reklámlevelet „megtartani” és „újrahasznosítani” kupacokba. A valódi számlákat tartsa távol.
-7. **Vágjon ki kuponokat.** Lekerekített hegyű olló és egy élelmiszerbolti szórólap. Később a kedvenc ételek bekarikázása is jó.
-8. **Rendezze az aprópénzt.** Tegye az aprópénzt poharakba, vagy tekerje papírba. Hagyja ki a kicsi tárgyakat, ha a személy a szájába veszi a dolgokat.
-9. **Seperjen vagy porolszon.** Egy könnyű seprű a teraszon, vagy egy hosszú nyelű porolóecset, amelyet székről használ.
-10. **Segítsen ételt készíteni.** Zöldségek mosása, saláta tépkedése, kevergetés. Ön kezeli a késeket és a hőt.
-11. **Süssenek egy családi receptet.** Ha megvan, használja azt a receptkártyát, amelyet a saját kezével írt. Később ők lehetnek a kóstolók.
-12. **Végezzenek irodai munkát.** Levelek hajtogatása, borítékok töltése és bélyegzése, vagy a bevásárlólista közös megírása.
+1. **Hajtsa össze a meleg törölközőket.** Borítsa ki a szárítóból a kosarat az asztalra, és hajtsák együtt, egymás mellett. Később a simítás és a halmozás is ugyanolyan segítség.
+2. **Párosítsa a zoknikat.** Kezdje nagyon különböző színekkel. Később a világos és a sötét szétválogatása is elég.
+3. **Terítsen asztalt.** Egyszerre csak egyfajta tárgyat adjon át. Egy helyet Ön terítsen meg példaként.
+4. **Mosogasson vagy törölgessen.** Meleg, szappanos víz és törhetetlen edények. Ülve törölgetni kényelmesebb a lábnak.
+5. **Törölje le az asztalt.** Étkezés után adjon egy nedves kendőt. Ez valódi munka a nyugtalan kezeknek.
+6. **Rendezze a leveleket.** Katalógusok és reklámlevelek: „megtart” és „újrahasznosít”. Az igazi számlák maradjanak ki.
+7. **Vágjon ki kuponokat.** Kerekhegyű olló és üzleti szórólapok. Később a kedvenc ételek bekarikázása is jó.
+8. **Rendezze az érméket.** Válogassa pohárba, vagy tekerje papírgurigába. Hagyja ki a kis tárgyakat, ha a személy a szájába veszi a dolgokat.
+9. **Seperjen vagy poroljon.** Könnyű seprű a verandán, vagy hosszú nyelű porolókefe, székből használva.
+10. **Segítsen főzni.** Zöldségek mosása, saláta tépkedése, kevergetés. A késsel és a hővel Ön dolgozzon.
+11. **Süssen családi receptet.** Ha megvan, használja a kézzel írt receptet. Később ők lehetnek a kóstolók.
+12. **Végezzen irodai munkát.** Levelek hajtogatása, borítékok töltése és bélyegzése, vagy a bevásárlólista közös megírása.
 
 ## Zene
 
-Az ismerős zene akkor is elér az emberekhez, amikor a szavak nehezen jönnek. Az [Alzheimer's Association zenei tippjei](https://www.alz.org/help-support/caregiving/daily-care/art-music) ismerős dalokat, reklámok nélküli zenét és a kikapcsolt tévét javasolják. Lásd a [zenei tevékenységeket](/activities/music/).
+Az ismerős zene akkor is elér embereket, amikor a szavak már nehezek. Az [Alzheimer's Association zenei tippjei](https://www.alz.org/help-support/caregiving/daily-care/art-music) ismerős dalokat, reklámmentes lejátszást és a tévé kikapcsolását javasolják. Lásd [zenei tevékenységek](/creative-calm/music-for-calm-and-connection/).
 
-13. **Állítson össze személyes lejátszási listát.** Zene a tizenéves és húszas éveiből, az esküvőjükről, a templomukból és a kultúrájukból.
-14. **Énekeljenek együtt.** Kezdjen Ön is énekelni. A dúdolás vagy a hallgatás is számít.
-15. **Tartsák az ütemet.** Tapsoljanak, csapkodjanak a térdükön, vagy üssenek egy kézi dobot. Ülve és a késői szakaszban is működik.
-16. **Táncoljanak.** Lassú táncot a konyhában, vagy ülve ringassanak, miközben kézen fogják egymást.
-17. **Hallgassanak egy teljes albumot.** Egy kedvenc lemezt az elejétől a végéig, kávéval és semmi mással.
-18. **Beszéljenek a zenéről.** Hívja meg történetekre, ne tényekre: „Meséljen a táncokról, amelyekre járt.”
-19. **Nézzenek egy felvett musicalt vagy koncertet.** Egy kedvelt előadás jó estét adhat. Bármikor megállíthatók.
-20. **Játsszanak egy ismerős hangszeren.** Egy egykori zongorista élvezheti az egyszerű darabokat; később néhány hang együtt is elég.
-21. **Hallgassanak élő zenét.** Egy rövid közösségi koncert vagy kórusgyakorlás. Üljenek a kijárat közelében.
+13. **Állítson össze személyes lejátszási listát.** Zene a tizenéves és huszonéves éveikből, az esküvőjükről, a templomukból és a kultúrájukból.
+14. **Énekeljen együtt.** Kezdjen el Ön is énekelni. A dúdolás vagy a hallgatás is részvétel.
+15. **Tartsák a ritmust.** Tapsoljanak, csapjanak térdre vagy kézi dobon. Ülve és a késői szakaszban is működik.
+16. **Táncoljanak.** Lassú tánc a konyhában, vagy ülve ringatózás kézen fogva.
+17. **Hallgassanak meg egy teljes albumot.** Egy kedvenc lemez az elejétől a végéig, kávéval és más zavaró dolgok nélkül.
+18. **Beszélgessenek a zenéről.** Hívjon történetekre, ne tényekre: „Meséljen a táncokról, amelyekre járt.”
+19. **Nézzenek felvett musicalt vagy koncertet.** Egy kedvelt előadás jó esti program. Bármikor megállíthatják.
+20. **Játsszon ismerős hangszeren.** Egy egykori zongorista örülhet egyszerű darabnak; később néhány hang együtt is elég.
+21. **Hallgasson élő zenét.** Rövid közösségi koncert vagy kórusprobe. Üljön a kijárat közelében.
 
-## Emlékezés: fényképek, tárgyak és történetek
+## Emlékezés: fotók, tárgyak és történetek
 
-Élvezzék együtt a múltat anélkül, hogy tesztelnék. Kerülje a „Emlékszik...?” és a „Ki ez?” kérdéseket, és inkább nyitott meghívásokat használjon. Lásd az [emlékező tevékenységeket](/activities/reminiscence/).
+Élvezzék együtt a múltat anélkül, hogy tesztelnék. Hagyja ki a „Emlékszik...?” és a „Ki ez?” kérdéseket, helyettük nyitott meghívásokat használjon. Lásd [emlékező tevékenységek](/activities/reminiscence/).
 
-22. **Nézegessenek egy fényképalbumot.** Mondja el, amit lát: „Milyen szép ruha. Meséljen erről a napról.” Fogadja el a neveket, amelyeket a személy használ.
-23. **Készítsen emlékdobozt.** Egy cipősdoboznyi tárgy az életükből, például egy munkakártya vagy egy receptkártya. Egyszerre egy tárgyat vegyenek ki.
-24. **Kezdjen egy életútkönyvet.** Néhány fénykép oldalanként, nagy betűs képaláírásokkal. Segít az új segítőknek megismerni a személyt.
+22. **Nézzenek át egy fotóalbumot.** Mondja el, amit lát: „Milyen ruha! Meséljen erről a napról.” Fogadja el a neveket, amelyeket használnak.
+23. **Készítsen emlékdobozt.** Egy cipősdobozban az életük tárgyai, például egy munkakártya vagy egy receptkártya. Egyszerre egy tárgyat vegyenek ki.
+24. **Kezdjenek életmesekönyvet.** Oldalanként néhány fotó nagybetűs képaláírással. Segít az új segítőknek megismerni a személyt.
 25. **Használjon beszélgetőkártyákat.** A [beszélgetőkártyák](/games/conversation-cards/) képet párosítanak nyitott kérdéssel.
-26. **Készítsen családi fotójátékot.** A [fotópárok](/games/photo-pairs/) a saját fényképeit párosító játékká alakítja.
-27. **Nézzenek házi videókat vagy régi tévéműsorokat.** Közösen kommentálják, ahelyett hogy kérdéseket tennének fel.
-28. **Fogdossanak olyan tárgyakat, amelyek a munkájukhoz tartoztak.** Egy villáskulcs, egy sztetoszkóp, egy főkönyv. A kezek gyakran vezetik a történetet.
-29. **Főzzenek egy gyermekkori ételt.** Kevergethetnek, kóstolhatnak, vagy egyszerűen ülhetnek Önnel a konyhában.
-30. **Nézzenek térképet azokról a helyekről, ahol éltek.** Kövessék az ismerős utakat egy nagy atlaszban, miközben beszélgetnek.
+26. **Készítsen családi fotójátékot.** A [fotópárok](/games/photo-pairs/) saját fotóiból párosító játékot csinálnak.
+27. **Nézzenek otthoni videókat vagy régi tévéműsort.** Inkább kommentáljanak együtt, mint kérdezzenek.
+28. **Fogjanak meg munkaéletükből származó tárgyakat.** Csavarkulcs, sztetoszkóp, főkönyv. A kezek gyakran vezetik a történetet.
+29. **Főzzenek gyermekkori ételt.** Kevergethetnek, kóstolhatnak, vagy egyszerűen ülhetnek Önnel a konyhában.
+30. **Nézzenek térképet a lakóhelyeikről.** Egy nagy atlaszban kövessék az ismerős utakat, miközben beszélgetnek.
 
 ## Kreatív tevékenységek
 
-A művészetben a csinálás a lényeg, nem a kész mű. Tartsa az anyagokat felnőttesnek és biztonságosnak. Lásd a [művészeti és kézműves tevékenységeket](/activities/arts-and-crafts/).
+A művészetben a cselekvés a lényeg, nem a kész mű. Tartsa az anyagokat felnőttesnek és biztonságosnak. Lásd [kézműves tevékenységek](/crafts/easy-crafts-for-adults/).
 
-31. **Festsenek akvarellel.** Vastag papír, néhány szín. Ha a kezdés nehéz, az első vonásokat együtt húzzák meg.
-32. **Színezzenek felnőtt mintákat.** Virágokat vagy takarókat, ne rajzfilmfiguráket. A [színezőlapjaink](/games/coloring/) képernyőn vagy nyomtatva is működnek.
-33. **Készítsenek kollázst.** Tépjenek ki magazinokból kerteket, autókat vagy ételeket ábrázoló képeket, és ragasszák fel. Később a képek kiválasztása is elég.
-34. **Rendezzenek virágot.** Egy bolti csokor és egy váza. Később néhány szár egy üvegben.
-35. **Kössenek vagy horgoljanak együtt.** Egyszerű sorok nagy tűkkel. Később a fonal gombolyítása is.
-36. **Készítsenek kártyákat a családnak.** Születésnapi és felépülést kívánó kártyákat bélyegezzenek, írjanak alá vagy díszítsenek valódi emberek számára.
-37. **Formázzanak levegőn száradó agyagot.** Nyomjanak ki egy kis tálkát. Használjon mérgező anyagoktól mentes anyagokat, és maradjon a közelben.
-38. **Csiszoljanak és kezeljenek fát.** Egy előre vágott madárodú-készlet és csiszolópapír, elektromos szerszám nélkül. Lásd a [férfiaknak szóló tevékenységeket](/activities/for-men/).
-39. **Írjanak vagy diktáljanak egy levelet.** Egy unokának vagy egy régi barátnak. Ha az írás nehéz, ők mesélnek, Ön írja le.
+31. **Festsenek akvarellel.** Vastag papír, néhány szín. Ha nehéz az elkezdés, az első vonásokat közösen vezessék.
+32. **Színezzenek felnőtt mintákat.** Virágokat vagy takarókat, ne rajzfilmfigurákat. A [színezőlapjaink](/games/coloring/) képernyőn vagy nyomtatva is működnek.
+33. **Készítsenek kollázst.** Tépjenek ki magazinokból kerteket, autókat vagy ételeket, és ragasszák fel. Később a képek kiválasztása is elég.
+34. **Rendezzenek virágot.** Egy boltban vett csokor és egy váza. Később néhány szál egy befőttesüvegben.
+35. **Kössenek vagy horgoljanak együtt.** Egyszerű sorok nagy tűkkel. Később fonal gombolyítása.
+36. **Készítsenek kártyákat a családnak.** Bélyegezzenek, írjanak alá vagy díszítsenek születésnapi vagy gyógyulást kívánó kártyákat valódi embereknek.
+37. **Formázzanak levegőn száradó agyagot.** Nyomjanak ki egy kis tálat. Nem mérgező anyagot használjanak, és maradjanak a közelben.
+38. **Csiszoljanak és kezeljenek fát.** Előre vágott madárodú-készlet és csiszolópapír, elektromos szerszám nélkül.
+39. **Írjanak vagy diktáljanak levelet.** Unokának vagy régi barátnak. Ha az írás nehéz, ők mondanak, Ön pedig írja le.
 
-## Kint és kertészkedés
+## Szabadban és kertészkedés
 
-A friss levegő és a napfény jó társaság. Lásd a [szabadtéri és kerti tevékenységeket](/activities/outdoor-and-gardening/).
+A friss levegő és a napfény jó társaság. Lásd [szabadtéri és kerti tevékenységek](/together/outdoor-and-garden-activities/).
 
 40. **Öntözzenek növényeket.** Egy kis kanna és néhány cserép. A napi öntözés ritmust ad a napnak.
-41. **Ültessenek cserepet.** Tegyék az asztalra, hogy senkinek ne kelljen térdelnie. A palántákat könnyebb ültetni, mint a magokat.
-42. **Gyomláljanak vagy metsszék le az elhalt virágokat.** Kesztyűben, egyszerre egy kis ágyást.
-43. **Gereblyézzenek leveleket.** Egy kis foltot. Később a zsák nyitva tartása már valódi munka.
-44. **Sétáljanak egy ismerős útvonalon.** A háztömb körül vagy a postaládáig. Rövidebb is elég.
-45. **Üljenek ki együtt a szabadba.** Egy tornáci szék enyhe napon. Nézhetik a felhőket vagy az elhaladókat.
-46. **Etessenek madarakat.** Töltsenek meg együtt egy etetőt, és nézzék egy ablakból.
-47. **Mossanak autót.** Vödör, szivacs, meleg délután. A kerékdíszek leöblítése jó egylépéses feladat.
+41. **Ültessenek egy cserepet.** Tegyék asztalra, hogy senkinek ne kelljen térdelnie. A palánta könnyebb, mint a mag.
+42. **Gyomláljanak vagy nyírjanak le elhervadt virágokat.** Kesztyűben, egyszerre egy kis ágyásnál.
+43. **Gereblyézzenek leveleket.** Egy kis foltot. Később a zsák nyitva tartása valódi feladat.
+44. **Sétáljanak egy ismerős útvonalon.** A háztömb körül vagy a postaládáig. A rövidebb is jó.
+45. **Üljenek együtt a szabadban.** Egy verandaszék enyhe napon. Nézhetik a felhőket vagy az elhaladókat.
+46. **Etessenek madarakat.** Töltsék meg együtt a madáretetőt, és figyeljék egy ablak melletti üléshelyről.
+47. **Mossanak autót.** Vödör, szivacs, meleg délután. A dísztárcsák öblítése jó, egylépéses feladat.
 
 ## Érzékszervi tevékenységek
 
-Az érintés, az illat, az íz, a hang és a látás egyre fontosabbak, ahogy a demencia előrehalad. Az [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) a késői szakaszban zenét, megfogható tárgyakat és kézmasszázst említ. Először ellenőrizze az allergiákat és a fulladásveszélyt; lásd az [érzékszervi tevékenységeket](/activities/sensory/).
+Az érintés, a szag, az íz, a hang és a látvány a demencia előrehaladtával egyre fontosabbá válik. Az [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) a későbbi szakaszokhoz említi a zenét, a kézbe vehető tárgyakat és a kézmasszázst. Először ellenőrizze az allergiákat és a fulladásveszélyt; lásd [érzékszervi tevékenységek](/creative-calm/sensory-activities-for-adults/).
 
-48. **Adjon kézmasszázst.** Előbb kérdezze meg, és használjon egy kevés krémet. Ha bizonytalan a bőrrel vagy az allergiákkal kapcsolatban, illatmentest válasszon.
-49. **Tapintsanak textíliákat.** Egy kosár bársony, kordbársony, gyapjú és szatén, amelyeket simogathatnak és hajtogathatnak.
-50. **Szagolják meg a fűszernövényeket és a kávét.** Dörzsöljenek az ujjaik között friss mentát vagy rozmaringot. Légzési problémák esetén kerülje az erős illatokat.
-51. **Fésüljék meg a haját.** Lassan és gyengéden, ha ez tetszik neki.
-52. **Használjanak meleg kéztörlőt.** Kézre és arcra egy hideg napon. Előbb ellenőrizze a hőmérsékletet.
-53. **Fedezzenek fel egy tevékenységkötényt.** Nagy gombok és cipzárak, szilárdan felvarrva. Ellenőrizze, hogy semmi ne tudjon leesni.
-54. **Kóstoljanak egy kedvenc finomságot.** Egy kis kanálnyit, olyan állagban, amelyet biztonságosan tud fogyasztani.
+48. **Adjon kézmasszázst.** Előbb kérdezzen rá, és használjon egy kis krémet. Ha bizonytalan a bőrérzékenység vagy az allergia miatt, illatmentes terméket válasszon.
+49. **Tapintsanak textíliákat.** Egy kosárnyi bársony, kordbársony, gyapjú és szatén, amelyet simogathatnak és hajtogathatnak.
+50. **Szagolják meg a fűszernövényeket és a kávét.** Dörzsöljenek friss mentát vagy rozmaringot az ujjaik között. Légzési panaszok esetén kerüljék az erős illatokat.
+51. **Fésüljék meg a hajukat.** Lassan és gyengéden, ha szeretik.
+52. **Használjanak meleg kendőt.** Kézre és arcra hideg napon. Előbb ellenőrizze a hőmérsékletet.
+53. **Fedezzék fel a tevékenységkötényt.** Nagy gombok és cipzárak, erősen felvarrva. Ellenőrizze, hogy semmi ne tudjon leoldódni.
+54. **Kóstoljanak kedvenc finomságot.** Egy kis kanálnyi adag, olyan állagban, amelyet biztonságosan tudnak megenni.
 55. **Hallgassanak természeti hangokat.** Eső, hullámok vagy madárdal halkan.
-56. **Nézzenek valami lassút.** Egy akváriumot, egy természetfilmet vagy hulló havat.
+56. **Nézzenek valami lassút.** Egy akváriumot, természetfilmet vagy hulló havat.
 
-## Játékok és rejtvények
+## Játékok és kirakók
 
-A játékok akkor működnek, ha nincs időzítő, pontszám vagy nyomás. Ha egy játék vizsgának kezd tűnni, tegye el. Lásd a [játékok és alkalmazások kiválasztását](/caregiving/choosing-apps-and-games/) és az [agyi játékokat](/brain-health/brain-games/).
+A játékok akkor működnek, ha nincs időzítő, pontszám vagy nyomás. Ha valamelyik tesztnek kezd tűnni, tegye el. Lásd a [játékok oldalát](/games/) és a [demenciás tevékenységeket otthon](/dementia-activities/).
 
-57. **Párosítsanak képeket.** A [képpárok](/games/picture-pairs/) a képeket felfelé hagyja, így a lényeg a figyelés, nem az emlékezés.
-58. **Keressék meg ugyanazt a képet.** A [Keresse az egyformát](/games/find-the-same/) két-négy választási lehetőséget kínál. Beszélgessenek mindegyik képről.
-59. **Rendezzenek kosarakba.** A [Közös válogatás](/games/sort-together/) olyan, mint a zoknirendezés a képernyőn.
-60. **Rakjanak ki nagy darabos kirakót.** Felnőtt képek, könnyen kezelhető darabszám. A [képkirakó](/games/picture-puzzle/) az egész képet láthatóan tartja. Többet a [demenciához való kirakókról](/activities/puzzles/) olvashat.
-61. **Játsszanak egy régi kártyajátékot.** Azt, amit évekig játszottak. Később a pakli színek szerinti rendezése is játék önmagában.
+57. **Párosítsanak képeket.** A [képpárok](/games/picture-pairs/) képei színükkel felfelé maradnak, így a lényeg a figyelés, nem az emlékezés.
+58. **Keressék meg ugyanazt a képet.** A [keresd meg ugyanazt](/games/find-the-same/) két-négy választást kínál. Beszélgessenek minden képről.
+59. **Rendezzenek kosarakba.** A [rendezzük együtt](/games/sort-together/) olyan, mint a zoknirendezés képernyőn.
+60. **Rakjanak ki nagy darabokból álló kirakót.** Felnőtteknek szóló képek, könnyű darabszám. A [képes puzzle](/games/picture-puzzle/) az egész képet láthatóvá tartja. Több az [asztali játékok és kirakók](/together/puzzles-and-table-games/) oldalon.
+61. **Játsszanak régi kártyajátékot.** Azt, amit évekig játszottak. Később a pakli színek szerinti rendezése is játék lehet.
 62. **Játsszanak dominót.** Illesszék a végeket. Később a kövek sorba rakása is elég.
-63. **Próbáljanak ki nagy betűs szókeresőt.** A [szókeresőnk](/games/word-search/) csak vízszintes és függőleges szavakat tartalmaz, és nyomtatható.
-64. **Fejezzenek be ismerős mondásokat.** A [Fejezze be a mondást](/games/finish-the-saying/) játékkal bármikor megmutathatja a befejezést.
-65. **Játsszanak képes bingót.** A [képes bingó](/games/picture-bingo/) családoknak és csoportoknak való. Szabadon segíthet a kártyák jelölésében.
-66. **Játsszanak dámát.** A szabályokat tartsa lazán. A bábuk mozgatása közben folytatott beszélgetés is számít.
+63. **Próbáljanak nagybetűs szókeresőt.** A [szókeresőnk](/games/word-search/) csak vízszintes és függőleges szavakat tartalmaz, és nyomtatható.
+64. **Fejezzenek be ismert mondásokat.** A [fejezd be a mondást](/games/finish-the-saying/) bármikor megmutatja a befejezést.
+65. **Játsszanak képes bingót.** A [képes bingó](/games/picture-bingo/) családnak és csoportnak is jó. Szabadon segíthetnek a kártyák jelölésében.
+66. **Játsszanak dámát.** Lazán kezeljék a szabályokat. A bábuk mozgatása beszélgetés közben is számít.
 
 ## Mozgás
 
-A NIA sétákat, álló kerékpárt, nyújtógumit, puha labda vagy lufi dobálását, konzervdobozok emelését és idősebb felnőtteknek szóló edzésvideókat javasol. Bármilyen új tevékenység előtt, különösen egyensúlyproblémák esetén, érdemes orvossal konzultálni.
+A NIA sétát, szobakerékpárt, nyújtógumit, puha labda vagy lufi dobálását, levesesdobozok emelését és idősebbeknek készült mozgásvideókat javasol. Új dolog előtt, különösen egyensúlyi problémák esetén, kérdezze meg orvosát.
 
-67. **Dobáljanak lufit.** Egymással szemben ülve. Lassan száll, így könnyű elkapni.
-68. **Kövessenek egy idősebb felnőtteknek készült ülő edzésvideót,** egymás mellett.
-69. **Nyújtózzanak gumiszalaggal.** Gyengéd karhúzások egy könnyű gumiszalaggal ülve.
-70. **Emeljenek konzervdobozokat.** Lassú karemelések, esetleg zenére.
-71. **Üljenek álló kerékpárra.** Néhány könnyű perc, Ön a közelben.
+67. **Dobjanak lufit.** Üljenek egymással szemben. Lassan mozog, ezért könnyű elkapni.
+68. **Kövessenek ülve végezhető mozgásvideót,** idősebbeknek készültet, egymás mellett.
+69. **Nyújtsanak gumiszalaggal.** Ülve, enyhe karhúzások egy könnyű szalaggal.
+70. **Emeljenek levesesdobozokat.** Lassú karemelések, talán zenére.
+71. **Üljenek szobakerékpárra.** Néhány könnyű perc, Ön a közelben.
 72. **Táncoljanak sálakkal.** Könnyű sálakat lengessenek zenére, ülve vagy állva.
-73. **Sétáljanak valamilyen céllal.** Levél feladására vagy egy kávé megvételére. A cél nélkül nem is természetes elindulni.
-74. **Osszanak meg egy légzőszünetet.** Lassuljanak le együtt a [nyugodt légzéssel](/games/calm-breathing/).
+73. **Sétáljanak céllal.** Levél feladására vagy kávéért. Az ok, amiért elindulnak, természetesnek hat.
+74. **Osszanak meg egy légzési szünetet.** Lassítsanak le együtt a [nyugodt légzéssel](/games/calm-breathing/).
 
 ## Társas tevékenységek
 
-A társaság akkor is számít, amikor a nevek nehezen jönnek, és a kis csoportok könnyebbek, mint a nagyok. A NIA megjegyzi, hogy a személy nem biztos, hogy emlékszik a látogatóra, de gyakran még így is élvezi a társaságot. Lásd a [látogatást](/activities/visiting/).
+A társaság akkor is számít, ha a nevek nehezek, és a kis csoportok könnyebbek, mint a nagyok. A NIA megjegyzi, hogy a személy nem biztos benne, kire emlékszik a látogató, de gyakran még mindig élvezi a társaságot. Lásd [látogatás](/together/visiting-someone-in-care/).
 
-75. **Egyszerre egy vagy két látogató.** Rövid látogatások csendes szobában, fényképekkel, amelyeket nézegethetnek.
-76. **Hívjanak családot videóval.** Rövid hívások, egyszerre egy hangon. Lásd a [telefonos és videóhívásokat](/activities/phone-and-video-calls/).
-77. **Próbáljanak ki egy emlékezetkávézót.** Informális, betérős találkozók demenciával élő személyeknek és gondozóiknak. Kérdezze meg a helyi idősügyi szolgálatot (Area Agency on Aging), mi van a közelben.
-78. **Étkezzenek kint csendes időben.** A NIA ismerős, csendes étterem választását javasolja a csúcsidőn kívül, a mosdó közelében lévő asztallal.
-79. **Látogassanak el egy idősek klubjába vagy felnőtt nappali programba.** Társaság nekik, és szünet Önnek.
-80. **Töltsenek időt gyerekekkel.** Egy rövid, nyugodt látogatás az unokáktól, vagy egy képeskönyv felolvasása egy kisgyereknek.
-81. **Osszák meg az újságot a kávé mellett.** Olvassák fel hangosan a címeket. A szertartás fontosabb, mint a hír.
-82. **Segítsenek valakinek másnak.** Hajtsanak össze templomi programokat, vagy készítsenek kártyát egy szomszédnak.
+75. **Egyszerre egy-két látogató.** Rövid látogatások csendes szobában, fotókkal.
+76. **Hívják videóval a családot.** Rövid hívások, egyszerre egy hanggal. Lásd [telefonos és videóhívások](/together/staying-connected-from-afar/).
+77. **Próbáljanak ki egy emlékkávézót.** Informális, betérős találkozók demenciával élő személyeknek és gondozóiknak. Érdeklődjön a helyi Area Agency on Aging szervezetnél, hogy mi van a közelben.
+78. **Étkezzenek kint csendes időben.** A NIA ismerős, csendes étterem választását javasolja a csúcsidőn kívül, mosdó közeli asztallal.
+79. **Látogassanak idősek nappali központját vagy felnőtt napközi programot.** Társaság nekik, pihenő Önnek.
+80. **Töltsenek időt gyerekekkel.** Rövid, nyugodt látogatás unokáktól, vagy képeskönyv felolvasása kisgyereknek.
+81. **Olvassák együtt az újságot kávé mellett.** Olvassák fel hangosan a címeket. A szertartás fontosabb, mint a hír.
+82. **Segítsenek valaki másnak.** Hajtsanak össze templomi programokat, vagy készítsenek kártyát egy szomszédnak.
 
-## Hit és lelki tevékenységek
+## Hit- és lelki tevékenységek
 
-Kövesse a személy saját hagyományát, vagy azt, hogy nincs hite. A NIA ismerős istentiszteleteket, felolvasásokat, egyházi zenét, imát, meditációt és ünnepi szertartásokat javasol.
+Kövesse a személy saját hagyományát, vagy azt, ha nincs ilyen. A NIA ismerős istentiszteleteket, felolvasásokat, szakrális zenét, imát, meditációt és ünnepi szertartásokat javasol.
 
-83. **Látogassanak el egy ismerős istentiszteletre.** Válasszanak egy csendesebbet, üljenek a folyosó közelében, és tájékoztassák az ott lévőket a demenciáról.
-84. **Nézzenek online istentiszteletet** azokon a napokon, amikor a kimozdulás túl sok.
-85. **Imádkozzanak vagy olvassanak együtt.** Ismerős szavak, lassan felolvasva. Azokban a részekben csatlakozhatnak, amelyeket ismernek.
+83. **Látogasson el egy ismerős istentiszteletre.** Válasszon csendesebbet, üljön a folyosó közelében, és szóljon ott, hogy demenciáról van szó.
+84. **Nézzenek istentiszteletet online** azokon a napokon, amikor a kimozdulás túl sok.
+85. **Imádkozzanak vagy olvassanak együtt.** Ismerős szövegeket, lassan olvasva. Csatlakozhatnak azokban a részekben, amelyeket ismernek.
 86. **Énekeljenek egyházi énekeket vagy szakrális zenét** a hagyományukból.
-87. **Tartsák meg az ünnepi szokásokat.** Elemes gyertyák, egy áldás, azok a díszek, amelyeket mindig használtak.
-88. **Osszanak meg csendes időt.** Üljenek együtt a kertben, vagy nézzék együtt a naplementét.
+87. **Tartsák meg az ünnepi szertartásokat.** Elemes gyertyák, áldás, a díszek, amelyeket mindig használtak.
+88. **Osszanak meg csendes időt.** Üljenek együtt a kertben, vagy nézzék a naplementét.
 
 ## Háziállatok és állatok
 
-A NIA azt javasolja, hogy etessék, ápolják, sétáltassák, vagy üljenek a háziállat mellett, és tartsák az ölükben.
+A NIA azt javasolja, hogy etessék, ápolják, sétáltassák, vagy üljenek a háziállat mellett, és tartsák azt.
 
 89. **Kefélje meg egy nyugodt kutyát vagy macskát** hosszú, lassú mozdulatokkal.
-90. **Etessék meg együtt a háziállatot.** Ön méri ki, ők öntik.
+90. **Etessék együtt az állatot.** Ön méri ki, ők öntik.
 91. **Sétáltassák együtt a kutyát.** Ön tartja a pórázt.
-92. **Tartsanak egy háziállatot az ölükben.** Egy nyugodt macska egy takarón nagyon megnyugtató lehet.
-93. **Fogadjanak látogató állatokat.** Egyes idősotthonok és nappali programok állatlátogatásokat szerveznek. Kérdezze meg helyben.
-94. **Kínáljon életszerű plüss állatot.** Ha nincs háziállat, egyesek szeretnek egy valósághű plüssmacskát vagy -kutyát tartani. Egyszerűen ajánlja fel, soha ne játékként, és fogadja el a nemet.
+92. **Tartsanak állatot az ölükben.** Egy nyugodt macska takarón nagyon megnyugtató lehet.
+93. **Fogadjanak látogató állatokat.** Egyes idősotthonok és nappali programok állatlátogatást szerveznek. Érdeklődjön helyben.
+94. **Kínáljon életszerű plüssállatot.** Ha nincs háziállat, egyesek szeretnek egy élethű plüssmacskát vagy kutyát tartani. Egyszerűen ajánlja fel, soha nem játékként, és fogadja el a nemet.
 
-## Évszakos tevékenységek
+## Szezonális tevékenységek
 
-Tartsa meg a hagyományokat, de egyszerűbben. A NIA azt javasolja, hogy legyenek reálisak, és az ünnepek forgatagában legyen csendes hely a szüneteknek.
+Tartsa meg a hagyományokat, de egyszerűbben. A NIA azt javasolja, legyen reális, és legyen csendes hely a pihenésre az elfoglalt ünnepek alatt.
 
-95. **Díszítsenek az évszakhoz.** Egy tök, egy koszorú vagy friss virágok az asztalon.
-96. **Készítsenek ünnepi finomságot.** Nyújtsanak tésztát vagy cukrozzanak sütiket. A sütőt Ön kezeli.
-97. **Akasszanak fel díszeket.** Törhetetlen díszeket, egyesével átadva.
-98. **Autózzanak a fényeket megnézni.** Egy rövid esti autókázás csak társaságot kíván.
-99. **Ültessenek tavaszi hagymákat.** Ősszel nyomják a hagymákat egy cserépbe, és figyeljék a hajtásokat.
-100. **Hántsanak kukoricát vagy hüvelyezzenek borsót.** Egy nyári tornáci munka, egy tál az ölükben.
-101. **Címezzenek ünnepi képeslapokat.** Ők aláírnak, bélyegeznek vagy lezárnak; Ön kezeli a címeket.
+95. **Díszítsen a szezonnak megfelelően.** Egy tök, koszorú vagy friss virág az asztalon.
+96. **Készítsenek ünnepi finomságot.** Tésztát nyújtanak vagy sütiket cukroznak. A sütőt Ön kezeli.
+97. **Akasszanak díszeket.** Törhetetlen díszek, egyszerre egyet adva át.
+98. **Nézzék meg a fényeket.** Egy rövid esti autózás csak társaságot igényel.
+99. **Ültessenek tavaszi hagymákat.** Ősszel nyomják a hagymákat cserépbe, és figyeljék a hajtásokat.
+100. **Morzsoljanak kukoricát vagy pattantsanak ki borsót.** Nyári verandamunka, tál az ölben.
+101. **Címezzenek ünnepi kártyákat.** Ők aláírnak, bélyegeznek vagy lezárnak; Ön kezeli a címeket.
 
-## Mi van, ha egy tevékenység nem működik?
+## Mi a teendő, ha egy tevékenység nem működik?
 
-Hagyja abba, és próbáljon meg mást később. A NIA azt javasolja, hogy figyeljen a frusztráció jeleire, és hagyja, hogy a személy csak nézze a dolgot, ha ezt részesíti előnyben. A nemet mondás gyakran azt jelenti, hogy a feladat túl nehéz, rossz az időpont, vagy valami más zavarja, például fájdalom, éhség vagy zaj. Tegye kisebbé, próbálja korábban a napon, vagy kezdje el maga, és nézze meg, csatlakoznak-e. Lásd: [mit tegyen, ha nemet mondanak](/caregiving/when-they-say-no/) és [a késő délutáni nyugtalanságot](/caregiving/late-day-restlessness/).
+Hagyja abba, és máskor próbáljon valami mást. A NIA azt javasolja, figyeljen a frusztrációra, és hagyja, hogy a személy egyszerűen nézze, ha úgy jobban szereti. A nem gyakran azt jelenti, hogy a feladat túl nehéz, rossz az idő, vagy valami más zavarja, például fájdalom, éhség vagy zaj. Tegye kisebbé, próbálja korábban a nap folyamán, vagy kezdje el maga, és nézze meg, csatlakoznak-e. Lásd [amikor nemet mondanak](/caregiving/when-they-say-no/) és [nyugodt délutáni tevékenységek](/creative-calm/calm-afternoon-activities/).
 
-A tevékenységek étkezések és pihenés közé illesztéséhez lásd a [nyugodt napi rutint](/activities/daily-routine/). Az előre elkészítendő anyagokhoz lásd a [nyomtatható tevékenységeket](/activities/printable/), ha pedig csoportot vezet, a [csoportos tevékenységeket gondozóotthonoknak](/activities/care-home-groups/). Az Ön pihenése is számít: lásd a [gondozói öngondoskodást](/caregiving/caregiver-self-care/).
+A tevékenységek étkezések és pihenők közé illesztéséhez lásd a [nyugodt délutáni tevékenységeket](/creative-calm/calm-afternoon-activities/). Az előre elkészítendő dolgokhoz nézze meg a [játékok oldalának ingyenes nyomtatványait](/games/), csoportot vezetve pedig az [idősotthoni csoportos tevékenységeket](/crafts/craft-group-sessions/). Az Ön pihenése is számít: lásd az [öngondoskodás gondozóknak](/creative-calm/creative-self-care-for-caregivers/) oldalt.

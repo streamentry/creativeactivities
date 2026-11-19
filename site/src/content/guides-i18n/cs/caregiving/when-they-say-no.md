@@ -1,29 +1,34 @@
 ---
-title: "Když člověk s demencí odmítá nebo se na aktivitu zlobí"
+title: "Když se člověk s demencí aktivitě brání nebo se rozčílí"
 seoTitle: "Když člověk s demencí aktivitu odmítá"
-description: "Proč člověk s demencí může aktivitu odmítat nebo se na ni rozzlobit, co zkusit místo toho, čemu se vyhnout a kdy náhlá změna vyžaduje lékaře."
+description: "Proč se člověk žijící s demencí může aktivitě bránit nebo se u ní rozčílit, co zkusit místo ní, čeho se vyvarovat a kdy je potřeba neprodleně kontaktovat lékaře."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Když člověk s demencí řekne ne, přijměte to klidně a zkuste to později, nebo nabídněte něco jiného. Odmítnutí často má důvod: úkol se zdá příliš těžký nebo dětinský, je unavený, bolí ho něco, má hlad nebo ho přetěžuje hluk. Nehádejte se a netrvejte na svém. Zjednodušte, nabídněte dvě možnosti nebo požádejte o pomoc. Náhlé nebo rychle se měnící chování, zejména po infekci nebo novém léku, potřebuje lékaře hned.
+  Když člověk s demencí řekne ne, přijměte to klidně a zkuste to znovu později
+  nebo nabídněte něco jiného. Odmítnutí má často důvod: úkol se mu zdá příliš
+  těžký nebo dětinský, je unavený, bolí ho něco, má hlad nebo ho zahltí hluk.
+  Nehádejte se a netrvejte na svém. Zjednodušte úkol, nabídněte dvě možnosti
+  nebo poproste o pomoc. Náhlé nebo rychle se měnící chování, zejména po infekci
+  nebo nově nasazeném léku, vyžaduje rychlou návštěvu lékaře.
 keyPoints:
-  - "„Ne“ je odpověď, kterou je třeba respektovat, ne problém, který je třeba překonat."
-  - "Odmítnutí obvykle má příčinu: je to příliš těžké, příliš dětinské, člověk je unavený, nemocný, nepohodlný nebo přetížený."
-  - "Ustupte, počkejte a zkuste to později, v jinou dobu nebo v jednodušší verzi."
-  - "Žádost o pomoc funguje lépe než žádost, aby člověk něco předvedl."
-  - "Nehádejte se, netrvejte, neptejte se a neopravujte. Zkontrolujte sami sebe, zda nespěcháte nebo na něj netlačíte."
-  - "Náhlé nebo rychle se měnící chování, zejména s infekcí nebo novými léky, vyžaduje okamžitou návštěvu lékaře."
+  - "„Ne“ je odpověď, kterou je třeba respektovat, a ne problém, který je třeba překonat."
+  - "Odmítnutí má obvykle příčinu: je to příliš těžké, dětinské, člověk je unavený, nemocný, nepohodlně mu nebo je zahlcený."
+  - "Ustupte, počkejte a zkuste to později, v jiný čas nebo s jednodušší verzí."
+  - "Požádat o pomoc funguje lépe než žádat, aby něco předvedl."
+  - "Nikdy se nehádejte, netrvejte na svém, neptejte se jako u zkoušky a neopravujte. Zkontrolujte, zda nespěcháte nebo na něj nenaléháte."
+  - "Náhlé nebo rychle se měnící chování, zejména při infekci nebo po nových lécích, je třeba okamžitě konzultovat s lékařem."
 faq:
-  - q: "Je v pořádku nechat je některé aktivity úplně vynechat?"
-    a: "Ano, v konkrétní den. Sedět spolu, poslouchat hudbu nebo sledovat, jak svět plyne, může stačit. Pokud někdo týdny přestává mít rád všechno, zmiňte to lékaři, protože za tím může stát nízká nálada, bolest nebo jiné zdravotní potíže."
-  - q: "Proč odmítají věci, které dřív milovali?"
-    a: "Starý koníček se může proměnit ve frustraci, pokud teď vyžaduje dovednosti, které demence ztížila, a člověk se může cítit trapně. Zkuste jednodušší část téhož, například třídění knoflíků místo šití, nebo prohlížení obrázků zahrady místo sázení."
-  - q: "Mám se je snažit přesvědčit?"
-    a: "Ne. Tlačení někoho, aby dělal něco, co mu demence ztížila, je známý spouštěč neklidu. Přijměte ne, změňte téma a nabídněte to znovu později nebo jinak."
-  - q: "Kdy je změna chování nouze?"
-    a: "Pokud je někdo v ohrožení nebo má známky náhlé zdravotní nouze, volejte 112. U náhlé zmatenosti nebo chování, které se během hodin nebo dnů rychle mění, zejména s horečkou, infekcí nebo novým lékem, kontaktujte jeho lékaře okamžitě."
+  - q: "Je v pořádku, když některé aktivity úplně vynechá?"
+    a: "Ano, některé dny. Společné sezení, poslech hudby nebo pozorování dění venku může stačit. Pokud přestane během několika týdnů bavit úplně všechno, zmiňte to jeho lékaři, protože za tím mohou stát špatná nálada, bolest nebo jiné zdravotní potíže."
+  - q: "Proč odmítá věci, které dřív miloval?"
+    a: "Oblíbený koníček se může stát frustrujícím, když vyžaduje dovednosti, které mu demence ztížila, a člověk se může cítit trapně. Zkuste jednodušší část téže činnosti, například třídění knoflíků místo šití, nebo prohlížení obrázků zahrad místo sázení."
+  - q: "Mám se ho snažit přesvědčit?"
+    a: "Ne. Tlak na to, aby člověk dělal něco, co mu demence ztěžuje, je známý spouštěč neklidu. Přijměte odmítnutí, změňte téma a nabídněte to znovu později nebo jiným způsobem."
+  - q: "Kdy je změna chování naléhavá?"
+    a: "Pokud je někdo v ohrožení nebo má známky náhlého zdravotního stavu, volejte 911. Při náhlé zmatenosti nebo chování, které se během hodin nebo dnů rychle mění, zejména při horečce, infekci nebo novém léku, neprodleně kontaktujte jeho lékaře."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -45,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Vše připravíte, nabídnete hru nebo procházku a slyšíte „Ne“. Nebo aktivita začne dobře a skončí odstrčeným tabletem a ostrým slovem. Je to skličující a je to velmi časté. Odmítání a frustrace jsou obvykle zpráva, ne tvrdohlavost. Zjištění, co ta zpráva znamená, vám často ukáže, co zkusit příště.
+Všechno připravíte, nabídnete hru nebo procházku a slyšíte „Ne“. Nebo aktivita začne dobře a skončí odstrčeným tabletem a ostrým slovem. Je to skličující a velmi časté. Odmítání a frustrace bývají spíš zprávou než tvrdohlavostí. Když zjistíte, co tím člověk sděluje, často vám to ukáže, co zkusit dál.
 
 ## Proč člověk s demencí aktivity odmítá?
 
-Obvykle je k tomu důvod, i když ho člověk nedokáže vyjádřit slovy. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) uvádí, že odpor může znamenat, že člověk úkol nezvládne nebo se bojí to zkusit. Mezi časté příčiny patří:
+Obvykle je k tomu důvod, i když ho člověk nedokáže vyjádřit slovy. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) upozorňuje, že odpor může znamenat, že úkol nezvládne nebo se o jeho zkoušení bojí. Mezi časté příčiny patří:
 
-- **Zdá se to příliš těžké.** Aktivita teď vyžaduje dovednosti, které demence ztížila, a selhání před někým je trapné.
-- **Zdá se to dětinské.** Dospělí si všimnou karikaturních obrázků, sladkého hlasu a aktivit, které vypadají, jako by byly určeny pro děti.
-- **Únava.** Mnoho lidí má pozdě během dne méně energie. Viz [klidné aktivity pozdě odpoledne](/caregiving/late-day-restlessness/).
-- **Fyzické nepohodlí.** [Národní institut pro stárnutí (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) mezi možné příčiny tísně uvádí bolest, nedostatek spánku, potíže se zrakem nebo sluchem, zácpu, hlad, žízeň a vedlejší účinky nových léků.
-- **Příliš mnoho podnětů.** Hlasitá televize, několik rozhovorů nebo přeplněná místnost mohou být přetěžující.
-- **Pocit nátlaku.** NIA jako příčinu neklidu uvádí, že člověk je nucen dělat něco, co mu Alzheimerova choroba velmi ztížila, nebo si vzpomenout na události či lidi.
-- **Nízká nálada.** Ztráta zájmu o věci může být známkou deprese, o které stojí za to mluvit s lékařem.
-- **Prostě nechtějí.** Dospělí mají právo říct ne.
+- **Připadá mu to příliš těžké.** Aktivita teď vyžaduje dovednosti, které mu demence ztížila, a selhání před někým je trapné.
+- **Připadá mu to dětinské.** Dospělí si všimnou kreslených obrázků, písničkového tónu hlasu a aktivit, které vypadají, jako by byly určeny dětem.
+- **Únava.** Mnoho lidí má k večeru méně energie. Viz [klidné odpolední aktivity](/creative-calm/calm-afternoon-activities/).
+- **Tělesná nepohoda.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) uvádí jako možné příčiny tísně bolest, nedostatek spánku, potíže se zrakem nebo sluchem, zácpu, hlad, žízeň a vedlejší účinky nových léků.
+- **Příliš mnoho podnětů.** Hlasitá televize, několik rozhovorů najednou nebo přeplněná místnost může být zahlcující.
+- **Pocit nátlaku.** NIA jako příčinu neklidu uvádí situaci, kdy člověka nutíte dělat něco, co mu Alzheimerova choroba velmi ztížila, nebo si vybavovat události či lidi.
+- **Špatná nálada.** Ztráta zájmu o věci může být známkou deprese, o které je dobré mluvit s lékařem.
+- **Prostě nechce.** Dospělí mají právo říct ne.
 
-## Co zkusit, když řeknou ne?
+## Co zkusit, když řekne ne?
 
-Klidně přijměte ne, pak něco změňte: čas, aktivitu, obtížnost nebo způsob, jakým se ptáte.
+Přijměte odmítnutí klidně a pak něco změňte: čas, aktivitu, obtížnost nebo způsob, jakým se ptáte.
 
-1. **Nechte to prozatím být.** „To nevadí. Možná později.“ Pak přejděte k něčemu jinému bez povzdechnutí.
-2. **Zkuste to později.** Alzheimer's Association doporučuje zkusit to znovu později nebo v jiné denní době.
-3. **Zmenšete to.** Jeden pár místo celé hry. Jeden ručník místo koše s prádlem. Méně obrázků, méně voleb, obrázky ponechte viditelné.
+1. **Nechte to prozatím být.** „To je v pořádku. Možná později.“ Pak přejděte k něčemu jinému bez povzdechu.
+2. **Zkuste to později.** Alzheimer's Association doporučuje zkusit to znovu později nebo v jinou denní dobu.
+3. **Zmenšete úkol.** Jeden zápas místo celé hry. Jeden ručník místo koše s prádlem. Méně obrázků, méně možností, obrázky ponechte na očích.
 4. **Nabídněte dvě možnosti.** „Chcete se podívat na obrázky ptáků, nebo si poslechnout hudbu?“ Volba vrací pocit kontroly.
-5. **Požádejte o pomoc místo předvádění.** „Pomůžete mi s těmihle věcmi?“ nebo „Řekněte mi, která barva vypadá nejlépe?“ Být potřebný je něco úplně jiného než být zkoušen.
-6. **Začněte to sami.** Začněte aktivitu vedle něj bez ptaní. Mnoho lidí se přidá, jakmile něco probíhá, a pokud se nepřidají, stejně jste strávili čas spolu.
-7. **Přejděte k něčemu fyzickému nebo uklidňujícímu.** Krátká procházka, hudba, svačina, skládání prádla nebo společná pauza [klidné dýchání](/games/calm-breathing/). NIA doporučuje přesměrovat pozornost na hudbu, knihu nebo procházku.
-8. **Nechte ho dělat to po svém.** Pokud chce hrát jinak, než říkají pravidla, nechte to tak. Alzheimer's Association radí být pružný.
+5. **Požádejte o pomoc místo předvádění.** „Mohli byste mi pomoct roztřídit tyhle?“ nebo „Která barva podle vás nejlépe vypadá?“ Být potřebný je něco úplně jiného než být zkoušen.
+6. **Začněte sami.** Pusťte se do činnosti vedle něj, aniž byste se ptali. Mnoho lidí se připojí, jakmile něco probíhá, a když ne, přesto jste spolu strávili čas.
+7. **Přejděte k něčemu pohybovému nebo uklidňujícímu.** Krátká procházka, hudba, svačina, skládání prádla nebo společná pauza na [klidné dýchání](/games/calm-breathing/). NIA doporučuje přesměrovat pozornost k hudbě, knize nebo procházce.
+8. **Nechte ho, ať to udělá po svém.** Pokud chce hrát jinak, než říkají pravidla, nechte ho. Alzheimer's Association radí být pružní.
 
-## Co říct, když se rozzlobí?
+## Co říct, když se rozčílí?
 
-Zpomalte, ztište hlas a uklidňujte. [Pokyny Alzheimer's Association k neklidu](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) doporučují ustoupit a zeptat se na svolení, používat klidná, pozitivní vyjádření a nabídnout vedenou volbu mezi dvěma možnostmi. Fráze v tomto duchu:
+Zpomalte, ztište hlas a uklidňujte. [Pokyny Alzheimer's Association k neklidu](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) doporučují ustoupit a zeptat se na svolení, používat klidná, pozitivní vyjádření a nabídnout volbu mezi dvěma možnostmi. Fráze v tomto duchu:
 
-- „Je mi to líto, tohle je otravné. Přestaneme.“
-- „Děláte to dobře. Jsem hned tady.“
-- „Máte teď chvilku na něco jiného?“
-- „Dáme si místo toho čaj?“
+- „Je mi líto, tohle je otravné. Přestaneme.“
+- „Zvládáte to dobře. Jsem tu s vámi.“
+- „Nepomůžete mi s něčím jiným?“
+- „Dáme si raději šálek čaje?“
 
-Pak aktivitu ukončete, aniž byste z toho dělali velkou věc. Naše [tipy ke komunikaci](/caregiving/communication-tips/) nabízejí více o tom, co říct.
+Potom aktivitu ukončete bez velkého rozruchu. Stránka [první kroky po diagnóze](/caregiving/after-dementia-diagnosis/) je dobrým výchozím bodem pro podporu.
 
 ## Čemu se vyhnout?
 
-Některé přirozené reakce obvykle situaci zhorší.
+Některé přirozené reakce mají tendenci situaci zhoršit.
 
-- **Hádání nebo naléhání.** „Ale no tak, ještě jednou“ nebo „Vy to přece milujete“ obvykle nepomůže.
-- **Vyptávání nebo opravování.** „Přece víte, co to je“ nebo „Ne, tenhle je špatně“ přidává tlak.
-- **Brát to osobně.** NIA připomíná pečujícím, že za tyto změny stojí nemoc, ne člověk.
-- **Natlačení se na něj nebo spěch.** Alzheimer's Association radí nezvyšovat hlas, neprojevovat poplach, nezahánět do kouta, nestrkat, nezadržovat, nekritizovat, neignorovat a nehádat se, a vyhýbat se náhlým pohybům mimo jeho zorné pole.
-- **Vyvolávání viny.** „Všechno bylo připravené jen kvůli vám“ nechá oba cítit se hůř.
-- **Nálepkování.** „Tvrdohlavý“ nebo „těžký“ skrývá skutečný důvod a ztěžuje řešení.
+- **Hádání se nebo trvání na svém.** „No tak, ještě jednou“ nebo „Vždyť to milujete“ málokdy pomůže.
+- **Vyptávání nebo opravování.** „Víte, co to je?“ nebo „Ne, tohle je špatně“ přidává tlak.
+- **Brát to osobně.** NIA připomíná pečujícím, že tyto změny způsobuje nemoc, ne člověk.
+- **Tlak nebo spěch.** Alzheimer's Association radí nezvyšovat hlas, neprojevovat poplach, nezahánět člověka do kouta, netísnit ho, fyzicky mu nebránit v pohybu, nekritizovat, neignorovat ho ani se s ním nehádat a vyhnout se prudkým pohybům mimo jeho zorné pole.
+- **Vyvolávání viny.** „Všechno jsem tohle pro vás připravil“ zanechá vás oba se špatným pocitem.
+- **Nálepkování.** „Tvrdohlavý“ nebo „těžký“ skryje skutečný důvod a ztíží řešení.
 
-## Jak zjistit, co stojí za opakovaným odmítáním?
+## Jak zjistit, co stojí za opakovanými odmítnutími?
 
-Veďte si jednoduchý záznam za týden nebo dva. NIA uvádí, že sledování změn chování může pomoci pečujícím a zdravotnickým pracovníkům rozpoznat vzorec a přijít na příčinu.
+Po týden nebo dva si vedte jednoduché poznámky. NIA uvádí, že sledování změn chování může pečujícím a zdravotníkům pomoci rozpoznat vzorec a přijít na příčinu.
 
-Zapisujte:
+Zapište si:
 
 - denní dobu;
 - co jste nabídli a jak jste se zeptali;
 - co se dělo kolem vás (hluk, návštěvy, televize);
-- jak spal, jedl a pil a kdy naposledy šel na toaletu;
-- případné nové léky nebo nedávné onemocnění.
+- jak spal, jedl a pil a kdy naposledy šel na záchod;
+- nová léčiva nebo nedávné onemocnění.
 
-Vzorce se často objeví rychle: odmítnutí, která přicházejí jen po 4. hodině odpoledne, jen u určité hry nebo jen když běží televize. [Průvodce Family Caregiver Alliance k chování při demenci](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) to shrnuje jednoduše: člověka změnit nemůžeme, ale můžeme změnit své vlastní chování a prostředí.
+Vzorce se často objeví rychle: odmítání jen po 4 odpoledne, jen u určité hry nebo jen když běží televize. Průvodce Family Caregiver Alliance k [chování při demenci](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) to shrnuje jednoduše: člověka změnit nemůžeme, ale můžeme změnit své chování a prostředí.
 
-## Kdy mluvit s lékařem o odmítání nebo frustraci?
+## Kdy se kvůli odmítání nebo rozčilování obrátit na lékaře?
 
-Mluvte s lékařem, když se chování změní náhle, rychle, nebo spolu s příznaky nemoci. NIA uvádí, že náhlé nebo rychle kolísavé změny chování, zejména pokud člověk prodělal infekci nebo nedávno změnil léky, je třeba okamžitě nahlásit lékaři.
+Obraťte se na lékaře, když se chování změní náhle, rychle nebo spolu s příznaky nemoci. NIA uvádí, že náhlé nebo rychle kolísavé změny chování, zejména pokud člověk prodělal infekci nebo nedávno změnil léky, je třeba neprodleně oznámit lékaři.
 
 Kontaktujte jeho lékaře co nejdříve, pokud si všimnete:
 
 - náhlé zmatenosti nebo velké změny během hodin či dnů;
-- známek bolesti, například křivení obličeje, chránění části těla nebo nových potíží s pohybem;
+- známek bolesti, například úšklebků, chránění části těla nebo nových potíží s pohybem;
 - horečky nebo jiných známek infekce;
-- nových nebo změněných léků a následné změny chování;
-- ztráty zájmu téměř o všechno, slzavosti nebo stahování se trvajícího déle než pár týdnů;
+- nových nebo změněných léků, po nichž následuje změna chování;
+- ztráty zájmu téměř o všechno, uslzenosti nebo stažení se, které trvá déle než několik týdnů;
 - odmítání jídla nebo pití.
 
-Alzheimer's Association doporučuje důkladnou lékařskou prohlídku každému, kdo má projevy chování, zejména pokud se objeví náhle. Family Caregiver Alliance také radí nejdřív se poradit s lékařem, protože problémy s chováním mohou mít zdravotní příčinu. Nezačínejte, nepřestávejte ani neměňte žádný lék bez rozhovoru s lékařem nebo lékárníkem.
+Alzheimer's Association doporučuje důkladnou lékařskou prohlídku každému, kdo má projevy změn chování, zejména pokud se objevily náhle. Family Caregiver Alliance také radí nejdřív se poradit s lékařem, protože problémy s chováním mohou mít zdravotní příčinu. Nezahajujte, nevysazujte ani neměňte žádný lék bez konzultace s lékařem nebo lékárníkem.
 
-Pokud je někdo v ohrožení nebo jsou známky zdravotní nouze, volejte 112. NIA doporučuje říct operátorovi, že člověk má demenci.
+Pokud je někdo v ohrožení nebo jsou známky náhlého zdravotního stavu, volejte 911. NIA doporučuje říct operátorovi, že člověk má demenci. Pokud se hněv změní v násilí, odejděte a požádejte lékaře nebo pečující tým o radu.
 
-## Je v pořádku, když neděláme vůbec nic?
+## Je v pořádku, když neuděláme vůbec nic?
 
-Ano. Některé dny je nejlepší aktivitou žádná aktivita: sedět spolu, držet se za ruce, poslouchat oblíbenou desku nebo pozorovat ptáky za oknem. To není selhání. Náš [návod, jak hrát společně](/caregiving/how-to-play-together/), vysvětluje, proč může být správné skončit brzy, nebo vůbec nezačít.
+Ano. Některé dny je nejlepší aktivitou žádná aktivita: sedět spolu, držet se za ruce, poslouchat oblíbenou desku nebo sledovat ptáky za oknem. To není selhání. Náš [průvodce společným hraním](/caregiving/how-to-play-together/) vysvětluje, proč může být správné skončit brzy, nebo vůbec nezačít.
