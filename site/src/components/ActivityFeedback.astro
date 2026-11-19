@@ -15,7 +15,7 @@ interface Props {
 }
 const { activity } = Astro.props;
 ---
-<section class="activity-feedback no-print" aria-labelledby="feedback-heading" data-activity-feedback={activity} hidden>
+<section id="activity-feedback" class="activity-feedback no-print" aria-labelledby="feedback-heading" data-activity-feedback={activity} hidden>
   <h2 id="feedback-heading">Did you try this?</h2>
   <p class="activity-feedback__intro">Your answer helps us make better cards. We record the activity and your choice, not who took part.</p>
 

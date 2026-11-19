@@ -75,6 +75,9 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
               <p class="weekly-program__name">
                 <a href={`/activity/${week[i]?.id}/`} data-name>{week[i]?.data.name}</a>
               </p>
+              <p class="weekly-program__feedback no-print">
+                <a href={`/activity/${week[i]?.id}/#activity-feedback`} data-not-fit aria-label={`This didn't fit: ${week[i]?.data.name}`}>This didn't fit</a>
+              </p>
               <p><strong>With the group:</strong> <span data-group>{week[i]?.group}</span></p>
               <p><strong>One to one:</strong> <span data-one>{week[i]?.oneToOne}</span></p>
             </li>
@@ -114,6 +117,12 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
       if (name) {
         name.textContent = entry.name;
         name.href = `/activity/${select.value}/`;
+      }
+      // The same route the card page uses (WEB-026): its feedback section, which opens with the page's script.
+      const notFit = day.querySelector<HTMLAnchorElement>('[data-not-fit]');
+      if (notFit) {
+        notFit.href = `/activity/${select.value}/#activity-feedback`;
+        notFit.setAttribute('aria-label', `This didn't fit: ${entry.name}`);
       }
       const group = day.querySelector('[data-group]');
       if (group) group.textContent = entry.group;

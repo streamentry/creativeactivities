@@ -30,7 +30,10 @@ export const STEP_PT = { card: 12, pack: 12, largePrint: 18 };
 const LARGE_PRINT_PAGES = 5;
 /** A cover and two pages for each of five cards. */
 const FIXED_PACK_PAGES = 12;
-const WEEKLY_PROGRAM_PAGES = 2;
+/** The weekly programme (WEB-045) prints as one page per week: one sheet, on both paper sizes. */
+const WEEKLY_PROGRAM_PAGES = 1;
+/** A weekly plan (WEB-031) prints one sheet per path week and one blank week; each sheet is one page, so the total is the sheet count. */
+const PATH_WEEKLY_PLAN_SHEETS = 5;
 /** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
 const PROFESSIONALS_HANDOUT_PAGES = 1;
 /** CNT-014 (adult variant): the care-settings page has three staff summaries, a family note and a permission template. */
@@ -346,6 +349,15 @@ async function main() {
       if (!ok) failures.push({ slug: `paths/${id}`, counts, paper });
       record('path', ok);
       console.log(`path: ${id.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  left off the paper ${paper.offTotal - paper.offShown}/${paper.offTotal}  on the paper ${paper.onTotal - paper.onHidden}/${paper.onTotal}  ${ok ? 'ok' : 'FAIL'}`);
+      // The weekly plan (WEB-031): the sheets print only when the page asks for them, one page each, on both paper sizes.
+      await page.evaluate(() => { document.body.dataset.printPlan = 'true'; });
+      const sheets = await page.evaluate(() => document.querySelectorAll('.weekly-plan').length);
+      const planCounts = {};
+      for (const format of FORMATS) planCounts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+      const planOk = sheets === PATH_WEEKLY_PLAN_SHEETS && FORMATS.every((f) => planCounts[f] === PATH_WEEKLY_PLAN_SHEETS);
+      if (!planOk) failures.push({ slug: `weekly plan: ${id}`, sheets, planCounts });
+      record('weekly plan', planOk);
+      console.log(`weekly plan: ${id.padEnd(37)} sheets ${sheets}  A4 ${planCounts.A4}  Letter ${planCounts.Letter}  ${planOk ? 'ok' : 'FAIL'}`);
       await page.close();
       pathsChecked += 1;
     }

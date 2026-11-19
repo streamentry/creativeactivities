@@ -47,6 +47,18 @@
   font-size: 1.25rem;
   font-weight: 700;
 }
+/* Screen only: the feedback link is a target of its own, tall enough to tap. */
+.weekly-program__feedback a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  color: var(--gm-primary);
+  font-weight: 600;
+}
+.weekly-program__feedback a:focus-visible {
+  outline: 3px solid var(--gm-primary-container);
+  outline-offset: 3px;
+}
 @media print {
   @page {
     margin: 10mm;

@@ -12,6 +12,7 @@ import { TYPE_LABELS, listedActivities, minutesRange } from '../lib/activities';
 import { weekMinutes } from '../lib/paths';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { SITE } from '../lib/site';
+import { PLAN_TEXT, planLines, type PlanItem } from '../lib/weekly-plan';
 
 interface Props {
   path: PathDef;
@@ -49,6 +50,19 @@ const jsonLd = [
   itemList(path.title, weeks.flatMap((w) => w.activities).map((a) => ({ path: `/activity/${a.id}/`, name: a.name }))),
 ];
 const others = PATHS.filter((p) => p.id !== path.id);
+// WEB-031: one printed sheet per week, one line per day, with each card's own time; then a blank week by hand.
+const planItem = (slug: string): PlanItem => {
+  const card = cards.get(slug);
+  if (!card) throw new Error(`Path ${path.id} lists an activity that is missing or withdrawn: ${slug}`);
+  return { id: card.id, name: card.data.name, time: minutesRange(card.data.activityMinutes) };
+};
+const planSheets = [
+  ...path.weeks.map((week, i) => {
+    const items = week.activities.map(planItem);
+    return { key: `week-${i + 1}`, heading: `Week ${i + 1} of ${path.weeks.length}: ${week.title}`, lines: planLines(items), items };
+  }),
+  { key: 'blank', heading: PLAN_TEXT.blankHeading, lines: planLines([]), items: [] as PlanItem[] },
+];
 ---
 <BaseLayout title={path.seoTitle} description={path.description} image="/og/activities.png" jsonLd={jsonLd} noindex>
   <Breadcrumbs items={crumbs} />
@@ -71,6 +85,10 @@ const others = PATHS.filter((p) => p.id !== path.id);
     <p class="path-plan__nojs no-print">The start and skip buttons need JavaScript. The four weeks are below to read and print.</p>
     <PathPlan client:load pathId={path.id} weeks={weeks} allPathIds={PATHS.map((p) => p.id)} address={SITE.domain} />
 
+    <div class="btn-row no-print weekly-plan-tools" data-plan-tools hidden>
+      <p>{PLAN_TEXT.printNote}</p>
+      <button type="button" class="btn" data-print-plan hidden>{PLAN_TEXT.printButton}</button>
+    </div>
 
     <p class="path-stop">{path.stopNote}</p>
     <p class="activity-scope">{SCOPE_LINE}</p>
@@ -99,8 +117,55 @@ const others = PATHS.filter((p) => p.id !== path.id);
       </p>
     </footer>
   </div>
+  <div class="weekly-plan-sheets">
+    {
+      planSheets.map((sheet) => (
+        <section class="weekly-plan" aria-labelledby={`plan-${sheet.key}`}>
+          <p class="weekly-plan__eyebrow">{PLAN_TEXT.eyebrow} · {path.title}</p>
+          <h2 id={`plan-${sheet.key}`}>{sheet.heading}</h2>
+          <p class="weekly-plan__field">{PLAN_TEXT.weekStarting} <span class="weekly-plan__write" /></p>
+          <ol class="weekly-plan__lines">
+            {sheet.lines.map((line) => (
+              <li class="weekly-plan__line">
+                <span class="weekly-plan__tick" aria-hidden="true" />
+                <span class="weekly-plan__what">{line?.name ?? ''}</span>
+                <span class="weekly-plan__when">{line?.time ?? ''}</span>
+                <span class="weekly-plan__day">{PLAN_TEXT.day} <span class="weekly-plan__write" /></span>
+              </li>
+            ))}
+          </ol>
+          {sheet.items.length > 0 && (
+            <p class="weekly-plan__addresses">
+              {sheet.items.map((item) => `${SITE.domain}/activity/${item.id}/`).join(' · ')}
+            </p>
+          )}
+          <p class="weekly-plan__version">
+            {PLAN_TEXT.daysOptional} Version {path.updated} · {SITE.domain}/paths/{path.id}/
+          </p>
+        </section>
+      ))
+    }
+  </div>
   <link rel="stylesheet" href="/styles/path-print.css" media="print" />
 </BaseLayout>
+
+<script>
+  // WEB-031: the weekly plans print on their own, with the path itself left off the paper. The attribute is
+  // read only by the print styles below, and is removed when the print dialog closes.
+  const tools = document.querySelector<HTMLElement>('[data-plan-tools]');
+  const button = document.querySelector<HTMLButtonElement>('[data-print-plan]');
+  if (tools && button) {
+    tools.hidden = false;
+    button.hidden = false;
+    button.addEventListener('click', () => {
+      document.body.dataset.printPlan = 'true';
+      window.print();
+    });
+    window.addEventListener('afterprint', () => {
+      delete document.body.dataset.printPlan;
+    });
+  }
+</script>
 
 <style is:global>
   .path-weeks {
@@ -202,5 +267,79 @@ const others = PATHS.filter((p) => p.id !== path.id);
   .path-stop,
   .path-end {
     font-weight: 700;
+  }
+  /* WEB-031: the weekly plan sheets exist only on paper, and only when the plan print is asked for. */
+  .weekly-plan-sheets {
+    display: none;
+  }
+  @media print {
+    body[data-print-plan] .path-page {
+      display: none !important;
+    }
+    body[data-print-plan] .weekly-plan-sheets {
+      display: block;
+    }
+    .weekly-plan {
+      break-inside: avoid;
+      font-size: 12pt;
+      line-height: 1.3;
+      color: inherit;
+    }
+    .weekly-plan + .weekly-plan {
+      break-before: page;
+    }
+    .weekly-plan__eyebrow,
+    .weekly-plan__version,
+    .weekly-plan__addresses {
+      font-size: 9pt;
+      margin: 0;
+    }
+    .weekly-plan h2 {
+      font-size: 18pt;
+      margin: 2mm 0 3mm;
+    }
+    .weekly-plan__field {
+      margin: 0 0 3mm;
+    }
+    .weekly-plan__write {
+      display: inline-block;
+      min-width: 60mm;
+      border-bottom: 1px solid currentColor;
+    }
+    .weekly-plan__lines {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .weekly-plan__line {
+      display: grid;
+      grid-template-columns: 7mm 1fr 26mm 52mm;
+      column-gap: 3mm;
+      align-items: end;
+      min-height: 22mm;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 1mm;
+    }
+    .weekly-plan__tick {
+      width: 5mm;
+      height: 5mm;
+      border: 2px solid currentColor;
+      border-radius: 2px;
+    }
+    .weekly-plan__what {
+      font-weight: 700;
+    }
+    .weekly-plan__when {
+      font-size: 10pt;
+    }
+    .weekly-plan__day .weekly-plan__write {
+      min-width: 36mm;
+    }
+    .weekly-plan__addresses {
+      margin-top: 2mm;
+    }
+    .weekly-plan__version {
+      margin-top: 3mm;
+    }
   }
 </style>
