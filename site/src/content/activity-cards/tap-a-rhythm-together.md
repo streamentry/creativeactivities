@@ -31,6 +31,22 @@ steps:
   - "Swap places, so they lead and you copy the tap they choose."
   - "Pause the song whenever they want a rest, and start again when they are ready."
   - "Finish with one last tap together, then rest both hands on the table."
+plainSteps:
+  - Sit where you can both reach the table or tray.
+  - Keep any drum or blocks in front of you.
+  - Choose a song with a steady beat.
+  - Play it at a comfortable volume.
+  - Listen for a few bars.
+  - Find the beat together.
+  - Tap the beat gently, with one finger or a flat palm.
+  - Go at a speed that feels comfortable.
+  - Invite them to tap along, copying what you do.
+  - Swap places, so they lead.
+  - Copy the tap they choose.
+  - Pause the song whenever they want a rest.
+  - Start again when they are ready.
+  - Finish with one last tap together.
+  - Then rest both hands on the table.
 variations:
   - kind: easier
     text: "Let the helper tap the beat while the person listens, and join in with one finger or a single tap whenever they like."

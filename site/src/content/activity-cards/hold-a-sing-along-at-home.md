@@ -29,6 +29,21 @@ steps:
   - "Let the tune finish. Do not fill the quiet, and do not ask anyone to sing a particular part."
   - "Ask whether they would like another, and choose it together."
   - "Stop after a few tunes, or sooner if they have had enough."
+plainSteps:
+  - "Sit together somewhere comfortable."
+  - "Keep the music player within reach."
+  - "Ask what kind of music they would like."
+  - "Offer two choices if that is easier."
+  - "Play the first tune at a comfortable volume."
+  - "Or start humming one they name."
+  - "Join in however they like."
+  - "Sing, hum, clap, sway, or just listen."
+  - "Let the tune finish."
+  - "Do not fill the quiet."
+  - "Do not ask anyone to sing a particular part."
+  - "Ask whether they would like another."
+  - "Choose the next one together."
+  - "Stop after a few tunes, or sooner if they have had enough."
 variations:
   - kind: easier
     text: "Offer just two tunes at a time and play only one or two. Listening, tapping a hand or a smile is a full way to take part."

@@ -32,6 +32,22 @@ steps:
   - "Talk about the colors as you go, such as which ones remind you of a garden, the sea or a favorite coat."
   - "Glue the next small area and keep filling the shape until it feels finished."
   - "Leave it flat to dry and choose a place to show it."
+plainSteps:
+  - Draw a large, simple shape on the card together.
+  - Try a house, a fish or a circle.
+  - Tear a few pages into strips.
+  - Then tear the strips into pieces about the size of a postage stamp.
+  - Sort the pieces into bowls by color.
+  - Or leave them mixed if you both prefer.
+  - Rub glue over a small part of the shape.
+  - Press pieces onto the glued area.
+  - Take turns, or work side by side.
+  - Talk about the colors as you go.
+  - Ask which ones remind you of the sea or a favorite coat.
+  - Glue the next small area.
+  - Keep filling the shape until it feels finished.
+  - Leave it flat to dry.
+  - Choose a place to show it.
 variations:
   - kind: easier
     text: "Tear all the pieces in advance and offer one bowl of a single color at a time."

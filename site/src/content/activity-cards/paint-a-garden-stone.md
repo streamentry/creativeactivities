@@ -33,6 +33,22 @@ steps:
   - "Leave the stone to dry for about an hour, then add a second coat if you want stronger color."
   - "Choose a spot together where the stone will sit, such as a flower bed, a doorstep or a window ledge."
   - "Carry the stone out and place it, or have it carried out if walking is tiring."
+plainSteps:
+  - "Wash the stones."
+  - "Let them dry before you start."
+  - "Set out two or three stones."
+  - "Ask which one they would like to paint."
+  - "Pick one or two colors together."
+  - "Paint a base color over the stone."
+  - "Or leave the natural stone showing."
+  - "Add a simple pattern, if you both like."
+  - "For example, dots, stripes or a single initial."
+  - "Leave the stone to dry for about an hour."
+  - "Add a second coat if you want stronger color."
+  - "Choose a spot together where the stone will sit."
+  - "For example, a doorstep or a window ledge."
+  - "Carry the stone out and place it."
+  - "Or have it carried out if walking is tiring."
 variations:
   - kind: easier
     text: "Paint the base coat ahead of time and offer cotton swabs for making dots of one bright color."

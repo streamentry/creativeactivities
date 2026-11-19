@@ -1,6 +1,6 @@
 # Game text and content, per language
 
-The 22 browser games read their words from here. The mobile app's exporter also
+The 34 browser games read their words from here. The mobile app's exporter also
 reads the `illustrations` names from these files to build screen-reader labels
 for its bundled pictures. `en.json` is the English source. A translation is
 `<code>.json` in this folder, named with a code from `LOCALES` in
@@ -40,7 +40,7 @@ member or carer. Write plain, warm, adult language.
 
 | Key | How many | What it is |
 | --- | --- | --- |
-| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.storyChain` and `ui.storyDice` | Guidance, buttons, chips, live messages, labels, print headings |
+| `ui` | About 200 strings in 16 sections, not counting `ui.fourTogether`, `ui.oddOneOut`, `ui.colorMatch`, `ui.halvesMatch`, `ui.colorByNumber`, `ui.patternMaker`, `ui.buildTogether`, `ui.seatedToss`, `ui.decorateACard`, `ui.findTogether`, `ui.drawingDuet`, `ui.colorWash`, `ui.collageBoard`, `ui.gardenPlanner`, `ui.coloringWall`, `ui.seasonalPack`, `ui.quietShapes`, `ui.storyChain`, `ui.storyDice`, `ui.scrapbook`, `ui.picnicPlanner` and `ui.quietScene` | Guidance, buttons, chips, live messages, labels, print headings |
 | `pictures` | 83 names | One name per drawing id (list below) |
 | `illustrations` | 100 names | One short spoken label per mobile-only raster illustration id, copied from `assets/images/illustrations/manifest.json` |
 | `content.sayings` | at least 30; aim for 40–50 (English has 50) | Finish the saying |
@@ -55,9 +55,21 @@ member or carer. Write plain, warm, adult language.
 | `ui.colorByNumber` | 17 strings + 4 color names + 6 picture names | Color by number (English only for now; see below) |
 | `ui.patternMaker` | 17 strings + 4 color names | Pattern maker (English only for now; see below) |
 | `ui.buildTogether` | 27 strings + 2 names of the people + 4 color names | Build together (English only for now; see below) |
+| `ui.quietShapes` | About 40 strings, 6 picture names, 5 piece names and 5 shape descriptions | Quiet shapes puzzle (English only for now; GAME-060) |
+| `ui.collageBoard` | 31 strings, 2 names of the people and 2 mark names | Collage board (English only for now; GAME-033) |
+| `ui.gardenPlanner` | 25 strings; the singular and plural picture names are in `src/data/garden-planner.ts` | Garden planner (English only for now; GAME-041) |
+| `ui.coloringWall` | 17 strings, 3 size names, 5 steps (the picture names are `content.coloring`) | Group coloring wall (English only for now; GAME-052) |
+| `ui.seasonalPack` | 11 strings + 4 season names + 3 puzzles (title, how, describe) | Seasonal puzzle pack (English only for now; see below) |
+| `ui.drawingDuet` | 24 strings + 2 names of the people + 4 color names | Drawing duet (English only for now; see below) |
+| `ui.colorWash` | 12 strings + 4 color names + 2 brush names | Color wash (English only for now; see below) |
 | `ui.seatedToss` | 12 strings + 3 ring names + 2 names of the people + 2 safety labels + 4 safety lines + 5 steps | Seated toss tally (English only for now; see below) |
+| `ui.decorateACard` | 9 strings + 5 occasions (label and front words) + 5 steps + 3 rules for two | Decorate a card together (English only for now; see below) |
+| `ui.findTogether` | 22 strings | Find together (English only for now; see below) |
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
+| `ui.quietScene` | 7 strings, a line for each of 12 pictures (keyed by picture id) | Quiet scene (English only for now; GAME-039) |
+| `ui.scrapbook` | 31 strings, including the plural `skipped` | Scrapbook (English only for now; GAME-037) |
+| `ui.picnicPlanner` | 26 strings; the picture phrases are in `src/data/picnic-planner.ts` | Picnic planner (English only for now; GAME-043) |
 
 The 20 low-confidence locales with incomplete `pictures` names keep their
 existing English fallback, as recorded in `docs/improvements/TRACKING.md`.
@@ -323,6 +335,70 @@ or name anything. The safety wording needs a native speaker and a safety reviewe
 check it, then add the translated strings and the language code to
 `SEATED_TOSS_REVIEWED` in `../games.ts`. Do not machine-translate them.
 
+### Decorate a card together (`ui.decorateACard`)
+
+Decorate a card together is English only for now (GAME-035). Two people decorate a
+printed card that folds in half. `guidance` is also the line printed on the paper
+version, so it has no placeholders. `occasions` holds one `label` (the radio button) and
+one `words` (the front of the card) for each occasion in `../../data/decorate-a-card.ts`.
+`steps` is keyed by the names in `STEP_KEYS` there, and a test checks every key. `sheetRules`
+are the three rules for two people, printed at the bottom of the sheet and shown on the
+page. `previewLabel` describes the card for a screen reader and takes `{words}`. Nothing
+here may mention score, timer, winner, ranking or a religious or health occasion. The
+occasion names need a native speaker's check, then add the translated strings and the
+language code to `DECORATE_A_CARD_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Find together (`ui.findTogether`)
+
+Find together is English only for now (GAME-047). Two people share one screen and take
+turns turning over two cards to find a pair. It has the guidance line, the card counts,
+the two ways to play, the names of the two people (`people`, a list of two, replaced
+whole), the turn and tally lines, the spoken name of each card (`cardNamed` and
+`cardFaceDown`) and the live messages. Keep every string free of score, timer, miss and
+winner ideas: the tally only counts pairs found together. A native speaker should check
+the strings, then add the translated strings and the language code to
+`FIND_TOGETHER_REVIEWED` in `../games.ts`. Do not machine-translate them.
+
+### Drawing duet (`ui.drawingDuet`)
+
+Drawing duet is English only for now (GAME-032). Two people draw lines on one
+shared canvas, taking turns, each with a color of their own. Its guidance line
+says that nothing is sent anywhere. `paperRules` is the rules text printed on the
+paper version; `people` and `colors` are replaced whole, as in Build together.
+`turn` and `penColor` name the person and the color in words, and `canvasLabel`
+and `canvasLabelOne` describe the drawing neutrally for screen readers (never a
+word that ranks it). `penDown` and `penUp` are announced for the keyboard pen.
+Keep every string free of scores, timers, winners and comparisons. Add the
+translated strings and the language code to `DRAWING_DUET_REVIEWED` in `../games.ts`
+only after a native speaker has checked them. Do not machine-translate them.
+
+### Color wash (`ui.colorWash`)
+
+Color wash is English only for now (GAME-038). One soft brush paints washes across one
+page, with four colors and two brush sizes. `guidance` is the one line always shown.
+`color` is the sentence naming the current color (keep `{color}`), and `sizes` names the
+two brushes (`wide` and `veryWide`, an object, replaced whole). `colors` lists the four
+names in palette order, replaced whole. `brushDown` and `brushUp` are announced for the
+keyboard brush, and `freshMessage`, `restored` and `canvasLabel` are neutral messages
+for screen readers. Keep every string free of scores, timers, endings and comparisons:
+the page never finishes. Add the translated strings and the language code to
+`COLOR_WASH_REVIEWED` in `../games.ts` only after a native speaker has checked them. Do
+not machine-translate them.
+
+### Seasonal puzzle pack (`ui.seasonalPack`)
+
+Seasonal puzzle pack is English only for now (GAME-040). A person chooses a season and
+prints one page of three small paper puzzles drawn from the shared pictures: Match the
+pairs, Which one is different?, and Color it in. The screen never shows or checks an answer.
+`seasons` names the four seasons, and the months under each come from the season pages
+(`../../data/seasons.ts`), so both halves of the world are covered there, not here. `restDay`
+and `restLine` are the rest-day choice and its one calm line; keep them free of guilt,
+streak or reminder ideas. `puzzles` holds a `title`, a `how` (printed) and a `describe` (for
+a screen reader) for each puzzle. `printFooter` is printed at the bottom of the sheet. Do not
+name festivals or foods tied to one culture. A native speaker should check the strings, then
+add the translated strings and the language code to `SEASONAL_PACK_REVIEWED` in `../games.ts`.
+Do not machine-translate them.
+
 ### Story chain (`ui.storyChain`)
 
 Story chain is English only for now (GAME-046). It has 12 strings: one guidance
@@ -338,9 +414,87 @@ its guidance, button and message text have not been reviewed in other
 languages. After a native speaker reviews the `ui.storyDice` strings, add them
 here and add the language code to `STORY_DICE_REVIEWED` in `../games.ts`.
 
+### Quiet scene (`ui.quietScene`)
+
+Quiet scene is English only for now (GAME-039). One still picture is shown at a time, with a
+line under it from `lines`, keyed by picture id. Keep each line plain, warm and short, with
+no question, no prompt to remember and no clinical or relaxation wording. `first` and `last`
+are the polite messages when Previous or Next cannot move. Add translations and the language
+code to `QUIET_SCENE_REVIEWED` in `../games.ts` only after a native speaker has checked them.
+
 ## Right-to-left languages
 
 `ar` pages get `<html dir="rtl">`. The games use logical CSS properties, so
 the layout mirrors; the picture puzzle stays left to right on purpose. Write
 Arabic text normally; do not add direction marks unless a mixed-direction
 string displays wrongly.
+
+### Garden planner (`ui.gardenPlanner`)
+
+Garden planner is English only for now (GAME-041). A person chooses a picture from a
+tray of plants and garden things, then taps one of twelve beds to put it there. It
+has one guidance line (also printed on its paper version). The summary is built from
+`summary` ("Your plan has {list}."), `and` (the joining word) and the English singular
+and plural picture names in `src/data/garden-planner.ts`, which a translation would
+need to replace with its own counting. `summaryNone` says that no bed is planted yet.
+The paper version prints `sheetTitle`, `sheetHow`, `sheetNotes` and `notice`, which
+says it is a picture plan, not planting advice. Nothing here scores, times or ends the game.
+
+### Collage board (`ui.collageBoard`)
+
+Collage board is English only for now (GAME-033). Two people take turns placing a
+cut-out picture on one shared board of twelve places. It has one guidance line
+(also printed on its paper version, and it says that nothing the people make is
+saved or sent), the names of the two people (`people`, a list of two, replaced
+whole), the two mark names (`marks`, a list of two: "a circle" and "a square", so
+each person's pieces are told apart by shape as well as by name), and the turn
+line. `turn` always names the person in words, as in "Your turn, first person";
+`{person|lower}` puts the name in lowercase inside the sentence. `placeEmpty` and
+`placeFilled` are the accessible names of every place. A place that already has a
+picture is never called wrong; the `filled` message only asks for an empty place.
+The `full` line is neutral: it says every place has a picture and that one can be
+taken back or the board started again. Nothing here scores, counts or ends the game.
+The paper version prints `sheetTitle`, `sheetHow` (the cutting line, which names an
+adult) and `sheetTray`, beside the sharp-tool safety label from the activity
+safety list.
+
+### Scrapbook (`ui.scrapbook`)
+
+Scrapbook is English only for now (GAME-037). The family chooses two to twelve of
+their own photos, which become pages of one book, each with an optional caption of
+up to 80 characters. It has a guidance line for choosing (`guidanceEmpty`), one for
+the book (`guidance`, which is also printed on its paper version and says nothing
+is saved or sent), and one for looking together (`lookGuidance`). `consent` and
+`privacy` are the two statements shown beside the photo chooser. `pageOf` is
+"Page {n} of {total}", and `moved` names the new page after a move. `skipped` is a
+plural object (see the plural rules above), and `usingFirst` takes `{max}`. The
+paper version prints `sheetTitle`, `sheetHow` and `sheetEmpty`, which shows when no
+photos have been chosen. Nothing here scores, times, counts or ends the game.
+
+### Picnic planner (`ui.picnicPlanner`)
+
+Picnic planner is English only for now (GAME-043). A person taps food and things-to-do
+pictures to put them in a basket of six slots, then plays a matching round with the
+chosen pictures (the existing pairs board, `ui.pairs`). `guidance` is the plan-stage line,
+also printed on the paper version; `guidancePlay` is the line for the matching round.
+`summary` is "Our picnic: {list}.", and `and` joins the list. The singular and plural
+picture phrases are in `src/data/picnic-planner.ts`, which a translation would replace.
+The paper version prints `sheetTitle`, `sheetHow` and `sheetToPack`, as a checklist with
+a tick box for each thing and blank lines to make up six. Nothing here scores, times or
+counts misses.
+
+### Group coloring wall (`ui.coloringWall`)
+
+Group coloring wall is English only for now (GAME-052). One picture from the
+Coloring game is printed across 4, 6 or 9 pages. It has one guidance line (also
+printed on its paper version, and it says that nothing is timed, scored or
+saved), the picture and size legends, and three size names (`sizes`, keyed `2x2`,
+`3x2` and `3x3`). `previewLabel` is the accessible description of the on-screen
+picture with its page lines; `{picture|lower}` puts the picture name in a
+sentence, and the picture names come from `content.coloring`. `steps` is the list
+of five steps, and `wallHeading` is the heading for both the steps on screen and
+the first printed page. `mapLabel`, `pictureLine` and `edgeNote` are the words on
+the map and the printed first page; `labelsNote` says that letters run down the
+wall and numbers across it. The paper version has no scissors step: the pages are
+laid edge to edge along the dashed line, or overlapped, and joined with tape on
+the back.

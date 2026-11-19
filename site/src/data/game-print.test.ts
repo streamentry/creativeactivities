@@ -19,7 +19,12 @@ const COMPONENT: Record<string, string> = {
   'color-by-number': 'ColorByNumber',
   'pattern-maker': 'PatternMaker',
   'build-together': 'BuildTogether',
+  'find-together': 'FindTogether',
+  'drawing-duet': 'DrawingDuet',
+  'color-wash': 'ColorWash',
   'seated-toss': 'SeatedToss',
+  'decorate-a-card': 'DecorateACard',
+  'seasonal-pack': 'SeasonalPack',
   'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
   'sort-together': 'SortTogether',
@@ -31,11 +36,18 @@ const COMPONENT: Record<string, string> = {
   'photo-pairs': 'PhotoPairs',
   'picture-bingo': 'PictureBingo',
   'calm-breathing': 'CalmBreathing',
+  'quiet-shapes': 'QuietShapes',
+  'collage-board': 'CollageBoard',
+  'garden-planner': 'GardenPlanner',
+  'coloring-wall': 'ColoringWall',
+  scrapbook: 'Scrapbook',
+  'picnic-planner': 'PicnicPlanner',
+  'quiet-scene': 'QuietScene',
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 22 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(22);
+  it('covers all 34 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(34);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -144,6 +156,12 @@ describe('printable partner on each game page (WEB-052)', () => {
     expect(toss.boxes).toBeGreaterThanOrEqual(6);
     expect(sheetPictures(toss)).toEqual([]);
     expect(rulesText('seated-toss', playProps('en').ui)).toBe('Sit at a table and take turns tossing a soft bean bag into the big target. Keep the tally on paper, together.');
+    const card = printSheet('decorate-a-card');
+    if (card?.layout !== 'card') throw new Error('card sheet');
+    expect(card.occasions).toEqual(['birthday', 'thank-you', 'thinking-of-you', 'new-season', 'just-because']);
+    expect(card.defaultOccasion).toBe('birthday');
+    expect(sheetPictures(card)).toEqual([]);
+    expect(rulesText('decorate-a-card', playProps('en').ui)).toBe('Choose an occasion, then decorate a card together with crayons or pens. There is no right card.');
     const sort = printSheet('sort-together');
     if (sort?.layout !== 'sort') throw new Error('sort sheet');
     expect(sort.pictures).toHaveLength(8);

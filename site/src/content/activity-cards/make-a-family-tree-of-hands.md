@@ -33,6 +33,20 @@ steps:
   - "Repeat for each person who wants to join, taking turns."
   - "Color in the hands together, one color or many, as you like."
   - "Hang or keep the tree somewhere everyone can see it."
+plainSteps:
+  - Tape the paper to the table.
+  - Draw a simple tree trunk and branches together.
+  - Ask who would like to go first.
+  - Anyone may choose not to be traced.
+  - Rest one person's hand flat on the paper near a branch.
+  - Let the fingers spread comfortably.
+  - Trace around the hand gently with a pencil.
+  - Write that person's name inside or beside the hand.
+  - Repeat for each person who wants to join.
+  - Take turns.
+  - Color in the hands together.
+  - Use one color or many, as you like.
+  - Hang the tree or keep it somewhere everyone can see.
 variations:
   - kind: easier
     text: "Trace just two hands, for example a grandparent and a grandchild, side by side on a smaller sheet."

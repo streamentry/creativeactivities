@@ -30,6 +30,22 @@ steps:
   - "Add a few marks inside, such as a line for a handle, a dot for a seed or a stroke for a stem."
   - "Draw your own version beside theirs if you like, without comparing the two."
   - "Stop when they put the pencil down, then look at the drawing together."
+plainSteps:
+  - Place the object on the table in front of the person.
+  - Put it where the light falls well on it.
+  - Look at it together for a moment.
+  - Talk about its color, shape or size, if they like.
+  - Put the paper down.
+  - Place the pencil in their hand, or within easy reach.
+  - Draw the outline with a few slow lines.
+  - Start from the bottom edge.
+  - Any line is a good line.
+  - Add a few marks inside.
+  - It could be a line for a handle or a dot for a seed.
+  - Draw your own version beside theirs, if you like.
+  - Do not compare the two.
+  - Stop when they put the pencil down.
+  - Look at the drawing together.
 variations:
   - kind: easier
     text: "Draw only the outline, and offer to hold the object still while they draw."

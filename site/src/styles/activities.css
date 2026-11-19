@@ -43,6 +43,7 @@
 .btn[aria-pressed='true'] {
   border-color: var(--gm-primary);
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
 }
 .activity-materials {
   margin-bottom: var(--space-lg);
@@ -301,6 +302,7 @@
 .home-hubs a:focus-visible {
   border-color: var(--gm-primary);
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
 }
 
 /* ---------- Finder ---------- */
@@ -381,6 +383,7 @@
 /* Selected: sun fill, ink border and a check mark, never color alone. */
 .finder .choice input:checked + span {
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
   border-color: var(--gm-primary);
 }
 .finder .choice input:checked + span::before {
@@ -451,6 +454,7 @@
   width: 100%;
   height: auto;
   border-radius: var(--radius-md);
+  background: var(--gm-print-white); /* a picture keeps a light tile in dark mode */
 }
 .activity-figure figcaption {
   display: grid;

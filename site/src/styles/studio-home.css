@@ -6,6 +6,30 @@
    sheet for the app. Everything here is ornament over tokens; all content,
    targets and contrast come from tokens.css and components.css. */
 
+/* ---------- Stage cards ---------- */
+.stage-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.stage-card__step {
+  display: inline-grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--gm-surface-raised);
+  border: 2px solid var(--gm-primary);
+  color: var(--gm-primary);
+  font-family: var(--font-display);
+  font-size: var(--text-title-lg);
+  font-weight: 700;
+}
+
+
 /* A torn top edge: the shape is filled from the jagged line down. The solid
    layer fills the rest of the box, so the element can be any height. */
 .home-hero,
@@ -341,6 +365,7 @@
 .home-hubs a:focus-visible {
   border-color: var(--gm-primary);
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
 }
 @media (prefers-reduced-motion: no-preference) {
   .home-hubs a {

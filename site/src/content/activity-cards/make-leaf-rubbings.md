@@ -32,6 +32,20 @@ steps:
   - "Rub gently over the leaf in one direction until the veins and edge come up."
   - "Lift the paper to look. Try a second leaf, or the same leaf in another color."
   - "Lay the finished rubbings side by side to look at together."
+plainSteps:
+  - "Set out the leaves, paper and crayons."
+  - "Choose a leaf together."
+  - "Any leaf will do."
+  - "Lay the leaf vein-side up on the tray."
+  - "Cover the leaf with a sheet of paper."
+  - "Tape the paper corners to the tray."
+  - "Peel the wrapper off a crayon."
+  - "Hold the crayon flat, on its side."
+  - "Rub gently over the leaf in one direction."
+  - "Lift the paper to look."
+  - "Try a second leaf, or the same leaf in another color."
+  - "Lay the finished rubbings side by side."
+  - "Look at them together."
 variations:
   - kind: easier
     text: "Tape the paper over one large leaf ahead of time, so the only job is rubbing with a crayon until the shape appears."

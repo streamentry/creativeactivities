@@ -12,6 +12,7 @@ import Icon from '../components/Icon.astro';
 import type { IconName } from '../lib/icons';
 import PlayCta from '../components/PlayCta.astro';
 import { pictureUrl } from '../data/pictures';
+import { PILLARS } from '../data/pillars';
 import { SITE } from '../lib/site';
 import { playStoreUrl } from '../lib/store-links';
 import { faqPage, organization, website } from '../lib/schema';
@@ -99,11 +100,19 @@ const hubs =
             </div>
           </div>
           <ul class="card-grid home-groups reveal">
-            {h.groups.map((g) => (
+            {PILLARS.map((p) => (
               <li>
-                <GuideCard href={l(g.href)} title={g.title} text={g.text} label={g.label} lang={lang} />
+                <GuideCard href={`/${p.section}/`} title={p.tileTitle} text={p.tileText} label={p.tileLabel} lang={lang} />
               </li>
             ))}
+            {/* Kids is a live section but not a pillar yet (SEO-041 decision pending); its tile stays so the home page keeps its link. */}
+            {h.groups
+              .filter((g) => g.href === '/kids/')
+              .map((g) => (
+                <li>
+                  <GuideCard href={l(g.href)} title={g.title} text={g.text} label={g.label} lang={lang} />
+                </li>
+              ))}
           </ul>
         </div>
       </section>

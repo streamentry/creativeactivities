@@ -32,6 +32,22 @@ steps:
   - "Stop when the picture feels full or you are ready to be done."
   - "The helper lays a second piece of film over the top or folds the first one in half, and smooths it down."
   - "Hang the picture in a window and look at the light coming through."
+plainSteps:
+  - Before you start, the helper cuts the film to size.
+  - The helper peels off the backing.
+  - The helper tapes it sticky side up to the table.
+  - Put the bowls of tissue pieces within easy reach.
+  - Choose a color together.
+  - Any color is a good one.
+  - Pick up a piece.
+  - Press it onto the sticky film anywhere you like.
+  - Add more pieces so the colors overlap and mix.
+  - Stop when it feels full or you are ready to be done.
+  - The helper lays a second piece of film over the top.
+  - Or the helper folds the first one in half.
+  - The helper smooths it down.
+  - Hang it in a window.
+  - Look at the light coming through.
 variations:
   - kind: easier
     text: "Offer one color at a time in a single bowl, and place the first piece together."

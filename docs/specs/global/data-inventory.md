@@ -26,6 +26,10 @@ These are written by the site's own code. None is sent to Creative Activities. E
 | `gm-today-notes-v1` | local storage | `site/src/lib/today/notes.ts` (Today page) | The reader's own notes, up to 280 characters each, with the day, outcome and time of day | No | As above |
 | `gm-text-size` | local storage | `site/src/components/TextSize.astro` | `standard` or `large` | No | As above |
 | `gm-contrast` | local storage | `site/src/components/TextSize.astro` | `standard` or `high` | No | As above |
+| `ca-plain-steps` | local storage | `site/src/components/PlainToggle.tsx` (activity page, Short steps) | `1` or `0`: whether activity cards show short steps | No | As above |
+| `gm-theme` | local storage | `site/src/lib/display-settings.ts` (`THEME_KEY`), set by `site/src/components/TextSize.astro` | `light` or `dark`; absent means the device setting | No | As above |
+| `gm-line-length` | local storage | `site/src/lib/display-settings.ts` (`LINE_LENGTH_KEY`), set by `site/src/components/TextSize.astro` | `short`; absent means standard lines | No | As above |
+| `gm-spacing` | local storage | `site/src/lib/display-settings.ts` (`SPACING_KEY`), set by `site/src/components/TextSize.astro` | `more`; absent means standard spacing | No | As above |
 | `gm-play-settings` | local storage | `site/src/games/shared/settings.ts` | Game sound on or off | No | As above |
 | `gm_lang` | cookie, one year, `SameSite=Lax`, path `/` | `site/src/components/LanguageChoice.astro` through `site/src/lib/language-choice.ts`, and expired by `site/src/pages/your-data.astro` | The language code the reader chose | Sent to the site's host with each page request, as every cookie is | One year, or until removed |
 
@@ -87,7 +91,7 @@ Source: `EVENT_DICTIONARY` in `site/src/lib/track.ts`, the only place events are
 
 These events are sent through `dataLayer` to Google Tag Manager, and from there to Google Analytics 4 if the container is set up that way. The GA4 setup is in the Google console and is not in this repository (section 6).
 
-Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` does nothing there.
+Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two pages built to open family photos, load no analytics at all, and `track()` does nothing there.
 
 ---
 
@@ -97,7 +101,7 @@ Photo pairs (`/games/photo-pairs/`) loads no analytics at all, and `track()` doe
 
 | Origin | Used for | Where it loads | Integrity |
 |---|---|---|---|
-| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
+| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations and `/games/scrapbook/`, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
 | `https://*.googletagmanager.com`, `https://*.google-analytics.com`, `https://*.analytics.google.com` | Measurement requests and the image beacon, set by Google's tag | Pages with the tag. Allowed in `connect-src` and `img-src` in `public/_headers` | Not applicable (data requests) |
 
 ### 4b. Fonts and images

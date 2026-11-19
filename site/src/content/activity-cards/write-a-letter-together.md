@@ -32,6 +32,23 @@ steps:
   - "Add a drawing, or tape a pressed flower to a corner."
   - "Sign the letter together, then fold it."
   - "Put the letter in the envelope, write the address and add a stamp, or set it aside to give in person."
+plainSteps:
+  - "Sit side by side at a table."
+  - "Have the notepaper, the pen and the envelope in reach."
+  - "Ask who the letter is for and what they would like to say."
+  - "Any answer is the right one."
+  - "Write the greeting at the top, in the words they choose."
+  - "Ask one open question."
+  - "For example, what has been on their mind this week."
+  - "Write down the answer."
+  - "Read the sentences back aloud."
+  - "Ask if they want to change anything."
+  - "Add a drawing, or tape a pressed flower to a corner."
+  - "Sign the letter together."
+  - "Then fold it."
+  - "Put the letter in the envelope."
+  - "Write the address and add a stamp."
+  - "Or set it aside to give in person."
 variations:
   - kind: easier
     text: "Offer one or two ready-made openings to choose from, such as Thinking of you or Hope you are well."

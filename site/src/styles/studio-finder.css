@@ -55,6 +55,7 @@
 }
 .finder .choice input:checked + span {
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
   border-color: var(--gm-primary);
   box-shadow:
     inset 0 0 0 1px var(--gm-primary),

@@ -35,6 +35,20 @@ steps:
   - "Cover the seeds with a little soil and pat it down."
   - "Water slowly together until the soil looks dark and damp."
   - "Choose a bright windowsill for the pot and agree who will check on it."
+plainSteps:
+  - "Spread newspaper or a tray on the table."
+  - "Set the pot on it."
+  - "Spoon potting mix into the pot together."
+  - "Fill it until it is nearly full."
+  - "Press the soil down gently with flat hands."
+  - "Show the seeds."
+  - "Ask which ones they would like to plant."
+  - "Push each seed into the soil, about as deep as a fingertip."
+  - "Cover the seeds with a little soil."
+  - "Pat the soil down."
+  - "Water slowly together until the soil looks dark and damp."
+  - "Choose a bright windowsill for the pot."
+  - "Agree who will check on it."
 variations:
   - kind: easier
     text: "Fill the pot with soil and make the holes before you start, so the only step is dropping a seed into each hole."

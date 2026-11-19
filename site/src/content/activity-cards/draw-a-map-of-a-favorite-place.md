@@ -30,6 +30,22 @@ steps:
   - "Add one thing at a time, and let them talk or stay quiet as they choose."
   - "Do not correct what they draw or say. Do not ask for dates or names."
   - "Stop when it feels finished, or when they have had enough, and agree where to put the map."
+plainSteps:
+  - Sit side by side with the paper between you.
+  - Keep the pens within reach.
+  - Ask whether there is a place they would like to draw.
+  - It could be a street, a garden, a kitchen or a beach.
+  - Make the first mark together, such as a line for a road.
+  - Any mark will do.
+  - Ask what comes next.
+  - Draw it, or hand them the pen.
+  - Any answer is the right one.
+  - Add one thing at a time.
+  - Let them talk or stay quiet as they choose.
+  - Do not correct what they draw or say.
+  - Do not ask for dates or names.
+  - Stop when it feels finished, or when they have had enough.
+  - Agree where to put the map.
 variations:
   - kind: easier
     text: "The helper draws everything the person points to or describes, and they choose where things go. Offer two choices at a time, such as a tree or a gate."

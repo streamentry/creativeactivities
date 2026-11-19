@@ -14,6 +14,7 @@ Read with [data-inventory.md](data-inventory.md), [events.md](events.md) and ite
 | "Allow", then later "No" (privacy page) | Consent mode updated to denied on the open page; nothing loads on later pages | `_ga*` cookies deleted from this browser |
 | Browser sends Global Privacy Control | Nothing, even after an earlier "Allow"; the question is not shown | None |
 | Photo pairs | Never | None |
+| Scrapbook | Never | None |
 
 - **The question:** `site/src/components/ConsentBar.astro`, a bar at the top of the page in normal flow (not a dialog, never pinned over content, so it cannot hide keyboard focus). "No thanks" comes first; both buttons are the same size. It shows only while the question is unanswered.
 - **The answer:** `ca-analytics-consent-v1` in local storage (`granted` or `denied`), listed on `/your-data/`, where deleting it makes the site ask again. Changeable at any time on `/privacy/#analytics-choice`.

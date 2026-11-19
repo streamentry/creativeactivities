@@ -30,6 +30,21 @@ steps:
   - "Glue the back of one piece and press it onto the card."
   - "Keep adding pieces and let them overlap, so the color builds up."
   - "Stop when the card feels full, then press it flat under a heavy book for a few minutes."
+plainSteps:
+  - Clear a table.
+  - Lay out the card, the glue stick and a pile of magazines.
+  - Choose one color together, such as blue, yellow or green.
+  - Any choice is fine.
+  - Turn the pages and find patches in that color.
+  - Tear out the ones you like.
+  - Tear each piece into a rough shape.
+  - Torn edges look softer than cut ones.
+  - Glue the back of one piece.
+  - Press it onto the card.
+  - Keep adding pieces.
+  - Let them overlap, so the color builds up.
+  - Stop when the card feels full.
+  - Press it flat under something heavy for a few minutes.
 variations:
   - kind: easier
     text: "Offer a choice between two colors, and tear the first few pieces together."

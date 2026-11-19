@@ -32,6 +32,21 @@ steps:
   - "Keep adding buttons, taking turns choosing and placing."
   - "Leave the picture flat to dry somewhere safe."
   - "Count the loose buttons back into their container and check the number matches."
+plainSteps:
+  - "Count the buttons onto the tray before you start."
+  - "Note the number."
+  - "Draw a simple outline on the card together."
+  - "Or choose a shape you like."
+  - "Look through the buttons together."
+  - "Sort a few by color or size, if they enjoy it."
+  - "Ask where the first button should go."
+  - "Any place is the right one."
+  - "Add a dot of glue."
+  - "Press the button down together."
+  - "Keep adding buttons, taking turns choosing and placing."
+  - "Leave the card flat to dry somewhere safe."
+  - "Count the loose buttons back into their container."
+  - "Check the number matches."
 variations:
   - kind: easier
     text: "Glue only three to five buttons, or glue them for them and let the person choose each spot."

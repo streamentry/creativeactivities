@@ -31,11 +31,15 @@ const LARGE_PRINT_PAGES = 5;
 /** A cover and two pages for each of five cards. */
 const FIXED_PACK_PAGES = 12;
 const WEEKLY_PROGRAM_PAGES = 2;
+/** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
+const PROFESSIONALS_HANDOUT_PAGES = 1;
 /**
  * A game's paper version is one page (WEB-052), except the sets of cards to cut out. Bingo cards are drawn at random each time
  * the page loads, so its set runs from 8 to 9 pages and the limit leaves one more.
  */
-export const GAME_SHEET_PAGES = { 'conversation-cards': 6, 'picture-bingo': 10 };
+// Scrapbook: one photo a page, so the limit is the most photos a book takes (12). The check opens the default
+// state, which has no photos and prints one page; the 12 is the page ceiling for a full book.
+export const GAME_SHEET_PAGES = { 'conversation-cards': 6, 'picture-bingo': 10, 'coloring-wall': 10, scrapbook: 12 };
 // A four-week path (WEB-032) prints on at most this many pages (two pages are one sheet printed on both sides), with its
 // buttons and counts left off the paper and its addresses and version line on it.
 const PATH_PAGES = 2;
@@ -138,7 +142,12 @@ async function stepTexts(page) {
   return page.evaluate(() =>
     [...document.querySelectorAll('.activity-steps li')]
       .filter((el) => getComputedStyle(el).display !== 'none' && el.offsetParent !== null)
-      .map((el) => el.textContent.replace(/\s+/g, ' ').trim()),
+      // Compare the words that print: on-screen controls in a step (the Listen button, WEB-020) are left out.
+      .map((el) => {
+        const copy = el.cloneNode(true);
+        for (const control of copy.querySelectorAll('.no-print, button, astro-island')) control.remove();
+        return copy.textContent.replace(/\s+/g, ' ').trim();
+      }),
   );
 }
 
@@ -150,6 +159,11 @@ async function printedPages(page) {
 }
 
 /** The games that have a paper version, from the table in src/data/game-print.ts: `{ slug, kind }` for kind page or island. */
+/** How many `.sheet` elements are shown with some height when the page is printed (call after emulating print). */
+async function visibleSheets(page) {
+  return page.evaluate(() => [...document.querySelectorAll('.sheet')].filter((e) => getComputedStyle(e).display !== 'none' && e.getBoundingClientRect().height > 100).length);
+}
+
 export function gamesWithPaper() {
   const source = readFileSync(new URL('../src/data/game-print.ts', import.meta.url), 'utf8');
   return [...source.matchAll(/^\s*'?([a-z-]+)'?:\s*\{\s*kind:\s*'(page|island|none)'/gm)].filter((m) => m[2] !== 'none').map((m) => ({ slug: m[1], kind: m[2] }));
@@ -297,10 +311,12 @@ async function main() {
       const counts = await printedPages(page);
       const stepPt = minStepPt ? await stepSize(page) : null;
       const sameWords = !sameStepsAs || JSON.stringify(await stepTexts(page)) === JSON.stringify(sameStepsAs);
-      const ok = FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages) && (!minStepPt || (stepPt !== null && stepPt >= minStepPt)) && sameWords;
-      if (!ok) failures.push({ slug: `${type}: ${label}`, counts, maxPages, stepPt, sameWords });
+      // A blank page still counts as one page, so a game sheet must also show a printed `.sheet` with content.
+      const sheetShown = type !== 'game sheet' || (await visibleSheets(page)) > 0;
+      const ok = FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages) && (!minStepPt || (stepPt !== null && stepPt >= minStepPt)) && sameWords && sheetShown;
+      if (!ok) failures.push({ slug: `${type}: ${label}`, counts, maxPages, stepPt, sameWords, sheetShown });
       record(type, ok);
-      console.log(`${type}: ${label.padEnd(36)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}${minStepPt ? `  steps ${stepPt?.toFixed(0) ?? 'none'} pt (at least ${minStepPt})` : ''}${sameStepsAs ? `  same words as the card ${sameWords ? 'yes' : 'NO'}` : ''}  ${ok ? 'ok' : 'FAIL'}`);
+      console.log(`${type}: ${label.padEnd(36)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}${minStepPt ? `  steps ${stepPt?.toFixed(0) ?? 'none'} pt (at least ${minStepPt})` : ''}${sameStepsAs ? `  same words as the card ${sameWords ? 'yes' : 'NO'}` : ''}${sheetShown ? '' : '  sheet hidden in print'}  ${ok ? 'ok' : 'FAIL'}`);
       await page.close();
     };
     for (const slug of slugs) {
@@ -318,6 +334,7 @@ async function main() {
       if (existsSync(join(packDir, id, 'index.html'))) await check('pack', id, `/activity/packs/${id}/`, FIXED_PACK_PAGES, STEP_PT.pack);
     }
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
+    await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }

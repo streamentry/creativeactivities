@@ -107,7 +107,11 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'color-by-number': { ui: ['colorByNumber'], content: [] },
   'pattern-maker': { ui: ['patternMaker'], content: [] },
   'build-together': { ui: ['buildTogether'], content: [] },
+  'find-together': { ui: ['findTogether'], content: [] },
+  'drawing-duet': { ui: ['drawingDuet'], content: [] },
   'seated-toss': { ui: ['seatedToss'], content: [] },
+  'decorate-a-card': { ui: ['decorateACard'], content: [] },
+  'seasonal-pack': { ui: ['seasonalPack'], content: [] },
   'story-chain': { ui: ['storyChain'], content: [] },
   'story-dice': { ui: ['storyDice'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },
@@ -119,6 +123,14 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'photo-pairs': { ui: ['pairs', 'photoPairs'], content: [] },
   'picture-bingo': { ui: ['pictureBingo'], content: [] },
   'calm-breathing': { ui: ['calmBreathing'], content: [] },
+  'quiet-shapes': { ui: ['quietShapes'], content: [] },
+  'color-wash': { ui: ['colorWash'], content: [] },
+  'collage-board': { ui: ['collageBoard'], content: [] },
+  'garden-planner': { ui: ['gardenPlanner'], content: [] },
+  'coloring-wall': { ui: ['coloringWall'], content: ['coloring'] },
+  scrapbook: { ui: ['scrapbook'], content: [] },
+  'picnic-planner': { ui: ['pairs', 'picnicPlanner'], content: [] },
+  'quiet-scene': { ui: ['quietScene'], content: [] },
 };
 
 function pick<T extends object>(source: T, keys: readonly (keyof T)[]): T {

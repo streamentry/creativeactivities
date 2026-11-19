@@ -29,6 +29,20 @@ steps:
   - "Move to the next box and try a different repeat, such as dots, zigzags or circles."
   - "Keep going one box at a time for as long as it feels pleasant."
   - "Stop when the page is full or when they want to stop, then look at the pattern together."
+plainSteps:
+  - "Place the paper on the table, with the boxes facing the person."
+  - "Choose a pencil or marker together."
+  - "Offer a choice of color if they want one."
+  - "Make a short line or a dot in the first box."
+  - "Invite them to copy it or add their own."
+  - "Fill the box with a simple repeat."
+  - "For example, lines going the same way, or loops in a row."
+  - "Move to the next box."
+  - "Try a different repeat, such as dots, zigzags or circles."
+  - "Work one box at a time."
+  - "Keep going for as long as it feels pleasant."
+  - "Stop when the page is full, or when they want to stop."
+  - "Look at the pattern together."
 variations:
   - kind: easier
     text: "Draw one line for them to copy, then fill only the first row of boxes together."

@@ -62,10 +62,73 @@ export const PATTERN_MAKER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 export const BUILD_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
+ * Languages where Find together is offered. Its cards, the two people and a few buttons are
+ * English only until a native speaker has checked them (GAME-047), so it has its own list.
+ */
+export const FIND_TOGETHER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Drawing duet is offered. Its name, its guidance and its color names
+ * are English only until a native speaker has checked them (GAME-032), so it has its own list.
+ */
+export const DRAWING_DUET_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Languages where Seated toss tally is offered. Its page text and safety wording are English only until a
  * native speaker and a safety reviewer have checked them (GAME-049), so it has its own list.
  */
 export const SEATED_TOSS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Seasonal puzzle pack is offered. Its season names, puzzle titles and lines are English only
+ * until a native speaker has checked them (GAME-040), so it has its own list.
+ */
+export const SEASONAL_PACK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Decorate a card together is offered. Its occasion names, steps and safety wording are English
+ * only until a native speaker has checked them (GAME-035), so it has its own list.
+ */
+export const DECORATE_A_CARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Group coloring wall is offered. Its labels, steps and paper wording are English only until a
+ * native speaker has checked them (GAME-052), so it has its own list.
+ */
+export const COLORING_WALL_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Quiet shapes puzzle is offered. Its six picture names, piece names, messages and the paper
+ * wording are English only until a native speaker has checked them (GAME-060), so it has its own list.
+ */
+export const QUIET_SHAPES_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Color wash is offered. Its guidance, color names, brush names and the messages are English
+ * only until a native speaker has checked them (GAME-038), so it has its own list.
+ */
+export const COLOR_WASH_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Collage board is offered. Its cut-out names, the two people, the marks and its messages are
+ * English only until a native speaker has checked them (GAME-033), so it has its own list.
+ */
+export const COLLAGE_BOARD_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/** Languages where Scrapbook is offered. Its words are English only until a native speaker reviews them (GAME-037). */
+export const SCRAPBOOK_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Picnic planner is offered. Its summary words, its messages, its checklist wording and its picture
+ * phrases are English only until a native speaker has checked them (GAME-043), so it has its own list.
+ */
+export const PICNIC_PLANNER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
+ * Languages where Garden planner is offered. Its summary words, its messages and its plural picture names are English
+ * only until a native speaker has checked them (GAME-041), so it has its own list.
+ */
+export const GARDEN_PLANNER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
 /**
  * Languages where Story dice is offered. It needs no picture names to play,
@@ -92,6 +155,12 @@ export function localizeGame(game: GameInfo, code: string): GameInfo {
 }
 
 /**
+ * Languages where Quiet scene is offered. It is one picture and a few short lines, English only until a
+ * native speaker has checked them (GAME-039), so it has its own list.
+ */
+export const QUIET_SCENE_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
+/**
  * Whether a game is offered in `code`. Word search needs a suitable letter grid
  * and enough translated words to fill every theme, while Finish the saying needs
  * 30 genuine sayings. A language leaves an unsupported game out entirely (no
@@ -109,7 +178,19 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'color-by-number') return COLOR_BY_NUMBER_REVIEWED.includes(code);
   if (slug === 'pattern-maker') return PATTERN_MAKER_REVIEWED.includes(code);
   if (slug === 'build-together') return BUILD_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'find-together') return FIND_TOGETHER_REVIEWED.includes(code);
+  if (slug === 'drawing-duet') return DRAWING_DUET_REVIEWED.includes(code);
   if (slug === 'seated-toss') return SEATED_TOSS_REVIEWED.includes(code);
+  if (slug === 'quiet-shapes') return QUIET_SHAPES_REVIEWED.includes(code);
+  if (slug === 'color-wash') return COLOR_WASH_REVIEWED.includes(code);
+  if (slug === 'collage-board') return COLLAGE_BOARD_REVIEWED.includes(code);
+  if (slug === 'garden-planner') return GARDEN_PLANNER_REVIEWED.includes(code);
+  if (slug === 'coloring-wall') return COLORING_WALL_REVIEWED.includes(code);
+  if (slug === 'scrapbook') return SCRAPBOOK_REVIEWED.includes(code);
+  if (slug === 'picnic-planner') return PICNIC_PLANNER_REVIEWED.includes(code);
+  if (slug === 'quiet-scene') return QUIET_SCENE_REVIEWED.includes(code);
+  if (slug === 'decorate-a-card') return DECORATE_A_CARD_REVIEWED.includes(code);
+  if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);

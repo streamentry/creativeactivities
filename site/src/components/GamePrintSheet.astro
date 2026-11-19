@@ -7,6 +7,7 @@
 import { pictureShadowUrl, pictureUrl } from '../data/pictures';
 import { NUMBER_COLORS } from '../data/color-by-number';
 import { PEOPLE_COUNT, TARGET_CENTER, TARGET_SIZE, ringMarks } from '../data/seated-toss';
+import { FRAME_BOX, PANEL_HEIGHT, PANEL_WIDTH, frameMarks, messageLineYs } from '../data/decorate-a-card';
 import type { PlayUi } from '../i18n/play';
 import type { PrintSheet } from '../lib/games/print-sheet';
 
@@ -26,11 +27,17 @@ interface Props {
   numberColorNames?: readonly string[];
   /** The words of Seated toss tally: ring names, the two people, the safety line. */
   toss?: PlayUi['seatedToss'];
+  /** The words of Decorate a card together: occasion names and front words, the inside label and the rules for two. */
+  card?: PlayUi['decorateACard'];
+  /** The words of Seasonal puzzle pack: season names, puzzle titles and lines, and the footer. */
+  seasonal?: PlayUi['seasonalPack'];
 }
 
-const { sheet, title, rules, howTo, pictureNames, baskets, colorNames, numberColorNames, toss } = Astro.props;
+const { sheet, title, rules, howTo, pictureNames, baskets, colorNames, numberColorNames, toss, card, seasonal } = Astro.props;
 const name = (id: string) => pictureNames[id] ?? '';
 const rings = toss ? ringMarks(toss.rings) : [];
+const cardMarks = frameMarks();
+const cardLines = messageLineYs();
 ---
 <section class="sheet sheet-paper" aria-hidden="true">
   <h2>{title}</h2>
@@ -165,6 +172,39 @@ const rings = toss ? ringMarks(toss.rings) : [];
     )
   }
   {
+    sheet.layout === 'card' && card && (
+      <>
+        <div class="sheet-paper__card">
+          <div class="sheet-paper__panel sheet-paper__panel--inside">
+            <svg viewBox={`0 0 ${PANEL_WIDTH} ${PANEL_HEIGHT}`} focusable="false">
+              {cardLines.map((y) => <line class="sheet-paper__line" x1="10" x2="80" y1={y} y2={y} />)}
+              <line class="sheet-paper__line" x1="22" x2="80" y1="106" y2="106" />
+            </svg>
+            <p class="sheet-paper__from">{card.from}</p>
+          </div>
+          {sheet.occasions.map((o) => (
+            <div class="sheet-paper__panel sheet-paper__panel--front" data-card-front={o} hidden={o !== sheet.defaultOccasion}>
+              <svg viewBox={`${PANEL_WIDTH} 0 ${PANEL_WIDTH} ${PANEL_HEIGHT}`} focusable="false">
+                <rect class="sheet-paper__frame" x={FRAME_BOX.x} y={FRAME_BOX.y} width={FRAME_BOX.width} height={FRAME_BOX.height} rx={FRAME_BOX.rx} />
+                {cardMarks.map((m) =>
+                  m.kind === 'circle' ? (
+                    <circle class="sheet-paper__mark" cx={m.cx} cy={m.cy} r={m.r} />
+                  ) : (
+                    <path class="sheet-paper__mark" d={m.d} />
+                  ),
+                )}
+              </svg>
+              <p class="sheet-paper__words">{card.occasions[o].words}</p>
+            </div>
+          ))}
+        </div>
+        <ul class="sheet-paper__card-rules">
+          {card.sheetRules.map((r) => <li>{r}</li>)}
+        </ul>
+      </>
+    )
+  }
+  {
     sheet.layout === 'sort' && (
       <>
         <div class="sheet-paper__cards">
@@ -194,6 +234,50 @@ const rings = toss ? ringMarks(toss.rings) : [];
           <span class="sheet-paper__cut" data-cut="down" />
         </div>
       </div>
+    )
+  }
+  {
+    sheet.layout === 'seasonal' && seasonal && (
+      <>
+        {sheet.seasons.map((pack) => (
+          <div class="sheet-paper__season" data-season-pack={pack.season} hidden={pack.season !== sheet.defaultSeason}>
+            <h3>{seasonal.seasons[pack.season]}</h3>
+            <p class="sheet-paper__when">{pack.months}</p>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.pairs.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.pairs.how}</p>
+              <div class="sheet-paper__pair-columns">
+                <div>
+                  {pack.pairsLeft.map((id) => <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />)}
+                </div>
+                <div>
+                  {pack.pairsRight.map((id) => <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />)}
+                </div>
+              </div>
+            </section>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.different.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.different.how}</p>
+              <div class="sheet-paper__row">
+                {pack.differentRow.map((id) => (
+                  <figure>
+                    <img src={pictureUrl(id)} alt={name(id)} width="120" height="120" />
+                  </figure>
+                ))}
+              </div>
+            </section>
+            <section class="sheet-paper__puzzle-block">
+              <h4>{seasonal.puzzles.color.title}</h4>
+              <p class="sheet-paper__how">{seasonal.puzzles.color.how}</p>
+              <figure class="sheet-paper__color-picture">
+                <img src={pictureUrl(pack.color)} alt={name(pack.color)} width="240" height="240" />
+                <figcaption>{name(pack.color)}</figcaption>
+              </figure>
+            </section>
+            <p class="sheet-paper__season-foot">{seasonal.printFooter}</p>
+          </div>
+        ))}
+      </>
     )
   }
   <slot />

@@ -18,10 +18,14 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 64 | 193 | 150 | 407 |
-| S3 | 1 | 12 | 62 | 75 |
+| S2 | 66 | 241 | 100 | 407 |
+| S3 | 2 | 15 | 58 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **77** | **233** | **223** | **533** |
+| **All** | **80** | **284** | **169** | **533** |
+
+| S3 | 1 | 15 | 59 | 75 |
+| S4 | 0 | 0 | 11 | 11 |
+| **All** | **79** | **277** | **177** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -283,6 +287,159 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | --- | --- | --- |
 | Game page "Seated toss tally" at `/games/seated-toss/` (English only, built by a subagent, checked by me): two people at a table toss a small bag into a large target and keep the tally on paper. The page opens with a safety block that is always shown (small parts, mouths, an adult within reach, the pause line) built from the site's own safety labels, a short how-to, and a one-page print sheet with a three-ring target whose rings are named in words and a plain tally table with no total row; no on-screen scoring, timer, miss count or winner wording | GAME-049 → partial (the safety wording and the ring order have had no reviewer; nobody has tried it with a real bag; English only) | vitest 4,049 pass; `tsc` clean; build 16,544 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 19 of 19, one page on A4 and Letter; `check:capacity` 17,297 files (86.5%); `check:a11y` 0 failing of 179 (agent's run) |
 
+### Batch 35 (2026-11-18)
+
+Three games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. All three are English only and print or play with no score, timer, winner or count of misses.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Drawing duet" at `/games/drawing-duet/`: one canvas, two people, each with one of the four Color by number colors named in words and shapes (orange and purple to start); a banner always shows whose turn it is and the pen color by name; draw with a finger, mouse or pen, or with the arrow keys and Space; Pass the pen, Take back my last line (only the current person's own line), Start again with a one-step Put it back, Save picture (a PNG made on the device, nothing sent) and a one-page paper version with the rules on the sheet | GAME-032 → partial (not tried with real pairs, children or with a tremor; a person may still choose yellow, which is faint as a line; keyboard drawing not tried with a screen reader or switch; English only) | Browser at 390 px: a drag drew an orange line, Pass gave the turn to the second person in purple, Take back left the first person's line in place |
+| Game page "Decorate a card together" at `/games/decorate-a-card/`: five occasions (no religious or health occasions), a preview, five steps and a one-page sheet that folds in half, with the occasion words in an outline frame on the front and message lines and From on the back; the rules for two print on the sheet; crayons, pencils or pens only | GAME-035 → partial (not tried by real pairs or in a care setting; occasion names not reviewed; English only) | Review fixes: the agent's copy said the message goes "inside", which a one-sided sheet cannot do once folded, now "the back"; a "safe to use at a table" claim removed; the preview scrolled sideways at 390 px (`check:a11y`), fixed by letting the grid and the fieldset shrink |
+| Game "Find together" at `/games/find-together/`: 6, 8 or 12 Picture pairs cards, pictures showing to start (as Picture pairs does) or face down; turns of two cards; two different cards stay face up until "Turn them back"; Pass at any time; one shared tally "Pairs found together" that only counts up | GAME-047 → partial (not tried with real pairs or a carer and a child; English only) | Review fixes: the agent started face down, changed to pictures showing (AGENTS.md visible-picture play); `check:images` found the card pictures had no width or height, added |
+
+Checks on the integrated branch: vitest 129 files, 4,162 pass (1 skipped); `tsc` clean; build 16,547 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` game sheets 21 of 21, both new sheets one page on A4 and Letter; `check:capacity` 86.5%; `check:a11y` 0 failing of 185 (25 games at two widths); Python 121 tests and `release_metadata.py --check` pass. Share images for the three games made with `make-images.py` and checked by eye (one subtitle shortened so it is not cut off).
+
+### Batch 36 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. Both are English only, with no score, timer, winner or count.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game page "Seasonal puzzle pack" at `/games/seasonal-pack/`: choose Spring, Summer, Autumn or Winter (never detected), with the months for both halves of the world from the season pages; one printed page of three puzzles from the shared pictures (Match the pairs in two rows, Which one is different?, Color it in); answers are never shown or checked; "Today is a rest day" hides the puzzles and the print button and shows one calm line | GAME-040 → partial (by season rather than month; picture sets not checked for the southern half or other cultures; not tried; English only) | Review fixes: a candle in winter (fire, and a holiday reading) and a teapot beside a kettle changed to kettle and moon; sun beside sunflower changed to a straw hat; the translators' README section the agent left out written; `check:print` found two pages, cut to one on A4 and Letter by laying the pairs in rows |
+| Game "Quiet shapes puzzle" at `/games/quiet-shapes/`: six outlines split into spaces; tap a piece, then a space of the same shape, and it fits with no dragging or turning; a different shape is not placed and a calm line says so; hint lines on to start; take back, Start again with Put it back, Another shape; a print of the outline and pieces with the sharp-tools label | GAME-060 → partial (no parallelogram yet; not tried with a tremor or by people who like geometry; English only) | `check:a11y` found the space buttons inside an `aria-hidden` drawing, so a screen reader could not reach them; fixed, with a unit test that fails if it comes back. Browser at 390 px: a rectangle refused by a triangle space, accepted by a rectangle space, the house completed with one calm line, smallest button 69 px |
+
+Checks on the integrated branch: vitest 133 files, 4,228 pass (1 skipped); `tsc` clean; build 16,549 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 23 of 23; `check:capacity` 86.6%; `check:a11y` 0 failing of 189. Share images for both games made with `make-images.py` and checked by eye.
+
+### Batch 37 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent. Both are English only, with no score, timer, winner or count.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Color wash" at `/games/color-wash/`: one page where a wide, see-through brush lays down color with a finger, mouse or pen, or with the arrow keys and Space; four named colors, Wide and Very wide brushes; A fresh page with one-step Put it back; no end point, praise or count; no paper version | GAME-038 → partial (a plain see-through line, not a soft edge; yellow still faint if chosen; not tried at a bedside or with a tremor; English only) | Browser at 390 px: the agent's default yellow at 40% was barely visible on the page, so a first stroke looked like nothing happened; now green at 55%, checked by painting a stroke |
+| Game "Collage board" at `/games/collage-board/`: 12 places and 8 picture cut-outs (two sets); two people take turns, each placed piece marked with that person's circle or square, also said in words; Pass, Take back, Start again with Put it back; a full board gets a neutral line; a one-page print with the sharp-tools label | GAME-033 → partial (not tried with real pairs; English only) | Browser at 390 px: a turn passed to the second person, place labels name the picture and who placed it, places 114 px, no button inside `aria-hidden`; `check:a11y` found the empty-place numbers faded below contrast by `opacity: 0.7`, removed |
+| Flaky test in Find together (batch 35, already on main): the wording check banned "clock" across the whole page, which since the pictures-showing default includes the dealt cards; the "Mantel clock" card failed it at random | Test fix only, shipped in batch 36's PR | 2,000 forced deals pass, about 40 with the clock card |
+
+Checks on the integrated branch: vitest 137 files, 4,293 pass (1 skipped); `tsc` clean; build 16,551 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates, game sheets 24 of 24; `check:capacity` passes; `check:a11y` 0 failing of 193. Replayed onto main after the maintainer merged #91 and the re-translation PR #89 (no shared files); tests, `tsc`, Python tests and the build rerun there. Share images for both games made with `make-images.py` and checked by eye.
+
+### Batch 38 (2026-11-18)
+
+Two games, each built by a Haiku subagent in its own worktree, then reviewed, corrected and integrated by the PM agent, plus a print bug on main found in review. GAME-054 Big shapes and colors was scheduled for this batch and set aside: it is for children 2 to 5, behind the child-facing gate (see the blockers table).
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Collage board printed a blank page (batch 37, on main): its screen-hide rule beat the print rule that shows `.sheet`. `check:print` counted the blank page as a pass. Fixed (shipped as #93), the board printed 6 by 2 to fit one Letter page, and `check:print` now needs a printed `.sheet` with content for every game sheet | GAME-033 (fix); check upkeep | A probe of all 24 game sheets in print mode: Collage board the only blank one; print-mode screenshot after the fix shows the board, pictures, label and pause line |
+| Game "Garden planner" at `/games/garden-planner/`: 12 beds, plant pictures from the shared set plus a watering can and birdhouse; tap a picture then a bed; tap a planted bed to clear it; Start again with Put it back; a summary in words; one-page print with note lines; says it is a picture plan, not planting advice | GAME-041 → partial (not per climate; not tried; English only) | Browser at 390 px: "Your plan has 2 sunflowers and 1 rose." updated after a clear; beds 114 px; nothing inside `aria-hidden`. `check:print` found two Letter pages; beds and note lines made smaller, now one |
+| Game page "Group coloring wall" at `/games/coloring-wall/`: one of five Coloring outlines across 4, 6 or 9 pages, with a how-to page and corner labels; taped on the back, no scissors | GAME-052 → partial (corner pages of some pictures are mostly blank at 9 pages; not tried with a group; English only) | The 9-page wall prints 10 pages on A4 and Letter (how-to plus nine), within its limit of 10; the preview description follows the size chosen |
+
+Checks on the integrated branch: vitest 141 files, 4,353 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:budget` 0 over; `check:images` passes; `check:capacity` passes; `check:print` 7 of 7 templates, game sheets 26 of 26 with the new hidden-sheet rule; `check:a11y` 0 failing of 197. Share images for both games made with `make-images.py` and checked by eye.
+
+### Batch 39 (2026-11-19): status audit
+
+Three read-only Haiku subagents compared every remaining `new` item outside games, community and business (143 items in 03, 04, 06, 07, 08, 10, 12, 13, 14, 15 and 17) with the code; the PM agent spot-checked the evidence paths before changing any status. No item was fully built. 29 had real partial work under another name or in an earlier round and move to `partial`; the rest stay `new` (not built) or are gated by their own spec text.
+
+| Moved to partial | What exists (what is still missing) |
+| --- | --- |
+| APP-001, APP-004, APP-006, APP-019, APP-034 | Bundled packs and pictures (no steps or safety text in the app); on-device Daily moment history and pack favorites (no per-activity "We tried this"); helper setup sheet (no helper-only view); no launch-time permission (the rating prompt is automatic, see decisions); one experiments flag (not every experiment behind it) |
+| WEB-009, WEB-020, CNT-009, CNT-030, CNT-033, SEO-039 | Section pages at `/crafts/`, `/kids/`, `/together/`, `/creative-calm/` (not the spec's paths; no pillar tiles or "not for" line); read-aloud in games (not on cards); result and materials pictures (no step pictures); review record and dates (no per-stage record); targets table (no change log); a relaxing-art guide with a non-therapy statement (its URL still says "therapeutic") |
+| L10N-005, L10N-009, L10N-013, L10N-027 | Language-level "not yet reviewed" status (no per-segment status); dated crisis numbers for the US and UK (no per-locale table); a secular season default (no per-locale calendar); a picture rights log with a no-child check (no check for range of families) |
+| TSA-013, TSA-014, TSA-017 | No health fields, and the privacy page asks people not to send diagnoses (no DPIA); consent before the Google tag (no counsel check per market; the spec body already said partial); English privacy notices (no per-language review) |
+| PLAT-010, PLAT-018, PLAT-019 | Card review record and redirects (no draft or review states); image schema with alt and caption (no step images); A4 and Letter print checks with a version footer and large-print cards (no generated PDFs) |
+| MET-001, MET-006, MET-007, MET-013, MET-028, MET-037, MET-038, MET-039 | "We tried this" button; fixed "not a fit" reasons; crisis route on flagged pages; corrections route; print footer and QR; allowlisted aggregate events with an inventory test; event schema test; weekly App Store record. None has its report yet |
+
+Not moved, on purpose: MET-002, MET-003, MET-004 and MET-008 have events but no calculation or report (an event is not a metric); PLAT-030 has a share button, which is not the expiring share link it specifies. Also found, not changed: the app's `isHapticsOn` setting defaults to on and nothing reads it (`lib/features/game/models/user_preferences.dart`), while APP-023 says haptics are off by default, so the default must change before haptics are built; and PLAT-018 is S1 in the roadmap table and S2 in its section.
+
+Built in the same batch, each by a Haiku subagent, reviewed and corrected by the PM agent:
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Read-aloud on activity cards: "Listen to the steps" and a Listen button per step, using the device's own voice; Pause, Resume, Stop, Normal or Slower; nothing speaks until pressed; stops on leaving; hidden in print and where there is no speech | WEB-020 stays partial (Firefox and Safari not tried) | Review fixes: the agent read only the small-parts line before the steps, now every safety flag and note; `aria-pressed` on a changing label removed. Browser: the islands never hydrated, because `client:visible` watches the island's children and this island renders none until it knows speech works, so it would never have loaded in any browser; changed to `client:idle`, then checked: nothing spoken before the press, then title, safety, steps. `check:budget` found the card pages 0.1 kB over the 15 kB CSS budget; the new stylesheet trimmed |
+| Plain-language mode: an optional set of short steps per card, one action each, with a "Short steps" switch on the card that remembers the choice on the device; safety text shared, never rewritten; short steps written for eight cards | WEB-039 → partial (45 cards still without short steps; not tested with five people) | Tests check the word limit, one action per step, that every safety keyword in a standard step survives, and that no new materials or safety words appear. The data-inventory test caught the new device key; it is now in `data-inventory.md` and on the Your data page. `check:budget` found the card pages a few bytes over again; the read-aloud styles trimmed further. The card page CSS is now 2 bytes under its 15 kB budget |
+| Pillar tiles and pillar openings: four tiles on home and `/activity/`; `/crafts/`, `/together/`, `/creative-calm/` and `/caregiving/` each open with their own opening, selection rule, not-for line, six or more cards chosen by rule and links to their intent hubs (English only) | WEB-009 → exists | Review fixes: the older-adults tile said "For older adults and care" but led to the dementia care section, now "Older adults and dementia care"; the agent dropped the Kids tile from home, restored (SEO-041 is undecided). `check:budget` found every section page in every language 0.7 kB over, because the view imported the activities stylesheet for one list style; import removed |
+
+Checks: vitest 143 files, 4,407 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7 templates (it first failed all 53 large-print cards: its "same words as the card" check read the new Listen button as step text; the check now compares the words that print and leaves out on-screen controls); `check:a11y` 0 failing of 197. Spec tally regenerated.
+
+### Batch 40 (2026-11-19): short steps for every card
+
+Three Haiku subagents wrote short steps for the 45 cards without them, 15 each in separate files; the PM agent read the riskiest cards in full (hand massage, sealed shaker, photo album) and wrote one card by hand.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Short steps on all 53 listed cards; a test now fails if a listed card has none | WEB-039 stays partial (not tested with five people who prefer short language) | Kept as steps of their own where the standard steps had them: "Wait for a clear yes" and "Stop straight away if they pull away" (hand massage), "Ask the helper to glue the lid shut" and out-of-reach storage (sealed shaker), "Accept it without checking or correcting it" and the pause for sadness (photo album) |
+| The "no new materials" rule only allowed the materials list, which made agents drop words the standard steps already use (flower, dish, picture) and blocked the chair-music card, whose last step offers a drink of water | Test rule fix | Objects named in the standard steps are now allowed too; a new test covers it. The PM agent wrote the chair-music short steps; the safety check then caught "near" added where the standard step says "around", and the wording was matched |
+| A standard step on Sort a box of postcards read "ask whether the card would like a pile of its own" | Copy fix | Now "ask whether they would like the card on a pile of its own or with another" |
+
+Checks: vitest 145 files, 4,585 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over (short steps add markup, not CSS); `check:print` 7 of 7 templates; `check:a11y` 0 failing of 197.
+
+### Batch 41 (2026-11-19): family photo games
+
+Two changes to existing games, each built by a Haiku subagent and reviewed, browser-checked and corrected by the PM agent. Both keep the photo boundary unchanged: explicit selection only, read in the browser, never uploaded or stored.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Photo pairs: a gentle hint after 20 seconds with no tap (dashed outline and a "Here" marker; restarts on every tap; Hints on/off), family captions up to 60 characters under both cards, and a consent line | GAME-044 → partial | Headless browser with test photos at 390 px: hint fired with "Here is a pair you could try."; captions under both cards; no request left the page. A 60-character caption pushed the board past the screen; fixed with `contain: inline-size` on the caption and checked twice |
+| Picture puzzle: "Use your own photo", cropped to a square in the browser (camera location and time dropped by re-encoding), played as the 4 or 9 piece puzzle, with a printed photo grid | GAME-058 → partial | Browser: 4 pieces named by position, the photo sheet prints on one page on A4 and Letter while the built-in sheet is hidden. Analytics on this page left as it is and put to the maintainer (decisions table), because the data inventory says the code does not add or remove a vendor without that decision |
+
+Checks: vitest 147 files, 4,614 pass (1 skipped); `tsc` clean; build 16,707 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 197.
+
+### Batch 42 (2026-11-19): Scrapbook and room in the card CSS budget
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Scrapbook" at `/games/scrapbook/`: two to twelve of the person's own photos as a book, one to a page, with optional family captions, reordering, paging by button or arrow key, a "Look together" view and a print; no analytics on the page, like Photo pairs | GAME-037 → partial | The print check's blank-sheet rule (added after the Collage board bug) failed it: the print section sat inside the game frame, which every game hides in print, so even a full book printed blank. Moved beside the frame, with a blank photo page for the empty state. Then, with four test photos at 390 px: pages 1 to 4, four printed pages on A4 and Letter, no request left the page |
+| Page-specific CSS moved out of the stylesheet every page loads (game cards, editorial answers and contents, the app call-to-action band, FAQ, article layout, meta line) into the templates that use them | WEB-074 upkeep | About 1 kB gzipped freed on card pages (the target was 1.5 kB; the rest is in rules every page shares). Before and after screenshots of 15 page types at 390 and 1280 px, built with only this change: identical apart from the two pages with random game decks and one lazy-loaded picture. A test keeps the moved selectors out of the global files |
+
+Checks: vitest 150 files, 4,655 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7, game sheets 27 of 27; `check:a11y` 0 failing of 199.
+
+### Batch 43 (2026-11-19): dark theme
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A dark theme that follows the device, from DESIGN.md palette colors only; a "Colors on this site" choice (Light, Dark, Same as this device) on the Accessibility page; high contrast wins; print stays light | WEB-042 → partial (line-length and spacing options not built) | Built by a Haiku subagent. Review: the real build failed on a duplicate `saved` declaration in `TextSize.astro` that `tsc` and the unit tests do not parse; renamed. The agent put the colors choice in the header, adding a row to every mobile page, moved to the Accessibility page. In dark, the current nav item showed light text on the sun fill; 22 rules that paint the sun fill now set their dark text color, and a test enforces it. Light pages compared by screenshot on 15 page types: unchanged apart from the footer text tone |
+
+Checks: vitest 153 files, 4,719 pass (1 skipped); `tsc` clean; build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 7 of 7; `check:a11y` 0 failing of 226, now with a 390 px dark variant. On its first run the dark variant failed six pages (the path pill, pack choices, a season link and the lead-guide card, which used the always-white tile color); fixed, and the sun-fill test now also reads views and pages.
+
+### Batch 44 (2026-11-19): a handout for professionals
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A one-page printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers, at `/for-professionals/`, held from search until a credentialed reviewer signs it | WEB-048 → partial | Built by a Haiku subagent. Review: it printed on two pages because the QR code is inserted as raw SVG, which Astro's scoped styles do not reach, so the size rule never applied (on screen too); fixed with `:global(svg)` and tighter print spacing. Its small print-button script changed a script Astro inlines on every page, so `check:site` failed on a hash missing from the security headers; the button was replaced by a line telling people how to print, so no security header changed. Link targets are written out for paper |
+
+Checks: vitest 151 files, 4,663 pass (1 skipped); build 16,709 pages; `check:site` 0 errors; `check:print` 8 of 8 (the handout is now one of the templates); `check:a11y` 0 failing of 199.
+
+### Batch 45 (2026-11-19): reading settings
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| "Reading on this site" on the Accessibility page: Shorter lines and More space, stored on the device, applied before first paint, screen only | WEB-042 → exists (with the dark theme from batch 43) | Built by a Haiku subagent (210 bytes gzipped). Browser check: the settings changed activity cards but not guides, because guides set their own width (68ch) rather than the token; the override now sets the width itself. The agent's narrower width was 720 to 680 px, too small to notice; set to a 42-character measure (720 to 544 px). Print ignores both; no sideways scroll at 320 px. The data-inventory test caught the two new device keys; rows added |
+
+Checks: vitest 153 files, 4,731 pass (1 skipped); build 16,708 pages; `check:site` 0 errors; `check:budget` 0 over; `check:print` 7 of 7; `check:a11y` 0 failing of 226, including the dark variant.
+
+### Batch 46 (2026-11-19): a cross-browser check
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `pnpm check:browsers` runs eight flows in Playwright Chromium, Firefox and WebKit: read-aloud order, Short steps across a reload, colors and text settings applied before paint, the device's dark setting, Photo pairs and Scrapbook with test photos and no network request, game print sheets shown in print, and no sideways scroll at 320 px. Added to the site CI job | WEB-020 and the testing rules' minimum browser set; upkeep | Written by a Haiku subagent. Local run: all eight flows pass in Chromium and in WebKit (Safari's engine, not Safari itself). Playwright's Firefox build does not start on this macOS (sandbox and software-renderer errors, also with the shell sandbox off), so Firefox runs on the Linux CI runner instead. First CI run (#102): 24 of 24 flow runs pass, Firefox included |
+
+### Batch 47 (2026-11-19): two games and a life-story guide
+
+Three Haiku subagents in parallel, each reviewed and browser-checked (light and dark, 390 px) by the PM agent.
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Game "Picnic planner": choose up to six food and outing pictures, a sentence in words, a pairs round from the choices, a printable packing checklist | GAME-043 → partial | Browser: "Our picnic: bread, apples and a kite.", a 3-pair round, the checklist prints (blank lines when nothing is chosen) |
+| Game "Quiet scene": twelve still pictures with one line each, Next and Previous only, a Bigger picture view, no sound, no motion | GAME-039 → partial | Browser: "This is the first picture." and "This is the last picture." at the ends; no sideways scroll |
+| Guide "Making a Life-Story Book Together, One Page at a Time" | SEO-038 → exists | Review fix: the guide said never to ask what someone recalls, yet several prompts were recall questions ("Where did the kettle sit?"); the prompts are now about the thing in front of you and the rule says no quizzing. Crisis route shown in the browser; library inventory regenerated |
+
+Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
+
+### Batch 49 (2026-11-19): localization registers
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| [Cultural adaptation register](global/cultural-adaptation-register.md): 21 rows, one per known point in the native review guide plus a Ukrainian men's-guide row found on the way, each with its file and line, the English counterpart and a proposal (keep, change, remove or reviewer to choose); "Decided by" empty everywhere | L10N-012 → partial | Drafted by a Haiku subagent from the repository only. Six citations spot-checked against the files (Italian chrysanthemum caption, German informal quoted line, Japanese uniformed-work row, Thai rating word, Arabic arrow, Spanish trivia row): all correct. Three points could not be tied to one file (Arabic layout is a run-time check; the Ukrainian source language is not recorded; the Thai store label key) and say so |
+| [Family terms register](global/family-terms-register.md): English source audit of 22 family and age words, legitimate uses separated from example scripts that assume one family; forms of address for German, Spanish, French, Italian, Ukrainian, Russian and Arabic | L10N-015 → partial | Same agent. Review found the scope note wrongly said the game and play strings had no English file; they were searched (three hits, all legitimate) and the note corrected. No "patient" or "sufferer" for the older person. Changing the example scripts and choosing each form of address wait for the maintainer and reviewers |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -292,9 +449,10 @@ Fixed after review: Rest now pauses the hint wait in both games (`GameFrame` `on
 | `GM-010`, `GM-011` (APP-032) | R2: only if the pilot chooses them; read-aloud needs its approval | Pilot, maintainer |
 | `GM-021`, `GM-022`, `GM-035` | R3, explicitly not authorized | Maintainer |
 | Accounts, payments, community, sync, email digest and telemetry items in S2–S4 (COM-, paid BIZ-, WEB-071, SEO-026, PLAT-027 and others) | Written approval and a privacy decision | Maintainer |
-| GROW child-facing items (CNT-8xx, S3) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
+| GROW child-facing items (CNT-8xx, S3) and the games for children 2 to 6 (GAME-053, GAME-054, GAME-055, GAME-057) | Child-facing gate CNT-890 and TSA-018 to TSA-021 decisions | Maintainer, counsel |
 | S4 languages | Native reviewers per language | Reviewers |
 
+<!-- cspell:ignore démence apparentées cognitifs maladie maladies troubles الخرف الزهايمر -->
 ## Decisions only the maintainer can make
 
 Each of these blocks work that no one else can unblock. The last column is a suggestion to make the decision quicker. None is decided, and nothing in the repository acts on it.
@@ -308,10 +466,14 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | CNT-032, CNT-030 | Adopt the written rule and the one-line disclosure, with the wording confirmed by counsel, or not | Adopt, with counsel confirming the wording before it ships |
 | A first-party "We tried this" counter (PLAT-027) | PLAT-027, MET-001, MET-002, MET-003 | None (Google Analytics with consent only), or a cookieless endpoint that stores daily counts per activity and language with small cells hidden (proposed minimum 10) | Approve it in principle: Google Analytics cannot see an activity done away from the screen, and the north star is confirmed starts |
 | A service worker for offline reading (WEB-040, PLAT-034) | WEB-040, PLAT-034 | Keep `worker-src 'none'` in the security headers (no offline reading on the web) or allow a reviewed service worker for the site's own address | Allow it after a privacy review; care homes with poor Wi-Fi are the case for it |
+| The app's automatic rating prompt (APP-019) | APP-019, GM-001 | Keep the prompt the app shows after 4 finished games on 2 days (`lib/shared/rating/review_request.dart`), or change the app so the person opens the rating control, as APP-019 says | Change the app: the spec and DESIGN.md forbid prompts the person did not ask for |
+| The seven live kids guides (SEO-041) | SEO-041 | Keep the guides for parents in `site/src/content/guides/kids/` (adult-facing, so not behind the child-facing gate) and change SEO-041, or move them to hub links only as SEO-041 says | Keep them and change SEO-041: they are written for adults and already published; removing pages loses links |
+| Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
+| The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
 
 ## Next batches (buildable without a person)
 
 1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data (for example GAME-022 Four together, GAME-029 Singing sheets, GAME-059 Spot the difference), each with the site's game rules: no score, no timer, Rest always visible.
+2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): GAME-042 Garden bird spotter needs bird drawings; the music games need a sound license review. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
 3. Result drawings for the new cards (shared with the app; needs names in all app languages).

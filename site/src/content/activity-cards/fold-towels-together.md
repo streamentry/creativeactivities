@@ -30,6 +30,17 @@ steps:
   - "Place the folded towel on the pile."
   - "Repeat with the next towel, and swap jobs whenever they like."
   - "Stack the finished towels in the laundry basket or cupboard."
+plainSteps:
+  - "Sit at a table, or stand at a counter."
+  - "Keep the basket of towels beside you."
+  - "Lift one towel and shake it out once."
+  - "Bring one edge across to meet the opposite edge."
+  - "Smooth the towel flat with both hands."
+  - "Fold it in half or in thirds, however they like."
+  - "Place the folded towel on the pile."
+  - "Repeat with the next towel."
+  - "Swap jobs whenever they like."
+  - "Stack the finished towels in the laundry basket or cupboard."
 variations:
   - kind: easier
     text: "The helper does the first fold, and the person smooths each towel flat and places it on the pile."

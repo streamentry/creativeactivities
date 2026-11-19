@@ -10,7 +10,15 @@
 import { parseTried, TRIED_STORAGE_KEY } from './activity-feedback';
 import { parseHave, STORAGE_KEY as WHAT_I_HAVE_KEY } from './what-i-have';
 import { CONSENT_KEY } from './consent';
-import { CONTRAST_KEY, PLAY_SETTINGS_KEY, TEXT_SIZE_KEY } from './display-settings';
+import {
+  CONTRAST_KEY,
+  LINE_LENGTH_KEY,
+  PLAIN_STEPS_KEY,
+  PLAY_SETTINGS_KEY,
+  SPACING_KEY,
+  TEXT_SIZE_KEY,
+  THEME_KEY,
+} from './display-settings';
 import { LANGUAGE_COOKIE, readCookie } from './language-choice';
 import { PATHS } from '../data/paths';
 import { parsePaths, PATHS_STORAGE_KEY } from './paths';
@@ -91,6 +99,34 @@ export const SITE_STORES: readonly SiteStore[] = [
     key: CONTRAST_KEY,
     label: 'High contrast',
     description: 'Whether you chose high contrast colors on the site.',
+  },
+  {
+    id: 'theme',
+    kind: 'localStorage',
+    key: THEME_KEY,
+    label: 'Colors',
+    description: 'Whether you chose light or dark colors on the site.',
+  },
+  {
+    id: 'line-length',
+    kind: 'localStorage',
+    key: LINE_LENGTH_KEY,
+    label: 'Line length',
+    description: 'Whether you chose shorter lines on the site.',
+  },
+  {
+    id: 'spacing',
+    kind: 'localStorage',
+    key: SPACING_KEY,
+    label: 'Spacing',
+    description: 'Whether you chose more space between lines on the site.',
+  },
+  {
+    id: 'plain-steps',
+    kind: 'localStorage',
+    key: PLAIN_STEPS_KEY,
+    label: 'Short steps',
+    description: 'Whether you chose short steps on activity cards.',
   },
   {
     id: 'play-settings',

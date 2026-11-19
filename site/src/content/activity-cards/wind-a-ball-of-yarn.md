@@ -29,6 +29,17 @@ steps:
   - "Turn the ball a little every few wraps so it stays round."
   - "Swap jobs whenever either of you would like to."
   - "Tuck the end under the last wrap and drop the ball in the bowl."
+plainSteps:
+  - "Sit with the yarn between you."
+  - "Ask whether they would like to hold or wind."
+  - "Find the loose end of the yarn together."
+  - "Wrap the end around two fingers a few times."
+  - "Slide the bundle off your fingers."
+  - "Keep winding around that small bundle."
+  - "Turn the ball a little every few wraps."
+  - "Swap jobs whenever either of you likes."
+  - "Tuck the end under the last wrap."
+  - "Drop the finished ball in the bowl."
 variations:
   - kind: easier
     text: "Start the ball beforehand around a cardboard tube. The only job is turning the tube slowly while the helper feeds the yarn."

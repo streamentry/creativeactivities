@@ -218,7 +218,7 @@ Depends on: TSA-011.
 Risks / not doing: Do not use a pixel that records full URLs.
 
 ### TSA-013 · Special-category data posture (GDPR Article 9)
-Priority P0 · Phase S2 · Status new · Pillars: CARE, CALM, GROW
+Priority P0 · Phase S2 · Status partial · Pillars: CARE, CALM, GROW
 
 Why: Information about a person's health is special-category data under GDPR Article 9(1). A dementia diagnosis or care need recorded about someone is health data [R5 §5.2].
 
@@ -281,7 +281,7 @@ Depends on: TSA-011.
 Risks / not doing: Do not keep email lists longer than the schedule.
 
 ### TSA-017 · Privacy notice and store privacy labels
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Store privacy labels and the site notice must match each other and the inventory. A mismatch is a trust failure and a store risk.
 
@@ -829,7 +829,7 @@ Depends on: [business model](16-business-model.md).
 Risks / not doing: Do not describe the business in a way the business model does not support.
 
 ### TSA-049 · Sponsorship and partner disclosure
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: VISION allows only carefully disclosed sponsorships, and partners must not be read as endorsers without permission [VISION "Revenue"; SEO-025].
 
@@ -841,6 +841,9 @@ Acceptance:
 
 Depends on: [business model](16-business-model.md).
 Risks / not doing: Do not accept a sponsorship that would need an activity to change.
+
+
+Evidence (2026-11-19): a "Sponsors and partners" section on the English About page reads a typed partner list (`site/src/data/partners.ts`, empty today) and says there are no sponsors, paid placements or partner logos; `PartnerDisclosure.astro` is the line any future partner page must show; a test fails if an activity card carries sponsor or affiliate wording or if a logo image appears other than the site's own. A search of the site found no sponsor or partner (one third-party certification link in a crafts guide is a reference, not a partnership). Gap: the "no sponsors" statement is a fact about the business and waits on the maintainer's confirmation before it is published.
 
 ### TSA-050 · Physical kit product safety, if sold
 Priority P3 · Phase S4 · Status new · Pillars: all

@@ -29,6 +29,16 @@ steps:
   - "Keep going, one button at a time, in whatever order they like."
   - "Ask what they notice about the colors or sizes as the dishes fill up."
   - "Tip the buttons back into the bowl, one dish at a time."
+plainSteps:
+  - "Sit at the table with the bowl of buttons."
+  - "Set the muffin tin and the tray within reach."
+  - "Pour a small handful of buttons onto the tray."
+  - "Pick up one button."
+  - "Look at its color and size."
+  - "Place it in a matching dish, or start a new one."
+  - "Keep going, one button at a time."
+  - "Ask what they notice about the colors or sizes."
+  - "Tip the buttons back into the bowl, one dish at a time."
 variations:
   - kind: easier
     text: "The helper pre-sorts two or three colors into dishes, and the person adds one button at a time to the right one."

@@ -32,6 +32,23 @@ steps:
   - "Keep the walls an even thickness, about as thick as a pencil, and dampen the fingers only when the clay feels dry."
   - "Smooth the rim with a damp finger, then wipe the fingers on the cloth."
   - "Set the finished pot on a tray and leave it to dry for a day or two, away from direct heat."
+plainSteps:
+  - "Cover the table with a plastic cloth."
+  - "Put the damp cloth and the water bowl within reach."
+  - "Give each person a ball of clay, about the size of a tennis ball."
+  - "Roll the clay gently between the palms."
+  - "Keep rolling until the surface is smooth."
+  - "Press a thumb into the middle to make a dip."
+  - "Then stop and look at it."
+  - "Turn the clay slowly."
+  - "Press the walls out with the thumbs, a little at a time."
+  - "Keep the base flat."
+  - "Make the walls an even thickness, about as thick as a pencil."
+  - "Dampen the fingers only when the clay feels dry."
+  - "Smooth the rim with a damp finger."
+  - "Wipe the fingers on the cloth."
+  - "Set the finished pot on a tray."
+  - "Leave it to dry for a day or two, away from direct heat."
 variations:
   - kind: easier
     text: "Flatten the ball into a disc first, then press the edges up with the thumbs."

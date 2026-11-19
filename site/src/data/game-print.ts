@@ -20,7 +20,7 @@ import { TOGETHER_PRINT_COUNT } from '../lib/games/print-sheet';
  * prints as `Version <date>`, the same way activity cards print theirs (WEB-016).
  * Change it whenever the sheet or the rules line changes.
  */
-export type NoPrintReason = 'photos' | 'paced' | 'sayings';
+export type NoPrintReason = 'photos' | 'paced' | 'sayings' | 'turns' | 'wash' | 'screen';
 
 export type GamePrint =
   | { kind: 'island'; version: string }
@@ -38,7 +38,11 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'color-by-number': { kind: 'page', version: '2026-11-17' },
   'pattern-maker': { kind: 'island', version: '2026-11-18' },
   'build-together': { kind: 'island', version: '2026-11-18' },
+  'find-together': { kind: 'none', reason: 'turns' },
+  'drawing-duet': { kind: 'island', version: '2026-11-18' },
   'seated-toss': { kind: 'page', version: '2026-11-18' },
+  'decorate-a-card': { kind: 'page', version: '2026-11-18' },
+  'seasonal-pack': { kind: 'page', version: '2026-11-18' },
   'story-chain': { kind: 'page', version: '2026-11-17' },
   'story-dice': { kind: 'page', version: '2026-11-17' },
   'sort-together': { kind: 'page', version: '2026-11-15' },
@@ -50,6 +54,14 @@ export const GAME_PRINT: Readonly<Record<GameSlug, GamePrint>> = {
   'photo-pairs': { kind: 'none', reason: 'photos' },
   'picture-bingo': { kind: 'island', version: '2026-11-15' },
   'calm-breathing': { kind: 'none', reason: 'paced' },
+  'quiet-shapes': { kind: 'island', version: '2026-11-18' },
+  'color-wash': { kind: 'none', reason: 'wash' },
+  'collage-board': { kind: 'island', version: '2026-11-18' },
+  'garden-planner': { kind: 'island', version: '2026-11-18' },
+  'coloring-wall': { kind: 'island', version: '2026-11-18' },
+  scrapbook: { kind: 'island', version: '2026-11-19' },
+  'picnic-planner': { kind: 'island', version: '2026-11-19' },
+  'quiet-scene': { kind: 'none', reason: 'screen' },
 };
 
 /** Whether a game has a paper version (built in or rendered by the page). */
@@ -73,7 +85,11 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'color-by-number': ['colorByNumber', 'guidance'],
   'pattern-maker': ['patternMaker', 'guidance'],
   'build-together': ['buildTogether', 'guidance'],
+  'find-together': ['findTogether', 'guidance'],
+  'drawing-duet': ['drawingDuet', 'guidance'],
   'seated-toss': ['seatedToss', 'guidance'],
+  'decorate-a-card': ['decorateACard', 'guidance'],
+  'seasonal-pack': ['seasonalPack', 'guidance'],
   'story-chain': ['storyChain', 'guidance'],
   'story-dice': ['storyDice', 'guidance'],
   'sort-together': ['sortTogether', 'guidance'],
@@ -85,6 +101,14 @@ export const RULES_KEY: Readonly<Record<GameSlug, readonly [keyof PlayUi, string
   'photo-pairs': ['photoPairs', 'guidance'],
   'picture-bingo': ['pictureBingo', 'guidance'],
   'calm-breathing': ['calmBreathing', 'guidance'],
+  'quiet-shapes': ['quietShapes', 'guidance'],
+  'color-wash': ['colorWash', 'guidance'],
+  'collage-board': ['collageBoard', 'guidance'],
+  'garden-planner': ['gardenPlanner', 'guidance'],
+  'coloring-wall': ['coloringWall', 'guidance'],
+  scrapbook: ['scrapbook', 'guidance'],
+  'picnic-planner': ['picnicPlanner', 'guidance'],
+  'quiet-scene': ['quietScene', 'guidance'],
 };
 
 /** The one-line rules text, identical on the game and on its paper version. */

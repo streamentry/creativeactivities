@@ -1,0 +1,120 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import { SITE } from '../lib/site';
+import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
+import { qrSvg } from '../lib/qr';
+
+/** The date the words on this page last changed. Change it with them. */
+const UPDATED = '2026-11-19';
+const updatedText = new Date(`${UPDATED}T00:00:00Z`).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  timeZone: 'UTC',
+});
+const qr = qrSvg(`${SITE.url}/`, 'QR code for the Creative Activities home page');
+---
+<PageLayout
+  title="A handout for health and social care professionals"
+  description="A free handout for health and social care professionals to give to families: everyday creative activities to do at home, what the site is not, and when to stop."
+  path="/for-professionals/"
+  crumb="For professionals"
+  lede="Creative Activities is a free site of everyday creative activities that families can do at home, and you may suggest it to the people you work with."
+  noindex
+>
+  <section class="handout-page" aria-labelledby="what-it-is">
+    <h2 id="what-it-is">What it is</h2>
+    <ul>
+      <li>Free, and no account is needed.</li>
+      <li>Printable cards, each with an easier version and safety notes.</li>
+      <li>For doing something together, for enjoyment.</li>
+    </ul>
+  </section>
+
+  <section class="handout-page" aria-labelledby="what-it-is-not">
+    <h2 id="what-it-is-not">What it is not</h2>
+    <ul>
+      <li>Not therapy, not treatment, and not an assessment or a test of memory.</li>
+      <li>It makes no diagnosis.</li>
+      <li>It does not replace advice from a doctor or the person's care team.</li>
+    </ul>
+    <p>{SCOPE_LINE}</p>
+  </section>
+
+  <section class="handout-page" aria-labelledby="signs-to-stop">
+    <h2 id="signs-to-stop">Signs to stop</h2>
+    <p>{PAUSE_LINE}</p>
+  </section>
+
+  <section class="handout-page" aria-labelledby="pointing">
+    <h2 id="pointing">How to point families to it</h2>
+    <p>Ask them to visit <strong>{SITE.domain}</strong>, or to start with:</p>
+    <ul>
+      <li><a class="handout-link" href="/activity/">Find an activity</a>: the finder at {SITE.domain}/activity/ narrows the cards with filters.</li>
+      <li>Large-print cards: every card has a large-print version with the same steps in bigger type. Open a card to find it.</li>
+      <li><a class="handout-link" href="/activity/pack/">Build a printable pack</a>: at {SITE.domain}/activity/pack/, choose cards and print them with a supply list.</li>
+    </ul>
+    <figure class="handout-qr">
+      <Fragment set:html={qr} />
+      <figcaption>Scan to open {SITE.domain}</figcaption>
+    </figure>
+    <p class="no-print">To print this handout, use Print in your browser menu, or press Ctrl and P (Command and P on a Mac).</p>
+  </section>
+
+  <section class="handout-page handout-notes" aria-labelledby="notes">
+    <h2 id="notes">For your notes</h2>
+    <p class="muted">Last updated <time datetime={UPDATED}>{updatedText}</time>.</p>
+    <p>This handout has not yet been reviewed by a credentialed professional. It is not listed in search results until it has been.</p>
+    <p>To report a problem with this page, use the <a href="/corrections/">corrections page</a>.</p>
+  </section>
+</PageLayout>
+
+<style>
+  .handout-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 48px;
+  }
+  .handout-qr {
+    margin-block: var(--space-md);
+  }
+  /* The QR code is inserted as raw SVG, which scoped styles do not reach, so the size rule is global to the figure. */
+  .handout-qr :global(svg) {
+    width: 9rem;
+    height: auto;
+  }
+  @media print {
+    /* One sheet: a little smaller type and tighter spacing, black on white (set by the global print rules). */
+    .handout-page p,
+    .handout-page li {
+      font-size: 11pt;
+      line-height: 1.35;
+    }
+    .handout-page h2 {
+      font-size: 13pt;
+      margin-block: 6pt 2pt;
+    }
+    .handout-qr {
+      margin-block: 4pt;
+    }
+    /* Tap-target height is for screens; on paper the links are plain lines. */
+    .handout-link {
+      min-height: 0;
+    }
+    /* The page title block comes from the layout, so these print sizes are global to this page only. */
+    :global(.page-head) {
+      margin-block-end: 4pt;
+      padding-block: 0;
+    }
+    :global(.page-head h1) {
+      font-size: 18pt;
+      margin-block: 0 4pt;
+    }
+    :global(.page-head .lede) {
+      font-size: 11pt;
+    }
+    .handout-qr :global(svg) {
+      width: 26mm;
+    }
+  }
+</style>

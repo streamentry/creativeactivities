@@ -179,11 +179,13 @@ Risks / not doing: Auto-generated related lists can look random. Review them.
 
 ### WEB-009 · Pillar tiles and pillar hubs
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status exists · Pillars: all
 
 Why: MISSION names the situations, and the six pillars organize them ([README](README.md#pillars)). Visitors who do not know what they want need a way in besides search.
 
-What: Tiles on `/activity/` and the home page link to pillar hubs: `/make/`, `/calm/`, `/together/` and `/for-older-adults/`. `/kids-and-families/` waits for S2 content. Hubs follow the template in [WEB-059](#web-059--intent-hub-template).
+What: Tiles on `/activity/` and the home page link to pillar hubs. They are the live section pages `/crafts/`, `/together/`, `/creative-calm/` and `/caregiving/` (older adults and dementia care); the spec's earlier paths `/make/`, `/calm/` and `/for-older-adults/` were never built and are not needed (decided 2026-11-19 to keep live URLs). `/kids/` stays a section, not a pillar, until the child-facing gate and SEO-041 are decided; its home tile is kept. Hubs follow the template in [WEB-059](#web-059--intent-hub-template).
+
+Evidence (2026-11-19): `site/src/data/pillars.ts` holds each pillar's opening, selection rule, not-for line, card rule and intent hubs; `SectionView.astro` shows them above the guide list in English only (translated pages unchanged); `pillars.test.ts` checks six or more real cards, the overlap rule against every hub list, banned words and hub links. Browser at 390 px: `/caregiving/` shows six cards and three hub links, no sideways scroll; `/de/caregiving/` unchanged.
 
 Acceptance:
 - Each pillar hub links to at least six cards and to its intent hubs.
@@ -384,7 +386,7 @@ Risks / not doing: Pictures can carry cultural assumptions. Test them with peopl
 
 ### WEB-020 · Read-aloud
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Reading aloud helps people with low vision, low literacy and tired eyes, and it supports shared reading in a group ([MISSION, "Accessible by default"](../../../MISSION.md)).
 
@@ -399,6 +401,8 @@ Acceptance:
 Depends on: [WEB-036](#web-036--keyboard-focus-and-screen-reader-on-every-template).
 
 Risks / not doing: No third-party speech service. A cloud voice would change the privacy position.
+
+Evidence (2026-11-19): "Listen to the steps" and a Listen button on each step of every activity card (`site/src/components/CardListen.tsx`, `site/src/lib/listen-card.ts`), with Pause, Resume, Stop and a Normal or Slower speed; nothing speaks until pressed; it reads the title, then every safety flag and note, then the steps; it stops on `pagehide` and when the tab is hidden; the controls appear only where the browser has speech and are hidden in print; the note "Uses your device's own voice. Some devices send the text to their maker to speak it." is under the control. Checked in Chromium at 390 px (180 voices), and in Playwright WebKit (Safari's engine) by `pnpm check:browsers` (2026-11-19): the title, safety lines and first step are spoken in that order. Firefox runs in the same check on the Linux CI runner (Playwright's Firefox does not start on the maintainer's macOS); first CI run, 2026-11-19: all eight flows pass in Chromium, Firefox and WebKit. Gaps: Safari itself on an Apple device not tried; whether a given device sends text to its maker is stated generally, not verified per platform; English cards only.
 
 ### WEB-021 · Short demo video per activity
 
@@ -718,7 +722,7 @@ Risks / not doing: The finder needs JavaScript for its best behavior. Its basic 
 
 ### WEB-039 · Plain-language mode
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, GROW
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, GROW
 
 Why: DESIGN asks for comprehension with people who prefer short language, with "one action per step" ([DESIGN §6](../../../DESIGN.md)).
 
@@ -732,6 +736,8 @@ Acceptance:
 Depends on: [06 content library](06-content-library.md) for the editorial work.
 
 Risks / not doing: Shortening text can remove a safety step. The safety check runs on both versions.
+
+Evidence (2026-11-19): an optional `plainSteps` list on a card (`site/src/lib/activity-schema.ts`), checked by `site/src/lib/plain-steps.ts`: at most 14 words and one action per step; every safety keyword in a standard step (adult, scissors, cut, hot, water, glue, near and others) appears in a plain step too; a plain step may use a safety word only if the card already does, and may name an everyday object only if the card's materials or standard steps already name it. The Safety section is shared, not rewritten. A "Short steps" switch (`site/src/components/PlainToggle.tsx`) swaps the steps list and remembers the choice on the device (`ca-plain-steps`, listed on the Your data page). All 53 listed cards have plain steps (eight first, the other 45 on 2026-11-19, written by subagents and read by the PM agent), and a test now fails if a listed card has none. Browser at 390 px: on Arrange flowers together, 8 steps become 11, "Let the helper do the cutting." is its own step, the choice survives a reload. Gaps: not tested with five people who prefer short language; read-aloud still reads the standard steps in Short steps mode.
 
 ### WEB-040 · Offline reading
 
@@ -761,7 +767,9 @@ Risks / not doing: A stale cached safety change. The version rule in WEB-016 cov
 
 | Priority | Phase | Status | Pillars | Notes |
 |---|---|---|---|---|
-| P2 | S2 | new | all | A dark theme that follows the system setting, and line-length and spacing options. No dark theme was found in the styles checked. Both themes need contrast checks against the token pairings in [DESIGN §2](../../../DESIGN.md). Dark mode is a choice, not the default. |
+| P2 | S2 | exists | all | A dark theme that follows the system setting, and line-length and spacing options. Both themes need contrast checks against the token pairings in [DESIGN §2](../../../DESIGN.md). Dark mode is a choice, not the default. |
+
+Evidence (2026-11-19): a dark theme built only from DESIGN.md palette colors as a token override in `site/src/styles/tokens.css`, applied when the device is set to dark or when a person chooses Dark under "Colors on this site" on the Accessibility page (`gm-theme`, listed on the Your data page); applied before first paint by a same-origin script, so no security-policy hash changed; high contrast always wins; print stays black on white; pictures keep their light tiles. `theme-contrast.test.ts` checks every text and background pairing at AA (body text 15.3:1, muted 12.8:1, borders 10.2:1), and `fill-text.test.ts` requires every sun-filled rule to set its dark text color (22 rules; the current nav item showed light text on yellow before). `check:a11y` has a 390 px dark variant. Light pages compared by screenshot on 15 page types: unchanged apart from the footer text moving from white to the off-white ink. Line length and spacing (2026-11-19): "Reading on this site" on the Accessibility page offers Shorter lines (guides and card steps narrow from 720 to 544 px, a 42-character measure) and More space (line height 1.8 and more space between paragraphs and steps), stored as `gm-line-length` and `gm-spacing`, applied before first paint by the same script as Colors, screen only (print ignores them), no sideways scroll at 320 px. Gaps: not tried by people who use these settings; the `theme-color` meta stays light.
 
 ### WEB-043 · Right-to-left and long-text layouts
 
@@ -850,7 +858,9 @@ Risks / not doing: A facilitator timer can become pressure. It is off by default
 
 | Priority | Phase | Status | Pillars | Notes |
 |---|---|---|---|---|
-| P2 | S3 | new | CARE, CALM | A printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers ([01](01-positioning-and-audiences.md#2-audiences)). It states the scope line, what the activity is not, and the signs to stop. Reviewed by a credentialed reviewer. Uses no "prescription", "treatment" or "outcome" language ([R3 §7](research/03-art-therapy-wellbeing.md)). |
+| P2 | S3 | partial | CARE, CALM | A printable handout for occupational therapists, speech and language therapists, social prescribers and similar referrers ([01](01-positioning-and-audiences.md#2-audiences)). It states the scope line, what the activity is not, and the signs to stop. Reviewed by a credentialed reviewer. Uses no "prescription", "treatment" or "outcome" language ([R3 §7](research/03-art-therapy-wellbeing.md)). |
+
+Evidence (2026-11-19): `/for-professionals/` (`site/src/pages/for-professionals.astro`), linked only from `/for-organizations/`, `noindex` and out of the sitemap (`site/src/lib/noindex-pages.ts`) until a credentialed reviewer signs it. It says what the site is and is not, uses the site's own scope and pause lines (imported, not retyped), and tells professionals how to point families to the finder, the large-print cards and the pack builder, with the addresses written out for paper and a QR code. A test bans prescription, treatment, outcome, therapy and similar words outside "not therapy" and "not treatment". One page on A4 and Letter (`check:print`). Gaps: not reviewed by a credentialed professional; not tried with referrers.
 
 ### WEB-049 · Organization accounts
 

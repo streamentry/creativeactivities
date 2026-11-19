@@ -165,7 +165,7 @@ Depends on: PLAT-011.
 Risks / not doing: non-developer reviewers blocked by Git. That is the trigger for PLAT-010, not a reason to skip review.
 
 ### PLAT-010 · Editorial states and review queue
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: a review queue becomes necessary once reviewers and translators are not developers.
 What: states `draft`, `in-review`, `reviewer-approved`, `published`, `needs-review`, `retired`. Roles: author, reviewer, translator, native reviewer, maintainer. Implement with Git labels first; move to a Git-based or headless CMS with workflow only when the gate is met.
 Acceptance:
@@ -262,7 +262,7 @@ Depends on: PLAT-003.
 Risks / not doing: build time with many images. Cache derivatives. Do not add a runtime image service in S1.
 
 ### PLAT-018 · Step photo and caption standard
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: DESIGN §2 says photos are never the only instruction, and §4B makes steps optional images. [R1 §4] names photo-per-step as the strongest format for low-vision and printed use.
 What: a step may have one image, one caption of one sentence, and alt text that describes the action, not "image of". The text of the step is always present.
 Acceptance:
@@ -274,7 +274,7 @@ Depends on: PLAT-003, PLAT-017.
 Risks / not doing: photo production cost. Start with 10 flagship activities and measure use ([metrics](17-metrics-and-evidence.md)).
 
 ### PLAT-019 · Print-ready cards and generated PDFs
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: printing is a primary distribution path ([VISION.md]; [R5 §4]). DESIGN §4B says the print page must work with no internet and no color ink.
 What: each activity and pack has a print stylesheet (one card) and a generated PDF in A4 and US Letter, black and white, plus a large-print variant. The footer shows version, date and a short link or QR code.
 Acceptance:
@@ -468,7 +468,7 @@ Depends on: PLAT-015, PLAT-019.
 Risks / not doing: printed copies that look current when they are not. The version footer covers that.
 
 ### PLAT-035 · One content contract for web and app
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 Why: the app has its own picture packs and content. Two copies of an activity will drift. VISION says one activity can carry many adaptations.
 What: one JSON schema generated from the same source as the site. The app receives a generated bundle per release with the same IDs, statuses and review data.
 Acceptance:
@@ -477,6 +477,8 @@ Acceptance:
 - Translation status is shared.
 Depends on: PLAT-001, PLAT-004.
 Risks / not doing: app release cycles are slower than web. Keep the app bundle small and versioned.
+
+Evidence (2026-11-19): `pnpm content:bundle` writes `site/content-bundle/content-bundle.v1.json` (versioned schema `creative-activities/content-bundle`, 53 activities, about 210 kB) from the same activity cards the site renders: id, status, title, summary, steps, short steps, materials, safety flags and notes, the stop note, variations, pictures, review record, dates, languages and surfaces. A JSON Schema sits beside the builder; a test fails if the committed bundle drifts from the cards. `pnpm content:diff old new` lists changed, added and removed ids and the surfaces each change reaches (web card, large print, print, app). Translation status is shared as the cards have it today: English only. Gaps: the app does not read the bundle yet (Flutter work, not verifiable on the maintainer's machine); substitutions, sources and image captions are left out.
 
 ### Performance, testing and operations
 
@@ -492,7 +494,7 @@ Depends on: none.
 Risks / not doing: games exceeding budget. Set a budget per template, not one number for the site. Verify whether `check-site.mjs` already gates size.
 
 ### PLAT-037 · Visual regression at standard widths
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: the testing rules require screenshots at 320, 768, 1024 and 1440 pixels for key templates. The site is light-only today ([site/README.md]), so dark-theme snapshots are not needed yet.
 What: Playwright snapshots of the activity, hub, finder, print and game templates, plus key states (filters open, error, empty results).
 Acceptance:
@@ -501,6 +503,8 @@ Acceptance:
 - The flake rate stays under a target set after the first month.
 Depends on: none.
 Risks / not doing: font rendering differences between machines. Run in one fixed container.
+
+Evidence (2026-11-19): `pnpm check:visual shoot` takes full-page Chromium screenshots of 12 key pages and the finder with a filter, at 320, 768, 1024 and 1440 px in light and dark, plus print-media shots (112 files), with animations off, a fixed clock and font hinting off, and masks over shuffled game boards; `compare` writes a report and red diff images. Two runs of the same build: 112 unchanged; a planted 40 by 40 change was found exactly. Gaps: not yet a CI step with diffs shown in the pull request; the flake rate is not measured over a month; run on one machine only.
 
 ### PLAT-038 · Accessibility automation and assistive-technology gates
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -579,7 +583,7 @@ Risks / not doing: alert fatigue. Alert only on thresholds that need action. Cos
 | PLAT-034 | Website offline reading | P1 | S2 | new |
 | PLAT-035 | One content contract | P1 | S2 | new |
 | PLAT-036 | Performance budgets in CI | P0 | S1 | partial |
-| PLAT-037 | Visual regression | P0 | S1 | new |
+| PLAT-037 | Visual regression | P0 | S1 | partial |
 | PLAT-038 | Accessibility gates | P0 | S1 | partial |
 | PLAT-039 | Print and i18n tests | P1 | S1 | new |
 | PLAT-040 | Observability and cost guardrails | P1 | S1 | partial |

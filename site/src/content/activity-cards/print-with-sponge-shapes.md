@@ -33,6 +33,23 @@ steps:
   - "Lift the sponge straight up and look at the print."
   - "Print again in the same place or somewhere new, and change shape or color whenever you like."
   - "Leave the paper flat to dry and choose where to show it."
+plainSteps:
+  - Before you start, the helper cuts the sponges into big, simple shapes.
+  - The helper puts the scissors away.
+  - Cover the table.
+  - Set out the paper and the sponge shapes.
+  - Pour a thin layer of paint onto each plate.
+  - Use one color per plate.
+  - Choose a shape and a color together.
+  - Any choice is a good choice.
+  - Press the sponge flat into the paint.
+  - Then press it onto the paper.
+  - Lift the sponge straight up.
+  - Look at the print.
+  - Print again in the same place or somewhere new.
+  - Change shape or color whenever you like.
+  - Leave the paper flat to dry.
+  - Choose where to show it.
 variations:
   - kind: easier
     text: "Offer one shape and one color at a time, and press the first print together, hand over hand if the person wants that."

@@ -33,6 +33,19 @@ steps:
   - "Hold the bundle while one person wraps the ribbon around the neck."
   - "Tie the ribbon in a knot or a bow. The helper can do this."
   - "Decide together where the sachet should go, such as a drawer or a coat pocket."
+plainSteps:
+  - Set the tray on the table.
+  - Pour the lavender into the bowl.
+  - Offer the bowl to smell.
+  - Ask if they would like to make a sachet with it.
+  - Lay the fabric square flat on the tray, patterned side down.
+  - Spoon lavender into the middle of the fabric together.
+  - Gather the four corners up into a small bundle.
+  - Hold the bundle.
+  - One person wraps the ribbon around the neck.
+  - Tie the ribbon in a knot or a bow.
+  - The helper can do this.
+  - Decide together where the sachet should go, such as a drawer.
 variations:
   - kind: easier
     text: "Fill the bundle beforehand and leave only the ribbon to tie, or offer a choice between two fabrics and two ribbons."

@@ -33,6 +33,23 @@ steps:
   - "Lay the ribbon around the parcel and tie it, or let the helper tie it while they hold the ribbon."
   - "Write the tag together, or let them mark it with a name or a drawing, and tie it on."
   - "Put the finished gift somewhere safe and agree together when to give it."
+plainSteps:
+  - Ask who the gift is for.
+  - Place the gift on the table in front of them.
+  - Lay out the paper.
+  - Ask whether they would like a plain or patterned sheet.
+  - Set the gift in the middle of the paper.
+  - Fold one side over it.
+  - Bring the other side across.
+  - Hold it while the helper puts on a piece of tape.
+  - Fold in the two ends.
+  - Tape them down, one at a time.
+  - Lay the ribbon around the parcel.
+  - Tie it, or let the helper tie it while they hold the ribbon.
+  - Write the tag together, or let them mark it with a name or drawing.
+  - Tie the tag on.
+  - Put the finished gift somewhere safe.
+  - Agree together when to give it.
 variations:
   - kind: easier
     text: "The helper wraps the gift in paper beforehand, and the person chooses the ribbon, ties it on and adds the tag."

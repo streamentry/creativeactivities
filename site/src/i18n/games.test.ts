@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { BUILD_TOGETHER_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, FOUR_TOGETHER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLLAGE_BOARD_REVIEWED, COLORING_WALL_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, COLOR_WASH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, GARDEN_PLANNER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, PICNIC_PLANNER_REVIEWED, QUIET_SHAPES_REVIEWED, SCRAPBOOK_REVIEWED, SEASONAL_PACK_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -21,6 +21,16 @@ describe('which games a language offers', () => {
 
   it('still leaves the word search out where a letter grid does not suit the script', () => {
     for (const code of NO_LETTER_GRID) expect(gameAvailable('word-search', code), code).toBe(false);
+  });
+
+  it('offers Picnic planner in English only until its words are reviewed', () => {
+    expect(PICNIC_PLANNER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('picnic-planner', code), code).toBe(code === 'en');
+  });
+
+  it('offers Scrapbook in English only until its words are reviewed', () => {
+    expect(SCRAPBOOK_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('scrapbook', code), code).toBe(code === 'en');
   });
 
   it('offers Four together only where its group names were reviewed, English for now', () => {
@@ -58,6 +68,25 @@ describe('which games a language offers', () => {
     for (const { code } of LOCALES) expect(gameAvailable('build-together', code), code).toBe(code === 'en');
   });
 
+  it('offers Find together in English only until its words are reviewed', () => {
+    expect(FIND_TOGETHER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('find-together', code), code).toBe(code === 'en');
+  });
+
+  it('offers Color wash in English only until its words are reviewed', () => {
+    expect(COLOR_WASH_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('color-wash', code), code).toBe(code === 'en');
+  });
+
+  it('offers Quiet scene in English only until its words are reviewed', () => {
+    for (const { code } of LOCALES) expect(gameAvailable('quiet-scene', code), code).toBe(code === 'en');
+  });
+
+  it('offers Drawing duet in English only until its words are reviewed', () => {
+    expect(DRAWING_DUET_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('drawing-duet', code), code).toBe(code === 'en');
+  });
+
   it('offers Story chain in English only until its words are reviewed', () => {
     expect(STORY_CHAIN_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('story-chain', code), code).toBe(code === 'en');
@@ -66,6 +95,36 @@ describe('which games a language offers', () => {
   it('offers Seated toss tally in English only for now', () => {
     expect(SEATED_TOSS_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('seated-toss', code), code).toBe(code === 'en');
+  });
+
+  it('offers Decorate a card together in English only for now', () => {
+    expect(DECORATE_A_CARD_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('decorate-a-card', code), code).toBe(code === 'en');
+  });
+
+  it('offers Seasonal puzzle pack in English only for now', () => {
+    expect(SEASONAL_PACK_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('seasonal-pack', code), code).toBe(code === 'en');
+  });
+
+  it('offers Collage board in English only until its words are reviewed', () => {
+    expect(COLLAGE_BOARD_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('collage-board', code), code).toBe(code === 'en');
+  });
+
+  it('offers Garden planner in English only until its words are reviewed', () => {
+    expect(GARDEN_PLANNER_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('garden-planner', code), code).toBe(code === 'en');
+  });
+
+  it('offers Group coloring wall in English only until its words are reviewed', () => {
+    expect(COLORING_WALL_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('coloring-wall', code), code).toBe(code === 'en');
+  });
+
+  it('offers Quiet shapes puzzle in English only until its words are reviewed', () => {
+    expect(QUIET_SHAPES_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('quiet-shapes', code), code).toBe(code === 'en');
   });
 
   it('offers Story dice in English only for now', () => {

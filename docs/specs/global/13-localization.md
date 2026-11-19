@@ -89,7 +89,7 @@ Depends on: [TSA file](14-trust-safety-accessibility-privacy.md) (reviewer and c
 Risks / not doing: Do not use a translation vendor's word for a clinical review.
 
 ### L10N-005 · Content that is never published by machine alone
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Why: A mistranslated instruction about materials or safety is a real harm [R5 §2.3]. Health and crisis content is the highest risk [MISSION, non-negotiables].
 
@@ -126,7 +126,7 @@ Risks / not doing: Do not let translators rewrite adaptations to "sound more nat
 Evidence: `site/src/lib/translation-structure.ts` (pure comparison: frontmatter keys and fixed values, headings, list items, links, numbers, activity steps, variations, safety flags, supervision) with `translation-structure.test.ts` and `yaml-subset.test.ts`; `translation-structure.content.test.ts` runs over all 11,373 translated guides and records 2,537 known mismatches in `translation-structure.baseline.json` (new drift fails). Translated activity cards are checked when `activity-cards-i18n/` exists (none yet; a missing variation fails, verified with a fixture). Remaining: 593 translated pages lack the `crisisRoute` flag their English guide sets (safety, needs a fix and L10N-009 review); digits and links need reviewer sign-off; no reviewed translated card exists yet. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-007 · Dementia terminology glossary per locale
-Priority P0 · Phase S2 · Status new · Pillars: CARE, all
+Priority P0 · Phase S2 · Status partial · Pillars: CARE, all
 
 Why: The word for dementia is stigmatized in several languages, and a title that uses the wrong one loses trust and search. Each locale's public term is a decision, not a translation [language markets §1; native review, "Naming"].
 
@@ -139,6 +139,8 @@ Acceptance:
 
 Depends on: L10N-003.
 Risks / not doing: Do not use "patients" in copy. Use "people living with dementia" or the local equivalent [web SEO §6, CONTENT_GUIDE].
+
+Draft glossary: [terminology.md](terminology.md) (2026-11-19), unreviewed.
 
 ### L10N-008 · Brand-name propagation check
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -158,7 +160,7 @@ Risks / not doing: Do not rename a translated product name without a reviewer. N
 Evidence: `site/src/lib/brand-name.test.ts` scans launched content (site source, public files, ARB strings, store metadata, store descriptions, redirect Workers) for "Golden Moments" and `dementiaactivities.games`; the English mailto subjects were fixed; the remaining hits are listed in `BRAND_ALLOWLIST` with a kind and reason (store history notes, redirect configs, the App Store link path). Not yet zero: 14 translated guide summaries and `ff.json` keep the old name and need a native reviewer. Open for the maintainer: whether `dementiaactivities.games` is a redirect or a separate live site. See [l10n-checks.md](l10n-checks.md).
 
 ### L10N-009 · Local safety and crisis information
-Priority P0 · Phase S2 · Status new · Pillars: CALM, CARE, GROW
+Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE, GROW
 
 Why: A wrong emergency or crisis number is the most serious possible translation error. Local emergency numbers vary, and the English "911" is not valid everywhere [native review, check 4; R3 §4.4].
 
@@ -205,7 +207,9 @@ Risks / not doing: Do not translate the finder interface before the cards it fin
 ---
 
 ### L10N-012 · Cultural adaptation register
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-19): a draft register, [cultural-adaptation-register.md](cultural-adaptation-register.md), has one row for each known point in the native review guide with the file it lives in and a proposal, plus one Ukrainian row found on the way. Nothing is decided: every row waits for a named native reviewer at locale sign-off.
 
 Why: "Global" does not mean one culture. Some content travels badly: a flower is a funeral flower in some countries, a military row is sensitive in others, and a religious song category depends on the reader [native review, "Known points"; SEO.md §8.2].
 
@@ -220,7 +224,7 @@ Depends on: L10N-003.
 Risks / not doing: Do not replace a US example with a stereotype of another culture.
 
 ### L10N-013 · Holidays, faith and food defaults
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
 Why: Holiday crafts are a top-ranked cluster in English [R5 §6 rank 6], but a holiday default for every reader would exclude many. Faith imagery, food and fasting practices affect what is appropriate [MISSION, "Cultural openness"].
 
@@ -252,7 +256,9 @@ Depends on: L10N-017, [SEO-022](12-search-geo-distribution.md).
 Risks / not doing: Do not print a version number without a date.
 
 ### L10N-015 · Family structures and forms of address
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-19): a draft audit, [family-terms-register.md](family-terms-register.md), counts family words in the English source and separates legitimate uses (pages about grandparents, search titles, a searcher's own question) from example scripts that assume one family ("Hi Dad, it's Sarah, your daughter"). No use of "patient" or "sufferer" for the older person was found. Forms of address are recorded for seven languages; German mixes the formal and informal forms, as the native review notes. No copy is changed and no form is chosen: that waits for the maintainer and each locale's reviewer.
 
 Why: Many households are multigenerational, and terms such as "grandmother," "parent" or "spouse" vary by culture [MISSION, "Cultural openness"]. Forms of address (formal or informal) differ by language.
 
@@ -426,7 +432,7 @@ Risks / not doing: Do not publish defect counts as a quality badge.
 | ID | Item | Priority · Phase · Status | What and acceptance | Depends on |
 | --- | --- | --- | --- | --- |
 | L10N-026 | Local search phrases as hypotheses | P1 · S2 · partial | Use the local phrase lists in [language markets §5](../../plan/language-markets.md) to seed reviews and titles. Acceptance: a phrase is used only after its market's Search Console data is read ([SEO-032](12-search-geo-distribution.md)). | SEO-032 |
-| L10N-027 | Imagery and people across cultures | P2 · S2 · new | Show a range of families, clothing, homes and ages. Acceptance: no local stereotype; each image's rights and consent are logged ([TSA](14-trust-safety-accessibility-privacy.md)). | L10N-012 |
+| L10N-027 | Imagery and people across cultures | P2 · S2 · partial | Show a range of families, clothing, homes and ages. Acceptance: no local stereotype; each image's rights and consent are logged ([TSA](14-trust-safety-accessibility-privacy.md)). | L10N-012 |
 | L10N-028 | Community translation with reviewers | P2 · S3 · new | Volunteer translation through a review step, as in the Khan Academy model [R5 §2.2]. Acceptance: non-protected content only; volunteers credited only with permission; reviewer sign-off required. | L10N-003, L10N-005 |
 | L10N-029 | Participant-language test (GM-041) | P2 · S3 · hypothesis | Test whether families who speak Spanish or Vietnamese prefer their first language for the activity. Acceptance: runs only after the test in [app features](04-features-app.md); evidence is mixed, so treat the result as a hypothesis. | L10N-002 |
 | L10N-030 | Languages beyond the reviewed list | P3 · S4 · new | Any language outside the launch order enters only at S4, with its own search and review gates. Acceptance: a language entering requires L10N-002 gates and a named reviewer. | L10N-002 |

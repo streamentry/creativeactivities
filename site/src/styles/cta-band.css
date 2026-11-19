@@ -1,0 +1,42 @@
+/* Call-to-action band. Moved out of components.css (WEB-074): rendered only by AppCta.astro and PlayCta.astro. */
+.cta-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  margin-top: var(--space-section);
+  padding: clamp(1.5rem, 1rem + 2.5vw, 3rem);
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(600px 240px at 100% 0%, var(--gm-glow), transparent 70%),
+    var(--gm-surface);
+  border: 1px solid var(--gm-surface-sunken);
+}
+.cta-band h2 {
+  margin-bottom: var(--space-sm);
+}
+.cta-band p {
+  margin: 0;
+  max-width: 34em;
+  color: var(--gm-on-surface-variant);
+}
+
+@media (prefers-contrast: more) {
+  .cta-band {
+    border: 2px solid #000000;
+    background: #FFFFFF;
+  }
+}
+
+@media (forced-colors: active) {
+  .cta-band {
+    border: 2px solid CanvasText;
+  }
+}
+
+@media print {
+  .cta-band {
+    display: none !important;
+  }
+}

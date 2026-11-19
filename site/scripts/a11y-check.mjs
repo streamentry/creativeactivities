@@ -30,6 +30,8 @@ const VARIANTS = [
   { label: '640 (200% zoom)', width: 640 },
   { label: '1440', width: 1440 },
   { label: '1440 text 200%', width: 1440, textScale: '200%' },
+  // The dark theme (WEB-042): the device prefers dark, so the page renders its dark tokens.
+  { label: '390 dark', width: 390, colorScheme: 'dark' },
 ];
 /** Games are checked at phone and zoomed widths, with the Rest flow, which needs a real interaction. */
 const GAME_VARIANTS = [{ label: '390', width: 390 }, { label: '640 (200% zoom)', width: 640 }];
@@ -333,8 +335,8 @@ async function pool(items, limit, fn) {
 }
 
 /** One page at one width. Returns the printed line and the problems found. */
-async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, storage, open, width, textScale }) {
-  const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true });
+async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, storage, open, width, textScale, colorScheme }) {
+  const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true, colorScheme });
   // A page that behaves differently once the device holds something is checked in that state.
   if (storage) {
     await context.addInitScript((entries) => {
@@ -378,10 +380,10 @@ async function checkPage(browser, base, { label, path, status = 200, dir: wantDi
       if (!mailto) notes.push('no mailto feedback link on the accessibility statement');
     }
     if (game) notes.push(...(await restProblems(page)));
-    const head = `${label.padEnd(14)} ${String(width).padStart(4)}px${textScale ? ' text 200%' : ''}`;
+    const head = `${label.padEnd(14)} ${String(width).padStart(4)}px${textScale ? ' text 200%' : ''}${colorScheme === 'dark' ? ' dark' : ''}`;
     return { head, notes, axe: violations.length, stops: keys.count };
   } catch (error) {
-    return { head: `${label.padEnd(14)} ${String(width).padStart(4)}px`, notes: [`ERROR ${error.message.split('\n')[0]}`], axe: 0, stops: 0 };
+    return { head: `${label.padEnd(14)} ${String(width).padStart(4)}px${colorScheme === 'dark' ? ' dark' : ''}`, notes: [`ERROR ${error.message.split('\n')[0]}`], axe: 0, stops: 0 };
   } finally {
     await context.close();
   }

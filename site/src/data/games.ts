@@ -11,7 +11,11 @@ export type GameSlug =
   | 'color-by-number'
   | 'pattern-maker'
   | 'build-together'
+  | 'drawing-duet'
   | 'seated-toss'
+  | 'decorate-a-card'
+  | 'seasonal-pack'
+  | 'find-together'
   | 'story-dice'
   | 'story-chain'
   | 'sort-together'
@@ -22,6 +26,14 @@ export type GameSlug =
   | 'conversation-cards'
   | 'photo-pairs'
   | 'picture-bingo'
+  | 'quiet-shapes'
+  | 'color-wash'
+  | 'collage-board'
+  | 'garden-planner'
+  | 'coloring-wall'
+  | 'scrapbook'
+  | 'picnic-planner'
+  | 'quiet-scene'
   | 'calm-breathing';
 
 export type Stage = 'early' | 'middle' | 'late';
@@ -534,6 +546,43 @@ export const GAMES: readonly GameInfo[] = [
     featured: false,
   },
   {
+    slug: 'drawing-duet',
+    name: "Drawing duet",
+    seoTitle: "Drawing Duet: Two People, One Picture",
+    h1: "Drawing Duet: Two People, One Sheet",
+    description: "Two people take turns drawing lines on one shared canvas, each in a color of their own. Nobody scores or wins, and the picture can be saved or printed. Free to play, with no account.",
+    short: "Take turns drawing one shared picture with someone beside you.",
+    cardPictures: ['sunflower', 'balloon', 'sailboat'],
+    stages: ['early', 'middle', 'late'],
+    players: "2 people, side by side",
+    printable: true,
+    intro: "One canvas, two people. Each of you picks a color, and each color has its own written name. You take turns: draw one line or shape, then pass the pen. Either of you may pass at any time. There is no right picture and no score. Save the picture to your device if you like it, or print the paper version: one sheet, two pens.",
+    howTo: [
+      "Each of you picks a color. The banner says whose turn it is, with that person's color by name.",
+      "Draw one line or shape with a finger, a mouse or a pen. Or use the arrow keys and Space to draw without a pointer.",
+      "When you are ready, tap \"Pass the pen\". Either of you may pass at any time.",
+      "Tap \"Take back my last line\" to remove the newest line of the person whose turn it is.",
+      "Tap \"Save picture\" to make a picture file on this device, or \"Print the paper version\" for one sheet and two pens.",
+    ],
+    tips: [
+      "Sit side by side and talk as you draw: \"I will add a sun in the corner.\"",
+      "Start with a dot, a line or a simple shape, and let the other person answer it.",
+      "Nobody has to draw a picture of anything. A pattern of lines is just as good as a scene.",
+      "If you want to stop, tap \"Done for now\". Your picture is not kept after you leave the page unless you save it.",
+    ],
+    faq: [
+      { q: "Is there a winner or a score?", a: "No. There is no winner, no score, no timer and no count of turns. There is no right picture, and nothing is ranked or compared." },
+      { q: "Is the picture saved or sent?", a: "No, nothing is sent anywhere. The picture stays on this page until you close it. If you tap Save picture, a file is made on your device for you to download. Nothing is uploaded." },
+      { q: "Can I take back a line?", a: "Yes. \"Take back my last line\" removes the newest line of the person whose turn it is. \"Start again\" clears the sheet, and \"Put it back\" brings the lines back, one step only." },
+      { q: "Can I use this without a mouse or touch screen?", a: "Yes. When the drawing has focus, the arrow keys move a pen dot, and the Space key puts the pen down or up. The screen says \"Pen down\" or \"Pen up\" each time." },
+      { q: "What colors are they, and can people with color-blindness tell them apart?", a: "Yellow, orange, green and purple, the same four colors used in our other picture games. Each has a written name, and the names show beside the turn. The colors were checked with simulations of common color-vision differences, but a person with color-vision differences has not yet tried them." },
+      { q: "Is there a paper version?", a: "Yes. \"Print the paper version\" prints one sheet with the rules on it and a large blank frame to draw in, for two people with two pens. It works in black and white." },
+      FREE_FAQ,
+    ],
+    relatedGuides: ["together/puzzles-and-table-games", "activities/ideas", "caregiving/how-to-play-together"],
+    featured: false,
+  },
+  {
     slug: 'seated-toss',
     name: 'Seated toss tally',
     seoTitle: 'Seated Toss Tally: a Bean-Bag Game for Two',
@@ -577,6 +626,159 @@ export const GAMES: readonly GameInfo[] = [
       {
         q: 'What is on the printed sheet?',
         a: 'One page: a large target with its three rings named Near, Middle and Far, a table with a column for each person and a row of small boxes to tick for each ring, and a line of safety advice. The names are written on the rings, so it works in black and white.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'decorate-a-card',
+    name: 'Decorate a card together',
+    seoTitle: 'Decorate a Card Together: a Printable Greeting Card',
+    h1: 'Decorate a Card Together: Make One for Someone',
+    description:
+      'Two people decorate a printed greeting card for a birthday, a thank you or just because, then write a message on the back together. Crayons or pens only. No timer or score. Free to print.',
+    short: 'Decorate a printed greeting card together.',
+    cardPictures: ['balloon', 'sun', 'sunflower'],
+    stages: ['early', 'middle', 'late'],
+    players: '2 people, side by side',
+    printable: true,
+    intro:
+      'A quiet making game for two people sitting side by side. You print one sheet, which folds in half to make a card. Choose an occasion, such as a birthday or a thank you, and decorate the front around its words. Then write a message on the back, together or one person writing what the other says. Use crayons, colored pencils or felt-tip pens. There is no right card, and nothing is timed, scored or sent.',
+    howTo: [
+      'Choose an occasion, then tap "Print the card".',
+      'Fold the sheet in half along the dashed line, so the front is on the outside.',
+      'One person decorates the front, and the other decorates the back, or you take turns on one side.',
+      'Write a message together. One person can write while the other says the words.',
+      'Stop whenever you like. A simple card is just as good as a detailed one.',
+    ],
+    tips: [
+      'Start with the words on the front, then add leaves, stars or dots around them, one at a time.',
+      'If someone would rather not draw, they can choose the colors or write the message.',
+      'Say what you like about the other person\'s marks, rather than whether they are good.',
+      'Keep the card somewhere it can be given, or simply keep it on the table for now.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Do we need glue, scissors or stickers?',
+        a: 'No. Crayons, colored pencils or felt-tip pens are enough. Nothing needs cutting, gluing or sticking.',
+      },
+      {
+        q: 'Can we make a card for an occasion that is not on the list?',
+        a: 'Choose "Just because" and write your own words on the front, or simply decorate the card with no occasion at all.',
+      },
+      {
+        q: 'Is anything counted, judged or saved on the screen?',
+        a: 'No. The page only shows the card and the steps. Nothing is ranked, scored or saved, and there is no right card.',
+      },
+      {
+        q: 'What is on the printed sheet?',
+        a: 'One page: a card folded in half, with the occasion words and a simple frame on the front, and lines for a message and a From line on the back. The rules for two people are printed along the bottom.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'find-together',
+    name: 'Find together',
+    seoTitle: 'Find Together: Two People Find the Pairs',
+    h1: 'Find Together: Two People, One Team',
+    description:
+      'Two people share one screen and take turns turning over two picture cards to look for a pair. Pairs are found together and counted on one shared tally. Free to play, with no timer or score.',
+    short: 'Take turns with someone beside you to find the picture pairs.',
+    cardPictures: ['teacup', 'sunflower', 'balloon'],
+    stages: ['early', 'middle', 'late'],
+    players: '2 people, side by side',
+    printable: false,
+    intro:
+      'The cards start with their pictures showing, or you can lay them face down. On your turn you turn over two cards. If they are a pair, you have found it together and the turn passes. If they are different, they stay face up until you press "Turn them back", so you can both look. Pass at any time. The tally at the top only goes up: the pairs you have found together.',
+    howTo: [
+      'Choose how many cards to use. Six cards, three pairs, is a calm place to start.',
+      'The screen says whose turn it is, with a circle for the first person and a square for the second.',
+      'Turn over two cards, one after the other. If they match, the pair is found together.',
+      'If they are different, press "Turn them back" when you are both ready. The turn then passes.',
+      'Either of you may press "Pass" at any time. Tap "Start again" for new cards, or tap Rest to stop.',
+    ],
+    tips: [
+      'Sit side by side and name the pictures out loud together: "A teacup. Do you take milk in your tea?"',
+      'Let the person you care for do the tapping, even if it takes a while. Point rather than tap for them.',
+      'Choose "Cards face down" if you both enjoy turning cards over to find the pictures.',
+      'A person who tires easily can pass as often as they like. The pairs are still found together.',
+    ],
+    faq: [
+      {
+        q: 'Is there a winner, a timer or a score?',
+        a: 'No. There is no winner, because you find the pairs as a team. There is no clock, no score and no count of misses. The tally only counts the pairs you have found together, and you can stop at any moment.',
+      },
+      {
+        q: 'Do we have to remember where the pictures are?',
+        a: 'No. The game starts with every picture in view. With the cards face down, you can ask each other what you saw, or simply turn them over again.',
+      },
+      {
+        q: 'What happens when two cards are different?',
+        a: 'They stay face up, so you can both look at them, for as long as you need. Nothing turns them back by itself. When you are ready, press "Turn them back" and the turn passes to the other person.',
+      },
+      {
+        q: 'Is anything we play saved or sent?',
+        a: 'No. The cards stay on this page only. Nothing is saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'Are the cards big enough for a tremor or a small screen?',
+        a: 'Every card is at least 64 pixels across and is as large as the screen allows. Keyboard and screen reader users hear each card by its place and its picture.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'seasonal-pack',
+    name: 'Seasonal puzzle pack',
+    seoTitle: 'Seasonal Puzzle Pack: Printable Paper Puzzles',
+    h1: 'Seasonal Puzzle Pack: Three Paper Puzzles for Each Season',
+    description:
+      'Three small printable puzzles for spring, summer, autumn or winter: match the pairs, circle the one that is different, and color a picture in. Choose a season, or take a rest day. Free to print.',
+    short: 'Three printable puzzles for the season you choose, or a rest day.',
+    cardPictures: ['sunflower', 'sailboat', 'snowflake'],
+    stages: ['early', 'middle', 'late'],
+    players: 'All ages, solo or side by side',
+    printable: true,
+    intro:
+      'Choose a season, and the page shows three small paper puzzles drawn from that season\'s pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. You print one page, then do one, two or all three, at your own pace. Choose "Today is a rest day" instead and there is nothing to do.',
+    howTo: [
+      'Choose a season, or choose "Today is a rest day".',
+      'Look at the three puzzles, then tap "Print this season\'s pack".',
+      'Do one, two or all three, at your own pace.',
+      'Join the matching pictures with a line, circle the one that is different, and color the large picture in.',
+      'Stop whenever you like. A rest day is a good day too.',
+    ],
+    tips: [
+      'Start with the puzzle that feels easiest today. One is enough.',
+      'Say the name of each picture aloud, if that helps.',
+      'Use crayons or pencils. Any colors are fine.',
+      'Keep the page for next time, or let it go.',
+    ],
+    faq: [
+      NO_PRESSURE_FAQ,
+      {
+        q: 'Does the page know which season it is?',
+        a: 'No. You choose the season. The page does not look at the date or your location.',
+      },
+      {
+        q: 'Is there a score or a right answer?',
+        a: 'No. Nothing is timed, scored or checked on the screen, and no answers are shown. Each puzzle is only a picture to look at, join, circle or color.',
+      },
+      {
+        q: 'What if nobody wants puzzles today?',
+        a: 'Choose "Today is a rest day". The page then shows one calm line, and there is nothing to print or do.',
+      },
+      {
+        q: 'What is on the printed sheet?',
+        a: 'One page for the season you chose: its three puzzles, each with a short line of how to do it, and a line saying you can do one, two or all three.',
       },
       FREE_FAQ,
     ],
@@ -712,14 +914,14 @@ export const GAMES: readonly GameInfo[] = [
     seoTitle: 'Easy Online Jigsaw: 4 or 9 Large Pieces',
     h1: 'Picture Puzzle: an Easy Jigsaw',
     description:
-      'An easy online jigsaw for adults: 4 or 9 large pieces, the whole picture stays visible, and you tap two pieces to swap them. Free, no timer.',
+      'An easy online jigsaw for adults: 4 or 9 large pieces, the whole picture stays visible, and you tap two pieces to swap them. Use your own photo, which stays on this device. Free, no timer.',
     short: 'Tap two pieces to swap them until the picture is whole.',
     cardPictures: ['sailboat', 'house', 'balloon'],
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
     intro:
-      'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed.',
+      'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed. You can also use one of your own photos. It stays on this device and is never uploaded.',
     howTo: [
       'Choose a picture and 4 or 9 pieces. Four is a gentle start.',
       'Look at the whole picture at the top.',
@@ -906,10 +1108,11 @@ export const GAMES: readonly GameInfo[] = [
     players: '2 people, side by side',
     printable: false,
     intro:
-      'Choose two to six photos from your phone, tablet or computer, and they become a matching game with large, visible pictures. The photos are shown only inside this page. They are not uploaded, saved or shared, and they disappear when you close the page.',
+      'Choose two to six of your own family photos from your phone, tablet or computer, and they become a matching game with large, visible pictures. The photos are shown only inside this page. They are not uploaded, saved or shared, and they disappear when you close the page. If you like, add a few words under each photo, and a gentle hint can point to one pair after a pause. This is a way of looking at family photos together.',
     howTo: [
       'Tap "Choose photos" and pick two to six photos.',
       'Each photo appears twice. Tap one, then tap its pair.',
+      'If you like, add a few words under each photo. Captions are not saved.',
       'Talk about each photo as you find it.',
       'When you are done, close the page or tap "Clear photos". Nothing is kept.',
     ],
@@ -977,6 +1180,199 @@ export const GAMES: readonly GameInfo[] = [
     featured: true,
   },
   {
+    slug: 'quiet-shapes',
+    name: 'Quiet shapes puzzle',
+    seoTitle: 'Quiet Shapes Puzzle: Fit Shapes Into a Picture',
+    h1: 'Quiet Shapes Puzzle: Fit the Pieces into the Picture',
+    description:
+      'Fit simple shapes into the outline of a house, a boat, a fish and more. Tap a piece, then a space of the same shape. There is no timer or score. Free to play and print.',
+    short: 'Fit simple shapes into a picture, at your own pace.',
+    cardPictures: ['sailboat', 'tulip', 'balloon'],
+    stages: ['middle', 'late'],
+    players: '1 person, at a table',
+    printable: true,
+    intro:
+      'A picture outline, such as a house, a boat or a rocket, is divided into spaces. Each space has a piece of the same shape, a large or small triangle, a square, a parallelogram or a rectangle. Tap a piece, then tap a space of the same shape, and it fits. The space turns the piece for you, so there is nothing to drag or rotate. If a piece is a different shape from a space, it stays in the tray with a short note. Nothing is timed or scored, and nothing is saved or sent. "Print this shape" prints the outline and its pieces on one page to color or cut out.',
+    howTo: [
+      'Tap a piece in the tray. It shows "Chosen" while it is selected.',
+      'Tap a space in the picture. If the shape matches, the piece fits there.',
+      'If it does not match, try another space. Nothing is lost by trying.',
+      'Tap a piece in the picture to take it back to the tray, or use "Start again" to take all of them back.',
+      'When every space has its piece, the picture is complete. Tap "Another shape" for a new one, or tap Rest to stop.',
+    ],
+    tips: [
+      'Turn the hint lines on to see each space. Turn them off for more of a puzzle, with only the outline to go by.',
+      'Start with the big shapes, such as the large triangles and the rectangles. The small pieces often go last.',
+      'Name the shapes out loud as you go: "a triangle, a square, a long rectangle". Talking can make it a shared activity.',
+      'On paper, color the pieces with two or three colors, or cut them out with an adult helping.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a move count?',
+        a: 'No. Nothing is timed, counted or scored. A piece that does not fit is simply not placed, and you can stop whenever you like.',
+      },
+      {
+        q: 'Is anything we make saved or sent?',
+        a: 'No. The picture stays on this page only. It is not saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'Are the places big enough for a tremor or a small screen?',
+        a: 'The outline is drawn as large as the screen allows, and each space is a button you can reach with a finger or with the Tab key. The pieces in the tray are the large buttons of the page.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print this shape" prints one picture on one page: the outline with its hint lines, and the pieces drawn at the same size beside it. Color the pieces, or cut them out to fit. An adult can do the cutting.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'collage-board',
+    name: 'Collage board',
+    seoTitle: 'Collage Board: Two People Place Pictures in Turns',
+    h1: 'Collage Board: Place Pictures on One Board, in Turns',
+    description:
+      'Two people take turns placing cut-out pictures on one shared board. Tap a cut-out, then an empty place. No timer or score. Free to play and print.',
+    short: 'Take turns placing pictures on one shared board.',
+    cardPictures: ['teacup', 'sunflower', 'house'],
+    stages: ['early', 'middle', 'late'],
+    players: '2 people, side by side',
+    printable: true,
+    intro:
+      'Two people sit side by side with one board of twelve places and a tray of eight cut-out pictures. Tap a cut-out, then tap an empty place, and the picture goes there. The turn then passes to the other person. Each person\'s pictures carry their own shape, a circle or a square, so the board shows who placed what without relying on color. Either person may pass, and one step can be taken back. Nothing is timed, scored or saved. "Print the board" prints the empty board and the pictures to cut out.',
+    howTo: [
+      'Tap a cut-out in the tray. It shows "Chosen" while it is selected.',
+      'Tap an empty place on the board. The cut-out goes there, and the turn passes.',
+      'Either person can tap Pass at any time, or "Take back the last piece" to undo one step.',
+      'Tap "Another set of pictures" for a different tray. Pictures already on the board stay where they are.',
+      'Tap "Start again" to clear the board, and "Put it back" if you change your mind.',
+    ],
+    tips: [
+      'Say the name of each picture as it goes down, such as "the teacup goes by the house". Talking makes it a shared activity.',
+      'Let the two people take turns choosing the cut-out as well as the place, so each has a say.',
+      'On paper, cut out the eight pictures with an adult helping, then place them on the printed boxes.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed, scored or counted, and nobody wins. A full board is simply one with a picture in every place.',
+      },
+      {
+        q: 'Are the pictures we place saved or sent?',
+        a: 'No. The board stays on this page only. It is not saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'How do we tell whose picture is whose?',
+        a: 'Each person has a shape. The first person\'s pictures have a circle in the corner, and the second person\'s have a square, with each name shown above the board.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print the board" prints the empty board as twelve boxes, with the eight pictures below at the same size, and the cutting line. An adult can do the cutting.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'garden-planner',
+    name: 'Garden planner',
+    seoTitle: 'Garden Planner: Lay Out a Plot from Plant Pictures',
+    h1: 'Garden Planner: Choose Pictures and Lay Out a Plot',
+    description:
+      'Choose pictures of plants and garden things, then place them in twelve beds of a plot. Tap a picture, then a bed. No timer or score. Free to play and print.',
+    short: 'Choose plant pictures and lay out a plot of twelve beds.',
+    cardPictures: ['sunflower', 'tulip', 'rose'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Solo, or 2 people side by side',
+    printable: true,
+    intro:
+      'Choose pictures from a tray of plants and garden things, then tap a bed to put each one in place. A plot has twelve beds, and a bed holds one picture. A summary in words says what the plan has, such as "Your plan has 3 sunflowers, 2 roses and 1 tree." Nothing is timed, scored or saved, and there are no turns. This is a picture plan to talk about, not planting advice. "Print the plan" prints the beds with the pictures you chose, with blank beds to draw in and lines for notes.',
+    howTo: [
+      'Tap a picture in the tray. It shows "Chosen" while it is selected.',
+      'Tap a bed. The picture goes there, and the choice is put down.',
+      'To change a bed, choose another picture and tap the bed. To clear a bed, tap it with no picture chosen.',
+      'Tap "Start again" to empty every bed, and "Put it back" if you change your mind.',
+      'Tap "Print the plan" for a paper copy of the plot and the summary.',
+    ],
+    tips: [
+      'Talk about each picture as it goes in, such as "the sunflower goes by the birdhouse". Talking makes it a shared activity.',
+      'Let each person choose a picture in turn, or choose the pictures together, so both have a say in the plot.',
+      'On paper, the blank beds are for drawing in your own ideas, and the notes lines are for anything you want to remember.',
+    ],
+    faq: [
+      {
+        q: 'Is this planting advice?',
+        a: 'No. This is a picture plan to talk about, not planting advice. It does not say when, where or how to plant anything, because that depends on where you live.',
+      },
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed, scored, rated or counted, and nobody wins. A full plot gets no special message.',
+      },
+      {
+        q: 'Are the pictures we choose saved or sent?',
+        a: 'No. The plan stays on this page only. It is not saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print the plan" prints one page, on A4 or US Letter. It shows the twelve beds with the pictures you chose, the summary in words, and blank lines for notes.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'coloring-wall',
+    name: 'Group coloring wall',
+    seoTitle: 'Group Coloring Wall: One Picture for Many Hands',
+    h1: 'Group Coloring Wall: One Big Picture, Colored Together',
+    description:
+      'Print one large picture across several pages, so a family, a class or a care home can color one wall together. Free to print. No timer or score.',
+    short: 'Print one big picture across pages for many people to color.',
+    cardPictures: ['house', 'teacup', 'sailboat'],
+    stages: ['early', 'middle', 'late'],
+    players: 'A group, at a table or on a wall',
+    printable: true,
+    intro:
+      'Choose a picture from the coloring pages and a wall of 4, 6 or 9 pages. Print the wall: the first page shows how to put it together, and each of the other pages is one part of the same big picture, with a label such as A1 in its corner. Each person colors one or more pages, in any colors and any style. The pages are then laid out by their labels and joined with tape on the back. Nothing is timed, scored or saved.',
+    howTo: [
+      'Choose a picture, then choose how many pages the wall has.',
+      'Read the map on the screen, which shows where each label goes.',
+      'Tap "Print the wall" and print all the pages.',
+      'Give each person one or more pages to color. Colors and styles do not need to match.',
+      'Lay the pages out by their labels, and join them with tape on the back.',
+    ],
+    tips: [
+      'Give the pages with the simplest outlines to the people who want a quieter task, and the busier ones to anyone who enjoys them.',
+      'Hang the wall where everyone can see it, and talk about the parts together.',
+      'Choose a smaller wall for a small table, and a bigger one for a room.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed, scored or counted, and nobody wins. The wall is simply a picture that many people colored.',
+      },
+      {
+        q: 'Are the pages saved or sent anywhere?',
+        a: 'No. The wall is made on this page only. It is not saved, uploaded or counted, and it is gone when you close the page.',
+      },
+      {
+        q: 'Do the colors have to match?',
+        a: 'No. Every person can use any colors and any style. The pages still join up into one picture.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. The printed wall is the whole game: a first page with the steps and a map, and one page for each part of the picture.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
     slug: 'calm-breathing',
     name: 'Calm breathing',
     seoTitle: 'A Calm Breathing Pause to Share',
@@ -1013,6 +1409,158 @@ export const GAMES: readonly GameInfo[] = [
       FREE_FAQ,
     ],
     relatedGuides: ['creative-calm/calm-afternoon-activities', 'creative-calm/creative-self-care-for-caregivers'],
+    featured: false,
+  },
+  {
+    slug: 'color-wash',
+    name: 'Color wash',
+    seoTitle: 'Color Wash: Soft Color Across a Page',
+    h1: 'Color Wash: Paint Soft Color Across a Page',
+    description:
+      'A soft brush paints wide, see-through washes of color across one page, in four colors and two brush sizes. There is no end point, no score and no timer. Free to play, with no account.',
+    short: 'Paint soft washes of color across a page, at your own pace.',
+    cardPictures: ['sunflower', 'sun', 'butterfly'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Alone, or 2 people side by side',
+    printable: false,
+    intro:
+      'One page and one soft brush. Choose a color and a brush size, then drag across the page to lay down a wash of color. The page has no end point: there is nothing to finish, no picture to get right and no score. Lay down as many washes as you like, or put the brush down and simply look. A fresh page clears everything, and Put it back brings it back.',
+    howTo: [
+      'Choose a color. Each color has its written name.',
+      'Choose Wide or Very wide. Very wide covers more of the page with each stroke.',
+      'Drag across the page with a finger, a mouse or a pen to lay down a wash.',
+      'Or use the arrow keys to move the brush ring, and Space to put the brush down or up.',
+      'Tap "A fresh page" to clear the page, then "Put it back" if you want the washes back.',
+    ],
+    tips: [
+      'Let the other person choose the color for the next wash, and talk about the colors as they go on.',
+      'Very wide is easier to steer with a shaky hand, because the brush does not need to be exact.',
+      'There is no right way to paint. Stop whenever you like, or tap "Done for now".',
+    ],
+    faq: [
+      { q: 'Is there a finish, a score or a timer?', a: 'No. The page has no end point. Nothing is finished, counted, timed or scored, and no message ever asks you to do more.' },
+      { q: 'Is the page saved or sent?', a: 'No. Nothing is saved, printed or sent anywhere. The washes stay on this page until you leave it.' },
+      { q: 'Can I use this without a mouse or touch screen?', a: 'Yes. When the page has focus, the arrow keys move a brush ring, and the Space key puts the brush down or up. The screen says "Brush down" or "Brush up" each time.' },
+      { q: 'Is there a paper version?', a: 'No. Watercolor on paper is the same idea, a wet brush and one color at a time, so it is a different activity to try at the table.' },
+      { q: 'What colors are they?', a: 'Yellow, orange, green and purple, the same four colors used in our other picture games. Each has a written name, and the name shows beside the choice.' },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'activities/ideas', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'scrapbook',
+    name: 'Scrapbook',
+    seoTitle: 'Scrapbook: Turn Family Photos Together, Page by Page',
+    h1: 'Scrapbook: Add Your Photos and Captions, Then Turn the Pages',
+    description:
+      'Choose two to twelve of your own family photos on your device and turn them as a book, with a few words under each. Nothing is uploaded. Free to print.',
+    short: 'Page through your own family photos together, like a book.',
+    cardPictures: ['house', 'sunflower', 'dog'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Solo, or 2 people side by side',
+    printable: true,
+    intro:
+      'Choose two to twelve of your own photos from this device. Each photo becomes one page of a book, large enough to see, with an optional few words under it. Turn the pages with the buttons or the arrow keys, and use "Look together" to sit side by side with just the photos and words. Your photos stay on this device. They are not uploaded or saved, and the book is gone when you close the page. "Print the scrapbook" prints one photo and its words on each page, with page numbers.',
+    howTo: [
+      'Tap "Choose photos" and pick two to twelve photos. Ask before using a photo of someone who cannot say yes.',
+      'Turn the pages with "Previous page" and "Next page", or with the Left and Right arrow keys.',
+      'Add a few words under a photo if you like. Use "Move earlier" or "Move later" to change the order.',
+      'Tap "Look together" to hide the editing controls and look at the book side by side.',
+      'Tap "Print the scrapbook" for a paper copy, or "Clear the book" when you are done. Nothing is kept.',
+    ],
+    tips: [
+      'Choose photos of happy, familiar things: a garden, a pet, a favorite place. Talk about each page as you turn it.',
+      'Let the person say a few words for each page, even a single word, and write them down exactly as they say them.',
+      'On paper, the printed pages can go into a folder, and the family can add their own pictures and notes around them.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed, scored or counted, and nobody wins. The page number is only there so you know where you are in the book.',
+      },
+      {
+        q: 'Are our photos or captions saved, uploaded or sent?',
+        a: 'No. The photos are read by this page only, and they are not uploaded, stored or sent anywhere. The captions are kept only while the page is open. When you close the page, the book is gone.',
+      },
+      {
+        q: 'Can we print the book?',
+        a: 'Yes. "Print the scrapbook" prints one photo and its caption on each page, with page numbers. Choose A4 or US Letter in the print dialog.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'picnic-planner',
+    name: 'Picnic planner',
+    seoTitle: 'Picnic Planner: Choose Pictures for an Outing',
+    h1: 'Picnic Planner: Choose Pictures, Then Match Them',
+    description:
+      'Choose food and things-to-do pictures for a picnic, then play a gentle matching round with them. Nothing is timed. Free to play and print.',
+    short: 'Pick food and outing pictures for a picnic, then match them.',
+    cardPictures: ['bread', 'kite', 'apple'],
+    stages: ['early', 'middle', 'late'],
+    players: 'Solo, or 2 people side by side',
+    printable: true,
+    intro:
+      'Tap pictures of food and things to do to put them in a picnic basket, which holds up to six. A sentence in words says what is in the basket, such as "Our picnic: bread, cheese, apples and a kite." Then tap "Let\'s play with our picnic" for a gentle matching round made from the chosen pictures. The pictures stay showing, and nothing is timed, scored or saved. "Print our picnic list" prints a checklist of what you chose, with a tick box for each thing to pack.',
+    howTo: [
+      'Tap a picture of food or something to do. It goes into the basket.',
+      'Tap a picture in the basket to take it out again.',
+      'Choose at least two things, then tap "Let\'s play with our picnic".',
+      'Tap two pictures that are the same. The pictures stay showing, so there is nothing to remember.',
+      'Tap "Print our picnic list" for a paper checklist to take with you.',
+    ],
+    tips: [
+      'Ask the people you are with what they would like to bring, and choose the pictures together.',
+      'Talk about each picture as it goes in: "Do you remember the kite we flew at the beach?"',
+      'On paper, the blank lines are for anything else you want to bring, or for a name.',
+    ],
+    faq: [
+      {
+        q: 'Is there a timer, a score or a winner?',
+        a: 'No. Nothing is timed or counted, and nobody wins. The matching round has no misses and no points.',
+      },
+      {
+        q: 'Is this a meal plan?',
+        a: 'No. It is a picture plan for an outing, to talk about and to take on paper. It does not say what anyone should eat.',
+      },
+      {
+        q: 'Are the pictures we choose saved or sent?',
+        a: 'No. The basket stays on this page only. It is not saved, uploaded or sent, and it is gone when you close the page.',
+      },
+      {
+        q: 'Is there a paper version?',
+        a: 'Yes. "Print our picnic list" prints one page, on A4 or US Letter. It shows the pictures you chose with a tick box for each, and blank lines for anything else.',
+      },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
+    featured: false,
+  },
+  {
+    slug: 'quiet-scene',
+    name: 'Quiet scene',
+    seoTitle: 'Quiet Scene: One Picture at a Time',
+    h1: 'Quiet Scene: One Still Picture at a Time',
+    description: "One large, still picture at a time, each with one gentle line under it. Press Next or Previous when you are ready. Nothing moves or plays on its own, and there is no timer or score. Free to play, with no account.",
+    short: "Look at one still picture at a time, at your own pace.",
+    cardPictures: ['sunrise', 'teacup', 'sailboat'],
+    stages: ['early', 'middle', 'late'],
+    players: "Alone, or a group in the same room",
+    printable: false,
+    intro: "One large picture fills the screen, with one short line under it. Press \"Next picture\" or \"Previous picture\" when you are ready for another. Nothing moves, fades or changes on its own, and nothing is timed. Tap \"Bigger picture\" to show only the picture, so the whole room can see it on a television.",
+    howTo: ["Look at the picture together.","Read the line under it aloud if you like.","Press \"Next picture\" or \"Previous picture\" when you are ready.","Tap \"Bigger picture\" to show only the picture, and \"Show everything\" to bring the rest back.","Stop whenever you like with \"Done for now\"."],
+    tips: ["Let the person choose when to move on: wait for them to look, then press Next.","For a group, use \"Bigger picture\" on a television or large screen and sit where everyone can see it.","There is no right way to look at a picture. Simply talking about one is a complete activity."],
+    faq: [
+      NO_PRESSURE_FAQ,
+      { q: 'Does it play sound or move?', a: 'No. There is no sound, and nothing moves, fades or changes by itself. A picture changes only when you press a button.' },
+      { q: 'Is there a paper version?', a: 'No. This is a picture to look at together on a screen. A favorite photo or postcard on the table does the same.' },
+      FREE_FAQ,
+    ],
+    relatedGuides: ['together/puzzles-and-table-games', 'caregiving/how-to-play-together'],
     featured: false,
   },
 ];

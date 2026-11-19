@@ -168,6 +168,12 @@
 .activity-page .activity-steps li + li {
   border-top: 1px solid var(--gm-surface-sunken);
 }
+.activity-page .activity-steps[hidden] {
+  display: none;
+}
+.activity-page .activity-steps--plain li {
+  padding-block: var(--space-lg);
+}
 .activity-page .activity-steps li::before {
   content: counter(step);
   display: block;
@@ -467,6 +473,7 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
 }
 .activity-page .variation-chips a[aria-current='true'] {
   background: var(--gm-primary-container);
+  color: var(--gm-on-primary-container);
   border-color: var(--gm-primary);
   box-shadow: inset 0 0 0 1px var(--gm-primary);
 }

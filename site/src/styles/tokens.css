@@ -1,5 +1,6 @@
 /* Design tokens. Source of truth: ../../../DESIGN.md (YAML front matter).
-   Change a value there first, then here. Light theme only by design.
+   Change a value there first, then here. Light is the default; the dark
+   theme (WEB-042) follows the device and a reader's choice, screen only.
    One bundled family (DESIGN.md › Type): Atkinson Hyperlegible Next for
    headings and text. Roboto subsets remain only as the Cyrillic and
    Vietnamese fallback. */
@@ -137,7 +138,7 @@
 }
 
 :root {
-  color-scheme: only light;
+  color-scheme: light;
 
   /* Colors: "Paper & Sage" (DESIGN.md › Palette) */
   --gm-primary: #24372f; /* Ink: every action */
@@ -167,6 +168,8 @@
   --gm-warning: #8c4a00;
   --gm-error: #a32d32;
   --gm-print-white: var(--gm-surface-raised);
+  --gm-on-print: #24372f; /* text on a print-white tile, in both themes */
+  --gm-footer: #24372f; /* the footer band: Ink in both themes */
   --gm-scrim: rgb(36 55 47 / 50%); /* on-surface at 50% */
   --gm-glow: rgb(244 205 118 / 60%); /* sun at 60% */
 
@@ -226,9 +229,63 @@
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
+/* Dark colors (WEB-042). The device setting picks them unless the reader chose
+   Light (html[data-theme='light']) or Dark (html[data-theme='dark']). Screen
+   only, so printed pages keep the light tokens. Every value is a DESIGN palette
+   color; each pairing is checked in src/lib/theme-contrast.test.ts. Higher
+   contrast, below, is declared later and overrides these whatever the theme. */
+@media screen and (prefers-color-scheme: dark) {
+  html:not([data-theme='light']) {
+    color-scheme: dark;
+    --gm-primary: #faf8f2; /* Canvas: links and actions */
+    --gm-primary-deep: #d9e8da; /* pressed and hovered fills */
+    --gm-on-primary: #16231d;
+    --gm-secondary: #f4cd76; /* Sun: information and links */
+    --gm-on-secondary: #16231d;
+    --gm-secondary-container: #24372f;
+    --gm-accent-pale: #24372f; /* decoration only; text on it stays Canvas */
+    --gm-background: #16231d; /* Ink-deep */
+    --gm-surface: #24372f; /* Ink */
+    --gm-surface-raised: #24372f;
+    --gm-surface-sunken: #16231d; /* wells sit below the surface */
+    --gm-on-surface: #faf8f2;
+    --gm-on-surface-variant: #d9e8da;
+    --gm-outline: #b5d3cf; /* a control's border, 3:1 or more on both surfaces */
+    --gm-success: #d9e8da;
+    --gm-warning: #f4cd76;
+    --gm-error: #fbe8b5;
+    --gm-print-white: #ffffff; /* pictures and printed-style tiles stay light */
+  }
+}
+@media screen {
+  html[data-theme='dark'] {
+    color-scheme: dark;
+    --gm-primary: #faf8f2;
+    --gm-primary-deep: #d9e8da;
+    --gm-on-primary: #16231d;
+    --gm-secondary: #f4cd76;
+    --gm-on-secondary: #16231d;
+    --gm-secondary-container: #24372f;
+    --gm-accent-pale: #24372f;
+    --gm-background: #16231d;
+    --gm-surface: #24372f;
+    --gm-surface-raised: #24372f;
+    --gm-surface-sunken: #16231d;
+    --gm-on-surface: #faf8f2;
+    --gm-on-surface-variant: #d9e8da;
+    --gm-outline: #b5d3cf;
+    --gm-success: #d9e8da;
+    --gm-warning: #f4cd76;
+    --gm-error: #fbe8b5;
+    --gm-print-white: #ffffff;
+  }
+}
+
 /* Higher contrast (the site's control). Text goes to black, secondary text to
    Ink, every tappable border to Ink, and links to a deeper teal. The page
-   lightens to white and hairlines darken so edges stay visible. */
+   lightens to white and hairlines darken so edges stay visible. The last
+   block restores the light value of every token a dark page would otherwise
+   change under a light page, so the pairings hold whatever the theme. */
 html[data-contrast='high'] {
   --gm-primary: #16231d;
   --gm-primary-deep: #0c1612;
@@ -242,6 +299,41 @@ html[data-contrast='high'] {
   --gm-on-surface-variant: #1c2a24;
   --gm-outline: #1c2a24;
   --gm-on-ink-variant: #faf8f2;
+  --gm-on-primary: #ffffff;
+  --gm-on-secondary: #ffffff;
+  --gm-secondary-container: #e3f0ee;
+  --gm-accent-pale: #fbe8b5;
+  --gm-footer: #000000;
+  --gm-success: #256b29;
+  --gm-warning: #8c4a00;
+  --gm-error: #a32d32;
+}
+
+/* Reading settings (WEB-042): shorter lines and more space, on reading text only
+   (.prose pages and activity steps). Buttons, nav and game boards are untouched.
+   Screen only, so print keeps the standard layout. */
+@media screen {
+  html[data-line='short'] .prose {
+    /* Guides set their own width (68ch), so set the width itself, not only the token. */
+    --content-max: 42ch;
+    max-width: min(100%, 42ch);
+  }
+  html[data-line='short'] .activity-steps {
+    max-width: min(100%, 42ch);
+  }
+  html[data-spacing='more'] .prose {
+    line-height: 1.8;
+  }
+  html[data-spacing='more'] .prose p {
+    margin-bottom: calc(var(--space-md) * 1.5);
+  }
+  html[data-spacing='more'] .prose li {
+    margin-bottom: calc(var(--space-sm) * 1.5);
+  }
+  html[data-spacing='more'] .activity-steps {
+    gap: calc(var(--space-md) * 1.5);
+    line-height: 1.8;
+  }
 }
 
 @media (min-width: 600px) {

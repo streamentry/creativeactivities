@@ -32,6 +32,22 @@ steps:
   - "Draw a simple shape of the bird on the paper, using the color they name."
   - "Listen for calls or song, and talk about how they sound."
   - "Close the curtain if the glare is strong, and stop when they are ready."
+plainSteps:
+  - "Settle into a chair or bed by the window."
+  - "Have a blanket and a drink within reach."
+  - "Ask what they can see outside."
+  - "Or invite them to look for birds for a minute."
+  - "Wait quietly until a bird lands or flies past."
+  - "Ask what color the bird is."
+  - "Or what it is doing."
+  - "Trace the bird's path in the air with one finger."
+  - "Move slowly, as the bird moves."
+  - "Draw a simple shape of the bird on the paper."
+  - "Use the color they name."
+  - "Listen for calls or song."
+  - "Talk about how they sound."
+  - "Close the curtain if the glare is strong."
+  - "Stop when they are ready."
 variations:
   - kind: easier
     text: "Use a ready-made chart with simple bird shapes to color in. The only jobs are choosing colors and pointing out the birds."

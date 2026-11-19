@@ -83,6 +83,7 @@ const TIMERS: Record<string, { calls: number; why: string }> = {
   'games/CalmBreathing.tsx': { calls: 1, why: 'paces the breathing animation (in, hold, out); it shows no count of time and ends only with a kind message' },
   'games/FourTogether.tsx': { calls: 1, why: 'offers a hint after a 20 second pause, only when hints are on; Rest stops it, and it never ends or scores the game' },
   'games/OddOneOut.tsx': { calls: 1, why: 'offers a hint after a 20 second pause, only when hints are on; Rest stops it, and it never ends or scores the game' },
+  'lib/games/photo-hint.ts': { calls: 3, why: 'the Photo pairs hint wait: one pause of 20 seconds after the last tap, cleared and started again on every tap, and cancelled when Rest, hints off or a finished board stops it' },
   'games/shared/ReadAloud.tsx': { calls: 1, why: 'asks the speech engine every 0.4 seconds whether it has finished, so the button can change back' },
   'pages/your-data.astro': { calls: 1, why: 'releases the file made for a download right after it starts' },
   // Listed here for the describe-your-situation box, which is a separate change: the entry stays true once that file exists.

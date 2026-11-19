@@ -32,6 +32,23 @@ steps:
   - "Turn the page only when they are ready, or ask whether they would like to turn it."
   - "If a picture brings up sadness, pause, offer a tissue and sit quietly together."
   - "Close the album gently when they are ready, and rest your hand on the cover."
+plainSteps:
+  - Sit side by side at a table.
+  - Keep the album in easy reach.
+  - Check that glasses are on.
+  - Check the light is bright enough to see the photos.
+  - Let them open the album to any page they like.
+  - "Ask an open question, such as: What can you see here?"
+  - "Or ask: Tell me about this one."
+  - Listen to what they say.
+  - Accept it without checking or correcting it.
+  - Turn the page only when they are ready.
+  - Or ask whether they would like to turn it.
+  - If a photo brings up sadness, pause.
+  - Offer a tissue.
+  - Sit quietly together.
+  - Close the album gently when they are ready.
+  - Rest your hand on the cover.
 variations:
   - kind: easier
     text: "Choose four to six pictures beforehand, one to a page, with a large word written on a sticky note. The person picks which page to look at."

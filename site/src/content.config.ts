@@ -19,7 +19,11 @@ export const GAME_SLUGS = [
   'color-by-number',
   'pattern-maker',
   'build-together',
+  'find-together',
+  'drawing-duet',
   'seated-toss',
+  'decorate-a-card',
+  'seasonal-pack',
   'story-chain',
   'story-dice',
   'sort-together',
@@ -31,6 +35,14 @@ export const GAME_SLUGS = [
   'photo-pairs',
   'picture-bingo',
   'calm-breathing',
+  'quiet-shapes',
+  'color-wash',
+  'collage-board',
+  'garden-planner',
+  'coloring-wall',
+  'scrapbook',
+  'picnic-planner',
+  'quiet-scene',
 ] as const;
 
 const guideSchema = z.object({

@@ -1,6 +1,7 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
 import { SITE } from '../lib/site';
+import TextSize from '../components/TextSize.astro';
 ---
 <PageLayout
   title="Accessibility"
@@ -14,6 +15,16 @@ import { SITE } from '../lib/site';
     We design for older eyes and hands first, and aim to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at
     level AA, with stronger contrast where we can.
   </p>
+  <h2 id="colors">Colors on this site</h2>
+  <p>
+    The site follows your device: if your phone or computer is set to dark, pages are dark too. You can choose here
+    instead. Printed pages are always black on white.
+  </p>
+  <TextSize part="colors" />
+  <h2 id="reading">Reading on this site</h2>
+  <p>Choose shorter lines or more space between lines if long text is hard to follow. Your choices are saved only in this browser.</p>
+  <TextSize part="reading-extra" />
+
   <h2>What we do</h2>
   <ul>
     <li>Text is at least 16 pixels and reading text is 20 pixels by default, and it grows with your browser’s text size and zoom.</li>
