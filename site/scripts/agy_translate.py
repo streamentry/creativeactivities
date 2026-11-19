@@ -480,8 +480,9 @@ def translate_guide(lang: dict, rel: str) -> str:
     src = (GUIDES / rel).read_text()
     upd = re.search(r'^updated:\s*(\S+)', src, re.M).group(1)
     base = (f'{RULES}\nTranslate this markdown guide from English into {lang["english"]} ({lang["native"]}). '
-            'Translate the frontmatter values of title, seoTitle, description, summary, keyPoints, faq (q and a), and the whole body. Keep the `sources` list completely unchanged, character for character. '
+            'Translate the frontmatter values of title, seoTitle, description, summary, keyPoints, faq (q and a) where the English file has them, and the whole body. Never add a frontmatter key the English file does not have. Keep the `sources` list completely unchanged, character for character. '
             'Keep every other frontmatter key and value exactly (section, order, updated, relatedGames, related, health, sources url/publisher), the same YAML structure, the same number of keyPoints and FAQ entries, the same heading levels and the same link targets in the same order. '
+            'Keep every list exactly as it is: the same number of items in each list, numbered lists stay numbered (1. 2. 3.) and bulleted lists stay bulleted (-), and never merge, split or drop an item. '
             f'Add the line `translatedFrom: {upd}` after the `updated:` line. Keep title/seoTitle under about 60 characters and description under about 160. '
             'Return ONLY the full translated file starting with ---, no code fence, no commentary.\n\n')
     last = ''
@@ -590,7 +591,26 @@ def guide_problems(src: str, out: str) -> str:
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
-    return '; '.join(errs)
+    errs += structure_mismatches(src, out)
+    return '; '.join(dict.fromkeys(errs))
+
+
+def structure_mismatches(src: str, out: str) -> list[str]:
+    """The site's own structure test (L10N-006) on this pair, through scripts/check-structure.ts,
+    so a translation that drops a list item or adds a frontmatter key is never kept."""
+    with tempfile.TemporaryDirectory() as d:
+        en, tr = Path(d, 'en.md'), Path(d, 'tr.md')
+        en.write_text(src, encoding='utf-8')
+        tr.write_text(out, encoding='utf-8')
+        try:
+            r = subprocess.run(
+                ['node', '--experimental-strip-types', '--no-warnings', str(SITE / 'scripts' / 'check-structure.ts'), str(en), str(tr)],
+                capture_output=True, text=True, timeout=60, cwd=SITE,
+            )
+            line = next((x for x in r.stdout.splitlines() if x.startswith('{')), '')
+            return [f'structure {m}' for m in json.loads(line)['mismatches']] if line else [f'structure check failed: {r.stderr.strip()[:200]}']
+        except (subprocess.SubprocessError, OSError, ValueError, KeyError) as e:
+            return [f'structure check failed: {e}']
 
 
 # ---------------------------------------------------------------- orchestration
