@@ -1,0 +1,14 @@
+---
+/**
+ * Required on any page that shows a sponsor, paid placement or partner (TSA-049).
+ * Place it on that page, near the relationship it discloses.
+ */
+import { disclosureLine } from '../lib/partners';
+import type { Partner } from '../data/partners';
+
+interface Props {
+  partner: Pick<Partner, 'name' | 'relationship'>;
+}
+const { partner } = Astro.props;
+---
+<p class="partner-disclosure">{disclosureLine(partner)}</p>

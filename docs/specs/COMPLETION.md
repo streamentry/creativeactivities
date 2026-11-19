@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 240 | 101 | 407 |
+| S2 | 66 | 242 | 99 | 407 |
 | S3 | 2 | 16 | 57 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **284** | **169** | **533** |
+| **All** | **80** | **286** | **167** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
