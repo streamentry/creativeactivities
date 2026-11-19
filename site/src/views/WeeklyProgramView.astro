@@ -15,6 +15,7 @@ import { SITE } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
 import { PROGRAM_DAYS, defaultWeek, groupCards, programEntry } from '../lib/weekly-program';
+import { latestDate } from '../lib/version-date';
 
 const path = '/activity/weekly-program/';
 const crumbs = [
@@ -24,7 +25,10 @@ const crumbs = [
 const cards = await getCollection('activityCards');
 const options = groupCards(cards).map(programEntry);
 const week = defaultWeek(cards);
-const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne }]));
+const dateOf = (c: { data: { updated: Date } }) => c.data.updated.toISOString().slice(0, 10);
+const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne, updated: dateOf(o) }]));
+// WEB-065: the sheet's version is the newest change among the activities chosen for the week. The script keeps it current.
+const version = latestDate(week.map(dateOf));
 ---
 <BaseLayout
   title="Weekly Activity Program to Print for a Group"
@@ -85,6 +89,13 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
         Full steps, materials and safety notes for each activity: {SITE.domain}/activity/. Anyone can stop at any time,
         and watching counts as taking part.
       </p>
+      {
+        version && (
+          <p class="weekly-program__version">
+            Version <span data-version>{version}</span> · {SITE.domain}{path} · the newest change to the activities on this sheet.
+          </p>
+        )
+      }
       <p class="activity-scope">{SCOPE_LINE}</p>
       <p>{PAUSE_LINE}</p>
       <p class="no-print"><a href="/corrections/#report-safety">Report a safety problem</a> with any activity on this sheet.</p>
@@ -101,16 +112,24 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
 
 <script>
   import { programMaterialsLine } from '../lib/weekly-program-text';
+  import { latestDate } from '../lib/version-date';
 
-  type Entry = { name: string; group: string; oneToOne: string };
+  type Entry = { name: string; group: string; oneToOne: string; updated: string };
   const raw = document.getElementById('weekly-program-data')?.textContent ?? '{}';
   const data = JSON.parse(raw) as Record<string, Entry>;
 
-  for (const select of document.querySelectorAll<HTMLSelectElement>('[data-choose]')) {
+  const selects = [...document.querySelectorAll<HTMLSelectElement>('[data-choose]')];
+  const showVersion = () => {
+    const shown = document.querySelector('[data-version]');
+    if (shown) shown.textContent = latestDate(selects.map((s) => data[s.value]?.updated)) ?? '';
+  };
+
+  for (const select of selects) {
     select.addEventListener('change', () => {
       const day = select.closest<HTMLElement>('[data-day]');
       const entry = data[select.value];
       if (!day || !entry) return;
+      showVersion();
       const name = day.querySelector<HTMLAnchorElement>('[data-name]');
       if (name) {
         name.textContent = entry.name;
