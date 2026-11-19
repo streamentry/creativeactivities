@@ -200,7 +200,7 @@ Risks / not doing: Pillar hubs can become thin lists. The rules above prevent th
 
 | Priority | Phase | Status | Pillars | Notes |
 |---|---|---|---|---|
-| P1 | S2 | new | all | Browse by materials, time or setting, but only for facet pages that pass the hub rules in [02 §6](02-information-architecture.md#6-hub-rules). Other facet views are filters on the finder. Facet pages are canonical to the matching hub. |
+| P1 | S2 | partial | all | Browse by materials, time or setting, but only for facet pages that pass the hub rules in [02 §6](02-information-architecture.md#6-hub-rules). Other facet views are filters on the finder. Facet pages are canonical to the matching hub. Status 2026-11-19: [facet report](facet-report.md) from `site/src/lib/facets.ts` applies H1 and H3 to 15 facets over 53 cards. One candidate (setup 5 minutes or less), bedside routes to its hub, ten are too broad (each holds more than half the catalog) and four fail H3. No facet page is built: a candidate needs search and usability evidence first (H11). |
 
 ---
 

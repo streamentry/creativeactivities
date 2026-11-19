@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 241 | 100 | 407 |
+| S2 | 66 | 244 | 97 | 407 |
 | S3 | 2 | 15 | 58 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **284** | **169** | **533** |
+| **All** | **80** | **287** | **166** | **533** |
 
 | S3 | 1 | 15 | 59 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
@@ -433,6 +433,13 @@ Three Haiku subagents in parallel, each reviewed and browser-checked (light and 
 
 Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
 
+### Batch 51 (2026-11-19): defect log, facet report and a reproducible build
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Translation defect log `docs/l10n/defects.csv` with `scripts/l10n_defects.py` (validation, a summary per language, `--release LANG`); `release_metadata.py --release` fails on an open safety or claim defect in a reviewed language; "Logging a defect" in the native review guide; metric definitions in 17 | L10N-025 → partial | Built by a Haiku subagent. Review: it accepted only the 64 app languages, so a reviewer could not log a defect in website text for the other languages; website codes are now accepted (two tests added) and the guide says the website rule is not script-enforced. 24 new tests; no defect invented |
+| Facet report: `site/src/lib/facets.ts` applies H1 and H3 to 15 facets built from card fields; [facet-report.md](global/facet-report.md) | WEB-010 → partial | Built by a Haiku subagent. Its literal rule routed ten facets to "seated" and "low cost", which hold all 53 cards. Review added a `too-broad` verdict (more than half the catalog) and renamed `page` to `candidate`, since H11 asks for search evidence before any new hub. Result: one candidate, bedside routes to its hub, no page built |
+| Build baseline and `check:determinism` ([build-baseline.md](../engineering/build-baseline.md)) | PLAT-013 → partial | Built by a Haiku subagent: three laptop builds (58 to 97 s; recorded 70 s, 4.5 GiB peak), and a determinism check that found Find together dealing a random board into the built page, a different board on every deploy and a hydration mismatch. Fixed: a fixed first deal, the random board after load, and a test that renders twice. Two builds after the fix: 17,497 of 17,497 files identical. CI targets not set |
 ### Batch 49 (2026-11-19): localization registers
 
 | Change | Items | Evidence |

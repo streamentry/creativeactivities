@@ -193,6 +193,16 @@ Acceptance:
 Depends on: PLAT-006.
 Risks / not doing: sources that are not primary. Reviewers check the source type.
 
+### Translation defects (L10N-025)
+Not a separate metric ID. Source: `docs/l10n/defects.csv`, read by `scripts/l10n_defects.py`. Definitions:
+- Open safety defects per language: rows with severity `safety` and status `open`, counted per language code.
+- Open claim defects per language: rows with severity `claim` and status `open`, counted per language code.
+- Found after reviewed, per language per quarter: rows whose `found_on` is after the `date` that the language was marked `reviewed` in `release-status.json`, counted by calendar quarter of `found_on`. Not shown for a language that is not reviewed.
+Acceptance:
+- Open safety and claim counts are zero for a language before its next release.
+- Counts are shown with the language and the date they were read, never as a single score.
+Risks / not doing: publishing defect counts as a quality badge (L10N-025); reading a low count as proof of quality when few languages have been reviewed.
+
 ### Accessibility and safety
 
 ### MET-016 · Accessibility defects per release
