@@ -105,7 +105,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-007 | P2 | new | One idea right now |
 | WEB-008 | P1 | partial | Related cards by function |
 | WEB-009 | P1 | exists | Pillar tiles and pillar hubs |
-| WEB-010 | P1 | ? | Facet browse pages |
+| WEB-010 | P1 | partial | Facet browse pages |
 | WEB-013 | P1 | partial | Variation chips with an in-page switch |
 | WEB-015 | P0 | partial | No-ink, no-URL print version |
 | WEB-016 | P0 | partial | Versioned prints |
@@ -439,7 +439,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-022 | P1 | partial | Mainland China exclusion |
 | L10N-023 | P1 | partial | Accessibility in each language |
 | L10N-024 | P1 | partial | Review budget and cost estimate |
-| L10N-025 | P1 | new | Defect tracking and quality metrics |
+| L10N-025 | P1 | partial | Defect tracking and quality metrics |
 | L10N-026 | P1 | partial | Local search phrases as hypotheses |
 | L10N-027 | P2 | partial | Imagery and people across cultures |
 | L10N-032 | P2 | partial | Quiz and activity local swaps |
@@ -488,7 +488,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-046 | P0 | partial | Privacy and security breach process |
 | TSA-047 | P1 | partial | Safety report route |
 | TSA-048 | P0 | partial | Transparency pages set |
-| TSA-049 | P1 | new | Sponsorship and partner disclosure |
+| TSA-049 | P1 | partial | Sponsorship and partner disclosure |
 
 #### Platform and data (15)
 
@@ -506,7 +506,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-010 | P1 | partial | Editorial states and review queue |
 | PLAT-011 | P0 | partial | One validation command for every content type |
 | PLAT-012 | P1 | new | Staleness and re-review queue |
-| PLAT-013 | P0 | new | Partitioned, incremental builds |
+| PLAT-013 | P0 | partial | Partitioned, incremental builds |
 | PLAT-014 | P0 | partial | Publishing state per (entity, locale) |
 | PLAT-015 | P0 | new | Hosting capacity check at 10× the page count |
 | PLAT-017 | P0 | partial | Image pipeline: masters to AVIF, WebP and fallback |
@@ -568,7 +568,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | MET-028 | P2 | partial | Printable distribution and reprints |
 | MET-030 | P1 | new | Comprehension test pass rate |
 | MET-031 | P1 | new | Return households |
-| MET-034 | P0 | new | Time on site and page views (counter-metric) |
+| MET-034 | P0 | partial | Time on site and page views (counter-metric) |
 | MET-035 | P0 | new | Dark-pattern guardrails |
 | MET-037 | P0 | partial | Privacy-preserving measurement principles |
 | MET-038 | P1 | partial | Data-quality checks |

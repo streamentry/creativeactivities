@@ -1,0 +1,24 @@
+---
+/** The About page section for sponsors and partners (TSA-049). English only; ProseView renders it for lang "en". */
+import { PARTNERS } from '../data/partners';
+import { ui } from '../i18n/ui';
+
+const t = ui('en').pages.about.sponsors;
+---
+<section class="sponsors" aria-labelledby="sponsors-heading">
+  <h2 id="sponsors-heading">{t.heading}</h2>
+  {PARTNERS.length === 0 ? <p>{t.none}</p> : <p>{t.listed}</p>}
+  <p>{t.policy}</p>
+  <h3>{t.listHeading}</h3>
+  {PARTNERS.length === 0 ? (
+    <p>{t.noPartners}</p>
+  ) : (
+    <ul>
+      {PARTNERS.map((p) => (
+        <li>
+          <a href={p.url} rel="noopener">{p.name}</a>: {p.relationship}, written permission received <time datetime={p.permissionDate}>{p.permissionDate}</time>.
+        </li>
+      ))}
+    </ul>
+  )}
+</section>

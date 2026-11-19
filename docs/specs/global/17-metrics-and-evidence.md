@@ -193,6 +193,16 @@ Acceptance:
 Depends on: PLAT-006.
 Risks / not doing: sources that are not primary. Reviewers check the source type.
 
+### Translation defects (L10N-025)
+Not a separate metric ID. Source: `docs/l10n/defects.csv`, read by `scripts/l10n_defects.py`. Definitions:
+- Open safety defects per language: rows with severity `safety` and status `open`, counted per language code.
+- Open claim defects per language: rows with severity `claim` and status `open`, counted per language code.
+- Found after reviewed, per language per quarter: rows whose `found_on` is after the `date` that the language was marked `reviewed` in `release-status.json`, counted by calendar quarter of `found_on`. Not shown for a language that is not reviewed.
+Acceptance:
+- Open safety and claim counts are zero for a language before its next release.
+- Counts are shown with the language and the date they were read, never as a single score.
+Risks / not doing: publishing defect counts as a quality badge (L10N-025); reading a low count as proof of quality when few languages have been reviewed.
+
 ### Accessibility and safety
 
 ### MET-016 · Accessibility defects per release
@@ -398,7 +408,7 @@ Depends on: MET-032; a research partner.
 Risks / not doing: a homemade satisfaction question shown as an outcome. Not done.
 
 ### MET-034 · Time on site and page views (counter-metric)
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status partial · Pillars: all
 Why: VISION and the README say time on site and page views are diagnostics, not the goal. They can rise while mission success falls.
 What: report time on site and page views as diagnostics. Trigger a review when they rise while confirmed starts fall.
 Acceptance:
@@ -407,6 +417,9 @@ Acceptance:
 - A longer session is not a goal ([measurement plan](../../plan/measurement.md)).
 Depends on: MET-001.
 Risks / not doing: optimizing for time. Not done.
+
+
+Evidence (2026-11-19): `docs/plan/measurement.md` now has the counter-metric section: time on site and page views are diagnostics, never a headline or goal; a monthly rise of more than 20% in either while confirmed starts per 1,000 card views fall triggers a review of that month's changes before more ships in that area. Gap: the monthly check needs the maintainer; it can only use consented traffic today.
 
 ### MET-035 · Dark-pattern guardrails
 Priority P0 · Phase S2 · Status partial · Pillars: all

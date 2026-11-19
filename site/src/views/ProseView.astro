@@ -6,6 +6,7 @@ import { localizeHtml } from '../i18n/locales';
 import { PUBLISHED, fill, ui } from '../i18n/ui';
 import PlayCta from '../components/PlayCta.astro';
 import EvidenceTable from '../components/EvidenceTable.astro';
+import SponsorsSection from '../components/SponsorsSection.astro';
 
 interface Props {
   lang: string;
@@ -20,6 +21,7 @@ const all = PUBLISHED.map((l) => l.code);
 ---
 <PageLayout title={p.title} seoTitle={p.seoTitle} description={p.description} path={path} crumb={p.crumb} lede={'lede' in p ? (p.lede as string) : undefined} updated={updated} lang={lang} available={all}>
   <Fragment set:html={body} />
+  {page === 'about' && lang === 'en' && <SponsorsSection />}
   {page === 'about' && <PlayCta slot="after" lang={lang} />}
   {page === 'editorial' && lang === 'en' && <EvidenceTable slot="after" />}
 </PageLayout>
