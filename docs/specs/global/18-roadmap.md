@@ -421,7 +421,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | L10N-004 | P0 | new | Reviewer recruitment and credentials |
 | L10N-005 | P0 | partial | Content that is never published by machine alone |
 | L10N-006 | P0 | partial | Structure survives translation |
-| L10N-007 | P0 | new | Dementia terminology glossary per locale |
+| L10N-007 | P0 | partial | Dementia terminology glossary per locale |
 | L10N-008 | P0 | partial | Brand-name propagation check |
 | L10N-009 | P0 | partial | Local safety and crisis information |
 | L10N-010 | P0 | partial | Translation memory, term base and ARB extraction |
