@@ -488,7 +488,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-046 | P0 | partial | Privacy and security breach process |
 | TSA-047 | P1 | partial | Safety report route |
 | TSA-048 | P0 | partial | Transparency pages set |
-| TSA-049 | P1 | new | Sponsorship and partner disclosure |
+| TSA-049 | P1 | partial | Sponsorship and partner disclosure |
 
 #### Platform and data (15)
 
@@ -520,7 +520,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-034 | P1 | new | Website offline reading |
 | PLAT-035 | P1 | partial | One content contract for web and app |
 | PLAT-036 | P0 | partial | Performance budgets gated in CI |
-| PLAT-037 | P0 | new | Visual regression at standard widths |
+| PLAT-037 | P0 | partial | Visual regression at standard widths |
 | PLAT-038 | P0 | partial | Accessibility automation and assistive-technology gates |
 | PLAT-039 | P1 | new | Print and i18n tests |
 | PLAT-040 | P1 | partial | Observability, uptime, broken links and cost guardrails |
@@ -568,7 +568,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | MET-028 | P2 | partial | Printable distribution and reprints |
 | MET-030 | P1 | new | Comprehension test pass rate |
 | MET-031 | P1 | new | Return households |
-| MET-034 | P0 | new | Time on site and page views (counter-metric) |
+| MET-034 | P0 | partial | Time on site and page views (counter-metric) |
 | MET-035 | P0 | new | Dark-pattern guardrails |
 | MET-037 | P0 | partial | Privacy-preserving measurement principles |
 | MET-038 | P1 | partial | Data-quality checks |

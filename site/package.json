@@ -17,6 +17,7 @@
     "check:capacity": "node scripts/check-capacity.mjs",
     "check:duplicates": "node --max-old-space-size=6144 scripts/check-duplicates.mjs",
     "check:print": "node scripts/check-print.mjs",
+    "check:visual": "node scripts/check-visual.mjs",
     "check:a11y": "node scripts/a11y-check.mjs",
     "check:browsers": "node scripts/check-browsers.mjs",
     "check:group": "node scripts/check-group-stage.mjs",
