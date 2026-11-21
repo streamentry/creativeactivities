@@ -7,16 +7,22 @@
     "homeLabel": "Lehae la Creative Activities",
     "mainNav": "Kgolo",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: ditshwantsho tse dikgolo, tse di itumedisang, tsa kopi ya tee, letlhoba le ntša",
+    "defaultImageAlt": "Creative Activities: nkgano e e kgolo, e e itumetsang ya dilo tsa letsatsi le letsatsi tse o ka di dirang le go di dira",
     "languages": "Puo",
     "englishOnly": "(Sekgoa)",
     "machineTranslated": "Tsebe ye e fetotswe ka mochini, mme ga e a ka e lekwa ke mongwe yo o buang Setswana ka tlhamalalo.",
     "readOriginal": "Bala tlhaloso ya Sekgoa",
     "nav": {
+      "find": "Find an activity",
       "games": "Dipapadi",
       "activities": "Ditiro",
       "caregiving": "Tlhokomelo",
-      "brainHealth": "Bophelo jwa boko"
+      "brainHealth": "Bophelo jwa boko",
+      "crafts": "Dithoro",
+      "kids": "Bana",
+      "together": "Mmogo",
+      "creativeCalm": "Boikhutso jo bo kgutsa",
+      "search": "Batla"
     },
     "faqTitle": "Dipotso le dikarabo",
     "breadcrumb": "Tsela ya go fitlha",
@@ -27,7 +33,32 @@
       "label": "Bogolo jwa mokwalo",
       "smaller": "Mokwalo wa tlwaelo",
       "larger": "Mokwalo o o kgolo",
-      "contrast": "Phapano e e kgolo ya mebala"
+      "contrast": "Phapano e e kgolo ya mebala",
+      "colors": "Ditlhamo",
+      "light": "Bosedi",
+      "dark": "Bolefifi",
+      "device": "Jaaka sarolwa se",
+      "lineLength": "Bogolo jwa mola",
+      "standardLines": "Yo o tlwaelegileng",
+      "shorterLines": "Mela e e kgutshwane",
+      "spacing": "Sekgala sa mela",
+      "standardSpacing": "Yo o tlwaelegileng",
+      "moreSpace": "Sekgala se se oketsegileng"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Dikgopolo tsa ditiro tse 101",
     "lateStage": "Ditiro tsa kgato ya bofelo",
     "printable": "Ditiro tse di ka gatisiwang",
-    "allActivities": "Ditiro tsotlhe",
+    "allActivities": "Dikaelo tsotlhe tsa ditiro",
     "forCaregivers": "Ba ba tlhokomelang",
     "playTogether": "Go bapala mmogo",
     "selfCare": "Go itlhokomela",
@@ -54,24 +85,34 @@
     "app": "Application ya Creative Activities",
     "appHelp": "Thuso ya application",
     "support": "Thuso",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Molao",
     "sitePrivacy": "Sephiri sa webosaete",
     "appPrivacy": "Tshireletso ya sephiri ya application",
     "privacyChoices": "Dikgetho tsa sephiri",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Melao le laesense ya application",
     "safety": "Polokelo le tiro e e tshwanetseng",
     "accessibility": "Go dirisega ga botlhe",
     "healthNotice": "Tsebiso ya tshedimosetso ya boitekanelo",
     "allLegal": "Tshedimosetso yotlhe ya molao",
     "note": "Creative Activities e neela ditiro tse di bonolo tse di tlhomamisang go itumelela. Ga se keletso ya boitekanelo, tlhatlhobo kgotsa kalafi, ga e akanye kgotsa e lekanye mang kapa mang. Fa o na dipotso tsa boitekanelo, bua le ngaka. Mo tshoganyetsong, letsa nomoro ya tshoganyetso ya kwa gae.",
-    "publisher": "Gatisitswe ke Cloudjet Solutions Pte. Ltd."
+    "publisher": "Gatisitswe ke Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Dithoro tsa bagolo le bana",
+    "kids": "Ditiro tsa bana",
+    "together": "Ditiro tsa go dirwa mmogo",
+    "creativeCalm": "Boikhutso jo bo kgutsa",
+    "dementiaActivities": "Ditiro tsa batho ba nang le bolwetse jwa go lebala"
   },
   "home": {
-    "title": "Dipapadi le ditiro tsa Dementia le Alzheimer's | Creative Activities",
-    "description": "Dipapadi tse di bonolo tsa ditshwantsho tse di ka bapalwang mo inthaneteng, le dikgopolo tsa ditiro tsa batho ba ba nang le dementia kgotsa Alzheimer's le ba ba ba tlhokomelang. Ga go na go ikwadisa, nako ya go tshwaya kgotsa dipontsho.",
+    "title": "Ditiro tse di Tlhamaletseng tsa Motho yo o Tlhokomelang Motho",
+    "description": "Ditiro tse di tlhamaletseng tse di tlhwatlhwa tsa motho yo o tlhokomelang motho: dithoro, dilo tsa bana, ditiro tsa go dirwa mmogo le maikutlo a a kgutsa a boitlhamelo.",
     "eyebrow": "Mahala · Ga go dikgangiso · Ga go ikwadisa · Ga go dinako kgotsa dipontsho",
-    "h1": "Dipapadi le Ditiro tse di Bonolo tsa Batho ba ba nang le Dementia",
-    "lede": "Dipapadi tse di bonolo tsa ditshwantsho, ditshwantsho tse o di itseng, le ditiro tse o ka di itumelelang mmogo—ka go tsamaya ka lebelo la gago.",
+    "h1": "Dira sengwe mmogo",
+    "lede": "Bona ketelo e e tshwanetseng motho, nako le se o nang le sone. Dithoro tse di bonolo, boitlhamelo jwa bana, dilo tsa go dirwa mmogo le maikutlo a a kgutsa a boitlhamelo, le ditlhopho tse di bonolo go feta le kadi ya go e gatisa. Ema fa o rata.",
     "playGame": "Bapala papadi",
     "findIdeas": "Batla dikgopolo tsa ditiro",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Dikgopolo tsa ditiro tse 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Kgato ya pele",
         "text": "Tswelela go dira se ba se ratang, ka diphetogo tse nnye: dikgatlhego, go tsamaya kwa ntle, dipapadi tsa mafoko le go rera mmogo.",
         "label": "Dikgopolo tsa kgato ya pele"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Kgato ya bogare",
         "text": "Ditiro tse di bonolo, tse di tlwaelegileng, di kgaolwa dikgato: go phuthela, go aroganya, mmino, dipapadi tsa ditshwantsho le go tsamaya ka dinyana.",
         "label": "Dikgopolo tsa kgato ya bogare"
@@ -124,10 +165,10 @@
         "label": "Dikgopolo tsa kgato ya bofelo"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "A o batla sengwe se se tlhomameng? Leka <a href=\"/dementia-activities/\">ditiro le dipapadi tsa Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">ditshwantsho le dipapadi tsa tafole</a>, <a href=\"/together/conversation-games-for-all-ages/\">dipapadi tsa puo</a> kgotsa <a href=\"/together/puzzles-and-table-games/\">ditshwantsho</a>.",
     "approachEyebrow": "Tsela ya rona",
-    "approachTitle": "Ketelo e e tshwaraganang, e seng tlhatlhobo ya gopolo",
-    "approachLede": "Dipapadi tse dintsi tsa “boko” di agelwa go lebelela, dipontsho le dikgwedi tse di latelanang. Mo batho ba ba nang le dementia seo se ka bonala e le tlhatlhobo. Rona re dirile se se fapaanang le seo.",
+    "approachTitle": "Ketelo e e abelanwang, e seng tlhatlhobo",
+    "approachLede": "Dipapadi tse dintsi tsa “dikelo tsa mogopolo” di agilwe ka lebelo, dipoelo le ditlhopha tsa dikgwedi. Ga motho a lapile, a sa itumela kgotsa a nna le bolwetse jwa go lebala, seo se ka tshwana le tlhatlhobo. Rona re dirile ka tsela e e fapaneng.",
     "approachLink": "Ke ka go reng re dira ka tsela eno",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Mabaka a a tlwaelegileng a go gana, le ditsela tse di boleta tsa go leka gape ka nako e e tlang."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Go beha thebolete",
-        "text": "Mokwalo o o kgolo, dikgoreletso tse di nnye le skrine e le nngwe e e bonolo ya gae."
+        "href": "/activities/group-art-activities/",
+        "title": "Ditiro tsa ditshwantsho tsa sehlopha",
+        "text": "Ditiro tse di abelanwang tsa tafole e e nang le batho ba le mmalwa, e e nang le tiro e e tlhomameng ya motho yo mongwe le yo mongwe."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ditiro tse di ka gatisiwang tsa mahala",
-        "text": "Dipatlisiso tsa mafoko a a kgolo, ditshwantsho tsa go tlhaela mebala, bingo le dikarata tsa puisano."
+        "href": "/activities/ideas/",
+        "title": "Dikakanyo tsa ditiro tse 101",
+        "text": "Dikakanyo tse di bonolo, di beilwe ka se o nang le sone le gore go na le matlhagatlhaga a le kana kang."
       }
     ],
     "researchTitle": "Bophelo jwa boko: dipatlisiso di bolela eng ka nnete",
@@ -185,16 +226,16 @@
     "aboutApp": "Ka application",
     "faq": [
       {
-        "q": "Ke dipapadi dife tse di siameng ba ba nang le dementia?",
-        "a": "Dipapali tse di siameng ke tse di bonolo, tse di tlwaelegileng, tse di sa tlhaelelwang ke kgatelelo: ditshwantsho tse dikgolo tsa go tshwanya, go beakanya, dipuzzle tse di bonolo, go feleletsa maele a a itsegeng, go tlhoma mebala, bingo ya ditshwantsho le dikarata tsa puisano. Kgetho e e siameng ke e motho a e itumelelang gompieno. Tlogela dinako, dipoelo le sepe se se tshwanang le tlhatlhobo."
+        "q": "Ke dipapadi dife tse di siameng bagolo?",
+        "a": "Dipapadi tse di siameng di bonolo, di tlwaelegileng, mme di se na kgatelelo: ditshwantsho tse dikgolo tsa go tshwana, go tlhopha, dipazolo tse di bonolo, go fetsa maele a a itsegeng, go tlhabalabala, bingo ya ditshwantsho le dikhadi tsa puo. Di loga batho ba le bantsi ba bagolo, go akaretsa batho ba nang le bolwetse jwa go lebala. Tlhopho e e siameng ke e motho a e ratang gompieno. Tila dinako, dipoelo le sengwe se se bonalang jaaka tlhatlhobo."
       },
       {
-        "q": "A dipapali tsa dementia di a sa duelwe?",
+        "q": "A dipapadi tseno di a sireletsega?",
         "a": "Ee. Papali nngwe le nngwe le sengwe le sengwe sa go gatisa mo Creative Activities se a sa duelwe, ga go na akhaonto, ga go na go ikwadisa kgotsa go itsenya. Dipapali di sebediwa mo browser ya inthanete mo mogaleng, mo thapuleteng kgotsa mo komputareng."
       },
       {
         "q": "A dipapali tsa boko di thibela dementia?",
-        "a": "Ga go papali le e ontsweng e bontshitse gore e thibela dementia, mme Creative Activities ga e ikaelele go alafa kgotsa go thibela sepe. Dipapali tsa rona ke tsa go itumela le go nna le nako e e tlhomologileng mmogo. Karolo ya rona ya tlhokomelo ya boko e tlhalosa se dinyakisiso di se bontshang le se di sa se bontsheng."
+        "a": "Ga go papadi epe e e bontshitsweng gore e thibela bolwetse jwa go lebala, mme Creative Activities ga e ikaelele go alafa kgotsa go thibela sepe. Dipapadi tsa rona ke tsa boitumelo le go nna mmogo nako, mme tsamaiso epe ya ditiro ga e neele tshedimosetso ya boitekanelo."
       },
       {
         "q": "A dipapali tse di loketse motho yo o nang le Alzheimer's?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities e dirwa ke mang?",
-        "a": "Creative Activities ke setlhopha se sennye se se dirang ditiro tse di kgutsafetseng tsa ditshwantsho tsa batho ba bagolo, tsa malapa le batlhokomedi, mo inthaneteng le e le app ya mahala. Re ga se dingaka, mme ga go sepe mo go bone se se keletsang tlhokomelo ya bongaka."
+        "a": "Creative Activities ke sehlopha se sennye sa batho ba ba dirang ditiro tse di kgutsa, tsa bagolo, tsa motho yo o tlhokomelang motho, mo inthaneteng le e le ntlha ya sešwa e e sa duelwe chelete. Ga re badiri ba tša boitekanelo, mme ga go na sepe mo go tse di kwadilweng fano se se leng keletso ya boitekanelo."
+      }
+    ],
+    "groupsEyebrow": "Batla tsela ya gago",
+    "groupsTitle": "Mefuta e mene ya ditiro tse di tlhamaletseng",
+    "groupsLede": "Simolola ka sehlopha se se tshwanetseng motho yo o nnang le ene le se o nang le sone. Tsamaiso nngwe le nngwe e na le ditlhopho tse di bonolo go feta le dikeletso tsa polokego.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Dithoro",
+        "text": "Pampiri, pente, dilo tse di dirisitsweng gape le ditiro tsa matlhatsa, tse di nang le tlhopho e e bonolo go feta mo tirong nngwe le nngwe.",
+        "label": "Lebelela dithoro"
+      },
+      {
+        "href": "/kids/",
+        "title": "Bana",
+        "text": "Boitlhamelo le papadi tsa bana, ka motho yo mogolo a le gaufi le dikeletso tse di tlhomameng tsa polokego.",
+        "label": "Lebelela ditiro tsa bana"
+      },
+      {
+        "href": "/together/",
+        "title": "Mmogo",
+        "text": "Puo, ditshwantsho, nako ya kwa ntle le ditsela tsa go nna gaufi magareng a melemo.",
+        "label": "Lebelela dilo tsa go dira mmogo"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Boikhutso jo bo kgutsa",
+        "text": "Dinako tse di tlhwatlhwa, tse di kgutsa tsa boitlhamelo ka pene, pampiri kgotsa pina. Ga se kalafi.",
+        "label": "Lebelela boikhutso jo bo kgutsa"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Ya go gatisa",
     "play": "Bapala {name} →",
     "readGuide": "Bala tataiso"
+  },
+  "listen": {
+    "listenSteps": "Reetsa dikgato",
+    "pause": "Emisa go sa tswelele",
+    "resume": "Tswelela",
+    "stop": "Emisa",
+    "speed": "Lebelo",
+    "normal": "Jaaka gantsi",
+    "slower": "Gonne",
+    "reading": "Go bala dikgato ka lentswe le le godisegileng.",
+    "paused": "Go emisitswe go sa tswelele. Tobetsa Tswelela go tswelela.",
+    "note": "E dirisa lentswe la sarolwa sa gago. Dimmatlhatlha tse dingwe di romela mongwalo go mmopi wa tsone go o bua.",
+    "listen": "Reetsa",
+    "stepLabel": "Reetsa dikgato {n}",
+    "stopStep": "Emisa kgato {n}"
   },
   "playCta": {
     "title": "A o ikemiseditse papali e e bonolo?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Ditiro",
-      "title": "Ditiro tsa Batho ba ba nang le Dementia",
-      "seo": "Ditiro tsa Batho ba ba nang le Dementia: Dikakanyo ka Mophato",
-      "description": "Dikakanyo tsa ditiro tsa batho ba ba nang le dementia mo mephatong yotlhe: mmino, go gopola, ditiro tsa letsatsi le letsatsi, dikutlo, boitlhamelo, kantle ga ntlo le ditshwantsho tsa mahala tsa go gatisa.",
-      "lede": "Tiro e e nang le kgalo ke sepe se se tlisang kagiso, maikarabelo kgotsa sebaka sa go kopana ka pelo. Simolola ka se motho a neng a se itumelela ka nako tsotlhe, mme o se fetolele go gompieno."
+      "label": "Dikaelo tsa ditiro",
+      "title": "Dikaelo tsa Ditiro",
+      "seo": "Dikaelo tsa Ditiro: Dikakanyo, Dithulaganyo tsa Boitlhamelo le Ditsela tsa go Simolola",
+      "description": "Dikaelo tse di bonolo tsa ditiro tse di tlhamaletseng tse o ka di dirang le motho: dikakanyo tse di bonolo, dithulaganyo tsa boitlhamelo tse di sa biziwe thata, boitlhamelo jwa sehlopha, dinoko, dikgopolo, le kalafi ya boitlhamelo e tlhalositswe.",
+      "lede": "Dikaelo tse di kgutshwane, tse di dirisegang go tlhopha le go simolola ketelo le motho, mo go sa kgathalesege mengwaga kgotsa tshwanelo ya gagwe."
+    },
+    "crafts": {
+      "label": "Dithoro",
+      "title": "Dithoro tsa Bagolo le Bana",
+      "seo": "Dithoro tse di Bonolo tsa Bagolo le Bana, tse di nang le Ditlhopho tse di Bonolo go Feta",
+      "description": "Dithoro tse di bonolo tsa bagolo, bana le malapa: pampiri, pente, dilo tse di dirisitsweng gape le tsa matlhatsa, tse di nang le ditlhopho tse di bonolo go tshwara le tse di nnang fa fatshe, ntle le tsebo e e kgethegileng.",
+      "lede": "Dithoro tse di simololang ka dilo tse malapa a le mantsi a nang le tsone, nngwe le nngwe e na le tlhopho e e bonolo go feta, gore mang le mang a kgone go dira sengwe."
+    },
+    "kids": {
+      "label": "Bana",
+      "title": "Ditiro tse di Tlhamaletseng tsa Bana",
+      "seo": "Ditiro tse di Tlhamaletseng tsa Bana: Boitlhamelo, Dikwamo le Boikhutso",
+      "description": "Ditiro tse di tlhamaletseng tsa bana: boitlhamelo jwa bana ba bannye, boitlhamelo jwa tsela ya go dira, papadi ya dikwamo, dithoro tsa malatsi a pula le dikakanyo tsa go itokisa, tse di nang le dikeletso tsa polokego le ditlhopho tsa dikwamo.",
+      "lede": "Dikakanyo tsa boitlhamelo le papadi tsa bana ba mengwaga le ditlhokego tse di farologaneng, di na le dikeletso tse di tlhomameng tsa polokego le motho yo mogolo a le gaufi."
+    },
+    "together": {
+      "label": "Mmogo",
+      "title": "Ditiro tsa go Dirwa Mmogo",
+      "seo": "Ditiro tsa go Dirwa Mmogo, Magareng a Melemo",
+      "description": "Ditiro tsa melemo e e feta e le Bobedi kgotsa go feta: dipapadi tsa puo, ditshwantsho, nako ya kwa ntle, dithoro tsa borraagwe le barwawe, le ditsela tsa go nna gaufi go tswa kgakala.",
+      "lede": "Dikakanyo tsa go abelana nako le motsadi, rraagwe kgotsa mmagwe, ngwana, kgotsa tsala, fa gae, kwa ntle, mo ketelong kgotsa go tswa kgakala."
+    },
+    "creative-calm": {
+      "label": "Boikhutso jo bo kgutsa",
+      "title": "Boikhutso jo bo Kgutsa",
+      "seo": "Boikhutso jo bo Kgutsa: Boitlhamelo jo bo Kgutsang le Ditiro tsa go Ikhutsa",
+      "description": "Ditiro tse di kgutsang tsa bagolo le batlhokomedi: boitlhamelo jo bo tlhokomelang, go kwala dikgopolo, mmino, dinako tsa dikwamo le mafelelo a letsatsi a a kgutsang. Ke ditiro tsa boitlhamelo, e seng kalafi.",
+      "lede": "Ditsela tse di bonolo tsa go tlhaela ka pene, pampiri kgotsa pina. Tse ke ditiro tsa boitlhamelo, e seng kalafi, mme ga di tlhoke tsebo epe."
     },
     "caregiving": {
-      "label": "Tlhokomelo",
-      "title": "Ditataiso tsa Tlhokomelo",
-      "seo": "Ditataiso tsa Tlhokomelo ya Dementia: Thuso e e Sebediwang ka Letsatsi le Letsatsi",
-      "description": "Ditataiso tse di tlhomologileng le tse di nang le mogopolo ya batlhokomedi ba dementia: go bapala dipapali mmogo, puisano, go gana, go tshwenyega ka dinako tsa mantsiboa, dithaepa, go tlhopha ma-app le tlhokomelo ya bowena.",
-      "lede": "Thuso e e tlhomologileng le e e sebediwang ka dinako tsa letsatsi le letsatsi tsa go tlhokomela motho yo o nnang le dementia, go akaretsa le go itlhokomela."
+      "label": "Versorgung von demenzkranken Menschen",
+      "title": "Für einen Menschen mit Demenz sorgen",
+      "seo": "Für einen Menschen mit Demenz sorgen: Aktivitäten und Hilfe",
+      "description": "Ratgeber für Familien, die einen Menschen mit Demenz betreuen: wie Sie gemeinsam spielen können, was Sie tun, wenn die Person Nein sagt, und wo Sie nach einer Diagnose vertrauenswürdige Hilfe finden.",
+      "lede": "Aktivitäten stehen im Mittelpunkt für Familien, die einen Menschen mit Demenz betreuen, und Hinweise, wohin Sie sich für medizinischen und pflegerischen Rat wenden können."
     },
     "brain-health": {
       "label": "Tlhokomelo ya boko",
@@ -283,7 +396,16 @@
     "tryTogether": "Leka mmogo",
     "relatedGuides": "Ditataiso tse di amanang",
     "related": "Tse di amanang",
-    "startHere": "Simolola fa"
+    "startHere": "Simolola fa",
+    "staleAria": "Übersetzung veraltet",
+    "staleTitle": "Diese Übersetzung ist veraltet",
+    "staleText": "Sie wurde aus einer früheren Fassung der englischen Seite erstellt, die sich seitdem geändert hat. Maßgeblich ist die englische Seite.",
+    "staleHealth": "Sie enthält gesundheitliche Informationen. Prüfen Sie daher die englische Seite und fragen Sie eine Ärztin, einen Arzt oder eine Pflegefachkraft, bevor Sie danach handeln.",
+    "staleLink": "Die aktuelle englische Seite lesen"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Tsebiso ya tshedimosetso ya boitekanelo",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Ntlha e e Kopanwang, e seng Tlhatlhobo ya Go Gopola",
+      "title": "Eine gemeinsame Aktivität, kein Test",
       "seoTitle": "Ka ga Creative Activities: Mokgwa wa Rona",
-      "description": "Gore ke ka ntlha yang dipapali tsa Creative Activities di se na dinako, dipoelo kgotsa dipalo tsa go tswelela, gore ke ka ntlha yang ditshwantsho di tshwara go bonala, le se re se tla bolelang kgotsa se re se sa tla bolelang ka dementia.",
+      "description": "Warum Creative Activities keine Timer, Punkte oder Serien hat, warum Bilder sichtbar bleiben und was wir zur Gesundheit behaupten und was nicht.",
       "crumb": "Mokgwa wa rona",
-      "lede": "Creative Activities e dira ditiro tse di kgutsafetseng, tsa batho ba bagolo tsa ditshwantsho tse motlhokomedi le motho yo o nnang le dementia ba ka di itumelelang mmogo ka gare ga go nna gaufi.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsoren und Partner",
+        "none": "Creative Activities hat keine Sponsoren, keine bezahlten Platzierungen und keine Partner, deren Logos auf der Website erscheinen.",
+        "listed": "Dies sind die Sponsoren und Partner von Creative Activities. Jede Beziehung wird außerdem auf der Seite offengelegt, auf der sie erscheint.",
+        "policy": "Sollte sich das ändern, wird dies auf jeder betroffenen Seite angegeben, keine Aktivität wird jemals einen Sponsor tragen, und die Partnerliste steht auf dieser Seite.",
+        "listHeading": "Partnerliste",
+        "noPartners": "Derzeit gibt es keine Partner."
+      },
+      "lede": "Creative Activities bietet ruhige Aktivitäten für Erwachsene an, die zwei Menschen Seite an Seite genießen können, ob einer den anderen betreut oder beide einfach gemeinsame Zeit verbringen möchten.",
+      "bodyHtml": "<h2>Für wen es gedacht ist</h2><p>Für alle, die jemanden betreuen: einen Elternteil, eine Großmutter oder einen Großvater, ein Kind, eine Partnerin oder einen Partner, eine Freundin oder einen Freund, oder einen Menschen mit Demenz. Familien, ältere Erwachsene und Mitarbeitende in Aktivitätsangeboten können alle dieselben Seiten nutzen.</p><h2>Was wir glauben</h2><p>Der Sinn einer Aktivität liegt im Moment selbst: einem Gespräch, einem Lächeln, der Freude, zwei Bilder zusammenzufügen, oder einfach im gemeinsamen Dasitzen. Es geht nicht darum, jemanden zu messen, zu drängen oder etwas zu beweisen.</p><p>Viele Gehirntraining-Apps sind auf Geschwindigkeit, Punkte, Serien und Stufen ausgelegt. Für einen Menschen, der müde ist, sich nicht wohlfühlt oder mit Demenz lebt, kann sich das wie eine Prüfung anfühlen, die er nicht bestehen kann. Wir haben es genau andersherum gestaltet und halten uns an diese Regeln:</p><ul><li><strong>Nichts, was man verlieren kann.</strong> Keine Uhr, keine Punkte, kein Zugzähler, keine Leben, keine Serien, keine Konfetti und keine Countdowns, auf keinem Bildschirm.</li><li><strong>Wiedererkennen statt Erinnern.</strong> Bilder bleiben standardmäßig sichtbar. Hinweise laden zum Gespräch ein und fragen nie nach Namen oder Erinnerungen ab.</li><li><strong>Groß, schlicht und ruhig.</strong> Große Schrift und Bilder, hoher Kontrast und Bedienelemente, die immer an derselben Stelle bleiben.</li><li><strong>Würde für Erwachsene.</strong> Fotos aus dem wirklichen Leben und schlichte, warme Worte. Keine Cartoons, kein singendes Lob und keine Emoji-Belohnungen.</li><li><strong>Ein einfacher Ausweg.</strong> „Für heute fertig“ ist immer sichtbar. Auf halbem Weg aufzuhören ist ein gutes Ergebnis.</li><li><strong>Standardmäßig privat.</strong> Keine Konten und keine Werbung. Fotos, die Sie auswählen, bleiben auf Ihrem Gerät.</li></ul><h2>Was wir nicht behaupten</h2><p>Unsere Spiele und Aktivitäten dienen dem Vergnügen und der Verbindung. Sie diagnostizieren, testen, messen, behandeln, verlangsamen oder verhindern weder Demenz noch die Alzheimer-Krankheit, und niemand sollte sie aus diesem Grund auswählen. Wenn wir über Gesundheitsforschung schreiben, sagen wir klar, wo die Belege schwach sind, und stellen nie eine Verbindung zu unseren eigenen Aktivitäten her.</p><h2>Wer wir sind</h2><p>Creative Activities ist ein kleines, unabhängiges Team. Wir sind keine Kliniker. Unsere Ratgeber beruhen auf veröffentlichten Empfehlungen von Organisationen wie dem National Institute on Aging und der Alzheimer’s Association, und jeder Ratgeber nennt seine Quellen. Lesen Sie, <a href=\"/editorial-policy/\">wie wir unsere Seiten schreiben und prüfen</a>.</p><h2>Sagen Sie uns, was helfen würde</h2><p>Wir würden gerne hören, was für Sie funktioniert und was nicht, besonders von Menschen mit Demenz, pflegenden Angehörigen und Mitarbeitenden in Aktivitätsangeboten. Schreiben Sie an <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Ka Fa Re Kwalang le Ka Fa Re Tlhatlhobang Matlhakore a Rona",
       "seoTitle": "Melao ya Dikwalo",
-      "description": "Ka fa Creative Activities e batlisisang, kwalang, e fang dikgang tsa yone ka teng le ka fa e ntlafatsang matlhakore a yone a dipapadi tsa dementia le botlhe jwa monagano, le se re sa ke ra se gatisa.",
+      "description": "Wie Creative Activities seine Aktivitäts- und Gesundheitsseiten recherchiert, schreibt, Quellen beschafft und aktualisiert und was wir niemals veröffentlichen werden.",
       "crumb": "Melao ya dikwalo",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Dipotso le Dikarabo",
-      "seoTitle": "Dipapadi le Ditiro tsa Dementia: Dipotso le Dikarabo",
-      "description": "Dikarabo tsa dipotso tse di tlwaelegileng ka dipapadi le ditiro tsa dementia: dipapadi tse di leka, nako ya go bapala, dikakanyo tse di thusang fa botshelo jwa motho bo fetoga, botlhe jwa monagano le sephiri.",
+      "seoTitle": "Fragen und Antworten zu Creative Activities",
+      "description": "Antworten auf häufige Fragen zu den Spielen und Aktivitäten: welche Sie ausprobieren können, wie lange Sie spielen sollten, Ideen für Gruppen und für spätere Krankheitsphasen, Gesundheit und Datenschutz.",
       "crumb": "Dipotso le dikarabo",
       "lede": "Dikarabo tse dikhutshwane, tse di bonolo go tswa mo dipotsong tse balesedi ba di botsang gantsi.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Ka dipapadi",
           "items": [
             {
-              "q": "Ke dipapadi dife tse di siameng go motho yo o nnang le dementia?",
+              "q": "Welche Spiele eignen sich am besten für ältere Erwachsene?",
               "a": "Dipapadi tse di siameng ke tse di tlwaelegileng, tse di bonolo, tse di sa tlhokeng patelelo, mme tse di siameng ke tse motho a di itumelelang gompieno. Go tlhopha ditshwantsho tse di bonalang, go beya, dipuzzle tse di bonolo, go tlatsa mafoko a a tlwaelegileng, go kgaoletsa dipitse le bingo ya ditshwantsho di dirisega sentle ke batho ba le bantsi. Tlogela dinako, dipalo le sepe se se bonalang jaaka teko."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Boitekanelo jwa kelo",
+          "title": "Demenz und Gesundheit",
           "items": [
             {
               "q": "A dipapadi di ka thibela kgotsa go diega dementia?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Mehr Details: <a href=\"/caregiving/how-to-play-together/\">wie Sie gemeinsam spielen</a>, <a href=\"/caregiving/when-they-say-no/\">wenn die Person Nein sagt</a>, <a href=\"/activities/late-stage/\">Aktivitäten für spätere Krankheitsphasen</a> und <a href=\"/dementia-activities/\">Demenz-Aktivitäten zu Hause</a>."
     },
     "handout": {
       "title": "Dipapadi tse di bonolo, tsa mahala, tsa batho ba ba nang le dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Ka Ntlo ya Tlhokomelo, Dilaeborari le Dikopano tsa Thuso",
-      "seoTitle": "Dikaelo tsa dementia tse di sa lefelwe tsa ntlo ya tlhokomelo le dihlopha",
-      "description": "Ka fa dikgaolo tsa tlhokomelo, mananeo a letsatsi a batho ba bagolo, dilaebrari, dikgwebo tsa botsofe le dihlopha tsa thuso di dirisang dipapali tsa rona tse di sa lefelwe tsa dementia, le mafoko a go tsenya rona mo lenaneng la dibaka.",
+      "seoTitle": "Kostenlose Aktivitäten für Pflegeheime, Bibliotheken und Gruppen",
+      "description": "Wie Pflegeheime, Tagesbetreuungen für Erwachsene, Bibliotheken, Fachstellen für Altersfragen und Selbsthilfegruppen unsere kostenlosen Spiele und Aktivitätsratgeber nutzen, dazu ein Text, mit dem Sie uns in eine Ressourcenliste aufnehmen können.",
       "crumb": "Dikgwebo",
       "lede": "Sotlhe se se mo webosaiteng se a dirisiwa ka boyona le batho ba ba dulang kwa ntlong, ba dihlopha le ba ba ba tlhokomelwang, ntle le akhaonto, laesense kgotsa tefo. Tsamaiso e e tlhalosa se se teng gone le ka fa o ka se abelanang ka teng.",
-      "shortText": "{name}: dipapali tse di sa lefelwe tse di boleta ka ditshwantsho le dikaelo tsa mananeo tsa batho ba nang le dementia le ba ba ba tlhokomelang. Ga go ikwadiwe, ga go na diure, ga go na dipoelo.",
-      "longText": "{name} ({domain}) e na le dipapali tse {count} tse di sa lefelwe tse di dirilweng batho ba nang le dementia, go akaretsa go nonofa ditshwantsho tse di bonalang, boitlhamelo bo bonolo, go tlhopha, mafoko a a tlwaelegileng le picture bingo e e nang le dikaate tse di ka gatisiwang. Ga go na akhaonto, kwadiso, diure kgotsa poelo. Webosaiti e na le dikaelo tsa mafoko a a bonolo ka dikgato tsa dementia, tse di tsweletseng go tswa mo National Institute on Aging le Alzheimer's Association.",
+      "shortText": "{name}: kostenlose, sanfte Bildspiele und Aktivitätsratgeber für ältere Erwachsene, Familien und Menschen mit Demenz. Keine Anmeldung, keine Timer, keine Punkte.",
+      "longText": "{name} ({domain} e neela dipapadi tse {count} tsa go dirwa mo inthaneteng tse di sa lefelwe batho ba ba godileng, malapa le batho ba ba nang le dementia. Di akaretsa go tlhopha ditshwantsho tse di tshwanang ka go bontsha ditshwantsho tse di sa ntse di bonala, sepe se se bonolo, go tlhopha dilo, maitlhomo a a tlwaelegileng le bingo ya ditshwantsho e e nang le dikarata tse di ka gatisiwang. Ga go na akhaonto, dikgatiso, nako e e beilweng kgotsa dinontsho. Lefapha le na le dikgaolo tse di bonolo tsa mekgwa ya dihuduho malapeng, go batho ba ba godileng le go badiredi, tse di nang le dithomo tse di kang National Institute on Aging le Alzheimer's Association.",
       "useTitle": "Se dikgwebo di ka se dirisang",
       "gamesItemHtml": "<strong>dipapali tse {count} tsa browser</strong> tse di dirang mo laptop, thebolete kgotsa TV e e golaganeditsweng le komputara. Ga go tsenngwa, ga go akhaonto, ga go kgoeletsiwe. Bona <a href=\"/games/\">dipapali tsotlhe</a>.",
       "printablesLabel": "dikgatiso tse {count}:",
       "printablesAfter": "Dirisa konopo ya Gatisa mo tsebeng nngwe le nngwe.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Mekgwa ya dihuduho:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> e na le dikarata tse di ka gatisiwang le mmoki mo skrineng, mme <a href=\"/together/conversation-games-for-all-ages/\">dipapadi tsa puisano</a> di na le dipotso tse di nang le dikhetho tsa dikarabo le ditlhagiso tsa go bua.</li><li><strong>Dikgaolo tsa mekgwa</strong> tsa badiredi le malapa, tse di kwadilweng ka puo e e bonolo le dithomo. Simolola ka <a href=\"/activities/ideas/\">dikakanyo tse 101 tsa mekgwa</a> kgotsa <a href=\"/crafts/craft-group-sessions/\">mekgwa ya dihuduho mo malapeng a tlhokomelo</a>.</li>",
       "restHtml": "<h2>Dihlopha di di dirisa jang</h2><ul><li><strong>Dintlo tsa tlhokomelo le tlhokomelo ya dementia:</strong> picture bingo kgotsa go feletsa mafoko mo TV ya phaphatlhana, le motho mongwe a tobetsa ka bothoko jwa bone.</li><li><strong>Mananeo a letsatsi a batho ba bagolo:</strong> seteishene ya thebolete e na le Picture pairs e e beilweng go nna ditlhaka tse nne, bakeng sa dipuisano tse dikhutshwane tsa mongwe le mongwe.</li><li><strong>Dilaebrari tsa setšhaba:</strong> di-word search tse di gatisitsweng le dikaate tsa puisano mo dikitong tsa gopolo, le webosaiti e kaelwa mo dithebolete tsa laebrari.</li><li><strong>Dihlopha tsa thuso ba ba tlhokomelang le dikopano tsa gopolo:</strong> <a href=\"/handout/\">pampiri e le nngwe e e ka gatisiwang</a> ya malapa go isa gae.</li><li><strong>Dipetlele le ba ba rulaganyang go tswa mo petleleng:</strong> pampiri mo dikitong tsa ba ba tlhokomelang, go thusa ka sepe se se bolokang kagiso fa gae kgotsa mo thoko ga bolwetse jwa motho.</li></ul><h2>Se re sa se dirang</h2><p>Dipapali di tsa boitumelo le go nna le nako mmogo. Ga di bone, ga di tlhatlhobe, ga di lekanye, ga di alafe kgotsa ga di dire gore dementia e dikadiege, mme re kopa dikgwebo gore di se ke tsa di tlhalosa ka tsela eo. Ga go na dikwadiso, mme dipapali ga di kope maina, tshedimosetso ya bophelo kgotsa go tsenya ditshwantsho. Webosaiti e dirisa Google Analytics go bala ditseno; <a href=\"/privacy/\">tsebeletso ya poifo ya rona</a> e tlhalosa se se kokoanyediwang ka yone. Ditshwantsho tse di dirisiwang mo <a href=\"/games/photo-pairs/\">Photo pairs</a> di nna mo browser.</p><h2>Re tsenye mo lenaneng la gago la dibaka</h2><p>Fa o na le lenaneng la dibaka tsa ba ba tlhokomelang, o amogelesegile go golagana le <a href=\"/\">{domain}</a>. O ka kopolola tlhalosetso nngwe kgotsa e nngwe.</p>",
       "shortTitle": "Tlhalosetso e khutshwane",
       "longTitle": "Tlhalosetso e telele",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Matlhakore a a siameng a o ka a golagantsang ka tlhamalalo: <a href=\"/games/\">dipapadi tse di sa lefelwe</a>, <a href=\"/games/\">ditshwantsho tse di ka gatisiwang tse di sa lefelwe</a>, <a href=\"/dementia-activities/\">mekgwa ya batho ba ba nang le dementia mo gae</a> le <a href=\"/caregiving/how-to-play-together/\">mokgwa wa go dira dipapadi mmogo</a>.</p><h2>Dipotso kgotsa diphosho</h2><p>Fa go na le sepe mo tshimong se se phoso kgotsa se se sa utlwalang, kgotsa fa ditlhokego tsa mothei kgotsa motho yo o tlhokomelwang di sa fitlhelelwe mo se se mo go one, re itse ka <a href=\"mailto:{email}\">{email}</a>. Tsweetswee lo se ka lwa romela tshedimosetso ya botho kgotsa ya boitekanelo ya bathei kgotsa ba ba tlhokomelwang.</p>"
     },
     "app": {
       "title": "Lenaneo la Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Dipapadi tsa mahala tsa Dementia le Alzheimer’s mo inthaneteng",
-    "description": "Dipapadi tsa mahala mo inthaneteng tsa baagolo ba nang le dementia kgotsa Alzheimer’s: go tsenya difoto mmogo, dipuzzle tse di bonolo, go tlhopha dilo, dikgang, go tlaola ka mebala, bingo. Ga go tlhokege go ikwadisa, nako kgotsa dipontsho.",
+    "title": "Dipapadi tsa Mahala tsa go Dirwa Mmogo Mo Inthaneteng",
+    "description": "Dipapadi tsa mahala mo inthaneteng tsa batho ba ba godileng, malapa le batho ba ba nang le dementia: go tlhopha ditshwantsho, dipuzzle tse di bonolo, go tlhopha dilo, maitlhomo, go kgatla le bingo. Ga go tlhokege go ikwadisa, nako kgotsa dinontsho.",
     "crumb": "Dipapadi",
-    "h1": "Dipapadi tse di Bonolo tsa Batho ba nang le Dementia",
+    "h1": "Dipapadi tse di Bonolo tsa go Dirwa Mmogo",
     "lede": "Dipapadi tse {count} tsa mahala tse lo ka di bapalang mmogo mo browser. Difoto tse dikgolo, mafoko a a bonolo, mme ga go na sepe se se palelwang: ga go na nako, dipontsho kgotsa go ikwadisa.",
-    "listName": "Dipapadi tse di bonolo tsa batho ba nang le dementia",
+    "listName": "Dipapadi tse di bonolo tsa go dirwa mmogo",
     "byStageTitle": "Go tlhopha papadi ka mokgatlho wa bolwetsi",
     "byStageLede": "Dikgatlho ke tataiso e e kwalo fela. Latela se motho a se ratang le se se siameng gompieno.",
     "stageCol": "Kgatlho",
     "gamesCol": "Dipapadi tse gantsi di siametseng",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Dikakanyo tse di kwa ntle ga skrine: <a href=\"/activities/ideas/\">dikakanyo tse 101 tsa mekgwa</a>, <a href=\"/dementia-activities/\">mekgwa ya batho ba ba nang le dementia mo gae</a> le <a href=\"/crafts/\">ditiro tsa diatla</a>.",
     "faq": [
       {
         "q": "Re tshwanetse go simolola ka papadi efe?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "A ke dipapadi tsa gakologelo tsa baagolo?",
-        "a": "Ke dipapadi tsa go tshwana le tsa difoto tseo baagolo ba ka di takang, mme di agilwe go se leke gakologelo: mo Dipaere tsa difoto difoto di nna di bonala fa o sa tlhophe ka mokgwa o mongwe. Tataiso ya rona ya dipapadi tsa gakologelo ya baagolo ba nang le dementia e tlhalosa gore papadi nngwe le nngwe ya gakologelo e ka dirwa jang ka bonolo."
+        "a": "Ke dipapadi tsa go tlhopha le tsa ditshwantsho tseo motho yo mongwe le yo mongwe yo o godileng a ka di itumelelang, mme di rebotswe gore di seka tekolo ya gakologelo: mo Picture pairs ditshwantsho di tsaya go nna di bonala ka fa godimo fa o sa tlhophe ka tsela e e farologanyeng. Papadi epe ya gakologelo e ka dirwa e bonolo ka go tlosa nako le dinontsho."
       },
       {
         "q": "A go na le dipapadi tsa dihlopha mo ntlong ya tlhokomelo?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "A go na app ya dibapadi tsa dementia?",
+        "q": "A go na le app ya batho ba ba godileng le malapa?",
         "a": "Ee. Creative Activities (e e tlhalositsweng e le “{storeName}”) ke ya mahala mo App Store le Google Play. E na le papadi e e bonolo ya go tsenya difoto ka dipopego tse dikgolo, dipapadi tse di nang le difoto tsa malapa tse o di tlhophang, le dipolokelo tsa difoto tse di dirang ntle le inthanete."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Go ka tlhatlosiwa",
     "howTo": "Tsela ya go bapala {name}",
     "tips": "Dikeletso tsa go bapala mmogo",
-    "newToPlayingHtml": "A o sa tsene go bapala le motho yo o nang le dementia? Bala <a href=\"/caregiving/how-to-play-together/\">tsela ya go bapala dipapali mmogo</a>, go akaretsa se o ka se dirang fa a sa sa kgatlhegele papali.",
+    "newToPlayingHtml": "Ga lo ise lo dire papadi le motho yo o godileng kgotsa yo o nang le dementia? Balang <a href=\"/caregiving/how-to-play-together/\">mokgwa wa go dira dipapadi mmogo</a>, go akaretsa se lo tshwanetseng go se dira fa ba latlhegelwa ke kgatlhego.",
     "moreAria": "Go bona tse dingwe",
     "helpfulGuides": "Ditaelo tse di thusang",
     "appTitle": "Bapala mo lenaneong",
@@ -536,6 +666,35 @@
     "goodToKnow": "Se se botoka go se itse",
     "goodToKnowText": "Papali eno ke ya go itumela le go nna le nako mmogo. Ga e tlhatlhobe, e lekanye kgotsa e alafe sepe.",
     "moreGames": "Dipapali tse dingwe tse di bonolo",
-    "crumb": "Dipapali"
+    "crumb": "Dipapali",
+    "print": {
+      "heading": "Papadi mo pampiring",
+      "sameRules": "Mokgwa wa pampiri o na le melao e e tshwanang le papadi e e mo skrineng:",
+      "button": "Gatisa mokgwa wa pampiri",
+      "pageNote": "Tsebe e le nngwe ya A4 kgotsa US Letter, e siame mo go ntsho le go tshweu. Phatlalatso {date}.",
+      "islandNote": "E gatisa se se mo skrineng jaanong. Phatlalatso {date}.",
+      "sheetTitle": "{name}: mokgwa wa pampiri",
+      "point": "Mo pampiring, supang setshwantsho e seng go se tobetsa, kgotsa se tikologe ka pene. Mola o mongwe le o mongwe ke seto se sesha.",
+      "pointTarget": "Mo pampiring, setshwantsho se se lebelelwang se mo lebokoseng ka fa tshimologong ya mola o mongwe le o mongwe. Supang setshwantsho e seng go se tobetsa, kgotsa se tikologe ka pene.",
+      "halves": "Setshwantsho se seng le se seng se gapiwa bogare. Dirang tlhaka go tswa mo karolong nngwe e e ka letsakeng go ya go karolo e e tshwanetseng mo letsakeng le le labo, kgotsa supang ka monwe. Ga go tlhokege go gaola sepe.",
+      "grid": "Sekwere se seng le se seng se na le nomoro. Batlang nomoro eo mo tlhalosong, mme tlhalang sekwere ka pensele ya ngwao eo. Ngwao nngwe epe e o e batlang le yone e siame fela. Ga go tlhokege go gaola sepe.",
+      "colors": "Mola o mongwe le o mongwe o bidiwa ka ngwao. Supang setshwantsho se se nang le ngwao eo, kgotsa se tikologe ka pene. Mola o mongwe le o mongwe ke seto se sesha.",
+      "dice": "Mola o mongwe le o mongwe ke seto sa dikubu. Tlhophang mola, kgotsa gaolang ditshwantsho o di tlhope go tswa mo lotlhakeng, mme o bolelele pale o dirisa tsone ka tatelano epe. Mongwe le mongwe a ka tlola.",
+      "words": "Gaolang mantswe, kgotsa dirang tlhaka go tswa mo lefokong go ya kwa setshwantsheng sa one. Balang mantswe ka go godisa fa lo tsamaya.",
+      "cards": "Gaolang dikarata go latela mela e e thibegang. Di beang fa godimo mo tafoleng, mme lo batle dipaere.",
+      "chain": "Mo pampiring, balang ditshwantsho go tswa kafa letshoenyana go ya kafa go le letshehere, e le nngwe ka morago ga e nngwe. Motho mongwe le mongwe a bue poloko e le nngwe ka ditshwantsho tse di fitlhetsweng, mme a supe setshwantsho se se latelang. Mongwe le mongwe a ka tlola.",
+      "sort": "Gaolang ditshwantsho go latela mela e e thibegang, mme tsenyang setshwantsho se sengwe le se sengwe mo lebokoseng le se tshwanetseng go nna teng.",
+      "puzzle": "Gaolang setshwantsho se segolo go latela mela e e thibegang go nna dikarolo tse nne, mme lo di tsose. Fetolanyang dikarolo tse pedi ka nako go fitlha setshwantsho se le feletseng. Setshwantsho se sennye ke tataiso.",
+      "cutSafety": "Mothusi a ka gaola pele lo simolola. Morago ga moo tlosang dikhutshwana.",
+      "version": "Phatlalatso {date} · {url}",
+      "reasons": {
+        "photos": "Ga go na mokgwa wa pampiri. Papadi eno e dirisa difoto tsa gago, tse di nna mo browser ya gago mme ga di tsenngwe kwa godimo, ka jalo lefapha ga le kgone go di gatisa. Go dira papadi mo pampiring, gatisang dikopi di le pedi tsa difoto tse di mmalwa tse lo di ratang mo gae, mme lo di tlhophe mo tafoleng.",
+        "paced": "Ga go na mokgwa wa pampiri. Sediko se beela sekgwa se se diregang le se se sa fetoge mo skrineng, mme tsebe e e gatisitsweng e ke ke ya dira seo, ka jalo e tla nna tiro e nngwe. Go tshwaela mmogo ntle le skrine ke tlhopho e e tsamaisanang ka nako epe.",
+        "turns": "Ga go na mokgwa wa pampiri wa papadi eno. Go batla dipaere mo tafoleng, gatisang dikarata tsa ditshwantsho tse di tswang mo Picture pairs, mme lo dirise mekgwa e e fetolanang go di fetolela.",
+        "screen": "Ce ga go na le mokwalo wa pampiri. Ke setshwantsho sa go lebelelwa mmogo mo skrineng; setshwantsho se se ratwang kgotsa postekhate mo tafoleng se dira ntlha e le nngwe.",
+        "wash": "Ga go na mokwalo wa pampiri. Pentshe ya metsi mo pampiring ke tlhaloso e e tshwanang: borashe e e metsi le mmala o le mongwe ka nako.",
+        "sayings": "Ga go na mokwalo wa pampiri ga jaanong. Mo pampiring dikgwetlho tsotlhe di ne di tla bonala ka nako e le nngwe, mme kgato e e boleng jo bo bonolo ya \"Bontsha bokgwetlho\" e ne e tla latlhega. Bala diane mo skrineng mmogo, kgotsa abelanang tse dintsi tse lo di itseng ka tsone."
+      }
+    }
   }
 }

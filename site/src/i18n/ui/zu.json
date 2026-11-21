@@ -7,16 +7,22 @@
     "homeLabel": "Ikhaya le-Creative Activities",
     "mainNav": "Okuyinhloko",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: izithombe ezinkulu nezinobungane zenkomishi yetiye, imbali yelanga nenja",
+    "defaultImageAlt": "Creative Activities: manyayo amakhulu, ahlekisa ayisibonelo zezinto zansuku zonke ezenziwa futhi ezisetshenziswa",
     "languages": "Ulimi",
     "englishOnly": "(isiNgisi)",
     "machineTranslated": "Leli khasi lihunyushwe ngokuzenzakalelayo futhi alikabuyekezwa umuntu okhuluma lolu limi ngokwemvelo.",
     "readOriginal": "Funda okwangempela ngesiNgisi",
     "nav": {
+      "find": "Find an activity",
       "games": "Imidlalo",
       "activities": "Imisebenzi",
       "caregiving": "Ukunakekela",
-      "brainHealth": "Impilo yobuchopho"
+      "brainHealth": "Impilo yobuchopho",
+      "crafts": "Izandla nobuciko",
+      "kids": "Izingane",
+      "together": "Ndawonye",
+      "creativeCalm": "Ukuthula ngobuciko",
+      "search": "Sesha"
     },
     "faqTitle": "Imibuzo nezimpendulo",
     "breadcrumb": "Umzila wamakhasi",
@@ -27,7 +33,32 @@
       "label": "Usayizi wombhalo",
       "smaller": "Umbhalo ojwayelekile",
       "larger": "Umbhalo omkhulu",
-      "contrast": "Ukuphambanisa okuphezulu"
+      "contrast": "Ukuphambanisa okuphezulu",
+      "colors": "Imibala",
+      "light": "Okukhanyayo",
+      "dark": "Okumnyama",
+      "device": "Njengale divayisi",
+      "lineLength": "Ubude bemigqa",
+      "standardLines": "Okujwayelekile",
+      "shorterLines": "Imigqa emifushane",
+      "spacing": "Ukuhlukaniswa",
+      "standardSpacing": "Okujwayelekile",
+      "moreSpace": "Isikhala esengeziwe"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Imibono eyi-101 yemisebenzi",
     "lateStage": "Imisebenzi yesigaba sokugcina",
     "printable": "Imisebenzi ephrintekayo",
-    "allActivities": "Yonke imisebenzi",
+    "allActivities": "Zonke izinhlelo zemisebenzi",
     "forCaregivers": "Kubanakekeli",
     "playTogether": "Ukudlala ndawonye",
     "selfCare": "Ukuzinakekela nani",
@@ -54,24 +85,34 @@
     "app": "I-app ye-Creative Activities",
     "appHelp": "Usizo lwe-app",
     "support": "Usizo",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Okusemthethweni",
     "sitePrivacy": "Ubumfihlo bewebhusayithi",
     "appPrivacy": "Inqubomgomo yobumfihlo ye-app",
     "privacyChoices": "Ukukhetha kobumfihlo",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Imigomo nelayisense ye-app",
     "safety": "Ukuphepha nokusetshenziswa okuhlosiwe",
     "accessibility": "Ukufinyeleleka",
     "healthNotice": "Isaziso solwazi lwezempilo",
     "allLegal": "Lonke ulwazi lwezomthetho",
     "note": "I-Creative Activities inikeza imisebenzi elula yokwabelana yokujabulela. Akuyona iseluleko sezokwelapha, ukuhlolwa noma ukwelashwa, futhi ayihloli isifo, ayilinganisi muntu noma imnike amaphuzu. Ngemibuzo yezempilo, khulumani nodokotela. Esimeni esiphuthumayo, shayelani inombolo yezimo eziphuthumayo yendawo yakini.",
-    "publisher": "Ishicilelwe yi-Cloudjet Solutions Pte. Ltd."
+    "publisher": "Ishicilelwe yi-Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Izandla nobuciko zabo bonke abantu",
+    "kids": "Imisebenzi yezingane",
+    "together": "Imisebenzi yokwenza ndawonye",
+    "creativeCalm": "Ukuthula ngobuciko",
+    "dementiaActivities": "Imisebenzi yabantu abanesifo sokungakhumbuli kahle"
   },
   "home": {
-    "title": "Imidlalo Nemisebenzi ye-Dementia | Creative Activities",
-    "description": "Imidlalo yezithombe ethambile yamahhala nemibono yemisebenzi yabantu abaphila ne-dementia noma i-Alzheimer's nabanakekeli babo. Akukho sibali sikhathi.",
+    "title": "Imisebenzi Yobuciko Yanoma ngubani Onakekela Omunye Umuntu",
+    "description": "Imisebenzi yobuciko mahhala yanoma ngubani onakekela omunye umuntu: izandla nobuciko, izinto zezingane, imisebenzi yokwenza ndawonye nemibono yobuciko ethulisayo.",
     "eyebrow": "Mahhala · Azikho izikhangiso · Akukho ukubhalisa · Akukho sibali sikhathi namaphuzu",
-    "h1": "Imidlalo Nemisebenzi Ethambile Yabantu Abaphila ne-Dementia",
-    "lede": "Imidlalo yezithombe elula, izithombe ezijwayelekile, nemisebenzi yokujabulela ndawonye, ngesivinini senu.",
+    "h1": "Yenzani okuthile ndawonye",
+    "lede": "Thola umsebenzi ofanele umuntu, isikhathi nezinto onazo. Izandla nobuciko obulula, ubuciko bezingane, izinto ongazenza ndawonye nemibono yobuciko ethulisayo, kanye nenguqulo elula nekhadi lokuphrinta. Yima noma nini othanda ukuyenza.",
     "playGame": "Dlalani Umdlalo",
     "findIdeas": "Thola imibono yemisebenzi",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Imibono eyi-101 yemisebenzi",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Isigaba sokuqala",
         "text": "Qhubekani nokwenza lokho abakuthandayo, ngezinguquko ezincane: izinto abazithandayo, uhambo, imidlalo yamagama nokuhlela ndawonye.",
         "label": "Imibono yesigaba sokuqala"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Isigaba esiphakathi",
         "text": "Imisebenzi elula nejwayelekile eyahlukaniswe ngezinyathelo: ukugoqa, ukuhlunga, umculo, imidlalo yezithombe nokuhamba kafushane.",
         "label": "Imibono yesigaba esiphakathi"
@@ -124,10 +165,10 @@
         "label": "Imibono yesigaba sokugcina"
       }
     ],
-    "specificHtml": "Nifuna okuthile okuthile? Zamani <a href=\"/activities/alzheimers/\">imisebenzi nemidlalo ye-Alzheimer's</a>, <a href=\"/activities/memory-games/\">imidlalo ethambile yenkumbulo</a>, <a href=\"/activities/trivia/\">imibuzo elula</a> noma <a href=\"/activities/puzzles/\">amaphazili</a>.",
+    "specificHtml": "Ufuna okuthile okuthile? Zama <a href=\"/dementia-activities/\">imisebenzi nemidlalo yeAlzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">amapuzzle nemidlalo yetafula</a>, <a href=\"/together/conversation-games-for-all-ages/\">imidlalo yokuxoxa</a> noma <a href=\"/together/puzzles-and-table-games/\">amapuzzle</a>.",
     "approachEyebrow": "Indlela esisebenza ngayo",
-    "approachTitle": "Umsebenzi wokwabelana, hhayi ukuhlolwa kwenkumbulo",
-    "approachLede": "Imidlalo eminingi “yobuchopho” yakhelwe isivinini, amaphuzu nokunqoba okulandelanayo. Kumuntu ophila ne-dementia lokho kungazwakala njengokuhlolwa. Thina sakhe okuphambene nalokho.",
+    "approachTitle": "Umsebenzi wokwabelana, hhayi ukuhlolwa",
+    "approachLede": "Imidlalo eminingi ye-“brain games” yakhelwe ejubane, emaphuzu nezinqwaba zokuphumelela. Kumuntu okhathele, egula noma ephila nesifo sokungakhumbuli kahle, lokho kungazizwakala njengokuhlolwa. Thina senze okuphambene nalokho.",
     "approachLink": "Kungani senza ngale ndlela",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Izizathu ezivamile zokunqaba, nezindlela ezithambile zokuzama futhi kamuva."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Ukuhlela ithebhulethi",
-        "text": "Umbhalo omkhulu, ukuphazamiseka okuncane nesikrini sasekhaya esisodwa esilula."
+        "href": "/activities/group-art-activities/",
+        "title": "Imisebenzi yobuciko yeqembu",
+        "text": "Amaphrojekthi okwabelana etafuleni elinabantu abaningana, nomsebenzi womuntu ngamunye."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Imisebenzi ephrintekayo yamahhala",
-        "text": "Ukusesha amagama ngokuphrinta okukhulu, amakhasi okufaka imibala, i-bingo namakhadi engxoxo."
+        "href": "/activities/ideas/",
+        "title": "Imibono yemisebenzi engu-101",
+        "text": "Imibono elula, ehlelwe ngokuya ngalokho onakho nokuthi unamandla amaningi kangakanani."
       }
     ],
     "researchTitle": "Impilo yobuchopho: lokho ucwaningo oluthi ngempela",
@@ -185,16 +226,16 @@
     "aboutApp": "Mayelana ne-app",
     "faq": [
       {
-        "q": "Yiyiphi imidlalo emihle yabantu abaphila ne-dementia?",
-        "a": "Imidlalo emihle ilula, ijwayelekile futhi ayinakucindezela: izithombe ezinkulu zokufanisa, ukuhlunga, amaphazili alula, ukuqeda izisho ezaziwayo, ukuthinta imibala, i-bingo yezithombe namakhadi engxoxo. Okukhethwayo okungcono yilokho umuntu akujabulelayo namuhla. Gwemani izibali sikhathi, amaphuzu nanoma yini ezwakala njengokuhlolwa."
+        "q": "Yimaphi amadlalo amahle kubantu abadala?",
+        "a": "Amadlalo amahle ayalula, ajwayelekile futhi angenakho ingcindezi: izithombe ezinkulu zokuhlanganisa, ukuhlela, amapuzzle alula, ukuqeda izreshi ezaziwayo, ukudweba imibala, i-bingo yezithombe namakhadi okuxoxisana. Afanele abantu abaningi abadala, kubandakanya nabantu abaphila nesifo sokungakhumbuli kahle. Okukhethwa okuhle kakhulu ukuthi umuntu uyakujabulela namhlanje. Gwema izikhathi, amaphuzu nanoma yini ezizwakala njengokuhlolwa."
       },
       {
-        "q": "Ingabe le midlalo ye-dementia ayinamali?",
+        "q": "Ingabe lawa madlalo mahhala?",
         "a": "Yebo. Yonke imidlalo nokuphrintekayo ku-Creative Activities kungamahhala, ngaphandle kwe-akhawunti, ukubhalisa noma ukulanda. Imidlalo isebenza ku-browser efonini, kuthebhulethi noma ekhompyutheni."
       },
       {
         "q": "Ingabe imidlalo “yobuchopho” ivimbela i-dementia?",
-        "a": "Akukho mdlalo oboniswe ukuthi uvimbela i-dementia, futhi i-Creative Activities ayithi iyelapha noma ivimbe lutho. Imidlalo yethu iyokujabulela nokuba ndawonye. Isigaba sethu sempilo yobuchopho sichaza lokho ucwaningo olukubonisayo nolungakubonisi."
+        "a": "Akukho dlalo olukhonjisiwe ukuthi luvimbela isifo sokungakhumbuli kahle, futhi i-Creative Activities ayithi ilapha ukwelapha noma ukuvimbela noma yini. Amadlalo ethu ahloselwe injabulo nesikhathi esihlanganyelwe, futhi ayikho ikhasi lomsebenzi elenza isimangalo sezempilo."
       },
       {
         "q": "Ingabe le midlalo ifanele umuntu one-Alzheimer's?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Ngubani owenza i-Creative Activities?",
-        "a": "I-Creative Activities yithimba elincane elenza imisebenzi yezithombe ethule nefanele abadala yemindeni nabanakekeli, kuwebhu nanjenge-app yamahhala. Asizona odokotela, futhi akukho lutho lapha oluyiseluleko sezokwelapha."
+        "a": "I-Creative Activities iyithimba elincane elenza imisebenzi yobuciko ethulisayo nebahlakaniphile kubantu abadala, ya noma ngubani onakekela omunye umuntu, kuweyibhu nakuhlelo lwe-app mahhala. Asiyona odokotela, futhi lutho lolu lapha yiseluleko sezempilo."
+      }
+    ],
+    "groupsEyebrow": "Thola indlela yakho",
+    "groupsTitle": "Izinhlobo ezine zomsebenzi wobuciko",
+    "groupsLede": "Qala ngeqembu elihambisana nabantu obahambisana nabo nalokho onakho. Ikhasi ngalinye linenguqulo elula namanothi okuphepha.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Izandla nobuciko",
+        "text": "Amaphrojekthi ephepha, umbala, okuphinde kusetshenziswe nokwezikhathi zonyaka, kunenguqulo elula kulowo nalowo.",
+        "label": "Bheka izandla nobuciko"
+      },
+      {
+        "href": "/kids/",
+        "title": "Izingane",
+        "text": "Ubuciko nokudlala kwezingane, nomuntu omdala eduze namanothi acacile okuphepha.",
+        "label": "Bheka imisebenzi yezingane"
+      },
+      {
+        "href": "/together/",
+        "title": "Ndawonye",
+        "text": "Ingxoxo, amapuzzle, isikhathi ngaphandle nezindlela zokuhlala useduze ezizukulwaneni ezahlukene.",
+        "label": "Bheka okokwenza ndawonye"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Ukuthula ngobuciko",
+        "text": "Izikhathi ezihamba kancane, ezithulile zobuciko ngepensela, ikhasi noma iculo. Akusona ukwelashwa.",
+        "label": "Bheka ukuthula ngobuciko"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Iyaphrintwa",
     "play": "Dlalani {name} →",
     "readGuide": "Funda umhlahlandlela"
+  },
+  "listen": {
+    "listenSteps": "Lalela izinyathelo",
+    "pause": "Misa okwesikhashana",
+    "resume": "Qhubeka",
+    "stop": "Yima",
+    "speed": "Isivinini",
+    "normal": "Okujwayelekile",
+    "slower": "Kancane",
+    "reading": "Ifunda izinyathelo ngokuzwakalayo.",
+    "paused": "Imisiwe okwesikhashana. Cindezela Qhubeka ukuze uqhubeke.",
+    "note": "Isebenzisa izwi lwedivayisi yakho. Ezinye izidivayisi zithumela umbhalo kumkhiqizi wazo ukuze uwufundele ngezwi.",
+    "listen": "Lalela",
+    "stepLabel": "Lalela isinyathelo {n}",
+    "stopStep": "Yima isinyathelo {n}"
   },
   "playCta": {
     "title": "Nikulungele umdlalo othambile?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Imisebenzi",
-      "title": "Imisebenzi Yabantu Abaphila ne-Dementia",
-      "seo": "Imisebenzi Yabantu Abaphila ne-Dementia: Imibono Ngesigaba",
-      "description": "Imibono yemisebenzi yabantu abaphila ne-dementia kuso sonke isigaba: umculo, ukukhumbula, imisebenzi yansuku zonke, ubuciko nokuphrintekayo kwamahhala.",
-      "lede": "Umsebenzi onenjongo yilokho okuletha induduzo, injongo noma isikhathi sokuxhumana. Qalani ngalokho umuntu ebelokhu ekujabulela, bese nikuguqulela kwanamuhla."
+      "label": "Izinhlelo zemisebenzi",
+      "title": "Izinhlelo Zemisebenzi",
+      "seo": "Izinhlelo Zemisebenzi: Imibono, Izinto Zobuciko nezindlela Zokuqala",
+      "description": "Izinhlelo ezicacile zemisebenzi yobuciko ongayenza nomuntu: imibono elula, izinto zobuciko ezinengqondo ngemali, ubuciko beqembu, izinhlamvu, izikhumbuzo nencazelo yobuciko bokwelapha.",
+      "lede": "Izinhlelo ezimfushane nezisebenzayo zokukhetha nokuqala umsebenzi nomuntu, noma ngabe unjani ngeminyaka nangamandla."
+    },
+    "crafts": {
+      "label": "Izandla nobuciko",
+      "title": "Izandla Nobuciko Zabo Bonke Abantu",
+      "seo": "Izandla Nobuciko Obulula Zabo Bonke Abantu, Nezinguqulo Ezilula",
+      "description": "Izandla nobuciko obulula kubantu abadala, izingane nemindeni: ephepheni, ukudweba imibala, okuphinde kusetshenziswe nokwezikhathi zonyaka, nezinguqulo ezilula zokubamba nezokuhlala phansi, ngaphandle kwekhono elikhethekile.",
+      "lede": "Izandla nobuciko obuqala ngalokho ekhaya eliningi eliseke linakho, ngalunye nenguqulo elula, ukuze noma ngubani akwazi ukwenza okuthile."
+    },
+    "kids": {
+      "label": "Izingane",
+      "title": "Imisebenzi Yobuciko Yezingane",
+      "seo": "Imisebenzi Yobuciko Yezingane: Ubuciko, Imizwa nokuthula",
+      "description": "Imisebenzi yobuciko yezingane: ubuciko bezingane ezincane, ubuciko benqubo, udlalo lwemizwa, izandla nobuciko zesikhathi semvula nemibono yokuzwela, nezinguqulo zezidingo zemizwa, namanothi okuphepha.",
+      "lede": "Imibono yobuciko nokudlala yezingane ezineminyaka nezidingo ezahlukene, namanothi acacile okuphepha nomuntu omdala eduze."
+    },
+    "together": {
+      "label": "Ndawonye",
+      "title": "Imisebenzi Yokwenza Ndawonye",
+      "seo": "Imisebenzi Yokwenza Ndawonye, Kubo Bonke Izizukulwane",
+      "description": "Imisebenzi yezizukulwane ezimbili noma ngaphezulu: imidlalo yokuxoxa, amapuzzle, isikhathi ngaphandle, izandla nobuciko bogogo nabazukulu, nezindlela zokuhlala useduze uma uhlukene.",
+      "lede": "Imibono yokwabelana ngesikhathi nomzali, ogogo, umntwana noma umngane, ekhaya, ngaphandle, ekuvakasheni noma uhlukene."
+    },
+    "creative-calm": {
+      "label": "Ukuthula ngobuciko",
+      "title": "Ukuthula Ngobuciko",
+      "seo": "Ukuthula Ngobuciko: Ubuciko Obududuzayo Nemisebenzi Yokuphumula",
+      "description": "Imisebenzi yobuciko ethulisayo yabantu abadala nabakhathalayo: ubuciko obunengqondo, ukubhala idiary, umculo, izikhathi zemizwa nasemini ethulile. Umsebenzi wobuciko, hhayi ukwelashwa.",
+      "lede": "Izindlela ezinobumnene zokuhamba kancane ngepensela, ikhasi noma iculo. Lezi yimisebenzi yobuciko, hhayi ukwelashwa, futhi azidingi kwazi okuthile okukhethekile."
     },
     "caregiving": {
-      "label": "Ukunakekela",
-      "title": "Imihlahlandlela Yokunakekela",
-      "seo": "Imihlahlandlela Yokunakekela i-Dementia: Usizo Olusebenzayo",
-      "description": "Imihlahlandlela esebenzayo yabanakekeli be-dementia: ukudlala ndawonye, ukuxhumana, ukunqaba, ukungaphumuli ntambama, amathebhulethi nokuzinakekela.",
-      "lede": "Usizo olulula nolusebenzayo lwezikhathi zansuku zonke zokunakekela umuntu ophila ne-dementia, kuhlanganise nokuzinakekela nani."
+      "label": "Ukunakekelwa kwesihlobo",
+      "title": "Ukunakekela Umuntu Onesifo Sokukhohlwa",
+      "seo": "Ukunakekela Umuntu Onesifo Sokukhohlwa: Imisebenzi Nosizo",
+      "description": "Izikhokhelo zemindeni enakekela umuntu onesifo sokukhohlwa: indlela yokudlala ndawonye, okufanele kwenziwe uma esho ukuthi cha, nokuthi ungathola kuphi usizo oluthembekile emva kokuthola isifo.",
+      "lede": "Usizo olugxile kumsebenzi emindenini enakekela umuntu ophila nesifo sokukhohlwa, nendawo okufanele uyofuna ulwazi lwezokwelapha nolokunakekela."
     },
     "brain-health": {
       "label": "Impilo yobuchopho",
@@ -283,7 +396,16 @@
     "tryTogether": "Zamani ndawonye",
     "relatedGuides": "Imihlahlandlela ehlobene",
     "related": "Okuhlobene",
-    "startHere": "Qalani lapha"
+    "startHere": "Qalani lapha",
+    "staleAria": "Ukuhumusha kudlule isikhathi",
+    "staleTitle": "Lokhu kuhumusha sekudlulile isikhathi",
+    "staleText": "Kwenziwa kusuka enguqulweni yangaphambili yekhasi lesiNgisi, elisesha lishintshile kusukela lapho. Ikhasi lesiNgisi yilo elisemqoka manje.",
+    "staleHealth": "Linikeza ulwazi lwezempilo, ngakho hlola ikhasi lesiNgisi bese ukhuluma nodokotela noma unesi ngaphambi kokusebenzisa lolu lwazi.",
+    "staleLink": "Funda ikhasi lesiNgisi elisesha"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Isaziso solwazi lwezempilo",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Umsebenzi Wokwabelana, Hhayi Ukuhlolwa Kwenkumbulo",
+      "title": "Umsebenzi Wokuhlanganyela, Hhayi Ukuhlolwa",
       "seoTitle": "Mayelana ne-Creative Activities: Indlela Esisebenza Ngayo",
-      "description": "Kungani imidlalo ye-Creative Activities ingenazibali sikhathi noma maphuzu, nokuthi sizothi yini nokuthi ngeke sithi yini mayelana ne-dementia.",
+      "description": "Ngani iCreative Activities ingenayo izikhathi, amaphuzu noma izinhlelo zokuqhubeka, ukuthi izithombe zihlala zibonakala ngani, nokuthi yini esizoyisho nokuthi yini esingeke siyisho ngezempilo.",
       "crumb": "Indlela esisebenza ngayo",
-      "lede": "I-Creative Activities yenza imisebenzi yezithombe ethule, efanele abadala, umnakekeli nomuntu ophila ne-dementia abangayijabulela behleli eceleni komunye nomunye.",
-      "bodyHtml": "<h2>Esikukholelwayo</h2><p>Inhloso yomsebenzi yisikhathi uqobo: ingxoxo, ukumomotheka, injabulo yokuhlanganisa izithombe ezimbili, noma ukuhlala eduze nje. Akukhona ukulinganisa muntu, ukumcindezela kude noma ukufakazela lutho.</p><p>Ama-app amaningi “okuqeqesha ubuchopho” enziwe ngokusekelwe esivinini, emaphuzwini, ekunqobeni okulandelanayo nasezigabeni. Kumuntu ophila ne-dementia lokho kungazwakala njengokuhlolwa angakwazi ukukudlula. Thina senza okuphambene nalokho, futhi sizibophezela kule mithetho:</p><ul><li><strong>Akukho lutho oluhlulekayo.</strong> Akukho sibali sikhathi, amaphuzu, isibali sezinyathelo, amathuba, ukunqoba okulandelanayo, ama-confetti noma ukubala emuva, kunoma yisiphi isikrini.</li><li><strong>Ukwazi kudlula ukukhumbula.</strong> Izithombe zihlala ziyabonakala ngokuzenzakalelayo. Iziqondiso zimema ingxoxo futhi azibuzi amagama noma izinkumbulo.</li><li><strong>Kukhulu, kulula futhi kuzinzile.</strong> Umbhalo nezithombe ezinkulu, umehluko ophakeme wemibala, nezilawuli ezihlala endaweni efanayo.</li><li><strong>Isithunzi sabadala.</strong> Izithombe zangempela namagama alula, ashisayo. Akukho makhathuni, ukudumisa okufana nengoma noma imivuzo ye-emoji.</li><li><strong>Indlela elula yokuphuma.</strong> “Sekwanele okwamanje” ihlale ibonakala. Ukuma phakathi nendlela kuyisiphetho esihle.</li><li><strong>Imfihlo ngokuzenzakalelayo.</strong> Akukho ama-akhawunti noma izikhangiso. Izithombe enizikhethayo ziyahlala kudivayisi yenu.</li></ul><h2>Esingathi</h2><p>Imidlalo yethu iyokujabulela nokuxhumana. Ayihloli isifo, ayiyona inhlolo, ayilinganisi, ayelapheli, ayiyehlisi futhi ayiyivimbi i-dementia noma isifo i-Alzheimer’s, futhi akekho okufanele ayikhethe ngalesi sizathu. Uma sibhala ngocwaningo ku-<a href=\"/brain-health/\">amakhasi ethu empilo yobuchopho</a>, sisho ngokusobala lapho ubufakazi bubuthaka, futhi asiyixhumanisi neze nemidlalo yethu.</p><h2>Singobani</h2><p>I-Creative Activities yithimba elincane elizimele. Asizona odokotela. Imihlahlandlela yethu ibhalwe ngokusekelwe esiqondisweni esishicilelwe yizinhlangano ezinjenge-National Institute on Aging ne-Alzheimer’s Association, futhi umhlahlandlela ngamunye ubala imithombo yawo. Funda <a href=\"/editorial-policy/\">indlela esibhala ngayo nesihlola ngayo amakhasi ethu</a>.</p><h2>Sitshelani ukuthi yini ebingasiza</h2><p>Sizothanda ukuzwa ukuthi yini esebenzayo kunina nokuthi yini engasebenzi, ikakhulukazi kubantu abaphila ne-dementia, abanakekeli bomndeni nabasebenzi bemisebenzi. Thumelani i-imeyili ku-<a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Abaxhasi nabalingani",
+        "none": "I-Creative Activities ayinabaxhasi, ayinakho ukukhangiswa okukhokhelwayo, futhi ayinabalingani abanezimpawu zabo ezivela esayithini.",
+        "listed": "Labo yi-abaxhasi nabalingani be-Creative Activities. Lobu budlelwano nabo buphinde buchazwe ekhasini lapho bubonakala khona.",
+        "policy": "Uma lokho kushintsha, lo mkhakha uzoke ukusho lokho endaweni yawo, akukho msebenzi ozoke uphathe umxhasi, futhi uhlu lwabalingani luzoba ekhasini lalo.",
+        "listHeading": "Uhlu lwabalingani",
+        "noPartners": "Okwamanje akukho balingani."
+      },
+      "lede": "I-Creative Activities yenza imisebenzi ethulile nevuthiwe yabantu abadala, abangabantu ababili abangayijabulela ecaleni komunye nomunye, noma omunye enakekela omunye, noma bafuna nje ukuchitha isikhathi ndawonye.",
+      "bodyHtml": "<h2>Ngabani le nto yenzelwe</h2><p>Noma ubani onakekela umuntu: umzali, umkhulu, umntwana, umlingani, umngane, noma umuntu ophila nesifo sokukhohlwa. Imindeni, abantu abadala nabasebenzi bemisebenzi bonke bangasebenzisa amakhasi afanayo.</p><h2>Esikukholelwayo</h2><p>Inhloso yomsebenzi yiwo wonke umzuzwana: ingxoxo, unyawo, injabulo yokubeka izithombe ezimbili ndawonye, noma nje ukuhlala eduze. Akuwona wokumlinganisa umuntu, wokumphelelisa noma wokufakazela okuthile.</p><p>Izinhlelo eziningi zokuqeqesha ingqondo ziklanywe ngejubane, amaphuzu, izinsuku ezilandelanayo namazinga. Kumuntu okhathele, ogula noma ophila nesifo sokukhohlwa, lokho kungazwakala njengokuhlolwa angeke akwazi ukukudlula. Sakha okuphambene nalokho, futhi sizibophezela kulezi zimiso:</p><ul><li><strong>Akukho okungahluleka.</strong> Akukho sikhathi, amaphuzu, ukubala izinyathelo, impilo, izinsuku ezilandelanayo, ukuhlobisa noma ukubala kuphela, kunoma yisiphi isikrini.</li><li><strong>Ukubona kungaphezu kokukhumbula.</strong> Izithombe zihlala zibonakala ngokuzenzakalela. Izaziso zimema ingxoxo futhi azikaze zibuze ngamagama noma izinkumbulo.</li><li><strong>Kukhulu, kulula futhi kuzinzile.</strong> Umbhalo nezithombe ezinkulu, ukukhanya okuqinile, nezilawuli ezihlala endaweni efanayo.</li><li><strong>Inhlonipho yabantu abadala.</strong> Izithombe zempilo yangempela namazwi alula nafudumele. Akukho izithombe zezinkanyezi, izibongo ezinomculo noma imiklomelo ngophawu lobuso.</li><li><strong>Indlela yokuphuma kalula.</strong> I-“Ngiyeke okwamanje” ihlala ibonakala. Ukuyeka phakathi nendlela kuyimiphumela enhle.</li><li><strong>Imfihlo ngokuzenzakalela.</strong> Akukho ama-akhawunti noma izikhangiso. Izithombe ozikhethayo zihlala efonini yakho.</li></ul><h2>Esingeke sikusho</h2><p>Imidlalo nemisebenzi yethu iyokujabulisa nokuxhumana. Ayixilongi, ayihloli, ayilinganisi, ayelaphi, ayinciphisi noma ayivimbeli isifo sokukhohlwa noma i-Alzheimer, futhi akekho okufanele akhethe ukuyidlala ngenxa yalokho. Uma sibhala ngocwaningo lwezempilo, sisho ngokusobala lapho ubufakazi bubuthakathaka khona, futhi asikaze siwuxhume nemisebenzi yethu.</p><h2>Thina ngabani</h2><p>I-Creative Activities iqembu elincane elizimele. Asiyona abelaphi. Imikhondo yethu ibhalwe ngokusekelwe kwizeluleko ezishicilelwe yizinhlangano ezifana ne-National Institute on Aging ne-Alzheimer’s Association, futhi yonke imikhondo ihlu­ze imithombo yayo. Funda <a href=\"/editorial-policy/\">indlela esibhala ngayo futhi esihlola ngayo amakhasi ethu</a>.</p><h2>Sitshele okuzosiza</h2><p>Sithanda ukuzwa ukuthi yini esebenza kuwe nokuthi yini engasebenzi, ikakhulukazi kubantu abaphila nesifo sokukhohlwa, kubanakekeli bemindeni nakubasebenzi bemisebenzi. Thumela i-imeyili ku-<a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Indlela Esibhala Ngayo Nesihlola Ngayo Amakhasi Ethu",
       "seoTitle": "Inqubomgomo Yokuhlela",
-      "description": "Ukuthi i-Creative Activities ihlola, ibhala futhi ibuyekeza kanjani amakhasi ayo emisebenzi ye-dementia nempilo yobuchopho, nalokho ingeke ikushicilele.",
+      "description": "Indlela i-Creative Activities ecwaninga ngayo, ebhala ngayo, etholа ngayo imithombo futhi ebuyekeza ngayo amakhasi ethu emisebenzi nezempilo, nokuthi yini esingeke sikhiphe nakanjani.",
       "crumb": "Inqubomgomo yokuhlela",
       "bodyHtml": "<h2>Imithombo yethu</h2><p>Siqhuba imihlahlandlela yethu ngokusekelwe esiqondisweni somphakathi sezinhlangano ezinjenge-National Institute on Aging, i-CDC, i-Alzheimer’s Association, i-Alzheimer’s Foundation of America, i-Family Caregiver Alliance ne-NHS, nasocwaningweni olubuyekezwe ontanga olufana nokubuyekezwa kwe-Cochrane nezivivinyo ezinkulu zomtholampilo. Umhlahlandlela ngamunye ubala imithombo awuklanyelwe kuyo. Sivula umthombo ngamunye ngaphambi kokuwucaphuna, futhi sibika kuphela lokho okushiwo ngempela.</p><h2>Indlela esibhala ngayo</h2><ul><li>Okusebenzayo kuqala: yini okufanele yenziwe namuhla, ngolimi olulula.</li><li>Siqotho ngobufakazi: sithi “kuhlobene no-”, “kungase” kanye “nobufakazi buxubile” lapho kuyiqiniso.</li><li>Ngenhlonipho: sibhala ngabantu abaphila ne-dementia njengabadala, futhi asisebenzisi neze ulimi lokubuza imibuzo noma lokuhlazisa.</li><li>Akukho okuqanjiwe: akukho zibalo, ucaphuno, ochwepheshe, izifundo, ukubuyekezwa noma ubufakazi obuqanjiwe.</li></ul><h2>Ngubani obuyekeza amakhasi ethu</h2><p>Amakhasi abhalwa futhi ahlolwa ithimba le-Creative Activities, ngosizo lwamathuluzi okubhala e-AI ocwaningweni nokwenza uhlaka. Ikhasi ngalinye lihlolwa ngokuqhathaniswa nemithombo yalo ithimba. Amakhasi ethu <strong>awakabuyekezwa</strong> udokotela noma omunye uchwepheshe wezempilo, futhi asikushiyi lokho. Ulwazi olujwayelekile, hhayi iseluleko sezokwelapha.</p><h2>Esingeke sikushicilele</h2><ul><li>Izimangalo zokuthi umdlalo, ukudla, isithako esengeziwe, ukuzila noma umkhuba uvimbela, welapha, wehlisa noma uphulukisa i-dementia.</li><li>Ukuhlolwa, imibuzo noma amaphuzu aphakamisa ukuthi umuntu une-dementia noma akanayo.</li><li>Iseluleko sokuqala, sokumisa noma sokushintsha noma yimuphi umuthi.</li><li>Isikhangiso noma okuqukethwe okuxhasiwe okufihlwe njengesiqondiso.</li></ul><h2>Izibuyekezo nezilungiso</h2><p>Ikhasi ngalinye libonisa usuku elibuyekezwe ngalo kokugcina. Uma nithola iphutha noma umthombo osudlulelwe isikhathi, sicela nithumele i-imeyili ku-<a href=\"mailto:{email}\">{email}</a> futhi sizoyihlola ngokushesha.</p>"
     },
     "faq": {
       "title": "Imibuzo Nezimpendulo",
-      "seoTitle": "Imidlalo Nemisebenzi ye-Dementia: Imibuzo Nezimpendulo",
-      "description": "Izimpendulo zemibuzo evamile ngemidlalo nemisebenzi ye-dementia: imidlalo ongayizama, isikhathi sokudlala, isigaba sokugcina nobumfihlo.",
+      "seoTitle": "Imibuzo Nezimpendulo Ngeyi-Creative Activities",
+      "description": "Izimpendulo zemibuzo evamile mayelana nemidlalo nemisebenzi: yini okufanele uzame, isikhathi sokudlala, amaqembu nemibono yesigaba sokugcina, impilo nokuzimela.",
       "crumb": "Imibuzo nezimpendulo",
       "lede": "Izimpendulo ezimfushane, ezilula zemibuzo abanakekeli abayibuza kakhulu.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Mayelana nemidlalo",
           "items": [
             {
-              "q": "Yiyiphi imidlalo engcono kakhulu yomuntu one-dementia?",
+              "q": "Yimaphi amadlalo amahle kubantu abadala?",
               "a": "Imidlalo engcono kakhulu ijwayelekile, ilula futhi ayinakucindezela, futhi emfanele yilokho umuntu akujabulelayo namuhla. Ukufanisa izithombe ezibonakalayo, ukuhlunga, amaphazili alula, ukuqeda izisho ezijwayelekile, ukuthinta imibala ne-bingo yezithombe konke kusebenza kahle kubantu abaningi. Gwemani izibali sikhathi, amaphuzu nanoma yini ezwakala njengokuhlolwa."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Impilo yobuchopho",
+          "title": "Isifo sokukhohlwa nezempilo",
           "items": [
             {
               "q": "Ingabe imidlalo ingavimbela noma ihlise i-dementia?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Imininingwane eyengeziwe: <a href=\"/caregiving/how-to-play-together/\">indlela yokudlala ndawonye</a>, <a href=\"/caregiving/when-they-say-no/\">uma bethi cha</a>, <a href=\"/activities/late-stage/\">imisebenzi yesigaba sokugcina</a> kanye <a href=\"/brain-health/can-dementia-be-prevented/\">nokuthi i-dementia ingavinjwa yini?</a>"
+      "moreHtml": "Imininingwane eengeziwe: <a href=\"/caregiving/how-to-play-together/\">indlela yokudlala ndawonye</a>, <a href=\"/caregiving/when-they-say-no/\">uma bethi cha</a>, <a href=\"/activities/late-stage/\">imisebenzi yesigaba sokugcina</a> kanye <a href=\"/dementia-activities/\">nemisebenzi yesifo sokukhohlwa ekhaya</a>."
     },
     "handout": {
       "title": "Imidlalo Ethambile Yamahhala Yabantu Abaphila ne-Dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Kumakhaya Okunakekela, Amalabhulali Namaqembu Osizo",
-      "seoTitle": "Imisebenzi ye-Dementia Yamahhala Yamakhaya Namaqembu",
-      "description": "Ukuthi amakhaya okunakekela, amalabhulali namaqembu osizo asebenzisa kanjani imidlalo yethu ye-dementia yamahhala, nombhalo wokusifaka ohlwini.",
+      "seoTitle": "Imisebenzi Mahhala Yezindawo Zokunakekelwa, Amalayibrari Namaqembu",
+      "description": "Indlela izindawo zokunakekelwa kwabantu abadala, izinhlelo zosuku, amalayibrari, izinhlangano zabantu abadala namaqembu osizo esebenzisa ngayo imidlalo yethu yamahhala nemikhondo yemisebenzi, kanye nombhalo wokusifaka ohlwini lwezinsiza.",
       "crumb": "Ezinhlanganweni",
       "lede": "Konke kuleli sayithi kungamahhala ukukusebenzisa nabahlali, amalungu namakhasimende, ngaphandle kwe-akhawunti, ilayisense noma imali.",
-      "shortText": "{name}: imidlalo yezithombe ethambile yamahhala nemihlahlandlela yemisebenzi yabantu abaphila ne-dementia nabanakekeli babo. Akukho kubhalisa, izibali sikhathi, amaphuzu.",
-      "longText": "{name} ({domain}) inikeza imidlalo engu-{count} yamahhala ye-browser eyenzelwe abantu abaphila ne-dementia, kuhlanganise nokufanisa amapheya ngezithombe ezishiywe zibonakala, iphazili elula, ukuhlunga, izisho ezijwayelekile ne-bingo yezithombe enamakhadi aphrintekayo. Akukho akhawunti, izikhangiso, sibali sikhathi noma maphuzu. Isayithi linemihlahlandlela yemisebenzi ngolimi olulula yesigaba ngasinye se-dementia ecaphuna i-National Institute on Aging ne-Alzheimer's Association.",
+      "shortText": "{name}: imidlalo yezithombe emahhala, enobumnene nemikhondo yemisebenzi yabantu abadala, imindeni nabantu abaphila nesifo sokukhohlwa. Akukho ukubhalisa, akukho zikhathi, akukho amaphuzu.",
+      "longText": "{name} ({domain}) inikeza imidlalo engu-{count} yasemahhala ebrawuzeni yabantu abadala, imindeni nabantu abaphila nesifo sokukhohlwa, okuhlanganisa imidlalo yokuhlanganisa izithombe ezifihliwe, ukuhlanganisa izingcezu zesithombe ezilula, ukuhlunga, izreg zesiNgisi ezijwayelekile nebingo yezithombe enamakhadi angashicilelwa. Akukho akhawunti, isikhangiso, isikhathi noma amaphuzu. Le sayithi iphinde ibe nezinhlelo zemisebenzi ezilula zemindeni, abadala nabasebenzi, ezinemithombo efana neNational Institute on Aging ne-Alzheimer's Association.",
       "useTitle": "Lokho izinhlangano ezingakusebenzisa",
       "gamesItemHtml": "<strong>Imidlalo engu-{count} ye-browser</strong> esebenza kulaptop, kuthebhulethi noma kuthelevishini exhunywe ekhompyutheni. Akukho kufaka, akhawunti noma ukulanda. Bhekani <a href=\"/games/\">yonke imidlalo</a>.",
       "printablesLabel": "Okuphrintekayo okungu-{count}:",
       "printablesAfter": "Sebenzisani inkinobho ye-Print ekhasini ngalinye.",
-      "moreItemsHtml": "<li><strong>Izinhlobo zamaqembu:</strong> <a href=\"/games/picture-bingo/\">I-bingo yezithombe</a> inamakhadi aphrintekayo nomsakazi osesikrinini, futhi <a href=\"/activities/trivia/\">imibuzo elula</a> inemibuzo engama-50 enezinketho zezimpendulo namaphuzu okukhuluma.</li><li><strong>Imihlahlandlela yemisebenzi</strong> yabasebenzi nemindeni, ngesigaba nangohlobo, ibhalwe ngolimi olulula enemithombo. Qalani nge-<a href=\"/activities/ideas/\">imibono eyi-101 yemisebenzi</a> noma <a href=\"/activities/care-home-groups/\">imisebenzi yamaqembu emakhaya okunakekela</a>.</li>",
+      "moreItemsHtml": "<li><strong>Izinhlobo zamaqembu:</strong> <a href=\"/games/picture-bingo/\">Ibingo yezithombe</a> inamakhadi angashicilelwa nomshayeli wesikrini, kanti <a href=\"/together/conversation-games-for-all-ages/\">imidlalo yokuxoxa</a> inemibuzo enezinketho zokuphendula namaphoyinti okuxoxa.</li><li><strong>Izinhlelo zemisebenzi</strong> zabasebenzi nemindeni, ezibhalwe ngolimi olulula nemithombo. Qala nge-<a href=\"/activities/ideas/\">101 imibono yemisebenzi</a> noma <a href=\"/crafts/craft-group-sessions/\">imisebenzi yamaqembu yezindawo zokunakekelwa</a>.</li>",
       "restHtml": "<h2>Indlela amaqembu asebenzisa ngayo</h2><ul><li><strong>Amakhaya okunakekela nokunakekela inkumbulo:</strong> i-bingo yezithombe noma ukuqeda isisho kuthelevishini yasegumbini elivamile, umuntu oyedwa ethinta iqembu.</li><li><strong>Izinhlelo zasemini zabadala:</strong> isiteshi sethebhulethi esine-Amapheya ezithombe esisethwe ngamakhadi amane, ezikhathi ezimfushane zomuntu ngamunye.</li><li><strong>Amalabhulali omphakathi:</strong> ukusesha amagama okuphrintiwe namakhadi engxoxo emaphaketheni enkumbulo, nesayithi elikhonjiwe emathebhulethi elabhulali.</li><li><strong>Amaqembu osizo labanakekeli namakhefi enkumbulo:</strong> <a href=\"/handout/\">iphepha elilodwa eliphrintekayo</a> emindeni ukuze iliyise ekhaya.</li><li><strong>Izibhedlela nabahlela ukuphuma:</strong> iphepha emaphaketheni abanakekeli, ukuze kube nokuthile okuthulile okwenziwayo ekhaya noma eceleni kombhede.</li></ul><h2>Esingakwenzi</h2><p>Imidlalo iyokujabulela nokuba ndawonye. Ayihloli isifo, ayiyona inhlolo, ayinikezi maphuzu, ayelapheli noma ayiyehlisi i-dementia, futhi sicela izinhlangano zingayichazi ngaleyo ndlela. Azikho izikhangiso, futhi imidlalo ayibuzi amagama, imininingwane yezempilo noma ukulayisha izithombe. Iwebhusayithi isebenzisa i-Google Analytics ukubala ukuvakasha; <a href=\"/privacy/\">isaziso sethu sobumfihlo</a> sichaza lokho okuqoqwayo. Izithombe ezisetshenziswa ku-<a href=\"/games/photo-pairs/\">Amapheya ezithombe zomndeni</a> ziyahlala ku-browser.</p><h2>Sifakeni ohlwini lwenu lwezinsiza</h2><p>Uma ninohlu lwezinsiza zabanakekeli, namukelekile ukuxhumanisa ne-<a href=\"/\">{domain}</a>. Ningakopisha noma yiluphi incazelo.</p>",
       "shortTitle": "Incazelo emfushane",
       "longTitle": "Incazelo ende",
-      "linksHtml": "<p>Amakhasi awusizo ongaxhumanisa nawo ngqo: <a href=\"/games/\">imidlalo yamahhala</a>, <a href=\"/activities/printable/\">okuphrintekayo kwamahhala</a>, <a href=\"/activities/alzheimers/\">imisebenzi ye-Alzheimer's</a> kanye <a href=\"/caregiving/how-to-play-together/\">nendlela yokudlala ndawonye</a>.</p><h2>Imibuzo noma izilungiso</h2><p>Uma okuthile esayithini kungalungile noma kungacaci, noma izidingo zomuntu ohlalayo zingahlangatshezwa yilokho okukhona lapha, sicela nisitshele ku-<a href=\"mailto:{email}\">{email}</a>. Sicela ningathumeli ulwazi lomuntu siqu noma lwezempilo ngabahlali noma amakhasimende.</p>"
+      "linksHtml": "<p>Amakhasi asizayo okuxhuma ngqo kuwo: <a href=\"/games/\">imidlalo yasemahhala</a>, <a href=\"/games/\">izinto ezishicilelwayo ezingasekhanjisweni</a>, <a href=\"/dementia-activities/\">imisebenzi yokukhohlwa ekhaya</a> kanye <a href=\"/caregiving/how-to-play-together/\">ukudlala ndawonye</a>.</p><h2>Imibuzo noma izilungiso</h2><p>Uma okuthile kule sayithi kungalungile noma kungacacile, noma izidingo zomuntu ohlala endaweni yokunakekelwa azifezekiswa yilokho okukule sayithi, sicela usitshele ku-<a href=\"mailto:{email}\">{email}</a>. Sicela ungathumeli ulwazi lomuntu siqu noma lezempilo mayelana nabahlali noma abasizwa.</p>"
     },
     "app": {
       "title": "I-App ye-Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Imidlalo Yamahhala Ye-Dementia Ne-Alzheimer's Ku-inthanethi",
-    "description": "Imidlalo yamahhala ku-inthanethi yabadala abaphila ne-dementia: ukufanisa izithombe, amaphazili alula, ukuhlunga, izisho, imibala, i-bingo. Akukho sibali.",
+    "title": "Imidlalo Yasemahhala Ukudlalwa Ndawonye Ku-inthanethi",
+    "description": "Imidlalo yasemahhala ku-inthanethi yabantu abadala, imindeni nabantu abaphila nesifo sokukhohlwa: ukuhlanganisa izithombe, ukuhlanganisa izingcezu ezilula, ukuhlunga, izreg zesiNgisi, ukudaya nebingo. Akudingeki ukubhalisela, akukho izikhathi noma amaphuzu.",
     "crumb": "Imidlalo",
-    "h1": "Imidlalo Ethambile Yabantu Abaphila ne-Dementia",
+    "h1": "Imidlalo Eyelulekayo Yokudlalwa Ndawonye",
     "lede": "Imidlalo engu-{count} yamahhala yokudlala ndawonye ku-browser yenu. Izithombe ezinkulu, amagama alula, futhi akukho lutho oluhlulekayo: akukho zibali sikhathi.",
-    "listName": "Imidlalo ethambile yabantu abaphila ne-dementia",
+    "listName": "Imidlalo eyelulekayo yokudlalwa ndawonye",
     "byStageTitle": "Ukukhetha umdlalo ngesigaba",
     "byStageLede": "Izigaba ziyisiqondiso nje esimaqondana. Landelani lokho umuntu akujabulelayo nalokho okunethezayo namuhla.",
     "stageCol": "Isigaba",
     "gamesCol": "Imidlalo evame ukufanela",
-    "moreHtml": "Eminye imibono ngaphandle kwesikrini: <a href=\"/activities/ideas/\">imisebenzi eyi-101 yabantu abaphila ne-dementia</a>, <a href=\"/activities/alzheimers/\">imisebenzi nemidlalo ye-Alzheimer's</a>, <a href=\"/activities/memory-games/\">imidlalo ethambile yenkumbulo</a> kanye <a href=\"/activities/puzzles/\">namaphazili</a>.",
+    "moreHtml": "Eminye imibono ngaphandle kwesikrini: <a href=\"/activities/ideas/\">101 imibono yemisebenzi</a>, <a href=\"/dementia-activities/\">imisebenzi yokukhohlwa ekhaya</a> kanye <a href=\"/crafts/\">ukwenza izandla</a>.",
     "faq": [
       {
         "q": "Yimuphi umdlalo okufanele siqale ngawo?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Ingabe le yimidlalo yenkumbulo yabadala?",
-        "a": "Imidlalo yokufanisa nezithombe angayijabulela noma ngubani omdala, kodwa yakhelwe ukuthi ingahloli inkumbulo: ku-Amapheya ezithombe izithombe zihlala zibonakala ngaphandle uma nikhetha ngenye indlela. Umhlahlandlela wethu wemidlalo yenkumbulo yabadala abane-dementia uchaza indlela yokugcina noma yimuphi umdlalo wenkumbulo uthambile."
+        "a": "Yimidlalo yokuhlanganisa nezithombe engakwazi ukuyijabulela noma yimuphi umuntu omdala, kodwa yakhiwe ukuzeingabi yisivivinyo sokukhumbula: ku-Picture pairs izithombe zihlala zibheke phezulu uma ungakhethi okuhlukile. Noma yimuphi umdlalo wokukhumbula ungenziwa ube lula ngokususa isikhathi namaphuzu."
       },
       {
         "q": "Ingabe kukhona imidlalo yamaqembu ekhaya lokunakekela?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Ingabe kukhona i-app yemisebenzi ye-dementia?",
+        "q": "Ingabe kukhona i-app yabantu abadala nezimindi?",
         "a": "Yebo. I-Creative Activities (efakwe uhlwini ngokuthi \"{storeName}\") iyamahhala ku-App Store nase-Google Play. Inikeza ukufanisa izithombe okuthambile ngamakhadi amakhulu, imidlalo enezithombe zomndeni enizikhethayo, namaphakethe ezithombe asebenza ngaphandle kwe-inthanethi."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Iyaphrintwa",
     "howTo": "Indlela yokudlala i-{name}",
     "tips": "Amathiphu okudlala ndawonye",
-    "newToPlayingHtml": "Ningakajwayele ukudlala nomuntu one-dementia? Fundani <a href=\"/caregiving/how-to-play-together/\">indlela yokudlala imidlalo ndawonye</a>, kuhlanganise nokwenza uma ephelelwa yinjabulo.",
+    "newToPlayingHtml": "Usaqala ukudlala nomuntu omdala noma nomuntu ophila nesifo sokukhohlwa? Funda <a href=\"/caregiving/how-to-play-together/\">ukudlala imidlalo ndawonye</a>, kubandakanya okufanele ukwenze uma belahlekelwa yisithakazelo.",
     "moreAria": "Okuningi ongakuhlola",
     "helpfulGuides": "Imihlahlandlela eyusizo",
     "appTitle": "Yidlaleni ku-app",
@@ -536,6 +666,35 @@
     "goodToKnow": "Kuhle ukwazi",
     "goodToKnowText": "Lo mdlalo uyokujabulela nokuba ndawonye. Awuhloli, awulinganisi noma awuwelaphi lutho.",
     "moreGames": "Eminye imidlalo ethambile",
-    "crumb": "Imidlalo"
+    "crumb": "Imidlalo",
+    "print": {
+      "heading": "Dlala ephepheni",
+      "sameRules": "Inguqulo yephepha inemithetho efanayo nomdlalo osesikrinini:",
+      "button": "Imprinta inguqulo yephepha",
+      "pageNote": "Ikhasi elilodwa ku-A4 noma ku-US Letter, lihle emnyama nomhlophe. Inguqulo {date}.",
+      "islandNote": "Imprinta okusesikrinini manje. Inguqulo {date}.",
+      "sheetTitle": "{name}: inguqulo yephepha",
+      "point": "Ephepheni, chaza isithombe esikhundleni sokusithinta, noma usijikeleze ngophenseli. Umugqa ngamunye uyisethi entsha.",
+      "pointTarget": "Ephepheni, isithombe okufanele usibheke sisebhokisini ekuqaleni komugqa ngamunye. Chaza isithombe esikhundleni sokusithinta, noma usijikeleze ngophenseli.",
+      "halves": "Isithombe ngasinye sinqunywe phakathi. Dweba umugqa usuka kwingxenye ngayinye ngakwesobunxele uye engxenyeni ngakwesokudla efanele kuyo, noma chaza ngomunwe. Akudingeki ukuqoqa lutho.",
+      "grid": "Isikwele ngasinye sinenombolo. Thola leyo nombolo ekhiyini, bese udaya isikwele ngophenseli waleyo mbala. Noma yimuphi omunye umbala ofisa nawo uyavumelekile. Akudingeki ukuqoqa lutho.",
+      "colors": "Umugqa ngamunye uqamba umbala. Chaza zonke izithombe ezinalowo mbala, noma uzijikeleze ngophenseli. Umugqa ngamunye uyisethi entsha.",
+      "dice": "Umugqa ngamunye uyisethi yamadayisi. Khetha umugqa, noma sika izithombe bese uhlanganisa ezinye phezu kwesitaki, bese uxoxa indaba usebenzisa zona noma ngayiphi indlela. Noma ubani angadlula.",
+      "words": "Sika amagama, noma dweba umugqa usuka kwigama ngalinye uye esithombeni salo. Ufunda amagama ngokuzwakala njengoba uqhubeka.",
+      "cards": "Sika amakhadi ngokulandela imigqa eqhakazile. Wawabeke ubheke phezulu etafuleni, bese uthola izibhangqwana.",
+      "chain": "Ephepheni, funda izithombe usuka kwesobunxele uye kwesokudla, eyodwa ngemva kwenye. Umuntu ngamunye usho umusho owodwa mayelana nezithombe zasembuyeni, bese echaza isithombe esilandelayo. Noma ubani angadlula.",
+      "sort": "Sika izithombe ngokulandela imigqa eqhakazile, bese ufaka ngayinye ebhokisini okufanele ibe kulo.",
+      "puzzle": "Sika isithombe esikhulu ngokulandela imigqa eqhakazile ibe izingcezu ezine bese uzixuba. Shintsha izingcezu ezimbili ngesikhathi kuze kube isithombe siphelele. Isithombe esincane siyisiqondisi.",
+      "cutSafety": "Umsizi angasika ngaphambi kokuthi uqale. Gcina izikelo zibekiwe ngemva kwalokho.",
+      "version": "Inguqulo {date} · {url}",
+      "reasons": {
+        "photos": "Ayikho inguqulo yephepha. Lo mdlalo usebenzisa izithombe zakho, ezihlala ebhrawuzeni yakho futhi ngeke zilayishwe, ngakho isayithi alikwazi ukuzishicilela. Ukuze udlale ephepheni, shicilela izikhangiso ezimbili zezithombe ezimbalwa ezithandekayo ekhaya bese uzihlanganisa etafuleni.",
+        "paced": "Ayikho inguqulo yephepha. Isangqa sibeka isivinini esihamba kancane nesinzile esikrinini, nekhasi elishicilelwe alikwazi ukukwenza lokho, ngakho bekuyoba umsebenzi omusha. Ukuphumula kancane ndawonye ngaphandle kwesikrini kusoke kube yinketho.",
+        "turns": "Ayikho inguqulo yephepha yalo mdlalo. Ukuze uthole izibhangqwana etafuleni, shicilela amakhadi ezithombe asuka ku-Picture pairs bese niguqula ngokuphendukisana.",
+        "screen": "Hakukho inguqulo yephepha. Lesi yisithombe okubukwa ndawonye esikrinini; isithombe esithandwayo noma ikhadi lePosta etafuleni lenza into efanayo.",
+        "wash": "Hakukho inguqulo yephepha. Umbala wamanzi ephepheni unumfuno efanayo: ibhulashi elimanzi kanye nombala owodwa ngesikhathi.",
+        "sayings": "Hakukho inguqulo yephepha okwamanje. Ephepheni zonke iziphetho zizobonakala ngesikhathi esisodwa, futhi isinyathelo esithambile esithi \"Bonisa isiphetho\" sizolahleka. Funda izisho esikrinini ndawonye, noma nabelane ngezimbalwa eniziazi nombili."
+      }
+    }
   }
 }

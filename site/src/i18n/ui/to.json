@@ -7,16 +7,22 @@
     "homeLabel": "Fale ʻo Creative Activities",
     "mainNav": "Tefito",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: ngaahi ata lalahi mo fakafiefia ʻo ha kapu tī, ha sunflower mo ha kuli",
+    "defaultImageAlt": "Creative Activities: ngaahi ata lalahi, fakafiefia ʻo e ngaahi meʻa ʻi he ʻaho kotoa ke fai mo ngāue ai",
     "languages": "Lea",
     "englishOnly": "(Lea fakapālangi)",
     "machineTranslated": "Naʻe liliu ʻa e peesi ni ʻaki ʻe he kōmipiuta pea ʻikai ʻosi sio ai ha tangata ʻoku lea fakafonua ʻaki ʻa e lea ni.",
     "readOriginal": "Lau ʻa e lea fakapālangi",
     "nav": {
+      "find": "Find an activity",
       "games": "Ngaahi keimi",
       "activities": "Ngaahi ngaue",
       "caregiving": "Tokanga ki he kakai",
-      "brainHealth": "Moʻui ʻo e ʻatamai"
+      "brainHealth": "Moʻui ʻo e ʻatamai",
+      "crafts": "Ngaue nima",
+      "kids": "Fanau",
+      "together": "Fakataha",
+      "creativeCalm": "Fakafilifilimānako fiemālie",
+      "search": "Kumi"
     },
     "faqTitle": "Ngaahi fehuʻi mo e ngaahi tali",
     "breadcrumb": "Fakaʻilo ʻi he hala",
@@ -27,7 +33,32 @@
       "label": "Lahi ʻo e lea tohi",
       "smaller": "Lea tohi angamaheni",
       "larger": "Lea tohi lahi ange",
-      "contrast": "Kalauni ʻoku mahino lahi ange"
+      "contrast": "Kalauni ʻoku mahino lahi ange",
+      "colors": "Lanu",
+      "light": "Maama",
+      "dark": "Pōpō",
+      "device": "Tatau mo e masini ni",
+      "lineLength": "Lōloa ʻo e laina",
+      "standardLines": "Angamaheni",
+      "shorterLines": "Laina nounou ange",
+      "spacing": "Vā",
+      "standardSpacing": "Angamaheni",
+      "moreSpace": "Vā lahi ange"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Ngaahi fakakaukau ki he ngaue 101",
     "lateStage": "Ngaahi ngaue ʻo e tuʻunga fakaʻosi",
     "printable": "Ngaahi ngaue ke paʻi",
-    "allActivities": "Ngaahi ngaue kotoa",
+    "allActivities": "Ngaahi tohi tataki ngāue kotoa",
     "forCaregivers": "Ki he kau tokangaʻi",
     "playTogether": "Founga ke keimi fakataha",
     "selfCare": "Tokangaʻi ho kakato",
@@ -54,24 +85,34 @@
     "app": "ʻAp ʻo Creative Activities",
     "appHelp": "Tokoni ki he ʻap",
     "support": "Tokoni",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Fakalao",
     "sitePrivacy": "Tauhi maʻu ʻo e peesi",
     "appPrivacy": "Tuʻutuʻuni tauhi maʻu ʻo e ʻap",
     "privacyChoices": "Ngaahi filifili ki he tauhi maʻu",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Ngaahi tuʻutuʻuni mo e laikiʻi ʻap",
     "safety": "Malu mo e ngāue ʻoku fie maʻu",
     "accessibility": "Faingofua ki he kakai kotoa",
     "healthNotice": "Fakamatala ki he moʻui",
     "allLegal": "Fakamatala fakalao kotoa",
     "note": "ʻOku foaki ʻe Creative Activities ʻa e ngaahi ngaue fakataha faingofua ke fiefia ai. ʻOku ʻikai ko e tokoni fakamoʻui, ko e sivi, pe ko e tokonaki. ʻOku ʻikai te ne fakaʻilo, fuʻu sikoa, pe fakatatau ha taha. Ki he ngaahi fehuʻi fekauʻaki mo e moʻui, talanoa mo ha tokotaha fakamoʻui. ʻI he faingataʻa fakavavevave, telefoni ki he numipa fakavavevave ʻo ho feitu'u.",
-    "publisher": "Naʻe pulusi ʻe Cloudjet Solutions Pte. Ltd."
+    "publisher": "Naʻe pulusi ʻe Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Ngaue nima maʻá e kakai kotoa pē",
+    "kids": "Ngaahi ngāue maʻá e fanau",
+    "together": "Ngaahi ngāue ke fai fakataha",
+    "creativeCalm": "Fakafilifilimānako fiemālie",
+    "dementiaActivities": "Ngaahi ngāue maʻá e kakai ʻoku moʻui mo e vaivai ʻo e ʻatamai"
   },
   "home": {
-    "title": "Ngaahi keimi mo e ngaahi ngaue ki he Dementia mo e Alzheimer's | Creative Activities",
-    "description": "Ngaahi keimi ata mohu fakafiefia ʻe taʻetotongi ke keimi ʻi he initaneti, mo e ngaahi fakakaukau ki he ngaue ki he kakai ʻoku nau moʻui mo e dementia pe Alzheimer's mo kinautolu ʻoku tokangaʻi ai. ʻIkai ha tohi-fakahoko, taimi, pe sikoa.",
+    "title": "Creative Activities maʻá e Kakai Kotoa Pē ʻoku Tokanga ki ha Taha",
+    "description": "Ngaahi ngāue fakafilifilimānako ʻe taʻetotongi maʻá e kotoa ʻoku tokanga ki ha taha: ngaue nima, ngaahi meʻa maʻá e fanau, ngaahi ngāue ke fai fakataha mo ngaahi fakakaukau fakafilifilimānako fiemālie.",
     "eyebrow": "Taʻetotongi · ʻIkai ha ʻatiseti · ʻIkai ha fakarēsitā · ʻIkai ha taimi pe sikoa",
-    "h1": "Ngaahi Keimi mo Ngaahi Ngaue Mohu ki he Kakai ʻoku Nau Moʻui mo e Dementia",
-    "lede": "Ngaahi keimi ata faingofua, ngaahi ata ʻoku ʻiloa, mo e ngaahi ngaue ke fiefia ai fakataha, ʻi he vave ʻoku lelei ki ai ʻa ʻoutolu.",
+    "h1": "Fai ha meʻa fakataha",
+    "lede": "Kumi ha ngāue ʻoku fe ʻaonga mo e taha, mo e taimi, mo e meʻa ʻoku ʻi ai. Ngaue nima faingofua, ngaue ʻart ʻa e fanau, ngaahi meʻa ke fai fakataha mo ngaahi fakakaukau fakafilifilimānako fiemālie, mo ngaahi founga faingofua ange mo ha kāati ke paʻi. Tuʻu ʻi he taimi ʻoku ke loto ai.",
     "playGame": "Keimi ha keimi",
     "findIdeas": "Kumi ha ngaahi fakakaukau ki he ngaue",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Ngaahi fakakaukau ki he ngaue 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Tuʻunga muʻa",
         "text": "Tokanga ke kei fai ʻa e ngaahi meʻa ʻoku nau ʻofa ai, ʻi ha liliu iiki: ngaahi mahaki, ngaahi fevahevahe, ngaahi keimi lea mo e fakakaukau fakataha.",
         "label": "Ngaahi fakakaukau ki he tuʻunga muʻa"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Tuʻunga ʻi loto",
         "text": "Ngaahi ngaue faingofua mo fakafamili, vahevahe ki he ngaahi laka: fakafalala, fakahoko, mūsika, ngaahi keimi ata mo e ngaahi lue nounou.",
         "label": "Ngaahi fakakaukau ki he tuʻunga ʻi loto"
@@ -124,10 +165,10 @@
         "label": "Ngaahi fakakaukau ki he tuʻunga fakaʻosi"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Kuo ke kumi ha meʻa makehe? Vakai ki he <a href=\"/dementia-activities/\">ngaahi ngāue mo e ngaahi keimi maʻá e Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">ngaahi puzzle mo e ngaahi keimi ʻi he laoa</a>, <a href=\"/together/conversation-games-for-all-ages/\">ngaahi keimi ʻo e lea fakataha</a> pe <a href=\"/together/puzzles-and-table-games/\">ngaahi puzzle</a>.",
     "approachEyebrow": "Hono fakakaukau",
-    "approachTitle": "Ko ha ngaue fakataha, ʻikai ko ha sivi ʻo e ʻatamai",
-    "approachLede": "Ko e tokolahi ʻo e “ngaahi keimi ʻo e ʻatamai” ʻoku fokotuʻu ki he vave, ngaahi sikoa mo e ngaahi tuʻunga fakafiefia. Ki ha taha ʻoku moʻui mo e dementia, ʻe hange ia ko ha sivi. Kuo tau fai ʻa e meʻa ʻoku kehe.",
+    "approachTitle": "Ha ngāue fakataha, ʻikai ha sivi",
+    "approachLede": "Ko e ngaahi “keimi ʻo e ʻatamai” lahi ʻoku langa hake ʻi he vave, ngaahi sikoa mo e ngaahi hala-tuʻo-taha. Maʻá ha taha ʻoku ngalo ʻi he ivi, ʻoku mahaki, pe ʻoku moʻui mo e vaivai ʻo e ʻatamai, ʻe hangē ia ko ha sivi. Kuo tau fai ʻa e meʻa ʻoku kehe.",
     "approachLink": "Ko e hā ʻoku tau fakahoko ai ʻi he founga ni",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Ngaahi ʻuhinga lahi ʻoku nau pehē ʻikai ai, mo e ngaahi founga nounou ke toe feinga ai ʻi ha taimi kehe."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Fakatuʻu ʻa e tepilēti",
-        "text": "Lea tohi lahi ange, ngaahi fakatanga siʻisiʻi ange mo ha sikirini ʻe taha ʻoku faingofua."
+        "href": "/activities/group-art-activities/",
+        "title": "Ngaahi ngāue ʻart ʻa e kulupu",
+        "text": "Ngaahi poloseki fakakulupu maʻá e laoa ʻo e kakai lahi, ʻo ha ngāue maʻá e taha kotoa."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ngaahi ngaue faingofua ke paʻi",
-        "text": "Ngaahi ngaue ʻoku lahi ʻa e lea, ngaahi ata ke kulokula, bingo mo e ngaahi kāati ki he talanoa."
+        "href": "/activities/ideas/",
+        "title": "101 fakakaukau ki he ngāue",
+        "text": "Ngaahi fakakaukau faingofua, fakapotopoto ʻo fakatatau ki he meʻa ʻoku ʻi ai mo e ivi ʻoku ʻi ai."
       }
     ],
     "researchTitle": "Moʻui ʻo e ʻatamai: ko e hā ʻoku fakahaaʻi ʻe he fakatotolo",
@@ -185,16 +226,16 @@
     "aboutApp": "Fekauʻaki mo e ʻap",
     "faq": [
       {
-        "q": "Ko e hā ʻa e ngaahi keimi lelei ki he kakai ʻoku nau moʻui mo e dementia?",
-        "a": "Ko e ngaahi keimi lelei ʻe faingofua, ʻoku ʻiloa ʻe he kakai, pea ʻikai ʻi ai ha mamafa: ko e ngaahi foto lalahi ke fehoanaki, fakatonutonu, ngaahi puzzle faingofua, fakakakato ʻo e ngaahi lea ʻoku ʻiloa lahi, ta lanu, bingo ʻo e foto mo e ngaahi kāate fakalea. Ko e filifili lelei taha ko ia ʻoku fiemālie ai ʻa e tangata ʻi he ʻaho ni. Taʻofi ʻa e ngaahi taimi, ngaahi sikoa mo e meʻa ʻe hangē ko ha fakamatala."
+        "q": "Ko e hā ha ngaahi keimi lelei maʻá e kakai motuʻa?",
+        "a": "Ko e ngaahi keimi lelei ʻoku faingofua, ʻoku ʻiloa mo ʻikai ha mamafa: ngaahi ʻata lalahi ke fakatatau, fakatū, ngaahi jigsaw faingofua, kakato ʻa e ngaahi lea ʻoku ʻiloa lahi, kolo, bingo ʻo e ngaahi ʻata mo e kāati lea fakataha. ʻOku fe ʻaonga ia ki he kakai motuʻa lahi, ʻo kau ai e kakai ʻoku moʻui mo e vaivai ʻo e ʻatamai. Ko e filifili lelei taha ko ia ʻoku fiemālie ai ʻa e tokotaha ʻi he ʻaho ni. Taʻofi ʻa e ngaahi taimi, ngaahi sikoa mo e meʻa ʻoku hangē ko ha sivi."
       },
       {
-        "q": "ʻOku ʻatā nai ʻa e ngaahi keimi dementia?",
+        "q": "Ko e ngaahi keimi ni ʻe taʻetotongi?",
         "a": "ʻIo. ʻOku ʻatā ʻa e keimi kotoa mo e pepa ke tā ʻi Creative Activities, ʻikai ha ʻakaunti, ʻikai ha lesisita pe tā. ʻOku ngāue ʻa e ngaahi keimi ʻi he polaisea ʻi he telefoni, tapolo pe kompiuta."
       },
       {
         "q": "ʻE malu'i nai ʻe he ngaahi keimi ʻatamai ʻa e dementia?",
-        "a": "ʻOku ʻikai ha keimi kuo fakahā ʻe malu'i ai ʻa e dementia, pea ʻoku ʻikai talaʻofa ʻa Creative Activities ʻo tokoni ki he fakamoʻui pe malu'i ha meʻa. ʻOku ʻaonga ʻa e ngaahi keimi ʻa matou ki he fiefia mo e taimi fakataha. ʻOku fakamatala ʻa e vahe ʻo e mo'ui ʻatamai ʻi heni ki he me'a ʻoku fakahā ʻe he ako mo e me'a ʻoku ʻikai."
+        "a": "ʻOku ʻikai ha keimi kuo fakahāhā ʻoku taofi ai ʻa e vaivai ʻo e ʻatamai, pea ʻoku ʻikai talaʻofa ʻa Creative Activities ʻoku ne tokoni ki he mahaki pe taofi ia. Ko e ngaahi keimi kuo tau fai ʻoku maʻá e fiefia mo e taimi fakataha, pea ʻoku ʻikai ha peesi ngāue ʻoku ne fakahoko ha talaʻofa fakahinohino ki he moʻui."
       },
       {
         "q": "ʻOku fe'unga nai ʻa e ngaahi keimi ni ki ha tangata ʻoku ʻi ai ʻa e Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Ko hai ʻoku fai ʻa Creative Activities?",
-        "a": "Ko Creative Activities ko ha kulupu iiki ʻoku fai ai ʻa e ngaahi ngāue foto fiemālie ki he kakai lalahi mo e kau tokanga ʻi he polotaʻi mo e polokalama ʻatā. ʻOku ʻikai ko e kau faifai moʻui kimautolu, pea ʻoku ʻikai ha meʻa ʻi heni ko e tokoni fakamoʻui."
+        "a": "Ko Creative Activities ko ha kulupu iki ʻoku nau fai ngaahi ngāue fakafilifilimānako fiemālie maʻá e kakai matureʻ ʻoku tokanga ki ha taha, ʻi he upega mo ha polokalama ʻe taʻetotongi. ʻOku ʻikai ko e kau fakatotoʻa kimui ʻa kimautolu, pea ʻoku ʻikai ha tokoni fakafaito'o ʻi heni."
+      }
+    ],
+    "groupsEyebrow": "Kumi ʻa e founga maʻau",
+    "groupsTitle": "Ngaahi kāinga ʻe fā ʻo e ngāue fakafilifilimānako",
+    "groupsLede": "Kamata mei he kulupu ʻoku fe ʻaonga mo e kakai ʻoku ke ʻiate kinautolu mo e meʻa ʻoku ʻi ai. ʻOku ʻi ai ʻa e ngaahi founga faingofua ange mo e ngaahi fakamatala ki he malu ʻi he peesi kotoa.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Ngaue nima",
+        "text": "Ngaahi poloseki pepa, kala, meʻa toe fakaʻaho mo e ngaahi taimi ʻo e taʻu, mo ha founga faingofua ange ki ha taha kotoa.",
+        "label": "Vakai ki he ngaue nima"
+      },
+      {
+        "href": "/kids/",
+        "title": "Fanau",
+        "text": "Ngaahi ngāue ʻart mo e keimi maʻá e fanau, mo ha matua ʻoku ofi mo e ngaahi fakamatala ki he malu ʻoku mahino.",
+        "label": "Vakai ki he ngaahi ngāue maʻá e fanau"
+      },
+      {
+        "href": "/together/",
+        "title": "Fakataha",
+        "text": "Lea fakataha, puzzle, taimi ʻi tuʻa mo e founga ke ʻi ofi ai ʻi he ngaahi tupu.",
+        "label": "Vakai ki he ngaahi meʻa ke fai fakataha"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Fakafilifilimānako fiemālie",
+        "text": "Ngaahi taimi fakafilifilimānako mohuʻi mo fiemālie ʻaki ha pensiru, ha peesi pe ha hiva. ʻIkai ko ha tokoni fakafaitoʻo mahaki.",
+        "label": "Vakai ki he fakafilifilimānako fiemālie"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Pepa ke tā",
     "play": "Keimi ʻa {name} →",
     "readGuide": "Lau e tohi tataki"
+  },
+  "listen": {
+    "listenSteps": "Fanongo ki he ngaahi sitepu",
+    "pause": "Fakatuʻu",
+    "resume": "Toe kamata",
+    "stop": "Taʻofi",
+    "speed": "Vave",
+    "normal": "Angamaheni",
+    "slower": "Siʻisiʻi ange",
+    "reading": "ʻOku lau ʻa e ngaahi sitepu leva.",
+    "paused": "Kuo fakatuʻu. Tāʻi Toe kamata ke kei muʻomuʻa.",
+    "note": "ʻOku ngāue ʻaki ʻa e leʻo ʻo e masini ʻa koe. ʻE fekau ʻe ha ni'ihi ʻa e masini ki hono kaungāʻapi ke lea ki ai.",
+    "listen": "Fanongo",
+    "stepLabel": "Fanongo ki he sitepu {n}",
+    "stopStep": "Taʻofi ʻa e sitepu {n}"
   },
   "playCta": {
     "title": "Ko e loto ki ha keimi fiemālie?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Ngaahi ngāue",
-      "title": "Ngaahi Ngāue ki he Kakai ʻoku ʻi ai ʻa e Dementia",
-      "seo": "Ngaahi Ngāue ki he Kakai ʻoku ʻi ai ʻa e Dementia: Ngaahi Fakakaukau ʻi he Tuʻunga",
-      "description": "Ngaahi fakakaukau ngāue ki he kakai ʻoku ʻi ai ʻa e dementia ʻi he tuʻunga kotoa: mūsiki, fakamanatu, ngaahi ngāue ʻo e ʻaho, ngaahi ongo, ngāue nima, ʻi tuʻa mo e ngaahi pepa ke tā ʻatā.",
-      "lede": "Ko e ngāue ʻoku mahuʻinga ko ia kotoa ʻoku ʻomi ai ʻa e fiemālie, ʻuhinga pe ʻi ha taimi fehokotaki. Kamata ʻaki ʻa e meʻa ʻoku fiefia ai ʻa e tangata ʻi he taimi kuo ʻosi, pea fetongi ia ki he ʻaho ni."
+      "label": "Ngaahi tohi tataki",
+      "title": "Ngaahi Tohi Tataki ʻo e Ngāue",
+      "seo": "Ngaahi Tohi Tataki ʻo e Ngāue: Ngaahi Fakakaukau, Ngaahi Meʻa Ngāue mo e Founga ke Kamata",
+      "description": "Ngaahi tohi faingofua ki he ngaahi ngāue fakafilifilimānako ʻe lava ke fai mo ha taha: ngaahi fakakaukau faingofua, ngaahi meʻa ngāue ʻi he paʻanga siʻi, ngāue ʻart fakakulupu, ngaahi lētā, ngaahi manatu, mo e fakamatala ki he art therapy.",
+      "lede": "Ngaahi tohi nounou mo ngaahi founga ʻaonga ke filifili mo kamata ha ngāue mo ha taha, ʻi hono taʻu pe malava ʻe taha."
+    },
+    "crafts": {
+      "label": "Ngaue nima",
+      "title": "Ngaue Nima maʻá e Kakai Kotoa Pē",
+      "seo": "Ngaue Nima Faingofua maʻá e Kakai Kotoa Pē, mo e Ngaahi Founga Faingofua Ange",
+      "description": "Ngaahi ngāue nima faingofua maʻá e kakai matureʻ, fanau mo e famili: pepa, kala, meʻa toe fakaʻaho mo e ngaahi meʻa ʻo e taʻu, mo e ngaahi founga faingofua ange ke puke pe nofo, ʻo ʻikai ha poto makehe.",
+      "lede": "Ngaahi ngāue nima ʻoku kamata mei he meʻa ʻoku ʻi he ngaahi fale lahi, ʻo ʻi ai ʻa e founga faingofua ange, koeʻuhi ke lava ʻe ha taha ke ngāue ha meʻa."
+    },
+    "kids": {
+      "label": "Fanau",
+      "title": "Ngaahi Ngāue Fakafilifilimānako maʻá e Fanau",
+      "seo": "Ngaahi Ngāue Fakafilifilimānako maʻá e Fanau: ʻArt, Ongo mo Fiemālie",
+      "description": "Ngaahi ngāue fakafilifilimānako maʻá e fanau: ʻart maʻá e fanau iiki, ʻart ʻo e founga ngāue, keimi ʻo e ongo, ngaahi ngāue ʻi he ʻaho ʻuha, mo e fakakaukau ke fiemālie ai, ʻi ai ʻa e ngaahi fakamatala ki he malu mo e ngaahi founga maʻá e ngaahi fiemaʻu ʻo e ongo.",
+      "lede": "Ngaahi fakakaukau ʻart mo e keimi maʻá e fanau ʻi he ngaahi taʻu mo e fiemaʻu kehekehe, ʻi ai ʻa e ngaahi fakamatala ki he malu ʻoku mahino mo ha matua ʻoku ofi."
+    },
+    "together": {
+      "label": "Fakataha",
+      "title": "Ngaahi Ngāue ke Fai Fakataha",
+      "seo": "Ngaahi Ngāue ke Fai Fakataha, ʻi he Ngaahi Tupu",
+      "description": "Ngaahi ngāue maʻá e tupu ʻe ua pe lahi ange: lea fakataha, puzzle, taimi ʻi tuʻa, ngaue nima maʻá e tamai-kui mo e mokopuna, mo e founga ke ʻi ofi ai ʻi he mamaʻo.",
+      "lede": "Ngaahi fakakaukau ke fakataha ʻa e taimi mo e matua, tamai-kui, fanau pe kaungāʻapi, ʻi he ʻapi, ʻi tuʻa, ʻi ha asi pe mei he mamaʻo."
+    },
+    "creative-calm": {
+      "label": "Fakafilifilimānako fiemālie",
+      "title": "Fakafilifilimānako Fiemālie",
+      "seo": "Fakafilifilimānako Fiemālie: ʻArt mo e Ngāue ke Fiemālie ai",
+      "description": "Ngaahi ngāue fakafilifilimānako fiemālie maʻá e kakai matureʻ mo e kau tokanga: ʻart ʻo e manatu, tohi ʻo e ʻaho, hiva, taimi ongo mo e efiafi fiemālie. Ko e ngāue fakafilifilimānako, ʻikai ko ha tokoni fakafaitoʻo mahaki.",
+      "lede": "Ngaahi founga mohuʻi ke hohoko ʻaki ha pensiru, ha peesi pe ha hiva. Ko ha ngāue fakafilifilimānako ini, ʻikai ko ha tokoni fakafaitoʻo mahaki, pea ʻe ʻikai ke fiemaʻu ha poto."
     },
     "caregiving": {
-      "label": "Tokanga",
-      "title": "Ngaahi Tohi Tataki ki he Tokanga",
-      "seo": "Ngaahi Tohi Tataki ki he Tokanga ʻo e Dementia: Tokoni Faka-ʻaho",
-      "description": "Ngaahi tohi tataki faka-mahino mo fakaʻofa ki he kau tokanga ʻo e dementia: keimi fakataha, fetalanoaʻaki, ʻikai-tali, ʻita ʻi he efiafi, tēpile, filifili ngaahi ʻapi mo e tokanga ki ʻoe ʻosi.",
-      "lede": "Tokoni faka-mahino mo fakatatau ki he ngaahi taimi ʻo e ʻaho ʻi hono tokanga ki ha tangata ʻoku ʻi ai ʻa e dementia, ʻo kau ai ʻa e tokanga ki ʻoe ʻosi."
+      "label": "Tokanga ki he dementia",
+      "title": "Tokanga ki ha taha ʻoku moʻui ʻi he dementia",
+      "seo": "Tokanga ki ha taha ʻoku moʻui ʻi he dementia: ngaahi ngāue mo e tokoni",
+      "description": "Ngaahi tataki ma e ngaahi famili ʻoku tokanga ki ha taha ʻoku moʻui ʻi he dementia: ʻa e founga ke fakafiefia ai fakataha, ʻa e me'a ke fai ʻi he taimi ʻoku nau pehē ai ʻoku ʻikai, mo e feituʻu ʻe kumi ai ha tokoni ʻoku falala ki ai hili ʻa e fakamatala ʻo e mahaki.",
+      "lede": "Tokoni ʻoku muimuiʻi ʻaki ʻa e ngaahi ngāue ma e ngaahi famili ʻoku tokanga ki ha taha ʻoku moʻui ʻi he dementia, mo e feituʻu ʻe fakafalala ai ki he tokoni ʻo e moʻui lelei mo e tokanga."
     },
     "brain-health": {
       "label": "Mo'ui ʻatamai",
@@ -283,7 +396,16 @@
     "tryTogether": "Feinga fakataha",
     "relatedGuides": "Ngaahi tohi fehokotaki",
     "related": "Fehokotaki",
-    "startHere": "Kamata ʻi heni"
+    "startHere": "Kamata ʻi heni",
+    "staleAria": "Ko e fakaliliu ni ʻoku kuo tuai",
+    "staleTitle": "Ko e fakaliliu ni ʻoku kuo tuai",
+    "staleText": "Na'e fakaliliu ia mei ha tohinoa ʻuluaki ʻo e peesi fakapālangi, pea kuo liliu ia kimui ai. Ko e peesi fakapālangi ʻoku ʻaonga ʻi he taimi ni ko ia.",
+    "staleHealth": "ʻOku ʻomi ai ʻa e fakamatala ʻo e moʻui lelei, ko ia ai, vakai ki he peesi fakapālangi pea fehuʻi ki ha toketā pe ha nēsi kae ʻoua ʻe fai ha me'a ʻi he fakamatala ko ʻeni.",
+    "staleLink": "Lau ʻa e peesi fakapālangi ʻoku ʻaonga ʻi he taimi ni"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Fakatokanga ki he fakamatala mo'ui",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Ko ha Ngāue Fakataha, ʻikai ko ha Sivi ʻo e Mahino",
+      "title": "Ko ha Ngāue Fakataha, ʻIkai ha Suʻi",
       "seoTitle": "Fekau ki he Creative Activities: Ko Hotau Founga",
-      "description": "Ko e hā ʻoku ʻikai ai ha taimi, sikoa pe ngaahi tauhi ʻi he ngaahi keimi ʻa Creative Activities, ko e hā ʻoku tuʻu ai ʻa e ngaahi foto, mo e me'a ʻe ʻikai ke mau talaʻofa pe fakamatala ki he dementia.",
+      "description": "Ko e hā ʻoku ʻikai ai ha taimi, mēmio pe sikoa ʻi he Creative Activities, ko e hā ʻoku tuʻu ai ʻa e ngaahi ata, pea ko e hā ʻe ʻikai ke mau pehē ki he moʻui lelei.",
       "crumb": "Hotau founga",
-      "lede": "ʻOku fai ʻe Creative Activities ʻa e ngaahi ngāue foto fiemālie ki he kakai lalahi, ʻe lava ke fiefia ai ʻa e kau tokanga mo e tangata ʻoku ʻi ai ʻa e dementia ʻi he tafaʻaki ʻe taha.",
+      "sponsors": {
+        "heading": "Kau poupou mo e kau ngāue fakataha",
+        "none": "ʻOku ʻikai ha kau poupou ʻa e Creative Activities, ʻikai ha ngaahi feituʻu kuo totongi, pea ʻikai ha kau ngāue fakataha ʻoku ʻi ai honau ngaahi lōgo ʻi he uepisaite.",
+        "listed": "Ko ʻeni ko e kau poupou mo e kau ngāue fakataha ʻa e Creative Activities. ʻOku fakahāʻi foki ʻa e fekauʻaki kotoa ʻi he peesi ʻoku ʻi ai ia.",
+        "policy": "Kapau ʻe liliu ia, ʻe fakahāʻi ʻe he peesi kotoa pē ʻi he feituʻu ʻoku ʻi ai ia, ʻe ʻikai ha ngāue ʻe ʻave ha kau poupou, pea ʻe ʻi he peesi ni ʻa e lisi ʻo e kau ngāue fakataha.",
+        "listHeading": "Lisi ʻo e kau ngāue fakataha",
+        "noPartners": "ʻOku ʻikai ha kau ngāue fakataha ʻi he taimi ni."
+      },
+      "lede": "ʻOku fai ʻe he Creative Activities ʻa e ngaahi ngāue ʻoku fiemālie, ʻoku fe'unga mo e kakai angatuʻu, ʻoku lava ke fiefia ai ʻa e ongo tangata ʻi he tafaʻaki ʻe tahá, ʻo kau ai ʻa e taimi ʻoku tokanga ai ʻa e taha ki he taha, pe ʻoku nau fie fakataha pē ʻi he taimi.",
       "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Pehē ‘Oku Tau Tohi mo Sivi‘i ai ‘a Hotau Ngaahi Peesi",
       "seoTitle": "Tu‘utu‘uni ‘o e Tohi",
-      "description": "Ko e founga ‘oku fakatotolo, tohi, fakamatala‘i ‘aki ‘a e ngaahi fakamatala mo fakafo‘ou ai ‘a Creative Activities ‘a hotau ngaahi peesi ‘o e ngaue fakafiefia ‘i he dementia mo e mo‘ui lelei ‘o e ‘atamai, pea mo e ngaahi me‘a ‘e ‘ikai te tau tuku atu.",
+      "description": "Ko e founga ʻoku sivi'i, tohi, kumi ai ʻa e ngaahi punga, mo fakafoou ai ʻa e Creative Activities ʻa ʻene ngaahi peesi ngāue mo e moʻui lelei, mo e me'a ʻe ʻikai te mau pulusi ai ʻo taʻengata.",
       "crumb": "Tu‘utu‘uni ‘o e tohi",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Ngaahi Fehu‘i mo e Tali",
-      "seoTitle": "Ngaahi Ngaue Fakafiefia mo e Ngaue ‘i he Dementia: Ngaahi Fehu‘i mo e Tali",
-      "description": "Ngaahi tali ki he ngaahi fehu‘i ‘oku fai lahi ki he ngaahi ngaue fakafiefia ‘i he dementia: ko e ha ‘oku lelei ke feinga ki ai, ko e hā ‘a e lōloa ‘o e ngaue, ngaahi founga ki he taimi ‘oku ‘i ai ai ‘a e mahaki, mo e mo‘ui lelei ‘o e ‘atamai mo e nofo fufū.",
+      "seoTitle": "Ngaahi Fehuʻi mo e Tali fekauʻaki mo e Creative Activities",
+      "description": "Ngaahi tali ki he ngaahi fehuʻi ʻoku fehuʻia lahi fekauʻaki mo e ngaahi fakafiefia mo e ngaahi ngāue: ʻa e ʻe feinga ki ai, ʻa e taimi ʻe fakafiefia ai, ngaahi kulupu mo e ngaahi fakakaukau ʻi he kuonga hili, mo e moʻui lelei mo e tauhi fakafoʻituitui ʻo e fakamatala.",
       "crumb": "Ngaahi fehu‘i mo e tali",
       "lede": "Ngaahi tali nounou mo mahino ki he ngaahi fehu‘i ‘oku fehu‘i lahi taha ‘e he kau tokanga.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Fekau‘aki mo e ngaahi ngaue fakafiefia",
           "items": [
             {
-              "q": "Ko e ngaahi ngaue fakafiefia lelei taha ki ha taha ‘oku ‘i ai ‘a e dementia ko e hā?",
+              "q": "Ko e ngaahi fakafiefia lelei taha maʻae kakai motuʻa ko e hā?",
               "a": "Ko e ngaahi ngaue lelei taha ko e ngaahi me‘a ‘oku anga-fakafāmili, faingofua, pea ‘oku ‘ikai ha mamafa ‘i ai. Ko e me‘a ‘oku totonu ko ia ‘oku fiefia ai ‘a e tokotaha ‘i he ‘aho ni. Ko e fakatatau ‘o e ngaahi fakatātā ‘oku sio ai ‘a e kakai, fakalele‘i ‘a e ngaahi me‘a, ngaahi pōtoi faingofua, fakaʻosi ‘a e ngaahi lea anga-fakafāmili, kului, mo e pingo fakatātā, ‘oku lelei ‘i he kakai lahi. ‘Oku ‘ikai ke fakaʻaongaʻi ha taimi, sikoa, pe ha me‘a ‘oku hangē ko ha su‘i‘anga."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Moʻui lelei ʻo e ʻatamai",
+          "title": "Dementia mo e moʻui lelei",
           "items": [
             {
               "q": "ʻE lava ke taʻofi pe fakalaka ʻa e dementia ʻaki ʻa e ngaahi taʻaki?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Ko e fakamatala lahi: <a href=\"/caregiving/how-to-play-together/\">ʻa e founga ke fakafiefia ai fakataha</a>, <a href=\"/caregiving/when-they-say-no/\">ʻa e taimi ʻoku nau pehē ai ʻoku ʻikai</a>, <a href=\"/activities/late-stage/\">ngaahi ngāue ʻi he kuonga hili</a> mo e <a href=\"/dementia-activities/\">ngaahi ngāue dementia ʻi ʻapi</a>."
     },
     "handout": {
       "title": "Ngaahi Taʻaki Malū ʻe Taʻe-totongi ki he Kakai ʻoku ʻi ai ʻa e Dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Ki he Fale Tokoni, Ngaahi Fale Tohi mo e Ngaahi Kulupu Tokoni",
-      "seoTitle": "Ngaue Fakafiefia ta'etotongi ki he Dementia ma e Falelahi Tokanga mo e Kau Kulupu",
-      "description": "Pehē ko e fēfē 'a e faka'aonga'i 'e he ngaahi falelahi tokanga, ngaahi polokalama 'aho ki he kakai motu'a, ngaahi library, ngaahi ofisi tokoni ki he kakai motu'a mo e ngaahi kulupu tokoni 'a 'emau ngaahi keems fakafiefia ta'etotongi ki he dementia, pea mo e lea nounou ke kau ai 'a kimautolu ki ho'o lisi 'o e ngaahi fakamatala'anga.",
+      "seoTitle": "Ngaahi Ngāue Taʻetotongi maʻae ngaahi Fale Tokanga, Ngaahi Fale Tohi mo e Kulupu",
+      "description": "Ko e founga ʻoku ngāue ʻaki ai ʻe he ngaahi fale tokanga kakai motuʻa, ngaahi polokalama ʻo e ʻaho maʻae kakai angatuʻu, ngaahi fale tohi, ngaahi kautaha ʻo e kakai motuʻa mo e ngaahi kulupu tokoni ʻa e ngaahi fakafiefia taʻetotongi mo e ngaahi tataki ngāue ʻa mātou, pea mo e lea ke tānaki kimautolu ki he lisi ʻo e ngaahi koloa tokoni.",
       "crumb": "Ki he ngaahi kautaha",
       "lede": "Ko e me'a kotoa 'i he uepsaite ni 'oku ta'etotongi ke ngaue'aki mo e kakai 'oku nofo 'i he falelahi, mo e kau memipa mo e kau kliniki, 'o ta'e ha kaunti, laisense pe totongi. Ko e peesi ni 'oku fakamatala'i ai 'a e me'a 'oku 'i heni mo e founga ke fefaka'aki ai.",
-      "shortText": "{name}: ngaahi keems tatau ta'etotongi mo e ngaahi kaiako ngaue fakafiefia ki he kakai 'oku ma'u 'a e dementia mo e kau tokanga 'oku nau tokanga'i kinautolu. Ta'e'i ha fakahaa'i, ta'e'i ha taimi, pea ta'e'i ha fika.",
-      "longText": "{name} ({domain}) 'oku 'i ai 'a e {count} ngaahi keems ta'etotongi 'i he browser 'oku faka'amu ki he kakai 'oku ma'u 'a e dementia, 'o kau ai 'a e ngaahi pa'anga tatau 'oku 'ikai ke 'ave 'a e ngaahi tatau, ha jigsaw faingofua, ko e fakatu'utu'u, ngaahi lea fakataukei 'oku mahu'inga ki he kakai, mo e picture bingo 'oku 'i ai ha kāati ke pulusi. 'Oku ta'e'i ha kaunti, ta'e'i ha fakalaulau, ta'e'i ha taimi pe fika. 'Oku 'i ai foki 'i he uepsaite 'a e ngaahi kaiako ngaue lea faingofua ki he ngaahi kuonga kotoa 'o e dementia, 'oku nau fakamatala'i 'a e National Institute on Aging mo e Alzheimer's Association.",
+      "shortText": "{name}: ngaahi fakafiefia ata taʻetotongi mo malu'i mo e ngaahi tataki ngāue maʻae kakai motuʻa, famili mo e kakai ʻoku moʻui ʻi he dementia. ʻIkai ha fakahingoa, ʻikai ha ngaahi taimi, pe ngaahi sikoa.",
+      "longText": "{name} ({domain}) ʻoku ʻoange ʻe {count} ngaahi keimi ʻi he browser ʻe taʻetotongi, ʻaonga ki he kakai motuʻa, ki he fāmili mo e kakai ʻoku ʻi ai ʻa e dementia. ʻOku kau ai ʻa e paaloa ʻo e ngaahi ʻata ʻe toe hā ʻi he sikirini, ʻa e jigsaw faingofua, ʻa e vahevahe, ʻa e lea fakaʻaho, mo e picture bingo ʻoku ʻi ai ʻa e ngaahi kāati ke paʻi. ʻIkai ha akaunti, ngaahi fakalaka, taimi pe sikoa. ʻOku ʻi ai foki ʻi he saite ʻa e ngaahi talanoa ʻo e ngāue ʻi he lea faingofua ki he fāmili, kakai motuʻa mo e kau ngāue, mo e ngaahi fakamatala ʻo hangē ko e National Institute on Aging mo e Alzheimer's Association.",
       "useTitle": "Ko e me'a 'e lava ke ngaue'aki 'e he ngaahi kautaha",
       "gamesItemHtml": "<strong>{count} ngaahi keems 'i he browser</strong> 'oku ngaue 'i ha laptop, tablet pe TV 'oku fakafeohi ki ha kompiuta. Ta'e'i ha install, kaunti pe download. Vakai ki he <a href=\"/games/\">ngaahi keems kotoa</a>.",
       "printablesLabel": "{count} ngaahi pepa ke pulusi:",
       "printablesAfter": "Ngaue'aki 'a e kipi Print 'i he peesi kotoa.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Ngaahi founga kulupu:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> ʻoku ʻi ai ʻa e ngaahi kāati ke paʻi mo e tokotaha ʻoku ui ʻi he sikirini, pea ko e <a href=\"/together/conversation-games-for-all-ages/\">ngaahi keimi ʻo e talanoa</a> ʻoku ʻi ai ʻa e ngaahi fehuʻi mo e ngaahi filifili tali mo e ngaahi kaveinga ke talanoa ai.</li><li><strong>Ngaahi talanoa ʻo e ngāue</strong> ki he kau ngāue mo e fāmili, kuo tohi ʻi he lea faingofua mo e ngaahi fakamatala. Kamata ʻaki ʻa e <a href=\"/activities/ideas/\">101 ngaahi fakakaukau ʻo e ngāue</a> pe ko e <a href=\"/crafts/craft-group-sessions/\">ngaahi ngāue kulupu ki he ngaahi fale tokoni</a>.</li>",
       "restHtml": "<h2>Ko e founga 'oku faka'aonga'i ai 'e he kau kulupu</h2><ul><li><strong>Falelahi mo e tokanga 'o e kakai 'oku ma'u 'a e dementia:</strong> ko e picture bingo pe finish-the-saying 'i he TV 'i he loki fakataha, 'a ia 'e taha 'e tuku 'a e tapa ki he kulupu.</li><li><strong>Ngaahi polokalama 'aho:</strong> ko e feituʻu tablet 'oku 'i ai ha Picture pairs 'oku fakatonu ki he ngaahi tapa 'e fa, ki he ngaahi taimi si'isi'i tokotaha ki he tokotaha.</li><li><strong>Ngaahi library 'a e kakai:</strong> ko e ngaahi word search 'oku pulusi 'i he pepa mo e ngaahi kāati talanoa, 'i he ngaahi kete manatu, pea mo e uepsaite 'oku tānaki ki he ngaahi tablet 'o e library.</li><li><strong>Ngaahi kulupu tokoni ki he kau tokanga mo e ngaahi fakataha memi kafe:</strong> ko e <a href=\"/handout/\">peesi pepa 'e taha ke pulusi</a> ki he kau fāmili ke nau ave ki 'api.</li><li><strong>Ngaahi falemahaki mo e kau fakahoko 'o e fakaikiiki:</strong> ko e peesi ni 'i he ngaahi kete tokanga, ke 'i ai ha me'a fakamalie ke fai 'i 'api pe 'i he 'ao 'o e mahaki.</li></ul><h2>Ko e me'a 'oku 'ikai ke mau fai</h2><p>Ko e ngaahi keems 'oku ki he fiefia mo e taimi fakataha. 'Oku 'ikai ke nau fakamo'oni'i, suti, fakamatala, fakamaau, faito'o pe fakasiʻisiʻi 'a e dementia, pea 'oku kole atu ke 'oua 'e fakamatala'i 'e he ngaahi kautaha 'i ha founga pehē. 'Oku ta'e'i ha ngaahi fakalaulau, pea 'oku ta'e'i ai ha kole ke fakahoko 'a e ngaahi hingoa, fakamatala mo'ui pe ngaahi tatau. 'Oku ngaue'aki 'e he uepsaite ni 'a Google Analytics ke fakahoko 'a e ngaahi fakatokolahi; 'oku fakamatala'i 'e he <a href=\"/privacy/\">fakamatala 'o e mālohi</a> 'a e me'a 'oku fakatotolo'i ai. Ko e ngaahi tatau 'oku ngaue'aki 'i he <a href=\"/games/photo-pairs/\">Photo pairs</a> 'oku nofo 'i he browser.</p><h2>Fakakau kimautolu ki ho'o lisi 'o e ngaahi fakamatala'anga</h2><p>Kapau 'oku ke tauhi ha lisi 'o e ngaahi fakamatala'anga ki he kau tokanga, 'oku ke malu'i ke fakafeohi ki he <a href=\"/\">{domain}</a>. 'Oku ke malu'i ke kopi 'a ha fakamatala 'e taha 'oku ke fili.</p>",
       "shortTitle": "Fakamatala nounou",
       "longTitle": "Fakamatala lahi ange",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Ngaahi peesi ʻaonga ke fakafeʻiloaki ki ai ʻi ha sima: <a href=\"/games/\">ngaahi keimi taʻetotongi</a>, <a href=\"/games/\">ngaahi meʻa ke paʻi taʻetotongi</a>, <a href=\"/dementia-activities/\">ngaahi ngāue ʻi ʻapi maʻa e dementia</a> mo e <a href=\"/caregiving/how-to-play-together/\">founga ke fakataʻu fakataha</a>.</p><h2>Ngaahi fehuʻi pe ngaahi fakatonutonu</h2><p>Kapau ʻoku hala pe ʻikai mahino ha meʻa ʻi he saite, pe ʻoku ʻikai feʻunga ʻa e ʻoku ʻi heni ki he ngaahi fiemaʻu ʻo ha taha ʻoku nofo ʻi he fale, kātaki ʻo tuku mai ʻa e fakamatala kia <a href=\"mailto:{email}\">{email}</a>. Kātaki ʻo ʻoua ʻe fekau mai ʻa e ngaahi fakamatala fakafoʻituitui pe fakafaitoʻo ʻo e kakai ʻoku nofo ʻi he fale.</p>"
     },
     "app": {
       "title": "Ko e APP 'a Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Ngaahi Keemi Ta'etotongi ki he Dementia mo e Alzheimer ʻi he Initaneti",
-    "description": "Ngaahi keemi ta'etotongi ʻi he initaneti ki he kakai motuʻa ʻoku moʻui mo e dementia pe Alzheimer: fakatatau ata, puzzle faingofua, fakatuʻutuʻu, lea fakakakato, tā-lanu, bingo. ʻIkai ha ʻakaunite, taimi pe sikoa.",
+    "title": "Ngaahi Keimi Taʻetotongi ke Fakataʻu Fakataha ʻi he Initaneti",
+    "description": "Ngaahi keimi ʻi he initaneti ʻaonga ki he kakai motuʻa, fāmili mo e kakai ʻoku ʻi ai ʻa e dementia: fakatatau ʻo e ngaahi ʻata, jigsaw faingofua, vahevahe, lea fakaʻaho, fakalanu mo e bingo. ʻIkai ha tohi fakahū, taimi pe sikoa.",
     "crumb": "Ngaahi keemi",
-    "h1": "Ngaahi Keemi Malu ki he Kakai ʻoku ʻi ai ʻa e Dementia",
+    "h1": "Ngaahi Keimi Fiefia ke Fakataʻu Fakataha",
     "lede": "{count} ngaahi keemi ta'etotongi ke fakafiefia fakataha ʻi ho polauzā ʻi he initaneti. Ngaahi ata lahi, lea faingofua, pea ʻikai ha me'a ke hala ai: ʻikai ha taimi, ʻikai ha sikoa, ʻikai ha ʻakaunite.",
-    "listName": "Ngaahi keemi malu ki he kakai ʻoku ʻi ai ʻa e dementia",
+    "listName": "Ngaahi keimi fiefia ke fakataʻu fakataha",
     "byStageTitle": "Filifili ha keemi ʻo fakatatau ki he tuʻunga",
     "byStageLede": "Ko e ngaahi tuʻunga ko ha fakahinohino vave pe. Muimui ʻi he me'a ʻoku fiefia ai ʻa e tokotaha ʻoku ke tokanga ki ai mo e me'a ʻoku lelei ai he ʻaho ni.",
     "stageCol": "Tuʻunga",
     "gamesCol": "Ngaahi keemi ʻoku faʻa felāveʻi",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Ngaahi fakakaukau ke fai ʻi tuʻa mei he sikirini: <a href=\"/activities/ideas/\">101 ngaahi fakakaukau ʻo e ngāue</a>, <a href=\"/dementia-activities/\">ngaahi ngāue ʻi ʻapi maʻa e dementia</a> mo e <a href=\"/crafts/\">ngaahi ngāue fakanima</a>.",
     "faq": [
       {
         "q": "Ko e hā ha keemi ke tau kamata ai?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Ko e ngaahi keemi manatu ni ki he kakai motuʻa?",
-        "a": "ʻOku ʻi ai ʻa e ngaahi keemi fakatatau mo e ata ʻe ʻaonga ki ha kakai motuʻa kotoa, ka kuo fai ia ke ʻikai ko ha fakatatau ʻo e manatu: ʻi he Ngaahi tatau ata, ʻoku tuʻu ʻa e ngaahi ata ʻi ʻolunga ka ʻikai ko ha filifili kehe. Ko e tohi fakahinohino ʻa e ngaahi keemi manatu ki he kakai motuʻa ʻoku moʻui mo e dementia ʻoku fakamatala ai ʻi hano fai ʻa e keemi manatu kotoa ke malu."
+        "a": "ʻOku nau ʻi ai ʻa e ngaahi keimi fakatatau mo e ngaahi ʻata ke fiefia ai ha kakai motuʻa taki taha, ka kuo fokotuʻu ʻaki ʻa e founga ʻe ʻikai ke fakatotolo ai ʻa e manatu: ʻi he keimi Picture pairs ko e ngaahi ʻata ʻe toe hā ʻi ʻolunga kae ʻoua kuo filifili ke fai ʻaki ha meʻa kehe. ʻE lava ke fakafiemālie ange ha keimi manatu ʻaki ʻa e tukulolo ʻo e taimi mo e sikoa."
       },
       {
         "q": "ʻOku ʻi ai ha ngaahi keemi ki he ngaahi kulupu ʻi he ʻapi tokanga?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ʻOku ʻi ha ʻapi ngaue ki he dementia?",
+        "q": "ʻOku ʻi ai ha ʻapi ki he kakai motuʻa mo e fāmili?",
         "a": "ʻIo. Creative Activities (ʻoku lisi ʻaki ko e \"{storeName}\") ko e ʻapi ta'etotongi ʻi he App Store mo Google Play. ʻOku ʻi ai ʻa e fakatatau ata malu ʻaki ʻa e tapa lahi, keemi mo e ngaahi ata ʻo e fāmili ʻoku ke filifili, mo e ngaahi puha ata ʻoku ngaue ʻi he ʻikai ha initaneti."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Ke paʻi",
     "howTo": "Founga ke taʻalo ai ʻa {name}",
     "tips": "Ngaahi tokoni ki hono taʻalo fakataha",
-    "newToPlayingHtml": "Ko e fo‘ou ki he taʻalo mo ha taha ʻoku ʻi ai ha mahaki manatu? Lau <a href=\"/caregiving/how-to-play-together/\">ʻa e founga ke taʻalo fakataha</a>, ʻo kau ai ʻa e meʻa ke fai kapau ʻoku ʻikai ke toe fiefia ʻe ia.",
+    "newToPlayingHtml": "Ko e fakataʻu mo ha taha motuʻa pe ha taha ʻoku ʻi ai ʻa e dementia ʻoku foʻou kiate koe? Lau ʻa e <a href=\"/caregiving/how-to-play-together/\">founga ke fakataʻu fakataha ʻaki ʻa e ngaahi keimi</a>, ʻo kau ai ʻa e meʻa ke fai kapau ʻoku ʻikai ke toe fie fakataʻu ia.",
     "moreAria": "Ke ʻilo ha meʻa kehe",
     "helpfulGuides": "Ngaahi tataki ʻoku tokoni",
     "appTitle": "Taʻalo ʻi he polokalama",
@@ -536,6 +666,35 @@
     "goodToKnow": "Meʻa ʻoku totonu ke ke ʻilo",
     "goodToKnowText": "Ko e kemi ni ko e meʻa ke fiefia ai mo e taimi fakataha. ʻOku ʻikai ke ne siviʻi, fuʻu pe fakalelei ha meʻa.",
     "moreGames": "Ngaahi kemi fiemālie kehe",
-    "crumb": "Ngaahi kemi"
+    "crumb": "Ngaahi kemi",
+    "print": {
+      "heading": "Fakataʻu ʻi he pepa",
+      "sameRules": "Ko e version ʻi he pepa ʻoku tatau ʻa e ngaahi tuʻutuʻuni mo e keimi ʻi he sikirini:",
+      "button": "Paʻi ha version ʻi he pepa",
+      "pageNote": "Peesi ʻe taha ʻi he A4 pe US Letter, ʻoku lelei ʻi he pēkiʻi mo e pale. Version {date}.",
+      "islandNote": "ʻOku paʻi ʻaki ʻa e meʻa ʻoku ʻi he sikirini ʻi he taimi ni. Version {date}.",
+      "sheetTitle": "{name}: version ʻi he pepa",
+      "point": "ʻI he pepa, fakaʻaʻa ki ha ʻata ʻi he taimi ʻoku ʻikai ke tō ai ʻaki ʻa e nima, pe kāpui ʻaki ʻa e peni. Ko e laine taki taha ko ha seti foʻou.",
+      "pointTarget": "ʻI he pepa, ko e ʻata ke vakai ki ai ʻoku ʻi he puha ʻi he kamataʻanga ʻo e laine taki taha. Fakaʻaʻa ki ha ʻata ʻi he taimi ʻoku ʻikai ke tō ai, pe kāpui ʻaki ʻa e peni.",
+      "halves": "Ko e ʻata taki taha ʻoku tipi ʻi he lotolotonga. Tohi ha laine mei he konga ʻi he hema ki he konga ʻi he tauʻi ʻoku feʻunga mo ia, pe fakaʻaʻa ʻaki ʻa e nima. ʻOku ʻikai ke fiemaʻu ke tipi.",
+      "grid": "Ko e kuea taki taha ʻoku ʻi ai ha numero. Kumi ʻa e numero ko ia ʻi he kī, pea lanu ʻa e kuea ʻaki ʻa e pensala ʻoku tatau mo e lanu ko ia. ʻE lelei foki ha lanu kehe ʻoku ke loto ki ai. ʻOku ʻikai ke fiemaʻu ke tipi.",
+      "colors": "Ko e laine taki taha ʻoku hiki ai ha lanu. Fakaʻaʻa ki ha ʻata kotoa ʻoku tatau ʻa e lanu ko iá, pe kāpui ʻaki ʻa e peni. Ko e laine taki taha ko ha seti foʻou.",
+      "dice": "Ko e laine taki taha ko ha seti ʻo e ngaahi tāmani. Filifili ha laine, pe tipi ʻa e ngaahi ʻata ʻo toʻo ai mei ha puha, pea fakamatala ʻaki ʻa e ngaahi ʻata ʻi ha founga ʻaonga. ʻE lava ke tuku ʻe ha taha hono tuʻo.",
+      "words": "Tipi ʻa e ngaahi lea, pe tohi ha laine mei he lea taki taha ki hono ʻata. Lau ʻa e ngaahi lea leʻo lahi ʻi he taimi ʻoku ke fai ai.",
+      "cards": "Tipi ʻa e ngaahi kāati ʻi he ngaahi laine ʻoku tutu. Fakatuʻu ʻi ʻolunga ʻo e laʻi, pea kumi ʻa e ngaahi fakatatau.",
+      "chain": "ʻI he pepa, lau ʻa e ngaahi ʻata mei he fakaʻuluʻi ki he fakamuimui, taki taha ʻi he tuʻo. Ko e tokotaha taki taha ʻe lea ʻe taha fuofua ki he ngaahi ʻata kuo hoko ʻo aʻu ki eni, pea fakaʻaʻa ki he ʻata hokó. ʻE lava ke tuku ʻe ha taha hono tuʻo.",
+      "sort": "Tipi ʻa e ngaahi ʻata ʻi he ngaahi laine ʻoku tutu, pea tuku taki taha ki he puha ʻoku feʻunga mo ia.",
+      "puzzle": "Tipi ʻa e ʻata lahi ʻi he ngaahi laine ʻoku tutu ki he konga ʻe fā, pea fakasiʻisiʻi ʻi ha ngaahi konga. Fetongi ʻa e konga ʻe ua ʻi he taimi, ʻo aʻu ki he taimi ʻoku kakato ai ʻa e ʻata. Ko e ʻata iiki ko e kiʻi tataki.",
+      "cutSafety": "ʻE lava ke tokoni ha taha ki he tipi kimuʻa ke kamata. Toʻo ʻa e ngaahi sisa ʻi hono potu hili ia.",
+      "version": "Version {date} · {url}",
+      "reasons": {
+        "photos": "ʻOku ʻikai ha version ʻi he pepa. ʻOku ngāue ʻa e keimi ni ʻaki ʻa e ngaahi ʻata ʻa hoʻo ngaahi ʻata, ʻoku tumau ia ʻi ho browser pea ʻoku ʻikai ke ʻave ki ha feituʻu kehe, ko ia ʻoku ʻikai ke lava ʻe he saite ke paʻi ia. Ke fakataʻu ʻi he pepa, paʻi ʻe ua ʻa e ngaahi ʻata ʻoku ʻofa ai ʻi ʻapi, pea fakatatau ʻi he laʻi.",
+        "paced": "ʻOku ʻikai ha version ʻi he pepa. ʻOku fokotuʻu ʻe he tuʻa ʻi he sikirini ʻa e vave ʻoku māmālie mo tuʻumaʻu, pea ʻe ʻikai ke lava ke fai ia ʻe ha pepa ʻoku paʻi, ko ia ʻe hoko ai ko ha ngāue kehe. Ko ha malu fakataha ʻi he taimi ʻoku ʻikai ha sikirini ʻoku ʻi ai maʻu pe ha filifili.",
+        "turns": "ʻOku ʻikai ha version ʻi he pepa ʻo e keimi ni. Ke kumi ʻa e ngaahi fakatatau ʻi he laʻi, paʻi ʻa e ngaahi kāati ʻata mei he Picture pairs, pea fai ʻa e ngaahi tuʻo ʻi hono hiki ʻo ia.",
+        "screen": "ʻOku ʻikai ha tatau ʻi he pepa. Ko e ataʻ eni ke sio fakataha ai ʻi he sikilini; ʻe tatau pe ʻaki ha fakatātā pe ha kāate poso ʻoku ʻofa ʻaupito ʻi he tēpile.",
+        "wash": "ʻOku ʻikai ha tatau ʻi he pepa. Ko e peni lanu vai ʻi he pepa ʻoku tatau pe ʻa e fakakaukau ʻeni: ko e pulasi ʻoku vai mo ha lanu ʻe taha ʻi he taimi tatau.",
+        "sayings": "ʻOku ʻikai ha tatau ʻi he pepa ʻi he taimi ni. ʻI he pepa, ʻe fakahā kotoa ʻa e ngataʻanga ʻi he taimi tatau, pea ʻe ʻikai te mou maʻu ai ʻa e sitepu malū ʻa e \"Fakahā ʻa e ngataʻanga\". Lau fakataha ʻa e ngaahi lea mei he sikilini, pe fakafeʻiloaki ha ni'ihi ʻoku mo ʻilo kotoa."
+      }
+    }
   }
 }

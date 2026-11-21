@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities باش بېتى",
     "mainNav": "ئاساسىي تىزىملىك",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: چاي ئىستاكىنى، ئاپتاپپەرەس ۋە ئىتنىڭ چوڭ، يېقىشلىق رەسىملىرى",
+    "defaultImageAlt": "Creative Activities: large, friendly drawings of everyday things to make and do",
     "languages": "تىل",
     "englishOnly": "(ئىنگلىزچە)",
     "machineTranslated": "بۇ بەت ئاپتوماتىك تەرجىمە قىلىنغان بولۇپ، تېخى ئانا تىلدا سۆزلىشىدىغان بىرى تەرىپىدىن تەكشۈرۈلمىدى.",
     "readOriginal": "ئەسلى نۇسخىسىنى ئىنگلىزچە ئوقۇش",
     "nav": {
+      "find": "Find an activity",
       "games": "ئويۇنلار",
       "activities": "پائالىيەتلەر",
       "caregiving": "پەرۋىش قىلىش",
-      "brainHealth": "مېڭە ساغلاملىقى"
+      "brainHealth": "مېڭە ساغلاملىقى",
+      "crafts": "قولھۈنەرۋەنچىلىك",
+      "kids": "بالىلار",
+      "together": "بىرگە",
+      "creativeCalm": "ئىجادىي تىنچلىق",
+      "search": "ئىزدەش"
     },
     "faqTitle": "سوئال-جاۋابلار",
     "breadcrumb": "يول باشلىغۇچ",
@@ -27,7 +33,32 @@
       "label": "خەت چوڭلۇقى",
       "smaller": "ئۆلچەملىك خەت",
       "larger": "چوڭراق خەت",
-      "contrast": "يۇقىرى سېلىشتۇرما"
+      "contrast": "يۇقىرى سېلىشتۇرما",
+      "colors": "رەڭلەر",
+      "light": "يورۇق",
+      "dark": "قاراڭغۇ",
+      "device": "بۇ ئۈسكۈنىدىكىگە ئوخشاش",
+      "lineLength": "قۇر ئۇزۇنلۇقى",
+      "standardLines": "ئادەتتىكى",
+      "shorterLines": "قىسقا قۇرلار",
+      "spacing": "ئارىلىق",
+      "standardSpacing": "ئادەتتىكى",
+      "moreSpace": "تېخىمۇ كۆپ ئارىلىق"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 پائالىيەت پىكىرى",
     "lateStage": "كېيىنكى مەزگىل پائالىيەتلىرى",
     "printable": "بېسىپ چىقارغىلى بولىدىغان پائالىيەتلەر",
-    "allActivities": "بارلىق پائالىيەتلەر",
+    "allActivities": "بارلىق پائالىيەت يېتەكچىلىرى",
     "forCaregivers": "پەرۋىشكارلار ئۈچۈن",
     "playTogether": "بىللە ئويناش ئۇسۇلى",
     "selfCare": "ئۆزىڭىزگە كۆڭۈل بۆلۈش",
@@ -54,24 +85,34 @@
     "app": "Creative Activities ئەپ دېتالى",
     "appHelp": "ئەپ ياردىمى",
     "support": "قوللاش",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "قانۇنىي ئۇچۇرلار",
     "sitePrivacy": "تور بېكەت مەخپىيەتلىكى",
     "appPrivacy": "ئەپ مەخپىيەتلىك سىياسىتى",
     "privacyChoices": "مەخپىيەتلىك تاللانمىلىرى",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "شەرتلەر ۋە ئەپ ئىجازەتنامىسى",
     "safety": "بىخەتەرلىك ۋە مەقسەتلىك ئىشلىتىش",
     "accessibility": "قولايلىقلىق",
     "healthNotice": "ساغلاملىق ئۇچۇرى ئۇقتۇرۇشى",
     "allLegal": "بارلىق قانۇنىي ئۇچۇرلار",
     "note": "Creative Activities كۆڭۈل ئېچىش ئۈچۈن بىرلىكتە قىلىدىغان ئاددىي پائالىيەتلەرنى تەمىنلەيدۇ. بۇ تېببىي مەسلىھەت، سىناق ياكى داۋالاش ئەمەس ھەمدە ھېچكىمگە دىئاگنوز قويمايدۇ، ھالىتىنى ئۆلچىمەيدۇ ياكى نومۇر بەرمەيدۇ. ساغلاملىققا ئائىت سوئاللار بولسا دوختۇر بىلەن مەسلىھەتلىشىڭ. جىددىي ئەھۋالغا يولۇقسىڭىز، 120 غا تېلېفون قىلىڭ.",
-    "publisher": "نەشر قىلغۇچى: Cloudjet Solutions Pte. Ltd."
+    "publisher": "نەشر قىلغۇچى: Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Crafts for all ages",
+    "kids": "بالىلار ئۈچۈن پائالىيەتلەر",
+    "together": "بىرگە قىلىدىغان پائالىيەتلەر",
+    "creativeCalm": "ئىجادىي تىنچلىق",
+    "dementiaActivities": "ئەقلىي تەنەززۇل كېسىلى بار كىشىلەر ئۈچۈن پائالىيەتلەر"
   },
   "home": {
-    "title": "دەمېنسىيە ۋە ئالزىمېر ئويۇنلىرى ھەم پائالىيەتلىرى | Creative Activities",
-    "description": "دەمېنسىيە ياكى ئالزىمېر كېسىلى بىلەن ياشاۋاتقان كىشىلەر ۋە ئۇلارنىڭ پەرۋىشكارلىرى ئۈچۈن توردا ئوينايدىغان ھەقسىز، خاتىرجەم رەسىم ئويۇنلىرى ۋە پائالىيەت پىكىرلىرى. تىزىملىتىش، ۋاقىت چەكلىمىسى ياكى نومۇر قويۇش يوق.",
+    "title": "ئادەمنى قاراپ يۈرگەنلەر ئۈچۈن ئىجادىي پائالىيەتلەر",
+    "description": "ئادەمنى قاراپ يۈرگەنلەر ئۈچۈن ھەقسىز ئىجادىي پائالىيەتلەر: قولھۈنەرۋەنچىلىك، بالىلارغا ئىناۋەتلىك ئىشلار، بىرگە قىلىدىغان پائالىيەتلەر ۋە تىنچ ئىجادىي ئىلھاملار.",
     "eyebrow": "ھەقسىز · ئېلان يوق · تىزىملىتىش يوق · ۋاقىت ياكى نومۇر يوق",
-    "h1": "دەمېنسىيە بىلەن ياشاۋاتقان كىشىلەر ئۈچۈن ئاددىي ۋە يېقىشلىق ئويۇنلار ھەم پائالىيەتلەر",
-    "lede": "ئۆزىڭىزگە قولايلىق قەدەمدە بىرلىكتە ھۇزۇرلىنىدىغان ئاددىي رەسىم ئويۇنلىرى، تونۇش سۈرەتلەر ۋە پائالىيەتلەر.",
+    "h1": "بىرگە بىر نەرسە ياساڭ",
+    "lede": "Find an activity that fits the person, the moment, and what you have. Easy crafts, kids’ art, things to do together and calm creative ideas, with easier versions and a card to print. Stop whenever you like.",
     "playGame": "ئويۇن ئويناش",
     "findIdeas": "پائالىيەت پىكىرلىرىنى كۆرۈش",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 پائالىيەت پىكىرى",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "دەسلەپكى مەزگىل",
         "text": "ئۇلار ياخشى كۆرىدىغان ئىشلارنى ئازراق تەڭشەش بىلەن داۋاملاشتۇرۇش: قىزىقىشلار، سىرتقا چىقىش، سۆز ئويۇنلىرى ۋە بىللە پىلانلاش.",
         "label": "دەسلەپكى مەزگىل پىكىرلىرى"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "ئوتتۇرا مەزگىل",
         "text": "باسقۇچلارغا بۆلۈنگەن ئاددىي، تونۇش ئىشلار: كىيىم قاتلاش، رەتلەش، مۇزىكا ئاڭلاش، رەسىم ئويۇنلىرى ۋە قىسقا سەيلە.",
         "label": "ئوتتۇرا مەزگىل پىكىرلىرى"
@@ -126,8 +167,8 @@
     ],
     "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
     "approachEyebrow": "بىزنىڭ ئۇسۇلىمىز",
-    "approachTitle": "بىرلىكتىكى پائالىيەت، ئەستە تۇتۇش سىنىقى ئەمەس",
-    "approachLede": "نۇرغۇن «مېڭە ئويۇنلىرى» سۈرئەت، نومۇر ۋە ئۇدا غەلىبە قىلىشنى چۆرىدەپ لايىھەلەنگەن. دەمېنسىيە بىلەن ياشاۋاتقان بىر كىشى ئۈچۈن، بۇ ئۆزىنى ئىمتىھاندەك ھېس قىلدۇرۇپ قويۇشى مۇمكىن. بىز دەل بۇنىڭ ئەكسىچە قىلدۇق.",
+    "approachTitle": "ئورتاق پائالىيەت، سىناق ئەمەس",
+    "approachLede": "Many “brain games” are built around speed, scores and streaks. For someone who is tired, unwell or living with dementia, that can feel like an exam. We built the opposite.",
     "approachLink": "نېمىشقا بۇنداق لايىھەلىدۇق",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "رەت قىلىشنىڭ ئورتاق سەۋەبلىرى ۋە كېيىنرەك قايتا سىناپ كۆرۈشنىڭ مۇلايىم ئۇسۇللىرى."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "تاختا كومپيۇتېرنى تەڭشەش",
-        "text": "چوڭراق خەت، ئاز ئاۋارىچىلىك ۋە ئاددىي بىر ئاساسىي ئېكران."
+        "href": "/activities/group-art-activities/",
+        "title": "گۇرۇپپا سەنئەت پائالىيەتلىرى",
+        "text": "بىر نەچچە ئادەملىك بىر ئۈستەل ئەتراپىدا ئورتاق لايىھەلەر، ھەر بىر كىشىگە ئايرىم ۋەزىپە بىلەن."
       },
       {
-        "href": "/activities/printable/",
-        "title": "ھەقسىز بېسىپ چىقىرىلىدىغان پائالىيەتلەر",
-        "text": "چوڭ خەتلىك سۆز تېپىش، رەڭ بېرىش بەتلىرى، بىنگو ۋە پاراڭلىشىش كارتىلىرى."
+        "href": "/activities/ideas/",
+        "title": "101 پائالىيەت ئىلھامى",
+        "text": "ئاددىي ئىلھاملار، قولىڭىزدىكى نەرسە ۋە كۈچ-قۇۋۋىتىڭىزگە قاراپ تۈرگە ئايرىلغان."
       }
     ],
     "researchTitle": "مېڭە ساغلاملىقى: تەتقىقاتلار نېمە دەيدۇ",
@@ -185,16 +226,16 @@
     "aboutApp": "ئەپ ھەققىدە",
     "faq": [
       {
-        "q": "دەمېنسىيە بىلەن ياشاۋاتقان كىشىلەرگە قايسى ئويۇنلار ماس كېلىدۇ؟",
-        "a": "ياخشى ئويۇنلار ئاددىي، كۆنۈككەن ۋە ھېچقانداق بېسىمسىز بولىدۇ: ماسلاشتۇرىدىغان چوڭ رەسىملەر، تۈرگە ئايرىش، ئاددىي قۇراشتۇرما رەسىملەر، كۆپچىلىككە تونۇش ماقال-تەمسىللەرنى تاماملاش، بوياش، رەسىملىك بىنـگو ۋە پاراڭ كارتىلىرى. ئەڭ ياخشى تاللاش — شۇ كىشى بۈگۈن خۇشاللىق تاپقان تاللاشتۇر. ۋاقىت ئۆلچىگۈچ، نومۇر ۋە ئىمتىھاندەك تۇيغۇ بېرىدىغان ھەرقانداق نەرسىدىن يىراق تۇرۇڭ."
+        "q": "ياشانغان كىشىلەر ئۈچۈن قانداق ئويۇنلار ياخشى؟",
+        "a": "Good games are simple, familiar and free of pressure: large pictures to match, sorting, easy jigsaws, finishing well-known sayings, coloring, picture bingo and conversation cards. They suit many older adults, including people living with dementia. The best choice is the one the person enjoys today. Avoid timers, scores and anything that feels like a test."
       },
       {
-        "q": "بۇ دېمېنسىيە ئويۇنلىرى ھەقسىزمۇ؟",
+        "q": "Are these games free?",
         "a": "ھەئە. Creative Activities دىكى ھەر بىر ئويۇن ۋە قەغەزگە بېسىپ چىقىرىلىدىغان مەزمۇنلار ھەقسىز بولۇپ، ھېسابات ئېچىش، تىزىملىتىش ياكى ئەپ چۈشۈرۈش تەلەپ قىلىنمايدۇ. ئويۇنلار تېلېفون، تاختا كومپيۇتېر ياكى كومپيۇتېردىكى تور كۆرگۈچتە بىۋاسىتە ئىشلەيدۇ."
       },
       {
         "q": "مېڭە ئويۇنلىرى دېمېنسىيەنىڭ ئالدىنى ئالامدۇ؟",
-        "a": "ھېچقانداق ئويۇننىڭ دېمېنسىيەنىڭ ئالدىنى ئالىدىغانلىقى ئىسپاتلانمىغان، شۇنداقلا Creative Activities ھەرقانداق كېسەللىكنى داۋالاش ياكى ئالدىنى ئېلىش توغرىسىدا تەشەببۇس قىلمايدۇ. ئويۇنلىرىمىز پەقەت كۆڭۈل ئېچىش ۋە بىللە ۋاقىت ئۆتكۈزۈش ئۈچۈندۇر. مېڭە ساغلاملىقى سەھىپىمىزدە تەتقىقاتلاردا نېمىلەرنىڭ ئېنىقلانغانلىقى ۋە نېمىلەرنىڭ ئىسپاتلانمىغانلىقى چۈشەندۈرۈلگەن."
+        "a": "No game has been shown to prevent dementia, and Creative Activities does not claim to treat or prevent anything. Our games are for enjoyment and time together, and no activity page makes a health claim."
       },
       {
         "q": "بۇ ئويۇنلار ئالزېيمېر كېسىلى بار كىشىلەرگە ماس كېلەمدۇ؟",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities نى كىملەر تەييارلىغان؟",
-        "a": "Creative Activities — ئائىلىلەر ۋە ھالىدىن خەۋەر ئالغۇچىلار ئۈچۈن توردا ۋە ھەقسىز ئەپ سۈپىتىدە خاتىرجەم، قۇرامىغا يەتكەنلەرگە ماس رەسىملىك پائالىيەتلەرنى ئىشلەيدىغان كىچىك بىر گۇرۇپپىدۇر. بىز كىلىنىكىلىق دوختۇر ئەمەس، بۇ يەردىكى ھېچقانداق مەزمۇن تېببىي مەسلىھەت ھېسابلانمايدۇ."
+        "a": "Creative Activities is a small team making calm, adult creative activities for anyone caring for someone, on the web and as a free app. We are not clinicians, and nothing here is medical advice."
+      }
+    ],
+    "groupsEyebrow": "ئۆزۈڭىزگە ماس يولنى تېپىڭ",
+    "groupsTitle": "تۆت خىل ئىجادىي پائالىيەت",
+    "groupsLede": "Start with the group that fits who you are with and what you have. Each page has easier versions and safety notes.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "قولھۈنەرۋەنچىلىك",
+        "text": "قەغەز، بوياق، قايتا ئىشلەتكىلى بولىدىغان ۋە پەسىللىك لايىھەلەر، ھەر بىرىگە يەنىڭىل نۇسخا بار.",
+        "label": "قولھۈنەرۋەنچىلىكنى كۆرۈش"
+      },
+      {
+        "href": "/kids/",
+        "title": "بالىلار",
+        "text": "Art and play for children, with an adult nearby and clear safety notes.",
+        "label": "بالىلار پائالىيەتلىرىنى كۆرۈش"
+      },
+      {
+        "href": "/together/",
+        "title": "بىرگە",
+        "text": "Conversation, puzzles, outdoor time and ways to stay close across generations.",
+        "label": "Browse things to do together"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "ئىجادىي تىنچلىق",
+        "text": "Slow, quiet creative moments with a pencil, a page or a song. Not therapy.",
+        "label": "ئىجادىي تىنچلىقنى كۆرۈش"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "بېسىپ چىقىرىلىدىغان مەزمۇن",
     "play": "{name} ئويناش →",
     "readGuide": "قوللانمىنى ئوقۇش"
+  },
+  "listen": {
+    "listenSteps": "قەدەملەرنى ئاڭلاش",
+    "pause": "توختىتىش",
+    "resume": "davam ettürüş",
+    "stop": "توختاش",
+    "speed": "تېزلىك",
+    "normal": "ئادەتتىكى",
+    "slower": "ئاستا",
+    "reading": "Reading the steps aloud.",
+    "paused": "Paused. Press Resume to carry on.",
+    "note": "Uses your device's own voice. Some devices send the text to their maker to speak it.",
+    "listen": "ئاڭلاش",
+    "stepLabel": "{n}-قەدەمنى ئاڭلاش",
+    "stopStep": "{n}-قەدەمنى توختاش"
   },
   "playCta": {
     "title": "ئازادە، تىنچ ئويۇنغا تەييارمۇ؟",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "پائالىيەتلەر",
-      "title": "دېمېنسىيە بىلەن ياشاۋاتقانلار ئۈچۈن پائالىيەتلەر",
-      "seo": "دېمېنسىيە بىلەن ياشاۋاتقانلار ئۈچۈن پائالىيەتلەر: باسقۇچ بويىچە پىكىرلەر",
-      "description": "دېمېنسىيە بىلەن ياشاۋاتقانلار ئۈچۈن ھەر بىر باسقۇچقا ماس كېلىدىغان پائالىيەت پىكىرلىرى: مۇزىكا، ئەسلىمىلەر، كۈندىلىك ئىشلار، سېزىم دەملىرى، قول ھۈنەرلىرى، ئوچۇق ھاۋا پائالىيەتلىرى ۋە ھەقسىز قەغەز مەزمۇنلىرى.",
-      "lede": "مەزمۇنلۇق پائالىيەت كىشىگە ئاراملىق، مەقسەت تۇيغۇسى ياكى بىر دەملىك ئالاقە باغلاش ھۇزۇرى ئېلىپ كېلىدىغان ھەرقانداق ئىشتۇر. ئۇلار بۇرۇندىن ياقتۇرۇپ كەلگەن ئىشلاردىن باشلاڭ ۋە ئۇنى بۈگۈنكى ھالىتىگە ماسلاشتۇرۇڭ."
+      "label": "پائالىيەت يېتەكچىلىرى",
+      "title": "پائالىيەت يېتەكچىلىرى",
+      "seo": "پائالىيەت يېتەكچىلىرى: ئىلھاملار، سەنئەت لازىملىقلىرى ۋە باشلاش يوللىرى",
+      "description": "بىرىگە قىلالايدىغان ئىجادىي پائالىيەتلەر ھەققىدە ئاددىي يېتەكچىلەر: ئاددىي ئىلھاملار، ئىقتىسادىي سەنئەت لازىملىقلىرى، گۇرۇپپا سەنئەتى، خەت، خاتىرىلەر ۋە سەنئەت داۋاسى چۈشەندۈرۈلگەن.",
+      "lede": "كىم بولۇشىدىن قەتئىينەزەر، بىر كىشى بىلەن پائالىيەت تاللاش ۋە باشلاش üçün قىسقا، ئەمەلىي يېتەكچىلەر."
+    },
+    "crafts": {
+      "label": "قولھۈنەرۋەنچىلىك",
+      "title": "ھەممە ياشقا قولھۈنەرۋەنچىلىك",
+      "seo": "ھەممە ياش üçün ئاددىي قولھۈنەرۋەنچىلىك، يەنىڭىل نۇسخىلار بىلەن",
+      "description": "Easy crafts for adults, children and families: paper, coloring, recycled and seasonal crafts, with easier-to-grip and seated versions and no special skill.",
+      "lede": "Crafts that start from what most homes already have, each with an easier version, so anyone can make something."
+    },
+    "kids": {
+      "label": "بالىلار",
+      "title": "بالىلار üçün ئىجادىي پائالىيەتلەر",
+      "seo": "Creative Activities for Kids: Art, Sensory and Calm",
+      "description": "Creative activities for children: toddler art, process art, sensory play, rainy-day crafts and calm-down ideas, with safety notes and versions for sensory needs.",
+      "lede": "Art and play ideas for children of different ages and needs, with clear safety notes and an adult nearby."
+    },
+    "together": {
+      "label": "بىرگە",
+      "title": "بىرگە قىلىدىغان پائالىيەتلەر",
+      "seo": "ئەۋلادلار ئارا بىرگە قىلىدىغان پائالىيەتلەر",
+      "description": "Activities for two or more generations: conversation games, puzzles, outdoor time, crafts for grandparents and grandchildren, and ways to stay close from afar.",
+      "lede": "Ideas for sharing time with a parent, grandparent, child or friend, at home, outdoors, on a visit or from far away."
+    },
+    "creative-calm": {
+      "label": "ئىجادىي تىنچلىق",
+      "title": "ئىجادىي تىنچلىق",
+      "seo": "ئىجادىي تىنچلىق: ئارام بېرىدىغان سەنئەت ۋە پائالىيەتلەر",
+      "description": "Relaxing creative activities for adults and carers: mindful art, journaling, music, sensory moments and calm afternoons. Creative activity, not therapy.",
+      "lede": "Gentle ways to slow down with a pencil, a page or a song. These are creative activities, not therapy, and they ask for no skill."
     },
     "caregiving": {
-      "label": "پەرۋىش قىلىش",
-      "title": "پەرۋىش قىلىش قوللانمىلىرى",
-      "seo": "دېمېنسىيە كۈتۈش قوللانمىلىرى: كۈندىلىك ئەمەلىي ياردەم",
-      "description": "دېمېنسىيە بىلەن ياشاۋاتقانلارنىڭ ھالىدىن خەۋەر ئالغۇچىلار ئۈچۈن ئەمەلىي، مېھرىبان يېتەكچىلەر: بىللە ئويۇن ئويناش، ئالاقە، رەت قىلىشلار، كەچقۇرۇنلۇق بىئاراملىق، تاختا كومپيۇتېر ئىشلىتىش، ئەپ تاللاش ۋە ئۆزىگە كۆڭۈل بۆلۈش.",
-      "lede": "دېمېنسىيە بىلەن ياشاۋاتقان يېقىنىڭىزنىڭ ھالىدىن خەۋەر ئېلىش جەريانىدىكى كۈندىلىك دەقىقىلەر ئۈچۈن، شۇنداقلا ئۆزىڭىزگە پەرۋىش قىلىش ئۈچۈن ئاددىي، ئەمەلىي ياردەملەر."
+      "label": "ڕەعایەت (دیمێنشیا)",
+      "title": "دیمێنشیا ھەبولغان ادەمنى باشقۇرۇش",
+      "seo": "دیمێنشیا ھەبولغان ئادەمنى باشقۇرۇش: پائالىيەتلەر ۋە ياردەم",
+      "description": "دیمێنشیا ھەبولغان ئادەمنى باشقۇرىۋاتقان ائائىلىلەر ئۈچۈن يول كۆرسەتمىلەر: بىرلىكتە قانداق ئويناش، ئۇلار ياق دېگەندە نېمە قىلىش ۋە تەشخىستىن كېيىن ئىشەنچلىك ياردەمنى قەيەردىن تېپىش.",
+      "lede": "دیمێنشیا ھەبولغان ئادەمنى باشقۇرىۋاتقان ائائىلىلەر ئۈچۈن پائالىيەتكە ئاساسلانغان ياردەم، ھەمدە تېببىي ۋە پاراۋانلىق مەسلىھەتلىرىنى قەيەردىن ئېلىش كېرەكلىكى توغرىسىدا."
     },
     "brain-health": {
       "label": "مېڭە ساغلاملىقى",
@@ -283,7 +396,16 @@
     "tryTogether": "بىللە سىناپ كۆرۈڭ",
     "relatedGuides": "مۇناسىۋەتلىك قوللانمىلار",
     "related": "مۇناسىۋەتلىك",
-    "startHere": "بۇ يەردىن باشلاڭ"
+    "startHere": "بۇ يەردىن باشلاڭ",
+    "staleAria": "تەرجىمە ۋاقتى ئۆتكەن",
+    "staleTitle": "بۇ تەرجىمە ۋاقتى ئۆتكەن",
+    "staleText": "بۇ ئىنگلىزچە بەتنىڭ ئىلگىرىكى نەشرىدىن تەرجىمە قىلىنغان بولۇپ، ئۇ بەت شۇ زاماندىن بېرى ئۆزگەرتىلدى. ھازىرقى نەشر ئىنگلىزچە بەتتۇر.",
+    "staleHealth": "It gives health information, so check the English page and ask a doctor or nurse before acting on it.",
+    "staleLink": "ھازىرقى ئىنگلىزچە بەتنى ئوقۇڭ"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "سالامەتلىك ئۇچۇرى ئەسكەرتىشى",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "ئورتاق پائالىيەت، ئەستە تۇتۇش ئىمتىھانى ئەمەس",
+      "title": "بىرلىكتىكى پائالىيەت، ئىمتىھان ئەمەس",
       "seoTitle": "Creative Activities ھەققىدە: ئۇسۇلىمىز",
-      "description": "نېمە ئۈچۈن Creative Activities ئويۇنلىرىدا ۋاقىت ئۆلچىگۈچ، نومۇر ياكى نەتىجە ساناقلىرىنىڭ يوقلۇقى، رەسىملەرنىڭ داۋاملىق كۆرۈنۈپ تۇرۇش سەۋەبى ھەمدە بىزنىڭ دېمېنسىيە توغرىسىدا نېمىلەرنى دەپ، نېمىلەرنى تەشەببۇس قىلمايدىغانلىقىمىز.",
+      "description": "نېمىشقا Creative Activities دە ۋاقىت ئۆلچىگۈچ، ئۇتۇق ھېسابلاش ياكى ئارقا-ئارقىدىن كۈنلەر بولمايدۇ، نېمىشقا رەسىملەر ئوچۇق تۇرىدۇ ۋە ساغلاملىق توغرىسىدا نېمە دەيدىغان-دېمەيدىغانلىقىمىز.",
       "crumb": "ئۇسۇلىمىز",
-      "lede": "Creative Activities پەرۋىش قىلغۇچى بىلەن دېمېنسىيە بىلەن ياشاۋاتقان يېقىنى يانداش تۇرۇپ بىللە ھۇزۇرلىنالايدىغان خاتىرجەم، قۇرامىغا يەتكەنلەرگە ماس رەسىملىك پائالىيەتلەرنى يارىتىدۇ.",
+      "sponsors": {
+        "heading": "ھومكارلار ۋە ھەمكارلار",
+        "none": "Creative Activities نىڭ ھېچقانداق ھومكارى، پۇللۇق ئورۇنلاشتۇرۇشى ياكى بۇ بەتتە لوگوسى كۆرۈنىدىغان ھەمكارى يوق.",
+        "listed": "بۇلار Creative Activities نىڭ ھومكارلىرى ۋە ھەمكارلىرى. ھەر بىر مۇناسىۋەت ئۇ كۆرۈنىدىغان بەتتىمۇ ئاشكارلانغان.",
+        "policy": "ئەگەر بۇ ئۆزگەرسە، ھەر بىر بەت ئۇنى كۆرۈنگەن جايدا بايان قىلىدۇ، ھېچقانداق پائالىيەتتە ھومكار بولمايدۇ ۋە ھەمكارلار تىزىمى بۇ بەتتە بولىدۇ.",
+        "listHeading": "ھەمكارلار تىزىمى",
+        "noPartners": "ھازىرچە ھەمكار يوق."
+      },
+      "lede": "Creative Activities makes calm, adult activities that two people can enjoy side by side, whether one is caring for the other or they simply want to spend time together.",
       "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "بەتلىرىمىزنى قانداق يازىمىز ۋە تەكشۈرىمىز",
       "seoTitle": "تەھرىرلەش پىرىنسىپى",
-      "description": "Creative Activities زېھىن توسالغۇسىغا ئائىت پائالىيەتلەر ۋە مېڭە ساغلاملىقى بەتلىرىنى قانداق تەتقىق قىلىدۇ، يازىدۇ، مەنبەلەرگە تايىنىدۇ ۋە يېڭىلايدۇ، شۇنداقلا بىز نېمىلەرنى ھەرگىز ئېلان قىلمايمىز.",
+      "description": "How Creative Activities researches, writes, sources and updates its activity and health pages, and what we will never publish.",
       "crumb": "تەھرىرلەش پىرىنسىپى",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "سوئال-جاۋابلار",
-      "seoTitle": "زېھىن توسالغۇسىغا ئائىت ئويۇنلار ۋە پائالىيەتلەر: سوئال-جاۋابلار",
-      "description": "زېھىن توسالغۇسى بار كىشىلەرنىڭ ئويۇنلىرى ۋە پائالىيەتلىرى ھەققىدىكى ئورتاق سوئاللارغا جاۋابلار: قايسى ئويۇنلارنى سىناپ بېقىش كېرەك، قانچىلىك ۋاقىت ئويناش مۇۋاپىق، كېيىنكى باسقۇچلاردىكى تەۋسىيەلەر، مېڭە ساغلاملىقى ۋە شەخسىيەتنى قوغداش.",
+      "seoTitle": "Questions and Answers About Creative Activities",
+      "description": "Answers to common questions about the games and activities: which to try, how long to play, groups and later-stage ideas, health and privacy.",
       "crumb": "سوئال-جاۋابلار",
       "lede": "ھالىدىن خەۋەر ئالغۇچىلار ئەڭ كۆپ سورايدىغان سوئاللارغا قىسقا، ئاددىي جاۋابلار.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "ئويۇنلار ھەققىدە",
           "items": [
             {
-              "q": "زېھىن توسالغۇسى بار كىشىگە قايسى ئويۇنلار ئەڭ ماس كېلىدۇ؟",
+              "q": "What are the best games for older adults?",
               "a": "ئەڭ ياخشى ئويۇنلار تونۇش، ئاددىي ۋە بېسىمسىز بولغان ئويۇنلاردۇر؛ ئەڭ توغرىسى بولسا شۇ كىشى بۈگۈن قايسىسىدىن ھۇزۇرلانسا شۇدۇر. رەسىملىرى كۆرۈنۈپ تۇرىدىغان رەسىم جۈپلەش، تۈرگە ئايرىش، ئاددىي قۇراشتۇرۇش، تونۇش ماقال-تەمسىللەرنى تاماملاش، بوياش ۋە رەسىملىك بىن گو نۇرغۇن كىشىلەرگە بەك ياخشى كېلىدۇ. ۋاقىت چەكلىمىسى، نومۇرلار ۋە ئىمتىھاندەك تۇيۇلىدىغان ھەرقانداق نەرسىدىن يىراق تۇرۇڭ."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "مېڭە ساغلاملىقى",
+          "title": "دیمێنشیا ۋە ساغلاملىق",
           "items": [
             {
               "q": "ئويۇنلار ئەقلىي ئاجىزلىقنىڭ ئالدىنى ئالامدۇ ياكى كېسەللىكنى ئاستىلىتالامدۇ؟",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "تەپسىلات: <a href=\"/caregiving/how-to-play-together/\">بىرلىكتە قانداق ئويناش</a>، <a href=\"/caregiving/when-they-say-no/\">ئۇلار ياق دېگەندە</a>، <a href=\"/activities/late-stage/\">كېيىنكى باسقۇچتىكى پائالىيەتلەر</a> ۋە <a href=\"/dementia-activities/\">ئۆيدە دیمێنشیا پائالىيەتلىرى</a>."
     },
     "handout": {
       "title": "ئەقلىي ئاجىزلىق بىلەن ياشاۋاتقانلار ئۈچۈن ھەقسىز، ئاددىي ئويۇنلار",
@@ -408,17 +538,17 @@
     },
     "organizations": {
       "title": "پەرۋىش ئورۇنلىرى، كۇتۇپخانىلار ۋە ياردەم گۇرۇپپىلىرى ئۈچۈن",
-      "seoTitle": "ياشانغانلار كۈتۈنۈش ئورۇنلىرى ۋە گۇرۇپپىلار ئۈچۈن ھەقسىز پائالىيەتلەر",
-      "description": "كۈتۈنۈش ئورۇنلىرى، كۈندۈزلۈك كۈتۈنۈش مەركەزلىرى، كۇتۇپخانىلار، ياشانغانلار مۇلازىمەت ئورگانلىرى ۋە ياردەم گۇرۇپپىلىرىنىڭ بىزنىڭ ھەقسىز ئويۇنلىرىمىزدىن قانداق پايدىلىنىدىغانلىقى، شۇنداقلا بىزنى مەنبە تىزىملىكىگە قوشۇش ئۈچۈن تەييارلانغان تېكىست.",
+      "seoTitle": "ئاسايىش ئۆيلەر، كۈتۈپخانىلار ۋە گۇرۇپپىلار ئۈچۈن ھەقسىز پائالىيەتلەر",
+      "description": "ئاسايىش ئۆيلەر، كۈندۈزلۈك چوڭلار پروگراممىلىرى، كۈتۈپخانىلار، چوڭلارغا ياردەم ئورۇنلىرى ۋە قوللاش گۇرۇپپىلىرى بىزنىڭ ھەقسىز ئويۇن ۋە پائالىيەت قوللانمىلىرىمىزنى قانداق ئىشلىتىدۇ، ھەمدە بىزنى مەنبەلەر تىزىمىغا قوشۇش ئۈچۈن ئۇچۇر.",
       "crumb": "ئورگانلار ئۈچۈن",
       "lede": "بۇ تور بەتتىكى پۈتۈن مەزمۇنلاردىن كۈتۈنۈش ئورنىدىكى ئاھالىلەر، ئەزالار ۋە مۇلازىمەت ئالغۇچىلار بىلەن بىللە ھەقسىز بەھرىمەن بولالايسىز؛ ھېسابات ئېچىش، رۇخسەتنامە ياكى ھەق تەلەپ قىلىنمايدۇ. بۇ بەتتە نېمىلەرنىڭ بارلىقى ۋە ئۇلاردىن قانداق ئورتاقلىشىش چۈشەندۈرۈلگەن.",
-      "shortText": "{name}: ئەستە تۇتۇش قابىلىيىتى تۆۋەنلىگەن كىشىلەر ۋە ئۇلارنىڭ ھالىدىن خەۋەر ئالغۇچىلار ئۈچۈن ھەقسىز، كۆڭۈللۈك سۈرەتلىك ئويۇنلار ھەم پائالىيەت قوللانمىلىرى. تىزىملىتىش يوق، ۋاقىت چەكلىمىسى يوق، نومۇر ھېسابلاش يوق.",
-      "longText": "{name} ({domain}) ئەستە تۇتۇش قابىلىيىتى تۆۋەنلىگەن كىشىلەر ئۈچۈن مەخسۇس لايىھەلەنگەن {count} ھەقسىز توركۆرگۈ ئويۇنىنى تەمىنلەيدۇ؛ بۇلار سۈرەتلەر ئوچۇق كۆرۈنۈپ تۇرىدىغان جۈپلەشتۈرۈش، ئاددىي پارچە قۇراشتۇرۇش، تۈرگە ئايرىش، تونۇش ماقال-تەمسىللەرنى تولۇقلاش ۋە بېسىپ چىقارغىلى بولىدىغان كارتىلىق سۈرەتلىك بىنكونى ئۆز ئىچىگە ئالىدۇ. ھېسابات ئېچىش، ئېلان، ۋاقىت چەكلىمىسى ياكى نومۇر ھېسابلاش يوق. بۇ تور بەتتە يەنە National Institute on Aging بىلەن Alzheimer's Association نىڭ تەتقىقاتلىرىغا تايىنىپ، ئەستە تۇتۇش چېكىنىشنىڭ ھەربىر باسقۇچىغا ئاساسەن ئاددىي تىلدا يېزىلغان پائالىيەت يېتەكچىلىرى بار.",
+      "shortText": "{name}: free, gentle picture games and activity guides for older adults, families and people living with dementia. No sign-up, no timers, no scores.",
+      "longText": "{name} ({domain}) چوڭ يېشىدىكى كىشىلەر، ئائىلىلەر ۋە دېمېنسىيە بىلەن ياشاۋاتقان كىشىلەر ئۈچۈن ھەقسىز {count} تور كۆرگۈچ ئويۇنى تەمىنلەيدۇ. بۇ ئويۇنلار ئارىسىدا سۈرەتلىك جۈپلەش (سۈرەتلىرى ئوچۇق قالىدۇ)، ئاددىي تاش-پازىل، تۈرگە ئايرىش، مەشھۇر ماقال-تەمسىللەر ۋە بېسىپ چىقىرىشقا بولىدىغان كارتىلىق سۈرەتلىك بىڭگو бар. ھېساباتقا كىرىش، ۋاقىت ئۆلچىگۈچ ياكى ئۇتۇق ھېساباتى يوق. بۇ تور بېكەتتە يەنە ئائىلىلەر، چوڭ يېشىدىكى كىشىلەر ۋە خىزمەتچىلەر ئۈچۈن ئاددىي تىلدا يېزىلغان پائالىيەت قوللانمىلىرى بار، ئۇلارنىڭ مەنبەلىرى قاتارىدا National Institute on Aging ۋە Alzheimer's Association قاتارلىقلار كۆرسىتىلگەن.",
       "useTitle": "ئورگانلار پايدىلانسا بولىدىغان تۈرلەر",
       "gamesItemHtml": "خاتىرە كومپيۇتېر، تاختا كومپيۇتېر ياكى كومپيۇتېرغا ئۇلانغان تېلېۋىزوردا بىۋاسىتە ئوينىغىلى بولىدىغان <strong>{count} توركۆرگۈ ئويۇنى</strong>. قاچىلاش، تىزىملىتىش ياكى چۈشۈرۈش تەلەپ قىلىنمايدۇ. <a href=\"/games/\">بارلىق ئويۇنلارنى كۆرۈڭ</a>.",
       "printablesLabel": "بېسىپ چىقىرىشقا بولىدىغان {count} تۈر:",
       "printablesAfter": "ھەربىر بەتتىكى «بېسىپ چىقىرىش» كۇنۇپكىسىنى ئىشلىتىڭ.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>گۇرۇپپا شەكىللىرى:</strong> <a href=\"/games/picture-bingo/\">سۈرەتلىك بىڭگو</a> بېسىپ چىقىرىشقا بولىدىغان كارتا ۋە ئېكراندىكى چاقىرغۇچقا ئىگە، <a href=\"/together/conversation-games-for-all-ages/\">سۆھبەت ئويۇنلىرى</a> بولسا جاۋاب تاللاشلىق سوئاللار ۋە سۆزلەش تېمىلىرىنى ئۆز ئىچىگە ئالىدۇ.</li><li><strong>پائالىيەت قوللانمىلىرى</strong> خىزمەتچىلەر ۋە ئائىلىلەر ئۈچۈن ئاددىي تىلدا يېزىلغان، مەنبەلىرى بار. <a href=\"/activities/ideas/\">101 پائالىيەت ئىدىيىسى</a> ياكى <a href=\"/crafts/craft-group-sessions/\">ئاسراش ئورۇنلىرى ئۈچۈن گۇرۇپپا پائالىيەتلىرى</a> دىن باشلاڭ.</li>",
       "restHtml": "<h2>گۇرۇپپىلار بۇلاردىن قانداق پايدىلىنىدۇ</h2><ul><li><strong>ياشانغانلار كۈتۈنۈش ئورۇنلىرى ۋە ئەستە تۇتۇش ئاسراش بۆلۈملىرى:</strong> دەم ئېلىش ئۆيىدىكى تېلېۋىزوردا بىر كىشى ئېكراننى بېسىپ بېرىپ، كۆپچىلىك بىللە سۈرەتلىك بىنكو ئوينايدۇ ياكى ماقال-تەمسىللەرنى تاماملايدۇ.</li><li><strong>چوڭلار كۈندۈزلۈك كۈتۈنۈش مەركەزلىرى:</strong> تاختا كومپيۇتېردا سۈرەت جۈپلەشتۈرۈش ئويۇنىنى تۆت كۆزنەككە تەڭشەپ، يالغۇز بىرمۇبىر قىسقا ۋاقىتلىق پائالىيەت ئۆتكۈزىدۇ.</li><li><strong>ئاممىۋى كۇتۇپخانىلار:</strong> ئەستە تۇتۇش سومكىسىغا بېسىپ چىقىرىلغان سۆز تېپىش ۋە سۆھبەت كارتىلىرىنى سېلىپ قويۇش، شۇنداقلا كۇتۇپخانىنىڭ تاختا كومپيۇتېرلىرىدا بۇ تور بېكەتنى ساقلاپ قويۇش.</li><li><strong>ھالىدىن خەۋەر ئالغۇچىلارنىڭ ياردەم گۇرۇپپىلىرى ۋە قاھىۋىخانىلار:</strong> ئائىلىلەر ئۆيىگە ئېلىپ كېتىشى ئۈچۈن تەييارلانغان <a href=\"/handout/\">بىر بەتلىك بېسىپ چىقىرىلىدىغان قوللانما</a>.</li><li><strong>دوختۇرخانىلار ۋە بىمار ئۇزىتىش مەسلىھەتچىلىرى:</strong> ئۆيدە ياكى كېسەل كارىۋىتى يېنىدا بىللە خاتىرجەم ۋاقىت ئۆتكۈزۈش ئۈچۈن، خەۋەر ئالغۇچىلارنىڭ ماتېرىيال قىسقۇچىغا بۇ قوللانمىنى سېلىپ بېرىش.</li></ul><h2>بىز قىلمايدىغان ئىشلار</h2><p>بۇ ئويۇنلار پەقەت كۆڭۈللۈك ۋاقىت ئۆتكۈزۈش ۋە ھەمدەم بولۇش ئۈچۈندۇر. ئۇلار كېسەللىككە دىئاگنوز قويمايدۇ، سىنىمايدۇ، نومۇر قويمايدۇ، ئەستە تۇتۇش چېكىنىشنى داۋالىمايدۇ ياكى ئاستىلاتمايدۇ؛ ئورگانلارنىڭمۇ بۇلارنى ئۇنداق تەرىپلىمەسلىكىنى سورايمىز. ھېچقانداق ئېلان يوق، ئويۇنلاردا شەخسىي ئىسىم، سالامەتلىك ئۇچۇرى سورالمايدۇ ياكى سۈرەت يۈكلەش تەلەپ قىلىنمايدۇ. تور بېكەت زىيارەتچىلەر سانىنى بىلىش ئۈچۈن Google Analytics ئىشلىتىدۇ؛ نېمىلەرنىڭ توپلىنىدىغانلىقى <a href=\"/privacy/\">مەخپىيەتلىك باياناتىمىز</a>دا تەپسىلىي بار. <a href=\"/games/photo-pairs/\">سۈرەت جۈپلەشتۈرۈش</a>تە ئىشلىتىلگەن رەسىملەر پەقەت ئۆزىڭىزنىڭ توركۆرگۈچىسىدىلا ساقلىنىدۇ.</p><h2>بىزنى مەنبە تىزىملىكىڭىزگە كىرگۈزۈڭ</h2><p>ئەگەر ھالىدىن خەۋەر ئالغۇچىلار ئۈچۈن مەنبەلەر تىزىملىكى تۈزۈۋاتقان بولسىڭىز، <a href=\"/\">{domain}</a> گە ئۇلىنىش بېرىشىڭىزنى خۇشاللىق بىلەن قارشى ئالىمىز. تۆۋەندىكى تونۇشتۇرۇشلارنىڭ خالىغان بىرىنى كۆچۈرۈپ ئىشلەتسىڭىز بولىدۇ.</p>",
       "shortTitle": "قىسقا تونۇشتۇرۇش",
       "longTitle": "تەپسىلىيرەك تونۇشتۇرۇش",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "توردىكى ھەقسىز دېمېنسىيە ۋە ئالزىمېر ئويۇنلىرى",
-    "description": "دېمېنسىيە ياكى ئالزىمېر بىلەن ياشاۋاتقان چوڭلار ئۈچۈن ھەقسىز تور ئويۇنلىرى: سۈرەت جۈپتەش، ئاددىي پارچە قۇراشتۇرۇش، تۈرگە ئايرىش، ماقال-تەمسىللەر، رەڭ بېرىش، بىڭگو. تىزىملىتىش، ۋاقىت چەكلىمىسى ياكى نومۇر يوق.",
+    "title": "بىرگە ئويناشقا بولىدىغان ھەقسىز تور ئويۇنلىرى",
+    "description": "چوڭ يېشىدىكى كىشىلەر، ئائىلىلەر ۋە دېمېنسىيە بىلەن ياشاۋاتقان كىشىلەر ئۈچۈن ھەقسىز تور ئويۇنلىرى: سۈرەتلىك جۈپلەش، ئاددىي تاش-پازىل، تۈرگە ئايرىش، ماقال-تەمسىللەر، رەڭ بېرىش ۋە بىڭگو. تىزىملاتۇرۇش، ۋاقىت ئۆلچىگۈچ ياكى ئۇتۇق ھېساباتى يوق.",
     "crumb": "ئويۇنلار",
-    "h1": "دېمېنسىيە بىلەن ياشاۋاتقانلار ئۈچۈن خاتىرجەم ئويۇنلار",
+    "h1": "بىرگە ئويناشقا بولىدىغان مۇلايىم ئويۇنلار",
     "lede": "توركۆرگۈچىڭىزدە بىللە ئوينايدىغان {count} ھەقسىز ئويۇن. چوڭ سۈرەتلەر، ئاددىي سۆزلەر ۋە ئۇتتۇرۇپ قويۇش بولمايدىغان مەزمۇنلار: ۋاقىت چەكلىمىسى، نومۇر ياكى تىزىملىتىش يوق.",
-    "listName": "دېمېنسىيە بىلەن ياشاۋاتقانلار ئۈچۈن خاتىرجەم ئويۇنلار",
+    "listName": "بىرگە ئويناشقا بولىدىغان مۇلايىم ئويۇنلار",
     "byStageTitle": "باسقۇچقا قاراپ ئويۇن تاللاش",
     "byStageLede": "Stages are only a rough guide. Follow what the person enjoys and what feels comfortable today.",
     "stageCol": "باسقۇچ",
     "gamesCol": "كۆپىنچە ماس كېلىدىغان ئويۇنلار",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "ئېكراندىن ئايرىم ئويلىغان ئىدىيەلەر: <a href=\"/activities/ideas/\">101 پائالىيەت ئىدىيىسى</a>، <a href=\"/dementia-activities/\">ئۆيدە دېمېنسىيە پائالىيەتلىرى</a> ۋە <a href=\"/crafts/\">قول ھۈنەرۋەنچىلىكى</a>.",
     "faq": [
       {
         "q": "قايسى ئويۇندىن باشلىساق بولار؟",
@@ -463,7 +593,7 @@
       },
       {
         "q": "بۇلار چوڭلار ئۈچۈن ئەستە تۇتۇش ئويۇنلىرىمۇ؟",
-        "a": "بۇلار ھەر قانداق ياشانغان كىشى ھۇزۇرلىنالايدىغان جۈپتەش ۋە سۈرەت ئويۇنلىرىدۇر، ئەمما ئۇلار ئەستە تۇتۇش قابىلىيىتىنى سىناش ئۈچۈن لايىھەلەنمىگەن: سۈرەت جۈپتەشتە، باشقىچە تاللىمىسىڭىزلا سۈرەتلەر كۆرۈنۈپ تۇرىدۇ. دېمېنسىيە بىلەن ياشاۋاتقان چوڭلار ئۈچۈن ئەستە تۇتۇش ئويۇنلىرى قوللانمىمىزدا ھەر قانداق ئەستە تۇتۇش ئويۇنىنى قانداق قىلىپ خاتىرجەم ئويناش چۈشەندۈرۈلگەن."
+        "a": "They are matching and picture games that any older adult can enjoy, but they are built not to test memory: in Picture pairs the pictures stay face up unless you choose otherwise. Any memory game can be made gentler by dropping the timer and the scores."
       },
       {
         "q": "كۈتۈنۈش مەركىزىدىكى كۆپچىلىك بىرلىكتە ئوينايدىغان ئويۇنلار بارمۇ؟",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "دېمېنسىيە پائالىيەتلىرى ئۈچۈن بىرەر ئەپ بارمۇ؟",
+        "q": "Is there an app for older adults and families?",
         "a": "ھەئە. Creative Activities (ئەپ دۇكىنىدا «{storeName}» دەپ كۆرسىتىلگەن) App Store ۋە Google Play دا ھەقسىز. ئۇ چوڭ كارتوچكىلار بىلەن خاتىرجەم سۈرەت جۈپتەش، ئۆزىڭىز تاللىغان ئائىلە سۈرەتلىرى بىلەن ئويناش ۋە تورسىزمۇ ئىشلەيدىغان سۈرەت بوغچىلىرىنى تەمىنلەيدۇ."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "بېسىپ چىقارغىلى بولىدۇ",
     "howTo": "{name} نى قانداق ئويناش كېرەك",
     "tips": "بىللە ئويناش ھەققىدىكى مەسلىھەتلەر",
-    "newToPlayingHtml": "ئەقلى ئاجىزلىشىش كېسىلى بار يېقىنىڭىز بىلەن ئويۇن ئويناش تەجرىبىڭىز ئازمۇ؟ <a href=\"/caregiving/how-to-play-together/\">بىللە ئويۇن ئويناش ئۇسۇلى</a>نى ئوقۇپ بېقىڭ، بۇنىڭ ئىچىدە قىزىقىشى پەسەيگەندە نېمە قىلىش كېرەكلىكىمۇ بار.",
+    "newToPlayingHtml": "چوڭ يېشىدىكى كىشى ياكى دېمېنسىيە بىلەن ياشاۋاتقان كىشى بىلەن ئويناشقا يېڭىمۇ؟ ئۇلار ئويۇندىن قىزىقىشنى يوقاتقان تەقدىردە نېمە قىلىش كېرەكلىكىنى ئۆز ئىچىگە ئالغان <a href=\"/caregiving/how-to-play-together/\">بىرگە قانداق ئويناش</a> دېگەن بەتنى ئوقۇڭ.",
     "moreAria": "تېخىمۇ كۆپ مەزمۇنلار",
     "helpfulGuides": "پايدىلىق قوللانمىلار",
     "appTitle": "ئەپتە ئويناڭ",
@@ -536,6 +666,35 @@
     "goodToKnow": "بىلىۋېلىشقا تېگىشلىك مەزمۇنلار",
     "goodToKnowText": "بۇ ئويۇن كۆڭۈل ئېچىش ۋە بىللە ۋاقىت ئۆتكۈزۈش ئۈچۈن لايىھەلەنگەن. ئۇ ھېچقانداق نەرسىنى سىنىمايدۇ، ئۆلچىمەيدۇ ياكى داۋالىمايدۇ.",
     "moreGames": "تېخىمۇ كۆپ يېنىك ئويۇنلار",
-    "crumb": "ئويۇنلار"
+    "crumb": "ئويۇنلار",
+    "print": {
+      "heading": "قەغەزدە ئويناش",
+      "sameRules": "قەغەز نۇسخىسىنىڭ قائىدىسى ئېكراندىكى ئويۇن بىلەن ئوخشاش:",
+      "button": "قەغەز نۇسخىسىنى بېسىپ چىقىرىش",
+      "pageNote": "A4 ياكى US Letter قەغەزدە بىر بەت، قارا-ئاق بېسىلسىمۇ بولىدۇ. نەشرى {date}.",
+      "islandNote": "ھازىر ئېكراندا كۆرۈنۈۋاتقان نەرسىنى بېسىپ چىقىرىدۇ. نەشرى {date}.",
+      "sheetTitle": "{name}: قەغەز نۇسخىسى",
+      "point": "قەغەزدە سۈرەتنى چېكىشنىڭ ئورنىغا كۆرسىتىڭ ياكى قەلەم بىلەن ئەتراپىنى ئايلاندۇرۇپ بەلگە قويۇڭ. ھەر بىر قۇر يېڭى توپلام.",
+      "pointTarget": "قەغەزدە كۆرۈلىدىغان سۈرەت ھەر بىر قۇرنىڭ بېشىدىكى رامكىدا بولىدۇ. سۈرەتنى چېكىشنىڭ ئورنىغا بارمىقىڭىز بىلەن كۆرسىتىڭ ياكى قەلەم بىلەن ئايلاندۇرۇڭ.",
+      "halves": "Each picture is cut down the middle. Draw a line from each half on the left to the half on the right that fits it, or point with a finger. Nothing needs cutting.",
+      "grid": "Each square has a number. Find that number in the key, and color the square with a pencil of that color. Any other color you like is fine too. Nothing needs cutting.",
+      "colors": "Each row names a color. Point to every picture that is that color, or circle it with a pen. Each row is a new set.",
+      "dice": "ھەر بىر قۇر بىر توپ زار. بىر قۇرنى تاللاڭ، ياكى سۈرەتلەرنى كېسىپ بىر دۆۋىدىن تارتىپ، ئۇلارنى خالىغان تەرتىپتە ئىشلىتىپ بىر ھىكايە توقۇڭ. ھەر كىم ئۆتۈپ كېتەلەيدۇ.",
+      "words": "Cut out the words, or draw a line from each word to its picture. Read the words aloud as you go.",
+      "cards": "كارتىلارنى چاچما سىزىقلار بويىچە كېسىڭ. ئۇلارنى ئۈستەلگە سۈرەتلىك تەرىپى يۇقىرى قىلىپ قويۇڭ، ئاندىن جۈپلىرىنى تېپىڭ.",
+      "chain": "On paper, read the pictures from left to right, one after the other. Each person says one sentence about the pictures so far, then points to the next picture. Anyone may pass.",
+      "sort": "Cut out the pictures along the dashed lines, then put each one in the box where it belongs.",
+      "puzzle": "Cut the large picture along the dashed lines into four pieces and mix them up. Swap two pieces at a time until the picture is whole. The small picture is a guide.",
+      "cutSafety": "ئاچقۇچ قويۇشتىن بۇرۇن بىر ياردەمچى كېسىشنى ئىشلىيەلەيدۇ. ئىشتىن كېيىن قايچىنى ئورنىغا قويۇڭ.",
+      "version": "نەشرى {date} · {url}",
+      "reasons": {
+        "photos": "There is no paper version. This game uses your own photos, which stay in your browser and are never uploaded, so the site cannot print them. To play on paper, print two copies of a few favorite photos at home and match them on the table.",
+        "paced": "There is no paper version. The circle sets a slow, steady pace on the screen, and a printed page cannot do that, so it would be a different activity. A quiet pause together without a screen is always an option.",
+        "turns": "There is no paper version of this game. To find pairs on the table, print the picture cards from Picture pairs and take turns turning them over.",
+        "screen": "ئۇ قەغەز نۇسخىسى يوق. بۇ ئېكراندا birgə قاراش ئۈچۈن بىر رەسىم؛ ئۈستەلدىكى ياقتۇرىدىغان بىر سۈرەت ياكى ئۇچۇر كارتوچكىسىمۇ شۇ ئىشنى قىلىدۇ.",
+        "wash": "ئۇ قەغەز نۇسخىسى يوق. قەغەزدە سۇ بوياق سىزىش ئوخشاش پىكىر: نەم قەلەم ۋە بىر-بىرلەپ رەڭ.",
+        "sayings": "ئۇ يەنە قەغەز نۇسخىسى يوق. قەغەزدە ھەر بىر ئاخىرلاشقان قىسىم بىردەمدىلا كۆرۈنۈپ قالىدۇ، ۋە ئاستاغىنا \"ئاخىرىنى كۆرسىتىش\" قەدىمى يوقىلىدۇ. ماقال-تەمسىللەرنى ئېكراندىن birgə ئوقۇڭ، ياكى ئىككىڭىز بىلىدىغان بىر قانچىنى ئورتاقلىشىڭ."
+      }
+    }
   }
 }

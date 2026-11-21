@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Preskoči na glavno vsebino",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities, domača stran",
     "mainNav": "Glavni meni",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: velike, prijazne slike skodelice za čaj, sončnice in psa",
+    "defaultImageAlt": "Creative Activities: velike, prijazne risbe vsakdanjih stvari, ki jih lahko izdelate in uporabite",
     "languages": "Jezik",
     "englishOnly": "(angleško)",
     "machineTranslated": "Ta stran je bila prevedena samodejno in je domači govorec še ni pregledal.",
     "readOriginal": "Preberite izvirnik v angleščini",
     "nav": {
+      "find": "Find an activity",
       "games": "Igre",
       "activities": "Dejavnosti",
       "caregiving": "Oskrba",
-      "brainHealth": "Zdravje možganov"
+      "brainHealth": "Zdravje možganov",
+      "crafts": "Ročna dela",
+      "kids": "Otroci",
+      "together": "Skupaj",
+      "creativeCalm": "Ustvarjalni mir",
+      "search": "Iskanje"
     },
     "faqTitle": "Vprašanja in odgovori",
     "breadcrumb": "Drobtinice",
@@ -26,7 +33,32 @@
       "label": "Velikost besedila",
       "smaller": "Standardno besedilo",
       "larger": "Večje besedilo",
-      "contrast": "Večji kontrast"
+      "contrast": "Večji kontrast",
+      "colors": "Barve",
+      "light": "Svetla",
+      "dark": "Temna",
+      "device": "Enako kot v tej napravi",
+      "lineLength": "Dolžina vrstic",
+      "standardLines": "Običajna",
+      "shorterLines": "Krajše vrstice",
+      "spacing": "Razmik",
+      "standardSpacing": "Običajen",
+      "moreSpace": "Več prostora"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +67,12 @@
     "conversationCards": "Kartice za pogovor",
     "pictureBingo": "Bingo s slikami",
     "allGames": "Vse igre",
+    "pictures": "Slike za tiskanje",
     "activityIdeas": "Zamisli za dejavnosti",
     "ideas101": "101 zamisel za dejavnosti",
     "lateStage": "Dejavnosti v poznejši fazi",
     "printable": "Dejavnosti za tiskanje",
-    "allActivities": "Vse dejavnosti",
+    "allActivities": "Vsi vodniki za dejavnosti",
     "forCaregivers": "Za skrbnike",
     "playTogether": "Kako igrati skupaj",
     "selfCare": "Skrb zase",
@@ -52,10 +85,15 @@
     "app": "Aplikacija Creative Activities",
     "appHelp": "Pomoč za aplikacijo",
     "support": "Podpora",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Pravno",
     "sitePrivacy": "Zasebnost na spletnem mestu",
     "appPrivacy": "Politika zasebnosti aplikacije",
     "privacyChoices": "Izbire glede zasebnosti",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Pogoji in licenca aplikacije",
     "safety": "Varnost in predvidena uporaba",
     "accessibility": "Dostopnost",
@@ -63,14 +101,18 @@
     "allLegal": "Vse pravne informacije",
     "note": "Creative Activities ponuja preproste skupne dejavnosti za veselje. Ni zdravniški nasvet, test ali zdravljenje in nikogar ne diagnosticira, meri ali ocenjuje. Za zdravstvena vprašanja se pogovorite z zdravnikom. V nujnem primeru pokličite 112.",
     "publisher": "Izdajatelj: Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Slike za tiskanje"
+    "crafts": "Ročna dela za vse starosti",
+    "kids": "Dejavnosti za otroke",
+    "together": "Dejavnosti, ki jih opravite skupaj",
+    "creativeCalm": "Ustvarjalni mir",
+    "dementiaActivities": "Dejavnosti za ljudi z demenco"
   },
   "home": {
-    "title": "Igre in dejavnosti za demenco in Alzheimerjevo bolezen | Creative Activities",
-    "description": "Brezplačne, nežne igre s slikami na spletu in zamisli za dejavnosti za osebe z demenco ali Alzheimerjevo boleznijo in njihove skrbnike. Brez prijave in točk.",
+    "title": "Ustvarjalne dejavnosti za vsakogar, ki skrbi za drugega",
+    "description": "Brezplačne ustvarjalne dejavnosti za vsakogar, ki skrbi za drugega: ročna dela, stvari za otroke, dejavnosti, ki jih opravite skupaj, in mirne ustvarjalne ideje.",
     "eyebrow": "Brezplačno · Brez oglasov · Brez prijave · Brez časovnikov in točk",
-    "h1": "Nežne igre in dejavnosti za osebe z demenco",
-    "lede": "Preproste igre s slikami, znane fotografije in dejavnosti za skupno uživanje, v vašem tempu.",
+    "h1": "Skupaj nekaj ustvarite",
+    "lede": "Poiščite dejavnost, ki ustreza osebi, trenutku in temu, kar imate pri roki. Enostavna ročna dela, otroška umetnost, stvari, ki jih lahko delate skupaj, in mirne ustvarjalne ideje, z lažjimi različicami in karticami za tiskanje. Ustavite se, kadar koli želite.",
     "playGame": "Igraj igro",
     "findIdeas": "Poiščite zamisli za dejavnosti",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 zamisel za dejavnosti",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Zgodnja faza",
         "text": "Počnite še naprej, kar imajo radi, z majhnimi prilagoditvami: konjički, izleti, besedne igre in skupno načrtovanje.",
         "label": "Zamisli za zgodnjo fazo"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Srednja faza",
         "text": "Preprosta, znana opravila, razdeljena na korake: zlaganje, razvrščanje, glasba, igre s slikami in kratki sprehodi.",
         "label": "Zamisli za srednjo fazo"
@@ -123,10 +165,10 @@
         "label": "Zamisli za poznejšo fazo"
       }
     ],
-    "specificHtml": "Iščete kaj posebnega? Poskusite <a href=\"/activities/alzheimers/\">dejavnosti in igre ob Alzheimerjevi bolezni</a>, <a href=\"/activities/memory-games/\">nežne igre za spomin</a>, <a href=\"/activities/trivia/\">preproste zanimivosti</a> ali <a href=\"/activities/puzzles/\">sestavljanke</a>.",
+    "specificHtml": "Iščete kaj posebnega? Poskusite <a href=\"/dementia-activities/\">dejavnosti in igre za Alzheimerjevo bolezen</a>, <a href=\"/together/puzzles-and-table-games/\">sestavljanke in namizne igre</a>, <a href=\"/together/conversation-games-for-all-ages/\">pogovorne igre</a> ali <a href=\"/together/puzzles-and-table-games/\">sestavljanke</a>.",
     "approachEyebrow": "Naš pristop",
-    "approachTitle": "Skupna dejavnost, ne preizkus spomina",
-    "approachLede": "Mnoge „igre za možgane“ so zgrajene okoli hitrosti, točk in zaporedij zmag. Za osebo z demenco je to lahko kot izpit. Mi smo naredili nasprotno.",
+    "approachTitle": "Skupna dejavnost, ne preizkus",
+    "approachLede": "Mnoge »igre za možgane« temeljijo na hitrosti, točkah in nizih zaporednih uspehov. Za nekoga, ki je utrujen, slabo se počuti ali živi z demenco, je to lahko kot izpit. Mi smo naredili nasprotno.",
     "approachLink": "Zakaj tako oblikujemo",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "Pogosti razlogi za zavrnitev in nežni načini, kako poskusiti znova pozneje."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Priprava tablice",
-        "text": "Večje besedilo, manj motenj in en sam preprost domači zaslon."
+        "href": "/activities/group-art-activities/",
+        "title": "Skupinske likovne dejavnosti",
+        "text": "Skupni projekti za mizo, za več ljudi, z nalogo za vsakega."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Brezplačne dejavnosti za tiskanje",
-        "text": "Iskanje besed v velikem tisku, pobarvanke, bingo in kartice za pogovor."
+        "href": "/activities/ideas/",
+        "title": "101 ideja za dejavnosti",
+        "text": "Preproste ideje, razvrščene glede na to, kaj imate pri roki in koliko energije je na voljo."
       }
     ],
     "researchTitle": "Zdravje možganov: kaj pravijo raziskave",
@@ -184,16 +226,16 @@
     "aboutApp": "O aplikaciji",
     "faq": [
       {
-        "q": "Katere igre so dobre za osebe z demenco?",
-        "a": "Dobre igre so preproste, znane in brez pritiska: velike slike za iskanje parov, razvrščanje, lahke sestavljanke, dokončanje znanih rekov, barvanje, bingo s slikami in kartice za pogovor. Najboljša je tista, ki jo oseba danes uživa. Izogibajte se časovnikom, točkam in vsemu, kar je podobno preizkusu."
+        "q": "Katere igre so primerne za starejše odrasle?",
+        "a": "Dobre igre so preproste, znane in brez pritiska: velike slike za ujemanje, razvrščanje, lahke sestavljanke, dokončevanje znanih rekov, barvanje, slikovni bingo in pogovorne kartice. Primerne so za mnoge starejše odrasle, tudi za ljudi, ki živijo z demenco. Najboljša izbira je tista, ki osebi danes prinaša veselje. Izogibajte se časomerilcem, točkam in vsemu, kar deluje kot preizkus."
       },
       {
-        "q": "So te igre za demenco brezplačne?",
+        "q": "So te igre brezplačne?",
         "a": "Da. Vse igre in gradiva za tiskanje na Creative Activities so brezplačne, brez računa, prijave ali prenosa. Igre delujejo v spletnem brskalniku na telefonu, tablici ali računalniku."
       },
       {
         "q": "Ali igre za možgane preprečujejo demenco?",
-        "a": "Za nobeno igro ni dokazano, da preprečuje demenco, in Creative Activities ne trdi, da karkoli zdravi ali preprečuje. Naše igre so za veselje in čas, preživet skupaj. Naš razdelek o zdravju možganov pojasnjuje, kaj raziskave kažejo in česa ne."
+        "a": "Nobena igra ni pokazala, da preprečuje demenco, Creative Activities pa ne trdi, da zdravi ali preprečuje kar koli. Naše igre so namenjene uživanju in skupnemu času, na nobeni strani z dejavnostmi pa ni zdravstvene trditve."
       },
       {
         "q": "So te igre primerne za osebo z Alzheimerjevo boleznijo?",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Kdo ustvarja Creative Activities?",
-        "a": "Creative Activities je majhna ekipa, ki za družine in skrbnike ustvarja mirne dejavnosti s slikami za odrasle, na spletu in kot brezplačno aplikacijo. Nismo zdravniki in nič tukaj ni zdravniški nasvet."
+        "a": "Creative Activities je majhna ekipa, ki za vsakogar, ki skrbi za drugega, pripravlja mirne ustvarjalne dejavnosti za odrasle, na spletu in kot brezplačna aplikacija. Nismo zdravstveni strokovnjaki in tukaj ni nobenih medicinskih nasvetov."
+      }
+    ],
+    "groupsEyebrow": "Poiščite svojo pot",
+    "groupsTitle": "Štiri vrste ustvarjalnih dejavnosti",
+    "groupsLede": "Začnite s skupino, ki ustreza tistemu, s kom ste, in temu, kar imate pri roki. Vsaka stran vsebuje lažje različice in opozorila o varnosti.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Ročna dela",
+        "text": "Projekti iz papirja, barv, recikliranih in sezonskih materialov, pri vsakem z lažjo različico.",
+        "label": "Poglejte ročna dela"
+      },
+      {
+        "href": "/kids/",
+        "title": "Otroci",
+        "text": "Umetnost in igra za otroke, ob njih odrasla oseba in jasna varnostna opozorila.",
+        "label": "Poglejte dejavnosti za otroke"
+      },
+      {
+        "href": "/together/",
+        "title": "Skupaj",
+        "text": "Pogovor, sestavljanke, čas na prostem in načini, kako ostati blizu čez generacije.",
+        "label": "Poglejte, kaj lahko delate skupaj"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Ustvarjalni mir",
+        "text": "Počasni, tihi ustvarjalni trenutki s svinčnikom, listom ali pesmijo. Ni terapija.",
+        "label": "Poglejte ustvarjalni mir"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "Za tiskanje",
     "play": "Igraj {name} →",
     "readGuide": "Preberi vodnik"
+  },
+  "listen": {
+    "listenSteps": "Poslušajte korake",
+    "pause": "Premor",
+    "resume": "Nadaljuj",
+    "stop": "Ustavi",
+    "speed": "Hitrost",
+    "normal": "Običajna",
+    "slower": "Počasneje",
+    "reading": "Koraki se glasno berejo.",
+    "paused": "Na premoru. Pritisnite Nadaljuj, da nadaljujete.",
+    "note": "Uporablja glas vaše naprave. Nekatere naprave pošljejo besedilo proizvajalcu, da ga prebere.",
+    "listen": "Poslušajte",
+    "stepLabel": "Poslušajte korak {n}",
+    "stopStep": "Ustavi korak {n}"
   },
   "playCta": {
     "title": "Ste pripravljeni na nežno igro?",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Dejavnosti",
-      "title": "Dejavnosti za osebe z demenco",
-      "seo": "Dejavnosti za osebe z demenco: zamisli po fazah",
-      "description": "Zamisli za dejavnosti za osebe z demenco v vsaki fazi: glasba, obujanje spominov, vsakdanja opravila, čutni trenutki, ustvarjanje in gradiva za tiskanje.",
-      "lede": "Smiselna dejavnost je vse, kar prinese ugodje, namen ali trenutek povezanosti. Začnite pri tem, kar je oseba vedno rada počela, in to prilagodite današnjemu dnevu."
+      "label": "Vodniki za dejavnosti",
+      "title": "Vodniki za dejavnosti",
+      "seo": "Vodniki za dejavnosti: ideje, likovni material in načini za začetek",
+      "description": "Jasni vodniki za ustvarjalne dejavnosti, ki jih lahko opravite z nekom: preproste ideje, likovni material za manj denarja, skupinska likovna dela, pisma, spomini in razlaga likovne terapije.",
+      "lede": "Kratki, praktični vodniki za izbiro in začetek dejavnosti z nekom, ne glede na starost ali zmožnosti."
+    },
+    "crafts": {
+      "label": "Ročna dela",
+      "title": "Ročna dela za vse starosti",
+      "seo": "Enostavna ročna dela za vse starosti, z lažjimi različicami",
+      "description": "Enostavna ročna dela za odrasle, otroke in družine: iz papirja, barvanja, recikliranih in sezonskih materialov, z različicami, ki jih je lažje držati, in različicami za sedenje, brez posebnega znanja.",
+      "lede": "Ročna dela, ki izhajajo iz stvari, ki jih ima večina domov, vsako z lažjo različico, da lahko vsakdo nekaj ustvari."
+    },
+    "kids": {
+      "label": "Otroci",
+      "title": "Ustvarjalne dejavnosti za otroke",
+      "seo": "Ustvarjalne dejavnosti za otroke: umetnost, čutne izkušnje in umiritev",
+      "description": "Ustvarjalne dejavnosti za otroke: likovno ustvarjanje za malčke, procesna umetnost, čutne igre, ročna dela za deževne dni in ideje za umiritev, z varnostnimi opozorili in različicami za čutne potrebe.",
+      "lede": "Ideje za umetnost in igro za otroke različnih starosti in potreb, z jasnimi varnostnimi opozorili in odraslo osebo v bližini."
+    },
+    "together": {
+      "label": "Skupaj",
+      "title": "Dejavnosti, ki jih opravite skupaj",
+      "seo": "Dejavnosti, ki jih opravite skupaj, čez generacije",
+      "description": "Dejavnosti za dve ali več generacij: pogovorne igre, sestavljanke, čas na prostem, ročna dela za stare starše in vnuke ter načini, kako ostati blizu tudi na daljavo.",
+      "lede": "Ideje za skupni čas z staršem, starim staršem, otrokom ali prijateljem, doma, na prostem, na obisku ali na daljavo."
+    },
+    "creative-calm": {
+      "label": "Ustvarjalni mir",
+      "title": "Ustvarjalni mir",
+      "seo": "Ustvarjalni mir: sproščujoča umetnost in dejavnosti za sprostitev",
+      "description": "Sproščujoče ustvarjalne dejavnosti za odrasle in skrbnike: pozorna umetnost, dnevniško pisanje, glasba, čutni trenutki in mirna popoldneva. Ustvarjalna dejavnost, ne terapija.",
+      "lede": "Nežni načini za upočasnitev s svinčnikom, listom ali pesmijo. To so ustvarjalne dejavnosti, ne terapija, in ne zahtevajo nobenega posebnega znanja."
     },
     "caregiving": {
-      "label": "Oskrba",
-      "title": "Vodniki za oskrbo",
-      "seo": "Vodniki za oskrbo ob demenci: praktična vsakdanja pomoč",
-      "description": "Praktični, prijazni vodniki za skrbnike oseb z demenco: skupno igranje, pogovor, zavrnitve, nemir proti večeru, tablice, izbira aplikacij in skrb zase.",
-      "lede": "Preprosta, praktična pomoč za vsakdanje trenutke oskrbe osebe z demenco, vključno s skrbjo zase."
+      "label": "Skrb za bolnika z demenco",
+      "title": "Skrb za nekoga z demenco",
+      "seo": "Skrb za nekoga z demenco: dejavnosti in pomoč",
+      "description": "Vodniki za družine, ki skrbijo za nekoga z demenco: kako skupaj igrati, kaj storiti, ko rečejo ne, in kje po diagnozi dobiti zanesljivo pomoč.",
+      "lede": "Pomoč, ki najprej temelji na dejavnostih, za družine, ki skrbijo za nekoga z demenco, ter kam se obrniti po zdravniški in oskrbovalni nasvet."
     },
     "brain-health": {
       "label": "Zdravje možganov",
@@ -282,7 +396,16 @@
     "tryTogether": "Poskusite skupaj",
     "relatedGuides": "Sorodni vodniki",
     "related": "Sorodno",
-    "startHere": "Začnite tukaj"
+    "startHere": "Začnite tukaj",
+    "staleAria": "Prevod je zastarel",
+    "staleTitle": "Ta prevod je zastarel",
+    "staleText": "Narejen je bil iz starejše različice angleške strani, ki se je od takrat spremenila. Trenutna je angleška stran.",
+    "staleHealth": "Vsebuje zdravstvene informacije, zato preverite angleško stran in se pred ukrepanjem posvetujte z zdravnikom ali medicinsko sestro.",
+    "staleLink": "Preberite trenutno angleško stran"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Obvestilo o zdravstvenih informacijah",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Skupna dejavnost, ne preizkus spomina",
+      "title": "Skupna dejavnost, ne preizkus",
       "seoTitle": "O Creative Activities: naš pristop",
-      "description": "Zakaj igre Creative Activities nimajo časovnikov, točk in zaporedij, zakaj slike ostanejo vidne ter kaj o demenci bomo in česa ne bomo trdili.",
+      "description": "Zakaj Creative Activities nima merilnikov časa, točk ali nizov zaporednih dni, zakaj slike ostanejo vidne in kaj o zdravju ne bomo trdili ter česa ne bomo trdili.",
       "crumb": "Naš pristop",
-      "lede": "Creative Activities ustvarja mirne dejavnosti s slikami za odrasle, v katerih lahko skrbnik in oseba z demenco uživata drug ob drugem.",
-      "bodyHtml": "<h2>V kaj verjamemo</h2><p>Bistvo dejavnosti je sam trenutek: pogovor, nasmeh, zadovoljstvo ob združitvi dveh slik ali preprosto sedenje blizu. Ni namenjena merjenju koga, prigovarjanju, naj stori več, ali dokazovanju česar koli.</p><p>Mnoge aplikacije za urjenje možganov so zasnovane okoli hitrosti, točk, zaporedij in stopenj. Za osebo z demenco je to lahko kot izpit, ki ga ne more opraviti. Mi smo zasnovali nasprotno in se držimo teh pravil:</p><ul><li><strong>Nič ne more spodletiti.</strong> Brez ure, točk, števca potez, življenj, zaporedij, konfetov ali odštevanja, na nobenem zaslonu.</li><li><strong>Prepoznavanje namesto priklica.</strong> Slike so privzeto vidne. Namigi vabijo k pogovoru in nikoli ne sprašujejo po imenih ali spominih.</li><li><strong>Veliko, preprosto in stalno.</strong> Veliko besedilo in slike, visok kontrast ter kontrolniki, ki ostanejo na istem mestu.</li><li><strong>Dostojanstvo odraslih.</strong> Slike iz resničnega sveta in preproste, tople besede. Brez risank, pojočih pohval ali nagrad z emojiji.</li><li><strong>Lahek izhod.</strong> Gumb „Dovolj za zdaj“ je vedno viden. Ustaviti se na pol poti je dober izid.</li><li><strong>Zasebno privzeto.</strong> Brez računov in oglasov. Fotografije, ki jih izberete, ostanejo v vaši napravi.</li></ul><h2>Česa ne trdimo</h2><p>Naše igre so za veselje in povezanost. Ne diagnosticirajo, ne preverjajo, ne merijo, ne zdravijo, ne upočasnjujejo in ne preprečujejo demence ali Alzheimerjeve bolezni in nihče naj jih ne izbira iz tega razloga. Ko na svojih <a href=\"/brain-health/\">straneh o zdravju možganov</a> pišemo o raziskavah, jasno povemo, kje so dokazi šibki, in jih nikoli ne povezujemo z lastnimi igrami.</p><h2>Kdo smo</h2><p>Creative Activities je majhna neodvisna ekipa. Nismo zdravniki. Naši vodniki so napisani po objavljenih smernicah organizacij, kot sta National Institute on Aging in Alzheimer’s Association, in vsak vodnik navaja svoje vire. Preberite, <a href=\"/editorial-policy/\">kako pišemo in preverjamo svoje strani</a>.</p><h2>Povejte nam, kaj bi pomagalo</h2><p>Radi bi slišali, kaj vam deluje in kaj ne, zlasti od oseb z demenco, družinskih skrbnikov in osebja, ki izvaja dejavnosti. Pišite na <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponzorji in partnerji",
+        "none": "Creative Activities nima sponzorjev, plačanih objav in partnerjev, katerih logotipi bi bili objavljeni na spletnem mestu.",
+        "listed": "To so sponzorji in partnerji Creative Activities. Vsak odnos je razkrit tudi na strani, kjer se pojavi.",
+        "policy": "Če se to spremeni, bo vsaka takšna stran to jasno povedala na mestu, kjer se pojavi, nobena dejavnost pa ne bo nosila sponzorja, seznam partnerjev pa bo na tej strani.",
+        "listHeading": "Seznam partnerjev",
+        "noPartners": "Trenutno ni partnerjev."
+      },
+      "lede": "Creative Activities pripravlja mirne dejavnosti za odrasle, ob katerih lahko dva človeka uživata drug ob drugem, ne glede na to, ali eden skrbi za drugega ali pa preprosto želita preživeti skupen čas.",
+      "bodyHtml": "<h2>Za koga je</h2><p>Za vsakogar, ki skrbi za nekoga: starša, starega starša, otroka, partnerja, prijatelja ali osebo, ki živi z demenco. Družine, starejši odrasli in osebje v dejavnostnih programih lahko uporabljajo iste strani.</p><h2>Kaj verjamemo</h2><p>Smisel dejavnosti je sam trenutek: pogovor, nasmeh, zadovoljstvo, ko sestavite dve sliki, ali preprosto sedenje drug ob drugem. Namen ni nikogar meriti, potiskati dlje ali kaj dokazovati.</p><p>Mnoge aplikacije za urjenje možganov so zasnovane okoli hitrosti, točk, nizov zaporednih dni in stopenj. Za nekoga, ki je utrujen, slabo se počuti ali živi z demenco, je to lahko kot izpit, ki ga ne more opraviti. Mi smo zasnovali nasprotno in se držimo teh pravil:</p><ul><li><strong>Ni česa, kar bi lahko spodletelo.</strong> Na nobenem zaslonu ni ure, točk, števca potez, življenj, nizov zaporednih dni, konfetov ali odštevanja.</li><li><strong>Prepoznavanje namesto priklica.</strong> Slike so privzeto vidne. Namigi vabijo k pogovoru in nikoli ne preverjajo imen ali spominov.</li><li><strong>Veliko, preprosto in stabilno.</strong> Velika besedila in slike, visok kontrast ter gumbi, ki ostajajo na istem mestu.</li><li><strong>Dostojanstvo odraslega.</strong> Fotografije iz resničnega sveta in preprosta, topla beseda. Brez risank, pritajene pohvale in nagrad z emotikoni.</li><li><strong>Enostaven izhod.</strong> »Za zdaj končano« je vedno vidno. Ustavitev na pol poti je dober izid.</li><li><strong>Privzeto zasebno.</strong> Brez računov in oglasov. Fotografije, ki jih izberete, ostanejo v vaši napravi.</li></ul><h2>Česa ne trdimo</h2><p>Naše igre in dejavnosti so namenjene užitku in povezovanju. Ne diagnosticirajo, ne preverjajo, ne merijo, ne zdravijo, ne upočasnjujejo in ne preprečujejo demence ali Alzheimerjeve bolezni, zato jih nihče ne bi smel izbrati iz tega razloga. Ko pišemo o zdravstvenih raziskavah, jasno povemo, kje so dokazi šibki, in je nikoli ne povezujemo z lastnimi dejavnostmi.</p><h2>Kdo smo</h2><p>Creative Activities je majhna neodvisna ekipa. Nismo klinično osebje. Naši vodniki temeljijo na objavljenih smernicah organizacij, kot sta National Institute on Aging in Alzheimer’s Association, in vsak vodnik navaja svoje vire. Preberite <a href=\"/editorial-policy/\">kako pišemo in preverjamo svoje strani</a>.</p><h2>Sporočite nam, kaj bi pomagalo</h2><p>Radi bi slišali, kaj vam pomaga in kaj ne, zlasti od ljudi, ki živijo z demenco, družinskih skrbnikov in osebja v dejavnostih. Pišite na <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Kako pišemo in preverjamo svoje strani",
       "seoTitle": "Uredniška politika",
-      "description": "Kako Creative Activities raziskuje, piše, navaja vire in posodablja strani o dejavnostih ob demenci in zdravju možganov ter česa ne bomo nikoli objavili.",
+      "description": "Kako Creative Activities raziskuje, piše, pridobiva vire in posodablja svoje strani o dejavnostih in zdravju ter česa nikoli ne bomo objavili.",
       "crumb": "Uredniška politika",
       "bodyHtml": "<h2>Naši viri</h2><p>Svoje vodnike gradimo na javnih smernicah organizacij, kot so National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance in NHS, ter na recenziranih raziskavah, kot so pregledi Cochrane in velika klinična preskušanja. Vsak vodnik navaja vire, na katere se opira. Vsak vir odpremo, preden ga navedemo, in poročamo samo, kar res piše v njem.</p><h2>Kako pišemo</h2><ul><li>Najprej praktično: kaj storiti danes, v preprostem jeziku.</li><li>Iskreni o dokazih: rečemo „povezano z“, „lahko“ in „dokazi so mešani“, kadar je to resnica.</li><li>Spoštljivo: o osebah z demenco pišemo kot o odraslih in nikoli ne uporabljamo spraševalnega ali ponižujočega jezika.</li><li>Brez izmišljene vsebine: brez izmišljene statistike, navedkov, strokovnjakov, študij, ocen ali pričevanj.</li></ul><h2>Kdo pregleduje naše strani</h2><p>Strani piše in preverja ekipa Creative Activities, ob pomoči orodij umetne inteligence za raziskovanje in pisanje osnutkov. Ekipa vsako stran preveri glede na njene vire. Naših strani zdravnik ali drug zdravstveni strokovnjak <strong>ni</strong> pregledal in ne trdimo drugače. So splošne informacije, ne zdravniški nasvet.</p><h2>Česa ne bomo nikoli objavili</h2><ul><li>Trditev, da igra, hrana, dopolnilo, post ali rutina preprečuje, zdravi, upočasnjuje ali pozdravi demenco.</li><li>Testov, kvizov ali točk, ki nakazujejo, da ima nekdo demenco ali je nima.</li><li>Nasvetov o začetku, opustitvi ali spremembi katerega koli zdravila.</li><li>Oglaševanja ali sponzorirane vsebine, preoblečene v nasvete.</li></ul><h2>Posodobitve in popravki</h2><p>Vsaka stran prikazuje datum zadnje posodobitve. Če najdete napako ali zastarel vir, pišite na <a href=\"mailto:{email}\">{email}</a> in hitro bomo preverili.</p>"
     },
     "faq": {
       "title": "Vprašanja in odgovori",
-      "seoTitle": "Igre in dejavnosti za demenco: vprašanja in odgovori",
-      "description": "Odgovori na pogosta vprašanja o igrah in dejavnostih za demenco: katere igre poskusiti, kako dolgo igrati, zamisli za poznejšo fazo, zdravje možganov in zasebnost.",
+      "seoTitle": "Vprašanja in odgovori o Creative Activities",
+      "description": "Odgovori na pogosta vprašanja o igrah in dejavnostih: katere preizkusiti, koliko časa igrati, ideje za skupine in poznejšo fazo, zdravje in zasebnost.",
       "crumb": "Vprašanja in odgovori",
       "lede": "Kratki, jasni odgovori na vprašanja, ki jih skrbniki zastavljajo najpogosteje.",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "O igrah",
           "items": [
             {
-              "q": "Katere so najboljše igre za osebo z demenco?",
+              "q": "Katere so najboljše igre za starejše odrasle?",
               "a": "Najboljše igre so znane, preproste in brez pritiska, prava pa je tista, ki jo oseba danes uživa. Iskanje parov z vidnimi slikami, razvrščanje, lahke sestavljanke, dokončanje znanih rekov, barvanje in bingo s slikami so za mnoge ljudi primerni. Izogibajte se časovnikom, točkam in vsemu, kar je podobno preizkusu."
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Zdravje možganov",
+          "title": "Demenca in zdravje",
           "items": [
             {
               "q": "Ali igre lahko preprečijo ali upočasnijo demenco?",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Več podrobnosti: <a href=\"/caregiving/how-to-play-together/\">kako igrati skupaj</a>, <a href=\"/caregiving/when-they-say-no/\">kadar rečejo ne</a>, <a href=\"/activities/late-stage/\">dejavnosti v poznejši fazi</a> in <a href=\"/brain-health/can-dementia-be-prevented/\">ali je demenco mogoče preprečiti?</a>"
+      "moreHtml": "Več podrobnosti: <a href=\"/caregiving/how-to-play-together/\">kako skupaj igrati</a>, <a href=\"/caregiving/when-they-say-no/\">ko rečejo ne</a>, <a href=\"/activities/late-stage/\">dejavnosti v poznejši fazi</a> in <a href=\"/dementia-activities/\">dejavnosti za demenco doma</a>."
     },
     "handout": {
       "title": "Brezplačne, nežne igre za osebe z demenco",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "Za domove starejših, knjižnice in podporne skupine",
-      "seoTitle": "Brezplačne dejavnosti za demenco za domove in skupine",
-      "description": "Kako domovi starejših, dnevni centri, knjižnice in podporne skupine uporabljajo naše brezplačne igre za demenco, z besedilom za seznam virov.",
+      "seoTitle": "Brezplačne dejavnosti za domove za starejše, knjižnice in skupine",
+      "description": "Kako domovi za starejše, dnevni programi za odrasle, knjižnice, agencije za starejše in podporne skupine uporabljajo naše brezplačne igre in vodnike za dejavnosti ter besedilo za dodajanje na seznam virov.",
       "crumb": "Za organizacije",
       "lede": "Vse na tem spletnem mestu je brezplačno za uporabo s stanovalci, člani in uporabniki, brez računa, licence ali pristojbine.",
-      "shortText": "{name}: brezplačne, nežne igre s slikami in vodniki za dejavnosti za osebe z demenco in njihove skrbnike. Brez prijave, časovnikov in točk.",
-      "longText": "{name} ({domain}) ponuja {count} brezplačnih iger v brskalniku, narejenih za osebe z demenco, med njimi iskanje parov z vidnimi slikami, lahko sestavljanko, razvrščanje, znane reke in bingo s slikami s karticami za tiskanje. Računa, oglasov, časovnika in točk ni. Spletno mesto ima tudi vodnike za dejavnosti v preprostem jeziku za vsako fazo demence, ki navajajo National Institute on Aging in Alzheimer's Association.",
+      "shortText": "{name}: brezplačne, nežne slikovne igre in vodniki za dejavnosti za starejše odrasle, družine in ljudi, ki živijo z demenco. Brez prijave, brez časomerilnikov, brez točk.",
+      "longText": "{name} ({domain}) ponuja {count} brezplačnih spletnih iger za starejše odrasle, družine in ljudi, ki živijo z demenco. Med njimi so iskanje parov, pri katerem slike ostanejo vidne, preprosta sestavljanka, razvrščanje, znani pregovori in slikovni bingo s kartami za tisk. Ni treba ustvariti računa, na strani ni oglasov, časovnikov ali točkovanja. Stran ima tudi navodila za dejavnosti v preprostem jeziku za družine, starejše odrasle in osebje, z viri, kot sta National Institute on Aging in Alzheimer's Association.",
       "useTitle": "Kaj lahko organizacije uporabijo",
       "gamesItemHtml": "<strong>{count} iger v brskalniku</strong>, ki delujejo na prenosniku, tablici ali televizorju, povezanem z računalnikom. Brez namestitve, računa ali prenosa. Oglejte si <a href=\"/games/\">vse igre</a>.",
       "printablesLabel": "{count} gradiv za tiskanje:",
       "printablesAfter": "Uporabite gumb Natisni na vsaki strani.",
-      "moreItemsHtml": "<li><strong>Oblike za skupine:</strong> <a href=\"/games/picture-bingo/\">Bingo s slikami</a> ima kartice za tiskanje in klicatelja na zaslonu, <a href=\"/activities/trivia/\">preproste zanimivosti</a> pa 50 vprašanj z možnimi odgovori in izhodišči za pogovor.</li><li><strong>Vodniki za dejavnosti</strong> za osebje in družine, po fazah in vrstah, napisani v preprostem jeziku z viri. Začnite pri <a href=\"/activities/ideas/\">101 zamisli za dejavnosti</a> ali <a href=\"/activities/care-home-groups/\">skupinskih dejavnostih za domove starejših</a>.</li>",
+      "moreItemsHtml": "<li><strong>Oblike skupinskega dela:</strong> <a href=\"/games/picture-bingo/\">Slikovni bingo</a> ima kartice za tisk in klicatelja na zaslonu, <a href=\"/together/conversation-games-for-all-ages/\">pogovorne igre</a> pa vsebujejo vprašanja z možnostmi odgovorov in izhodišča za pogovor.</li><li><strong>Navodila za dejavnosti</strong> za osebje in družine, napisana v preprostem jeziku z navedenimi viri. Začnete lahko s <a href=\"/activities/ideas/\">101 idejo za dejavnosti</a> ali s <a href=\"/crafts/craft-group-sessions/\">skupinskimi dejavnostmi za domove za starejše</a>.</li>",
       "restHtml": "<h2>Kako jo uporabljajo skupine</h2><ul><li><strong>Domovi starejših in oskrba ob spominskih težavah:</strong> bingo s slikami ali dokončanje rekov na televizorju v dnevnem prostoru, pri čemer ena oseba tapa za skupino.</li><li><strong>Dnevni centri za odrasle:</strong> postaja s tablico s Pari slik, nastavljenimi na štiri ploščice, za kratka srečanja ena na ena.</li><li><strong>Javne knjižnice:</strong> natisnjena iskanja besed in kartice za pogovor v zabojnikih za spomin ter spletno mesto med zaznamki na knjižničnih tablicah.</li><li><strong>Podporne skupine za skrbnike in spominske kavarne:</strong> <a href=\"/handout/\">enostranski letak za tiskanje</a>, ki ga družine odnesejo domov.</li><li><strong>Bolnišnice in načrtovalci odpusta:</strong> letak v mapah za skrbnike, za kaj mirnega doma ali ob postelji.</li></ul><h2>Česa ne počnemo</h2><p>Igre so za veselje in skupni čas. Ne diagnosticirajo, ne preverjajo, ne ocenjujejo, ne zdravijo in ne upočasnjujejo demence in prosimo organizacije, naj jih tako ne opisujejo. Oglasov ni in igre ne zahtevajo imen, zdravstvenih podatkov ali nalaganja fotografij. Spletno mesto uporablja Google Analytics za štetje obiskov; naše <a href=\"/privacy/\">obvestilo o zasebnosti</a> pojasnjuje, kaj to zbira. Fotografije, uporabljene v igri <a href=\"/games/photo-pairs/\">Pari fotografij</a>, ostanejo v brskalniku.</p><h2>Dodajte nas na svoj seznam virov</h2><p>Če vodite seznam virov za skrbnike, lahko povežete na <a href=\"/\">{domain}</a>. Kopirate lahko katerikoli opis.</p>",
       "shortTitle": "Kratek opis",
       "longTitle": "Daljši opis",
-      "linksHtml": "<p>Uporabne strani za neposredno povezavo: <a href=\"/games/\">brezplačne igre</a>, <a href=\"/activities/printable/\">brezplačna gradiva za tiskanje</a>, <a href=\"/activities/alzheimers/\">dejavnosti ob Alzheimerjevi bolezni</a> in <a href=\"/caregiving/how-to-play-together/\">kako igrati skupaj</a>.</p><h2>Vprašanja ali popravki</h2><p>Če je kaj na spletnem mestu napačno ali nejasno ali če potreb stanovalca to, kar je tu, ne zadovolji, nam to sporočite na <a href=\"mailto:{email}\">{email}</a>. Prosimo, ne pošiljajte osebnih ali zdravstvenih podatkov o stanovalcih ali uporabnikih.</p>"
+      "linksHtml": "<p>Strani, na katere lahko neposredno povežete: <a href=\"/games/\">brezplačne igre</a>, <a href=\"/games/\">brezplačna gradiva za tisk</a>, <a href=\"/dementia-activities/\">dejavnosti za ljudi z demenco doma</a> in <a href=\"/caregiving/how-to-play-together/\">kako igrati skupaj</a>.</p><h2>Vprašanja ali popravki</h2><p>Če je kaj na strani napačno ali nejasno ali če potreb stanovalca gradivo tukaj ne pokriva, nam sporočite na <a href=\"mailto:{email}\">{email}</a>. Prosimo, ne pošiljajte osebnih ali zdravstvenih podatkov stanovalcev ali uporabnikov.</p>"
     },
     "app": {
       "title": "Aplikacija Creative Activities",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Brezplačne igre za demenco in Alzheimerjevo bolezen na spletu",
-    "description": "Brezplačne spletne igre za starejše z demenco ali Alzheimerjevo boleznijo: iskanje parov, sestavljanke, razvrščanje, barvanje, bingo. Brez prijave in točk.",
+    "title": "Brezplačne igre za igranje skupaj na spletu",
+    "description": "Brezplačne spletne igre za starejše odrasle, družine in ljudi, ki živijo z demenco: iskanje slik, enostavne sestavljanke, razvrščanje, znani pregovori, barvanje in bingo. Brez registracije, časovnikov in točk.",
     "crumb": "Igre",
-    "h1": "Nežne igre za osebe z demenco",
+    "h1": "Nežne igre za igranje skupaj",
     "lede": "{count} brezplačnih iger za skupno igranje v brskalniku. Velike slike, preproste besede in nič, kar bi lahko spodletelo: brez časovnikov, točk in prijave.",
-    "listName": "Nežne igre za osebe z demenco",
+    "listName": "Nežne igre za igranje skupaj",
     "byStageTitle": "Izbira igre po fazi",
     "byStageLede": "Faze so le groba smernica. Sledite temu, kar oseba uživa in kar je danes udobno.",
     "stageCol": "Faza",
     "gamesCol": "Igre, ki pogosto ustrezajo",
-    "moreHtml": "Več zamisli stran od zaslona: <a href=\"/activities/ideas/\">101 dejavnosti za osebe z demenco</a>, <a href=\"/activities/alzheimers/\">dejavnosti in igre ob Alzheimerjevi bolezni</a>, <a href=\"/activities/memory-games/\">nežne igre za spomin</a> in <a href=\"/activities/puzzles/\">sestavljanke</a>.",
+    "moreHtml": "Več idej za dejavnosti brez zaslona: <a href=\"/activities/ideas/\">101 ideja za dejavnosti</a>, <a href=\"/dementia-activities/\">dejavnosti za ljudi z demenco doma</a> in <a href=\"/crafts/\">ročna dela</a>.",
     "faq": [
       {
         "q": "S katero igro naj začnemo?",
@@ -462,7 +593,7 @@
       },
       {
         "q": "Ali so to igre za spomin za starejše?",
-        "a": "So igre iskanja parov in slik, ki jih lahko uživa vsak starejši odrasel, a so zgrajene tako, da spomina ne preverjajo: pri Parih slik slike ostanejo obrnjene navzgor, razen če izberete drugače. Naš vodnik o igrah za spomin za starejše z demenco pojasnjuje, kako ohraniti vsako igro za spomin nežno."
+        "a": "To so igre iskanja parov in slikovne igre, ki jih lahko uživa vsak starejši odrasli, vendar niso zasnovane za preverjanje spomina: pri Slikovnih parih slike ostanejo obrnjene navzgor, razen če izberete drugače. Vsako igro za spomin lahko naredite nežnejšo, če odstranite časovnik in točke."
       },
       {
         "q": "Ali obstajajo igre za skupine v domu starejših?",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Ali obstaja aplikacija z dejavnostmi za demenco?",
+        "q": "Ali obstaja aplikacija za starejše odrasle in družine?",
         "a": "Da. Creative Activities (v trgovini naveden kot „{storeName}“) je brezplačen v App Store in Google Play. Ponuja nežno iskanje parov z velikimi ploščicami, igre z družinskimi fotografijami, ki jih izberete, in pakete slik, ki delujejo brez povezave."
       },
       {
@@ -525,7 +656,7 @@
     "printable": "Za tiskanje",
     "howTo": "Kako igrati {name}",
     "tips": "Nasveti za skupno igranje",
-    "newToPlayingHtml": "Ste novi pri igranju z osebo z demenco? Preberite <a href=\"/caregiving/how-to-play-together/\">kako igrati igre skupaj</a>, tudi kaj storiti, če izgubijo zanimanje.",
+    "newToPlayingHtml": "Prvič igrate s starejšim odraslim ali z osebo, ki živi z demenco? Preberite <a href=\"/caregiving/how-to-play-together/\">kako igrati igre skupaj</a>, vključno s tem, kaj storiti, če izgubi zanimanje.",
     "moreAria": "Več za raziskovanje",
     "helpfulGuides": "Koristni vodniki",
     "appTitle": "Igrajte jo v aplikaciji",
@@ -535,6 +666,35 @@
     "goodToKnow": "Dobro je vedeti",
     "goodToKnowText": "Ta igra je za veselje in skupni čas. Ničesar ne preverja, ne meri in ne zdravi.",
     "moreGames": "Več nežnih iger",
-    "crumb": "Igre"
+    "crumb": "Igre",
+    "print": {
+      "heading": "Igrajte na papirju",
+      "sameRules": "Različica na papirju ima enaka pravila kot igra na zaslonu:",
+      "button": "Natisnite različico na papirju",
+      "pageNote": "Ena stran na formatu A4 ali US Letter, primerna tudi za črno-belo tiskanje. Različica {date}.",
+      "islandNote": "Natisne se tisto, kar je trenutno na zaslonu. Različica {date}.",
+      "sheetTitle": "{name}: različica na papirju",
+      "point": "Na papirju s prstom pokažite na sliko namesto da se je dotaknete, ali jo obkrožite s peresom. Vsaka vrstica je nov nabor.",
+      "pointTarget": "Na papirju je slika, ki si jo je treba ogledati, v okvirju na začetku vsake vrstice. S prstom pokažite na sliko namesto da se je dotaknete, ali jo obkrožite s peresom.",
+      "halves": "Vsaka slika je prerezana na pol. Potegnite črto od vsake polovice na levi do ustrezne polovice na desni ali pokažite s prstom. Ničesar ni treba rezati.",
+      "grid": "Vsako polje ima številko. Poiščite to številko v legendi in pobarvajte polje s svinčnikom te barve. Pobarvate lahko tudi s katero koli drugo barvo. Ničesar ni treba rezati.",
+      "colors": "Vsaka vrstica poimenuje barvo. S prstom pokažite na vsako sliko te barve ali jo obkrožite s peresom. Vsaka vrstica je nov nabor.",
+      "dice": "Vsaka vrstica je nabor kock. Izberite vrstico ali izrežite slike in jih izvlecite s kupčka, nato z njimi sestavite zgodbo v poljubnem vrstnem redu. Kdo lahko kadarkoli izpusti potezo.",
+      "words": "Izrežite besede ali potegnite črto od vsake besede do njene slike. Med delom besede glasno berite.",
+      "cards": "Izrežite kartice ob črtkanih črtah. Položite jih z licem navzgor na mizo in poiščite pare.",
+      "chain": "Na papirju si slike oglejte od leve proti desni, drugo za drugo. Vsak pove en stavek o slikah do tega trenutka, nato pokaže na naslednjo sliko. Kdo lahko kadarkoli izpusti potezo.",
+      "sort": "Izrežite slike ob črtkanih črtah in vsako položite v škatlo, kamor spada.",
+      "puzzle": "Veliko sliko prerežite ob črtkanih črtah na štiri dele in jih premešajte. Zamenjajte dva dela naenkrat, dokler slika ni cela. Mala slika je vodilo.",
+      "cutSafety": "Pomočnik lahko pred začetkom poskrbi za rezanje. Škarje po uporabi odložite.",
+      "version": "Različica {date} · {url}",
+      "reasons": {
+        "photos": "Različica na papirju ne obstaja. Ta igra uporablja vaše lastne fotografije, ki ostanejo v vašem brskalniku in se nikoli ne naložijo na strežnik, zato jih stran ne more natisniti. Za igro na papirju doma natisnite dve kopiji nekaj priljubljenih fotografij in jih na mizi ujemajte v pare.",
+        "paced": "Različica na papirju ne obstaja. Krog na zaslonu določa počasen, enakomeren tempo, tiskana stran tega ne more, zato bi bila to druga dejavnost. Tih premor skupaj brez zaslona je vedno možnost.",
+        "turns": "Različica te igre na papirju ne obstaja. Za iskanje parov na mizi natisnite slikovne kartice iz Slikovnih parov in se izmenjujte pri njihovem obračanju.",
+        "screen": "Nema papirne različice. Gre za sliko, ki si jo skupaj ogledata na zaslonu; ljubljena fotografija ali razglednica na mizi pa naredi isto.",
+        "wash": "Nema papirne različice. Akvarel na papirju je ista zamisel: mokra čopič in ena barva naenkrat.",
+        "sayings": "Papirne različice še ni. Na papirju bi se vsak konec pokazal naenkrat, z njim pa bi se izgubil nežni korak »Pokaži konec«. Izreke preberita skupaj z zaslona ali pa si delite nekaj tistih, ki jih poznata oba."
+      }
+    }
   }
 }

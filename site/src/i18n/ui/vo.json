@@ -7,16 +7,22 @@
     "homeLabel": "Lomopod ela Creative Activities",
     "mainNav": "Cifik",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: magods gretik e yofik teacopa, sulsuna e doga",
+    "defaultImageAlt": "Creative Activities: large, friendly drawings of everyday things to make and do",
     "languages": "Pük",
     "englishOnly": "(Linglänapük)",
     "machineTranslated": "Pad at petraduton itjäfidiko e no nog peblöfädöl fa motapükan.",
     "readOriginal": "Reidolös rigoti in Linglänapük",
     "nav": {
+      "find": "Find an activity",
       "games": "Pleds",
       "activities": "Jäfs",
       "caregiving": "Kitedam",
-      "brainHealth": "Breinasaun"
+      "brainHealth": "Breinasaun",
+      "crafts": "Krafts",
+      "kids": "Bebs",
+      "together": "Ufik",
+      "creativeCalm": "Pads pevälik",
+      "search": "Sösöl"
     },
     "faqTitle": "Säks e gespics",
     "breadcrumb": "Tuvaveg",
@@ -27,7 +33,32 @@
       "label": "Gretot vödas",
       "smaller": "Vöds kösömik",
       "larger": "Vöds gretikum",
-      "contrast": "Leigod mödikumo krasik"
+      "contrast": "Leigod mödikumo krasik",
+      "colors": "Kalods",
+      "light": "Lätik",
+      "dark": "Dunkik",
+      "device": "Tikum sem pad at",
+      "lineLength": "Longed fomas",
+      "standardLines": "Normal",
+      "shorterLines": "Fomas lessik",
+      "spacing": "Dinams",
+      "standardSpacing": "Normal",
+      "moreSpace": "Plu spad"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Muls 101 pro jäfs",
     "lateStage": "Jäfs pro städan lätik",
     "printable": "Jäfs bükovik",
-    "allActivities": "Jäfs valik",
+    "allActivities": "Ales gids binon",
     "forCaregivers": "Pro kitedans",
     "playTogether": "Kikö pledon kobo",
     "selfCare": "Kitedam oli it",
@@ -54,24 +85,34 @@
     "app": "Saitot ela Creative Activities",
     "appHelp": "Yuf tefü saitot",
     "support": "Yuf",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Gidaviks",
     "sitePrivacy": "Privedrespeked vöpsita",
     "appPrivacy": "Privedareig saitota",
     "privacyChoices": "Välots tefü prived",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "KConditions e dälot saitota",
     "safety": "Kekod e geb pedisinöl",
     "accessibility": "Gebovöf",
     "healthNotice": "Nüned dö saun",
     "allLegal": "Nüns lonik valik",
     "note": "Creative Activities lofon jäfis balugik pekobädöl pro fred. No binon konsäl sanavik, blöfam u sanam, e no dasevon, no mafon e no krüton nendogi. Tefü säks sauna, spikolös ko sanan. Dü telegin, telefonolös lü 112.",
-    "publisher": "Pebevoböl fa Cloudjet Solutions Pte. Ltd."
+    "publisher": "Pebevoböl fa Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Krafts por ales bevods",
+    "kids": "Binon por bebs",
+    "together": "Binons dö fol",
+    "creativeCalm": "Pads pevälik",
+    "dementiaActivities": "Binons por pipels mög demenz"
   },
   "home": {
-    "title": "Pleds e jäfs pro demens e maläd di Alzheimer | Creative Activities",
-    "description": "Pleds magodas nenglatik e sofik ad pledön vöpo, e muls jäfas pro mens liföls ko demens u maläd di Alzheimer e kitedans onsik. Nen registaram, timamufs u numätams.",
+    "title": "Creative Activities: Binons pevälik por pipels kel läkon vatikön",
+    "description": "Binons pevälik no pay por pipels kel läkon vatikön: krafts, veds por bebs, binons dö fol e pevälik ideks pacäl.",
     "eyebrow": "Nen-pelik · Nen blesirs · Nen registaram · Nen timamufs u numätams",
-    "h1": "Pleds e jäfs sofik pro mens labü demens",
-    "lede": "Pleds magodik balugik, fotografots sevädik, e jäfs ad yofön kobo—segun vifikot lönik ola.",
+    "h1": "Vedön ba fol",
+    "lede": "Penolös binoti kel fitobom pipeli, dani e so kel ésedos. Krafts fasik, pikod por bebs, veds dö fol e pevälik pevälik ideks, ko versions fasikum e kad por primön. Stopolös kiose ai volol.",
     "playGame": "Pledolös pledi",
     "findIdeas": "Tuvön mulis jäfas",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Muls 101 pro jäfs",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Städ bülik",
         "text": "Fovön ad dunön bosi keli löfons, ko votükils smalik: lönastuds, tufs, vödapleds e plänam kobik.",
         "label": "Muls pro städ bülik"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Städ zänodik",
         "text": "Vobs balugik e sevädik pedilöl ad stepils: plekedam, sotam, musig, magodapleds e spats brefik.",
         "label": "Muls pro städ zänodik"
@@ -124,10 +165,10 @@
         "label": "Muls pro städ lätik"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Fikos sumik spesik? Provolös <a href=\"/dementia-activities/\">binons e gemes por Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzels e tab-gemes</a>, <a href=\"/together/conversation-games-for-all-ages/\">gemes dö spikam</a> u <a href=\"/together/puzzles-and-table-games/\">puzels</a>.",
     "approachEyebrow": "Vegid obas",
-    "approachTitle": "Jäf pekobädöl, no blöfam mema",
-    "approachLede": "„Breinapleds“ mödik pabumons zü vifikot, numätams e fovams. Pro pösod liföl ko demens, at kanon jinön as xam. Ebumobs leigo telodoti.",
+    "approachTitle": "Bin fol, no testod",
+    "approachLede": "Plu \"gemes dö brain\" binons ba lukam, poins e sükaladels. Por pipel kel binon tifik, nesik u livon mög demenz, to his lautikön kma testod. Med binom kontrari.",
     "approachLink": "Kikod disinobs osi modü at",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Kods kösömik pro sesagam, e moders molik ad dönu steifülön poso."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Böladam taböta",
-        "text": "Vöds gretikum, ropams nemödikum e lomaskrin balugik lebalik."
+        "href": "/activities/group-art-activities/",
+        "title": "Binons pikas grupa",
+        "text": "Vedöls fol por tab kelöv pluik pipels, ko vödabum vilo pipel."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Jäfs bükovik nen-pelik",
-        "text": "Vödasukams labü tonats gretik, pads kölik, bingo e karts bespika."
+        "href": "/activities/ideas/",
+        "title": "101 ideks binona",
+        "text": "Ideks fasik, sortöl bi kelos ésedol e kelo mögi vigam ela."
       }
     ],
     "researchTitle": "Breinasaun: kelosi vestigam velatiko sagon",
@@ -185,16 +226,16 @@
     "aboutApp": "Dö saitot",
     "faq": [
       {
-        "q": "Kiks binons pleds gudik pro mens labü demens?",
-        "a": "Pleds gudik binons balugik, sevädik e libik se leped: magods gretik ad leigodön, sötam, kulasits fasilik, lefulükam pükavödas sevädik, kölön, magodabingo e spikakads. Väl gudikün binon ut, keli pösod gälokom adelo. Vitols timamiens, püntis e alisi, kel jinon äs bluf."
+        "q": "Kelos binons gudik por pipels oldik?",
+        "a": "Gemes gudik binons fasik, konik e no-ven pressi: pictörs big por matön, sortön, puzels fasik, finijön sprakamis kvanik, kolorön, bingo pikas e pikods dö spikam. Oles fitons plu pipels, inklusivo pipels kels livon mög demenz. Gudikam votül binon kel pipel gaflon düris dedel. Lezöl timeris, poins e nog kel sevon kon testod."
       },
       {
-        "q": "Pleds at tefü demenz binons-li glatiks?",
+        "q": "Ots gemes binons paid?",
         "a": "Si. Pled e dabukot alik in Creative Activities binons glatiks, nen kal, nunam u donadugam. Pleds vobons in resodaspäir su telefon, taib u komputor."
       },
       {
         "q": "Pleds breina neletons-li demenzi?",
-        "a": "Pled nonik peblöfom ad neletön demenzi, e Creative Activities no lesagon ad sanön u neletön bosiko. Pleds obsik binons te pro gälok e tim kobik. Diläd obsik tefü breinasaun plänon, kosi vestigam jonon e no jonon."
+        "a": "Nog game ofinon ai binon yufik de demenz, e Creative Activities no begon ad lautikön u preventön nog. Gemes obsik binons por gaudam e tim ko vilo, e nopi binon-pad ai dälon yegi."
       },
       {
         "q": "Pleds at pötoms-li pro pösod labü maläd di Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Kims jafons eli Creative Activities?",
-        "a": "Creative Activities binon tefam smalik jaföl vobidis magodik stilik pro famüls e kälans, su bevüresod e äs nünömam glatik. No binobs sanans, e nos isik binon sanelik konsäl."
+        "a": "Creative Activities binon vig tim sumik kel dälon pevälik, adultik binons creative por ale kel läkon vatikön, ini vebs e as yufik leap. No binoms klinikeris, e nog ela binon medikal konseil."
+      }
+    ],
+    "groupsEyebrow": "Findolös ose",
+    "groupsTitle": "Fol binons creative",
+    "groupsLede": "Startolös ko grup kel fitobom kisi pipels yumoms e kisi kels ésedos. Kad vemik pads has versions fasikum e noti dö sejuritad.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Krafts",
+        "text": "Pöp, pein, recikölöd e templik projekti, ko versi fasikum por vem.",
+        "label": "Logolös krafts"
+      },
+      {
+        "href": "/kids/",
+        "title": "Bebs",
+        "text": "Arts e leüd por bebs, ko adult nelik e noti klära dö sejuritad.",
+        "label": "Logolös binons bebas"
+      },
+      {
+        "href": "/together/",
+        "title": "Ufik",
+        "text": "Spikam, puzels, tim outdoor e vegs stebön klostik tel generations.",
+        "label": "Logolös binons dö fol"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Pevälik pads",
+        "text": "Tims pevälik, lenik creative ko pen, pad u song. No terapi.",
+        "label": "Logolös pads pevälik"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Dabukovik",
     "play": "Pledön {name} →",
     "readGuide": "Reidön dukieli"
+  },
+  "listen": {
+    "listenSteps": "Hedolös stapis",
+    "pause": "Stopolöd",
+    "resume": "Jonön",
+    "stop": "Stopolöd",
+    "speed": "Velod",
+    "normal": "Normal",
+    "slower": "Segikumo",
+    "reading": "Lidolöd stapis golo.",
+    "paused": "Stopöl. Preselolös Jonön de jonön.",
+    "note": "Yusom vodi oma fa ledevis. Some ledevs sendon teksti ai fabikanan, ad spikön oli.",
+    "listen": "Hedolös",
+    "stepLabel": "Hedolös stapi {n}",
+    "stopStep": "Stopolös stapi {n}"
   },
   "playCta": {
     "title": "Erevilol-li pro pled sofik?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Vobids",
-      "title": "Vobids pro Mens labü Demenz",
-      "seo": "Vobids pro Mens labü Demenz: Tikets ma Stads",
-      "description": "Vobidatikets pro mens labü demenz in stad alik: musig, memam, vobs aldelik, senamüls, kuratits, plödöpo e dabukots glatik.",
-      "lede": "Vobid nitedik binon alikos kel blinon fiti, desini u timi kobik. Primolös ko utos, kelosi pösod ai egälikom, e votükolös oni adelo."
+      "label": "Gids binona",
+      "title": "Gids Binona",
+      "seo": "Gids Binona: Ideks, Yuts krafta e Vegs Ai Begön",
+      "description": "Gids fasik dö binons creative kels pipel kanon dunön ko vilo: ideks fasik, yuts krafta bi lised mikik, arts dö fol, letri, memoris e terapi-arts paneläds.",
+      "lede": "Gids kurta e praktik por välön e begön binoti ko vilo, valik kiose binon jeo u kapabs."
+    },
+    "crafts": {
+      "label": "Krafts",
+      "title": "Krafts por Ales Bevods",
+      "seo": "Krafts Fasik por Ales Bevods, ko Versions Fasikum",
+      "description": "Krafts fasik por adults, bebs e familys: pöp, kolorön, recikölöd e templik krafts, ko versions fasikum por holdön e sidik, no skil spesik.",
+      "lede": "Krafts kels begons ad yutas kelos plu hats ya hevons, vemik ko version fasikum, so ale kanon yufön nog."
+    },
+    "kids": {
+      "label": "Bebs",
+      "title": "Creative Activities por Bebs",
+      "seo": "Creative Activities por Bebs: Arts, Sensoriks e Pevälik",
+      "description": "Binons creative por bebs: arts por yunik bebs, arts dö proces, leüd sensorik, krafts dö dei vetik e ideks pevälik, ko noti dö sejuritad e versions por nids sensorik.",
+      "lede": "Ideks arts e leüda por bebs bevödik e nids, ko noti klära dö sejuritad e adult nelik."
+    },
+    "together": {
+      "label": "Ufik",
+      "title": "Binons por Fol Dunön",
+      "seo": "Binons por Fol Dunön, Tel Generations",
+      "description": "Binons por tu u plu generations: gemes dö spikam, puzels, tim outdoor, krafts por spods e spöds, e vegs stebön klostik de fa dimik.",
+      "lede": "Ideks por dälön tim ko mami, spod, bef u friend, hom, outdoor, visit u de fa dimik."
+    },
+    "creative-calm": {
+      "label": "Pads pevälik",
+      "title": "Pevälik Pads",
+      "seo": "Pevälik Pads: Pevälik Arts e Binons por Ladikön",
+      "description": "Pevälik binons creative por adults e kevans: arts mindful, zurnal, müsig, moments sensorik e aftanis pevälik. Binon creative, no terapi.",
+      "lede": "Vegs lenik por slovön ko pen, pad u song. Ots binons creative, no terapi, e no pedon skil."
     },
     "caregiving": {
-      "label": "Kälam",
-      "title": "Dukiels tefü Kälam",
-      "seo": "Dukiels tefü Kälam Demenza: Yuf Pratiko Aldelik",
-      "description": "Dukiels pratik e flenik pro kälans demenza: pledam kobik, kosäd, refusems, trub vendelik, taibs, väl nünömamas e menakälam.",
-      "lede": "Yuf balugik e pratik pro timüls aldelik tefü kälam pösoda keli kälol, keninükamü kälam ola it."
+      "label": "Pflege bei Demenz",
+      "title": "Menschen mit Demenz begleiten",
+      "seo": "Menschen mit Demenz begleiten: Aktivitäten und Hilfe",
+      "description": "Hinweise für Familien, die einen Menschen mit Demenz begleiten: wie man gemeinsam spielt, was man tun kann, wenn die Person Nein sagt, und wo man nach einer Diagnose verlässliche Hilfe findet.",
+      "lede": "Hilfe mit Aktivitäten im Mittelpunkt für Familien, die einen Menschen mit Demenz begleiten, und Hinweise, wohin man sich für medizinische und pflegerische Fragen wenden kann."
     },
     "brain-health": {
       "label": "Breinasaun",
@@ -283,7 +396,16 @@
     "tryTogether": "Blufolös kobü",
     "relatedGuides": "Dukiels teföl",
     "related": "Teföl",
-    "startHere": "Primolös is"
+    "startHere": "Primolös is",
+    "staleAria": "Übersetzung veraltet",
+    "staleTitle": "Diese Übersetzung ist veraltet",
+    "staleText": "Sie wurde aus einer früheren Fassung der englischen Seite erstellt, die sich seitdem geändert hat. Maßgeblich ist die englische Seite.",
+    "staleHealth": "Sie enthält gesundheitsbezogene Informationen. Bitte prüfen Sie die englische Seite und fragen Sie Ärztin oder Arzt bzw. Pflegefachkraft, bevor Sie danach handeln.",
+    "staleLink": "Die aktuelle englische Seite lesen"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Nunod tefü saunanüns",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Vobid Kobik, No Memabluf",
+      "title": "Eine gemeinsame Aktivität, kein Test",
       "seoTitle": "Tefü Creative Activities: Metod Obsik",
-      "description": "Kikod pleds di Creative Activities labons timiamiens nonik, püntis u fovamis, kikod magods blibons logoviks, e kosi lesagobs u no lesagobs tefü demenz.",
+      "description": "Warum Creative Activities keine Timer, Punkte oder Serien hat, warum Bilder sichtbar bleiben und was wir zur Gesundheit behaupten und was nicht.",
       "crumb": "Metod obsik",
-      "lede": "Creative Activities jafon magodavobidis stilik pro daiks, kelis kälan e pösod labü demenz kanons gälokön flan flane.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsoren und Partner",
+        "none": "Creative Activities hat keine Sponsoren, keine bezahlten Platzierungen und keine Partner, deren Logos auf der Website erscheinen.",
+        "listed": "Dies sind die Sponsoren und Partner von Creative Activities. Jede Beziehung wird außerdem auf der Seite offengelegt, auf der sie erscheint.",
+        "policy": "Sollte sich das ändern, wird dies auf jeder betroffenen Seite angegeben, keine Aktivität wird jemals einen Sponsor tragen, und die Partnerliste steht auf dieser Seite.",
+        "listHeading": "Partnerliste",
+        "noPartners": "Derzeit gibt es keine Partner."
+      },
+      "lede": "Creative Activities bietet ruhige Aktivitäten für Erwachsene an, die zwei Menschen Seite an Seite genießen können, egal ob eine Person die andere begleitet oder beide einfach Zeit miteinander verbringen möchten.",
+      "bodyHtml": "<h2>Für wen das Angebot gedacht ist</h2><p>Für alle, die jemanden begleiten: Eltern, Großeltern, Kinder, Partnerinnen und Partner, Freundinnen und Freunde oder Menschen mit Demenz. Familien, ältere Erwachsene und Mitarbeitende in Betreuungseinrichtungen können dieselben Seiten nutzen.</p><h2>Was wir glauben</h2><p>Der Wert einer Aktivität liegt im Moment selbst: in einem Gespräch, einem Lächeln, der Freude, zwei Bilder zusammenzufügen, oder einfach im gemeinsamen Dasein. Es geht nicht darum, jemanden zu messen, zu drängen oder etwas beweisen zu müssen.</p><p>Viele Gedächtnistrainings-Apps sind auf Tempo, Punkte, Serien und Stufen ausgelegt. Für einen Menschen, der müde, krank oder von Demenz betroffen ist, kann sich das wie eine Prüfung anfühlen, die man nicht bestehen kann. Wir haben es genau umgekehrt gestaltet und halten uns an diese Regeln:</p><ul><li><strong>Nichts, was man verlieren kann.</strong> Keine Uhr, keine Punkte, kein Zug-Zähler, keine Leben, Serien, Konfetti oder Countdowns, auf keinem Bildschirm.</li><li><strong>Wiedererkennen statt Erinnern.</strong> Bilder bleiben standardmäßig sichtbar. Hinweise laden zum Gespräch ein und fragen nie nach Namen oder Erinnerungen ab.</li><li><strong>Groß, schlicht und ruhig.</strong> Große Schrift und Bilder, hoher Kontrast und Bedienelemente, die immer an derselben Stelle bleiben.</li><li><strong>Würde für Erwachsene.</strong> Fotos aus dem Alltag und schlichte, warme Worte. Keine Comicfiguren, kein singendes Lob und keine Emoji-Belohnungen.</li><li><strong>Ein einfacher Ausweg.</strong> „Für jetzt fertig“ ist immer sichtbar. Auf halbem Weg aufzuhören ist ein gutes Ergebnis.</li><li><strong>Standardmäßig privat.</strong> Keine Konten und keine Werbung. Fotos, die Sie auswählen, bleiben auf Ihrem Gerät.</li></ul><h2>Was wir nicht behaupten</h2><p>Unsere Spiele und Aktivitäten dienen dem Vergnügen und dem Miteinander. Sie diagnostizieren, testen, messen, behandeln, verlangsamen oder verhindern weder Demenz noch die Alzheimer-Krankheit, und niemand sollte sie aus diesem Grund auswählen. Wenn wir über Gesundheitsforschung schreiben, sagen wir klar, wo die Belege schwach sind, und stellen nie einen Bezug zu unseren eigenen Aktivitäten her.</p><h2>Wer wir sind</h2><p>Creative Activities ist ein kleines, unabhängiges Team. Wir sind keine Ärztinnen und Ärzte. Unsere Ratgeber stützen sich auf veröffentlichte Empfehlungen von Organisationen wie dem National Institute on Aging und der Alzheimer’s Association, und jeder Ratgeber nennt seine Quellen. Lesen Sie <a href=\"/editorial-policy/\">wie wir unsere Seiten schreiben und prüfen</a>.</p><h2>Sagen Sie uns, was helfen würde</h2><p>Wir würden gern erfahren, was für Sie funktioniert und was nicht, besonders von Menschen mit Demenz, pflegenden Angehörigen und Mitarbeitenden in Betreuungseinrichtungen. Schreiben Sie an <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Kio penobs e seköpobs padis obik",
       "seoTitle": "Reiguls redakik",
-      "description": "Kio Creative Activities vestigon, penon, tuvon kälsis e nulikugon padis okik dö dunods demenik e breinasan, e kelosi neai pübobs.",
+      "description": "Wie Creative Activities seine Aktivitäts- und Gesundheitsseiten recherchiert, schreibt, Quellen auswählt und aktualisiert und was wir niemals veröffentlichen werden.",
       "crumb": "Reiguls redakik",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Säks e Gepöks",
-      "seoTitle": "Pleds e Dunods tefü Demens: Säks e Gepöks",
-      "description": "Gepöks säkes suvülik dö pleds e dunods pro demens: pleds kiom blüfön, dü tim kiom pledön, datuvots pro teps posik, breinasan e privätöf.",
+      "seoTitle": "Fragen und Antworten zu Creative Activities",
+      "description": "Antworten auf häufige Fragen zu den Spielen und Aktivitäten: welche man ausprobieren sollte, wie lange man spielt, Ideen für Gruppen und für fortgeschrittene Phasen, Gesundheit und Datenschutz.",
       "crumb": "Säks e gepöks",
       "lede": "Gepöks brefik e balugik säkes keli kälans säkons suvo.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Dö pleds",
           "items": [
             {
-              "q": "Pleds kiom binons beniküns pro pösod laböl demensi?",
+              "q": "Welche Spiele eignen sich am besten für ältere Erwachsene?",
               "a": "Pleds benikün binons sevädik, balugik e neskaböl me pres, e pled kuratik binon utos, kelosi pösod gäälon adelo. Yümam magodas ko magods ai logädik, lölükam, kofudamapods fasilik, finidam pükedas sevädik, klölam e magodabingo vobons beno pro mens mödik. Vitolös düpömis, pünotis e alikosi kel jinon as xam."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Breinasaun",
+          "title": "Demenz und Gesundheit",
           "items": [
             {
               "q": "Kanons-li pleds neletön u slonükön demensi?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Mehr Details: <a href=\"/caregiving/how-to-play-together/\">wie man gemeinsam spielt</a>, <a href=\"/caregiving/when-they-say-no/\">was man tun kann, wenn die Person Nein sagt</a>, <a href=\"/activities/late-stage/\">Aktivitäten für fortgeschrittene Phasen</a> und <a href=\"/dementia-activities/\">Demenz-Aktivitäten zu Hause</a>."
     },
     "handout": {
       "title": "Pleds gratisik e moliks pro mens labü demens",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Pro kälidoms, bukems e yufagrups",
-      "seoTitle": "Dunamots libik tefü dementia pro kälidoms e grups",
-      "description": "Lio kälidoms, delaprograms pro dafomäliks, bukems, calöps pro bäldikumans e yufagrups gebons pledis libik obsik tefü dementia, äsä vödem ad läükön obis lisede stadas.",
+      "seoTitle": "Kostenlose Aktivitäten für Pflegeheime, Bibliotheken und Gruppen",
+      "description": "Wie Pflegeheime, Tagesbetreuungen für Erwachsene, Bibliotheken, Seniorenstellen und Selbsthilfegruppen unsere kostenlosen Spiele und Aktivitätsanleitungen nutzen, dazu ein Text, mit dem Sie uns in eine Ressourcenliste aufnehmen können.",
       "crumb": "Pro leodüps",
       "lede": "Valikos su lefanüköm at binon libik ad gebön ko dömels, limans e klilans, nen kal, dälod u kost. Pad at plänon, nosos dabinon is e lio kanoy seditön osi.",
-      "shortText": "{name}: magodapleds libik e miediks ä duinamatidöps pro mens liföls ko dementia e kälans onsik. Nen registaram, nen tima-musams, nen numots.",
-      "longText": "{name} ({domain}) pofäron pledis bravsurik {count} pebevoböl pro mens liföls ko dementia, keninükamü päris leigodöl me magods bleböllogik, cifik balid-kikot, sötam, pükeds kulsik e magoda-bingo ko köds dabükovik. Dabinons nek kal, nek leced, nek tima-musam, nek numot. Lefanüköm labon i duinamatidöps me pük klerik pro stad alik dementa, kels zitons vobotis ela National Institute on Aging ed ela Alzheimer's Association.",
+      "shortText": "{name}: kostenlose, sanfte Bildspiele und Aktivitätsanleitungen für ältere Erwachsene, Familien und Menschen mit Demenz. Keine Anmeldung, keine Timer, keine Punkte.",
+      "longText": "{name} ({domain}) ofon {count} fridik gemos in brawsad for aladult bläds, familams e pipels kel libon with dementia, inkluz pärs e pikums stedik lebedik, dünapöl, sortön, flödik ‘sayings’ e pikumabingo kun kats kel kanons prinön. No kanos at se kontos, reklamaz, tim e poins. Sit at vemo plänkuls vigä-vödik gids jö familams, alads e bläds e stafs, kun sorsams kom Natüna Institut jö Aging e Alzheimer's Asociation.",
       "useTitle": "Kelis leodüps kanons gebön",
       "gamesItemHtml": "<strong>Bravsurapleds {count}</strong> kels golons su laptöp, taböt u televid peyümöl ko nünöm. Nen stitöf, kal u donajut. Logolös <a href=\"/games/\">pledis valik</a>.",
       "printablesLabel": "Dabükovots {count}:",
       "printablesAfter": "Gebolös büti «Dabükön» su pad alik.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Grupaforms:</strong> <a href=\"/games/picture-bingo/\">Pikumabingo</a> binon kun kats kel kanons prinön e kalan on skrin, e <a href=\"/together/conversation-games-for-all-ages/\">konversagemos</a> binon kun küpons kun pozibotamis e tegikonot.</li><li><strong>Gids dö aktivads</strong> jö stafs e familams, pebükon vigä-vödiko kun sorsams. Stärtolös kun <a href=\"/activities/ideas/\">101 aktivadideads</a> u <a href=\"/crafts/craft-group-sessions/\">grupaaktivads jö kürs-homs</a>.</li>",
       "restHtml": "<h2>Lio grups gebons osi</h2><ul><li><strong>Kälidoms e memakäl:</strong> magoda-bingo u finidön-pükedi su televid kvisinöpa, me pösod bal dököl pro grup valik.</li><li><strong>Delaprograms pro dafomäliks:</strong> tabötöp ko Magodapäris peleodüköl ad ködeds fol, pro sesions brefik bal-ko-bal.</li><li><strong>Bukems publik:</strong> vödasuks pedabüköl e spikotaköds in memabösets, e lefanüköm pebäkedöl su taböts bukema.</li><li><strong>Yufagrups pro kälans e memakafetöps:</strong> <a href=\"/handout/\">vobapad dabükovik balpadik</a> pro famüls ad dugon lü dom.</li><li><strong>Malädidoms e büätans lävegalama:</strong> vobapad in kälapäkeds, pro bos stilik ad duinön domo u nilü kled.</li></ul><h2>Nososi no duinobs</h2><p>Pleds binons pro gälokam e tim kobik. No dasevons, no süllogons, no numükons, no kuradons e no nevifükons dementi, e bekobs leodüpis no ad bepenön onis modü at. Dabinons nek leceds, e pleds no säkons nemis, saunadientis u magodis ad pajutön. Lefanüköm gebon el Google Analytics ad numön visitis; <a href=\"/privacy/\">privatapötekanot</a> obsik plänon, nosos pakonleton fa os. Magods pageböl in <a href=\"/games/photo-pairs/\">Photo pairs</a> blebons in bravsur.</p><h2>Läükolös obis lisede stadas olsik</h2><p>Üf kipedol lisedi stadas pro kälans, yümön lü <a href=\"/\">{domain}</a> binon vemo vekominik. Kanol kopiedön lisedabepenami aledik.</p>",
       "shortTitle": "Bepenam brefik",
       "longTitle": "Bepenam lunikum",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Pads vasik jönön dirèkt: <a href=\"/games/\">fridik gemos</a>, <a href=\"/games/\">fridik prinots</a>, <a href=\"/dementia-activities/\">dementia-aktivads at hom</a> e <a href=\"/caregiving/how-to-play-together/\">kio pladön together</a>.</p><h2>Küpons u korigots</h2><p>Jü if sam te on sit binon nolik u nesikirik, u if vilad bevülons jenes sit nedons pö tat, dälolös let uns kno ad <a href=\"mailto:{email}\">{email}</a>. Please no sedolös datis personal u sanadik jö bevülans u klients.</p>"
     },
     "app": {
       "title": "App: Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Pleds glatik su bevüresod pro dement e maläd hiela Alzheimer",
-    "description": "Pleds glatik su bevüresod pro bäldikans liföls ko dement u maläd hiela Alzheimer: magodaleigodam, rätamads fasilik, leodükam, kuls, kölam, bingo. Nen registaram, timamiels u püns.",
+    "title": "Fridik gemos dö pladön together online",
+    "description": "Fridik gemos online jö alads, familams e bläds kel libon with dementia: pikumapaarin, lätik dünapöls, sortöl, flödiks, pikulön e bingo. No sign-up, tims u poins.",
     "crumb": "Pleds",
-    "h1": "Pleds molik pro mens ko dement liföls",
+    "h1": "Sakiik gemos dö pladön together",
     "lede": "{count} pleds glatik ad pledön kobo in bevüresodanafan ola. Magods gletik, vöds balugik, e nos ad pölön: timamiels nonik, püns nonik, registaram nonik.",
-    "listName": "Pleds molik pro mens ko dement liföls",
+    "listName": "Sakiik gemos dö pladön together",
     "byStageTitle": "Välön pledi ma stad",
     "byStageLede": "Stads binons te dukot luveratik. Sukolöd osi, kelosi pösod gäldikon e kelos jinon benovik adelo.",
     "stageCol": "Stad",
     "gamesCol": "Pleds kels suvo pötöns",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Mu ideads bal skrin: <a href=\"/activities/ideas/\">101 aktivadideads</a>, <a href=\"/dementia-activities/\">dementia-aktivads at hom</a> e <a href=\"/crafts/\">kraftots</a>.",
     "faq": [
       {
         "q": "Me pled kinik söls-li primön?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Binons-li memapleds pro bäldikans?",
-        "a": "Binons leigodama- e magodapleds, kelis bäldikan alik kanon gäledön, ab pemekons no ad blöfükön memi: in Magodapüls magods blibons logovik pläif välols votiko. Dukiel obas tefü memapleds pro bäldikans ko dement plänon, lio memapled alik kanon pablibön molik."
+        "a": "Os binons pärs-matiks e pikumagemos, kelis alad fasik kanon glädön, ab a binons zalöfik no dö testön memoris: in Pikumapaars pikums stögons topo if no volol votik. Vemo memorigem kanon binön sakiikikum if ti lasol tim e poins."
       },
       {
         "q": "Dabinons-li pleds pro grups in kälidom?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Dabinon-li jäfotaprogramil pro dement?",
+        "q": "Ba binon app jö alads e familams?",
         "a": "Si. Creative Activities (pelisedöl as \"{storeName}\") binon glatik su App Store e Google Play. Pofäron magodaleigodami molik me taflils gletik, pledis me famülafotografs fa ols pevälöls, e magodapakis kels vobons nen bevüresod."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Dabükovik",
     "howTo": "Liko pledön me {name}",
     "tips": "Konsäls pro pledam kobo",
-    "newToPlayingHtml": "Nuik-li ad pledön ko pösod laböl demensi? Reidol-ös <a href=\"/caregiving/how-to-play-together/\">liko pledön pledis kobo</a>, keninükamü kelosi dunön if luveikons nitedi.",
+    "newToPlayingHtml": "Nulik pladöl with alad u pöbi kel libon with dementia? Lejolös <a href=\"/caregiving/how-to-play-together/\">kio pladön gemos together</a>, inkluz kio domön if on lüdons intresi.",
     "moreAria": "Pluikos ad tuvön",
     "helpfulGuides": "Dukiels yufik",
     "appTitle": "Pledol-ös in programil",
@@ -536,6 +666,35 @@
     "goodToKnow": "Gudik ad nolön",
     "goodToKnowText": "Pled at binon pro yof e tim kobo. No savom, mafom u kuradom nosi.",
     "moreGames": "Pleds molik pluik",
-    "crumb": "Pleds"
+    "crumb": "Pleds",
+    "print": {
+      "heading": "Plädön på papüm",
+      "sameRules": "Papüm-version binon me sam regels kom gem on skrin:",
+      "button": "Prinön papümaversi",
+      "pageNote": "Pad topo A4 u US Letter, binon gudik in blak e vit. Version {date}.",
+      "islandNote": "Os prinon what binon on skrin nun. Version {date}.",
+      "sheetTitle": "{name}: papümaversi",
+      "point": "On papüm, pointolös topo pikum, no tapolös, u sirkölös ob pen. Vet vemo is nulik set.",
+      "pointTarget": "On papüm, pikum to lüükön binon in kastot ai begin vemo vet. Pointolös topo pikum, no tapolös, u sirkölös ob pen.",
+      "halves": "Vemo pikum binon katöl in mediane. Drawolös lini de vemo half ai levo topo half ai rigt kel fitom it, u pointolös with finger. Nothing nidon katön.",
+      "grid": "Vemo kvadrat has num. Findolös num in kei, e kolorolös kvadrati with pensil of kolor at. Vemo kolor ele binon gudik too. Nothing nidon katön.",
+      "colors": "Vemo vet nemom kolor. Pointolös topo vemo pikum kel binon kolor at, u sirkölös it ob pen. Vemo vet binon nulik set.",
+      "dice": "Vemo vet binon set dö dices. Pikolös vet, u katolös pikums ut e drawolös sumes fom pil, e denovolös storis with them in any ódet. Anyone may pass.",
+      "words": "Katolös vödis ut, u drawolös linis de vemo vöd topo pikum. Lezolös vödis aloud as yu gos.",
+      "cards": "Katolös kartis ut long dashed lines. Lagolös them face up on tab, e findolös pairs.",
+      "chain": "On papüm, lezolös pikums fom levo topo rigt, vemo after vemo. Vemo man sebs vemo sentens dö pikums so far, e pointon topo next pikum. Anyone may pass.",
+      "sort": "Katolös pikums ut long dashed lines, e putolös vemo in kastot where it belongs.",
+      "puzzle": "Katolös big pikum long dashed lines into fol pieces e mixolös them. Swapolös tu pieces at vemo tim until pikum binon hola. Small pikum binon guid.",
+      "cutSafety": "Helpan kanon katön before yu stedon. Putolös sisors avei afterwards.",
+      "version": "Version {date} · {url}",
+      "reasons": {
+        "photos": "Nulik papümaversi. Gem at uses yur oik fotos, kels stayons in yur brauser e nevers upload, so sit cannot prinön them. To plädön on papüm, prinolös tu kopis dö fews favorite fotos at hom e matcholös them on tab.",
+        "paced": "Nulik papümaversi. Sirkel sets slow, steady pace on skrin, e printed pad cannot do that, so it would binön different aktivad. Quiet pause together without skrin is always option.",
+        "turns": "Nulik papümaversi dö gem at. To find pairs on tab, prinolös pikumakartis fom Pikumapaars e takolös turns turnin them over.",
+        "screen": "Ei ole paberiversiooni. See on pilt, mida vaadata koos ekraanil; lauale pandud lemmikfoto või postkaart teeb sama.",
+        "wash": "Ei ole paberiversiooni. Akvarell paberil on sama mõte: märg pintsel ja üks värv korraga.",
+        "sayings": "Paberiversiooni veel ei ole. Paberil näeksid kõik lõpud korraga ning hell samm \"Näita lõppu\" kaoks. Lugege vanasõnad koos ekraanilt või jagage mõnda, mida te mõlemad teate."
+      }
+    }
   }
 }

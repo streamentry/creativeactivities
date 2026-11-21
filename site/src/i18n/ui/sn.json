@@ -7,16 +7,22 @@
     "homeLabel": "Peji yekutanga yeCreative Activities",
     "mainNav": "Huru",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: mifananidzo mikuru, inofadza yetasi rekapu, duva rezuva uye imbwa",
+    "defaultImageAlt": "Creative Activities: masuwo akakura, akanaka ezvinhu zvezuva rega rega zvekuita nekuita",
     "languages": "Mutauro",
     "englishOnly": "(Chirungu)",
     "machineTranslated": "Peji iyi yakashandurwa nemuchina uye haisati yaongororwa nemunhu anotaura mutauro uyu.",
     "readOriginal": "Verenga chinyorwa choyambira muChirungu",
     "nav": {
+      "find": "Find an activity",
       "games": "Mitambo",
       "activities": "Zviitiko",
       "caregiving": "Kutarisira",
-      "brainHealth": "Hutano hwouropi"
+      "brainHealth": "Hutano hwouropi",
+      "crafts": "Mabasa emaoko",
+      "kids": "Vana",
+      "together": "Pamwe chete",
+      "creativeCalm": "Kutsaga kwekugadzira",
+      "search": "Tsvaga"
     },
     "faqTitle": "Mibvunzo nezvipindurwa",
     "breadcrumb": "Nzira yekutevera peji",
@@ -27,7 +33,32 @@
       "label": "Ukuru hwemavara",
       "smaller": "Mavara akajairika",
       "larger": "Mavara akakura",
-      "contrast": "Kusiyana kwakanyanya kwemavara nenzvimbo"
+      "contrast": "Kusiyana kwakanyanya kwemavara nenzvimbo",
+      "colors": "Mavara",
+      "light": "Chiedza",
+      "dark": "Chidima",
+      "device": "Sezvakaita chishandiso chino",
+      "lineLength": "Urefu wemutsara",
+      "standardLines": "Zvakajairwa",
+      "shorterLines": "Mitsara mifupi",
+      "spacing": "Nzvimbo pakati pemitsara",
+      "standardSpacing": "Zvakajairwa",
+      "moreSpace": "Nzvimbo yakawanda"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Mazano ezviitiko 101",
     "lateStage": "Zviitiko zvenhanho yekupedzisira",
     "printable": "Zviitiko zvinodhindwa",
-    "allActivities": "Zviitiko zvose",
+    "allActivities": "Mitungamiriro yese yemabasa",
     "forCaregivers": "Kune vanotarisira",
     "playTogether": "Kutamba pamwe chete",
     "selfCare": "Kuzvitarisira",
@@ -54,24 +85,34 @@
     "app": "App yeCreative Activities",
     "appHelp": "Rubatsiro reapp",
     "support": "Rutsigiro",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Mitemo",
     "sitePrivacy": "Kuvanzwa kwewebhusaiti",
     "appPrivacy": "Mutemo wekuvanzwa kweapp",
     "privacyChoices": "Sarudzo dzekuvanzwa",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Mitemo nelaisensi yeapp",
     "safety": "Kuchengetedzwa nekushandisa kwakanangwa",
     "accessibility": "Kuwanikwa kwazvo kune vose",
     "healthNotice": "Chiziviso chemhando yehutano",
     "allLegal": "Ruzivo rwose rwemitemo",
     "note": "Creative Activities inopa zviitiko zvakareruka zvakagovaniswa pamwe chete zvekufadzwa. Haisi zvokurapa, bvunzo kana kurapwa, uye haifungi, haiyeri kana kupa mapoinzi kumunhu upi noupi. Mibvunzo yehutano itaurirane nachiremba. Kana paine kukasira, shandisa nhamba yekukurumidza yenyika yenyu yekuda rubatsiro.",
-    "publisher": "Yakabudiswa neCloudjet Solutions Pte. Ltd."
+    "publisher": "Yakabudiswa neCloudjet Solutions Pte. Ltd.",
+    "crafts": "Mabasa emaoko emazera ese",
+    "kids": "Mabasa evana",
+    "together": "Mabasa ekuita pamwe chete",
+    "creativeCalm": "Kutsaga kwekugadzira",
+    "dementiaActivities": "Mabasa evanhu vane dementia"
   },
   "home": {
-    "title": "Mitambo nezviitiko zvedementia neAlzheimer's | Creative Activities",
-    "description": "Mitambo yemifananidzo inofadza yakasununguka yekutamba paintaneti uye mazano ezviitiko kuvanhu vanogara nedementia kana Alzheimer's nevanovatarisira. Hapana kunyoresa, hapana nguva kana mapoinzi.",
+    "title": "Mabasa Ekugadzira Kune Munhu Ari Kuchengeta Mumwe Munhu",
+    "description": "Mabasa ekugadzira asina mari kune munhu ari kuchengeta mumwe munhu: mabasa emaoko, zvinhu zvevana, mabasa ekuita pamwe chete nemagariro ekugadzira akanyarara.",
     "eyebrow": "Yakasununguka · Hapana zvizivisa · Hapana kunyoresa · Hapana nguva kana mapoinzi",
-    "h1": "Mitambo Inofadza nZviitiko zvevanhu vane Dementia",
-    "lede": "Mitambo yemifananidzo iri nyore, mifananidzo yakajairika, nezviitiko zvekufadza pamwe chete—zvinoenderana nekumhanya kwenyu.",
+    "h1": "Gadzira chinhu pamwe chete",
+    "lede": "Tsvaga basa rinokodzera munhu, nguva iri nezvauri nazvo. Mabasa emaoko akareruka, kupenda kwevana, zvinhu zvekuita pamwe chete nemazano ekugadzira akanyarara, zvine mitoo yakareruka uye kadhi rekudhinda. Mira kana uchida.",
     "playGame": "Tamba Mutambo",
     "findIdeas": "Tsvaga mazano ezviitiko",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Mazano ezviitiko 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Nhanho yekutanga",
         "text": "Ramba uchiita zvavanofarira, nezvishandiso zvidiki: mabviro, zviendo, mitambo yemashoko nekuronga pamwe chete.",
         "label": "Mazano enhanho yekutanga"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Nhanho yepakati",
         "text": "Mabasa akareruka anozivikanwa akapatsanurwa muzvikamu: kupeta, kuronga, mimhanzi, mitambo yemifananidzo nezvifambiso pfupi.",
         "label": "Mazano enhanho yepakati"
@@ -124,10 +165,10 @@
         "label": "Mazano enhanho yekupedzisira"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Unatsvaga chimwe chinhu chakasarudzika here? Edza <a href=\"/dementia-activities/\">mabasa nemitambo yeAlzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">mitambo yemapuzzle nemitambo yetafura</a>, <a href=\"/together/conversation-games-for-all-ages/\">mitambo yekutaura</a> kana <a href=\"/together/puzzles-and-table-games/\">mapuzzle</a>.",
     "approachEyebrow": "Nzira yedu",
-    "approachTitle": "Chiitiko chemumwe nemumwe, kwete bvunzo yekurangarira",
-    "approachLede": "Mitambo mizhinji ye“brain games” yakavakirwa pakumhanya, mapoinzi uye mitevedzo. Kune munhu ane dementia izvi zvinogona kuita sebvunzo. Isu takaita zvakasiyana.",
+    "approachTitle": "Basa rakagovaniswa, kwete bvunzo",
+    "approachLede": "Mitambo mizhinji ye“kufunga” yakavakirwa pakumhanyisa, mhedzisiro nemakwikwi emazuva akatevedzana. Kune munhu ane kuneta, asina hutano kana anogara ane dementia, izvi zvinogona kuita sebvunzo. Isu takaita zvakasiyana.",
     "approachLink": "Nei tichigadzira nenzira iyi",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Zvikonzero zvakajairika zvekuramba, nenzira dzakapfava dzekuedza zvakare gare gare."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Kugadzira tabhureti",
-        "text": "Mashoko akakura, kushomeka kwekutyora zvinhu uye peji imwe yakareruka yekutanga."
+        "href": "/activities/group-art-activities/",
+        "title": "Mabasa ekupenda pamwe chete",
+        "text": "Mapurojekiti ega ega patafura yavanhu vakawanda, nebasa rimwe nerimwe kumunhu wega wega."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Zviitiko zvinodhindwa zvemahara",
-        "text": "Kutsvaga mashoko makuru, mapeji ekupenda, bingo nemakadhi ekutaura."
+        "href": "/activities/ideas/",
+        "title": "Mazano mazana emakumi maviri nemaviri ekuita",
+        "text": "Mazano akareruka, akarongwa zvinoenderana nezvauri nazvo nesimba rakasara."
       }
     ],
     "researchTitle": "Hutano hwouropi: tsvagiridzo inoti chokwadi chii",
@@ -185,16 +226,16 @@
     "aboutApp": "Nezve app",
     "faq": [
       {
-        "q": "Mitambo ipi yakanaka kune vanhu vane dementia?",
-        "a": "Mitambo yakanaka ndiyo yakapfava, yakajairika uye isina kumanikidzwa: mifananidzo mikuru yekuenzanisa, kuronga, majigsaw mapfupi, kupedza mazwi akazivikanwa, kupenda, bingo yemifananidzo nemakadhi ekutaura. Sarudzo yakanaka ndiyo inofadza munhu nhasi. Dzivisai taimi, mapoinzi nechinhu chinoita sekuti ndeyekuyedza."
+        "q": "Ndeapi mitambo yakanaka yevakuru?",
+        "a": "Mitambo yakanaka iri nyore, yakajairika uye isina kumanikidzwa: mifananidzo mikuru yekubatanidza, kurongedza, ma-puzzle akareruka, kupedza mitauro yakajairika, kupenda, bingo yemifananidzo nemakadhi ekutaura. Inokodzera vakuru vakawanda, kusanganisira vanhu vane dementia. Sarudzo yakanaka ndeyaanofarira nhasi. Regedza timer, mapoinzi nechinhu chinoita sebvunzo."
       },
       {
-        "q": "Mitambo yedementia yakasununguka here?",
+        "q": "Mitambo iyi haibhadhari here?",
         "a": "Hongu. Mitambo yose nemapepa ekudhirowa pa Creative Activities yakasununguka, pasina akaunti, kunyoresa kana kudhawunirodha. Mitambo inoshanda mu browser pafoni, tabheti kana komputa."
       },
       {
         "q": "Mitambo yepfungwa inodzivirira dementia here?",
-        "a": "Kwete. Hapana mutambo wakaratidzwa kudzivirira dementia, uye Creative Activities haizvizivisi kuti inorapa kana kudzivirira chinhu chipi zvacho. Mitambo yedu yakagadzirirwa kufadza uye kugovera nguva pamwechete. Chikamu chedu chehutano hwepfungwa chinotsanangura zvinoratidzwa nekutsvagisisa uye zvisingaratidzwi."
+        "a": "Hakuna mitambo yakaratidzwa kudzivisa dementia, uye Creative Activities haiti inorapa kana kudzivisa chinhu. Mitambo yedu yekunakidzwa nenguva yekuva pamwe, uye peji rimwe nerimwe rebasa harina chirevo chezvehutano."
       },
       {
         "q": "Mitambo iyi inokodzera munhu ane Alzheimer's here?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Ndiani anoita Creative Activities?",
-        "a": "Creative Activities ibhandi diki rinoita zviitwa zvemifananidzo zvakanyarara zvevakuru zvemhuri nevanochengeta, pawebhu uye sechishandiso chakasununguka. Hatisi vachiremba, uye hapana chiri pano chokurapa."
+        "a": "Creative Activities iboka diki rinogadzira mabasa ekugadzira akanyarara, akuru kune munhu wese anochengeta mumwe munhu, pawebhu nesesi yemahara. Isu hatisi vanachiremba, uye hapana chiri pano chokurayira zvehutano."
+      }
+    ],
+    "groupsEyebrow": "Wana nzira yako",
+    "groupsTitle": "Mhando nhatu dzemabasa ekugadzira",
+    "groupsLede": "Tanga neboka rinokodzera munhu waunenge uri naye nezvauri nazvo. Peji rimwe nerimwe rine mitoo yakareruka nezviyeuchidzo zvekuchengeteka.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Mabasa emaoko",
+        "text": "Mapepa, pendi, zvinhu zvakashandiswazve nemapurojekiti emwaka, ine mutoo wakareruka kune imwe neimwe.",
+        "label": "Ona mabasa emaoko"
+      },
+      {
+        "href": "/kids/",
+        "title": "Vana",
+        "text": "Kupenda nekutamba kwevana, nemunhu mukuru akavapedzisira nezviyeuchidzo zvekuchengeteka zvakajeka.",
+        "label": "Ona mabasa evana"
+      },
+      {
+        "href": "/together/",
+        "title": "Pamwe chete",
+        "text": "Kutaura, mapuzzle, nguva yekunze nenzira dzekuramba uri pedyo pakati pemadzitateguru nevana.",
+        "label": "Ona zvekuita pamwe chete"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kutsaga kwekugadzira",
+        "text": "Nguva dzakanonoka, dzakanyarara dzekugadzira nepeni, peji kana rwiyo. Hazvisi kurapwa.",
+        "label": "Ona kutsaga kwekugadzira"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Inogona kudhirowa",
     "play": "Tamba {name} →",
     "readGuide": "Verenga gwaro"
+  },
+  "listen": {
+    "listenSteps": "Teerera matanho",
+    "pause": "Mira",
+    "resume": "Enderera",
+    "stop": "Siya",
+    "speed": "Kumhanya",
+    "normal": "Zvakajairika",
+    "slower": "Zvinononoka",
+    "reading": "Kuverenga matanho nezwi rakakwidziridzwa.",
+    "paused": "Yamirwa. Dzvanya Enderera kuti uenderere mberi.",
+    "note": "Inoshandisa izwi rechishandiso chako. Zvimwe zvishandiso zvinotumira mavara ekutaura kumugadziri wazvo kuti azvitaure.",
+    "listen": "Teerera",
+    "stepLabel": "Teerera tanho {n}",
+    "stopStep": "Siya tanho {n}"
   },
   "playCta": {
     "title": "Wakagadzirira mutambo wakanyarara?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Zviitwa",
-      "title": "Zviitwa Zvevanhu vane Dementia",
-      "seo": "Zviitwa Zvevanhu vane Dementia: Mazano Maererano neDanho",
-      "description": "Mazano ezviitwa kuvanhu vanogara nedementia padanho rese: mimhanzi, kuyeuka zvakare, mabasa emazuva ese, zviitiko zvekunzwa, mabasa emaoko, kunze kwemba uye mapepa ekudhirowa asingabhadharwi.",
-      "lede": "Chiitwa chinofadza ndechipi zvacho chinounza runyararo, chinangwa kana kubatana kwechinguva. Tangai nezvaakambofarira munhu, uye muzvigadzirise nenhasi."
+      "label": "Mitungamiriro yemabasa",
+      "title": "Mitungamiriro Yemabasa",
+      "seo": "Mitungamiriro Yemabasa: Mazano, Zvinhu Zvekugadzira uye Nzira Dzekutanga",
+      "description": "Mitungamiriro iri nyore yemabasa ekugadzira unogona kuita nemunhu: mazano akareruka, zvinhu zvekugadzira pamari shoma, kugadzira pamwe chete, tsamba, zvinangwa zvechiyeuchidzo, uye kugadzira kwekurapa kwakatsanangurwa.",
+      "lede": "Mitungamiriro mifupi, inoshanda yekusarudza nekutanga basa nomunhu, zvisinei nezera rake kana kugona kwake."
+    },
+    "crafts": {
+      "label": "Mabasa emaoko",
+      "title": "Mabasa Emaoko Emazera Ese",
+      "seo": "Mabasa Emaoko Akareruka Emazera Ese, Ane Mitoo Yakareruka",
+      "description": "Mabasa emaoko akareruka evakuru, vana nemhuri: mapepa, kupenda, zvinhu zvakashandiswazve nemabasa emwaka, ane mitoo iri nyore kubata nekugara uye pasina unyanzvi hwakakosha.",
+      "lede": "Mabasa emaoko anotanga nezvinhu zvinowanzo kuva mumba mazhinji, imwe neimwe ine mutoo wakareruka, kuti munhu wese agone kugadzira chinhu."
+    },
+    "kids": {
+      "label": "Vana",
+      "title": "Mabasa Ekugadzira Evana",
+      "seo": "Mabasa Ekugadzira Evana: Kupenda, Kunzwa uye Kutsaga",
+      "description": "Mabasa ekugadzira evana: kupenda kwevana vadiki, kugadzira nenzira, kutamba nekunzwa, mabasa emvura yemvura uye mazano ekudzikisa kumutsa, ane zviyeuchidzo zvekuchengeteka nemitoo yezvinodiwa nekunzwa.",
+      "lede": "Mazano ekupenda nekutamba evana vemazera nezvinodiwa zvakasiyana, ane zviyeuchidzo zvakajeka zvekuchengeteka nemunhu mukuru akavapedzisira."
+    },
+    "together": {
+      "label": "Pamwe chete",
+      "title": "Mabasa Ekuita Pamwe Chete",
+      "seo": "Mabasa Ekuita Pamwe Chete, Kudzidziswa Nezvizvarwa",
+      "description": "Mabasa ezvizvarwa zviviri kana kupfuura: mitambo yekutaura, mapuzzle, nguva yekunze, mabasa emaoko emadzitateguru nevazukuru, nenzira dzekuramba uri pedyo kure.",
+      "lede": "Mazano ekugovana nguva nemubereki, sekuru kana ambuya, mwana kana shamwari, kumba, kunze, pakushanya kana kure."
+    },
+    "creative-calm": {
+      "label": "Kutsaga kwekugadzira",
+      "title": "Kutsaga Kwekugadzira",
+      "seo": "Kutsaga Kwekugadzira: Kupenda Kunonyaradza uye Mabasa ekuzorora",
+      "description": "Mabasa ekugadzira anonyaradza evakuru nevanochengeta: kupenda nekurangarira, kunyora diary, mimhanzi, nguva dzekunzwa uye masikati akanyarara. Basa rekugadzira, kwete kurapwa.",
+      "lede": "Nzira dzakapfava dzekumhanyisa pasi nepeni, peji kana rwiyo. Iwi ibasa rekugadzira, kwete kurapwa, uye harisi kuda unyanzvi."
     },
     "caregiving": {
-      "label": "Kuchengeta",
-      "title": "Magwaro Ekuchengeta",
-      "seo": "Magwaro Ekuchengeta Dementia: Rubatsiro Rwemazuva Ese",
-      "description": "Magwaro akanaka uye ane tsitsi evanochengeta vane dementia: kutamba pamwechete, kutaurirana, kuramba kwavanoita, kusuwa kwemanheru, matabheti, kusarudza mapoinzi uye kuzvichengeta.",
-      "lede": "Rubatsiro rwakajeka uye rwakananga rwemazuva ese ekuchengeta munhu ane dementia, kusanganisira kuzvichengeta iwe pachako."
+      "label": "Huduku hwemurwere",
+      "title": "Kubatsira Munhu Ane Dementia",
+      "seo": "Kubatsira Munhu Ane Dementia: Mitambo NeRubatsiro",
+      "description": "Mitungamiriro yemhuri dzinobatsira munhu ane dementia: kutamba pamwe, zvokuita kana vanoti hameno, uye kwaunowana rubatsiro rwunovimbika mushure mekuzivikanwa kwechirwere.",
+      "lede": "Rubatsiro rwakatanga nemitambo kumhuri dzinobatsira munhu anogara ane dementia, uye kwaunotendeuka kuti unowana zano rezvehutano nerezvekurapwa."
     },
     "brain-health": {
       "label": "Hutano hwepfungwa",
@@ -283,7 +396,16 @@
     "tryTogether": "Edzai pamwechete",
     "relatedGuides": "Magwaro anobatana",
     "related": "Anobatana",
-    "startHere": "Tangai apa"
+    "startHere": "Tangai apa",
+    "staleAria": "Shanduro yakapfuura nguva",
+    "staleTitle": "Shanduro iyi yakapfuura nguva",
+    "staleText": "Yakagadzirwa kubva kune yekare peji rechiRungu, iro rakashanduka kubva ipapo. Peji rechiRungu ndiro razvino.",
+    "staleHealth": "Inopa ruzivo rwehutano, saka tarisa peji rechiRungu uye ubvunze chiremba kana nesi usati washanda zvinotaurwa.",
+    "staleLink": "Verenga peji razvino rechiRungu"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Chiziviso chehutano",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Chiitwa Chakagovaniswa, Kwete Bvunzo Yekurangarira",
+      "title": "Mitambo Yakabatana, Isiri Bvunzo",
       "seoTitle": "Nezve Creative Activities: Nzira Yedu",
-      "description": "Nei mitambo yeCreative Activities isina taimi, mapoinzi kana mitsara yekukurumidza, nei mifananidzo ichingoramba ichiratidzwa, uye zvatichasatsanangura nezve dementia.",
+      "description": "Nei Creative Activities isina timers, mapoinzi kana mitambo inoenderana, nei mifananidzo ichingoramba iri pachena, uye zvatichataura nezvehutano uye zvatisingataure.",
       "crumb": "Nzira yedu",
-      "lede": "Creative Activities inoita zviitwa zvakanyarara zvemifananidzo zvevakuru, izvo muchengeti nomunhu ane dementia anogona kufarira pamwechete.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Vatsigiri nevashandi vepamwe",
+        "none": "Creative Activities haina vatsigiri, hapana nzvimbo dzinobhadharwa uye hapana vashandi vepamwe vane zviratidzo zvavo pawebhusaiti.",
+        "listed": "Ava ndivo vatsigiri nevashandi vepamwe vaCreative Activities. Hukama hwega hwega hunoratidzwa zvakare papeji rinoonekwa.",
+        "policy": "Kana izvi zvichishanduka, peji rega rega richataura izvi parinoonekwa, hapana mutambo unozotakura mutsigiri, uye rondedzero yevashandi vepamwe ichava papeji rino.",
+        "listHeading": "Rondedzero yevashandi vepamwe",
+        "noPartners": "Pari zvino hapana vashandi vepamwe."
+      },
+      "lede": "Creative Activities inogadzira mitambo inodzikamisa, yevakuru inogona kunakidzwa nevanhu vaviri vari pamwe, kana mumwe achichengeta mumwe kana vachingoda kupedza nguva pamwe chete.",
+      "bodyHtml": "<h2>Ndeavo ane chinangwa chei</h2><p>Chero munhu anochengeta mumwe: mubereki, sekuru kana ambuya, mwana, mukoti, shamwari, kana munhu anogara ane dementia. Mhuri, vakuru uye vashandi vemitambo vose vanogona kushandisa mapeji akafanana.</p><h2>Zvatinotenda</h2><p>Chinangwa chemitambo ndicho nguva yacho pachayo: kutaura, kumwmwidzira, mufaro wekubatanidza mifananidzo maviri, kana kungogara pedyo. Hazvisi kuyera munhu, kumusundira kuti aite zvimwe, kana kuratidza chinhu.</p><p>Maapp mazhinji ekudzidzisa ukoshi wehunyanzvi anogadzirwa nekumhanya, mapoinzi, mhedzisiro yakatevedzana uye matanho. Kune munhu akaneta, arwara kana anogara ane dementia, izvi zvinogona kuita sebvunzo yausingakwanise kupasa. Takagadzira zvakasiyana, uye tinozvisunga nemitemo iyi:</p><ul><li><strong>Hapana chinhu chekukundikana.</strong> Hapana wachi, mapoinzi, kuverenga kwemafambiro, hupenyu, mhedzisiro yakatevedzana, zvinonyira kana kuverenga kwekudzoka, pachero pescreen.</li><li><strong>Kuziva kupfuura kurangarira.</strong> Mifananidzo inoramba ichioneka nekusingaperi. Mibvunzo inokurudzira kutaura uye haibvunzi mazita kana zvinhu zvakare.</li><li><strong>Hukuru, zvakajeka uye zvakasimba.</strong> Mavara nemifananidzo mikuru, kusiyana kwakasimba kwemavara, uye zvidzoreri zvinoramba zvakaenda munzvimbo imwe.</li><li><strong>Kukudzwa kwemunhu mukuru.</strong> Mifananidzo yechokwadi yenyika uye mashoko akajeka, anodziya. Hapana makatuni, kurumbidza kwakaita sekuimba kana zvipamhiro zvemifananidzo.</li><li><strong>Nzira yekubuda nyore.</strong> “Ndapedza panguva ino” inoramba yaonekwa. Kumisa wakasvika pakati ndiyo mhedzisiro yakanaka.</li><li><strong>Zvakavanzika nekutanga.</strong> Hapana akaunti kana zvizivisa. Mifananidzo yaunosarudza inogara pamudziyo wako.</li></ul><h2>Zvatisingadomhe</h2><p>Mitambo yedu nemitambo yedu yakagadzirirwa kunakidzwa nekubatana. Haizvidzi kuona, kuyera, kurapa, kudzikisa kana kudzivirira dementia kana Alzheimer’s disease, uye hapana angazvisarudza nechinangwa ichocho. Kana tichinyora nezvekutsvakurudzwa kwehutano, tinotaura zvakajeka kana umboni uri mudiki, uye hatizvibatanidzi nemitambo yedu.</p><h2>Ndiri ani</h2><p>Creative Activities ibhizinesi diki rakazvimiririra. Hatisi vanachiremba. Mitungamiriro yedu inonyorwa kubva mumirayiridzo yakaburitswa nemasangano akadai seNational Institute on Aging neAlzheimer’s Association, uye mitungamiriro yega yega inotaura masosi ayo. Verenga <a href=\"/editorial-policy/\">kuti tinonyora sei uye tinotarisa sei mapeji edu</a>.</p><h2>Tiudze zvinobatsira</h2><p>Tingada kuzivei zvinoshanda kwamuri nezvisingashande, kunyanya kubva kune vanhu vanogara vane dementia, vanochengeta mhuri uye vashandi vemitambo. Tumira email kuenda ku <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Nzira Yatinonyora uye Yatinoongorora Mapeji Edu",
       "seoTitle": "Mitemo Yedu Yekunyora",
-      "description": "Nzira Creative Activities inotsvaga, inonyora, inotsigira nekugadzirisa mapeji edu emitambo yedementia nehutano hwepfungwa, uye zvatisingazobudisi.",
+      "description": "Kuti Creative Activities inotsvaka, inonyora, inowana uye inovandudza sei mapeji edu emitambo nehutano, uye zvatinozosvika tarisisa kuburitsa.",
       "crumb": "Mitemo yekunyora",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Mibvunzo neMhinduro",
-      "seoTitle": "Mitambo neMitambo Yedementia: Mibvunzo neMhinduro",
-      "description": "Mhinduro kumibvunzo yakajairika nezvemitambo nemitambo yedementia: mitambo yekutanga, kurefu sei kutamba, mazano emunguva yakagumisa chirwere, hutano hwepfungwa nekuchengetwa kwemavara.",
+      "seoTitle": "Mibvunzo neMhinduro Nezve Creative Activities",
+      "description": "Mhinduro kumibvunzo yakajairwa nezvemitambo nemitambo: yekuedza, kwenguva yakareba sei kutamba, mapoka nemiitiro yenguva yakagara, hutano nekuvanzika.",
       "crumb": "Mibvunzo nemhinduro",
       "lede": "Mhinduro dzakapfupika, dzakajeka kumibvunzo yavanovatarisira vanobvunza zvakanyanya.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Nezvemitambo",
           "items": [
             {
-              "q": "Mitambo ipi yakanakisa kune munhu ane dementia?",
+              "q": "Ndezvipi mitambo yakanakisisa yevakuru?",
               "a": "Mitambo yakanakisa ndiyo inozivikanwa, iri nyore uye isina kumanikidzwa, uye yakakodzera ndiyo inofadza munhu nhasi. Kubatanidza mifananidzo nemifananidzo yakaonekwa, kuronga, majigsaw ari nyore, kupedzisa mashoko akajairika, kupenda nemutambo wemifananidzo webingo zvinoshanda kuvanhu vakawanda. Regai mazinga, mapoinzi uye chinhu chingaita sebvunzo."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Hutano hwomusoro",
+          "title": "Dementia nehutano",
           "items": [
             {
               "q": "Mitambo inogona kudzivirisa kana kudzikisa dementia here?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Ruzivo rwakawanda: <a href=\"/caregiving/how-to-play-together/\">kutamba pamwe sei</a>, <a href=\"/caregiving/when-they-say-no/\">kana vanoti hameno</a>, <a href=\"/activities/late-stage/\">mitambo yenguva yakagara</a> uye <a href=\"/dementia-activities/\">mitambo ye dementia kumba</a>."
     },
     "handout": {
       "title": "Mitambo Yakasununguka, Yakapfava Yevanhu Vane Dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Kune Mahofisi Ekuchengetera Vakuru, Raibhurari neMapoka Etsigiro",
-      "seoTitle": "Mitambo Yemahara Yedementia Yemahofisi Ekutarira Vanhu nemapoka",
-      "description": "Mazviiro ekurapira, mahofisi ekuvaraidza masikati, malaibrari, masangano ekuchembera nemapoka ekutsigira vanoshandisa sei mitambo yedu yemahara yedementia, pamwe nemeseji yekuwedzera zita redu parondedzero yezviripo.",
+      "seoTitle": "Mitambo Yemahara Yemamba Ekurapwa, Raibhurari neMapoka",
+      "description": "Kuti mamba ekurapwa, mapurogiramu ezuva revanhu vakuru, raibhurari, masangano ekuvandudza vakuru nemapoka etsigiro anoshandisa sei mitambo yedu yemahara nemitungamiriro yemitambo, pamwe nemameseji ekutiwedzera kurwezeve rwerwezeve.",
       "crumb": "Masangano",
       "lede": "Zvese zviri pawebhusaiti iyi zvinogona kushandiswa mahara nevagari, nevanhu vemapoka nevatengi, pasina akaunti, rezinziro kana mari. Peji iri rinotsanangura zviripo uye kuti zvingagovaniswa sei.",
-      "shortText": "{name}: mitambo yemifananidzo isina kumhanya uye zvikwereti zvemaitiro zvevanhu vanogara nedementia nevanovatarira. Hapana kunyoresa, hapana nguva, hapana mapoinzi.",
-      "longText": "{name} ({domain}) inopa mitambo {count} yemahara yepawebhusaiti yakagadzirirwa vanhu vanogara nedementia, kusanganisira mapeya emifananidzo nemifananidzo yakasara ichiratidzwa, puzzle iri nyore, kurongedza, mazwi akajairwa uye bingo yemifananidzo nemakadhi anodhindwa. Hapana akaunti, zvekushambadzira, nguva kana mapoinzi. Webhusaiti inewo zvikwereti zvemaitiro zvemumutauro wakajeka zvenhanho dzese dzedementia, zvakatorwa kubva kuNational Institute on Aging neAlzheimer's Association.",
+      "shortText": "{name}: mitambo yemahara inodzikamisa yemifananidzo nemitungamiriro yemitambo yevakuru, mhuri nevanhu vanogara vane dementia. Hapana kunyoresa, hapana timers, hapana mapoinzi.",
+      "longText": "{name} ({domain}) inopa mitambo {count} yakasununguka paintaneti yevakuru, mhuri nevanhu vanorarama nedementia, kusanganisira mapaari emifananidzo nemifananidzo yakaratidzwa, jigsaw nyore, kuronga, mazwi akajairwa uye bingo yemifananidzo ine makadhi anodhindwa. Hapana akaunti, zvekushambadzira, tayimer kana mapoinzi. Saiti iyi zvakare ine zvitsiko zvemisiyano zvakanyorwa mumutauro nyore zvemhuri, vakuru nevashandi, zvine masosi akadai seNational Institute on Aging neAlzheimer's Association.",
       "useTitle": "Zvinogona kushandiswa nemasangano",
       "gamesItemHtml": "<strong>mitambo {count} yepawebhusaiti</strong> inoshanda pa laputopu, tablet kana TV yakabatanidzwa nekombiyuta. Hapana kuisa, akaunti kana kudhawunirodha. Ona <a href=\"/games/\">mitambo yose</a>.",
       "printablesLabel": "{count} zvinodhindwa:",
       "printablesAfter": "Shandisa batani rekudhinda paperu yega yega.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Mafomu emapoka:</strong> <a href=\"/games/picture-bingo/\">Bingo yemifananidzo</a> ine makadhi anodhindwa uye anoverengedza anoonekwa pascreen, uye <a href=\"/together/conversation-games-for-all-ages/\">mitambo yekutaura</a> ine mibvunzo ine sarudzo dzemhinduro uye mazano ekukurukura.</li><li><strong>Zvitsiko zvemisiyano</strong> zvevashandi nemhuri, zvakanyorwa mumutauro nyore zvine masosi. Tanga nemaidea <a href=\"/activities/ideas/\">101 maidea emisiyano</a> kana <a href=\"/crafts/craft-group-sessions/\">misiyano yemapoka yemakamuri ekurarama vakuru</a>.</li>",
       "restHtml": "<h2>Mapoka anoshandisa sei</h2><ul><li><strong>Mazviiro emagariro nekurarama nedementia:</strong> bingo yemifananidzo kana kupedza mazwi pa TV yepamba yekugara, nomunhu mumwe achidzvanya kuti aite boka rose.</li><li><strong>Mahofisi ekuvaraidza masikati:</strong> chiteshi cha tablet chine Mapeya emifananidzo akaiswa kuva matairi mana, ekushandisa nemunhu mumwe nemumwe kwenguva pfupi.</li><li><strong>Malaibrari emuzvikamu:</strong> mapepa etsvagiro yemazwi nemakadhi ekutaurirana mumapaketi ekurerutsa, uye webhusaiti yakachengetwa pamatablet emalaibrari.</li><li><strong>Mapoka etsigiro yevanovatarira nemakafe ekurangarira:</strong> <a href=\"/handout/\">chinyorwa chimwe chinodhindwa</a> chevhu rokupa mhuri kuti vatore kumba.</li><li><strong>Zvipatara nevarongi vekuburitsa varwere:</strong> chinyorwa mumapaketi evanovatarira, kuti pave nechinhu chinonyaradza chekuita kumba kana pedivi rebhedi.</li></ul><h2>Zvatisingaiti</h2><p>Mitambo iyi yekufara nekugara pamwe nenguva. Haiongorore, haiedze, haivhiri mapoinzi, hairapi kana kudzikisa dementia, uye tinokumbira masangano kuti arege kuirondedzera saizvozvo. Hapana zvekushambadzira, uye mitambo haibvunzi mazita, ruzivo rwehutano kana kuisa mifananidzo. Webhusaiti inoshandisa Google Analytics kuverenga kushanyira; <a href=\"/privacy/\">chiziviso chedu chekuvanzika</a> chinotsanangura zvinounganidzwa. Mifananidzo inoshandiswa muna <a href=\"/games/photo-pairs/\">Mapeya emifananidzo</a> inogara mubrowser.</p><h2>Isai isu parondedzero yenyu yezvinobatsira</h2><p>Kana muine rondedzero yezvinhu zvevanovatarira, makapinda kubatanidza <a href=\"/\">{domain}</a>. Mungakopa tsananguro imwe neimwe.</p>",
       "shortTitle": "Tsananguro pfupi",
       "longTitle": "Tsananguro refu",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Mapeji akakosha ekubatanidza zvakananga: <a href=\"/games/\">mitambo yakasununguka</a>, <a href=\"/games/\">zvinhu zvakasununguka zvekudhinda</a>, <a href=\"/dementia-activities/\">misiyano yedementia kumba</a> uye <a href=\"/caregiving/how-to-play-together/\">kutamba pamwe chete sei</a>.</p><h2>Mibvunzo kana kugadzirisa</h2><p>Kana chimwe chezviri pasaiti chisina kunaka kana kusina kujeka, kana zvinodiwa nomugari hazvisangani nezviri pano, ndapota tiudze kuna <a href=\"mailto:{email}\">{email}</a>. Ndapota regai kutumira ruzivo rwomunhu pachake kana rwehutano rwevagari kana vanobatwa.</p>"
     },
     "app": {
       "title": "Apu yaCreative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Mitambo Yakasununguka Yedementia & Alzheimer's Paintaneti",
-    "description": "Mitambo yakasununguka paintaneti yevakuru vanorarama nedementia kana Alzheimer's: kubatanidza mifananidzo, majigsaw akareruka, kuronga, nhetembo, kupenda, bingo. Hapana kunyoresa, nguva kana mapoinzi.",
+    "title": "Mitambo Yakasununguka Yekutamba Pamwe Chete Paintaneti",
+    "description": "Mitambo yakasununguka paintaneti yevakuru, mhuri nevanhu vanorarama nedementia: kubatanidza mifananidzo, majigsaw nyore, kuronga, mazwi akajairwa, kupenda mifananidzo nebingo. Hapana kunyoreswa, tayimer kana mapoinzi.",
     "crumb": "Mitambo",
-    "h1": "Mitambo Yakapfava Yevanhu Vane Dementia",
+    "h1": "Mitambo Inofadza Yekutamba Pamwe Chete",
     "lede": "{count} mitambo yakasununguka yekutamba pamwe chete mu browser yako. Mifananidzo mikuru, mazwi akareruka, uye hapana chinokundikana: hapana nguva, hapana mapoinzi, hapana kunyoresa.",
-    "listName": "Mitambo yakapfava yevanhu vane dementia",
+    "listName": "Mitambo inofadza yekutamba pamwe chete",
     "byStageTitle": "Kusarudza mutambo maererano nenhanho",
     "byStageLede": "Nhanho ndiyo girazi chete rakareruka. Tevererai zvinofadza munhu uye zvinonzwika zvakanaka nhasi.",
     "stageCol": "Nhanho",
     "gamesCol": "Mitambo inowanzokodzera",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Mamwe maidea asiri pascreen: <a href=\"/activities/ideas/\">101 maidea emisiyano</a>, <a href=\"/dementia-activities/\">misiyano yedementia kumba</a> uye <a href=\"/crafts/\">zvekuita nemaoko</a>.",
     "faq": [
       {
         "q": "Tingatanga nemutambo upi?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Mitambo yekurangarira yevakuru here?",
-        "a": "Idzo ndimitambo yekubatanidza nemifananidzo chete, inogona kufadza mukuru wese, asi yakagadzirwa kusaedza kurangarira: mu Mabatiro emifananidzo mifananidzo inoramba yakatarisa kumusoro kunyanya kana mukasarudza zvimwe. Gwaro redu rezvemitambo yekurangarira yevakuru ane dementia rinotsanangura kuti mutambo wowose wekurangarira unogona sei kuva wakapfava."
+        "a": "Idzi ndimitambo yekubatanidza nemifananidzo inogona kufarirwa nomukuru wese, asi yakagadzirwa kusaedza kuyeuka: Muna Picture pairs mifananidzo inoramba yakaratidzwa kana usina kusarudza zvimwe. Mutambo wese wekuyeuka unogona kuitwa wakanyatsonaka nekubvisa tayimer nemapoinzi."
       },
       {
         "q": "Pane mitambo yeboka mudzimba dzekutarisirwa here?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Pane app yezviitiko zvedementia here?",
+        "q": "Pane app yevakuru nemhuri here?",
         "a": "Ehe. Creative Activities (inonzi \"{storeName}\") yakasununguka paApp Store neGoogle Play. Inopa kubatanidza mifananidzo yakapfava nematile akakura, mitambo nemifananidzo yemhuri yaunosarudza, uye mapakeji emifananidzo anoshanda pasina intaneti."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Inogona kudhindwa",
     "howTo": "Mutambo {name} unotambwa sei",
     "tips": "Mazano ekutamba pamwe chete",
-    "newToPlayingHtml": "Hauzivi kutamba nemunhu ane dementia here? Verenga <a href=\"/caregiving/how-to-play-together/\">kutamba mitambo pamwe chete</a>, kusanganisira zvekuita kana achirasikirwa nekufarira.",
+    "newToPlayingHtml": "Hauzivi kutamba nomukuru kana nomunhu anorarama nedementia? Verenga <a href=\"/caregiving/how-to-play-together/\">kutamba mitambo pamwe chete sei</a>, kusanganisira zvekuita kana vasarasikirwa nechido.",
     "moreAria": "Zvimwe zvekuona",
     "helpfulGuides": "Mabhuku anobatsira",
     "appTitle": "Tambai mune app",
@@ -536,6 +666,35 @@
     "goodToKnow": "Zvakanaka kuziva",
     "goodToKnowText": "Mutambo uyu wekunakidzwa uye nguva yekuva pamwe chete. Haubvunzi, haueri kana kurapa chinhu chipi zvacho.",
     "moreGames": "Mimwe mitambo yakapfava",
-    "crumb": "Mitambo"
+    "crumb": "Mitambo",
+    "print": {
+      "heading": "Tamba pamapepa",
+      "sameRules": "Vhezheni yamapepa ine mitemo yakafanana nemutambo uri pascreen:",
+      "button": "Dhinda vhezheni yamapepa",
+      "pageNote": "Peji rimwe pa A4 kana US Letter, rinonaka muchena nenhema. Vhezheni {date}.",
+      "islandNote": "Inodhinda zvinoonekwa pascreen parizvino. Vhezheni {date}.",
+      "sheetTitle": "{name}: vhezheni yamapepa",
+      "point": "Pamapepa, taridza mufananidzo nomunwe kana utenderedze ne pen panzvimbo pekuuridza pascreen. Mutsara wega wega imhando itsva.",
+      "pointTarget": "Pamapepa, mufananidzo wekutarira uri mubhokisi pakutanga kwemutsara wega wega. Taridza mufananidzo nomunwe kana utenderedze ne pen panzvimbo pekuuridza.",
+      "halves": "Mufananidzo wega wega wakacheka pakati. Dhirowa mutsara kubva pahafu yekuruboshwe kuenda pahafu inoenderana nayo kurudyi, kana kuti taridza nomunwe. Hapana chinodiwa kucheka.",
+      "grid": "Sikweya yega yega ine nhamba. Tsvaga nhamba iyoyo mukiyi, uye penda sikweya nepensiro yeruvara urwo. Ruvara rwumwe rwaunoda narwo runogonawo. Hapana chinodiwa kucheka.",
+      "colors": "Mutsara wega wega unotaura ruvara. Taridza mifananidzo yose yeruvara urwo, kana utenderedze ne pen. Mutsara wega wega imhando itsva.",
+      "dice": "Mutsara wega wega imhando yemadhaisi. Sarudza mutsara, kana cheka mifananidzo wobudisa dzimwe kubva pagungwa, wobva wataura nyaya uchishandisa mifananidzo, muchiteerana zvakasarudzwa. Mumwe wese anogona kupfuura.",
+      "words": "Cheka mazwi, kana dhirowa mutsara kubva pashoko rega rega kuenda kumufananidzo waro. Verenga mazwi nenzwi guru sezvo muchienda.",
+      "cards": "Cheka makadhi nomutsara wakasvibiswa. Aiswa akatarisa patafura, wobva wotsvaga mapaari.",
+      "chain": "Pamapepa, verenga mifananidzo kubva kuruboshwe kuenda kurudyi, imwe nemumwe. Munhu wega wega anotaura chirevo chimwe nezvemifananidzo yakatevera kusvika parizvino, wobva ataridza mufananidzo unotevera. Mumwe wese anogona kupfuura.",
+      "sort": "Cheka mifananidzo nomutsara wakasvibiswa, wobva woisa imwe nemumwe mubhokisi rinoifanira.",
+      "puzzle": "Cheka mufananidzo mukuru nomutsara wakasvibiswa kuita zvidimbu zvina, uye usanganise. Shandura zvidimbu zviviri panguva kusvika mufananidzo wazara. Mufananidzo mudiki ndiwo chiteerwa.",
+      "cutSafety": "Mubatsiri anogona kucheka asati atanga. Mushure, isai zvekucheka kure.",
+      "version": "Vhezheni {date} · {url}",
+      "reasons": {
+        "photos": "Hapana vhezheni yamapepa. Mutambo uyu unoshandisa mifananidzo yako, inogara mubhurawuza yako uye haisi kutumirwa, saka saiti haigone kuidhinda. Kuti utambe pamapepa, dhinda makopi maviri emifananidzo mishomanene yaunofarira kumba uye ubatanidze patafura.",
+        "paced": "Hapana vhezheni yamapepa. Denderedzwa rinoisa kufamba kunononoka, kwakasimba pascreen, uye peji rakadhindwa harigoiti izvozvo, saka chingava chimwe chiitiko chakasiyana. Kunyarara pamwe chete pasina screen zvichiri sarudzo nguva dzose.",
+        "turns": "Hapana vhezheni yamapepa yemutambo uyu. Kuti uwane mapaari patafura, dhinda makadhi emifananidzo kubva kuPicture pairs uye muitirane kuadzora.",
+        "screen": "Ukuwo hakuna kopi yeupepa. Iyi ndeyepikicha yekuonekwa pamwechete pascreen; foto kana postcard yaunoda pagome inoita basa rimwe chete.",
+        "wash": "Ukuwo hakuna kopi yeupepa. Watercolor papepa ndiyo pfungwa imwe chete: burashi yakanyorova uye ruvara rumwe panguva imwe.",
+        "sayings": "Ukuwo hakuna kopi yeupepa. Papepa mapeji ese aizoonekwa panguva imwe, uye sitepe rinonyatsoita rekuti \"Ratidza mugumo\" raizorasikirwa. Vhurai mazano pascreen pamwechete, kana govanai mashoma amunoziva mose."
+      }
+    }
   }
 }
