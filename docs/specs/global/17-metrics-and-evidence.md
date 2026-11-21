@@ -126,6 +126,8 @@ Risks / not doing: guessing group use from page views.
 ### MET-010 · Reviewed coverage of indexed pages
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `content-metrics.test.ts`). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): `pnpm metrics:content` counts, from the repository, the live English indexed pages (activity cards, hubs not held from search and guides that are not retired) with a current review record, with a stale one (a review older than the last update, or a date that cannot be read or lies after today) and with none. Health-adjacent pages, which are the ones the translation queue calls protected (a health flag or a crisis route), are counted apart from the rest, and every figure shows its count and the date it was read. Today 0 of 23 health-adjacent pages and 0 of 78 other pages have a review record. `site/src/lib/content-metrics.test.ts` checks that a reviewer's name without a record is not counted and that a review older than the page shows as stale. Not done: staleness by content hash (PLAT-005; the report compares the review date with the page's `updated` date); a review record field on guides and hubs (only cards have one, so only cards can ever count as reviewed); translations (no record exists for any); a weekly run and a dashboard.
 Why: [R3 §7] and DESIGN §5 require that any review shown is documented. This metric measures whether that holds.
 What: share of indexed (entity, locale) pairs whose review record matches the current content hash ([platform](15-platform-data-architecture.md) PLAT-005). Reported separately for health-adjacent and other pages.
@@ -138,6 +140,8 @@ Risks / not doing: counting pages with a reviewer name but no matching review re
 
 ### MET-011 · Overdue reviews
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `content-metrics.test.ts`). Acceptance criteria that need a person remain open.
 
 Status note (2026-11-21): editing a page no longer resets its review clock: `content-metrics-lib.mjs` counts only a review date, and a page with no review is never reviewed (regression tests). The reader-facing "Due for a check" notice (`review-queue-lib.mjs`) still falls back to the update date; changing it changes what readers see, so it is a maintainer decision. Weekly and monthly reporting need an owner.
 
@@ -152,6 +156,8 @@ Risks / not doing: clearing the list by bumping dates. Only a review clears it.
 
 ### MET-012 · Translation coverage and staleness
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `content-metrics.test.ts`). Acceptance criteria that need a person remain open.
 
 Evidence (2026-11-16): the report counts, for each language, the live English guides it has and how many of those are stale (found from `translatedFrom`, see L10N-021), and counts native-reviewed pages from review records. Today there are 189 languages, each with 5 to 6 of the 41 live English guides; 0 of 1,020 translated pages behind a live guide are stale; 10,352 further translations belong to retired guides and stay published, and 362 of those are stale (the report shows them apart, and `pnpm translations:queue` lists them); the native-reviewed count is a fixed 0 because the repository holds no native review record, so it is not yet a measure. Every counted page is machine translation, counted as translated and never as native-reviewed. `--rows` lists each language. Not done: a native-review record (so the native-reviewed share is a fixed 0, not yet a measure); limiting the figures to indexed languages (the held list in the code is empty, so all 189 are indexed today, and the plan's 19 held languages are not held); a language with no live translation does not appear in the rows; the coverage target that gates indexing.
 Why: [R5 §2.3] says machine text needs native review before it is shown. The plan has 19 languages held out of the index ([docs/plan/README.md](../../plan/README.md) §8).
@@ -185,6 +191,8 @@ Risks / not doing: counting 404s from pages that are not indexed.
 
 ### MET-015 · Source coverage on health-adjacent pages
 Priority P1 · Phase S2 · Status partial · Pillars: CARE, CALM
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `content-metrics.test.ts`). Acceptance criteria that need a person remain open.
 
 Evidence (2026-11-16): the report counts health-adjacent live pages (a health flag or a crisis route) with a dated source, and with at least one source. Today 0 of 23 have a dated source, because no source carries a date field, and 14 of 23 have at least one; none of the 9 cards among them can, because a card has no field for a source. Not done: a retrieved date on each source (PLAT-006); a check by a reviewer that sources are primary; reporting per template.
 Why: [R5 §5.6] and DESIGN §10 require sources for factual claims.
@@ -253,6 +261,8 @@ Risks / not doing: relying only on word lists. Add a human review of every healt
 
 ### MET-020 · Print legibility pass rate
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): Built: `site/scripts/check-print.mjs` prints the pass rate per template; 7 of 7 template types passed on the 2026-11-17 run. A per-release record is kept by hand, not automatically.
 
 Status note (2026-11-21): `check:print --record=<file>` writes a per-release record (date, commit, pass counts per template, pass rate); 9 of 9 templates pass today. Running it for each release is a release step, not automated.
 
@@ -427,6 +437,8 @@ Evidence (2026-11-19): `docs/plan/measurement.md` now has the counter-metric sec
 
 ### MET-035 · Dark-pattern guardrails
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): Guarded by `site/src/lib/guardrails.test.ts` (urgency, guilt, timers, interruptions and emoji praise). The monthly report with counts and the complaint route remain.
 Evidence (2026-11-17): the count of prompts that create urgency is zero, and it is a test (`site/src/lib/guardrails.test.ts`). It scans 243 files of the site's code and 68 files of its English copy (cards, hubs and interface words) for urgency phrases, guilt and run-counting phrases, a stopwatch, a countdown, a score table, a move count, lives, confetti, requests to interrupt (notifications, push, vibration, an icon badge) and emoji used as praise, and it fails on any (urgency, guilt and emoji praise are checked in the English copy as well as the code; stopwatch, countdown, score and interruption in the code only; the game strings, middleware and styles are not scanned). It also lists every timer in the interface with the reason it is not pressure (the breathing pace, two hints offered after a pause, a check that speech has finished, the release of a download and, once the describe-your-situation change is merged, its two short waits after typing stops), and fails on a timer that is not listed. The site sends no notifications and no email, so the counts for those complaints and for unsubscribing are zero by construction. Not done: the monthly report with counts; a place where a complaint about pressure can be made and the same-week review; and whether the experience is gentle, which a scan cannot show and a person must judge.
 
 Why: DESIGN §9 and MISSION ban guilt notifications, streak shame and manipulative prompts. Guardrails must be measured, not just promised.

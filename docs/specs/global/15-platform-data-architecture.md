@@ -72,6 +72,8 @@ Risks / not doing: one-time migration of the 38 cards. Do not add IDs to guides 
 ### PLAT-002 · Variations as first-class records
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `ActivityView.astro`, `activity-changes.test.ts`). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): a hub can list cards and show each card's variation of one kind without copying its text (`variation` in the hub schema; the seated and bedside hubs use it), and every card's variations carry one of the ten kinds in `VARIATION_KINDS`. Not done: an ID for each variation; a review record for a variation apart from its card; retiring one without touching its card; validation that a variation changes at least one step (a variation is a short text, not a set of changed steps).
 Why: the VISION "adaptation graph" is the moat it names. Variations are currently array items inside each card (`variations` in `content.config.ts`), so a hub cannot select one by its own ID or review it separately. The hub schema already has a `variation` field.
 What: each variation has its own ID, a `kind` from the existing nine values, the steps it changes, optional media, and its own review record.
@@ -84,6 +86,8 @@ Risks / not doing: variation sprawl. Add a kind only when a tested need exists.
 
 ### PLAT-003 · Media asset records and rights log
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `claims.ts`). Acceptance criteria that need a person remain open.
 
 Status note (2026-11-21): all 330 website image records carry `sha256`, `alt`, `decorative` and `surfaces` (tested against the files); `python3 scripts/rights_report.py` prints the rights report in one command. Not built: a build that fails on an unrecorded file, and the child-release and app-catalog rules.
 
@@ -138,6 +142,8 @@ Risks / not doing: link rot and licenses for archived copies. Archive only what 
 
 ### PLAT-007 · Versions, change log and corrections
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `ActivityView.astro`, `activity-changes.test.ts`). Acceptance criteria that need a person remain open.
 
 Status note (2026-11-21): every card has a `version` (1 today); `pnpm check:card-versions` fails when steps, short steps, materials, safety notes or flags, the stop note or variations change without a higher version and a new `changes` entry, and when a version rises with no such change. The version is in the content bundle. The check is not in CI yet (CI checks out one commit, so it needs the base branch fetched); log retention is a maintainer call.
 
@@ -206,6 +212,8 @@ Risks / not doing: slow validation at scale. Measure it at 10× the current cont
 Priority P1 · Phase S2 · Status partial · Pillars: all
 Status note (2026-11-22): owner field added. Optional `reviewOwner` on activity cards and guides takes a role from `REVIEW_OWNER_ROLES` in `site/src/lib/review-owner.ts`: `editor`, `safety-reviewer`, `translation-reviewer` (the spec names no roles; these are proposals). No page sets it yet. The queue shows each owner, marked "(defaulted)" when the rule supplies it (safety-flagged → safety-reviewer, otherwise editor); priority order is unchanged. Run one owner's list with `pnpm review:queue -- --owner=<role>`, and `--json` adds `byOwner`. Still not done: the weekly run and report (the maintainer sets the schedule), and the "last checked" date that only a review moves.
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): `pnpm review:queue` lists English cards, hubs and guides (retired guides included) past a 12-month review, safety-flagged cards first (`site/scripts/review-queue-lib.mjs`), and a card past its date says so on the page. `pnpm metrics:content` reports the count and the median days over. `pnpm translations:queue` lists stale translations, protected guides first. Nothing is overdue today, and nothing can be before 2027-10-26, because the oldest page was last updated on 2026-10-25. Not done: an owner on each item; a weekly run that reports to the owner; a "last checked" date that only a review can move (a page with no review record counts as checked on its `updated` date, so editing resets the clock, which this item warns against); the 24-month default for content that is not health-adjacent (the queue uses 12 months for all); the internal dashboard.
 Why: the VISION metric "updates overdue" needs a source. [R5 §5.6] asks for "last checked" dates. A date that is bumped without a review is dishonest.
 What: each entity has `next_review_due`. Proposed defaults: 12 months for health-adjacent or care content, 24 months otherwise. A weekly report lists overdue items and their owners.
@@ -244,6 +252,8 @@ Risks / not doing: losing the appearance of language coverage. That loss is inte
 
 ### PLAT-015 · Hosting capacity check at 10× the page count
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `docs/engineering/hosting-capacity.md`, `capacity.test.ts`). Acceptance criteria that need a person remain open.
 Evidence (2026-11-17): the build holds 17,254 files (16,532 pages, 189 language folders, 1,906 MiB) and builds in 51 seconds. Cloudflare documents 20,000 files per version on the Free plan and 100,000 on the Paid plan, and 25 MiB per file ([limits page](https://developers.cloudflare.com/workers/platform/limits/), read that day). The site is at 86% of the Free limit with 2,746 files of headroom, about 12 page types (counted to the point where the check fails, 98%) that exist in every language, and at ten times the pages it would hold about 166,000 files, over the Paid limit. `pnpm check:capacity` (`site/scripts/check-capacity.mjs`, `capacity-lib.mjs`, `site/src/lib/capacity.test.ts`) prints this for any build, warns from 80% of the limit, and fails from 98% or on a file over 25 MiB. The numbers, the limits and the options are written in [hosting-capacity.md](../../engineering/hosting-capacity.md). Not done: a synthetic site at ten times the pages, built and deployed, for upload size, deploy time and cache behavior; the decision (shard deploys, render the long tail on demand, or accept the limit with a dated plan), which is the maintainer's; and recording which plan the account is on. The check runs in the website workflow after the page weight budget and today passes with a warning.
 Why: Workers Static Assets serve files from `dist`. A 10× build means well over 150,000 HTML files before images. Platform limits on file count, file size and deploy size must be checked, not assumed.
 What: build a synthetic site at 10× the current page count and image count. Measure build time, upload size, deploy time and cache behavior. Record the current limits from Cloudflare's documentation.
@@ -328,6 +338,8 @@ Risks / not doing: a single global index. Do not build one.
 
 ### PLAT-022 · Site-wide static search index
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): Built: `site/src/pages/search-index.json.ts` and `site/src/lib/search.ts` (English index on the site origin, checked by `site/scripts/check-site.mjs`). Screen-reader and combobox tests and language sharding remain.
 
 Evidence (2026-11-16): `/search-index.json` is built with the site (`site/src/pages/search-index.json.ts`), 110 KB and 34 KB gzipped for 53 cards, 14 hubs, 41 live English guides and 14 games, and is downloaded only by the search page. A short matcher in `site/src/lib/search.ts` reads it in the browser, so no third-party service receives a query and the only request is to this site (the page's security policy also allows only this origin for fetches). No query text is logged, stored or counted (tested). `site/scripts/check-site.mjs` fails the build if the index is missing, lists fewer than 100 pages, lists a page twice or names a page that was not built. Not done: sharding by language (the index is English only, which is all the site searches today); the "indexed pairs only" rule (the index also lists hubs held from search, because the home page links to them); a combobox pattern and a screen-reader test (the page is a plain search box with a list of results); a tool choice tested at a larger size (the matcher is fine at this size and has not been measured at 100,000 pages).
 Why: VISION makes the site search-first, and the catalog will outgrow navigation alone. [R5 §3] says search demand is spread across many small intents.
@@ -540,6 +552,8 @@ Risks / not doing: treating a clean scan as proof. Say in reports that scans are
 
 ### PLAT-039 · Print and i18n tests
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 
 Status note (2026-11-21): `check:print` now also prints an Arabic guide and an Arabic hub (right to left, navigation hidden) on A4 and Letter; `check:text-fit` covers the 320 px overflow with the longest translated strings. PDF page counts wait on PLAT-019.
 

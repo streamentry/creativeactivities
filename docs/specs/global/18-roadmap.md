@@ -97,20 +97,20 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| WEB-002 | P1 | new | Describe your situation |
-| WEB-003 | P1 | new | Site search with care and family language |
+| WEB-002 | P1 | partial | Describe your situation |
+| WEB-003 | P1 | partial | Site search with care and family language |
 | WEB-004 | P1 | partial | Why it fits, and a lower-effort option |
 | WEB-005 | P1 | exists | Finder state in the URL |
-| WEB-006 | P1 | new | What I have mode |
-| WEB-007 | P2 | new | One idea right now |
+| WEB-006 | P1 | partial | What I have mode |
+| WEB-007 | P2 | partial | One idea right now |
 | WEB-008 | P1 | partial | Related cards by function |
 | WEB-009 | P1 | exists | Pillar tiles and pillar hubs |
 | WEB-010 | P1 | partial | Facet browse pages |
 | WEB-013 | P1 | partial | Variation chips with an in-page switch |
 | WEB-015 | P0 | partial | No-ink, no-URL print version |
 | WEB-016 | P0 | partial | Versioned prints |
-| WEB-017 | P1 | new | Printable pack builder |
-| WEB-018 | P1 | new | Large-print editions |
+| WEB-017 | P1 | partial | Printable pack builder |
+| WEB-018 | P1 | partial | Large-print editions |
 | WEB-019 | P1 | new | Picture-led card |
 | WEB-020 | P1 | partial | Read-aloud |
 | WEB-023 | P0 | partial | Scope line on every page |
@@ -118,9 +118,9 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-028 | P1 | partial | Saved collections on the device |
 | WEB-029 | P0 | exists | Data control on the device |
 | WEB-031 | P1 | exists | Weekly plan, printable |
-| WEB-032 | P1 | new | Paths |
+| WEB-032 | P1 | partial | Paths |
 | WEB-033 | P2 | ? | Seasonal hubs and a "this season" calendar |
-| WEB-034 | P1 | new | Occasion hubs |
+| WEB-034 | P1 | partial | Occasion hubs |
 | WEB-037 | P0 | exists | Zoom and small-screen reflow |
 | WEB-038 | P0 | partial | Works without JavaScript, within a page budget |
 | WEB-039 | P1 | partial | Plain-language mode |
@@ -129,10 +129,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-044 | P1 | partial | Partner page with permission rules |
 | WEB-045 | P1 | exists | Care-home weekly program sheet |
 | WEB-046 | P1 | partial | Group mode for facilitators |
-| WEB-050 | P1 | new | Share a card |
+| WEB-050 | P1 | partial | Share a card |
 | WEB-051 | P1 | partial | Games filters |
-| WEB-052 | P1 | new | Printable partner on each game page |
-| WEB-053 | P1 | new | Difficulty without scores |
+| WEB-052 | P1 | partial | Printable partner on each game page |
+| WEB-053 | P1 | partial | Difficulty without scores |
 | WEB-054 | P0 | partial | Stop and rest on every game |
 | WEB-058 | P0 | partial | Report a problem |
 | WEB-059 | P0 | partial | Intent hub template |
@@ -142,12 +142,12 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-067 | P2 | ? | Today quick answers |
 | WEB-068 | P0 | partial | Privacy-minimal analytics |
 | WEB-069 | P0 | partial | No ads, no third-party embeds, and a cookie rule |
-| WEB-070 | P0 | new | Notification policy |
+| WEB-070 | P0 | exists | Notification policy |
 | WEB-071 | P1 | new | Email digest, opt-in only |
-| WEB-072 | P0 | new | Child-facing pages rule |
-| WEB-073 | P0 | new | Image consent and rights log |
+| WEB-072 | P0 | partial | Child-facing pages rule |
+| WEB-073 | P0 | partial | Image consent and rights log |
 | WEB-075 | P0 | partial | Accessibility tests in CI |
-| WEB-076 | P1 | new | Due-for-review queue |
+| WEB-076 | P1 | partial | Due-for-review queue |
 
 #### App (04)
 
@@ -186,12 +186,12 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-003 | P1 | exists | Shadow match |
 | GAME-013 | P0 | exists | Visible picture matching (app) |
 | GAME-014 | P2 | exists | Hidden picture matching (app) |
-| GAME-018 | P1 | new | Odd one out |
+| GAME-018 | P1 | partial | Odd one out |
 | GAME-020 | P2 | partial | Color match |
 | GAME-021 | P2 | partial | Halves match |
 | GAME-006 | P1 | exists | Finish the saying |
 | GAME-007 | P1 | exists | Large-print word search |
-| GAME-022 | P1 | new | Four together |
+| GAME-022 | P1 | partial | Four together |
 | GAME-025 | P1 | partial | Story dice |
 | GAME-026 | P2 | new | Sound loop maker |
 | GAME-027 | P2 | new | Keep the beat |
@@ -230,7 +230,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | GAME-058 | P2 | partial | Jigsaw from your photo |
 | GAME-059 | P1 | new | Spot the difference |
 | GAME-060 | P3 | partial | Quiet shapes puzzle |
-| GAME-061 | P1 | new | Daily shared card |
+| GAME-061 | P1 | partial | Daily shared card |
 
 #### Content library (06)
 
@@ -238,21 +238,21 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 |---|---|---|---|
 | CNT-004 | P1 | exists | Guide |
 | CNT-005 | P1 | exists | Printable pack |
-| CNT-006 | P1 | new | Path (weekly plan or multi-week sequence) |
+| CNT-006 | P1 | partial | Path (weekly plan or multi-week sequence) |
 | CNT-007 | P1 | partial | Printable template |
 | CNT-008 | P2 | partial | Coloring page |
 | CNT-009 | P1 | partial | Step photos and illustrations |
 | CNT-010 | P2 | new | Short video |
 | CNT-011 | P2 | new | Audio read-aloud |
-| CNT-012 | P1 | new | Glossary |
-| CNT-013 | P2 | new | Seasonal calendar and collections |
+| CNT-012 | P1 | partial | Glossary |
+| CNT-013 | P2 | partial | Seasonal calendar and collections |
 | CNT-014 | P2 | partial | Educator and care-setting program |
 | CNT-015 | P1 | exists | FAQ |
 | CNT-030 | P0 | partial | Editorial pipeline |
-| CNT-031 | P0 | new | Media rights and provenance |
+| CNT-031 | P0 | partial | Media rights and provenance |
 | CNT-032 | P0 | new | AI-assistance policy |
 | CNT-033 | P1 | partial | Target library sizes |
-| CNT-034 | P1 | new | Update, correction and retirement |
+| CNT-034 | P1 | partial | Update, correction and retirement |
 | CNT-040 | P0 | exists | Library inventory |
 
 #### MAKE: crafting (07)
@@ -309,9 +309,9 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-904 | P1 | ? | 4 |
 | CNT-905 | P1 | ? | 5 |
 | CNT-906 | P2 | ? | 6 |
-| CNT-907 | P0 | new | 7 |
+| CNT-907 | P0 | partial | 7 |
 | CNT-908 | P1 | ? | 8 |
-| CNT-909 | P0 | new | 9 |
+| CNT-909 | P0 | partial | 9 |
 | CNT-910 | P1 | ? | 10 |
 | CNT-911 | P2 | ? | 11 |
 
@@ -329,11 +329,11 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-1017 | P2 | ? | Grief and remembrance making |
 | CNT-1018 | P2 | ? | Stress-relief making |
 | CNT-1019 | P2 | ? | Creative routines |
-| CNT-1000 | P0 | new | Art-therapy boundary policy |
-| CNT-1001 | P0 | new | Claim register and phrasing rules |
-| CNT-1002 | P0 | new | Trauma-informed defaults |
+| CNT-1000 | P0 | partial | Art-therapy boundary policy |
+| CNT-1001 | P0 | partial | Claim register and phrasing rules |
+| CNT-1002 | P0 | partial | Trauma-informed defaults |
 | CNT-1003 | P0 | partial | Crisis route by country (UK, Ireland, US checked; others unverified) |
-| CNT-1004 | P0 | new | Reviewer roles and review record |
+| CNT-1004 | P0 | partial | Reviewer roles and review record |
 | CNT-1020 | P1 | partial | Referral guides |
 
 #### Community and UGC (11)
@@ -383,8 +383,8 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | SEO-013 | P0 | partial | Structured data policy |
 | SEO-014 | P0 | partial | Internal linking graph |
 | SEO-015 | P0 | partial | Duplicate and near-duplicate audit |
-| SEO-016 | P1 | new | Reminiscence hub (non-clinical) |
-| SEO-017 | P1 | new | Crafts for limited hand strength or arthritis |
+| SEO-016 | P1 | partial | Reminiscence hub (non-clinical) |
+| SEO-017 | P1 | partial | Crafts for limited hand strength or arthritis |
 | SEO-018 | P1 | partial | Grandparent and grandchild expansion |
 | SEO-019 | P1 | new | Measure AI discovery and citations |
 | SEO-020 | P1 | partial | Referral and app attribution |
@@ -398,13 +398,13 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | SEO-028 | P1 | partial | Core Web Vitals and performance budgets |
 | SEO-029 | P1 | partial | Canonical and parameter policy |
 | SEO-030 | P1 | partial | Locale indexing gate |
-| SEO-031 | P1 | new | Hreflang implementation |
+| SEO-031 | P1 | partial | Hreflang implementation |
 | SEO-032 | P1 | partial | Local search phrase research |
 | SEO-033 | P1 | partial | App store optimization per locale |
 | SEO-034 | P1 | exists | llms.txt kept accurate |
-| SEO-035 | P1 | new | AI crawler policy |
-| SEO-036 | P2 | new | Holiday and seasonal pages (R5 rank 6) |
-| SEO-037 | P2 | new | Music activities for seniors (R5 rank 10) |
+| SEO-035 | P1 | partial | AI crawler policy |
+| SEO-036 | P2 | partial | Holiday and seasonal pages (R5 rank 6) |
+| SEO-037 | P2 | exists | Music activities for seniors (R5 rank 10) |
 | SEO-042 | P2 | partial | FAQPage on visible questions |
 | SEO-043 | P2 | exists | ItemList on curated collections |
 | SEO-044 | P2 | new | VideoObject on real videos |
@@ -454,7 +454,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-005 | P1 | partial | Color, contrast and text alternatives |
 | TSA-006 | P1 | partial | Flashing and motion in games |
 | TSA-007 | P1 | partial | Accessibility statement and feedback route |
-| TSA-008 | P1 | new | Plain-language standard |
+| TSA-008 | P1 | partial | Plain-language standard |
 | TSA-009 | P1 | exists | Accessibility regression tests in CI |
 | TSA-010 | P0 | partial | No accounts for the core product |
 | TSA-011 | P0 | partial | Data and tracker inventory |
@@ -463,10 +463,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-015 | P0 | partial | Photos stay on the device |
 | TSA-016 | P1 | partial | Retention, deletion and data requests |
 | TSA-017 | P1 | partial | Privacy notice and store privacy labels |
-| TSA-019 | P0 | new | No ads or ad technology on child-reachable pages |
+| TSA-019 | P0 | partial | No ads or ad technology on child-reachable pages |
 | TSA-020 | P0 | new | UK Age Appropriate Design Code assessment |
-| TSA-021 | P0 | new | Children in media |
-| TSA-022 | P1 | new | Parenting content boundaries |
+| TSA-021 | P0 | partial | Children in media |
+| TSA-022 | P1 | partial | Parenting content boundaries |
 | TSA-023 | P0 | partial | Standard safety vocabulary and fields |
 | TSA-024 | P0 | partial | Supervision and food-as-material rules |
 | TSA-025 | P1 | partial | Stop-and-switch note |
@@ -477,14 +477,14 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-031 | P1 | partial | Evidence labels next to benefit sentences |
 | TSA-032 | P1 | partial | Store, partner and marketing copy under the same policy |
 | TSA-033 | P0 | partial | Editorial policy and roles |
-| TSA-036 | P1 | new | Review cadence |
+| TSA-036 | P1 | partial | Review cadence |
 | TSA-037 | P1 | partial | AI-assistance disclosure |
 | TSA-039 | P1 | new | Moderation and review integrity for user content |
 | TSA-040 | P1 | new | Platform law check for user content |
 | TSA-041 | P0 | partial | Security headers and content security policy |
 | TSA-042 | P1 | partial | Third-party scripts, fonts and subresource integrity |
 | TSA-043 | P1 | partial | Secrets and dependencies |
-| TSA-044 | P1 | new | Forms: anti-abuse without heavy CAPTCHA |
+| TSA-044 | P1 | partial | Forms: anti-abuse without heavy CAPTCHA |
 | TSA-046 | P0 | partial | Privacy and security breach process |
 | TSA-047 | P1 | partial | Safety report route |
 | TSA-048 | P0 | partial | Transparency pages set |
@@ -495,25 +495,25 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | ID | P | Status | Title |
 |---|---|---|---|
 | PLAT-001 | P0 | partial | Stable entity IDs separate from slugs |
-| PLAT-002 | P1 | new | Variations as first-class records |
-| PLAT-003 | P0 | new | Media asset records and rights log |
+| PLAT-002 | P1 | partial | Variations as first-class records |
+| PLAT-003 | P0 | partial | Media asset records and rights log |
 | PLAT-004 | P0 | partial | Translation records with source hashes |
 | PLAT-005 | P0 | partial | Review records that cannot be faked |
 | PLAT-006 | P1 | partial | Source records and claim links |
-| PLAT-007 | P1 | new | Versions, change log and corrections |
+| PLAT-007 | P1 | partial | Versions, change log and corrections |
 | PLAT-008 | P1 | partial | URL policy, redirects and canonical registry |
 | PLAT-009 | P0 | exists | Git-first editorial flow |
 | PLAT-010 | P1 | partial | Editorial states and review queue |
 | PLAT-011 | P0 | partial | One validation command for every content type |
-| PLAT-012 | P1 | new | Staleness and re-review queue |
+| PLAT-012 | P1 | partial | Staleness and re-review queue |
 | PLAT-013 | P0 | partial | Partitioned, incremental builds |
 | PLAT-014 | P0 | partial | Publishing state per (entity, locale) |
-| PLAT-015 | P0 | new | Hosting capacity check at 10× the page count |
+| PLAT-015 | P0 | partial | Hosting capacity check at 10× the page count |
 | PLAT-017 | P0 | partial | Image pipeline: masters to AVIF, WebP and fallback |
 | PLAT-018 | P1 | partial | Step photo and caption standard |
 | PLAT-019 | P1 | partial | Print-ready cards and generated PDFs |
 | PLAT-021 | P0 | partial | Finder index sharded by locale and facet |
-| PLAT-022 | P1 | new | Site-wide static search index |
+| PLAT-022 | P1 | partial | Site-wide static search index |
 | PLAT-025 | P0 | exists | App analytics stance (no SDK) |
 | PLAT-026 | P0 | partial | Consent, Global Privacy Control and retention |
 | PLAT-027 | P1 | new | Aggregate "We tried this" counters |
@@ -522,7 +522,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | PLAT-036 | P0 | partial | Performance budgets gated in CI |
 | PLAT-037 | P0 | partial | Visual regression at standard widths |
 | PLAT-038 | P0 | partial | Accessibility automation and assistive-technology gates |
-| PLAT-039 | P1 | new | Print and i18n tests |
+| PLAT-039 | P1 | partial | Print and i18n tests |
 | PLAT-040 | P1 | partial | Observability, uptime, broken links and cost guardrails |
 
 #### Business model (16)
@@ -549,17 +549,17 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | MET-006 | P0 | partial | Pillar input: CARE (older adults, dementia, caregivers) |
 | MET-008 | P1 | new | Pillar input: PLAY (games) |
 | MET-009 | P2 | new | Pillar input: TOGETHER (groups and intergenerational) |
-| MET-010 | P0 | new | Reviewed coverage of indexed pages |
-| MET-011 | P1 | new | Overdue reviews |
-| MET-012 | P0 | new | Translation coverage and staleness |
+| MET-010 | P0 | partial | Reviewed coverage of indexed pages |
+| MET-011 | P1 | partial | Overdue reviews |
+| MET-012 | P0 | partial | Translation coverage and staleness |
 | MET-013 | P1 | partial | Correction speed |
 | MET-014 | P1 | partial | Broken links and 404s on indexed pages |
-| MET-015 | P1 | new | Source coverage on health-adjacent pages |
+| MET-015 | P1 | partial | Source coverage on health-adjacent pages |
 | MET-016 | P0 | partial | Accessibility defects per release |
 | MET-017 | P0 | new | Assistive-technology task success |
 | MET-018 | P0 | partial | Safety reports and safety-field completeness |
 | MET-019 | P0 | partial | Claim-audit failures |
-| MET-020 | P1 | new | Print legibility pass rate |
+| MET-020 | P1 | partial | Print legibility pass rate |
 | MET-021 | P0 | new | Non-branded search impressions by cluster and locale |
 | MET-022 | P1 | new | Top-three share for task queries |
 | MET-023 | P1 | new | Search share per cluster |
@@ -569,7 +569,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | MET-030 | P1 | new | Comprehension test pass rate |
 | MET-031 | P1 | new | Return households |
 | MET-034 | P0 | partial | Time on site and page views (counter-metric) |
-| MET-035 | P0 | new | Dark-pattern guardrails |
+| MET-035 | P0 | partial | Dark-pattern guardrails |
 | MET-037 | P0 | partial | Privacy-preserving measurement principles |
 | MET-038 | P1 | partial | Data-quality checks |
 | MET-039 | P0 | partial | Dashboards and review cadence |
