@@ -474,14 +474,6 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | `check:print --record` writes a per-release record | MET-020 partial | Built by a Haiku subagent |
 | Spec 06 §1 shows the inventory counts (56 cards, 14 hubs, 116 guides) and the merge candidates | CNT-040 → exists | Counts corrected in review after the bead cards landed |
 
-### Batch 56 (2026-11-21): reading direction, casing, language inventory, card audit and one validation command
-
-| Change | Items | Evidence |
-| --- | --- | --- |
-| Website CSS uses logical properties for reading direction, with a lint test; user-visible casing follows the page language | L10N-016, L10N-017 partial | Built by a Haiku subagent; the Turkish test failed first. Review restored one physical value: the washi tape is centered with `left: 50%` and a transform, which a logical start value would push off center on a right-to-left page |
-| `scripts/l10n_inventory.py` and [language-inventory.md](global/language-inventory.md): keys and files per language and surface, review status, placeholders | L10N-001 partial | Built by a Haiku subagent; 190 codes; 103 placeholder strings, all from the re-translation in #112 |
-| `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
-| `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |
 ### Batch 55 (2026-11-21): search, structured data, orphans, legal templates and crisis data
 
 | Change | Items | Evidence |
@@ -491,6 +483,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | `check:orphans`: no orphan among 176 indexable English pages, no repeated generic anchors | SEO-014 partial | Built by a Haiku subagent; not in CI |
 | DPIA template, withdrawal runbook, and a per-metric privacy note | TSA-013, TSA-045, MET-037 partial | Written by a Haiku subagent from the repository; owners, targets and counsel's check are marked "TO SET". The note flags four metric conflicts for the maintainer |
 | Crisis routes in a data file with a check date and a source field | L10N-009, CNT-1003 partial | Built by a Haiku subagent; the 18,921 built files are byte-identical to before; no number changed or re-checked |
+
+### Batch 56 (2026-11-21): reading direction, casing, language inventory, card audit and one validation command
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Website CSS uses logical properties for reading direction, with a lint test; user-visible casing follows the page language | L10N-016, L10N-017 partial | Built by a Haiku subagent; the Turkish test failed first. Review restored one physical value: the washi tape is centered with `left: 50%` and a transform, which a logical start value would push off center on a right-to-left page |
+| `scripts/l10n_inventory.py` and [language-inventory.md](global/language-inventory.md): keys and files per language and surface, review status, placeholders | L10N-001 partial | Built by a Haiku subagent; 190 codes; 103 placeholder strings, all from the re-translation in #112 |
+| `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
+| `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |
 
 ## What blocks the rest
 
