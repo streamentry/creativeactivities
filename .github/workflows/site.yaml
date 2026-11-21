@@ -55,6 +55,10 @@ jobs:
         run: pnpm exec node scripts/check-site.mjs
       - name: No two pages share a title, H1 or description (SEO-006, SEO-015)
         run: pnpm exec node --max-old-space-size=6144 scripts/check-duplicates.mjs --exact
+      - name: No two pages of one type read the same in search (SEO-006 title and H1 patterns)
+        run: pnpm exec node --max-old-space-size=6144 scripts/check-duplicates.mjs --patterns
+      - name: Every indexable page has two or more pages linking to it (SEO-014)
+        run: pnpm exec node --max-old-space-size=6144 scripts/check-orphans.mjs --strict
       - name: Structured data matches the visible page (SEO-013, SEO-042, SEO-043, SEO-047)
         run: pnpm exec node scripts/check-structured-data.mjs
       - name: Page weight budget (WEB-074)
