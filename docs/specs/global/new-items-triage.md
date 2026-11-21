@@ -4,7 +4,7 @@ Date: 2026-11-22. Scope: all 162 rows with status `new` in [id-index.tsv](id-ind
 
 Method: each item's full text was read from its `###` section, or from its table row where the item is a table row (the digest covered Why, What, Acceptance, Depends on and Risks). Each ID and feature was grepped in `site/`, `lib/`, `scripts/` and `tests/`, and the app's `pubspec.yaml` was checked for the packages a feature would need. Dependencies were read from the index. A `build` row names the test that proves it; device, reviewer, counsel and usability checks in a build row are listed as manual steps, not as blockers.
 
-Counts: build 13, decision 23, person 36, service 35, later 54, built 1 (total 162). Lead corrections on 2026-11-22: PLAT-034 moved from build to decision (privacy review first, per the decided table in COMPLETION.md); SEO-041 moved from decision to later (decided 2026-11-21).
+Counts: build 13, decision 22, person 36, service 35, later 55, built 1 (total 162). Lead corrections on 2026-11-22: PLAT-034 moved from build to decision (privacy review first, per the decided table in COMPLETION.md); SEO-041 moved from decision to later (decided 2026-11-21).
 
 Tooling: 11 of the 13 build rows are in the Flutter app (APP-, GAME-016, GAME-017, GAME-027). They need the pinned Flutter SDK (`.fvmrc`: 3.47.7), which the machine used for this triage does not have, so they are buildable only where the SDK is installed and the widget tests can run. The two website rows (BIZ-018, COM-024) are buildable here.
 
