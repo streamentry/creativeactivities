@@ -1,34 +1,34 @@
 ---
-title: "How to Play Games with Someone Who Has Dementia"
-description: "A practical guide to playing games with someone living with dementia: setting up, pacing, never correcting, making games easier, and knowing when to stop."
+title: "Како да играте игри со некој што живее со деменција"
+description: "Практичен водич за игра со некој што живее со деменција: подготовка, темпо, без поправање на грешки, полесни игри и кога да застанете."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Treat a game as time together, not a test. Pick a calm time of day, sit side
-  by side in a quiet room, and offer one simple game. Let the person set the
-  pace, never correct harmless mistakes, make the game easier at the first sign
-  of strain, and turn pictures into conversation. Stop while it still feels
-  good. Ending early, or simply watching together, is a good outcome.
+  Играта третирајте ја како заедничко време, а не како тест. Изберете смирен период од денот, седнете
+  еден до друг во тивка просторија и понудете една едноставна игра. Нека лицето го одредува темпото,
+  никогаш не поправајте безопасни грешки, олеснете ја играта веднаш штом ќе се појави напнатост и
+  претворете ги сликите во разговор. Застанете додека уште е пријатно. Раниот прекин или едноставното
+  заедничко гледање се добар исход.
 keyPoints:
-  - "The goal is enjoyment and connection, not finishing or getting answers right."
-  - "Set up first: quiet room, good light, glasses and hearing aids on, TV off, one game ready."
-  - "Do not correct harmless mistakes. Say \"Let's try it this way\" or just carry on."
-  - "Make a game easier before frustration builds: fewer pictures, fewer choices, pictures left visible."
-  - "Use pictures as a starting point for stories with \"Tell me about...\" instead of \"Do you remember...?\""
-  - "Stop at the first signs of tiredness or upset. Stopping early is a success, not a failure."
+  - "Целта е уживање и поврзаност, а не завршување или точни одговори."
+  - "Прво подгответе: тивка просторија, добро светло, очила и слушни апарати на лицето, телевизорот исклучен, една игра подготвена."
+  - "Не поправајте безопасни грешки. Кажете \"Ајде да пробаме вака\" или едноставно продолжете."
+  - "Олеснете ја играта пред да се разви фрустрација: помалку слики, помалку избори, сликите да остануваат видливи."
+  - "Користете ги сликите како почеток за приказни со \"Кажете ми за...\", наместо \"Се сеќавате ли...?\""
+  - "Застанете при првите знаци на умор или вознемиреност. Раниот прекин е успех, а не неуспех."
 faq:
-  - q: "How long should we play a game?"
-    a: "There is no correct length. For many people, a few minutes is plenty, and some days a single round is enough. Watch the person rather than the clock, and stop while they still seem relaxed."
-  - q: "Should I let them win or pretend not to notice mistakes?"
-    a: "In a shared, low-pressure game there is nothing to win or lose. If a mistake does not bother the person, let it go. If it seems to bother them, quietly help or make the game easier without pointing it out."
-  - q: "What if they would rather watch me play?"
-    a: "That is fine. The National Institute on Aging suggests letting a person simply watch if they seem to enjoy that more. Talk about what you see and invite them to point or choose whenever they like."
-  - q: "Are these games a way to test memory?"
-    a: "No. Our games are simple shared activities for enjoyment and conversation. They are not a memory test, do not measure anything, and are not a treatment for dementia."
-  - q: "Which game is best to start with?"
-    a: "Start with the simplest one that fits the person. Picture Pairs with four tiles and pictures left visible, or Find the Same with two choices, are gentle starting points. Conversation Cards work well if the person enjoys talking more than tapping."
+  - q: "Колку треба да трае една игра?"
+    a: "Нема точна должина. За многу луѓе доволни се неколку минути, а некои денови доволно е и едно коло. Гледајте го лицето, а не часовникот, и застанете додека изгледа опуштено."
+  - q: "Дали треба да го пуштам да победи или да се правам дека не ги забележувам грешките?"
+    a: "Во заедничка игра без притисок нема што да се добие или изгуби. Ако грешката не го вознемирува лицето, пуштете ја. Ако изгледа вознемирено, тивко помогнете или олеснете ја играта, без да ја истакнувате грешката."
+  - q: "Што ако би сакало повеќе да ме гледа како играм?"
+    a: "Тоа е во ред. Националниот институт за стареење предлага да го пуштите едноставно да гледа, ако изгледа дека тоа повеќе ужива. Зборувајте за она што го гледате и поканете го да покажува или да избира кога сака."
+  - q: "Дали овие игри се начин за тестирање на меморијата?"
+    a: "Не. Нашите игри се едноставни заеднички активности за уживање и разговор. Тие не се тест за меморија, ништо не мерат и не се третман за деменција."
+  - q: "Со која игра најдобро да се започне?"
+    a: "Почнете со наједноставната што му одговара на лицето. Парови слики со четири плочки и видливи слики или Најди исто со два избора се нежни почетоци. Картичките за разговор добро функционираат ако лицето повеќе ужива во зборувањето отколку во допирањето."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,127 +47,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-A good game with someone living with dementia does not look like a contest. It looks like two people sitting close, pointing at pictures, laughing at a saying, and talking about whatever comes up. The game is just a reason to spend time together.
+Добра игра со некој што живее со деменција не изгледа како натпревар. Изгледа како двајца луѓе што седат блиску, покажуваат кон слики, се смеат на поговорка и разговараат за она што ќе им текне. Играта е само причина да поминат време заедно.
 
-This guide covers how to set up, how to pace a game, what to say when something goes "wrong", how to make any game easier or a little harder, how to turn it into conversation, and how to know when to stop. It works for our [games](/games/) and for cards, puzzles and board games you already have.
+Овој водич објаснува како да се подготвите, како да го одредите темпото на играта, што да кажете кога нешто „не оди“, како секоја игра да ја направите полесна или малку потешка, како да ја претворите во разговор и како да знаете кога да застанете. Работи со нашите [игри](/games/) и со картички, слагалки и табла игри што ги имате дома.
 
-## What is the best way to play a game with someone who has dementia?
+## Која е најдобрата постапка за играње со некој што има деменција?
 
-Focus on enjoyment, not achievement. That is the core advice from the [Alzheimer's Association guidance on activities](https://www.alz.org/help-support/caregiving/daily-care/activities): build on skills the person still has, help them get started, finish the hard parts yourself, and do not criticize or correct harmless activities.
+Фокусирајте се на уживањето, а не на постигнувањето. Тоа е основниот совет од [упатството на Alzheimer's Association за активности](https://www.alz.org/help-support/caregiving/daily-care/activities): градете врз вештините што лицето сè уште ги има, помогнете му да започне, завршете ги тешките делови сами и не критикувајте и не поправајте безопасни активности.
 
-In practice that means:
+Во пракса тоа значи:
 
-- **Sit beside them, not across.** Side by side, you can both see the screen or table, and helping feels like teamwork rather than supervision.
-- **Offer one game at a time.** A menu of choices can feel like a test before anything starts.
-- **Follow their lead.** If they want to tap the pictures in their own order, talk about one picture for ten minutes, or stop after two turns, that is the game today.
-- **Count the good moments, not the finished rounds.** A smile, a story or a calm half hour is the outcome you are looking for.
+- **Седнете покрај, а не спроти.** Еден до друг можете да го гледате екранот или масата, а помошта се чувствува како тимска работа, а не како надзор.
+- **Понудете по една игра.** Мени со многу избори може да делува како тест уште пред да почне било што.
+- **Следете го нивниот водич.** Ако сакаат да допираат слики по свој редослед, да зборуваат за една слика десет минути или да застанат по два потези, тоа е играта за денес.
+- **Броете ги добрите моменти, а не завршените кола.** Насмевка, приказна или мирен половина час е исходот што го бараме.
 
-## How do I set up before we start?
+## Како да подготвам пред да започнеме?
 
-A few minutes of setup prevents most of the frustration that people blame on the game itself.
+Неколку минути подготовка спречуваат поголемиот дел од фрустрацијата што луѓето ја припишуваат на самата игра.
 
-1. **Pick their best time of day.** The [National Institute on Aging (NIA) guidance on adapting activities](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) suggests planning outings and activities for the time of day when the person is at their best. For many people that is mid-morning. Late afternoon is often harder; see [calm late-afternoon activities](/caregiving/late-day-restlessness/).
-2. **Make the room quiet.** Turn off the TV and radio and close the door if you can. The [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) recommends limiting noise and distractions before you try to talk.
-3. **Check comfort first.** A drink nearby, a bathroom trip beforehand, a comfortable chair, and glasses and hearing aids on.
-4. **Light the space well.** Bright, even light without glare on the screen makes pictures easier to see.
-5. **Get the game ready before you sit down.** Open it, choose the settings and set the volume yourself. Then turn the screen toward them. For tablet tips, see [setting up a tablet or phone](/caregiving/tablets-and-screens/).
-6. **Prop the device up.** A stand or case that holds the tablet upright means nobody has to hold it, and it is easier to point.
+1. **Изберете го најдобриот период од денот.** [Упатството на Националниот институт за стареење (NIA) за прилагодување на активностите](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) предлага да се планираат излегувања и активности за време од денот кога лицето е најдобро. За многумина тоа е средина на утро. Доцното попладне често е потешко; видете [смирувачки активности за доцното попладне](/creative-calm/calm-afternoon-activities/).
+2. **Направете ја просторијата тивка.** Исклучете го телевизорот и радиото и затворете ја вратата ако можете. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) препорачува да се ограничат бучавата и вознемирувањата пред да започнете да разговарате.
+3. **Прво проверете дали е удобно.** Пијалок во близина, одење во бања однапред, удобна столица и очила и слушни апарати на лицето.
+4. **Добро осветлете го просторот.** Светлина што е светла и рамномерна, без одблесок на екранот, ги прави сликите полесни за гледање.
+5. **Подгответе ја играта пред да седнете.** Отворете ја, изберете ги поставките и сами поставете ја јачината на звукот. Потоа свртете го екранот кон лицето. Вклучете поголем текст на уредот ако помага.
+6. **Поставете го уредот на држач.** Држач или футрола што го држи таблетот исправен значи дека никој нема да мора да го држи, а полесно е да се покажува.
 
-## How do I invite them without pressure?
+## Како да поканам без притисок?
 
-Make the invitation casual and easy to decline. Some phrases that tend to land well:
+Поканата нека биде неформална и лесна за одбивање. Некои реченици што обично добро функционираат:
 
-- "I found some garden pictures. Want to look at them with me?"
-- "Could you help me with this puzzle? I'm stuck."
-- "Would you like the flowers or the birds today?" (a choice of two is easier than an open question)
-- "I'm making a card for your sister. Which color should this be?"
+- „Најдов неколку слики од градината. Сакате ли да ги погледнеме заедно?“
+- „Можете ли да ми помогнете со оваа слагалка? Се заглавив.“
+- „Сакате ли денес цвеќиња или птици?“ (избор од два е полесен од отворено прашање)
+- „Правам картичка за вашата сестра. Која боја да биде ова?“
 
-The Alzheimer's Association suggests explaining the purpose of an activity, such as making a card for a friend, because a reason gives it meaning. Asking for help also works because it lets the person feel useful.
+Alzheimer's Association предлага да се објасни целта на активноста, како правење картичка за пријател, бидејќи причината ѝ дава значење. Барањето помош исто така функционира, затоа што му дава на лицето чувство дека е корисно.
 
-If they say no, accept it. Try again later or offer something different. Our guide on [what to do when they say no](/caregiving/when-they-say-no/) goes further.
+Ако кажат не, прифатете го тоа. Обидете се подоцна или понудете нешто друго. Нашиот водич за [што да правите кога ќе кажат не](/caregiving/when-they-say-no/) оди подалеку.
 
-## How long should a game last, and how fast should we go?
+## Колку треба да трае играта и колку брзо да одиме?
 
-Let the person set the pace, and plan for short sessions. There is no evidence-based ideal length for a shared game. Two to five calm minutes can be a complete activity.
+Нека лицето го одредува темпото и планирајте кратки сесии. Не постои идеална должина за заедничка игра заснована на докази. Две до пет смирени минути може да бидат целосна активност.
 
-- **Wait longer than feels natural.** The NIA advises allowing more time for a person to respond and trying not to interrupt. Count to ten in your head before you help.
-- **One step at a time.** Give a single, short instruction ("Tap a picture"), then wait. Show rather than explain: point to where to tap.
-- **Pause freely.** If they stop to talk about a picture, the game can wait. There is no need to rush.
-- **Let them watch.** The NIA notes that some people prefer to watch, and that is a valid choice.
+- **Чекајте подолго отколку што изгледа природно.** NIA советува да се остави повеќе време за одговор и да се избегнува прекинување. Броете до десет во себе пред да помогнете.
+- **Еден чекор одеднаш.** Дајте една кратка инструкција („Допрете една слика“), па почекајте. Покажете, наместо да објаснувате: посочете каде да се допре.
+- **Слободно паузирајте.** Ако застанат да зборуваат за една слика, играта може да почека. Нема потреба да се брза.
+- **Пуштете ги да гледаат.** NIA наведува дека некои луѓе претпочитаат да гледаат, а тоа е валиден избор.
 
-## Should I correct wrong answers?
+## Дали да ги поправам погрешните одговори?
 
-No. Gently correcting someone again and again tells them they are failing, even when you mean well. The Alzheimer's Association advises not to criticize or correct harmless activities. In a game, almost every mistake is harmless.
+Не. Нежното поправање на истото повторно и повторно му порачува на лицето дека не успева, дури и кога сакате добро. Alzheimer's Association советува да не се критикуваат и да не се поправаат безопасни активности. Во игра, речиси секоја грешка е безопасна.
 
-| Instead of | Try |
+| Наместо | Пробајте |
 | --- | --- |
-| "No, that's wrong." | "Let's try it this way." (an example the NIA gives) |
-| "That's not a match. Look again." | Say nothing and take the next turn, or "Oh, those are both red." |
-| "Do you remember who this is?" | "Tell me about this picture." |
-| "You already did that one." | "That's a good one. Let's do it again." |
-| "Come on, you know this." | "Want me to show the ending?" |
+| „Не, тоа е погрешно.“ | „Ајде да пробаме вака.“ (пример што го дава NIA) |
+| „Тоа не е парот. Погледнете пак.“ | Не кажувајте ништо и одете на следниот потег, или „О, двете се црвени.“ |
+| „Се сеќавате ли кој е ова?“ | „Кажете ми за оваа слика.“ |
+| „Ова веќе го направивте.“ | „Тоа е добро. Ајде да го направиме пак.“ |
+| „Ајде, знаете ова.“ | „Сакате ли да ви го покажам крајот?“ |
 
-If a mistake clearly frustrates them, help quietly. Point to the right picture, take a turn yourself, or make the game easier next round. If a saying gets a funny wrong ending, laugh along. Their ending might be better.
+Ако грешката очигледно го вознемирува лицето, помогнете тивко. Посочете ја вистинската слика, одиграјте го потегот сами или олеснете ја играта следниот пат. Ако поговорката добие смешен погрешен крај, смејте се заедно. Нивниот крај можеби е подобар.
 
-## How do I make a game easier or harder?
+## Како да ја направам играта полесна или потешка?
 
-Adjust the game to the person on the day, not to a stage label. The same person may need a simpler version in the evening than in the morning. The NIA's first tip is to match the activity to what the person can do and to make sure they feel successful.
+Прилагодете ја играта на лицето денес, а не на етикета за фаза. Истиот човек навечер може да му треба поедноставна верзија отколку наутро. Првиот совет на NIA е да се усогласи активноста со она што лицето може да го направи и да се погрижите тоа да се чувствува успешно.
 
-| Game | Make it easier | Make it a little harder |
+| Игра | Направете ја полесна | Направете ја малку потешка |
 | --- | --- | --- |
-| [Picture Pairs](/games/picture-pairs/) | Start with 4 tiles and leave pictures visible | More tiles, or hide pictures if that feels comfortable |
-| [Find the Same](/games/find-the-same/) | 2 choices | Up to 4 choices |
-| [Sort Together](/games/sort-together/) | You hold the picture, they point to the basket | They tap both picture and basket on their own |
-| [Picture Puzzle](/games/picture-puzzle/) | 4 pieces, talk about the whole picture first | 9 pieces |
-| [Finish the Saying](/games/finish-the-saying/) | Show the ending, then say it together | Let them say the ending before tapping |
-| [Word Search](/games/word-search/) | Print it, look for one word together, point to its first letter | Let them choose the next word to find |
-| [Coloring](/games/coloring/) | You pick two colors, they choose between them | They choose all the colors |
-| [Conversation Cards](/games/conversation-cards/) | Just look at the picture together | Use the open prompts on the card |
-| [Photo Pairs](/games/photo-pairs/) | A few well-loved family photos | Add more photos |
-| [Picture Bingo](/games/picture-bingo/) | A helper sits with each player | Players mark their own cards |
-| [Calm Breathing](/games/calm-breathing/) | Just sit and watch it together | Breathe along slowly |
+| [Парови слики](/games/picture-pairs/) | Почнете со 4 плочки и оставете ги сликите видливи | Повеќе плочки, или скријте ги сликите ако тоа е удобно |
+| [Најди исто](/games/find-the-same/) | 2 избори | До 4 избори |
+| [Сортирање заедно](/games/sort-together/) | Вие ја држите сликата, а тие покажуваат кон корпата | Тие сами допираат и слика и корпа |
+| [Сликовна слагалка](/games/picture-puzzle/) | 4 делови, прво зборувајте за целата слика | 9 делови |
+| [Заврши ја поговорката](/games/finish-the-saying/) | Покажете го крајот, па кажете го заедно | Нека самите го кажат крајот пред да допрете |
+| [Пребарување на зборови](/games/word-search/) | Испечатете ја, најдете еден збор заедно, покажете на првата буква | Нека сами го изберат следниот збор што треба да се најде |
+| [Бојадисување](/games/coloring/) | Вие избирате две бои, а тие бираат меѓу нив | Тие ги бираат сите бои |
+| [Картички за разговор](/games/conversation-cards/) | Само погледнете ја сликата заедно | Користете ги отворените прашања на картичката |
+| [Парови фотографии](/games/photo-pairs/) | Неколку добро познати семејни фотографии | Додајте повеќе фотографии |
+| [Бинго со слики](/games/picture-bingo/) | Помошник седи со секој играч | Играчите ги означуваат своите картички сами |
+| [Смирено дишење](/games/calm-breathing/) | Само седнете и гледајте го заедно | Дишете заедно полека |
 
-Signs the game is too hard: long pauses that look worried rather than thoughtful, repeated "I can't", pushing the device away, or mistakes that upset them. Signs it might be too easy: boredom, or them saying it is childish. If that happens, respect it and switch to something that feels grown-up, such as a word search, a puzzle of a real photograph, or talking about a picture of their old line of work.
+Знаци дека играта е премногу тешка: долги паузи што изгледаат загрижено, а не замислено, повторено „Не можам“, одгурнување на уредот или грешки што ги вознемируваат. Знаци дека можеби е премногу лесна: досада или кажување дека е детинска. Ако се случи тоа, почитувајте го и префрлете се на нешто што изгледа возрасно, како пребарување на зборови, слагалка од вистинска фотографија или разговор за слика од нивната стара работа.
 
-## How do I turn a game into a conversation?
+## Како да ја претворам играта во разговор?
 
-Use each picture as an invitation to talk, and treat whatever they say as a good answer. For many families, this is the best part of playing.
+Користете ја секоја слика како покана за разговор и третирајте го секој одговор како добар одговор. За многу семејства ова е најдобриот дел од играњето.
 
-- **Ask open, no-wrong-answer questions.** "What do you notice?" "Which one do you like?" "Tell me about a kitchen like this."
-- **Share first.** "My grandmother had a dog like this." Your story makes it easier for them to share one.
-- **Follow the tangent.** If a picture of a car leads to a story about a road trip, the story is the activity. Leave the game paused.
-- **Do not fact-check.** In reminiscence, a pleasant conversation matters more than accurate details. If the story changes from last time, enjoy the new version.
-- **Use the built-in prompts.** [Finish the Saying](/games/finish-the-saying/) follows each saying with a talking prompt, and [Conversation Cards](/games/conversation-cards/) are designed for exactly this. [Photo Pairs](/games/photo-pairs/) uses your own family photos, which often spark the richest stories.
+- **Поставувајте отворени прашања без погрешен одговор.** „Што забележувате?“ „Која ви се допаѓа?“ „Кажете ми за една кујна како оваа.“
+- **Прво споделете вие.** „Мојата баба имаше куче како ова.“ Вашата приказна им ја олеснува своја.
+- **Следете ја асоцијацијата.** Ако слика од автомобил води до приказна за патување, приказната е активноста. Оставете ја играта паузирана.
+- **Не проверувајте факти.** Во реминисценцијата, пријатниот разговор е поважен од точните детали. Ако приказната се промени во однос на минатиот пат, уживајте во новата верзија.
+- **Користете ги вградените потсетници.** [Заврши ја поговорката](/games/finish-the-saying/) по секоја поговорка дава потсетник за разговор, а [Картичките за разговор](/games/conversation-cards/) се дизајнирани токму за тоа. [Парови фотографии](/games/photo-pairs/) користат ваши семејни фотографии, кои често ги отвораат најбогатите приказни.
 
-More ideas are in our guides to [reminiscence activities](/activities/reminiscence/) and [communication tips](/caregiving/communication-tips/).
+Повеќе идеи има во нашиот водич за [активности за реминисценција](/activities/reminiscence/). За поддршка по дијагнозата, видете [први чекори по дијагнозата](/caregiving/after-dementia-diagnosis/).
 
-## When should we stop?
+## Кога да застанеме?
 
-Stop at the first signs of tiredness or upset, and ideally a little before. The Alzheimer's Association advises stopping or changing an activity when attention fades or frustration rises.
+Застанете при првите знаци на умор или вознемиреност, и идеално малку пред тоа. Alzheimer's Association советува да се прекине или да се смени активноста кога вниманието опаѓа или фрустрацијата расте.
 
-Watch for:
+Внимавајте на:
 
-- yawning, slumping or eyes drifting away from the screen;
-- fidgeting, standing up, or asking to leave;
-- sighing, short answers, or "I'm no good at this";
-- tapping randomly or pushing the device away;
-- tearfulness, irritation, or a sudden change in mood.
+- зевање, поклонување или поглед што исчезнува од екранот;
+- немирење, станување или барање да се оди;
+- воздишки, кратки одговори или „Јас не сум добар во ова“;
+- случајно допирање или одгурнување на уредот;
+- солзи, иритација или ненадејна промена на расположението.
 
-How to stop well:
+Како да застанете добро:
 
-- **End on something easy.** One last match they can make, or a final picture to admire.
-- **Make it about you.** "I could use a cup of tea. Shall we stop here?" avoids any hint that they did badly.
-- **Move to something physical or soothing.** A short walk, a snack, folding laundry or music.
-- **Say something warm.** "I liked doing that with you." No praise for "getting it right", just pleasure in the time together.
+- **Завршете со нешто лесно.** Еден последен пар што можат да го направат или една последна слика за гледање.
+- **Нека биде за вас.** „Би пиел чај. Ајде да застанеме овде?“ ја избегнува секоја назнака дека се снајдовле лошо.
+- **Преминете на нешто физичко или смирувачко.** Кратка прошетка, грицкалка, преклопување алишта или музика.
+- **Кажете нешто топло.** „Убаво ми беше да го правам тоа со вас.“ Без пофалби за „точно решавање“, само радост за заедничкото време.
 
-Ending early, changing plans, or giving up on the game and just sitting together are all good outcomes.
+Раниот прекин, промената на плановите, напуштањето на играта и едноставното седење заедно се сите добри исходи.
 
-## Can we play in a group or over a video call?
+## Можеме ли да играме во група или преку видеоповик?
 
-Yes, with a little extra setup. In a group, keep it to a few people, seat helpers next to anyone who needs them, and choose a game with a clear shared focus. [Picture Bingo](/games/picture-bingo/) has printable cards and an on-screen caller for groups. See [activities for care home groups](/activities/care-home-groups/) for more.
+Да, со малку дополнителна подготовка. Во група, држете ја групата на неколку луѓе, поставете помошници покрај секој што има потреба од тоа, и изберете игра со јасен заеднички фокус. [Бинго со слики](/games/picture-bingo/) има картички за печатење и повикувач на екранот за групи. За повеќе видете [активности за групи во домови за згрижување](/crafts/craft-group-sessions/).
 
-Over a video call, the person on the call can describe a picture while someone in the room points and taps. Keep calls short and familiar. Our guide to [phone and video calls](/activities/phone-and-video-calls/) has more tips.
+Преку видеоповик, лицето на повикот може да опише слика додека некој во просторијата покажува и допира. Одржувајте ги повиците кратки и познати. Нашиот водич за [телефонски и видеоповици](/together/staying-connected-from-afar/) содржи повеќе совети.
 
-## What if a game just isn't working?
+## Што ако играта едноставно не функционира?
 
-Some days nothing lands, and that is not a reflection on you or on them. Put the game away and try another time of day, a different game, or no game at all. Many good activities have nothing to do with screens: music, folding towels, looking through a photo album, or a short walk. Browse our [activity ideas](/activities/ideas/) for more.
+Некои денови ништо не успева и тоа не е одраз врз вас или врз лицето. Ставете ја играта настрана и обидете се во друг период од денот, со друга игра или без игра воопшто. Многу добри активности немаат никаква врска со екраните: музика, преклопување крпи, гледање албум со фотографии или кратка прошетка. Разгледајте ги нашите [идеи за активности](/activities/ideas/) за повеќе.
