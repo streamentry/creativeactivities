@@ -34,7 +34,8 @@
     "translations:queue": "node scripts/translation-queue.mjs",
     "metrics:content": "node scripts/content-metrics.mjs",
     "content:bundle": "node scripts/content-bundle.mjs",
-    "content:diff": "node scripts/content-diff.mjs"
+    "content:diff": "node scripts/content-diff.mjs",
+    "audit:cards": "node scripts/card-audit.mjs"
   },
   "dependencies": {
     "@astrojs/react": "7.1.0",
