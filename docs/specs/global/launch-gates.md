@@ -11,7 +11,7 @@ from `HELD_FROM_INDEX` in `site/src/i18n/locales.ts`.
 The spend gate for every language is a maintainer decision (day-30 rule, L10N-002). No
 review budget is committed beyond it without that decision.
 
-Summary: app strings complete 50 of 50; website UI complete 14 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
+Summary: app strings complete 50 of 50; website UI complete 18 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
 
 <!-- cspell:disable -->
 
@@ -20,12 +20,12 @@ Summary: app strings complete 50 of 50; website UI complete 14 of 50; store list
 | 1 | Spanish | `es` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 2 | Vietnamese | `vi` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 3 | Japanese | `ja` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 4 | Chinese (Traditional) | `zh-Hant` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 4 | Chinese (Traditional) | `zh-Hant` | yes | yes | yes | no | no | yes | maintainer decision |
 | 5 | German | `de` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 6 | French | `fr` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 7 | Korean | `ko` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 8 | Chinese (Simplified) | `zh-Hans` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 9 | Portuguese (Brazil) | `pt-BR` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 8 | Chinese (Simplified) | `zh-Hans` | yes | yes | yes | no | no | yes | maintainer decision |
+| 9 | Portuguese (Brazil) | `pt-BR` | yes | yes | yes | no | no | yes | maintainer decision |
 | 10 | Italian | `it` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 11 | Arabic | `ar` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 12 | Russian | `ru` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
@@ -42,7 +42,7 @@ Summary: app strings complete 50 of 50; website UI complete 14 of 50; store list
 | 23 | Telugu | `te` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 24 | Swahili | `sw` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 25 | Punjabi (Gurmukhi) | `pa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 26 | Filipino | `fil` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 26 | Filipino | `fil` | yes | yes | yes | no | no | yes | maintainer decision |
 | 27 | Tamil | `ta` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 28 | Persian | `fa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 29 | Gujarati | `gu` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
