@@ -548,6 +548,36 @@ def unsafe_number_additions(source: str, translated: str) -> bool:
     return not source_emergency or len(translated_emergency) > len(source_emergency)
 
 
+_SCRIPTS = ('HEBREW', 'ARABIC', 'CYRILLIC', 'GREEK', 'DEVANAGARI', 'BENGALI', 'GURMUKHI', 'GUJARATI', 'ORIYA', 'TAMIL', 'TELUGU',
+            'KANNADA', 'MALAYALAM', 'SINHALA', 'THAI', 'LAO', 'TIBETAN', 'MYANMAR', 'GEORGIAN', 'ARMENIAN', 'ETHIOPIC', 'KHMER',
+            'THAANA', 'SYRIAC')
+
+
+def _script(ch: str) -> str | None:
+    import unicodedata
+    if not unicodedata.category(ch).startswith('L'):
+        return None
+    if ch.isascii():
+        return 'ascii'
+    name = unicodedata.name(ch, '')
+    return next((s for s in _SCRIPTS if name.startswith(s)), None)
+
+
+def mixed_script_words(src: str, out: str) -> list[str]:
+    """Words where ASCII letters touch letters of another script ("праверanыя", "פastel", the Cyrillic
+    "а" in "Tacа"): a model slipping between alphabets. An English word from the source with a native
+    suffix attached ("Medicineలో") is allowed."""
+    english = {w.lower() for w in re.findall(r'[A-Za-z]+', src)}
+    text = re.sub(r'https?://\S+', '', re.sub(r'\]\([^)]*\)', ']', out))
+    bad = []
+    for word in re.findall(r'\S+', text):
+        kinds = [_script(c) for c in word]
+        touching = any('ascii' in (a, b) and a != b and None not in (a, b) for a, b in zip(kinds, kinds[1:]))
+        if touching and any(run.lower() not in english for run in re.findall(r'[A-Za-z]+', word)):
+            bad.append(word)
+    return bad
+
+
 def frontmatter_prose(fm: dict) -> str:
     """The translated words in a guide's frontmatter (titles, summary, key points, FAQ),
     the same fields the site's structure test reads numbers from."""
@@ -591,6 +621,9 @@ def guide_problems(src: str, out: str) -> str:
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
+    mixed = mixed_script_words(src, out)
+    if mixed:
+        errs.append(f'letters from two alphabets in one word (retype in one script): {" ".join(mixed[:8])}')
     errs += structure_mismatches(src, out)
     return '; '.join(dict.fromkeys(errs))
 
