@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { PICTURES, pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -35,6 +35,12 @@ type View = 'showing' | 'hidden';
 const DEFAULT_VIEW: View = 'showing';
 
 const newBoard = (cards: CardCount): FindState => deal(cards, PICTURE_IDS, createRng(randomSeed()));
+/**
+ * The board in the built page and in the first render in the browser: the same fixed deal in both, so
+ * hydration matches and two builds give the same page (PLAT-013). A random board replaces it on load.
+ */
+const FIRST_BOARD_SEED = 1;
+const firstBoard = (cards: CardCount): FindState => deal(cards, PICTURE_IDS, createRng(FIRST_BOARD_SEED));
 
 /**
  * Find together (GAME-047): two people share one screen. Each turn, the person whose
@@ -48,7 +54,7 @@ export default function FindTogether(props: PlayProps) {
   const wide = useWide();
   const [cards, setCards] = useState<CardCount>(DEFAULT_CARD_COUNT);
   const [view, setView] = useState<View>(DEFAULT_VIEW);
-  const [game, setGame] = useState<FindState>(() => newBoard(DEFAULT_CARD_COUNT));
+  const [game, setGame] = useState<FindState>(() => firstBoard(DEFAULT_CARD_COUNT));
   // Taps can arrive faster than the page redraws, so every tap starts from the latest board kept here.
   const latest = useRef(game);
   const [message, setMessage] = useState('');
@@ -58,6 +64,12 @@ export default function FindTogether(props: PlayProps) {
     latest.current = next;
     setGame(next);
   };
+
+  // Every visit starts with a new board, dealt after the page loads.
+  useEffect(() => {
+    commit(newBoard(DEFAULT_CARD_COUNT));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const personName = (p: Person) => ui.findTogether.people[p] ?? '';
 

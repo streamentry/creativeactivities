@@ -11,6 +11,10 @@ const t = props.ui.findTogether;
 const source = readFileSync(new URL('./FindTogether.tsx', import.meta.url), 'utf8');
 
 describe('FindTogether', () => {
+  it('renders the same built page every time, so hydration matches and builds are reproducible (PLAT-013)', () => {
+    expect(render()).toBe(render());
+  });
+
   it('starts with the guidance, the turn, the tally, six face-down cards, and Rest', () => {
     const html = render();
 

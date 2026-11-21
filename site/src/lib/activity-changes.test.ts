@@ -69,7 +69,7 @@ describe('recent changes', () => {
   });
 });
 
-describe('changes on the 53 cards', () => {
+describe('changes on the 56 cards', () => {
   it('lists every card with changes in date order', () => {
     for (const file of files) {
       const changes = changesOnDisk(frontmatter(readFileSync(new URL(file, dir), 'utf8')));

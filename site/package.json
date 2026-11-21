@@ -21,6 +21,8 @@
     "check:a11y": "node scripts/a11y-check.mjs",
     "check:browsers": "node scripts/check-browsers.mjs",
     "check:group": "node scripts/check-group-stage.mjs",
+    "check:determinism": "node scripts/check-determinism.mjs",
+    "build:baseline": "node scripts/build-baseline.mjs",
     "check:live": "node scripts/verify-live-legal.mjs",
     "review:queue": "node scripts/review-queue.mjs",
     "review:plain": "node scripts/plain-language.mjs",
