@@ -39,6 +39,13 @@ const WEEKLY_PROGRAM_PAGES = 1;
 const PATH_WEEKLY_PLAN_SHEETS = 5;
 /** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
 const PROFESSIONALS_HANDOUT_PAGES = 1;
+/**
+ * Translated pages (WEB-043, PLAT-039), printed right to left with the navigation hidden. No translated activity card exists
+ * yet, so the Arabic guide and the Arabic hub take the limits they printed on when they were last read (2026-11-21), as the
+ * other templates do. They are not the two-sided card rule: a guide and a hub are not cards.
+ */
+const TRANSLATED_GUIDE_PAGES = 6;
+const TRANSLATED_HUB_PAGES = 7;
 /** CNT-014 (adult variant): the care-settings page has three staff summaries, a family note and a permission template. */
 const CARE_SHEETS = 5;
 /**
@@ -281,6 +288,27 @@ async function careSheets(context, base, failures, record) {
 }
 const CARE_SHEET_PAGES = 1;
 
+/**
+ * A translated page prints right to left (the document's dir is rtl, so the page is checked as Arabic), with the site
+ * navigation hidden, on each paper size within its limit (WEB-043).
+ */
+async function translatedPage(context, base, failures, record, type, label, url, maxPages) {
+  const page = await context.newPage();
+  await page.goto(`${base}${url}`, { waitUntil: 'networkidle' });
+  const dir = await page.evaluate(() => document.documentElement.dir);
+  await page.emulateMedia({ media: 'print' });
+  const hidden = await page.evaluate(() => {
+    const header = document.querySelector('.site-header');
+    return !!header && getComputedStyle(header).display === 'none';
+  });
+  const counts = await printedPages(page);
+  const ok = dir === 'rtl' && hidden && FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages);
+  if (!ok) failures.push({ slug: `${type}: ${label}`, dir, hidden, counts, maxPages });
+  record(type, ok);
+  console.log(`${type}: ${label.padEnd(36)} dir ${dir}  navigation hidden ${hidden ? 'yes' : 'NO'}  A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}  ${ok ? 'ok' : 'FAIL'}`);
+  await page.close();
+}
+
 async function main() {
   if (!existsSync(join(DIST, 'index.html'))) {
     console.error('dist/ is missing. Run `pnpm build` first.');
@@ -460,6 +488,8 @@ async function main() {
     }
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
     await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
+    await translatedPage(context, base, failures, record, 'translated guide', 'ar: after a dementia diagnosis', '/ar/caregiving/after-dementia-diagnosis/', TRANSLATED_GUIDE_PAGES);
+    await translatedPage(context, base, failures, record, 'translated hub', 'ar: activities', '/ar/activities/', TRANSLATED_HUB_PAGES);
     await careSheets(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
