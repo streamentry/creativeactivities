@@ -42,7 +42,7 @@ export const PRINT_LABELS: Readonly<Record<string, string>> = {
   fabric: 'Fabric, felt or a clean cloth',
   towels: 'Towels or old cloths',
   'plastic-cloth': 'A plastic tablecloth',
-  beads: 'Large beads',
+  beads: 'Large beads, not seed beads',
   'elastic-cord': 'Stretchy bead cord',
   'bowls-plates': 'Bowls, plates or a muffin tin',
   'cups-jars': 'Cups, jars or mugs',
