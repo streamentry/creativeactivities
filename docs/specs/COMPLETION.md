@@ -488,7 +488,7 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 
 | Change | Items | Evidence |
 | --- | --- | --- |
-| Website CSS uses logical properties for reading direction, with a lint test; user-visible casing follows the page language | L10N-016, L10N-017 partial | Built by a Haiku subagent; the Turkish test failed first. Review restored one physical value: the washi tape is centered with `left: 50%` and a transform, which a logical start value would push off center on a right-to-left page |
+| Website CSS uses logical properties for reading direction, with a lint test; user-visible casing follows the page language | L10N-016, L10N-017 partial | Built by a Haiku subagent; the Turkish test failed first. Review restored one physical value: the decorative tape strip is centered with `left: 50%` and a transform, which a logical start value would push off center on a right-to-left page |
 | `scripts/l10n_inventory.py` and [language-inventory.md](global/language-inventory.md): keys and files per language and surface, review status, placeholders | L10N-001 partial | Built by a Haiku subagent; 190 codes; 103 placeholder strings, all from the re-translation in #112 |
 | `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
 | `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |

@@ -20,6 +20,8 @@ Native review is recorded only in the review columns.
 - **Missing keys**: App + Site UI + Games + Play keys absent from the language, summed. A missing file counts as all of its keys. Guides and store are shown separately.
 - **Placeholders app/ui/games/play/store**: string values that contain " ... " or end in "...", per surface. Guides are not counted because they are Markdown prose.
 
+<!-- cspell:disable -->
+
 | Code | Language | App keys | Store listing | Site UI keys | Games keys | Play keys | Guides | App review | Site review | Reviewer | Missing keys | Placeholders app/ui/games/play/store |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | aa | Afar | no file (0/455) | no | 452/485 (93%) | 517/858 (60%) | 544/1500 (36%) | 84/116 (72%) | not listed | none recorded |  | 1785 | 0/0/26/0/0 |
@@ -212,3 +214,5 @@ Native review is recorded only in the review columns.
 | zh-Hans | Chinese (Simplified) | 455/455 (100%) | yes | 356/485 (73%) | 255/858 (30%) | 803/1500 (54%) | 43/116 (37%) | unreviewed | none recorded |  | 1429 | 0/0/0/0/0 |
 | zh-Hant | Chinese (Traditional) | 455/455 (100%) | yes | 356/485 (73%) | 255/858 (30%) | 818/1500 (55%) | 43/116 (37%) | unreviewed | none recorded |  | 1414 | 0/0/0/0/0 |
 | zu | Zulu | 455/455 (100%) | yes | 356/485 (73%) | 255/858 (30%) | 498/1500 (33%) | 43/116 (37%) | unreviewed | none recorded |  | 1734 | 0/0/0/0/0 |
+
+<!-- cspell:enable -->

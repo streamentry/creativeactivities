@@ -321,7 +321,11 @@ Native review is recorded only in the review columns.
 - **Missing keys**: App + Site UI + Games + Play keys absent from the language, summed. A missing file counts as all of its keys. Guides and store are shown separately.
 - **Placeholders app/ui/games/play/store**: string values that contain " ... " or end in "...", per surface. Guides are not counted because they are Markdown prose.
 
+<!-- cspell:disable -->
+
 {table}
+
+<!-- cspell:enable -->
 """
 
 
