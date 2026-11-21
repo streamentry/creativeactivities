@@ -23,7 +23,7 @@
 - A dementia care-advice guide (bathing, money, medication) → `/caregiving/after-dementia-diagnosis/`, which points to trusted organizations, or to a new page where one fits (self-care, visiting, late afternoon).
 - No redirect points to another retired page (tested).
 
-**Translations:** retired guides keep their Markdown files, so the translated versions (about 130 languages) stay live and listed in their language's section pages. Only the English page is replaced. Translated pages no longer list an English alternate for a retired guide. To remove the translations later, delete the retired English files and their `guides-i18n` copies together; the redirects stay.
+**Translations (retired 2026-11-21):** once every language had its new guides, the old translated dementia guides were removed too: 10,352 translated pages in 189 language folders, plus the 74 retired English files. Each old address still works: `src/pages/[lang]/[section]/[slug].astro` builds a small redirect page for it (meta refresh, canonical, `noindex`), listed in `src/i18n/retired-translations.json`. It goes to the replacement guide in the same language when that translation exists, to a games page in the same language, and otherwise to the English page (`src/lib/retired-redirects.ts`). The retired `brain-health` section index does the same in every language. Static `_redirects` rules could not do this: there are over 10,000 addresses (Cloudflare allows 2,000), and a wildcard rule would send readers of English-guide languages to pages that do not exist.
 
 **Links:** every reference to a retired guide (related guides, hub and card guide lists) resolves to its new page at build time (`resolveGuide` in `site/src/i18n/guides.ts`).
 

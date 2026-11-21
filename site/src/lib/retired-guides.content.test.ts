@@ -1,4 +1,4 @@
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { RETIRED_GUIDES, RETIRED_SECTIONS, guideIdOfPath, isRetiredGuide } from './retired-guides';
 
@@ -18,8 +18,12 @@ function pageExists(path: string): boolean {
 }
 
 describe('retired guides map (content)', () => {
-  it('only retires guides that exist, so their translations stay valid', () => {
-    for (const id of Object.keys(RETIRED_GUIDES)) expect(existsSync(content(`guides/${id}.md`)), id).toBe(true);
+  it('keeps no file for a retired guide, in English or any language (their addresses redirect)', () => {
+    const left = Object.keys(RETIRED_GUIDES).flatMap((id) => [
+      ...(existsSync(content(`guides/${id}.md`)) ? [`en/${id}`] : []),
+      ...readdirSync(content('guides-i18n')).filter((dir) => existsSync(content(`guides-i18n/${dir}/${id}.md`))).map((dir) => `${dir}/${id}`),
+    ]);
+    expect(left).toEqual([]);
   });
 
   it('sends every retired address to a page that exists', () => {

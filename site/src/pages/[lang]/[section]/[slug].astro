@@ -1,19 +1,41 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import GuideView from '../../../views/GuideView.astro';
+import RetiredRedirect from '../../../components/RetiredRedirect.astro';
 import { allGuides, type LocalGuide } from '../../../i18n/guides';
-import { localeInfo } from '../../../i18n/locales';
+import { localeInfo, localeOfContentDir } from '../../../i18n/locales';
+import { TRANSLATED } from '../../../i18n/ui';
+import { retiredTarget } from '../../../lib/retired-redirects';
+import retiredTranslations from '../../../i18n/retired-translations.json';
 
 export const getStaticPaths = (async () => {
-  const guides = (await allGuides()).filter((g) => g.lang !== 'en');
-  return guides.map((guide) => {
-    const [section, slug] = guide.id.split('/');
-    return { params: { lang: localeInfo(guide.lang).prefix, section, slug }, props: { guide } };
+  const all = await allGuides();
+  const guides = all.filter((g) => g.lang !== 'en');
+  const live = new Set(all.map((g) => `${g.lang}:${g.id}`));
+  const published = new Set(TRANSLATED.map((l) => l.code));
+  // Old translated dementia guides: each address becomes a redirect page (lib/retired-redirects.ts).
+  const retired = Object.entries(retiredTranslations as Record<string, string[]>).flatMap(([dir, ids]) => {
+    const lang = localeOfContentDir(dir);
+    if (!lang || !published.has(lang)) return [];
+    return ids.map((id) => {
+      const [section, slug] = id.split('/');
+      const to = retiredTarget(lang, id, (l, target) => live.has(`${l}:${target}`));
+      return { params: { lang: localeInfo(lang).prefix, section, slug }, props: { redirect: { to, lang } } };
+    });
   });
+  return [
+    ...guides.map((guide) => {
+      const [section, slug] = guide.id.split('/');
+      return { params: { lang: localeInfo(guide.lang).prefix, section, slug }, props: { guide } };
+    }),
+    ...retired,
+  ];
 }) satisfies GetStaticPaths;
 
 interface Props {
-  guide: LocalGuide;
+  guide?: LocalGuide;
+  redirect?: { to: string; lang: string };
 }
+const { guide, redirect } = Astro.props;
 ---
-<GuideView guide={Astro.props.guide} />
+{redirect ? <RetiredRedirect to={redirect.to} lang={redirect.lang} /> : <GuideView guide={guide as LocalGuide} />}

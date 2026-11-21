@@ -48,14 +48,13 @@ export async function sitemapEntries(): Promise<SitemapEntry[]> {
       langs: ['en'],
     })),
     ...PACKS.map((p) => ({ path: `/activity/packs/${p.id}/`, lastmod: SITE.updated, langs: ['en'] })),
-    // A retired section has no English page, but its translations stay live.
-    ...SECTIONS.map((s) => ({
+    // A retired section has no page in any language (its addresses redirect).
+    ...SECTIONS.filter((s) => !isRetiredSection(s)).map((s) => ({
       path: `/${s}/`,
       lastmod: SITE.updated,
-      langs: isRetiredSection(s) ? EVERY.filter((code) => code !== 'en') : EVERY,
+      langs: EVERY,
     })),
-    // Every English guide, retired ones included: a retired guide has no English page,
-    // but its live translations are still listed (see allGuides).
+    // Every live English guide (retired guides' files are removed; their addresses redirect).
     ...(await getCollection('guides')).map((entry) => ({
       path: `/${entry.id}/`,
       lastmod: entry.data.updated.toISOString().slice(0, 10),

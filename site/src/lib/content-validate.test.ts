@@ -65,7 +65,7 @@ const RECORDS = [
   },
   {
     type: 'translated guide',
-    path: 'src/content/guides-i18n/sl/brain-health/sleep.md',
+    path: 'src/content/guides-i18n/sl/activities/reminiscence.md',
     broken: ['translatedFrom: 2026-10-25', 'translatedFrom: someday'],
     field: 'translatedFrom',
   },

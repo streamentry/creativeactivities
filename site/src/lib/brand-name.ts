@@ -105,34 +105,8 @@ export function scanFiles(repoRoot: string, files: string[]): Map<string, BrandH
 const STORE_HISTORY =
   'Store-copy history note: it names the old brand only to say what the older description was, before the 2026-11-13 rename. The older text stays in git history.';
 
-const TRANSLATED_GUIDE_LINE_BREAK =
-  'Translated copy in a summary: the old name is split across a line break ("Golden" then "Moments"). A translated product name needs a native reviewer (L10N-008, native review). Not edited.';
-
 const WORKER_REDIRECT =
   'Redirect or Worker configuration for the old domain (dementiaactivities.games). Needed while that host redirects or serves its own site; not copy.';
-
-/** Translated guides whose summary keeps the old name, one hit each (see the Golden/Moments split above). */
-const TRANSLATED_GUIDE_HITS: AllowedHits[] = [
-  ['an', 'activities/finish-the-saying.md'],
-  ['co', 'activities/online-games.md'],
-  ['cu', 'activities/online-games.md'],
-  ['ee', 'activities/finish-the-saying.md'],
-  ['es', 'activities/finish-the-saying.md'],
-  ['fi', 'activities/finish-the-saying.md'],
-  ['fr', 'activities/finish-the-saying.md'],
-  ['id', 'activities/online-games.md'],
-  ['it', 'activities/online-games.md'],
-  ['jv', 'activities/online-games.md'],
-  ['ms', 'activities/online-games.md'],
-  ['nl', 'activities/finish-the-saying.md'],
-  ['tw', 'activities/finish-the-saying.md'],
-  ['uk', 'activities/finish-the-saying.md'],
-].map(([locale, page]) => ({
-  file: `site/src/content/guides-i18n/${locale}/${page}`,
-  hits: 1,
-  kind: 'native-review' as const,
-  reason: TRANSLATED_GUIDE_LINE_BREAK,
-}));
 
 const STORE_DESCRIPTION_FILES = [
   'README', 'ar', 'de', 'es', 'fr', 'hi', 'it', 'ja', 'ko', 'nl', 'no', 'pt', 'ru', 'sv', 'vi', 'zh-cn', 'zh-tw',
@@ -145,14 +119,6 @@ export const BRAND_ALLOWLIST: AllowedHits[] = [
     kind: 'record' as const,
     reason: STORE_HISTORY,
   })),
-  ...TRANSLATED_GUIDE_HITS,
-  {
-    file: 'site/src/i18n/ui/ff.json',
-    hits: 1,
-    kind: 'native-review',
-    reason:
-      'Fula default image alt text still uses the old name, reversed ("Moments Golden"). A translated product name needs a native reviewer. Not edited.',
-  },
   {
     file: 'site/src/lib/site.ts',
     hits: 1,

@@ -42,6 +42,6 @@ describe('library inventory (CNT-040)', () => {
     expect(t['activity:published']).toBe(56);
     expect(t['hub:published']).toBe(7);
     expect(t['hub:noindex']).toBe(7);
-    expect(Object.values(t).reduce((a, b) => a + b, 0)).toBe(186);
+    expect(Object.values(t).reduce((a, b) => a + b, 0)).toBe(112);
   });
 });
