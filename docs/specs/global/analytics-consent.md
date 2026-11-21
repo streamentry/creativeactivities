@@ -64,3 +64,5 @@ The two Google tag settings were published as container version 2 ("Privacy: aut
 
 - The consent words exist in English only; other languages show the English text until their dictionaries are translated and reviewed (L10N rules).
 - Counsel should confirm the wording is sufficient for consent where it is required (UK, EU and some US states).
+
+<!-- cspell:ignore SFMN -->
