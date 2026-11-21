@@ -29,11 +29,11 @@ author: Creative Activities editorial team
 sources: []
 ---
 
-Seasons give a gentle shape to the year. A pot of seeds in spring, a jar of flowers in summer, a leaf rubbing in autumn or a window picture on a grey winter day can each be a small reason to make something together.
+Seasons give a gentle shape to the year. Seeds in spring, flowers in summer, leaf rubbings in autumn or a window picture in winter can each be a small reason to make something together.
 
 ## How do you choose a celebration without assuming one?
 
-Ask, and offer a few choices: "Is there a day coming up you would like to make something for?" A festival from the person's own tradition, a family birthday, a new year or nothing at all are all good answers. Let the person decide what a decoration looks like and what it means. Do not turn something sacred to them into a craft without asking.
+Ask, and offer a few choices: is there a day coming up you would like to make something for? A festival from the person's own tradition, a family birthday, a new year or nothing at all are all good answers. Let the person decide what a decoration looks like and what it means. Do not turn something sacred to them into a craft without asking.
 
 ## Which activities suit which time of year?
 

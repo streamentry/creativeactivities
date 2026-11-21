@@ -3063,6 +3063,7 @@
 }
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
+/* Fixed black and white on purpose: a request for more contrast applies in every theme. */
 @media (prefers-contrast: more) {
   .pm__square {
     border: 3px solid #000000;
@@ -3642,7 +3643,7 @@
   border: 2px dashed var(--gm-outline);
   border-radius: var(--radius-md);
   background: var(--gm-print-white);
-  color: #000;
+  color: var(--gm-on-print);
 }
 .toss__target {
   inline-size: min(100%, 14rem);
@@ -4333,7 +4334,7 @@
   font-size: var(--text-md);
 }
 
-/* Seasonal puzzle pack (GAME-040): a season choice, a rest day, and a preview of the three paper puzzles. */
+/* Seasonal puzzle pack (GAME-040): a month choice, a rest day, and a preview of the three paper puzzles. */
 .seasonal {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -4342,8 +4343,8 @@
   margin-inline: auto;
 }
 .seasonal__seasons {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr));
   gap: var(--space-sm);
   margin: 0;
   padding: 0;
@@ -4383,7 +4384,7 @@
   margin: 0;
   accent-color: var(--gm-on-surface);
 }
-.seasonal__when,
+.seasonal__note,
 .seasonal__rest-line {
   margin: 0;
   font-size: var(--text-md);
@@ -4447,17 +4448,17 @@
 }
 
 @media print {
-  .sheet-paper__season[hidden] {
+  .sheet-paper__month[hidden] {
     display: none !important;
   }
-  .sheet-paper__season {
+  .sheet-paper__month {
     color: #000;
   }
-  .sheet-paper__season h3 {
+  .sheet-paper__month h3 {
     margin: 0 0 1mm;
     font-size: 16pt;
   }
-  .sheet-paper__season h4 {
+  .sheet-paper__month h4 {
     margin: 2mm 0 0.5mm;
     font-size: 12pt;
   }

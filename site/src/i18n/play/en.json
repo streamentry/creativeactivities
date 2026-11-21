@@ -136,15 +136,10 @@
       "print": "Print the target and tally sheet"
     },
     "seasonalPack": {
-    "guidance": "Choose a season, print its three paper puzzles, then do one, two or all three together.",
-    "seasonLegend": "Choose a season",
-    "seasons": {
-      "spring": "Spring",
-      "summer": "Summer",
-      "autumn": "Autumn",
-      "winter": "Winter"
-    },
-    "whenLabel": "When it usually runs",
+    "guidance": "Choose a month, print its three paper puzzles, then do one, two or all three together.",
+    "monthLegend": "Choose a month",
+    "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "monthNote": "Each month has its own pictures. The page opens on this month, and you can choose any other.",
     "restDay": "Today is a rest day",
     "restLine": "No puzzles today. A rest day is a good day too.",
     "previewHeading": "The three puzzles",
@@ -165,7 +160,7 @@
         "describe": "One large picture to color in."
       }
     },
-    "print": "Print this season's pack",
+    "print": "Print this month's pack",
     "sheetHow": "Print one page. Do one, two or all three puzzles, in any order.",
     "printFooter": "Do one, two or all three. Stop whenever you like."
   },

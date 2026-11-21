@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
   CONSENT_KEY,
@@ -115,5 +116,17 @@ describe('Global Privacy Control (PLAT-026)', () => {
   it('does not ask the question when the signal already answers it', () => {
     expect(showConsentChoice(null, true)).toBe(false);
     expect(showConsentChoice(null, false)).toBe(true);
+  });
+});
+
+describe('consent bar shown before the first paint (no layout shift)', () => {
+  const init = readFileSync(new URL('../../public/theme-init.js', import.meta.url), 'utf8');
+  it('reads the same storage key as the consent module', () => {
+    expect(init).toContain(`'${CONSENT_KEY}'`);
+  });
+  it('applies the same rule as showConsentChoice: no stored answer and no Global Privacy Control', () => {
+    expect(init).toContain('navigator.globalPrivacyControl === true');
+    expect(init).toMatch(/answer !== 'granted' && answer !== 'denied'/);
+    expect(init).toContain("setAttribute('data-consent-ask', '')");
   });
 });

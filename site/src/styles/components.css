@@ -792,6 +792,7 @@ summary {
 }
 
 /* High contrast preferences: support for users with cataract, macular or cognitive contrast loss */
+/* Fixed black and white on purpose: a request for more contrast applies in every theme. */
 @media (prefers-contrast: more) {
   :root {
     --gm-outline: #222222;

@@ -27,11 +27,11 @@ author: Creative Activities editorial team
 sources: []
 ---
 
-This hub is for the afternoons when the person can get up and go outside, or when a standing job or a shared table suits them better than a quiet task alone. The cards were chosen for that, so they are not a list of things to do in bed or a chair. If the person is staying in bed, the [bedside activities](/bedside-activities/) hub is the right place to start.
+This hub is for afternoons when the person can get up and go outside, or when a standing job or shared table suits them better than a quiet task. The cards were chosen for that, so they are not a list of things to do in bed or a chair. If the person is staying in bed, the [bedside activities](/bedside-activities/) hub is the right place to start.
 
 ## Which situation is this for?
 
-Use this list when the person has enough energy to move about, even slowly, and enjoys being somewhere other than indoors. It also suits people who like a job to do on their feet, such as folding or watering, and families who want a project to share over a few visits.
+Use this list when the person has enough energy to move about, even slowly, and enjoys being somewhere other than indoors. It also suits people who like a job on their feet, such as folding or watering, and families who want a project over a few visits.
 
 - **Outdoor time.** Gardens, patios and a sheltered window box. Plant, print, paint or hang something where the weather and the light are good.
 - **A job to stand for.** Short standing tasks with a clear end, such as a stack of towels.

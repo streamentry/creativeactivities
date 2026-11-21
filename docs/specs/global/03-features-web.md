@@ -1321,6 +1321,8 @@ Risks / not doing: Stock images without a release for people. Use only images wi
 
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Status note (2026-11-21): lab timing per template is measured by `pnpm check:lab-timing` (PLAT-036). Bytes are budgeted in CI (`check-budget`); Core Web Vitals field data after launch is open.
+
 Evidence: `site/scripts/check-budget.mjs` (`pnpm check:budget`, also in `pnpm verify`): 0 of 15,728 built pages are over the budgets in `rules/web/performance.md`. The 404 page loaded a 2.6 MB script and now loads the locale codes only. Image budget, Lighthouse in CI and field data are still open.
 
 Why: Core Web Vitals targets are LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 at the 75th percentile ([DESIGN §7](../../../DESIGN.md); the web performance rules). Low-speed connections are a named requirement.

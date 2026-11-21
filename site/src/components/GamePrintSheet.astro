@@ -257,10 +257,9 @@ const cardLines = messageLineYs();
   {
     sheet.layout === 'seasonal' && seasonal && (
       <>
-        {sheet.seasons.map((pack) => (
-          <div class="sheet-paper__season" data-season-pack={pack.season} hidden={pack.season !== sheet.defaultSeason}>
-            <h3>{seasonal.seasons[pack.season]}</h3>
-            <p class="sheet-paper__when">{pack.months}</p>
+        {sheet.months.map((pack) => (
+          <div class="sheet-paper__month" data-month-pack={pack.month} hidden={pack.month !== sheet.defaultMonth}>
+            <h3>{seasonal.months[pack.month]}</h3>
             <section class="sheet-paper__puzzle-block">
               <h4>{seasonal.puzzles.pairs.title}</h4>
               <p class="sheet-paper__how">{seasonal.puzzles.pairs.how}</p>

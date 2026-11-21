@@ -30,7 +30,7 @@ sources: []
 
 Bedside activities are for the days when getting up is hard, or not safe. The goal is company and something to look at together, not a finished piece. Keep the materials on a lap tray, keep the session short and let the person decide what happens next.
 
-If the person can sit up at a table or in a chair, the [seated activities](/seated-activities/) hub covers work set up for sitting, while this hub covers work for someone who stays in bed.
+If the person can sit up at a table or in a chair, the [seated activities](/seated-activities/) hub covers that work, while this hub covers work for someone in bed.
 
 ## How should you set up the bed or chair first?
 

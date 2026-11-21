@@ -28,7 +28,7 @@ senses: [sight, touch, movement]
 steps:
   - "Cover the table with a plastic cloth, then tape the large paper flat over it at all four corners."
   - "Set out the paints, brushes and water cups so everyone can reach them."
-  - "Ask each person what they would like to begin with, such as a sky, a shape, a line or a color. Any choice is fine."
+  - "Ask each person what to begin with, such as a sky, a shape, a line or a color. Any choice is fine."
   - "Let everyone make a first mark anywhere on the paper."
   - "Take turns adding one mark or shape at a time, and pause to look at the whole picture between turns."
   - "Rinse the brush in the water cup before changing color."
@@ -93,8 +93,8 @@ stopNote: "It is fine to stop after one mark. Leave the picture where it is, and
 guides: [crafts/easy-crafts-for-adults, crafts/craft-group-sessions, activities/group-art-activities]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-with-watercolors]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -103,6 +103,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 
