@@ -55,7 +55,9 @@ export function pageFacts(kind, id, frontmatter) {
     hasReviewRecord: review.trim().length > 0,
     reviewDate,
     updated,
-    checked: reviewDate ?? updated ?? published,
+    // Only a review record sets the review date. An edit (`updated`) or the first publication does not: a page with no
+    // review is never reviewed, and reporting it as checked on its last edit would reset the clock (MET-011, PLAT-012).
+    checked: reviewDate,
     sources: (sources.match(/^[ \t]+- title:/gm) ?? []).length,
     // A source is dated only if it carries a date of its own; none of the schemas has such a field yet.
     datedSources: (sources.match(/^[ \t]+(?:date|retrieved|accessed|checked): /gm) ?? []).length,
@@ -89,9 +91,9 @@ export function reviewedCoverage(pages, today = new Date().toISOString().slice(0
 }
 
 /**
- * MET-011: pages past their review date. A page counts as checked on its review date, else the date it was
- * last updated, else the date it was published; editing a page therefore resets the clock, which the spec
- * warns against (PLAT-012), and this report says so rather than hiding it.
+ * MET-011: pages past their review date. A page counts as checked only on its review date. A page with no review
+ * record has never been reviewed and is counted as undated, not as checked on its `updated` date, so editing a page
+ * cannot clear it (PLAT-012).
  * @param {ReturnType<typeof pageFacts>[]} pages
  * @param {string} today
  */
@@ -166,8 +168,8 @@ export function formatReport(r, today, { rows = false } = {}) {
     line('health-adjacent pages (a health flag or a crisis route)', reviewed.health),
     line('all other pages', reviewed.other),
     '',
-    'MET-011 Overdue reviews (12 months from the review date, else the last update)',
-    `  ${overdue.overdue} of ${overdue.total - overdue.undated} dated pages are overdue; median ${overdue.medianDaysOver} days over; ${overdue.undated} have no date`,
+    'MET-011 Overdue reviews (12 months from the review date; a page with no review record is never reviewed)',
+    `  ${overdue.overdue} of ${overdue.total - overdue.undated} reviewed pages are overdue; median ${overdue.medianDaysOver} days over; ${overdue.undated} have no review record and are never reviewed`,
     ...(overdue.healthFirst.length ? [`  first: ${overdue.healthFirst.join(', ')}`] : []),
     '',
     'MET-012 Translation coverage and staleness',
