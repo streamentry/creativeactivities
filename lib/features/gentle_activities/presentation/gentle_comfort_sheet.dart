@@ -136,6 +136,20 @@ class _GentleComfortSheetState extends State<GentleComfortSheet> {
               onChanged: (value) =>
                   _change(_prefs.copyWith(highContrast: value)),
             ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Text(l10n.comfortBedside),
+              subtitle: Text(l10n.comfortBedsideHint),
+              value: _prefs.bedside,
+              onChanged: (value) => _change(_prefs.copyWith(bedside: value)),
+            ),
+            SwitchListTile(
+              contentPadding: EdgeInsets.zero,
+              title: Text(l10n.comfortHaptics),
+              subtitle: Text(l10n.comfortHapticsHint),
+              value: _prefs.haptics,
+              onChanged: (value) => _change(_prefs.copyWith(haptics: value)),
+            ),
             if (_saveFailed)
               Padding(
                 padding: const EdgeInsets.only(bottom: gmSpaceSm),

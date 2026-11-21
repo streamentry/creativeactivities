@@ -1964,6 +1964,22 @@
   "@comfortHighContrastHint": {
     "description": "Explains the higher-contrast switch. Plain, no claim about eyes or health."
   },
+  "comfortBedside": "Bedside theme",
+  "@comfortBedside": {
+    "description": "Switch in the comfort settings. Turns on a dim, calm color scheme for use in bed or in low light. Short."
+  },
+  "comfortBedsideHint": "Dim, calm colors for bed or low light. Taps make no click sound.",
+  "@comfortBedsideHint": {
+    "description": "Explains the bedside theme switch. Plain, no claim about sleep or health."
+  },
+  "comfortHaptics": "Vibrate on taps",
+  "@comfortHaptics": {
+    "description": "Switch in the comfort settings. Turns on a short buzz when a picture is tapped. Short."
+  },
+  "comfortHapticsHint": "A short buzz when you tap a picture. The picture changes either way.",
+  "@comfortHapticsHint": {
+    "description": "Explains the vibrate-on-taps switch. Makes clear that the buzz is optional and not the only feedback."
+  },
   "todaysActivityHeading": "Today's activity",
   "@todaysActivityHeading": {
     "description": "Heading of the Home card that suggests one existing activity for the day. Same suggestion for everyone; not personalised. Short."
@@ -2047,5 +2063,585 @@
   "reminderHowItWorks": "Each reminder names that day's activity. There is none on a day the app has already been opened. If the app is not opened for two weeks, reminders slow to once a week and stop after six weeks. Opening the app starts them again.",
   "@reminderHowItWorks": {
     "description": "Explains on the reminder screen how reminders adapt, so they never feel like spam. Plain, no guilt."
+  },
+  "menuPersonalPlan": "My plan for a visit",
+  "@menuPersonalPlan": {
+    "description": "Menu row that opens the person's short plan of up to five activities for one visit."
+  },
+  "planTitle": "My plan for a visit",
+  "@planTitle": {
+    "description": "Title of the personal plan page. Short."
+  },
+  "planIntro": "Choose up to five activities for one visit, such as a Sunday with Dad. The plan is kept on this phone only. It has no dates and no reminders.",
+  "@planIntro": {
+    "description": "Intro on the personal plan page. Plain; says where the plan is kept."
+  },
+  "planMake": "Make a plan",
+  "@planMake": {
+    "description": "Button that starts a new personal plan."
+  },
+  "planNameLabel": "Plan name, for example Sunday with Dad",
+  "@planNameLabel": {
+    "description": "Text field label for the plan's title."
+  },
+  "planNoteLabel": "Note (optional)",
+  "@planNoteLabel": {
+    "description": "Text field label for an optional note on the plan."
+  },
+  "planSave": "Save plan",
+  "@planSave": {
+    "description": "Button that saves the plan name and note."
+  },
+  "planNameRequired": "Please write a name for the plan.",
+  "@planNameRequired": {
+    "description": "Shown when the person tries to save a plan with no name."
+  },
+  "planNoActivities": "No activities yet. Add up to five for this visit.",
+  "@planNoActivities": {
+    "description": "Shown on a plan with no activities."
+  },
+  "planAddActivity": "Add an activity",
+  "@planAddActivity": {
+    "description": "Button that opens the list of activities to add to the plan."
+  },
+  "planFullMessage": "A plan holds up to five activities. Remove one to add another.",
+  "@planFullMessage": {
+    "description": "Shown when the plan already has five activities."
+  },
+  "planRemoveActivity": "Remove",
+  "@planRemoveActivity": {
+    "description": "Button that removes one activity from the plan."
+  },
+  "planRemoveActivityNamed": "Remove {name} from the plan",
+  "@planRemoveActivityNamed": {
+    "description": "Accessible label for the remove button on one plan activity.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "The activity name."
+      }
+    }
+  },
+  "planActivityMissing": "This activity is no longer in the app. You can remove it.",
+  "@planActivityMissing": {
+    "description": "Shown for a plan item whose activity is no longer available."
+  },
+  "planEditDetails": "Edit name and note",
+  "@planEditDetails": {
+    "description": "Button that opens the name and note form for the plan."
+  },
+  "planDelete": "Delete this plan",
+  "@planDelete": {
+    "description": "Button that deletes the whole plan from this phone."
+  },
+  "planDeleteTitle": "Delete this plan?",
+  "@planDeleteTitle": {
+    "description": "Confirmation dialog title for deleting the plan."
+  },
+  "planDeleteBody": "The plan is removed from this phone. The activities themselves are not changed.",
+  "@planDeleteBody": {
+    "description": "Confirmation dialog body for deleting the plan."
+  },
+  "planDeleteConfirm": "Delete plan",
+  "@planDeleteConfirm": {
+    "description": "Confirm button in the delete-plan dialog."
+  },
+  "planUnreadable": "The saved plan could not be read. It has not been changed or deleted.",
+  "@planUnreadable": {
+    "description": "Shown when the saved plan record exists but cannot be read."
+  },
+  "planStartNew": "Start a new plan",
+  "@planStartNew": {
+    "description": "Button shown only when the saved plan cannot be read; starts over after confirmation."
+  },
+  "planStartNewTitle": "Start a new plan?",
+  "@planStartNewTitle": {
+    "description": "Confirmation dialog title for replacing an unreadable plan."
+  },
+  "planStartNewBody": "The plan that could not be read is removed from this phone.",
+  "@planStartNewBody": {
+    "description": "Confirmation dialog body for replacing an unreadable plan."
+  },
+  "planStartNewConfirm": "Start new",
+  "@planStartNewConfirm": {
+    "description": "Confirm button in the start-a-new-plan dialog."
+  },
+  "planPickTitle": "Choose an activity",
+  "@planPickTitle": {
+    "description": "Title of the page that lists activities to add to the plan."
+  },
+  "planAlreadyAdded": "Already in the plan",
+  "@planAlreadyAdded": {
+    "description": "Shown beside an activity that is already in the plan."
+  },
+  "planPrivacy": "Nothing is sent anywhere. Deleting the app also removes the plan.",
+  "@planPrivacy": {
+    "description": "Privacy line on the personal plan page."
+  },
+  "materialsHeading": "Materials",
+  "@materialsHeading": {
+    "description": "Heading above the materials checklist for an activity."
+  },
+  "materialsIHaveThis": "I have this",
+  "@materialsIHaveThis": {
+    "description": "State label for a material the person already has."
+  },
+  "materialsNeedToGet": "Need to get",
+  "@materialsNeedToGet": {
+    "description": "State label for a material the person still needs."
+  },
+  "materialsAllReady": "You have everything you need",
+  "@materialsAllReady": {
+    "description": "Shown when every material for an activity is ticked. Calm; no shopping prompt."
+  },
+  "planSaveFailed": "The plan could not be saved on this phone. Please try again.",
+  "@planSaveFailed": {
+    "description": "Shown on the personal plan page when the device refuses to save a change."
+  },
+  "materialsUnreadable": "The saved ticks could not be read. They have not been changed.",
+  "@materialsUnreadable": {
+    "description": "Shown in the materials checklist when the saved ticks cannot be read."
+  },
+  "materialsSaveFailed": "This tick could not be saved on this phone. Please try again.",
+  "@materialsSaveFailed": {
+    "description": "Shown in the materials checklist when the device refuses to save a tick."
+  },
+  "finderTitle": "Find an activity",
+  "@finderTitle": {
+    "description": "Title of the finder screen that lists activities by fit."
+  },
+  "finderIntro": "Choose what suits the moment. Each activity shows why it fits. Your choices stay on this screen only.",
+  "@finderIntro": {
+    "description": "Short intro under the finder title. Says choices are not saved or sent."
+  },
+  "finderHeadingTime": "How long",
+  "@finderHeadingTime": {
+    "description": "Heading for the time filter group in the finder."
+  },
+  "finderHeadingMaterials": "What to buy",
+  "@finderHeadingMaterials": {
+    "description": "Heading for the materials filter group in the finder."
+  },
+  "finderHeadingType": "Kind of activity",
+  "@finderHeadingType": {
+    "description": "Heading for the activity kind filter group in the finder."
+  },
+  "finderHeadingSetting": "Where you sit",
+  "@finderHeadingSetting": {
+    "description": "Heading for the setting filter group in the finder."
+  },
+  "finderHeadingPeople": "Who takes part",
+  "@finderHeadingPeople": {
+    "description": "Heading for the group size filter in the finder."
+  },
+  "finderHeadingMess": "Mess",
+  "@finderHeadingMess": {
+    "description": "Heading for the mess filter group in the finder."
+  },
+  "finderHeadingEnergy": "Energy",
+  "@finderHeadingEnergy": {
+    "description": "Heading for the energy filter group in the finder."
+  },
+  "finderHeadingSenses": "Senses",
+  "@finderHeadingSenses": {
+    "description": "Heading for the senses filter group in the finder."
+  },
+  "finderHeadingWords": "Words",
+  "@finderHeadingWords": {
+    "description": "Heading for the without-words filter in the finder."
+  },
+  "finderHeadingHelp": "Your help",
+  "@finderHeadingHelp": {
+    "description": "Heading for the supervision filter group in the finder."
+  },
+  "finderHeadingAvoid": "Leave these out",
+  "@finderHeadingAvoid": {
+    "description": "Heading for the safety flags the visitor can leave out."
+  },
+  "finderTimeFifteen": "About 15 minutes",
+  "@finderTimeFifteen": {
+    "description": "Finder option: the activity can start within about 15 minutes."
+  },
+  "finderTimeThirty": "Up to 30 minutes",
+  "@finderTimeThirty": {
+    "description": "Finder option: the activity can start within 30 minutes."
+  },
+  "finderMaterialsNone": "Nothing to buy",
+  "@finderMaterialsNone": {
+    "description": "Finder option: only free materials are needed."
+  },
+  "finderMaterialsLow": "A few low-cost things",
+  "@finderMaterialsLow": {
+    "description": "Finder option: low-cost materials are fine."
+  },
+  "finderTypeArt": "Painting and drawing",
+  "@finderTypeArt": {
+    "description": "Finder option: painting and drawing activities."
+  },
+  "finderTypeCraft": "Making and crafts",
+  "@finderTypeCraft": {
+    "description": "Finder option: making things and crafts."
+  },
+  "finderTypeNature": "Plants and nature",
+  "@finderTypeNature": {
+    "description": "Finder option: plants and nature activities."
+  },
+  "finderTypeMusic": "Music",
+  "@finderTypeMusic": {
+    "description": "Finder option: music activities."
+  },
+  "finderTypeSensory": "Touch and texture",
+  "@finderTypeSensory": {
+    "description": "Finder option: activities with touch and texture."
+  },
+  "finderTypeConversation": "Stories and talk",
+  "@finderTypeConversation": {
+    "description": "Finder option: activities built around talk and stories."
+  },
+  "finderSettingSeated": "Seated",
+  "@finderSettingSeated": {
+    "description": "Finder option: the activity works while seated."
+  },
+  "finderSettingBedside": "Bedside",
+  "@finderSettingBedside": {
+    "description": "Finder option: the activity works at a bedside table."
+  },
+  "finderSettingOutdoors": "Outdoors",
+  "@finderSettingOutdoors": {
+    "description": "Finder option: the activity works outdoors."
+  },
+  "finderPeopleOneToOne": "Two of you",
+  "@finderPeopleOneToOne": {
+    "description": "Finder option: the activity is for two people."
+  },
+  "finderPeopleSmallGroup": "A small group",
+  "@finderPeopleSmallGroup": {
+    "description": "Finder option: the activity suits a small group."
+  },
+  "finderPeopleIntergenerational": "With grandchildren",
+  "@finderPeopleIntergenerational": {
+    "description": "Finder option: the activity suits people of different ages together."
+  },
+  "finderMessNone": "No mess at all",
+  "@finderMessNone": {
+    "description": "Finder option: the activity makes no mess."
+  },
+  "finderMessLow": "A little is fine",
+  "@finderMessLow": {
+    "description": "Finder option: a little mess is acceptable."
+  },
+  "finderEnergyLow": "Low: sitting still",
+  "@finderEnergyLow": {
+    "description": "Finder option: the activity needs little movement."
+  },
+  "finderSenseSight": "Looking at things",
+  "@finderSenseSight": {
+    "description": "Finder option: the activity uses looking at things."
+  },
+  "finderSenseTouch": "Feeling textures",
+  "@finderSenseTouch": {
+    "description": "Finder option: the activity uses touch and textures."
+  },
+  "finderSenseHearing": "Sounds and music",
+  "@finderSenseHearing": {
+    "description": "Finder option: the activity uses sounds or music."
+  },
+  "finderSenseSmell": "Scents",
+  "@finderSenseSmell": {
+    "description": "Finder option: the activity uses scents."
+  },
+  "finderSenseMovement": "Moving about",
+  "@finderSenseMovement": {
+    "description": "Finder option: the activity involves gentle movement."
+  },
+  "finderSenseCalm": "Something calmer, with less to see or hear",
+  "@finderSenseCalm": {
+    "description": "Finder option: the activity has a calmer version with less to see or hear."
+  },
+  "finderWordsNone": "Works without words",
+  "@finderWordsNone": {
+    "description": "Finder option: the activity has a version that needs no words."
+  },
+  "finderHelpNearby": "I can stay nearby, not help hands-on",
+  "@finderHelpNearby": {
+    "description": "Finder option: the helper can stay nearby and does not need to help with hands."
+  },
+  "finderAvoidSmallParts": "Small parts",
+  "@finderAvoidSmallParts": {
+    "description": "Finder option: leave out activities with small parts."
+  },
+  "finderAvoidSharpTool": "Sharp tools",
+  "@finderAvoidSharpTool": {
+    "description": "Finder option: leave out activities with sharp tools."
+  },
+  "finderAvoidHeat": "Heat",
+  "@finderAvoidHeat": {
+    "description": "Finder option: leave out activities that use heat."
+  },
+  "finderAvoidAdhesive": "Glue or tape",
+  "@finderAvoidAdhesive": {
+    "description": "Finder option: leave out activities that use glue or tape."
+  },
+  "finderAvoidSkinContact": "Paint or materials on skin",
+  "@finderAvoidSkinContact": {
+    "description": "Finder option: leave out activities that put paint or materials on skin."
+  },
+  "finderResultsHeading": "Activities that fit",
+  "@finderResultsHeading": {
+    "description": "Heading above the finder results list."
+  },
+  "finderWhyFits": "Why it fits",
+  "@finderWhyFits": {
+    "description": "Label above the reasons an activity fits the choices."
+  },
+  "finderEmptyTitle": "Nothing fits all of these choices",
+  "@finderEmptyTitle": {
+    "description": "Heading shown when no activity matches every choice."
+  },
+  "finderEmptyBody": "Clear one or two choices to see more activities. Nothing you chose is saved or sent.",
+  "@finderEmptyBody": {
+    "description": "Explains how to widen the search when no activity matches."
+  },
+  "finderClearAll": "Clear all choices",
+  "@finderClearAll": {
+    "description": "Button that clears every finder choice to widen the search."
+  },
+  "finderReasonStartUnder15": "Can start in under 15 minutes",
+  "@finderReasonStartUnder15": {
+    "description": "Reason shown under an activity that can start in under 15 minutes."
+  },
+  "finderReasonStartUnder30": "Can start in under 30 minutes",
+  "@finderReasonStartUnder30": {
+    "description": "Reason shown under an activity that can start in under 30 minutes."
+  },
+  "finderReasonNothingToBuy": "Nothing to buy",
+  "@finderReasonNothingToBuy": {
+    "description": "Reason shown when an activity needs nothing to buy."
+  },
+  "finderReasonNeedsLowCostThings": "Needs only low-cost things",
+  "@finderReasonNeedsLowCostThings": {
+    "description": "Reason shown when an activity needs only low-cost things."
+  },
+  "finderReasonWorksSeated": "Works seated",
+  "@finderReasonWorksSeated": {
+    "description": "Reason shown when an activity works while seated."
+  },
+  "finderReasonWorksBedside": "Works bedside",
+  "@finderReasonWorksBedside": {
+    "description": "Reason shown when an activity works at a bedside."
+  },
+  "finderReasonWorksOutdoors": "Works outdoors",
+  "@finderReasonWorksOutdoors": {
+    "description": "Reason shown when an activity works outdoors."
+  },
+  "finderReasonNoMess": "No mess",
+  "@finderReasonNoMess": {
+    "description": "Reason shown when an activity makes no mess."
+  },
+  "finderReasonLittleOrNoMess": "Little or no mess",
+  "@finderReasonLittleOrNoMess": {
+    "description": "Reason shown when an activity makes little or no mess."
+  },
+  "finderReasonMostlySittingStill": "Mostly sitting still",
+  "@finderReasonMostlySittingStill": {
+    "description": "Reason shown when an activity is mostly done sitting still."
+  },
+  "finderReasonGoodToLook": "Good to look at",
+  "@finderReasonGoodToLook": {
+    "description": "Reason shown when an activity is good to look at."
+  },
+  "finderReasonSomethingToHandle": "Something to handle",
+  "@finderReasonSomethingToHandle": {
+    "description": "Reason shown when an activity has something to handle."
+  },
+  "finderReasonUsesSoundsOrMusic": "Uses sounds or music",
+  "@finderReasonUsesSoundsOrMusic": {
+    "description": "Reason shown when an activity uses sounds or music."
+  },
+  "finderReasonHasScents": "Has scents to enjoy",
+  "@finderReasonHasScents": {
+    "description": "Reason shown when an activity has scents to enjoy."
+  },
+  "finderReasonInvolvesGentleMovement": "Involves gentle movement",
+  "@finderReasonInvolvesGentleMovement": {
+    "description": "Reason shown when an activity involves gentle movement."
+  },
+  "finderReasonHasCalmerVersion": "Has a calmer version",
+  "@finderReasonHasCalmerVersion": {
+    "description": "Reason shown when an activity has a calmer version."
+  },
+  "finderReasonWorksWithoutWords": "Works without words",
+  "@finderReasonWorksWithoutWords": {
+    "description": "Reason shown when an activity works without words."
+  },
+  "finderReasonWorksWithYouNearby": "Works with you nearby",
+  "@finderReasonWorksWithYouNearby": {
+    "description": "Reason shown when an activity works with the helper nearby."
+  },
+  "activityGuideOpenFull": "Full guide and printable card",
+  "@activityGuideOpenFull": {
+    "description": "Button. Opens this activity's full guide and printable card on the website, in the system browser."
+  },
+  "activityGuideCouldNotOpen": "The guide did not open on this device. Type the address below into any web browser, or scan the code with a phone camera.",
+  "@activityGuideCouldNotOpen": {
+    "description": "Calm message shown when the browser cannot open the guide. Shows the address and a QR code to use instead."
+  },
+  "activityGuideShare": "Share as text",
+  "@activityGuideShare": {
+    "description": "Button. Shares this activity's name, a short line and the website address as plain text through the system share sheet."
+  },
+  "activityGuideShareFailed": "Sharing did not work on this device. Nothing was sent.",
+  "@activityGuideShareFailed": {
+    "description": "Calm message shown when the share sheet cannot open. Nothing was shared."
+  },
+  "activityGuideQrSemantics": "QR code for the full guide address",
+  "@activityGuideQrSemantics": {
+    "description": "Screen reader label for the QR code that encodes the guide address."
+  },
+  "homePilotHeading": "Pilot games",
+  "@homePilotHeading": {
+    "description": "Home screen heading over the experimental games. Shown only in pilot builds. Two words."
+  },
+  "homePilotPuzzle": "Tap-to-place puzzle",
+  "@homePilotPuzzle": {
+    "description": "Home button for the experimental tap-to-place picture puzzle, pilot builds only. Keep under about 25 characters."
+  },
+  "homePilotSort": "Sort pictures",
+  "@homePilotSort": {
+    "description": "Home button for the experimental picture sorting game, pilot builds only. Keep under about 25 characters."
+  },
+  "homePilotBeat": "Keep the beat",
+  "@homePilotBeat": {
+    "description": "Home button for the experimental keep-the-beat game, pilot builds only. Keep under about 25 characters."
+  },
+  "sortTitle": "Sort pictures",
+  "@sortTitle": {
+    "description": "Title bar of the experimental picture sorting game. Short."
+  },
+  "sortInstructions": "Tap a picture, then tap the basket it belongs in. Undo takes back the last one you put in a basket.",
+  "@sortInstructions": {
+    "description": "Instructions at the top of the picture sorting game. Plain adult words."
+  },
+  "sortBasketKitchen": "Kitchen",
+  "@sortBasketKitchen": {
+    "description": "Name of the basket for kitchen pictures in the sorting game. Keep short."
+  },
+  "sortBasketGarden": "Garden",
+  "@sortBasketGarden": {
+    "description": "Name of the basket for garden pictures in the sorting game. Keep short."
+  },
+  "sortTray": "To sort",
+  "@sortTray": {
+    "description": "Heading above the pictures not yet in a basket in the sorting game. Two words at most."
+  },
+  "sortPictureInTray": "{name}, not in a basket yet",
+  "@sortPictureInTray": {
+    "description": "Screen-reader label of a picture still waiting to be sorted. {name} is the picture's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      }
+    }
+  },
+  "sortPickFirst": "First tap a picture, then tap a basket.",
+  "@sortPickFirst": {
+    "description": "Message in the sorting game when a basket is tapped with no picture chosen."
+  },
+  "sortChosen": "{name} is chosen. Now tap the basket it goes in.",
+  "@sortChosen": {
+    "description": "Message in the sorting game after a picture is chosen. {name} is the picture's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      }
+    }
+  },
+  "sortNotThisBasket": "{name} could go in the {basket} basket. Tap that basket to put it there.",
+  "@sortNotThisBasket": {
+    "description": "Gentle message in the sorting game when a picture is tapped toward the wrong basket. Nothing moves and nothing is counted as a mistake. {name} is the picture, {basket} the basket it belongs in.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      },
+      "basket": {
+        "type": "String",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "sortPlaced": "{name} went into the {basket} basket.",
+  "@sortPlaced": {
+    "description": "Message in the sorting game after a picture goes into its basket. {name} is the picture, {basket} the basket.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      },
+      "basket": {
+        "type": "String",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "sortUndone": "Taken back. It is in the pictures to sort again.",
+  "@sortUndone": {
+    "description": "Message in the sorting game after Undo takes a picture out of its basket."
+  },
+  "sortNothingToUndo": "Nothing to undo yet.",
+  "@sortNothingToUndo": {
+    "description": "Message in the sorting game when Undo is tapped before any picture has been put in a basket."
+  },
+  "sortAllSorted": "Everything is sorted. Look through the baskets together, or start with new pictures.",
+  "@sortAllSorted": {
+    "description": "Calm message when every picture is in a basket in the sorting game. No praise or exclamation."
+  },
+  "sortUndo": "Undo",
+  "@sortUndo": {
+    "description": "Button that takes back the last picture put in a basket. One word."
+  },
+  "sortNewPictures": "New pictures",
+  "@sortNewPictures": {
+    "description": "Button that starts a new set of pictures in the sorting game. Two words."
+  },
+  "sortBasketCount": "{count} in this basket",
+  "@sortBasketCount": {
+    "description": "Screen-reader label for a basket in the sorting game with the number of pictures inside. {count} is that number.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "beatTitle": "Keep the beat",
+  "@beatTitle": {
+    "description": "Title bar of the experimental keep-the-beat game. Short."
+  },
+  "beatInstructions": "A steady beat keeps going. Tap the big circle along with it. Taps are not counted or graded, and there is no time limit.",
+  "@beatInstructions": {
+    "description": "Instructions at the top of the keep-the-beat game. Plain adult words. Must not mention scores or timing."
+  },
+  "beatTapToStart": "Tap the circle to start the beat.",
+  "@beatTapToStart": {
+    "description": "Text under the big circle in the keep-the-beat game when the beat is not running."
+  },
+  "beatTapOnBeat": "Tap on the beat",
+  "@beatTapOnBeat": {
+    "description": "Label of the one large target in the keep-the-beat game while the beat runs. Screen readers read it as the button's name."
+  },
+  "beatRunning": "The beat is going. Take your time.",
+  "@beatRunning": {
+    "description": "Calm line under the big circle while the beat runs."
+  },
+  "beatPause": "Pause the beat",
+  "@beatPause": {
+    "description": "Button that stops the beat in the keep-the-beat game until the person taps the circle again. Three words."
+  },
+  "beatPaused": "The beat is paused. Tap the circle to start it again.",
+  "@beatPaused": {
+    "description": "Calm line in the keep-the-beat game while the beat is paused."
   }
 }

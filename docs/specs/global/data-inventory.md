@@ -62,6 +62,8 @@ Source: `lib/`. All of this stays on the device, in the app's own storage. The a
 | `gm.gentle.preferences` | `features/gentle_activities/data/gentle_preferences.dart` | Gentle activity preferences |
 | `reminder_enabled`, `reminder_weekdays`, `reminder_hour`, `reminder_minute` | `features/reminders/data/reminder_settings.dart` | Optional reminder time and days, if the reader set one |
 | `wellbeing.momentDays.v1` | `features/wellbeing/data/moment_history.dart` | Days on which the reader recorded a moment |
+| `personal_plan.v1` | `features/plan/data/personal_plan.dart` | The reader's plan for a visit: a title, a short note and up to five activities |
+| `material_ticks.v1` | `features/materials/data/material_ticks.dart` | Which materials the reader ticked as "I have this", per activity |
 | `review_finished_games`, `review_play_days`, `review_last_play_day`, `review_finished_since_home`, `review_last_asked_ms` | `shared/rating/review_request.dart` | Counts used to decide when to ask for a store review; no identifier is sent |
 | `share_completed_games`, `share_has_shared`, `share_declines`, `share_last_asked_ms` | `shared/sharing/share_invitation.dart` | Counts used to decide when to offer sharing |
 | `Music_Key`, `Sound_Key` | `data/models/sound_setting.dart` | Music and sound on or off |

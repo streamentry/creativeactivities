@@ -58,6 +58,8 @@ Depends on: GM-028, GM-031, APP-001.
 
 Risks / not doing: No interstitial asking people to install the app on web pages. No install banner on activity pages. See [DESIGN](../../../DESIGN.md) section 9.
 
+Status note (2026-11-22): Built as components, not yet placed on a screen. `activityGuideUri` (lib/shared/links/activity_guide_link.dart) builds `https://creativeactivities.org/activity/<slug>/` with no query or fragment, matching the website route. `ActivityGuideActions` (lib/shared/widgets/activity_guide_actions.dart) opens it with url_launcher in the external browser; if that fails, it shows the address and a QR code drawn on device with the `qr` package (pure Dart). Open points: no app activity has a website slug yet, so no screen shows the action; the offline check is "browser did not open", not a connectivity check; VoiceOver and TalkBack, target-size and 200% text checks on device are not done.
+
 ### APP-018 · Screen-reader-first activity reading
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -149,6 +151,8 @@ Depends on: APP-001, APP-002, GM-003, GM-027.
 
 Risks / not doing: Do not build a calendar. A plan is a short list.
 
+Status note (2026-11-22): Built as a personal plan page with a title, an optional note and up to five activity ids, stored on the device under `personal_plan.v1`, reached from the Home menu row "My plan for a visit". An unreadable saved record is reported and kept until the person starts a new plan. Printing (APP-002) is not built. The app has no central data-deletion control; the plan is removed by its own delete button and by uninstalling the app. Not checked here: the three-tap target on a device, VoiceOver and TalkBack, and the 1-page print.
+
 ### APP-004 · On-device "We tried this" list
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
@@ -182,6 +186,8 @@ Acceptance:
 - Every result lists the filters it matched.
 
 Depends on: APP-001, GM-024.
+
+Status note (2026-11-22): the filter rules, a shared fixture and the finder screen are built on `specs/app-005-finder`. The fixture is generated from the website finder by `site/scripts/export-finder-fixture.ts` (56 cards, 38 queries) and checked by `test/features/finder`. The screen is not in navigation yet: the app bundles only picture data (id, label, drawing), with no time, materials, setting, group, mess, energy, supervision, sense or safety fields, so there is nothing to filter. Bundling card facts as a versioned asset, with no network, is a decision for the maintainer. The airplane-mode check is a widget test with HTTP disabled. The device airplane-mode and screen-reader checks stay open.
 
 Risks / not doing: Do not add an opaque "match score" ([DESIGN](../../../DESIGN.md) section 3).
 
@@ -257,6 +263,8 @@ Depends on: APP-001, GM-022 (not used).
 
 Risks / not doing: No file or photo sharing without a separate approval.
 
+Status note (2026-11-22): Built as a pure payload builder, `activityShareText` (lib/shared/sharing/activity_share_text.dart). It returns the activity name, a short line and the APP-014 canonical link, one per line, and nothing else; it returns null for an invalid slug. `ActivityGuideActions` sends it with share_plus. Cancelling shows no message; a failed share shows a calm message. Unit tests cover the payload and widget tests cover the buttons. Open points: no screen places the action yet (see APP-014); the share sheet itself and sharing offline are not checked on device.
+
 ### APP-025 · Language status and picker
 
 Priority P1 · Phase S3 · Status partial · Pillars: all
@@ -326,6 +334,8 @@ Depends on: APP-001.
 
 Risks / not doing: Do not recommend purchases.
 
+Status note (2026-11-22): The tick store (`material_ticks.v1`, per activity, at most ten materials per activity and 200 activities) and the "I have this / Need to get" checklist are built and tested, with no product or shopping links. The checklist is not shown on any screen yet: the app has no per-activity materials data, which waits on APP-001. Ticks are cleared only by their own clear call; no central data-deletion control exists. Not checked here: VoiceOver, TalkBack and one-switch use on a device.
+
 ### APP-031 · Picture-only card view
 
 Priority P1 · Phase S2 · Status new · Pillars: CARE, GROW, CALM
@@ -373,11 +383,11 @@ Risks / not doing: A flag is not a decision. Promotion needs the pilot evidence.
 | APP-016 | No-account device transfer | P2 · S3 · new | Move plans and the tried list to another device by QR code or a local file. Nothing is stored on a server. The code expires. | Approval (file exchange; GM-022 deferred). APP-003, APP-004 |
 | APP-017 | Household profiles without health data | P2 · S3 · new | A nickname, favorites and plans for each person in the household. No age, diagnosis or condition field. No child accounts. | Approval. GM-020, GM-027 |
 | APP-021 | Memory card image | P2 · S2 · new | Renders "We tried this: four pairs with Grandad" on the device, for the person to save or share. No photos unless added; no identifiers. Spoiler-free by design ([R4 §3 #2]). | APP-020 |
-| APP-022 | Bedside mode | P2 · S2 · new | One large activity, a low-brightness theme, no sound by default, large controls within one-hand reach. | GM-015, GM-016 |
-| APP-023 | Optional haptics | P2 · S2 · new | Off by default. Never the only feedback for any action. | GM-015 |
+| APP-022 | Bedside mode | P2 · S2 · new | One large activity, a low-brightness theme, no sound by default, large controls within one-hand reach. Status 2026-11-22: built as a bedside theme in the comfort settings, from bedside tokens in DESIGN.md. Taps make no click sound in this mode. Open: the one large activity layout and the one hand reach layout are not built; the device check and the person check are not done. | GM-015, GM-016 |
+| APP-023 | Optional haptics | P2 · S2 · new | Off by default. Never the only feedback for any action. Status 2026-11-22: built. Off by default; a switch in the comfort settings turns on a selection click per tile tap, with no new permission. A refused buzz changes nothing, and a test checks that a match works with haptics refused. Device check open. | GM-015 |
 | APP-024 | Dark theme after contrast check | P3 · S2 · partial | Ship only after contrast and photo-viewing checks ([baseline](../senior-first/baseline.md), R0 integration). | None |
 | APP-027 | Adult-set child mode | P3 · S3 · new | An adult chooses activities for children. No child accounts, no child sign-in, no child data. | Approval. UK Children's Code and COPPA review first ([R5 §5.1]). Children are a later audience ([VISION](../../../VISION.md), Stage 3). |
-| APP-028 | One-switch and keyboard play | P2 · S2 · new | Every picture game can be played with one switch or an external keyboard ([R4 §8 #32]). | GM-013, GM-017 |
+| APP-028 | One-switch and keyboard play | P2 · S2 · new | Every picture game can be played with one switch or an external keyboard ([R4 §8 #32]). Status 2026-11-22: keyboard part built on the matching game and the puzzle: Tab order, arrow keys, Enter and Space, and a visible focus ring. One switch input is not built, and the one switch device pass stays open. | GM-013, GM-017 |
 | APP-032 | Read-aloud for cards | P2 · S3 · proposed | User-started playback with an on-device voice and an always-visible Stop. | Approval (GM-011). No voice recording, no microphone |
 | APP-033 | Printable "what we did" log | P3 · S3 · new | A one-page summary of tried activities, printed by the person for a family book. | APP-004, APP-002 |
 | APP-035 | Opt-in aggregate counts | P3 · S3 · new | If ever approved, anonymous counts of "We tried this" as the north-star input. No identifiers, no health context. | Approval. No custom telemetry is approved today ([validation](../senior-first/validation.md)); see [metrics](17-metrics-and-evidence.md) |

@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/bedside_setting.dart';
 import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
 import 'package:creative_activities/features/gentle_activities/data/gentle_session.dart';
 import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
@@ -14,6 +15,8 @@ import 'package:creative_activities/shared/sharing/share_invitation.dart';
 import 'package:creative_activities/shared/widgets/gm_bottom_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 
 /// The matching activity: the board comes first, "Done for now" is always
 /// visible, and comfort settings open only on request (GM-001/002/003/005).
@@ -189,9 +192,22 @@ class _GentleGamePageState extends State<GentleGamePage> {
     final wasComplete = board.complete;
     setState(() => board.tap(index));
     _persist();
+    unawaited(_buzz());
     if (!wasComplete && board.complete) {
       unawaited(_recordCompletion());
       _revealFinish();
+    }
+  }
+
+  /// A short tap vibration, only when the person turned it on (APP-023). The
+  /// tile has already changed on screen, so a device without vibration loses
+  /// nothing, and a failed call is ignored.
+  Future<void> _buzz() async {
+    if (!_prefs.haptics) return;
+    try {
+      await HapticFeedback.selectionClick();
+    } on PlatformException {
+      // Nothing to add: the picture already shows the tap.
     }
   }
 
@@ -332,6 +348,8 @@ class _GentleGamePageState extends State<GentleGamePage> {
     GentlePreferences next,
   ) async {
     final l10n = context.l10n;
+    // Read before the first await, so the app-wide theme is updated safely.
+    final bedsideSetting = context.read<BedsideSetting?>();
     if (next.pairs != _prefs.pairs &&
         !await _confirmDiscard(
           l10n.gentleGameChangeTilesQuestion,
@@ -349,6 +367,7 @@ class _GentleGamePageState extends State<GentleGamePage> {
       if (pairsChanged) _start();
     });
     final saved = await widget.preferencesStore.save(next);
+    if (mounted) bedsideSetting?.set(enabled: next.bedside);
     return (prefs: next, saved: saved);
   }
 
@@ -767,29 +786,34 @@ class _GentleGamePageState extends State<GentleGamePage> {
           ? l10n.commonSelected
           : '',
       child: ExcludeSemantics(
-        child: Material(
-          color: visible ? scheme.surface : gmSage,
-          shape: gmTileShape(scheme, emphasized: emphasized),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: matched ? null : () => _tap(index),
-            child: Stack(
-              fit: StackFit.expand,
-              children: [
-                if (visible)
-                  // The picture fills the tile to its border, cropped to the
-                  // tile's rounded shape and never letterboxed. The selected
-                  // outline is drawn over its edge, so it never shifts.
-                  PictureView(picture: picture, fit: BoxFit.cover)
-                else
-                  const GmTileBack(),
-                if (matched)
-                  const PositionedDirectional(
-                    top: gmSpaceSm,
-                    end: gmSpaceSm,
-                    child: GmMatchBadge(),
-                  ),
-              ],
+        child: GmFocusRing(
+          radius: BorderRadius.circular(gmRadiusLg),
+          child: Material(
+            color: visible ? scheme.surface : scheme.surfaceContainerHighest,
+            shape: gmTileShape(scheme, emphasized: emphasized),
+            clipBehavior: Clip.antiAlias,
+            child: InkWell(
+              onTap: matched ? null : () => _tap(index),
+              // No click sound in the bedside theme (APP-022).
+              enableFeedback: !_prefs.bedside,
+              child: Stack(
+                fit: StackFit.expand,
+                children: [
+                  if (visible)
+                    // The picture fills the tile to its border, cropped to the
+                    // tile's rounded shape and never letterboxed. The selected
+                    // outline is drawn over its edge, so it never shifts.
+                    PictureView(picture: picture, fit: BoxFit.cover)
+                  else
+                    const GmTileBack(),
+                  if (matched)
+                    const PositionedDirectional(
+                      top: gmSpaceSm,
+                      end: gmSpaceSm,
+                      child: GmMatchBadge(),
+                    ),
+                ],
+              ),
             ),
           ),
         ),

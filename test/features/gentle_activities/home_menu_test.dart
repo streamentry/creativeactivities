@@ -42,6 +42,7 @@ void main() {
     for (final row in [
       'Explore the picture-pack library',
       'Daily moment',
+      'My plan for a visit',
       'Plan my day',
       'My progress',
       'What is hardest today?',

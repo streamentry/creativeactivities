@@ -26,6 +26,13 @@ colors:
   success: "#256B29"
   warning: "#8C4A00"
   danger: "#A32D32"
+  bedside-canvas: "#1B2620"
+  bedside-paper: "#26352E"
+  bedside-tile: "#33463C"
+  bedside-ink: "#F3EFE4"
+  bedside-muted: "#C5D0C7"
+  bedside-outline: "#8FA296"
+  bedside-danger: "#F0A09C"
 typography:
   body-lg:
     fontFamily: Atkinson Hyperlegible Next
@@ -102,6 +109,16 @@ Regenerate app icons with `python3 scripts/make_brand_icons.py`, then `dart run 
 | `danger` | `#A32D32` | Warnings, with text and icons, not color alone |
 
 Target **WCAG 2.2 AA** for interfaces: 4.5:1 normal text, 3:1 large text and relevant UI boundaries where applicable. Validate every actual token pairing rather than assuming the palette is compliant. Do not place small text directly on `sun`, `sage`, or imagery without an approved contrast pairing.
+
+### Bedside theme (APP-022)
+
+A calm, low-light option the person turns on in the comfort settings (kept by
+maintainer decision on 2026-11-22). It is an
+explicit choice, not the system's dark mode: the app still ignores the device
+setting. It uses only the `bedside-*` tokens above, with `sun` as the one
+filled action color and ink text on it. Every control keeps the same size
+rules as the default theme. It turns off the tap click sound, so the activity
+stays quiet. Text and edges are checked in `test/design_system_bedside_test.dart`.
 
 ### Type
 

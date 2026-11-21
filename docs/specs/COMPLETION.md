@@ -579,6 +579,11 @@ The maintainer asked on 2026-11-21 for the suggested option to be chosen for eve
 | Analytics on the kids guides (CNT-880) | Turn it off on every `/kids/` page | Done in batch 62 |
 | The reader-facing "Due for a check" notice (MET-011) | Count only reviews; a page with none says it has not yet been reviewed | Done in batch 62 |
 | A parent organization named only in structured data (SEO-013) | Say it on the About page | Done in batch 62 |
+| The crisis box's "Numbers checked on" date (CNT-1003) | Remove the line until a person checks each number against the service's own page and records the source (decided 2026-11-22) | Done in PR 131 |
+| The app's bedside theme (APP-022) | Keep it as an opt-in dim palette; the app still ignores the system dark mode (decided 2026-11-22) | Done in batch 67 |
+| Review-queue owner roles (PLAT-012, TSA-036) | Keep `editor`, `safety-reviewer` and `translation-reviewer`; safety-flagged pages default to the safety reviewer (decided 2026-11-22) | Done in batch 64 |
+| Activity cards in the app (APP-001) | Bundle the website's listed cards as a versioned offline asset, so the finder, the materials checklist and the website link can be shown (decided 2026-11-22) | In progress |
+| Downloading the pinned Flutter SDK for this work | Allowed (decided 2026-11-22); 3.47.7 installed from Google's storage, checksum verified | Done |
 
 ## Next batches (buildable without a person)
 

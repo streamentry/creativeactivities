@@ -5,6 +5,7 @@ import 'package:bloc/bloc.dart';
 import 'package:creative_activities/app/view/platform_home.dart';
 import 'package:creative_activities/data/models/sound_setting.dart';
 import 'package:creative_activities/data/services/sound_service.dart';
+import 'package:creative_activities/features/gentle_activities/data/bedside_setting.dart';
 import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
 import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
 import 'package:creative_activities/l10n/app_language.dart';
@@ -56,9 +57,9 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
     log('Using the device language.');
   }
 
-  // The saved "Higher contrast" choice, from the comfort settings.
-  final savedContrast =
-      (await const GentlePreferencesStore().load()).highContrast;
+  // The saved comfort choices that the theme reads: higher contrast and the
+  // bedside theme. A preference that cannot be read means the defaults.
+  final savedComfort = await const GentlePreferencesStore().load();
 
   runApp(
     MultiProvider(
@@ -68,7 +69,11 @@ Future<void> bootstrap(FutureOr<Widget> Function() builder) async {
           create: (_) => AppLanguage(initial: savedLanguage),
         ),
         ChangeNotifierProvider(
-          create: (_) => HighContrastSetting(initial: savedContrast),
+          create: (_) =>
+              HighContrastSetting(initial: savedComfort.highContrast),
+        ),
+        ChangeNotifierProvider(
+          create: (_) => BedsideSetting(initial: savedComfort.bedside),
         ),
       ],
       child: await builder(),
