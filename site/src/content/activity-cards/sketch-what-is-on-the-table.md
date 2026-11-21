@@ -27,7 +27,7 @@ steps:
   - "Place the object on the table in front of the person, where the light falls well on it."
   - "Look at it together for a moment, and talk about its color, shape or size if they like."
   - "Put the paper down and place the pencil in their hand, or within easy reach."
-  - "Draw the outline with a few slow lines, starting from the bottom edge. Any line is a good line."
+  - "Draw the outline with a few slow lines, starting from the bottom edge, since any line is a good one."
   - "Add a few marks inside, such as a line for a handle, a dot for a seed or a stroke for a stem."
   - "Draw your own version beside theirs if you like, without comparing the two."
   - "Stop when they put the pencil down, then look at the drawing together."
@@ -90,8 +90,8 @@ stopNote: "It is fine to stop after a few lines. Leave the paper where it is and
 guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, paint-a-shared-picture, arrange-flowers-together]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -100,6 +100,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

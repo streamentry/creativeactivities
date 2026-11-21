@@ -35,7 +35,7 @@ Reminiscence simply means sharing the past: looking at old photos, playing songs
 
 ## How do you start without making it a quiz?
 
-Start with the thing, not a question. Put a photo, a postcard or a recipe on the table and say what you can see: "That is a lovely blue dress." Leave room for them to join in, or not. If you ask anything, make it open and easy to pass on, such as "Do you like this one?"
+Start with the thing, not a question. Put a photo, a postcard or a recipe on the table and say what you can see. "That is a lovely blue dress." Leave room for them to join in, or not. If you ask anything, make it open and easy to pass on, such as "Do you like this one?"
 
 - **Never ask for dates, names or places.** Offer them yourself if it helps.
 - **Accept every answer.** A different name or year is not a mistake to fix.

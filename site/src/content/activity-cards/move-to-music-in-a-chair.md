@@ -25,11 +25,11 @@ substitutions:
 senses: [hearing, movement, sight]
 steps:
   - "Set a sturdy chair with no wheels on a flat, clear floor, with nothing to trip over around it."
-  - "Ask what tune they would like. Offer two or three choices, or let them pick their own."
+  - "Ask what tune they would like, offering two or three choices or letting them pick their own."
   - "Help them sit back with both feet flat on the floor, and play the tune at a comfortable volume."
   - "Start with something small, such as tapping one foot or a hand on the knee, and let them copy or lead."
   - "Try one movement at a time: sway side to side, roll the shoulders, or reach a scarf up and down."
-  - "Move at their pace and in their way. There is no right shape and nothing to count."
+  - "Move at their pace and in their way, with no right shape and nothing to count."
   - "Move along with them, and follow any movement they come up with."
   - "Let the song end, then sit quietly together and offer a drink of water."
 plainSteps:
@@ -92,8 +92,12 @@ stopNote: "It is fine to stop after one song, or after a few bars. Turn the musi
 guides: [creative-calm/music-for-calm-and-connection]
 related: [tap-a-rhythm-together, make-a-playlist-together, draw-to-music, hold-a-sing-along-at-home]
 published: 2026-11-15
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
+changes:
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

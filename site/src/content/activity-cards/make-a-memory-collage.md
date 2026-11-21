@@ -28,7 +28,7 @@ senses: [sight, touch]
 steps:
   - "Clear a table and lay out the paper, the glue stick and a small pile of pictures."
   - "Look through the pictures together and talk about any that catch an eye."
-  - "Ask which picture should go in the middle. Any answer is the right one."
+  - "Ask which picture should go in the middle, since any answer is the right one."
   - "Glue the back of that picture and press it down together."
   - "Add more pictures around it, taking turns choosing and placing."
   - "Stop when it feels finished, or when you have had enough for today."
@@ -89,8 +89,8 @@ stopNote: "It is fine to stop after one picture. Put the collage somewhere safe 
 guides: [crafts/easy-crafts-for-adults, activities/reminiscence, activities/ideas]
 related: [make-a-greeting-card, start-a-family-recipe-book, tear-paper-mosaic]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -99,6 +99,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

@@ -25,7 +25,7 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Lay the slit card on the table, with the slits running up and down and the strips within reach."
-  - "Choose the first strip together. Any color is fine."
+  - "Choose the first strip together, since any color is fine."
   - "Start at the bottom and push the strip over the first upright strip of card, then under the next, and so on across."
   - "Pull the strip gently so it lies flat, but not so tight that the card bends."
   - "For the next row, start the opposite way: under the first upright, then over the next."
@@ -88,8 +88,8 @@ stopNote: "It is fine to stop after one row. Leave the card on the table with th
 guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas, activities/art-supplies-for-older-adults]
 related: [make-a-color-collage, tear-paper-mosaic, make-a-paper-chain-garland]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -98,6 +98,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

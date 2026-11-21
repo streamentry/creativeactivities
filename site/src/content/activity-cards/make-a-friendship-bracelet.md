@@ -31,7 +31,7 @@ steps:
   - "Take the left strand and lay it over the new middle one."
   - "Keep going, right over middle, then left over middle, pulling each strand snug but not tight."
   - "When the braid is long enough to go around the wrist or lie in a book, tie a loose knot at the end."
-  - "Trim the ends to a short tassel, or tie the bracelet around a wrist loosely. The helper does the trimming."
+  - "Trim the ends to a short tassel, or tie the bracelet loosely around a wrist, with the helper doing the trimming."
 plainSteps:
   - Lay the three strands side by side.
   - Tie one loose knot at the top.
@@ -87,8 +87,12 @@ stopNote: "It is fine to stop whenever you like. Tape the end down, leave the br
 guides: [crafts/easy-crafts-for-adults, crafts/crafts-for-limited-dexterity, creative-calm/calm-afternoon-activities]
 related: [wind-a-ball-of-yarn, weave-paper-strips, make-a-lavender-sachet]
 published: 2026-11-15
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
+changes:
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

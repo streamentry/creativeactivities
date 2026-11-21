@@ -29,7 +29,7 @@ steps:
   - "Before you start, the helper cuts the sponges into big, simple shapes and puts the scissors away."
   - "Cover the table, then set out the paper and the sponge shapes."
   - "Pour a thin layer of paint onto each plate, one color per plate."
-  - "Choose a shape and a color together. Any choice is a good choice."
+  - "Choose a shape and a color together, since any choice is a good one."
   - "Press the sponge flat into the paint, then press it onto the paper."
   - "Lift the sponge straight up and look at the print."
   - "Print again in the same place or somewhere new, and change shape or color whenever you like."
@@ -92,8 +92,12 @@ stopNote: "It is fine to stop after one print. Leave it to dry and put the spong
 guides: [crafts/crafts-for-limited-dexterity]
 related: [print-with-leaves, paint-a-shared-picture, make-a-color-collage, tear-paper-mosaic]
 published: 2026-11-15
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
+changes:
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

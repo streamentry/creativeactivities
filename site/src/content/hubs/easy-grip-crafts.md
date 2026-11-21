@@ -32,7 +32,7 @@ indexable: false
 indexHold: "Held from search until an occupational or hand therapist has tried or reviewed the easier-to-grip versions and agreed to be named (SEO-017 acceptance, TSA-034). Ten cards meet H3 on paper; Search Console numbers are not yet measured."
 ---
 
-Hands that are stiff in the morning, sore after a long day or slow to grip can still enjoy making something. The change is usually in the tool, not the activity: a thicker handle, a bigger piece, or a press with the whole palm instead of a pinch with the fingertips.
+Hands that are stiff in the morning, sore after a long day or slow to grip can still enjoy making something. The change is usually in the tool, not the activity: a thicker handle, a bigger piece, or a whole-palm press instead of a fingertip pinch.
 
 ## How do you make a tool easier to hold?
 

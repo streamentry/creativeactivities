@@ -39,7 +39,7 @@ Pack for one activity and keep a second in reserve. A pen, a few sheets of paper
 
 ## How do you start without making it a task?
 
-Hold the materials where the person can see them and say what you have. "I brought some old postcards. Would you like to look at them with me?" is easier to answer than "Do you want to do an activity?" If the answer is no, put them away and carry on with the visit.
+Hold the materials where the person can see them and say what you have. "I brought some old postcards. Would you like to look at them with me?" is easier to answer. "Do you want to do an activity?" is harder. If the answer is no, put them away and carry on with the visit.
 
 - [Look through a photo album](/activity/look-through-a-photo-album/) with the person choosing which page to open.
 - [Write a letter together](/activity/write-a-letter-together/): they say the words, you hold the pen.

@@ -50,7 +50,7 @@ export const PATHS: readonly PathDef[] = [
     description:
       'A four-week plan of quiet table activities for a caregiver and an older adult: look, sing, draw, then make something to give. Start anywhere and skip any week.',
     eyebrow: 'Path for care',
-    updated: '2026-11-17',
+    updated: '2026-11-21',
     audience: 'care',
     who: 'A caregiver and an older adult, including someone living with memory loss.',
     purpose:
@@ -89,7 +89,7 @@ export const PATHS: readonly PathDef[] = [
     description:
       'A four-week plan for a child and an older relative to make things side by side: paper, drawing, plants and a letter. Start anywhere and skip any week.',
     eyebrow: 'Path for together',
-    updated: '2026-11-17',
+    updated: '2026-11-21',
     audience: 'together',
     who: 'A child and an older relative, making things side by side.',
     purpose:

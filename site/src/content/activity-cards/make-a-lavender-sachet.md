@@ -32,7 +32,7 @@ steps:
   - "Spoon lavender into the middle of the fabric together."
   - "Gather the four corners up into a small bundle."
   - "Hold the bundle while one person wraps the ribbon around the neck."
-  - "Tie the ribbon in a knot or a bow. The helper can do this."
+  - "Tie the ribbon in a knot or a bow, or let the helper do it."
   - "Decide together where the sachet should go, such as a drawer or a coat pocket."
 plainSteps:
   - Set the tray on the table.
@@ -90,8 +90,8 @@ stopNote: "It is fine to stop at any point. A bowl of lavender to smell is enoug
 guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, crafts/easy-crafts-for-adults]
 related: [make-a-texture-board, press-leaves-and-flowers, wind-a-ball-of-yarn]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -100,6 +100,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

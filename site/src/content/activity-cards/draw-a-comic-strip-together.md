@@ -27,12 +27,12 @@ senses: [sight, touch]
 steps:
   - "Fold or draw lines to make three or four boxes on one sheet, in a row or a grid."
   - "Choose something ordinary to draw about together, such as the cat, breakfast or the walk to the shop."
-  - "Say in one short line what happens in each box. Keep it simple, and let the other person change it if they like."
-  - "One person draws the first box while the other says what is in it. Stick figures and simple shapes are fine."
+  - "Say in one short, simple line what happens in each box, and let the other person change it if they like."
+  - "One person draws the first box while the other says what is in it, and stick figures or simple shapes are fine."
   - "Swap, so the other person draws the next box."
   - "Add a few words in a speech bubble if you like, written by whoever is holding the pencil."
   - "Draw the last box together, with an ending that is funny or quiet, whichever you prefer."
-  - "Read the strip out loud, then put it where you can both see it. Stop here, or start a second strip."
+  - "Read the strip out loud, then put it where you can both see it, and stop here or start a second strip."
 plainSteps:
   - "Fold or draw lines to make three or four boxes."
   - "Choose something ordinary to draw about together."
@@ -89,8 +89,12 @@ stopNote: "It is fine to stop after one box. Keep what is drawn, or add the next
 guides: [crafts/easy-crafts-for-adults, activities/group-art-activities]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-a-shared-picture, make-a-family-tree-of-hands]
 published: 2026-11-15
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
+changes:
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

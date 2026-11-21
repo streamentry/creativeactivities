@@ -26,9 +26,9 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Set the box on the table with the lid off, and lay out the paper, the glue and the small items."
-  - "Choose the paper or fabric together. Any choice is fine."
+  - "Choose the paper or fabric together, since any choice is fine."
   - "Lay the paper on one side of the box, and ask the helper to trim it to a little larger than that side."
-  - "Glue the back of the paper and press it onto the side of the box, then fold the extra paper over the edges and smooth it flat with the hand."
+  - "Glue the paper's back and press it onto the box, fold the extra over the edges, and smooth it flat with the hand."
   - "Turn the box and repeat on each side, then cover the lid the same way."
   - "Set the box aside for a few minutes so the glue holds."
   - "Look through the small items together and choose a few to keep inside."
@@ -94,14 +94,17 @@ stopNote: "It is fine to stop after one side. Put the box and its paper aside, a
 guides: [crafts/easy-crafts-for-adults, activities/reminiscence, activities/ideas]
 related: [make-a-memory-collage, make-a-greeting-card, start-a-family-recipe-book]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
     note: "Added labelled safety flags above the steps for sharp tools, glue or tape, small parts, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

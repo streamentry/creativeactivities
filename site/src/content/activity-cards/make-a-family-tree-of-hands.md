@@ -27,7 +27,7 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Tape the paper to the table and draw a simple tree trunk and branches together."
-  - "Ask who would like to go first. Anyone may choose not to be traced."
+  - "Ask who would like to go first, knowing anyone may choose not to be traced."
   - "Rest one person's hand flat on the paper near a branch, fingers spread comfortably."
   - "Trace around the hand gently with a pencil."
   - "Write that person's name inside or beside the hand."
@@ -91,8 +91,8 @@ stopNote: "It is fine to stop after one hand. Add more names whenever family vis
 guides: [crafts/easy-crafts-for-adults, together/visiting-someone-in-care, crafts/seasonal-crafts, activities/group-art-activities]
 related: [make-a-memory-collage, start-a-family-recipe-book, make-a-greeting-card]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
@@ -101,6 +101,9 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

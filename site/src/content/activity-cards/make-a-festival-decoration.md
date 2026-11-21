@@ -25,12 +25,12 @@ substitutions:
   - "No glue? Clear tape or a stapler (helper only) holds the paper just as well."
 senses: [sight, touch, movement]
 steps:
-  - "Ask which celebration or season they would like to make something for. It can be from their own tradition, a different one, or simply a time of year they enjoy."
-  - "Offer a few ideas, such as a lantern, a star, a garland, a card for a new year, or a harvest or spring decoration, and let them choose or suggest their own."
-  - "Check before starting. If a symbol or object is sacred to them, ask whether they want it made as a craft, and choose something else if not."
+  - "Ask which celebration or season, from their own tradition or another, they would like to make something for."
+  - "Offer ideas such as a lantern, star, garland, New Year card or harvest or spring decoration, and let them choose or suggest one."
+  - "Before starting, if a symbol or object is sacred to them, ask whether they want it as a craft, or choose something else."
   - "Lay out paper in colors that suit the celebration and let them pick the ones they like."
-  - "The helper cuts the paper to size. Fold, roll or loop it together into the chosen shape."
-  - "Glue or tape the pieces where needed. They press and hold while you secure it."
+  - "The helper cuts the paper to size, and you fold, roll or loop it together into the chosen shape."
+  - "Glue or tape the pieces where needed, and let them press and hold while you secure it."
   - "Decorate with pens or crayons, adding patterns, symbols or words they choose."
   - "Choose where to hang or stand it, and hang it together with string or ribbon."
 plainSteps:
@@ -91,8 +91,12 @@ stopNote: "It is fine to stop at any point. A half-made lantern or a single star
 guides: [crafts/seasonal-crafts, crafts/paper-crafts]
 related: [make-a-paper-chain-garland, make-a-greeting-card, wrap-a-small-gift]
 published: 2026-11-15
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
+changes:
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

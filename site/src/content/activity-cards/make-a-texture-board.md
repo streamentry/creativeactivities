@@ -29,7 +29,7 @@ steps:
   - "Lay the textured scraps out on the table in a row."
   - "Pass each one over and feel it together, saying what it is like if you wish."
   - "Ask which texture they would like to put on the board first."
-  - "Spread glue on the back of that piece. The helper can do this."
+  - "Spread glue on the back of that piece, or let the helper do it."
   - "Press it onto the board together and hold for a few seconds."
   - "Add more pieces, taking turns choosing where each one goes."
   - "Leave the board flat to dry, as the glue bottle suggests."
@@ -91,14 +91,17 @@ stopNote: "It is fine to stop after one or two pieces. Feeling the scraps togeth
 guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, crafts/easy-crafts-for-adults]
 related: [make-a-button-picture, tear-paper-mosaic, make-a-lavender-sachet, wind-a-ball-of-yarn]
 published: 2026-11-13
-updated: 2026-11-15
-version: 1
+updated: 2026-11-21
+version: 2
 changes:
   - date: 2026-11-15
     safety: true
     note: "Added labelled safety flags above the steps for small parts, glue or tape, sharp tools, heat."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
+  - date: 2026-11-21
+    safety: false
+    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 
