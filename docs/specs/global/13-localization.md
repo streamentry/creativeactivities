@@ -164,6 +164,8 @@ Evidence: `site/src/lib/brand-name.test.ts` scans launched content (site source,
 ### L10N-009 · Local safety and crisis information
 Priority P0 · Phase S2 · Status partial · Pillars: CALM, CARE, GROW
 
+Status note (2026-11-21): the crisis routes live in `site/src/data/crisis-routes` with a `checked` date and a `source` field per route (none recorded yet); the built pages are byte-identical to before. Per-locale numbers and their sign-off still need a person.
+
 Why: A wrong emergency or crisis number is the most serious possible translation error. Local emergency numbers vary, and the English "911" is not valid everywhere [native review, check 4; R3 §4.4].
 
 What: For each launched locale, a table of the crisis and emergency routes used by any page that invites disclosure or describes an emergency. Each route is taken from the official source for that country and dated. Where a country has no verified number, the text says "your local emergency number" and links to the official source.

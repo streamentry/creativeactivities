@@ -423,7 +423,6 @@ Acceptance:
 Depends on: MET-001.
 Risks / not doing: optimizing for time. Not done.
 
-
 Evidence (2026-11-19): `docs/plan/measurement.md` now has the counter-metric section: time on site and page views are diagnostics, never a headline or goal; a monthly rise of more than 20% in either while confirmed starts per 1,000 card views fall triggers a review of that month's changes before more ships in that area. Gap: the monthly check needs the maintainer; it can only use consented traffic today.
 
 ### MET-035 · Dark-pattern guardrails
@@ -453,6 +452,9 @@ Risks / not doing: optimizing one channel at the expense of trust.
 
 ### MET-037 · Privacy-preserving measurement principles
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): the design note below gives each metric's source, retention and cell size from the repository (most are "not set"), and flags conflicts: MET-001's no-cookie promise against the GA4 event, MET-002's "card views" against a page-load count, and person-level data in MET-029 to MET-031. A reviewer has not read it.
+
 Why: MISSION sets privacy as a non-negotiable. The app has no analytics SDK by decision ([measurement plan](../../plan/measurement.md)). The website has GA4 only.
 What: the design rules for every metric in this file: aggregate counts only; no health data, diagnosis or free text; no person-level data in public reports; minimum cell size (proposed: 10); retention set to the shortest useful period; consent respected (see [platform](15-platform-data-architecture.md) PLAT-026).
 Acceptance:
@@ -461,6 +463,51 @@ Acceptance:
 - Any metric that needs person-level data goes to the maintainer as a decision.
 Depends on: PLAT-024, PLAT-026.
 Risks / not doing: adding a metric that needs a new SDK without a decision ([measurement plan](../../plan/measurement.md)).
+
+**MET-037 design note (one page).** Status: a note for the maintainer's review, not a decision. "Not set" means the repository has no value. No retention period or cell size here is invented. Sources: [data inventory](data-inventory.md), [analytics consent](analytics-consent.md), [events](events.md), [retention draft](../../legal/retention-and-data-requests.md), [measurement plan](../../plan/measurement.md).
+
+*Data sources in use*
+
+| Source | What it holds | Retention | Minimum cell |
+|---|---|---|---|
+| Website events through Google Tag Manager to GA4 | Event names and fixed properties in `track.ts`; set only after "Allow" | Not set in the repo. Analytics-consent recommends 2 months, not yet confirmed in the GA4 console | Not set. MET-001 proposes 10 |
+| GA4 cookies `_ga`, `_ga_<stream>`, `_gcl_au` | Set by Google's tag after consent; names not confirmed in a live browser | Not set (cookie lifetime is Google's) | Not applicable |
+| App store analytics (App Store Connect, Google Play) | Aggregate store counts; Apple's data is opt-in | Store policy. Not set in the repo | Apple hides cells under about five active devices (measurement plan). Our rule not set |
+| Search Console and SERP audits | Aggregate search data | Not set | Not set |
+| Cloudflare request logs | Aggregate 404 and 5xx counts | Cloudflare policy. To verify; observability is off | Not set |
+| Support mailbox | Requests, corrections, safety reports | To set (retention draft) | Not applicable (individual messages) |
+| On-device data (app and browser) | Stays on the device; not collected | Until the person removes it | Not applicable |
+| Pilot diaries and usability sessions | Consented participant notes and words | Not set | Not set |
+| Partner reports | Aggregate monthly counts | Not set | Not set |
+| Finance ledger (cost) | Costs, marked fact, estimate or unknown | Not set; the ledger is not in the repo (MET-040 open question 5) | Not applicable |
+
+*Metrics that use data*
+
+| Metric | Source | Retention | Minimum cell | Gap or conflict |
+|---|---|---|---|---|
+| MET-001 Confirmed starts | `activity_started_confirmed` (GA4) | Not set | Proposed 10 | Acceptance says no cookie with a confirmation. The GA4 event is sent after consent, and `_ga` cookies are set. **Conflict to decide.** |
+| MET-002 Start rate | `activity_start` ÷ `activity_view` (GA4) | Not set | Not set | MET-002 says "card views", but `activity_view` counts activity page loads. **Define the denominator.** |
+| MET-003 Prints, saves, shares | `activity_print`, `activity_save`, `activity_share` (GA4) | Not set | Not set | `activity_save` is not sent when removed. Print counts are not use. |
+| MET-004 MAKE input | Variation views | No event in the dictionary | Not set | **No source yet.** |
+| MET-005 GROW input | Printable downloads; parent diaries | Not set | Not set | Not launched. Child pages excluded. |
+| MET-006 CARE input | `activity_not_a_fit` with fixed reason list (GA4); diaries | Not set | Not set | Check reason codes against `NOT_A_FIT_REASONS` before reporting. |
+| MET-007 CALM input | Signposting views | No event | Not set | **No source yet.** Not launched. |
+| MET-008 PLAY input | `activity_start`, `activity_done`, `activity_feedback` (GA4) | Not set | Not set | "Rest" button has no event. Games are not scored, as required. |
+| MET-009 TOGETHER | Diaries, partner summaries | Not set | Not set | No source on the website, as required. |
+| MET-014 Broken links and 404s | Scheduled link check; aggregate platform counts | Cloudflare policy, to verify | Not set | Aggregate only. |
+| MET-018 Safety reports | Support mailbox | To set | Not applicable | Route awaits maintainer confirmation (TSA-047). |
+| MET-021 to MET-024 Search | Search Console | Not set | Not set | Verification not yet done (roadmap open question 3). |
+| MET-025 AI-answer citations | Hand sample of prompts | Not applicable | Not applicable | No personal data. |
+| MET-026 to MET-028 Partners, print, QR | Partner records and reports; short-link visits | Not set | Not set | QR codes are built at build time (`site/src/lib/qr.ts`), but no tracked short link was found, so QR visits cannot be counted. |
+| MET-029, MET-030 Usability | Session notes, participant words | Not set | Not set | **Person-level data.** Goes to the maintainer as a decision, per this item. |
+| MET-031 Return households | Consented diary panel | Not set | Not set | Person-level by design. Decision needed. |
+| MET-034, MET-036 Time on site, channels | GA4 | Not set | Not set | Counter-metric only. |
+| MET-035 Dark-pattern guardrails | Complaints, support messages, opt-out counts | To set | Not set | Mailbox retention applies. |
+| MET-040 Cost per start | Cost ledger (not in repo) | Not set | Not applicable | Needs the ledger first. |
+
+*Metrics that use repository content, not reader data:* MET-010 to MET-013, MET-015, MET-016, MET-019, MET-020, MET-022, and MET-038 and MET-039 (operations). No retention or cell rule is needed for these.
+
+*Rules that apply to every row:* no health data or free text in any event (enforced by `track.ts` and its tests); cells under the minimum are suppressed in public reports; no new SDK, cookie or telemetry without a decision.
 
 ### MET-038 · Data-quality checks
 Priority P1 · Phase S2 · Status partial · Pillars: all

@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 69 | 242 | 96 | 407 |
+| S2 | 71 | 240 | 96 | 407 |
 | S3 | 2 | 17 | 56 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **83** | **287** | **163** | **533** |
+| **All** | **85** | **285** | **163** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -482,6 +482,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | `scripts/l10n_inventory.py` and [language-inventory.md](global/language-inventory.md): keys and files per language and surface, review status, placeholders | L10N-001 partial | Built by a Haiku subagent; 190 codes; 103 placeholder strings, all from the re-translation in #112 |
 | `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
 | `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |
+### Batch 55 (2026-11-21): search, structured data, orphans, legal templates and crisis data
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A guide-only search also returns the cards and situations linked to the guide | WEB-003 partial | Built by a Haiku subagent, test first. Its version dropped a matching guide when nothing linked to it and said "nothing matched"; review kept the guide and capped the 14 unlinked guides with a test so the number can only fall |
+| `check:structured-data` (in CI): HowTo steps, FAQ questions and answers, and ItemList order match the visible page on every English page; no empty fields | SEO-043 → exists, SEO-047 → exists; SEO-013, SEO-042 partial | Built by a Haiku subagent; 0 mismatches on 56 HowTo, 95 FAQ and 28 ItemList pages; a changed step on a built page is caught. Added to CI in review |
+| `check:orphans`: no orphan among 176 indexable English pages, no repeated generic anchors | SEO-014 partial | Built by a Haiku subagent; not in CI |
+| DPIA template, withdrawal runbook, and a per-metric privacy note | TSA-013, TSA-045, MET-037 partial | Written by a Haiku subagent from the repository; owners, targets and counsel's check are marked "TO SET". The note flags four metric conflicts for the maintainer |
+| Crisis routes in a data file with a check date and a source field | L10N-009, CNT-1003 partial | Built by a Haiku subagent; the 18,921 built files are byte-identical to before; no number changed or re-checked |
 
 ## What blocks the rest
 
@@ -517,6 +526,8 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | Six variations per card (CNT-902) | CNT-902, CNT-901 | Nine cards have six variations, the schema maximum, and none for a large grip. Raise the limit to seven (each card must still print on one two-sided sheet), or replace a weaker variation on each | Replace on each card after an occupational therapist has read them; keep the limit, which protects the printed sheet |
 | Analytics on the kids guides (CNT-880) | CNT-880 | The guides under `/kids/` load the analytics consent bar like other pages; CNT-880 says no trackers on pages a child can reach. Keep it there (the guides are written for parents), or turn it off there as on Photo pairs | Turn it off on `/kids/`: it costs little and matches the rule as written |
 | The reader-facing "Due for a check" notice (MET-011) | MET-011, WEB-076 | `review-queue-lib.mjs` still dates a page with no review by its last update, so an edit hides it from the queue and the notice. Change it to count only reviews (then every card shows as never reviewed), or keep it | Change it, with the notice reworded to "not yet reviewed" so readers are not alarmed |
+
+| A parent organization named only in structured data (SEO-013) | SEO-013, TSA-049 | The JSON-LD names "Cloudjet Solutions Pte. Ltd." as a parent organization; no visible page says so. Say it on the About page, or remove it from the JSON-LD | Say it on the About page if it is true: structured data should not claim what the page does not show |
 
 ## Next batches (buildable without a person)
 
