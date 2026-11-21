@@ -4,6 +4,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { postingForm, captchaLoaded } from './post-rules.mjs';
+import { purchasePrompts, commerceLinks } from './child-purchase-rules.mjs';
 import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 import { canonicalError } from './canonical-lib.mjs';
 
@@ -536,6 +537,24 @@ if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editoria
 if (existsSync(join(DIST, 'faq/index.html')) && !readDist('faq/index.html').includes('class="evidence-label"')) {
   err('faq/', 'benefit answers have no evidence label (TSA-031)');
 }
+
+// BIZ-018: child-directed pages (the /kids/ section and its guides, in every language) carry no purchase,
+// donation, subscription or price prompt, and link to no checkout, cart or donation page. The patterns are in
+// child-purchase-rules.mjs, shared with a source test. Nothing is exempted here; a real hit is fixed in the content.
+const CHILD_PAGE = /^(?:[a-z]{2,3}(?:-[a-z]{2,4})?\/)?kids\/(?:[^/]+\/)?index\.html$/;
+let childPages = 0;
+for (const file of htmlFiles) {
+  const rel = relative(DIST, file);
+  if (!CHILD_PAGE.test(rel)) continue;
+  childPages++;
+  const html = readFileSync(file, 'utf8');
+  const shown = [text(html), ...[...html.matchAll(/\s(?:aria-label|title|alt)="([^"]*)"/g)].map((m) => m[1])].join(' ');
+  for (const { label, match } of purchasePrompts(shown)) err(rel, `child-directed page has a ${label} prompt: "${match}" (BIZ-018)`);
+  const hrefs = [...html.matchAll(/<a\s[^>]*href="([^"]+)"/g)].map((m) => m[1].replace(/&amp;/g, '&'));
+  for (const href of commerceLinks(hrefs)) err(rel, `child-directed page links to checkout, cart or donation: ${href} (BIZ-018)`);
+  if (/"priceCurrency"|"@type":\s*"Offer"|"offers":/.test(html)) err(rel, 'child-directed page has price data in its structured data (BIZ-018)');
+}
+if (childPages < 8) err('kids/', `found ${childPages} child-directed pages, expected at least 8 (the section and its 7 English guides) (BIZ-018)`);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);

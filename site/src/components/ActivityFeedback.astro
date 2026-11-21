@@ -41,6 +41,7 @@ const { activity } = Astro.props;
 
   <div class="activity-feedback__result" data-feedback-result tabindex="-1">
     <p data-feedback-status role="status" aria-live="polite"></p>
+    <p class="activity-feedback__made" data-made hidden>Your tried activities are on <a href="/made/">My made list</a>.</p>
     {
       NOT_A_FIT_REASONS.map((reason) => (
         <p class="activity-feedback__next" data-next={reason} hidden>
@@ -64,7 +65,8 @@ const { activity } = Astro.props;
     const form = section.querySelector<HTMLFormElement>('[data-not-fit-form]');
     const result = section.querySelector<HTMLElement>('[data-feedback-result]');
     const status = section.querySelector<HTMLElement>('[data-feedback-status]');
-    if (!tried || !notFit || !form || !result || !status) continue;
+    const made = section.querySelector<HTMLElement>('[data-made]');
+    if (!tried || !notFit || !form || !result || !status || !made) continue;
 
     const showResult = (message: string, reason?: NotAFitReason) => {
       status.textContent = message;
@@ -86,6 +88,7 @@ const { activity } = Astro.props;
       const { stored, first } = markTried(storage, activity);
       if (first) track('activity_started_confirmed', { activity });
       tried.setAttribute('aria-pressed', 'true');
+      made.hidden = false;
       showResult(
         first
           ? stored
