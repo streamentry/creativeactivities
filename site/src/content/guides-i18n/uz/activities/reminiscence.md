@@ -1,33 +1,28 @@
 ---
-title: "Xotiralar bilan mashgʻulotlar: xotira qutilari, hayot hikoyasi va suratlar"
-seoTitle: "Demensiyada xotiralar bilan mashgʻulotlar: savolsiz gʻoyalar"
-description: "Demensiyali inson bilan xotiralarni sinamasdan ulashish: suratlar haqida suhbat, xotira qutisi, hayot hikoyasi kitobi va qulay iboralar."
+title: "Xotirlash mashgʻulotlari: xotira qutilari, hayot hikoyalari va fotosuratlar"
+seoTitle: "Demensiya uchun xotirlash mashgʻulotlari: savol-javobsiz gʻoyalar"
+description: "Demensiya bilan yashayotgan odam bilan savol-javobsiz oʻtmishni eslash: fotosuhbat, xotira qutilari va hayot daftarlari, vaziyatni yengil tutadigan iboralar bilan."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Xotiralar bilan mashgʻulot — oʻtmishdan suratlar, buyumlar, musiqa va
-  hikoyalar orqali birga zavqlanish. Xotira qutisini tayyorlang, oddiy hayot
-  hikoyasi kitobini yarating yoki suratlarni yonma-yon koʻring. Hech qachon
-  sinamang: «Eslaysizmi?» va «Bu kim?» deyishni qoldiring va «Bu haqida gapirib
-  bering» kabi ochiq takliflardan foydalaning. Iliq suhbat faktlarning toʻgʻriligidan
-  muhimroq.
+  Xotirlash — rasmlar, buyumlar, musiqa va hikoyalar orqali oʻtmishdan birga zavqlanish. Xotira qutisi yasang, oddiy hayot hikoyasi daftarini tuzing yoki fotosuratlarga yonma-yon qarang. Hech qachon savol-javob qilmang: «Esingizdami?» va «Bu kim?» degandan saqlaning, oʻrniga «Bu haqda menga aytib bering» kabi ochiq taklif bering. Iliq suhbat faktlarni toʻgʻri aytishdan muhimroq.
 keyPoints:
-  - "Xotiralar bilan mashgʻulot — suhbat, imtihon emas. Aniqlik muhim emas, zavq muhim."
-  - "«Eslaysizmi...?» va «Bu kim?» oʻrniga izoh va «Bu kun haqida gapirib bering» kabi takliflardan foydalaning."
-  - "Insonning hayotidan olingan buyumlar xotira qutisi qoʻllar va suhbat uchun tayanch beradi."
-  - "Hayot hikoyasi kitobi oila, mehmonlar va parvarish xodimlariga insonni faqat tashxisi bilan emas, oʻzi sifatida tanishga yordam beradi."
-  - "Xotira qaygʻu keltirsa, avval tasalli bering va sekin mavzuni oʻzgartiring."
+  - "Xotirlash suhbat, sinov emas. Aniqlik muhim emas; zavq muhim."
+  - "«Esingizdami...?» va «Bu kim?» oʻrniga izoh va taklif ayting, masalan: «Bu kunni menga aytib bering.»"
+  - "Odamning hayotidan olingan buyumlar solingan xotira qutisi qoʻllar va suhbatga ushlaydigan narsa beradi."
+  - "Hayot hikoyasi daftari oila, mehmonlar va parvarish xodimlariga faqat tashxisni emas, odamni tanishga yordam beradi."
+  - "Agar biror xotira gʻam uygʻotsa, avval tasalli bering, soʻng asta boshqa mavzuga oʻting."
 faq:
-  - q: "Demensiyali insonlar uchun xotiralar bilan mashgʻulot nima?"
-    a: "Bu xotiralar va oʻtmish tajribalarini koʻpincha suratlar, buyumlar, musiqa yoki videolar yordamida ulashish. U yakka tartibda yoki guruhda boʻlishi mumkin. Maqsad — yoqimli, ma’noli suhbat, insonning nimani eslay olishini sinash emas."
-  - q: "Nega «Eslaysizmi?» deb soʻramaslik kerak?"
-    a: "Xotirani sinaydigan savollar javob kelmaganida insonni xijolat yoki xavotirga solishi mumkin. National Institute on Aging nimanidir yoki kimnidir eslashini soʻrashni qochish kerak boʻlgan narsalar qatorida sanaydi. Buning oʻrniga koʻrganingiz haqida izoh bering va inson xohlagan narsasini qoʻshsin."
-  - q: "Xotira qutisiga nimalarni solay?"
-    a: "Insonning hayoti bilan bogʻliq xavfsiz, puxta buyumlarni tanlang: ish buyumlari, sevimli mashgʻulot jihozlari, sevimli roʻmol, otkritkalar, retsept kartochkalari, sport esdaliklari yoki suratlar nusxalari. Oʻtkir narsalar, yutib yuborish mumkin boʻlgan mayda buyumlar va oʻrni toʻldirilmaydigan asl nusxalardan saqlaning."
-  - q: "Agar u faktlarni xato aytsa-chi?"
-    a: "Qoldiring. Onangiz suratda opasi tushgan desa-yu, aslida amakivachchasi boʻlsa, zarari yoʻq. Tuzatish iliq lahzani imtihonga aylantiradi. U aytayotgan hikoyaning izidan boring va birga zavqlaning."
+  - q: "Demensiya bilan yashayotgan odamlar uchun xotirlash nima?"
+    a: "Xotirlash xotiralar va oʻtmish tajribalarini ulashish, koʻpincha fotosuratlar, buyumlar, musiqa yoki videolar yordamida. U bir kishi bilan yoki guruhda boʻlishi mumkin. Maqsad yoqimli, ma’noli suhbat, odam nimani eslay olishini sinash emas."
+  - q: "Nega «Esingizdami?» deb soʻramaslik kerak?"
+    a: "Xotirani sinaydigan savollar odamni javob kelmaganda uyaltirishi yoki xavotirga solishi mumkin. Qarish boʻyicha milliy institut biror narsa yoki kimnidir eslayotgan-eslamayotganini soʻrashni qochish kerak boʻlgan narsalar qatoriga kiritadi. Oʻrniga koʻrganingizga izoh bering va odam xohlagancha qoʻshsin."
+  - q: "Xotira qutisiga nimalar solsam boʻladi?"
+    a: "Odamning hayotiga bogʻliq, xavfsiz va mustahkam buyumlar: ish narsalari, sevimli mashgʻulot anjomlari, sevimli roʻmol, otkritkalar, retsept kartochkalari, sport esdaliklari yoki fotosuratlar nusxasi. Oʻtkir buyumlar, yutilishi mumkin boʻlgan mayda narsalar va qaytarib boʻlmaydigan asl nusxalardan qoching."
+  - q: "Agar ular faktlarni notoʻgʻri eslasa-chi?"
+    a: "Bahs qilmang. Agar onangiz fotosurat singlisini koʻrsatayotganini aytsa, aslida u amakivachchasi boʻlsa ham, bu yaxshi. Tuzatish iliq lahzani sinovga aylantiradi. Ular aytayotgan hikoyani kuzating va birga zavqlaning."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -42,86 +37,87 @@ sources:
     publisher: "NHS"
     url: "https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/"
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
-related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
+related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Xotiralar bilan mashgʻulot oddiygina oʻtmishdan birga zavqlanishni anglatadi. Demensiya bilan yashayotgan koʻp odamlar uchun oʻnlab yillar oldingi xotiralar bugun ertalab boʻlgan voqeadan aniqroq qoladi. Suratlar, tanish buyumlar, musiqa va hikoyalar bu xotiralarni ochib, birga ulashadigan iliq narsa berishi mumkin. Yagona qoida: bu suhbat, hech qachon imtihon emas.
+Xotirlash oddiygina qilib aytganda birga oʻtmishdan zavqlanishdir. Demensiya bilan yashayotgan koʻp odamlar uchun oʻnlab yillar oldingi xotiralar bu tongda boʻlganlardan aniqroq saqlanadi. Fotosuratlar, tanish buyumlar, musiqa va hikoyalar bu xotiralarni ochishi va sizga birga ulashadigan iliq narsa berishi mumkin. Bitta qoida bor: bu suhbat, hech qachon savol-javob emas.
 
-## Xotiralar bilan mashgʻulot nima va u savol-javobdan nimasi bilan farq qiladi?
+## Xotirlash nima va u savol-javobdan qanday farq qiladi?
 
-Xotiralar bilan mashgʻulot — xotiralarni suratlar, buyumlar, musiqa yoki video orqali insonning oʻz sur’atida ulashish. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) uni oʻtmish tajribalari va hikoyalarni suratlar, buyumlar, videolar yoki musiqa yordamida, kitobda yoki planshetda ulashish deb ta’riflaydi. Savol-javob boshqacha: u insondan toʻgʻri javob talab qiladi va bu zavq oʻrniga xijolat keltirishi mumkin.
+Xotirlash — xotiralarni fotosuratlar, buyumlar, musiqa yoki video orqali odamning oʻz sur’atida ulashish. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) buni fotosuratlar, buyumlar, videolar yoki musiqa yordamida oʻtmish tajribalari va hikoyalarini ulashish sifatida ta’riflaydi, kitobda yoki planshetda boʻlishi mumkin. Savol-javob esa boshqacha: u odamdan toʻgʻri javob berishni talab qiladi, bu esa zavq oʻrniga uyatga olib kelishi mumkin.
 
-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) insondan nimanidir yoki kimnidir eslashini soʻrashni qochish kerak boʻlgan narsa deb sanaydi. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) qisqa muddatli xotiraga tayanadigan savollardan qochib, buning oʻrniga uzoqroq oʻtmish haqida gaplashishni tavsiya qiladi.
+[Qarish boʻyicha milliy institut](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) odamdan biror narsani yoki kimnidir eslayotgan-eslamayotganini soʻrashni qochish kerak boʻlgan narsalar qatoriga kiritadi. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) qisqa muddatli xotiraga tayanadigan savollardan qochib, uzoqroq oʻtmish haqida gapirishni tavsiya qiladi.
 
-| Buning oʻrniga | Buni sinab koʻring |
+| Shuning oʻrniga | Shunday urinib koʻring |
 | --- | --- |
-| «Buni eslaysizmi?» | «Bu baxtli kunga oʻxshaydi. Bu haqida gapirib bering.» |
-| «Bu kim?» | «Mana Gulchehra xola dengiz boʻyida. Qarang, qanday shlyapa.» |
-| «Bu qaysi yil edi?» | «Bu eski uyga oʻxshaydi. U yerda yashash qanday edi?» |
-| «Yoʻq, bu Bobur emas, Anvar.» | «U juda xushchaqchaq koʻrinadi.» |
-| «Buni menga allaqachon aytgan edingiz.» | «Bu hikoyani yaxshi koʻraman.» |
+| «Buni eslaysizmi?» | «Bu baxtli kunga oʻxshaydi. Menga aytib bering.» |
+| «Bu kim?» | «Mana, xola Rose plyajda. Shu shlyapaga qarang.» |
+| «Bu qaysi yili edi?» | «Bu eski uy koʻrinadi. U yerda yashash qanday edi?» |
+| «Yoʻq, bu Bill emas, bu Frank.» | «U juda quvnoq koʻrinadi.» |
+| «Buni menga oldin aytgansiz.» | «Bu hikoyani juda yaxshi koʻraman.» |
 
-## Suratlar haqida sinamasdan qanday gaplashish mumkin?
+## Fotosuratlar haqida savol-javobsiz qanday gaplashish mumkin?
 
-Koʻrganingizdan boshlang, keyin inson xohlasa nimadir qoʻshishi uchun joy qoldiring.
+Avval koʻrganingizni ayting, soʻng odam xohlasa qoʻshishi uchun joy qoldiring.
 
-1. **Yonma-yon oʻtiring.** Albomni oʻrtangizda ushlang, shunda stol ustidan sinamasdan, birga qaraysiz.
-2. **Bir nechta suratni tanlang.** Beshta yaxshi surat butun quti suratdan yaxshiroq. Yirik, aniq nusxalar eng yaxshi ishlaydi.
-3. **Odamlarning ismini oʻzingiz ayting.** «Mana siz va dadangiz toʻy kuningizda» bosimni yoʻqotadi.
-4. **Tafsilotlarga izoh bering.** Kiyimlar, mashinalar, ovqat, ob-havo, yuzlar. «Qanday mashina. Juda yaltiroq koʻrinadi.»
-5. **Talab qilmang, taklif qiling.** «Bu haqida gapirib bering...» yoki «Nimani payqadingiz?» Sukut yaxshi.
-6. **Uning izidan boring.** Butunlay boshqa narsa haqida gapirsa, shunga qoʻshiling.
-7. **Yoqimli paytda toʻxtang.** Charchoq paydo boʻlishidan oldin albomni yoping.
+1. **Yonma-yon oʻtiring.** Albomni oʻrtada ushlab turing, shunda stol ustidan sinab koʻrmasdan birga koʻrasiz.
+2. **Bir necha fotosurat tanlang.** Beshta yaxshi surat butun quti suratdan yaxshiroq. Katta, aniq chop etilgan suratlar eng yaxshi.
+3. **Odamlarni oʻzingiz ayting.** «Mana siz va dadangiz toʻy kuningizda» bosimni olib tashlaydi.
+4. **Tafsilotlarga izoh bering.** Kiyim, mashinalar, taom, ob-havo, yuzlar. «Qanday mashina. Juda yaltiroq koʻrinadi.»
+5. **Taklif qiling, talab qilmang.** «Menga aytib bering...» yoki «Nimani sezyapsiz?» Sukunat ham yaxshi.
+6. **Odamning yoʻlidan boring.** Agar u butunlay boshqa narsa haqida gapirsa, oʻsha tomonga boring.
+7. **Yoqimli boʻlganda toʻxtang.** Charchoq boshlanishidan oldin albomni yoping.
 
-Tayyor rasmli takliflar uchun [suhbat kartalari](/games/conversation-cards/)ni sinab koʻring. Oʻz oilaviy suratlaringizni sokin juftlash oʻyiniga aylantirish uchun [surat juftliklari](/games/photo-pairs/)ni sinab koʻring; tanlagan suratlaringiz brauzeringizda qoladi.
+Tayyor rasmli savollar uchun [suhbat kartochkalarini](/games/conversation-cards/) sinab koʻring. Oʻz oilaviy fotosuratlaringizni yumshoq juftlash oʻyiniga aylantirish uchun [fotosuratli juftliklar](/games/photo-pairs/) dan foydalaning; tanlagan suratlaringiz brauzeringizda qoladi.
 
 ## Xotira qutisini qanday yasash mumkin?
 
-Xotira qutisi — insonning hayotidan olingan, ushlab koʻrish va gaplashish uchun buyumlar solingan idish.
+Xotira qutisi — odamning hayotidan buyumlar solingan idish boʻlib, ularni ushlab koʻrish va gaplashish uchun.
 
-1. **Oson ochiladigan puxta quti tanlang**, masalan poyabzal qutisi, shlyapa qutisi yoki kichik yogʻoch sandiqcha.
-2. **Mavzu yoki aralashmani tanlang.** Ish, sevimli mashgʻulot, joy, oʻn yillik yoki hammasidan ozgina.
-3. **Xavfsiz buyumlarni yigʻing.** Boshlash uchun besh-oʻnta narsa yetarli.
-4. **Qimmatbaho narsalarning nusxalaridan foydalaning.** Oʻrni toʻldirilmaydigan suratlar va hujjatlarning nusxasini oling, asl nusxalarni xavfsiz saqlang.
-5. **Buyumlarni birin-ketin chiqaring.** Birini uzating, u haqida nimadir ayting va suhbat qayerga borishini kuzating.
+1. **Ochish oson mustahkam quti tanlang,** masalan, poyabzal qutisi, shlyapa qutisi yoki kichik yogʻoch sandiq.
+2. **Mavzu yoki aralashmani tanlang.** Ish, sevimli mashgʻulot, joy, oʻn yillik yoki hammasidan biroz.
+3. **Xavfsiz buyumlarni yigʻing.** Boshlash uchun beshtadan oʻntagacha buyum yetarli.
+4. **Qadrli narsalarning nusxalaridan foydalaning.** Qaytarib boʻlmaydigan fotosuratlar va hujjatlardan nusxa oling, asl nusxalarni xavfsiz saqlang.
+5. **Buyumlarni bittadan chiqaring.** Bittasini uzating, u haqda bir nima ayting va suhbat qayerga borishini kuzating.
 
-Qoʻshish uchun gʻoyalar:
+Qoʻshish mumkin boʻlgan gʻoyalar:
 
-- **Ish:** ism yozilgan nishon, kichik asbob, forma nishoni, hisob daftari, hamshira nishoni, oshxonaning retseptlar kitobi.
-- **Uy:** uning qoʻl yozuvidagi retsept kartochkasi, oshxona sochigʻi, sevimli roʻmol yoki galstuk.
-- **Sevimli mashgʻulotlar:** ilmogʻi olib tashlangan baliq ovi qopqoni, sport koptogi, ip chigali, urugʻ paketi.
-- **Joylar:** otkritkalar, xaritalar, sayohat esdaligi, tugʻilgan shahar gazetasidan qirqim.
-- **Oila:** suratlar nusxalari, bolaning rasmi, toʻy taklifnomasi.
+- **Ish:** ism belgisi, kichik asbob, forma yamogʻi, daftar, hamshiraning nishoni, restorandan retsept kitobi.
+- **Uy:** qoʻl yozuvidagi retsept kartochkasi, oshxona sochiqi, sevimli roʻmol yoki galstuk.
+- **Sevimli mashgʻulot:** ilgaksiz baliq yemi, beysbol toʻpi, bir gʻaltak ip, urugʻ xaltachasi.
+- **Joylar:** otkritkalar, xaritalar, sayyohlik esdaligi, vatani gazetasidan qirqib olingan maqola.
+- **Oila:** fotosuratlar nusxasi, bola chizgan rasm, toʻy taklifnomasi.
 
-Oʻtkir buyumlarni, yutib yuborish mumkin boʻlgan mayda narsalarni va ogʻriqli xotiralarni keltirishi mumkin boʻlgan har qanday narsani, agar qabul qilinishini bilmasangiz, qoldirib keting.
+Oʻtkir buyumlar, yutib yuborilishi mumkin boʻlgan kichik narsalar va agar ular kutilmagan boʻlsa, ogʻriqli xotiralarni uygʻotishi mumkin boʻlgan narsalarni chetda qoldiring.
 
-## Hayot hikoyasi kitobini qanday yasash mumkin?
+## Hayot hikoyasi daftarini qanday yasash mumkin?
 
-Hayot hikoyasi kitobi — insonning hayoti haqidagi suratlar va qisqa izohlardan iborat oddiy albom. Uni birga koʻrish mumkin, u mehmonlar va parvarish xodimlariga insonni butun holida koʻrishga yordam beradi.
+Hayot hikoyasi daftari odamning hayoti haqida fotosuratlar va qisqa izohlardan iborat oddiy albom. Uni birga koʻrish mumkin, va u mehmonlar hamda parvarish xodimlariga butun odamni koʻrishga yordam beradi.
 
-1. **Shaklni tanlang.** Fayl qoplamali jild, bosilgan surat kitobi yoki planshetdagi slayd-shou.
-2. **Bir nechta boʻlimni rejalashtiring.** Bolalik, maktab, ish, oila, yashagan joylar, e’tiqod, sevimli mashgʻulotlar, sevimli taomlar va musiqa.
-3. **Har sahifaga bir-ikkita surat qoʻying**, qisqa, yirik harfli izoh bilan: «Mohira, 22 yoshda, bankda ishlay boshlagan.»
-4. **Yoqtirgan narsalari va odatlarini kiriting.** «Choyni sut bilan ichadi. Sevimli diniy qoʻshiqlarni yaxshi koʻradi. Baland ovozli televizorni yoqtirmaydi.» Bu unga qarayotgan har bir kishiga yordam beradi.
-5. **Insonni xohlagancha jalb qiling:** suratlarni tanlash, hikoya qilish yoki shunchaki tayyor boʻlishini tomosha qilish.
-6. **Qoʻshib boring.** Foydali boʻlishi uchun tugallangan boʻlishi shart emas.
+1. **Formatni tanlang.** Himoya varaqlari bilan papka, chop etilgan fotokitob yoki planshetdagi slayd-shou.
+2. **Bir necha boʻlimni rejalashtiring.** Bolalik, maktab, ish, oila, yashagan joylar, e’tiqod, qiziqishlar, sevimli taomlar va musiqa.
+3. **Har sahifaga bir yoki ikkita fotosurat** va qisqa, katta harfli izoh qoʻying: «Meri, 22 yoshda, bankda ish boshlagan.»
+4. **Yoqtirgan narsalar va odatlarni kiriting.** «Sutli qahva ichadi. Yakshanbadagi madhiyalarni yaxshi koʻradi. Baland televizorni yoqtirmaydi.» Bu uni parvarish qiladigan har bir kishiga yordam beradi.
+5. **Odamni xohlaganicha ishtirok ettiring:** fotosuratlarni tanlash, hikoya aytish yoki daftarning tayyor boʻlishini faqat kuzatish.
+6. **Qoʻshishda davom eting.** Tugallanmagan boʻlsa ham foydali.
 
-## Xotiralar bilan ishlashning boshqa gʻoyalari
+## Yana xotirlash gʻoyalari
 
-- **Yoshlik davridagi musiqani qoʻying** va u uni qayerga olib borishi haqida gaplashing. [Musiqa mashgʻulotlari](/activities/music/) sahifasiga qarang.
-- **Uy videolari yoki televizion koʻrsatuvlarni** uning sevimli yillaridan tomosha qiling.
-- **Bolalikdagi taomni pishiring** va hidlar suhbatni yetaklasin.
-- **Tugʻilgan shahar xaritasiga qarang** va tanish koʻchalarni izlang.
-- **Eski kataloglar yoki jurnallarni ushlab koʻring** va narxlar, modalar hamda mashinalar haqida gaplashing.
-- **Hikoyalarini yozib oling**, uning ruxsati bilan, telefonda, oila uchun.
-- **Qoʻngʻiroq paytida ulashing.** Video qoʻngʻiroq paytida bitta suratni koʻrsating; [telefon va video qoʻngʻiroqlar](/activities/phone-and-video-calls/) sahifasiga qarang.
-- **Tashrif paytida surat yoki buyum olib boring.** Bu tashrifga oson mavzu beradi; [tashrif](/activities/visiting/) sahifasiga qarang.
+- **Yoshligidagi musiqani qoʻying** va u sizni qayerga olib borishi haqida gaplashing. Qarang: [musiqa mashgʻulotlari](/creative-calm/music-for-calm-and-connection/).
+- **Sevimli oʻn yilliklaridagi uy videolari yoki telekoʻrsatuvlarni koʻring.**
+- **Bolalik taomini pishiring** va hidlar suhbatni boshqarsin.
+- **Xaritaga qarang:** vatanining xaritasi, tanish koʻchalarni kuzating.
+- **Eski katalog yoki jurnallarni koʻring** va narxlar, modalar va mashinalar haqida gapiring.
+- **Hikoyalarini yozib oling** — telefonda, ularning ruxsati bilan oila uchun.
+- **Qoʻngʻiroq paytida ulashing.** Video qoʻngʻiroqda bitta suratni koʻrsating; qarang: [telefon va video qoʻngʻiroqlar](/together/staying-connected-from-afar/).
+- **Tashrifga foto yoki buyum olib boring.** Bu tashrifga oson mavzu beradi; qarang: [tashrif](/together/visiting-someone-in-care/).
 
-## Xotira ogʻriqli boʻlsa nima qilish kerak?
+## Xotira ogʻriqli boʻlsa-chi?
 
-Ba’zi xotiralar qaygʻu, pushaymonlik yoki qoʻrquv olib keladi. Inson xafa boʻlsa, toʻxtang, tasalli bering va sekin mavzuni yoki mashgʻulotni oʻzgartiring. Boʻlgan voqea haqida tortishmang. Family Caregiver Alliance insonni notoʻgʻri ekaniga ishontirishga urinishdan qaytaradi va uning koʻrsatayotgan, chin his-tuygʻulariga javob berishni tavsiya qiladi. U vafot etgan odam haqida tirikdek gapirsa, his-tuygʻuga javob bering: «Siz uni sogʻinyapsiz. U haqida gapirib bering.»
+Ayrim xotiralar gʻam, pushaymon yoki qoʻrquv uygʻotadi. Odam xafa boʻlsa, toʻxtang, tinchlantiring va mavzuni yoki mashgʻulotni asta oʻzgartiring. Nima boʻlganini bahslashmang. Family Caregiver Alliance odamni xato ekanligiga ishontirishga urinmaslikni maslahat beradi va koʻrsatgan his-tuygʻularga javob berishni tavsiya qiladi, ular haqiqiy. Agar u vafot etgan odam haqida xuddi tirikdek gapirsa, his-tuygʻuga javob bering: «Uni sogʻindingiz. Menga u haqida aytib bering.»
 
-## Tadqiqotlar nima deydi?
+## Tadqiqot nimani aytadi?
 
-22 ta sinov va 1972 nafar insonni qamragan [xotiralar boʻyicha Cochrane sharhi](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia) ta’sirlar bir xil emas, kichik va sharoit hamda shaklga qarab turlicha ekanini aniqladi. U demensiyali insonlarga zarar yetgani haqida dalil topmadi. Biz xotiralar bilan mashgʻulotni davo sifatida emas, iliq va mazmunli vaqt oʻtkazish imkoni sifatida tavsiya qilamiz. Oson suhbat haqida koʻproq ma’lumot uchun [muloqot maslahatlari](/caregiving/communication-tips/) sahifasiga qarang.
+Xotirlash boʻyicha [Cochrane sharhi](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia) 22 ta sinovni va 1,972 kishini qamrab olgan. U ta’sirlar barqaror emas, kichik va muhit hamda shaklga qarab farqlanishini topdi. Demensiya bilan yashayotgan odamlarga zarar koʻrsatilgani haqida dalil topilmadi. Biz xotirlashni davolash sifatida emas, balki iliq va ma’noli birga vaqt oʻtkazish uchun tavsiya qilamiz. Oddiy suhbat haqida koʻproq ma’lumot uchun [tashxisdan keyingi birinchi qadamlar](/caregiving/after-dementia-diagnosis/) ga qarang.
