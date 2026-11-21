@@ -135,6 +135,8 @@ Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Status note (2026-11-21): CI now fails on an exact duplicate title, H1 or description (`check-duplicates.mjs --exact`); 0 today across 16,641 indexable pages. The page-type field and the H1 pattern rule are not built.
 
+Status note (2026-11-22): the pattern check is built as `pnpm run check:patterns` (`check-duplicates.mjs --patterns`, logic in `site/src/lib/title-patterns.ts`, tests in `title-patterns.test.ts`). It derives a page type from the built path, removes the page subject (its breadcrumb label) from the title and H1, and fails when two indexable pages of one language and type share the title pattern, H1 pattern and subject. Same-template pages with different subjects are not flagged. First run on a fresh build: 7,895 indexable pages, 0 collision groups. Not yet in CI; the maintainer decides whether it becomes a required release check.
+
 Why: "One idea, many adaptations" is the product's core claim [MISSION, "What makes us different" 3]. Separate pages per audience would create near-duplicates [SEO.md §4.1].
 
 What: Adopt the page-type rules in this file as the release standard. Each new page's brief declares its type and its canonical activity.
