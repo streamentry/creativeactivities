@@ -34,6 +34,9 @@ const groups = tagsByGroup().map((g) => ({ id: g.id, label: g.label, tags: g.tag
   crumb="What I have"
   lede="Start with what is already in the house. Tick what you have and we show the activities that need only that. Nothing to buy."
 >
+  <p class="wih-print">
+    <a href="/printables/what-i-have-checklist/">Print a tick-box checklist of these items</a> for the table, then come back and tick them here.
+  </p>
   <WhatIHave client:load cards={cards} groups={groups} assumed={ASSUMED_NOTE} />
   <noscript>
     <p>

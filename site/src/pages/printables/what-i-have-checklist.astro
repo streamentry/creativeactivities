@@ -1,0 +1,174 @@
+---
+/**
+ * CNT-007: the paper "What I have" checklist. The same items as the What I have page, grouped as that page groups
+ * them, with a tick box for each. One sheet on A4 and US Letter, black on white, text at 14 pt or more.
+ * Nothing is stored or sent; the person ticks on paper.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+import { tagsByGroup } from '../../data/materials';
+import { printLabel } from '../../data/materials-print';
+
+const crumbs = [
+  { href: '/printables/', label: 'Printables' },
+  { href: '/printables/what-i-have-checklist/', label: 'What I have checklist' },
+];
+const groups = tagsByGroup().map((g) => ({
+  id: g.id,
+  label: g.label,
+  tags: g.tags.map((t) => ({ id: t.id, label: printLabel(t) })),
+}));
+const lookUp = `${SITE.domain}/what-i-have/`;
+---
+<BaseLayout
+  title="What I have checklist"
+  description="A printable tick-box checklist of everyday items, grouped by kind, to find the activities you can start with what is already at home. Black and white, one sheet."
+  jsonLd={[breadcrumbs(crumbs)]}
+  canonicalPath="/printables/what-i-have-checklist/"
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container checklist">
+    <header class="checklist__intro no-print">
+      <p class="eyebrow">Printables</p>
+      <h1>What I have: a tick-box checklist</h1>
+      <p class="lede">Print this sheet, tick what is at home, then look up activities that use those things on <a href="/what-i-have/">the What I have page</a>.</p>
+    </header>
+
+    <article class="checklist__sheet" aria-label="What I have checklist">
+      <h2 class="checklist__title">What I have at home</h2>
+      <p class="checklist__assumed">We assume a table or tray, a chair, tap water and a place to wash hands.</p>
+      <div class="checklist__groups">
+        {groups.map((g) => (
+          <section class="checklist__group" aria-labelledby={`cl-${g.id}`}>
+            <h3 id={`cl-${g.id}`}>{g.label}</h3>
+            <ul class="checklist__items">
+              {g.tags.map((t) => (
+                <li>
+                  <span class="checklist__box" aria-hidden="true" />
+                  <span>{t.label}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
+      <p class="checklist__next">Then look up activities that use these at {lookUp}</p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .checklist {
+    max-width: var(--content-max);
+  }
+  .checklist__intro {
+    margin-block-end: var(--space-lg);
+  }
+  .checklist__sheet {
+    color: var(--gm-on-surface);
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+  }
+  .checklist__title {
+    margin: 0 0 var(--space-xs);
+    font-size: var(--text-h2);
+  }
+  .checklist__assumed {
+    margin: 0 0 var(--space-md);
+    color: var(--gm-on-surface-variant);
+  }
+  .checklist__groups {
+    columns: 14rem;
+    column-gap: var(--space-lg);
+  }
+  .checklist__group {
+    break-inside: avoid;
+    margin-block-end: var(--space-md);
+  }
+  .checklist__group h3 {
+    margin: 0 0 var(--space-2xs);
+    font-size: var(--text-lg);
+    break-after: avoid;
+  }
+  .checklist__items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .checklist__items li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-xs);
+    padding-block: 2px;
+  }
+  .checklist__box {
+    flex: none;
+    width: 1.1em;
+    height: 1.1em;
+    margin-block-start: 0.2em;
+    border: 2px solid var(--gm-on-surface);
+    border-radius: 2px;
+  }
+  .checklist__next {
+    margin: var(--space-md) 0 0;
+    font-weight: 700;
+  }
+
+  @media print {
+    .checklist {
+      max-width: none;
+    }
+    .checklist__sheet {
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: none;
+      color: #000;
+    }
+    .checklist__title,
+    .checklist__group h3 {
+      color: #000;
+    }
+    .checklist__title {
+      font-size: 20pt;
+    }
+    .checklist__assumed,
+    .checklist__items li,
+    .checklist__next {
+      font-size: 14pt;
+      color: #000;
+    }
+    .checklist__group h3 {
+      font-size: 15pt;
+    }
+    .checklist__box {
+      border-color: #000;
+    }
+    .checklist__items li {
+      line-height: 1.25;
+    }
+    .checklist__groups {
+      columns: 3;
+      column-gap: 5mm;
+    }
+    .checklist__group {
+      margin-block-end: 2mm;
+    }
+    .checklist__items li {
+      gap: 2mm;
+      padding-block: 0;
+    }
+    .checklist__box {
+      width: 3.5mm;
+      height: 3.5mm;
+      margin-block-start: 0.3em;
+    }
+    .checklist__assumed {
+      margin-block-end: 3mm;
+    }
+  }
+</style>

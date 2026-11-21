@@ -1,0 +1,237 @@
+---
+/**
+ * CNT-007: a blank activity card for a family or care home to write its own activity. Same headings as a real
+ * card. One two-sided sheet: the front has the name, what you need and the steps; the back has an easier way,
+ * the stop note and safety. Not indexed: it is a form to fill in, not a page of guidance.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+
+const crumbs = [
+  { href: '/printables/', label: 'Printables' },
+  { href: '/printables/blank-activity-card/', label: 'Blank activity card' },
+];
+const NEED_LINES = 6;
+const STEP_LINES = 6;
+const EASIER_LINES = 3;
+const SAFETY_LINES = 2;
+---
+<BaseLayout
+  title="Blank activity card"
+  description="A blank activity card to write your own activity: what you need, the steps, an easier way and a stop note. One two-sided sheet, black and white."
+  jsonLd={[breadcrumbs(crumbs)]}
+  noindex
+  canonicalPath="/printables/blank-activity-card/"
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container blank-page">
+    <header class="blank-page__intro no-print">
+      <p class="eyebrow">Printables</p>
+      <h1>Blank activity card</h1>
+      <p class="lede">
+        Write your own activity on this card, using the same headings as the cards on {SITE.domain}. Print it on one sheet,
+        both sides. Use Print in your browser menu.
+      </p>
+    </header>
+
+    <article class="blank-card" aria-label="Blank activity card">
+      <section class="blank-card__front" aria-label="Front">
+        <p class="blank-card__eyebrow">Activity card</p>
+        <h2 class="blank-card__name">Name: <span class="blank-line blank-line--wide"></span></h2>
+        <p class="blank-card__field">What it is, in one sentence:</p>
+        <span class="blank-line blank-line--wide"></span>
+        <span class="blank-line blank-line--wide"></span>
+        <h3>What you need</h3>
+        <ul class="blank-card__needs">
+          {Array.from({ length: NEED_LINES }, () => (
+            <li>
+              <span class="blank-card__box" aria-hidden="true"></span>
+              <span class="blank-line"></span>
+            </li>
+          ))}
+        </ul>
+        <h3>What to do</h3>
+        <ol class="blank-card__steps">
+          {Array.from({ length: STEP_LINES }, () => (
+            <li>
+              <span class="blank-line"></span>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <section class="blank-card__back" aria-label="Back">
+        <h3>An easier way</h3>
+        {Array.from({ length: EASIER_LINES }, () => (
+          <span class="blank-line blank-line--wide"></span>
+        ))}
+        <div class="blank-card__stop">
+          <p><strong>It is okay to stop.</strong></p>
+          <p>It is fine to stop at any time.</p>
+        </div>
+        <h3>Safety</h3>
+        {Array.from({ length: SAFETY_LINES }, () => (
+          <span class="blank-line blank-line--wide"></span>
+        ))}
+        <p class="blank-card__made">
+          Made by: <span class="blank-line blank-line--short"></span> Date: <span class="blank-line blank-line--short"></span>
+        </p>
+        <p class="blank-card__foot">Ready-made activity cards: {SITE.domain}/activity/</p>
+      </section>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .blank-page {
+    max-width: var(--content-max);
+  }
+  .blank-page__intro {
+    margin-block-end: var(--space-lg);
+  }
+  .blank-card {
+    color: var(--gm-on-surface);
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    max-width: 46rem;
+  }
+  .blank-card__front + .blank-card__back {
+    margin-block-start: var(--space-xl);
+    padding-block-start: var(--space-xl);
+    border-block-start: 1px dashed var(--gm-outline);
+  }
+  .blank-card__eyebrow {
+    margin: 0;
+    font-weight: 700;
+    color: var(--gm-on-surface-variant);
+  }
+  .blank-card h2 {
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+  .blank-card h3 {
+    margin: var(--space-md) 0 var(--space-xs);
+  }
+  .blank-card__field {
+    margin: 0;
+  }
+  .blank-card__needs,
+  .blank-card__steps {
+    margin: 0;
+    padding: 0;
+  }
+  .blank-card__needs {
+    list-style: none;
+  }
+  .blank-card__needs li {
+    display: flex;
+    align-items: flex-end;
+    gap: var(--space-xs);
+  }
+  .blank-card__needs .blank-line {
+    flex: 1 1 auto;
+  }
+  .blank-card__steps {
+    padding-inline-start: 1.75rem;
+  }
+  .blank-card__steps li {
+    padding-block-start: var(--space-xs);
+  }
+  .blank-card__steps .blank-line {
+    display: block;
+  }
+  .blank-card__box {
+    flex: none;
+    width: 1.1em;
+    height: 1.1em;
+    margin-block-end: 0.3em;
+    border: 2px solid var(--gm-on-surface);
+    border-radius: 2px;
+  }
+  .blank-line {
+    display: block;
+    min-height: 2.5rem;
+    margin-block: var(--space-2xs);
+    border-block-end: 1px solid var(--gm-on-surface);
+  }
+  .blank-line--wide {
+    width: 100%;
+  }
+  .blank-line--short {
+    display: inline-block;
+    width: 8rem;
+    min-height: 0;
+    margin: 0;
+    vertical-align: baseline;
+  }
+  .blank-card__stop {
+    margin-block: var(--space-sm);
+    padding: var(--space-sm);
+    border: 1px solid var(--gm-on-surface);
+  }
+  .blank-card__stop p {
+    margin: 0;
+  }
+  .blank-card__made,
+  .blank-card__foot {
+    margin: var(--space-md) 0 0;
+  }
+  .blank-card__foot {
+    color: var(--gm-on-surface-variant);
+    font-size: var(--text-sm);
+  }
+
+  @media print {
+    .blank-page {
+      max-width: none;
+    }
+    .blank-card {
+      max-width: none;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: none;
+      color: #000;
+    }
+    .blank-card__front {
+      break-after: page;
+    }
+    .blank-card__front + .blank-card__back {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      break-before: page;
+    }
+    .blank-card__front,
+    .blank-card__back {
+      font-size: 14pt;
+      line-height: 1.35;
+    }
+    .blank-card h2 {
+      font-size: 20pt;
+    }
+    .blank-card h3 {
+      font-size: 16pt;
+      break-after: avoid;
+      color: #000;
+    }
+    .blank-card__eyebrow,
+    .blank-card__foot {
+      color: #000;
+      font-size: 14pt;
+    }
+    .blank-line {
+      min-height: 9mm;
+      border-color: #000;
+    }
+    .blank-card__box {
+      border-color: #000;
+    }
+    .blank-card__stop {
+      border-color: #000;
+    }
+  }
+</style>
