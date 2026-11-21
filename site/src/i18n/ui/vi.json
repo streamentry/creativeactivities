@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Chuyển đến nội dung chính",
     "brandName": "Creative Activities",
@@ -12,10 +13,16 @@
     "machineTranslated": "Trang này được dịch tự động và chưa được người bản ngữ kiểm tra.",
     "readOriginal": "Đọc bản gốc tiếng Anh",
     "nav": {
+      "find": "Find an activity",
       "games": "Trò chơi",
       "activities": "Hoạt động",
       "caregiving": "Chăm sóc",
-      "brainHealth": "Sức khỏe não bộ"
+      "brainHealth": "Sức khỏe não bộ",
+      "crafts": "Thủ công",
+      "kids": "Trẻ em",
+      "together": "Cùng nhau",
+      "creativeCalm": "Thư giãn sáng tạo",
+      "search": "Tìm kiếm"
     },
     "faqTitle": "Hỏi và đáp",
     "breadcrumb": "Đường dẫn trang",
@@ -27,6 +34,21 @@
       "smaller": "Chữ thường",
       "larger": "Chữ lớn hơn",
       "contrast": "Độ tương phản cao hơn"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +57,12 @@
     "conversationCards": "Thẻ trò chuyện",
     "pictureBingo": "Lô tô hình ảnh",
     "allGames": "Tất cả trò chơi",
+    "pictures": "Hình ảnh để in",
     "activityIdeas": "Ý tưởng hoạt động",
     "ideas101": "101 ý tưởng hoạt động",
     "lateStage": "Hoạt động cho giai đoạn muộn",
     "printable": "Hoạt động in ra giấy",
-    "allActivities": "Tất cả hoạt động",
+    "allActivities": "Tất cả hướng dẫn hoạt động",
     "forCaregivers": "Dành cho người chăm sóc",
     "playTogether": "Cách chơi cùng nhau",
     "selfCare": "Chăm sóc chính mình",
@@ -52,10 +75,15 @@
     "app": "Ứng dụng Creative Activities",
     "appHelp": "Hướng dẫn dùng ứng dụng",
     "support": "Hỗ trợ",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Pháp lý",
     "sitePrivacy": "Quyền riêng tư của trang web",
     "appPrivacy": "Chính sách quyền riêng tư của ứng dụng",
     "privacyChoices": "Lựa chọn về quyền riêng tư",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Điều khoản và giấy phép ứng dụng",
     "safety": "An toàn và mục đích sử dụng",
     "accessibility": "Hỗ trợ tiếp cận",
@@ -63,14 +91,18 @@
     "allLegal": "Tất cả thông tin pháp lý",
     "note": "Creative Activities mang đến những hoạt động đơn giản để cùng nhau vui vẻ. Đây không phải lời khuyên y tế, bài kiểm tra hay cách điều trị, và không chẩn đoán, đo lường hay chấm điểm bất kỳ ai. Nếu có thắc mắc về sức khỏe, hãy hỏi ý kiến bác sĩ. Trong trường hợp khẩn cấp, hãy gọi 115.",
     "publisher": "Phát hành bởi Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Hình ảnh để in"
+    "crafts": "Thủ công cho mọi lứa tuổi",
+    "kids": "Hoạt động cho trẻ em",
+    "together": "Hoạt động để làm cùng nhau",
+    "creativeCalm": "Thư giãn sáng tạo",
+    "dementiaActivities": "Hoạt động dành cho người bị sa sút trí tuệ"
   },
   "home": {
-    "title": "Trò chơi, hoạt động cho người sa sút trí tuệ | Creative Activities",
-    "description": "Trò chơi hình ảnh miễn phí, nhẹ nhàng và ý tưởng hoạt động cho người sa sút trí tuệ, bệnh Alzheimer và người chăm sóc. Không đăng ký, hẹn giờ hay điểm số.",
+    "title": "Hoạt động sáng tạo dành cho người đang chăm sóc người thân",
+    "description": "Hoạt động sáng tạo miễn phí dành cho người đang chăm sóc người thân: thủ công, hoạt động cho trẻ em, việc làm cùng nhau và ý tưởng sáng tạo nhẹ nhàng.",
     "eyebrow": "Miễn phí · Không cần đăng ký · Không hẹn giờ, không điểm số",
-    "h1": "Trò chơi và hoạt động nhẹ nhàng cho người sa sút trí tuệ",
-    "lede": "Trò chơi hình ảnh đơn giản, những tấm ảnh thân quen và các hoạt động để cùng nhau tận hưởng, theo nhịp độ của riêng bạn.",
+    "h1": "Cùng nhau làm một điều gì đó",
+    "lede": "Tìm một hoạt động phù hợp với người bạn đang chăm sóc, với thời điểm hiện tại và những gì bạn đang có. Thủ công dễ làm, tranh vẽ cho trẻ em, việc làm cùng nhau và ý tưởng sáng tạo nhẹ nhàng, kèm phiên bản dễ hơn và thẻ có thể in ra. Bạn có thể dừng bất cứ lúc nào.",
     "playGame": "Chơi một trò chơi",
     "findIdeas": "Tìm ý tưởng hoạt động",
     "facts": [
@@ -105,13 +137,13 @@
     "ideas101": "101 ý tưởng hoạt động",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Giai đoạn đầu",
         "text": "Tiếp tục làm những việc người thân yêu thích, chỉ cần điều chỉnh một chút: sở thích, đi chơi, trò chơi chữ và cùng nhau lên kế hoạch.",
         "label": "Ý tưởng cho giai đoạn đầu"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Giai đoạn giữa",
         "text": "Những việc đơn giản, quen thuộc, chia thành từng bước nhỏ: gấp đồ, phân loại, âm nhạc, trò chơi hình ảnh và đi dạo ngắn.",
         "label": "Ý tưởng cho giai đoạn giữa"
@@ -123,10 +155,10 @@
         "label": "Ý tưởng cho giai đoạn muộn"
       }
     ],
-    "specificHtml": "Bạn đang tìm điều gì cụ thể? Hãy thử <a href=\"/activities/alzheimers/\">hoạt động và trò chơi cho người sống chung với bệnh Alzheimer</a>, <a href=\"/activities/memory-games/\">trò chơi trí nhớ nhẹ nhàng</a>, <a href=\"/activities/trivia/\">câu đố dễ</a> hoặc <a href=\"/activities/puzzles/\">trò ghép hình</a>.",
+    "specificHtml": "Đang tìm điều gì cụ thể? Hãy thử <a href=\"/dementia-activities/\">hoạt động và trò chơi dành cho bệnh Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">trò chơi ghép hình và trò chơi bàn</a>, <a href=\"/together/conversation-games-for-all-ages/\">trò chơi trò chuyện</a> hoặc <a href=\"/together/puzzles-and-table-games/\">câu đố ghép hình</a>.",
     "approachEyebrow": "Cách chúng tôi làm",
-    "approachTitle": "Một hoạt động chung, không phải bài kiểm tra trí nhớ",
-    "approachLede": "Nhiều “trò chơi rèn trí não” được xây dựng quanh tốc độ, điểm số và chuỗi ngày chơi liên tục. Với người sống chung với sa sút trí tuệ, điều đó có thể giống như một kỳ thi. Chúng tôi làm điều ngược lại.",
+    "approachTitle": "Một hoạt động chung, không phải một bài kiểm tra",
+    "approachLede": "Nhiều “trò chơi rèn trí não” được xây dựng xoay quanh tốc độ, điểm số và chuỗi thành tích. Với người đang mệt, không khỏe hoặc đang sống với sa sút trí tuệ, điều đó có thể khiến họ thấy như một kỳ thi. Chúng tôi làm điều ngược lại.",
     "approachLink": "Vì sao chúng tôi thiết kế như vậy",
     "principles": [
       {
@@ -165,14 +197,14 @@
         "text": "Những lý do thường gặp khiến người thân từ chối, và cách nhẹ nhàng để thử lại sau."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Cài đặt máy tính bảng",
-        "text": "Chữ lớn hơn, ít bị làm phiền hơn và một màn hình chính đơn giản."
+        "href": "/activities/group-art-activities/",
+        "title": "Hoạt động nghệ thuật nhóm",
+        "text": "Các dự án chung cho một bàn có nhiều người, với một phần việc cho mỗi người."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Hoạt động in ra giấy miễn phí",
-        "text": "Tìm từ chữ to, tranh tô màu, lô tô và thẻ trò chuyện."
+        "href": "/activities/ideas/",
+        "title": "101 ý tưởng hoạt động",
+        "text": "Những ý tưởng đơn giản, được phân loại theo những gì bạn có và mức năng lượng hiện có."
       }
     ],
     "researchTitle": "Sức khỏe não bộ: nghiên cứu thực sự nói gì",
@@ -184,16 +216,16 @@
     "aboutApp": "Về ứng dụng",
     "faq": [
       {
-        "q": "Những trò chơi nào phù hợp với người sa sút trí tuệ?",
-        "a": "Trò chơi phù hợp là trò đơn giản, quen thuộc và không gây áp lực: ghép đôi hình ảnh lớn, phân loại, ghép tranh dễ, nói tiếp câu tục ngữ quen thuộc, tô màu, lô tô hình ảnh và thẻ trò chuyện. Lựa chọn tốt nhất là trò mà người thân thấy vui hôm nay. Tránh hẹn giờ, điểm số và bất cứ điều gì giống như bài kiểm tra."
+        "q": "Trò chơi nào phù hợp với người lớn tuổi?",
+        "a": "Trò chơi phù hợp là những trò đơn giản, quen thuộc và không gây áp lực: ghép hình ảnh lớn, phân loại, ghép hình đơn giản, hoàn thành câu nói quen thuộc, tô màu, lô tô hình ảnh và thẻ trò chuyện. Chúng phù hợp với nhiều người lớn tuổi, kể cả người đang sống với sa sút trí tuệ. Lựa chọn tốt nhất là trò mà người đó thích vào hôm nay. Hãy tránh đồng hồ bấm giờ, điểm số và mọi thứ khiến họ cảm thấy như đang bị kiểm tra."
       },
       {
-        "q": "Những trò chơi cho người sa sút trí tuệ này có miễn phí không?",
+        "q": "Những trò chơi này có miễn phí không?",
         "a": "Có. Mọi trò chơi và tài liệu in trên Creative Activities đều miễn phí, không cần tài khoản, đăng ký hay tải về. Các trò chơi chạy trên trình duyệt web của điện thoại, máy tính bảng hoặc máy tính."
       },
       {
         "q": "Trò chơi rèn trí não có phòng ngừa được sa sút trí tuệ không?",
-        "a": "Chưa có trò chơi nào được chứng minh là phòng ngừa được sa sút trí tuệ, và Creative Activities không tuyên bố điều trị hay phòng ngừa bất cứ điều gì. Trò chơi của chúng tôi là để vui và có thời gian bên nhau. Mục sức khỏe não bộ của chúng tôi giải thích những gì nghiên cứu cho thấy và chưa cho thấy."
+        "a": "Chưa có trò chơi nào được chứng minh là ngăn ngừa sa sút trí tuệ, và Creative Activities không tuyên bố điều trị hay ngăn ngừa bất cứ điều gì. Trò chơi của chúng tôi dành cho niềm vui và thời gian bên nhau, và không trang hoạt động nào đưa ra tuyên bố về sức khỏe."
       },
       {
         "q": "Các trò chơi này có phù hợp với người sống chung với bệnh Alzheimer không?",
@@ -209,7 +241,36 @@
       },
       {
         "q": "Ai làm ra Creative Activities?",
-        "a": "Creative Activities là một nhóm nhỏ làm những hoạt động hình ảnh êm dịu, phù hợp với người lớn, dành cho gia đình và người chăm sóc, trên web và dưới dạng ứng dụng miễn phí. Chúng tôi không phải là nhân viên y tế, và không nội dung nào ở đây là lời khuyên y tế."
+        "a": "Creative Activities là một nhóm nhỏ làm các hoạt động sáng tạo nhẹ nhàng, dành cho người lớn, cho bất kỳ ai đang chăm sóc người thân, trên web và dưới dạng ứng dụng miễn phí. Chúng tôi không phải là bác sĩ lâm sàng, và không có nội dung nào ở đây là lời khuyên y tế."
+      }
+    ],
+    "groupsEyebrow": "Tìm lối vào phù hợp",
+    "groupsTitle": "Bốn loại hoạt động sáng tạo",
+    "groupsLede": "Hãy bắt đầu với nhóm phù hợp với người bạn đang ở cùng và những gì bạn có. Mỗi trang đều có phiên bản dễ hơn và lưu ý an toàn.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Thủ công",
+        "text": "Các dự án từ giấy, sơn, đồ tái chế và theo mùa, mỗi dự án đều có phiên bản dễ hơn.",
+        "label": "Xem hoạt động thủ công"
+      },
+      {
+        "href": "/kids/",
+        "title": "Trẻ em",
+        "text": "Hội họa và trò chơi cho trẻ, có người lớn ở bên và lưu ý an toàn rõ ràng.",
+        "label": "Xem hoạt động cho trẻ"
+      },
+      {
+        "href": "/together/",
+        "title": "Cùng nhau",
+        "text": "Trò chuyện, câu đố, thời gian ngoài trời và những cách giữ gần gũi giữa các thế hệ.",
+        "label": "Xem việc làm cùng nhau"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Thư giãn sáng tạo",
+        "text": "Những khoảnh khắc sáng tạo chậm rãi, yên tĩnh với bút chì, trang giấy hoặc một bài hát. Không phải liệu pháp.",
+        "label": "Xem thư giãn sáng tạo"
       }
     ]
   },
@@ -248,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Hoạt động",
-      "title": "Hoạt động cho người sa sút trí tuệ",
-      "seo": "Hoạt động cho người sa sút trí tuệ theo từng giai đoạn",
-      "description": "Ý tưởng hoạt động cho người sống chung với sa sút trí tuệ ở mọi giai đoạn: âm nhạc, ôn kỷ niệm, việc nhà, giác quan, thủ công, ngoài trời và tài liệu in miễn phí.",
-      "lede": "Một hoạt động ý nghĩa là bất cứ điều gì mang lại sự dễ chịu, cảm giác có ích hay một khoảnh khắc gắn kết."
+      "label": "Hướng dẫn hoạt động",
+      "title": "Hướng dẫn hoạt động",
+      "seo": "Hướng dẫn hoạt động: Ý tưởng, vật liệu nghệ thuật và cách bắt đầu",
+      "description": "Hướng dẫn đơn giản về các hoạt động sáng tạo bạn có thể làm cùng ai đó: ý tưởng dễ làm, vật liệu nghệ thuật tiết kiệm, nghệ thuật nhóm, thư, kỷ niệm và giải thích về liệu pháp nghệ thuật.",
+      "lede": "Hướng dẫn ngắn gọn, thiết thực để chọn và bắt đầu một hoạt động cùng ai đó, bất kể tuổi tác hay khả năng của họ."
+    },
+    "crafts": {
+      "label": "Thủ công",
+      "title": "Thủ công cho mọi lứa tuổi",
+      "seo": "Thủ công dễ làm cho mọi lứa tuổi, kèm phiên bản dễ hơn",
+      "description": "Thủ công dễ làm cho người lớn, trẻ em và gia đình: từ giấy, tô màu, đồ tái chế và theo mùa, kèm phiên bản dễ cầm nắm hơn và phiên bản ngồi, không cần kỹ năng đặc biệt.",
+      "lede": "Thủ công bắt đầu từ những thứ hầu hết gia đình đều có sẵn, mỗi món đều có phiên bản dễ hơn, để ai cũng có thể làm được điều gì đó."
+    },
+    "kids": {
+      "label": "Trẻ em",
+      "title": "Hoạt động sáng tạo cho trẻ em",
+      "seo": "Hoạt động sáng tạo cho trẻ em: Nghệ thuật, giác quan và sự bình tĩnh",
+      "description": "Hoạt động sáng tạo cho trẻ: vẽ tranh cho trẻ nhỏ, nghệ thuật theo quá trình, trò chơi kích thích giác quan, thủ công ngày mưa và ý tưởng giúp trẻ bình tĩnh lại, kèm lưu ý an toàn và phiên bản cho nhu cầu giác quan.",
+      "lede": "Ý tưởng nghệ thuật và trò chơi cho trẻ ở nhiều độ tuổi và nhu cầu khác nhau, có lưu ý an toàn rõ ràng và người lớn ở gần."
+    },
+    "together": {
+      "label": "Cùng nhau",
+      "title": "Hoạt động để làm cùng nhau",
+      "seo": "Hoạt động để làm cùng nhau, qua nhiều thế hệ",
+      "description": "Hoạt động cho hai thế hệ trở lên: trò chơi trò chuyện, câu đố, thời gian ngoài trời, thủ công cho ông bà và cháu, và cách giữ liên lạc gần gũi khi ở xa.",
+      "lede": "Ý tưởng để chia sẻ thời gian với cha mẹ, ông bà, con cái hoặc bạn bè, ở nhà, ngoài trời, trong chuyến thăm hoặc từ xa."
+    },
+    "creative-calm": {
+      "label": "Thư giãn sáng tạo",
+      "title": "Thư giãn sáng tạo",
+      "seo": "Thư giãn sáng tạo: Nghệ thuật và hoạt động thư giãn",
+      "description": "Hoạt động sáng tạo thư giãn cho người lớn và người chăm sóc: nghệ thuật chánh niệm, viết nhật ký, âm nhạc, khoảnh khắc giác quan và buổi chiều yên tĩnh. Đây là hoạt động sáng tạo, không phải liệu pháp.",
+      "lede": "Những cách nhẹ nhàng để chậm lại cùng bút chì, trang giấy hoặc một bài hát. Đây là hoạt động sáng tạo, không phải liệu pháp, và không đòi hỏi kỹ năng nào."
     },
     "caregiving": {
-      "label": "Chăm sóc",
-      "title": "Hướng dẫn chăm sóc",
-      "seo": "Chăm sóc người sa sút trí tuệ: hướng dẫn hằng ngày",
-      "description": "Hướng dẫn thiết thực cho người chăm sóc người sa sút trí tuệ: chơi cùng nhau, giao tiếp, khi bị từ chối, bồn chồn chiều tối, máy tính bảng và tự chăm sóc.",
-      "lede": "Những gợi ý dễ hiểu, thiết thực cho từng khoảnh khắc thường ngày khi chăm sóc người sống chung với sa sút trí tuệ, kể cả việc chăm sóc chính mình."
+      "label": "Chăm sóc sa sút trí tuệ",
+      "title": "Chăm sóc người bị sa sút trí tuệ",
+      "seo": "Chăm sóc người bị sa sút trí tuệ: Hoạt động và sự hỗ trợ",
+      "description": "Hướng dẫn cho gia đình đang chăm sóc người bị sa sút trí tuệ: cách cùng chơi, cần làm gì khi họ từ chối, và nơi tìm sự hỗ trợ đáng tin cậy sau khi được chẩn đoán.",
+      "lede": "Trợ giúp ưu tiên hoạt động cho gia đình đang chăm sóc người sống với sa sút trí tuệ, và nơi tìm lời khuyên y tế và chăm sóc."
     },
     "brain-health": {
       "label": "Sức khỏe não bộ",
@@ -282,7 +371,16 @@
     "tryTogether": "Cùng thử",
     "relatedGuides": "Hướng dẫn liên quan",
     "related": "Liên quan",
-    "startHere": "Bắt đầu từ đây"
+    "startHere": "Bắt đầu từ đây",
+    "staleAria": "Bản dịch đã cũ",
+    "staleTitle": "Bản dịch này đã cũ",
+    "staleText": "Bản này được tạo từ phiên bản trước của trang tiếng Anh, và trang tiếng Anh đã thay đổi kể từ đó. Trang tiếng Anh là bản hiện hành.",
+    "staleHealth": "Nội dung này cung cấp thông tin sức khỏe, vì vậy hãy kiểm tra trang tiếng Anh và hỏi bác sĩ hoặc y tá trước khi làm theo.",
+    "staleLink": "Đọc trang tiếng Anh hiện hành"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Lưu ý về thông tin sức khỏe",
@@ -291,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Một hoạt động chung, không phải bài kiểm tra trí nhớ",
+      "title": "Một hoạt động chung, không phải một bài kiểm tra",
       "seoTitle": "Về Creative Activities: cách chúng tôi làm",
-      "description": "Vì sao trò chơi Creative Activities không có hẹn giờ, điểm số hay chuỗi ngày chơi, vì sao hình ảnh luôn hiện rõ, và chúng tôi sẽ và sẽ không tuyên bố gì về sa sút trí tuệ.",
+      "description": "Vì sao Creative Activities không có đồng hồ bấm giờ, điểm số hay chuỗi ngày liên tiếp, vì sao hình ảnh luôn được hiển thị, và những gì chúng tôi sẽ không khẳng định về sức khỏe.",
       "crumb": "Cách chúng tôi làm",
-      "lede": "Creative Activities làm những hoạt động hình ảnh êm dịu, phù hợp với người lớn, để người chăm sóc và người sống chung với sa sút trí tuệ có thể cùng ngồi bên nhau tận hưởng.",
-      "bodyHtml": "<h2>Điều chúng tôi tin</h2><p>Ý nghĩa của một hoạt động nằm ở chính khoảnh khắc đó: một cuộc trò chuyện, một nụ cười, niềm vui khi ghép được hai hình với nhau, hay đơn giản là ngồi gần nhau. Mục đích không phải là đo lường ai, thúc ép họ cố gắng hơn hay chứng minh điều gì.</p><p>Nhiều ứng dụng rèn trí não được thiết kế quanh tốc độ, điểm số, chuỗi ngày chơi và cấp độ. Với người sống chung với sa sút trí tuệ, điều đó có thể giống như một kỳ thi họ không thể vượt qua. Chúng tôi thiết kế điều ngược lại, và tự đặt cho mình những nguyên tắc sau:</p><ul><li><strong>Không có gì là sai.</strong> Không đồng hồ, điểm số, bộ đếm lượt, mạng chơi, chuỗi ngày, pháo giấy hay đếm ngược, trên bất kỳ màn hình nào.</li><li><strong>Nhận ra thay vì phải nhớ lại.</strong> Hình ảnh luôn hiện rõ theo mặc định. Các gợi ý mời trò chuyện và không bao giờ hỏi đố tên hay kỷ niệm.</li><li><strong>To, rõ và ổn định.</strong> Chữ và hình lớn, độ tương phản cao, các nút luôn ở cùng một chỗ.</li><li><strong>Tôn trọng người lớn tuổi.</strong> Hình ảnh đời thực, lời lẽ giản dị và ấm áp. Không hoạt hình, không khen kiểu dỗ trẻ, không phần thưởng bằng biểu tượng cảm xúc.</li><li><strong>Dễ dàng dừng lại.</strong> Nút “Tạm nghỉ thôi” luôn hiện rõ. Dừng giữa chừng cũng là một kết thúc tốt.</li><li><strong>Riêng tư theo mặc định.</strong> Không tài khoản, không quảng cáo. Ảnh bạn chọn được giữ trên thiết bị của bạn.</li></ul><h2>Điều chúng tôi không tuyên bố</h2><p>Trò chơi của chúng tôi là để vui và gắn kết. Chúng không chẩn đoán, kiểm tra, đo lường, điều trị, làm chậm hay phòng ngừa sa sút trí tuệ hoặc bệnh Alzheimer, và không ai nên chọn chúng vì lý do đó. Khi viết về nghiên cứu trên các <a href=\"/brain-health/\">trang sức khỏe não bộ</a>, chúng tôi nói rõ những chỗ bằng chứng còn yếu, và không bao giờ gắn nghiên cứu với trò chơi của chính mình.</p><h2>Chúng tôi là ai</h2><p>Creative Activities là một nhóm nhỏ độc lập. Chúng tôi không phải là nhân viên y tế. Các bài hướng dẫn được viết dựa trên khuyến nghị đã công bố của những tổ chức như National Institute on Aging và Alzheimer’s Association, và bài nào cũng liệt kê nguồn tham khảo. Đọc thêm <a href=\"/editorial-policy/\">cách chúng tôi viết và kiểm tra các trang</a>.</p><h2>Hãy cho chúng tôi biết điều gì có ích</h2><p>Chúng tôi rất muốn nghe điều gì hiệu quả và điều gì chưa với bạn, nhất là từ người sống chung với sa sút trí tuệ, người chăm sóc trong gia đình và nhân viên tổ chức hoạt động. Gửi email đến <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities tạo ra các hoạt động nhẹ nhàng dành cho người lớn, để hai người có thể cùng tận hưởng bên nhau, dù một người đang chăm sóc người kia hay họ chỉ muốn dành thời gian cho nhau.",
+      "bodyHtml": "<h2>Dành cho ai</h2><p>Dành cho bất kỳ ai đang chăm sóc một người: cha mẹ, ông bà, con cái, bạn đời, bạn bè, hoặc người đang sống chung với chứng sa sút trí tuệ. Gia đình, người lớn tuổi và nhân viên tổ chức hoạt động đều có thể dùng chung các trang này.</p><h2>Điều chúng tôi tin</h2><p>Giá trị của một hoạt động nằm ở chính khoảnh khắc đó: một cuộc trò chuyện, một nụ cười, niềm vui khi ghép đúng hai hình ảnh, hay đơn giản là được ngồi gần nhau. Hoạt động không nhằm đánh giá ai, thúc ép họ đi xa hơn hay chứng minh điều gì.</p><p>Nhiều ứng dụng luyện trí não được thiết kế xoay quanh tốc độ, điểm số, chuỗi ngày liên tiếp và các cấp độ. Với một người đang mệt mỏi, không khỏe, hoặc đang sống chung với chứng sa sút trí tuệ, điều đó có thể giống như một kỳ thi mà họ không thể vượt qua. Chúng tôi làm điều ngược lại, và chúng tôi tự ràng buộc mình theo các nguyên tắc sau:</p><ul><li><strong>Không có gì để thất bại.</strong> Không có đồng hồ, điểm số, bộ đếm nước đi, mạng sống, chuỗi ngày liên tiếp, pháo giấy hay đếm ngược, trên bất kỳ màn hình nào.</li><li><strong>Nhận ra thay vì nhớ lại.</strong> Hình ảnh luôn được hiển thị theo mặc định. Các gợi ý mời gọi trò chuyện và không bao giờ kiểm tra tên gọi hay ký ức.</li><li><strong>Lớn, rõ ràng và ổn định.</strong> Chữ và hình ảnh lớn, độ tương phản cao, và các nút điều khiển luôn nằm ở cùng một chỗ.</li><li><strong>Sự tôn trọng dành cho người lớn.</strong> Hình ảnh thực tế và lời lẽ giản dị, ấm áp. Không có hình hoạt hình, lời khen kiểu dỗ dành hay phần thưởng bằng biểu tượng cảm xúc.</li><li><strong>Luôn có lối thoát dễ dàng.</strong> “Tạm dừng ở đây” luôn hiển thị. Dừng lại giữa chừng cũng là một kết quả tốt.</li><li><strong>Riêng tư theo mặc định.</strong> Không tài khoản, không quảng cáo. Ảnh bạn chọn sẽ được giữ trên thiết bị của bạn.</li></ul><h2>Những điều chúng tôi không khẳng định</h2><p>Các trò chơi và hoạt động của chúng tôi nhằm mang lại niềm vui và sự gắn kết. Chúng không chẩn đoán, kiểm tra, đo lường, điều trị, làm chậm hay ngăn ngừa chứng sa sút trí tuệ hoặc bệnh Alzheimer, và không ai nên chọn chúng vì mục đích đó. Khi viết về nghiên cứu sức khỏe, chúng tôi nói rõ những chỗ bằng chứng còn yếu, và chúng tôi không bao giờ liên hệ điều đó với các hoạt động của chính mình.</p><h2>Chúng tôi là ai</h2><p>Creative Activities là một nhóm nhỏ, độc lập. Chúng tôi không phải bác sĩ lâm sàng. Các hướng dẫn của chúng tôi được viết dựa trên tài liệu đã công bố của các tổ chức như National Institute on Aging và Alzheimer’s Association, và mỗi hướng dẫn đều liệt kê nguồn tham khảo. Hãy đọc <a href=\"/editorial-policy/\">cách chúng tôi viết và kiểm tra các trang</a>.</p><h2>Hãy cho chúng tôi biết điều gì sẽ hữu ích</h2><p>Chúng tôi rất mong nghe những gì phù hợp với bạn và những gì không, đặc biệt từ những người đang sống chung với chứng sa sút trí tuệ, người chăm sóc trong gia đình và nhân viên tổ chức hoạt động. Hãy gửi email đến <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Cách chúng tôi viết và kiểm tra các trang",
       "seoTitle": "Chính sách biên tập",
-      "description": "Cách Creative Activities tìm hiểu, viết, dẫn nguồn và cập nhật các trang về hoạt động cho người sa sút trí tuệ và sức khỏe não bộ, và những gì chúng tôi không bao giờ đăng.",
+      "description": "Cách Creative Activities nghiên cứu, viết, tìm nguồn và cập nhật các trang hoạt động và sức khỏe của mình, cùng những nội dung chúng tôi sẽ không bao giờ đăng.",
       "crumb": "Chính sách biên tập",
       "bodyHtml": "<h2>Nguồn của chúng tôi</h2><p>Các bài hướng dẫn dựa trên khuyến nghị công khai của những tổ chức như National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance và NHS, cùng các nghiên cứu đã được bình duyệt như tổng quan Cochrane và các thử nghiệm lâm sàng lớn. Bài nào cũng liệt kê nguồn mà bài dựa vào. Chúng tôi mở đọc từng nguồn trước khi trích dẫn, và chỉ nêu những gì nguồn đó thực sự nói.</p><h2>Cách chúng tôi viết</h2><ul><li>Thiết thực trước tiên: hôm nay nên làm gì, bằng lời lẽ dễ hiểu.</li><li>Trung thực về bằng chứng: chúng tôi nói “có liên quan đến”, “có thể” và “bằng chứng chưa thống nhất” khi sự thật là như vậy.</li><li>Tôn trọng: chúng tôi viết về người sống chung với sa sút trí tuệ như những người trưởng thành, và không bao giờ dùng lời lẽ hỏi đố hay làm người khác xấu hổ.</li><li>Không bịa đặt: không số liệu, trích dẫn, chuyên gia, nghiên cứu, đánh giá hay lời chứng thực tự dựng lên.</li></ul><h2>Ai xem lại các trang</h2><p>Các trang do nhóm Creative Activities viết và kiểm tra, có dùng công cụ viết bằng AI để hỗ trợ tìm hiểu và soạn bản nháp. Mỗi trang đều được nhóm đối chiếu với nguồn. Các trang của chúng tôi <strong>chưa</strong> được bác sĩ hay nhân viên y tế nào xem lại, và chúng tôi không nói khác đi. Đây là thông tin chung, không phải lời khuyên y tế.</p><h2>Những gì chúng tôi không bao giờ đăng</h2><ul><li>Tuyên bố rằng một trò chơi, món ăn, thực phẩm bổ sung, cách nhịn ăn hay thói quen nào đó phòng ngừa, điều trị, làm chậm hoặc chữa khỏi sa sút trí tuệ.</li><li>Bài kiểm tra, câu đố hay điểm số ngụ ý rằng ai đó mắc hoặc không mắc sa sút trí tuệ.</li><li>Lời khuyên bắt đầu, ngừng hay thay đổi bất kỳ loại thuốc nào.</li><li>Quảng cáo hay nội dung được tài trợ trá hình thành lời khuyên.</li></ul><h2>Cập nhật và đính chính</h2><p>Mỗi trang đều ghi ngày cập nhật gần nhất. Nếu bạn thấy lỗi hoặc một nguồn đã lỗi thời, vui lòng gửi email đến <a href=\"mailto:{email}\">{email}</a>, chúng tôi sẽ kiểm tra ngay.</p>"
     },
     "faq": {
       "title": "Hỏi và đáp",
-      "seoTitle": "Trò chơi và hoạt động cho người sa sút trí tuệ: Hỏi đáp",
-      "description": "Giải đáp thắc mắc về trò chơi và hoạt động cho người sa sút trí tuệ: nên thử trò nào, chơi bao lâu, giai đoạn muộn, sức khỏe não bộ và quyền riêng tư.",
+      "seoTitle": "Câu hỏi và giải đáp về Creative Activities",
+      "description": "Giải đáp các câu hỏi thường gặp về trò chơi và hoạt động: nên thử gì, nên chơi bao lâu, ý tưởng cho nhóm và giai đoạn sau, sức khỏe và quyền riêng tư.",
       "crumb": "Hỏi và đáp",
       "lede": "Câu trả lời ngắn gọn, dễ hiểu cho những câu hỏi người chăm sóc hay hỏi nhất.",
       "groups": [
@@ -317,7 +415,7 @@
           "title": "Về các trò chơi",
           "items": [
             {
-              "q": "Những trò chơi nào tốt nhất cho người sa sút trí tuệ?",
+              "q": "Những trò chơi nào tốt nhất cho người lớn tuổi?",
               "a": "Trò chơi tốt nhất là trò quen thuộc, đơn giản và không gây áp lực, và trò phù hợp là bất cứ trò nào người thân thấy vui hôm nay. Ghép đôi với hình luôn hiện rõ, phân loại, ghép tranh dễ, nói tiếp câu tục ngữ quen thuộc, tô màu và lô tô hình ảnh đều hợp với nhiều người. Tránh hẹn giờ, điểm số và bất cứ điều gì giống như bài kiểm tra."
             },
             {
@@ -362,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Sức khỏe não bộ",
+          "title": "Sa sút trí tuệ và sức khỏe",
           "items": [
             {
               "q": "Trò chơi có thể phòng ngừa hoặc làm chậm sa sút trí tuệ không?",
@@ -393,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Tìm hiểu thêm: <a href=\"/caregiving/how-to-play-together/\">cách chơi cùng nhau</a>, <a href=\"/caregiving/when-they-say-no/\">khi người thân nói không</a>, <a href=\"/activities/late-stage/\">hoạt động cho giai đoạn muộn</a> và <a href=\"/brain-health/can-dementia-be-prevented/\">có thể phòng ngừa sa sút trí tuệ không?</a>"
+      "moreHtml": "Chi tiết hơn: <a href=\"/caregiving/how-to-play-together/\">cách chơi cùng nhau</a>, <a href=\"/caregiving/when-they-say-no/\">khi họ nói không</a>, <a href=\"/activities/late-stage/\">các hoạt động ở giai đoạn sau</a> và <a href=\"/dementia-activities/\">hoạt động cho người sa sút trí tuệ tại nhà</a>."
     },
     "handout": {
       "title": "Trò chơi miễn phí, nhẹ nhàng cho người sa sút trí tuệ",
@@ -407,21 +505,21 @@
     },
     "organizations": {
       "title": "Dành cho viện dưỡng lão, thư viện và nhóm hỗ trợ",
-      "seoTitle": "Hoạt động miễn phí cho người sa sút trí tuệ ở viện dưỡng lão",
-      "description": "Cách viện dưỡng lão, trung tâm chăm sóc ban ngày, thư viện và nhóm hỗ trợ dùng trò chơi miễn phí cho người sa sút trí tuệ, kèm mô tả để thêm vào danh sách.",
+      "seoTitle": "Hoạt động miễn phí cho viện dưỡng lão, thư viện và nhóm cộng đồng",
+      "description": "Cách viện dưỡng lão, chương trình chăm sóc ban ngày cho người lớn, thư viện, cơ quan hỗ trợ người cao tuổi và nhóm hỗ trợ sử dụng các trò chơi và hướng dẫn hoạt động miễn phí của chúng tôi, cùng cách gửi văn bản để đưa chúng tôi vào danh sách tài nguyên.",
       "crumb": "Dành cho tổ chức",
       "lede": "Mọi thứ trên trang web này đều được dùng miễn phí với người cao tuổi, hội viên và khách hàng của bạn, không cần tài khoản, giấy phép hay phí.",
-      "shortText": "{name}: trò chơi hình ảnh miễn phí, nhẹ nhàng và hướng dẫn hoạt động cho người sống chung với sa sút trí tuệ và người chăm sóc. Không cần đăng ký, không hẹn giờ, không điểm số.",
-      "longText": "{name} ({domain}) có {count} trò chơi miễn phí trên trình duyệt, làm riêng cho người sống chung với sa sút trí tuệ, gồm ghép đôi với hình luôn hiện rõ, ghép tranh dễ, phân loại, nói tiếp câu tục ngữ quen thuộc và lô tô hình ảnh có phiếu in ra. Không có tài khoản, quảng cáo, hẹn giờ hay điểm số. Trang web còn có các hướng dẫn hoạt động bằng lời lẽ dễ hiểu cho từng giai đoạn của sa sút trí tuệ, có trích dẫn National Institute on Aging và Alzheimer's Association.",
+      "shortText": "{name}: trò chơi hình ảnh nhẹ nhàng miễn phí và hướng dẫn hoạt động cho người lớn tuổi, gia đình và người đang sống chung với chứng sa sút trí tuệ. Không cần đăng ký, không đồng hồ, không điểm số.",
+      "longText": "{name} ({domain}) cung cấp {count} trò chơi trình duyệt miễn phí cho người lớn tuổi, gia đình và người đang sống chung với chứng sa sút trí tuệ, bao gồm trò ghép cặp với hình ảnh luôn hiển thị, trò ghép hình đơn giản, phân loại, câu nói quen thuộc và lô tô hình ảnh với thẻ có thể in. Không có tài khoản, quảng cáo, đồng hồ hay điểm số. Trang web cũng có các hướng dẫn hoạt động bằng ngôn ngữ dễ hiểu dành cho gia đình, người lớn tuổi và nhân viên, với nguồn tham khảo như National Institute on Aging và Alzheimer's Association.",
       "useTitle": "Các tổ chức có thể dùng những gì",
       "gamesItemHtml": "<strong>{count} trò chơi trên trình duyệt</strong> chạy được trên máy tính xách tay, máy tính bảng hoặc TV nối với máy tính. Không cần cài đặt, tài khoản hay tải về. Xem <a href=\"/games/\">tất cả trò chơi</a>.",
       "printablesLabel": "{count} tài liệu in:",
       "printablesAfter": "Dùng nút In trên từng trang.",
-      "moreItemsHtml": "<li><strong>Hình thức chơi nhóm:</strong> <a href=\"/games/picture-bingo/\">Lô tô hình ảnh</a> có phiếu in ra và người xướng hình trên màn hình, còn <a href=\"/activities/trivia/\">câu đố dễ</a> có 50 câu hỏi kèm lựa chọn trả lời và gợi ý trò chuyện.</li><li><strong>Hướng dẫn hoạt động</strong> cho nhân viên và gia đình, theo giai đoạn và theo loại hoạt động, viết bằng lời lẽ dễ hiểu và có nguồn. Hãy bắt đầu với <a href=\"/activities/ideas/\">101 ý tưởng hoạt động</a> hoặc <a href=\"/activities/care-home-groups/\">hoạt động nhóm ở viện dưỡng lão</a>.</li>",
+      "moreItemsHtml": "<li><strong>Định dạng theo nhóm:</strong> <a href=\"/games/picture-bingo/\">Lô tô tranh</a> có thẻ in sẵn và người đọc số trên màn hình, còn <a href=\"/together/conversation-games-for-all-ages/\">trò chơi trò chuyện</a> có câu hỏi kèm lựa chọn trả lời và gợi ý để nói chuyện.</li><li><strong>Hướng dẫn hoạt động</strong> cho nhân viên và gia đình, viết bằng ngôn ngữ dễ hiểu và có nguồn tham khảo. Bắt đầu với <a href=\"/activities/ideas/\">101 ý tưởng hoạt động</a> hoặc <a href=\"/crafts/craft-group-sessions/\">hoạt động nhóm cho viện dưỡng lão</a>.</li>",
       "restHtml": "<h2>Các nhóm dùng trang web như thế nào</h2><ul><li><strong>Viện dưỡng lão và khu chăm sóc trí nhớ:</strong> lô tô hình ảnh hoặc nói tiếp câu tục ngữ trên TV ở phòng sinh hoạt chung, một người chạm thay cho cả nhóm.</li><li><strong>Trung tâm chăm sóc ban ngày cho người cao tuổi:</strong> một góc máy tính bảng với Ghép đôi hình để ở bốn ô, cho các buổi một kèm một ngắn.</li><li><strong>Thư viện công cộng:</strong> phiếu tìm từ và thẻ trò chuyện in sẵn trong bộ đồ dùng gợi nhớ, và trang web được đánh dấu trên máy tính bảng của thư viện.</li><li><strong>Nhóm hỗ trợ người chăm sóc và quán cà phê trí nhớ:</strong> một <a href=\"/handout/\">tờ thông tin một trang để in</a> cho các gia đình mang về nhà.</li><li><strong>Bệnh viện và bộ phận lo xuất viện:</strong> tờ thông tin trong túi tài liệu cho người chăm sóc, để có hoạt động êm dịu ở nhà hoặc bên giường bệnh.</li></ul><h2>Những gì chúng tôi không làm</h2><p>Các trò chơi là để vui và có thời gian bên nhau. Chúng không chẩn đoán, kiểm tra, chấm điểm, điều trị hay làm chậm sa sút trí tuệ, và chúng tôi đề nghị các tổ chức không mô tả chúng như vậy. Không có quảng cáo, và trò chơi không yêu cầu tên, thông tin sức khỏe hay tải ảnh lên. Trang web dùng Google Analytics để đếm lượt truy cập; <a href=\"/privacy/\">thông báo về quyền riêng tư</a> của chúng tôi giải thích công cụ này thu thập những gì. Ảnh dùng trong <a href=\"/games/photo-pairs/\">Ghép đôi ảnh</a> chỉ ở trong trình duyệt.</p><h2>Thêm chúng tôi vào danh sách tài nguyên của bạn</h2><p>Nếu bạn có danh sách tài nguyên cho người chăm sóc, bạn có thể dẫn liên kết đến <a href=\"/\">{domain}</a>. Bạn có thể sao chép một trong hai đoạn mô tả.</p>",
       "shortTitle": "Mô tả ngắn",
       "longTitle": "Mô tả dài hơn",
-      "linksHtml": "<p>Những trang hữu ích để dẫn liên kết trực tiếp: <a href=\"/games/\">trò chơi miễn phí</a>, <a href=\"/activities/printable/\">tài liệu in miễn phí</a>, <a href=\"/activities/alzheimers/\">hoạt động cho người sống chung với bệnh Alzheimer</a> và <a href=\"/caregiving/how-to-play-together/\">cách chơi cùng nhau</a>.</p><h2>Câu hỏi hoặc đính chính</h2><p>Nếu có điều gì trên trang web sai hoặc chưa rõ, hoặc nhu cầu của người cao tuổi bạn chăm sóc chưa được đáp ứng, vui lòng cho chúng tôi biết qua <a href=\"mailto:{email}\">{email}</a>. Xin đừng gửi thông tin cá nhân hay thông tin sức khỏe của người cao tuổi hoặc khách hàng.</p>"
+      "linksHtml": "<p>Các trang hữu ích để liên kết trực tiếp: <a href=\"/games/\">trò chơi miễn phí</a>, <a href=\"/games/\">bản in miễn phí</a>, <a href=\"/dementia-activities/\">hoạt động dành cho người sa sút trí tuệ tại nhà</a> và <a href=\"/caregiving/how-to-play-together/\">cách chơi cùng nhau</a>.</p><h2>Câu hỏi hoặc chỉnh sửa</h2><p>Nếu có nội dung nào trên trang chưa đúng hoặc chưa rõ, hoặc nhu cầu của người cao tuổi chưa được đáp ứng bởi những gì có sẵn ở đây, xin vui lòng cho chúng tôi biết qua <a href=\"mailto:{email}\">{email}</a>. Xin đừng gửi thông tin cá nhân hay thông tin sức khỏe của người cao tuổi hoặc người được chăm sóc.</p>"
     },
     "app": {
       "title": "Ứng dụng Creative Activities",
@@ -436,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Trò chơi miễn phí cho người sa sút trí tuệ, Alzheimer",
-    "description": "Trò chơi trực tuyến miễn phí cho người cao tuổi sa sút trí tuệ, Alzheimer: ghép hình, ghép tranh, phân loại, tục ngữ, tô màu, lô tô. Không đăng ký, hẹn giờ hay điểm số.",
+    "title": "Trò chơi miễn phí để chơi cùng nhau trực tuyến",
+    "description": "Trò chơi trực tuyến miễn phí dành cho người lớn tuổi, gia đình và người sống với chứng sa sút trí tuệ: ghép tranh, ghép hình đơn giản, phân loại, câu tục ngữ, tô màu và lô tô. Không cần đăng ký, không đồng hồ đếm giờ hay điểm số.",
     "crumb": "Trò chơi",
-    "h1": "Trò chơi nhẹ nhàng cho người sa sút trí tuệ",
+    "h1": "Những trò chơi nhẹ nhàng để chơi cùng nhau",
     "lede": "{count} trò chơi miễn phí để cùng chơi trên trình duyệt. Hình ảnh lớn, lời lẽ giản dị và không có gì là sai: không hẹn giờ, không điểm số, không cần đăng ký.",
-    "listName": "Trò chơi nhẹ nhàng cho người sa sút trí tuệ",
+    "listName": "Trò chơi nhẹ nhàng để chơi cùng nhau",
     "byStageTitle": "Chọn trò chơi theo giai đoạn",
     "byStageLede": "Các giai đoạn chỉ để tham khảo. Hãy theo những gì người thân thích và thấy thoải mái hôm nay.",
     "stageCol": "Giai đoạn",
     "gamesCol": "Trò chơi thường phù hợp",
-    "moreHtml": "Thêm ý tưởng ngoài màn hình: <a href=\"/activities/ideas/\">101 hoạt động cho người sa sút trí tuệ</a>, <a href=\"/activities/alzheimers/\">hoạt động và trò chơi cho người sống chung với bệnh Alzheimer</a>, <a href=\"/activities/memory-games/\">trò chơi trí nhớ nhẹ nhàng</a> và <a href=\"/activities/puzzles/\">trò ghép hình</a>.",
+    "moreHtml": "Thêm ý tưởng không cần màn hình: <a href=\"/activities/ideas/\">101 ý tưởng hoạt động</a>, <a href=\"/dementia-activities/\">hoạt động dành cho người sa sút trí tuệ tại nhà</a> và <a href=\"/crafts/\">thủ công</a>.",
     "faq": [
       {
         "q": "Nên bắt đầu với trò chơi nào?",
@@ -462,7 +560,7 @@
       },
       {
         "q": "Đây có phải trò chơi trí nhớ cho người cao tuổi không?",
-        "a": "Đây là trò chơi ghép đôi và trò chơi hình ảnh mà người cao tuổi nào cũng có thể thích, nhưng được làm ra để không kiểm tra trí nhớ: trong Ghép đôi hình, hình ảnh luôn ngửa lên trừ khi bạn chọn khác. Hướng dẫn của chúng tôi về trò chơi trí nhớ cho người cao tuổi sa sút trí tuệ giải thích cách giữ cho mọi trò chơi trí nhớ thật nhẹ nhàng."
+        "a": "Đây là các trò chơi ghép đôi và trò chơi tranh mà bất kỳ người lớn tuổi nào cũng có thể thích, nhưng được thiết kế để không kiểm tra trí nhớ: trong Ghép cặp tranh, các tranh luôn để mặt ngửa trừ khi bạn chọn khác. Bất kỳ trò chơi trí nhớ nào cũng có thể nhẹ nhàng hơn khi bỏ đồng hồ đếm giờ và điểm số."
       },
       {
         "q": "Có trò chơi cho nhóm ở viện dưỡng lão không?",
@@ -483,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Có ứng dụng hoạt động cho người sa sút trí tuệ không?",
+        "q": "Có ứng dụng nào dành cho người lớn tuổi và gia đình không?",
         "a": "Có. Creative Activities (tên trên cửa hàng: “{storeName}”) miễn phí trên App Store và Google Play. Ứng dụng có trò ghép đôi hình nhẹ nhàng với ô lớn, trò chơi với ảnh gia đình bạn chọn và các bộ hình dùng được khi không có mạng."
       },
       {
@@ -525,7 +623,7 @@
     "printable": "Có thể in",
     "howTo": "Cách chơi {name}",
     "tips": "Lời khuyên khi cùng chơi",
-    "newToPlayingHtml": "Lần đầu chơi cùng người sống chung với sa sút trí tuệ? Hãy đọc <a href=\"/caregiving/how-to-play-together/\">cách cùng nhau chơi trò chơi</a>, kể cả nên làm gì khi người thân không còn hứng thú.",
+    "newToPlayingHtml": "Lần đầu chơi cùng người lớn tuổi hoặc người sống với chứng sa sút trí tuệ? Hãy đọc <a href=\"/caregiving/how-to-play-together/\">cách chơi trò chơi cùng nhau</a>, bao gồm những việc nên làm khi họ mất hứng thú.",
     "moreAria": "Khám phá thêm",
     "helpfulGuides": "Hướng dẫn hữu ích",
     "appTitle": "Chơi trên ứng dụng",
@@ -535,6 +633,31 @@
     "goodToKnow": "Điều nên biết",
     "goodToKnowText": "Trò chơi này là để vui và có thời gian bên nhau. Trò chơi không kiểm tra, đo lường hay điều trị bất cứ điều gì.",
     "moreGames": "Thêm trò chơi nhẹ nhàng",
-    "crumb": "Trò chơi"
+    "crumb": "Trò chơi",
+    "print": {
+      "heading": "Chơi trên giấy",
+      "sameRules": "Phiên bản giấy có luật chơi giống với trò chơi trên màn hình:",
+      "button": "In phiên bản giấy",
+      "pageNote": "Một trang khổ A4 hoặc US Letter, in đen trắng cũng được. Phiên bản {date}.",
+      "islandNote": "Trang này in đúng những gì đang hiển thị trên màn hình. Phiên bản {date}.",
+      "sheetTitle": "{name}: phiên bản giấy",
+      "point": "Trên giấy, hãy chỉ vào một tranh thay vì chạm vào, hoặc khoanh tròn bằng bút. Mỗi hàng là một bộ mới.",
+      "pointTarget": "Trên giấy, tranh cần nhìn nằm trong ô ở đầu mỗi hàng. Hãy chỉ vào một tranh thay vì chạm vào, hoặc khoanh tròn bằng bút.",
+      "halves": "Mỗi tranh được cắt đôi theo chiều dọc. Hãy vẽ một đường từ mỗi nửa bên trái đến nửa bên phải phù hợp với nó, hoặc chỉ bằng ngón tay. Không cần cắt gì cả.",
+      "grid": "Mỗi ô có một số. Tìm số đó trong bảng chú thích, rồi tô ô đó bằng bút chì màu tương ứng. Tô bằng màu khác mà bạn thích cũng được. Không cần cắt gì cả.",
+      "colors": "Mỗi hàng ghi tên một màu. Hãy chỉ vào mọi tranh có màu đó, hoặc khoanh tròn bằng bút. Mỗi hàng là một bộ mới.",
+      "dice": "Mỗi hàng là một bộ xúc xắc. Chọn một hàng, hoặc cắt các tranh ra rồi rút một số tranh từ một chồng, sau đó kể một câu chuyện bằng các tranh theo thứ tự tùy ý. Ai cũng có thể bỏ qua lượt.",
+      "cards": "Cắt các thẻ theo đường nét đứt. Úp mặt ngửa lên bàn, rồi tìm các cặp.",
+      "chain": "Trên giấy, hãy đọc các tranh từ trái sang phải, lần lượt từng tranh. Mỗi người nói một câu về những tranh đã xem, rồi chỉ vào tranh tiếp theo. Ai cũng có thể bỏ qua lượt.",
+      "sort": "Cắt các tranh theo đường nét đứt, rồi bỏ mỗi tranh vào ô đúng của nó.",
+      "puzzle": "Cắt tranh lớn theo đường nét đứt thành bốn mảnh rồi xáo trộn. Đổi chỗ hai mảnh một lần cho đến khi tranh được ghép đủ. Tranh nhỏ là hình mẫu để tham khảo.",
+      "cutSafety": "Một người hỗ trợ có thể cắt trước khi bắt đầu. Cất kéo đi sau khi dùng xong.",
+      "version": "Phiên bản {date} · {url}",
+      "reasons": {
+        "photos": "Trò chơi này không có phiên bản giấy. Trò chơi dùng ảnh của chính bạn, các ảnh này được lưu trong trình duyệt và không bao giờ được tải lên, nên trang web không thể in chúng. Để chơi trên giấy, hãy in hai bản của vài tấm ảnh yêu thích ở nhà rồi ghép cặp trên bàn.",
+        "paced": "Trò chơi này không có phiên bản giấy. Vòng tròn tạo nhịp chậm và đều trên màn hình, còn trang in thì không làm được điều đó, nên sẽ thành một hoạt động khác. Một khoảng nghỉ yên tĩnh cùng nhau, không có màn hình, luôn là một lựa chọn.",
+        "sayings": "Hiện chưa có phiên bản giấy. Trên giấy, mọi phần kết sẽ hiện ra cùng lúc, và bước nhẹ nhàng \"Xem phần kết\" sẽ bị mất. Hãy đọc các câu nói trên màn hình cùng nhau, hoặc chia sẻ vài câu cả hai đều biết."
+      }
+    }
   }
 }

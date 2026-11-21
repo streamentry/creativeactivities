@@ -1,33 +1,33 @@
 ---
-title: "Zajęcia w późniejszym stadium demencji, także w łóżku lub na fotelu"
-seoTitle: "Zaawansowana demencja: zajęcia w łóżku i na fotelu"
-description: "Łagodne zajęcia w późniejszym stadium demencji, także dla osoby leżącej lub w fotelu: muzyka, dotyk, czytanie na głos, dźwięki, bycie razem i bezpieczeństwo."
+title: "Zajęcia w zaawansowanej demencji, także w łóżku lub fotelu"
+seoTitle: "Zajęcia w późnej demencji: pomysły na łóżko i fotel"
+description: "Łagodne zajęcia w zaawansowanej demencji, także w łóżku lub fotelu: muzyka, dotyk, czytanie na głos, dźwięki i bycie razem, z uwagami o bezpieczeństwie."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  W późniejszym stadium demencji zajęcia skupiają się na zmysłach i na Twoim
-  towarzystwie: ulubiona muzyka, trzymanie się za ręce, powolny masaż dłoni,
-  czytanie na głos, oglądanie zdjęć, odgłosy natury i siedzenie przy oknie lub
-  na dworze. Sprawdzają się w łóżku i na fotelu. Niech trwają krótko, obserwuj
-  twarz i dłonie, by widzieć, czy bliskiej osobie jest dobrze, i pamiętaj, że
-  sama Twoja obecność jest zajęciem.
+  W zaawansowanej demencji zajęcia koncentrują się na zmysłach i na obecności
+  bliskiej osoby: słuchaniu ulubionej muzyki, trzymaniu za rękę, powolnym
+  masażu dłoni, czytaniu na głos, oglądaniu zdjęć, dźwiękach natury oraz
+  siedzeniu przy oknie lub na zewnątrz. Można je wykonywać w łóżku lub w
+  fotelu. Sesje powinny być krótkie, a twarz i dłonie warto obserwować pod
+  kątem komfortu, pamiętając, że sama obecność jest już zajęciem.
 keyPoints:
-  - "Kontakt jest nadal możliwy. W późniejszym stadium świat odbiera się głównie zmysłami."
-  - "Muzyka, delikatny dotyk, znajome głosy i miękkie rzeczy do trzymania często docierają do człowieka, gdy słowa już nie docierają."
-  - "Prawie każdy pomysł z tej strony sprawdzi się u osoby w łóżku lub na fotelu."
-  - "Zwracaj uwagę na oznaki komfortu i dyskomfortu na twarzy, w dłoniach i w oddechu i przerwij przy każdej oznace cierpienia."
-  - "Unikaj drobnych przedmiotów, a jedzenie i picie podawaj tylko zgodnie z zaleceniami zespołu opieki, bo przełykanie może stać się niebezpieczne."
+  - "Kontakt nadal jest możliwy. W tym etapie świat odbierany jest głównie przez zmysły."
+  - "Muzyka, delikatny dotyk, znajome głosy i miękkie przedmioty do trzymania często docierają tam, gdzie słowa już nie."
+  - "Prawie każdy z tych pomysłów sprawdza się u osoby leżącej w łóżku lub siedzącej w fotelu."
+  - "Obserwuj mimikę, dłonie i oddech, by zauważyć komfort lub dyskomfort, i przerwij przy każdym oznaku niepokoju."
+  - "Unikaj drobnych przedmiotów, a jedzenie i picie podawaj tylko zgodnie z zaleceniami zespołu opiekuńczego, bo połykanie może stać się niebezpieczne."
 faq:
-  - q: "Jakie zajęcia można robić z leżącą osobą w późniejszym stadium demencji?"
-    a: "Puszczaj jej ulubioną muzykę, trzymaj ją za rękę, zrób powolny masaż dłoni z balsamem, czytaj na głos ulubioną książkę lub modlitwę, pokazuj zdjęcia albo włącz łagodne odgłosy natury. Odsłoń zasłony, żeby mogła patrzeć na świat za oknem. Zwykle najlepiej sprawdzają się krótkie, spokojne chwile z jedną rzeczą naraz."
-  - q: "Czy osoby w późniejszym stadium demencji nadal mogą cieszyć się muzyką?"
-    a: "Wiele z nich tak. Alzheimer’s Association zauważa, że nawet w późniejszym stadium osoba może wystukiwać rytm albo śpiewać piosenkę z dzieciństwa. Wybierz muzykę, którą kochała w młodości, i puszczaj ją cicho."
-  - q: "Skąd wiedzieć, czy zajęcie sprawia przyjemność?"
-    a: "Obserwuj drobne sygnały: rozluźnione ramiona, łagodniejszy wyraz twarzy, kontakt wzrokowy, nucenie, uścisk dłoni albo wolniejszy oddech. Grymas, odsuwanie się, niepokój ruchowy albo pojękiwanie mogą oznaczać dyskomfort lub ból. Jeśli je zauważysz, przerwij, a jeśli się utrzymują, powiedz o tym zespołowi opieki."
-  - q: "Czy warto odwiedzać, jeśli bliska osoba już mnie nie poznaje?"
-    a: "Tak. National Institute on Aging zauważa, że sama obecność może działać uspokajająco, a dotyk, muzyka i opowieści nadal mogą dawać ukojenie w zaawansowanej demencji. Twój głos i dotyk mogą być znajome, nawet gdy Twoje imię już nie jest."
+  - q: "Jakie zajęcia można wykonywać z osobą w zaawansowanej demencji, która leży w łóżku?"
+    a: "Można włączyć ulubioną muzykę, trzymać za rękę, delikatnie masować dłonie kremem, czytać na głos książkę lub modlitwę, którą osoba lubi, pokazywać zdjęcia albo odtwarzać łagodne dźwięki natury. Warto odsłonić zasłony, by osoba mogła widzieć, co dzieje się za oknem. Krótkie, spokojne sesje z jedną rzeczą naraz zwykle sprawdzają się najlepiej."
+  - q: "Czy osoby w zaawansowanej demencji nadal mogą cieszyć się muzyką?"
+    a: "Wiele z nich może. Alzheimer's Association zwraca uwagę, że nawet w późnym etapie osoba może wystukiwać rytm lub nucić piosenkę z dzieciństwa. Warto wybierać muzykę, którą lubiła w młodszych latach, i utrzymywać cichą głośność."
+  - q: "Skąd wiadomo, że zajęcie sprawia przyjemność?"
+    a: "Warto zwracać uwagę na drobne sygnały: rozluźnione ramiona, łagodniejszy wyraz twarzy, kontakt wzrokowy, nucenie, lekki uścisk dłoni lub spokojniejszy oddech. Grymas, odsuwanie się, niepokój lub jęki mogą oznaczać dyskomfort albo ból. Jeśli takie oznaki się pojawiają, warto przerwać, a gdy się utrzymują, powiedzieć o tym zespołowi opiekuńczemu."
+  - q: "Czy warto odwiedzać kogoś, kto już nas nie rozpoznaje?"
+    a: "Tak. National Institute on Aging zwraca uwagę, że sama obecność może uspokajać, a dotyk, muzyka i opowieści mogą nadal przynosić ukojenie w zaawansowanej demencji. Głos i dotyk bliskiej osoby mogą być znajome, nawet gdy imię już nie."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +49,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-W późniejszym stadium demencji osoba może mówić bardzo niewiele, potrzebować pomocy przy wszystkich codziennych czynnościach i spędzać większość dnia w łóżku lub na fotelu. Może się wydawać, że nie ma już nic, co można robić razem. Jest. [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) zauważa, że coś z istoty człowieka może pozostać, a na tym etapie świat odbiera się głównie zmysłami. Muzyka, dotyk, znajomy głos i Twoje spokojne towarzystwo nadal mogą dawać ukojenie i chwile bliskości.
+W późnym etapie demencji osoba może mówić bardzo mało, potrzebować pomocy we wszystkich czynnościach dnia i spędzać większość czasu w łóżku lub w fotelu. Może się wydawać, że nie ma już nic do zrobienia razem. Jest, jednak. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) zwraca uwagę, że część tego, kim jest osoba, może pozostać, a w tym etapie świat odbierany jest głównie przez zmysły. Muzyka, dotyk, znajomy głos i spokojna obecność nadal mogą przynosić ukojenie i chwile bliskości.
 
-## Jakie zajęcia pomagają w późniejszym stadium demencji?
+## Jakie zajęcia sprawdzają się w zaawansowanej demencji?
 
-W późniejszym stadium najbardziej pomagają proste zajęcia angażujące zmysły i ciche towarzystwo. Alzheimer’s Association proponuje puszczanie ulubionej muzyki, czytanie fragmentów ważnych dla tej osoby książek, wcieranie w skórę balsamu o ulubionym zapachu i wspólne siedzenie na dworze w ładny dzień. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) dodaje opowiadanie historii, pokazywanie zdjęć, delikatny dotyk lub masaż oraz muzykę, szum lub odgłosy natury i podaje, że już sama Twoja obecność może uspokajać.
+Proste zajęcia zmysłowe i spokojna obecność najlepiej sprawdzają się w tym etapie. Alzheimer's Association sugeruje odtwarzanie ulubionej muzyki, czytanie fragmentów ważnych książek, wcieranie w skórę balsamu o ulubionym zapachu oraz wspólne siedzenie na zewnątrz w ładny dzień. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) dodaje opowiadanie historii, pokazywanie zdjęć, delikatny dotyk lub masaż, muzykę, szum albo dźwięki natury i podkreśla, że sama obecność może uspokajać.
 
-[Alzheimer’s Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) zauważa, że osoby w późniejszym stadium często mają silną potrzebę przytulenia czegoś dla poczucia komfortu, i proponuje proste zajęcia dla zmysłów, delikatne rozciąganie, ruch z chustą, muzykę, wizyty zwierząt, ludzki dotyk i swobodną twórczość plastyczną.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) zwraca uwagę, że osoby w późnym etapie często silnie potrzebują trzymania czegoś blisko siebie dla ukojenia. Organizacja sugeruje proste zajęcia zmysłowe, łagodne rozciąganie, ruch z szalikiem, muzykę, wizyty zwierząt, dotyk drugiej osoby i swobodną sztukę plastyczną.
 
-## Zajęcia dla osoby w łóżku lub na fotelu
+## Zajęcia dla osoby w łóżku lub w fotelu
 
-1. **Puszczaj jej muzykę.** Wybierz piosenki z jej młodości, związane z jej wiarą albo z rodziną. Niech grają cicho, a Ty usiądź blisko. Nawet teraz niektóre osoby stukają palcem albo nucą. Zobacz [zajęcia z muzyką](/activities/music/).
-2. **Trzymajcie się za ręce.** Samo trzymanie dłoni i delikatne gładzenie jej kciukiem to już zajęcie. Najpierw powiedz, co robisz.
-3. **Zrób powolny masaż dłoni.** Ogrzej odrobinę balsamu w dłoniach i gładź od nadgarstka do czubków palców. Wybierz balsam bezzapachowy albo o zapachu, który bliska osoba zawsze kochała, jeśli jej skóra go toleruje.
-4. **Czytaj na głos.** Ulubiony wiersz, fragment ukochanej książki, Pismo Święte albo stronę sportową z gazety. Rytm Twojego głosu jest ważniejszy niż słowa.
-5. **Opowiadaj.** Mów o rodzinnej wycieczce albo o dniu jej ślubu. Odpowiedzi nie są potrzebne.
-6. **Pokazuj zdjęcia.** Trzymaj jedno duże zdjęcie naraz na wysokości oczu i opisuj je ciepło. Unikaj pytania, kto jest na zdjęciu.
-7. **Daj jej coś miękkiego do trzymania.** Złożoną myjkę, kawałek polaru albo miękkie zwierzątko. NIA radzi dać osobie myjkę do trzymania podczas przenoszenia, żeby rzadziej chwytała Ciebie lub meble.
-8. **Włącz odgłosy natury.** Deszcz, fale albo śpiew ptaków puszczone cicho mogą złagodzić hałas w pokoju.
-9. **Wpuść trochę świata do środka.** Odsłoń zasłony, powieś karmnik za oknem albo przynieś kilka świeżych kwiatów lub liści do oglądania i dotykania.
-10. **Wyjdźcie na zewnątrz.** Jeśli bliska osoba może siedzieć na wózku, kilka minut w cieniu w łagodny dzień może być bardzo przyjemne.
-11. **Uczesz jej włosy albo podaj ciepłą myjkę.** Powolna, delikatna pielęgnacja i ciepła myjka do rąk i twarzy mogą być wyrazem troski.
-12. **Delikatny ruch przy muzyce.** Machajcie razem lekką chustą albo kołyszcie dłońmi w rytm piosenki. Rozciągania i ruchów w stawach niech najpierw nauczy Cię fizjoterapeuta lub pielęgniarka, żeby robić je bezpiecznie.
-13. **Swobodna twórczość plastyczna.** Rozprowadzajcie nietoksyczną farbę na dużym arkuszu papieru gąbką albo dłonią prowadzoną Twoją dłonią. Nie ma dobrego wyniku.
-14. **Wizyty zwierząt.** Spokojne zwierzę na łóżku lub na kolanach, jeśli bliska osoba lubiła zwierzęta, a miejsce na to pozwala.
-15. **Oddychajcie razem powoli.** Usiądź blisko i oddychaj powoli i słyszalnie. [Spokojny oddech](/games/calm-breathing/) może nadawać Wam wspólne tempo, a włączasz go i wyłączasz Ty.
-16. **Po prostu bądź obok.** Usiądź w pobliżu, nuć, rób na drutach albo czytaj po cichu. Obecność wystarczy.
+1. **Włączyć ulubioną muzykę.** Wybrać piosenki z młodości, z wiary lub z rodzinnych wspomnień. Utrzymywać cichą głośność i siedzieć blisko. Nawet teraz niektórzy stukają palcem w rytm lub nucą. Zobacz [zajęcia muzyczne](/creative-calm/music-for-calm-and-connection/).
+2. **Trzymać za rękę.** Samo trzymanie dłoni, z delikatnym gładzeniem kciukiem, jest zajęciem. Najpierw warto powiedzieć, co się robi.
+3. **Wykonać powolny masaż dłoni.** Rozgrzać odrobinę balsamu w dłoniach i gładzić od nadgarstka do opuszek palców. Wybrać balsam bez zapachu albo ulubiony zapach, jeśli skóra go toleruje.
+4. **Czytać na głos.** Ulubiony wiersz, fragment cenionej książki, fragment Pisma Świętego albo sportową rubrykę. Rytm głosu ma większe znaczenie niż same słowa.
+5. **Opowiadać historię.** O rodzinnej podróży lub o dniu ślubu. Odpowiedzi nie są potrzebne.
+6. **Pokazywać zdjęcia.** Trzymać jedno duże zdjęcie naraz na wysokości oczu i ciepło je opisywać. Unikać pytań, kto na nim jest.
+7. **Dać coś miękkiego do trzymania.** Złożoną ściereczkę, kawałek polaru lub miękką maskotkę. NIA sugeruje, by podczas przenoszenia dać osobie ściereczkę do trzymania, dzięki czemu rzadziej chwyta opiekuna lub meble.
+8. **Włączyć dźwięki natury.** Deszcz, fale lub śpiew ptaków przy cichej głośności mogą złagodzić hałaśliwe pomieszczenie.
+9. **Wpuścić świat z zewnątrz.** Odsłonić zasłony, zawiesić karmnik za oknem albo przynieść kilka świeżych kwiatów lub liści do obejrzenia i dotknięcia.
+10. **Wyjść na zewnątrz.** Jeśli osoba może siedzieć na wózku, kilka minut w cieniu w łagodny dzień może być bardzo miłe.
+11. **Uczesać włosy lub podać ciepłą ściereczkę.** Powolna, delikatna pielęgnacja oraz ciepła ściereczka na dłonie i twarz mogą być odbierane jako troska.
+12. **Delikatnie poruszać się przy muzyce.** Razem machać lekkim szalikiem lub kołysać dłońmi w rytm piosenki. Ćwiczenia rozciągające i ruch stawów warto najpierw pokazać fizjoterapeucie lub pielęgniarce, by poznać bezpieczne sposoby.
+13. **Tworzyć swobodną sztukę.** Rozprowadzać farbę nietoksyczną na dużym papierze gąbką lub dłonią, prowadzoną przez własną dłoń. Nie ma jednego właściwego wyniku.
+14. **Zaprosić zwierzę.** Spokojne zwierzę na łóżku lub na kolanach, jeśli osoba lubiła zwierzęta i miejsce na to pozwala.
+15. **Oddychać razem powoli.** Siedzieć blisko i oddychać powoli, słyszalnie. [Spokojne oddychanie](/games/calm-breathing/) może wyznaczać tempo obojgu, a zaczynać i kończyć je można w dowolnym momencie.
+16. **Po prostu być obok.** Siedzieć w pobliżu, nucić, robić na drutach lub cicho czytać. Sama obecność wystarczy.
 
-## Jak dzielić zajęcie na tym etapie
+## Jak proponować zajęcie w tym etapie
 
-- **Podchodź od przodu.** Powiedz imię bliskiej osoby i swoje i mów powoli i cicho, zanim jej dotkniesz.
-- **Proponuj jedną rzecz naraz.** Wyłącz telewizor, zanim włączysz muzykę. Jeden zmysł naraz.
-- **Niech to trwa krótko.** Kilka minut może w zupełności wystarczyć. Kilka krótkich chwil w ciągu dnia jest lepsze niż jedno długie zajęcie.
-- **Najpierw zadbaj o wygodę.** Sprawdź, czy bliska osoba ma dobre podparcie. NIA proponuje podkładkę na kolana, na której można oprzeć ręce i która podpiera górną część ciała przy siedzeniu.
-- **Obserwuj reakcję.** Rozluźnione dłonie, łagodniejszy wyraz twarzy, kontakt wzrokowy albo nucenie świadczą o komforcie. NIA zauważa, że pojękiwanie, grymasy, osłanianie części ciała albo nagłe pobudzenie mogą być oznakami bólu. Przerwij i powiedz o tym zespołowi opieki.
+- **Podejść od przodu.** Powiedzieć imię osoby i swoje, mówić wolno i cicho, zanim się dotknie.
+- **Proponować jedną rzecz naraz.** Wyłączyć telewizor przed włączeniem muzyki. Angażować jeden zmysł naraz.
+- **Trzymać krótko.** Kilka minut może wystarczyć. Kilka krótkich chwil w ciągu dnia jest lepsze niż jedna długa sesja.
+- **Najpierw zadbać o wygodę.** Sprawdzić, czy osoba jest dobrze podparta. NIA sugeruje stolik lub podpórkę na kolana, na której można oprzeć ramiona i podeprzeć górną część ciała, gdy osoba siedzi.
+- **Obserwować reakcje.** Rozluźnione dłonie, łagodniejsza twarz, kontakt wzrokowy lub nucenie sugerują komfort. NIA zwraca uwagę, że jęki, grymasy, osłanianie części ciała lub nagłe pobudzenie mogą być oznaką bólu. Warto przerwać i powiadomić zespół opiekuńczy.
 
-## Krótki przewodnik według zmysłów
+## Szybki przewodnik według zmysłów
 
-| Zmysł | Pomysły | Uwaga |
+| Zmysł | Pomysły | Na co uważać |
 | --- | --- | --- |
-| Słuch | Ulubiona muzyka, Twój głos czytający na głos, odgłosy natury | Cicho; jeden dźwięk naraz |
-| Dotyk | Masaż dłoni, trzymanie się za ręce, miękka tkanina, ciepła myjka | Najpierw zapytaj lub uprzedź; sprawdź, czy skóra nie jest obolała ani uszkodzona |
-| Wzrok | Zdjęcia, kwiaty, widok z okna, powolny film przyrodniczy | Trzymaj rzeczy na wysokości oczu; dobre światło, bez odblasków |
-| Węch | Ulubiony balsam, świeże kwiaty, parzona w pobliżu kawa | Unikaj intensywnych zapachów; sprawdź alergie i oddech |
-| Smak | Odrobina ulubionego smaku | Tylko jedzenie i konsystencje, które zespół opieki uznaje za bezpieczne |
+| Słuch | Ulubiona muzyka, czytanie na głos, dźwięki natury | Cicha głośność; jeden dźwięk naraz |
+| Dotyk | Masaż dłoni, trzymanie za rękę, miękka tkanina, ciepła ściereczka | Najpierw zapytać lub zapowiedzieć; sprawdzić, czy skóra nie jest obolała ani uszkodzona |
+| Wzrok | Zdjęcia, kwiaty, widok z okna, powolne nagranie przyrody | Trzymać przedmioty na wysokości oczu; dobre światło, bez odblasków |
+| Węch | Ulubiony balsam, świeże kwiaty, zapach parzonej w pobliżu kawy | Unikać silnych zapachów; sprawdzić alergie i oddech |
+| Smak | Mała porcja ulubionego smaku | Tylko produkty i konsystencje, które zespół opiekuńczy uznał za bezpieczne |
 
-## Bezpieczeństwo na tym etapie
+## Bezpieczeństwo w tym etapie
 
-W późniejszym stadium przełykanie może sprawiać trudność, a NIA ostrzega, że zwiększa to ryzyko zadławienia. Nie zostawiaj drobnych przedmiotów w zasięgu ręki, a jedzenie i picie podawaj tylko w takiej konsystencji i pozycji, jakie zaleca zespół opieki. Podczas zajęć z dotykiem delikatnie sprawdzaj skórę, bo łatwo może się uszkodzić lub posiniaczyć. Więcej o bezpiecznych zajęciach dla zmysłów przeczytasz w poradniku o [zajęciach dla zmysłów](/activities/sensory/).
+Połykanie może stać się trudne w późnym etapie, a NIA ostrzega, że zwiększa to ryzyko zakrztuszenia. Nie zostawiać drobnych przedmiotów w zasięgu i podawać jedzenie lub picie tylko w konsystencjach i pozycjach zalecanych przez zespół opiekuńczy. Podczas zajęć dotykowych warto delikatnie sprawdzać skórę, bo może się łatwo naderwać lub posiniaczyć. Więcej o bezpiecznych pomysłach zmysłowych znajdziesz w [zajęciach zmysłowych](/creative-calm/sensory-activities-for-adults/).
 
-## Zadbaj też o siebie
+## Dbanie także o siebie
 
-Opieka w późniejszym stadium jest wymagająca fizycznie i emocjonalnie – zarówno w domu, jak i podczas odwiedzin w domu opieki. Zespoły hospicyjne i opieki paliatywnej mogą pomóc w zapewnieniu komfortu, wsparcia i planowaniu, a NIA wymienia je jako źródło pomocy. Krótkie, spokojne odwiedziny są wartościowe; zobacz poradnik o [odwiedzinach u osoby z demencją](/activities/visiting/). Jeśli prowadzisz grupy, poradnik o [zajęciach grupowych w domach opieki](/activities/care-home-groups/) podpowiada, jak dostosować spotkania. I koniecznie przeczytaj, jak [dbać o siebie jako opiekun](/caregiving/caregiver-self-care/): odpoczynek jest częścią dobrej opieki.
+Opieka w późnym etapie jest wymagająca fizycznie i emocjonalnie, niezależnie od tego, czy odbywa się w domu, czy podczas wizyt w domu opieki. Zespoły opieki hospicyjnej i paliatywnej mogą pomóc w zapewnieniu komfortu, wsparcia i planowaniu, a NIA wymienia je jako źródło pomocy. Krótkie, spokojne wizyty mają sens; zobacz [odwiedzanie osoby z demencją](/together/visiting-someone-in-care/). W przypadku prowadzenia grup w [zajęciach grupowych w domach opieki](/crafts/craft-group-sessions/) znajdą się pomysły na dostosowanie spotkań. Warto też przeczytać o [samoopiece opiekunów](/creative-calm/creative-self-care-for-caregivers/), bo odpoczynek jest częścią dobrej opieki.

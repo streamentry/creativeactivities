@@ -1,29 +1,29 @@
 ---
 title: "Demans Tanısından Sonra: Nereden Başlamalı"
-seoTitle: "Demans Tanısından Sonraki Adımlar"
-description: "Demans tanısından sonra net bir başlangıç: takibi planlayın, destek bulun ve kişinin kendi hızına uygun şekilde seçimlere katılmasını sağlayın."
+seoTitle: "Demans Tanısından Sonra Atılacak Adımlar"
+description: "Demans tanısının ardından net bir başlangıç noktası: takip planını yapın, destek bulun ve kişiyi kendi temposunda kararlara dahil edin."
 section: caregiving
 order: 30
 updated: 2026-11-11
 translatedFrom: 2026-11-11
 summary: >-
-  Tanıdan sonra bilgiyi sindirmek için zaman ayırın ve bir sonraki adımı seçin.
-  Bakım ekibinden tanının ne anlama geldiğini öğrenin, güvendiğiniz bir destek
-  kaynağı bulun ve kişiyi, isterse, kararlara ve gelecek planlamasına dahil edin.
+  Tanıdan sonra bunu işlemek için zaman ayırın ve bir sonraki adımı seçin.
+  Bakım ekibine tanının ne anlama geldiğini sorun, güvenilir bir destek kaynağı
+  bulun ve kişinin istediği ölçüde kararlara ve gelecek planlamasına dahil edin.
 keyPoints:
-  - "Her soruyu bir anda çözmek zorunda değilsiniz; şu an en çok önem taşıyan şeyle başlayın."
-  - "Takibi kimin yürüteceğini sorun ve bir sonraki randevu için sorularınızı yazın."
-  - "Tanısı konan kişi için ve isteyen aile ya da arkadaşları için destek bulun."
-  - "Kişiyi istediği ölçüde seçimlere ve gelecek planlamasına dahil edin; hukuki ya da mali sorularda yerel uzman görüşü alın."
+  - "Her soruyu bir anda çözmek zorunda değilsiniz; şimdi en çok önem taşıyanla başlayın."
+  - "Takibi kimin koordine edeceğini sorun ve bir sonraki randevu için soruları yazın."
+  - "Tanısı konan kişi için ve destek isteyen aile ya da arkadaşlar için destek bulun."
+  - "Kişiyi istediği ölçüde seçimlere ve gelecek planlamasına dahil edin; yasal veya mali konularda yerel uzman görüşü alın."
 faq:
-  - q: "Demans tanısından sonra ilk ne yapmalıyım?"
-    a: "Tek bir yararlı adımla başlayın; örneğin tanıyı koyan hekimle takip planını netleştirin ya da güvendiğiniz bir destek hizmeti bulun. Kişinin tanıyı kabullenmek için zamana ihtiyacı olabilir, bu yüzden uzun bir listeyi bir günde bitirmeniz gerekmez."
+  - q: "Demans tanısından sonra ilk olarak ne yapmalıyım?"
+    a: "Tek ve işe yarar bir adımla başlayın; örneğin tanıyı koyan hekimle takip planını netleştirmek ya da güvenilir bir destek hizmeti bulmak gibi. Kişinin tanıyı işlemek için zamana ihtiyacı olabilir, bu yüzden uzun bir listeyi tek günde bitirmeniz gerekmez."
   - q: "Demans tanısı, kişinin artık karar veremeyeceği anlamına mı gelir?"
-    a: "Tanı tek başına kişinin neye karar verebileceğini belirlemez. Kişiye nasıl dahil olmak istediğini sorun ve belirli bir sağlık, hukuki ya da mali karar için yerel uzman görüşü alın."
-  - q: "Aile ve arkadaşlara tanıdan söz etmeli miyim?"
-    a: "Bu bilgi kişinin kendisine aittir. Kimlere söylemek istediğini, başkalarının neyi bilmesini istediğini ve konuşmada yardım isteyip istemediğini sorun."
+    a: "Tanı tek başına kişinin neye karar verebileceğini belirlemez. Kişiye nasıl katılmak istediğini sorun ve belirli bir sağlık, yasal ya da mali karar için yerel uzmanlardan nitelikli görüş alın."
+  - q: "Aileme ve arkadaşlarıma tanıyı söylemeli miyim?"
+    a: "Bu bilgi kişiye aittir. Kimlere söylemek istediğini, başkalarının neyi bilmesini istediğini ve bu konuşmada yardıma ihtiyacı olup olmadığını sorun."
   - q: "Gelecek planlamasını ne zaman konuşmalıyız?"
-    a: "Kişi hazır olduğunda başlayabilirsiniz. Gelecekteki tercihlerini kaydetmek isterse, yaşadığınız yerde hangi seçeneklerin ve zamanlamanın geçerli olduğunu yerel uzmanlara sorun. Tek bir büyük konuşma yerine birkaç küçük konuşma daha kolay gelebilir."
+    a: "Kişi hazır olduğunda başlayabilirsiniz. Gelecekteki tercihlerini yazmak ya da kaydetmek isterse, yaşadığınız yerde hangi seçeneklerin ve zamanlamanın geçerli olduğunu yerel uzmanlara sorun. Tek bir büyük konuşma yerine birkaç küçük konuşma daha rahat hissettirebilir."
 sources:
   - title: "Life After Diagnosis"
     publisher: "Alzheimer's Association"
@@ -49,66 +49,67 @@ sources:
 relatedGames: []
 related: [caregiving/doctor-visit-with-dementia, caregiving/caregiver-self-care, caregiving/choosing-adult-day-program-dementia, caregiving/medication-support-with-dementia]
 health: true
+crisisRoute: true
 ---
 
-Demans tanısı sağlık, günlük yaşam, destek ve gelecek hakkında sorular doğurabilir. İnsanlar bu habere farklı tepkiler verir: kimi haberi sindirmek için zamana ihtiyaç duyar, kimi hemen planlamaya başlamak ister. Tek bir doğru tepki ya da zamanlama yoktur. Kişinin şu an neyi önemsediğiyle başlayın ve diğer soruları kişi hazır olduğunda yeniden ele alın.
+Demans tanısı; sağlık, günlük yaşam, destek ve gelecekle ilgili birçok soruyu gündeme getirebilir. İnsanlar bu habere farklı tepkiler verir: kimi haberi sindirmek için zamana ihtiyaç duyar, kimi ise hemen planlamaya başlamak ister. Doğru tek bir tepki ya da tek bir zaman çizelgesi yoktur. Şimdi kişi için neyin önemli olduğuyla başlayın ve diğer soruları hazır olduklarında ele alın.
 
-[Alzheimer's Association’ın tanıdan sonraki yaşam rehberi](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis) takip bakımına, yerel desteğe ve gelecek planlamasına dikkat çeker. [Dementia Australia’nın tanıyla başa çıkma önerileri](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis) insanların farklı tepki verdiğini ve istediklerinde destek isteyebileceklerini vurgular. Bu sayfa bir başlangıç noktasıdır; kişiye özgü bir tıbbi, hukuki ya da mali plan değildir.
+[Alzheimer's Association'ın tanı sonrası yaşam rehberi](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis), insanları takip bakımına, yerel desteğe ve gelecek planlamasına yönlendirir. [Dementia Australia'nın tanıyla başa çıkma önerileri](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis) ise insanların farklı tepkiler verebileceğini ve istediklerinde destek alabileceklerini vurgular. Bu sayfa bir başlangıç noktasıdır; kişisel bir tıbbi, yasal ya da mali plan değildir.
 
 ## İlk yararlı adım ne olabilir?
 
-Bu hafta işinizi kolaylaştıracak tek bir soru seçin. Bu, kişinin takibini kimin yürüteceğini öğrenmek, tanısıyla ilgili güvenilir bilgiyi nereden alabileceğinizi sormak ya da kişinin güvendiği biriyle konuşmak olabilir. Kişi işi kendisi üstlenmek, birinden yardım istemek ya da karar vermeden önce beklemek isteyebilir.
+Bu hafta işinizi kolaylaştıracak bir soru seçin. Kişinin takip bakımını kimin koordine edeceğini öğrenmek, tanısıyla ilgili güvenilir bilgiyi nereden alabileceğinizi sormak ya da güvendiği biriyle konuşmak bunlardan birkaçı olabilir. Kişi sürece öncülük etmek, birinden yardım istemek ya da karar vermeden önce beklemek isteyebilir.
 
-Bir sonraki randevu için, kişi isterse birlikte birkaç soru yazın. Tanının ne anlama geldiğini, neyin hâlâ belirsiz olduğunu, ne zaman takibe gelmeniz gerektiğini ve yeni bir endişe ortaya çıktığında kiminle iletişime geçeceğinizi sorabilirsiniz. Anlamadığınız bir terim ya da öneri olursa hekimden açıklamasını isteyin. [Doktor ziyaretine hazırlık rehberimizde](/caregiving/doctor-visit-with-dementia/) kısa bir hazırlık listesi var.
+Kişi isterse bir sonraki randevu için birlikte birkaç soru yazın. Tanının ne anlama geldiğini, neyin hâlâ belirsiz olduğunu, ne zaman takip yapılacağını ve yeni bir endişe ortaya çıkarsa kiminle iletişime geçileceğini sorabilirsiniz. Anlaşılmayan bir terim ya da öneri olursa hekimden açıklamasını isteyin. Soruları randevudan önce yazmak işe yarayabilir.
 
-Kişinin demans hakkında her şeyi bir anda öğrenmesi gerekmez. Aldığı tanıyla ilgili güvenilir bilgiyi seçin ve sonradan akla gelen soruları not edin. Kesin iyileşme vaat eden, ya da herkesin aynı tedaviyi veya aynı planı izlemesini söyleyen önerilere karşı temkinli olun.
+Kişinin demans hakkında her şeyi bir anda öğrenmesi gerekmez. Aldığı tanıyla ilgili güvenilir bilgileri seçin ve sonra akla gelen soruları not edin. Vaatlerde, tedavi ya da iyileşme iddialarında ve herkese aynı tedaviyi ya da planı uygulamasını öneren tavsiyelerde temkinli olun.
 
 ## Destek nereden bulunabilir?
 
-Kişiye hangi tür desteğin yardımcı olacağını ve kimin dahil olmasını istediğini sorun. Güvendiği bir arkadaş ya da aile üyesiyle yapılacak ilk konuşma iyi bir başlangıç olabilir. Kimi insanlar bir destek grubunu, bir danışmanı, yerel bir demans kuruluşunu ya da bakım ekibiyle konuşmayı tercih eder. Doğru seçenek kişiye ve yakınınızda neyin mevcut olduğuna bağlıdır.
+Kişiye hangi tür desteğin yardımcı olacağını ve kimlerin dahil olmasını istediğini sorun. Güvendiği bir arkadaş ya da aile üyesiyle yapılan konuşma iyi bir başlangıç olabilir. Kimi insanlar destek grubunu, bir danışmanı, yerel bir demans kuruluşunu ya da bakım ekibiyle görüşmeyi tercih eder. En uygun seçenek kişiye ve yakınınızda neyin bulunduğuna bağlıdır.
 
-Destek, tanı alan kişi için olduğu kadar aile ve arkadaşlar için de gereklidir. Bir bakım veren dinlenmeye ya da gündelik işlerde yardıma ihtiyaç duyabilir; kişi ise bilgi almak ya da demansla yaşayan başkalarıyla tanışmak isteyebilir. Bu ihtiyaçlar farklı olabilir. Bir grup ayarlamadan, randevu almadan ya da kişisel bilgileri paylaşmadan önce sorun.
+Destek yalnızca tanısı konan kişi için değil, aile ve arkadaşlar için de gereklidir. Bakım veren kişinin dinlenmeye ya da günlük işlerde yardıma ihtiyacı olabilir; tanısı konan kişi ise bilgi almak ya da demansla yaşayan başkalarıyla tanışmak isteyebilir. Bu ihtiyaçlar birbirinden farklı olabilir. Bir grup ayarlamadan, randevu almadan ya da kişisel bilgileri paylaşmadan önce sorun.
 
-[Bakım verenin kendine bakım rehberimiz](/caregiving/caregiver-self-care/) başkalarından destek istemek için fikirler sunar. Kişinin gün içinde daha fazla yardıma ihtiyacı olursa, [gündüz bakım programları](/caregiving/choosing-adult-day-program-dementia/) ve [evde bakım](/caregiving/choosing-in-home-dementia-care/) rehberleri yerel hizmetler hakkında sorulacak soruları anlatır.
+[Bakım verenler için öz bakım rehberimiz](/creative-calm/creative-self-care-for-caregivers/), başkalarından destek istemek için fikirler sunar. Kişi gün içinde daha fazla yardım almak isterse, aşağıdaki gelecekteki bakımla ilgili sorular yerel hizmetler hakkında nelerin sorulabileceğini kapsar.
 
 ## Kişi kararların içinde nasıl kalabilir?
 
-Tek başına bir tanı, kişinin neye karar verebileceğini ya da bu sürece nasıl katılmak istediğini söylemez. Doğrudan kişiye sorun. Ona zaman tanıyın, seçimi sade bir dille açıklayın ve konuşmayı kolaylaştıracak desteğin ne olduğunu sorun. Bazı seçimler sessiz bir ortamda ya da birden fazla konuşmaya bölünerek daha rahat ele alınabilir.
+Tanı tek başına bir kişinin neye karar verebileceğini ya da kararlara nasıl katılmak istediğini göstermez. Doğrudan kişiye sorun. Ona zaman tanıyın, seçeneği sade bir dille anlatın ve konuşmayı kolaylaştıracak desteğin ne olabileceğini sorun. Bazı konular sakin bir ortamda ya da birden fazla konuşmaya yayılarak daha rahat ele alınabilir.
 
-Kişi gelecekteki sağlık bakımı, mali işler ya da yaşam düzenlemeleri için plan yapmak isterse, neyin önemli olduğuyla ve kime güvendiğiyle başlayın. [Dementia Australia’nın planlama rehberi](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead), tercihleri güvendiği kişilerle ve ilgili uzmanlarla konuşmayı önerir. Hukuki belgeler ve karar verme kuralları bulunduğunuz yere göre değişir; genel bir rehbere güvenmeden önce yerel bir uzmanla görüşün. Günlük fatura yardımı ve dolandırıcılık endişeleri için [para yönetimi rehberimize](/caregiving/managing-money-with-dementia/) bakabilirsiniz.
+Kişi gelecekteki sağlık bakımı, mali işler ya da yaşam düzenlemeleri için plan yapmak isterse, önce onun neyi önemsediğinden ve kime güvendiğinden başlayın. [Dementia Australia'nın planlama rehberi](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead), isteklerin güvenilir kişilerle ve ilgili uzmanlarla konuşulmasını önerir. Yasal belgeler ve karar verme kuralları bulunduğu yere göre değişir; bu yüzden genel bir rehbere güvenmeden önce yerel bir uzmana danışın. Günlük fatura ödemeleri ve dolandırıcılık endişeleri için bankanızla ya da güvendiğiniz bir danışmanla konuşun.
 
-### Gelecekteki bakım hakkındaki ilk konuşmada neler sorulabilir?
+### Gelecekteki bakım hakkında ilk konuşmada neler sorulabilir?
 
-Önce kişinin şimdi konuşmak isteyip istemediğini sorun, sonra her seferinde yalnızca bir konuya geçin. [Alzheimer's Association, kişinin istekleri, inançları ve değerleri üzerine birkaç küçük konuşma yapılmasını ve sade bir dil kullanılmasını önerir](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimer's Society, insanların gelecek için düşünmeye ne kadar hazır hissettiklerinin farklılaştığını belirtir](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Durup başka bir gün dönmek de sorun değildir.
+Kişinin şimdi konuşmak isteyip istemediğini sorun, sonra her seferinde bir konuya değinin. [Alzheimer's Association, kişinin isteklerini, inançlarını ve değerlerini dinleyerek, sade bir dille ve birkaç küçük konuşma hâlinde ilerlemeyi öneriyor](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimer's Society ise insanların ileriyi düşünmeye ne kadar hazır hissettiklerinin farklı olduğunu belirtiyor](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Durup başka bir gün dönmek de sorun değildir.
 
-Kişi bir başlangıç ister ise şu sorulardan birini deneyebilirsiniz:
+Kişi bir yönlendirme isterse şunlardan birini deneyebilirsiniz:
 
-- “Gününüzün hangi kısmını en çok korumak isterdiniz?”
-- “Gelecekteki bakım hakkında konuşurken kimin yer almasını istersiniz?”
-- “Yardıma ihtiyaç duyduğunuzda sizi rahat ve saygın hissettiren nedir?”
-- “Bakım ekibinizin bilmesini istediğiniz, sizin için önemli bir şey var mı?”
-- “Söylediklerinizi yazmamı ister misiniz? Kimin görmesi gerekir?”
+- "Gününüzün hangi kısımlarını en çok korumak isterdiniz?"
+- "Gelecekteki bakım hakkında konuşurken kimin yer almasını istersiniz?"
+- "Yardıma ihtiyaç duyduğunuzda kendinizi rahat ve saygı görmüş hissetmenizi neler sağlar?"
+- "Bakım ekibinizin sizin için neyin önemli olduğunu bilmesini istediğiniz bir şey var mı?"
+- "Söylediklerinizi yazmamı ve bunu kimlerin görmesi gerektiğini sormamı ister misiniz?"
 
-Hemen bir karar istemeden dinleyin. [National Institute on Aging, değerler ve tercihler üzerine anlamlı konuşmaları ileri bakım planlamasının merkezinde görür](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Kişi izin verirse sözlerini, tarihi ve konuşmada kimin bulunduğunu not edin. Notu paylaşmadan önce izin isteyin. Bu notlar sonraki konuşmalara yol gösterebilir, ancak hukuki belge ya da tıbbi talimat değildir.
+Hemen bir karar istemeden dinleyin. [Ulusal Yaşlanma Enstitüsü, değerler ve tercihler üzerine anlamlı konuşmaları ileriye dönük bakım planlamasının merkezine koyuyor](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Kişi onaylarsa sözlerini, tarihi ve konuşmada kimlerin bulunduğunu not edin. Notu paylaşmadan önce izin isteyin. Bu notlar sonraki konuşmalara yol gösterebilir, ancak yasal belge ya da tıbbi talimat değildir.
 
-Yalnızca tanıya ya da tek bir konuşmaya dayanarak varsayımda bulunmayın. Kişinin tercihleri zamanla değişebilir ve durmak ya da bir konuya sonra dönmek isteyebilir. Kendisini etkileyen kararlara istediği ölçüde dahil etmeyi sürdürün.
+Yalnızca tanıya ya da tek bir konuşmaya dayanarak varsayımlarda bulunmayın. Kişinin tercihleri değişebilir ve duraklamak ya da bir konuya daha sonra dönmek isteyebilir. Kendisini etkileyen kararlara, istediği ölçüde dahil edin.
 
 ## Tanıdan kimler haberdar olmalı?
 
-Kişinin, unutmayın ki özel bir güvenlik ya da hukuki durum uzman tavsiyesi gerektirmediği sürece, başkalarına ne zaman ve nasıl söyleyeceğine kendisi karar verir. Kimlere söylemek istediğini ve bu kişilerin neyi bilmesini istediğini sorun. Önce güvendiği tek bir kişiyi seçebilir ya da bilginin geniş çapta paylaşılmasını istemeyebilir.
+Kişi, bunu kimlere, ne zaman ve nasıl söyleyeceğine kendisi karar verir; belirli bir güvenlik ya da yasal durum uzman tavsiyesi gerektirmedikçe bu böyledir. Kimlere söylemek istediğini ve bu kişilerin neyi bilmesini istediğini sorun. Önce tek bir güvendiği kişiyle paylaşmayı seçebilir ya da bilginin geniş çevreye yayılmasını hiç istemeyebilir.
 
-Kişi bu konuşmada yardım isterse, ne söylemenizi istediğini ve orada bulunmak isteyip istemediğini sorun. Yalnızca paylaşılmasına izin verdiği bilgileri paylaşın. [İletişim rehberimiz](/caregiving/communication-tips/) aile ve diğer kişilerle saygılı konuşmalar hakkında bilgi verir.
+Kişi bir konuşmada yardıma ihtiyaç duyarsa, ne söylemenizi istediğini ve orada olmak isteyip istemediğini sorun. Yalnızca paylaşılmasına onay verdiği bilgileri paylaşın. Emin değilseniz bunu bir hekim, sosyal hizmet uzmanı ya da güvendiğiniz başka bir uzmanla değerlendirin.
 
-## Uyum sağlarken günlük hayat nasıl sürebilir?
+## Uyum sağlarken günlük yaşam nasıl sürdürülebilir?
 
-Kişinin rahat hissettiği rutinleri ve etkinlikleri sürdürün. Tanı, her hobinin, gezinin ya da ev içi rolün bırakılması gerektiği anlamına gelmez. Bir şey zorlaşırsa kişiye neyi değiştirmek istediğini sorun. Daha kısa bir ziyaret, tanıdık bir müzik, tek bir adımda yardım ya da günün farklı bir saati ona daha uygun olabilir.
+Kişinin hâlâ rahat hissettiği rutinleri ve etkinlikleri sürdürün. Tanı, her hobinin, dışarı çıkmanın ya da ev içindeki rolün bitmesi anlamına gelmez. Bir şey zorlaşırsa kişiye neyi değiştirmek istediğini sorun. Daha kısa bir ziyaret, tanıdık bir müzik, tek bir adımda yardım ya da günün farklı bir saati ona daha uygun olabilir.
 
-Kişi haberi, planlar hakkında konuşmadan işlemek için alan isteyebilir. Her konuşmayı bir bakım toplantısına çevirmeden ilgiyi sürdürün. Planlamadan ara vermek ve birlikte sıradan bir şekilde vakit geçirmek de uygundur.
+Kişi, planları konuşmadan haberi işlemek için alan isteyebilir. Her konuşmayı bir bakım toplantısına dönüştürmeden düzenli olarak yanında olduğunuzu gösterin. Planlamadan ara verip sıradan bir şekilde birlikte vakit geçirmek de uygundur.
 
 ## Ne zaman bir uzmana danışmalıyız?
 
-Tanısına, sağlığına, ilaçlarına ya da belirtilerine özgü sorularda kişinin hekimine danışın. Hukuki ve mali kararlar için kişinin yaşadığı yerdeki kuralları bilen yetkili uzmanlarla konuşun. Genel bir web sitesi, kişi için hangi tedavinin, belgenin ya da hizmetin doğru olduğunu söyleyemez.
+Kişinin tanısı, sağlığı, ilaçları ya da belirtileriyle ilgili soruları için hekiminize danışın. Yasal ve mali kararlar için, kişinin yaşadığı yerdeki kuralları bilen nitelikli uzmanlarla konuşun. Genel bir web sitesi, belirli bir kişi için hangi tedavinin, belgenin ya da hizmetin doğru olduğunu söyleyemez.
 
-Ani karışıklık ya da sağlıkta birdenbire ortaya çıkan başka bir değişiklik acil tıbbi müdahale gerektirir. [NHS’in ani karışıklık konusundaki rehberi](https://www.nhs.uk/symptoms/confusion/) hemen tıbbi yardım alınmasını söyler. Kişinin yaşadığı yerdeki acil ya da acil bakım sistemini kullanın; ani bir değişikliğin kişinin olağan durumunun parçası olduğunu varsaymayın.
+Ani karışıklık ya da sağlıkta ani başka bir değişiklik acil tıbbi müdahale gerektirir. [NHS'in ani karışıklık rehberi](https://www.nhs.uk/symptoms/confusion/), hemen tıbbi yardım alınmasını söylüyor. Kişinin yaşadığı yerdeki acil ya da acil bakım sistemini kullanın; ani bir değişikliği olağan durumunun bir parçası olarak görmeyin.
 
-Planlama bunaltıcı geliyorsa, soruları hemen yanıtlanması gerekenler ve daha sonra ele alınabilecekler olarak ayırmak için güvendiğiniz bir kişi ya da hizmet seçin. Kişi temposunu belirleyebilir ve hangi konularda yardım istediğine karar verebilir. Tanı önemli bir bilgidir; ama kişinin ilgi alanlarını, ilişkilerini ya da günlük hayatını tanımlamaz.
+Planlama bunaltıcı gelirse, soruları hemen yanıtlanması gerekenler ve daha sonraya bırakılabilecekler olarak ayırmak için güvendiğiniz bir kişi ya da hizmet seçin. Hızı kişi belirleyebilir ve hangi konularda yardım isteyeceğine kendisi karar verebilir. Tanı önemli bir bilgidir, ancak kişinin ilgi alanlarını, ilişkilerini ve günlük yaşamını tanımlamaz.

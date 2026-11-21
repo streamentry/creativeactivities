@@ -1,36 +1,35 @@
 ---
-title: "Aktiviti untuk Orang yang Hidup dengan Demensia: 101 Idea Mudah"
-seoTitle: "101 Aktiviti untuk Orang dengan Demensia"
-description: "101 aktiviti mudah untuk orang dewasa yang hidup dengan demensia, daripada melipat tuala hingga muzik dan foto, serta cara menyesuaikannya apabila keadaan sukar."
+title: "Aktiviti untuk Orang dengan Demensia: 101 Idea Mudah"
+seoTitle: "Idea Aktiviti Demensia: 101 Aktiviti Mudah"
+description: "101 aktiviti mudah untuk orang dewasa yang hidup dengan demensia, dari melipat tuala hingga muzik dan gambar, dan cara menyesuaikannya bila semakin sukar."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Aktiviti yang baik untuk orang yang hidup dengan demensia adalah yang biasa
-  dikenali, sesuai untuk orang dewasa dan mudah dikongsi: melipat pakaian,
-  mengasingkan barang, memasak, muzik, melihat foto, berjalan, berkebun, masa
-  bersama haiwan peliharaan dan permainan ringkas. Pilih apa yang sentiasa
-  mereka nikmati, ambil alih bahagian yang sukar, dan berhenti apabila mereka
-  letih. Masa yang menyenangkan bersama lebih penting daripada menyiapkan
-  sesuatu.
+  Aktiviti yang baik untuk orang dengan demensia ialah aktiviti yang biasa,
+  sesuai untuk orang dewasa dan mudah dikongsi: melipat kain, mengasingkan
+  barang, memasak, muzik, melihat gambar, berjalan kaki, berkebun, masa bersama
+  haiwan peliharaan dan permainan ringkas. Pilih apa yang sentiasa disukai oleh
+  orang itu, ambil alih bahagian yang sukar, dan berhenti apabila dia letih.
+  Masa yang menyenangkan bersama lebih penting daripada menyiapkan apa-apa.
 keyPoints:
-  - "Mulakan daripada kehidupan orang itu sendiri: pekerjaan, hobi, kepercayaan dan muzik kegemaran mereka ialah panduan yang terbaik."
-  - "Ringkaskan mana-mana aktiviti mengikut keperluan: lebih sedikit langkah, lebih sedikit pilihan, anda yang melakukan bahagian yang sukar."
-  - "Menonton, memegang sesuatu atau sekadar duduk berdekatan semuanya dikira sebagai mengambil bahagian."
-  - "Berhenti atau tukar apabila anda nampak keletihan, kekecewaan atau kebosanan. Berhenti awal ialah hasil yang baik."
+  - "Mulakan daripada kehidupan orang itu sendiri: kerjaya, minat, kepercayaan dan muzik kegemarannya ialah panduan terbaik."
+  - "Kecilkan sebarang aktiviti mengikut keperluan: kurangkan langkah, kurangkan pilihan, dan anda yang buat bahagian yang sukar."
+  - "Memerhati, memegang sesuatu atau sekadar duduk di sisi juga dikira turut serta."
+  - "Berhenti atau tukar aktiviti apabila anda nampak letih, kecewa atau bosan. Berhenti awal juga hasil yang baik."
   - "Melakukannya bersama lebih penting daripada melakukannya dengan betul."
 faq:
-  - q: "Apakah aktiviti yang baik untuk orang yang hidup dengan demensia?"
-    a: "Aktiviti biasa yang sudah bertahun-tahun dilakukan orang itu, dijadikan sedikit lebih mudah: melipat pakaian, menyusun meja makan, memasak, muzik, melihat foto, berjalan, berkebun dan masa bersama haiwan peliharaan. Pilih perkara yang terasa dewasa dan berguna, dan lakukannya bersama-sama."
-  - q: "Berapa lamakah sesuatu aktiviti patut berlangsung?"
-    a: "Tiada tempoh yang betul. Beberapa minit melipat tuala mungkin sudah cukup pada suatu hari, dan sejam di kebun mungkin terasa mudah pada hari yang lain. Biarkan orang itu menentukan rentak dan berhenti ketika ia masih terasa menyenangkan."
+  - q: "Apakah aktiviti yang sesuai untuk orang yang hidup dengan demensia?"
+    a: "Aktiviti yang biasa dilakukan oleh orang itu selama bertahun-tahun, tetapi dipermudahkan sedikit: melipat kain, menyediakan meja makan, memasak, muzik, melihat gambar, berjalan kaki, berkebun dan masa bersama haiwan peliharaan. Pilih perkara yang terasa seperti kerja orang dewasa dan berguna, dan lakukannya bersama-sama."
+  - q: "Berapa lamakah sesuatu aktiviti perlu berlangsung?"
+    a: "Tiada tempoh yang betul. Beberapa minit melipat tuala mungkin sudah memadai pada satu hari, dan sejam di taman mungkin terasa mudah pada hari lain. Biarkan orang itu menentukan rentak dan tamatkan ketika masih terasa menyenangkan."
   - q: "Bagaimana jika orang itu enggan melakukan sesuatu aktiviti?"
-    a: "Jangan memaksa. Penolakan boleh bermaksud tugas itu terasa terlalu sukar, masanya tidak sesuai, atau mereka letih atau tidak selesa. Cuba lagi nanti, tawarkan versi yang lebih kecil, atau mulakan tugas itu sendiri berdekatan dan jemput mereka membantu."
-  - q: "Adakah permainan otak baik untuk orang yang hidup dengan demensia?"
-    a: "Permainan boleh menjadi cara yang menyenangkan untuk meluangkan masa bersama, tetapi tiada permainan yang terbukti merawat, melambatkan atau menghentikan demensia. Pilih permainan tanpa pemasa, markah atau bunyi jawapan salah, dan anggaplah ia sebagai aktiviti bersama, bukan ujian."
-  - q: "Bagaimanakah saya mengelakkan aktiviti daripada terasa keanak-anakan?"
-    a: "Gunakan bahan yang sebenar dan sesuai untuk orang dewasa: tuala yang sebenar, resipi yang sebenar, muzik dan alat seni orang dewasa, serta gambar bertema orang dewasa. Bingkaikan tugas sebagai bantuan yang benar-benar anda perlukan, dan bercakaplah dengan orang itu sebagai orang dewasa yang mereka ialah."
+    a: "Jangan memaksa. Penolakan mungkin bermaksud tugas itu terasa terlalu sukar, masanya tidak sesuai, atau dia letih atau tidak selesa. Cuba lagi kemudian, tawarkan versi yang lebih ringkas, atau mulakan tugas itu sendiri di sebelahnya dan jemput dia membantu."
+  - q: "Adakah permainan minda baik untuk orang yang hidup dengan demensia?"
+    a: "Permainan boleh menjadi cara yang menyenangkan untuk menghabiskan masa bersama, tetapi tiada permainan yang terbukti boleh merawat, melambatkan atau menghentikan demensia. Pilih permainan tanpa pemasa, markah atau bunyi apabila jawapan salah, dan anggapnya sebagai aktiviti bersama, bukan ujian."
+  - q: "Bagaimana saya mengelakkan aktiviti daripada terasa seperti kanak-kanak?"
+    a: "Gunakan bahan sebenar yang sesuai untuk orang dewasa: tuala sebenar, resipi sebenar, muzik dan alat seni untuk dewasa, serta gambar bertema dewasa. Bingkaikan tugas sebagai bantuan yang benar-benar anda perlukan, dan bercakaplah dengan orang itu sebagai orang dewasa."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -52,207 +51,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-Aktiviti yang terbaik untuk orang yang hidup dengan demensia biasanya sesuatu yang sudah mereka tahu cara melakukannya, dijadikan sedikit lebih mudah dan dilakukan bersama seseorang yang mereka percayai. Di bawah ada 101 idea, dikumpulkan mengikut jenis, setiap satu dengan cara menyediakannya dan cara menjadikannya lebih mudah apabila keadaan semakin sukar. Anda tidak memerlukan peralatan khas, dan anda tidak perlu menyiapkan apa-apa. Petang yang baik boleh jadi sebakul tuala dan secawan kopi bersama.
+Aktiviti terbaik untuk orang yang hidup dengan demensia biasanya ialah sesuatu yang sudah dia tahu cara lakukan, dipermudahkan sedikit dan dilakukan bersama orang yang dia percayai. Di bawah ialah 101 idea, dikumpulkan mengikut jenis, setiap satu dengan cara menyediakannya dan cara memudahkannya apabila keadaan menjadi lebih sukar. Anda tidak perlukan peralatan khas, dan anda tidak perlu menyiapkan apa-apa. Petang yang baik boleh terdiri daripada sebakul tuala dan secawan kopi bersama.
 
-## Bagaimanakah anda memilih aktiviti yang sesuai?
+## Bagaimana anda memilih aktiviti yang sesuai?
 
-Pilih mengikut orangnya, bukan mengikut senarai: mulakan dengan apa yang sentiasa mereka nikmati dan apa yang mereka boleh lakukan dengan selesa hari ini.
+Pilih mengikut orangnya, bukan senarai: mulakan dengan apa yang sentiasa disukainya dan apa yang selesa dilakukannya hari ini.
 
-- **Fikirkan pekerjaan dan hobi mereka.** [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) mencadangkan bahawa bekas pekerja pejabat mungkin menikmati mengasingkan syiling atau menyusun surat, dan seorang tukang kebun mungkin menikmati kerja di halaman.
-- **Perhatikan apa yang sudah mereka lakukan.** Jika ayah anda menyapu beranda setiap pagi tanpa disuruh, masukkan itu ke dalam harinya.
-- **Rancang dengan mengambil kira had.** Keletihan, penglihatan, pendengaran, tangan yang sakit dan keseimbangan semuanya penting.
-- **Perhatikan mood mereka.** Aktiviti yang sibuk dan bising sesuai bagi sesetengah orang dan menakutkan orang lain.
-- **Beri tujuan.** Melipat serbet untuk jamuan di rumah ibadat terasa lebih bermakna daripada senaman semata-mata.
+- **Fikirkan kerjaya dan minatnya.** [Persatuan Alzheimer's](https://www.alz.org/help-support/caregiving/daily-care/activities) mencadangkan bekas pekerja pejabat mungkin suka mengasingkan duit syiling atau menyusun surat-menyurat, dan seorang tukang kebun mungkin suka kerja di halaman.
+- **Perhatikan apa yang sudah dilakukannya.** Jika ayah anda menyapu beranda setiap pagi tanpa disuruh, jadikan itu sebahagian daripada rutin harian.
+- **Rancang mengikut had.** Keletihan, penglihatan, pendengaran, tangan yang sakit dan keseimbangan semuanya penting.
+- **Perhatikan mood dia.** Aktiviti yang sibuk dan bising sesuai untuk sesetengah orang tetapi menakutkan yang lain.
+- **Beri tujuan.** Melipat serbet untuk jamuan gereja terasa lebih bermakna daripada senaman semata-mata.
 
 ### Panduan kasar mengikut peringkat
 
-Demensia sering diterangkan dalam peringkat awal, pertengahan dan lewat. Ini label yang longgar, bukan kotak, dan ramai orang mempunyai hari yang lebih baik dan lebih sukar, jadi ikutlah apa yang anda lihat hari ini. [Senarai mengikut peringkat daripada Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) mengikut corak yang serupa.
+Demensia sering digambarkan dalam peringkat awal, pertengahan dan lanjut. Ini ialah label longgar, bukan kotak, dan ramai orang mempunyai hari yang lebih baik dan lebih sukar, jadi ikut apa yang anda lihat hari ini. [Senarai Yayasan Alzheimer Amerika mengikut peringkat](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) mengikut corak yang serupa.
 
-| Topik | Peringkat awal | Peringkat pertengahan | Peringkat lewat |
+| Topik | Peringkat awal | Peringkat pertengahan | Peringkat lanjut |
 | --- | --- | --- | --- |
-| Apa yang mungkin anda perhatikan | Kebanyakannya berdikari; merancang, nama baharu dan tempat sibuk menjadi lebih sukar | Memerlukan bantuan untuk memulakan dan dengan langkah-langkah; perkataan datang kurang mudah | Memerlukan bantuan dengan kebanyakan penjagaan harian; deria paling penting |
-| Aktiviti yang sering sesuai | Kad, permainan papan, memasak, berkebun, menulis jurnal, bersiar-siar, kelab | Melipat pakaian, mengasingkan barang, langkah memasak yang mudah, menyanyi, album foto, berjalan berpandu | Muzik kegemaran, urutan tangan, benda lembut untuk dipegang, dibacakan, duduk di luar |
-| Peranan anda | Rakan kongsi: tanya sokongan apa yang mereka mahu | Sediakan, tunjukkan, ambil alih bahagian yang sukar | Bawa aktiviti kepada mereka; kehadiran anda ialah aktivitinya |
-| Lebih banyak idea | [Peringkat awal](/activities/early-stage/) | [Peringkat pertengahan](/activities/middle-stage/) | [Peringkat lewat](/activities/late-stage/) |
+| Apa yang mungkin anda perasan | Kebanyakannya masih berdikari; perancangan, nama baharu dan tempat yang sibuk jadi lebih sukar | Perlukan bantuan untuk memulakan dan untuk setiap langkah; perkataan keluar dengan lebih payah | Perlukan bantuan dalam kebanyakan penjagaan harian; deria menjadi paling penting |
+| Aktiviti yang sering sesuai | Kad, permainan papan, memasak, berkebun, menulis jurnal, keluar bersiar-siar, kelab | Melipat kain, mengasingkan barang, langkah memasak yang mudah, menyanyi, album gambar, berjalan kaki dengan panduan | Muzik kegemaran, urut tangan, benda lembut untuk dipegang, dibacakan cerita, duduk di luar |
+| Peranan anda | Rakan kongsi: tanya sokongan apa yang dia mahu | Sediakan, tunjukkan, ambil alih bahagian yang sukar | Bawa aktiviti kepadanya; kehadiran anda ialah aktiviti itu |
+| Lagi idea | Peringkat awal: di halaman ini | Peringkat pertengahan: di halaman ini | [Peringkat lanjut](/activities/late-stage/) |
 
-## Bagaimanakah anda memulakan aktiviti dengan orang yang menghidap demensia?
+## Bagaimana anda memulakan aktiviti dengan orang yang hidup dengan demensia?
 
-Mulakan dengan kecil, mulakan di sisi mereka, dan permudahkan mereka untuk berkata ya. Ramai orang masih mahu mengambil bahagian tetapi sukar untuk merancang atau memulakan.
+Mulakan dengan kecil, mulakan bersama dia, dan mudahkan dia untuk berkata ya. Ramai orang masih mahu mengambil bahagian tetapi sukar untuk merancang atau memulakannya.
 
-1. **Pilih waktu terbaik mereka,** selalunya pagi.
-2. **Sediakan segala-galanya dahulu** supaya anda boleh bermula serta-merta.
-3. **Minta bantuan, bukan persembahan:** "Boleh tolong saya dengan ini?"
-4. **Mulakannya sendiri.** Lipat tuala yang pertama dan biarkan mereka menyertai. Menunjukkan lebih baik daripada menerangkan.
+1. **Pilih masa terbaiknya,** selalunya pada waktu pagi.
+2. **Sediakan semuanya dahulu** supaya anda boleh mula serta-merta.
+3. **Minta bantuan, bukan persembahan:** "Boleh tolong saya sebentar dengan ini?"
+4. **Mulakan sendiri.** Lipat tuala pertama dan biarkan dia menyertai. Menunjuk lebih berkesan daripada menerangkan.
 5. **Tawarkan satu langkah pada satu masa.**
-6. **Ambil bahagian yang paling sukar.** Alzheimer's Association mencadangkan anda sendiri menyukat bahan, kemudian serahkan senduk untuk mengacau.
-7. **Biarkan ia dibuat mengikut cara mereka.** Tuala yang dilipat dengan cara berbeza tidak mengapa.
-8. **Berhenti apabila ia tidak lagi menyenangkan.** Gelisah, berkerut dahi atau "Saya tak boleh" ialah tanda untuk bertukar atau berehat.
+6. **Ambil bahagian yang paling sukar.** Persatuan Alzheimer's mencadangkan anda sukat bahan sendiri, kemudian serahkan sudu untuk dikacau.
+7. **Biarkan ia dilakukan mengikut caranya.** Tuala yang dilipat berbeza juga tidak mengapa.
+8. **Berhenti apabila ia tidak lagi menyenangkan.** Gelisah, berkerut dahi atau "saya tak boleh" ialah tanda untuk bertukar atau berehat.
 
-Lihat juga [cara bermain bersama](/caregiving/how-to-play-together/) dan [tip komunikasi](/caregiving/communication-tips/).
+Lihat juga [cara bermain bersama](/caregiving/how-to-play-together/) dan [langkah pertama selepas diagnosis](/caregiving/after-dementia-diagnosis/).
 
 ## Tugas harian di rumah
 
-Kerja rumah adalah biasa dikenali dan berguna, menjadikannya tempat yang semula jadi untuk bermula. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) menyenaraikan membasuh pinggan, menyusun meja makan, menyapu, mengasingkan surat dan melipat pakaian antara aktiviti yang mungkin dinikmati orang. Lebih banyak lagi dalam [tugas rumah](/activities/household-tasks/).
+Kerja rumah biasa dan berguna, jadi ia tempat semula jadi untuk bermula. [Institut Kebangsaan Penuaan (NIA)](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) menyenaraikan mencuci pinggan, menyediakan meja makan, menyapu, mengasingkan surat dan melipat kain antara aktiviti yang mungkin disukai orang.
 
-1. **Lipat tuala yang hangat.** Curahkan sebakul tuala dari mesin pengering ke atas meja dan lipat bersebelahan. Kemudian, meratakan dan menyusun juga sama membantu.
-2. **Padankan stokin.** Mulakan dengan warna yang sangat berbeza. Kemudian, mengasingkan yang cerah daripada yang gelap sudah cukup.
-3. **Susun meja makan.** Serahkan satu jenis barang pada satu masa. Susun satu tempat sendiri sebagai contoh.
-4. **Basuh atau lap pinggan.** Air suam bersabun dan pinggan yang tidak mudah pecah. Mengelap sambil duduk lebih ringan untuk kaki.
-5. **Lap meja.** Serahkan kain lembap selepas makan. Ia kerja yang sebenar bagi tangan yang gelisah.
-6. **Asingkan surat.** Katalog dan surat iklan kepada "simpan" dan "kitar semula." Jauhkan bil yang sebenar.
-7. **Gunting kupon.** Gunting hujung bulat dan risalah pasar raya. Kemudian, membulatkan makanan kegemaran juga boleh.
-8. **Asingkan syiling.** Asingkan wang syiling ke dalam cawan atau gulung dalam pembalut. Elakkan barang kecil jika orang itu memasukkan benda ke dalam mulut.
-9. **Sapu atau lap habuk.** Penyapu ringan di beranda, atau pengelap habuk bertangkai panjang yang digunakan sambil duduk.
-10. **Bantu menyediakan hidangan.** Membasuh sayur, mengoyak daun salad, mengacau. Anda yang mengendalikan pisau dan api.
-11. **Masak resipi keluarga.** Gunakan kad dengan tulisan tangan mereka jika ada. Kemudian, mereka boleh menjadi pencuba rasa.
-12. **Buat kerja pejabat.** Lipat surat, masukkan dan tampal setem pada sampul, atau tulis senarai membeli-belah bersama-sama.
+1. **Lipat tuala panas.** Alihkan bakul dari mesin pengering ke atas meja dan lipat bersebelahan. Kemudian, meratakan dan menyusun juga sama berguna.
+2. **Padankan stokin.** Mulakan dengan warna yang sangat berbeza. Kemudian, mengasingkan yang cerah daripada yang gelap sudah memadai.
+3. **Sediakan meja makan.** Serahkan satu jenis barang pada satu masa. Sediakan satu tempat sendiri sebagai contoh.
+4. **Cuci atau lap pinggan.** Air suam dan sabun, serta pinggan yang tidak mudah pecah. Mengeringkan sambil duduk lebih mudah untuk kaki.
+5. **Lap meja.** Serahkan kain lembap selepas makan. Ini kerja sebenar untuk tangan yang gelisah.
+6. **Asingkan surat.** Katalog dan surat iklan ke dalam "simpan" dan "kitar semula." Simpan bil sebenar berasingan.
+7. **Gunting kupon.** Gunting hujung bulat dan risalah barang runcit. Kemudian, membulatkan makanan kegemaran juga boleh.
+8. **Asingkan duit syiling.** Asingkan wang kecil ke dalam cawan atau gulungkan dalam pembungkus. Elakkan barang kecil jika dia suka memasukkan benda ke mulut.
+9. **Sapu atau lap habuk.** Penyapu ringan di beranda, atau pengelap habuk bertangkai panjang yang digunakan sambil duduk di kerusi.
+10. **Bantu menyediakan hidangan.** Membasuh sayur, mengoyak daun salad, mengacau. Anda yang pegang pisau dan api.
+11. **Masak resipi keluarga.** Gunakan kad resipi dengan tulisan tangannya jika ada. Kemudian, dia boleh menjadi penguji rasa.
+12. **Buat kerja pejabat.** Lipat surat, isi dan setemkan sampul, atau tulis senarai barang runcit bersama.
 
 ## Muzik
 
-Muzik yang biasa dikenali boleh menjangkau orang walaupun perkataan sukar. [Tip muzik daripada Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/art-music) mencadangkan lagu yang biasa, tanpa iklan dan TV dimatikan. Lihat [aktiviti muzik](/activities/music/).
+Muzik yang biasa boleh sampai kepada orang walaupun kata-kata sukar. [Petua muzik Persatuan Alzheimer's](https://www.alz.org/help-support/caregiving/daily-care/art-music) mencadangkan lagu yang biasa, tanpa iklan dan TV dimatikan. Lihat [aktiviti muzik](/creative-calm/music-for-calm-and-connection/).
 
-13. **Bina senarai main peribadi.** Muzik dari zaman remaja dan awal dewasa mereka, majlis perkahwinan mereka, rumah ibadat mereka dan budaya mereka.
-14. **Menyanyi bersama.** Mulakan menyanyi sendiri. Bersenandung atau mendengar juga dikira.
-15. **Ikut rentak.** Bertepuk, tepuk lutut atau ketuk gendang tangan. Sesuai sambil duduk dan pada peringkat lewat.
-16. **Menari.** Menari perlahan di dapur, atau bergoyang sambil duduk berpegangan tangan.
-17. **Mainkan satu album penuh.** Satu piring hitam atau album kegemaran dari awal hingga akhir, dengan kopi dan tiada apa-apa lagi berlaku.
-18. **Berbual tentang muzik itu.** Jemput cerita, bukan fakta: "Ceritakan tentang majlis tari yang pernah anda hadiri."
-19. **Tonton muzikal atau konsert yang dirakam.** Persembahan yang mereka suka menjadikan malam yang baik. Hentikan bila-bila masa.
-20. **Mainkan alat muzik yang biasa.** Bekas pemain piano mungkin menikmati lagu ringkas; kemudian, beberapa nota bersama.
-21. **Dengar muzik secara langsung.** Konsert komuniti yang singkat atau latihan koir. Duduk dekat pintu keluar.
+13. **Buat senarai main peribadi.** Muzik dari zaman remajanya dan awal dua puluhan, perkahwinannya, gerejanya dan budayanya.
+14. **Menyanyi bersama.** Mulakan menyanyi sendiri. Berdendang atau mendengar juga dikira.
+15. **Pegang rentak.** Tepuk tangan, tepuk lutut atau ketuk gendang tangan. Sesuai dilakukan sambil duduk dan pada peringkat lanjut.
+16. **Menari.** Tarian perlahan di dapur, atau goyang sambil duduk dan berpegangan tangan.
+17. **Main satu album penuh.** Rekod kegemaran dari awal hingga akhir, dengan kopi dan tiada apa-apa lagi yang berlaku.
+18. **Bualkan tentang muzik.** Jemput cerita, bukan fakta: "Ceritakan tentang tarian yang pernah anda pergi."
+19. **Tonton persembahan muzikal atau konsert yang dirakam.** Persembahan yang dia suka menjadikan petang yang baik. Jeda bila-bila masa.
+20. **Mainkan alat muzik yang biasa.** Bekas pemain piano mungkin suka karya ringkas; kemudian, beberapa nota bersama.
+21. **Dengar muzik langsung.** Konsert komuniti pendek atau latihan koir. Duduk berhampiran pintu keluar.
 
-## Mengenang: foto, benda dan cerita
+## Kenangan: gambar, benda dan cerita
 
-Nikmati masa lalu bersama tanpa mengujinya. Elakkan "Adakah awak ingat...?" dan "Siapa ini?" dan gunakan jemputan terbuka sebaliknya. Lihat [aktiviti mengenang](/activities/reminiscence/).
+Nikmati masa lalu bersama tanpa mengujinya. Elakkan "Adakah anda ingat...?" dan "Siapa ini?", dan gunakan jemputan terbuka. Lihat [aktiviti kenangan](/activities/reminiscence/).
 
-22. **Lihat album foto.** Sebutkan apa yang anda nampak: "Cantiknya pakaian itu. Ceritakan tentang hari ini." Ikut sahaja mana-mana nama yang mereka gunakan.
-23. **Buat kotak kenangan.** Sebuah kotak kasut berisi benda dari kehidupan mereka, seperti kad pekerja atau kad resipi. Keluarkan barang satu demi satu.
-24. **Mulakan buku kisah hidup.** Beberapa foto setiap halaman dengan kapsyen bertulisan besar. Ia membantu pembantu baharu mengenali orang itu.
-25. **Gunakan kad perbualan.** [Kad perbualan](/games/conversation-cards/) menggandingkan gambar dengan gesaan terbuka.
-26. **Buat permainan foto keluarga.** [Pasangan foto](/games/photo-pairs/) menjadikan foto anda sendiri sebagai permainan memadankan.
-27. **Tonton video rumah atau TV lama.** Beri komen bersama dan bukannya bertanya soalan.
-28. **Pegang benda dari zaman bekerja mereka.** Sebuah sepana, stetoskop, buku lejar. Tangan sering memimpin cerita.
-29. **Masak hidangan zaman kanak-kanak.** Mereka boleh mengacau, merasa atau sekadar duduk di dapur bersama anda.
-30. **Lihat peta tempat mereka pernah tinggal.** Telusuri jalan yang biasa dalam atlas besar sambil anda berbual.
+22. **Lihat album gambar.** Sebut apa yang anda nampak: "Cantiknya baju ini. Ceritakan tentang hari ini." Ikut sahaja nama yang dia sebut.
+23. **Buat kotak kenangan.** Kotak kasut berisi barang dari hidupnya, seperti lencana kerja atau kad resipi. Keluarkan satu barang pada satu masa.
+24. **Mulakan buku kisah hidup.** Beberapa gambar setiap halaman dengan kapsyen huruf besar. Ia membantu pembantu baharu mengenali orang itu.
+25. **Gunakan kad perbualan.** [Kad perbualan](/games/conversation-cards/) memadankan gambar dengan soalan terbuka.
+26. **Buat permainan gambar keluarga.** [Pasangan gambar](/games/photo-pairs/) menjadikan gambar keluarga anda sebagai permainan padanan.
+27. **Tonton video rumah atau TV lama.** Berkomen bersama dan bukannya bertanya soalan.
+28. **Pegang barang dari kerjayanya.** Sepana, stetoskop, buku lejar. Tangan selalunya memimpin cerita.
+29. **Masak hidangan zaman kanak-kanak.** Dia boleh mengacau, merasa atau sekadar duduk di dapur bersama anda.
+30. **Lihat peta tempat yang pernah didiaminya.** Surih jalan yang biasa dalam atlas besar sambil berbual.
 
 ## Aktiviti kreatif
 
-Seni adalah tentang melakukannya, bukan hasil akhirnya. Pastikan bahan sesuai untuk orang dewasa dan selamat. Lihat [seni dan kraf](/activities/arts-and-crafts/).
+Seni tentang melakukan, bukan hasil akhirnya. Pastikan bahan sesuai untuk orang dewasa dan selamat. Lihat [seni dan kraf](/crafts/easy-crafts-for-adults/).
 
-31. **Melukis dengan cat air.** Kertas tebal, beberapa warna. Jika memulakan sukar, pandu sapuan pertama bersama-sama.
-32. **Warnakan corak untuk orang dewasa.** Bunga atau kuilt, bukan kartun. [Halaman mewarna](/games/coloring/) kami boleh digunakan pada skrin atau dicetak.
-33. **Buat kolaj.** Koyak gambar taman, kereta atau makanan daripada majalah dan lekatkan. Kemudian, memilih gambar sahaja sudah cukup.
-34. **Susun bunga.** Seikat bunga dari pasar dan sebuah pasu. Kemudian, beberapa batang dalam balang.
-35. **Mengait atau menyulam benang bersama-sama.** Baris ringkas dengan jarum besar. Kemudian, menggulung benang menjadi bebola.
-36. **Buat kad untuk keluarga.** Cop, tandatangan atau hiaskan kad hari jadi dan kad cepat sembuh untuk orang yang sebenar.
-37. **Bentuk tanah liat yang mengeras di udara.** Tekan menjadi pinggan kecil. Gunakan bahan tidak toksik dan duduk berdekatan.
-38. **Ampelas dan siapkan kayu.** Set rumah burung yang sudah dipotong dan kertas pasir, tanpa alat berkuasa. Lihat [aktiviti untuk lelaki](/activities/for-men/).
-39. **Tulis atau diktekan sepucuk surat.** Kepada cucu atau sahabat lama. Jika menulis sukar, mereka bercakap dan anda menulis.
+31. **Lukis dengan cat air.** Kertas tebal, beberapa warna. Jika memulakan sukar, bimbing sapuan pertama bersama.
+32. **Warnai reka bentuk dewasa.** Bunga atau selimut, bukan kartun. [Halaman mewarna](/games/coloring/) kami boleh digunakan di skrin atau dicetak.
+33. **Buat kolaj.** Koyak gambar majalah tentang taman, kereta atau makanan dan lekatkan. Kemudian, memilih gambar sahaja sudah memadai.
+34. **Susun bunga.** Sejambak dari kedai runcit dan pasu. Kemudian, beberapa tangkai dalam balang.
+35. **Rajut atau kait bersama.** Baris ringkas dengan jarum besar. Kemudian, menggulung benang menjadi bebola.
+36. **Buat kad untuk keluarga.** Setem, tandatangan atau hias kad hari jadi dan kad semoga cepat sembuh untuk orang sebenar.
+37. **Bentuk tanah liat kering udara.** Tekan mangkuk kecil. Gunakan bahan tidak toksik dan kekal berhampiran.
+38. **Gosok dan kemaskan kayu.** Kit sangkar burung yang sudah dipotong dan kertas pasir, tanpa alat kuasa.
+39. **Tulis atau dikte surat.** Kepada cucu atau kawan lama. Jika menulis sukar, dia bercakap dan anda menulis.
 
-## Di luar rumah dan berkebun
+## Luar rumah dan berkebun
 
-Udara segar dan cahaya siang ialah teman yang baik. Lihat [aktiviti di luar rumah dan berkebun](/activities/outdoor-and-gardening/).
+Udara segar dan cahaya siang juga teman yang baik. Lihat [aktiviti luar dan berkebun](/together/outdoor-and-garden-activities/).
 
-40. **Siram pokok.** Sebuah penyiram kecil dan beberapa pasu. Menyiram setiap hari memberi rentak kepada hari itu.
-41. **Tanam dalam pasu.** Letakkan di atas meja supaya tiada sesiapa perlu melutut. Anak benih lebih mudah daripada biji benih.
-42. **Cabut rumpai atau buang bunga layu.** Pakai sarung tangan, satu petak kecil pada satu masa.
-43. **Raup daun kering.** Satu kawasan kecil. Kemudian, memegang beg terbuka ialah tugas yang sebenar.
-44. **Berjalan di laluan yang biasa.** Sekeliling blok atau ke peti surat. Lebih pendek tidak mengapa.
-45. **Duduk di luar bersama-sama.** Kerusi di beranda pada hari yang sederhana. Perhatikan awan atau orang yang lalu-lalang.
-46. **Beri burung makan.** Isi tempat makanan burung bersama-sama dan perhatikan dari tepi tingkap.
-47. **Cuci kereta.** Baldi, span, petang yang hangat. Membilas lilitan roda ialah tugas satu langkah yang baik.
+40. **Siram pokok.** Tin kecil dan beberapa pasu. Menyiram setiap hari memberi rentak kepada hari itu.
+41. **Tanam dalam pasu.** Letakkan di atas meja supaya tiada siapa perlu melutut. Anak benih lebih mudah daripada biji.
+42. **Cabut rumput atau buang bunga layu.** Pakai sarung tangan, satu bedeng kecil pada satu masa.
+43. **Sapu daun yang gugur.** Satu kawasan kecil. Kemudian, memegang beg terbuka ialah kerja sebenar.
+44. **Berjalan di laluan biasa.** Sekeliling blok atau ke peti surat. Lebih pendek juga tidak mengapa.
+45. **Duduk di luar bersama.** Kerusi beranda pada hari yang nyaman. Perhatikan awan atau orang yang lalu.
+46. **Beri makan burung.** Isi bekas makanan bersama dan perhatikan dari tempat duduk tingkap.
+47. **Basuh kereta.** Baldi, span, petang yang hangat. Membilas penutup roda ialah kerja satu langkah yang baik.
 
 ## Aktiviti deria
 
-Sentuhan, bau, rasa, bunyi dan penglihatan menjadi lebih penting apabila demensia berkembang. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) menyebut muzik, benda untuk dipegang dan urutan tangan bagi peringkat lewat. Periksa alahan dan risiko tercekik dahulu; lihat [aktiviti deria](/activities/sensory/).
+Sentuhan, bau, rasa, bunyi dan penglihatan menjadi lebih penting apabila demensia berkembang. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) menyebut muzik, benda untuk dipegang dan urut tangan untuk peringkat lanjut. Semak alahan dan risiko tercekik dahulu; lihat [aktiviti deria](/creative-calm/sensory-activities-for-adults/).
 
-48. **Urut tangan.** Tanya dahulu dan gunakan sedikit losyen. Pilih yang tanpa wangian jika tidak pasti tentang kulit atau alahan.
-49. **Rasai kain.** Sebakul baldu, kordurai, bulu dan satin untuk diusap dan dilipat.
-50. **Cium herba dan kopi.** Gosok daun pudina atau rosemari segar di antara jari. Elakkan bau yang kuat jika ada masalah pernafasan.
-51. **Sikat rambut mereka.** Perlahan dan lembut, jika mereka menikmatinya.
-52. **Kongsi kain basuh yang hangat.** Untuk tangan dan muka pada hari yang sejuk. Uji suhunya dahulu.
-53. **Terokai apron aktiviti.** Butang besar dan zip yang dijahit dengan kukuh. Pastikan tiada yang boleh tertanggal.
-54. **Rasa makanan kegemaran.** Satu sudu kecil, dalam tekstur yang boleh mereka urus dengan selamat.
-55. **Mainkan bunyi alam.** Hujan, ombak atau kicauan burung pada kelantangan rendah.
-56. **Tonton sesuatu yang perlahan.** Akuarium, video alam semula jadi atau salji yang turun.
+48. **Beri urut tangan.** Tanya dahulu dan gunakan sedikit losyen. Pilih yang tidak berbau jika tidak pasti tentang kulit atau alahan.
+49. **Rasai kain.** Bakul baldu, korduroi, bulu bebiri dan satin untuk diusap dan dilipat.
+50. **Hidu herba dan kopi.** Gosok pudina atau rosemary segar di antara jari. Elakkan bau kuat jika ada masalah pernafasan.
+51. **Sikat rambutnya.** Perlahan dan lembut, jika dia suka.
+52. **Kongsi kain lap suam.** Untuk tangan dan muka pada hari sejuk. Uji suhunya dahulu.
+53. **Terokai apron aktiviti.** Butang besar dan zip dijahit kukuh. Pastikan tiada yang boleh tertanggal.
+54. **Rasa makanan kegemaran.** Sesudu kecil, dengan tekstur yang selamat untuknya.
+55. **Mainkan bunyi alam.** Hujan, ombak atau kicauan burung pada volum rendah.
+56. **Tonton sesuatu yang perlahan.** Tangki ikan, video alam atau salji yang turun.
 
 ## Permainan dan teka-teki
 
-Permainan berkesan apabila tiada pemasa, markah atau tekanan. Jika ia mula terasa seperti ujian, simpankannya. Lihat [memilih aplikasi dan permainan](/caregiving/choosing-apps-and-games/) dan [permainan otak](/brain-health/brain-games/).
+Permainan berkesan apabila tiada pemasa, markah atau tekanan. Jika sesuatu permainan mula terasa seperti ujian, ketepikannya. Lihat [halaman permainan](/games/) dan [aktiviti demensia di rumah](/dementia-activities/).
 
-57. **Padankan gambar.** [Pasangan gambar](/games/picture-pairs/) membiarkan gambar sentiasa terbuka, jadi ia tentang memerhati, bukan mengingat.
+57. **Padankan gambar.** [Pasangan gambar](/games/picture-pairs/) membiarkan gambar kekal menghadap ke atas, jadi ia tentang memerhati, bukan mengingat.
 58. **Cari gambar yang sama.** [Cari yang sama](/games/find-the-same/) menawarkan dua hingga empat pilihan. Berbual tentang setiap gambar.
-59. **Asingkan ke dalam bakul.** [Asingkan bersama](/games/sort-together/) seperti mengasingkan stokin pada skrin.
-60. **Susun jigsaw kepingan besar.** Gambar untuk orang dewasa, bilangan kepingan yang mudah. [Teka-teki gambar](/games/picture-puzzle/) memastikan seluruh gambar kelihatan. Lagi dalam [teka-teki untuk demensia](/activities/puzzles/).
-61. **Main permainan daun terup yang lama.** Apa sahaja yang mereka mainkan selama bertahun-tahun. Kemudian, mengasingkan daun terup mengikut warna ialah satu permainan sendiri.
-62. **Main domino.** Padankan hujungnya. Kemudian, sekadar menyusun kepingan sebaris tidak mengapa.
-63. **Cuba cari kata bertulisan besar.** [Cari kata](/games/word-search/) kami hanya mempunyai perkataan mendatar dan menurun, dan boleh dicetak.
-64. **Lengkapkan peribahasa yang biasa.** [Lengkapkan peribahasa](/games/finish-the-saying/) membolehkan anda menunjukkan penghujungnya bila-bila masa.
-65. **Main bingo gambar.** [Bingo gambar](/games/picture-bingo/) sesuai untuk keluarga dan kumpulan. Bantu menanda kad dengan bebas.
-66. **Main dam.** Longgarkan peraturan. Menggerakkan buah sambil berbual juga dikira.
+59. **Asingkan ke dalam bakul.** [Susun bersama](/games/sort-together/) seperti mengasingkan stokin di skrin.
+60. **Buat jigsaw kepingan besar.** Imej dewasa, dengan bilangan kepingan yang mudah. [Teka-teki gambar](/games/picture-puzzle/) memastikan keseluruhan gambar kelihatan. Lagi dalam [teka-teki dan permainan meja](/together/puzzles-and-table-games/).
+61. **Main permainan kad lama.** Apa sahaja yang dimainkannya selama bertahun-tahun. Kemudian, mengasingkan kad mengikut warna sudah menjadi permainan tersendiri.
+62. **Main dominoes.** Padankan hujung. Kemudian, hanya menyusun jubin juga tidak mengapa.
+63. **Cuba cari perkataan dengan cetakan besar.** [Cari perkataan](/games/word-search/) kami hanya mempunyai perkataan mendatar dan menegak, dan boleh dicetak.
+64. **Lengkapkan peribahasa biasa.** [Lengkapkan peribahasa](/games/finish-the-saying/) membolehkan anda menunjukkan pengakhirannya bila-bila masa.
+65. **Main bingo gambar.** [Bingo gambar](/games/picture-bingo/) sesuai untuk keluarga dan kumpulan. Bantu tandakan kad dengan bebas.
+66. **Main dam.** Longgarkan peraturan. Menggerakkan buah sambil berbual dikira.
 
 ## Pergerakan
 
-NIA mencadangkan berjalan, basikal pegun, tali regangan, melambung bola lembut atau belon, mengangkat tin sup dan video senaman untuk warga emas. Rujuk doktor sebelum memulakan sesuatu yang baharu, terutamanya jika ada masalah keseimbangan.
+NIA mencadangkan berjalan kaki, basikal senaman, jalur regangan, membaling bola lembut atau belon, mengangkat tin sup dan video senaman untuk orang dewasa yang lebih tua. Berjumpa doktor sebelum memulakan apa-apa yang baru, terutamanya jika ada masalah keseimbangan.
 
-67. **Lambung belon.** Duduk berhadapan. Ia bergerak perlahan, jadi mudah ditangkap.
-68. **Ikut video senaman sambil duduk** yang dibuat untuk warga emas, bersebelahan.
-69. **Regang dengan tali.** Tarikan lengan yang lembut dengan tali ringan sambil duduk.
-70. **Angkat tin sup.** Angkat lengan perlahan-lahan, mungkin diiringi muzik.
-71. **Kayuh basikal pegun.** Beberapa minit yang santai, dengan anda berdekatan.
+67. **Baling belon.** Duduk berhadapan. Ia bergerak perlahan, jadi mudah ditangkap.
+68. **Ikut video senaman duduk** yang dibuat untuk orang dewasa yang lebih tua, bersebelahan.
+69. **Regangkan dengan jalur.** Tarikan lengan lembut dengan jalur ringan sambil duduk.
+70. **Angkat tin sup.** Angkat lengan perlahan, mungkin diiringi muzik.
+71. **Naiki basikal senaman.** Beberapa minit mudah, dengan anda berhampiran.
 72. **Menari dengan selendang.** Lambaikan selendang ringan mengikut muzik, sambil duduk atau berdiri.
-73. **Berjalan dengan tujuan.** Untuk mengepos surat atau membeli kopi. Ada sebab untuk pergi terasa semula jadi.
-74. **Kongsi jeda bernafas.** Perlahankan diri bersama-sama dengan [pernafasan tenang](/games/calm-breathing/).
+73. **Berjalan dengan tujuan.** Untuk pos surat atau beli kopi. Alasan untuk pergi terasa semula jadi.
+74. **Kongsi rehat pernafasan.** Perlahankan bersama dengan [pernafasan tenang](/games/calm-breathing/).
 
 ## Aktiviti sosial
 
-Teman itu penting walaupun nama sukar diingat, dan kumpulan kecil lebih mudah daripada yang besar. NIA menyatakan bahawa seseorang mungkin tidak ingat siapa tetamu itu tetapi sering masih menikmati kehadirannya. Lihat [melawat](/activities/visiting/).
+Kehadiran orang lain tetap penting walaupun nama sukar diingat, dan kumpulan kecil lebih mudah daripada kumpulan besar. NIA menyatakan bahawa seseorang mungkin tidak ingat siapa pelawat, tetapi selalunya masih menikmati teman. Lihat [melawat](/together/visiting-someone-in-care/).
 
-75. **Terima seorang atau dua tetamu pada satu masa.** Lawatan singkat di bilik yang tenang, dengan foto untuk dilihat.
-76. **Panggilan video dengan keluarga.** Panggilan singkat, satu suara pada satu masa. Lihat [panggilan telefon dan video](/activities/phone-and-video-calls/).
-77. **Cuba kafe memori (memory café).** Perhimpunan tidak formal yang terbuka untuk orang yang hidup dengan demensia dan penjaga mereka. Tanya pertubuhan Alzheimer atau pejabat kebajikan setempat apa yang ada berdekatan.
-78. **Makan di luar pada waktu yang tenang.** NIA mencadangkan restoran yang biasa dan tenang pada waktu tidak sibuk, dengan meja berhampiran tandas.
-79. **Lawat pusat warga emas atau pusat harian.** Teman bagi mereka dan rehat bagi anda.
-80. **Luangkan masa dengan kanak-kanak.** Lawatan singkat yang tenang daripada cucu, atau membacakan buku bergambar kepada kanak-kanak kecil.
-81. **Kongsi surat khabar sambil minum kopi.** Bacakan tajuk berita dengan kuat. Rutinnya lebih penting daripada beritanya.
-82. **Bantu orang lain.** Lipat risalah rumah ibadat atau buat kad untuk jiran.
+75. **Terima satu atau dua pelawat pada satu masa.** Lawatan pendek di bilik yang tenang, dengan gambar untuk dilihat.
+76. **Panggilan video dengan keluarga.** Panggilan pendek, satu suara pada satu masa. Lihat [panggilan telefon dan video](/together/staying-connected-from-afar/).
+77. **Cuba kafe ingatan.** Perhimpunan tidak rasmi untuk orang yang hidup dengan demensia dan penjaga mereka. Tanya Agensi Penuaan Kawasan tempatan anda apa yang ada berdekatan.
+78. **Makan di luar pada waktu tenang.** NIA mencadangkan restoran yang biasa dan tenang pada waktu di luar kemuncak, dengan meja berdekatan tandas.
+79. **Lawati pusat warga emas atau program harian dewasa.** Teman untuknya dan rehat untuk anda.
+80. **Luangkan masa bersama kanak-kanak.** Lawatan pendek yang tenang daripada cucu, atau membacakan buku bergambar kepada kanak-kanak kecil.
+81. **Kongsi akhbar sambil minum kopi.** Baca tajuk dengan kuat. Rutin itu lebih penting daripada beritanya.
+82. **Bantu orang lain.** Lipat program gereja atau buat kad untuk jiran.
 
-## Aktiviti keagamaan dan kerohanian
+## Aktiviti kepercayaan dan kerohanian
 
-Ikut tradisi orang itu sendiri, atau tiada. NIA mencadangkan upacara yang biasa, bacaan, muzik suci, doa, meditasi dan upacara perayaan.
+Ikut tradisi peribadi orang itu, atau tiada tradisi. NIA mencadangkan upacara biasa, bacaan, muzik suci, doa, meditasi dan upacara perayaan.
 
-83. **Hadiri upacara yang biasa.** Pilih yang lebih tenang, duduk dekat lorong, dan beritahu orang di situ tentang demensia itu.
+83. **Hadiri upacara yang biasa.** Pilih yang lebih tenang, duduk berhampiran lorong, dan maklumkan kepada orang di sana tentang demensia.
 84. **Tonton upacara dalam talian** pada hari apabila keluar rumah terlalu memenatkan.
-85. **Berdoa atau membaca bersama.** Kata-kata yang biasa, dibaca perlahan. Mereka mungkin menyertai bahagian yang mereka tahu.
-86. **Nyanyikan lagu keagamaan atau muzik suci** daripada tradisi mereka.
-87. **Kekalkan upacara perayaan.** Lilin bateri, doa restu, hiasan yang sentiasa mereka gunakan.
-88. **Kongsi masa yang tenang.** Duduk di taman atau tonton matahari terbenam bersama-sama.
+85. **Berdoa atau membaca bersama.** Kata-kata yang biasa, dibaca perlahan. Dia mungkin menyertai bahagian yang dia tahu.
+86. **Nyanyikan lagu pujian atau muzik suci** dari tradisinya.
+87. **Kekalkan upacara perayaan.** Lilin bateri, doa restu, hiasan yang selalu digunakannya.
+88. **Kongsi masa senyap.** Duduk di taman atau tonton matahari terbenam bersama.
 
 ## Haiwan peliharaan dan haiwan
 
-NIA mencadangkan memberi makan, menyikat, membawa berjalan, atau duduk bersama dan memegang haiwan peliharaan.
+NIA mencadangkan memberi makan, memandikan, membawa berjalan, atau duduk bersama dan memangku haiwan peliharaan.
 
-89. **Sikat anjing atau kucing yang tenang** dengan sapuan yang panjang dan perlahan.
-90. **Beri haiwan peliharaan makan bersama-sama.** Anda menyukat; mereka menuang.
-91. **Bawa anjing berjalan bersama-sama.** Anda memegang tali.
-92. **Pegang haiwan peliharaan di pangkuan.** Kucing yang tenang di atas selimut boleh sangat menenangkan.
-93. **Sambut haiwan yang melawat.** Sesetengah rumah jagaan dan pusat harian mengadakan lawatan haiwan. Tanya di kawasan anda.
-94. **Tawarkan haiwan lembut yang menyerupai sebenar.** Jika tiada haiwan peliharaan, sesetengah orang menikmati memegang patung kucing atau anjing yang realistik. Tawarkan dengan ringkas, jangan sekali-kali sebagai mainan, dan terima jika mereka menolak.
+89. **Sikat anjing atau kucing yang tenang** dengan usapan panjang dan perlahan.
+90. **Beri makan haiwan bersama.** Anda sukat; dia tuang.
+91. **Bawa anjing berjalan bersama.** Anda pegang tali.
+92. **Pangku haiwan peliharaan.** Kucing yang tenang di atas selimut boleh sangat menenangkan.
+93. **Alu-alukan haiwan lawatan.** Sesetengah rumah jagaan dan program harian menganjurkan lawatan haiwan. Tanya di kawasan anda.
+94. **Tawarkan haiwan lembut yang kelihatan hidup.** Jika tiada haiwan peliharaan, sesetengah orang suka memegang anak patung kucing atau anjing yang realistik. Tawarkannya dengan mudah, jangan sekali-kali sebagai mainan, dan terima penolakan.
 
 ## Aktiviti bermusim
 
-Kekalkan tradisi, tetapi lebih ringkas. NIA mencadangkan bersikap realistik dan menyediakan ruang tenang untuk berehat semasa perayaan yang sibuk.
+Kekalkan tradisi, tetapi lebih ringkas. NIA mencadangkan supaya realistik dan menyediakan ruang yang tenang untuk berehat semasa cuti yang sibuk.
 
-95. **Hias mengikut musim atau perayaan.** Hiasan ringkas atau bunga segar di atas meja.
-96. **Buat kuih perayaan.** Canai doh atau hias biskut. Anda yang mengendalikan ketuhar.
-97. **Gantung hiasan.** Hiasan yang tidak mudah pecah, diserahkan satu demi satu.
-98. **Memandu melihat lampu hiasan.** Pemanduan singkat pada waktu petang yang tidak meminta apa-apa selain teman.
-99. **Tanam umbi atau benih bunga.** Tekan ke dalam pasu dan tunggu pucuk muncul.
-100. **Kopek jagung atau kupas kacang.** Kerja di beranda dengan sebuah mangkuk di pangkuan.
-101. **Tulis alamat kad ucapan perayaan.** Mereka menandatangani, menampal setem atau menutup sampul; anda mengendalikan alamat.
+95. **Hiaskan untuk musim itu.** Labu, kalungan bunga atau bunga segar di atas meja.
+96. **Buat juadah perayaan.** Uli doh atau hiaskan biskut. Anda yang uruskan ketuhar.
+97. **Gantung hiasan.** Hiasan tidak mudah pecah, diserahkan satu demi satu.
+98. **Pandu untuk melihat lampu.** Pemanduan petang yang pendek tidak memerlukan apa-apa selain teman.
+99. **Tanam bebawang musim bunga.** Tekan bebawang ke dalam pasu pada musim luruh dan perhatikan tunas.
+100. **Kupas jagung atau kacang pea.** Kerja beranda musim panas dengan mangkuk di atas riba.
+101. **Tulis alamat pada kad perayaan.** Dia tandatangan, setem atau gam; anda uruskan alamat.
 
 ## Bagaimana jika sesuatu aktiviti tidak berjaya?
 
-Berhenti, dan cuba sesuatu yang berbeza pada lain masa. NIA mencadangkan memerhatikan kekecewaan dan membiarkan orang itu sekadar menonton jika mereka lebih suka. Penolakan sering bermaksud tugas itu terlalu sukar, waktunya tidak sesuai, atau ada sesuatu yang lain mengganggu mereka, seperti sakit, lapar atau bunyi bising. Jadikannya lebih kecil, cuba lebih awal pada hari itu, atau mulakannya sendiri dan lihat sama ada mereka menyertai. Lihat [apabila mereka berkata tidak](/caregiving/when-they-say-no/) dan [resah lewat petang](/caregiving/late-day-restlessness/).
+Berhenti, dan cuba sesuatu yang lain pada masa lain. NIA mencadangkan untuk memerhati tanda kecewa dan membiarkan orang itu sekadar memerhati jika itu lebih disukainya. Penolakan selalunya bermaksud tugas itu terlalu sukar, masanya tidak tepat, atau ada sesuatu lain yang mengganggunya, seperti kesakitan, lapar atau bising. Buat lebih ringkas, cuba lebih awal pada hari itu, atau mulakan sendiri dan lihat sama ada dia menyertai. Lihat [apabila mereka berkata tidak](/caregiving/when-they-say-no/) dan [aktiviti petang yang tenang](/creative-calm/calm-afternoon-activities/).
 
-Untuk memuatkan aktiviti di antara waktu makan dan rehat, lihat [rutin harian yang lembut](/activities/daily-routine/). Untuk barang yang perlu disediakan, lihat [aktiviti boleh cetak](/activities/printable/), dan jika anda memimpin kumpulan, [aktiviti kumpulan rumah jagaan](/activities/care-home-groups/). Rehat anda sendiri juga penting: lihat [penjagaan diri penjaga](/caregiving/caregiver-self-care/).
+Untuk memasukkan aktiviti antara waktu makan dan rehat, lihat [aktiviti petang yang tenang](/creative-calm/calm-afternoon-activities/). Untuk bahan yang sedia digunakan, lihat [bahan cetakan percuma di halaman permainan](/games/), dan jika anda mengetuai kumpulan, lihat [aktiviti kumpulan di rumah jagaan](/crafts/craft-group-sessions/). Rehat anda sendiri juga penting: lihat [penjagaan diri untuk penjaga](/creative-calm/creative-self-care-for-caregivers/).

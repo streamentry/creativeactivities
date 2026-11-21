@@ -13,10 +13,16 @@
     "machineTranslated": "Denne siden er oversatt automatisk og er ennå ikke gjennomgått av en som har norsk som morsmål.",
     "readOriginal": "Les originalen på engelsk",
     "nav": {
+      "find": "Find an activity",
       "games": "Spill",
       "activities": "Aktiviteter",
       "caregiving": "Omsorg",
-      "brainHealth": "Hjernehelse"
+      "brainHealth": "Hjernehelse",
+      "crafts": "Håndverk",
+      "kids": "Barn",
+      "together": "Sammen",
+      "creativeCalm": "Kreativ ro",
+      "search": "Søk"
     },
     "faqTitle": "Spørsmål og svar",
     "breadcrumb": "Brødsmulesti",
@@ -28,6 +34,21 @@
       "smaller": "Standardtekst",
       "larger": "Større tekst",
       "contrast": "Høyere kontrast"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -36,11 +57,12 @@
     "conversationCards": "Samtalekort",
     "pictureBingo": "Bildebingo",
     "allGames": "Alle spill",
+    "pictures": "Bilder til utskrift",
     "activityIdeas": "Aktivitetsideer",
     "ideas101": "101 aktivitetsideer",
     "lateStage": "Aktiviteter i sen fase",
     "printable": "Aktiviteter du kan skrive ut",
-    "allActivities": "Alle aktiviteter",
+    "allActivities": "Alle aktivitetsguider",
     "forCaregivers": "For pårørende",
     "playTogether": "Slik spiller dere sammen",
     "selfCare": "Ta vare på deg selv",
@@ -53,10 +75,15 @@
     "app": "Creative Activities-appen",
     "appHelp": "Hjelp til appen",
     "support": "Støtte",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Juridisk",
     "sitePrivacy": "Personvern på nettstedet",
     "appPrivacy": "Personvernerklæring for appen",
     "privacyChoices": "Personvernvalg",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Vilkår og applisens",
     "safety": "Sikkerhet og tiltenkt bruk",
     "accessibility": "Tilgjengelighet",
@@ -64,14 +91,18 @@
     "allLegal": "All juridisk informasjon",
     "note": "Creative Activities tilbyr enkle aktiviteter å glede seg over sammen. Det er ikke medisinsk råd, en test eller en behandling, og det stiller ikke diagnose, måler eller gir poeng til noen. Ta kontakt med en lege hvis du har helsespørsmål. Ved akutt fare ringer du 112.",
     "publisher": "Utgitt av Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Bilder til utskrift"
+    "crafts": "Håndverk for alle aldre",
+    "kids": "Aktiviteter for barn",
+    "together": "Aktiviteter å gjøre sammen",
+    "creativeCalm": "Kreativ ro",
+    "dementiaActivities": "Aktiviteter for personer med demens"
   },
   "home": {
-    "title": "Spill og aktiviteter for demens og Alzheimers | Creative Activities",
-    "description": "Gratis, rolige bildespill på nett og aktivitetsideer for personer med demens eller Alzheimers og pårørende. Uten registrering, tidtaking eller poeng.",
+    "title": "Kreative aktiviteter for deg som pleier noen",
+    "description": "Gratis kreative aktiviteter for deg som pleier noen: håndverk, ting for barn, aktiviteter å gjøre sammen og rolige kreative ideer.",
     "eyebrow": "Gratis · Ingen reklame · Ingen registrering · Ingen tidtaking eller poeng",
-    "h1": "Rolige spill og aktiviteter for personer med demens",
-    "lede": "Enkle bildespill, kjente bilder og aktiviteter å glede seg over sammen, i ditt eget tempo.",
+    "h1": "Lag noe sammen",
+    "lede": "Finn en aktivitet som passer personen, øyeblikket og det dere har for hånden. Enkle håndverk, barnekunst, ting å gjøre sammen og rolige kreative ideer, med enklere varianter og et kort du kan skrive ut. Stopp når du vil.",
     "playGame": "Spill et spill",
     "findIdeas": "Finn aktivitetsideer",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 aktivitetsideer",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Tidlig fase",
         "text": "Fortsett med det personen er glad i, med små tilpasninger: hobbyer, turer, ordspill og planlegging sammen.",
         "label": "Ideer for tidlig fase"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Midtre fase",
         "text": "Enkle, kjente gjøremål delt opp i trinn: brette, sortere, musikk, bildespill og korte turer.",
         "label": "Ideer for midtre fase"
@@ -124,10 +155,10 @@
         "label": "Ideer for senere fase"
       }
     ],
-    "specificHtml": "Leter du etter noe bestemt? Prøv <a href=\"/activities/alzheimers/\">aktiviteter og spill ved Alzheimers</a>, <a href=\"/activities/memory-games/\">rolige minnespill</a>, <a href=\"/activities/trivia/\">enkle spørsmål</a> eller <a href=\"/activities/puzzles/\">puslespill</a>.",
+    "specificHtml": "Leter du etter noe spesielt? Prøv <a href=\"/dementia-activities/\">aktiviteter og spill for Alzheimers</a>, <a href=\"/together/puzzles-and-table-games/\">puslespill og brettspill</a>, <a href=\"/together/conversation-games-for-all-ages/\">samtalespill</a> eller <a href=\"/together/puzzles-and-table-games/\">puslespill</a>.",
     "approachEyebrow": "Slik tenker vi",
-    "approachTitle": "En felles aktivitet, ikke en hukommelsestest",
-    "approachLede": "Mange «hjernespill» er bygd på fart, poeng og rekker. For en person som lever med demens kan det føles som en eksamen. Vi har laget det motsatte.",
+    "approachTitle": "En felles aktivitet, ikke en prøve",
+    "approachLede": "Mange «hjernetreningsspill» er bygget rundt fart, poeng og rekker. For en som er sliten, syk eller lever med demens, kan det føles som en eksamen. Vi har gjort det motsatte.",
     "approachLink": "Hvorfor vi utformer det slik",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Vanlige grunner til å takke nei, og rolige måter å prøve igjen senere."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Slik setter du opp et nettbrett",
-        "text": "Større tekst, færre avbrudd og én enkel startskjerm."
+        "href": "/activities/group-art-activities/",
+        "title": "Kunstaktiviteter i gruppe",
+        "text": "Felles prosjekter for et bord med flere personer, med en oppgave til hver."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Gratis aktiviteter du kan skrive ut",
-        "text": "Ordsøk i stor skrift, fargeleggingsark, bingo og samtalekort."
+        "href": "/activities/ideas/",
+        "title": "101 aktivitetsideer",
+        "text": "Enkle ideer, sortert etter hva dere har og hvor mye energi det er."
       }
     ],
     "researchTitle": "Hjernehelse: hva forskningen egentlig sier",
@@ -185,16 +216,16 @@
     "aboutApp": "Om appen",
     "faq": [
       {
-        "q": "Hvilke spill passer for personer med demens?",
-        "a": "Gode spill er enkle, kjente og uten press: store bilder som skal passes sammen, sortering, enkle puslespill, å fullføre kjente ordtak, fargelegging, bildebingo og samtalekort. Det beste valget er det personen liker i dag. Unngå tidtaking, poeng og alt som føles som en test."
+        "q": "Hva er gode spill for eldre voksne?",
+        "a": "Gode spill er enkle, kjente og uten press: store bilder å pare sammen, sortering, enkle puslespill, å fullføre kjente ordtak, fargelegging, bildebingo og samtalekort. De passer for mange eldre voksne, også for personer som lever med demens. Det beste valget er det personen liker i dag. Unngå tidtakere, poeng og alt som kan kjennes ut som en prøve."
       },
       {
-        "q": "Er disse demensspillene gratis?",
+        "q": "Er disse spillene gratis?",
         "a": "Ja. Alle spill og alt du kan skrive ut på Creative Activities er gratis, uten konto, registrering eller nedlasting. Spillene kjører i nettleseren på mobil, nettbrett eller datamaskin."
       },
       {
         "q": "Forebygger hjernespill demens?",
-        "a": "Ikke noe spill er vist å forebygge demens, og Creative Activities påstår ikke å behandle eller forebygge noe. Spillene våre er til glede og for tid sammen. I delen om hjernehelse forklarer vi hva forskningen viser og ikke viser."
+        "a": "Ingen spill har vist seg å forebygge demens, og Creative Activities hevder ikke å behandle eller forebygge noe. Spillene våre er til glede og for tid sammen, og ingen aktivitetsside kommer med helsepåstander."
       },
       {
         "q": "Passer disse spillene for en person med Alzheimers?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "Hvem lager Creative Activities?",
-        "a": "Creative Activities lages av et lite team som lager rolige, voksne bildeaktiviteter for familier og pårørende, på nett og som en gratis app. Vi er ikke helsepersonell, og ingenting her er medisinsk råd."
+        "a": "Creative Activities er et lite team som lager rolige, kreative aktiviteter for voksne, for deg som pleier noen. Vi er på nett og som en gratis app. Vi er ikke helsepersonell, og ingenting her er medisinsk råd."
+      }
+    ],
+    "groupsEyebrow": "Finn veien inn",
+    "groupsTitle": "Fire typer kreative aktiviteter",
+    "groupsLede": "Start med gruppen som passer til hvem du er sammen med og hva dere har. Hver side har enklere varianter og sikkerhetsmerknader.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Håndverk",
+        "text": "Papir, maling, gjenbruk og sesongprosjekter, med en enklere variant for hvert prosjekt.",
+        "label": "Se håndverk"
+      },
+      {
+        "href": "/kids/",
+        "title": "Barn",
+        "text": "Kunst og lek for barn, med en voksen i nærheten og tydelige sikkerhetsmerknader.",
+        "label": "Se aktiviteter for barn"
+      },
+      {
+        "href": "/together/",
+        "title": "Sammen",
+        "text": "Samtale, puslespill, tid ute og måter å holde kontakten på tvers av generasjoner.",
+        "label": "Se ting å gjøre sammen"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreativ ro",
+        "text": "Rolige, stille kreative øyeblikk med en blyant, et ark eller en sang. Ikke terapi.",
+        "label": "Se kreativ ro"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktiviteter",
-      "title": "Aktiviteter for personer med demens",
-      "seo": "Aktiviteter for personer med demens: ideer etter fase",
-      "description": "Aktivitetsideer for personer som lever med demens, i alle faser: musikk, minner, hverdagsgjøremål, sansestunder, håndarbeid, uteliv og gratis utskrifter.",
-      "lede": "En meningsfull aktivitet er alt som gir trygghet, formål eller et øyeblikk av nærhet. Start med det personen alltid har likt, og tilpass det til i dag."
+      "label": "Aktivitetsguider",
+      "title": "Aktivitetsguider",
+      "seo": "Aktivitetsguider: ideer, kunstmaterialer og måter å komme i gang på",
+      "description": "Enkle guider til kreative aktiviteter dere kan gjøre sammen: enkle ideer, rimelige kunstmaterialer, gruppekunst, brev, minner og en forklaring på kunstterapi.",
+      "lede": "Korte, praktiske guider for å velge og starte en aktivitet med noen, uansett alder eller evne."
+    },
+    "crafts": {
+      "label": "Håndverk",
+      "title": "Håndverk for alle aldre",
+      "seo": "Enkle håndverk for alle aldre, med enklere varianter",
+      "description": "Enkle håndverk for voksne, barn og familier: papir, fargelegging, gjenbruk og sesongprosjekter, med varianter som er lettere å holde i og som kan gjøres sittende, uten spesielle ferdigheter.",
+      "lede": "Håndverk som tar utgangspunkt i det de fleste hjem allerede har, hver med en enklere variant, slik at alle kan lage noe."
+    },
+    "kids": {
+      "label": "Barn",
+      "title": "Kreative aktiviteter for barn",
+      "seo": "Kreative aktiviteter for barn: kunst, sansing og ro",
+      "description": "Kreative aktiviteter for barn: kunst for små barn, prosessorientert kunst, sanselek, håndverk for regnværsdager og ideer for å roe ned, med sikkerhetsmerknader og varianter for sansebehov.",
+      "lede": "Kunst- og lekideer for barn i ulike aldre og med ulike behov, med tydelige sikkerhetsmerknader og en voksen i nærheten."
+    },
+    "together": {
+      "label": "Sammen",
+      "title": "Aktiviteter å gjøre sammen",
+      "seo": "Aktiviteter å gjøre sammen, på tvers av generasjoner",
+      "description": "Aktiviteter for to eller flere generasjoner: samtalespill, puslespill, tid ute, håndverk for besteforeldre og barnebarn, og måter å holde kontakten på på avstand.",
+      "lede": "Ideer for å dele tid med en forelder, besteforelder, barn eller venn, hjemme, ute, på besøk eller på avstand."
+    },
+    "creative-calm": {
+      "label": "Kreativ ro",
+      "title": "Kreativ ro",
+      "seo": "Kreativ ro: avslappende kunst og aktiviteter for å koble av",
+      "description": "Avslappende kreative aktiviteter for voksne og pårørende: oppmerksom kunst, dagbok, musikk, sanseøyeblikk og rolige ettermiddager. Kreativ aktivitet, ikke terapi.",
+      "lede": "Milde måter å senke tempoet på med en blyant, et ark eller en sang. Dette er kreative aktiviteter, ikke terapi, og de krever ingen ferdigheter."
     },
     "caregiving": {
-      "label": "Omsorg",
-      "title": "Veiledninger for omsorg",
-      "seo": "Veiledninger for omsorg ved demens: praktisk hjelp i hverdagen",
-      "description": "Praktiske, vennlige veiledninger for pårørende ved demens: å spille sammen, samtale, å si nei, uro sent på dagen, nettbrett, valg av apper og å ta vare på deg selv.",
-      "lede": "Enkel, praktisk hjelp i hverdagens øyeblikk når du har omsorg for en person som lever med demens, også for deg selv."
+      "label": "Demensomsorg",
+      "title": "Å pleie noen med demens",
+      "seo": "Å pleie noen med demens: aktiviteter og hjelp",
+      "description": "Guider for familier som pleier noen med demens: hvordan dere kan leke sammen, hva dere kan gjøre når de sier nei, og hvor dere finner pålitelig hjelp etter en diagnose.",
+      "lede": "Aktivitetsfokusert hjelp for familier som pleier noen som lever med demens, og hvor man kan henvende seg for medisinske råd og omsorgsråd."
     },
     "brain-health": {
       "label": "Hjernehelse",
@@ -283,7 +371,16 @@
     "tryTogether": "Prøv sammen",
     "relatedGuides": "Relaterte veiledninger",
     "related": "Relatert",
-    "startHere": "Start her"
+    "startHere": "Start her",
+    "staleAria": "Oversettelse som er utdatert",
+    "staleTitle": "Denne oversettelsen er utdatert",
+    "staleText": "Den ble laget fra en tidligere versjon av den engelske siden, som har endret seg siden den gang. Den engelske siden er den gjeldende.",
+    "staleHealth": "Den gir helseinformasjon, så sjekk den engelske siden og spør lege eller sykepleier før du handler etter den.",
+    "staleLink": "Les den gjeldende engelske siden"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Merknad om helseinformasjon",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "En felles aktivitet, ikke en hukommelsestest",
+      "title": "En felles aktivitet, ikke en prøve",
       "seoTitle": "Om Creative Activities: slik tenker vi",
-      "description": "Hvorfor Creative Activities-spillene ikke har tidtaking, poeng eller rekker, hvorfor bildene blir stående synlige, og hva vi vil og ikke vil påstå om demens.",
+      "description": "Hvorfor Creative Activities ikke har tidtakere, poeng eller rekker, hvorfor bilder blir synlige, og hva vi vil og ikke vil påstå om helse.",
       "crumb": "Slik tenker vi",
-      "lede": "Creative Activities lager rolige, voksne bildeaktiviteter som en pårørende og en person som lever med demens kan glede seg over side om side.",
-      "bodyHtml": "<h2>Det vi tror på</h2><p>Poenget med en aktivitet er selve øyeblikket: en samtale, et smil, gleden over å få to bilder til å passe sammen, eller bare å sitte tett inntil hverandre. Det er ikke å måle noen, presse noen lenger eller bevise noe.</p><p>Mange hjernetreningsapper er bygd rundt fart, poeng, rekker og nivåer. For en person som lever med demens kan det føles som en eksamen man ikke kan bestå. Vi har laget det motsatte, og vi holder oss til disse reglene:</p><ul><li><strong>Ingenting å mislykkes med.</strong> Ingen klokke, poeng, trekkteller, liv, rekker, konfetti eller nedtellinger, på noen skjerm.</li><li><strong>Gjenkjenning fremfor å huske.</strong> Bildene blir stående synlige som standard. Spørsmålene inviterer til samtale og tester aldri navn eller minner.</li><li><strong>Stort, enkelt og stabilt.</strong> Stor tekst og store bilder, høy kontrast og knapper som blir værende på samme sted.</li><li><strong>Voksen verdighet.</strong> Bilder fra virkeligheten og enkle, varme ord. Ingen tegneserier, overdreven ros eller emoji som belønning.</li><li><strong>En enkel vei ut.</strong> «Ferdig for nå» er alltid synlig. Å stoppe midtveis er et godt resultat.</li><li><strong>Privat som standard.</strong> Ingen kontoer eller reklame. Bilder du velger, blir værende på enheten din.</li></ul><h2>Det vi ikke påstår</h2><p>Spillene våre er til glede og nærhet. De stiller ikke diagnose, tester, måler, behandler, bremser eller forebygger demens eller Alzheimers sykdom, og ingen bør velge dem av den grunn. Når vi skriver om forskning på <a href=\"/brain-health/\">sidene om hjernehelse</a>, sier vi rett ut hvor bevisene er svake, og vi knytter det aldri til våre egne spill.</p><h2>Hvem vi er</h2><p>Creative Activities er et lite uavhengig team. Vi er ikke helsepersonell. Veiledningene våre er skrevet ut fra publiserte råd fra organisasjoner som National Institute on Aging og Alzheimer’s Association, og hver veiledning oppgir kildene sine. Les <a href=\"/editorial-policy/\">hvordan vi skriver og kontrollerer sidene våre</a>.</p><h2>Fortell oss hva som ville hjelpe</h2><p>Vi vil gjerne høre hva som fungerer for deg og hva som ikke gjør det, særlig fra personer som lever med demens, pårørende og ansatte som lager aktiviteter. Send e-post til <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities lager rolige aktiviteter for voksne, som to personer kan more seg med side om side, enten den ene tar vare på den andre, eller de bare vil tilbringe tid sammen.",
+      "bodyHtml": "<h2>Hvem det er for</h2><p>For alle som tar vare på noen: en mor eller far, en bestemor eller bestefar, et barn, en partner, en venn, eller en person som lever med demens. Familier, eldre voksne og ansatte i aktivitetstilbud kan alle bruke de samme sidene.</p><h2>Det vi tror på</h2><p>Poenget med en aktivitet er selve øyeblikket: en samtale, et smil, tilfredsheten ved å sette sammen to bilder, eller bare å sitte tett sammen. Det er ikke for å måle noen, presse dem lenger eller bevise noe.</p><p>Mange hjernetreningsapper er laget rundt fart, poeng, rekker og nivåer. For noen som er trøtt, syk eller lever med demens, kan det føles som en eksamen de ikke kan bestå. Vi har laget det motsatte, og vi holder oss til disse reglene:</p><ul><li><strong>Ingenting å mislykkes i.</strong> Ingen klokke, poeng, trekkteller, liv, rekker, konfetti eller nedtellinger, på noen skjerm.</li><li><strong>Gjenkjenning framfor hukommelse.</strong> Bilder blir synlige som standard. Oppfordringene inviterer til samtale og spør aldri etter navn eller minner.</li><li><strong>Stor, enkel og rolig.</strong> Stor tekst og store bilder, høy kontrast, og knapper som blir stående på samme sted.</li><li><strong>Voksen verdighet.</strong> Bilder fra virkeligheten og enkle, varme ord. Ingen tegneserier, sangaktig ros eller emoji-belønninger.</li><li><strong>En enkel vei ut.</strong> «Ferdig for nå» er alltid synlig. Å stoppe halvveis er et godt resultat.</li><li><strong>Privat som standard.</strong> Ingen kontoer eller annonser. Bilder du velger, blir på enheten din.</li></ul><h2>Det vi ikke påstår</h2><p>Spillene og aktivitetene våre er til glede og for kontakt. De stiller ikke diagnose, tester, måler, behandler, bremser eller forebygger demens eller Alzheimers sykdom, og ingen bør velge dem av den grunn. Når vi skriver om helseforskning, sier vi tydelig hvor beviset er svakt, og vi kobler det aldri til våre egne aktiviteter.</p><h2>Hvem vi er</h2><p>Creative Activities er et lite, uavhengig team. Vi er ikke klinikere. Veiledningene våre er skrevet ut fra publisert veiledning fra organisasjoner som National Institute on Aging og Alzheimer’s Association, og hver veiledning lister opp kildene sine. Les <a href=\"/editorial-policy/\">hvordan vi skriver og kontrollerer sidene våre</a>.</p><h2>Fortell oss hva som kan hjelpe</h2><p>Vi vil gjerne høre hva som fungerer for deg og hva som ikke gjør det, særlig fra personer som lever med demens, pårørende og ansatte i aktivitetstilbud. Send e-post til <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Slik skriver og kontrollerer vi sidene våre",
       "seoTitle": "Redaksjonell policy",
-      "description": "Hvordan Creative Activities undersøker, skriver, oppgir kilder for og oppdaterer sidene om aktiviteter ved demens og hjernehelse, og hva vi aldri vil publisere.",
+      "description": "Hvordan Creative Activities researcher, skriver, finner kilder til og oppdaterer aktivitets- og helsesidene sine, og hva vi aldri vil publisere.",
       "crumb": "Redaksjonell policy",
       "bodyHtml": "<h2>Kildene våre</h2><p>Vi baserer veiledningene våre på offentlige råd fra organisasjoner som National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance og NHS, og på fagfellevurdert forskning som Cochrane-oversikter og store kliniske studier. Hver veiledning oppgir kildene den bygger på. Vi åpner hver kilde før vi siterer den, og vi gjengir bare det den faktisk sier.</p><h2>Slik skriver vi</h2><ul><li>Det praktiske først: hva du kan gjøre i dag, på enkelt språk.</li><li>Ærlige om bevisene: vi sier «henger sammen med», «kan» og «bevisene spriker» når det er sant.</li><li>Respektfulle: vi skriver om personer som lever med demens som voksne, og vi bruker aldri språk som utspør eller skammer.</li><li>Ikke noe oppdiktet: ingen oppdiktede tall, sitater, eksperter, studier, anmeldelser eller attester.</li></ul><h2>Hvem som gjennomgår sidene våre</h2><p>Sidene skrives og kontrolleres av Creative Activities-teamet, med hjelp fra skriveverktøy med kunstig intelligens til research og utkast. Teamet kontrollerer hver side mot kildene. Sidene våre er <strong>ikke</strong> gjennomgått av en lege eller annet helsepersonell, og vi påstår ikke noe annet. De er generell informasjon, ikke medisinsk råd.</p><h2>Det vi aldri vil publisere</h2><ul><li>Påstander om at et spill, en matvare, et kosttilskudd, en faste eller en rutine forebygger, behandler, bremser eller kurerer demens.</li><li>Tester, spørrelister eller poeng som antyder at noen har eller ikke har demens.</li><li>Råd om å starte, slutte med eller endre medisiner.</li><li>Reklame eller betalt innhold som er forkledd som veiledning.</li></ul><h2>Oppdateringer og rettelser</h2><p>Hver side viser datoen den sist ble oppdatert. Hvis du finner en feil eller en utdatert kilde, send e-post til <a href=\"mailto:{email}\">{email}</a>, så sjekker vi det raskt.</p>"
     },
     "faq": {
       "title": "Spørsmål og svar",
-      "seoTitle": "Spill og aktiviteter for demens: spørsmål og svar",
-      "description": "Svar på vanlige spørsmål om spill og aktiviteter for demens: hvilke spill du kan prøve, hvor lenge dere bør spille, ideer for senere fase, hjernehelse og personvern.",
+      "seoTitle": "Spørsmål og svar om Creative Activities",
+      "description": "Svar på vanlige spørsmål om spillene og aktivitetene: hvilke du bør prøve, hvor lenge dere kan spille, ideer for grupper og for senere stadier, helse og personvern.",
       "crumb": "Spørsmål og svar",
       "lede": "Korte, enkle svar på det pårørende spør oftest om.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Om spillene",
           "items": [
             {
-              "q": "Hva er de beste spillene for en person med demens?",
+              "q": "Hvilke spill er best for eldre voksne?",
               "a": "De beste spillene er kjente, enkle og uten press, og det rette er det personen liker i dag. Å finne bildepar med synlige bilder, sortering, enkle puslespill, å fullføre kjente ordtak, fargelegging og bildebingo passer godt for mange. Unngå tidtaking, poeng og alt som føles som en test."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Hjernehelse",
+          "title": "Demens og helse",
           "items": [
             {
               "q": "Kan spill forebygge eller bremse demens?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Mer informasjon: <a href=\"/caregiving/how-to-play-together/\">slik spiller dere sammen</a>, <a href=\"/caregiving/when-they-say-no/\">når personen sier nei</a>, <a href=\"/activities/late-stage/\">aktiviteter i senere fase</a> og <a href=\"/brain-health/can-dementia-be-prevented/\">kan demens forebygges?</a>"
+      "moreHtml": "Mer informasjon: <a href=\"/caregiving/how-to-play-together/\">hvordan dere kan spille sammen</a>, <a href=\"/caregiving/when-they-say-no/\">når de sier nei</a>, <a href=\"/activities/late-stage/\">aktiviteter for senere stadier</a> og <a href=\"/dementia-activities/\">aktiviteter ved demens hjemme</a>."
     },
     "handout": {
       "title": "Gratis, rolige spill for personer som lever med demens",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "For sykehjem, bibliotek og støttegrupper",
-      "seoTitle": "Gratis aktiviteter for demens til sykehjem og grupper",
-      "description": "Hvordan sykehjem, dagsentre, bibliotek og støttegrupper bruker de gratis demensspillene våre, med tekst du kan bruke for å legge oss til i en ressursliste.",
+      "seoTitle": "Gratis aktiviteter for sykehjem, bibliotek og grupper",
+      "description": "Hvordan sykehjem, dagtilbud for voksne, bibliotek, eldreorganisasjoner og støttegrupper bruker våre gratis spill og aktivitetsveiledninger, pluss tekst for åføye oss til en ressursliste.",
       "crumb": "For organisasjoner",
       "lede": "Alt på dette nettstedet er gratis å bruke sammen med beboere, medlemmer og brukere, uten konto, lisens eller avgift.",
-      "shortText": "{name}: gratis, rolige bildespill og veiledninger om aktiviteter for personer som lever med demens, og for pårørende. Uten registrering, tidtaking eller poeng.",
-      "longText": "{name} ({domain}) tilbyr {count} gratis nettleserspill laget for personer som lever med demens, blant annet bildepar der bildene blir stående synlige, et enkelt puslespill, sortering, kjente ordtak og bildebingo med kort du kan skrive ut. Det finnes ingen konto, reklame, tidtaking eller poeng. Nettstedet har også veiledninger på enkelt språk om aktiviteter for hver fase av demens, som viser til National Institute on Aging og Alzheimer's Association.",
+      "shortText": "{name}: gratis, milde bildespill og aktivitetsveiledninger for eldre voksne, familier og personer som lever med demens. Ingen registrering, ingen tidtakere, ingen poeng.",
+      "longText": "{name} ({domain}) tilbyr {count} gratis nettleserspill for eldre voksne, familier og personer som lever med demens, blant annet parkobling der bildene blir synlige, et enkelt puslespill, sortering, kjente ordtak og bildebingo med kort som kan skrives ut. Det finnes ingen konto, reklame, tidtaker eller poeng. Siden har også enkle aktivitetsveiledninger for familier, eldre voksne og ansatte, med kilder som National Institute on Aging og Alzheimer's Association.",
       "useTitle": "Hva organisasjoner kan bruke",
       "gamesItemHtml": "<strong>{count} nettleserspill</strong> som kjører på en bærbar datamaskin, et nettbrett eller en TV koblet til en datamaskin. Ingen installasjon, konto eller nedlasting. Se <a href=\"/games/\">alle spillene</a>.",
       "printablesLabel": "{count} utskrifter:",
       "printablesAfter": "Bruk Skriv ut-knappen på hver side.",
-      "moreItemsHtml": "<li><strong>Gruppeformater:</strong> <a href=\"/games/picture-bingo/\">Bildebingo</a> har kort du kan skrive ut og en opplesing på skjermen, og <a href=\"/activities/trivia/\">enkle spørsmål</a> har 50 spørsmål med svaralternativer og samtaleemner.</li><li><strong>Veiledninger om aktiviteter</strong> for ansatte og familier, etter fase og type, skrevet på enkelt språk med kilder. Start med <a href=\"/activities/ideas/\">101 aktivitetsideer</a> eller <a href=\"/activities/care-home-groups/\">gruppeaktiviteter på sykehjem</a>.</li>",
+      "moreItemsHtml": "<li><strong>Gruppeformater:</strong> <a href=\"/games/picture-bingo/\">Bildebingo</a> har utskriftbare kort og en oppringer på skjermen, og <a href=\"/together/conversation-games-for-all-ages/\">samtalespill</a> har spørsmål med svaralternativer og samtalepunkter.</li><li><strong>Aktivitetsveiledninger</strong> for ansatte og familier, skrevet i et enkelt språk med kilder. Start med <a href=\"/activities/ideas/\">101 aktivitetsidéer</a> eller <a href=\"/crafts/craft-group-sessions/\">gruppeaktiviteter for sykehjem</a>.</li>",
       "restHtml": "<h2>Slik bruker grupper det</h2><ul><li><strong>Sykehjem og avdelinger for demens:</strong> bildebingo eller fullfør ordtaket på TV-en i fellesstuen, med én som trykker for gruppen.</li><li><strong>Dagsentre:</strong> en nettbrettstasjon med Bildepar satt til fire brikker, til korte økter én til én.</li><li><strong>Offentlige bibliotek:</strong> utskrevne ordsøk og samtalekort i minnekasser, og nettstedet lagret som bokmerke på bibliotekets nettbrett.</li><li><strong>Støttegrupper for pårørende og minnekafeer:</strong> et <a href=\"/handout/\">ark på én side som kan skrives ut</a>, som familiene kan ta med hjem.</li><li><strong>Sykehus og utskrivingsteam:</strong> arket i informasjonsmapper til pårørende, som noe rolig å gjøre hjemme eller ved sengen.</li></ul><h2>Det vi ikke gjør</h2><p>Spillene er til glede og tid sammen. De stiller ikke diagnose, tester, gir poeng, behandler eller bremser demens, og vi ber organisasjoner om ikke å beskrive dem slik. Det er ingen reklame, og spillene ber ikke om navn, helseopplysninger eller opplasting av bilder. Nettstedet bruker Google Analytics til å telle besøk. <a href=\"/privacy/\">Personvernerklæringen</a> vår forklarer hva som samles inn. Bilder som brukes i <a href=\"/games/photo-pairs/\">Fotopar</a>, blir værende i nettleseren.</p><h2>Legg oss til i ressurslisten din</h2><p>Hvis du har en liste over ressurser for pårørende, er du velkommen til å lenke til <a href=\"/\">{domain}</a>. Du kan kopiere en av beskrivelsene.</p>",
       "shortTitle": "Kort beskrivelse",
       "longTitle": "Lengre beskrivelse",
-      "linksHtml": "<p>Nyttige sider å lenke direkte til: <a href=\"/games/\">gratis spill</a>, <a href=\"/activities/printable/\">gratis utskrifter</a>, <a href=\"/activities/alzheimers/\">aktiviteter ved Alzheimers</a> og <a href=\"/caregiving/how-to-play-together/\">slik spiller dere sammen</a>.</p><h2>Spørsmål eller rettelser</h2><p>Hvis noe på nettstedet er feil eller uklart, eller en beboers behov ikke dekkes av det som finnes her, si fra til oss på <a href=\"mailto:{email}\">{email}</a>. Ikke send personlige opplysninger eller helseopplysninger om beboere eller brukere.</p>"
+      "linksHtml": "<p>Nyttige sider å lenke direkte til: <a href=\"/games/\">gratis spill</a>, <a href=\"/games/\">gratis utskrifter</a>, <a href=\"/dementia-activities/\">aktiviteter hjemme ved demens</a> og <a href=\"/caregiving/how-to-play-together/\">hvordan spille sammen</a>.</p><h2>Spørsmål eller rettelser</h2><p>Hvis noe på siden er feil eller uklart, eller hvis en beboers behov ikke dekkes av det som finnes her, si gjerne fra til <a href=\"mailto:{email}\">{email}</a>. Vennligst ikke send personlig eller helseopplysninger om beboere eller brukere.</p>"
     },
     "app": {
       "title": "Creative Activities-appen",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Gratis spill for demens og Alzheimers på nett",
-    "description": "Gratis nettspill for eldre med demens eller Alzheimers: bildepar, enkle puslespill, sortering, ordtak, bingo. Uten registrering, tidtaking eller poeng.",
+    "title": "Gratis spill å spille sammen på nettet",
+    "description": "Gratis spill på nettet for eldre voksne, familier og personer med demens: bildeparing, enkle puslespill, sortering, ordtak, fargelegging og bingo. Ingen registrering, tidtaker eller poeng.",
     "crumb": "Spill",
-    "h1": "Rolige spill for personer med demens",
+    "h1": "Rolige spill å spille sammen",
     "lede": "{count} gratis spill å spille sammen i nettleseren. Store bilder, enkle ord og ingenting å mislykkes med: ingen tidtaking, ingen poeng, ingen registrering.",
-    "listName": "Rolige spill for personer med demens",
+    "listName": "Rolige spill å spille sammen",
     "byStageTitle": "Å velge spill etter fase",
     "byStageLede": "Faser er bare en grov veiledning. Følg det personen liker og det som føles godt i dag.",
     "stageCol": "Fase",
     "gamesCol": "Spill som ofte passer",
-    "moreHtml": "Flere ideer vekk fra skjermen: <a href=\"/activities/ideas/\">101 aktiviteter for personer med demens</a>, <a href=\"/activities/alzheimers/\">aktiviteter og spill ved Alzheimers</a>, <a href=\"/activities/memory-games/\">rolige minnespill</a> og <a href=\"/activities/puzzles/\">puslespill</a>.",
+    "moreHtml": "Flere ideer uten skjerm: <a href=\"/activities/ideas/\">101 aktivitetsidéer</a>, <a href=\"/dementia-activities/\">aktiviteter hjemme ved demens</a> og <a href=\"/crafts/\">håndverk</a>.",
     "faq": [
       {
         "q": "Hvilket spill bør vi begynne med?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Er dette minnespill for eldre?",
-        "a": "De er par- og bildespill som alle eldre kan glede seg over, men de er laget for ikke å teste hukommelsen: i Bildepar blir bildene liggende med forsiden opp, med mindre du velger noe annet. Veiledningen vår om minnespill for eldre med demens forklarer hvordan du holder alle slike spill rolige."
+        "a": "Dette er parings- og bildespill som enhver eldre voksen kan more seg med, men de er laget for ikke å teste hukommelsen: i Bildepar ligger bildene med forsiden opp, med mindre du velger noe annet. Ethvert hukommelsesspill kan gjøres mildere ved å fjerne tidtakeren og poengene."
       },
       {
         "q": "Finnes det spill for grupper på sykehjem?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Finnes det en app med aktiviteter for demens?",
+        "q": "Finnes det en app for eldre voksne og familier?",
         "a": "Ja. Creative Activities (oppført som «{storeName}») er gratis i App Store og på Google Play. Den har rolige bildespill med store brikker, spill med familiebilder du velger, og bildepakker som fungerer uten nett."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "Kan skrives ut",
     "howTo": "Slik spiller du {name}",
     "tips": "Tips for å spille sammen",
-    "newToPlayingHtml": "Er du ny til å spille med en person som har demens? Les <a href=\"/caregiving/how-to-play-together/\">hvordan dere spiller spill sammen</a>, også hva du gjør hvis personen mister interessen.",
+    "newToPlayingHtml": "Nytt med å spille sammen med en eldre voksen eller noen som har demens? Les <a href=\"/caregiving/how-to-play-together/\">hvordan spille spill sammen</a>, inkludert hva du kan gjøre hvis vedkommende mister interessen.",
     "moreAria": "Mer å utforske",
     "helpfulGuides": "Nyttige veiledninger",
     "appTitle": "Spill det i appen",
@@ -536,6 +633,31 @@
     "goodToKnow": "Greit å vite",
     "goodToKnowText": "Dette spillet er til glede og tid sammen. Det tester, måler eller behandler ikke noe.",
     "moreGames": "Flere rolige spill",
-    "crumb": "Spill"
+    "crumb": "Spill",
+    "print": {
+      "heading": "Spill på papir",
+      "sameRules": "Papirversjonen har de samme reglene som spillet på skjermen:",
+      "button": "Skriv ut en papirversjon",
+      "pageNote": "Én side på A4 eller US Letter, fint i svart-hvitt. Versjon {date}.",
+      "islandNote": "Den skriver ut det som er på skjermen nå. Versjon {date}.",
+      "sheetTitle": "{name}: papirversjon",
+      "point": "På papir peker du på et bilde i stedet for å trykke på det, eller ringer det inn med en penn. Hver rad er et nytt sett.",
+      "pointTarget": "På papir står bildet som skal ses på, i boksen i begynnelsen av hver rad. Pek på et bilde i stedet for å trykke på det, eller ring det inn med en penn.",
+      "halves": "Hvert bilde er delt midt i to. Tegn en strek fra hver halvdel til venstre til halvdelen til høyre som passer til den, eller pek med en finger. Ingenting må klippes.",
+      "grid": "Hver rute har et tall. Finn tallet i nøkkelen, og fargelegg ruten med en blyant i den fargen. Enhver annen farge du liker, går også bra. Ingenting må klippes.",
+      "colors": "Hver rad nevner en farge. Pek på hvert bilde som har den fargen, eller ring det inn med en penn. Hver rad er et nytt sett.",
+      "dice": "Hver rad er et sett med terninger. Velg en rad, eller klipp ut bildene og trekk noen fra en bunke, og fortell en historie med dem i en hvilken som helst rekkefølge. Alle kan si pass.",
+      "cards": "Klipp ut kortene langs de stiplede linjene. Legg dem med forsiden opp på bordet, og finn parene.",
+      "chain": "På papir leser du bildene fra venstre mot høyre, ett etter ett. Hver person sier én setning om bildene så langt, og peker så på neste bilde. Alle kan si pass.",
+      "sort": "Klipp ut bildene langs de stiplede linjene, og legg hvert enkelt i boksen der det hører hjemme.",
+      "puzzle": "Klipp det store bildet langs de stiplede linjene i fire deler, og bland dem. Bytt to deler om gangen til bildet er helt. Det lille bildet er en veiledning.",
+      "cutSafety": "En hjelper kan gjøre klippingen før dere starter. Legg saksen bort etterpå.",
+      "version": "Versjon {date} · {url}",
+      "reasons": {
+        "photos": "Det finnes ingen papirversjon. Dette spillet bruker dine egne bilder, som blir værende i nettleseren din og aldri lastes opp, så siden kan ikke skrive dem ut. For å spille på papir skriver du ut to kopier av noen favorittbilder hjemme og finner parene på bordet.",
+        "paced": "Det finnes ingen papirversjon. Sirkelen setter et rolig, jevnt tempo på skjermen, og en utskrift kan ikke gjøre det, så det ville blitt en annen aktivitet. En stille pause sammen uten skjerm er alltid et alternativ.",
+        "sayings": "Det finnes ingen papirversjon ennå. På papir ville hver avslutning vises samtidig, og det milde trinnet «Vis slutten» ville gå tapt. Les ordtakene fra skjermen sammen, eller del noen dere begge kjenner."
+      }
+    }
   }
 }

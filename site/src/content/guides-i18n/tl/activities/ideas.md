@@ -1,34 +1,35 @@
 ---
-title: "Activities for People with Dementia: 101 Simple Ideas"
-seoTitle: "101 Activities for People with Dementia"
-description: "101 simple, adult activities for people living with dementia, from folding towels to music and photos, with how to adapt each one as things get harder."
+title: "Aktibidad para sa Taong may Dementia: 101 Simpleng Ideya"
+seoTitle: "Ideya ng Aktibidad para sa Dementia: 101 Simpleng Gawain"
+description: "101 simpleng aktibidad para sa taong nabubuhay na may dementia, mula sa pagtutupi ng tuwalya hanggang musika at litrato, at kung paano ito gawing mas madali."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Good activities for people with dementia are familiar, adult and easy to
-  share: folding laundry, sorting, cooking, music, looking at photos, walking,
-  gardening, time with pets and simple games. Choose what the person has always
-  enjoyed, take over the hard parts, and stop when they tire. Pleasant time
-  together matters more than finishing anything.
+  Ang magagandang aktibidad para sa taong may dementia ay pamilyar, pang-adulto
+  at madaling ibahagi: pagtutupi ng labada, pag-uuri, pagluluto, musika,
+  pagtingin sa litrato, paglalakad, paghahalaman, oras kasama ang alagang hayop
+  at simpleng laro. Piliin ang bagay na matagal nang kinagigiliwan ng tao, ikaw
+  na ang gumawa ng mahihirap na bahagi, at tumigil kapag napagod siya. Mas
+  mahalaga ang kaaya-ayang oras na magkasama kaysa sa pagtapos ng anuman.
 keyPoints:
-  - "Start from the person's own life: their work, hobbies, faith and favorite music are the best guide."
-  - "Make any activity smaller as needed: fewer steps, fewer choices, you do the hard part."
-  - "Watching, holding something or simply sitting nearby all count as taking part."
-  - "Stop or switch when you see tiredness, frustration or boredom. Ending early is a good outcome."
-  - "Doing it together matters more than doing it right."
+  - "Magsimula sa sariling buhay ng tao: ang kanyang trabaho, libangan, pananampalataya at paboritong musika ang pinakamagandang gabay."
+  - "Gawing mas maliit ang anumang aktibidad kung kailangan: mas kaunting hakbang, mas kaunting pagpipilian, ikaw ang gumagawa ng mahirap na bahagi."
+  - "Ang panonood, paghawak ng isang bagay, o simpleng pag-upo sa tabi niya ay pakikilahok na rin."
+  - "Tumigil o magpalit ng gawain kapag nakita mong napapagod, nabibigo o nababagot siya. Ang maagang pagtigil ay magandang resulta."
+  - "Mas mahalaga ang paggawa nang magkasama kaysa sa paggawa nang tama."
 faq:
-  - q: "What activities are good for someone with dementia?"
-    a: "Familiar activities the person has done for years, made a little simpler: folding laundry, setting the table, cooking, music, looking at photos, walking, gardening and time with a pet. Choose things that feel adult and useful, and do them together."
-  - q: "How long should an activity last?"
-    a: "There is no right length. A few minutes of folding towels may be plenty one day, and an hour in the garden may feel easy on another. Let the person set the pace and end while it still feels pleasant."
-  - q: "What if the person refuses to do an activity?"
-    a: "Do not push. A no can mean the task feels too hard, the timing is wrong, or they are tired or uncomfortable. Try later, offer a smaller version, or start the task yourself nearby and invite them to help."
-  - q: "Are brain games good for people with dementia?"
-    a: "Games can be a pleasant way to spend time together, but no game has been shown to treat, slow or stop dementia. Choose games with no timer, score or wrong-answer sounds, and treat them as a shared activity, not a test."
-  - q: "How do I keep activities from feeling childish?"
-    a: "Use real, adult materials: real towels, real recipes, grown-up music and art supplies, and pictures with adult themes. Frame tasks as help you genuinely need, and talk to the person as the adult they are."
+  - q: "Anong mga aktibidad ang mainam para sa taong may dementia?"
+    a: "Mga pamilyar na aktibidad na matagal nang ginagawa ng tao, pero medyo pinasimple: pagtutupi ng labada, pag-aayos ng mesa, pagluluto, musika, pagtingin sa litrato, paglalakad, paghahalaman at oras kasama ang alagang hayop. Piliin ang mga bagay na pakiramdam ay pang-adulto at may silbi, at gawin ninyo ito nang magkasama."
+  - q: "Gaano dapat katagal ang isang aktibidad?"
+    a: "Walang tamang haba. Ang ilang minuto ng pagtutupi ng tuwalya ay maaaring sapat na sa isang araw, at ang isang oras sa hardin ay maaaring gumaan sa ibang araw. Hayaang ang tao ang magtakda ng bilis, at tapusin habang kaaya-aya pa ang pakiramdam."
+  - q: "Ano ang gagawin kung ayaw ng tao sa isang aktibidad?"
+    a: "Huwag pilitin. Ang pagtanggi ay maaaring ibig sabihin na masyadong mahirap ang gawain, mali ang oras, o pagod o hindi komportable siya. Subukang muli mamaya, mag-alok ng mas maliit na bersyon, o ikaw mismo ang magsimula ng gawain sa malapit at anyayahan siyang tumulong."
+  - q: "Mabuti ba ang mga laro ng isip para sa taong may dementia?"
+    a: "Maaaring maging kaaya-ayang paraan ang mga laro para magkasama, pero walang larong ipinakitang nakagagamot, nakapagpapabagal, o nakapipigil sa dementia. Pumili ng mga larong walang timer, iskor, o tunog na nagsasabing mali ang sagot, at ituring ito bilang gawaing pinagsasaluhan, hindi pagsusulit."
+  - q: "Paano ko maiiwasang maging parang pambata ang mga aktibidad?"
+    a: "Gumamit ng totoo at pang-adultong materyales: totoong tuwalya, totoong resipe, musikang para sa mga adulto, mga gamit sa sining, at mga larawang may temang pang-adulto. Ilahad ang gawain bilang tulong na talagang kailangan ninyo, at kausapin ang tao bilang adultong siya."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -50,207 +51,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-The best activity for a person living with dementia is usually something they already know how to do, made a little simpler and done alongside someone they trust. Below are 101 ideas, grouped by type, each with how to set it up and how to make it easier when it gets harder. You do not need special equipment, and you do not need to finish anything. A good afternoon can be one basket of towels and a cup of coffee together.
+Ang pinakamagandang aktibidad para sa taong nabubuhay na may dementia ay kadalasang bagay na alam na niyang gawin, pinasimple nang kaunti at ginagawa kasama ng taong pinagkakatiwalaan niya. Narito ang 101 ideya, nakapangkat ayon sa uri, bawat isa ay may paraan ng paghahanda at kung paano ito gagawing mas madali kapag tumitindi ang hirap. Hindi mo kailangan ng espesyal na kagamitan, at hindi mo kailangang tapusin ang anuman. Ang isang magandang hapon ay maaaring isang basket ng tuwalya at isang tasa ng kape na magkasama.
 
-## How do you choose the right activity?
+## Paano pumili ng tamang aktibidad?
 
-Choose by the person, not the list: start with what they have always enjoyed and what they can comfortably do today.
+Pumili batay sa tao, hindi sa listahan: magsimula sa kanyang matagal nang kinagigiliwan at sa kaya niyang gawin nang komportable ngayon.
 
-- **Think about their work and hobbies.** The [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) suggests that a former office worker may enjoy sorting coins or assembling mailings, and a gardener may enjoy yard work.
-- **Notice what they already do.** If your dad sweeps the porch every morning unasked, build that into the day.
-- **Plan around limits.** Tiredness, eyesight, hearing, sore hands and balance all matter.
-- **Watch their mood.** Busy, noisy activities suit some people and frighten others.
-- **Give it a purpose.** Folding napkins for a church supper feels more worthwhile than an exercise for its own sake.
+- **Isipin ang kanyang trabaho at libangan.** Iminumungkahi ng [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) na ang dating empleyado sa opisina ay maaaring magustuhan ang pag-uuri ng barya o pag-aayos ng mga sulat, at ang hardinero naman ay ang gawaing-bakuran.
+- **Pansinin ang kanyang nakasanayan.** Kung walisin ng tatay mo ang beranda tuwing umaga nang hindi hinihiling, isama iyon sa araw-araw.
+- **Magplano ayon sa limitasyon.** Mahalaga ang pagod, paningin, pandinig, masakit na kamay, at balanse.
+- **Bantayan ang kanyang mood.** Ang maingay at abalang aktibidad ay bagay sa ilan, pero nakatatakot sa iba.
+- **Bigyan ito ng layunin.** Mas makabuluhan ang pagtutupi ng napkin para sa handaan sa simbahan kaysa sa ehersisyong walang ibang dahilan.
 
-### A rough guide by stage
+### Magaspang na gabay ayon sa yugto
 
-Dementia is often described in early, middle and late stages. These are loose labels, not boxes, and many people have better and harder days, so go by what you see today. The [Alzheimer's Foundation of America's list by stage](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) follows a similar pattern.
+Madalas inilalarawan ang dementia sa maagang, gitnang at huling yugto. Maluwag ang mga tawag na ito, hindi mahigpit na kahon, at maraming tao ang may mas maganda at mas mahirap na mga araw, kaya ang tingnan mo ay ang nakikita mo ngayon. Ang [listahan ng Alzheimer's Foundation of America ayon sa yugto](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) ay sumusunod sa katulad na pattern.
 
-| Topic | Early stage | Middle stage | Late stage |
+| Paksa | Maagang yugto | Gitnang yugto | Huling yugto |
 | --- | --- | --- | --- |
-| What you may notice | Mostly independent; planning, new names and busy places get harder | Needs help starting and with steps; words come less easily | Needs help with most daily care; the senses matter most |
-| Activities that often fit | Cards, board games, cooking, gardening, journaling, outings, clubs | Folding laundry, sorting, simple cooking steps, singing, photo albums, guided walks | Favorite music, hand massage, soft things to hold, being read to, sitting outside |
-| Your role | Partner: ask what support they want | Set up, show, take over the hard parts | Bring the activity to them; your company is the activity |
-| More ideas | [Early stage](/activities/early-stage/) | [Middle stage](/activities/middle-stage/) | [Late stage](/activities/late-stage/) |
+| Maaaring mapansin mo | Halos nakakakilos nang mag-isa; mas mahirap ang pagpaplano, mga bagong pangalan, at mga abalang lugar | Kailangan ng tulong sa pagsisimula at sa mga hakbang; mas mahirap na ang paghahanap ng salita | Kailangan ng tulong sa karamihan ng pang-araw-araw na pangangalaga; pinakamahalaga ang mga pandama |
+| Mga aktibidad na madalas babagay | Mga baraha, board game, pagluluto, paghahalaman, pagsusulat sa journal, lakad sa labas, mga grupo | Pagtutupi ng labada, pag-uuri, simpleng hakbang sa pagluluto, pag-awit, album ng litrato, gabay na paglalakad | Paboritong musika, masahe sa kamay, malambot na bagay na mahahawakan, pagbabasa sa kanya, pag-upo sa labas |
+| Ang iyong papel | Katuwang: itanong kung anong suporta ang gusto niya | Ihanda, ipakita, at ikaw ang gumawa ng mahihirap na bahagi | Dalhin ang aktibidad sa kanya; ang iyong samahan mismo ang aktibidad |
+| Iba pang ideya | Maagang yugto: nasa pahinang ito | Gitnang yugto: nasa pahinang ito | [Huling yugto](/activities/late-stage/) |
 
-## How do you start an activity with someone who has dementia?
+## Paano sisimulan ang aktibidad kasama ang taong may dementia?
 
-Start small, start alongside them, and make it easy to say yes. Many people still want to take part but find it hard to plan or begin.
+Magsimula nang maliit, sumama sa kanya, at gawing madali ang pagsasabing oo. Marami pa ring gustong sumali ang mga tao pero nahihirapan silang magplano o magsimula.
 
-1. **Pick their best time,** often the morning.
-2. **Set everything out first** so you can begin right away.
-3. **Ask for help, not a performance:** "Could you give me a hand with these?"
-4. **Begin it yourself.** Fold the first towel and let them join in. Showing beats explaining.
-5. **Offer one step at a time.**
-6. **Take the hardest part.** The Alzheimer's Association suggests measuring ingredients yourself, then handing over the spoon to stir.
-7. **Let it be done their way.** Differently folded towels are fine.
-8. **Stop when it stops being pleasant.** Fidgeting, frowning or "I can't" are signs to switch or rest.
+1. **Pumili ng pinakamainam niyang oras,** kadalasan sa umaga.
+2. **Ihanda muna ang lahat** para makapagsimula ka agad.
+3. **Humingi ng tulong, hindi ng palabas:** “Puwede mo ba akong tulungan sa mga ito?”
+4. **Ikaw ang unang magsimula.** Tupiin ang unang tuwalya at hayaan siyang sumali. Mas epektibo ang pagpapakita kaysa sa pagpapaliwanag.
+5. **Mag-alok ng isang hakbang sa bawat pagkakataon.**
+6. **Kunin ang pinakamahirap na bahagi.** Iminumungkahi ng Alzheimer's Association na ikaw mismo ang sumukat ng mga sangkap, saka iabot sa kanya ang kutsara para haluin.
+7. **Hayaang gawin niya sa sarili niyang paraan.** Ayos lang ang mga tuwalyang magkakaiba ang tupi.
+8. **Huminto kapag hindi na ito kaaya-aya.** Ang pagkabalisa, pagkunot ng noo, o “Hindi ko kaya” ay senyales na magpalit ng gawain o magpahinga.
 
-See also [how to play together](/caregiving/how-to-play-together/) and [communication tips](/caregiving/communication-tips/).
+Tingnan din ang [paano maglaro nang magkasama](/caregiving/how-to-play-together/) at [mga unang hakbang pagkatapos ng diagnosis](/caregiving/after-dementia-diagnosis/).
 
-## Everyday tasks at home
+## Mga gawaing-bahay araw-araw
 
-Household jobs are familiar and useful, which makes them a natural place to begin. The [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) lists dishes, setting the table, sweeping, sorting mail and folding laundry among activities people may enjoy. More in [household tasks](/activities/household-tasks/).
+Pamilyar at kapaki-pakinabang ang mga gawaing-bahay, kaya natural itong panimulan. Binabanggit ng [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) ang paghuhugas ng pinggan, pag-aayos ng mesa, pagwawalis, pag-aayos ng sulat at pagtutupi ng labada bilang mga aktibidad na maaaring magustuhan ng mga tao.
 
-1. **Fold warm towels.** Tip a basket from the dryer onto the table and fold side by side. Later, smoothing and stacking is just as helpful.
-2. **Pair socks.** Start with very different colors. Later, sorting light from dark is plenty.
-3. **Set the table.** Hand over one kind of item at a time. Set one place yourself as a model.
-4. **Wash or dry dishes.** Warm, soapy water and unbreakable dishes. Drying while seated is easier on the legs.
-5. **Wipe the table.** Hand over a damp cloth after meals. It is real work for restless hands.
-6. **Sort the mail.** Catalogs and junk mail into "keep" and "recycle." Keep real bills out.
-7. **Clip coupons.** Round-tip scissors and grocery flyers. Later, circling favorite foods works too.
-8. **Sort coins.** Sort change into cups or roll it into wrappers. Skip small items if the person puts things in their mouth.
-9. **Sweep or dust.** A light broom on the porch, or a long-handled duster used from a chair.
-10. **Help make a meal.** Washing vegetables, tearing lettuce, stirring. You handle knives and heat.
-11. **Bake a family recipe.** Use the card in their handwriting if you have it. Later, they can be the taster.
-12. **Do office work.** Fold letters, stuff and stamp envelopes, or write the shopping list together.
+1. **Tupiin ang mainit na tuwalya.** Itaob ang basket mula sa dryer sa mesa at tupiin nang magkatabi. Mamaya, ang pagpapakinis at pagsasalansan ay kasing-tulong din.
+2. **Pagparesin ang medyas.** Magsimula sa mga medyas na magkaibang-magkaiba ang kulay. Mamaya, sapat na ang pag-uuri ng maliwanag sa madilim.
+3. **Ayusin ang mesa.** Iabot ang isang uri ng gamit sa isang pagkakataon. Ikaw mismo ang maglagay ng isang plato bilang halimbawa.
+4. **Maghugas o magpatuyo ng pinggan.** Maligamgam na tubig na may sabon, at mga pinggang hindi nababasag. Mas magaan sa binti ang magpatuyo habang nakaupo.
+5. **Punasan ang mesa.** Iabot ang basang tela pagkatapos kumain. Totoong gawain ito para sa mga kamay na hindi mapakali.
+6. **Pag-uri-uriin ang sulat.** Katalogo at junk mail sa “itago” at “itapon.” Huwag isama ang mga totoong bayarin.
+7. **Gupitin ang kupon.** Gunting na bilugan ang dulo at mga flyer ng grocery. Mamaya, sapat na ang pagbilog sa mga paboritong pagkain.
+8. **Pag-uri-uriin ang barya.** Ilagay ang sukli sa mga tasa o balutin sa rolyo. Iwasan ang maliliit na bagay kung inilalagay niya ito sa bibig.
+9. **Magwalis o magpunas ng alikabok.** Magaang walis sa beranda, o mahabang pamunas na ginagamit habang nakaupo.
+10. **Tumulong sa paghahanda ng pagkain.** Paghuhugas ng gulay, pagpunit ng lettuce, paghalo. Ikaw ang humahawak ng kutsilyo at apoy.
+11. **Maghurno ng resipe ng pamilya.** Gamitin ang kard na sulat-kamay niya kung mayroon. Mamaya, siya na ang tagatikim.
+12. **Gumawa ng gawaing-opisina.** Tupiin ang mga liham, ilagay at tatakan ang sobre, o sabay na isulat ang listahan ng bibilhin.
 
-## Music
+## Musika
 
-Familiar music can reach people even when words are hard. The [Alzheimer's Association's music tips](https://www.alz.org/help-support/caregiving/daily-care/art-music) suggest familiar songs, no commercials and the TV off. See [music activities](/activities/music/).
+Maaaring maabot ng pamilyar na musika ang mga tao kahit mahirap na ang mga salita. Iminumungkahi ng [mga tip ng Alzheimer's Association sa musika](https://www.alz.org/help-support/caregiving/daily-care/art-music) ang mga pamilyar na kanta, walang patalastas, at patayin ang TV. Tingnan ang [mga aktibidad sa musika](/creative-calm/music-for-calm-and-connection/).
 
-13. **Build a personal playlist.** Music from their teens and twenties, their wedding, their church and their culture.
-14. **Sing along.** Start singing yourself. Humming or listening counts.
-15. **Keep the beat.** Clap, pat knees or tap a hand drum. Works seated and in late stages.
-16. **Dance.** Slow dance in the kitchen, or sway seated while holding hands.
-17. **Play a whole album.** A favorite record start to finish, with coffee and nothing else going on.
-18. **Talk about the music.** Invite stories, not facts: "Tell me about the dances you went to."
-19. **Watch a filmed musical or concert.** A show they loved makes a good evening. Pause anytime.
-20. **Play a familiar instrument.** A former pianist may enjoy simple pieces; later, a few notes together.
-21. **Hear live music.** A short community concert or choir rehearsal. Sit near the exit.
+13. **Gumawa ng personal na playlist.** Musika mula sa kanyang kabataan, kasal, simbahan at kultura.
+14. **Kumanta nang sabay.** Simulan mo munang kumanta. Ang paghuni o pakikinig ay bilang din.
+15. **Sundan ang tiyempo.** Pumalakpak, tapikin ang tuhod, o tumugtog sa hand drum. Magagawa ito habang nakaupo at sa huling yugto.
+16. **Sumayaw.** Dahan-dahang sayaw sa kusina, o umindayog habang nakaupo at magkahawak-kamay.
+17. **Pakinggan ang buong album.** Paboritong plaka mula simula hanggang dulo, may kape at walang ibang ingay.
+18. **Pag-usapan ang musika.** Anyayahan ang kuwento, hindi ang datos: “Ikuwento mo sa akin ang mga sayaw na pinuntahan mo.”
+19. **Manood ng naitalang musikal o konsiyerto.** Magandang gabi ang palabas na minahal niya. Puwede mo itong i-pause anumang oras.
+20. **Tumugtog ng pamilyar na instrumento.** Maaaring magustuhan ng dating pianista ang simpleng himig; mamaya, ilang nota nang magkasama.
+21. **Makinig sa live na musika.** Maikling konsiyerto sa komunidad o ensayo ng koro. Umupo malapit sa labasan.
 
-## Reminiscence: photos, objects and stories
+## Pagbabalik-tanaw: litrato, gamit at kuwento
 
-Enjoy the past together without testing it. Skip "Do you remember...?" and "Who is this?" and use open invitations instead. See [reminiscence activities](/activities/reminiscence/).
+Balikan ang nakaraan nang magkasama nang hindi siya sinusubok. Huwag itanong ang “Naaalala mo ba...?” o “Sino ito?” at mag-anyaya na lang ng bukas na usapan. Tingnan ang [mga aktibidad sa pagbabalik-tanaw](/activities/reminiscence/).
 
-22. **Look through a photo album.** Say what you see: "What a dress. Tell me about this day." Go along with any names they use.
-23. **Make a memory box.** A shoebox of things from their life, like a work badge or recipe card. Take items out one at a time.
-24. **Start a life-story book.** A few photos per page with large-print captions. It helps new helpers know the person.
-25. **Use conversation cards.** [Conversation cards](/games/conversation-cards/) pair a picture with an open prompt.
-26. **Make a family photo game.** [Photo pairs](/games/photo-pairs/) turns your own photos into a matching game.
-27. **Watch home movies or old TV.** Comment together rather than asking questions.
-28. **Handle objects from their working life.** A wrench, a stethoscope, a ledger. Hands often lead the story.
-29. **Cook a childhood dish.** They can stir, taste or simply sit in the kitchen with you.
-30. **Look at a map of places they lived.** Trace familiar roads in a large atlas while you talk.
+22. **Tingnan ang album ng litrato.** Sabihin mo ang nakikita mo: “Ang ganda ng damit. Ikuwento mo sa akin ang araw na ito.” Sumabay sa mga pangalang binabanggit niya.
+23. **Gumawa ng kahon ng alaala.** Kahon ng sapatos na may mga bagay mula sa buhay niya, tulad ng ID ng trabaho o kard ng resipe. Ilabas ang isang bagay sa bawat pagkakataon.
+24. **Simulan ang aklat ng buhay.** Ilang litrato sa bawat pahina na may malalaking titik na paliwanag. Nakatutulong ito sa mga bagong tumutulong para makilala ang tao.
+25. **Gamitin ang mga kard ng usapan.** Ang [mga kard ng usapan](/games/conversation-cards/) ay nagpapares ng larawan sa bukas na tanong.
+26. **Gumawa ng larong litrato ng pamilya.** Ginagawang larong pagtutugma ng [magkapares na litrato](/games/photo-pairs/) ang sarili ninyong mga litrato.
+27. **Manood ng home movie o lumang TV.** Magkomento nang magkasama sa halip na magtanong.
+28. **Hawakan ang mga gamit mula sa kanyang trabaho.** Isang wrench, stethoscope o ledger. Madalas na kamay ang nangungunang maglahad ng kuwento.
+29. **Magluto ng pagkaing pambata niya.** Puwede siyang maghalo, tumikim, o umupo lang sa kusina kasama mo.
+30. **Tingnan ang mapa ng mga lugar na tinirhan niya.** Sundan ang mga pamilyar na kalsada sa malaking atlas habang nag-uusap kayo.
 
-## Creative activities
+## Mga malikhaing gawain
 
-Art is about doing, not the finished piece. Keep materials adult and safe. See [arts and crafts](/activities/arts-and-crafts/).
+Ang sining ay tungkol sa paggawa, hindi sa natapos na likha. Gawing pang-adulto at ligtas ang mga materyales. Tingnan ang [sining at paggawa ng craft](/crafts/easy-crafts-for-adults/).
 
-31. **Paint with watercolors.** Thick paper, a few colors. If starting is hard, guide the first strokes together.
-32. **Color adult designs.** Flowers or quilts, not cartoons. Our [coloring pages](/games/coloring/) work on screen or printed.
-33. **Make a collage.** Tear magazine pictures of gardens, cars or food and glue them down. Later, just choosing pictures is enough.
-34. **Arrange flowers.** A grocery-store bunch and a vase. Later, a few stems in a jar.
-35. **Knit or crochet together.** Simple rows on large needles. Later, winding yarn into balls.
-36. **Make cards for family.** Stamp, sign or decorate birthday and get-well cards for real people.
-37. **Shape air-dry clay.** Press out a small dish. Use non-toxic materials and stay nearby.
-38. **Sand and finish wood.** A pre-cut birdhouse kit and sandpaper, no power tools. See [activities for men](/activities/for-men/).
-39. **Write or dictate a letter.** To a grandchild or old friend. If writing is hard, they talk and you write.
+31. **Magpinta gamit ang watercolor.** Makapal na papel, ilang kulay. Kung mahirap magsimula, gabayan nang magkasama ang unang guhit.
+32. **Kulayan ang pang-adultong disenyo.** Bulaklak o kumot, hindi karakter na cartoon. Gumagana ang aming [mga pahina ng pangkulay](/games/coloring/) sa screen o naka-print.
+33. **Gumawa ng collage.** Punitin ang mga larawan sa magasin ng hardin, sasakyan o pagkain at idikit. Mamaya, sapat na ang pagpili ng larawan.
+34. **Mag-ayos ng bulaklak.** Isang bungkos mula sa grocery at isang plorera. Mamaya, ilang tangkay sa garapon.
+35. **Mag-niniting o mag-crochet nang magkasama.** Simpleng hanay gamit ang malalaking karayom. Mamaya, pagbalot ng sinulid sa bola.
+36. **Gumawa ng kard para sa pamilya.** Tatakan, pirmahan o palamutian ang mga kard ng kaarawan o pagpapagaling para sa totoong tao.
+37. **Hubugin ang clay na natutuyo sa hangin.** Pindutin para makagawa ng maliit na platito. Gumamit ng materyales na hindi nakalalason at manatiling malapit.
+38. **Pakinisin at tapusin ang kahoy.** Kit ng birdhouse na paunang-gupit at papel de liha, walang de-kuryenteng kagamitan.
+39. **Sumulat o mag-dikta ng liham.** Sa apo o matandang kaibigan. Kung mahirap sumulat, siya ang magsasalita at ikaw ang susulat.
 
-## Outdoors and gardening
+## Sa labas at paghahalaman
 
-Fresh air and daylight are good company. See [outdoor and gardening activities](/activities/outdoor-and-gardening/).
+Ang sariwang hangin at liwanag ng araw ay mabuting kasama. Tingnan ang [mga aktibidad sa labas at sa hardin](/together/outdoor-and-garden-activities/).
 
-40. **Water plants.** A small can and a few pots. Daily watering gives the day a rhythm.
-41. **Plant a pot.** Set it on a table so nobody kneels. Seedlings are easier than seeds.
-42. **Weed or deadhead.** Gloves on, one small bed at a time.
-43. **Rake leaves.** One small patch. Later, holding the bag open is a real job.
-44. **Walk a familiar route.** Around the block or to the mailbox. Shorter is fine.
-45. **Sit outside together.** A porch chair on a mild day. Watch clouds or passersby.
-46. **Feed the birds.** Fill a feeder together and watch from a window seat.
-47. **Wash the car.** Bucket, sponge, warm afternoon. Rinsing hubcaps is a good one-step job.
+40. **Magdilig ng halaman.** Maliit na lata at ilang paso. Ang araw-araw na pagdidilig ay nagbibigay ng ritmo sa araw.
+41. **Magtanim sa paso.** Ilagay sa mesa para hindi na kailangang lumuhod ang sinuman. Mas madali ang punla kaysa binhi.
+42. **Mag-alis ng damo o putulin ang nalantang bulaklak.** May guwantes, isang maliit na kama sa isang pagkakataon.
+43. **Magwalis ng dahon.** Isang maliit na bahagi. Mamaya, ang paghawak ng nakabukas na supot ay totoong gawain.
+44. **Maglakad sa pamilyar na ruta.** Sa palibot ng bloke o hanggang mailbox. Ayos lang kahit maikli.
+45. **Umupo sa labas nang magkasama.** Upuan sa beranda sa maaliwalas na araw. Panoorin ang ulap o ang mga dumaraan.
+46. **Pakainin ang mga ibon.** Punuin nang magkasama ang feeder at panoorin mula sa upuan sa bintana.
+47. **Hugasan ang kotse.** Balde, espongha, at maaliwalas na hapon. Magandang gawaing may isang hakbang lang ang pagbanlaw ng takip ng gulong.
 
-## Sensory activities
+## Mga aktibidad para sa pandama
 
-Touch, smell, taste, sound and sight matter more as dementia progresses. The [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) mentions music, objects to handle and hand massage for later stages. Check for allergies and choking risks first; see [sensory activities](/activities/sensory/).
+Lalong nagiging mahalaga ang paghipo, amoy, lasa, tunog at paningin habang lumalala ang dementia. Binabanggit ng [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) ang musika, mga bagay na mahahawakan, at masahe sa kamay para sa mga huling yugto. Tingnan muna kung may allergy at panganib na mabulunan; tingnan ang [mga aktibidad para sa pandama](/creative-calm/sensory-activities-for-adults/).
 
-48. **Give a hand massage.** Ask first and use a little lotion. Choose unscented if unsure about skin or allergies.
-49. **Feel fabrics.** A basket of velvet, corduroy, wool and satin to stroke and fold.
-50. **Smell herbs and coffee.** Rub fresh mint or rosemary between your fingers. Skip strong scents with breathing problems.
-51. **Brush their hair.** Slow and gentle, if they enjoy it.
-52. **Share a warm washcloth.** For hands and face on a cold day. Test the temperature first.
-53. **Explore an activity apron.** Large buttons and zippers sewn on firmly. Check nothing can come loose.
-54. **Taste a favorite treat.** A small spoonful, in a texture they can manage safely.
-55. **Play nature sounds.** Rain, waves or birdsong at low volume.
-56. **Watch something slow.** A fish tank, a nature video or falling snow.
+48. **Magbigay ng masahe sa kamay.** Magtanong muna at gumamit ng kaunting lotion. Pumili ng walang amoy kung hindi ka sigurado tungkol sa balat o allergy.
+49. **Hawakan ang iba't ibang tela.** Basket ng velvet, corduroy, lana at satin na haplusin at tupiin.
+50. **Amuyin ang mga damo at kape.** Kuskusin ang sariwang mint o rosemary sa pagitan ng mga daliri. Iwasan ang matapang na amoy kung may problema sa paghinga.
+51. **Suklayin ang buhok niya.** Dahan-dahan at banayad, kung gusto niya ito.
+52. **Magbigay ng maligamgam na basang tela.** Para sa kamay at mukha sa malamig na araw. Subukan muna ang temperatura.
+53. **Subukan ang apron ng aktibidad.** Malalaking butones at zipper na mahigpit na nakatahi. Siguraduhing walang maaaring kumalas.
+54. **Tikman ang paboritong pagkain.** Maliit na kutsara, sa tekstura na ligtas niyang nakakain.
+55. **Magpatugtog ng tunog ng kalikasan.** Ulan, alon o huni ng ibon nang mahina ang volume.
+56. **Manood ng bagay na mabagal.** Aquarium ng isda, video ng kalikasan, o bumabagsak na niyebe.
 
-## Games and puzzles
+## Mga laro at palaisipan
 
-Games work when there is no timer, score or pressure. If one starts to feel like a test, put it away. See [choosing apps and games](/caregiving/choosing-apps-and-games/) and [brain games](/brain-health/brain-games/).
+Gumagana ang mga laro kapag walang timer, iskor o pressure. Kapag nagsimulang parang pagsusulit, itabi ito. Tingnan ang [pahina ng mga laro](/games/) at [mga aktibidad sa dementia sa bahay](/dementia-activities/).
 
-57. **Match pictures.** [Picture pairs](/games/picture-pairs/) lets pictures stay face up, so it is about noticing, not remembering.
-58. **Find the same picture.** [Find the same](/games/find-the-same/) offers two to four choices. Chat about each picture.
-59. **Sort into baskets.** [Sort together](/games/sort-together/) is like sorting socks on screen.
-60. **Do a large-piece jigsaw.** Adult images, an easy piece count. [Picture puzzle](/games/picture-puzzle/) keeps the whole picture visible. More in [puzzles for dementia](/activities/puzzles/).
-61. **Play an old card game.** Whatever they played for years. Later, sorting the deck by color is a game in itself.
-62. **Play dominoes.** Match the ends. Later, just lining tiles up is fine.
-63. **Try a large-print word search.** Our [word search](/games/word-search/) has words across and down only, and prints.
-64. **Finish familiar sayings.** [Finish the saying](/games/finish-the-saying/) lets you show the ending anytime.
-65. **Play picture bingo.** [Picture bingo](/games/picture-bingo/) suits families and groups. Help mark cards freely.
-66. **Play checkers.** Keep the rules loose. Moving pieces while you chat counts.
+57. **Tugmain ang mga larawan.** Ang [magkapares na larawan](/games/picture-pairs/) ay nagpapahintulot na nakaharap ang mga larawan, kaya pagmamasid ang mahalaga, hindi ang pag-alala.
+58. **Hanapin ang magkaparehong larawan.** Ang [Hanapin ang magkapareho](/games/find-the-same/) ay nag-aalok ng dalawa hanggang apat na pagpipilian. Mag-usap tungkol sa bawat larawan.
+59. **Ayusin sa basket.** Ang [magkasamang pag-uuri](/games/sort-together/) ay parang pag-aayos ng medyas sa screen.
+60. **Gumawa ng jigsaw na malalaking piyesa.** Pang-adultong larawan, madaling bilang ng piyesa. Pinananatiling nakikita ng [palaisipang larawan](/games/picture-puzzle/) ang buong larawan. Higit pa sa [mga palaisipan at table game](/together/puzzles-and-table-games/).
+61. **Maglaro ng lumang baraha.** Anumang nilaro niya sa loob ng maraming taon. Mamaya, ang pag-uuri ng baraha ayon sa kulay ay laro na rin.
+62. **Maglaro ng dominoes.** Itugma ang mga dulo. Mamaya, sapat na ang paglatag ng mga piyesa.
+63. **Subukan ang word search na malalaking titik.** Ang aming [word search](/games/word-search/) ay may salitang pahalang at patayo lamang, at maaaring i-print.
+64. **Tapusin ang mga kasabihan.** Ang [Tapusin ang kasabihan](/games/finish-the-saying/) ay nagpapahintulot na ipakita ang dulo anumang oras.
+65. **Maglaro ng picture bingo.** Ang [picture bingo](/games/picture-bingo/) ay bagay sa pamilya at grupo. Tumulong sa pagmarka ng kard nang malaya.
+66. **Maglaro ng checkers.** Paluwagin ang mga patakaran. Ang paggalaw ng piyesa habang nag-uusap ay bilang na.
 
-## Movement
+## Paggalaw
 
-The NIA suggests walks, a stationary bike, stretching bands, tossing a soft ball or balloon, lifting soup cans and exercise videos for older adults. Check with a doctor before starting anything new, especially with balance problems.
+Iminumungkahi ng NIA ang paglalakad, stationary bike, mga banda para sa pag-unat, paghagis ng malambot na bola o lobo, pag-angat ng lata ng sopas, at mga video ng ehersisyo para sa matatanda. Kumonsulta muna sa doktor bago magsimula ng bagong gawain, lalo na kung may problema sa balanse.
 
-67. **Toss a balloon.** Sit facing each other. It moves slowly, so it is easy to catch.
-68. **Follow a seated exercise video** made for older adults, side by side.
-69. **Stretch with a band.** Gentle arm pulls with a light band while seated.
-70. **Lift soup cans.** Slow arm raises, perhaps to music.
-71. **Ride a stationary bike.** A few easy minutes, with you nearby.
-72. **Dance with scarves.** Wave light scarves to music, seated or standing.
-73. **Walk with a purpose.** To mail a letter or buy a coffee. A reason to go feels natural.
-74. **Share a breathing pause.** Slow down together with [calm breathing](/games/calm-breathing/).
+67. **Maghagis ng lobo.** Magkaharap kayong nakaupo. Dahan-dahan itong gumagalaw kaya madaling saluhin.
+68. **Sundan ang video ng ehersisyo habang nakaupo** na ginawa para sa matatanda, magkatabi kayo.
+69. **Mag-unat gamit ang banda.** Banayad na paghila ng braso gamit ang magaang banda habang nakaupo.
+70. **Magbuhat ng lata ng sopas.** Dahan-dahang pagtaas ng braso, marahil kasabay ng musika.
+71. **Sumakay sa stationary bike.** Ilang minutong madali, habang nasa tabi mo.
+72. **Sumayaw gamit ang scarf.** Iwagayway ang magagaang scarf sa saliw ng musika, nakaupo o nakatayo.
+73. **Maglakad nang may layunin.** Para magpadala ng liham o bumili ng kape. Natural ang pakiramdam kapag may dahilan.
+74. **Magbahagi ng paghinga.** Magpabagal nang magkasama gamit ang [kalmadong paghinga](/games/calm-breathing/).
 
-## Social activities
+## Mga aktibidad panlipunan
 
-Company matters even when names are hard, and small groups are easier than big ones. The NIA notes that a person may not remember who a visitor is but often still enjoys the company. See [visiting](/activities/visiting/).
+Mahalaga ang samahan kahit mahirap na ang mga pangalan, at mas madali ang maliliit na grupo kaysa malalaki. Sinabi ng NIA na maaaring hindi maalala ng tao kung sino ang bisita, pero madalas pa rin niyang nagugustuhan ang samahan. Tingnan ang [pagbisita](/together/visiting-someone-in-care/).
 
-75. **Have one or two visitors at a time.** Short visits in a quiet room, with photos to look at.
-76. **Video call family.** Short calls, one voice at a time. See [phone and video calls](/activities/phone-and-video-calls/).
-77. **Try a memory café.** Informal drop-in gatherings for people living with dementia and their caregivers. Ask your local Area Agency on Aging what is nearby.
-78. **Eat out at a quiet time.** The NIA suggests a familiar, quiet restaurant at off-hours, with a table near the restroom.
-79. **Visit a senior center or adult day program.** Company for them and a break for you.
-80. **Spend time with children.** A short, calm visit from grandchildren, or reading a picture book to a toddler.
-81. **Share the newspaper over coffee.** Read headlines aloud. The ritual matters more than the news.
-82. **Help someone else.** Fold church programs or make a card for a neighbor.
+75. **Mag-anyaya ng isa o dalawang bisita nang sabay.** Maikling pagbisita sa tahimik na kuwarto, may mga litratong titingnan.
+76. **Tumawag sa pamilya gamit ang video.** Maiikling tawag, isang boses sa bawat pagkakataon. Tingnan ang [tawag sa telepono at video](/together/staying-connected-from-afar/).
+77. **Subukan ang memory café.** Impormal na pagtitipon para sa mga taong may dementia at sa kanilang tagapag-alaga. Magtanong sa lokal na Area Agency on Aging kung ano ang malapit.
+78. **Kumain sa labas sa tahimik na oras.** Iminumungkahi ng NIA ang pamilyar at tahimik na restawran sa labas ng peak hours, may mesang malapit sa banyo.
+79. **Bumisita sa senior center o adult day program.** Samahan para sa kanya at pahinga para sa iyo.
+80. **Gumugol ng oras kasama ang mga bata.** Maikli at kalmadong pagbisita ng apo, o pagbabasa ng picture book sa batang paslit.
+81. **Magbasa ng pahayagan habang nagkakape.** Basahin nang malakas ang mga headline. Mas mahalaga ang gawi kaysa sa balita.
+82. **Tumulong sa iba.** Tupiin ang programa ng simbahan o gumawa ng kard para sa kapitbahay.
 
-## Faith and spiritual activities
+## Mga gawaing pampananampalataya at espirituwal
 
-Follow the person's own tradition, or none. The NIA suggests familiar services, readings, sacred music, prayer, meditation and holiday rituals.
+Sundin ang sariling tradisyon ng tao, o wala. Iminumungkahi ng NIA ang pamilyar na serbisyo, pagbasa, banal na musika, panalangin, pagninilay at mga ritwal tuwing pista.
 
-83. **Attend a familiar service.** Choose a quieter one, sit near the aisle, and let people there know about the dementia.
-84. **Watch a service online** on days when going out is too much.
-85. **Pray or read together.** Familiar words, read slowly. They may join in on parts they know.
-86. **Sing hymns or sacred music** from their tradition.
-87. **Keep holiday rituals.** Battery candles, a blessing, the decorations they always used.
-88. **Share quiet time.** Sit in a garden or watch the sunset together.
+83. **Dumalo sa pamilyar na serbisyo.** Pumili ng mas tahimik, umupo malapit sa daanan, at ipaalam sa mga tao roon ang tungkol sa dementia.
+84. **Manood ng serbisyo online** sa mga araw na sobrang hirap lumabas.
+85. **Manalangin o magbasa nang magkasama.** Pamilyar na mga salita, dahan-dahang binabasa. Maaari siyang sumabay sa mga bahaging alam niya.
+86. **Umawit ng himno o banal na musika** mula sa kanyang tradisyon.
+87. **Panatilihin ang mga ritwal tuwing pista.** Kandilang de-baterya, basbas, at mga palamuting lagi niyang ginagamit.
+88. **Magbahagi ng tahimik na oras.** Umupo sa hardin o manood ng paglubog ng araw nang magkasama.
 
-## Pets and animals
+## Mga alagang hayop at hayop
 
-The NIA suggests feeding, grooming, walking, or sitting with and holding a pet.
+Iminumungkahi ng NIA ang pagpapakain, pag-aayos, paglalakad, o pag-upo at paghawak sa alagang hayop.
 
-89. **Brush a calm dog or cat** with long, slow strokes.
-90. **Feed the pet together.** You measure; they pour.
-91. **Walk the dog together.** You hold the leash.
-92. **Hold a pet on the lap.** A calm cat on a blanket can be very settling.
-93. **Welcome visiting animals.** Some care homes and day programs host animal visits. Ask locally.
-94. **Offer a lifelike soft animal.** If there is no pet, some people enjoy holding a realistic plush cat or dog. Offer it simply, never as a toy, and accept a no.
+89. **Suklayin ang kalmadong aso o pusa** gamit ang mahaba at dahan-dahang haplos.
+90. **Pakainin ang alaga nang magkasama.** Ikaw ang sumusukat; siya ang nagbubuhos.
+91. **Ilakad nang magkasama ang aso.** Ikaw ang humahawak ng tali.
+92. **Hawakan ang alaga sa kandungan.** Ang kalmadong pusa sa kumot ay maaaring nakapagpapakalma nang husto.
+93. **Tanggapin ang mga bisitang hayop.** May ilang care home at day program na nagho-host ng pagbisita ng hayop. Magtanong sa inyong lugar.
+94. **Mag-alok ng malambot na hayop na parang totoo.** Kung walang alagang hayop, may ilang taong nagugustuhang yakapin ang makatotohanang plush na pusa o aso. Ialok ito nang simple, hindi bilang laruan, at tanggapin ang hindi.
 
-## Seasonal activities
+## Mga aktibidad ayon sa panahon
 
-Keep traditions, but simpler. The NIA suggests being realistic and having a quiet space for breaks during busy holidays.
+Panatilihin ang mga tradisyon, pero mas simple. Iminumungkahi ng NIA na maging makatotohanan at magkaroon ng tahimik na lugar para sa pahinga tuwing abalang pista.
 
-95. **Decorate for the season.** A pumpkin, a wreath or fresh flowers on the table.
-96. **Make a holiday treat.** Roll dough or frost cookies. You handle the oven.
-97. **Hang decorations.** Shatterproof ornaments, handed over one at a time.
-98. **Drive to see the lights.** A short evening drive asks nothing but company.
-99. **Plant spring bulbs.** Press bulbs into a pot in fall and watch for shoots.
-100. **Shuck corn or shell peas.** A summer porch job with a bowl in the lap.
-101. **Address holiday cards.** They sign, stamp or seal; you handle addresses.
+95. **Palamutian ayon sa panahon.** Kalabasa, korona o sariwang bulaklak sa mesa.
+96. **Gumawa ng pistang pagkain.** Masahin ang masa o lagyan ng icing ang cookies. Ikaw ang humahawak ng oven.
+97. **Magsabit ng palamuti.** Palamuting hindi nababasag, ibinibigay nang isa-isa.
+98. **Magmaneho para makita ang mga ilaw.** Maikling biyahe sa gabi na ang hinihingi lang ay samahan.
+99. **Magtanim ng spring bulbs.** Idiin ang bulbs sa paso tuwing taglagas at abangan ang pag-usbong.
+100. **Magbalat ng mais o magbukas ng gisantes.** Gawaing-beranda tuwing tag-init na may mangkok sa kandungan.
+101. **Isulat ang mga address para sa pistang kard.** Siya ang pumipirma, nagtatatak o nagsasara ng sobre; ikaw ang sumusulat ng address.
 
-## What if an activity is not working?
+## Paano kung hindi gumagana ang aktibidad?
 
-Stop, and try something different another time. The NIA suggests watching for frustration and letting the person simply watch if they prefer. A no often means the task is too hard, the time is wrong, or something else is bothering them, like pain, hunger or noise. Make it smaller, try earlier in the day, or start it yourself and see if they join in. See [when they say no](/caregiving/when-they-say-no/) and [late-day restlessness](/caregiving/late-day-restlessness/).
+Tumigil, at subukan ang ibang gawain sa ibang pagkakataon. Iminumungkahi ng NIA na bantayan ang pagkabigo at hayaang manood na lang ang tao kung mas gusto niya. Madalas na ang ibig sabihin ng pagtanggi ay masyadong mahirap ang gawain, mali ang oras, o may ibang nakaabala sa kanya, tulad ng sakit, gutom o ingay. Gawing mas maliit, subukan nang mas maaga sa araw, o ikaw mismo ang magsimula at tingnan kung sasali siya. Tingnan ang [kapag sinasabi niyang hindi](/caregiving/when-they-say-no/) at [mga aktibidad sa hapon na kalmado](/creative-calm/calm-afternoon-activities/).
 
-To fit activities between meals and rest, see [a gentle daily routine](/activities/daily-routine/). For things to have ready, see [printable activities](/activities/printable/), and if you lead a group, [care home group activities](/activities/care-home-groups/). Your own rest matters too: see [caregiver self-care](/caregiving/caregiver-self-care/).
+Para maisingit ang mga aktibidad sa pagitan ng pagkain at pahinga, tingnan ang [mga aktibidad sa hapon na kalmado](/creative-calm/calm-afternoon-activities/). Para sa mga bagay na dapat mong ihanda, tingnan ang [mga libreng printable sa pahina ng mga laro](/games/), at kung namumuno ka ng grupo, [mga sesyon ng grupong craft](/crafts/craft-group-sessions/). Mahalaga rin ang sarili mong pahinga: tingnan ang [pangangalaga sa sarili ng tagapag-alaga](/creative-calm/creative-self-care-for-caregivers/).

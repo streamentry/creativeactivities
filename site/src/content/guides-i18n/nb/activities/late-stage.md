@@ -1,32 +1,32 @@
 ---
-title: "Aktiviteter for demens i sen fase, også i seng eller stol"
-seoTitle: "Aktiviteter i sen fase av demens: seng og stol"
-description: "Milde aktiviteter for demens i sen fase, også for en person i seng eller stol: musikk, berøring, høyt lesing, lyder og å være sammen, med sikkerhetsråd."
+title: "Aktiviteter ved sent stadium av demens, også i seng eller stol"
+seoTitle: "Aktiviteter ved sent stadium av demens: ideer for seng og stol"
+description: "Milde aktiviteter ved sent stadium av demens, også i seng eller stol: musikk, berøring, høytlesning, lyder og å være sammen, med sikkerhetsråd."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  I sen fase av demens handler aktivitetene om sansene og om ditt selskap:
-  favorittmusikk, å holde hender, en langsom håndmassasje, høyt lesing, å se på
-  bilder, naturlyder, og å sitte ved et vindu eller ute. Dette fungerer i seng
-  eller stol. Hold øktene korte, se på ansiktet og hendene for å avgjøre hva som
-  er komfortabelt, og husk at å være til stede er selve aktiviteten.
+  Ved sent stadium av demens handler aktiviteter om sansene og om å være
+  sammen: å spille favorittmusikk, holde hender, en rolig håndmassasje,
+  høytlesning, se på bilder, naturlyder og å sitte ved vinduet eller ute. Disse
+  fungerer i seng eller stol. Hold øktene korte, se etter tegn på trygghet i
+  ansikt og hender, og husk at det å være til stede i seg selv er aktiviteten.
 keyPoints:
-  - "Kontakt er fortsatt mulig. I sen fase opplever verden seg mest gjennom sansene."
-  - "Musikk, mild berøring, kjente stemmer og myke ting å holde i når ofte frem når ord ikke lenger gjør det."
-  - "Nesten alle ideene her fungerer for en person i seng eller stol."
-  - "Se etter komfort og ubehag i ansiktet, hendene og pusten, og stopp ved alle tegn på nød."
+  - "Kontakt er fortsatt mulig. På sent stadium opplever personen verden i hovedsak gjennom sansene."
+  - "Musikk, mild berøring, kjente stemmer og myke ting å holde i kan ofte nå frem når ord ikke lenger gjør det."
+  - "Nesten alle ideene her fungerer for den som ligger i seng eller sitter i stol."
+  - "Se etter trygghet og ubehag i ansikt, hender og pust, og stopp ved tegn på nød."
   - "Unngå små gjenstander, og tilby mat eller drikke bare slik omsorgsteamet anbefaler, fordi svelging kan bli utrygt."
 faq:
-  - q: "Hvilke aktiviteter kan du gjøre med en person i sen fase av demens som ligger i seng?"
-    a: "Spill favorittmusikken deres, hold hånden deres, gi en langsom håndmassasje med krem, les høyt fra en bok eller bønn de elsker, vis bilder, eller spill milde naturlyder. Åpne gardinene slik at de kan se ut. Korte, rolige økter med én ting om gangen fungerer vanligvis best."
-  - q: "Kan personer i sen fase av demens fortsatt glede seg over musikk?"
-    a: "Mange kan det. Alzheimer’s Association skriver at selv i sen fase kan en person kanskje klappe takten eller synge med på en sang fra barndommen. Velg musikk de elsket da de var yngre, og hold volumet mykt."
-  - q: "Hvordan vet jeg om de liker en aktivitet?"
-    a: "Se etter små tegn: avslappede skuldre, et mykere ansikt, øyekontakt, nynning, et håndtrykk eller langsommere pust. Grimaser, å trekke seg unna, uro eller stønn kan bety ubehag eller smerte. Hvis du ser dette, stopp, og si fra til omsorgsteamet hvis det fortsetter."
-  - q: "Er det verdt å besøke dem hvis de ikke lenger kjenner meg igjen?"
-    a: "Ja. National Institute on Aging skriver at det å bare være til stede kan virke beroligende, og at berøring, musikk og historier fortsatt kan gi trøst ved langt fremskreden demens. Stemmen og berøringen din kan være kjent selv når navnet ditt ikke er det."
+  - q: "Hva kan du gjøre med en person med demens på sent stadium som ligger i seng?"
+    a: "Spill favorittmusikken til personen, hold hånden hens, gi en rolig håndmassasje med krem, les høyt fra en bok eller bønn personen elsker, vis bilder, eller spill milde naturlyder. Åpne gardinene slik at personen kan se ut. Korte, rolige økter med én ting om gangen fungerer som regel best."
+  - q: "Kan personer med demens på sent stadium fortsatt glede seg over musikk?"
+    a: "Mange kan det. Alzheimer's Association skriver at en person selv på sent stadium kan klare å takte med en finger eller synge med på en sang fra barndommen. Velg musikk som personen elsket da hen var yngre, og hold lyden lav."
+  - q: "Hvordan vet jeg om personen har glede av en aktivitet?"
+    a: "Se etter små tegn: avslappede skuldre, et mykere ansikt, blikkontakt, nynning, et håndtrykk eller roligere pust. Grimaser, å trekke seg unna, uro eller stønn kan bety ubehag eller smerte. Hvis du ser dette, stopp, og si fra til omsorgsteamet hvis det fortsetter."
+  - q: "Er det verdt å besøke hvis personen ikke lenger kjenner meg igjen?"
+    a: "Ja. National Institute on Aging skriver at det å bare være til stede kan virke beroligende, og at berøring, musikk og historier fortsatt kan gi trygghet ved avansert demens. Stemmen og berøringen din kan være kjent selv når navnet ditt ikke er det."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -48,55 +48,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-I sen fase av demens kan en person snakke svært lite, trenge hjelp med all daglig omsorg og tilbringe mye av dagen i seng eller stol. Det kan føles som om det ikke er noe igjen å gjøre sammen. Det er det. [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) påpeker at en kjerne av personens selv kan bli værende, og at verden i denne fasen oppleves mest gjennom sansene. Musikk, berøring, en kjent stemme og din rolige nærhet kan fortsatt gi trøst og øyeblikk av kontakt.
+På sent stadium av demens kan en person snakke svært lite, trenger hjelp med all daglig stell og tilbringer mye av dagen i seng eller stol. Det kan kjennes som om det ikke finnes noe igjen å gjøre sammen. Men det gjør det. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) skriver at en kjerne av personens selv ofte fortsatt er der, og at verden på dette stadiet i hovedsak oppleves gjennom sansene. Musikk, berøring, en kjent stemme og din rolige nærhet kan fortsatt gi trygghet og øyeblikk av kontakt.
 
-## Hvilke aktiviteter hjelper ved demens i sen fase?
+## Hvilke aktiviteter hjelper ved sent stadium av demens?
 
-Enkle sanseaktiviteter og stille nærhet hjelper mest i sen fase. Alzheimer’s Association foreslår å spille favorittmusikk, lese deler av betydningsfulle bøker, gni krem med en favorittduft inn i huden, og sitte ute sammen en fin dag. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) legger til å fortelle historier, vise bilder, mild berøring eller massasje, og musikk, hvit støy eller naturlyder. De sier at din tilstedeværelse alene kan virke beroligende.
+Enkle sanseaktiviteter og stille nærhet hjelper mest på sent stadium. Alzheimer's Association foreslår å spille favorittmusikk, lese deler av meningsfulle bøker, gni krem med en favorittduft inn i huden og sitte ute sammen en fin dag. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) legger til å fortelle historier, vise bilder, gi mild berøring eller massasje, og bruke musikk, hvit støy eller naturlyder. Der står det også at din tilstedeværelse alene kan virke beroligende.
 
-[Alzheimer’s Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) påpeker at personer i sen fase ofte har et sterkt behov for å holde noe nær seg for trygghetens skyld, og foreslår enkle sanseaktiviteter, milde tøyninger, bevegelse med skjerf, musikk, besøk av dyr, menneskelig berøring og fri kunstnerisk aktivitet.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) skriver at personer på sent stadium ofte har et sterkt behov for å holde noe nært for trygghet. Organisasjonen foreslår enkle sanseaktiviteter, milde strekk, bevegelse med skjerf, musikk, besøk av dyr, menneskelig berøring og fri kunstnerisk aktivitet.
 
-## Aktiviteter for en person i seng eller stol
+## Aktiviteter for den som ligger i seng eller sitter i stol
 
-1. **Spill musikken deres.** Velg sanger fra ungdomsårene, troen eller familien. Hold volumet lavt og sitt tett inntil. Selv nå kan noen tikke med fingeren eller nynne. Se [musikkaktiviteter](/activities/music/).
+1. **Spill favorittmusikk.** Velg sanger fra ungdomsårene, troen eller familien. Hold volumet lavt og sitt nær. Selv nå kan noen banke takten med en finger eller nynne. Se [musikkaktiviteter](/creative-calm/music-for-calm-and-connection/).
 2. **Hold hender.** Bare å holde en hånd, med et mildt strøk med tommelen, er en aktivitet. Si hva du gjør først.
-3. **Gi en langsom håndmassasje.** Varm litt krem i håndflatene og stryk fra håndleddet til fingertuppene. Velg parfymefri krem, eller en duft personen alltid har likt hvis huden tåler det.
-4. **Les høyt.** Et favorittdikt, et avsnitt fra en kjær bok, en bibeltekst eller sportssidene. Rytmen i stemmen din betyr mer enn ordene.
-5. **Fortell en historie.** Snakk om en familietur eller dagen de giftet seg. Du trenger ingen svar.
-6. **Vis bilder.** Hold ett stort bilde om gangen i øyehøyde, og beskriv det varmt. Unngå å spørre hvem som er på bildet.
-7. **Tilby noe mykt å holde i.** En sammenbrettet vaskeklut, en fleecelapp eller et mykt dyr. NIA foreslår å gi personen en vaskeklut å holde i mens de flyttes, slik at de er mindre tilbøyelige til å gripe etter deg eller møbler.
-8. **Spill naturlyder.** Regn, bølger eller fuglesang på lavt volum kan mykne et støyende rom.
-9. **Ta utsiden inn.** Åpne gardinene, sett et fuglebrett utenfor vinduet, eller ta inn noen friske blomster eller blader å se på og kjenne på.
+3. **Gi en rolig håndmassasje.** Varm litt krem i håndflatene og stryk fra håndleddet til fingerspissene. Velg krem uten duft, eller en duft personen alltid likte, hvis huden tåler det.
+4. **Les høyt.** Et favorittdikt, et avsnitt fra en elsket bok, en salme eller sportssiden. Rytmen i stemmen din betyr mer enn ordene.
+5. **Fortell en historie.** Snakk om en familietur eller dagen personen giftet seg. Du trenger ikke svar.
+6. **Vis bilder.** Hold ett stort bilde om gangen i øyehøyde og beskriv det varmt. Unngå å spørre hvem som er på bildet.
+7. **Tilby noe mykt å holde.** En brettet klut, et fleecestykke eller et mykt dyr. NIA foreslår å gi personen en vaskeklut å holde mens hen flyttes, slik at personen i mindre grad griper etter deg eller møblene.
+8. **Spill naturlyder.** Regn, bølger eller fuglesang på lav lyd kan mykne et bråkete rom.
+9. **Ta naturen inn.** Åpne gardinene, sett et fuglebrett utenfor vinduet, eller ta inn noen friske blomster eller blader å se på og ta på.
 10. **Gå ut.** Hvis personen kan sitte i rullestol, kan noen minutter i skyggen en mild dag være fint.
-11. **Børst håret eller tilby en varm klut.** Langsom, mild stell og en varm vaskeklut til hender og ansikt kan føles omsorgsfullt.
-12. **Beveg dere forsiktig til musikk.** Vift et lett skjerf sammen, eller beveg hendene i takt med en sang. For tøyninger og leddbevegelse, be en fysioterapeut eller sykepleier vise deg trygge måter først.
-13. **Lag fri kunst.** Smør ufarlig maling på et stort ark med en svamp eller en hånd, styrt av din. Det finnes ikke noe riktig resultat.
-14. **Ønsk besøk av dyr velkommen.** Et rolig kjæledyr på sengen eller fanget, hvis personen likte dyr og omgivelsene tillater det.
-15. **Pust sakte sammen.** Sitt tett inntil og pust langsomt og hørbart. [Rolig pust](/games/calm-breathing/) kan gi dere begge en rytme, og du kan starte og stoppe den.
-16. **Vær bare der.** Sitt i nærheten, nynn, strikk eller les stille. Å være til stede er nok.
+11. **Børst håret eller tilby en varm klut.** Rolig stell og en varm vaskeklut til hender og ansikt kan kjennes omsorgsfullt.
+12. **Beveg dere forsiktig til musikk.** Vift et lett skjerf sammen, eller beveg hendene i takt med en sang. For strekk og leddbevegelser, be en fysioterapeut eller sykepleier vise deg trygge måter først.
+13. **Lag fri kunstnerisk aktivitet.** Spre ugiftig maling på stort papir med en svamp eller en hånd, ledet av din. Det finnes ikke noe riktig resultat.
+14. **Ta imot besøk av dyr.** Et rolig kjæledyr på senga eller i fanget, hvis personen likte dyr og stedet tillater det.
+15. **Pust sakte sammen.** Sitt nær og pust sakte og hørbart. [Rolig pust](/games/calm-breathing/) kan gi dere felles rytme, og du bestemmer når dere starter og stopper.
+16. **Bare vær der.** Sitt i nærheten, nynn, strikk eller les stille. Å være til stede er nok.
 
-## Slik deler du en aktivitet på dette stadiet
+## Slik deler dere en aktivitet på dette stadiet
 
-- **Nærm deg forfra.** Si navnet deres og ditt, og snakk langsomt og lavt før du berører.
-- **Tilby én ting om gangen.** Slå av TV-en før du spiller musikk. Gjør én sans om gangen.
-- **Hold det kort.** Noen få minutter kan være nok. Flere korte øyeblikk gjennom dagen er bedre enn én lang økt.
-- **Sørg for komfort først.** Kontroller at personen har god støtte. NIA foreslår et bord som legges over fanget for å hvile armene og støtte overkroppen når personen sitter oppreist.
-- **Følg reaksjonen.** Avslappede hender, et mykere ansikt, øyekontakt eller nynning tyder på komfort. NIA påpeker at stønn, grimaser, å beskytte en del av kroppen eller plutselig uro kan være tegn på smerte. Stopp, og si fra til omsorgsteamet.
+- **Nærm deg forfra.** Si navnet til personen og ditt eget, og snakk langsomt og lavt før du tar på vedkommende.
+- **Tilby én ting om gangen.** Skru av TV-en før du spiller musikk. Gjør én sans om gangen.
+- **Hold det kort.** Noen få minutter kan være nok. Flere korte stunder utover dagen er bedre enn én lang økt.
+- **Sørg for komfort først.** Sjekk at personen er godt støttet. NIA foreslår et brett over fanget for å hvile armene og støtte overkroppen når personen sitter opp.
+- **Følg med på reaksjonene.** Avslappede hender, et mykere ansikt, blikkontakt eller nynning tyder på trygghet. NIA skriver at stønn, grimaser, at personen beskytter en kroppsdel, eller plutselig uro kan være tegn på smerte. Stopp, og si fra til omsorgsteamet.
 
-## En rask guide etter sans
+## En rask oversikt etter sans
 
 | Sans | Ideer | Vær oppmerksom på |
 | --- | --- | --- |
-| Hørsel | Favorittmusikk, din stemme som leser, naturlyder | Hold volumet lavt; én lyd om gangen |
-| Berøring | Håndmassasje, å holde hender, mykt stoff, varm klut | Spør eller si fra først; kontroller at huden ikke er øm eller skadet |
+| Hørsel | Favorittmusikk, din stemme som leser høyt, naturlyder | Hold lyden lav; én lyd om gangen |
+| Berøring | Håndmassasje, å holde hender, mykt stoff, varm klut | Spør eller si fra først; sjekk at huden ikke er øm eller skadet |
 | Syn | Bilder, blomster, utsikten fra vinduet, en rolig naturvideo | Hold ting i øyehøyde; godt lys, ingen blending |
-| Lukt | En favorittkrem, friske blomster, kaffe som trekker i nærheten | Unngå sterke dufter; sjekk allergier og pust |
+| Lukt | En favorittkrem, friske blomster, kaffe som lages i nærheten | Unngå sterke dufter; sjekk allergier og pust |
 | Smak | En liten smak av en favorittsmak | Bare matvarer og konsistenser omsorgsteamet sier er trygge |
 
 ## Sikkerhet på dette stadiet
 
-Svelging kan bli vanskelig i sen fase, og NIA advarer om at dette øker faren for kvelning. La ikke små gjenstander ligge innen rekkevidde, og tilby mat eller drikke bare i den konsistensen og de stillingene omsorgsteamet anbefaler. Sjekk huden forsiktig under berøringsaktiviteter, siden huden lett kan rive eller få blåmerker. For mer om trygge sanseideer, se [sanseaktiviteter](/activities/sensory/).
+Svelging kan bli vanskelig på sent stadium, og NIA advarer om at dette øker faren for kvelning. Ikke la små gjenstander ligge innen rekkevidde, og tilby bare mat eller drikke i konsistensene og stillingene omsorgsteamet anbefaler. Sjekk huden forsiktig under berøringsaktiviteter, siden huden lett kan rives eller få blåmerker. For mer om trygge sanseideer, se [sanseaktiviteter](/creative-calm/sensory-activities-for-adults/).
 
 ## Ta vare på deg selv også
 
-Omsorg i sen fase er fysisk og følelsesmessig krevende, enten hjemme eller under besøk på et sykehjem. Team for hospice og palliativ omsorg kan hjelpe med komfort, støtte og planlegging, og NIA nevner dem som en kilde til hjelp. Korte, rolige besøk er verdt det. Se [besøke noen med demens](/activities/visiting/). Hvis du leder grupper, har [gruppeaktiviteter på sykehjem](/activities/care-home-groups/) ideer for å tilpasse økter. Og les gjerne [egenomsorg for omsorgspersoner](/caregiving/caregiver-self-care/). Hvile er en del av å ta godt vare på andre.
+Omsorg på sent stadium er fysisk og følelsesmessig krevende, enten hjemme eller under besøk på sykehjem. Team for hospice og palliativ behandling kan hjelpe med komfort, støtte og planlegging, og NIA nevner dem som en kilde til hjelp. Korte, rolige besøk er verdt det; se [besøk til noen med demens](/together/visiting-someone-in-care/). Hvis du leder grupper, har [gruppeaktiviteter på sykehjem](/crafts/craft-group-sessions/) ideer for hvordan du kan tilpasse øktene. Og les gjerne [egenomsorg for pårørende](/creative-calm/creative-self-care-for-caregivers/): hvile er en del av å ta godt vare på noen.

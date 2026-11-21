@@ -1,35 +1,36 @@
 ---
 title: "Attività per persone con demenza: 101 idee semplici"
-seoTitle: "101 attività per persone con demenza: idee semplici"
-description: "101 attività semplici e da adulti per persone con demenza, dal piegare gli asciugamani alla musica e alle foto, e come adattarle quando diventa più difficile."
+seoTitle: "Idee di attività per la demenza: 101 attività semplici"
+description: "101 attività semplici per adulti che convivono con la demenza, dal piegare asciugamani alla musica e alle fotografie, con consigli su come adattarle."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Le attività adatte a una persona con demenza sono familiari, da adulti e
-  facili da condividere: piegare il bucato, riordinare, cucinare, ascoltare
-  musica, guardare foto, camminare, fare giardinaggio, stare con gli animali e
-  semplici giochi. Scelga ciò che alla persona è sempre piaciuto, si occupi Lei
-  delle parti difficili e smetta quando è stanca. Passare del tempo piacevole
-  insieme conta più che finire qualcosa.
+  Le attività migliori per le persone con demenza sono familiari, adatte a un
+  adulto e facili da condividere: piegare il bucato, ordinare, cucinare, ascoltare
+  musica, guardare fotografie, camminare, fare giardinaggio, stare con un animale
+  domestico e giocare a giochi semplici. Conviene scegliere ciò che la persona ha
+  sempre amato, occuparsi delle parti più difficili e fermarsi quando la persona
+  si stanca. Il tempo piacevole passato insieme conta più del portare a termine
+  qualcosa.
 keyPoints:
-  - "Parta dalla vita della persona: il suo lavoro, i suoi hobby, la sua fede e la sua musica preferita sono la guida migliore."
-  - "Renda qualsiasi attività più piccola quando serve: meno passaggi, meno scelte, la parte difficile la fa Lei."
-  - "Guardare, tenere qualcosa in mano o semplicemente sedersi accanto: anche questo è partecipare."
-  - "Si fermi o cambi attività quando nota stanchezza, frustrazione o noia. Finire prima è un buon risultato."
-  - "Farlo insieme conta più che farlo bene."
+  - "Parta dalla vita della persona: il lavoro, gli hobby, la fede e la musica preferita sono la guida migliore."
+  - "Renda ogni attività più piccola se serve: meno passaggi, meno scelte, e Lei fa la parte difficile."
+  - "Guardare, tenere in mano qualcosa o semplicemente stare accanto contano come partecipare."
+  - "Si fermi o cambi attività quando vede stanchezza, frustrazione o noia. Interrompere presto è un buon esito."
+  - "Farlo insieme conta più di farlo bene."
 faq:
   - q: "Quali attività sono adatte a una persona con demenza?"
-    a: "Attività familiari che la persona fa da anni, rese un po’ più semplici: piegare il bucato, apparecchiare la tavola, cucinare, ascoltare musica, guardare foto, camminare, fare giardinaggio e passare del tempo con un animale. Scelga cose che sembrino da adulti e utili, e le facciate insieme."
-  - q: "Quanto deve durare un’attività?"
-    a: "Non esiste una durata giusta. Un giorno pochi minuti a piegare asciugamani possono bastare, un altro giorno un’ora in giardino può sembrare facile. Lasci che sia la persona a dare il ritmo e concluda finché è ancora piacevole."
-  - q: "E se la persona rifiuta un’attività?"
-    a: "Non insista. Un no può voler dire che il compito sembra troppo difficile, che il momento non è quello giusto, oppure che la persona è stanca o a disagio. Riprovi più tardi, proponga una versione più piccola, oppure cominci Lei l’attività lì vicino e la inviti ad aiutarLa."
-  - q: "I giochi per il cervello fanno bene alle persone con demenza?"
-    a: "I giochi possono essere un modo piacevole di passare del tempo insieme, ma nessun gioco ha dimostrato di curare, rallentare o fermare la demenza. Scelga giochi senza timer, punteggio o suoni per le risposte sbagliate, e li viva come un’attività condivisa, non come un test."
+    a: "Attività familiari che la persona ha svolto per anni, rese un po' più semplici: piegare il bucato, apparecchiare la tavola, cucinare, ascoltare musica, guardare fotografie, camminare, fare giardinaggio e stare con un animale domestico. Scelga cose che sembrino da adulti e utili, e le faccia insieme."
+  - q: "Quanto deve durare un'attività?"
+    a: "Non esiste una durata giusta. Qualche minuto di piegatura degli asciugamani può bastare un giorno, mentre un'ora in giardino può sembrare semplice un altro giorno. Lasci che la persona scelga il ritmo e termini mentre tutto è ancora piacevole."
+  - q: "Cosa fare se la persona rifiuta un'attività?"
+    a: "Non insista. Un no può significare che il compito sembra troppo difficile, che il momento non è quello giusto, oppure che la persona è stanca o a disagio. Provi più tardi, proponga una versione più semplice, oppure cominci lei il compito accanto e inviti la persona a dare una mano."
+  - q: "I cosiddetti giochi per il cervello sono utili per le persone con demenza?"
+    a: "I giochi possono essere un modo piacevole di passare il tempo insieme, ma nessun gioco ha dimostrato di curare, rallentare o fermare la demenza. Scelga giochi senza timer, punteggi o suoni di errore, e li viva come un'attività condivisa, non come una prova."
   - q: "Come evitare che le attività sembrino infantili?"
-    a: "Usi materiali veri, da adulti: asciugamani veri, ricette vere, musica e materiali da disegno per adulti, e immagini con temi adulti. Presenti i compiti come un aiuto di cui ha davvero bisogno, e parli alla persona come all’adulto che è."
+    a: "Usi materiali reali da adulti: asciugamani veri, ricette vere, musica e materiali per l'arte adatti a un adulto, e immagini con temi adulti. Presenti i compiti come un aiuto di cui ha davvero bisogno, e si rivolga alla persona come l'adulto che è."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +52,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-L’attività migliore per una persona con demenza è di solito qualcosa che sa già fare, reso un po’ più semplice e fatto accanto a qualcuno di cui si fida. Qui sotto trova 101 idee, raggruppate per tipo, ognuna con il modo di prepararla e di renderla più facile quando diventa più difficile. Non servono attrezzature speciali e non serve finire nulla. Un buon pomeriggio può essere un cesto di asciugamani e un caffè insieme.
+L'attività migliore per una persona che convive con la demenza è di solito qualcosa che sa già fare, resa un po' più semplice e svolta insieme a qualcuno di cui si fida. Di seguito trova 101 idee, raggruppate per tipo, ciascuna con come prepararla e come renderla più facile quando diventa più difficile. Non servono attrezzature speciali e non è necessario portare a termine nulla. Un bel pomeriggio può essere un cesto di asciugamani e una tazza di caffè insieme.
 
-## Come scegliere l’attività giusta?
+## Come scegliere l'attività giusta?
 
-Scelga in base alla persona, non alla lista: parta da ciò che le è sempre piaciuto e da ciò che oggi riesce a fare senza fatica.
+Scelga in base alla persona, non alla lista: parta da ciò che ha sempre amato e da ciò che riesce a fare con comodità oggi.
 
-- **Pensi al suo lavoro e ai suoi hobby.** L’[Alzheimer’s Association](https://www.alz.org/help-support/caregiving/daily-care/activities) suggerisce che a chi ha lavorato in ufficio può piacere dividere monete o preparare buste da spedire, e a chi ama il giardinaggio può piacere lavorare in giardino.
-- **Noti ciò che fa già.** Se Suo padre spazza la veranda ogni mattina senza che nessuno glielo chieda, lo inserisca nella giornata.
-- **Tenga conto dei limiti.** Stanchezza, vista, udito, mani doloranti ed equilibrio contano tutti.
-- **Osservi l’umore.** Le attività movimentate e rumorose piacciono ad alcune persone e ne spaventano altre.
-- **Dia uno scopo.** Piegare tovaglioli per una cena in parrocchia ha più senso di un esercizio fine a se stesso.
+- **Pensi al lavoro e agli hobby.** L'[Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) suggerisce che un ex impiegato possa apprezzare l'ordinamento delle monete o l'infilare lettere nelle buste, e un giardiniere possa apprezzare i lavori in giardino.
+- **Osservi ciò che già fa.** Se suo padre spazza il portico ogni mattina senza che glielo chieda, inserisca questo gesto nella giornata.
+- **Pianifichi tenendo conto dei limiti.** Stanchezza, vista, udito, mani doloranti ed equilibrio contano tutti.
+- **Osservi l'umore.** Attività movimentate e rumorose vanno bene per alcuni e spaventano altri.
+- **Dia uno scopo.** Piegare tovaglioli per una cena in parrocchia sembra più utile di un esercizio fine a sé stesso.
 
-### Una guida approssimativa per fase
+### Una guida indicativa per fase
 
-La demenza viene spesso descritta in fase iniziale, intermedia e avanzata. Sono etichette indicative, non caselle, e molte persone hanno giorni migliori e giorni più difficili: si regoli su ciò che vede oggi. L’[elenco per fase dell’Alzheimer’s Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) segue uno schema simile.
+La demenza viene spesso descritta in fasi iniziale, intermedia e avanzata. Sono etichette approssimative, non scatole, e molte persone hanno giornate migliori e giornate più difficili, quindi guardi a ciò che vede oggi. La [lista per fase dell'Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) segue uno schema simile.
 
 | Aspetto | Fase iniziale | Fase intermedia | Fase avanzata |
 | --- | --- | --- | --- |
-| Cosa può notare | Per lo più autonoma; organizzare, nomi nuovi e luoghi affollati diventano più difficili | Ha bisogno di aiuto per cominciare e per i passaggi; le parole vengono meno facilmente | Ha bisogno di aiuto per quasi tutta la cura quotidiana; i sensi contano più di tutto |
-| Attività spesso adatte | Carte, giochi da tavolo, cucina, giardinaggio, diario, uscite, gruppi e associazioni | Piegare il bucato, riordinare, semplici passaggi in cucina, cantare, album di foto, passeggiate accompagnate | Musica preferita, massaggio alle mani, oggetti morbidi da tenere, ascoltare qualcuno che legge, stare seduti all’aperto |
-| Il Suo ruolo | Compagno: chieda quale aiuto desidera | Preparare, mostrare, occuparsi delle parti difficili | Portare l’attività alla persona; la Sua compagnia è l’attività |
-| Altre idee | [Fase iniziale](/activities/early-stage/) | [Fase intermedia](/activities/middle-stage/) | [Fase avanzata](/activities/late-stage/) |
+| Ciò che potrebbe notare | Per lo più autonoma; pianificare, ricordare nomi nuovi e frequentare luoghi affollati diventa più difficile | Ha bisogno di aiuto per iniziare e per i passaggi; le parole arrivano con più fatica | Ha bisogno di aiuto nella maggior parte della cura quotidiana; contano soprattutto i sensi |
+| Attività che spesso vanno bene | Carte, giochi da tavolo, cucina, giardinaggio, diario, uscite, circoli | Piegare il bucato, ordinare, passaggi semplici di cucina, canto, album di fotografie, passeggiate guidate | Musica preferita, massaggio alle mani, oggetti morbidi da tenere, essere letti ad alta voce, stare all'aperto |
+| Il suo ruolo | Faccia da compagno di attività: chieda quale aiuto desidera | Prepari, mostri e si occupi delle parti difficili | Porti l'attività alla persona; la sua compagnia è l'attività |
+| Altre idee | Fase iniziale: in questa pagina | Fase intermedia: in questa pagina | [Fase avanzata](/activities/late-stage/) |
 
-## Come iniziare un’attività con una persona con demenza?
+## Come si inizia un'attività con una persona con demenza?
 
-Inizi in piccolo, inizi accanto a lei e renda facile dire di sì. Molte persone vogliono ancora partecipare, ma fanno fatica a organizzarsi o a cominciare.
+Cominci in piccolo, cominci insieme alla persona e renda facile dire di sì. Molte persone vogliono ancora partecipare, ma trovano difficile pianificare o iniziare.
 
-1. **Scelga il suo momento migliore,** spesso la mattina.
-2. **Prepari tutto prima,** così si può cominciare subito.
-3. **Chieda aiuto, non una prestazione:** «Mi darebbe una mano con questi?»
-4. **Cominci Lei.** Pieghi il primo asciugamano e lasci che la persona si unisca. Mostrare funziona meglio che spiegare.
-5. **Proponga un passaggio alla volta.**
-6. **Si prenda la parte più difficile.** L’Alzheimer’s Association suggerisce di misurare Lei gli ingredienti e poi passare il cucchiaio per mescolare.
-7. **Lasci che si faccia a modo suo.** Asciugamani piegati in un altro modo vanno benissimo.
-8. **Smetta quando smette di essere piacevole.** Agitarsi, accigliarsi o dire «Non ci riesco» sono segnali per cambiare o riposare.
+1. **Scelga il momento migliore,** spesso la mattina.
+2. **Prepari tutto in anticipo** così si può iniziare subito.
+3. **Chieda aiuto, non una prestazione:** «Potrebbe darmi una mano con queste?»
+4. **Cominci lei.** Pieghi il primo asciugamano e lasci che la persona si unisca. Mostrare è più efficace che spiegare.
+5. **Proponga un passo alla volta.**
+6. **Si occupi della parte più difficile.** L'Alzheimer's Association suggerisce di misurare lei stessa gli ingredienti, poi di passare il cucchiaio per mescolare.
+7. **Lasci che si faccia a modo suo.** Asciugamani piegati in modo diverso vanno bene.
+8. **Si fermi quando non è più piacevole.** Agitarsi, accigliarsi o dire «Non ci riesco» sono segnali per cambiare attività o riposare.
 
-Veda anche [come giocare insieme](/caregiving/how-to-play-together/) e i [consigli per comunicare](/caregiving/communication-tips/).
+Vedi anche [come giocare insieme](/caregiving/how-to-play-together/) e [primi passi dopo una diagnosi](/caregiving/after-dementia-diagnosis/).
 
-## Le faccende di casa
+## Faccende quotidiane in casa
 
-I lavori di casa sono familiari e utili, e per questo sono un punto di partenza naturale. Il [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) cita lavare i piatti, apparecchiare, spazzare, smistare la posta e piegare il bucato tra le attività che possono piacere. Altre idee nelle [faccende di casa](/activities/household-tasks/).
+Le faccende domestiche sono familiari e utili, il che le rende un punto di partenza naturale. Il [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) include tra le attività che le persone possono apprezzare lavare i piatti, apparecchiare la tavola, spazzare, smistare la posta e piegare il bucato.
 
-1. **Piegare asciugamani caldi.** Rovesci sul tavolo un cesto appena uscito dall’asciugatrice o tolto dallo stendino e piegate fianco a fianco. Più avanti, lisciare e impilare è altrettanto utile.
-2. **Appaiare i calzini.** Cominci con colori molto diversi. Più avanti, separare i chiari dagli scuri è più che sufficiente.
-3. **Apparecchiare la tavola.** Passi un tipo di oggetto alla volta. Apparecchi Lei un posto come modello.
-4. **Lavare o asciugare i piatti.** Acqua calda e insaponata e stoviglie infrangibili. Asciugare da seduti affatica meno le gambe.
-5. **Pulire il tavolo.** Dopo i pasti passi uno strofinaccio umido. È un lavoro vero per mani irrequiete.
-6. **Smistare la posta.** Cataloghi e pubblicità in «da tenere» e «da buttare». Tenga da parte le bollette vere.
-7. **Ritagliare dai volantini.** Forbici con la punta arrotondata e volantini del supermercato. Più avanti, anche cerchiare i cibi preferiti va bene.
-8. **Dividere le monete.** Dividere gli spiccioli in tazze o impilarli in colonnine. Eviti gli oggetti piccoli se la persona tende a mettere le cose in bocca.
-9. **Spazzare o spolverare.** Una scopa leggera sulla veranda o sul balcone, oppure un piumino con il manico lungo usato da seduti.
-10. **Aiutare a preparare un pasto.** Lavare le verdure, spezzettare l’insalata, mescolare. Coltelli e fornelli restano a Lei.
-11. **Preparare un dolce di famiglia.** Usi la ricetta scritta di suo pugno, se ce l’ha. Più avanti, la persona può fare l’assaggiatrice.
-12. **Lavori d’ufficio.** Piegare lettere, imbustare e affrancare, oppure scrivere insieme la lista della spesa.
+1. **Pieghi asciugamani caldi.** Rovesci un cesto dall'asciugatrice sul tavolo e pieghi uno accanto all'altro. Più tardi, lisciare e impilare è altrettanto utile.
+2. **Abbini i calzini.** Inizi con colori molto diversi. Più tardi, separare i chiari dai scuri basta.
+3. **Apparecchi la tavola.** Consegni un tipo di oggetto alla volta. Apparecchi lei stessa un posto, come esempio.
+4. **Lavi o asciughi i piatti.** Acqua tiepida e saponata, e stoviglie infrangibili. Asciugare seduti è più comodo per le gambe.
+5. **Pulisca il tavolo.** Dopo i pasti, consegni un panno umido. È un lavoro vero per le mani irrequiete.
+6. **Smisti la posta.** Cataloghi e pubblicità in «da tenere» e «da riciclare». Le bollette vere le tenga da parte.
+7. **Ritagli i coupon.** Forbici a punta arrotondata e volantini della spesa. Più tardi, cerchiare i cibi preferiti va bene.
+8. **Ordini le monete.** Smisti gli spiccioli in tazze o li arrotoli nelle cartine. Eviti i piccoli oggetti se la persona se li mette in bocca.
+9. **Spazzi o spolveri.** Una scopa leggera sul portico, oppure uno spolverino a manico lungo usato da seduti.
+10. **Aiuti a preparare un pasto.** Lavare la verdura, strappare la lattuga, mescolare. Lei gestisce i coltelli e il fuoco.
+11. **Cucini una ricetta di famiglia.** Usi la ricetta scritta a mano, se la possiede. Più tardi, la persona può fare da assaggiatore.
+12. **Faccia piccoli lavori d'ufficio.** Piegare lettere, infilare e affrancare buste, o scrivere insieme la lista della spesa.
 
 ## Musica
 
-La musica familiare può raggiungere le persone anche quando le parole sono difficili. I [consigli sulla musica dell’Alzheimer’s Association](https://www.alz.org/help-support/caregiving/daily-care/art-music) suggeriscono canzoni conosciute, niente pubblicità e televisione spenta. Veda le [attività con la musica](/activities/music/).
+La musica familiare può raggiungere le persone anche quando le parole sono difficili. I suggerimenti dell'[Alzheimer's Association sulla musica](https://www.alz.org/help-support/caregiving/daily-care/art-music) consigliano canzoni familiari, niente pubblicità e la TV spenta. Vedi [attività musicali](/creative-calm/music-for-calm-and-connection/).
 
-13. **Creare una playlist personale.** La musica dei suoi quindici e vent’anni, del suo matrimonio, della sua chiesa o comunità e della sua cultura.
-14. **Cantare insieme.** Cominci a cantare Lei. Anche canticchiare o ascoltare va bene.
-15. **Tenere il ritmo.** Battere le mani, battere sulle ginocchia o su un piccolo tamburo. Funziona da seduti e anche nella fase avanzata.
-16. **Ballare.** Un ballo lento in cucina, oppure dondolare da seduti tenendosi per mano.
-17. **Ascoltare un album intero.** Un disco preferito dall’inizio alla fine, con un caffè e nient’altro intorno.
-18. **Parlare della musica.** Inviti a raccontare, non a ricordare dati: «Mi racconti delle feste da ballo a cui andava.»
-19. **Guardare un musical o un concerto registrato.** Uno spettacolo che amava è una bella serata. Si può mettere in pausa quando si vuole.
-20. **Suonare uno strumento conosciuto.** A chi suonava il pianoforte possono piacere brani semplici; più avanti, qualche nota insieme.
-21. **Ascoltare musica dal vivo.** Un breve concerto in paese o la prova di un coro. Vi sedete vicino all’uscita.
+13. **Crei una playlist personale.** Musica dell'adolescenza e dei primi anni da adulto, del matrimonio, della chiesa e della sua cultura.
+14. **Canti insieme.** Cominci a cantare lei stessa. Canticchiare o ascoltare conta.
+15. **Segua il ritmo.** Battere le mani, sulle ginocchia o su un tamburo a mano. Funziona da seduti e nelle fasi avanzate.
+16. **Balli.** Un lento in cucina, oppure ondeggi da seduti tenendosi per mano.
+17. **Ascolti un intero album.** Un disco preferito dall'inizio alla fine, con il caffè e nient'altro in sottofondo.
+18. **Parli della musica.** Inviti a raccontare storie, non fatti: «Mi racconta dei balli a cui andava?»
+19. **Guardi un musical o un concerto registrato.** Uno spettacolo amato fa una bella serata. Lo può fermare in ogni momento.
+20. **Suoni uno strumento familiare.** Un ex pianista può apprezzare brani semplici; più tardi, bastano poche note insieme.
+21. **Ascolti musica dal vivo.** Un breve concerto di comunità o le prove di un coro. Si sieda vicino all'uscita.
 
 ## Ricordi: foto, oggetti e storie
 
-Godetevi il passato insieme senza metterlo alla prova. Eviti «Si ricorda…?» e «Chi è questo?» e usi invece inviti aperti. Veda le [attività sui ricordi](/activities/reminiscence/).
+Goda del passato insieme senza metterlo alla prova. Eviti «Si ricorda...?» e «Chi è questa persona?» e usi inviti aperti. Vedi [attività di ricordi](/activities/reminiscence/).
 
-22. **Sfogliare un album di foto.** Dica ciò che vede: «Che bel vestito. Mi racconti di questa giornata.» Accetti qualsiasi nome la persona usi.
-23. **Preparare una scatola dei ricordi.** Una scatola da scarpe con oggetti della sua vita, come un tesserino di lavoro o una ricetta. Tirate fuori un oggetto alla volta.
-24. **Cominciare un libro della sua vita.** Poche foto per pagina con didascalie a caratteri grandi. Aiuta chi assiste per la prima volta a conoscere la persona.
-25. **Usare le carte per conversare.** Le [Carte per conversare](/games/conversation-cards/) abbinano un’immagine a uno spunto aperto.
-26. **Creare un gioco con le foto di famiglia.** [Coppie di foto](/games/photo-pairs/) trasforma le Sue foto in un gioco di abbinamento.
-27. **Guardare filmini di famiglia o vecchi programmi TV.** Commentate insieme invece di fare domande.
-28. **Maneggiare oggetti del suo lavoro.** Una chiave inglese, uno stetoscopio, un libro mastro. Spesso sono le mani a guidare il racconto.
-29. **Cucinare un piatto dell’infanzia.** La persona può mescolare, assaggiare o semplicemente stare in cucina con Lei.
-30. **Guardare una cartina dei luoghi dove ha vissuto.** Seguite con il dito strade conosciute su un grande atlante mentre parlate.
+22. **Sfogli un album di fotografie.** Dica ciò che vede: «Che vestito! Mi racconta di questo giorno?» Accetti i nomi che la persona usa.
+23. **Crei una scatola dei ricordi.** Una scatola da scarpe con oggetti della sua vita, come un tesserino di lavoro o una ricetta. Tiri fuori un oggetto alla volta.
+24. **Inizi un libro della vita.** Poche foto per pagina con didascalie in caratteri grandi. Aiuta chi arriva di nuovo a conoscere la persona.
+25. **Usi le carte di conversazione.** Le [carte di conversazione](/games/conversation-cards/) abbinano un'immagine a una domanda aperta.
+26. **Crei un gioco con le foto di famiglia.** [Coppie di foto](/games/photo-pairs/) trasforma le foto di famiglia in un gioco di abbinamento.
+27. **Guardi filmati di casa o vecchia TV.** Commentate insieme invece di fare domande.
+28. **Maneggi oggetti della vita lavorativa.** Una chiave inglese, uno stetoscopio, un registro contabile. Le mani spesso guidano il racconto.
+29. **Cucini un piatto dell'infanzia.** La persona può mescolare, assaggiare o semplicemente stare in cucina con lei.
+30. **Guardi una mappa dei luoghi in cui ha vissuto.** Segua con il dito le strade conosciute su un grande atlante mentre parla con la persona.
 
 ## Attività creative
 
-Nell’arte conta il fare, non l’opera finita. Usi materiali da adulti e sicuri. Veda [arte e lavoretti](/activities/arts-and-crafts/).
+L'arte riguarda il fare, non il pezzo finito. Scelga materiali da adulti e sicuri. Vedi [arti e mestieri](/crafts/easy-crafts-for-adults/).
 
-31. **Dipingere con gli acquerelli.** Carta spessa e pochi colori. Se cominciare è difficile, guidate insieme le prime pennellate.
-32. **Colorare disegni per adulti.** Fiori o trapunte, non cartoni animati. I nostri [Disegni da colorare](/games/coloring/) si usano sullo schermo o stampati.
-33. **Fare un collage.** Strappare da riviste immagini di giardini, automobili o cibo e incollarle. Più avanti, basta anche scegliere le immagini.
-34. **Comporre un mazzo di fiori.** Un mazzo del supermercato e un vaso. Più avanti, pochi steli in un barattolo.
-35. **Lavorare a maglia o all’uncinetto insieme.** File semplici con ferri grossi. Più avanti, avvolgere la lana in gomitoli.
-36. **Fare biglietti per la famiglia.** Timbrare, firmare o decorare biglietti di compleanno e di auguri di pronta guarigione per persone vere.
-37. **Modellare argilla autoindurente.** Schiacciarla per fare una piccola ciotola. Usi materiali atossici e resti vicino.
-38. **Carteggiare e rifinire il legno.** Una casetta per uccelli già tagliata e carta vetrata, senza attrezzi elettrici. Veda le [attività per uomini](/activities/for-men/).
-39. **Scrivere o dettare una lettera.** A un nipote o a un vecchio amico. Se scrivere è difficile, la persona parla e Lei scrive.
+31. **Dipinga con gli acquerelli.** Carta spessa, pochi colori. Se iniziare è difficile, guidi insieme i primi tratti.
+32. **Colori disegni per adulti.** Fiori o trapunte, non cartoni animati. Le nostre [pagine da colorare](/games/coloring/) funzionano a schermo o stampate.
+33. **Realizzi un collage.** Strappi immagini di giardini, auto o cibo dalle riviste e le incolli. Più tardi, scegliere le immagini basta.
+34. **Disponga dei fiori.** Un mazzo del supermercato e un vaso. Più tardi, qualche stelo in un barattolo.
+35. **Lavori a maglia o all'uncinetto insieme.** File semplici con ferri grossi. Più tardi, avvolgere il filato in gomitoli.
+36. **Prepari biglietti per la famiglia.** Timbri, firmi o decori biglietti di compleanno o di auguri per persone reali.
+37. **Modelli l'argilla che asciuga all'aria.** Premere per formare una piccola ciotola. Usi materiali atossici e resti vicino.
+38. **Levighi e rifinisca il legno.** Un kit di casetta per uccelli da assemblare e carta vetrata, senza utensili elettrici.
+39. **Scriva o detti una lettera.** A un nipote o a un vecchio amico. Se scrivere è difficile, la persona parla e Lei scrive.
 
-## All’aperto e in giardino
+## Esterno e giardinaggio
 
-L’aria fresca e la luce del giorno sono una buona compagnia. Veda le [attività all’aperto e in giardino](/activities/outdoor-and-gardening/).
+L'aria aperta e la luce del giorno sono buona compagnia. Vedi [attività all'aperto e in giardino](/together/outdoor-and-garden-activities/).
 
-40. **Annaffiare le piante.** Un piccolo annaffiatoio e qualche vaso. Annaffiare ogni giorno dà un ritmo alla giornata.
-41. **Piantare in un vaso.** Lo metta su un tavolo, così nessuno deve inginocchiarsi. Le piantine sono più facili dei semi.
-42. **Togliere le erbacce o i fiori appassiti.** Con i guanti, un’aiuola piccola alla volta.
-43. **Rastrellare le foglie.** Un piccolo angolo. Più avanti, tenere aperto il sacco è un lavoro vero.
-44. **Fare un percorso conosciuto.** Il giro dell’isolato o fino alla cassetta della posta. Più corto va bene.
-45. **Sedersi fuori insieme.** Una sedia sulla veranda o sul balcone in una giornata mite. Guardate le nuvole o i passanti.
-46. **Dare da mangiare agli uccellini.** Riempite insieme una mangiatoia e guardate da una sedia vicino alla finestra.
-47. **Lavare l’auto.** Secchio, spugna, un pomeriggio tiepido. Sciacquare i copricerchi è un buon lavoro da un solo passaggio.
+40. **Annaffi le piante.** Un piccolo annaffiatoio e qualche vaso. Annaffiare ogni giorno dà un ritmo alla giornata.
+41. **Pianti un vaso.** Lo metta su un tavolo, così nessuno deve inginocchiarsi. Le piantine sono più facili dei semi.
+42. **Tolga le erbacce o elimini i fiori appassiti.** Con i guanti, un'aiuola alla volta.
+43. **Raccolga le foglie.** Una piccola porzione. Più tardi, tenere aperto il sacco è un vero compito.
+44. **Percorra un tragitto familiare.** Intorno all'isolato o fino alla cassetta della posta. Anche un percorso più corto va bene.
+45. **Si sieda fuori insieme.** Una sedia sul portico in una giornata mite. Osservi le nuvole o chi passa.
+46. **Dia da mangiare agli uccelli.** Riempia insieme una mangiatoia e osservate dalla finestra.
+47. **Lavi l'auto.** Secchio, spugna, un pomeriggio caldo. Sciacquare i coprimozzi è un lavoro semplice, con un solo passaggio.
 
 ## Attività sensoriali
 
-Tatto, olfatto, gusto, udito e vista contano di più con l’avanzare della demenza. L’[NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) cita la musica, oggetti da maneggiare e il massaggio alle mani per le fasi più avanzate. Prima verifichi allergie e rischio di soffocamento; veda le [attività sensoriali](/activities/sensory/).
+Tatto, odorato, gusto, suono e vista contano di più man mano che la demenza progredisce. Il [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) cita, per le fasi successive, la musica, gli oggetti da toccare e il massaggio delle mani. Controlli prima le allergie e i rischi di soffocamento; vedi [attività sensoriali](/creative-calm/sensory-activities-for-adults/).
 
-48. **Fare un massaggio alle mani.** Chieda prima e usi un po’ di crema. Se non è sicuro della pelle o di eventuali allergie, la scelga senza profumo.
-49. **Toccare stoffe diverse.** Un cesto di velluto, velluto a coste, lana e raso da accarezzare e piegare.
-50. **Annusare erbe aromatiche e caffè.** Strofini tra le dita menta fresca o rosmarino. Eviti i profumi forti se ci sono problemi di respirazione.
-51. **Pettinare i capelli.** Con lentezza e delicatezza, se le fa piacere.
-52. **Un panno caldo.** Per mani e viso in una giornata fredda. Controlli prima la temperatura.
-53. **Esplorare un grembiule delle attività.** Bottoni grandi e cerniere cuciti bene. Controlli che nulla possa staccarsi.
-54. **Assaggiare una golosità preferita.** Un cucchiaino, con una consistenza che la persona possa gestire in sicurezza.
-55. **Ascoltare i suoni della natura.** Pioggia, onde o canto degli uccelli a volume basso.
-56. **Guardare qualcosa di lento.** Un acquario, un documentario sulla natura o la neve che cade.
+48. **Faccia un massaggio alle mani.** Chieda prima e usi un po' di crema. Scelga una crema senza profumo se non è sicuro della pelle o di eventuali allergie.
+49. **Faccia sentire tessuti diversi.** Un cesto di velluto, velluto a coste, lana e raso da accarezzare e piegare.
+50. **Annusi erbe e caffè.** Strofini tra le dita menta o rosmarino fresco. Eviti i profumi forti se ci sono problemi respiratori.
+51. **Spazzoli i capelli.** Lentamente e con delicatezza, se alla persona piace.
+52. **Offra un panno caldo.** Per mani e viso in una giornata fredda. Controlli prima la temperatura.
+53. **Faccia esplorare un grembiule con attività.** Bottoni grandi e cerniere cucite bene. Controlli che nulla possa staccarsi.
+54. **Assaggi un dolcetto preferito.** Un piccolo cucchiaino, con una consistenza che la persona possa mangiare in sicurezza.
+55. **Metta suoni della natura.** Pioggia, onde o canto degli uccelli a basso volume.
+56. **Guardi qualcosa di lento.** Un acquario, un video della natura o la neve che cade.
 
 ## Giochi e puzzle
 
-I giochi funzionano quando non ci sono timer, punteggio o pressione. Se un gioco comincia a sembrare un esame, lo metta da parte. Veda [scegliere app e giochi](/caregiving/choosing-apps-and-games/) e [giochi per il cervello](/brain-health/brain-games/).
+I giochi funzionano quando non ci sono timer, punteggi o pressione. Se uno inizia a sembrare una prova, lo metta da parte. Vedi la [pagina dei giochi](/games/) e [attività per la demenza a casa](/dementia-activities/).
 
-57. **Abbinare immagini.** [Coppie di immagini](/games/picture-pairs/) lascia le immagini scoperte, quindi si tratta di notare, non di ricordare.
-58. **Trovare l’immagine uguale.** [Trova l’uguale](/games/find-the-same/) offre da due a quattro scelte. Parlate di ogni immagine.
-59. **Mettere nei cestini.** [Riordiniamo insieme](/games/sort-together/) è come dividere i calzini, ma sullo schermo.
-60. **Fare un puzzle a pezzi grandi.** Immagini da adulti, pochi pezzi. [Puzzle di immagini](/games/picture-puzzle/) tiene visibile tutta l’immagine. Altre idee nei [puzzle per la demenza](/activities/puzzles/).
-61. **Giocare a un vecchio gioco di carte.** Quello a cui ha giocato per anni, come scopa o briscola. Più avanti, dividere il mazzo per colore è già un gioco.
-62. **Giocare a domino.** Accostare le estremità uguali. Più avanti, basta mettere in fila le tessere.
-63. **Provare un cerca parole a caratteri grandi.** Il nostro [Cerca parole a caratteri grandi](/games/word-search/) ha parole solo in orizzontale e in verticale, e si può stampare.
-64. **Completare proverbi conosciuti.** Con [Completa il proverbio](/games/finish-the-saying/) può mostrare la fine quando vuole.
-65. **Giocare a tombola con immagini.** La [Tombola con immagini](/games/picture-bingo/) è adatta a famiglie e gruppi. Aiuti liberamente a segnare le cartelle.
-66. **Giocare a dama.** Regole elastiche. Anche muovere le pedine chiacchierando va bene.
+57. **Abbini le immagini.** [Coppie di immagini](/games/picture-pairs/) lascia le immagini scoperte, quindi conta notare, non ricordare.
+58. **Trovi la stessa immagine.** [Trova lo stesso](/games/find-the-same/) offre da due a quattro scelte. Parli di ciascuna immagine.
+59. **Smisti nei cestini.** [Smista insieme](/games/sort-together/) è come smistare i calzini sullo schermo.
+60. **Faccia un puzzle a pezzi grandi.** Immagini per adulti, con un numero facile di pezzi. [Puzzle di immagini](/games/picture-puzzle/) mantiene visibile l'intera figura. Altri consigli in [puzzle e giochi da tavolo](/together/puzzles-and-table-games/).
+61. **Giochi a una vecchia carta.** Quella che la persona ha giocato per anni. Più tardi, ordinare il mazzo per colore è già un gioco.
+62. **Giochi a domino.** Abbini le estremità. Più tardi, allineare le tessere va bene.
+63. **Provi una ricerca di parole a caratteri grandi.** La nostra [ricerca di parole](/games/word-search/) ha parole solo in orizzontale e in verticale, e si può stampare.
+64. **Completi detti familiari.** [Completa il detto](/games/finish-the-saying/) permette di mostrare la fine in qualsiasi momento.
+65. **Faccia una tombola con immagini.** La [tombola con immagini](/games/picture-bingo/) va bene per famiglie e gruppi. Aiuti a segnare le cartelle liberamente.
+66. **Giochi a dama.** Mantenga le regole flessibili. Spostare le pedine mentre si conversa conta come gioco.
 
 ## Movimento
 
-Il NIA suggerisce passeggiate, cyclette, elastici per lo stretching, lanciare una palla morbida o un palloncino, sollevare barattoli di pelati e video di ginnastica per anziani. Prima di cominciare qualcosa di nuovo ne parli con il medico, soprattutto se ci sono problemi di equilibrio.
+Il NIA suggerisce passeggiate, una cyclette, elastici per esercizi, lanciare una palla morbida o un palloncino, sollevare lattine di zuppa e video di esercizi per anziani. Consulti un medico prima di iniziare qualcosa di nuovo, soprattutto in presenza di problemi di equilibrio.
 
-67. **Lanciarsi un palloncino.** Seduti uno di fronte all’altro. Si muove lentamente, quindi è facile da prendere.
-68. **Seguire un video di ginnastica da seduti** pensato per anziani, fianco a fianco.
-69. **Fare stretching con un elastico.** Leggere trazioni con le braccia, da seduti, con un elastico leggero.
-70. **Sollevare barattoli di pelati.** Alzare lentamente le braccia, magari a ritmo di musica.
-71. **Pedalare sulla cyclette.** Pochi minuti tranquilli, con Lei vicino.
-72. **Ballare con i foulard.** Agitare foulard leggeri a ritmo di musica, da seduti o in piedi.
-73. **Camminare con uno scopo.** Per spedire una lettera o prendere un caffè al bar. Avere un motivo per uscire sembra naturale.
-74. **Condividere una pausa per respirare.** Rallentate insieme con [Respiro calmo](/games/calm-breathing/).
+67. **Lanci un palloncino.** Si sieda di fronte alla persona. Il palloncino scende lentamente, quindi è facile da prendere.
+68. **Segua un video di esercizi da seduti** pensato per anziani, insieme alla persona.
+69. **Faccia esercizi di stretching con un elastico.** Tiri gentilmente le braccia con un elastico leggero, da seduti.
+70. **Sollevi lattine di zuppa.** Alzi lentamente le braccia, magari a ritmo di musica.
+71. **Faccia pedalare la persona su una cyclette.** Pochi minuti facili, con Lei accanto.
+72. **Balli con le sciarpe.** Agiti sciarpe leggere a ritmo di musica, da seduti o in piedi.
+73. **Cammini con uno scopo.** Per spedire una lettera o prendere un caffè. Una ragione per uscire sembra naturale.
+74. **Faccia una pausa di respiro insieme.** Rallenti insieme con la [respirazione calma](/games/calm-breathing/).
 
 ## Attività sociali
 
-La compagnia conta anche quando i nomi sono difficili, e i gruppi piccoli sono più facili di quelli grandi. Il NIA osserva che una persona può non ricordare chi è un visitatore, ma spesso apprezza comunque la compagnia. Veda le [visite](/activities/visiting/).
+La compagnia conta anche quando i nomi sono difficili da ricordare, e i piccoli gruppi sono più facili di quelli grandi. Il NIA osserva che una persona può non ricordare chi è un visitatore, ma spesso apprezza comunque la compagnia. Vedi [visite](/together/visiting-someone-in-care/).
 
-75. **Ricevere uno o due visitatori alla volta.** Visite brevi in una stanza tranquilla, con foto da guardare.
-76. **Fare videochiamate con la famiglia.** Chiamate brevi, una voce alla volta. Veda [telefonate e videochiamate](/activities/phone-and-video-calls/).
-77. **Provare un Caffè Alzheimer.** Incontri informali e aperti per persone con demenza e chi le assiste. Chieda all’associazione Alzheimer della Sua zona o ai servizi sociali del Comune cosa c’è vicino.
-78. **Mangiare fuori in un orario tranquillo.** Il NIA suggerisce un ristorante conosciuto e tranquillo fuori dagli orari di punta, con un tavolo vicino al bagno.
-79. **Frequentare un centro anziani o un centro diurno.** Compagnia per la persona e una pausa per Lei.
-80. **Passare del tempo con i bambini.** Una visita breve e tranquilla dei nipoti, o leggere un libro illustrato a un bambino piccolo.
-81. **Leggere il giornale davanti a un caffè.** Leggete i titoli ad alta voce. Il rito conta più delle notizie.
-82. **Aiutare qualcun altro.** Piegare i foglietti per una funzione religiosa o fare un biglietto per un vicino.
+75. **Accolga uno o due visitatori alla volta.** Brevi visite in una stanza tranquilla, con fotografie da guardare.
+76. **Faccia videochiamate con la famiglia.** Chiamate brevi, una voce alla volta. Vedi [chiamate telefoniche e video](/together/staying-connected-from-afar/).
+77. **Provi un caffè della memoria.** Incontri informali aperti a persone con demenza e a chi le assiste. Chieda al suo Area Agency on Aging locale che cosa c'è nelle vicinanze.
+78. **Mangi fuori in un momento tranquillo.** Il NIA suggerisce un ristorante familiare e silenzioso nelle ore di minore affluenza, con un tavolo vicino ai servizi igienici.
+79. **Visiti un centro per anziani o un programma diurno per adulti.** Compagnia per la persona e una pausa per Lei.
+80. **Passi del tempo con i bambini.** Una visita breve e tranquilla dai nipoti, o leggere un libro illustrato a un bambino piccolo.
+81. **Condivida il giornale davanti al caffè.** Legga ad alta voce i titoli. Il rito conta più delle notizie.
+82. **Aiuti qualcun altro.** Pieghi i programmi della chiesa o prepari un biglietto per un vicino.
 
-## Fede e spiritualità
+## Fede e attività spirituali
 
-Segua la tradizione della persona, o nessuna. Il NIA suggerisce funzioni conosciute, letture, musica sacra, preghiera, meditazione e i riti delle feste.
+Segua la tradizione della persona, o nessuna. Il NIA suggerisce funzioni familiari, letture, musica sacra, preghiera, meditazione e riti delle festività.
 
-83. **Partecipare a una funzione conosciuta.** Ne scelga una più tranquilla, sedetevi vicino al corridoio e informi i presenti della demenza.
-84. **Seguire una funzione online** nei giorni in cui uscire è troppo.
-85. **Pregare o leggere insieme.** Parole conosciute, lette lentamente. La persona può unirsi nelle parti che conosce.
-86. **Cantare inni o musica sacra** della sua tradizione.
-87. **Mantenere i riti delle feste.** Candele a batteria, una benedizione, le decorazioni di sempre.
-88. **Condividere un momento di silenzio.** Sedersi in giardino o guardare insieme il tramonto.
+83. **Partecipi a una funzione familiare.** Scelga una celebrazione più tranquilla, si sieda vicino al corridoio e informi le persone del posto sulla demenza.
+84. **Segua una funzione online** nei giorni in cui uscire è troppo.
+85. **Preghi o legga insieme.** Parole familiari, lette lentamente. La persona può unirsi nelle parti che conosce.
+86. **Canti inni o musica sacra** della tradizione della persona.
+87. **Mantenga i riti delle festività.** Candele a batteria, una benedizione, le decorazioni che si usavano sempre.
+88. **Condivida momenti di silenzio.** Si sieda in giardino o guardi insieme il tramonto.
 
-## Animali
+## Animali domestici e animali
 
 Il NIA suggerisce di dare da mangiare a un animale, spazzolarlo, portarlo a passeggio, oppure stargli accanto e tenerlo in braccio.
 
-89. **Spazzolare un cane o un gatto tranquillo** con movimenti lunghi e lenti.
-90. **Dare da mangiare all’animale insieme.** Lei misura, la persona versa.
-91. **Portare a spasso il cane insieme.** Il guinzaglio lo tiene Lei.
-92. **Tenere un animale in grembo.** Un gatto tranquillo su una coperta può essere molto rassicurante.
-93. **Accogliere animali in visita.** Alcune RSA e alcuni centri diurni organizzano visite di animali. Si informi nella Sua zona.
-94. **Offrire un animale di peluche realistico.** Se non c’è un animale, ad alcune persone piace tenere in braccio un gatto o un cane di peluche realistico. Lo offra con semplicità, mai come un giocattolo, e accetti un no.
+89. **Spazzoli un cane o un gatto calmo** con colpi lunghi e lenti.
+90. **Dia da mangiare all'animale insieme.** Lei misura; la persona versa.
+91. **Porti a passeggio il cane insieme.** Lei tiene il guinzaglio.
+92. **Faccia tenere in grembo un animale.** Un gatto calmo su una coperta può essere molto rassicurante.
+93. **Accolga animali in visita.** Alcune residenze e programmi diurni ospitano visite di animali. Chieda in zona.
+94. **Offra un animale di peluche realistico.** Se non c'è un animale domestico, alcune persone apprezzano tenere in braccio un gatto o un cane di peluche realistico. Lo offra in modo semplice, mai come un giocattolo, e accetti un no.
 
 ## Attività stagionali
 
-Mantenga le tradizioni, ma più semplici. Il NIA suggerisce di essere realisti e di avere uno spazio tranquillo per le pause durante le feste più movimentate.
+Mantenga le tradizioni, ma in forma più semplice. Il NIA suggerisce di essere realistici e di avere uno spazio tranquillo per le pause durante le festività più impegnative.
 
-95. **Decorare per la stagione.** Una zucca, una ghirlanda o fiori freschi in tavola.
-96. **Preparare un dolce delle feste.** Stendere l’impasto o decorare biscotti. Il forno resta a Lei.
-97. **Appendere decorazioni.** Addobbi infrangibili, passati uno alla volta.
-98. **Un giro in auto per vedere le luminarie.** Un breve giro serale non chiede altro che compagnia.
-99. **Piantare bulbi primaverili.** In autunno premere i bulbi in un vaso e aspettare i germogli.
-100. **Sgranare piselli o fagioli.** Un lavoro estivo da fare fuori, con una ciotola in grembo.
-101. **Scrivere i biglietti di auguri.** La persona firma, affranca o chiude le buste; gli indirizzi li scrive Lei.
+95. **Decori per la stagione.** Una zucca, una ghirlanda o fiori freschi sul tavolo.
+96. **Prepari un dolce per le feste.** Stenda la pasta o decori i biscotti. Lei si occupa del forno.
+97. **Appenda le decorazioni.** Palline infrangibili, consegnate una alla volta.
+98. **Faccia un giro in auto per vedere le luci.** Un breve giro serale non chiede altro che compagnia.
+99. **Pianti bulbi primaverili.** In autunno, prema i bulbi in un vaso e osservi la comparsa dei germogli.
+100. **Sgusci le pannocchie di mais o sgrani i piselli.** Un lavoro estivo sotto il portico, con una ciotola in grembo.
+101. **Scriva gli indirizzi dei biglietti di auguri.** La persona firma, affranca o sigilla; Lei si occupa degli indirizzi.
 
-## E se un’attività non funziona?
+## Cosa fare se un'attività non funziona?
 
-Si fermi e provi qualcosa di diverso un’altra volta. Il NIA suggerisce di fare attenzione alla frustrazione e di lasciare che la persona si limiti a guardare, se preferisce. Un no spesso significa che il compito è troppo difficile, che il momento non è giusto o che qualcos’altro dà fastidio, come dolore, fame o rumore. Renda l’attività più piccola, provi più presto nella giornata, oppure la cominci Lei e veda se la persona si unisce. Veda [quando dice di no](/caregiving/when-they-say-no/) e [l’irrequietezza di fine giornata](/caregiving/late-day-restlessness/).
+Si fermi e provi qualcosa di diverso un'altra volta. Il NIA suggerisce di osservare la frustrazione e di lasciare che la persona semplicemente guardi, se preferisce. Un no spesso significa che il compito è troppo difficile, che il momento è sbagliato o che c'è qualcos'altro che disturba, come dolore, fame o rumore. Lo renda più semplice, provi nelle ore del mattino oppure cominci lei stessa e veda se la persona si unisce. Vedi [quando dice di no](/caregiving/when-they-say-no/) e [attività tranquille del pomeriggio](/creative-calm/calm-afternoon-activities/).
 
-Per inserire le attività tra pasti e riposo, veda [una routine quotidiana tranquilla](/activities/daily-routine/). Per avere qualcosa di pronto, veda le [attività da stampare](/activities/printable/) e, se conduce un gruppo, le [attività di gruppo in RSA](/activities/care-home-groups/). Anche il Suo riposo conta: veda [prendersi cura di sé](/caregiving/caregiver-self-care/).
+Per inserire le attività tra pasti e riposo, vedi [attività tranquille del pomeriggio](/creative-calm/calm-afternoon-activities/). Per avere pronto qualcosa, vedi le [stampe gratuite nella pagina dei giochi](/games/) e, se guida un gruppo, le [attività di gruppo nelle residenze](/crafts/craft-group-sessions/). Anche il suo riposo conta: vedi [cura di sé per chi assiste](/creative-calm/creative-self-care-for-caregivers/).

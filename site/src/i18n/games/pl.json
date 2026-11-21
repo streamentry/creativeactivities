@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Pary obrazków",
-    "seoTitle": "Gra w dopasowywanie dla dorosłych: Pary obrazków",
+    "seoTitle": "Gra w dopasowywanie par obrazków dla dorosłych",
     "h1": "Pary obrazków: łagodna gra w dopasowywanie",
-    "description": "Bezpłatna, spokojna gra w dopasowywanie par dla dorosłych i osób starszych, w tym dla osób żyjących z demencją. Obrazki mogą pozostać odkryte. Bez limitu czasu i bez punktacji.",
+    "description": "Bezpłatna, łagodna gra w dopasowywanie dla dorosłych i starszych osób, także dla osób żyjących z demencją. Obrazki mogą być widoczne przez cały czas. Bez zegara i punktów.",
     "short": "Znajdź dwa takie same obrazki. Obrazki mogą być cały czas widoczne.",
     "players": "1 lub 2 osoby, obok siebie",
     "intro": "Dotknij obrazka, a potem tego, który do niego pasuje. Obrazki domyślnie są widoczne, więc niczego nie trzeba zapamiętywać. Gdy dwa obrazki do siebie pasują, dostają złotą ramkę i ptaszek.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Znajdź taki sam",
-    "seoTitle": "Znajdź taki sam obrazek: Prosta gra obrazkowa",
+    "seoTitle": "Znajdź taki sam obrazek: prosta gra obrazkowa",
     "h1": "Znajdź taki sam obrazek",
-    "description": "Jeden obrazek na górze, od dwóch do czterech poniżej. Dotknij tego, który jest taki sam. Spokojna, bezpłatna gra obrazkowa dla dorosłych, osób starszych i rodzin, bez limitu czasu.",
+    "description": "Jeden obrazek u góry, dwa do czterech poniżej. Dotknij tego, który jest taki sam. Spokojna, bezpłatna gra obrazkowa dla dorosłych, starszych osób i rodzin, bez zegara.",
     "short": "Popatrz na obrazek u góry i dotknij takiego samego poniżej.",
     "players": "1 lub 2 osoby",
     "intro": "U góry ekranu jest jeden obrazek. Pod nim są dwa, trzy lub cztery obrazki. Dotknij tego, który jest taki sam. To jeden prosty wybór naraz i dużo miejsca na rozmowę.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Dopasuj cień",
-    "seoTitle": "Dopasowywanie cieni: Bezpłatna gra online dla dorosłych",
+    "seoTitle": "Gra w dopasowywanie cieni: bezpłatnie online dla dorosłych",
     "h1": "Dopasuj cień: łagodna gra obrazkowa",
-    "description": "Ciemny cień na górze, od dwóch do czterech obrazków poniżej. Dotknij obrazka, który rzuca ten cień. Bezpłatna, spokojna gra w dopasowywanie cieni bez limitu czasu.",
+    "description": "Ciemny cień u góry, dwa do czterech obrazków poniżej. Dotknij obrazka, który tworzy ten cień. Bezpłatna, spokojna gra w dopasowywanie cieni, bez zegara.",
     "short": "Popatrz na cień i dotknij obrazka, do którego należy.",
     "players": "1 lub 2 osoby",
     "intro": "Dopasowywanie cieni to znane zadanie z drukowanych kart pracy – tutaj z dużymi obrazkami i bez drukowania. U góry ekranu jest łagodny cień, a pod nim czekają dwa, trzy lub cztery obrazki. Dotknij tego, do którego należy cień. O kształtach takich jak rower, parasol czy filiżanka łatwo też porozmawiać.",
@@ -100,8 +100,8 @@
         "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w dowolnej chwili, a przerwanie w połowie to zupełnie dobry sposób na zakończenie."
       },
       {
-        "q": "Czy osoby żyjące z demencją mogą czerpać radość z dopasowywania cieni?",
-        "a": "Wielu dorosłych chętnie w to gra, w tym niektóre osoby żyjące z demencją, zwłaszcza we wcześniejszych stadiach. Kształty są łatwiejsze do rozpoznania niż słowa. Gra służy przyjemności i rozmowie, a nie sprawdzaniu wiedzy, i nie leczy ani nie spowalnia demencji. Jeśli wywołuje frustrację, wypróbuj grę „Znajdź taki sam” lub po prostu wspólnie poprzeglądajcie obrazki."
+        "q": "Czy osoby z demencją mogą cieszyć się dopasowywaniem cieni?",
+        "a": "Wiele osób dorosłych lubi tę grę, także niektóre osoby z demencją, często we wczesnym etapie choroby. Kształty łatwiej rozpoznać niż słowa. Gra służy zabawie i rozmowie, a nie sprawdzianowi, i nie leczy ani nie spowalnia demencji. Jeśli wywołuje frustrację, spróbuj gry „Znajdź taki sam obrazek” albo po prostu razem oglądajcie obrazki."
       },
       {
         "q": "Co się dzieje, gdy dotknie się innego obrazka?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Czwórka razem",
+    "seoTitle": "Gra w grupowanie obrazków dla dorosłych: Czwórka razem",
+    "h1": "Czwórka razem: spokojna gra w grupowanie obrazków",
+    "description": "Część obrazków ma wspólny temat, na przykład owoce lub pogodę. Dotknij tych, które do siebie pasują. Bezpłatna, spokojna gra w grupowanie, bez zegara i punktów.",
+    "short": "Znajdź obrazki, które do siebie pasują, na przykład owoce lub pogodę.",
+    "players": "1 lub 2 osoby",
+    "intro": "Niewielki zestaw obrazków, a niektóre z nich należą do siebie: na przykład cztery rodzaje owoców albo cztery sposoby podróżowania. Dotknij tych, które mają wspólny temat. Jeśli obrazek pasuje do czegoś innego, gra po prostu go nazwie i poczeka. Po chwili ciszy podpowiedź nazwie temat, a przycisk „Pokaż grupę” pokaże odpowiedź w każdej chwili.",
+    "howTo": [
+      "Wybierz cztery, sześć lub osiem obrazków. Cztery to najprostszy wybór, z trzema pasującymi do siebie.",
+      "Obejrzyjcie obrazki razem i porozmawiajcie o tym, co je łączy.",
+      "Dotknij każdego obrazka, który należy do grupy. Dostanie złotą ramkę i znak zaznaczenia.",
+      "Jeśli obrazek pasuje do czegoś innego, gra go nazwie i poczeka. Nie spiesz się.",
+      "Dotknij „Pokaż grupę”, kiedy chcesz, a potem „Inny zestaw”, aby zobaczyć nowe obrazki."
+    ],
+    "tips": [
+      "Mów na głos, co zauważasz: „Te dwa to rzeczy do jedzenia”.",
+      "Nie ma pośpiechu. Podpowiedź z nazwą tematu pojawia się po chwili i można ją zignorować.",
+      "Gdy grupa zostanie znaleziona, porozmawiajcie o niej: o ulubionym owocu, podróży pociągiem, dzisiejszej pogodzie."
+    ],
+    "faq": [
+      {
+        "q": "Czy są zegar lub punkty?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w dowolnym momencie, a przerwanie w połowie to całkiem dobry sposób na zakończenie."
+      },
+      {
+        "q": "Co się stanie, jeśli dotknie się obrazka spoza grupy?",
+        "a": "Nic przykrego. Nie ma brzęczyka, czerwonego krzyżyka ani drgania. Gra nazywa obrazek, mówi, że pasuje do czegoś innego, i czeka na kolejne dotknięcie."
+      },
+      {
+        "q": "Jakie są grupy?",
+        "a": "Codzienne tematy, które nie wymagają specjalnej wiedzy: owoce, zwierzęta, kwiaty, pogoda, sposoby podróżowania, rzeczy do gorącego napoju i rzeczy pieczone w piekarniku. Każdy obrazek należy tylko do jednej grupy."
+      },
+      {
+        "q": "Czy jest bezpłatna i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatna. Nie trzeba zakładać konta, rejestrować się ani niczego pobierać. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Który nie pasuje",
+    "seoTitle": "Gra „Który nie pasuje” z obrazkami dla dorosłych",
+    "h1": "Który nie pasuje: spokojna gra obrazkowa",
+    "description": "Trzy lub cztery obrazki, a wszystkie oprócz jednego mają wspólny temat, na przykład owoce lub pogodę. Dotknij tego, który nie pasuje. Bezpłatna, spokojna gra, bez zegara i punktów.",
+    "short": "Znajdź obrazek, który nie pasuje do pozostałych.",
+    "players": "1 lub 2 osoby",
+    "intro": "Trzy lub cztery obrazki, a wszystkie oprócz jednego należą do siebie: na przykład owoce albo sposoby podróżowania. Dotknij obrazka, który nie pasuje. Jeśli obrazek jednak pasuje do pozostałych, gra po prostu to powie i poczeka. Po chwili ciszy podpowiedź nazwie to, co łączy pozostałe, a przycisk „Pokaż mi” w każdej chwili wskaże obrazek, który nie pasuje.",
+    "howTo": [
+      "Wybierz trzy lub cztery obrazki. Trzy to najprostszy wybór.",
+      "Obejrzyjcie obrazki razem i porozmawiajcie o tym, co łączy większość z nich.",
+      "Dotknij obrazka, który nie pasuje. Dostanie złotą ramkę i znak zaznaczenia.",
+      "Jeśli obrazek pasuje do pozostałych, gra to powie i poczeka. Nie spiesz się.",
+      "Dotknij „Pokaż mi”, kiedy chcesz, a potem „Inny zestaw”, aby zobaczyć nowe obrazki."
+    ],
+    "tips": [
+      "Mów na głos: „Jabłko i gruszka to owoce. A autobus?”",
+      "Nie ma pośpiechu. Podpowiedź z nazwą tematu pojawia się po chwili i można ją zignorować.",
+      "Każdy obrazek jest dobrym początkiem rozmowy: ulubiony owoc, przejażdżka autobusem, deszczowy dzień."
+    ],
+    "faq": [
+      {
+        "q": "Czy są zegar lub punkty?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w dowolnym momencie, a przerwanie w połowie to całkiem dobry sposób na zakończenie."
+      },
+      {
+        "q": "Co się stanie, jeśli dotknie się obrazka, który pasuje?",
+        "a": "Nic przykrego. Nie ma brzęczyka, czerwonego krzyżyka ani drgania. Gra nazywa obrazek, mówi, że pasuje do pozostałych, i czeka na kolejne dotknięcie."
+      },
+      {
+        "q": "Jak wybiera się obrazek, który nie pasuje?",
+        "a": "Obrazki pochodzą z codziennych tematów, które nie wymagają specjalnej wiedzy: owoce, zwierzęta, kwiaty, pogoda, sposoby podróżowania, rzeczy do gorącego napoju i rzeczy pieczone w piekarniku. Każdy obrazek należy tylko do jednego tematu, a obrazek, który nie pasuje, zawsze pochodzi z innego tematu."
+      },
+      {
+        "q": "Czy jest to bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne, a nie trzeba zakładać konta, rejestrować się ani niczego pobierać. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Dopasuj kolor",
+    "seoTitle": "Dopasuj kolor: łagodna gra obrazkowa",
+    "h1": "Dopasuj kolor: znajdź obrazki w jednym kolorze",
+    "description": "Duża plama koloru z jego nazwą oraz cztery lub sześć obrazków. Dotknij każdego obrazka w tym kolorze. Bez minutnika i bez punktów, a inny kolor po prostu zostaje nazwany. Gra jest bezpłatna i można ją wydrukować.",
+    "short": "Znajdź wszystkie obrazki w tym samym kolorze co pokazany.",
+    "players": "1 lub 2 osoby albo dorosły z dzieckiem",
+    "intro": "Pokazana jest duża plama koloru, obok której zapisana jest jego nazwa, a pod nią cztery lub sześć obrazków. Dotknij każdego obrazka w tym kolorze, na przykład czerwonego jabłka i czerwonego kubka. Jeśli obrazek ma inny kolor, gra po prostu podaje jego nazwę (\"Gruszka jest zielona.\") i czeka. Przycisk \"Pokaż je\" wskazuje w każdej chwili pasujące obrazki, a \"Inny kolor\" przechodzi dalej.",
+    "howTo": [
+      "Wybierz cztery lub sześć obrazków. Cztery to najprostsza wersja.",
+      "Przyjrzyjcie się kolorowi i przeczytajcie jego nazwę razem.",
+      "Dotknij każdego obrazka w tym kolorze. Każdy dostanie grubą ramkę i znacznik wyboru.",
+      "Jeśli obrazek ma inny kolor, gra podaje, jaki to kolor, i czeka. Nie spieszcie się.",
+      "Kiedy chcesz, dotknij \"Pokaż je\", a potem \"Inny kolor\", aby wybrać nowy kolor."
+    ],
+    "tips": [
+      "Powiedz kolor na głos, a potem rozejrzyj się po pokoju: co jeszcze ma taki kolor?",
+      "Używaj własnych słów, jeśli chcesz. \"Pomidor\" albo \"niebo\" są równie dobre jak \"czerwony\" czy \"niebieski\".",
+      "Wskazywanie działa równie dobrze jak dotykanie. Siądźcie obok siebie, żebyście oboje widzieli ekran."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest minutnik albo punktacja?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w dowolnym momencie, a przerwanie w połowie jest zupełnie dobrym sposobem na zakończenie."
+      },
+      {
+        "q": "Co się stanie, gdy dotknie się obrazka w innym kolorze?",
+        "a": "Nic przykrego. Nie ma brzęczyka, czerwonego krzyżyka ani drgania. Gra podaje nazwę obrazka i jego kolor, na przykład \"Gruszka jest zielona.\", i czeka na kolejne dotknięcie."
+      },
+      {
+        "q": "Czy kolor to jedyna wskazówka?",
+        "a": "Nie. Kolor jest pokazany jako duża plama, a także zapisany słowem, a każdy obrazek jest nazwany, gdy się go dotknie. Osoba, która ma trudności z rozróżnianiem kolorów, nadal może grać, czytając nazwę."
+      },
+      {
+        "q": "Czy każdy obrazek naprawdę ma ten kolor?",
+        "a": "Obrazki są wybierane ręcznie i tylko takie, w których główny przedmiot ma wyraźnie jeden kolor. Obrazki wielobarwne, na przykład latawiec czy pszczoła, są pomijane."
+      },
+      {
+        "q": "Czy jest wersja do druku?",
+        "a": "Tak. Jednostronicowa kartka ma cztery rzędy. Każdy rząd podaje nazwę koloru i pokazuje cztery obrazki do wskazania lub zakreślenia."
+      },
+      {
+        "q": "Czy jest to bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne, a nie trzeba zakładać konta, rejestrować się ani niczego pobierać. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Dopasuj połówki",
+    "seoTitle": "Dopasuj połówki: łagodna gra obrazkowa",
+    "h1": "Dopasuj połówki: połącz dwie części obrazka",
+    "description": "Lewe połówki dwóch lub trzech obrazków po jednej stronie, ich prawe połówki po drugiej. Dotknij połówkę, a potem tę, która do niej pasuje. Bez minutnika i bez punktów, a połówki, które do siebie nie pasują, po prostu się rozdzielają. Gra jest bezpłatna i można ją wydrukować.",
+    "short": "Dotknij dwie połówki, które do siebie pasują i tworzą jeden obrazek.",
+    "players": "1 lub 2 osoby albo dorosły z dzieckiem",
+    "intro": "Każdy obrazek jest przecięty na środku. Lewe połówki dwóch lub trzech obrazków są w jednej kolumnie, a ich prawe połówki, w innej kolejności, w drugiej. Dotknij połówkę po lewej, a potem połówkę po prawej, która do niej pasuje, na przykład dziób czajnika i jego uchwyt. Połówki, które do siebie pasują, łączą się w cały obrazek. Te, które nie pasują, znów się rozdzielają, a gra delikatnie to mówi. \"Pokaż mi\" łączy wszystkie naraz.",
+    "howTo": [
+      "Wybierz dwa lub trzy obrazki. Dwa to najprostsza wersja.",
+      "Przyjrzyjcie się razem lewym połówkom. Jak myślisz, czyją częścią jest każda z nich?",
+      "Dotknij połówkę po lewej, a potem połówkę po prawej, która do niej pasuje. Można też w drugą stronę.",
+      "Połówki, które do siebie pasują, zostają połączone, z grubą ramką i znacznikiem wyboru. Te, które nie pasują, znów się rozdzielają, i można spróbować innej pary.",
+      "Kiedy chcesz, dotknij \"Pokaż mi\", a potem \"Inny zestaw\", aby wybrać nowe obrazki."
+    ],
+    "tips": [
+      "Przesuń palcem po krawędzi połówki. Gdzie rysunek sięga środka?",
+      "Mów, co widzisz: \"Ten ma uchwyt.\" Nie trzeba nazywać każdego obrazka.",
+      "Wskazywanie działa równie dobrze jak dotykanie. Siądźcie obok siebie, żebyście oboje widzieli ekran."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest minutnik albo punktacja?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w dowolnym momencie, a przerwanie w połowie jest zupełnie dobrym sposobem na zakończenie."
+      },
+      {
+        "q": "Co się stanie, gdy dwie połówki do siebie nie pasują?",
+        "a": "Nic przykrego. Nie ma brzęczyka, czerwonego krzyżyka ani drgania. Obie połówki znów się rozdzielają, a gra mówi: \"Te dwie do siebie nie pasują. Spróbujcie innej pary.\" Nic nie jest liczone."
+      },
+      {
+        "q": "Czy obrazki łatwo odróżnić od siebie?",
+        "a": "Tak. Obrazki są wybierane ręcznie, a dwa obrazki na jednej planszy nigdy nie pochodzą z tej samej grupy, na przykład dwa owoce czy dwa zwierzęta. Obrazki, których dwie połówki wyglądają podobnie, na przykład słońce czy tęcza, są pomijane."
+      },
+      {
+        "q": "Czy jest wersja do druku?",
+        "a": "Tak. Arkusz na jedną stronę pokazuje w jednej kolumnie lewe połowy trzech obrazków, a w drugiej ich prawe połowy, ułożone w innej kolejności. Narysuj linię od każdej lewej połowy do tej prawej, która do niej pasuje."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, to jest bezpłatne, a konto, rejestracja ani pobieranie nie są potrzebne. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Kolorowanie według numerów",
+    "seoTitle": "Kolorowanie według numerów: spokojna gra z dużymi polami",
+    "h1": "Kolorowanie według numerów: wypełnij pola kolorem, jakiego chcesz",
+    "description": "Siatka dużych ponumerowanych pól i legenda czterech kolorów z ich nazwami. Wybierz kolor, a potem dotknij pól, aby je wypełnić. Można użyć dowolnego koloru, nie ma zegara ani punktów, a przycisk wypełnia resztę według numerów. Gra jest bezpłatna i można ją wydrukować.",
+    "short": "Wybierz kolor, a potem dotknij ponumerowanych pól, aby je wypełnić.",
+    "players": "1 lub 2 osoby, obok siebie",
+    "intro": "Kwadratowa siatka dużych pól, każde z numerem, a nad nią legenda z czterema kolorami, każdy z numerem i pisemną nazwą. Wybierz kolor z legendy, a potem dotknij pól, aby je wypełnić. Siatka ma na początku 4 na 4 pola, a gdy chcesz więcej, 6 na 6 lub 8 na 8. Gdy każde pole ma kolor zgodny ze swoim numerem, siatka staje się obrazkiem z kartki. Pola wypełnione innym kolorem to po prostu Twój własny obrazek, a gra nic o tym nie mówi. Przycisk \"Wypełnij według numerów\" uzupełnia za Ciebie wszystkie puste pola.",
+    "howTo": [
+      "Wybierz rozmiar siatki. Siatka 4 na 4 ma największe pola i jest najprostsza.",
+      "Spójrz na legendę nad siatką. Każdy kolor ma numer i nazwę, na przykład 1 Żółty.",
+      "Dotknij kolor w legendzie, a potem dotknij pola, które chcesz nim wypełnić.",
+      "Użyj koloru zgodnego z numerem albo dowolnego innego. Obie możliwości są dobre.",
+      "Dotknij \"Wypełnij według numerów\", aby uzupełnić puste pola, \"Wyczyść\", aby zacząć siatkę od nowa, lub \"Inny obrazek\", aby wybrać inny."
+    ],
+    "tips": [
+      "Siedźcie obok siebie i wykonujcie ruchy na zmianę: jedna osoba wybiera kolor, druga dotyka pola.",
+      "Rozmawiajcie o kolorach: \"Podoba mi się zielony\". Nie trzeba mówić, co będzie przedstawiał obrazek.",
+      "Na wąskim ekranie siatka 8 na 8 przewija się w bok w swoim własnym polu. Pola zachowują wygodny rozmiar.",
+      "Wersja papierowa też się sprawdzi: wystarczą kredki przy stoliku przy łóżku."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zegar lub punktacja?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Możesz przerwać w każdej chwili, a przerwanie w połowie to również dobry sposób na zakończenie."
+      },
+      {
+        "q": "Co, jeśli użyję innego koloru niż podany numer?",
+        "a": "Nic się nie stanie i o to właśnie chodzi. Każdy kolor może trafić do każdego pola, a gra nic o tym nie mówi. Gdy każde pole ma kolor zgodny z numerem, gra delikatnie to zaznacza, ale obrazek w Twoich własnych kolorach jest równie dobry."
+      },
+      {
+        "q": "Czy osoby z daltonizmem odróżnią te cztery kolory?",
+        "a": "Wybrano je właśnie po to. Każdy kolor ma też numer, pisemną nazwę i własny mały kształt, więc kolor nigdy nie jest jedynym sposobem ich rozróżnienia. Cztery wypełnienia sprawdzono symulacjami daltonizmu czerwono-zielonego i niebiesko-żółtego, a poza tym różnią się jasnością. Osoby z daltonizmem jeszcze ich nie wypróbowały, więc daj nam znać, jeśli dwa wyglądają podobnie."
+      },
+      {
+        "q": "Czy pola są dość duże dla drżących rąk lub małego ekranu?",
+        "a": "Każde pole ma co najmniej 48 pikseli szerokości, a na siatce 4 na 4 — 56. Jeśli siatka jest za szeroka dla ekranu, przewija się w bok w swoim własnym polu, zamiast zmniejszać pola."
+      },
+      {
+        "q": "Czy jest wersja papierowa?",
+        "a": "Tak. Arkusz na jedną stronę zawiera ponumerowaną siatkę oraz legendę czterech kolorów z ich nazwami. Pokoloruj każde pole kredką w kolorze z jego numerem albo w dowolnym innym kolorze."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, to jest bezpłatne, a konto, rejestracja ani pobieranie nie są potrzebne. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Kreator wzorów",
+    "seoTitle": "Kreator wzorów: zaprojektuj kafelek i wydrukuj wzór",
+    "h1": "Kreator wzorów: zaprojektuj kafelek i zobacz, jak się powtarza",
+    "description": "Zmieniaj pola jednego małego kafelka i patrz, jak powtarza się w sąsiednim wzorze, w czterech kolorach, z których każdy ma nazwę i kształt. Bez zegara i punktów. Gra jest bezpłatna i można ją wydrukować.",
+    "short": "Zmieniaj pola małego kafelka i patrz, jak powtarza się w wzór.",
+    "players": "1 lub 2 osoby, obok siebie",
+    "intro": "Mały kafelek o 3 na 3 pola, albo 4 na 4, jeśli wolisz, a obok niego \"Twój wzór\": ten sam kafelek powtórzony w bloku. Dotknij pola, a zmieni się na kolejny z czterech kolorów, z których każdy ma własną pisemną nazwę i kształt. Wzór obok zmienia się od razu. Nie ma jednego właściwego wzoru i nic nie jest zapisywane ani wysyłane. \"Wydrukuj mój wzór\" umieszcza powtórzony wzór na jednej stronie, którą można zachować, pokolorować lub komuś podarować.",
+    "howTo": [
+      "Spójrz na kafelek i na swój wzór obok. To ten sam kafelek, powtórzony.",
+      "Dotknij pola. Zmieni się na kolejny kolor z rzędu czterech kolorów powyżej.",
+      "Dotykaj pól, aż wzór będzie wyglądał tak, jak chcesz. Każdy wzór jest dobry.",
+      "Dotknij \"Zaskocz mnie\", aby uzyskać nowy kafelek, albo \"Zacznij od nowa\", aby uzyskać pusty. \"Przywróć\" przywraca kafelek, który miałeś wcześniej.",
+      "Dotknij \"Wydrukuj mój wzór\", jeśli chcesz go mieć na papierze, albo dotknij Odpocznij, aby zakończyć."
+    ],
+    "tips": [
+      "Usiądźcie obok siebie i wykonujcie ruchy na zmianę: jedna osoba dotyka kwadratu, a druga mówi, co zauważa.",
+      "Mówcie o tym, co widzicie: „To wygląda jak kwiat”. Nie trzeba niczego nazywać.",
+      "Spróbujcie tego samego kafelka najpierw w dwóch kolorach, a potem we wszystkich czterech.",
+      "Na papierze wzór można pokolorować kredkami, pociąć na paski do kartki albo użyć do zawinięcia małego prezentu."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zegar albo punktacja?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegrywania. Można przerwać w każdej chwili, a przerwanie w połowie to także całkiem dobry sposób na zakończenie."
+      },
+      {
+        "q": "Czy to, co zrobię, jest zapisywane albo wysyłane?",
+        "a": "Nie. Kafelek zostaje tylko na tej stronie. Nie jest zapisywany, wysyłany ani liczony i znika po zamknięciu strony. Jeśli chcecie zachować wzór, wydrukujcie go."
+      },
+      {
+        "q": "Co, jeśli dotknę złego kwadratu albo przypadkiem wyczyszczę kafelek?",
+        "a": "Nie ma złego kwadratu: dotknij go ponownie, aby przejść do następnego koloru. Po „Zacznij od nowa” albo „Zaskocz mnie” przycisk „Przywróć” przywraca kafelek, który był wcześniej."
+      },
+      {
+        "q": "Czy cztery kolory można odróżnić przy daltonizmie?",
+        "a": "Zostały dobrane właśnie tak. Każdy kolor ma też napisaną nazwę i własny mały kształt w każdym kwadracie, więc kolor nigdy nie jest jedynym sposobem ich odróżnienia. Cztery kolory sprawdzono symulacjami daltonizmu czerwono-zielonego i niebiesko-żółtego. Osoby z daltonizmem jeszcze ich nie testowały, więc prosimy o informację, jeśli dwa wyglądają podobnie."
+      },
+      {
+        "q": "Czy kwadraty są wystarczająco duże przy drżeniu rąk lub na małym ekranie?",
+        "a": "Każdy kwadrat ma co najmniej 56 pikseli szerokości. Jeśli kafelek jest za szeroki dla ekranu, przewija się w bok w swoim własnym polu, zamiast zmniejszać kwadraty."
+      },
+      {
+        "q": "Czy jest wersja papierowa?",
+        "a": "Tak. „Wydrukuj mój wzór” drukuje wzór, który stworzyliście, na jednej stronie, z czterema kolorami i ich nazwami. Wydruk czytelnie wygląda także w czerni i bieli, bo każdy kolor ma swój kształt."
+      },
+      {
+        "q": "Czy to jest darmowe i czy trzeba się rejestrować?",
+        "a": "Tak, jest darmowe i nie trzeba zakładać konta, rejestrować się ani niczego pobierać. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Budujcie razem",
+    "seoTitle": "Budujcie razem: dwie osoby tworzą jeden wzór",
+    "h1": "Budujcie razem: dwie osoby, jedna siatka",
+    "description": "Dwie osoby na zmianę wstawiają element do wspólnej siatki, aż będzie pełna. Każda ma własny kolor z nazwą i kształtem. Nikt nie wygrywa, nie ma zegara ani punktacji. Gra jest darmowa, można ją też wydrukować.",
+    "short": "Działajcie na zmianę z kimś obok, by zapełnić jedną wspólną siatkę.",
+    "players": "2 osoby, obok siebie",
+    "intro": "Wspólna siatka 4 na 4 pól, a jeśli wolicie, 3 na 3. Każde z Was wybiera kolor, a każdy kolor ma własną napisaną nazwę i kształt. Działacie na zmianę: w swojej kolejce dotknijcie puste pole, aby położyć tam swój element. Gdy każde pole będzie zajęte, obrazek jest zbudowany razem. Nie ma zwycięzcy, bo tworzycie go we dwoje, a nic nie jest zapisywane ani wysyłane. „Wydrukuj siatkę” umieszcza pustą siatkę na jednej stronie, abyście mogli budować dwiema kredkami.",
+    "howTo": [
+      "Każde z Was wybiera kolor. Kolor, którego używa druga osoba, jest oznaczony jako „W użyciu”.",
+      "Zaczyna pierwsza osoba. Ekran pokazuje, czyja jest kolej i jaki kolor do niej należy.",
+      "Dotknij puste pole, aby położyć tam swój element. Kolej przechodzi na drugą osobę.",
+      "Jeśli nie chcesz kłaść elementu, dotknij „Pas”. Każde z Was może spasować w dowolnym momencie.",
+      "Gdy każde pole będzie zajęte, obrazek jest zbudowany razem. Dotknij „Zacznij od nowa”, aby zbudować kolejny, albo dotknij Odpocznij, aby zakończyć."
+    ],
+    "tips": [
+      "Usiądźcie obok siebie, aby oboje widzieć ekran i do niego sięgać. Rozmawiajcie podczas gry: „Postawię mój obok Twojego”.",
+      "Spróbujcie zbudować wzór: paski, szachownicę albo ramkę, a możecie też po prostu kłaść elementy, gdzie chcecie. Oba sposoby są dobre.",
+      "Dziecko albo osoba, która szybko się męczy, może pasować tak często, jak chce. Obrazek i tak powstaje wspólnie.",
+      "Na papierze każda osoba używa jednej kredki i rysuje swój kształt w pustych kwadratach."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zwycięzca, zegar albo punktacja?",
+        "a": "Nie. Nie ma zwycięzcy, bo budujecie wspólnie jeden obrazek. Nie ma zegara, punktów, liczenia elementów ani przegrywania. Można przerwać w każdej chwili, a przerwanie w połowie to także całkiem dobry sposób na zakończenie."
+      },
+      {
+        "q": "Czy to, co zbudujemy, jest zapisywane albo wysyłane?",
+        "a": "Nie. Siatka zostaje tylko na tej stronie. Nie jest zapisywana, wysyłana ani liczona i znika po zamknięciu strony. Jeśli chcecie ją zachować, wydrukujcie siatkę i budujcie na papierze."
+      },
+      {
+        "q": "Co, jeśli położę element w złym miejscu?",
+        "a": "Nie ma złego miejsca. Dotknij „Cofnij ostatni element”, a kolej wróci do Ciebie. Można cofać po jednym kroku, a także cofnąć pas."
+      },
+      {
+        "q": "Czy cztery kolory można odróżnić przy daltonizmie?",
+        "a": "Zostały dobrane właśnie tak. Każdy kolor ma też napisaną nazwę i własny mały kształt w każdym elemencie, więc kolor nigdy nie jest jedynym sposobem ich odróżnienia. Cztery kolory sprawdzono symulacjami daltonizmu czerwono-zielonego i niebiesko-żółtego. Osoby z daltonizmem jeszcze ich nie testowały, więc prosimy o informację, jeśli dwa wyglądają podobnie."
+      },
+      {
+        "q": "Czy pola są wystarczająco duże przy drżeniu rąk lub na małym ekranie?",
+        "a": "Każde pole ma co najmniej 56 pikseli szerokości. Jeśli siatka jest za szeroka dla ekranu, przewija się w bok w swoim własnym polu, zamiast zmniejszać pola."
+      },
+      {
+        "q": "Czy jest wersja papierowa?",
+        "a": "Tak. „Print the grid” drukuje pustą siatkę na jednej stronie, z dwoma kolorami i ich nazwami, do budowania dwoma ołówkami. Działa w czerni i bieli, bo każdy kolor ma swój własny kształt."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne i nie ma konta, rejestracji ani pobierania. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Lista rzutów na siedząco",
+    "seoTitle": "Lista rzutów na siedząco: gra z workiem fasolowym dla dwojga",
+    "h1": "Lista rzutów na siedząco: rzucajcie razem przy stole",
+    "description": "Dwie osoby przy stole na zmianę rzucają miękkim workiem fasolowym do dużego celu i prowadzą wynik na papierze. Nic nie jest mierzone czasem ani punktowane. Do wydrukowania za darmo.",
+    "short": "Rzucajcie na zmianę workiem fasolowym do dużego celu, a wynik zapisujcie na papierze.",
+    "players": "2 osoby, przy stole",
+    "intro": "Spokojna gra w rzucanie dla dwóch osób siedzących przy stole. Kładziecie wydrukowany cel na stole i na zmianę rzucacie miękkim workiem fasolowym albo zwiniętą skarpetką, tak aby trafić w pierścienie. Każde z was prowadzi wynik, zaznaczając kratki na papierze, a gdy przestaniecie grać, wspólnie patrzycie na zaznaczenia. Nic nie jest mierzone czasem, nic nie jest sumowane na ekranie i nic nie jest zapisywane ani wysyłane. Najpierw przeczytajcie uwagi dotyczące bezpieczeństwa: drobne wypełnienia mogą się zakrztusić.",
+    "howTo": [
+      "Przeczytajcie uwagi dotyczące bezpieczeństwa. Wybierzcie worek z zaszytą pokrywą albo zwińcie czystą skarpetkę.",
+      "Naciśnijcie „Print the target and tally sheet” i połóżcie kartkę płasko na stole między sobą.",
+      "Usiądźcie wygodnie, każde po jednej stronie, i rzucajcie na zmianę, delikatnie, po jednym razie. Każdy może też spasować.",
+      "Gdy rzut wyląduje w pierścieniu, zaznaczcie kratkę w swojej kolumnie, w wierszu tego pierścienia.",
+      "Kiedy przestaniecie grać, spójrzcie razem na zaznaczenia albo naciśnijcie Rest, aby zrobić przerwę."
+    ],
+    "tips": [
+      "Siedźcie tak blisko, aby delikatny rzut zdołał dosięgnąć celu bez sięgania.",
+      "Rozmawiajcie o rzucie, a nie o wyniku: „To był miękki rzut”. Każdemu rzutowi można kibicować.",
+      "Zwinięta skarpetka jest lekka i łatwo ją utrzymać przy słabszym chwycie. Między kolejkami można oprzeć ramię o stół.",
+      "Jeśli ktoś woli patrzeć, może być osobą, która zaznacza kratki."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zegar albo punktacja?",
+        "a": "Nie. Nie ma zegara, wyniku, licznika ruchów ani przegrywania. Możecie przerwać w każdej chwili, a zakończenie w połowie to zupełnie dobry sposób, by skończyć."
+      },
+      {
+        "q": "Czy rzucanie workiem fasolowym jest bezpieczne?",
+        "a": "Może być, przy zachowaniu ostrożności. Używajcie worka z zaszytą pokrywą albo zwiniętej skarpetki, nigdy luźnej fasoli, ryżu ani drobnych wypełnień, które stanowią zagrożenie zakrztuszeniem dla małych dzieci i dla każdego, kto wkłada rzeczy do ust. Siedźcie na miejscu, rzucajcie delikatnie w stronę stołu, nigdy w stronę twarzy, i miejcie w pobliżu dorosłego."
+      },
+      {
+        "q": "Czy na ekranie coś jest liczone albo zapisywane?",
+        "a": "Nie. Wynik istnieje tylko na papierze, w kratkach, które sami zaznaczacie. Strona nie prowadzi żadnego licznika ani zegara, a nic nie jest zapisywane ani wysyłane."
+      },
+      {
+        "q": "Co, jeśli ktoś nie może rzucać albo worek wyląduje poza kartką?",
+        "a": "Każdy może spasować, a worek, który wyląduje poza kartką, po prostu podnosi się do następnej kolejki. Za taki rzut nic nie jest liczone."
+      },
+      {
+        "q": "Co jest na wydrukowanej kartce?",
+        "a": "Jedna strona: duży cel z trzema pierścieniami o nazwach Near, Middle i Far, tabela z kolumną dla każdej osoby i rzędem małych kratek do zaznaczania dla każdego pierścienia oraz wiersz z uwagami dotyczącymi bezpieczeństwa. Nazwy są napisane na pierścieniach, więc działa to w czerni i bieli."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne i nie ma konta, rejestracji ani pobierania. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Kostki opowieści",
+    "seoTitle": "Kostki opowieści: gra w opowiadanie z obrazkami",
+    "h1": "Kostki opowieści: opowiedzcie historię z obrazkami",
+    "description": "Trzy lub cztery kostki z obrazkami, z których można ułożyć opowieść, w dowolnej kolejności. Bez czytania, bez właściwej odpowiedzi, bez zegara i bez punktacji. Losujcie ponownie albo pasujcie. Do gry i wydruku za darmo.",
+    "short": "Rzućcie kostkami z obrazkami i opowiedzcie razem historię, w dowolnej kolejności.",
+    "players": "2 lub więcej osób, albo dorosły z dzieckiem",
+    "intro": "Pokazywane są trzy lub cztery obrazki, jak kostki. Razem wymyślcie historię, która ich użyje, w dowolnej kolejności. Opowieść może mieć jedno zdanie albo kilka i może być zabawna lub zwyczajna. Nie ma jednej właściwej historii i nikt nie musi niczego nazywać ani pamiętać. Naciśnij „Roll again”, aby zobaczyć nowe obrazki, a każdy może pasować.",
+    "howTo": [
+      "Wybierzcie trzy lub cztery kostki. Trzy to najprostsza wersja.",
+      "Spójrzcie razem na obrazki. Naciśnijcie jeden, jeśli chcecie od niego zacząć.",
+      "Opowiadajcie na zmianę historię, która używa obrazków, w dowolnej kolejności. Wystarczy po jednym zdaniu.",
+      "Każdy może pasować. Naciśnij „Pass”, a następna osoba może zacząć.",
+      "Naciśnij „Roll again”, aby zobaczyć nowe obrazki, kiedy chcecie, albo naciśnij Rest, aby przestać."
+    ],
+    "tips": [
+      "Zadajcie pytanie zamiast czekać na odpowiedź: „Dokąd mógł iść ten parasol?”",
+      "Dopowiadajcie to, co powiedziała poprzednia osoba, zamiast to poprawiać. Każda historia się liczy.",
+      "Historia może dotyczyć prawdziwego wspomnienia. Obrazek to dobry początek."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zegar albo punktacja?",
+        "a": "Nie. Nie ma zegara, wyniku, licznika ruchów ani przegrywania. Możecie przerwać w każdej chwili, a zakończenie w połowie to zupełnie dobry sposób, by skończyć."
+      },
+      {
+        "q": "Czy trzeba czytać albo nazywać obrazki?",
+        "a": "Nie. Gra działa same obrazki. Gracze mogą wskazać, opisać albo po prostu powiedzieć, co obrazek im przypomina. Nikt nie jest proszony o nazywanie ani przypominanie czegokolwiek."
+      },
+      {
+        "q": "Co, jeśli ktoś nie chce brać udziału w kolejce?",
+        "a": "Mogą spasować w dowolnym momencie, bez podawania powodu. Gra po prostu czeka, a następna osoba może zacząć albo wy możecie znowu rzucić kostką."
+      },
+      {
+        "q": "Czy jest wersja papierowa?",
+        "a": "Tak. Jednostronicowa kartka ma szesnaście różnych obrazków w czterech rzędach. Wybierzcie jeden rząd albo wytnijcie obrazki i losujcie je ze stosu."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne, nie ma konta, rejestracji ani pobierania. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Sortujmy razem",
-    "seoTitle": "Gra w sortowanie: Wspólne sortowanie dla dorosłych",
+    "seoTitle": "Gra w sortowanie: Sortujcie razem dla dorosłych",
     "h1": "Sortujmy razem: sortowanie obrazków",
-    "description": "Dotknij obrazka, a potem koszyka, do którego pasuje: kuchnia lub ogród, owoce lub zwierzęta. Spokojna, bezpłatna gra w sortowanie dla dorosłych i rodzin.",
+    "description": "Dotknij obrazka, a potem koszyka, do którego pasuje: kuchnia albo ogród, owoce albo zwierzęta. Spokojna, bezpłatna gra w sortowanie dla dorosłych i rodzin.",
     "short": "Włóż każdy obrazek do jego koszyka: kuchnia czy ogród – i nie tylko.",
     "players": "1 lub 2 osoby",
     "intro": "Sortowanie to znana, dająca satysfakcję codzienna czynność – jak rozpakowywanie zakupów czy łączenie skarpet w pary. Dotknij obrazka, a potem koszyka, do którego pasuje. Nie ma pośpiechu ani złych ruchów.",
@@ -150,9 +561,9 @@
   },
   "picture-puzzle": {
     "name": "Układanka obrazkowa",
-    "seoTitle": "Proste puzzle online: 4 lub 9 dużych elementów",
+    "seoTitle": "Łatwe puzzle online: 4 lub 9 dużych elementów",
     "h1": "Układanka obrazkowa: łatwe puzzle",
-    "description": "Proste puzzle online dla dorosłych: 4 lub 9 dużych elementów, cały obrazek pozostaje widoczny, a elementy zamienia się miejscami, dotykając dwóch z nich. Bezpłatne, bez limitu czasu.",
+    "description": "Łatwe puzzle online dla dorosłych: 4 lub 9 dużych elementów, cały obrazek jest widoczny, a dwa elementy zamieniacie, dotykając ich. Bezpłatnie, bez zegara.",
     "short": "Dotykaj po dwa elementy, by zamieniać je miejscami, aż obrazek będzie cały.",
     "players": "1 lub 2 osoby",
     "intro": "Przyjazny obrazek jest pocięty na cztery lub dziewięć dużych elementów i wymieszany. Cały obrazek pozostaje widoczny jako wzór. Dotknij jednego elementu, potem drugiego, a zamienią się miejscami. Nie trzeba niczego przeciągać.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Dokończ przysłowie",
-    "seoTitle": "Dokończ przysłowie: Gra ze znanymi powiedzeniami",
+    "seoTitle": "Dokończ przysłowie: gra w znane przysłowia",
     "h1": "Dokończ przysłowie",
     "description": "Znane polskie przysłowia bez ostatniego słowa, np. „Lepiej późno niż ___”. Dotknij odpowiedzi lub pokaż zakończenie, a potem porozmawiajcie.",
     "short": "Kończcie razem znane przysłowia, a potem o nich porozmawiajcie.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Wykreślanka z dużymi literami",
-    "seoTitle": "Wykreślanka z dużym drukiem, bezpłatna i do druku",
+    "seoTitle": "Wykreślanka dużym drukiem, bezpłatna i do wydruku",
     "h1": "Wykreślanka z dużymi literami",
-    "description": "Bezpłatna wykreślanka z dużym drukiem dla osób starszych i rodzin. Niewiele słów, duże litery, wyrazy ułożone tylko poziomo i pionowo. Graj online lub wydrukuj.",
+    "description": "Bezpłatna wykreślanka dużym drukiem dla starszych osób i rodzin. Mało słów, duże litery, tylko w poziomie i w pionie. Grajcie online albo wydrukujcie.",
     "short": "Duże litery, kilka słów, tylko poziomo i pionowo. Także do wydruku.",
     "players": "1 lub 2 osoby",
     "intro": "Mała siatka z dużymi literami i tylko kilkoma słowami – wszystkie czyta się poziomo lub pionowo. Dotknij pierwszej litery słowa, a potem ostatniej. Wolisz papier? Wydrukuj nową wykreślankę jednym dotknięciem.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Karty do rozmowy",
-    "seoTitle": "Tematy do rozmów: Karty obrazkowe dla rodzin",
+    "seoTitle": "Pytania do rozmowy: karty z obrazkami dla rodzin",
     "h1": "Karty do rozmowy",
-    "description": "Karty obrazkowe ze spokojnymi tematami do rozmowy dla rodzin, przyjaciół i osób starszych, w tym osób żyjących z demencją. Bez odpytywania i bez jedynych poprawnych odpowiedzi.",
+    "description": "Karty z obrazkami i łagodnymi pytaniami do rozmowy dla rodzin, przyjaciół i starszych osób, w tym dla osób żyjących z demencją. Bez testowania, bez dobrych odpowiedzi.",
     "short": "Karty obrazkowe z otwartymi, łagodnymi pytaniami. Bez odpytywania.",
     "players": "2 osoby lub grupa",
     "intro": "Każda karta łączy znajomy obrazek z otwartym zaproszeniem do rozmowy, np. „Jaką pogodę lubisz najbardziej?”. Nie ma tu dobrych ani złych odpowiedzi i niczego nie trzeba pamiętać. Wybierz temat albo przetasuj wszystkie karty.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Bingo obrazkowe",
-    "seoTitle": "Obrazkowe bingo do druku dla grup",
+    "seoTitle": "Bingo z obrazkami do wydruku dla grup",
     "h1": "Bingo obrazkowe dla grup",
-    "description": "Bezpłatne obrazkowe bingo do druku dla rodzin, grup seniorów i domów opieki. Duże obrazki z podpisami, plansze z 9 lub 16 polami oraz czytelne losowanie na ekranie.",
+    "description": "Bezpłatne bingo z obrazkami do wydruku dla rodzin, grup seniorów i domów opieki. Duże obrazki z podpisami, 9 lub 16 pól i duży prowadzący na ekranie.",
     "short": "Karty bingo z obrazkami do druku i losowanie na dużym ekranie dla grup.",
     "players": "Grupa od 2 do 30 osób",
     "intro": "Klasyczne bingo z obrazkami zamiast liczb, więc nikt nie musi czytać drobnego druku. Wydrukuj zestaw niepowtarzalnych kart, a potem w losowaniu na ekranie pokazuj każdy obrazek w dużym formacie na telewizorze, laptopie lub tablecie.",
@@ -394,7 +805,7 @@
   },
   "calm-breathing": {
     "name": "Spokojny oddech",
-    "seoTitle": "Chwila spokojnego oddechu do spędzenia razem",
+    "seoTitle": "Spokojna chwila oddechu, którą można dzielić",
     "h1": "Chwila spokojnego oddechu",
     "description": "Powolna, cicha chwila oddechu we dwoje: łagodne koło rośnie i maleje przez sześć oddechów. To Ty je uruchamiasz i możesz przerwać w każdej chwili.",
     "short": "Powolne koło, z którym można oddychać. Start i stop, kiedy chcesz.",
@@ -423,6 +834,45 @@
       {
         "q": "Czy gra jest bezpłatna i czy trzeba się rejestrować?",
         "a": "Tak, jest bezpłatna i nie wymaga konta, rejestracji ani pobierania. Działa w przeglądarce na telefonie, tablecie lub komputerze."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Łańcuch opowieści",
+    "seoTitle": "Łańcuch opowieści: wspólna gra w opowiadanie obrazkami",
+    "h1": "Łańcuch opowieści: opowiadajcie historię jeden obrazek naraz",
+    "description": "Rząd obrazków rośnie po jednym, a każda osoba mówi na głos jedno zdanie o nim. Nic nie trzeba pisać, nie ma dobrej odpowiedzi. Bezpłatnie, spokojnie, bez zegara i bez punktów.",
+    "short": "Dodajcie obrazek, a potem każdy mówi po jednym zdaniu, po kolei.",
+    "players": "2 lub więcej osób",
+    "intro": "Gra zaczyna się od jednego obrazka, a łańcuch rośnie o kolejne obrazki. Każda osoba po kolei mówi na głos jedno zdanie o dotychczasowym łańcuchu. Zdanie może dotyczyć tego, co widać, miejsca, które przypomina się w myślach, albo czegoś zabawnego. Nic nie jest wpisywane, nagrywane ani zapisywane, nie ma dobrej odpowiedzi, a każdy może spasować. Łańcuch kończy się na ośmiu obrazkach, a potem można zacząć nowy.",
+    "howTo": [
+      "Obejrzyjcie razem pierwszy obrazek.",
+      "Mówcie po kolei: każda osoba mówi jedno zdanie o dotychczasowym łańcuchu. Każdy może spasować.",
+      "Dotknij „Dodaj obrazek”, aby dołożyć następny obrazek na koniec łańcucha.",
+      "Dotknij „Usuń ostatni”, jeśli wolicie cofnąć się o jeden obrazek.",
+      "Gdy łańcuch ma osiem obrazków, dotknij „Zacznij nowy łańcuch”, aby zacząć od nowa, albo po prostu przestańcie."
+    ],
+    "tips": [
+      "Krótkie zdanie wystarczy: „Ktoś nastawił czajnik.” Następna osoba mówi dalej albo pasuje.",
+      "Pozwólcie, by obrazki prowadziły. Nie ma historii, do której trzeba dojść.",
+      "Przerwijcie, kiedy chcecie. Przerwanie w połowie to całkiem dobry sposób na zakończenie."
+    ],
+    "faq": [
+      {
+        "q": "Czy jest zegar albo punktacja?",
+        "a": "Nie. Nie ma zegara, punktów, licznika ruchów ani przegranej. Można przerwać w każdej chwili, a przerwanie w połowie to całkiem dobry sposób na zakończenie."
+      },
+      {
+        "q": "Czy cokolwiek jest wpisywane albo nagrywane?",
+        "a": "Nie. Zdania są wypowiadane na głos i nie są wpisywane, nagrywane ani nigdzie wysyłane. Gra pokazuje tylko obrazki."
+      },
+      {
+        "q": "Co, jeśli ktoś nie chce nic mówić?",
+        "a": "Każdy może spasować, a następna osoba mówi dalej. Nikt nie musi nazywać ani pamiętać obrazka."
+      },
+      {
+        "q": "Czy to jest bezpłatne i czy trzeba się rejestrować?",
+        "a": "Tak, jest bezpłatne, nie ma konta, rejestracji ani pobierania. Działa w przeglądarce internetowej na telefonie, tablecie lub komputerze."
       }
     ]
   }

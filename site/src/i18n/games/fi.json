@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Kuvaparit",
-    "seoTitle": "Kuvaparipeli muistisairaille: Kuvaparit",
+    "seoTitle": "Muistipeli aikuisille: kuvaparit",
     "h1": "Kuvaparit: rauhallinen parien etsintäpeli",
-    "description": "Ilmainen, rauhallinen parien etsintäpeli dementiaa sairastaville. Isot kuvat pysyvät näkyvissä, ajastinta tai pisteitä ei ole, ja valitsette 4–12 ruutua.",
+    "description": "Ilmainen, rauhallinen muistipeli aikuisille ja ikääntyneille, myös dementiaa sairastaville. Kuvat voivat jäädä näkyviin. Ei ajanottoa eikä pisteitä.",
     "short": "Etsikää kaksi samanlaista kuvaa. Kuvat voivat pysyä näkyvissä.",
     "players": "1 tai 2 henkilöä vierekkäin",
     "intro": "Napauttakaa kuvaa ja sitten sitä, joka sopii sen pariksi. Kuvat pysyvät oletuksena näkyvissä, joten mitään ei tarvitse muistaa. Kun kaksi kuvaa kuuluu yhteen, ne saavat kultaisen kehyksen ja valintamerkin.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Etsi samanlainen",
-    "seoTitle": "Etsi samanlainen kuva: yksinkertainen peli muistisairaille",
+    "seoTitle": "Etsi sama kuva: yksinkertainen kuvapeli",
     "h1": "Etsi samanlainen kuva",
-    "description": "Yksi kuva ylhäällä, kaksi–neljä alla. Napauttakaa samanlaista. Rauhallinen, ilmainen kuvapeli dementiaa sairastaville, ilman ajastinta.",
+    "description": "Yksi kuva ylhäällä, kaksi–neljä alla. Napauta sitä, joka on sama. Rauhallinen, ilmainen kuvapeli aikuisille, ikääntyneille ja perheille, ilman ajanottoa.",
     "short": "Katsokaa ylhäällä olevaa kuvaa ja napauttakaa samanlaista alta.",
     "players": "1 tai 2 henkilöä",
     "intro": "Näytön yläreunassa on yksi kuva. Sen alla on kaksi, kolme tai neljä kuvaa. Napauttakaa samanlaista. Kerrallaan on yksi yksinkertainen valinta ja runsaasti tilaa jutella.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Varjoparit",
-    "seoTitle": "Varjopeli muistisairaille: ilmainen verkossa",
+    "seoTitle": "Varjon sovittaminen: ilmainen verkkopeli aikuisille",
     "h1": "Varjoparit: rauhallinen kuvapeli",
-    "description": "Tumma varjo ylhäällä, kaksi–neljä kuvaa alla. Napauttakaa kuvaa, joka tekee varjon. Ilmainen, rauhallinen varjopeli dementiaa sairastaville, ilman ajastinta.",
+    "description": "Tumma varjo ylhäällä, kaksi–neljä kuvaa alla. Napauta kuvaa, joka muodostaa varjon. Ilmainen, rauhallinen varjopeli ilman ajanottoa.",
     "short": "Katsokaa varjoa ja napauttakaa kuvaa, joka sen tekee.",
     "players": "1 tai 2 henkilöä",
     "intro": "Varjojen yhdistäminen on tuttu toiminta tulostettavista tehtävistä, tässä isoilla kuvilla ja ilman tulostamista. Pehmeä varjo on näytön yläreunassa, ja kaksi, kolme tai neljä kuvaa odottaa alla. Napauttakaa sitä, joka tekee varjon. Muodoista, kuten polkupyörästä, sateenvarjosta tai teekupista, on helppo jutella.",
@@ -100,8 +100,8 @@
         "a": "Ei. Kelloa, pisteitä, siirtolaskuria tai häviämistä ei ole. Voitte lopettaa milloin tahansa, ja puolivälissä lopettaminen on aivan hyvä tapa päättää."
       },
       {
-        "q": "Sopiiko varjojen yhdistäminen dementiaa sairastaville?",
-        "a": "Se voi olla joillekin miellyttävä, yksinkertainen toiminta, erityisesti aiemmissa vaiheissa. Muodot on helpompi tunnistaa kuin sanat. Se on tarkoitettu virkistykseen ja keskusteluun, ei testiksi, eikä se hoida tai hidasta dementiaa. Jos se aiheuttaa turhautumista, kokeilkaa Etsi samanlainen tai katselkaa kuvia vain yhdessä."
+        "q": "Voivatko dementiaa sairastavat nauttia varjopelistä?",
+        "a": "Monet aikuiset pitävät siitä, myös osa dementiaa sairastavista, usein varhaisemmissa vaiheissa. Muotoja on helpompi tunnistaa kuin sanoja. Peli on tarkoitettu nautintoon ja keskusteluun, ei koetukseksi, eikä se hoida dementiaa tai hidasta sen etenemistä. Jos peli aiheuttaa turhautumista, kokeile Etsi sama kuva -peliä tai katsele yhdessä kuvia."
       },
       {
         "q": "Mitä tapahtuu, jos napautetaan väärää kuvaa?",
@@ -113,11 +113,422 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Neljä yhdessä",
+    "seoTitle": "Kuvien ryhmittelypeli aikuisille: Neljä yhdessä",
+    "h1": "Neljä yhdessä: rauhallinen kuvien ryhmittelypeli",
+    "description": "Osalla kuvista on yhteinen teema, kuten hedelmät tai sää. Napauta ne, jotka kuuluvat yhteen. Ilmainen, rauhallinen ryhmittelypeli ilman ajanottoa ja pisteitä.",
+    "short": "Etsi kuvat, jotka kuuluvat yhteen, kuten hedelmät tai sää.",
+    "players": "1 tai 2 henkilöä",
+    "intro": "Pieni joukko kuvia, joista osa kuuluu yhteen: ehkä neljä hedelmälajia tai neljä tapaa matkustaa. Napauta kuvat, jotka kuuluvat samaan teemaan. Jos kuva kuuluu johonkin muuhun ryhmään, peli kertoo sen ja odottaa. Hetken hiljaisuuden jälkeen vihje nimeää teeman, ja \"Näytä ryhmä\" paljastaa vastauksen milloin tahansa.",
+    "howTo": [
+      "Valitse neljä, kuusi tai kahdeksan kuvaa. Neljä on helpoin vaihtoehto, ja siinä on kolme yhteen kuuluvaa kuvaa.",
+      "Katsokaa kuvia yhdessä ja puhukaa siitä, mitä ne ovat yhteistä.",
+      "Napauta jokaista kuvaa, joka kuuluu ryhmään. Siihen tulee kultainen reunus ja valintamerkki.",
+      "Jos kuva kuuluu johonkin muuhun, peli kertoo sen ja odottaa. Ota aikaa.",
+      "Napauta \"Näytä ryhmä\" milloin tahansa ja sitten \"Toinen sarja\" uusille kuville."
+    ],
+    "tips": [
+      "Sano ääneen, mitä huomaat: \"Nämä kaksi ovat molemmat syötävää.\"",
+      "Kiirettä ei ole. Teemaa nimeävä vihje ilmestyy hetken kuluttua, ja sen voi jättää huomiotta.",
+      "Kun ryhmä on löytynyt, puhukaa siitä: lempihedelmästä, junamatkasta tai tämänpäiväisestä säästä."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajanottoa tai pisteitä?",
+        "a": "Ei. Pelissä ei ole kelloa, pisteitä, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Mitä tapahtuu, jos ryhmän ulkopuolinen kuva napautetaan?",
+        "a": "Ei mitään ikävää. Ei summeria, punaista ristiä eikä tärinää. Peli nimeää kuvan, kertoo sen kuuluvan johonkin muuhun ryhmään ja odottaa seuraavaa napautusta."
+      },
+      {
+        "q": "Mitkä ovat ryhmät?",
+        "a": "Arkisia teemoja, joihin ei tarvita erityistietoa: hedelmät, eläimet, kukat, sää, matkustustavat, kuumien juomien kanssa nautittavat asiat ja uunissa leivottavat asiat. Jokainen kuva kuuluu vain yhteen ryhmään."
+      },
+      {
+        "q": "Onko peli ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, peli on ilmainen, eikä siihen tarvita tunnusta, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Joukon erikoinen",
+    "seoTitle": "Joukon erikoinen: rauhallinen kuvapeli aikuisille",
+    "h1": "Joukon erikoinen: rauhallinen kuvapeli",
+    "description": "Kolme tai neljä kuvaa, ja kaikki paitsi yksi kuuluvat samaan teemaan, kuten hedelmät tai sää. Napauta se, joka ei kuulu joukkoon. Ilmainen, rauhallinen peli ilman ajanottoa ja pisteitä.",
+    "short": "Etsi kuva, joka ei kuulu muiden joukkoon.",
+    "players": "1 tai 2 henkilöä",
+    "intro": "Kolme tai neljä kuvaa, ja kaikki paitsi yksi kuuluvat yhteen: ehkä hedelmät tai tavat matkustaa. Napauta kuva, joka ei kuulu joukkoon. Jos kuva kuuluukin muiden joukkoon, peli sanoo sen ja odottaa. Hetken hiljaisuuden jälkeen vihje nimeää, mitä muut kuvat yhdistää, ja \"Näytä minulle\" osoittaa erikoisen kuvan milloin tahansa.",
+    "howTo": [
+      "Valitse kolme tai neljä kuvaa. Kolme on helpoin vaihtoehto.",
+      "Katsokaa kuvia yhdessä ja puhukaa siitä, mitä useimmilla niistä on yhteistä.",
+      "Napauta kuvaa, joka ei kuulu joukkoon. Siihen tulee kultainen reunus ja valintamerkki.",
+      "Jos kuva kuuluu muiden joukkoon, peli sanoo sen ja odottaa. Ota aikaa.",
+      "Napauta \"Näytä minulle\" milloin tahansa ja sitten \"Toinen sarja\" uusille kuville."
+    ],
+    "tips": [
+      "Puhukaa asia läpi ääneen: \"Omena ja päärynä ovat molemmat hedelmiä. Entä bussi?\"",
+      "Kiirettä ei ole. Teemaa nimeävä vihje ilmestyy hetken kuluttua, ja sen voi jättää huomiotta.",
+      "Mikä tahansa kuva sopii hyväksi keskustelun alkuun: lempihedelmä, bussimatka tai sateinen päivä."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajanottoa tai pisteitä?",
+        "a": "Ei. Pelissä ei ole kelloa, pisteitä, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Mitä tapahtuu, jos kuva, joka kuuluu joukkoon, napautetaan?",
+        "a": "Ei mitään ikävää. Ei summeria, punaista ristiä eikä tärinää. Peli nimeää kuvan, kertoo sen kuuluvan muiden joukkoon ja odottaa seuraavaa napautusta."
+      },
+      {
+        "q": "Miten erikoinen kuva valitaan?",
+        "a": "Kuvat tulevat arkisista teemoista, joihin ei tarvita erityistietoa: hedelmät, eläimet, kukat, sää, matkustustavat, kuumien juomien kanssa nautittavat asiat ja uunissa leivottavat asiat. Jokainen kuva kuuluu vain yhteen teemaan, ja erikoinen kuva tulee aina eri teemasta."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse luoda tiliä, rekisteröityä tai ladata mitään. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Värien sovitus",
+    "seoTitle": "Värien sovitus: rauhallinen kuvapeli",
+    "h1": "Värien sovitus: etsi saman värisiä kuvia",
+    "description": "Iso värikenttä nimineen sekä neljä tai kuusi kuvaa. Napauta jokaista kuvaa, jonka väri on sama. Ei ajanottoa eikä pisteitä, ja toinen väri vain nimetään. Pelin voi pelata ja tulostaa ilmaiseksi.",
+    "short": "Etsi kaikki kuvat, joiden väri on sama kuin näytetyn värin.",
+    "players": "1 tai 2 henkilöä, tai aikuinen ja lapsi",
+    "intro": "Näytössä on iso värikenttä, jonka nimi on kirjoitettu sen viereen, ja sen alla on neljä tai kuusi kuvaa. Napauta jokaista kuvaa, jonka väri on sama, esimerkiksi punainen omena ja punainen kuppi. Jos kuvan väri on toinen, peli kertoo sen nimen (\"Päärynä on vihreä.\") ja odottaa. \"Näytä ne\" osoittaa milloin tahansa sovittavat kuvat, ja \"Toinen väri\" siirtää eteenpäin.",
+    "howTo": [
+      "Valitse neljä tai kuusi kuvaa. Neljä on helpoin.",
+      "Katsokaa väriä ja lukekaa sen nimi yhdessä.",
+      "Napauta jokaista kuvaa, jonka väri on sama. Jokainen saa paksun reunan ja valintamerkin.",
+      "Jos kuvan väri on toinen, peli kertoo sen värin ja odottaa. Ota aikaa.",
+      "Napauta \"Näytä ne\" milloin tahansa ja sitten \"Toinen väri\" uudelle värille."
+    ],
+    "tips": [
+      "Sanokaa väri ääneen ja katsokaa sitten ympärillenne huoneessa: mikä muu on samanvärinen?",
+      "Käytä omia sanojasi, jos haluat. \"Tomaatti\" tai \"taivas\" on yhtä hyvä kuin \"punainen\" tai \"sininen\".",
+      "Osoittaminen toimii yhtä hyvin kuin napauttaminen. Istukaa vierekkäin, jotta molemmat näette näytön."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajanotto tai pisteitä?",
+        "a": "Ei. Kelloa, pisteitä, siirtolaskuria tai häviämistä ei ole. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Mitä tapahtuu, jos napautetaan toisen värin kuvaa?",
+        "a": "Ei mitään ikävää. Ei summeria, punaista ristiä eikä tärinää. Peli nimeää kuvan ja sen värin, esimerkiksi \"Päärynä on vihreä.\", ja odottaa seuraavaa napautusta."
+      },
+      {
+        "q": "Onko väri ainoa vihje?",
+        "a": "Ei. Väri näytetään isona värikenttänä ja kirjoitettuna sanana, ja jokainen kuva nimetään, kun sitä napautetaan. Joku, jonka on vaikea erottaa värejä, voi silti pelata lukemalla nimen."
+      },
+      {
+        "q": "Onko jokainen kuva todella tuon värinen?",
+        "a": "Kuvat valitaan käsin, ja mukaan otetaan vain sellaiset, joissa pääkohde on selvästi yhtä väriä. Monivärisiä kuvia, kuten leijaa tai mehiläistä, ei oteta mukaan."
+      },
+      {
+        "q": "Onko peliä myös paperiversiona?",
+        "a": "Kyllä. Yksisivuisessa arkissa on neljä riviä. Jokainen rivi nimeää värin ja näyttää neljä kuvaa, joihin voi osoittaa tai jotka voi rengastaa."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse luoda tiliä, rekisteröityä tai ladata mitään. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Puolikkaiden yhdistäminen",
+    "seoTitle": "Puolikkaiden yhdistäminen: rauhallinen kuvapeli",
+    "h1": "Puolikkaiden yhdistäminen: yhdistä kuvan kaksi puolta",
+    "description": "Kahden tai kolmen kuvan vasemmat puolikkaat toisella puolella ja oikeat puolikkaat toisella. Napauta puolikas ja sen jälkeen sopiva puolikas. Ei ajanottoa eikä pisteitä, ja yhteen kuulumattomat puolikkaat vain erottuvat. Pelin voi pelata ja tulostaa ilmaiseksi.",
+    "short": "Napauta kahta puolikasta, jotka sopivat yhteen ja muodostavat yhden kuvan.",
+    "players": "1 tai 2 henkilöä, tai aikuinen ja lapsi",
+    "intro": "Jokainen kuva on leikattu keskeltä kahtia. Kahden tai kolmen kuvan vasemmat puolikkaat ovat yhdessä sarakkeessa ja niiden oikeat puolikkaat eri järjestyksessä toisessa. Napauta vasemmalla olevaa puolikasta ja sen jälkeen oikealla olevaa sopivaa puolikasta, esimerkiksi kattilan nokka ja sen kahva. Sopivat puolikkaat yhdistyvät kokonaiseksi kuvaksi. Yhteen kuulumattomat puolikkaat erottuvat taas, ja peli kertoo sen hellästi. \"Näytä minulle\" yhdistää ne kaikki.",
+    "howTo": [
+      "Valitse kaksi tai kolme kuvaa. Kaksi on helpoin.",
+      "Katsokaa vasemman puolen puolikkaita yhdessä. Mitä kukin niistä mielestänne on osa?",
+      "Napauta vasemmalla olevaa puolikasta ja sen jälkeen oikealla olevaa sopivaa puolikasta. Toimii myös toisin päin.",
+      "Sopivat puolikkaat yhdistyvät paksulla reunalla ja valintamerkillä. Yhteen kuulumattomat puolikkaat erottuvat taas, ja voitte kokeilla toista.",
+      "Napauta \"Näytä minulle\" milloin tahansa ja sitten \"Toinen sarja\" uusille kuville."
+    ],
+    "tips": [
+      "Seuraa puolikkaan reunaa sormella. Missä kohdassa piirros ulottuu keskilinjalle?",
+      "Sano, mitä näet: \"Tuossa on kahva.\" Kaikkia kuvia ei tarvitse nimetä.",
+      "Osoittaminen toimii yhtä hyvin kuin napauttaminen. Istukaa vierekkäin, jotta molemmat näette näytön."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajanotto tai pisteitä?",
+        "a": "Ei. Kelloa, pisteitä, siirtolaskuria tai häviämistä ei ole. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Mitä tapahtuu, jos kaksi puolikasta eivät sovi yhteen?",
+        "a": "Ei mitään ikävää. Ei summeria, punaista ristiä eikä tärinää. Kaksi puolikasta erottuvat taas, ja peli sanoo: \"Nuo kaksi eivät sovi yhteen. Kokeile toista.\" Mitään ei lasketa."
+      },
+      {
+        "q": "Ovatko kuvat helppoja erottaa toisistaan?",
+        "a": "Kyllä. Kuvat valitaan käsin, eikä samalla laudalla ole koskaan kahta kuvaa samasta ryhmästä, kuten kahta hedelmää tai kahta eläintä. Kuvat, joiden kaksi puolikasta näyttävät samanlaisilta, kuten aurinko tai sateenkaari, jätetään pois."
+      },
+      {
+        "q": "Onko peliä myös paperiversiona?",
+        "a": "Kyllä. Yhdellä sivulla on kolmen kuvan vasemmat puolikkaat yhdessä sarakkeessa ja niiden oikeat puolikkaat toisessa sarakkeessa eri järjestyksessä. Vedä viiva jokaisesta vasemmasta puolikkaasta siihen puolikkaaseen, joka sopii siihen."
+      },
+      {
+        "q": "Onko tämä ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä siihen tarvita tunnusta, rekisteröitymistä eikä latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Värit numeroiden mukaan",
+    "seoTitle": "Värit numeroiden mukaan: rauhallinen väripeli suurella tekstillä",
+    "h1": "Värit numeroiden mukaan: täytä ruudut haluamallasi värillä",
+    "description": "Ruudukko suuria numeroituja ruutuja ja selite neljästä väristä nimineen. Valitse väri ja napauta ruutuja täyttääksesi ne. Mikä tahansa väri käy, ei ajastinta eikä pisteitä, ja painike täyttää loput numeroiden mukaan. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Valitse väri ja napauta numeroituja ruutuja täyttääksesi ne.",
+    "players": "1 tai 2 henkilöä vierekkäin",
+    "intro": "Neliönmuotoinen ruudukko suuria ruutuja, joissakin numero, ja sen yläpuolella selite, jossa on neljä väriä numeroineen ja kirjoitettuine nimineen. Valitse väri selitteestä ja napauta ruutuja täyttääksesi ne. Ruudukko on aluksi 4 x 4, ja jos haluat enemmän ruutuja, voit valita 6 x 6 tai 8 x 8. Kun jokaisessa ruudussa on sen numeroa vastaava väri, ruudukko on arkin kuva. Muilla väreillä täytetyt ruudut ovat vain oma kuvasi, eikä peli kommentoi niitä. \"Täytä numeroiden mukaan\" täyttää puolestasi kaikki tyhjät ruudut.",
+    "howTo": [
+      "Valitse ruudukon koko. 4 x 4 on suurimmilla ruuduilla ja yksinkertaisin.",
+      "Katso ruudukon yläpuolella olevaa selitettä. Jokaisella värillä on numero ja nimi, esimerkiksi 1 Keltainen.",
+      "Napauta väriä selitteessä ja napauta sitten ruutuja, jotka haluat täyttää sillä.",
+      "Käytä numeron mukaista väriä tai mitä tahansa muuta väriä. Molemmat käyvät.",
+      "Napauta \"Täytä numeroiden mukaan\" täyttääksesi tyhjät ruudut, \"Tyhjennä\" aloittaaksesi ruudukon alusta tai \"Toinen kuva\" saadaksesi toisen kuvan."
+    ],
+    "tips": [
+      "Istukaa vierekkäin ja vuorotelkaa: toinen valitsee värin, toinen napauttaa ruutua.",
+      "Puhukaa väreistä: \"Minusta tuo vihreä on kaunis.\" Kuvan aihetta ei tarvitse nimetä.",
+      "Kapealla näytöllä 8 x 8 -ruudukko vierittyy sivusuunnassa omassa laatikossaan. Ruudut pysyvät mukavan kokoisina.",
+      "Paperiversio toimii myös hyvin kynillä vaikkapa sängyn vieressä olevassa pöydässä."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajastinta tai pisteitä?",
+        "a": "Ei. Kellosta, pisteistä, siirtolaskurista tai häviämisestä ei ole kyse. Voit lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa lopettaa."
+      },
+      {
+        "q": "Entä jos käytän numeroa vastaavasta väristä poikkeavaa väriä?",
+        "a": "Mitään ei tapahdu, ja juuri siinä on ideana. Mikä tahansa väri käy mihin tahansa ruutuun, eikä peli kommentoi sitä. Kun jokaisessa ruudussa on sen numeroa vastaava väri, peli kertoo siitä hienotunteisesti, mutta oman väri­valintasi kuva on yhtä hyvä."
+      },
+      {
+        "q": "Voivatko värisokeat erottaa neljä väriä toisistaan?",
+        "a": "Värit on valittu niin, että voivat. Jokaisella värillä on myös numero, kirjoitettu nimi ja oma pieni muotonsa, joten väri ei ole ainoa tapa erottaa niitä. Neljä täyttöväriä tarkistettiin punavihersokeuden ja sinikeltasokeuden simulaatioilla, ja ne eroavat myös vaaleudeltaan. Värisokea henkilö ei ole vielä kokeillut niitä, joten kerro meille, jos kaksi näyttää samanlaiselta."
+      },
+      {
+        "q": "Ovatko ruudut tarpeeksi isoja vapisevalle kädelle tai pienelle näytölle?",
+        "a": "Jokainen ruutu on vähintään 48 pikseliä leveä, ja 4 x 4 -ruudukossa 56 pikseliä. Jos ruudukko on liian leveä näytölle, se vierittyy sivusuunnassa omassa laatikossaan eikä ruutuja pienennetä."
+      },
+      {
+        "q": "Onko paperiversio?",
+        "a": "On. Yhdellä sivulla on numeroitu ruudukko ja selite neljästä väristä nimineen. Värittäkää kukin ruutu kynällä, jonka väri vastaa ruudun numeroa, tai millä tahansa muulla värillä."
+      },
+      {
+        "q": "Onko tämä ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä siihen tarvita tunnusta, rekisteröitymistä eikä latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Kuviogeneraattori",
+    "seoTitle": "Kuviogeneraattori: suunnittele laatta ja tulosta kuvio",
+    "h1": "Kuviogeneraattori: suunnittele laatta ja katso sen toistuvan",
+    "description": "Muuta pienen laatan ruutuja ja katso, miten se toistuu viereiseksi kuvioksi neljällä värillä, joilla kullakin on nimi ja muoto. Ei ajastinta eikä pisteitä. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Muuta pienen laatan ruutuja ja katso, miten se toistuu kuvioksi.",
+    "players": "1 tai 2 henkilöä vierekkäin",
+    "intro": "Pieni 3 x 3 ruudun laatta tai halutessasi 4 x 4 ruudun laatta, ja sen vieressä \"sinun kuviosi\": sama laatta toistettuna lohkona. Napauta ruutua, ja se vaihtuu seuraavaan neljästä väristä, joilla kullakin on oma kirjoitettu nimi ja muoto. Viereinen kuvio muuttuu heti. Oikeaa kuviota ei ole, eikä mitään tallenneta tai lähetetä. \"Tulosta kuvioni\" tulostaa toistuvan kuvion yhdelle sivulle, jotta voit säilyttää sen, värittää sen tai antaa sen pois.",
+    "howTo": [
+      "Katso laattaa ja sen vieressä olevaa kuviotasi. Ne ovat sama laatta, toistettuna.",
+      "Napauta ruutua. Se vaihtuu seuraavaan väriin ylärivin neljän värin joukossa.",
+      "Napauta ruutuja, kunnes kuvio on mieleisesi. Mikä tahansa kuvio on hyvä.",
+      "Napauta \"Yllätä minut\" saadaksesi uuden laatan tai \"Aloita alusta\" tyhjän laatan. \"Palauta\" tuo takaisin laatan, jonka sinulla oli.",
+      "Napauta \"Tulosta kuvioni\", jos haluat sen paperille, tai napauta Lepo lopettaaksesi."
+    ],
+    "tips": [
+      "Istukaa vierekkäin ja vuorotelkaa: toinen napauttaa ruutua, toinen kertoo, mitä huomaa.",
+      "Puhukaa siitä, mitä näette: ”Tämä näyttää kukalta.” Mitään ei tarvitse nimetä.",
+      "Kokeilkaa samaa laattaa vain kahdella värillä, ja sitten kaikilla neljällä.",
+      "Paperille kuvion voi värittää kynillä, leikata raidoiksi korttiin tai käyttää pienen lahjan kääreenä."
+    ],
+    "faq": [
+      {
+        "q": "Onko siinä ajastinta tai pisteitä?",
+        "a": "Ei. Siinä ei ole kelloa, pisteitä, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö tekemäni mitään?",
+        "a": "Ei. Laattasi pysyy vain tällä sivulla. Sitä ei tallenneta, ladata eikä lasketa, ja se katoaa, kun suljette sivun. Jos haluatte säilyttää kuvion, tulostakaa se."
+      },
+      {
+        "q": "Entä jos napautan vahingossa väärää ruutua tai tyhjennän laatan?",
+        "a": "Väärää ruutua ei ole: napauttakaa sitä uudelleen, niin siirrytte seuraavaan väriin. Kun olette painaneet ”Aloita alusta” tai ”Yllätä minut”, ”Palauta” tuo takaisin laatan, joka teillä oli."
+      },
+      {
+        "q": "Voivatko värisokeat erottaa neljä väriä toisistaan?",
+        "a": "Värit valittiin juuri siksi. Jokaisella värillä on myös kirjoitettu nimi ja oma pieni muotonsa jokaisessa ruudussa, joten väri ei ole ainoa tapa erottaa niitä. Neljä väriä tarkistettiin punavihreän ja sinikeltaisen värisokeuden simulaatioilla. Värisokea henkilö ei ole vielä kokeillut niitä, joten kertokaa meille, jos kaksi näyttää samanlaiselta."
+      },
+      {
+        "q": "Ovatko ruudut tarpeeksi isoja vapinaan tai pienelle näytölle?",
+        "a": "Jokainen ruutu on vähintään 56 pikseliä leveä. Jos laatta on näyttöön nähden liian leveä, se vierii sivusuunnassa omassa laatikossaan sen sijaan, että ruudut kutistuisivat."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Kyllä. ”Tulosta kuvio” tulostaa tekemänne kuvion yhdelle sivulle neljine väreineen ja nimineen. Se toimii myös mustavalkoisena, koska jokaisella värillä on oma muotonsa."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä siihen tarvitse tunnusta, rekisteröitymistä eikä latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Rakennetaan yhdessä",
+    "seoTitle": "Rakennetaan yhdessä: kaksi ihmistä rakentaa yhden kuvion",
+    "h1": "Rakennetaan yhdessä: kaksi ihmistä, yksi ruudukko",
+    "description": "Kaksi ihmistä vuorottelee laittamaan palan yhteiseen ruudukkoon, kunnes se on täynnä. Kummallakin on oma väri, jolla on nimi ja muoto. Kukaan ei voita, eikä peliin kuulu ajastinta tai pisteitä. Peli on ilmainen, ja sen voi tulostaa.",
+    "short": "Vuorotelkaa vierellä istuvan kanssa, ja täyttäkää yksi yhteinen ruudukko.",
+    "players": "2 ihmistä, vierekkäin",
+    "intro": "Yhteinen ruudukko on 4 x 4 paikkaa, tai 3 x 3, jos niin haluatte. Kumpikin valitsee värin, ja jokaisella värillä on oma kirjoitettu nimi ja muoto. Vuorotelkaa: omalla vuorollanne napauttakaa tyhjää paikkaa, jolloin palanen asettuu siihen. Kun jokaisessa paikassa on palanen, kuva on rakennettu yhdessä. Voittajaa ei ole, koska kuva tehdään parina, eikä mitään tallenneta tai lähetetä. ”Tulosta ruudukko” tulostaa tyhjän ruudukon yhdelle sivulle, jotta voitte rakentaa kahdella kynällä.",
+    "howTo": [
+      "Kumpikin valitsee värin. Toisen valitsema väri on merkitty ”Käytössä”.",
+      "Ensimmäinen pelaaja aloittaa. Näytössä lukee, kenen vuoro on ja mikä väri on kenellekin.",
+      "Napauttakaa tyhjää paikkaa, jotta palanen asettuu siihen. Vuoro siirtyy toiselle.",
+      "Jos ette halua asettaa palasta, napauttakaa ”Ohita”. Kumpi tahansa teistä voi ohittaa milloin tahansa.",
+      "Kun jokaisessa paikassa on palanen, olette rakentaneet kuvan yhdessä. Napauttakaa ”Aloita alusta” rakentaaksenne uuden, tai napauttakaa ”Tauko”, jos haluatte lopettaa."
+    ],
+    "tips": [
+      "Istukaa vierekkäin, jotta molemmat näette ja ulotutte näyttöön. Puhukaa samalla: ”Laitan omani viereesi.”",
+      "Yrittäkää rakentaa kuvio, raidat, shakkiruutu tai reunus, tai asettakaa palasia miten haluatte. Kumpikin sopii.",
+      "Lapsi tai nopeasti väsyvä voi ohittaa niin usein kuin haluaa. Kuva rakennetaan silti yhdessä.",
+      "Paperilla kumpikin käyttää yhtä kynää ja piirtää oman muotonsa tyhjiin ruutuihin."
+    ],
+    "faq": [
+      {
+        "q": "Onko siinä voittajaa, ajastinta tai pisteitä?",
+        "a": "Ei. Voittajaa ei ole, koska rakennatte yhden kuvan yhdessä. Siinä ei ole kelloa, pisteitä, palasten laskentaa eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on ihan hyvä tapa lopettaa."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö tekemäämme mitään?",
+        "a": "Ei. Ruudukko pysyy vain tällä sivulla. Sitä ei tallenneta, ladata eikä lasketa, ja se katoaa, kun suljette sivun. Jos haluatte säilyttää sen, tulostakaa ruudukko ja rakentakaa paperilla."
+      },
+      {
+        "q": "Entä jos laitan palasen väärään paikkaan?",
+        "a": "Väärää paikkaa ei ole. Napauttakaa ”Peruuta viimeinen palanen”, ja vuoro palaa teille. Voitte peruuttaa yhden askeleen kerrallaan, ja myös ohituksen voi peruuttaa."
+      },
+      {
+        "q": "Voivatko värisokeat erottaa neljä väriä toisistaan?",
+        "a": "Värit valittiin juuri siksi. Jokaisella värillä on myös kirjoitettu nimi ja oma pieni muotonsa jokaisessa palasessa, joten väri ei ole ainoa tapa erottaa niitä. Neljä väriä tarkistettiin punavihreän ja sinikeltaisen värisokeuden simulaatioilla. Värisokea henkilö ei ole vielä kokeillut niitä, joten kertokaa meille, jos kaksi näyttää samanlaiselta."
+      },
+      {
+        "q": "Ovatko paikat tarpeeksi isoja vapinaan tai pienelle näytölle?",
+        "a": "Jokainen paikka on vähintään 56 pikseliä leveä. Jos ruudukko on näyttöön nähden liian leveä, se vierii sivusuunnassa omassa laatikossaan sen sijaan, että paikat kutistuisivat."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Kyllä. ”Tulosta ruudukko” tulostaa yhdelle sivulle tyhjän ruudukon sen kahden värin ja niiden nimien kanssa, jotta voitte rakentaa kahdella kynällä. Se toimii myös mustavalkoisena, koska jokaisella värillä on oma muotonsa."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö minun rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse luoda tiliä, rekisteröityä tai ladata mitään. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Istuen heitto: merkintälista",
+    "seoTitle": "Istuen heitto: merkintälista, papupussipeli kahdelle",
+    "h1": "Istuen heitto: heitelkää yhdessä pöydän ääressä",
+    "description": "Kaksi ihmistä istuu pöydän ääressä ja heittää vuorotellen pehmeää papupussia suureen maaliin. Pisteet merkitään paperille. Mitään ei ajoiteta eikä pisteytetä. Tulostaminen on ilmaista.",
+    "short": "Heittäkää vuorotellen papupussia suureen maaliin ja merkitkää tulokset paperille.",
+    "players": "2 henkilöä, pöydän ääressä",
+    "intro": "Rauhallinen heittopeli kahdelle pöydän ääressä istuvalle. Asetatte tulostetun maalin pöydälle ja heitätte vuorotellen pehmeää papupussia tai kääritty sukkaa niin, että se osuu renkaisiin. Kumpikin merkitsee pisteet ruksimalla ruutuja paperilla, ja katsotte ruksit yhdessä, kun lopetatte. Mitään ei ajoiteta, ruudulla ei lasketa mitään, eikä mitään tallenneta tai lähetetä. Lue ensin turvaohjeet, sillä pienet täytteet ovat tukehtumisvaara.",
+    "howTo": [
+      "Lue turvaohjeet. Valitse pussi, jonka kansi on ommeltu umpeen, tai kääri puhdas sukka rullalle.",
+      "Napauta ”Tulosta maali ja merkintälomake” ja aseta lomake tasaiseksi pöydälle teidän väliin.",
+      "Istukaa mukavasti, toinen kummallakin puolella, ja vuorotelkaa. Jokainen heittää kerran rauhallisesti. Kuka tahansa voi ohittaa vuoronsa.",
+      "Kun heitto osuu renkaaseen, ruksi ruutu omassa sarakkeessasi sen renkaan rivillä.",
+      "Katsokaa ruksit yhdessä, kun lopetatte, tai napauta ”Lepo” pysäyttääksesi pelin."
+    ],
+    "tips": [
+      "Istukaa niin lähellä, että rauhallinen alakautta heitto ylettyy maaliin ilman venymistä.",
+      "Puhukaa heitosta, ei tuloksesta: ”Tuo oli pehmeä heitto.” Jokaista heittoa kannustetaan.",
+      "Kääritty sukka on kevyt ja helppo pitää kiinni, vaikka ote olisi heikko. Voit lepuuttaa kättä pöydällä vuorojen välissä.",
+      "Jos joku mieluummin katselee, hän voi olla se, joka ruksii ruudut."
+    ],
+    "faq": [
+      {
+        "q": "Onko mukana ajanottoa tai pisteitä?",
+        "a": "Ei. Ei ole kelloa, pistelaskua, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa päättää peli."
+      },
+      {
+        "q": "Onko papupussin heittäminen turvallista?",
+        "a": "Voi olla, kun toimitaan huolellisesti. Käytä pussia, jonka kansi on ommeltu umpeen, tai kääritty sukkaa. Älä koskaan käytä irtonaisia papuja, riisiä tai pieniä täytteitä, jotka ovat tukehtumisvaara pienille lapsille ja kaikille, jotka laittavat esineitä suuhunsa. Istu paikallasi, heitä varovasti kohti pöytää äläkä koskaan kohti kasvoja, ja pidä aikuinen lähellä."
+      },
+      {
+        "q": "Lasketaanko tai tallennetaanko ruudulle mitään?",
+        "a": "Ei. Pisteet ovat vain paperilla, ruuduissa, jotka te itse ruksitte. Sivu ei pidä kirjaa pisteistä eikä ajasta, eikä mitään tallenneta tai lähetetä."
+      },
+      {
+        "q": "Entä jos joku ei pysty heittämään tai pussi osuu lomakkeen ulkopuolelle?",
+        "a": "Kuka tahansa voi ohittaa vuoronsa, ja lomakkeen ulkopuolelle osunut pussi nostetaan yksinkertaisesti seuraavaa vuoroa varten. Sitä ei lasketa."
+      },
+      {
+        "q": "Mitä tulostetulla sivulla on?",
+        "a": "Yksi sivu: suuri maali, jonka kolme rengasta on nimetty Lähellä, Keskellä ja Kaukana, taulukko, jossa on sarake jokaiselle henkilölle, sekä rivi pieniä ruutuja, joihin ruksitaan kunkin renkaan kohdalta. Sivulla on myös rivi turvaohjeita. Nimet on kirjoitettu renkaisiin, joten se toimii mustavalkoisena."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö minun rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse luoda tiliä, rekisteröityä tai ladata mitään. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Tarinanoppa",
+    "seoTitle": "Tarinanoppa: kuvitarinapeli",
+    "h1": "Tarinanoppa: kerro tarina kuvien avulla",
+    "description": "Kolme tai neljä kuvanoppaa, joilla kerrotaan tarina missä järjestyksessä tahansa. Ei lukemista, ei oikeaa vastausta, ei ajanottoa eikä pisteitä. Heitä uudelleen tai ohita. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Heittäkää kuvanoppia ja kertokaa yhdessä tarina missä järjestyksessä tahansa.",
+    "players": "2 tai useampi henkilö, tai aikuinen ja lapsi",
+    "intro": "Näytetään kolme tai neljä kuvaa noppien tavoin. Keksikää yhdessä tarina, joka käyttää kuvia missä järjestyksessä tahansa. Tarina voi olla yksi lause tai muutama, ja se voi olla hassu tai arkinen. Oikeaa tarinaa ei ole, eikä kenenkään tarvitse nimetä tai muistaa mitään. Napauta ”Heitä uudelleen” saadaksesi uusia kuvia, ja kuka tahansa voi ohittaa vuoronsa.",
+    "howTo": [
+      "Valitse kolme tai neljä noppaa. Kolme on helpoin.",
+      "Katsokaa kuvia yhdessä. Napauta yhtä, jos haluat aloittaa siitä.",
+      "Kertokaa vuorotellen tarina, joka käyttää kuvia missä järjestyksessä tahansa. Yksi lause kummaltakin riittää.",
+      "Kuka tahansa voi ohittaa vuoronsa. Napauta ”Ohita”, ja seuraava henkilö voi aloittaa.",
+      "Napauta ”Heitä uudelleen” saadaksesi uusia kuvia milloin tahansa, tai napauta ”Lepo” lopettaaksesi."
+    ],
+    "tips": [
+      "Kysy kysymys sen sijaan, että odottaisit vastausta: ”Minne sateenvarjo mahtaa olla menossa?”",
+      "Jatka edellisen henkilön kertomusta sen sijaan, että korjaisit sitä. Mikä tahansa tarina käy.",
+      "Tarina voi kertoa todellisesta muistosta. Kuva on hyvä alku sellaiselle."
+    ],
+    "faq": [
+      {
+        "q": "Onko mukana ajanottoa tai pisteitä?",
+        "a": "Ei. Ei ole kelloa, pistelaskua, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa päättää peli."
+      },
+      {
+        "q": "Pitääkö kuvat lukea tai nimetä?",
+        "a": "Ei. Peli toimii pelkillä kuvilla. Pelaajat voivat osoittaa, kuvailla tai yksinkertaisesti sanoa, mitä kuva heille muistuttaa. Kenenkään ei tarvitse nimetä tai muistaa mitään."
+      },
+      {
+        "q": "Entä jos joku ei halua ottaa vuoroa?",
+        "a": "Ne voivat passata vuoronsa milloin tahansa ilman selitystä. Peli vain odottaa, ja seuraava henkilö voi aloittaa tai te voitte heittää uudelleen."
+      },
+      {
+        "q": "Onko paperiversiota?",
+        "a": "On. Yhdellä sivulla on kuusitoista erilaista kuvaa neljässä rivissä. Valitse rivi, tai leikkaa kuvat irti ja nosta niitä pinosta."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse tunnusta, rekisteröitymistä tai latausta. Se toimii selaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Lajitelkaa yhdessä",
-    "seoTitle": "Lajittelupeli muistisairaille: Lajitelkaa yhdessä",
+    "seoTitle": "Lajittelupeli: lajitelkaa yhdessä aikuisille",
     "h1": "Lajitelkaa yhdessä: kuvien lajittelutoiminta",
-    "description": "Napauttakaa kuvaa ja sitten koria, johon se kuuluu: keittiö vai puutarha, hedelmät vai eläimet. Rauhallinen, ilmainen lajittelutoiminta dementiaa sairastaville.",
+    "description": "Napauta kuvaa ja sen jälkeen koria, johon se kuuluu: keittiö tai puutarha, hedelmä tai eläin. Rauhallinen, ilmainen lajittelupeli aikuisille ja perheille.",
     "short": "Laittakaa jokainen kuva koriinsa: keittiö vai puutarha ja muuta.",
     "players": "1 tai 2 henkilöä",
     "intro": "Lajittelu on tuttu, tyydyttävä arkinen tehtävä, kuten ruokaostosten järjestäminen tai sukkien parittaminen. Napauttakaa kuvaa ja sitten koria, johon se kuuluu. Kiirettä ei ole, eikä väärää käännöstä.",
@@ -150,9 +561,9 @@
   },
   "picture-puzzle": {
     "name": "Kuvapalapeli",
-    "seoTitle": "Helppo palapeli muistisairaille: 4 tai 9 palaa",
+    "seoTitle": "Helppo verkkopalapeli: 4 tai 9 isoa palaa",
     "h1": "Kuvapalapeli: helppo palapeli",
-    "description": "Helppo verkkopalapeli dementiaa sairastaville: 4 tai 9 isoa palaa, koko kuva pysyy näkyvissä, ja napautatte kahta palaa vaihtaaksenne ne keskenään.",
+    "description": "Helppo verkkopalapeli aikuisille: 4 tai 9 isoa palaa, koko kuva näkyy koko ajan, ja kahden palan vaihtamiseksi napautat niitä. Ilmainen, ei ajastinta.",
     "short": "Napauttakaa kahta palaa vaihtaaksenne ne, kunnes kuva on kokonainen.",
     "players": "1 tai 2 henkilöä",
     "intro": "Ystävällinen kuva on leikattu neljään tai yhdeksään isoon palaan ja sekoitettu. Koko kuva pysyy näkyvissä apuna. Napauttakaa yhtä palaa ja sitten toista, niin ne vaihtavat paikkaa. Vetämistä ei tarvita.",
@@ -185,7 +596,7 @@
   },
   "finish-the-saying": {
     "name": "Päätä sanonta",
-    "seoTitle": "Päätä sanonta: sananlaskupeli ikäihmisille",
+    "seoTitle": "Täydennä sanonta: tuttujen sanontojen peli",
     "h1": "Päätä sanonta",
     "description": "Tuttuja suomalaisia sanontoja, joista viimeinen sana puuttuu, kuten ”Hätä keinot ___”. Napauttakaa vaihtoehtoa tai näyttäkää loppu ja jutelkaa siitä.",
     "short": "Päättäkää tuttuja sanontoja yhdessä ja jutelkaa niistä.",
@@ -219,9 +630,9 @@
   },
   "word-search": {
     "name": "Isokokoinen sanahaku",
-    "seoTitle": "Isokokoinen sanahaku muistisairaille, tulostettava",
+    "seoTitle": "Isokirjoitussanaetsintä, ilmainen ja tulostettava",
     "h1": "Isokokoinen sanahaku",
-    "description": "Ilmainen isokokoinen sanahaku ikäihmisille ja dementiaa sairastaville. Vähän sanoja, isot kirjaimet, vain vaaka- ja pystysuunta. Pelatkaa tai tulostakaa.",
+    "description": "Ilmainen isokirjoitussanaetsintä ikääntyneille aikuisille ja perheille. Vähän sanoja, isot kirjaimet, sanat vain vaakasuunnassa ja pystysuunnassa. Pelaa verkossa tai tulosta.",
     "short": "Isot kirjaimet, muutama sana, vain vaaka- ja pystysuunnassa. Voitte myös tulostaa.",
     "players": "1 tai 2 henkilöä",
     "intro": "Pieni ruudukko isoilla kirjaimilla ja vain muutama sana, jotka kaikki luetaan vaaka- tai pystysuunnassa. Napauttakaa sanan ensimmäistä kirjainta ja sitten sen viimeistä kirjainta. Pidättekö paperista? Tulostakaa uusi tehtävä yhdellä napautuksella.",
@@ -254,7 +665,7 @@
   },
   "coloring": {
     "name": "Värityskuvat",
-    "seoTitle": "Värityskuvat dementiaa sairastaville aikuisille (ilmaiset)",
+    "seoTitle": "Ilmaisia värityskuvia aikuisille, isoja ja yksinkertaisia",
     "h1": "Värityskuvat",
     "description": "Yksinkertaisia värityskuvia isoilla alueilla: napauttakaa väriä ja sitten kuvaa. Ei vääriä värejä, ja jokaisen sivun voi tulostaa ilmaiseksi.",
     "short": "Napauttakaa väriä ja sitten kuvan osaa. Voitte myös tulostaa sivuja.",
@@ -289,9 +700,9 @@
   },
   "conversation-cards": {
     "name": "Keskustelukortit",
-    "seoTitle": "Keskustelun aloituksia muistisairaille: kuvakortit",
+    "seoTitle": "Keskustelunavaajat: kuvakortit perheille",
     "h1": "Keskustelukortit",
-    "description": "Kuvakortteja lempeine keskustelun aloituksineen dementiaa sairastaville: ei tenttaamista, ei oikeita vastauksia. Käyttäkää ruudulla tai tulostakaa koko sarja.",
+    "description": "Kuvakortit, joissa on hellävaraisia keskustelunavauksia perheille, ystäville ja ikääntyneille aikuisille, myös muistisairaiden ihmisten kanssa. Ei kyselyä, ei oikeita vastauksia.",
     "short": "Kuvakortteja avoimin, lempein kysymyksin. Ei tenttaamista.",
     "players": "2 henkilöä tai ryhmä",
     "intro": "Jokaisella kortilla on tuttu kuva ja avoin kutsu keskusteluun, kuten ”Millainen sää on lempisäänne?” Oikeita vastauksia ei ole, eikä mitään tarvitse muistaa. Valitkaa teema tai sekoittakaa kaikki.",
@@ -358,9 +769,9 @@
   },
   "picture-bingo": {
     "name": "Kuvabingo",
-    "seoTitle": "Kuvabingo muistisairaille ikäihmisille: tulostettava",
+    "seoTitle": "Tulostettava kuvabingo ryhmille",
     "h1": "Kuvabingo ryhmille",
-    "description": "Ilmainen tulostettava kuvabingo ikäihmisten ryhmille, isolla ruudulla näkyvällä kutsujalla. Isoja kuvia sanoineen, 9 tai 16 ruutua, lukemista ei tarvita.",
+    "description": "Ilmainen tulostettava kuvabingo perheille, ikääntyneiden ryhmille ja hoivakodeille. Isot kuvat ja sanat, 9 tai 16 ruutua ja suuri näytöllä oleva juontaja.",
     "short": "Tulostettavat kuvabingokortit ja isonäytön kutsuja ryhmille.",
     "players": "2–30 hengen ryhmä",
     "intro": "Perinteinen bingo kuvilla numeroiden sijaan, joten kenenkään ei tarvitse lukea pientä tekstiä. Tulostakaa sarja ainutlaatuisia kortteja ja näyttäkää kutsujalla jokainen kuva isosti televisiossa, kannettavalla tai tabletilla.",
@@ -394,7 +805,7 @@
   },
   "calm-breathing": {
     "name": "Rauhallinen hengitys",
-    "seoTitle": "Rauhallinen hengitystauko ikäihmisille ja läheisille",
+    "seoTitle": "Rauhallinen hengityshetki yhdessä",
     "h1": "Rauhallinen hengitystauko",
     "description": "Hidas, hiljainen hengitystauko jaettavaksi: lempeä ympyrä kasvaa ja pienenee kuuden hengityksen ajan. Te aloitatte sen, ja voitte lopettaa milloin tahansa.",
     "short": "Hidas ympyrä, jonka mukana hengittää. Aloittakaa ja lopettakaa, kun haluatte.",
@@ -423,6 +834,45 @@
       {
         "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
         "a": "Kyllä, se on ilmainen, eikä tiliä, rekisteröitymistä tai lataamista tarvita. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Tarinaketju",
+    "seoTitle": "Tarinaketju: yhteinen kuvatarinapeli",
+    "h1": "Tarinaketju: kerro tarina yksi kuva kerrallaan",
+    "description": "Kuvarivi kasvaa yksi kuva kerrallaan, ja jokainen sanoo siitä ääneen yhden lauseen. Ei tarvitse kirjoittaa, eikä ole oikeaa vastausta. Ilmainen, rauhallinen, ilman ajastinta ja pisteitä.",
+    "short": "Lisää kuva, ja sano sitten vuorotellen yksi lause.",
+    "players": "2 tai useampi henkilö",
+    "intro": "Peli alkaa yhdellä kuvalla, ja ketjua kasvatetaan yksi kuva kerrallaan. Jokainen sanoo vuorollaan ääneen yhden lauseen siitä, mitä ketjussa on tähän asti. Lause voi koskea siihen, mitä näet, paikkaa, johon kuva vie mielen, tai jotain hassua. Mitään ei kirjoiteta, tallenneta eikä talleteta, ei ole oikeaa vastausta, ja jokainen saa ohittaa vuoronsa. Ketju pysähtyy kahdeksaan kuvaan, ja sen jälkeen voi aloittaa uuden.",
+    "howTo": [
+      "Katsokaa ensimmäistä kuvaa yhdessä.",
+      "Vuorotelkaa: jokainen sanoo yhden lauseen siitä, mitä ketjussa on tähän asti. Jokainen saa ohittaa.",
+      "Napauta \"Lisää kuva\", niin seuraava kuva tulee ketjun loppuun.",
+      "Napauta \"Poista viimeinen\", jos haluat palata yhden kuvan taaksepäin.",
+      "Kun ketjussa on kahdeksan kuvaa, napauta \"Aloita uusi ketju\" saadaksesi uuden tai lopeta vain."
+    ],
+    "tips": [
+      "Lyhyt riittää: \"Joku laittoi vesikattilan päälle.\" Seuraava henkilö jatkaa tai ohittaa.",
+      "Anna kuvien johtaa. Ei ole mitään tarinaa, johon teidän pitää päätyä.",
+      "Lopeta milloin haluat. Kesken jättäminen on täysin hyvä tapa päättää."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajastinta tai pisteitä?",
+        "a": "Ei. Ei ole kelloa, pistelaskua, siirtolaskuria eikä häviämistä. Voit lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa päättää."
+      },
+      {
+        "q": "Kirjoitetaanko tai tallennetaanko mitään?",
+        "a": "Ei. Lauseet sanotaan ääneen, eikä niitä kirjoiteta, tallenneta tai lähetetä minnekään. Peli näyttää vain kuvat."
+      },
+      {
+        "q": "Entä jos joku ei halua sanoa mitään?",
+        "a": "Jokainen saa ohittaa, ja seuraava henkilö jatkaa. Kenenkään ei tarvitse nimetä tai muistaa kuvaa."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvitse tunnusta, rekisteröitymistä tai latausta. Se toimii selaimessa puhelimella, tabletilla tai tietokoneella."
       }
     ]
   }

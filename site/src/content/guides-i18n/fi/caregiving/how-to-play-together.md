@@ -1,34 +1,35 @@
 ---
-title: "Miten pelaatte pelejä dementiaa sairastavan kanssa"
-description: "Käytännön opas pelaamiseen dementiaa sairastavan kanssa: valmistelu, tahdin säätäminen, virheiden korjaamatta jättäminen, helpottaminen ja se, milloin lopettaa."
+title: "Miten pelata pelejä muistisairaan läheisenne kanssa"
+description: "Käytännön opas pelaamiseen muistisairaan läheisenne kanssa: valmistelu, tahti, virheiden korjaamatta jättäminen, helpottaminen ja lopettamisen hetki."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Ajatelkaa peliä yhdessä vietettynä aikana, ei koetilanteena. Valitkaa päivästä rauhallinen hetki,
-  istukaa vierekkäin hiljaisessa huoneessa ja tarjotkaa yksi yksinkertainen peli. Antakaa ihmisen
-  määrätä tahti, älkää korjatko vaarattomia virheitä, helpottakaa peliä heti, kun näette rasitusta,
-  ja muuttakaa kuvat keskusteluksi. Lopettakaa, kun peli vielä tuntuu hyvältä. Lopettaminen aikaisin
-  tai yhdessä katsominen on hyvä lopputulos.
+  Pidä peliä yhdessäolon hetkenä, ei koetilanteena. Valitse rauhallinen
+  vuorokaudenaika, istukaa vierekkäin hiljaisessa huoneessa ja tarjoa yksi
+  yksinkertainen peli. Anna ihmisen päättää tahdista, älä korjaa vaarattomia
+  virheitä, helpota peliä heti, kun rasitus alkaa näkyä, ja muuta kuvat
+  keskusteluksi. Lopeta, kun peli vielä tuntuu hyvältä. Aikaisin lopettaminen
+  tai pelkkä yhdessä katselu on hyvä lopputulos.
 keyPoints:
-  - "Tavoite on nautinto ja yhteys, ei tehtävän suorittaminen eikä oikeiden vastausten antaminen."
-  - "Valmistelkaa ensin: hiljainen huone, hyvä valo, silmälasit ja kuulokojeet päällä, televisio pois ja yksi peli valmiina."
-  - "Älkää korjatko vaarattomia virheitä. Sanokaa ”Kokeillaan tätä tapaa” tai jatkakaa vain."
-  - "Helpottakaa peliä ennen kuin turhautuminen kasvaa: vähemmän kuvia, vähemmän valintoja, kuvat pidetään näkyvillä."
-  - "Käyttäkää kuvia keskustelun lähtökohtana kysymyksellä ”Kertokaa minulle…” kysymyksen ”Muistatteko…?” sijaan."
-  - "Lopettakaa heti, kun näette väsymystä tai mielipahaa. Aikaisin lopettaminen on onnistuminen, ei epäonnistuminen."
+  - "Tavoite on nautinto ja yhteys, ei tehtävän loppuun saattaminen tai oikeiden vastausten antaminen."
+  - "Valmistele ensin: hiljainen huone, hyvä valo, silmälasit ja kuulokojeet päällä, televisio pois, yksi peli valmiina."
+  - "Älä korjaa vaarattomia virheitä. Sano ”Kokeillaan näin” tai jatka vain eteenpäin."
+  - "Helpota peliä ennen kuin turhautuminen kasvaa: vähemmän kuvia, vähemmän vaihtoehtoja, kuvat jätetään näkyviin."
+  - "Käytä kuvia tarinoiden lähtökohtana: ”Kerro minulle...” sen sijaan, että kysyisit ”Muistatko...?”"
+  - "Lopeta ensimmäisten väsymyksen tai ahdistuksen merkkien kohdalla. Varhainen lopettaminen on onnistuminen, ei epäonnistuminen."
 faq:
-  - q: "Kuinka kauan meidän pitäisi pelata yhtä peliä?"
-    a: "Oikeaa pituutta ei ole. Monille ihmisille muutama minuutti riittää, ja joinakin päivinä yksi kierros on tarpeeksi. Seuratkaa ihmistä, älkää kelloa, ja lopettakaa, kun hän vaikuttaa vielä rentoutuneelta."
-  - q: "Pitäisikö antaa hänen voittaa tai teeskennellä, ettei huomaa virheitä?"
-    a: "Yhteisessä, painottomassa pelissä ei ole voitettavaa eikä hävittävää. Jos virhe ei häiritse ihmistä, antakaa sen olla. Jos se näyttää häiritsevän, auttakaa hiljaa tai helpottakaa peliä huomauttamatta siitä."
+  - q: "Kuinka pitkään peliä kannattaa pelata?"
+    a: "Oikeaa pituutta ei ole. Monelle riittää muutama minuutti, ja joinakin päivinä yksikin kierros on tarpeeksi. Seuraa ihmistä, älä kelloa, ja lopeta silloin, kun hän vaikuttaa vielä rentoutuneelta."
+  - q: "Pitäisikö antaa voittaa tai teeskennellä, ettei huomaa virheitä?"
+    a: "Yhteisessä, paineettomassa pelissä ei ole voitettavaa eikä hävittävää. Jos virhe ei häiritse ihmistä, anna sen olla. Jos se näyttää häiritsevän, auta hiljaa tai helpota peliä huomauttamatta virheestä."
   - q: "Entä jos hän mieluummin katsoo, kun minä pelaan?"
-    a: "Se on hyvä. Yhdysvaltain National Institute on Aging ehdottaa, että ihmisen annetaan vain katsoa, jos hän näyttää nauttivan siitä enemmän. Puhukaa siitä, mitä näette, ja kutsukaa hänet osoittamaan tai valitsemaan aina, kun hän haluaa."
-  - q: "Ovatko nämä pelit tapa testata muistia?"
-    a: "Eivät. Pelimme ovat yksinkertaisia yhteisiä toimintoja nautintoa ja keskustelua varten. Ne eivät ole muistitesti, eivätkä ne mittaa mitään eivätkä ole hoitoa dementiaan."
+    a: "Se on hyvä. National Institute on Aging (NIA) ehdottaa, että ihmisen annetaan vain katsella, jos hän näyttää nauttivan siitä enemmän. Puhukaa siitä, mitä näette, ja kutsukaa hänet osoittamaan tai valitsemaan aina halutessaan."
+  - q: "Onko näillä peleillä tarkoitus testata muistia?"
+    a: "Ei. Pelimme ovat yksinkertaisia yhteisiä toimintoja nautintoa ja keskustelua varten. Ne eivät ole muistitesti, eivät mittaa mitään eivätkä ole dementian hoitoa."
   - q: "Mikä peli kannattaa aloittaa?"
-    a: "Aloittakaa yksinkertaisimmasta, joka sopii ihmiselle. Valokuvaparit neljällä ruudulla ja näkyvillä olevilla kuvilla tai Etsi samanlainen kahdella vaihtoehdolla ovat lempeitä alkuja. Keskustelukortit toimivat hyvin, jos ihminen pitää puhumisesta enemmän kuin napauttamisesta."
+    a: "Aloita yksinkertaisimmasta, joka sopii ihmiselle. Kuvaparit neljällä laatalla ja kuvat jätettynä näkyviin tai Etsi sama kahdella valinnalla ovat hellävaraisia aloituksia. Keskustelukortit sopivat hyvin, jos ihminen pitää puhumisesta enemmän kuin napauttamisesta."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,145 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Hyvä peli dementiaa sairastavan kanssa ei näytä kilpailulta. Se näyttää kahdelta ihmiseltä, jotka istuvat lähekkäin,
-osoittavat kuvia, nauravat sanonnalle ja puhuvat siitä, mitä tuleekin mieleen. Peli on vain syy viettää aikaa yhdessä.
+Hyvä peli muistisairaan läheisen kanssa ei näytä kilpailulta. Se näyttää siltä, että kaksi ihmistä istuu lähekkäin, osoittelee kuvia, nauraa sanonnalle ja juttelee siitä, mitä mieleen tulee. Peli on vain syy viettää aikaa yhdessä.
 
-Tämä opas kertoo, miten valmistaudutte, miten tahdin voi säätää, mitä sanoa, kun jokin ”menee pieleen”, miten minkä tahansa
-pelin voi tehdä helpommaksi tai hieman vaikeammaksi, miten pelistä saa keskustelun ja milloin on aika lopettaa. Se sopii
-[peleillemme](/games/) sekä kortteihin, palapeleihin ja lautapeleihin, jotka teillä jo on.
+Tämä opas kertoo, miten valmistautua, miten pelin tahti määräytyy, mitä sanoa, kun jokin menee ”pieleen”, miten mitä tahansa peliä voi helpottaa tai hieman vaikeuttaa, miten pelistä saa keskustelun ja miten tietää, milloin lopettaa. Se sopii meidän [pelien](/games/) lisäksi myös kortteihin, palapeleihin ja lautapeleihin, joita teillä jo on.
 
-## Mikä on paras tapa pelata dementiaa sairastavan kanssa?
+## Miten muistisairaan läheisen kanssa pelataan parhaiten?
 
-Keskittykää nautintoon, ei suorituksiin. Se on ydinneuvo [Alzheimer-yhdistyksen toimintaohjeista](https://www.alz.org/help-support/caregiving/daily-care/activities):
-rakentakaa sen varaan, mitä ihminen yhä osaa, auttakaa häntä pääsemään alkuun, tehkää vaikeat osat itse, äläkä arvostele tai korjaa vaarattomia toimia.
+Keskity nautintoon, ei suorituksiin. Tämä on ydinneuvo [Alzheimer's Associationin toimintaohjeista](https://www.alz.org/help-support/caregiving/daily-care/activities): rakenna sen varaan, mitä ihmiseltä vielä löytyy, auta hänet alkuun, tee vaikeat osat itse ja älä arvostele tai korjaa vaarattomia toimintoja.
 
 Käytännössä tämä tarkoittaa:
 
-- **Istukaa hänen vierellään, ei vastapäätä.** Vierekkäin molemmat näette näytön tai pöydän, ja auttaminen tuntuu joukkuetyöltä, ei valvonnalta.
-- **Tarjotkaa yksi peli kerrallaan.** Valikko vaihtoehtoja voi tuntua koetilanteelta ennen kuin mitään on alkanut.
-- **Seuratkaa hänen johtoaan.** Jos hän haluaa napauttaa kuvia omassa järjestyksessään, puhua yhdestä kuvasta kymmenen minuuttia tai lopettaa kahden vuoron jälkeen, se on tämän päivän peli.
-- **Laskekaa hyvät hetket, ei valmiit kierrokset.** Hymy, tarina tai rauhallinen puoli tuntia on se lopputulos, jota etsitte.
+- **Istu hänen viereensä, älä vastapäätä.** Vierekkäin voitte molemmat nähdä näytön tai pöydän, ja auttaminen tuntuu yhteistyöltä eikä valvonnalta.
+- **Tarjoa yksi peli kerrallaan.** Valikko vaihtoehtoja voi tuntua koetilanteelta ennen kuin mitään on edes alkanut.
+- **Seuraa hänen johdatustaan.** Jos hän haluaa napauttaa kuvia omassa järjestyksessään, puhua yhdestä kuvasta kymmenen minuuttia tai lopettaa kahden vuoron jälkeen, se on tämän päivän peli.
+- **Laske hyvät hetket, älä valmiita kierroksia.** Hymy, tarina tai rauhallinen puoli tuntia on se tulos, jota kohti pyritään.
 
 ## Miten valmistaudun ennen aloittamista?
 
-Muutama minuutti valmistelua estää suurimman osan turhautumisesta, jonka ihmiset syyttävät pelistä.
+Muutaman minuutin valmistelu estää suurimman osan turhautumisesta, joka usein kohdistuu itse peliin.
 
-1. **Valitkaa hänen paras aikansa päivästä.** [Yhdysvaltain National Institute on Agingin ohjeet toimintojen mukauttamisesta](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease)
-   ehdottavat, että retket ja toiminnat suunnitellaan siihen aikaan päivästä, jolloin ihminen on parhaassa kunnossa. Monille se on aamupäivä. Myöhäinen iltapäivä on usein vaikeampi; katso
-   [rauhalliset myöhäisen iltapäivän toiminnat](/caregiving/late-day-restlessness/).
-2. **Hiljentäkää huone.** Sammuttakaa televisio ja radio ja sulkekaa ovi, jos voitte. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/)
-   suosittelee vähentämään melua ja häiriötekijöitä ennen kuin alatte puhua.
-3. **Tarkistakaa mukavuus ensin.** Juoma lähellä, WC-käynti etukäteen, mukava tuoli sekä silmälasit ja kuulokojeet päällä.
-4. **Valaistkaa tila hyvin.** Kirkas ja tasainen valo ilman heijastuksia näytöllä tekee kuvista helpompia nähdä.
-5. **Valmistelkaa peli ennen istumista.** Avatkaa se, valitkaa asetukset ja säätäkää äänenvoimakkuus itse. Kääntäkää sitten näyttö häneen päin. Tabletin vinkkejä löytyy kohdasta
-   [tabletin tai puhelimen käyttöönotto](/caregiving/tablets-and-screens/).
-6. **Tukekaa laite pystyyn.** Jalusta tai kotelo, joka pitää tabletin pystyssä, tarkoittaa, ettei kenenkään tarvitse pidellä sitä, ja osoittaminen on helpompaa.
+1. **Valitse hänen parhaasta vuorokaudenajastaan.** [National Institute on Aging (NIA):n ohjeissa toiminnan mukauttamisesta](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) ehdotetaan, että retket ja toiminta ajoitetaan vuorokaudenaikaan, jolloin ihminen on parhaimmillaan. Monelle se on aamupäivä. Myöhäinen iltapäivä on usein vaikeampi; katso [rauhalliset iltapäivän toiminnat](/creative-calm/calm-afternoon-activities/).
+2. **Tee tilasta hiljainen.** Sammuta televisio ja radio ja sulje ovi, jos voit. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) suosittelee rajoittamaan melua ja häiriötekijöitä ennen kuin alatte puhua.
+3. **Tarkista mukavuus ensin.** Juoma lähellä, vessakäynti ennen aloitusta, mukava tuoli sekä silmälasit ja kuulokojeet päällä.
+4. **Valaise tila hyvin.** Kirkas, tasainen valo ilman häikäisyä näytöllä tekee kuvista helpommin nähtäviä.
+5. **Valmistele peli ennen istumista.** Avaa se, valitse asetukset ja säädä äänenvoimakkuus itse. Käännä sitten näyttö häntä kohti. Suurenna laitteen tekstikokoa, jos siitä on apua.
+6. **Tue laite pystyasentoon.** Teline tai kotelo, joka pitää tabletin pystyssä, tarkoittaa, ettei kenenkään tarvitse pidellä sitä, ja sitä on helpompi osoittaa.
 
-## Miten kutsun hänet ilman painetta?
+## Miten kutsun pelaamaan ilman painostusta?
 
-Tehkää kutsusta rento ja helppo kieltää. Muutamat lauseet toimivat yleensä hyvin:
+Tee kutsusta rento ja helppo kieltäytyä. Nämä lauseet toimivat yleensä hyvin:
 
-- ”Löysin puutarhakuvia. Katsotaanko niitä yhdessä?”
-- ”Voisitteko auttaa minua tässä palapelissä? Olen jumissa.”
-- ”Haluatteko tänään kukkia vai lintuja?” (kahden vaihtoehdon valinta on helpompi kuin avoin kysymys)
-- ”Teen korttia sisarellesi. Minkä värinen tämän pitäisi olla?”
+- ”Löysin puutarhakuvia. Haluaisitteko katsoa niitä kanssani?”
+- ”Voisitteko auttaa minua tämän palapelin kanssa? Olen jumissa.”
+- ”Haluatteko tänään kukat vai linnut?” (kahden vaihtoehdon valinta on helpompi kuin avoin kysymys)
+- ”Teen korttia sisarellenne. Minkä värinen tämän pitäisi olla?”
 
-Alzheimer-yhdistyksen mukaan toiminnan tarkoituksen selittäminen, kuten kortin tekeminen ystävälle, antaa sille merkityksen. Myös apua pyytäminen toimii,
-koska se antaa ihmiselle tunteen hyödyllisyydestä.
+Alzheimer's Association suosittelee kertomaan toiminnan tarkoituksen, esimerkiksi että teette korttia ystävälle, koska syy antaa toiminnalle merkityksen. Myös apua pyytäminen toimii, koska se antaa ihmiselle tunteen, että hänestä on hyötyä.
 
-Jos hän sanoo ei, hyväksykää se. Yrittäkää myöhemmin uudelleen tai tarjotkaa jotain muuta. Oppaamme
-[mitä tehdä, kun hän sanoo ei](/caregiving/when-they-say-no/) menee pidemmälle.
+Jos hän sanoo ei, hyväksykää se. Yrittäkää myöhemmin uudelleen tai tarjotkaa jotain muuta. Oppaamme [mitä tehdä, kun hän sanoo ei](/caregiving/when-they-say-no/) menee pidemmälle.
 
 ## Kuinka kauan peli kestää ja kuinka nopeasti edetään?
 
-Antakaa ihmisen määrätä tahti ja suunnitelkaa lyhyitä hetkiä. Yhteiselle pelille ei ole näyttöön perustuvaa ihannepituutta. Kaksi–viisi rauhallista minuuttia voi olla kokonainen toiminta.
+Anna ihmisen päättää tahti ja suunnittele lyhyitä kertoja. Yhteisen pelin ideaalipituudesta ei ole näyttöön perustuvaa tietoa. Kahdesta viiteen rauhallisesta minuutista voi riittää kokonaiseen toimintaan.
 
-- **Odottakaa pidempään kuin tuntuu luonnolliselta.** NIA neuvoo antamaan enemmän aikaa vastata ja yrittämään olla keskeyttämättä. Laskekaa päässänne kymmeneen ennen kuin autatte.
-- **Yksi askel kerrallaan.** Antakaa yksi lyhyt ohje (”Napauta kuvaa”) ja odottakaa. Näyttäkää sen sijaan, että selittäisitte: osoittakaa, mihin napauttaa.
-- **Pysähtykää vapaasti.** Jos hän pysähtyy puhumaan kuvasta, peli voi odottaa. Kiirehtimiselle ei ole tarvetta.
-- **Antakaa hänen katsoa.** NIA huomauttaa, että jotkut ihmiset haluavat mieluummin katsoa, ja se on hyväksyttävä valinta.
+- **Odota pidempään kuin tuntuu luontevalta.** NIA neuvoo antamaan ihmiselle enemmän aikaa vastata ja yrittämään olla keskeyttämättä. Laske päässäsi kymmeneen ennen kuin autat.
+- **Yksi askel kerrallaan.** Anna yksi lyhyt ohje (”Napauta yhtä kuvaa”) ja odota. Näytä sen sijaan, että selittäisit: osoita kohta, johon napautetaan.
+- **Pysähdy vapaasti.** Jos hän pysähtyy puhumaan kuvasta, peli voi odottaa. Kiirehtimiseen ei ole tarvetta.
+- **Anna hänen katsoa.** NIA huomauttaa, että jotkut ihmiset haluavat mieluummin katsella, ja se on pätevä valinta.
 
-## Pitäisikö korjata vääriä vastauksia?
+## Pitäisikö minun korjata vääriä vastauksia?
 
-Ei. Lempeä korjaaminen yhä uudelleen kertoo ihmiselle, että hän epäonnistuu, vaikka tarkoittaisitte hyvää. Alzheimer-yhdistys neuvoo olemaan arvostelematta tai korjaamatta vaarattomia toimia. Pelissä lähes jokainen virhe on vaaraton.
+Ei. Jos korjaatte toistuvasti ja hellästi, se viestii, että hän epäonnistuu, vaikka tarkoittaisitte hyvää. Alzheimer's Associationin mukaan vaarattomia toimintoja ei pidä arvostella eikä korjata. Pelissä lähes jokainen virhe on vaaraton.
 
-| Sen sijaan, että sanotte | Kokeilkaa |
+| Sen sijaan, että sanot | Kokeile |
 | --- | --- |
-| ”Ei, tuo on väärin.” | ”Kokeillaan tätä tapaa.” (NIA:n antama esimerkki) |
-| ”Nuo eivät ole pari. Katso uudelleen.” | Älkää sanoko mitään ja ottakaa seuraava vuoro, tai ”Voi, nuo ovat molemmat punaisia.” |
+| ”Ei, tuo on väärin.” | ”Kokeillaan näin.” (NIA:n antama esimerkki) |
+| ”Tämä ei ole pari. Katso uudelleen.” | Älä sano mitään ja siirry seuraavaan vuoroon, tai ”Ai, nuo ovat molemmat punaisia.” |
 | ”Muistatteko, kuka tämä on?” | ”Kertokaa minulle tästä kuvasta.” |
-| ”Teitte tuon jo.” | ”Hyvä. Tehdään se uudestaan.” |
-| ”Tulkaa nyt, tiedätte tämän.” | ”Haluatteko, että näytän lopun?” |
+| ”Teitte tuon jo.” | ”Tuo oli hyvä. Tehdään se vielä kerran.” |
+| ”Tämän kyllä tiedätte.” | ”Haluatteko, että näytän lopun?” |
 
-Jos virhe selvästi turhauttaa häntä, auttakaa hiljaa. Osoittakaa oikeaa kuvaa, ottakaa itse vuoro tai helpottakaa peliä seuraavalla kierroksella. Jos sanonta
-saa hauskan väärän lopun, nauraa mukana. Heidän lopputeksti voi olla parempi.
+Jos virhe selvästi turhauttaa häntä, auttakaa hiljaa. Osoittakaa oikea kuva, ottakaa itse vuoro tai helpottakaa peliä seuraavalla kierroksella. Jos sanonta saa hauskan väärän lopun, nauraka mukana. Hänen loppunsa voi olla parempi.
 
-## Miten teen pelistä helpomman tai vaikeamman?
+## Miten helpotan peliä tai vaikeutan sitä?
 
-Sovittakaa peli ihmiseen sillä hetkellä, ei vaiheeseen kuvaavaan leimaan. Sama ihminen voi tarvita illalla yksinkertaisemman version kuin aamulla. NIA:n ensimmäinen vinkki on sovittaa toiminta siihen, mitä ihminen pystyy tekemään, ja varmistaa, että hän kokee onnistuvansa.
+Sovita peli siihen, miten ihminen juuri sinä päivänä pärjää, ei vaiheen nimen mukaan. Sama ihminen saattaa tarvita illalla yksinkertaisemman version kuin aamulla. NIA:n ensimmäinen neuvo on sovittaa toiminta siihen, mitä ihminen pystyy tekemään, ja varmistaa, että hän kokee onnistuvansa.
 
 | Peli | Helpommaksi | Hieman vaikeammaksi |
 | --- | --- | --- |
-| [Valokuvaparit](/games/picture-pairs/) | Aloittakaa 4 ruudulla ja pitäkää kuvat näkyvillä | Enemmän ruutuja tai piilotetut kuvat, jos se tuntuu mukavalta |
-| [Etsi samanlainen](/games/find-the-same/) | 2 vaihtoehtoa | Enintään 4 vaihtoehtoa |
-| [Lajitelkaa yhdessä](/games/sort-together/) | Te pidätte kuvaa, hän osoittaa koria | Hän napauttaa itse sekä kuvaa että koria |
+| [Kuvaparit](/games/picture-pairs/) | Aloita 4 laatalla ja jätä kuvat näkyviin | Enemmän laattoja, tai piilota kuvat, jos se tuntuu mukavalta |
+| [Etsi sama](/games/find-the-same/) | 2 vaihtoehtoa | Enintään 4 vaihtoehtoa |
+| [Lajittelu yhdessä](/games/sort-together/) | Pidätte kuvaa itse, hän osoittaa koria | Hän napauttaa itse sekä kuvaa että koria |
 | [Kuvapalapeli](/games/picture-puzzle/) | 4 palaa, puhukaa ensin koko kuvasta | 9 palaa |
-| [Päätä sanonta](/games/finish-the-saying/) | Näyttäkää lopun ja sanokaa se yhdessä | Antakaa hänen sanoa lopun ennen napauttamista |
+| [Sanonta loppuun](/games/finish-the-saying/) | Näyttäkää loppu ja sanokaa se yhdessä | Antakaa hänen sanoa loppu ennen napauttamista |
 | [Sanahaku](/games/word-search/) | Tulostakaa se, etsikää yhdessä yksi sana ja osoittakaa sen ensimmäistä kirjainta | Antakaa hänen valita seuraava etsittävä sana |
-| [Värityskuvat](/games/coloring/) | Te valitsette kaksi väriä, hän valitsee niistä | Hän valitsee kaikki värit |
+| [Värittäminen](/games/coloring/) | Valitsette kaksi väriä, hän valitsee niiden väliltä | Hän valitsee kaikki värit |
 | [Keskustelukortit](/games/conversation-cards/) | Katsokaa vain kuvaa yhdessä | Käyttäkää kortin avoimia kysymyksiä |
-| [Valokuvaparit omilla kuvilla](/games/photo-pairs/) | Muutama rakastettu perhekuva | Lisätkää kuvia |
+| [Valokuvaparit](/games/photo-pairs/) | Muutama rakas perhevalokuva | Lisää valokuvia |
 | [Kuvabingo](/games/picture-bingo/) | Avustaja istuu jokaisen pelaajan vieressä | Pelaajat merkitsevät omat korttinsa |
-| [Rauhallinen hengitys](/games/calm-breathing/) | Istukaa vain ja katsokaa sitä yhdessä | Hengittäkää mukana hitaasti |
+| [Rauhallinen hengitys](/games/calm-breathing/) | Istukaa ja katsokaa yhdessä | Hengittäkää hitaasti mukana |
 
-Merkit, että peli on liian vaikea: pitkät tauot, jotka näyttävät huolestuneilta eivätkä mietiskeleviltä, toistuva ”en osaa”, laitteen työntäminen pois tai virheet, jotka suututtavat. Merkit, että se voi olla liian helppo: tylsistyminen tai sanominen, että se on lapsellista. Jos niin käy, kunnioittakaa sitä ja vaihtakaa johonkin, joka tuntuu aikuismaiselta, kuten sanahakuun, oikean valokuvan palapeliin tai keskusteluun kuvasta, joka liittyy hänen vanhaan työhönsä.
+Merkkejä siitä, että peli on liian vaikea: pitkät, huolestuneen näköiset tauot eikä harkitsevat, toistuva ”en osaa”, laitteen työntäminen pois tai virheet, jotka suututtavat. Merkkejä siitä, että se voi olla liian helppo: tylsistyminen tai sanominen, että se on lapsellista. Silloin kunnioittakaa sitä ja vaihtakaa johonkin, joka tuntuu aikuismaiselta, kuten sanahakuun, todellisesta valokuvasta tehtyyn palapeliin tai keskusteluun kuvasta hänen entisestä työstään.
 
-## Miten pelistä tulee keskustelu?
+## Miten muutan pelin keskusteluksi?
 
-Käyttäkää jokaista kuvaa kutsuna puhua, ja pitäkää kaikkea, mitä hän sanoo, hyvänä vastauksena. Monille perheille tämä on pelaamisen paras osa.
+Käyttäkää jokaista kuvaa kutsuna puhua, ja pitäkää kaikkea, mitä hän sanoo, hyvänä vastauksena. Monille perheille tämä on pelaamisen parasta osaa.
 
-- **Kysykää avoimia kysymyksiä, joihin ei ole väärää vastausta.** ”Mitä huomaatte?” ”Mikä niistä on teidän mielestänne paras?” ”Kertokaa jostakin tämän kaltaisesta keittiöstä.”
-- **Kertokaa ensin itse.** ”Isoäidilläni oli tämän kaltainen koira.” Oma tarinanne helpottaa sitä, että hänkin kertoo omansa.
-- **Seuratkaa sivupolkua.** Jos auton kuva johtaa tarinaan matkasta, tarina on toiminta. Jättäkää peli tauolle.
-- **Älkää tarkistako tosiasioita.** Muistelussa miellyttävä keskustelu on tärkeämpi kuin tarkat yksityiskohdat. Jos tarina muuttuu edellisestä kerrasta, nauttikaa uudesta versiosta.
-- **Käyttäkää pelien omia kysymyksiä.** [Päätä sanonta](/games/finish-the-saying/) seuraa jokaista sanontaa keskustelua herättävällä kysymyksellä, ja [Keskustelukortit](/games/conversation-cards/) on tehty juuri tähän.
-  [Valokuvaparit](/games/photo-pairs/) käyttää omia perhekuvianne, jotka usein herättävät rikkaimmat tarinat.
+- **Kysy avoimia kysymyksiä, joihin ei ole väärää vastausta.** ”Mitä huomaatte?” ”Mistä pidätte?” ”Kertokaa jostain tämänkaltaisesta keittiöstä.”
+- **Kerro ensin itse.** ”Isoäidilläni oli tällainen koira.” Oma tarinasi helpottaa hänen omansa kertomista.
+- **Seuraa sivupolkua.** Jos auton kuva johtaa tarinaan maantiematkasta, tarina on toiminta. Jätä peli tauolle.
+- **Älä tarkista faktoja.** Muistelussa miellyttävä keskustelu painaa enemmän kuin tarkat yksityiskohdat. Jos tarina on eri kuin viime kerralla, nauttikaa uudesta versiosta.
+- **Käytä valmiita kysymyksiä.** [Sanonta loppuun](/games/finish-the-saying/) liittää jokaiseen sanontaan keskustelun aloituksen, ja [Keskustelukortit](/games/conversation-cards/) on suunniteltu juuri tähän. [Valokuvaparit](/games/photo-pairs/) käyttää omia perheen valokuvianne, ja ne herättävät usein rikkaimmat tarinat.
 
-Lisää ideoita löytyy oppaista [muistelutoiminnat](/activities/reminiscence/) ja [viestintävinkit](/caregiving/communication-tips/).
+Lisää ideoita löytyy oppaastamme [muisteluun liittyvistä toiminnoista](/activities/reminiscence/). Tukea diagnoosin jälkeen löytyy kohdasta [ensimmäiset askeleet diagnoosin jälkeen](/caregiving/after-dementia-diagnosis/).
 
 ## Milloin meidän pitäisi lopettaa?
 
-Lopettakaa heti, kun näette väsymystä tai mielipahaa, ja mieluiten hieman ennen sitä. Alzheimer-yhdistyksen neuvo on lopettaa tai vaihtaa toimintaa, kun
-keskittyminen hiipuu tai turhautuminen nousee.
+Lopeta väsymyksen tai ahdistuksen ensimmäisten merkkien kohdalla, ja mieluiten hieman ennen niitä. Alzheimer's Associationin mukaan toiminta kannattaa lopettaa tai vaihtaa, kun tarkkaavaisuus herpaantuu tai turhautuminen lisääntyy.
 
-Vahtikaa seuraavia merkkejä:
+Seuraa merkkejä:
 
-- haukotusta, nojaamista tai silmien harhailua poispäin näytöltä;
-- levottomuutta, nousemista ylös tai pyyntöä lähteä;
+- haukotusta, nojailua tai katseen harhailua pois näytöltä;
+- kiemurtelua, nousemista ylös tai pyyntöä päästä pois;
 - huokailua, lyhyitä vastauksia tai ”En ole hyvä tässä”;
-- napauttelua sattumanvaraisesti tai laitteen työntämistä pois;
+- satunnaista napauttelua tai laitteen työntämistä pois;
 - kyyneleitä, ärtymystä tai äkillistä mielialan muutosta.
 
-Näin lopetatte hyvin:
+Näin lopetat hyvin:
 
-- **Päättäkää helppoon.** Yksi viimeinen pari, jonka hän voi löytää, tai viimeinen kuva ihailtavaksi.
-- **Tehkää siitä teistä.** ”Voisin juoda kupin teetä. Lopetetaanko tähän?” välttää kaiken vihjeen siitä, että hän olisi mennyt huonosti.
-- **Siirtykää fyysiseen tai rauhoittavaan toimintaan.** Lyhyt kävely, välipala, pyykin taittaminen tai musiikki.
-- **Sanokaa jotain lämmintä.** ”Pidin siitä, kun teimme sen yhdessä.” Ei kehuja siitä, että ”osasi oikein”, vaan ilo yhdessä vietetystä ajasta.
+- **Lopeta jollain helpolla.** Yksi viimeinen pari, jonka hän voi löytää, tai yksi viimeinen kuva ihailtavaksi.
+- **Tee siitä omasta asiastasi.** ”Minua kaivataan kupilliselle teetä. Lopetetaanko tähän?” välttää vihjaamasta, että hän meni huonosti.
+- **Siirry johonkin fyysiseen tai rauhoittavaan.** Lyhyt kävely, välipala, pyykin taittelu tai musiikki.
+- **Sano jotain lämmintä.** ”Pidin siitä, että teimme tätä yhdessä.” Ei kiitoksia ”oikein tekemisestä”, vaan iloa yhdessä vietetystä ajasta.
 
-Aikaisin lopettaminen, suunnitelmien muuttaminen tai pelistä luopuminen ja pelkkä yhdessä istuminen ovat kaikki hyviä lopputuloksia.
+Aikaisin lopettaminen, suunnitelmien muuttaminen, pelin hylkääminen ja pelkkä yhdessä istuminen ovat kaikki hyviä lopputuloksia.
 
-## Voiko pelata ryhmässä tai videopuhelussa?
+## Voimmeko pelata ryhmässä tai videopuhelussa?
 
-Voi, pienellä lisävalmistelulla. Ryhmässä pitäkää porukka pienenä, istuttakaa avustajat sen ihmisen viereen, joka sitä tarvitsee, ja valitkaa peli, jolla on selvä yhteinen kohde.
-[Kuvabingossa](/games/picture-bingo/) on tulostettavat kortit ja ruudulla näkyvä numeronkutsuja ryhmille. Lisätietoja löytyy sivulta
-[toiminnat hoivakotiryhmille](/activities/care-home-groups/).
+Kyllä, hieman lisävalmistelulla. Ryhmässä pitäkää ryhmä pienenä, istuttakaa avustajat lähelle niitä, jotka tarvitsevat apua, ja valitkaa peli, jolla on selkeä yhteinen kohde. [Kuvabingossa](/games/picture-bingo/) on tulostettavia kortteja ja ruudulla oleva kutsuja ryhmiä varten. Lisätietoja on kohdassa [toiminta hoivakotien ryhmille](/crafts/craft-group-sessions/).
 
-Videopuhelussa toinen osallistuja voi kuvata kuvaa, kun huoneessa oleva ihminen osoittaa ja napauttaa. Pitäkää puhelut lyhyinä ja tutuina. Oppaastamme
-[puhelu- ja videopuhelut](/activities/phone-and-video-calls/) löytyy lisää vinkkejä.
+Videopuhelussa puhelussa oleva henkilö voi kuvailla kuvaa, kun huoneessa oleva henkilö osoittaa ja napauttaa. Pitäkää puhelut lyhyinä ja tutuina. Oppaastamme [puhelut ja videopuhelut](/together/staying-connected-from-afar/) löytyy lisää vinkkejä.
 
-## Entä jos peli ei vain toimi?
+## Mitä jos peli ei vain toimi?
 
-Joinakin päivinä mikään ei tepsi, eikä se kerro teistä eikä hänestä mitään. Laittakaa peli pois ja kokeilkaa toista aikaa päivästä, toista peliä tai ei peliä lainkaan.
-Monet hyvät toiminnat eivät liity ruutuihin lainkaan: musiikki, pyyhkeiden taittaminen, valokuva-albumin selailu tai lyhyt kävely. Lisää ideoita löytyy
-[toimintaideoista](/activities/ideas/).
+Joinakin päivinä mikään ei toimi, eikä se ole arvostelu teistä tai hänestä. Laittakaa peli pois ja kokeilkaa toista vuorokaudenaikaa, toista peliä tai ei peliä ollenkaan. Moni hyvä toiminta ei tarvitse ruutua: musiikkia, pyyhkeiden taittelua, valokuva-albumin selaamista tai lyhyt kävely. Lisää ideoita löytyy [toimintaideoistamme](/activities/ideas/).

@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Ruka hadi maudhui makuu",
     "brandName": "Creative Activities",
@@ -12,10 +13,16 @@
     "machineTranslated": "Ukurasa huu umetafsiriwa kiotomatiki na bado haujakaguliwa na mzungumzaji wa asili wa Kiswahili.",
     "readOriginal": "Soma asili kwa Kiingereza",
     "nav": {
+      "find": "Find an activity",
       "games": "Michezo",
       "activities": "Shughuli",
       "caregiving": "Ulezi",
-      "brainHealth": "Afya ya ubongo"
+      "brainHealth": "Afya ya ubongo",
+      "crafts": "Ufundi",
+      "kids": "Watoto",
+      "together": "Pamoja",
+      "creativeCalm": "Utulivu wa ubunifu",
+      "search": "Tafuta"
     },
     "faqTitle": "Maswali na majibu",
     "breadcrumb": "Njia ya kurasa",
@@ -27,6 +34,21 @@
       "smaller": "Maandishi ya kawaida",
       "larger": "Maandishi makubwa zaidi",
       "contrast": "Utofautishaji wa juu zaidi"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -40,7 +62,7 @@
     "ideas101": "Mawazo 101 ya shughuli",
     "lateStage": "Shughuli za hatua ya baadaye",
     "printable": "Shughuli za kuchapisha",
-    "allActivities": "Shughuli zote",
+    "allActivities": "Miongozo yote ya shughuli",
     "forCaregivers": "Kwa walezi",
     "playTogether": "Jinsi ya kucheza pamoja",
     "selfCare": "Kujitunza mwenyewe",
@@ -53,24 +75,34 @@
     "app": "Programu ya Creative Activities",
     "appHelp": "Msaada wa programu",
     "support": "Msaada",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Taarifa za kisheria",
     "sitePrivacy": "Faragha ya tovuti",
     "appPrivacy": "Sera ya faragha ya programu",
     "privacyChoices": "Chaguo za faragha",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Masharti na leseni ya programu",
     "safety": "Usalama na matumizi yaliyokusudiwa",
     "accessibility": "Ufikivu",
     "healthNotice": "Tangazo la taarifa za afya",
     "allLegal": "Taarifa zote za kisheria",
     "note": "Creative Activities inatoa shughuli rahisi za pamoja kwa ajili ya burudani. Si ushauri wa kitabibu, kipimo wala matibabu, na haitambui ugonjwa, haipimi wala haitoi alama kwa mtu yeyote. Kwa maswali ya afya, zungumza na daktari. Katika dharura, piga nambari ya dharura ya eneo lako.",
-    "publisher": "Imechapishwa na Cloudjet Solutions Pte. Ltd."
+    "publisher": "Imechapishwa na Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Ufundi kwa umri wote",
+    "kids": "Shughuli za watoto",
+    "together": "Shughuli za kufanya pamoja",
+    "creativeCalm": "Utulivu wa ubunifu",
+    "dementiaActivities": "Shughuli kwa watu wenye dementia"
   },
   "home": {
-    "title": "Michezo na Shughuli za Dementia na Alzheimer | Creative Activities",
-    "description": "Michezo ya picha ya bure ya taratibu mtandaoni, na mawazo ya shughuli kwa watu wanaoishi na dementia au Alzheimer na walezi wao. Bila usajili, saa wala alama.",
+    "title": "Shughuli za Ubunifu kwa Yeyote Anayemtunza Mtu",
+    "description": "Shughuli za ubunifu bila malipo kwa yeyote anayemtunza mtu: ufundi, mambo ya watoto, shughuli za kufanya pamoja na mawazo tulivu ya ubunifu.",
     "eyebrow": "Bure · Bila matangazo · Bila usajili · Bila saa wala alama",
-    "h1": "Michezo na Shughuli za Taratibu kwa Watu Wanaoishi na Dementia",
-    "lede": "Michezo rahisi ya picha, picha zinazojulikana, na shughuli za kufurahia pamoja, kwa kasi yenu wenyewe.",
+    "h1": "Tengenezeni kitu pamoja",
+    "lede": "Tafuta shughuli inayomfaa mtu, wakati uliopo, na kile ulichonacho. Ufundi rahisi, sanaa ya watoto, mambo ya kufanya pamoja na mawazo tulivu ya ubunifu, pamoja na matoleo rahisi zaidi na kadi ya kuchapisha. Simama wakati wowote unapotaka.",
     "playGame": "Cheza mchezo",
     "findIdeas": "Tafuta mawazo ya shughuli",
     "facts": [
@@ -105,13 +137,13 @@
     "ideas101": "Mawazo 101 ya shughuli",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Hatua ya mwanzo",
         "text": "Endeleeni na yale anayopenda, kwa marekebisho madogo: mambo ya kupenda, matembezi, michezo ya maneno na kupanga pamoja.",
         "label": "Mawazo ya hatua ya mwanzo"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Hatua ya kati",
         "text": "Kazi rahisi na zinazojulikana zilizogawanywa kwa hatua: kukunja, kupanga, muziki, michezo ya picha na matembezi mafupi.",
         "label": "Mawazo ya hatua ya kati"
@@ -123,10 +155,10 @@
         "label": "Mawazo ya hatua ya baadaye"
       }
     ],
-    "specificHtml": "Unatafuta kitu mahususi? Jaribu <a href=\"/activities/alzheimers/\">shughuli na michezo kwa Alzheimer</a>, <a href=\"/activities/memory-games/\">michezo ya taratibu ya kumbukumbu</a>, <a href=\"/activities/trivia/\">maswali rahisi ya maarifa</a> au <a href=\"/activities/puzzles/\">mafumbo</a>.",
+    "specificHtml": "Unatafuta kitu mahususi? Jaribu <a href=\"/dementia-activities/\">shughuli na michezo kwa Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">mafumbo na michezo ya meza</a>, <a href=\"/together/conversation-games-for-all-ages/\">michezo ya mazungumzo</a> au <a href=\"/together/puzzles-and-table-games/\">mafumbo</a>.",
     "approachEyebrow": "Mtazamo wetu",
-    "approachTitle": "Shughuli ya pamoja, si kipimo cha kumbukumbu",
-    "approachLede": "Mingi ya “michezo ya ubongo” imejengwa kwa kasi, alama na mfululizo wa ushindi. Kwa mtu anayeishi na dementia hiyo inaweza kuhisiwa kama mtihani. Sisi tumejenga kinyume chake.",
+    "approachTitle": "Shughuli ya pamoja, si mtihani",
+    "approachLede": "Michezo mingi ya “akili” imejengwa juu ya kasi, alama na mfululizo wa ushindi. Kwa mtu aliyechoka, asiyejisikia vizuri au anayeishi na dementia, hilo linaweza kuonekana kama mtihani. Sisi tumefanya kinyume chake.",
     "approachLink": "Kwa nini tunaibuni hivi",
     "principles": [
       {
@@ -165,14 +197,14 @@
         "text": "Sababu za kawaida za kukataa, na njia za upole za kujaribu tena baadaye."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Kuandaa kompyuta kibao",
-        "text": "Maandishi makubwa zaidi, kukatizwa kidogo na skrini moja rahisi ya mwanzo."
+        "href": "/activities/group-art-activities/",
+        "title": "Shughuli za sanaa ya kikundi",
+        "text": "Miradi ya pamoja kwa meza yenye watu kadhaa, huku kila mtu akipewa kazi yake."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Shughuli za bure za kuchapisha",
-        "text": "Mafumbo ya maneno ya herufi kubwa, kurasa za kupaka rangi, bingo na kadi za mazungumzo."
+        "href": "/activities/ideas/",
+        "title": "Mawazo 101 ya shughuli",
+        "text": "Mawazo rahisi, yaliyopangwa kulingana na kile ulichonacho na kiasi cha nguvu kilichopo."
       }
     ],
     "researchTitle": "Afya ya ubongo: kile ambacho utafiti unasema kweli",
@@ -184,16 +216,16 @@
     "aboutApp": "Kuhusu programu",
     "faq": [
       {
-        "q": "Ni michezo gani mizuri kwa watu wenye dementia?",
-        "a": "Michezo mizuri ni rahisi, inayojulikana na isiyo na shinikizo: picha kubwa za kulinganisha, kupanga, mafumbo rahisi ya jigsaw, kukamilisha methali zinazojulikana, kupaka rangi, bingo ya picha na kadi za mazungumzo. Chaguo bora ni lile ambalo mtu anafurahia leo. Epuka saa, alama na kitu chochote kinachohisiwa kama mtihani."
+        "q": "Ni michezo gani mizuri kwa watu wazima?",
+        "a": "Michezo mizuri ni rahisi, inayofahamika na isiyo na shinikizo: picha kubwa za kulinganisha, kupanga vitu, mafumbo rahisi, kumalizia methali zinazojulikana, kupaka rangi, bingo ya picha na kadi za mazungumzo. Inawafaa watu wazima wengi, wakiwemo wanaoishi na dementia. Chaguo bora ni lile analofurahia mtu leo. Epuka saa za kuhesabu muda, alama na chochote kinachohisiwa kama mtihani."
       },
       {
-        "q": "Je, michezo hii ya dementia ni ya bure?",
+        "q": "Je, michezo hii ni bure?",
         "a": "Ndiyo. Kila mchezo na kila kitu cha kuchapisha kwenye Creative Activities ni bure, bila akaunti, usajili wala upakuaji. Michezo inaendeshwa kwenye kivinjari cha wavuti kwenye simu, kompyuta kibao au kompyuta."
       },
       {
         "q": "Je, michezo ya ubongo inazuia dementia?",
-        "a": "Hakuna mchezo ambao umeonyeshwa kuzuia dementia, na Creative Activities haidai kutibu wala kuzuia chochote. Michezo yetu ni kwa ajili ya burudani na kuwa pamoja. Sehemu yetu ya afya ya ubongo inaeleza kile ambacho utafiti unaonyesha na kisichoonyesha."
+        "a": "Hakuna mchezo ambao umeonyeshwa kuzuia dementia, na Shughuli za Ubunifu hazidai kutibu wala kuzuia chochote. Michezo yetu ni kwa ajili ya furaha na muda wa pamoja, na hakuna ukurasa wa shughuli unaotoa dai la kiafya."
       },
       {
         "q": "Je, michezo hii inafaa kwa mtu mwenye Alzheimer?",
@@ -209,7 +241,36 @@
       },
       {
         "q": "Nani anatengeneza Creative Activities?",
-        "a": "Creative Activities ni timu ndogo inayotengeneza shughuli tulivu za picha za kiutu uzima kwa familia na walezi, kwenye wavuti na kama programu ya bure. Sisi si madaktari, na hakuna kilichoandikwa hapa ni ushauri wa kitabibu."
+        "a": "Shughuli za Ubunifu ni timu ndogo inayotengeneza shughuli tulivu za ubunifu kwa watu wazima, kwa yeyote anayemtunza mtu, mtandaoni na kama programu ya bure. Sisi si madaktari, na chochote hapa si ushauri wa kitabibu."
+      }
+    ],
+    "groupsEyebrow": "Anza hapa",
+    "groupsTitle": "Aina nne za shughuli za ubunifu",
+    "groupsLede": "Anza na kundi linalolingana na watu unaoshirikiana nao na kile ulichonacho. Kila ukurasa una matoleo rahisi zaidi na vidokezo vya usalama.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Ufundi",
+        "text": "Miradi ya karatasi, rangi, vitu vilivyotumika tena na ya msimu, kila moja ikiwa na toleo rahisi.",
+        "label": "Vinjari ufundi"
+      },
+      {
+        "href": "/kids/",
+        "title": "Watoto",
+        "text": "Sanaa na michezo kwa watoto, mtu mzima akiwa karibu na vidokezo wazi vya usalama.",
+        "label": "Vinjari shughuli za watoto"
+      },
+      {
+        "href": "/together/",
+        "title": "Pamoja",
+        "text": "Mazungumzo, mafumbo, muda wa nje na njia za kubaki karibu kati ya vizazi.",
+        "label": "Vinjari mambo ya kufanya pamoja"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Utulivu wa ubunifu",
+        "text": "Nyakati tulivu na polepole za ubunifu na kalamu, ukurasa au wimbo. Si tiba.",
+        "label": "Vinjari utulivu wa ubunifu"
       }
     ]
   },
@@ -248,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Shughuli",
-      "title": "Shughuli kwa Watu Wanaoishi na Dementia",
-      "seo": "Shughuli kwa Watu Wenye Dementia: Mawazo kwa Hatua",
-      "description": "Mawazo ya shughuli kwa watu wanaoishi na dementia katika kila hatua: muziki, kukumbushana, kazi za kila siku, hisia, ufundi, nje na vya kuchapisha.",
-      "lede": "Shughuli yenye maana ni chochote kinacholeta faraja, kusudi au wakati wa ukaribu."
+      "label": "Miongozo ya shughuli",
+      "title": "Miongozo ya Shughuli",
+      "seo": "Miongozo ya Shughuli: Mawazo, Vifaa vya Sanaa na Njia za Kuanzia",
+      "description": "Miongozo rahisi ya shughuli za ubunifu unazoweza kufanya na mtu: mawazo rahisi, vifaa vya sanaa vya bei nafuu, sanaa ya kikundi, barua, kumbukumbu na maelezo ya tiba ya sanaa.",
+      "lede": "Miongozo mifupi na ya vitendo ya kuchagua na kuanza shughuli na mtu, bila kujali umri wake au uwezo wake."
+    },
+    "crafts": {
+      "label": "Ufundi",
+      "title": "Ufundi kwa Umri Wote",
+      "seo": "Ufundi Rahisi kwa Umri Wote, Pamoja na Matoleo Rahisi Zaidi",
+      "description": "Ufundi rahisi kwa watu wazima, watoto na familia: karatasi, kupaka rangi, ufundi wa vitu vilivyotumika tena na wa msimu, pamoja na matoleo rahisi kushika na ya kukaa chini, bila ujuzi maalum.",
+      "lede": "Ufundi unaoanzia kwenye vitu ambavyo nyumba nyingi tayari zinavyo, kila moja ikiwa na toleo rahisi zaidi, ili kila mtu aweze kutengeneza kitu."
+    },
+    "kids": {
+      "label": "Watoto",
+      "title": "Shughuli za Ubunifu kwa Watoto",
+      "seo": "Shughuli za Ubunifu kwa Watoto: Sanaa, Hisia na Utulivu",
+      "description": "Shughuli za ubunifu kwa watoto: sanaa ya watoto wadogo, sanaa ya mchakato, michezo ya hisia, ufundi wa siku za mvua na mawazo ya kutulia, pamoja na vidokezo vya usalama na matoleo kwa mahitaji ya hisia.",
+      "lede": "Mawazo ya sanaa na michezo kwa watoto wa umri na mahitaji tofauti, yakiwa na vidokezo wazi vya usalama na mtu mzima karibu."
+    },
+    "together": {
+      "label": "Pamoja",
+      "title": "Shughuli za Kufanya Pamoja",
+      "seo": "Shughuli za Kufanya Pamoja, Kati ya Vizazi",
+      "description": "Shughuli kwa vizazi viwili au zaidi: michezo ya mazungumzo, mafumbo, muda wa nje, ufundi kwa babu na bibi na wajukuu, na njia za kubaki karibu wakiwa mbali.",
+      "lede": "Mawazo ya kushiriki muda na mzazi, babu au bibi, mtoto au rafiki, nyumbani, nje, wakati wa ziara au ukiwa mbali."
+    },
+    "creative-calm": {
+      "label": "Utulivu wa ubunifu",
+      "title": "Utulivu wa Ubunifu",
+      "seo": "Utulivu wa Ubunifu: Sanaa na Shughuli za Kupumzisha Akili",
+      "description": "Shughuli za ubunifu za kupumzisha kwa watu wazima na wanaowatunza: sanaa ya kuzingatia, uandishi wa shajara, muziki, nyakati za hisia na alasiri tulivu. Ni shughuli ya ubunifu, si tiba.",
+      "lede": "Njia za upole za kupunguza kasi kwa kalamu, ukurasa au wimbo. Hizi ni shughuli za ubunifu, si tiba, na hazihitaji ujuzi wowote."
     },
     "caregiving": {
-      "label": "Ulezi",
-      "title": "Miongozo ya Ulezi",
-      "seo": "Miongozo ya Kuhudumia Mtu Mwenye Dementia: Msaada wa Kila Siku",
-      "description": "Miongozo ya vitendo na ya upole kwa walezi wa dementia: kucheza pamoja, mawasiliano, kukataa, kutotulia jioni, kompyuta kibao, kuchagua programu na kujitunza.",
-      "lede": "Msaada rahisi na wa vitendo kwa nyakati za kila siku za kumhudumia mtu anayeishi na dementia, ikiwemo kujitunza wewe mwenyewe."
+      "label": "Huduma ya dementia",
+      "title": "Kumtunza Mtu Mwenye Dementia",
+      "seo": "Kumtunza Mtu Mwenye Dementia: Shughuli na Msaada",
+      "description": "Miongozo kwa familia zinazomtunza mtu mwenye dementia: jinsi ya kucheza pamoja, nini cha kufanya anaposema hapana, na mahali pa kupata msaada unaoaminika baada ya utambuzi.",
+      "lede": "Msaada unaoanzia kwenye shughuli kwa familia zinazomtunza mtu anayeishi na dementia, na mahali pa kugeukia kwa ushauri wa kitabibu na wa huduma."
     },
     "brain-health": {
       "label": "Afya ya ubongo",
@@ -282,7 +371,16 @@
     "tryTogether": "Jaribuni pamoja",
     "relatedGuides": "Miongozo inayohusiana",
     "related": "Inayohusiana",
-    "startHere": "Anzia hapa"
+    "startHere": "Anzia hapa",
+    "staleAria": "Tafsiri imepitwa na wakati",
+    "staleTitle": "Tafsiri hii imepitwa na wakati",
+    "staleText": "Ilitengenezwa kutoka toleo la awali la ukurasa wa Kiingereza, ambao tangu hapo umebadilishwa. Ukurasa wa Kiingereza ndio wa sasa.",
+    "staleHealth": "Ina taarifa za afya, kwa hiyo angalia ukurasa wa Kiingereza na umwulize daktari au muuguzi kabla ya kuchukua hatua yoyote kwa msingi wake.",
+    "staleLink": "Soma ukurasa wa sasa wa Kiingereza"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Tangazo la taarifa za afya",
@@ -291,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Shughuli ya Pamoja, Si Kipimo cha Kumbukumbu",
+      "title": "Shughuli ya Pamoja, Si Mtihani",
       "seoTitle": "Kuhusu Creative Activities: Mtazamo Wetu",
-      "description": "Kwa nini michezo ya Creative Activities haina saa wala alama, kwa nini picha zinaendelea kuonekana, na tutakachodai na tusichodai kuhusu dementia.",
+      "description": "Kwa nini Creative Activities haina saa, alama wala mfululizo wa ushindi, kwa nini picha hubaki zikionekana, na tunachoahidi au tusichodai kuhusu afya.",
       "crumb": "Mtazamo wetu",
-      "lede": "Creative Activities inatengeneza shughuli tulivu za picha za kiutu uzima ambazo mlezi na mtu anayeishi na dementia wanaweza kufurahia kando kwa kando.",
-      "bodyHtml": "<h2>Tunachoamini</h2><p>Kusudi la shughuli ni wakati wenyewe: mazungumzo, tabasamu, kuridhika kwa kuunganisha picha mbili, au kukaa karibu tu. Si kumpima mtu, kumsukuma zaidi wala kuthibitisha chochote.</p><p>Programu nyingi za mazoezi ya ubongo zimeundwa kwa kasi, alama, mfululizo na viwango. Kwa mtu anayeishi na dementia hiyo inaweza kuhisiwa kama mtihani asioweza kuufaulu. Sisi tumebuni kinyume chake, na tunajiwekea kanuni hizi:</p><ul><li><strong>Hakuna cha kushindwa.</strong> Hakuna saa, alama, hesabu ya mgusano, nafasi za kupoteza, mfululizo, shangwe wala kuhesabu kwa kurudi nyuma, kwenye skrini yoyote.</li><li><strong>Kutambua badala ya kukumbuka.</strong> Picha zinaendelea kuonekana kwa kawaida. Maswali yanakaribisha mazungumzo na hayaulizi majina wala kumbukumbu kamwe.</li><li><strong>Kubwa, rahisi na thabiti.</strong> Maandishi na picha kubwa, utofautishaji wa juu, na vitufe vinavyobaki mahali pamoja.</li><li><strong>Heshima ya mtu mzima.</strong> Picha za maisha halisi na maneno rahisi ya joto. Hakuna katuni, sifa za kuimba wala zawadi za emoji.</li><li><strong>Njia rahisi ya kutoka.</strong> “Maliza kwa sasa” inaonekana kila wakati. Kusimama katikati ni matokeo mazuri.</li><li><strong>Faragha kwa kawaida.</strong> Hakuna akaunti wala matangazo. Picha unazochagua zinabaki kwenye kifaa chako.</li></ul><h2>Tusichodai</h2><p>Michezo yetu ni kwa ajili ya burudani na ukaribu. Haitambui ugonjwa, haipimi, haitibu, haipunguzi kasi wala kuzuia dementia au ugonjwa wa Alzheimer, na hakuna anayepaswa kuichagua kwa sababu hiyo. Tunapoandika kuhusu utafiti kwenye <a href=\"/brain-health/\">kurasa zetu za afya ya ubongo</a>, tunasema wazi mahali ambapo ushahidi ni dhaifu, na hatuuunganishi kamwe na michezo yetu wenyewe.</p><h2>Sisi ni nani</h2><p>Creative Activities ni timu ndogo huru. Sisi si madaktari. Miongozo yetu imeandikwa kutokana na mwongozo uliochapishwa na mashirika kama National Institute on Aging na Alzheimer’s Association, na kila mwongozo unaorodhesha vyanzo vyake. Soma <a href=\"/editorial-policy/\">jinsi tunavyoandika na kukagua kurasa zetu</a>.</p><h2>Tuambie ni nini kingesaidia</h2><p>Tungependa kusikia kinachokufaa na kisichokufaa, hasa kutoka kwa watu wanaoishi na dementia, walezi wa familia na wafanyakazi wa shughuli. Tuandikie barua pepe kwa <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities huandaa shughuli tulivu za watu wazima ambazo watu wawili wanaweza kufurahia wakiwa pamoja, iwe mmoja anamtunza mwenzake au wanataka tu kutumia muda pamoja.",
+      "bodyHtml": "<h2>Kwa ajili ya nani</h2><p>Kwa yeyote anayemtunza mtu: mzazi, babu au bibi, mtoto, mwenza, rafiki, au mtu anayeishi na dementia. Familia, wazee na wafanyakazi wa vituo vya shughuli wote wanaweza kutumia kurasa zilezile.</p><h2>Tunachoamini</h2><p>Madhumuni ya shughuli ni wakati wenyewe: mazungumzo, tabasamu, furaha ya kuweka picha mbili pamoja, au kukaa karibu tu. Si kupima mtu, kumsukuma zaidi au kuthibitisha jambo lolote.</p><p>Programu nyingi za mazoezi ya ubongo zimebuniwa kwa kasi, alama, mfululizo wa ushindi na ngazi. Kwa mtu aliyechoka, asiyejisikia vizuri, au anayeishi na dementia, hilo linaweza kuonekana kama mtihani asioweza kufaulu. Sisi tumefanya kinyume, na tunajifunga kwa kanuni hizi:</p><ul><li><strong>Hakuna cha kushindwa.</strong> Hakuna saa, alama, kaunta ya hatua, maisha, mfululizo wa ushindi, athari za sherehe wala kuhesabu muda unaopungua, kwenye skrini yoyote.</li><li><strong>Kutambua badala ya kukumbuka.</strong> Picha hubaki zikionekana kwa chaguo-msingi. Vidokezo hualika mazungumzo na havipimi majina wala kumbukumbu.</li><li><strong>Kubwa, rahisi na thabiti.</strong> Maandishi na picha kubwa, utofautishaji wa wazi wa rangi, na vitufe vinavyobaki mahali pamoja.</li><li><strong>Heshima ya utu uzima.</strong> Picha halisi za maisha na maneno rahisi na ya upole. Hakuna katuni, sifa za kuimba-imba wala zawadi za emoji.</li><li><strong>Njia rahisi ya kutoka.</strong> “Imetosha kwa sasa” huonekana kila wakati. Kusimama katikati ni matokeo mazuri.</li><li><strong>Faragha kwa chaguo-msingi.</strong> Hakuna akaunti wala matangazo. Picha unazochagua hubaki kwenye kifaa chako.</li></ul><h2>Tusichodai</h2><p>Michezo na shughuli zetu ni kwa ajili ya furaha na kuunganisha watu. Hazitambui, hazipimi, hazitibu, hazipunguzi kasi wala kuzuia dementia au ugonjwa wa Alzheimer, na hakuna mtu anayepaswa kuzichagua kwa sababu hiyo. Tunapoandika kuhusu tafiti za afya, tunasema wazi pale ushahidi ulipo dhaifu, na hatuuunganishi kamwe na shughuli zetu wenyewe.</p><h2>Sisi ni nani</h2><p>Creative Activities ni timu ndogo huru. Sisi si wataalamu wa afya. Miongozo yetu imeandikwa kutokana na miongozo iliyochapishwa na mashirika kama National Institute on Aging na Alzheimer’s Association, na kila mwongozo unaorodhesha vyanzo vyake. Soma <a href=\"/editorial-policy/\">jinsi tunavyoandika na kukagua kurasa zetu</a>.</p><h2>Tuambie kinachosaidia</h2><p>Tungependa kusikia kinachofanya kazi kwako na kisichofanya kazi, hasa kutoka kwa watu wanaoishi na dementia, walezi wa familia na wafanyakazi wa shughuli. Tutumie barua pepe kwa <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Jinsi Tunavyoandika na Kukagua Kurasa Zetu",
       "seoTitle": "Sera ya Uhariri",
-      "description": "Jinsi Creative Activities inavyofanya utafiti, kuandika, kutaja vyanzo na kusasisha kurasa zake za shughuli za dementia na afya ya ubongo, na tusichochapisha kamwe.",
+      "description": "Jinsi Creative Activities inavyotafiti, kuandika, kupata vyanzo na kusasisha kurasa zake za shughuli na afya, na kile ambacho hatutachapisha kamwe.",
       "crumb": "Sera ya uhariri",
       "bodyHtml": "<h2>Vyanzo vyetu</h2><p>Tunajenga miongozo yetu juu ya mwongozo wa umma kutoka mashirika kama National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance na NHS, na juu ya utafiti uliopitiwa na wataalamu kama mapitio ya Cochrane na majaribio makubwa ya kitabibu. Kila mwongozo unaorodhesha vyanzo unavyovitegemea. Tunafungua kila chanzo kabla ya kukitaja, na tunaripoti tu kile ambacho kinasema kweli.</p><h2>Jinsi tunavyoandika</h2><ul><li>Vitendo kwanza: cha kufanya leo, kwa lugha rahisi.</li><li>Uaminifu kuhusu ushahidi: tunasema “inahusishwa na”, “huenda” na “ushahidi ni mchanganyiko” pale ambapo huo ndio ukweli.</li><li>Heshima: tunaandika kuhusu watu wanaoishi na dementia kama watu wazima, na hatutumii kamwe lugha ya kuuliza maswali magumu au ya kuaibisha.</li><li>Hakuna maudhui ya kubuni: hakuna takwimu, nukuu, wataalamu, tafiti, maoni wala ushuhuda wa kutunga.</li></ul><h2>Nani anakagua kurasa zetu</h2><p>Kurasa zinaandikwa na kukaguliwa na timu ya Creative Activities, kwa msaada wa zana za uandishi za AI kwa utafiti na uandishi wa awali. Kila ukurasa unakaguliwa dhidi ya vyanzo vyake na timu. Kurasa zetu <strong>hazijakaguliwa</strong> na daktari wala mtaalamu mwingine wa afya, na hatudai vinginevyo. Ni taarifa za jumla, si ushauri wa kitabibu.</p><h2>Tusichochapisha kamwe</h2><ul><li>Madai kwamba mchezo, chakula, kirutubisho, kufunga au utaratibu unazuia, unatibu, unapunguza kasi au unaponya dementia.</li><li>Vipimo, maswali au alama zinazodokeza kwamba mtu ana, au hana, dementia.</li><li>Ushauri wa kuanza, kuacha au kubadilisha dawa yoyote.</li><li>Matangazo au maudhui yaliyodhaminiwa yaliyojificha kama mwongozo.</li></ul><h2>Masasisho na masahihisho</h2><p>Kila ukurasa unaonyesha tarehe ulipasasishwa mwisho. Ukikuta kosa au chanzo kilichopitwa na wakati, tafadhali tuandikie barua pepe kwa <a href=\"mailto:{email}\">{email}</a> na tutakikagua haraka.</p>"
     },
     "faq": {
       "title": "Maswali na Majibu",
-      "seoTitle": "Michezo na Shughuli za Dementia: Maswali na Majibu",
-      "description": "Majibu kwa maswali ya kawaida kuhusu michezo na shughuli za dementia: michezo ya kujaribu, muda wa kucheza, hatua ya baadaye, afya ya ubongo na faragha.",
+      "seoTitle": "Maswali na Majibu Kuhusu Creative Activities",
+      "description": "Majibu ya maswali ya kawaida kuhusu michezo na shughuli: zipi ujaribu, muda wa kucheza, makundi na mawazo ya hatua za baadaye, afya na faragha.",
       "crumb": "Maswali na majibu",
       "lede": "Majibu mafupi na rahisi kwa maswali ambayo walezi huuliza zaidi.",
       "groups": [
@@ -317,7 +415,7 @@
           "title": "Kuhusu michezo",
           "items": [
             {
-              "q": "Ni michezo gani bora kwa mtu mwenye dementia?",
+              "q": "Ni michezo gani bora kwa wazee?",
               "a": "Michezo bora ni inayojulikana, rahisi na isiyo na shinikizo, na mchezo sahihi ni ule ambao mtu anafurahia leo. Kulinganisha picha zinazoonekana, kupanga, mafumbo rahisi ya jigsaw, kukamilisha methali zinazojulikana, kupaka rangi na bingo ya picha vinafaa vizuri kwa watu wengi. Epuka saa, alama na kitu chochote kinachohisiwa kama mtihani."
             },
             {
@@ -362,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Afya ya ubongo",
+          "title": "Dementia na afya",
           "items": [
             {
               "q": "Je, michezo inaweza kuzuia au kupunguza kasi ya dementia?",
@@ -393,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Maelezo zaidi: <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza pamoja</a>, <a href=\"/caregiving/when-they-say-no/\">anaposema hapana</a>, <a href=\"/activities/late-stage/\">shughuli za hatua ya baadaye</a> na <a href=\"/brain-health/can-dementia-be-prevented/\">je, dementia inaweza kuzuiwa?</a>"
+      "moreHtml": "Maelezo zaidi: <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza pamoja</a>, <a href=\"/caregiving/when-they-say-no/\">wanapokataa</a>, <a href=\"/activities/late-stage/\">shughuli za hatua za baadaye</a> na <a href=\"/dementia-activities/\">shughuli za dementia nyumbani</a>."
     },
     "handout": {
       "title": "Michezo ya Bure na ya Taratibu kwa Watu Wanaoishi na Dementia",
@@ -407,21 +505,21 @@
     },
     "organizations": {
       "title": "Kwa Makazi ya Wazee, Maktaba na Vikundi vya Msaada",
-      "seoTitle": "Shughuli za Bure za Dementia kwa Makazi ya Wazee na Vikundi",
-      "description": "Jinsi makazi ya wazee, vituo vya mchana, maktaba na vikundi vya msaada vinavyotumia michezo yetu ya bure ya dementia, na maandishi ya kutuongeza kwenye orodha.",
+      "seoTitle": "Shughuli Bure kwa Vituo vya Wazee, Maktaba na Vikundi",
+      "description": "Jinsi vituo vya wazee, programu za siku za watu wazima, maktaba, mashirika ya wazee na vikundi vya msaada vinavyotumia michezo na miongozo yetu ya shughuli bure, pamoja na maandishi ya kutuongeza kwenye orodha ya rasilimali.",
       "crumb": "Kwa mashirika",
       "lede": "Kila kitu kwenye tovuti hii ni bure kutumia na wakazi, wanachama na wateja, bila akaunti, leseni wala ada. Ukurasa huu unaeleza kilichopo na jinsi ya kukishiriki.",
-      "shortText": "{name}: michezo ya bure na ya taratibu ya picha na miongozo ya shughuli kwa watu wanaoishi na dementia na walezi wao. Bila usajili, saa wala alama.",
-      "longText": "{name} ({domain}) inatoa michezo {count} ya bure ya kivinjari iliyotengenezwa kwa watu wanaoishi na dementia, ikiwemo jozi za kulinganisha zenye picha zinazoendelea kuonekana, jigsaw rahisi, kupanga, methali zinazojulikana na bingo ya picha yenye kadi za kuchapisha. Hakuna akaunti, matangazo, saa wala alama. Tovuti pia ina miongozo ya shughuli kwa lugha rahisi kwa kila hatua ya dementia inayotaja National Institute on Aging na Alzheimer’s Association.",
+      "shortText": "{name}: michezo ya picha ya upole na miongozo ya shughuli bure kwa wazee, familia na watu wanaoishi na dementia. Hakuna usajili, hakuna saa, hakuna alama.",
+      "longText": "{name} ({domain}) inatoa michezo {count} ya kivinjari bure kwa wazee, familia na watu wanaoishi na dementia, ikiwa ni pamoja na kulinganisha jozi za picha huku picha zikibaki zikionekana, fumbo rahisi, kupanga, methali zinazojulikana na bingo ya picha yenye kadi za kuchapisha. Hakuna akaunti, matangazo, saa wala alama. Tovuti pia ina miongozo ya shughuli kwa lugha rahisi kwa familia, wazee na wafanyakazi, yenye vyanzo kama National Institute on Aging na Alzheimer's Association.",
       "useTitle": "Kile ambacho mashirika yanaweza kutumia",
       "gamesItemHtml": "<strong>Michezo {count} ya kivinjari</strong> inayofanya kazi kwenye kompyuta mpakato, kompyuta kibao au televisheni iliyounganishwa na kompyuta. Bila kusakinisha, akaunti wala upakuaji. Tazama <a href=\"/games/\">michezo yote</a>.",
       "printablesLabel": "Vitu {count} vya kuchapisha:",
       "printablesAfter": "Tumia kitufe cha Chapisha kwenye kila ukurasa.",
-      "moreItemsHtml": "<li><strong>Miundo ya vikundi:</strong> <a href=\"/games/picture-bingo/\">Bingo ya picha</a> ina kadi za kuchapisha na mtajaji wa skrini, na <a href=\"/activities/trivia/\">maswali rahisi ya maarifa</a> yana maswali 50 yenye machaguo ya majibu na hoja za kuzungumzia.</li><li><strong>Miongozo ya shughuli</strong> kwa wafanyakazi na familia, kwa hatua na kwa aina, iliyoandikwa kwa lugha rahisi pamoja na vyanzo. Anzia na <a href=\"/activities/ideas/\">mawazo 101 ya shughuli</a> au <a href=\"/activities/care-home-groups/\">shughuli za vikundi kwa makazi ya wazee</a>.</li>",
+      "moreItemsHtml": "<li><strong>Muundo wa vikundi:</strong> <a href=\"/games/picture-bingo/\">Bingo ya picha</a> ina kadi za kuchapisha na mtu wa kutangaza kwenye skrini, na <a href=\"/together/conversation-games-for-all-ages/\">michezo ya mazungumzo</a> ina maswali yenye chaguo za majibu na mada za kuzungumzia.</li><li><strong>Miongozo ya shughuli</strong> kwa wafanyakazi na familia, iliyoandikwa kwa lugha rahisi na vyanzo. Anza na <a href=\"/activities/ideas/\">mawazo 101 ya shughuli</a> au <a href=\"/crafts/craft-group-sessions/\">shughuli za kikundi kwa nyumba za wazee</a>.</li>",
       "restHtml": "<h2>Jinsi vikundi vinavyoitumia</h2><ul><li><strong>Makazi ya wazee na vituo vya huduma ya kumbukumbu:</strong> bingo ya picha au kukamilisha methali kwenye televisheni ya chumba cha pamoja, huku mtu mmoja akigusa kwa niaba ya kikundi.</li><li><strong>Vituo vya mchana vya watu wazima:</strong> kituo cha kompyuta kibao chenye Jozi za picha kwa kadi nne, kwa vipindi vifupi vya mtu mmoja mmoja.</li><li><strong>Maktaba za umma:</strong> mafumbo ya maneno yaliyochapishwa na kadi za mazungumzo kwenye mifuko ya kumbukumbu, na tovuti ikiwekwa alama kwenye kompyuta kibao za maktaba.</li><li><strong>Vikundi vya msaada kwa walezi:</strong> <a href=\"/handout/\">karatasi ya ukurasa mmoja ya kuchapisha</a> ya familia kuchukua nyumbani.</li><li><strong>Hospitali na wapangaji wa kuruhusiwa kutoka hospitalini:</strong> karatasi hiyo kwenye mifuko ya walezi, kwa jambo tulivu la kufanya nyumbani au kando ya kitanda.</li></ul><h2>Tusichofanya</h2><p>Michezo ni kwa ajili ya burudani na kuwa pamoja. Haitambui ugonjwa, haipimi, haitoi alama, haitibu wala kupunguza kasi ya dementia, na tunaomba mashirika yasiieleze hivyo. Hakuna matangazo, na michezo haiombi majina, taarifa za afya wala picha zipakiwe mtandaoni. Tovuti inatumia Google Analytics kuhesabu ziara; <a href=\"/privacy/\">tangazo letu la faragha</a> linaeleza kinachokusanywa. Picha zinazotumika kwenye <a href=\"/games/photo-pairs/\">Jozi za picha za familia</a> zinabaki kwenye kivinjari.</p><h2>Tuongeze kwenye orodha yenu ya rasilimali</h2><p>Ikiwa mna orodha ya rasilimali kwa walezi, mnakaribishwa kuweka kiungo cha <a href=\"/\">{domain}</a>. Mnaweza kunakili maelezo yoyote kati ya haya.</p>",
       "shortTitle": "Maelezo mafupi",
       "longTitle": "Maelezo marefu zaidi",
-      "linksHtml": "<p>Kurasa muhimu za kuunganisha moja kwa moja: <a href=\"/games/\">michezo ya bure</a>, <a href=\"/activities/printable/\">vitu vya bure vya kuchapisha</a>, <a href=\"/activities/alzheimers/\">shughuli kwa Alzheimer</a> na <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza pamoja</a>.</p><h2>Maswali au masahihisho</h2><p>Ikiwa kitu kwenye tovuti si sahihi au hakieleweki, au mahitaji ya mkazi hayatimizwi na kilichopo hapa, tafadhali tuambie kupitia <a href=\"mailto:{email}\">{email}</a>. Tafadhali msitume taarifa za kibinafsi au za afya kuhusu wakazi au wateja.</p>"
+      "linksHtml": "<p>Kurasa muhimu za kuunganisha moja kwa moja: <a href=\"/games/\">michezo ya bure</a>, <a href=\"/games/\">vichapisho vya bure</a>, <a href=\"/dementia-activities/\">shughuli za dementia nyumbani</a> na <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza pamoja</a>.</p><h2>Maswali au marekebisho</h2><p>Ikiwa kitu kwenye tovuti si sahihi au hakieleweki, au mahitaji ya mkazi hayatimizwi na yaliyomo hapa, tafadhali tuambie kupitia <a href=\"mailto:{email}\">{email}</a>. Tafadhali usitume taarifa binafsi au za kiafya kuhusu wakazi au wateja.</p>"
     },
     "app": {
       "title": "Programu ya Creative Activities",
@@ -436,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Michezo ya Bure ya Dementia na Alzheimer Mtandaoni",
-    "description": "Michezo ya bure mtandaoni kwa wazee wenye dementia au Alzheimer: kulinganisha picha, jigsaw, kupanga, methali, kupaka rangi, bingo. Bila usajili wala alama.",
+    "title": "Michezo ya Bure ya Kucheza Pamoja Mtandaoni",
+    "description": "Michezo ya bure mtandaoni kwa watu wazima wazee, familia na watu wanaoishi na dementia: kulinganisha picha, mafumbo rahisi, kupanga, methali, kupaka rangi na bingo. Hakuna usajili, saa za kupima wala alama.",
     "crumb": "Michezo",
-    "h1": "Michezo ya Taratibu kwa Watu Wenye Dementia",
+    "h1": "Michezo Tulivu ya Kucheza Pamoja",
     "lede": "Michezo {count} ya bure ya kucheza pamoja kwenye kivinjari chenu. Picha kubwa, maneno rahisi, na hakuna cha kushindwa: bila saa, bila alama, bila usajili.",
-    "listName": "Michezo ya taratibu kwa watu wenye dementia",
+    "listName": "Michezo tulivu ya kucheza pamoja",
     "byStageTitle": "Kuchagua mchezo kwa hatua",
     "byStageLede": "Hatua ni mwongozo wa kukadiria tu. Fuata anachofurahia mtu huyo na kinachostarehesha leo.",
     "stageCol": "Hatua",
     "gamesCol": "Michezo inayofaa mara nyingi",
-    "moreHtml": "Mawazo zaidi mbali na skrini: <a href=\"/activities/ideas/\">shughuli 101 kwa watu wenye dementia</a>, <a href=\"/activities/alzheimers/\">shughuli na michezo kwa Alzheimer</a>, <a href=\"/activities/memory-games/\">michezo ya taratibu ya kumbukumbu</a> na <a href=\"/activities/puzzles/\">mafumbo</a>.",
+    "moreHtml": "Mawazo zaidi nje ya skrini: <a href=\"/activities/ideas/\">mawazo 101 ya shughuli</a>, <a href=\"/dementia-activities/\">shughuli za dementia nyumbani</a> na <a href=\"/crafts/\">ufundi</a>.",
     "faq": [
       {
         "q": "Tuanze na mchezo gani?",
@@ -462,7 +560,7 @@
       },
       {
         "q": "Je, hii ni michezo ya kumbukumbu kwa wazee?",
-        "a": "Ni michezo ya kulinganisha na ya picha ambayo mtu mzima yeyote anaweza kufurahia, lakini imejengwa isipime kumbukumbu: katika Jozi za picha, picha zinabaki wazi isipokuwa mkichagua vinginevyo. Mwongozo wetu wa michezo ya kumbukumbu kwa wazee wenye dementia unaeleza jinsi ya kuweka mchezo wowote wa kumbukumbu uwe wa taratibu."
+        "a": "Ni michezo ya kulinganisha na ya picha ambayo mtu yeyote mzee anaweza kufurahia, lakini imeundwa isipime kumbukumbu: katika Jozi za picha, picha hubaki zikitazama juu isipokuwa uchague vinginevyo. Mchezo wowote wa kumbukumbu unaweza kufanywa mpole zaidi kwa kuondoa saa na alama."
       },
       {
         "q": "Je, kuna michezo kwa vikundi katika makazi ya wazee?",
@@ -483,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Je, kuna programu ya shughuli za dementia?",
+        "q": "Je, kuna programu kwa watu wazima wazee na familia?",
         "a": "Ndiyo. Creative Activities (inayoonekana kama “{storeName}”) ni bure kwenye App Store na Google Play. Inatoa kulinganisha picha kwa taratibu kwa kadi kubwa, michezo yenye picha za familia ulizochagua, na vifurushi vya picha vinavyofanya kazi bila mtandao."
       },
       {
@@ -525,7 +623,7 @@
     "printable": "Ya kuchapisha",
     "howTo": "Jinsi ya kucheza {name}",
     "tips": "Vidokezo vya kucheza pamoja",
-    "newToPlayingHtml": "Mpya kwenye kucheza na mtu mwenye dementia? Soma <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza michezo pamoja</a>, ikiwemo cha kufanya akipoteza hamu.",
+    "newToPlayingHtml": "Je, ni mara ya kwanza kucheza na mtu mzima mzee au mtu anayeishi na dementia? Soma <a href=\"/caregiving/how-to-play-together/\">jinsi ya kucheza michezo pamoja</a>, ikiwa ni pamoja na la kufanya iwapo wataacha kupendezwa.",
     "moreAria": "Zaidi ya kuchunguza",
     "helpfulGuides": "Miongozo yenye msaada",
     "appTitle": "Cheza kwenye programu",
@@ -535,6 +633,31 @@
     "goodToKnow": "Vizuri kujua",
     "goodToKnowText": "Mchezo huu ni kwa ajili ya burudani na kuwa pamoja. Haupimi, hauhesabu wala kutibu chochote.",
     "moreGames": "Michezo zaidi ya taratibu",
-    "crumb": "Michezo"
+    "crumb": "Michezo",
+    "print": {
+      "heading": "Cheza kwenye karatasi",
+      "sameRules": "Toleo la karatasi lina sheria zile zile za mchezo kwenye skrini:",
+      "button": "Chapisha toleo la karatasi",
+      "pageNote": "Ukurasa mmoja wa A4 au US Letter, unafaa kwa rangi nyeusi na nyeupe. Toleo {date}.",
+      "islandNote": "Inachapisha kile kilichopo kwenye skrini sasa. Toleo {date}.",
+      "sheetTitle": "{name}: toleo la karatasi",
+      "point": "Kwenye karatasi, elekeza kwenye picha badala ya kuigusa, au uizungushe kwa kalamu. Kila safu ni seti mpya.",
+      "pointTarget": "Kwenye karatasi, picha ya kutazama iko kwenye kisanduku mwanzoni mwa kila safu. Elekeza kwenye picha badala ya kuigusa, au uizungushe kwa kalamu.",
+      "halves": "Kila picha imekatwa katikati. Chora mstari kutoka kila nusu upande wa kushoto hadi nusu upande wa kulia inayolingana nayo, au elekeza kwa kidole. Hakuna haja ya kukata chochote.",
+      "grid": "Kila mraba una namba. Tafuta namba hiyo kwenye ufunguo, kisha paka mraba kwa penseli ya rangi hiyo. Rangi nyingine yoyote unayopenda pia inafaa. Hakuna haja ya kukata chochote.",
+      "colors": "Kila safu inataja rangi. Elekeza kwenye kila picha yenye rangi hiyo, au uizungushe kwa kalamu. Kila safu ni seti mpya.",
+      "dice": "Kila safu ni seti ya kete. Chagua safu moja, au kata picha na uchore chache kutoka kwenye rundo, kisha simulia hadithi ukitumia picha hizo kwa mpangilio wowote. Yeyote anaweza kupita.",
+      "cards": "Kata kadi kwa kufuata mistari yenye vitone. Ziweke zikitazama juu mezani, kisha tafuta jozi.",
+      "chain": "Kwenye karatasi, soma picha kutoka kushoto kwenda kulia, moja baada ya nyingine. Kila mtu anasema sentensi moja kuhusu picha zilizopo hadi sasa, kisha anaelekeza kwenye picha inayofuata. Yeyote anaweza kupita.",
+      "sort": "Kata picha kwa kufuata mistari yenye vitone, kisha weka kila moja kwenye kisanduku linalostahili.",
+      "puzzle": "Kata picha kubwa kwa kufuata mistari yenye vitone vipande vinne, kisha changanya. Badilisha vipande viwili kwa wakati mmoja hadi picha ikamilike. Picha ndogo ni mwongozo.",
+      "cutSafety": "Msaidizi anaweza kufanya ukataji kabla ya kuanza. Weka mkasi mbali baadaye.",
+      "version": "Toleo {date} · {url}",
+      "reasons": {
+        "photos": "Hakuna toleo la karatasi. Mchezo huu unatumia picha zako mwenyewe, ambazo zinabaki kwenye kivinjari chako na hazipakiwi kamwe, kwa hiyo tovuti haiwezi kuzichapisha. Ili kucheza kwenye karatasi, chapisha nakala mbili za picha chache unazozipenda nyumbani kisha ulinganishe mezani.",
+        "paced": "Hakuna toleo la karatasi. Mduara huweka mwendo wa polepole na wa kawaida kwenye skrini, na ukurasa uliochapishwa hauwezi kufanya hivyo, kwa hiyo ingekuwa shughuli tofauti. Kupumzika kwa utulivu pamoja bila skrini daima ni chaguo.",
+        "sayings": "Bado hakuna toleo la karatasi. Kwenye karatasi miisho yote ingeonekana mara moja, na hatua ya upole ya \"Onyesha mwisho\" ingepotea. Soma methali kutoka kwenye skrini pamoja, au shirikianeni chache mnazozijua nyote wawili."
+      }
+    }
   }
 }

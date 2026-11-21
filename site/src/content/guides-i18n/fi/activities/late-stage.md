@@ -1,33 +1,33 @@
 ---
-title: "Toimintaa dementian myöhäisvaiheeseen, myös sängyssä tai tuolissa"
-seoTitle: "Myöhäisvaiheen dementiatoiminnat: sänky ja tuoli"
-description: "Lempeitä toimintoja dementian myöhäisvaiheeseen, myös sängyssä tai tuolissa oleville: musiikkia, kosketusta, lukemista ääneen ja turvallisuusvinkkejä."
+title: "Toimintaa myöhäisvaiheen dementiaan sängyssä tai tuolissa"
+seoTitle: "Myöhäisvaiheen dementia: ideoita sänkyyn ja tuoliin"
+description: "Lempeitä toimintoja myöhäisvaiheen dementiaan, myös sängyssä tai tuolissa oleville: musiikkia, kosketusta, ääneen lukemista, ääniä ja yhdessäoloa sekä turvallisuusohjeita."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Dementian myöhäisvaiheessa toiminta keskittyy aisteihin ja teidän seuraanne:
-  lempimusiikin soittamiseen, käsien pitämiseen, hitaaseen käsihierontaan,
-  lukemiseen ääneen, valokuvien katseluun, luonnon ääniin sekä istumiseen ikkunan
-  ääressä tai ulkona. Nämä toimivat sängyssä tai tuolissa. Pitäkää hetket lyhyinä,
-  seuratkaa kasvoja ja käsiä mukavuuden merkkien varalta ja muistakaa, että
-  läsnäolo on itsessään toiminta.
+  Myöhäisvaiheen dementiassa toiminta keskittyy aisteihin ja läsnäoloon:
+  lempimusiikin soittamiseen, kädestä pitämiseen, hitaaseen käsihierontaan,
+  ääneen lukemiseen, valokuvien katseluun, luonnon äänten kuunteluun sekä
+  istumiseen ikkunan tai ulkoilman ääressä. Nämä sopivat sänkyyn tai tuoliin.
+  Pidä hetket lyhyinä, seuraa kasvoja ja käsiä mukavuuden varalta ja muista,
+  että läsnäolo on itsessään toimintaa.
 keyPoints:
-  - "Yhteys on yhä mahdollinen. Myöhäisvaiheessa maailma koetaan pääasiassa aistien kautta."
-  - "Musiikki, lempeä kosketus, tutut äänet ja pehmeät esineet pidettävinä tavoittavat usein ihmisen silloin, kun sanat eivät enää riitä."
-  - "Lähes jokainen tässä esitetty idea sopii ihmiselle, joka on sängyssä tai tuolissa."
-  - "Seuratkaa mukavuuden ja epämukavuuden merkkejä kasvoista, käsistä ja hengityksestä ja lopettakaa heti, jos havaitsette hätää."
-  - "Välttäkää pieniä esineitä ja tarjotkaa ruokaa tai juomaa vain hoitotiimin neuvon mukaan, koska nieleminen voi muuttua turvattomaksi."
+  - "Yhteys on yhä mahdollinen. Myöhäisvaiheessa maailmaa koetaan pääasiassa aistien kautta."
+  - "Musiikki, hellä kosketus, tutut äänet ja pehmeät esineet, joihin voi tarttua, tavoittavat ihmisen usein silloin, kun sanat eivät enää riitä."
+  - "Lähes jokainen tässä esitetty idea sopii sänkyyn tai tuoliin."
+  - "Seuraa kasvojen, käsien ja hengityksen merkkejä mukavuudesta ja epämukavuudesta, ja lopeta heti, jos näet ahdistuksen merkkejä."
+  - "Vältä pieniä esineitä ja tarjoa ruokaa tai juomaa vain hoitotiimin neuvomalla tavalla, sillä nieleminen voi muuttua turvattomaksi."
 faq:
-  - q: "Mitä toimintoja voi tehdä myöhäisvaiheen dementiaa sairastavan kanssa, joka on sängyssä?"
-    a: "Soittakaa hänen lempimusiikkiaan, pitäkää kädestä, antakaa hidas käsihieronta voiteella, lukekaa ääneen kirjasta tai rukouksesta, jota hän rakastaa, näyttäkää valokuvia tai soittakaa lempeitä luonnon ääniä. Avatkaa verhot, jotta hän näkee ulos. Lyhyet, rauhalliset hetket, joissa on yksi asia kerrallaan, toimivat yleensä parhaiten."
+  - q: "Mitä toimintoja voi tehdä myöhäisvaiheen dementiaa sairastavan kanssa, kun hän on sängyssä?"
+    a: "Voit soittaa hänen lempimusiikkiaan, pitää kädestä, antaa hitaan käsihieronnan kevyellä voiteella, lukea ääneen kirjasta tai rukouksesta, jota hän rakastaa, näyttää valokuvia tai soittaa hellää luonnon ääntä. Avaa verhot, jotta hän näkee ulos. Lyhyet, rauhalliset hetket, joissa on yksi asia kerrallaan, toimivat yleensä parhaiten."
   - q: "Voivatko myöhäisvaiheen dementiaa sairastavat yhä nauttia musiikista?"
-    a: "Monet voivat. Alzheimer’s Association huomauttaa, että myöhäisvaiheessakin ihminen voi napauttaa tahtia tai laulaa lapsuuden laulun mukana. Valitkaa musiikkia, josta hän piti nuorempana, ja pitäkää ääni hiljaisena."
+    a: "Monet voivat. Alzheimer's Association kertoo, että jopa myöhäisvaiheessa ihminen saattaa pystyä napauttamaan tahtia tai laulamaan mukana lapsuudestaan tuttua laulua. Valitse musiikkia, jota hän rakasti nuorempana, ja pidä äänenvoimakkuus hiljaisena."
   - q: "Miten tiedän, nauttiiko hän toiminnasta?"
-    a: "Seuratkaa pieniä merkkejä: rentoja hartioita, pehmeämpää ilmettä, katsekontaktia, hyräilyä, käden puristusta tai hitaampaa hengitystä. Irvistely, pois vetäytyminen, levottomuus tai voihkaisu voivat merkitä epämukavuutta tai kipua. Jos näette näitä, lopettakaa ja kertokaa hoitotiimille, jos ne jatkuvat."
-  - q: "Kannattaako minun käydä tapaamassa, jos hän ei enää tunnista minua?"
-    a: "Kyllä. National Institute on Aging huomauttaa, että pelkkä läsnäolo voi rauhoittaa, ja että kosketus, musiikki ja tarinat voivat yhä tuoda lohtua pitkälle edenneessä dementiassa. Äänenne ja kosketuksenne voivat olla tuttuja, vaikka nimenne ei olisi."
+    a: "Seuraa pieniä merkkejä: rentoja hartioita, pehmeämpää ilmettä, katsekontaktia, hyräilyä, kädenpuristusta tai hitaampaa hengitystä. Irvistely, pois vetäytyminen, levottomuus tai valittava ääni voivat merkitä epämukavuutta tai kipua. Jos näet näitä, lopeta ja kerro hoitotiimille, jos oireet jatkuvat."
+  - q: "Kannattaako käydä tapaamassa, jos hän ei enää tunnista minua?"
+    a: "Kannattaa. National Institute on Aging kertoo, että pelkkä läsnäolo voi rauhoittaa ja että kosketus, musiikki ja tarinat voivat yhä tuoda lohtua pitkälle edenneessä dementiassa. Äänesi ja kosketuksesi voivat olla tuttuja silloinkin, kun nimesi ei ole."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +49,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Dementian myöhäisvaiheessa ihminen voi puhua hyvin vähän, tarvita apua kaikessa päivittäisessä hoidossa ja viettää suuren osan päivästä sängyssä tai tuolissa. Voi tuntua, ettei yhdessä ole enää mitään tehtävää. On kuitenkin. [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) huomauttaa, että ihmisen minuudesta voi säilyä jokin ydin ja että tässä vaiheessa maailma koetaan pääasiassa aistien kautta. Musiikki, kosketus, tuttu ääni ja rauhallinen seuranne voivat yhä tuoda lohtua ja hetkiä yhteydestä.
+Myöhäisvaiheessa dementiaa ihminen voi puhua hyvin vähän, tarvita apua kaikissa päivittäisissä toimissa ja viettää suurimman osan päivästä sängyssä tai tuolissa. Voi tuntua, ettei yhdessä ole enää mitään tehtävissä. Jotain on kuitenkin. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) kertoo, että ihmisen minuudesta voi säilyä jotain tässäkin vaiheessa ja että maailmaa koetaan silloin pääasiassa aistien kautta. Musiikki, kosketus, tuttu ääni ja rauhallinen läsnäolosi voivat yhä tuoda lohtua ja hetkiä yhteyden tunteesta.
 
-## Mitkä toiminnat auttavat myöhäisvaiheen dementiassa?
+## Mitkä toiminnot auttavat myöhäisvaiheen dementiassa?
 
-Yksinkertaiset aistitoiminnat ja hiljainen seura auttavat eniten myöhäisvaiheessa. Alzheimer’s Association ehdottaa lempimusiikin soittamista, kirjojen merkityksellisten osien lukemista, lempituoksuisen voiteen hieromista iholle ja istumista ulkona yhdessä mukavana päivänä. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) lisää tarinoiden kertomisen, valokuvien näyttämisen, lempeän kosketuksen tai hieronnan sekä musiikin, valkoisen kohinan tai luonnon äänet, ja sanoo, että pelkkä läsnäolonne voi rauhoittaa.
+Yksinkertaiset aistitoiminnot ja hiljainen läsnäolo auttavat eniten myöhäisvaiheessa. Alzheimer's Association ehdottaa lempimusiikin soittamista, merkityksellisten kirjojen osien lukemista, lempituoksuisen voiteen hieromista ihoon ja yhdessä ulkona istumista kauniilla säällä. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) lisää tarinoiden kertomisen, valokuvien näyttämisen, hellän kosketuksen tai hieronnan sekä musiikin, valkoisen kohinan tai luonnon äänet. Sen mukaan pelkkä läsnäolosi voi rauhoittaa.
 
-[Alzheimer’s Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) huomauttaa, että myöhäisvaiheessa olevilla on usein vahva tarve pitää jotakin lähellä lohdutukseksi. Se ehdottaa yksinkertaisia aistitoimintoja, lempeitä venytyksiä, huivin liikuttelua, musiikkia, eläinvierailuja, ihmisen kosketusta ja vapaamuotoista taidetta.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) kertoo, että myöhäisvaiheessa olevilla on usein voimakas tarve pitää jotakin lähellä lohdukseksi. Se ehdottaa yksinkertaisia aistitoimintoja, lempeitä venyttelyjä, huivin liikuttelua, musiikkia, eläinvierailuja, kosketusta ja vapaamuotoista taidetta.
 
-## Toimintaa sängyssä tai tuolissa olevalle
+## Toimintoja sängyssä tai tuolissa olevalle
 
-1. **Soittakaa hänen musiikkiaan.** Valitkaa lauluja hänen nuoruudestaan, uskostaan tai perheestään. Pitäkää ääni hiljaisena ja istukaa lähellä. Vielä nytkin jotkut napauttavat sormella tai hyräilevät. Katso [musiikkitoiminnat](/activities/music/).
-2. **Pitäkää kädestä.** Pelkkä käden pitäminen lempeällä peukalon silityksellä on toiminta. Kertokaa ensin, mitä teette.
-3. **Antakaa hidas käsihieronta.** Lämmittäkää vähän voidetta kämmenissänne ja silittäkää ranteesta sormenpäihin. Valitkaa tuoksuton voide tai hänen aina rakastamansa tuoksu, jos hänen ihonsa sietää sitä.
-4. **Lukekaa ääneen.** Lempirunoa, katkelma rakastetusta kirjasta, raamatunkohta tai urheilusivu. Äänenne rytmi on tärkeämpi kuin sanat.
-5. **Kertokaa tarina.** Puhukaa perheen matkasta tai päivästä, jolloin hän meni naimisiin. Vastauksia ei tarvita.
-6. **Näyttäkää valokuvia.** Pitäkää yksi iso kuva kerrallaan silmien tasolla ja kuvailkaa sitä lämpimästi. Älkää kysykö, kuka siinä on.
-7. **Tarjotkaa jotain pehmeää pidettäväksi.** Taitettu pesulappu, fleecepalanen tai pehmeä eläin. National Institute on Aging ehdottaa, että henkilölle annetaan pesulappu pidettäväksi siirron aikana, jolloin hän todennäköisemmin ei tartu teihin tai huonekaluihin.
-8. **Soittakaa luonnon ääniä.** Sade, aallot tai lintujen laulu hiljaisella äänellä voivat pehmentää meluisaa huonetta.
-9. **Tuokaa ulkoa sisälle.** Avatkaa verhot, asettakaa linturuokinta ikkunan ulkopuolelle tai tuokaa sisälle muutama tuore kukka tai lehti katseltavaksi ja kosketeltavaksi.
-10. **Menkää ulos.** Jos hän voi istua pyörätuolissa, muutama minuutti varjossa lauhkealla säällä voi olla ihana.
-11. **Harjatkaa hiukset tai tarjotkaa lämmin liina.** Hidas, hellä hoito ja lämmin pesulappu käsille ja kasvoille voivat tuntua hoivaavilta.
-12. **Liikkukaa hellästi musiikin tahtiin.** Heiluttakaa kevyttä huivia yhdessä tai heiluttakaa käsiä laulun tahtiin. Venytyksiin ja nivelten liikkeisiin pyytäkää fysioterapeuttia tai hoitajaa näyttämään ensin turvalliset tavat.
-13. **Tehkää vapaamuotoista taidetta.** Levittäkää myrkytöntä maalia suurelle paperille sienellä tai kädellä, teidän ohjaamanne mukaan. Oikeaa lopputulosta ei ole.
-14. **Toivottakaa eläinvierailut tervetulleiksi.** Rauhallinen lemmikki sängyllä tai sylissä, jos henkilö piti eläimistä ja tilanne sen sallii.
-15. **Hengittäkää hitaasti yhdessä.** Istukaa lähellä ja hengittäkää hitaasti ja äänekkäästi. [Rauhallinen hengitys](/games/calm-breathing/) voi rytmittää teidät molemmat, ja te aloitatte ja lopetatte sen.
-16. **Olkaa vain siinä.** Istukaa lähellä, hyräilkää, neulokaa tai lukekaa hiljaa. Läsnäolo riittää.
+1. **Soita hänen musiikkiaan.** Valitse lauluja nuoruusvuosilta, uskonnosta tai perheestä. Pidä ääni hiljaisena ja istu lähellä. Vielä nytkin jotkut napauttavat sormella tahtia tai hyräilevät. Katso [musiikkitoiminnot](/creative-calm/music-for-calm-and-connection/).
+2. **Pitele kädestä.** Pelkkä kädestä pitäminen hellällä peukalon sivelyllä on toimintaa. Kerro ensin, mitä olet tekemässä.
+3. **Anna hidas käsihieronta.** Lämmitä vähän voidetta kämmenissäsi ja silitä ranteesta sormenpäihin. Valitse hajustamaton voide tai hänen aina rakastamansa tuoksu, jos hänen ihonsa sen sietää.
+4. **Lue ääneen.** Lempirunoa, kirjan kohtaa, raamatunjaetta tai urheilusivua. Puheesi rytmi merkitsee enemmän kuin sanat.
+5. **Kerro tarina.** Puhu perheen matkasta tai päivästä, jona hän meni naimisiin. Vastauksia ei tarvita.
+6. **Näytä valokuvia.** Pidä yhtä suurta kuvaa kerrallaan silmien tasolla ja kuvaile sitä lämpimästi. Vältä kysymästä, kuka kuvassa on.
+7. **Tarjoa jotain pehmeää pidettäväksi.** Taitettu pyyhe, fleecepala tai pehmolelu. NIA ehdottaa, että ihminen saa pyyhkeen pitää kädessään siirron aikana, jolloin hän todennäköisemmin ei tartu sinuun tai huonekaluihin.
+8. **Soita luonnon ääniä.** Sade, aallot tai linnunlaulu hiljaisella äänenvoimakkuudella voivat pehmentää meluisaa huonetta.
+9. **Tuo ulkoa sisälle.** Avaa verhot, aseta linturuokinta ikkunan taakse tai tuo muutama tuore kukka tai lehti katsottavaksi ja kosketeltavaksi.
+10. **Mene ulos.** Jos hän voi istua pyörätuolissa, muutama minuutti varjossa lauhalla säällä voi olla ihana.
+11. **Harjaa hiukset tai tarjoa lämmin liina.** Hidas, hellä hoito ja lämmin pyyhe käsille ja kasvoille voivat tuntua hoivaavilta.
+12. **Liiku hellästi musiikin tahtiin.** Heiluttakaa kevyttä huivia yhdessä tai liikuttakaa käsiä laulun tahtiin. Venyttelyihin ja nivelliikkeisiin pyydä ensin fysioterapeuttia tai hoitajaa näyttämään turvalliset tavat.
+13. **Tee vapaamuotoista taidetta.** Levitä myrkytöntä maalia isolle paperille sienellä tai kädellä ja ohjaa omaa kättäsi hänen kätensä mukana. Oikeaa lopputulosta ei ole.
+14. **Ota eläimet vieraiksi.** Rauhallinen lemmikki sängyllä tai sylissä, jos hän piti eläimistä ja tilanne sen sallii.
+15. **Hengittäkää hitaasti yhdessä.** Istu lähelle ja hengitä hitaasti ja kuuluvasti. [Rauhallinen hengitys](/games/calm-breathing/) voi rytmittää teitä molempia, ja sinä päätät, milloin aloitat ja lopetat.
+16. **Ole vain läsnä.** Istu lähellä, hyräile, neulo tai lue hiljaa. Pelkkä läsnäolo riittää.
 
-## Miten jaan toiminnan tässä vaiheessa
+## Näin jaat toiminnan tässä vaiheessa
 
-- **Lähestykää edestä.** Sanokaa hänen nimensä ja oma nimenne ja puhukaa hitaasti ja hiljaa ennen kuin kosketatte.
-- **Tarjotkaa yksi asia kerrallaan.** Sammuttakaa televisio ennen musiikin soittamista. Tehkää yksi aisti kerrallaan.
-- **Pitäkää se lyhyenä.** Muutama minuutti voi riittää. Useita lyhyitä hetkiä päivän aikana on parempi kuin yksi pitkä istunto.
-- **Varmistakaa mukavuus ensin.** Tarkistakaa, että henkilö on hyvin tuettu. National Institute on Aging ehdottaa syliin asetettavaa tukilevyä käsien lepuuttamiseen ja ylävartalon tukemiseen, kun hän istuu ylhäällä.
-- **Seuratkaa reaktiota.** Rentot kädet, pehmeämpi ilme, katsekontakti tai hyräily viittaavat mukavuuteen. National Institute on Aging huomauttaa, että voihkaisu, irvistely, kehonosan suojelu tai äkillinen kiihtyneisyys voivat olla kivun merkkejä. Lopettakaa ja kertokaa hoitotiimille.
+- **Lähesty edestä.** Sano hänen nimensä ja oma nimesi, ja puhu hitaasti ja pehmeästi ennen kuin kosket.
+- **Tarjoa yksi asia kerrallaan.** Sammuta televisio ennen musiikin soittamista. Käsittele yksi aisti kerrallaan.
+- **Pidä lyhyenä.** Muutama minuutti riittää usein. Useita lyhyitä hetkiä päivän mittaan on parempi kuin yksi pitkä.
+- **Varmista ensin mukavuus.** Tarkista, että hän on hyvin tuettu. NIA ehdottaa istuma-asennossa tukilautaa, jonka avulla käsivarret voivat levätä ja ylävartaloa on helpompi tukea.
+- **Seuraa reaktiota.** Rentoja käsiä, pehmeämpää ilmettä, katsekontaktia tai hyräilyä pidetään merkkinä mukavuudesta. NIA kertoo, että valittelu, irvistely, kehonosan suojelu tai äkillinen levottomuus voivat olla kivun merkkejä. Lopeta ja kerro hoitotiimille.
 
 ## Pikaopas aistien mukaan
 
-| Aisti | Ideat | Huomioitavaa |
+| Aisti | Ideoita | Huomioi |
 | --- | --- | --- |
-| Kuulo | Lempimusiikki, teidän äänenne lukemassa, luonnon äänet | Pitäkää ääni hiljaisena; yksi ääni kerrallaan |
-| Kosketus | Käsihieronta, kädestä pitäminen, pehmeä kangas, lämmin pesulappu | Kysykää tai ilmoittakaa ensin; tarkistakaa, ettei iho ole arka tai haavainen |
-| Näkö | Valokuvat, kukat, ikkunasta näkyvä maisema, hidas luontovideo | Pitäkää esineet silmien tasolla; hyvä valo, ei häikäisyä |
-| Haju | Lempivoide, tuoreet kukat, kahvin tuoksu lähellä | Vältä voimakkaita tuoksuja; tarkista allergiat ja hengitys |
+| Kuulo | Lempimusiikki, oma ääni lukemassa, luonnon äänet | Pidä ääni hiljaisena; yksi ääni kerrallaan |
+| Kosketus | Käsihieronta, kädestä pitäminen, pehmeä kangas, lämmin pyyhe | Kysy tai ilmoita ensin; tarkista, ettei iho ole arka tai haavainen |
+| Näkö | Valokuvat, kukat, näkymä ikkunasta, hidas luontovideo | Pidä esineet silmien tasolla; hyvä valo, ei häikäisyä |
+| Haju | Lempivoide, tuoreet kukat, kahvin tuoksu läheltä | Vältä voimakkaita tuoksuja; seuraa allergioita ja hengitystä |
 | Maku | Pieni maistiainen lempimausta | Vain ruoat ja koostumukset, jotka hoitotiimi sanoo turvallisiksi |
 
 ## Turvallisuus tässä vaiheessa
 
-Nieleminen voi käydä vaikeaksi myöhäisvaiheessa, ja National Institute on Aging varoittaa, että tämä lisää tukehtumisriskiä. Älkää jättäkö pieniä esineitä ulottuville ja tarjotkaa ruokaa tai juomaa vain koostumuksessa ja asennossa, jonka hoitotiimi suosittelee. Tarkistakaa iho varovasti kosketustoimintojen aikana, sillä iho voi repeytyä tai mustelmoitua helposti. Lisää turvallisista aistitoiminnoista katso [aistitoiminnat](/activities/sensory/).
+Nieleminen voi muuttua vaikeaksi myöhäisvaiheessa, ja NIA varoittaa, että tämä lisää tukehtumisen riskiä. Älä jätä pieniä esineitä ulottuville, ja tarjoa ruokaa tai juomaa vain hoitotiimin suosittelemassa koostumuksessa ja asennossa. Tarkista ihoa hellästi kosketustoiminnan aikana, sillä iho voi repeytyä tai mustelmoitua helposti. Lisää turvallisista aistitoiminnoista katso [aistitoiminnot](/creative-calm/sensory-activities-for-adults/).
 
 ## Huolehdi myös itsestäsi
 
-Myöhäisvaiheen omaishoito on fyysisesti ja henkisesti raskasta, kotona tai vierailuilla hoivakodissa. Saattohoito- ja palliatiivisen hoidon tiimit voivat auttaa mukavuudessa, tuessa ja suunnittelussa, ja National Institute on Aging luettelee ne apua antavina tahoina. Lyhyet, rauhalliset käynnit ovat sen arvoisia; katso [dementiaa sairastavan vierailu](/activities/visiting/). Jos vetätte ryhmiä, [hoivakotien ryhmätoiminnat](/activities/care-home-groups/) sisältää ideoita toimintojen mukauttamiseen. Lukekaa myös [omaishoitajan oma hyvinvointi](/caregiving/caregiver-self-care/): lepo kuuluu hyvään hoivaan.
+Myöhäisvaiheen omaishoito on fyysisesti ja henkisesti raskasta, olipa hoito kotona tai hoivakotivierailujen aikana. Saattohoito- ja palliatiivisen hoidon tiimit voivat auttaa mukavuuden, tuen ja suunnittelun kanssa, ja NIA mainitsee ne apua antavina tahoina. Lyhyet, rauhalliset vierailut ovat arvokkaita; katso [dementiaa sairastavan tapaaminen](/together/visiting-someone-in-care/). Jos ohjaat ryhmiä, [hoivakotiryhmien toiminta](/crafts/craft-group-sessions/) sisältää ideoita istuntojen mukauttamiseen. Lue myös [omaishoitajan itsehoito](/creative-calm/creative-self-care-for-caregivers/): lepo kuuluu hyvään hoitamiseen.

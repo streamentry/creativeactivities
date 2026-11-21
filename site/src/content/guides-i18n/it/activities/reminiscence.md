@@ -1,33 +1,32 @@
 ---
-title: "Attività di reminiscenza: scatole, storie di vita e foto"
-seoTitle: "Reminiscenza e demenza: idee senza domande a quiz"
-description: "Come condividere i ricordi con una persona che vive con la demenza senza interrogarla: foto, scatole dei ricordi e libri di vita, con frasi semplici."
+title: "Attività di reminiscenza: scatole dei ricordi, storie di vita e foto"
+seoTitle: "Attività di reminiscenza per la demenza: idee senza quiz"
+description: "Come condividere i ricordi con una persona che vive con la demenza senza fare domande a quiz: chiacchiere sulle foto, scatole dei ricordi e libri di vita, con frasi che rendono il momento sereno."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Fare reminiscenza significa rivivere insieme il passato attraverso foto,
-  oggetti, musica e racconti. Può creare una scatola dei ricordi, preparare un
-  semplice libro di vita o guardare le foto fianco a fianco. Non faccia mai un
-  quiz: eviti domande come «Ti ricordi?» e «Chi è?» e usi inviti aperti come
-  «Mi racconti di questo momento». Una conversazione serena conta più
-  dell’esattezza dei dettagli.
+  La reminiscenza significa godersi insieme il passato attraverso foto, oggetti,
+  musica e storie. Prepara una scatola dei ricordi, crea un semplice libro della
+  vita o guarda le foto fianco a fianco. Non fare domande a quiz: evita "Ti
+  ricordi?" e "Chi è questo?" e usa inviti aperti come "Raccontami di questa
+  foto." Una conversazione calorosa conta più che ricordare i fatti esatti.
 keyPoints:
-  - "La reminiscenza è una conversazione, non una verifica. Non conta l’esattezza, conta il piacere di condividerla."
-  - "Sostituisca «Ti ricordi...?» e «Chi è?» con commenti e inviti come «Mi racconti di questa giornata»."
-  - "Una scatola dei ricordi con oggetti della vita della persona offre qualcosa da toccare e su cui conversare."
-  - "Un libro di vita aiuta familiari, visitatori e personale di assistenza a conoscere la persona, non solo la diagnosi."
-  - "Se un ricordo provoca tristezza, offra conforto e passi con delicatezza ad altro."
+  - "La reminiscenza è una conversazione, non una prova. L'esattezza non conta; conta il piacere di stare insieme."
+  - "Sostituisci 'Ti ricordi...?' e 'Chi è questo?' con commenti e inviti come 'Raccontami com'era quella giornata.'"
+  - "Una scatola dei ricordi con oggetti della vita della persona offre alle mani e alla conversazione qualcosa da tenere."
+  - "Un libro della vita aiuta familiari, visitatori e personale di cura a conoscere la persona, non solo la diagnosi."
+  - "Se un ricordo porta tristezza, prima offri conforto e poi cambia argomento con delicatezza."
 faq:
-  - q: "Che cos’è la reminiscenza per le persone che vivono con la demenza?"
-    a: "La reminiscenza consiste nel condividere ricordi ed esperienze passate, spesso con l’aiuto di foto, oggetti, musica o video. Può avvenire a tu per tu o in gruppo. L’obiettivo è una conversazione piacevole e significativa, non verificare ciò che la persona riesce a ricordare."
-  - q: "Perché non dovrei chiedere «Ti ricordi?»"
-    a: "Le domande che mettono alla prova la memoria possono far sentire la persona in imbarazzo o in ansia quando la risposta non arriva. Il National Institute on Aging indica di evitare di chiedere se qualcuno ricorda qualcosa o qualcuno. Può invece commentare ciò che vede e lasciare che la persona aggiunga ciò che desidera."
-  - q: "Cosa posso mettere in una scatola dei ricordi?"
-    a: "Scelga oggetti sicuri e resistenti legati alla vita della persona: oggetti del lavoro, strumenti di un hobby, una sciarpa preferita, cartoline, ricette scritte, souvenir sportivi o copie di foto. Eviti oggetti appuntiti, piccoli oggetti che potrebbero essere ingeriti e originali insostituibili."
-  - q: "E se confonde i dettagli?"
-    a: "Lasci correre. Se sua madre dice che nella foto c’è sua sorella mentre in realtà è sua cugina, non è un problema. Correggerla trasforma un momento sereno in una verifica. Segua il racconto che sta condividendo e godetevi il momento insieme."
+  - q: "Cos'è la reminiscenza per le persone con demenza?"
+    a: "La reminiscenza consiste nel condividere ricordi ed esperienze passate, spesso con l'aiuto di foto, oggetti, musica o video. Può avvenire a due o in gruppo. Lo scopo è una conversazione piacevole e significativa, non verificare quanto la persona riesce a ricordare."
+  - q: "Perché non dovrei chiedere 'Ti ricordi?'"
+    a: "Le domande che mettono alla prova la memoria possono far sentire una persona in imbarazzo o ansiosa quando la risposta non arriva. Il National Institute on Aging elenca tra le cose da evitare il chiedere se la persona ricorda qualcosa o qualcuno. Commenta invece ciò che vedi e lascia che la persona aggiunga quello che desidera."
+  - q: "Cosa dovrei mettere in una scatola dei ricordi?"
+    a: "Scegli oggetti sicuri e resistenti legati alla vita della persona: attrezzi da lavoro, materiale per un hobby, una sciarpa preferita, cartoline, ricette scritte a mano, souvenir sportivi o copie di fotografie. Evita oggetti appuntiti, piccoli pezzi che potrebbero essere ingoiati e originali insostituibili."
+  - q: "E se ricorda male i fatti?"
+    a: "Lascia correre. Se tua mamma dice che la foto mostra sua sorella invece della cugina, va bene così. Correggere trasforma un momento caldo in una prova. Segui il racconto che la persona sta facendo e godetevelo insieme."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -44,84 +43,85 @@ sources:
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
 related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Fare reminiscenza significa semplicemente rivivere insieme il passato. Per molte persone che vivono con la demenza, i ricordi di molti anni fa possono restare più chiari di ciò che è accaduto questa mattina. Foto, oggetti familiari, musica e racconti possono far riaffiorare questi ricordi e offrirvi qualcosa di bello da condividere. Una sola regola: è una conversazione, mai un quiz.
+La reminiscenza significa semplicemente godersi insieme il passato. Per molte persone che vivono con la demenza, i ricordi di decenni fa restano più chiari di ciò che è accaduto questa mattina. Foto, oggetti familiari, musica e storie possono far riemergere quei ricordi e offrirvi qualcosa di caldo da condividere. Una sola regola: è una conversazione, mai un quiz.
 
-## Che cos’è la reminiscenza e in cosa è diversa da un quiz?
+## Cos'è la reminiscenza e in cosa si differenzia da un quiz?
 
-La reminiscenza è condividere ricordi attraverso foto, oggetti, musica o video, seguendo i tempi della persona. Il [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) la descrive come la condivisione di esperienze e racconti del passato con l’aiuto di foto, oggetti, video o musica, in un album o su un tablet. Il quiz è diverso: chiede alla persona di dare una risposta giusta, e questo può provocare imbarazzo invece che piacere.
+La reminiscenza consiste nel condividere ricordi attraverso foto, oggetti, musica o video, al ritmo della persona. Il [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) la descrive come la condivisione di esperienze e storie passate con l'aiuto di foto, oggetti, video o musica, in un libro o su un tablet. Il quiz è diverso: chiede alla persona di fornire una risposta giusta, e questo può generare imbarazzo invece di piacere.
 
-Il [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) indica di evitare di chiedere a una persona se ricorda qualcosa o qualcuno. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) suggerisce di evitare domande che si basano sulla memoria recente e di parlare invece del passato più lontano.
+Il [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) elenca tra le cose da evitare il chiedere a una persona se ricorda qualcosa o qualcuno. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) suggerisce di evitare domande che si basano sulla memoria a breve termine e di parlare piuttosto del passato più lontano.
 
-| Invece di | Può provare con |
+| Invece di | Prova con |
 | --- | --- |
-| «Ti ricordi questo?» | «Sembra una giornata felice. Mi racconti di questo momento.» |
-| «Chi è?» | «Ecco la zia Rosa al mare. Guarda che cappello.» |
-| «Di che anno è questa foto?» | «Sembra la vecchia casa. Com’era viverci?» |
-| «No, non è Marco, è Francesco.» | «Sembra una persona molto simpatica.» |
-| «Me lo hai già detto.» | «Mi piace tanto questo racconto.» |
+| "Ti ricordi questa foto?" | "Sembra una giornata felice. Raccontamela." |
+| "Chi è questa?" | "Ecco la zia Rosa alla spiaggia. Guarda che cappello." |
+| "In che anno è stata scattata?" | "Sembra la vecchia casa. Com'era vivere lì?" |
+| "No, non è Bill, è Frank." | "Sembra una persona molto simpatica." |
+| "Me l'hai già raccontato." | "Adoro questa storia." |
 
-## Come parlare delle foto senza fare domande a quiz?
+## Come parlare delle foto senza fare un quiz?
 
-Parta da ciò che vede, poi lasci spazio alla persona per aggiungere qualcosa, se lo desidera.
+Parti da ciò che vedi, poi lascia spazio alla persona perché aggiunga qualcosa, se lo desidera.
 
-1. **Si sieda fianco a fianco.** Tenga l’album tra voi, così guardate insieme, invece di trovarvi uno di fronte all’altra come in una verifica.
-2. **Scelga poche foto.** Cinque belle foto sono meglio di una scatola intera. Le stampe grandi e nitide sono le più adatte.
-3. **Dica Lei i nomi delle persone.** «Ecco tu e papà il giorno del vostro matrimonio» toglie pressione.
-4. **Commenti i dettagli.** Vestiti, automobili, cibo, tempo, volti. «Che bella macchina. Sembra così lucida.»
-5. **Inviti, non pretenda.** «Mi racconti di...» oppure «Cosa nota?» Anche il silenzio va bene.
-6. **Segua il suo ritmo.** Se la persona parla di qualcosa di completamente diverso, la segua.
-7. **Si fermi finché è piacevole.** Chiuda l’album prima che arrivi la stanchezza.
+1. **Sedetevi fianco a fianco.** Tenete l'album in mezzo a voi, così guardate insieme invece di mettervi l'uno di fronte all'altra come in un esame.
+2. **Scegli poche foto.** Cinque belle foto valgono più di un'intera scatola. Le stampe grandi e nitide funzionano meglio.
+3. **Nomina tu le persone.** "Ecco te e papà il giorno del matrimonio" toglie ogni pressione.
+4. **Commenta i dettagli.** Vestiti, auto, cibo, tempo, volti. "Che macchina. Sembra così lucida."
+5. **Invita, non pretendere.** "Raccontami di..." oppure "Che cosa noti?" Anche il silenzio va bene.
+6. **Segui la sua strada.** Se parla di tutt'altro, seguila.
+7. **Fermati finché è piacevole.** Chiudi l'album prima che subentri la stanchezza.
 
-Per spunti visivi già pronti, può provare le [carte per conversare](/games/conversation-cards/). Per trasformare le foto di famiglia in un semplice gioco di abbinamenti, può provare [photo pairs](/games/photo-pairs/); le foto che sceglie restano nel suo browser.
+Per spunti già pronti, prova le [carte per la conversazione](/games/conversation-cards/). Per trasformare le tue foto di famiglia in un gioco di abbinamento delicato, prova [coppie di foto](/games/photo-pairs/): le foto che scegli restano nel tuo browser.
 
-## Come creare una scatola dei ricordi?
+## Come si prepara una scatola dei ricordi?
 
-Una scatola dei ricordi è un contenitore con oggetti della vita della persona da prendere in mano e di cui parlare.
+Una scatola dei ricordi è un contenitore di oggetti della vita della persona da prendere in mano e di cui parlare.
 
-1. **Scelga una scatola robusta** e facile da aprire, come una scatola da scarpe, una cappelliera o un piccolo baule di legno.
-2. **Scelga un tema o un insieme misto.** Il lavoro, un hobby, un luogo, un periodo della vita o un po’ di tutto.
-3. **Raccolga oggetti sicuri.** Per iniziare bastano da cinque a dieci oggetti.
-4. **Usi copie degli oggetti preziosi.** Faccia copie di foto e documenti insostituibili e conservi gli originali al sicuro.
-5. **Tiri fuori un oggetto alla volta.** Lo porga alla persona, dica qualcosa al riguardo e veda dove va la conversazione.
+1. **Scegli una scatola robusta** facile da aprire, come una scatola da scarpe, una scatola per cappelli o un piccolo baule di legno.
+2. **Scegli un tema o un mix.** Il lavoro, un hobby, un luogo, un decennio, o un po' di tutto.
+3. **Raccogli oggetti sicuri.** Per iniziare bastano da cinque a dieci oggetti.
+4. **Usa copie delle cose preziose.** Copia le foto e i documenti insostituibili e conserva gli originali in un luogo sicuro.
+5. **Tira fuori un oggetto alla volta.** Consegnalo, dì qualcosa a riguardo e vedi dove porta la conversazione.
 
 Idee da includere:
 
-- **Lavoro:** un tesserino, un piccolo attrezzo, una toppa dell’uniforme, un registro, una spilla da infermiere, un ricettario di un locale.
+- **Lavoro:** un cartellino con il nome, un piccolo attrezzo, una toppa della divisa, un registro, una spilla da infermiere, un libro di ricette di una tavola calda.
 - **Casa:** una ricetta scritta a mano, un canovaccio, una sciarpa o una cravatta preferita.
-- **Hobby:** un’esca da pesca senza amo, una pallina da baseball, un gomitolo di lana, una bustina di semi.
-- **Luoghi:** cartoline, mappe, un souvenir, un ritaglio di giornale della città natale.
+- **Hobby:** un'esca da pesca senza amo, una palla da baseball, un gomitolo di lana, una bustina di semi.
+- **Luoghi:** cartoline, mappe, un souvenir turistico, un ritaglio di giornale della città natale.
 - **Famiglia:** copie di foto, un disegno di un bambino, un invito di nozze.
 
-Eviti oggetti appuntiti, piccoli oggetti che potrebbero essere ingeriti e qualsiasi cosa che possa riportare ricordi dolorosi, a meno che non sappia che è gradita.
+Lascia fuori gli oggetti appuntiti, le cose piccole che potrebbero essere ingoiate e tutto ciò che potrebbe riportare alla mente ricordi dolorosi, a meno che tu non sappia che sarà gradito.
 
-## Come creare un libro di vita?
+## Come si prepara un libro della vita?
 
-Un libro di vita è un semplice album con foto e brevi didascalie sulla vita della persona. È qualcosa da guardare insieme e aiuta visitatori e personale di assistenza a vedere la persona nella sua interezza.
+Un libro della vita è un semplice album di foto e brevi didascalie sulla vita della persona. È qualcosa da sfogliare insieme e aiuta visitatori e personale di cura a conoscere la persona nella sua interezza.
 
-1. **Scelga un formato.** Un raccoglitore con buste trasparenti, un album fotografico stampato o una presentazione su un tablet.
-2. **Preveda alcune sezioni.** Infanzia, scuola, lavoro, famiglia, luoghi in cui ha vissuto, fede, hobby, cibi e musica preferiti.
-3. **Aggiunga una o due foto per pagina** con una didascalia breve e in caratteri grandi: «Maria, 22 anni, primo giorno di lavoro in banca».
-4. **Includa gusti e abitudini.** «Prende il caffè con il latte. Ama i canti della domenica. Non le piace la TV ad alto volume.» Questo può aiutare chi se ne prende cura.
-5. **Coinvolga la persona** quanto desidera, scegliendo le foto, raccontando storie o semplicemente guardando il libro prendere forma.
-6. **Continui ad aggiungere contenuti.** Non è necessario completarlo perché sia utile.
+1. **Scegli un formato.** Un raccoglitore con buste trasparenti, un libro fotografico stampato o una presentazione su tablet.
+2. **Pianifica alcune sezioni.** Infanzia, scuola, lavoro, famiglia, luoghi in cui ha vissuto, fede, hobby, cibi e musica preferiti.
+3. **Aggiungi una o due foto per pagina** con una didascalia breve e in caratteri grandi: "Maria, a 22 anni, comincia a lavorare in banca."
+4. **Includi gusti e abitudini.** "Beve il caffè con il latte. Ama i canti domenicali. Non sopporta la TV ad alto volume." Questo aiuta chiunque si prenda cura di lei.
+5. **Coinvolgi la persona** nella misura che desidera, scegliendo le foto, raccontando storie o semplicemente guardando il libro prendere forma.
+6. **Continua ad aggiungere.** Non serve che sia finito per essere utile.
 
-## Altre idee per la reminiscenza
+## Altre idee di reminiscenza
 
-- **Ascolti musica della sua giovinezza** e parlate dei ricordi che suscita. Veda le [attività con la musica](/activities/music/).
+- **Fate ascoltare la musica della sua giovinezza** e parlate di dove vi porta. Vedi [attività musicali](/creative-calm/music-for-calm-and-connection/).
 - **Guardate filmati di famiglia o programmi TV** dei decenni che preferisce.
-- **Cucinate un piatto della sua infanzia** e lasciate che i profumi guidino la conversazione.
-- **Guardate una mappa** della sua città natale e seguite insieme le strade più familiari.
-- **Sfogliate vecchi cataloghi o riviste** e parlate di prezzi, mode e automobili.
-- **Registrate i suoi racconti** con il telefono, con il suo permesso, per la famiglia.
-- **Condividete durante una chiamata.** Mostri una foto durante una videochiamata; veda [chiamate telefoniche e videochiamate](/activities/phone-and-video-calls/).
-- **Porti una foto o un oggetto quando va a trovarla.** Può dare alla visita un punto su cui soffermarsi con facilità; veda [le visite](/activities/visiting/).
+- **Cucinate un piatto dell'infanzia** e lasciate che i profumi guidino la conversazione.
+- **Guardate una mappa** della città natale e seguite con il dito le strade familiari.
+- **Sfogliate vecchi cataloghi o riviste** e parlate di prezzi, mode e auto.
+- **Registrate le sue storie** con il telefono, con il suo consenso, per la famiglia.
+- **Condividete durante le chiamate.** Mostra una foto durante una videochiamata; vedi [telefonate e videochiamate](/together/staying-connected-from-afar/).
+- **Porta una foto o un oggetto quando fai visita.** Dà alla visita un punto di partenza semplice; vedi [far visita](/together/visiting-someone-in-care/).
 
 ## E se un ricordo è doloroso?
 
-Alcuni ricordi possono suscitare dolore, rimpianto o paura. Se la persona si turba, si fermi, la conforti e cambi con delicatezza argomento o attività. Non discuta su ciò che è accaduto. La Family Caregiver Alliance consiglia di non cercare di convincere la persona che ha torto e suggerisce di rispondere ai sentimenti che manifesta, che sono reali. Se parla di qualcuno che non c’è più come se fosse ancora vivo, risponda al sentimento: «Le manca molto. Mi racconti di lei.»
+Alcuni ricordi portano dolore, rimpianto o paura. Se la persona si agita, fermati, confortala e cambia dolcemente argomento o attività. Non discutere su ciò che è accaduto. La Family Caregiver Alliance sconsiglia di cercare di convincere la persona che si sbaglia e suggerisce di rispondere ai sentimenti che mostra, che sono reali. Se parla di qualcuno che è morto come se fosse ancora vivo, rispondi al sentimento: "Ti manca. Raccontami di lei."
 
-## Che cosa dice la ricerca?
+## Cosa dice la ricerca?
 
-Una [revisione Cochrane sulla reminiscenza](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), che ha esaminato 22 studi con 1.972 persone, ha rilevato che gli effetti erano incoerenti, piccoli e variabili a seconda del contesto e del tipo di attività. Non ha trovato prove di danni per le persone che vivono con la demenza. Suggeriamo la reminiscenza perché può offrire momenti sereni e significativi da condividere, non come trattamento. Per altri consigli su come conversare con semplicità, veda i [consigli per comunicare](/caregiving/communication-tips/).
+Una [revisione Cochrane sulla reminiscenza](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), che comprende 22 studi e 1.972 persone, ha rilevato effetti non costanti, modesti e variabili a seconda del contesto e del formato. Non ha trovato prove di danni per le persone con demenza. Suggeriamo la reminiscenza perché può rendere il tempo trascorso insieme caldo e significativo, non come trattamento. Per altri consigli su una conversazione semplice, vedi [i primi passi dopo una diagnosi](/caregiving/after-dementia-diagnosis/).

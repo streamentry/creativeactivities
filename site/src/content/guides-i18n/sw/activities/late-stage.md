@@ -1,33 +1,33 @@
 ---
-title: "Shughuli za Dementia ya Hatua ya Mwisho, Hata Kitandani"
-seoTitle: "Dementia ya Hatua ya Mwisho: Shughuli za Kitandani"
-description: "Shughuli za upole kwa dementia ya hatua ya mwisho, pia kitandani au kwenye kiti: muziki, kugusa, kusomewa, sauti na kuwa pamoja tu, na tahadhari za usalama."
+title: "Shughuli za Hatua ya Mwisho ya Dementia, Kitandani na Kitini"
+seoTitle: "Shughuli za Hatua ya Mwisho: Mawazo ya Kitandani na Kitini"
+description: "Shughuli laini kwa hatua ya mwisho ya dementia, zinazofaa mtu aliye kitandani au kitini: muziki, kugusa, kusoma kwa sauti na kuwa pamoja, pamoja na tahadhari."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Katika dementia ya hatua ya mwisho, shughuli huzingatia milango ya fahamu na
-  kuwa kwako karibu: kucheza muziki anaoupenda, kushikana mikono, kusuguliwa
-  mkono polepole, kusomewa kwa sauti, kutazama picha, sauti za asili na kukaa
-  karibu na dirisha au nje. Hizi zinafaa kitandani au kwenye kiti. Weka vikao
-  vifupi, angalia nyuso na mikono kuona faraja, na ukumbuke kwamba kuwepo
-  mwenyewe ni shughuli.
+  Katika dementia ya hatua ya mwisho, shughuli zinalenga hisia na uwepo wako:
+  kucheza muziki unaopendwa, kushikana mikono, kukanda mkono polepole, kusoma
+  kwa sauti, kuangalia picha, sauti za maumbile, na kukaa karibu na dirisha au
+  nje. Hizi zinafaa kitandani au kitini. Fanya vipindi vifupi, angalia uso na
+  mikono kama dalili za faraja, na kumbuka kwamba kuwepo kwako chenyewe ni
+  shughuli.
 keyPoints:
-  - "Mshikamano bado unawezekana. Katika hatua ya mwisho, dunia hupatikana hasa kupitia milango ya fahamu."
-  - "Muziki, mguso wa upole, sauti zinazojulikana na vitu laini vya kushika mara nyingi huwafikia watu pale maneno yanaposhindwa."
-  - "Karibu kila wazo hapa linafaa kwa mtu aliye kitandani au kwenye kiti."
-  - "Angalia faraja na usumbufu usoni, mikononi na kwenye kupumua, na simama kwa dalili yoyote ya dhiki."
-  - "Epuka vitu vidogo na toa chakula au kinywaji tu kama timu ya huduma inavyoshauri, kwa sababu kumeza kunaweza kuwa si salama."
+  - "Bado kuna uwezekano wa kuungana. Katika hatua ya mwisho, dunia inapokelewa zaidi kupitia hisia."
+  - "Muziki, kugusa kwa upole, sauti zinazofahamika na vitu laini vya kushika mara nyingi hufikia watu wakati maneno hayafikii tena."
+  - "Karibu kila wazo hapa linafaa kwa mtu aliye kitandani au kitini."
+  - "Angalia faraja na usumbufu katika uso, mikono na kupumua, na simama kwa dalili yoyote ya dhiki."
+  - "Epuka vitu vidogo, na toa chakula au kinywaji tu kama timu ya huduma inavyoshauri, kwa sababu kumeza kunaweza kuwa hatari."
 faq:
-  - q: "Ni shughuli gani unaweza kufanya na mtu mwenye dementia ya hatua ya mwisho aliye kitandani?"
-    a: "Cheza muziki anaoupenda, shika mkono wake, msugue mkono polepole kwa mafuta, msomee kwa sauti kitabu au sala anayoipenda, mwonyeshe picha, au cheza sauti laini za asili. Fungua mapazia aweze kuona nje. Vikao vifupi na tulivu vyenye kitu kimoja kwa wakati kwa kawaida hufanya kazi vizuri zaidi."
-  - q: "Je, watu wenye dementia ya hatua ya mwisho bado wanaweza kufurahia muziki?"
-    a: "Wengi wanaweza. Alzheimer's Association inabainisha kwamba hata katika hatua ya mwisho, mtu anaweza kuweza kugonga mdundo au kuimba pamoja na wimbo wa utotoni. Chagua muziki aliupenda alipokuwa mdogo na weka sauti iwe laini."
-  - q: "Nitajuaje kama anafurahia shughuli?"
-    a: "Angalia ishara ndogo: mabega yaliyolegea, uso uliolainika, kutazamana machoni, kuimba kwa mdomo uliofungwa, kukamua mkono au kupumua polepole. Kukunja uso, kujiondoa, kutotulia au kulia kwa sauti ya chini kunaweza kumaanisha usumbufu au maumivu. Ukiona hivi, simama na umwambie timu ya huduma kama vitaendelea."
-  - q: "Je, inafaa kumtembelea kama hanitambui tena?"
-    a: "Ndiyo. National Institute on Aging inabainisha kwamba kuwepo tu kunaweza kutuliza, na kwamba mguso, muziki na hadithi bado vinaweza kutoa faraja katika dementia ya hali ya juu. Sauti yako na mguso wako vinaweza kuwa vinajulikana hata jina lako lisipojulikana."
+  - q: "Ni shughuli gani unaweza kufanya na mtu aliye katika dementia ya hatua ya mwisho ambaye yuko kitandani?"
+    a: "Cheza muziki anaoupenda, shika mkono wake, mpe kukanda mkono polepole kwa losheni, soma kwa sauti kutoka kitabu au sala anachokipenda, onyesha picha, au cheza sauti laini za maumbile. Fungua pazia ili aweze kuona nje. Vipindi vifupi na tulivu, kimoja kwa wakati, mara nyingi ndivyo vinavyofanya kazi vizuri zaidi."
+  - q: "Je, watu walio katika dementia ya hatua ya mwisho bado wanaweza kufurahia muziki?"
+    a: "Wengi wanaweza. Alzheimer's Association inaeleza kwamba hata katika hatua ya mwisho, mtu anaweza kugonga mdundo au kuimba pamoja na wimbo wa utotoni. Chagua muziki aliopenda alipokuwa mdogo na weka sauti chini."
+  - q: "Ninawezaje kujua kama anafurahia shughuli?"
+    a: "Tazama dalili ndogo: mabega yaliyolegea, uso laini zaidi, kutazamana machoni, kuimba kimya, kubana mkono au kupumua polepole. Kukunja uso, kujiondoa, kutotulia au kuugua vinaweza kumaanisha usumbufu au maumivu. Ukiona dalili hizi, simama, na uwaambie timu ya huduma ikiwa zinaendelea."
+  - q: "Je, bado kuna maana ya kumtembelea ikiwa hanitambui tena?"
+    a: "Ndiyo. National Institute on Aging inaeleza kwamba uwepo wako peke yake unaweza kutuliza, na kwamba kugusa, muziki na hadithi bado vinaweza kutoa faraja katika dementia ya hali ya juu. Sauti yako na mguso wako vinaweza kubaki vinafahamika hata jina lako likiwa halikumbukwi."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +49,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Katika hatua ya mwisho ya dementia, mtu anaweza kuzungumza kidogo sana, kuhitaji msaada katika huduma zote za kila siku na kutumia sehemu kubwa ya siku kitandani au kwenye kiti. Inaweza kuhisiwa kana kwamba hakuna kilichobaki cha kufanya pamoja. Kipo. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) inabainisha kwamba kiini fulani cha utu wa mtu kinaweza kubaki, na kwamba katika hatua hii dunia hupatikana hasa kupitia milango ya fahamu. Muziki, mguso, sauti inayojulikana na kuwa kwako kwa utulivu bado vinaweza kuleta faraja na nyakati za mshikamano.
+Katika hatua ya mwisho ya dementia, mtu anaweza kuzungumza kidogo sana, kuhitaji msaada katika huduma zote za kila siku, na kutumia sehemu kubwa ya siku kitandani au kitini. Inaweza kuonekana kana kwamba hakuna kitu kilichobaki cha kufanya pamoja. Bado kipo. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) inaeleza kwamba sehemu fulani ya utu wa mtu inaweza kubaki, na kwamba katika hatua hii dunia inapokelewa zaidi kupitia hisia. Muziki, kugusa, sauti inayofahamika na uwepo wako wa utulivu bado vinaweza kuleta faraja na nyakati za kuungana.
 
-## Ni shughuli gani zinasaidia katika dementia ya hatua ya mwisho?
+## Shughuli gani zinasaidia katika dementia ya hatua ya mwisho?
 
-Shughuli rahisi za milango ya fahamu na kuwa karibu kwa utulivu husaidia zaidi katika hatua ya mwisho. Alzheimer's Association inapendekeza kucheza muziki anaoupenda, kusoma sehemu za vitabu vyenye maana kwake, kupaka ngozi mafuta yenye harufu anayoipenda, na kukaa nje pamoja siku nzuri. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) inaongeza kusimulia hadithi, kuonyesha picha, mguso wa upole au kusugua, na muziki, kelele laini zinazoendelea au sauti za asili, na inasema kuwepo kwako pekee kunaweza kutuliza.
+Shughuli rahisi za hisia na uwepo wa utulivu husaidia zaidi katika hatua ya mwisho. Alzheimer's Association inapendekeza kucheza muziki unaopendwa, kusoma sehemu za vitabu vyenye maana, kupaka losheni yenye harufu anayopenda mtu kwenye ngozi, na kukaa nje pamoja siku yenye hali nzuri. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) inaongeza kusimulia hadithi, kuonyesha picha, kugusa kwa upole au kukanda, na muziki, kelele laini au sauti za maumbile, na inasema uwepo wako peke yake unaweza kutuliza.
 
-[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) inabainisha kwamba watu walio katika hatua ya mwisho mara nyingi wana hitaji kubwa la kushikilia kitu karibu kwa faraja, na inapendekeza shughuli rahisi za milango ya fahamu, kujinyoosha kwa upole, kusogeza kitambaa, muziki, ziara za wanyama, mguso wa binadamu na sanaa huru.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) inaeleza kwamba watu walio katika hatua ya mwisho mara nyingi wanahitaji sana kushika kitu karibu nao kwa faraja, na inapendekeza shughuli rahisi za hisia, mazoezi laini ya kunyoosha mwili, kusogeza mtandio, muziki, ziara za wanyama, kugusa kwa binadamu na sanaa huru.
 
-## Shughuli kwa mtu aliye kitandani au kwenye kiti
+## Shughuli kwa mtu aliye kitandani au kitini
 
-1. **Cheza muziki wake.** Chagua nyimbo za miaka ya ujana wake, imani yake au familia yake. Weka sauti laini na kaa karibu. Hata sasa, baadhi ya watu hugonga kidole au huimba kwa mdomo uliofungwa. Tazama [shughuli za muziki](/activities/music/).
-2. **Shikaneni mikono.** Kushika mkono tu, ukipapasa kidole gumba taratibu, ni shughuli. Sema unachofanya kwanza.
-3. **Msugue mkono polepole.** Pasha mafuta kidogo viganjani mwako na upitishe kutoka kifundo cha mkono hadi ncha za vidole. Chagua mafuta yasiyo na harufu, au yenye harufu aliyoipenda siku zote kama ngozi yake inaikubali.
-4. **Soma kwa sauti.** Shairi analolipenda, kifungu kutoka kitabu alichokipenda sana, maandiko matakatifu au ukurasa wa michezo. Mdundo wa sauti yako ni muhimu kuliko maneno.
-5. **Simulia hadithi.** Zungumza kuhusu safari ya familia au siku aliyooa au kuolewa. Huhitaji majibu.
-6. **Onyesha picha.** Shika picha moja kubwa kwa wakati kwenye usawa wa macho na uieleze kwa upole. Epuka kuuliza nani yumo.
-7. **Mpe kitu laini cha kushika.** Kitambaa kidogo kilichokunjwa, kipande cha ngozi laini ya sufu au mnyama laini. NIA inapendekeza kumpa mtu kitambaa cha kushika anaposogezwa, ili asiwe na uwezekano mkubwa wa kukushika wewe au samani.
-8. **Cheza sauti za asili.** Mvua, mawimbi au nyimbo za ndege kwa sauti ya chini zinaweza kulainisha chumba chenye kelele.
-9. **Leta nje ndani.** Fungua mapazia, weka kilisho cha ndege nje ya dirisha, au leta maua mapya machache au majani ya kutazama na kugusa.
-10. **Nenda nje.** Kama mtu anaweza kuketi kwenye kiti cha magurudumu, dakika chache kivulini siku ya hali ya hewa nzuri zinaweza kuwa nzuri sana.
-11. **Msukie nywele au mpe kitambaa cha uvuguvugu.** Kuandaa kwa upole na polepole na kitambaa cha uvuguvugu kwa mikono na uso kunaweza kuhisiwa kuwa cha kujali.
-12. **Sogeeni kwa upole na muziki.** Pepeeni kitambaa chepesi pamoja, au yumbisheni mikono kwa mdundo wa wimbo. Kwa kujinyoosha na kusogeza viungo, mwombe mtaalamu wa tiba ya mwili au muuguzi akuonyeshe njia salama kwanza.
-13. **Fanya sanaa huru.** Sambaza rangi isiyo na sumu kwenye karatasi kubwa kwa sifongo au kwa mkono, ukiongozwa na wako. Hakuna matokeo sahihi.
-14. **Karibisha ziara za wanyama.** Mnyama mtulivu kitandani au mapajani, kama mtu alipenda wanyama na mazingira yanaruhusu.
-15. **Pumueni polepole pamoja.** Kaa karibu na upumue polepole na kwa sauti inayosikika. [Pumzi tulivu](/games/calm-breathing/) inaweza kuwapa kasi nyote wawili, na wewe unaianza na kuisimamisha.
-16. **Kuwepo tu.** Kaa karibu, imba kwa mdomo uliofungwa, fuma au soma kimya kimya. Kuwepo kunatosha.
+1. **Cheza muziki wake.** Chagua nyimbo za miaka ya ujana wake, imani yake au familia yake. Weka sauti chini na ukae karibu. Hata sasa, baadhi ya watu hugonga kidole au kuimba kimya. Tazama [shughuli za muziki](/creative-calm/music-for-calm-and-connection/).
+2. **Shikana mikono.** Kushika mkono tu, kwa kupiga kidole gumba kwa upole, ni shughuli yenyewe. Kwanza mweleze unachofanya.
+3. **Kanda mkono polepole.** Pasha losheni kidogo kwenye viganja vyako kisha paka kutoka kwenye kifundo cha mkono hadi ncha za vidole. Chagua losheni isiyo na harufu, au harufu anayopenda kila wakati ikiwa ngozi yake inavumilia.
+4. **Soma kwa sauti.** Shairi analopenda, sehemu ya kitabu anachokipenda, maandiko au ukurasa wa michezo. Mdundo wa sauti yako ni muhimu kuliko maneno.
+5. **Simulia hadithi.** Zungumzia safari ya familia au siku walipofunga ndoa. Hauhitaji majibu.
+6. **Onyesha picha.** Shikilia picha moja kubwa kwa wakati mmoja usawa wa macho na uieleze kwa uchangamfu. Epuka kuuliza ni nani aliye kwenye picha.
+7. **Mpe kitu laini cha kushika.** Taulo ndogo ya kunawa iliyokunjwa, mraba wa kitambaa cha fleece au mnyama laini wa kuchezea. NIA inapendekeza kumpa taulo ya kunawa ashike wakati anahamishwa, ili asiwe na uwezekano wa kukushika wewe au samani.
+8. **Cheza sauti za maumbile.** Mvua, mawimbi au sauti za ndege kwa sauti ya chini vinaweza kulainisha chumba chenye kelele.
+9. **Leta nje ndani.** Fungua pazia, weka chakula cha ndege nje ya dirisha, au weka maua mabichi au majani machache ya kutazama na kugusa.
+10. **Toka nje.** Ikiwa anaweza kukaa kwenye kiti cha magurudumu, dakika chache kivulini siku yenye hali nzuri zinaweza kupendeza sana.
+11. **Chana nywele zake au mpe taulo ya joto.** Kutunza mwili kwa upole na polepole, pamoja na taulo ya joto kwa mikono na uso, kunaweza kuhisiwa kama upendo.
+12. **Sogea kwa upole kwa muziki.** Pepea mtandio mwepesi pamoja, au yumbisha mikono kwa mdundo wa wimbo. Kwa mazoezi ya kunyoosha na kusogeza viungo, muulize mtaalamu wa tiba ya mwili au muuguzi akuonyeshe njia salama kwanza.
+13. **Tengeneza sanaa huru.** Panga rangi isiyo na sumu kwenye karatasi kubwa kwa sifongo au kwa kiganja, huku ukimwongoza kwa mkono wako. Hakuna matokeo sahihi.
+14. **Karibisha ziara za wanyama.** Mnyama mtulivu kitandani au kwenye mapaja, ikiwa mtu alipenda wanyama na mazingira yanaruhusu.
+15. **Pumua polepole pamoja.** Kaa karibu, pumua polepole na kwa sauti inayosikika. [Kupumua kwa utulivu](/games/calm-breathing/) kunaweza kuongoza kasi ya nyote wawili, na wewe ndiye unayeanza na kukomesha.
+16. **Kuwa tu hapo.** Kaa karibu, nong'ona wimbo, fuma kitu au soma kimya. Kuwepo kunatosha.
 
 ## Jinsi ya kushiriki shughuli katika hatua hii
 
-- **Mkaribie kutoka mbele.** Sema jina lake na jina lako, na uzungumze polepole na kwa upole kabla ya kugusa.
-- **Toa kitu kimoja kwa wakati.** Zima televisheni kabla ya kucheza muziki. Fanya mlango mmoja wa fahamu kwa wakati.
-- **Ifanye fupi.** Dakika chache zinaweza kutosha. Nyakati kadhaa fupi katika siku ni bora kuliko kikao kimoja kirefu.
-- **Hakikisha yuko vizuri kwanza.** Hakikisha mtu ameegemezwa vizuri. NIA inapendekeza ubao wa mapajani wa kupumzisha mikono na kuegemeza sehemu ya juu ya mwili anapoketi.
-- **Angalia jibu.** Mikono iliyolegea, uso uliolainika, kutazamana machoni au kuimba kwa mdomo uliofungwa vinaashiria faraja. NIA inabainisha kwamba kulia kwa sauti ya chini, kukunja uso, kulinda sehemu ya mwili au kutotulia ghafla kunaweza kuwa dalili za maumivu. Simama, na umwambie timu ya huduma.
+- **Karibia kutoka mbele.** Taja jina lake na jina lako, na zungumza polepole na kwa upole kabla ya kugusa.
+- **Toa jambo moja kwa wakati.** Zima TV kabla ya kucheza muziki. Shughulikia hisia moja kwa wakati.
+- **Weka muda mfupi.** Dakika chache zinaweza kutosha. Nyakati fupi kadhaa siku nzima ni bora kuliko kipindi kimoja kirefu.
+- **Hakikisha ana starehe kwanza.** Angalia kwamba anaungwa mkono vizuri. NIA inapendekeza ubao wa mapaja kusaidia mikono na sehemu ya juu ya mwili anapoketi wima.
+- **Tazama mwitikio wake.** Mikono iliyolegea, uso laini, kutazamana machoni au kuimba kimya huonyesha faraja. NIA inaeleza kwamba kuugua, kukunja uso, kulinda sehemu fulani ya mwili au hasira ya ghafla vinaweza kuwa dalili za maumivu. Simama, kisha mweleze timu ya huduma.
 
-## Mwongozo wa haraka kwa mlango wa fahamu
+## Mwongozo mfupi kwa kila hisia
 
-| Mlango wa fahamu | Mawazo | Chukua tahadhari |
+| Hisia | Mawazo | Tahadhari |
 | --- | --- | --- |
-| Kusikia | Muziki anaoupenda, sauti yako ikisoma, sauti za asili | Weka sauti ya chini; sauti moja kwa wakati |
-| Kugusa | Kusuguliwa mkono, kushikana mikono, kitambaa laini, kitambaa cha uvuguvugu | Uliza au tangaza kwanza; hakikisha ngozi haina vidonda wala haijachanika |
-| Kuona | Picha, maua, mandhari kutoka dirishani, video ya asili ya polepole | Shika vitu kwenye usawa wa macho; mwanga mzuri, bila mng'ao |
-| Kunusa | Mafuta anayoyapenda, maua mapya, kahawa inayoandaliwa karibu | Epuka harufu kali; angalia mizio na kupumua |
-| Kuonja | Ladha ndogo ya anachopenda | Vyakula na umbile tu ambavyo timu ya huduma inasema ni salama |
+| Kusikia | Muziki anaoupenda, sauti yako ukisoma, sauti za maumbile | Weka sauti chini; sauti moja kwa wakati |
+| Kugusa | Kukanda mkono, kushikana mikono, kitambaa laini, taulo ya joto | Uliza au tangaza kwanza; hakikisha ngozi haina maumivu wala kuvunjika |
+| Kuona | Picha, maua, mandhari ya dirishani, video tulivu ya maumbile | Shikilia vitu usawa wa macho; mwanga mzuri, bila mng'ao |
+| Kunusa | Losheni anayoipenda, maua mabichi, kahawa inayochemka karibu | Epuka harufu kali; angalia mzio na kupumua |
+| Ladha | Ladha kidogo ya kitu anachokipenda | Vyakula na maumbo tu ambayo timu ya huduma inasema ni salama |
 
 ## Usalama katika hatua hii
 
-Kumeza kunaweza kuwa kugumu katika hatua ya mwisho, na NIA inaonya kwamba hili huongeza hatari ya kubanwa na koo. Usiache vitu vidogo ndani ya kufikiwa, na toa chakula au kinywaji tu katika umbile na mkao ambao timu ya huduma inapendekeza. Angalia ngozi kwa upole wakati wa shughuli za kugusa, kwa kuwa ngozi inaweza kuchanika au kuchubuka kwa urahisi. Kwa zaidi kuhusu mawazo salama ya milango ya fahamu, tazama [shughuli za milango ya fahamu](/activities/sensory/).
+Kumeza kunaweza kuwa vigumu katika hatua ya mwisho, na NIA inaonya kwamba hili huongeza hatari ya kukwama koo. Usiache vitu vidogo karibu na mkono wake, na toa chakula au kinywaji tu katika maumbo na mikao ambayo timu ya huduma inapendekeza. Kagua ngozi kwa upole wakati wa shughuli za kugusa, kwa sababu ngozi inaweza kupasuka au kuchubuka kwa urahisi. Kwa maelezo zaidi kuhusu mawazo salama ya hisia, tazama [shughuli za hisia](/creative-calm/sensory-activities-for-adults/).
 
-## Jitunze pia
+## Jitunze wewe pia
 
-Kumtunza mtu wa hatua ya mwisho kunachosha kimwili na kihisia, iwe nyumbani au wakati wa ziara kwenye makazi ya wazee. Timu za huduma ya kupunguza maumivu na huduma za mwisho wa maisha (hospice na palliative care) zinaweza kusaidia kuhusu faraja, msaada na kupanga, na NIA inazitaja kama chanzo cha msaada. Ziara fupi na tulivu zina thamani; tazama [kumtembelea mtu mwenye dementia](/activities/visiting/). Kama unaongoza vikundi, [shughuli za kikundi kwa makazi ya wazee](/activities/care-home-groups/) ina mawazo ya kurekebisha vikao. Na tafadhali soma [kujitunza kwa mlezi](/caregiving/caregiver-self-care/): kupumzika ni sehemu ya kutunza vizuri.
+Kumtunza mtu katika hatua ya mwisho kunahitaji nguvu za mwili na hisia, iwe nyumbani au wakati wa kumtembelea katika kituo cha wazee. Timu za hospice na huduma za kupunguza maumivu zinaweza kusaidia kwa faraja, msaada na mipango, na NIA inazitaja kama chanzo cha msaada. Ziara fupi na tulivu zina thamani; tazama [kumtembelea mtu mwenye dementia](/together/visiting-someone-in-care/). Ikiwa unaongoza vikundi, [shughuli za vikundi vya vituo vya wazee](/crafts/craft-group-sessions/) ina mawazo ya kurekebisha vipindi. Tafadhali pia soma [kujitunza mwenyewe kama mlezi](/creative-calm/creative-self-care-for-caregivers/): kupumzika ni sehemu ya kutunza vizuri.

@@ -13,10 +13,16 @@
     "machineTranslated": "Halaman ini diterjemahkan secara automatik dan belum disemak oleh penutur asli.",
     "readOriginal": "Baca versi asal dalam Bahasa Inggeris",
     "nav": {
+      "find": "Find an activity",
       "games": "Permainan",
       "activities": "Aktiviti",
       "caregiving": "Penjagaan",
-      "brainHealth": "Kesihatan otak"
+      "brainHealth": "Kesihatan otak",
+      "crafts": "Kraf",
+      "kids": "Kanak-kanak",
+      "together": "Bersama",
+      "creativeCalm": "Ketenangan kreatif",
+      "search": "Cari"
     },
     "faqTitle": "Soalan dan jawapan",
     "breadcrumb": "Jejak laluan",
@@ -28,6 +34,21 @@
       "smaller": "Teks biasa",
       "larger": "Teks lebih besar",
       "contrast": "Kontras lebih tinggi"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -36,11 +57,12 @@
     "conversationCards": "Kad perbualan",
     "pictureBingo": "Bingo gambar",
     "allGames": "Semua permainan",
+    "pictures": "Gambar untuk dicetak",
     "activityIdeas": "Idea aktiviti",
     "ideas101": "101 idea aktiviti",
     "lateStage": "Aktiviti peringkat akhir",
     "printable": "Aktiviti boleh cetak",
-    "allActivities": "Semua aktiviti",
+    "allActivities": "Semua panduan aktiviti",
     "forCaregivers": "Untuk penjaga",
     "playTogether": "Cara bermain bersama",
     "selfCare": "Menjaga diri sendiri",
@@ -53,10 +75,15 @@
     "app": "Aplikasi Creative Activities",
     "appHelp": "Bantuan aplikasi",
     "support": "Sokongan",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Perundangan",
     "sitePrivacy": "Privasi laman web",
     "appPrivacy": "Dasar privasi aplikasi",
     "privacyChoices": "Pilihan privasi",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Terma dan lesen aplikasi",
     "safety": "Keselamatan dan tujuan penggunaan",
     "accessibility": "Kebolehcapaian",
@@ -64,14 +91,18 @@
     "allLegal": "Semua maklumat perundangan",
     "note": "Creative Activities menawarkan aktiviti bersama yang mudah untuk dinikmati. Ia bukan nasihat perubatan, ujian atau rawatan, dan tidak mendiagnosis, mengukur atau memberi markah kepada sesiapa. Untuk soalan kesihatan, berbincanglah dengan doktor. Dalam kecemasan, hubungi nombor kecemasan tempatan.",
     "publisher": "Diterbitkan oleh Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Gambar untuk dicetak"
+    "crafts": "Kraf untuk semua peringkat umur",
+    "kids": "Aktiviti untuk kanak-kanak",
+    "together": "Aktiviti untuk dilakukan bersama",
+    "creativeCalm": "Ketenangan kreatif",
+    "dementiaActivities": "Aktiviti untuk orang yang menghidap demensia"
   },
   "home": {
-    "title": "Permainan dan Aktiviti Demensia & Alzheimer | Creative Activities",
-    "description": "Permainan gambar lembut dan percuma untuk dimainkan dalam talian serta idea aktiviti bagi orang yang hidup dengan demensia dan penjaga mereka. Tanpa daftar.",
+    "title": "Aktiviti Kreatif untuk Sesiapa yang Menjaga Seseorang",
+    "description": "Aktiviti kreatif percuma untuk sesiapa yang menjaga seseorang: kraf, perkara untuk kanak-kanak, aktiviti untuk dilakukan bersama dan idea kreatif yang menenangkan.",
     "eyebrow": "Percuma · Tiada iklan · Tanpa pendaftaran · Tiada pemasa atau markah",
-    "h1": "Permainan dan Aktiviti Lembut untuk Orang yang Hidup dengan Demensia",
-    "lede": "Permainan gambar yang mudah, foto yang biasa dilihat, dan aktiviti untuk dinikmati bersama, mengikut rentak anda sendiri.",
+    "h1": "Hasilkan sesuatu bersama-sama",
+    "lede": "Cari aktiviti yang sesuai dengan orang itu, waktu itu, dan apa yang ada pada anda. Kraf mudah, seni kanak-kanak, perkara untuk dilakukan bersama dan idea kreatif yang menenangkan, dengan versi yang lebih mudah dan kad untuk dicetak. Berhenti bila-bila masa anda mahu.",
     "playGame": "Main permainan",
     "findIdeas": "Cari idea aktiviti",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 idea aktiviti",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Peringkat awal",
         "text": "Teruskan melakukan apa yang mereka suka, dengan sedikit pelarasan: hobi, bersiar-siar, permainan perkataan dan merancang bersama.",
         "label": "Idea peringkat awal"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Peringkat pertengahan",
         "text": "Tugasan mudah dan biasa yang dipecahkan kepada langkah: melipat, mengasingkan, muzik, permainan gambar dan berjalan sebentar.",
         "label": "Idea peringkat pertengahan"
@@ -124,10 +155,10 @@
         "label": "Idea peringkat akhir"
       }
     ],
-    "specificHtml": "Mencari sesuatu yang khusus? Cuba <a href=\"/activities/alzheimers/\">aktiviti dan permainan untuk Alzheimer</a>, <a href=\"/activities/memory-games/\">permainan ingatan yang lembut</a>, <a href=\"/activities/trivia/\">trivia mudah</a> atau <a href=\"/activities/puzzles/\">teka-teki</a>.",
+    "specificHtml": "Mencari sesuatu yang khusus? Cuba <a href=\"/dementia-activities/\">aktiviti dan permainan untuk Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">teka-teki dan permainan meja</a>, <a href=\"/together/conversation-games-for-all-ages/\">permainan perbualan</a> atau <a href=\"/together/puzzles-and-table-games/\">teka-teki</a>.",
     "approachEyebrow": "Pendekatan kami",
-    "approachTitle": "Aktiviti bersama, bukan ujian ingatan",
-    "approachLede": "Banyak “permainan otak” dibina berdasarkan kelajuan, markah dan rentetan kemenangan. Bagi orang yang hidup dengan demensia, itu boleh terasa seperti peperiksaan. Kami membina sebaliknya.",
+    "approachTitle": "Aktiviti bersama, bukan ujian",
+    "approachLede": "Banyak “permainan minda” dibina di sekitar kelajuan, markah dan rentetan kemenangan. Bagi seseorang yang letih, tidak sihat atau hidup dengan demensia, itu boleh terasa seperti peperiksaan. Kami membina yang sebaliknya.",
     "approachLink": "Mengapa kami mereka bentuknya begini",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Sebab biasa untuk menolak, dan cara lembut untuk mencuba lagi kemudian."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Menyediakan tablet",
-        "text": "Teks lebih besar, kurang gangguan dan satu skrin utama yang mudah."
+        "href": "/activities/group-art-activities/",
+        "title": "Aktiviti seni kumpulan",
+        "text": "Projek bersama untuk meja yang dikongsi oleh beberapa orang, dengan tugas untuk setiap seorang."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Aktiviti boleh cetak percuma",
-        "text": "Carian perkataan cetakan besar, halaman mewarna, bingo dan kad perbualan."
+        "href": "/activities/ideas/",
+        "title": "101 idea aktiviti",
+        "text": "Idea ringkas, disusun mengikut apa yang ada dan tahap tenaga yang ada."
       }
     ],
     "researchTitle": "Kesihatan otak: apa sebenarnya kata kajian",
@@ -185,16 +216,16 @@
     "aboutApp": "Tentang aplikasi",
     "faq": [
       {
-        "q": "Apakah permainan yang baik untuk orang yang hidup dengan demensia?",
-        "a": "Permainan yang baik ialah yang mudah, biasa dan bebas tekanan: gambar besar untuk dipadankan, mengasingkan, jigsaw mudah, melengkapkan peribahasa yang terkenal, mewarna, bingo gambar dan kad perbualan. Pilihan terbaik ialah yang disukai orang itu pada hari ini. Elakkan pemasa, markah dan apa-apa yang terasa seperti ujian."
+        "q": "Apakah permainan yang baik untuk warga emas?",
+        "a": "Permainan yang baik itu ringkas, biasa dikenali dan tanpa tekanan: gambar besar untuk dipadankan, menyusun, teka-teki mudah, melengkapkan peribahasa yang biasa, mewarna, bingo gambar dan kad perbualan. Permainan sebegini sesuai untuk ramai warga emas, termasuk orang yang hidup dengan demensia. Pilihan terbaik ialah yang disukai oleh orang itu hari ini. Elakkan pemasa, markah dan apa-apa yang terasa seperti ujian."
       },
       {
-        "q": "Adakah permainan demensia ini percuma?",
+        "q": "Adakah permainan ini percuma?",
         "a": "Ya. Setiap permainan dan bahan boleh cetak di Creative Activities adalah percuma, tanpa akaun, pendaftaran atau muat turun. Permainan dijalankan dalam pelayar web pada telefon, tablet atau komputer."
       },
       {
         "q": "Adakah permainan otak mencegah demensia?",
-        "a": "Tiada permainan yang terbukti mencegah demensia, dan Creative Activities tidak mendakwa merawat atau mencegah apa-apa. Permainan kami adalah untuk keseronokan dan masa bersama. Bahagian kesihatan otak kami menerangkan apa yang ditunjukkan dan tidak ditunjukkan oleh kajian."
+        "a": "Tiada permainan yang pernah ditunjukkan dapat mencegah demensia, dan Creative Activities tidak mendakwa merawat atau mencegah apa-apa. Permainan kami untuk keseronokan dan masa bersama, dan tiada halaman aktiviti yang membuat dakwaan kesihatan."
       },
       {
         "q": "Adakah permainan ini sesuai untuk orang yang menghidap Alzheimer?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "Siapakah yang membuat Creative Activities?",
-        "a": "Creative Activities ialah pasukan kecil yang membuat aktiviti gambar yang tenang dan sesuai untuk orang dewasa bagi keluarga dan penjaga, di web dan sebagai aplikasi percuma. Kami bukan doktor atau pakar klinikal, dan tiada apa-apa di sini merupakan nasihat perubatan."
+        "a": "Creative Activities ialah pasukan kecil yang menghasilkan aktiviti kreatif yang tenang untuk orang dewasa bagi sesiapa yang menjaga seseorang, di web dan sebagai aplikasi percuma. Kami bukan doktor atau pakar klinikal, dan tiada apa di sini ialah nasihat perubatan."
+      }
+    ],
+    "groupsEyebrow": "Cari jalan anda",
+    "groupsTitle": "Empat jenis aktiviti kreatif",
+    "groupsLede": "Mulakan dengan kumpulan yang sesuai dengan siapa anda bersama dan apa yang ada pada anda. Setiap halaman mempunyai versi yang lebih mudah dan nota keselamatan.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Kraf",
+        "text": "Projek kertas, cat, bahan kitar semula dan bermusim, dengan versi yang lebih mudah untuk setiap satu.",
+        "label": "Lihat kraf"
+      },
+      {
+        "href": "/kids/",
+        "title": "Kanak-kanak",
+        "text": "Seni dan permainan untuk kanak-kanak, dengan orang dewasa berdekatan dan nota keselamatan yang jelas.",
+        "label": "Lihat aktiviti kanak-kanak"
+      },
+      {
+        "href": "/together/",
+        "title": "Bersama",
+        "text": "Perbualan, teka-teki, masa di luar rumah dan cara untuk kekal rapat merentas generasi.",
+        "label": "Lihat perkara untuk dilakukan bersama"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Ketenangan kreatif",
+        "text": "Saat kreatif yang perlahan dan senyap dengan pensel, helaian atau lagu. Bukan terapi.",
+        "label": "Lihat ketenangan kreatif"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktiviti",
-      "title": "Aktiviti untuk Orang yang Hidup dengan Demensia",
-      "seo": "Aktiviti untuk Demensia: Idea Mengikut Peringkat",
-      "description": "Idea aktiviti untuk orang yang hidup dengan demensia pada setiap peringkat: muzik, mengenang kembali, tugasan harian, deria, kraf dan bahan boleh cetak percuma.",
-      "lede": "Aktiviti yang bermakna ialah apa-apa yang membawa keselesaan, tujuan atau detik hubungan."
+      "label": "Panduan aktiviti",
+      "title": "Panduan Aktiviti",
+      "seo": "Panduan Aktiviti: Idea, Bekalan Seni dan Cara Bermula",
+      "description": "Panduan ringkas tentang aktiviti kreatif yang boleh dilakukan bersama seseorang: idea mudah, bekalan seni mengikut bajet, seni kumpulan, huruf, kenangan dan penjelasan tentang terapi seni.",
+      "lede": "Panduan ringkas dan praktikal untuk memilih dan memulakan aktiviti bersama seseorang, tanpa mengira umur atau kebolehan mereka."
+    },
+    "crafts": {
+      "label": "Kraf",
+      "title": "Kraf untuk Semua Peringkat Umur",
+      "seo": "Kraf Mudah untuk Semua Peringkat Umur, dengan Versi yang Lebih Mudah",
+      "description": "Kraf mudah untuk orang dewasa, kanak-kanak dan keluarga: kertas, mewarna, kraf bahan kitar semula dan bermusim, dengan versi yang lebih mudah dipegang dan versi untuk dilakukan sambil duduk, tanpa kemahiran khas.",
+      "lede": "Kraf yang bermula daripada barang yang kebanyakan rumah sudah ada, setiap satu dengan versi yang lebih mudah, supaya sesiapa pun boleh menghasilkan sesuatu."
+    },
+    "kids": {
+      "label": "Kanak-kanak",
+      "title": "Aktiviti Kreatif untuk Kanak-kanak",
+      "seo": "Aktiviti Kreatif untuk Kanak-kanak: Seni, Deria dan Ketenangan",
+      "description": "Aktiviti kreatif untuk kanak-kanak: seni untuk kanak-kanak kecil, seni proses, permainan deria, kraf untuk hari hujan dan idea untuk menenangkan diri, dengan nota keselamatan dan versi untuk keperluan deria.",
+      "lede": "Idea seni dan permainan untuk kanak-kanak pelbagai umur dan keperluan, dengan nota keselamatan yang jelas dan orang dewasa berdekatan."
+    },
+    "together": {
+      "label": "Bersama",
+      "title": "Aktiviti untuk Dilakukan Bersama",
+      "seo": "Aktiviti untuk Dilakukan Bersama, Merentas Generasi",
+      "description": "Aktiviti untuk dua generasi atau lebih: permainan perbualan, teka-teki, masa di luar rumah, kraf untuk datuk nenek dan cucu, dan cara untuk kekal rapat dari jauh.",
+      "lede": "Idea untuk berkongsi masa dengan ibu bapa, datuk nenek, anak atau rakan, di rumah, di luar, semasa melawat atau dari jauh."
+    },
+    "creative-calm": {
+      "label": "Ketenangan kreatif",
+      "title": "Ketenangan Kreatif",
+      "seo": "Ketenangan Kreatif: Seni dan Aktiviti Santai untuk Berehat",
+      "description": "Aktiviti kreatif yang menenangkan untuk orang dewasa dan penjaga: seni berkesedaran, menulis jurnal, muzik, saat deria dan petang yang tenang. Aktiviti kreatif, bukan terapi.",
+      "lede": "Cara lembut untuk memperlahankan rentak dengan pensel, helaian atau lagu. Ini aktiviti kreatif, bukan terapi, dan tidak memerlukan kemahiran."
     },
     "caregiving": {
-      "label": "Penjagaan",
-      "title": "Panduan Penjagaan",
-      "seo": "Panduan Penjagaan Demensia: Bantuan Harian Praktikal",
-      "description": "Panduan praktikal dan mesra untuk penjaga demensia: bermain bersama, komunikasi, penolakan, resah lewat petang, tablet, memilih aplikasi dan menjaga diri.",
-      "lede": "Bantuan yang mudah dan praktikal untuk saat-saat harian menjaga orang yang hidup dengan demensia, termasuk menjaga diri anda sendiri."
+      "label": "Penjagaan demensia",
+      "title": "Menjaga Seseorang dengan Demensia",
+      "seo": "Menjaga Seseorang dengan Demensia: Aktiviti dan Bantuan",
+      "description": "Panduan untuk keluarga yang menjaga seseorang dengan demensia: cara bermain bersama, apa yang perlu dilakukan apabila mereka berkata tidak, dan tempat mendapatkan bantuan yang dipercayai selepas diagnosis.",
+      "lede": "Bantuan berasaskan aktiviti untuk keluarga yang menjaga seseorang yang hidup dengan demensia, dan tempat untuk mendapatkan nasihat perubatan dan penjagaan."
     },
     "brain-health": {
       "label": "Kesihatan otak",
@@ -283,7 +371,16 @@
     "tryTogether": "Cuba bersama",
     "relatedGuides": "Panduan berkaitan",
     "related": "Berkaitan",
-    "startHere": "Mulakan di sini"
+    "startHere": "Mulakan di sini",
+    "staleAria": "Terjemahan sudah lapuk",
+    "staleTitle": "Terjemahan ini sudah lapuk",
+    "staleText": "Ia dibuat daripada versi terdahulu halaman Bahasa Inggeris, yang sejak itu telah berubah. Halaman Bahasa Inggeris ialah versi semasa.",
+    "staleHealth": "Ia memberikan maklumat kesihatan, jadi semak halaman Bahasa Inggeris dan tanya doktor atau jururawat sebelum bertindak berdasarkannya.",
+    "staleLink": "Baca halaman Bahasa Inggeris semasa"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Notis maklumat kesihatan",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Aktiviti Bersama, Bukan Ujian Ingatan",
+      "title": "Aktiviti Bersama, Bukan Ujian",
       "seoTitle": "Tentang Creative Activities: Pendekatan Kami",
-      "description": "Mengapa permainan Creative Activities tiada pemasa, markah atau rentetan, mengapa gambar sentiasa kelihatan, dan apa yang kami dakwa dan tidak dakwa tentang demensia.",
+      "description": "Sebab Creative Activities tidak menggunakan pemasa, markah atau rekod berturut-turut, mengapa gambar kekal dipaparkan, dan apa yang akan serta tidak akan kami dakwa tentang kesihatan.",
       "crumb": "Pendekatan kami",
-      "lede": "Creative Activities membuat aktiviti gambar yang tenang dan sesuai untuk orang dewasa, yang boleh dinikmati oleh penjaga dan orang yang hidup dengan demensia secara.",
-      "bodyHtml": "<h2>Apa yang kami percayai</h2><p>Tujuan sesuatu aktiviti ialah detik itu sendiri: perbualan, senyuman, kepuasan menyatukan dua gambar, atau sekadar duduk rapat. Ia bukan untuk mengukur sesiapa, menolak mereka lebih jauh atau membuktikan sesuatu.</p><p>Banyak aplikasi latihan otak direka berdasarkan kelajuan, markah, rentetan dan tahap. Bagi orang yang hidup dengan demensia, itu boleh terasa seperti peperiksaan yang tidak dapat dilepasi. Kami mereka bentuk sebaliknya, dan kami mematuhi peraturan ini:</p><ul><li><strong>Tiada apa-apa untuk gagal.</strong> Tiada jam, markah, pengira langkah, nyawa, rentetan, konfeti atau kira detik, pada mana-mana skrin.</li><li><strong>Mengenali, bukan mengingat.</strong> Gambar sentiasa kelihatan secara lalai. Cadangan menjemput perbualan dan tidak pernah menyoal nama atau kenangan.</li><li><strong>Besar, mudah dan tetap.</strong> Teks dan gambar besar, kontras tinggi, dan kawalan yang kekal di tempat yang sama.</li><li><strong>Maruah orang dewasa.</strong> Gambar dunia sebenar dan kata-kata yang mudah dan mesra. Tiada kartun, pujian mendayu-dayu atau ganjaran emoji.</li><li><strong>Jalan keluar yang mudah.</strong> “Cukup buat masa ini” sentiasa kelihatan. Berhenti di tengah jalan ialah hasil yang baik.</li><li><strong>Peribadi secara lalai.</strong> Tiada akaun atau iklan. Foto yang anda pilih kekal pada peranti anda.</li></ul><h2>Apa yang kami tidak dakwa</h2><p>Permainan kami adalah untuk keseronokan dan hubungan. Ia tidak mendiagnosis, menguji, mengukur, merawat, melambatkan atau mencegah demensia atau penyakit Alzheimer, dan tiada sesiapa patut memilihnya atas sebab itu. Apabila kami menulis tentang kajian di <a href=\"/brain-health/\">halaman kesihatan otak</a> kami, kami menyatakan dengan jelas di mana buktinya lemah, dan kami tidak pernah mengaitkannya dengan permainan kami sendiri.</p><h2>Siapa kami</h2><p>Creative Activities ialah pasukan kecil yang bebas. Kami bukan doktor atau pakar klinikal. Panduan kami ditulis berdasarkan garis panduan yang diterbitkan oleh organisasi seperti National Institute on Aging dan Alzheimer’s Association, dan setiap panduan menyenaraikan sumbernya. Baca <a href=\"/editorial-policy/\">cara kami menulis dan menyemak halaman kami</a>.</p><h2>Beritahu kami apa yang akan membantu</h2><p>Kami ingin mendengar apa yang berkesan untuk anda dan apa yang tidak, terutamanya daripada orang yang hidup dengan demensia, penjaga keluarga dan kakitangan aktiviti. Hantar e-mel ke <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities menyediakan aktiviti dewasa yang tenang, yang boleh dinikmati dua orang bersama-sama, sama ada salah seorang sedang menjaga yang lain atau mereka sekadar mahu meluangkan masa bersama.",
+      "bodyHtml": "<h2>Untuk siapa ia dibuat</h2><p>Sesiapa yang menjaga seseorang: ibu bapa, datuk atau nenek, anak, pasangan, rakan, atau orang yang hidup dengan demensia. Keluarga, warga emas dan kakitangan aktiviti semuanya boleh menggunakan halaman yang sama.</p><h2>Apa yang kami percayai</h2><p>Tujuan aktiviti ialah saat itu sendiri: perbualan, senyuman, kepuasan memadankan dua gambar, atau sekadar duduk rapat. Ia bukan untuk menilai seseorang, mendesak mereka melangkah lebih jauh atau membuktikan sesuatu.</p><p>Banyak aplikasi latihan otak direka berdasarkan kelajuan, markah, rekod berturut-turut dan tahap. Bagi seseorang yang letih, kurang sihat atau hidup dengan demensia, perkara itu boleh terasa seperti peperiksaan yang tidak mampu dilepasi. Kami mereka sebaliknya, dan kami memegang kepada peraturan berikut:</p><ul><li><strong>Tiada yang boleh gagal.</strong> Tiada jam, markah, pengira langkah, nyawa, rekod berturut-turut, confetti atau kiraan detik, pada mana-mana skrin.</li><li><strong>Pengecaman lebih utama daripada ingatan.</strong> Gambar kekal dipaparkan secara lalai. Gesaan menjemput perbualan dan tidak sekali-kali menguji nama atau kenangan.</li><li><strong>Besar, jelas dan stabil.</strong> Teks dan gambar yang besar, kontras yang tinggi, serta kawalan yang kekal di tempat yang sama.</li><li><strong>Maruah dewasa.</strong> Gambar kehidupan sebenar dan perkataan yang ringkas serta mesra. Tiada kartun, pujian berirama atau ganjaran emoji.</li><li><strong>Jalan keluar yang mudah.</strong> \"Selesai buat masa ini\" sentiasa kelihatan. Berhenti di tengah jalan ialah hasil yang baik.</li><li><strong>Persendirian secara lalai.</strong> Tiada akaun atau iklan. Foto yang anda pilih kekal pada peranti anda.</li></ul><h2>Apa yang tidak kami dakwa</h2><p>Permainan dan aktiviti kami untuk keseronokan dan hubungan. Ia tidak mendiagnosis, menguji, mengukur, merawat, melambatkan atau mencegah demensia atau penyakit Alzheimer, dan tiada sesiapa patut memilihnya atas sebab itu. Apabila kami menulis tentang kajian kesihatan, kami nyatakan dengan jelas di mana bukti adalah lemah, dan kami tidak sekali-kali mengaitkannya dengan aktiviti kami sendiri.</p><h2>Siapa kami</h2><p>Creative Activities ialah pasukan kecil yang bebas. Kami bukan doktor. Panduan kami ditulis berdasarkan garis panduan yang diterbitkan oleh organisasi seperti National Institute on Aging dan Alzheimer's Association, dan setiap panduan menyenaraikan sumbernya. Baca <a href=\"/editorial-policy/\">cara kami menulis dan menyemak halaman kami</a>.</p><h2>Beritahu kami apa yang membantu</h2><p>Kami ingin mendengar apa yang berkesan untuk anda dan apa yang tidak, terutamanya daripada orang yang hidup dengan demensia, penjaga keluarga dan kakitangan aktiviti. E-mel <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Cara Kami Menulis dan Menyemak Halaman Kami",
       "seoTitle": "Dasar Editorial",
-      "description": "Cara Creative Activities mengkaji, menulis, memetik sumber dan mengemas kini halaman aktiviti demensia dan kesihatan otaknya, dan apa yang tidak akan kami terbitkan.",
+      "description": "Cara Creative Activities membuat kajian, menulis, mendapatkan sumber dan mengemas kini halaman aktiviti dan kesihatan kami, serta perkara yang tidak sekali-kali kami terbitkan.",
       "crumb": "Dasar editorial",
       "bodyHtml": "<h2>Sumber kami</h2><p>Kami mendasarkan panduan kami pada garis panduan awam daripada organisasi seperti National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance dan NHS, serta kajian yang disemak rakan sebaya seperti ulasan Cochrane dan ujian klinikal besar. Setiap panduan menyenaraikan sumber yang dirujuknya. Kami membuka setiap sumber sebelum memetiknya, dan kami hanya melaporkan apa yang sebenarnya dinyatakan.</p><h2>Cara kami menulis</h2><ul><li>Praktikal dahulu: apa yang perlu dilakukan hari ini, dalam bahasa yang mudah.</li><li>Jujur tentang bukti: kami menyebut “dikaitkan dengan”, “mungkin” dan “buktinya bercampur” apabila itulah yang benar.</li><li>Hormat: kami menulis tentang orang yang hidup dengan demensia sebagai orang dewasa, dan kami tidak pernah menggunakan bahasa menyoal atau memalukan.</li><li>Tiada kandungan rekaan: tiada statistik, petikan, pakar, kajian, ulasan atau testimoni yang direka.</li></ul><h2>Siapa yang menyemak halaman kami</h2><p>Halaman ditulis dan disemak oleh pasukan Creative Activities, dengan bantuan alat penulisan AI untuk penyelidikan dan penyediaan draf. Setiap halaman disemak berdasarkan sumbernya oleh pasukan. Halaman kami <strong>belum</strong> disemak oleh doktor atau pakar klinikal lain, dan kami tidak mendakwa sebaliknya. Ia ialah maklumat am, bukan nasihat perubatan.</p><h2>Apa yang tidak akan kami terbitkan</h2><ul><li>Dakwaan bahawa sesuatu permainan, makanan, suplemen, puasa atau rutin mencegah, merawat, melambatkan atau menyembuhkan demensia.</li><li>Ujian, kuiz atau markah yang mencadangkan seseorang menghidap, atau tidak menghidap, demensia.</li><li>Nasihat untuk memulakan, menghentikan atau mengubah mana-mana ubat.</li><li>Iklan atau kandungan ditaja yang menyamar sebagai panduan.</li></ul><h2>Kemas kini dan pembetulan</h2><p>Setiap halaman memaparkan tarikh ia dikemas kini kali terakhir. Jika anda menjumpai kesilapan atau sumber yang sudah lapuk, sila e-mel ke <a href=\"mailto:{email}\">{email}</a> dan kami akan menyemaknya dengan segera.</p>"
     },
     "faq": {
       "title": "Soalan dan Jawapan",
-      "seoTitle": "Permainan dan Aktiviti Demensia: Soalan dan Jawapan",
-      "description": "Jawapan kepada soalan lazim tentang permainan dan aktiviti demensia: permainan untuk dicuba, tempoh bermain, idea peringkat akhir, kesihatan otak dan privasi.",
+      "seoTitle": "Soalan dan Jawapan Mengenai Creative Activities",
+      "description": "Jawapan kepada soalan lazim tentang permainan dan aktiviti: yang patut dicuba, berapa lama untuk bermain, idea untuk kumpulan dan peringkat lanjut, kesihatan dan privasi.",
       "crumb": "Soalan dan jawapan",
       "lede": "Jawapan ringkas dan mudah kepada soalan yang paling kerap ditanya oleh penjaga.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Tentang permainan",
           "items": [
             {
-              "q": "Apakah permainan terbaik untuk orang yang hidup dengan demensia?",
+              "q": "Apakah permainan terbaik untuk warga emas?",
               "a": "Permainan terbaik ialah yang biasa, mudah dan bebas tekanan, dan yang sesuai ialah apa-apa yang disukai orang itu pada hari ini. Memadankan gambar dengan gambar yang kelihatan, mengasingkan, jigsaw mudah, melengkapkan peribahasa yang biasa, mewarna dan bingo gambar semuanya sesuai untuk ramai orang. Elakkan pemasa, markah dan apa-apa yang terasa seperti ujian."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Kesihatan otak",
+          "title": "Demensia dan kesihatan",
           "items": [
             {
               "q": "Bolehkah permainan mencegah atau melambatkan demensia?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Butiran lanjut: <a href=\"/caregiving/how-to-play-together/\">cara bermain bersama</a>, <a href=\"/caregiving/when-they-say-no/\">apabila mereka menolak</a>, <a href=\"/activities/late-stage/\">aktiviti peringkat akhir</a> dan <a href=\"/brain-health/can-dementia-be-prevented/\">bolehkah demensia dicegah?</a>"
+      "moreHtml": "Butiran lanjut: <a href=\"/caregiving/how-to-play-together/\">cara bermain bersama</a>, <a href=\"/caregiving/when-they-say-no/\">apabila mereka berkata tidak</a>, <a href=\"/activities/late-stage/\">aktiviti peringkat lanjut</a> dan <a href=\"/dementia-activities/\">aktiviti demensia di rumah</a>."
     },
     "handout": {
       "title": "Permainan Lembut dan Percuma untuk Orang yang Hidup dengan Demensia",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "Untuk Rumah Jagaan, Perpustakaan dan Kumpulan Sokongan",
-      "seoTitle": "Aktiviti Demensia Percuma untuk Rumah Jagaan dan Kumpulan",
-      "description": "Cara rumah jagaan, perpustakaan, agensi warga emas dan kumpulan sokongan menggunakan permainan demensia percuma kami, serta teks untuk senarai sumber anda.",
+      "seoTitle": "Aktiviti Percuma untuk Rumah Penjagaan, Perpustakaan dan Kumpulan",
+      "description": "Cara rumah penjagaan, program harian dewasa, perpustakaan, agensi penuaan dan kumpulan sokongan menggunakan permainan dan panduan aktiviti percuma kami, serta teks untuk menambahkan kami ke dalam senarai sumber.",
       "crumb": "Untuk organisasi",
       "lede": "Segala-galanya di laman ini percuma untuk digunakan bersama penghuni, ahli dan klien, tanpa akaun, lesen atau bayaran.",
-      "shortText": "{name}: permainan gambar yang lembut dan percuma serta panduan aktiviti untuk orang yang hidup dengan demensia dan penjaga mereka. Tanpa pendaftaran, tiada pemasa, tiada markah.",
-      "longText": "{name} ({domain}) menawarkan {count} permainan pelayar percuma yang dibuat untuk orang yang hidup dengan demensia, termasuk memadankan pasangan dengan gambar yang dibiarkan kelihatan, jigsaw mudah, mengasingkan, peribahasa yang biasa dan bingo gambar dengan kad boleh cetak. Tiada akaun, iklan, pemasa atau markah. Laman ini juga mempunyai panduan aktiviti dalam bahasa mudah untuk setiap peringkat demensia yang merujuk National Institute on Aging dan Alzheimer's Association.",
+      "shortText": "{name}: permainan gambar dan panduan aktiviti yang percuma dan lembut untuk warga emas, keluarga dan orang yang hidup dengan demensia. Tanpa pendaftaran, tanpa pemasa, tanpa markah.",
+      "longText": "{name} ({domain}) menawarkan {count} permainan pelayar percuma untuk warga emas, keluarga dan orang yang hidup dengan demensia, termasuk permainan padanan pasangan dengan gambar yang kekal dipaparkan, teka-teki jigsaw yang mudah, pengisihan, peribahasa yang biasa didengar dan bingo gambar dengan kad yang boleh dicetak. Tiada akaun, iklan, pemasa atau markah. Laman ini juga mempunyai panduan aktiviti dalam bahasa yang mudah untuk keluarga, warga emas dan kakitangan, dengan sumber seperti National Institute on Aging dan Alzheimer's Association.",
       "useTitle": "Apa yang boleh digunakan oleh organisasi",
       "gamesItemHtml": "<strong>{count} permainan pelayar</strong> yang berjalan pada komputer riba, tablet atau TV yang disambungkan ke komputer. Tiada pemasangan, akaun atau muat turun. Lihat <a href=\"/games/\">semua permainan</a>.",
       "printablesLabel": "{count} bahan boleh cetak:",
       "printablesAfter": "Gunakan butang Cetak pada setiap halaman.",
-      "moreItemsHtml": "<li><strong>Format kumpulan:</strong> <a href=\"/games/picture-bingo/\">Bingo gambar</a> mempunyai kad boleh cetak dan penyeru pada skrin, dan <a href=\"/activities/trivia/\">trivia mudah</a> mempunyai 50 soalan dengan pilihan jawapan dan bahan perbualan.</li><li><strong>Panduan aktiviti</strong> untuk kakitangan dan keluarga, mengikut peringkat dan jenis, ditulis dalam bahasa mudah dengan sumber. Mulakan dengan <a href=\"/activities/ideas/\">101 idea aktiviti</a> atau <a href=\"/activities/care-home-groups/\">aktiviti kumpulan untuk rumah jagaan</a>.</li>",
+      "moreItemsHtml": "<li><strong>Format kumpulan:</strong> <a href=\"/games/picture-bingo/\">Bingo gambar</a> mempunyai kad untuk dicetak dan pemanggil di skrin, dan <a href=\"/together/conversation-games-for-all-ages/\">permainan perbualan</a> mempunyai soalan dengan pilihan jawapan dan idea untuk berbual.</li><li><strong>Panduan aktiviti</strong> untuk kakitangan dan keluarga, ditulis dalam bahasa mudah dengan sumber rujukan. Mulakan dengan <a href=\"/activities/ideas/\">101 idea aktiviti</a> atau <a href=\"/crafts/craft-group-sessions/\">aktiviti kumpulan untuk rumah penjagaan</a>.</li>",
       "restHtml": "<h2>Cara kumpulan menggunakannya</h2><ul><li><strong>Rumah jagaan dan penjagaan ingatan:</strong> bingo gambar atau melengkapkan peribahasa pada TV ruang bersama, dengan seorang mengetik untuk kumpulan.</li><li><strong>Program harian dewasa:</strong> stesen tablet dengan Pasangan gambar ditetapkan kepada empat jubin, untuk sesi singkat satu lawan satu.</li><li><strong>Perpustakaan awam:</strong> carian perkataan dan kad perbualan yang dicetak dalam kit ingatan, dan laman ini ditanda buku pada tablet perpustakaan.</li><li><strong>Kumpulan sokongan penjaga dan kafe ingatan:</strong> <a href=\"/handout/\">risalah boleh cetak satu halaman</a> untuk dibawa pulang oleh keluarga.</li><li><strong>Hospital dan perancang discaj:</strong> risalah dalam bungkusan penjaga, untuk sesuatu yang tenang untuk dilakukan di rumah atau di sisi katil.</li></ul><h2>Apa yang tidak kami lakukan</h2><p>Permainan ini adalah untuk keseronokan dan masa bersama. Ia tidak mendiagnosis, menguji, memberi markah, merawat atau melambatkan demensia, dan kami meminta organisasi tidak menggambarkannya sedemikian. Tiada iklan, dan permainan tidak meminta nama, butiran kesihatan atau foto untuk dimuat naik. Laman web ini menggunakan Google Analytics untuk mengira lawatan; <a href=\"/privacy/\">notis privasi</a> kami menerangkan apa yang dikumpulkan. Foto yang digunakan dalam <a href=\"/games/photo-pairs/\">Pasangan foto</a> kekal dalam pelayar.</p><h2>Tambah kami ke senarai sumber anda</h2><p>Jika anda menyimpan senarai sumber untuk penjaga, anda dialu-alukan memaut ke <a href=\"/\">{domain}</a>. Anda boleh menyalin mana-mana penerangan.</p>",
       "shortTitle": "Penerangan ringkas",
       "longTitle": "Penerangan lebih panjang",
-      "linksHtml": "<p>Halaman berguna untuk dipaut terus: <a href=\"/games/\">permainan percuma</a>, <a href=\"/activities/printable/\">bahan boleh cetak percuma</a>, <a href=\"/activities/alzheimers/\">aktiviti untuk Alzheimer</a> dan <a href=\"/caregiving/how-to-play-together/\">cara bermain bersama</a>.</p><h2>Soalan atau pembetulan</h2><p>Jika sesuatu di laman ini salah atau tidak jelas, atau keperluan seorang penghuni tidak dipenuhi oleh apa yang ada di sini, sila beritahu kami di <a href=\"mailto:{email}\">{email}</a>. Sila jangan hantar maklumat peribadi atau kesihatan tentang penghuni atau klien.</p>"
+      "linksHtml": "<p>Laman berguna untuk dipautkan secara terus: <a href=\"/games/\">permainan percuma</a>, <a href=\"/games/\">bahan cetakan percuma</a>, <a href=\"/dementia-activities/\">aktiviti demensia di rumah</a> dan <a href=\"/caregiving/how-to-play-together/\">cara bermain bersama</a>.</p><h2>Soalan atau pembetulan</h2><p>Jika ada sesuatu di laman ini yang salah atau tidak jelas, atau keperluan penghuni atau klien tidak dipenuhi oleh apa yang ada di sini, sila beritahu kami di <a href=\"mailto:{email}\">{email}</a>. Sila jangan hantar maklumat peribadi atau kesihatan tentang penghuni atau klien.</p>"
     },
     "app": {
       "title": "Aplikasi Creative Activities",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Permainan Demensia & Alzheimer Percuma Dalam Talian",
-    "description": "Permainan dalam talian percuma untuk warga emas dengan demensia atau Alzheimer: padanan gambar, jigsaw mudah, mengasingkan, peribahasa, mewarna, bingo.",
+    "title": "Permainan Percuma untuk Dimainkan Bersama Secara Dalam Talian",
+    "description": "Permainan dalam talian percuma untuk warga emas, keluarga dan orang yang hidup dengan demensia: padanan gambar, teka-teki mudah, menyusun, peribahasa, mewarna dan bingo. Tiada pendaftaran, pemasa atau markah.",
     "crumb": "Permainan",
-    "h1": "Permainan Lembut untuk Orang yang Hidup dengan Demensia",
+    "h1": "Permainan Lembut untuk Dimainkan Bersama",
     "lede": "{count} permainan percuma untuk dimainkan bersama dalam pelayar anda. Gambar besar, kata-kata yang mudah, dan tiada apa-apa untuk gagal: tiada pemasa, tiada markah.",
-    "listName": "Permainan lembut untuk orang yang hidup dengan demensia",
+    "listName": "Permainan lembut untuk dimainkan bersama",
     "byStageTitle": "Memilih permainan mengikut peringkat",
     "byStageLede": "Peringkat hanyalah panduan kasar. Ikut apa yang disukai orang itu dan apa yang terasa selesa hari ini.",
     "stageCol": "Peringkat",
     "gamesCol": "Permainan yang selalunya sesuai",
-    "moreHtml": "Lebih banyak idea di luar skrin: <a href=\"/activities/ideas/\">101 aktiviti untuk orang yang hidup dengan demensia</a>, <a href=\"/activities/alzheimers/\">aktiviti dan permainan untuk Alzheimer</a>, <a href=\"/activities/memory-games/\">permainan ingatan yang lembut</a> dan <a href=\"/activities/puzzles/\">teka-teki</a>.",
+    "moreHtml": "Idea lain yang tidak memerlukan skrin: <a href=\"/activities/ideas/\">101 idea aktiviti</a>, <a href=\"/dementia-activities/\">aktiviti demensia di rumah</a> dan <a href=\"/crafts/\">kraftangan</a>.",
     "faq": [
       {
         "q": "Permainan manakah yang patut kami mulakan?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Adakah ini permainan ingatan untuk warga emas?",
-        "a": "Ia permainan padanan dan gambar yang boleh dinikmati oleh mana-mana orang dewasa yang lebih tua, tetapi ia dibina supaya tidak menguji ingatan: dalam Pasangan gambar, gambar kekal terbuka kecuali anda memilih sebaliknya. Panduan kami tentang permainan ingatan untuk warga emas yang hidup dengan demensia menerangkan cara memastikan mana-mana permainan ingatan kekal lembut."
+        "a": "Ini ialah permainan padanan dan gambar yang boleh dinikmati oleh mana-mana warga emas, tetapi direka supaya tidak menguji ingatan: dalam Pasangan gambar, gambar kekal menghadap ke atas melainkan anda memilih sebaliknya. Mana-mana permainan ingatan boleh dibuat lebih lembut dengan menanggalkan pemasa dan markah."
       },
       {
         "q": "Adakah permainan untuk kumpulan di rumah jagaan?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Adakah terdapat aplikasi aktiviti demensia?",
+        "q": "Adakah terdapat aplikasi untuk warga emas dan keluarga?",
         "a": "Ya. Creative Activities (disenaraikan sebagai \"{storeName}\") adalah percuma di App Store dan Google Play. Ia menawarkan padanan gambar lembut dengan jubin besar, permainan dengan foto keluarga yang anda pilih, dan pek gambar yang berfungsi luar talian."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "Boleh cetak",
     "howTo": "Cara bermain {name}",
     "tips": "Petua untuk bermain bersama",
-    "newToPlayingHtml": "Baharu bermain bersama orang yang menghidap demensia? Baca <a href=\"/caregiving/how-to-play-together/\">cara bermain permainan bersama</a>, termasuk apa yang perlu dilakukan jika mereka hilang minat.",
+    "newToPlayingHtml": "Baru bermain dengan warga emas atau dengan seseorang yang hidup dengan demensia? Baca <a href=\"/caregiving/how-to-play-together/\">cara bermain permainan bersama</a>, termasuk apa yang perlu dilakukan jika mereka hilang minat.",
     "moreAria": "Lebih banyak untuk diteroka",
     "helpfulGuides": "Panduan berguna",
     "appTitle": "Main dalam aplikasi",
@@ -536,6 +633,31 @@
     "goodToKnow": "Baik untuk diketahui",
     "goodToKnowText": "Permainan ini adalah untuk keseronokan dan masa bersama. Ia tidak menguji, mengukur atau merawat apa-apa.",
     "moreGames": "Lebih banyak permainan lembut",
-    "crumb": "Permainan"
+    "crumb": "Permainan",
+    "print": {
+      "heading": "Mainkan di atas kertas",
+      "sameRules": "Versi kertas mempunyai peraturan yang sama seperti permainan di skrin:",
+      "button": "Cetak versi kertas",
+      "pageNote": "Satu halaman pada A4 atau US Letter, sesuai dalam hitam putih. Versi {date}.",
+      "islandNote": "Ia mencetak apa yang ada di skrin sekarang. Versi {date}.",
+      "sheetTitle": "{name}: versi kertas",
+      "point": "Di atas kertas, tunjuk pada gambar dan bukannya ketik, atau bulatkan dengan pen. Setiap baris ialah set baharu.",
+      "pointTarget": "Di atas kertas, gambar untuk diperhatikan terdapat dalam kotak di permulaan setiap baris. Tunjuk pada gambar dan bukannya ketik, atau bulatkan dengan pen.",
+      "halves": "Setiap gambar dipotong di tengah. Lukis garis dari setiap separuh di sebelah kiri ke separuh di sebelah kanan yang sepadan, atau tunjuk dengan jari. Tiada apa yang perlu digunting.",
+      "grid": "Setiap petak ada nombor. Cari nombor itu dalam kunci, dan warnakan petak itu dengan pensel warna yang sepadan. Mana-mana warna lain juga boleh. Tiada apa yang perlu digunting.",
+      "colors": "Setiap baris menamakan satu warna. Tunjuk pada setiap gambar yang berwarna itu, atau bulatkan dengan pen. Setiap baris ialah set baharu.",
+      "dice": "Setiap baris ialah satu set dadu. Pilih satu baris, atau gunting gambar dan ambil beberapa daripada timbunan, kemudian ceritakan sesuatu menggunakan gambar itu dalam sebarang susunan. Sesiapa boleh melepasi giliran.",
+      "cards": "Gunting kad sepanjang garisan putus-putus. Letakkan menghadap ke atas di atas meja, kemudian cari pasangannya.",
+      "chain": "Di atas kertas, baca gambar dari kiri ke kanan, satu demi satu. Setiap orang menyebut satu ayat tentang gambar setakat ini, kemudian menunjuk pada gambar seterusnya. Sesiapa boleh melepasi giliran.",
+      "sort": "Gunting gambar sepanjang garisan putus-putus, kemudian letakkan setiap satu dalam kotak yang sepadan.",
+      "puzzle": "Potong gambar besar sepanjang garisan putus-putus kepada empat keping dan campurkannya. Tukar dua keping pada satu masa sehingga gambar itu lengkap. Gambar kecil ialah panduan.",
+      "cutSafety": "Seorang pembantu boleh menggunting sebelum anda bermula. Simpan gunting selepas itu.",
+      "version": "Versi {date} · {url}",
+      "reasons": {
+        "photos": "Tiada versi kertas. Permainan ini menggunakan foto anda sendiri, yang kekal dalam pelayar anda dan tidak pernah dimuat naik, jadi laman ini tidak boleh mencetaknya. Untuk bermain di atas kertas, cetak dua salinan beberapa foto kegemaran di rumah dan padankannya di atas meja.",
+        "paced": "Tiada versi kertas. Bulatan itu menetapkan rentak yang perlahan dan stabil di skrin, dan halaman bercetak tidak boleh berbuat begitu, jadi ia akan menjadi aktiviti yang berbeza. Rehat senyap bersama tanpa skrin sentiasa menjadi pilihan.",
+        "sayings": "Belum ada versi kertas. Di atas kertas, setiap pengakhiran akan kelihatan serentak, dan langkah lembut \"Tunjukkan pengakhiran\" akan hilang. Baca peribahasa dari skrin bersama-sama, atau kongsi beberapa yang anda berdua tahu."
+      }
+    }
   }
 }

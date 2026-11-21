@@ -115,6 +115,11 @@ describe('normalizeDigits', () => {
     expect(normalizeDigits('Helpline 800-677-1116 today')).toEqual([]);
     expect(normalizeDigits('25 years')).toEqual(['25']);
   });
+
+  it('removes only the link target when a link is followed directly by text, as in Japanese or Chinese', () => {
+    expect(normalizeDigits('[988 Lifeline](https://988lifeline.org/)に連絡できます。一日24時間。Samaritansに116 123で電話')).toEqual(['116123', '24']);
+    expect(normalizeDigits('[a](https://doi.org/10.1016/S0140-6736(24)01296-0)です。1972年')).toEqual(['1972']);
+  });
 });
 
 describe('compareDocuments (guides)', () => {

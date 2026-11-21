@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "Direct naar de inhoud",
     "brandName": "Creative Activities",
@@ -12,10 +13,16 @@
     "machineTranslated": "Deze pagina is automatisch vertaald en nog niet nagekeken door iemand met Nederlands als moedertaal.",
     "readOriginal": "Lees het Engelse origineel",
     "nav": {
+      "find": "Find an activity",
       "games": "Spelletjes",
       "activities": "Activiteiten",
       "caregiving": "Mantelzorg",
-      "brainHealth": "Hersengezondheid"
+      "brainHealth": "Hersengezondheid",
+      "crafts": "Knutselen",
+      "kids": "Kinderen",
+      "together": "Samen",
+      "creativeCalm": "Creatieve rust",
+      "search": "Zoeken"
     },
     "faqTitle": "Vragen en antwoorden",
     "breadcrumb": "Kruimelpad",
@@ -27,6 +34,21 @@
       "smaller": "Standaardtekst",
       "larger": "Grotere tekst",
       "contrast": "Hoger contrast"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +57,12 @@
     "conversationCards": "Gesprekskaarten",
     "pictureBingo": "Plaatjesbingo",
     "allGames": "Alle spelletjes",
+    "pictures": "Afbeeldingen om te printen",
     "activityIdeas": "Ideeën voor activiteiten",
     "ideas101": "101 ideeën voor activiteiten",
     "lateStage": "Activiteiten in de latere fase",
     "printable": "Activiteiten om te printen",
-    "allActivities": "Alle activiteiten",
+    "allActivities": "Alle activiteitengidsen",
     "forCaregivers": "Voor mantelzorgers",
     "playTogether": "Zo speel je samen",
     "selfCare": "Goed voor jezelf zorgen",
@@ -52,10 +75,15 @@
     "app": "De Creative Activities-app",
     "appHelp": "Hulp bij de app",
     "support": "Hulp",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Juridisch",
     "sitePrivacy": "Privacy op de website",
     "appPrivacy": "Privacybeleid van de app",
     "privacyChoices": "Privacykeuzes",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Voorwaarden en licentie van de app",
     "safety": "Veiligheid en bedoeld gebruik",
     "accessibility": "Toegankelijkheid",
@@ -63,14 +91,18 @@
     "allLegal": "Alle juridische informatie",
     "note": "Creative Activities biedt eenvoudige activiteiten om samen van te genieten. Het is geen medisch advies, geen test en geen behandeling, en het stelt geen diagnose, meet niets en geeft niemand een score. Heb je vragen over gezondheid, praat dan met een arts. Bel in een noodgeval 112.",
     "publisher": "Uitgegeven door Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Afbeeldingen om te printen"
+    "crafts": "Knutselen voor alle leeftijden",
+    "kids": "Activiteiten voor kinderen",
+    "together": "Activiteiten om samen te doen",
+    "creativeCalm": "Creatieve rust",
+    "dementiaActivities": "Activiteiten voor mensen met dementie"
   },
   "home": {
-    "title": "Spelletjes en activiteiten bij dementie | Creative Activities",
-    "description": "Gratis, rustige spelletjes en ideeën voor activiteiten voor mensen met dementie of alzheimer en hun mantelzorgers. Zonder aanmelding, klok of score.",
+    "title": "Creatieve activiteiten voor wie zorgt voor iemand",
+    "description": "Gratis creatieve activiteiten voor wie zorgt voor iemand: knutselen, dingen voor kinderen, activiteiten om samen te doen en rustige creatieve ideeën.",
     "eyebrow": "Gratis · Zonder aanmelding · Geen klok of score",
-    "h1": "Rustige spelletjes en activiteiten voor mensen met dementie",
-    "lede": "Eenvoudige plaatjesspelletjes, vertrouwde foto’s en activiteiten om samen van te genieten – in je eigen tempo.",
+    "h1": "Maak samen iets",
+    "lede": "Vind een activiteit die past bij de persoon, het moment en wat u in huis heeft. Eenvoudige knutselwerkjes, kunst voor kinderen, dingen om samen te doen en rustige creatieve ideeën, met makkelijkere varianten en een kaart om af te drukken. Stop wanneer u wilt.",
     "playGame": "Speel een spelletje",
     "findIdeas": "Ideeën voor activiteiten",
     "facts": [
@@ -105,13 +137,13 @@
     "ideas101": "101 ideeën voor activiteiten",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Vroege fase",
         "text": "Blijf doen waar je naaste van houdt, met kleine aanpassingen: hobby’s, uitstapjes, woordspelletjes en samen plannen maken.",
         "label": "Ideeën voor de vroege fase"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Middenfase",
         "text": "Eenvoudige, vertrouwde klusjes in kleine stapjes: vouwen, sorteren, muziek, plaatjesspelletjes en korte wandelingen.",
         "label": "Ideeën voor de middenfase"
@@ -123,10 +155,10 @@
         "label": "Ideeën voor de latere fase"
       }
     ],
-    "specificHtml": "Op zoek naar iets specifieks? Bekijk <a href=\"/activities/alzheimers/\">activiteiten en spelletjes bij alzheimer</a>, <a href=\"/activities/memory-games/\">rustige memoryspelletjes</a>, <a href=\"/activities/trivia/\">een makkelijke quiz</a> of <a href=\"/activities/puzzles/\">puzzels</a>.",
+    "specificHtml": "Zoekt u iets specifieks? Probeer dan <a href=\"/dementia-activities/\">activiteiten en spellen bij Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzzels en tafelspellen</a>, <a href=\"/together/conversation-games-for-all-ages/\">gespreksspellen</a> of <a href=\"/together/puzzles-and-table-games/\">puzzels</a>.",
     "approachEyebrow": "Onze aanpak",
-    "approachTitle": "Samen iets doen, geen geheugentest",
-    "approachLede": "Veel “hersenspelletjes” draaien om snelheid, scores en reeksen. Voor iemand met dementie kan dat voelen als een examen. Wij maakten precies het omgekeerde.",
+    "approachTitle": "Een gedeelde activiteit, geen test",
+    "approachLede": "Veel “hersenspellen” draaien om snelheid, scores en reeksen. Voor iemand die moe is, zich niet goed voelt of leeft met dementie, kan dat aanvoelen als een examen. Wij hebben het tegenovergestelde gemaakt.",
     "approachLink": "Waarom we het zo ontwerpen",
     "principles": [
       {
@@ -165,14 +197,14 @@
         "text": "Veelvoorkomende redenen om te weigeren, en vriendelijke manieren om het later opnieuw te proberen."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Een tablet instellen",
-        "text": "Grotere tekst, minder onderbrekingen en één eenvoudig beginscherm."
+        "href": "/activities/group-art-activities/",
+        "title": "Groepskunstactiviteiten",
+        "text": "Gedeelde projecten voor een tafel met meerdere mensen, met een taak voor elke persoon."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Gratis activiteiten om te printen",
-        "text": "Woordzoekers in grote letters, kleurplaten, bingo en gesprekskaarten."
+        "href": "/activities/ideas/",
+        "title": "101 activiteitenideeën",
+        "text": "Eenvoudige ideeën, gesorteerd op wat u in huis heeft en hoeveel energie er is."
       }
     ],
     "researchTitle": "Hersengezondheid: wat het onderzoek echt zegt",
@@ -184,16 +216,16 @@
     "aboutApp": "Over de app",
     "faq": [
       {
-        "q": "Wat zijn goede spelletjes voor mensen met dementie?",
-        "a": "Goede spelletjes zijn eenvoudig, vertrouwd en zonder druk: grote plaatjes bij elkaar zoeken, sorteren, makkelijke legpuzzels, bekende spreekwoorden afmaken, kleuren, plaatjesbingo en gesprekskaarten. De beste keuze is wat je naaste vandaag leuk vindt. Vermijd klokken, scores en alles wat als een test voelt."
+        "q": "Wat zijn goede spellen voor oudere volwassenen?",
+        "a": "Goede spellen zijn eenvoudig, vertrouwd en vrij van druk: grote plaatjes om bij elkaar te zoeken, sorteren, makkelijke puzzels, bekende spreekwoorden afmaken, kleuren, plaatjesbingo en gesprekskaarten. Ze passen bij veel oudere volwassenen, ook bij mensen die leven met dementie. De beste keuze is het spel dat de persoon vandaag leuk vindt. Vermijd timers, scores en alles wat op een toets lijkt."
       },
       {
-        "q": "Zijn deze spelletjes voor mensen met dementie gratis?",
+        "q": "Zijn deze spellen gratis?",
         "a": "Ja. Alle spelletjes en printbare activiteiten op Creative Activities zijn gratis, zonder account, aanmelding of download. De spelletjes werken in de webbrowser op een telefoon, tablet of computer."
       },
       {
         "q": "Voorkomen hersenspelletjes dementie?",
-        "a": "Van geen enkel spel is aangetoond dat het dementie voorkomt, en Creative Activities beweert niet dat het iets behandelt of voorkomt. Onze spelletjes zijn bedoeld voor plezier en tijd samen. In ons deel over hersengezondheid lees je wat onderzoek wel en niet laat zien."
+        "a": "Er is nog geen enkel spel aangetoond dat dementie voorkomt, en Creatieve Activiteiten beweert niet dat we iets behandelen of voorkomen. Onze spellen zijn bedoeld voor plezier en samen tijd doorbrengen, en geen activiteitenpagina doet een gezondheidsclaim."
       },
       {
         "q": "Zijn deze spelletjes geschikt voor iemand met alzheimer?",
@@ -209,7 +241,36 @@
       },
       {
         "q": "Wie maakt Creative Activities?",
-        "a": "Creative Activities is een klein team dat rustige, volwassen plaatjesactiviteiten maakt voor families en mantelzorgers, op het web en als gratis app. Wij zijn geen zorgverleners, en niets hier is medisch advies."
+        "a": "Creatieve Activiteiten is een klein team dat rustige, volwassen creatieve activiteiten maakt voor iedereen die voor iemand zorgt, op het web en als gratis app. Wij zijn geen clinici en niets hier is medisch advies."
+      }
+    ],
+    "groupsEyebrow": "Vind uw weg",
+    "groupsTitle": "Vier soorten creatieve activiteiten",
+    "groupsLede": "Begin bij de groep die past bij wie u bij zich heeft en wat u in huis heeft. Elke pagina heeft makkelijkere varianten en veiligheidstips.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Knutselen",
+        "text": "Projecten met papier, verf, gerecycled materiaal en seizoensthema's, met voor elk een makkelijkere variant.",
+        "label": "Bekijk knutselwerkjes"
+      },
+      {
+        "href": "/kids/",
+        "title": "Kinderen",
+        "text": "Kunst en spel voor kinderen, met een volwassene in de buurt en duidelijke veiligheidstips.",
+        "label": "Bekijk activiteiten voor kinderen"
+      },
+      {
+        "href": "/together/",
+        "title": "Samen",
+        "text": "Gesprek, puzzels, tijd buiten en manieren om dichtbij te blijven over de generaties heen.",
+        "label": "Bekijk dingen om samen te doen"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Creatieve rust",
+        "text": "Trage, rustige creatieve momenten met een potlood, een blad papier of een liedje. Geen therapie.",
+        "label": "Bekijk creatieve rust"
       }
     ]
   },
@@ -248,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Activiteiten",
-      "title": "Activiteiten voor mensen met dementie",
-      "seo": "Activiteiten bij dementie: ideeën per fase",
-      "description": "Ideeën voor activiteiten en dagbesteding bij dementie, voor elke fase: muziek, herinneringen, klusjes, zintuigen, knutselen, buiten zijn en gratis printwerk.",
-      "lede": "Een zinvolle activiteit is alles wat troost, houvast of een moment van contact geeft. Begin met wat je naaste altijd graag deed, en pas het aan op vandaag."
+      "label": "Activiteitengidsen",
+      "title": "Activiteitengidsen",
+      "seo": "Activiteitengidsen: ideeën, knutselmaterialen en manieren om te beginnen",
+      "description": "Duidelijke gidsen over creatieve activiteiten die u samen met iemand kunt doen: eenvoudige ideeën, knutselmaterialen met een klein budget, groepskunst, brieven, herinneringen en uitleg over kunsttherapie.",
+      "lede": "Korte, praktische gidsen om samen met iemand een activiteit te kiezen en te beginnen, ongeacht leeftijd of mogelijkheden."
+    },
+    "crafts": {
+      "label": "Knutselen",
+      "title": "Knutselen voor alle leeftijden",
+      "seo": "Eenvoudig knutselen voor alle leeftijden, met makkelijkere varianten",
+      "description": "Eenvoudige knutselwerkjes voor volwassenen, kinderen en gezinnen: papier, kleuren, gerecycled materiaal en seizoenswerk, met varianten die makkelijker vast te houden zijn en varianten om zittend te doen, zonder speciale vaardigheid.",
+      "lede": "Knutselwerk dat begint met wat de meeste huishoudens al hebben, elk met een makkelijkere variant, zodat iedereen iets kan maken."
+    },
+    "kids": {
+      "label": "Kinderen",
+      "title": "Creatieve activiteiten voor kinderen",
+      "seo": "Creatieve activiteiten voor kinderen: kunst, zintuiglijk spel en rust",
+      "description": "Creatieve activiteiten voor kinderen: kunst voor peuters, proceskunst, zintuiglijk spel, knutselen op regenachtige dagen en ideeën om tot rust te komen, met veiligheidstips en varianten voor zintuiglijke behoeften.",
+      "lede": "Kunst- en spelideeën voor kinderen van verschillende leeftijden en behoeften, met duidelijke veiligheidstips en een volwassene in de buurt."
+    },
+    "together": {
+      "label": "Samen",
+      "title": "Activiteiten om samen te doen",
+      "seo": "Activiteiten om samen te doen, over de generaties heen",
+      "description": "Activiteiten voor twee of meer generaties: gespreksspellen, puzzels, tijd buiten, knutselen met grootouders en kleinkinderen, en manieren om dichtbij te blijven vanop afstand.",
+      "lede": "Ideeën om tijd te delen met een ouder, grootouder, kind of vriend, thuis, buiten, op bezoek of vanop afstand."
+    },
+    "creative-calm": {
+      "label": "Creatieve rust",
+      "title": "Creatieve rust",
+      "seo": "Creatieve rust: ontspannende kunst en activiteiten om tot rust te komen",
+      "description": "Ontspannende creatieve activiteiten voor volwassenen en mantelzorgers: mindful kunst, dagboekschrijven, muziek, zintuiglijke momenten en rustige middagen. Creatieve activiteit, geen therapie.",
+      "lede": "Rustige manieren om te vertragen met een potlood, een blad papier of een liedje. Dit zijn creatieve activiteiten, geen therapie, en er is geen vaardigheid voor nodig."
     },
     "caregiving": {
-      "label": "Mantelzorg",
-      "title": "Gidsen voor mantelzorgers",
-      "seo": "Mantelzorg bij dementie: praktische hulp voor elke dag",
-      "description": "Praktische, vriendelijke gidsen voor mantelzorgers bij dementie: samen spelen, praten, weigeren, onrust aan het eind van de dag, tablets, apps en zelfzorg.",
-      "lede": "Heldere, praktische hulp bij de dagelijkse momenten van zorgen voor iemand met dementie, en bij het zorgen voor jezelf."
+      "label": "Zorg bij dementie",
+      "title": "Zorgen voor iemand met dementie",
+      "seo": "Zorgen voor iemand met dementie: activiteiten en hulp",
+      "description": "Gidsen voor gezinnen die zorgen voor iemand met dementie: hoe u samen kunt spelen, wat u kunt doen als die persoon nee zegt, en waar u na een diagnose betrouwbare hulp vindt.",
+      "lede": "Activiteiten-eerst hulp voor gezinnen die zorgen voor iemand die leeft met dementie, en waar u terechtkunt voor medisch en zorgadvies."
     },
     "brain-health": {
       "label": "Hersengezondheid",
@@ -282,7 +371,16 @@
     "tryTogether": "Samen proberen",
     "relatedGuides": "Verwante gidsen",
     "related": "Zie ook",
-    "startHere": "Begin hier"
+    "startHere": "Begin hier",
+    "staleAria": "Vertaling verouderd",
+    "staleTitle": "Deze vertaling is verouderd",
+    "staleText": "Het is gemaakt op basis van een eerdere versie van de Engelse pagina, die sindsdien is gewijzigd. De Engelse pagina is de actuele versie.",
+    "staleHealth": "Deze pagina bevat gezondheidsinformatie. Controleer daarom de Engelse pagina en vraag een arts of verpleegkundige voordat u iets doet met deze informatie.",
+    "staleLink": "Lees de actuele Engelse pagina"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Over gezondheidsinformatie",
@@ -291,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "Samen iets doen, geen geheugentest",
+      "title": "Een gedeelde activiteit, geen test",
       "seoTitle": "Over Creative Activities: onze aanpak",
-      "description": "Waarom de spelletjes van Creative Activities geen klok, score of reeksen hebben, waarom plaatjes zichtbaar blijven en wat we wel en niet beweren over dementie.",
+      "description": "Waarom Creative Activities geen timers, scores of reeksen heeft, waarom foto's zichtbaar blijven, en wat we wel en niet beweren over gezondheid.",
       "crumb": "Onze aanpak",
-      "lede": "Creative Activities maakt rustige, volwassen plaatjesactiviteiten waar een mantelzorger en iemand met dementie naast elkaar van kunnen genieten.",
-      "bodyHtml": "<h2>Waar we in geloven</h2><p>Het gaat bij een activiteit om het moment zelf: een gesprek, een glimlach, de voldoening van twee plaatjes bij elkaar leggen, of gewoon dicht bij elkaar zitten. Het doel is niet om iemand te meten, verder te pushen of iets te bewijzen.</p><p>Veel apps voor hersentraining draaien om snelheid, scores, reeksen en niveaus. Voor iemand met dementie kan dat voelen als een examen waarvoor je niet kunt slagen. Wij ontwierpen het omgekeerde, en we houden ons aan deze regels:</p><ul><li><strong>Niets kan misgaan.</strong> Geen klok, score, zettenteller, levens, reeksen, confetti of aftellen, op geen enkel scherm.</li><li><strong>Herkennen in plaats van onthouden.</strong> Plaatjes blijven standaard zichtbaar. Vragen nodigen uit tot een gesprek en overhoren nooit namen of herinneringen.</li><li><strong>Groot, eenvoudig en vertrouwd.</strong> Grote tekst en plaatjes, veel contrast en knoppen die altijd op dezelfde plek staan.</li><li><strong>Volwassen waardigheid.</strong> Echte afbeeldingen en gewone, warme woorden. Geen tekenfilmpjes, zangerige complimentjes of emoji als beloning.</li><li><strong>Altijd makkelijk stoppen.</strong> “Genoeg voor nu” is altijd zichtbaar. Halverwege stoppen is een prima afloop.</li><li><strong>Standaard privé.</strong> Geen accounts of advertenties. Foto’s die je kiest blijven op je apparaat.</li></ul><h2>Wat we niet beweren</h2><p>Onze spelletjes zijn bedoeld voor plezier en contact. Ze stellen geen diagnose en testen, meten, behandelen, vertragen of voorkomen geen dementie of de ziekte van Alzheimer, en niemand zou ze om die reden moeten kiezen. Als we op onze <a href=\"/brain-health/\">pagina’s over hersengezondheid</a> over onderzoek schrijven, zeggen we eerlijk waar het bewijs zwak is, en we koppelen het nooit aan onze eigen spelletjes.</p><h2>Wie we zijn</h2><p>Creative Activities is een klein, onafhankelijk team. Wij zijn geen zorgverleners. Onze gidsen zijn gebaseerd op gepubliceerde richtlijnen van organisaties zoals het National Institute on Aging en de Alzheimer’s Association, en elke gids vermeldt zijn bronnen. Lees <a href=\"/editorial-policy/\">hoe we onze pagina’s schrijven en controleren</a>.</p><h2>Vertel ons wat helpt</h2><p>We horen graag wat voor jou werkt en wat niet, vooral van mensen met dementie, mantelzorgers en activiteitenbegeleiders. Mail naar <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities maakt rustige activiteiten voor volwassenen, die twee mensen samen kunnen doen, naast elkaar, of u nu voor iemand zorgt of gewoon tijd samen wilt doorbrengen.",
+      "bodyHtml": "<h2>Voor wie het bedoeld is</h2><p>Voor iedereen die voor iemand zorgt: een ouder, een grootouder, een kind, een partner, een vriend of vriendin, of een persoon met dementie. Gezinnen, oudere volwassenen en medewerkers van activiteitenprogramma's kunnen allemaal dezelfde pagina's gebruiken.</p><h2>Wat wij geloven</h2><p>Het doel van een activiteit is het moment zelf: een gesprek, een glimlach, de voldoening van twee plaatjes bij elkaar zoeken, of gewoon dicht bij elkaar zitten. Het is niet bedoeld om iemand te meten, verder te laten gaan of iets te bewijzen.</p><p>Veel hersentraining-apps draaien om snelheid, scores, reeksen en niveaus. Voor iemand die moe is, zich niet goed voelt of met dementie leeft, kan dat aanvoelen als een examen dat men niet kan halen. Wij hebben het tegenovergestelde ontworpen en houden ons aan deze regels:</p><ul><li><strong>Niets om te falen.</strong> Geen klok, score, zettellteller, levens, reeksen, confetti of aftellers, op welk scherm dan ook.</li><li><strong>Herkennen boven herinneren.</strong> Foto's blijven standaard zichtbaar. Aanwijzingen nodigen uit tot een gesprek en testen nooit namen of herinneringen.</li><li><strong>Groot, eenvoudig en rustig.</strong> Grote tekst en afbeeldingen, hoog contrast, en bedieningselementen die op dezelfde plek blijven.</li><li><strong>Waardigheid van de volwassene.</strong> Foto's uit het echte leven en eenvoudige, warme woorden. Geen tekenfilmfiguren, zangerige lof of emoji als beloning.</li><li><strong>Een makkelijke uitweg.</strong> „Voor nu klaar” is altijd zichtbaar. Halverwege stoppen is een goede uitkomst.</li><li><strong>Standaard privé.</strong> Geen accounts en geen advertenties. Foto's die u kiest, blijven op uw apparaat.</li></ul><h2>Wat wij niet beweren</h2><p>Onze spellen en activiteiten zijn bedoeld voor plezier en contact. Ze stellen geen diagnose, testen, meten, behandelen, vertragen of voorkomen dementie of de ziekte van Alzheimer, en niemand mag ze daarom kiezen. Wanneer wij schrijven over gezondheidsonderzoek, zeggen we duidelijk waar het bewijs zwak is, en we koppelen het nooit aan onze eigen activiteiten.</p><h2>Wie wij zijn</h2><p>Creative Activities is een klein, onafhankelijk team. Wij zijn geen clinici. Onze gidsen zijn geschreven op basis van gepubliceerde richtlijnen van organisaties zoals het National Institute on Aging en de Alzheimer's Association, en elke gids vermeldt zijn bronnen. Lees <a href=\"/editorial-policy/\">hoe wij onze pagina's schrijven en controleren</a>.</p><h2>Laat ons weten wat zou helpen</h2><p>We horen graag wat voor u werkt en wat niet, vooral van mensen met dementie, mantelzorgers en medewerkers van activiteitenprogramma's. Mail naar <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Hoe wij onze pagina’s schrijven en controleren",
       "seoTitle": "Redactiebeleid",
-      "description": "Hoe Creative Activities zijn pagina’s over activiteiten bij dementie en hersengezondheid onderzoekt, schrijft, onderbouwt en bijwerkt, en wat we nooit publiceren.",
+      "description": "Hoe Creative Activities onderzoek doet naar, schrijft over, bronnen zoekt voor en bijwerkt op zijn activiteiten- en gezondheidspagina's, en wat we nooit zullen publiceren.",
       "crumb": "Redactiebeleid",
       "bodyHtml": "<h2>Onze bronnen</h2><p>Onze gidsen zijn gebaseerd op openbare richtlijnen van organisaties zoals het National Institute on Aging, de CDC, de Alzheimer’s Association, de Alzheimer’s Foundation of America, de Family Caregiver Alliance en de NHS, en op wetenschappelijk getoetst onderzoek zoals Cochrane-reviews en grote klinische studies. Elke gids vermeldt de bronnen waarop hij steunt. We openen elke bron voordat we die aanhalen, en we geven alleen weer wat er echt in staat.</p><h2>Hoe we schrijven</h2><ul><li>Praktisch eerst: wat je vandaag kunt doen, in gewone taal.</li><li>Eerlijk over bewijs: we zeggen “hangt samen met”, “kan” en “het bewijs is wisselend” als dat de waarheid is.</li><li>Respectvol: we schrijven over mensen met dementie als volwassenen, en we gebruiken nooit taal die overhoort of beschaamt.</li><li>Niets verzonnen: geen verzonnen cijfers, citaten, deskundigen, studies, recensies of ervaringsverhalen.</li></ul><h2>Wie onze pagina’s controleert</h2><p>Pagina’s worden geschreven en gecontroleerd door het team van Creative Activities, met hulp van AI-schrijfhulpmiddelen bij onderzoek en eerste versies. Het team controleert elke pagina aan de hand van de bronnen. Onze pagina’s zijn <strong>niet</strong> beoordeeld door een arts of andere zorgverlener, en we beweren ook niet dat dat wel zo is. Het is algemene informatie, geen medisch advies.</p><h2>Wat we nooit publiceren</h2><ul><li>Beweringen dat een spel, voedingsmiddel, supplement, vasten of gewoonte dementie voorkomt, behandelt, vertraagt of geneest.</li><li>Tests, quizzen of scores die suggereren dat iemand wel of geen dementie heeft.</li><li>Advies om een medicijn te starten, te stoppen of te veranderen.</li><li>Reclame of gesponsorde inhoud die zich voordoet als advies.</li></ul><h2>Updates en correcties</h2><p>Elke pagina toont de datum waarop ze voor het laatst is bijgewerkt. Zie je een fout of een verouderde bron, mail dan naar <a href=\"mailto:{email}\">{email}</a>, dan kijken we er snel naar.</p>"
     },
     "faq": {
       "title": "Vragen en antwoorden",
-      "seoTitle": "Spelletjes en activiteiten bij dementie: vragen",
-      "description": "Antwoorden op vragen over spelletjes en activiteiten bij dementie: welke spelletjes, hoe lang, ideeën voor de latere fase, hersengezondheid en privacy.",
+      "seoTitle": "Vragen en antwoorden over Creative Activities",
+      "description": "Antwoorden op veelgestelde vragen over de spellen en activiteiten: welke u kunt proberen, hoe lang u kunt spelen, groepen en ideeën voor latere fasen, gezondheid en privacy.",
       "crumb": "Vragen en antwoorden",
       "lede": "Korte, heldere antwoorden op de vragen die mantelzorgers het vaakst stellen.",
       "groups": [
@@ -317,7 +415,7 @@
           "title": "Over de spelletjes",
           "items": [
             {
-              "q": "Wat zijn de beste spelletjes voor iemand met dementie?",
+              "q": "Wat zijn de beste spellen voor oudere volwassenen?",
               "a": "De beste spelletjes zijn vertrouwd, eenvoudig en zonder druk, en de juiste is gewoon wat je naaste vandaag leuk vindt. Plaatjes bij elkaar zoeken terwijl ze zichtbaar blijven, sorteren, makkelijke legpuzzels, bekende spreekwoorden afmaken, kleuren en plaatjesbingo werken voor veel mensen goed. Vermijd klokken, scores en alles wat als een test voelt."
             },
             {
@@ -362,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Hersengezondheid",
+          "title": "Dementie en gezondheid",
           "items": [
             {
               "q": "Kunnen spelletjes dementie voorkomen of vertragen?",
@@ -393,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Meer weten: <a href=\"/caregiving/how-to-play-together/\">zo speel je samen</a>, <a href=\"/caregiving/when-they-say-no/\">als je naaste nee zegt</a>, <a href=\"/activities/late-stage/\">activiteiten in de latere fase</a> en <a href=\"/brain-health/can-dementia-be-prevented/\">is dementie te voorkomen?</a>"
+      "moreHtml": "Meer details: <a href=\"/caregiving/how-to-play-together/\">hoe u samen speelt</a>, <a href=\"/caregiving/when-they-say-no/\">wat te doen als iemand nee zegt</a>, <a href=\"/activities/late-stage/\">activiteiten voor een latere fase</a> en <a href=\"/dementia-activities/\">activiteiten bij dementie thuis</a>."
     },
     "handout": {
       "title": "Gratis, rustige spelletjes voor mensen met dementie",
@@ -407,21 +505,21 @@
     },
     "organizations": {
       "title": "Voor verpleeghuizen, bibliotheken en praatgroepen",
-      "seoTitle": "Gratis activiteiten bij dementie voor zorg en groepen",
-      "description": "Hoe verpleeghuizen, dagbesteding, bibliotheken en praatgroepen onze gratis spelletjes bij dementie gebruiken, plus tekst voor je lijst met hulpbronnen.",
+      "seoTitle": "Gratis activiteiten voor verzorgingshuizen, bibliotheken en groepen",
+      "description": "Hoe verzorgingshuizen, dagprogramma's voor volwassenen, bibliotheken, ouderenorganisaties en steungroepen onze gratis spellen en activiteitengidsen gebruiken, plus tekst om ons aan een lijst met hulpbronnen toe te voegen.",
       "crumb": "Voor organisaties",
       "lede": "Alles op deze site mag je gratis gebruiken met bewoners, deelnemers en cliënten, zonder account, licentie of kosten. Op deze pagina lees je wat er is en hoe je het deelt.",
-      "shortText": "{name}: gratis, rustige plaatjesspelletjes en gidsen met activiteiten voor mensen met dementie en hun mantelzorgers. Zonder aanmelding, klok of score.",
-      "longText": "{name} ({domain}) biedt {count} gratis browserspelletjes voor mensen met dementie, waaronder paren zoeken met plaatjes die zichtbaar blijven, een makkelijke legpuzzel, sorteren, bekende spreekwoorden en plaatjesbingo met kaarten om te printen. Er is geen account, reclame, klok of score. De site heeft ook gidsen in gewone taal met activiteiten voor elke fase van dementie, met verwijzingen naar het National Institute on Aging en de Alzheimer's Association.",
+      "shortText": "{name}: gratis, rustige plaatjesspellen en activiteitengidsen voor oudere volwassenen, gezinnen en mensen met dementie. Geen aanmelding, geen timers, geen scores.",
+      "longText": "{name} ({domain}) biedt {count} gratis browserspellen voor oudere volwassenen, gezinnen en mensen met dementie, waaronder memoryspellen met plaatjes die zichtbaar blijven, een eenvoudige puzzel, sorteeropdrachten, bekende spreekwoorden en plaatjesbingo met printbare kaarten. Er is geen account, geen reclame, geen timer en geen score. De site heeft ook eenvoudig geschreven activiteitengidsen voor gezinnen, oudere volwassenen en medewerkers, met bronnen zoals het National Institute on Aging en de Alzheimer's Association.",
       "useTitle": "Wat organisaties kunnen gebruiken",
       "gamesItemHtml": "<strong>{count} browserspelletjes</strong> die werken op een laptop, tablet of een tv die op een computer is aangesloten. Niets te installeren, geen account of download. Bekijk <a href=\"/games/\">alle spelletjes</a>.",
       "printablesLabel": "{count} activiteiten om te printen:",
       "printablesAfter": "Gebruik de knop Afdrukken op elke pagina.",
-      "moreItemsHtml": "<li><strong>Voor groepen:</strong> <a href=\"/games/picture-bingo/\">Plaatjesbingo</a> heeft kaarten om te printen en een omroeper op het scherm, en <a href=\"/activities/trivia/\">een makkelijke quiz</a> heeft 50 vragen met antwoordkeuzes en gespreksonderwerpen.</li><li><strong>Gidsen met activiteiten</strong> voor medewerkers en families, per fase en per soort, in gewone taal en met bronnen. Begin met <a href=\"/activities/ideas/\">101 ideeën voor activiteiten</a> of <a href=\"/activities/care-home-groups/\">groepsactiviteiten in verpleeghuizen</a>.</li>",
+      "moreItemsHtml": "<li><strong>Groepsvormen:</strong> <a href=\"/games/picture-bingo/\">Plaatjesbingo</a> heeft afdrukbare kaarten en een roepende stem op het scherm, en <a href=\"/together/conversation-games-for-all-ages/\">gespreksspellen</a> heeft vragen met antwoordkeuzes en gespreksstof.</li><li><strong>Activiteitengidsen</strong> voor medewerkers en familie, in begrijpelijke taal en met bronnen. Begin met <a href=\"/activities/ideas/\">101 activiteitideeën</a> of <a href=\"/crafts/craft-group-sessions/\">groepsactiviteiten voor verpleeghuizen</a>.</li>",
       "restHtml": "<h2>Hoe groepen het gebruiken</h2><ul><li><strong>Verpleeghuizen, woonzorgcentra en kleinschalig wonen:</strong> plaatjesbingo of spreekwoorden afmaken op de tv in de huiskamer, met één persoon die voor de groep tikt.</li><li><strong>Dagbesteding en dagcentra:</strong> een tablet met Paren zoeken op vier kaartjes, voor korte momenten één op één.</li><li><strong>Openbare bibliotheken:</strong> geprinte woordzoekers en gesprekskaarten in een geheugenkoffer, en de site als bladwijzer op de tablets van de bibliotheek.</li><li><strong>Praatgroepen voor mantelzorgers en Alzheimer Cafés:</strong> een <a href=\"/handout/\">folder van één pagina om te printen</a> die families mee naar huis nemen.</li><li><strong>Ziekenhuizen en transferverpleegkundigen:</strong> de folder in informatiepakketten voor mantelzorgers, voor iets rustigs om thuis of aan het bed te doen.</li></ul><h2>Wat we niet doen</h2><p>De spelletjes zijn bedoeld voor plezier en tijd samen. Ze stellen geen diagnose en testen, scoren, behandelen of vertragen geen dementie, en we vragen organisaties om ze ook niet zo te omschrijven. Er is geen reclame, en de spelletjes vragen niet om namen, gezondheidsgegevens of het uploaden van foto’s. De website gebruikt Google Analytics om bezoeken te tellen; in onze <a href=\"/privacy/\">privacyverklaring</a> lees je wat daarbij wordt verzameld. Foto’s in <a href=\"/games/photo-pairs/\">Fotoparen</a> blijven in de browser.</p><h2>Zet ons op je lijst met hulpbronnen</h2><p>Houd je een lijst bij met hulpbronnen voor mantelzorgers, dan mag je gerust linken naar <a href=\"/\">{domain}</a>. Je kunt een van beide omschrijvingen kopiëren.</p>",
       "shortTitle": "Korte omschrijving",
       "longTitle": "Langere omschrijving",
-      "linksHtml": "<p>Handige pagina’s om direct naar te linken: <a href=\"/games/\">gratis spelletjes</a>, <a href=\"/activities/printable/\">gratis activiteiten om te printen</a>, <a href=\"/activities/alzheimers/\">activiteiten bij alzheimer</a> en <a href=\"/caregiving/how-to-play-together/\">zo speel je samen</a>.</p><h2>Vragen of correcties</h2><p>Klopt er iets niet of is iets onduidelijk, of past wat hier staat niet bij wat een bewoner nodig heeft, laat het ons dan weten via <a href=\"mailto:{email}\">{email}</a>. Stuur alsjeblieft geen persoonlijke of medische gegevens over bewoners of cliënten.</p>"
+      "linksHtml": "<p>Handige pagina's om rechtstreeks naar te verwijzen: <a href=\"/games/\">gratis spellen</a>, <a href=\"/games/\">gratis afdrukbare materialen</a>, <a href=\"/dementia-activities/\">activiteiten bij dementie thuis</a> en <a href=\"/caregiving/how-to-play-together/\">hoe je samen speelt</a>.</p><h2>Vragen of correcties</h2><p>Als er op de site iets onjuist of onduidelijk is, of als aan de behoeften van een bewoner niet wordt voldaan met wat hier staat, laat het ons dan weten via <a href=\"mailto:{email}\">{email}</a>. Stuur alstublieft geen persoonlijke of medische gegevens van bewoners of cliënten.</p>"
     },
     "app": {
       "title": "De Creative Activities-app",
@@ -436,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Spelletjes voor mensen met dementie: gratis online",
-    "description": "Gratis online spelletjes voor ouderen met dementie of alzheimer: paren zoeken, legpuzzels, sorteren, spreekwoorden, kleuren, bingo. Zonder aanmelding of score.",
+    "title": "Gratis spellen om samen online te spelen",
+    "description": "Gratis online spellen voor oudere volwassenen, gezinnen en mensen met dementie: plaatjes zoeken, eenvoudige puzzels, sorteren, spreekwoorden, kleuren en bingo. Geen registratie, geen timers en geen scores.",
     "crumb": "Spelletjes",
-    "h1": "Rustige spelletjes voor mensen met dementie",
+    "h1": "Rustige spellen om samen te spelen",
     "lede": "{count} gratis spelletjes om samen te spelen in je browser. Grote plaatjes, gewone woorden en niets dat mis kan gaan: geen klok, geen score, geen aanmelding.",
-    "listName": "Rustige spelletjes voor mensen met dementie",
+    "listName": "Rustige spellen om samen te spelen",
     "byStageTitle": "Een spel kiezen per fase",
     "byStageLede": "Fasen zijn maar een ruwe leidraad. Volg wat je naaste leuk vindt en wat vandaag prettig voelt.",
     "stageCol": "Fase",
     "gamesCol": "Spelletjes die vaak passen",
-    "moreHtml": "Meer ideeën zonder scherm: <a href=\"/activities/ideas/\">101 activiteiten voor mensen met dementie</a>, <a href=\"/activities/alzheimers/\">activiteiten en spelletjes bij alzheimer</a>, <a href=\"/activities/memory-games/\">rustige memoryspelletjes</a> en <a href=\"/activities/puzzles/\">puzzels</a>.",
+    "moreHtml": "Meer ideeën zonder scherm: <a href=\"/activities/ideas/\">101 activiteitideeën</a>, <a href=\"/dementia-activities/\">activiteiten bij dementie thuis</a> en <a href=\"/crafts/\">knutselen</a>.",
     "faq": [
       {
         "q": "Met welk spel kunnen we het best beginnen?",
@@ -462,7 +560,7 @@
       },
       {
         "q": "Zijn dit memoryspelletjes voor ouderen?",
-        "a": "Het zijn spelletjes met plaatjes en paren waar elke oudere van kan genieten, maar ze zijn juist niet gemaakt om het geheugen te testen: bij Paren zoeken blijven de plaatjes open liggen, tenzij je zelf iets anders kiest. Onze gids over memoryspelletjes voor ouderen met dementie legt uit hoe je elk memoryspel rustig houdt."
+        "a": "Het zijn zoek- en plaatjesspellen die elke oudere volwassene kan waarderen, maar ze zijn niet bedoeld om het geheugen te testen: bij Plaatjesparen liggen de plaatjes met de voorkant omhoog, tenzij u anders kiest. Elk geheugenspel kan rustiger worden gemaakt door de timer en de scores weg te laten."
       },
       {
         "q": "Zijn er spelletjes voor groepen in een verpleeghuis of woonzorgcentrum?",
@@ -483,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Bestaat er een app met activiteiten bij dementie?",
+        "q": "Is er een app voor oudere volwassenen en familie?",
         "a": "Ja. Creative Activities (in de winkel te vinden als “{storeName}”) is gratis in de App Store en op Google Play. De app biedt rustig paren zoeken met grote kaartjes, spelletjes met familiefoto’s die jij kiest en plaatjespakketten die offline werken."
       },
       {
@@ -525,7 +623,7 @@
     "printable": "Om te printen",
     "howTo": "Zo speel je {name}",
     "tips": "Tips om samen te spelen",
-    "newToPlayingHtml": "Speel je voor het eerst met iemand met dementie? Lees <a href=\"/caregiving/how-to-play-together/\">hoe je samen spelletjes speelt</a>, ook wat je kunt doen als de interesse wegzakt.",
+    "newToPlayingHtml": "Nieuw in het samen spelen met een oudere volwassene of iemand met dementie? Lees <a href=\"/caregiving/how-to-play-together/\">hoe je samen spelletjes speelt</a>, inclusief wat u kunt doen als de interesse wegvalt.",
     "moreAria": "Meer om te ontdekken",
     "helpfulGuides": "Handige gidsen",
     "appTitle": "Speel het in de app",
@@ -535,6 +633,31 @@
     "goodToKnow": "Goed om te weten",
     "goodToKnowText": "Dit spel is bedoeld voor plezier en tijd samen. Het test, meet of behandelt niets.",
     "moreGames": "Meer rustige spelletjes",
-    "crumb": "Spelletjes"
+    "crumb": "Spelletjes",
+    "print": {
+      "heading": "Spelen op papier",
+      "sameRules": "De papieren versie heeft dezelfde regels als het spel op het scherm:",
+      "button": "Druk een papieren versie af",
+      "pageNote": "Eén pagina op A4 of US Letter, goed leesbaar in zwart-wit. Versie {date}.",
+      "islandNote": "Er wordt afgedrukt wat nu op het scherm staat. Versie {date}.",
+      "sheetTitle": "{name}: papieren versie",
+      "point": "Wijs op papier naar een plaatje in plaats van erop te tikken, of cirkel het met een pen. Elke rij is een nieuwe set.",
+      "pointTarget": "Op papier staat het plaatje om naar te kijken in het vakje aan het begin van elke rij. Wijs naar een plaatje in plaats van erop te tikken, of cirkel het met een pen.",
+      "halves": "Elk plaatje is in het midden doorgesneden. Trek een lijn van elke helft links naar de helft rechts die erbij past, of wijs met een vinger. Er hoeft niets geknipt te worden.",
+      "grid": "Elk vakje heeft een nummer. Zoek dat nummer in de sleutel en kleur het vakje in met een potlood van de juiste kleur. Elke andere kleur mag ook. Er hoeft niets geknipt te worden.",
+      "colors": "Elke rij noemt een kleur. Wijs naar elk plaatje met die kleur, of cirkel het met een pen. Elke rij is een nieuwe set.",
+      "dice": "Elke rij is een set dobbelstenen. Kies een rij, of knip de plaatjes uit en trek er een paar uit een stapel, en vertel dan een verhaal met de plaatjes in willekeurige volgorde. Iedereen mag passen.",
+      "cards": "Knip de kaarten langs de stippellijnen uit. Leg ze met de voorkant omhoog op tafel en zoek de paren.",
+      "chain": "Lees op papier de plaatjes van links naar rechts, één voor één. Elke persoon zegt één zin over de plaatjes tot nu toe en wijst dan naar het volgende plaatje. Iedereen mag passen.",
+      "sort": "Knip de plaatjes langs de stippellijnen uit en leg elk plaatje in het vak waar het hoort.",
+      "puzzle": "Knip het grote plaatje langs de stippellijnen in vier stukken en schud ze door elkaar. Wissel steeds twee stukken om totdat het plaatje compleet is. Het kleine plaatje is een hulpmiddel.",
+      "cutSafety": "Een helper kan het knippen doen voordat u begint. Berg de schaar daarna weer op.",
+      "version": "Versie {date} · {url}",
+      "reasons": {
+        "photos": "Er is geen papieren versie. Dit spel gebruikt uw eigen foto's, die in uw browser blijven en nooit worden geüpload, dus de site kan ze niet afdrukken. Om op papier te spelen, print thuis twee exemplaren van een paar favoriete foto's uit en zoek de paren op tafel.",
+        "paced": "Er is geen papieren versie. De cirkel bepaalt een rustig, gelijkmatig tempo op het scherm, en een afgedrukte pagina kan dat niet, dus het zou een andere activiteit worden. Een rustig moment samen zonder scherm is altijd een optie.",
+        "sayings": "Er is nog geen papieren versie. Op papier zouden alle einden tegelijk zichtbaar zijn, en de rustige stap \"Toon het einde\" zou verloren gaan. Lees de spreekwoorden samen van het scherm, of deel er een paar die u allebei kent."
+      }
+    }
   }
 }

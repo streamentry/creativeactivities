@@ -13,10 +13,16 @@
     "machineTranslated": "Ta gali sisdikuk maqnimtem kee taham fan baaxoh addah af yaabah yan num mafokkaqinna.",
     "readOriginal": "Asli Engeloh Afat Kawisa",
     "nav": {
+      "find": "Find an activity",
       "games": "Digiritte",
       "activities": "Abtooti",
       "caregiving": "hanaawi",
-      "brainHealth": "Misinkaca qaafiyat"
+      "brainHealth": "Misinkaca qaafiyat",
+      "crafts": "Sanaatiyaat",
+      "kids": "Ilmo",
+      "together": "Wal-kaa'aa",
+      "creativeCalm": "Calm sanaatiyaa",
+      "search": "Ilaalo"
     },
     "faqTitle": "Esseroora kee gacsitte",
     "breadcrumb": "Gaqammo rike",
@@ -28,6 +34,21 @@
       "smaller": "madab kutbe",
       "larger": "Naba kutbe",
       "contrast": "Kaxxa qeedaalisso"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +62,7 @@
     "ideas101": "101 abnissoh mablooli",
     "lateStage": "udurrutte-gudgudih abnissoosa",
     "printable": "matbaqah abnissoosa",
-    "allActivities": "Inkih tan taamoomi",
+    "allActivities": "Hunda tuutaa-talalal guddiyat",
     "forCaregivers": "hanaawi marah",
     "playTogether": "Sittalih mannal digirnaah",
     "selfCare": "Isi hanaawisaanama",
@@ -54,24 +75,34 @@
     "app": "dahab uddur assabalta",
     "appHelp": "Assabaltâ cato",
     "support": "Qokolu",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Madqiino leemi",
     "sitePrivacy": "Qarok-qari dambah cankiinu",
     "appPrivacy": "App cankâ pooliisi",
     "privacyChoices": "Cankâ doorititte",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "waktittee kee assabalta idini",
     "safety": "Amaan kee yucsuben xoqoyso",
     "accessibility": "Gufne",
     "healthNotice": "Qaafiyat oytih maysaxxaga",
     "allLegal": "Inkih tan madqâ oytitte",
     "note": "dahab uddur xayyoysam sahlin agleh abnissoosa rufto. tah qaafiyat fayu hinna, aqayyaare hinnay dayla, kee toh fokkaaqo hinna, qeedaalisso hinnay numtin amoh ximmo. Qaafiyat esseroorah, daylaabe lih yab. Qawwalaylah uddur, 911 kalluwus.",
-    "publisher": "yitbiqimem qammurre jeet fidgaagi Pte. Ltd."
+    "publisher": "yitbiqimem qammurre jeet fidgaagi Pte. Ltd.",
+    "crafts": "Sanaatiyaat hunda-ittaan",
+    "kids": "Tuutaa ilmo-ittaan",
+    "together": "Tuutaa wal-kaa'aa",
+    "creativeCalm": "Calm sanaatiyaa",
+    "dementiaActivities": "Tuutaa nama dementia-ittaan"
   },
   "home": {
-    "title": "Dementiya kee Alzaymer digir kee abnissoosa | dahab uddur",
-    "description": "currik, sahlin taswiir digir waqinal digirtam kee abnisso mabloolih ummatta manol dementia hinnay Alzheimer's kee ken hanaawih. uli asta, waktitte akkek xalitte.",
+    "title": "Tuutaa Sanaatiyaa Creative Activities, Nama Kalaa Hunda-ittaan",
+    "description": "Tuutaa sanaatiyaa bilaa-kaffal nama kalaa hunda-ittaan: sanaatiyaat, wa'ammi ilmo-ittaan, tuutaa wal-kaa'aa wal-hanjaaq calm sanaatiyaa.",
     "eyebrow": "currik · maysaxxagoogi mali · asta mali · uddur akkek xalitte mali",
-    "h1": "Dementia leh yan marah sahlik tan digir kee abnissoosa",
-    "lede": "Sahlin muucih digiritte, buxâ marih muucitte, kee abnissoosa itta luk ruffa hayta—isinni sissikaane.",
+    "h1": "Wal-kaa'aa wa'ammi tuutaa",
+    "lede": "Tuutaa nama, waqtiyaa, wal ka'a'ka-ittaan wal-hanjaaq. Sanaatiyaat sabbaa, ilmo-ittaan sanaatiyaa, tuutaa wal-kaa'aa wal calm sanaatiyaa; gaddisaa sabbaa wal kaardi maxxansiisaa. Yeroo kamiyyuu dhaabba.",
     "playGame": "Digir Digra",
     "findIdeas": "Abnisso mablooli gonnis",
     "facts": [
@@ -106,13 +137,13 @@
     "ideas101": "101 abnissoh mablooli",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Naharsi caddo",
         "text": "oson kicnon taama abaanam dacrisa, qunxa massos luk: ossotinah uddur, mawqa, qangor digir kee itta luk ekraarisiyya.",
         "label": "naharsi-caddoh mablooli"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Fanti caddo",
         "text": "Sahlin, buxa mariinô taamoomi maaqattootil tiddigille: xambaqimiyyaay, uxuxxosiyyaay, gaditteey, muuci digirittee kee ux ibi gexooxa.",
         "label": "Fanti caddoh mablooli"
@@ -124,10 +155,10 @@
         "label": "Sarra-caddoh mablooli"
       }
     ],
-    "specificHtml": "Baxsale caagid wagittaanaa? Gabbat <a href=\"/activities/alzheimers/\">Alzheymer's abnissoosa kee digirwa</a>, <a href=\"/activities/memory-games/\">Sahlik tan kassit digiritte</a>, <a href=\"/activities/trivia/\">sahlin trivia</a> aw <a href=\"/activities/puzzles/\">hayyeyyeeno</a>.",
+    "specificHtml": "Waan addaa barbaadda? Yaali <a href=\"/dementia-activities/\">tuutaa wal taphaa Alzheimer's-ittaan</a>, <a href=\"/together/puzzles-and-table-games/\">wal-bu'ii wal taphaa mana-ittaan</a>, <a href=\"/together/conversation-games-for-all-ages/\">taphaa dubbii</a> yookaan <a href=\"/together/puzzles-and-table-games/\">wal-bu'ii</a>.",
     "approachEyebrow": "Ni xayyos",
-    "approachTitle": "ittalluk abit abnisso, kassit aqayyaare hinna",
-    "approachLede": "Mango “misinkaca digir” sissikaane, ximmooma kee streaks wagsiisak xissimta. inki numuy dementiya luk yan too aqayyaareh innal cuso le. Nanu saduh tanim xisne.",
+    "approachTitle": "Tuutaa wal-kaa'aa, qormaata miti",
+    "approachLede": "Taphaa “lubbuu-hiyyaa” baay'ee saffisa, qabxii wal-lakkaa'iinsaa irratti hundaa'a. Nama dadhabe, dhukkubsate yookaan dementia qabu-ittaan, kun qormaata fakkaata. Nu garuu kan faallaa ta'e ijaarre.",
     "approachLink": "macaay nanu ta gital kah goolisnam",
     "principles": [
       {
@@ -166,14 +197,14 @@
         "text": "Cinnak yangalen sababittee kee sarra qagitak gibbatoonuh sahlin gititte."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "kaniina massoosaanama",
-        "text": "kaxxa kutbe, dago garuq kee dubuk yan sahlin buxah alaalaqa."
+        "href": "/activities/group-art-activities/",
+        "title": "Tuutaa sanaatii garee",
+        "text": "Pirojektii wal-kaa'aa taabilii namoota hedduu-ittaan, nama tokkoo-tokkoo-ittaan hojii addaa."
       },
       {
-        "href": "/activities/printable/",
-        "title": "currik tan matbaqah abnissoosa",
-        "text": "kaxxa matbaqatih qangor goranto, galitte kalam, bingo kee walal gatbaroori."
+        "href": "/activities/ideas/",
+        "title": "Yaadaa tuutaa 101",
+        "text": "Yaadaa sabbaa, waan qabdu fi humna hammamtu-ittaan qoodame."
       }
     ],
     "researchTitle": "Misinkaca qaafiyat: kusaq nummaak maca iyyam",
@@ -185,16 +216,16 @@
     "aboutApp": "assabalta wagittaama",
     "faq": [
       {
-        "q": "macaay meqe digir ummattah dementia?",
-        "a": "Meqe digir sahlinih, buxah addah kee taqabi sinnim: kaxxa taswiir ittat celta, qaynat, sahlin jigsaw, gaba kalti meqeh tan qangor, qaynat, taswiir bingo kee walal karditte. Tayse doorit num asaaku ruffa edde iyyaama. wakti yayyaaqe maraay, ximmoomaa kee aqayyaare celtah tan faxeemik soolis."
+        "q": "Taphaa gaarii nama umurii guddaa-ittaan maal?",
+        "a": "Taphaa gaarii sabbaa, beekamaa fi dhiphina hin qabnee: suuraa guddaa walitti madaalchuu, qoodu, wal-bu'ii salphaa, jechoota beekamoo xumuruu, halluu, bingo suuraa fi kaardii dubbii. Namoota umurii guddaa hedduu-ittaan, dementia qabu-ittaan hammatti, ni tolu. Filannoon gaarii kan yeroo ammaa namichi jaalatu. Yeroo, qabxii fi wanti qormaata fakkaatu hin barbaachisu."
       },
       {
-        "q": "tama dementiyah digir currik yanii?",
+        "q": "Taphaan kun bilaa-kaffal?",
         "a": "Yeey. Kulli digir kee dahabak yan uddur yatbiqeenim currik tan, akkaawonti sinnim, asta akkek oobisiyya sinnim. Digir elle yakkem qarok-qariita birowseril silkil, tableet akkek kompiiteril."
       },
       {
         "q": "Misinkaca digir mesenkaca biyak waasa?",
-        "a": "Dementia kalaloonuh uli digir mayanbullaay, Creative Activities kaadu tu daylisaanam kee kalaloonuh iyyaanam maduudan. Ni digir ruftoo kee wakti sittalih tatrusnaama. Ni mesenkacah qaafiyatih exxa kusaq abam kee yaybulleem baxxaqissa."
+        "a": "Taphaa tokkollee dementia ittisuu agarame hin jiru, Creative Activities garuu wanta hunda-ittaan yaaluu yookaan ittisuu hin ibsu. Taphaan keenya boonaa fi yeroo wal-bira qabaachuuf; fuula tuutaa hunda keessatti ibsa fayyaa hin jiru."
       },
       {
         "q": "Tama digir Alzheimer leh yan numuh bictaa?",
@@ -210,7 +241,36 @@
       },
       {
         "q": "dahabak yan uddur bicsam miyyaay?",
-        "a": "Creative Activities qunxa butta calway, furrayni taswiir taama buxah mara kee dayli marah, web kee free appil abta. Nanu daylaaba hinnino, kee takkel tu matan dayli fayu."
+        "a": "Creative Activities garee xiqqoo tuutaa sanaatiyaa nama kalaa hunda-ittaan, weebii fi appii bilaa-kaffal-ittaan hojjetu. Nu ogeessota fayyaa miti, wanti asitti jiru gorsa fayyaa miti."
+      }
+    ],
+    "groupsEyebrow": "Akkamitti eegaluu",
+    "groupsTitle": "Gosa tuutaa sanaatiyaa afur",
+    "groupsLede": "Garee namicha wal-bira jirtu fi wanta qabdu-ittaan jalqabi. Fuula kamiyyuu filannoo salphaa fi ibsa nageenyaa qaba.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Sanaatiyaat",
+        "text": "Pirojektii warqii, boyaa, deebi'ee fayyadamuu fi bara-ittaan, filannoo salphaa tokkoo-tokkoo-ittaan.",
+        "label": "Sanaatiyaa ilaali"
+      },
+      {
+        "href": "/kids/",
+        "title": "Ilmo",
+        "text": "Sanaa fi taphaa ilmoof, ergama-ittaan, nama guddaa dhiyaatee fi ibsa nageenyaa ifa.",
+        "label": "Tuutaa ilmo-ittaan ilaali"
+      },
+      {
+        "href": "/together/",
+        "title": "Wal-kaa'aa",
+        "text": "Dubbii, wal-bu'ii, yeroo alaa fi karaa dhiyeenya umurii hedduu-ittaan qabaachuu.",
+        "label": "Waan wal-kaa'aa ta'u ilaali"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calm sanaatiyaa",
+        "text": "Yeroo salphaa, callisaa sanaatiyaa, qalama, fuula yookaan faarfannaa-ittaan. Qoricha miti.",
+        "label": "Calm sanaatiyaa ilaali"
       }
     ]
   },
@@ -249,18 +309,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Abtooti",
-      "title": "Dementiya leh yan marih abnissoosa",
-      "seo": "Dementiya leh tan maritteh abnissoosa: gudgudul mablooli",
-      "description": "Kulli caddol dementia luk yan marih taamah mabla: gad, kassit, kulli ayro taama, qangooruk uddur, taamah afkan, iroh kee free printables.",
-      "lede": "Maqnale abnisso yaanam raacat, hadaf akkek fantaaxaw uddur bahtah tan faxeemi. Qimmis macaay num umman way ruffa iyyam, kee asaaku tet barit."
+      "label": "Fuula tuutaa",
+      "title": "Fuula Tuutaa",
+      "seo": "Fuula Tuutaa: Yaadaa, Meeshaa Sanaatii fi Karaa Jalqabaa",
+      "description": "Fuula ifa ta'e tuutaa sanaatiyaa nama wal-bira jirtu-ittaan: yaadaa salphaa, meeshaa sanaatii gatii-ittaan, sanaa garee, barreeffamaa, yaadannoo, fi qorichi sanaatii ibsame.",
+      "lede": "Fuula gabaabaa fi qophaa'aa filachuu fi jalqabuuf, umurii yookaan dandeettii kamiyyuu."
+    },
+    "crafts": {
+      "label": "Sanaatiyaat",
+      "title": "Sanaatiyaat Umurii Hunda-ittaan",
+      "seo": "Sanaatiyaat Salphaa Umurii Hunda-ittaan, Filannoo Salphaa Qabu",
+      "description": "Sanaatiyaat salphaa nama guddaa, ilmoo fi maatii-ittaan: warqii, boyaa, deebi'ee fayyadamuu fi bara-ittaan, filannoo harkaan qabachuu salphaa fi taaayaa.",
+      "lede": "Sanaatiyaat mana hunda-ittaan argamu irraa jalqabu, filannoo salphaa tokkoo-tokkoo-ittaan, namni kamiyyuu wanta uumuu danda'u."
+    },
+    "kids": {
+      "label": "Ilmo",
+      "title": "Tuutaa Sanaatiyaa Ilmo-ittaan",
+      "seo": "Tuutaa Sanaatiyaa Ilmo-ittaan: Sanaa, Hawwii fi Callisaa",
+      "description": "Tuutaa sanaatiyaa ilmo-ittaan: sanaa ilmoo xiqqaa, taphaa adeemsaa, taphaa hawwii, sanaatiyaa guyyaa roobaa fi yaadaa callisuu, ibsa nageenyaa fi filannoo hawwii-ittaan.",
+      "lede": "Yaadaa sanaa fi taphaa ilmoo umurii fi barbaachisummaa adda-addaa-ittaan, ibsa nageenyaa ifa fi nama guddaa dhiyaatee."
+    },
+    "together": {
+      "label": "Wal-kaa'aa",
+      "title": "Tuutaa Wal-kaa'aa",
+      "seo": "Tuutaa Wal-kaa'aa, Umurii Hedduu-ittaan",
+      "description": "Tuutaa umurii afur-ittaan yookaan isa caalaa: taphaa dubbii, wal-bu'ii, yeroo alaa, sanaatiyaa abbaa-haadhaa fi ijoollee-ittaan, fi karaa dhiyeenya fagaatti.",
+      "lede": "Yaadaa yeroo qooduu abbaa, haadhaa, ilmoo yookaan hiriyyaa-ittaan, mana, alaa, daawwannaa yookaan fagaatti."
+    },
+    "creative-calm": {
+      "label": "Calm sanaatiyaa",
+      "title": "Calm Sanaatiyaa",
+      "seo": "Calm Sanaatiyaa: Sanaa fi Tuutaa Callisaa",
+      "description": "Tuutaa sanaatiyaa callisaa nama guddaa fi kunuunsaa-ittaan: sanaa hubannaa, barreeffamaa, faarfannaa, yeroo hawwii fi galgala callisaa. Tuutaa sanaatiyaa, qoricha miti.",
+      "lede": "Karaa callisaa yeroo qalama, fuula yookaan faarfannaa-ittaan. Tuutaa sanaatiyaa dha, qoricha miti, dandeettii hin gaafatu."
     },
     "caregiving": {
-      "label": "hanaawi",
-      "title": "hanaawi miracsentitte",
-      "seo": "Dementiyah hanaawih miracsenta: kulli ayroh abinah cato",
-      "description": "Dementia dayli marih taamah, meqem kaban: itta luk gexaanam, angaaraw, qanxaffe, ayrook ayro rabboh, tablet, apps doorit kee isih is dacrisaanam.",
-      "lede": "qaduuk, abinah cato kulli ayroh uddur inki numih hanaawi dementiya luk yan, isih is hanaawisaanam edde anuk."
+      "label": "Kunuunsa dementia",
+      "title": "Nama Dementia Qabu Kunuunsuu",
+      "seo": "Nama Dementia Qabu Kunuunsuu: Tuutaa fi Gargaarsa",
+      "description": "Gorsa maatii nama dementia qabu kunuunsan-ittaan: akkamitti wal-taphachuu, yeroo “hin jedhu” jedhu maal gochuu, fi gargaarsa amanamaa booda ibsa-ittaan.",
+      "lede": "Gargaarsa tuutaa-jalqabaa maatii nama dementia qabu kunuunsan-ittaan, fi karaa gorsa fayyaa fi kunuunsaaf deebi'u."
     },
     "brain-health": {
       "label": "Misinkaca qaafiyat",
@@ -283,7 +371,16 @@
     "tryTogether": "itta luk gibbata",
     "relatedGuides": "Fantaaxaw le miracsentitte",
     "related": "Ramad leemi",
-    "startHere": "Akkel qimbis"
+    "startHere": "Akkel qimbis",
+    "staleAria": "Hiikkaan yeroo darbe",
+    "staleTitle": "Hiikkaan kun yeroo darbe",
+    "staleText": "Tani bogga Ingiliizi dursaa kan hiyyeessa haaraa irraa uumameera, bogga Ingiliizi ammaa garuu jijjiirameera. Bogga Ingiliizi kan ammaa ta'e isa ammaati.",
+    "staleHealth": "Tani odeeffannoo fayyaa kenna, kanaaf bogga Ingiliizi ilaalaa, sana booddee dooktara ykn nars gaafadhaa dura hojjechuu.",
+    "staleLink": "Bogga Ingiliizi ammaa ilaali"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Qaafiyat oytih maysaxxaga",
@@ -292,24 +389,24 @@
   },
   "pages": {
     "about": {
-      "title": "ittalluk abit abnisso, kassit aqayyaare hinna",
+      "title": "Hojii Walii Gala, Qormaata Miti",
       "seoTitle": "dahab uddur wagittam: ni xayyos",
-      "description": "Macaay Creative Activities digir wakti, ximmooma kee streaks, macah taswiir elle tamixxigem, kee nanu dementia wagittaamal maca abnam kee abnam faxximtam.",
+      "description": "Sababa Creative Activities yeroo, qabxii ykn walitti deebi'insa hin qabne ittiin, fakkeenyaan fakkii maaliif akka mul'atu, fi waa'ee fayyaa maal nu mirkaneessu ykn hin mirkaneessu.",
       "crumb": "Ni xayyos",
-      "lede": "Dahab uddur sabhalal le, furrayni taswiir abnissoosa too dayli kee inki num dementia luk yan num ittat ruffa iyyam duudah.",
-      "bodyHtml": "<h2>Nanu elle naaminem</h2><p>abnissok ximmo too wakti isih: walal, musuyto, namma taswiir ittat haanam rufto, hinnay sahlinuk xaynal daffeyna. tah num yaqikkiseenim hinna, fooca fan ken gutuqaanam hinnay faxem cedaanam hinna.</p><p>mango mesenkaca aydakaakan abnissoosa sissikaaneh dariifal faatacisen, ximmooma, gititte kee caddoodal. Dementia lih yan numuh aqayyaareh innal tatraanam maduudan. Nanu saduh tanim faatacisneeh, nanu ninni too madqooqit nabbixe:</p><ul><li><strong>Tu raddam matan.</strong> Saaqat mali, ximmo, looweyna, mano, gititte, konfetti hinnay loowo, faxe alaalaqal.</li><li><strong>Kassiisik dagah mamaxxaga.</strong> muucitte sugteemih tammulleeh tan. walal arcibisam kee migaaqitte akkek kassit qigdu maqambaalin.</li><li><strong>Naba, qaduuk kee sabhalal le.</strong> kaxxa kutbe kee muucitte, fayyale qeedaalisso, kee kobor too inki aracal yaadiye.</li><li><strong>Naba marih kunnabna.</strong> numma-baadah muucitte kee qaduuk, laqin qangor. kartoonitte, gad-gad faatit akkek emojih kaadooda matan.</li><li><strong>Sahlin mawqah gita.</strong> \"Away tekkeh\" umman way tanbulle. Gitak garab soolisaanam meqe xalu.</li><li><strong>sugteemih cankah.</strong> Aleey akkaawontitte akkek maysaxxagoogi matan. Atu doorte muucitte ku yahaazal sugta.</li></ul><h2>Nanu essere waynam</h2><p>Ni digir ruftoo kee fantaaxaw kinni. Oson dementia kee Alzheimer’s biyak fokkaaqoh, fokkaaqoh, qilsa, dayli, lowsis kee kalalu, kee woo sababah num ken dooraanam mafaxximta. nanu ninni kusaq wagittam naktube wak <a href=\"/brain-health/\">mesenkaca qaafiyatih galitte</a>, nanu qaduk innam sumaq boolale, kee nanu ninni digirit qigdu nangoorowem madudna.</p><h2>Nanu miyya kinninom</h2><p>dahab uddur qunxa currik tan butta. Nanu daylaaba hinnino. Ni miracsentitte, Agat caddol, Agat Caddol, Alzheimer’s Association, deqsitta eglaali elle yeyyeeqen miracsentittek, kulli miracsentitte isi raceenaanih addat tan. Kawis <a href=\"/editorial-policy/\">Mannal fiirisnam kee ninni galitte mannal cubbusnam</a>.</p><h2>maca cattam neh warisey</h2><p>Nanu maca koh taamittam kee maca taamite waytam, baxsa luk dementia luk yan maraay, buxah marah dayli mara kee taamah taama abeynit lih walalnam fanna. Galelasta <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "lede": "Creative Activities hojii nagaa fi namoota gurguddoo lamaan wal-bira ta'anii gammachuu danda'an dhiyeessa, kunis namni tokko kan biraa kunuunsu ta'uu yookaan wal-bira turuu barbaadan ta'uu danda'a.",
+      "bodyHtml": "<h2>Eenyuuf ta'a</h2><p>Namni kunuunsu hundaaf: abbaa ykn haadha, akaakuu ykn ijoollee, michuu, jaalala ykn hiriyaa, ykn namni dementia jiraatu. Maatiin, namoota umurii dheeraa qaban fi hojjettoonni hojii hawaasaa hundinuu fuula isa tokko ni fayyadamu.</p><h2>Waanti nu amanu</h2><p>Hojiin bu'aa isaa yeroo isaa dha: marii, bashannanaa, gammachuu fakkii lama walitti ida'uu, ykn dhiyoo wal-bira teessuu qofa. Namoota madaalchuu, dhiibuu ykn wanti tokko akka ta'e mirkaneessuu miti.</p><p>Appii leenjii yaadaa baay'ee saffisaa, qabxii, dheekkamsa fi sadarkaa irratti hundaa'an. Namni dhukkubsate, dhukkubsate ykn dementia jiraatu tokkoof, kunis akka qormaata hin injifatamne ta'a. Nu garuu kan faallaa isaa ijaarre, akkasumas seerota kanaaf of-kennine:</p><ul><li><strong>Kufuu hin qabu.</strong> Sa'aatii, qabxii, lakkoofsa tarkaanfii, jireenya, walitti-fufiinsa, bashannanaa ykn lakkaa duubatti hin jiru, mudaa fakkii kamiyyuu irratti.</li><li><strong>Beekuu ol, yaadachuu gadi.</strong> Fakkiin yeroo hunda mul'ata. Gorsi marii kaasuuf ta'a malee maqaa ykn yaadota qorachuuf miti.</li><li><strong>Guddaa, ifa fi jabaa.</strong> Barreeffamni fi fakkiin guddaa, bifa ifa qabu, fi to'achuun bakka isaa jiraatu.</li><li><strong>Ulfina namummaa.</strong> Fakkii addunyaa dhugaa fi jechoota ifa, ulfaataa ta'an. Fakkii hadhaa, galateeffannaa aarii fi badhaasa emoji hin qabu.</li><li><strong>Bahuu salphaa.</strong> “Amma dhaabbadhu” yeroo hunda mul'ata. Gara walakkaa dhaabbachuunis bu'aa gaarii dha.</li><li><strong>Dhokfamaa dursaan.</strong> Akkaawuntii ykn beeksisa hin qabu. Fakkii atii filattu meeshaa keetti hafa.</li></ul><h2>Waan nu hin mirkaneessine</h2><p>Taphoonni fi hojiiwwan keenya gammachuu fi walitti dhufuuf. Dementia ykn dhukkuba Alzheimer's hin adda baasu, hin qorru, hin safaru, hin hambisu, hin gadi buusu, hin ittisu; namni kamiyyuu sababa kanaaf filachuu hin qabu. Qorannoo fayyaa barreessinu, dadhabina qorannoo sana ifatti ni ibsuu, hojiiwwan keenyaa waliin hin walqabsiisu.</p><h2>Eenyu nu ta'e</h2><p>Creative Activities garee walabaa xiqqaa dha. Nu ogeessota fayyaa miti. Giidiiwwan keenya waa'ee dhaabbilee akka National Institute on Aging fi Alzheimer’s Association irraa barreeffamaan qopheefamu, giidii hundinuu madda isaa ni tarreessa. Akkaataa barreessinu fi sirreessinu <a href=\"/editorial-policy/\">ilaali</a>.</p><h2>Wanta nu gargaaru nu himi</h2><p>Waan siif hojjetu fi kan hin hojjetin nu dhageessuu barbaanna, keessumaa namoota dementia jiraatan, maatii kunuunsan fi hojjettoota hojii hawaasaa. Nu email <a href=\"mailto:{email}\">{email}</a> irratti barreessi.</p>"
     },
     "editorial": {
       "title": "Nanu ninni galitte mannal naktubeeh, cubbusnaah",
       "seoTitle": "maysaraaraca pooliisi",
-      "description": "Creative Activities mannal kusaaqissaah, kutbe abtaah, raceenaani kee qusba gurral dementia taama kee misinkica qaafiyatih galitte, kee nanu inkih elle yayyaaqen innal.",
+      "description": "Akkaataa Creative Activities itti qorannoo gochuu, barreessuu, madda kennuu fi fayyaa fi hojii keenya haaromsuu, fi waan hin maxxansine.",
       "crumb": "maysaraaraca pooliisi",
       "bodyHtml": "<h2>Ni raceenaani</h2><p>Nanu ninni miracsentitte elle rakittam ummattah miracsenta massoynaanih axcih Agat inistitute, CDC, Alzheimer's egla, Alzheimer's fawunxeeshin Ameerikak, Buxâ marih hanaawih egla kee NHS, kee butta-fokkaaqoh kusaaqitte axcih Cochrane kusaaqitte kee kaxxa qaafiyat gibbatu. Kulli miracsenta elle rakittam raceenaani roorissa. Nanu umman raceena fakna tet xayyoosak naharal, kee nanu dubuk gabbaaqu abnam is nummaak iyyam.</p><h2>nanu mannal fiirisnaah</h2><ul><li>Qimmol abinah: asaaku maca abaanam faxxintaah, qado afat.</li><li>Summaq wagittaamal amaan le: nanu “linked with”, “may” kee “sumaq lih angaaraw le” innam toh numma kinni wak.</li><li>Massakaxxa le: nanu fiirisenno ummatta wagittam dementia lih furraynu, kee nanu qigdu mantifiqqa esseroora hinnay qaybi af.</li><li>uli hadliyyi addatino mali: uli bicsen loowo, maxcooca, mihrat leela, kusaaqitte, sekkacsi hinnay sumaq.</li></ul><h2>Ni galitte kusaaqissam miyyaay</h2><p>Galitte kutbe kee cubbusso Creative Activities butta, AI kutbeh silaacitteh catotta luk kusaq kee qagunta. Kulli gali butta raceenaanih gabat cubbusan. Ni galitte le <strong>hinna</strong> kusaaqime daylaabe akkek gersi daylaabe, kee nanu gersinnal yoh taguudeh essero mannu. Oson amo ladi oyta, qaafiyat fayu hinna.</p><h2>Nanu qigdu atbiqe waynam</h2><ul><li>Digir, maaqo, ossotina, sissikaane akkek maytani kalalu, dayla, salac akkek dayla dementiya.</li><li>aqayyaare, esseroora hinnay ximmoomay inki num lem, hinnay alle waam, dementia.</li><li>faxe diwaata qimbisoonuh, soolisoonuh akkek milaagoonuh fayi.</li><li>Maysaxxaga aw qokleh yan addatino miracsenta innal qellisen.</li></ul><h2>Asqassaabe kee massos</h2><p>Kulli gali ellecaboh uddur edde yusqussube ayro yaybulle. atu hoxa geytek hinnay uddur akak tatre raceena, kumagan galelastah rub <a href=\"mailto:{email}\">{email}</a> kee nanu sissikuk gorgorenno.</p>"
     },
     "faq": {
       "title": "Esseroora kee Gacsitte",
-      "seoTitle": "Dementiyah digir kee abnissoosa: esseroora kee gacsitte",
-      "description": "Dementia digir kee taama wagittaamal mango esseroorah gacsa: manni digir gabbattam, magide fanah digirtam, lakal-caddoh mabla, misinkica qaafiyat kee canka.",
+      "seoTitle": "Gaaffilee fi Deebii waa'ee Creative Activities",
+      "description": "Deebii gaaffilee beekamoo taphoota fi hojiiwwan irratti: filachuu qabdu, yeroo meeqa taphachuu, garee fi yaada sadarkaa booddeetti, fayyaa fi icciitii.",
       "crumb": "Esseroora kee gacsitte",
       "lede": "uxxuk, qado gacsitte esseroorah hanaawise mangom essera.",
       "groups": [
@@ -318,7 +415,7 @@
           "title": "Digir wagittaama",
           "items": [
             {
-              "q": "Dementiya leh yan numuh tayse digir macaay?",
+              "q": "Taphoonni namoota umurii dheeraa qabanii kan caalaa gaarii maali?",
               "a": "tayse digir buxa mariino, sahlin kee currik yan gutqo, kee numma tiya faxe num asaaku ruffa edde iyya. Taswiir yanbulle taswiir luk angaaraw, qaynat, sahlin jigsaw, buxah addah qangor gaba kalti, qaynat kee taswiir bingo inkih mango marah meqennal taamita. wakti yayyaaqe maraay, ximmoomaa kee aqayyaare celtah tan faxeemik soolis."
             },
             {
@@ -363,7 +460,7 @@
         },
         {
           "id": "health",
-          "title": "Misinkaca qaafiyat",
+          "title": "Dementia fi fayyaa",
           "items": [
             {
               "q": "Digir mesenkaca biyak kalalam akkek salcisam duudaa?",
@@ -394,7 +491,7 @@
           ]
         }
       ],
-      "moreHtml": "Ossotinah addatino: <a href=\"/caregiving/how-to-play-together/\">Sittalih mannal digirnaah.</a>, <a href=\"/caregiving/when-they-say-no/\">bale iyyan wak.</a>, <a href=\"/activities/late-stage/\">sarra-caddoh abnissoosa</a> kee <a href=\"/brain-health/can-dementia-be-prevented/\">mesenkaca waasaanam duuduntaa?</a>"
+      "moreHtml": "Odeeffannoo guddaa: <a href=\"/caregiving/how-to-play-together/\">akkaataa wal-bira taphachuu</a>, <a href=\"/caregiving/when-they-say-no/\">yeroo isaan “hin barbaadu” jedhan</a>, <a href=\"/activities/late-stage/\">hojiiwwan sadarkaa booddeetti</a> fi <a href=\"/dementia-activities/\">hojiiwwan dementia mana keessaa</a>."
     },
     "handout": {
       "title": "currik tan, sahlik tan digiritte Dementiya luk tanih tan marah",
@@ -408,21 +505,21 @@
     },
     "organizations": {
       "title": "Buxaaxih hanaawih, Kitooba buxaaxi kee qokol buttaati",
-      "seoTitle": "currik tan dementiyah abnissoosa buxaaxi hanaawi kee buttaati",
-      "description": "Mannal dayli buxaaxi, qunxaaneyti ayroh porograam, laybireeri, qunxaaneyti edde anuk kee qokol buttaati nek currik tan dementia digiritte, ossotinah kutbe gaddalih.",
+      "seoTitle": "Hojiiwwan Bilisaa Mana Kunuunsaa, Mana Kitaabaa fi Gareewwanii",
+      "description": "Akkaataa mana kunuunsaa, sagantaa guyyaa namoota umurii dheeraa qabanii, mana kitaabaa, dhaabbilee umurii fi gareewwan deeggarsaa taphoota keenya bilisaa fi giidiiwwan hojii itti fayyadamanii, fi barreeffama itti nu galchuu.",
       "crumb": "massoynaanih",
       "lede": "ta fanteenal tan kullim currik tan ummattah, adoytit kee maqmilwa luk, akkaawonti, idini kee mekla sinnim. Ta gali akkel tanim maca kinnim kee mannal tabaatabsaanam xiqqimtam baxxaqissa.",
-      "shortText": "{name}: currik, sahlin taswiir digir kee abnisso miracsenta sahda lih mannowta dementia kee ken hanaawih. Maysarraqa mali, waqla mali, xaloot mali.",
-      "longText": "{name} ({domain}) xayyos {count} free browser games dementia luk yan marah bicsen, edde anuk matching pairs lih taswiir raqteh tanim, sahlin jigsaw, qaynat, buxah addah qangor kee taswiir bingo lih matbaqah karditte. uli akkaawonti, maysaxxaga, wakti akkek ximmo matan. Tama aracal kaadu, kulli caddoh dementia wagsiisak, Agat caddol, Agat caddol, Alzheimer's Association kee Alzheimer's Association, wagsiisak, sissin afitteh taamah afkan le.",
+      "shortText": "{name}: taphoota fakkii nagaa bilisaa fi giidiiwwan hojii namoota umurii dheeraa qabanii, maatii fi namoota dementia jiraatan. Galmee hin barbaachisu, sa'aatii hin jiru, qabxiin hin jiru.",
+      "longText": "{name} ({domain}) taphoota browser bilisaa {count} namoota umurii dheeraa qabanii, maatii fi namoota dementia jiraatan kennaa jiru, isaan keessatti fakkii wal-fakkaachuu fakkii mul'ataa, ida'uu salphaa, adeemsa, jechoota beekamoo fi bingo fakkii kan maxxanfamu jiru. Akkaawuntii, sabaa, sa'aatii ykn qabxii hin jiru. Saayitichi giidiiwwan hojii jechaan salphaa maatii, namoota umurii dheeraa qabanii fi hojjettootaaf qopheessan, madda akka National Institute on Aging fi Alzheimer's Association qabu.",
       "useTitle": "Manni massoynaanit xoqoysimtam duddam",
       "gamesItemHtml": "<strong>{count} Birowser digiritte</strong> too laptoppi, tableet akkek TV kompiiterit axawah tan. kibne mali, akkaawonti akkek oobisiyyi. Mabla <a href=\"/games/\">inkih tan digirwa</a>.",
       "printablesLabel": "{count} yatbiqeenim duudumtam:",
       "printablesAfter": "Kulli galil tan matbaqah gubat xoqoysima.",
-      "moreItemsHtml": "<li><strong>Buttâ cibtitte:</strong> <a href=\"/games/picture-bingo/\">muuci bingo</a> matbaqah gatbaroori kee alaalaqal yaabe, kee <a href=\"/activities/trivia/\">sahlin trivia</a> essero gacsi doorit kee yabti ximmooma le.</li><li><strong>abnisso miracsentitte</strong> taama abeynit kee buxah marah, gudgud kee qaynatal, raceenaani lih qado afat yunkuttube. lih qimbis <a href=\"/activities/ideas/\">101 abnissoh mablooli</a> aw <a href=\"/activities/care-home-groups/\">buttah abnissoosa hanaawih buxaaxil</a>.</li>",
+      "moreItemsHtml": "<li><strong>Kooxda qaabka ciyaaraha:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> waxaa ku jira kaadhka la daabici karo iyo kan shaashada ku jira, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> waxaa ku jira su'aalo leh jawaabo la doorto iyo mawduucyo hadal.</li><li><strong>Hagayaasha hawlaha</strong> shaqaalaha iyo qoysaska, oo af fudud ku qoran oo ilo leh. Ku bilow <a href=\"/activities/ideas/\">101 activity ideas</a> ama <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
       "restHtml": "<h2>Buttaati mannal edde xoqoysimtam</h2><ul><li><strong>Buxaaxi hanaawi kee kassit hanaawi:</strong> taswiir bingo hinnay gaba kalti-yab mango footima TV, inki num butta xagak.</li><li><strong>Naba marih ayroh taddiiraari:</strong> tableet guddaqta taswiir nammay takkoh affara balaaqitte, uxxuk tiyaak tiyah waktitteh.</li><li><strong>Ayyunti kitoobah buxaaxi:</strong> matbaqatak qangor kusaaqittee kee walal gatbaroori mesenkaca duyyeeya, kee kitab buxah asta kitoobah buxah tableetil.</li><li><strong>hanaawise buttaati qokol kee mesenkaca kaafitte:</strong> a <a href=\"/handout/\">inki-gali yatbiqime warkat</a> Buxâ maritte buxah beyoonuh.</li><li><strong>Hospitaalittee kee mawqah ekraaroora:</strong> gabah agle hanaawih bakkooka, tukteenay sabhalal le buxal hinnay qarkayto xaqul.</li></ul><h2>Nanu abe waynam macaay</h2><p>digir ruftoo kee wakti sittalih. oson mafokkaaqan, mafokkaaqan, ximmo, dayla hinnay qilsi dementia, kee nanu essernam massoynaani too gital ken mabaxxaqisan. Maysaxxagoogi matan, kee digir migaaqitte, qaafiyat alhumitte hinnay muucitte takrimtam masserta. Qarok qari gufneh loowo googil makeelissol xoqoysima; niimi <a href=\"/privacy/\">cankâ maysaxxaga</a> woh gaaboysem maca kinnim baxxaqisa. addat xoqoysil asseh tan muucitte <a href=\"/games/photo-pairs/\">muuci nammaytakkoh</a> Birowserih addat idiy.</p><h2>Isi gaddi rortat nee osis</h2><p>atu gaddi rorta dacrissek hanaawiseenit, atu unkaq muquk temeetem yasgaarawi <a href=\"/\">{domain}</a>. Atu namma baxxaqsa korsaanam duuddah.</p>",
       "shortTitle": "Ux baxxaqsa",
       "longTitle": "Xer baxxaqsa",
-      "linksHtml": "<p>Saanih yasgaarawih xoqoysi le galitte: <a href=\"/games/\">currik tan digirwa</a>, <a href=\"/activities/printable/\">currik tan matbaqatitte</a>, <a href=\"/activities/alzheimers/\">Alzaymer biyaakah abnissoosa</a> kee <a href=\"/caregiving/how-to-play-together/\">Sittalih mannal digirnaah.</a>.</p><h2>Esseroora akkek massos</h2><p>tukteenay aracal hoxat tan hinnay qaddoowe waytek, hinnay sigeenit fayxi takkel tanim kibbiime waytek, kumagan neh waris <a href=\"mailto:{email}\">{email}</a>. kumagan maruubin cankah hinnay qaafiyat xaagi sigeenit hinnay maqmilwa wagittaamal.</p>"
+      "linksHtml": "<p>Bogagga waxtarka leh ee aad si toos ah ugu xidhi karto: <a href=\"/games/\">ciyaaraha bilaashka ah</a>, <a href=\"/games/\">daabacaadda bilaashka ah</a>, <a href=\"/dementia-activities/\">hawlaha dhibaato xusuusta ah guriga</a> iyo <a href=\"/caregiving/how-to-play-together/\">sida loo ciyaaro wada</a>.</p><h2>Su'aalo ama saxitaan</h2><p>Haddii wax ku jira bogga qalad yahay ama aan cad ahayn, ama baahiyaha dadka deggan ama la daryeelo aan lagu qanacin wixii halkan ku jira, fadlan nagu soo sheeg <a href=\"mailto:{email}\">{email}</a>. Fadlan ha u soo dirin macluumaad shakhsi ah ama caafimaad oo ku saabsan dadka deggan ama la daryeelo.</p>"
     },
     "app": {
       "title": "dahab uddur assabalta",
@@ -437,17 +534,17 @@
     }
   },
   "gamesIndex": {
-    "title": "currik tan dementiya kee Alzaymer digir suuquntal",
-    "description": "Dementia hinnay Alzheimer's lih yan marah currik tan onlaayin digir: taswiir celtam, sahlin jigsaws, qaynat, maxcooca, bingo, bingo. uli asta, waktitte akkek xalitte.",
+    "title": "Ciyaaraha Bilaashka ah ee Wada Ciyaarta Online",
+    "description": "Ciyaaraha online ee bilaashka ah ee dadka waaweyn, qoysaska iyo dadka deggan dhibaato xusuusta: is-barbardhigga sawirrada, jigsaw fudud, kala-soocidda, maahmaahyada, midabaynta iyo bingo. Ma jiro diiwaan-gelin, saacad ama dhibcood.",
     "crumb": "Digiritte",
-    "h1": "Dementiya leh yan marah sahlik yan digir",
+    "h1": "Ciyaaro Tartiib leh oo Wada Ciyaaro",
     "lede": "{count} isi birowseril sitta lih digirtuh currik tan digiritte. kaxxa muucitte, qado qangor, kee tuhinna radim: wakti mali, xaloot mali, asta mali.",
-    "listName": "Dementiya leh yan marah sahlik yan digir",
+    "listName": "Ciyaaro tartiib leh oo wada ciyaaro",
     "byStageTitle": "Digir gudgudul dooraanama",
     "byStageLede": "Gudguditte dubuk cenkarle miracsenta. num ruffa iyyam kee asaaku kah raacat lem kattaata.",
     "stageCol": "Madraka",
     "gamesCol": "Digir woo mango uddur bicta",
-    "moreHtml": "mango mablooli alaalaqak iroh: <a href=\"/activities/ideas/\">101 abnissoosa ummattah dementiya</a>, <a href=\"/activities/alzheimers/\">Alzheymer's abnissoosa kee digirwa</a>, <a href=\"/activities/memory-games/\">Sahlik tan kassit digiritte</a> kee <a href=\"/activities/puzzles/\">hayyeyyeeno</a>.",
+    "moreHtml": "Fikrado dheeraad ah oo aan shaashad lahayn: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">hawlaha dhibaato xusuusta ah guriga</a> iyo <a href=\"/crafts/\">farshaxanka gacmaha</a>.",
     "faq": [
       {
         "q": "Manni digiiriiy nanu qimbisnam tayseeh?",
@@ -463,7 +560,7 @@
       },
       {
         "q": "Tama kassit digir furraynuh innaa?",
-        "a": "Usun matching kee taswiir digir faxe qunxaaneyti elle geytimam duuda, laakin oson memory fokkaaqoh xissimtam hinna: Picture pairs addal taswiir fooca fan sugtaah, gersi marih doorit akke waytek. nek miracsenta mesenkaca digirih idoola dementiya luk baxxaaqissam mannal dacrisaanam faxe mesenkaca digir xabcinuk."
+        "a": "Waa ciyaaro isku-xidhka iyo sawirrada oo dadka waaweyn oo dhan ay ku raaxaysan karaan, laakiin waxaa loo sameeyey si aan wax lagu tijaabinayn xusuusta: Picture pairs sawirradu way fadhiyaan illaa aad kale doorato. Ciyaar xusuus kasta waa la sameyn karaa mid tartiib leh haddii saacadda iyo dhibcaha laga tago."
       },
       {
         "q": "Buttaati hanaawih buxal digir yanii?",
@@ -484,7 +581,7 @@
     ],
     "faq": [
       {
-        "q": "Dementiyah abnissoh assabalta tanii?",
+        "q": "Ma jiraa app dadka waaweyn iyo qoysaska loogu talo galay?",
         "a": "Yeey. dahab uddur ( roorimteh \"{storeName}\") App Store kee Google Playil currik yan. Kaxxa tiles luk meqe taswiir celsiisak, buxah marih taswiir doortam kee offline taamitta taswiir packitte xayyoysa."
       },
       {
@@ -526,7 +623,7 @@
     "printable": "matbaqah",
     "howTo": "Mannal digrisan {name}",
     "tips": "itta luk digiroonuh fayitte",
-    "newToPlayingHtml": "Dementiya le num lih digiraanam qusba? Kawis <a href=\"/caregiving/how-to-play-together/\">Digir ittalih mannal digirnaah</a>, oson fayxi weenik maca abaanam edde anuk.",
+    "newToPlayingHtml": "Ma cusub tahay ciyaarta dadka waaweyn ama qof dhibaato xusuusta leh? Akhri <a href=\"/caregiving/how-to-play-together/\">sida loo ciyaaro wada</a>, oo ay ku jiraan waxa la sameeyo haddii ay xiiso lumiyaan.",
     "moreAria": "Ossotinah goranto",
     "helpfulGuides": "Catole miracsentitte",
     "appTitle": "assabaltal digir",
@@ -536,6 +633,31 @@
     "goodToKnow": "Yaaxigeenim meqeh",
     "goodToKnowText": "Ta digir ruftoo kee sittalih wakti. Is walim mafokkaqta, maqakkanaay, madaylissa.",
     "moreGames": "mango xabcin digiritte",
-    "crumb": "Digiritte"
+    "crumb": "Digiritte",
+    "print": {
+      "heading": "Ku ciyaar warqad",
+      "sameRules": "Nooca warqadda wuxuu leeyahay isla xeerarka ciyaarta shaashadda:",
+      "button": "Daabac nooca warqadda",
+      "pageNote": "Hal bog oo A4 ama US Letter ah, wuxuu wanaagsan yahay madow iyo cadaan. Nooca {date}.",
+      "islandNote": "Wuxuu daabacayaa waxa shaashadda ku jira hadda. Nooca {date}.",
+      "sheetTitle": "{name}: nooca warqadda",
+      "point": "Warqadda ku jira, sawirka halkii aad taaban lahayd ku tilmaam, ama wareeg ku samee qalin. Safafka kasta waa qaybo cusub.",
+      "pointTarget": "Warqadda ku jira, sawirka la eegayo wuxuu ku yaal sanduuqa safka kasta bilowgiisa. Sawirka halkii aad taabanaysay ku tilmaam, ama wareeg ku samee qalin.",
+      "halves": "Sawir kasta dhexdiisa ayaa laga jaray. Xariiq ka samee nuska kasta ee bidix ilaa nuska midig ee ku habboon, ama farta ku tilmaam. Waxba ma jaro mooyee.",
+      "grid": "Labajibbaaran kasta lambar buu leeyahay. Lambarkaas ku raadso furaha, oo midabka qalinka ah ku rinji. Midab kale oo aad jeceshahay bay wanaagsan tahay. Waxba ma jaro mooyee.",
+      "colors": "Safka kasta midab buu magacaabayaa. Sawir kasta oo midabkaas leh ku tilmaam, ama wareeg ku samee qalin. Safafka kasta waa qaybo cusub.",
+      "dice": "Safka kasta waa qaybta kubbadaha. Safka dooro, ama sawirrada jar oo mid mid ka qaad kaarar, kadibna sheeko ku samee iyaga oo wax kasta ku isticmaalaya. Qof kasta wuu dhaafi karaa.",
+      "cards": "Kaadhadka ka jar khadka dhibcaha leh. Miiska ku dhig iyada oo wejigooda kor u jeedo, kadibna raadi lammaanayaasha.",
+      "chain": "Warqadda ku jira, sawirrada si wada jir ah ugu akhri bidix ilaa midig. Qof kasta weedh mid ku sheeg sawirrada ilaa hadda, kadibna sawirka xiga tilmaam. Qof kasta wuu dhaafi karaa.",
+      "sort": "Sawirrada ka jar khadka dhibcaha leh, kadibna mid kasta geli sanduuqa ay ku habboon tahay.",
+      "puzzle": "Sawirka weyn ka jar khadka dhibcaha leh afar qaybood, oo isku qas. Laba qayb mar kasta isku beddel ilaa sawirku dhammaado. Sawirka yar wua hage.",
+      "cutSafety": "Qof caawiya ayaa jarista ka dhigi kara ka hor intaadan bilaabin. Markaas dambe mindiyaasha ka qaad.",
+      "version": "Nooca {date} · {url}",
+      "reasons": {
+        "photos": "Nooc warqad ma jiro. Ciyaartan waxay isticmaashaa sawirradaada, kuwaas oo ku sii jira browser-kaaga oo aan marna la soo rarin, sidaas darteed barta ma daabici karto. Si warqad lagu ciyaaro, dhowr sawir oo aad jeceshahay labo nuqul ku daabac guriga oo miiska ku isku mid samee.",
+        "paced": "Nooc warqad ma jiro. Wareegga shaashadda wuxuu dejiyaa xawaare tartiib leh oo joogto ah, bog la daabacay ma sameyn karo taas, sidaas darteed waxay noqon lahayd hawl kale. Nasasho jiif ah oo wada ah oo aan shaashad lahayn had iyo jeer waa ikhtiyaar.",
+        "sayings": "Weli nooc warqad ma jiro. Warqad dhexdeeda dhamaad kasta mar keliya ayaa muuqan lahaa, tallaabada tartiibta leh ee \"Show the ending\" ayaa lumi lahayd. Maahmaahyada shaashadda ka akhriya wada, ama kuwa aad labaduba garanaysaan qaarkood wadaag."
+      }
+    }
   }
 }

@@ -1,35 +1,35 @@
 ---
-title: "Demansla Yaşayan Kişiler İçin Etkinlikler: 101 Basit Fikir"
-seoTitle: "Demans Etkinlikleri: Yaşlılar İçin 101 Basit Fikir"
-description: "Demansla yaşayan kişiler için havlu katlamaktan müziğe ve fotoğraflara 101 basit, yetişkince etkinlik; işler zorlaştığında her birini nasıl uyarlayacağınızla."
+title: "Yaşlılar ve Bunama Yaşayanlar için Etkinlikler: 101 Basit Fikir"
+seoTitle: "Bunama Etkinlik Fikirleri: 101 Basit Etkinlik"
+description: "Havlu katlamadan müziğe ve fotoğraflara kadar, bunama yaşayan yetişkinler için 101 basit etkinlik ve zorlaştıkça her birinin nasıl uyarlanacağı."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demansla yaşayan kişiler için iyi etkinlikler tanıdık, yetişkince ve birlikte
-  yapması kolay olanlardır: çamaşır katlamak, eşya ayırmak, yemek yapmak, müzik,
-  fotoğraflara bakmak, yürümek, bahçe işleri, evcil hayvanlarla vakit geçirmek
-  ve basit oyunlar. Kişinin her zaman sevdiği şeyleri seçin, zor kısımları siz
-  üstlenin ve yorulduğunda bırakın. Birlikte geçen keyifli zaman, bir şeyi
-  bitirmekten daha önemlidir.
+  Bunama yaşayan biri için iyi etkinlikler tanıdık, yetişkinlere uygun ve birlikte
+  yapması kolay olanlardır: çamaşır katlamak, eşya ayırmak, yemek pişirmek, müzik,
+  fotoğraflara bakmak, yürümek, bahçe işi, evcil hayvanla vakit geçirmek ve basit
+  oyunlar. Kişinin hep sevdiği şeyi seçin, zor kısımları siz üstlenin ve kişi
+  yorulduğunda durun. Birlikte geçirilen keyifli zaman, bir şeyi bitirmekten daha
+  önemlidir.
 keyPoints:
-  - "Kişinin kendi hayatından yola çıkın: mesleği, hobileri, inancı ve sevdiği müzik en iyi rehberdir."
-  - "Her etkinliği gerektiği kadar küçültün: daha az adım, daha az seçenek, zor kısmı siz yapın."
-  - "İzlemek, bir şeyi elinde tutmak ya da sadece yakında oturmak da katılmaktır."
-  - "Yorgunluk, hayal kırıklığı ya da sıkılma görürseniz bırakın ya da başka bir şeye geçin. Erken bitirmek de güzel bir sonuçtur."
-  - "Birlikte yapmak, doğru yapmaktan daha önemlidir."
+  - "Kişinin kendi hayatından başlayın: işi, hobileri, inancı ve sevdiği müzik en iyi rehberdir."
+  - "Gerekirse etkinliği küçültün: daha az adım, daha az seçenek, zor kısmı siz yapın."
+  - "İzlemek, bir şey tutmak ya da yanında sessizce oturmak da katılmak sayılır."
+  - "Yorgunluk, sinirlenme ya da sıkılma belirtisi görürseniz durun ya da başka bir şeye geçin. Erken bitirmek de iyi bir sonuçtur."
+  - "Birlikte yapmak, işi doğru yapmaktan daha önemlidir."
 faq:
-  - q: "Demansı olan biri için hangi etkinlikler iyidir?"
-    a: "Kişinin yıllardır yaptığı, biraz basitleştirilmiş tanıdık etkinlikler: çamaşır katlamak, sofrayı kurmak, yemek yapmak, müzik, fotoğraflara bakmak, yürümek, bahçe işleri ve bir evcil hayvanla vakit geçirmek. Yetişkince ve işe yarar hissettiren şeyler seçin ve bunları birlikte yapın."
+  - q: "Bunama yaşayan biri için hangi etkinlikler iyidir?"
+    a: "Kişinin yıllardır yaptığı, biraz sadeleştirilmiş tanıdık etkinlikler: çamaşır katlamak, sofra kurmak, yemek pişirmek, müzik dinlemek, fotoğraflara bakmak, yürümek, bahçe işi ve evcil hayvanla vakit geçirmek. Yetişkinliğe uygun ve işe yarar gelen şeyleri seçin ve birlikte yapın."
   - q: "Bir etkinlik ne kadar sürmeli?"
-    a: "Doğru bir süre yoktur. Bir gün birkaç dakika havlu katlamak fazlasıyla yeterli olabilir, başka bir gün bahçede bir saat kolay gelebilir. Tempoyu kişinin belirlemesine izin verin ve hâlâ keyifliyken bitirin."
-  - q: "Kişi bir etkinliği yapmak istemezse ne yapmalı?"
-    a: "Zorlamayın. “Hayır”, işin fazla zor geldiği, zamanlamanın uygun olmadığı ya da yorgun veya rahatsız olduğu anlamına gelebilir. Daha sonra yeniden deneyin, daha küçük bir hâlini önerin ya da işe yakınında kendiniz başlayıp onu yardıma davet edin."
-  - q: "Beyin oyunları demansla yaşayan kişiler için iyi mi?"
-    a: "Oyunlar birlikte keyifli vakit geçirmenin bir yolu olabilir, ancak hiçbir oyunun demansı tedavi ettiği, yavaşlattığı ya da durdurduğu gösterilmemiştir. Süre, puan ya da yanlış cevap sesi olmayan oyunlar seçin ve onları bir test değil, birlikte yapılan bir etkinlik olarak görün."
-  - q: "Etkinliklerin çocukça hissettirmesini nasıl önlerim?"
-    a: "Gerçek, yetişkinlere uygun malzemeler kullanın: gerçek havlular, gerçek tarifler, yetişkinlere hitap eden müzik ve resim malzemeleri, yetişkince konuları olan resimler. İşleri gerçekten ihtiyaç duyduğunuz bir yardım olarak sunun ve kişiyle, olduğu yetişkin gibi konuşun."
+    a: "Doğru bir süre yoktur. Bir gün birkaç dakika havlu katlamak yeterli olabilir, başka bir gün bahçede bir saat rahat geçebilir. Temposu kişi belirlesin ve hâlâ keyifliyken bitirin."
+  - q: "Kişi bir etkinliği yapmayı reddederse ne olur?"
+    a: "Zorlamayın. Hayır demek, işin çok zor gelmesi, zamanlamanın yanlış olması ya da kişinin yorgun veya rahatsız olması anlamına gelebilir. Daha sonra deneyin, daha küçük bir hâlini önerin ya da işe yakın yerde kendiniz başlayın ve yardım etmeye davet edin."
+  - q: "Zekâ oyunları bunama yaşayanlar için iyi midir?"
+    a: "Oyunlar birlikte vakit geçirmenin keyifli bir yolu olabilir, ancak hiçbir oyunun bunamayı tedavi ettiği, yavaşlattığı ya da durdurduğu gösterilmiş değildir. Süre, puan ya da yanlış cevapta çalan sesler olmayan oyunları seçin ve bunlara bir sınav gibi değil, ortak bir etkinlik gibi yaklaşın."
+  - q: "Etkinlikler çocuksu gelmesin diye ne yapabilirim?"
+    a: "Gerçek, yetişkin malzemeleri kullanın: gerçek havlular, gerçek tarifler, yetişkin müzikleri ve sanat malzemeleri, yetişkinlere uygun temalı resimler. Görevleri gerçekten ihtiyacınız olan yardım olarak sunun ve kişiyle, o bir yetişkin olarak konuşun."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +51,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-Demansla yaşayan biri için en iyi etkinlik, çoğu zaman zaten nasıl yapılacağını bildiği bir iştir; biraz basitleştirilmiş ve güvendiği biriyle yan yana yapılan bir iş. Aşağıda türlerine göre gruplanmış 101 fikir bulacaksınız; her birinde nasıl hazırlanacağı ve işler zorlaştığında nasıl kolaylaştırılacağı yazıyor. Özel bir malzemeye ihtiyacınız yok, hiçbir şeyi bitirmeniz de gerekmiyor. Güzel bir öğleden sonra, bir sepet havlu ve birlikte içilen bir bardak çaydan ibaret olabilir.
+Bunama yaşayan biri için en iyi etkinlik genellikle zaten bildiği, biraz sadeleştirilmiş ve güvendiği biriyle birlikte yapılan bir şeydir. Aşağıda türlerine göre gruplanmış 101 fikir var; her birinin nasıl hazırlanacağı ve zorlaştığında nasıl kolaylaştırılacağı da yazılı. Özel bir malzemeye ihtiyacınız yok, hiçbir şeyi bitirmek zorunda da değilsiniz. İyi bir öğleden sonra, bir sepet havlu ve birlikte içilen bir fincan kahveden ibaret olabilir.
 
 ## Doğru etkinliği nasıl seçersiniz?
 
-Listeye göre değil, kişiye göre seçin: Her zaman sevdiği ve bugün rahatça yapabildiği şeylerden başlayın.
+Listeye göre değil, kişiye göre seçin: onun hep sevdiği şeyle ve bugün rahatça yapabildikleriyle başlayın.
 
-- **Mesleğini ve hobilerini düşünün.** [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities), eskiden büroda çalışmış birinin bozuk para ayırmaktan ya da zarf hazırlamaktan, bahçe işlerini seven birinin de bahçede çalışmaktan keyif alabileceğini söylüyor.
-- **Zaten yaptıklarına dikkat edin.** Babanız her sabah kimse söylemeden kapının önünü süpürüyorsa bunu günün bir parçası yapın.
-- **Sınırlarını hesaba katın.** Yorgunluk, görme, işitme, ağrıyan eller ve denge, hepsi önemlidir.
-- **Ruh hâlini gözleyin.** Hareketli, gürültülü etkinlikler bazılarına iyi gelir, bazılarını ise korkutur.
-- **Bir amaç verin.** Bir kermes için peçete katlamak, sırf egzersiz olsun diye yapılan bir işten daha anlamlı gelir.
+- **İşini ve hobilerini düşünün.** [Alzheimer Derneği](https://www.alz.org/help-support/caregiving/daily-care/activities), eski bir ofis çalışanının para saymaktan ya da posta hazırlamaktan hoşlanabileceğini, bahçıvanın ise bahçe işinden keyif alabileceğini öneriyor.
+- **Zaten yaptıklarını fark edin.** Babanız her sabah kimse istemeden verandayı süpürüyorsa, bunu günün içine yerleştirin.
+- **Sınırlarına göre planlayın.** Yorgunluk, görme, işitme, ağrıyan eller ve denge önemlidir.
+- **Ruh halini izleyin.** Kalabalık, gürültülü etkinlikler bazı insanlara iyi gelir, bazılarını ise korkutur.
+- **Bir amaç verin.** Kilise yemeği için peçete katlamak, sırf egzersiz olsun diye yapılan bir harekete göre daha anlamlı gelir.
 
-### Evrelere göre kabaca bir rehber
+### Aşamalara göre kaba bir rehber
 
-Demans çoğu zaman erken, orta ve ileri evreler olarak anlatılır. Bunlar kesin kalıplar değil, kaba etiketlerdir; pek çok kişinin daha iyi ve daha zor günleri olur. Bu yüzden bugün gördüğünüze göre hareket edin. [Alzheimer's Foundation of America'nın evrelere göre listesi](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) de benzer bir düzen izler.
+Bunama genellikle erken, orta ve ileri dönem olarak anlatılır. Bunlar kesin kutular değil, gevşek etiketlerdir; birçok kişinin hem iyi hem zor günleri olur, bu yüzden bugün gördüğünüze göre hareket edin. [Alzheimer Vakfı'nın aşamalara göre listesi](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) de benzer bir yapıyı izliyor.
 
-| Konu | Erken evre | Orta evre | İleri evre |
+| Konu | Erken dönem | Orta dönem | İleri dönem |
 | --- | --- | --- | --- |
-| Neler fark edebilirsiniz | Çoğunlukla kendi başına; plan yapmak, yeni isimler ve kalabalık yerler zorlaşır | Başlamak ve adımları izlemek için yardıma ihtiyaç duyar; kelimeler daha zor gelir | Günlük bakımın çoğunda yardıma ihtiyaç duyar; en çok duyular önem taşır |
-| Çoğu zaman uygun etkinlikler | Kâğıt oyunları, kutu oyunları, yemek yapmak, bahçe işleri, günlük tutmak, gezmeler, kulüpler | Çamaşır katlamak, eşya ayırmak, basit yemek adımları, şarkı söylemek, fotoğraf albümleri, eşlik edilen yürüyüşler | Sevdiği müzik, el masajı, tutulacak yumuşak şeyler, ona kitap okumak, dışarıda oturmak |
-| Sizin rolünüz | Ortak: ne tür destek istediğini sorun | Hazırlayın, gösterin, zor kısımları üstlenin | Etkinliği ona götürün; sizin yanında olmanız etkinliğin kendisidir |
-| Daha fazla fikir | [Erken evre](/activities/early-stage/) | [Orta evre](/activities/middle-stage/) | [İleri evre](/activities/late-stage/) |
+| Fark edebilecekleriniz | Çoğunlukla bağımsız; planlama, yeni isimler ve kalabalık yerler zorlaşır | Başlamak ve adımlarda yardıma ihtiyaç duyar; kelimeler daha zor gelir | Günlük bakımın çoğunda yardıma ihtiyaç duyar; duyular en önemli hâle gelir |
+| Sık uyan etkinlikler | Kartlar, masa oyunları, yemek pişirme, bahçe işi, günlük yazmak, gezintiler, kulüpler | Çamaşır katlamak, eşya ayırmak, yemekte basit adımlar, şarkı söylemek, fotoğraf albümleri, rehberli yürüyüşler | Sevilen müzikler, el masajı, tutmak için yumuşak şeyler, okunan kitaplar, dışarıda oturmak |
+| Sizin rolünüz | Partner: hangi desteği istediklerini sorun | Hazırlayın, gösterin, zor kısımları üstlenin | Etkinliği onlara getirin; sizin yanınızda olmanız da bir etkinliktir |
+| Daha fazla fikir | Erken dönem: bu sayfada | Orta dönem: bu sayfada | [İleri dönem](/activities/late-stage/) |
 
-## Demansı olan biriyle bir etkinliğe nasıl başlanır?
+## Bunama yaşayan biriyle etkinliğe nasıl başlarsınız?
 
-Küçük başlayın, onunla yan yana başlayın ve “evet” demeyi kolaylaştırın. Pek çok kişi hâlâ katılmak ister, ama planlamak ya da başlamak ona zor gelir.
+Küçük başlayın, yanlarında olun ve evet demeyi kolaylaştırın. Birçok kişi yine de katılmak ister ama planlamakta ya da başlamakta zorlanır.
 
-1. **En iyi olduğu saati seçin;** çoğu zaman sabahtır.
-2. **Her şeyi önceden hazırlayın,** böylece hemen başlayabilirsiniz.
-3. **Bir gösteri değil, yardım isteyin:** “Bunlarda bana bir el atar mısınız?”
-4. **İşe kendiniz başlayın.** İlk havluyu siz katlayın ve onun katılmasına fırsat verin. Göstermek, anlatmaktan iyidir.
-5. **Her seferinde tek bir adım önerin.**
-6. **En zor kısmı siz üstlenin.** Alzheimer's Association, malzemeleri sizin ölçmenizi, sonra karıştırması için kaşığı ona vermenizi öneriyor.
-7. **Onun yöntemiyle yapılmasına izin verin.** Farklı katlanmış havlular da olur.
-8. **Keyifli olmaktan çıktığında bırakın.** Kıpırdanmak, kaşlarını çatmak ya da “Yapamıyorum” demek, başka bir şeye geçme ya da dinlenme işaretleridir.
+1. **En iyi zamanlarını seçin,** çoğu zaman sabah.
+2. **Önce her şeyi hazırlayın** ki hemen başlayabilin.
+3. **Gösteri değil, yardım isteyin:** "Şunlarda bir elini verir misin?"
+4. **Kendiniz başlayın.** İlk havluyu siz katlayın ve onların da katılmasına izin verin. Göstermek, anlatmaktan daha etkilidir.
+5. **Bir seferde bir adım sunun.**
+6. **En zor kısmı üstlenin.** Alzheimer Derneği, malzemeleri kendiniz ölçmeniz, ardından kaşığı karıştırmaları için onlara vermenizi öneriyor.
+7. **Kendi yöntemleriyle yapmalarına izin verin.** Farklı katlanmış havlular da olur.
+8. **Keyif almayı bıraktığında durun.** Kıpırdanma, somurtma ya da "yapamıyorum" demek, değiştirmenin ya da dinlenmenin işaretleridir.
 
-Ayrıca [birlikte nasıl oyun oynanır](/caregiving/how-to-play-together/) ve [iletişim ipuçları](/caregiving/communication-tips/) rehberlerine bakın.
+Ayrıca bakınız: [birlikte nasıl oynanır](/caregiving/how-to-play-together/) ve [tanıdan sonraki ilk adımlar](/caregiving/after-dementia-diagnosis/).
 
-## Evde gündelik işler
+## Evde günlük işler
 
-Ev işleri tanıdık ve işe yarar olduğu için başlamak için doğal bir yerdir. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease); bulaşık yıkamayı, sofrayı kurmayı, süpürmeyi, postaları ayırmayı ve çamaşır katlamayı kişilerin keyif alabileceği etkinlikler arasında sayıyor. Daha fazlası [ev işleri](/activities/household-tasks/) rehberinde.
+Ev işleri tanıdıktır ve faydalıdır; bu yüzden başlamak için doğal bir yerdir. [Ulusal Yaşlanma Enstitüsü](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease), insanların hoşlanabileceği etkinlikler arasında bulaşık yıkamayı, sofra kurmayı, süpürmeyi, postayı ayırmayı ve çamaşır katlamayı sayıyor.
 
-1. **Sıcak havluları katlayın.** Kurutma makinesinden çıkan sepeti masaya boşaltın ve yan yana katlayın. Daha sonraki dönemlerde düzeltmek ve üst üste koymak da aynı derecede yardımcıdır.
-2. **Çorapları eşleyin.** Renkleri çok farklı olanlarla başlayın. Daha sonra açık renkleri koyulardan ayırmak bile yeterlidir.
-3. **Sofrayı kurun.** Her seferinde tek tür bir şey uzatın. Örnek olsun diye bir kişilik yeri siz hazırlayın.
-4. **Bulaşık yıkayın ya da kurulayın.** Ilık, sabunlu su ve kırılmayan tabaklar. Oturarak kurulamak bacakları daha az yorar.
-5. **Masayı silin.** Yemekten sonra nemli bir bez uzatın. Yerinde duramayan eller için gerçek bir iştir.
-6. **Postaları ayırın.** Broşürleri ve reklam postalarını “kalsın” ve “geri dönüşüme” diye ayırın. Gerçek faturaları uzak tutun.
-7. **Market broşürlerinden kesin.** Ucu yuvarlak bir makas ve market indirim broşürleri. Daha sonra sevdiği yiyecekleri daire içine almak da işe yarar.
-8. **Bozuk paraları ayırın.** Bozuk paraları kaplara ayırın ya da üst üste dizin. Kişi eşyaları ağzına götürüyorsa küçük nesnelerle bu etkinliği atlayın.
-9. **Süpürün ya da toz alın.** Balkonda hafif bir süpürge ya da oturarak kullanılan uzun saplı bir toz alıcı.
-10. **Yemek hazırlamaya yardım etsin.** Sebze yıkamak, marulu elle koparmak, karıştırmak. Bıçaklar ve ocakla siz ilgilenin.
-11. **Bir aile tarifini pişirin.** Varsa onun el yazısıyla yazılmış tarif kartını kullanın. Daha sonra tadına bakan o olabilir.
-12. **Büro işi yapın.** Mektupları katlamak, zarflara koyup pul yapıştırmak ya da alışveriş listesini birlikte yazmak.
+1. **Sıcak havluları katlayın.** Kurutma makinesindeki sepeti masaya boşaltın ve yan yana katlayın. Daha sonra düzeltmek ve üst üste koymak da aynı derecede yardımcı olur.
+2. **Çorap eşleştirin.** Çok farklı renklerle başlayın. Daha sonra açık ve koyu renkleri ayırmak yeterli olur.
+3. **Sofra kurun.** Her seferinde bir tür eşya verin. Bir tabağı kendiniz koyup örnek olun.
+4. **Bulaşık yıkayın ya da kurulayın.** Ilık, sabunlu su ve kırılmayan tabaklar. Otururken kurulamak bacaklar için daha rahattır.
+5. **Masayı silin.** Yemekten sonra nemli bir bez verin. Huzursuz eller için gerçek bir iştir.
+6. **Postayı ayırın.** Katalogları ve reklam kâğıtlarını "saklanacak" ve "geri dönüşüm" olarak ayırın. Gerçek faturaları uzak tutun.
+7. **Kupon kesin.** Uç kısmı yuvarlak makas ve market broşürleri. Daha sonra sevdikleri yiyecekleri daire içine almak da olur.
+8. **Bozuk para ayırın.** Parayı bardaklara ayırın ya da paket kâğıtlarına sarın. Eşyaları ağzına götürüyorsa küçük parçalardan uzak durun.
+9. **Süpürün ya da toz alın.** Verandada hafif bir süpürge, ya da sandalyeden kullanılan uzun saplı bir toz fırçası.
+10. **Yemek hazırlamaya yardım edin.** Sebze yıkamak, marul koparmak, karıştırmak. Bıçağı ve ocağı siz kullanın.
+11. **Aile tarifi pişirin.** Varsa, onların el yazısıyla yazılmış kartı kullanın. Daha sonra tadına bakıcı da onlar olabilir.
+12. **Ofis işi yapın.** Mektup katlayın, zarf doldurup pul yapıştırın ya da alışveriş listesini birlikte yazın.
 
 ## Müzik
 
-Tanıdık müzik, kelimeler zorlaştığında bile kişiye ulaşabilir. [Alzheimer's Association'ın müzik önerileri](https://www.alz.org/help-support/caregiving/daily-care/art-music); tanıdık şarkıları, reklamsız dinlemeyi ve televizyonu kapalı tutmayı öneriyor. [Müzik etkinlikleri](/activities/music/) rehberine bakın.
+Tanıdık müzik, sözcükler zorlaşsa bile insana ulaşabilir. [Alzheimer Derneği'nin müzik önerileri](https://www.alz.org/help-support/caregiving/daily-care/art-music), tanıdık şarkıları, reklamsız bir ortamı ve televizyonun kapalı olmasını öneriyor. Bkz. [müzik etkinlikleri](/creative-calm/music-for-calm-and-connection/).
 
-13. **Kişisel bir çalma listesi hazırlayın.** Gençlik yıllarından, düğününden, inancından ve kültüründen müzikler.
-14. **Birlikte şarkı söyleyin.** Önce siz başlayın. Mırıldanmak ya da dinlemek de sayılır.
-15. **Ritim tutun.** El çırpın, dizlere vurun ya da bir def çalın. Oturarak da, ileri evrelerde de olur.
-16. **Dans edin.** Mutfakta yavaş bir dans ya da el ele tutuşup oturduğunuz yerde sallanmak.
-17. **Bir albümü baştan sona dinleyin.** Sevdiği bir plak, başından sonuna; yanında çay, başka hiçbir şey yokken.
-18. **Müzik üzerine konuşun.** Bilgi değil, hikâye isteyin: “Gittiğiniz düğünleri, eğlenceleri anlatın bana.”
-19. **Kaydedilmiş bir müzikal ya da konser izleyin.** Sevdiği bir gösteri güzel bir akşam olur. İstediğiniz an durdurun.
-20. **Tanıdık bir enstrüman çalsın.** Eskiden piyano çalan biri basit parçalardan keyif alabilir; daha sonra birlikte birkaç nota.
-21. **Canlı müzik dinleyin.** Kısa bir mahalle konseri ya da bir koro provası. Çıkışa yakın oturun.
+13. **Kişisel bir liste hazırlayın.** Gençlik ve yirmili yaşlarından, düğünlerinden, kiliselerinden ve kültürlerinden müzikler.
+14. **Birlikte şarkı söyleyin.** Önce siz söylemeye başlayın. Mırıldanmak ya da dinlemek de sayılır.
+15. **Ritim tutun.** El çırpın, dizlere vurun ya da bir el davulunu çalın. Oturarak da, ileri dönemde de yapılabilir.
+16. **Dans edin.** Mutfakta yavaş bir dans edin ya da el ele tutuşup oturarak sallanın.
+17. **Bütün bir albümü dinleyin.** Sevdikleri bir plağı baştan sona, yanınızda kahveyle ve başka hiçbir şey olmadan dinleyin.
+18. **Müzik hakkında konuşun.** Bilgi değil hikâye isteyin: "Gittiğin danslardan bahset bana."
+19. **Kaydedilmiş bir müzikal ya da konser izleyin.** Sevdikleri bir gösteri, güzel bir akşam yapar. İstediğiniz an durdurabilirsiniz.
+20. **Tanıdık bir enstrüman çalın.** Eski bir piyanist basit parçalardan hoşlanabilir; daha sonra birkaç notayı birlikte çalabilirsiniz.
+21. **Canlı müzik dinleyin.** Kısa bir semt konseri ya da koro provası. Çıkışa yakın oturun.
 
 ## Anılar: fotoğraflar, eşyalar ve hikâyeler
 
-Geçmişin tadını onu sınamadan birlikte çıkarın. “Hatırlıyor musunuz...?” ve “Bu kim?” gibi soruları bırakın, yerine açık davetler kullanın. [Anılar üzerine etkinlikler](/activities/reminiscence/) rehberine bakın.
+Geçmişi, onu sınamadan birlikte yaşayın. "Hatırlıyor musun?" ve "Bu kim?" gibi sorulardan kaçının, bunun yerine açık davetler kullanın. Bkz. [anı etkinlikleri](/activities/reminiscence/).
 
-22. **Bir fotoğraf albümüne göz atın.** Gördüğünüzü söyleyin: “Ne güzel bir elbise. Bana bu günü anlatın.” Kullandığı isimler ne olursa olsun onlara uyun.
-23. **Bir anı kutusu hazırlayın.** Hayatından eşyalarla dolu bir ayakkabı kutusu; örneğin bir iş kartı ya da bir tarif kartı. Eşyaları teker teker çıkarın.
-24. **Bir hayat hikâyesi kitabı başlatın.** Her sayfada birkaç fotoğraf ve büyük harfli açıklamalar. Yeni yardımcıların kişiyi tanımasına yardım eder.
-25. **Sohbet kartları kullanın.** [Sohbet kartları](/games/conversation-cards/) bir resmi açık uçlu bir soruyla bir araya getirir.
-26. **Aile fotoğraflarıyla bir oyun yapın.** [Fotoğraf eşleştirme](/games/photo-pairs/) kendi fotoğraflarınızı bir eşleştirme oyununa dönüştürür.
-27. **Ev videoları ya da eski televizyon programları izleyin.** Soru sormak yerine birlikte yorum yapın.
-28. **Meslek hayatından eşyaları ellesin.** Bir İngiliz anahtarı, bir steteskop, bir muhasebe defteri. Hikâyeyi çoğu zaman eller başlatır.
-29. **Çocukluğundan bir yemek pişirin.** Karıştırabilir, tadına bakabilir ya da sadece mutfakta yanınızda oturabilir.
-30. **Yaşadığı yerlerin haritasına bakın.** Konuşurken büyük bir atlasta tanıdık yolların üzerinden parmağınızla geçin.
+22. **Bir fotoğraf albümüne bakın.** Gördüğünüzü söyleyin: "Ne güzel elbise. Bu gün hakkında anlat bana." Kullandıkları isimlere eşlik edin.
+23. **Bir anı kutusu yapın.** Hayatlarından eşyalarla dolu bir ayakkabı kutusu: bir iş rozeti, bir tarif kartı. Eşyaları birer birer çıkarın.
+24. **Bir hayat hikâyesi kitabı başlatın.** Sayfa başına birkaç fotoğraf ve büyük yazılı açıklamalar. Yeni yardımcıların kişiyi tanımasına yardımcı olur.
+25. **Sohbet kartları kullanın.** [Sohbet kartları](/games/conversation-cards/), bir resmi açık bir soruyla eşleştirir.
+26. **Aile fotoğraf oyunu yapın.** [Fotoğraf çiftleri](/games/photo-pairs/), kendi fotoğraflarınızı bir eşleştirme oyununa dönüştürür.
+27. **Ev videolarına ya da eski televizyona bakın.** Soru sormak yerine birlikte yorum yapın.
+28. **İş hayatlarından eşyalar tutun.** Bir anahtar takımı, bir stetoskop, bir defter. Eller çoğu zaman hikâyeyi başlatır.
+29. **Çocukluk yemeği pişirin.** Karıştırabilir, tadabilir ya da size eşlik ederek mutfakta oturabilirler.
+30. **Yaşadıkları yerlerin haritasına bakın.** Konuşurken büyük bir atlas üzerinde tanıdık yolları takip edin.
 
 ## Yaratıcı etkinlikler
 
-Sanatta önemli olan bitmiş eser değil, yapmanın kendisidir. Malzemeleri yetişkince ve güvenli tutun. [Sanat ve el işleri](/activities/arts-and-crafts/) rehberine bakın.
+Sanatta önemli olan yapmaktır, bitmiş eser değil. Malzemeleri yetişkinlere uygun ve güvenli tutun. Bkz. [sanat ve el işleri](/crafts/easy-crafts-for-adults/).
 
-31. **Suluboya yapın.** Kalın kâğıt, birkaç renk. Başlamak zor geliyorsa ilk fırça darbelerini birlikte yapın.
-32. **Yetişkinlere uygun desenleri boyayın.** Çizgi film değil, çiçekler ya da yorgan desenleri. [Boyama sayfalarımız](/games/coloring/) ekranda da çıktı olarak da kullanılabilir.
-33. **Kolaj yapın.** Dergilerden bahçe, araba ya da yemek resimleri yırtın ve yapıştırın. Daha sonra sadece resim seçmek de yeterlidir.
-34. **Çiçek düzenleyin.** Marketten bir demet ve bir vazo. Daha sonra bir kavanozda birkaç dal.
-35. **Birlikte örgü örün.** Kalın şişlerle basit sıralar. Daha sonra yünü yumak yapmak.
-36. **Aile için kart hazırlayın.** Gerçek kişiler için doğum günü ve geçmiş olsun kartlarına damga basın, imza atın ya da süsleyin.
-37. **Kendiliğinden kuruyan kille şekil verin.** Küçük bir tabak şekillendirin. Zehirsiz malzemeler kullanın ve yakında kalın.
-38. **Ahşabı zımparalayın ve cilalayın.** Elektrikli alet olmadan, önceden kesilmiş bir kuş evi seti ve zımpara kâğıdı. [Erkekler için etkinlikler](/activities/for-men/) rehberine bakın.
-39. **Bir mektup yazsın ya da yazdırsın.** Bir toruna ya da eski bir arkadaşa. Yazmak zorsa o anlatır, siz yazarsınız.
+31. **Suluboya boyayın.** Kalın kâğıt, birkaç renk. Başlamak zorsa ilk fırça darbelerini birlikte yapın.
+32. **Yetişkin desenlerini boyayın.** Çizgi film değil, çiçekler ya da yorganlar. [Boyama sayfalarımız](/games/coloring/) ekranda ya da basılı olarak kullanılabilir.
+33. **Kolaj yapın.** Bahçe, araba ya da yemek resimlerini dergilerden koparıp yapıştırın. Daha sonra sadece resim seçmek bile yeterlidir.
+34. **Çiçek düzenleyin.** Markette alınan bir demet ve bir vazo. Daha sonra bir kavanozda birkaç sap.
+35. **Birlikte örün ya da tığ işi yapın.** Büyük şişlerle basit sıralar. Daha sonra yünü top haline getirmek.
+36. **Aile için kart yapın.** Gerçek insanlar için doğum günü ya da geçmiş olsun kartlarını damgalayın, imzalayın ya da süsleyin.
+37. **Kendi kendine kuruyan kil şekillendirin.** Küçük bir tabak bastırın. Zehirsiz malzemeler kullanın ve yakınınızda kalın.
+38. **Ahşabı zımparalayıp bitirin.** Hazır kesilmiş bir kuş evi kiti ve zımpara kâğıdı; elektrikli alet yok.
+39. **Mektup yazın ya da yazdırın.** Bir torunuza ya da eski bir arkadaşa. Yazmak zorsa siz yazın, onlar anlatsın.
 
-## Açık hava ve bahçe işleri
+## Dış mekân ve bahçe işleri
 
-Temiz hava ve gün ışığı iyi bir arkadaştır. [Açık hava ve bahçe etkinlikleri](/activities/outdoor-and-gardening/) rehberine bakın.
+Temiz hava ve gün ışığı iyi birer arkadaştır. Bkz. [dış mekân ve bahçe etkinlikleri](/together/outdoor-and-garden-activities/).
 
-40. **Çiçekleri sulayın.** Küçük bir sulama kabı ve birkaç saksı. Her gün sulamak güne bir düzen verir.
-41. **Bir saksıya bir şey dikin.** Kimse diz çökmesin diye saksıyı masaya koyun. Fideler tohumlardan daha kolaydır.
-42. **Yabani otları ya da solmuş çiçekleri ayıklayın.** Eldivenler takılı, her seferinde küçük bir tarh.
-43. **Yaprak tırmıklayın.** Küçük bir alan. Daha sonra torbayı açık tutmak da gerçek bir iştir.
-44. **Tanıdık bir yolda yürüyün.** Mahallede bir tur ya da köşedeki bakkala kadar. Daha kısası da olur.
-45. **Birlikte dışarıda oturun.** Ilık bir günde balkonda ya da bahçede bir sandalye. Bulutları ya da gelip geçenleri izleyin.
-46. **Kuşları besleyin.** Bir yemliği birlikte doldurun ve pencere kenarından izleyin.
-47. **Arabayı yıkayın.** Bir kova, bir sünger, ılık bir öğleden sonra. Jantları durulamak tek adımlık iyi bir iştir.
+40. **Bitkileri sulayın.** Küçük bir sulama kabı ve birkaç saksı. Her gün sulamak güne bir düzen verir.
+41. **Bir saksı dikin.** Kimsenin diz çökmemesi için masaya koyun. Fideler tohumlardan daha kolaydır.
+42. **Ot ayıklayın ya da solmuş çiçekleri koparın.** Eldivenler takın, seferde küçük bir bölüm.
+43. **Yaprak toplayın.** Küçük bir alan. Daha sonra poşeti açık tutmak da gerçek bir iştir.
+44. **Tanıdık bir yolda yürüyün.** Blok etrafında ya da posta kutusuna kadar. Kısa olması yeterlidir.
+45. **Birlikte dışarıda oturun.** Ilık bir günde verandada bir sandalye. Bulutları ya da geçenleri izleyin.
+46. **Kuşları besleyin.** Birlikte bir kuş yemliği doldurun ve pencere kenarından izleyin.
+47. **Arabayı yıkayın.** Kova, sünger, ılık bir öğleden sonra. Jant kapaklarını durulamak, tek adımlık güzel bir iştir.
 
 ## Duyusal etkinlikler
 
-Dokunma, koku, tat, ses ve görme, demans ilerledikçe daha çok önem kazanır. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/), ileri evreler için müziği, ellenecek eşyaları ve el masajını anıyor. Önce alerji ve boğulma riskini kontrol edin; [duyusal etkinlikler](/activities/sensory/) rehberine bakın.
+Dokunma, koku, tat, ses ve görme, bunama ilerledikçe daha önemli hâle gelir. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/), ileri dönem için müzik, tutulacak eşyalar ve el masajından söz ediyor. Önce alerjileri ve boğulma risklerini kontrol edin; bkz. [duyusal etkinlikler](/creative-calm/sensory-activities-for-adults/).
 
-48. **El masajı yapın.** Önce sorun ve biraz losyon kullanın. Cildinden ya da alerjilerden emin değilseniz kokusuz olanı seçin.
-49. **Kumaşlara dokunun.** Okşamak ve katlamak için içinde kadife, fitilli kadife, yün ve saten olan bir sepet.
-50. **Otları ve kahveyi koklayın.** Taze nane ya da biberiyeyi parmaklarınızın arasında ovun. Solunum sorunları varsa güçlü kokulardan kaçının.
-51. **Saçını tarayın.** Hoşuna gidiyorsa yavaş ve nazikçe.
+48. **El masajı yapın.** Önce izin isteyin ve biraz losyon kullanın. Cilt ya da alerji konusunda emin değilseniz kokusuz bir ürün seçin.
+49. **Kumaşları hissedin.** Okşamak ve katlamak için bir sepet kadife, fitilli kadife, yün ve saten.
+50. **Bitki ve kahve kokusu alın.** Taze nane ya da biberiyeyi parmaklarınız arasında ovun. Nefes sorunu varsa güçlü kokulardan uzak durun.
+51. **Saçlarını tarayın.** Hoşlanıyorlarsa, yavaş ve nazikçe.
 52. **Ilık bir havlu paylaşın.** Soğuk bir günde eller ve yüz için. Önce sıcaklığını deneyin.
-53. **Bir etkinlik önlüğünü keşfetsin.** Sıkıca dikilmiş büyük düğmeler ve fermuarlar. Hiçbir şeyin kopup çıkamadığını kontrol edin.
-54. **Sevdiği bir lezzeti tatsın.** Küçük bir kaşık, güvenle yiyebileceği bir kıvamda.
-55. **Doğa sesleri açın.** Düşük seste yağmur, dalga ya da kuş sesleri.
-56. **Yavaş bir şey izleyin.** Bir akvaryum, bir doğa videosu ya da yağan kar.
+53. **Bir etkinlik önlüğü keşfedin.** Büyük düğmeler ve fermuarlar, sıkıca dikilmiş. Hiçbirinin çözülmediğinden emin olun.
+54. **Sevdikleri bir lezzeti tadın.** Küçük bir kaşık, güvenle yiyebilecekleri bir kıvamda.
+55. **Doğa seslerini dinleyin.** Düşük sesle yağmur, dalga ya da kuş sesleri.
+56. **Yavaş bir şeyi izleyin.** Bir akvaryum, bir doğa belgeseli ya da düşen kar.
 
 ## Oyunlar ve bulmacalar
 
-Oyunlar süre, puan ya da baskı olmadığında iyi işler. Bir oyun sınav gibi hissettirmeye başlarsa onu kaldırın. [Uygulama ve oyun seçmek](/caregiving/choosing-apps-and-games/) ve [beyin oyunları](/brain-health/brain-games/) rehberlerine bakın.
+Oyunlar, süre, puan ya da baskı olmadığında işe yarar. Bir oyun bir sınav gibi hissettirmeye başlarsa, kaldırın. Bkz. [oyunlar sayfası](/games/) ve [evde bunama etkinlikleri](/dementia-activities/).
 
-57. **Resimleri eşleştirin.** [Resim eşleştirme](/games/picture-pairs/) resimlerin açık kalmasına izin verir; böylece iş hatırlamak değil, fark etmektir.
-58. **Aynı resmi bulun.** [Aynısını bul](/games/find-the-same/) iki ila dört seçenek sunar. Her resim üzerine sohbet edin.
-59. **Sepetlere ayırın.** [Birlikte ayıralım](/games/sort-together/) ekranda çorap ayırmak gibidir.
-60. **Büyük parçalı bir yapboz yapın.** Yetişkince resimler, az sayıda parça. [Resimli yapboz](/games/picture-puzzle/) bütün resmi görünür tutar. Daha fazlası [demans için bulmacalar](/activities/puzzles/) rehberinde.
-61. **Eski bir kâğıt oyunu oynayın.** Yıllarca ne oynadıysa o. Daha sonra desteyi renklerine göre ayırmak başlı başına bir oyundur.
-62. **Domino oynayın.** Uçları eşleştirin. Daha sonra taşları sadece sıraya dizmek de olur.
-63. **Büyük harfli bir kelime avı deneyin.** [Kelime avımızda](/games/word-search/) kelimeler yalnızca soldan sağa ve yukarıdan aşağıya gider; yazdırılabilir.
-64. **Tanıdık atasözlerini tamamlayın.** [Atasözünü tamamla](/games/finish-the-saying/) sonu istediğiniz an göstermenize izin verir.
-65. **Resimli tombala oynayın.** [Resimli tombala](/games/picture-bingo/) aileler ve gruplar için uygundur. Kartları işaretlemeye rahatça yardım edin.
-66. **Dama oynayın.** Kuralları esnek tutun. Sohbet ederken taşları oynatmak da sayılır.
+57. **Resimleri eşleştirin.** [Resim çiftleri](/games/picture-pairs/), resimleri yüzü açık bırakır; yani mesele hatırlamak değil, fark etmektir.
+58. **Aynı resmi bulun.** [Aynısını bul](/games/find-the-same/), iki ila dört seçenek sunar. Her resim hakkında sohbet edin.
+59. **Sepetlere ayırın.** [Birlikte ayırın](/games/sort-together/), ekranda çorap ayırmak gibidir.
+60. **Büyük parçalı bir puzzle yapın.** Yetişkin görselleri, kolay parça sayısı. [Resim bulmacası](/games/picture-puzzle/) bütün resmi görünür tutar. Daha fazlası için bkz. [bulmacalar ve masa oyunları](/together/puzzles-and-table-games/).
+61. **Eski bir kart oyunu oynayın.** Yıllarca oynadıkları her ne ise. Daha sonra desteyi renklere göre ayırmak başlı başına bir oyundur.
+62. **Domino oynayın.** Uçları eşleştirin. Daha sonra taşları sadece dizmek bile yeterlidir.
+63. **Büyük yazılı kelime bulmacası deneyin.** [Kelime bulmacamız](/games/word-search/) yalnızca yatay ve dikey kelimeler içerir ve yazdırılabilir.
+64. **Tanıdık atasözlerini tamamlayın.** [Atasözünü tamamla](/games/finish-the-saying/) ile sonunu istediğiniz an gösterebilirsiniz.
+65. **Resimli bingo oynayın.** [Resimli bingo](/games/picture-bingo/), aileler ve gruplar için uygundur. Kartları istedikleri gibi işaretlemelerine yardım edin.
+66. **Dama oynayın.** Kuralları esnek tutun. Sohbet ederken taşları hareket ettirmek de sayılır.
 
 ## Hareket
 
-NIA; yürüyüşleri, kondisyon bisikletini, esneme bantlarını, yumuşak bir top ya da balon atmayı, çorba konservesi kaldırmayı ve yaşlılar için egzersiz videolarını öneriyor. Yeni bir şeye başlamadan önce, özellikle denge sorunları varsa, bir doktora danışın.
+NIA, yürüyüşleri, sabit bisikleti, esneme bantlarını, yumuşak bir topu ya da balonu atmayı, çorba kutularını kaldırmayı ve yaşlılar için egzersiz videolarını öneriyor. Özellikle denge sorunları varsa, yeni bir şeye başlamadan önce doktorunuza danışın.
 
-67. **Balon atın.** Karşılıklı oturun. Balon yavaş hareket ettiği için yakalaması kolaydır.
-68. **Yaşlılar için hazırlanmış oturarak egzersiz videosunu** yan yana izleyip birlikte yapın.
-69. **Bantla esneme yapın.** Oturarak, hafif bir bantla kolları nazikçe çekin.
-70. **Konserve kutusu kaldırın.** Belki müzik eşliğinde, kolları yavaşça kaldırın.
-71. **Kondisyon bisikleti sürün.** Siz yakındayken birkaç kolay dakika.
-72. **Eşarplarla dans edin.** Oturarak ya da ayakta, müzikle hafif eşarpları sallayın.
-73. **Bir amaçla yürüyün.** Bir mektubu postalamak ya da bir çay içmek için. Gitmek için bir neden olması doğal hissettirir.
-74. **Bir nefes molası paylaşın.** [Sakin nefes](/games/calm-breathing/) ile birlikte yavaşlayın.
+67. **Balon atın.** Karşılıklı oturun. Balon yavaş hareket eder, bu yüzden yakalamak kolaydır.
+68. **Yaşlılar için hazırlanmış oturarak yapılan bir egzersiz videosunu** yan yana takip edin.
+69. **Bantla esneyin.** Oturarak, hafif bir bantla kollarınızı nazikçe çekin.
+70. **Çorba kutuları kaldırın.** Belki bir müziğin eşliğinde, kollarınızı yavaşça kaldırın.
+71. **Sabit bisiklete binin.** Yanınızda olduğunuz sürece birkaç kolay dakika.
+72. **Eşarplarla dans edin.** Oturarak ya da ayakta, müziğe eşlik eden hafif eşarplar sallayın.
+73. **Bir amaçla yürüyün.** Bir mektubu postalamak ya da bir kahve almak için. Bir nedenle çıkmak doğal gelir.
+74. **Nefes molası verin.** [Sakin nefes](/games/calm-breathing/) ile birlikte yavaşlayın.
 
 ## Sosyal etkinlikler
 
-İsimler zorlaştığında bile insanlarla bir arada olmak önemlidir; küçük gruplar büyüklerden daha kolaydır. NIA, kişinin bir ziyaretçinin kim olduğunu hatırlamasa da çoğu zaman onun varlığından keyif aldığını belirtiyor. [Ziyaretler](/activities/visiting/) rehberine bakın.
+İsimler zorlaşsa bile birlikte olmak önemlidir ve küçük gruplar büyük gruplardan daha kolaydır. NIA, bir kişinin ziyaretçinin kim olduğunu hatırlamayabileceğini ama yine de birlikteliğin tadını çıkarabileceğini belirtiyor. Bkz. [ziyaret](/together/visiting-someone-in-care/).
 
-75. **Aynı anda bir ya da iki ziyaretçi olsun.** Sessiz bir odada, bakılacak fotoğraflarla kısa ziyaretler.
-76. **Aileyle görüntülü konuşun.** Kısa görüşmeler, her seferinde tek bir ses. [Telefon ve görüntülü görüşmeler](/activities/phone-and-video-calls/) rehberine bakın.
-77. **Bir Alzheimer kafeyi deneyin.** Demansla yaşayan kişiler ve bakım verenleri için resmi olmayan, uğranabilen buluşmalar. Yakınınızda ne olduğunu belediyenizin sosyal hizmetler birimine ya da yerel Alzheimer derneğine sorun.
-78. **Sakin bir saatte dışarıda yiyin.** NIA, kalabalık olmayan saatlerde tanıdık, sakin bir lokanta ve tuvalete yakın bir masa öneriyor.
-79. **Bir yaşlı merkezine ya da gündüz bakım merkezine gidin.** Onun için bir arkadaşlık, sizin için bir mola.
-80. **Çocuklarla vakit geçirin.** Torunlardan kısa, sakin bir ziyaret ya da küçük bir çocuğa resimli bir kitap okumak.
-81. **Çay eşliğinde gazeteye birlikte bakın.** Manşetleri yüksek sesle okuyun. Alışkanlığın kendisi haberlerden daha önemlidir.
-82. **Başka birine yardım edin.** Bir dernek için broşür katlamak ya da bir komşuya kart hazırlamak.
+75. **Aynı anda bir ya da iki ziyaretçi alın.** Sessiz bir odada kısa ziyaretler, bakılacak fotoğraflarla.
+76. **Aileyle görüntülü görüşme yapın.** Kısa görüşmeler, seferde tek bir ses. Bkz. [telefon ve görüntülü görüşmeler](/together/staying-connected-from-afar/).
+77. **Bir hafıza kafesine gidin.** Bunama yaşayan kişiler ve bakım verenleri için gayriresmi, gelip geçici buluşmalar. Yakınınızda ne olduğunu yerel Yaşlılar İçin Bölge Kuruluşunuza sorun.
+78. **Sakin bir saatte dışarıda yemek yiyin.** NIA, boş saatlerde, tanıdık ve sessiz bir restoranı öneriyor; tuvaletin yakınında bir masa seçin.
+79. **Bir yaşlılar merkezini ya da günlük bakım programını ziyaret edin.** Onlara arkadaşlık, size ise bir mola.
+80. **Çocuklarla vakit geçirin.** Torunların kısa ve sakin bir ziyareti ya da küçük bir çocuğa resimli bir kitap okumak.
+81. **Kahve eşliğinde gazete paylaşın.** Manşetleri yüksek sesle okuyun. Ritüel, haberden daha önemlidir.
+82. **Başkasına yardım edin.** Kilise programlarını katlayın ya da bir komşu için kart yapın.
 
-## İnanç ve manevi etkinlikler
+## İnanç ve ruhani etkinlikler
 
-Kişinin kendi inancını izleyin; bir inancı yoksa ona da saygı gösterin. NIA; tanıdık ibadetleri, okumaları, dini müziği, duayı, meditasyonu ve bayram geleneklerini öneriyor.
+Kişinin kendi geleneğini izleyin ya da hiçbirini. NIA, tanıdık ayinleri, okumaları, ruhani müzikleri, duayı, meditasyonu ve bayram ritüellerini öneriyor.
 
-83. **Tanıdık bir ibadete katılın.** Daha sakin bir vakti seçin, kenara yakın oturun ve oradaki insanlara demanstan söz edin.
-84. **Dışarı çıkmanın fazla geldiği günlerde** bir ibadeti çevrimiçi izleyin.
-85. **Birlikte dua edin ya da okuyun.** Tanıdık sözler, yavaşça okunan. Bildiği yerlerde size katılabilir.
-86. **Kendi geleneğinden ilahiler ya da dini müzikler** söyleyin.
-87. **Bayram geleneklerini sürdürün.** Pilli mumlar, kısa bir dua, hep kullandığı örtüler ve süsler.
-88. **Sessiz bir zaman paylaşın.** Bir bahçede oturun ya da birlikte gün batımını izleyin.
+83. **Tanıdık bir ayine katılın.** Daha sakin bir ayin seçin, koridora yakın oturun ve oradakilere bunamadan haberdar olduklarından emin olun.
+84. **Dışarı çıkmanın zor olduğu günlerde bir ayini çevrimiçi izleyin.**
+85. **Birlikte dua edin ya da okuyun.** Tanıdık sözler, yavaşça okunur. Bildikleri bölümlere katılabilirler.
+86. **Geleneklerinden ilahiler ya da ruhani müzik söyleyin.**
+87. **Bayram ritüellerini sürdürün.** Pilli mumlar, bir dua, hep kullandıkları süslemeler.
+88. **Sessiz zaman paylaşın.** Bir bahçede oturun ya da günbatımını birlikte izleyin.
 
 ## Evcil hayvanlar ve hayvanlar
 
-NIA; bir evcil hayvanı beslemeyi, tımar etmeyi, gezdirmeyi ya da onunla oturup kucağa almayı öneriyor.
+NIA, bir evcil hayvanı beslemeyi, bakımını yapmayı, yürütmeyi ya da yanında oturup kucaklamayı öneriyor.
 
-89. **Sakin bir köpeği ya da kediyi tarayın;** uzun, yavaş hareketlerle.
-90. **Hayvanı birlikte besleyin.** Siz ölçün, o koysun.
-91. **Köpeği birlikte gezdirin.** Tasmayı siz tutun.
-92. **Bir hayvanı kucağına alsın.** Bir battaniyenin üstündeki sakin bir kedi insanı çok rahatlatabilir.
-93. **Ziyarete gelen hayvanları karşılayın.** Bazı huzurevleri ve gündüz bakım merkezleri hayvan ziyaretleri düzenler. Yakınınızda sorun.
-94. **Gerçeğe benzeyen yumuşak bir hayvan önerin.** Evcil hayvan yoksa bazı kişiler gerçeğe benzeyen peluş bir kedi ya da köpeği tutmaktan hoşlanır. Onu sade bir şekilde, asla oyuncak gibi sunmadan önerin ve “hayır”ı kabul edin.
+89. **Sakin bir köpeği ya da kediyi fırçalayın.** Uzun, yavaş hareketlerle.
+90. **Hayvanı birlikte besleyin.** Siz ölçersiniz, onlar döker.
+91. **Köpeği birlikte gezdirin.** Tasmayı siz tutarsınız.
+92. **Hayvanı kucağa alın.** Bir battaniye üzerinde sakin bir kedi çok yatıştırıcı olabilir.
+93. **Ziyaret eden hayvanları ağırlayın.** Bazı bakım evleri ve günlük programlar hayvan ziyaretleri düzenler. Yerelde sorun.
+94. **Gerçeğe yakın yumuşak bir hayvan sunun.** Evcil hayvanınız yoksa, bazı kişiler gerçekçi bir peluş kedi ya da köpeği kucaklamaktan hoşlanır. Bunu sade bir şekilde sunun, asla oyuncak gibi değil, ve hayır demelerini kabul edin.
 
 ## Mevsimlik etkinlikler
 
-Gelenekleri sürdürün, ama daha sade bir şekilde. NIA, kalabalık bayram günlerinde gerçekçi olmayı ve dinlenmek için sessiz bir köşe bulundurmayı öneriyor.
+Geleneklerinizi sürdürün, ama daha sade. NIA, yoğun bayram dönemlerinde gerçekçi olmayı ve molalar için sessiz bir alan ayırmayı öneriyor.
 
-95. **Evi mevsime göre süsleyin.** Masada mevsim meyveleriyle dolu bir kase, bir çelenk ya da taze çiçekler.
-96. **Bayram için bir şey pişirin.** Hamur açın ya da kurabiyeleri süsleyin. Fırınla siz ilgilenin.
-97. **Süsleri asın.** Kırılmaz süsler, teker teker uzatılarak.
-98. **Işıkları görmek için arabayla gezin.** Kısa bir akşam gezintisi, yanında olmaktan başka hiçbir şey istemez.
-99. **Bahar soğanları dikin.** Sonbaharda bir saksıya lale soğanları gömün ve filizlerin çıkmasını bekleyin.
-100. **Fasulye ya da bezelye ayıklayın.** Kucakta bir kaseyle, yazın balkonda yapılan bir iş.
-101. **Bayram kartlarını hazırlayın.** O imzalasın, pul yapıştırsın ya da zarfı kapatsın; adresleri siz yazın.
+95. **Mevsime göre süsleyin.** Masada bir balkabağı, bir çelenk ya da taze çiçekler.
+96. **Bayram tatlısı yapın.** Hamur açın ya da kurabiyelere krema sürün. Fırını siz kullanın.
+97. **Süs asın.** Kırılmaz süsler, birer birer verilir.
+98. **Işıkları görmeye gidin.** Kısa bir akşam sürüşü, sadece birliktelik ister.
+99. **Bahar soğanları dikin.** Sonbaharda soğanları bir saksıya gömün ve filizlenmeyi izleyin.
+100. **Mısır koçanı ayıklayın ya da bezelye çıtlatın.** Kucakta bir kâse ile yazlık bir veranda işi.
+101. **Bayram kartlarına adres yazın.** Onlar imzalar, damgalar ya da zarfı kapatır; adresleri siz yazarsınız.
 
-## Bir etkinlik işe yaramıyorsa ne yapmalı?
+## Bir etkinlik işe yaramıyorsa ne olur?
 
-Bırakın ve başka bir zaman farklı bir şey deneyin. NIA, hayal kırıklığı işaretlerine dikkat etmeyi ve kişi isterse sadece izlemesine izin vermeyi öneriyor. “Hayır” çoğu zaman işin fazla zor olduğu, zamanın uygun olmadığı ya da ağrı, açlık veya gürültü gibi başka bir şeyin onu rahatsız ettiği anlamına gelir. İşi küçültün, günün daha erken bir saatinde deneyin ya da kendiniz başlayıp onun katılıp katılmadığına bakın. [“Hayır” dediğinde](/caregiving/when-they-say-no/) ve [akşamüstü huzursuzluğu](/caregiving/late-day-restlessness/) rehberlerine bakın.
+Durun ve başka bir zaman farklı bir şey deneyin. NIA, sinirlenme belirtilerini izlemenizi ve isterlerse kişinin sadece izlemesine izin vermenizi öneriyor. Hayır demek çoğu zaman görevin çok zor olduğu, zamanın yanlış olduğu ya da ağrı, açlık ya da gürültü gibi başka bir şeyin rahatsız ettiği anlamına gelir. Etkinliği küçültün, günün daha erken bir saatinde deneyin ya da kendiniz başlayıp katılıp katılmayacaklarını görün. Bkz. [hayır dediklerinde](/caregiving/when-they-say-no/) ve [sakin öğleden sonra etkinlikleri](/creative-calm/calm-afternoon-activities/).
 
-Etkinlikleri yemekler ve dinlenme arasına yerleştirmek için [sakin bir günlük düzen](/activities/daily-routine/) rehberine bakın. Hazırda bulundurulacak şeyler için [yazdırılabilir etkinlikler](/activities/printable/) rehberine, bir grup yönetiyorsanız [huzurevleri için grup etkinlikleri](/activities/care-home-groups/) rehberine bakın. Sizin dinlenmeniz de önemlidir: [bakım verenin kendine bakması](/caregiving/caregiver-self-care/) rehberine göz atın.
+Etkinlikleri öğünler ve dinlenme arasına yerleştirmek için bkz. [sakin öğleden sonra etkinlikleri](/creative-calm/calm-afternoon-activities/). Hazır bulundurulacak şeyler için [oyunlar sayfasındaki ücretsiz çıktılara](/games/) bakın; bir grup yönetiyorsanız [bakım evi grup etkinlikleri](/crafts/craft-group-sessions/) yazısına göz atın. Kendi dinlenmeniz de önemlidir: bkz. [bakım verenler için öz bakım](/creative-calm/creative-self-care-for-caregivers/).

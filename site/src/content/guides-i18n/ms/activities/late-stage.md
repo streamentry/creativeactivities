@@ -1,33 +1,28 @@
 ---
-title: "Aktiviti untuk Demensia Peringkat Lewat, Termasuk di Katil atau Kerusi"
-seoTitle: "Aktiviti Demensia Peringkat Lewat: Idea di Katil"
-description: "Aktiviti lembut untuk demensia peringkat lewat, termasuk bagi orang di katil atau kerusi: muzik, sentuhan, bacaan, bunyi dan sekadar bersama, dengan nota keselamatan."
+title: "Aktiviti Demensia Peringkat Lanjut, di Katil atau Kerusi"
+seoTitle: "Aktiviti Demensia Lanjut: Idea untuk Katil dan Kerusi"
+description: "Aktiviti lembut untuk demensia peringkat lanjut, termasuk di katil atau kerusi: muzik, sentuhan, bacaan, bunyi dan kebersamaan, dengan nota keselamatan."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Dalam demensia peringkat lewat, aktiviti tertumpu pada deria dan kehadiran
-  anda: memainkan muzik kegemaran, berpegangan tangan, urutan tangan yang
-  perlahan, membaca dengan kuat, melihat foto, bunyi alam dan duduk di tepi
-  tingkap atau di luar. Semua ini boleh dilakukan di katil atau kerusi. Kekalkan
-  sesi yang singkat, perhatikan wajah dan tangan untuk menilai keselesaan, dan
-  ingatlah bahawa kehadiran anda itu sendiri ialah aktivitinya.
+  Dalam demensia peringkat lanjut, aktiviti tertumpu pada deria dan kehadiran anda: mendengar muzik kegemaran, berpegangan tangan, urut tangan perlahan, membaca dengan suara, melihat gambar, bunyi alam dan duduk di tepi tingkap atau di luar. Aktiviti ini sesuai di atas katil atau kerusi. Pastikan sesi pendek, perhatikan wajah dan tangan untuk tanda keselesaan, dan ingat bahawa kehadiran anda sendiri sudah merupakan aktiviti.
 keyPoints:
-  - "Hubungan masih boleh terjalin. Pada peringkat lewat, dunia dialami terutamanya melalui deria."
-  - "Muzik, sentuhan lembut, suara yang dikenali dan benda lembut untuk dipegang sering sampai kepada orang apabila kata-kata tidak lagi dapat."
-  - "Hampir setiap idea di sini sesuai untuk orang di katil atau kerusi."
-  - "Perhatikan keselesaan dan ketidakselesaan pada wajah, tangan dan pernafasan, dan berhenti pada sebarang tanda kesusahan."
-  - "Elakkan benda kecil dan tawarkan makanan atau minuman hanya seperti yang dinasihatkan pasukan jagaan, kerana menelan boleh menjadi tidak selamat."
+  - "Hubungan masih boleh dijalin. Pada peringkat lanjut, dunia dialami terutamanya melalui deria."
+  - "Muzik, sentuhan lembut, suara yang biasa didengar dan benda lembut untuk dipegang selalunya sampai kepada seseorang apabila kata-kata tidak lagi sampai."
+  - "Hampir semua idea di sini boleh dibuat untuk orang yang berada di katil atau kerusi."
+  - "Perhatikan tanda keselesaan dan ketidakselesaan pada wajah, tangan dan pernafasan, dan berhenti jika ada tanda tertekan."
+  - "Elakkan objek kecil dan tawarkan makanan atau minuman hanya mengikut nasihat pasukan penjagaan, kerana menelan boleh menjadi tidak selamat."
 faq:
-  - q: "Apakah aktiviti yang boleh dilakukan dengan orang yang menghidap demensia peringkat lewat yang berada di katil?"
-    a: "Mainkan muzik kegemaran mereka, pegang tangan mereka, urut tangan dengan perlahan menggunakan losyen, bacakan buku atau doa yang mereka sayangi, tunjukkan foto, atau mainkan bunyi alam yang lembut. Buka tirai supaya mereka dapat melihat ke luar. Sesi yang singkat dan tenang, satu perkara pada satu masa, biasanya paling sesuai."
-  - q: "Bolehkah orang pada peringkat lewat demensia masih menikmati muzik?"
-    a: "Ramai yang boleh. Alzheimer's Association menyatakan bahawa walaupun pada peringkat lewat, seseorang mungkin masih dapat mengetuk rentak atau menyanyi bersama lagu zaman kanak-kanak. Pilih muzik yang mereka suka ketika muda dan kekalkan kelantangan yang lembut."
-  - q: "Bagaimanakah saya tahu sama ada mereka menikmati sesuatu aktiviti?"
-    a: "Perhatikan tanda-tanda kecil: bahu yang santai, wajah yang lebih lembut, pandangan mata, bersenandung, genggaman tangan atau pernafasan yang lebih perlahan. Berkerut muka, menarik diri, resah atau mengerang boleh bermaksud ketidakselesaan atau kesakitan. Jika anda melihat tanda ini, berhenti dan beritahu pasukan jagaan jika ia berterusan."
-  - q: "Adakah berbaloi melawat jika mereka tidak lagi mengenali saya?"
-    a: "Ya. National Institute on Aging menyatakan bahawa sekadar hadir boleh menenangkan, dan bahawa sentuhan, muzik dan cerita masih boleh memberi keselesaan dalam demensia yang lanjut. Suara dan sentuhan anda mungkin masih dikenali walaupun nama anda tidak."
+  - q: "Apakah aktiviti yang boleh dibuat bersama orang yang berada di peringkat lanjut demensia dan terbaring di katil?"
+    a: "Mainkan muzik kegemaran mereka, pegang tangan mereka, berikan urutan tangan perlahan dengan losyen, bacakan buku atau doa yang mereka suka dengan suara, tunjukkan gambar, atau mainkan bunyi alam yang lembut. Buka langsir supaya mereka boleh melihat ke luar. Sesi yang pendek dan tenang dengan satu perkara pada satu masa biasanya paling sesuai."
+  - q: "Adakah orang di peringkat lanjut demensia masih boleh menikmati muzik?"
+    a: "Ramai yang masih boleh. Alzheimer's Association menyatakan bahawa walaupun di peringkat lanjut, seseorang mungkin masih boleh mengetuk rentak atau menyanyi bersama lagu zaman kanak-kanak. Pilih muzik yang mereka suka ketika muda dan kekalkan bunyi yang perlahan."
+  - q: "Bagaimana saya tahu sama ada mereka menikmati sesuatu aktiviti?"
+    a: "Perhatikan tanda-tanda kecil: bahu yang rileks, wajah yang lebih lembut, pandangan mata, bersenandung, genggaman tangan atau pernafasan yang lebih perlahan. Mengerut muka, menarik diri, gelisah atau mengerang mungkin menandakan ketidakselesaan atau kesakitan. Jika anda melihat tanda ini, berhenti dan beritahu pasukan penjagaan jika ia berterusan."
+  - q: "Adakah berbaloi melawat jika mereka sudah tidak mengenali saya?"
+    a: "Ya. National Institute on Aging menyatakan bahawa kehadiran anda sahaja boleh menenangkan, dan bahawa sentuhan, muzik serta cerita masih boleh memberi keselesaan dalam demensia lanjut. Suara dan sentuhan anda mungkin masih dikenali walaupun nama anda tidak."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Pada peringkat lewat demensia, seseorang mungkin bercakap sangat sedikit, memerlukan bantuan dalam semua penjagaan harian dan menghabiskan sebahagian besar hari di katil atau kerusi. Mungkin terasa seolah-olah tiada apa-apa lagi yang boleh dilakukan bersama. Sebenarnya ada. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) menyatakan bahawa sebahagian inti diri seseorang mungkin masih kekal, dan pada peringkat ini dunia dialami terutamanya melalui deria. Muzik, sentuhan, suara yang dikenali dan kehadiran anda yang tenang masih boleh membawa keselesaan dan detik-detik hubungan.
+Pada peringkat lanjut demensia, seseorang mungkin bercakap sangat sedikit, memerlukan bantuan untuk semua penjagaan harian dan banyak menghabiskan masa di katil atau kerusi. Mungkin terasa seolah-olah tiada apa lagi yang boleh dibuat bersama. Sebenarnya masih ada. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) menyatakan bahawa sebahagian daripada diri seseorang mungkin masih kekal, dan bahawa pada peringkat ini dunia dialami terutamanya melalui deria. Muzik, sentuhan, suara yang biasa didengar dan kehadiran anda yang tenang masih boleh membawa keselesaan dan saat-saat hubungan.
 
-## Apakah aktiviti yang membantu dalam demensia peringkat lewat?
+## Apakah aktiviti yang membantu pada demensia peringkat lanjut?
 
-Aktiviti deria yang ringkas dan kehadiran yang tenang paling membantu pada peringkat lewat. Alzheimer's Association mencadangkan memainkan muzik kegemaran, membacakan bahagian buku yang bermakna, menyapu losyen berwangi kegemaran pada kulit, dan duduk di luar bersama-sama pada hari yang indah. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) menambah bercerita, menunjukkan foto, sentuhan atau urutan yang lembut, dan muzik, bunyi putih atau bunyi alam, serta menyatakan bahawa kehadiran anda sahaja boleh menenangkan.
+Aktiviti deria yang ringkas dan kehadiran yang tenang paling membantu pada peringkat lanjut. Alzheimer's Association mencadangkan supaya anda mainkan muzik kegemaran, membaca bahagian buku yang bermakna, menyapu losyen berwangian kegemaran ke kulit, dan duduk di luar bersama pada hari yang cerah. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) menambah menceritakan kisah, menunjukkan gambar, sentuhan atau urutan yang lembut, serta muzik, bunyi putih atau bunyi alam, dan menyatakan bahawa kehadiran anda sahaja boleh menenangkan.
 
-[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) menyatakan bahawa orang pada peringkat lewat sering mempunyai keperluan yang kuat untuk memeluk sesuatu demi keselesaan, dan mencadangkan aktiviti deria yang ringkas, regangan lembut, gerakan dengan selendang, muzik, lawatan haiwan, sentuhan manusia dan seni bebas.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) menyatakan bahawa orang di peringkat lanjut selalunya sangat memerlukan sesuatu untuk dipegang rapat demi keselesaan. Badan ini mencadangkan aktiviti deria yang ringkas, regangan lembut, pergerakan dengan selendang, muzik, lawatan haiwan, sentuhan manusia dan seni bebas.
 
-## Aktiviti untuk orang di katil atau kerusi
+## Aktiviti untuk seseorang di katil atau kerusi
 
-1. **Mainkan muzik mereka.** Pilih lagu dari zaman awal dewasa mereka, kepercayaan mereka atau keluarga mereka. Kekalkan kelantangan yang lembut dan duduk dekat. Walaupun sekarang, sesetengah orang mengetuk jari atau bersenandung. Lihat [aktiviti muzik](/activities/music/).
-2. **Berpegangan tangan.** Sekadar memegang tangan, dengan usapan ibu jari yang lembut, ialah satu aktiviti. Katakan dahulu apa yang anda lakukan.
-3. **Urut tangan dengan perlahan.** Panaskan sedikit losyen di telapak tangan anda dan usap dari pergelangan tangan ke hujung jari. Pilih losyen tanpa wangian, atau wangian yang sentiasa mereka sukai jika kulit mereka sesuai.
-4. **Bacakan dengan kuat.** Puisi kegemaran, petikan daripada buku yang disayangi, kitab suci atau halaman sukan. Rentak suara anda lebih penting daripada perkataannya.
-5. **Ceritakan sebuah kisah.** Bercakap tentang percutian keluarga atau hari mereka berkahwin. Anda tidak memerlukan jawapan.
-6. **Tunjukkan foto.** Pegang satu foto besar pada satu masa setinggi paras mata dan terangkan dengan mesra. Elakkan bertanya siapa dalam foto itu.
-7. **Tawarkan sesuatu yang lembut untuk dipegang.** Kain basuh yang dilipat, sehelai kain bulu atau haiwan lembut. NIA mencadangkan memberi orang itu kain basuh untuk dipegang semasa dialihkan, supaya mereka kurang cenderung mencapai anda atau perabot.
-8. **Mainkan bunyi alam.** Hujan, ombak atau kicauan burung pada kelantangan rendah boleh melembutkan bilik yang bising.
-9. **Bawa dunia luar ke dalam.** Buka tirai, letakkan tempat makanan burung di luar tingkap, atau bawa masuk beberapa kuntum bunga segar atau daun untuk dilihat dan disentuh.
-10. **Pergi ke luar.** Jika orang itu boleh duduk di atas kerusi roda, beberapa minit di tempat teduh pada hari yang sederhana boleh menyenangkan.
-11. **Sikat rambut mereka atau tawarkan kain hangat.** Dandanan yang perlahan dan lembut serta kain basuh hangat untuk tangan dan muka boleh terasa penuh kasih sayang.
-12. **Bergerak dengan lembut mengikut muzik.** Lambaikan selendang ringan bersama-sama, atau goyangkan tangan mengikut rentak lagu. Untuk regangan dan pergerakan sendi, minta ahli fisioterapi atau jururawat menunjukkan cara yang selamat terlebih dahulu.
-13. **Buat seni bebas.** Sapukan cat tidak toksik pada kertas besar dengan span atau tangan, dibimbing oleh tangan anda. Tiada hasil yang betul.
-14. **Sambut lawatan haiwan.** Haiwan peliharaan yang tenang di atas katil atau pangkuan, jika orang itu menyukai haiwan dan tempat itu membenarkan.
-15. **Bernafas perlahan bersama-sama.** Duduk dekat dan bernafas perlahan dengan bunyi yang boleh didengar. [Pernafasan tenang](/games/calm-breathing/) boleh menjadi rentak bagi kedua-dua anda, dan anda yang memulakan serta menghentikannya.
-16. **Sekadar berada di sana.** Duduk berdekatan, bersenandung, mengait atau membaca dengan senyap. Kehadiran sudah memadai.
+1. **Mainkan muzik mereka.** Pilih lagu dari zaman dewasa muda mereka, kepercayaan mereka atau keluarga mereka. Kekalkan bunyi yang perlahan dan duduk dekat. Walaupun pada peringkat ini, sesetengah orang masih mengetuk jari atau bersenandung. Lihat [aktiviti muzik](/creative-calm/music-for-calm-and-connection/).
+2. **Berpegangan tangan.** Hanya memegang tangan, dengan usapan ibu jari yang lembut, sudah merupakan satu aktiviti. Beritahu mereka apa yang anda akan lakukan dahulu.
+3. **Berikan urutan tangan yang perlahan.** Panaskan sedikit losyen di tapak tangan dan urut dari pergelangan tangan hingga ke hujung jari. Pilih losyen tanpa wangian, atau wangian yang mereka sukai sejak dahulu jika kulit mereka boleh menerimanya.
+4. **Bacakan dengan suara.** Puisi kegemaran, petikan daripada buku yang disayangi, kitab suci atau halaman sukan. Irama suara anda lebih penting daripada perkataan.
+5. **Ceritakan kisah.** Bualkan tentang percutian keluarga atau hari mereka berkahwin. Anda tidak perlukan jawapan.
+6. **Tunjukkan gambar.** Pegang satu gambar besar pada satu masa, setinggi mata, dan terangkan dengan mesra. Elakkan bertanya siapa yang ada dalam gambar itu.
+7. **Tawarkan sesuatu yang lembut untuk dipegang.** Kain lap yang dilipat, sehelai kain fleece atau haiwan mainan yang lembut. NIA mencadangkan memberi kain lap untuk dipegang semasa mereka dialihkan, supaya mereka kurang cenderung mencengkam anda atau perabot.
+8. **Mainkan bunyi alam.** Bunyi hujan, ombak atau kicauan burung pada volum rendah boleh melembutkan bilik yang bising.
+9. **Bawa alam ke dalam.** Buka langsir, letakkan bekas makanan burung di luar tingkap, atau bawa beberapa kuntum bunga atau daun segar untuk dilihat dan disentuh.
+10. **Keluar ke luar.** Jika orang itu boleh duduk di kerusi roda, beberapa minit di tempat teduh pada hari yang nyaman boleh menjadi sangat menyenangkan.
+11. **Sikat rambut mereka atau tawarkan kain suam.** Sikat yang perlahan dan lembut serta kain suam untuk tangan dan muka boleh terasa penuh kasih.
+12. **Bergerak perlahan mengikut muzik.** Lambaikan selendang nipis bersama, atau goyangkan tangan mengikut lagu. Untuk regangan dan pergerakan sendi, minta ahli fisioterapi atau jururawat menunjukkan cara yang selamat dahulu.
+13. **Buat seni bebas.** Sapukan cat yang tidak toksik pada kertas besar dengan span atau tangan, dibimbing oleh tangan anda. Tiada hasil yang betul atau salah.
+14. **Alu-alukan lawatan haiwan.** Haiwan peliharaan yang tenang di atas katil atau riba, jika orang itu menyukai haiwan dan keadaan membenarkannya.
+15. **Bernafas perlahan bersama.** Duduk dekat dan bernafas perlahan serta boleh didengar. [Pernafasan tenang](/games/calm-breathing/) boleh menyelaraskan rentak anda berdua, dan anda yang memulakan serta menghentikannya.
+16. **Hanya berada di situ.** Duduk berdekatan, bersenandung, merajut atau membaca dengan senyap. Kehadiran anda sudah memadai.
 
 ## Cara berkongsi aktiviti pada peringkat ini
 
-- **Dekati dari hadapan.** Sebut nama mereka dan nama anda, dan bercakap perlahan serta lembut sebelum anda menyentuh.
+- **Mendekat dari hadapan.** Sebut nama mereka dan nama anda, dan bercakap perlahan serta lembut sebelum menyentuh.
 - **Tawarkan satu perkara pada satu masa.** Matikan TV sebelum memainkan muzik. Lakukan satu deria pada satu masa.
-- **Pastikan ia singkat.** Beberapa minit mungkin sudah cukup. Beberapa detik singkat sepanjang hari lebih baik daripada satu sesi yang panjang.
-- **Selesakan dahulu.** Pastikan orang itu disokong dengan baik. NIA mencadangkan papan riba untuk merehatkan lengan dan menyokong bahagian atas badan apabila duduk tegak.
-- **Perhatikan tindak balas.** Tangan yang santai, wajah yang lebih lembut, pandangan mata atau senandung menunjukkan keselesaan. NIA menyatakan bahawa erangan, berkerut muka, melindungi bahagian badan atau keresahan secara tiba-tiba boleh menjadi tanda sakit. Berhenti, dan beritahu pasukan jagaan.
+- **Pendekkan sesi.** Beberapa minit mungkin sudah memadai. Beberapa saat pendek sepanjang hari lebih baik daripada satu sesi yang panjang.
+- **Pastikan keselesaan dahulu.** Periksa sama ada orang itu disokong dengan baik. NIA mencadangkan papan pangkuan untuk menyokong lengan dan bahagian atas badan apabila mereka duduk tegak.
+- **Perhatikan reaksi mereka.** Tangan yang rileks, wajah yang lebih lembut, pandangan mata atau bersenandung menandakan keselesaan. NIA menyatakan bahawa erangan, mengerut muka, melindungi sebahagian badan atau kegelisahan tiba-tiba boleh menjadi tanda kesakitan. Berhenti, dan beritahu pasukan penjagaan.
 
 ## Panduan ringkas mengikut deria
 
-| Deria | Idea | Berhati-hati |
+| Deria | Idea | Perkara yang perlu dijaga |
 | --- | --- | --- |
-| Pendengaran | Muzik kegemaran, suara anda membaca, bunyi alam | Kekalkan kelantangan rendah; satu bunyi pada satu masa |
-| Sentuhan | Urutan tangan, berpegangan tangan, kain lembut, kain hangat | Tanya atau maklumkan dahulu; pastikan kulit tidak sakit atau luka |
-| Penglihatan | Foto, bunga, pemandangan dari tingkap, video alam yang perlahan | Pegang benda setinggi paras mata; cahaya yang baik, tiada silau |
-| Bau | Losyen kegemaran, bunga segar, kopi yang sedang dibancuh berdekatan | Elakkan bau yang kuat; periksa alahan dan pernafasan |
-| Rasa | Sedikit rasa perisa kegemaran | Hanya makanan dan tekstur yang dikatakan selamat oleh pasukan jagaan |
+| Pendengaran | Muzik kegemaran, suara anda membaca, bunyi alam | Kekalkan volum rendah; satu bunyi pada satu masa |
+| Sentuhan | Urutan tangan, berpegangan tangan, kain lembut, kain suam | Minta izin atau beritahu dahulu; pastikan kulit tidak sakit atau luka |
+| Penglihatan | Gambar, bunga, pemandangan dari tingkap, video alam yang perlahan | Pegang benda setinggi mata; cahaya yang baik, tanpa silau |
+| Bau | Losyen kegemaran, bunga segar, kopi yang sedang dibancuh berdekatan | Elakkan wangian yang kuat; periksa alahan dan pernafasan |
+| Rasa | Sedikit rasa perisa kegemaran | Hanya makanan dan tekstur yang dikatakan selamat oleh pasukan penjagaan |
 
 ## Keselamatan pada peringkat ini
 
-Menelan boleh menjadi sukar pada peringkat lewat, dan NIA memberi amaran bahawa ini meningkatkan risiko tercekik. Jangan biarkan benda kecil dalam jangkauan, dan tawarkan makanan atau minuman hanya dalam tekstur dan kedudukan yang disyorkan oleh pasukan jagaan. Periksa kulit dengan lembut semasa aktiviti sentuhan, kerana kulit boleh koyak atau lebam dengan mudah. Untuk lebih banyak tentang idea deria yang selamat, lihat [aktiviti deria](/activities/sensory/).
+Menelan boleh menjadi sukar pada peringkat lanjut, dan NIA memberi amaran bahawa ini meningkatkan risiko tersedak. Jangan tinggalkan objek kecil dalam jangkauan, dan hanya tawarkan makanan atau minuman dalam tekstur dan kedudukan yang disyorkan oleh pasukan penjagaan. Periksa kulit dengan lembut semasa aktiviti sentuhan, kerana kulit boleh koyak atau lebam dengan mudah. Untuk maklumat lanjut tentang idea deria yang selamat, lihat [aktiviti deria](/creative-calm/sensory-activities-for-adults/).
 
-## Jagalah diri anda juga
+## Jaga diri anda juga
 
-Menjaga orang pada peringkat lewat menuntut tenaga fizikal dan emosi, sama ada di rumah atau semasa melawat rumah jagaan. Pasukan hospis dan penjagaan paliatif boleh membantu dari segi keselesaan, sokongan dan perancangan, dan NIA menyenaraikannya sebagai sumber bantuan. Lawatan yang singkat dan tenang berbaloi; lihat [melawat orang yang hidup dengan demensia](/activities/visiting/). Jika anda memimpin kumpulan, [aktiviti kumpulan rumah jagaan](/activities/care-home-groups/) mempunyai idea untuk menyesuaikan sesi. Dan sila baca [penjagaan diri penjaga](/caregiving/caregiver-self-care/): berehat adalah sebahagian daripada menjaga dengan baik.
+Penjagaan pada peringkat lanjut memerlukan tenaga fizikal dan emosi, sama ada di rumah atau semasa lawatan ke rumah penjagaan. Pasukan hospis dan penjagaan paliatif boleh membantu dengan keselesaan, sokongan dan perancangan, dan NIA menyenaraikan mereka sebagai sumber bantuan. Lawatan yang pendek dan tenang amat berbaloi; lihat [melawat seseorang yang dijaga dengan demensia](/together/visiting-someone-in-care/). Jika anda mengetuai kumpulan, [aktiviti kumpulan rumah penjagaan](/crafts/craft-group-sessions/) mempunyai idea untuk menyesuaikan sesi. Dan sila baca [penjagaan kendiri untuk penjaga](/creative-calm/creative-self-care-for-caregivers/): berehat adalah sebahagian daripada menjaga dengan baik.

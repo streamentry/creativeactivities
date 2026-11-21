@@ -1,35 +1,35 @@
 ---
-title: "Demansı Olan Biri Bir Etkinliği Reddettiğinde ya da Sinirlendiğinde"
-seoTitle: "Demansı Olan Biri Etkinliği Reddediyorsa Ne Yapmalı"
-description: "Demansla yaşayan biri bir etkinliği neden reddeder ya da üzülür, bunun yerine neler denenir, nelerden kaçınılır ve ani bir değişiklikte doktora ne zaman başvurulur."
+title: "Demans Yaşayan Biri Bir Etkinliği Reddettiğinde"
+seoTitle: "Demans Yaşayan Biri Etkinliği Reddettiğinde"
+description: "Demans yaşayan bir kişinin etkinliği neden reddedebileceği ya da bunlara kızabileceği, yerine ne deneyebileceğiniz, neden kaçınmanız gerektiği ve ani değişimlerde ne zaman doktora başvurulacağı."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demansı olan biri hayır dediğinde bunu sakince kabul edin ve daha sonra
-  yeniden deneyin ya da farklı bir şey önerin. Reddetmenin çoğu zaman bir nedeni
-  vardır: iş çok zor ya da çocukça geliyordur, kişi yorgun, ağrılı, aç ya da
-  gürültüden bunalmıştır. Tartışmayın ya da ısrar etmeyin. Sadeleştirin, iki
-  seçenek sunun ya da yardımını isteyin. Ani ya da hızla değişen davranış,
-  özellikle bir enfeksiyondan ya da yeni bir ilaçtan sonra, hemen doktora
-  gitmeyi gerektirir.
+  Demans yaşayan biri hayır dediğinde, bunu sakince kabul edin ve daha sonra
+  tekrar deneyin ya da farklı bir şey önerin. Reddetmenin genellikle bir nedeni
+  vardır: görev çok zor ya da çocuksu gelebilir, kişi yorgun, ağrılı, aç olabilir
+  ya da gürültüden bunalmış olabilir. Tartışmayın ya da ısrar etmeyin. İşleri
+  sadeleştirin, iki seçenek sunun ya da yardımını isteyin. Özellikle bir
+  enfeksiyon ya da yeni bir ilaçtan sonra gelen ani ya da hızla değişen
+  davranışlar için vakit kaybetmeden doktora başvurulmalıdır.
 keyPoints:
-  - "“Hayır”, aşılacak bir sorun değil, saygı gösterilecek bir cevaptır."
-  - "Reddetmenin genellikle bir nedeni vardır: çok zor, çok çocukça, yorgun, iyi değil, rahatsız ya da bunalmış."
-  - "Geri çekilin, bekleyin ve daha sonra, farklı bir zamanda ya da daha basit bir sürümle yeniden deneyin."
-  - "Yardımını istemek, performans göstermesini istemekten daha iyi sonuç verir."
-  - "Asla tartışmayın, ısrar etmeyin, sorguya çekmeyin ya da düzeltmeyin. Acele edip etmediğinize ve kişiyi sıkıştırıp sıkıştırmadığınıza bakın."
-  - "Ani ya da hızla değişen davranış, özellikle enfeksiyon ya da yeni ilaçlarla birlikteyse, hemen doktora iletilmelidir."
+  - "“Hayır” bir yanıttır; saygı gösterilmesi gerekir, aşılması gereken bir sorun değildir."
+  - "Reddetmenin genellikle bir nedeni vardır: çok zor, çok çocuksu, yorgun, rahatsız ya da bunalmış olmak."
+  - "Geri çekilin, bekleyin ve daha sonra, farklı bir zamanda ya da daha basit bir sürümle tekrar deneyin."
+  - "Ondan bir şey yapmasını istemek yerine yardım istemek daha iyi sonuç verir."
+  - "Asla tartışmayın, ısrar etmeyin, sorgulamayın ya da düzeltmeyin. Kendinizin acele edip etmediğini kontrol edin."
+  - "Ani ya da hızla değişen davranışlar, özellikle enfeksiyon ya da yeni ilaçlarla birlikteyse, hemen doktora götürülmelidir."
 faq:
-  - q: "Etkinlikleri tamamen atlamasına izin vermek uygun mu?"
-    a: "Evet, herhangi bir günde. Birlikte oturmak, müzik dinlemek ya da dünyanın akışını izlemek yeterli olabilir. Biri haftalar boyunca her şeyden keyif almayı bırakırsa bunu doktoruna söyleyin; çünkü düşük ruh hali, ağrı ya da başka sağlık sorunları tablonun parçası olabilir."
-  - q: "Eskiden sevdiği şeyleri neden reddediyor?"
-    a: "Eski bir hobi, artık demansın zorlaştırdığı becerileri gerektirdiğinde sinir bozucu olabilir ve kişi utanabilir. Aynı etkinliğin daha basit bir kısmını deneyin; örneğin dikiş yerine düğmeleri ayırmak ya da bitki dikmek yerine bahçe resimlerine bakmak."
-  - q: "Onu ikna etmeye çalışmalı mıyım?"
-    a: "Hayır. Birini demansın zorlaştırdığı bir şeyi yapmaya zorlamak, huzursuzluğun bilinen bir tetikleyicisidir. Hayır cevabını kabul edin, konuyu değiştirin ve daha sonra ya da farklı bir şekilde yeniden önerin."
-  - q: "Davranıştaki bir değişiklik ne zaman acildir?"
-    a: "Biri tehlikedeyse ya da tıbbi bir acil durum belirtileri varsa acil durum hattını arayın (Türkiye’de 112; ABD’de 911). Ani kafa karışıklığı ya da saatler veya günler içinde hızla değişen davranış için, özellikle ateş, enfeksiyon ya da yeni bir ilaçla birlikteyse, kişinin doktoruyla hemen iletişime geçin."
+  - q: "Etkinlikleri tamamen atlamalarına izin vermek sorun olur mu?"
+    a: "Evet, herhangi bir gün için olabilir. Birlikte oturmak, müzik dinlemek ya da dışarıyı izlemek yeterli olabilir. Birkaç hafta boyunca kişi her şeyden zevk almayı bırakırsa bunu doktoruna anlatın; düşük ruh hali, ağrı ya da başka sağlık sorunları tablonun bir parçası olabilir."
+  - q: "Eskiden çok sevdikleri şeyleri neden reddediyorlar?"
+    a: "Eski bir hobi, demansın zorlaştırdığı becerileri gerektirdiğinde sinir bozucu hale gelebilir ve kişi utanç duyabilir. Aynı etkinliğin daha basit bir parçasını deneyin; örneğin dikiş dikmek yerine düğmeleri ayırmak ya da bahçe yapmak yerine bahçe resimlerine bakmak gibi."
+  - q: "Onları ikna etmeye çalışmalı mıyım?"
+    a: "Hayır. Demansın zorlaştırdığı bir şeyi yapması için zorlamak, huzursuzluğu tetiklediği bilinen bir durumdur. Hayır yanıtını kabul edin, konuyu değiştirin ve daha sonra ya da farklı bir şekilde yeniden teklif edin."
+  - q: "Davranış değişikliği ne zaman acil durumdur?"
+    a: "Biri tehlikedeyse ya da tıbbi acil durum belirtileri gösteriyorsa 911'i arayın. Saatler ya da günler içinde hızla değişen ani kafa karışıklığı veya davranış için, özellikle ateş, enfeksiyon ya da yeni bir ilaç varsa, hemen doktorunu arayın."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -51,87 +51,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Her şeyi hazırladınız, bir oyun ya da yürüyüş önerdiniz ve “Hayır” cevabını aldınız. Ya da etkinlik iyi başladı ve itilmiş bir tabletle sert bir sözle bitti. Cesaret kırıcı ve çok yaygındır. Reddetme ve hayal kırıklığı genellikle bir mesajdır, inatçılık değil. Mesajın ne olduğunu çözmek, çoğu zaman sırada ne deneyeceğinizi gösterir.
+Hazırlığınızı yaparsınız, bir oyun ya da yürüyüş önerirsiniz ve “Hayır” yanıtını alırsınız. Ya da etkinlik iyi başlar, sonra itilen bir tablet ve sert bir sözle biter. Bu moral bozucu bir durumdur ve çok yaygındır. Reddetme ve hayal kırıklığı genellikle inatlaşma değil, bir mesajdır. Bu mesajın ne olduğunu anlamak, bir sonraki adımda ne deneyeceğinizi çoğu zaman gösterir.
 
-## Demansı olan biri neden etkinlikleri reddeder?
+## Demans yaşayan biri etkinlikleri neden reddeder?
 
-Kişi bunu sözcüklere dökemese bile genellikle bir neden vardır. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities), direncin kişinin işi yapamadığı ya da denemekten korktuğu anlamına gelebileceğini belirtiyor. Sık nedenler:
+Kişi bunu kelimelerle anlatamasa bile genellikle bir neden vardır. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities), direncin kişinin görevi yapamadığını ya da denemekten korktuğunu gösterebileceğini belirtiyor. Yaygın nedenler şunlardır:
 
 - **Çok zor geliyor.** Etkinlik artık demansın zorlaştırdığı becerileri gerektiriyor ve birinin önünde başarısız olmak utanç verici.
-- **Çocukça geliyor.** Yetişkinler çizgi film gibi resimleri, tatlı tatlı konuşmaları ve çocuklar için yapılmış gibi görünen etkinlikleri fark eder.
-- **Yorgunluk.** Pek çok kişinin enerjisi günün ilerleyen saatlerinde azalır. [Sakin ikindi etkinliklerine](/caregiving/late-day-restlessness/) bakın.
-- **Bedensel rahatsızlık.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and); ağrıyı, uykusuzluğu, görme ya da işitme güçlüğünü, kabızlığı, açlığı, susuzluğu ve yeni ilaçların yan etkilerini sıkıntının olası nedenleri olarak sayıyor.
-- **Çok fazla şey oluyor.** Yüksek sesli bir televizyon, birkaç sohbet ya da kalabalık bir oda bunaltıcı olabilir.
-- **Sıkıştırılmış hissetmek.** NIA, Alzheimer’ın çok zorlaştırdığı bir şeyi yapmaya ya da olayları veya kişileri hatırlamaya zorlanmayı huzursuzluğun bir nedeni olarak adlandırıyor.
-- **Düşük ruh hali.** İlgi kaybı depresyonun işareti olabilir; bunu doktorla konuşmak yerinde olur.
-- **Sadece istemiyor.** Yetişkinlerin hayır deme hakkı vardır.
+- **Çocuksu geliyor.** Yetişkinler çizgi film tarzı resimleri, çocuklara yönelik bir tonu ve yalnızca çocuklar için yapılmış gibi görünen etkinlikleri fark eder.
+- **Yorgunluk.** Birçok kişi günün ilerleyen saatlerinde daha az enerjiye sahip olur. Bakınız: [sakin öğleden sonra etkinlikleri](/creative-calm/calm-afternoon-activities/).
+- **Fiziksel rahatsızlık.** [Ulusal Yaşlanma Enstitüsü (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and), ağrı, uykusuzluk, görme ya da işitme güçlüğü, kabızlık, açlık, susuzluk ve yeni ilaçların yan etkilerini olası sıkıntı nedenleri olarak sıralıyor.
+- **Fazla şey olması.** Yüksek sesli bir TV, birden fazla konuşma ya da kalabalık bir oda bunaltıcı olabilir.
+- **Zorlandığını hissetmek.** NIA, Alzheimer'ın çok zorlaştırdığı bir şeyi yapmaya ya da olayları veya insanları hatırlamaya zorlanmanın huzursuzluğa yol açan bir neden olduğunu belirtiyor.
+- **Düşük moral.** İlgi kaybı depresyonun bir işareti olabilir ve bu, bir doktorla konuşmaya değer.
+- **Sadece istemiyorlardır.** Yetişkinlerin hayır deme hakkı vardır.
 
 ## Hayır dediklerinde ne denemeliyim?
 
-Hayır cevabını sakince kabul edin, sonra bir şeyi değiştirin: zamanı, etkinliği, zorluk düzeyini ya da sorma şeklinizi.
+Hayır yanıtını sakince kabul edin, sonra bir şeyi değiştirin: zamanı, etkinliği, zorluk düzeyini ya da soru şeklinizi.
 
 1. **Şimdilik bırakın.** “Sorun değil. Belki sonra.” Sonra iç çekmeden başka bir şeye geçin.
-2. **Daha sonra yeniden deneyin.** Alzheimer's Association, daha sonra ya da günün farklı bir saatinde yeniden denemeyi öneriyor.
-3. **Küçültün.** Tüm oyun yerine tek bir eşleşme. Çamaşır sepetinin tamamı yerine tek bir havlu. Daha az resim, daha az seçenek, açık bırakılan resimler.
-4. **İki seçenek sunun.** “Kuş resimlerine bakmak mı yoksa biraz müzik dinlemek mi istersiniz?” Bir seçenek, kontrol duygusunu geri verir.
-5. **Performans yerine yardım isteyin.** “Bunları ayırmama yardım eder misiniz?” ya da “Hangi rengin en güzel durduğunu söyler misiniz?” Birine gerekli olmak, sınanmaktan çok farklı hissettirir.
-6. **Kendiniz başlatın.** Sormadan etkinliğe yanında başlayın. Pek çok kişi bir şey zaten olurken katılır; katılmazsa da yine birlikte vakit geçirmiş olursunuz.
-7. **Fiziksel ya da yatıştırıcı bir şeye geçin.** Kısa bir yürüyüş, müzik, bir atıştırmalık, çamaşır katlamak ya da birlikte bir [sakin nefes](/games/calm-breathing/) molası. NIA, dikkati müziğe, bir kitaba ya da bir yürüyüşe yönlendirmeyi öneriyor.
-8. **Kendi yöntemiyle yapmasına izin verin.** Kurallarda yazandan farklı oynamak istiyorsa uyun. Alzheimer's Association esnek olmayı öneriyor.
+2. **Daha sonra tekrar deneyin.** Alzheimer's Association, sonra ya da günün farklı bir saatinde tekrar denemeyi öneriyor.
+3. **Daha küçük yapın.** Bütün bir oyun yerine tek bir eşleşme. Çamaşır sepetinin tamamı yerine tek bir havlu. Daha az resim, daha az seçenek ve resimler görünür halde.
+4. **İki seçenek sunun.** “Kuş resimlerine mi bakmak istersiniz, yoksa biraz müzik mi dinlemek?” Seçim, kontrol duygusunu geri verir.
+5. **Performans yerine yardım isteyin.** “Bunları ayırmama yardım eder misiniz?” ya da “Sence hangi renk daha güzel?” Birine ihtiyaç duyulmak, sınanmaktan çok farklı hissettirir.
+6. **Etkinliği kendiniz başlatın.** Sormadan yanlarında etkinliğe başlayın. Bir şey zaten yapılıyorken birçok kişi katılır; katılmasalar bile birlikte vakit geçirmiş olursunuz.
+7. **Fiziksel ya da yatıştırıcı bir şeye geçin.** Kısa bir yürüyüş, müzik, bir atıştırmalık, çamaşır katlamak ya da birlikte yapılan kısa bir [sakin nefes](/games/calm-breathing/) molası. NIA, dikkati müziğe, bir kitaba ya da yürüyüşe yönlendirmeyi öneriyor.
+8. **Kendi yöntemleriyle yapmalarına izin verin.** Kurallardan farklı oynamak isterlerse buna uyun. Alzheimer's Association esnek olmayı tavsiye ediyor.
 
-## Sinirlendiğinde ne söylemeliyim?
+## Hayal kırıklığına uğradıklarında ne söylemeliyim?
 
-Yavaşlayın, sesinizi alçaltın ve güven verin. [Alzheimer's Association'ın huzursuzluk rehberi](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation), geri çekilmeyi ve izin istemeyi, sakin, olumlu ifadeler kullanmayı ve iki seçenek arasında yönlendirilmiş bir seçim sunmayı öneriyor. Bu anlayışta cümleler:
+Yavaşlayın, sesinizi alçaltın ve güven verin. [Alzheimer's Association'ın huzursuzluk konusundaki rehberliği](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation), geri çekilmeyi ve izin istemeyi, sakin ve olumlu ifadeler kullanmayı ve iki seçenek arasında yönlendirilmiş bir seçim sunmayı öneriyor. Bu ruhla söylenebilecek bazı cümleler:
 
-- “Üzgünüm, bu can sıkıcı. Bırakalım.”
-- “İyi gidiyorsunuz. Hemen yanınızdayım.”
-- “Başka bir konuda bana yardım edecek vaktiniz var mı?”
-- “Yerine bir fincan çay içelim mi?”
+- “Üzgünüm, bu biraz sinir bozucu. Duralım.”
+- “Gayet iyi gidiyorsunuz. Ben buradayım.”
+- “Başka bir şey için bana yardım etmeye vaktiniz var mı?”
+- “Bunun yerine bir fincan çay içelim mi?”
 
-Sonra etkinliği büyütmeden bitirin. [İletişim ipuçlarımızda](/caregiving/communication-tips/) ne söyleneceği konusunda daha fazlası var.
+Sonra etkinliği büyütmeden bitirin. [Tanıdan sonraki ilk adımlar](/caregiving/after-dementia-diagnosis/) sayfası destek için bir başlangıç noktasıdır.
 
 ## Nelerden kaçınmalıyım?
 
 Bazı doğal tepkiler işleri daha da kötüleştirme eğilimindedir.
 
-- **Tartışmak ya da ısrar etmek.** “Hadi, bir kez daha” ya da “Bunu seviyorsunuz” nadiren işe yarar.
-- **Sorgulamak ya da düzeltmek.** “Bunun ne olduğunu biliyorsunuz” ya da “Hayır, o yanlış” baskıyı artırır.
-- **Kişisel algılamak.** NIA, bakım verenlere bu değişikliklere kişinin değil hastalığın yol açtığını hatırlatıyor.
-- **Sıkıştırmak ya da acele ettirmek.** Alzheimer's Association, sesi yükseltmemeyi, telaş göstermemeyi, kişiyi köşeye sıkıştırmamayı, etrafını sarmamayı, zapt etmemeyi, eleştirmemeyi, görmezden gelmemeyi ya da onunla tartışmamayı ve görüş alanı dışında ani hareketlerden kaçınmayı öneriyor.
-- **Suçluluk kullanmak.** “Bunların hepsini sizin için hazırladım” ikinizi de daha kötü hissettirir.
-- **Etiketlemek.** “İnatçı” ya da “zor” gerçek nedeni gizler ve çözmeyi zorlaştırır.
+- **Tartışmak ya da ısrar etmek.** “Hadi, bir tane daha” ya da “Bunu seviyorsun” nadiren işe yarar.
+- **Sorgulamak ya da düzeltmek.** “Bunun ne olduğunu biliyorsun” ya da “Hayır, o yanlış” baskıyı artırır.
+- **Bunu kişisel almak.** NIA, bu değişikliklere neden olanın kişi değil hastalık olduğunu bakıcılara hatırlatıyor.
+- **Üstüne gitmek ya da acele ettirmek.** Alzheimer's Association; sesinizi yükseltmemeyi, panik belirtisi göstermemeyi, köşeye sıkıştırmamayı, kalabalık yapmamayı, fiziksel olarak tutmamayı, eleştirmemeyi, görmezden gelmemeyi ya da kişiyle tartışmamayı ve görüş alanlarının dışında ani hareketlerden kaçınmayı tavsiye ediyor.
+- **Suçluluk duygusu kullanmak.** “Bütün bunları senin için hazırladım” ikinizi de daha kötü hissettirir.
+- **Etiket yapıştırmak.** “İnatçı” ya da “zor” gibi sözcükler asıl nedeni gizler ve çözmeyi zorlaştırır.
 
-## Tekrarlayan reddetmelerin arkasında ne olduğunu nasıl bulurum?
+## Tekrarlayan reddetmelerin arkasındaki nedeni nasıl anlayabilirim?
 
-Bir iki hafta basit bir not tutun. NIA, davranış değişikliklerini takip etmenin bakım verenlerin ve sağlık hizmeti sağlayıcılarının bir örüntüyü fark etmesine ve nedeni bulmasına yardımcı olabileceğini söylüyor.
+Bir ya da iki hafta boyunca basit bir not tutun. NIA, davranış değişikliklerini izlemenin bakıcıların ve sağlık çalışanlarının bir örüntüyü fark edip nedeni bulmasına yardımcı olabileceğini söylüyor.
 
 Şunları not edin:
 
 - günün saati;
 - ne önerdiğiniz ve nasıl sorduğunuz;
-- çevrenizde neler olduğu (gürültü, ziyaretçiler, televizyon);
-- nasıl uyuduğu, yediği ve içtiği ve en son ne zaman tuvalete gittiği;
-- yeni ilaçlar ya da yakın zamanda geçirilen hastalık.
+- çevrenizde neler olduğu (gürültü, misafirler, TV);
+- nasıl uyuduklarını, yediklerini ve içtiklerini, en son ne zaman tuvalete gittiklerini;
+- yeni ilaçları ya da yakın zamanda geçirdikleri hastalığı.
 
-Örüntüler çoğu zaman çabuk ortaya çıkar: yalnızca saat 4’ten sonra, yalnızca belirli bir oyunla ya da yalnızca televizyon açıkken olan reddetmeler gibi. Family Caregiver Alliance’ın [demans davranışları rehberi](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) bunu basitçe söylüyor: kişiyi değiştiremeyiz, ama kendi davranışımızı ve çevreyi değiştirebiliriz.
+Örüntüler genellikle çabuk ortaya çıkar: yalnızca saat 4'ten sonra olan reddetmeler, yalnızca belirli bir oyunda olanlar ya da yalnızca TV açıkken olanlar. Family Caregiver Alliance'ın [demans davranışlarını anlama rehberi](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) bunu şöyle özetliyor: Kişiyi değiştiremeyiz, ama kendi davranışımızı ve ortamı değiştirebiliriz.
 
-## Reddetme ya da hayal kırıklığı konusunda ne zaman doktorla konuşmalıyım?
+## Reddetme ya da hayal kırıklığı konusunda ne zaman doktora danışmalıyım?
 
-Davranış birdenbire, hızla ya da hastalık belirtileriyle birlikte değişirse bir doktorla konuşun. NIA, ani ya da hızla dalgalanan davranış değişikliklerinin, özellikle kişi bir enfeksiyon geçirdiyse ya da yakın zamanda ilaç değişiklikleri olduysa, hemen bir doktorun dikkatine sunulması gerektiğini söylüyor.
+Davranış aniden, hızla değiştiğinde ya da hastalık belirtileriyle birlikte olduğunda doktora danışın. NIA, özellikle kişide bir enfeksiyon ya da yakın zamanda ilaç değişikliği varsa, aniden ya da hızla dalgalanan davranış değişikliklerinin hemen bir doktorun dikkatine getirilmesi gerektiğini söylüyor.
 
-Şunları fark ederseniz kişinin doktoruyla hemen iletişime geçin:
+Şunlardan birini fark ederseniz doktorunuzu hemen arayın:
 
-- ani kafa karışıklığı ya da saatler veya günler içinde büyük bir değişiklik;
-- yüzünü buruşturma, vücudunun bir kısmını koruma ya da hareket etmekte yeni zorluk gibi ağrı belirtileri;
+- saatler ya da günler içinde ani kafa karışıklığı ya da büyük bir değişiklik;
+- acı belirtileri, örneğin yüzü buruşturma, bir vücut bölgesini koruma ya da yeni hareket güçlüğü;
 - ateş ya da enfeksiyonun başka belirtileri;
-- yeni ya da değiştirilen ilaçlardan sonra davranışta değişiklik;
-- birkaç haftadan uzun süren, neredeyse her şeye ilgi kaybı, ağlamaklılık ya da içine kapanma;
-- yiyecek ya da içecek reddi.
+- yeni ya da değiştirilmiş ilaçlar ve ardından gelen davranış değişikliği;
+- neredeyse her şeye karşı ilgi kaybı, sık sık ağlama ya da birkaç haftadan uzun süren geri çekilme;
+- yiyecek ya da içecek reddetme.
 
-Alzheimer's Association, davranış belirtileri olan herkes için, özellikle birdenbire ortaya çıktıklarında, kapsamlı bir tıbbi kontrol öneriyor. Family Caregiver Alliance de önce doktora danışmayı öneriyor; çünkü davranış sorunlarının tıbbi bir nedeni olabilir. Bir doktora ya da eczacıya danışmadan hiçbir ilacı başlatmayın, bırakmayın ya da değiştirmeyin.
+Alzheimer's Association, davranış belirtisi gösteren herkese, özellikle bunlar aniden ortaya çıktığında, kapsamlı bir tıbbi kontrol öneriyor. Family Caregiver Alliance da davranış sorunlarının tıbbi bir nedeni olabileceği için önce doktora danışmayı tavsiye ediyor. Doktorunuza ya da eczacınıza danışmadan hiçbir ilacı başlatmayın, durdurmayın ya da değiştirmeyin.
 
-Biri tehlikedeyse ya da tıbbi bir acil durum belirtileri varsa acil durum hattını arayın (Türkiye’de 112; ABD’de 911). NIA, görevliye kişinin demansı olduğunu söylemenizi öneriyor.
+Biri tehlikedeyse ya da tıbbi acil durum belirtileri varsa 911'i arayın. NIA, çağrı görevlisine kişinin demansı olduğunu söylemenizi öneriyor. Öfke fiziksel bir hal alırsa uzaklaşın ve doktordan ya da bakım ekibinden tavsiye isteyin.
 
-## Hiçbir şey yapmamamız da uygun mu?
+## Hiçbir şey yapmasak olur mu?
 
-Evet. Bazı günlerde en iyi etkinlik etkinlik yapmamaktır: birlikte oturmak, el ele tutuşmak, sevilen bir plağı dinlemek ya da pencereden kuşları izlemek. Bu bir başarısızlık değildir. [Birlikte oynama rehberimiz](/caregiving/how-to-play-together/), erken bırakmanın ya da hiç başlamamanın neden doğru karar olabileceğini açıklıyor.
+Evet. Bazı günlerde en iyi etkinlik hiçbir etkinlik olmamaktır: birlikte oturmak, el ele tutuşmak, sevilen bir plağı dinlemek ya da pencereden kuşları izlemek. Bu bir başarısızlık değildir. [Birlikte oynama rehberimiz](/caregiving/how-to-play-together/), erken durmanın ya da hiç başlamamanın neden doğru karar olabileceğini açıklıyor.

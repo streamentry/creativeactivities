@@ -1,32 +1,34 @@
 ---
-title: "Activities for Late-Stage Dementia, Including in Bed or a Chair"
-seoTitle: "Late-Stage Dementia Activities: Bed and Chair Ideas"
-description: "Gentle activities for late-stage dementia, including for someone in bed or a chair: music, touch, reading aloud, sounds and simply being together, with safety notes."
+title: "Mga Aktibidad sa Huling Yugto ng Dementia sa Kama o Upuan"
+seoTitle: "Aktibidad sa Huling Yugto ng Dementia: Kama at Upuan"
+description: "Banayad na aktibidad para sa huling yugto ng dementia sa kama o upuan: musika, haplos, pagbabasa, tunog at pagsasama, may paalala sa kaligtasan."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  In late-stage dementia, activities center on the senses and on your company:
-  playing favorite music, holding hands, a slow hand massage, reading aloud,
-  looking at photos, nature sounds and sitting by a window or outside. These
-  work in bed or a chair. Keep sessions short, watch faces and hands for
-  comfort, and remember that being present is itself the activity.
+  Sa huling yugto ng dementia, umiikot ang mga aktibidad sa mga pandama at sa
+  inyong pagsasama: pakikinig sa paboritong musika, paghawak ng kamay, banayad
+  na masahe sa kamay, pagbabasa nang malakas, pagtingin sa mga larawan, mga
+  tunog ng kalikasan, at pag-upo malapit sa bintana o sa labas. Maaari ang
+  mga ito sa kama o sa upuan. Panatilihing maikli ang mga sesyon, bantayan ang
+  mukha at kamay para sa ginhawa, at tandaan na ang pagiging naroroon ay
+  aktibidad na rin mismo.
 keyPoints:
-  - "Connection is still possible. In the late stage, the world is experienced mainly through the senses."
-  - "Music, gentle touch, familiar voices and soft things to hold often reach people when words no longer do."
-  - "Almost every idea here works for someone in bed or a chair."
-  - "Watch for comfort and discomfort in the face, hands and breathing, and stop at any sign of distress."
-  - "Avoid small objects and offer food or drink only as the care team advises, because swallowing can become unsafe."
+  - "Posible pa rin ang koneksyon. Sa huling yugto, pangunahing nararanasan ng tao ang mundo sa pamamagitan ng kanyang mga pandama."
+  - "Madalas maabot ng musika, banayad na haplos, pamilyar na tinig at malambot na bagay na mahahawakan ang tao kapag hindi na umaabot ang mga salita."
+  - "Halos lahat ng ideya dito ay angkop din sa taong nasa kama o upuan."
+  - "Bantayan ang ginhawa at hindi-ginhawa sa mukha, kamay at paghinga, at huminto kapag may palatandaan ng pagkabalisa."
+  - "Iwasan ang maliliit na bagay, at mag-alok lamang ng pagkain o inumin ayon sa payo ng pangkat ng pangangalaga, dahil maaaring maging hindi ligtas ang paglunok."
 faq:
-  - q: "What activities can you do with someone with late-stage dementia who is in bed?"
-    a: "Play their favorite music, hold their hand, give a slow hand massage with lotion, read aloud from a book or prayer they love, show photos, or play gentle nature sounds. Open the curtains so they can see outside. Short, calm sessions with one thing at a time usually work best."
-  - q: "Can people with late-stage dementia still enjoy music?"
-    a: "Many can. The Alzheimer's Association notes that even in the late stage, a person may be able to tap a beat or sing along to a song from childhood. Choose music they loved when they were younger and keep the volume soft."
-  - q: "How do I know if they are enjoying an activity?"
-    a: "Watch for small signs: relaxed shoulders, a softer face, eye contact, humming, a hand squeeze or slower breathing. Grimacing, pulling away, restlessness or groaning can mean discomfort or pain. If you see these, stop and tell the care team if they continue."
-  - q: "Is it worth visiting if they no longer recognize me?"
-    a: "Yes. The National Institute on Aging notes that simply being present can be calming, and that touch, music and stories can still provide comfort in advanced dementia. Your voice and touch may be familiar even when your name is not."
+  - q: "Anong mga aktibidad ang magagawa sa taong may huling yugto ng dementia na nasa kama?"
+    a: "Patugtugin ang paborito niyang musika, hawakan ang kamay niya, magbigay ng banayad na masahe sa kamay gamit ang lotion, magbasa nang malakas mula sa aklat o panalanging gustong-gusto niya, magpakita ng mga larawan, o magpatugtog ng banayad na tunog ng kalikasan. Buksan ang kurtina upang makita niya ang labas. Kadalasang pinakamabuti ang maiikli at tahimik na sesyon na isang bagay lamang ang ginagawa."
+  - q: "Nakakasiyahan pa rin ba ng mga taong may huling yugto ng dementia ang musika?"
+    a: "Marami sa kanila, oo. Ayon sa Alzheimer's Association, kahit sa huling yugto, maaaring kayang sumabay ng tao sa ritmo sa pamamagitan ng pag-tap o pagkanta ng kantang tanda niya mula pagkabata. Piliin ang musikang minahal niya noong mas bata pa siya at panatilihing mahina ang volume."
+  - q: "Paano ko malalaman kung nasisiyahan siya sa aktibidad?"
+    a: "Bantayan ang maliliit na palatandaan: nakarelaks na balikat, mas malambot na mukha, pagtingin sa mata, mahinang paghuni, pagpisil sa kamay o mas mabagal na paghinga. Ang pagkunot ng mukha, pag-iwas ng katawan, pagkabalisa o pag-ungol ay maaaring senyales ng hindi-ginhawa o sakit. Kapag nakita ninyo ang mga ito, tumigil at sabihin sa pangkat ng pangangalaga kung magpapatuloy ito."
+  - q: "May saysay pa bang dumalaw kung hindi na ako nakikilala?"
+    a: "Oo. Ayon sa National Institute on Aging, ang simpleng pagiging naroroon ay maaaring makapagpakalma, at ang haplos, musika at kuwento ay maaari pa ring magbigay ng ginhawa sa advanced na dementia. Maaaring pamilyar pa rin ang inyong boses at haplos kahit hindi na ang pangalan ninyo."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -48,55 +50,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-In the late stage of dementia, a person may speak very little, need help with all daily care and spend much of the day in bed or a chair. It can feel as if there is nothing left to do together. There is. The [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) notes that some core of the person's self may remain, and that at this stage the world is experienced mainly through the senses. Music, touch, a familiar voice and your calm company can still bring comfort and moments of connection.
+Sa huling yugto ng dementia, maaaring kaunti na lamang ang masabi ng isang tao, kailangan na niya ng tulong sa lahat ng pang-araw-araw na pangangailangan, at malaking bahagi ng araw niya ay nasa kama o upuan. Maaaring pakiramdam ninyo ay wala nang magagawa nang magkasama. Mayroon pa. Ayon sa [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage), maaaring may natitira pang bahagi ng pagkatao ng tao, at sa yugtong ito, pangunahing nararanasan niya ang mundo sa pamamagitan ng kanyang mga pandama. Ang musika, haplos, pamilyar na tinig at tahimik ninyong pagsasama ay maaari pa ring magbigay ng ginhawa at sandali ng koneksyon.
 
-## What activities help in late-stage dementia?
+## Anong mga aktibidad ang nakakatulong sa huling yugto ng dementia?
 
-Simple sensory activities and quiet company help most in the late stage. The Alzheimer's Association suggests playing favorite music, reading parts of meaningful books, rubbing lotion with a favorite scent into the skin, and sitting outside together on a nice day. The [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) adds telling stories, showing photos, gentle touch or massage, and music, white noise or nature sounds, and says your presence alone can be calming.
+Ang mga simpleng aktibidad na gumagamit ng pandama at tahimik na pagsasama ang pinakanakakatulong sa huling yugto. Iminumungkahi ng Alzheimer's Association ang pagpapatugtog ng paboritong musika, pagbabasa ng bahagi ng mga aklat na may kahulugan sa kanya, paghaplos ng lotion na may paboritong amoy sa balat, at pag-upo sa labas nang magkasama sa magandang panahon. Dinagdagan ito ng [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) ng pagkukuwento, pagpapakita ng larawan, banayad na haplos o masahe, at musika, white noise o tunog ng kalikasan. Sinasabi rin nitong ang inyong presensya lamang ay maaaring makapagpakalma.
 
-The [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) notes that people in the late stage often have a strong need to hold something close for comfort, and suggests simple sensory activities, gentle stretches, scarf movement, music, animal visits, human touch and free-form art.
+Sinasabi ng [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) na ang mga tao sa huling yugto ay madalas may malakas na pangangailangang humawak ng bagay na malapit sa katawan para sa ginhawa. Nagmumungkahi ito ng simpleng aktibidad na gumagamit ng pandama, banayad na pag-unat, paggalaw gamit ang scarf, musika, pagbisita ng hayop, haplos ng tao, at malayang sining.
 
-## Activities for someone in bed or a chair
+## Mga aktibidad para sa taong nasa kama o upuan
 
-1. **Play their music.** Choose songs from their young adult years, their faith or their family. Keep the volume soft and sit close. Even now, some people tap a finger or hum. See [music activities](/activities/music/).
-2. **Hold hands.** Just holding a hand, with a gentle thumb stroke, is an activity. Say what you are doing first.
-3. **Give a slow hand massage.** Warm a little lotion in your palms and stroke from wrist to fingertips. Choose unscented lotion, or a scent they always loved if their skin tolerates it.
-4. **Read aloud.** A favorite poem, a passage from a well-loved book, scripture or the sports page. The rhythm of your voice matters more than the words.
-5. **Tell a story.** Talk about a family trip or the day they got married. You do not need replies.
-6. **Show photos.** Hold one large photo at a time at eye level and describe it warmly. Avoid asking who is in it.
-7. **Offer something soft to hold.** A folded washcloth, a fleece square or a soft animal. The NIA suggests giving the person a washcloth to hold while being moved, so they are less likely to grab at you or the furniture.
-8. **Play nature sounds.** Rain, waves or birdsong at low volume can soften a noisy room.
-9. **Bring the outside in.** Open the curtains, place a bird feeder outside the window, or bring in a few fresh flowers or leaves to look at and touch.
-10. **Go outside.** If the person can sit in a wheelchair, a few minutes in the shade on a mild day can be lovely.
-11. **Brush their hair or offer a warm cloth.** Slow, gentle grooming and a warm washcloth for hands and face can feel caring.
-12. **Move gently with music.** Wave a light scarf together, or sway hands in time to a song. For stretches and joint movement, ask a physical therapist or nurse to show you safe ways first.
-13. **Make free-form art.** Spread non-toxic paint on large paper with a sponge or a hand, guided by yours. There is no right result.
-14. **Welcome animal visits.** A calm pet on the bed or lap, if the person enjoyed animals and the setting allows it.
-15. **Breathe slowly together.** Sit close and breathe slowly and audibly. [Calm breathing](/games/calm-breathing/) can pace you both, and you start and stop it.
-16. **Simply be there.** Sit nearby, hum, knit or read quietly. Being present is enough.
+1. **Patugtugin ang musika niya.** Pumili ng mga kanta mula sa kanyang kabataan, sa kanyang pananampalataya o sa kanyang pamilya. Panatilihing mahina ang volume at umupo nang malapit. Kahit ngayon, may mga taong nag-tap ng daliri o humuhuni. Tingnan ang [mga aktibidad sa musika](/creative-calm/music-for-calm-and-connection/).
+2. **Hawakan ang kamay.** Sapat na ang paghawak sa kamay, na may banayad na haplos ng hinlalaki, bilang aktibidad. Sabihin muna ang ginagawa ninyo.
+3. **Magbigay ng mabagal na masahe sa kamay.** Painitin nang kaunti ang lotion sa palad, at haplusin mula pulso hanggang dulo ng daliri. Pumili ng lotion na walang amoy, o amoy na lagi niyang nagustuhan kung kaya ng balat niya.
+4. **Magbasa nang malakas.** Isang paboritong tula, bahagi ng minamahal na aklat, banal na kasulatan o pahina ng isports. Mas mahalaga ang ritmo ng inyong boses kaysa sa mga salita.
+5. **Magkuwento.** Pag-usapan ang isang biyahe ng pamilya o ang araw ng kasal niya. Hindi ninyo kailangan ng sagot.
+6. **Magpakita ng larawan.** Ipakita ang isang malaking larawan sa bawat pagkakataon, nasa antas ng mata, at ilarawan ito nang mainit. Iwasang magtanong kung sino ang nasa larawan.
+7. **Mag-alok ng malambot na mahahawakan.** Isang nakatuping basahang pampunas, parisukat na fleece o malambot na laruang hayop. Iminumungkahi ng NIA na bigyan ang tao ng basahan na hahawakan habang ginagalaw siya, upang mas maliit ang tsansang hahablutin ka niya o ang mga gamit.
+8. **Magpatugtog ng tunog ng kalikasan.** Ang ulan, alon o huni ng ibon nang mahina ay maaaring magpalambot sa maingay na silid.
+9. **Dalhin ang labas sa loob.** Buksan ang kurtina, maglagay ng tagapakain ng ibon sa labas ng bintana, o magdala ng ilang sariwang bulaklak o dahon na matitingnan at mahahawakan.
+10. **Lumabas.** Kung kaya niyang umupo sa wheelchair, ang ilang minuto sa lilim sa isang banayad na araw ay maaaring maging maganda.
+11. **Suklayan ang buhok niya o mag-alok ng maligamgam na basahan.** Ang mabagal at banayad na pag-aayos, at maligamgam na basahan para sa kamay at mukha, ay maaaring maramdamang maalalahanin.
+12. **Gumalaw nang banayad kasabay ng musika.** Iwagayway nang magkasama ang magaang scarf, o igalaw ang kamay ayon sa ritmo ng kanta. Para sa pag-unat at paggalaw ng kasukasuan, humingi muna ng payo sa physical therapist o nars kung paano ito gagawin nang ligtas.
+13. **Gumawa ng malayang sining.** Ikalat ang pinturang hindi nakalalason sa malaking papel gamit ang espongha o kamay, sa gabay ng inyong kamay. Walang tamang resulta.
+14. **Tanggapin ang pagbisita ng hayop.** Isang kalmadong alagang hayop sa kama o kandungan, kung gusto ng tao ang mga hayop at pinapayagan ng lugar.
+15. **Huminga nang mabagal nang magkasama.** Umupo nang malapit at huminga nang mabagal at maririnig. Makakatulong ang [paghinga nang kalmado](/games/calm-breathing/) na pantayan ang inyong dalawa, at kayo ang magsisimula at titigil dito.
+16. **Basta naroroon lang.** Umupo sa tabi, humuni, mangunot o tahimik na magbasa. Sapat na ang pagiging naroroon.
 
-## How to share an activity at this stage
+## Paano makibahagi sa aktibidad sa yugtong ito
 
-- **Approach from the front.** Say their name and your name, and speak slowly and softly before you touch.
-- **Offer one thing at a time.** Turn off the TV before playing music. Do one sense at a time.
-- **Keep it short.** A few minutes may be plenty. Several short moments across the day are better than one long session.
-- **Get comfortable first.** Check that the person is well supported. The NIA suggests a lap board to rest the arms and support the upper body when sitting up.
-- **Watch the response.** Relaxed hands, a softer face, eye contact or humming suggest comfort. The NIA notes that groans, grimacing, guarding part of the body or sudden agitation can be signs of pain. Stop, and tell the care team.
+- **Lumapit mula sa harap.** Banggitin ang pangalan niya at ang pangalan ninyo, at magsalita nang mabagal at mahinahon bago humawak.
+- **Mag-alok ng isang bagay sa isang pagkakataon.** Patayin muna ang TV bago magpatugtog ng musika. Isang pandama lamang sa bawat pagkakataon.
+- **Panatilihing maikli.** Maaaring sapat na ang ilang minuto. Mas mabuti ang ilang maiikling sandali sa buong araw kaysa isang mahabang sesyon.
+- **Ayusin muna ang kaginhawahan.** Tiyaking maayos ang suporta sa tao. Iminumungkahi ng NIA ang lap board para suportahan ang mga braso at ang itaas na bahagi ng katawan kapag nakaupo siya nang tuwid.
+- **Bantayan ang tugon niya.** Ang nakarelaks na kamay, mas malambot na mukha, pagtingin sa mata o paghuni ay nagpapahiwatig ng ginhawa. Ayon sa NIA, ang pag-ungol, pagkunot ng mukha, pagprotekta sa isang bahagi ng katawan o biglaang pagkabalisa ay maaaring senyales ng sakit. Tumigil at sabihin ito sa pangkat ng pangangalaga.
 
-## A quick guide by sense
+## Mabilis na gabay ayon sa pandama
 
-| Sense | Ideas | Take care |
+| Pandama | Mga ideya | Mag-ingat |
 | --- | --- | --- |
-| Hearing | Favorite music, your voice reading, nature sounds | Keep volume low; one sound at a time |
-| Touch | Hand massage, holding hands, soft fabric, warm cloth | Ask or announce first; check skin is not sore or broken |
-| Sight | Photos, flowers, the view from a window, a slow nature video | Hold things at eye level; good light, no glare |
-| Smell | A favorite lotion, fresh flowers, coffee brewing nearby | Avoid strong scents; check allergies and breathing |
-| Taste | A small taste of a favorite flavor | Only foods and textures the care team says are safe |
+| Pandinig | Paboritong musika, inyong boses na nagbabasa, tunog ng kalikasan | Panatilihing mahina ang volume; isang tunog lamang sa bawat pagkakataon |
+| Paghawak | Masahe sa kamay, paghawak ng kamay, malambot na tela, maligamgam na basahan | Magtanong o magsabi muna; tiyaking hindi masakit o sira ang balat |
+| Paningin | Larawan, bulaklak, tanaw mula sa bintana, mabagal na video ng kalikasan | Ihawak sa antas ng mata; sapat na liwanag, walang silaw |
+| Pang-amoy | Paboritong lotion, sariwang bulaklak, kapeng tinitimpla malapit | Iwasan ang malalakas na amoy; tingnan kung may allergy at kung maayos ang paghinga |
+| Panlasa | Kaunting lasa ng paborito niyang pagkain | Mga pagkain at tekstura lamang na sinabi ng pangkat ng pangangalaga na ligtas |
 
-## Safety at this stage
+## Kaligtasan sa yugtong ito
 
-Swallowing can become difficult in the late stage, and the NIA warns that this raises the risk of choking. Do not leave small objects within reach, and only offer food or drink in the textures and positions the care team recommends. Check skin gently during touch activities, since skin can tear or bruise easily. For more on safe sensory ideas, see [sensory activities](/activities/sensory/).
+Maaaring maging mahirap ang paglunok sa huling yugto, at binabalaan ng NIA na nagpapataas ito ng panganib na mabulunan. Huwag mag-iwan ng maliliit na bagay na abot niya, at mag-alok lamang ng pagkain o inumin sa tekstura at posisyong inirerekomenda ng pangkat ng pangangalaga. Dahan-dahang tingnan ang balat habang may haplos, dahil madaling mapunit o mabugbog ang balat. Para sa higit pang ligtas na ideya sa pandama, tingnan ang [mga aktibidad sa pandama](/creative-calm/sensory-activities-for-adults/).
 
-## Looking after yourself too
+## Pag-alaga rin sa sarili ninyo
 
-Late-stage caregiving is physically and emotionally demanding, whether at home or during visits to a care home. Hospice and palliative care teams can help with comfort, support and planning, and the NIA lists them as a source of help. Short, calm visits are worthwhile; see [visiting someone with dementia](/activities/visiting/). If you lead groups, [care home group activities](/activities/care-home-groups/) has ideas for adapting sessions. And please read [caregiver self-care](/caregiving/caregiver-self-care/): rest is part of caring well.
+Mabigat sa katawan at damdamin ang pag-aalaga sa huling yugto, sa bahay man o tuwing dumadalaw sa care home. Makakatulong ang mga pangkat ng hospice at palliative care sa ginhawa, suporta at pagpaplano, at isinasama sila ng NIA bilang pinagmumulan ng tulong. Sulit ang maikli at tahimik na pagdalaw; tingnan ang [pagdalaw sa taong may dementia](/together/visiting-someone-in-care/). Kung namumuno kayo sa mga grupo, may mga ideya ang [mga aktibidad ng grupo sa care home](/crafts/craft-group-sessions/) kung paano iaangkop ang mga sesyon. At pakibasa ang [pag-aalaga sa sarili para sa mga tagapag-alaga](/creative-calm/creative-self-care-for-caregivers/), dahil bahagi ng mabuting pag-aalaga ang pahinga.
