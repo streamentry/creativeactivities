@@ -10,7 +10,8 @@
  * Manager's automatic click, link, form and other listeners and Custom HTML
  * tags are blocklisted in code (lib/consent.ts). A browser sending Global
  * Privacy Control is never counted and never asked. Not rendered on Photo
- * pairs, which keeps a no-third-party policy for family photos.
+ * pairs, Scrapbook, Picture puzzle or the kids guides (`analytics={false}`),
+ * which keeps a no-third-party policy for family photos and children's pages.
  */
 import { SITE } from '../lib/site';
 ---

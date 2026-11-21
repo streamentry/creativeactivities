@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import { GAMES } from '../data/games';
 import {
   SITE_STORES,
   exportText,
@@ -35,10 +36,12 @@ describe('site storage registry', () => {
   it('lists every key the site writes, once each', () => {
     const keys = SITE_STORES.map((s) => `${s.kind}:${s.key}`);
     expect(new Set(keys).size).toBe(keys.length);
-    expect(keys.sort()).toEqual(
+    const others = keys.filter((k) => !k.startsWith('localStorage:gm-place-v1-')).sort();
+    expect(others).toEqual(
       [
         'cookie:gm_lang',
         'localStorage:ca-analytics-consent-v1',
+        'localStorage:ca-made-notes-v1',
         'localStorage:ca-paths-v1',
         'localStorage:ca-plain-steps',
         'localStorage:ca-saved-activities-v1',
@@ -53,6 +56,21 @@ describe('site storage registry', () => {
         'localStorage:gm-today-notes-v1',
       ].sort(),
     );
+  });
+
+  it('lists one place key per game that keeps a place, and none for the photo games (WEB-054)', () => {
+    const places = SITE_STORES.filter((s) => s.key.startsWith('gm-place-v1-')).map((s) => s.key);
+    expect(places.length).toBe(GAMES.length - 3);
+    expect(places).toContain('gm-place-v1-find-the-same');
+    for (const photo of ['photo-pairs', 'scrapbook', 'picture-puzzle']) {
+      expect(places).not.toContain(`gm-place-v1-${photo}`);
+    }
+  });
+
+  it('counts the notes on My made list, and ignores notes that are not well formed', () => {
+    const made = SITE_STORES.find((s) => s.id === 'made-notes');
+    expect(made?.count?.(JSON.stringify({ 'sing-along': 'Good', 'make-a-card': '' }))).toBe(1);
+    expect(made?.count?.('[]')).toBe(0);
   });
 
   it('counts the paths that have a place kept, and ignores places on paths that do not exist', () => {

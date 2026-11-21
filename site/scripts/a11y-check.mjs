@@ -56,6 +56,10 @@ const TEMPLATES = [
   { name: 'large-print', path: '/activity/wrap-a-small-gift/large-print/' },
   { name: 'weekly-program', path: '/activity/weekly-program/' },
   { name: 'care-settings', path: '/for-organizations/care-settings/' },
+  // SEO-025 partner sheets.
+  { name: 'library-programming', path: '/for-organizations/library-programming/' },
+  { name: 'activity-director', path: '/for-organizations/activity-director/' },
+  { name: 'facilitator-note', path: '/for-organizations/facilitator-note/' },
   { name: 'printables', path: '/printables/' },
   { name: 'guide', path: '/caregiving/after-dementia-diagnosis/' },
   { name: 'section-index', path: '/caregiving/' },

@@ -23,7 +23,10 @@ import { LANGUAGE_COOKIE, readCookie } from './language-choice';
 import { PATHS } from '../data/paths';
 import { parsePaths, PATHS_STORAGE_KEY } from './paths';
 import { parseSaved, STORAGE_KEY as SAVED_KEY } from './saved-activities';
+import { GAMES } from '../data/games';
+import { keepsPlace, placeKey } from '../games/shared/place';
 import { parseNotes, STORAGE_KEY as TODAY_NOTES_KEY } from './today/notes';
+import { countNotes, MADE_NOTES_KEY } from './made-list';
 
 export interface SiteStore {
   readonly id: string;
@@ -36,7 +39,7 @@ export interface SiteStore {
   readonly count?: (raw: string) => number;
 }
 
-export const SITE_STORES: readonly SiteStore[] = [
+const BASE_STORES: readonly SiteStore[] = [
   {
     id: 'saved',
     kind: 'localStorage',
@@ -77,6 +80,15 @@ export const SITE_STORES: readonly SiteStore[] = [
     label: 'Today notes',
     description: 'Notes you wrote on the Today page, with the day and how the activity went.',
     count: (raw) => parseNotes(raw).length,
+  },
+  {
+    id: 'made-notes',
+    kind: 'localStorage',
+    key: MADE_NOTES_KEY,
+    label: 'My made list notes',
+    description:
+      'Short private notes you wrote on My made list, kept by activity short name. The list of activities you tried is kept separately under "Activities you tried".',
+    count: (raw) => countNotes(raw),
   },
   {
     id: 'analytics-consent',
@@ -143,6 +155,17 @@ export const SITE_STORES: readonly SiteStore[] = [
     description: 'The language you picked from the menu, so the site stays in it. Kept for one year.',
   },
 ];
+
+/** WEB-054: one entry per game that keeps its place (the photo games keep none). */
+const PLACE_STORES: readonly SiteStore[] = GAMES.filter((g) => keepsPlace(g.slug)).map((g) => ({
+  id: `place-${g.slug}`,
+  kind: 'localStorage',
+  key: placeKey(g.slug),
+  label: `Place in ${g.name}`,
+  description: 'Where you rested in this game, kept as its board so you can carry on. Removed when you start fresh or start again.',
+}));
+
+export const SITE_STORES: readonly SiteStore[] = [...BASE_STORES, ...PLACE_STORES];
 
 /** The part of a Storage object this module uses, so tests can pass a stand-in. */
 export type StorageLike = Pick<Storage, 'getItem' | 'removeItem'>;

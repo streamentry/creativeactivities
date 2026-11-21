@@ -1,11 +1,20 @@
 import { useId, useState } from 'react';
 import { pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
-import { sceneAt, stepScene, type SceneEdge } from '../lib/games/quiet-scene';
+import { QUIET_SCENES, sceneAt, stepScene, type SceneEdge } from '../lib/games/quiet-scene';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { pictureNamer } from './shared/PictureTile';
 import { sounds } from './shared/sound';
+
+/** The saved picture and view, or null unless the index is one of the scenes and the view is a yes or no. */
+function parseScene(b: unknown): { index: number; big: boolean } | null {
+  if (typeof b !== 'object' || b === null || Array.isArray(b)) return null;
+  const { index, big } = b as { index?: unknown; big?: unknown };
+  if (typeof index !== 'number' || !Number.isInteger(index) || index < 0 || index >= QUIET_SCENES.length) return null;
+  if (typeof big !== 'boolean') return null;
+  return { index, big };
+}
 
 /**
  * GAME-039 Quiet scene: one large still picture, with one gentle line under it.
@@ -68,6 +77,18 @@ export default function QuietScene(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'quiet-scene',
+          save: () => ({ index, big }),
+          check: (b) => parseScene(b) !== null,
+          restore: (b) => {
+            const saved = parseScene(b);
+            if (!saved) return;
+            setIndex(saved.index);
+            setBig(saved.big);
+            setEdge(null);
+          },
+        }}
       >
         <figure className="quiet-scene__figure">
           <img className="quiet-scene__picture" src={pictureUrl(id)} alt={name} width={600} height={600} />

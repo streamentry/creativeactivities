@@ -96,6 +96,7 @@ Rules that apply to every type:
 ### CNT-006 · Path (weekly plan or multi-week sequence)
 
 - **Priority P1 · Phase S2 · Status partial**.
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `/paths/`, `/your-data/`, `lib/paths.test.ts`). Acceptance criteria that need a person remain open.
 - **Status note (2026-11-21):** paths are now linked from the two hubs that hold at least half of a path's activities (grandparent and grandchild; a visit) and from the Today page, and each path row shows its card's time. The completion-without-pressure test with people is not done.
 - **Why:** a free one-page weekly plan with three to five activities is a low-commitment entry point that needs no account ([R2 §3, pattern 4](research/02-parenting-kids-platforms.md#3-feature-patterns-worth-adopting)).
 - **Anatomy:** a title for the situation; one line on time per day; a row per day or per activity; links to the cards; a blank row for "what we did"; a closing line that says the path is finished and that stopping is fine.
@@ -106,7 +107,7 @@ Rules that apply to every type:
 ### CNT-007 · Printable template
 
 - **Priority P1 · Phase S2 · Status partial** (handout and picture printables exist; the set below is not complete).
-- **Status note (2026-11-21):** two more templates: a one-page "What I have" checklist at `/printables/what-i-have-checklist/` (short print labels, safety qualifiers kept) and a two-sided blank activity card at `/printables/blank-activity-card/`, both in `check:print`. Still missing: a keepsake or thank-you card and a family note template; a memory prompt sheet is not built, because prompts that test memory conflict with the product rules. The basic-inkjet grayscale print test needs a person.
+- **Status note (2026-11-21):** two more templates: a one-page "What I have" checklist at `/printables/what-i-have-checklist/` (short print labels, safety qualifiers kept) and a two-sided blank activity card at `/printables/blank-activity-card/`, both in `check:print`. Added: a one-sheet keepsake card at `/printables/keepsake-card/` (thank-you after an activity, space for a drawing or signature) and a one-sheet family note at `/printables/family-note/` (what was enjoyed and what to try next time; not a care record, no scoring), both noindex, listed on `/printables/`, and in `check:print`. A memory prompt sheet is not built, because prompts that test memory conflict with the product rules. The basic-inkjet grayscale print test needs a person, so the status stays partial until it is recorded.
 - **Types:** blank activity card; "what I have" checklist (the stash pattern, [R1 §5](research/01-craft-diy-platforms.md#5-games-and-interactive-patterns)); memory prompt sheet; blank weekly plan; keepsake or thank-you card; educator and family note (see CNT-014).
 - **Formats:** A4 and US Letter; grayscale-safe; body text at least 14 pt; large-print at 18 pt or more; no full-bleed backgrounds; tagged PDF with alt text on every image; QR code optional and never the only route to the instruction.
 - **Quality bar:** printed on a basic inkjet in grayscale and read at arm's length. A print test is recorded for each template.
@@ -141,7 +142,8 @@ Rules that apply to every type:
 
 ### CNT-012 · Glossary
 
-- **Priority P1 · Phase S2 · Status new**.
+- **Priority P1 · Phase S2 · Status partial**.
+- Status note (2026-11-22): The glossary is built: `site/src/data/glossary.ts` holds 59 terms, each taken from a card and with a translator note, at `/glossary/`. Translations and reviewer sign-off remain.
 - **Why:** "glue dot", "cardstock", "tenting" and "sticky tack" are the words that stop people. A glossary keeps cards short.
 - **Format:** plain word, one-sentence meaning, a picture where it helps, and a note for translators (see [13](13-localization.md)).
 - **Count:** about 60 terms at S1, chosen from words that appear in the cards. More only when usage data shows a term failing.
@@ -149,6 +151,7 @@ Rules that apply to every type:
 ### CNT-013 · Seasonal calendar and collections
 
 - **Priority P2 · Phase S2 · Status partial**.
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `/seasons/`). Acceptance criteria that need a person remain open.
 - **Evidence (2026-11-16):** four season pages (`/seasons/spring/` to `/winter/`) and a calendar on `/seasons/` that shows the year as twelve months for the northern or southern half of the world, with this month marked (WEB-033). No holiday is assumed. Each season's own cards include at least one with a seated version and one with a large-grip version (tested in `site/src/data/seasons.test.ts`). After a season the page stays where it is and links to the seasonal hub and the other seasons. Not done: publishing six weeks ahead (the pages are not tied to a release date); holidays from many traditions with cultural review (none is included; the seasonal hub is written for any celebration); an editor's review of the collections.
 - **Why:** time-bound search and planning. R5 cluster 6 (holiday crafts for seniors, seated and low-dexterity) is the first case.
 - **Rules:** published at least six weeks before the season it serves; each collection has seated and low-dexterity versions; holidays from many traditions are included with cultural review (see [07](07-pillar-crafting.md) for the seasonal category and [13](13-localization.md)); after the season, the page stays at its URL and points to the evergreen hub.
@@ -280,6 +283,7 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 ### CNT-031 · Media rights and provenance
 
 - **Priority P0 · Phase S2 · Status partial.**
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 - **Evidence (2026-11-16):** `docs/specs/asset-provenance.json` has a record for every served picture, illustration and social card, and CI (`asset-provenance.test.ts`, `child-image-rules.test.ts`) fails when a served image has none or when a person or child appears without a release. Remaining: the check covers the website only, not the app's bundled assets; every record is still `unreviewed`.
 - **What:** the asset record and rules in §4.
 - **Acceptance:** an asset with no record cannot be committed to the site or app; photos of people have a release reference; no child's face is in any public asset without a parental release.
@@ -299,6 +303,7 @@ Pause or stop a segment when the VISION stage 2 criteria apply: queries are info
 ### CNT-034 · Update, correction and retirement
 
 - **Priority P1 · Phase S2 · Status partial.**
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 - **Evidence (2026-11-16):** cards, hubs and guides each show a dated byline (checked in the built pages); cards carry a public change log (`changes`, WEB-027) and a `withdrawn` notice; `/corrections/` takes reports (TSA-045); retired guides redirect (`site/src/lib/retired-guides.ts`); `pnpm review:queue` lists pages past their 12-month review (WEB-076). Remaining: the 48-hour logging of a confirmed safety correction is a maintainer process with no target set, and a card's displayed date is `updated`, not a named reviewer's check.
 - **What:** the cadence and rules in §3, including the public correction note and redirect-on-retire.
 - **Acceptance:** every page shows its last review date; every safety correction is logged within 48 hours of confirmation (target).

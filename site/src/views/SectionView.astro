@@ -58,7 +58,7 @@ const itemList = {
   itemListElement: entries.map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: absoluteUrl(href(g)), name: g.entry.data.title })),
 };
 ---
-<BaseLayout title={meta.seo} description={meta.description} jsonLd={[breadcrumbs(crumbs, lang), itemList]} available={available}>
+<BaseLayout title={meta.seo} description={meta.description} jsonLd={[breadcrumbs(crumbs, lang), itemList]} analytics={section !== 'kids'} available={available}>
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head">

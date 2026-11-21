@@ -3,12 +3,13 @@
 English (`en.json`, `src/content/guides/`) is the source. Every other language
 is a machine translation published as **unreviewed**: each translated page says
 so and links to the English original. A native speaker can review a language
-later. Every published language is indexed: it has its own sitemap
-(`/<prefix>/sitemap.xml`, English at `/sitemap-en.xml`) with hreflang alternates,
-listed by the index at `/sitemap.xml`, and appears in `llms.txt`. To pull a language back out, add its code to `HELD_FROM_INDEX` in
-`src/i18n/locales.ts` (it is empty: the maintainer chose on 2026-11-01 to index every
-language, including the weakest); its pages become `noindex`, carry no hreflang,
-and its sitemap empties.
+later. Every published language is indexed except those in `HELD_FROM_INDEX` in
+`src/i18n/locales.ts`: it has its own sitemap (`/<prefix>/sitemap.xml`, English at
+`/sitemap-en.xml`) with hreflang alternates, listed by the index at `/sitemap.xml`,
+and appears in `llms.txt`. On 2026-11-21 the maintainer held Hausa, Amharic, Burmese,
+Pashto, Sindhi, Somali and Oromo (L10N-033) until a native reviewer checks each. A held
+language's pages stay published but become `noindex`, carry no hreflang, and its sitemap
+empties. To release one, a reviewer records the check and its code is removed from the set.
 
 `python3 scripts/register_language.py <code>` registers a new language in every
 place that lists one (site and app). Where a translator cannot supply 30 genuine

@@ -1,0 +1,178 @@
+---
+/**
+ * CNT-007: a keepsake card to write and give after an activity together. A thank-you, not a score: it names what was
+ * made and what was enjoyed. One sheet on A4 and US Letter, black on white, text at 14 pt or more. Not indexed: it is a
+ * form to fill in, not a page of guidance.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+
+const crumbs = [
+  { href: '/printables/', label: 'Printables' },
+  { href: '/printables/keepsake-card/', label: 'Keepsake card' },
+];
+const FAVORITE_LINES = 2;
+const THANKS_LINES = 2;
+---
+<BaseLayout
+  title="Keepsake card"
+  description="A printable thank-you card to write after an activity together: what you made, what was enjoyed and a space for a drawing or a signature. One sheet, black and white."
+  jsonLd={[breadcrumbs(crumbs)]}
+  noindex
+  canonicalPath="/printables/keepsake-card/"
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container keepsake-page">
+    <header class="keepsake-page__intro no-print">
+      <p class="eyebrow">Printables</p>
+      <h1>Keepsake card</h1>
+      <p class="lede">
+        A thank-you to write after an activity together. Write it on the day, then give it to the person or keep it with what
+        you made. Print it on one sheet. Use Print in your browser menu.
+      </p>
+    </header>
+
+    <article class="keepsake" aria-label="Keepsake card">
+      <p class="keepsake__eyebrow">Thank you</p>
+      <h2 class="keepsake__title">We made something together</h2>
+      <p class="keepsake__field">Activity: <span class="blank-line blank-line--wide"></span></p>
+      <p class="keepsake__field">Date: <span class="blank-line blank-line--short"></span></p>
+      <p class="keepsake__field">What we made, in a few words:</p>
+      <span class="blank-line blank-line--wide"></span>
+
+      <h3>My favorite part was</h3>
+      {Array.from({ length: FAVORITE_LINES }, () => (
+        <span class="blank-line blank-line--wide"></span>
+      ))}
+
+      <h3>Thank you for</h3>
+      {Array.from({ length: THANKS_LINES }, () => (
+        <span class="blank-line blank-line--wide"></span>
+      ))}
+
+      <div class="keepsake__space" aria-label="Space for a drawing or a signature">
+        <p>Space for a drawing, a sticker or a signature</p>
+      </div>
+
+      <p class="keepsake__from">
+        From: <span class="blank-line blank-line--short"></span> To: <span class="blank-line blank-line--short"></span>
+      </p>
+      <p class="keepsake__foot">Ready-made activity cards: {SITE.domain}/activity/</p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .keepsake-page {
+    max-width: var(--content-max);
+  }
+  .keepsake-page__intro {
+    margin-block-end: var(--space-lg);
+  }
+  .keepsake {
+    color: var(--gm-on-surface);
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    max-width: 46rem;
+  }
+  .keepsake__eyebrow {
+    margin: 0;
+    font-weight: 700;
+    color: var(--gm-on-surface-variant);
+  }
+  .keepsake h2 {
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+  .keepsake h3 {
+    margin: var(--space-md) 0 var(--space-xs);
+  }
+  .keepsake__field {
+    margin: var(--space-xs) 0 0;
+  }
+  .keepsake__space {
+    margin-block: var(--space-md);
+    min-height: 9rem;
+    border: 2px solid var(--gm-on-surface);
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-sm);
+  }
+  .keepsake__space p {
+    margin: 0;
+    color: var(--gm-on-surface-variant);
+    text-align: center;
+  }
+  .blank-line {
+    display: block;
+    min-height: 2.5rem;
+    margin-block: var(--space-2xs);
+    border-block-end: 1px solid var(--gm-on-surface);
+  }
+  .blank-line--wide {
+    width: 100%;
+  }
+  .blank-line--short {
+    display: inline-block;
+    width: 8rem;
+    min-height: 0;
+    margin: 0;
+    vertical-align: baseline;
+  }
+  .keepsake__from,
+  .keepsake__foot {
+    margin: var(--space-md) 0 0;
+  }
+  .keepsake__foot {
+    color: var(--gm-on-surface-variant);
+    font-size: var(--text-sm);
+  }
+
+  @media print {
+    .keepsake-page {
+      max-width: none;
+    }
+    .keepsake {
+      max-width: none;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: none;
+      color: #000;
+    }
+    .keepsake p,
+    .keepsake h2,
+    .keepsake h3 {
+      font-size: 14pt;
+      line-height: 1.35;
+    }
+    .keepsake h2 {
+      font-size: 20pt;
+    }
+    .keepsake h3 {
+      font-size: 16pt;
+      break-after: avoid;
+      color: #000;
+    }
+    .keepsake__eyebrow,
+    .keepsake__foot {
+      color: #000;
+    }
+    .blank-line {
+      min-height: 9mm;
+      border-color: #000;
+    }
+    .keepsake__space {
+      border-color: #000;
+      min-height: 40mm;
+    }
+    .keepsake__space p {
+      color: #000;
+    }
+  }
+</style>
