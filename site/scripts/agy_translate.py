@@ -578,6 +578,9 @@ def mixed_script_words(src: str, out: str) -> list[str]:
     bad = []
     for word in re.findall(r'\S+', text):
         kinds = [_script(c) for c in word]
+        if len({k for k in kinds if k not in (None, 'ascii')}) > 1:  # two non-Latin alphabets in one word
+            bad.append(word)
+            continue
         touching = any('ascii' in (a, b) and a != b and None not in (a, b) for a, b in zip(kinds, kinds[1:]))
         # A short run ("a", "i") is always an English word, so only longer runs can be a name with a suffix.
         # Short lowercase runs ("a", "i") are always English words, so they cannot excuse a mix;
