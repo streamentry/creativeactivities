@@ -381,6 +381,58 @@
       }
     ]
   },
+  "drawing-duet": {
+    "name": "Közös rajz kettesben",
+    "seoTitle": "Közös rajz kettesben: két ember, egy kép",
+    "h1": "Közös rajz kettesben: két ember, egy lap",
+    "description": "Két ember váltakozva húz vonalakat egy közös rajzfelületen, mindketten a saját színükkel. Senki sem szerez pontot és senki sem nyer, a kép pedig elmenthető vagy kinyomtatható. Ingyenesen játszható, fiók nélkül.",
+    "short": "Rajzoljon felváltva egy közös képet a mellette ülő személlyel.",
+    "players": "2 személy, egymás mellett",
+    "intro": "Egy rajzfelület, két ember. Mindketten választanak egy színt, és minden színnek megvan a saját, írott neve. Felváltva következnek: húzzon egy vonalat vagy alakzatot, majd adja tovább a tollat. Bármelyik résztvevő bármikor továbbadhatja a tollat. Nincs helyes kép és nincs pontszám. Ha tetszik a kép, mentse el az eszközére, vagy nyomtassa ki papíron: egy lap, két toll.",
+    "howTo": [
+      "Mindkét résztvevő választ egy színt. A sáv megmutatja, kinek a sora van, a színe nevével együtt.",
+      "Húzzon egy vonalat vagy alakzatot ujjal, egérrel vagy tollal. Ha nincs mutatóeszköze, használja a nyílbillentyűket és a szóköz billentyűt.",
+      "Ha készen van, koppintson a „Toll átadása” gombra. Bármelyik résztvevő bármikor átadhatja a tollat.",
+      "Koppintson az „Utolsó vonalam visszavonása” gombra, hogy eltávolítsa annak a személynek a legutóbbi vonalát, akinek a sora van.",
+      "Koppintson a „Kép mentése” gombra, hogy képfájlt készítsen erre az eszközre, vagy a „Papíralapú változat nyomtatása” gombra, ami egy lapot és két tollat igényel."
+    ],
+    "tips": [
+      "Üljön egymás mellé, és rajzolás közben beszéljen: „A sarokba egy napocskát rajzolok.”",
+      "Kezdjen egy ponttal, vonallal vagy egyszerű alakzattal, és hagyja, hogy a másik személy erre válaszoljon.",
+      "Senkinek nem kell semmit lerajzolnia. Egy vonalakból álló minta ugyanolyan jó, mint egy jelenet.",
+      "Ha abba szeretné hagyni, koppintson a „Most szünetet tartok” gombra. A kép az oldal elhagyása után nem marad meg, hacsak nem mentette el."
+    ],
+    "faq": [
+      {
+        "q": "Van győztes vagy pontszám?",
+        "a": "Nincs. Nincs győztes, nincs pontszám, nincs időmérő és nincs sorszámlálás. Nincs helyes kép, és semmit sem rangsorolunk vagy hasonlítunk össze."
+      },
+      {
+        "q": "Elmentődik vagy elküldődik a kép?",
+        "a": "Nem, semmi sem kerül elküldésre sehová. A kép addig marad ezen az oldalon, amíg be nem zárja. Ha megnyomja a „Kép mentése” gombot, a készülékén fájl készül, amelyet letölthet. Semmi sem kerül feltöltésre."
+      },
+      {
+        "q": "Visszavonhatok egy vonalat?",
+        "a": "Igen. Az „Utolsó vonalam visszavonása” eltávolítja annak a személynek a legutóbbi vonalát, akinek a sora van. Az „Újrakezdés” törli a lapot, a „Visszahozás” pedig a vonalakat csak egy lépéssel hozza vissza."
+      },
+      {
+        "q": "Használhatom ezt egér vagy érintőképernyő nélkül is?",
+        "a": "Igen. Amikor a rajzfelület van kijelölve, a nyílbillentyűk mozgatják a toll pontját, a szóköz billentyű pedig leteszi vagy felemeli a tollat. A képernyőn minden alkalommal megjelenik a „Toll lent” vagy a „Toll fent” felirat."
+      },
+      {
+        "q": "Milyen színek ezek, és meg tudják különböztetni őket a színlátási eltéréssel élők?",
+        "a": "Sárga, narancs, zöld és lila: ugyanaz a négy szín, mint a többi képes játékunkban. Mindegyiknek van írott neve, és a nevek a soránál jelennek meg. A színeket gyakori színlátási eltérések szimulációjával ellenőriztük, de színlátási eltéréssel élő személy még nem próbálta ki őket."
+      },
+      {
+        "q": "Van papíralapú változat?",
+        "a": "Igen. A „Papíralapú változat nyomtatása” gombbal egy lapot nyomtathat ki, rajta a szabályokkal és egy nagy üres kerettel, amelybe rajzolhatnak. Két ember két tollal használhatja. Fekete-fehérben is működik."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Működik a webböngészőben telefonon, táblagépen vagy számítógépen."
+      }
+    ]
+  },
   "build-together": {
     "name": "Közösen építsünk",
     "seoTitle": "Közösen építsünk: két ember egy mintát épít",
@@ -481,6 +533,150 @@
       }
     ]
   },
+  "seasonal-pack": {
+    "name": "Évszakos rejtvénycsomag",
+    "seoTitle": "Évszakos rejtvénycsomag: kinyomtatható papíralapú rejtvények",
+    "h1": "Évszakos rejtvénycsomag: három papíralapú rejtvény minden évszakra",
+    "description": "Három kis, kinyomtatható rejtvény tavaszra, nyárra, őszre vagy télre: párosítsa az azonos képeket, karikázza be a különbözőt, és színezzen ki egy képet. Válasszon évszakot, vagy tartson pihenőnapot. Ingyenesen nyomtatható.",
+    "short": "Három kinyomtatható rejtvény a kiválasztott évszakhoz, vagy egy pihenőnap.",
+    "players": "Minden korosztálynak, egyedül vagy egymás mellett",
+    "intro": "Válasszon évszakot, és az oldal az évszak képeiből készült három kis papíros rejtvényt mutat: két sort, amelyeket vonallal kell összekötni, egy négyes sort, amelyben be kell karikázni a különbözőt, és egy képet, amelyet ki lehet színezni. Egy oldalt nyomtat ki, majd a három rejtvény közül egyet, kettőt vagy mind a hármat megoldhatja, a saját tempójában. Ha inkább a „Ma pihenőnap van” lehetőséget választja, nincs semmi teendő.",
+    "howTo": [
+      "Válasszon évszakot, vagy a „Ma pihenőnap van” lehetőséget.",
+      "Nézze meg a három rejtvényt, majd koppintson az „Az évszak csomagjának nyomtatása” gombra.",
+      "Oldjon meg egyet, kettőt vagy mind a hármat, a saját tempójában.",
+      "Kösse össze a párokat vonallal, karikázza be a különbözőt, és színezze ki a nagy képet.",
+      "Abbahagyhatja bármikor. A pihenőnap is egy jó nap."
+    ],
+    "tips": [
+      "Kezdjen azzal a rejtvénnyel, amelyik ma a legkönnyebbnek tűnik. Egy is elég.",
+      "Ha segít, mondja ki hangosan az egyes képek nevét.",
+      "Használjon zsírkrétát vagy ceruzát. Bármilyen szín megfelel.",
+      "Tegye el az oldalt a következő alkalomra, vagy dobja ki nyugodtan."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vereség sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen rendben van."
+      },
+      {
+        "q": "Tudja az oldal, melyik évszak van?",
+        "a": "Nem. Ön választja ki az évszakot. Az oldal nem nézi a dátumot és a tartózkodási helyét."
+      },
+      {
+        "q": "Van pontszám vagy helyes válasz?",
+        "a": "Nincs. A képernyőn semmi sincs időhöz kötve, pontozva vagy ellenőrizve, és nem jelennek meg megoldások. Minden rejtvény csak egy kép, amelyet nézni, összekötni, bekarikázni vagy kiszínezni lehet."
+      },
+      {
+        "q": "Mi van, ha ma senki sem szeretne rejtvényt fejteni?",
+        "a": "Válaszd a \"Ma pihenőnap van\" lehetőséget. Az oldalon ekkor csak egy nyugodt sor jelenik meg, és nincs mit kinyomtatni vagy megcsinálni."
+      },
+      {
+        "q": "Mi van a kinyomtatott lapon?",
+        "a": "Egy oldal a kiválasztott évszakhoz: három rejtvény, mindegyikhez egy rövid sor arról, hogyan kell csinálni, valamint egy sor arról, hogy egyet, kettőt vagy mind a hármat is megoldhatjátok."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Képeslap díszítése együtt",
+    "seoTitle": "Képeslap díszítése együtt: nyomtatható üdvözlőlap",
+    "h1": "Képeslap díszítése együtt: készítsünk valakinek",
+    "description": "Ketten díszítenek egy kinyomtatott üdvözlőlapot születésnapra, köszönetképpen vagy csak úgy, majd együtt írnak üzenetet a hátoldalára. Csak zsírkréta vagy toll kell hozzá. Nincs időmérés és pontszám. Ingyenesen nyomtatható.",
+    "short": "Kinyomtatott üdvözlőlap együttes díszítése.",
+    "players": "2 személy, egymás mellett",
+    "intro": "Nyugodt alkotójáték két személynek, egymás mellett ülve. Kinyomtatotok egy lapot, amelyet félbehajtva lesz a képeslap. Válasszatok alkalmat, például születésnapot vagy köszönetet, és a lap elejét a rajta lévő szavak köré díszítsétek. Majd írjatok üzenetet a hátoldalra, együtt, vagy úgy, hogy az egyikőtök leírja, amit a másik mond. Zsírkrétát, színes ceruzát vagy filctollat használjatok. Nincs helyes képeslap, és semmi sincs időhöz kötve, pontozva vagy elküldve.",
+    "howTo": [
+      "Válasszatok alkalmat, majd koppintson a \"Kártya nyomtatása\" gombra.",
+      "Hajtsátok félbe a lapot a szaggatott vonal mentén, hogy az elülső oldal kívül legyen.",
+      "Az egyikőtök díszíti az elejét, a másikotok a hátoldalt, vagy egy oldalon váltogatva dolgoztok.",
+      "Írjatok együtt üzenetet. Az egyikőtök írhat, miközben a másik mondja a szavakat.",
+      "Bármikor abbahagyhatjátok. Egy egyszerű képeslap ugyanolyan jó, mint egy részletes."
+    ],
+    "tips": [
+      "Kezdjétek az elülső szavakkal, majd egyenként adjatok hozzá leveleket, csillagokat vagy pontokat köréjük.",
+      "Ha valaki inkább nem rajzolna, választhat színeket, vagy írhatja az üzenetet.",
+      "A másik ember jeleiről inkább azt mondjátok el, mi tetszik, mint hogy jók-e.",
+      "Tegyétek olyan helyre a képeslapot, ahonnan később át lehet adni, vagy egyelőre csak tartsátok az asztalon."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vesztés sem. Bármikor abbahagyhatjátok, és a félbehagyás is teljesen jó befejezés."
+      },
+      {
+        "q": "Kell ragasztó, olló vagy matrica?",
+        "a": "Nem. Zsírkréta, színes ceruza vagy filctoll elég. Semmit sem kell vágni, ragasztani vagy rögzíteni."
+      },
+      {
+        "q": "Készíthetünk képeslapot a listán nem szereplő alkalomra is?",
+        "a": "Válasszátok a \"Csak úgy\" lehetőséget, és írjátok a saját szavaitokat az elülső oldalra, vagy egyszerűen díszítsétek a lapot alkalom megnevezése nélkül."
+      },
+      {
+        "q": "Számolnak, értékelnek vagy mentenek valamit a képernyőn?",
+        "a": "Nem. Az oldal csak a képeslapot és a lépéseket mutatja. Semmit sem rangsorolnak, pontoznak vagy mentenek, és nincs helyes képeslap."
+      },
+      {
+        "q": "Mi van a kinyomtatott lapon?",
+        "a": "Egy oldal: félbehajtható képeslap, az elején az alkalom szavaival és egy egyszerű kerettel, a hátoldalon pedig sorok az üzenetnek és egy Feladó sornak. Az alján a két személyre vonatkozó szabályok olvashatók."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Keressük együtt",
+    "seoTitle": "Keressük együtt: két személy keresi a párokat",
+    "h1": "Keressük együtt: két személy, egy csapat",
+    "description": "Ketten egy képernyőt használnak, és felváltva fordítanak fel két képkártyát, hogy párt találjanak. A párokat együtt találják meg, és egy közös számlálón vezetik. Ingyenesen játszható, időmérő és pontszám nélkül.",
+    "short": "Váltogassatok a mellettetek ülővel a képpárok megkeresésében.",
+    "players": "2 személy, egymás mellett",
+    "intro": "A kártyák vagy képpel felfelé kezdődnek, vagy kitehetitek őket képpel lefelé. A soron következő játékos két kártyát fordít fel. Ha párt alkotnak, együtt megtaláltátok, és a sor átmegy. Ha különbözőek, felfordítva maradnak, amíg meg nem nyomjátok a \"Fordítsd vissza\" gombot, hogy mindketten megnézhessétek őket. Bármikor passzolhattok. A tetején lévő számláló csak nőhet: az együtt megtalált párok száma.",
+    "howTo": [
+      "Válasszátok ki, hány kártyát használtok. Hat kártya, azaz három pár, nyugodt kezdésnek jó.",
+      "A képernyő jelzi, kinek a sora van: az első játékos egy körrel, a második egy négyzettel látszik.",
+      "Fordítsatok fel egymás után két kártyát. Ha egyeznek, a párt együtt találtátok meg.",
+      "Ha különbözőek, amikor mindketten készen álltok, nyomjátok meg a \"Fordítsd vissza\" gombot. Ekkor a sor átmegy.",
+      "Bármelyikőtök bármikor megnyomhatja a \"Passz\" gombot. Új kártyákhoz koppintson az \"Újrakezdés\" gombra, a megálláshoz pedig a Pihenő gombra."
+    ],
+    "tips": [
+      "Üljetek egymás mellé, és nevezzétek meg hangosan együtt a képeket: \"Egy teáskanna. Tesz tejet a teájába?\"",
+      "Hagyjátok, hogy az, akit gondoztok, koppintson, akkor is, ha ez eltart egy ideig. Inkább mutasson, mintsem hogy helyette koppintson.",
+      "Válasszátok a \"Kártyák képpel lefelé\" lehetőséget, ha mindketten szeretitek a kártyák felfordítását a képek megkereséséhez.",
+      "Aki hamar elfárad, bármennyiszer passzolhat. A párokat attól még együtt találják meg."
+    ],
+    "faq": [
+      {
+        "q": "Van győztes, időmérő vagy pontszám?",
+        "a": "Nincs. Nincs győztes, mert a párokat csapatként találjátok meg. Nincs óra, pontszám, és nem számolják a tévedéseket sem. A számláló csak az együtt megtalált párokat jelzi, és bármikor abbahagyhatjátok."
+      },
+      {
+        "q": "Meg kell jegyeznünk, hol vannak a képek?",
+        "a": "Nem. A játék úgy indul, hogy minden kép látszik. Ha a kártyák lapjukkal lefelé vannak, egymásnak elmondhatjátok, mit láttatok, vagy egyszerűen visszafordíthatjátok őket."
+      },
+      {
+        "q": "Mi történik, ha két kártya nem egyezik?",
+        "a": "Felfordítva maradnak, így mindketten megnézhetitek őket, ameddig szükségetek van rá. Magától nem fordulnak vissza. Ha készen álltok, nyomjátok meg a „Fordítsd vissza őket” gombot, és a sor a másik személyre kerül."
+      },
+      {
+        "q": "Mentésre vagy küldésre kerül valami abból, amit játszunk?",
+        "a": "Nem. A kártyák csak ezen az oldalon maradnak. Semmi sem mentődik, töltődik fel vagy számolódik, és az oldal bezárásakor minden eltűnik."
+      },
+      {
+        "q": "Elég nagyok a kártyák remegő kézhez vagy kis képernyőhöz?",
+        "a": "Minden kártya legalább 64 pixel széles, és a képernyő méretéhez képest a lehető legnagyobb. A billentyűzetet és képernyőolvasót használók minden kártyát a helye és a rajta lévő kép alapján hallanak."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, a webböngészőben működik."
+      }
+    ]
+  },
   "story-dice": {
     "name": "Történetkocka",
     "seoTitle": "Történetkocka: képes mesélős játék",
@@ -563,10 +759,10 @@
     "name": "Képkirakó",
     "seoTitle": "Könnyű online kirakós: 4 vagy 9 nagy darabból",
     "h1": "Képkirakó: könnyű kirakó",
-    "description": "Könnyű online kirakós felnőtteknek: 4 vagy 9 nagy darab, a teljes kép végig látszik, a darabokat két koppintással cserélheted. Ingyenes, idő nélkül.",
+    "description": "Egyszerű online kirakós felnőtteknek: 4 vagy 9 nagy darab, a teljes kép végig látszik, a két darabra koppintva cserélhetők. Használhattok saját fotót, amely ezen az eszközön marad. Ingyenes, nincs időmérés.",
     "short": "Érintsen meg két darabot a cseréhez, amíg a kép egész nem lesz.",
     "players": "1 vagy 2 ember",
-    "intro": "Egy barátságos képet négy vagy kilenc nagy darabra vágunk, és összekeverünk. A teljes kép végig látszik útmutatóként. Érintsen meg egy darabot, majd egy másikat, és helyet cserélnek. Húzni nem kell.",
+    "intro": "Egy barátságos kép négy vagy kilenc nagy darabra van vágva, és összekeverve kerül elénk. A teljes kép végig látszik, hogy támpont legyen. Koppintsatok egy darabra, majd egy másikra, és felcserélődnek. Húzásra nincs szükség. Használhattok saját fotót is. Az ezen az eszközön marad, soha nem töltődik fel.",
     "howTo": [
       "Válasszon egy képet és 4 vagy 9 darabot. A négy nyugodt kezdés.",
       "Nézze meg a teljes képet fent.",
@@ -740,12 +936,13 @@
     "description": "Változtassa a saját családi fotóit nyugodt párosító játékká. Válasszon 2–6 fotót az eszközén; a böngészőben maradnak, és soha nem kerülnek feltöltésre.",
     "short": "Válassza ki a saját fotóit, és párosítsa őket. Semmi sem kerül feltöltésre.",
     "players": "2 ember, egymás mellett",
-    "intro": "Válasszon két–hat fotót a telefonjáról, táblagépéről vagy számítógépéről, és nagy, látható képekkel párosító játék lesz belőlük. A fotók csak ezen az oldalon jelennek meg. Nem kerülnek feltöltésre, mentésre vagy megosztásra, és az oldal bezárásakor eltűnnek.",
+    "intro": "Válasszatok két-hat családi fotót a telefonjukról, táblagépükről vagy számítógépükről, és azok nagy, jól látható képekkel párosító játékká válnak. A fotók csak ezen az oldalon jelennek meg. Nem töltődnek fel, nem mentődnek és nem oszthatók meg, és az oldal bezárásakor eltűnnek. Ha szeretnétek, írjatok néhány szót minden fotó alá, és egy szünet után finom tipp mutathat egy párra. Ez egy módja annak, hogy együtt nézegessétek a családi fotókat.",
     "howTo": [
-      "Érintse meg a „Fotók kiválasztása” gombot, és válasszon két–hat fotót.",
-      "Minden fotó kétszer jelenik meg. Érintse meg az egyiket, majd a párját.",
-      "Beszéljenek minden fotóról, ahogy megtalálják.",
-      "Ha végeztek, zárja be az oldalt, vagy érintse meg a „Fotók törlése” gombot. Semmi sem marad meg."
+      "Koppintson a „Fotók kiválasztása” gombra, és válasszon két-hat fotót.",
+      "Minden fotó kétszer jelenik meg. Koppintson az egyikre, majd a párjára.",
+      "Ha szeretné, írjon néhány szót minden fotó alá. A feliratok nem mentődnek.",
+      "Beszélgessen mindegyik fotóról, ahogy megtalálják.",
+      "Ha végzett, zárja be az oldalt, vagy koppintson a „Fotók törlése” gombra. Semmi sem marad meg."
     ],
     "tips": [
       "Válasszon éles fotókat vidám, ismerős dolgokról: egy házi kedvencről, egy kertről, egy kedves helyről, egy esküvő napjáról.",
@@ -800,6 +997,265 @@
       {
         "q": "Játszhatnak olvasás nélkül?",
         "a": "Igen. Minden mező egy nagy kép, alatta a neve azoknak, akik szeretik a szavakat."
+      }
+    ]
+  },
+  "picnic-planner": {
+    "name": "Piknik tervező",
+    "seoTitle": "Piknik tervező: képek kiválasztása egy kiránduláshoz",
+    "h1": "Piknik tervező: képek kiválasztása, majd párosítása",
+    "description": "Válasszon étel- és programképeket egy piknikhez, majd játsszon velük egy kíméletes párosító körben. Nincs időmérés. Ingyenesen játszható és nyomtatható.",
+    "short": "Válasszon étel- és kirándulási képeket egy piknikhez, majd párosítsa őket.",
+    "players": "Egyedül, vagy 2 személy egymás mellett",
+    "intro": "Koppintson étel- és programképekre, hogy bekerüljenek a piknikkosárba, amely legfeljebb hat elemet fogad be. Egy szöveges mondat megmutatja, mi van a kosárban, például: „A mi piknikünk: kenyér, sajt, alma és egy papírsárkány.” Ezután koppintson a „Játsszunk a piknikünkkel” gombra, és a kiválasztott képekből egy kíméletes párosító kör indul. A képek végig láthatók maradnak, és nincs időmérés, pontozás vagy mentés. A „Piknik listánk nyomtatása” gomb a kiválasztott dolgok listáját nyomtatja ki, mindegyik mellett egy jelölőnégyzettel a becsomagoláshoz.",
+    "howTo": [
+      "Koppintson egy étel- vagy programkép-re. Az bekerül a kosárba.",
+      "Koppintson a kosárban lévő képre, ha ki szeretné venni.",
+      "Válasszon legalább két dolgot, majd koppintson a „Játsszunk a piknikünkkel” gombra.",
+      "Koppintson két azonos képre. A képek láthatók maradnak, így nincs mit megjegyezni.",
+      "Koppintson a „Piknik listánk nyomtatása” gombra egy papíralapú listáért, amelyet magával vihet."
+    ],
+    "tips": [
+      "Kérdezze meg a társaságát, mit szeretnének hozni, és közösen válasszák ki a képeket.",
+      "Beszéljenek mindegyik képről, ahogy bekerül a kosárba: „Emlékszel arra a sárkányra, amit a strandon eresztettünk?”",
+      "A papíron az üres sorok bármi másra szolgálnak, amit hozni szeretne, vagy egy névre."
+    ],
+    "faq": [
+      {
+        "q": "Van időmérő, pontszám vagy győztes?",
+        "a": "Nincs. Semmi sincs időmérve vagy pontozva, és senki sem nyer. A párosító körben nincsenek hibák és nincsenek pontok."
+      },
+      {
+        "q": "Ez egy étkezési terv?",
+        "a": "Nem. Ez egy képes terv egy kiránduláshoz, amelyről beszélgetni lehet, és papíron is magával lehet vinni. Nem mondja meg, kinek mit kellene ennie."
+      },
+      {
+        "q": "A kiválasztott képeket mentik vagy küldik?",
+        "a": "Nem. A kosár csak ezen az oldalon marad. Nem mentődik, nem töltődik fel és nem küldődik el, és az oldal bezárásakor eltűnik."
+      },
+      {
+        "q": "Van papíron is?",
+        "a": "Igen. A „Piknik listánk nyomtatása” gomb egy oldalt nyomtat A4-es vagy US Letter méretben. Megmutatja a kiválasztott képeket, mindegyik mellett egy jelölőnégyzettel, és üres sorokat bármi más számára."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, a webböngészőben működik."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Emlékkönyv",
+    "seoTitle": "Emlékkönyv: családi fotók együtt lapozgatva, oldalanként",
+    "h1": "Emlékkönyv: fotók és feliratok hozzáadása, majd lapozás",
+    "description": "Válasszon két-tizenkét saját családi fotót az eszközén, és lapozzon végig velük könyvként, minden kép alá néhány szóval. Semmi sem töltődik fel. Ingyenesen nyomtatható.",
+    "short": "Lapozgassa együtt a saját családi fotóit, mint egy könyvet.",
+    "players": "Egyedül, vagy 2 személy egymás mellett",
+    "intro": "Válasszon két és tizenkét közötti saját fényképet ezen az eszközön. Minden fénykép a képeskönyv egy oldalává válik, elég nagyon, hogy jól lehessen látni, alatta pedig opcionálisan néhány szó állhat. Az oldalakat a gombokkal vagy a bal és jobb nyílbillentyűvel lapozhatja, a „Együtt nézzük” gombbal pedig egymás mellett ülve, csak a fényképeket és a szavakat nézhetik. A fényképek ezen az eszközön maradnak. Nem töltődnek fel, nincsenek elmentve, és amikor bezárja az oldalt, a könyv megszűnik. A „Nyomtassa ki a képeskönyvet” gomb minden oldalra egy fényképet és a hozzá tartozó szavakat nyomtatja, oldalszámokkal együtt.",
+    "howTo": [
+      "Koppintson a „Fényképek kiválasztása” gombra, és válasszon két és tizenkét közötti fényképet. Kérdezze meg előbb, ha olyan valaki fényképét szeretné használni, aki nem tud igent mondani.",
+      "Az oldalakat az „Előző oldal” és a „Következő oldal” gombokkal, vagy a bal és jobb nyílbillentyűvel lapozhatja.",
+      "Ha szeretné, írjon néhány szót a fénykép alá. A sorrend megváltoztatásához használja a „Korábbra” vagy a „Későbbre” gombot.",
+      "Koppintson az „Együtt nézzük” gombra, hogy elrejtse a szerkesztő elemeket, és egymás mellett nézhessék a könyvet.",
+      "Papíron készült példányhoz koppintson a „Nyomtassa ki a képeskönyvet” gombra, befejezéskor pedig az „A könyv törlése” gombra. Semmi nem marad meg."
+    ],
+    "tips": [
+      "Vidám, ismerős dolgok fényképeit válassza: egy kertet, egy háziállatot, egy kedvenc helyet. Oldalfordításkor beszéljenek mindegyik képről.",
+      "Hagyja, hogy a személy minden oldalhoz mondjon néhány szót, akár csak egyet is, és pontosan úgy írja le, ahogy mondja.",
+      "Papíron a kinyomtatott oldalakat mappába lehet tenni, a családtagok pedig saját képeket és megjegyzéseket helyezhetnek el köztük."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő, pontszám vagy nyertes?",
+        "a": "Nincs. Semmi nincs időzítve, pontozva vagy számolva, és senki sem nyer. Az oldalszám csak azért van ott, hogy lássa, hol tart a könyvben."
+      },
+      {
+        "q": "Elmentjük, feltöltjük vagy elküldjük a fényképeinket vagy a feliratainkat?",
+        "a": "Nem. A fényképeket csak ez az oldal olvassa be, nem töltődnek fel, nincsenek tárolva és sehova nem küldődnek el. A feliratok csak addig maradnak meg, amíg az oldal nyitva van. Az oldal bezárásakor a könyv megszűnik."
+      },
+      {
+        "q": "Nyomtathatjuk a könyvet?",
+        "a": "Igen. A „Nyomtassa ki a képeskönyvet” gomb minden oldalra egy fényképet és a hozzá tartozó feliratot nyomtatja, oldalszámokkal együtt. A nyomtatási párbeszédpanelben válassza az A4 vagy a US Letter méretet."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Kollázstábla",
+    "seoTitle": "Kollázstábla: két ember felváltva helyez el képeket",
+    "h1": "Kollázstábla: képek elhelyezése egy táblán, felváltva",
+    "description": "Két ember felváltva helyez el kivágott képeket egy közös táblán. Koppintson egy kivágott képre, majd egy üres helyre. Nincs időmérés és pontszám. Ingyenesen játszható és nyomtatható.",
+    "short": "Felváltva helyezzenek el képeket egy közös táblán.",
+    "players": "2 ember, egymás mellett",
+    "intro": "Két ember egymás mellett ül egy tizenkét helyes táblával és egy nyolc kivágott képet tartalmazó tálcával. Koppintson egy kivágott képre, majd egy üres helyre, és a kép oda kerül. Ezután a kör a másik személyre száll. Mindkét személy képei a saját alakjukat viselik, kört vagy négyzetet, így a tábla színre való hagyatkozás nélkül mutatja, ki mit helyezett el. Bármelyik személy passzolhat, és egy lépést vissza lehet vonni. Semmi nincs időzítve, pontozva vagy mentve. A „Nyomtassa ki a táblát” gomb az üres táblát és a kivágandó képeket nyomtatja ki.",
+    "howTo": [
+      "Koppintson a tálcában lévő kivágott képre. Kiválasztás közben a „Kiválasztva” felirat látszik rajta.",
+      "Koppintson a tábla egyik üres helyére. A kivágott kép oda kerül, és a kör átadódik.",
+      "Bármelyik személy bármikor koppinthat a „Passz” gombra, vagy a „A legutóbbi darab visszavétele” gombra, ha egy lépést vissza szeretne vonni.",
+      "Koppintson a „Másik képkészlet” gombra, ha más tálcát szeretne. A táblán már elhelyezett képek ott maradnak, ahol vannak.",
+      "Koppintson az „Újrakezdés” gombra a tábla törléséhez, és a „Visszateszem” gombra, ha meggondolja magát."
+    ],
+    "tips": [
+      "Mondja ki minden kép nevét, ahogy lekerül, például: „a teáskanna a ház mellé kerül”. A beszéd közös tevékenységgé teszi a játékot.",
+      "Hagyja, hogy a két személy felváltva válassza ki a kivágott képet és a helyet is, így mindkettőjüknek lesz szava.",
+      "Papíron a nyolc képet felnőtt segítségével vágják ki, majd a nyomtatott mezőkre helyezik."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő, pontszám vagy nyertes?",
+        "a": "Nincs. Semmi nincs időzítve, pontozva vagy számolva, és senki sem nyer. A teljes tábla egyszerűen olyan, amelyen minden helyen van kép."
+      },
+      {
+        "q": "Elmentjük vagy elküldjük a helyezett képeket?",
+        "a": "Nem. A tábla csak ezen az oldalon marad meg. Nincs elmentve, feltöltve vagy számolva, és az oldal bezárásakor megszűnik."
+      },
+      {
+        "q": "Hogyan tudjuk megkülönböztetni, melyik kép kié?",
+        "a": "Mindkét személynek van egy alakzata. Az első személy képein a sarokban kör van, a második személyén négyzet, és mindkét név a tábla fölött látszik."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. A „Nyomtassa ki a táblát” gomb az üres táblát tizenkét mezőként nyomtatja ki, alatta a nyolc képpel azonos méretben, a vágási vonalakkal együtt. A vágást felnőtt is elvégezheti."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Kerttervező",
+    "seoTitle": "Kerttervező: telek elrendezése növényképekből",
+    "h1": "Kerttervező: képek kiválasztása és egy telek elrendezése",
+    "description": "Válasszon növényekről és kerti dolgokról szóló képeket, majd helyezze el őket egy telek tizenkét ágyásában. Koppintson egy képre, majd egy ágyásra. Nincs időmérés és pontszám. Ingyenesen játszható és nyomtatható.",
+    "short": "Válasszon növényképeket, és rendezzen el egy tizenkét ágyásos telket.",
+    "players": "Egyedül, vagy 2 ember egymás mellett",
+    "intro": "Válassz képeket a növények és kerti eszközök tálcájáról, majd koppints egy ágyásra, hogy oda tedd a képet. Egy telek tizenkét ágyásból áll, és egy ágyásba egy kép kerül. A szöveges összefoglaló megmondja, mi van a tervben, például: \"A terveden 3 napraforgó, 2 rózsa és 1 fa van.\" Semmi nincs időzítve, pontozva vagy mentve, és nincsenek körök. Ez egy képes terv, amelyről beszélgetni lehet, nem ültetési tanács. A \"Terv nyomtatása\" gomb a kiválasztott képekkel nyomtatja ki az ágyásokat, üres ágyásokkal, amelyekbe rajzolni lehet, és jegyzetekhez való sorokkal.",
+    "howTo": [
+      "Koppints egy képre a tálcán. Kiválasztás közben \"Kiválasztva\" felirat látszik rajta.",
+      "Koppints egy ágyásra. A kép oda kerül, és a választás véglegesítődik.",
+      "Ágyás módosításához válassz másik képet, és koppints az ágyásra. Ágyás kiürítéséhez koppints rá úgy, hogy nincs kiválasztott kép.",
+      "A \"Kezdd újra\" gombbal kiürítheted az összes ágyást, a \"Visszaállítás\" gombbal pedig visszavonhatod a módosítást.",
+      "A \"Terv nyomtatása\" gombra koppintva papíron is megkapod a telek képét és az összefoglalót."
+    ],
+    "tips": [
+      "Beszélgessetek minden képről, ahogy kerül a helyére, például: \"a napraforgó a madárház mellé kerül\". A beszélgetés közös tevékenységgé teszi az egészet.",
+      "Hagyd, hogy mindenki felváltva válasszon képet, vagy válasszatok közösen, így mindketten beleszólhattok a telek kialakításába.",
+      "Papíron az üres ágyások a saját ötletek berajzolására valók, a jegyzetsorok pedig mindarra, amit meg szeretnétek jegyezni."
+    ],
+    "faq": [
+      {
+        "q": "Ez ültetési tanács?",
+        "a": "Nem. Ez egy képes terv, amelyről beszélgetni lehet, nem ültetési tanács. Nem mondja meg, hogy mikor, hol vagy hogyan kell bármit elültetni, mert ez attól függ, hol élsz."
+      },
+      {
+        "q": "Van időzítő, pontszám vagy győztes?",
+        "a": "Nincs. Semmi nincs időzítve, pontozva, értékelve vagy számolva, és senki sem nyer. A teli telek sem kap külön üzenetet."
+      },
+      {
+        "q": "A kiválasztott képek mentésre vagy elküldésre kerülnek?",
+        "a": "Nem. A terv csak ezen az oldalon marad meg. Nem mentjük, nem töltjük fel és nem számoljuk, és az oldal bezárásakor eltűnik."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. A \"Terv nyomtatása\" gomb egy oldalt nyomtat A4-es vagy US Letter méretben. Megmutatja a tizenkét ágyást a kiválasztott képekkel, a szöveges összefoglalót, és üres sorokat a jegyzetekhez."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Működik a webböngészőben telefonon, táblagépen és számítógépen is."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Csoportos színezőfal",
+    "seoTitle": "Csoportos színezőfal: egy kép sok kéznek",
+    "h1": "Csoportos színezőfal: egy nagy kép, közösen színezve",
+    "description": "Nyomtass ki egy nagy képet több lapon, hogy egy család, egy osztály vagy egy idősotthon közösen színezhessen ki egy falat. Ingyenesen nyomtatható. Nincs időzítő vagy pontszám.",
+    "short": "Nyomtass ki egy nagy képet több lapon, hogy sokan színezhessék.",
+    "players": "Csoport, asztalnál vagy falon",
+    "intro": "Válassz egy képet a színezőlapok közül, és egy 4, 6 vagy 9 lapos falat. Nyomtasd ki a falat: az első lap megmutatja, hogyan kell összeállítani, a többi lap pedig ugyanannak a nagy képnek egy-egy része, a sarkában olyan felirattal, mint az A1. Mindenki egy vagy több lapot színez ki, bármilyen színekkel és stílusban. A lapokat ezután a feliratuk alapján rendezed el, és a hátoldalukon ragasztószalaggal illeszted össze. Semmi nincs időzítve, pontozva vagy mentve.",
+    "howTo": [
+      "Válassz egy képet, majd válaszd ki, hány lapos legyen a fal.",
+      "Olvasd el a képernyőn látható térképet, amely megmutatja, melyik felirat hova kerül.",
+      "Koppints a \"Fal nyomtatása\" gombra, és nyomtasd ki az összes lapot.",
+      "Adj mindenkinek egy vagy több lapot, amelyet kiszínezhet. A színeknek és a stílusnak nem kell egyeznie.",
+      "Rendezd el a lapokat a feliratuk alapján, és a hátoldalukon ragasztószalaggal illeszd össze őket."
+    ],
+    "tips": [
+      "Azoknak, akik csendesebb feladatot szeretnének, a legegyszerűbb körvonalú lapokat add, a sűrűbbeket pedig azoknak, akik szeretik azokat.",
+      "Akaszd a falat oda, ahol mindenki láthatja, és beszélgessetek közösen a részletekről.",
+      "Kisebb asztalhoz kisebb falat, nagyobb szobához nagyobbat válassz."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő, pontszám vagy győztes?",
+        "a": "Nincs. Semmi nincs időzítve, pontozva vagy számolva, és senki sem nyer. A fal egyszerűen egy kép, amelyet sokan színeztek ki."
+      },
+      {
+        "q": "A lapok mentésre vagy valahová elküldésre kerülnek?",
+        "a": "Nem. A fal csak ezen az oldalon készül. Nem mentjük, nem töltjük fel és nem számoljuk, és az oldal bezárásakor eltűnik."
+      },
+      {
+        "q": "A színeknek egyezniük kell?",
+        "a": "Nem. Mindenki bármilyen színt és stílust használhat. A lapok így is egyetlen képpé állnak össze."
+      },
+      {
+        "q": "Van papíros változat is?",
+        "a": "Igen. A kinyomtatott fal maga a teljes játék: egy első lap a lépésekkel és egy térképpel, valamint egy-egy lap a kép minden részéhez."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Működik a webböngészőben telefonon, táblagépen és számítógépen is."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Csendes formák kirakója",
+    "seoTitle": "Csendes formák kirakója: formák illesztése egy képbe",
+    "h1": "Csendes formák kirakója: a darabok illesztése a képbe",
+    "description": "Illessz egyszerű formákat egy ház, egy csónak, egy hal és más képek körvonalába. Koppints egy darabra, majd egy azonos alakú helyre. Nincs időzítő vagy pontszám. Ingyenesen játszható és nyomtatható.",
+    "short": "Illessz egyszerű formákat egy képbe a saját tempódban.",
+    "players": "1 személy, asztalnál",
+    "intro": "Egy képvonal, például egy ház, egy csónak vagy egy rakéta, részekre van osztva. Minden résznek van egy azonos alakú darabja: nagy vagy kis háromszög, négyzet, paralelogramma vagy téglalap. Koppintson egy darabra, majd egy azonos alakú résre, és a darab beleillik. A rést a darab elforgatja Ön helyett, így nincs mit húzni vagy forgatni. Ha a darab alakja eltér a résétől, rövid megjegyzéssel a tálcában marad. Semmi nincs időzítve vagy pontozva, és semmi nem mentődik el vagy küldődik el. A „Alakzat nyomtatása” gomb a vonalrajzot és a darabjait egy oldalra nyomtatja, hogy kiszínezhessék vagy kivághassák.",
+    "howTo": [
+      "Koppintson a tálcában egy darabra. Kiválasztás közben „Kiválasztva” felirat látszik rajta.",
+      "Koppintson a kép egyik résére. Ha az alak egyezik, a darab oda illeszkedik.",
+      "Ha nem egyezik, próbáljon egy másik rést. Próbálkozással semmi sem vész el.",
+      "Koppintson a kép egy darabjára, hogy visszavigye a tálcába, vagy a „Újrakezdés” gombbal mindet visszateheti a tálcába.",
+      "Ha minden résben ott van a darab, a kép kész. Koppintson az „Másik alakzat” gombra új képért, vagy a Pihenés gombra a befejezéshez."
+    ],
+    "tips": [
+      "Kapcsolja be a segédvonalakat, hogy lássa az egyes réseket. Kikapcsolva nehezebb a feladat, mert csak a körvonal ad támpontot.",
+      "Kezdje a nagy alakzatokkal, például a nagy háromszögekkel és a téglalapokkal. A kis darabok általában a végére maradnak.",
+      "Mondja ki hangosan az alakzatokat munka közben: „egy háromszög, egy négyzet, egy hosszú téglalap”. A beszélgetés közös tevékenységgé teheti a játékot.",
+      "Papíron két-három színnel színezhetik ki a darabokat, vagy kivághatják őket felnőtt segítségével."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő, pontszám vagy lépésszámláló?",
+        "a": "Nincs. Semmi nincs időzítve, számolva vagy pontozva. Ha egy darab nem illik, egyszerűen nem kerül a helyére, és bármikor abbahagyhatja."
+      },
+      {
+        "q": "Mentődik vagy küldődik el valami abból, amit készítünk?",
+        "a": "Nem. A kép csak ezen az oldalon marad meg. Nem mentődik, nem töltődik fel és nem számolódik, és a lap bezárásakor eltűnik."
+      },
+      {
+        "q": "Elég nagyok a helyek remegő kézzel vagy kis képernyőn való használathoz?",
+        "a": "A körvonal a képernyő méretéhez igazodva a lehető legnagyobbra készül, minden rés pedig olyan gomb, amelyet ujjal vagy a Tab billentyűvel is elérhet. A tálcában lévő darabok az oldal nagy gombjai."
+      },
+      {
+        "q": "Van papíros változata is?",
+        "a": "Igen. Az „Alakzat nyomtatása” gomb egy képet nyomtat egy oldalra: a körvonalat a segédvonalakkal, mellette pedig az azonos méretű darabokat. Színezheti a darabokat, vagy kivághatja őket, hogy illeszkedjenek. A vágást felnőtt is elvégezheti."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
       }
     ]
   },
@@ -873,6 +1329,92 @@
       {
         "q": "Ingyenes, és kell regisztrálni?",
         "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, tableten vagy számítógépen, a webböngészőben működik."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Csendes kép",
+    "seoTitle": "Csendes kép: egyszerre egy kép",
+    "h1": "Csendes kép: egyszerre egy mozdulatlan kép",
+    "description": "Egyszerre egy nagy, mozdulatlan kép, mindegyik alatt egy rövid, kedves sorral. Akkor nyomja a Következő vagy az Előző gombot, amikor készen áll. Semmi nem mozog és nem szól magától, és nincs időzítő vagy pontszám. Ingyenesen használható, fiók nélkül.",
+    "short": "Egyszerre egy mozdulatlan képet nézhet, a saját tempójában.",
+    "players": "Egyedül, vagy csoportban, ugyanabban a szobában",
+    "intro": "Egy nagy kép tölti ki a képernyőt, alatta egy rövid sorral. Nyomja meg a „Következő kép” vagy az „Előző kép” gombot, amikor készen áll egy újabbra. Semmi nem mozog, nem halványul el és nem változik magától, és semmi nincs időzítve. A „Nagyobb kép” gombbal csak a kép marad a képernyőn, így a szoba minden tagja láthatja a televízión.",
+    "howTo": [
+      "Nézzék meg együtt a képet.",
+      "Ha szeretné, olvassa fel hangosan az alatta lévő sort.",
+      "Nyomja meg a „Következő kép” vagy az „Előző kép” gombot, amikor készen áll.",
+      "A „Nagyobb kép” gombbal csak a kép látszik, a „Minden megjelenítése” gombbal pedig visszajön a többi elem.",
+      "Bármikor abbahagyhatja a „Most elég” gombbal."
+    ],
+    "tips": [
+      "Hagyja, hogy a személy döntse el, mikor lép tovább: várja meg, amíg ránéz a képre, és csak utána nyomja a Következő gombot.",
+      "Csoportnak használja a „Nagyobb kép” funkciót televízión vagy nagy képernyőn, és üljenek úgy, hogy mindenki lássa.",
+      "Nincs helyes módja a kép nézésének. Már az is teljes tevékenység, ha együtt beszélgetnek róla."
+    ],
+    "faq": [
+      {
+        "q": "Van időzítő vagy pontszám?",
+        "a": "Nincs. Nincs óra, pontszám, lépésszámláló és vesztés sem. Bármikor abbahagyhatja, és a félbehagyás is teljesen rendben van."
+      },
+      {
+        "q": "Játszik hangot, vagy mozog valami?",
+        "a": "Nem. Nincs hang, és semmi nem mozog, nem halványodik el és nem változik magától. A kép csak akkor változik, ha megnyom egy gombot."
+      },
+      {
+        "q": "Van papíros változata?",
+        "a": "Nincs. Ez egy kép, amelyet képernyőn együtt lehet nézni. Ugyanezt a célt szolgálja egy kedvenc fénykép vagy képeslap az asztalon."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálni?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen vagy számítógépen, webböngészőben működik."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Színes lavírozás",
+    "seoTitle": "Színes lavírozás: lágy szín egy egész oldalon",
+    "h1": "Színes lavírozás: lágy színek festése egy oldalon át",
+    "description": "Egy puha ecset széles, áttetsző színfoltokat fest egy oldalra négy színben és két ecsetmérettel. Nincs befejezési pont, pontszám és időzítő. Ingyenesen használható, fiók nélkül.",
+    "short": "Lágy színes lavírozást festhet egy oldalra, a saját tempójában.",
+    "players": "Egyedül, vagy 2 ember egymás mellett",
+    "intro": "Egy oldal és egy puha ecset. Válassz színt és ecsetméretet, majd húzd az ujjadat vagy az egeret az oldalon, hogy színes lavírozást készíts. Az oldalnak nincs vége: nincs befejezendő feladat, nincs elérendő kép és nincs pontszám. Annyi lavírozást készíthetsz, amennyit szeretnél, vagy leteheted az ecsetet, és egyszerűen nézegetheted. Az „Új oldal” gomb mindent letöröl, a „Visszaállítás” pedig visszahozza a lavírozásokat.",
+    "howTo": [
+      "Válassz egy színt. Minden színnek van írott neve.",
+      "Válaszd a „Széles” vagy a „Nagyon széles” méretet. A „Nagyon széles” minden húzással több részt fest be az oldalból.",
+      "Húzd az ujjaddal, az egérrel vagy a tollal az oldalon, hogy lavírozást készíts.",
+      "Vagy használd a nyílbillentyűket az ecsetgyűrű mozgatásához, a Space billentyűt pedig az ecset letételéhez vagy felemeléséhez.",
+      "Koppints az „Új oldal” gombra az oldal kitisztításához, majd a „Visszaállítás” gombra, ha vissza szeretnéd kapni a lavírozásokat."
+    ],
+    "tips": [
+      "Hagyd, hogy a másik személy válassza ki a következő lavírozás színét, és beszélgessetek a színekről, miközben felviszitek őket.",
+      "A „Nagyon széles” méretet könnyebb irányítani remegő kézzel, mert az ecsetnek nem kell pontosnak lennie.",
+      "Nincs helyes módja a festésnek. Bármikor abbahagyhatod, vagy koppinthatsz a „Most elég” gombra."
+    ],
+    "faq": [
+      {
+        "q": "Van befejezés, pontszám vagy időzítő?",
+        "a": "Nincs. Az oldalnak nincs vége. Semmi sincs befejezve, megszámolva, időzítve vagy pontozva, és egyetlen üzenet sem kéri, hogy tegyél többet."
+      },
+      {
+        "q": "Az oldal mentésre vagy elküldésre kerül?",
+        "a": "Nem. Semmit sem mentünk, nyomtatunk ki vagy küldünk el sehova. A lavírozások addig maradnak az oldalon, amíg el nem hagyod."
+      },
+      {
+        "q": "Használhatom egér vagy érintőképernyő nélkül?",
+        "a": "Igen. Ha az oldal van fókuszban, a nyílbillentyűk mozgatják az ecsetgyűrűt, a Space billentyű pedig letesz vagy felemel az ecsetet. A képernyőn minden alkalommal megjelenik a „Ecset le” vagy az „Ecset fel” felirat."
+      },
+      {
+        "q": "Van papíralapú változata?",
+        "a": "Nincs. A papírra festett akvarell ugyanez az ötlet: nedves ecset és egyszerre egy szín, így az asztalnál más tevékenységként érdemes kipróbálni."
+      },
+      {
+        "q": "Milyen színek vannak?",
+        "a": "Sárga, narancs, zöld és lila, ugyanaz a négy szín, amelyet a többi képes játékunkban is használunk. Mindegyiknek van írott neve, és a név megjelenik a választás mellett."
+      },
+      {
+        "q": "Ingyenes, és kell regisztrálnom?",
+        "a": "Igen, ingyenes, és nincs szükség fiókra, regisztrációra vagy letöltésre. Telefonon, táblagépen és számítógépen is működik a webböngészőben."
       }
     ]
   }

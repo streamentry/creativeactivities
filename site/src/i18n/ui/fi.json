@@ -33,7 +33,17 @@
       "label": "Tekstin koko",
       "smaller": "Normaali teksti",
       "larger": "Suurempi teksti",
-      "contrast": "Suurempi kontrasti"
+      "contrast": "Suurempi kontrasti",
+      "colors": "Värit",
+      "light": "Vaalea",
+      "dark": "Tumma",
+      "device": "Sama kuin tässä laitteessa",
+      "lineLength": "Rivin pituus",
+      "standardLines": "Tavallinen",
+      "shorterLines": "Lyhyemmät rivit",
+      "spacing": "Väli",
+      "standardSpacing": "Tavallinen",
+      "moreSpace": "Enemmän väliä"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "{name}: pelaa →",
     "readGuide": "Lukekaa opas"
   },
+  "listen": {
+    "listenSteps": "Kuuntele vaiheet",
+    "pause": "Tauko",
+    "resume": "Jatka",
+    "stop": "Pysäytä",
+    "speed": "Nopeus",
+    "normal": "Normaali",
+    "slower": "Hitaammin",
+    "reading": "Vaiheita luetaan ääneen.",
+    "paused": "Tauko. Jatka painamalla Jatka-painiketta.",
+    "note": "Käyttää laitteesi omaa ääntä. Joissakin laitteissa teksti lähetetään laitteen valmistajalle, jotta se voidaan lukea ääneen.",
+    "listen": "Kuuntele",
+    "stepLabel": "Kuuntele vaihe {n}",
+    "stopStep": "Pysäytä vaihe {n}"
+  },
   "playCta": {
     "title": "Valmiina rauhalliseen peliin?",
     "text": "Isoja kuvia, ei ajastinta, ei pisteitä eikä rekisteröitymistä. Pelatkaa yhdessä selaimessa.",
@@ -393,6 +418,14 @@
       "seoTitle": "Tietoa Creative Activitiesista: lähestymistapamme",
       "description": "Miksi Creative Activitiesissa ei ole ajastimia, pisteitä tai peräkkäisiä onnistumisia, miksi kuvat pysyvät näkyvissä ja mitä emme väitä terveydestä.",
       "crumb": "Lähestymistapamme",
+      "sponsors": {
+        "heading": "Sponsorit ja kumppanit",
+        "none": "Creative Activities -sivustolla ei ole sponsoreita, maksettuja sijoituksia eikä kumppaneita, joiden logot näkyvät sivustolla.",
+        "listed": "Nämä ovat Creative Activities -sivuston sponsorit ja kumppanit. Jokainen suhde on myös ilmoitettu sivulla, jolla se näkyy.",
+        "policy": "Jos tämä muuttuu, jokaisella sellaisella sivulla kerrotaan siitä siellä, missä se näkyy. Mihinkään toimintaan ei koskaan liity sponsoria, ja kumppanilista on tällä sivulla.",
+        "listHeading": "Kumppanilista",
+        "noPartners": "Tällä hetkellä ei ole kumppaneita."
+      },
       "lede": "Creative Activities tarjoaa rauhallisia aikuisille sopivia toimintoja, joista kaksi ihmistä voi nauttia rinnakkain, olipa toinen toisensa hoitaja tai he yksinkertaisesti haluavat viettää aikaa yhdessä.",
       "bodyHtml": "<h2>Kenelle se on tarkoitettu</h2><p>Kenelle tahansa, joka hoitaa toista: vanhemmalle, isovanhemmalle, lapselle, puolisolle, ystävälle tai dementiaa sairastavalle ihmiselle. Perheet, ikääntyneet ja toimintaohjaajat voivat kaikki käyttää samoja sivuja.</p><h2>Mitä uskomme</h2><p>Toiminnan tarkoitus on hetki itsessään: keskustelu, hymy, tyydytys siitä, kun kaksi kuvaa sovitetaan yhteen, tai yksinkertaisesti istuminen lähekkäin. Sen ei ole tarkoitus mitata ketään, vaatia heiltä enempää tai todistaa mitään.</p><p>Monet aivoharjoitussovellukset on suunniteltu nopeuden, pisteiden, peräkkäisten onnistumisten ja tasojen ympärille. Väsyneelle, sairaalle tai dementiaa sairastavalle ihmiselle se voi tuntua kokeelta, jossa ei voi menestyä. Me olemme suunnitelleet päinvastaisesti ja sitoudumme näihin sääntöihin:</p><ul><li><strong>Ei mitään, mitä voi epäonnistua.</strong> Ei kelloa, pisteitä, siirtolaskuria, elämiä, peräkkäisiä onnistumisia, konfettia tai laskureita, millään näytöllä.</li><li><strong>Tunnistaminen ennen muistamista.</strong> Kuvat pysyvät oletuksena näkyvissä. Kehotteet kutsuvat keskusteluun eivätkä koskaan kysele nimiä tai muistoja.</li><li><strong>Suuri, selkeä ja vakaa.</strong> Suuri teksti ja kuvat, suuri kontrasti sekä painikkeet, jotka pysyvät samalla paikalla.</li><li><strong>Aikuisen arvokkuus.</strong> Todellisen maailman kuvia ja selkeitä, lämpimiä sanoja. Ei piirrettyjä, lapsellista kehua tai emojipalkintoja.</li><li><strong>Helppo tapa lopettaa.</strong> ”Lopetetaan toistaiseksi” on aina näkyvissä. Kesken jättäminen on hyvä lopputulos.</li><li><strong>Oletuksena yksityistä.</strong> Ei tilejä eikä mainoksia. Valitsemasi kuvat pysyvät laitteellasi.</li></ul><h2>Mitä emme väitä</h2><p>Pelimme ja toimintamme on tarkoitettu nautintoon ja yhteyteen. Ne eivät diagnosoi, testaa, mittaa, hoida, hidasta tai ehkäise dementiaa tai Alzheimerin tautia, eikä kenenkään pidä valita niitä sillä perusteella. Kun kirjoitamme terveystutkimuksesta, sanomme selvästi, missä näyttö on heikkoa, emmekä koskaan yhdistä sitä omiin toimintoihimme.</p><h2>Keitä me olemme</h2><p>Creative Activities on pieni itsenäinen tiimi. Emme ole kliinikoita. Oppaamme perustuvat julkaistuihin ohjeisiin, joita antavat organisaatiot, kuten National Institute on Aging ja Alzheimer’s Association, ja jokainen opas luettelee lähteensä. Lue <a href=\"/editorial-policy/\">miten kirjoitamme ja tarkistamme sivumme</a>.</p><h2>Kerro meille, mikä auttaisi</h2><p>Haluaisimme kuulla, mikä teillä toimii ja mikä ei, erityisesti dementiaa sairastavilta ihmisiltä, omaishoitajilta ja toimintaohjaajilta. Lähetä sähköpostia osoitteeseen <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Paperiversiota ei ole. Tämä peli käyttää omia valokuviasi, jotka pysyvät selaimessasi eikä niitä koskaan ladata palveluun, joten sivusto ei voi tulostaa niitä. Jos haluat pelata paperilla, tulosta kotona kaksi kappaletta muutamasta suosikkivalokuvasta ja etsi niistä parit pöydän ääressä.",
         "paced": "Paperiversiota ei ole. Ympyrä asettaa ruudulla hitaan, tasaisen tahdin, eikä tulostettu sivu voi tehdä samaa, joten se olisi eri toiminta. Hiljainen yhteinen tauko ilman ruutua on aina vaihtoehto.",
+        "turns": "Tästä pelistä ei ole paperiversiota. Jos haluat etsiä pareja pöydältä, tulosta kuvakortit sivulta Kuvaparit ja kääntäkää kortit vuorotellen.",
+        "screen": "Paperiversiota ei ole. Tämä on kuva, jota katsotaan yhdessä ruudulta. Lempivalokuva tai postikortti pöydällä tekee saman asian.",
+        "wash": "Paperiversiota ei ole. Vesiväri paperille on samaa ideaa: märkä siveltimen kärki ja yksi väri kerrallaan.",
         "sayings": "Paperiversiota ei ole vielä. Paperilla kaikki lopetukset näkyisivät heti, ja rauhallinen \"Näytä lopetus\" -vaihe jäisi pois. Lukekaa sanonnat yhdessä ruudulta tai kertokaa muutama, jonka te molemmat tunnette."
       }
     }

@@ -33,7 +33,17 @@
       "label": "Teks grootte",
       "smaller": "Standaard teks",
       "larger": "Groter teks",
-      "contrast": "Hoër kontras"
+      "contrast": "Hoër kontras",
+      "colors": "Kleure",
+      "light": "Lig",
+      "dark": "Donker",
+      "device": "Soos hierdie toestel",
+      "lineLength": "Lengte van reëls",
+      "standardLines": "Standaard",
+      "shorterLines": "Korter reëls",
+      "spacing": "Spasiëring",
+      "standardSpacing": "Standaard",
+      "moreSpace": "Meer spasie"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Speel {name} →",
     "readGuide": "Lees die gids"
   },
+  "listen": {
+    "listenSteps": "Luister na die stappe",
+    "pause": "Pouse",
+    "resume": "Hervat",
+    "stop": "Stop",
+    "speed": "Spoed",
+    "normal": "Normaal",
+    "slower": "Stadiger",
+    "reading": "Die stappe word hardop voorgelees.",
+    "paused": "Gepouseer. Druk Hervat om voort te gaan.",
+    "note": "Gebruik jou toestel se eie stem. Sommige toestelle stuur die teks na hul maker om dit voor te lees.",
+    "listen": "Luister",
+    "stepLabel": "Luister na stap {n}",
+    "stopStep": "Stop stap {n}"
+  },
   "playCta": {
     "title": "Gereed vir 'n sagte speletjie?",
     "text": "Groot foto's, geen timer, geen telling en niks om voor in te teken nie. Speel saam in jou blaaier.",
@@ -393,6 +418,14 @@
       "seoTitle": "Oor Goue Oomblikke: Ons Benadering",
       "description": "Waarom Creative Activities geen timers, tellings of reekse het nie, waarom foto's sigbaar bly, en wat ons wel en nie sal beweer oor gesondheid nie.",
       "crumb": "Ons benadering",
+      "sponsors": {
+        "heading": "Borge en vennote",
+        "none": "Creative Activities het geen borge nie, geen betaalde plasings nie en geen vennote wie se logo's op die webwerf verskyn nie.",
+        "listed": "Dit is die borge en vennote van Creative Activities. Elke verhouding word ook bekendgemaak op die bladsy waar dit verskyn.",
+        "policy": "As dit verander, sal elke sodanige bladsy dit op die plek waar dit verskyn, sê; geen aktiwiteit sal ooit 'n borg dra nie, en die lys van vennote sal op hierdie bladsy wees.",
+        "listHeading": "Lys van vennote",
+        "noPartners": "Daar is op die oomblik geen vennote nie."
+      },
       "lede": "Creative Activities maak rustige, volwasse aktiwiteite wat twee mense saam kan geniet, of een iemand na die ander omsien of hulle eenvoudig tyd saam wil deurbring.",
       "bodyHtml": "<h2>Vir wie dit bedoel is</h2><p>Enigiemand wat na iemand omsien: 'n ouer, 'n grootouer, 'n kind, 'n lewensmaat, 'n vriend, of 'n persoon wat met demensie leef. Gesinne, ouer volwassenes en aktiwiteitspersoneel kan almal dieselfde bladsye gebruik.</p><h2>Wat ons glo</h2><p>Die doel van 'n aktiwiteit is die oomblik self: 'n gesprek, 'n glimlag, die voldoening om twee foto's saam te pas, of eenvoudig om naby mekaar te sit. Dit is nie om iemand te meet, verder te druk of iets te bewys nie.</p><p>Baie breinopleidingsprogramme is ontwerp rondom spoed, tellings, reekse en vlakke. Vir iemand wat moeg of siek is, of met demensie leef, kan dit voel soos 'n eksamen wat hulle nie kan slaag nie. Ons het die teenoorgestelde ontwerp, en ons hou onsself aan hierdie reëls:</p><ul><li><strong>Niks om te misluk nie.</strong> Geen klok, telling, skuifteller, lewens, reekse, konfetti of aftellers nie, op enige skerm.</li><li><strong>Herkenning eerder as herroeping.</strong> Foto's bly standaard sigbaar. Aansporings nooi uit tot gesprek en toets nooit name of herinneringe nie.</li><li><strong>Groot, eenvoudig en stabiel.</strong> Groot teks en foto's, hoë kontras, en kontroles wat op dieselfde plek bly.</li><li><strong>Volwasse waardigheid.</strong> Foto's uit die werklike lewe en eenvoudige, warm woorde. Geen tekenfilmfigure, singerige lof of emoji-belonings nie.</li><li><strong>'n Maklike uitweg.</strong> “Klaar vir nou” is altyd sigbaar. Halfpad ophou is 'n goeie uitkoms.</li><li><strong>Privaat by verstek.</strong> Geen rekeninge of advertensies nie. Foto's wat jy kies, bly op jou toestel.</li></ul><h2>Wat ons nie beweer nie</h2><p>Ons speletjies en aktiwiteite is vir plesier en verbinding. Hulle diagnoseer, toets, meet, behandel, vertraag of voorkom nie demensie of Alzheimer se siekte nie, en niemand moet hulle om daardie rede kies nie. Wanneer ons oor gesondheidsnavorsing skryf, sê ons duidelik waar die bewyse swak is, en ons koppel dit nooit aan ons eie aktiwiteite nie.</p><h2>Wie ons is</h2><p>Creative Activities is 'n klein onafhanklike span. Ons is nie klinici nie. Ons gidse is geskryf uit gepubliseerde riglyne van organisasies soos die National Institute on Aging en die Alzheimer's Association, en elke gids lys sy bronne. Lees <a href=\"/editorial-policy/\">hoe ons ons bladsye skryf en nagaan</a>.</p><h2>Vertel ons wat sou help</h2><p>Ons sal graag hoor wat vir jou werk en wat nie, veral van mense wat met demensie leef, familiesorgers en aktiwiteitspersoneel. E-pos <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Daar is geen papierweergawe nie. Hierdie speletjie gebruik jou eie foto's, wat in jou blaaier bly en nooit opgelaai word nie, so die webwerf kan dit nie druk nie. Om op papier te speel, druk twee afskrifte van 'n paar gunsteling-foto's by die huis en pas hulle op die tafel.",
         "paced": "Daar is geen papierweergawe nie. Die sirkel bepaal 'n stadige, bestendige tempo op die skerm, en 'n gedrukte bladsy kan dit nie doen nie, so dit sou 'n ander aktiwiteit wees. 'n Stil onderbreking saam sonder 'n skerm is altyd 'n opsie.",
+        "turns": "Hierdie spel bestaan nie as papierweergawe nie. Om pare op die tafel te vind, druk die prentkaartjies uit Prentpare en wissel beurte af om hulle om te draai.",
+        "screen": "Daar is geen papierweergawe nie. Dit is 'n prent om saam op 'n skerm te kyk; 'n gunsteling-foto of poskaart op die tafel doen dieselfde.",
+        "wash": "Daar is geen papierweergawe nie. Waterverf op papier is dieselfde idee: 'n nat kwas en een kleur op 'n slag.",
         "sayings": "Daar is nog geen papierweergawe nie. Op papier sou elke slot dadelik wys, en die sagte stap \"Wys die slot\" sou verlore gaan. Lees die spreekwoorde saam van die skerm af, of deel 'n paar wat julle albei ken."
       }
     }

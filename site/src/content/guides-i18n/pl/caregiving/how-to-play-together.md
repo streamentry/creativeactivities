@@ -1,35 +1,35 @@
 ---
-title: "Jak grać w gry z osobą z demencją"
-description: "Praktyczny poradnik o grach z osobą z demencją: przygotowanie, tempo, rezygnacja z poprawiania, ułatwianie gier i to, jak poznać, kiedy skończyć."
+title: "Jak grać w gry z osobą żyjącą z demencją"
+description: "Praktyczny poradnik gier z osobą żyjącą z demencją: przygotowanie, tempo, unikanie poprawiania, ułatwianie gier i wiedza, kiedy przestać."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
   Traktuj grę jako wspólny czas, a nie test. Wybierz spokojną porę dnia,
-  usiądźcie obok siebie w cichym pokoju i zaproponuj jedną prostą grę. Niech
-  bliska osoba nadaje tempo; nigdy nie poprawiaj niegroźnych pomyłek, ułatw grę
-  przy pierwszych oznakach napięcia i zamieniaj obrazki w rozmowę. Kończcie,
-  póki jest jeszcze dobrze. Wcześniejsze zakończenie albo samo wspólne
-  przyglądanie się to dobry efekt.
+  usiądźcie obok siebie w cichym pokoju i zaproponuj jedną prostą grę. Pozwól
+  osobie ustalać tempo, nie poprawiaj niegroźnych pomyłek, przy pierwszych
+  oznakach napięcia uprość grę i zamieniaj obrazki w rozmowę. Kończ, zanim
+  zabawa przestanie być przyjemna. Wcześniejsze zakończenie albo po prostu
+  wspólne oglądanie to dobry wynik.
 keyPoints:
-  - "Celem jest przyjemność i bliskość, a nie dokończenie gry czy dobre odpowiedzi."
-  - "Najpierw przygotuj: cichy pokój, dobre światło, okulary i aparaty słuchowe założone, telewizor wyłączony, jedna gra gotowa."
-  - "Nie poprawiaj niegroźnych pomyłek. Powiedz „Spróbujmy tak” albo po prostu grajcie dalej."
-  - "Ułatw grę, zanim narośnie frustracja: mniej obrazków, mniej wyborów, obrazki zostawione na widoku."
-  - "Traktuj obrazki jako punkt wyjścia do opowieści i mów „Opowiedz mi o…” zamiast „Pamiętasz…?”."
-  - "Kończcie przy pierwszych oznakach zmęczenia lub zdenerwowania. Wcześniejsze zakończenie to sukces, a nie porażka."
+  - "Celem jest przyjemność i bliskość, a nie ukończenie gry ani udzielenie właściwych odpowiedzi."
+  - "Najpierw przygotowanie: cicha sala, dobre światło, okulary i aparaty słuchowe na miejscu, wyłączony telewizor, jedna gotowa gra."
+  - "Nie poprawiaj niegroźnych pomyłek. Powiedz „Spróbujmy inaczej” albo po prostu grajcie dalej."
+  - "Uprość grę, zanim narośnie frustracja: mniej obrazków, mniej wyborów, obrazki zostają widoczne."
+  - "Używaj obrazków jako punktu wyjścia do opowieści, pytając „Opowiedz mi o...”, a nie „Czy pamiętasz...?”."
+  - "Przerwij przy pierwszych oznakach zmęczenia lub zdenerwowania. Wczesne zakończenie to sukces, a nie porażka."
 faq:
-  - q: "Jak długo powinna trwać gra?"
-    a: "Nie ma jednej właściwej długości. Dla wielu osób kilka minut w zupełności wystarczy, a w niektóre dni wystarczy jedna runda. Patrz na bliską osobę, a nie na zegar, i kończcie, póki wydaje się jeszcze odprężona."
-  - q: "Czy pozwalać jej wygrywać albo udawać, że nie widzę pomyłek?"
-    a: "We wspólnej grze bez presji nie ma czego wygrywać ani przegrywać. Jeśli pomyłka nie przeszkadza bliskiej osobie, odpuść. Jeśli wydaje się jej przeszkadzać, pomóż po cichu albo ułatw grę, nie zwracając na to uwagi."
-  - q: "Co zrobić, jeśli bliska osoba woli patrzeć, jak gram?"
-    a: "To w porządku. National Institute on Aging radzi pozwolić osobie po prostu się przyglądać, jeśli wydaje się, że bardziej jej to odpowiada. Mów o tym, co widzisz, i zachęcaj ją, by wskazała albo wybrała coś, kiedy tylko zechce."
+  - q: "Jak długo powinniśmy grać w jedną grę?"
+    a: "Nie ma właściwej długości. Dla wielu osób wystarczy kilka minut, a w niektóre dni wystarczy jedna runda. Obserwuj osobę, a nie zegar, i kończ, gdy nadal wygląda na zrelaksowaną."
+  - q: "Czy mam pozwalać wygrywać i udawać, że nie widzę pomyłek?"
+    a: "We wspólnej, niskociśnieniowej grze nie ma czego wygrywać ani przegrywać. Jeśli pomyłka nie przeszkadza osobie, odpuść. Jeśli wydaje się ją martwić, po cichu pomóż albo uprość grę, nie wskazując błędu."
+  - q: "Co, jeśli wolałaby patrzeć, jak gram?"
+    a: "To także w porządku. National Institute on Aging sugeruje, by pozwolić osobie po prostu patrzeć, jeśli wydaje się to jej przyjemniejsze. Rozmawiaj o tym, co widzisz, i zachęcaj, by wskazywała lub wybierała, kiedy zechce."
   - q: "Czy te gry służą do sprawdzania pamięci?"
-    a: "Nie. Nasze gry to proste wspólne zajęcia dla przyjemności i rozmowy. Nie są testem pamięci, niczego nie mierzą i nie są leczeniem demencji."
+    a: "Nie. Nasze gry to proste, wspólne zajęcia dla przyjemności i rozmowy. Nie są testem pamięci, niczego nie mierzą i nie są leczeniem demencji."
   - q: "Od której gry najlepiej zacząć?"
-    a: "Zacznij od najprostszej, która pasuje do bliskiej osoby. Pary obrazków z czterema kafelkami i odkrytymi obrazkami albo Znajdź taki sam z dwiema możliwościami to łagodny początek. Karty do rozmowy dobrze się sprawdzą, jeśli bliska osoba bardziej lubi rozmawiać niż dotykać ekranu."
+    a: "Zacznij od najprostszej, która pasuje do danej osoby. Picture Pairs z czterema kafelkami i widocznymi obrazkami albo Find the Same z dwoma wyborami to łagodne początki. Conversation Cards sprawdzają się, jeśli osoba woli rozmawiać niż dotykać ekranu."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Dobra gra z osobą z demencją nie wygląda jak rywalizacja. Wygląda jak dwie osoby siedzące blisko siebie, które wskazują obrazki, śmieją się z przysłowia i rozmawiają o wszystkim, co przyjdzie im do głowy. Gra jest tylko pretekstem do wspólnego czasu.
+Dobra gra z osobą żyjącą z demencją nie wygląda jak rywalizacja. Wygląda jak dwie osoby siedzące blisko siebie, wskazujące obrazki, śmiejące się z przysłowia i rozmawiające o tym, co przyjdzie im do głowy. Gra jest tylko powodem, by spędzić razem czas.
 
-Ten poradnik podpowiada, jak się przygotować, jakie tempo przyjąć, co powiedzieć, gdy coś pójdzie „nie tak”, jak ułatwić albo trochę utrudnić każdą grę, jak zamienić ją w rozmowę i jak poznać, kiedy skończyć. Sprawdza się przy naszych [grach](/games/) i przy kartach, układankach i grach planszowych, które już macie w domu.
+Ten poradnik opisuje, jak przygotować grę, jak dostosować jej tempo, co powiedzieć, gdy coś „idzie źle”, jak uczynić dowolną grę łatwiejszą lub odrobinę trudniejszą, jak zamienić ją w rozmowę i jak poznać moment, by przestać. Sprawdzi się przy naszych [grach](/games/) oraz przy kartach, puzzlach i grach planszowych, które już macie.
 
-## Jak najlepiej grać w gry z osobą z demencją?
+## Jaki jest najlepszy sposób na grę z osobą z demencją?
 
-Skup się na przyjemności, a nie na osiągnięciach. To główna rada z [zaleceń Alzheimer’s Association dotyczących zajęć](https://www.alz.org/help-support/caregiving/daily-care/activities): opieraj się na umiejętnościach, które bliska osoba nadal ma, pomóż jej zacząć, trudne części dokończ samodzielnie i nie krytykuj ani nie poprawiaj niegroźnych czynności.
+Skup się na przyjemności, a nie na osiągnięciach. To główna rada z [wytycznych Alzheimer's Association dotyczących zajęć](https://www.alz.org/help-support/caregiving/daily-care/activities): opieraj się na umiejętnościach, które osoba nadal ma, pomagaj jej zacząć, dokończ trudne części samodzielnie i nie krytykuj ani nie poprawiaj niegroźnych zajęć.
 
 W praktyce oznacza to:
 
-- **Siadaj obok, a nie naprzeciwko.** Siedząc obok siebie, tak samo widzicie ekran lub stół, a pomaganie przypomina pracę zespołową, a nie nadzór.
-- **Proponuj jedną grę naraz.** Menu z wieloma możliwościami może wydawać się testem, zanim cokolwiek się zacznie.
-- **Podążaj za bliską osobą.** Jeśli chce dotykać obrazków we własnej kolejności, rozmawiać o jednym obrazku przez dziesięć minut albo skończyć po dwóch ruchach – taka jest dziś gra.
-- **Licz dobre chwile, a nie skończone rundy.** Uśmiech, opowieść albo spokojne pół godziny – to efekt, o który chodzi.
+- **Siedź obok, a nie naprzeciwko.** Siedząc bok w bok, oboje widzicie ekran lub stół, a pomoc wygląda jak współpraca, a nie nadzór.
+- **Proponuj jedną grę naraz.** Menu wyborów może sprawić wrażenie testu, zanim cokolwiek się zacznie.
+- **Podążaj za jej tempem.** Jeśli chce dotykać obrazków we własnej kolejności, przez dziesięć minut rozmawiać o jednym obrazku albo zakończyć po dwóch ruchach, to właśnie jest dzisiejsza gra.
+- **Licz dobre chwile, a nie skończone rundy.** Uśmiech, opowieść albo spokojne pół godziny to wynik, do którego dążysz.
 
-## Jak przygotować się przed rozpoczęciem?
+## Jak się przygotować przed rozpoczęciem?
 
-Kilka minut przygotowań zapobiega większości frustracji, którą zwykle przypisuje się samej grze.
+Kilka minut przygotowania zapobiega większości frustracji, którą ludzie przypisują samej grze.
 
-1. **Wybierz porę dnia, w której bliska osoba czuje się najlepiej.** [Zalecenia National Institute on Aging (NIA) dotyczące dostosowywania zajęć](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) radzą planować wyjścia i zajęcia na porę dnia, w której osoba czuje się najlepiej. U wielu osób to przedpołudnie. Późne popołudnie bywa trudniejsze; zobacz [spokojne zajęcia na późne popołudnie](/caregiving/late-day-restlessness/).
-2. **Zadbaj o ciszę w pokoju.** Wyłącz telewizor i radio i, jeśli możesz, zamknij drzwi. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) zaleca ograniczenie hałasu i rozpraszaczy, zanim zaczniesz rozmowę.
-3. **Najpierw sprawdź wygodę.** Picie w zasięgu ręki, wcześniejsze wyjście do toalety, wygodne krzesło oraz założone okulary i aparaty słuchowe.
-4. **Dobrze oświetl miejsce.** Jasne, równe światło bez odblasków na ekranie sprawia, że obrazki łatwiej zobaczyć.
-5. **Przygotuj grę, zanim usiądziecie.** Otwórz ją, wybierz ustawienia i samodzielnie ustaw głośność. Potem odwróć ekran w stronę bliskiej osoby. Wskazówki dotyczące tabletu znajdziesz w poradniku o tym, [jak przygotować tablet lub telefon](/caregiving/tablets-and-screens/).
-6. **Postaw urządzenie pionowo.** Podstawka lub etui, które utrzymuje tablet w pionie, sprawia, że nikt nie musi go trzymać, a łatwiej jest wskazywać.
+1. **Wybierz jej najlepszą porę dnia.** [Wytyczne National Institute on Aging (NIA) dotyczące dostosowywania zajęć](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) sugerują planowanie wyjść i zajęć na porę dnia, kiedy osoba czuje się najlepiej. Dla wielu osób jest to środek przedpołudnia. Późne popołudnie bywa trudniejsze; zobacz [spokojne zajęcia późnym popołudniem](/creative-calm/calm-afternoon-activities/).
+2. **Wycisz pokój.** Wyłącz telewizor i radio oraz zamknij drzwi, jeśli to możliwe. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) zaleca ograniczenie hałasu i rozpraszaczy, zanim zaczniesz rozmawiać.
+3. **Sprawdź wygodę w pierwszej kolejności.** Napój w zasięgu ręki, wizyta w toalecie przed grą, wygodne krzesło oraz założone okulary i aparaty słuchowe.
+4. **Dobrze oświetl przestrzeń.** Jasne, równomierne światło bez odblasków na ekranie ułatwia widzenie obrazków.
+5. **Przygotuj grę, zanim usiądziecie.** Otwórz ją, wybierz ustawienia i sam ustaw głośność. Dopiero potem odwróć ekran w jej stronę. Jeśli pomaga, włącz na urządzeniu większy tekst.
+6. **Podeprzyj urządzenie.** Stojak lub etui, które utrzymuje tablet w pionie, sprawia, że nikt nie musi go trzymać, a wskazywanie jest łatwiejsze.
 
-## Jak zaprosić do gry bez presji?
+## Jak zaprosić ją bez presji?
 
-Niech zaproszenie będzie swobodne i łatwe do odrzucenia. Kilka zwrotów, które zwykle się sprawdzają:
+Zaproszenie niech będzie swobodne i łatwe do odrzucenia. Kilka zwrotów, które zwykle dobrze działają:
 
-- „Mam tu obrazki z ogrodu. Popatrzysz na nie ze mną?”
-- „Pomożesz mi z tą układanką? Nie mogę sobie z nią poradzić”.
-- „Wolisz dziś kwiaty czy ptaki?” (wybór z dwóch możliwości jest łatwiejszy niż otwarte pytanie)
-- „Robię kartkę dla twojej siostry. Jaki tu dać kolor?”
+- „Mam kilka obrazków z ogrodem. Chcesz je ze mną obejrzeć?”
+- „Pomożesz mi z tą układanką? Nie mogę sobie poradzić.”
+- „Wolisz dziś kwiaty czy ptaki?” (wybór z dwóch jest łatwiejszy niż pytanie otwarte)
+- „Robię kartkę dla siostry. Który kolor pasuje?”
 
-Alzheimer’s Association radzi wyjaśniać cel zajęcia, np. zrobienie kartki dla przyjaciółki, bo powód nadaje mu sens. Prośba o pomoc też działa, bo pozwala bliskiej osobie poczuć się potrzebną.
+Alzheimer's Association sugeruje wyjaśnianie celu zajęcia, np. robienia kartki dla przyjaciółki, bo powód nadaje mu sens. Prośba o pomoc też działa, bo pozwala osobie poczuć się potrzebną.
 
-Jeśli odmawia, przyjmij to. Spróbuj później albo zaproponuj coś innego. Nasz poradnik o tym, [co robić, gdy bliska osoba odmawia](/caregiving/when-they-say-no/), mówi o tym więcej.
+Jeśli odmówi, zaakceptuj to. Spróbuj później albo zaproponuj coś innego. Nasz poradnik [co zrobić, gdy mówi nie](/caregiving/when-they-say-no/) rozwija ten temat.
 
-## Jak długo powinna trwać gra i w jakim tempie grać?
+## Jak długo powinna trwać gra i jak szybko iść?
 
-Niech tempo nadaje bliska osoba, a Ty planuj krótkie spotkania. Nie ma opartej na badaniach idealnej długości wspólnej gry. Od dwóch do pięciu spokojnych minut może być pełnym zajęciem.
+Pozwól osobie wyznaczać tempo i planuj krótkie sesje. Nie ma opartej na dowodach idealnej długości wspólnej gry. Od dwóch do pięciu spokojnych minut może być pełnym zajęciem.
 
-- **Czekaj dłużej, niż wydaje się naturalne.** NIA radzi dawać osobie więcej czasu na odpowiedź i starać się nie przerywać. Zanim pomożesz, policz w myślach do dziesięciu.
-- **Jeden krok naraz.** Podaj jedno krótkie polecenie („Dotknij obrazka”) i poczekaj. Pokazuj zamiast tłumaczyć: wskaż, gdzie dotknąć.
-- **Swobodnie róbcie przerwy.** Jeśli bliska osoba zatrzyma się, by porozmawiać o obrazku, gra może poczekać. Nie trzeba się spieszyć.
-- **Pozwól jej się przyglądać.** NIA zauważa, że niektóre osoby wolą patrzeć – i to jest równie dobry wybór.
+- **Czekaj dłużej, niż wydaje się naturalne.** NIA radzi dawać więcej czasu na odpowiedź i starać się nie przerywać. Policz w myślach do dziesięciu, zanim pomożesz.
+- **Jeden krok naraz.** Podaj jedną krótką instrukcję („Dotknij obrazka”), potem czekaj. Pokazuj zamiast tłumaczyć: wskaż miejsce, w które trzeba dotknąć.
+- **Swobodnie rób przerwy.** Jeśli zatrzyma się, by porozmawiać o obrazku, gra może poczekać. Nie ma potrzeby się spieszyć.
+- **Pozwól jej patrzeć.** NIA zauważa, że niektórzy wolą obserwować, i to jest uprawniony wybór.
 
 ## Czy poprawiać złe odpowiedzi?
 
-Nie. Ciągłe, nawet łagodne poprawianie mówi osobie, że jej się nie udaje, nawet jeśli masz dobre intencje. Alzheimer’s Association radzi nie krytykować ani nie poprawiać niegroźnych czynności. W grze prawie każda pomyłka jest niegroźna.
+Nie. Ciągłe delikatne poprawianie daje do zrozumienia, że ktoś zawodzi, nawet jeśli mamy dobre intencje. Alzheimer's Association radzi nie krytykować ani nie poprawiać niegroźnych zajęć. W grze niemal każda pomyłka jest niegroźna.
 
 | Zamiast | Spróbuj |
 | --- | --- |
-| „Nie, to źle”. | „Spróbujmy tak”. (przykład podawany przez NIA) |
-| „To nie jest para. Popatrz jeszcze raz”. | Nic nie mów i wykonaj następny ruch albo powiedz: „O, oba są czerwone”. |
-| „Pamiętasz, kto to jest?” | „Opowiedz mi o tym obrazku”. |
-| „Ten już był”. | „Ten jest fajny. Zróbmy go jeszcze raz”. |
-| „No weź, przecież to wiesz”. | „Pokazać zakończenie?” |
+| „Nie, to źle.” | „Spróbujmy inaczej.” (przykład podawany przez NIA) |
+| „To nie pasuje. Spójrz jeszcze raz.” | Nic nie mów i wykonaj kolejny ruch albo powiedz „O, te dwa są czerwone.” |
+| „Pamiętasz, kto to jest?” | „Opowiedz mi o tym obrazku.” |
+| „Tę już robiliśmy.” | „To dobry obrazek. Zróbmy go jeszcze raz.” |
+| „No weź, przecież to znasz.” | „Czy pokazać zakończenie?” |
 
-Jeśli pomyłka wyraźnie frustruje bliską osobę, pomóż po cichu. Wskaż właściwy obrazek, wykonaj ruch samodzielnie albo w następnej rundzie ułatw grę. Jeśli przysłowie dostanie zabawne, „złe” zakończenie, śmiejcie się razem. Jej zakończenie może być lepsze.
+Jeśli pomyłka wyraźnie ją frustruje, pomóż po cichu. Wskaż właściwy obrazek, wykonaj ruch za siebie albo uprość grę w następnej rundzie. Jeśli przysłowie dostanie zabawne, błędne zakończenie, śmiej się razem z nią. Jej zakończenie może być lepsze.
 
-## Jak ułatwić albo utrudnić grę?
+## Jak uczynić grę łatwiejszą lub trudniejszą?
 
-Dopasuj grę do osoby w danym dniu, a nie do nazwy stadium. Ta sama osoba może wieczorem potrzebować prostszej wersji niż rano. Pierwsza rada NIA to dopasować zajęcie do tego, co osoba może robić, i zadbać o to, by czuła, że jej się udaje.
+Dostosowuj grę do osoby danego dnia, a nie do etapu choroby. Ta sama osoba może potrzebować prostszej wersji wieczorem niż rano. Pierwsza wskazówka NIA to dopasować zajęcia do tego, co osoba potrafi, i zadbać, by czuła się skuteczna.
 
-| Gra | Jak ułatwić | Jak trochę utrudnić |
+| Gra | Łatwiej | Odrobinę trudniej |
 | --- | --- | --- |
-| [Pary obrazków](/games/picture-pairs/) | Zacznij od 4 kafelków i zostaw obrazki widoczne | Więcej kafelków albo ukryte obrazki, jeśli to wygodne |
-| [Znajdź taki sam](/games/find-the-same/) | 2 możliwości | Do 4 możliwości |
-| [Sortujmy razem](/games/sort-together/) | Ty trzymasz obrazek, bliska osoba wskazuje koszyk | Bliska osoba sama dotyka i obrazka, i koszyka |
-| [Układanka obrazkowa](/games/picture-puzzle/) | 4 elementy, najpierw porozmawiajcie o całym obrazku | 9 elementów |
-| [Dokończ przysłowie](/games/finish-the-saying/) | Pokaż zakończenie, a potem powiedzcie je razem | Niech bliska osoba powie zakończenie, zanim dotknie ekranu |
-| [Wykreślanka](/games/word-search/) | Wydrukuj ją, szukajcie razem jednego słowa, wskaż jego pierwszą literę | Niech bliska osoba wybiera, którego słowa szukać |
-| [Kolorowanki](/games/coloring/) | Ty wybierasz dwa kolory, bliska osoba wybiera jeden z nich | Bliska osoba wybiera wszystkie kolory |
-| [Karty do rozmowy](/games/conversation-cards/) | Po prostu oglądajcie razem obrazek | Skorzystajcie z otwartych pytań na karcie |
-| [Pary zdjęć](/games/photo-pairs/) | Kilka ulubionych rodzinnych zdjęć | Dodaj więcej zdjęć |
-| [Bingo obrazkowe](/games/picture-bingo/) | Przy każdym graczu siedzi pomocnik | Gracze sami zaznaczają pola na kartach |
-| [Spokojny oddech](/games/calm-breathing/) | Po prostu usiądźcie i patrzcie razem | Oddychajcie razem powoli w tym samym rytmie |
+| [Picture Pairs](/games/picture-pairs/) | Zacznij od 4 kafelków i zostaw obrazki widoczne | Więcej kafelków albo ukrywanie obrazków, jeśli to wygodne |
+| [Find the Same](/games/find-the-same/) | 2 wybory | Do 4 wyborów |
+| [Sort Together](/games/sort-together/) | Opiekun trzyma obrazek, osoba wskazuje koszyk | Osoba sama dotyka obrazka i koszyka |
+| [Picture Puzzle](/games/picture-puzzle/) | 4 elementy, najpierw omów cały obrazek | 9 elementów |
+| [Finish the Saying](/games/finish-the-saying/) | Pokaż zakończenie, potem powiedzcie je razem | Niech osoba sama powie zakończenie, zanim dotknie |
+| [Word Search](/games/word-search/) | Wydrukuj, szukajcie razem jednego słowa, wskaż jego pierwszą literę | Niech osoba sama wybiera kolejne słowo do znalezienia |
+| [Coloring](/games/coloring/) | Opiekun wybiera dwa kolory, osoba wybiera spośród nich | Osoba sama wybiera wszystkie kolory |
+| [Conversation Cards](/games/conversation-cards/) | Po prostu obejrzyjcie obrazek razem | Użyj otwartych pytań z karty |
+| [Photo Pairs](/games/photo-pairs/) | Kilka ulubionych zdjęć rodzinnych | Więcej zdjęć |
+| [Picture Bingo](/games/picture-bingo/) | Pomocnik siedzi przy każdym graczu | Gracze zaznaczają własne karty |
+| [Calm Breathing](/games/calm-breathing/) | Po prostu siedźcie i oglądajcie razem | Oddychajcie razem powoli |
 
-Oznaki, że gra jest za trudna: długie pauzy, w których widać raczej niepokój niż namysł, powtarzane „nie dam rady”, odsuwanie urządzenia albo pomyłki, które wywołują zdenerwowanie. Oznaki, że może być za łatwa: znudzenie albo słowa, że to dziecinne. Jeśli tak się dzieje, uszanuj to i przejdź do czegoś bardziej dorosłego, np. wykreślanki, układanki z prawdziwą fotografią albo rozmowy o zdjęciu związanym z dawną pracą bliskiej osoby.
+Sygnały, że gra jest za trudna: długie pauzy, które wyglądają na zmartwienie, a nie na namysł, powtarzane „nie umiem”, odsuwanie urządzenia albo pomyłki, które ją przygnębiają. Sygnały, że może być za łatwa: znudzenie albo stwierdzenie, że to dziecinne. Jeśli tak się stanie, uszanuj to i przełącz się na coś, co wydaje się dorosłe, np. wykreślankę, puzzle z prawdziwego zdjęcia albo rozmowę o obrazku związanym z jej dawnym zawodem.
 
 ## Jak zamienić grę w rozmowę?
 
-Traktuj każdy obrazek jako zaproszenie do rozmowy, a wszystko, co bliska osoba powie, jako dobrą odpowiedź. W wielu rodzinach to najlepsza część grania.
+Traktuj każdy obrazek jako zaproszenie do rozmowy i uznawaj każdą odpowiedź za dobrą. Dla wielu rodzin to najlepsza część wspólnej gry.
 
-- **Zadawaj otwarte pytania bez złych odpowiedzi.** „Co tu widzisz?” „Który ci się podoba?” „Opowiedz mi o takiej kuchni”.
-- **Ty zacznij od swojej historii.** „Moja babcia miała takiego psa”. Twoja opowieść ułatwia bliskiej osobie podzielenie się swoją.
-- **Idź za dygresją.** Jeśli obrazek samochodu prowadzi do opowieści o dawnej wycieczce, to opowieść staje się zajęciem. Zostaw grę wstrzymaną.
-- **Nie sprawdzaj faktów.** We wspominaniu miła rozmowa jest ważniejsza niż dokładne szczegóły. Jeśli opowieść różni się od poprzedniej wersji, cieszcie się nową.
-- **Korzystaj z wbudowanych podpowiedzi.** W grze [Dokończ przysłowie](/games/finish-the-saying/) po każdym przysłowiu pojawia się pytanie do rozmowy, a [Karty do rozmowy](/games/conversation-cards/) powstały właśnie w tym celu. [Pary zdjęć](/games/photo-pairs/) korzystają z Waszych rodzinnych zdjęć, które często wywołują najciekawsze opowieści.
+- **Zadawaj pytania otwarte, bez złych odpowiedzi.** „Co zauważasz?” „Który lubisz najbardziej?” „Opowiedz mi o kuchni, takiej jak ta.”
+- **Zacznij od siebie.** „Moja babcia miała takiego psa.” Twoja historia ułatwia jej podzielenie się własną.
+- **Podążaj za dygresją.** Jeśli obrazek samochodu prowadzi do opowieści o podróży, to opowieść jest zajęciem. Zostaw grę w pauzie.
+- **Nie sprawdzaj faktów.** W wspominaniu liczy się przyjemna rozmowa, a nie dokładne szczegóły. Jeśli historia za każdym razem wygląda trochę inaczej, ciesz się nową wersją.
+- **Korzystaj z wbudowanych podpowiedzi.** [Finish the Saying](/games/finish-the-saying/) po każdym przysłowiu podaje podpowiedź do rozmowy, a [Conversation Cards](/games/conversation-cards/) są stworzone właśnie do tego. [Photo Pairs](/games/photo-pairs/) używa zdjęć z rodzinnego albumu, które często pobudzają najbogatsze historie.
 
-Więcej pomysłów znajdziesz w naszych poradnikach o [zajęciach ze wspomnieniami](/activities/reminiscence/) i [wskazówkach dotyczących komunikacji](/caregiving/communication-tips/).
+Więcej pomysłów znajdziesz w naszym poradniku o [zajęciach wspomnieniowych](/activities/reminiscence/). Wsparcie po diagnozie opisuje [pierwsze kroki po diagnozie](/caregiving/after-dementia-diagnosis/).
 
-## Kiedy skończyć?
+## Kiedy przestać?
 
-Kończcie przy pierwszych oznakach zmęczenia lub zdenerwowania, a najlepiej trochę wcześniej. Alzheimer’s Association radzi przerwać lub zmienić zajęcie, gdy słabnie uwaga albo rośnie frustracja.
+Przerwij przy pierwszych oznakach zmęczenia lub zdenerwowania, najlepiej trochę wcześniej. Alzheimer's Association radzi przerwać lub zmienić zajęcie, gdy uwaga słabnie lub rośnie frustracja.
 
 Zwracaj uwagę na:
 
-- ziewanie, osuwanie się na krześle albo wzrok uciekający od ekranu;
-- wiercenie się, wstawanie albo prośby o wyjście;
-- wzdychanie, krótkie odpowiedzi albo „nic mi nie wychodzi”;
-- przypadkowe dotykanie ekranu albo odsuwanie urządzenia;
-- łzy, rozdrażnienie albo nagłą zmianę nastroju.
+- ziewanie, opadanie ciała albo wzrok odpływający od ekranu;
+- wiercenie się, wstawanie lub prośbę o wyjście;
+- wzdychanie, krótkie odpowiedzi albo „Nie umiem tego”;
+- przypadkowe stukanie lub odsuwanie urządzenia;
+- łzy, zniecierpliwienie albo nagłą zmianę nastroju.
 
-Jak dobrze skończyć:
+Jak dobrze przerwać:
 
-- **Zakończ czymś łatwym.** Ostatnia para, którą bliska osoba może dopasować, albo ostatni obrazek do podziwiania.
-- **Powiedz, że to Ty potrzebujesz przerwy.** „Mam ochotę na herbatę. Może na tym skończymy?” – tak nie pojawia się nawet cień sugestii, że coś poszło źle.
-- **Przejdźcie do czegoś ruchowego lub kojącego.** Krótki spacer, przekąska, składanie prania albo muzyka.
-- **Powiedz coś ciepłego.** „Miło było robić to razem”. Bez pochwał za „dobre odpowiedzi”, tylko radość ze wspólnego czasu.
+- **Zakończ czymś łatwym.** Jedno ostatnie dopasowanie, które potrafi zrobić, albo ostatni obrazek do podziwiania.
+- **Mów o sobie.** „Przydałaby mi się herbata. Zakończmy tutaj?” nie sugeruje, że poszło jej źle.
+- **Przejdź do czegoś ruchowego lub kojącego.** Krótki spacer, przekąska, składanie prania albo muzyka.
+- **Powiedz coś ciepłego.** „Miło mi było to razem robić.” Bez chwalenia za „dobre wyniki”, tylko z radości ze wspólnego czasu.
 
-Wcześniejsze zakończenie, zmiana planów albo rezygnacja z gry i zwykłe wspólne siedzenie – to wszystko dobre zakończenia.
+Wcześniejsze zakończenie, zmiana planów albo rezygnacja z gry i samo wspólne siedzenie to wszystko dobre wyniki.
 
-## Czy można grać w grupie albo podczas rozmowy wideo?
+## Czy można grać w grupie lub podczas połączenia wideo?
 
-Tak, z odrobiną dodatkowych przygotowań. W grupie ograniczcie się do kilku osób, posadźcie pomocników obok tych, którzy ich potrzebują, i wybierzcie grę, na której wszyscy mogą się wspólnie skupić. [Bingo obrazkowe](/games/picture-bingo/) ma karty do wydruku i losowanie obrazków na ekranie dla grup. Więcej w poradniku o [zajęciach grupowych w domach opieki](/activities/care-home-groups/).
+Tak, z odrobiną dodatkowych przygotowań. W grupie utrzymuj kilka osób, siadaj obok każdego, kto potrzebuje pomocy, i wybierz grę o wyraźnym wspólnym celu. [Picture Bingo](/games/picture-bingo/) ma kartki do wydruku i prowadzącego na ekranie dla grup. Więcej znajdziesz w [zajęciach dla grup w domach opieki](/crafts/craft-group-sessions/).
 
-Podczas rozmowy wideo osoba po drugiej stronie może opisywać obrazek, a ktoś w pokoju wskazuje go i dotyka. Niech rozmowy będą krótkie i znajome. Więcej wskazówek znajdziesz w poradniku o [rozmowach telefonicznych i wideo](/activities/phone-and-video-calls/).
+Podczas połączenia wideo osoba po drugiej stronie może opisywać obrazek, a ktoś w pokoju wskazuje i dotyka. Krótkie, znane rozmowy sprawdzają się najlepiej. Nasz poradnik o [rozmowach telefonicznych i wideo](/together/staying-connected-from-afar/) ma więcej wskazówek.
 
-## Co zrobić, gdy gra po prostu się nie sprawdza?
+## Co zrobić, gdy gra po prostu nie działa?
 
-Bywają dni, gdy nic nie wychodzi, i nie świadczy to ani o Tobie, ani o bliskiej osobie. Odłóż grę i spróbuj o innej porze dnia, z inną grą albo w ogóle bez gry. Wiele dobrych zajęć nie ma nic wspólnego z ekranem: muzyka, składanie ręczników, przeglądanie albumu ze zdjęciami albo krótki spacer. Więcej znajdziesz wśród naszych [pomysłów na zajęcia](/activities/ideas/).
+Zdarzają się dni, kiedy nic nie trafia, i nie świadczy to ani o opiekunie, ani o niej. Odłóż grę i spróbuj innego momentu dnia, innej gry albo w ogóle bez gry. Wiele dobrych zajęć nie ma nic wspólnego z ekranem: muzyka, składanie ręczników, oglądanie albumu ze zdjęciami czy krótki spacer. Więcej pomysłów znajdziesz w [pomysłach na zajęcia](/activities/ideas/).

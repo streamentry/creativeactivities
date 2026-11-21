@@ -381,6 +381,58 @@
       }
     ]
   },
+  "drawing-duet": {
+    "name": "Lukisan berdua",
+    "seoTitle": "Lukisan Berdua: Dua Orang, Satu Gambar",
+    "h1": "Lukisan Berdua: Dua Orang, Satu Helaian",
+    "description": "Dua orang bergilir melukis garis di atas satu kanvas bersama, setiap orang dengan warnanya sendiri. Tiada yang mendapat markah atau menang, dan gambar itu boleh disimpan atau dicetak. Percuma untuk dimainkan, tanpa akaun.",
+    "short": "Bergilir melukis satu gambar bersama dengan seseorang di sebelah anda.",
+    "players": "2 orang, duduk bersebelahan",
+    "intro": "Satu kanvas, dua orang. Setiap daripada anda memilih satu warna, dan setiap warna mempunyai nama bertulisnya sendiri. Anda bergilir: lukis satu garis atau bentuk, kemudian serahkan pen. Mana-mana daripada anda boleh melepasi giliran pada bila-bila masa. Tiada gambar yang betul dan tiada markah. Simpan gambar ke peranti anda jika anda suka, atau cetak versi kertas: satu helaian, dua pen.",
+    "howTo": [
+      "Setiap daripada anda memilih satu warna. Sepanduk akan menunjukkan giliran siapa, dengan nama warna orang itu.",
+      "Lukis satu garis atau bentuk dengan jari, tetikus atau pen. Atau gunakan kekunci anak panah dan Space untuk melukis tanpa penunjuk.",
+      "Apabila anda sedia, ketik \"Serahkan pen\". Mana-mana daripada anda boleh melepasi giliran pada bila-bila masa.",
+      "Ketik \"Ambil balik garis terakhir saya\" untuk memadam garis terbaru milik orang yang sedang bergiliran.",
+      "Ketik \"Simpan gambar\" untuk membuat fail gambar pada peranti ini, atau \"Cetak versi kertas\" untuk satu helaian dan dua pen."
+    ],
+    "tips": [
+      "Duduk bersebelahan dan berbual semasa melukis: \"Saya akan tambah matahari di sudut.\"",
+      "Mulakan dengan satu titik, satu garis atau satu bentuk ringkas, dan biarkan orang lain menyambungnya.",
+      "Tiada sesiapa perlu melukis gambar sesuatu. Corak garisan sama baiknya dengan pemandangan.",
+      "Jika anda mahu berhenti, ketik \"Setakat ini dulu\". Gambar anda tidak disimpan selepas anda meninggalkan halaman, melainkan anda menyimpannya."
+    ],
+    "faq": [
+      {
+        "q": "Adakah ada pemenang atau markah?",
+        "a": "Tiada. Tiada pemenang, markah, pemasa atau bilangan giliran. Tiada gambar yang betul, dan tiada apa-apa yang disusun atau dibandingkan."
+      },
+      {
+        "q": "Adakah gambar disimpan atau dihantar?",
+        "a": "Tidak, tiada apa-apa yang dihantar ke mana-mana. Gambar kekal di halaman ini sehingga anda menutupnya. Jika anda ketik Simpan gambar, fail akan dibuat pada peranti anda untuk dimuat turun. Tiada apa-apa dimuat naik."
+      },
+      {
+        "q": "Bolehkah saya membatalkan garis?",
+        "a": "Boleh. \"Ambil balik garis terakhir saya\" memadam garis terbaru milik orang yang sedang bergiliran. \"Mula semula\" mengosongkan helaian, dan \"Letak semula\" mengembalikan garisan, satu langkah sahaja."
+      },
+      {
+        "q": "Bolehkah saya menggunakannya tanpa tetikus atau skrin sentuh?",
+        "a": "Boleh. Apabila lukisan itu aktif, kekunci anak panah menggerakkan titik pen, dan kekunci Space mengangkat atau menurunkan pen. Skrin akan memaparkan \"Pen turun\" atau \"Pen naik\" setiap kali."
+      },
+      {
+        "q": "Apakah warnanya, dan bolehkah orang yang buta warna membezakannya?",
+        "a": "Kuning, jingga, hijau dan ungu, empat warna yang sama yang digunakan dalam permainan gambar kami yang lain. Setiap warna mempunyai nama bertulis, dan nama itu dipaparkan di sebelah giliran. Warna-warna ini telah diperiksa menggunakan simulasi perbezaan penglihatan warna yang biasa, tetapi orang yang mempunyai perbezaan penglihatan warna belum mencubanya."
+      },
+      {
+        "q": "Adakah ada versi kertas?",
+        "a": "Ada. \"Cetak versi kertas\" mencetak satu helaian dengan peraturan dan satu bingkai kosong yang besar untuk melukis, untuk dua orang dengan dua pen. Ia berfungsi dalam hitam dan putih."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
   "build-together": {
     "name": "Bina bersama",
     "seoTitle": "Bina Bersama: Dua Orang Membina Satu Corak",
@@ -481,6 +533,150 @@
       }
     ]
   },
+  "seasonal-pack": {
+    "name": "Pek teka-teki musim",
+    "seoTitle": "Pek Teka-Teki Musim: Teka-Teki Kertas untuk Dicetak",
+    "h1": "Pek Teka-Teki Musim: Tiga Teka-Teki Kertas untuk Setiap Musim",
+    "description": "Tiga teka-teki kecil untuk dicetak bagi musim bunga, musim panas, musim luruh atau musim sejuk: padankan pasangan, bulatkan yang berbeza, dan warnakan gambar. Pilih musim, atau ambil hari rehat. Percuma untuk dicetak.",
+    "short": "Tiga teka-teki untuk dicetak bagi musim yang anda pilih, atau hari rehat.",
+    "players": "Semua umur, seorang diri atau bersebelahan",
+    "intro": "Pilih satu musim, dan halaman itu akan memaparkan tiga teka-teki kertas kecil yang diambil daripada gambar musim tersebut: dua baris untuk disambungkan dengan garisan, satu baris empat gambar untuk dibulatkan yang berbeza, dan satu gambar untuk diwarnakan. Anda cetak satu halaman, kemudian buat satu, dua atau ketiga-tiganya, mengikut rentak anda. Pilih \"Hari ini hari rehat\" sebagai ganti, dan tiada apa yang perlu dibuat.",
+    "howTo": [
+      "Pilih satu musim, atau pilih \"Hari ini hari rehat\".",
+      "Lihat tiga teka-teki itu, kemudian ketik \"Cetak pek musim ini\".",
+      "Buat satu, dua atau ketiga-tiganya, mengikut rentak anda.",
+      "Sambungkan gambar yang sepadan dengan garisan, bulatkan yang berbeza, dan warnakan gambar besar itu.",
+      "Berhenti bila-bila masa anda mahu. Hari rehat juga satu hari yang baik."
+    ],
+    "tips": [
+      "Mulakan dengan teka-teki yang paling mudah dirasakan hari ini. Satu sudah memadai.",
+      "Sebutkan nama setiap gambar dengan kuat, jika itu membantu.",
+      "Gunakan krayon atau pensil. Sebarang warna boleh.",
+      "Simpan halaman itu untuk kali berikutnya, atau biarkan sahaja."
+    ],
+    "faq": [
+      {
+        "q": "Adakah ada pemasa atau markah?",
+        "a": "Tiada. Tiada jam, markah, pengira langkah atau kalah. Anda boleh berhenti pada bila-bila masa, dan berhenti di tengah jalan ialah cara yang sah untuk menamatkannya."
+      },
+      {
+        "q": "Adakah halaman itu tahu musim apa sekarang?",
+        "a": "Tidak. Andalah yang memilih musim. Halaman itu tidak melihat tarikh atau lokasi anda."
+      },
+      {
+        "q": "Adakah ada markah atau jawapan yang betul?",
+        "a": "Tiada. Tiada apa-apa yang diukur masa, dinilai atau disemak di skrin, dan tiada jawapan dipaparkan. Setiap teka-teki hanyalah gambar untuk dilihat, disambung, dibulatkan atau diwarnakan."
+      },
+      {
+        "q": "Bagaimana jika tiada sesiapa mahu teka-teki hari ini?",
+        "a": "Pilih \"Hari ini hari rehat\". Halaman kemudian menunjukkan satu baris yang tenang, dan tiada apa-apa untuk dicetak atau dibuat."
+      },
+      {
+        "q": "Apakah yang ada pada helaian yang dicetak?",
+        "a": "Satu halaman untuk musim yang anda pilih: tiga teka-teki, setiap satunya dengan satu baris ringkas tentang cara melakukannya, dan satu baris yang menyatakan anda boleh buat satu, dua atau kesemuanya tiga."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun diperlukan. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Hias kad bersama-sama",
+    "seoTitle": "Hias Kad Bersama-sama: Kad Ucapan untuk Dicetak",
+    "h1": "Hias Kad Bersama-sama: Buat untuk Seseorang",
+    "description": "Dua orang menghias kad ucapan yang dicetak untuk hari jadi, ucapan terima kasih atau sekadar kerana ingin, kemudian menulis mesej di belakang kad bersama-sama. Hanya pensel warna atau pen. Tiada pemasa atau skor. Percuma untuk dicetak.",
+    "short": "Hias kad ucapan yang dicetak bersama-sama.",
+    "players": "2 orang, duduk bersebelahan",
+    "intro": "Permainan membuat yang tenang untuk dua orang yang duduk bersebelahan. Anda cetak satu helaian, yang dilipat separuh untuk menjadi kad. Pilih sesuatu majlis, seperti hari jadi atau ucapan terima kasih, dan hias bahagian depan di sekeliling perkataannya. Kemudian tulis mesej di belakang, bersama-sama atau seorang menulis apa yang dikatakan oleh seorang lagi. Gunakan pensel warna, pensel berwarna atau pen felt-tip. Tiada kad yang betul, dan tiada apa-apa yang diberi masa, dinilai atau dihantar.",
+    "howTo": [
+      "Pilih satu majlis, kemudian ketik \"Cetak kad\".",
+      "Lipat helaian separuh mengikut garis putus-putus, supaya bahagian depan berada di luar.",
+      "Seorang menghias bahagian depan, dan seorang lagi menghias bahagian belakang, atau anda bergilir-gilir pada satu sisi.",
+      "Tulis mesej bersama-sama. Seorang boleh menulis sambil seorang lagi menyebut perkataannya.",
+      "Berhenti bila-bila masa anda mahu. Kad yang ringkas sama baiknya dengan kad yang terperinci."
+    ],
+    "tips": [
+      "Mulakan dengan perkataan di bahagian depan, kemudian tambah daun, bintang atau titik di sekelilingnya, satu demi satu.",
+      "Jika seseorang lebih suka tidak melukis, mereka boleh memilih warna atau menulis mesej.",
+      "Katakan apa yang anda suka tentang coretan orang lain, dan bukannya sama ada ia bagus atau tidak.",
+      "Simpan kad di tempat yang boleh diberikan, atau sekadar letakkannya di atas meja buat masa ini."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa atau skor?",
+        "a": "Tiada. Tiada jam, skor, pengira langkah atau kekalahan. Anda boleh berhenti bila-bila masa, dan berhenti di tengah jalan adalah cara yang baik untuk menamatkan."
+      },
+      {
+        "q": "Adakah kami perlukan gam, gunting atau pelekat?",
+        "a": "Tidak. Pensel warna, pensel berwarna atau pen felt-tip sudah memadai. Tiada apa yang perlu digunting, digam atau dilekatkan."
+      },
+      {
+        "q": "Bolehkah kami membuat kad untuk majlis yang tiada dalam senarai?",
+        "a": "Pilih \"Sekadar kerana ingin\" dan tulis kata-kata anda sendiri di bahagian depan, atau hias kad tanpa sebarang majlis."
+      },
+      {
+        "q": "Adakah apa-apa dikira, dinilai atau disimpan pada skrin?",
+        "a": "Tidak. Halaman hanya menunjukkan kad dan langkah-langkahnya. Tiada apa yang diberi kedudukan, skor atau disimpan, dan tiada kad yang betul."
+      },
+      {
+        "q": "Apakah yang ada pada helaian yang dicetak?",
+        "a": "Satu halaman: kad yang dilipat separuh, dengan perkataan majlis dan bingkai ringkas di bahagian depan, serta ruang untuk mesej dan baris Daripada di bahagian belakang. Peraturan untuk dua orang dicetak di sepanjang bahagian bawah."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun diperlukan. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Cari bersama-sama",
+    "seoTitle": "Cari Bersama-sama: Dua Orang Mencari Pasangan",
+    "h1": "Cari Bersama-sama: Dua Orang, Satu Pasukan",
+    "description": "Dua orang berkongsi satu skrin dan bergilir-gilir membalikkan dua kad gambar untuk mencari pasangan. Pasangan dijumpai bersama-sama dan dikira pada satu kiraan bersama. Percuma untuk dimainkan, tanpa pemasa atau skor.",
+    "short": "Bergilir-gilir dengan seseorang di sebelah anda untuk mencari pasangan gambar.",
+    "players": "2 orang, duduk bersebelahan",
+    "intro": "Kad-kad bermula dengan gambarnya terpapar, atau anda boleh meletakkannya menghadap ke bawah. Pada giliran anda, anda membalikkan dua kad. Jika ia pasangan, anda telah menjumpainya bersama-sama dan giliran beralih. Jika berbeza, kad itu kekal terbuka sehingga anda tekan \"Pusingkan semula\", supaya anda berdua boleh melihatnya. Anda boleh berhenti pada bila-bila masa. Kiraan di bahagian atas hanya bertambah: pasangan yang anda jumpai bersama-sama.",
+    "howTo": [
+      "Pilih berapa banyak kad yang hendak digunakan. Enam kad, tiga pasangan, adalah permulaan yang tenang.",
+      "Skrin menunjukkan giliran siapa, dengan bulatan untuk orang pertama dan segi empat untuk orang kedua.",
+      "Balikkan dua kad, satu demi satu. Jika ia sepadan, pasangan itu dijumpai bersama-sama.",
+      "Jika berbeza, tekan \"Pusingkan semula\" apabila anda berdua sudah bersedia. Giliran kemudian beralih.",
+      "Mana-mana antara anda boleh tekan \"Lepas\" pada bila-bila masa. Ketik \"Mula semula\" untuk kad baharu, atau ketik Rehat untuk berhenti."
+    ],
+    "tips": [
+      "Duduk bersebelahan dan sebut nama gambar itu bersama-sama dengan kuat: \"Sebiji cawan teh. Adakah awak minum teh dengan susu?\"",
+      "Biarkan orang yang anda jaga yang mengetik, walaupun ia mengambil masa. Tunjuk dan bukannya ketik untuk mereka.",
+      "Pilih \"Kad menghadap ke bawah\" jika anda berdua suka membalikkan kad untuk mencari gambar.",
+      "Seseorang yang cepat letih boleh melepaskan giliran sekerap yang mereka mahu. Pasangan tetap dijumpai bersama-sama."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemenang, pemasa atau skor?",
+        "a": "Tiada. Tiada pemenang, kerana anda mencari pasangan sebagai satu pasukan. Tiada jam, tiada skor dan tiada kiraan kesilapan. Kiraan hanya mengira pasangan yang anda jumpai bersama-sama, dan anda boleh berhenti pada bila-bila masa."
+      },
+      {
+        "q": "Adakah kami perlu ingat di mana gambar-gambar itu berada?",
+        "a": "Tidak. Permainan bermula dengan semua gambar kelihatan. Dengan kad diletakkan terbalik, anda boleh bertanya antara satu sama lain apa yang anda nampak, atau terus membalikkan kad itu semula."
+      },
+      {
+        "q": "Apakah yang berlaku apabila dua kad berbeza?",
+        "a": "Kad itu kekal menghadap ke atas supaya kedua-dua anda boleh melihatnya, selama mana anda perlukan. Tiada apa yang membaliknya semula secara automatik. Apabila anda sedia, tekan \"Balikkan semula\" dan giliran akan beralih kepada orang lain."
+      },
+      {
+        "q": "Adakah apa-apa yang dimainkan disimpan atau dihantar?",
+        "a": "Tidak. Kad kekal di halaman ini sahaja. Tiada apa yang disimpan, dimuat naik atau dikira, dan semuanya hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Adakah kad cukup besar untuk tangan yang menggeletar atau skrin kecil?",
+        "a": "Setiap kad sekurang-kurangnya 64 piksel lebar dan sebesar yang dibenarkan oleh skrin. Pengguna papan kekunci dan pembaca skrin mendengar setiap kad melalui kedudukan dan gambarnya."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
   "story-dice": {
     "name": "Dadu cerita",
     "seoTitle": "Dadu Cerita: Permainan Bercerita dengan Gambar",
@@ -563,10 +759,10 @@
     "name": "Teka-teki gambar",
     "seoTitle": "Teka-teki Gambar Dalam Talian Mudah: 4 atau 9 Kepingan Besar",
     "h1": "Teka-teki Gambar: Jigsaw yang Mudah",
-    "description": "Teka-teki gambar dalam talian yang mudah untuk orang dewasa: 4 atau 9 kepingan besar, keseluruhan gambar kekal kelihatan, dan anda ketik dua kepingan untuk menukarkannya. Percuma, tanpa pemasa.",
+    "description": "Teka-teki gambar dalam talian yang mudah untuk orang dewasa: 4 atau 9 kepingan besar, seluruh gambar kekal kelihatan, dan anda ketik dua kepingan untuk menukarkannya. Gunakan foto anda sendiri, yang kekal pada peranti ini. Percuma, tanpa pemasa.",
     "short": "Ketik dua keping untuk menukarnya sehingga gambar lengkap.",
     "players": "1 atau 2 orang",
-    "intro": "Satu gambar yang mesra dipotong kepada empat atau sembilan keping besar dan dikacau. Gambar penuh kekal kelihatan sebagai panduan. Ketik satu keping, kemudian satu lagi, dan kedua-duanya bertukar tempat. Tidak perlu menyeret.",
+    "intro": "Gambar yang mesra dipotong kepada empat atau sembilan kepingan besar dan dicampur. Seluruh gambar kekal kelihatan sebagai panduan. Ketik satu kepingan, kemudian satu lagi, dan kedua-duanya bertukar tempat. Tiada keperluan untuk menyeret. Anda juga boleh menggunakan salah satu foto anda sendiri. Foto itu kekal pada peranti ini dan tidak pernah dimuat naik.",
     "howTo": [
       "Pilih satu gambar dan 4 atau 9 keping. Empat ialah permulaan yang lembut.",
       "Lihat gambar penuh di bahagian atas.",
@@ -740,12 +936,13 @@
     "description": "Jadikan foto keluarga anda permainan padanan yang lembut. Pilih 2 hingga 6 foto pada peranti anda; ia kekal dalam pelayar anda dan tidak pernah dimuat naik.",
     "short": "Pilih foto anda sendiri dan padankannya. Tiada apa-apa dimuat naik.",
     "players": "2 orang, bersebelahan",
-    "intro": "Pilih dua hingga enam foto daripada telefon, tablet atau komputer anda, dan ia menjadi permainan padanan dengan gambar besar yang kelihatan. Foto hanya dipaparkan di dalam halaman ini. Ia tidak dimuat naik, disimpan atau dikongsi, dan ia hilang apabila anda menutup halaman.",
+    "intro": "Pilih dua hingga enam foto keluarga anda sendiri daripada telefon, tablet atau komputer anda, dan ia akan menjadi permainan padanan dengan gambar besar yang jelas kelihatan. Foto hanya dipaparkan di dalam halaman ini. Ia tidak dimuat naik, disimpan atau dikongsi, dan hilang apabila anda menutup halaman. Jika mahu, tambahkan beberapa perkataan di bawah setiap foto, dan petunjuk lembut boleh menunjukkan satu pasangan selepas seketika. Ini adalah cara untuk melihat foto keluarga bersama-sama.",
     "howTo": [
       "Ketik \"Pilih foto\" dan pilih dua hingga enam foto.",
       "Setiap foto muncul dua kali. Ketik satu, kemudian ketik pasangannya.",
-      "Berbual tentang setiap foto apabila anda menemuinya.",
-      "Apabila selesai, tutup halaman atau ketik \"Kosongkan foto\". Tiada apa-apa yang disimpan."
+      "Jika mahu, tambahkan beberapa perkataan di bawah setiap foto. Keterangan tidak disimpan.",
+      "Bualkan tentang setiap foto semasa anda menjumpainya.",
+      "Apabila selesai, tutup halaman atau ketik \"Kosongkan foto\". Tiada apa yang disimpan."
     ],
     "tips": [
       "Pilih foto yang jelas tentang perkara yang menggembirakan dan biasa: haiwan peliharaan, taman, tempat kegemaran, hari perkahwinan.",
@@ -800,6 +997,265 @@
       {
         "q": "Bolehkah orang bermain tanpa membaca?",
         "a": "Ya. Setiap petak ialah gambar besar, dengan namanya di bawah bagi mereka yang suka perkataan."
+      }
+    ]
+  },
+  "picnic-planner": {
+    "name": "Perancang piknik",
+    "seoTitle": "Perancang Piknik: Pilih Gambar untuk Keluar Bersama",
+    "h1": "Perancang Piknik: Pilih Gambar, Kemudian Padankannya",
+    "description": "Pilih gambar makanan dan aktiviti untuk piknik, kemudian mainkan pusingan padanan yang lembut dengannya. Tiada pemasa. Percuma untuk dimainkan dan dicetak.",
+    "short": "Pilih gambar makanan dan aktiviti untuk piknik, kemudian padankannya.",
+    "players": "Seorang diri, atau 2 orang duduk bersebelahan",
+    "intro": "Ketik gambar makanan dan aktiviti untuk memasukkannya ke dalam bakul piknik, yang memuatkan sehingga enam item. Ayat bertulis menyatakan apa yang ada dalam bakul, seperti \"Piknik kita: roti, keju, epal dan layang-layang.\" Kemudian ketik \"Mari main dengan piknik kita\" untuk pusingan padanan yang lembut daripada gambar yang dipilih. Gambar kekal dipaparkan, dan tiada masa, markah atau simpanan. \"Cetak senarai piknik kita\" mencetak senarai semak apa yang anda pilih, dengan kotak tanda untuk setiap item yang hendak dibawa.",
+    "howTo": [
+      "Ketik gambar makanan atau aktiviti. Ia akan masuk ke dalam bakul.",
+      "Ketik gambar dalam bakul untuk mengeluarkannya semula.",
+      "Pilih sekurang-kurangnya dua perkara, kemudian ketik \"Mari main dengan piknik kita\".",
+      "Ketik dua gambar yang sama. Gambar kekal dipaparkan, jadi tiada apa yang perlu diingat.",
+      "Ketik \"Cetak senarai piknik kita\" untuk senarai semak kertas untuk dibawa bersama."
+    ],
+    "tips": [
+      "Tanya orang yang bersama anda apa yang mereka mahu bawa, dan pilih gambar bersama-sama.",
+      "Bualkan tentang setiap gambar semasa ia dimasukkan: \"Adakah anda ingat layang-layang yang kita terbangkan di pantai?\"",
+      "Pada kertas, talian kosong adalah untuk apa-apa lagi yang anda mahu bawa, atau untuk nama."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa, markah atau pemenang?",
+        "a": "Tidak. Tiada masa atau kiraan, dan tiada siapa yang menang. Pusingan padanan tidak mempunyai kesilapan dan tiada mata."
+      },
+      {
+        "q": "Adakah ini pelan makanan?",
+        "a": "Tidak. Ini ialah pelan gambar untuk keluar, untuk dibualkan dan dibawa dalam bentuk kertas. Ia tidak menyatakan apa yang sepatutnya dimakan oleh sesiapa."
+      },
+      {
+        "q": "Adakah gambar yang kami pilih disimpan atau dihantar?",
+        "a": "Tidak. Bakul kekal di halaman ini sahaja. Ia tidak disimpan, dimuat naik atau dihantar, dan hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Adakah terdapat versi kertas?",
+        "a": "Ya. \"Cetak senarai piknik kita\" mencetak satu halaman, pada A4 atau US Letter. Ia menunjukkan gambar yang anda pilih dengan kotak tanda untuk setiap satu, dan talian kosong untuk apa-apa lagi."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Buku skrap",
+    "seoTitle": "Buku Skrap: Selak Foto Keluarga Bersama, Halaman demi Halaman",
+    "h1": "Buku Skrap: Tambah Foto dan Keterangan Anda, Kemudian Selak Halaman",
+    "description": "Pilih dua hingga dua belas foto keluarga anda sendiri pada peranti anda dan selaknya seperti buku, dengan beberapa perkataan di bawah setiap foto. Tiada apa yang dimuat naik. Percuma untuk dicetak.",
+    "short": "Selak foto keluarga anda sendiri bersama-sama, seperti buku.",
+    "players": "Seorang diri, atau 2 orang duduk bersebelahan",
+    "intro": "Pilih dua hingga dua belas gambar anda sendiri dari peranti ini. Setiap gambar menjadi satu halaman buku, cukup besar untuk dilihat, dengan beberapa perkataan di bawahnya jika mahu. Selak halaman dengan butang atau kekunci anak panah, dan gunakan \"Tengok bersama\" untuk duduk bersebelahan dan melihat gambar serta perkataan sahaja. Gambar anda kekal pada peranti ini. Ia tidak dimuat naik atau disimpan, dan buku itu hilang apabila anda menutup halaman. \"Cetak skrap buku\" mencetak satu gambar dan perkataannya pada setiap halaman, lengkap dengan nombor halaman.",
+    "howTo": [
+      "Ketik \"Pilih gambar\" dan pilih dua hingga dua belas gambar. Minta kebenaran dahulu sebelum menggunakan gambar seseorang yang tidak dapat memberi persetujuan.",
+      "Selak halaman dengan \"Halaman sebelumnya\" dan \"Halaman seterusnya\", atau dengan kekunci anak panah Kiri dan Kanan.",
+      "Tambah beberapa perkataan di bawah gambar jika mahu. Gunakan \"Alih lebih awal\" atau \"Alih lebih lewat\" untuk menukar susunan.",
+      "Ketik \"Tengok bersama\" untuk menyembunyikan kawalan suntingan dan melihat buku itu bersama-sama.",
+      "Ketik \"Cetak skrap buku\" untuk salinan atas kertas, atau \"Kosongkan buku\" apabila sudah selesai. Tiada apa-apa yang disimpan."
+    ],
+    "tips": [
+      "Pilih gambar benda yang menggembirakan dan biasa, seperti taman, haiwan peliharaan atau tempat kegemaran. Bualkan tentang setiap halaman semasa menyelaknya.",
+      "Biarkan orang itu menyebut beberapa perkataan untuk setiap halaman, walaupun satu perkataan sahaja, dan tulis betul-betul seperti yang disebutnya.",
+      "Di atas kertas, halaman yang dicetak boleh dimasukkan ke dalam fail, dan ahli keluarga boleh menambah gambar dan nota mereka sendiri di sekelilingnya."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa, markah atau pemenang?",
+        "a": "Tiada. Tiada apa-apa yang dimasa, dinilai atau dikira, dan tiada siapa menang. Nombor halaman hanya ada supaya anda tahu kedudukan anda dalam buku itu."
+      },
+      {
+        "q": "Adakah gambar atau keterangan kami disimpan, dimuat naik atau dihantar?",
+        "a": "Tidak. Gambar hanya dibaca oleh halaman ini, dan ia tidak dimuat naik, disimpan atau dihantar ke mana-mana. Keterangan hanya disimpan selagi halaman dibuka. Apabila anda menutup halaman, buku itu hilang."
+      },
+      {
+        "q": "Bolehkah kami mencetak buku ini?",
+        "a": "Boleh. \"Cetak skrap buku\" mencetak satu gambar dan keterangannya pada setiap halaman, lengkap dengan nombor halaman. Pilih A4 atau US Letter dalam dialog cetakan."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun diperlukan. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Papan kolaj",
+    "seoTitle": "Papan Kolaj: Dua Orang Letakkan Gambar Secara Bergilir",
+    "h1": "Papan Kolaj: Letakkan Gambar pada Satu Papan, Secara Bergilir",
+    "description": "Dua orang bergilir-gilir meletakkan gambar yang dipotong pada satu papan kongsi. Ketik satu gambar yang dipotong, kemudian satu tempat kosong. Tiada pemasa atau markah. Percuma untuk dimainkan dan dicetak.",
+    "short": "Bergilir-gilir meletakkan gambar pada satu papan kongsi.",
+    "players": "2 orang, duduk bersebelahan",
+    "intro": "Dua orang duduk bersebelahan dengan satu papan dua belas tempat dan satu dulang lapan gambar yang dipotong. Ketik satu gambar yang dipotong, kemudian ketik satu tempat kosong, dan gambar itu akan diletakkan di situ. Giliran kemudian beralih kepada orang yang satu lagi. Setiap orang mempunyai bentuk tersendiri bagi gambarnya, bulatan atau segi empat sama, supaya papan menunjukkan siapa meletakkan apa tanpa bergantung pada warna. Mana-mana orang boleh melepaskan giliran, dan satu langkah boleh dibatalkan. Tiada apa-apa dimasa, dinilai atau disimpan. \"Cetak papan\" mencetak papan kosong dan gambar yang hendak dipotong.",
+    "howTo": [
+      "Ketik satu gambar yang dipotong di dalam dulang. Ia akan menunjukkan \"Dipilih\" semasa dipilih.",
+      "Ketik satu tempat kosong pada papan. Gambar yang dipotong akan diletakkan di situ, dan giliran beralih.",
+      "Mana-mana orang boleh ketik Lepas pada bila-bila masa, atau \"Ambil balik keping terakhir\" untuk membatalkan satu langkah.",
+      "Ketik \"Satu lagi set gambar\" untuk dulang yang berbeza. Gambar yang sudah berada di atas papan kekal di tempatnya.",
+      "Ketik \"Mula semula\" untuk mengosongkan papan, dan \"Letak balik\" jika anda berubah fikiran."
+    ],
+    "tips": [
+      "Sebut nama setiap gambar semasa ia diletakkan, seperti \"cawan teh diletakkan di sebelah rumah\". Bercakap menjadikannya aktiviti bersama.",
+      "Biarkan kedua-dua orang bergilir-gilir memilih gambar yang dipotong juga, bukan hanya tempatnya, supaya setiap orang ada suara.",
+      "Di atas kertas, potong lapan gambar itu dengan bantuan orang dewasa, kemudian letakkannya pada kotak yang dicetak."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa, markah atau pemenang?",
+        "a": "Tiada. Tiada apa-apa yang dimasa, dinilai atau dikira, dan tiada siapa menang. Papan yang penuh ialah papan yang mempunyai satu gambar di setiap tempat."
+      },
+      {
+        "q": "Adakah gambar yang kami letakkan disimpan atau dihantar?",
+        "a": "Tidak. Papan hanya kekal pada halaman ini. Ia tidak disimpan, dimuat naik atau dikira, dan ia hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Bagaimana kami tahu gambar siapa yang mana?",
+        "a": "Setiap orang mempunyai satu bentuk. Gambar orang pertama mempunyai bulatan di penjuru, dan gambar orang kedua mempunyai segi empat sama, dengan setiap nama ditunjukkan di atas papan."
+      },
+      {
+        "q": "Adakah terdapat versi kertas?",
+        "a": "Ada. \"Cetak papan\" mencetak papan kosong sebagai dua belas kotak, dengan lapan gambar di bawah pada saiz yang sama, serta garisan potong. Orang dewasa boleh melakukan kerja memotong."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun diperlukan. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Perancang taman",
+    "seoTitle": "Perancang Taman: Susun Kawasan daripada Gambar Tumbuhan",
+    "h1": "Perancang Taman: Pilih Gambar dan Susun Kawasan",
+    "description": "Pilih gambar tumbuhan dan barang taman, kemudian letakkannya pada dua belas bedengan di dalam sebidang tanah. Ketik satu gambar, kemudian satu bedengan. Tiada pemasa atau markah. Percuma untuk dimainkan dan dicetak.",
+    "short": "Pilih gambar tumbuhan dan susun sebidang tanah dengan dua belas bedengan.",
+    "players": "Seorang, atau 2 orang duduk bersebelahan",
+    "intro": "Pilih gambar daripada dulang tumbuhan dan barang taman, kemudian ketik petak untuk meletakkan setiap satu di tempatnya. Satu plot mempunyai dua belas petak, dan setiap petak memuatkan satu gambar. Ringkasan dalam bentuk perkataan menyatakan apa yang ada dalam pelan anda, seperti \"Pelan anda mempunyai 3 sunflower, 2 rose dan 1 tree.\" Tiada masa, markah atau simpanan, dan tiada giliran. Ini ialah pelan bergambar untuk dibualkan, bukan nasihat menanam. \"Print the plan\" mencetak petak beserta gambar yang anda pilih, dengan petak kosong untuk dilukis dan garisan untuk nota.",
+    "howTo": [
+      "Ketik gambar dalam dulang. Ia menunjukkan \"Chosen\" semasa dipilih.",
+      "Ketik petak. Gambar itu diletakkan di situ, dan pilihan itu disimpan.",
+      "Untuk menukar petak, pilih gambar lain dan ketik petak tersebut. Untuk mengosongkan petak, ketiknya tanpa memilih gambar.",
+      "Ketik \"Start again\" untuk mengosongkan semua petak, dan \"Put it back\" jika anda berubah fikiran.",
+      "Ketik \"Print the plan\" untuk salinan kertas plot dan ringkasan."
+    ],
+    "tips": [
+      "Bualkan setiap gambar semasa ia diletakkan, seperti \"sunflower itu di sebelah sangkar burung\". Perbualan menjadikannya aktiviti bersama.",
+      "Biarkan setiap orang memilih gambar secara bergilir, atau pilih gambar bersama-sama, supaya kedua-dua pihak mempunyai suara dalam plot.",
+      "Pada kertas, petak kosong ialah untuk melukis idea anda sendiri, dan garisan nota ialah untuk apa-apa yang ingin anda ingat."
+    ],
+    "faq": [
+      {
+        "q": "Adakah ini nasihat menanam?",
+        "a": "Tidak. Ini ialah pelan bergambar untuk dibualkan, bukan nasihat menanam. Ia tidak menyatakan bila, di mana atau bagaimana untuk menanam apa-apa, kerana itu bergantung pada tempat tinggal anda."
+      },
+      {
+        "q": "Adakah terdapat pemasa, markah atau pemenang?",
+        "a": "Tidak. Tiada apa-apa yang dimasa, dinilai, diberi kadar atau dikira, dan tiada siapa yang menang. Plot yang penuh tidak mendapat mesej khas."
+      },
+      {
+        "q": "Adakah gambar yang kami pilih disimpan atau dihantar?",
+        "a": "Tidak. Pelan itu kekal di halaman ini sahaja. Ia tidak disimpan, dimuat naik atau dikira, dan hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Adakah terdapat versi kertas?",
+        "a": "Ada. \"Print the plan\" mencetak satu halaman, pada A4 atau US Letter. Ia menunjukkan dua belas petak dengan gambar yang anda pilih, ringkasan dalam bentuk perkataan, dan garisan kosong untuk nota."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Dinding mewarna berkumpulan",
+    "seoTitle": "Dinding Mewarna Berkumpulan: Satu Gambar untuk Ramai Tangan",
+    "h1": "Dinding Mewarna Berkumpulan: Satu Gambar Besar, Diwarnakan Bersama",
+    "description": "Cetak satu gambar besar merentasi beberapa halaman, supaya sebuah keluarga, kelas atau rumah penjagaan boleh mewarna satu dinding bersama. Percuma untuk dicetak. Tiada pemasa atau markah.",
+    "short": "Cetak satu gambar besar merentasi halaman untuk ramai orang mewarna.",
+    "players": "Satu kumpulan, di meja atau di dinding",
+    "intro": "Pilih gambar daripada halaman mewarna dan dinding 4, 6 atau 9 halaman. Cetak dinding: halaman pertama menunjukkan cara menyusunnya, dan setiap halaman lain ialah satu bahagian daripada gambar besar yang sama, dengan label seperti A1 di sudutnya. Setiap orang mewarna satu atau lebih halaman, dalam sebarang warna dan gaya. Halaman kemudian disusun mengikut label dan dicantum dengan pita pelekat di belakang. Tiada apa-apa yang dimasa, dinilai atau disimpan.",
+    "howTo": [
+      "Pilih gambar, kemudian pilih berapa halaman dinding itu akan ada.",
+      "Baca peta di skrin, yang menunjukkan di mana setiap label diletakkan.",
+      "Ketik \"Print the wall\" dan cetak semua halaman.",
+      "Beri setiap orang satu atau lebih halaman untuk diwarnakan. Warna dan gaya tidak perlu sepadan.",
+      "Susun halaman mengikut label, dan cantumkan dengan pita pelekat di belakang."
+    ],
+    "tips": [
+      "Berikan halaman dengan garis luar yang paling mudah kepada orang yang mahukan tugas yang lebih tenang, dan yang lebih sibuk kepada sesiapa yang menikmatinya.",
+      "Gantung dinding di tempat yang semua orang boleh lihat, dan bualkan bahagian-bahagiannya bersama-sama.",
+      "Pilih dinding yang lebih kecil untuk meja kecil, dan yang lebih besar untuk bilik."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa, markah atau pemenang?",
+        "a": "Tidak. Tiada apa-apa yang dimasa, dinilai atau dikira, dan tiada siapa yang menang. Dinding itu hanyalah gambar yang diwarnakan oleh ramai orang."
+      },
+      {
+        "q": "Adakah halaman disimpan atau dihantar ke mana-mana?",
+        "a": "Tidak. Dinding dibuat di halaman ini sahaja. Ia tidak disimpan, dimuat naik atau dikira, dan hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Adakah warna perlu sepadan?",
+        "a": "Tidak. Setiap orang boleh menggunakan sebarang warna dan gaya. Halaman itu tetap bersambung menjadi satu gambar."
+      },
+      {
+        "q": "Adakah terdapat versi kertas?",
+        "a": "Ada. Dinding yang dicetak ialah keseluruhan permainan: halaman pertama dengan langkah-langkah dan peta, dan satu halaman untuk setiap bahagian gambar."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Teka-teki bentuk tenang",
+    "seoTitle": "Teka-teki Bentuk Tenang: Padankan Bentuk dalam Gambar",
+    "h1": "Teka-teki Bentuk Tenang: Padankan Kepingan ke dalam Gambar",
+    "description": "Padankan bentuk ringkas ke dalam garis luar rumah, bot, ikan dan banyak lagi. Ketik sekeping, kemudian ruang yang berbentuk sama. Tiada pemasa atau markah. Percuma untuk dimainkan dan dicetak.",
+    "short": "Padankan bentuk ringkas ke dalam gambar, mengikut kadar anda sendiri.",
+    "players": "1 orang, di meja",
+    "intro": "Gambar garis besar, seperti rumah, bot atau roket, dibahagikan kepada ruang-ruang. Setiap ruang ada sekeping bentuk yang sama, sama ada segi tiga besar atau kecil, segi empat sama, segi empat selari atau segi empat tepat. Ketik satu kepingan, kemudian ketik ruang yang berbentuk sama, dan kepingan itu akan muat. Ruang itu akan memusingkan kepingan untuk anda, jadi tiada apa yang perlu diseret atau dipusingkan. Jika bentuk kepingan berbeza daripada ruang, kepingan itu akan kekal dalam dulang dengan nota ringkas. Tiada masa atau markah, dan tiada apa-apa yang disimpan atau dihantar. \"Cetak bentuk ini\" mencetak garis besar dan kepingannya pada satu halaman untuk diwarna atau digunting.",
+    "howTo": [
+      "Ketik satu kepingan dalam dulang. Ia akan memaparkan \"Dipilih\" semasa ia dipilih.",
+      "Ketik satu ruang dalam gambar. Jika bentuknya sepadan, kepingan itu akan muat di situ.",
+      "Jika tidak sepadan, cuba ruang lain. Tiada apa yang hilang dengan mencuba.",
+      "Ketik satu kepingan dalam gambar untuk mengembalikannya ke dalam dulang, atau gunakan \"Mula semula\" untuk mengembalikan semuanya.",
+      "Apabila setiap ruang sudah ada kepingannya, gambar itu siap. Ketik \"Bentuk lain\" untuk gambar baharu, atau ketik Rehat untuk berhenti."
+    ],
+    "tips": [
+      "Hidupkan garis petunjuk untuk melihat setiap ruang. Matikan garis itu untuk lebih cabaran teka-teki, dengan hanya garis besar sebagai panduan.",
+      "Mulakan dengan bentuk besar, seperti segi tiga besar dan segi empat tepat. Kepingan kecil selalunya dimasukkan terakhir.",
+      "Sebut nama bentuk dengan kuat semasa anda bekerja: \"sebuah segi tiga, sebuah segi empat sama, sebuah segi empat tepat yang panjang\". Bercakap boleh menjadikannya aktiviti bersama.",
+      "Di atas kertas, warnakan kepingan dengan dua atau tiga warna, atau guntingnya dengan bantuan orang dewasa."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa, markah atau kiraan pergerakan?",
+        "a": "Tiada. Tiada apa yang diukur masa, dikira atau dinilai. Kepingan yang tidak muat hanya tidak diletakkan, dan anda boleh berhenti bila-bila masa."
+      },
+      {
+        "q": "Adakah apa yang kami hasilkan disimpan atau dihantar?",
+        "a": "Tidak. Gambar itu kekal pada halaman ini sahaja. Ia tidak disimpan, dimuat naik atau dikira, dan akan hilang apabila anda menutup halaman."
+      },
+      {
+        "q": "Adakah ruangnya cukup besar untuk tangan yang menggeletar atau skrin kecil?",
+        "a": "Garis besar dilukis sebesar yang dibenarkan oleh skrin, dan setiap ruang ialah butang yang boleh dicapai dengan jari atau dengan kekunci Tab. Kepingan dalam dulang ialah butang besar halaman ini."
+      },
+      {
+        "q": "Adakah versi kertas tersedia?",
+        "a": "Ada. \"Cetak bentuk ini\" mencetak satu gambar pada satu halaman: garis besar dengan garis petunjuknya, dan kepingan yang dilukis pada saiz yang sama di sebelahnya. Warnakan kepingan itu, atau guntingnya supaya muat. Orang dewasa boleh membantu memotong."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
       }
     ]
   },
@@ -869,6 +1325,92 @@
       {
         "q": "Bagaimana jika seseorang tidak mahu menyebut apa-apa?",
         "a": "Sesiapa pun boleh melepasi giliran, dan orang seterusnya meneruskan. Tiada sesiapa yang perlu menamakan atau mengingati gambar."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun diperlukan. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Pemandangan tenang",
+    "seoTitle": "Pemandangan Tenang: Satu Gambar Pada Satu Masa",
+    "h1": "Pemandangan Tenang: Satu Gambar Pegun Pada Satu Masa",
+    "description": "Satu gambar pegun yang besar pada satu masa, setiap satu dengan satu baris lembut di bawahnya. Tekan Seterusnya atau Sebelumnya apabila anda sudah bersedia. Tiada apa yang bergerak atau dimainkan dengan sendirinya, dan tiada pemasa atau markah. Percuma untuk dimainkan, tanpa akaun.",
+    "short": "Lihat satu gambar pegun pada satu masa, mengikut kadar anda sendiri.",
+    "players": "Seorang diri, atau kumpulan dalam bilik yang sama",
+    "intro": "Satu gambar besar memenuhi skrin, dengan satu baris ringkas di bawahnya. Tekan \"Gambar seterusnya\" atau \"Gambar sebelumnya\" apabila anda bersedia untuk gambar lain. Tiada apa yang bergerak, pudar atau berubah dengan sendirinya, dan tiada masa diukur. Ketik \"Gambar lebih besar\" untuk memaparkan gambar sahaja, supaya seluruh bilik dapat melihatnya di televisyen.",
+    "howTo": [
+      "Lihat gambar itu bersama-sama.",
+      "Bacakan baris di bawahnya dengan kuat jika anda mahu.",
+      "Tekan \"Gambar seterusnya\" atau \"Gambar sebelumnya\" apabila anda bersedia.",
+      "Ketik \"Gambar lebih besar\" untuk memaparkan gambar sahaja, dan \"Tunjuk semua\" untuk mengembalikan yang lain.",
+      "Berhenti bila-bila masa dengan \"Setakat ini dahulu\"."
+    ],
+    "tips": [
+      "Biarkan orang itu memilih bila mahu beralih: tunggu sehingga mereka melihat, kemudian tekan Seterusnya.",
+      "Untuk kumpulan, gunakan \"Gambar lebih besar\" pada televisyen atau skrin besar dan duduk di tempat semua orang dapat melihatnya.",
+      "Tiada cara yang betul untuk melihat gambar. Sekadar berbual tentangnya sudah merupakan satu aktiviti yang lengkap."
+    ],
+    "faq": [
+      {
+        "q": "Adakah terdapat pemasa atau markah?",
+        "a": "Tiada. Tiada jam, markah, pengira pergerakan atau kekalahan. Anda boleh berhenti pada bila-bila masa, dan berhenti di tengah jalan ialah cara yang sepenuhnya baik untuk menamatkannya."
+      },
+      {
+        "q": "Adakah ia mengeluarkan bunyi atau bergerak?",
+        "a": "Tidak. Tiada bunyi, dan tiada apa yang bergerak, pudar atau berubah dengan sendirinya. Gambar hanya bertukar apabila anda menekan butang."
+      },
+      {
+        "q": "Adakah versi kertas tersedia?",
+        "a": "Tidak. Ini ialah gambar untuk dilihat bersama-sama pada skrin. Foto kegemaran atau poskad di atas meja memberikan pengalaman yang sama."
+      },
+      {
+        "q": "Adakah ia percuma, dan perlukah saya mendaftar?",
+        "a": "Ya, ia percuma, dan tiada akaun, pendaftaran atau muat turun. Ia berfungsi dalam pelayar web pada telefon, tablet atau komputer."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Sapuan warna",
+    "seoTitle": "Sapuan Warna: Warna Lembut Merentasi Halaman",
+    "h1": "Sapuan Warna: Cat Warna Lembut Merentasi Halaman",
+    "description": "Berus lembut mencat sapuan warna yang luas dan lutsinar merentasi satu halaman, dalam empat warna dan dua saiz berus. Tiada titik akhir, tiada markah dan tiada pemasa. Percuma untuk dimainkan, tanpa akaun.",
+    "short": "Cat sapuan warna lembut merentasi halaman, mengikut kadar anda sendiri.",
+    "players": "Seorang diri, atau 2 orang duduk bersebelahan",
+    "intro": "Satu halaman dan satu berus lembut. Pilih warna dan saiz berus, kemudian seret di atas halaman untuk melapisi warna. Halaman ini tiada titik akhir: tiada apa yang perlu disiapkan, tiada gambar yang perlu betul dan tiada markah. Lapiskan seberapa banyak yang anda mahu, atau letakkan berus dan lihat sahaja. Halaman baharu akan memadamkan semuanya, dan Pulihkan akan mengembalikannya.",
+    "howTo": [
+      "Pilih warna. Setiap warna ada nama bertulisnya.",
+      "Pilih Lebar atau Sangat lebar. Sangat lebar meliputi lebih banyak halaman dengan setiap sapuan.",
+      "Seret di atas halaman dengan jari, tetikus atau pen untuk melapisi warna.",
+      "Atau gunakan kekunci anak panah untuk menggerakkan gelang berus, dan Space untuk meletakkan berus turun atau naik.",
+      "Ketik \"Halaman baharu\" untuk memadamkan halaman, kemudian \"Pulihkan\" jika anda mahu lapisan warna itu kembali."
+    ],
+    "tips": [
+      "Biarkan orang yang anda jaga memilih warna untuk lapisan seterusnya, dan bualkan tentang warna-warna itu semasa ia dilapisi.",
+      "Sangat lebar lebih mudah dikawal jika tangan bergetar, kerana berus tidak perlu tepat.",
+      "Tiada cara yang betul untuk melukis. Berhenti bila-bila masa anda mahu, atau ketik \"Setakat ini\"."
+    ],
+    "faq": [
+      {
+        "q": "Adakah ada penamatan, markah atau pemasa?",
+        "a": "Tiada. Halaman ini tiada titik akhir. Tiada apa-apa yang disiapkan, dikira, diukur masa atau dinilai, dan tiada mesej yang pernah meminta anda melakukan lebih daripada itu."
+      },
+      {
+        "q": "Adakah halaman ini disimpan atau dihantar?",
+        "a": "Tidak. Tiada apa-apa yang disimpan, dicetak atau dihantar ke mana-mana. Lapisan warna kekal di halaman ini sehingga anda meninggalkannya."
+      },
+      {
+        "q": "Bolehkah saya menggunakannya tanpa tetikus atau skrin sentuh?",
+        "a": "Boleh. Apabila halaman ini aktif, kekunci anak panah menggerakkan gelang berus, dan kekunci Space meletakkan berus turun atau naik. Skrin menunjukkan \"Berus turun\" atau \"Berus naik\" setiap kali."
+      },
+      {
+        "q": "Adakah ada versi atas kertas?",
+        "a": "Tiada. Cat air atas kertas adalah idea yang sama, iaitu berus basah dan satu warna pada satu masa, jadi ia aktiviti yang berbeza untuk dicuba di meja."
+      },
+      {
+        "q": "Apakah warnanya?",
+        "a": "Kuning, oren, hijau dan ungu, empat warna yang sama digunakan dalam permainan gambar kami yang lain. Setiap warna ada nama bertulisnya, dan nama itu dipaparkan di sebelah pilihan."
       },
       {
         "q": "Adakah ia percuma, dan perlukah saya mendaftar?",

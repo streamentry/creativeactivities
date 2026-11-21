@@ -33,7 +33,17 @@
       "label": "Rozmiar tekstu",
       "smaller": "Standardowy tekst",
       "larger": "Większy tekst",
-      "contrast": "Wyższy kontrast"
+      "contrast": "Wyższy kontrast",
+      "colors": "Kolory",
+      "light": "Jasne",
+      "dark": "Ciemne",
+      "device": "Tak samo jak na tym urządzeniu",
+      "lineLength": "Długość wiersza",
+      "standardLines": "Standardowa",
+      "shorterLines": "Krótsze wiersze",
+      "spacing": "Odstępy",
+      "standardSpacing": "Standardowe",
+      "moreSpace": "Więcej miejsca"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Zagraj: {name} →",
     "readGuide": "Przeczytaj poradnik"
   },
+  "listen": {
+    "listenSteps": "Posłuchaj kroków",
+    "pause": "Wstrzymaj",
+    "resume": "Wznów",
+    "stop": "Zatrzymaj",
+    "speed": "Prędkość",
+    "normal": "Normalna",
+    "slower": "Wolniej",
+    "reading": "Odczytuję kroki na głos.",
+    "paused": "Wstrzymano. Naciśnij Wznów, aby kontynuować.",
+    "note": "Korzysta z głosu wbudowanego w Państwa urządzenie. Niektóre urządzenia wysyłają tekst do swojego producenta, aby go odczytać.",
+    "listen": "Posłuchaj",
+    "stepLabel": "Posłuchaj kroku {n}",
+    "stopStep": "Zatrzymaj krok {n}"
+  },
   "playCta": {
     "title": "Masz ochotę na spokojną grę?",
     "text": "Duże obrazki, bez odliczania czasu, bez punktów i bez rejestracji. Grajcie razem w przeglądarce.",
@@ -393,6 +418,14 @@
       "seoTitle": "O Creative Activities: nasze podejście",
       "description": "Dlaczego Creative Activities nie ma zegarów, wyników ani serii dni, dlaczego obrazki pozostają widoczne i czego nie będziemy twierdzić na temat zdrowia.",
       "crumb": "Nasze podejście",
+      "sponsors": {
+        "heading": "Sponsorzy i partnerzy",
+        "none": "Creative Activities nie ma sponsorów, płatnych miejsc reklamowych ani partnerów, których logo pojawiają się na stronie.",
+        "listed": "Oto sponsorzy i partnerzy Creative Activities. Każda taka współpraca jest też opisana na stronie, na której się pojawia.",
+        "policy": "Gdyby to się zmieniło, każda taka strona powie o tym w miejscu, w którym się pojawia. Żadne zajęcie nie będzie nigdy oznaczone sponsorem, a lista partnerów znajdzie się na tej stronie.",
+        "listHeading": "Lista partnerów",
+        "noPartners": "Obecnie nie ma partnerów."
+      },
       "lede": "Creative Activities tworzy spokojne zajęcia dla dorosłych, z których mogą razem korzystać dwie osoby, siedząc obok siebie: czy jedna z nich opiekuje się drugą, czy po prostu chcą miło spędzić czas razem.",
       "bodyHtml": "<h2>Dla kogo jest ta strona</h2><p>Dla każdego, kto się nim opiekuje: rodzica, dziadka lub babci, dziecka, partnera, przyjaciela albo osoby żyjącej z demencją. Z tych samych stron mogą korzystać rodziny, osoby starsze i personel zajmujący się aktywnościami.</p><h2>W co wierzymy</h2><p>Sens zajęcia tkwi w samej chwili: w rozmowie, uśmiechu, satysfakcji z dopasowania dwóch obrazków albo po prostu w siedzeniu blisko siebie. Nie chodzi o to, by kogokolwiek oceniać, pchać dalej czy czegoś dowodzić.</p><p>Wiele aplikacji do ćwiczenia pamięci opiera się na szybkości, wynikach, seriach dni i poziomach. Dla kogoś zmęczonego, źle się czującego albo żyjącego z demencją może to przypominać egzamin, którego nie da się zdać. Zaprojektowaliśmy coś odwrotnego i trzymamy się tych zasad:</p><ul><li><strong>Nie ma czego oblać.</strong> Żadnych zegarów, wyników, liczników ruchów, żyć, serii dni, konfetti ani odliczania, na żadnym ekranie.</li><li><strong>Rozpoznawanie zamiast przypominania.</strong> Domyślnie obrazki pozostają widoczne. Podpowiedzi zachęcają do rozmowy i nigdy nie egzaminują z imion ani wspomnień.</li><li><strong>Duże, proste i spokojne.</strong> Duży tekst i obrazki, wysoki kontrast oraz przyciski, które zawsze są w tym samym miejscu.</li><li><strong>Godność dorosłego.</strong> Zdjęcia z prawdziwego świata i proste, ciepłe słowa. Bez kreskówek, protekcjonalnych pochwał ani nagród w postaci emoji.</li><li><strong>Łatwe wyjście.</strong> „Na dziś koniec” jest zawsze widoczne. Przerwanie w połowie to dobry wynik.</li><li><strong>Domyślnie prywatnie.</strong> Bez kont i reklam. Zdjęcia, które wybierzesz, zostają na Twoim urządzeniu.</li></ul><h2>Czego nie twierdzimy</h2><p>Nasze gry i zajęcia służą przyjemności i kontaktowi z drugą osobą. Nie diagnozują, nie badają, nie mierzą, nie leczą, nie spowalniają ani nie zapobiegają demencji ani chorobie Alzheimera i nikt nie powinien ich wybierać właśnie w tym celu. Kiedy piszemy o badaniach nad zdrowiem, mówimy wprost, gdzie dowody są słabe, i nigdy nie łączymy ich z naszymi zajęciami.</p><h2>Kim jesteśmy</h2><p>Creative Activities to niewielki, niezależny zespół. Nie jesteśmy klinicystami. Nasze przewodniki opieramy na publikowanych zaleceniach organizacji takich jak National Institute on Aging i Alzheimer’s Association, a każdy przewodnik wymienia swoje źródła. Przeczytaj <a href=\"/editorial-policy/\">jak piszemy i sprawdzamy nasze strony</a>.</p><h2>Napisz, co by pomogło</h2><p>Chętnie dowiemy się, co u Ciebie sprawdza się, a co nie, zwłaszcza od osób żyjących z demencją, opiekunów rodzinnych i personelu zajmującego się aktywnościami. Napisz na adres <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Nie ma wersji papierowej. Ta gra korzysta z własnych zdjęć, które pozostają w przeglądarce i nigdy nie są wysyłane, więc strona nie może ich wydrukować. Aby zagrać na papierze, wydrukuj w domu dwie kopie kilku ulubionych zdjęć i dopasowuj je na stole.",
         "paced": "Nie ma wersji papierowej. Okrąg na ekranie wyznacza powolne, równe tempo, czego wydrukowana strona nie może zapewnić, więc byłaby to inna aktywność. Spokojna chwila wspólnej przerwy bez ekranu zawsze wchodzi w grę.",
+        "turns": "Ta gra nie ma wersji papierowej. Aby znaleźć pary na stole, wydrukuj karty z obrazkami z gry Pary obrazków i po kolei je odwracaj.",
+        "screen": "Nie ma wersji papierowej. To obrazek do wspólnego oglądania na ekranie. Ulubione zdjęcie albo pocztówka na stole robi to samo.",
+        "wash": "Nie ma wersji papierowej. Akwarela na papierze to ta sama idea: mokry pędzel i jeden kolor naraz.",
         "sayings": "Wersji papierowej jeszcze nie ma. Na papierze wszystkie zakończenia byłyby widoczne od razu, a łagodny krok „Pokaż zakończenie” zostałby utracony. Przysłowia można przeczytać razem z ekranu albo wymienić kilka, które obie strony znają."
       }
     }

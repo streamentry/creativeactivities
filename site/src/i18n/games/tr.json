@@ -381,6 +381,58 @@
       }
     ]
   },
+  "drawing-duet": {
+    "name": "Çizim ikilisi",
+    "seoTitle": "Çizim İkilisi: İki Kişi, Tek Resim",
+    "h1": "Çizim İkilisi: İki Kişi, Tek Sayfa",
+    "description": "İki kişi, ortak tek bir tuvalde sırayla birer çizgi çizer ve her biri kendi rengini kullanır. Puan ya da kazanan yoktur ve resim kaydedilebilir ya da yazdırılabilir. Hesap açmadan, ücretsiz oynanır.",
+    "short": "Yanınızdaki biriyle sırayla tek bir ortak resim çizin.",
+    "players": "2 kişi, yan yana",
+    "intro": "Tek tuval, iki kişi. Her biriniz bir renk seçersiniz ve her rengin yazılı bir adı vardır. Sırayla çizersiniz: bir çizgi ya da şekil çizip kalemi diğerine verirsiniz. İkiniz de istediğiniz zaman sırayı pas geçebilirsiniz. Doğru bir resim yoktur, puan da yoktur. Beğenirseniz resmi cihazınıza kaydedebilir ya da kağıt sürümünü yazdırabilirsiniz: bir sayfa, iki kalem.",
+    "howTo": [
+      "Her biriniz bir renk seçin. Afişte sıranın kimde olduğu, o kişinin renginin adıyla birlikte yazar.",
+      "Parmağınızla, farenizle ya da kalemle bir çizgi ya da şekil çizin. İşaretleyici kullanmadan çizmek için ok tuşlarını ve Boşluk tuşunu kullanabilirsiniz.",
+      "Hazır olduğunuzda \"Kalemi ver\" düğmesine dokunun. İkiniz de istediğiniz zaman sırayı pas geçebilirsiniz.",
+      "Sırası gelen kişinin en son çizgisini kaldırmak için \"Son çizgimi geri al\" düğmesine dokunun.",
+      "Bu cihaza bir resim dosyası kaydetmek için \"Resmi kaydet\", bir sayfa ve iki kalemle kağıt sürümü için ise \"Kağıt sürümünü yazdır\" düğmesine dokunun."
+    ],
+    "tips": [
+      "Yan yana oturun ve çizerken konuşun: \"Köşeye bir güneş ekleyeceğim.\"",
+      "Bir noktayla, bir çizgiyle ya da basit bir şekille başlayın ve diğer kişinin bunu tamamlamasına izin verin.",
+      "Hiçbir şeyin resmini çizmek zorunda değilsiniz. Bir çizgi deseni de bir manzara kadar güzel olabilir.",
+      "Durmak isterseniz \"Şimdilik bitirdim\" düğmesine dokunun. Resmi kaydetmediğiniz sürece, sayfadan ayrıldıktan sonra resminiz saklanmaz."
+    ],
+    "faq": [
+      {
+        "q": "Bir kazanan ya da puan var mı?",
+        "a": "Hayır. Kazanan, puan, zamanlayıcı ya da sıra sayacı yoktur. Doğru bir resim yoktur ve hiçbir şey sıralanmaz ya da karşılaştırılmaz."
+      },
+      {
+        "q": "Resim kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır, hiçbir şey bir yere gönderilmez. Resim, siz sayfayı kapatana kadar bu sayfada kalır. Resmi kaydet düğmesine dokunursanız, indirebilmeniz için cihazınızda bir dosya oluşturulur. Hiçbir şey yüklenmez."
+      },
+      {
+        "q": "Bir çizgiyi geri alabilir miyim?",
+        "a": "Evet. \"Son çizgimi geri al\" düğmesi, sırası gelen kişinin en son çizgisini kaldırır. \"Baştan başla\" düğmesi sayfayı temizler, \"Geri getir\" düğmesi ise çizgileri yalnızca bir adım geri getirir."
+      },
+      {
+        "q": "Fare ya da dokunmatik ekran olmadan kullanabilir miyim?",
+        "a": "Evet. Çizim alanı odaklandığında ok tuşları kalem noktasını hareket ettirir, Boşluk tuşu ise kalemi indirir ya da kaldırır. Ekranda her seferinde \"Kalem indi\" ya da \"Kalem kalktı\" yazar."
+      },
+      {
+        "q": "Renkler hangileri ve renk körlüğü olan kişiler bunları birbirinden ayırt edebilir mi?",
+        "a": "Sarı, turuncu, yeşil ve mor; diğer resim oyunlarımızda kullanılan aynı dört renk. Her birinin yazılı bir adı var ve bu adlar sıra bilgisinin yanında görünür. Renkler, yaygın renk görme farklılıklarının simülasyonlarıyla kontrol edildi, ancak renk görme farklılığı olan bir kişi henüz denemedi."
+      },
+      {
+        "q": "Kağıt sürümü var mı?",
+        "a": "Evet. \"Kağıt sürümünü yazdır\" düğmesi, üzerinde kurallar yazan bir sayfa ve çizim için büyük boş bir çerçeve yazdırır; iki kişi iki kalemle kullanabilir. Siyah beyaz yazdırmada da çalışır."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir. Hesap, kayıt ya da indirme gerekmez. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
   "build-together": {
     "name": "Birlikte inşa edin",
     "seoTitle": "Birlikte İnşa Edin: İki Kişi Tek Bir Desen Oluşturur",
@@ -481,6 +533,150 @@
       }
     ]
   },
+  "seasonal-pack": {
+    "name": "Mevsim bulmaca paketi",
+    "seoTitle": "Mevsim Bulmaca Paketi: Yazdırılabilir Kağıt Bulmacalar",
+    "h1": "Mevsim Bulmaca Paketi: Her Mevsim İçin Üç Kağıt Bulmaca",
+    "description": "İlkbahar, yaz, sonbahar ya da kış için üç küçük yazdırılabilir bulmaca: çiftleri eşleştirin, farklı olanı daire içine alın ve bir resmi boyayın. Bir mevsim seçin ya da dinlenme günü olsun. Yazdırmak ücretsizdir.",
+    "short": "Seçtiğiniz mevsim için üç yazdırılabilir bulmaca ya da bir dinlenme günü.",
+    "players": "Her yaştan, tek başına ya da yan yana",
+    "intro": "Bir mevsim seçin; sayfa, o mevsimin resimlerinden alınmış üç küçük kağıt bulmacayı gösterir: çizgilerle birleştirilecek iki sıra, farklı olanı daire içine alınacak dört resimlik bir sıra ve boyanacak bir resim. Bir sayfa yazdırın, sonra bir, iki ya da üçünü kendi temponuzda yapın. Bunun yerine \"Bugün dinlenme günü\" seçeneğini seçerseniz yapacak bir şey yoktur.",
+    "howTo": [
+      "Bir mevsim seçin ya da \"Bugün dinlenme günü\" seçeneğini işaretleyin.",
+      "Üç bulmacaya bakın, ardından \"Bu mevsimin paketini yazdır\" düğmesine dokunun.",
+      "Bir, iki ya da üçünü kendi temponuzda yapın.",
+      "Eşleşen resimleri bir çizgiyle birleştirin, farklı olanı daire içine alın ve büyük resmi boyayın.",
+      "İstediğiniz zaman durun. Dinlenme günü de iyi bir gündür."
+    ],
+    "tips": [
+      "Bugün en kolay gelen bulmacayla başlayın. Bir tane yeterlidir.",
+      "İsterseniz her resmin adını yüksek sesle söyleyin.",
+      "Kuru boya ya da kurşun kalem kullanın. Her renk olabilir.",
+      "Sayfayı bir dahaki sefere saklayın ya da bırakın."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı ya da puan var mı?",
+        "a": "Hayır. Saat, puan, hamle sayacı ya da kaybetme yoktur. İstediğiniz an durabilirsiniz ve yarıda bırakmak da bitirmenin tamamen geçerli bir yoludur."
+      },
+      {
+        "q": "Sayfa hangi mevsimde olduğunu biliyor mu?",
+        "a": "Hayır. Mevsimi siz seçersiniz. Sayfa tarihe ya da konumunuza bakmaz."
+      },
+      {
+        "q": "Puan ya da doğru bir cevap var mı?",
+        "a": "Hayır. Ekranda hiçbir şeye süre tutulmaz, puan verilmez ve kontrol edilmez; cevaplar da gösterilmez. Her bulmaca yalnızca bakılacak, birleştirilecek, daire içine alınacak ya da boyanacak bir resimdir."
+      },
+      {
+        "q": "Bugün kimse bulmaca yapmak istemezse ne olur?",
+        "a": "\"Bugün dinlenme günü\" seçeneğini seçin. Sayfada o zaman sakin tek bir satır görünür; yazdırılacak veya yapılacak bir şey yoktur."
+      },
+      {
+        "q": "Yazdırılan sayfada ne var?",
+        "a": "Seçtiğiniz mevsim için tek bir sayfa: üç bulmacası, her biri nasıl yapılacağına dair kısa bir açıklamayla birlikte, ve birini, ikisini ya da üçünü birden yapabileceğinizi belirten bir satır."
+      },
+      {
+        "q": "Ücretsiz mi, ve kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir; hesap, kayıt ya da indirme gerekmez. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Birlikte kart süsleyin",
+    "seoTitle": "Birlikte Kart Süsleyin: Yazdırılabilir Tebrik Kartı",
+    "h1": "Birlikte Kart Süsleyin: Birine Kart Yapın",
+    "description": "İki kişi, bir doğum günü, bir teşekkür ya da sadece öylesine yazdırılabilir bir tebrik kartını birlikte süsler, sonra arkasına birlikte bir mesaj yazar. Yalnızca boya kalemi ya da kalem kullanılır. Zamanlayıcı ya da puan yoktur. Yazdırmak ücretsizdir.",
+    "short": "Yazdırılabilir bir tebrik kartını birlikte süsleyin.",
+    "players": "2 kişi, yan yana",
+    "intro": "Yan yana oturan iki kişi için sakin bir üretme oyunu. Bir sayfa yazdırırsınız; bu sayfa ikiye katlanarak bir kart olur. Bir vesile seçersiniz, örneğin doğum günü ya da teşekkür, ve kartın önünü onun sözlerinin çevresinde süslersiniz. Sonra arkasına birlikte bir mesaj yazarsınız; ya da biriniz yazar, diğeri söyler. Mum boya, renkli kalem ya da keçeli kalem kullanın. Doğru bir kart yoktur; hiçbir şey zamanlanmaz, puanlanmaz ya da gönderilmez.",
+    "howTo": [
+      "Bir vesile seçin, sonra \"Kartı yazdır\" seçeneğine dokunun.",
+      "Sayfayı kesikli çizgiden ikiye katlayın, böylece ön yüz dışarıda kalır.",
+      "Biriniz ön yüzü, diğeriniz arka yüzü süsler; ya da tek bir yüzde sırayla çalışırsınız.",
+      "Birlikte bir mesaj yazın. Biriniz yazarken diğeri sözleri söyleyebilir.",
+      "İstediğiniz zaman durun. Basit bir kart, ayrıntılı bir kart kadar güzeldir."
+    ],
+    "tips": [
+      "Önce ön yüzdeki sözlerle başlayın, sonra çevreye birer birer yaprak, yıldız ya da nokta ekleyin.",
+      "Birisi çizmek istemezse renkleri seçebilir ya da mesajı yazabilir.",
+      "Diğer kişinin çizgileri hakkında iyi olup olmadığını değil, neyi sevdiğinizi söyleyin.",
+      "Kartı verilebileceği bir yerde saklayın ya da şimdilik masada bırakın."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı ya da puan var mı?",
+        "a": "Hayır. Saat, puan, hamle sayacı ya da kaybetme yoktur. İstediğiniz an durabilirsiniz; yarıda bırakmak da tamamen geçerli bir bitiriş şeklidir."
+      },
+      {
+        "q": "Yapıştırıcıya, makasa ya da çıkartmaya ihtiyacımız var mı?",
+        "a": "Hayır. Mum boya, renkli kalem ya da keçeli kalem yeterlidir. Hiçbir şeyi kesmeniz, yapıştırmanız ya da iliştirmeniz gerekmez."
+      },
+      {
+        "q": "Listede olmayan bir vesile için kart yapabilir miyiz?",
+        "a": "\"Öylesine\" seçeneğini seçin ve ön yüze kendi sözlerinizi yazın; ya da hiçbir vesile olmadan kartı süsleyin."
+      },
+      {
+        "q": "Ekranda bir şey sayılıyor, değerlendiriliyor ya da kaydediliyor mu?",
+        "a": "Hayır. Sayfa yalnızca kartı ve adımları gösterir. Hiçbir şey sıralanmaz, puanlanmaz ya da kaydedilmez; doğru bir kart da yoktur."
+      },
+      {
+        "q": "Yazdırılan sayfada ne var?",
+        "a": "Tek bir sayfa: ikiye katlanmış bir kart; önde vesile sözleri ve basit bir çerçeve, arkada bir mesaj ve Kimden satırı için çizgiler. İki kişi için kurallar en altta yazılıdır."
+      },
+      {
+        "q": "Ücretsiz mi, ve kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir; hesap, kayıt ya da indirme gerekmez. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Birlikte bulun",
+    "seoTitle": "Birlikte Bulun: İki Kişi Çiftleri Bulur",
+    "h1": "Birlikte Bulun: İki Kişi, Bir Takım",
+    "description": "İki kişi tek bir ekranı paylaşır ve bir çift aramak için sırayla iki resim kartı çevirir. Çiftler birlikte bulunur ve tek bir ortak sayaçta sayılır. Oynamak ücretsizdir; zamanlayıcı ya da puan yoktur.",
+    "short": "Yanınızdaki biriyle sırayla resim çiftlerini bulun.",
+    "players": "2 kişi, yan yana",
+    "intro": "Kartlar resimleri gösterir halde başlayabilir ya da yüzleri aşağı dizilebilir. Sıranızda iki kart çevirirsiniz. Bir çift iseler, birlikte bulmuşsunuzdur ve sıra geçer. Farklı iseler, \"Geri çevir\" tuşuna basana kadar açık kalırlar; böylece ikiniz de bakabilirsiniz. İstediğiniz zaman pas geçebilirsiniz. Üstteki sayaç yalnızca artar: birlikte bulduğunuz çiftleri gösterir.",
+    "howTo": [
+      "Kaç kart kullanacağınızı seçin. Altı kart, üç çift, sakin bir başlangıç yeridir.",
+      "Ekran kimin sırası olduğunu gösterir: ilk kişi için daire, ikinci kişi için kare.",
+      "Biri ardından diğeri olmak üzere iki kart çevirin. Eşleşirlerse çift birlikte bulunmuştur.",
+      "Farklılarsa, ikiniz de hazır olduğunuzda \"Geri çevir\" tuşuna basın. Sıra o zaman geçer.",
+      "İkinizden biri istediği zaman \"Pas\" tuşuna basabilir. Yeni kartlar için \"Baştan başla\" tuşuna dokunun, durmak için Dinlen tuşuna dokunun."
+    ],
+    "tips": [
+      "Yan yana oturun ve resimlerin adlarını birlikte yüksek sesle söyleyin: \"Bir çay bardağı. Çayınıza süt koyar mısınız?\"",
+      "Bakımını üstlendiğiniz kişinin dokunmasına izin verin, biraz zaman alsa bile. Onun yerine dokunmak yerine işaret edin.",
+      "İkiniz de resimleri bulmak için kartları çevirmekten keyif alıyorsanız \"Kartlar yüzü aşağı\" seçeneğini seçin.",
+      "Çabuk yorulan biri istediği kadar pas geçebilir. Çiftler yine de birlikte bulunur."
+    ],
+    "faq": [
+      {
+        "q": "Bir kazanan, zamanlayıcı ya da puan var mı?",
+        "a": "Hayır. Çiftleri bir takım olarak bulduğunuz için kazanan yoktur. Saat, puan ya da yanlış sayısı yoktur. Sayaç yalnızca birlikte bulduğunuz çiftleri sayar ve istediğiniz an durabilirsiniz."
+      },
+      {
+        "q": "Resimlerin nerede olduğunu hatırlamak zorunda mıyız?",
+        "a": "Hayır. Oyun, tüm resimler görünür halde başlar. Kartlar yüzü aşağı dönükken birbirinize ne gördüğünüzü sorabilirsiniz ya da kartları yeniden çevirebilirsiniz."
+      },
+      {
+        "q": "İki kart farklı olduğunda ne olur?",
+        "a": "Kartlar yüzü açık kalır, böylece ikiniz de ihtiyacınız kadar uzun süre birlikte bakabilirsiniz. Kartları kendiliğinden kapatan bir şey yoktur. Hazır olduğunuzda \"Kapat\" düğmesine basın, sıra diğer kişiye geçer."
+      },
+      {
+        "q": "Oynadığımız hiçbir şey kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Kartlar yalnızca bu sayfada kalır. Hiçbir şey kaydedilmez, yüklenmez ya da sayılmaz; sayfayı kapattığınızda da kaybolur."
+      },
+      {
+        "q": "Kartlar titreme olan biri ya da küçük bir ekran için yeterince büyük mü?",
+        "a": "Her kart en az 64 piksel genişliğindedir ve ekranın izin verdiği ölçüde büyütülür. Klavye ve ekran okuyucu kullananlar her kartı, bulunduğu yere ve resmine göre duyar."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir; hesap, kayıt ya da indirme gerekmez. Telefonda, tablette ya da bilgisayarda web tarayıcısında çalışır."
+      }
+    ]
+  },
   "story-dice": {
     "name": "Hikâye zarları",
     "seoTitle": "Hikâye Zarları: Resimlerle Hikâye Anlatma Oyunu",
@@ -563,10 +759,10 @@
     "name": "Resimli yapboz",
     "seoTitle": "Kolay Online Yapboz: 4 ya da 9 Büyük Parça",
     "h1": "Resimli Yapboz: Kolay Bir Yapboz",
-    "description": "Yetişkinler için kolay bir online yapboz: 4 ya da 9 büyük parça, bütün resim görünür kalır ve iki parçaya dokunarak yerlerini değiştirirsiniz. Ücretsiz, zamanlayıcı yok.",
+    "description": "Yetişkinler için kolay bir çevrim içi yapboz: 4 ya da 9 büyük parça, resmin tamamı görünür kalır ve iki parçaya dokunarak yerlerini değiştirirsiniz. Kendi fotoğrafınızı kullanabilirsiniz; fotoğraf bu cihazda kalır. Ücretsiz, zamanlayıcı yok.",
     "short": "Resim tamamlanana kadar iki parçaya dokunup yerlerini değiştirin.",
     "players": "1 ya da 2 kişi",
-    "intro": "Sevimli bir resim dört ya da dokuz büyük parçaya bölünür ve karıştırılır. Resmin tamamı yol gösterici olarak görünür kalır. Bir parçaya, sonra bir başkasına dokunun; ikisi yer değiştirir. Sürüklemek gerekmez.",
+    "intro": "Sevimli bir resim dört ya da dokuz büyük parçaya ayrılır ve karıştırılır. Rehber olarak resmin tamamı görünür kalır. Bir parçaya, sonra başka bir parçaya dokunun; yerleri değişir. Sürükleme gerekmez. İsterseniz kendi fotoğraflarınızdan birini de kullanabilirsiniz. Fotoğraf bu cihazda kalır ve asla yüklenmez.",
     "howTo": [
       "Bir resim ve 4 ya da 9 parça seçin. Dört parça nazik bir başlangıçtır.",
       "Üstteki resmin tamamına bakın.",
@@ -740,12 +936,13 @@
     "description": "Kendi aile fotoğraflarınızı sakin bir eşleştirme oyununa dönüştürün. Cihazınızdan 2 ila 6 fotoğraf seçin; tarayıcınızda kalır, asla yüklenmez.",
     "short": "Kendi fotoğraflarınızı seçin ve eşleştirin. Hiçbir şey yüklenmez.",
     "players": "Yan yana 2 kişi",
-    "intro": "Telefonunuzdan, tabletinizden ya da bilgisayarınızdan iki ila altı fotoğraf seçin; büyük, açık resimlerle bir eşleştirme oyununa dönüşsünler. Fotoğraflar yalnızca bu sayfanın içinde gösterilir. Yüklenmez, kaydedilmez ya da paylaşılmaz; sayfayı kapattığınızda kaybolurlar.",
+    "intro": "Telefonunuzdan, tabletinizden ya da bilgisayarınızdan aile fotoğraflarınızdan iki ile altı tane seçin; bunlar büyük ve görünür resimlerle bir eşleştirme oyununa dönüşür. Fotoğraflar yalnızca bu sayfanın içinde gösterilir. Yüklenmez, kaydedilmez ya da paylaşılmaz ve sayfayı kapattığınızda kaybolurlar. İsterseniz her fotoğrafın altına birkaç kelime ekleyebilirsiniz; bir süre beklendikten sonra nazik bir ipucu bir çifti gösterebilir. Bu, aile fotoğraflarına birlikte bakmanın bir yoludur.",
     "howTo": [
-      "“Fotoğraf seç”e dokunun ve iki ila altı fotoğraf seçin.",
-      "Her fotoğraf iki kez görünür. Birine, sonra eşine dokunun.",
+      "\"Fotoğraf seç\" düğmesine dokunun ve iki ile altı fotoğraf arasında seçim yapın.",
+      "Her fotoğraf iki kez görünür. Birine dokunun, sonra çiftine dokunun.",
+      "İsterseniz her fotoğrafın altına birkaç kelime ekleyin. Açıklamalar kaydedilmez.",
       "Her fotoğrafı bulduğunuzda onun hakkında konuşun.",
-      "Bitirdiğinizde sayfayı kapatın ya da “Fotoğrafları temizle”ye dokunun. Hiçbir şey saklanmaz."
+      "İşiniz bittiğinde sayfayı kapatın ya da \"Fotoğrafları temizle\" düğmesine dokunun. Hiçbir şey saklanmaz."
     ],
     "tips": [
       "Mutlu, tanıdık şeylerin net fotoğraflarını seçin: bir evcil hayvan, bir bahçe, sevilen bir yer, bir düğün günü.",
@@ -800,6 +997,265 @@
       {
         "q": "Okuma bilmeden oynanabilir mi?",
         "a": "Evet. Her kare büyük bir resimdir; sözcükleri sevenler için altında adı da yazar."
+      }
+    ]
+  },
+  "picnic-planner": {
+    "name": "Piknik planlayıcı",
+    "seoTitle": "Piknik Planlayıcı: Bir Gezi için Resim Seçin",
+    "h1": "Piknik Planlayıcı: Resimleri Seçin, Sonra Eşleştirin",
+    "description": "Piknik için yiyecek ve yapılacak şeylerin resimlerini seçin, sonra bunlarla nazik bir eşleştirme turu oynayın. Süre tutulmaz. Oynamak ve yazdırmak ücretsizdir.",
+    "short": "Piknik için yiyecek ve gezi resimlerini seçin, sonra eşleştirin.",
+    "players": "Tek başına ya da yan yana 2 kişi",
+    "intro": "Piknik sepetine koymak için yiyecek ve yapılacak şeylerin resimlerine dokunun. Sepet en fazla altı resim alır. Sepette ne olduğunu anlatan bir cümle belirir, örneğin \"Piknik listemiz: ekmek, peynir, elma ve bir uçurtma.\" Ardından seçilen resimlerden yapılmış nazik bir eşleştirme turu için \"Piknikle oynayalım\" düğmesine dokunun. Resimler görünür kalır; süre tutulmaz, puan verilmez ve hiçbir şey kaydedilmez. \"Piknik listemizi yazdır\" düğmesi, seçtiklerinizin bir kontrol listesini yazdırır; her şey için bir onay kutusu bulunur.",
+    "howTo": [
+      "Yiyecek ya da yapılacak bir şeyin resmine dokunun. Sepete girer.",
+      "Sepetteki bir resme dokunarak onu geri çıkarın.",
+      "En az iki şey seçin, sonra \"Piknikle oynayalım\" düğmesine dokunun.",
+      "Aynı olan iki resme dokunun. Resimler görünür kalır, bu yüzden hatırlamanız gereken bir şey yoktur.",
+      "Yanınızda götürmek için kağıt bir kontrol listesi almak üzere \"Piknik listemizi yazdır\" düğmesine dokunun."
+    ],
+    "tips": [
+      "Yanınızdaki kişilere ne getirmek istediklerini sorun ve resimleri birlikte seçin.",
+      "Her resim sepete girerken onun hakkında konuşun: \"Sahilde uçurtma uçurduğumuzu hatırlıyor musun?\"",
+      "Kağıt üzerinde boş satırlar, getirmek istediğiniz başka şeyler ya da bir ad için ayrılmıştır."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı, puan ya da kazanan var mı?",
+        "a": "Hayır. Hiçbir şeyin süresi tutulmaz ve sayılmaz; kimse kazanmaz. Eşleştirme turunda yanlış hamle ya da puan yoktur."
+      },
+      {
+        "q": "Bu bir yemek planı mı?",
+        "a": "Hayır. Bu, bir gezi için bir resim planıdır; konuşmak ve kağıda almak içindir. Kimin ne yemesi gerektiğini söylemez."
+      },
+      {
+        "q": "Seçtiğimiz resimler kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Sepet yalnızca bu sayfada kalır. Kaydedilmez, yüklenmez ya da gönderilmez; sayfayı kapattığınızda kaybolur."
+      },
+      {
+        "q": "Kağıt bir sürümü var mı?",
+        "a": "Evet. \"Piknik listemizi yazdır\" düğmesi A4 ya da US Letter boyutunda tek bir sayfa yazdırır. Seçtiğiniz resimleri, her biri için bir onay kutusu ve başka şeyler için boş satırlarla gösterir."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir; hesap, kayıt ya da indirme gerekmez. Telefonda, tablette ya da bilgisayarda web tarayıcısında çalışır."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Albüm",
+    "seoTitle": "Albüm: Aile Fotoğraflarını Birlikte Sayfa Sayfa Çevirin",
+    "h1": "Albüm: Fotoğraflarınızı ve Açıklamalarınızı Ekleyin, Sonra Sayfaları Çevirin",
+    "description": "Cihazınızdaki aile fotoğraflarından iki ile on iki tane seçin ve her birinin altına birkaç kelime yazarak bir kitap gibi çevirin. Hiçbir şey yüklenmez. Yazdırmak ücretsizdir.",
+    "short": "Kendi aile fotoğraflarınıza birlikte bir kitap gibi göz atın.",
+    "players": "Tek başına ya da yan yana 2 kişi",
+    "intro": "Cihazınızdaki kendi fotoğraflarınızdan iki ile on iki arasında seçim yapın. Her fotoğraf kitabın bir sayfası olur, rahatça görülecek büyüklükte yer alır ve altına isterseniz birkaç kelime yazabilirsiniz. Sayfaları düğmelerle ya da ok tuşlarıyla çevirin. “Birlikte bakın” düğmesiyle yalnızca fotoğrafları ve kelimeleri görerek yan yana oturabilirsiniz. Fotoğraflarınız bu cihazda kalır. Yüklenmez ya da kaydedilmez, sayfayı kapattığınızda kitap da kaybolur. “Albümü yazdır” düğmesi her sayfaya bir fotoğraf ile kelimelerini, sayfa numaralarıyla birlikte yazdırır.",
+    "howTo": [
+      "“Fotoğrafları seçin” düğmesine dokunup iki ile on iki fotoğraf seçin. Onay veremeyecek durumdaki birinin fotoğrafını kullanmadan önce izin alın.",
+      "“Önceki sayfa” ve “Sonraki sayfa” düğmeleriyle ya da sol ve sağ ok tuşlarıyla sayfaları çevirin.",
+      "İsterseniz bir fotoğrafın altına birkaç kelime ekleyin. Sırasını değiştirmek için “Daha önce taşı” ya da “Daha sonra taşı” düğmelerini kullanın.",
+      "Düzenleme düğmelerini gizlemek ve kitaba yan yana bakmak için “Birlikte bakın” düğmesine dokunun.",
+      "Kâğıt bir kopya için “Albümü yazdır” düğmesine dokunun. İşiniz bittiğinde “Kitabı temizle” düğmesine dokunun. Hiçbir şey saklanmaz."
+    ],
+    "tips": [
+      "Mutlu ve tanıdık şeyleri seçin: bir bahçe, bir evcil hayvan ya da sevilen bir yer gibi. Her sayfayı çevirirken o fotoğraf hakkında konuşun.",
+      "Kişinin her sayfa için birkaç kelime söylemesine izin verin, hatta tek bir kelime bile olsa. Söylediklerini tam olarak aynen yazın.",
+      "Kâğıda yazdırırsanız basılan sayfaları bir dosyaya koyabilirsiniz. Aile üyeleri de sayfaların çevresine kendi resimlerini ve notlarını ekleyebilir."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı, puan ya da kazanan var mı?",
+        "a": "Hayır. Hiçbir şey zamanlanmaz, puanlanmaz ya da sayılmaz ve kimse kazanmaz. Sayfa numarası yalnızca kitapta nerede olduğunuzu görmeniz için vardır."
+      },
+      {
+        "q": "Fotoğraflarımız ya da altyazılarımız kaydediliyor, yükleniyor veya gönderiliyor mu?",
+        "a": "Hayır. Fotoğrafları yalnızca bu sayfa okur; hiçbir yere yüklenmez, saklanmaz ya da gönderilmez. Altyazılar yalnızca sayfa açıkken tutulur. Sayfayı kapattığınızda kitap kaybolur."
+      },
+      {
+        "q": "Kitabı yazdırabilir miyiz?",
+        "a": "Evet. “Albümü yazdır” her sayfaya bir fotoğraf ve altyazısını, sayfa numaralarıyla birlikte yazdırır. Yazdırma penceresinde A4 ya da US Letter seçin."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmak gerekiyor mu?",
+        "a": "Evet, ücretsiz. Hesap, kayıt ya da indirme gerekmiyor. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Kolaj panosu",
+    "seoTitle": "Kolaj Panosu: İki Kişi Sırayla Resim Yerleştirir",
+    "h1": "Kolaj Panosu: Resimleri Tek Bir Panoya Sırayla Yerleştirin",
+    "description": "İki kişi, ortak tek bir panoya sırayla kesilmiş resimler yerleştirir. Bir resme, sonra boş bir yere dokunun. Zamanlayıcı ya da puan yok. Oynamak ve yazdırmak ücretsiz.",
+    "short": "Ortak tek bir panoya sırayla resim yerleştirin.",
+    "players": "2 kişi, yan yana",
+    "intro": "İki kişi yan yana oturur; önlerinde on iki yeri olan bir pano ve sekiz kesilmiş resmin bulunduğu bir tepsi vardır. Tepsideki bir resme, sonra boş bir yere dokunun; resim oraya yerleşir ve sıra diğer kişiye geçer. Her kişinin resimlerinin kendine ait bir şekli vardır: daire ya da kare. Böylece renge bakmadan panoda kimin neyi yerleştirdiği görülür. Her iki kişi de sırayı pas geçebilir ve bir adım geri alınabilir. Hiçbir şey zamanlanmaz, puanlanmaz ya da kaydedilmez. “Panoyu yazdır” düğmesi boş panoyu ve kesilecek resimleri yazdırır.",
+    "howTo": [
+      "Tepsideki bir resme dokunun. Seçildiğinde “Seçildi” yazısı görünür.",
+      "Panodaki boş bir yere dokunun. Kesilmiş resim oraya gider ve sıra değişir.",
+      "Herhangi bir anda “Pas geç” düğmesine dokunabilirsiniz. Bir adımı geri almak için ise “Son parçayı geri al” düğmesine dokunun.",
+      "Farklı bir tepsi için “Başka resim seti” düğmesine dokunun. Panodaki resimler olduğu yerde kalır.",
+      "Panoyu temizlemek için “Baştan başla” düğmesine, fikrinizi değiştirirseniz “Geri koy” düğmesine dokunun."
+    ],
+    "tips": [
+      "Her resim yerleştirilirken adını söyleyin, örneğin “çay fincanı evin yanına”. Konuşmak, etkinliği ortak bir etkinliğe dönüştürür.",
+      "İki kişi, yeri seçmenin yanı sıra kesilmiş resmi de sırayla seçsin. Böylece ikisinin de söz hakkı olur.",
+      "Kâğıda yazdırırsanız, bir yetişkinin yardımıyla sekiz resmi kesin ve ardından basılı kutulara yerleştirin."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı, puan ya da kazanan var mı?",
+        "a": "Hayır. Hiçbir şey zamanlanmaz, puanlanmaz ya da sayılmaz ve kimse kazanmaz. Dolu pano, her yerinde bir resim bulunan panodur."
+      },
+      {
+        "q": "Yerleştirdiğimiz resimler kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Pano yalnızca bu sayfada kalır. Kaydedilmez, yüklenmez ya da sayılmaz ve sayfayı kapattığınızda kaybolur."
+      },
+      {
+        "q": "Hangi resmin kime ait olduğunu nasıl anlarız?",
+        "a": "Her kişinin bir şekli vardır. İlk kişinin resimlerinin köşesinde bir daire, ikinci kişinin resimlerinde ise bir kare bulunur. İki kişinin adı da panonun üstünde görünür."
+      },
+      {
+        "q": "Kâğıt bir sürümü var mı?",
+        "a": "Evet. “Panoyu yazdır” boş panoyu on iki kutu olarak, altında da aynı boyutta sekiz resmi ve kesim çizgisini yazdırır. Kesimi bir yetişkin yapabilir."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmak gerekiyor mu?",
+        "a": "Evet, ücretsiz. Hesap, kayıt ya da indirme gerekmiyor. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Bahçe planlayıcı",
+    "seoTitle": "Bahçe Planlayıcı: Bitki Resimlerinden Bir Arsa Düzenleyin",
+    "h1": "Bahçe Planlayıcı: Resimleri Seçin ve Bir Arsayı Düzenleyin",
+    "description": "Bitki ve bahçe malzemelerinin resimlerini seçin, sonra bunları bir arsanın on iki bölmesine yerleştirin. Bir resme, sonra bir bölmeye dokunun. Zamanlayıcı ya da puan yok. Oynamak ve yazdırmak ücretsiz.",
+    "short": "Bitki resimleri seçin ve on iki bölmelik bir arsa düzenleyin.",
+    "players": "Tek başına ya da yan yana 2 kişi",
+    "intro": "Bir tepsideki bitki ve bahçe eşyası resimlerinden seçim yapın, ardından her resmi yerine koymak için bir yatağa dokunun. Bir arazide on iki yatak vardır ve her yatakta bir resim durur. Sözlü özet planınızda neler olduğunu anlatır, örneğin \"Planınızda 3 ayçiçeği, 2 gül ve 1 ağaç var.\" Hiçbir şey zamanlanmaz, puanlanmaz veya kaydedilmez, sıra da yoktur. Bu, hakkında konuşmak için bir resim planıdır, ekim tavsiyesi değildir. \"Planı yazdır\" seçtiğiniz resimlerle birlikte yatakları yazdırır; yanlarında çizim için boş yataklar ve notlar için çizgiler bulunur.",
+    "howTo": [
+      "Tepsideki bir resme dokunun. Seçildiğinde \"Seçildi\" yazısı görünür.",
+      "Bir yatağa dokunun. Resim oraya yerleşir ve seçim tamamlanmış olur.",
+      "Bir yatağı değiştirmek için başka bir resim seçip yatağa dokunun. Bir yatağı boşaltmak için hiçbir resim seçili değilken dokunun.",
+      "Tüm yatakları boşaltmak için \"Baştan başla\"ya, fikrinizi değiştirirseniz \"Geri al\"a dokunun.",
+      "Arazinin ve özetin kâğıt kopyası için \"Planı yazdır\"a dokunun."
+    ],
+    "tips": [
+      "Her resim yerine konurken onun hakkında konuşun, örneğin \"ayçiçeği kuşevinin yanına gidiyor\". Konuşmak, etkinliği birlikte yapılan bir etkinliğe dönüştürür.",
+      "Her kişinin sırayla bir resim seçmesine izin verin ya da resimleri birlikte seçin; böylece herkes araziye söz sahibi olur.",
+      "Kâğıt üzerinde boş yataklar kendi fikirlerinizi çizmek, notlar çizgileri ise hatırlamak istediğiniz her şey içindir."
+    ],
+    "faq": [
+      {
+        "q": "Bu bir ekim tavsiyesi mi?",
+        "a": "Hayır. Bu, hakkında konuşmak için bir resim planıdır, ekim tavsiyesi değildir. Neyin ne zaman, nerede ve nasıl ekileceğini söylemez, çünkü bu yaşadığınız yere bağlıdır."
+      },
+      {
+        "q": "Zamanlayıcı, puan veya kazanan var mı?",
+        "a": "Hayır. Hiçbir şey zamanlanmaz, puanlanmaz, derecelendirilmez veya sayılmaz ve kimse kazanmaz. Dolu bir arazi için özel bir mesaj çıkmaz."
+      },
+      {
+        "q": "Seçtiğimiz resimler kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Plan yalnızca bu sayfada kalır. Kaydedilmez, yüklenmez veya sayılmaz; sayfayı kapattığınızda kaybolur."
+      },
+      {
+        "q": "Kâğıt bir sürümü var mı?",
+        "a": "Evet. \"Planı yazdır\" A4 veya US Letter boyutunda tek bir sayfa yazdırır. Bu sayfada on iki yatak, seçtiğiniz resimler, sözlü özet ve notlar için boş çizgiler yer alır."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsiz; hesap, kayıt veya indirme gerekmez. Telefon, tablet veya bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Grup boyama duvarı",
+    "seoTitle": "Grup Boyama Duvarı: Birçok El İçin Tek Bir Resim",
+    "h1": "Grup Boyama Duvarı: Tek Büyük Bir Resim, Birlikte Boyanmış",
+    "description": "Tek bir büyük resmi birkaç sayfaya yazdırın; böylece bir aile, bir sınıf veya bir bakım evi tek bir duvarı birlikte boyayabilsin. Yazdırmak ücretsiz. Zamanlayıcı ya da puan yok.",
+    "short": "Birçok kişinin boyayabilmesi için büyük bir resmi sayfalara yazdırın.",
+    "players": "Bir masada veya duvarda birlikte bir grup",
+    "intro": "Boyama sayfalarından bir resim ve 4, 6 ya da 9 sayfalık bir duvar seçin. Duvarı yazdırın: ilk sayfa parçaların nasıl birleştirileceğini gösterir, diğer her sayfa aynı büyük resmin bir parçasıdır ve köşesinde A1 gibi bir etiket bulunur. Her kişi bir veya daha fazla sayfayı, istediği renklerle ve tarzda boyar. Sayfalar etiketlerine göre dizilir ve arkadan bantla birleştirilir. Hiçbir şey zamanlanmaz, puanlanmaz veya kaydedilmez.",
+    "howTo": [
+      "Bir resim seçin, ardından duvarın kaç sayfadan oluşacağını seçin.",
+      "Ekrandaki haritayı okuyun; her etiketin nereye gideceğini gösterir.",
+      "\"Duvarı yazdır\"a dokunun ve tüm sayfaları yazdırın.",
+      "Her kişiye boyaması için bir veya daha fazla sayfa verin. Renklerin ve tarzların uyuşması gerekmez.",
+      "Sayfaları etiketlerine göre dizin ve arkadan bantla birleştirin."
+    ],
+    "tips": [
+      "En sade çizgili sayfaları daha sakin bir etkinlik isteyen kişilere, daha karmaşık olanları ise bundan keyif alan herkese verin.",
+      "Duvarı herkesin görebileceği bir yere asın ve parçalar hakkında birlikte konuşun.",
+      "Küçük bir masa için daha küçük, bir oda için daha büyük bir duvar seçin."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı, puan veya kazanan var mı?",
+        "a": "Hayır. Hiçbir şey zamanlanmaz, puanlanmaz veya sayılmaz ve kimse kazanmaz. Duvar, birçok kişinin boyadığı bir resimdir, hepsi bu."
+      },
+      {
+        "q": "Sayfalar kaydediliyor ya da bir yere gönderiliyor mu?",
+        "a": "Hayır. Duvar yalnızca bu sayfada oluşturulur. Kaydedilmez, yüklenmez veya sayılmaz; sayfayı kapattığınızda kaybolur."
+      },
+      {
+        "q": "Renklerin birbirine uyması gerekiyor mu?",
+        "a": "Hayır. Her kişi istediği renkleri ve tarzı kullanabilir. Sayfalar yine de tek bir resimde birleşir."
+      },
+      {
+        "q": "Kâğıt bir sürümü var mı?",
+        "a": "Evet. Yazdırılmış duvar tüm oyundur: adımların ve bir haritanın yer aldığı bir ilk sayfa ile resmin her parçası için bir sayfa."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsiz; hesap, kayıt veya indirme gerekmez. Telefon, tablet veya bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Sakin şekiller bulmacası",
+    "seoTitle": "Sakin Şekiller Bulmacası: Şekilleri Bir Resmin İçine Yerleştirin",
+    "h1": "Sakin Şekiller Bulmacası: Parçaları Resmin İçine Yerleştirin",
+    "description": "Basit şekilleri bir evin, bir teknenin, bir balığın ve daha fazlasının çizgilerine yerleştirin. Bir parçaya, ardından aynı şekildeki bir boşluğa dokunun. Zamanlayıcı ya da puan yok. Oynamak ve yazdırmak ücretsiz.",
+    "short": "Basit şekilleri bir resmin içine, kendi hızınızda yerleştirin.",
+    "players": "1 kişi, bir masada",
+    "intro": "Bir ev, bir tekne ya da bir roket gibi bir resim taslağı, boşluklara bölünmüştür. Her boşlukta aynı şekilde bir parça vardır: büyük ya da küçük bir üçgen, bir kare, bir paralelkenar ya da bir dikdörtgen. Bir parçaya dokunun, sonra aynı şekildeki bir boşluğa dokunun, parça yerine oturur. Parçayı sizin yerinize boşluğa uygun şekilde çevirir, bu yüzden sürükleyip döndürmeniz gerekmez. Parçanın şekli boşluğunkinden farklıysa, kısa bir notla tepside kalır. Hiçbir şey zamanlanmaz ya da puanlanmaz, hiçbir şey kaydedilmez ya da gönderilmez. \"Bu şekli yazdır\" seçeneği taslağı ve parçalarını tek bir sayfada yazdırır, böylece boyayabilir ya da kesebilirsiniz.",
+    "howTo": [
+      "Tepsideki bir parçaya dokunun. Seçiliyken \"Seçildi\" yazısını gösterir.",
+      "Resimdeki bir boşluğa dokunun. Şekil uyuyorsa parça orada yerine oturur.",
+      "Uymuyorsa başka bir boşluğu deneyin. Denemek hiçbir şeyi kaybettirmez.",
+      "Resimdeki bir parçaya dokunursanız parça tepsiye geri döner. Hepsini geri almak için \"Baştan başla\" seçeneğini kullanın.",
+      "Her boşlukta parçası olduğunda resim tamamlanmış olur. Yeni bir şekil için \"Başka bir şekil\" seçeneğine dokunun ya da durmak için Dinlen'e dokunun."
+    ],
+    "tips": [
+      "Her boşluğu görmek için ipucu çizgilerini açın. Daha çok bulmaca hissi için kapatın, yalnızca taslağa bakarak ilerleyin.",
+      "Büyük şekillerle başlayın, örneğin büyük üçgenler ve dikdörtgenlerle. Küçük parçalar genellikle en sona kalır.",
+      "İlerlerken şekillerin adlarını sesli söyleyin: \"bir üçgen, bir kare, uzun bir dikdörtgen\". Konuşmak, bunu birlikte yapılan bir etkinliğe dönüştürebilir.",
+      "Kağıt üzerinde parçaları iki ya da üç renkle boyayın ya da bir yetişkinin yardımıyla kesip çıkarın."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı, puan ya da hamle sayacı var mı?",
+        "a": "Hayır. Hiçbir şey zamanlanmaz, sayılmaz ya da puanlanmaz. Uymayan bir parça basitçe yerleştirilmez ve istediğiniz zaman durabilirsiniz."
+      },
+      {
+        "q": "Yaptığımız şeyler kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Resim yalnızca bu sayfada kalır. Kaydedilmez, yüklenmez ya da sayılmaz, sayfayı kapattığınızda da gider."
+      },
+      {
+        "q": "Titreme ya da küçük ekran için boşluklar yeterince büyük mü?",
+        "a": "Taslak, ekranın izin verdiği en büyük boyutta çizilir ve her boşluk parmağınızla ya da Tab tuşuyla ulaşabileceğiniz bir düğmedir. Tepsideki parçalar sayfanın büyük düğmeleridir."
+      },
+      {
+        "q": "Kağıt üzerinde bir sürümü var mı?",
+        "a": "Evet. \"Bu şekli yazdır\" seçeneği tek bir resmi tek bir sayfaya yazdırır: ipucu çizgileriyle birlikte taslak ve yanında aynı boyutta çizilmiş parçalar. Parçaları boyayın ya da yerine uyacak şekilde kesin. Kesme işini bir yetişkin yapabilir."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir ve hesap, kayıt ya da indirme gerekmez. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
       }
     ]
   },
@@ -873,6 +1329,92 @@
       {
         "q": "Ücretsiz mi, kayıt olmak gerekiyor mu?",
         "a": "Evet, ücretsiz. Hesap, kayıt ya da indirme gerekmiyor. Telefon, tablet veya bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Sakin sahne",
+    "seoTitle": "Sakin Sahne: Her Seferinde Bir Resim",
+    "h1": "Sakin Sahne: Her Seferinde Bir Durağan Resim",
+    "description": "Her seferinde bir büyük, durağan resim; her birinin altında tek bir nazik cümle. Hazır olduğunuzda İleri ya da Geri'ye basın. Hiçbir şey kendiliğinden hareket etmez ya da çalmaz, zamanlayıcı ya da puan yoktur. Ücretsizdir, hesap gerekmez.",
+    "short": "Her seferinde bir durağan resme, kendi temponuzda bakın.",
+    "players": "Tek başına ya da aynı odada bir grup",
+    "intro": "Ekranı tek bir büyük resim doldurur ve altında kısa bir cümle yer alır. Hazır olduğunuzda başka bir resim için \"Sonraki resim\" ya da \"Önceki resim\" düğmesine basın. Hiçbir şey kendiliğinden hareket etmez, solmaz ya da değişmez ve hiçbir şey zamanlanmaz. Yalnızca resmi göstermek için \"Büyük resim\"e dokunun; böylece oda dolusu insan televizyonda görebilir.",
+    "howTo": [
+      "Resme birlikte bakın.",
+      "İsterseniz altındaki cümleyi yüksek sesle okuyun.",
+      "Hazır olduğunuzda \"Sonraki resim\" ya da \"Önceki resim\" düğmesine basın.",
+      "Yalnızca resmi göstermek için \"Büyük resim\"e, geri kalanı getirmek için \"Her şeyi göster\"e dokunun.",
+      "\"Şimdilik bitti\" ile istediğiniz zaman durun."
+    ],
+    "tips": [
+      "Bir sonrakine geçme zamanını kişinin seçmesine izin verin: resme baktığını görün, sonra İleri'ye basın.",
+      "Bir grup için televizyonda ya da büyük bir ekranda \"Büyük resim\"i kullanın ve herkesin görebileceği bir yere oturun.",
+      "Bir resme bakmanın tek doğru yolu yoktur. Sadece onun hakkında konuşmak bile tam bir etkinliktir."
+    ],
+    "faq": [
+      {
+        "q": "Zamanlayıcı ya da puan var mı?",
+        "a": "Hayır. Saat, puan, hamle sayacı ya da kaybetme yoktur. İstediğiniz anda durabilirsiniz ve yarıda bırakmak da bitirmenin tamamen uygun bir yoludur."
+      },
+      {
+        "q": "Ses çalar ya da hareket eder mi?",
+        "a": "Hayır. Ses yoktur ve hiçbir şey kendiliğinden hareket etmez, solmaz ya da değişmez. Resim yalnızca bir düğmeye bastığınızda değişir."
+      },
+      {
+        "q": "Kağıt üzerinde bir sürümü var mı?",
+        "a": "Hayır. Bu, bir ekranda birlikte bakılacak bir resimdir. Masada duran sevilen bir fotoğraf ya da kartpostal aynı işi görür."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir ve hesap, kayıt ya da indirme gerekmez. Telefon, tablet ya da bilgisayardaki web tarayıcısında çalışır."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Renk akıtma",
+    "seoTitle": "Renk Akıtma: Bir Sayfaya Yumuşak Renk",
+    "h1": "Renk Akıtma: Bir Sayfaya Yumuşak Renk Sürün",
+    "description": "Yumuşak bir fırça, tek bir sayfanın üzerine dört renkte ve iki fırça boyutunda geniş, saydam renk katmanları sürer. Bitiş noktası, puan ve zamanlayıcı yoktur. Ücretsizdir, hesap gerekmez.",
+    "short": "Bir sayfaya yumuşak renk katmanları sürün, kendi temponuzda.",
+    "players": "Tek başına ya da yan yana oturan 2 kişi",
+    "intro": "Bir sayfa ve yumuşak bir fırça. Bir renk ve bir fırça boyutu seçin, ardından sayfanın üzerinde sürükleyerek yumuşak bir renk tabakası bırakın. Sayfanın bir bitiş noktası yoktur: bitirilecek bir şey, doğru çıkarılması gereken bir resim veya bir puan yoktur. İstediğiniz kadar renk tabakası bırakabilir ya da fırçayı bırakıp sadece bakabilirsiniz. Yeni bir sayfa her şeyi temizler, \"Geri getir\" ise tabakaları geri getirir.",
+    "howTo": [
+      "Bir renk seçin. Her rengin yazılı bir adı vardır.",
+      "Geniş ya da Çok geniş seçin. Çok geniş seçeneği, her çizgide sayfanın daha fazlasını kaplar.",
+      "Bir tabaka bırakmak için parmağınızla, farenizle ya da kaleminizle sayfanın üzerinde sürükleyin.",
+      "Ya da fırça halkasını taşımak için ok tuşlarını, fırçayı indirmek ya da kaldırmak için Boşluk tuşunu kullanın.",
+      "Sayfayı temizlemek için \"Yeni bir sayfa\" düğmesine dokunun, tabakaları geri istiyorsanız \"Geri getir\" düğmesine dokunun."
+    ],
+    "tips": [
+      "Bir sonraki tabaka için rengi diğer kişinin seçmesine izin verin ve renkler sayfaya yayılırken onlar hakkında konuşun.",
+      "Çok geniş seçeneği, elleriniz titrese bile daha kolay yönlendirilir, çünkü fırçanın tam isabetli olması gerekmez.",
+      "Resim yapmanın tek doğru yolu yoktur. İstediğiniz zaman durabilir ya da \"Şimdilik bu kadar\" düğmesine dokunabilirsiniz."
+    ],
+    "faq": [
+      {
+        "q": "Bir bitiş, puan ya da zamanlayıcı var mı?",
+        "a": "Hayır. Sayfanın bir bitiş noktası yoktur. Hiçbir şey tamamlanmaz, sayılmaz, zamanlanmaz ya da puanlanmaz ve hiçbir mesaj sizden daha fazlasını yapmanızı istemez."
+      },
+      {
+        "q": "Sayfa kaydediliyor ya da gönderiliyor mu?",
+        "a": "Hayır. Hiçbir şey kaydedilmez, yazdırılmaz ya da bir yere gönderilmez. Tabakalar, bu sayfadan çıkana kadar sayfada kalır."
+      },
+      {
+        "q": "Fare ya da dokunmatik ekran olmadan kullanabilir miyim?",
+        "a": "Evet. Sayfa odaktayken ok tuşları bir fırça halkasını taşır, Boşluk tuşu ise fırçayı indirir ya da kaldırır. Ekranda her seferinde \"Fırça indirildi\" ya da \"Fırça kaldırıldı\" yazar."
+      },
+      {
+        "q": "Kağıt üzerinde bir sürümü var mı?",
+        "a": "Hayır. Kağıt üzerine suluboya da aynı fikirdir: ıslak bir fırça ve seferde tek bir renk. Bu yüzden masada denemek için ayrı bir etkinliktir."
+      },
+      {
+        "q": "Renkler hangileri?",
+        "a": "Sarı, turuncu, yeşil ve mor. Diğer resim oyunlarımızda da kullanılan dört renk bunlardır. Her rengin yazılı bir adı vardır ve seçimin yanında gösterilir."
+      },
+      {
+        "q": "Ücretsiz mi, kayıt olmam gerekiyor mu?",
+        "a": "Evet, ücretsizdir. Hesap, kayıt ya da indirme gerekmez. Telefonda, tablette ya da bilgisayarda web tarayıcısında çalışır."
       }
     ]
   }

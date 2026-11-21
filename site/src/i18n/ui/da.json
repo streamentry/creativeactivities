@@ -33,7 +33,17 @@
       "label": "Tekststørrelse",
       "smaller": "Standardtekst",
       "larger": "Større tekst",
-      "contrast": "Højere kontrast"
+      "contrast": "Højere kontrast",
+      "colors": "Farver",
+      "light": "Lys",
+      "dark": "Mørk",
+      "device": "Samme som denne enhed",
+      "lineLength": "Linjelængde",
+      "standardLines": "Standard",
+      "shorterLines": "Kortere linjer",
+      "spacing": "Afstand",
+      "standardSpacing": "Standard",
+      "moreSpace": "Mere plads"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Spil {name} →",
     "readGuide": "Læs vejledningen"
   },
+  "listen": {
+    "listenSteps": "Lyt til trinene",
+    "pause": "Pause",
+    "resume": "Fortsæt",
+    "stop": "Stop",
+    "speed": "Hastighed",
+    "normal": "Normal",
+    "slower": "Langsommere",
+    "reading": "Læser trinene op.",
+    "paused": "På pause. Tryk på Fortsæt for at fortsætte.",
+    "note": "Bruger din enheds egen stemme. Nogle enheder sender teksten til deres producent for at blive læst op.",
+    "listen": "Lyt",
+    "stepLabel": "Lyt til trin {n}",
+    "stopStep": "Stop trin {n}"
+  },
   "playCta": {
     "title": "Klar til et roligt spil?",
     "text": "Store billeder, intet ur, ingen point og ingen tilmelding. Spil sammen i din browser.",
@@ -393,6 +418,14 @@
       "seoTitle": "Om Creative Activities: Vores tilgang",
       "description": "Hvorfor Creative Activities ikke har timere, point eller striber, hvorfor billederne bliver synlige, og hvad vi vil og ikke vil påstå om helbred.",
       "crumb": "Vores tilgang",
+      "sponsors": {
+        "heading": "Sponsorer og partnere",
+        "none": "Creative Activities har ingen sponsorer, ingen betalte placeringer og ingen partnere, hvis logoer vises på siden.",
+        "listed": "Disse er sponsorerne og partnerne for Creative Activities. Hvert samarbejde er også oplyst på den side, hvor det vises.",
+        "policy": "Hvis dette ændrer sig, vil hver sådan side sige det, hvor den vises. Ingen aktivitet vil nogensinde have en sponsor, og partnerlisten vil være på denne side.",
+        "listHeading": "Partnerliste",
+        "noPartners": "Der er ingen partnere for øjeblikket."
+      },
       "lede": "Creative Activities laver rolige aktiviteter for voksne, som to personer kan more sig med side om side, uanset om den ene passer den anden, eller de blot har lyst til at være sammen.",
       "bodyHtml": "<h2>Hvem den er for</h2><p>For alle, der passer en anden: en forælder, et bedsteforældre, et barn, en partner, en ven eller en person, der lever med demens. Familier, ældre voksne og personale i aktivitetstilbud kan alle bruge de samme sider.</p><h2>Det mener vi</h2><p>Pointen med en aktivitet er selve øjeblikket: en samtale, et smil, tilfredsheden ved at finde to billeder, der hører sammen, eller blot at sidde tæt. Den er ikke til for at måle nogen, presse dem længere eller bevise noget.</p><p>Mange hjernetræningsapper er bygget op om hastighed, point, striber og niveauer. For en person, der er træt, syg eller lever med demens, kan det føles som en eksamen, man ikke kan bestå. Vi har designet det modsatte, og vi holder os til disse regler:</p><ul><li><strong>Intet at fejle i.</strong> Ingen ur, point, trækstællere, liv, striber, konfetti eller nedtællinger, på nogen skærm.</li><li><strong>Genkendelse frem for hukommelse.</strong> Billederne bliver synlige som standard. Opfordringerne inviterer til samtale og spørger aldrig til navne eller minder.</li><li><strong>Store, enkle og stabile.</strong> Stor tekst og store billeder, høj kontrast og knapper, der bliver på samme sted.</li><li><strong>Voksen værdighed.</strong> Billeder fra virkeligheden og enkle, varme ord. Ingen tegneserier, lovprisning i sang-tone eller emoji-belønninger.</li><li><strong>En nem vej ud.</strong> „Færdig for nu“ er altid synlig. At stoppe halvvejs er et godt resultat.</li><li><strong>Privat som standard.</strong> Ingen konti eller reklamer. Fotos, du vælger, bliver på din enhed.</li></ul><h2>Det påstår vi ikke</h2><p>Vores spil og aktiviteter er til fornøjelse og fællesskab. De stiller ikke diagnose, tester, måler, behandler, bremser eller forebygger demens eller Alzheimers sygdom, og ingen bør vælge dem af den grund. Når vi skriver om sundhedsforskning, siger vi tydeligt, hvor beviserne er svage, og vi forbinder det aldrig med vores egne aktiviteter.</p><h2>Hvem vi er</h2><p>Creative Activities er et lille, uafhængigt team. Vi er ikke klinikere. Vores vejledninger er skrevet ud fra offentliggjorte retningslinjer fra organisationer som National Institute on Aging og Alzheimer's Association, og hver vejledning angiver sine kilder. Læs <a href=\"/editorial-policy/\">hvordan vi skriver og kontrollerer vores sider</a>.</p><h2>Fortæl os, hvad der ville hjælpe</h2><p>Vi vil gerne høre, hvad der virker for dig, og hvad der ikke gør, især fra personer, der lever med demens, pårørende og personale i aktivitetstilbud. Skriv til <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Der findes ingen papirudgave. Dette spil bruger dine egne fotos, som bliver i din browser og aldrig uploades, så siden kan ikke udskrive dem. For at spille på papir kan du printe to kopier af nogle få yndlingsfotos hjemme og matche dem på bordet.",
         "paced": "Der findes ingen papirudgave. Cirklen sætter et roligt, jævnt tempo på skærmen, og en udskrevet side kan ikke gøre det, så det ville blive en anden aktivitet. En stille pause sammen uden skærm er altid en mulighed.",
+        "turns": "Der findes ingen papirudgave af dette spil. For at finde par på bordet skal du printe billedkortene fra Billedpar og skiftes til at vende dem.",
+        "screen": "Der findes ingen papirudgave. Dette er et billede, I kan kigge på sammen på en skærm; et yndlingsfoto eller et postkort på bordet gør det samme.",
+        "wash": "Der findes ingen papirudgave. Akvarel på papir er den samme idé: en våd pensel og én farve ad gangen.",
         "sayings": "Der findes endnu ingen papirudgave. På papir ville alle slutninger vises på én gang, og det milde trin „Vis slutningen“ ville gå tabt. Læs ordsprogene fra skærmen sammen, eller del nogle få, I begge kender."
       }
     }

@@ -1,35 +1,35 @@
 ---
-title: "Demansla Yaşayan Biriyle Nasıl Oyun Oynanır"
-description: "Demansla yaşayan biriyle oyun oynamak için pratik bir rehber: hazırlık, tempo, asla düzeltmemek, oyunları kolaylaştırmak ve ne zaman bırakacağınızı bilmek."
+title: "Demans Yaşayan Biriyle Oyun Nasıl Oynanır"
+description: "Demansla yaşayan biriyle oyun oynamaya dair pratik rehber: hazırlık, tempo, yanlışları düzeltmemek, oyunu kolaylaştırmak ve ne zaman duracağınızı bilmek."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Oyunu bir sınav olarak değil, birlikte geçirilen bir zaman olarak görün.
-  Günün sakin bir saatini seçin, sessiz bir odada yan yana oturun ve tek, basit
-  bir oyun önerin. Tempoyu kişinin belirlemesine izin verin, zararsız hataları
-  asla düzeltmeyin, zorlandığını gördüğünüz ilk anda oyunu kolaylaştırın ve
-  resimleri sohbete dönüştürün. Hâlâ iyi hissettirirken bırakın. Erken
-  bitirmek ya da sadece birlikte izlemek de güzel bir sonuçtur.
+  Oyunu bir sınav değil, birlikte geçirilen bir zaman olarak görün. Günün sakin
+  bir saatini seçin, sessiz bir odada yan yana oturun ve tek bir basit oyun
+  önerin. Tempoyu kişinin belirlemesine izin verin, zararsız hataları asla
+  düzeltmeyin, gerginliğin ilk belirtisinde oyunu kolaylaştırın ve resimleri
+  sohbete dönüştürün. Hâlâ iyi hissettirirken durun. Erken bitirmek ya da sadece
+  birlikte izlemek de iyi bir sonuçtur.
 keyPoints:
-  - "Amaç bitirmek ya da doğru cevaplar vermek değil, keyif ve yakınlıktır."
-  - "Önce hazırlık yapın: sessiz bir oda, iyi ışık, gözlük ve işitme cihazı takılı, televizyon kapalı, tek bir oyun hazır."
-  - "Zararsız hataları düzeltmeyin. “Hadi bir de böyle deneyelim” deyin ya da devam edin."
-  - "Hayal kırıklığı birikmeden oyunu kolaylaştırın: daha az resim, daha az seçenek, açık bırakılan resimler."
-  - "Resimleri hikâyelere bir başlangıç olarak kullanın; “Hatırlıyor musunuz...?” yerine “Bana ... anlatır mısınız?” deyin."
-  - "Yorgunluk ya da üzüntünün ilk işaretlerinde bırakın. Erken bırakmak başarısızlık değil, başarıdır."
+  - "Amaç keyif ve birliktelik; oyunu bitirmek ya da doğru cevaplar vermek değil."
+  - "Önce hazırlık yapın: sessiz oda, iyi ışık, gözlük ve işitme cihazı takılı, televizyon kapalı, tek bir oyun hazır."
+  - "Zararsız hataları düzeltmeyin. “Bu şekilde deneyelim” deyin ya da olduğu gibi devam edin."
+  - "Hayal kırıklığı büyümeden oyunu kolaylaştırın: daha az resim, daha az seçenek, resimler açıkta kalsın."
+  - "Resimleri hikâyelere başlangıç yapın: “Hatırlıyor musunuz…?” yerine “Bana … hakkında anlatır mısınız?” diye sorun."
+  - "Yorgunluk ya da huzursuzluğun ilk belirtisinde durun. Erken durmak bir başarıdır, bir başarısızlık değil."
 faq:
-  - q: "Bir oyunu ne kadar süre oynamalıyız?"
-    a: "Doğru bir süre yoktur. Pek çok kişi için birkaç dakika fazlasıyla yeterlidir; bazı günler tek bir tur yeter. Saate değil kişiye bakın ve hâlâ rahat görünürken bırakın."
-  - q: "Kazanmasına izin vermeli miyim ya da hataları görmezden mi gelmeliyim?"
-    a: "Birlikte oynanan, baskısız bir oyunda kazanılacak ya da kaybedilecek bir şey yoktur. Bir hata kişiyi rahatsız etmiyorsa üzerinde durmayın. Rahatsız ediyor gibi görünüyorsa, belli etmeden sessizce yardım edin ya da oyunu kolaylaştırın."
-  - q: "Benim oynamamı izlemeyi tercih ederse ne olacak?"
-    a: "Bu da olur. National Institute on Aging, kişi bundan daha çok keyif alıyor gibi görünüyorsa sadece izlemesine izin vermeyi öneriyor. Gördüklerinizden söz edin ve istediği zaman göstermeye ya da seçmeye davet edin."
-  - q: "Bu oyunlar hafızayı test etmenin bir yolu mu?"
-    a: "Hayır. Oyunlarımız keyif ve sohbet için birlikte yapılan basit etkinliklerdir. Hafıza testi değildir, hiçbir şeyi ölçmez ve demans için bir tedavi değildir."
-  - q: "Başlamak için en iyi oyun hangisi?"
-    a: "Kişiye uyan en basit oyunla başlayın. Dört kare ve açık resimlerle Resim eşleştirme ya da iki seçenekle Aynısını bul, nazik başlangıç noktalarıdır. Kişi dokunmaktan çok konuşmayı seviyorsa Sohbet kartları iyi işler."
+  - q: "Bir oyunu ne kadar oynamalıyız?"
+    a: "Doğru bir süre yoktur. Birçok kişi için birkaç dakika yeterlidir, bazı günlerde tek bir tur bile yeter. Saate değil, kişiye bakın ve hâlâ rahat göründüğü sırada durun."
+  - q: "Kazanmasına izin vermeli miyim, yoksa hataları fark etmemiş gibi mi davranmalıyım?"
+    a: "Birlikte oynanan, baskısız bir oyunda kazanılacak ya da kaybedilecek bir şey yoktur. Bir hata kişiyi rahatsız etmiyorsa üzerinde durmayın. Rahatsız ediyor gibi görünüyorsa, bunu belli etmeden sessizce yardım edin ya da oyunu kolaylaştırın."
+  - q: "Benim oynamamı izlemeyi tercih ederlerse ne olur?"
+    a: "Bu da olur. National Institute on Aging, kişi bunu daha çok keyifli buluyorsa yalnızca izlemesine izin verilmesini öneriyor. Gördüklerinizi anlatın ve istedikleri zaman işaret etmeye ya da seçim yapmaya davet edin."
+  - q: "Bu oyunlar hafızayı ölçmenin bir yolu mu?"
+    a: "Hayır. Oyunlarımız keyif ve sohbet için basit, birlikte yapılan etkinliklerdir. Bir hafıza testi değildirler, hiçbir şeyi ölçmezler ve demans için bir tedavi değildirler."
+  - q: "Başlamak için hangi oyun en iyisi?"
+    a: "Kişiye uyan en basit oyunla başlayın. Dört kutucuklu ve resimleri açıkta kalan Resim Eşleştirme ya da iki seçenekli Aynısını Bul yumuşak başlangıçlardır. Kişi dokunmaktan çok konuşmaktan keyif alıyorsa Sohbet Kartları iyi işe yarar."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Demansla yaşayan biriyle oynanan güzel bir oyun, bir yarışmaya benzemez. Yakın oturan, resimleri gösteren, bir atasözüne gülen ve aklına ne gelirse onun üzerine konuşan iki kişiye benzer. Oyun, birlikte vakit geçirmek için sadece bir bahanedir.
+Demansla yaşayan biriyle oynanan iyi bir oyun bir yarışmaya benzemez. İki insanın yan yana oturup resimleri gösterdiğine, bir atasözüne gülüp aklına gelen her şeyi konuştuğuna benzer. Oyun, sadece birlikte zaman geçirmek için bir bahanedir.
 
-Bu rehber nasıl hazırlanacağınızı, oyunun temposunu nasıl ayarlayacağınızı, bir şey “yanlış” gittiğinde ne söyleyeceğinizi, herhangi bir oyunu nasıl kolaylaştıracağınızı ya da biraz zorlaştıracağınızı, onu nasıl sohbete dönüştüreceğinizi ve ne zaman bırakacağınızı nasıl anlayacağınızı anlatıyor. Hem [oyunlarımız](/games/) hem de evde zaten olan kâğıt oyunları, yapbozlar ve kutu oyunları için geçerlidir.
+Bu rehberde hazırlığın nasıl yapılacağı, oyunun temposunun nasıl ayarlanacağı, bir şeyler “yanlış” gittiğinde ne söyleneceği, herhangi bir oyunun nasıl kolaylaştırılabileceği ya da biraz zorlaştırılabileceği, oyunun nasıl sohbete dönüştürüleceği ve ne zaman duracağınızı nasıl anlayacağınız anlatılıyor. Hem [oyunlarımız](/games/) hem de elinizde zaten bulunan kartlar, bulmacalar ve masa oyunları için işe yarar.
 
-## Demansla yaşayan biriyle oyun oynamanın en iyi yolu nedir?
+## Demans yaşayan biriyle oyun oynamanın en iyi yolu nedir?
 
-Başarıya değil, keyfe odaklanın. [Alzheimer's Association'ın etkinlikler üzerine önerilerinin](https://www.alz.org/help-support/caregiving/daily-care/activities) özü budur: kişinin hâlâ sahip olduğu becerilerin üzerine kurun, başlamasına yardım edin, zor kısımları siz bitirin ve zararsız etkinlikleri eleştirmeyin ya da düzeltmeyin.
+Başarıya değil, keyfe odaklanın. Bu, [Alzheimer Derneği’nin etkinliklerle ilgili yönergesinden](https://www.alz.org/help-support/caregiving/daily-care/activities) gelen temel tavsiyedir: kişinin hâlâ sahip olduğu becerilerden yola çıkın, başlamasına yardım edin, zor kısımları kendiniz tamamlayın ve zararsız etkinlikleri eleştirmeyin ya da düzeltmeyin.
 
-Pratikte bunun anlamı şudur:
+Pratikte bu şu anlama gelir:
 
-- **Karşısına değil, yanına oturun.** Yan yana oturduğunuzda ikiniz de ekranı ya da masayı görebilirsiniz ve yardım etmek denetim gibi değil, ekip çalışması gibi hissettirir.
-- **Her seferinde tek bir oyun önerin.** Bir seçenekler listesi, daha hiçbir şey başlamadan bir sınav gibi gelebilir.
-- **Onu izleyin.** Resimlere kendi sırasıyla dokunmak, on dakika tek bir resim üzerine konuşmak ya da iki turdan sonra bırakmak istiyorsa, bugünün oyunu budur.
-- **Biten turları değil, güzel anları sayın.** Bir gülümseme, bir hikâye ya da sakin bir yarım saat, aradığınız sonuçtur.
+- **Karşılıklı değil, yanlarına oturun.** Yan yana oturduğunuzda ikiniz de ekranı ya da masayı görebilirsiniz ve yardım etmek gözetimden çok takım çalışmasına benzer.
+- **Her seferinde tek bir oyun önerin.** Seçeneklerle dolu bir liste, daha başlamadan bir sınav gibi hissettirebilir.
+- **Onların yönünü izleyin.** Resimlere kendi sıralarıyla dokunmak istiyorlarsa, bir resim hakkında on dakika konuşmak istiyorlarsa ya da iki turdan sonra durmak istiyorlarsa, bugünkü oyun budur.
+- **Tamamlanan turları değil, güzel anları sayın.** Aradığınız sonuç bir gülümseme, bir hikâye ya da sakin yarım saat.
 
 ## Başlamadan önce nasıl hazırlanırım?
 
-Birkaç dakikalık hazırlık, insanların oyuna yüklediği hayal kırıklığının çoğunu önler.
+Birkaç dakikalık hazırlık, insanların oyunun kendisine yüklediği hayal kırıklıklarının çoğunu önler.
 
-1. **Günün en iyi olduğu saatini seçin.** [National Institute on Aging'in (NIA) etkinlikleri uyarlama önerileri](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease), gezmeleri ve etkinlikleri kişinin günün en iyi olduğu saatine göre planlamayı öneriyor. Pek çok kişi için bu, kuşluk vaktidir. Akşamüstü çoğu zaman daha zordur; [akşamüstü için sakin etkinlikler](/caregiving/late-day-restlessness/) rehberine bakın.
-2. **Odayı sessizleştirin.** Televizyonu ve radyoyu kapatın, mümkünse kapıyı kapatın. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/), konuşmaya çalışmadan önce gürültüyü ve dikkat dağıtan şeyleri azaltmayı öneriyor.
-3. **Önce rahatlığını kontrol edin.** Yakında bir içecek, öncesinde tuvalete gitmek, rahat bir sandalye; gözlükler ve işitme cihazları takılı.
-4. **Ortamı iyi aydınlatın.** Ekranda yansıma yapmayan parlak, eşit bir ışık resimlerin daha kolay görülmesini sağlar.
-5. **Oturmadan önce oyunu hazırlayın.** Oyunu açın, ayarları seçin ve sesi kendiniz ayarlayın. Sonra ekranı ona doğru çevirin. Tablet ipuçları için [tablet ya da telefonu hazırlamak](/caregiving/tablets-and-screens/) rehberine bakın.
-6. **Cihazı dik durdurun.** Tableti dik tutan bir stand ya da kılıf, kimsenin onu elinde tutması gerekmediği ve göstermenin daha kolay olduğu anlamına gelir.
+1. **Kişinin en iyi olduğu saati seçin.** [National Institute on Aging (NIA) etkinlikleri uyarlama yönergesi](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease), gezileri ve etkinlikleri kişinin en iyi durumda olduğu saate göre planlamayı öneriyor. Birçok kişi için bu sabahın ortası. Öğleden sonranın sonları genellikle daha zordur; bkz. [öğleden sonra için sakin etkinlikler](/creative-calm/calm-afternoon-activities/).
+2. **Odayı sessiz hale getirin.** Mümkünse televizyonu ve radyoyu kapatın, kapıyı kapatın. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/), konuşmaya başlamadan önce gürültüyü ve dikkat dağıtıcı şeyleri sınırlamayı öneriyor.
+3. **Önce rahatlığı kontrol edin.** Yakınında bir içecek, önceden tuvalete gidilmiş olması, rahat bir koltuk ve gözlük ile işitme cihazının takılı olması.
+4. **Alanı iyi aydınlatın.** Ekranda parlama yapmayan, parlak ve dengeli bir ışık resimlerin daha kolay görünmesini sağlar.
+5. **Oturmadan önce oyunu hazırlayın.** Oyunu açın, ayarları siz seçin ve sesi kendiniz ayarlayın. Sonra ekranı onlara doğru çevirin. Yardımcı olursa cihazda büyük yazı tipini açın.
+6. **Cihazı dik tutun.** Tableti dik tutan bir standın ya da kılıfın olması, kimsenin onu elinde tutmak zorunda kalmaması demektir ve işaret etmek de daha kolaydır.
 
-## Baskı yapmadan nasıl davet ederim?
+## Onları baskı yapmadan nasıl davet ederim?
 
-Daveti gündelik ve reddetmesi kolay tutun. Genellikle iyi karşılanan bazı cümleler:
+Daveti rahat ve reddetmesi kolay bir biçimde yapın. Genellikle iyi karşılanan bazı cümleler şunlardır:
 
-- “Birkaç bahçe resmi buldum. Benimle bakmak ister misiniz?”
-- “Bu yapbozda bana yardım eder misiniz? Takıldım.”
-- “Bugün çiçeklere mi bakalım, kuşlara mı?” (iki seçenek açık bir sorudan daha kolaydır)
-- “Kız kardeşinize bir kart hazırlıyorum. Bu hangi renk olsun?”
+- Bahçeyle ilgili birkaç resim buldum. Benimle birlikte bakmak ister misiniz?
+- Bu bulmacada bana yardım eder misiniz? Takıldım.
+- Bugün çiçekleri mi yoksa kuşları mı istersiniz? (iki seçenekten birini seçmek açık bir soruya göre daha kolaydır)
+- Kız kardeşiniz için bir kart yapıyorum. Bunun rengi ne olsun?
 
-Alzheimer's Association, bir etkinliğin amacını, örneğin bir arkadaşa kart hazırlamak olduğunu açıklamayı öneriyor; çünkü bir neden, etkinliğe anlam katar. Yardım istemek de işe yarar, çünkü kişinin işe yaradığını hissetmesini sağlar.
+Alzheimer Derneği, bir etkinliğin amacını açıklamayı öneriyor; örneğin bir arkadaşa kart yapmak gibi. Çünkü bir neden etkinliğe anlam katar. Yardım istemek de işe yarar, çünkü kişinin kendini faydalı hissetmesini sağlar.
 
-“Hayır” derse kabul edin. Daha sonra yeniden deneyin ya da farklı bir şey önerin. [“Hayır” dediğinde ne yapmalı](/caregiving/when-they-say-no/) rehberimiz bu konuyu daha ayrıntılı anlatıyor.
+Hayır derlerse, kabul edin. Daha sonra yeniden deneyin ya da farklı bir şey önerin. [Hayır dediklerinde ne yapmalı](/caregiving/when-they-say-no/) konulu rehberimiz bu konuda daha ileri gidiyor.
 
-## Bir oyun ne kadar sürmeli ve ne kadar hızlı gitmeliyiz?
+## Bir oyun ne kadar sürmeli ve ne kadar hızlı ilerlemeliyiz?
 
-Tempoyu kişinin belirlemesine izin verin ve kısa oturumlar planlayın. Birlikte oynanan bir oyun için kanıta dayalı ideal bir süre yoktur. İki ila beş sakin dakika başlı başına bir etkinlik olabilir.
+Tempoyu kişinin belirlemesine izin verin ve kısa oturumlar planlayın. Birlikte oynanan bir oyun için kanıta dayalı ideal bir süre yoktur. İki ila beş sakin dakika, tam bir etkinlik olabilir.
 
-- **Size doğal gelenden daha uzun bekleyin.** NIA, kişiye cevap vermesi için daha fazla zaman tanımayı ve sözünü kesmemeye çalışmayı öneriyor. Yardım etmeden önce içinizden ona kadar sayın.
-- **Her seferinde tek adım.** Tek, kısa bir yönerge verin (“Bir resme dokunun”), sonra bekleyin. Anlatmak yerine gösterin: Nereye dokunacağını parmağınızla gösterin.
-- **Rahatça ara verin.** Bir resim üzerine konuşmak için durursa oyun bekleyebilir. Acele etmeye gerek yok.
-- **İzlemesine izin verin.** NIA, bazı kişilerin izlemeyi tercih ettiğini ve bunun da geçerli bir seçim olduğunu belirtiyor.
+- **Doğal gelenden daha uzun bekleyin.** NIA, kişinin yanıt vermesi için daha fazla zaman tanınmasını ve sözünün kesilmemesini öneriyor. Yardım etmeden önce içinizden ona kadar sayın.
+- **Her seferinde tek adım.** Tek ve kısa bir yönerge verin (“Bir resme dokunun”), sonra bekleyin. Açıklamak yerine gösterin: nereye dokunulacağını işaret edin.
+- **Serbestçe duraklayın.** Bir resim hakkında konuşmak için durursalar oyun bekleyebilir. Acele etmeye gerek yok.
+- **İzlemelerine izin verin.** NIA, bazı kişilerin izlemeyi tercih ettiğini not ediyor ve bu geçerli bir seçimdir.
 
 ## Yanlış cevapları düzeltmeli miyim?
 
-Hayır. Birini nazikçe de olsa tekrar tekrar düzeltmek, iyi niyetle bile olsa ona başarısız olduğunu söyler. Alzheimer's Association, zararsız etkinlikleri eleştirmemeyi ya da düzeltmemeyi öneriyor. Bir oyunda hataların neredeyse hepsi zararsızdır.
+Hayır. İyi niyetle bile olsa, birini tekrar tekrar nazikçe düzeltmek ona başarısız olduğunu söylemek anlamına gelir. Alzheimer Derneği, zararsız etkinlikleri eleştirmemeyi ya da düzeltmemeyi öneriyor. Bir oyunda neredeyse her hata zararsızdır.
 
-| Bunun yerine | Bunu deneyin |
+| Bunun yerine | Şunu deneyin |
 | --- | --- |
-| “Hayır, bu yanlış.” | “Hadi bir de böyle deneyelim.” (NIA'nın verdiği bir örnek) |
-| “Bunlar eşleşmiyor. Bir daha bakın.” | Hiçbir şey söylemeyin ve sıradaki hamleyi yapın ya da “Aa, ikisi de kırmızı.” |
-| “Bunun kim olduğunu hatırlıyor musunuz?” | “Bana bu resmi anlatır mısınız?” |
-| “Onu zaten yaptınız.” | “Bu güzel bir tane. Hadi bir daha yapalım.” |
-| “Hadi ama, bunu biliyorsunuz.” | “Sonunu göstereyim mi?” |
+| “Hayır, bu yanlış.” | “Bu şekilde deneyelim.” (NIA’nın verdiği bir örnek) |
+| “Bu eşleşmiyor. Bir daha bakın.” | Hiçbir şey söylemeden sıradaki tura geçin ya da “Bak, ikisi de kırmızı.” deyin. |
+| “Bunun kim olduğunu hatırlıyor musunuz?” | “Bu resim hakkında bana anlatır mısınız?” |
+| “Bunu zaten yaptınız.” | “Bu güzel bir tane. Bir daha yapalım.” |
+| “Hadi, bunu biliyorsunuz.” | “Sonunu size göstermemi ister misiniz?” |
 
-Bir hata onu açıkça üzüyorsa sessizce yardım edin. Doğru resmi gösterin, sırayı kendiniz alın ya da bir sonraki turda oyunu kolaylaştırın. Bir atasözü komik, yanlış bir sonla biterse birlikte gülün. Onun bulduğu son daha iyi bile olabilir.
+Bir hata açıkça onları üzüyorsa, sessizce yardım edin. Doğru resmi gösterin, sırayı kendiniz alın ya da bir sonraki turda oyunu kolaylaştırın. Bir söz komik bir yanlış sonla tamamlanırsa, birlikte gülün. Onların sonu belki daha iyidir.
 
-## Bir oyunu nasıl kolaylaştırır ya da zorlaştırırım?
+## Bir oyunu nasıl daha kolay ya da daha zor hale getiririm?
 
-Oyunu bir evre etiketine göre değil, kişinin o günkü hâline göre ayarlayın. Aynı kişinin akşam, sabaha göre daha basit bir sürüme ihtiyacı olabilir. NIA'nın ilk önerisi, etkinliği kişinin yapabildiğine uydurmak ve başardığını hissetmesini sağlamaktır.
+Oyunu, bir evre etiketine göre değil, o gün kişiye göre ayarlayın. Aynı kişi sabah yapabildiğinden daha basit bir sürüme akşam ihtiyaç duyabilir. NIA’nın ilk önerisi, etkinliği kişinin yapabildiklerine uydurmak ve başarılı hissetmesini sağlamaktır.
 
-| Oyun | Kolaylaştırmak için | Biraz zorlaştırmak için |
+| Oyun | Daha kolay hale getirin | Biraz daha zorlaştırın |
 | --- | --- | --- |
-| [Resim eşleştirme](/games/picture-pairs/) | 4 kareyle başlayın ve resimleri açık bırakın | Daha fazla kare ya da rahat hissettiriyorsa resimleri gizleyin |
-| [Aynısını bul](/games/find-the-same/) | 2 seçenek | En fazla 4 seçenek |
-| [Birlikte ayıralım](/games/sort-together/) | Resmi siz tutun, o sepeti göstersin | Hem resme hem sepete kendisi dokunsun |
-| [Resimli yapboz](/games/picture-puzzle/) | 4 parça; önce bütün resim üzerine konuşun | 9 parça |
-| [Atasözünü tamamla](/games/finish-the-saying/) | Sonu gösterin, sonra birlikte söyleyin | Dokunmadan önce sonu onun söylemesine fırsat verin |
-| [Büyük harfli kelime avı](/games/word-search/) | Yazdırın, tek bir kelimeyi birlikte arayın, ilk harfini gösterin | Aranacak sonraki kelimeyi o seçsin |
-| [Boyama sayfaları](/games/coloring/) | İki renk siz seçin, o aralarından seçsin | Bütün renkleri o seçsin |
-| [Sohbet kartları](/games/conversation-cards/) | Sadece resme birlikte bakın | Karttaki açık uçlu soruları kullanın |
-| [Fotoğraf eşleştirme](/games/photo-pairs/) | Çok sevilen birkaç aile fotoğrafı | Daha fazla fotoğraf ekleyin |
-| [Resimli tombala](/games/picture-bingo/) | Her oyuncunun yanında bir yardımcı otursun | Oyuncular kartlarını kendileri işaretlesin |
-| [Sakin nefes](/games/calm-breathing/) | Sadece oturup birlikte izleyin | Yavaşça birlikte nefes alın |
+| [Resim Eşleştirme](/games/picture-pairs/) | 4 kutucukla başlayın ve resimleri açıkta bırakın | Daha fazla kutucuk ya da rahat hissettiriyorsa resimleri gizleyin |
+| [Aynısını Bul](/games/find-the-same/) | 2 seçenek | En fazla 4 seçenek |
+| [Birlikte Sırala](/games/sort-together/) | Resmi siz tutun, onlar sepeti işaret etsin | Hem resme hem sepete kendi başlarına dokunsunlar |
+| [Resim Bulmacası](/games/picture-puzzle/) | 4 parça; önce tüm resim hakkında konuşun | 9 parça |
+| [Sözü Tamamla](/games/finish-the-saying/) | Sonunu gösterin, sonra birlikte söyleyin | Dokunmadan önce sonu onların söylemesine izin verin |
+| [Kelime Avı](/games/word-search/) | Yazdırın, birlikte bir kelime arayın, ilk harfini gösterin | Bulunacak bir sonraki kelimeyi onların seçmesine izin verin |
+| [Boyama](/games/coloring/) | İki renk siz seçin, onlar aralarından seçsin | Bütün renkleri onlar seçsin |
+| [Sohbet Kartları](/games/conversation-cards/) | Sadece resme birlikte bakın | Karttaki açık uçlu soruları kullanın |
+| [Fotoğraf Eşleştirme](/games/photo-pairs/) | Sevilen birkaç aile fotoğrafı | Daha fazla fotoğraf ekleyin |
+| [Resim Bingo](/games/picture-bingo/) | Her oyuncunun yanında bir yardımcı oturur | Oyuncular kendi kartlarını işaretler |
+| [Sakin Nefes](/games/calm-breathing/) | Sadece birlikte oturup izleyin | Yavaşça onunla birlikte nefes alın |
 
-Oyunun fazla zor olduğunun işaretleri: düşünceli değil endişeli görünen uzun duraklamalar, tekrar tekrar “Yapamıyorum” demek, cihazı itmek ya da onu üzen hatalar. Fazla kolay olabileceğinin işaretleri: sıkılmak ya da oyunun çocukça olduğunu söylemek. Böyle olursa buna saygı gösterin ve yetişkince hissettiren bir şeye geçin; örneğin bir kelime avı, gerçek bir fotoğraftan yapılmış bir yapboz ya da eski mesleğiyle ilgili bir resim üzerine sohbet.
+Oyunun çok zor olduğunun işaretleri: düşünceli değil de endişeli görünen uzun duraklamalar, tekrar tekrar “yapamıyorum” demek, cihazı uzaklaştırmak ya da onları üzen hatalar. Çok kolay olabileceğinin işaretleri: sıkılmak ya da oyunun çocukça olduğunu söylemek. Böyle bir şey olursa, bunu kabul edin ve yetişkin gibi hissettiren bir şeye geçin; örneğin bir kelime avı, gerçek bir fotoğrafın bulmacası ya da eski işlerine ait bir resim hakkında konuşmak gibi.
 
 ## Bir oyunu nasıl sohbete dönüştürürüm?
 
-Her resmi konuşmaya bir davet olarak kullanın ve söylediği her şeyi güzel bir cevap olarak kabul edin. Pek çok aile için oyunun en güzel kısmı budur.
+Her resmi konuşmaya bir davet olarak kullanın ve söylediklerinin her birini iyi bir cevap olarak görün. Birçok aile için oyunun en güzel kısmı budur.
 
-- **Yanlış cevabı olmayan açık sorular sorun.** “Neler dikkatinizi çekiyor?” “Hangisini beğendiniz?” “Bana böyle bir mutfaktan söz edin.”
-- **Önce siz anlatın.** “Babaannemin de buna benzeyen bir köpeği vardı.” Sizin hikâyeniz, onun da bir hikâye anlatmasını kolaylaştırır.
-- **Konu dağılırsa onu izleyin.** Bir araba resmi bir yolculuk hikâyesine götürüyorsa, etkinlik o hikâyedir. Oyunu bekletin.
-- **Doğruluğunu kontrol etmeyin.** Anılar üzerine konuşurken hoş bir sohbet, ayrıntıların doğru olmasından daha önemlidir. Hikâye geçen seferkinden farklıysa yeni hâlinin tadını çıkarın.
-- **Oyunların içindeki soruları kullanın.** [Atasözünü tamamla](/games/finish-the-saying/) her atasözünden sonra bir sohbet sorusu sunar; [Sohbet kartları](/games/conversation-cards/) tam da bunun için tasarlandı. [Fotoğraf eşleştirme](/games/photo-pairs/) kendi aile fotoğraflarınızı kullanır ve bunlar çoğu zaman en zengin hikâyeleri başlatır.
+- **Açık uçlu, yanlış cevabı olmayan sorular sorun.** “Ne dikkatinizi çekiyor?” “Hangisini seviyorsunuz?” “Bunun gibi bir mutfak hakkında bana anlatır mısınız?”
+- **Önce siz paylaşın.** “Büyükannemin bunun gibi bir köpeği vardı.” Sizin hikâyeniz, onların da bir hikâye paylaşmasını kolaylaştırır.
+- **Konu dağılırsa takip edin.** Bir araba resmi bir yol gezisi hikâyesine götürürse, hikâye de etkinliktir. Oyunu durdurulmuş halde bırakın.
+- **Doğruluğunu sorgulamayın.** Geçmişi anımsamada, doğru ayrıntılardan çok hoş bir sohbet önemlidir. Hikâye geçen seferden farklıysa, yeni hâlinden keyif alın.
+- **Hazır yönlendirmeleri kullanın.** [Sözü Tamamla](/games/finish-the-saying/) her sözün ardından bir konuşma yönlendirmesi getirir, [Sohbet Kartları](/games/conversation-cards/) ise tam da bunun için tasarlanmıştır. [Fotoğraf Eşleştirme](/games/photo-pairs/) kendi aile fotoğraflarınızı kullanır; bunlar çoğu zaman en zengin hikâyeleri ortaya çıkarır.
 
-Daha fazla fikir [anılar üzerine etkinlikler](/activities/reminiscence/) ve [iletişim ipuçları](/caregiving/communication-tips/) rehberlerimizde.
+Daha fazla fikir için [anımsama etkinlikleri](/activities/reminiscence/) rehberimize bakın. Tanı konulduktan sonra destek için bkz. [tanıdan sonraki ilk adımlar](/caregiving/after-dementia-diagnosis/).
 
-## Ne zaman bırakmalıyız?
+## Ne zaman durmalıyız?
 
-Yorgunluk ya da üzüntünün ilk işaretlerinde, hatta mümkünse biraz öncesinde bırakın. Alzheimer's Association, dikkat azaldığında ya da hayal kırıklığı arttığında etkinliği bırakmayı veya değiştirmeyi öneriyor.
+Yorgunluk ya da huzursuzluğun ilk belirtisinde durun, ideali ise biraz daha erken durmaktır. Alzheimer Derneği, dikkat dağıldığında ya da hayal kırıklığı arttığında etkinliği durdurmayı ya da değiştirmeyi öneriyor.
 
 Şunlara dikkat edin:
 
-- esnemek, çökmek ya da gözlerin ekrandan uzaklaşması;
-- kıpırdanmak, ayağa kalkmak ya da gitmek istemek;
-- iç çekmek, kısa cevaplar ya da “Ben bunda iyi değilim” demek;
-- rastgele dokunmak ya da cihazı itmek;
-- gözlerin dolması, sinirlilik ya da ruh hâlinde ani bir değişiklik.
+- esneme, çökme ya da gözlerin ekrandan uzaklaşması;
+- kıpırdanma, ayağa kalkma ya da gitmek istediklerini söyleme;
+- iç çekme, kısa cevaplar ya da “Bunda iyi değilim”;
+- rastgele dokunma ya da cihazı itme;
+- gözyaşı, sinirlilik ya da ani ruh hali değişikliği.
 
-İyi bir şekilde bırakmak için:
+Nasıl düzgünce durulacağı:
 
-- **Kolay bir şeyle bitirin.** Yapabileceği son bir eşleşme ya da hayranlıkla bakılacak son bir resim.
-- **Bunu kendinize bağlayın.** “Canım bir çay çekti. Burada bırakalım mı?” demek, kötü yaptığına dair her türlü imayı önler.
-- **Bedensel ya da rahatlatıcı bir şeye geçin.** Kısa bir yürüyüş, bir atıştırmalık, çamaşır katlamak ya da müzik.
-- **Sıcak bir şey söyleyin.** “Bunu sizinle yapmak hoşuma gitti.” “Doğru bildiği” için övgü değil, sadece birlikte geçen zamandan duyulan keyif.
+- **Kolay bir şeyle bitirin.** Yapabilecekleri son bir eşleşme ya da hayran kalmaları için son bir resim.
+- **Konuyu kendinize getirin.** “Bir fincan çaya ihtiyacım var. Burada mı bıraksak?” gibi bir cümle, kötü yaptıklarına dair herhangi bir ima’yı önler.
+- **Fiziksel ya da rahatlatıcı bir şeye geçin.** Kısa bir yürüyüş, bir atıştırmalık, çamaşır katlamak ya da müzik.
+- **Sıcak bir şey söyleyin.** “Bunu sizinle yapmayı sevdim.” “Doğru yaptınız” diye övgü yok, sadece birlikte geçirilen zamanın keyfi.
 
-Erken bitirmek, planları değiştirmek ya da oyunu bırakıp sadece birlikte oturmak, hepsi güzel sonuçlardır.
+Erken bitirmek, planı değiştirmek ya da oyundan vazgeçip sadece birlikte oturmak, hepsi iyi sonuçlardır.
 
-## Grup içinde ya da görüntülü görüşmede oynayabilir miyiz?
+## Grupla ya da görüntülü arama üzerinden oynayabilir miyiz?
 
-Evet, biraz daha fazla hazırlıkla. Grup içinde kişi sayısını az tutun, ihtiyacı olan herkesin yanına bir yardımcı oturtun ve herkesin odaklanabileceği net bir oyun seçin. [Resimli tombala](/games/picture-bingo/) gruplar için yazdırılabilir kartlar ve ekranda çekiliş yapan bir bölüm sunar. Daha fazlası için [huzurevleri için grup etkinlikleri](/activities/care-home-groups/) rehberine bakın.
+Evet, biraz ek hazırlıkla. Grupta kişi sayısını birkaç kişiyle sınırlı tutun, yardıma ihtiyacı olan herkesin yanına yardımcı oturtun ve net bir ortak odağı olan bir oyun seçin. [Resim Bingo](/games/picture-bingo/), gruplar için yazdırılabilir kartlara ve ekranda çalan bir çağırıcıya sahiptir. Daha fazlası için bkz. [bakım evi grupları için etkinlikler](/crafts/craft-group-sessions/).
 
-Görüntülü bir görüşmede, görüşmedeki kişi bir resmi anlatırken odadaki biri gösterip dokunabilir. Görüşmeleri kısa ve tanıdık tutun. [Telefon ve görüntülü görüşmeler](/activities/phone-and-video-calls/) rehberimizde daha fazla ipucu var.
+Görüntülü aramada, aramadaki kişi bir resmi anlatabilirken odadaki biri işaret edip dokunabilir. Aramaları kısa ve tanıdık tutun. [Telefon ve görüntülü aramalar](/together/staying-connected-from-afar/) rehberimizde daha fazla ipucu var.
 
-## Bir oyun bir türlü işe yaramıyorsa ne yapmalı?
+## Bir oyun hiç işe yaramıyorsa ne yapmalı?
 
-Bazı günler hiçbir şey tutmaz ve bu ne sizinle ne de onunla ilgilidir. Oyunu kaldırın; günün başka bir saatini, farklı bir oyunu ya da hiç oyun oynamamayı deneyin. Pek çok güzel etkinliğin ekranla hiçbir ilgisi yoktur: müzik, havlu katlamak, bir fotoğraf albümüne göz atmak ya da kısa bir yürüyüş. Daha fazlası için [etkinlik fikirlerimize](/activities/ideas/) göz atın.
+Bazı günler hiçbir şey tutmaz ve bu ne sizin ne de onların bir yansımasıdır. Oyunu kaldırın ve günün başka bir saatinde, başka bir oyunla ya da hiç oyun olmadan yeniden deneyin. Birçok güzel etkinliğin ekranla ilgisi yoktur: müzik, havlu katlamak, bir fotoğraf albümüne bakmak ya da kısa bir yürüyüş. Daha fazlası için [etkinlik fikirlerimize](/activities/ideas/) göz atın.
