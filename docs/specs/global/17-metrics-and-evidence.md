@@ -209,6 +209,7 @@ Risks / not doing: publishing defect counts as a quality badge (L10N-025); readi
 
 ### MET-016 · Accessibility defects per release
 Priority P0 · Phase S2 · Status partial · Pillars: all
+Status note (2026-11-22): `pnpm run check:a11y -- --record=<file>` writes the per-release record (violations per template and per page, with the necessary-but-not-sufficient sentence), tested in `site/src/lib/a11y-record.test.ts`. Documented in `docs/release/site-release-checks.md`. Zero serious or critical violations is still the target, not yet recorded as met.
 Why: WCAG 2.2 AA is the minimum ([DESIGN.md §6]; [R5 §5.4]). The baseline says axe runs on key pages.
 What: serious and critical axe violations per template, per release.
 Acceptance:
