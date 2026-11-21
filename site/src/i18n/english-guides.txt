@@ -1,0 +1,19 @@
+# Languages whose guides stay in English (maintainer decision, 2026-11-21).
+#
+# Haiku judged its own Zhuang unreliable: drafts passed every structural check, but meaning was lost
+# and sentences were invented. For the languages below, machine translation of long guides is not
+# trustworthy, so readers get the English guide; the short site and game strings are still
+# translated. Old translated dementia guides in these languages are retired with every other
+# language's (docs/specs/global/retired-guides.md).
+#
+# Rule used: historical, liturgical or little-used constructed languages; languages with very little
+# written text online; and languages where the mixed-alphabet scan found garbled words in many
+# guides (ab, av, ba, ce, cv, kl, kv). A language can be moved off this list once a fluent reviewer
+# checks its translations. Read by scripts/agy_translate.py and src/lib/english-guides.content.test.ts.
+
+# Historical, liturgical, constructed
+ae cu pi ia ie io vo
+# Very little written text online
+aa an av ay bh bi bm ch cr dz ff fj gn gv ho hz ii ik iu kg ki kj kr kw li lu mh na nd ng nr nv oj os sc se sg ss to ts tw ty ve wa za
+# Garbled words found in many guides
+ab ba ce cv kl kv

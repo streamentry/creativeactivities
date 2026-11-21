@@ -37,6 +37,10 @@ SITE = Path(__file__).resolve().parent.parent
 I18N = SITE / 'src/i18n'
 GUIDES = SITE / 'src/content/guides'
 GUIDES_I18N = SITE / 'src/content/guides-i18n'
+# Languages whose guides stay in English (src/i18n/english-guides.txt): guides are never translated
+# into them; their site and game strings still are.
+ENGLISH_GUIDES = {c for line in (SITE / 'src/i18n/english-guides.txt').read_text().splitlines()
+                  if not line.lstrip().startswith('#') for c in line.split()}
 CSV = SITE.parent / 'docs/languages.csv'
 MODEL = 'gemini-3.8-flash-medium'
 PLURALS = ('zero', 'one', 'two', 'few', 'many', 'other')
@@ -711,7 +715,8 @@ def pending(kinds, codes, guides: list[str] | None = None):
     for code in codes:
         for k in kinds:
             if k == 'guides':
-                todo += [('guides', code, r) for r in rels if not guide_done(code, r)]
+                if code not in ENGLISH_GUIDES:
+                    todo += [('guides', code, r) for r in rels if not guide_done(code, r)]
             elif not json_done(k, code):
                 todo.append((k, code, None))
     return todo
@@ -765,7 +770,8 @@ def main():
         for c in codes:  # language order from --langs, so the biggest languages can go first
             for k in kinds:
                 if k == 'guides':
-                    todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
+                    if c not in ENGLISH_GUIDES:
+                        todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
                 elif only_units.get(k) and f'{k}|{c}|' not in finished:
                     todo.append((k, c, None))
     else:
