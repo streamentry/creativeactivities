@@ -37,36 +37,36 @@ Summary: app strings complete 50 of 50; website UI complete 3 of 50; store listi
 | 18 | Ukrainian | `uk` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 19 | Hindi | `hi` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 20 | Bengali | `bn` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 21 | Urdu | `ur` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 22 | Marathi | `mr` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 23 | Telugu | `te` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 24 | Swahili | `sw` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 25 | Punjabi (Gurmukhi) | `pa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 26 | Filipino | `fil` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 27 | Tamil | `ta` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 28 | Persian | `fa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 29 | Gujarati | `gu` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 30 | Kannada | `kn` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 21 | Persian | `fa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 22 | Hausa | `ha` | yes | yes | yes | no | no | yes | maintainer decision |
+| 23 | Urdu | `ur` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 24 | Marathi | `mr` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 25 | Telugu | `te` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 26 | Tamil | `ta` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 27 | Gujarati | `gu` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 28 | Punjabi (Gurmukhi) | `pa` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 29 | Filipino | `fil` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 30 | Romanian | `ro` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 31 | Malay | `ms` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 32 | Malayalam | `ml` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 33 | Odia | `or` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 34 | Uzbek | `uz` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 35 | Azerbaijani | `az` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 36 | Assamese | `as` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 37 | Romanian | `ro` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 38 | Nepali | `ne` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 39 | Javanese | `jv` | yes | yes | yes | no | no | yes | maintainer decision |
-| 40 | Sundanese | `su` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 41 | Igbo | `ig` | yes | yes | yes | no | no | yes | maintainer decision |
-| 42 | Zulu | `zu` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 32 | Swahili | `sw` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 33 | Kannada | `kn` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 34 | Malayalam | `ml` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 35 | Nepali | `ne` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 36 | Azerbaijani | `az` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 37 | Amharic | `am` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 38 | Burmese | `my` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 39 | Uzbek | `uz` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 40 | Odia | `or` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 41 | Assamese | `as` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
+| 42 | Pashto | `ps` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 43 | Yoruba | `yo` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 44 | Amharic | `am` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 45 | Pashto | `ps` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 46 | Burmese | `my` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 47 | Sindhi | `sd` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 48 | Somali | `so` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 49 | Oromo | `om` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 50 | Hausa | `ha` | yes | yes | yes | no | no | yes | maintainer decision |
+| 44 | Igbo | `ig` | yes | yes | yes | no | no | yes | maintainer decision |
+| 45 | Zulu | `zu` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 46 | Somali | `so` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 47 | Oromo | `om` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 48 | Javanese | `jv` | yes | yes | yes | no | no | yes | maintainer decision |
+| 49 | Sundanese | `su` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 50 | Sindhi | `sd` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 
 Outside the launch order (14 codes in `release-status.json`, no gate row until they are placed under L10N-030): `ca`, `cs`, `da`, `el`, `fi`, `he`, `hr`, `hu`, `nb`, `pt-PT`, `sk`, `sl`, `sv`, `mn`.
 
