@@ -1,33 +1,28 @@
 ---
-title: "Actividades de reminiscencia: caixas, historias e fotos"
-seoTitle: "Actividades de reminiscencia para a demencia"
-description: "Como compartir lembranzas con alguén que vive con demencia sen facer preguntas de memoria: fotos, caixas e libros de vida, con frases para un ambiente relaxado."
+title: "Actividades de reminiscencia: caixas de recordos, historias de vida e fotos"
+seoTitle: "Actividades de reminiscencia para a demencia: ideas sen exame"
+description: "Como compartir recordos con alguén que vive con demencia sen facer exames: conversar sobre fotos, caixas de recordos e libros de historia de vida, con frases que manteñen un tono relaxado."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  A reminiscencia consiste en gozar xuntos do pasado a través de fotos,
-  obxectos, música e historias. Faga unha caixa de lembranzas, cree un libro
-  sinxelo da historia de vida ou miren fotos un ao carón do outro. Non faga
-  preguntas de memoria: evite «Lémbrase?» e «Quen é este?» e use invitacións
-  abertas como «Cónteme algo sobre isto». Unha conversa agradábel importa máis
-  ca acertar nos detalles.
+  A reminiscencia significa gozar do pasado en compañía, por medio de fotos, obxectos, música e historias. Faga unha caixa de recordos, cree un libro sinxelo de historia de vida, ou mire fotos lado a lado. Nunca faga preguntas de exame: evite «Lémbrase?» e «Quen é esta?», e use invitacións abertas como «Conteme disto». Unha conversa cálida importa máis que acertar os datos.
 keyPoints:
-  - "A reminiscencia é unha conversa, non unha proba. A exactitude non importa; o importante é gozar do momento."
-  - "Cambie «Lémbrase de...?» e «Quen é este?» por comentarios e invitacións como «Cónteme algo sobre este día»."
-  - "Unha caixa de lembranzas con obxectos da vida da persoa dálle ás mans e á conversa algo no que apoiarse."
-  - "Un libro da historia de vida axuda á familia, ás visitas e ao persoal de coidados a coñecer a persoa, non só o diagnóstico."
-  - "Se unha lembranza trae tristura, ofreza consolo primeiro e pase con suavidade a outra cousa."
+  - "A reminiscencia é unha conversa, non unha proba. A exactitude non importa; o que importa é o gozo."
+  - "Substitúa «Lémbrase...?» e «Quen é esta?» por comentarios e invitacións como «Conteme deste día»."
+  - "Unha caixa de recordos con obxectos da vida da persoa dá ás mans e á conversa algo ao que agarrarse."
+  - "Un libro de historia de vida axuda á familia, ás visitas e ao persoal de coidados a coñecer á persoa, non só o diagnóstico."
+  - "Se un recordo trae tristeza, primeiro consolar e logo cambiar de tema con suavidade."
 faq:
-  - q: "Que é a reminiscencia para as persoas que viven con demencia?"
-    a: "A reminiscencia é compartir lembranzas e experiencias do pasado, a miúdo coa axuda de fotos, obxectos, música ou vídeos. Pode facerse a soas ou en grupo. O obxectivo é ter unha conversa agradable e con significado, non comprobar o que a persoa pode recordar."
-  - q: "Por que non debería preguntar «Lémbrase?»?"
-    a: "As preguntas que poñen a proba a memoria poden facer que unha persoa se sinta avergoñada ou ansiosa cando a resposta non lle vén. O National Institute on Aging inclúe preguntar a alguén se lembra algo ou a alguén entre as cousas que convén evitar. Comente o que ve e deixe que a persoa engada o que queira."
-  - q: "Que debería pór nunha caixa de lembranzas?"
-    a: "Escolla obxectos seguros e resistentes ligados á vida da persoa: cousas do traballo, materiais dun pasatempo, unha bufanda favorita, postais, receitas, lembranzas deportivas ou copias de fotos. Evite obxectos afiados, cousas pequenas que se poidan tragar e orixinais irrepetíbeis."
-  - q: "E se se confunde cos detalles?"
-    a: "Déixeo pasar. Se a súa nai di que a foto é da súa irmá cando é da súa curmá, non pasa nada. Corrixir converte un momento agradábel nunha proba. Siga a historia que está a contar e gócena xuntos."
+  - q: "Que é a reminiscencia para persoas con demencia?"
+    a: "A reminiscencia consiste en compartir recordos e experiencias pasadas, a miúdo coa axuda de fotos, obxectos, música ou vídeos. Pode darse uns a uns ou en grupo. O obxectivo é unha conversa agradable e con sentido, non comprobar o que a persoa pode recordar."
+  - q: "Por que non debo preguntar «Lémbrase?»"
+    a: "As preguntas que comprobaban a memoria poden facer que unha persoa se sinta avergoñada ou ansiosa cando a resposta non chega. O National Institute on Aging inclúe preguntar se alguén recorda algo ou a alguén entre as cousas que hai que evitar. En lugar diso, comente o que ve e deixe que a persoa engada o que queira."
+  - q: "Que debo poñer nunha caixa de recordos?"
+    a: "Escolla obxectos seguros e resistentes, ligados á vida da persoa: útiles de traballo, material de afección, unha bufanda favorita, postais, tarxetas de receitas, recordos deportivos ou copias de fotos. Evite os obxectos afiados, as pezas pequenas que se poidan tragar e os orixinais irrepetibles."
+  - q: "E se se equivocan nos datos?"
+    a: "Déixeo pasar. Se a súa nai di que a foto amosa á súa irmá cando é a súa prima, está ben. Corrixir convirte un momento cálido nunha proba. Siga a historia que contan e disfrútena xuntos."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -44,84 +39,85 @@ sources:
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
 related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-A reminiscencia consiste simplemente en gozar xuntos do pasado. Para moitas persoas que viven con demencia, as lembranzas de hai décadas poden seguir máis claras ca o que pasou esta mañá. As fotos, os obxectos familiares, a música e as historias poden abrir esas lembranzas e darlles algo agradábel que compartir. Hai unha soa regra: é unha conversa, nunca unha proba.
+A reminiscencia significa, simplemente, gozar do pasado en compañía. Para moitas persoas que viven con demencia, os recordos de hai décadas consérvanse máis claros que o que pasou esta mañá. As fotos, os obxectos coñecidos, a música e as historias poden abrir eses recordos e dar algo cálido que compartir. A única regra: é unha conversa, nunca un exame.
 
-## Que é a reminiscencia e en que se diferencia de facer preguntas de memoria?
+## Que é a reminiscencia, e en que se diferencia de facer un exame?
 
-A reminiscencia é compartir lembranzas a través de fotos, obxectos, música ou vídeo, ao ritmo da persoa. O [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) descríbea como compartir experiencias e historias do pasado coa axuda de fotos, obxectos, vídeos ou música, nun libro ou nunha tableta. Facer preguntas de memoria é diferente: pídelle á persoa que dea unha resposta correcta, e iso pode provocar vergoña en vez de gozo.
+A reminiscencia consiste en compartir recordos por medio de fotos, obxectos, música ou vídeo, ao ritmo da persoa. O [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) descríbeo como compartir experiencias e historias pasadas coa axuda de fotos, obxectos, vídeos ou música, nun libro ou nunha tableta. Un exame é distinto: pide á persoa que dea unha resposta correcta, e iso pode traer vergonza en lugar de gozo.
 
-O [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) inclúe preguntar a unha persoa se lembra algo ou a alguén entre as cousas que convén evitar. A [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) suxire evitar preguntas que dependan da memoria recente e falar no seu lugar do pasado máis afastado.
+O [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) inclúe entre as cousas que hai que evitar preguntar a alguén se recorda algo ou a alguén. A [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) suxire evitar as preguntas que dependen da memoria a curto prazo e falar do pasado máis lonxano.
 
-| No canto de | Probe con |
+| En lugar de | Probe |
 | --- | --- |
-| «Lémbrase disto?» | «Parece un día feliz. Cónteme algo sobre el.» |
-| «Quen é este?» | «Aquí está a tía Rosa na praia. Mire que sombreiro.» |
-| «De que ano é isto?» | «Parece a casa de antes. Como era vivir alí?» |
-| «Non, ese non é Xoán, é Fran.» | «Parece que se divertía moito.» |
-| «Xa mo contou.» | «Gústame moito esa historia.» |
+| «Lémbrase disto?» | «Parece un día feliz. Conteme del.» |
+| «Quen é esta?» | «Aquí está a tía Rosa na praia. Mire ese chapeu.» |
+| «En que ano foi isto?» | «Parece a casa vella. Como era vivir alí?» |
+| «Non, ese non é Xan, é Paco.» | «Parece moi divertido.» |
+| «Xa mo contou antes.» | «Encántame esa historia.» |
 
-## Como falar de fotos sen facer preguntas de memoria?
+## Como se fala das fotos sen facer exames?
 
-Comece polo que ve e despois deixe espazo para que a persoa engada algo se quere.
+Comece polo que se ve e deixe despois sitio para que a persoa engada algo se quere.
 
-1. **Senten un ao carón do outro.** Coloque o álbum entre os dous para que miren xuntos, non como se estivese a facer unha proba.
-2. **Escolla poucas fotos.** Cinco boas fotos son mellor ca unha caixa enteira. As copias grandes e claras funcionan mellor.
-3. **Nomee vostede ás persoas.** «Aquí está vostede co papá o día da voda» quita presión.
-4. **Comente os detalles.** A roupa, os coches, a comida, o tempo, as caras. «Que coche. Parece moi brillante».
-5. **Convide, non esixa.** «Cónteme algo sobre...» ou «Que lle chama a atención?» O silencio tamén está ben.
-6. **Siga o seu ritmo.** Se a persoa fala doutra cousa, acompáñea.
-7. **Pare mentres siga sendo agradábel.** Peche o álbum antes de que apareza o cansazo.
+1. **Sente lado a lado.** Sostéñan o álbum entre os dous para mirar xuntos, en lugar de facer unha proba de fronte a unha mesa.
+2. **Escolla algunhas fotos.** Cinco boas fotos valen máis que unha caixa completa. As impresións grandes e claras funcionan mellor.
+3. **Nomee vostede ás persoas.** «Aquí están vostede e o seu pai o día da voda» quita a presión.
+4. **Comente os detalles.** Roupa, coches, comida, tempo, rostros. «Que coche! Parece moi brillante.»
+5. **Convide, non esixa.** «Conteme...» ou «Que nota?» O silencio está ben.
+6. **Siga o seu camiño.** Se fala doutra cousa por completo, siga por aí.
+7. **Pare mentres sexa agradable.** Peche o álbum antes de que chegue o cansazo.
 
-Para ter imaxes que axuden a iniciar a conversa, probe [conversation cards](/games/conversation-cards/). Para converter as súas propias fotos de familia nun xogo suave de atopar parellas, probe [photo pairs](/games/photo-pairs/); as fotos que escolla quedan no seu navegador.
+Para imaxes preparadas, probe as [cartas de conversa](/games/conversation-cards/). Para converter as súas propias fotos familiares nun xogo de parellas suave, probe [parellas de fotos](/games/photo-pairs/); as fotos que escolla quedan no seu navegador.
 
-## Como facer unha caixa de lembranzas?
+## Como se fai unha caixa de recordos?
 
-Unha caixa de lembranzas é un recipiente con obxectos da vida da persoa para coller e conversar sobre eles.
+Unha caixa de recordos é un recipiente con obxectos da vida da persoa para manexar e falar deles.
 
-1. **Escolla unha caixa resistente** que sexa fácil de abrir, como unha caixa de zapatos, unha sombreireira ou un pequeno cofre de madeira.
-2. **Elixa un tema ou mesture varios.** O traballo, un pasatempo, un lugar, unha década ou un pouco de todo.
-3. **Reúna obxectos seguros.** Para comezar, abondan de cinco a dez cousas.
-4. **Use copias das cousas valiosas.** Faga copias de fotos e documentos irrepetíbeis e garde os orixinais nun lugar seguro.
-5. **Saque os obxectos dun en un.** Déalle un, diga algo sobre el e vexa cara a onde vai a conversa.
+1. **Escolla unha caixa resistente** e fácil de abrir, como unha caixa de zapatos, unha caixa de sombreiros ou un pequeno cofre de madeira.
+2. **Escolla un tema ou unha mestura.** Traballo, unha afección, un lugar, unha década, ou un pouco de todo.
+3. **Reúna obxectos seguros.** Cinco a dez pezas bastan para comezar.
+4. **Use copias das cousas valiosas.** Copie as fotos e os documentos irrepetibles e garde os orixinais a salvo.
+5. **Saque os obxectos de un en un.** Entregue un, diga algo sobre el e vexa por onde vai a conversa.
 
 Ideas para incluír:
 
-- **Traballo:** un distintivo co nome, unha pequena ferramenta, un parche dun uniforme, un libro de contas, un broche de enfermaría, un caderno de receitas dunha cafetería.
-- **Casa:** unha receita escrita da súa man, un pano de cociña, unha bufanda ou gravata favorita.
-- **Pasatempos:** un anzó sen gancho, unha pelota, unha madeixa de la, un sobre de sementes.
-- **Lugares:** postais, mapas, unha lembranza de viaxe, un recorte do xornal da súa vila.
-- **Familia:** copias de fotos, un debuxo dun neno ou nena, unha invitación de voda.
+- **Traballo:** unha credencial, unha pequena ferramenta, un parche de uniforme, un libro de contabilidade, un broche de enfermeira, un libro de cociña dunha cafetería.
+- **Casa:** unha tarxeta de receitas coa súa letra, un paño de cociña, unha bufanda ou unha gravata favoritas.
+- **Afeccións:** un sedal sen anzol, unha pelota de béisbol, un ovillo de la, un sobre de sementes.
+- **Lugares:** postais, mapas, un recordo turístico, un recorte de xornal da cidade natal.
+- **Familia:** copias de fotos, un debuxo dun neno, un convite de voda.
 
-Non inclúa obxectos afiados, cousas pequenas que se poidan tragar nin nada que poida traer lembranzas dolorosas, a non ser que saiba que a persoa o recibe ben.
+Deixe fóra os obxectos afiados, as cousas pequenas que se poidan tragar e calquera cousa que poida traer recordos dolorosos, a menos que saiba que é benvida.
 
-## Como facer un libro da historia de vida?
+## Como se fai un libro de historia de vida?
 
-Un libro da historia de vida é un álbum sinxelo con fotos e pés de foto curtos sobre a vida da persoa. É algo para mirar xuntos e axuda ás visitas e ao persoal de coidados a ver a persoa no seu conxunto.
+Un libro de historia de vida é un álbum sinxelo de fotos e lendas breves sobre a vida da persoa. É algo para mirar xuntos, e axuda ás visitas e ao persoal de coidados a ver a persoa completa.
 
-1. **Escolla un formato.** Un cartafol con fundas, un libro de fotos impreso ou unha presentación nunha tableta.
-2. **Pense en algunhas seccións.** Infancia, escola, traballo, familia, lugares onde viviu, fe, pasatempos, comidas e música favoritas.
-3. **Engada unha ou dúas fotos por páxina** cun pé de foto curto e con letra grande: «María, 22 anos, comezando a traballar no banco».
-4. **Inclúa gustos e rutinas.** «Toma o café con leite. Encántanlle os cantos do domingo. Non lle gusta a televisión alta». Isto axuda a quen coida dela.
-5. **Conte coa persoa** tanto como ela queira: escollendo fotos, contando historias ou simplemente vendo como toma forma.
-6. **Siga engadindo.** Non fai falta que estea rematado para que sexa útil.
+1. **Escolla un formato.** Unha carpeta con fundas de plástico, un libro de fotos impreso ou unha presentación nunha tableta.
+2. **Planifique algunhas seccións.** Infancia, escola, traballo, familia, lugares onde viviu, fe, afeccións, comidas e música favoritas.
+3. **Engada unha ou dúas fotos por páxina** cunha lenda breve, en letra grande: «María, con 22 anos, comeza a traballar no banco.»
+4. **Inclúa gustos e rutinas.** «Toma o café con leite. Encántalle os himnos do domingo. Non lle gusta a televisión con moito ruído.» Isto axuda a quen coida da persoa.
+5. **Faga participar á persoa** canto queira: escollendo fotos, contando historias ou simplemente mirando como toma forma o libro.
+6. **Siga engadindo.** Non fai falta que estea rematado para ser útil.
 
 ## Máis ideas de reminiscencia
 
-- **Poña música da súa xuventude** e fale sobre o que lle lembra. Vexa [actividades con música](/activities/music/).
-- **Vexa vídeos caseiros ou programas de televisión** das súas décadas favoritas.
+- **Poña música da súa mocidade** e fale de adónde a leva. Vexa [actividades musicais](/creative-calm/music-for-calm-and-connection/).
+- **Vexa vídeos caseiros ou series de televisión** das súas décadas favoritas.
 - **Cociñe un prato da infancia** e deixe que os cheiros guíen a conversa.
-- **Mire un mapa** da súa vila ou cidade e sigan rúas coñecidas.
-- **Follee catálogos ou revistas antigos** e fale dos prezos, da moda e dos coches.
-- **Grave as súas historias** no teléfono, co seu permiso, para a familia.
-- **Comparta durante as chamadas.** Mostre unha foto durante unha videochamada; vexa [chamadas telefónicas e por vídeo](/activities/phone-and-video-calls/).
-- **Leve unha foto ou un obxecto cando a visite.** Dá á visita un punto de partida sinxelo; vexa [visitas](/activities/visiting/).
+- **Mire un mapa** da súa cidade natal e trace as rúas coñecidas.
+- **Manexe catálogos ou revistas antigas** e fale de prezos, modas e coches.
+- **Grave as súas historias** nun teléfono, con permiso, para a familia.
+- **Comparta durante as chamadas.** Amose unha foto durante unha videochamada; vexa [chamadas telefónicas e por vídeo](/together/staying-connected-from-afar/).
+- **Leve unha foto ou un obxecto cando visite.** Dálle á visita un foco doado; vexa [visitas](/together/visiting-someone-in-care/).
 
-## E se unha lembranza é dolorosa?
+## E se un recordo é doloroso?
 
-Algunhas lembranzas traen dor, arrepentimento ou medo. Se a persoa se altera, pare, ofrézalle consolo e cambie con suavidade de tema ou de actividade. Non discuta sobre o que pasou. A Family Caregiver Alliance aconsella non tentar convencer a persoa de que está equivocada e suxire responder aos sentimentos que mostra, que son reais. Se fala de alguén que xa morreu como se estivese viva, responda ao sentimento: «Bótalle de menos. Cónteme algo sobre ela».
+Algúns recordos traen dor, arrepentimento ou medo. Se a persoa se altera, pare, consólea e cambie con suavidade de tema ou de actividade. Non discuta sobre o que pasou. A Family Caregiver Alliance aconsella non tratar de convencer a unha persoa de que se equivoca, e suxire responder aos sentimentos que mostra, que son reais. Se fala dunha persoa falecida coma se estivese viva, responda ao sentimento: «Ten saudades dela. Conteme como era.»
 
 ## Que di a investigación?
 
-Unha [revisión Cochrane sobre a reminiscencia](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), que incluíu 22 ensaios e 1.972 persoas, atopou que os efectos eran inconsistentes, pequenos e variaban segundo o contexto e o formato. Non atopou probas de dano para as persoas que viven con demencia. Suxerimos a reminiscencia porque pode ofrecer momentos agradábeis e con significado xuntos, non como un tratamento. Para saber máis sobre conversas sinxelas, vexa [consellos de comunicación](/caregiving/communication-tips/).
+Unha [revisión Cochrane sobre reminiscencia](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), que abrangue 22 ensaios e 1.972 persoas, atopou que os efectos foron inconsistentes, pequenos e variaron segundo o contexto e o formato. Non atopou evidencia de dano para as persoas con demencia. Suxerimos a reminiscencia porque pode facer tempo xuntos cálido e con sentido, non como tratamento. Para máis sobre conversas fáciles, vexa [primeiros pasos despois dun diagnóstico](/caregiving/after-dementia-diagnosis/).
