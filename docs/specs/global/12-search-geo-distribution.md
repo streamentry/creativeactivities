@@ -243,6 +243,8 @@ Risks / not doing: Do not invent experts or testimonials [SEO.md §5.3].
 ### SEO-013 · Structured data policy
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): `check:structured-data` runs in CI: every English HowTo, FAQPage and ItemList matches the visible page, and no JSON-LD field is empty. Rich Results validator runs are external and not done. The JSON-LD names a parent organization that no visible page mentions (see the maintainer decisions).
+
 Why: Markup must match visible content and must not promise rich results. Google narrowed HowTo and FAQ rich results in 2023 [SEO.md §15, FAQ and HowTo changes]. SEO.md recommends not expecting HowTo rich results.
 
 What: Allowed types, each only when true and visible:
@@ -266,6 +268,8 @@ Risks / not doing: Do not describe markup as an AI-search feature.
 
 ### SEO-014 · Internal linking graph
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `pnpm check:orphans` finds no orphan among the 176 indexable English pages and no repeated "read more" style anchor. Not in CI; the "at least two crawlable internal links" line is not checked.
 
 Why: Crawlers and visitors find activities through links, not through search boxes. Orphans are invisible [SEO.md §4.2, §6.1].
 
@@ -617,12 +621,12 @@ Risks / not doing: Do not treat `robots.txt` as access control [SEO.md §6.2].
 | SEO-039 | Relaxing art for adults (R5 rank 9) | P2 · S3 · partial | Scoped wording: "relaxing art activities." Acceptance: no "therapy," "healing," or "treatment" wording; non-therapy statement on page; sits under [CALM](10-pillar-creative-wellbeing.md) rules. | [CALM](10-pillar-creative-wellbeing.md) |
 | SEO-040 | Sensory activities for children (R5 rank 12) | P3 · S3 · new | Gated. Starts only after the children's controls in the TSA file are live and the GROW pillar has evidence. Acceptance: no child accounts, no child data, no third-party ads. | [GROW](08-pillar-parenting-kids.md), [TSA file](14-trust-safety-accessibility-privacy.md) |
 | SEO-041 | Broad rainy-day and adult or kids' crafts (R5 ranks 13 to 15) | P3 · S3 · new | Hub-only links, no dedicated pages until an adaptation angle is proven. Acceptance: each page would pass SEO-007. | SEO-007 |
-| SEO-042 | FAQPage on visible questions | P2 · S2 · partial | Only where real questions are visible on the page. Not added to every page for markup. Acceptance: validator passes; questions match visible text. | SEO-013 |
-| SEO-043 | ItemList on curated collections | P2 · S2 · partial | Hubs and printable packs with visible lists. Acceptance: the list order is on the page. | SEO-013 |
+| SEO-042 | FAQPage on visible questions | P2 · S2 · partial | Only where real questions are visible on the page. Not added to every page for markup. Acceptance: validator passes; questions match visible text. Status 2026-11-21: questions and answers match the visible text on all 95 English FAQ pages (`check:structured-data`, in CI); the external validator run is not done. | SEO-013 |
+| SEO-043 | ItemList on curated collections | P2 · S2 · exists | Hubs and printable packs with visible lists. Acceptance: the list order is on the page. Status 2026-11-21: `check:structured-data` (in CI) checks every English ItemList (28 pages) links its items in the page's order. | SEO-013 |
 | SEO-044 | VideoObject on real videos | P2 · S2 · new | Only with a transcript on the page. Acceptance: metadata matches the video. | SEO-023 |
 | SEO-045 | Open activity packs with a license | P2 · S2 · new | Packs with safety notes, substitutions and a source URL, under a license chosen with counsel. Acceptance: license line on every page of the pack; no pack without a safety line. | SEO-022, [TSA](14-trust-safety-accessibility-privacy.md) |
 | SEO-046 | Case stories with recorded data | P3 · S3 · new | Published only with recorded consent and real data. Acceptance: no invented quotes or outcomes [SEO.md §5.3]. | [metrics](17-metrics-and-evidence.md) |
-| SEO-047 | HowTo markup on step pages | P1 · S2 · partial | Keep valid markup on activities that have visible numbered steps. Acceptance: JSON-LD steps match visible steps; no rich-result promise (see SEO-013). | SEO-013 |
+| SEO-047 | HowTo markup on step pages | P1 · S2 · exists | Keep valid markup on activities that have visible numbered steps. Acceptance: JSON-LD steps match visible steps; no rich-result promise (see SEO-013). Status 2026-11-21: `check:structured-data` (in CI) checks the 56 English HowTo pages step by step, in order. | SEO-013 |
 
 ---
 

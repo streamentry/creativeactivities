@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 245 | 96 | 407 |
+| S2 | 68 | 243 | 96 | 407 |
 | S3 | 2 | 16 | 57 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **289** | **164** | **533** |
+| **All** | **82** | **287** | **164** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -449,6 +449,16 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | [Cultural adaptation register](global/cultural-adaptation-register.md): 21 rows, one per known point in the native review guide plus a Ukrainian men's-guide row found on the way, each with its file and line, the English counterpart and a proposal (keep, change, remove or reviewer to choose); "Decided by" empty everywhere | L10N-012 → partial | Drafted by a Haiku subagent from the repository only. Six citations spot-checked against the files (Italian chrysanthemum caption, German informal quoted line, Japanese uniformed-work row, Thai rating word, Arabic arrow, Spanish trivia row): all correct. Three points could not be tied to one file (Arabic layout is a run-time check; the Ukrainian source language is not recorded; the Thai store label key) and say so |
 | [Family terms register](global/family-terms-register.md): English source audit of 22 family and age words, legitimate uses separated from example scripts that assume one family; forms of address for German, Spanish, French, Italian, Ukrainian, Russian and Arabic | L10N-015 → partial | Same agent. Review found the scope note wrongly said the game and play strings had no English file; they were searched (three hits, all legitimate) and the note corrected. No "patient" or "sufferer" for the older person. Changing the example scripts and choosing each form of address wait for the maintainer and reviewers |
 
+### Batch 55 (2026-11-21): search, structured data, orphans, legal templates and crisis data
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A guide-only search also returns the cards and situations linked to the guide | WEB-003 partial | Built by a Haiku subagent, test first. Its version dropped a matching guide when nothing linked to it and said "nothing matched"; review kept the guide and capped the 14 unlinked guides with a test so the number can only fall |
+| `check:structured-data` (in CI): HowTo steps, FAQ questions and answers, and ItemList order match the visible page on every English page; no empty fields | SEO-043 → exists, SEO-047 → exists; SEO-013, SEO-042 partial | Built by a Haiku subagent; 0 mismatches on 56 HowTo, 95 FAQ and 28 ItemList pages; a changed step on a built page is caught. Added to CI in review |
+| `check:orphans`: no orphan among 176 indexable English pages, no repeated generic anchors | SEO-014 partial | Built by a Haiku subagent; not in CI |
+| DPIA template, withdrawal runbook, and a per-metric privacy note | TSA-013, TSA-045, MET-037 partial | Written by a Haiku subagent from the repository; owners, targets and counsel's check are marked "TO SET". The note flags four metric conflicts for the maintainer |
+| Crisis routes in a data file with a check date and a source field | L10N-009, CNT-1003 partial | Built by a Haiku subagent; the 18,921 built files are byte-identical to before; no number changed or re-checked |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -480,6 +490,7 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
 | The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
+| A parent organization named only in structured data (SEO-013) | SEO-013, TSA-049 | The JSON-LD names "Cloudjet Solutions Pte. Ltd." as a parent organization; no visible page says so. Say it on the About page, or remove it from the JSON-LD | Say it on the About page if it is true: structured data should not claim what the page does not show |
 
 ## Next batches (buildable without a person)
 

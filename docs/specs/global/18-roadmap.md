@@ -406,10 +406,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | SEO-036 | P2 | new | Holiday and seasonal pages (R5 rank 6) |
 | SEO-037 | P2 | new | Music activities for seniors (R5 rank 10) |
 | SEO-042 | P2 | partial | FAQPage on visible questions |
-| SEO-043 | P2 | partial | ItemList on curated collections |
+| SEO-043 | P2 | exists | ItemList on curated collections |
 | SEO-044 | P2 | new | VideoObject on real videos |
 | SEO-045 | P2 | new | Open activity packs with a license |
-| SEO-047 | P1 | partial | HowTo markup on step pages |
+| SEO-047 | P1 | exists | HowTo markup on step pages |
 
 #### Localization (13)
 

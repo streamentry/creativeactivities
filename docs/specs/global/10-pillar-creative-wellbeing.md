@@ -108,6 +108,8 @@ Any activity that invites personal reflection, journaling about feelings, or rem
 
 **CNT-1003 · Crisis route by country** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE (caregivers), GROW (review)
 
+Status note (2026-11-21): the three routes (988 in the US, Samaritans 116 123 in the UK and Ireland, local emergency services elsewhere) are now a data file with a check date and a source field; no source URL is recorded yet and no number was re-checked. The country table and directory fallback are not built.
+
 Why: R3 §4.4 found no creative-activity product with a visible crisis route on its activity pages, and says to verify every number before publishing. [R3 §4.4, §6]
 
 What: a crisis block (with name, number or text instruction, hours and a link to the official site) appears on CALM reflection pages, grief and remembrance pages, and caregiver hubs. The block is generated from a country table, shown by the visitor's chosen country or the site's language and region, and falls back to a neutral directory link. The table below lists only what R3 checked and marks the rest.

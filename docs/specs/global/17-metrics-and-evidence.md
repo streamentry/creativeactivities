@@ -418,7 +418,6 @@ Acceptance:
 Depends on: MET-001.
 Risks / not doing: optimizing for time. Not done.
 
-
 Evidence (2026-11-19): `docs/plan/measurement.md` now has the counter-metric section: time on site and page views are diagnostics, never a headline or goal; a monthly rise of more than 20% in either while confirmed starts per 1,000 card views fall triggers a review of that month's changes before more ships in that area. Gap: the monthly check needs the maintainer; it can only use consented traffic today.
 
 ### MET-035 · Dark-pattern guardrails
@@ -448,6 +447,9 @@ Risks / not doing: optimizing one channel at the expense of trust.
 
 ### MET-037 · Privacy-preserving measurement principles
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): the design note below gives each metric's source, retention and cell size from the repository (most are "not set"), and flags conflicts: MET-001's no-cookie promise against the GA4 event, MET-002's "card views" against a page-load count, and person-level data in MET-029 to MET-031. A reviewer has not read it.
+
 Why: MISSION sets privacy as a non-negotiable. The app has no analytics SDK by decision ([measurement plan](../../plan/measurement.md)). The website has GA4 only.
 What: the design rules for every metric in this file: aggregate counts only; no health data, diagnosis or free text; no person-level data in public reports; minimum cell size (proposed: 10); retention set to the shortest useful period; consent respected (see [platform](15-platform-data-architecture.md) PLAT-026).
 Acceptance:

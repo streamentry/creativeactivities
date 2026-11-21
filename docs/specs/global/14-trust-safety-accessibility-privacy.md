@@ -220,6 +220,8 @@ Risks / not doing: Do not use a pixel that records full URLs.
 ### TSA-013 · Special-category data posture (GDPR Article 9)
 Priority P0 · Phase S2 · Status partial · Pillars: CARE, CALM, GROW
 
+Status note (2026-11-21): [DPIA template](../../legal/dpia-template.md), with a worked example on Photo pairs. Counsel has not checked it, and no new feature has used it yet.
+
 Why: Information about a person's health is special-category data under GDPR Article 9(1). A dementia diagnosis or care need recorded about someone is health data [R5 §5.2].
 
 What: The core product collects no health information. No feature asks for a diagnosis, stage, medication or care level. Any future feature that might collect health data needs a data protection impact assessment and counsel's review before design starts.
@@ -755,6 +757,8 @@ Risks / not doing: Do not store form data that is not needed.
 ### TSA-045 · Response to an unsafe or wrong activity
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Status note (2026-11-21): [withdrawal runbook](../../legal/withdrawal-runbook.md) maps the five steps to what the code does (the `withdrawn` block, notice, noindex, listings) and what is manual (the corrections log entry, telling partners). Owners, targets and a drill wait on the maintainer.
+
 Evidence: `withdrawn` field on cards (date and reason, `withdrawnSchema`). `listedActivities()` in `activities.ts`, tested with fixtures in `activities.test.ts`, drops withdrawn cards from the finder, hubs, packs, home, game and guide pages, `llms.txt`, `llms-full.txt` and the sitemap. A withdrawn card keeps its URL, shows only the withdrawal notice and is noindex (`ActivityView.astro`). No real card has been withdrawn. Open: the same-day response target and the pre-gate drill are maintainer decisions; the drill has not been run.
 
 Runbook (stop and withdraw a card):
@@ -841,7 +845,6 @@ Acceptance:
 
 Depends on: [business model](16-business-model.md).
 Risks / not doing: Do not accept a sponsorship that would need an activity to change.
-
 
 Evidence (2026-11-19): a "Sponsors and partners" section on the English About page reads a typed partner list (`site/src/data/partners.ts`, empty today) and says there are no sponsors, paid placements or partner logos; `PartnerDisclosure.astro` is the line any future partner page must show; a test fails if an activity card carries sponsor or affiliate wording or if a logo image appears other than the site's own. A search of the site found no sponsor or partner (one third-party certification link in a crafts guide is a reference, not a partnership). Gap: the "no sponsors" statement is a fact about the business and waits on the maintainer's confirmation before it is published.
 
