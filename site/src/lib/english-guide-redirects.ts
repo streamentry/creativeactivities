@@ -95,6 +95,7 @@ export const ENGLISH_GUIDE_REDIRECTS: Readonly<Record<string, readonly string[]>
   sd: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/after-dementia-diagnosis', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   se: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   sg: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
+  si: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/after-dementia-diagnosis', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   sm: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   sn: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   so: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/after-dementia-diagnosis', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
