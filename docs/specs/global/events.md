@@ -29,7 +29,7 @@ Status: draft for maintainer review. Code: `site/src/lib/track.ts` (`EVENT_DICTI
 
 ## Metrics for the new events
 
-- `activity_view`, `activity_save`, `activity_share`: the activity's use and its save and share rates per card (MET-001 north-star support). A metric row in [17-metrics-and-evidence.md](17-metrics-and-evidence.md) is still to be written; no new event is wired without one.
+- `activity_view`, `activity_save`, `activity_share`: the activity's use and its save and share rates per card (MET-001 north-star support). Their rows are in the data-source table of [17-metrics-and-evidence.md](17-metrics-and-evidence.md): `activity_view` under MET-002, `activity_save` and `activity_share` under MET-003. A test in `track.test.ts` fails when an event in the dictionary has no row there.
 - `app_cta_click`: the app's acquisition from the website, by store and by where the box sat (PLAT-024). Clicks are counted in the page, before the store opens; a click that leaves the page may not always be reported.
 
 Save and share send the key only. Nothing about the list of saved activities, the person or the device is sent.

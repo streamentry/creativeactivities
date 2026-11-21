@@ -176,6 +176,42 @@ class SummaryTests(TempRepo):
         self.assertEqual(counts['open_other'], 1)
         self.assertEqual(counts['after_reviewed'], 3)
 
+    def test_found_after_reviewed_splits_by_calendar_quarter(self):
+        root = self.make_root([
+            make_row(id='DEF-001', found_on='2026-10-01'),
+            make_row(id='DEF-002', found_on='2026-12-31'),
+            make_row(id='DEF-003', found_on='2027-01-01'),
+            make_row(id='DEF-004', found_on='2026-09-30'),
+            make_row(id='DEF-005', language='vi', found_on='2027-02-10'),
+        ], languages={'es': dict(REVIEWED), 'vi': dict(UNREVIEWED)})
+        records, languages, errors = l10n_defects.load(root)
+        self.assertEqual(errors, [])
+        summary = l10n_defects.summarize(records, languages)
+        # DEF-001 is found on the review date itself, which is not after it, so it is not counted.
+        self.assertEqual(summary['es']['after_reviewed'], 2)
+        self.assertEqual(summary['es']['after_reviewed_by_quarter'], {'2026-Q4': 1, '2027-Q1': 1})
+        self.assertIsNone(summary['vi']['after_reviewed_by_quarter'])
+        self.assertIsNone(summary['vi']['after_reviewed'])
+
+    def test_quarter_labels(self):
+        self.assertEqual(l10n_defects.quarter_of(l10n_defects.datetime.date(2026, 1, 1)), '2026-Q1')
+        self.assertEqual(l10n_defects.quarter_of(l10n_defects.datetime.date(2026, 3, 31)), '2026-Q1')
+        self.assertEqual(l10n_defects.quarter_of(l10n_defects.datetime.date(2026, 4, 1)), '2026-Q2')
+        self.assertEqual(l10n_defects.quarter_of(l10n_defects.datetime.date(2026, 12, 31)), '2026-Q4')
+
+    def test_quarter_table_leaves_unreviewed_languages_blank(self):
+        root = self.make_root([make_row(found_on='2026-11-02'),
+                               make_row(id='DEF-002', language='vi', found_on='2026-11-03')],
+                              languages={'es': dict(REVIEWED), 'vi': dict(UNREVIEWED)})
+        records, languages, _ = l10n_defects.load(root)
+        text = l10n_defects.format_summary(l10n_defects.summarize(records, languages))
+        lines = text.splitlines()
+        header = next(i for i, line in enumerate(lines) if line.startswith('Found after reviewed'))
+        es_row = next(line for line in lines[header:] if line.startswith('es'))
+        vi_row = next(line for line in lines[header:] if line.startswith('vi'))
+        self.assertTrue(es_row.endswith('1'))
+        self.assertEqual(vi_row.strip(), 'vi')
+
     def test_empty_log_summary(self):
         root = self.make_root()
         records, languages, _ = l10n_defects.load(root)

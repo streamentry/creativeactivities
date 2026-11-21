@@ -3,7 +3,7 @@
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { formatReport, overdueReviews, pageFacts, reviewedCoverage, sourceCoverage, translationCoverage } from './content-metrics-lib.mjs';
+import { formatReport, overdueReviews, pageFacts, reviewedCoverage, safetyCompleteness, sourceCoverage, translationCoverage } from './content-metrics-lib.mjs';
 import { parseRetiredIds, readTranslations } from './translation-queue.mjs';
 
 const content = fileURLToPath(new URL('../src/content/', import.meta.url));
@@ -47,6 +47,7 @@ export function buildReport(root = content, today = new Date().toISOString().sli
     overdue: overdueReviews(pages, today),
     translation: translationCoverage(translations, liveGuides),
     sources: sourceCoverage(pages),
+    safety: safetyCompleteness(pages),
   };
   return { today, result };
 }
