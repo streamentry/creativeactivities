@@ -149,23 +149,7 @@ const planSheets = [
   <link rel="stylesheet" href="/styles/path-print.css" media="print" />
 </BaseLayout>
 
-<script>
-  // WEB-031: the weekly plans print on their own, with the path itself left off the paper. The attribute is
-  // read only by the print styles below, and is removed when the print dialog closes.
-  const tools = document.querySelector<HTMLElement>('[data-plan-tools]');
-  const button = document.querySelector<HTMLButtonElement>('[data-print-plan]');
-  if (tools && button) {
-    tools.hidden = false;
-    button.hidden = false;
-    button.addEventListener('click', () => {
-      document.body.dataset.printPlan = 'true';
-      window.print();
-    });
-    window.addEventListener('afterprint', () => {
-      delete document.body.dataset.printPlan;
-    });
-  }
-</script>
+<script is:inline src="/path-plan-print.js" defer></script>
 
 <style is:global>
   .path-weeks {

@@ -353,7 +353,11 @@ async function main() {
       await page.evaluate(() => { document.body.dataset.printPlan = 'true'; });
       const sheets = await page.evaluate(() => document.querySelectorAll('.weekly-plan').length);
       const planCounts = {};
-      for (const format of FORMATS) planCounts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+      for (const format of FORMATS) {
+        // The page clears the attribute on afterprint, which Chromium fires after each PDF, so set it again each time.
+        await page.evaluate(() => { document.body.dataset.printPlan = 'true'; });
+        planCounts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+      }
       const planOk = sheets === PATH_WEEKLY_PLAN_SHEETS && FORMATS.every((f) => planCounts[f] === PATH_WEEKLY_PLAN_SHEETS);
       if (!planOk) failures.push({ slug: `weekly plan: ${id}`, sheets, planCounts });
       record('weekly plan', planOk);
