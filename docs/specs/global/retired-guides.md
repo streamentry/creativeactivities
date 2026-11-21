@@ -29,15 +29,14 @@
 
 ## Languages whose guides stay in English
 
-**Decision (maintainer, 2026-11-21):** for 58 languages, readers get the English guide instead of a machine translation. A Haiku sub-agent judged its own Zhuang unreliable (its drafts passed every structural check, but meaning was lost and sentences were invented), and the same is likely for other languages with little written text online. The list, with the rule used, is `site/src/i18n/english-guides.txt`. In those languages:
+**Decision (maintainer, 2026-11-21):** for 114 languages, readers get the English guide instead of a machine translation. A Haiku sub-agent judged its own Zhuang unreliable (its drafts passed every structural check, but meaning was lost and sentences were invented), and the same is likely for other languages with little written text online. More languages joined after one-guide trials, in which a Haiku sub-agent wrote one real guide and judged it. The list, with the rule used for each group, is `site/src/i18n/english-guides.txt`. In those languages:
 
-- Live guides have no translation, so their pages show the English text (374 old and new translations were removed; `english-guides.content.test.ts` keeps it that way).
-- Site and game strings are still translated.
-- Old translated dementia guides stay until every language's are retired, like everywhere else.
+- Live guides have no translation, so their pages show the English text (`english-guides.content.test.ts` keeps it that way). Their old translated addresses redirect to the English page (`site/src/lib/english-guide-redirects.ts`).
+- Site and game strings are still translated. Strings that come out broken (repeated, cut short, missing a placeholder, mixed alphabets) are reset to English.
 - A language can leave the list once a fluent reviewer checks its translations.
 
 ## Not done / needs people
 
 - The 27 new pages are written by AI agents from the specs and unreviewed. Each needs a human editorial review (and for Kids, a child-safety review) before it is promoted.
-- New sections have no translations; other languages show the English page.
+- Every other language (75 content folders, including pt-BR, pt-PT, zh-Hans, zh-Hant and Filipino) has all 42 live guides translated by Haiku and checked by script only. They need native review, starting with the most-read languages.
 - Search Console: after deploy, watch the redirected URLs and impressions for a month; the dementia-intent traffic that lands on broader pages may fall.
