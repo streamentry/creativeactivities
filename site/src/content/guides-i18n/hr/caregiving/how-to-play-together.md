@@ -1,35 +1,35 @@
 ---
-title: "Kako igrati igre s osobom koja ima demenciju"
-description: "Praktičan vodič za igranje igara s osobom koja živi s demencijom: priprema, tempo, ispravljanje koje ne pomaže, lakše igre i kada stati."
+title: "Kako igrati igre s osobom koja živi s demencijom"
+description: "Praktičan vodič za igranje igara s osobom koja živi s demencijom: priprema, tempo, bez ispravljanja, lakše igre i kada stati."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
   Igru shvatite kao zajedničko vrijeme, a ne kao test. Odaberite miran dio dana,
-  sjednite jedno do drugoga u tihoj prostoriji i ponudite jednu jednostavnu igru.
-  Neka osoba odredi tempo, nikada ne ispravljajte bezopasne pogreške, učinite
-  igru lakšom čim se pojave znakovi napetosti i pretvorite slike u razgovor.
-  Stanite dok je još ugodno. Rano prekinuti igru ili jednostavno zajedno gledati
-  dobar je ishod.
+  sjednite jedno pored drugoga u tihoj prostoriji i ponudite jednu jednostavnu
+  igru. Neka osoba odredi tempo, nikada ne ispravljajte bezopasne pogreške,
+  učinite igru lakšom čim se pojavi napetost i pretvorite slike u razgovor.
+  Stanite dok je još ugodno. Rano prekinuta igra ili jednostavno zajedničko
+  gledanje dobar su ishod.
 keyPoints:
   - "Cilj je uživanje i povezanost, a ne završetak igre ili točni odgovori."
   - "Prvo pripremite: tiha prostorija, dobro svjetlo, naočale i slušni aparati na mjestu, televizor isključen, jedna igra spremna."
-  - "Nemojte ispravljati bezopasne pogreške. Recite „Probajmo ovako“ ili jednostavno nastavite."
+  - "Ne ispravljajte bezopasne pogreške. Recite „Probajmo ovako“ ili jednostavno nastavite."
   - "Učinite igru lakšom prije nego što se nakupi frustracija: manje slika, manje izbora, slike ostaju vidljive."
-  - "Koristite slike kao polazište za priče uz „Ispričajte mi o...“, a ne „Sjećate li se...?“"
+  - "Koristite slike kao polazište za priče uz „Ispričajte mi o...“, a ne uz „Sjećate li se...?“"
   - "Stanite na prvi znak umora ili uznemirenosti. Rano prekidanje je uspjeh, a ne neuspjeh."
 faq:
   - q: "Koliko dugo treba igrati jednu igru?"
-    a: "Nema točne duljine. Mnogima su dovoljne nekoliko minuta, a nekim danima dovoljan je i jedan krug. Gledajte osobu, a ne sat, i stanite dok još izgleda opušteno."
+    a: "Ne postoji točna duljina. Mnogima su dovoljne nekoliko minuta, a nekim danima dovoljan je i jedan krug. Gledajte osobu, a ne sat, i stanite dok još izgleda opušteno."
   - q: "Trebam li pustiti da pobijedi ili se praviti da ne primjećujem pogreške?"
     a: "U zajedničkoj igri bez pritiska nema što dobiti ili izgubiti. Ako pogreška osobu ne uznemiruje, pustite je. Ako se čini da je uznemiruje, tiho pomozite ili učinite igru lakšom, a da to ne naglašavate."
-  - q: "Što ako bi radije gledala kako ja igram?"
-    a: "To je u redu. Nacionalni institut za starenje predlaže da osobi jednostavno dopustite da gleda ako joj se čini da to više uživa. Razgovarajte o onome što vidite i pozovite je da pokaže ili izabere kad god želi."
+  - q: "Što ako bi osoba radije gledala kako ja igram?"
+    a: "To je u redu. Nacionalni institut za starenje (NIA) predlaže da osobi jednostavno dopustite da gleda ako joj se čini da to više uživa. Razgovarajte o onome što vidite i pozovite je da pokaže ili izabere kad god želi."
   - q: "Jesu li ove igre način za testiranje pamćenja?"
     a: "Ne. Naše igre su jednostavne zajedničke aktivnosti za uživanje i razgovor. Nisu test pamćenja, ništa ne mjere i nisu liječenje demencije."
-  - q: "Koja je igra najbolja za početak?"
-    a: "Počnite s najjednostavnijom igrom koja odgovara osobi. Parovi slika s četiri pločice i slikama koje ostaju vidljive ili Pronađi isto s dva izbora nježna su mjesta za početak. Kartice za razgovor dobro funkcioniraju ako osoba više voli razgovarati nego dodirivati."
+  - q: "Koju igru je najbolje započeti?"
+    a: "Počnite s najjednostavnijom igrom koja odgovara osobi. Parovi slika sa četiri pločice i vidljivim slikama ili Pronađi isto s dva izbora blagi su početci. Kartice za razgovor dobro funkcioniraju ako osoba više uživa u razgovoru nego u dodirivanju."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Dobra igra s osobom koja živi s demencijom ne izgleda kao natjecanje. Izgleda kao dvoje ljudi koji sjede blizu, pokazuju na slike, smiju se izreci i razgovaraju o svemu što im padne na pamet. Igra je samo razlog da provedete vrijeme zajedno.
+Dobra igra s osobom koja živi s demencijom ne izgleda kao natjecanje. Izgleda kao dvoje ljudi koji sjede blizu, pokazuju na slike, smiju se izreci i razgovaraju o svemu što im padne na pamet. Igra je samo razlog da provedu vrijeme zajedno.
 
-Ovaj vodič objašnjava kako se pripremiti, kako odrediti tempo igre, što reći kad nešto „pođe po krivu“, kako igru učiniti lakšom ili malo težom, kako je pretvoriti u razgovor i kako prepoznati kada stati. Radi s našim [igrama](/games/) i s kartama, slagalicama i društvenim igrama koje već imate.
+Ovaj vodič objašnjava kako se pripremiti, kako odrediti tempo igre, što reći kada nešto pođe po krivu, kako svaku igru učiniti lakšom ili malo težom, kako je pretvoriti u razgovor i kako znati kada stati. Vrijedi za naše [igre](/games/) i za karte, slagalice i društvene igre koje već imate.
 
-## Koji je najbolji način za igru s osobom koja ima demenciju?
+## Koji je najbolji način igranja s osobom koja živi s demencijom?
 
-Usredotočite se na uživanje, a ne na postignuće. To je osnovni savjet iz [smjernica Alzheimerove udruge o aktivnostima](https://www.alz.org/help-support/caregiving/daily-care/activities): gradite na vještinama koje osoba još ima, pomozite joj da krene, dovršite teške dijelove sami i nemojte kritizirati niti ispravljati bezopasne aktivnosti.
+Usredotočite se na uživanje, a ne na postignuće. To je osnovni savjet iz [smjernica organizacije Alzheimer's Association o aktivnostima](https://www.alz.org/help-support/caregiving/daily-care/activities): gradite na vještinama koje osoba još ima, pomozite joj da krene, završite teže dijelove sami i ne kritizirajte niti ispravljajte bezopasne aktivnosti.
 
 U praksi to znači:
 
-- **Sjednite pokraj nje, a ne nasuprot.** Jedno do drugoga možete oboje vidjeti ekran ili stol, a pomoć izgleda kao timski rad, a ne kao nadzor.
-- **Ponudite jednu igru odjednom.** Izbornik s mnogo mogućnosti može djelovati kao test prije nego što išta počne.
-- **Pratite njezin ritam.** Ako želi dodirivati slike svojim redoslijedom, deset minuta razgovarati o jednoj slici ili stati nakon dva poteza, to je tog dana igra.
+- **Sjednite pored osobe, a ne nasuprot.** Kada sjedite jedno pored drugoga, oboje vidite ekran ili stol, a pomoć izgleda kao timski rad, a ne kao nadzor.
+- **Ponudite jednu igru u isto vrijeme.** Izbornik s puno mogućnosti može djelovati kao test prije nego što išta počne.
+- **Pratite ritam osobe.** Ako osoba želi dodirivati slike redom koji sama odabere, razgovarati deset minuta o jednoj slici ili stati nakon dva poteza, to je igra za taj dan.
 - **Brojite dobre trenutke, a ne završene krugove.** Osmijeh, priča ili miran pola sata ishod je koji tražite.
 
 ## Kako se pripremiti prije početka?
 
-Nekoliko minuta pripreme spriječi većinu frustracije koju ljudi pripisuju samoj igri.
+Nekoliko minuta pripreme sprječava većinu frustracija koje se pripisuju samoj igri.
 
-1. **Odaberite njezino najbolje doba dana.** [Smjernice Nacionalnog instituta za starenje (NIA) o prilagodbi aktivnosti](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) predlažu planiranje izlazaka i aktivnosti za doba dana kad je osoba u najboljoj formi. Mnogima je to sredina jutra. Kasno popodne često je teže; pogledajte [smirene aktivnosti u kasno popodne](/caregiving/late-day-restlessness/).
-2. **Učinite prostoriju tihom.** Isključite televizor i radio te zatvorite vrata ako možete. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) preporučuje da ograničite buku i ometanja prije nego što počnete razgovarati.
-3. **Prvo provjerite udobnost.** Piće u blizini, odlazak na toalet prije, udobna stolica te naočale i slušni aparati na mjestu.
+1. **Odaberite osobi najbolje doba dana.** [Smjernice Nacionalnog instituta za starenje (NIA) o prilagodbi aktivnosti](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) predlažu planiranje izlazaka i aktivnosti za doba dana kada je osoba najbolje raspoložena. Za mnoge je to sredina jutra. Kasno poslijepodne često je teže; pogledajte [mirne aktivnosti za poslijepodne](/creative-calm/calm-afternoon-activities/).
+2. **Neka prostorija bude tiha.** Isključite TV i radio i zatvorite vrata ako možete. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) preporučuje smanjenje buke i ometanja prije nego što počnete razgovarati.
+3. **Provjerite udobnost.** Piće u blizini, odlazak u toalet prije početka, udobna stolica, a naočale i slušni aparati na mjestu.
 4. **Dobro osvijetlite prostor.** Jako, ravnomjerno svjetlo bez odsjaja na ekranu čini slike lakšima za gledanje.
-5. **Pripremite igru prije nego što sjednete.** Otvorite je, odaberite postavke i sami podesite glasnoću. Zatim okrenite ekran prema njoj. Za savjete za tablete pogledajte [postavljanje tableta ili telefona](/caregiving/tablets-and-screens/).
-6. **Postavite uređaj na stalak.** Stalak ili futrola koja drži tablet uspravno znači da ga nitko ne mora držati, a lakše je pokazivati.
+5. **Pripremite igru prije nego što sjednete.** Otvorite je, odaberite postavke i sami namjestite glasnoću. Zatim okrenite ekran prema osobi. Uključite veći tekst na uređaju ako pomaže.
+6. **Podupru uređaj.** Stalak ili kućište koje drži tablet uspravno znači da ga nitko ne mora držati, a lakše je pokazivati.
 
-## Kako je pozvati bez pritiska?
+## Kako pozvati osobu bez pritiska?
 
-Neka poziv bude opušten i lako odbijen. Neke fraze koje obično dobro djeluju:
+Pozivanje neka bude neformalno i lako za odbijanje. Neke fraze koje obično dobro djeluju:
 
-- „Našla sam slike vrtova. Hoćeš li ih pogledati sa mnom?“
-- „Možeš li mi pomoći s ovom slagalicom? Zapela sam.“
-- „Hoćeš li danas cvijeće ili ptice?“ (izbor između dvije mogućnosti lakši je od otvorenog pitanja)
-- „Radim čestitku tvojoj sestri. Koja bi boja ovdje trebala biti?“
+- „Imam neke slike vrtova. Želite li ih pogledati sa mnom?“
+- „Možete li mi pomoći s ovom slagalicom? Ne mogu dalje.“
+- „Želite li danas cvijeće ili ptice?“ (izbor između dvoje lakši je od otvorenog pitanja)
+- „Pravim čestitku za vašu sestru. Koja boja bi ovdje trebala biti?“
 
-Alzheimerova udruga predlaže da objasnite svrhu aktivnosti, primjerice izradu čestitke za prijatelja, jer razlog daje aktivnosti smisao. Traženje pomoći također funkcionira jer osoba može osjetiti da je korisna.
+Alzheimer's Association predlaže objasniti svrhu aktivnosti, na primjer izradu čestitke za prijatelja, jer razlog daje značenje. Traženje pomoći također djeluje jer osobi omogućuje da se osjeti korisno.
 
-Ako kažu ne, prihvatite to. Pokušajte kasnije ili ponudite nešto drugo. Naš vodič o [tome što učiniti kad kažu ne](/caregiving/when-they-say-no/) ide dalje.
+Ako osoba kaže ne, prihvatite to. Pokušajte kasnije ili ponudite nešto drugo. Naš vodič [što učiniti kada kažu ne](/caregiving/when-they-say-no/) ide dalje.
 
-## Koliko dugo treba trajati igra i koliko brzo ići?
+## Koliko dugo bi igra trebala trajati i koliko brzo trebamo ići?
 
-Neka osoba odredi tempo i planirajte kratke sesije. Za zajedničku igru ne postoji duljina utemeljena na dokazima. Dvije do pet mirnih minuta može biti potpuna aktivnost.
+Neka osoba odredi tempo i planirajte kratke susrete. Ne postoji dokazano idealna duljina zajedničke igre. Dvije do pet mirnih minuta može biti potpuna aktivnost.
 
-- **Čekajte dulje nego što se čini prirodnim.** NIA savjetuje dati više vremena osobi za odgovor i pokušati ne prekidati. Prije nego što pomognete, u mislima odbrojite do deset.
-- **Jedan korak odjednom.** Dajte jednu kratku uputu („Dodirnite jednu sliku“), zatim čekajte. Pokažite umjesto da objašnjavate: pokažite gdje dodirnuti.
-- **Slobodno pauzirajte.** Ako stanu da razgovaraju o nekoj slici, igra može pričekati. Nema potrebe za žurbom.
-- **Dopustite im da gledaju.** NIA navodi da neki ljudi radije gledaju i to je valjan izbor.
+- **Čekajte duže nego što se čini prirodnim.** NIA savjetuje ostaviti više vremena da osoba odgovori i pokušati ne prekidati. U glavi prebrojite do deset prije nego što pomognete.
+- **Jedan korak u isto vrijeme.** Dajte jednu kratku uputu („Dodirnite jednu sliku“), a zatim čekajte. Pokažite umjesto da objašnjavate: pokažite gdje dodirnuti.
+- **Slobodno stanite.** Ako osoba počne razgovarati o nekoj slici, igra može pričekati. Nema potrebe žuriti.
+- **Dopustite da gleda.** NIA navodi da neki ljudi radije gledaju, a to je valjan izbor.
 
 ## Trebam li ispravljati pogrešne odgovore?
 
-Ne. Ispravljanje nekoga iznova tjera ga da osjeti kako ne uspijeva, čak i kad mislite dobro. Alzheimerova udruga savjetuje da ne kritizirate niti ispravljate bezopasne aktivnosti. U igri je gotovo svaka pogreška bezopasna.
+Ne. Ispravljanje iznova, čak i s dobrom namjerom, poručuje osobi da griješi. Alzheimer's Association savjetuje da se ne kritiziraju niti ispravljaju bezopasne aktivnosti. U igri su gotovo sve pogreške bezopasne.
 
-| Umjesto | Pokušajte |
+| Umjesto ovoga | Probajte ovo |
 | --- | --- |
-| „Ne, to je krivo.“ | „Probajmo ovako.“ (primjer koji navodi NIA) |
-| „To nije par. Pogledaj ponovno.“ | Ne recite ništa i uzmite sljedeći potez ili: „Oh, obje su crvene.“ |
-| „Sjećate li se tko je ovo?“ | „Ispričaj mi o ovoj slici.“ |
-| „Već ste to radili.“ | „To je dobra. Napravimo je ponovno.“ |
-| „Ma daj, ti to znaš.“ | „Želiš da ti pokažem kraj?“ |
+| „Ne, to je pogrešno.“ | „Probajmo ovako.“ (primjer koji NIA navodi) |
+| „To nije par. Pogledajte ponovo.“ | Ništa ne recite i uzmite sljedeći potez ili „Oh, te dvije su obje crvene.“ |
+| „Sjećate li se tko je ovo?“ | „Ispričajte mi o ovoj slici.“ |
+| „To ste već napravili.“ | „To je lijepo. Napravimo to opet.“ |
+| „Ma dajte, to znate.“ | „Želite li da vam pokažem kraj?“ |
 
-Ako pogreška očito frustrira osobu, pomozite tiho. Pokažite pravu sliku, uzmite potez sami ili učinite igru lakšom u sljedećem krugu. Ako izreka dobije smiješan pogrešan završetak, nasmijte se zajedno. Njihov završetak možda je i bolji.
+Ako pogreška jasno frustrira osobu, pomozite tiho. Pokažite pravu sliku, uzmite potez sami ili igru učinite lakšom u sljedećem krugu. Ako izreka dobije smiješan pogrešan kraj, nasmijte se zajedno. Njihov kraj možda je i bolji.
 
-## Kako igru učiniti lakšom ili malo težom?
+## Kako igru učiniti lakšom ili težom?
 
-Prilagodite igru osobi tog dana, a ne oznaci faze. Ista osoba može ujutro trebati jednostavniju verziju nego navečer. NIA-in prvi savjet je uskladiti aktivnost s onim što osoba može i paziti da se osjeća uspješno.
+Prilagodite igru osobi za taj dan, a ne oznaci faze. Ista osoba ujutro može nešto što navečer ne može. Prvi savjet NIA-e je uskladiti aktivnost s onim što osoba može i paziti da se osjeti uspješnom.
 
-| Igra | Učinite lakšom | Malo otežajte |
+| Igra | Učinite lakšom | Učinite malo težom |
 | --- | --- | --- |
-| [Parovi slika](/games/picture-pairs/) | Počnite s 4 pločice i ostavite slike vidljivima | Više pločica ili sakrijte slike ako to odgovara |
+| [Parovi slika](/games/picture-pairs/) | Počnite s 4 pločice i ostavite slike vidljivima | Više pločica ili skrijte slike ako je to ugodno |
 | [Pronađi isto](/games/find-the-same/) | 2 izbora | Do 4 izbora |
-| [Razvrstavanje zajedno](/games/sort-together/) | Vi držite sliku, a ona pokazuje na košaru | Sama dodiruje i sliku i košaru |
+| [Razvrstavanje zajedno](/games/sort-together/) | Vi držite sliku, a osoba pokazuje na košaricu | Osoba sama dodiruje i sliku i košaricu |
 | [Slagalica sa slikama](/games/picture-puzzle/) | 4 dijela, prvo razgovarajte o cijeloj slici | 9 dijelova |
-| [Dovršavanje izreka](/games/finish-the-saying/) | Pokažite kraj, zatim ga izgovorite zajedno | Neka sama izgovori kraj prije dodira |
-| [Pretraga riječi](/games/word-search/) | Ispišite je, zajedno tražite jednu riječ i pokažite njezino prvo slovo | Neka sama bira sljedeću riječ za traženje |
-| [Bojanje](/games/coloring/) | Vi birate dvije boje, a ona bira između njih | Bira sve boje |
-| [Kartice za razgovor](/games/conversation-cards/) | Samo zajedno pogledajte sliku | Koristite otvorene poticaje s kartice |
+| [Dovršavanje izreka](/games/finish-the-saying/) | Pokažite kraj, a zatim ga zajedno izgovorite | Neka osoba sama izgovori kraj prije dodirivanja |
+| [Pretraga riječi](/games/word-search/) | Ispišite je, zajedno tražite jednu riječ i pokažite prvo slovo | Neka osoba sama odabere sljedeću riječ |
+| [Bojanje](/games/coloring/) | Vi birate dvije boje, a osoba bira između njih | Osoba bira sve boje |
+| [Kartice za razgovor](/games/conversation-cards/) | Samo zajedno pogledajte sliku | Koristite otvorena pitanja s kartice |
 | [Parovi fotografija](/games/photo-pairs/) | Nekoliko omiljenih obiteljskih fotografija | Dodajte još fotografija |
 | [Bingo sa slikama](/games/picture-bingo/) | Pomoćnik sjedi uz svakog igrača | Igrači označavaju vlastite kartice |
 | [Mirno disanje](/games/calm-breathing/) | Samo sjedite i gledajte zajedno | Dišite zajedno polako |
 
-Znakovi da je igra pretežka: duge stanke koje izgledaju zabrinuto, a ne promišljeno, ponavljano „Ne mogu“, odguravanje uređaja ili pogreške koje ih uznemiruju. Znakovi da je možda prelagana: dosada ili izjava da je dječja. Ako se to dogodi, poštujte to i prijeđite na nešto što djeluje odraslije, poput pretrage riječi, slagalice prave fotografije ili razgovora o slici iz njihova nekadašnjeg posla.
+Znakovi da je igra pretežka: dugi zastoji koji izgledaju zabrinuto, a ne promišljeno, ponavljano „Ne mogu“, odgurivanje uređaja ili pogreške koje uznemiruju. Znakovi da je možda prelagana: dosada ili izjava da je dječja. Ako se to dogodi, poštujte to i prijeđite na nešto što djeluje odraslo, kao što je pretraga riječi, slagalica s pravom fotografijom ili razgovor o slici iz njihova ranijeg zanimanja.
 
 ## Kako igru pretvoriti u razgovor?
 
-Iskoristite svaku sliku kao poziv na razgovor i smatrajte svaki njihov odgovor dobrim. Za mnoge obitelji to je najbolji dio igre.
+Svaku sliku koristite kao poziv na razgovor i prihvatite sve što osoba kaže kao dobar odgovor. Za mnoge obitelji to je najbolji dio igranja.
 
-- **Postavljajte otvorena pitanja bez pogrešnih odgovora.** „Što primjećujete?“ „Koja Vam se više sviđa?“ „Ispričajte mi o kuhinji poput ove.“
-- **Prvo podijelite svoje.** „Moja baka je imala psa ovakvog.“ Vaša priča olakšava im da podijele svoju.
-- **Pratite odmak od teme.** Ako slika auta vodi do priče o putovanju, priča je aktivnost. Ostavite igru pauziranu.
-- **Ne provjeravajte činjenice.** U prisjećanju je ugodan razgovor važniji od točnih detalja. Ako se priča razlikuje od one od prije, uživajte u novoj verziji.
-- **Koristite ugrađene poticaje.** [Dovršavanje izreka](/games/finish-the-saying/) nakon svake izreke nudi poticaj za razgovor, a [Kartice za razgovor](/games/conversation-cards/) napravljene su upravo za to. [Parovi fotografija](/games/photo-pairs/) koriste vaše obiteljske fotografije, što često potakne najbogatije priče.
+- **Postavljajte otvorena pitanja bez pogrešnih odgovora.** „Što primjećujete?“ „Koja vam se najviše sviđa?“ „Ispričajte mi o kuhinji poput ove.“
+- **Prvo podijelite vi.** „Moja baka je imala psa ovakvog.“ Vaša priča olakšava osobi da podijeli svoju.
+- **Pratite odmak od teme.** Ako slika auta vodi do priče o putovanju, ta priča je aktivnost. Ostavite igru pauziranom.
+- **Ne provjeravajte činjenice.** U prisjećanju je ugodan razgovor važniji od točnih detalja. Ako se priča razlikuje od one prošli put, uživajte u novoj verziji.
+- **Koristite ugrađene poticaje.** [Dovršavanje izreka](/games/finish-the-saying/) nakon svake izreke donosi poticaj za razgovor, a [Kartice za razgovor](/games/conversation-cards/) osmišljene su upravo za to. [Parovi fotografija](/games/photo-pairs/) koristi vaše obiteljske fotografije, koje često potaknu najbogatije priče.
 
-Više ideja nalazi se u našim vodičima o [aktivnostima prisjećanja](/activities/reminiscence/) i [savjetima za komunikaciju](/caregiving/communication-tips/).
+Više ideja potražite u našem vodiču o [aktivnostima prisjećanja](/activities/reminiscence/). Za podršku nakon dijagnoze pogledajte [prve korake nakon dijagnoze](/caregiving/after-dementia-diagnosis/).
 
-## Kada stati?
+## Kada treba stati?
 
-Stanite na prvi znak umora ili uznemirenosti, a po mogućnosti i malo prije. Alzheimerova udruga savjetuje da prekinete ili promijenite aktivnost kad pažnja popusti ili frustracija poraste.
+Stanite na prvi znak umora ili uznemirenosti, a po mogućnosti malo prije. Alzheimer's Association savjetuje da prekinete ili promijenite aktivnost kada pažnja popusti ili frustracija poraste.
 
 Pazite na:
 
-- zijevanje, pognutost ili oči koje odlutaju s ekrana;
-- nemirnost, ustajanje ili traženje da se ode;
-- uzdisanje, kratke odgovore ili „Ja u ovome nisam dobra“;
-- nasumično dodirivanje ili odguravanje uređaja;
+- zijevanje, klonuće ili pogled koji luta s ekrana;
+- nemir, ustajanje ili traženje da se ode;
+- uzdahe, kratke odgovore ili „Ja ovo ne znam“;
+- nasumično dodirivanje ili odgurivanje uređaja;
 - suze, iritaciju ili naglu promjenu raspoloženja.
 
-Kako dobro prekinuti:
+Kako lijepo stati:
 
-- **Završite nečim lakim.** Jedno posljednje uparivanje koje mogu napraviti ili jedna završna slika za divljenje.
-- **Neka se odnosi na Vas.** „Dobro bi mi došao čaj. Hoćemo li ovdje stati?“ izbjegava svaku naznaku da su loše prošli.
-- **Prijeđite na nešto tjelesno ili smirujuće.** Kratka šetnja, grickalica, slaganje rublja ili glazba.
-- **Recite nešto toplo.** „Lijepo mi je bilo raditi to s Vama.“ Bez pohvale za „točan odgovor“, samo radost zajedničkog vremena.
+- **Završite nečim lakim.** Jedan posljednji par koji se može sastaviti ili završna slika za divljenje.
+- **Neka bude o vama.** „Vrijeme je za čaj. Možemo li ovdje stati?“ izbjegava svaki nagovještaj da je išlo loše.
+- **Prijeđite na nešto tjelesno ili umirujuće.** Kratka šetnja, grickalica, slaganje rublja ili glazba.
+- **Recite nešto toplo.** „Lijepo mi je bilo ovako provesti vrijeme s vama.“ Bez pohvale za „točan odgovor“, samo radost zbog zajedničkog vremena.
 
-Rano prekinuti, promijeniti planove ili odustati od igre i jednostavno sjediti zajedno svi su dobri ishodi.
+Rani prekid, promjena plana ili odustajanje od igre i samo zajedničko sjedenje svi su dobri ishodi.
 
-## Možemo li igrati u grupi ili putem video poziva?
+## Možemo li igrati u grupi ili preko videopoziva?
 
-Može, uz malo dodatne pripreme. U grupi zadržite nekoliko ljudi, posjednite pomoćnike uz svakoga tko ih treba i odaberite igru s jasnim zajedničkim fokusom. [Bingo sa slikama](/games/picture-bingo/) ima kartice za ispis i voditelja na ekranu za grupe. Za više pogledajte [aktivnosti za grupe u domovima za starije](/activities/care-home-groups/).
+Da, uz malo dodatne pripreme. U grupi neka bude nekoliko ljudi, pomoćnike posadite uz one kojima trebaju i odaberite igru s jasnim zajedničkim fokusom. [Bingo sa slikama](/games/picture-bingo/) ima kartice koje se mogu ispisati i pozivatelja na ekranu za grupe. Za više pogledajte [aktivnosti za grupe u domovima za skrb](/crafts/craft-group-sessions/).
 
-Putem video poziva osoba na pozivu može opisivati sliku, a netko u prostoriji pokazuje i dodiruje. Držite pozive kratkima i poznatima. Naš vodič o [telefonskim i video pozivima](/activities/phone-and-video-calls/) ima više savjeta.
+Na videopozivu osoba na pozivu može opisivati sliku, dok netko u prostoriji pokazuje i dodiruje. Držite pozive kratkima i poznatima. Naš vodič o [telefonskim i videopozivima](/together/staying-connected-from-afar/) donosi više savjeta.
 
 ## Što ako igra jednostavno ne funkcionira?
 
-Neki dani ništa ne upali i to nije odraz ni na Vas ni na nju. Spremite igru i pokušajte drugi put u danu, s drugom igrom ili bez igre. Mnoge dobre aktivnosti nemaju veze s ekranima: glazba, slaganje ručnika, listanje albuma s fotografijama ili kratka šetnja. Pogledajte naše [ideje za aktivnosti](/activities/ideas/) za više.
+Neki dani ništa ne upali, i to nije odraz vas ni osobe. Odložite igru i pokušajte drugo doba dana, drugu igru ili nijednu igru. Mnoge dobre aktivnosti nemaju veze s ekranima: glazba, slaganje ručnika, gledanje albuma s fotografijama ili kratka šetnja. Pregledajte naše [ideje za aktivnosti](/activities/ideas/) za još.
