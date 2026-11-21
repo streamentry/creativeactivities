@@ -36,7 +36,14 @@ const weeks: PathWeekInfo[] = path.weeks.map((week) => {
     note: week.note,
     // The time comes from the cards, so it cannot drift from what each card says.
     minutes: minutesRange(weekMinutes(listed.map((card) => card.data.activityMinutes))),
-    activities: listed.map((card) => ({ id: card.id, name: card.data.name, summary: card.data.summary, typeLabel: TYPE_LABELS[card.data.type] })),
+    // Each activity is one day of the week, so its own time is the day's time (CNT-006), from the card.
+    activities: listed.map((card) => ({
+      id: card.id,
+      name: card.data.name,
+      summary: card.data.summary,
+      typeLabel: TYPE_LABELS[card.data.type],
+      time: minutesRange(card.data.activityMinutes),
+    })),
   };
 });
 const dateText = new Date(`${path.updated}T00:00:00Z`).toLocaleDateString('en-US', {

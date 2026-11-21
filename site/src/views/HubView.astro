@@ -10,6 +10,7 @@ import Faq from '../components/Faq.astro';
 import { breadcrumbs, faqPage, itemList } from '../lib/schema';
 import { resolveGuide } from '../i18n/guides';
 import { listedActivities } from '../lib/activities';
+import { PATHS, pathActivities } from '../data/paths';
 
 interface Props {
   /** The hub's id, which is also its path: `/<id>/`. */
@@ -34,6 +35,11 @@ const activities = d.activities
     return card;
   })
   .filter((card) => shown.has(card.id));
+// WEB-032 / CNT-006: a hub links a path when at least half of that path's activities are in the hub.
+const hubPaths = PATHS.filter((p) => {
+  const ids = pathActivities(p);
+  return ids.filter((id) => d.activities.includes(id)).length * 2 >= ids.length;
+});
 const allHubs = await getCollection('hubs');
 const related = d.related.map((id) => allHubs.find((h) => h.id === id)).filter((h) => h !== undefined);
 const guides = (
@@ -91,6 +97,20 @@ const jsonLd = [
         }
       </ul>
       <p><a href="/activity/">Filter all activities by time, materials and setting</a></p>
+      {
+        hubPaths.length > 0 && (
+          <>
+            <p>A four-week plan that uses these activities:</p>
+            <ul class="activity-list">
+              {hubPaths.map((p) => (
+                <li>
+                  <a href={`/paths/${p.id}/`}>{p.title}</a>
+                </li>
+              ))}
+            </ul>
+          </>
+        )
+      }
     </section>
 
     <article class="prose hub-body reveal">
