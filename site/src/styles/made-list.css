@@ -1,0 +1,73 @@
+/* COM-024 My made list: the list page and its printable version. */
+.made__status {
+  color: var(--gm-on-surface-variant);
+}
+.made__controls {
+  display: grid;
+  gap: var(--space-sm);
+  margin-block: var(--space-md) var(--space-lg);
+}
+.made__controls p {
+  margin: 0;
+}
+.made__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+.made__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: var(--space-md);
+}
+.made__item {
+  padding: var(--space-md);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-lg);
+  background: var(--gm-surface-raised);
+}
+.made__name {
+  margin: 0 0 var(--space-xs);
+  font-size: var(--text-title-md);
+}
+.made__name a:focus-visible,
+.made__textarea:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 3px;
+}
+.made__note label {
+  display: block;
+  margin-block-end: var(--space-2xs);
+  font-weight: 600;
+}
+.made__textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 3rem;
+  padding: var(--space-sm);
+  font: inherit;
+  font-size: var(--text-sm);
+  color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  border: 2px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+}
+.made__note-text {
+  margin: 0;
+  white-space: pre-wrap;
+}
+@media print {
+  .made__item {
+    break-inside: avoid;
+    border-color: #000;
+    background: #fff;
+    color: #000;
+  }
+  .made__name a {
+    color: #000;
+    text-decoration: none;
+  }
+}

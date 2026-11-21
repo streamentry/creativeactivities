@@ -39,6 +39,7 @@ describe('site storage registry', () => {
       [
         'cookie:gm_lang',
         'localStorage:ca-analytics-consent-v1',
+        'localStorage:ca-made-notes-v1',
         'localStorage:ca-paths-v1',
         'localStorage:ca-plain-steps',
         'localStorage:ca-saved-activities-v1',
@@ -53,6 +54,12 @@ describe('site storage registry', () => {
         'localStorage:gm-today-notes-v1',
       ].sort(),
     );
+  });
+
+  it('counts the notes on My made list, and ignores notes that are not well formed', () => {
+    const made = SITE_STORES.find((s) => s.id === 'made-notes');
+    expect(made?.count?.(JSON.stringify({ 'sing-along': 'Good', 'make-a-card': '' }))).toBe(1);
+    expect(made?.count?.('[]')).toBe(0);
   });
 
   it('counts the paths that have a place kept, and ignores places on paths that do not exist', () => {

@@ -24,6 +24,7 @@ import { PATHS } from '../data/paths';
 import { parsePaths, PATHS_STORAGE_KEY } from './paths';
 import { parseSaved, STORAGE_KEY as SAVED_KEY } from './saved-activities';
 import { parseNotes, STORAGE_KEY as TODAY_NOTES_KEY } from './today/notes';
+import { countNotes, MADE_NOTES_KEY } from './made-list';
 
 export interface SiteStore {
   readonly id: string;
@@ -77,6 +78,15 @@ export const SITE_STORES: readonly SiteStore[] = [
     label: 'Today notes',
     description: 'Notes you wrote on the Today page, with the day and how the activity went.',
     count: (raw) => parseNotes(raw).length,
+  },
+  {
+    id: 'made-notes',
+    kind: 'localStorage',
+    key: MADE_NOTES_KEY,
+    label: 'My made list notes',
+    description:
+      'Short private notes you wrote on My made list, kept by activity short name. The list of activities you tried is kept separately under "Activities you tried".',
+    count: (raw) => countNotes(raw),
   },
   {
     id: 'analytics-consent',

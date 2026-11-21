@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import '../../styles/made-list.css';
+import { getCollection } from 'astro:content';
+import { MadeList } from '../../tools/MadeList';
+import { listedActivities } from '../../lib/activities';
+
+const names = Object.fromEntries(
+  listedActivities(await getCollection('activityCards')).map((a) => [a.id, a.data.name]),
+);
+---
+<PageLayout
+  title="My made list"
+  seoTitle="My Made List"
+  description="The activities you marked as tried, with an optional private note for each. Kept only in this browser."
+  path="/made/"
+  crumb="My made list"
+  noindex
+  lede="The activities you tried, with a short note if you want one. It stays in this browser and nothing is sent to us."
+>
+  <noscript>
+    <p class="notice">Turn on JavaScript to see your list. It is kept in this browser either way.</p>
+  </noscript>
+  <MadeList client:load names={names} />
+  <p class="muted">
+    To remove everything kept on this device, use <a href="/your-data/">Your data on this device</a>.
+  </p>
+</PageLayout>

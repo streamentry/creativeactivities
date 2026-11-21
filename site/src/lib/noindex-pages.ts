@@ -18,4 +18,7 @@ export const NOINDEX_PAGES: ReadonlySet<string> = new Set([
   '/games/together/',
   '/games/group/',
   '/games/printable/',
+  // My made list (COM-024): a private list kept in this browser, and its printable version.
+  '/made/',
+  '/made/print/',
 ]);
