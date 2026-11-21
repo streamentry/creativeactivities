@@ -180,6 +180,8 @@ def render(rows: list[dict[str, str]], outside: list[str]) -> str:
         f'reviewer recorded {count("reviewer")} of {total}; website reviewed {count("reviewed")} '
         f'of {total}; indexable today {count("indexable")} of {total}.',
         '',
+        '<!-- cspell:disable -->',
+        '',
         '| # | Language | Code | App strings complete | Website UI complete | Store listing present '
         '| Native reviewer recorded | Website reviewed | Indexable today | Spend gate |',
         '| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |',
@@ -196,6 +198,7 @@ def render(rows: list[dict[str, str]], outside: list[str]) -> str:
         'they are placed under L10N-030): ' + ', '.join(f'`{c}`' for c in outside) + '.',
         '',
     ]
+    lines += ['', '<!-- cspell:enable -->']
     return '\n'.join(lines)
 
 

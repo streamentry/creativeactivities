@@ -13,6 +13,8 @@ review budget is committed beyond it without that decision.
 
 Summary: app strings complete 50 of 50; website UI complete 0 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
 
+<!-- cspell:disable -->
+
 | # | Language | Code | App strings complete | Website UI complete | Store listing present | Native reviewer recorded | Website reviewed | Indexable today | Spend gate |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Spanish | `es` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
@@ -67,3 +69,6 @@ Summary: app strings complete 50 of 50; website UI complete 0 of 50; store listi
 | 50 | Hausa | `ha` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 
 Outside the launch order (14 codes in `release-status.json`, no gate row until they are placed under L10N-030): `ca`, `cs`, `da`, `el`, `fi`, `he`, `hr`, `hu`, `nb`, `pt-PT`, `sk`, `sl`, `sv`, `mn`.
+
+
+<!-- cspell:enable -->
