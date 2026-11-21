@@ -30,6 +30,23 @@ describe('every game keeps its place (WEB-054)', () => {
     expect(offenders).toEqual([]);
   });
 
+  it('every game on the shared PairsBoard keeps its layout, and the photo game keeps nothing', () => {
+    const pairsGames: string[] = [];
+    for (const file of readdirSync(GAME_DIR).filter((f) => f.endsWith('.tsx'))) {
+      const text = readFileSync(join(GAME_DIR, file), 'utf8');
+      if (!text.includes('<PairsBoard')) continue;
+      pairsGames.push(file);
+      const slug = text.match(/place=\{\{\s*slug: '([a-z-]+)'/)?.[1];
+      if (!slug || !keepsPlace(slug)) {
+        expect(text, file).not.toContain('onTiles=');
+        continue;
+      }
+      expect(text, file).toContain('onTiles=');
+      expect(text, file).toContain('resume=');
+    }
+    expect(pairsGames.sort()).toEqual(['PhotoPairs.tsx', 'PicnicPlanner.tsx', 'PicturePairs.tsx']);
+  });
+
   it('gives each game one place, under its own slug', () => {
     const dupes = PLACE_SLUGS.filter((slug, i) => PLACE_SLUGS.indexOf(slug) !== i);
     expect(dupes).toEqual([]);

@@ -3,6 +3,7 @@ import { PICNIC_FOOD, PICNIC_ITEMS, PICNIC_OUTINGS, type PicnicItem } from '../d
 import { pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
+import { parsePairTiles, type SavedPairTile } from '../lib/games/pairs';
 import {
   SLOTS,
   addToBasket,
@@ -23,17 +24,28 @@ type Stage = 'plan' | 'play';
 
 const ITEM_IDS: ReadonlySet<string> = new Set(PICNIC_ITEMS.map((item) => item.id));
 
-/** The saved basket, or null unless it holds at most `SLOTS` different known pictures. Only the basket is kept. */
-function parseBasket(b: unknown): Picnic | null {
+/**
+ * The saved place (WEB-054): the basket, the stage and, while playing, the board's
+ * layout with matched pairs. The basket holds at most `SLOTS` different known
+ * pictures; a play board needs the fewest to play and must be a whole board for
+ * that basket. Nothing is repaired: a bad value makes the whole place unusable.
+ */
+export function parsePicnicPlace(b: unknown): { basket: string[]; stage: Stage; tiles: SavedPairTile[] } | null {
   if (typeof b !== 'object' || b === null || Array.isArray(b)) return null;
-  const { basket } = b as { basket?: unknown };
+  const { basket, stage, tiles } = b as { basket?: unknown; stage?: unknown; tiles?: unknown };
   if (!Array.isArray(basket) || basket.length > SLOTS) return null;
   const seen = new Set<string>();
   for (const id of basket) {
     if (typeof id !== 'string' || !ITEM_IDS.has(id) || seen.has(id)) return null;
     seen.add(id);
   }
-  return { basket: basket as string[] };
+  const picked = basket as string[];
+  if (stage === 'plan') {
+    return Array.isArray(tiles) && tiles.length === 0 ? { basket: picked, stage, tiles: [] } : null;
+  }
+  if (stage !== 'play' || !canPlay({ basket: picked })) return null;
+  const layout = parsePairTiles(tiles, picked);
+  return layout === null ? null : { basket: picked, stage, tiles: layout };
 }
 
 /**
@@ -52,6 +64,9 @@ export default function PicnicPlanner(props: PlayProps) {
   const [round, setRound] = useState(0);
   const [done, setDone] = useState(false);
   const [message, setMessage] = useState('');
+  // WEB-054: the play board's layout and matched pairs, kept for Rest, and a saved layout to rebuild once.
+  const boardTiles = useRef<SavedPairTile[]>([]);
+  const [resume, setResume] = useState<SavedPairTile[] | undefined>(undefined);
 
   const commit = (next: Picnic) => {
     latest.current = next;
@@ -152,15 +167,17 @@ export default function PicnicPlanner(props: PlayProps) {
         onRestart={startAgain}
         place={{
           slug: 'picnic-planner',
-          save: () => ({ basket: latest.current.basket }),
-          check: (b) => parseBasket(b) !== null,
+          save: () => ({ basket: latest.current.basket, stage, tiles: stage === 'play' ? boardTiles.current : [] }),
+          check: (b) => parsePicnicPlace(b) !== null,
           restore: (b) => {
-            const saved = parseBasket(b);
+            const saved = parsePicnicPlace(b);
             if (!saved) return;
-            commit(saved);
-            setStage('plan');
+            commit({ basket: saved.basket });
+            setStage(saved.stage);
             setDone(false);
             setMessage('');
+            setResume(saved.stage === 'play' ? saved.tiles : undefined);
+            setRound((r) => r + 1);
           },
         }}
         footer={
@@ -242,6 +259,11 @@ export default function PicnicPlanner(props: PlayProps) {
               values={pairValues(picnic)}
               hidden={false}
               round={round}
+              resume={resume}
+              onResumed={() => setResume(undefined)}
+              onTiles={(t) => {
+                boardTiles.current = t;
+              }}
               onMessage={setMessage}
               onComplete={() => setDone(true)}
             />
