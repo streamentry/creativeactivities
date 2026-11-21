@@ -120,4 +120,4 @@ crisisRoute: true
 
 ## 研究怎麼說？
 
-[Cochrane 對懷舊療法的回顧](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia)涵蓋 22 項試驗、1,972 人，發現其效果不一致，且幅度小，並依環境與形式而異。它沒有發現對失智症患者有傷害的證據。我們建議懷舊，是因為它能帶來溫暖、有意義的相處時光，而不是把它當成治療。想了解更多容易的對話方式，請參閱[確診後的第一步](/caregiving/after-dementia-diagnosis/)。
+[Cochrane 對懷舊療法的回顧](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia)涵蓋 22 項試驗、1,972 人，發現其效果不一致，且幅度小，並依環境與形式而異。它沒有發現對失智者有傷害的證據。我們建議懷舊，是因為它能帶來溫暖、有意義的相處時光，而不是把它當成治療。想了解更多容易的對話方式，請參閱[確診後的第一步](/caregiving/after-dementia-diagnosis/)。

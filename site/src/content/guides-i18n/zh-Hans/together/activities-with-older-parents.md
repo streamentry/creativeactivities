@@ -84,7 +84,7 @@ crisisRoute: false
 
 阿尔茨海默病协会的[活动页面](https://www.alz.org/help-support/caregiving/daily-care/activities)建议，要留意对方仍然拥有的能力，坚持那些他一直喜欢的活动，并按需要加以调整。NHS 的[活动页面](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/)指出，一起做的活动可以让两个人都更快乐，并帮助他们享受彼此相处的时光。
 
-更多点子，参见[认知症患者的活动](/activities/ideas/)，以及[认知症活动中心](/dementia-activities/)。
+更多点子，参见[认知症人士的活动](/activities/ideas/)，以及[认知症活动中心](/dementia-activities/)。
 
 ## 安全提示
 

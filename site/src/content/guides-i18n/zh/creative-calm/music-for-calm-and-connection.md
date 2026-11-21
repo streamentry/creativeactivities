@@ -105,6 +105,6 @@ crisisRoute: true
 
 ## 研究怎么说？
 
-证据还比较有限。[Cochrane 综述](https://www.cochrane.org/evidence/CD003477_does-music-based-therapy-help-people-dementia)考察了有结构的音乐活动，纳入了 30 项研究，共 1,720 名认知症患者，分布在 15 个国家，多数位于养老院。不同结局的结果并不相同，该综述认为，其中一些结局的证据确定性有限。这篇综述针对的是由受过培训的人带领的有结构活动，而不是在家中聆听音乐的指南。
+证据还比较有限。[Cochrane 综述](https://www.cochrane.org/evidence/CD003477_does-music-based-therapy-help-people-dementia)考察了有结构的音乐活动，纳入了 30 项研究，共 1,720 名认知症人士，分布在 15 个国家，多数位于养老院。不同结局的结果并不相同，该综述认为，其中一些结局的证据确定性有限。这篇综述针对的是由受过培训的人带领的有结构活动，而不是在家中聆听音乐的指南。
 
 我们把音乐当作一种愉快、没有压力的共度时光的方式。它不是治疗，也不能代替医生或持证专业人士的照护。
