@@ -4,7 +4,8 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 import ActivityView from '../../views/ActivityView.astro';
 
 export const getStaticPaths = (async () => {
-  const activities = await getCollection('activityCards');
+  // A card a reviewer declined is not published: no page is built for it (CNT-1004).
+  const activities = (await getCollection('activityCards')).filter((activity) => !activity.data.reviewDeclined);
   return activities.map((activity) => ({ params: { slug: activity.id }, props: { activity } }));
 }) satisfies GetStaticPaths;
 

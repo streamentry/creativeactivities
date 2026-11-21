@@ -7,10 +7,13 @@
 // card is not exactly two pages (one sheet, printed both sides) in both sizes.
 // Usage: node scripts/check-print.mjs            (serves dist/ on a free local port; run `pnpm build` first)
 //        node scripts/check-print.mjs --base=http://127.0.0.1:4345
+//        node scripts/check-print.mjs --record=<file.json>   (also writes the pass rate per template, MET-020)
+// Not run in CI. The record is written per release by hand and is not committed unless the release needs it.
 // First-time browser install: pnpm exec playwright install chromium
 
+import { execFileSync } from 'node:child_process';
 import { createServer } from 'node:http';
-import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -30,7 +33,10 @@ export const STEP_PT = { card: 12, pack: 12, largePrint: 18 };
 const LARGE_PRINT_PAGES = 5;
 /** A cover and two pages for each of five cards. */
 const FIXED_PACK_PAGES = 12;
-const WEEKLY_PROGRAM_PAGES = 2;
+/** The weekly programme (WEB-045) prints as one page per week: one sheet, on both paper sizes. */
+const WEEKLY_PROGRAM_PAGES = 1;
+/** A weekly plan (WEB-031) prints one sheet per path week and one blank week; each sheet is one page, so the total is the sheet count. */
+const PATH_WEEKLY_PLAN_SHEETS = 5;
 /** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
 const PROFESSIONALS_HANDOUT_PAGES = 1;
 /** CNT-014 (adult variant): the care-settings page has three staff summaries, a family note and a permission template. */
@@ -164,6 +170,36 @@ async function printedPages(page) {
 /** How many `.sheet` elements are shown with some height when the page is printed (call after emulating print). */
 async function visibleSheets(page) {
   return page.evaluate(() => [...document.querySelectorAll('.sheet')].filter((e) => getComputedStyle(e).display !== 'none' && e.getBoundingClientRect().height > 100).length);
+}
+
+/**
+ * The per-release record of the print pass rate (MET-020): a template passes when all its pages pass. Pure: the caller
+ * passes the date, the commit and the counts, so the same counts always give the same record.
+ * @param {{ date: string, commit: string, cards: number, templates: Map<string, { ok: number, total: number }> }} run
+ */
+export function printRecord({ date, commit, cards, templates }) {
+  const types = [...templates];
+  const passing = types.filter(([, row]) => row.ok === row.total).length;
+  return {
+    schema: 'creative-activities/print-record',
+    version: 1,
+    date,
+    commit,
+    cards,
+    templates: Object.fromEntries(types.map(([type, row]) => [type, { passed: row.ok, checked: row.total }])),
+    templatesPassing: passing,
+    templateTypes: types.length,
+    passRate: types.length ? Math.round((100 * passing) / types.length) : 0,
+  };
+}
+
+/** The commit being checked, or `unknown` outside a git checkout. */
+function currentCommit() {
+  try {
+    return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: fileURLToPath(new URL('..', import.meta.url)), encoding: 'utf8' }).trim();
+  } catch {
+    return 'unknown';
+  }
 }
 
 export function gamesWithPaper() {
@@ -346,6 +382,19 @@ async function main() {
       if (!ok) failures.push({ slug: `paths/${id}`, counts, paper });
       record('path', ok);
       console.log(`path: ${id.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  left off the paper ${paper.offTotal - paper.offShown}/${paper.offTotal}  on the paper ${paper.onTotal - paper.onHidden}/${paper.onTotal}  ${ok ? 'ok' : 'FAIL'}`);
+      // The weekly plan (WEB-031): the sheets print only when the page asks for them, one page each, on both paper sizes.
+      await page.evaluate(() => { document.body.dataset.printPlan = 'true'; });
+      const sheets = await page.evaluate(() => document.querySelectorAll('.weekly-plan').length);
+      const planCounts = {};
+      for (const format of FORMATS) {
+        // The page clears the attribute on afterprint, which Chromium fires after each PDF, so set it again each time.
+        await page.evaluate(() => { document.body.dataset.printPlan = 'true'; });
+        planCounts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+      }
+      const planOk = sheets === PATH_WEEKLY_PLAN_SHEETS && FORMATS.every((f) => planCounts[f] === PATH_WEEKLY_PLAN_SHEETS);
+      if (!planOk) failures.push({ slug: `weekly plan: ${id}`, sheets, planCounts });
+      record('weekly plan', planOk);
+      console.log(`weekly plan: ${id.padEnd(37)} sheets ${sheets}  A4 ${planCounts.A4}  Letter ${planCounts.Letter}  ${planOk ? 'ok' : 'FAIL'}`);
       await page.close();
       pathsChecked += 1;
     }
@@ -394,6 +443,16 @@ async function main() {
   const passing = types.filter(([, row]) => row.ok === row.total).length;
   console.log(`\nPrint templates: ${passing} of ${types.length} pass (${types.length ? Math.round((100 * passing) / types.length) : 0}%): ${types.map(([type, row]) => `${type} ${row.ok}/${row.total}`).join(', ')}.`);
   console.log(`Checked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over a page limit (${packChecked} pack builds and ${pathsChecked} paths checked).`);
+  const recordPath = process.argv.find((a) => a.startsWith('--record='))?.slice('--record='.length);
+  if (recordPath !== undefined) {
+    if (!recordPath) {
+      console.error('--record needs a file name, for example --record=print-record.json');
+      process.exit(1);
+    }
+    const record = printRecord({ date: new Date().toISOString().slice(0, 10), commit: currentCommit(), cards: slugs.length, templates });
+    writeFileSync(resolve(recordPath), `${JSON.stringify(record, null, 2)}\n`);
+    console.log(`Wrote the print record to ${resolve(recordPath)}: ${record.templatesPassing} of ${record.templateTypes} templates pass (${record.passRate}%).`);
+  }
   process.exit(failures.length ? 1 : 0);
 }
 

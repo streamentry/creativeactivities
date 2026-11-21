@@ -5,6 +5,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { postingForm, captchaLoaded } from './post-rules.mjs';
 import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
+import { canonicalError } from './canonical-lib.mjs';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
 const SITE = 'https://creativeactivities.org';
@@ -193,7 +194,15 @@ for (const file of htmlFiles) {
   // Only the robots meta counts: page scripts may mention "noindex" (the finder sets it for filter combinations).
   const noindexMeta = /<meta name="robots" content="[^"]*noindex/.test(html);
   if (!is404) {
-    if (canonical !== `${SITE}${path}`) err(rel, `canonical ${canonical} should be ${SITE}${path}`);
+    // SEO-029: only the print and alternate templates in canonical-lib.mjs may point elsewhere, and only at a built, indexable page.
+    const canonicalProblem = canonicalError(path, canonical, {
+      site: SITE,
+      targetIndexable: (target) => {
+        const file = join(DIST, target, 'index.html');
+        return existsSync(file) && !/<meta name="robots" content="[^"]*noindex/.test(readFileSync(file, 'utf8'));
+      },
+    });
+    if (canonicalProblem) err(rel, canonicalProblem);
     if (!noindexMeta) indexable.push(`${SITE}${path}`);
     else noindexed.push(`${SITE}${path}`);
     // A page that asks not to be indexed must not advertise language alternates.

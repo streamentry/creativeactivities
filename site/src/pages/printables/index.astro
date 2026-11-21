@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import '../../styles/activity-cards.css';
+import '../../styles/activities.css';
+import '../../styles/studio-editorial.css';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { listedActivities } from '../../lib/activities';
+import { breadcrumbs } from '../../lib/schema';
+import { printableGroups } from '../../data/printables';
+
+const crumbs = [{ href: '/printables/', label: 'Printables' }];
+// Withdrawn cards are never printed (TSA-045), so they are not counted or linked.
+const cards = listedActivities(await getCollection('activityCards'));
+const cardUpdated = new Map(cards.map((c) => [c.id, c.data.updated.toISOString().slice(0, 10)]));
+const groups = printableGroups({ cardCount: cards.length, cardUpdated });
+---
+<BaseLayout
+  title="Printables"
+  description="Free activity cards, game sheets, packs, weekly programs and pictures to print. No account needed. Each printable shows its version and date."
+  image="/og/activities.png"
+  jsonLd={[breadcrumbs(crumbs)]}
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container hub printables">
+    <header class="page-head">
+      <p class="eyebrow">Printables</p>
+      <h1>Printables</h1>
+      <p class="lede">
+        Everything here prints in black and white on A4 or US Letter, with no account and nothing to sign up for. This page
+        links to each printable; it does not repeat their contents.
+      </p>
+    </header>
+
+    {
+      groups.map((group) => (
+        <section class="printables__group" aria-labelledby={`group-${group.id}`}>
+          <h2 id={`group-${group.id}`}>{group.title}</h2>
+          <ul class="printables__list">
+            {group.items.map((item) => (
+              <li class="printables__item">
+                <h3><a href={item.href}>{item.label}</a></h3>
+                <p>{item.note}</p>
+                {item.version && <p class="printables__version">Version {item.version}</p>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+
+    <p><a href="/activity/">Find an activity</a> if you would rather start from what you have and who it is for.</p>
+  </div>
+</BaseLayout>
+
+<style>
+  .printables__group {
+    margin-block: var(--space-xl);
+  }
+  .printables__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: var(--space-md);
+  }
+  .printables__item {
+    padding: var(--space-md) var(--space-lg);
+    background: var(--gm-surface);
+    border-left: 6px solid var(--gm-outline);
+    border-radius: var(--radius-sm);
+  }
+  .printables__item h3 {
+    margin: 0 0 var(--space-xs);
+  }
+  .printables__item p {
+    margin: 0;
+  }
+  .printables__item:focus-within {
+    border-left-color: var(--gm-primary);
+  }
+  .printables__version {
+    margin-top: var(--space-xs) !important;
+    color: var(--gm-on-surface-variant);
+    font-weight: 600;
+  }
+</style>

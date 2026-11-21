@@ -28,6 +28,8 @@ interface Props {
   type?: 'website' | 'article';
   jsonLd?: Record<string, unknown>[];
   noindex?: boolean;
+  /** Path the canonical link points at, for a print or alternate view (SEO-029). Pages leave it unset. */
+  canonicalPath?: string;
   /** False on pages that handle family photos, which allow no third-party scripts. */
   analytics?: boolean;
   /** Language codes this page exists in; defaults to English only. */
@@ -43,6 +45,7 @@ const {
   type = 'website',
   jsonLd = [],
   noindex = false,
+  canonicalPath,
   analytics = true,
 } = Astro.props;
 
@@ -59,7 +62,7 @@ const alternates = blockIndexing ? [] : PUBLISHED.filter((l) => available.includ
 const fullTitle = rawTitle ? title : composeTitle(title, t.common.titleSuffix);
 // Translations often run past the 170 width that search results show; fit them.
 const metaDescription = fitDescription(description);
-const canonical = absoluteUrl(Astro.url.pathname);
+const canonical = absoluteUrl(canonicalPath ?? Astro.url.pathname);
 const ogImage = absoluteUrl(image);
 const altText = imageAlt ?? t.common.defaultImageAlt;
 // Languages a first visit may be sent to: indexed, translated, not English.

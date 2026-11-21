@@ -106,7 +106,7 @@ Priority P1 · Phase S2
 
 ### CNT-711 · Beads and jewelry
 
-Priority P3 · Phase S3
+Priority P3 · Phase S3 · Status partial (2026-11-21: three cards, the S2 target: Thread a large bead bracelet, Roll paper beads, Make a beaded keyring, each with the strict safety line below, no under-threes, and not offered as intergenerational. No step pictures yet; the S4 target is 8.)
 
 - **Examples:** bead bracelet on stretchy cord (large beads, seated); paper-bead necklace (rolled paper strips with glue); clay-bead threading; a pressed-flower pendant under a laminating sheet; a beaded keyring.
 - **Adaptations:** large beads with big holes; a bead threader or a bead board; contrasting cord and beads for low vision; a bead tray with raised edges; a pre-strung base for one-handed use.

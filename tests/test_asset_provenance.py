@@ -1,4 +1,5 @@
 """Every shipped asset is covered by the rights register (GM-025)."""
+import hashlib
 import json
 import re
 import unittest
@@ -8,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 REGISTER = json.loads(
     (ROOT / 'docs/specs/asset-provenance.json').read_text(encoding='utf-8'))
 GROUPS = REGISTER['groups']
+SITE_IMAGES = REGISTER['site_images']
+SITE_ROOT = ROOT / 'site/public'
 STATUSES = {'unreviewed', 'reviewed', 'license_text_bundled', 'not_shipped'}
 
 
@@ -39,6 +42,44 @@ def covered(path: str) -> bool:
 
 
 class AssetProvenanceTests(unittest.TestCase):
+    def test_recorded_site_image_hashes_match_the_files(self):
+        # Drawn pictures are generated at build time (site/src/data/pictures.ts) and are
+        # checked against their rendered output in site/src/lib/asset-provenance.test.ts.
+        checked = 0
+        for image in SITE_IMAGES:
+            if image['kind'] == 'drawn-svg':
+                continue
+            target = SITE_ROOT / image['url'].lstrip('/')
+            with self.subTest(image=image['id']):
+                self.assertTrue(target.is_file(), image['url'])
+                digest = hashlib.sha256(target.read_bytes()).hexdigest()
+                self.assertEqual(image.get('sha256'), digest)
+                checked += 1
+        self.assertGreater(checked, 100)
+
+    def test_every_site_image_file_on_disk_has_a_record(self):
+        recorded = {image['url'] for image in SITE_IMAGES}
+        files = [f'/illustrations/{p.name}'
+                 for p in (SITE_ROOT / 'illustrations').glob('*.webp')]
+        og_dir = SITE_ROOT / 'og'
+        files += [f'/og/{p.relative_to(og_dir).as_posix()}'
+                  for p in og_dir.rglob('*.png')]
+        self.assertTrue(files)
+        self.assertEqual([f for f in files if f not in recorded], [])
+
+    def test_site_image_alt_and_surfaces_are_consistent(self):
+        for image in SITE_IMAGES:
+            with self.subTest(image=image['id']):
+                self.assertRegex(image.get('sha256') or '', r'^[0-9a-f]{64}$')
+                self.assertIn('alt', image)
+                self.assertIn('surfaces', image)
+                if image['alt'] == '':
+                    self.assertIs(image.get('decorative'), True)
+                elif isinstance(image['alt'], str):
+                    self.assertIs(image.get('decorative'), False)
+                    self.assertTrue(image['alt'].strip())
+                self.assertIsInstance(image['surfaces'], list)
+
     def test_every_declared_asset_is_in_the_register(self):
         paths = shipped_paths()
         self.assertTrue(paths)

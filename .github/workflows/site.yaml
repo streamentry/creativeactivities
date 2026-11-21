@@ -53,6 +53,8 @@ jobs:
         run: pnpm exec astro build
       - name: Check pages, links, metadata and claims wording
         run: pnpm exec node scripts/check-site.mjs
+      - name: No two pages share a title, H1 or description (SEO-006, SEO-015)
+        run: pnpm exec node --max-old-space-size=6144 scripts/check-duplicates.mjs --exact
       - name: Page weight budget (WEB-074)
         run: pnpm exec node scripts/check-budget.mjs
       - name: Images (alt text, size in the page, no picture sent at over twice its width)

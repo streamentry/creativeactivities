@@ -576,7 +576,9 @@ Risks / not doing: Server-side personal data does not exist in S1 by design. If 
 
 ### WEB-031 · Weekly plan, printable
 
-Priority P1 · Phase S2 · Status partial · Pillars: GROW, CARE, MAKE
+Priority P1 · Phase S2 · Status exists · Pillars: GROW, CARE, MAKE
+
+Status note (2026-11-21): each path page has "Print the weekly plans": one page per week with one line per day (the activity, its time from the card, a box and a space to write) and a blank week to fill in by hand; "Days are optional" is printed, with no streak or "missed" text. `check:print` checks every plan sheet is one page on A4 and US Letter. The print button's script is a same-origin file, so no CSP hash changed.
 
 Why: A free printable weekly plan with three to five activities is a low-commitment start ([R2 §3.4](research/02-parenting-kids-platforms.md)). The baseline has a five-activity pack, not a weekly plan format.
 
@@ -812,7 +814,9 @@ Risks / not doing: A partner can imply endorsement by listing us. The page state
 
 ### WEB-045 · Care-home weekly program sheet
 
-Priority P1 · Phase S2 · Status new · Pillars: CARE, TOGETHER
+Priority P1 · Phase S2 · Status exists · Pillars: CARE, TOGETHER
+
+Status note (2026-11-21): `/activity/weekly-program/` prints one page per week (checked by `check:print`), asks for no names, diagnoses or care needs (`weekly-program.test.ts` field check), shows a group and a one-to-one version for each day, and tells staff to use "This didn't fit" on each card. Not yet tried by an activity director.
 
 Why: Activity directors plan every week and need adaptable ideas and printable sheets ([R5 §4](research/05-search-scale-trust.md); [01, rows 6 and 22](01-positioning-and-audiences.md#3-situations)). Group play is the closest product to what care homes buy today ([R4 §2](research/04-games-engagement.md)), but it is hardware.
 
@@ -1158,6 +1162,8 @@ Risks / not doing: Writing for AI rather than people. The test is whether a tire
 ### WEB-065 · Printables index
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `/printables/` is a navigation-only index of the printables (cards, large print, packs, paths and weekly plans, the weekly program, the professionals handout, the care-setting sheets, game sheets), linked from the finder. Packs and the weekly program now print a version line (the newest change among their activities, worked out at build time). Not yet checked that every listed printable shows a version.
 
 Why: DESIGN lists "Printables" as a top-level section ([DESIGN §3](../../../DESIGN.md)); printable templates are first-class content ([R1 §3.7](research/01-craft-diy-platforms.md)). The baseline has packs, pictures and a handout, with no index page.
 

@@ -53,6 +53,7 @@ const TEMPLATES = [
   { name: 'large-print', path: '/activity/wrap-a-small-gift/large-print/' },
   { name: 'weekly-program', path: '/activity/weekly-program/' },
   { name: 'care-settings', path: '/for-organizations/care-settings/' },
+  { name: 'printables', path: '/printables/' },
   { name: 'guide', path: '/caregiving/after-dementia-diagnosis/' },
   { name: 'section-index', path: '/caregiving/' },
   { name: 'game', path: '/games/picture-pairs/' },

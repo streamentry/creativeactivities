@@ -139,6 +139,8 @@ Risks / not doing: counting pages with a reviewer name but no matching review re
 ### MET-011 · Overdue reviews
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): editing a page no longer resets its review clock: `content-metrics-lib.mjs` counts only a review date, and a page with no review is never reviewed (regression tests). The reader-facing "Due for a check" notice (`review-queue-lib.mjs`) still falls back to the update date; changing it changes what readers see, so it is a maintainer decision. Weekly and monthly reporting need an owner.
+
 Evidence (2026-11-16): the same report counts live pages past a 12-month review and the median days over, with health-adjacent pages listed first (`site/scripts/review-queue-lib.mjs`). Today 0 of 101 pages are overdue, and none can be before 2026-10-26 plus a year, because the oldest page was last updated on 2026-10-25, so this figure says nothing yet. Not done: a date that only a review can move (the report counts a page as checked on its review date, else its `updated` date, so editing resets the clock, which PLAT-012 warns against); a named owner per item; a weekly report to the owner and a monthly one to the maintainer.
 Why: VISION lists "updates overdue" as a quality metric. [R5 §5.6] asks for "last checked" dates.
 What: count and median age of items past `next_review_due` ([platform](15-platform-data-architecture.md) PLAT-012), with a named owner per item.
@@ -251,6 +253,9 @@ Risks / not doing: relying only on word lists. Add a human review of every healt
 
 ### MET-020 · Print legibility pass rate
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `check:print --record=<file>` writes a per-release record (date, commit, pass counts per template, pass rate); 9 of 9 templates pass today. Running it for each release is a release step, not automated.
+
 Evidence (2026-11-17): `pnpm check:print` prints the pass rate at every run and fails the run when any print template fails, so failures are fixed before a release. Today: 7 of 7 template types pass (100%): activity card 53 of 53, large-print card 53 of 53, fixed pack 2 of 2, weekly program 1 of 1, game paper version 11 of 11, pack builder 55 of 55 and four-week path 2 of 2. A template passes when it prints within the pages it declares on both A4 and US Letter (a card is exactly two, one sheet both sides), its navigation is off the paper, and its steps print at 12 pt or more (18 pt in large print). The games come from the table in `site/src/data/game-print.ts`, the other templates are listed in the check, and `site/src/lib/print-templates.test.ts` keeps the game list true. Not done: "no color dependency" is checked only by printing without backgrounds, which is how a browser prints, and not by someone using a black-and-white printer; the rate is in the workflow log and not in a record kept for each release; a template added later has to be added to the check.
 
 Why: print is a product path (DESIGN §4B). A card that does not print is not a card.

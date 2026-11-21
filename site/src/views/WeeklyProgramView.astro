@@ -15,6 +15,7 @@ import { SITE } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
 import { PAUSE_LINE, SCOPE_LINE } from '../lib/scope';
 import { PROGRAM_DAYS, defaultWeek, groupCards, programEntry } from '../lib/weekly-program';
+import { latestDate } from '../lib/version-date';
 
 const path = '/activity/weekly-program/';
 const crumbs = [
@@ -24,7 +25,11 @@ const crumbs = [
 const cards = await getCollection('activityCards');
 const options = groupCards(cards).map(programEntry);
 const week = defaultWeek(cards);
+const dateOf = (c: { data: { updated: Date } }) => c.data.updated.toISOString().slice(0, 10);
 const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne }]));
+// WEB-065: the sheet's version is the newest change among all the activities this page offers, so it holds
+// whatever is chosen, with no change to the page script (its hash is in the CSP).
+const version = latestDate(options.map(dateOf));
 ---
 <BaseLayout
   title="Weekly Activity Program to Print for a Group"
@@ -85,9 +90,17 @@ const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, g
         Full steps, materials and safety notes for each activity: {SITE.domain}/activity/. Anyone can stop at any time,
         and watching counts as taking part.
       </p>
+      {
+        version && (
+          <p class="weekly-program__version">
+            Version {version} · {SITE.domain}{path}
+          </p>
+        )
+      }
       <p class="activity-scope">{SCOPE_LINE}</p>
       <p>{PAUSE_LINE}</p>
       <p class="no-print"><a href="/corrections/#report-safety">Report a safety problem</a> with any activity on this sheet.</p>
+      <p class="no-print">If an activity did not suit your group, open its card from the name above and choose "This didn't fit" under "Did you try this?" at the end of the card.</p>
     </section>
 
     <div class="btn-row no-print">

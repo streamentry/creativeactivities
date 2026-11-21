@@ -11,6 +11,7 @@ import SuggestCorrection from '../components/SuggestCorrection.astro';
 import { SITE } from '../lib/site';
 import { breadcrumbs } from '../lib/schema';
 import { listedActivities } from '../lib/activities';
+import { latestDate } from '../lib/version-date';
 import type { ActivityPack } from '../data/packs';
 
 interface Props {
@@ -32,6 +33,8 @@ const activities = pack.activities
     return card;
   })
   .filter((card) => shown.has(card.id));
+// WEB-065: the pack's version is the newest change among the cards it prints.
+const version = latestDate(activities.map((a) => a.data.updated.toISOString().slice(0, 10)));
 ---
 <BaseLayout title={pack.seoTitle} description={pack.description} image="/og/activities.png" jsonLd={[breadcrumbs(crumbs)]}>
   <Breadcrumbs items={crumbs} />
@@ -75,7 +78,7 @@ const activities = pack.activities
         }
       </div>
       <p class="pack-cover__source">
-        {SITE.name} · {SITE.domain}{path} · Free to print and share for personal and noncommercial use.
+        {version && <>Version {version} · </>}{SITE.name} · {SITE.domain}{path} · Free to print and share for personal and noncommercial use.
       </p>
       <SuggestCorrection title={pack.title} path={path} />
     </header>
