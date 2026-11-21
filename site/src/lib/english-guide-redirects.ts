@@ -2,7 +2,7 @@
  * Translated guide pages that were live before their language moved to English guides
  * (src/i18n/english-guides.txt, 2026-11-21). Their translations are removed, so each old address
  * sends a permanent redirect to the English guide instead of a 404. Listed from what the live site
- * (origin/main) served on 2026-11-21; this list only shrinks.
+ * (origin/main) served when each language moved; regenerate it when the language list grows.
  */
 export const ENGLISH_GUIDE_REDIRECTS: Readonly<Record<string, readonly string[]>> = {
   aa: ['activities/art-supplies-for-older-adults', 'activities/art-therapy-or-creative-activity', 'activities/creative-arts-therapies', 'activities/drawing-and-painting-to-relax', 'activities/finding-an-art-therapist', 'activities/group-art-activities', 'activities/ideas', 'activities/late-stage', 'activities/pen-pals-for-older-adults', 'activities/reminiscence', 'activities/therapeutic-art-activities-for-adults', 'caregiving/after-dementia-diagnosis', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no', 'crafts/coloring-pages-for-adults', 'crafts/craft-group-sessions', 'crafts/crafts-for-limited-dexterity', 'crafts/easy-crafts-for-adults', 'crafts/paper-crafts', 'crafts/recycled-crafts', 'crafts/seasonal-crafts', 'creative-calm/calm-afternoon-activities', 'creative-calm/creative-journaling', 'creative-calm/creative-self-care-for-caregivers', 'creative-calm/mindful-art', 'creative-calm/music-for-calm-and-connection', 'creative-calm/sensory-activities-for-adults', 'kids/art-activities-for-toddlers', 'kids/crafts-for-kids-with-sensory-needs', 'kids/process-art-for-kids', 'kids/screen-free-activities-for-kids', 'kids/sensory-play-ideas', 'together/activities-with-older-parents', 'together/grandparent-and-grandchild-crafts', 'together/outdoor-and-garden-activities', 'together/puzzles-and-table-games', 'together/staying-connected-from-afar', 'together/visiting-someone-in-care'],
@@ -59,9 +59,11 @@ export const ENGLISH_GUIDE_REDIRECTS: Readonly<Record<string, readonly string[]>
   ts: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/after-dementia-diagnosis', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   tw: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   ty: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
+  ug: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   ve: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   vo: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   wa: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
+  wo: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   xh: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   za: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
 };
