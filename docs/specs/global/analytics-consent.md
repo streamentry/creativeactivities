@@ -34,6 +34,27 @@ The blocklist stops Tag Manager's own listeners, but some collection is configur
 4. **Tag Manager container `GTM-5ZSV72WC`:** remove any Click, Link Click, Form Submission, Scroll Depth, Element Visibility, Timer or History Change triggers and any Custom HTML tags (the site blocks them anyway, but the container should match); make sure the GA4 tag uses the built-in consent check ("Require additional consent": none needed beyond `analytics_storage`).
 5. **Verify in a clean browser profile** with Tag Assistant: before "Allow", no requests to Google; after "Allow", consent shows `analytics_storage: granted`, `ad_storage: denied`.
 
+### Console state, set on 2026-11-21
+
+Property creativeactivities.org (stream `16331161065`, measurement ID `G-JX0SFMN3B0`). Every change was saved and read back after a page reload.
+
+| Step | Before | Now |
+|---|---|---|
+| 1. Enhanced measurement | All seven events on | Page views only. Scrolls, outbound clicks, site search, form interactions, video engagement and file downloads are off |
+| 2. Google signals | Off | Off (unchanged) |
+| 2. Granular location and device data | Allowed in 307 of 307 regions | Off everywhere. Country and region are still collected |
+| 2. Ads personalization | Allowed in 307 of 307 regions | Allowed in 0 of 307 (the site already denies `ad_personalization`) |
+| 2. User-provided data collection | Off | Off (unchanged) |
+| 3. Event data retention | 2 months | 2 months (unchanged) |
+| 3. User data retention | 14 months, reset on new activity | 2 months, no reset on new activity |
+| 4. Container `GTM-5ZSV72WC` | One tag: Google Analytics `G-JX0SFMN3B0`, trigger "Initialization – All Pages". No other triggers, no Custom HTML | Unchanged; already matches step 4 |
+
+**Still open in the container's Google tag settings (not saved; needs the maintainer's go-ahead):**
+
+- "Manage automatic event detection": page views on history change, scrolls, outbound clicks, form interactions, video engagement and file downloads are all on. They should be off to match step 1; the site's blocklist does not cover these Google tag listeners (`__ogt_auto_events` in the published container).
+- "Allow user-provided data capabilities": the published container includes `__ogt_1p_data_v2` with automatic email, phone and address detection enabled. It should be off.
+- Step 5, the Tag Assistant check, has not been run.
+
 ## Open
 
 - The consent words exist in English only; other languages show the English text until their dictionaries are translated and reviewed (L10N rules).

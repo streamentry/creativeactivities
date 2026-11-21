@@ -549,7 +549,7 @@ The maintainer asked on 2026-11-21 for the suggested option to be chosen for eve
 
 | Decision | Unblocks | Options | Suggested |
 | --- | --- | --- | --- |
-| Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md |
+| Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md. **2026-11-21:** steps 1–3 done and step 4 checked (the container was already clean); the Google tag's automatic event detection and user-provided data are still on and await the maintainer's go-ahead; step 5 not run |
 
 ### Decided on 2026-11-21 (the suggested option, by the maintainer's instruction)
 
