@@ -534,6 +534,8 @@ Risks / not doing: A long history clutters the card. Show the last three changes
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Evidence: Pure logic in `site/src/lib/saved-collections.ts` (one key `ca-collections-v1`, limits 20 collections, 60 activities each, names 60 characters of plain text, import up to 64 KB, all-or-nothing import with plain messages) with tests in `site/src/lib/saved-collections.test.ts`. The island `site/src/tools/SavedCollections.tsx` sits on the finder page (`/activity/`, the saved activities list) and reads storage after mount. Registered in `site/src/lib/your-data.ts` (so Delete everything clears it and the download includes it) and listed in `docs/specs/global/data-inventory.md`. Unit tests, `tsc` and the full vitest run pass. Not yet checked: a browser pass (keyboard, screen reader, phone width) and the print and accessibility checks for the finder page.
+
 Why: Keeping what worked is a jobs-to-be-done ([01 §4, job 8](01-positioning-and-audiences.md#4-jobs-to-be-done)). The baseline saves activities on the device; named collections and export are new. The "collections over streaks" rule is from [R4 §3.3](research/04-games-engagement.md).
 
 What: Named collections, such as "Sunday with Dad". Add and remove cards. Export to a file and import on another device. No account and no tracking.

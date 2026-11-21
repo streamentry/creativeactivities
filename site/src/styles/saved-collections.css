@@ -1,0 +1,131 @@
+/* Saved collections (WEB-028). Tokens only; controls stay at least 48 px high. */
+.collections {
+  margin-block: var(--space-section, 3rem);
+  display: grid;
+  gap: var(--space-md, 1rem);
+}
+
+.collections__warning {
+  padding: var(--space-sm, 0.75rem) var(--space-md, 1rem);
+  border-inline-start: 4px solid var(--gm-outline);
+  background: var(--gm-surface-sunken);
+  color: var(--gm-on-surface);
+}
+
+.collections__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs, 0.5rem);
+  align-items: center;
+}
+
+.collections input[type='text'],
+.collections select {
+  min-height: 48px;
+  min-width: min(100%, 16rem);
+  flex: 1 1 14rem;
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  font-size: 1rem;
+  color: var(--gm-on-surface);
+  background: var(--gm-surface-raised);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md, 8px);
+}
+
+.collections input[type='text']:focus-visible,
+.collections select:focus-visible {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+
+.collections label {
+  font-weight: 600;
+}
+
+.collections__list {
+  display: grid;
+  gap: var(--space-sm, 0.75rem);
+}
+
+.collection {
+  padding: var(--space-md, 1rem);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-lg, 12px);
+  background: var(--gm-surface-raised);
+  display: grid;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.collection h3 {
+  margin: 0;
+}
+
+.collection__cards {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.collection__cards li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs, 0.5rem);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection__add {
+  display: grid;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.collections__files {
+  display: grid;
+  gap: var(--space-xs, 0.5rem);
+}
+
+.collections__files h3 {
+  margin: var(--space-sm, 0.75rem) 0 0;
+}
+
+/* The file picker is a styled label around a visually hidden input. */
+.collections__file-label {
+  position: relative;
+  cursor: pointer;
+}
+
+.collections__file-label input[type='file'] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.collections__file-label:focus-within {
+  outline: 3px solid var(--gm-primary);
+  outline-offset: 2px;
+}
+
+.collections__hidden-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.collections__status {
+  min-height: 1.5em;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media print {
+  .collections {
+    display: none;
+  }
+}

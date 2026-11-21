@@ -23,6 +23,7 @@ import { LANGUAGE_COOKIE, readCookie } from './language-choice';
 import { PATHS } from '../data/paths';
 import { parsePaths, PATHS_STORAGE_KEY } from './paths';
 import { parseSaved, STORAGE_KEY as SAVED_KEY } from './saved-activities';
+import { parseStored as parseCollections, STORAGE_KEY as COLLECTIONS_KEY } from './saved-collections';
 import { parseNotes, STORAGE_KEY as TODAY_NOTES_KEY } from './today/notes';
 
 export interface SiteStore {
@@ -44,6 +45,15 @@ export const SITE_STORES: readonly SiteStore[] = [
     label: 'Saved activities',
     description: 'Activities you chose to save for later, kept as their short names.',
     count: (raw) => parseSaved(raw).length,
+  },
+  {
+    id: 'collections',
+    kind: 'localStorage',
+    key: COLLECTIONS_KEY,
+    label: 'Collections',
+    description:
+      'Named groups of saved activities, such as “Sunday with Dad”. Collection names can contain personal information. They stay in this browser and in any file you download.',
+    count: (raw) => parseCollections(raw).length,
   },
   {
     id: 'what-i-have',
