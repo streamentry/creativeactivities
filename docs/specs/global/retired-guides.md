@@ -29,7 +29,7 @@
 
 ## Languages whose guides stay in English
 
-**Decision (maintainer, 2026-11-21):** for 58 languages, readers get the English guide instead of a machine translation. A Haiku subagent judged its own Zhuang unreliable (its drafts passed every structural check, but meaning was lost and sentences were invented), and the same is likely for other languages with little written text online. The list, with the rule used, is `site/src/i18n/english-guides.txt`. In those languages:
+**Decision (maintainer, 2026-11-21):** for 58 languages, readers get the English guide instead of a machine translation. A Haiku sub-agent judged its own Zhuang unreliable (its drafts passed every structural check, but meaning was lost and sentences were invented), and the same is likely for other languages with little written text online. The list, with the rule used, is `site/src/i18n/english-guides.txt`. In those languages:
 
 - Live guides have no translation, so their pages show the English text (374 old and new translations were removed; `english-guides.content.test.ts` keeps it that way).
 - Site and game strings are still translated.
