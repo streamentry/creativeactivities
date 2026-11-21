@@ -153,6 +153,12 @@ describe('content bundle (PLAT-035)', () => {
     }
   });
 
+  it('leaves out a card whose review was declined, since it has no page (CNT-1004)', () => {
+    const declined = sample('b', { reviewDeclined: { name: 'A reviewer', date: '2026-11-19', reason: 'Not suitable' } });
+    const bundle = buildContentBundle([sample('a'), declined], { generated: '2026-11-19' });
+    expect(bundle.activities.map((a) => a.id)).toEqual(['a']);
+  });
+
   it('keeps the bundle sorted by id, for reviewable diffs', () => {
     const ids = committed.activities.map((a) => a.id);
     expect(ids).toEqual([...ids].sort());

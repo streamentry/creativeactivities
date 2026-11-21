@@ -11,6 +11,7 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 
 type Tokens = Record<string, string>;
+type Mode = 'light' | 'light+high' | 'dark' | 'dark+high';
 
 const css = readFileSync(new URL('../styles/tokens.css', import.meta.url), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
 
@@ -37,9 +38,9 @@ function resolve(tokens: Tokens, value: string): string {
 }
 
 /** The effective tokens for a theme: light, then the dark block, then (optionally) high contrast. */
-function effective(mode: 'dark' | 'dark+high'): Tokens {
-  const merged: Tokens = { ...ROOT, ...DARK_DEVICE };
-  if (mode === 'dark+high') Object.assign(merged, HIGH);
+function effective(mode: Mode): Tokens {
+  const merged: Tokens = mode.startsWith('dark') ? { ...ROOT, ...DARK_DEVICE } : { ...ROOT };
+  if (mode.endsWith('+high')) Object.assign(merged, HIGH);
   const out: Tokens = {};
   for (const key of Object.keys(merged)) out[key] = resolve(merged, merged[key]);
   return out;
@@ -104,16 +105,61 @@ describe('dark theme tokens (WEB-042)', () => {
   it('keeps the print tile white in dark mode, so printed-style pictures stay light', () => {
     expect(DARK_DEVICE['--gm-print-white']).toBe('#ffffff');
   });
-
-  for (const mode of ['dark', 'dark+high'] as const) {
-    describe(`meets WCAG AA in ${mode}`, () => {
-      const tokens = effective(mode);
-      for (const [label, fg, bg, min] of PAIRS) {
-        it(`${label} (${fg} on ${bg}) is at least ${min}:1`, () => {
-          const ratio = contrast(tokens[fg], tokens[bg]);
-          expect(ratio, `${label}: ${tokens[fg]} on ${tokens[bg]} = ${ratio.toFixed(2)}`).toBeGreaterThanOrEqual(min);
-        });
-      }
-    });
-  }
 });
+
+/**
+ * TSA-004 (WCAG 1.4.11): every focus ring must reach 3:1 against the surface it sits on.
+ * Most rings are drawn outside the element (outline-offset 2px to 4px), so the background they
+ * sit on is the page, card, well or raised surface around it, not the element's own fill (a sun
+ * button keeps the primary ring, which is light on dark surfaces in dark mode).
+ * - primary (Ink in light, Canvas in dark) and teal (Teal in light, Sun in dark) rings sit on page, card and well;
+ * - the puzzle board and word-search cells are print-white in both themes, so the piece ring uses the print text token;
+ * - sun is a ring only on the footer band, which is Ink in both themes;
+ * - the skip link ring is Ink on the page;
+ * - the high-contrast rings are literal black (and white on the black footer).
+ * A value starting with '#' is a literal color, not a token.
+ */
+const FOCUS_PAIRS: [string, string, string][] = [
+  ['focus ring on page', '--gm-primary', '--gm-background'],
+  ['focus ring on card', '--gm-primary', '--gm-surface'],
+  ['focus ring on well', '--gm-primary', '--gm-surface-sunken'],
+  ['teal focus ring on page', '--gm-secondary', '--gm-background'],
+  ['teal focus ring on card', '--gm-secondary', '--gm-surface'],
+  ['teal focus ring on well', '--gm-secondary', '--gm-surface-sunken'],
+  ['sun focus ring on footer', '--gm-primary-container', '--gm-footer'],
+  ['ink focus ring on print tile (puzzle board)', '--gm-on-print', '--gm-print-white'],
+  ['focus ring on raised surface', '--gm-primary', '--gm-surface-raised'],
+  ['teal focus ring on raised surface', '--gm-secondary', '--gm-surface-raised'],
+  ['skip link ring on page', '--gm-on-surface', '--gm-background'],
+];
+
+/** High-contrast rings: literal black (and white on the black footer). Checked in the high-contrast modes only. */
+const HIGH_FOCUS_PAIRS: [string, string, string][] = [
+  ['black focus ring on page (high contrast)', '#000000', '--gm-background'],
+  ['black focus ring on card (high contrast)', '#000000', '--gm-surface'],
+  ['black focus ring on well (high contrast)', '#000000', '--gm-surface-sunken'],
+  ['black focus ring on sun fill (high contrast)', '#000000', '--gm-primary-container'],
+  ['white focus ring on footer (high contrast)', '#FFFFFF', '--gm-footer'],
+];
+
+const MODES: Mode[] = ['light', 'light+high', 'dark', 'dark+high'];
+
+for (const mode of MODES) {
+  describe(`meets WCAG AA in ${mode}`, () => {
+    const tokens = effective(mode);
+    const value = (key: string) => (key.startsWith('#') ? key : tokens[key]);
+    for (const [label, fg, bg, min] of PAIRS) {
+      it(`${label} (${fg} on ${bg}) is at least ${min}:1`, () => {
+        const ratio = contrast(value(fg), value(bg));
+        expect(ratio, `${label}: ${value(fg)} on ${value(bg)} = ${ratio.toFixed(2)}`).toBeGreaterThanOrEqual(min);
+      });
+    }
+    const focusPairs = mode.endsWith('+high') ? [...FOCUS_PAIRS, ...HIGH_FOCUS_PAIRS] : FOCUS_PAIRS;
+    for (const [label, ring, bg] of focusPairs) {
+      it(`${label} (${ring} on ${bg}) is at least 3:1 (WCAG 1.4.11)`, () => {
+        const ratio = contrast(value(ring), value(bg));
+        expect(ratio, `${label}: ${value(ring)} on ${value(bg)} = ${ratio.toFixed(2)}`).toBeGreaterThanOrEqual(3);
+      });
+    }
+  });
+}

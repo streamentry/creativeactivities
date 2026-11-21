@@ -60,7 +60,7 @@ describe('for-professionals handout (WEB-048)', () => {
     expect(page).toMatch(/datetime=\{UPDATED\}/);
   });
 
-  it('keeps the page free of aria-hidden and hard-coded colours', () => {
+  it('keeps the page free of aria-hidden and hard-coded colors', () => {
     expect(page).not.toMatch(/aria-hidden/);
     expect(page).not.toMatch(/#[0-9a-fA-F]{3,8}\b/);
   });

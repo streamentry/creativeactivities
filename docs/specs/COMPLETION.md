@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 66 | 244 | 97 | 407 |
-| S3 | 2 | 15 | 58 | 75 |
+| S2 | 71 | 240 | 96 | 407 |
+| S3 | 2 | 17 | 56 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **80** | **287** | **166** | **533** |
+| **All** | **85** | **285** | **163** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -429,6 +429,12 @@ Three Haiku subagents in parallel, each reviewed and browser-checked (light and 
 
 Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 pages; `check:site` 0 errors; `check:budget` 0 over; `check:images` passes; `check:print` 8 of 8; `check:a11y` 0 failing of 230.
 
+### Batch 50 (2026-11-19): Word and picture pairs, and session plans for care settings
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Word and picture pairs at `/games/word-and-picture-pairs/`, English only: 4 or 6 pictures in view with their words in another order, Read aloud for each word, quiet clearing of a tap that does not match, New pictures, Start again with Put it back, and a one-page print sheet | GAME-023 → partial | Built by a Haiku subagent. Review: the picture pool was judged on ids, so it was checked against the names players actually see (all 41 read one way); the share image cut the short line mid-phrase ("hear the word read") and the line was shortened; checked in the browser in the dark theme with 6 pictures. Not tried with adults learning English |
+| Session plans for care homes and day centers at `/for-organizations/care-settings/` (`noindex`): 10, 20 and 30 minute plans from existing cards, a staff summary per plan, a family note with no resident data and a permission template the organization keeps; the build fails if a linked card is missing, withdrawn, has no group version or does not fit its plan length | CNT-014 → partial (adult pilot only) | Built by a Haiku subagent. Review swapped the 20-minute "family tree of hands" for "Arrange flowers together": a family tree leaves out residents with no family nearby (the L10N-015 register). Clean-up time says "Check the card" because no card records it. Needs a care-setting reviewer before it is indexed |
 ### Batch 51 (2026-11-19): defect log, facet report and a reproducible build
 
 | Change | Items | Evidence |
@@ -442,6 +448,41 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | --- | --- | --- |
 | [Cultural adaptation register](global/cultural-adaptation-register.md): 21 rows, one per known point in the native review guide plus a Ukrainian men's-guide row found on the way, each with its file and line, the English counterpart and a proposal (keep, change, remove or reviewer to choose); "Decided by" empty everywhere | L10N-012 → partial | Drafted by a Haiku subagent from the repository only. Six citations spot-checked against the files (Italian chrysanthemum caption, German informal quoted line, Japanese uniformed-work row, Thai rating word, Arabic arrow, Spanish trivia row): all correct. Three points could not be tied to one file (Arabic layout is a run-time check; the Ukrainian source language is not recorded; the Thai store label key) and say so |
 | [Family terms register](global/family-terms-register.md): English source audit of 22 family and age words, legitimate uses separated from example scripts that assume one family; forms of address for German, Spanish, French, Italian, Ukrainian, Russian and Arabic | L10N-015 → partial | Same agent. Review found the scope note wrongly said the game and play strings had no English file; they were searched (three hits, all legitimate) and the note corrected. No "patient" or "sufferer" for the older person. Changing the example scripts and choosing each form of address wait for the maintainer and reviewers |
+
+### Batch 52 (2026-11-19): bead cards and an audit of the partial items
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Three bead cards: Thread a large bead bracelet, Roll paper beads, Make a beaded keyring, each with the strict safety line (no beads with under-threes or anyone who mouths things, a tray, count out and back, no resin), not offered as intergenerational | CNT-711 → partial | Written by a Haiku subagent; merged as #111. The content bundle now accepts a card with no pictures. No step pictures yet |
+| Audit of all 280 `partial` items by three read-only Haiku agents: 86 have a gap a coding agent can build without a person, each checked against the code; the rest wait on reviewers, devices, data, licenses or decisions | All partial items | The verified list is summarized under "Next batches" below |
+
+### Batch 53 (2026-11-21): weekly print, printables, canonical and focus rings
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Path pages print one-page weekly plans and a blank week; the weekly program sheet points staff to "This didn't fit" | WEB-031 → exists, WEB-045 → exists | Built by a Haiku subagent. Review found its new inline script and its edit to the weekly program's script each changed the CSP hash list on all 16,712 pages (`check-site` failed everywhere). The print script is now a same-origin file like `theme-init.js`, and the feedback route is a static line, so `_headers` is unchanged. The print check missed that Chromium fires the after-print event after each PDF; it now sets the plan before each paper size |
+| `/printables/`, a navigation-only index, and version lines on packs and the weekly program | WEB-065 partial | Built by a Haiku subagent; the same script-hash problem, fixed by working the version out at build time |
+| Print views canonicalize to their activity; CI blocks exact duplicate titles, H1s and descriptions | SEO-029, SEO-006, SEO-015 partial | Built by a Haiku subagent; `--exact` added because `--strict` also fails on near-duplicates that need an editor; the report path no longer points at one machine |
+| Focus rings pass 3:1 on every background in every theme; image records carry sha256, alt and surfaces; a rights report | TSA-004, PLAT-003 partial | Built by Haiku subagents; three focus rings fixed |
+
+### Batch 54 (2026-11-21): review clock, declined reviews, print record and inventory
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Editing a page no longer resets its review clock | MET-011 partial | Built by a Haiku subagent, test first (3 tests failed on the old code) |
+| A declined review can be recorded; the card gets no page, leaves listings and the app bundle | CNT-1004 partial | Built by a Haiku subagent; the bundle exclusion added in review |
+| `check:print --record` writes a per-release record | MET-020 partial | Built by a Haiku subagent |
+| Spec 06 §1 shows the inventory counts (56 cards, 14 hubs, 116 guides) and the merge candidates | CNT-040 → exists | Counts corrected in review after the bead cards landed |
+
+### Batch 55 (2026-11-21): search, structured data, orphans, legal templates and crisis data
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| A guide-only search also returns the cards and situations linked to the guide | WEB-003 partial | Built by a Haiku subagent, test first. Its version dropped a matching guide when nothing linked to it and said "nothing matched"; review kept the guide and capped the 14 unlinked guides with a test so the number can only fall |
+| `check:structured-data` (in CI): HowTo steps, FAQ questions and answers, and ItemList order match the visible page on every English page; no empty fields | SEO-043 → exists, SEO-047 → exists; SEO-013, SEO-042 partial | Built by a Haiku subagent; 0 mismatches on 56 HowTo, 95 FAQ and 28 ItemList pages; a changed step on a built page is caught. Added to CI in review |
+| `check:orphans`: no orphan among 176 indexable English pages, no repeated generic anchors | SEO-014 partial | Built by a Haiku subagent; not in CI |
+| DPIA template, withdrawal runbook, and a per-metric privacy note | TSA-013, TSA-045, MET-037 partial | Written by a Haiku subagent from the repository; owners, targets and counsel's check are marked "TO SET". The note flags four metric conflicts for the maintainer |
+| Crisis routes in a data file with a check date and a source field | L10N-009, CNT-1003 partial | Built by a Haiku subagent; the 18,921 built files are byte-identical to before; no number changed or re-checked |
 
 ## What blocks the rest
 
@@ -462,7 +503,7 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 
 | Decision | Unblocks | Options | Suggested |
 | --- | --- | --- | --- |
-| Hosting plan | Any page type that exists in every language (each adds about 189 files); PLAT-015 | Stay on the Cloudflare Free plan (20,000 files per version; about 17,300 in use, 86%) or move to Paid (100,000) | Move to Paid before adding another all-language page type; until then add new page types for English only |
+| Hosting plan | Any page type that exists in every language (each adds about 189 files); PLAT-015 | Stay on the Cloudflare Free plan (20,000 files per version; 18,923 in use after the re-translation in #112, 94.6%, about 1,077 files of headroom) or move to Paid (100,000) | Move to Paid before adding another all-language page type; until then add new page types for English only |
 | Indexing the weakest seven expansion languages: Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo (L10N-033) | L10N-020, L10N-033 | Index them now, as the 2026-11-01 decision says, or keep them `noindex` until a native reviewer has checked each | Keep `noindex` until reviewed; the review guide already puts these seven first |
 | Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md |
 | Crawlers for AI products (SEO-035) | SEO-035, SEO-019 | Allow all (today, including GPTBot); allow search crawlers (Googlebot, Bingbot, OAI-SearchBot) and disallow training crawlers; disallow all | Allow search crawlers, decide training separately, never block Googlebot or Bingbot; `robots.txt` is a request, not access control |
@@ -474,9 +515,18 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
 | The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
+| Analytics on the kids guides (CNT-880) | CNT-880 | The guides under `/kids/` load the analytics consent bar like other pages; CNT-880 says no trackers on pages a child can reach. Keep it there (the guides are written for parents), or turn it off there as on Photo pairs | Turn it off on `/kids/`: it costs little and matches the rule as written |
+| The reader-facing "Due for a check" notice (MET-011) | MET-011, WEB-076 | `review-queue-lib.mjs` still dates a page with no review by its last update, so an edit hides it from the queue and the notice. Change it to count only reviews (then every card shows as never reviewed), or keep it | Change it, with the notice reworded to "not yet reviewed" so readers are not alarmed |
+
+| A parent organization named only in structured data (SEO-013) | SEO-013, TSA-049 | The JSON-LD names "Cloudjet Solutions Pte. Ltd." as a parent organization; no visible page says so. Say it on the About page, or remove it from the JSON-LD | Say it on the About page if it is true: structured data should not claim what the page does not show |
 
 ## Next batches (buildable without a person)
 
-1. Glossary to about 60 terms as cards grow (CNT-012); redraw three weak materials pictures (color-tune, chair-music, torn-landscape).
-2. Games from 05 that need no data or license, each with the site's game rules (no score, no timer, Rest always visible): GAME-042 Garden bird spotter needs bird drawings; the music games need a sound license review. The card page CSS has about 0.4 kB of room after the dark theme (batch 43); the next card feature should free CSS from the rules every page shares first. GAME-029 Singing sheets waits on a lyrics license review and GAME-059 Spot the difference on commissioned art.
-3. Result drawings for the new cards (shared with the app; needs names in all app languages).
+From the 2026-11-19 audit of the partial items (batch 52); each gap was checked against the code. Most items stay partial after the gap is built, because a person is still needed.
+
+1. Website: search returns guide-only results (WEB-003); a games filter from the games table (WEB-051); right-to-left and long-word print checks (WEB-043); Core Web Vitals lab timing in CI (WEB-074, SEO-028, PLAT-036).
+2. Structured data and links: check that HowTo, FAQ and ItemList text matches the page (SEO-013, SEO-042, SEO-043, SEO-047); an orphan-page check (SEO-014); an intent-owner table (SEO-008).
+3. Platform records: stable card IDs with redirects for renamed slugs (PLAT-001, PLAT-008); versions and change entries (PLAT-007); a review-content hash (PLAT-005); a `content:validate` command (PLAT-011); per-language publishing state (PLAT-014).
+4. Localization tooling: an inventory per language (L10N-001); crisis numbers in a sourced data file (L10N-009, CNT-1003); logical CSS for right-to-left (L10N-016); locale-aware casing (L10N-017).
+5. Content and metrics: printable templates still missing (CNT-007); seated, bedside and grip audits (CNT-901, CNT-902); a privacy note per metric (MET-037); a DPIA template and a withdrawal runbook (TSA-013, TSA-045).
+6. Pictures: step pictures for the bead cards (CNT-009, CNT-711) and result drawings for new cards wait on art.

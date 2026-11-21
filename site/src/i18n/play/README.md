@@ -68,6 +68,7 @@ member or carer. Write plain, warm, adult language.
 | `ui.storyChain` | 12 strings | Story chain (English only for now; see below) |
 | `ui.storyDice` | 8 strings | Story dice (English only for now; see below) |
 | `ui.quietScene` | 7 strings, a line for each of 12 pictures (keyed by picture id) | Quiet scene (English only for now; GAME-039) |
+| `ui.wordPicture` | 16 strings | Word and picture pairs (English only for now; GAME-023; see below) |
 | `ui.scrapbook` | 31 strings, including the plural `skipped` | Scrapbook (English only for now; GAME-037) |
 | `ui.picnicPlanner` | 26 strings; the picture phrases are in `src/data/picnic-planner.ts` | Picnic planner (English only for now; GAME-043) |
 
@@ -407,6 +408,16 @@ anyone may pass, button labels and short live messages. Nothing is typed or
 recorded and nothing is counted. After a native speaker checks them, add the
 translated `ui.storyChain` strings and the language code to
 `STORY_CHAIN_REVIEWED` in `../games.ts`. Do not machine-translate them.
+### Word and picture pairs (`ui.wordPicture`)
+
+Word and picture pairs is English only (GAME-023). Its words are the picture names
+in `pictures`, which a translation would need to replace with its own words for the
+same pictures and check for a single clear reading. Its guidance line is printed on
+the paper version, and the paper's cutting instruction is `gamePage.print.words` in
+`../ui/en.json`. After a native speaker
+reviews the `ui.wordPicture` strings, add them here and add the language code to
+`WORD_AND_PICTURE_PAIRS_REVIEWED` in `../games.ts`.
+
 ### Story dice (`ui.storyDice`)
 
 Story dice is English only (GAME-025). It needs no picture names to play, but

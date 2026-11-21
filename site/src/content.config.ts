@@ -26,6 +26,7 @@ export const GAME_SLUGS = [
   'seasonal-pack',
   'story-chain',
   'story-dice',
+  'word-and-picture-pairs',
   'sort-together',
   'picture-puzzle',
   'finish-the-saying',

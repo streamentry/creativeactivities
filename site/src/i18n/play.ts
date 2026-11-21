@@ -114,6 +114,7 @@ export const GAME_TEXT: Readonly<Record<string, { ui: readonly (keyof PlayUi)[];
   'seasonal-pack': { ui: ['seasonalPack'], content: [] },
   'story-chain': { ui: ['storyChain'], content: [] },
   'story-dice': { ui: ['storyDice'], content: [] },
+  'word-and-picture-pairs': { ui: ['wordPicture'], content: [] },
   'sort-together': { ui: ['sortTogether'], content: ['sorting'] },
   'picture-puzzle': { ui: ['picturePuzzle'], content: [] },
   'finish-the-saying': { ui: ['finishTheSaying'], content: ['sayings'] },

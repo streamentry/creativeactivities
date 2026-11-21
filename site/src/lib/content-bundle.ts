@@ -42,6 +42,8 @@ export interface CardData {
   published: Date | string;
   updated: Date | string;
   withdrawn?: unknown;
+  /** A declined review (CNT-1004): the card is unpublished, so it is left out of the bundle too. */
+  reviewDeclined?: unknown;
 }
 
 /** One card as the site knows it: its slug is the id every surface uses. */
@@ -180,6 +182,8 @@ export function buildContentBundle(cards: readonly CardInput[], options: BundleO
     ids.add(card.id);
   }
   const activities = cards
+    // A card whose review was declined has no page (CNT-1004), so the app does not get it either.
+    .filter((card) => !card.data.reviewDeclined)
     .map((card) => activityOf(card, options))
     .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
   return {

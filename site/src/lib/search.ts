@@ -17,6 +17,8 @@ export interface SearchEntry {
   readonly summary: string;
   /** Extra words that match but are not shown. */
   readonly text: string;
+  /** Guides only: the addresses of the cards and situations that link to this guide. */
+  readonly linked?: readonly string[];
 }
 
 /** The order results are shown in: activities first, then situations, games, then guides. */
@@ -132,6 +134,43 @@ export function search(prepared: readonly Prepared[], question: string, perKind 
   const chosen = full.length > 0 ? full : scored;
   const match: SearchResult['match'] = full.length > 0 ? 'all' : scored.length > 0 ? 'some' : 'none';
 
+  // WEB-003: a question that reaches only guides still returns a card or situation the guide links to.
+  // When no card or situation is in the set, add the ones linked from the matched guides.
+  const guideHits = chosen.filter((h) => h.entry.kind === 'guide');
+  const hasCardOrHub = chosen.some((h) => h.entry.kind === 'activity' || h.entry.kind === 'hub');
+  if (guideHits.length > 0 && !hasCardOrHub) {
+    const linked = linkedFromGuides(prepared, guideHits);
+    if (linked.length > 0) return groupHits([...chosen, ...linked], perKind, match);
+    // No card or situation links to the matched guides: the guides are still the best answer, so they stay.
+    // Linking a card to each such guide is a content task (14 English guides had none on 2026-11-21).
+  }
+  return groupHits(chosen, perKind, match);
+}
+
+/** The cards and situations linked from the matched guides, each once, with the guide's own match. */
+function linkedFromGuides(
+  prepared: readonly Prepared[],
+  guideHits: readonly { entry: SearchEntry; matched: number; score: number }[],
+): { entry: SearchEntry; matched: number; score: number }[] {
+  const byUrl = new Map(prepared.map((p) => [p.entry.url, p.entry] as const));
+  const seen = new Set<string>();
+  const out: { entry: SearchEntry; matched: number; score: number }[] = [];
+  for (const guide of guideHits) {
+    for (const url of guide.entry.linked ?? []) {
+      const target = byUrl.get(url);
+      if (!target || target.kind === 'guide' || target.kind === 'game' || seen.has(url)) continue;
+      seen.add(url);
+      out.push({ entry: target, matched: guide.matched, score: guide.score });
+    }
+  }
+  return out;
+}
+
+function groupHits(
+  chosen: readonly { entry: SearchEntry; matched: number; score: number }[],
+  perKind: number,
+  match: SearchResult['match'],
+): SearchResult {
   const groups = KIND_ORDER.map((kind) => ({
     kind,
     hits: chosen

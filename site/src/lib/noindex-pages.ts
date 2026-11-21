@@ -9,4 +9,6 @@ export const NOINDEX_PAGES: ReadonlySet<string> = new Set([
   '/paths/',
   // A referrer handout held until a credentialed reviewer has seen it (WEB-048).
   '/for-professionals/',
+  // The care-home and day-center session plans (CNT-014, adult variant) held until a care-setting reviewer has read them.
+  '/for-organizations/care-settings/',
 ]);

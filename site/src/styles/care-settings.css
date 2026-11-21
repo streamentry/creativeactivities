@@ -1,0 +1,109 @@
+/* CNT-014 (adult variant): care-home and day-center session plans. On screen, a plan and a set of sheets; on paper,
+   each printable sheet is one page on A4 and US Letter. Tokens only. */
+.care-settings__sheets > .care-sheet + .care-sheet,
+.care-settings__sheets > .care-sheet {
+  margin-block: var(--space-lg);
+}
+.care-plan {
+  margin-block: var(--space-lg);
+}
+.care-plan__cards {
+  padding-inline-start: 1.25rem;
+}
+.care-plan__cards > li {
+  margin-block-end: var(--space-md);
+}
+.care-sheet {
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
+}
+.care-sheet h3 {
+  margin: 0 0 var(--space-sm);
+}
+.care-sheet__kicker {
+  margin: 0;
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+}
+.care-sheet__card {
+  border-top: 1px solid var(--gm-outline);
+  padding-block: var(--space-xs);
+}
+.care-sheet__card h4 {
+  margin: 0;
+}
+.care-sheet__materials {
+  margin-block: 0;
+}
+.care-sheet__line {
+  height: 2.5rem;
+  border-bottom: 1px solid var(--gm-on-surface);
+  margin-block: var(--space-sm);
+}
+.care-sheet__field {
+  margin-block: var(--space-md);
+  border-bottom: 1px solid var(--gm-on-surface);
+  padding-block-end: 1.5rem;
+}
+.care-sheet__box {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 1px solid var(--gm-on-surface);
+  vertical-align: -0.1em;
+}
+.care-sheet__foot {
+  font-size: 0.9em;
+  color: var(--gm-on-surface-variant);
+}
+
+@media print {
+  /* Each sheet starts its own page and must fit on one (checked by check-print.mjs at A4 and US Letter). */
+  .care-sheet {
+    break-before: page;
+    break-inside: avoid;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #000;
+  }
+  .care-sheet p,
+  .care-sheet li {
+    font-size: 12pt;
+    line-height: 1.35;
+    margin-block: 2mm;
+  }
+  .care-sheet h3 {
+    font-size: 16pt;
+    margin-block: 0 2mm;
+  }
+  .care-sheet h4 {
+    font-size: 13pt;
+    margin-block: 2mm 1mm;
+  }
+  .care-sheet__card {
+    break-inside: avoid;
+  }
+  .care-sheet__line {
+    height: 14mm;
+  }
+  .care-sheet__field {
+    margin-block: 4mm;
+    padding-block-end: 8mm;
+  }
+  .care-sheet__foot {
+    font-size: 10pt;
+  }
+  .care-sheet[data-family-note] p {
+    font-size: 14pt;
+  }
+  .care-sheet[data-permission-template] p,
+  .care-sheet[data-permission-template] .care-sheet__field {
+    font-size: 14pt;
+  }
+}

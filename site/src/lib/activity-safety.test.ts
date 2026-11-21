@@ -182,8 +182,9 @@ describe('TSA-027: crisis route on activities that invite disclosure', () => {
 
   it('uses only the crisis numbers the component verifies', () => {
     const component = readFileSync(new URL('../components/CrisisRoute.astro', import.meta.url), 'utf8');
-    expect(component).toContain('988');
-    expect(component).toContain('116 123');
+    const data = readFileSync(new URL('../data/crisis-routes.ts', import.meta.url), 'utf8');
+    expect(data).toContain('988');
+    expect(data).toContain('116 123');
     expect(component).toContain('Numbers checked on');
   });
 });

@@ -117,7 +117,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-027 | P1 | partial | Card changelog |
 | WEB-028 | P1 | partial | Saved collections on the device |
 | WEB-029 | P0 | exists | Data control on the device |
-| WEB-031 | P1 | partial | Weekly plan, printable |
+| WEB-031 | P1 | exists | Weekly plan, printable |
 | WEB-032 | P1 | new | Paths |
 | WEB-033 | P2 | ? | Seasonal hubs and a "this season" calendar |
 | WEB-034 | P1 | new | Occasion hubs |
@@ -127,7 +127,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-040 | P1 | new | Offline reading |
 | WEB-042 | P2 | ? | Display options: dark theme and reading settings |
 | WEB-044 | P1 | partial | Partner page with permission rules |
-| WEB-045 | P1 | new | Care-home weekly program sheet |
+| WEB-045 | P1 | exists | Care-home weekly program sheet |
 | WEB-046 | P1 | partial | Group mode for facilitators |
 | WEB-050 | P1 | new | Share a card |
 | WEB-051 | P1 | partial | Games filters |
@@ -246,14 +246,14 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-011 | P2 | new | Audio read-aloud |
 | CNT-012 | P1 | new | Glossary |
 | CNT-013 | P2 | new | Seasonal calendar and collections |
-| CNT-014 | P2 | new | Educator and care-setting program |
+| CNT-014 | P2 | partial | Educator and care-setting program |
 | CNT-015 | P1 | exists | FAQ |
 | CNT-030 | P0 | partial | Editorial pipeline |
 | CNT-031 | P0 | new | Media rights and provenance |
 | CNT-032 | P0 | new | AI-assistance policy |
 | CNT-033 | P1 | partial | Target library sizes |
 | CNT-034 | P1 | new | Update, correction and retirement |
-| CNT-040 | P0 | new | Library inventory |
+| CNT-040 | P0 | exists | Library inventory |
 
 #### MAKE: crafting (07)
 
@@ -406,10 +406,10 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | SEO-036 | P2 | new | Holiday and seasonal pages (R5 rank 6) |
 | SEO-037 | P2 | new | Music activities for seniors (R5 rank 10) |
 | SEO-042 | P2 | partial | FAQPage on visible questions |
-| SEO-043 | P2 | partial | ItemList on curated collections |
+| SEO-043 | P2 | exists | ItemList on curated collections |
 | SEO-044 | P2 | new | VideoObject on real videos |
 | SEO-045 | P2 | new | Open activity packs with a license |
-| SEO-047 | P1 | partial | HowTo markup on step pages |
+| SEO-047 | P1 | exists | HowTo markup on step pages |
 
 #### Localization (13)
 
@@ -622,7 +622,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| GAME-023 | P2 | new | Word and picture pairs |
+| GAME-023 | P2 | partial | Word and picture pairs |
 | GAME-024 | P3 | new | Rhyme pictures |
 | GAME-028 | P2 | new | Music choices |
 | GAME-030 | P3 | new | Draw a sound |
@@ -638,7 +638,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| CNT-711 | P3 | ? | Beads and jewelry |
+| CNT-711 | P3 | partial | Beads and jewelry |
 
 #### GROW: parenting and kids (08)
 
