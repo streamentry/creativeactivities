@@ -15,6 +15,8 @@ Read with [data-inventory.md](data-inventory.md), [events.md](events.md) and ite
 | Browser sends Global Privacy Control | Nothing, even after an earlier "Allow"; the question is not shown | None |
 | Photo pairs | Never | None |
 | Scrapbook | Never | None |
+| Picture puzzle (accepts a family photo, GAME-058) | Never | None |
+| Kids guides under `/kids/`, every language (CNT-880) | Never; no consent bar is shown | None |
 
 - **The question:** `site/src/components/ConsentBar.astro`, a bar at the top of the page in normal flow (not a dialog, never pinned over content, so it cannot hide keyboard focus). "No thanks" comes first; both buttons are the same size. It shows only while the question is unanswered.
 - **The answer:** `ca-analytics-consent-v1` in local storage (`granted` or `denied`), listed on `/your-data/`, where deleting it makes the site ask again. Changeable at any time on `/privacy/#analytics-choice`.
