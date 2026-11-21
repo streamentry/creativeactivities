@@ -1,33 +1,28 @@
 ---
-title: "Imisebenzi Yesigaba Sokugcina Se-Dementia, Ebhedini Noma Esihlalweni"
-seoTitle: "I-Dementia Yesigaba Sokugcina: Imisebenzi Yasebhedini"
-description: "Imisebenzi ethambile yesigaba sokugcina se-dementia, kuhlanganise nomuntu osebhedini noma esihlalweni: umculo, ukuthinta, ukufunda nokuba ndawonye."
+title: "Imisebenzi Yesigaba Sakamuva Se-Dementia, Kuhlanganise Nomuntu Osemubhedeni Noma Esihlalweni"
+seoTitle: "Imisebenzi Yesigaba Sakamuva Se-Dementia: Imibono Yasemubhedeni Nesihlalo"
+description: "Imisebenzi ethambile yesigaba sakamuva se-dementia, kuhlanganise nomuntu osemubhedeni noma esihlalweni: umculo, ukuthinta, ukufundela ngokuzwakalayo, imisindo nokuba ndawonye, nezexwayiso zokuphepha."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Esigabeni sokugcina se-dementia, imisebenzi igxile ezinzwa nenkampani yakho:
-  ukudlala umculo amthandayo, ukubambana ngezandla, ukuhlikihla isandla kancane,
-  ukufunda ngokuzwakalayo, ukubuka izithombe, imisindo yemvelo nokuhlala eduze
-  kwefasitela noma ngaphandle. Lokhu kusebenza ebhedini noma esihlalweni.
-  Gcinani izikhathi zifushane, qaphelani ubuso nezandla ukuze nibone induduzo,
-  futhi nikhumbule ukuthi ukuba khona kuwumsebenzi uqobo.
+  Esigabeni sakamuva se-dementia, imisebenzi igxile ezinzweni nasekuba nawe: ukudlala umculo owuthandayo, ukubambana izandla, ukuhlikihla isandla kancane, ukufundela ngokuzwakalayo, ukubheka izithombe, imisindo yemvelo nokuhlala eduze kwewindi noma ngaphandle. Lezi zisebenza emubhedeni noma esihlalweni. Gcina iseshini zimfushane, bheka ubuso nezandla ukuze uqinisekise induduzo, futhi khumbula ukuthi ukuba khona kwakho yisenzo ngokwaso.
 keyPoints:
-  - "Ukuxhumana kusenokwenzeka. Esigabeni sokugcina, umhlaba uzwakala kakhulu ngezinzwa."
-  - "Umculo, ukuthinta okuthambile, amazwi ajwayelekile nezinto ezithambile zokubamba kuvame ukufinyelela abantu lapho amagama engasafinyeleli."
-  - "Cishe yonke imibono lapha isebenza kumuntu osebhedini noma esihlalweni."
-  - "Qaphelani induduzo nokungakhululeki ebusweni, ezandleni nasekuphefumuleni, futhi nime ngokushesha uma kukhona uphawu lokukhathazeka."
-  - "Gwemani izinto ezincane futhi nikeze ukudla noma into yokuphuza kuphela njengoba ithimba lokunakekela liluleka, ngoba ukuginya kungaba yingozi."
+  - "Ukuxhumana kusenzeka. Esigabeni sakamuva, umhlaba uzwakala ikakhulu ngezinzwa."
+  - "Umculo, ukuthinta okuthambile, amazwi ajwayelekile nezinto ezithambile zokubamba zivame ukufinyelela abantu lapho amagama engasasebenzi."
+  - "Cishe yonke imibono yalapha isebenza kumuntu osemubhedeni noma esihlalweni."
+  - "Bheka induduzo nokungakhululeki ebusweni, ezandleni nasekuphefumuleni, bese uyeka uma kubonakala ukuhlupheka."
+  - "Gwema izinto ezincane, futhi nikeze ukudla noma isiphuzo kuphela njengoba ithimba lokunakekela liluncoma, ngoba ukugwinya kungase kube yingozi."
 faq:
-  - q: "Yimiphi imisebenzi ongayenza nomuntu one-dementia yesigaba sokugcina osebhedini?"
-    a: "Dlalani umculo amthandayo, bambani isandla sakhe, nimhlikihle isandla kancane nge-lotion, nimfundele encwadini noma emthandazweni amthandayo, nimbonise izithombe, noma nidlale imisindo yemvelo ethambile. Vulani amakhethini ukuze abone ngaphandle. Izikhathi ezifushane, ezithule ezinento eyodwa ngesikhathi zivame ukusebenza kangcono."
-  - q: "Ingabe abantu abane-dementia yesigaba sokugcina basakwazi ukujabulela umculo?"
-    a: "Abaningi bayakwazi. I-Alzheimer's Association iphawula ukuthi ngisho nasesigabeni sokugcina, umuntu angase akwazi ukushaya isigqi noma ahlabelele ngengoma yobuntwana. Khethani umculo ayewuthanda esemncane futhi nigcine umsindo uphansi."
-  - q: "Ngingazi kanjani ukuthi uyakujabulela ukwenza lokhu?"
-    a: "Qaphelani izimpawu ezincane: amahlombe akhululekile, ubuso obuthambile, ukubheka emehlweni, ukuhlabelela kancane, ukucindezela isandla noma ukuphefumula kancane. Ukufinyela ubuso, ukuhoxa, ukungaphumuli noma ukububula kungasho ukungakhululeki noma ubuhlungu. Uma nibona lokhu, misani futhi nitshele ithimba lokunakekela uma kuqhubeka."
-  - q: "Ingabe kuyafaneleka ukumvakashela uma esengasangazi?"
-    a: "Yebo. I-National Institute on Aging iphawula ukuthi ukuba khona nje kungathulisa, nokuthi ukuthinta, umculo nezindaba kusengaletha induduzo ku-dementia esezingeni eliphezulu. Izwi lakho nokuthinta kwakho kungase kuhlale kwaziwa ngisho noma igama lakho lingasaziwa."
+  - q: "Yiziphi izinto ongazenza nomuntu one-dementia wesigaba sakamuva osemubhedeni?"
+    a: "Dlala umculo akuthandayo, mbamba isandla, mhlikihle ngamafutha amancane ngesandla, fundela ngokuzwakalayo isiqeshana esisencwadini noma kumthandazo athandayo, mbonise izithombe, noma dlala imisindo yemvelo ethambile. Vula amakhethini ukuze abone ngaphandle. Iseshini ezimfushane nezithulile, lapho kwenziwa into eyodwa ngesikhathi, zivame ukusebenza kahle kakhulu."
+  - q: "Abantu abasesigabeni sakamuva se-dementia bangakujabulela yini umculo?"
+    a: "Abaningi bayakwenza. I-Alzheimer's Association iphawula ukuthi ngisho nasesigabeni sakamuva, umuntu angakwazi ukushaya ibhithi ngomunwe noma ahlabelele ingoma yasebuntwaneni. Khetha umculo awawuthandayo ngesikhathi esimdala, bese ugcina ivolumu iphansi."
+  - q: "Ngiyazi kanjani ukuthi bayajabulela umsebenzi?"
+    a: "Qaphela izimpawu ezincane: izinhlaka ezikhululekile, ubuso obuthambile, ukuhlangana kwamehlo, ukuhumusha, ukucindezela isandla noma ukuphefumula kancane. Ukunyikinyeka kobuso, ukuhudula, ukungakhululeki noma ukubhonga kungasho ukungakhululeki noma ubuhlungu. Uma ubona lokhu, yeka bese utshela ithimba lokunakekela uma lokhu kuqhubeka."
+  - q: "Kuyabaluleka yini ukuvakashela uma engisangazi?"
+    a: "Yebo. I-National Institute on Aging iphawula ukuthi ukuba khona kuphela kungaduduza, futhi ukuthinta, umculo nezindaba kungasaqhubeka nokunikeza induduzo ku-dementia esezingeni eliphezulu. Izwi lakho nokuthinta kwakho kungaba ngokwejwayelekile ngisho nalapho igama lakho lingenjalo."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Esigabeni sokugcina se-dementia, umuntu angase akhulume kancane kakhulu, adinge usizo ekunakekelweni konke kwansuku zonke futhi achithe isikhathi esiningi ebhedini noma esihlalweni. Kungazwakala sengathi akusekho okungenziwa ndawonye. Kukhona. I-[Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) iphawula ukuthi ingxenye ethile yobuntu bomuntu ingase ihlale, nokuthi kulesi sigaba umhlaba uzwakala kakhulu ngezinzwa. Umculo, ukuthinta, izwi elijwayelekile nenkampani yakho ethulile kusengaletha induduzo nezikhathi zokuxhumana.
+Esigabeni sakamuva se-dementia, umuntu angakhuluma kancane, adinge usizo emsebenzini wonke wansuku zonke, futhi achithe isikhathi esiningi emubhedeni noma esihlalweni. Kungase kuzwakale sengathi akusekho okusalayo okwenziwa ndawonye. Kukhona. I-[Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) iphawula ukuthi kusenengxenye yesimo somuntu engase ihlale, nokuthi kulesi sigaba umhlaba uzwakala ikakhulu ngezinzwa. Umculo, ukuthinta, izwi elijwayelekile nokuba nawe ngokuthula kungaletha induduzo nemizuzwana yokuxhumana.
 
-## Yimiphi imisebenzi esizayo esigabeni sokugcina se-dementia?
+## Yiziphi imisebenzi esiza esigabeni sakamuva se-dementia?
 
-Imisebenzi elula yezinzwa nenkampani ethulile kusiza kakhulu esigabeni sokugcina. I-Alzheimer's Association iphakamisa ukudlala umculo amthandayo, ukufunda izingxenye zezincwadi ezibalulekile kuye, ukuhlikihla i-lotion enephunga amthandayo esikhumbeni, nokuhlala ngaphandle ndawonye ngosuku olumnandi. I-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) yengeza ukuxoxa izindaba, ukubonisa izithombe, ukuthinta okuthambile noma ukuhlikihla, nomculo, umsindo omhlophe noma imisindo yemvelo, futhi ithi ukuba khona kwakho kuwodwa kungathulisa.
+Imisebenzi elula yezinzwa nokuba nomuntu ngokuthula kusiza kakhulu esigabeni sakamuva. I-Alzheimer's Association iphakamisa ukudlala umculo owuthandayo, ukufunda izingxenye zezincwadi ezinencazelo, ukuhlikihla isikhumba ngamafutha anephunga awathandayo, nokuhlala ngaphandle ndawonye ngosuku olunhle. I-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) yengeza ngokuxoxa izindaba, ukubonisa izithombe, ukuthinta okuthambile noma ukuhlikihla, umculo, umsindo womhlaba noma imisindo yemvelo, bese ithi ukuba khona kwakho kodwa kungaduduza.
 
-I-[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) iphawula ukuthi abantu abasesigabeni sokugcina bavame ukuba nesidingo esikhulu sokubamba okuthile eduze ukuze baduduzeke, futhi iphakamisa imisebenzi elula yezinzwa, ukwelula okuthambile, ukunyakazisa isikhafu, umculo, ukuvakasha kwezilwane, ukuthinta komuntu nobuciko obungenamthetho.
+I-[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) iphawula ukuthi abantu esigabeni sakamuva bavame ukuba nesidingo esikhulu sokubamba into eduze kwabo ukuze bathole induduzo, futhi iphakamisa imisebenzi yezinzwa elula, ukwelula okulula, ukunyakaza ngesikhafu, umculo, izivakashi zezilwane, ukuthintwa komuntu nobuciko obukhululekile.
 
-## Imisebenzi yomuntu osebhedini noma esihlalweni
+## Imisebenzi yomuntu osemubhedeni noma esihlalweni
 
-1. **Dlalani umculo wakhe.** Khethani izingoma zeminyaka yakhe yobusha, zokholo lwakhe noma zomndeni wakhe. Gcinani umsindo uphansi futhi nihlale eduze. Ngisho namanje, abanye abantu bashaya umunwe noma bahlabelele kancane. Buka [imisebenzi yomculo](/activities/music/).
-2. **Bambani izandla.** Ukubamba nje isandla, ngokuhlikihla kancane ngesithupha, kuyisenzo. Qalani nisho ukuthi nenzani.
-3. **Mhlikihleni isandla kancane.** Fudumezani i-lotion encane ezintendeni zenu bese nimhlikihla kusuka esihlakaleni kuya ezinhlokweni zeminwe. Khethani i-lotion engenaphunga, noma ephunga ayelithanda njalo uma isikhumba sakhe sikuvumela.
-4. **Fundani ngokuzwakalayo.** Inkondlo ayithanda, ingxenye yencwadi ayithande kakhulu, imibhalo engcwele noma ikhasi lezemidlalo. Isigqi sezwi lenu sibaluleke kakhulu kunamagama.
-5. **Xoxani indaba.** Khulumani ngohambo lomndeni noma usuku abeshada ngalo. Anidingi ukuphendulwa.
-6. **Bonisani izithombe.** Bambani isithombe esisodwa esikhulu ngesikhathi ekuphakameni kwamehlo bese nisichaza ngokufudumele. Gwemani ukubuza ukuthi ubani osithombeni.
-7. **Nikezani okuthile okuthambile ukuthi akubambe.** Indwangu encane yokuhlanza eyisongiwe, isikwele sefleece noma isilwane esithambile. I-NIA iphakamisa ukunikeza umuntu indwangu yokuhlanza ukuthi ayibambe ngesikhathi ethuthwa, ukuze kube nokuncane ukuthi anibambe noma abambe ifenisha.
-8. **Dlalani imisindo yemvelo.** Imvula, amagagasi noma ingoma yezinyoni ngomsindo ophansi kungathambisa igumbi elinomsindo.
-9. **Lethani ngaphandle ngaphakathi.** Vulani amakhethini, beka indawo yokuphakela izinyoni ngaphandle kwefasitela, noma nilethe izimbali ezintsha noma amaqabunga ambalwa ukuze abuke futhi athinte.
-10. **Phumani ngaphandle.** Uma umuntu engahlala esitulweni esinamasondo, imizuzu embalwa emthunzini ngosuku olumnene kungaba muhle.
-11. **Hlikihlani izinwele zakhe noma nikeze indwangu efudumele.** Ukunakekela okuhamba kancane, okuthambile nendwangu yokuhlanza efudumele yezandla nobuso kungazwakala njengokunakekelwa.
-12. **Nyakazani kancane nomculo.** Nyakazisani isikhafu esilula ndawonye, noma nigudluze izandla ngesigqi sengoma. Ukwelula nokunyakaza kwamalunga, cela i-physiotherapist noma umhlengikazi akubonise izindlela ezivikelekile kuqala.
-13. **Yenzani ubuciko obungenamthetho.** Phalazani upende ongenabuthi ephepheni elikhulu ngesiponji noma ngesandla, esiqondiswa yesandla senu. Akukho mphumela ofanele.
-14. **Amukelani ukuvakasha kwezilwane.** Isilwane esifuywayo esithulile embhedeni noma ethangeni, uma umuntu ayethanda izilwane futhi indawo ikuvumela.
-15. **Phefumulani kancane ndawonye.** Hlalani eduze niphefumule kancane futhi ngokuzwakalayo. [Ukuphefumula okuthulile](/games/calm-breathing/) kungalinganisa isivinini senu nobabili, futhi nina niyaqala futhi niyayeka.
-16. **Yibani khona nje.** Hlalani eduze, hlabelelani kancane, lukani noma nifunde ngokuthula. Ukuba khona kwanele.
+1. **Dlala umculo wakhe.** Khetha izingoma zesikhathi sakhe sobusha, ukukholwa kwakhe noma umndeni wakhe. Gcina ivolumu iphansi uhlale eduze. Ngisho nakulesi sikhathi, abanye abantu bashaya umunwe noma babhadazisa. Bheka [imisebenzi yomculo](/creative-calm/music-for-calm-and-connection/).
+2. **Bamba izandla.** Ukubamba isandla, ngokuhlikihla kancane ngesithupha, kuyisenzo. Tshela okwenzayo kuqala.
+3. **Hlikihla isandla kancane.** Fudumeza amafutha amancane ezandleni zakho bese uhlikihla kusukela esihlakaleni kuya eziphethweni zeminwe. Khetha amafutha angenaphunga, noma iphunga ayehlale ayithanda uma isikhumba sakhe sikwamukela.
+4. **Fundela ngokuzwakalayo.** Inkondlo ayithandayo, isiqeshana esivela encwadini eyayithandwa kakhulu, umthandazo noma ibhuku lezemidlalo. Umdlandla wezwi lakho ubaluleke kunamagama.
+5. **Xoxa indaba.** Khuluma ngohambo lomndeni noma ngosuku owashada ngalo. Awudingi izimpendulo.
+6. **Bonisa izithombe.** Bamba isithombe esisodwa esikhulu ngasezingeni lamehlo bese usichaza ngokufudumele. Gwema ukubuza ukuthi ngubani osethombeni.
+7. **Nika into ethambile yokubamba.** Ilaphu elifakiwe, isikwele sefleece noma isilwane esithambile. I-NIA iphakamisa ukumnikeza ilaphu lokubamba lapho ehanjiswa, ukuze angakubambi wena noma izinto ezikhelekile.
+8. **Dlala imisindo yemvelo.** Imvula, amagagasi noma ukucula kwezinyoni ngevolumu ephansi kungathambisa igumbi elinomsindo.
+9. **Letha ngaphakathi okwangaphandle.** Vula amakhethini, ubeke isidlo sezinyoni ngaphandle kwewindi, noma uletha izimbali ezimbalwa ezintsha noma amaqabunga ukuze abheke futhi athinte.
+10. **Phuma ngaphandle.** Uma angahlala esihlalweni sewili, imizuzu embalwa emthunzini ngosuku olufudumele ingaba mnandi.
+11. **Mthintele izinwele noma unikeze indwangu efudumele.** Ukuhlikihla okuthambile okuhamba kancane nendwangu efudumele yezandla nobuso kungezwakala njengokunakekela.
+12. **Nyakaza kancane ngomculo.** Vuthela isikhafu esikhanyayo ndawonye, noma nyakazisa izandla ngokuhambisana nengoma. Ngokwelula nokunyakaza kwamalunga, cela ochwepheshe bezomzimba noma unesi akukhombise izindlela ezivikelekile kuqala.
+13. **Yenza ubuciko obukhululekile.** Hlikihla upende ongenawo ubuthi ephepheni elikhulu ngesipontshi noma ngesandla, uqondiswa yisandla sakho. Ayikho imiphumela efanele.
+14. **Amukela izivakashi zezilwane.** Isilwane sasekhaya esithulile emubhedeni noma esinqeni, uma umuntu ayethanda izilwane nendawo ivumela.
+15. **Phefumula kancane ndawonye.** Hlala eduze uphefumule kancane futhi ngokuzwakalayo. [Ukuphefumula okuthulile](/games/calm-breathing/) kungakuhlelela wena nakho ngokufanayo, nina niqala futhi niyeke.
+16. **Hlala nje lapho.** Hlala eduze, ubhadazise, uthungele noma ufunde ngokuthula. Ukuba khona kwanele.
 
 ## Indlela yokwabelana ngomsebenzi kulesi sigaba
 
-- **Sondelani ngaphambili.** Shoni igama lakhe negama lenu, futhi nikhulume kancane nangokuthambile ngaphambi kokuthinta.
-- **Nikezani into eyodwa ngesikhathi.** Valani i-TV ngaphambi kokudlala umculo. Yenzani isinzwa esisodwa ngesikhathi.
-- **Gcinani kufushane.** Imizuzu embalwa ingaba yanele. Izikhathi ezimfushane eziningana usuku lonke zingcono kunesikhathi esisodwa eside.
-- **Qinisekisani ukuthi unethezekile kuqala.** Hlolani ukuthi umuntu usekelwe kahle. I-NIA iphakamisa ibhodi lasethangeni ukuze kuphumule izingalo kusekelwe nengxenye engenhla yomzimba lapho ehleli.
-- **Qaphelani impendulo.** Izandla ezikhululekile, ubuso obuthambile, ukubheka emehlweni noma ukuhlabelela kancane kuphakamisa induduzo. I-NIA iphawula ukuthi ukububula, ukufinyela ubuso, ukuvikela ingxenye yomzimba noma ukungaphumuli okuzumayo kungaba izimpawu zobuhlungu. Misani, futhi nitshele ithimba lokunakekela.
+- **Sondela ngaphambili.** Tshela igama lakhe negakho, khuluma kancane futhi ngokuthula ngaphambi kokuthinta.
+- **Nikeza into eyodwa ngesikhathi.** Vala i-TV ngaphambi kokudlala umculo. Yenza isizwa esisodwa ngesikhathi.
+- **Gcina kumfushane.** Imizuzu embalwa ingase yanele. Izikhathi ezimfushane eziningana usuku lonke zingcono kunoseshini eyodwa ende.
+- **Qala ngokuzwela kahle.** Hlola ukuthi umuntu uxhaswe kahle. I-NIA iphakamisa ibhodi lamadolo lokuphumulisa izingalo nokusekela phezulu komzimba lapho ehlezi.
+- **Qaphela impendulo.** Izandla ezikhululekile, ubuso obuthambile, ukuhlangana kwamehlo noma ukuhumusha kuphakamisa induduzo. I-NIA iphawula ukuthi ukubhonga, ukunyikinyeka kobuso, ukuvikela ingxenye yomzimba noma ukunyakaza okungazelelwe kungaba izimpawu zobuhlungu. Yeka, bese utshela ithimba lokunakekela.
 
-## Umhlahlandlela osheshayo ngokwenzwa
+## Itafula elisheshayo ngezinzwa
 
-| Inzwa | Imibono | Ukunakekela |
+| Isizwa | Imibono | Qaphela |
 | --- | --- | --- |
-| Ukuzwa | Umculo amthandayo, izwi lenu lifunda, imisindo yemvelo | Gcinani umsindo uphansi; umsindo owodwa ngesikhathi |
-| Ukuthinta | Ukuhlikihla isandla, ukubambana ngezandla, indwangu ethambile, indwangu efudumele | Buzani noma nimemezele kuqala; hlolani ukuthi isikhumba asinabuhlungu noma asinamanxeba |
-| Ukubona | Izithombe, izimbali, ukubuka ngefasitela, ividiyo yemvelo ehamba kancane | Bambani izinto ekuphakameni kwamehlo; ukukhanya okuhle, akukho kukhanya okubukhali |
-| Iphunga | I-lotion amthandayo, izimbali ezintsha, ikhofi ephekwa eduze | Gwemani amaphunga aqinile; hlolani ukungezwani komzimba (allergies) nokuphefumula |
-| Ukunambitha | Ukunambitha okuncane kwesinambitheko amthandayo | Kuphela ukudla nezakhiwo zokudla ithimba lokunakekela elithi ziphephile |
+| Ukuzwa | Umculo awuthandayo, izwi lakho ufunda, imisindo yemvelo | Gcina ivolumu iphansi; umsindo owodwa ngesikhathi |
+| Ukuthinta | Ukuhlikihla izandla, ukubambana izandla, indwangu ethambile, indwangu efudumele | Cela noma yazisa kuqala; hlola ukuthi isikhumba asibuhlungu noma asophuki |
+| Ukubona | Izithombe, izimbali, ukubheka iwindi, ividiyo yemvelo ehamba kancane | Bamba izinto ngasezingeni lamehlo; ukukhanya okuhle, okungakhazimuli |
+| Ukunuka | Ulwelwe oluthandayo, izimbali ezintsha, ikhofi elipheka eduze | Gwema amaphunga anamandla; hlola izinkinga zesikhumba nokuphefumula |
+| Ukunambitha | Isidlo esincane esinongweni athandayo | Ukudla nezinhlobo zokudla ithimba lokunakekela elitshela ukuthi zivikelekile kuphela |
 
 ## Ukuphepha kulesi sigaba
 
-Ukuginya kungaba nzima esigabeni sokugcina, futhi i-NIA iyaxwayisa ukuthi lokhu kukhulisa ingozi yokuvaleka kwendlela yomoya uma kudliwa noma kuphuzwa (choking). Ningashiyi izinto ezincane ezifinyelelwayo, futhi nikeze ukudla noma into yokuphuza kuphela ngezakhiwo nezindawo ithimba lokunakekela elizincoma. Hlolani isikhumba ngobumnene ngesikhathi semisebenzi yokuthinta, ngoba isikhumba singalimala noma sibe nezibazi kalula. Ukuze nithole okwengeziwe ngemibono yezinzwa evikelekile, buka [imisebenzi yezinzwa](/activities/sensory/).
+Ukugwinya kungaba nzima esigabeni sakamuva, futhi i-NIA ixwayisa ukuthi lokhu kwandisa ingozi yokuhefuzela. Ungashiyi izinto ezincane lapho zifinyeleleka khona, futhi nikeze ukudla noma isiphuzo kuphela ngokuthungwa nangezindlela ithimba lokunakekela eliphakamisayo. Hlola isikhumba ngobumnene phakathi kwemisebenzi yokuthinta, ngoba isikhumba singaqhekeka noma sishaqeke kalula. Ukuze uthole imibono yezinzwa ephephile, bheka [imisebenzi yezinzwa](/creative-calm/sensory-activities-for-adults/).
 
-## Nizinakekele nani
+## Nakekela nawe futhi
 
-Ukunakekela esigabeni sokugcina kudinga kakhulu emzimbeni nasemizweni, kungaba ekhaya noma ngesikhathi sokuvakasha endaweni yokunakekela. Amathimba okunakekela abagulayo ekupheleni kokuphila (hospice) nokunakekelwa kokuthuthuzela (palliative care) angasiza ngenduduzo, ukusekela nokuhlela, futhi i-NIA ibabala njengomthombo wosizo. Ukuvakasha okufushane, okuthule kuyafaneleka; buka [ukuvakashela umuntu one-dementia](/activities/visiting/). Uma niholela amaqembu, [imisebenzi yamaqembu endaweni yokunakekela](/activities/care-home-groups/) inemibono yokuguqula izikhathi. Futhi sicela nifunde [ukuzinakekela komnakekeli](/caregiving/caregiver-self-care/): ukuphumula kuyingxenye yokunakekela kahle.
+Ukunakekela esigabeni sakamuva kuyinzima emzimbeni nasemzweni, noma ekhaya noma ngesikhathi sokuvakasha esikhungweni sokunakekela. Amaqembu e-hospice nokunakekelwa okududuzayo angasiza ngokududuza, ngokusekela nangokuhlela, futhi i-NIA iwabala njengomthombo wosizo. Ukuvakasha okufushane nokuthulile kuyafanele; bheka [ukuvakashela umuntu one-dementia](/together/visiting-someone-in-care/). Uma uhola amaqembu, [imisebenzi yamaqembu ezindlu zokunakekela](/crafts/craft-group-sessions/) inemibono yokulungisa iseshini. Futhi sicela ufunde [ukuzinakekela komnakekeli](/creative-calm/creative-self-care-for-caregivers/): ukuphumula kuyingxenye yokunakekela kahle.

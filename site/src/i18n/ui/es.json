@@ -33,7 +33,17 @@
       "label": "Tamaño del texto",
       "smaller": "Texto estándar",
       "larger": "Texto más grande",
-      "contrast": "Mayor contraste"
+      "contrast": "Mayor contraste",
+      "colors": "Colores",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "device": "Igual que este dispositivo",
+      "lineLength": "Longitud de línea",
+      "standardLines": "Estándar",
+      "shorterLines": "Líneas más cortas",
+      "spacing": "Espaciado",
+      "standardSpacing": "Estándar",
+      "moreSpace": "Más espacio"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Jugar a {name} →",
     "readGuide": "Leer la guía"
   },
+  "listen": {
+    "listenSteps": "Escuche los pasos",
+    "pause": "Pausar",
+    "resume": "Reanudar",
+    "stop": "Detener",
+    "speed": "Velocidad",
+    "normal": "Normal",
+    "slower": "Más lenta",
+    "reading": "Leyendo los pasos en voz alta.",
+    "paused": "En pausa. Pulse Reanudar para continuar.",
+    "note": "Usa la voz propia de su dispositivo. Algunos dispositivos envían el texto a su fabricante para leerlo en voz alta.",
+    "listen": "Escuchar",
+    "stepLabel": "Escuchar el paso {n}",
+    "stopStep": "Detener el paso {n}"
+  },
   "playCta": {
     "title": "¿Qué tal un juego tranquilo?",
     "text": "Imágenes grandes, sin cronómetro, sin puntos y sin registrarse. Jueguen juntos en su navegador.",
@@ -393,6 +418,14 @@
       "seoTitle": "Acerca de Creative Activities: nuestro enfoque",
       "description": "Por qué Creative Activities no tiene temporizadores, puntuaciones ni rachas, por qué las imágenes permanecen visibles y qué afirmaremos o no sobre la salud.",
       "crumb": "Nuestro enfoque",
+      "sponsors": {
+        "heading": "Patrocinadores y socios",
+        "none": "Creative Activities no tiene patrocinadores, colocaciones pagadas ni socios cuyos logotipos aparezcan en el sitio.",
+        "listed": "Estos son los patrocinadores y socios de Creative Activities. Cada relación también se indica en la página donde aparece.",
+        "policy": "Si esto cambia, cada una de esas páginas lo indicará donde aparezca, ninguna actividad llevará nunca un patrocinador y la lista de socios estará en esta página.",
+        "listHeading": "Lista de socios",
+        "noPartners": "Por el momento no hay socios."
+      },
       "lede": "Creative Activities ofrece actividades tranquilas para adultos que dos personas pueden disfrutar juntas, ya sea que una cuide a la otra o simplemente quieran pasar un rato juntas.",
       "bodyHtml": "<h2>Para quién es</h2><p>Para cualquier persona que cuide a alguien: un padre o una madre, un abuelo o una abuela, un hijo o una hija, una pareja, un amigo o una persona que vive con demencia. Las familias, las personas mayores y el personal de actividades pueden usar las mismas páginas.</p><h2>En qué creemos</h2><p>El sentido de una actividad está en el momento mismo: una conversación, una sonrisa, la satisfacción de unir dos imágenes o, sencillamente, estar sentados muy cerca. No sirve para medir a nadie, exigirle más ni demostrar nada.</p><p>Muchas aplicaciones de entrenamiento cerebral se diseñan en torno a la velocidad, las puntuaciones, las rachas y los niveles. Para alguien que está cansado, indispuesto o vive con demencia, eso puede parecer un examen que no puede aprobar. Nosotros hemos hecho lo contrario, y nos atenemos a estas reglas:</p><ul><li><strong>Nada que fallar.</strong> Ni reloj, ni puntuación, ni contador de movimientos, ni vidas, ni rachas, ni confeti ni cuentas atrás, en ninguna pantalla.</li><li><strong>Reconocer antes que recordar.</strong> Las imágenes permanecen visibles de forma predeterminada. Las indicaciones invitan a conversar y nunca interrogan sobre nombres o recuerdos.</li><li><strong>Grande, sencillo y estable.</strong> Textos e imágenes grandes, alto contraste y controles que siempre están en el mismo lugar.</li><li><strong>Dignidad adulta.</strong> Imágenes reales y palabras sencillas y cálidas. Nada de dibujos animados, elogios cantarines ni premios con emojis.</li><li><strong>Una salida fácil.</strong> «Terminar por ahora» siempre está visible. Parar a medio camino es un buen resultado.</li><li><strong>Privado por defecto.</strong> Sin cuentas ni anuncios. Las fotos que elijas se quedan en tu dispositivo.</li></ul><h2>Lo que no afirmamos</h2><p>Nuestros juegos y actividades son para disfrutar y para conectar. No diagnostican, evalúan, miden, tratan, ralentizan ni previenen la demencia ni la enfermedad de Alzheimer, y nadie debería elegirlos por ese motivo. Cuando escribimos sobre investigaciones de salud, decimos claramente dónde la evidencia es débil y nunca las relacionamos con nuestras propias actividades.</p><h2>Quiénes somos</h2><p>Creative Activities es un pequeño equipo independiente. No somos profesionales sanitarios. Nuestras guías se basan en orientaciones publicadas por organizaciones como el National Institute on Aging y la Alzheimer's Association, y cada guía enumera sus fuentes. Lea <a href=\"/editorial-policy/\">cómo redactamos y revisamos nuestras páginas</a>.</p><h2>Cuéntenos qué le ayudaría</h2><p>Nos encantaría saber qué le funciona y qué no, sobre todo de personas que viven con demencia, de familiares cuidadores y del personal de actividades. Escriba a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "No hay versión en papel. Este juego usa sus propias fotos, que se quedan en su navegador y nunca se suben, así que el sitio no puede imprimirlas. Para jugar en papel, imprima dos copias de algunas fotos favoritas en casa y busque las parejas sobre la mesa.",
         "paced": "No hay versión en papel. El círculo marca un ritmo lento y constante en la pantalla, y una hoja impresa no puede hacer eso, así que sería otra actividad. Una pausa tranquila juntos, sin pantalla, siempre es una opción.",
+        "turns": "Este juego no tiene versión en papel. Para encontrar las parejas sobre la mesa, imprima las tarjetas con imágenes de Parejas de imágenes y túrnense para darles la vuelta.",
+        "screen": "No hay versión en papel. Se trata de una imagen para mirar juntos en una pantalla; una foto favorita o una postal sobre la mesa hace lo mismo.",
+        "wash": "No hay versión en papel. La acuarela sobre papel funciona igual: un pincel húmedo y un color a la vez.",
         "sayings": "Todavía no hay versión en papel. En papel, cada final se vería a la vez y se perdería el paso suave de \"Mostrar el final\". Lean los refranes en la pantalla juntos, o compartan algunos que ambos conozcan."
       }
     }

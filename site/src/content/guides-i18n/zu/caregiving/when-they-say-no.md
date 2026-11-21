@@ -1,35 +1,34 @@
 ---
-title: "Uma Umuntu One-Dementia Enqaba Noma Ecasuka Ngomsebenzi"
-seoTitle: "Uma Umuntu One-Dementia Enqaba Umsebenzi"
-description: "Kungani umuntu ophila ne-dementia enqaba noma ecasuka ngomsebenzi, yini engazanywa, yini okufanele igwenywe, nokuthi ushintsho oluzumayo ludinga nini udokotela."
+title: "Lapho Umuntu One-dementia Ethi Cha Noma Ethukuthela Ngomsebenzi"
+seoTitle: "Lapho Umuntu One-dementia Enqaba Umsebenzi"
+description: "Ngani umuntu aphila ne-dementia angaqaba noma athukuthele ngomsebenzi, yini okungazanywa esikhundleni salo, yini okufanele igwenywe, nokuthi udokotela udingeka nini ngokushintsha okuzumayo."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Uma umuntu one-dementia ethi cha, yamukeleni ngokuthula bese nizama futhi
-  kamuva noma nimnikeze okunye. Ukwenqaba kuvame ukuba nesizathu: umsebenzi
-  uzwakala unzima kakhulu noma wezingane, udiniwe, unobuhlungu, ulambile, noma
-  umsindo umhlupha. Ningaphikisani noma niphoqe. Yenzani kube lula, nikezeni
-  izinketho ezimbili, noma nicele usizo lwakhe. Indlela yokuziphatha eshintsha
-  ngokuzumayo noma ngokushesha, ikakhulukazi ngemva kokusulelwa noma umuthi
-  omusha, idinga udokotela masinyane.
+  Uma umuntu one-dementia ethi cha, mamukela leyo mpendulo ngokuthula bese uzama
+  futhi kamuva noma unikeze okunye. Ukwenqaba kuvame ukuba nesizathu: umsebenzi
+  uzwakala unzima kakhulu noma njengowabantwana, umuntu ukhathele, ugula, ulambile
+  noma udinwe ngomsindo. Ungaphikisani noma uphoqe. Yenza kube lula, nikeza
+  izinketho ezimbili, noma cela usizo lwakhe. Ukushintsha okuzumayo noma okushesha,
+  ikakhulu ngemva kokutheleleka noma imithi emisha, kudinga udokotela masinyane.
 keyPoints:
-  - "“Cha” iyimpendulo okufanele ihlonishwe, hhayi inkinga okufanele inqotshwe."
-  - "Ukwenqaba kuvame ukuba nembangela: kunzima kakhulu, kwezingane kakhulu, udiniwe, akaphilile, akakhululekile, noma udindwa yizinto eziningi."
-  - "Hlehlani, nilinde, futhi nizame kamuva, ngesinye isikhathi, noma ngohlobo olulula."
-  - "Ukucela usizo lwakhe kusebenza kangcono kunokumcela ukuthi enze ukudlala."
-  - "Ningaphikisani, ningaphoqi, ningahloli noma nilungisi. Hlolani ukuthi anishesheli noma animxinezeli."
-  - "Indlela yokuziphatha eshintsha ngokuzumayo noma ngokushesha, ikakhulukazi ngokusulelwa noma imithi emisha, kufanele iye kudokotela ngokushesha."
+  - "\"Cha\" yimpendulo okufanele uyihloniphe, hhayi inkinga okufanele uyinqobe."
+  - "Ukwenqaba kuvame ukuba nembangela: kunzima kakhulu, kubonakala njengowabantwana, kukhathele, kugula, kungakhululeki noma kudiniwe."
+  - "Yiyeka, linda, bese uzama futhi kamuva, ngesikhathi esihlukile, noma ngenguqulo elula."
+  - "Ukucela usizo lwakhe kusebenza kangcono kunokumcela ukuthi enze isenzo."
+  - "Ungaphikisani, ungaphuthumisi, ungabuzi imibuzo noma ulungise. Zihlole ukuthi awuphuthumi noma ucindezela."
+  - "Ukushintsha okuzumayo noma okushesha, ikakhulu nokutheleleka noma imithi emisha, kufanele kuye kudokotela masinyane."
 faq:
-  - q: "Ingabe kulungile ukumvumela ukuthi eqe imisebenzi nya?"
-    a: "Yebo, ngosuku olunikeziwe. Ukuhlala ndawonye, ukulalela umculo noma ukubuka umhlaba udlula kungase kwanele. Uma umuntu eyeka ukujabulela konke emasontweni amaningi, tshelani udokotela wakhe, ngoba isimo sengqondo esiphansi, ubuhlungu noma ezinye izinkinga zempilo zingaba yingxenye yesithombe."
-  - q: "Kungani enqaba izinto ayezithanda?"
-    a: "Into ayejwayele ukuyijabulela ingacasula manje ngoba idinga amakhono i-dementia eyenze alukhuni, futhi umuntu angase ahlazeke. Zamani ingxenye elula yomsebenzi ofanayo, njengokuhlunga izinkinobho esikhundleni sokuthunga, noma ukubuka izithombe zengadi esikhundleni sokutshala."
-  - q: "Kufanele ngizame ukumkholisa?"
-    a: "Cha. Ukuphoqa umuntu enze into i-dementia ewenze yaba nzima kuyimbangela eyaziwayo yokuphazamiseka. Yamukelani i-cha, shintshani isihloko, bese nimnikeza futhi kamuva noma ngenye indlela."
-  - q: "Ushintsho ekuziphatheni luyisimo esiphuthumayo nini?"
-    a: "Shayelani inombolo yezimo eziphuthumayo yendawo yakini uma othile esengozini noma enezimpawu zesimo esiphuthumayo sezokwelapha. Ngokudideka okuzumayo noma indlela yokuziphatha eshintsha ngokushesha emahoreni noma ezinsukwini, ikakhulukazi ngomkhuhlane (ukushisa komzimba), ukusulelwa noma umuthi omusha, xhumanani nodokotela wakhe ngokushesha."
+  - q: "Kulungile yini ukuvumela umuntu adlule imisebenzi ngokuphelele?"
+    a: "Yebo, ngalolo suku. Ukuhlala ndawonye, ukulalela umculo noma ukubukela umhlaba udlula kungase kwanele. Uma umuntu eyeka ukujabulela konke amasonto amaningi, khuluma nodokotela wakhe, ngoba ukudangala, ubuhlungu noma ezinye izinkinga zezempilo kungaba yingxenye yalokho."
+  - q: "Kungani benqaba izinto ababezithanda?"
+    a: "Isithakazelo sakudala singaba yinkinga uma manje sidinga amakhono i-dementia eyenze abe nzima, futhi umuntu angazizwa ehlazeka. Zama ingxenye elula yalo msebenzi ofanayo, njengokuhlukanisa izinkinobho esikhundleni sokuthunga, noma ukubheka izithombe zegadi esikhundleni sokutshala."
+  - q: "Ngabe kufanele ngizame ukumqinisa?"
+    a: "Cha. Ukumphoqa ukuthi enze into i-dementia eyenze yanzima kwaziwa ukuthi iyavusa ukuthukuthela. Mamukela ukuthi cha, shintsha isihloko, bese unikeza futhi kamuva noma ngendlela ehlukile."
+  - q: "Ushintsho lokuziphatha lusho ingozi nini?"
+    a: "Shayela 911 uma umuntu esengozini noma enemiqondiso yesimo esiphuthumayo sezempilo. Ukudideka okuzumayo noma ukuziphatha okushintsha ngokushesha phakathi namahora noma izinsuku, ikakhulu nomkhuhlane, ukutheleleka noma umuthi omusha, xhumana nodokotela wakhe masinyane."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -51,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Nilungisa konke, nimnikeze umdlalo noma uhambo, bese nizwa ukuthi “Cha.” Noma umsebenzi uqala kahle bese uphetha ngethebhulethi ephushiwe nezwi elibukhali. Kuyadumaza, futhi kuvamile kakhulu. Ukwenqaba nokucasuka kuvame ukuba umyalezo, hhayi ukuqina kwekhanda. Ukuthola ukuthi umyalezo uyini kuvame ukukhombisa ukuthi nizame ini okulandelayo.
+Usethe konke, unikeze umdlalo noma uhambo, bese uzwa uthi "Cha." Noma umsebenzi uqala kahle uphele ngethebhulethi esuswe eduze nezwi elibukhali. Kuyadikisa, futhi kuvamile kakhulu. Ukwenqaba nokuthukuthela kuvame ukuba yimyalezo, hhayi inkani. Ukuthola ukuthi yini lowo myalezo kuvame ukukhombisa ukuthi yini ozozama ngayo okulandelayo.
 
 ## Kungani umuntu one-dementia enqaba imisebenzi?
 
-Ngokuvamile kunesizathu, ngisho noma umuntu engasifaki emagameni. I-[Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) ithi ukumelana kungasho ukuthi umuntu akakwazi ukwenza umsebenzi noma uyesaba ukuzama. Izimbangela ezivamile zihlanganisa:
+Ngokuvamile kukhona isizathu, noma kungenzeka umuntu angakwazi ukusichaza ngamazwi. I-[Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) iphawula ukuthi ukumelana kungase kusho ukuthi umuntu akakwazi ukwenza umsebenzi noma uyesaba ukuzama. Izimbangela ezivamile zifaka:
 
-- **Kuzwakala kunzima kakhulu.** Umsebenzi manje udinga amakhono i-dementia ewenze alukhuni, futhi ukwehluleka phambi komuntu kuyahlazisa.
-- **Kuzwakala kwezingane.** Abantu abadala babona izithombe ezinjengamakhathuni, amazwi aculayo nemisebenzi ebukeka sengathi yenzelwe izingane.
-- **Ukudinwa.** Abantu abaningi banamandla amancane ngasekupheleni kosuku. Bhekani [imisebenzi ethulile yasentambama](/caregiving/late-day-restlessness/).
-- **Ukungakhululeki komzimba.** I-[National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ibala ubuhlungu, ukungalali, inkinga yokubona noma yokuzwa, ukuqumba, indlala, ukoma nemiphumela emibi yemithi emisha njengezimbangela ezingaba khona zosizi.
-- **Kunezinto eziningi kakhulu ezenzekayo.** I-TV enomsindo, izingxoxo eziningana noma igumbi eligcwele lingamdinda.
-- **Ukuzizwa ephoqwa.** I-NIA ibiza ukuphoqwa ukwenza into i-Alzheimer's eyenze nzima kakhulu, noma ukukhumbula izehlakalo noma abantu, njengembangela yokuphazamiseka.
-- **Isimo sengqondo esiphansi.** Ukulahlekelwa isithakazelo ezintweni kungaba uphawu lokudumala, okufanele kuphakanyiswe kudokotela.
-- **Akafuni nje.** Abantu abadala bavunyelwe ukuthi bathi cha.
+- **Kubonakala kunzima kakhulu.** Umsebenzi manje udinga amakhono i-dementia eyenze abe nzima, futhi ukwehluleka phambi komuntu kuyahlazisa.
+- **Kubonakala njengowabantwana.** Abantu abadala bayabona izithombe ezinamahlaya, amazwi anomculo nemisebenzi evele yenzelwe abantwana.
+- **Ukukhathala.** Abantu abaningi banamandla amancane ngemva kwemini. Bona [imisebenzi yantambama ekhululekile](/creative-calm/calm-afternoon-activities/).
+- **Ukungakhululeki emzimbeni.** I-[National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ibala ubuhlungu, ukungalali, ubunzima ekubboneni noma ekuzweni, ukuqunjelwa, indlala, ukoma kanye nemiphumela emibi yemithi emisha njengezimbangela ezingaba khona zokukhathazeka.
+- **Okuningi okwenzeka ngesikhathi esisodwa.** I-TV enomsindo, izingxoxo eziningi noma igumbi eligcwele abantu kungaba nzima.
+- **Ukuzizwa ucindezelekile.** I-NIA ibala ukuphoqwa ukuthi wenze into i-Alzheimer's eyenze ibe nzima kakhulu, noma ukukhumbula izenzakalo noma abantu, njengembangela yokukhathazeka.
+- **Ukudana kwemizwa.** Ukulahlekelwa yisithakazelo ezintweni kungaba yisibonakaliso sokudangala, okufanele kukhulunywe ngakho nodokotela.
+- **Akufuni nje.** Abantu abadala bavunyelwe ukuthi cha.
 
-## Ngenzeni uma ethi cha?
+## Yini okufanele ngiyizame uma ethi cha?
 
-Yamukelani i-cha ngokuthula, bese nishintsha okuthile: isikhathi, umsebenzi, ubunzima noma indlela eniceba ngayo.
+Mamukela ukuthi cha ngokuthula, bese ushintsha okuthile: isikhathi, umsebenzi, ubunzima noma indlela ocela ngayo.
 
-1. **Yekani okwamanje.** “Kulungile. Mhlawumbe kamuva.” Bese niqhubekela entweni enye ngaphandle kokububula.
-2. **Zamani kamuva.** I-Alzheimer's Association iphakamisa ukuzama kamuva, noma ngesikhathi esihlukile sosuku.
-3. **Yenzani kube kuncane.** Ukufanisa okuncane esikhundleni somdlalo wonke. Ithawula elilodwa esikhundleni sebhasikidi lezingubo ezigeziwe. Izithombe ezimbalwa, izinketho ezimbalwa, izithombe zishiywa ziyabonakala.
-4. **Nikezani izinketho ezimbili.** “Ningathanda ukubuka izithombe zezinyoni noma ukulalela umculo?” Ukukhetha kubuyisela umuzwa wokulawula.
-5. **Celani usizo esikhundleni sokudlala.** “Ningangisiza ngokuhlunga lezi?” noma “Ningangitshela ukuthi yimuphi umbala obukeka kangcono?” Ukudingwa kuzwakala kuhluke kakhulu nokuhlolwa.
-6. **Qalani ngokwenu.** Qalani umsebenzi eceleni kwakhe ningabuzanga. Abantu abaningi bahlanganyela uma okuthile sekuvele kuyenzeka, futhi uma bengakwenzi, nisachithe isikhathi ndawonye.
-7. **Shintshelani entweni yomzimba noma ethulisayo.** Uhambo olufushane, umculo, ukudla okuncane, ukusonga izingubo ezigeziwe, noma ukuma okwabelwanayo kwe-[ukuphefumula okuthulile](/games/calm-breathing/). I-NIA iphakamisa ukuphambukisela ukunaka emculweni, encwadini noma ohambweni.
-8. **Mvumeleni akwenze ngendlela yakhe.** Uma efuna ukudlala ngokuhlukile kunemithetho, vumelanani naye. I-Alzheimer's Association iluleka ukuvumelana nesimo.
+1. **Yiyeka okwamanje.** "Akunandaba. Mhlawumbe kamuva." Bese uqhubeka nokunye ngaphandle kokubhonga.
+2. **Zama futhi kamuva.** I-Alzheimer's Association incoma ukuzama futhi kamuva, noma ngesikhathi sosuku esihlukile.
+3. **Yenza kube ncane.** Ingxenye eyodwa yomdlalo esikhundleni somdlalo wonke. Indwangu eyodwa esikhundleni sesitsha sengubo. Izithombe ezimbalwa, izinketho ezimbalwa, izithombe ezishiywe zibonakala.
+4. **Nikeza izinketho ezimbili.** "Ungathanda ukubheka izithombe zezinyoni noma ukulalela umculo?" Ukukhetha kubuyisela umuzwa wokulawula.
+5. **Cela usizo esikhundleni sokwenza.** "Ungangisiza ngokuhlukanisa lezi?" noma "Ungangitshela ukuthi yiliphi umbala elibonakala limhle kakhulu?" Ukudingeka kuzwakala kwehluke kakhulu kunokuhlolwa.
+6. **Qala wena.** Qala umsebenzi eceleni kwakhe ungamcelanga. Abantu abaningi bayajoyina uma sekuvele kuqhubeka okuthile, futhi uma bengajoyini, usahlala nesikhathi ndawonye.
+7. **Shintshela kokuthile okunomzimba noma okududuzayo.** Uhambo olufushane, umculo, okudlayo okuncane, ukugoqa impahla, noma ukuphefumula ndawonye [ngokuthula](/games/calm-breathing/). I-NIA incoma ukuhambisa ingqondo ibheke umculo, incwadi noma uhambo.
+8. **Mvumele enze ngendlela yakhe.** Uma efisa ukudlala ngendlela ehlukile kunemithetho, vumela. I-Alzheimer's Association ikhuthaza ukuba nokuguquguquka.
 
-## Ngithini uma ecasuka?
+## Yini okufanele ngiyisho lapho ethukuthele?
 
-Yehlisani isivinini, nehlise izwi futhi niqinisekise. [Isiqondiso se-Alzheimer's Association ngokuphazamiseka](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) siphakamisa ukuhoxa nokucela imvume, ukusebenzisa amazwi athulile, aqinisekisayo, nokunikeza ukukhetha okuqondisiwe phakathi kwezinketho ezimbili. Amagama ngale ndlela:
+Yehlisa isivinini, ehlise izwi lakho uqinisekise. I-[Alzheimer's Association mayelana nokukhathazeka](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) incoma ukuthi ubuyele emuva ucele imvume, usebenzise amazwi athulile nakahle, futhi unikeze ukukhetha okuqondisiwe phakathi kwezinketho ezimbili. Amazwi ahambisana nalokho:
 
-- “Ngiyaxolisa, lena iyacasula. Ake siyeke.”
-- “Nenza kahle. Ngilapha eduze.”
-- “Ninaso isikhathi sokungisiza ngokunye?”
-- “Ake siphuze inkomishi yetiye esikhundleni?”
+- "Ngiyaxolisa, lo msebenzi ungikhathaza. Asime."
+- "Wenza kahle. Ngilapha."
+- "Unesikhathi sokungisiza ngenye into?"
+- "Sizophuza itiye esikhundleni salokho?"
 
-Bese niqeda umsebenzi ngaphandle kokuwenza kube yinto enkulu. [Izeluleko zethu zokuxhumana](/caregiving/communication-tips/) zinokunye ngalokho okufanele nikusho.
+Bese uphelisa umsebenzi ngaphandle kokuwenza into enkulu. Ikhasi [izinyathelo zokuqala ngemva kokutholwa](/caregiving/after-dementia-diagnosis/) linikeza indawo yokuqala yokusekelwa.
 
 ## Yini okufanele ngiyigweme?
 
-Ezinye izimpendulo zemvelo zivame ukwenza izinto zibe zimbi kakhulu.
+Ezinye izinto ezenzeka ngokwemvelo zivame ukwenza izinto zibe zimbi.
 
-- **Ukuphikisana noma ukuphoqa.** “Woza, kunye nje” noma “Niyakuthanda lokhu” kuvame ukungasizi.
-- **Ukuhlola noma ukulungisa.** “Niyakwazi ukuthi yini lokhu” noma “Cha, leyo ayilungile” kwengeza ingcindezi.
-- **Ukukuthatha ngokomuntu siqu.** I-NIA ikhumbuza abanakekeli ukuthi isifo, hhayi umuntu, sibangela lezi zinguquko.
-- **Ukuxinezela noma ukushesha.** I-Alzheimer's Association iluleka ukungakhuphuli izwi, ukungabonisi ukwethuka, ukungamvaleli indlela noma ukumxinezela, ukungambambi ngamandla, ukungamgxeki, ukungamnaki noma ukungaphikisani naye, nokugwema ukunyakaza okuzumayo ngaphandle kokubonwa yilo.
-- **Ukumenza azizwe enecala.** “Ngilungisele nina konke lokhu” kushiya nobabili nizizwa kabi kakhulu.
-- **Ukubeka ilebuli.** “Unekhanda eliqinile” noma “unzima” kufihla isizathu sangempela futhi kwenza kube nzima ukukuxazulula.
+- **Ukuphikisana noma ukuphoqa.** "Woza, kanye nje" noma "Lokhu uyakuthanda" akuvamile ukusiza.
+- **Ukubuza imibuzo noma ukulungisa.** "Uyazi lokhu kungani" noma "Cha, lowo awulungile" kwengeza uxinezeleo.
+- **Ukuzithatha ngokuthi kumuthinta wena.** I-NIA iyakhumbuza abanakekeli ukuthi isifo, hhayi umuntu, yisona esibangela lezi zinguquko.
+- **Ukuqoqana noma ukuphuthuma.** I-Alzheimer's Association ikhuthaza ukuthi ungaphakamisi izwi lakho, ungakhombisi ukwesaba, ungamkhoneli, ungaqoqani naye, ungambophi, ungamgxeki, ungamnaki noma uphikisane naye, futhi ugweme ukunyakaza ngokuzumayo ngaphandle kwebanga lokubona kwakhe.
+- **Ukusebenzisa umzwa wecala.** "Ngikulungiselele konke lokhu" kwenza kuzwakale kubi kukho kokubili.
+- **Ukubiza ngamagama.** "Inkani" noma "inzima" kufihla isizathu sangempela futhi kwenze kube nzima ukuxazulula.
 
-## Ngingathola kanjani ukuthi yini ngemuva kokwenqaba okuphindaphindwayo?
+## Ngingayithola kanjani ukuthi kukhona ini ngemuva kokwenqaba okuphindaphindekayo?
 
-Gcinani inothi elilula iviki noma amabili. I-NIA ithi ukulandelela izinguquko zokuziphatha kungasiza abanakekeli nabahlinzeki bezempilo ukubona iphethini nokuthola imbangela.
+Gcina inothi elilula isonto noma amabili. I-NIA ithi ukulandelela ushintsho lokuziphatha kungasiza abanakekeli nabahlinzeki bezempilo ukubona iphethini nokuthola imbangela.
 
-Bhalani phansi:
+Bhala phansi:
 
 - isikhathi sosuku;
-- yini eniyinikeze nokuthi nicele kanjani;
-- yini eyenzeka eduze kwenu (umsindo, izivakashi, i-TV);
-- ukuthi alale kanjani, adle futhi aphuze, nokuthi waya ethoyilethi kokugcina nini;
-- noma yimiphi imithi emisha noma ukugula kwamuva.
+- lokho owunikeze nendlela ocele ngayo;
+- lokho okwakwenzeka ozungezile (umsindo, izivakashi, i-TV);
+- ukuthi walala, wadla, waphuza kanjani, nokuthi wageza nini okokugcina;
+- noma yiziphi imithi emisha noma ukugula okuvele kamuva.
 
-Amaphethini avame ukuvela masinyane: ukwenqaba okwenzeka kuphela ngemva kuka-4 ntambama, kuphela ngomdlalo othile, noma kuphela uma i-TV ivuliwe. [Umhlahlandlela wokuziphatha kwe-dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) we-Family Caregiver Alliance ukubeka ngokulula: asikwazi ukushintsha umuntu, kodwa singashintsha ukuziphatha kwethu nendawo.
+Amaphethini avame ukuvela masinyane: ukwenqaba okwenzeka kuphela ngemva kwe-4 p.m., kuphela ngomdlalo othile, noma kuphela lapho i-TV ivuliwe. I-[Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) ngemihlahlandlela yayo mayelana nokuziphatha kwe-dementia ikusho ngokulula: asikwazi ukushintsha umuntu, kodwa singashintsha ukuziphatha kwethu nendawo esizungezile.
 
-## Kufanele ngikhulume nini nodokotela ngokwenqaba noma ukucasuka?
+## Nginganikhuluma nodokotela nini mayelana nokwenqaba noma ukuthukuthela?
 
-Khulumani nodokotela uma indlela yokuziphatha ishintsha ngokuzumayo, ngokushesha, noma ngokuhambisana nezimpawu zokugula. I-NIA ithi izinguquko zokuziphatha eziza ngokuzumayo noma eziguquguquka ngokushesha, ikakhulukazi uma umuntu ebe nokusulelwa noma ushintsho lwamuva lwemithi, kufanele zilethwe kudokotela ngokushesha.
+Khuluma nodokotela uma ukuziphatha kushintsha ngokuzumayo, ngokushesha, noma kuhambisana nezimpawu zokugula. I-NIA ithi ushintsho olungalindelekile noma oluguquguqukayo ngokushesha, ikakhulu uma umuntu esanda kuba nokutheleleka noma ushintsho lwemithi, kufanele lwaziswe kudokotela masinyane.
 
-Xhumanani nodokotela wakhe masinyane uma nibona:
+Xhumana nodokotela wakhe ngokushesha uma uqaphela:
 
 - ukudideka okuzumayo noma ushintsho olukhulu emahoreni noma ezinsukwini;
-- izimpawu zobuhlungu, njengokufinyela ubuso, ukuvikela ingxenye yomzimba, noma inkinga entsha yokunyakaza;
-- umkhuhlane noma ezinye izimpawu zokusulelwa;
-- imithi emisha noma eshintshiwe ilandelwa ushintsho ekuziphatheni;
-- ukulahlekelwa isithakazelo cishe kukho konke, ukukhala noma ukuhoxa okuhlala ngaphezu kwamasonto ambalwa;
-- ukwenqaba ukudla noma ukuphuza.
+- izimpawu zobuhlungu, njengokubhoboza, ukuvikela ingxenye yomzimba, noma ubunzima obusha ekunyakazeni;
+- umkhuhlane noma ezinye izimpawu zokutheleleka;
+- imithi emisha noma eshintshiwe elandelwa ushintsho lokuziphatha;
+- ukulahlekelwa yisithakazelo ezintweni eziningi, ukukhala noma ukuzihlukanisa okuhlala amasonto amabili noma ngaphezulu;
+- ukwenqaba ukudla noma uketshezi.
 
-I-Alzheimer's Association incoma ukuhlolwa okuphelele kwezokwelapha kunoma ubani onezimpawu zokuziphatha, ikakhulukazi uma zivela ngokuzumayo. I-Family Caregiver Alliance iphinde iluleke ukuhlola nodokotela kuqala, ngoba izinkinga zokuziphatha zingaba nembangela yezokwelapha. Ningaqali, ningayeki noma ningashintshi noma yimuphi umuthi ngaphandle kokukhuluma nodokotela noma umkhemisi.
+I-Alzheimer's Association incoma ukuhlolwa okuphelele kwezempilo kunoma ubani onezimpawu zokuziphatha, ikakhulu uma zivela ngokuzumayo. I-Family Caregiver Alliance ikhuthaza nokubuza udokotela kuqala, ngoba izinkinga zokuziphatha zingaba nembangela yezempilo. Ungaqali, ungamisi noma ushintshe noma imuphi umuthi ngaphandle kokukhuluma nodokotela noma nofakazi wemithi.
 
-Uma othile esengozini noma kunezimpawu zesimo esiphuthumayo sezokwelapha, shayelani inombolo yezimo eziphuthumayo yendawo yakini. I-NIA iphakamisa ukutshela umuntu ophendula ucingo lwezimo eziphuthumayo ukuthi umuntu une-dementia.
+Uma kukhona umuntu esengozini noma kunemiqondiso yesimo esiphuthumayo sezempilo, shayela 911. I-NIA incoma ukutshela umthumeli wenkonzo ukuthi umuntu une-dementia. Uma ukuthukuthela kuguquka kube yisenzo somzimba, hambisa emuva bese ucela iseluleko kudokotela noma ethimbeni lokunakekela.
 
-## Ingabe kulungile uma singenzi lutho nhlobo?
+## Kulungile yini uma singenzi lutho nhlobo?
 
-Yebo. Ezinye izinsuku umsebenzi ongcono kakhulu ukungabi nasenzo: ukuhlala ndawonye, ukubambana ngezandla, ukulalela irekhodi eliyintandokazi, noma ukubuka izinyoni ngefasitela. Lokho akuwukwehluleka. [Umhlahlandlela wethu wokudlala ndawonye](/caregiving/how-to-play-together/) uchaza ukuthi kungani ukuyeka kusenesikhathi, noma ukungaqali nhlobo, kungaba isinqumo esifanele.
+Yebo. Ezinye izinsuku umsebenzi omuhle ungaba ukungenzi lutho: ukuhlala ndawonye, ukubambisana izandla, ukulalela irekhodi elithandwayo, noma ukubukela izinyoni ngefasitela. Lokho akuwona ukwehluleka. [Isiqondisi sethu sokudlala ndawonye](/caregiving/how-to-play-together/) sichaza ukuthi kungani ukuyeka kusenesikhathi, noma ukungaqali nhlobo, kungaba yisinqumo esifanele.

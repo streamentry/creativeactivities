@@ -33,7 +33,17 @@
       "label": "Tekstgrootte",
       "smaller": "Standaardtekst",
       "larger": "Grotere tekst",
-      "contrast": "Hoger contrast"
+      "contrast": "Hoger contrast",
+      "colors": "Kleuren",
+      "light": "Licht",
+      "dark": "Donker",
+      "device": "Zelfde als dit apparaat",
+      "lineLength": "Regellengte",
+      "standardLines": "Standaard",
+      "shorterLines": "Kortere regels",
+      "spacing": "Afstand",
+      "standardSpacing": "Standaard",
+      "moreSpace": "Meer ruimte"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Naar {name} →",
     "readGuide": "Lees de gids"
   },
+  "listen": {
+    "listenSteps": "Luister naar de stappen",
+    "pause": "Pauzeren",
+    "resume": "Hervatten",
+    "stop": "Stoppen",
+    "speed": "Snelheid",
+    "normal": "Normaal",
+    "slower": "Langzamer",
+    "reading": "De stappen worden hardop voorgelezen.",
+    "paused": "Gepauzeerd. Druk op Hervatten om verder te gaan.",
+    "note": "Gebruikt de eigen stem van uw apparaat. Sommige apparaten sturen de tekst naar de fabrikant om hem voor te lezen.",
+    "listen": "Luisteren",
+    "stepLabel": "Luister naar stap {n}",
+    "stopStep": "Stop stap {n}"
+  },
   "playCta": {
     "title": "Zin in een rustig spelletje?",
     "text": "Grote plaatjes, geen klok, geen score en nergens voor aanmelden. Speel samen in je browser.",
@@ -393,6 +418,14 @@
       "seoTitle": "Over Creative Activities: onze aanpak",
       "description": "Waarom Creative Activities geen timers, scores of reeksen heeft, waarom foto's zichtbaar blijven, en wat we wel en niet beweren over gezondheid.",
       "crumb": "Onze aanpak",
+      "sponsors": {
+        "heading": "Sponsors en partners",
+        "none": "Creative Activities heeft geen sponsors, geen betaalde plaatsingen en geen partners wier logo's op de site te zien zijn.",
+        "listed": "Dit zijn de sponsors en partners van Creative Activities. Elke samenwerking wordt ook vermeld op de pagina waar ze te zien is.",
+        "policy": "Als dat verandert, zal elke zo'n pagina dat op de plek zelf vermelden, zal geen enkele activiteit ooit een sponsor krijgen, en staat de lijst met partners op deze pagina.",
+        "listHeading": "Lijst met partners",
+        "noPartners": "Er zijn op dit moment geen partners."
+      },
       "lede": "Creative Activities maakt rustige activiteiten voor volwassenen, die twee mensen samen kunnen doen, naast elkaar, of u nu voor iemand zorgt of gewoon tijd samen wilt doorbrengen.",
       "bodyHtml": "<h2>Voor wie het bedoeld is</h2><p>Voor iedereen die voor iemand zorgt: een ouder, een grootouder, een kind, een partner, een vriend of vriendin, of een persoon met dementie. Gezinnen, oudere volwassenen en medewerkers van activiteitenprogramma's kunnen allemaal dezelfde pagina's gebruiken.</p><h2>Wat wij geloven</h2><p>Het doel van een activiteit is het moment zelf: een gesprek, een glimlach, de voldoening van twee plaatjes bij elkaar zoeken, of gewoon dicht bij elkaar zitten. Het is niet bedoeld om iemand te meten, verder te laten gaan of iets te bewijzen.</p><p>Veel hersentraining-apps draaien om snelheid, scores, reeksen en niveaus. Voor iemand die moe is, zich niet goed voelt of met dementie leeft, kan dat aanvoelen als een examen dat men niet kan halen. Wij hebben het tegenovergestelde ontworpen en houden ons aan deze regels:</p><ul><li><strong>Niets om te falen.</strong> Geen klok, score, zettellteller, levens, reeksen, confetti of aftellers, op welk scherm dan ook.</li><li><strong>Herkennen boven herinneren.</strong> Foto's blijven standaard zichtbaar. Aanwijzingen nodigen uit tot een gesprek en testen nooit namen of herinneringen.</li><li><strong>Groot, eenvoudig en rustig.</strong> Grote tekst en afbeeldingen, hoog contrast, en bedieningselementen die op dezelfde plek blijven.</li><li><strong>Waardigheid van de volwassene.</strong> Foto's uit het echte leven en eenvoudige, warme woorden. Geen tekenfilmfiguren, zangerige lof of emoji als beloning.</li><li><strong>Een makkelijke uitweg.</strong> „Voor nu klaar” is altijd zichtbaar. Halverwege stoppen is een goede uitkomst.</li><li><strong>Standaard privé.</strong> Geen accounts en geen advertenties. Foto's die u kiest, blijven op uw apparaat.</li></ul><h2>Wat wij niet beweren</h2><p>Onze spellen en activiteiten zijn bedoeld voor plezier en contact. Ze stellen geen diagnose, testen, meten, behandelen, vertragen of voorkomen dementie of de ziekte van Alzheimer, en niemand mag ze daarom kiezen. Wanneer wij schrijven over gezondheidsonderzoek, zeggen we duidelijk waar het bewijs zwak is, en we koppelen het nooit aan onze eigen activiteiten.</p><h2>Wie wij zijn</h2><p>Creative Activities is een klein, onafhankelijk team. Wij zijn geen clinici. Onze gidsen zijn geschreven op basis van gepubliceerde richtlijnen van organisaties zoals het National Institute on Aging en de Alzheimer's Association, en elke gids vermeldt zijn bronnen. Lees <a href=\"/editorial-policy/\">hoe wij onze pagina's schrijven en controleren</a>.</p><h2>Laat ons weten wat zou helpen</h2><p>We horen graag wat voor u werkt en wat niet, vooral van mensen met dementie, mantelzorgers en medewerkers van activiteitenprogramma's. Mail naar <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Er is geen papieren versie. Dit spel gebruikt uw eigen foto's, die in uw browser blijven en nooit worden geüpload, dus de site kan ze niet afdrukken. Om op papier te spelen, print thuis twee exemplaren van een paar favoriete foto's uit en zoek de paren op tafel.",
         "paced": "Er is geen papieren versie. De cirkel bepaalt een rustig, gelijkmatig tempo op het scherm, en een afgedrukte pagina kan dat niet, dus het zou een andere activiteit worden. Een rustig moment samen zonder scherm is altijd een optie.",
+        "turns": "Er is geen papieren versie van dit spel. Om paren op tafel te vinden, print u de beeldkaarten van Beeldparen uit en wisselt u om beurten af om ze om te draaien.",
+        "screen": "Er is geen papieren versie. Dit is een afbeelding om samen op een scherm te bekijken; een favoriete foto of ansichtkaart op tafel doet hetzelfde.",
+        "wash": "Er is geen papieren versie. Aquarelverf op papier werkt op dezelfde manier: een natte kwast en één kleur tegelijk.",
         "sayings": "Er is nog geen papieren versie. Op papier zouden alle einden tegelijk zichtbaar zijn, en de rustige stap \"Toon het einde\" zou verloren gaan. Lees de spreekwoorden samen van het scherm, of deel er een paar die u allebei kent."
       }
     }

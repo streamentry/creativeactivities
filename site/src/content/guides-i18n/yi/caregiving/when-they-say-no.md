@@ -1,34 +1,34 @@
 ---
-title: "When Someone with Dementia Refuses or Gets Frustrated with an Activity"
-seoTitle: "When Someone with Dementia Refuses an Activity"
-description: "Why a person living with dementia may refuse or get upset with an activity, what to try instead, what to avoid, and when a sudden change needs a doctor."
+title: "ווען אַ מענטש מיט דעמענץ זאָגט ניין אָדער ווערט פֿראַסטרירט פֿון אַן אַקטיוויטעט"
+seoTitle: "ווען אַ מענטש מיט דעמענץ זאָגט ניין צו אַן אַקטיוויטעט"
+description: "פֿאַר וואָס אַ מענטש וואָס לעבט מיט דעמענץ קען זאָגן ניין אָדער ווערן אויפֿגערעגט פֿון אַן אַקטיוויטעט, וואָס צו פּרוּווען אַנשטאָט, וואָס צו פֿערמײַדן, און ווען אַ פּלוצלינגדיקע ענדערונג דאַרף אַ דאָקטער."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  When someone with dementia says no, accept it calmly and try again later or
-  offer something different. Refusal often has a reason: the task feels too
-  hard or childish, they are tired, in pain, hungry, or overwhelmed by noise.
-  Do not argue or insist. Simplify, offer two choices, or ask for their help.
-  Sudden or fast-changing behavior, especially after an infection or new
-  medicine, needs a doctor promptly.
+  ווען אַ מענטש מיט דעמענץ זאָגט ניין, נעמט עס רויִק אָן און פּרוּווט שפּעטער ווידער
+  אָדער ביט אָן עפּעס אַנדערש. אָפּזאָגן האָט אָפֿט אַ סיבה: די אַרבעט פֿילט זיך צו שווער
+  אָדער צו קינדיש, די פּערזאָן איז מיד, אָדער זיי זענען ווייטיק, הונגעריק, דורשטיק אָדער
+  איבערוועלטיקט פֿון ראַש. שטרײטן אָדער דרינגען נישט. מאַכט עס פּשוטער, ביט
+  צוויי ברירות, אָדער בעט זיי אום הילף. פּלוצלינגדיקע אָדער שנעל־ענדערנדיקע פֿאַרהאַלטן,
+  בפֿרט נאָך אַ אינפֿעקציע אָדער אַ נײַע מעדיצין, דאַרף גלײַך אַ דאָקטער.
 keyPoints:
-  - "A \"no\" is an answer to respect, not a problem to overcome."
-  - "Refusal usually has a cause: too hard, too childish, tired, unwell, uncomfortable, or overwhelmed."
-  - "Back off, wait, and try later, at a different time, or with a simpler version."
-  - "Asking for their help works better than asking them to perform."
-  - "Never argue, insist, quiz or correct. Check yourself for rushing or crowding."
-  - "Sudden or rapidly changing behavior, especially with infection or new medicines, should go to a doctor right away."
+  - "אַ „ניין“ איז אַ ענטפֿער צו רעספּעקטירן, נישט אַ פּראָבלעם צו איבערקומען."
+  - "אָפּזאָגן האָט געוויינלעך אַ סיבה: צו שווער, צו קינדיש, מיד, קראַנק, אומבאַקוועם אָדער איבערוועלטיקט."
+  - "צוריק טרעטן, וואַרטן, און פּרוּווען שפּעטער, אין אַן אַנדער צײַט אָדער מיט אַ פּשוטערער ווערסיע."
+  - "בעטן זיי אום הילף אַרבעט בעסער ווי צו פֿאַרלאַנגען, אַז זיי זאָלן זיך באַווײַזן."
+  - "שטרײט נישט, דרינגט נישט, טעסט נישט און קאָרעגירט נישט. קוקט אַרײַן אין זיך, צי איר אײַלט זיך אָדער דרוקט."
+  - "פּלוצלינגדיקע אָדער שנעל־ענדערנדיקע פֿאַרהאַלטן, בפֿרט מיט אַ אינפֿעקציע אָדער נײַע מעדיצינען, דאַרפֿן גלײַך צו אַ דאָקטער."
 faq:
-  - q: "Is it okay to let them skip activities altogether?"
-    a: "Yes, on any given day. Sitting together, listening to music or watching the world go by can be enough. If someone stops enjoying everything over weeks, mention it to their doctor, since low mood, pain or other health problems can be part of the picture."
-  - q: "Why do they refuse things they used to love?"
-    a: "An old hobby can become frustrating when it now takes skills that dementia has made harder, and the person may feel embarrassed. Try a simpler part of the same activity, such as sorting buttons instead of sewing, or looking at garden pictures instead of planting."
-  - q: "Should I try to convince them?"
-    a: "No. Pushing someone to do something dementia has made hard is a known trigger for agitation. Accept the no, change the subject, and offer again later or in a different way."
-  - q: "When is a change in behavior an emergency?"
-    a: "Call 911 if someone is in danger or has signs of a medical emergency. For sudden confusion or behavior that changes quickly over hours or days, especially with fever, infection or a new medicine, contact their doctor right away."
+  - q: "איז עס גוט צו לאָזן זיי אַוועקלאָזן אַקטיוויטעטן גאָר?"
+    a: "יאָ, אויף יעדן געגעבענעם טאָג. צוזאַמען זיצן, מוזיק הערן, אָדער צוקוקן ווי די וועלט גייט פֿאַרבײַ, קען גענוג זײַן. אויב עמעצער הערט אויף צו הנאה האָבן פֿון אַלץ איבער וואָכן, דערמאָנט עס דעם דאָקטער, ווײַל שוואַכע שטימונג, ווייטיק אָדער אַנדערע געזונטהײט־פּראָבלעמען קענען זײַן אַ טייל פֿון דעם בילד."
+  - q: "פֿאַר וואָס זאָגן זיי ניין צו זאַכן, וואָס זיי האָבן פֿריער ליב געהאַט?"
+    a: "אַן אַלטער האָבי קען ווערן פֿראַסטרירט ווען עס פֿאָדערט איצט פֿעיִקייטן, וואָס דעמענץ האָט שווערער געמאַכט, און די פּערזאָן קען זיך שעמען. פּרוּווט אַ פּשוטערן טייל פֿון דער זעלביקער אַקטיוויטעט, ווי צו סאָרטירן קנעפּלעך אַנשטאָט נייען, אָדער קוקן אויף גאָרטן־בילדער אַנשטאָט פֿלאַנצן."
+  - q: "זאָל איך פּרוּווען צו איבערצייגן זיי?"
+    a: "ניין. דרינגען אַ מענטש צו טאָן עפּעס, וואָס דעמענץ האָט שווער געמאַכט, איז אַ באַקאַנטער אויסלייזער פֿון אומרו. נעמט דאָס ניין אָן, ענדערט דעם שמועס, און בלײַבט פֿאָרשלאָגן ווידער שפּעטער אָדער אויף אַן אַנדער וועג."
+  - q: "ווען איז אַ ענדערונג אין פֿאַרהאַלטן אַ נויטפֿאַל?"
+    a: "רופט 911, אויב עמעצער איז אין סכּנה אָדער האָט צייכנס פֿון אַ מעדיצינישן נויטפֿאַל. פֿאַר פּלוצלינגדיקער פֿאַרוואַרטלעכקייט אָדער פֿאַרהאַלטן, וואָס ענדערן זיך שנעל איבער שעהען אָדער טעג, בפֿרט מיט פֿיבער, אינפֿעקציע אָדער אַ נײַע מעדיצין, רופט גלײַך זייער דאָקטער."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-You set everything up, offer a game or a walk, and hear "No." Or the activity starts well and ends with a pushed-away tablet and a sharp word. It is discouraging, and it is very common. Refusal and frustration are usually a message, not stubbornness. Working out what the message is often shows you what to try next.
+איר שטעלט אַלץ אויף, בייט אָן אַ שפּיל אָדער אַ שפּאַציר, און הערט „ניין.“ אָדער די אַקטיוויטעט הייבט זיך גוט אָן און ענדיקט זיך מיט אַ אַוועקגעשטופּטן טאַבלעט און אַ שאַרפֿן וואָרט. עס איז מיאש, און עס איז זייער געוויינלעך. אָפּזאָגן און פֿראַסטראַציע זענען געוויינלעך אַ מסר, נישט קיין שטורקייט. צו פֿאַרשטיין, וואָס דער מסר איז, ווײַזט אָפֿט וואָס צו פּרוּווען ווײַטער.
 
-## Why does someone with dementia refuse activities?
+## פֿאַר וואָס ווײַגערט זיך אַ מענטש מיט דעמענץ פֿון אַקטיוויטעטן?
 
-Usually there is a reason, even if the person cannot put it into words. The [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) notes that resistance may mean the person cannot do the task or is afraid to try. Common causes include:
+געוויינלעך איז עס דאָ אַ סיבה, אפֿילו ווען די פּערזאָן קען עס נישט אויסדרוקן. [די Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) באַמערקט, אַז אַ ווידערשטעל קען מיינען, אַז די פּערזאָן קען די אַרבעט נישט טאָן אָדער האָט מורא צו פּרוּווען. געוויינלעכע סיבות:
 
-- **It feels too hard.** The activity now needs skills dementia has made difficult, and failing in front of someone is embarrassing.
-- **It feels childish.** Adults notice cartoonish pictures, sing-song voices and activities that look like they were made for kids.
-- **Tiredness.** Many people have less energy later in the day. See [calm late-afternoon activities](/caregiving/late-day-restlessness/).
-- **Physical discomfort.** The [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) lists pain, lack of sleep, trouble seeing or hearing, constipation, hunger, thirst and side effects of new medicines as possible causes of distress.
-- **Too much going on.** A loud TV, several conversations or a crowded room can be overwhelming.
-- **Feeling pushed.** The NIA names being pushed to do something that Alzheimer's has made very hard, or to remember events or people, as a cause of agitation.
-- **Low mood.** Losing interest in things can be a sign of depression, which is worth raising with a doctor.
-- **They simply don't want to.** Adults are allowed to say no.
+- **עס פֿילט זיך צו שווער.** די אַקטיוויטעט פֿאָדערט איצט פֿעיִקייטן, וואָס דעמענץ האָט שווער געמאַכט, און פֿאַרלירן פֿאַר עמעצן איז שעמעוודיק.
+- **עס פֿילט זיך קינדיש.** דערוואַקסענע באַמערקן קאַרטוניש בילדער, זינגענדיקע שטימען און אַקטיוויטעטן, וואָס זען אויס ווי פֿאַר קינדער געמאַכט.
+- **מידקייט.** פֿילע מענטשן האָבן ווייניקער כּוח שפּעטער אין טאָג. זען [רויִקע נאָכמיטאָג־אַקטיוויטעטן](/creative-calm/calm-afternoon-activities/).
+- **פֿיזישע אומבאַקוועמקייט.** די [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) צײַלט ווייטיק, מאַנגל שלאָף, שוועריקייט צו זען אָדער הערן, פֿאַרשטאָפּונג, הונגער, דורשט און נעבנווירקונגען פֿון נײַע מעדיצינען, ווי מעגלעכע סיבות פֿון נויט.
+- **צו פֿיל אַרום.** אַ לאַוטער טעלעוויזאָר, עטלעכע שמועסן אויף אַ מאָל, אָדער אַ פֿאַרשטויפֿטער צימער קען איבערוועלטיקן.
+- **געפֿיל פֿון דרוק.** די NIA נעמט דערצו, אַז דריקן אַ מענטש צו טאָן עפּעס, וואָס אַלצהיימער האָט זייער שווער געמאַכט, אָדער זיך דערמאָנען אויף געשעענישן אָדער מענטשן, איז אַ סיבה פֿון אומרו.
+- **שוואַכע שטימונג.** פֿאַרלוירן אינטערעס אין זאַכן קען זײַן אַ סימן פֿון דעפּרעסיע, וואָס מען דאַרף אויפֿברענגען מיטן דאָקטער.
+- **זיי ווילן אַזוי נישט.** דערוואַקסענע דאַרפֿן מעגן זאָגן ניין.
 
-## What should I try when they say no?
+## וואָס זאָל איך פּרוּווען, ווען זיי זאָגן ניין?
 
-Accept the no calmly, then change something: the time, the activity, the difficulty or the way you ask.
+נעמט דאָס ניין רויִק אָן, און ענדערט דאַן עפּעס: די צײַט, די אַקטיוויטעט, די שוועריקייט אָדער דעם וועג, ווי איר פֿרעגט.
 
-1. **Let it go for now.** "That's fine. Maybe later." Then move on to something else without a sigh.
-2. **Try again later.** The Alzheimer's Association suggests trying again later, or at a different time of day.
-3. **Make it smaller.** One match instead of a whole game. One towel instead of the laundry basket. Fewer pictures, fewer choices, pictures left visible.
-4. **Offer two options.** "Would you like to look at the bird pictures or listen to some music?" A choice gives back a sense of control.
-5. **Ask for help instead of performance.** "Could you help me sort these?" or "Can you tell me which color looks best?" Being needed feels very different from being tested.
-6. **Start it yourself.** Begin the activity beside them without asking. Many people join in once something is already happening, and if they do not, you have still spent time together.
-7. **Switch to something physical or soothing.** A short walk, music, a snack, folding laundry, or a shared [calm breathing](/games/calm-breathing/) pause. The NIA suggests redirecting attention to music, a book or a walk.
-8. **Let them do it their way.** If they want to play differently than the rules say, go with it. The Alzheimer's Association advises being flexible.
+1. **לאָזט עס גיין פֿאַר איצט.** „עס איז גוט. שפּעטער, שוין.“ דערנאָך גייט צו עפּעס אַנדערש אָן אַ זיפֿץ.
+2. **פּרוּווט שפּעטער ווידער.** די Alzheimer's Association רעקאָמענדירט צו פּרוּווען ווידער שפּעטער, אָדער אין אַ אַנדער צײַט פֿון טאָג.
+3. **מאַכט עס קלענער.** איין פּאָר אַנשטאָט אַ גאַנצן שפּיל. איין האַנטעך אַנשטאָט דעם גאַנצן וועש־קאָשיק. ווייניקער בילדער, ווייניקער ברירות, די בילדער לאָזן זיך זען.
+4. **גיט צוויי אָפּציעס.** „ווילט איר קוקן אויף די פֿייגל־בילדער אָדער הערן עטלעכע מוזיק?“ אַ ברירה גיט צוריק אַ געפֿיל פֿון קאָנטראָל.
+5. **בעט אום הילף אַנשטאָט אויפֿפֿירונג.** „קענט איר העלפֿן מיר אויסזאָרטירן די?“ אָדער „קענט איר מיר זאָגן, וועלכע פֿאַרב קוקט בעסטן אויס?“ געדאַרפֿט ווערן איז גאַנץ אַנדערש ווי געטעסט ווערן.
+6. **הייבט עס אָן אַלײן.** הייבט די אַקטיוויטעט אָן לעבן זיי, אָן צו פֿרעגן. פֿילע מענטשן טרעטן אַרײַן, ווען עס איז שוין אין גאַנג, און אויב נישט, האָט איר נאָך אַלץ צוזאַמען פֿאַרבראַכט צײַט.
+7. **שטעלט אום צו עפּעס פֿיזיש אָדער באַרויִקנדיק.** אַ קורצער שפּאַציר, מוזיק, אַ סנאַק, וועש צונויפֿפֿאַלטן, אָדער אַ געמיינזאַמע [רויִקע אָטעמונג](/games/calm-breathing/) פּױזע. די NIA רעקאָמענדירט צו לענקן די אויפֿמערקזאַמקייט צו מוזיק, אַ בוך אָדער אַ שפּאַציר.
+8. **לאָזט זיי עס טאָן אויף זייער אופֿן.** ווילן זיי שפּילן אַנדערש ווי די כּללים זאָגן, גייט מיט. די Alzheimer's Association רעקאָמענדירט צו זײַן גרייט צו זיך אָנצופּאַסן.
 
-## What should I say when they get frustrated?
+## וואָס זאָל איך זאָגן, ווען זיי ווערן פֿראַסטרירט?
 
-Slow down, lower your voice and reassure. The [Alzheimer's Association guidance on agitation](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) suggests backing off and asking permission, using calm, positive statements, and offering a guided choice between two options. Phrases in that spirit:
+לאַנגזאַמער, סענקט אײַער שטימע און באַרויִקט. [די Alzheimer's Association־הנחיה וועגן אומרו](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) רעקאָמענדירט צו צוריקטרעטן און פֿרעגן רשות, ניצן רויִקע, פּאָזיטיווע זאַצן, און אָנבאָטן אַ געפֿירטע ברירה צווישן צוויי אָפּציעס. זאַצן אין דעם גייסט:
 
-- "I'm sorry, this one is annoying. Let's stop."
-- "You're doing fine. I'm right here."
-- "Do you have time to help me with something else?"
-- "Shall we have a cup of tea instead?"
+- „עס טוט מיר לײד, דער איז אַ ביסל ערגערלעך. לאָמיר אויפֿהערן.“
+- „איר טוט עס גוט. איך בין גלײַך דאָ.“
+- „האָט איר צײַט צו העלפֿן מיר מיט עפּעס אַנדערש?“
+- „זאָלן מיר אַנשטאָט טרינקען אַ גלעזל טיי?“
 
-Then end the activity without making it a big deal. Our [communication tips](/caregiving/communication-tips/) have more on what to say.
+דערנאָך ענדיקט די אַקטיוויטעט, אָן עס גרויס צו מאַכן. [די ערשטע שריט נאָך אַ דיאַגנאָז](/caregiving/after-dementia-diagnosis/) איז אַ וועג־פּונקט פֿאַר שטיצע.
 
-## What should I avoid?
+## וואָס זאָל איך פֿערמײַדן?
 
-Some natural reactions tend to make things worse.
+עטלעכע נאַטירלעכע רעאַקציעס טענדירן צו מאַכן די זאַך ערגער.
 
-- **Arguing or insisting.** "Come on, just one more" or "You love this" rarely helps.
-- **Quizzing or correcting.** "You know what this is" or "No, that one's wrong" adds pressure.
-- **Taking it personally.** The NIA reminds caregivers that the disease, not the person, causes these changes.
-- **Crowding or rushing.** The Alzheimer's Association advises not to raise your voice, show alarm, corner, crowd, restrain, criticize, ignore or argue with the person, and to avoid sudden movements out of their view.
-- **Using guilt.** "I set all this up for you" leaves both of you feeling worse.
-- **Labeling.** "Stubborn" or "difficult" hides the real reason and makes it harder to solve.
+- **שטרײטן אָדער דרינגען.** „קום, נאָר איין מאָל נאָך“ אָדער „דו האָסט דאָס ליב“ העלפֿט זעלטן.
+- **פֿרעגן אָדער קאָרעגירן.** „איר ווייסט, וואָס דאָס איז“ אָדער „ניין, דאָס איז פֿאַלש“ לייגט דרוק צו.
+- **עס נעמען פּערזענלעך.** די NIA דערמאָנט פּפֿלעגער, אַז די קרענקייט און נישט די פּערזאָן ברענגט די ענדערונגען.
+- **זיך אַרומדרוקן אָדער ײַלן.** די Alzheimer's Association רעקאָמענדירט נישט צו העכערן די שטימע, ווײַזן שרעק, אײַנשפּאַרן, זיך אַרומדרוקן, צוריקהאַלטן, קריטיקירן, איגנאָרירן אָדער שטרײטן מיט דער פּערזאָן. פֿערמײַדט פּלוצלינגדיקע באַוועגונגען אויסער זייער געזיכטפֿעלד.
+- **שולד טרײַבן.** „איך האָב דאָס אַלץ צוגעגרייט פֿאַר דיר“ מאַכט אײַך ביידן זיך שלעכטער.
+- **שטעמפּלען.** „שטורריש“ אָדער „שווער“ פֿארשטעקט די אמתע סיבה און מאַכט עס שווערער צו לייזן.
 
-## How can I find out what is behind repeated refusals?
+## ווי קען איך געפֿינען, וואָס שטעקט הינטער ווידערהאַלטנדיקע אָפּזאָגן?
 
-Keep a simple note for a week or two. The NIA says tracking behavior changes can help caregivers and health care providers recognize a pattern and work out the cause.
+האַלט אַ פּשוטע נאָטיץ פֿאַר אַ וואָך אָדער צוויי. די NIA זאָגט, אַז נאָכפֿאָלגן ענדערונגען אין פֿאַרהאַלטן קען העלפֿן זאָרגערס און געזונטהײט־געבערס דערקענען אַ מוסטער און אויספֿינדן די סיבה.
 
-Jot down:
+שרײַבט אַראָפּ:
 
-- the time of day;
-- what you offered and how you asked;
-- what was happening around you (noise, visitors, TV);
-- how they slept, ate and drank, and when they last used the bathroom;
-- any new medicines or recent illness.
+- די צײַט פֿון טאָג;
+- וואָס איר האָט אָנגעבאָטן און ווי איר האָט געפֿרעגט;
+- וואָס איז געווען אַרום אײַך (ראַש, באַזוכער, טעלעוויזאָר);
+- ווי זיי האָבן געשלאָפֿן, געגעסן און געטרונקען, און ווען זיי זענען לעצט געווען אויפֿן קלאָזעט;
+- אַלע נײַע מעדיצינען אָדער לעצטע קראַנקייט.
 
-Patterns often appear quickly: refusals that only happen after 4 p.m., only with a certain game, or only when the TV is on. The Family Caregiver Alliance's [guide to dementia behaviors](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) puts it simply: we cannot change the person, but we can change our own behavior and the environment.
+מוסטערס ווײַזן זיך אָפֿט גיך: אָפּזאָגן, וואָס פּאַסירן בלויז נאָך 4 נאָכמיטאָג, בלויז מיט אַ באַשטימטן שפּיל, אָדער בלויז ווען דער טעלעוויזאָר איז אָן. דער [גיד וועגן פֿאַרהאַלטן פֿון דעמענץ](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) פֿון Family Caregiver Alliance זאָגט עס איינפֿאַך: מיר קענען די פּערזאָן נישט ענדערן, אָבער מיר קענען ענדערן אונדזערע אייגענע פֿאַרהאַלטן און די סביבה.
 
-## When should I talk to a doctor about refusal or frustration?
+## ווען זאָל איך רעדן מיטן דאָקטער וועגן אָפּזאָגן אָדער פֿראַסטראַציע?
 
-Talk to a doctor when behavior changes suddenly, quickly, or along with signs of illness. The NIA says sudden or rapidly fluctuating changes in behavior, especially if the person has had an infection or recent medication changes, should be brought to a doctor's attention immediately.
+רעדט מיטן דאָקטער, ווען די פֿאַרהאַלטן ענדערט זיך פּלוצלינג, שנעל, אָדער צוזאַמען מיט צייכנס פֿון קראַנקייט. די NIA זאָגט, אַז פּלוצלינגדיקע אָדער שנעל־שוואַנקנדיקע ענדערונגען אין פֿאַרהאַלטן, בפֿרט אויב די פּערזאָן האָט געהאַט אַ אינפֿעקציע אָדער לעצטע ענדערונגען אין מעדיצינען, זאָלן גלײַך געמאַלדן ווערן דעם דאָקטער.
 
-Contact their doctor promptly if you notice:
+רופט גלײַך זייער דאָקטער, אויב איר באַמערקט:
 
-- sudden confusion or a big change over hours or days;
-- signs of pain, such as wincing, guarding part of the body, or new trouble moving;
-- fever or other signs of an infection;
-- new or changed medicines followed by a change in behavior;
-- loss of interest in almost everything, tearfulness or withdrawal lasting more than a couple of weeks;
-- refusing food or drink.
+- פּלוצלינגדיקע פֿאַרוואַרטלעכקייט אָדער אַ גרויסע ענדערונג איבער שעהען אָדער טעג;
+- צייכנס פֿון ווייטיק, ווי צוזאַמענקניפּן דאָס פּנים, באַשיצן אַ טייל פֿון גוף, אָדער נײַע שוועריקייט צו באַוועגן זיך;
+- פֿיבער אָדער אַנדערע צייכנס פֿון אינפֿעקציע;
+- נײַע אָדער געענדערטע מעדיצינען, און דערנאָך אַ ענדערונג אין פֿאַרהאַלטן;
+- פֿאַרלוסט פֿון אינטערעס אין כּמעט אַלץ, טרערן אָדער זיך צוריקציִען, וואָס דויערט מער ווי אַ פּאָר וואָכן;
+- אָפּזאָגן עסן אָדער טרינקען.
 
-The Alzheimer's Association recommends a thorough medical checkup for anyone with behavioral symptoms, especially when they appear suddenly. The Family Caregiver Alliance also advises checking with the doctor first, because behavior problems may have a medical cause. Do not start, stop or change any medicine without talking to a doctor or pharmacist.
+די Alzheimer's Association רעקאָמענדירט אַ גרינטלעכע מעדיצינישע אונטערזוכונג פֿאַר ערגעץ, וואָס האָט פֿאַרהאַלטן־סימפּטאָמען, בפֿרט ווען זיי ערשײַנען פּלוצלינג. די Family Caregiver Alliance רעקאָמענדירט אויך צו פֿרעגן ערשט דעם דאָקטער, ווײַל פֿאַרהאַלטן־פּראָבלעמען קענען האָבן אַ מעדיצינישע סיבה. טוט קיין מעדיצין נישט אָנהייבן, אויפֿהערן אָדער ענדערן, אָן צו רעדן מיטן דאָקטער אָדער אַפּטייקער.
 
-If anyone is in danger or there are signs of a medical emergency, call 911. The NIA suggests telling the dispatcher that the person has dementia.
+אויב עמעצער איז אין סכּנה, אָדער עס זענען פֿאַראַן צייכנס פֿון אַ מעדיצינישן נויטפֿאַל, רופט 911. די NIA רעקאָמענדירט צו זאָגן דעם דיספּעטשער, אַז די פּערזאָן האָט דעמענץ. אויב דער כּעס ווערט פֿיזיש, גייט אָפּ און בעט דעם דאָקטער אָדער דאָס זאָרג־טעם אום עצה.
 
-## Is it okay if we do nothing at all?
+## איז עס גוט, אויב מיר טאָן גאָר גאָרנישט?
 
-Yes. Some days the best activity is no activity: sitting together, holding hands, listening to a favorite record, or watching birds out the window. That is not a failure. Our [guide to playing together](/caregiving/how-to-play-together/) explains why stopping early, or never starting, can be the right call.
+יאָ. עטלעכע טעג איז די בעסטע אַקטיוויטעט קיין אַקטיוויטעט: צוזאַמען זיצן, האַלטן די הענט, הערן אַ ליבלינג־פּלאַטע, אָדער פֿייגל קוקן דורכן פֿענצטער. דאָס איז נישט קיין מפּלה. [אונדזער גיד וועגן צוזאַמען שפּילן](/caregiving/how-to-play-together/) דערקלערט, פֿאַר וואָס ערשט אויפֿהערן, אָדער גאָר נישט אָנהייבן, קען זײַן דער ריכטיקער רוף.

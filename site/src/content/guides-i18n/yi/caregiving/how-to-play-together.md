@@ -1,34 +1,34 @@
 ---
-title: "How to Play Games with Someone Who Has Dementia"
-description: "A practical guide to playing games with someone living with dementia: setting up, pacing, never correcting, making games easier, and knowing when to stop."
+title: "ווי מען שפּילט שפּילן מיט אַ מענטש וואָס האָט דעמענץ"
+description: "אַ פּראַקטיש גיד צו שפּילן מיט אַ מענטש וואָס לעבט מיט דעמענץ: צוגרייטן, דעם טעמפּאָ באַשטימען, קיינמאָל נישט קאָרעגירן, שפּילן לײַכטער מאַכן און וויסן ווען צו אויפֿהערן."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Treat a game as time together, not a test. Pick a calm time of day, sit side
-  by side in a quiet room, and offer one simple game. Let the person set the
-  pace, never correct harmless mistakes, make the game easier at the first sign
-  of strain, and turn pictures into conversation. Stop while it still feels
-  good. Ending early, or simply watching together, is a good outcome.
+  באַהאַנדלט אַ שפּיל ווי צײַט צוזאַמען, נישט ווי אַ טעסט. קלײַבט אַ רויִקע צײַט פֿון טאָג,
+  זעצט זיך זײַט־בײַ־זײַט אין אַ שטילן צימער, און בייט אָן איין פּשוטן שפּיל. לאָזט די
+  פּערזאָן באַשטימען דאָס טעמפּאָ, קאָרעגירט קיין אומשעדלעכע פֿעלערן נישט, מאַכט דעם שפּיל
+  לײַכטער בײַם ערשטן צייכן פֿון שפּאַנונג, און פֿאַרוואַנדלט בילדער אין שמועס. הערט אויף
+  בשעת עס פֿילט זיך נאָך גוט. אויפֿהערן פֿרי, אָדער נאָר צוזאַמען קוקן, איז אַ גוטער רעזולטאַט.
 keyPoints:
-  - "The goal is enjoyment and connection, not finishing or getting answers right."
-  - "Set up first: quiet room, good light, glasses and hearing aids on, TV off, one game ready."
-  - "Do not correct harmless mistakes. Say \"Let's try it this way\" or just carry on."
-  - "Make a game easier before frustration builds: fewer pictures, fewer choices, pictures left visible."
-  - "Use pictures as a starting point for stories with \"Tell me about...\" instead of \"Do you remember...?\""
-  - "Stop at the first signs of tiredness or upset. Stopping early is a success, not a failure."
+  - "דער ציל איז פֿאַרגעניגן און פֿאַרבינדונג, נישט צו פֿאַרענדיקן אָדער ריכטיק צו ענטפֿערן."
+  - "גרייט פֿריער אָן: אַ שטילער צימער, גוטע ליכט, בריל און געהער־אַפּאַראַטן אויף, טעלעוויזאָר אויס, איין שפּיל גרייט."
+  - "קאָרעגירט נישט קיין אומשעדלעכע פֿעלערן. זאָגט „לאָמיר פּרובירן אַזוי“ אָדער גייט פּשוט װײַטער."
+  - "מאַכט אַ שפּיל לײַכטער, איידער די אויפֿרעגונג װאַקסט: װײניקער בילדער, װײניקער ברירות, די בילדער בלײַבן זיכטבאַר."
+  - "ניצט בילדער ווי אַ אָנהייב פֿאַר מעשׂיות מיט „דערציילט מיר וועגן...“ אַנשטאָט „דערמאָנט איר זיך...?“"
+  - "הערט אויף בײַ די ערשטע צייכנס פֿון מידקייט אָדער אויפֿרעגונג. פֿרי אויפֿהערן איז אַ דערפֿאָלג, נישט אַ מיסלונג."
 faq:
-  - q: "How long should we play a game?"
-    a: "There is no correct length. For many people, a few minutes is plenty, and some days a single round is enough. Watch the person rather than the clock, and stop while they still seem relaxed."
-  - q: "Should I let them win or pretend not to notice mistakes?"
-    a: "In a shared, low-pressure game there is nothing to win or lose. If a mistake does not bother the person, let it go. If it seems to bother them, quietly help or make the game easier without pointing it out."
-  - q: "What if they would rather watch me play?"
-    a: "That is fine. The National Institute on Aging suggests letting a person simply watch if they seem to enjoy that more. Talk about what you see and invite them to point or choose whenever they like."
-  - q: "Are these games a way to test memory?"
-    a: "No. Our games are simple shared activities for enjoyment and conversation. They are not a memory test, do not measure anything, and are not a treatment for dementia."
-  - q: "Which game is best to start with?"
-    a: "Start with the simplest one that fits the person. Picture Pairs with four tiles and pictures left visible, or Find the Same with two choices, are gentle starting points. Conversation Cards work well if the person enjoys talking more than tapping."
+  - q: "ווי לאַנג זאָלן מיר שפּילן אַ שפּיל?"
+    a: "עס איז קיין ריכטיקע לענג נישט. פֿאַר פֿילע מענטשן איז עטלעכע מינוט גענוג, און עטלעכע טעג איז אַ איין רונד גענוג. קוקט אויף דער פּערזאָן און נישט אויף דער זייגער, און הערט אויף בשעת זיי זענען נאָך באַרויִקט."
+  - q: "זאָל איך זיי לאָזן געווינען, אָדער מאַכן ווי איך זע נישט די פֿעלערן?"
+    a: "אין אַ געמיינזאַמען שפּיל מיט ווייניק דרוק איז נישטאָ וואָס צו געווינען אָדער פֿאַרלירן. אויב אַ פֿעלער שטערט די פּערזאָן נישט, לאָזט עס גיין. אויב עס דאַכט זיך, אַז עס שטערט זיי, העלפֿט שטיל אָדער מאַכט דעם שפּיל לײַכטער, אָן עס צו ווײַזן."
+  - q: "וואָס אויב זיי וועלן ליבער קוקן ווי איך שפּיל?"
+    a: "דאָס איז גוט. דאָס נאַציאָנאַלע אינסטיטוט פֿאַר עלטער (NIA) רעקאָמענדירט צו לאָזן אַ מענטש נאָר קוקן, אויב עס דאַכט זיך, אַז זיי האָבן דערפֿון מער הנאה. רעדט וועגן וואָס איר זעט, און לאָדט זיי אײַן צו ווײַזן אָדער צו קלײַבן ווען זיי ווילן."
+  - q: "צי זענען די שפּילן אַ וועג צו טעסטן דאָס זכרון?"
+    a: "ניין. אונדזערע שפּילן זענען פּשוטע געמיינזאַמע אַקטיוויטעטן פֿאַר פֿאַרגעניגן און שמועס. זיי זענען נישט קיין זכרון־טעסט, מעסטן גאָרנישט, און זענען נישט קיין באַהאַנדלונג פֿאַר דעמענץ."
+  - q: "וואָס איז דער בעסטער שפּיל צו הייבן אָן מיט?"
+    a: "הייבט אָן מיט דעם פּשוטסטן, וואָס פּאַסט פֿאַר דער פּערזאָן. בילד־פּאָרן מיט פֿיר פּלעטלעך און בילדער, וואָס בלײַבן זיכטבאַר, אָדער געפֿינען דאָס זעלביקע מיט צוויי ברירות, זענען זייכטע אָנהייבן. שמועס־קאַרטלעך אַרבעטן גוט, אויב די פּערזאָן האָט ליבער צו רעדן ווי צו קלאַפּן."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,127 +47,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-A good game with someone living with dementia does not look like a contest. It looks like two people sitting close, pointing at pictures, laughing at a saying, and talking about whatever comes up. The game is just a reason to spend time together.
+אַ גוטער שפּיל מיט אַ מענטש וואָס לעבט מיט דעמענץ זעט נישט אויס ווי אַ קאָנקורס. ער זעט אויס ווי צוויי מענטשן, וואָס זיצן נאָענט, ווײַזן מיט אַ פֿינגער אויף בילדער, לאַכן פֿון אַ ספּרוך און רעדן וועגן וואָס עס קומט אויף. דער שפּיל איז נאָר אַ סיבה צו פֿאַרברענגען צײַט צוזאַמען.
 
-This guide covers how to set up, how to pace a game, what to say when something goes "wrong", how to make any game easier or a little harder, how to turn it into conversation, and how to know when to stop. It works for our [games](/games/) and for cards, puzzles and board games you already have.
+דער גיד באַהאַנדלט ווי מען גרייט זיך אָן, ווי מען באַשטימט דעם טעמפּאָ פֿון אַ שפּיל, וואָס צו זאָגן ווען עפּעס גייט „פֿאַלש“, ווי מען מאַכט יעדן שפּיל לײַכטער אָדער אַ ביסל שווערער, ווי מען פֿאַרוואַנדלט עס אין אַ שמועס, און ווי צו וויסן ווען צו אויפֿהערן. ער פּאַסט פֿאַר אונדזערע [שפּילן](/games/) און פֿאַר קאַרטן, פּאַזלען און ברעט־שפּילן, וואָס איר האָט שוין.
 
-## What is the best way to play a game with someone who has dementia?
+## וואָס איז דער בעסטער וועג צו שפּילן מיט אַ מענטש וואָס האָט דעמענץ?
 
-Focus on enjoyment, not achievement. That is the core advice from the [Alzheimer's Association guidance on activities](https://www.alz.org/help-support/caregiving/daily-care/activities): build on skills the person still has, help them get started, finish the hard parts yourself, and do not criticize or correct harmless activities.
+פֿאָקוסירט אויף פֿאַרגעניגן, נישט אויף דערגרייכונג. דאָס איז דער עיקר־עצה פֿון [די הנחיות פֿון Alzheimer's Association וועגן אַקטיוויטעטן](https://www.alz.org/help-support/caregiving/daily-care/activities): בויט אויף כּוחות, וואָס די פּערזאָן האָט נאָך, העלפֿט זיי אָנהייבן, מאַכט די שווערע טיילן אַלײן, און קריטיקירט נישט און קאָרעגירט נישט קיין אומשעדלעכע אַקטיוויטעטן.
 
-In practice that means:
+אין פּראַקטיק הייסט דאָס:
 
-- **Sit beside them, not across.** Side by side, you can both see the screen or table, and helping feels like teamwork rather than supervision.
-- **Offer one game at a time.** A menu of choices can feel like a test before anything starts.
-- **Follow their lead.** If they want to tap the pictures in their own order, talk about one picture for ten minutes, or stop after two turns, that is the game today.
-- **Count the good moments, not the finished rounds.** A smile, a story or a calm half hour is the outcome you are looking for.
+- **זיצט נעבן זיי, נישט קעגנאיבער.** זײַט־בײַ־זײַט קענט איר ביידע זען דעם עקראַן אָדער טיש, און הילף פֿילט זיך ווי טים־אַרבעט און נישט ווי אויפּזיכט.
+- **בייט אָן איין שפּיל אויף אַ מאָל.** אַ מענו פֿון ברירות קען פֿילן ווי אַ טעסט, איידער עס הייבט זיך אָן.
+- **גייט נאָך זייער פֿירונג.** ווילן זיי טיפּן די בילדער אין זייער אייגענער סדר, רעדן וועגן איין בילד צען מינוט, אָדער אויפֿהערן נאָך צוויי צוגן — דאָס איז דער שפּיל הײַנט.
+- **צײַלט די גוטע מאָמענטן, נישט די פֿאַרענדיקטע ראַונדס.** אַ שמייכל, אַ מעשׂה אָדער אַ שטילע האַלבע שעה איז דער רעזולטאַט, וואָס איר זוכט.
 
-## How do I set up before we start?
+## ווי גרייט איך זיך אָן פֿאַר דעם אָנהייב?
 
-A few minutes of setup prevents most of the frustration that people blame on the game itself.
+עטלעכע מינוט צוגרייטן פֿאַרמיידט די מערסטע פֿרוסטרירונג, וואָס מענטשן שטעלן די שולד אויפֿן שפּיל אַליין.
 
-1. **Pick their best time of day.** The [National Institute on Aging (NIA) guidance on adapting activities](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) suggests planning outings and activities for the time of day when the person is at their best. For many people that is mid-morning. Late afternoon is often harder; see [calm late-afternoon activities](/caregiving/late-day-restlessness/).
-2. **Make the room quiet.** Turn off the TV and radio and close the door if you can. The [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) recommends limiting noise and distractions before you try to talk.
-3. **Check comfort first.** A drink nearby, a bathroom trip beforehand, a comfortable chair, and glasses and hearing aids on.
-4. **Light the space well.** Bright, even light without glare on the screen makes pictures easier to see.
-5. **Get the game ready before you sit down.** Open it, choose the settings and set the volume yourself. Then turn the screen toward them. For tablet tips, see [setting up a tablet or phone](/caregiving/tablets-and-screens/).
-6. **Prop the device up.** A stand or case that holds the tablet upright means nobody has to hold it, and it is easier to point.
+1. **קלײַבט זייער בעסטע צײַט פֿון טאָג.** [די NIA־הנחיות וועגן אַדאַפּטירן אַקטיוויטעטן](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) רעקאָמענדירן צו פּלאַנירן אויסגאַנגען און אַקטיוויטעטן אויף דער צײַט, ווען די פּערזאָן איז אין זייער בעסטן. פֿאַר פֿילע איז דאָס האַלב־פֿאַרמיטאָג. שפּעטער נאָכמיטאָג איז אָפֿט שווערער; זען [רויִקע נאָכמיטאָג־אַקטיוויטעטן](/creative-calm/calm-afternoon-activities/).
+2. **מאַכט דעם צימער שטיל.** שליסט אָפּ דעם טעלעוויזאָר און ראַדיאָ און מאַכט די טיר צו, אויב איר קענט. [די Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) רעקאָמענדירט צו באַגרענצן ראַש און אָפּלענקונגען, איידער איר הייבט אָן צו רעדן.
+3. **בדקט קאָמפֿאָרט ערשט.** אַ טרונק לעבן, אַ באַזוך אויפֿן קלאָזעט פֿריער, אַ באַקוועמער שטול, און בריל און געהער־אַפּאַראַטן אויף.
+4. **באַלייכט דעם פּלאַץ גוט.** העלע, גלײַכע ליכט אָן גלאַנץ אויפֿן עקראַן מאַכט די בילדער לײַכטער צו זען.
+5. **גרייט דעם שפּיל, פֿאַר איר זעצט זיך אַראָפּ.** עפֿנט אים, קלײַבט די אײַנשטעלונגען און שטעלט די קול־שטאַרקייט אַלײן. דערנאָך דרייט דעם עקראַן צו זיי. שטעלט אָן גרעסערן טעקסט אויפֿן אַפּאַראַט, אויב עס העלפֿט.
+6. **שטעלט אויף דעם אַפּאַראַט.** אַ שטענדער אָדער אַ קעיס, וואָס האַלט דעם טאַבלעט אויפֿרעכט, מאַכט אַז קיינער דאַרף עס נישט האַלטן, און עס איז לײַכטער צו ווײַזן.
 
-## How do I invite them without pressure?
+## ווי לאָד איך זיי אײַן אָן דרוק?
 
-Make the invitation casual and easy to decline. Some phrases that tend to land well:
+מאַכט די איינלאַדונג פּשוט און לײַכט צו אָפּזאָגן. עטלעכע זאַצן, וואָס פּאַסן געוויינלעך גוט:
 
-- "I found some garden pictures. Want to look at them with me?"
-- "Could you help me with this puzzle? I'm stuck."
-- "Would you like the flowers or the birds today?" (a choice of two is easier than an open question)
-- "I'm making a card for your sister. Which color should this be?"
+- „איך האָב געפֿונען עטלעכע בילדער פֿון גאָרטן. ווילט איר זיי מיט מיר אָנקוקן?“
+- „קענט איר מיר העלפֿן מיט דעם פּאַזל? איך קום נישט װײַטער.“
+- „ווילט איר הײַנט די בלומען אָדער די פֿייגל?“ (אַ ברירה פֿון צוויי איז לײַכטער ווי אַן אָפֿענע פֿראַגע)
+- „איך מאַך אַ קאַרטל פֿאַר אײַער שוועסטער. וועלכע פֿאַרב זאָל דאָס זײַן?“
 
-The Alzheimer's Association suggests explaining the purpose of an activity, such as making a card for a friend, because a reason gives it meaning. Asking for help also works because it lets the person feel useful.
+די Alzheimer's Association רעקאָמענדירט צו דערקלערן דעם ציל פֿון אַ אַקטיוויטעט, למשל צו מאַכן אַ קאַרטל פֿאַר אַ פֿריינד, ווײַל אַ סיבה גיט דעם זינען. בעטן אַ הילף אַרבעט אויך, ווײַל עס לאָזט די פּערזאָן פֿילן זיך נוציק.
 
-If they say no, accept it. Try again later or offer something different. Our guide on [what to do when they say no](/caregiving/when-they-say-no/) goes further.
+אויב זיי זאָגן ניין, נעמט עס. פּרוּווט שפּעטער װידער, אָדער ביט אָן עפּעס אַנדערש. [אונדזער גיד וועגן דעם וואָס צו טאָן ווען זיי זאָגן ניין](/caregiving/when-they-say-no/) גייט װײַטער.
 
-## How long should a game last, and how fast should we go?
+## ווי לאַנג זאָל אַ שפּיל דויערן, און ווי גיך זאָלן מיר גיין?
 
-Let the person set the pace, and plan for short sessions. There is no evidence-based ideal length for a shared game. Two to five calm minutes can be a complete activity.
+לאָזט די פּערזאָן באַשטימען דעם טעמפּאָ, און פּלאַנירט קורצע זיצונגען. עס איז נישטאָ קיין וויסנשאַפֿטלעך באַוויזענע אידעאַל לענג פֿאַר אַ געמיינזאַמען שפּיל. צוויי ביז פֿינף רויִקע מינוט קענען זײַן אַ פֿולשטענדיקע אַקטיוויטעט.
 
-- **Wait longer than feels natural.** The NIA advises allowing more time for a person to respond and trying not to interrupt. Count to ten in your head before you help.
-- **One step at a time.** Give a single, short instruction ("Tap a picture"), then wait. Show rather than explain: point to where to tap.
-- **Pause freely.** If they stop to talk about a picture, the game can wait. There is no need to rush.
-- **Let them watch.** The NIA notes that some people prefer to watch, and that is a valid choice.
+- **וואַרט לענגער ווי עס פֿילט זיך נאַטירלעך.** דער NIA רעקאָמענדירט מער צײַט פֿאַר אַ מענטש צו ענטפֿערן, און פּרובירט נישט צו אונטערברעכן. צײַלט אין קאָפּ ביז צען, איידער איר העלפֿט.
+- **איין שריט אויף אַ מאָל.** גיט אַ איינציקע, קורצע הוראה („טאַפּט אַ בילד“), און וואַרט. ווײַזט, אַנשטאָט צו דערקלערן: ווײַזט מיט אַ פֿינגער, ווּו צו טאַפּן.
+- **האַלט אָן פֿרײַ.** אויב זיי הערן אויף צו רעדן וועגן אַ בילד, קען דער שפּיל וואַרטן. עס איז נישט נייטיק צו אײַלן.
+- **לאָזט זיי קוקן.** דער NIA באַמערקט, אַז עטלעכע מענטשן האָבן ליב צו קוקן, און דאָס איז אַ גילטיקע ברירה.
 
-## Should I correct wrong answers?
+## צי זאָל איך קאָרעגירן פֿאַלשע ענטפֿערס?
 
-No. Gently correcting someone again and again tells them they are failing, even when you mean well. The Alzheimer's Association advises not to criticize or correct harmless activities. In a game, almost every mistake is harmless.
+ניין. סאָפֿט קאָרעגירן איינעם איבער און איבער, איז אַ וועג צו זאָגן זיי, אַז זיי זענען נישט גוט, אפֿילו ווען איר מיינט גוט. די Alzheimer's Association רעקאָמענדירט נישט צו קריטיקירן אָדער קאָרעגירן אומשעדלעכע אַקטיוויטעטן. אין אַ שפּיל איז כּמעט יעדער פֿעלער אומשעדלעך.
 
-| Instead of | Try |
+| אַנשטאָט | פּרובירט |
 | --- | --- |
-| "No, that's wrong." | "Let's try it this way." (an example the NIA gives) |
-| "That's not a match. Look again." | Say nothing and take the next turn, or "Oh, those are both red." |
-| "Do you remember who this is?" | "Tell me about this picture." |
-| "You already did that one." | "That's a good one. Let's do it again." |
-| "Come on, you know this." | "Want me to show the ending?" |
+| „נײן, דאָס איז פֿאַלש.“ | „לאָמיר עס מאַכן אַזוי.“ (אַ ביישפּיל וואָס דער NIA גיט) |
+| „דאָס איז נישט קיין פּאָר. קוקט נאָך אַ מאָל.“ | גאָר נישט זאָגן און גיין צום ווײַטערדיקן צוג, אָדער „אָה, ביידע זענען רויט.“ |
+| „דערמאָנט איר זיך, ווער דאָס איז?“ | „דערציילט מיר וועגן דעם בילד.“ |
+| „איר האָט דאָס שוין געטאָן.“ | „דאָס איז אַ גוטער. לאָמיר עס נאָך אַ מאָל טאָן.“ |
+| „נו, איר ווייסט דאָס.“ | „ווילט איר, איך זאָל ווײַזן דעם סוף?“ |
 
-If a mistake clearly frustrates them, help quietly. Point to the right picture, take a turn yourself, or make the game easier next round. If a saying gets a funny wrong ending, laugh along. Their ending might be better.
+אויב אַ פֿעלער שטערט זיי קלאָר, העלפֿט שטיל. ווײַזט אָן דעם ריכטיקן בילד, טוט אַ צוג אַלײן, אָדער מאַכט דעם שפּיל לײַכטער אין דער ווײַטערדיקער ראָונד. אויב אַ ספּרוך באַקומט אַ לוסטיקן פֿאַלשן סוף, לאַכט מיט. זייער ענדיקונג קען זײַן בעסער.
 
-## How do I make a game easier or harder?
+## ווי מאַכט מען אַ שפּיל לײַכטער אָדער שווערער?
 
-Adjust the game to the person on the day, not to a stage label. The same person may need a simpler version in the evening than in the morning. The NIA's first tip is to match the activity to what the person can do and to make sure they feel successful.
+פּאַסט דעם שפּיל צו דער פּערזאָן אויפֿן טאָג, נישט צו אַ סטאַדיע־תווית. דער זעלבער מענטש קען אין אָוונט דאַרפֿן אַ פּשוטערע ווערסיע ווי אין פֿרי. דער ערשטער עצה פֿון NIA איז צו פּאַסן די אַקטיוויטעט צו וואָס די פּערזאָן קען טאָן, און צו מאַכן זיכער, אַז זיי פֿילן זיך אַ דערפֿאָלג.
 
-| Game | Make it easier | Make it a little harder |
+| שפּיל | לײַכטער מאַכן | אַ ביסל שווערער מאַכן |
 | --- | --- | --- |
-| [Picture Pairs](/games/picture-pairs/) | Start with 4 tiles and leave pictures visible | More tiles, or hide pictures if that feels comfortable |
-| [Find the Same](/games/find-the-same/) | 2 choices | Up to 4 choices |
-| [Sort Together](/games/sort-together/) | You hold the picture, they point to the basket | They tap both picture and basket on their own |
-| [Picture Puzzle](/games/picture-puzzle/) | 4 pieces, talk about the whole picture first | 9 pieces |
-| [Finish the Saying](/games/finish-the-saying/) | Show the ending, then say it together | Let them say the ending before tapping |
-| [Word Search](/games/word-search/) | Print it, look for one word together, point to its first letter | Let them choose the next word to find |
-| [Coloring](/games/coloring/) | You pick two colors, they choose between them | They choose all the colors |
-| [Conversation Cards](/games/conversation-cards/) | Just look at the picture together | Use the open prompts on the card |
-| [Photo Pairs](/games/photo-pairs/) | A few well-loved family photos | Add more photos |
-| [Picture Bingo](/games/picture-bingo/) | A helper sits with each player | Players mark their own cards |
-| [Calm Breathing](/games/calm-breathing/) | Just sit and watch it together | Breathe along slowly |
+| [בילד־פּאָרן](/games/picture-pairs/) | הייבט אָן מיט 4 פּלעטלעך און לאָזט די בילדער זיכטבאַר | מער פּלעטלעך, אָדער באַהאַלט די בילדער, אויב עס איז באַקוועם |
+| [געפֿינען דאָס זעלביקע](/games/find-the-same/) | 2 ברירות | ביז 4 ברירות |
+| [צוזאַמען סאָרטירן](/games/sort-together/) | איר האַלט דאָס בילד, זיי ווײַזן מיט אַ פֿינגער אויפֿן קאָשיק | זיי טאַפּן בײַדע, בילד און קאָשיק, אַליין |
+| [בילד־פּאַזל](/games/picture-puzzle/) | 4 שטיקלעך, ערשט רעדט וועגן דעם גאַנצן בילד | 9 שטיקלעך |
+| [ענדיקן דעם ספּרוך](/games/finish-the-saying/) | ווײַזט דאָס ענדיקן, דערנאָך זאָגט עס צוזאַמען | לאָזט זיי זאָגן דעם ענדיקן, איידער איר טאַפּט |
+| [ווערטער־זוכן](/games/word-search/) | דרוקט עס אויס, זוכט איין וואָרט צוזאַמען, ווײַזט מיט אַ פֿינגער אויפֿן ערשטן בוקסטאַב | לאָזט זיי קלײַבן דאָס ווײַטערדיקע וואָרט צו געפֿינען |
+| [פֿאַרבן](/games/coloring/) | איר קלײַבט צוויי פֿאַרבן, זיי קלײַבן צווישן זיי | זיי קלײַבן אַלע פֿאַרבן |
+| [שמועס־קאַרטלעך](/games/conversation-cards/) | קוקט נאָר צוזאַמען אויפֿן בילד | ניצט די אָפֿענע הינווײַזן אויפֿן קאַרטל |
+| [פֿאָטאָ־פּאָרן](/games/photo-pairs/) | עטלעכע באַליבטע משפּחה־פֿאָטאָס | לייגט צו מער פֿאָטאָס |
+| [בילד־בינגאָ](/games/picture-bingo/) | אַ העלפֿער זיצט מיט יעדן שפּילער | שפּילער מאַרקירן זייערע אייגענע קאַרטן |
+| [רויִק אָטעמען](/games/calm-breathing/) | נאָר זיצן און קוקן צוזאַמען | אָטעמט מיט, לאַנגזאַם |
 
-Signs the game is too hard: long pauses that look worried rather than thoughtful, repeated "I can't", pushing the device away, or mistakes that upset them. Signs it might be too easy: boredom, or them saying it is childish. If that happens, respect it and switch to something that feels grown-up, such as a word search, a puzzle of a real photograph, or talking about a picture of their old line of work.
+צייכנס אַז דער שפּיל איז צו שווער: לאַנגע פּאַוזעס, וואָס זען זיך אויס ווי זאָרג און נישט ווי נאָכטראַכטן, איבערחזרטע „איך קען נישט“, אַוועקשטופּן דעם אַפּאַראַט, אָדער פֿעלערן, וואָס מאַכן זיי אויפֿגערעגט. צייכנס אַז עס קען זײַן צו לײַכט: לאַנגווײַל, אָדער ווען זיי זאָגן, אַז עס איז קינדיש. אויב דאָס פּאַסירט, רעספּעקטירט עס און שטעלט איבער צו עפּעס, וואָס פֿילט זיך ערוואַקסן, ווי אַ ווערטער־זוכן, אַ פּאַזל פֿון אַ פֿאָטאָ, אָדער רעדן וועגן אַ בילד פֿון זייער אַלטער אַרבעט.
 
-## How do I turn a game into a conversation?
+## ווי מאַכט מען אַ שפּיל אין אַ שמועס?
 
-Use each picture as an invitation to talk, and treat whatever they say as a good answer. For many families, this is the best part of playing.
+ניצט יעדן בילד ווי אַן איינלאַדונג צו רעדן, און באַהאַנדלט וואָס זיי זאָגן ווי אַ גוטן ענטפֿער. פֿאַר פֿילע משפּחות איז דאָס דער בעסטער טייל פֿון שפּילן.
 
-- **Ask open, no-wrong-answer questions.** "What do you notice?" "Which one do you like?" "Tell me about a kitchen like this."
-- **Share first.** "My grandmother had a dog like this." Your story makes it easier for them to share one.
-- **Follow the tangent.** If a picture of a car leads to a story about a road trip, the story is the activity. Leave the game paused.
-- **Do not fact-check.** In reminiscence, a pleasant conversation matters more than accurate details. If the story changes from last time, enjoy the new version.
-- **Use the built-in prompts.** [Finish the Saying](/games/finish-the-saying/) follows each saying with a talking prompt, and [Conversation Cards](/games/conversation-cards/) are designed for exactly this. [Photo Pairs](/games/photo-pairs/) uses your own family photos, which often spark the richest stories.
+- **פֿרעגט אָפֿענע פֿראַגעס, אָן ריכטיקע ענטפֿערס.** „וואָס באַמערקט איר?“ „וועלכע געפֿעלט אײַך?“ „דערציילט מיר וועגן אַ קיך ווי די.“
+- **דערציילט ערשט אײַער.** „מײַן באָבע האָט געהאַט אַ הינט ווי דעם.“ אײַער מעשׂה מאַכט עס לײַכטער פֿאַר זיי צו טיילן איינע.
+- **גייט נאָך דער אָפּווײַכונג.** אויב אַ בילד פֿון אַ מאַשין פֿירט צו אַ מעשׂה וועגן אַ נסיעה, איז די מעשׂה די אַקטיוויטעט. לאָזט דעם שפּיל אָנגעהאַלטן.
+- **קאָנטראָלירט נישט די פֿאַקטן.** אין זכרונות־שמועסן איז אַ לוסטיק שמועס וויכטיקער ווי גענוי פּרטים. אויב די מעשׂה ענדערט זיך פֿון לעצטן מאָל, באַנוצט די נײַע ווערסיע.
+- **ניצט די אײַנגעבויטע הינווײַזן.** [ענדיקן דעם ספּרוך](/games/finish-the-saying/) גיט נאָך יעדן ספּרוך אַ רעדע־הינווײַז, און [שמועס־קאַרטלעך](/games/conversation-cards/) זענען געמאַכט פֿאַר פּונקט דאָס. [פֿאָטאָ־פּאָרן](/games/photo-pairs/) ניצט אײַערע אייגענע משפּחה־פֿאָטאָס, וואָס מאַכן אָפֿט די רײַכסטע מעשׂיות.
 
-More ideas are in our guides to [reminiscence activities](/activities/reminiscence/) and [communication tips](/caregiving/communication-tips/).
+מער אידעען זענען אין אונדזער גיד וועגן [זכרונות־אַקטיוויטעטן](/activities/reminiscence/). פֿאַר שטיצע נאָך אַ דיאַגנאָז, זען [די ערשטע שריט נאָך אַ דיאַגנאָז](/caregiving/after-dementia-diagnosis/).
 
-## When should we stop?
+## ווען זאָלן מיר אויפֿהערן?
 
-Stop at the first signs of tiredness or upset, and ideally a little before. The Alzheimer's Association advises stopping or changing an activity when attention fades or frustration rises.
+הערט אויף בײַ די ערשטע צייכנס פֿון מידקייט אָדער אויפֿרעגונג, און אידעאַלערווײַז אַ ביסל פֿריער. די Alzheimer's Association רעקאָמענדירט צו הערן אויף אָדער צו ענדערן די אַקטיוויטעט, ווען די אויפֿמערקזאַמקייט פֿאַלט אָפּ אָדער די פֿרוסטראַציע וואַקסט.
 
-Watch for:
+קוקט אויף:
 
-- yawning, slumping or eyes drifting away from the screen;
-- fidgeting, standing up, or asking to leave;
-- sighing, short answers, or "I'm no good at this";
-- tapping randomly or pushing the device away;
-- tearfulness, irritation, or a sudden change in mood.
+- גענעץ, אַראָפּהענגען, אָדער די אויגן גייען אָפּ פֿון עקראַן;
+- זיך רירן אומרויִק, אויפֿשטיין, אָדער בעטן צו גיין;
+- זיפֿצן, קורצע ענטפֿערס, אָדער „איך בין נישט גוט דערין“;
+- אומאָרדנטלעך טאַפּן, אָדער אַוועקשטופּן דעם אַפּאַראַט;
+- טרערן, ירגעניש, אָדער אַ פּלוצלינגדיקע ענדערונג אין שטימונג.
 
-How to stop well:
+ווי מען הערט אויף גוט:
 
-- **End on something easy.** One last match they can make, or a final picture to admire.
-- **Make it about you.** "I could use a cup of tea. Shall we stop here?" avoids any hint that they did badly.
-- **Move to something physical or soothing.** A short walk, a snack, folding laundry or music.
-- **Say something warm.** "I liked doing that with you." No praise for "getting it right", just pleasure in the time together.
+- **ענדיקט מיט עפּעס לײַכטס.** איין לעצטער פּאָר, וואָס זיי קענען מאַכן, אָדער אַ לעצטע בילד צו באַוווּנדערן.
+- **מאַכט עס וועגן אײַך.** „איך וואָלט געוואָלט אַ גלעזל טיי. זאָלן מיר דאָ אויפֿהערן?“ פֿאַרמײַדט יעדן הינווײַז, אַז זיי האָבן שלעכט געטאָן.
+- **גייט צו עפּעס פֿיזיש אָדער באַרויִקנדיק.** אַ קורצער שפּאַציר, אַ שניטעלע, וועש צונויפֿפֿאַלטן, אָדער מוזיק.
+- **זאָגט עפּעס וואַרעמס.** „עס האָט מיר געפֿעלן דאָס צו טאָן מיט דיר.“ קיין שבח פֿאַר „ריכטיק געטראָפֿן“, נאָר פֿרײד פֿון דער צײַט צוזאַמען.
 
-Ending early, changing plans, or giving up on the game and just sitting together are all good outcomes.
+פֿרי אויפֿהערן, אַ ענדערונג פֿון די פּלענער, אָדער אויפֿגעבן דעם שפּיל און נאָר צוזאַמען זיצן, זענען אַלע גוטע רעזולטאַטן.
 
-## Can we play in a group or over a video call?
+## קענען מיר שפּילן אין אַ גרופּע אָדער איבער אַ ווידעאָ־רוף?
 
-Yes, with a little extra setup. In a group, keep it to a few people, seat helpers next to anyone who needs them, and choose a game with a clear shared focus. [Picture Bingo](/games/picture-bingo/) has printable cards and an on-screen caller for groups. See [activities for care home groups](/activities/care-home-groups/) for more.
+יאָ, מיט אַ ביסל עקסטרע צוגרייטונג. אין אַ גרופּע, האַלט עס צו עטלעכע מענטשן, זעצט העלפֿער נעבן יעדן, וואָס דאַרף עס, און קלײַבט אַ שפּיל מיט אַ קלאָר געמיינזאַמער פֿאָקוס. [בילד־בינגאָ](/games/picture-bingo/) האָט אויסדרוקבאַרע קאַרטן און אַ רופֿער אויפֿן עקראַן פֿאַר גרופּן. זען [אַקטיוויטעטן פֿאַר גרופּן אין זאָרג־היימען](/crafts/craft-group-sessions/) פֿאַר מער.
 
-Over a video call, the person on the call can describe a picture while someone in the room points and taps. Keep calls short and familiar. Our guide to [phone and video calls](/activities/phone-and-video-calls/) has more tips.
+איבער אַ ווידעאָ־רוף קען די מענטש אויפֿן רוף באַשרײַבן אַ בילד, בשעת עמעצער אין צימער ווײַזט און טאַפּט. האַלט די רופֿן קורץ און באַקאַנט. אונדזער גיד וועגן [טעלעפֿאָן־ און ווידעאָ־רופֿן](/together/staying-connected-from-afar/) האָט מער עצות.
 
-## What if a game just isn't working?
+## וואָס אויב אַ שפּיל ארבעט נישט?
 
-Some days nothing lands, and that is not a reflection on you or on them. Put the game away and try another time of day, a different game, or no game at all. Many good activities have nothing to do with screens: music, folding towels, looking through a photo album, or a short walk. Browse our [activity ideas](/activities/ideas/) for more.
+עטלעכע טעג גייט גאָרנישט אַרײַן, און דאָס איז נישט קיין שולד פֿון אײַך אָדער פֿון זיי. לייגט דעם שפּיל אַוועק און פּרוּווט אַן אַנדער צײַט פֿון טאָג, אַ אַנדער שפּיל, אָדער גאָר קיין שפּיל. פֿילע גוטע אַקטיוויטעטן האָבן גאָרנישט צו טאָן מיט עקראַנען: מוזיק, וועש צונויפֿפֿאַלטן, מיט אַ פֿאָטאָ־אַלבאָם קוקן, אָדער אַ קורצער שפּאַציר. קוקט איבער אונדזערע [אַקטיוויטעט־אידעען](/activities/ideas/) פֿאַר מער.

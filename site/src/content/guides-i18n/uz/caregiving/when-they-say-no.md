@@ -1,35 +1,36 @@
 ---
-title: "Demensiyali inson mashgʻulotdan bosh tortsa"
-seoTitle: "Demensiyali inson mashgʻulotdan bosh tortsa"
-description: "Demensiyali inson nega mashgʻulotdan bosh tortishi yoki asabiylashishi mumkin, nimani sinash, nimadan saqlanish va tuyqus oʻzgarishda shifokorga murojaat."
+title: "Demensiya bilan yashayotgan odam mashgʻulotni rad etsa yoki norozi boʻlsa"
+seoTitle: "Demensiya bilan yashayotgan odam mashgʻulotni rad etganda"
+description: "Demensiya bilan yashayotgan odam nega mashgʻulotni rad etishi yoki unga nisbatan norozi boʻlishi mumkin, oʻrniga nima sinab koʻrish, nimadan saqlanish va qachon shifokorga murojaat qilish kerakligi."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demensiyali inson «yoʻq» desa, buni xotirjam qabul qiling va keyinroq yana
-  urinib koʻring yoki boshqa narsa taklif qiling. Rad etishning koʻpincha sababi
-  boʻladi: ish juda qiyin yoki bolalarcha tuyuladi, inson charchagan, ogʻriq
-  bor, och yoki shovqindan charchagan. Bahslashmang va turib olmang.
-  Soddalashtiring, ikki tanlov taklif qiling yoki yordam soʻrang. Tuyqus yoki
-  tez oʻzgaruvchan xulq-atvor, ayniqsa infeksiya yoki yangi doridan keyin,
-  shifokorga tezda koʻrinishni talab qiladi.
+  Demensiya bilan yashayotgan odam «yoʻq» desa, buni xotirjamlik bilan qabul
+  qiling va keyinroq yana urinib koʻring yoki boshqa narsa taklif qiling. Rad
+  etishning odatda sababi bor: vazifa juda qiyin yoki bolalarcha tuyuladi, odam
+  charchagan, ogʻriq chekayotgan, och qolgan yoki shovqindan toliqqan boʻlishi
+  mumkin. Bahslashmang va majburlamang. Soddalashtiring, ikkita tanlov taklif
+  qiling yoki yordam soʻrang. Keskin yoki tez oʻzgaruvchan xulq, ayniqsa
+  infeksiyadan yoki yangi dori-darmondan keyin boʻlsa, zudlik bilan shifokorga
+  murojaat qilish kerak.
 keyPoints:
-  - "«Yoʻq» hurmat qilinadigan javob, yengib oʻtiladigan muammo emas."
-  - "Rad etishning odatda sababi bor: juda qiyin, juda bolalarcha, charchoq, betoblik, noqulaylik yoki haddan tashqari yuklanish."
-  - "Chetga chiqing, kuting va keyinroq, boshqa vaqtda yoki soddaroq variantda urinib koʻring."
-  - "Ulardan yordam soʻrash ulardan namoyish talab qilishdan koʻra yaxshiroq ishlaydi."
-  - "Hech qachon bahslashmang, turib olmang, savollar bilan sinamang yoki tuzatmang. Oʻzingizni shoshilish yoki bosim qilishga tekshiring."
-  - "Tuyqus yoki tez oʻzgaruvchan xulq-atvor, ayniqsa infeksiya yoki yangi dorilar bilan, darhol shifokorga koʻrsatilishi kerak."
+  - "«Yoʻq» hal qilinadigan muammo emas, hurmat qilinadigan javob."
+  - "Rad etishning odatda sababi bor: juda qiyin, bolalarcha, charchagan, sogʻligi yomon, noqulay yoki haddan tashqari koʻp narsa boʻlayotgan boʻlishi mumkin."
+  - "Orqaga chekining, kuting va keyinroq, boshqa vaqtda yoki soddaroq variant bilan urinib koʻring."
+  - "Bajarishni soʻrashdan koʻra yordam soʻrash yaxshiroq ishlaydi."
+  - "Bahslashmang, majburlamang, savol bermang va tuzatmang. Oʻzingizda shoshilish yoki ustiga bosish bor-yoʻqligini tekshiring."
+  - "Keskin yoki tez oʻzgaruvchan xulq, ayniqsa infeksiya yoki yangi dori-darmonlar bilan, zudlik bilan shifokorga yetkazilishi kerak."
 faq:
-  - q: "Mashgʻulotlarni umuman oʻtkazib yuborishlariga yoʻl qoʻysam boʻladimi?"
-    a: "Ha, istalgan kuni. Birga oʻtirish, musiqa tinglash yoki dunyoga tikilib turish yetarli boʻlishi mumkin. Inson haftalar davomida hamma narsadan zavqlanishni toʻxtatsa, buni shifokoriga ayting, chunki past kayfiyat, ogʻriq yoki boshqa sogʻliq muammolari manzaraning bir qismi boʻlishi mumkin."
-  - q: "Nega ular ilgari yaxshi koʻrgan narsalardan bosh tortadi?"
-    a: "Eski sevimli mashgʻulot endi demensiya qiyinlashtirgan koʻnikmalarni talab qilsa, bezovta qilishi mumkin va inson xijolat tortishi mumkin. Xuddi shu mashgʻulotning soddaroq qismini sinab koʻring, masalan, tikish oʻrniga tugmalarni saralash yoki ekish oʻrniga bogʻ rasmlariga qarash."
-  - q: "Ularni ishontirishga urinishim kerakmi?"
-    a: "Yoʻq. Insonni demensiya qiyinlashtirgan ishni qilishga undash bezovtalikning ma’lum qoʻzgʻatuvchisi. «Yoʻq»ni qabul qiling, mavzuni oʻzgartiring va keyinroq yoki boshqacha usulda yana taklif qiling."
-  - q: "Xulq-atvor oʻzgarishi qachon favqulodda holat?"
-    a: "Kimdir xavfda boʻlsa yoki tibbiy favqulodda holat belgilari boʻlsa, hududingizdagi favqulodda raqamga qoʻngʻiroq qiling. Tuyqus chalkashlik yoki soatlar yoki kunlar ichida tez oʻzgaradigan xulq-atvor uchun, ayniqsa isitma, infeksiya yoki yangi dori bilan, darhol shifokoriga murojaat qiling."
+  - q: "Ularga mashgʻulotlarni butunlay oʻtkazib yuborishga ruxsat berish kerakmi?"
+    a: "Ha, istalgan kuni. Birga oʻtirish, musiqa tinglash yoki atrofdagi dunyoni kuzatish yetarli boʻlishi mumkin. Agar odam bir necha hafta davomida hamma narsadan zavq olishni toʻxtatsa, buni shifokorga ayting, chunki past kayfiyat, ogʻriq yoki boshqa sogʻliq muammolari sabab boʻlishi mumkin."
+  - q: "Nega ular bir paytlar yoqtirgan narsalarni rad etadi?"
+    a: "Eski sevimli mashgʻulot endi demensiya qiyinlashtirgan koʻnikmalarni talab qilsa, odam gʻazablanishi va uyalishi mumkin. Shu mashgʻulotning soddaroq qismini sinab koʻring, masalan tikish oʻrniga tugmalarni saralash yoki ekish oʻrniga bogʻ rasmlariga qarash."
+  - q: "Ularni ishontirishga harakat qilish kerakmi?"
+    a: "Yoʻq. Demensiya qiyinlashtirgan ishni bajarishga majburlash bezovtalikni keltirib chiqarishi maʼlum. «Yoʻq»ni qabul qiling, mavzuni oʻzgartiring va keyinroq yoki boshqacha usulda yana taklif qiling."
+  - q: "Xulqdagi oʻzgarish qachon favqulodda holat boʻladi?"
+    a: "Odam xavf ostida boʻlsa yoki tibbiy favqulodda vaziyat belgilari boʻlsa, 911 ga yoki yashash joyingizdagi favqulodda yordam xizmatiga qoʻngʻiroq qiling. Soatlar yoki kunlar davomida tez oʻzgaruvchan chalkashlik yoki xulq boʻlsa, ayniqsa isitma, infeksiya yoki yangi dori-darmon bilan birga boʻlsa, darhol shifokoriga murojaat qiling."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -51,87 +52,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Hammasini tayyorlaysiz, oʻyin yoki sayr taklif qilasiz va «Yoʻq» deb eshitasiz. Yoki mashgʻulot yaxshi boshlanib, chetga surilgan planshet va keskin soʻz bilan tugaydi. Bu ruhni tushiradi va juda keng tarqalgan. Rad etish va asabiylashish odatda qaysarlik emas, xabar. Xabar nimaligini aniqlash koʻpincha keyin nimani sinab koʻrishni koʻrsatadi.
+Siz hamma narsani tayyorlaysiz, oʻyin yoki sayrni taklif qilasiz va «Yoʻq» eshitasiz. Yoki mashgʻulot yaxshi boshlanib, itarib yuborilgan planshet va keskin soʻz bilan tugaydi. Bu ruhni tushiradi va juda keng tarqalgan. Rad etish va norozilik odatda qaysarlik emas, balki xabar. Bu xabarning nima ekanini aniqlash, koʻpincha keyin nima sinab koʻrishni koʻrsatadi.
 
-## Demensiyali inson nega mashgʻulotlardan bosh tortadi?
+## Nega demensiya bilan yashayotgan odam mashgʻulotlarni rad etadi?
 
-Odatda sababi bor, inson uni soʻzlar bilan ifodalay olmasa ham. [Alsgeymer assotsiatsiyasi](https://www.alz.org/help-support/caregiving/daily-care/activities) qarshilik insonning ishni qila olmasligi yoki urinib koʻrishdan qoʻrqishini bildirishi mumkinligini qayd etadi. Keng tarqalgan sabablar:
+Odatda sabab bor, hatto odam uni soʻz bilan ifodalay olmasa ham. [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/daily-care/activities) qarshilik odam vazifani bajara olmasligini yoki sinab koʻrishdan qoʻrqishini bildirishi mumkinligini qayd etadi. Keng tarqalgan sabablar:
 
-- **Juda qiyin tuyuladi.** Mashgʻulot endi demensiya qiyinlashtirgan koʻnikmalarni talab qiladi, birovning oldida muvaffaqiyatsiz boʻlish esa xijolatli.
-- **Bolalarcha tuyuladi.** Kattalar multfilmdagidek rasmlarni, qoʻshiq kabi choʻzib gapirishni va bolalar uchun yaratilgandek koʻrinadigan mashgʻulotlarni payqaydi.
-- **Charchoq.** Koʻp odamlarda kunning keyingi qismida quvvat kamroq boʻladi. [Kechki xotirjam mashgʻulotlar](/caregiving/late-day-restlessness/) sahifasiga qarang.
-- **Jismoniy noqulaylik.** [Milliy qarilik instituti (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ogʻriq, uyqu yetishmasligi, koʻrish yoki eshitishdagi qiyinchilik, ich qotishi, ochlik, chanqoq va yangi dorilarning yon ta’sirini bezovtalikning mumkin boʻlgan sabablari sifatida sanab oʻtadi.
-- **Atrofda juda koʻp narsa boʻlyapti.** Baland televizor, bir nechta suhbat yoki gavjum xona toliqtirishi mumkin.
-- **Bosim his qilish.** NIA Alsgeymer juda qiyinlashtirgan ishni qilishga yoki voqealar yoki odamlarni eslashga undalishni bezovtalik sababi deb ataydi.
-- **Past kayfiyat.** Narsalarga qiziqishni yoʻqotish depressiya belgisi boʻlishi mumkin, buni shifokor bilan muhokama qilishga arziydi.
-- **Ular shunchaki xohlamaydi.** Kattalar «yoʻq» deyishga haqli.
+- **Juda qiyin tuyuladi.** Mashgʻulot endi demensiya qiyinlashtirgan koʻnikmalarni talab qiladi va birovning oldida muvaffaqiyatsizlikka uchrash uyatli.
+- **Bolalarcha tuyuladi.** Kattalar multfilm uslubidagi rasmlar, boladek ohang va bolalar uchun qilingandek tuyuladigan mashgʻulotlarni sezadi.
+- **Charchoq.** Koʻp odamlarda kun oxiriga kelib kuch kamayadi. Qarang: [kechki pallada tinch mashgʻulotlar](/creative-calm/calm-afternoon-activities/).
+- **Jismoniy noqulaylik.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ogʻriq, uyqusizlik, koʻrish yoki eshitish qiyinligi, qabziyat, ochlik, chanqoq va yangi dori-darmonlarning yon taʼsirlarini bezovtalikning mumkin boʻlgan sabablari sifatida sanab oʻtadi.
+- **Juda koʻp narsa boʻlmoqda.** Baland ovozli televizor, bir necha suhbat yoki gavjum xona charchatib qoʻyishi mumkin.
+- **Majburlanayotgandek his qilish.** NIA Alzheimer kasalligi juda qiyinlashtirgan narsani bajarishga yoki voqea va odamlarni eslashga majburlashni gʻazab va bezovtalikning sababi sifatida qayd etadi.
+- **Kayfiyatning pastligi.** Narsalarga qiziqishning yoʻqolishi depressiyaning belgisi boʻlishi mumkin, buni shifokor bilan koʻtarish kerak.
+- **Shunchaki istamaydi.** Kattalar «yoʻq» deyish huquqiga ega.
 
-## Ular «yoʻq» deganda nimani sinab koʻrishim kerak?
+## Ular «yoʻq» degan paytda nima sinab koʻrish kerak?
 
-«Yoʻq»ni xotirjam qabul qiling, keyin biror narsani oʻzgartiring: vaqtni, mashgʻulotni, qiyinlik darajasini yoki soʻrash usulini.
+Rad etishni xotirjamlik bilan qabul qiling, soʻng biror narsani oʻzgartiring: vaqtni, mashgʻulotni, qiyinlik darajasini yoki soʻrash usulini.
 
-1. **Hozircha qoʻya turing.** «Mayli. Balki keyinroq.» Keyin xoʻrsinmasdan boshqa narsaga oʻting.
-2. **Keyinroq yana urinib koʻring.** Alsgeymer assotsiatsiyasi keyinroq yoki kunning boshqa vaqtida yana urinib koʻrishni maslahat beradi.
-3. **Kichikroq qiling.** Butun oʻyin oʻrniga bitta juft. Kir savati oʻrniga bitta sochiq. Kamroq rasm, kamroq tanlov, rasmlar koʻrinib tursin.
-4. **Ikki imkoniyat taklif qiling.** «Qush rasmlarini koʻrasizmi yoki musiqa tinglaymizmi?» Tanlov nazorat tuygʻusini qaytaradi.
-5. **Namoyish emas, yordam soʻrang.** «Bularni saralashga yordam bera olasizmi?» yoki «Qaysi rang yaxshiroq koʻrinadi, ayting-chi?» Kerak boʻlish sinalgandan butunlay boshqacha tuyuladi.
-6. **Oʻzingiz boshlang.** Mashgʻulotni soʻramasdan yonida boshlang. Koʻp odamlar biror narsa allaqachon boshlangach qoʻshiladi, qoʻshilmasa ham, baribir birga vaqt oʻtkazdingiz.
-7. **Jismoniy yoki tinchlantiruvchi narsaga oʻting.** Qisqa sayr, musiqa, yengil taom, kir buklash yoki birga [sokin nafas](/games/calm-breathing/) tanaffusi. NIA diqqatni musiqa, kitob yoki sayrga burishni maslahat beradi.
-8. **Oʻz usulida qilsin.** Ular qoidalarda aytilganidan boshqacha oʻynamoqchi boʻlsa, ruxsat bering. Alsgeymer assotsiatsiyasi moslashuvchan boʻlishni maslahat beradi.
+1. **Hozircha qoʻying.** «Mayli. Balki keyinroq.» Soʻng xoʻrsinmasdan boshqa narsaga oʻting.
+2. **Keyinroq yana urinib koʻring.** Alzheimer’s Association keyinroq yoki kunning boshqa vaqtida yana urinib koʻrishni tavsiya qiladi.
+3. **Kichikroq qiling.** Butun oʻyin oʻrniga bitta juftlik. Kir savat oʻrniga bitta sochiq. Kamroq rasm, kamroq tanlov, rasmlar koʻrinib tursin.
+4. **Ikkita variant taklif qiling.** «Qushlar rasmlarini koʻrasizmi yoki musiqa tinglaysizmi?» Tanlov odamga nazorat tuygʻusini qaytaradi.
+5. **Bajarishni emas, yordam soʻrang.** «Bularni saralashga yordam bera olasizmi?» yoki «Qaysi rang eng yaxshi koʻrinadi, ayting-chi?» Kerakli boʻlish bilan sinovdan oʻtish oʻrtasida katta farq bor.
+6. **Oʻzingiz boshlang.** Ularning yonida, soʻramasdan mashgʻulotni boshlang. Koʻp odamlar biror ish allaqachon boshlangach qoʻshiladi. Qoʻshilmasa ham, birga vaqt oʻtkazgan boʻlasiz.
+7. **Jismoniy yoki tinchlantiruvchi narsaga oʻting.** Qisqa sayr, musiqa, tamaddi, kir yuvish yoki birgalikdagi [tinch nafas](/games/calm-breathing/) pauzasi. NIA eʼtiborni musiqa, kitob yoki sayrga qaratishni tavsiya qiladi.
+8. **Ularga oʻz usulida qilishga ruxsat bering.** Agar qoidalar aytganidan boshqacha oʻynashni xohlasa, shunga rozi boʻling. Alzheimer’s Association moslashuvchan boʻlishni maslahat beradi.
 
-## Ular asabiylashganda nima deyishim kerak?
+## Ular gʻazablanganda nima deyish kerak?
 
-Sekinlashing, ovozingizni pasaytiring va tinchlantiring. [Alsgeymer assotsiatsiyasining bezovtalik boʻyicha tavsiyasi](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) chetga chiqish va ruxsat soʻrashni, xotirjam, ijobiy gaplardan foydalanishni hamda ikki imkoniyat orasida yoʻnaltirilgan tanlov taklif qilishni maslahat beradi. Shu ruhdagi iboralar:
+Sekinlashing, ovozingizni pasaytiring va ishonch bering. [Alzheimer’s Association ning gʻazab va bezovtalik boʻyicha tavsiyasi](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) orqaga chekinib, ruxsat soʻrashni, xotirjam va ijobiy gaplarni ishlatishni hamda ikki variant orasida yoʻnaltirilgan tanlov berishni tavsiya qiladi. Shu ruhdagi iboralar:
 
-- «Kechirasiz, bu bezovta qiladigan ekan. Toʻxtaylik.»
-- «Yaxshi qilyapsiz. Men shu yerdaman.»
-- «Boshqa ishda menga yordam berishga vaqtingiz bormi?»
-- «Oʻrniga bir piyola choy ichamizmi?»
+- «Kechirasiz, bu biroz gʻalati boʻldi. Keling, toʻxtaymiz.»
+- «Yaxshi ketyapsiz. Men shu yerdaman.»
+- «Menga boshqa ishda yordam bera olasizmi?»
+- «Buning oʻrniga choy ichsak boʻladimi?»
 
-Keyin mashgʻulotni katta voqea qilmasdan tugating. [Muloqot maslahatlarimizda](/caregiving/communication-tips/) nima deyish haqida koʻproq ma’lumot bor.
+Soʻng mashgʻulotni katta gap qilmasdan tugating. [Tashxisdan keyingi birinchi qadamlar](/caregiving/after-dementia-diagnosis/) sahifasi yordam izlash uchun boshlanish nuqtasi.
 
-## Nimadan saqlanishim kerak?
+## Nimadan saqlanish kerak?
 
-Ba’zi tabiiy reaksiyalar ahvolni yomonlashtirishga moyil.
+Ayrim tabiiy munosabatlar vaziyatni yomonlashtirishi mumkin.
 
-- **Bahslashish yoki turib olish.** «Qani, yana bitta» yoki «Siz buni yoqtirasiz-ku» kamdan-kam yordam beradi.
-- **Savollar bilan sinash yoki tuzatish.** «Bu nimaligini bilasiz-ku» yoki «Yoʻq, bu notoʻgʻri» bosimni oshiradi.
-- **Shaxsiy qabul qilish.** NIA qarovchilarga bu oʻzgarishlarni inson emas, kasallik keltirib chiqarishini eslatadi.
-- **Bosim qilish yoki shoshirish.** Alsgeymer assotsiatsiyasi ovozingizni koʻtarmaslikni, vahima koʻrsatmaslikni, insonni burchakka qisib qoʻymaslikni, atrofini toʻsmaslikni, jilovlamaslikni, tanqid qilmaslikni, e’tiborsiz qoldirmaslikni yoki u bilan bahslashmaslikni hamda uning koʻrish maydonidan tashqaridagi keskin harakatlardan saqlanishni maslahat beradi.
-- **Aybdor qilish.** «Bularning hammasini sizga tayyorladim» ikkalangizni ham yomonroq his qildiradi.
-- **Yorliq yopishtirish.** «Qaysar» yoki «qiyin» haqiqiy sababni yashiradi va uni hal qilishni qiyinlashtiradi.
+- **Bahslashish yoki majburlash.** «Qoʻying, yana bittaga qarang» yoki «Bu sizga yoqadi-ku» kamdan-kam yordam beradi.
+- **Savol berish yoki tuzatish.** «Bu nima ekanini bilasiz» yoki «Yoʻq, u notoʻgʻri» bosim qoʻshadi.
+- **Hammasini shaxsiy qabul qilish.** NIA parvarish qiluvchilarga bu oʻzgarishlarni kasallik keltirib chiqarishini, odamning oʻzi emasligini eslatadi.
+- **Ustiga bosish yoki shoshirish.** Alzheimer’s Association ovozni koʻtarmaslik, xavotir bildirmaslik, burchakka surmaslik, yaqinlashib bosim oʻtkazmaslik, cheklamaslik, tanqid qilmaslik, eʼtibor bermaslik yoki bahslashmaslik va odam koʻrmaydigan joyda keskin harakat qilmaslikni maslahat beradi.
+- **Aybdorlik hissini uygʻotish.** «Bularning hammasini siz uchun tayyorladim» ikkovingizni ham yomon his qildiradi.
+- **Yorliq yopishtirish.** «Qaysar» yoki «qiyin» soʻzlari haqiqiy sababni yashiradi va muammoni hal qilishni qiyinlashtiradi.
 
-## Takroriy rad etishlar ortida nima borligini qanday bilaman?
+## Takroriy rad etishlar ortida nima turganini qanday aniqlash mumkin?
 
-Bir-ikki hafta oddiy yozuv yuriting. NIA xulq-atvor oʻzgarishlarini kuzatish qarovchilar va sogʻliqni saqlash xodimlariga qonuniyatni payqashga va sababini aniqlashga yordam berishini aytadi.
+Bir-ikki hafta davomida oddiy eslatma yuriting. NIA xulqdagi oʻzgarishlarni kuzatish parvarish qiluvchilar va sogʻliqni saqlash xodimlariga naqshni koʻrish va sababini aniqlashga yordam berishini aytadi.
 
 Yozib boring:
 
-- kunning vaqtini;
-- nima taklif qilganingizni va qanday soʻraganingizni;
-- atrofingizda nima boʻlayotganini (shovqin, mehmonlar, televizor);
-- qanday uxlagani, yegani va ichganini hamda oxirgi marta hojatxonaga qachon borganini;
-- har qanday yangi dorilar yoki yaqinda boʻlgan kasallikni.
+- kunning vaqti;
+- nima taklif qildingiz va qanday soʻradingiz;
+- atrofda nima boʻlayotgani (shovqin, mehmonlar, televizor);
+- uxlash, ovqatlanish va ichish holati hamda oxirgi marta hojatxonaga qachon borgani;
+- yangi dori-darmonlar yoki yaqinda kasallik boʻlgan-boʻlmagani.
 
-Qonuniyatlar koʻpincha tez namoyon boʻladi: faqat soat 4 dan keyin boʻladigan, faqat ma’lum bir oʻyin bilan yoki faqat televizor yoqilganda boʻladigan rad etishlar. Family Caregiver Alliance’ning [demensiya xulq-atvori boʻyicha qoʻllanmasi](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) buni oddiy aytadi: biz insonni oʻzgartira olmaymiz, lekin oʻz xulq-atvorimizni va muhitni oʻzgartira olamiz.
+Naqshlar koʻpincha tez namoyon boʻladi: faqat soat 4 p.m. dan keyin, faqat muayyan oʻyin bilan yoki faqat televizor yoqilganda boʻladigan rad etishlar. Family Caregiver Alliance ning [demensiya xulqi boʻyicha qoʻllanmasi](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) sodda qilib shunday deydi: biz odamni oʻzgartira olmaymiz, lekin oʻz xulqimizni va muhitni oʻzgartira olamiz.
 
-## Rad etish yoki asabiylashish haqida shifokor bilan qachon gaplashishim kerak?
+## Rad etish yoki norozilik haqida qachon shifokorga murojaat qilish kerak?
 
-Xulq-atvor tuyqus, tez yoki kasallik belgilari bilan birga oʻzgarsa, shifokor bilan gaplashing. NIA xulq-atvordagi tuyqus yoki tez tebranuvchi oʻzgarishlar, ayniqsa inson infeksiya oʻtkazgan yoki yaqinda dorilari oʻzgargan boʻlsa, darhol shifokorga ma’lum qilinishi kerakligini aytadi.
+Xulq keskin, tez yoki kasallik belgilari bilan birga oʻzgarsa, shifokorga murojaat qiling. NIA aytadi: xulqning keskin yoki tez oʻzgarishi, ayniqsa odam infeksiyaga chalingan boʻlsa yoki yaqinda dori-darmon oʻzgartirilgan boʻlsa, zudlik bilan shifokorning eʼtiboriga yetkazilishi kerak.
 
-Quyidagilarni sezsangiz, shifokoriga tezda murojaat qiling:
+Quyidagilarni sezsangiz, shifokorga zudlik bilan murojaat qiling:
 
-- tuyqus chalkashlik yoki soatlar yoki kunlar ichida katta oʻzgarish;
-- ogʻriq belgilari, masalan, yuzni burishtirish, tananing bir qismini himoya qilish yoki harakatlanishda yangi qiyinchilik;
+- soatlar yoki kunlar davomida keskin chalkashlik yoki katta oʻzgarish;
+- ogʻriq belgilari, masalan yuzni buzish, tananing biror qismini asrash yoki harakatlanishda yangi qiyinchilik;
 - isitma yoki infeksiyaning boshqa belgilari;
-- yangi yoki oʻzgargan dorilardan keyin xulq-atvor oʻzgarishi;
-- deyarli hamma narsaga qiziqishni yoʻqotish, koʻzyoshlilik yoki bir necha haftadan koʻproq davom etadigan oʻziga oʻralib qolish;
-- ovqat yoki ichimlikdan bosh tortish.
+- yangi yoki oʻzgartirilgan dori-darmonlar, soʻng xulqning oʻzgarishi;
+- deyarli hamma narsaga qiziqishning yoʻqolishi, yigʻlamsirash yoki oʻzini chetga olish bir necha haftadan koʻproq davom etsa;
+- ovqat yoki suyuqlikdan bosh tortish.
 
-Alsgeymer assotsiatsiyasi xulq-atvor belgilari bor har bir kishiga, ayniqsa ular tuyqus paydo boʻlganda, puxta tibbiy tekshiruvni tavsiya qiladi. Family Caregiver Alliance ham avval shifokor bilan tekshirishni maslahat beradi, chunki xulq-atvor muammolarining tibbiy sababi boʻlishi mumkin. Shifokor yoki dorixona xodimi bilan gaplashmasdan hech qanday dorini boshlamang, toʻxtatmang yoki oʻzgartirmang.
+Alzheimer’s Association xulq belgilari boʻlgan har bir odam uchun, ayniqsa belgilar birdan paydo boʻlganda, toʻliq tibbiy tekshiruv oʻtkazishni tavsiya qiladi. Family Caregiver Alliance ham avval shifokor bilan maslahatlashishni maslahat beradi, chunki xulq muammolarining tibbiy sababi boʻlishi mumkin. Shifokor yoki dorixona xodimi bilan maslahatlashmasdan hech qanday dori-darmonni boshlamang, toʻxtatmang yoki oʻzgartirmang.
 
-Kimdir xavfda boʻlsa yoki tibbiy favqulodda holat belgilari boʻlsa, hududingizdagi favqulodda raqamga qoʻngʻiroq qiling. NIA dispetcherga insonda demensiya borligini aytishni maslahat beradi.
+Agar kimdir xavf ostida boʻlsa yoki tibbiy favqulodda vaziyat belgilari boʻlsa, 911 ga yoki yashash joyingizdagi favqulodda yordam xizmatiga darhol qoʻngʻiroq qiling. NIA dispetcherga odamda demensiya borligini aytishni maslahat beradi. Gʻazab jismoniy tus olsa, chetga chiqing va shifokor yoki parvarish jamoasidan maslahat soʻrang.
 
-## Umuman hech narsa qilmasak ham boʻladimi?
+## Hech narsa qilmasak-chi?
 
-Ha. Ba’zi kunlarda eng yaxshi mashgʻulot mashgʻulot yoʻqligi: birga oʻtirish, qoʻl ushlash, sevimli yozuvni tinglash yoki deraza tashqarisidagi qushlarni tomosha qilish. Bu muvaffaqiyatsizlik emas. [Birga oʻynash qoʻllanmamiz](/caregiving/how-to-play-together/) nega barvaqt toʻxtash yoki umuman boshlamaslik toʻgʻri tanlov boʻlishi mumkinligini tushuntiradi.
+Ha. Ba’zi kunlarda eng yaxshi mashgʻulot — hech narsa qilmaslik: birga oʻtirish, qoʻl ushlashish, sevimli plastinkani tinglash yoki derazadan qushlarni kuzatish. Bu muvaffaqiyatsizlik emas. [Birga oʻynash boʻyicha qoʻllanmamiz](/caregiving/how-to-play-together/) nima uchun erta toʻxtash yoki hech boshlamaslik toʻgʻri qaror boʻlishi mumkinligini tushuntiradi.

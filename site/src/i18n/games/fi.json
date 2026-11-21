@@ -381,6 +381,58 @@
       }
     ]
   },
+  "drawing-duet": {
+    "name": "Piirtoduetto",
+    "seoTitle": "Piirtoduetto: kaksi ihmistä, yksi kuva",
+    "h1": "Piirtoduetto: kaksi ihmistä, yksi arkki",
+    "description": "Kaksi ihmistä piirtää vuorotellen viivoja yhdelle yhteiselle piirtoalustalle, kumpikin omalla värillään. Ketään ei pisteytetä eikä kenenkään tarvitse voittaa, ja kuvan voi tallentaa tai tulostaa. Peli on ilmainen, eikä siihen tarvita tunnusta.",
+    "short": "Piirtäkää vuorotellen yhteistä kuvaa jonkun vierellänne istuvan kanssa.",
+    "players": "2 henkilöä vierekkäin",
+    "intro": "Yksi piirtoalusta, kaksi ihmistä. Kukin teistä valitsee värin, ja jokaisella värillä on oma kirjoitettu nimensä. Vuorotelkaa: piirtäkää yksi viiva tai muoto ja antakaa sitten kynä eteenpäin. Kumpi tahansa teistä voi ohittaa vuoronsa milloin tahansa. Oikeaa kuvaa ei ole, eikä pisteitä ole. Jos pidätte kuvasta, voitte tallentaa sen laitteellenne tai tulostaa paperiversion: yksi arkki, kaksi kynää.",
+    "howTo": [
+      "Kukin teistä valitsee värin. Ilmoituspalkki kertoo, kenen vuoro on, ja vuorolaisen väri on nimettynä.",
+      "Piirtäkää yksi viiva tai muoto sormella, hiirellä tai kynällä. Tai piirtäkää ilman osoitinta nuolinäppäimillä ja välilyöntinäppäimellä.",
+      "Kun olette valmiit, napauttakaa ”Anna kynä eteenpäin”. Kumpi tahansa teistä voi ohittaa vuoronsa milloin tahansa.",
+      "Napauttakaa ”Peru viimeisin viivani” poistaaksenne vuorolaisen uusimman viivan.",
+      "Napauttakaa ”Tallenna kuva”, jos haluatte tallentaa kuvatiedoston tälle laitteelle, tai ”Tulosta paperiversio” saadaksenne yhden arkin ja kaksi kynää."
+    ],
+    "tips": [
+      "Istukaa vierekkäin ja puhukaa piirtäessänne, esimerkiksi: ”Lisään nurkkaan auringon.”",
+      "Aloittakaa pisteellä, viivalla tai yksinkertaisella muodolla ja antakaa toisen vastata siihen.",
+      "Kenenkään ei tarvitse piirtää mitään tiettyä. Pelkkä viivoista koostuva kuvio on yhtä hyvä kuin maisema.",
+      "Jos haluatte lopettaa, napauttakaa ”Valmis toistaiseksi”. Kuvaa ei säilytetä sivulta poistuttua, ellette tallenna sitä."
+    ],
+    "faq": [
+      {
+        "q": "Onko voittajaa tai pistemäärää?",
+        "a": "Ei. Voittajaa ei ole, pistemäärää ei ole, ajanottoa ei ole eikä vuorojen laskentaa. Oikeaa kuvaa ei ole, eikä mitään aseteta paremmuusjärjestykseen tai verrata."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö kuva?",
+        "a": "Ei, mitään ei lähetetä minnekään. Kuva pysyy tällä sivulla, kunnes suljette sen. Jos napautatte ”Tallenna kuva”, laitteelle luodaan tiedosto, jonka voitte ladata. Mitään ei lähetetä palvelimelle."
+      },
+      {
+        "q": "Voiko viivan perua?",
+        "a": "Voi. ”Peru viimeisin viivani” poistaa vuorolaisen uusimman viivan. ”Aloita alusta” tyhjentää arkin, ja ”Palauta” tuo viivat takaisin, mutta vain yhden askeleen."
+      },
+      {
+        "q": "Voiko tätä käyttää ilman hiirtä tai kosketusnäyttöä?",
+        "a": "Voi. Kun piirtoalue on valittuna, nuolinäppäimet siirtävät kynän pistettä ja välilyöntinäppäin nostaa kynän ylös tai laskee sen alas. Ruudulla lukee joka kerta ”Kynä alhaalla” tai ”Kynä ylhäällä”."
+      },
+      {
+        "q": "Mitkä värit ne ovat, ja erottavatko värinäöltään erilaiset ihmiset ne toisistaan?",
+        "a": "Keltainen, oranssi, vihreä ja violetti, samat neljä väriä kuin muissa kuvapeleissämme. Jokaisella on kirjoitettu nimi, ja nimet näkyvät vuoron vieressä. Värit on tarkistettu yleisimpien värinäön erojen simulaatioilla, mutta värinäöltään erilaiset ihmiset eivät ole vielä kokeilleet niitä."
+      },
+      {
+        "q": "Onko paperiversio?",
+        "a": "On. ”Tulosta paperiversio” tulostaa yhden arkin, jossa on ohjeet ja iso tyhjä kehys piirrettäväksi kahdelle henkilölle kahdella kynällä. Se toimii myös mustavalkoisena."
+      },
+      {
+        "q": "Onko tämä ilmainen, ja pitääkö rekisteröityä?",
+        "a": "On, se on ilmainen. Tunnusta, rekisteröitymistä tai asennusta ei tarvita. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
   "build-together": {
     "name": "Rakennetaan yhdessä",
     "seoTitle": "Rakennetaan yhdessä: kaksi ihmistä rakentaa yhden kuvion",
@@ -481,6 +533,150 @@
       }
     ]
   },
+  "seasonal-pack": {
+    "name": "Vuodenaikojen palapelipaketti",
+    "seoTitle": "Vuodenaikojen palapelipaketti: tulostettavat paperipalapelit",
+    "h1": "Vuodenaikojen palapelipaketti: kolme paperipalapeliä jokaiseen vuodenaikaan",
+    "description": "Kolme pientä tulostettavaa palapeliä keväälle, kesälle, syksylle tai talvelle: yhdistä parit, ympyröi erilainen kuva ja väritä kuva. Valitse vuodenaika tai pidä lepopäivä. Tulostaminen on ilmaista.",
+    "short": "Kolme tulostettavaa palapeliä valitsemaanne vuodenaikaan tai lepopäivään.",
+    "players": "Kaikenikäisille, yksin tai vierekkäin",
+    "intro": "Valitkaa vuodenaika, niin sivulla näkyy kolme pientä paperipalapeliä, jotka on piirretty kyseisen vuodenajan kuvista: kaksi riviä kuvia, jotka yhdistetään viivoilla, rivi neljää kuvaa, joista ympyröidään erilainen, sekä kuva väritettäväksi. Tulostatte yhden sivun ja teette yhden, kaksi tai kaikki kolme omassa tahdissanne. Jos valitsette sen sijaan ”Tänään on lepopäivä”, mitään ei tarvitse tehdä.",
+    "howTo": [
+      "Valitkaa vuodenaika tai ”Tänään on lepopäivä”.",
+      "Katsokaa kolmea palapeliä ja napauttakaa ”Tulosta tämän vuodenajan paketti”.",
+      "Tehkää yksi, kaksi tai kaikki kolme omassa tahdissanne.",
+      "Yhdistäkää samanlaiset kuvat viivalla, ympyröikää erilainen kuva ja värittäkää suuri kuva.",
+      "Lopettakaa milloin haluatte. Lepopäivä on myös hyvä päivä."
+    ],
+    "tips": [
+      "Aloittakaa palapelistä, joka tuntuu tänään helpoimmalta. Yksikin riittää.",
+      "Sanokaa kunkin kuvan nimi ääneen, jos se auttaa.",
+      "Käyttäkää liitu- tai kynäkyniä. Mitkä tahansa värit käyvät.",
+      "Säilyttäkää sivu seuraavaa kertaa varten tai antakaa sen mennä."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajastinta tai pistemäärää?",
+        "a": "Ei. Kelloa, pistemäärää, siirtolaskuria tai häviämistä ei ole. Voitte lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa lopettaa."
+      },
+      {
+        "q": "Tietääkö sivu, mikä vuodenaika on?",
+        "a": "Ei. Vuodenajan valitsette itse. Sivu ei katso päivämäärää eikä sijaintianne."
+      },
+      {
+        "q": "Onko pistemäärää tai oikeaa vastausta?",
+        "a": "Ei. Mitään ei ajoiteta, pisteytetä eikä tarkisteta ruudulla, eikä vastauksia näytetä. Jokainen palapeli on vain kuva, jota katsotaan, yhdistetään, ympyröidään tai väritetään."
+      },
+      {
+        "q": "Mitä jos kukaan ei halua palapelejä tänään?",
+        "a": "Valitse \"Tänään on lepopäivä\". Sivulla näkyy silloin yksi rauhallinen rivi, eikä mitään tarvitse tulostaa tai tehdä."
+      },
+      {
+        "q": "Mitä tulostettavalla arkilla on?",
+        "a": "Yksi sivu valitsemallesi vuodenajalle: sen kolme tehtävää, joista jokaisella on lyhyt rivi siitä, miten sen tekee, sekä rivi, joka kertoo, että voitte tehdä yhden, kaksi tai kaikki kolme."
+      },
+      {
+        "q": "Onko tämä ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii selaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Koristelkaa kortti yhdessä",
+    "seoTitle": "Koristelkaa kortti yhdessä: tulostettava onnittelukortti",
+    "h1": "Koristelkaa kortti yhdessä: tehkää se jollekulle",
+    "description": "Kaksi ihmistä koristelee tulostetun onnittelukortin syntymäpäivään, kiitokseksi tai ihan vain siksi, ja kirjoittaa sitten yhdessä viestin kortin takasivulle. Vain liidut tai kynät. Ei ajanottoa eikä pisteitä. Tulostaminen on ilmaista.",
+    "short": "Koristelkaa tulostettu onnittelukortti yhdessä.",
+    "players": "2 henkilöä vierekkäin",
+    "intro": "Rauhallinen tekemisen peli kahdelle ihmiselle, jotka istuvat vierekkäin. Tulostatte yhden arkin, joka taitetaan kahtia kortiksi. Valitkaa aihe, kuten syntymäpäivä tai kiitos, ja koristelkaa etusivu sen sanojen ympärille. Sitten kirjoitatte viestin takasivulle yhdessä tai niin, että toinen kirjoittaa sen, mitä toinen sanoo. Käyttäkää liituja, värikyniä tai tussikyniä. Oikeaa korttia ei ole, eikä mitään ajoiteta, pisteytetä tai lähetetä.",
+    "howTo": [
+      "Valitkaa aihe ja napauttakaa \"Tulosta kortti\".",
+      "Taittakaa arkki katkoviivaa pitkin kahtia, niin että etusivu jää ulospäin.",
+      "Toinen koristelee etusivun ja toinen takasivun, tai vuorotelkaa samalla puolella.",
+      "Kirjoittakaa viesti yhdessä. Toinen voi kirjoittaa, kun toinen sanoo sanat.",
+      "Lopettakaa milloin tahansa. Yksinkertainen kortti on yhtä hyvä kuin yksityiskohtainen."
+    ],
+    "tips": [
+      "Aloittakaa etusivun sanoista ja lisätkää sen ympärille lehtiä, tähtiä tai pisteitä yksi kerrallaan.",
+      "Jos joku ei halua piirtää, hän voi valita värit tai kirjoittaa viestin.",
+      "Kertokaa, mistä pidätte toisen jäljissä, sen sijaan että arvioisitte, ovatko ne hyviä.",
+      "Pitäkää kortti paikassa, josta sen voi antaa, tai jättäkää se vain pöydälle toistaiseksi."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajanottoa tai pisteitä?",
+        "a": "Ei. Kellaa, pisteitä, siirtolaskuria tai häviämistä ei ole. Voitte lopettaa milloin tahansa, ja kesken jättäminen on täysin hyvä tapa päättää."
+      },
+      {
+        "q": "Tarvitaanko liimaa, saksia tai tarroja?",
+        "a": "Ei. Liidut, värikynät tai tussikynät riittävät. Mitään ei tarvitse leikata, liimata tai kiinnittää."
+      },
+      {
+        "q": "Voimmeko tehdä kortin aiheeseen, joka ei ole listalla?",
+        "a": "Valitkaa \"Ihan vain siksi\" ja kirjoittakaa omat sanat etusivulle, tai koristelkaa kortti ilman mitään aihetta."
+      },
+      {
+        "q": "Lasketaanko, arvioidaanko tai tallennetaanko jotain näytölle?",
+        "a": "Ei. Sivulla näkyvät vain kortti ja vaiheet. Mitään ei järjestetä, pisteytetä tai tallenneta, eikä ole oikeaa korttia."
+      },
+      {
+        "q": "Mitä tulostettavalla arkilla on?",
+        "a": "Yksi sivu: kortti taitettuna kahtia, etusivulla aihesanat ja yksinkertainen kehys sekä takasivulla viestiä ja Lähettäjä-riviä varten rivit. Kahden hengen pelin säännöt on painettu alareunaan."
+      },
+      {
+        "q": "Onko tämä ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii selaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Etsikää yhdessä",
+    "seoTitle": "Etsikää yhdessä: kaksi ihmistä etsii parit",
+    "h1": "Etsikää yhdessä: kaksi ihmistä, yksi joukkue",
+    "description": "Kaksi ihmistä jakaa yhden näytön ja vuorottelee kääntäen kaksi kuvakorttia parin etsimiseksi. Parit löydetään yhdessä ja lasketaan yhteiselle laskurille. Peli on ilmainen, eikä siinä ole ajanottoa tai pisteitä.",
+    "short": "Vuorotelkaa vierellänne istuvan kanssa kuvaparien etsimisessä.",
+    "players": "2 henkilöä vierekkäin",
+    "intro": "Kortit alkavat niin, että kuvat näkyvät, tai voitte asettaa ne alaspäin. Omalla vuorollanne käännätte kaksi korttia. Jos ne ovat pari, olette löytäneet sen yhdessä ja vuoro siirtyy eteenpäin. Jos ne eivät ole pari, ne jäävät näkyviin, kunnes painatte \"Käännä takaisin\", jotta molemmat ehditte katsoa. Voitte ohittaa vuoron milloin tahansa. Yläreunan laskuri kasvaa vain: yhdessä löydettyjen parien määrä.",
+    "howTo": [
+      "Valitkaa, kuinka monta korttia käytetään. Kuusi korttia, eli kolme paria, on rauhallinen alku.",
+      "Näytöllä lukee, kenen vuoro on: ympyrä ensimmäiselle henkilölle ja neliö toiselle.",
+      "Kääntäkää kaksi korttia peräkkäin. Jos ne täsmäävät, pari on löydetty yhdessä.",
+      "Jos ne eivät täsmää, painakaa \"Käännä takaisin\", kun molemmat ovat valmiita. Vuoro siirtyy sitten eteenpäin.",
+      "Kumpi tahansa teistä voi painaa \"Ohita\" milloin tahansa. Napauttakaa \"Aloita alusta\" uusia kortteja varten tai Lepo lopettaaksenne."
+    ],
+    "tips": [
+      "Istukaa vierekkäin ja nimetkää kuvat yhdessä ääneen: \"Teekuppi. Otatko teehesi maitoa?\"",
+      "Antakaa läheisenne napauttaa itse, vaikka siihen menee aikaa. Osoittakaa sormella sen sijaan, että napautatte hänen puolestaan.",
+      "Valitkaa \"Kortit alaspäin\", jos te molemmat pidätte kortteja kääntämisestä kuvien löytämiseksi.",
+      "Henkilö, joka väsyy helposti, voi ohittaa vuoron niin usein kuin haluaa. Parit löydetään silti yhdessä."
+    ],
+    "faq": [
+      {
+        "q": "Onko voittajaa, ajanottoa tai pisteitä?",
+        "a": "Ei. Voittajaa ei ole, koska parit etsitään joukkueena. Ajanottoa, pisteitä tai virheiden laskentaa ei ole. Laskuri laskee vain yhdessä löydetyt parit, ja voitte lopettaa milloin tahansa."
+      },
+      {
+        "q": "Pitääkö muistaa, missä kuvat ovat?",
+        "a": "Ei. Peli alkaa niin, että kaikki kuvat ovat näkyvissä. Kun kortit ovat kasvot alaspäin, voitte kysyä toisiltanne, mitä näitte, tai vain kääntää kortit uudelleen."
+      },
+      {
+        "q": "Mitä tapahtuu, kun kaksi korttia on eri kuvaa?",
+        "a": "Ne jäävät kasvot ylöspäin, jotta molemmat voitte katsoa niitä niin kauan kuin tarvitsette. Mikään ei käännä niitä takaisin itsestään. Kun olette valmiita, paina \"Käännä takaisin\", ja vuoro siirtyy toiselle."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö pelattavaa mitään?",
+        "a": "Ei. Kortit pysyvät vain tällä sivulla. Mitään ei tallenneta, lähetetä eikä lasketa, ja kaikki katoaa, kun suljette sivun."
+      },
+      {
+        "q": "Ovatko kortit tarpeeksi isoja tärisevälle kädelle tai pienelle näytölle?",
+        "a": "Jokainen kortti on vähintään 64 pikselin levyinen ja niin suuri kuin näyttö sallii. Näppäimistöä ja ruudunlukuohjelmaa käyttävät kuulevat jokaisen kortin paikan ja kuvan perusteella."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
   "story-dice": {
     "name": "Tarinanoppa",
     "seoTitle": "Tarinanoppa: kuvitarinapeli",
@@ -563,10 +759,10 @@
     "name": "Kuvapalapeli",
     "seoTitle": "Helppo verkkopalapeli: 4 tai 9 isoa palaa",
     "h1": "Kuvapalapeli: helppo palapeli",
-    "description": "Helppo verkkopalapeli aikuisille: 4 tai 9 isoa palaa, koko kuva näkyy koko ajan, ja kahden palan vaihtamiseksi napautat niitä. Ilmainen, ei ajastinta.",
+    "description": "Helppo verkkopalapeli aikuisille: 4 tai 9 isoa palaa, koko kuva pysyy näkyvissä, ja vaihdat kaksi palaa napauttamalla niitä. Käytä omaa valokuvaasi, joka pysyy tällä laitteella. Ilmainen, ei ajastinta.",
     "short": "Napauttakaa kahta palaa vaihtaaksenne ne, kunnes kuva on kokonainen.",
     "players": "1 tai 2 henkilöä",
-    "intro": "Ystävällinen kuva on leikattu neljään tai yhdeksään isoon palaan ja sekoitettu. Koko kuva pysyy näkyvissä apuna. Napauttakaa yhtä palaa ja sitten toista, niin ne vaihtavat paikkaa. Vetämistä ei tarvita.",
+    "intro": "Ystävällinen kuva leikataan neljään tai yhdeksään isoon palaan ja sekoitetaan. Koko kuva pysyy näkyvissä ohjeena. Napauta yhtä palaa ja sitten toista, niin ne vaihtavat paikkaa. Vetämistä ei tarvita. Voit käyttää myös omaa valokuvaa. Se pysyy tällä laitteella eikä sitä koskaan ladata palvelimelle.",
     "howTo": [
       "Valitkaa kuva ja 4 tai 9 palaa. Neljä on lempeä aloitus.",
       "Katsokaa koko kuvaa ylhäällä.",
@@ -740,12 +936,13 @@
     "description": "Muuttakaa omat perhekuvanne rauhalliseksi parien etsintäpeliksi. Valitkaa laitteeltanne 2–6 valokuvaa; ne pysyvät selaimessanne, eikä niitä koskaan lähetetä verkkoon.",
     "short": "Valitkaa omat valokuvanne ja yhdistäkää ne pareiksi. Mitään ei lähetetä verkkoon.",
     "players": "2 henkilöä vierekkäin",
-    "intro": "Valitkaa puhelimeltanne, tabletiltanne tai tietokoneeltanne kaksi–kuusi valokuvaa, niin niistä tulee parien etsintäpeli isoilla, näkyvillä kuvilla. Valokuvat näytetään vain tällä sivulla. Niitä ei lähetetä verkkoon, tallenneta eikä jaeta, ja ne katoavat, kun suljette sivun.",
+    "intro": "Valitse kahdesta kuuteen omaa perhevalokuvaasi puhelimestasi, tabletiltasi tai tietokoneeltasi, niin niistä tulee pari-peli, jossa on isot ja selkeät kuvat. Kuvia näytetään vain tällä sivulla. Niitä ei ladata, tallenneta eikä jaeta, ja ne katoavat, kun suljet sivun. Halutessasi voit kirjoittaa muutaman sanan jokaisen kuvan alle, ja hetken kuluttua hiljainen vihje voi osoittaa yhden parin. Tämä on tapa katsella perhevalokuvia yhdessä.",
     "howTo": [
-      "Napauttakaa ”Valitse kuvat” ja valitkaa kaksi–kuusi valokuvaa.",
-      "Jokainen valokuva näkyy kahdesti. Napauttakaa yhtä ja sitten sen paria.",
-      "Jutelkaa jokaisesta valokuvasta, kun löydätte sen.",
-      "Kun olette valmiita, sulkekaa sivu tai napauttakaa ”Tyhjennä kuvat”. Mitään ei säilytetä."
+      "Napauta \"Valitse kuvat\" ja valitse kahdesta kuuteen kuvaa.",
+      "Jokainen kuva näkyy kahdesti. Napauta yhtä ja napauta sen paria.",
+      "Halutessasi kirjoita muutama sana jokaisen kuvan alle. Kuvatekstejä ei tallenneta.",
+      "Puhukaa jokaisesta kuvasta, kun löydätte sen.",
+      "Kun olette valmiita, sulje sivu tai napauta \"Tyhjennä kuvat\". Mitään ei säilytetä."
     ],
     "tips": [
       "Valitkaa selkeitä valokuvia iloisista, tutuista asioista: lemmikistä, puutarhasta, lempipaikasta, hääpäivästä.",
@@ -800,6 +997,265 @@
       {
         "q": "Voiko pelata lukematta?",
         "a": "Kyllä. Jokainen ruutu on iso kuva, jonka nimi on alla niille, jotka pitävät sanoista."
+      }
+    ]
+  },
+  "picnic-planner": {
+    "name": "Piknik-suunnittelija",
+    "seoTitle": "Piknik-suunnittelija: valitse kuvat retkeen",
+    "h1": "Piknik-suunnittelija: valitse kuvat ja etsi sitten parit",
+    "description": "Valitse piknikille ruoka- ja tekemiskuvia ja pelaa sitten hiljainen pariskuvapeli niillä. Mitään ei ajasteta. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Valitse piknikille ruoka- ja retkikuvia ja etsi sitten parit.",
+    "players": "Yksin tai 2 henkilöä vierekkäin",
+    "intro": "Napauta ruoka- ja tekemiskuvia, jotta ne menevät piknikkoriin, johon mahtuu enintään kuusi. Sanallinen lause kertoo, mitä korissa on, esimerkiksi \"Meidän piknik: leipää, juustoa, omenoita ja leija.\" Napauta sitten \"Pelataan piknikillämme\", niin saat hiljaisen pariskuvapelin valituista kuvista. Kuvat pysyvät näkyvissä, eikä mitään ajasteta, pisteytetä tai tallenneta. \"Tulosta piknik-lista\" tulostaa valintalistan, jossa jokaisen pakattavan asian vieressä on ruutu rastille.",
+    "howTo": [
+      "Napauta ruoka- tai tekemiskuvaa. Se menee koriin.",
+      "Napauta korin kuvaa, jos haluat ottaa sen pois.",
+      "Valitse vähintään kaksi asiaa ja napauta \"Pelataan piknikillämme\".",
+      "Napauta kahta samanlaista kuvaa. Kuvat pysyvät näkyvissä, joten mitään ei tarvitse muistaa.",
+      "Napauta \"Tulosta piknik-lista\" ja ota paperinen lista mukaan."
+    ],
+    "tips": [
+      "Kysy seurassasi olevilta, mitä he haluaisivat tuoda, ja valitkaa kuvat yhdessä.",
+      "Puhukaa jokaisesta kuvasta, kun se menee koriin: \"Muistatko leijan, jonka lensimme rannalla?\"",
+      "Paperilla tyhjät rivit ovat muille tuotaville asioille tai nimelle."
+    ],
+    "faq": [
+      {
+        "q": "Onko ajastinta, pisteitä tai voittajaa?",
+        "a": "Ei. Mitään ei ajasteta eikä lasketa, eikä kukaan voita. Pariskuvapelissä ei ole virheitä eikä pisteitä."
+      },
+      {
+        "q": "Onko tämä ruokasuunnitelma?",
+        "a": "Ei. Se on kuvasuunnitelma retkelle, josta voi puhua ja jonka voi ottaa mukaan paperilla. Se ei kerro, mitä kenenkään pitäisi syödä."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö valitsemamme kuvat?",
+        "a": "Ei. Kori pysyy vain tällä sivulla. Sitä ei tallenneta, ladata eikä lähetetä, ja se katoaa, kun suljet sivun."
+      },
+      {
+        "q": "Onko olemassa paperiversio?",
+        "a": "Kyllä. \"Tulosta piknik-lista\" tulostaa yhden sivun, A4- tai US Letter -koossa. Siinä näkyvät valitsemasi kuvat, jokaisen vieressä ruutu rastille, ja tyhjiä rivejä muille asioille."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Leikekirja",
+    "seoTitle": "Leikekirja: selailkaa perhevalokuvia yhdessä sivu kerrallaan",
+    "h1": "Leikekirja: lisää omat kuvasi ja kuvatekstit ja selaa sitten sivuja",
+    "description": "Valitse laitteeltasi kahdesta kahteentoista omaa perhevalokuvaa ja selaa niitä kirjana, jossa on muutama sana jokaisen kuvan alla. Mitään ei ladata. Tulostaminen on ilmaista.",
+    "short": "Selailkaa omia perhevalokuvia yhdessä, kuin kirjaa.",
+    "players": "Yksin tai 2 henkilöä vierekkäin",
+    "intro": "Valitse omalta laitteeltasi kaksi–kaksitoista omaa valokuvaa. Jokaisesta kuvasta tulee yksi kirjan sivu, joka on tarpeeksi suuri nähtäväksi, ja sen alle voi halutessasi kirjoittaa muutaman sanan. Käännä sivuja painikkeilla tai nuolinäppäimillä. Painike ”Katsokaa yhdessä” avaa kirjan vierekkäin istuen, pelkkine kuvineen ja sanoineen. Valokuvasi pysyvät tällä laitteella. Niitä ei lähetetä eikä tallenneta mihinkään, ja kirja katoaa, kun suljet sivun. ”Tulosta muistikirja” tulostaa jokaiselle sivulle yhden kuvan ja sen sanat sivunumeroineen.",
+    "howTo": [
+      "Napauta ”Valitse kuvat” ja valitse kaksi–kaksitoista valokuvaa. Kysy ensin luvan, jos kuvassa on henkilö, joka ei voi itse antaa lupaa.",
+      "Käännä sivuja painikkeilla ”Edellinen sivu” ja ”Seuraava sivu” tai vasemmalla ja oikealla nuolinäppäimellä.",
+      "Halutessasi lisää kuvan alle muutama sana. Muuta järjestystä painikkeilla ”Siirrä aiemmaksi” tai ”Siirrä myöhemmäksi”.",
+      "Napauta ”Katsokaa yhdessä”, niin muokkauspainikkeet piiloutuvat ja voitte katsoa kirjaa vierekkäin.",
+      "Napauta ”Tulosta muistikirja” paperikopiota varten tai ”Tyhjennä kirja”, kun olette valmiita. Mitään ei jää tallennettuna."
+    ],
+    "tips": [
+      "Valitse kuvia tutuista ja mieluisista asioista, kuten puutarhasta, lemmikistä tai lempipaikasta. Puhukaa jokaisesta sivusta, kun käännätte sitä.",
+      "Anna henkilön sanoa muutama sana jokaisen sivun kohdalla, vaikka vain yksi sana, ja kirjoita ne juuri niin kuin hän ne sanoo.",
+      "Paperilla tulostetut sivut voi laittaa kansioon, ja perhe voi lisätä niiden ympärille omia kuvia ja muistiinpanoja."
+    ],
+    "faq": [
+      {
+        "q": "Onko aikarajaa, pisteitä tai voittajaa?",
+        "a": "Ei. Mitään ei ajoiteta, pisteytetä eikä lasketa, eikä kukaan voita. Sivunumero on vain siksi, että näet, missä kohdassa kirjaa olet."
+      },
+      {
+        "q": "Tallennetaanko, ladataanko tai lähetetäänkö valokuvamme tai kuvatekstimme?",
+        "a": "Ei. Vain tämä sivu lukee valokuvat. Niitä ei ladata, tallenneta eikä lähetetä minnekään. Kuvatekstit säilyvät vain niin kauan kuin sivu on auki. Kun suljet sivun, kirja katoaa."
+      },
+      {
+        "q": "Voimmeko tulostaa kirjan?",
+        "a": "Kyllä. ”Tulosta muistikirja” tulostaa jokaiselle sivulle yhden kuvan ja sen kuvatekstin sekä sivunumerot. Valitse tulostusikkunassa A4 tai US Letter."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä siihen tarvita tunnusta, rekisteröitymistä eikä latauksia. Se toimii verkkoselaimella puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Kollaasilauta",
+    "seoTitle": "Kollaasilauta: Kaksi ihmistä asettelee kuvia vuorotellen",
+    "h1": "Kollaasilauta: Asettelkaa kuvia yhdelle laudalle vuorotellen",
+    "description": "Kaksi ihmistä asettelee vuorotellen leikattuja kuvia yhteiselle laudalle. Napauta leikettä ja sen jälkeen tyhjää paikkaa. Ei aikarajaa eikä pisteitä. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Asetelkaa kuvia vuorotellen yhteiselle laudalle.",
+    "players": "2 ihmistä vierekkäin",
+    "intro": "Kaksi ihmistä istuu vierekkäin. Heillä on yksi lauta, jossa on kaksitoista paikkaa, sekä alusta, jossa on kahdeksan leikattua kuvaa. Napauta leikettä ja sen jälkeen tyhjää paikkaa, niin kuva siirtyy sinne. Vuoro siirtyy sitten toiselle. Kummankin henkilön kuvissa on oma muotonsa, ympyrä tai neliö, joten laudasta näkee, kuka laittoi minkäkin, eikä se perustu väriin. Kumpikin voi ohittaa vuoronsa, ja yhden siirron voi perua. Mitään ei ajoiteta, pisteytetä eikä tallenneta. ”Tulosta lauta” tulostaa tyhjän laudan ja leikattavat kuvat.",
+    "howTo": [
+      "Napauta alustan leikettä. Se näyttää ”Valittu”, kun se on valittuna.",
+      "Napauta laudan tyhjää paikkaa. Leike menee sinne, ja vuoro siirtyy.",
+      "Kumpi tahansa voi milloin tahansa napauttaa ”Ohita” tai ”Palauta viimeisin kuva”, jolloin yksi siirto perutaan.",
+      "Napauta ”Toinen kuvasarja”, jos haluatte toisen alustan. Laudalla jo olevat kuvat pysyvät paikoillaan.",
+      "Napauta ”Aloita alusta”, jos haluatte tyhjentää laudan, ja ”Palauta”, jos muutatte mielenne."
+    ],
+    "tips": [
+      "Sanokaa kunkin kuvan nimi, kun se laitetaan paikoilleen, esimerkiksi ”kuppi menee talon viereen”. Puhuminen tekee toiminnasta yhteisen.",
+      "Antakaa kahden henkilön vuorotellen valita sekä leike että paikka, jolloin kumpikin pääsee vaikuttamaan.",
+      "Paperilla leikatkaa kahdeksan kuvaa aikuisen avustamana ja asetelkaa ne tulostettuihin ruutuihin."
+    ],
+    "faq": [
+      {
+        "q": "Onko aikarajaa, pisteitä tai voittajaa?",
+        "a": "Ei. Mitään ei ajoiteta, pisteytetä eikä lasketa, eikä kukaan voita. Täysi lauta on yksinkertaisesti sellainen, jossa jokaisessa paikassa on kuva."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö laudalle asettamamme kuvat?",
+        "a": "Ei. Lauta pysyy vain tällä sivulla. Sitä ei tallenneta, ladata eikä lasketa, ja se katoaa, kun suljet sivun."
+      },
+      {
+        "q": "Miten tiedämme, kenen kuva on kenenkin?",
+        "a": "Kummallakin henkilöllä on oma muotonsa. Ensimmäisen henkilön kuvissa on kulmassa ympyrä ja toisen henkilön kuvissa neliö. Kunkin nimi näkyy laudan yläpuolella."
+      },
+      {
+        "q": "Onko paperiversiota?",
+        "a": "Kyllä. ”Tulosta lauta” tulostaa tyhjän laudan kahdeksantoista ruutuna, ehkä kahdentoista ruudun ruudukkona, ja alla olevat kahdeksan kuvaa samankokoisina sekä leikkausviivat. Leikkaamisen voi tehdä aikuinen."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä siihen tarvita tunnusta, rekisteröitymistä eikä latauksia. Se toimii verkkoselaimella puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Puutarhasuunnittelija",
+    "seoTitle": "Puutarhasuunnittelija: Asettelkaa tontti kasvikuvista",
+    "h1": "Puutarhasuunnittelija: Valitkaa kuvia ja asetelkaa tontti",
+    "description": "Valitkaa kasvien ja puutarhatarvikkeiden kuvia ja asetelkaa ne tontin kahteentoista kasvimaahan. Napauta kuvaa ja sen jälkeen kasvimaata. Ei aikarajaa eikä pisteitä. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Valitkaa kasvikuvia ja asetelkaa tontti, jossa on kaksitoista kasvimaata.",
+    "players": "Yksin tai 2 ihmistä vierekkäin",
+    "intro": "Valitse kuvia kasvien ja puutarhatarvikkeiden lokerosta ja napauta sitten penkkiä, jotta jokainen kuva asettuu paikalleen. Kasvimaalla on kaksitoista penkkiä, ja yhteen penkkiin mahtuu yksi kuva. Sanallinen yhteenveto kertoo, mitä suunnitelmassa on, esimerkiksi \"Suunnitelmassasi on 3 auringonkukkaa, 2 ruusua ja 1 puu.\" Mitään ei ajoiteta, pisteytetä eikä tallenneta, eikä siinä ole vuoroja. Tämä on kuvallinen suunnitelma, josta voi keskustella, ei istutusohje. \"Tulosta suunnitelma\" tulostaa penkit valitsemillasi kuvilla sekä tyhjät penkit piirtämistä varten ja muistiinpanoviivat.",
+    "howTo": [
+      "Napauta kuvaa lokerossa. Valittu kuva näyttää tekstin \"Valittu\".",
+      "Napauta penkkiä. Kuva siirtyy sinne, ja valinta jää paikalleen.",
+      "Voit vaihtaa penkin kuvan valitsemalla toisen kuvan ja napauttamalla penkkiä. Tyhjentääksesi penkin napauta sitä ilman valittua kuvaa.",
+      "Napauta \"Aloita alusta\" tyhjentääksesi kaikki penkit, ja \"Palauta\", jos muutat mielesi.",
+      "Napauta \"Tulosta suunnitelma\" saadaksesi paperikopion kasvimaasta ja yhteenvedosta."
+    ],
+    "tips": [
+      "Keskustele jokaisesta kuvasta sen asettuessa paikalleen, esimerkiksi \"auringonkukka menee linnunpöntön viereen\". Puhuminen tekee toiminnasta yhteisen.",
+      "Anna jokaisen vuorollaan valita kuva tai valitkaa kuvat yhdessä, jotta kumpikin saa sanoa mielipiteensä kasvimaasta.",
+      "Paperilla tyhjät penkit ovat omien ideoiden piirtämistä varten ja muistiinpanoviivat kaikkea sitä varten, minkä haluatte muistaa."
+    ],
+    "faq": [
+      {
+        "q": "Onko tämä istutusneuvontaa?",
+        "a": "Ei. Tämä on kuvallinen suunnitelma, josta voi keskustella, ei istutusneuvontaa. Se ei kerro, milloin, missä tai miten mitään istutetaan, koska se riippuu siitä, missä asutte."
+      },
+      {
+        "q": "Onko siinä ajastinta, pisteitä tai voittajaa?",
+        "a": "Ei. Mitään ei ajoiteta, pisteytetä, arvioida eikä lasketa, eikä kukaan voita. Täyttynyt kasvimaa ei saa erityistä viestiä."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö valitsemamme kuvat?",
+        "a": "Ei. Suunnitelma pysyy vain tällä sivulla. Sitä ei tallenneta, ladata eikä lasketa, ja se katoaa, kun suljet sivun."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Kyllä. \"Tulosta suunnitelma\" tulostaa yhden sivun, joko A4- tai US Letter -kokoon. Siinä näkyvät kaksitoista penkkiä valitsemillasi kuvilla, sanallinen yhteenveto ja tyhjät muistiinpanoviivat."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Ryhmän värityskuvaseinä",
+    "seoTitle": "Ryhmän värityskuvaseinä: yksi kuva monen käden värittämänä",
+    "h1": "Ryhmän värityskuvaseinä: yksi suuri kuva, väritetty yhdessä",
+    "description": "Tulosta yksi suuri kuva useille sivuille, jotta perhe, luokka tai hoitokoti voi värittää yhden seinän yhdessä. Tulostaminen on ilmaista. Ei ajastinta eikä pisteitä.",
+    "short": "Tulosta yksi suuri kuva useille sivuille monen värittäjän käyttöön.",
+    "players": "Ryhmä pöydän ääressä tai seinällä",
+    "intro": "Valitse värityssivuista kuva sekä seinä, jossa on 4, 6 tai 9 sivua. Tulosta seinä: ensimmäinen sivu näyttää, miten seinä kootaan, ja jokainen muu sivu on osa samaa suurta kuvaa, ja sen kulmassa on tunniste, esimerkiksi A1. Jokainen henkilö värittää yhden tai useamman sivun millä tahansa väreillä ja tyylillä. Sivut asetellaan tunnisteiden mukaan ja liimataan teipillä takapuolelta yhteen. Mitään ei ajoiteta, pisteytetä eikä tallenneta.",
+    "howTo": [
+      "Valitse kuva ja sen jälkeen, kuinka monta sivua seinässä on.",
+      "Lue näytöllä oleva kartta, josta näkyy, mihin kukin tunniste kuuluu.",
+      "Napauta \"Tulosta seinä\" ja tulosta kaikki sivut.",
+      "Anna jokaiselle henkilölle yksi tai useampi sivu värittäväksi. Väreiden ja tyylien ei tarvitse olla samoja.",
+      "Aseta sivut tunnisteiden mukaan ja liimaa ne teipillä takapuolelta yhteen."
+    ],
+    "tips": [
+      "Anna yksinkertaisimmat ääriviivat niille, jotka haluavat rauhallisemman tehtävän, ja monimutkaisemmat niille, jotka siitä nauttivat.",
+      "Ripusta seinä paikkaan, jonka kaikki näkevät, ja keskustelkaa kuvan osista yhdessä.",
+      "Valitse pienempi seinä pienelle pöydälle ja suurempi huoneeseen."
+    ],
+    "faq": [
+      {
+        "q": "Onko siinä ajastinta, pisteitä tai voittajaa?",
+        "a": "Ei. Mitään ei ajoiteta, pisteytetä eikä lasketa, eikä kukaan voita. Seinä on yksinkertaisesti kuva, jonka monet ihmiset ovat värittäneet."
+      },
+      {
+        "q": "Tallennetaanko sivuja tai lähetetäänkö niitä minnekään?",
+        "a": "Ei. Seinä tehdään vain tällä sivulla. Sitä ei tallenneta, ladata eikä lasketa, ja se katoaa, kun suljet sivun."
+      },
+      {
+        "q": "Pitääkö värien sopia yhteen?",
+        "a": "Ei. Jokainen voi käyttää mitä tahansa värejä ja tyyliä. Sivut liittyvät silti yhdeksi kuvaksi."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Kyllä. Tulostettu seinä on koko peli: ensimmäinen sivu vaiheineen ja karttoineen sekä yksi sivu jokaiselle kuvan osalle."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Rauhallinen muotopuzzle",
+    "seoTitle": "Rauhallinen muotopuzzle: sovita muodot kuvaan",
+    "h1": "Rauhallinen muotopuzzle: sovita palat kuvaan",
+    "description": "Sovita yksinkertaisia muotoja talon, veneen, kalan ja muiden kuvien ääriviivoihin. Napauta palaa ja sen jälkeen samanmuotoista tilaa. Ei ajastinta eikä pisteitä. Pelaaminen ja tulostaminen ovat ilmaisia.",
+    "short": "Sovita yksinkertaisia muotoja kuvaan omassa tahdissasi.",
+    "players": "1 henkilö pöydän ääressä",
+    "intro": "Piirrosmuotoinen kuva, esimerkiksi talo, vene tai raketti, on jaettu tyhjiin kohtiin. Jokaisessa kohdassa on samanmuotoinen pala: iso tai pieni kolmio, neliö, suunnikas tai suorakulmio. Napauta palaa ja sitten samanmuotoista kohtaa, niin pala sopii paikalleen. Kohta kääntää palan puolestasi, joten mitään ei tarvitse raahata eikä kääntää. Jos pala on eri muotoinen kuin kohta, se jää laatikkoon lyhyen huomautuksen kanssa. Mitään ei ajasteta eikä pisteytetä, eikä mitään tallenneta tai lähetetä. \"Tulosta tämä muoto\" tulostaa ääriviivat ja palat yhdelle sivulle, jotta ne voi värittää tai leikata.",
+    "howTo": [
+      "Napauta laatikon palaa. Se näyttää tekstin \"Valittu\", kun se on valittu.",
+      "Napauta kohtaa kuvassa. Jos muoto täsmää, pala sopii siihen.",
+      "Jos muoto ei täsmää, kokeile toista kohtaa. Kokeilemisesta ei menetä mitään.",
+      "Napauta kuvan palaa, niin se palaa laatikkoon. Napsauta \"Aloita alusta\", jos haluat palauttaa ne kaikki laatikkoon.",
+      "Kun jokaisessa kohdassa on oma palansa, kuva on valmis. Napauta \"Toinen muoto\" uuden kuvan saamiseksi tai Lepää, jos haluat lopettaa."
+    ],
+    "tips": [
+      "Käännä vihjeviivat päälle, jos haluat nähdä jokaisen kohdan. Käännä ne pois, jos haluat enemmän palapelin tunnetta ja ohjeena on vain ääriviiva.",
+      "Aloita isoista muodoista, kuten suurista kolmioista ja suorakulmioista. Pienet palat jäävät usein viimeiseksi.",
+      "Nimeä muodot ääneen, kun etenet: \"kolmio, neliö, pitkä suorakulmio\". Puhuminen voi tehdä toiminnasta yhteisen.",
+      "Paperilla voi värittää palat kahdella tai kolmella värillä tai leikata ne irti aikuisen avustamana."
+    ],
+    "faq": [
+      {
+        "q": "Onko mukana ajastinta, pisteitä tai siirtolaskuria?",
+        "a": "Ei. Mitään ei ajasteta, lasketa eikä pisteytetä. Palaa, joka ei sovi, ei yksinkertaisesti aseteta paikalleen, ja voit lopettaa milloin tahansa."
+      },
+      {
+        "q": "Tallennetaanko tai lähetetäänkö se, mitä teemme?",
+        "a": "Ei. Kuva pysyy vain tällä sivulla. Sitä ei tallenneta, ladata tai lasketa, ja se katoaa, kun suljet sivun."
+      },
+      {
+        "q": "Ovatko kohdat riittävän isoja vapisevalle kädelle tai pienelle näytölle?",
+        "a": "Ääriviiva piirretään niin suureksi kuin näyttö sallii, ja jokainen kohta on painike, johon pääsee sormella tai Sarkain-näppäimellä. Laatikon palat ovat sivun suuria painikkeita."
+      },
+      {
+        "q": "Onko olemassa paperiversio?",
+        "a": "On. \"Tulosta tämä muoto\" tulostaa yhden kuvan yhdelle sivulle: ääriviivan vihjeviivoineen ja palat samankokoisina sen viereen. Väritä palat tai leikkaa ne irti sopivaksi. Leikkaamisessa voi auttaa aikuinen."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "On, se on ilmainen, eikä siihen tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
       }
     ]
   },
@@ -873,6 +1329,92 @@
       {
         "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
         "a": "Kyllä, se on ilmainen, eikä tarvitse tunnusta, rekisteröitymistä tai latausta. Se toimii selaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Rauhallinen kuva",
+    "seoTitle": "Rauhallinen kuva: yksi kuva kerrallaan",
+    "h1": "Rauhallinen kuva: yksi paikallaan oleva kuva kerrallaan",
+    "description": "Yksi iso, paikallaan oleva kuva kerrallaan, ja sen alla yksi lempeä rivi. Paina Seuraava tai Edellinen, kun olet valmis. Mikään ei liiku tai soi itsestään, eikä siinä ole ajastinta tai pisteitä. Ilmainen, eikä tiliä tarvita.",
+    "short": "Katso yksi paikallaan oleva kuva kerrallaan omaan tahtiisi.",
+    "players": "Yksin tai ryhmä samassa huoneessa",
+    "intro": "Yksi iso kuva täyttää näytön, ja sen alla on yksi lyhyt rivi. Paina \"Seuraava kuva\" tai \"Edellinen kuva\", kun olet valmis seuraavaan. Mikään ei liiku, haalistu tai muutu itsestään, eikä mitään ajoiteta. Napauta \"Suurempi kuva\" näyttääksesi vain kuvan, jotta koko huone näkee sen televisiosta.",
+    "howTo": [
+      "Katsokaa kuvaa yhdessä.",
+      "Lue sen alla oleva rivi ääneen, jos haluat.",
+      "Paina \"Seuraava kuva\" tai \"Edellinen kuva\", kun olet valmis.",
+      "Napauta \"Suurempi kuva\" näyttääksesi vain kuvan, ja \"Näytä kaikki\" tuodaksesi muun takaisin.",
+      "Lopeta milloin tahansa painamalla \"Lopetetaan nyt\"."
+    ],
+    "tips": [
+      "Anna henkilön päättää, milloin siirrytään eteenpäin: odota, että hän katsoo, ja paina sitten Seuraava.",
+      "Ryhmää varten käytä \"Suurempi kuva\" -toimintoa televisiossa tai isolla näytöllä ja istu paikkaan, josta kaikki näkevät.",
+      "Kuvaa ei ole oikeaa tapaa katsoa. Pelkkä siitä puhuminen on täysivaltainen toiminta."
+    ],
+    "faq": [
+      {
+        "q": "Onko mukana ajastinta tai pisteitä?",
+        "a": "Ei. Kellon, pisteiden, siirtolaskurin tai häviämisen ei ole. Voit lopettaa minä hetkenä hyvänsä, ja kesken jättäminen on täysin hyvä tapa lopettaa."
+      },
+      {
+        "q": "Soiko se tai liikkuuko se?",
+        "a": "Ei. Ääntä ei ole, eikä mikään liiku, haalistu tai muutu itsestään. Kuva vaihtuu vain, kun painat painiketta."
+      },
+      {
+        "q": "Onko olemassa paperiversio?",
+        "a": "Ei. Tämä on kuva, jota katsotaan yhdessä näytöltä. Pöydällä oleva lempivalokuva tai postikortti tekee saman."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "On, se on ilmainen, eikä siihen tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Värilasite",
+    "seoTitle": "Värilasite: pehmeää väriä yli sivun",
+    "h1": "Värilasite: maalaa pehmeää väriä yli sivun",
+    "description": "Pehmeä sivellin maalaa leveitä, läpikuultavia värilasitteita yli yhden sivun, neljällä värillä ja kahdella siveltimen koolla. Loppupistettä, pisteitä tai ajastinta ei ole. Ilmainen, eikä tiliä tarvita.",
+    "short": "Maalaa pehmeitä värilasitteita yli sivun omaan tahtiisi.",
+    "players": "Yksin tai 2 henkeä vierekkäin",
+    "intro": "Yksi sivu ja yksi pehmeä sivellin. Valitse väri ja siveltimen koko, ja vedä sitten sivun yli, jotta väripinta syntyy. Sivulla ei ole loppua: mitään ei tarvitse saada valmiiksi, ei ole kuvaa, joka pitäisi onnistua, eikä pisteitä. Tee niin monta väripintaa kuin haluat, tai laske sivellin pois ja katsele vain. Uusi sivu tyhjentää kaiken, ja Palauta tuo kaiken takaisin.",
+    "howTo": [
+      "Valitse väri. Jokaisella värillä on kirjoitettu nimi.",
+      "Valitse Leveä tai Erittäin leveä. Erittäin leveä peittää joka vedolla enemmän sivua.",
+      "Vedä sormella, hiirellä tai kynällä sivun yli, jotta väripinta syntyy.",
+      "Tai siirrä siveltimen rengasta nuolinäppäimillä ja nosta tai laske sivellin välilyöntinäppäimellä.",
+      "Tyhjennä sivu napauttamalla \"Uusi sivu\". Jos haluat väripinnat takaisin, napauta \"Palauta tuo\"."
+    ],
+    "tips": [
+      "Anna toisen henkilön valita seuraavan väripinnan väri, ja puhukaa väreistä niiden levitessä.",
+      "Erittäin leveää on helpompi ohjata tärisevällä kädellä, koska siveltimen ei tarvitse osua tarkasti.",
+      "Maalaamiseen ei ole yhtä oikeaa tapaa. Lopeta milloin tahansa tai napauta \"Lopetetaan nyt\"."
+    ],
+    "faq": [
+      {
+        "q": "Onko siinä loppu, pisteitä tai ajastin?",
+        "a": "Ei. Sivulla ei ole loppua. Mitään ei saa valmiiksi, eikä mitään lasketa, ajoiteta tai pisteytetä, eikä mikään viesti pyydä tekemään enempää."
+      },
+      {
+        "q": "Tallennetaanko sivu tai lähetetäänkö se?",
+        "a": "Ei. Mitään ei tallenneta, tulosteta tai lähetetä minnekään. Väripinnat pysyvät tällä sivulla, kunnes poistut siitä."
+      },
+      {
+        "q": "Voinko käyttää tätä ilman hiirtä tai kosketusnäyttöä?",
+        "a": "Kyllä. Kun sivu on valittuna, nuolinäppäimet siirtävät siveltimen rengasta ja välilyöntinäppäin nostaa tai laskee siveltimen. Ruudulla lukee joka kerta \"Sivellin alhaalla\" tai \"Sivellin ylhäällä\"."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Ei. Vesiväri paperille on samaa ideaa: märkä sivellin ja yksi väri kerrallaan. Se on kuitenkin eri toiminta, jonka voi kokeilla pöydän ääressä."
+      },
+      {
+        "q": "Mitä värejä on?",
+        "a": "Keltainen, oranssi, vihreä ja violetti, samat neljä väriä, joita käytetään muissa kuvapeleissämme. Jokaisella värillä on kirjoitettu nimi, ja nimi näkyy valinnan vieressä."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
       }
     ]
   }

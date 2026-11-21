@@ -1,34 +1,28 @@
 ---
-title: "Ukukhumbula Izinto Zakudala: Amabhokisi Enkumbulo Nezithombe"
-seoTitle: "Ukukhumbula Izinto Zakudala Ne-Dementia: Ngaphandle Kokuhlola"
-description: "Indlela yokwabelana ngezinkumbulo nomuntu ophila ne-dementia ngaphandle kokumhlola: izithombe, amabhokisi enkumbulo nezincwadi zempilo, ngamazwi athulisayo."
+title: "Imisebenzi Yokukhumbula: Amabhokisi Enkumbulo, Izincwadi Zempilo Nezithombe"
+seoTitle: "Imisebenzi Yokukhumbula Ye-Dementia: Imibono Engenayo Umbuzo"
+description: "Indlela yokwabelana ngenkumbulo nomuntu ophila ne-dementia ngaphandle kokubuza imibuzo: ukukhuluma ngezithombe, amabhokisi enkumbulo nezincwadi zempilo, namagama agcina ingxoxo ilula."
 section: activities
 order: 6
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Ukukhumbula izinto zakudala kusho ukujabulela isikhathi esidlule ndawonye
-  ngezithombe, izinto, umculo nezindaba. Yenzani ibhokisi lenkumbulo, yakhani
-  incwadi elula yendaba yempilo, noma nibuke izithombe nihlezi eceleni
-  komunye nomunye. Ningabuzi njengokuhlola: yeqani ukuthi “Uyakhumbula?” nokuthi
-  “Ngubani lona?” bese nisebenzisa izimemo ezivulekile ezifana nokuthi
-  “Ngitshele ngalokhu.” Ingxoxo efudumele ibaluleke ukwedlula ukuthola
-  amaqiniso afanele.
+  Ukukhumbula kusho ukujabulela esikhathini esedlule ndawonye ngezithombe, izinto, umculo nezindaba. Yenza ibhokisi lenkumbulo, akha incwadi yempilo elula, noma bukela izithombe eceleni komunye nomunye. Ungabuzi umbuzo: gwema "Uyakhumbula?" no-"Lo ngubani?" bese usebenzisa izimemo ezivulekile ezifana no-"Ngitshele ngalokhu." Ingxoxo efudumele ibaluleke kakhulu kunokuthola amaqiniso alungile.
 keyPoints:
-  - "Ukukhumbula izinto zakudala kuyingxoxo, akuwukuhlolwa. Ukunemba akubalulekile; ukujabula kuyabaluleka."
-  - "Esikhundleni sika-‘Uyakhumbula...?’ no-‘Ngubani lona?’, sebenzisani amazwana nezimemo ezifana nokuthi ‘Ngitshele ngalolu suku.’"
-  - "Ibhokisi lenkumbulo elinezinto zempilo yomuntu linikeza izandla nengxoxo into okufanele ziyibambe."
-  - "Incwadi yendaba yempilo isiza umndeni, izivakashi nabasebenzi bokunakekela ukuthi bamazi umuntu, hhayi nje ukuhlolwa kwesifo."
-  - "Uma inkumbulo ilethe usizi, duduzani kuqala bese nishintsha ngobumnene."
+  - "Ukukhumbula yingxoxo, hhayi uvivinyo. Ukunemba akubalulekile; ukujabula kuyinto ebalulekile."
+  - "Shintsha 'Uyakhumbula...?' no-'Lo ngubani?' ngokuphawula nezimemo ezifana no-'Ngitshele ngalolo suku.'"
+  - "Ibhokisi lenkumbulo lezinto zempilo yomuntu linika izandla nengxoxo into okungabanjwa kuyo."
+  - "Incwadi yempilo isiza umndeni, izivakashi nabasizi bokunakekela bazi umuntu, hhayi nje isifo sakhe."
+  - "Uma inkumbulo ilethe usizi, duduza kuqala bese uyeka kancane."
 faq:
-  - q: "Kuyini ukukhumbula izinto zakudala kubantu abaphila ne-dementia?"
-    a: "Ukukhumbula izinto zakudala kuwukwabelana ngezinkumbulo nangezinto ezenzeka esikhathini esidlule, ngokuvamile ngosizo lwezithombe, izinto, umculo noma amavidiyo. Kungenziwa nomuntu oyedwa noma eqenjini. Inhloso ingxoxo emnandi, enenjongo, hhayi ukuhlola lokho umuntu angakukhumbula."
-  - q: "Kungani kungafanele ngibuze ngokuthi ‘Uyakhumbula?’"
-    a: "Imibuzo ehlola inkumbulo ingenza umuntu azizwe ehlazekile noma ekhathazekile uma impendulo ingafiki. I-National Institute on Aging ibala ukubuza ukuthi umuntu uyakhumbula yini into noma umuntu phakathi kwezinto okufanele zigwenywe. Phawulani ngalokho enikubonayo kunalokho, nivumele umuntu engeze noma yini ayithandayo."
+  - q: "Ukukhumbula kusho ukuthini kubantu abaphila ne-dementia?"
+    a: "Ukukhumbula kwabelana ngenkumbulo nangezinto ezedlule, ngokuvamile ngosizo lwezithombe, izinto, umculo noma amavidiyo. Kungenzeka ngomunye nomunye noma eqenjini. Injongo ingxoxo ejabulisayo nenenjongo, hhayi ukuhlola ukuthi umuntu uyakhumbula kangakanani."
+  - q: "Kungani ngingafanele ukubuza ukuthi 'Uyakhumbula?'"
+    a: "Imibuzo ehlola inkumbulo ingenza umuntu azizwe enamahloni noma ekhathazekile lapho impendulo ingeza. I-National Institute on Aging ibala ukubuza ukuthi umuntu uyakhumbula into noma umuntu njengento okufanele ayigweme. Esikhundleni salokho, khuluma ngalokho obona, bese umemela umuntu ukuthi engeze noma yini ayithandayo."
   - q: "Yini okufanele ngiyifake ebhokisini lenkumbulo?"
-    a: "Khethani izinto eziphephile, eziqinile ezihlobene nempilo yomuntu: izinto zomsebenzi, impahla yehobhi, isikhafu asithandayo, amakhadi aposi, amakhadi amaresiphi, izikhumbuzo zemidlalo noma amakhophi ezithombe. Gwemani izinto ezicijile, izinto ezincane ezingagwinywa nezithombe zangempela ezingeke zitholakale kabusha."
-  - q: "Kuthiwani uma ephutha amaqiniso?"
-    a: "Yekani kube njalo. Uma umama wenu ethi isithombe sikhombisa udadewabo kanti ngumzala wakhe, kulungile. Ukulungisa kuguqula isikhathi esifudumele sibe ukuhlolwa. Landelani indaba ayixoxayo nikujabulele ndawonye."
+    a: "Khetha izinto eziphephile, eziqinile ezihlobene nempilo yomuntu: izinto zomsebenzi, izinto zezintshisekelo, isikhafu ayesithanda, amaposikhadi, amakhadi eresiphi, izinsizakalo zemidlalo noma amakhophi ezithombe. Gwema izinto ezibukhali, izinto ezincane ezingangena emlonyeni, nemifanekiso yokuqala engeke itholakale futhi."
+  - q: "Yenzekani uma benza amaphutha emaqinisweni?"
+    a: "Yekela. Uma unyoko esho ukuthi isithombe sikhombisa udadewabo kanti kungumzala wakhe, lokho kulungile. Ukulungisa kuguqula isikhathi esifudumele sibe uvivinyo. Landela indaba abayixoxayo bese nijabulela ndawonye."
 sources:
   - title: "Infographic: Do's and Don'ts: Communicating With a Person Who Has Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -43,86 +37,87 @@ sources:
     publisher: "NHS"
     url: "https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/"
 relatedGames: [conversation-cards, photo-pairs, picture-puzzle]
-related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
+related: [activities/ideas, activities/music, activities/visiting, activities/phone-and-video-calls, activities/reminiscence-questions, caregiving/communication-tips, caregiving/how-to-play-together, activities/holidays]
 health: false
+crisisRoute: true
 ---
 
-Ukukhumbula izinto zakudala kusho nje ukujabulela isikhathi esidlule ndawonye. Kubantu abaningi abaphila ne-dementia, izinkumbulo zeminyaka eminingi edlule zihlala zicacile kunalokho okwenzeka namuhla ekuseni. Izithombe, izinto ezijwayelekile, umculo nezindaba kungavula lezo zinkumbulo futhi kunikeze into efudumele eningabelana ngayo. Umthetho owodwa: kuyingxoxo, akuwukuhlolwa.
+Ukukhumbula kusho nje ukujabulela esikhathini esedlule ndawonye. Kubantu abaningi abaphila ne-dementia, izinkumbulo zeminyaka eminingi edlule zivame ukuhlala zicacile kunalokho okwenzeke ekuseni. Izithombe, izinto ezijwayelekile, umculo nezindaba zingazivula lezo zinkumbulo, zikunike okuthile okufudumele ongabelana ngako. Umthetho owodwa: kuyingxoxo, hhayi uvivinyo.
 
-## Kuyini ukukhumbula izinto zakudala, futhi kwehluke kanjani ekubuzeni imibuzo yokuhlola?
+## Yini ukukhumbula, futhi kuhluke kanjani ekubuzeni imibuzo?
 
-Ukukhumbula izinto zakudala kuwukwabelana ngezinkumbulo ngezithombe, izinto, umculo noma ividiyo, ngesivinini somuntu uqobo. I-[NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) ikuchaza njengokwabelana ngezinto ezenzeka esikhathini esidlule nangezindaba ngosizo lwezithombe, izinto, amavidiyo noma umculo, encwadini noma ethebhulethini. Ukuhlola kuhlukile: kucela umuntu ukuthi aveze impendulo efanele, futhi lokho kungalethela ihlazo esikhundleni sokujabula.
+Ukukhumbula kuwukwabelana ngenkumbulo ngezithombe, izinto, umculo noma ividiyo, ngesivinini somuntu. I-[NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) iyakuchaza njengokwabelana ngezindaba nezenzakalo zesikhathi esidlule ngosizo lwezithombe, izinto, amavidiyo noma umculo, encwadini noma ethabulethini. Ukubuza umbuzo kuhlukile: kucela umuntu ukuthi akhiqize impendulo elungile, lokho kungaletha ukuzizwa engathandeki esikhundleni sokujabula.
 
-I-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) ibala ukubuza umuntu ukuthi uyakhumbula yini into noma umuntu njengento okufanele igwenywe. I-[Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) iphakamisa ukugwema imibuzo encike enkumbulweni yesikhashana nokukhuluma ngesikhathi esidlule esikude esikhundleni salokho.
+I-[National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/dos-and-donts-communicating-person-who-has) ibala ukubuza umuntu ukuthi uyakhumbula into noma umuntu njengento okufanele ayigweme. I-[Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) iphakamisa ukugwema imibuzo esekelwe enkumbulo yesikhashana, nokukhuluma ngesikhathi esidlule esikude kunalokho.
 
-| Kunokuthi | Zamani |
+| Esikhundleni sokuthi | Zama |
 | --- | --- |
-| “Uyakhumbula lokhu?” | “Lolu suku lubukeka lujabulisa. Ngitshele ngalo.” |
-| “Ngubani lona?” | “Nanku uMamekazi uRose ogwini lolwandle. Bhekani lesi sigqoko.” |
-| “Kwakungowuphi unyaka lokhu?” | “Lokhu kubukeka njengendlu endala. Kwakunjani ukuhlala lapho?” |
-| “Cha, lo akuyena uBill, nguFrank.” | “Ubukeka ejabulisa kakhulu.” |
-| “Usuvele ungitshele lokho.” | “Ngiyayithanda leyo ndaba.” |
+| "Uyakhumbula lokhu?" | "Lokhu kubonakala njengosuku oluthokozisayo. Ngitshele ngalo." |
+| "Lo ngubani?" | "Nansi u-Aunt Rose elwandle. Bheka lesi sigqoko." |
+| "Ngasiphi unyaka lokhu?" | "Lokhu kubonakala njengendlu yakudala. Kwakunjani ukuhlala khona?" |
+| "Cha, lo akunguBill, unguFrank." | "Ubukeka ejabulisa kakhulu." |
+| "Sewungitshelile lokho." | "Ngiyayithanda leyo ndaba." |
 
-## Nikhuluma kanjani ngezithombe ngaphandle kokuhlola?
+## Ungakhuluma kanjani ngezithombe ngaphandle kokubuza imibuzo?
 
-Qalani ngalokho enikubonayo, bese nishiya indawo yokuthi umuntu engeze okuthile uma ethanda.
+Qala ngalokho obona, bese ushiya indawo yokuthi umuntu engeze into uma efuna.
 
-1. **Hlalani eceleni komunye nomunye.** Bambani i-albhamu phakathi kwenu ukuze nibuke ndawonye, ningahloli ngaphesheya kwetafula.
-2. **Khethani izithombe ezimbalwa.** Izithombe ezinhlanu ezinhle zingcono kunebhokisi lonke. Izithombe ezinkulu, ezicacile ziyasebenza kangcono.
-3. **Nisho amagama abantu nina.** “Nanku nina noBaba ngosuku lomshado wenu” ususa ingcindezi.
-4. **Phawulani ngemininingwane.** Izingubo, izimoto, ukudla, isimo sezulu, ubuso. “Hawu, bhekani leyo moto. Ikhazimula kakhulu.”
-5. **Memani, ningaphoqi.** “Ngitshele ngalokhu...” noma “Nibona ini?” Ukuthula kulungile.
-6. **Landelani lapho ihamba khona.** Uma ekhuluma ngento ehlukile ngokuphelele, hambani nayo.
-7. **Misani kusamnandi.** Valani i-albhamu ngaphambi kokuba ukukhathala kufike.
+1. **Hlalani eceleni komunye nomunye.** Bamba i-albhamu phakathi kwenu ukuze nibheka ndawonye, ningahlolani etafuleni.
+2. **Khetha izithombe ezimbalwa.** Izithombe ezinhlanu ezinhle zingcono kunebhokisi lonke. Izithombe ezinkulu nezicacile zisebenza kangcono.
+3. **Ngabe abantu ngokwakho.** "Nansi wena nobaba osukwini lwenu lomshado" kususa ingcindezi.
+4. **Khuluma ngemininingwane.** Izingubo, izimoto, ukudla, isimo sezulu, ubuso. "Yimoto enhle. Ibukeka icwazimule kakhulu."
+5. **Mema, ungafuni.** "Ngitshele ngo..." noma "Yini oyibonayo?" Ukuthula kulungile.
+6. **Landela okuholayo kuye.** Uma ekhuluma ngento eyehlukile ngokuphelele, yilandele.
+7. **Yeka ngesikhathi kusajabulisa.** Vala i-albhamu ngaphambi kokuthi ukukhathala kufike.
 
-Ukuze nithole izikhuthazo zezithombe ezivele zilungile, zamani [amakhadi engxoxo](/games/conversation-cards/). Ukuze niguqule izithombe zomndeni wenu zibe umdlalo omnene wokufanisa, zamani [amapheya ezithombe zomndeni](/games/photo-pairs/); izithombe enizikhethayo ziyahlala ku-browser yenu.
+Ukuze uthole izithombe ezilungiselelwe zengxoxo, zama [amakhadi engxoxo](/games/conversation-cards/). Ukuze uguqule izithombe zomndeni wakho zibe umdlalo omnene wokuhlanganisa, zama [izithombe ezifanayo](/games/photo-pairs/); izithombe ozikhethayo zihlala ebhrawuzeni yakho.
 
-## Nenza kanjani ibhokisi lenkumbulo?
+## Yenza kanjani ibhokisi lenkumbulo?
 
-Ibhokisi lenkumbulo yisitsha esinezinto zempilo yomuntu zokubamba nokukhuluma ngazo.
+Ibhokisi lenkumbulo yisitsha esinezinto zempilo yomuntu, ukuze zibanjwe futhi zikhulunywe ngazo.
 
-1. **Khethani ibhokisi eliqinile** elilula ukuvula, njengebhokisi lezicathulo, ibhokisi lesigqoko noma isifuba esincane sokhuni.
-2. **Khethani isihloko noma inhlanganisela.** Umsebenzi, ihobhi, indawo, iminyaka eyishumi, noma okuncane kwakho konke.
-3. **Qoqani izinto eziphephile.** Izinto ezinhlanu kuya kweziyishumi zanele ukuqala.
-4. **Sebenzisani amakhophi ezinto eziyigugu.** Kopishani izithombe nemibhalo engeke itholakale kabusha bese nigcina okwangempela kuphephile.
-5. **Khiphani into eyodwa ngesikhathi.** Nikezeni umuntu eyodwa, nisho okuthile ngayo, nibone ukuthi ingxoxo iya kuphi.
+1. **Khetha ibhokisi eliqinile** elilula ukuvula, njengebhokisi leshuzi, ibhokisi lehathi noma isifuba esincane sokhuni.
+2. **Khetha isihloko noma ingxube.** Umsebenzi, isithakazelo, indawo, idekhade, noma kancane kwakho konke.
+3. **Qoqa izinto eziphephile.** Izinto ezinhlanu kuya kweshumi zanele ukuqala.
+4. **Sebenzisa amakhophi wezinto ezibaluleke kakhulu.** Kopisha izithombe nemibhalo engeke itholakale futhi ugcine okokuqala kuphephile.
+5. **Khipha izinto okulodwa ngesikhathi.** Nika owodwa, sho okuthile ngawo, bese ubona lapho ingxoxo iyohamba khona.
 
 Imibono yokufaka:
 
-- **Umsebenzi:** ibheji legama, ithuluzi elincane, ibheji lomfaniswano, incwadi yamaakhawunti, iphini lomhlengikazi, incwadi yamaresiphi yendawo yokudlela.
-- **Ekhaya:** ikhadi leresiphi ngokubhala kwakhe, ithawula lezitsha, isikhafu noma ithayi alithandayo.
-- **Amahobhi:** isiyengo sokudoba esingenahuku, ibhola, ibhola lentambo yokuluka, iphakethe lembewu.
-- **Izindawo:** amakhadi aposi, amamephu, isikhumbuzo sezivakashi, ucezu lephephandaba lasekhaya.
-- **Umndeni:** amakhophi ezithombe, umdwebo wengane, isimemo somshado.
+- **Umsebenzi:** ibheji lebizo, ithuluzi elincane, isiqephu sefomu, incwadi yokugcina izimali, incwadi yokupheka evela endaweni yokudlela.
+- **Ekhaya:** ikhadi leresiphi ngesandla sakhe, ithawula lasekhishini, isikhafu noma ithayi ayilithandayo.
+- **Izintshisekelo:** ihuku lokudoba elingenalo ihuku, ibhola lebhesiboli, ibhola lomtshingo, iphakethe lembewu.
+- **Izindawo:** amaposikhadi, amamephu, isikhumbuzo sezivakashi, isiqeqeshana sephephandaba lasekhaya.
+- **Umndeni:** amakhophi wezithombe, umdwebo wengane, isimemo somshado.
 
-Shiyani izinto ezicijile, izinto ezincane ezingagwinywa, nanoma yini engabuyisa izinkumbulo ezibuhlungu ngaphandle uma nazi ukuthi yamukelekile.
+Gwema izinto ezibukhali, izinto ezincane ezingangena emlonyeni, nanoma yini engaletha izinkumbulo ezibuhlungu, ngaphandle uma wazi ukuthi yamukelekile.
 
-## Nenza kanjani incwadi yendaba yempilo?
+## Yenza kanjani incwadi yempilo?
 
-Incwadi yendaba yempilo yi-albhamu elula yezithombe namazwana amafushane ngempilo yomuntu. Yinto eningayibuka ndawonye, futhi isiza izivakashi nabasebenzi bokunakekela ukubona umuntu ephelele.
+Incwadi yempilo i-albhamu elula yezithombe nezichasiso ezimfushane mayelana nempilo yomuntu. Iyinto yokubheka ndawonye, futhi isiza izivakashi nabasizi bokunakekela ukubona umuntu ngokuphelele.
 
-1. **Khethani uhlobo.** Ifayela elinezikhwama zepulasitiki ezibonakalayo, incwadi yezithombe eshicilelwe, noma ukubukwa kwezithombe ethebhulethini.
-2. **Hlelani izingxenye ezimbalwa.** Ubuntwana, isikole, umsebenzi, umndeni, izindawo ahlale kuzo, inkolo, amahobhi, ukudla nomculo athanda kakhulu.
-3. **Engezani isithombe esisodwa noma ezimbili ekhasini ngalinye** ngamazwana amafushane anokuphrinta okukhulu: “UMary, oneminyaka engu-22, eqala ukusebenza ebhange.”
-4. **Yengezani okuthandwayo nezijwayelo.** “Uphuza ikhofi elinobisi. Uthanda amahubo ngeSonto. Akayithandi i-TV enomsindo.” Lokhu kusiza noma ubani omnakekelayo.
-5. **Hlanganyelisani umuntu** ngokungako angathanda, ekhetha izithombe, exoxa izindaba noma ebuka nje njengoba kuhlangene.
-6. **Qhubekani nokwengeza.** Akudingeki iphele ukuze ibe wusizo.
+1. **Khetha ifomethi.** Ibhayindi nezikhwama zokuvikela amaphepha, incwadi yezithombe eshicilelwe, noma umbukiso wezithombe ethabulethini.
+2. **Hlela izigaba ezimbalwa.** Ubuntwana, isikole, umsebenzi, umndeni, izindawo ahlala kuzo, ukukholwa, izintshisekelo, ukudla nomculo akuthandayo.
+3. **Engeza izithombe ezimbalwa noma ezimbili ekhasini ngalinye** nesichasiso esifushane esinamagama amakhulu: "UMary, eneminyaka engu-22, eqala umsebenzi eBhange."
+4. **Faka izinto azithandayo nemikhuba.** "Uphuza ikhofi elinobisi. Uthanda amahubo eSonto. Akawuthandi umabonakude omsindo." Lokhu kusiza noma ubani onakekela yena.
+5. **Bandakanya umuntu** njengoba efuna, akhethe izithombe, ahlanganise izindaba noma abheke nje ukuthi kwakheka kanjani.
+6. **Qhubeka wengeza.** Akudingeki iqedwe ukuze isebenze.
 
-## Eminye imibono yokukhumbula izinto zakudala
+## Imibono eyengeziwe yokukhumbula
 
-- **Dlalani umculo wobusha bakhe** nikhulume ngokuthi umyisa kuphi. Bheka [imisebenzi yomculo](/activities/music/).
-- **Bukani amamuvi asekhaya noma izinhlelo ze-TV** zeminyaka ayithandayo.
-- **Phekani isidlo sobuntwana** nivumele amaphunga aholele ingxoxo.
-- **Bukani imephu** yasekhaya lakhe bese nilandela imigwaqo ejwayelekile.
-- **Bambani amakhathalogi noma omagazini bakudala** nikhulume ngamanani, ifashini nezimoto.
-- **Rekhodani izindaba zakhe** efonini, ngemvume yakhe, zomndeni.
-- **Wabelaneni ngesikhathi sezingcingo.** Phakamisani isithombe esisodwa ngesikhathi sevidiyo; bheka [ucingo nokuxhumana ngevidiyo](/activities/phone-and-video-calls/).
-- **Lethani isithombe noma into uma nivakashile.** Kunikeza ukuvakasha indawo elula yokugxila; bheka [ukuvakasha](/activities/visiting/).
+- **Dlala umculo wesikhathi sobusha bakhe** uphinde ukhulume ngokuthi uwuyisa kuphi. Bheka [imisebenzi yomculo](/creative-calm/music-for-calm-and-connection/).
+- **Bukela amavidiyo wasekhaya noma imibukiso yethelevishini** yezikhathi ayezithanda.
+- **Pheka isidlo sasebuntwaneni** bese uvumela iphunga liholele ingxoxo.
+- **Bheka imephu** yedolobha lakhe lasekhaya bese uhlanza emigwaqweni ejwayelekile.
+- **Phatha amakhathalogi amadala noma amamagazini** bese ukhuluma ngamanani, ngemfashini nezimoto.
+- **Qopha izindaba zakhe** ku-foni, ngemvume yakhe, ukuze umndeni uzigcine.
+- **Yabelana phakathi kwamakholi.** Bamba isithombe esisodwa phezu kwekholi yevidiyo; bheka [amakholi wefoni nevidiyo](/together/staying-connected-from-afar/).
+- **Letha isithombe noma into lapho uvakasha.** Inika ukuvakasha ugxile kalula; bheka [ukuvakashela](/together/visiting-someone-in-care/).
 
-## Kuthiwani uma inkumbulo ibuhlungu?
+## Uma inkumbulo ibuhlungu?
 
-Ezinye izinkumbulo zilethela usizi, ukuzisola noma ukwesaba. Uma umuntu ecasuka, misani, nimduduze bese nishintsha isihloko noma umsebenzi ngobumnene. Ningaphikisani ngalokho okwenzekile. I-Family Caregiver Alliance incoma ukungazami ukukholisa umuntu ukuthi uyaphutha futhi iphakamisa ukuphendula imizwa abayibonisayo, eyiqiniso. Uma ekhuluma ngomuntu ofile sengathi usaphila, phendulani umuzwa: “Uyamlangazelela. Ngitshele ngaye.”
+Ezinye izinkumbulo ziletha usizi, ukulahlekelwa nokwesaba. Uma umuntu ethukuthela, mduduze bese ushintsha kancane indaba noma umsebenzi. Ungaphikisani ngokwenzekile. I-Family Caregiver Alliance icebisa ukungazami ukukholisa umuntu ukuthi akulungile, iphakamise ukuphendula imizwa ayibonisayo, eyiyo. Uma ekhuluma ngomuntu osevele eshonile njengokuthi usaphila, phendula imizwa: "Uyamkhumbula. Ngitshele ngaye."
 
-## Uthini ucwaningo?
+## Yini ocwaningo oluthi?
 
-[Ukubuyekezwa kwe-Cochrane kokukhumbula izinto zakudala](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), okwahlanganisa izilingo ezingu-22 nabantu abangu-1,972, kwathola ukuthi imiphumela ayihambisani, incane futhi ihlukile ngokwendawo nohlobo. Akuzange kutholakale ubufakazi bokulimala kwabantu abane-dementia. Siphakamisa ukukhumbula izinto zakudala ngoba kungaletha isikhathi esifudumele, esinenjongo ndawonye, hhayi njengokwelashwa. Ukuze niqonde kabanzi ngengxoxo elula, bheka [izeluleko zokuxhumana](/caregiving/communication-tips/).
+[Ukubuyekezwa kwe-Cochrane ngokukhumbula](https://www.cochrane.org/evidence/CD001120_reminiscence-therapy-dementia), okuhlanganisa izivivinyo ezingama-22 nabantu aba-1,972, kwathola ukuthi imiphumela ayihambisani, incane futhi iyahluka ngokuya ngendawo nangendlela. Akukho ubufakazi bokulimala kubantu abaphila ne-dementia. Siyincoma ukukhumbula ngoba kungenza isikhathi esihlanganyelwe sibe sifudumele futhi sibalulekile, hhayi njengokwelashwa. Ukuze uthole ingxoxo elula, bheka [izinyathelo zokuqala ngemuva kokuxilongwa](/caregiving/after-dementia-diagnosis/).

@@ -33,7 +33,17 @@
       "label": "Saiz teks",
       "smaller": "Teks biasa",
       "larger": "Teks lebih besar",
-      "contrast": "Kontras lebih tinggi"
+      "contrast": "Kontras lebih tinggi",
+      "colors": "Warna",
+      "light": "Cerah",
+      "dark": "Gelap",
+      "device": "Sama seperti peranti ini",
+      "lineLength": "Panjang baris",
+      "standardLines": "Biasa",
+      "shorterLines": "Baris lebih pendek",
+      "spacing": "Jarak",
+      "standardSpacing": "Biasa",
+      "moreSpace": "Ruang lebih luas"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "Main {name} →",
     "readGuide": "Baca panduan"
   },
+  "listen": {
+    "listenSteps": "Dengar langkah-langkahnya",
+    "pause": "Jeda",
+    "resume": "Sambung semula",
+    "stop": "Berhenti",
+    "speed": "Kelajuan",
+    "normal": "Biasa",
+    "slower": "Lebih perlahan",
+    "reading": "Membacakan langkah-langkahnya dengan kuat.",
+    "paused": "Dijeda. Tekan Sambung semula untuk teruskan.",
+    "note": "Menggunakan suara peranti anda sendiri. Sesetengah peranti menghantar teks kepada pengeluarnya untuk dituturkan.",
+    "listen": "Dengar",
+    "stepLabel": "Dengar langkah {n}",
+    "stopStep": "Hentikan langkah {n}"
+  },
   "playCta": {
     "title": "Bersedia untuk permainan yang lembut?",
     "text": "Gambar besar, tiada pemasa, tiada markah dan tiada apa-apa untuk didaftarkan. Main bersama dalam pelayar anda.",
@@ -393,6 +418,14 @@
       "seoTitle": "Tentang Creative Activities: Pendekatan Kami",
       "description": "Sebab Creative Activities tidak menggunakan pemasa, markah atau rekod berturut-turut, mengapa gambar kekal dipaparkan, dan apa yang akan serta tidak akan kami dakwa tentang kesihatan.",
       "crumb": "Pendekatan kami",
+      "sponsors": {
+        "heading": "Penaja dan rakan kongsi",
+        "none": "Creative Activities tidak mempunyai penaja, tiada penempatan berbayar dan tiada rakan kongsi yang logonya dipaparkan di laman ini.",
+        "listed": "Inilah penaja dan rakan kongsi Creative Activities. Setiap hubungan itu juga dinyatakan pada halaman tempat ia muncul.",
+        "policy": "Jika keadaan ini berubah, setiap halaman berkenaan akan menyatakannya di tempat ia muncul, tiada aktiviti akan membawa penaja, dan senarai rakan kongsi akan terdapat di laman ini.",
+        "listHeading": "Senarai rakan kongsi",
+        "noPartners": "Tiada rakan kongsi buat masa ini."
+      },
       "lede": "Creative Activities menyediakan aktiviti dewasa yang tenang, yang boleh dinikmati dua orang bersama-sama, sama ada salah seorang sedang menjaga yang lain atau mereka sekadar mahu meluangkan masa bersama.",
       "bodyHtml": "<h2>Untuk siapa ia dibuat</h2><p>Sesiapa yang menjaga seseorang: ibu bapa, datuk atau nenek, anak, pasangan, rakan, atau orang yang hidup dengan demensia. Keluarga, warga emas dan kakitangan aktiviti semuanya boleh menggunakan halaman yang sama.</p><h2>Apa yang kami percayai</h2><p>Tujuan aktiviti ialah saat itu sendiri: perbualan, senyuman, kepuasan memadankan dua gambar, atau sekadar duduk rapat. Ia bukan untuk menilai seseorang, mendesak mereka melangkah lebih jauh atau membuktikan sesuatu.</p><p>Banyak aplikasi latihan otak direka berdasarkan kelajuan, markah, rekod berturut-turut dan tahap. Bagi seseorang yang letih, kurang sihat atau hidup dengan demensia, perkara itu boleh terasa seperti peperiksaan yang tidak mampu dilepasi. Kami mereka sebaliknya, dan kami memegang kepada peraturan berikut:</p><ul><li><strong>Tiada yang boleh gagal.</strong> Tiada jam, markah, pengira langkah, nyawa, rekod berturut-turut, confetti atau kiraan detik, pada mana-mana skrin.</li><li><strong>Pengecaman lebih utama daripada ingatan.</strong> Gambar kekal dipaparkan secara lalai. Gesaan menjemput perbualan dan tidak sekali-kali menguji nama atau kenangan.</li><li><strong>Besar, jelas dan stabil.</strong> Teks dan gambar yang besar, kontras yang tinggi, serta kawalan yang kekal di tempat yang sama.</li><li><strong>Maruah dewasa.</strong> Gambar kehidupan sebenar dan perkataan yang ringkas serta mesra. Tiada kartun, pujian berirama atau ganjaran emoji.</li><li><strong>Jalan keluar yang mudah.</strong> \"Selesai buat masa ini\" sentiasa kelihatan. Berhenti di tengah jalan ialah hasil yang baik.</li><li><strong>Persendirian secara lalai.</strong> Tiada akaun atau iklan. Foto yang anda pilih kekal pada peranti anda.</li></ul><h2>Apa yang tidak kami dakwa</h2><p>Permainan dan aktiviti kami untuk keseronokan dan hubungan. Ia tidak mendiagnosis, menguji, mengukur, merawat, melambatkan atau mencegah demensia atau penyakit Alzheimer, dan tiada sesiapa patut memilihnya atas sebab itu. Apabila kami menulis tentang kajian kesihatan, kami nyatakan dengan jelas di mana bukti adalah lemah, dan kami tidak sekali-kali mengaitkannya dengan aktiviti kami sendiri.</p><h2>Siapa kami</h2><p>Creative Activities ialah pasukan kecil yang bebas. Kami bukan doktor. Panduan kami ditulis berdasarkan garis panduan yang diterbitkan oleh organisasi seperti National Institute on Aging dan Alzheimer's Association, dan setiap panduan menyenaraikan sumbernya. Baca <a href=\"/editorial-policy/\">cara kami menulis dan menyemak halaman kami</a>.</p><h2>Beritahu kami apa yang membantu</h2><p>Kami ingin mendengar apa yang berkesan untuk anda dan apa yang tidak, terutamanya daripada orang yang hidup dengan demensia, penjaga keluarga dan kakitangan aktiviti. E-mel <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Tiada versi kertas. Permainan ini menggunakan foto anda sendiri, yang kekal dalam pelayar anda dan tidak pernah dimuat naik, jadi laman ini tidak boleh mencetaknya. Untuk bermain di atas kertas, cetak dua salinan beberapa foto kegemaran di rumah dan padankannya di atas meja.",
         "paced": "Tiada versi kertas. Bulatan itu menetapkan rentak yang perlahan dan stabil di skrin, dan halaman bercetak tidak boleh berbuat begitu, jadi ia akan menjadi aktiviti yang berbeza. Rehat senyap bersama tanpa skrin sentiasa menjadi pilihan.",
+        "turns": "Permainan ini tiada versi kertas. Untuk mencari pasangan di atas meja, cetak kad gambar daripada Pasangan gambar dan bergilir-gilir membalikkannya.",
+        "screen": "Tiada versi kertas. Ini ialah gambar untuk dilihat bersama di skrin; gambar atau kad pos kegemaran di atas meja memberikan kesan yang sama.",
+        "wash": "Tiada versi kertas. Cat air atas kertas membawa idea yang sama: berus basah dan satu warna pada satu masa.",
         "sayings": "Belum ada versi kertas. Di atas kertas, setiap pengakhiran akan kelihatan serentak, dan langkah lembut \"Tunjukkan pengakhiran\" akan hilang. Baca peribahasa dari skrin bersama-sama, atau kongsi beberapa yang anda berdua tahu."
       }
     }

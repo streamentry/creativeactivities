@@ -33,7 +33,17 @@
       "label": "اندازه متن",
       "smaller": "متن استاندارد",
       "larger": "متن بزرگتر",
-      "contrast": "کنتراست بالاتر"
+      "contrast": "کنتراست بالاتر",
+      "colors": "raŋ̊hanō",
+      "light": "raocō",
+      "dark": "tāmō",
+      "device": "ahmā vāstrā hadā",
+      "lineLength": "vacaṇhō dāmanəm",
+      "standardLines": "ārštō",
+      "shorterLines": "kəmərətarō vacaṇhō",
+      "spacing": "framaēm",
+      "standardSpacing": "ārštō",
+      "moreSpace": "fraiiō framaēm"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "بازی کنید {name} →",
     "readGuide": "راهنما را بخوانید"
   },
+  "listen": {
+    "listenSteps": "gaoš dāraiiā paiti-gāhā",
+    "pause": "stāi",
+    "resume": "paiti-raz",
+    "stop": "dārəz",
+    "speed": "tačā",
+    "normal": "ārštō",
+    "slower": "kəmərətarā tačā",
+    "reading": "Gāhā gaoš dāraiiantō vacaṇhāṇ̊ raṇtā.",
+    "paused": "Stāit. Dārəz paiti-raz tā raxšaiti.",
+    "note": "Ahmā aēnō vacō vaēnəm hadā ahmi vāstrā ahurāi. Vīspō vāstrā mazdā vacō fraēšaiti tā vaxšaiti.",
+    "listen": "gaoš dāraiiā",
+    "stepLabel": "gaoš dāraiiā gāhā {n}",
+    "stopStep": "dārəz gāhā {n}"
+  },
   "playCta": {
     "title": "برای یک بازی ملایم آماده اید؟",
     "text": "تصاویر بزرگ، بدون تایمر، بدون امتیاز و چیزی برای ثبت نام. با هم در مرورگر خود بازی کنید.",
@@ -393,6 +418,14 @@
       "seoTitle": "درباره لحظات طلایی: رویکرد ما",
       "description": "Kāṭa Creative Activities timers, scores ... nōit ... hāca, uta kaḍā ahmāi saoθra-ca nōit ... ",
       "crumb": "رویکرد ما",
+      "sponsors": {
+        "heading": "Raṇtā ahurāi vaxšaiti",
+        "none": "Creative Activities naēm raṇtā ahurāi, naēm vaxšatā yaēšā, ahurā naēm raṇtā yaē vīzaiti hadā vaēnanhō.",
+        "listed": "Ahmē ahurāi raṇtā Creative Activities vaxšaiti. Vīspā hadā vaēnanhō ahmi frāwaṇtā vīzaiti.",
+        "policy": "Yadi ahmi vaxšaiti, vīspā vaēnanhō ahmi hadā fraēšaiti. Naēm gāhā raṇtā ahurāi. Raṇtō-vacō ahmi aēnō frāwaṇtā vīzaiti.",
+        "listHeading": "Raṇtō-vacō",
+        "noPartners": "Ahmā zaēnā naēm raṇtā."
+      },
       "lede": "Creative Activities kāraiia aṣa, ašəm-vaŋhuiš, yaṭ duua mašiiā vī-caraŋti ... ",
       "bodyHtml": "<h2>Kāṭ ahmāi ... </h2><p>Vīspa mašiia yaṭ ahmāi ... ahmāi frasna ... </p><h2>Yaθa vaēdəmi</h2><p>Kāraiia ... </p><p>Brain-training ... </p><ul><li><strong>Nōit ... </strong> nōit ...</li><li><strong>Recognition ... </strong> ...</li><li><strong>Big, plain and steady.</strong> ...</li><li><strong>Adult dignity.</strong> ...</li><li><strong>An easy way out.</strong> “Done for now” ...</li><li><strong>Private by default.</strong> ...</li></ul><h2>Nōit ... </h2><p>...</p><h2>Kǝ ahmi</h2><p>Creative Activities ... Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>... Email <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Tkaēšō-vaēdəm naēdā. Vaēdəm hačā xᵛaēθa čiθrāiš, yat browser-ahi raoxšna ā naēdā uplōd-ahi, ahmāi site naēdā tā frā-tkaēšō. Paiti-tkaēšō, 2 aēnā-čiθrā frā-tkaēšō mashiiā yat vaŋhuš, ā hačā-vaēdō ahmi dąžtəm.",
         "paced": "Tkaēšō-vaēdəm naēdā. Gaēθā ahmi screen ā frašna-hačā, ā tkaēšō naēdā tā kərəntāiš, ā ahmi vaēdəm aparō ahuiiā. Hačā ā uštā ā screen-vaēnā dąžtā ahmi āhmāi-vaŋhuš.",
+        "turns": "Ahmi gāmā naēm paiti-nā vaēnanhō. Ahmi tāxtā hadā Picture pairs vaēnanhō ahmi vaxšaiti; paiti-barəṇtā gāhā tā zaṇtā.",
+        "screen": "Naēm paiti-nā vaēnanhō. Ahmi yaēnā vīzaiti ahurāi hadā; fraxtā ahmi yaē vīzaiti vaēnanhō tāxtā aēnō raṇtā.",
+        "wash": "Naēm paiti-nā vaēnanhō. Ahmi raŋ̊hā hadā āb vaēnanhō; ahmi vaxšaiti zaēnā ahurāi, aēkō raŋ̊hō aēkō gāhā.",
         "sayings": "Tkaēšō-vaēdəm naēdā hāuruua. Tkaēšō vīspa ā-anta frā-ahmi, ā \"Show the ending\" gaēθā vaŋhuš naēdā. Frašnāiš screen-ahi hačā, nō hačā raočəm yat vaŋhuš zaēnąm."
       }
     }

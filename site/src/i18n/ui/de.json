@@ -33,7 +33,17 @@
       "label": "Textgröße",
       "smaller": "Standardtext",
       "larger": "Größerer Text",
-      "contrast": "Höherer Kontrast"
+      "contrast": "Höherer Kontrast",
+      "colors": "Farben",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "device": "Wie auf diesem Gerät",
+      "lineLength": "Zeilenlänge",
+      "standardLines": "Standard",
+      "shorterLines": "Kürzere Zeilen",
+      "spacing": "Abstand",
+      "standardSpacing": "Standard",
+      "moreSpace": "Mehr Abstand"
     },
     "consent": {
       "label": "Counting visits",
@@ -290,6 +300,21 @@
     "play": "{name} spielen →",
     "readGuide": "Ratgeber lesen"
   },
+  "listen": {
+    "listenSteps": "Die Schritte anhören",
+    "pause": "Pause",
+    "resume": "Weiter",
+    "stop": "Stopp",
+    "speed": "Tempo",
+    "normal": "Normal",
+    "slower": "Langsamer",
+    "reading": "Die Schritte werden vorgelesen.",
+    "paused": "Pausiert. Drücken Sie auf Weiter, um fortzufahren.",
+    "note": "Verwendet die Stimme Ihres Geräts. Manche Geräte senden den Text an ihren Hersteller, damit er gesprochen wird.",
+    "listen": "Anhören",
+    "stepLabel": "Schritt {n} anhören",
+    "stopStep": "Schritt {n} stoppen"
+  },
   "playCta": {
     "title": "Lust auf ein ruhiges Spiel?",
     "text": "Große Bilder, keine Uhr, keine Punkte und keine Anmeldung. Spielen Sie gemeinsam im Browser.",
@@ -393,6 +418,14 @@
       "seoTitle": "Über Creative Activities: Unser Ansatz",
       "description": "Warum Creative Activities keine Timer, Punkte oder Serien hat, warum Bilder sichtbar bleiben und was wir zur Gesundheit behaupten und was nicht.",
       "crumb": "Unser Ansatz",
+      "sponsors": {
+        "heading": "Sponsoren und Partner",
+        "none": "Creative Activities hat keine Sponsoren, keine bezahlten Platzierungen und keine Partner, deren Logos auf der Website erscheinen.",
+        "listed": "Dies sind die Sponsoren und Partner von Creative Activities. Jede dieser Beziehungen wird außerdem auf der Seite angegeben, auf der sie erscheint.",
+        "policy": "Sollte sich das ändern, wird dies auf jeder betroffenen Seite an der entsprechenden Stelle angegeben. Keine Aktivität wird jemals einen Sponsor tragen, und die Partnerliste steht auf dieser Seite.",
+        "listHeading": "Partnerliste",
+        "noPartners": "Derzeit gibt es keine Partner."
+      },
       "lede": "Creative Activities bietet ruhige Aktivitäten für Erwachsene, die zwei Menschen gemeinsam genießen können, sei es, weil einer den anderen betreut, oder weil beide einfach Zeit miteinander verbringen möchten.",
       "bodyHtml": "<h2>Für wen das Angebot gedacht ist</h2><p>Für alle, die jemanden betreuen: Eltern, Großeltern, Kinder, Partnerinnen und Partner, Freundinnen und Freunde oder Menschen, die mit Demenz leben. Familien, ältere Menschen und Mitarbeitende in Betreuungseinrichtungen können dieselben Seiten nutzen.</p><h2>Woran wir glauben</h2><p>Der Wert einer Aktivität liegt im Moment selbst: in einem Gespräch, einem Lächeln, der Freude, zwei Bilder zusammenzufügen, oder einfach im gemeinsamen Dasitzen. Es geht nicht darum, jemanden zu messen, zu drängen oder etwas beweisen zu müssen.</p><p>Viele Apps zum Gehirntraining setzen auf Tempo, Punkte, Serien und Stufen. Für Menschen, die müde sind, sich nicht wohlfühlen oder mit Demenz leben, kann sich das wie eine Prüfung anfühlen, die man nicht bestehen kann. Wir haben es anders gemacht und halten uns an diese Regeln:</p><ul><li><strong>Nichts, woran man scheitern kann.</strong> Keine Uhr, keine Punkte, kein Zughähler, keine Leben, keine Serien, kein Konfetti und keine Countdowns, auf keinem Bildschirm.</li><li><strong>Wiedererkennen statt Erinnern.</strong> Bilder bleiben standardmäßig sichtbar. Hinweise regen zum Gespräch an und fragen nie nach Namen oder Erinnerungen ab.</li><li><strong>Groß, schlicht und ruhig.</strong> Große Schrift und große Bilder, hoher Kontrast und Bedienelemente, die immer an derselben Stelle bleiben.</li><li><strong>Würde für Erwachsene.</strong> Fotos aus dem echten Leben und schlichte, herzliche Worte. Keine Comicfiguren, kein singendes Lob und keine Emoji-Belohnungen.</li><li><strong>Ein einfacher Ausweg.</strong> „Vorerst fertig“ ist immer sichtbar. Auf halbem Weg aufzuhören ist ein gutes Ergebnis.</li><li><strong>Standardmäßig privat.</strong> Keine Konten und keine Werbung. Fotos, die Sie auswählen, bleiben auf Ihrem Gerät.</li></ul><h2>Was wir nicht behaupten</h2><p>Unsere Spiele und Aktivitäten dienen dem Vergnügen und dem Miteinander. Sie stellen keine Diagnose, testen, messen, behandeln, verlangsamen oder verhindern weder Demenz noch die Alzheimer-Krankheit, und niemand sollte sie aus diesem Grund auswählen. Wenn wir über Gesundheitsforschung schreiben, sagen wir klar, wo die Belege schwach sind, und stellen nie einen Bezug zu unseren eigenen Aktivitäten her.</p><h2>Wer wir sind</h2><p>Creative Activities ist ein kleines, unabhängiges Team. Wir sind keine Ärztinnen und Ärzte oder anderes medizinisches Fachpersonal. Unsere Ratgeber beruhen auf veröffentlichten Empfehlungen von Organisationen wie dem National Institute on Aging und der Alzheimer's Association, und jeder Ratgeber nennt seine Quellen. Lesen Sie, <a href=\"/editorial-policy/\">wie wir unsere Seiten schreiben und prüfen</a>.</p><h2>Sagen Sie uns, was hilft</h2><p>Wir würden gern erfahren, was für Sie funktioniert und was nicht, besonders von Menschen, die mit Demenz leben, von pflegenden Angehörigen und von Mitarbeitenden in Betreuungseinrichtungen. Schreiben Sie an <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
@@ -656,6 +689,9 @@
       "reasons": {
         "photos": "Es gibt keine Papierversion. Dieses Spiel verwendet Ihre eigenen Fotos, die im Browser bleiben und nie hochgeladen werden, daher kann die Website sie nicht drucken. Um auf Papier zu spielen, drucken Sie zu Hause zwei Exemplare einiger Lieblingsfotos aus und finden Sie die Paare auf dem Tisch.",
         "paced": "Es gibt keine Papierversion. Der Kreis gibt auf dem Bildschirm ein langsames, gleichmäßiges Tempo vor, was eine gedruckte Seite nicht leisten kann; es wäre also eine andere Aktivität. Eine ruhige gemeinsame Pause ohne Bildschirm ist immer eine Option.",
+        "turns": "Für dieses Spiel gibt es keine Papierversion. Um Paare auf dem Tisch zu finden, drucken Sie die Bildkarten aus „Bildpaare“ aus und decken Sie sie abwechselnd auf.",
+        "screen": "Es gibt keine Papierversion. Dies ist ein Bild, das Sie gemeinsam auf einem Bildschirm ansehen; ein Lieblingsfoto oder eine Postkarte auf dem Tisch erfüllt denselben Zweck.",
+        "wash": "Es gibt keine Papierversion. Aquarellmalerei auf Papier folgt derselben Idee: ein nasser Pinsel und jeweils eine Farbe.",
         "sayings": "Es gibt noch keine Papierversion. Auf Papier würden alle Enden gleichzeitig sichtbar sein, und der sanfte Schritt „Das Ende zeigen“ würde verloren gehen. Lesen Sie die Sprichwörter gemeinsam vom Bildschirm ab oder teilen Sie einige, die Sie beide kennen."
       }
     }

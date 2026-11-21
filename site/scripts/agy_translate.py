@@ -37,6 +37,10 @@ SITE = Path(__file__).resolve().parent.parent
 I18N = SITE / 'src/i18n'
 GUIDES = SITE / 'src/content/guides'
 GUIDES_I18N = SITE / 'src/content/guides-i18n'
+# Languages whose guides stay in English (src/i18n/english-guides.txt): guides are never translated
+# into them; their site and game strings still are.
+ENGLISH_GUIDES = {c for line in (SITE / 'src/i18n/english-guides.txt').read_text().splitlines()
+                  if not line.lstrip().startswith('#') for c in line.split()}
 CSV = SITE.parent / 'docs/languages.csv'
 MODEL = 'gemini-3.8-flash-medium'
 PLURALS = ('zero', 'one', 'two', 'few', 'many', 'other')
@@ -548,6 +552,36 @@ def unsafe_number_additions(source: str, translated: str) -> bool:
     return not source_emergency or len(translated_emergency) > len(source_emergency)
 
 
+_SCRIPTS = ('HEBREW', 'ARABIC', 'CYRILLIC', 'GREEK', 'DEVANAGARI', 'BENGALI', 'GURMUKHI', 'GUJARATI', 'ORIYA', 'TAMIL', 'TELUGU',
+            'KANNADA', 'MALAYALAM', 'SINHALA', 'THAI', 'LAO', 'TIBETAN', 'MYANMAR', 'GEORGIAN', 'ARMENIAN', 'ETHIOPIC', 'KHMER',
+            'THAANA', 'SYRIAC')
+
+
+def _script(ch: str) -> str | None:
+    import unicodedata
+    if not unicodedata.category(ch).startswith('L'):
+        return None
+    if ch.isascii():
+        return 'ascii'
+    name = unicodedata.name(ch, '')
+    return next((s for s in _SCRIPTS if name.startswith(s)), None)
+
+
+def mixed_script_words(src: str, out: str) -> list[str]:
+    """Words where ASCII letters touch letters of another script ("праверanыя", "פastel", the Cyrillic
+    "а" in "Tacа"): a model slipping between alphabets. An English word from the source with a native
+    suffix attached ("Medicineలో") is allowed."""
+    english = {w.lower() for w in re.findall(r'[A-Za-z]+', src)}
+    text = re.sub(r'https?://\S+', '', re.sub(r'\]\([^)]*\)', ']', out))
+    bad = []
+    for word in re.findall(r'\S+', text):
+        kinds = [_script(c) for c in word]
+        touching = any('ascii' in (a, b) and a != b and None not in (a, b) for a, b in zip(kinds, kinds[1:]))
+        if touching and any(run.lower() not in english for run in re.findall(r'[A-Za-z]+', word)):
+            bad.append(word)
+    return bad
+
+
 def frontmatter_prose(fm: dict) -> str:
     """The translated words in a guide's frontmatter (titles, summary, key points, FAQ),
     the same fields the site's structure test reads numbers from."""
@@ -591,6 +625,15 @@ def guide_problems(src: str, out: str) -> str:
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
+    # Lengths the guidesI18n schema in src/content.config.ts allows (JavaScript string length: UTF-16 units).
+    for key, low, high in (('title', 1, 140), ('seoTitle', 1, 80), ('description', 30, 360), ('summary', 30, 800)):
+        if key in fb:
+            n = len(str(fb[key]).encode('utf-16-le')) // 2
+            if not low <= n <= high:
+                errs.append(f'{key} is {n} characters; the site allows {low}-{high}')
+    mixed = mixed_script_words(src, out)
+    if mixed:
+        errs.append(f'letters from two alphabets in one word (retype in one script): {" ".join(mixed[:8])}')
     errs += structure_mismatches(src, out)
     return '; '.join(dict.fromkeys(errs))
 
@@ -678,7 +721,8 @@ def pending(kinds, codes, guides: list[str] | None = None):
     for code in codes:
         for k in kinds:
             if k == 'guides':
-                todo += [('guides', code, r) for r in rels if not guide_done(code, r)]
+                if code not in ENGLISH_GUIDES:
+                    todo += [('guides', code, r) for r in rels if not guide_done(code, r)]
             elif not json_done(k, code):
                 todo.append((k, code, None))
     return todo
@@ -718,7 +762,13 @@ def main():
         ap.error('--guides requires guides in --kinds')
     only_units = {}
     progress_file = Path(a.progress) if a.progress else None
-    finished = set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+    def on_disk() -> set:
+        try:
+            return set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+        except ValueError:
+            return set()
+
+    finished = on_disk()
     if a.changed_since:
         only_units = {k: changed_units(k, a.changed_since) for k in kinds if k != 'guides'}
         rels = guide_paths(selected_guides) if selected_guides else changed_guides(a.changed_since)
@@ -726,7 +776,8 @@ def main():
         for c in codes:  # language order from --langs, so the biggest languages can go first
             for k in kinds:
                 if k == 'guides':
-                    todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
+                    if c not in ENGLISH_GUIDES:
+                        todo += [('guides', c, r) for r in rels if f'guides|{c}|{r}' not in finished]
                 elif only_units.get(k) and f'{k}|{c}|' not in finished:
                     todo.append((k, c, None))
     else:
@@ -755,6 +806,8 @@ def main():
             if lang_bad.get(c, 0) >= 3 and not lang_ok.get(c, 0):
                 raise RuntimeError(f'skipped {c}: 3 failures and no success this run')
         lang = {'code': c, 'english': meta[c]['english'], 'native': meta[c]['native']}
+        if progress_file and f'{k}|{c}|{r or ""}' in on_disk():
+            return t, 'already done'  # finished by another translator since this run started
         try:
             if k == 'guides':
                 res = t, translate_guide(lang, r)
@@ -780,10 +833,11 @@ def main():
                 t, p = f.result()
                 done += 1
                 print(f'[{done}/{len(todo)}] ok {t[0]} {t[1]} {t[2] or ""}', flush=True)
-                if progress_file:
+                if progress_file and p != 'already done':
                     with lock:
-                        finished.add(f'{t[0]}|{t[1]}|{t[2] or ""}')
-                        progress_file.write_text(json.dumps(sorted(finished)))
+                        # Add only this task to what is on disk now: other translators add their own
+                        # tasks, and a reviewer may remove one to have it redone.
+                        progress_file.write_text(json.dumps(sorted(on_disk() | {f'{t[0]}|{t[1]}|{t[2] or ""}'})))
             except Exception as e:  # noqa: BLE001
                 print('FAIL', str(e)[:200], flush=True)
 

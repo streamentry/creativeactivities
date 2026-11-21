@@ -1,35 +1,30 @@
 ---
-title: "Hogyan játsszunk játékot demenciával élő személlyel"
-description: "Gyakorlati útmutató játékokhoz demenciával élő személlyel: előkészítés, tempó, a hibák javítása nélkül, a játék könnyítése, és annak tudása, mikor kell abbahagyni."
+title: "Hogyan játsszunk demenciával élő szeretteinkkel?"
+description: "Gyakorlati útmutató demenciával élő személlyel való játékhoz: előkészítés, tempó, a tévedések figyelmen kívül hagyása, könnyítés és a megállás ideje."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Tekintse a játékot közös időnek, nem tesztnek. Válasszon a nap nyugodt szakát, üljenek
-  egymás mellé egy csendes szobában, és kínáljon egyetlen egyszerű játékot. Hagyja, hogy a
-  személy szabja meg a tempót, soha ne javítsa ki az ártalmatlan hibákat, és az első
-  feszültség jelére könnyítse meg a játékot. Alakítsa a képeket beszélgetéssé. Akkor álljon
-  le, amikor még jól érzik magukat. A korai befejezés, vagy egyszerűen a közös nézelődés,
-  jó kimenetel.
+  Tekintse a játékot együtt töltött időnek, ne vizsgának. Válasszon nyugodt napszakot, üljenek egymás mellé egy csendes szobában, és kínáljon egyetlen egyszerű játékot. Hagyja, hogy a másik személy szabja meg a tempót, ne javítsa ki az ártalmatlan tévedéseket, és már az első feszültség jelére könnyítse meg a játékot. A képekből váljon beszélgetés. Akkor hagyja abba, amikor még jól érzik magukat. A korai befejezés, vagy ha csak együtt ülnek, szintén jó kimenetel.
 keyPoints:
   - "A cél az öröm és a kapcsolódás, nem a befejezés vagy a helyes válaszok."
-  - "Előbb készítse elő: csendes szoba, jó fény, szemüveg és hallókészülék bent, a tévé ki, egy játék készen."
-  - "Ne javítsa ki az ártalmatlan hibákat. Mondja: „Próbáljuk meg így”, vagy egyszerűen folytassa."
-  - "Könnyítse meg a játékot, mielőtt a frusztráció nő: kevesebb kép, kevesebb választás, a képek maradjanak láthatóak."
-  - "A képeket indulópontnak használja a történetekhez: „Meséljen nekem…” a „Emlékszik…?” helyett."
-  - "Hagyja abba az első fáradtság vagy elkeseredés jelére. A korai abbahagyás siker, nem kudarc."
+  - "Előbb készüljön fel: csendes szoba, jó fény, szemüveg és hallókészülék viselve, a TV kikapcsolva, egy játék előkészítve."
+  - "Ne javítsa ki az ártalmatlan tévedéseket. Mondja azt, hogy „Próbáljuk meg így”, vagy egyszerűen folytassa."
+  - "Könnyítse meg a játékot, mielőtt a frusztráció nő: kevesebb kép, kevesebb választás, a képek láthatóak maradnak."
+  - "A képeket a „Meséljen erről...” kérdéssel indított történetek kiindulópontjaként használja, ne a „Emlékszik...?” kérdéssel."
+  - "Az első fáradtság vagy feszültség jelére álljon meg. A korai abbahagyás siker, nem kudarc."
 faq:
-  - q: "Mennyi ideig játsszunk egy játékot?"
-    a: "Nincs helyes hossz. Sokaknak néhány perc is elég, és van, hogy egyetlen kör is elég egy napon. A személyre figyeljen, ne az órára, és álljon le, amíg még nyugodtnak tűnik."
-  - q: "Hagyjam nyerni, vagy tegyek úgy, mintha nem venném észre a hibákat?"
-    a: "Egy közös, kevés nyomással járó játékban nincs mit nyerni vagy veszíteni. Ha egy hiba nem zavarja a személyt, engedje el. Ha úgy tűnik, zavarja, csendben segítsen, vagy könnyítse meg a játékot anélkül, hogy rámutatna."
-  - q: "Mi van, ha inkább engem néznének, ahogy játszom?"
-    a: "Ez rendben van. A National Institute on Aging azt javasolja, hogy hagyják, hogy a személy egyszerűen nézze, ha úgy tűnik, ez jobban tetszik neki. Beszéljenek arról, amit látnak, és hívja meg, hogy bármikor mutasson rá vagy válasszon."
-  - q: "Ezek a játékok a memória tesztelésének eszközei?"
-    a: "Nem. A játékaink egyszerű, közös tevékenységek az élvezetre és a beszélgetésre. Nem memóriateszt, nem mérnek semmit, és nem kezelik a demenciát."
-  - q: "Melyik játékot érdemes elsőnek kipróbálni?"
-    a: "A személyhez illő legegyszerűbbel kezdjen. A négy csempés, láthatóan maradó képekkel működő Képpárok vagy a két választással működő Azonos képek gyengéd kezdő pontok. A Beszélgetőkártyák jól működnek, ha a személy jobban szereti a beszélgetést, mint a koppintást."
+  - q: "Milyen hosszú legyen egy játék?"
+    a: "Nincs helyes hossz. Sokaknak néhány perc is elég, és van, hogy egyetlen kör is elég egy napon. Inkább a másik személyt figyelje, ne az órát, és álljon meg, amíg még nyugodtnak tűnik."
+  - q: "Hagyjam, hogy nyerjen, vagy tegyek úgy, mintha nem venném észre a hibáit?"
+    a: "Egy közös, feszültségmentes játékban nincs mit nyerni vagy veszíteni. Ha egy tévedés nem zavarja a másik személyt, hagyja. Ha úgy tűnik, zavarja, finoman segítsen, vagy könnyítse meg a játékot anélkül, hogy rámutatna."
+  - q: "Mi van, ha inkább engem nézne, miközben játszom?"
+    a: "Ez rendben van. A National Institute on Aging azt javasolja, hogy ha a személy inkább nézné a játékot, hagyja. Beszéljen arról, amit lát, és bátorítsa, hogy bármikor mutasson rá vagy válasszon."
+  - q: "Ezekkel a játékokkal emlékezetet lehet tesztelni?"
+    a: "Nem. Játékaink egyszerű közös tevékenységek az örömért és a beszélgetésért. Nem memóriateszt, semmit nem mérnek, és nem kezelés a demenciára."
+  - q: "Melyik játékkal érdemes kezdeni?"
+    a: "A legegyszerűbbel, amelyik illik a személyhez. A négy csempés Picture Pairs, láthatóan hagyott képekkel, vagy a Find the Same két választással, gyengéd kezdőpontok. A Conversation Cards jól működik, ha a személy inkább beszélget, mint koppint."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +43,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Egy jó játék demenciával élő személlyel nem versenynek látszik. Két ember ül egymás közelében, képekre mutogatnak, egy mondáson nevetnek, és arról beszélgetnek, ami éppen felmerül. A játék csak ürügy, hogy együtt töltsenek időt.
+A demenciával élő személlyel folytatott jó játék nem versenynek látszik. Két ember ül közel egymáshoz, képekre mutogatnak, nevetnek egy mondáson, és arról beszélgetnek, ami éppen felmerül. A játék csak egy ok arra, hogy együtt töltsenek időt.
 
-Ez az útmutató arról szól, hogyan készüljön fel, hogyan adagolja a játékot, mit mondjon, ha valami „rosszul” sül el, hogyan könnyítse meg vagy nehezítse egy kicsit bármelyik játékot, hogyan alakítsa beszélgetéssé, és hogyan tudja, mikor kell abbahagyni. Működik a [játékainkkal](/games/) és azokkal a kártyákkal, kirakókkal és társasjátékokkal is, amelyek már megvannak otthon.
+Ez az útmutató arról szól, hogyan készüljön fel, hogyan szabja meg a játék tempóját, mit mondjon, ha valami „félresikerül”, hogyan könnyítsen vagy nehezítsen egy játékon, hogyan alakítsa beszélgetéssé, és hogyan ismerje fel, mikor érdemes abbahagyni. Működik a [játékainkkal](/games/) és azokkal a kártyákkal, kirakókkal és társasjátékokkal is, amelyek már megvannak otthon.
 
-## Mi a legjobb módja annak, hogy demenciával élő személlyel játsszunk?
+## Mi a legjobb módja, hogy demenciával élő személlyel játsszunk?
 
-Az élvezetre összpontosítson, ne az eredményre. Ez a lényege az [Alzheimer's Association tevékenységekről szóló útmutatásának](https://www.alz.org/help-support/caregiving/daily-care/activities): építsen arra, amire a személy még képes, segítsen neki elkezdeni, a nehéz részeket fejezze be maga, és ne kritizáljon vagy javítson ki ártalmatlan tevékenységeket.
+Az öröm álljon a középpontban, ne az eredmény. Ez a lényege az [Alzheimer's Association tevékenységekről szóló útmutatójának](https://www.alz.org/help-support/caregiving/daily-care/activities): építsen olyan képességekre, amelyek még megvannak a személyben, segítsen elindulni, a nehéz részeket fejezze be ön, és ne kritizáljon vagy ne javítson ki ártalmatlan tevékenységeket.
 
-A gyakorlatban ez azt jelenti:
+Gyakorlatban ez azt jelenti:
 
 - **Üljön mellé, ne szemben.** Egymás mellett mindketten látják a képernyőt vagy az asztalt, és a segítés csapatmunkának hat, nem felügyeletnek.
-- **Egyszerre egy játékot kínáljon.** A választási lehetőségek listája vizsgának érződhet, mielőtt bármi elkezdődne.
-- **Kövesse a személy vezetését.** Ha a képeket a saját sorrendjükben akarják megérinteni, egy képről tíz percig beszélgetni, vagy két kör után abbahagyni, az a mai játék.
-- **A jó pillanatokat számolja, ne a befejezett köröket.** Egy mosoly, egy történet vagy egy nyugodt félóra az a kimenetel, amit keres.
+- **Egyszerre egy játékot kínáljon.** Egy választékból való válogatás már azelőtt tesztnek érződhet, hogy elkezdődne a játék.
+- **Kövesse a másik személy ritmusát.** Ha a képeket a saját sorrendjében érinti, tíz percen át egyetlen képről beszél, vagy két kör után abbahagyja, az a mai játék.
+- **A jó pillanatokat számolja, ne a befejezett köröket.** Egy mosoly, egy történet vagy egy nyugodt fél óra az, amire törekszik.
 
-## Hogyan készüljek fel, mielőtt elkezdünk?
+## Hogyan készüljek fel, mielőtt elkezdjük?
 
-Néhány perc előkészítés megelőzi a legtöbb frusztrációt, amelyet az emberek magára a játékra fognak.
+Néhány perc előkészület megelőzi a legtöbb frusztrációt, amit a játék hibájának szoktak tulajdonítani.
 
-1. **Válassza ki a legjobb napszakot.** A [National Institute on Aging (NIA) tevékenységek alakításáról szóló útmutatója](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) azt javasolja, hogy a programokat és a tevékenységeket arra a napszakra tervezzék, amikor a személy a legjobb formájában van. Sokaknál ez a délelőtt közepe. A késő délután gyakran nehezebb; lásd: [nyugodt késő délutáni tevékenységek](/caregiving/late-day-restlessness/).
-2. **Csendesítse a szobát.** Kapcsolja ki a tévét és a rádiót, és ha lehet, csukja be az ajtót. A [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) azt ajánlja, hogy a beszéd előtt korlátozza a zajt és a zavaró tényezőket.
-3. **Ellenőrizze előbb a kényelmet.** Legyen ital a közelben, menjenek előtte mosdóba, legyen kényelmes szék, és a szemüveg és a hallókészülék legyen rajta.
-4. **Világítsa meg jól a helyet.** Az egyenletes, erős fény, tükröződés nélkül a képernyőn, könnyebbé teszi a képek látását.
-5. **Készítse elő a játékot, mielőtt leül.** Nyissa meg, válassza ki a beállításokat, és maga állítsa be a hangerőt. Utána fordítsa a képernyőt feléjük. A táblagép-tippekért lásd: [táblagép vagy telefon beállítása](/caregiving/tablets-and-screens/).
+1. **Válassza ki a legjobb napszakot.** A [National Institute on Aging (NIA) tevékenységek alakításáról szóló útmutatója](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) azt javasolja, hogy a programokat arra a napszakra tervezzük, amikor a személy a legjobb formájában van. Sokaknál ez a délelőtt közepe. A késő délután gyakran nehezebb; lásd [nyugodt délutáni tevékenységek](/creative-calm/calm-afternoon-activities/).
+2. **Csendesítse a szobát.** Kapcsolja ki a TV-t és a rádiót, és ha lehet, csukja be az ajtót. A [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) azt ajánlja, hogy a zajt és a zavaró tényezőket csökkentsük, mielőtt beszélni kezdünk.
+3. **Ellenőrizze a kényelmet.** Legyen ital a közelben, menjenek el előtte mosdóba, legyen kényelmes szék, és legyenek fel szemüveg és hallókészülék.
+4. **Jól világítsa meg a teret.** Az egyenletes, erős fény, amely nem tükröződik a képernyőn, megkönnyíti a képek látását.
+5. **Készítse elő a játékot, mielőtt leül.** Nyissa meg, válassza ki a beállításokat, és maga állítsa be a hangerőt. Utána fordítsa a képernyőt a másik személy felé. Ha segít, kapcsolja be az eszközön a nagyobb betűméretet.
 6. **Támassza meg az eszközt.** Egy állvány vagy tok, amely függőlegesen tartja a táblagépet, azt jelenti, hogy senkinek nem kell tartania, és könnyebb rámutatni.
 
-## Hogyan hívjam meg őket nyomás nélkül?
+## Hogyan hívjam meg anélkül, hogy nyomást gyakorolnék?
 
-Legyen a meghívás könnyed és könnyen visszautasítható. Néhány mondat, amely általában jól hangzik:
+Legyen a meghívás laza, és könnyű legyen nemet mondani. Néhány mondat, amely általában jól működik:
 
-- „Találtam néhány kertes képet. Megnézzük együtt?”
+- „Találtam néhány kerti képet. Együtt megnézzük?”
 - „Segítene nekem ebben a kirakóban? Elakadtam.”
-- „Ma a virágokat vagy a madarakat szeretné?” (két lehetőség könnyebb, mint egy nyitott kérdés)
-- „Képeslapot készítek a húgának. Melyik színt tegyem ide?”
+- „Ma a virágokat vagy a madarakat nézzük?” (két lehetőség közül könnyebb választani, mint nyitott kérdésre felelni)
+- „Kártyát készítek a nővérének. Melyik színt válasszam?”
 
-Az Alzheimer's Association azt javasolja, hogy magyarázza el a tevékenység célját, például hogy egy barátnak készítenek képeslapot, mert az ok értelmet ad neki. A segítségkérés is működik, mert hasznosnak érezheti magát a személy.
+Az Alzheimer's Association azt javasolja, hogy magyarázza el egy tevékenység célját, például hogy kártyát készít egy barátnak, mert az ok adja az értelmet. A segítségkérés is működik, mert a másik személy hasznosnak érezheti magát.
 
-Ha nemet mondanak, fogadja el. Próbálja később újra, vagy kínáljon valami mást. A [mit tegyen, ha nemet mondanak](/caregiving/when-they-say-no/) útmutatónk tovább megy.
+Ha nemet mond, fogadja el. Próbálkozzon később, vagy kínáljon mást. [Mit tegyünk, ha nemet mond?](/caregiving/when-they-say-no/) című útmutatónk részletesebben foglalkozik ezzel.
 
 ## Mennyi ideig tartson egy játék, és milyen gyorsan haladjunk?
 
-Hagyja, hogy a személy szabja meg a tempót, és tervezzen rövid alkalmakat. Nincs bizonyítékokon alapuló ideális hossz egy közös játékhoz. Két-öt nyugodt perc is lehet egy teljes tevékenység.
+Hagyja, hogy a másik személy szabja meg a tempót, és tervezzen rövid alkalmakat. Nincs bizonyítékokon alapuló ideális hossza egy közös játéknak. Két-öt nyugodt perc is lehet teljes tevékenység.
 
-- **Várjon tovább, mint ahogy az természetesnek tűnik.** Az NIA azt javasolja, hogy több időt hagyjon a válaszra, és próbáljon nem közbevágni. Gondolatban számoljon tízig, mielőtt segít.
-- **Egy lépés egyszerre.** Adjon egyetlen, rövid utasítást („Érintse meg az egyik képet”), majd várjon. Mutasson, ne magyarázzon: mutasson rá, hová kell koppintani.
-- **Szabadon szüneteltessen.** Ha megállnak, hogy beszéljenek egy képről, a játék várhat. Nincs szükség sietésre.
-- **Hagyja nézni.** Az NIA megjegyzi, hogy egyesek inkább nézik, és ez is elfogadható választás.
+- **Várjon tovább, mint ahogy természetesnek tűnik.** A NIA azt tanácsolja, hogy adjon több időt a válaszra, és próbáljon meg nem közbeszólni. Gondolatban számoljon tízig, mielőtt segít.
+- **Egy lépés egyszerre.** Adjon egyetlen, rövid utasítást („Érintsen meg egy képet”), majd várjon. Inkább mutassa meg, mint magyarázza: mutasson rá, hová kell koppintani.
+- **Nyugodtan szüneteltessen.** Ha megáll, hogy beszéljen egy képről, a játék várhat. Nem kell sietni.
+- **Hagyja, hogy nézzen.** A NIA szerint egyesek inkább nézik a játékot, és ez érvényes választás.
 
 ## Javítsam ki a rossz válaszokat?
 
-Nem. Ha újra és újra finoman kijavítja a személyt, az azt üzeni neki, hogy kudarcot vall, még akkor is, ha jót akar. Az Alzheimer's Association azt tanácsolja, hogy ne kritizáljon vagy javítson ki ártalmatlan tevékenységeket. Egy játékban szinte minden hiba ártalmatlan.
+Nem. Ha újra meg újra finoman kijavítja a másikat, az akkor is azt üzeni, hogy hibázik, ha jót akar. Az Alzheimer's Association azt tanácsolja, hogy ne kritizáljon vagy ne javítson ki ártalmatlan tevékenységeket. Játékban szinte minden tévedés ártalmatlan.
 
-| Ahelyett, hogy | Próbálja ezt |
+| Ahelyett, hogy | Próbálja inkább |
 | --- | --- |
-| „Nem, ez rossz.” | „Próbáljuk meg így.” (az NIA egyik példája) |
-| „Ez nem egyezik. Nézze meg újra.” | Ne mondjon semmit, és lépjen a következő körre, vagy ezt: „Ó, ez a kettő mindkettő piros.” |
-| „Emlékszik, ki ez?” | „Meséljen erről a képről.” |
+| „Nem, ez rossz.” | „Próbáljuk meg így.” (a NIA példája) |
+| „Ez nem egyezik. Nézze meg újra.” | Ne mondjon semmit, és lépjen a következő körben, vagy mondja: „Ó, mindkettő piros.” |
+| „Emlékszik, kit ábrázol ez?” | „Meséljen erről a képről.” |
 | „Ezt már csináltuk.” | „Ez szép volt. Csináljuk meg még egyszer.” |
 | „Ugyan, ezt tudja.” | „Megmutassam a végét?” |
 
-Ha egy hiba egyértelműen frusztrálja őket, segítsen csendben. Mutasson a helyes képre, vegyen át egy kört, vagy könnyítse meg a játékot a következő körben. Ha egy mondás vicces rossz végződést kap, nevessen vele. Lehet, hogy az ő befejezése jobb.
+Ha egy tévedés egyértelműen frusztrálja, segítsen csendesen. Mutasson a helyes képre, vegye át ön a körét, vagy a következő körben könnyítse meg a játékot. Ha egy mondás vicces rossz befejezést kap, nevessen vele. Lehet, hogy az ő befejezése jobb.
 
-## Hogyan könnyítsem vagy nehezítsem meg a játékot?
+## Hogyan tehetem könnyebbé vagy nehezebbé a játékot?
 
-A játékot a személyhez igazítsa aznap, ne egy szakasz-címkéhez. Ugyanannak a személynek este egyszerűbb változatra lehet szüksége, mint reggel. Az NIA első tanácsa, hogy a tevékenységet ahhoz igazítsa, amit a személy tud, és ügyeljen rá, hogy sikerélménye legyen.
+A játékot a napon aktuális személyhez igazítsa, ne egy „stádiumcímkéhez”. Ugyanannak a személynek este egyszerűbb változatra lehet szüksége, mint reggel. A NIA első tanácsa, hogy a tevékenység illeszkedjen ahhoz, amit a személy meg tud csinálni, és hogy érezze sikeresnek magát.
 
-| Játék | Könnyítse meg | Legyen egy kicsit nehezebb |
+| Játék | Könnyebbé tétel | Kicsit nehezebb |
 | --- | --- | --- |
-| [Képpárok](/games/picture-pairs/) | Kezdjen 4 csempével, és hagyja láthatóan a képeket | Több csempe, vagy a képek elrejtése, ha az kényelmes |
-| [Azonos képek](/games/find-the-same/) | 2 választás | Legfeljebb 4 választás |
-| [Közös válogatás](/games/sort-together/) | Ön tartja a képet, ők a kosárra mutatnak | Önállóan megérintik a képet és a kosarat |
-| [Képes kirakó](/games/picture-puzzle/) | 4 darab, előbb beszéljenek az egész képről | 9 darab |
-| [Mondás befejezése](/games/finish-the-saying/) | Mutassa a végét, majd mondják együtt | Hagyja, hogy ők mondják ki a végét, mielőtt koppintanak |
-| [Szókereső](/games/word-search/) | Nyomtassa ki, keressenek együtt egy szót, mutasson az első betűjére | Hagyja, hogy ők válasszák ki a következő keresendő szót |
-| [Színezés](/games/coloring/) | Ön választ két színt, ők közülük választanak | Ők választják az összes színt |
-| [Beszélgetőkártyák](/games/conversation-cards/) | Csak nézzék együtt a képet | Használja a kártyán lévő nyitott kérdéseket |
-| [Fotópárok](/games/photo-pairs/) | Néhány jól ismert családi fotó | Több fotó hozzáadása |
-| [Képes bingó](/games/picture-bingo/) | Egy segítő ül minden játékos mellett | A játékosok maguk jelölik a kártyáikat |
-| [Nyugodt légzés](/games/calm-breathing/) | Csak üljenek és nézzék együtt | Lélegezzenek együtt lassan |
+| [Picture Pairs](/games/picture-pairs/) | Kezdje 4 csempével, és hagyja láthatóan a képeket | Több csempe, vagy képek elrejtése, ha az kényelmes |
+| [Find the Same](/games/find-the-same/) | 2 választás | Legfeljebb 4 választás |
+| [Sort Together](/games/sort-together/) | Ön tartja a képet, ő a kosárra mutat | Mindkét képet és a kosarat önállóan érinti meg |
+| [Picture Puzzle](/games/picture-puzzle/) | 4 darab, előbb beszéljenek az egész képről | 9 darab |
+| [Finish the Saying](/games/finish-the-saying/) | Mutassa meg a végét, majd mondják együtt | Hagyja, hogy ő mondja ki a végét, mielőtt koppint |
+| [Word Search](/games/word-search/) | Nyomtassa ki, keressenek együtt egy szót, mutasson a kezdőbetűjére | Hagyja, hogy ő válassza ki a következő keresendő szót |
+| [Coloring](/games/coloring/) | Ön választ két színt, ő közülük válogat | Ő választja ki az összes színt |
+| [Conversation Cards](/games/conversation-cards/) | Csak nézzék együtt a képet | Használja a kártya nyitott kérdéseit |
+| [Photo Pairs](/games/photo-pairs/) | Néhány kedvelt családi fotó | Több fotó |
+| [Picture Bingo](/games/picture-bingo/) | Egy segítő ül minden játékos mellé | A játékosok maguk jelölik a kártyájukat |
+| [Calm Breathing](/games/calm-breathing/) | Csak üljenek és nézzék együtt | Lassan lélegezzenek együtt |
 
-Jelek, hogy a játék túl nehéz: hosszú szünetek, amelyek inkább aggódónak, mint elgondolkodónak látszanak, ismételt „Nem tudom”, a készülék eltolása, vagy olyan hibák, amelyek elkeserítik őket. Jelek, hogy talán túl könnyű: unalom, vagy az, hogy gyerekesnek tartják. Ha ez történik, tiszteletben tartva váltson valami felnőttesebbre, például szókeresőre, valódi fotóból készült kirakóra, vagy egy képről való beszélgetésre a régi munkájuk egyik képéről.
+A túl nehéz játék jelei: hosszú, aggódó szünetek (nem gondolkodó csend), ismételt „nem tudom”, az eszköz eltolása, vagy olyan tévedések, amelyek bántják. A túl könnyű játék jelei: unalom, vagy ha azt mondják, gyerekes. Ilyenkor tartsa tiszteletben, és váltson valami felnőttesebbre, például szókeresőre, valódi fényképből készült kirakóra, vagy beszélgetésre a régi munkájukról szóló képről.
 
-## Hogyan alakítsam a játékot beszélgetéssé?
+## Hogyan alakíthatom a játékot beszélgetéssé?
 
-Minden képet beszélgetésre hívásként használjon, és bármit is mondanak, jó válaszként kezelje. Sok családnak ez a játék legjobb része.
+Minden képet hívásnak tekintsen a beszélgetésre, és minden választ jó válaszként kezeljen. Sok családnak ez a játék legszebb része.
 
-- **Kérdezzen nyitott, rossz válasz nélküli kérdéseket.** „Mit vesz észre?” „Melyiket szereti?” „Meséljen egy ilyen konyháról.”
-- **Ossza meg előbb a sajátját.** „A nagymamámnak volt ilyen kutyája.” Az Ön története megkönnyíti, hogy ők is megosszanak egyet.
-- **Kövesse a kitérőt.** Ha egy autós képből egy útiélmény története lesz, a történet a tevékenység. Hagyja szünetelni a játékot.
-- **Ne ellenőrizzen tényeket.** Az emlékezéses beszélgetésben a kellemes társalgás fontosabb a pontos részleteknél. Ha a történet más, mint legutóbb, élvezze az új változatot.
-- **Használja a beépített indítókat.** A [Mondás befejezése](/games/finish-the-saying/) minden mondás után beszélgetésindító kérdést tesz fel, a [Beszélgetőkártyák](/games/conversation-cards/) pedig pontosan erre készültek. A [Fotópárok](/games/photo-pairs/) az Ön saját családi fotóit használja, amelyek gyakran a leggazdagabb történeteket indítják el.
+- **Nyitott kérdéseket tegyen fel, amelyekre nincs rossz válasz.** „Mit lát?” „Melyik tetszik?” „Meséljen egy ilyen konyháról.”
+- **Kezdjen maga.** „A nagymamámnak volt ilyen kutyája.” A saját története könnyebbé teszi, hogy ők is meséljenek egyet.
+- **Kövesse a kitérőt.** Ha egy autós kép egy útiélményről szóló történetet hoz elő, a történet a tevékenység. Hagyja szünetelni a játékot.
+- **Ne ellenőrizze a tényeket.** A visszaemlékezésben a kellemes beszélgetés fontosabb, mint a pontos részletek. Ha a történet másként hangzik, mint legutóbb, örüljön az új változatnak.
+- **Használja a beépített kérdéseket.** A [Finish the Saying](/games/finish-the-saying/) minden mondás után beszélgetésre hívó kérdést ad, a [Conversation Cards](/games/conversation-cards/) pedig pontosan erre készült. A [Photo Pairs](/games/photo-pairs/) saját családi fotókat használ, amelyek gyakran a leggazdagabb történeteket indítják el.
 
-További ötletek az [emlékezéssel kapcsolatos tevékenységek](/activities/reminiscence/) és a [kommunikációs tippek](/caregiving/communication-tips/) útmutatóinkban találhatók.
+Több ötlet a [visszaemlékezési tevékenységekről](/activities/reminiscence/) szóló útmutatónkban van. A diagnózis utáni támogatásért lásd [az első lépések a diagnózis után](/caregiving/after-dementia-diagnosis/) című oldalt.
 
-## Mikor kell abbahagyni?
+## Mikor érdemes abbahagyni?
 
-Az első fáradtság vagy elkeseredés jelére álljon le, és lehetőleg kicsit korábban. Az Alzheimer's Association azt tanácsolja, hogy állítsa le vagy változtassa meg a tevékenységet, amikor a figyelem elhalványul vagy a frusztráció nő.
+Akkor álljon meg, amint fáradtság vagy feszültség jelét látja, és lehetőleg kicsit előbb. Az Alzheimer's Association azt tanácsolja, hogy álljon meg vagy változtasson tevékenységet, ha csökken a figyelem vagy nő a frusztráció.
 
-Figyelje:
+Figyeljen ezekre:
 
-- ásítást, lehajtott fejet vagy azt, hogy a szem elkalandozik a képernyőtől;
-- nyugtalanságot, felállást vagy azt, hogy szeretnének elmenni;
-- sóhajtást, rövid válaszokat vagy „Nekem ez nem megy”;
-- véletlenszerű koppintást vagy a készülék eltolását;
-- könnyezést, bosszúságot vagy hirtelen hangulatváltozást.
+- ásítás, lehorgadás, vagy a tekintet elkalandozása a képernyőtől;
+- nyugtalanság, felállás, vagy kérés, hogy menjenek el;
+- sóhajok, rövid válaszok vagy „Nekem ez nem megy”;
+- véletlenszerű koppintás, vagy az eszköz eltolása;
+- könnyek, ingerültség vagy hirtelen hangulatváltozás.
 
 Hogyan hagyja abba jól:
 
-- **Könnyű dologgal fejezze be.** Egy utolsó párosítás, amelyet megtehetnek, vagy egy utolsó kép, amelyet megcsodálhatnak.
-- **Önről szóljon.** „Kellene egy csésze tea. Megállunk itt?” kerüli, hogy bármi célzást adjon arra, hogy rosszul csinálták.
-- **Váltson valami fizikaira vagy megnyugtatóra.** Rövid séta, egy harapnivaló, ruhahajtogatás vagy zene.
-- **Mondjon valami melegset.** „Szerettem ezt Önnel csinálni.” Ne dicsérje a „helyes válaszokat”, csak az együtt töltött idő öröme legyen.
+- **Valami könnyűvel fejezze be.** Egy utolsó párosítás, amit megtehetnek, vagy egy utolsó kép, amit megcsodálhatnak.
+- **Önről szóljon.** „Kérnék egy csésze teát. Itt abbahagyjuk?” Így elkerülhető bármilyen utalás arra, hogy rosszul ment.
+- **Lépjen át valami fizikai vagy megnyugtatóra.** Rövid séta, egy harapnivaló, ruhát hajtogatni vagy zenét hallgatni.
+- **Mondjon valami melegset.** „Jó volt ezt veled csinálni.” Ne dicsérje a „jó válaszokat”, csak az együtt töltött idő örömét fejezze ki.
 
-A korai befejezés, a tervek megváltoztatása, vagy a játék feladása és együtt ülés mind jó kimenetelek.
+A korai befejezés, a terv megváltoztatása, vagy hogy feladja a játékot, és csak együtt ülnek, mind jó kimenetel.
 
-## Játszhatunk csoportban vagy videóhíváson?
+## Játszhatunk csoportban vagy videóhívásban?
 
-Igen, egy kis plusz előkészítéssel. Csoportban tartsa néhány főnél, ültessen segítőket azok mellé, akiknek szükségük van rájuk, és válasszon olyan játékot, amelynek egyértelmű közös fókusza van. A [Képes bingó](/games/picture-bingo/) nyomtatható kártyákat és képernyőn futó bemondót kínál csoportoknak. További tudnivalókat a [gondozóotthoni csoportok tevékenységei](/activities/care-home-groups/) oldalon talál.
+Igen, egy kis plusz előkészítéssel. Csoportban tartsa kevés embernél a játékot, ültessen segítőket azok mellé, akiknek szükségük van rájuk, és válasszon olyan játékot, amelynek egyértelmű közös célja van. A [Picture Bingo](/games/picture-bingo/) nyomtatható kártyákkal és képernyőn megjelenő hívóval működik csoportoknak. További tudnivalók: [tevékenységek gondozóotthoni csoportoknak](/crafts/craft-group-sessions/).
 
-Videóhíváson a hívásban résztvevő személy leírhat egy képet, miközben valaki a szobában mutat és koppint. Tartsa rövidre és ismerősre a hívásokat. A [telefonos és videóhívásokról szóló útmutatónk](/activities/phone-and-video-calls/) több tippet ad.
+Videóhívásban a hívásban részt vevő személy leírhat egy képet, míg valaki a szobában rámutat és koppint. Tartsa rövidre és ismerősre a hívásokat. A [telefonos és videóhívásokról](/together/staying-connected-from-afar/) szóló útmutatónkban további tippek vannak.
 
-## Mi van, ha egy játék egyszerűen nem működik?
+## Mit tegyek, ha egy játék nem működik?
 
-Vannak olyan napok, amikor semmi sem talál célba, és ez nem Önről és nem róluk szól. Tegye el a játékot, próbálja más napszakban, másik játékkal, vagy játék nélkül. Sok jó tevékenység semmi köze a képernyőkhöz: zene, törölközőhajtogatás, fotóalbum nézegetése vagy egy rövid séta. További ötletekért nézze meg a [tevékenységötleteinket](/activities/ideas/).
+Vannak olyan napok, amikor semmi sem jön be, és ez nem tükrözi sem önt, sem a másik személyt. Tegye el a játékot, és próbálkozzon más napszakban, másik játékkal, vagy játék nélkül. Sok jó tevékenység semmi köze a képernyőhöz: zene, törölközők hajtogatása, fotóalbum nézegetése vagy rövid séta. További ötletekért nézze meg [tevékenységi ötleteinket](/activities/ideas/).

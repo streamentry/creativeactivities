@@ -1,35 +1,30 @@
 ---
 title: "Demensiya bilan yashayotganlar uchun mashgʻulotlar: 101 ta oddiy gʻoya"
-seoTitle: "Demensiya uchun 101 ta mashgʻulot"
-description: "Demensiya bilan yashayotganlar uchun 101 ta oddiy, kattalarga mos mashgʻulot: sochiq buklashdan musiqa va suratlargacha, qiyinlashganda moslash yoʻllari bilan."
+seoTitle: "Demensiya uchun mashgʻulot gʻoyalari: 101 ta oddiy mashgʻulot"
+description: "Demensiya bilan yashayotgan odamlar uchun 101 ta oddiy, kattalarga mos mashgʻulot: sochiq buklashdan musiqa va fotosuratgacha, har birini qiyinlashganda qanday moslashtirish."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demensiya bilan yashayotganlar uchun yaxshi mashgʻulotlar tanish, kattalarga
-  mos va birga qilish oson boʻladi: kir buklash, saralash, ovqat pishirish,
-  musiqa, suratlarga qarash, sayr, bogʻdorchilik, uy hayvonlari bilan vaqt va
-  oddiy oʻyinlar. Inson doim yoqtirgan narsani tanlang, qiyin qismlarini oʻzingiz
-  bajaring va u charchaganda toʻxtang. Birga oʻtkazilgan yoqimli vaqt biror
-  narsani tugatishdan muhimroq.
+  Demensiya bilan yashayotgan odamlar uchun yaxshi mashgʻulotlar tanish, kattalarcha va birga bajarish oson boʻladi: kir buklash, saralash, pishirish, musiqa, fotosuratlarga qarash, sayr, bogʻbonchilik, uy hayvonlari bilan vaqt va oddiy oʻyinlar. Odam hayoti davomida yoqtirgan narsani tanlang, qiyin qismlarini oʻzingiz oling va charchaganda toʻxtang. Birga oʻtkazilgan yoqimli vaqt biror narsani tugatishdan muhimroq.
 keyPoints:
-  - "Insonning oʻz hayotidan boshlang: uning ishi, sevimli mashgʻulotlari, e’tiqodi va yaxshi koʻrgan musiqasi eng yaxshi yoʻlboshchi."
-  - "Har qanday mashgʻulotni kerak boʻlsa kichraytiring: qadamlar kamroq, tanlov kamroq, qiyin qismini oʻzingiz bajarasiz."
-  - "Kuzatish, biror narsani ushlab turish yoki shunchaki yonida oʻtirish ham qatnashish hisoblanadi."
-  - "Charchoq, jahl yoki zerikish belgilarini koʻrsangiz, toʻxtang yoki almashtiring. Erta tugatish yaxshi natija."
+  - "Odamning oʻz hayotidan boshlang: uning ishi, qiziqishlari, e’tiqodi va sevimli musiqasi eng yaxshi yoʻriqnoma."
+  - "Kerak boʻlsa, har qanday mashgʻulotni kichraytiring: kam qadam, kam tanlov, qiyin qismini siz bajaring."
+  - "Tomosha qilish, biror narsani ushlab turish yoki yaqinida oʻtirish ham ishtirok etish hisoblanadi."
+  - "Charchoq, bezovtalik yoki zerikish belgisini koʻrganda toʻxtang yoki almashtiring. Erta tugatish ham yaxshi natija."
   - "Birga qilish toʻgʻri qilishdan muhimroq."
 faq:
-  - q: "Demensiyali inson uchun qanday mashgʻulotlar yaxshi?"
-    a: "Inson yillar davomida qilgan, ozgina soddalashtirilgan tanish mashgʻulotlar: kir buklash, dasturxon yozish, ovqat pishirish, musiqa, suratlarga qarash, sayr, bogʻdorchilik va uy hayvoni bilan vaqt. Kattalarga xos va foydali tuyuladigan narsalarni tanlang va birga bajaring."
+  - q: "Demensiyasi bor odam uchun qaysi mashgʻulotlar yaxshi?"
+    a: "Odam yillar davomida qilgan tanish mashgʻulotlar, biroz soddalashtirilgan: kir buklash, stolni yigʻish, pishirish, musiqa, fotosuratlarga qarash, sayr, bogʻbonchilik va uy hayvoni bilan vaqt. Kattalarcha va foydali tuyuladigan narsalarni tanlang hamda birga bajaring."
   - q: "Mashgʻulot qancha davom etishi kerak?"
-    a: "Toʻgʻri davomiylik yoʻq. Bir kuni bir necha daqiqa sochiq buklash yetarli boʻlishi mumkin, boshqa kuni esa bogʻda bir soat oson tuyulishi mumkin. Sur’atni insonning oʻziga qoldiring va hali yoqimli paytda tugating."
-  - q: "Inson mashgʻulotdan bosh tortsa-chi?"
-    a: "Majburlamang. «Yoʻq» vazifa juda qiyin tuyulayotganini, vaqt noqulayligini yoki inson charchagani yoki oʻzini noqulay his qilayotganini bildirishi mumkin. Keyinroq urinib koʻring, kichikroq variantini taklif qiling yoki vazifani yonida oʻzingiz boshlab, yordam berishga taklif qiling."
-  - q: "«Miya oʻyinlari» demensiyali odamlar uchun yaxshimi?"
-    a: "Oʻyinlar birga vaqt oʻtkazishning yoqimli yoʻli boʻlishi mumkin, lekin hech bir oʻyin demensiyani davolashi, sekinlashtirishi yoki toʻxtatishi isbotlanmagan. Taymeri, bali va notoʻgʻri javob tovushi yoʻq oʻyinlarni tanlang va ularni test emas, birgalikdagi mashgʻulot deb biling."
+    a: "Toʻgʻri uzunlik yoʻq. Bir kuni bir necha daqiqa sochiq buklash yetarli boʻlishi mumkin, boshqa kuni bogʻda bir soat oson tuyulishi mumkin. Tezlikni odam belgilasin va hali yoqimli boʻlganda tugating."
+  - q: "Odam mashgʻulotni rad etsa-chi?"
+    a: "Bosim oʻtkazmang. «Yoʻq» vazifa juda qiyin, vaqt notoʻgʻri yoki odam charchagan yoki noqulay boʻlganini bildirishi mumkin. Keyinroq urinib koʻring, kichikroq variant taklif qiling yoki vazifani yoningizda oʻzingiz boshlab, yordam berishga taklif qiling."
+  - q: "Miya oʻyinlari demensiya bilan yashaydigan odamlarga foydalimi?"
+    a: "Oʻyinlar birga vaqt oʻtkazishning yoqimli usuli boʻlishi mumkin, lekin hech bir oʻyin demensiyani davolashi, sekinlashtirishi yoki toʻxtatishi isbotlanmagan. Taymer, hisob yoki notoʻgʻri javob ovozi boʻlmagan oʻyinlarni tanlang va ularni sinov emas, umumiy mashgʻulot deb biling."
   - q: "Mashgʻulotlar bolalarcha tuyulmasligi uchun nima qilaman?"
-    a: "Haqiqiy, kattalarga xos materiallardan foydalaning: haqiqiy sochiqlar, haqiqiy retseptlar, kattalar musiqasi va rassomlik buyumlari hamda kattalar mavzusidagi rasmlar. Vazifalarni sizga chindan kerak boʻlgan yordam sifatida taqdim eting va insonga oʻzi boʻlgan kattalardek gapiring."
+    a: "Haqiqiy, kattalarcha materiallardan foydalaning: haqiqiy sochiqlar, haqiqiy retseptlar, kattalar musiqasi, rassomlik buyumlari va kattalar mavzusidagi rasmlar. Vazifalarni haqiqatan kerak boʻlgan yordam sifatida taqdim eting va odam bilan u qanday katta odam boʻlsa, shunday gaplashing."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +46,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-Demensiya bilan yashayotgan inson uchun eng yaxshi mashgʻulot odatda u allaqachon qilishni biladigan, ozgina soddalashtirilgan va ishongan kishisi bilan birga bajariladigan narsa. Quyida turlar boʻyicha guruhlangan 101 ta gʻoya bor, har birida uni qanday tayyorlash va qiyinlashganda qanday osonlashtirish koʻrsatilgan. Maxsus jihoz kerak emas va hech narsani tugatish shart emas. Yaxshi kun bir savat sochiq va birga ichilgan bir piyola choy boʻlishi mumkin.
+Demensiya bilan yashayotgan odam uchun eng yaxshi mashgʻulot odatda u allaqachon bilgan, biroz soddalashtirilgan va ishonadigan odam bilan birga bajariladigan narsadir. Quyida har turga boʻlingan 101 ta gʻoya bor, har birining tayyorlanishi va qiyinlashganda qanday osonlashtirish haqida. Maxsus jihoz kerak emas va hech narsani tugatish shart emas. Yaxshi tushdan keyin bu bir savat sochiq va birga ichilgan bir piyola qahva boʻlishi mumkin.
 
-## Toʻgʻri mashgʻulotni qanday tanlaysiz?
+## Mos mashgʻulotni qanday tanlash kerak?
 
-Roʻyxatga emas, insonga qarab tanlang: u doim yoqtirgan va bugun qulay qila oladigan narsadan boshlang.
+Roʻyxatga emas, odamga qarab tanlang: u har doim yoqtirgan va bugun qulay bajara oladigan narsadan boshlang.
 
-- **Uning ishi va sevimli mashgʻulotlarini oʻylab koʻring.** [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) sobiq idora xodimi tangalarni saralash yoki xatlarni tayyorlashni, bogʻbon esa hovli ishlarini yoqtirishi mumkinligini aytadi.
-- **U allaqachon nima qilishini payqang.** Otangiz har tong soʻramasdan ayvonni supursa, buni kun tartibiga kiriting.
-- **Chegaralarni hisobga oling.** Charchoq, koʻrish, eshitish, ogʻriyotgan qoʻllar va muvozanat hammasi muhim.
-- **Kayfiyatiga qarang.** Gavjum, shovqinli mashgʻulotlar ba’zilarga mos, ba’zilarni qoʻrqitadi.
-- **Unga maqsad bering.** Jamoa tadbiri uchun salfetka buklash mashq uchun mashq qilishdan mazmunliroq tuyuladi.
+- **Uning ishi va qiziqishlarini oʻylang.** [Alzheimer assotsiatsiyasi](https://www.alz.org/help-support/caregiving/daily-care/activities) oldin ofisda ishlagan odam tangalarni saralash yoki pochta tayyorlashni yoqtirishi mumkinligini, bogʻbon esa hovli ishlarini yoqtirishi mumkinligini aytadi.
+- **U allaqachon nima qilayotganiga e’tibor bering.** Agar dadangiz har ertalab soʻramasdan ayvonni supurayotgan boʻlsa, shuni kuningizga qoʻshing.
+- **Cheklovlarni hisobga oling.** Charchoq, koʻrish, eshitish, ogʻriyotgan qoʻllar va muvozanat — hammasi muhim.
+- **Kayfiyatni kuzating.** Shovqinli, gavjum mashgʻulotlar ayrimlarga mos keladi, boshqalarni esa qoʻrqitadi.
+- **Maqsad bering.** Cherkovdagi kechki ovqat uchun salfetkalarni buklash, foyda keltirmaydigan mashq qilishdan koʻra qadrliroq tuyuladi.
 
-### Bosqichlar boʻyicha taxminiy yoʻriqnoma
+### Bosqichlar boʻyicha taxminiy qoʻllanma
 
-Demensiya koʻpincha dastlabki, oʻrta va keyingi bosqichlarga boʻlib tasvirlanadi. Bular qattiq chegara emas, erkin nomlar va koʻp odamda yaxshiroq va qiyinroq kunlar boʻladi, shuning uchun bugun koʻrganingizga tayaning. [Alzheimer's Foundation of America tuzgan bosqichlar roʻyxati](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) ham shunga oʻxshash tartibda.
+Demensiya koʻpincha erta, oʻrta va kech bosqichlarga boʻlinadi. Bular taxminiy yorliqlar, qat’iy qutilar emas, va koʻp odamlarda yaxshi va qiyin kunlar almashinadi, shuning uchun bugun nimani koʻrayotganingizga qarang. [Alzheimer's Foundation of America'ning bosqichlar boʻyicha roʻyxati](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) shunga oʻxshash tartibni kuzatadi.
 
-| Mavzu | Dastlabki bosqich | Oʻrta bosqich | Keyingi bosqich |
+| Mavzu | Erta bosqich | Oʻrta bosqich | Kech bosqich |
 | --- | --- | --- | --- |
-| Nimani payqashingiz mumkin | Asosan mustaqil; rejalashtirish, yangi ismlar va gavjum joylar qiyinlashadi | Boshlashda va qadamlarda yordam kerak; soʻzlar kamroq kelib turadi | Kundalik parvarishning koʻpida yordam kerak; sezgilar eng muhim |
-| Koʻpincha mos keladigan mashgʻulotlar | Kartalar, stol oʻyinlari, ovqat pishirish, bogʻdorchilik, kundalik yozish, sayrlar, klublar | Kir buklash, saralash, ovqat pishirishning oddiy qadamlari, qoʻshiq aytish, surat albomlari, hamrohlik bilan sayr | Sevimli musiqa, qoʻl massaji, ushlash uchun yumshoq narsalar, ovoz chiqarib oʻqib berish, tashqarida oʻtirish |
-| Sizning rolingiz | Hamkor: qanday yordam xohlashini soʻrang | Tayyorlang, koʻrsating, qiyin qismlarini oʻzingiz bajaring | Mashgʻulotni uning oldiga olib keling; sizning hamrohligingiz mashgʻulotning oʻzi |
-| Koʻproq gʻoyalar | [Dastlabki bosqich](/activities/early-stage/) | [Oʻrta bosqich](/activities/middle-stage/) | [Keyingi bosqich](/activities/late-stage/) |
+| Nimani sezishingiz mumkin | Asosan mustaqil; rejalashtirish, yangi ismlar va gavjum joylar qiyinlashadi | Boshlashda va qadamlarda yordam kerak; soʻzlar kamroq keladi | Koʻpchilik kundalik parvarishda yordam kerak; sezgilar eng muhim |
+| Koʻpincha mos keladigan mashgʻulotlar | Kartochkalar, stol oʻyinlari, pishirish, bogʻbonchilik, kundalik yozish, sayohatlar, klublar | Sochiq buklash, saralash, oddiy pishirish qadamlari, qoʻshiq aytish, fotoalbomlar, yoʻriqli sayrlar | Sevimli musiqa, qoʻl massaji, ushlash uchun yumshoq narsalar, oʻqib berish, ochiq havoda oʻtirish |
+| Sizning roli | Hamkor: qanday yordam xohlashini soʻrang | Tayyorlang, koʻrsating, qiyin qismlarni oʻzingiz oling | Mashgʻulotni unga olib boring; sizning hamrohligingiz oʻzi mashgʻulotdir |
+| Koʻproq gʻoyalar | Erta bosqich: shu sahifada | Oʻrta bosqich: shu sahifada | [Kech bosqich](/activities/late-stage/) |
 
-## Demensiyali inson bilan mashgʻulotni qanday boshlaysiz?
+## Demensiya bilan yashayotgan odam bilan mashgʻulotni qanday boshlash mumkin?
 
-Kichikdan boshlang, yonida boshlang va «ha» deyishni osonlashtiring. Koʻp odamlar hamon qatnashishni xohlaydi, lekin rejalashtirish yoki boshlashni qiyin deb biladi.
+Kichikdan boshlang, birga boshlang va «ha» deyishni osonlashtiring. Koʻp odamlar hali ham qatnashishni xohlaydi, lekin rejalashtirish va boshlash ularga qiyin boʻladi.
 
-1. **Uning eng yaxshi vaqtini tanlang,** koʻpincha ertalab.
-2. **Avval hamma narsani joylashtiring,** shunda darhol boshlay olasiz.
-3. **Yordam soʻrang, ijro emas:** «Shularga qoʻl uzatib yuborasizmi?»
-4. **Oʻzingiz boshlang.** Birinchi sochiqni buklang va u qoʻshilsin. Koʻrsatish tushuntirishdan yaxshi.
+1. **Eng yaxshi vaqtini tanlang,** odatda ertalab.
+2. **Hamma narsani avval tayyorlang,** shunda darhol boshlash mumkin.
+3. **Chiqish emas, yordam soʻrang:** «Shularni yigʻishda menga qoʻl berasizmi?»
+4. **Boshlashni oʻzingiz qiling.** Birinchi sochiqni buklang va unga qoʻshilishga ruxsat bering. Tushuntirishdan koʻra koʻrsatish yaxshiroq.
 5. **Bir vaqtda bitta qadam taklif qiling.**
-6. **Eng qiyin qismini oʻzingiz oling.** Alzheimer's Association masalliqlarni oʻzingiz oʻlchab, aralashtirish uchun qoshiqni unga uzatishni maslahat beradi.
-7. **Uning usulida bajarilsin.** Boshqacha buklangan sochiqlar mayli.
-8. **Yoqimli boʻlmay qolganda toʻxtang.** Betoqatlik, qovoq solish yoki «qilolmayman» — almashtirish yoki dam olish belgilari.
+6. **Eng qiyin qismini oʻzingiz oling.** Alzheimer assotsiatsiyasi ingredientlarni oʻzingiz oʻlchab, soʻng qoshiqni aralashtirish uchun berishni tavsiya qiladi.
+7. **Ishni uning usulida bajarishiga ruxsat bering.** Boshqacha buklangan sochiqlar ham yaxshi.
+8. **Yoqimli boʻlmay qolganda toʻxtang.** Bezovtalanish, qovoq solish yoki «Men qila olmayman» — mashgʻulotni almashtirish yoki dam olish uchun belgi.
 
-Shuningdek, [birga qanday oʻynash](/caregiving/how-to-play-together/) va [muloqot maslahatlari](/caregiving/communication-tips/) sahifalariga qarang.
+Shuningdek qarang: [birga qanday oʻynash kerak](/caregiving/how-to-play-together/) va [tashxisdan keyingi birinchi qadamlar](/caregiving/after-dementia-diagnosis/).
 
 ## Uydagi kundalik ishlar
 
-Uy ishlari tanish va foydali, shuning uchun boshlash uchun tabiiy joy. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) idish yuvish, dasturxon yozish, supurish, xatlarni saralash va kir buklashni odamlar yoqtirishi mumkin boʻlgan mashgʻulotlar qatoriga kiritadi. Batafsil [uy ishlari](/activities/household-tasks/) sahifasida.
+Uy ishlari tanish va foydali, shuning uchun ular boshlash uchun tabiiy joy. [Qarish boʻyicha milliy institut (NIA)](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) idishlar, stolni yigʻish, supurish, pochtani saralash va kir buklash kabi ishlarni odamlar yoqtirishi mumkin boʻlgan mashgʻulotlar sirasiga kiritadi.
 
 1. **Iliq sochiqlarni buklang.** Quritgichdan savatni stolga toʻkib, yonma-yon buklang. Keyinroq tekislash va taxlash ham xuddi shunday foydali.
-2. **Paypoqlarni juftlang.** Juda har xil ranglardan boshlang. Keyinroq ochiqni toʻqdan ajratish yetarli.
-3. **Dasturxon yozing.** Bir vaqtda bir turdagi buyumni uzating. Namuna sifatida bir oʻrinni oʻzingiz yozing.
-4. **Idish yuving yoki artib quriting.** Iliq sovunli suv va sinmaydigan idishlar. Oʻtirib artish oyoqlarga yengil.
-5. **Stolni artib qoʻying.** Ovqatdan keyin nam latta uzating. Betoqat qoʻllar uchun bu haqiqiy ish.
-6. **Pochtani saralang.** Katalog va reklama xatlarini «qoldirish» va «utilizatsiya» ga ajrating. Haqiqiy hisob-kitob xatlarini chetga olib qoʻying.
-7. **Chegirma kuponlarini kesing.** Uchi yumaloq qaychi va doʻkon reklama varaqalari. Keyinroq sevimli ovqatlarni aylana ichiga olish ham boʻladi.
-8. **Tangalarni saralang.** Maydalarni stakanlarga ajrating yoki oʻrama qogʻozga oʻrang. Inson narsalarni ogʻziga solsa, mayda buyumlarni chetga oling.
-9. **Supuring yoki chang artting.** Ayvonda yengil supurgi yoki stuldan turib uzun dastali chang artgich.
-10. **Ovqat tayyorlashga yordam bering.** Sabzavotlarni yuvish, salatni yirtish, aralashtirish. Pichoq va issiqlikni siz boshqarasiz.
-11. **Oilaviy retsept boʻyicha pishiring.** Agar bor boʻlsa, uning qoʻl yozuvidagi kartani ishlating. Keyinroq u tatib koʻruvchi boʻlishi mumkin.
-12. **Idora ishi qiling.** Xatlarni buklang, konvertlarga solib markasini yopishtiring yoki xarid roʻyxatini birga yozing.
+2. **Paypoqlarni juftlang.** Juda har xil ranglardan boshlang. Keyinroq yorugʻ va qorongʻini ajratish ham yetarli.
+3. **Stolni yigʻing.** Har safar bitta turdagi buyumni bering. Bitta joyni oʻzingiz model sifatida yigʻing.
+4. **Idishlarni yuvish yoki quritish.** Iliq, sovunli suv va sinmaydigan idishlar. Oʻtirib quritish oyoqlar uchun osonroq.
+5. **Stolni arting.** Ovqatdan keyin nam latta bering. Bu bezovta qoʻllar uchun haqiqiy ish.
+6. **Pochtani saralang.** Katalog va keraksiz xatlarni «saqlash» va «qayta ishlash» ga ajrating. Haqiqiy hisob-kitoblarni chetga qoʻying.
+7. **Kuponlarni qirqing.** Dumaloq uchli qaychi va oziq-ovqat reklamalari. Keyinroq sevimli taomlarni doiraga olish ham mumkin.
+8. **Tangalarni saralang.** Pullarni stakanlarga ajrating yoki oʻrash qogʻoziga oʻrang. Agar odam narsalarni ogʻziga solsa, kichik buyumlarni tashlab keting.
+9. **Supurish yoki chang artish.** Ayvonda yengil supurgi, yoki stuldan ishlatiladigan uzun dastali chang artgich.
+10. **Ovqat tayyorlashda yordam bering.** Sabzavotlarni yuvish, salatni yirtish, aralashtirish. Pichoq va olovni siz boshqaring.
+11. **Oilaviy retseptni pishiring.** Agar bor boʻlsa, ularning qoʻl yozuvidagi kartochkadan foydalaning. Keyinroq ular tatib koʻruvchi boʻlishi mumkin.
+12. **Ofis ishini bajaring.** Xatlarni buklang, konvertlarni toʻldiring va markalang yoki xarid roʻyxatini birga yozing.
 
 ## Musiqa
 
-Tanish musiqa soʻzlar qiyin boʻlganda ham insonga yetib borishi mumkin. [Alzheimer's Association musiqa maslahatlari](https://www.alz.org/help-support/caregiving/daily-care/art-music) tanish qoʻshiqlar, reklamasiz va televizorsiz oʻtirishni tavsiya qiladi. [Musiqa mashgʻulotlari](/activities/music/) sahifasiga qarang.
+Tanish musiqa odamlarga soʻzlar qiyin boʻlganda ham yetib boradi. [Alzheimer assotsiatsiyasining musiqa boʻyicha maslahatlari](https://www.alz.org/help-support/caregiving/daily-care/art-music) tanish qoʻshiqlar, reklamasiz va televizor oʻchirilgan holda boʻlishini tavsiya qiladi. Qarang: [musiqa mashgʻulotlari](/creative-calm/music-for-calm-and-connection/).
 
-13. **Shaxsiy pleylist tuzing.** Uning oʻsmirlik va yigirma yoshlaridagi, toʻyidagi, ibodatidagi va madaniyatidagi musiqa.
-14. **Birga kuylang.** Oʻzingiz kuylashni boshlang. Xirgoyi qilish yoki tinglash ham hisobga oladi.
-15. **Ritm uring.** Qarsak chaling, tizzaga uring yoki qoʻl barabanini chertib turing. Oʻtirib ham, keyingi bosqichlarda ham ishlaydi.
-16. **Raqsga tushing.** Oshxonada sekin raqs yoki oʻtirib, qoʻl ushlab chayqalish.
-17. **Butun albomni qoʻying.** Sevimli plastinkani boshidan oxirigacha, choy bilan va boshqa hech narsasiz.
-18. **Musiqa haqida gaplashing.** Faktlarni emas, hikoyalarni soʻrang: «Borgan raqs kechalaringiz haqida gapirib bering.»
-19. **Filmga olingan musiqiy spektakl yoki konsert koʻring.** U yaxshi koʻrgan shou yaxshi oqshom boʻladi. Istalgan paytda toʻxtating.
-20. **Tanish cholgʻu asbobini chaling.** Sobiq pianinochi oddiy asarlarni yoqtirishi mumkin; keyinroq birga bir necha nota.
-21. **Jonli musiqa tinglang.** Mahalla uchun qisqa konsert yoki xor mashqi. Chiqish yoʻliga yaqin oʻtiring.
+13. **Shaxsiy pleylist tuzing.** Oʻsmirlik va yigirma yoshidagi musiqalar, toʻyi, cherkovi va madaniyati bilan bogʻliq qoʻshiqlar.
+14. **Birga qoʻshiq ayting.** Oʻzingiz kuylashni boshlang. Gʻimirlash yoki tinglash ham hisobga oʻtadi.
+15. **Ritmni ushlang.** Qoʻl chapaklang, tizzaga uring yoki qoʻl baraban chaling. Oʻtirgan holda va kech bosqichlarda ham mos.
+16. **Raqsga tushing.** Oshxonada sekin raqs qiling yoki qoʻllaringizni ushlab oʻtirgan holda tebranib turing.
+17. **Butun albomni qoʻying.** Sevimli plastinkani boshidan oxirigacha, qahva bilan, boshqa hech narsa boʻlmasdan.
+18. **Musiqa haqida gaplashing.** Faktlar emas, hikoyalar soʻrang: «Qanday raqslarga borar edingiz, aytib bering-chi?»
+19. **Filmga olingan musiqali koʻrsatuv yoki konsertni koʻrsating.** Sevgan koʻrsatuvi yaxshi kechki mashgʻulot boʻladi. Istalgan vaqtda toʻxtating.
+20. **Tanish asbobda chalish.** Sobiq pianinochi sodda parchalarni yoqtirishi mumkin; keyinroq bir necha notani birga.
+21. **Jonli musiqani tinglang.** Qisqa jamoat kontserti yoki xor mashgʻuloti. Chiqish yaqinida oʻtiring.
 
-## Xotira: suratlar, buyumlar va hikoyalar
+## Xotirlash: fotosuratlar, buyumlar va hikoyalar
 
-Oʻtmishdan uni sinamasdan birga zavqlaning. «Esingizdami ...?» va «Bu kim?» demang, ochiq takliflardan foydalaning. [Xotira mashgʻulotlari](/activities/reminiscence/) sahifasiga qarang.
+Oʻtmishni birga sinovsiz eslang. «Esingizdami...?» va «Bu kim?» deyishdan qoching, oʻrniga ochiq taklif bering. Qarang: [xotirlash mashgʻulotlari](/activities/reminiscence/).
 
-22. **Surat albomini varaqlang.** Koʻrganingizni ayting: «Qanday koʻylak. Shu kun haqida gapirib bering.» U aytgan har qanday ismga qoʻshiling.
-23. **Xotira qutisi yarating.** Hayotidan buyumlar solingan poyabzal qutisi, masalan, ish nishoni yoki retsept kartasi. Buyumlarni birma-bir oling.
-24. **Hayot hikoyasi daftarini boshlang.** Har sahifada bir necha surat va yirik harfli izohlar. Yangi yordamchilarga insonni tanishga yordam beradi.
-25. **Suhbat kartalaridan foydalaning.** [Suhbat kartalari](/games/conversation-cards/) rasmni ochiq savol bilan juftlaydi.
-26. **Oilaviy surat oʻyinini yarating.** [Surat juftliklari](/games/photo-pairs/) oʻzingizning suratlaringizni juftlash oʻyiniga aylantiradi.
-27. **Uy videolari yoki eski telekoʻrsatuvlarni koʻring.** Savol berish oʻrniga birga fikr bildiring.
-28. **Ish hayotidan buyumlarni ushlab koʻring.** Kalit, stetoskop, hisob daftari. Hikoyani koʻpincha qoʻllar boshlaydi.
-29. **Bolalikdagi taomni pishiring.** U aralashtirishi, tatib koʻrishi yoki shunchaki siz bilan oshxonada oʻtirishi mumkin.
-30. **Yashagan joylar xaritasiga qarang.** Gaplashib turib, katta atlasda tanish yoʻllarni barmoq bilan yuring.
+22. **Fotoalbomni koʻring.** Koʻrganingizni ayting: «Qanday chiroyli libos. Bu kunni aytib bering-chi.» Ular aytgan ismlarga qoʻshiling.
+23. **Xotira qutisi yasang.** Poyabzal qutisiga ularning hayotidan narsalar soling, masalan, ish guvohnomasi yoki retsept kartochkasi. Buyumlarni bittadan chiqaring.
+24. **Hayot daftarini boshlang.** Har sahifaga bir necha fotosurat va katta harfli izohlar. Yangi yordamchilarga odamni tanishga yordam beradi.
+25. **Suhbat kartochkalaridan foydalaning.** [Suhbat kartochkalari](/games/conversation-cards/) rasmni ochiq savol bilan bogʻlaydi.
+26. **Oilaviy fotosurat oʻyinini tuzing.** [Fotosuratli juftliklar](/games/photo-pairs/) oʻz fotosuratlaringizni juftlashtirish oʻyiniga aylantiradi.
+27. **Uy videolari yoki eski telekoʻrsatuvlarni koʻring.** Savol bermasdan birga sharhlang.
+28. **Ishdagi hayotdan buyumlarni ushlang.** Gaechka kaliti, stetoskop, buxgalteriya daftari. Qoʻllar koʻpincha hikoyani boshlab beradi.
+29. **Bolalik taomini pishiring.** Ular aralashtirishi, tatib koʻrishi yoki oshxonada siz bilan oʻtirib turishi mumkin.
+30. **Yashagan joylari xaritasini koʻring.** Gaplashib turib katta atlasda tanish yoʻllarni kuzating.
 
 ## Ijodiy mashgʻulotlar
 
-San’at tayyor asarda emas, qilishda. Materiallarni kattalarga mos va xavfsiz tanlang. [Qoʻl hunarlari va san’at](/activities/arts-and-crafts/) sahifasiga qarang.
+San’at — bu jarayon, tayyor asar emas. Materiallarni kattalarcha va xavfsiz saqlang. Qarang: [rassomlik va hunarmandchilik](/crafts/easy-crafts-for-adults/).
 
-31. **Akvarel bilan chizing.** Qalin qogʻoz, bir necha rang. Boshlash qiyin boʻlsa, birinchi chiziqlarni birga torting.
-32. **Kattalar naqshlarini boʻyang.** Multfilm emas, gullar yoki koʻrpacha naqshlari. [Boʻyash sahifalarimiz](/games/coloring/) ekranda ham, chop etilgan holda ham ishlaydi.
-33. **Kollaj yasang.** Jurnaldan bogʻ, mashina yoki taom rasmlarini yirting va yopishtiring. Keyinroq rasmlarni tanlashning oʻzi yetarli.
-34. **Gul tering va guldonga soling.** Doʻkondan olingan bir dasta gul va guldon. Keyinroq bankada bir necha poya.
-35. **Birga toʻqing.** Katta sim bilan oddiy qatorlar. Keyinroq ipni gʻaltakka oʻrash.
-36. **Oila uchun otkritkalar yasang.** Tugʻilgan kun va tuzalish tilagi otkritkalarini haqiqiy odamlar uchun bezang yoki imzolang.
-37. **Havoda qotadigan loydan shakl bering.** Kichik likopcha bosib chiqaring. Zaharsiz materiallardan foydalaning va yaqin turing.
-38. **Yogʻochni jilolang.** Oldindan kesilgan qush uyi toʻplami va jilvir qogʻoz, elektr asbobsiz. [Erkaklar uchun mashgʻulotlar](/activities/for-men/) sahifasiga qarang.
-39. **Xat yozing yoki yozdiring.** Nabirasi yoki eski doʻstiga. Yozish qiyin boʻlsa, u gapiradi, siz yozasiz.
+31. **Akvarel bilan boʻyang.** Qalin qogʻoz, bir necha rang. Boshlash qiyin boʻlsa, birinchi chiziqlarni birga yurgizing.
+32. **Kattalar naqshlarini boʻyang.** Multfilm emas, gullar yoki koʻrpa naqshlari. Bizning [boʻyash sahifalarimiz](/games/coloring/) ekranda yoki chop etilgan holda ishlaydi.
+33. **Kollaj yasang.** Jurnaldan bogʻ, mashina yoki taom rasmlarini yirtib, yopishtiring. Keyinroq faqat rasm tanlashning oʻzi ham yetarli.
+34. **Gul joylashtiring.** Doʻkondan olingan guldasta va vaza. Keyinroq idishda bir necha poya.
+35. **Birga toʻqing yoki ilmoq toʻqing.** Yirik ignalarda oddiy qatorlar. Keyinroq ipni gʻaltakka oʻrash.
+36. **Oila uchun otkritkalar yasang.** Tugʻilgan kun yoki tuzalib ketish otkritkalarini haqiqiy odamlar uchun bezang, imzolang yoki bezatib bering.
+37. **Havoda qotadigan loy shakllantiring.** Kichik likopcha bosing. Zaharsiz materiallardan foydalaning va yaqinida turing.
+38. **Yogʻochni silliqlang va pardozlang.** Oldindan kesilgan qushxona toʻplami va qumqogʻoz, elektr asboblarsiz.
+39. **Xat yozing yoki aytib yozdiring.** Nevaraga yoki eski doʻstga. Yozish qiyin boʻlsa, ular gapiradi, siz yozasiz.
 
-## Tashqarida va bogʻdorchilik
+## Ochiq havo va bogʻbonchilik
 
-Toza havo va kunduzgi yorugʻlik yaxshi hamroh. [Tashqarida va bogʻdorchilik mashgʻulotlari](/activities/outdoor-and-gardening/) sahifasiga qarang.
+Toza havo va kunduz yorugʻligi yaxshi hamroh. Qarang: [tashqari va bogʻdagi mashgʻulotlar](/together/outdoor-and-garden-activities/).
 
-40. **Oʻsimliklarni sugʻoring.** Kichik lagan va bir necha tuvak. Kundalik sugʻorish kunga ritm beradi.
-41. **Tuvakka ekin ekish.** Hech kim tiz choʻkmasligi uchun stolga qoʻying. Koʻchat urugʻdan osonroq.
-42. **Begona oʻt yoki soʻlgan gullarni yulish.** Qoʻlqop kiyib, bir vaqtda bitta kichik gulzor.
-43. **Barglarni yigʻing.** Bitta kichik maydon. Keyinroq xaltani ochiq ushlab turish chin ish.
-44. **Tanish yoʻldan yuring.** Kvartal atrofida yoki pochta qutisigacha. Qisqaroq ham mayli.
-45. **Birga tashqarida oʻtiring.** Iliq kunda ayvon stuli. Bulutlarga yoki oʻtib ketayotganlarga qarang.
-46. **Qushlarni boqing.** Birga qush yemlagichini toʻldiring va deraza oldidan tomosha qiling.
-47. **Mashinani yuving.** Chelak, shimgich, iliq kun. Disklarni chayish yaxshi bir qadamli ish.
+40. **Oʻsimliklarni suvoring.** Kichik kosa va bir necha tuvak. Har kunlik sugʻorish kunga tartib beradi.
+41. **Tuvakka oʻsimlik eking.** Stolga qoʻying, hech kim tizzalab oʻtirmasin. Urugʻdan koʻra nihol osonroq.
+42. **Begona oʻtlarni yulib yoki guli sargʻaygan poyalarni uzing.** Qoʻlqopda, bir vaqtda bitta kichik ariqcha.
+43. **Bargni gʻaladan yigʻing.** Bitta kichik joy. Keyinroq xalta ogʻzini ushlab turish ham haqiqiy ish.
+44. **Tanish yoʻldan yuring.** Kvartal atrofida yoki pochta qutigacha. Qisqasi ham yaxshi.
+45. **Birga ochiq havoda oʻtiring.** Yumshoq kunda ayvondagi stul. Bulutlarni yoki oʻtayotganlarni kuzating.
+46. **Qushlarni boqing.** Yemxonani birga toʻldiring va deraza yonidan kuzating.
+47. **Mashinani yuving.** Chelak, sfonj va iliq tush. Gʻildirak qopqoqlarini chayish bir qadamli yaxshi ish.
 
 ## Sezgi mashgʻulotlari
 
-Demensiya rivojlanishi bilan teginish, hid, ta’m, tovush va koʻrish muhimroq boʻladi. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) keyingi bosqichlar uchun musiqa, ushlab koʻriladigan buyumlar va qoʻl massajini eslatadi. Avval allergiya va bogʻilib qolish xavfini tekshiring; [sezgi mashgʻulotlari](/activities/sensory/) sahifasiga qarang.
+Teginish, hid, ta’m, tovush va koʻrish demensiya rivojlanishi bilan koʻproq ahamiyat kasb etadi. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) kech bosqichlar uchun musiqa, qoʻlda ushlash mumkin boʻlgan buyumlar va qoʻl massajini eslatadi. Avval allergiya va boʻgʻilish xavfini tekshiring; qarang: [sezgi mashgʻulotlari](/creative-calm/sensory-activities-for-adults/).
 
-48. **Qoʻl massaji qiling.** Avval soʻrang va ozgina krem ishlating. Teri yoki allergiyaga ishonchingiz komil boʻlmasa, hidsizini tanlang.
-49. **Matolarni his qiling.** Silash va buklash uchun baxmal, jun, atlas va boshqa yumshoq matolardan iborat savat.
-50. **Oʻtlar va qahva hidini sezing.** Yangi yalpiz yoki rozmarinni barmoqlar orasida ezing. Nafas muammolari boʻlsa, kuchli hidlardan qoching.
-51. **Sochini taroqlang.** Agar yoqsa, sekin va yumshoq.
-52. **Iliq sochiq bilan artinish.** Sovuq kunda qoʻl va yuz uchun. Avval haroratini tekshiring.
-53. **Mashgʻulot fartugini koʻring.** Yirik tugmalar va zanjirlar mahkam tikilgan. Hech narsa uzilib ketmasligiga ishonch hosil qiling.
-54. **Sevimli shirinlikni tatib koʻring.** Xavfsiz yutishi mumkin boʻlgan konsistensiyada bir kichik qoshiq.
-55. **Tabiat tovushlarini qoʻying.** Yomgʻir, toʻlqinlar yoki qush sayrashi past ovozda.
-56. **Sekin narsani tomosha qiling.** Akvarium, tabiat videosi yoki yogʻayotgan qor.
+48. **Qoʻl massaji qiling.** Avval soʻrang va bir oz krem ishlating. Teri yoki allergiya haqida shubha boʻlsa, hidsiz tanlang.
+49. **Matolarni his qiling.** Barxat, kordrovoy, junli va atlas matolar savati — silab va buklash uchun.
+50. **Ziravor va qahva hidlang.** Yangi yalpiz yoki rozmarinni barmoqlar orasida ishqalang. Nafas qisilishi boʻlsa, kuchli hidlardan qoching.
+51. **Sochini tarang.** Agar yoqsa, sekin va yumshoq.
+52. **Iliq roʻmolcha bilan qoʻl va yuzni artish.** Sovuq kunda. Avval haroratni tekshiring.
+53. **Faol mashgʻulot fartugʻini tekshiring.** Katta tugmalar va zamoklar mahkam tikilgan boʻlsin. Hech narsa boʻshab qolmasligini tekshiring.
+54. **Sevimli shirinlikdan tatib koʻring.** Kichik qoshiqcha, xavfsiz yutishi mumkin boʻlgan konsistensiyada.
+55. **Tabiat tovushlarini qoʻying.** Yomgʻir, dengiz shovqini yoki qushlar sayrashi, past ovozda.
+56. **Sekin narsani tomosha qiling.** Akvarium, tabiat videosi yoki qor yogʻishi.
 
-## Oʻyinlar va jumboqlar
+## Oʻyinlar va pazllar
 
-Oʻyinlar taymer, ball va bosim boʻlmasa ishlaydi. Biri imtihondek tuyula boshlasa, olib qoʻying. [Ilova va oʻyinlarni tanlash](/caregiving/choosing-apps-and-games/) hamda [miya oʻyinlari](/brain-health/brain-games/) sahifalariga qarang.
+Oʻyinlar vaqt chegarasi, hisob yoki bosimsiz boʻlsa ishlaydi. Agar biror oʻyin imtihonga oʻxshab qolsa, uni yigʻishtiring. Qarang: [oʻyinlar sahifasi](/games/) va [uyda demensiya mashgʻulotlari](/dementia-activities/).
 
-57. **Rasmlarni juftlang.** [Rasm juftliklari](/games/picture-pairs/) rasmlarni ochiq qoldiradi, shuning uchun gap eslashda emas, payqashda.
-58. **Bir xil rasmni toping.** [Bir xilini toping](/games/find-the-same/) ikkitadan toʻrttagacha tanlov beradi. Har bir rasm haqida gaplashing.
-59. **Savatlarga ajrating.** [Birga saralash](/games/sort-together/) ekranda paypoq saralashga oʻxshaydi.
-60. **Yirik boʻlakli jumboq yigʻing.** Kattalarga mos rasmlar, oson boʻlaklar soni. [Rasm jumboqi](/games/picture-puzzle/) butun rasmni koʻrinib turadigan qiladi. Koʻproq [demensiya uchun jumboqlar](/activities/puzzles/) sahifasida.
-61. **Eski karta oʻyinini oʻynang.** Yillar davomida nima oʻynagan boʻlsa shuni. Keyinroq kartalarni rangi boʻyicha ajratishning oʻzi oʻyin.
-62. **Domino oʻynang.** Uchlarini mos qoʻying. Keyinroq toshlarni qatorga terish ham yaxshi.
-63. **Yirik harfli soʻz izlashni sinang.** [Soʻz izlash](/games/word-search/) oʻyinimizda soʻzlar faqat yonma-yon va yuqoridan pastga, uni chop etish ham mumkin.
-64. **Tanish maqollarni tugating.** [Maqolni tugating](/games/finish-the-saying/) istalgan payt oxirini koʻrsatishga imkon beradi.
-65. **Rasmli bingo oʻynang.** [Rasmli bingo](/games/picture-bingo/) oilalar va guruhlarga mos. Kartalarni belgilashda erkin yordam bering.
-66. **Shashka oʻynang.** Qoidalarni yumshoq tuting. Gaplashib turib dona yurgizish ham hisob.
+57. **Rasmlarni juftlang.** [Rasmli juftliklar](/games/picture-pairs/) rasmlarni yuzi ochiq qoldiradi, shuning uchun bu eslab qolish emas, e’tiborni qaratish haqida.
+58. **Bir xil rasmni toping.** [Bir xilini top](/games/find-the-same/) ikki-toʻrt variant taklif qiladi. Har bir rasm haqida gaplashing.
+59. **Savatlarga saralang.** [Birga saralash](/games/sort-together/) ekrandagi paypoq saralashga oʻxshaydi.
+60. **Yirik boʻlakli pazl yigʻing.** Kattalar rasmi, oson boʻlaklar soni. [Rasmli pazl](/games/picture-puzzle/) butun rasmni koʻrinib turadigan qilib qoldiradi. Koʻproq: [pazllar va stol oʻyinlari](/together/puzzles-and-table-games/).
+61. **Eski karta oʻyinini oʻynang.** Yillar davomida oʻynagan oʻyini. Keyinroq kartalarni rangi boʻyicha saralash oʻzi bir oʻyin boʻladi.
+62. **Domino oʻynang.** Uchlarini moslang. Keyinroq toshlarni qatorga terish ham yetarli.
+63. **Yirik harfli soʻz qidiruvini sinang.** Bizning [soʻz qidiruvi](/games/word-search/) faqat gorizontal va vertikal soʻzlarga ega va chop etish mumkin.
+64. **Tanish maqollarni tugating.** [Maqolni tugating](/games/finish-the-saying/) xohlagan vaqtda oxirini koʻrsatishga imkon beradi.
+65. **Rasmli bingo oʻynang.** [Rasmli bingo](/games/picture-bingo/) oilalar va guruhlarga mos. Kartochkalarni erkin belgilashga yordam bering.
+66. **Shashka oʻynang.** Qoidalarni erkin saqlang. Suhbatlashib turib toshlarni surish ham hisobga oʻtadi.
 
 ## Harakat
 
-NIA sayr, statsionar velosiped, choʻziladigan lentalar, yumshoq top yoki sharni otish, konserva bankalarini koʻtarish va keksalar uchun mashq videolarini tavsiya qiladi. Yangi narsani boshlashdan oldin shifokor bilan maslahatlashing, ayniqsa muvozanat muammolari boʻlsa.
+NIA sayrlar, qoʻzgʻalmas velosiped, choʻzish lentalari, yumshoq toʻp yoki sharni otish, shoʻrva konservalarini koʻtarish va kattalar uchun mashq videolarini tavsiya qiladi. Yangi mashq boshlashdan oldin, ayniqsa muvozanat muammolari boʻlsa, shifokor bilan maslahatlashing.
 
-67. **Sharni uloqtiring.** Yuzma-yuz oʻtiring. U sekin harakatlanadi, shuning uchun ushlash oson.
-68. **Keksalar uchun moʻljallangan oʻtirib bajariladigan mashq videosini** yonma-yon bajaring.
-69. **Lenta bilan choʻzilish.** Oʻtirib, yengil lenta bilan qoʻllarni ohista tortish.
-70. **Konserva bankalarini koʻtaring.** Sekin qoʻl koʻtarishlar, ehtimol musiqa ostida.
-71. **Statsionar velosipedda yuring.** Siz yaqinda turib, bir necha oson daqiqa.
-72. **Roʻmollar bilan raqsga tushing.** Musiqa ostida yengil roʻmollarni silkiting, oʻtirib yoki turib.
-73. **Maqsad bilan yuring.** Xat joʻnatish yoki qahva olish uchun. Borish uchun sabab tabiiy tuyuladi.
-74. **Birga nafas olish tanaffusi qiling.** [Sokin nafas](/games/calm-breathing/) bilan birga sekinlashing.
+67. **Sharni tashlang.** Bir-biringizga qarab oʻtiring. U sekin harakatlanadi, shuning uchun ushlash oson.
+68. **Oʻtirgan holda mashq videosini kuzating.** Kattalar uchun tayyorlangan, yonma-yon.
+69. **Lenta bilan choʻzining.** Oʻtirgan holda yengil lenta bilan qoʻllarni asta tortish.
+70. **Shoʻrva konservalarini koʻtaring.** Qoʻllarni sekin koʻtarish, balki musiqa ostida.
+71. **Qoʻzgʻalmas velosipedda yuring.** Bir necha yengil daqiqa, yoningizda turib.
+72. **Shal bilan raqsga tushing.** Yengil shallarni musiqaga silkiting, oʻtirgan yoki turgan holda.
+73. **Maqsad bilan yuring.** Xatni pochtaga yoki qahva sotib olishga. Borish uchun sabab tabiiy tuyuladi.
+74. **Nafas pauzasini birga qiling.** [Tinch nafas olish](/games/calm-breathing/) bilan birga sekinlashing.
 
 ## Ijtimoiy mashgʻulotlar
 
-Ismlar qiyin boʻlsa ham hamrohlik muhim va kichik guruhlar kattalardan osonroq. NIA inson mehmonning kimligini eslamasligi mumkin, lekin koʻpincha hamon hamrohlikdan zavqlanishini qayd etadi. [Mehmonlar](/activities/visiting/) sahifasiga qarang.
+Ismlar qiyin boʻlsa ham hamroh boʻlish muhim, va kichik guruhlar katta guruhlarga qaraganda osonroq. NIA ta’kidlashicha, odam mehmon kimligini eslamasligi mumkin, lekin koʻpincha hamrohlikdan zavqlanadi. Qarang: [parvarish muassasasidagi odamni yoʻqlash](/together/visiting-someone-in-care/).
 
-75. **Bir vaqtda bir-ikki mehmon qabul qiling.** Sokin xonada qisqa tashriflar, qarash uchun suratlar bilan.
-76. **Oilaga video qoʻngʻiroq qiling.** Qisqa qoʻngʻiroqlar, bir vaqtda bitta ovoz. [Telefon va video qoʻngʻiroqlar](/activities/phone-and-video-calls/) sahifasiga qarang.
-77. **Xotira kafesini (memory café) sinang.** Demensiya bilan yashayotganlar va ularning qarovchilari uchun norasmiy uchrashuvlar. Yaqin atrofda nima borligini hududingizdagi demensiya yoki keksalarga yordam tashkilotlaridan soʻrang.
-78. **Sokin vaqtda tashqarida ovqatlaning.** NIA odam kam vaqtda tanish, sokin restoranni va hojatxonaga yaqin stolni tavsiya qiladi.
-79. **Keksalar markazi yoki kattalar kunduzgi dasturiga boring.** Inson uchun hamrohlik, siz uchun tanaffus.
-80. **Bolalar bilan vaqt oʻtkazing.** Nabiralarning qisqa, sokin tashrifi yoki kichkintoyga rasmli kitob oʻqish.
-81. **Choy ustida gazetani birga oʻqing.** Sarlavhalarni ovoz chiqarib oʻqing. Urf yangilikdan muhimroq.
-82. **Boshqa kishiga yordam bering.** Jamoa tadbiri dasturlarini buklang yoki qoʻshniga otkritka yasang.
+75. **Bir vaqtda bir yoki ikki mehmon.** Tinch xonada qisqa tashriflar, koʻrish uchun fotosuratlar bilan.
+76. **Oilani video qoʻngʻiroq bilan chaqiring.** Qisqa qoʻngʻiroqlar, bir vaqtda bitta ovoz. Qarang: [telefon va video qoʻngʻiroqlar](/together/staying-connected-from-afar/).
+77. **Xotira kafesini sinab koʻring.** Demensiya bilan yashayotgan odamlar va ularning qarovchilari uchun norasmiy uchrashuvlar. Mahalliy Area Agency on Aging ga murojaat qilib, yaqin atrofda nima borligini soʻrang.
+78. **Tinch vaqtda tashqarida ovqatlaning.** NIA tanish, tinch restoranni gavjum boʻlmagan soatda, hojatxona yaqinidagi stol bilan tavsiya qiladi.
+79. **Keksalar markazi yoki kunduzgi kattalar dasturiga boring.** Ular uchun hamroh, sizga esa dam.
+80. **Bolalar bilan vaqt oʻtkazing.** Nevaralarning qisqa, tinch tashrifi yoki kichkina bolaga rasmli kitob oʻqib berish.
+81. **Qahva ustida gazetani birga oʻqing.** Sarlavhalarni ovoz chiqarib oʻqing. Odat yangiliklardan muhimroq.
+82. **Boshqaga yordam bering.** Cherkov dasturlarini buklang yoki qoʻshniga otkritka yasang.
 
-## E’tiqod va ma’naviy mashgʻulotlar
+## Diniy va ruhiy mashgʻulotlar
 
-Insonning oʻz e’tiqodiga amal qiling yoki hech qaysi. NIA tanish marosimlar, oʻqishlar, muqaddas musiqa, ibodat, meditatsiya va bayram urf-odatlarini tavsiya qiladi.
+Odamning oʻz an’anasiga amal qiling, yoki hech qanday an’anasi boʻlmasa, shunga mos ravishda. NIA tanish ibodatlar, oʻqishlar, muqaddas musiqa, ibodat, meditatsiya va bayram marosimlarini tavsiya qiladi.
 
-83. **Tanish diniy marosimga boring.** Tinchroq birini tanlang, yoʻlak yaqiniga oʻtiring va u yerdagilarga demensiya haqida ayting.
-84. **Marosimni onlayn koʻring,** tashqariga chiqish juda ogʻir kunlarda.
-85. **Birga ibodat qiling yoki oʻqing.** Tanish soʻzlar, sekin oʻqiladi. U biladigan qismlarga qoʻshilishi mumkin.
-86. **Oʻz an’anasidagi ilohiy qoʻshiqlarni** kuylang.
-87. **Bayram urf-odatlarini saqlang.** Batareyali shamlar, duo, u har doim ishlatgan bezaklar.
-88. **Sokin vaqtni birga oʻtkazing.** Bogʻda oʻtiring yoki birga quyosh botishini tomosha qiling.
+83. **Tanish ibodatga boring.** Tinchroq birini tanlang, yoʻlak yaqinida oʻtiring va u yerdagilarni demensiya haqida xabardor qiling.
+84. **Ibodatni onlayn tomosha qiling,** chiqish juda charchatadigan kunlarda.
+85. **Birga ibodat qiling yoki oʻqing.** Tanish soʻzlar, sekin oʻqilgan. Bilgan qismlariga qoʻshilishi mumkin.
+86. **Oʻz an’anasidagi madhiyalar yoki muqaddas musiqani kuylang.**
+87. **Bayram marosimlarini saqlang.** Batareyali shamlar, duo, odatda ishlatilgan bezaklar.
+88. **Birga jim vaqt oʻtkazing.** Bogʻda oʻtiring yoki quyoshning botishini birga tomosha qiling.
 
 ## Uy hayvonlari va jonivorlar
 
-NIA uy hayvonini boqish, tarash, sayr qildirish yoki yonida oʻtirish va quchoqlashni tavsiya qiladi.
+NIA uy hayvonini boqish, tarash, sayr qildirish yoki yoniga oʻtirib ushlab turishni tavsiya qiladi.
 
-89. **Sokin itni yoki mushukni** uzun, sekin harakatlar bilan tarang.
-90. **Hayvonni birga boqing.** Siz oʻlchaysiz, u quyadi.
-91. **Itni birga sayr qildiring.** Siz bandini ushlaysiz.
-92. **Hayvonni quchoqqa oling.** Adyol ustidagi sokin mushuk juda tinchlantirishi mumkin.
-93. **Mehmon hayvonlarni qarshi oling.** Ayrim parvarish uylari va kunduzgi dasturlar hayvonlar tashrifini oʻtkazadi. Joyida soʻrang.
-94. **Jonliga oʻxshash yumshoq hayvon taklif qiling.** Uy hayvoni boʻlmasa, ayrim odamlar tabiiy koʻrinishdagi plyush mushuk yoki itni ushlab turishni yoqtiradi. Uni oddiygina, hech qachon oʻyinchoq sifatida emas, taklif qiling va «yoʻq»ni qabul qiling.
+89. **Xotirjam itni yoki mushukni tarang.** Uzun, sekin harakatlar bilan.
+90. **Hayvonni birga boqing.** Siz oʻlchaysiz; ular quyadi.
+91. **Itni birga sayrga olib chiqing.** Tasmasini siz ushlaysiz.
+92. **Hayvonni tizzada ushlab turing.** Xotirjam mushuk, yumshoq adyol ustida — juda tinchlantiradi.
+93. **Tashrif buyuruvchi hayvonlarni kutib oling.** Ayrim parvarish muassasalari va kunduzgi dasturlar hayvonlar tashrifini uyushtiradi. Mahalliy joylarda soʻrang.
+94. **Tirik koʻrinadigan yumshoq hayvon taklif qiling.** Uy hayvoni boʻlmasa, ayrimlar haqiqiyga oʻxshash pelush mushuk yoki it ushlab turishdan zavqlanadi. Uni oddiy taklif qiling, hech qachon bolalar oʻyinchogʻi sifatida emas, va rad etishini qabul qiling.
 
 ## Mavsumiy mashgʻulotlar
 
-An’analarni saqlang, lekin soddaroq. NIA gavjum bayramlarda realistik boʻlish va dam olish uchun sokin joy tayyorlashni tavsiya qiladi.
+An’analarni saqlang, lekin soddaroq. NIA bayram shovqinida realistik boʻlish va dam olish uchun tinch joy boʻlishini tavsiya qiladi.
 
-95. **Mavsumga mos bezang.** Stolga mavsumiy meva yoki yangi gullar.
-96. **Bayram shirinligi tayyorlang.** Xamirni yoying yoki pechenelarni bezang. Pechni siz boshqarasiz.
-97. **Bezaklarni osing.** Sinmaydigan bezaklar, birma-bir uzatiladi.
-98. **Bayram chiroqlarini koʻrgani mashinada aylaning.** Kechqurun qisqa sayr hamrohlikdan boshqa narsa talab qilmaydi.
-99. **Bahorgi piyozgullarni eking.** Kuzda piyozlarni tuvakka bosib joylang va nish urishini kuzating.
-100. **Makkajoʻxori tozalang yoki noʻxat archish.** Yozgi ayvon ishi, tizzada idish bilan.
-101. **Bayram otkritkalariga manzil yozing.** U imzolaydi, marka yopishtiradi yoki yopadi; manzillarni siz yozasiz.
+95. **Mavsum uchun bezang.** Qovoq, gulchambar yoki stolda yangi gullar.
+96. **Bayram shirinligini tayyorlang.** Xamir yoyish yoki pechene glazurlash. Pechni siz boshqaring.
+97. **Bezaklarni osing.** Sinmaydigan oʻyinchoqlar, bittadan topshirib.
+98. **Chiroqlarni koʻrgani boring.** Qisqa kechki sayr hamroh boʻlishdan boshqa hech narsa talab qilmaydi.
+99. **Bahorgi piyozboshlarni eking.** Kuzda piyozlarni tuvakka qoʻying va unib chiqishini kuzating.
+100. **Makkajoʻxori va noʻxatni tozalang.** Yozgi ayvon ishi, tizzada kosa bilan.
+101. **Bayram kartochkalariga manzil yozing.** Ular imzolaydi yoki muhrlaydi; manzillarni siz yozasiz.
 
 ## Mashgʻulot ishlamasa-chi?
 
-Toʻxtang va boshqa safar boshqa narsani sinab koʻring. NIA jahl belgilarini kuzatishni va inson xohlasa, shunchaki tomosha qilishiga imkon berishni tavsiya qiladi. «Yoʻq» koʻpincha vazifa juda qiyinligini, vaqt notoʻgʻriligini yoki ogʻriq, ochlik yoki shovqin kabi boshqa narsa bezovta qilayotganini bildiradi. Uni kichraytiring, kunning erta paytida sinang yoki oʻzingiz boshlab, qoʻshilishini kuzating. [Ular «yoʻq» deganda](/caregiving/when-they-say-no/) va [kechki bezovtalik](/caregiving/late-day-restlessness/) sahifalariga qarang.
+Toʻxtang va boshqa vaqt boshqa narsa sinab koʻring. NIA asabiylashish belgilarini kuzatishni va agar odam xohlasa, faqat tomosha qilishiga ruxsat berishni tavsiya qiladi. «Yoʻq» koʻpincha vazifa juda qiyin, vaqt notoʻgʻri yoki ogʻriq, ochlik yoki shovqin kabi boshqa narsa bezovta qilayotganini bildiradi. Uni kichikroq qiling, kun boshida urinib koʻring yoki oʻzingiz boshlab, qoʻshilarmikan koʻring. Qarang: [ular rad etganda](/caregiving/when-they-say-no/) va [tinch tushki mashgʻulotlar](/creative-calm/calm-afternoon-activities/).
 
-Mashgʻulotlarni ovqat va dam olish oraligʻiga joylash uchun [yumshoq kundalik tartib](/activities/daily-routine/) sahifasiga qarang. Tayyor turishi kerak narsalar uchun [chop etiladigan mashgʻulotlar](/activities/printable/), guruh olib borsangiz, [parvarish uylaridagi guruh mashgʻulotlari](/activities/care-home-groups/). Oʻzingizning dam olishingiz ham muhim: [qarovchining oʻzini parvarishlashi](/caregiving/caregiver-self-care/) sahifasiga qarang.
+Ovqat va dam olish orasiga mashgʻulotlarni joylashtirish uchun [tinch tushki mashgʻulotlar](/creative-calm/calm-afternoon-activities/) ga qarang. Tayyor boʻlishi kerak boʻlgan narsalar uchun [oʻyinlar sahifasidagi bepul chop etiladigan materiallar](/games/) ga, agar guruhni boshqarsangiz, [parvarish muassasalaridagi guruh mashgʻulotlari](/crafts/craft-group-sessions/) ga qarang. Oʻz dam olishingiz ham muhim: [qarovchilar uchun oʻz-oʻzini parvarish qilish](/creative-calm/creative-self-care-for-caregivers/) ga qarang.

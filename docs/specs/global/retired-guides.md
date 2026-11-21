@@ -27,6 +27,15 @@
 
 **Links:** every reference to a retired guide (related guides, hub and card guide lists) resolves to its new page at build time (`resolveGuide` in `site/src/i18n/guides.ts`).
 
+## Languages whose guides stay in English
+
+**Decision (maintainer, 2026-11-21):** for 58 languages, readers get the English guide instead of a machine translation. A Haiku sub-agent judged its own Zhuang unreliable (its drafts passed every structural check, but meaning was lost and sentences were invented), and the same is likely for other languages with little written text online. The list, with the rule used, is `site/src/i18n/english-guides.txt`. In those languages:
+
+- Live guides have no translation, so their pages show the English text (374 old and new translations were removed; `english-guides.content.test.ts` keeps it that way).
+- Site and game strings are still translated.
+- Old translated dementia guides stay until every language's are retired, like everywhere else.
+- A language can leave the list once a fluent reviewer checks its translations.
+
 ## Not done / needs people
 
 - The 27 new pages are written by AI agents from the specs and unreviewed. Each needs a human editorial review (and for Kids, a child-safety review) before it is promoted.
