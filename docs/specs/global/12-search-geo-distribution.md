@@ -273,7 +273,7 @@ Risks / not doing: Do not describe markup as an AI-search feature.
 ### SEO-014 · Internal linking graph
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
-Status note (2026-11-21): `pnpm check:orphans` finds no orphan among the 176 indexable English pages and no repeated "read more" style anchor. Not in CI; the "at least two crawlable internal links" line is not checked.
+Status note (2026-11-22): `pnpm check:orphans` finds no orphan among the indexable English pages and no repeated "read more" style anchor. `--strict` now also checks the two-inbound-link line (distinct linking pages, `<a href>` only, nav and footer count). First strict run on a fresh build: one page under two, `/glossary/` (one inbound link). Not in CI until that page has a second inbound link.
 
 Why: Crawlers and visitors find activities through links, not through search boxes. Orphans are invisible [SEO.md §4.2, §6.1].
 
