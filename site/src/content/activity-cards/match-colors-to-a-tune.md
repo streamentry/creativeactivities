@@ -89,6 +89,7 @@ guides: [creative-calm/music-for-calm-and-connection, creative-calm/calm-afterno
 related: [draw-to-music, make-a-playlist-together, hold-a-sing-along-at-home, make-a-color-collage]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

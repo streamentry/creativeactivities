@@ -85,6 +85,7 @@ guides: [activities/ideas, creative-calm/sensory-activities-for-adults, activiti
 related: [make-a-texture-board, make-a-lavender-sachet, make-a-paper-chain-garland]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

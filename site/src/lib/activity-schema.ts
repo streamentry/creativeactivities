@@ -180,6 +180,12 @@ export const activityCardSchema = z
     related: z.array(z.string()).max(4).default([]),
     published: z.coerce.date(),
     updated: z.coerce.date(),
+    /**
+     * The card's version, a whole number starting at 1 (PLAT-007). Bump it whenever the steps, short steps,
+     * materials, safety notes or flags, stop note or variations change, and add a `changes` entry in the same edit.
+     * `pnpm check:card-versions` fails when a content change does not raise it.
+     */
+    version: z.number().int().min(1),
     author: z.string(),
     /** Step photos or illustrations (WEB-012). Empty until real images exist. */
     images: z.array(activityImageSchema).max(6).default([]),

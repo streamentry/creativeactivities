@@ -93,6 +93,7 @@ guides: [creative-calm/music-for-calm-and-connection]
 related: [tap-a-rhythm-together, make-a-playlist-together, draw-to-music, hold-a-sing-along-at-home]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

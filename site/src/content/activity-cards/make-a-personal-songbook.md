@@ -91,6 +91,7 @@ guides: [creative-calm/music-for-calm-and-connection, activities/reminiscence, a
 related: [draw-to-music, start-a-family-recipe-book, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

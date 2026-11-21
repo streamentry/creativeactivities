@@ -92,6 +92,7 @@ guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activitie
 related: [press-leaves-and-flowers, paint-a-garden-stone, plant-seeds-in-a-pot]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

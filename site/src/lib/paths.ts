@@ -188,6 +188,7 @@ export const PATH_TEXT = {
   whatWeDid: 'What we did:',
   theEnd: 'That is the end of this path. Stopping here is fine, and you can start again from any week.',
   eachTakes: (range: string): string => `Each takes ${range}.`,
+  takes: (range: string): string => `Takes ${range}.`,
   forget: 'Forget my place on this path',
   forgotten: 'Done. This page no longer remembers where you started or what you skipped.',
   notKept: 'This browser did not allow saving, so your place is kept only until you leave this page.',

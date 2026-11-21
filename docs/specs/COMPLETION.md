@@ -503,6 +503,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | [intent-owners.md](global/intent-owners.md): 29 intents, one owner each (9 left to the maintainer); social-card records say how each was made | SEO-008, TSA-038 partial | Built by a Haiku subagent. It also found the default share-image alt text named a teacup, sunflower and dog that most cards do not show; the English default now describes what every card shows (the 188 translated copies wait on the re-translation) |
 | "What I have" checklist and blank activity card printables | CNT-007 partial | Built by a Haiku subagent; review restored the "not seed beads" safety qualifier its short print label had dropped |
 
+### Batch 58 (2026-11-21): long text and right to left, card versions, group rules, daily calendar, path links and tablets
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `check:text-fit` (in CI) and four layout fixes: long words, hidden text at the edge, the navigation at 640 px and 200%, tilted sheets; Arabic guide and hub in the print check | WEB-043, PLAT-039 partial | Built by a Haiku subagent; 60 of 60 page variants pass in about 11 s. `overflow-wrap: anywhere` on the body also changes how narrow table columns size; the accessibility and print checks pass with it |
+| Card `version` and `pnpm check:card-versions` | PLAT-007 partial | Built by a Haiku subagent; review added the short steps and the safety flags to the fields that need a bump. Not in CI (it needs the base branch in the checkout) |
+| Group passing rules on Conversation cards; a one-page month calendar for Today's card | GAME-050, GAME-061 partial | Built by a Haiku subagent; no score, timer or winner wording (tested) |
+| Paths linked from hubs and Today, with each row's time; tablet portrait and landscape in the group and accessibility checks | CNT-006, WEB-046 partial | Built by a Haiku subagent; 168 of 168 group walk-throughs and 302 accessibility pages pass |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |

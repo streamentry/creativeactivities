@@ -23,6 +23,20 @@ describe('ConversationCards', () => {
     expect(html).not.toContain('Anyone may pass.');
   });
 
+  it('shows the group rules for passing a card round a circle, with no score or timer words', () => {
+    const html = renderToStaticMarkup(createElement(ConversationCards, playProps('en', 'conversation-cards')));
+    const rules = playProps('en', 'conversation-cards').ui.conversationCards;
+
+    expect(html).toContain('Passing a card round a group');
+    expect(html).toContain('Sit in a circle');
+    expect(html).toContain('A person may pass without saying anything');
+    expect(html).toContain('Nobody wins.');
+    for (const key of ['groupTitle', 'groupSit', 'groupPass', 'groupNoSpeech', 'groupEnd'] as const) {
+      expect(rules[key].length).toBeGreaterThan(0);
+      expect(rules[key]).not.toMatch(/timer|score|points|streak|countdown/i);
+    }
+  });
+
   it('uses the English source label until a locale has a reviewed translation', () => {
     const english = playProps('en', 'conversation-cards');
     const spanish = playProps('es', 'conversation-cards');

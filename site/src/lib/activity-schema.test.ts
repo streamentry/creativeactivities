@@ -31,6 +31,7 @@ const CARD = {
   stopNote: 'It is fine to stop after one towel.',
   published: '2026-11-13',
   updated: '2026-11-13',
+  version: 1,
   author: 'Creative Activities editorial team',
 };
 

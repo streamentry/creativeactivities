@@ -90,6 +90,7 @@ guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, tog
 related: [fold-towels-together, wind-a-ball-of-yarn, make-a-texture-board]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

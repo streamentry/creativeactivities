@@ -96,6 +96,7 @@ Rules that apply to every type:
 ### CNT-006 · Path (weekly plan or multi-week sequence)
 
 - **Priority P1 · Phase S2 · Status partial**.
+- **Status note (2026-11-21):** paths are now linked from the two hubs that hold at least half of a path's activities (grandparent and grandchild; a visit) and from the Today page, and each path row shows its card's time. The completion-without-pressure test with people is not done.
 - **Why:** a free one-page weekly plan with three to five activities is a low-commitment entry point that needs no account ([R2 §3, pattern 4](research/02-parenting-kids-platforms.md#3-feature-patterns-worth-adopting)).
 - **Anatomy:** a title for the situation; one line on time per day; a row per day or per activity; links to the cards; a blank row for "what we did"; a closing line that says the path is finished and that stopping is fine.
 - **Rules:** no streaks, no "you missed a day" message, no email sign-up needed, and no paid unlock for the first week. A path ends.

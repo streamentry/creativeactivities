@@ -136,6 +136,8 @@ Risks / not doing: link rot and licenses for archived copies. Archive only what 
 ### PLAT-007 · Versions, change log and corrections
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): every card has a `version` (1 today); `pnpm check:card-versions` fails when steps, short steps, materials, safety notes or flags, the stop note or variations change without a higher version and a new `changes` entry, and when a version rises with no such change. The version is in the content bundle. The check is not in CI yet (CI checks out one commit, so it needs the base branch fetched); log retention is a maintainer call.
+
 Evidence (2026-11-16): each activity card prints its version date and address in the print footer (WEB-016) and keeps a dated change log, with safety changes labelled and a notice that a printed copy from before a safety change may not show it (WEB-027, `site/src/lib/activity-changes.test.ts`). Only changes to materials, steps, safety or the pictures that show them are listed, so a typo fix is not. The corrections page and log take reports (TSA-035). Not done: a version number for each entity (the version is the card's date); entries created from the diff (they are written by hand); a public correction log of material changes kept for 24 months across guides and hubs; the printed pack footer is not checked.
 Why: DESIGN §4B requires a correction link. [R5 §4] says printed copies cannot be updated, so each print must carry a date and version.
 What: each published entity has a version number and a change-log entry. Material changes (safety, materials, claims, steps) appear on a public correction log for 24 months.
@@ -531,6 +533,8 @@ Risks / not doing: treating a clean scan as proof. Say in reports that scans are
 
 ### PLAT-039 · Print and i18n tests
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `check:print` now also prints an Arabic guide and an Arabic hub (right to left, navigation hidden) on A4 and Letter; `check:text-fit` covers the 320 px overflow with the longest translated strings. PDF page counts wait on PLAT-019.
 
 Evidence (2026-11-16): a missing or one-way hreflang pair fails the build (`site/scripts/check-site.mjs`, SEO-031). `pnpm check:print` prints every activity card on A4 and on US Letter with the browser's print media and checks that it is one two-sided sheet with the site navigation hidden: 53 cards, 0 failures, in 34 seconds. It now runs in the website workflow after the accessibility check. `pnpm check:a11y` covers each page template in its list, including a translated page (German) and a right-to-left page (Arabic), at 320 px and 640 px and at 200% text, for overflow, reflow and focus. Not done: print checks for hubs, packs and the large-print pages; a long-string test with translated samples as such (the translated pages in the accessibility check are the only samples); a PDF page-count check on generated PDFs (none are generated, PLAT-019); the right-to-left layout check is gated to a reviewed right-to-left language.
 Why: print is a product path (DESIGN §4B). Multilingual pages can break through missing hreflang pairs, long strings or missing right-to-left support ([R5 §2.3]).

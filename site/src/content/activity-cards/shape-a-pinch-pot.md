@@ -92,6 +92,7 @@ guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adu
 related: [decorate-a-plant-pot, tear-paper-mosaic, paint-a-garden-stone]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

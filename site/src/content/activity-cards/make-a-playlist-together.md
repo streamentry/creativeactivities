@@ -90,6 +90,7 @@ guides: [creative-calm/music-for-calm-and-connection, together/staying-connected
 related: [draw-to-music, make-a-personal-songbook, tap-a-rhythm-together]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

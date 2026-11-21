@@ -39,6 +39,13 @@ const WEEKLY_PROGRAM_PAGES = 1;
 const PATH_WEEKLY_PLAN_SHEETS = 5;
 /** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
 const PROFESSIONALS_HANDOUT_PAGES = 1;
+/**
+ * Translated pages (WEB-043, PLAT-039), printed right to left with the navigation hidden. No translated activity card exists
+ * yet, so the Arabic guide and the Arabic hub take the limits they printed on when they were last read (2026-11-21), as the
+ * other templates do. They are not the two-sided card rule: a guide and a hub are not cards.
+ */
+const TRANSLATED_GUIDE_PAGES = 6;
+const TRANSLATED_HUB_PAGES = 7;
 /** CNT-014 (adult variant): the care-settings page has three staff summaries, a family note and a permission template. */
 const CARE_SHEETS = 5;
 /**
@@ -202,6 +209,35 @@ function currentCommit() {
   }
 }
 
+/**
+ * GAME-061: the daily cards' printed month is one page on each paper size. Switches Picture pairs to "Today's card" (the
+ * only mode with the calendar), prints, and checks that the calendar is shown and the cards sheet is not printed with it.
+ */
+async function dailyCalendar(context, base, failures, record) {
+  const page = await context.newPage();
+  await page.goto(`${base}/games/picture-pairs/`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('.chip:has(input[value="daily"])', { timeout: 15000 });
+  await page.click('.chip:has(input[value="daily"])');
+  // Hidden on screen by design (`.sheet--calendar` is display none outside print), so wait for it to exist, not to show.
+  await page.waitForSelector('.sheet--calendar table', { state: 'attached', timeout: 15000 });
+  await page.emulateMedia({ media: 'print' });
+  const counts = await printedPages(page);
+  const shown = await page.evaluate(() => {
+    const calendar = document.querySelector('.sheet--calendar');
+    const cardsSheet = document.querySelector('.sheet-paper');
+    return {
+      calendar: !!calendar && getComputedStyle(calendar).display !== 'none' && calendar.getBoundingClientRect().height > 100,
+      cardsHidden: !cardsSheet || getComputedStyle(cardsSheet).display === 'none',
+      days: document.querySelectorAll('.sheet-calendar__day').length,
+    };
+  });
+  const ok = FORMATS.every((f) => counts[f] === 1) && shown.calendar && shown.cardsHidden && shown.days >= 28;
+  if (!ok) failures.push({ slug: 'daily calendar', counts, shown });
+  record('daily calendar', ok);
+  console.log(`daily calendar: ${shown.days} days   A4 ${counts.A4}  Letter ${counts.Letter}  limit 1${shown.cardsHidden ? '' : '  cards sheet printed too'}  ${ok ? 'ok' : 'FAIL'}`);
+  await page.close();
+}
+
 export function gamesWithPaper() {
   const source = readFileSync(new URL('../src/data/game-print.ts', import.meta.url), 'utf8');
   return [...source.matchAll(/^\s*'?([a-z-]+)'?:\s*\{\s*kind:\s*'(page|island|none)'/gm)].filter((m) => m[2] !== 'none').map((m) => ({ slug: m[1], kind: m[2] }));
@@ -251,6 +287,27 @@ async function careSheets(context, base, failures, record) {
   await page.close();
 }
 const CARE_SHEET_PAGES = 1;
+
+/**
+ * A translated page prints right to left (the document's dir is rtl, so the page is checked as Arabic), with the site
+ * navigation hidden, on each paper size within its limit (WEB-043).
+ */
+async function translatedPage(context, base, failures, record, type, label, url, maxPages) {
+  const page = await context.newPage();
+  await page.goto(`${base}${url}`, { waitUntil: 'networkidle' });
+  const dir = await page.evaluate(() => document.documentElement.dir);
+  await page.emulateMedia({ media: 'print' });
+  const hidden = await page.evaluate(() => {
+    const header = document.querySelector('.site-header');
+    return !!header && getComputedStyle(header).display === 'none';
+  });
+  const counts = await printedPages(page);
+  const ok = dir === 'rtl' && hidden && FORMATS.every((f) => counts[f] >= 1 && counts[f] <= maxPages);
+  if (!ok) failures.push({ slug: `${type}: ${label}`, dir, hidden, counts, maxPages });
+  record(type, ok);
+  console.log(`${type}: ${label.padEnd(36)} dir ${dir}  navigation hidden ${hidden ? 'yes' : 'NO'}  A4 ${counts.A4}  Letter ${counts.Letter}  limit ${maxPages}  ${ok ? 'ok' : 'FAIL'}`);
+  await page.close();
+}
 
 /**
  * CNT-007: the "What I have" checklist is one sheet, and the blank activity card is one two-sided sheet (two pages),
@@ -466,11 +523,14 @@ async function main() {
     }
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
     await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
+    await translatedPage(context, base, failures, record, 'translated guide', 'ar: after a dementia diagnosis', '/ar/caregiving/after-dementia-diagnosis/', TRANSLATED_GUIDE_PAGES);
+    await translatedPage(context, base, failures, record, 'translated hub', 'ar: activities', '/ar/activities/', TRANSLATED_HUB_PAGES);
     await careSheets(context, base, failures, record);
     await cnt7Templates(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }
+    await dailyCalendar(context, base, failures, record);
   } finally {
     await browser.close();
     server?.close();

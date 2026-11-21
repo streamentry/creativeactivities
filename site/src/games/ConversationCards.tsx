@@ -67,6 +67,13 @@ export default function ConversationCards(props: PlayProps) {
               />
               <span>{ui.conversationCards.bigPicture}</span>
             </label>
+            <details className="talk-group">
+              <summary>{ui.conversationCards.groupTitle}</summary>
+              <p>{ui.conversationCards.groupSit}</p>
+              <p>{ui.conversationCards.groupPass}</p>
+              <p>{ui.conversationCards.groupNoSpeech}</p>
+              <p>{ui.conversationCards.groupEnd}</p>
+            </details>
           </>
         }
         footer={

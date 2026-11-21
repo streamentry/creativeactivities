@@ -102,6 +102,7 @@ function sample(id: string, overrides: Record<string, unknown> = {}): CardInput 
       review: null,
       published: '2026-11-01',
       updated: '2026-11-02',
+      version: 1,
       ...overrides,
     },
   };

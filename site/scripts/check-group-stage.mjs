@@ -25,6 +25,14 @@ const DIST = fileURLToPath(new URL('../dist/', import.meta.url));
 const CONCURRENCY = 4;
 /** A tablet held sideways; the walk-through runs here. */
 const TABLET = { width: 1180, height: 820 };
+/** The walk-through also runs on a tablet held upright and sideways (WEB-046: portrait and landscape). */
+const TABLET_PORTRAIT = { width: 768, height: 1024 };
+const TABLET_LANDSCAPE = { width: 1024, height: 768 };
+const WALK_SIZES = [
+  { label: 'tablet 1180x820', viewport: TABLET },
+  { label: 'tablet portrait', viewport: TABLET_PORTRAIT },
+  { label: 'tablet landscape', viewport: TABLET_LANDSCAPE },
+];
 /** The reflow size (320 wide at 400% zoom), a small phone, a phone either way, tablets either way, a laptop and a large screen. */
 const SIZES = [
   { width: 320, height: 256 },
@@ -147,8 +155,8 @@ async function openViewByScript(page) {
 }
 
 /** Opens the view and checks the whole of it on one card at tablet size. Returns the problems found. */
-async function walkThrough(browser, base, slug) {
-  const { context, page, noted } = await openCard(browser, base, slug, TABLET);
+async function walkThrough(browser, base, slug, viewport = TABLET) {
+  const { context, page, noted } = await openCard(browser, base, slug, viewport);
   const problems = [];
   const expect = (ok, message) => {
     if (!ok) problems.push(message);
@@ -447,7 +455,12 @@ async function main() {
   let fitResults;
   let jobs;
   try {
-    walked = await pool(slugs, CONCURRENCY, async (slug) => ({ slug, problems: await walkThrough(browser, base, slug) }));
+    const walkJobs = slugs.flatMap((slug) => WALK_SIZES.map((size) => ({ slug, size })));
+    walked = await pool(walkJobs, CONCURRENCY, async ({ slug, size }) => ({
+      slug,
+      size: size.label,
+      problems: await walkThrough(browser, base, slug, size.viewport),
+    }));
     captions = await captionCheck(browser, base, slugs[0]);
     narrow = await pool(slugs, CONCURRENCY, async (slug) => ({ slug, problems: await narrowPage(browser, base, slug) }));
     sample = await demanding(browser, base, slugs);
@@ -458,19 +471,20 @@ async function main() {
     server?.close();
   }
 
-  for (const { slug, problems } of walked) {
-    console.log(`${slug.padEnd(42)} ${problems.length === 0 ? 'ok' : 'FAIL'}`);
+  for (const { slug, size, problems } of walked) {
+    console.log(`${slug.padEnd(42)} ${size.padEnd(18)} ${problems.length === 0 ? 'ok' : 'FAIL'}`);
     for (const p of problems) console.log(`  ${p}`);
   }
   for (const p of captions) console.log(`  FAIL caption check: ${p}`);
   for (const { slug, problems } of narrow) for (const p of problems) console.log(`  FAIL ${slug} at 320px: ${p}`);
   for (const p of fitResults.flat()) console.log(`  FAIL ${p}`);
   const walkFailed = walked.filter((w) => w.problems.length > 0).length;
+  const walkTotal = walked.length;
   const narrowFailed = narrow.filter((w) => w.problems.length > 0).length;
   const fitFailed = fitResults.filter((r) => r.length > 0).length;
   console.log(`Fit checked on ${sample.join(', ')} at ${SIZES.length} screen sizes, at normal text and (on screens at least ${TALL_ENOUGH_FOR_BIG_TEXT}px tall) 200% text.`);
   console.log(
-    `\nGroup view: ${slugs.length - walkFailed} of ${slugs.length} cards pass the walk-through; ${jobs.length - fitFailed} of ${jobs.length} fit checks pass; ` +
+    `\nGroup view: ${walkTotal - walkFailed} of ${walkTotal} walk-throughs pass (${slugs.length} cards at ${WALK_SIZES.length} tablet sizes); ${jobs.length - fitFailed} of ${jobs.length} fit checks pass; ` +
       `${slugs.length - narrowFailed} of ${slugs.length} card pages fit a 320px screen; picture captions ${captions.length === 0 ? 'are left out of the steps' : 'FAIL'}.`,
   );
   process.exit(walkFailed > 0 || fitFailed > 0 || narrowFailed > 0 || captions.length > 0 ? 1 : 0);

@@ -91,6 +91,7 @@ guides: [activities/reminiscence, together/conversation-games-for-all-ages]
 related: [make-a-memory-collage, look-through-a-photo-album, sketch-what-is-on-the-table, make-a-personal-songbook]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

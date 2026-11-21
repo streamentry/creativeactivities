@@ -92,6 +92,7 @@ guides: [creative-calm/music-for-calm-and-connection, crafts/easy-crafts-for-adu
 related: [tap-a-rhythm-together, make-a-paper-chain-garland, make-a-texture-board]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

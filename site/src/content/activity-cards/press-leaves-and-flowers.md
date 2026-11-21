@@ -95,6 +95,7 @@ guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, 
 related: [arrange-flowers-together, make-a-greeting-card, paint-with-watercolors, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

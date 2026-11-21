@@ -91,6 +91,7 @@ guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activitie
 related: [make-a-pine-cone-bird-feeder, sketch-what-is-on-the-table, draw-repeating-patterns]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

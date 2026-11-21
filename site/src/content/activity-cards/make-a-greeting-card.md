@@ -87,6 +87,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/seasonal-crafts, activities/ideas
 related: [make-a-memory-collage, press-leaves-and-flowers, make-a-button-picture]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

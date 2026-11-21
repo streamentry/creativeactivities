@@ -17,6 +17,8 @@ export interface PathActivityInfo {
   name: string;
   summary: string;
   typeLabel: string;
+  /** The time for this activity on its own day, such as "10–20 min", from its card. */
+  time: string;
 }
 
 export interface PathWeekInfo {
@@ -164,7 +166,7 @@ export function PathPlan({ pathId, weeks, allPathIds, address }: Props) {
                       {/* On paper the address sits on the name's line, so the page stays within two pages. */}
                       <span className="print-only path-week__address">{address}/activity/{a.id}/</span>
                     </p>
-                    <p className="muted path-activity__summary">{a.typeLabel}. {a.summary}</p>
+                    <p className="muted path-activity__summary">{a.typeLabel}. {PATH_TEXT.takes(a.time)} {a.summary}</p>
                   </li>
                 ))}
               </ul>

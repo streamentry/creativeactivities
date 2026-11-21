@@ -95,6 +95,7 @@ guides: [activities/reminiscence, together/conversation-games-for-all-ages, acti
 related: [make-a-memory-collage, make-a-personal-songbook, make-a-family-tree-of-hands, make-a-greeting-card]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

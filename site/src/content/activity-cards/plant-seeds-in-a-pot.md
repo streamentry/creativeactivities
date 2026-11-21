@@ -95,6 +95,7 @@ guides: [together/outdoor-and-garden-activities, activities/ideas]
 related: [decorate-a-plant-pot, arrange-flowers-together, paint-a-garden-stone, make-a-pine-cone-bird-feeder]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

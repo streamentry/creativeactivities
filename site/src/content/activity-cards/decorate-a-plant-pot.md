@@ -92,6 +92,7 @@ guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, 
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, arrange-flowers-together]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

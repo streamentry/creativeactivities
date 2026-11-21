@@ -70,6 +70,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/crafts-for-limited-dexterity]
 related: [make-a-friendship-bracelet, make-a-beaded-keyring, roll-paper-beads]
 published: 2026-11-19
 updated: 2026-11-19
+version: 1
 author: Creative Activities editorial team
 ---
 

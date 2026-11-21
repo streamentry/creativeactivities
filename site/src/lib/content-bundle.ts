@@ -22,6 +22,8 @@ export type ActivityStatus = 'listed' | 'withdrawn';
 /** The fields of an activity card the bundle reads. Dates may arrive as a Date or as YYYY-MM-DD text. */
 export interface CardData {
   name: string;
+  /** The card version (PLAT-007): bumped with each change to the steps, materials, safety, stop note or variations. */
+  version: number;
   summary: string;
   steps: readonly string[];
   plainSteps?: readonly string[];
@@ -69,6 +71,8 @@ export interface BundleActivity {
   id: string;
   status: ActivityStatus;
   title: string;
+  /** The card version (PLAT-007). A printed copy with an older version may not show a later change. */
+  version: number;
   summary: string;
   steps: string[];
   plainSteps?: string[];
@@ -153,6 +157,7 @@ function activityOf(card: CardInput, options: BundleOptions): BundleActivity {
     id: card.id,
     status: withdrawn ? 'withdrawn' : 'listed',
     title: d.name,
+    version: d.version,
     summary: d.summary,
     steps: [...d.steps],
     ...(d.plainSteps && d.plainSteps.length > 0 ? { plainSteps: [...d.plainSteps] } : {}),

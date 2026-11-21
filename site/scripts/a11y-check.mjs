@@ -28,6 +28,9 @@ const VARIANTS = [
   { label: '320 reflow', width: 320 },
   { label: '390', width: 390 },
   { label: '640 (200% zoom)', width: 640 },
+  // Tablets (WEB-046): portrait and landscape.
+  { label: 'tablet portrait', width: 768, height: 1024 },
+  { label: 'tablet landscape', width: 1024, height: 768 },
   { label: '1440', width: 1440 },
   { label: '1440 text 200%', width: 1440, textScale: '200%' },
   // The dark theme (WEB-042): the device prefers dark, so the page renders its dark tokens.
@@ -337,8 +340,8 @@ async function pool(items, limit, fn) {
 }
 
 /** One page at one width. Returns the printed line and the problems found. */
-async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, storage, open, width, textScale, colorScheme }) {
-  const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce', bypassCSP: true, colorScheme });
+async function checkPage(browser, base, { label, path, status = 200, dir: wantDir, feedback = false, game = false, ready, storage, open, width, height = 900, textScale, colorScheme }) {
+  const context = await browser.newContext({ viewport: { width, height }, reducedMotion: 'reduce', bypassCSP: true, colorScheme });
   // A page that behaves differently once the device holds something is checked in that state.
   if (storage) {
     await context.addInitScript((entries) => {
@@ -382,7 +385,7 @@ async function checkPage(browser, base, { label, path, status = 200, dir: wantDi
       if (!mailto) notes.push('no mailto feedback link on the accessibility statement');
     }
     if (game) notes.push(...(await restProblems(page)));
-    const head = `${label.padEnd(14)} ${String(width).padStart(4)}px${textScale ? ' text 200%' : ''}${colorScheme === 'dark' ? ' dark' : ''}`;
+    const head = `${label.padEnd(14)} ${String(width).padStart(4)}px${height === 900 ? '' : ` x ${height}px`}${textScale ? ' text 200%' : ''}${colorScheme === 'dark' ? ' dark' : ''}`;
     return { head, notes, axe: violations.length, stops: keys.count };
   } catch (error) {
     return { head: `${label.padEnd(14)} ${String(width).padStart(4)}px${colorScheme === 'dark' ? ' dark' : ''}`, notes: [`ERROR ${error.message.split('\n')[0]}`], axe: 0, stops: 0 };

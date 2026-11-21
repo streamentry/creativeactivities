@@ -110,7 +110,7 @@ Screen-cast or printed. The host sets the pace, not a timer.
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
 | GAME-011 | Picture bingo | Printable bingo cards; a big-screen caller for the room | Groups of 2 to 30; care homes; classrooms | Group | Yes | Yes (cards) | Caller labels per language | P0 | S2 | exists |
-| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option; no passing-circle rules text, not tried with a group |
+| GAME-050 | Picture passing circle | A picture passes round the circle; each person says a word or a sentence | Groups; care homes; classrooms | Group | Yes (cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option; group passing rules shown beside the options (2026-11-21: sit in a circle, say a word or pass without speaking, nobody wins); not tried with a group |
 | GAME-051 | Big-screen picture talk | Large pictures with prompts on a TV or tablet; manual advance; no autoplay | Groups; families in the same room | Group, with a screen | Yes (prompt cards) | Yes | Prompts per language | P1 | S2 | partial. Conversation cards with the Big picture option. Casting needs APP-008 approval |
 | GAME-052 | Group coloring wall | One large printed sheet colored by many hands in sections | Classrooms; care homes; families | Group | Yes | Yes | None | P2 | S2 | partial. English only, as "Group coloring wall" at `/games/coloring-wall/` (built by a subagent, reviewed by the PM agent): choose one of five Coloring outlines and 4, 6 or 9 pages; the print is a how-to page with a map of the labels and plain steps, then the picture enlarged across the pages, each with a corner label (A1, A2, B1...) and dashed join lines, joined with tape on the back; no scissors. Gaps: at 9 pages the corner pages of some pictures are mostly blank, so whoever takes them has little to color; not tried with a class, a care home or a family; English only |
 
@@ -144,7 +144,7 @@ Children are a later audience ([VISION](../../../VISION.md), Stage 3). Each game
 
 | ID | Game | Mechanic | Who it suits | Co-play | Print | Offline | Languages | Priority | Phase | Status |
 |---|---|---|---|---|---|---|---|---|---|---|
-| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | partial |
+| GAME-061 | Daily shared card | One picture puzzle each day, the same for everyone; archive kept; no missed-day penalty; spoiler-free result | Adults; families | Solo or family | Yes (print calendar) | Yes after first load | Card text per language | P1 | S2 | partial. 2026-11-21: Today's card in Picture pairs prints the current month as a one-page calendar, each day naming its pictures (checked by `check:print`); the app version and per-language text are open |
 
 ## Totals
 

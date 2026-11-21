@@ -92,6 +92,7 @@ guides: [crafts/seasonal-crafts, crafts/paper-crafts]
 related: [make-a-paper-chain-garland, make-a-greeting-card, wrap-a-small-gift]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

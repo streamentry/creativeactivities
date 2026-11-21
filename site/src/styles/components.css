@@ -188,9 +188,9 @@
   .site-nav {
     width: 100%;
   }
+  /* Wraps onto more rows rather than forcing four fixed columns: at 200% text four columns are wider than a 640 px
+     screen, and the last column ran past the edge (WEB-043). */
   .site-nav ul {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
     justify-content: space-between;
   }
   .site-nav a {

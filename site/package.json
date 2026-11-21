@@ -21,6 +21,7 @@
     "check:print": "node scripts/check-print.mjs",
     "check:visual": "node scripts/check-visual.mjs",
     "check:a11y": "node scripts/a11y-check.mjs",
+    "check:text-fit": "node scripts/check-text-fit.mjs",
     "check:browsers": "node scripts/check-browsers.mjs",
     "check:group": "node scripts/check-group-stage.mjs",
     "check:determinism": "node scripts/check-determinism.mjs",
@@ -38,6 +39,7 @@
     "content:bundle": "node scripts/content-bundle.mjs",
     "content:diff": "node scripts/content-diff.mjs",
     "audit:cards": "node scripts/card-audit.mjs",
+    "check:card-versions": "node scripts/check-card-versions.mjs",
     "content:validate": "node scripts/content-validate.mjs"
   },
   "dependencies": {
