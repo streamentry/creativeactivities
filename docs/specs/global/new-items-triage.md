@@ -4,7 +4,9 @@ Date: 2026-11-22. Scope: all 162 rows with status `new` in [id-index.tsv](id-ind
 
 Method: each item's full text was read from its `###` section, or from its table row where the item is a table row (the digest covered Why, What, Acceptance, Depends on and Risks). Each ID and feature was grepped in `site/`, `lib/`, `scripts/` and `tests/`, and the app's `pubspec.yaml` was checked for the packages a feature would need. Dependencies were read from the index. A `build` row names the test that proves it; device, reviewer, counsel and usability checks in a build row are listed as manual steps, not as blockers.
 
-Counts: build 14, decision 22, person 36, service 35, later 54, built 1 (total 162).
+Counts: build 13, decision 23, person 36, service 35, later 54, built 1 (total 162). Lead corrections on 2026-11-22: PLAT-034 moved from build to decision (privacy review first, per the decided table in COMPLETION.md); SEO-041 moved from decision to later (decided 2026-11-21).
+
+Tooling: 11 of the 13 build rows are in the Flutter app (APP-, GAME-016, GAME-017, GAME-027). They need the pinned Flutter SDK (`.fvmrc`: 3.47.7), which the machine used for this triage does not have, so they are buildable only where the SDK is installed and the widget tests can run. The two website rows (BIZ-018, COM-024) are buildable here.
 
 Findings:
 - COM-001 ("We tried this") is already built as the WEB-025 control (`site/src/components/ActivityFeedback.astro`, `site/src/lib/activity-feedback.ts`, event through `track()`). The index row is wrong; the lead should confirm the monthly-count rule before changing it.
@@ -28,7 +30,7 @@ Build plans (one line each, with the proving test):
 - GAME-016: tap-to-place puzzle; widget tests; English text only.
 - GAME-017: tap-to-group sorting with undo; widget tests.
 - GAME-027: visible-pulse game, no score; widget tests for no timer text.
-- PLAT-034: versioned service worker for cards, print pages and finder; Playwright offline test; CSP check.
+- PLAT-034 (now a decision, see table): versioned service worker for cards, print pages and finder; Playwright offline test; CSP check.
 
 ## Items
 
@@ -40,7 +42,7 @@ Build plans (one line each, with the proving test):
 | APP-005 | S2 | P1 | build | Port the website finder filters to Dart over bundled cards; shared fixture test; no network call in airplane-mode test. |
 | APP-020 | S2 | P1 | build | share_plus is already used; a pure builder shares title, description and canonical link as plain text. Unit-test the payload. |
 | APP-030 | S2 | P1 | build | Per-activity ticks in shared_preferences, cleared with data deletion; widget tests for the all-ticked message and no links. |
-| PLAT-034 | S2 | P1 | build | Versioned service worker caching viewed cards, print pages and the finder; Playwright offline test; CSP stays same-origin. |
+| PLAT-034 | S2 | P1 | decision | Maintainer allowed a reviewed service worker (2026-11-21) but it needs a privacy review first; see COMPLETION.md decisions. |
 | APP-022 | S2 | P2 | build | Bedside theme from gm tokens and a large-control variant; widget tests for target sizes and sound-off default. |
 | APP-023 | S2 | P2 | build | Haptics off by default and never the only feedback; widget test that no action depends on haptics. |
 | APP-028 | S2 | P2 | build | Keyboard shortcuts and focus order on picture games with widget tests. The one-switch device pass stays manual. |
@@ -66,7 +68,7 @@ Build plans (one line each, with the proving test):
 | BIZ-015 | S4 | P2 | decision | App purchases need the payments decision and Apple and Google purchase rules. |
 | APP-027 | S3 | P3 | decision | Child mode needs approval and counsel review under COPPA and the Children's Code first. |
 | APP-035 | S3 | P3 | decision | Any telemetry needs explicit maintainer approval; AGENTS forbids new telemetry without it. |
-| SEO-041 | S3 | P3 | decision | HomeView notes SEO-041 decision is pending; broad pages wait for a proven adaptation angle. |
+| SEO-041 | S3 | P3 | later | Decided 2026-11-21: keep the kids guides for parents (spec rewritten in batch 62); broad new pages wait for evidence. |
 | APP-015 | S4 | P3 | decision | Account sync is not approved and conflicts with the no-account contract; needs a product change and privacy review. |
 | PLAT-028 | S4 | P3 | decision | Optional accounts need a maintainer decision and legal review; gated to the day-90 roadmap. |
 | WEB-066 | S4 | P3 | decision | AI assistant: AGENTS bars AI processing in the product without an explicit maintainer decision. |
