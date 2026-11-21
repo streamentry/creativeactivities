@@ -3,8 +3,7 @@ import { MOTIFS, type ColorNumber, type GridSize } from '../../data/color-by-num
 import { picturesIn } from '../../data/pictures';
 import { RING_IDS, TALLY_BOXES, type RingId } from '../../data/seated-toss';
 import { DEFAULT_OCCASION, OCCASIONS, type Occasion } from '../../data/decorate-a-card';
-import { PACK_SEASONS, packPictures, seasonPack, type SeasonPack } from '../../data/seasonal-pack';
-import type { SeasonId } from '../seasons';
+import { DEFAULT_MONTH, PACK_MONTHS, monthPack, packPictures, type MonthId, type MonthPack } from '../../data/seasonal-pack';
 import { colorRoundFor } from './color-match';
 import { HALVES_PRINT_COUNT, createHalvesRound } from './halves-match';
 import { createOddRound } from './odd-one-out';
@@ -68,8 +67,8 @@ export type PrintSheet =
   | { layout: 'toss'; rings: readonly RingId[]; boxes: number }
   /** Decorate a card together (GAME-035): a card folded in half. One front for each occasion; only the chosen one prints. */
   | { layout: 'card'; occasions: readonly Occasion[]; defaultOccasion: Occasion }
-  /** Seasonal puzzle pack (GAME-040): three paper puzzles for each season; only the chosen season prints. */
-  | { layout: 'seasonal'; seasons: readonly SeasonPack[]; defaultSeason: SeasonId };
+  /** Seasonal puzzle pack (GAME-040): three paper puzzles for each month; only the chosen month prints. */
+  | { layout: 'seasonal'; months: readonly MonthPack[]; defaultMonth: MonthId };
 
 const ROWS = 4;
 
@@ -150,7 +149,7 @@ export function printSheet(slug: string): PrintSheet | null {
     case 'decorate-a-card':
       return { layout: 'card', occasions: OCCASIONS, defaultOccasion: DEFAULT_OCCASION };
     case 'seasonal-pack':
-      return { layout: 'seasonal', seasons: PACK_SEASONS.map((season) => seasonPack(season)), defaultSeason: 'spring' };
+      return { layout: 'seasonal', months: PACK_MONTHS.map((month) => monthPack(month)), defaultMonth: DEFAULT_MONTH };
     case 'story-chain':
       return { layout: 'chain', pictures: [...buildChain(rng).pictures] };
     case 'story-dice': {
@@ -192,7 +191,7 @@ export function sheetPictures(sheet: PrintSheet): string[] {
     case 'card':
       return [];
     case 'seasonal':
-      return sheet.seasons.flatMap(packPictures);
+      return sheet.months.flatMap(packPictures);
     case 'rows':
       return sheet.rows.flatMap((r) => (r.target ? [r.target, ...r.choices] : r.choices));
     case 'puzzle':

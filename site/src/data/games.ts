@@ -795,10 +795,10 @@ export const GAMES: readonly GameInfo[] = [
     slug: 'seasonal-pack',
     name: 'Seasonal puzzle pack',
     seoTitle: 'Seasonal Puzzle Pack: Printable Paper Puzzles',
-    h1: 'Seasonal Puzzle Pack: Three Paper Puzzles for Each Season',
+    h1: 'Seasonal Puzzle Pack: Three Paper Puzzles for Each Month',
     description:
-      'Three small printable puzzles for spring, summer, autumn or winter: match the pairs, circle the one that is different, and color a picture in. Choose a season, or take a rest day. Free to print.',
-    short: 'Three printable puzzles for the season you choose, or a rest day.',
+      'Three small printable puzzles for any month of the year: match the pairs, circle the one that is different, and color a picture in. The page opens on this month, or choose another, or take a rest day. Free to print.',
+    short: 'Three printable puzzles for the month you choose, or a rest day.',
     cardPictures: ['sunflower', 'sailboat', 'snowflake'],
     stages: ['early', 'middle', 'late'],
     players: 'All ages, solo or side by side',
@@ -806,10 +806,10 @@ export const GAMES: readonly GameInfo[] = [
     playModes: ['solo', 'together'],
     offline: true,
     intro:
-      'Choose a season, and the page shows three small paper puzzles drawn from that season\'s pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. You print one page, then do one, two or all three, at your own pace. Choose "Today is a rest day" instead and there is nothing to do.',
+      'Choose a month, and the page shows three small paper puzzles drawn from that month\'s pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. The page opens on the current month of your device. You print one page, then do one, two or all three, at your own pace. Choose "Today is a rest day" instead and there is nothing to do.',
     howTo: [
-      'Choose a season, or choose "Today is a rest day".',
-      'Look at the three puzzles, then tap "Print this season\'s pack".',
+      'Choose a month, or choose "Today is a rest day".',
+      'Look at the three puzzles, then tap "Print this month\'s pack".',
       'Do one, two or all three, at your own pace.',
       'Join the matching pictures with a line, circle the one that is different, and color the large picture in.',
       'Stop whenever you like. A rest day is a good day too.',

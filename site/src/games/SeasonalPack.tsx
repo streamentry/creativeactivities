@@ -1,18 +1,16 @@
 import { useEffect, useState } from 'react';
 import { pictureUrl } from '../data/pictures';
-import { PACK_SEASONS, seasonPack, type SeasonPack } from '../data/seasonal-pack';
+import { DEFAULT_MONTH, monthForDate, monthPack, PACK_MONTHS, type MonthId, type MonthPack } from '../data/seasonal-pack';
 import type { PlayProps } from '../i18n/play';
-import type { SeasonId } from '../lib/seasons';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
 
 /**
- * Seasonal puzzle pack (GAME-040): the person chooses a season, sees its three paper puzzles and prints one page.
- * A rest day replaces the puzzles with one calm line. The season is always chosen by the person, never taken
- * from the date or place. Nothing here times, scores, ranks or saves anything, and no answer is shown.
+ * Seasonal puzzle pack (GAME-040): the person chooses a month, sees its three paper puzzles and prints one page.
+ * The page starts on the current month of the person's device and can be changed. A rest day replaces the
+ * puzzles with one calm line. Nothing here times, scores, ranks or saves anything, and no answer is shown.
  */
-const DEFAULT_SEASON: SeasonId = 'spring';
 
 interface PictureProps {
   id: string;
@@ -27,17 +25,22 @@ function Picture({ id, label, size }: PictureProps) {
 export default function SeasonalPack(props: PlayProps) {
   const { ui, lang, pictureNames } = props;
   const text = ui.seasonalPack;
-  const [season, setSeason] = useState<SeasonId>(DEFAULT_SEASON);
+  // The server renders the default month; the device's month replaces it once the page loads.
+  const [month, setMonth] = useState<MonthId>(DEFAULT_MONTH);
   const [restDay, setRestDay] = useState(false);
-  const pack: SeasonPack = seasonPack(season);
+  const pack: MonthPack = monthPack(month);
   const name = (id: string) => pictureNames[id] ?? ui.tile.picture;
 
-  // The printed sheet holds one page for each season; only the chosen season prints (as in Decorate a card).
   useEffect(() => {
-    for (const el of document.querySelectorAll<HTMLElement>('[data-season-pack]')) {
-      el.hidden = el.dataset.seasonPack !== season;
+    setMonth(monthForDate(new Date()));
+  }, []);
+
+  // The printed sheet holds one page for each month; only the chosen month prints (as in Decorate a card).
+  useEffect(() => {
+    for (const el of document.querySelectorAll<HTMLElement>('[data-month-pack]')) {
+      el.hidden = el.dataset.monthPack !== String(month);
     }
-  }, [season]);
+  }, [month]);
 
   const puzzles = text.puzzles;
 
@@ -67,18 +70,16 @@ export default function SeasonalPack(props: PlayProps) {
     >
       <div className="seasonal">
         <fieldset className="seasonal__seasons">
-          <legend>{text.seasonLegend}</legend>
-          {PACK_SEASONS.map((s) => (
-            <label key={s} className="seasonal__choice">
-              <input type="radio" name="season" value={s} checked={season === s} onChange={() => setSeason(s)} />
-              <span>{text.seasons[s]}</span>
+          <legend>{text.monthLegend}</legend>
+          {PACK_MONTHS.map((m) => (
+            <label key={m} className="seasonal__choice">
+              <input type="radio" name="month" value={m} checked={month === m} onChange={() => setMonth(m)} />
+              <span>{text.months[m]}</span>
             </label>
           ))}
         </fieldset>
 
-        <p className="seasonal__when">
-          <strong>{text.whenLabel}:</strong> {pack.months}
-        </p>
+        <p className="seasonal__note">{text.monthNote}</p>
 
         <label className="seasonal__rest">
           <input type="checkbox" checked={restDay} onChange={(e) => setRestDay(e.target.checked)} />

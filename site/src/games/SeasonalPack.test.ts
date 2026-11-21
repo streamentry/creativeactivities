@@ -3,7 +3,7 @@ import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import { describe, expect, it } from 'vitest';
 import { playProps } from '../i18n/play';
-import { PACK_SEASONS } from '../data/seasonal-pack';
+import { DEFAULT_MONTH, PACK_MONTHS, monthPack } from '../data/seasonal-pack';
 import { printSheet, sheetPictures } from '../lib/games/print-sheet';
 import SeasonalPack from './SeasonalPack';
 
@@ -13,12 +13,12 @@ const t = props.ui.seasonalPack;
 const source = readFileSync(new URL('./SeasonalPack.tsx', import.meta.url), 'utf8');
 
 describe('SeasonalPack', () => {
-  it('offers the four seasons as native radio buttons in a fieldset', () => {
+  it('offers the twelve months as native radio buttons in a fieldset', () => {
     const html = render();
     expect(html).toContain('<fieldset');
-    expect((html.match(/type="radio"/g) ?? []).length).toBe(4);
-    for (const s of PACK_SEASONS) expect(html).toContain(t.seasons[s]);
-    expect(html).toContain(t.seasonLegend);
+    expect((html.match(/type="radio"/g) ?? []).length).toBe(12);
+    for (const m of PACK_MONTHS) expect(html).toContain(t.months[m]);
+    expect(html).toContain(t.monthLegend);
   });
 
   it('shows a visible rest-day choice', () => {
@@ -48,6 +48,11 @@ describe('SeasonalPack', () => {
     }
   });
 
+  it('starts on the default month and shows that month\'s pictures', () => {
+    const html = render();
+    for (const id of monthPack(DEFAULT_MONTH).pairsLeft) expect(html).toContain(`/pictures/${id}.svg`);
+  });
+
   it('never shows an answer, a score or right and wrong feedback', () => {
     const html = render();
     expect(html).not.toMatch(/\b(wrong|correct|score|timer|winner|streak|countdown)\b/i);
@@ -59,11 +64,11 @@ describe('SeasonalPack', () => {
     expect(t.guidance).toBe(props.ui.seasonalPack.guidance);
   });
 
-  it('prints one page with a fixed sheet for each season, and only the chosen season prints', () => {
+  it('prints one page with a fixed sheet for each month, and only the chosen month prints', () => {
     const sheet = printSheet('seasonal-pack');
     if (sheet?.layout !== 'seasonal') throw new Error('seasonal sheet');
-    expect(sheet.seasons.map((s) => s.season)).toEqual([...PACK_SEASONS]);
-    expect(sheet.defaultSeason).toBe('spring');
+    expect(sheet.months.map((p) => p.month)).toEqual([...PACK_MONTHS]);
+    expect(sheet.defaultMonth).toBe(DEFAULT_MONTH);
     expect(sheetPictures(sheet).length).toBeGreaterThan(0);
     expect(printSheet('seasonal-pack')).toEqual(sheet);
   });
