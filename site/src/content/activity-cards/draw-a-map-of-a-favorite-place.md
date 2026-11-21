@@ -26,10 +26,10 @@ senses: [sight, touch]
 steps:
   - "Sit side by side with the paper between you and the pens within reach."
   - "Ask whether there is a place they would like to draw, such as a street, a garden, a kitchen or a beach."
-  - "Make the first mark together, such as a line for a road or a shape for a house, since any mark will do."
-  - "Ask what comes next and draw it, or hand them the pen, since any answer is the right one."
+  - "Make the first mark together, such as a line for a road or a shape for a house. Any mark will do."
+  - "Ask what comes next, and draw it or hand them the pen. Any answer is the right one."
   - "Add one thing at a time, and let them talk or stay quiet as they choose."
-  - "Do not correct what they draw or say, or ask for dates or names."
+  - "Do not correct what they draw or say. Do not ask for dates or names."
   - "Stop when it feels finished, or when they have had enough, and agree where to put the map."
 plainSteps:
   - Sit side by side with the paper between you.
@@ -90,12 +90,8 @@ stopNote: "It is fine to stop after one line. Put the map somewhere safe and car
 guides: [activities/reminiscence, together/conversation-games-for-all-ages]
 related: [make-a-memory-collage, look-through-a-photo-album, sketch-what-is-on-the-table, make-a-personal-songbook]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

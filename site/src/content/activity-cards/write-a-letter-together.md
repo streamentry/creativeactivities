@@ -26,7 +26,7 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Sit side by side at a table with the paper, the pen and the envelope in reach."
-  - "Ask who the letter is for and what they would like to say, since any answer is the right one."
+  - "Ask who the letter is for and what they would like to say. Any answer is the right one."
   - "Write the greeting at the top, in the words the person chooses."
   - "Ask one open question, such as what has been on their mind this week, and write down the answer."
   - "Read the sentences back aloud and ask if they want to change anything."
@@ -92,8 +92,8 @@ stopNote: "It is fine to stop after one sentence. Put the letter aside, and fini
 guides: [activities/ideas, activities/reminiscence, together/staying-connected-from-afar, activities/pen-pals-for-older-adults]
 related: [make-a-greeting-card, make-a-photo-postcard, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -102,9 +102,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

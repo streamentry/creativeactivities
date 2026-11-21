@@ -28,7 +28,7 @@ steps:
   - "Count the buttons onto the tray before you start and note the number."
   - "Draw a simple outline on the card together, or choose a shape you like."
   - "Look through the buttons together and sort a few by color or size if they enjoy it."
-  - "Ask where the first button should go, since any place is the right one."
+  - "Ask where the first button should go. Any place is the right one."
   - "Add a dot of glue and press the button down together."
   - "Keep adding buttons, taking turns choosing and placing."
   - "Leave the picture flat to dry somewhere safe."
@@ -92,8 +92,8 @@ stopNote: "It is fine to stop after one or two buttons. Count the loose ones awa
 guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas]
 related: [tear-paper-mosaic, make-a-texture-board, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -102,9 +102,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

@@ -28,7 +28,7 @@ steps:
   - "Talk together about who the card is for, such as a grandchild, a neighbor or an old friend."
   - "Lay out four or five pictures and ask which one suits that person."
   - "Glue the chosen picture to the front of the folded card."
-  - "Open the card and ask what they would like to say, since a few words are plenty."
+  - "Open the card and ask what they would like to say. A few words are plenty."
   - "Write the message, or let them write it if they prefer."
   - "Ask whether they would like to sign it, add a mark, or have you sign for both of you."
   - "Put the card in the envelope and agree together when to send or deliver it."
@@ -86,8 +86,8 @@ stopNote: "It is fine to stop with just a picture on the front. Keep the card in
 guides: [crafts/easy-crafts-for-adults, crafts/seasonal-crafts, activities/ideas, activities/pen-pals-for-older-adults]
 related: [make-a-memory-collage, press-leaves-and-flowers, make-a-button-picture]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -96,9 +96,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

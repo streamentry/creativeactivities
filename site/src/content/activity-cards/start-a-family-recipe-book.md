@@ -29,7 +29,7 @@ steps:
   - "Sit together at a table with the notebook open to a blank page."
   - "Ask about a dish they liked to make or eat, such as a Sunday meal or a holiday treat."
   - "Write the name of the dish at the top of the page."
-  - "Ask what went into it and write the ingredients as a simple list, since rough amounts are fine."
+  - "Ask what went into it and write the ingredients as a simple list. Rough amounts are fine."
   - "Ask how it was made and write the steps in their own words."
   - "Invite a story, such as who made it, where it was eaten, or what it smelled like."
   - "Read the page back aloud and change anything they want changed."
@@ -94,8 +94,8 @@ stopNote: "It is fine to stop after a single dish name. Close the book, leave it
 guides: [activities/reminiscence, together/conversation-games-for-all-ages, activities/ideas]
 related: [make-a-memory-collage, make-a-personal-songbook, make-a-family-tree-of-hands, make-a-greeting-card]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -104,9 +104,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

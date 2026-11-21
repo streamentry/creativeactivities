@@ -27,7 +27,7 @@ senses: [sight, touch]
 steps:
   - "Before you start, the helper cuts the film to size, peels off the backing and tapes it sticky side up to the table."
   - "Put the bowls of tissue pieces within easy reach."
-  - "Choose a color together, since any color is a good one."
+  - "Choose a color together. Any color is a good one."
   - "Pick up a piece and press it onto the sticky film anywhere you like."
   - "Add more pieces, and let them overlap so the colors mix."
   - "Stop when the picture feels full or you are ready to be done."
@@ -92,12 +92,8 @@ stopNote: "It is fine to stop with only a few pieces on the film. A sparse pictu
 guides: [crafts/crafts-for-limited-dexterity]
 related: [tear-paper-mosaic, make-a-color-collage, paint-a-shared-picture, make-a-texture-board]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

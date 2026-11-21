@@ -26,12 +26,12 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Set out the leaves, paper and crayons on a tray or at the table."
-  - "Choose a leaf together and look at it, since any leaf is a good one."
+  - "Choose a leaf together and look at it. Any leaf is a good leaf."
   - "Lay the leaf vein-side up on the tray."
   - "Cover the leaf with a sheet of paper and tape the paper corners to the tray so it stays still."
   - "Peel the wrapper off a crayon and hold it flat, on its side."
   - "Rub gently over the leaf in one direction until the veins and edge come up."
-  - "Lift the paper to look, then try a second leaf or the same leaf in another color."
+  - "Lift the paper to look. Try a second leaf, or the same leaf in another color."
   - "Lay the finished rubbings side by side to look at together."
 plainSteps:
   - "Set out the leaves, paper and crayons."
@@ -90,12 +90,8 @@ stopNote: "It is fine to stop after one leaf. Leave the rubbing on the table to 
 guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activities-for-adults, crafts/easy-crafts-for-adults]
 related: [print-with-leaves, press-leaves-and-flowers, sketch-what-is-on-the-table]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

@@ -29,9 +29,9 @@ steps:
   - "Spread the towel on the table and lay the stems out side by side."
   - "Fill the jar about halfway with water together."
   - "Look at the stems together and ask which one they would like to start with."
-  - "Trim the end of that stem to fit the jar, with the helper doing the cutting."
+  - "Trim the end of that stem so it fits the jar. The helper can do the cutting."
   - "Place the first stem in the jar, or hand it over so they can place it."
-  - "Take turns choosing and adding stems, knowing there is no right shape."
+  - "Take turns choosing and adding stems. There is no right shape."
   - "Turn the jar around and look at it from each side together."
   - "Agree on where the flowers should go, such as a windowsill or the table."
 plainSteps:
@@ -90,17 +90,14 @@ stopNote: "It is fine to stop after one or two stems. A single flower in a jar i
 guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activities-for-adults, activities/late-stage, activities/group-art-activities]
 related: [press-leaves-and-flowers, plant-seeds-in-a-pot, decorate-a-plant-pot]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
     note: "Added labelled safety flags above the steps for sharp tools, water, skin contact, mouthing or swallowing."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

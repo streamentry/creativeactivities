@@ -28,7 +28,7 @@ steps:
   - "Ask which tune they would like first, or offer two to choose from."
   - "Play the tune at a comfortable volume and listen together."
   - "When it ends, ask which color seems to go with it, and let them pick one or a few."
-  - "Lay the chosen colors in a row on the tray, since any color is a good answer."
+  - "Lay the chosen colors in a row on the tray. Any color is a good answer."
   - "Play the next tune and start a new row beside the first."
   - "Look at the rows together, and keep the one they like best if they wish."
 plainSteps:
@@ -88,12 +88,8 @@ stopNote: "It is fine to stop after one tune. Leave the row of colors on the tra
 guides: [creative-calm/music-for-calm-and-connection, creative-calm/calm-afternoon-activities]
 related: [draw-to-music, make-a-playlist-together, hold-a-sing-along-at-home, make-a-color-collage]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

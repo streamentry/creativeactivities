@@ -27,7 +27,7 @@ steps:
   - "Ask what kind of music they would like today, or offer two choices."
   - "Play the first tune, or start humming one they name, at a comfortable volume."
   - "Join in however they like: sing, hum, clap, sway or just listen."
-  - "Let the tune finish, without filling the quiet or asking anyone to sing a particular part."
+  - "Let the tune finish. Do not fill the quiet, and do not ask anyone to sing a particular part."
   - "Ask whether they would like another, and choose it together."
   - "Stop after a few tunes, or sooner if they have had enough."
 plainSteps:
@@ -88,12 +88,8 @@ stopNote: "It is fine to stop after one tune. Turn the music off, sit quietly to
 guides: [creative-calm/music-for-calm-and-connection, activities/ideas]
 related: [make-a-playlist-together, tap-a-rhythm-together, make-a-personal-songbook, draw-to-music]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

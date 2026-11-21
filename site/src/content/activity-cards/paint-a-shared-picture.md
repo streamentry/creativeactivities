@@ -28,7 +28,7 @@ senses: [sight, touch, movement]
 steps:
   - "Cover the table with a plastic cloth, then tape the large paper flat over it at all four corners."
   - "Set out the paints, brushes and water cups so everyone can reach them."
-  - "Ask each person what they would like to begin with, such as a sky, shape, line or color, since any choice is fine."
+  - "Ask each person what to begin with, such as a sky, a shape, a line or a color. Any choice is fine."
   - "Let everyone make a first mark anywhere on the paper."
   - "Take turns adding one mark or shape at a time, and pause to look at the whole picture between turns."
   - "Rinse the brush in the water cup before changing color."

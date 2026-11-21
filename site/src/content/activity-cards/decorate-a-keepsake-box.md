@@ -26,9 +26,9 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Set the box on the table with the lid off, and lay out the paper, the glue and the small items."
-  - "Choose the paper or fabric together, since any choice is fine."
+  - "Choose the paper or fabric together. Any choice is fine."
   - "Lay the paper on one side of the box, and ask the helper to trim it to a little larger than that side."
-  - "Glue the paper's back and press it onto the box, fold the extra over the edges, and smooth it flat with the hand."
+  - "Glue the back of the paper, press it onto the box, then fold the extra over the edges and smooth it flat."
   - "Turn the box and repeat on each side, then cover the lid the same way."
   - "Set the box aside for a few minutes so the glue holds."
   - "Look through the small items together and choose a few to keep inside."

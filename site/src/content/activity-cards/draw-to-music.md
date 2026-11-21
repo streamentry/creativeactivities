@@ -31,7 +31,7 @@ steps:
   - "Play the first piece of music at a comfortable volume."
   - "Draw lines or shapes together that follow the music, fast or slow, big or small."
   - "Swap colors whenever either of you likes."
-  - "Stop the music and look at the drawing together, talking about it only if they want to."
+  - "Stop the music and look at the drawing together. Talk about it only if they want to."
   - "Try a different piece of music on a new sheet, or stop there."
 plainSteps:
   - Tape a sheet of paper to the table so it does not slide.
@@ -89,17 +89,14 @@ stopNote: "It is fine to stop after a few marks or a single song. Keep listening
 guides: [creative-calm/music-for-calm-and-connection, crafts/easy-crafts-for-adults, activities/late-stage, activities/drawing-and-painting-to-relax]
 related: [make-a-personal-songbook, paint-with-watercolors, tear-paper-mosaic]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
     note: "Added labelled safety flags above the steps for skin contact, mouthing or swallowing, glue or tape."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

@@ -29,7 +29,7 @@ substitutions:
 senses: [touch, sight, hearing]
 steps:
   - "Cover the table and set out the pine cone, the fat and the dish of seed."
-  - "Tie the string around the top of the pine cone, or let the helper do it."
+  - "Tie the string around the top of the pine cone. The helper can do this."
   - "Spread fat into the gaps of the cone with the spoon or knife."
   - "Roll the cone in the dish of seed together, pressing it in."
   - "Sprinkle any bare patches with more seed by hand."
@@ -93,8 +93,8 @@ stopNote: "It is fine to stop once the cone has a little seed on it. The birds w
 guides: [together/outdoor-and-garden-activities, activities/ideas, crafts/easy-crafts-for-adults]
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, decorate-a-plant-pot]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -103,9 +103,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

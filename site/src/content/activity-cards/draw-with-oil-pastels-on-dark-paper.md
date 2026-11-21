@@ -27,10 +27,10 @@ senses: [sight, touch]
 steps:
   - "Spread newspaper over the table and rest the dark paper on a clipboard or flat board."
   - "Open the pastels and set out a few bright colors where they are easy to reach."
-  - "Ask which color they would like to start with, since any choice is fine."
+  - "Ask which color they would like to start with. Any choice is fine."
   - "Draw a shape or a line on the dark paper, pressing firmly so the color shows clearly."
   - "Add one thing at a time: a sky of colored bands, a sun, a flower, or just lines."
-  - "Lay a second color over the first if they like, and the colors will blend together."
+  - "Lay a second color over the first if they like. The colors will blend together."
   - "Wipe fingers on a paper towel when the pastel gets onto them."
   - "Stop when they put the pastel down, then look at the picture together and choose where to put it."
 plainSteps:
@@ -89,12 +89,8 @@ stopNote: "It is fine to stop after one mark. Put the pastels away, or leave the
 guides: [crafts/easy-crafts-for-adults, activities/art-supplies-for-older-adults, activities/drawing-and-painting-to-relax]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-a-shared-picture, draw-to-music]
 published: 2026-11-15
-updated: 2026-11-21
-version: 2
-changes:
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
+updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

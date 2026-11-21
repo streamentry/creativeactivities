@@ -26,7 +26,7 @@ substitutions:
 senses: [sight, touch, smell]
 steps:
   - "Cover the table with newspaper or a plastic cloth, and set out the paper, paint and brush."
-  - "Choose a leaf together and look at its veins, since any leaf is a good one."
+  - "Choose a leaf together and look at its veins. Any leaf is a good leaf."
   - "Lay the leaf vein-side up on the newspaper."
   - "Paint a thin, even layer over the veins with the brush."
   - "Turn the leaf over and press it paint-side down onto the paper, then press gently all over with a paper towel."
@@ -91,8 +91,8 @@ stopNote: "It is fine to stop after one leaf. Leave the print flat to dry and ca
 guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activities-for-adults, crafts/easy-crafts-for-adults]
 related: [press-leaves-and-flowers, paint-a-garden-stone, plant-seeds-in-a-pot]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -101,9 +101,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

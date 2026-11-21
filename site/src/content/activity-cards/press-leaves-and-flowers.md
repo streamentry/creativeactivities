@@ -27,7 +27,7 @@ senses: [sight, touch, movement]
 steps:
   - "Walk outside together or bring a few leaves and flowers to the table."
   - "Lay them out and look at the shapes and colors together."
-  - "Ask which ones they would like to keep, since flat, dry pieces press best."
+  - "Ask which ones they would like to keep. Flat, dry pieces press best."
   - "Open the book near the middle and lay a sheet of paper on the page."
   - "Place the leaves and flowers on the paper with a little space between them."
   - "Lay a second sheet of paper on top."
@@ -94,17 +94,14 @@ stopNote: "It is fine to stop after one leaf. Close the book on whatever is in i
 guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, activities/ideas]
 related: [arrange-flowers-together, make-a-greeting-card, paint-with-watercolors, make-a-memory-collage]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
     note: "Added labelled safety flags above the steps for allergens, mouthing or swallowing, skin contact, small parts, falls."
   - date: 2026-11-15
     note: "Added a drawing of the finished result and a drawing of the materials."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 

@@ -25,7 +25,7 @@ substitutions:
 senses: [sight, touch]
 steps:
   - "Clear a table, then lay out the card, the glue stick and a pile of magazines."
-  - "Choose one color together, such as blue, yellow or green, since any choice is fine."
+  - "Choose one color together, such as blue, yellow or green. Any choice is fine."
   - "Turn the pages and find pictures or patches in that color, then tear out the ones you like."
   - "Tear each piece into a rough shape, since torn edges look softer than cut ones."
   - "Glue the back of one piece and press it onto the card."
@@ -89,8 +89,8 @@ stopNote: "It is fine to stop after a handful of pieces. Leave the card on the t
 guides: [crafts/easy-crafts-for-adults, creative-calm/sensory-activities-for-adults, activities/ideas]
 related: [make-a-memory-collage, tear-paper-mosaic, weave-paper-strips]
 published: 2026-11-13
-updated: 2026-11-21
-version: 2
+updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
@@ -99,9 +99,6 @@ changes:
     note: "Added a drawing of the finished result and a drawing of the materials."
   - date: 2026-11-15
     note: "Added an easier-to-grip version."
-  - date: 2026-11-21
-    safety: false
-    note: "Shorter steps; nothing about the activity changed."
 author: Creative Activities editorial team
 ---
 
