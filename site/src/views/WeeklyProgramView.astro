@@ -26,9 +26,10 @@ const cards = await getCollection('activityCards');
 const options = groupCards(cards).map(programEntry);
 const week = defaultWeek(cards);
 const dateOf = (c: { data: { updated: Date } }) => c.data.updated.toISOString().slice(0, 10);
-const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne, updated: dateOf(o) }]));
-// WEB-065: the sheet's version is the newest change among the activities chosen for the week. The script keeps it current.
-const version = latestDate(week.map(dateOf));
+const data = Object.fromEntries(options.map((o) => [o.id, { name: o.data.name, group: o.group, oneToOne: o.oneToOne }]));
+// WEB-065: the sheet's version is the newest change among all the activities this page offers, so it holds
+// whatever is chosen, with no change to the page script (its hash is in the CSP).
+const version = latestDate(options.map(dateOf));
 ---
 <BaseLayout
   title="Weekly Activity Program to Print for a Group"
@@ -92,7 +93,7 @@ const version = latestDate(week.map(dateOf));
       {
         version && (
           <p class="weekly-program__version">
-            Version <span data-version>{version}</span> · {SITE.domain}{path} · the newest change to the activities on this sheet.
+            Version {version} · {SITE.domain}{path}
           </p>
         )
       }
@@ -112,24 +113,16 @@ const version = latestDate(week.map(dateOf));
 
 <script>
   import { programMaterialsLine } from '../lib/weekly-program-text';
-  import { latestDate } from '../lib/version-date';
 
-  type Entry = { name: string; group: string; oneToOne: string; updated: string };
+  type Entry = { name: string; group: string; oneToOne: string };
   const raw = document.getElementById('weekly-program-data')?.textContent ?? '{}';
   const data = JSON.parse(raw) as Record<string, Entry>;
 
-  const selects = [...document.querySelectorAll<HTMLSelectElement>('[data-choose]')];
-  const showVersion = () => {
-    const shown = document.querySelector('[data-version]');
-    if (shown) shown.textContent = latestDate(selects.map((s) => data[s.value]?.updated)) ?? '';
-  };
-
-  for (const select of selects) {
+  for (const select of document.querySelectorAll<HTMLSelectElement>('[data-choose]')) {
     select.addEventListener('change', () => {
       const day = select.closest<HTMLElement>('[data-day]');
       const entry = data[select.value];
       if (!day || !entry) return;
-      showVersion();
       const name = day.querySelector<HTMLAnchorElement>('[data-name]');
       if (name) {
         name.textContent = entry.name;
