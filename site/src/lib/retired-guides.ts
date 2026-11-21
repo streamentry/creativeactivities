@@ -1,3 +1,6 @@
+// The .ts extension lets scripts/gen-redirects.ts run under plain Node, which does not resolve bare imports.
+import { cardRedirectLines } from '../data/card-ids.ts';
+
 /**
  * Guides retired on 2026-11-15 (maintainer decision): the site moves from a
  * dementia-first library to creative activities for anyone caring for someone
@@ -142,13 +145,16 @@ export function redirectLines(): string[] {
     ...Object.entries(RETIRED_SECTIONS).map(([section, to]) => [`/${section}`, to] as const),
     ...Object.entries(RETIRED_GUIDES).map(([id, to]) => [`/${id}`, to] as const),
   ];
-  return pairs.flatMap(([from, to]) => [`${from} ${to} 301`, `${from}/ ${to} 301`]);
+  return [
+    ...pairs.flatMap(([from, to]) => [`${from} ${to} 301`, `${from}/ ${to} 301`]),
+    ...cardRedirectLines(),
+  ];
 }
 
 export function redirectsFile(): string {
   return [
-    '# Generated from site/src/lib/retired-guides.ts and english-guide-redirects.ts. Do not edit by hand:',
-    '# run `pnpm gen:redirects` after changing them.',
+    '# Generated from site/src/lib/retired-guides.ts, english-guide-redirects.ts and site/src/data/card-ids.ts. Do not edit by hand:',
+    '# run `pnpm gen:redirects` after changing any of them.',
     ...redirectLines(),
     ...englishGuideRedirectLines(),
     '',
