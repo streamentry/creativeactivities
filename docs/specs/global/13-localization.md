@@ -25,6 +25,8 @@ This file sets the rules for taking creative activities into other languages and
 ### L10N-001 · Current-state inventory and count reconciliation
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): `python3 scripts/l10n_inventory.py --write` regenerates [language-inventory.md](language-inventory.md): per language, app, website, game and play keys against English, translated guides, store listing, review status and placeholder strings (103 on this date, from the re-translation in #112). The website has no reviewed-language list yet, so every site review cell reads "none recorded". Which count is the count of record is a maintainer call.
+
 Why: Three sources give different counts for the same translations. Planning on the wrong count makes the review budget wrong [README baseline; plan README; native review].
 
 What: Build one dated table from the release status file and the site's i18n files: per language, per surface (app, store, website UI, games, guides, activity cards), and the review state of each.
@@ -275,6 +277,8 @@ Risks / not doing: Do not use a term that labels the older person as a patient, 
 ### L10N-016 · Right-to-left layout
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): the website's direction-dependent CSS now uses logical properties (14 declarations converted), and `css-logical.test.ts` fails on any new physical left or right outside a one-entry allowlist (a centered decoration). The app (`lib/`) is not changed here: no Flutter SDK on this machine. Arabic at 200% still needs a person.
+
 Why: Arabic is eleventh in the launch order and needs a full layout check. Hebrew is not in the launch list [native review; language markets §3].
 
 What: Mirror layout with `Directionality`. Replace directional `EdgeInsets` and alignment with their start and end variants. Use a taller line height for Arabic and never letter-space it. Arrow direction in link labels follows the reading direction.
@@ -289,6 +293,8 @@ Risks / not doing: Do not run Arabic before the Arabic reviewer is signed. RTL i
 
 ### L10N-017 · Scripts and font coverage
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): user-visible upper and lower casing on the website now passes the page language (`toLocaleUpperCase(lang)`), so Turkish "i" becomes "İ" (regression test). Font coverage and the Noto fallback are not done.
 
 Why: Fonts do not cover every launched script, and the fallback is silent. The app's headline font is a Latin subset [language markets §3].
 

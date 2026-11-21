@@ -165,8 +165,8 @@ Targets are **new canonical cards or printables** (not variations). Variations o
 
 | CNT | R5 rank | Cluster (example query) | Existing coverage (checked against the repo) | Priority | Phase | S1 target (new) | Target by end of S3 | Review needed |
 |---|---|---|---|---|---|---|---|---|
-| CNT-901 | 1 | Seated and bedside activities for seniors | Hub `bedside-activities`; printed pack; cards need seated and bedside tags audited | P0 | S2 | 2 | 8 | OT, nurse |
-| CNT-902 | 2 | Easy crafts for seniors with arthritis or limited dexterity | No dedicated hub. Adaptation schema has `large_grip` and `pre_cut_shapes`; coverage of these across cards to audit | P1 | S2 | 2 | 6 | OT |
+| CNT-901 | 1 | Seated and bedside activities for seniors | Hub `bedside-activities`; printed pack; cards need seated and bedside tags audited. Audited 2026-11-21 ([card-audit.md](card-audit.md), `pnpm audit:cards`): every card is seated; 24 are neither bedside nor have a bedside variation; 33 have no seated variation | P0 | S2 | 2 | 8 | OT, nurse |
+| CNT-902 | 2 | Easy crafts for seniors with arthritis or limited dexterity | No dedicated hub. Adaptation schema has `large_grip` and `pre_cut_shapes`; coverage of these across cards to audit. 2026-11-21: three cards gained a large-grip variation; nine still lack one because they already have six variations, the schema's maximum (a maintainer decision) | P1 | S2 | 2 | 6 | OT |
 | CNT-903 | 3 | Reminiscence activities (non-clinical) | Guides `reminiscence`, `reminiscence-questions`; cards `make-a-memory-collage`, `make-a-photo-postcard`, `look-through-a-photo-album`, `make-a-personal-songbook` | P0 | S2 | 0 | 6 | Dementia specialist |
 | CNT-904 | 4 | Printable activities for older adults | Guide `printable`; two printed packs; printable finder option | P1 | S2 | 0 | 4 packs | Coordinator |
 | CNT-905 | 5 | Grandparent and grandchild activities | Hub `grandparent-grandchild-activities`; cards `make-a-family-tree-of-hands`, `write-a-letter-together`, `tap-a-rhythm-together` | P1 | S2 | 1 | 4 | Shared with GROW |
