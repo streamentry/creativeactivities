@@ -493,6 +493,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
 | `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |
 
+### Batch 58 (2026-11-21): long text and right to left, card versions, group rules, daily calendar, path links and tablets
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| `check:text-fit` (in CI) and four layout fixes: long words, hidden text at the edge, the navigation at 640 px and 200%, tilted sheets; Arabic guide and hub in the print check | WEB-043, PLAT-039 partial | Built by a Haiku subagent; 60 of 60 page variants pass in about 11 s. `overflow-wrap: anywhere` on the body also changes how narrow table columns size; the accessibility and print checks pass with it |
+| Card `version` and `pnpm check:card-versions` | PLAT-007 partial | Built by a Haiku subagent; review added the short steps and the safety flags to the fields that need a bump. Not in CI (it needs the base branch in the checkout) |
+| Group passing rules on Conversation cards; a one-page month calendar for Today's card | GAME-050, GAME-061 partial | Built by a Haiku subagent; no score, timer or winner wording (tested) |
+| Paths linked from hubs and Today, with each row's time; tablet portrait and landscape in the group and accessibility checks | CNT-006, WEB-046 partial | Built by a Haiku subagent; 168 of 168 group walk-throughs and 302 accessibility pages pass |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
