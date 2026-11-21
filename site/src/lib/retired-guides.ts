@@ -9,6 +9,8 @@
  * English page is replaced by a redirect. See docs/specs/global/retired-guides.md.
  */
 
+import { englishGuideRedirectLines } from './english-guide-redirects.ts';
+
 const AFTER_DIAGNOSIS = '/caregiving/after-dementia-diagnosis/';
 const DEMENTIA_HUB = '/dementia-activities/';
 const DEMENTIA_IDEAS = '/activities/ideas/';
@@ -145,9 +147,10 @@ export function redirectLines(): string[] {
 
 export function redirectsFile(): string {
   return [
-    '# Generated from site/src/lib/retired-guides.ts. Do not edit by hand:',
-    '# run `pnpm gen:redirects` after changing that file.',
+    '# Generated from site/src/lib/retired-guides.ts and english-guide-redirects.ts. Do not edit by hand:',
+    '# run `pnpm gen:redirects` after changing them.',
     ...redirectLines(),
+    ...englishGuideRedirectLines(),
     '',
   ].join('\n');
 }

@@ -2,6 +2,7 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
+import { englishGuideLanguages } from './english-guides';
 import { isRetiredGuide } from './retired-guides';
 
 /**
@@ -14,14 +15,6 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const SITE = resolve(HERE, '..', '..');
 const GUIDES = join(SITE, 'src', 'content', 'guides');
 const TRANSLATED = join(SITE, 'src', 'content', 'guides-i18n');
-
-export function englishGuideLanguages(text: string): string[] {
-  return text
-    .split('\n')
-    .filter((line) => !line.trimStart().startsWith('#'))
-    .flatMap((line) => line.split(/\s+/))
-    .filter(Boolean);
-}
 
 const LANGS = englishGuideLanguages(readFileSync(join(SITE, 'src', 'i18n', 'english-guides.txt'), 'utf8'));
 
