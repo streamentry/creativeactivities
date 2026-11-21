@@ -9,7 +9,7 @@ import { isRetiredGuide } from './retired-guides';
 /**
  * Languages in src/i18n/english-guides.txt show the English guide: machine translation of long
  * guides is not trustworthy there (maintainer decision, 2026-11-21). Their translations of live
- * guides must not exist; translations of retired guides may stay until every language's are retired.
+ * guides must not exist.
  */
 
 const HERE = dirname(fileURLToPath(import.meta.url));

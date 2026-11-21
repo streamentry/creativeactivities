@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Magkapares na larawan",
-    "seoTitle": "Larong Pagtutugma sa Dementia: Magkapares na Larawan",
+    "seoTitle": "Larong Pagtutugma para sa Matatanda: Mga Magkapares na Larawan",
     "h1": "Magkapares na Larawan: Banayad na Larong Pagtutugma",
-    "description": "Libre at banayad na larong pagtutugma para sa taong may dementia. Nakikita ang malalaking larawan, walang timer o puntos, at pipili kayo ng 4 hanggang 12 tile.",
+    "description": "Isang libre at banayad na larong pagtutugma para sa mga nasa hustong gulang at nakatatanda, kabilang ang mga taong may dementia. Puwedeng manatiling nakikita ang mga larawan. Walang orasan at walang iskor.",
     "short": "Hanapin ang dalawang larawang magkapareho. Puwedeng manatiling nakikita ang mga larawan.",
     "players": "1 o 2 tao, magkatabi",
     "intro": "I-tap ang isang larawan, pagkatapos ay ang katugma nito. Nananatiling nakikita ang mga larawan bilang default, kaya walang kailangang tandaan. Kapag magkatugma ang dalawang larawan, nagkakaroon ang mga ito ng gintong gilid at tsek.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Hanapin ang magkapareho",
-    "seoTitle": "Hanapin ang Kaparehong Larawan: Simpleng Laro sa Dementia",
+    "seoTitle": "Hanapin ang Parehong Larawan: Simpleng Larong Larawan",
     "h1": "Hanapin ang Kaparehong Larawan",
-    "description": "Isang larawan sa itaas, dalawa hanggang apat sa ibaba. I-tap ang kapareho. Payapa at libreng laro ng larawan para sa taong may dementia, walang timer.",
+    "description": "Isang larawan sa itaas, at dalawa hanggang apat sa ibaba. Pindutin ang isa na pareho. Isang tahimik at libreng larong larawan para sa mga nasa hustong gulang, nakatatanda at pamilya, walang orasan.",
     "short": "Tingnan ang larawan sa itaas at i-tap ang kapareho nito sa ibaba.",
     "players": "1 o 2 tao",
     "intro": "Isang larawan ang nasa itaas ng screen. Sa ibaba nito ay dalawa, tatlo o apat na larawan. I-tap ang kapareho. Isang simpleng pagpili sa bawat pagkakataon, na may maraming espasyo para mag-usap.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Pagtutugma ng anino",
-    "seoTitle": "Larong Pagtutugma ng Anino sa Dementia: Libre Online",
+    "seoTitle": "Larong Pagtutugma ng Anino: Libre Online para sa Matatanda",
     "h1": "Pagtutugma ng Anino: Banayad na Laro ng Larawan",
-    "description": "Madilim na anino sa itaas, dalawa hanggang apat na larawan sa ibaba. I-tap ang gumagawa ng anino. Libre at payapang laro para sa dementia, walang timer.",
+    "description": "Isang madilim na anino sa itaas, at dalawa hanggang apat na larawan sa ibaba. Pindutin ang larawang gumagawa ng anino. Isang libre at tahimik na larong pagtutugma ng anino, walang orasan.",
     "short": "Tingnan ang anino at i-tap ang larawang gumagawa nito.",
     "players": "1 o 2 tao",
     "intro": "Pamilyar na aktibidad ang pagtutugma ng anino mula sa mga naka-print na worksheet, narito na may malalaking larawan at walang ipi-print. Isang malambot na anino ang nasa itaas ng screen at dalawa, tatlo o apat na larawan ang naghihintay sa ibaba. I-tap ang gumagawa ng anino. Madaling pag-usapan ang mga hugis tulad ng bisikleta, payong o tasa.",
@@ -100,8 +100,8 @@
         "a": "Wala. Walang orasan, puntos, bilang ng galaw o pagkatalo. Maaari kayong huminto anumang oras, at ang paghinto sa kalagitnaan ay isang magandang paraan ng pagtatapos."
       },
       {
-        "q": "Mabuti ba ang pagtutugma ng anino para sa mga taong may dementia?",
-        "a": "Maaari itong maging masaya at simpleng aktibidad para sa ilang tao, lalo na sa mga naunang yugto. Mas madaling makilala ang mga hugis kaysa sa mga salita. Para ito sa kasiyahan at usapan, hindi pagsusulit, at hindi nito ginagamot o pinapabagal ang dementia. Kung nagdudulot ito ng inis, subukan ang Hanapin ang magkapareho o magtingin na lang ng mga larawan nang magkasama."
+        "q": "Maaari bang mag-enjoy ng pagtutugma ng anino ang mga taong may dementia?",
+        "a": "Marami sa mga nasa hustong gulang ang nasisiyahan dito, kabilang ang ilang taong may dementia, kadalasan sa mga unang yugto. Mas madaling makilala ang mga hugis kaysa sa mga salita. Para ito sa kasiyahan at pag-uusap, hindi pagsusulit, at hindi nito ginagamot o pinababagal ang dementia. Kung nagdudulot ito ng pagkainis, subukan ang Hanapin ang parehas o tingnan lang nang magkasama ang mga larawan."
       },
       {
         "q": "Ano ang mangyayari kung maling larawan ang na-tap?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Apat na magkakasama",
+    "seoTitle": "Larong Pagpapangkat ng Larawan para sa Matatanda: Apat na Magkakasama",
+    "h1": "Apat na Magkakasama: Isang Tahimik na Larong Pagpapangkat ng Larawan",
+    "description": "Ang ilan sa mga larawan ay may iisang tema, gaya ng prutas o panahon. Pindutin ang mga magkakasamang nababagay. Isang libre at tahimik na larong pagpapangkat, walang orasan at walang iskor.",
+    "short": "Hanapin ang mga larawang magkakasama, gaya ng prutas o panahon.",
+    "players": "1 o 2 tao",
+    "intro": "Isang maliit na set ng mga larawan, at ang ilan sa mga ito ay magkakasama: halimbawa, apat na uri ng prutas, o apat na paraan ng pagbiyahe. Pindutin ang mga may iisang tema. Kung ang isang larawan ay bagay sa iba, sasabihin lang ng laro kung saan ito nababagay at maghihintay. Pagkatapos ng tahimik na sandali, magbibigay ng pahiwatig na nagpapangalan sa tema, at maaaring ipakita ang sagot sa anumang oras sa pamamagitan ng \"Ipakita ang grupo\".",
+    "howTo": [
+      "Pumili ng apat, anim o walong larawan. Ang apat ang pinakasimple, na may tatlong magkakasama.",
+      "Tingnan nang magkasama ang mga larawan at pag-usapan kung ano ang pagkakapareho ng mga ito.",
+      "Pindutin ang bawat larawang kabilang sa grupo. Magkakaroon ito ng gintong hangganan at tsek na marka.",
+      "Kung ang isang larawan ay kasama ng iba, sasabihin ito ng laro at maghihintay. Dahan-dahanglang.",
+      "Pindutin ang \"Ipakita ang grupo\" kailanman mo gusto, at pagkatapos ang \"Ibang set\" para sa bagong mga larawan."
+    ],
+    "tips": [
+      "Sabihin nang malakas ang napapansin mo: \"Pareho ang dalawang ito, parehong pagkain.\"",
+      "Walang pagmamadali. Lalabas ang pahiwatig tungkol sa tema pagkatapos ng sandaling pahinga, at puwede mo itong balewalain.",
+      "Pag-usapan ang grupo kapag nahanap na: isang paboritong prutas, isang biyahe sa tren, o ang panahon ngayon."
+    ],
+    "faq": [
+      {
+        "q": "May orasan ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin."
+      },
+      {
+        "q": "Ano ang mangyayari kung pinindot ang larawang wala sa grupo?",
+        "a": "Walang nakaka-stress na mangyayari. Walang buzzer, pulang krus o pagyanig. Sasabihin ng laro ang pangalan ng larawan, na bagay ito sa iba, at maghihintay para sa susunod na pindot."
+      },
+      {
+        "q": "Ano ang mga grupo?",
+        "a": "Mga pang-araw-araw na tema na hindi nangangailangan ng espesyal na kaalaman: prutas, hayop, bulaklak, panahon, paraan ng pagbiyahe, mga bagay para sa mainit na inumin, at mga bagay na niluluto sa oven. Iisang grupo lang ang kabilang ng bawat larawan."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pagpaparehistro?",
+        "a": "Oo, libre ito, at walang account, pagpaparehistro o pag-download na kailangan. Gumagana ito sa web browser sa telepono, tablet o kompyuter."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Ang hindi kasama",
+    "seoTitle": "Larong Larawan ng Hindi Kasama para sa Matatanda",
+    "h1": "Ang Hindi Kasama: Isang Maluwag na Larong Larawan",
+    "description": "Tatlo o apat na larawan, at lahat maliban sa isa ay may iisang tema, gaya ng prutas o panahon. Pindutin ang hindi bagay sa iba. Libre, tahimik, walang orasan at walang iskor.",
+    "short": "Hanapin ang larawang hindi bagay sa iba.",
+    "players": "1 o 2 tao",
+    "intro": "Tatlo o apat na larawan, at lahat maliban sa isa ay magkakasama: halimbawa, prutas, o mga paraan ng pagbiyahe. Pindutin ang larawang hindi bagay. Kung ang isang larawan ay bagay pala sa iba, sasabihin lang ito ng laro at maghihintay. Pagkatapos ng tahimik na sandali, magbibigay ng pahiwatig tungkol sa pinagsasaluhan ng iba, at ipapakita ng \"Ipakita sa akin\" ang hindi bagay sa anumang oras.",
+    "howTo": [
+      "Pumili ng tatlo o apat na larawan. Ang tatlo ang pinakasimple.",
+      "Tingnan nang magkasama ang mga larawan at pag-usapan kung ano ang karaniwan sa karamihan sa mga ito.",
+      "Pindutin ang larawang hindi bagay. Magkakaroon ito ng gintong hangganan at tsek na marka.",
+      "Kung ang isang larawan ay bagay sa iba, sasabihin ito ng laro at maghihintay. Dahan-dahanglang.",
+      "Pindutin ang \"Ipakita sa akin\" kailanman mo gusto, at pagkatapos ang \"Ibang set\" para sa bagong mga larawan."
+    ],
+    "tips": [
+      "Pag-usapan ito nang malakas: \"Parehong prutas ang mansanas at peras. Paano naman ang bus?\"",
+      "Walang pagmamadali. Lalabas ang pahiwatig tungkol sa tema pagkatapos ng sandaling pahinga, at puwede mo itong balewalain.",
+      "Anumang larawan ay magandang simula ng usapan: isang paboritong prutas, sakay ng bus, o maulang araw."
+    ],
+    "faq": [
+      {
+        "q": "May orasan ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin."
+      },
+      {
+        "q": "Ano ang mangyayari kung pinindot ang larawang bagay sa grupo?",
+        "a": "Walang nakaka-stress na mangyayari. Walang buzzer, pulang krus o pagyanig. Sasabihin ng laro ang pangalan ng larawan, na bagay ito sa iba, at maghihintay para sa susunod na pindot."
+      },
+      {
+        "q": "Paano pinipili ang hindi bagay na larawan?",
+        "a": "Galing ang mga larawan sa mga pang-araw-araw na tema na hindi nangangailangan ng espesyal na kaalaman: prutas, hayop, bulaklak, panahon, paraan ng pagbiyahe, mga bagay para sa mainit na inumin, at mga bagay na niluluto sa oven. Iisang tema lang ang kabilang ng bawat larawan, at ang hindi bagay ay laging galing sa ibang tema."
+      },
+      {
+        "q": "Ito ba ay libre, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Pagtutugma ng kulay",
+    "seoTitle": "Pagtutugma ng Kulay: Isang Banayad na Larong May Larawan",
+    "h1": "Pagtutugma ng Kulay: Hanapin ang mga Larawan ng Iisang Kulay",
+    "description": "Isang malaking kulay na may pangalan nito, at apat o anim na larawan. I-tap ang bawat larawang may ganoong kulay. Walang timer, walang iskor, at ang ibang kulay ay pangalanan lang. Libre laruin at i-print.",
+    "short": "Hanapin ang bawat larawang kapareho ng kulay na ipinakita.",
+    "players": "1 o 2 tao, o isang nasa hustong gulang at isang bata",
+    "intro": "Ipinapakita ang isang malaking bahagi ng kulay na may nakasulat na pangalan nito sa tabi, at sa ibaba nito ay apat o anim na larawan. I-tap ang bawat larawang may ganoong kulay: halimbawa, isang pulang mansanas at isang pulang tasa. Kung iba ang kulay ng larawan, pinapangalanan lang ito ng laro (\"Berde ang peras.\") at naghihintay. Ang \"Ipakita sa akin\" ay nagtuturo ng mga tugmang larawan anumang oras, at ang \"Ibang kulay\" ay lumilipat sa susunod.",
+    "howTo": [
+      "Pumili ng apat o anim na larawan. Ang apat ang pinakasimple.",
+      "Tingnan ang kulay at basahin nang magkasama ang pangalan nito.",
+      "I-tap ang bawat larawang may ganoong kulay. Bawat isa ay bibigyan ng makapal na hangganan at tsek.",
+      "Kung iba ang kulay ng larawan, sasabihin ng laro kung anong kulay ito at maghihintay. Dahan-dahan lang.",
+      "I-tap ang \"Ipakita sa akin\" kahit kailan mo gusto, at pagkatapos ang \"Ibang kulay\" para sa bagong kulay."
+    ],
+    "tips": [
+      "Sabihin nang malakas ang kulay, pagkatapos ay tingnan ang paligid ng kuwarto: ano pa ang may ganoong kulay?",
+      "Gamitin ang sarili ninyong mga salita kung gusto ninyo. Ang \"kamatis\" o \"langit\" ay kasing-ganda ng \"pula\" o \"asul\".",
+      "Pagtuturo ay gumagana rin gaya ng pag-tap. Umupo nang magkatabi para makita ninyong pareho ang screen."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw o pagkatalo. Maaari kang huminto anumang sandali, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin ito."
+      },
+      {
+        "q": "Ano ang mangyayari kapag na-tap ang larawang ibang kulay?",
+        "a": "Walang nakakabahala. Walang buzzer, pulang krus o pag-iling. Pinapangalanan ng laro ang larawan at ang kulay nito, gaya ng \"Berde ang peras.\", at naghihintay sa susunod na tap."
+      },
+      {
+        "q": "Kulay lang ba ang gabay?",
+        "a": "Hindi. Ipinapakita ang kulay bilang malaking bahagi at isinusulat din bilang salita, at pinapangalanan ang bawat larawan kapag na-tap. Ang taong nahihirapang makita ang isang kulay ay maaari pa ring maglaro sa pagbasa ng pangalan."
+      },
+      {
+        "q": "Talaga bang ganoon ang kulay ng bawat larawan?",
+        "a": "Ang mga larawan ay pinipili nang mano-mano, at ang mga bagay na malinaw na iisa ang kulay lamang ang pinipili. Ang mga larawang maraming kulay, gaya ng saranggola o bubuyog, ay hindi isinasama."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang isang pahinang papel ay may apat na hanay. Ang bawat hanay ay may pangalan ng kulay at apat na larawan na maaaring ituro o bilugan."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Pagtutugma ng kalahati",
+    "seoTitle": "Pagtutugma ng Kalahati: Isang Banayad na Larong May Larawan",
+    "h1": "Pagtutugma ng Kalahati: Pagdugtungin ang Dalawang Kalahati ng Larawan",
+    "description": "Ang kaliwang kalahati ng dalawa o tatlong larawan sa isang gilid, at ang kanang kalahati nito sa kabila. I-tap ang isang kalahati, pagkatapos ang kalahating babagay dito. Walang timer, walang iskor, at ang mga kalahating hindi babagay ay humihiwalay lang. Libre laruin at i-print.",
+    "short": "I-tap ang dalawang kalahating bumabagay upang bumuo ng isang larawan.",
+    "players": "1 o 2 tao, o isang nasa hustong gulang at isang bata",
+    "intro": "Bawat larawan ay hinati sa gitna. Ang kaliwang kalahati ng dalawa o tatlong larawan ay nasa isang hanay, at ang kanang kalahati nito, sa ibang pagkakasunod-sunod, ay nasa kabilang hanay. I-tap ang isang kalahati sa kaliwa, pagkatapos ay i-tap ang kalahati sa kanan na babagay dito, gaya ng nguso ng takure at ng hawakan nito. Ang mga kalahating bumabagay ay pinagdurugtong bilang isang buong larawan. Ang mga kalahating hindi bumabagay ay humihiwalay muli, at mahinahong sinasabi ito ng laro. Pinagdurugtong ng \"Ipakita sa akin\" ang lahat.",
+    "howTo": [
+      "Pumili ng dalawa o tatlong larawan. Ang dalawa ang pinakasimple.",
+      "Tingnan nang magkasama ang mga kalahating nasa kaliwa. Sa tingin ninyo, bahagi ng ano ang bawat isa?",
+      "I-tap ang isang kalahati sa kaliwa, pagkatapos ay i-tap ang kalahati sa kanan na babagay dito. Gumagana rin ito kabaligtaran.",
+      "Ang mga kalahating bumabagay ay pinagdurugtong, na may makapal na hangganan at tsek. Ang mga kalahating hindi bumabagay ay humihiwalay muli, at maaari kang sumubok ng iba.",
+      "I-tap ang \"Ipakita sa akin\" kahit kailan mo gusto, at pagkatapos ang \"Ibang set\" para sa bagong mga larawan."
+    ],
+    "tips": [
+      "Himasin ng daliri ang gilid ng isang kalahati. Saan umaabot ang guhit sa gitna?",
+      "Sabihin ang nakikita ninyo: \"May hawakan ang isang ito.\" Hindi kailangang pangalanan ang bawat larawan.",
+      "Pagtuturo ay gumagana rin gaya ng pag-tap. Umupo nang magkatabi para makita ninyong pareho ang screen."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw o pagkatalo. Maaari kang huminto anumang sandali, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin ito."
+      },
+      {
+        "q": "Ano ang mangyayari kung hindi bumabagay ang dalawang kalahati?",
+        "a": "Walang nakakabahala. Walang buzzer, pulang krus o pag-iling. Humihiwalay muli ang dalawang kalahati at sinasabi ng laro, \"Hindi bumabagay ang dalawang iyan. Subukan ang iba.\" Walang binibilang."
+      },
+      {
+        "q": "Madali bang makilala ang mga larawan?",
+        "a": "Oo. Ang mga larawan ay pinipili nang mano-mano, at ang dalawang larawan sa iisang board ay hindi kailanman mula sa iisang grupo, gaya ng dalawang prutas o dalawang hayop. Ang mga larawang magkamukha ang dalawang kalahati, gaya ng araw o bahaghari, ay hindi isinasama."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Oo. Ang isang pahinang papel ay may kaliwang kalahati ng tatlong larawan sa isang hanay, at ang kanang kalahati nila, sa ibang pagkakasunod-sunod, sa kabilang hanay. Gumuhit ng linya mula sa bawat kaliwang kalahati papunta sa kalahating bagay na tugma rito."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o kompyuter."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Kulayan ayon sa numero",
+    "seoTitle": "Kulayan ayon sa Numero: Isang Payapang Laro ng Pagpuno ng Kulay na May Malalaking Titik",
+    "h1": "Kulayan ayon sa Numero: Punan ang mga Parisukat, Anumang Kulay ang Gusto Mo",
+    "description": "Isang grid ng malalaking may-numerong parisukat at isang susi ng apat na kulay kasama ang kanilang mga pangalan. Pumili ng kulay, pagkatapos ay i-tap ang mga parisukat para punan ang mga ito. Anumang kulay ay pwede, walang timer o puntos, at may pindutang pumupuno sa natitira ayon sa mga numero. Libre laruin at i-print.",
+    "short": "Pumili ng kulay, pagkatapos i-tap ang mga may-numerong parisukat para punan ang mga ito.",
+    "players": "1 o 2 tao, magkatabi",
+    "intro": "Isang parisukat na grid ng malalaking parisukat, bawat isa ay may numero, at sa itaas nito ay isang susi ng apat na kulay, bawat isa ay may numero at nakasulat na pangalan. Pumili ng kulay mula sa susi, pagkatapos i-tap ang mga parisukat para punan ang mga ito. Ang grid ay 4 by 4 sa simula, at 6 by 6 at 8 by 8 kapag gusto mo ng mas maraming parisukat. Kapag ang bawat parisukat ay may kulay ng kanyang numero, ang grid ay ang larawan sa papel. Ang mga parisukat na pinuno ng ibang kulay ay sarili mong larawan lang, at hindi ito pinupuna ng laro. Ang \"Punan ayon sa mga numero\" ay pumupuno sa bawat bakanteng parisukat para sa iyo.",
+    "howTo": [
+      "Piliin ang laki ng grid. Ang 4 by 4 ang may pinakamalalaking parisukat at pinakasimple.",
+      "Tingnan ang susi sa itaas ng grid. Ang bawat kulay ay may numero at pangalan, gaya ng 1 Dilaw.",
+      "I-tap ang isang kulay sa susi, pagkatapos i-tap ang mga parisukat na gusto mong punan nito.",
+      "Gamitin ang kulay sa numero, o anumang kulay na gusto mo. Parehong okay.",
+      "I-tap ang \"Punan ayon sa mga numero\" para sa mga bakanteng parisukat, \"Burahin\" para magsimulang muli ang grid, o \"Ibang larawan\" para sa iba."
+    ],
+    "tips": [
+      "Umupo nang magkatabi at magpalitan: isang tao ang pumipili ng kulay, ang isa ay nag-i-tap ng parisukat.",
+      "Pag-usapan ang mga kulay: \"Gusto ko ang berde.\" Hindi kailangang sabihin kung ano ang magiging larawan.",
+      "Sa makitid na screen, ang 8 by 8 grid ay gumagalaw pahalang sa sarili nitong kahon. Nananatiling komportable ang laki ng mga parisukat.",
+      "Gumagana rin ang bersyong papel gamit ang lapis sa mesa sa tabi ng kama."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o puntos?",
+        "a": "Wala. Walang orasan, puntos, bilang ng galaw, o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa kalagitnaan ay isa ring mainam na paraan para tapusin."
+      },
+      {
+        "q": "Paano kung ibang kulay ang gamitin ko sa numero?",
+        "a": "Walang mangyayari, at iyon ang punto. Anumang kulay ay pwedeng ilagay sa anumang parisukat, at hindi ito pinupuna ng laro. Kapag ang bawat parisukat ay may kulay ng kanyang numero, sinasabi ito ng laro nang marahan, at ang larawang may sarili mong mga kulay ay kasing ganda rin."
+      },
+      {
+        "q": "Nakikilala ba ng mga taong may color-blindness ang apat na kulay?",
+        "a": "Pinili ang mga ito para doon. Bawat kulay ay may numero, nakasulat na pangalan, at sariling maliit na hugis, kaya hindi lang kulay ang paraan para makilala sila. Sinuri ang apat na punan gamit ang mga simulasyon ng red-green at blue-yellow color blindness, at magkakaiba rin ang liwanag ng mga ito. Hindi pa nasusubukan ng taong may color blindness ang mga ito, kaya sabihin sa amin kung may dalawang magkamukha."
+      },
+      {
+        "q": "Sapat ba ang laki ng mga parisukat para sa nanginginig na kamay o maliit na screen?",
+        "a": "Ang bawat parisukat ay hindi bababa sa 48 pixels ang lapad, at 56 sa 4 by 4 grid. Kung masyadong malapad ang grid para sa screen, gumagalaw ito pahalang sa sarili nitong kahon sa halip na paliitin ang mga parisukat."
+      },
+      {
+        "q": "May bersyong papel ba?",
+        "a": "Oo. Ang isang pahinang papel ay may may-numerong grid at ang susi ng apat na kulay kasama ang kanilang mga pangalan. Kulayan ang bawat parisukat gamit ang lapis ng kulay ng numero nito, o anumang kulay na gusto mo."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o kompyuter."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Tagagawa ng disenyo",
+    "seoTitle": "Tagagawa ng Disenyo: Gumawa ng Tile at I-print ang Disenyo",
+    "h1": "Tagagawa ng Disenyo: Gumawa ng Tile, Panoorin itong Umulit",
+    "description": "Palitan ang mga parisukat ng isang maliit na tile at panoorin itong umulit bilang disenyo sa tabi nito, sa apat na kulay na bawat isa ay may pangalan at hugis. Walang timer o puntos. Libre laruin at i-print.",
+    "short": "Palitan ang mga parisukat ng maliit na tile at panoorin itong umulit bilang disenyo.",
+    "players": "1 o 2 tao, magkatabi",
+    "intro": "Isang maliit na tile na 3 by 3 na parisukat, o 4 by 4 kung gusto mo, at sa tabi nito ang \"iyong disenyo\": ang parehong tile na inuulit sa isang bloke. I-tap ang isang parisukat at magbabago ito sa susunod sa apat na kulay, bawat isa ay may sariling nakasulat na pangalan at hugis. Agad na magbabago ang disenyo sa tabi nito. Walang tamang disenyo, at walang sine-save o ipinapadala. Ang \"I-print ang disenyo ko\" ay naglalagay ng inulit na disenyo sa isang pahina para itago, kulayan, o ibigay.",
+    "howTo": [
+      "Tingnan ang tile at ang disenyo mo sa tabi nito. Pareho silang tile, inuulit lang.",
+      "I-tap ang isang parisukat. Magiging susunod na kulay ito sa hanay ng apat na kulay sa itaas.",
+      "Patuloy na i-tap ang mga parisukat hanggang maging ayon sa gusto mo ang disenyo. Anumang disenyo ay magandang disenyo.",
+      "I-tap ang \"Sorpresahin ako\" para sa bagong tile, o \"Magsimulang muli\" para sa malinis na tile. Ibinabalik ng \"Ibalik\" ang tile na dati mo.",
+      "I-tap ang \"I-print ang disenyo ko\" kung gusto mo itong nasa papel, o i-tap ang Pahinga para tumigil."
+    ],
+    "tips": [
+      "Umupo kayong magkatabi at magpalitan: ang isa ay tumatapik sa isang parisukat, at sasabihin naman ng kabila kung ano ang napapansin niya.",
+      "Pag-usapan ang nakikita ninyo: \"Parang bulaklak iyan.\" Hindi kailangang pangalanan ang anuman.",
+      "Subukan ang parehong tile sa dalawang kulay lamang, at saka ulitin sa lahat ng apat.",
+      "Sa papel, maaaring kulayan ang pattern ng lapis, gupitin sa mga strip para gawing card, o gamitin pambalot ng maliit na regalo."
+    ],
+    "faq": [
+      {
+        "q": "May timer o iskor ba?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw, o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin ito."
+      },
+      {
+        "q": "May nase-save o naipapadala ba sa anumang ginagawa ko?",
+        "a": "Wala. Ang tile mo ay nananatili lamang sa pahinang ito. Hindi ito sine-save, ina-upload, o binibilang, at mawawala ito kapag isinara mo ang pahina. Kung nais mong itago ang pattern, i-print ito."
+      },
+      {
+        "q": "Paano kung mapindot ko ang maling parisukat o ma-clear ko nang hindi sinasadya ang tile?",
+        "a": "Walang maling parisukat: pindutin lang itong muli para lumipat sa susunod na kulay. Pagkatapos ng \"Magsimulang muli\" o \"Sorpresahin ako\", ibinabalik ng \"Ibalik\" ang tile na dati mong ginawa."
+      },
+      {
+        "q": "Madaling makilala ba ng mga taong may color-blindness ang apat na kulay?",
+        "a": "Pinili ang mga ito para doon. Bawat kulay ay may nakasulat na pangalan at sariling maliit na hugis sa bawat parisukat, kaya hindi lang kulay ang paraan para makilala sila. Sinuri ang apat na kulay gamit ang simulation ng red-green at blue-yellow color blindness. Hindi pa ito nasubukan ng taong may color blindness, kaya sabihin po sa amin kung may dalawang kulay na magkamukha."
+      },
+      {
+        "q": "Sapat ba ang laki ng mga parisukat para sa nanginginig na kamay o maliit na screen?",
+        "a": "Ang bawat parisukat ay hindi bababa sa 56 pixel ang lapad. Kung masyadong malapad ang tile para sa screen, gumagalaw ito nang pahalang sa sarili nitong kahon sa halip na lumiit ang mga parisukat."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"I-print ang pattern ko\" ay nagpi-print ng pattern na ginawa mo sa isang pahina, kasama ang apat na kulay at ang kanilang mga pangalan. Maayos ito kahit itim at puti, dahil may sariling hugis ang bawat kulay."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pag-sign up?",
+        "a": "Oo, libre ito, at walang account, pag-sign up, o download. Gumagana ito sa web browser ng telepono, tablet, o computer."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Duet sa pagguhit",
+    "seoTitle": "Duet sa Pagguhit: Dalawang Tao, Isang Larawan",
+    "h1": "Duet sa Pagguhit: Dalawang Tao, Isang Papel",
+    "description": "Magpapalitan ang dalawang tao sa pagguhit ng mga linya sa iisang canvas, bawat isa gamit ang sariling kulay. Walang iskor o nananalo, at maaaring i-save o i-print ang larawan. Libreng laruin, nang walang account.",
+    "short": "Magpalitan sa pagguhit ng iisang larawan kasama ang taong katabi mo.",
+    "players": "2 tao, magkatabi",
+    "intro": "Isang canvas, dalawang tao. Pipili ang bawat isa sa inyo ng kulay, at may sariling nakasulat na pangalan ang bawat kulay. Magpapalitan kayo: gumuhit ng isang linya o hugis, saka ipasa ang panulat. Maaaring ipasa ng sinuman sa inyo ang panulat anumang oras. Walang tamang larawan at walang iskor. I-save sa iyong device ang larawan kung gusto mo ito, o i-print ang bersyon sa papel: isang papel, dalawang panulat.",
+    "howTo": [
+      "Pumili ang bawat isa sa inyo ng kulay. Ipinapakita ng banner kung kanino ang turn, kasama ang pangalan ng kulay ng taong iyon.",
+      "Gumuhit ng isang linya o hugis gamit ang daliri, mouse, o panulat. O gamitin ang arrow keys at Space para gumuhit nang walang pointer.",
+      "Kapag handa ka na, pindutin ang \"Ipasa ang panulat\". Maaaring ipasa ng sinuman sa inyo ang panulat anumang oras.",
+      "Pindutin ang \"Bawiin ang huling linya ko\" para alisin ang pinakabagong linya ng taong may turn.",
+      "Pindutin ang \"I-save ang larawan\" para gumawa ng file ng larawan sa device na ito, o \"I-print ang bersyon sa papel\" para sa isang papel at dalawang panulat."
+    ],
+    "tips": [
+      "Umupo nang magkatabi at mag-usap habang gumuguhit: \"Maglalagay ako ng araw sa kanang sulok.\"",
+      "Magsimula sa isang tuldok, linya, o simpleng hugis, at hayaang sumagot ang kabilang tao.",
+      "Walang kailangang gumuhit ng anumang larawan. Ang pattern ng mga linya ay kasing ganda ng isang eksena.",
+      "Kung gusto mong tumigil, pindutin ang \"Tapos na muna\". Hindi naiingatan ang larawan pagkaalis mo sa pahina, maliban kung i-save mo ito."
+    ],
+    "faq": [
+      {
+        "q": "May nananalo ba o may iskor?",
+        "a": "Wala. Walang nananalo, walang iskor, walang timer, at walang bilang ng turn. Walang tamang larawan, at walang niraranggo o inihahambing."
+      },
+      {
+        "q": "Nase-save o naipapadala ba ang larawan?",
+        "a": "Hindi, walang ipinapadala kahit saan. Nananatili ang larawan sa pahinang ito hanggang isara mo ito. Kapag pinindot mo ang I-save ang larawan, gagawa ng file sa iyong device para ma-download mo. Walang ina-upload."
+      },
+      {
+        "q": "Maaari ko bang bawiin ang isang linya?",
+        "a": "Maaari. Inaalis ng \"Bawiin ang huling linya ko\" ang pinakabagong linya ng taong may turn. Binubura ng \"Magsimulang muli\" ang papel, at ibinabalik ng \"Ibalik\" ang mga linya, isang hakbang lamang."
+      },
+      {
+        "q": "Magagamit ko ba ito nang walang mouse o touch screen?",
+        "a": "Oo. Kapag nakatutok ang pagguhit, inililipat ng arrow keys ang tuldok ng panulat, at ibinababa o itinataas ng Space key ang panulat. Sinasabi ng screen na \"Ibinababa ang panulat\" o \"Itinataas ang panulat\" sa bawat pagkakataon."
+      },
+      {
+        "q": "Anong mga kulay ang mga ito, at madaling makilala ba ng mga taong may color-blindness?",
+        "a": "Dilaw, orange, berde, at lila, ang parehong apat na kulay na ginamit sa aming ibang laro ng larawan. May nakasulat na pangalan ang bawat isa, at lumalabas ang mga pangalan sa tabi ng turn. Sinuri ang mga kulay gamit ang simulation ng karaniwang pagkakaiba sa paningin ng kulay, ngunit hindi pa ito nasubukan ng taong may pagkakaiba sa paningin ng kulay."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"I-print ang bersyon sa papel\" ay nagpi-print ng isang papel na may nakasulat na mga panuntunan at malaking blangkong frame na pagguguhitan, para sa dalawang tao na may dalawang panulat. Gumagana rin ito sa itim at puti."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pag-sign up?",
+        "a": "Oo, libre ito, at walang kailangang account, pag-sign up, o pag-download. Gumagana ito sa web browser ng telepono, tablet o computer."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Magtayo nang sama-sama",
+    "seoTitle": "Magtayo nang Sama-sama: Dalawang Tao, Isang Disenyo",
+    "h1": "Magtayo nang Sama-sama: Dalawang Tao, Isang Grid",
+    "description": "Magpapalitan ang dalawang tao sa paglalagay ng piyesa sa isang pinagsasaluhang grid hanggang mapuno ito, bawat isa ay may sariling kulay na may pangalan at hugis. Walang nananalo, at walang timer o iskor. Libre laruin at i-print.",
+    "short": "Magpalitan sa katabi mo sa pagpuno ng iisang pinagsasaluhang grid.",
+    "players": "2 tao, magkatabi",
+    "intro": "Isang pinagsasaluhang grid na may 4 by 4 na puwesto, o 3 by 3 kung gusto ninyo. Pumili ang bawat isa ng kulay, at may sariling nakasulat na pangalan at hugis ang bawat kulay. Magpapalitan kayo: sa inyong turn, i-tap ang bakanteng puwesto para ilagay doon ang inyong piyesa. Kapag may piyesa na ang bawat puwesto, nabuo ninyo nang sama-sama ang larawan. Walang nananalo, dahil magkasama kayong gumagawa, at walang naitatago o naipapadala. Inilalagay ng \"I-print ang grid\" ang walang lamang grid sa isang pahina para makapagtayo kayo gamit ang dalawang lapis.",
+    "howTo": [
+      "Pumili ang bawat isa ng kulay. Ang kulay na gamit na ng kasama mo ay may markang \"Ginagamit\".",
+      "Ang unang tao ang mauuna. Sinasabi ng screen kung kanino ang turn at alin ang kulay niya.",
+      "I-tap ang bakanteng puwesto para ilagay doon ang piyesa. Mapupunta ang turn sa kasama mo.",
+      "Kung ayaw mong maglagay ng piyesa, i-tap ang \"Laktaw\". Puwedeng lumaktaw ang alinman sa inyo anumang oras.",
+      "Kapag may piyesa na ang bawat puwesto, nabuo ninyo nang sama-sama ang larawan. I-tap ang \"Magsimula ulit\" para magtayo ng panibago, o i-tap ang Pahinga para huminto."
+    ],
+    "tips": [
+      "Umupo nang magkatabi para makita at maabot ninyo ang screen. Mag-usap habang naglalaro: \"Ilalagay ko ang akin sa tabi ng sa iyo.\"",
+      "Subukang bumuo ng disenyo, mga guhit, checkerboard o hangganan, o maglagay lang ng piyesa kung saan mo gusto. Parehong ayos.",
+      "Ang bata o taong madaling mapagod ay puwedeng lumaktaw nang kasing dalas ng gusto nila. Nabubuo pa rin nang sama-sama ang larawan.",
+      "Sa papel, bawat isa ay gumagamit ng isang lapis at gumuguhit ng sariling hugis sa mga bakanteng kahon."
+    ],
+    "faq": [
+      {
+        "q": "May nananalo ba, timer o iskor?",
+        "a": "Wala. Walang nananalo, dahil iisang larawan ang binubuo ninyo nang sama-sama. Walang orasan, iskor, bilang ng piyesa, o pagkatalo. Puwede kayong huminto anumang oras, at ang paghinto sa gitna ay isa ring magandang paraan para tapusin ang laro."
+      },
+      {
+        "q": "Sine-save o ipinapadala ba ang anumang ginawa namin?",
+        "a": "Hindi. Nananatili lang sa pahinang ito ang grid. Hindi ito sine-save, ina-upload, o binibilang, at mawawala ito kapag isinara mo ang pahina. Kung gusto ninyong itago ito, i-print ang grid at magtayo sa papel."
+      },
+      {
+        "q": "Paano kung mailagay ko ang piyesa sa maling lugar?",
+        "a": "Walang maling lugar. I-tap ang \"Bawiin ang huling piyesa\" at babalik sa iyo ang turn. Puwede kang bumawi nang paisa-isang hakbang, at puwede ring bawiin ang paglaktaw."
+      },
+      {
+        "q": "Natutukoy ba ng mga taong may color-blindness ang apat na kulay?",
+        "a": "Pinili ang mga kulay para doon. Bawat kulay ay may nakasulat na pangalan at sariling maliit na hugis sa bawat piyesa, kaya hindi lang kulay ang paraan para makilala sila. Sinuri ang apat na kulay gamit ang simulasyon ng red-green at blue-yellow na color blindness. Hindi pa ito nasusubukan ng taong may color blindness, kaya pakisabi sa amin kung may dalawang magkamukha."
+      },
+      {
+        "q": "Sapat ba ang laki ng mga puwesto para sa nanginginig na kamay o maliit na screen?",
+        "a": "Bawat puwesto ay hindi bababa sa 56 pixels ang lapad. Kung masyadong malapad ang grid para sa screen, gumagalaw ito pahalang sa sarili nitong kahon sa halip na paliitin ang mga puwesto."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"I-print ang grid\" ay naglilimbag ng walang lamang grid sa isang pahina na may dalawang kulay at mga pangalan nito, para makapagtayo gamit ang dalawang lapis. Gumagana ito sa itim at puti dahil may sariling hugis ang bawat kulay."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba akong mag-sign up?",
+        "a": "Oo, libre ito, at walang kailangang account, pag-sign up, o pag-download. Gumagana ito sa web browser ng telepono, tablet o computer."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Talaan ng paghagis habang nakaupo",
+    "seoTitle": "Talaan ng Paghagis Habang Nakaupo: Larong Bean Bag para sa Dalawa",
+    "h1": "Talaan ng Paghagis Habang Nakaupo: Maghagis nang Magkasama sa Mesa",
+    "description": "Magkaharap sa mesa ang dalawang tao at magpapalitan sa paghagis ng malambot na bean bag sa malaking target, habang tinatala ang puntos sa papel. Walang oras at walang iskor. Libre i-print.",
+    "short": "Magpalitan sa paghagis ng bean bag sa malaking target, may talaan sa papel.",
+    "players": "2 tao, nakaupo sa mesa",
+    "intro": "Isang tahimik na larong paghagis para sa dalawang taong nakaupo sa mesa. Ilalatag ninyo sa mesa ang naka-print na target at magpapalitan sa paghagis ng malambot na bean bag, o nakarolyong medyas, para bumagsak ito sa mga singsing. Bawat isa ay nagtatala sa pamamagitan ng paglalagay ng tsek sa mga kahon sa papel, at sabay ninyong tingnan ang mga tsek kapag huminto kayo. Walang oras, walang awtomatikong pagbibilang sa screen, at walang naitatago o naipapadala. Basahin muna ang mga paalala sa kaligtasan: ang maliliit na palaman ay panganib na mabulunan.",
+    "howTo": [
+      "Basahin ang mga paalala sa kaligtasan. Pumili ng bag na tahi-tahi ang takip, o magrolyo ng malinis na medyas.",
+      "I-tap ang \"I-print ang target at talaan\" at ilatag nang patag ang papel sa mesa sa pagitan ninyo.",
+      "Umupo nang komportable, tig-isa sa magkabilang gilid, at magpalitan sa isang mahinang paghagis bawat isa. Puwedeng lumaktaw ang sinuman.",
+      "Kapag bumagsak ang paghagis sa isang singsing, lagyan ng tsek ang kahon sa inyong hanay, sa hilera ng singsing na iyon.",
+      "Tingnan ang mga tsek nang sama-sama kapag huminto kayo, o i-tap ang Pahinga para magpahinga muna."
+    ],
+    "tips": [
+      "Sitzen Sie so nah, dass ein sanfter Wurf von unten das Ziel erreicht, ohne dass Sie sich recken müssen.",
+      "Sprechen Sie über den Wurf, nicht über das Ergebnis: „Der war schön weich.“ Jeder Wurf wird bejubelt.",
+      "Eine zusammengerollte Socke ist leicht und lässt sich auch mit schwachem Griff gut halten. Legen Sie den Arm zwischen den Runden auf den Tisch.",
+      "Wenn jemand lieber zusehen möchte, kann er oder sie die Kästchen abhaken."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es eine Zeitmessung oder eine Punktzahl?",
+        "a": "Nein. Es gibt keine Uhr, keine Punkte, keinen Zug-Zähler und kein Verlieren. Sie können jederzeit aufhören, und auch auf halbem Weg aufzuhören ist ein völlig in Ordnung es zu beenden."
+      },
+      {
+        "q": "Ist es sicher, mit einem Sitzsack zu werfen?",
+        "a": "Das kann es sein, wenn man vorsichtig ist. Verwenden Sie einen Beutel mit genähtem Bezug oder eine zusammengerollte Socke, niemals lose Bohnen, Reis oder kleine Füllungen. Diese sind eine Erstickungsgefahr für kleine Kinder und für alle, die Dinge in den Mund stecken. Bleiben Sie sitzen, werfen Sie sanft zum Tisch hin, niemals in Richtung eines Gesichts, und halten Sie einen Erwachsenen in der Nähe."
+      },
+      {
+        "q": "Wird auf dem Bildschirm etwas gezählt oder gespeichert?",
+        "a": "Nein. Die Strichliste gibt es nur auf Papier, in Kästchen, die Sie selbst abhaken. Die Seite speichert weder eine Zählung noch eine Zeit, und nichts wird gespeichert oder gesendet."
+      },
+      {
+        "q": "Was ist, wenn jemand nicht werfen kann oder der Beutel nicht auf das Blatt fällt?",
+        "a": "Jede Person darf aussetzen, und ein Beutel, der nicht auf dem Blatt landet, wird einfach für die nächste Runde wieder aufgehoben. Dafür wird nichts gezählt."
+      },
+      {
+        "q": "Was steht auf dem gedruckten Blatt?",
+        "a": "Eine Seite: eine große Zielscheibe mit ihren drei Ringen, die Nah, Mitte und Fern heißen, eine Tabelle mit einer Spalte für jede Person und einer Reihe kleiner Kästchen für jeden Ring sowie eine Zeile mit Sicherheitshinweisen. Die Namen stehen auf den Ringen, sodass es auch in Schwarzweiß funktioniert."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Telefon, Tablet oder Computer."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Jahreszeiten-Rätselpaket",
+    "seoTitle": "Jahreszeiten-Rätselpaket: Druckbare Papierrätsel",
+    "h1": "Jahreszeiten-Rätselpaket: Drei Papierrätsel für jeden Monat",
+    "description": "Drei kleine druckbare Rätsel für jeden Monat des Jahres: Paare finden, das abweichende Bild einkreisen und ein Bild ausmalen. Die Seite öffnet sich im aktuellen Monat, Sie können einen anderen Monat wählen oder einen Ruhetag einlegen. Kostenlos zum Drucken.",
+    "short": "Drei druckbare Rätsel für den gewählten Monat oder einen Ruhetag.",
+    "players": "Alle Altersgruppen, allein oder nebeneinander",
+    "intro": "Wählen Sie einen Monat, und die Seite zeigt drei kleine Papierrätsel mit Motiven aus diesem Monat: zwei Reihen, die Sie mit Linien verbinden, eine Reihe mit vier Bildern, in der Sie das abweichende einkreisen, und ein Bild zum Ausmalen. Die Seite öffnet sich im aktuellen Monat Ihres Geräts. Sie drucken eine Seite aus und machen dann eines, zwei oder alle drei Rätsel in Ihrem eigenen Tempo. Wählen Sie stattdessen „Heute ist ein Ruhetag“, dann gibt es nichts zu tun.",
+    "howTo": [
+      "Wählen Sie einen Monat oder „Heute ist ein Ruhetag“.",
+      "Schauen Sie sich die drei Rätsel an und tippen Sie dann auf „Paket für diesen Monat drucken“.",
+      "Machen Sie eines, zwei oder alle drei Rätsel, in Ihrem eigenen Tempo.",
+      "Verbinden Sie die passenden Bilder mit einer Linie, kreisen Sie das abweichende Bild ein und malen Sie das große Bild aus.",
+      "Hören Sie auf, wann immer Sie möchten. Ein Ruhetag ist auch ein guter Tag."
+    ],
+    "tips": [
+      "Beginnen Sie mit dem Rätsel, das Ihnen heute am leichtesten erscheint. Eines genügt.",
+      "Sprechen Sie den Namen jedes Bildes laut aus, wenn das hilft.",
+      "Verwenden Sie Buntstifte oder Bleistifte. Jede Farbe ist recht.",
+      "Heben Sie die Seite für das nächste Mal auf oder legen Sie sie beiseite."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es eine Zeitmessung oder eine Punktzahl?",
+        "a": "Nein. Es gibt keine Uhr, keine Punkte, keinen Zug-Zähler und kein Verlieren. Sie können jederzeit aufhören, und auch auf halbem Weg aufzuhören ist ein völlig in Ordnung es zu beenden."
+      },
+      {
+        "q": "Weiß die Seite, welche Jahreszeit gerade ist?",
+        "a": "Nein. Die Jahreszeit wählen Sie selbst. Die Seite schaut weder auf das Datum noch auf Ihren Standort."
+      },
+      {
+        "q": "Gibt es eine Punktzahl oder eine richtige Antwort?",
+        "a": "Nein. Auf dem Bildschirm wird nichts gemessen, bewertet oder überprüft, und es werden keine Lösungen angezeigt. Jedes Rätsel ist nur ein Bild zum Betrachten, Verbinden, Einkreisen oder Ausmalen."
+      },
+      {
+        "q": "Was ist, wenn heute niemand Rätsel machen möchte?",
+        "a": "Wählen Sie „Heute ist ein Ruhetag“. Die Seite zeigt dann eine ruhige Zeile, und es gibt nichts zu drucken oder zu tun."
+      },
+      {
+        "q": "Was steht auf dem gedruckten Blatt?",
+        "a": "Eine Seite für die gewählte Jahreszeit: ihre drei Rätsel, jeweils mit einer kurzen Anleitung, und eine Zeile, dass Sie eines, zwei oder alle drei machen können."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Telefon, Tablet oder Computer."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Gemeinsam eine Karte verzieren",
+    "seoTitle": "Gemeinsam eine Karte verzieren: eine druckbare Grußkarte",
+    "h1": "Gemeinsam eine Karte verzieren: eine für jemanden gestalten",
+    "description": "Zwei Personen verzieren gemeinsam eine gedruckte Grußkarte für einen Geburtstag, ein Dankeschön oder einfach so und schreiben dann zusammen eine Nachricht auf die Rückseite. Nur Buntstifte oder Stifte. Keine Zeitmessung und keine Punktzahl. Kostenlos zum Drucken.",
+    "short": "Gemeinsam eine gedruckte Grußkarte verzieren.",
+    "players": "2 Personen, nebeneinander",
+    "intro": "Ein ruhiges Bastelspiel für zwei Personen, die nebeneinander sitzen. Sie drucken ein Blatt aus, das in der Mitte gefaltet eine Karte ergibt. Wählen Sie einen Anlass, etwa einen Geburtstag oder ein Dankeschön, und verzieren Sie die Vorderseite rund um die Worte. Schreiben Sie dann auf der Rückseite eine Nachricht, gemeinsam oder so, dass eine Person schreibt, was die andere sagt. Verwenden Sie Buntstifte, Farbstifte oder Filzstifte. Es gibt keine richtige Karte, und nichts wird gemessen, bewertet oder gesendet.",
+    "howTo": [
+      "Pumili ng okasyon, pagkatapos i-tap ang \"I-print ang card\".",
+      "Tupiin ang papel sa kalahati ayon sa may tuldok na linya, para nasa labas ang harap.",
+      "Isa ang magdedekorasyon sa harap, at ang isa naman sa likod, o magpapalitan kayo sa iisang panig.",
+      "Magsulat kayo ng mensahe nang magkasama. Puwedeng magsulat ang isa habang sinasabi ng isa ang mga salita.",
+      "Huminto kayo kailan man ninyo gusto. Kasing ganda ng detalyadong card ang simpleng card."
+    ],
+    "tips": [
+      "Simulan sa mga salita sa harap, pagkatapos magdagdag ng mga dahon, bituin o tuldok sa paligid nito, isa-isa.",
+      "Kung ayaw gumuhit ng isang tao, puwede siyang pumili ng mga kulay o magsulat ng mensahe.",
+      "Sabihin ang nagustuhan ninyo sa mga guhit ng kasama, sa halip na tanungin kung maganda ba ang mga ito.",
+      "Ilagay ang card sa lugar kung saan maibibigay ito, o itabi muna sa mesa."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o puntos?",
+        "a": "Wala. Walang orasan, puntos, bilang ng galaw, o pagkatalo. Puwede kayong huminto anumang oras, at ang paghinto sa kalagitnaan ay isa ring maayos na paraan para tapusin ito."
+      },
+      {
+        "q": "Kailangan ba namin ng pandikit, gunting o sticker?",
+        "a": "Hindi. Sapat na ang krayola, colored pencil o felt-tip pen. Walang kailangang gupitin, idikit o ikabit."
+      },
+      {
+        "q": "Puwede ba kaming gumawa ng card para sa okasyong wala sa listahan?",
+        "a": "Piliin ang \"Basta lang\" at isulat ang sarili ninyong mga salita sa harap, o palamutian lang ang card nang walang okasyon."
+      },
+      {
+        "q": "May binibilang, hinuhusgahan o sine-save ba sa screen?",
+        "a": "Wala. Ipinapakita lang ng pahina ang card at ang mga hakbang. Walang ranggo, puntos o naka-save, at walang tamang card."
+      },
+      {
+        "q": "Ano ang nasa naka-print na papel?",
+        "a": "Isang pahina: isang card na nakatupi sa kalahati, na may mga salita ng okasyon at simpleng balangkas sa harap, at mga linya para sa mensahe at linyang Mula kay sa likod. Nakalimbag sa ibaba ang mga panuntunan para sa dalawang tao."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Maghanap nang sama-sama",
+    "seoTitle": "Maghanap nang Sama-sama: Dalawang Tao, Hanapin ang mga Pares",
+    "h1": "Maghanap nang Sama-sama: Dalawang Tao, Isang Koponan",
+    "description": "Dalawang tao ang magkasamang gumagamit ng iisang screen at magpapalitan sa pagbaligtad ng dalawang picture card para maghanap ng pares. Magkasama ninyong hahanapin at bibilangin ang mga pares sa iisang tally. Libreng laruin, walang timer o puntos.",
+    "short": "Magpalitan sa katabi mo para hanapin ang mga pares ng larawan.",
+    "players": "2 tao, magkatabi",
+    "intro": "Puwedeng nakalantad ang mga larawan ng mga card sa simula, o nakabaligtad ang mga ito. Sa iyong turn, bubaligtarin mo ang dalawang card. Kung magkapares ang mga ito, nahanap ninyo ito nang magkasama at lilipat ang turn. Kung magkaiba, mananatili silang nakalantad hanggang pindutin ang \"Ibalik sila\", para pareho ninyong makita. Puwede kayong mag-pass anumang oras. Ang tally sa itaas ay tumataas lang: ang mga pares na nahanap ninyo nang magkasama.",
+    "howTo": [
+      "Piliin kung ilang card ang gagamitin. Anim na card, tatlong pares, ay magandang simula.",
+      "Ipinapakita ng screen kung kanino ang turn, na may bilog para sa unang tao at parisukat para sa ikalawa.",
+      "Bubaligtarin ang dalawang card, isa-isa. Kung magkapareho ang mga ito, nahanap ninyo ang pares nang magkasama.",
+      "Kung magkaiba, pindutin ang \"Ibalik sila\" kapag handa na kayong dalawa. Lilipat ang turn.",
+      "Puwedeng pindutin ng sinuman sa inyo ang \"Pass\" anumang oras. I-tap ang \"Magsimulang muli\" para sa bagong mga card, o i-tap ang Pahinga para huminto."
+    ],
+    "tips": [
+      "Umupo nang magkatabi at sabihin nang malakas ang mga larawan nang magkasama: \"Isang tasa ng tsaa. Nilalagyan mo ba ng gatas ang tsaa mo?\"",
+      "Hayaang ang taong inaalagaan mo ang mag-tap, kahit matagal. Ituro na lang sa halip na ikaw ang mag-tap para sa kanya.",
+      "Piliin ang \"Nakabaligtad na mga card\" kung pareho kayong nasisiyahang magbaligtad ng card para hanapin ang mga larawan.",
+      "Ang taong madaling mapagod ay puwedeng mag-pass nang kasing dalas ng gusto niya. Nahahanap pa rin ang mga pares nang magkasama."
+    ],
+    "faq": [
+      {
+        "q": "May panalo ba, timer o puntos?",
+        "a": "Wala. Walang panalo, dahil magkakasama ninyong hinahanap ang mga pares bilang isang koponan. Walang orasan, walang puntos, at walang bilang ng mga pagkakamali. Ang tally ay nagbibilang lang ng mga pares na nahanap ninyo nang magkasama, at puwede kayong huminto anumang oras."
+      },
+      {
+        "q": "Kailangan ba naming tandaan kung nasaan ang mga larawan?",
+        "a": "Hindi. Nakikita ang bawat larawan sa simula ng laro. Kung nakabaligtad ang mga card, puwede ninyong itanong sa isa't isa kung ano ang nakita ninyo, o bawiin lang ulit ang mga ito."
+      },
+      {
+        "q": "Ano ang mangyayari kapag magkaiba ang dalawang card?",
+        "a": "Mananatili silang nakalantad para makita ninyong pareho, hangga't kailangan ninyo. Walang awtomatikong magbabaligtad sa mga ito. Kapag handa na kayo, pindutin ang \"Ibalik sila\" at lilipat ang turn sa kabilang tao."
+      },
+      {
+        "q": "May nase-save o naipapadala ba sa nilalaro natin?",
+        "a": "Wala. Nananatili lang ang mga card sa pahinang ito. Walang nase-save, naia-upload o nabibilang, at mawawala ito kapag isinara ang pahina."
+      },
+      {
+        "q": "Sapat bang malaki ang mga card para sa nanginginig na kamay o maliit na screen?",
+        "a": "Ang bawat card ay hindi bababa sa 64 pixels ang lapad at kasing laki ng kayang ipakita ng screen. Naririnig ng mga gumagamit ng keyboard at screen reader ang bawat card ayon sa puwesto at larawan nito."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Mga dice ng kuwento",
+    "seoTitle": "Mga Dice ng Kuwento: Larong Pagkukuwento Gamit ang Larawan",
+    "h1": "Mga Dice ng Kuwento: Magkuwento Gamit ang mga Larawan",
+    "description": "Tatlo o apat na picture dice na gagamitin sa pagkukuwento, sa anumang pagkakasunod-sunod. Walang pagbabasa, walang tamang sagot, walang timer at walang puntos. Mag-roll muli, o mag-pass. Libreng laruin at i-print.",
+    "short": "I-roll ang mga picture dice at magkuwento nang magkasama, sa anumang pagkakasunod-sunod.",
+    "players": "2 o higit pang tao, o isang nasa hustong gulang at isang bata",
+    "intro": "Tatlong o apat na larawan ang ipinapakita, parang dice. Sama-sama, gumawa ng kuwentong gumagamit sa mga ito, sa anumang pagkakasunod-sunod. Ang kuwento ay maaaring isa o ilang pangungusap, at maaari itong nakakatawa o malapit sa totoong buhay. Walang tamang kuwento, at walang kailangang banggitin o alalahanin ang anuman. I-tap ang \"Ihagis muli\" para sa mga bagong larawan, at puwedeng laktawan ng sinuman ang kanyang turn.",
+    "howTo": [
+      "Pumili ng tatlo o apat na dice. Ang tatlo ang pinakasimple.",
+      "Tingnan nang magkakasama ang mga larawan. I-tap ang isa kung gusto ninyong magsimula roon.",
+      "Magpalitan sa pagkukuwento gamit ang mga larawan, sa anumang pagkakasunod-sunod. Sapat na ang isang pangungusap bawat isa.",
+      "Puwedeng laktawan ng sinuman ang kanyang turn. I-tap ang \"Laktawan\" at maaaring magsimula ang susunod na tao.",
+      "I-tap ang \"Ihagis muli\" para sa mga bagong larawan kahit kailan ninyo gusto, o i-tap ang Pahinga para tumigil."
+    ],
+    "tips": [
+      "Magtanong sa halip na maghintay ng sagot: \"Saan kaya pupunta ang payong?\"",
+      "Idagdag sa sinabi ng nakaraang tao sa halip na itama ito. Tatanggapin ang anumang kuwento.",
+      "Puwedeng tungkol sa totoong alaala ang kuwento. Magandang simula ang isang larawan para dito."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw, o pagkatalo. Maaari kang tumigil anumang oras, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin ito."
+      },
+      {
+        "q": "Kailangan ko bang basahin o pangalanan ang mga larawan?",
+        "a": "Hindi. Gumagana ang laro sa mga larawan lamang. Maaaring magturo, maglarawan, o simpleng sabihin ng mga manlalaro kung ano ang naaalala nila sa larawan. Walang hinihinging pangalanan o alalahanin ang anuman."
+      },
+      {
+        "q": "Paano kung ayaw ng isang tao na magkaroon ng turn?",
+        "a": "Maaari silang laktawan anumang oras nang walang paliwanag. Maghihintay lang ang laro, at maaaring magsimula ang susunod na tao o puwede ninyong ihagis muli."
+      },
+      {
+        "q": "May bersyong papel ba?",
+        "a": "Mayroon. Ang isang pahinang sheet ay may labing-anim na magkakaibang larawan sa apat na hanay. Pumili ng isang hanay, o gupitin ang mga larawan at kumuha ng ilan mula sa isang tumpok."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up, o download. Gumagana ito sa web browser ng telepono, tablet, o computer."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Mga pares ng salita at larawan",
+    "seoTitle": "Mga Pares ng Salita at Larawan: Itugma ang Salita sa Larawan",
+    "h1": "Mga Pares ng Salita at Larawan: Itugma ang Salita sa Larawan",
+    "description": "Itugma ang mga salitang Ingles sa kanilang mga larawan, at pakinggan ang anumang salita na binabasa nang malakas. Nananatiling nakikita ang mga larawan, walang timer, iskor, o bilang ng mga pagsubok. Libreng laruin at i-print.",
+    "short": "Itugma ang bawat salita sa larawan nito, at pakinggan itong binabasa nang malakas.",
+    "players": "Isang adulto, o isang pamilyang naglalaro nang magkatabi",
+    "intro": "Apat o anim na larawan ang ipinapakita, kasama ang kanilang mga salitang Ingles sa magkakaibang pagkakasunod-sunod. I-tap ang isang salita at pagkatapos ang larawan nito, o ang isang larawan at pagkatapos ang salita nito. Mananatiling magkasama ang tamang pares na may makapal na hangganan at ang salitang \"Naitugma\". I-tap ang \"Basahin nang malakas\" sa tabi ng anumang salita para marinig ito. Walang oras o iskor, at ang pag-tap na hindi tumutugma ay awtomatikong nawawala.",
+    "howTo": [
+      "Pumili ng apat o anim na larawan. Ang apat ang pinakasimple.",
+      "I-tap ang isang salita, at pagkatapos ang larawang tinutukoy nito. O i-tap muna ang isang larawan, at pagkatapos ang salita nito.",
+      "Mananatiling magkasama ang tamang pares. Tahimik na nawawala ang pag-tap na hindi tumutugma, kaya subukan ang iba.",
+      "I-tap ang \"Basahin nang malakas\" sa tabi ng salita para marinig ito, kung kayang basahin nang malakas ng iyong device ang teksto.",
+      "I-tap ang \"Bagong larawan\" para sa ibang set, o \"Magsimulang muli\" para alisin ang lahat ng pares. Ibinabalik ng \"Ibalik\" ang huling mga tugma."
+    ],
+    "tips": [
+      "Sabay-sabay na sabihin nang malakas ang bawat salita bago ito itugma, at pag-usapan ang larawan.",
+      "Maaaring magpalitan ang mga pamilya. Bawat tao ay pumipili ng isang salita o larawan sa bawat pagkakataon.",
+      "Gamitin muna ang mga salitang alam na ninyo, at iwan ang iba para sa susunod."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw, o pagkatalo. Maaari kang tumigil anumang oras, at ang paghinto sa kalagitnaan ay isa ring magandang paraan para tapusin ito."
+      },
+      {
+        "q": "Para ba ito sa mga bata?",
+        "a": "Ginawa ito para sa mga adultong nag-aaral o muling nag-aaral ng mga salitang Ingles, at para sa mga pamilyang naglalaro nang magkatabi. Hindi ito isinulat para sa mga bata."
+      },
+      {
+        "q": "Paano kung hindi kayang basahin nang malakas ng aking device ang teksto?",
+        "a": "Ang pindutang Basahin nang malakas ay gumagamit ng boses na mayroon na ang iyong browser. Kung hindi kayang magsalita ng browser, hindi ipapakita ang pindutan at gumagana pa rin ang laro nang wala ito."
+      },
+      {
+        "q": "May bersyong papel ba?",
+        "a": "Mayroon. Ang isang pahinang sheet ay may anim na larawan at ang kanilang anim na salita, na puwedeng gupitin o pagdugtungin ng linya."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up, o download. Gumagana ito sa web browser ng telepono, tablet, o computer."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Pag-uri-uriin nang magkasama",
-    "seoTitle": "Larong Pag-uuri sa Dementia: Mag-uri nang Magkasama",
+    "seoTitle": "Larong Pag-uuri-uri: Mag-uri-uri nang Magkakasama para sa mga Adulto",
     "h1": "Pag-uri-uriin nang Magkasama: Pag-uuri ng Larawan",
-    "description": "I-tap ang larawan, pagkatapos ang basket na pinagbibilangan nito: kusina o hardin, prutas o hayop. Libreng aktibidad sa pag-uuri para sa taong may dementia.",
+    "description": "I-tap ang isang larawan, at pagkatapos ang basket kung saan ito kabilang: kusina o hardin, prutas o hayop. Isang payapa at libreng larong pag-uuri-uri para sa mga adulto at pamilya.",
     "short": "Ilagay ang bawat larawan sa basket nito: kusina o hardin, at iba pa.",
     "players": "1 o 2 tao",
     "intro": "Pamilyar at nakakasiyang gawain sa araw-araw ang pag-uuri, tulad ng pag-aayos ng pinamili o pagtutugma ng medyas. I-tap ang larawan, pagkatapos ang basket na pinagbibilangan nito. Walang pagmamadali at walang maling hakbang.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Puzzle ng larawan",
-    "seoTitle": "Madaling Jigsaw Puzzle sa Dementia: 4 o 9 na Piraso",
+    "seoTitle": "Madaling Online na Jigsaw: 4 o 9 Malalaking Piyesa",
     "h1": "Puzzle ng Larawan: Madaling Jigsaw",
-    "description": "Madaling online na jigsaw para sa taong may dementia: 4 o 9 na malalaking piraso, nakikita ang buong larawan, at i-tap ang dalawang piraso para magpalit.",
+    "description": "Isang madaling online na jigsaw para sa mga adulto: 4 o 9 na malalaking piyesa, nananatiling nakikita ang buong larawan, at i-tap ang dalawang piyesa para magpalitan ng puwesto. Gamitin ang sarili ninyong larawan, na nananatili sa device na ito. Libre, walang timer.",
     "short": "I-tap ang dalawang piraso para magpalit hanggang mabuo ang larawan.",
     "players": "1 o 2 tao",
-    "intro": "Isang magiliw na larawan ang hinahati sa apat o siyam na malalaking piraso at hinahalo. Nananatiling nakikita ang buong larawan bilang gabay. I-tap ang isang piraso, pagkatapos ang isa pa, at magpapalit sila ng puwesto. Hindi kailangang mag-drag.",
+    "intro": "Ang isang magiliw na larawan ay hinihiwa sa apat o siyam na malalaking piyesa at hinahalo. Nananatiling nakikita ang buong larawan bilang gabay. I-tap ang isang piyesa, at pagkatapos ang isa pa, at magpapalitan sila ng puwesto. Hindi kailangang i-drag. Maaari ka ring gumamit ng isa sa sarili mong mga larawan. Nananatili ito sa device na ito at hindi kailanman ina-upload.",
     "howTo": [
       "Pumili ng larawan at 4 o 9 na piraso. Banayad na simula ang apat.",
       "Tingnan ang buong larawan sa itaas.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Tapusin ang kasabihan",
-    "seoTitle": "Tapusin ang Kasabihan: Laro ng Salawikain",
+    "seoTitle": "Tapusin ang Kasabihan: Larong may mga Pamilyar na Kasabihan",
     "h1": "Tapusin ang Kasabihan",
     "description": "Mga pamilyar na kasabihang kulang ang huling salita, tulad ng “Kung may tiyaga, may ___”. Pumili ng sagot o ipakita ang wakas, saka pag-usapan ito.",
     "short": "Tapusin nang magkasama ang mga pamilyar na kasabihan, saka pag-usapan ang mga ito.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Word search na malalaki ang letra",
-    "seoTitle": "Word Search na Malalaki ang Letra sa Dementia, Ipi-print",
+    "seoTitle": "Word Search na Malaking Letra, Libre at Maaaring I-print",
     "h1": "Word Search na Malalaki ang Letra",
-    "description": "Libreng word search na malalaki ang letra para sa nakatatanda at taong may dementia. Kaunting salita, pahalang at pababa lang. Laruin online o i-print.",
+    "description": "Isang libreng word search na malaki ang letra para sa mga nakatatanda at pamilya. Kaunting salita, malalaking letra, pahalang at patayo lamang. Maglaro online o i-print.",
     "short": "Malalaking letra, ilang salita, pahalang at pababa lang. I-print din ito.",
     "players": "1 o 2 tao",
     "intro": "Maliit na grid na may malalaking letra at ilang salita lang, na lahat ay binabasa pahalang o pababa. I-tap ang unang letra ng isang salita, pagkatapos ang huling letra nito. Mas gusto ang papel? Mag-print ng bagong puzzle sa isang tap.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Mga pangkulay",
-    "seoTitle": "Mga Pangkulay para sa mga Adulto na may Dementia (Libre)",
+    "seoTitle": "Libreng Pahina para Kulayan ng Adulto, Malalaki at Simple",
     "h1": "Mga Pangkulay",
     "description": "Simpleng pangkulay na pang-adulto na may malalawak na bahagi: pumili ng kulay, saka i-tap ang larawan. Walang maling kulay, at libreng i-print ang bawat pahina.",
     "short": "Pumili ng kulay, saka ng bahagi ng larawan. Puwede ring i-print ang mga pahina.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Mga kard ng usapan",
-    "seoTitle": "Panimula ng Usapan sa Dementia: Mga Kard ng Larawan",
+    "seoTitle": "Mga Panimula sa Usapan: Mga Picture Card para sa Pamilya",
     "h1": "Mga Kard ng Usapan",
-    "description": "Mga kard ng larawan na may banayad na panimula ng usapan para sa taong may dementia: walang pagsusulit o tamang sagot. Gamitin sa screen o i-print.",
+    "description": "Mga picture card na may banayad na panimula sa usapan para sa pamilya, kaibigan at mga nakatatanda, kabilang ang mga taong may dementia. Walang pagsusulit, walang tamang sagot.",
     "short": "Mga kard ng larawan na may bukas at banayad na tanong. Walang pagsusulit.",
     "players": "2 tao o isang grupo",
     "intro": "Pinagpapares ng bawat kard ang isang pamilyar na larawan at isang bukas na paanyaya na mag-usap, tulad ng “Ano ang paborito ninyong uri ng panahon?” Walang tamang sagot at walang kailangang tandaan. Pumili ng tema o paghaluin ang lahat.",
@@ -329,12 +979,13 @@
     "description": "Gawing banayad na larong pagtutugma ang sarili ninyong litrato ng pamilya. Pumili ng 2 hanggang 6; nananatili ang mga ito sa browser at hindi ina-upload.",
     "short": "Pumili ng sarili ninyong litrato at itugma ang mga ito. Walang ina-upload.",
     "players": "2 tao, magkatabi",
-    "intro": "Pumili ng dalawa hanggang anim na litrato mula sa telepono, tablet o computer ninyo, at magiging larong pagtutugma ang mga ito na may malalaki at nakikitang larawan. Sa loob lang ng pahinang ito ipinapakita ang mga litrato. Hindi sila ina-upload, sine-save o ibinabahagi, at nawawala ang mga ito kapag isinara ninyo ang pahina.",
+    "intro": "Pumili ng dalawa hanggang anim sa sarili ninyong mga larawan ng pamilya mula sa telepono, tablet o kompyuter, at magiging larong pagtutugma ang mga ito, na may malalaki at malinaw na larawan. Lumalabas lamang ang mga larawan sa loob ng pahinang ito. Hindi ito ina-upload, sine-save o ibinabahagi, at nawawala ang mga ito kapag isinara mo ang pahina. Kung gusto mo, maglagay ng ilang salita sa ilalim ng bawat larawan, at maaaring magbigay ang banayad na pahiwatig ng isang pares pagkatapos ng sandaling paghinto. Isa itong paraan para sama-samang tingnan ang mga larawan ng pamilya.",
     "howTo": [
-      "I-tap ang “Pumili ng mga litrato” at pumili ng dalawa hanggang anim na litrato.",
-      "Dalawang beses lalabas ang bawat litrato. I-tap ang isa, pagkatapos ang pares nito.",
-      "Pag-usapan ang bawat litrato habang nahahanap ninyo ito.",
-      "Kapag tapos na kayo, isara ang pahina o i-tap ang “Burahin ang mga litrato”. Walang itinatabi."
+      "I-tap ang \"Pumili ng mga larawan\" at pumili ng dalawa hanggang anim na larawan.",
+      "Lumalabas ang bawat larawan nang dalawang beses. I-tap ang isa, saka i-tap ang katambal nito.",
+      "Kung gusto mo, maglagay ng ilang salita sa ilalim ng bawat larawan. Hindi sine-save ang mga caption.",
+      "Pag-usapan ang bawat larawan habang hinahanap ninyo ito.",
+      "Kapag tapos na kayo, isara ang pahina o i-tap ang \"Burahin ang mga larawan\". Walang iniiwan."
     ],
     "tips": [
       "Pumili ng malilinaw na litrato ng masasaya at pamilyar na bagay: alagang hayop, hardin, paboritong lugar, araw ng kasal.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Bingo ng larawan",
-    "seoTitle": "Bingo ng Larawan para sa may Dementia: Ipi-print",
+    "seoTitle": "Printable na Picture Bingo para sa Mga Grupo",
     "h1": "Bingo ng Larawan para sa mga Grupo",
-    "description": "Libreng bingo ng larawan na ipi-print para sa memory care at grupo ng nakatatanda, na may malaking on-screen na tagatawag. 9 o 16 na parisukat.",
+    "description": "Libreng printable na picture bingo para sa pamilya, grupo ng mga nakatatanda at mga care home. Malalaking larawan na may salita, 9 o 16 na kahon, at malaking tagatawag sa screen.",
     "short": "Mga kard ng bingo ng larawan na ipi-print at tagatawag sa malaking screen para sa mga grupo.",
     "players": "Grupo ng 2 hanggang 30",
     "intro": "Klasikong bingo na may mga larawan sa halip na numero, kaya walang kailangang magbasa ng maliliit na letra. Mag-print ng set ng magkakaibang kard, saka gamitin ang on-screen na tagatawag para ipakita nang malaki ang bawat larawan sa TV, laptop o tablet.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Tagaplano ng piknik",
+    "seoTitle": "Tagaplano ng Piknik: Pumili ng Larawan para sa Lakad",
+    "h1": "Tagaplano ng Piknik: Pumili ng Larawan, Saka Itugma ang mga Ito",
+    "description": "Pumili ng mga larawan ng pagkain at mga gawain para sa piknik, saka maglaro ng banayad na round ng pagtutugma gamit ang mga ito. Walang oras na sinusukat. Libreng laruin at i-print.",
+    "short": "Pumili ng mga larawan ng pagkain at lakad para sa piknik, saka itugma ang mga ito.",
+    "players": "Mag-isa, o 2 tao na magkatabi",
+    "intro": "I-tap ang mga larawan ng pagkain at mga bagay na puwedeng gawin para ilagay ang mga ito sa basket ng piknik, na kayang maglaman ng hanggang anim. Sinasabi ng isang pangungusap sa salita kung ano ang nasa basket, gaya ng \"Ang piknik natin: tinapay, keso, mansanas at saranggola.\" Pagkatapos, i-tap ang \"Maglaro tayo gamit ang ating piknik\" para sa banayad na round ng pagtutugma na gawa sa mga napiling larawan. Nananatiling nakikita ang mga larawan, at walang oras na sinusukat, binibigyan ng marka o sine-save. Ang \"I-print ang listahan ng piknik natin\" ay nagpi-print ng checklist ng mga napili mo, na may kahon para lagyan ng tsek ang bawat dadalhin.",
+    "howTo": [
+      "I-tap ang larawan ng pagkain o ng isang bagay na puwedeng gawin. Mapupunta ito sa basket.",
+      "I-tap ang larawan sa basket para alisin ito muli.",
+      "Pumili ng hindi bababa sa dalawang bagay, saka i-tap ang \"Maglaro tayo gamit ang ating piknik\".",
+      "I-tap ang dalawang magkaparehong larawan. Nananatiling nakikita ang mga larawan, kaya walang kailangang tandaan.",
+      "I-tap ang \"I-print ang listahan ng piknik natin\" para sa papel na checklist na dadalhin ninyo."
+    ],
+    "tips": [
+      "Tanungin ang mga kasama mo kung ano ang gusto nilang dalhin, at pumili ng mga larawan nang magkasama.",
+      "Pag-usapan ang bawat larawan habang ipinapasok ito: \"Naaalala mo ba ang saranggolang pinalipad natin sa dalampasigan?\"",
+      "Sa papel, ang mga blangkong linya ay para sa anumang iba pang gusto ninyong dalhin, o para sa isang pangalan."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba, puntos o nanalo?",
+        "a": "Wala. Walang oras na sinusukat o binibilang, at walang nananalo. Walang mali at walang puntos ang round ng pagtutugma."
+      },
+      {
+        "q": "Meal plan ba ito?",
+        "a": "Hindi. Plano ito ng larawan para sa lakad, na puwedeng pag-usapan at dalhin sa papel. Hindi nito sinasabi kung ano ang dapat kainin ninuman."
+      },
+      {
+        "q": "Sine-save o ipinapadala ba ang mga larawang pinipili namin?",
+        "a": "Hindi. Nananatili lamang sa pahinang ito ang basket. Hindi ito sine-save, ina-upload o ipinapadala, at nawawala ito kapag isinara mo ang pahina."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"I-print ang listahan ng piknik natin\" ay nagpi-print ng isang pahina, sa A4 o US Letter. Ipinapakita nito ang mga larawang pinili mo, na may kahon para sa tsek ang bawat isa, at mga blangkong linya para sa anumang iba pa."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pag-sign up?",
+        "a": "Oo, libre ito, at walang account, pag-sign up o pag-download. Gumagana ito sa web browser sa telepono, tablet o kompyuter."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Scrapbook",
+    "seoTitle": "Scrapbook: Sama-samang Buklatin ang mga Larawan ng Pamilya, Pahina por Pahina",
+    "h1": "Scrapbook: Idagdag ang Iyong mga Larawan at Caption, Saka Buklatin ang mga Pahina",
+    "description": "Pumili ng dalawa hanggang labindalawang larawan ng pamilya sa iyong device at buklatin ang mga ito bilang aklat, na may ilang salita sa ilalim ng bawat isa. Walangina-upload. Libreng i-print.",
+    "short": "Sama-samang buklatin ang sarili ninyong mga larawan ng pamilya, gaya ng aklat.",
+    "players": "Mag-isa, o 2 tao na magkatabi",
+    "intro": "Pumili ng dalawa hanggang labindalawang larawan mula sa device na ito. Ang bawat larawan ay nagiging isang pahina ng aklat, sapat ang laki para makita, na may opsyonal na ilang salita sa ilalim. Buklatin ang mga pahina gamit ang mga button o ang arrow key, at gamitin ang \"Tingnan nang sabay\" para magkatabi kayong tumingin sa mga larawan at salita lamang. Nananatili sa device na ito ang mga larawan ninyo. Hindi ito ina-upload o sine-save, at nawawala ang aklat kapag isinara mo ang pahina. Ang \"I-print ang scrapbook\" ay nagpi-print ng isang larawan at mga salita nito sa bawat pahina, na may numero ng pahina.",
+    "howTo": [
+      "I-tap ang \"Pumili ng mga larawan\" at pumili ng dalawa hanggang labindalawang larawan. Magtanong muna bago gumamit ng larawan ng taong hindi makasagot ng oo.",
+      "Buklatin ang mga pahina gamit ang \"Nakaraang pahina\" at \"Susunod na pahina\", o gamit ang Left at Right na arrow key.",
+      "Maglagay ng ilang salita sa ilalim ng larawan kung gusto mo. Gamitin ang \"Ilipat pauna\" o \"Ilipat pahuli\" para baguhin ang ayos.",
+      "I-tap ang \"Tingnan nang sabay\" para itago ang mga kontrol sa pag-edit at tingnan ang aklat nang magkatabi.",
+      "I-tap ang \"I-print ang scrapbook\" para sa kopyang papel, o ang \"Burahin ang aklat\" kapag tapos na kayo. Walang iniiwan."
+    ],
+    "tips": [
+      "Wähle Fotos von schönen, vertrauten Dingen: einem Garten, einem Haustier, einem Lieblingsort. Sprecht über jede Seite, während ihr umblättert.",
+      "Lassen Sie die Person zu jeder Seite ein paar Worte sagen, auch nur ein einziges Wort, und schreiben Sie diese genau so auf, wie sie gesagt werden.",
+      "Auf Papier können die gedruckten Seiten in einen Ordner kommen, und die Familie kann eigene Bilder und Notizen rund um sie herum ergänzen."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es einen Timer, eine Punktzahl oder einen Gewinner?",
+        "a": "Nein. Nichts wird gestoppt, bewertet oder gezählt, und niemand gewinnt. Die Seitenzahl dient nur dazu, dass Sie wissen, wo Sie im Buch sind."
+      },
+      {
+        "q": "Werden unsere Fotos oder Bildunterschriften gespeichert, hochgeladen oder gesendet?",
+        "a": "Nein. Die Fotos werden nur von dieser Seite gelesen. Sie werden nicht hochgeladen, gespeichert oder irgendwohin gesendet. Die Bildunterschriften bleiben nur geöffnet, solange die Seite offen ist. Wenn Sie die Seite schließen, ist das Buch weg."
+      },
+      {
+        "q": "Können wir das Buch drucken?",
+        "a": "Ja. „Das Fotobuch drucken“ druckt auf jede Seite ein Foto mit seiner Bildunterschrift sowie Seitenzahlen. Wählen Sie im Druckdialog A4 oder US Letter."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Handy, Tablet oder Computer."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Collage-Tafel",
+    "seoTitle": "Collage-Tafel: Zwei Personen legen Bilder abwechselnd auf eine Tafel",
+    "h1": "Collage-Tafel: Bilder abwechselnd auf eine gemeinsame Tafel legen",
+    "description": "Zwei Personen legen abwechselnd ausgeschnittene Bilder auf eine gemeinsame Tafel. Tippen Sie auf einen Ausschnitt und dann auf einen freien Platz. Keine Zeitmessung, keine Punkte. Kostenlos zu spielen und zu drucken.",
+    "short": "Legen Sie abwechselnd Bilder auf eine gemeinsame Tafel.",
+    "players": "2 Personen, nebeneinander",
+    "intro": "Zwei Personen sitzen nebeneinander an einer Tafel mit zwölf Plätzen und einem Fach mit acht ausgeschnittenen Bildern. Tippen Sie auf einen Ausschnitt und dann auf einen freien Platz, und das Bild wird dorthin gelegt. Danach ist die andere Person an der Reihe. Die Bilder jeder Person haben ihre eigene Form, einen Kreis oder ein Quadrat, sodass die Tafel zeigt, wer was gelegt hat, ohne dass Farbe nötig ist. Jede Person darf aussetzen, und ein Schritt kann zurückgenommen werden. Nichts wird gestoppt, bewertet oder gespeichert. „Die Tafel drucken“ druckt die leere Tafel und die Bilder zum Ausschneiden.",
+    "howTo": [
+      "Tippen Sie im Fach auf einen Ausschnitt. Solange er ausgewählt ist, steht dort „Ausgewählt“.",
+      "Tippen Sie auf einen freien Platz auf der Tafel. Der Ausschnitt wird dorthin gelegt, und die Reihe wechselt.",
+      "Jede Person kann jederzeit auf „Aussetzen“ tippen oder auf „Letztes Teil zurücknehmen“, um einen Schritt rückgängig zu machen.",
+      "Tippen Sie auf „Ein anderer Satz Bilder“ für ein anderes Fach. Bilder, die schon auf der Tafel liegen, bleiben, wo sie sind.",
+      "Tippen Sie auf „Neu beginnen“, um die Tafel zu leeren, und auf „Zurücklegen“, wenn Sie es sich anders überlegen."
+    ],
+    "tips": [
+      "Nennen Sie den Namen jedes Bildes, während es gelegt wird, zum Beispiel: „Die Teetasse kommt neben das Haus.“ Miteinander zu sprechen macht die Tätigkeit zu einer gemeinsamen Sache.",
+      "Lassen Sie beide Personen abwechselnd den Ausschnitt und den Platz wählen, damit jede mitentscheiden kann.",
+      "Auf Papier schneiden Sie die acht Bilder mit etwas Hilfe eines Erwachsenen aus und legen sie dann auf die gedruckten Felder."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es einen Timer, eine Punktzahl oder einen Gewinner?",
+        "a": "Nein. Nichts wird gestoppt, bewertet oder gezählt, und niemand gewinnt. Eine volle Tafel ist einfach eine, auf der an jedem Platz ein Bild liegt."
+      },
+      {
+        "q": "Werden die Bilder, die wir legen, gespeichert oder gesendet?",
+        "a": "Nein. Die Tafel bleibt nur auf dieser Seite. Sie wird nicht gespeichert, hochgeladen oder gezählt und ist weg, wenn Sie die Seite schließen."
+      },
+      {
+        "q": "Woran erkennen wir, welches Bild wem gehört?",
+        "a": "Jede Person hat eine Form. Die Bilder der ersten Person haben in der Ecke einen Kreis, die der zweiten Person ein Quadrat. Über der Tafel steht jeweils der Name."
+      },
+      {
+        "q": "Gibt es eine Version auf Papier?",
+        "a": "Ja. „Die Tafel drucken“ druckt die leere Tafel als zwölf Kästchen, darunter die acht Bilder in gleicher Größe und mit der Schnittlinie. Das Ausschneiden kann ein Erwachsener übernehmen."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Handy, Tablet oder Computer."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Gartenplaner",
+    "seoTitle": "Gartenplaner: Ein Beet aus Pflanzenbildern gestalten",
+    "h1": "Gartenplaner: Bilder wählen und ein Beet gestalten",
+    "description": "Wählen Sie Bilder von Pflanzen und Gartensachen und legen Sie sie auf zwölf Beete einer Fläche. Tippen Sie auf ein Bild und dann auf ein Beet. Keine Zeitmessung, keine Punkte. Kostenlos zu spielen und zu drucken.",
+    "short": "Wählen Sie Pflanzenbilder und gestalten Sie eine Fläche mit zwölf Beeten.",
+    "players": "Allein oder 2 Personen nebeneinander",
+    "intro": "Wählen Sie Bilder aus einem Fach mit Pflanzen und Gartensachen und tippen Sie dann auf ein Beet, um jedes Bild dorthin zu legen. Eine Fläche hat zwölf Beete, und in jedem Beet hat ein Bild Platz. Eine Zusammenfassung in Worten zeigt, was der Plan enthält, zum Beispiel: „Ihr Plan hat 3 Sonnenblumen, 2 Rosen und 1 Baum.“ Nichts wird gestoppt, bewertet oder gespeichert, und es gibt keine Reihenfolge. Dies ist ein Bilderplan zum Gespräch, kein Pflanzenratgeber. „Den Plan drucken“ druckt die Beete mit Ihren gewählten Bildern, dazu leere Beete zum Zeichnen und Linien für Notizen.",
+    "howTo": [
+      "Tippen Sie im Fach auf ein Bild. Solange es ausgewählt ist, steht dort „Ausgewählt“.",
+      "Tippen Sie auf ein Beet. Das Bild wird dorthin gelegt, und die Auswahl ist festgelegt.",
+      "Um ein Beet zu ändern, wählen Sie ein anderes Bild und tippen Sie auf das Beet. Um ein Beet zu leeren, tippen Sie darauf, ohne dass ein Bild ausgewählt ist.",
+      "Tippen Sie auf „Neu beginnen“, um alle Beete zu leeren, und auf „Zurücklegen“, wenn Sie es sich anders überlegen.",
+      "Tippen Sie auf „Den Plan drucken“ für eine Papierkopie der Fläche und der Zusammenfassung."
+    ],
+    "tips": [
+      "Talk about each picture as it goes in, such as \"ang mirasol ay nasa tabi ng birdhouse\". Ang pag-uusap ang nagiging dahilan kung bakit ito nagiging isang gawaing pinagsasaluhan.",
+      "Hayaang pumili ang bawat isa ng larawan nang paikot, o piliin ninyo nang sabay ang mga larawan, para may sasabihin ang bawat isa sa kuwento ng plano.",
+      "Sa papel, ang mga bakanteng kama ay para sa sarili ninyong mga ideya, at ang mga linya para sa tala ay para sa anumang nais ninyong tandaan."
+    ],
+    "faq": [
+      {
+        "q": "Payo ba ito sa pagtatanim?",
+        "a": "Hindi. Ito ay isang plano ng mga larawan na pag-uusapan, hindi payo sa pagtatanim. Hindi nito sinasabi kung kailan, saan o paano magtanim ng anuman, dahil nakadepende iyon sa lugar na kinalalagyan ninyo."
+      },
+      {
+        "q": "May timer, puntos o nanalo ba?",
+        "a": "Wala. Walang oras na sinusukat, walang puntos, walang rating, at walang nananalo. Ang punong plot ay hindi nakakatanggap ng espesyal na mensahe."
+      },
+      {
+        "q": "Sine-save o ipinapadala ba ang mga larawang pinili namin?",
+        "a": "Hindi. Ang plano ay nananatili lamang sa pahinang ito. Hindi ito sine-save, ina-upload o binibilang, at mawawala ito kapag isinara ninyo ang pahina."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"Print the plan\" ay nagpi-print ng isang pahina, sa A4 o US Letter. Ipinapakita nito ang labindalawang kama kasama ang mga larawang pinili ninyo, ang buod sa salita, at mga bakanteng linya para sa mga tala."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Group coloring wall",
+    "seoTitle": "Group Coloring Wall: Isang Larawan para sa Maraming Kamay",
+    "h1": "Group Coloring Wall: Isang Malaking Larawan, Kinulayan Nang Sama-sama",
+    "description": "I-print ang isang malaking larawan sa ilang pahina, para sa isang pamilya, klase o care home na sabay na makakulay sa isang pader. Libreng i-print. Walang timer o puntos.",
+    "short": "I-print ang isang malaking larawan sa mga pahina para kulayan ng maraming tao.",
+    "players": "Isang grupo, sa mesa o sa pader",
+    "intro": "Pumili ng larawan mula sa mga pahina ng pangkulay at isang pader na may 4, 6 o 9 na pahina. I-print ang pader: ang unang pahina ay nagpapakita kung paano ito bubuuin, at ang bawat isa sa iba pang pahina ay isang bahagi ng iisang malaking larawan, na may label tulad ng A1 sa kanyang sulok. Bawat tao ay kumukulay ng isa o higit pang pahina, sa anumang kulay at istilo. Pagkatapos, ayusin ang mga pahina ayon sa kanilang label at idikit ng tape sa likod. Walang oras na sinusukat, walang puntos, at walang sine-save.",
+    "howTo": [
+      "Pumili ng larawan, at pagkatapos ay piliin kung ilang pahina ang magkakaroon ang pader.",
+      "Basahin ang mapa sa screen, na nagpapakita kung saan pupunta ang bawat label.",
+      "Pindutin ang \"Print the wall\" at i-print ang lahat ng pahina.",
+      "Bigyan ang bawat tao ng isa o higit pang pahinang kukulayan. Hindi kailangang magkapareho ang mga kulay at istilo.",
+      "Ayusin ang mga pahina ayon sa kanilang label, at idikit ng tape sa likod."
+    ],
+    "tips": [
+      "Ibigay ang mga pahinang may pinakasimpleng balangkas sa mga taong gustong mas tahimik na gawain, at ang mas masalimuot na pahina sa sinumang nasisiyahan dito.",
+      "Ibitin ang pader kung saan makikita ng lahat, at pag-usapan nang sama-sama ang bawat bahagi.",
+      "Pumili ng mas maliit na pader para sa maliit na mesa, at mas malaki para sa silid."
+    ],
+    "faq": [
+      {
+        "q": "May timer, puntos o nanalo ba?",
+        "a": "Wala. Walang oras na sinusukat, walang puntos, at walang binibilang, at walang nananalo. Ang pader ay isang larawang kinulayan ng maraming tao."
+      },
+      {
+        "q": "Sine-save ba o ipinapadala kahit saan ang mga pahina?",
+        "a": "Hindi. Ang pader ay ginagawa sa pahinang ito lamang. Hindi ito sine-save, ina-upload o binibilang, at mawawala ito kapag isinara ninyo ang pahina."
+      },
+      {
+        "q": "Kailangan bang magkapareho ang mga kulay?",
+        "a": "Hindi. Maaaring gumamit ang bawat tao ng anumang kulay at anumang istilo. Magkakadikit pa rin ang mga pahina sa iisang larawan."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang naka-print na pader ang buong laro: isang unang pahina na may mga hakbang at mapa, at isang pahina para sa bawat bahagi ng larawan."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ko bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser sa telepono, tablet o computer."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Tahimik na palaisipang hugis",
+    "seoTitle": "Tahimik na Palaisipang Hugis: Ilagay ang mga Hugis sa Isang Larawan",
+    "h1": "Tahimik na Palaisipang Hugis: Ilagay ang mga Piraso sa Larawan",
+    "description": "Ilagay ang simpleng mga hugis sa balangkas ng bahay, bangka, isda at iba pa. Pindutin ang isang piraso, pagkatapos ang isang espasyong may parehong hugis. Walang timer o puntos. Libreng laruin at i-print.",
+    "short": "Ilagay ang simpleng mga hugis sa isang larawan, sa sarili ninyong bilis.",
+    "players": "1 tao, sa mesa",
+    "intro": "Ang balangkas ng larawan, tulad ng bahay, bangka o rocket, ay hinati sa mga espasyo. Bawat espasyo ay may pirasong magkapareho ang hugis, isang malaki o maliit na tatsulok, parisukat, parallelogram o parihaba. Pindutin ang isang piraso, pagkatapos ang isang espasyong may parehong hugis, at magkakasya ito. Ang espasyo na ang umiikot sa piraso para sa inyo, kaya walang kailangang i-drag o paikutin. Kung iba ang hugis ng piraso sa espasyo, mananatili ito sa tray na may maikling paalala. Walang sinusukat o binibilang na oras, at walang sine-save o ipinapadala. Ang \"Print this shape\" ay nagpi-print ng balangkas at mga piraso nito sa isang pahina, para kulayan o gupitin.",
+    "howTo": [
+      "Pindutin ang isang piraso sa tray. Lalabas ang \"Chosen\" habang ito ay napili.",
+      "Pindutin ang isang espasyo sa larawan. Kung tugma ang hugis, doon ilalagay ang piraso.",
+      "Kung hindi tugma, subukan ang ibang espasyo. Walang nawawala sa pagsubok.",
+      "Pindutin ang isang piraso sa larawan para ibalik ito sa tray, o gamitin ang \"Start again\" para ibalik silang lahat.",
+      "Kapag may piraso na ang bawat espasyo, kumpleto na ang larawan. Pindutin ang \"Another shape\" para sa bago, o pindutin ang Rest para huminto."
+    ],
+    "tips": [
+      "Mga linyang pahiwatig ang makakatulong sa iyo na makita ang bawat espasyo. Patayin ang mga ito kung gusto mo ng mas malaking hamon, kung saan ang balangkas lang ang gabay.",
+      "Simulan sa malalaking hugis, gaya ng malalaking tatsulok at mga parihaba. Kadalasan, ang maliliit na piraso ang huling nilalagay.",
+      "Sabihin nang malakas ang pangalan ng mga hugis habang naglalaro: \"isang tatsulok, isang parisukat, isang mahabang parihaba\". Ang pag-uusap ay nakakatulong para maging gawaing pinagsasaluhan.",
+      "Sa papel, kulayan ang mga piraso ng dalawa o tatlong kulay, o gupitin ang mga ito habang may nakatatandang tumutulong."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba, iskor o bilang ng galaw?",
+        "a": "Wala. Walang oras, bilang, o iskor. Ang piraso na hindi kasya ay hindi lang muna ilalagay, at maaari kang huminto anumang oras."
+      },
+      {
+        "q": "May naise-save o naipapadala ba sa aming ginawa?",
+        "a": "Wala. Nananatili ang larawan sa pahinang ito lamang. Hindi ito sine-save, ina-upload, o binibilang, at mawawala ito kapag isinara mo ang pahina."
+      },
+      {
+        "q": "Sapat ba ang laki ng mga espasyo para sa nanginginig na kamay o maliit na screen?",
+        "a": "Ang balangkas ay iginuhit nang kasinlaki ng pinapayagan ng screen, at ang bawat espasyo ay isang pindutan na maaabot ng daliri o ng Tab key. Ang mga piraso sa tray ay ang malalaking pindutan ng pahina."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Mayroon. Ang \"Print this shape\" ay nagpi-print ng isang larawan sa isang pahina: ang balangkas na may mga linyang pahiwatig, at ang mga piraso na iginuhit sa parehong laki sa tabi nito. Kulayan ang mga piraso, o gupitin ang mga ito para kumasya. Maaaring gawin ng isang nakatatanda ang pagguguhit."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pagpaparehistro?",
+        "a": "Oo, libre ito, at walang account, pagpaparehistro, o pag-download. Gumagana ito sa web browser ng telepono, tablet, o computer."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Mahinahong paghinga",
-    "seoTitle": "Mahinahong Paghinga para sa mga Nakatatanda at Tagapag-alaga",
+    "seoTitle": "Isang Mahinahong Pahinga sa Paghinga na Pagsasaluhan",
     "h1": "Isang Mahinahong Paghinga",
     "description": "Mabagal at tahimik na saglit ng paghinga: lumalaki at lumiliit ang banayad na bilog sa anim na hinga. Kayo ang magsisimula at puwedeng huminto anumang oras.",
     "short": "Isang mabagal na bilog na sasabayan ng paghinga. Magsimula at huminto kailanman ninyo gusto.",
@@ -423,6 +1333,131 @@
       {
         "q": "Libre ba ito, at kailangan bang mag-sign up?",
         "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser ng telepono, tablet o computer."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Kadena ng kuwento",
+    "seoTitle": "Kadena ng Kuwento: Larong Pinagsasaluhang Kuwento sa Larawan",
+    "h1": "Kadena ng Kuwento: Magkuwento ng Isang Larawan sa Isang Pagkakataon",
+    "description": "Lumalaki ang isang hanay ng mga larawan, isa sa bawat pagkakataon, at bawat tao ay nagsasabi nang malakas ng isang pangungusap tungkol dito. Walang kailangang i-type at walang tamang sagot. Libre, mahinahon, walang timer at walang iskor.",
+    "short": "Magdagdag ng larawan, pagkatapos ay magsabi ng isang pangungusap bawat isa, nang salitan.",
+    "players": "2 o higit pang tao",
+    "intro": "Nagsisimula ang laro sa isang larawan at lumalaki ang kadena, isang larawan sa bawat pagkakataon. Nagsasabi ang bawat tao ng isang pangungusap tungkol sa kadena hanggang sa puntong iyon, nang malakas at nang salitan. Maaaring tungkol ito sa nakikita mo, sa lugar na naalala mo, o sa isang bagay na nakakatawa. Walang tina-type, nire-record, o itinatago, walang tamang sagot, at maaaring lumaktaw ang sinuman. Hihinto ang kadena sa walong larawan, at pagkatapos ay maaari kang magsimula ng bago.",
+    "howTo": [
+      "Tingnan nang magkakasama ang unang larawan.",
+      "Magsalitan: bawat tao ay nagsasabi ng isang pangungusap tungkol sa kadena hanggang sa puntong iyon. Maaaring lumaktaw ang sinuman.",
+      "I-tap ang \"Add a picture\" para ilagay ang susunod na larawan sa dulo ng kadena.",
+      "I-tap ang \"Take the last one off\" kung mas gusto mong bumalik ng isang larawan.",
+      "Kapag walong larawan na ang kadena, i-tap ang \"Start a new chain\" para sa bago, o huminto na lang."
+    ],
+    "tips": [
+      "Ayos lang ang maikli: \"May naglagay ng takure sa kalan.\" Ang susunod na tao ay magpapatuloy, o lalaktaw.",
+      "Hayaan ang mga larawan ang mamuno. Walang kuwentong kailangang marating.",
+      "Huminto kailanman mo gusto. Ang paghinto sa gitna ay isa ring magandang paraan para tapusin ang laro."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw, o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa gitna ay isa ring magandang paraan para tapusin ang laro."
+      },
+      {
+        "q": "May tina-type o nire-record ba?",
+        "a": "Wala. Sinasabi nang malakas ang mga pangungusap at hindi tina-type, nire-record, o ipinapadala kahit saan. Mga larawan lang ang ipinapakita ng laro."
+      },
+      {
+        "q": "Paano kung ayaw magsalita ng isang tao?",
+        "a": "Maaaring lumaktaw ang sinuman, at magpapatuloy ang susunod na tao. Walang kailangang pangalanan o tandaan na larawan."
+      },
+      {
+        "q": "Libre ba ito, at kailangan ba ng pagpaparehistro?",
+        "a": "Oo, libre ito, at walang account, pagpaparehistro, o pag-download. Gumagana ito sa web browser ng telepono, tablet, o computer."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Tahimik na eksena",
+    "seoTitle": "Tahimik na Eksena: Isang Larawan sa Isang Pagkakataon",
+    "h1": "Tahimik na Eksena: Isang Nakatigil na Larawan sa Isang Pagkakataon",
+    "description": "Isang malaki at nakatigil na larawan sa isang pagkakataon, bawat isa ay may isang banayad na linya sa ibaba. Pindutin ang Next o Previous kapag handa ka na. Walang gumagalaw o tumutugtog nang kusa, at walang timer o iskor. Libreng laruin, walang account.",
+    "short": "Tingnan ang isang nakatigil na larawan sa isang pagkakataon, sa sarili mong bilis.",
+    "players": "Mag-isa, o grupo sa iisang silid",
+    "intro": "Pumupuno ang isang malaking larawan sa screen, na may maikling linya sa ibaba. Pindutin ang \"Next picture\" o \"Previous picture\" kapag handa ka na sa susunod. Walang gumagalaw, kumukupas, o nagbabago nang kusa, at walang oras na binibilang. I-tap ang \"Bigger picture\" para ipakita lang ang larawan, para makita ng buong silid sa telebisyon.",
+    "howTo": [
+      "Tingnan nang magkakasama ang larawan.",
+      "Basahin nang malakas ang linya sa ibaba nito kung gusto mo.",
+      "Pindutin ang \"Next picture\" o \"Previous picture\" kapag handa ka na.",
+      "I-tap ang \"Bigger picture\" para ipakita lang ang larawan, at ang \"Show everything\" para ibalik ang iba.",
+      "Huminto kailanman mo gusto gamit ang \"Done for now\"."
+    ],
+    "tips": [
+      "Hayaan ang tao na pumili kung kailan lilipat: maghintay hanggang tumingin siya, bago pindutin ang Next.",
+      "Para sa grupo, gamitin ang \"Bigger picture\" sa telebisyon o malaking screen, at umupo kung saan kitang-kita ng lahat.",
+      "Walang tamang paraan para tingnan ang larawan. Ang simpleng pag-uusap tungkol dito ay buo nang gawain."
+    ],
+    "faq": [
+      {
+        "q": "May timer ba o iskor?",
+        "a": "Wala. Walang orasan, iskor, bilang ng galaw, o pagkatalo. Maaari kang huminto anumang oras, at ang paghinto sa gitna ay isa ring magandang paraan para tapusin ang laro."
+      },
+      {
+        "q": "May tunog ba o gumagalaw ito?",
+        "a": "Wala. Walang tunog, at walang gumagalaw, kumukupas, o nagbabago nang kusa. Nagbabago lang ang larawan kapag pinindot mo ang isang pindutan."
+      },
+      {
+        "q": "Gibinubukod ba ito?",
+        "a": "Hindi. Ito ay larawang tinitingnan nang magkasama sa screen. Ang paborito ninyong litrato o postcard sa mesa ay nagbibigay ng parehong bagay."
+      },
+      {
+        "q": "Libre ba ito, at kailangan bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser ng telepono, tablet o kompyuter."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Color wash",
+    "seoTitle": "Color Wash: Malambot na Kulay sa Buong Pahina",
+    "h1": "Color Wash: Pinturahan ng Malambot na Kulay ang Buong Pahina",
+    "description": "Ang malambot na brotsa ay nagpipinta ng malalapad at halos transparent na kulay sa iisang pahina, sa apat na kulay at dalawang laki ng brotsa. Walang katapusan, walang iskor at walang timer. Libreng laruin, at walang account.",
+    "short": "Magpinta ng malambot na kulay sa buong pahina, sa sarili ninyong bilis.",
+    "players": "Mag-isa, o 2 tao na magkatabi",
+    "intro": "Isang pahina at isang malambot na brotsa. Pumili ng kulay at laki ng brotsa, saka i-drag sa pahina para maglatag ng kulay. Walang katapusan ang pahina: walang dapat tapusin, walang larawang dapat tamaan at walang iskor. Maglatag ng kasing dami ng kulay na gusto ninyo, o ibaba lang ang brotsa at tingnan. Ang bagong pahina ay magbubura ng lahat, at ibabalik ito ng Ibalik.",
+    "howTo": [
+      "Pumili ng kulay. May nakasulat na pangalan ang bawat kulay.",
+      "Piliin ang Malapad o Napakalapad. Mas maraming bahagi ng pahina ang natatakpan ng Napakalapad sa bawat guhit.",
+      "I-drag sa pahina gamit ang daliri, mouse o panulat para maglatag ng kulay.",
+      "O gamitin ang mga arrow key para igalaw ang singsing ng brotsa, at ang Space para ibaba o itaas ang brotsa.",
+      "Pindutin ang \"Bagong pahina\" para burahin ang pahina, saka ang \"Ibalik\" kung gusto ninyong bumalik ang mga kulay."
+    ],
+    "tips": [
+      "Hayaang pumili ang kasama ng kulay para sa susunod na kulay, at pag-usapan ang mga kulay habang nilalagyan ang pahina.",
+      "Mas madaling igiya ang Napakalapad kung nanginginig ang kamay, dahil hindi kailangang eksakto ang brotsa.",
+      "Walang tamang paraan ng pagpipinta. Tumigil kailan man ninyo gusto, o pindutin ang \"Tapos muna\"."
+    ],
+    "faq": [
+      {
+        "q": "May katapusan ba, iskor o timer?",
+        "a": "Wala. Walang katapusan ang pahina. Walang natatapos, binibilang, tinatimbang o binibigyan ng iskor, at walang mensaheng humihiling na gumawa pa ng higit."
+      },
+      {
+        "q": "Nase-save ba o naipapadala ang pahina?",
+        "a": "Hindi. Walang nase-save, nai-print o naipapadala kahit saan. Mananatili ang mga kulay sa pahinang ito hanggang sa umalis kayo rito."
+      },
+      {
+        "q": "Magagamit ko ba ito nang walang mouse o touch screen?",
+        "a": "Oo. Kapag nakapokus ang pahina, inilalipat ng mga arrow key ang singsing ng brotsa, at ibinababa o itinataas ng Space key ang brotsa. Sinasabi ng screen ang \"Brush down\" o \"Brush up\" sa bawat pagkakataon."
+      },
+      {
+        "q": "May bersyon ba sa papel?",
+        "a": "Wala. Ang watercolor sa papel ay iisang ideya rin, basang brotsa at isang kulay sa bawat pagkakataon, kaya ibang aktibidad ito na puwedeng subukan sa mesa."
+      },
+      {
+        "q": "Anong mga kulay ang mayroon?",
+        "a": "Dilaw, kahel, berde at lila, ang parehong apat na kulay na ginagamit sa aming iba pang larong panlarawan. May nakasulat na pangalan ang bawat isa, at lumalabas ang pangalan sa tabi ng pagpipilian."
+      },
+      {
+        "q": "Libre ba ito, at kailangan bang mag-sign up?",
+        "a": "Oo, libre ito, at walang account, sign-up o download. Gumagana ito sa web browser ng telepono, tablet o kompyuter."
       }
     ]
   }

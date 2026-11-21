@@ -95,4 +95,4 @@ health: false
 
 ## 也要照顾好自己
 
-无论是在家照护，还是探访照护机构，后期的照护在身体和情绪上都很吃力。临终关怀和姑息护理团队可以在舒适、支持和规划方面提供帮助，美国国家老龄研究所也把他们列为可以寻求帮助的来源。短暂、平静的探访是值得的，请参阅[探访认知症患者](/together/visiting-someone-in-care/)。如果您带领小组，[照护机构团体活动](/crafts/craft-group-sessions/)有调整活动的点子。也请阅读[照护者自我照顾](/creative-calm/creative-self-care-for-caregivers/)：休息也是照顾好别人的一部分。
+无论是在家照护，还是探访照护机构，后期的照护在身体和情绪上都很吃力。临终关怀和姑息护理团队可以在舒适、支持和规划方面提供帮助，美国国家老龄研究所也把他们列为可以寻求帮助的来源。短暂、平静的探访是值得的，请参阅[探访认知症人士](/together/visiting-someone-in-care/)。如果您带领小组，[照护机构团体活动](/crafts/craft-group-sessions/)有调整活动的点子。也请阅读[照护者自我照顾](/creative-calm/creative-self-care-for-caregivers/)：休息也是照顾好别人的一部分。

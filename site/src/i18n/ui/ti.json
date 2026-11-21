@@ -7,16 +7,22 @@
     "homeLabel": "ናይ Creative Activities ገዛ",
     "mainNav": "ዋና",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: ዓበይቲ፡ ዝምቹዕ ስእልታት ኩባያ ሻሂ፡ ጸሓይ ኣበባን ከልቢን",
+    "defaultImageAlt": "Creative Activities: ኣዝዩ ዓቢይ፡ ሓጎስ ዘመጽእ ስእልታት ነገራት ዕለታዊ ንምስራሕን ንምግባርን",
     "languages": "ቋንቋ",
     "englishOnly": "(እንግሊዝኛ)",
     "machineTranslated": "ነዚ ገጽ ብሓገዝ ማሽን ተተርጒሙ እዩ፡ ገና ብዝፈልጥ ተናጋሪ ኣይተረጋገጸን።",
     "readOriginal": "ብእንግሊዝኛ ዘሎ ጽሑፍ ኣንብብ",
     "nav": {
+      "find": "Find an activity",
       "games": "ጸወታታት",
       "activities": "ንጥፈታት",
       "caregiving": "ክንክን",
-      "brainHealth": "ጥዕና ኣእምሮ"
+      "brainHealth": "ጥዕና ኣእምሮ",
+      "crafts": "ስራሕ ኢድ",
+      "kids": "ህጻናት",
+      "together": "ብሓባር",
+      "creativeCalm": "ፍጥረታዊ ሰላም",
+      "search": "ድለይ"
     },
     "faqTitle": "ሕቶታትን መልስታትን",
     "breadcrumb": "ዝተኸተለ መገዲ",
@@ -27,7 +33,32 @@
       "label": "ዓቐን ጽሑፍ",
       "smaller": "መደበኛ ጽሑፍ",
       "larger": "ዝዓበየ ጽሑፍ",
-      "contrast": "ዝልዓለ ንጽፍታ"
+      "contrast": "ዝልዓለ ንጽፍታ",
+      "colors": "ቀለማት",
+      "light": "ብሩህ",
+      "dark": "ጸልማት",
+      "device": "ከምቲ እዚ መሳርሒ",
+      "lineLength": "ርዝመት መስመር",
+      "standardLines": "ማእኸላይ",
+      "shorterLines": "ኣጭር መስመራት",
+      "spacing": "ርሕቀት",
+      "standardSpacing": "ማእኸላይ",
+      "moreSpace": "ዝያዳ ቦታ"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 ሓሳባት ንጥፈታት",
     "lateStage": "ንዳሕራይ ደረጃ ዝኾኑ ንጥፈታት",
     "printable": "ንምህታም ዝኾኑ ንጥፈታት",
-    "allActivities": "ኩሉ ንጥፈታት",
+    "allActivities": "ኩሉ መምርሒታት ስርሓት",
     "forCaregivers": "ንክንክን ዝሓዙ",
     "playTogether": "ብሓባር ክንጻወት ከመይ",
     "selfCare": "ንርእስኻ/ንርእስኺ ምክንካን",
@@ -54,24 +85,34 @@
     "app": "ናይ Creative Activities መተግበሪያ",
     "appHelp": "ሓገዝ መተግበሪያ",
     "support": "ሓገዝ",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "ሕጋዊ",
     "sitePrivacy": "ምስጢራዊነት ድረ-ገጽ",
     "appPrivacy": "ፖሊሲ ምስጢራዊነት መተግበሪያ",
     "privacyChoices": "ምርጫታት ምስጢራዊነት",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "ውዕላትን ፍቓድ መተግበሪያን",
     "safety": "ድሕንነትን ዝተፈቐደ ኣጠቃቕማን",
     "accessibility": "ኣብ ምእታው",
     "healthNotice": "ሓበሬታ ጥዕና",
     "allLegal": "ኩሉ ሕጋዊ ሓበሬታ",
     "note": "Creative Activities ንምሕጓስ ዝኾኑ ቀሊላት ብሓባር ዝግበሩ ንጥፈታት ይህብ። ሕክምና፡ ፈተና ወይ ሕክምና ኣይኮነን፡ ኣይመርምርን፡ ኣይከታተልን ድማ ኣይኮነን። ንሕቶታት ጥዕና ምስ ዶክተር ተዛረብ። ኣብ ህጹጽ ኩነታት ናብ ናይ ኣካባቢካ ህጹጽ ቁጽሪ ደውል።",
-    "publisher": "ዝሕተመ ብ Cloudjet Solutions Pte. Ltd."
+    "publisher": "ዝሕተመ ብ Cloudjet Solutions Pte. Ltd.",
+    "crafts": "ንኩሎም ዕድመታት ስራሕ ኢድ",
+    "kids": "ንህጻናት ስርሓት",
+    "together": "ብሓባር ንምስራሕ ስርሓት",
+    "creativeCalm": "ፍጥረታዊ ሰላም",
+    "dementiaActivities": "ንዝሓዙ ዕብየት ኣእምሮ ዘለዎም ሰባት ስርሓት"
   },
   "home": {
-    "title": "ጸወታታትን ንጥፈታትን ንዝርስዕ ሕማምን ኣልዛይመርን | Creative Activities",
-    "description": "ነጻ ዝምቹዕ ስእሊ ጸወታታት ኣብ ኢንተርነት ክትጻወቶም፡ ከምኡ'ውን ሓሳባት ንጥፈታት ንዝርስዕ ሕማም ወይ ኣልዛይመር ዘለዎም ሰባትን ኣብ ክንክን ዘለዉ ሰባትን። ምዝገባ የብልን፡ ሰዓትን ነጥብን የብልን።",
+    "title": "ንዝክትከሎም ሰብ ዝሕልው ፍጥረታዊ ስርሓት",
+    "description": "ንዝክትከሎም ሰብ ዝሕልው ሰባት ነጻ ፍጥረታዊ ስርሓት፦ ስራሕ ኢድ፣ ንህጻናት ዝኸውኑ ነገራት፣ ብሓባር ዝግበሩ ስርሓትን ሰላማዊ ፍጥረታዊ ሓሳባትን።",
     "eyebrow": "ነጻ · ማስታወቂያ የልቦን · ምዝገባ የልቦን · ሰዓት ወይ ነጥቢ የልቦን",
-    "h1": "ንዝርስዕ ሕማም ዘለዎም ሰባት ዝምቹዕ ጸወታታትን ንጥፈታትን",
-    "lede": "ቀሊል ስእሊ ጸወታታት፡ ዝፈለጥካዮም ስእልታት፡ ብሓባር ዝምሕጸጸሉ ንጥፈታት—ብዓቕምካ ግዜ።",
+    "h1": "ብሓባር ሓደ ነገር ግበሩ",
+    "lede": "ንሰብ፣ ንእቲ ግዜን ንዘለካ ዝሰማማዕ ስርሓት ድለዩ። ቀሊል ስራሕ ኢድ፣ ናይ ህጻናት ስነ-ጥበብ፣ ብሓባር ዝግበሩ ነገራትን ሰላማዊ ፍጥረታዊ ሓሳባትን፣ ቀሊል ዝኾኑ ኣማራጺታትን ን/ምትሕታም ዝኽእል ካርድን ኣለዉ። ዝደለኻ ግዜ ክትሓርም ትኽእል ኢኻ።",
     "playGame": "ጸወታ ተጻወት",
     "findIdeas": "ሓሳባት ንጥፈታት ድለ",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 ሓሳባት ንጥፈታት",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "ቀዳማይ ደረጃ",
         "text": "ዝፈትዎ ምስ ጥቃቕ ምቕያር ቀጽሉ፡ ሓቦታት፡ ጉዕዞታት፡ ቃላት ጸወታታትን ብሓባር ምውጻእን።",
         "label": "ሓሳባት ቀዳማይ ደረጃ"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "ማእከላይ ደረጃ",
         "text": "ቀሊላትን ዝፈለጥዎም ስራሓትን ናብ ስጉምቲ ዝተኸፋፈሉ፡ ምጥንቃርን ምምዕራርን፡ ሙዚቃን ስእሊ ጸወታታትን ሓጺር ምጉዓዝን።",
         "label": "ሓሳባት ማእከላይ ደረጃ"
@@ -124,10 +165,10 @@
         "label": "ሓሳባት ዳሕራይ ደረጃ"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "ፍሉይ ነገር ትደልዩ ዲኹም? ንዓይነት ዕብየት ኣእምሮ <a href=\"/dementia-activities/\">ስርሓትን ጸወታታትን</a>፣ <a href=\"/together/puzzles-and-table-games/\">ኣንፈት ዝጥቀመሎም ጸወታታትን ጸወታታት ጠረጴዛን</a>፣ <a href=\"/together/conversation-games-for-all-ages/\">ዕላል ዝኾኑ ጸወታታት</a> ወይ <a href=\"/together/puzzles-and-table-games/\">ኣንፈት</a> ፈትኑ።",
     "approachEyebrow": "ኣቀራርባና",
-    "approachTitle": "ብሓባር ዝግበር ንጥፈት እምበር ፈተና ትዝታ ኣይኮነን",
-    "approachLede": "ብዙሓት “ጸወታታት ኣእምሮ” ብፍጥነትን ነጥብን ቀጻልነትን ዝተሃነጹ እዮም። ንዝርስዕ ሕማም ዘለዎ ሰብ፡ እዚ ከም ፈተና ክስማዕ ይኽእል። ንሕና ተቓራኒ ገይርና ሰሪሕናዮ።",
+    "approachTitle": "ሓባራዊ ስርሓት እምበር ፈተና ኣይኮነን",
+    "approachLede": "ብዙሕ “ጸወታታት ኣእምሮ” ብፍጥነትን ነጥብን ቀጻሊ ዓወትን ዝተመስረቱ እዮም። ንዝደኸመ፣ ዘይጥዑም ዝኾነ ወይ ዕብየት ኣእምሮ ዘለዎ ሰብ፣ እዚ ከም ፈተና ክስምዖ ይኽእል። ኣቦ እዚ ዝሓሸ ኣዳለውና።",
     "approachLink": "ንምንታይ ከምዚ ንሰርሖ",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "ንምኽኣቦም ዝዕዘቡ ምኽንያታት፡ ድሕሪኡ ብሓጎስ ዳግማይ ንምፍታን ዘለዉ ኣገባባት።"
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "ታብሌት ምስታኻል",
-        "text": "ዓቢ ጽሑፍ፡ ቀሊል ምቕያራት፡ ሓደ ቀሊል ናይ ገዛ ስክሪን።"
+        "href": "/activities/group-art-activities/",
+        "title": "ናይ ስነ-ጥበብ ሓባራዊ ስርሓት",
+        "text": "ንጠረጴዛ ብዙሓት ሰባት ዝኾኑ ሓባራዊ ፕሮጀክታት፣ ንኽሉ ሰብ ዝኾነ ስራሕ ዘለዎ።"
       },
       {
-        "href": "/activities/printable/",
-        "title": "ንምህታም ዝኾኑ ነጻ ንጥፈታት",
-        "text": "ዓቢ ጽሑፍ ናይ ቃላት ምድላይ፡ ኣብዪ ምሉእ ስእልታት፡ ቢንጎን ካርድታት ዘራርብን።"
+        "href": "/activities/ideas/",
+        "title": "101 ናይ ስርሓት ሓሳባት",
+        "text": "ቀሊል ሓሳባት፣ ብዝብሉን ዝኣክልን ሓይሊ ዝተመድቡ።"
       }
     ],
     "researchTitle": "ጥዕና ኣእምሮ፡ ጽንዓት ብሓቂ ዚብሎ ነገር",
@@ -185,16 +226,16 @@
     "aboutApp": "ብዛዕባ መተግበሪያ",
     "faq": [
       {
-        "q": "ንሰባት ዝርስዕ ሕማም ዘለዎም ዝኾኑ ጽቡቕ ጸወታታት እንታይ እዮም?",
-        "a": "ጽቡቕ ጸወታታት ቀሊልን ዝፈለጥካዮን ከምኡውን ብዘይ ጸቕጢ እዮም፦ ዓበይቲ ስእልታት ዘማዕድዱ፣ ምድርዳር፣ ቀሊል ጅግሳው፣ ዝፈለጡ ምስላት ምዕዋት፣ ምቅዳሕ፣ ስእሊ ቢንጎ፣ ከምኡውን ናይ ዘራርብ ካርድታት። ዝበለጸ ምርጫ እቲ ሰብ ሎሚ ዝሓጐሰሉ እዩ። ሰዓት ቆጸራ፣ ውጽኢት ቍጽሪን ከምቲ ፈተና ዝመስል ነገርን ተጠንቀቑ።"
+        "q": "ንዝኾኑ ዕድመ ዝበለጸ ጸወታታት ኣየናቶም እዮም?",
+        "a": "ጽቡቕ ጸወታታት ቀሊላትን ዝፈለጥካዮም ዝኾኑን ብዘይ ጸቕጢ ዝኾኑን እዮም፦ ዝዓበዩ ስእልታት ዘመሳስል፣ ምድርዳር፣ ቀሊል ጅግሶ፣ ዝፈለጥኩም ምትሕብባር ምዉዳቕ፣ ምሕዳግ፣ ካርድ ዕላል። ንብዙሓት ዕድመ ዝበለጹ ሰባት ይሰማምዑ፣ ንእኮ ዕብየት ኣእምሮ ዘለዎም ሰባት ይሕቍፍ። ዝሓሸ ምርጫ እታ ሰብ ናይ ሎሚ ዝሓጐሰላ እያ። ሰዓት ቆጸራን ነጥብን ወይ ከም ፈተና ዝስምዕ ነገርን ተጠንቀቑ።"
       },
       {
-        "q": "ዲመንሺያ ዝብሉ ጸወታታት ነጻ ዶም?",
+        "q": "እዞም ጸወታታት ነጻ ዶም?",
         "a": "እወ። ኩሎም ጸወታታትን ዝሕተሙ ወረቐታትን ኣብ Creative Activities ነጻ እዮም፣ ዘይ ሕሳብ፣ ዘይ ምዝገባ፣ ዘይ ምውራድ። ጸወታታት ኣብ ናይ ዌብ ብራውዘር ኣብ ስልኪ፣ ታብሌት ወይ ኮምፒዩተር ይሰርሑ።"
       },
       {
         "q": "ጸወታታት ኣእምሮ ዲመንሺያ ይኸልኡ ዶም?",
-        "a": "ዝኾነ ጸወታ ዲመንሺያ ክኸልኽል ከም ዝኽእል ዝተረአየ የለን፣ Creative Activities ድማ ዝኾነ ነገር ከምዘይ ዝፍውስ ወይ ከምዘይ ዝኸልኽል ኣይሓበርን። ጸወታታትና ንሓጐስን ንሓባር ዝሕለፍ ግዜን ዝተዓደሉ እዮም። ናይ ጥዕና ኣእምሮ ክፋልና ምርምር እንታይ ከም ዝሕብርን ከም ዘይሕብርን ይገልጽ።"
+        "a": "ዕብየት ኣእምሮ ንኸልዕል ዝሓየለ ጸወታ ኣይተራእዩን፣ ኮይኑ ድማ Creative Activities ዝኾነ ምውሳድ ወይ ምክልኻል ዘለዎ ኣይብልን። ጸወታታትና ንሓጐስን ዝተሓባበረ ግዜን እዮም፣ ኣብ ዝኾነ መምርሒ ገጽ ዝኾነ ጥዕናዊ ዝርዝር ኣይቀርብን።"
       },
       {
         "q": "እዞም ጸወታታት ንሓደ ኣልዛይመር ዘለዎ ሰብ ዝሰማምዑ ዶም?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities መን ይሰርሖ?",
-        "a": "Creative Activities ንስድራቤትን ንክንክን ዘካይዱን ጭዋ፣ ዘይ ዕዮ ሕክምና ዝኾነ ስእሊ ስጉምትታት ኣብ ዌብን ከም ነጻ መተግበሪን ዝሰርሕ ንኢሽ ጉጅለ እዩ። ሓካይም ኣይኮንናን፣ ኣብዚ ዝርከብ ኣዝዩ ሓኪም ምኽሪ ኣይኮነን።"
+        "a": "Creative Activities ንዝክትከሎም ሰብ ዝሕልው ሰባት ሰላማውን ንዑስ ዕድመ ዝበሉን ፍጥረታዊ ስርሓት ዝሰርሕ ንኣሽቱ ጉጅለ እዩ፣ ኣብ ወብን ብነጻ መተግባሪ ኣፕን። ሓኪማትን ኣይኮንና፣ ኣብዚ ዝኾነ ነገር ሕክምናዊ ምኽሪ ኣይኮነን።"
+      }
+    ],
+    "groupsEyebrow": "ኣብ ኣኽሊ ብቐሊሉ ኣተዉ",
+    "groupsTitle": "ኣርባዕተ ዓይነት ፍጥረታዊ ስርሓት",
+    "groupsLede": "ምስ መን ከም ዘሎኻ ን እንታይ ከም ዘሎካ ዝሰማማዕ ጉጅለ ብምጅማር ጀምር። ነፍሲ ወከፍ ገጽ ቀሊል ኣማራጺታትን ናይ ድሕንነት ማእከታትን ኣለዉ።",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "ስራሕ ኢድ",
+        "text": "ወረቐት፣ ቀለም፣ ዝተደጋገሙ ነገራትን ናይ ግዜ ፕሮጀክታትን፣ ንሓደ ሓደ ቀሊል ኣማራጺ ዘለዎም።",
+        "label": "ስራሕ ኢድ ርኣይ"
+      },
+      {
+        "href": "/kids/",
+        "title": "ህጻናት",
+        "text": "ንህጻናት ስነ-ጥበብን ጸወታን፣ ዝቕረብ ዓቃቢ ህጻን ዘለዎምን ግልጺ ናይ ድሕንነት ማእከታትን።",
+        "label": "ናይ ህጻናት ስርሓት ርኣይ"
+      },
+      {
+        "href": "/together/",
+        "title": "ብሓባር",
+        "text": "ዕላል፣ ጅግሶ፣ ናይ ኣየር ግዜን ኣብ ዘመናት ቅርበት ዝሓዝኩሉን ኣገባባት።",
+        "label": "ብሓባር ዝግበሩ ነገራት ርኣይ"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "ፍጥረታዊ ሰላም",
+        "text": "ብሓደ ሓደ ኣጽሕፈት፣ ገጽ ወይ ዝፈልጦ ዘማር ዝሓለፈ ዝጸጥ ፍጥረታዊ ግዜታት። ሕክምና ኣይኮነን።",
+        "label": "ፍጥረታዊ ሰላም ርኣይ"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "ንምሕታም ዝኽእል",
     "play": "{name} ጸውዕ →",
     "readGuide": "መምርሒ ኣንብብ"
+  },
+  "listen": {
+    "listenSteps": "ደረጃታት ስማዕ",
+    "pause": "ሓድጎ",
+    "resume": "ቀጽል",
+    "stop": "ኣቁም",
+    "speed": "ፍጥነት",
+    "normal": "ማእኸላይ",
+    "slower": "ዝደኸመ",
+    "reading": "ደረጃታት ብድምጺ ይንበብ ኣሎ።",
+    "paused": "ተሓድጎ። ንምቕጻል ቀጽል ጠውቕ።",
+    "note": "ናይ መሳርሒኻ ዝፈልጦ ድምጺ ይጥቀም። ገለ መሳርሒታት ንምንባብ ጽሑፍ ናብ ዓቃቢኦም ይሰድዱ።",
+    "listen": "ስማዕ",
+    "stepLabel": "ደረጃ {n} ስማዕ",
+    "stopStep": "ደረጃ {n} ኣቁም"
   },
   "playCta": {
     "title": "ዝተሓጎሰ ጸወታ ድልዊ ዶ?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "ስጉምትታት",
-      "title": "ንዲመንሺያ ዘለዎም ሰባት ዝኾኑ ስጉምትታት",
-      "seo": "ስጉምትታት ንዲመንሺያ ዘለዎም ሰባት፦ ሓሳባት ብደረጃ",
-      "description": "ንዲመንሺያ ዘለዎም ሰባት ኣብ ዝኾነ ደረጃ ዝኽእሉ ሓሳባት ስጉምትታት፦ ሙዚቃ፣ ዝተዘከሩ ግዜታት፣ ዕለታዊ ስራሓት፣ ስምዒታዊ ግዜታት፣ ስራሕ ኢድ፣ ኣብ ወጻኢ፣ ከምኡውን ነጻ ዝሕተሙ ወረቐታት።",
-      "lede": "ዝኾነ ዝምቹዕን ዓላማን ወይ ናይ ምርኻብ ሓጐስን ዝህብ ስጉምቲ ትርጉም ኣለዎ። ብዝበለጸ ዝፈትዎ ነገር ጀምር፣ ንሎሚ ድማ ኣዘጋጅዎ።"
+      "label": "መምርሒታት ስርሓት",
+      "title": "መምርሒታት ስርሓት",
+      "seo": "መምርሒታት ስርሓት፦ ሓሳባት፣ ናይ ስነ-ጥበብ ዕዳጋ ዕድላትን ብኸመይ ምጅማርን",
+      "description": "ምስ ሰብ ክትገብሮም ትኽእል ፍጥረታዊ ስርሓት ዝብል ቀሊል መምርሒታት፦ ቀሊል ሓሳባት፣ ብዓቕሚ ዝሰማማዕ ናይ ስነ-ጥበብ ዕዳጋ ዕድላት፣ ሓባራዊ ስነ-ጥበብ፣ ፊደላትን ዘክሮታትን፣ ከምኡ ድማ ስነ-ጥበባዊ ሕክምና ብግልጺ።",
+      "lede": "ምስ ሰብ ስርሓት ንምምራጽን ንምጅማርን ኣጭርቲ ተግባራዊ መምርሒታት፣ ዕድመን ዓቕምን ይኹን።"
+    },
+    "crafts": {
+      "label": "ስራሕ ኢድ",
+      "title": "ስራሕ ኢድ ንኹሎም ዕድመታት",
+      "seo": "ቀሊል ስራሕ ኢድ ንኹሎም ዕድመታት፣ ቀሊል ኣማራጺታት ዘለዎም",
+      "description": "ንዓበይቲ፣ ንህጻናትን ንስድራቤትን ቀሊል ስራሕ ኢድ፦ ወረቐት፣ ምምልኣይ ስእሊ፣ ዝተደጋገሙን ናይ ግዜን ስራሕ ኢድ፣ ንምጽዋዕ ዝቀለሉን ብዘይ ትሕዝትታትን ዝተቐመጡን ኣማራጺታት ዘለዎም።",
+      "lede": "ብዝብዝሓ ገዛ ዘሎ ነገር ዝጅምሩ ስራሕ ኢድ፣ ነፍሲ ወከፍ ቀሊል ኣማራጺ ዘለዎ፣ ንዝኾነ ሰብ ነገር ክገብር ዝኽእል።"
+    },
+    "kids": {
+      "label": "ህጻናት",
+      "title": "ፍጥረታዊ ስርሓት ንህጻናት",
+      "seo": "ፍጥረታዊ ስርሓት ንህጻናት፦ ስነ-ጥበብ፣ ስሜታዊ ምንቅስቓስን ሰላምን",
+      "description": "ንህጻናት ፍጥረታዊ ስርሓት፦ ስነ-ጥበብ ንንኣሽቱ ህጻናት፣ ስነ-ጥበባዊ ስራሕ፣ ስሜታዊ ጸወታ፣ ናይ ዝናብ መዓልቲ ስራሕ ኢድን ናይ ምርግጋእ ሓሳባትን፣ ናይ ድሕንነት ማእከታትን ንስሜታዊ ድሌታት ዝኾኑ ኣማራጺታትን ዘለዎም።",
+      "lede": "ንዝተፈላለዩ ዕድመን ድሌታትን ዘለዎም ህጻናት ናይ ስነ-ጥበብን ጸወታን ሓሳባት፣ ግልጺ ናይ ድሕንነት ማእከታትን ዝቕረብ ዓቃቢ ህጻን ዘለዎምን።"
+    },
+    "together": {
+      "label": "ብሓባር",
+      "title": "ብሓባር ዝግበሩ ስርሓት",
+      "seo": "ብሓባር ዝግበሩ ስርሓት፣ ኣብ ዘመናት ዝዘልቕ",
+      "description": "ንክልተ ወይ ንዝዓበዩ ዘመናት ስርሓት፦ ዕላል ጸወታታት፣ ጅግሶታት፣ ናይ ኣየር ግዜ፣ ንኣቦታትን ንደቅታትን ስራሕ ኢድ፣ ካብ ርሑቕ ቅርበት ዝሓዝሉ ኣገባባት።",
+      "lede": "ምስ ኣቦ፣ ኣዲ፣ ደቂ ወይ ዓርኪ ግዜ ዘካፍሉ ሓሳባት፣ ኣብ ገዛ፣ ኣብ ደገ፣ ኣብ ምብጻሕ ወይ ካብ ርሑቕ።"
+    },
+    "creative-calm": {
+      "label": "ፍጥረታዊ ሰላም",
+      "title": "ፍጥረታዊ ሰላም",
+      "seo": "ፍጥረታዊ ሰላም፦ ዝዘናግዕ ስነ-ጥበብን ስርሓትን ንምዕራፍ",
+      "description": "ንዓበይቲን ተሓጋገዝቲን ዝዘናግዑ ፍጥረታዊ ስርሓት፦ ኣእምሮኣዊ ስነ-ጥበብ፣ መዝገብ ጽሒፍ፣ ሙዚቃ፣ ስሜታዊ ግዜታትን ሰላማዊ ኣመሻሹን። ፍጥረታዊ ስርሓት እምበር ሕክምና ኣይኮነን።",
+      "lede": "ብእርሳስ፣ ገጽን ወይ ዘማርን ዝዝናዕ ኣገባባት። እዚ ፍጥረታዊ ስርሓት እምበር ሕክምና ኣይኮነን፣ ክእለት ድማ ኣይሓቶን።"
     },
     "caregiving": {
-      "label": "ክንክን",
-      "title": "መምርሒታት ክንክን",
-      "seo": "መምርሒታት ክንክን ዲመንሺያ፦ ተግባራዊ ዕለታዊ ሓገዝ",
-      "description": "ንዓቕሊ ክንክን ዲመንሺያ ተግባራዊን ሓዋሻዊን መምርሒታት፦ ኣብ ሓባር ምጽዋት፣ ርክብ፣ ምኽልካል፣ ኣብ ምሸት ምጭናቕ፣ ታብሌት፣ ምምራጽ መተግበሪታት፣ ከምኡውን ናይ ርእሲ ክንክን።",
-      "lede": "ንዕለታዊ ግዜታት ክንክን ሰብ ዲመንሺያ ዘለዎ ቀሊልን ተግባራዊን ሓገዝ፣ ንርእስካ ምክንካንን ጨምሮ።"
+      "label": "ዓገባብ ክንክን",
+      "title": "ንዓይኒ ዝኣመመ ሰብ ምክንካን",
+      "seo": "ንዓይኒ ዝኣመመ ሰብ ምክንካን፡ ስራሕቲን ሓገዝን",
+      "description": "ንዓይኒ ዝኣመመ ሰብ ዝክንኑ ስድራቤታት መምርሒታት፦ ብሓባር ብኸመይ ክጻወቱ፣ ኣይ ምባል ክብል ከመይ ክኸውን፣ ድሕሪ ምልላይ ዝተኣማመነ ሓገዝ ኣበይ ክረኽቡ ከም ዝኽእሉ።",
+      "lede": "ንዓይኒ ዝኣመመ ሰብ ዝክንኑ ስድራቤታት ብስራሕቲ ዝጅምር ሓገዝ፣ ንሕክምናዊን ክንክናዊን ምኽሪ ኣበይ ክኸዱ ከም ዝኽእሉ።"
     },
     "brain-health": {
       "label": "ጥዕና ኣእምሮ",
@@ -283,7 +396,16 @@
     "tryTogether": "ብሓባር ፈትኑ",
     "relatedGuides": "ዝተኣሳሰሩ መምርሒታት",
     "related": "ዝተኣሳሰረ",
-    "startHere": "ካብዚ ጀምር"
+    "startHere": "ካብዚ ጀምር",
+    "staleAria": "ትርጉም ኣብ ድሕሪ ዘሎ ግዜ",
+    "staleTitle": "እዚ ትርጉም ኣብ ድሕሪ ዘሎ ግዜ እዩ",
+    "staleText": "ካብ ቀዳማይ ቅዳሕ እንግሊዝኛ ገጽ ዝተሰርሐ እዩ፣ እቲ ገጽ ድሕሪኡ ተቀይሩ። እቲ እንግሊዝኛ ገጽ ናይ ሕጂ እዩ።",
+    "staleHealth": "ናይ ጥዕና ሓበሬታ ይህብ፣ ስለዚ ብእንግሊዝኛ ገጽ ርአ፣ ከምኡ'ውን ኣብ ግብሪ ምእታው ቅድም ሓኪም ወይ ነርስ ሕተት።",
+    "staleLink": "ናይ ሕጂ እንግሊዝኛ ገጽ ኣንብብ"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "መልእኽቲ ሓበሬታ ጥዕና",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "ሓባራዊ ስጉምቲ፣ ፈተና ትዝታ ዘይኮነ",
+      "title": "ዝተሓወሰ ስራሕ፣ ፈተና ኣይኮነን",
       "seoTitle": "ብዛዕባ Creative Activities፦ ኣቀራርበና",
-      "description": "ጸወታታት Creative Activities ዘይ ሰዓት ቆጸራ፣ ዘይ ውጽኢት ቍጽሪ፣ ዘይ ቀጻሊ ዕውት ዝኾኑ ስእልታት ለምንታይ ከም ዝኾኑ፣ ብዛዕባ ዲመንሺያ እንታይ ክንብል ወይ ክንዝርብ ከም ዘይንኽእልን።",
+      "description": "ስለምንታይ Creative Activities ሰዓቲ፣ ውጽኢትን ተኸታታሊ መዓልታትን ዘይብሉ፣ ስለምንታይ ስእልታት ብቐጻሊ ዝረኣዩ፣ ብዛዕባ ጥዕና ንምንታይ ክንብል ንምንታይ ዘይንብል ንገልጽ።",
       "crumb": "ኣቀራርበና",
-      "lede": "Creative Activities ንክንክን ዘካይድ ሰብን ንዲመንሺያ ዘለዎ ሰብን ኣብ ጎኒ ጎኒ ክሕጐሱሉ ዝኽእሉ ጭዋ፣ ኣዋቕቲ ስእሊ ስጉምትታት ይሰርሕ።",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "ደጋፊታትን ሽርክታትን",
+        "none": "Creative Activities ደጋፊታትን ኣብ ጣቢያ ዝርአዩ ሎጎታት ዘለዎም ሽርክታትን የብሉን።",
+        "listed": "እዚኦም ናይ Creative Activities ደጋፊታትን ሽርክታትን እዮም። ነፍሲ ወከፍ ርክብ ኣብ እታ ዝረአ ገጽ ድማ ይገለጽ።",
+        "policy": "እዚ ዝቐየረ እንተ ኮይኑ፣ ነፍሲ ወከፍ ከምዚ ዝኣመሰለ ገጽ ኣብ ዝረአየሉ ቦታ ክገልጾ እዩ፣ ዝኾነ ስራሕ ደጋፊ ኣይክህልዎን እዩ፣ ዝርዝር ሽርክታት ድማ ኣብዚ ገጽ ክህሉ እዩ።",
+        "listHeading": "ዝርዝር ሽርክታት",
+        "noPartners": "ሕጂ ዝኾነ ሽርክ የለን።"
+      },
+      "lede": "Creative Activities ክልተ ሰባት ጎንጎን ኮይኖም ዝሕጎሱሉ ዘለዎ፣ ሓደ ሰብ እቲ ካልእ እንተ ዝክንክን ወይ ብቐሊሉ ግዜ ብሓባር ክሓልፉ ዝደልዩ እኳ እንተ ኮይኑ፣ ሰላማዊ ናይ ዓበይቲ ስራሕቲ ንምስራሕ ኢና።",
+      "bodyHtml": "<h2>ንመን እዩ ዝምልከት</h2><p>ንዝኾነ ሰብ ዝክንክን ኩሉ፦ ወለድ፣ ኣቦሓጎ፣ ቆልዓ፣ መሓዙ፣ ዓርኪ፣ ወይ ንዓይኒ ዝኣመመ ሰብ። ስድራቤታትን ዓበይቲን ኣባላት ስራሕ ኩሎም ተመሳሳሊ ገጻት ክጥቀሙ ይኽእሉ።</p><h2>እንኣምኖ ዘሎና</h2><p>ናይ ስራሕ ነጥቢ እቲ ግዜ ባዕሉ እዩ፦ ዘረባ፣ ገጸ ባህሪ፣ ክልተ ስእልታት ብምጥማር ዘለዎ ዕጉብነት፣ ወይ ኣብ ቅርቢ ብሓባር ምቐማጥ። ንዝኾነ ሰብ ንምፍታን፣ ንላዕሊ ንምግፋእ ወይ ዝኾነ ነገር ንምርኣይ ኣይኮነን።</p><p>ብዙሕ ናይ ኣእምሮ ስልጠና ኣፕሊኬሽናት ብቕልጣፍን ውጽኢትን ተኸታታሊ መዓልታትን ደረጃታትን ዝተሰርሑ እዮም። ንዝደኸመ፣ ዘይጥዑም ወይ ዓይኒ ዝኣመመ ሰብ፣ ከምዚ ንምሕላፍ ዘይክኽእል ፈተና ክመስል ይኽእል እዩ። ንኣና ድማ ብተቓራኒ ነቲ ዝሰርሕ ዘለና፣ ንእዞም ሕጊታት ንርእስና ንሕልወሎም ኢና፦</p><ul><li><strong>ዝኸሽል ነገር የለን።</strong> ኣብ ዝኾነ ስክሪን ሰዓቲ፣ ውጽኢት፣ ቆጸራ ንቅሉ፣ ህይወት፣ ተኸታታሊ መዓልታት፣ ኮንፈቲ ወይ ቆጸራ ዘይብሉ።</li><li><strong>ምልላይ ካብ ምዝካር ይቕድም።</strong> ስእልታት ብነባሪ ይረኣዩ። ዝወሃቡ ጠቐምታት ዘረባ ይኣትው እምበኣር ስማት ወይ ዝክርታት ኣይሕትት።</li><li><strong>ዓቢ፣ ቀሊል፣ ዝጸንሐ።</strong> ዓበይቲ ጽሑፍን ስእልን፣ ልዑል ምንፅፃርን፣ ንቑጽጽራት ኣብ ተመሳሳሊ ቦታ ዝጸንሑ።</li><li><strong>ዝኣክብር ዓበይቲ ክብሪ።</strong> ናይ ህያው ዓለም ስእልታት፣ ቀሊልን ሓጎስን ዘለዎ ቃላት። ኣይ ካርቱንን ዝዘምር ምስጋናን ወይ ኢሞጂ ሽልማትን የለን።</li><li><strong>ቀሊል ምውጻእ።</strong> «ንሕጂ ዝተፈዓለ» ብዘየማልል ይርአ። ገማጽ ምቁራጽ ጽቡቕ ውጽኢት እዩ።</li><li><strong>ብነባሪ ናይ ብሕታዊ።</strong> ዘይኣካውንት፣ ዘይማስታወቅታ። ዝመረጽካዮም ስእልታት ኣብ መሳርሒኻ ይጸንሑ።</li></ul><h2>እንተዘይ ንብል ዘለና</h2><p>ጸወታታትናን ስራሕቲናን ንሓጎስን ርክብን እዮም። ንዓይኒ ዝኣመመ ወይ ኣልዛይመር ዝብል ሕማም ኣይ ይፈትኑን፣ ኣይ ይመዝኑን፣ ኣይ ይሕክሙን፣ ኣይ ይቐንዑን፣ ኣይ ይከላኸሉን እዮም፣ ድማ ብሰበብ እዚ ሓደ ሰብ ክመርጾም የብሉን። ብዛዕባ ናይ ጥዕና ጽንዓት ምስ እንጽሕፍ፣ ረቛሒ ድኽመት ዘለዎ ብግልጺ ንነግር፣ ምስ ስራሕቲና ኣይንሰርሖን ኢና።</p><h2>ንሕና መን ኢና</h2><p>Creative Activities ንእሽቶ ናጻ ጉጅለ እዩ። ሕክምናውያን ኣይኰንናን። መምርሒታትና ካብ ዝተሓተመ መምርሒ፣ ከም National Institute on Aging ን Alzheimer’s Association ዝኣመሰሉ ውድባት ዝተጻሕፈ እዩ፣ ነፍሲ ወከፍ መምርሒ ድማ ምንጭታቱ ይዝርዝር። <a href=\"/editorial-policy/\">ገጽናን ብኸመይ ከም ዝጽሕፍን ከም ዝፍትሽን ንርአ</a>።</p><h2>ዝሓግዝ ዘበለካ ንበል</h2><p>ንዓኻ ዝሰርሕ፣ ዘይሰርሕ ኰነ ክንፈልጥ ንደልይ፣ ብፍላይ ካብ ዓይኒ ዝኣመመ ሰብ፣ ካብ ስድራቤት ዝክንክኑ ሰባትን ካብ ኣባላት ስራሕን። ኣብ <a href=\"mailto:{email}\">{email}</a> ኢሜይል ስደድ።</p>"
     },
     "editorial": {
       "title": "ገጾትና ከመይ ጌርና ንጽሕፎን ንፈትሾን",
       "seoTitle": "ፖሊሲ ኤዲቶሪያል",
-      "description": "Creative Activities ብዛዕባ ዴመንሽያን ጥዕና ኣእምሮን ዘለዎ ገጻቱ ከመይ ከም ዝመርምርን ከም ዝጽሕፍን ዋቢታት ከም ዝሰርዕን ከም ዝሓድስን፣ እና ፈጺሙ ኣይህትምን ዝብሎ ነገር ዝገልጽ።",
+      "description": "Creative Activities ገጾም ስራሕን ጥዕናን ብኸመይ ከም ዝምርምሩን ከም ዝጽሕፉን ከም ዝኣክቡን ከም ዝሓድሱን፣ ኣየናይ ፈጺምና ከም ዘይንሕትም ድማ ይገልጽ።",
       "crumb": "ፖሊሲ ኤዲቶሪያል",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "ሕቶታትን መልስታትን",
-      "seoTitle": "ጸወታትን ስራሕቲን ዴመንሽያ፦ ሕቶታትን መልስታትን",
-      "description": "ብዛዕባ ጸወታትን ስራሕቲን ዴመንሽያ ዝበዝሑ ሕቶታት መልስታት፦ እንታይ ጸወታ ክትፍትን፣ ክንደይ ክትጻወትን፣ ኣብ ዳሕራይ ደረጃ ዝኸውን ሓሳባት፣ ጥዕና ኣእምሮን ግላዊነትን።",
+      "seoTitle": "ብዛዕባ Creative Activities ዝቐረቡ ሕቶታትን መልስታትን",
+      "description": "ብዛዕባ ጸወታታትን ስራሕቲን ዝቐርቡ ተደጋጋሚ ሕቶታት መልስታት፦ ኣየናይ ክፈትኑ፣ ክንደይ ግዜ ክጻወት፣ ጉጅለታትን ናይ ደሓር ደረጃ ሓሳባትን፣ ጥዕናን ግላዊነትን።",
       "crumb": "ሕቶታትን መልስታትን",
       "lede": "ዝበዝሑ ተኸባኸብቲ ዝሓትትዎም ሕቶታት፣ ቀሊልን ብቐሊል ዝርዳእን መልስታት።",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "ብዛዕባ ጸወታት",
           "items": [
             {
-              "q": "ንሰብ ዴመንሽያ ዘለዎ ዝበለጸ ጸወታት እንታይ‘ዩ?",
+              "q": "ንዓበይቲ ዝበለጹ ጸወታታት ኣየናዮም?",
               "a": "ዝበለጸ ጸወታት ዝፈለጡ፣ ቀሊላትን ብዘይ ጸቕጢ ዝኾኑን እዮም። ዝበለጸ ድማ ሓደ ሰብ ሎሚ ዝፈትዎ እዩ። ስእልታት ብዝርኣዩ ምጥማር፣ ምድርዳር፣ ቀሊል ምቅጻል ጅግሳዋት፣ ዝፈለጥዎም ምስላት ምቅጻል፣ ምስዓል እና ስእሊ ቢንጎ ንብዙሓት ሰባት ሓጎስ የምጽኡ። ሰዓታት፣ ነጥብታትን ፈተና መሲሉ ዝስምዖ ዝኾነ ነገራትን ተጠበቑ።"
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "ጥዕና ኣእምሮ",
+          "title": "ዓይኒን ጥዕናን",
           "items": [
             {
               "q": "ጸወታታት ዴመንሺያ ክኽልክሉ ወይ ክዝግዑ ይኽእሉ ዶ?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "ዝያዳ ዝርዝር፦ <a href=\"/caregiving/how-to-play-together/\">ብሓባር ብኸመይ ክጻወቱ</a>፣ <a href=\"/caregiving/when-they-say-no/\">ኣይ ምባል ክብል ከመይ ክኸውን</a>፣ <a href=\"/activities/late-stage/\">ናይ ደሓር ደረጃ ስራሕቲ</a> ከምኡ'ውን <a href=\"/dementia-activities/\">ኣብ ገዛ ዝግበሩ ዓይኒ ዝተመልከቱ ስራሕቲ</a>።"
     },
     "handout": {
       "title": "ነጻን ልስሉስን ጸወታታት ንሰባት ብዴመንሺያ ዝነብሩ",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "ንቤት ክንክን፣ ቤተ-ንባባትን ጉጅለታት ድጋፍን",
-      "seoTitle": "ነጻ ስራሕቲ ንዴመንሻ ንቤታት ክብካቤን ንጉጅለታትን",
-      "description": "ቤታት ክብካቤ፣ ናይ መዓልቲ ክብካቤ ፕሮግራማት፣ መጻሕፍቲ ቤት፣ ኤጀንሲታት ዕድመ ከምኡ'ውን ጉጅለታት ደገፍ ነዚ ነጻ ጸወታታት ዴመንሻ ከመይ ጌሮም ከም ዝጥቀሙሉ፣ ከምኡ'ውን ኣብ ዝርዝር ሓገዝ ንምእታው ጽሑፍ።",
+      "seoTitle": "ንቤት ክብካቤታት፣ ቤተ-መጻሕፍትን ጉጅለታትን ናጻ ስራሕቲ",
+      "description": "ቤት ክብካቤታት፣ መዓልታዊ ፕሮግራማት ዓበይቲ፣ ቤተ-መጻሕፍት፣ ውድባት ዕድመ፣ ጉጅለታት ደገፍ ንናይ ናጻ ጸወታታትናን መምርሒታት ስራሕቲናን ብኸመይ ከም ዝጥቀሙ፣ ከምኡ'ውን ንበዝሒ ምዝራብ ንምእታው ጽሑፍ።",
       "crumb": "ንድርጅታት",
       "lede": "ኣብዚ ዌብሳይት ዘሎ ኩሉ ምስ ነባርቲ፣ ኣባላትን ተጠቀምቲን ንምጥቃም ነጻ እዩ፣ ብዘይ ኣካውንት፣ ፈቃድ ወይ ክፍሊት። እዚ ገጽ ኣብዚ ዘሎ እንታይ ምዃኑን ከመይ ጌርካ ከም ዝሓብሩን ይገልጽ።",
-      "shortText": "{name}: ነጻ፣ ዓሚቕ ዘይኮኑ ስእሊ ጸወታታትን መምርሒታት ስራሕን ንብዴመንሻ ዝጸልዉ ሰባትን ተኸናኻኒ ሰባትን። ምምዝጋብ የድሊን፣ ሰዓት የለን፣ ነጥቢ የለን።",
-      "longText": "{name} ({domain}) ንብዴመንሻ ዝጸልዉ ሰባት ዝተሰርሑ {count} ነጻ ናይ ብራውዘር ጸወታታት የቕርብ፣ ንእዚኣቶም ስእልታት ክረኣዩ ኮይኖም ዝተረፉ ዝተመሳሰሉ ጓንታት፣ ቀሊል ናይ ሓደ ስእሊ ምቕጻል፣ ምምዳብ፣ ዝፈለጥካዮም ሓረጋትን፣ ብካርድታት ዝሕተም ስእሊ ቢንጎን ይሓቁ። ኣካውንት፣ ምስታውቲ፣ ሰዓት ወይ ነጥቢ የለን። ዌብሳይቱ ንነፍሲ ወከፍ ደረጃ ዴመንሻ ብቀሊል ቋንቋ ዝተጻሕፉ መምርሒታት ስራሕ ኣለዎ፣ እየን ድማ ናብ National Institute on Aging ከምኡ'ውን Alzheimer's Association ዝጠቅሳ።",
+      "shortText": "{name}: ናጻ ብጥዑምን ኣብ ስእልታት ዝተመስረቱ ጸወታታትን መምርሒታት ስራሕቲን ንዓበይቲ፣ ስድራቤታትን ንሰባት ዝነብሩ ብዓይኒ ዝተጸልዉን። ምዝገባ የብሉን፣ ሰዓቲ የብሉን፣ ውጽኢት የብሉን።",
+      "longText": "{name} ({domain}) ንኣረጊ ሰባት፣ ንስድራ ቤታትን ብዲመንሺያ ዘለዎም ሰባትን {count} ነጻ ኦንላይን ጸወታታት የቕርብ። ንኣብነት ስእልታት ዝተመሳሰሉ ጌጋታት፣ ቀሊል ምትእስሳር ጸወታ፣ ምድርዳር፣ ዝፍለጡ ምስላት፣ ከምኡ'ውን ብዝሕትም ዚኽእል ካርድታት ዘለዎም ስእሊ ቢንጎ ይርከብ። ኣካውንት፣ ማስታወቂ፣ ሰዓት ቆጸራ ወይ ነጥቢ የለን። ጣቢያ'ቲ ንስድራ ቤታት፣ ንኣረጊ ሰባትን ንሰራሕተኛታትን ብቀሊል ቋንቋ ዝተጻሕፉ መምርሒታት ስራሕ'ውን ኣለዎ፣ ምንጭታቱ ከኣከም National Institute on Aging ከምኡ'ውን Alzheimer's Association ዝኣመሰሉ እዮም።",
       "useTitle": "ድርጅታት እንታይ ክጥቀምሉ ይኽእሉ",
       "gamesItemHtml": "<strong>{count} ናይ ብራውዘር ጸወታታት</strong> ኣብ ላፕታፕ፣ ታብሌትን ብኮምፕዩተር ዝተሓዋወሰ ቴሌቭዥንን ዝሰርሑ። ምጭናን፣ ኣካውንትን ምውራድን የድልዩን ኣይኮነን። ን<a href=\"/games/\">ኩሎም ጸወታታት</a> ርኣዩ።",
       "printablesLabel": "{count} ዝሕተሙ ሰነዳት:",
       "printablesAfter": "ኣብ ነፍሲ ወከፍ ገጽ ዘሎ ቁልፊ “Print” ተጠቐሙ።",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>ናይ ጉጅለ ኣይነታት:</strong> <a href=\"/games/picture-bingo/\">ስእሊ ቢንጎ</a> ዝሕተም ካርድታት ኣለዎ፣ ከምኡ'ውን ኣብ ስክሪን ዝርአ ጸዋዒ። <a href=\"/together/conversation-games-for-all-ages/\">ዘረባ ጸወታታት</a> ድማ ሕቶታትን ኣማራጺ መልስታትን ነጥብታት ዘረባን ኣለዎ።</li><li><strong>ናይ ስራሕ መምርሒታት</strong> ንሰራሕተኛታትን ስድራ ቤታትን፣ ብቀሊል ቋንቋ ብምንጭታት ዝተጻሓፉ። ብ<a href=\"/activities/ideas/\">101 ሓሳባት ስራሕ</a> ወይ ብ<a href=\"/crafts/craft-group-sessions/\">ጉጅለ ስራሕ ንቤታት ክናበር ዓዛውቲ</a> ጀምሩ።</li>",
       "restHtml": "<h2>ጉጅለታት ከመይ ይጥቀሙሉ</h2><ul><li><strong>ቤታት ክብካቤን ክብካቤ ዴመንሻን:</strong> ስእሊ ቢንጎ ወይ ምልኣት ሓረግ ኣብ ቴሌቭዥን ናይ ሓባር ክፍሊ፣ ሓደ ሰብ ንጉጅለ ዝጠውቕ።</li><li><strong>ናይ መዓልቲ ክብካቤ ፕሮግራማት:</strong> ታብሌት ኣብ ቦታ ዝሓዘ ጓንታት ስእሊ ብኣርባዕተ ሰቓላት ዝተሰነየ፣ ንሓጺር ናይ ሰብ-ብሰብ ክፍለ-ግዜታት።</li><li><strong>ህዝባዊ መጻሕፍቲ ቤት:</strong> ዝታተሙ ቃላት ምድላይን ካርድታት ምርኻብን ኣብ ሳእኒ ዝርዝራት ኣእምሮ፣ ከምኡ'ውን ናይዚ ዌብሳይት ኣድራሻ ኣብ ታብሌታት መጻሕፍቲ ቤት ምዕቃብ።</li><li><strong>ጉጅለታት ደገፍ ተኸናኻኒ ሰባትን ቤት-ቡን ኣእምሮን:</strong> ንስድራ ንኺወስዱ <a href=\"/handout/\">ሓደ ገጽ ዝሓተመ መምርሒ</a>።</li><li><strong>ሆስፒታላትን ኣመሓዳሪ ምልዓል ሰባት ኣብ ገዛ ምቕማጥን:</strong> መምርሒ ኣብ ጥቕሊ ተኸናኻኒ ሰባት ብምእታው፣ ኣብ ገዛ ወይ ኣብ ጎድኒ ሓመድ ዝኾነ ጸጥ ዝበለ ስራሕ ንምህላው።</li></ul><h2>እንታይ ኣይንገብርን</h2><p>ጸወታታት ንሓጐስን ንሓባራዊ ግዜን እዮም። ዴመንሻ ኣይ ይፍትሹን፣ ኣይ ይፈትኑን፣ ኣይ ይቁጽሩን፣ ኣይ ይሕክሙን፣ ኣይ ድማ ይዘግዑን። ድርጅታት ከምዚ ከይብሉ ንሓትት። ኣብ ዌብሳይት ዘሎ ምስታውቲ የለን። ጸወታታቱ ስም፣ ሓበሬታ ጥዕና ወይ ስእልታት ክሰቕሉ ኣይሓትቱን። ዌብሳይቱ ንምብጻሕ Google Analytics ይጥቀም፤ <a href=\"/privacy/\">መግለጺ ምስጢራዊነት</a> ዘሎ ዝኣክብ ይገልጽ። ኣብ <a href=\"/games/photo-pairs/\">ዝተመሳሰሉ ስእልታት</a> ዝጥቀሙ ስእልታት ኣብ ብራውዘር ይጸንሑ።</p><h2>ናብ ዝርዝር ሓገዝካ ወስኽና</h2><p>ዝርዝር ሓብቲ ተኸናኻኒ ሰባት እንተ ሓዚኻ፣ ናብ <a href=\"/\">{domain}</a> ክትሓዙ ትኽእል። ካብ ዝደለኻ መግለጺ ክትቅድሕ ትኽእል።</p>",
       "shortTitle": "ሓጺር መግለጺ",
       "longTitle": "ዝርዝር መግለጺ",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>ቀጥታ ክትዛረቡሉ ዝሓሸ ገጽታት: <a href=\"/games/\">ነጻ ጸወታታት</a>, <a href=\"/games/\">ነጻ ዝሕተሙ ጽሑፋት</a>, <a href=\"/dementia-activities/\">ኣብ ቤት ዝግበሩ ስራሕታት ንዲመንሺያ</a> ከምኡ'ውን <a href=\"/caregiving/how-to-play-together/\">ብኸመይ ብሓባር ክትጻወቱ</a>.</p><h2>ሕቶታት ወይ ምርጋም</h2><p>ኣብ ዝኾነ ቦታ ናይዚ ጣቢያ ጌጋ ወይ ዘይግልጽ ነገር እንተሎ፣ ወይ ድልየታት ነባራት ቤት ዓዛውቲ ወይ ተጠቀምቲ ብዚ ዘሎ እንተ ዘይምላኡ፣ ብኢመይል <a href=\"mailto:{email}\">{email}</a> ሓበሩና። ብኽብረትኩም ሓበሬታ ብዛዕባ ውልቃዊ ወይ ጥዕናዊ ኩነታት ነባራትን ተጠቀምቲን ኣይትልኡኹ።</p>"
     },
     "app": {
       "title": "መተግበሪኣ Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "ነጻ ጨዋታታት ዲመንሺያን ኣልዛይመርን ኦንላይን",
-    "description": "ነጻ ኦንላይን ጨዋታታት ንዓበያት ዝነብሩ ብዲመንሺያ ወይ ኣልዛይመር: ምጥማር ስእልታት፣ ቀሊል ጅግሳው፣ ምምዳብ፣ ምውዳእ ዝረባ፣ ምቕባዕ፣ ቢንጎ። ምዝገባ፣ ሰዓት ወይ ነጥቢ የብሉን።",
+    "title": "ነጻ ጸወታታት ብሓባር ኣብ ኦንላይን ዝጻወቱ",
+    "description": "ንኣረጊ ሰባት፣ ንስድራ ቤትን ብዲመንሺያ ዘለዎም ሰባትን ዝኾኑ ነጻ ኦንላይን ጸወታታት: ስእሊ ምምሳል፣ ቀሊል ምትእስሳር፣ ምድርዳር፣ ምስላት፣ ቀለም ምልዓል፣ ከምኡ'ውን ቢንጎ። ምዝገባ፣ ሰዓት ቆጸራን ነጥብን የለን።",
     "crumb": "ጨዋታታት",
-    "h1": "ገር ጨዋታታት ንሰባት ዝነብሩ ብዲመንሺያ",
+    "h1": "ዘይጽዕን ጸወታታት ብሓባር ንምጽዋት",
     "lede": "{count} ነጻ ጨዋታታት ብበይነ-መረብ ኣሳሲ ብሓባር ተጻወቱ። ዓበይቲ ስእልታት፣ ቀሊል ቃላት፣ ዝኸሽል ዋላ ሓደ የለን፦ ሰዓት የለን፣ ነጥቢ የለን፣ ምዝገባ የለን።",
-    "listName": "ገር ጨዋታታት ንሰባት ዝነብሩ ብዲመንሺያ",
+    "listName": "ዘይጽዕን ጸወታታት ብሓባር ንምጽዋት",
     "byStageTitle": "ጨዋታ ብደረጃ ምምራጽ",
     "byStageLede": "ደረጃታት ሓጺር መምርሒ ጥራይ እዮም። እቲ ሰብ ዝፈትዎን ሎሚ ዝምቹሖን ተኸተሉ።",
     "stageCol": "ደረጃ",
     "gamesCol": "ብዙሕ ግዜ ዝሰማምዑ ጨዋታታት",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "ካብ ስክሪን ወጻኢ ዝኾኑ ተወሳኺ ሓሳባት: <a href=\"/activities/ideas/\">101 ሓሳባት ስራሕ</a>, <a href=\"/dementia-activities/\">ኣብ ቤት ዝግበሩ ስራሕታት ንዲመንሺያ</a> ከምኡ'ውን <a href=\"/crafts/\">ጥበባዊ ስራሕታት</a>.",
     "faq": [
       {
         "q": "ቀዳማይ ጨዋታ እንታይ ክንጅምር ኣለና?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "ዝካር ጨዋታታት ንዓበያት ዶ?",
-        "a": "ኩሉ ዓበይቲ ዝፈትዎም ዝምጥምን ስእልታትን ጨዋታታት እዮም፣ ግን ዝካር ንምፍታን ኣይተዳለዩን፦ ኣብ ስእሊ ጣምራታት ስእልታት ብዝመረጽኩሞ ዘይኮነ ብገጽ ይጸንሑ። መምርሒና ናይ ዝካር ጨዋታታት ንዓበያት ብዲመንሺያ ብኸመይ ገር ከም ዝኸውን ይሕብር።"
+        "a": "ንኹሎም ኣረጊ ሰባት ክሕጎስሉ ዝኽእሉ ምምሳልን ስእልታትን ዝኾኑ ጸወታታት እዮም፣ ግን ኣእምሮ ንምፍታን ዝተሰርሑ ኣይኮኑን: ኣብ «ስእሊ ክልቲኡ» ስእልታት ብዘይ ምርጫኩም ብላይ ይጸንሑ። ዝኾነ ጸወታ ዝኽሪ ብምውጋድ ሰዓት ቆጸራን ነጥብን ዝያዳ ዘዋህል ክግበር ይከኣል።"
       },
       {
         "q": "ኣብ ቤት-ክንክን ንጉጅለታት ጨዋታታት ኣሎ ድዩ?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ጨዋታ ዝኸውን ናይ ዲመንሺያ መተግበሪያ ኣሎ ድዩ?",
+        "q": "ንኣረጊ ሰባትን ስድራ ቤታትን ዝኾነ ኣፕ ኣሎ ድዩ?",
         "a": "እወ። Creative Activities (ብሽም \"{storeName}\" ዝተዘርዘረ) ብApp Store ከምኡ ድማ Google Play ነጻ እዩ። ብዓበይቲ ካርድታት ገር ምጥማር ስእልታት፣ ብዝመረጽኩምዎም ስድራቤት ስእልታት ጨዋታታትን ብዘይ ኢንተርነት ዝሰርሑ ናይ ስእሊ ጥቅልታትን ይህብ።"
       },
       {
@@ -526,7 +656,7 @@
     "printable": "ዝሕተም",
     "howTo": "{name} ከመይ ትጻወት",
     "tips": "ሓደ ኰይንካ ንምጻወት ምኽሪታት",
-    "newToPlayingHtml": "ምስ ድንዛዜ ኣእምሮ ዘለዎ ሰብ ክትጻወት ሓዲስ ዲኻ? <a href=\"/caregiving/how-to-play-together/\">ከመይ ሓቢርካ ክትጻወት</a> ኣንብብ፣ ብፍላይ ከኣ እቲ ሰብ ፍቓዱ እንተ ጠፍአ እንታይ ክግበር ከም ዘለዎ።",
+    "newToPlayingHtml": "ምስ ኣረጊ ሰብ ወይ ብዲመንሺያ ዘለዎ ሰብ ብሓባር ምጻወት ሓዲስኩም ዲኹም? <a href=\"/caregiving/how-to-play-together/\">ብኸመይ ጸወታታት ብሓባር ክትጻወቱ</a> ኣንብቡ፣ ንሳቶም ፍቓድ እንተ ኣቢሎም እንታይ ክትገብሩ ከምዘለኩም ድማ ተመልከቱ።",
     "moreAria": "ካልእ ክትፈልጥ",
     "helpfulGuides": "ጠቓሚ መምርሒታት",
     "appTitle": "ኣብ ኣፕ ጻወቶ",
@@ -536,6 +666,35 @@
     "goodToKnow": "ኣዝዩ ጠቓሚ ሓበሬታ",
     "goodToKnowText": "እዚ ጸወታ ንሓጎስን ንሓባር ዝሕልፍዎ ግዜን እዩ። ዝኾነ ነገር ኣይፍትሽን፣ ኣይምዝንን፣ ኣይሕክምን እዩ።",
     "moreGames": "ተወሳኺ ቀሊላት ጸወታታት",
-    "crumb": "ጸወታታት"
+    "crumb": "ጸወታታት",
+    "print": {
+      "heading": "ብወረቐት ጸወቱ",
+      "sameRules": "ናይ ወረቐት ስሪዖም ካብቲ ኣብ ስክሪን ዘሎ ጸወታ ሓደ እዩ:",
+      "button": "ናይ ወረቐት ቅዳሕ ኣትሙ",
+      "pageNote": "ኣብ A4 ወይ US Letter ሓደ ገጽ፣ ብጸሊምን ጸዓዳን ጽቡቕ እዩ። ስሪዝ {date}።",
+      "islandNote": "ብሕጂ ኣብ ስክሪን ዘሎ ነገር ይኽተም። ስሪዝ {date}።",
+      "sheetTitle": "{name}: ናይ ወረቐት ቅዳሕ",
+      "point": "ኣብ ወረቐት፣ ብንክኪ ምግባር ቅድሚ፣ ናብ ስእሊ ኣመልክቱ፣ ወይ ብብዕራይ ኣኽቡቦ። ነፍሲ ወከፍ ሰልፊ ሓዲስ ስብስብ እዩ።",
+      "pointTarget": "ኣብ ወረቐት፣ ዝርኢዎ ዘለኩም ስእሊ ኣብ መጀመርታ ነፍሲ ወከፍ ሰልፊ ኣብ ሳንዱቕ ኣሎ። ብንክኪ ምግባር ቅድሚ፣ ናብ ስእሊ ኣመልክቱ፣ ወይ ብብዕራይ ኣኽቡቦ።",
+      "halves": "ነፍሲ ወከፍ ስእሊ ብማእከል ተቖሪጹ። ካብ ጸጋም ናይ ነፍሲ ወከፍ ፍርቂ ናብ ዝሰማማዕ ፍርቂ ኣብ የማን ስዓሉ፣ ወይ ብኣጻብዕኩም ኣመልክቱ። ዝኾነ ምቁራጽ ኣየድልን።",
+      "grid": "ነፍሲ ወከፍ ካሬ ቁጽሪ ኣለዎ። ነቲ ቁጽሪ ኣብ መፍትሒ ድለዩ፣ ካሬ'ቲ ብዝለኣኽ ቀለም ቀለሙ። ካልእ ዝመረጽኩሞ ቀለም'ውን ጽቡቕ እዩ። ዝኾነ ምቁራጽ ኣየድልን።",
+      "colors": "ነፍሲ ወከፍ ሰልፊ ቀለም ይሰምዕ። ነቲ ቀለም ዘለዎ ኩሉ ስእሊ ኣመልክቱ፣ ወይ ብብዕራይ ኣኽቡቦ። ነፍሲ ወከፍ ሰልፊ ሓዲስ ስብስብ እዩ።",
+      "dice": "ነፍሲ ወከፍ ሰልፊ ስብስብ ዳዊት እዩ። ሓደ ሰልፊ ምረጹ፣ ወይ ስእልታት ቆርጹ ካብ ክምር ብሓባር ኣውጹ፣ ድሕሪኡ ብዝኾነ ቅደም ተኸተል ተጠቒምኩም ታሪኽ ተዛረቡ። ዝኾነ ሰብ ክሓልፍ ይኽእል።",
+      "words": "ቃላት ቆርጹ፣ ወይ ካብ ነፍሲ ወከፍ ቃል ናብ ስእሉ መስመር ስዓሉ። ኣብ ምኽንያት ቃላት ብድምጺ ኣንብቡ።",
+      "cards": "ካርድታት ኣብ ዝተሰመረ መስመራት ቆርጹ። ብገጽ ኣብ ጠረጴዛ ኣቐምጡ፣ ድሕሪኡ ክልቲኡ ዝተመሳሰሉ ድለዩ።",
+      "chain": "ኣብ ወረቐት፣ ስእልታት ካብ ጸጋም ናብ የማን፣ ሓደ ድሕሪ ሓደ ኣንብቡ። ነፍሲ ወከፍ ሰብ ብዛዕባ ክሳብ ሕጂ ዘሎ ስእልታት ሓደ ዓረፍተ-ነገር ይዛረብ፣ ድሕሪኡ ናብ ዝቐጽል ስእሊ ይኣመልኽ። ዝኾነ ሰብ ክሓልፍ ይኽእል።",
+      "sort": "ስእልታት ኣብ ዝተሰመረ መስመራት ቆርጹ፣ ድሕሪኡ ነፍሲ ወከፍ ኣብ ዝኸውን ሳንዱቕ ኣእትዉ።",
+      "puzzle": "ዓቢ ስእሊ ኣብ ዝተሰመረ መስመራት ናብ ኣርባዕተ ክፋላት ቆርጹ፣ ድሕሪኡ ኣዕርብቡ። ስእሊ ምሉእ ክኸውን ክሳብ ዝሰርሕ ክልተ ክፋላት ብሓደ ቀያይርዎም። ንኡስ ስእሊ መምርሒ እዩ።",
+      "cutSafety": "ቅድሚ ምጅማርኩም ሓጋዚ ምቁራጽ ክገብር ይኽእል። ድሕሪኡ ቀስታት ኣእትዉ።",
+      "version": "ስሪዝ {date} · {url}",
+      "reasons": {
+        "photos": "ናይ ወረቐት ስሪዝ የለን። እዚ ጸወታ ናይ ባዕልኹም ፎቶታት ይጥቀም፣ እዚ ኣብ ብራውዘርኩም ይጸንሕ ኣብ ኢንተርነት ኣይተሰቕሉን፣ ስለዚ ጣቢያ ክኽትሞም ኣይክእልን። ኣብ ወረቐት ንምጽዋት፣ ኣብ ቤትኩም ካብ ዝኾኑ ጥቂት ፎቶታት ክልተ ቅዳሕ ኣትሙ፣ ኣብ ጠረጴዛ ተመሳሰልዎም።",
+        "paced": "ናይ ወረቐት ስሪዝ የለን። ክቡ ኣብ ስክሪን ሓደ ዘይቑሩጽ ቅልጡፍ መጠን ይሰርዕ። ዝታተመ ገጽ ከኣ ነዚ ክገብር ኣይክእልን፣ ስለዚ ካልእ ስራሕ ክኸውን እዩ። ብዘይ ስክሪን ብሓባር ጸጥታዊ ዕረፍቲ ኣብ ኩሉ ግዜ ኣማራጺ እዩ።",
+        "turns": "ናይ ወረቐት ስሪዝ ናይዚ ጸወታ የለን። ኣብ ጠረጴዛ ዝተመሳሰሉ ንምርካብ፣ ካብ «ስእሊ ክልቲኡ» ዝመጹ ስእሊ ካርድታት ኣትሙ ብተራ ግለጹ።",
+        "screen": "ወረቀት ዝርዝር የለን። እዚ ኣብ ስክሪን ንሓባሪ ዝርኢ ስእሊ እዩ፤ ወይ ድማ ዝፈትዎ ፎቶ ወይ ካርድ ኣብ ጠረጴዛ ምቕማጥ ተመሳሳሲ ስራሕ ይሰርሕ።",
+        "wash": "ወረቀት ዝርዝር የለን። ኣብ ወረቀት ውሕጅ ቀለም ተመሳሳሲ ሓሳብ እዩ፤ ብርጣቢ ብሩሕ ዝለሓለሓ ብሓደ ቀለም ብሓደ ግዜ።",
+        "sayings": "ገና ወረቀት ዝርዝር የለን። ኣብ ወረቀት ኩሉ መወዳእታ ብሓደ ግዜ ክርአ ነበረ፤ ከምኡ ድማ ዓቢ ዘይኮነ \"መወዳእታ ኣርእይ\" ዝብል ስጉምቲ ጠፊኡ ነበረ። ንምስሊ ዝፈልጥምዎ ሓደ ሓደ ኣዛራቢ ንሓባሪ ኣብ ስክሪን ኣንብብዎ፤ ወይ ድማ ክልተኹም ትፈልጥዎም ሓደ ክልተ ንሓባሪ።"
+      }
+    }
   }
 }

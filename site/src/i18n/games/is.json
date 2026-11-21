@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Myndapör",
-    "seoTitle": "Paraleikur fyrir fólk með heilabilun: Myndapör",
+    "seoTitle": "Pariðsleikur fyrir fullorðna: myndapör",
     "h1": "Myndapör: rólegur paraleikur",
-    "description": "Ókeypis og rólegur paraleikur fyrir fólk með heilabilun. Stórar myndir eru alltaf sýnilegar, engin klukka eða stigatalning er í leiknum og hægt er að velja 4 til 12 spjöld.",
+    "description": "Ókeypis, rólegur pörunarleikur fyrir fullorðna og eldra fólk, þar á meðal fólk sem lifir með heilabilun. Myndirnar mega vera sýnilegar. Engin klukka og engin stig.",
     "short": "Finndu tvær eins myndir. Myndirnar geta alltaf legið opnar.",
     "players": "1 eða 2 saman, hlið við hlið",
     "intro": "Ýtið á mynd og ýtið svo á myndina sem passar við hana. Myndirnar liggja opnar að sjálfgefnu, svo ekki þarf að muna hvar þær eru. Þegar tvær myndir eiga saman fá þær gylltan ramma og gátmerki.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Finndu sömu mynd",
-    "seoTitle": "Finndu sömu mynd: einfaldur leikur fyrir fólk með heilabilun",
+    "seoTitle": "Finndu sömu myndina: einfaldur myndaleikur",
     "h1": "Finndu sömu mynd",
-    "description": "Ein mynd efst, tvær til fjórar fyrir neðan. Ýtið á myndina sem er eins. Rólegur og ókeypis myndaleikur fyrir fólk með heilabilun, án klukku.",
+    "description": "Ein mynd efst, tvær til fjórar fyrir neðan. Pikkaðu á þá sem er eins. Rólegur, ókeypis myndaleikur fyrir fullorðna, eldra fólk og fjölskyldur, án klukku.",
     "short": "Horfið á myndina efst og ýtið á sömu mynd fyrir neðan.",
     "players": "1 eða 2 saman",
     "intro": "Ein mynd er efst á skjánum. Fyrir neðan hana eru tvær, þrjár eða fjórar myndir. Ýtið á myndina sem er eins. Hvert val er einfalt og gefur gott rými til að spjalla.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Skuggaleikur",
-    "seoTitle": "Skuggaleikur fyrir fólk með heilabilun: ókeypis á netinu",
+    "seoTitle": "Skuggapörun: ókeypis netleikur fyrir fullorðna",
     "h1": "Skuggaleikur: rólegur myndaleikur",
-    "description": "Dökkur skuggi efst, tvær til fjórar myndir fyrir neðan. Ýtið á myndina sem passar við skuggann. Ókeypis og rólegur skuggaleikur fyrir fólk með heilabilun, án klukku.",
+    "description": "Dökkur skuggi efst, tvær til fjórar myndir fyrir neðan. Pikkaðu á myndina sem varpar skugganum. Ókeypis, rólegur skuggapörunarleikur án klukku.",
     "short": "Horfið á skuggann og ýtið á myndina sem passar við hann.",
     "players": "1 eða 2 saman",
     "intro": "Að para saman skugga og mynd er kunnugleg iðja úr bókum og blöðum, en hér með stórum myndum og engu sem þarf að prenta út. Mjúkur skuggi er efst á skjánum og tvær, þrjár eða fjórar myndir fyrir neðan. Ýtið á myndina sem passar við skuggann. Form eins og reiðhjól, regnhlíf eða tebolli eru líka þægileg til að spjalla um.",
@@ -100,8 +100,8 @@
         "a": "Nei. Það er engin klukka, engin stig, enginn leikjateljari og enginn tapar. Hægt er að hætta hvenær sem er, og það er alveg jafn gott að stoppa í miðjum klíðum."
       },
       {
-        "q": "Hentar skuggaleikur fólki með heilabilun?",
-        "a": "Þetta getur verið notaleg og einföld iðja fyrir suma, sérstaklega á fyrri stigum. Form eru oft auðveldari að þekkja en orð. Leikurinn er ætlaður til ánægju og spjalls, ekki sem próf, og hann læknar hvorki né hægir á heilabilun. Ef hann veldur óþoli má prófa Finndu eins eða einfaldlega skoða myndir saman."
+        "q": "Geta fólk sem lifir með heilabilun haft gaman af skuggapörun?",
+        "a": "Margir fullorðnir hafa gaman af henni, þar á meðal sumir sem lifa með heilabilun, oft á fyrri stigum. Form er auðveldara að þekkja en orð. Leikurinn er til ánægju og samræðna, ekki próf, og hann læknar ekki né hægir á heilabilun. Ef hann veldur gremju er hægt að prófa Finndu sömu myndina eða einfaldlega skoða myndir saman."
       },
       {
         "q": "Hvað gerist ef ýtt er á ranga mynd?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Fjögur saman",
+    "seoTitle": "Myndaflokkunarleikur fyrir fullorðna: Fjögur saman",
+    "h1": "Fjögur saman: rólegur myndaflokkunarleikur",
+    "description": "Sumar myndirnar tengjast sama þema, til dæmis ávöxtum eða veðri. Pikkaðu á þær sem eiga saman. Ókeypis, rólegur flokkunarleikur án klukku og án stiga.",
+    "short": "Finndu myndirnar sem eiga saman, eins og ávexti eða veður.",
+    "players": "1 eða 2 manns",
+    "intro": "Lítið safn mynda, og sumar þeirra eiga saman: kannski fjórar tegundir af ávöxtum, eða fjórir ferðamátar. Pikkaðu á þær sem deila þema. Ef mynd tilheyrir öðru, nefnir leikurinn það einfaldlega og bíður. Eftir stutta þögn birtist vísbending um þemað, og „Sýna hópinn“ sýnir svarið hvenær sem er.",
+    "howTo": [
+      "Veldu fjórar, sex eða átta myndir. Fjórar er einfaldast, með þremur sem eiga saman.",
+      "Skoðið myndirnar saman og ræðið hvað þær eiga sameiginlegt.",
+      "Pikkaðu á hverja mynd sem á heima í hópnum. Hún fær gylltan ramma og hakmerki.",
+      "Ef mynd tilheyrir öðru, nefnir leikurinn það og bíður. Taktu þér tíma.",
+      "Pikkaðu á „Sýna hópinn“ hvenær sem þú vilt, og síðan á „Annað sett“ fyrir nýjar myndir."
+    ],
+    "tips": [
+      "Segðu upphátt það sem þú tekur eftir: „Þessir tveir eru báðir matur.“",
+      "Enginn asi. Vísbending um þemað birtist eftir stutta þögn og þú mátt hunsa hana.",
+      "Ræðið um hópinn þegar hann er fundinn: uppáhaldsávöxt, lestarferð, veðrið í dag."
+    ],
+    "faq": [
+      {
+        "q": "Er klukka eða stig?",
+        "a": "Nei. Engin klukka, engin stig, engin hreyfingateljari og engin töp. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullkomlega gild leið til að ljúka leiknum."
+      },
+      {
+        "q": "Hvað gerist ef pikkað er á mynd sem er utan hópsins?",
+        "a": "Ekkert óþægilegt. Enginn suðari, ekkert rautt kross og enginn hristingur. Leikurinn nefnir myndina, segir að hún eigi saman með öðru, og bíður eftir næsta pikki."
+      },
+      {
+        "q": "Hver eru hóparnir?",
+        "a": "Daglegt þemu sem krefjast engrar sérþekkingar: ávextir, dýr, blóm, veður, ferðamátar, hlutir fyrir heitan drykk og hlutir bakaðir í ofni. Hver mynd tilheyrir aðeins einum hópi."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf að skrá sig?",
+        "a": "Já, það er ókeypis, og enginn aðgangur, skráning eða niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Sá sem passar ekki",
+    "seoTitle": "Sá sem passar ekki: myndaleikur fyrir fullorðna",
+    "h1": "Sá sem passar ekki: afslappaður myndaleikur",
+    "description": "Þrjár eða fjórar myndir, og allar nema ein tengjast sama þema, til dæmis ávöxtum eða veðri. Pikkaðu á þá sem passar ekki. Ókeypis, rólegur leikur án klukku og án stiga.",
+    "short": "Finndu myndina sem passar ekki við hinar.",
+    "players": "1 eða 2 manns",
+    "intro": "Þrjár eða fjórar myndir, og allar nema ein eiga saman: ávextir, kannski, eða ferðamátar. Pikkaðu á myndina sem passar ekki. Ef mynd á í raun heima með hinum, segir leikurinn það einfaldlega og bíður. Eftir stutta þögn birtist vísbending um hvað hinar eiga sameiginlegt, og „Sýndu mér“ bendir á þá sem passar ekki hvenær sem er.",
+    "howTo": [
+      "Veldu þrjár eða fjórar myndir. Þrjár er einfaldast.",
+      "Skoðið myndirnar saman og ræðið hvað flestar þeirra eiga sameiginlegt.",
+      "Pikkaðu á myndina sem passar ekki. Hún fær gylltan ramma og hakmerki.",
+      "Ef mynd passar með hinum, segir leikurinn það og bíður. Taktu þér tíma.",
+      "Pikkaðu á „Sýndu mér“ hvenær sem þú vilt, og síðan á „Annað sett“ fyrir nýjar myndir."
+    ],
+    "tips": [
+      "Ræddu þetta upphátt: „Eplið og peran eru bæði ávextir. Hvað með strætóinn?“",
+      "Enginn asi. Vísbending um þemað birtist eftir stutta þögn og þú mátt hunsa hana.",
+      "Hvaða mynd sem er er góð byrjun á spjalli: uppáhaldsávöxtur, strætóferð, rigningardagur."
+    ],
+    "faq": [
+      {
+        "q": "Er klukka eða stig?",
+        "a": "Nei. Engin klukka, engin stig, engin hreyfingateljari og engin töp. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullkomlega gild leið til að ljúka leiknum."
+      },
+      {
+        "q": "Hvað gerist ef pikkað er á mynd sem á heima í hópnum?",
+        "a": "Ekkert óþægilegt. Enginn suðari, ekkert rautt kross og enginn hristingur. Leikurinn nefnir myndina, segir að hún eigi saman með hinum, og bíður eftir næsta pikki."
+      },
+      {
+        "q": "Hvernig er myndin sem passar ekki valin?",
+        "a": "Myndirnar koma úr daglegum þemum sem krefjast engrar sérþekkingar: ávextir, dýr, blóm, veður, ferðamátar, hlutir fyrir heitan drykk og hlutir bakaðir í ofni. Hver mynd tilheyrir aðeins einu þema, og sú sem passar ekki kemur alltaf úr öðru þema."
+      },
+      {
+        "q": "Er það ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis, og engin aðgangur, skráning eða niðurhal þarf. Það virkar í vafranum á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Litir paraðir",
+    "seoTitle": "Litir paraðir: rólegur myndaleikur",
+    "h1": "Litir paraðir: finndu myndirnar í einum lit",
+    "description": "Stór litaflötur með nafni hans og fjórar eða sex myndir. Pikkaðu á hverja mynd í þessum lit. Enginn tímamælir, engin stig, og annar litur er einfaldlega nefndur. Ókeypis að spila og prenta.",
+    "short": "Finndu allar myndir sem eru í sama lit og sá sem sýndur er.",
+    "players": "1 eða 2 manns, eða fullorðinn og barn",
+    "intro": "Stór litaflötur er sýndur með nafni sínu við hliðina og fyrir neðan hann eru fjórar eða sex myndir. Pikkaðu á hverja mynd í þessum lit: til dæmis rautt epli og rauðan bolla. Ef mynd er í öðrum lit nefnir leikurinn hann einfaldlega („Peran er græn.“) og bíður. „Sýndu mér“ bendir á myndirnar sem passa hvenær sem er og „Annar litur“ færir þig áfram.",
+    "howTo": [
+      "Veldu fjórar eða sex myndir. Fjórar er einfaldast.",
+      "Horfðu á litinn og lestu nafn hans saman.",
+      "Pikkaðu á hverja mynd í þessum lit. Hver þeirra fær þykkan ramma og hakmerki.",
+      "Ef mynd er í öðrum lit segir leikurinn hvaða litur hún er og bíður. Taktu þér tíma.",
+      "Pikkaðu á „Sýndu mér“ þegar þú vilt, og síðan á „Annar litur“ fyrir nýjan lit."
+    ],
+    "tips": [
+      "Segðu litinn upphátt og litastu síðan um herbergið: hvað annað er í þessum lit?",
+      "Notaðu þín eigin orð ef þú vilt. „Tómatur“ eða „himinn“ er jafngott og „rautt“ eða „blátt“.",
+      "Að benda virkar jafnvel vel og að pikka. Setjist hlið við hlið svo þið sjáið bæði skjáinn."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stigagjöf?",
+        "a": "Nei. Það er engin klukka, engin stig, enginn hreyfiteljari og enginn tapleikur. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullgild leið til að ljúka."
+      },
+      {
+        "q": "Hvað gerist ef pikkað er á mynd í öðrum lit?",
+        "a": "Ekkert óþægilegt. Það er ekkert suð, ekkert rautt kross og enginn titringur. Leikurinn nefnir myndina og litinn hennar, til dæmis „Perann er græn.“, og bíður eftir næsta pikki."
+      },
+      {
+        "q": "Er liturinn eina vísbendingin?",
+        "a": "Nei. Liturinn er sýndur sem stór flötur og er líka skrifaður sem orð, og hver mynd er nefnd þegar pikkað er á hana. Sá sem á erfitt með að sjá lit getur samt tekið þátt með því að lesa nafnið."
+      },
+      {
+        "q": "Er hver mynd örugglega í þessum lit?",
+        "a": "Myndirnar eru valdar af hendi, og aðeins þær þar sem meginhluturinn er greinilega í einum lit. Myndir með mörgum litum, eins og flugdreki eða býfluga, eru ekki notaðar."
+      },
+      {
+        "q": "Er til pappírsútgáfa?",
+        "a": "Já. Ein síða með fjórum röðum. Hver röð nefnir lit og sýnir fjórar myndir til að benda á eða hringja utan um."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis, og engin aðgangur, skráning eða niðurhal þarf. Það virkar í vafranum á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Helmingar paraðir",
+    "seoTitle": "Helmingar paraðir: rólegur myndaleikur",
+    "h1": "Helmingar paraðir: settu saman tvo helminga myndar",
+    "description": "Vinstri helmingar tveggja eða þriggja mynda öðrum megin, hægri helmingarnir hinum megin. Pikkaðu á einn helming, og síðan á þann sem passar við hann. Enginn tímamælir, engin stig, og helmingar sem passa ekki skiljast einfaldlega í sundur. Ókeypis að spila og prenta.",
+    "short": "Pikkaðu á tvo helminga sem passa saman til að mynda eina mynd.",
+    "players": "1 eða 2 manns, eða fullorðinn og barn",
+    "intro": "Hver mynd er skorin í miðjuna. Vinstri helmingar tveggja eða þriggja mynda eru í einum dálki og hægri helmingarnir, í annarri röð, eru í hinum. Pikkaðu á helming vinstra megin og síðan á þann hægra sem passar við hann, til dæmis stútinn á katli og handfangið. Helmingar sem passa eru settir saman í heila mynd. Helmingar sem passa ekki skiljast aftur í sundur og leikurinn segir það mjúklega. „Sýndu mér“ setur þá alla saman.",
+    "howTo": [
+      "Veldu tvær eða þrjár myndir. Tvær er einfaldast.",
+      "Horfið saman á vinstri helmingana. Hvað heldur þú að hver þeirra sé hluti af?",
+      "Pikkaðu á helming vinstra megin og síðan á þann hægra sem passar við hann. Það virkar líka í öfuga átt.",
+      "Helmingar sem passa eru settir saman, með þykkum ramma og hakmerki. Helmingar sem passa ekki skiljast aftur í sundur, og þú getur reynt annan.",
+      "Pikkaðu á „Sýndu mér“ þegar þú vilt, og síðan á „Annað sett“ fyrir nýjar myndir."
+    ],
+    "tips": [
+      "Rektu fingurinn eftir brún á helmingi. Hvar nær teikningin að miðjunni?",
+      "Segðu það sem þú sérð: „Sá þarna er með handfangi.“ Það þarf ekki að nefna hverja mynd.",
+      "Að benda virkar jafnvel vel og að pikka. Setjist hlið við hlið svo þið sjáið bæði skjáinn."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stigagjöf?",
+        "a": "Nei. Það er engin klukka, engin stig, enginn hreyfiteljari og enginn tapleikur. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullgild leið til að ljúka."
+      },
+      {
+        "q": "Hvað gerist ef tveir helmingar passa ekki saman?",
+        "a": "Ekkert óþægilegt. Það er ekkert suð, ekkert rautt kross og enginn titringur. Helmingarnir skiljast aftur í sundur og leikurinn segir: „Þessir tveir passa ekki saman. Prófaðu annan.“ Ekkert er talið."
+      },
+      {
+        "q": "Eru myndirnar auðveldar að greina í sundur?",
+        "a": "Já. Myndirnar eru valdar af hendi, og tvær myndir á sama borði koma aldrei úr sama flokki, eins og tveir ávextir eða tvö dýr. Myndir þar sem helmingarnir líta eins út, eins og sólin eða regnboginn, eru ekki notaðar."
+      },
+      {
+        "q": "Er til pappírsútgáfa?",
+        "a": "Já. Á einu blaðsíðu eru vinstri helmingar þriggja mynda í annarri dálki og hægri helmingar þeirra, í annarri röð, í hinum. Dragðu línu frá hverjum vinstri helmingi að þeim helmingi sem passar við hann."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis og þú þarft hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Litaðu eftir númerum",
+    "seoTitle": "Litaðu eftir númerum: rólegur leikur með stórum reitum",
+    "h1": "Litaðu eftir númerum: fylltu reitina í þeim lit sem þú vilt",
+    "description": "Rist af stórum, númeruðum reitum og lykill með fjórum litum og nöfnum þeirra. Veldu lit og pikkaðu síðan á reiti til að fylla þá. Hvaða litur sem er gengur, það er enginn tímamælir eða stig, og hnappur fyllir hina reitina eftir númerunum. Ókeypis að spila og prenta.",
+    "short": "Veldu lit og pikkaðu síðan á númeruðu reitina til að fylla þá.",
+    "players": "1 eða 2 í einu, hlið við hlið",
+    "intro": "Ferningalaga rist af stórum reitum, hver með númeri, og lykill fyrir ofan hana með fjórum litum, hver með sínu númeri og skrifuðu nafni. Veldu lit úr lyklinum og pikkaðu síðan á reiti til að fylla þá. Ristin er 4 x 4 í upphafi, en 6 x 6 og 8 x 8 þegar þú vilt fleiri reiti. Þegar hver reitur hefur lit síns númers er ristin myndin á blaðinu. Reitir fylltir með öðrum litum eru einfaldlega þín eigin mynd, og leikurinn segir ekkert um það. Hnappurinn \"Fylla eftir númerum\" fyllir alla tóma reiti fyrir þig.",
+    "howTo": [
+      "Veldu stærð ristarinnar. 4 x 4 hefur stærstu reitina og er einfaldust.",
+      "Skoðaðu lykilinn fyrir ofan ristina. Hver litur hefur númer og nafn, til dæmis 1 Gulur.",
+      "Pikkaðu á lit í lyklinum og pikkaðu síðan á reitina sem þú vilt fylla með honum.",
+      "Notaðu litinn sem stendur á númerinu, eða hvaða lit sem þú vilt. Hvort tveggja er í lagi.",
+      "Pikkaðu á \"Fylla eftir númerum\" fyrir tómu reitina, \"Hreinsa\" til að byrja aftur á ristinni, eða \"Önnur mynd\" fyrir aðra mynd."
+    ],
+    "tips": [
+      "Setjist hlið við hlið og skiptist á: önnur manneskjan velur litinn, hin pikkar á reitinn.",
+      "Talið um litina: \"Mér finnst grænn fallegur.\" Það þarf ekki að nefna hvað myndin á að vera.",
+      "Á mjóum skjá rennur 8 x 8 ristin til hliðar innan eigins kassa. Reitirnir haldast í þægilegri stærð.",
+      "Pappírsútgáfan virkar jafn vel með blýöntum við rúmstokkinn."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stig?",
+        "a": "Nei. Það er enginn klukka, ekkert stig, enginn teljari hreyfinga og enginn tapleikur. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullkomlega gild leið til að ljúka."
+      },
+      {
+        "q": "Hvað ef ég nota annan lit en númerið segir?",
+        "a": "Ekkert gerist, og það er einmitt málið. Hvaða litur sem er getur farið í hvaða reit sem er, og leikurinn segir ekkert um það. Þegar hver reitur hefur lit síns númers segir leikurinn það hlýlega, en mynd í þínum eigin litum er jafn góð."
+      },
+      {
+        "q": "Geta fólk með litblindu greint litina fjóra í sundur?",
+        "a": "Þeir voru valdir með það í huga. Hver litur hefur líka númer, skrifað nafn og sína eigin litlu lögun, svo litur er aldrei eina leiðin til að greina þá í sundur. Fyllingarnar fjórar voru prófaðar með hermum á rauðgrænni og blágulri litblindu, og þær greinast einnig í birtustigi. Fólk með litblindu hefur ekki prófað þá enn, svo láttu okkur vita ef tveir líta eins út."
+      },
+      {
+        "q": "Eru reitirnir nógu stórir fyrir skjálfta hendi eða lítinn skjá?",
+        "a": "Hver reitur er að minnsta kosti 48 pixlar á breidd, og 56 á 4 x 4 ristinni. Ef ristin er of breið fyrir skjáinn rennur hún til hliðar innan eigins kassa í stað þess að reitirnir minnki."
+      },
+      {
+        "q": "Er til pappírsútgáfa?",
+        "a": "Já. Á einni blaðsíðu er númeruð rist og lykill með fjórum litum og nöfnum þeirra. Litaðu hvern reit með blýanti í lit síns númers, eða hvaða lit sem þú vilt."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis og þú þarft hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Mynsturgerð",
+    "seoTitle": "Mynsturgerð: hannaðu flísar og prentaðu mynstrið",
+    "h1": "Mynsturgerð: hannaðu flís og sjáðu hana endurtaka sig",
+    "description": "Breyttu reitunum á einni lítilli flís og sjáðu hana endurtaka sig í mynstur við hliðina, í fjórum litum sem hver hefur nafn og lögun. Enginn tímamælir eða stig. Ókeypis að spila og prenta.",
+    "short": "Breyttu reitunum á lítilli flís og sjáðu hana endurtaka sig í mynstur.",
+    "players": "1 eða 2 í einu, hlið við hlið",
+    "intro": "Lítil flís með 3 x 3 reitum, eða 4 x 4 ef þú vilt, og við hliðina \"mynstrið þitt\": sama flísin endurtekin í kubb. Pikkaðu á reit og hann breytist í næsta af fjórum litum, hver með sitt skrifaða nafn og lögun. Mynstrið við hliðina breytist strax. Það er ekkert rétt mynstur og ekkert er vistað eða sent. \"Prenta mynstrið mitt\" setur endurtekna mynstrið á eina blaðsíðu til að geyma, lita eða gefa.",
+    "howTo": [
+      "Skoðaðu flísina og mynstrið þitt við hliðina. Þetta er sama flísin, endurtekin.",
+      "Pikkaðu á reit. Hann breytist í næsta lit í röðinni af fjórum litum fyrir ofan.",
+      "Haltu áfram að pikka á reiti þar til mynstrið lítur út eins og þú vilt. Hvaða mynstur sem er er gott.",
+      "Pikkaðu á \"Komdu mér á óvart\" fyrir nýja flís, eða \"Byrja aftur\" fyrir auða. \"Settu til baka\" sækir flísina sem þú hafðir.",
+      "Pikkaðu á \"Prenta mynstrið mitt\" ef þú vilt hafa það á pappír, eða pikkaðu á Hvíla til að hætta."
+    ],
+    "tips": [
+      "Setjist hlið við hlið og skiptist á: önnur manneskjan snertir einn reit, hin segir hvað hún tekur eftir.",
+      "Talið um það sem þið sjáið: „Þetta lítur út eins og blóm.“ Það þarf ekki að nefna neitt.",
+      "Prófaðu sömu flísina í aðeins tveimur litum og svo aftur í öllum fjórum.",
+      "Á pappír er hægt að lita mynstrið með blýöntum, klippa það í ræmur í kort eða nota það til að pakka inn litla gjöf."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stig?",
+        "a": "Nei. Það er engin klukka, ekkert stig, enginn hreyfingateljari og enginn tapar. Þú getur hætt hvenær sem er, og að hætta í miðjunni er alveg gild leið til að ljúka verkinu."
+      },
+      {
+        "q": "Er eitthvað sem ég geri vistað eða sent?",
+        "a": "Nei. Flísin þín er aðeins á þessari síðu. Hún er ekki vistuð, send inn né talin, og hún hverfur þegar þú lokar síðunni. Ef þú vilt geyma mynstrið skaltu prenta það út."
+      },
+      {
+        "q": "Hvað ef ég smelli á rangan reit eða hreinsa flísina óvart?",
+        "a": "Það er enginn rangur reitur: smelltu aftur til að fara yfir í næsta lit. Eftir „Byrja upp á nýtt“ eða „Koma mér á óvart“ kemur „Setja til baka“ þá flís sem þú varst með."
+      },
+      {
+        "q": "Geta fólk með litblindu greint litina fjóra í sundur?",
+        "a": "Þeir voru valdir með það í huga. Hver litur hefur líka ritað nafn og sína eigin litlu lögun í hverjum reit, þannig að liturinn er aldrei eina leiðin til að greina þá í sundur. Litirnir fjórir voru prófaðir með hermum af rauð-grænni og blá-gulri litblindu. Manneskja með litblindu hefur ekki prófað þá enn, svo láttu okkur vita ef tveir líta eins út."
+      },
+      {
+        "q": "Eru reitirnir nógu stórir fyrir handskjálfta eða lítinn skjá?",
+        "a": "Hver reitur er að minnsta kosti 56 pixlar á breidd. Ef flísin er of breið fyrir skjáinn flettist hún til hliðar innan eigin ramma í stað þess að reitirnir minnki."
+      },
+      {
+        "q": "Er til pappírsútgáfa?",
+        "a": "Já. „Prenta mynstrið mitt“ prentar mynstrið sem þú bjóst til á eina síðu, með litunum fjórum og heitum þeirra. Það kemur vel út í svarthvítu, því hver litur hefur sína lögun."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis, og þú þarft hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Teiknitvíeyki",
+    "seoTitle": "Teiknitvíeyki: Tvær manneskjur, ein mynd",
+    "h1": "Teiknitvíeyki: Tvær manneskjur, eitt blað",
+    "description": "Tvær manneskjur skiptast á að draga línur á einum sameiginlegum striga, hvor í sínum lit. Enginn fær stig eða vinnur, og hægt er að vista eða prenta myndina. Ókeypis í leik, án aðgangs.",
+    "short": "Skiptist á að teikna eina sameiginlega mynd með einhverjum sem situr hjá þér.",
+    "players": "2 manneskjur, hlið við hlið",
+    "intro": "Einn striga, tvær manneskjur. Hvor ykkar velur lit, og hver litur hefur sitt eigið ritaða nafn. Þið skiptist á: teiknið eina línu eða form, og réttið svo pennann. Hvor ykkar sem er getur sleppt að teikna hvenær sem er. Það er engin rétt mynd og ekkert stig. Vistið myndina í tækinu ef ykkur líkar hún, eða prentið pappírsútgáfuna: eitt blað, tveir pennar.",
+    "howTo": [
+      "Hvor ykkar velur lit. Borðinn segir hvers röð það er, með nafni litarins hjá viðkomandi.",
+      "Teiknið eina línu eða form með fingri, mús eða penna. Eða notið örvatakkana og bilstöngina til að teikna án bendils.",
+      "Þegar þú vilt, ýttu á „Rétta pennann“. Hvor ykkar sem er getur sleppt hvenær sem er.",
+      "Ýttu á „Taka til baka síðustu línu“ til að fjarlægja nýjustu línuna hjá þeim sem á röðina.",
+      "Ýttu á „Vista mynd“ til að búa til myndaskrá í tækinu, eða á „Prenta pappírsútgáfuna“ fyrir eitt blað og tvo penna."
+    ],
+    "tips": [
+      "Setjist hlið við hlið og talið um leið og þið teiknið: „Ég set sól í hornið.“",
+      "Byrjið á punkti, línu eða einföldu formi og leyfið hinum að svara því.",
+      "Enginn þarf að teikna mynd af einhverju. Mynstur úr línum er alveg jafn gott og sviðsmynd.",
+      "Ef þú vilt hætta, ýttu á „Hætta í bili“. Myndin er ekki geymd eftir að þú yfirgefur síðuna, nema þú vistir hana."
+    ],
+    "faq": [
+      {
+        "q": "Er til sigurvegari eða stig?",
+        "a": "Nei. Það er enginn sigurvegari, ekkert stig, enginn tímamælir og engin talning á röðum. Það er engin rétt mynd, og ekkert er raðað eða borið saman."
+      },
+      {
+        "q": "Er myndin vistuð eða send?",
+        "a": "Nei, ekkert er sent nokkurs staðar. Myndin er á þessari síðu þangað til þú lokar henni. Ef þú ýtir á „Vista mynd“ er búin til skrá í tækinu þínu til að sækja. Ekkert er hlaðið upp."
+      },
+      {
+        "q": "Get ég tekið línu til baka?",
+        "a": "Já. „Taka til baka síðustu línu“ fjarlægir nýjustu línuna hjá þeim sem á röðina. „Byrja upp á nýtt“ hreinsar blaðið og „Setja til baka“ færir línurnar til baka, aðeins eitt skref í einu."
+      },
+      {
+        "q": "Get ég notað þetta án músar eða snertiskjás?",
+        "a": "Já. Þegar teikniflöturinn er valinn færa örvatakkarnir punkt pennans, og bilstöngin setur pennann niður eða upp. Skjárinn segir „Penni niðri“ eða „Penni uppi“ í hvert skipti."
+      },
+      {
+        "q": "Hvaða litir eru þetta, og geta fólk með litblindu greint þá í sundur?",
+        "a": "Gult, appelsínugult, grænt og fjólublátt, sömu fjórir litir og í öðrum myndaleikjum okkar. Hver litur hefur ritað nafn og nöfnin birtast við hlið röðarinnar. Litirnir voru prófaðir með hermum af algengum mun á litasjón, en manneskja með mun á litasjón hefur ekki prófað þá enn."
+      },
+      {
+        "q": "Er til pappírsútgáfa?",
+        "a": "Já. „Prenta pappírsútgáfuna“ prentar eitt blað með reglunum og stórum auðum ramma til að teikna í, fyrir tvær manneskjur með tvo penna. Það virkar í svarthvítu."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis og enginn aðgangur, skráning eða niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Byggjum saman",
+    "seoTitle": "Byggjum saman: Tvær manneskjur byggja eitt mynstur",
+    "h1": "Byggjum saman: Tvær manneskjur, eitt reitanet",
+    "description": "Tvær manneskjur skiptast á að setja kubb í sameiginlegt reitanet þar til það er fullt. Hvor hefur sinn lit, með nafni og lögun. Enginn vinnur, og hvorki er tímamælir né stig. Ókeypis að spila og prenta.",
+    "short": "Skiptist á við manneskju við hlið þér um að fylla eitt sameiginlegt reitanet.",
+    "players": "2 manneskjur, hlið við hlið",
+    "intro": "Sameiginlegt reitanet með 4 x 4 reitum, eða 3 x 3 ef þú vilt. Hvor ykkar velur lit, og hver litur hefur sitt skrifaða nafn og sína lögun. Þið skiptist á: þegar röðin er þín, snertu tóman reit til að setja kubbinn þinn þar. Þegar allir reitir hafa kubb er myndin byggð saman. Enginn vinnur, því þið búið hana til sem par, og ekkert er vistað eða sent. „Prenta reitanetið“ setur autt reitanet á eina síðu svo þið getið byggt með tveimur blýöntum.",
+    "howTo": [
+      "Hvor ykkar velur lit. Litur sem hin manneskjan hefur er merktur „Í notkun“.",
+      "Fyrsta manneskjan byrjar. Skjárinn sýnir hvers röð er og hvaða litur er hennar.",
+      "Snertu tóman reit til að setja kubbinn þinn þar. Röðin fer þá til hinnar manneskjunnar.",
+      "Ef þú vilt ekki setja kubb, snertu „Sleppa“. Hvor ykkar má sleppa hvenær sem er.",
+      "Þegar allir reitir hafa kubb hafið þið byggt myndina saman. Snertu „Byrja upp á nýtt“ til að byggja aðra, eða snertu Hvíld til að hætta."
+    ],
+    "tips": [
+      "Sitjið hlið við hlið svo bæði sjáið og náið í skjáinn. Talið saman á meðan: „Ég set minn við hliðina á þínum.“",
+      "Reyndu að byggja mynstur, rendur, skákborð eða jaðar, eða settu kubba bara þar sem þú vilt. Hvort tveggja er í lagi.",
+      "Barn eða manneskja sem þreytist fljótt getur sleppt eins oft og hún vill. Myndin er samt byggð saman.",
+      "Á pappír notar hvor og einn einn blýant og teiknar sína lögun í auðu reitina."
+    ],
+    "faq": [
+      {
+        "q": "Er einhver sigurvegari, tímamælir eða stig?",
+        "a": "Nei. Enginn vinnur, því þið byggið eina mynd saman. Það er engin klukka, ekkert stig, engin talning kubba og enginn tapar. Þú getur hætt hvenær sem er, og að hætta á miðri leið er alveg góð leið til að ljúka."
+      },
+      {
+        "q": "Er það sem við búum til vistað eða sent?",
+        "a": "Nei. Reitanetið er aðeins á þessari síðu. Það er hvorki vistað, hlaðið upp né talið, og það hverfur þegar þú lokar síðunni. Ef þú vilt geyma það skaltu prenta reitanetið og byggja á pappír."
+      },
+      {
+        "q": "Hvað ef ég set kubb á rangan stað?",
+        "a": "Það er enginn rangur staður. Snertu „Taka síðasta kubbinn til baka“ og röðin fer aftur til þín. Þú getur tekið til baka eitt skref í einu, og einnig er hægt að taka sleppingu til baka."
+      },
+      {
+        "q": "Geta fólk með litblindu greint litina fjóra í sundur?",
+        "a": "Þeir voru valdir með það í huga. Hver litur hefur einnig skrifað nafn og sína eigin litlu lögun í hverjum kubbi, svo litur er aldrei eina leiðin til að greina þá í sundur. Litirnir fjórir voru prófaðir með hermum af rauð-grænni og blá-gulri litblindu. Manneskja með litblindu hefur ekki enn prófað þá, svo láttu okkur vita ef tveir líta eins út."
+      },
+      {
+        "q": "Eru reitirnir nógu stórir fyrir skjálfta eða lítinn skjá?",
+        "a": "Hver reitur er að minnsta kosti 56 pixlar á breidd. Ef reitanetið er of breitt fyrir skjáinn, skrollar það til hliðar innan eigin reits í stað þess að minnka reitina."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. „Prenta reitanetið“ prentar autt reitanet á eina síðu með báðum litunum og nöfnum þeirra, til að byggja með tveimur blýöntum. Það virkar í svarthvítu því hver litur hefur sína lögun."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis og enginn aðgangur, skráning eða niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Kastleikur við borð",
+    "seoTitle": "Kastleikur við borð: leikur með baunapoka fyrir tvo",
+    "h1": "Kastleikur við borð: kastið saman við borðið",
+    "description": "Tvær manneskjur við borð skiptast á að kasta mjúkum baunapoka í stórt skotmark og halda talningu á pappír. Ekkert er tímasett eða talið. Ókeypis að prenta.",
+    "short": "Skiptist á að kasta baunapoka í stórt skotmark, með talningunni á pappír.",
+    "players": "2 manneskjur, við borð",
+    "intro": "Rólegur kastleikur fyrir tvær manneskjur sem sitja við borð. Þú leggur prentað skotmark á borðið og skiptist á að kasta mjúkum baunapoka, eða upprúlluðum sokk, þannig að hann lendi á hringjunum. Hvor ykkar heldur talningu með því að setja hak í reiti á pappír, og þið skoðið hökin saman þegar þið hættið. Ekkert er tímasett, ekkert er lagt saman á skjánum og ekkert er vistað eða sent. Lestu öryggisleiðbeiningarnar fyrst: smá fylling getur valdið köfnunarhættu.",
+    "howTo": [
+      "Lestu öryggisleiðbeiningarnar. Veldu poka með lokuðu, saumuðu hýði, eða rúllaðu upp hreinum sokk.",
+      "Snertu „Prenta skotmarkið og talningarblaðið“ og leggðu blaðið flatt á borðið á milli ykkar.",
+      "Sitjið þægilega, sitt hvorum megin, og skiptist á að kasta mjúklega einu sinni hvor. Hvor og einn má sleppa.",
+      "Þegar kast lendir í hring, settu hak í reit í þinni dálk, á línuna fyrir þann hring.",
+      "Skoðið hökin saman þegar þið hættið, eða snertu Hvíld til að gera hlé."
+    ],
+    "tips": [
+      "Sitt nógu nálægt til að mjúkt kast með lófann niður nái í markið án þess að teygja sig.",
+      "Talið um kastið, ekki útkomuna: „Þetta var mjúkt kast.“ Allir klappa fyrir hverju kasti.",
+      "Upprúllaður sokkur er léttur og auðvelt að halda á honum með veikt grip. Leyfðu handleggnum að hvíla á borðinu á milli umferða.",
+      "Ef einhver vill frekar horfa getur hann verið sá sem merkir við reitina."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stigagjöf?",
+        "a": "Nei. Það er enginn klukka, engin stig, enginn teljari fyrir hreyfingar og ekkert tap. Þú getur hætt hvenær sem er, og að hætta í miðjum leik er alveg gild leið til að ljúka honum."
+      },
+      {
+        "q": "Er óhætt að kasta baunapoka?",
+        "a": "Það getur verið það, ef gætt er að. Notaðu poka með saumuðu loki eða upprúllaðan sokk, aldrei lausar baunir, hrísgrjón eða smáar fyllingar, sem geta valdið köfnun hjá ungum börnum og hjá öllum sem setja hluti upp í sig. Sittu kyrr, kastaðu varlega í átt að borðinu og aldrei í átt að andliti, og hafðu fullorðinn einstakling nálægt."
+      },
+      {
+        "q": "Er eitthvað talið eða vistað á skjánum?",
+        "a": "Nei. Talningin er aðeins á pappír, í reitum sem þið merkið sjálf við. Síðan heldur hvorki utan um tölur né tíma, og ekkert er vistað eða sent."
+      },
+      {
+        "q": "Hvað ef einhver getur ekki kastað, eða pokinn lendir utan blaðsins?",
+        "a": "Hver sem er getur sleppt umferð, og poki sem lendir utan blaðsins er einfaldlega tekinn upp fyrir næstu umferð. Ekkert er talið fyrir hann."
+      },
+      {
+        "q": "Hvað er á prentaða blaðinu?",
+        "a": "Ein síða: stórt mark með þremur hringjum sem heita Nálægt, Miðja og Fjarri, tafla með dálki fyrir hvern þátttakanda og röð af litlum reitum til að merkja við fyrir hvern hring, auk stuttrar öryggisleiðbeiningar. Nöfnin eru skrifuð á hringina, þannig að þetta virkar í svarthvítu."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engin aðgangur, skráning eða niðurhal er nauðsynlegt. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Árstíðapakki með þrautum",
+    "seoTitle": "Árstíðapakki með þrautum: Prentanlegar pappírsþrautir",
+    "h1": "Árstíðapakki með þrautum: Þrjár pappírsþrautir fyrir hverja árstíð",
+    "description": "Þrjár litlar þrautir til prentunar fyrir vor, sumar, haust eða vetur: para saman, hringa þá sem er öðruvísi og lita mynd. Veldu árstíð eða taktu frídag. Ókeypis að prenta.",
+    "short": "Þrjár prentanlegar þrautir fyrir árstíðina sem þú velur, eða frídag.",
+    "players": "Allir aldurshópar, einn eða saman",
+    "intro": "Veldu árstíð, og síðan sýnir þrjár litlar pappírsþrautir unnar út frá myndum þeirrar árstíðar: tvær raðir til að tengja með línum, röð af fjórum til að hringja þá sem er öðruvísi, og mynd til að lita. Þú prentar eina síðu og gerir eina, tvær eða allar þrjár, í þínum eigin takti. Veldu „Í dag er frídagur“ í staðinn og þá er ekkert að gera.",
+    "howTo": [
+      "Veldu árstíð, eða veldu „Í dag er frídagur“.",
+      "Skoðaðu þrautirnar þrjár, pikkaðu síðan á „Prenta pakka þessarar árstíðar“.",
+      "Gerðu eina, tvær eða allar þrjár, í þínum eigin takti.",
+      "Tengdu myndirnar sem passa saman með línu, hringdu þá mynd sem er öðruvísi og litaðu stóru myndina.",
+      "Hættu hvenær sem þú vilt. Frídagur er líka góður dagur."
+    ],
+    "tips": [
+      "Byrjaðu á þrautinni sem virðist auðveldust í dag. Ein er nóg.",
+      "Segðu heiti hverrar myndar upphátt, ef það hjálpar.",
+      "Notaðu litakrít eða blýanta. Allir litir eru í lagi.",
+      "Geymdu síðuna fyrir næst, eða slepptu henni."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stigagjöf?",
+        "a": "Nei. Það er enginn klukka, engin stig, enginn teljari fyrir hreyfingar og ekkert tap. Þú getur hætt hvenær sem er, og að hætta í miðjum leik er alveg gild leið til að ljúka honum."
+      },
+      {
+        "q": "Veit síðan hvaða árstíð er núna?",
+        "a": "Nei. Þú velur árstíðina. Síðan skoðar hvorki dagsetninguna né staðsetningu þína."
+      },
+      {
+        "q": "Er stigagjöf eða rétt svar?",
+        "a": "Nei. Ekkert er tímasett, metið eða athugað á skjánum, og engin svör eru sýnd. Hver þraut er aðeins mynd til að skoða, tengja, hringja eða lita."
+      },
+      {
+        "q": "Hvað ef enginn vill þrautir í dag?",
+        "a": "Veldu „Í dag er frídagur“. Síðan sýnir eina rólega línu, og ekkert er til að prenta eða gera."
+      },
+      {
+        "q": "Hvað er á prentaða blaðinu?",
+        "a": "Ein síða fyrir árstíðina sem þú valdir: þrjár þrautir hennar, hver með stuttri línu um hvernig á að gera hana, og lína sem segir að þú getir gert eina, tvær eða allar þrjár."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engin aðgangur, skráning eða niðurhal er nauðsynlegt. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Skreytið kort saman",
+    "seoTitle": "Skreytið kort saman: prentanlegt kveðjukort",
+    "h1": "Skreytið kort saman: Búið til kort handa einhverjum",
+    "description": "Tveir skreyta prentað kveðjukort fyrir afmæli, þakkir eða bara af því tilefni, og skrifa síðan skilaboð aftan á það saman. Aðeins litakrít eða pennar. Enginn tímamælir eða stig. Ókeypis að prenta.",
+    "short": "Skreytið prentað kveðjukort saman.",
+    "players": "2 einstaklingar, hlið við hlið",
+    "intro": "Rólegur leikur þar sem tveir sitja hlið við hlið og búa eitthvað til. Þú prentar eitt blað, sem er brotið í tvennt til að verða að korti. Veldu tilefni, til dæmis afmæli eða þakkir, og skreyttu framhliðina í kringum orðin þar. Skrifaðu síðan skilaboð aftan á, saman, eða annar skrifar það sem hinn segir. Notaðu litakrít, litblýanta eða filtpenna. Það er ekkert rétt kort, og ekkert er tímasett, metið eða sent.",
+    "howTo": [
+      "Veldu tilefni og ýttu síðan á „Prenta spjaldið“.",
+      "Brjóttu blaðið í tvennt eftir punktalínunni, þannig að framhliðin snýr út.",
+      "Önnur manneskjan skreytir framhliðina og hin bakhliðina, eða þið skiptist á að skreyta sömu hliðina.",
+      "Skrifið skilaboð saman. Annar getur skrifað á meðan hinn segir orðin.",
+      "Hættu þegar þú vilt. Einfalt kort er jafngott og vandað kort."
+    ],
+    "tips": [
+      "Byrjaðu á orðunum á framhliðinni og bættu síðan við laufblöðum, stjörnum eða punktum í kringum þau, eitt í einu.",
+      "Ef einhver vill frekar ekki teikna, getur hann valið litina eða skrifað skilaboðin.",
+      "Segðu hvað þér finnst fallegt við merki hins, frekar en hvort þau séu góð.",
+      "Geymdu spjaldið þar sem hægt er að gefa það, eða leggðu það einfaldlega á borðið í bili."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stig?",
+        "a": "Nei. Það er engin klukka, ekkert stig, enginn hreyfingateljari og ekkert tap. Þú getur hætt hvenær sem er, og að hætta í miðju er alveg góð leið til að ljúka verkinu."
+      },
+      {
+        "q": "Þurfum við lím, skæri eða límmiða?",
+        "a": "Nei. Vaxliti, trélit eða tússpenna er nóg. Ekkert þarf að klippa, líma eða festa."
+      },
+      {
+        "q": "Getum við búið til kort fyrir tilefni sem er ekki á listanum?",
+        "a": "Veldu „Bara af því“ og skrifaðu þín eigin orð á framhliðina, eða skreyttu kortið án nokkurs tilefnis."
+      },
+      {
+        "q": "Er eitthvað talið, metið eða vistað á skjánum?",
+        "a": "Nei. Síðan sýnir aðeins kortið og skrefin. Ekkert er raðað, metið eða vistað, og það er ekkert rétt kort."
+      },
+      {
+        "q": "Hvað er á prentaða blaðinu?",
+        "a": "Ein síða: kort brotið í tvennt, með tilefnisorðunum og einföldum ramma á framhliðinni, og línum fyrir skilaboð og línu fyrir „Frá“ á bakhliðinni. Reglurnar fyrir tvo eru prentaðar neðst."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis og það þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Finnið saman",
+    "seoTitle": "Finnið saman: Tvær manneskjur finna pörin",
+    "h1": "Finnið saman: tvær manneskjur, eitt lið",
+    "description": "Tvær manneskjur deila einum skjá og skiptast á að snúa við tveimur myndaspjöldum til að leita að pari. Pörin finnast saman og eru talin á einni sameiginlegri talningu. Ókeypis í spilun, án tímamælis og stiga.",
+    "short": "Skiptist á við manneskju við hlið þér að finna myndapörin.",
+    "players": "2 manneskjur, hlið við hlið",
+    "intro": "Spjöldin byrja með myndunum sýnilegum, eða þið getið lagt þau með framhliðina niður. Á þinni röð snýrðu við tveimur spjöldum. Ef þau eru par hafið þið fundið það saman og röðin færist yfir. Ef þau eru ólík haldast þau uppi þar til þú ýtir á „Snúa aftur“, svo þið getið bæði skoðað þau. Þú getur gefið röðina frá þér hvenær sem er. Talningin efst hækkar aðeins: þau pör sem þið hafið fundið saman.",
+    "howTo": [
+      "Veldu hversu mörg spjöld á að nota. Sex spjöld, þrjú pör, er rólegur staður til að byrja á.",
+      "Skjárinn sýnir hvers röð það er, með hring fyrir fyrri manneskjuna og ferning fyrir seinni.",
+      "Snúðu við tveimur spjöldum, eitt á eftir öðru. Ef þau passa saman er parið fundið saman.",
+      "Ef þau eru ólík, ýttu á „Snúa aftur“ þegar þið eruð bæði tilbúin. Röðin færist þá yfir.",
+      "Hvor ykkar sem er getur ýtt á „Sleppa“ hvenær sem er. Ýttu á „Byrja aftur“ fyrir ný spjöld, eða ýttu á Hvíld til að hætta."
+    ],
+    "tips": [
+      "Sitjið hlið við hlið og nefnið myndirnar upphátt saman: „Tebolli. Setur þú mjólk út í teið?“",
+      "Leyfðu manneskjunni sem þú annast að ýta á spjöldin, jafnvel þótt það taki tíma. Bentu frekar en að ýta fyrir hana.",
+      "Veldu „Spjöld með framhliðina niður“ ef ykkur báðum finnst gaman að snúa spjöldum við til að finna myndirnar.",
+      "Manneskja sem þreytist fljótt getur sleppt eins oft og hún vill. Pörin eru samt fundin saman."
+    ],
+    "faq": [
+      {
+        "q": "Er sigurvegari, tímamælir eða stig?",
+        "a": "Nei. Enginn sigrar, því þið finnið pörin sem lið. Það er engin klukka, ekkert stig og engin talning á mistökum. Talningin telur aðeins þau pör sem þið hafið fundið saman, og þú getur hætt hvenær sem er."
+      },
+      {
+        "q": "Þurfum við að muna hvar myndirnar eru?",
+        "a": "Nei. Leikurinn byrjar með allar myndir sýnilegar. Þegar spjöldin liggja með framhliðina niður geturðu spurt hvort annað hvað þið sáuð, eða einfaldlega snúið þeim við aftur."
+      },
+      {
+        "q": "Hvað gerist þegar tvö spjöld eru ólík?",
+        "a": "Þau haldast uppi, svo þið getið bæði skoðað þau eins lengi og þið þurfið. Ekkert snýr þeim til baka af sjálfu sér. Þegar allt er klárt ýtirðu á „Snúa aftur“ og röðin færist yfir til hinnar manneskjunnar."
+      },
+      {
+        "q": "Er það sem við spilum vistað eða sent?",
+        "a": "Nei. Spjöldin haldast aðeins á þessari síðu. Ekkert er vistað, sent eða talið, og allt hverfur þegar þú lokar síðunni."
+      },
+      {
+        "q": "Eru spjöldin nógu stór fyrir skjálfta í höndum eða lítinn skjá?",
+        "a": "Hvert spjald er að minnsta kosti 64 pixlar á breidd og er eins stórt og skjárinn leyfir. Notendur lyklaborðs og skjálesara heyra hvert spjald eftir staðsetningu þess og mynd."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis og það þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Sögutenningar",
+    "seoTitle": "Sögutenningar: leikur með myndum til að segja sögu",
+    "h1": "Sögutenningar: segðu sögu með myndum",
+    "description": "Þrír eða fjórir myndateningar sem þú notar til að segja sögu, í hvaða röð sem er. Enginn lestur, ekkert rétt svar, enginn tímamælir og ekkert stig. Kastaðu aftur eða slepptu. Ókeypis í spilun og prentun.",
+    "short": "Kastaðu myndateningum og segðu sögu saman, í hvaða röð sem er.",
+    "players": "2 eða fleiri, eða fullorðinn og barn",
+    "intro": "Vísað er á þrjár eða fjórar myndir, eins og teningar. Saman býrið þið til sögu sem notar þær, í hvaða röð sem er. Sagan má vera ein setning eða nokkrar, hún má vera fyndin eða raunveruleg. Það er ekkert rétt svar og enginn þarf að nefna eða muna neitt. Ýtið á „Kasta aftur“ til að fá nýjar myndir, og hver sem er má sleppa.",
+    "howTo": [
+      "Veljið þrjá eða fjóra teninga. Þrír er einfaldast.",
+      "Skoðið myndirnar saman. Ýtið á eina ef þið viljið byrja á henni.",
+      "Skiptist á að segja sögu sem notar myndirnar, í hvaða röð sem er. Ein setning hvort er nóg.",
+      "Hver sem er má sleppa. Ýtið á „Sleppa“ og næsta manneskja getur byrjað.",
+      "Ýtið á „Kasta aftur“ til að fá nýjar myndir hvenær sem þið viljið, eða ýtið á Hvíla til að hætta."
+    ],
+    "tips": [
+      "Spyrjið spurningar í stað þess að bíða eftir svari: „Hvert skyldi regnhlífin vera á leiðinni?“",
+      "Bætið við það sem síðasta manneskja sagði í stað þess að leiðrétta það. Hvaða saga sem er gengur.",
+      "Sagan getur verið um raunverulega minningu. Mynd er góð byrjun á slíkri sögu."
+    ],
+    "faq": [
+      {
+        "q": "Er klukka eða stig?",
+        "a": "Nei. Það er engin klukka, ekkert stig, enginn teljari fyrir leiki og enginn tapar. Þið getið hætt hvenær sem er, og að hætta á miðri leið er fullkomlega góð leið til að ljúka leiknum."
+      },
+      {
+        "q": "Þarf ég að lesa eða nefna myndirnar?",
+        "a": "Nei. Leikurinn virkar með myndunum einum. Leikmenn geta bent, lýst eða einfaldlega sagt hvað myndin minnir þá á. Enginn er beðinn um að nefna eða rifja upp neitt."
+      },
+      {
+        "q": "Hvað ef einhver vill ekki taka þátt í röðinni?",
+        "a": "Viðkomandi getur sleppt hvenær sem er án skýringa. Leikurinn bíður bara, og næsta manneskja getur byrjað eða þið getið kastað aftur."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. Ein blaðsíða með sextán mismunandi myndum í fjórum röðum. Veljið eina röð, eða klippið myndirnar út og dragið nokkrar úr bunka."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis, og það þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Orð og myndapör",
+    "seoTitle": "Orð og myndapör: Paraðu orð við myndir",
+    "h1": "Orð og myndapör: Paraðu orðið við myndina",
+    "description": "Paraðu ensk orð við myndirnar þeirra og hlustaðu á hvert orð lesið upphátt. Myndirnar haldast sýnilegar, án tímamælis, stigagjafar eða talningar á tilraunum. Ókeypis í spilun og prentun.",
+    "short": "Paraðu hvert orð við mynd þess og hlustaðu á það lesið upphátt.",
+    "players": "Einn fullorðinn, eða fjölskylda sem spilar hlið við hlið",
+    "intro": "Fjórar eða sex myndir eru sýndar, með enskum orðum þeirra í annarri röð. Ýtið á orð og síðan á mynd þess, eða á mynd og síðan á orðið. Par sem passar saman helst saman með þykkri umgjörð og orðinu „Passar“. Ýtið á „Lesa upphátt“ við hvaða orð sem er til að heyra það talað. Ekkert er tímasett eða talið, og ef ýtt er á rangt par hreinsast valið einfaldlega.",
+    "howTo": [
+      "Veljið fjórar eða sex myndir. Fjórar er einfaldast.",
+      "Ýtið á orð og síðan á myndina sem það nefnir. Eða ýtið fyrst á mynd og síðan á orðið.",
+      "Par sem passar saman helst saman. Ef ýtt er á rangt par hreinsast það rólega, svo reynið annað.",
+      "Ýtið á „Lesa upphátt“ við orð til að heyra það, ef tækið getur lesið texta upphátt.",
+      "Ýtið á „Nýjar myndir“ til að fá annað sett, eða „Byrja aftur“ til að taka öll pör í sundur. „Setja aftur“ kemur síðustu pörum aftur."
+    ],
+    "tips": [
+      "Segið hvert orð upphátt saman áður en þið parið það, og ræðið um myndina.",
+      "Fjölskyldur geta skipst á. Hver og einn velur eitt orð eða eina mynd í einu.",
+      "Notið fyrst orðin sem þið þekkið nú þegar, og geymið hin til seinni tíma."
+    ],
+    "faq": [
+      {
+        "q": "Er klukka eða stig?",
+        "a": "Nei. Það er engin klukka, ekkert stig, enginn teljari fyrir leiki og enginn tapar. Þið getið hætt hvenær sem er, og að hætta á miðri leið er fullkomlega góð leið til að ljúka leiknum."
+      },
+      {
+        "q": "Er þetta fyrir börn?",
+        "a": "Það er gert fyrir fullorðna sem eru að læra eða rifja upp ensk orð, og fyrir fjölskyldur sem spila hlið við hlið. Það er ekki skrifað fyrir börn."
+      },
+      {
+        "q": "Hvað ef tækið mitt getur ekki lesið texta upphátt?",
+        "a": "Hnappurinn „Lesa upphátt“ notar röddina sem vafrinn þinn hefur þegar. Ef vafrinn getur ekki talað er hnappurinn ekki sýndur og leikurinn virkar án hans."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. Ein blaðsíða með sex myndum og orðunum sex, til að klippa út eða tengja með línu."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, það er ókeypis, og það þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Flokkum saman",
-    "seoTitle": "Flokkunarleikur fyrir fólk með heilabilun: Flokkum saman",
+    "seoTitle": "Flokkunarleikur: Flokkið saman fyrir fullorðna",
     "h1": "Flokkum saman: einföld myndflokkun",
-    "description": "Ýttu á mynd og svo á körfuna sem hún á heima í: eldhús eða garður, ávextir eða dýr. Róleg og gjaldfrjáls flokkunariðja fyrir fólk með heilabilun.",
+    "description": "Ýtið á mynd og síðan á körfuna sem hún á heima í: eldhús eða garður, ávextir eða dýr. Rólegur og ókeypis flokkunarleikur fyrir fullorðna og fjölskyldur.",
     "short": "Settu hverja mynd í sína körfu: eldhús eða garður, og fleira.",
     "players": "1 eða 2",
     "intro": "Að flokka er kunnuglegt og gefandi hversdagsverk, svipað og að ganga frá vörum eða para saman sokka. Ýttu á mynd og svo á körfuna þar sem hún á heima. Hér er enginn flýtir og engin röng skref.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Myndapúsl",
-    "seoTitle": "Einfalt púsl fyrir fólk með heilabilun: 4 eða 9 bitar",
+    "seoTitle": "Auðvelt þrautaspil á netinu: 4 eða 9 stórir bitar",
     "h1": "Myndapúsl: einfalt og þægilegt púsl",
-    "description": "Einfalt netpúsl fyrir fólk með heilabilun: 4 eða 9 stórir bitar, heildarmyndin er alltaf sýnileg og ýtt er á tvo bita til að víxla þeim.",
+    "description": "Auðvelt púsl á netinu fyrir fullorðna: 4 eða 9 stórir bitar, öll myndin sést alltaf, og þið ýtið á tvo bita til að skipta þeim. Notið þína eigin mynd, sem helst í þessu tæki. Ókeypis, án tímamælis.",
     "short": "Ýttu á tvo bita til að víxla þeim þar til myndin er heil.",
     "players": "1 eða 2",
-    "intro": "Fallegri mynd er skipt í fjóra eða níu stóra bita sem ruglað er saman. Heildarmyndin er alltaf sýnileg til hliðsjónar. Ýttu á einn bita og svo annan, og þeir víxlast. Ekki þarf að draga neitt til.",
+    "intro": "Vinaleg mynd er skorin í fjóra eða níu stóra bita og ruglað saman. Öll myndin helst sýnileg sem leiðarvísir. Ýtið á einn bita, og síðan annan, og þeir skipta um sæti. Ekki þarf að draga. Þú getur líka notað eina af þínum eigin myndum. Hún helst í þessu tæki og er aldrei send upp.",
     "howTo": [
       "Veldu mynd og 4 eða 9 bita. Fjórir bitar eru þægileg byrjun.",
       "Horfðu á heildarmyndina efst á skjánum.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Ljúktu við málsháttinn",
-    "seoTitle": "Ljúktu við málsháttinn: málsháttaleikur fyrir eldri borgara",
+    "seoTitle": "Ljúktu við málshættina: Leikur með þekktum málsháttum",
     "h1": "Ljúktu við málsháttinn",
     "description": "Kunnuglegir málshættir þar sem síðasta orðið vantar, eins og „Betri er einn fugl í hendi en tveir í ___“. Ýttu á valkost eða sýndu endann, og spjallið svo saman.",
     "short": "Ljúkið við kunnuglega málshætti saman og spjallið svo um þá.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Orðaleit með stóru letri",
-    "seoTitle": "Orðaleit með stóru letri fyrir fólk með heilabilun, til útprentunar",
+    "seoTitle": "Orðasúpa með stóru letri, ókeypis og hægt að prenta",
     "h1": "Orðaleit með stóru letri",
-    "description": "Ókeypis orðaleit með stóru letri fyrir eldra fólk og fólk með heilabilun. Fá orð, stórir stafir og orðin liggja aðeins lárétt og lóðrétt. Spilið á netinu eða prentið út.",
+    "description": "Ókeypis orðasúpa með stóru letri fyrir eldra fólk og fjölskyldur. Fá orð, stórir stafir, orð aðeins lárétt og lóðrétt. Spilið á netinu eða prentið.",
     "short": "Stórir stafir, fá orð, aðeins lárétt og lóðrétt. Einnig hægt að prenta út.",
     "players": "1 eða 2",
     "intro": "Lítið stafaborð með stórum stöfum og fáeinum orðum sem öll liggja lárétt eða lóðrétt. Ýtið á fyrsta staf orðsins og svo þann síðasta. Viltu frekar nota blað og blýant? Prentaðu nýja þraut með einum smelli.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Litamyndir",
-    "seoTitle": "Litamyndir fyrir fólk með heilabilun (ókeypis)",
+    "seoTitle": "Ókeypis litasíður fyrir fullorðna, stórar og einfaldar",
     "h1": "Litamyndir",
     "description": "Einfaldar litamyndir fyrir fullorðna með stórum flötum: ýtið á lit og svo á myndina. Ekkert sull, engir rangir litir og allar myndir má prenta út ókeypis.",
     "short": "Ýtið á lit og svo á hluta af myndinni. Einnig hægt að prenta út.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Spjallspjöld",
-    "seoTitle": "Kveikjur að samræðum fyrir fólk með heilabilun: Myndaspjöld",
+    "seoTitle": "Samtalskort: Myndakort fyrir fjölskyldur",
     "h1": "Spjallspjöld",
-    "description": "Myndaspjöld með ljúfum kveikjum að samræðum fyrir fólk með heilabilun: engin próf, engin rétt svör. Notið á skjá eða prentið öll spjöldin út.",
+    "description": "Myndakort með mildum samtalsopnurum fyrir fjölskyldur, vini og eldra fólk, þar á meðal fólk sem lifir með heilabilun. Engar spurningar í prófstíl, engin rétt svör.",
     "short": "Myndaspjöld með opnum og ljúfum spurningum. Engin próf.",
     "players": "2 eða hópur",
     "intro": "Á hverju spjaldi er kunnugleg mynd ásamt vinalegu spjallorði, eins og: „Hvernig veður finnst þér skemmtilegast?“ Það eru engin rétt svör og engu þarf að muna eftir. Veljið þema eða stokkið öllum spjöldunum saman.",
@@ -329,12 +979,13 @@
     "description": "Breyttu eigin fjölskyldumyndum í ljúft samstæðuspil. Veldu 2 til 6 myndir úr tækinu þínu; þær verða áfram í vafranum og eru aldrei sendar neitt.",
     "short": "Veldu eigin myndir og paraðu þær saman. Engu er hlaðið upp.",
     "players": "2 saman, hlið við hlið",
-    "intro": "Veldu tvær til sex myndir úr símanum, spjaldtölvunni eða tölvunni og þær verða að samstæðuspili með stórum og skýrum myndum. Myndirnar birtast aðeins á þessari síðu. Þeim er ekki hlaðið upp, þær eru ekki vistaðar eða þeim deilt, og þær hverfa þegar þú lokar síðunni.",
+    "intro": "Veldu tvær til sex myndir af fjölskyldunni úr símanum, spjaldtölvunni eða tölvunni og þær verða að pörunarleik með stórum, skýrum myndum. Myndirnar birtast aðeins inni á þessari síðu. Þær eru ekki hlaðnar upp, vistaðar eða deildar og hverfa þegar þú lokar síðunni. Ef þú vilt geturðu skrifað nokkur orð undir hverja mynd, og mild vísbending getur bent á eitt par eftir smá hlé. Þetta er leið til að skoða fjölskyldumyndir saman.",
     "howTo": [
-      "Ýttu á „Velja myndir“ og veldu tvær til sex myndir.",
-      "Hver mynd birtist tvisvar. Ýttu á eina og síðan á parið hennar.",
-      "Ræðið um hverja mynd um leið og hún finnst.",
-      "Þegar þið eruð búin lokið þið síðunni eða ýtið á „Hreinsa myndir“. Ekkert er geymt."
+      "Ýttu á \"Veldu myndir\" og veldu tvær til sex myndir.",
+      "Hver mynd birtist tvisvar. Ýttu á eina og síðan á par hennar.",
+      "Ef þú vilt geturðu skrifað nokkur orð undir hverja mynd. Textinn undir myndunum er ekki vistaður.",
+      "Talaðu um hverja mynd þegar þú finnur hana.",
+      "Þegar þú ert búin(n) lokarðu síðunni eða ýtir á \"Hreinsa myndir\". Ekkert er geymt."
     ],
     "tips": [
       "Veldu skýrar myndir af ánægjulegum og kunnuglegum hlutum: gæludýri, garði, uppáhaldsstað eða brúðkaupsdegi.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Myndabingó",
-    "seoTitle": "Myndabingó til útprentunar fyrir eldri borgara með heilabilun",
+    "seoTitle": "Prentanlegt myndabingó fyrir hópa",
     "h1": "Myndabingó fyrir hópa",
-    "description": "Ókeypis myndabingó til útprentunar fyrir hópa eldri borgara og fólks með heilabilun, með stórum spilastjóra á skjá. Stórar myndir með orðum, 9 eða 16 reitir, engin lestrarkunnátta nauðsynleg.",
+    "description": "Ókeypis prentanlegt myndabingó fyrir fjölskyldur, hópa eldra fólks og hjúkrunarheimili. Stórar myndir með orðum, 9 eða 16 reitir og stór upplesari á skjánum.",
     "short": "Útprentanleg myndabingóspjöld og stórskjás-spilastjóri fyrir hópa.",
     "players": "Hópur frá 2 upp í 30",
     "intro": "Klassískt bingó með myndum í stað talna, svo enginn þarf að lesa smátt letur. Prentaðu út mismunandi spjöld og notaðu svo spilastjórann á skjánum til að sýna hverja mynd stóra á sjónvarpi, fartölvu eða spjaldtölvu.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Lautarferðaáætlun",
+    "seoTitle": "Lautarferðaáætlun: Veldu myndir fyrir ferð út",
+    "h1": "Lautarferðaáætlun: Veldu myndir og paraðu þær síðan saman",
+    "description": "Veldu myndir af mat og af hlutum til að gera í lautarferð, og spilaðu síðan mildan pörunarleik með þeim. Ekkert er tímasett. Ókeypis að spila og prenta.",
+    "short": "Veldu myndir af mat og útiveru fyrir lautarferð og paraðu þær saman.",
+    "players": "Einn, eða 2 manns hlið við hlið",
+    "intro": "Ýttu á myndir af mat og hlutum til að gera til að setja þær í lautarkörfuna, sem rúmar allt að sex. Setning í orðum segir hvað er í körfunni, til dæmis \"Lautarferðin okkar: brauð, ostur, epli og flugdreki.\" Ýttu síðan á \"Leikum okkur með lautarferðina\" fyrir mildan pörunarleik sem er búinn til úr völdu myndunum. Myndirnar haldast sýnilegar og ekkert er tímasett, skráð eða vistað. \"Prenta lista yfir lautarferðina\" prentar gátlista yfir það sem þú valdir, með hakreit fyrir hvern hlut sem þarf að pakka.",
+    "howTo": [
+      "Ýttu á mynd af mat eða einhverju til að gera. Hún fer í körfuna.",
+      "Ýttu á mynd í körfunni til að taka hana aftur úr.",
+      "Veldu að minnsta kosti tvo hluti og ýttu síðan á \"Leikum okkur með lautarferðina\".",
+      "Ýttu á tvær myndir sem eru eins. Myndirnar haldast sýnilegar, svo það er ekkert að muna.",
+      "Ýttu á \"Prenta lista yfir lautarferðina\" fyrir pappírs gátlista til að taka með."
+    ],
+    "tips": [
+      "Spurðu fólkið sem er með þér hvað það vildi koma með og veljið myndirnar saman.",
+      "Talaðu um hverja mynd þegar hún fer í körfuna: \"Manstu eftir flugdrekanum sem við flugum á ströndinni?\"",
+      "Á pappírnum eru auðu línurnar fyrir allt annað sem þú vilt taka með, eða fyrir nafn."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir, stig eða sigurvegari?",
+        "a": "Nei. Ekkert er tímasett eða talið og enginn vinnur. Pörunarleikurinn hefur engar villur og engin stig."
+      },
+      {
+        "q": "Er þetta matseðill?",
+        "a": "Nei. Þetta er myndaáætlun fyrir ferð út, til að tala um og taka með á pappír. Hún segir ekki hvað neinn ætti að borða."
+      },
+      {
+        "q": "Eru myndirnar sem við veljum vistaðar eða sendar?",
+        "a": "Nei. Karfan er aðeins á þessari síðu. Hún er ekki vistuð, hlaðin upp eða send, og hún hverfur þegar þú lokar síðunni."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. \"Prenta lista yfir lautarferðina\" prentar eina síðu, á A4 eða US Letter. Hún sýnir myndirnar sem þú valdir með hakreit fyrir hverja, og auðum línum fyrir allt annað."
+      },
+      {
+        "q": "Er þetta ókeypis og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis og það þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vefvafra í síma, spjaldtölvu eða tölvu."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Myndaalbúm",
+    "seoTitle": "Myndaalbúm: Fletið fjölskyldumyndum saman, síðu fyrir síðu",
+    "h1": "Myndaalbúm: Bættu við myndum og texta, og flettu síðan",
+    "description": "Veldu tvær til tólf af þínum eigin fjölskyldumyndum í tækinu og flettu þeim eins og bók, með nokkrum orðum undir hverri. Ekkert er hlaðið upp. Ókeypis að prenta.",
+    "short": "Flettu í gegnum þínar eigin fjölskyldumyndir saman, eins og bók.",
+    "players": "Einn, eða 2 manns hlið við hlið",
+    "intro": "Veldu tvær til tólf af þínum eigin myndum úr þessu tæki. Hver mynd verður ein síða í bók, nógu stór til að sjást, með valfrjálsum orðum undir. Flettu síðunum með hnöppunum eða örvatökkunum, og notaðu \"Skoðum saman\" til að sitja hlið við hlið með aðeins myndunum og orðunum. Myndirnar þínar haldast í þessu tæki. Þær eru ekki hlaðnar upp eða vistaðar, og bókin hverfur þegar þú lokar síðunni. \"Prenta albúmið\" prentar eina mynd og orðin hennar á hverri síðu, með blaðsíðunúmerum.",
+    "howTo": [
+      "Ýttu á \"Veldu myndir\" og veldu tvær til tólf myndir. Spurðu fyrst ef þú notar mynd af einhverjum sem getur ekki sagt já.",
+      "Flettu með \"Fyrri síða\" og \"Næsta síða\", eða með vinstri og hægri örvatökkunum.",
+      "Bættu nokkrum orðum undir mynd ef þú vilt. Notaðu \"Færa fyrr\" eða \"Færa síðar\" til að breyta röðinni.",
+      "Ýttu á \"Skoðum saman\" til að fela breytingatakkana og skoða bókina hlið við hlið.",
+      "Ýttu á \"Prenta albúmið\" fyrir pappírs eintak, eða \"Hreinsa bókina\" þegar þú ert búin(n). Ekkert er geymt."
+    ],
+    "tips": [
+      "Velg bilder av glade, kjente ting: en hage, et kjæledyr, et favorittsted. Snakk om hver side når du bla�r om.",
+      "La personen si noen få ord for hver side, til og med bare ett ord, og skriv dem ned akkurat slik de sier dem.",
+      "På papir kan de utskrevne sidene legges i en perm, og familien kan legge til egne bilder og notater rundt dem."
+    ],
+    "faq": [
+      {
+        "q": "Finnes det tidtaker, poengsum eller vinner?",
+        "a": "Nei. Ingenting tidtas, poengsettes eller telles, og ingen vinner. Sidenummeret er bare der slik at du vet hvor du er i boken."
+      },
+      {
+        "q": "Lagres, lastes opp eller sendes bildene eller bildetekstene våre?",
+        "a": "Nei. Bildene leses bare av denne siden, og de lastes ikke opp, lagres eller sendes noe sted. Bildetekstene beholdes bare så lenge siden er åpen. Når du lukker siden, er boken borte."
+      },
+      {
+        "q": "Kan vi skrive ut boken?",
+        "a": "Ja. «Skriv ut fotoalbumet» skriver ut ett bilde og en bildetekst på hver side, med sidenummer. Velg A4 eller US Letter i utskriftsdialogen."
+      },
+      {
+        "q": "Er det gratis, og må jeg registrere meg?",
+        "a": "Ja, det er gratis, og det finnes ingen konto, registrering eller nedlasting. Det fungerer i nettleseren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Collagetavle",
+    "seoTitle": "Collagetavle: To personer legger bilder på skiftevis",
+    "h1": "Collagetavle: Legg bilder på én tavle, på skiftevis",
+    "description": "To personer legger utklipte bilder på skiftevis på én felles tavle. Trykk på et utklipp, og deretter på et tomt felt. Ingen tidtaker eller poeng. Gratis å spille og skrive ut.",
+    "short": "Legg bilder på skiftevis på én felles tavle.",
+    "players": "2 personer, side om side",
+    "intro": "To personer sitter side om side med én tavle med tolv felt og en brett med åtte utklippte bilder. Trykk på et utklipp, og deretter på et tomt felt, så legges bildet der. Turen går så over til den andre personen. Hver persons bilder har sin egen form, en sirkel eller en firkant, slik at tavlen viser hvem som la hva, uten å være avhengig av farge. Begge kan hoppe over, og ett steg kan tas tilbake. Ingenting tidtas, poengsettes eller lagres. «Skriv ut tavlen» skriver ut den tomme tavlen og bildene som skal klippes ut.",
+    "howTo": [
+      "Trykk på et utklipp i brettet. Det viser «Valgt» mens det er merket.",
+      "Trykk på et tomt felt på tavlen. Utklippet legges der, og turen går over.",
+      "Begge kan trykke på Hopp over når som helst, eller «Ta tilbake siste bit» for å angre ett steg.",
+      "Trykk på «Et annet sett med bilder» for et annet brett. Bilder som allerede er på tavlen, blir liggende der de er.",
+      "Trykk på «Start på nytt» for å tømme tavlen, og «Legg tilbake» hvis du ombestemmer deg."
+    ],
+    "tips": [
+      "Si navnet på hvert bilde når det legges ned, for eksempel «tekoppen legges ved huset». Å snakke sammen gjør aktiviteten felles.",
+      "La de to personene velge utklippet på skiftevis, i tillegg til feltet, slik at begge har noe å si.",
+      "På papir klipper du ut de åtte bildene, gjerne med en voksen som hjelper til, og legger dem deretter på de utskrevne rutene."
+    ],
+    "faq": [
+      {
+        "q": "Finnes det tidtaker, poengsum eller vinner?",
+        "a": "Nei. Ingenting tidtas, poengsettes eller telles, og ingen vinner. En full tavle er rett og slett en der det ligger et bilde på hvert felt."
+      },
+      {
+        "q": "Lagres eller sendes bildene vi legger ut?",
+        "a": "Nei. Tavlen blir bare på denne siden. Den lagres ikke, lastes ikke opp og telles ikke, og den er borte når du lukker siden."
+      },
+      {
+        "q": "Hvordan ser vi hvis bilde som er hvems?",
+        "a": "Hver person har en form. Den første personens bilder har en sirkel i hjørnet, og den andre personens har en firkant, og hvert navn vises over tavlen."
+      },
+      {
+        "q": "Finnes det en papirversjon?",
+        "a": "Ja. «Skriv ut tavlen» skriver ut den tomme tavlen som tolv ruter, med de åtte bildene under i samme størrelse og klippelinjen. En voksen kan gjøre klippingen."
+      },
+      {
+        "q": "Er det gratis, og må jeg registrere meg?",
+        "a": "Ja, det er gratis, og det finnes ingen konto, registrering eller nedlasting. Det fungerer i nettleseren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Hageplanlegger",
+    "seoTitle": "Hageplanlegger: Legg ut en tomt med plantebilder",
+    "h1": "Hageplanlegger: Velg bilder og legg ut en tomt",
+    "description": "Velg bilder av planter og hageting, og legg dem deretter i tolv bed på en tomt. Trykk på et bilde, og deretter på et bed. Ingen tidtaker eller poeng. Gratis å spille og skrive ut.",
+    "short": "Velg plantebilder og legg ut en tomt med tolv bed.",
+    "players": "Alene, eller 2 personer side om side",
+    "intro": "Velg bilder fra et brett med planter og hageting, og trykk deretter på et bed for å sette hvert bilde på plass. En tomt har tolv bed, og et bed har plass til ett bilde. Et sammendrag i ord viser hva planen har, for eksempel «Planen din har 3 solsikker, 2 roser og 1 tre.» Ingenting tidtas, poengsettes eller lagres, og det er ingen tur om å ta. Dette er en bildeplan å snakke om, ikke råd om planting. «Skriv ut planen» skriver ut bedene med bildene du valgte, med tomme bed å tegne i og linjer for notater.",
+    "howTo": [
+      "Trykk på et bilde i brettet. Det viser «Valgt» mens det er merket.",
+      "Trykk på et bed. Bildet legges der, og valget er gjort.",
+      "For å endre et bed velger du et annet bilde og trykker på bedet. For å tømme et bed trykker du på det uten at noe bilde er valgt.",
+      "Trykk på «Start på nytt» for å tømme alle bed, og «Legg tilbake» hvis du ombestemmer deg.",
+      "Trykk på «Skriv ut planen» for en papirkopi av tomten og sammendraget."
+    ],
+    "tips": [
+      "Tala um hverja mynd þegar hún er sett inn, til dæmis „sólblómið fer við fuglahúsið“. Að tala saman gerir þetta að sameiginlegri iðju.",
+      "Láttu hvern og einn velja mynd í röð, eða veljið myndirnar saman, svo að báðir fái að ráða í söguþræðinum.",
+      "Á pappírnum eru auðu beðin fyrir eigin hugmyndir og minnislínurnar fyrir allt sem þú vilt muna."
+    ],
+    "faq": [
+      {
+        "q": "Eru þetta ráð um gróðursetningu?",
+        "a": "Nei. Þetta er myndaáætlun til að tala um, ekki ráð um gróðursetningu. Hún segir ekki hvenær, hvar eða hvernig á að gróðursetja neitt, því það fer eftir því hvar þú býrð."
+      },
+      {
+        "q": "Er tímamælir, stig eða sigurvegari?",
+        "a": "Nei. Ekkert er tímasett, metið, gefin einkunn eða talið, og enginn vinnur. Full áætlun fær engin sérstök skilaboð."
+      },
+      {
+        "q": "Eru myndirnar sem við veljum vistaðar eða sendar?",
+        "a": "Nei. Áætlunin er aðeins á þessari síðu. Hún er ekki vistuð, hlaðin upp né talin, og hún hverfur þegar þú lokar síðunni."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. „Prenta áætlunina“ prentar eina síðu, á A4 eða US Letter. Hún sýnir tólf beðin með myndunum sem þú valdir, samantektina í orðum og auðar línur fyrir athugasemdir."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engin aðgangur, skráning né niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Hópteikniveggur",
+    "seoTitle": "Hópteikniveggur: ein mynd fyrir margar hendur",
+    "h1": "Hópteikniveggur: ein stór mynd, lituð saman",
+    "description": "Prentaðu eina stóra mynd yfir nokkrar síður, svo að fjölskylda, bekkur eða umönnunarheimili geti litað einn vegg saman. Ókeypis að prenta. Enginn tímamælir né stig.",
+    "short": "Prentaðu eina stóra mynd yfir margar síður fyrir marga til að lita.",
+    "players": "Hópur, við borð eða á vegg",
+    "intro": "Veldu mynd úr litasíðunum og vegg með 4, 6 eða 9 síðum. Prentaðu vegginn: fyrsta síðan sýnir hvernig á að setja hann saman, og hver hinna síðnanna er einn hluti sömu stóru myndarinnar, með merki eins og A1 í horninu. Hver og einn litar eina eða fleiri síður, í hvaða litum og stíl sem er. Síðurnar eru síðan lagðar eftir merkjunum og límdar saman með límbandi aftan á. Ekkert er tímasett, metið né vistað.",
+    "howTo": [
+      "Veldu mynd, og veldu síðan hversu margar síður veggurinn á að hafa.",
+      "Lestu kortið á skjánum, sem sýnir hvar hvert merki fer.",
+      "Ýttu á „Prenta vegginn“ og prentaðu allar síðurnar.",
+      "Gefðu hverjum og einum eina eða fleiri síður til að lita. Litir og stíll þurfa ekki að passa saman.",
+      "Leggðu síðurnar út eftir merkjunum og límdu þær saman með límbandi aftan á."
+    ],
+    "tips": [
+      "Gefðu þeim sem vilja rólegra verkefni síðurnar með einföldustu útlínunum, og þeim sem hafa gaman af flóknari síðum þær.",
+      "Hengdu vegginn þar sem allir sjá hann, og talið um hlutana saman.",
+      "Veldu minni vegg fyrir lítið borð og stærri fyrir herbergi."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir, stig eða sigurvegari?",
+        "a": "Nei. Ekkert er tímasett, metið né talið, og enginn vinnur. Veggurinn er einfaldlega mynd sem margir hafa litað."
+      },
+      {
+        "q": "Eru síðurnar vistaðar eða sendar einhvert?",
+        "a": "Nei. Veggurinn er gerður aðeins á þessari síðu. Hann er ekki vistaður, hlaðinn upp né talinn, og hann hverfur þegar þú lokar síðunni."
+      },
+      {
+        "q": "Þurfa litirnir að passa saman?",
+        "a": "Nei. Hver og einn getur notað hvaða liti og stíl sem er. Síðurnar tengjast samt í eina mynd."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. Prentaði veggurinn er allur leikurinn: fyrsta síða með skrefunum og korti, og ein síða fyrir hvern hluta myndarinnar."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engin aðgangur, skráning né niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Rólegt formaþraut",
+    "seoTitle": "Rólegt formaþraut: settu form inn í mynd",
+    "h1": "Rólegt formaþraut: settu hlutana inn í myndina",
+    "description": "Settu einföld form inn í útlínur húss, báts, fisks og fleira. Ýttu á hlut og síðan á bil með sama formi. Enginn tímamælir né stig. Ókeypis að spila og prenta.",
+    "short": "Settu einföld form inn í mynd, á þínum eigin hraða.",
+    "players": "1 manneskja, við borð",
+    "intro": "Útlínur myndar, til dæmis húss, báts eða eldflaugar, eru skiptar í bil. Hvert bil á sér hlut í sama formi: stóran eða lítinn þríhyrning, ferning, samsíðung eða rétthyrning. Ýttu á hlut og síðan á bil með sama formi, og hann passar. Bilið snýr hlutnum fyrir þig, svo ekkert þarf að draga eða snúa. Ef hlutur er af öðru formi en bilið, situr hann áfram í bakkanum með stuttri athugasemd. Ekkert er tímasett né metið, og ekkert er vistað né sent. „Prenta þetta form“ prentar útlínurnar og hlutina á eina síðu til að lita eða klippa út.",
+    "howTo": [
+      "Ýttu á hlut í bakkanum. Hann sýnir „Valið“ meðan hann er valinn.",
+      "Ýttu á bil í myndinni. Ef formið passar, fer hluturinn þar inn.",
+      "Ef það passar ekki, reyndu annað bil. Ekkert tapast við að prófa.",
+      "Ýttu á hlut í myndinni til að færa hann aftur í bakkann, eða notaðu „Byrja upp á nýtt“ til að færa þá alla aftur.",
+      "Þegar hvert bil hefur sinn hlut er myndin fullgerð. Ýttu á „Annað form“ fyrir nýtt, eða ýttu á Hvíld til að hætta."
+    ],
+    "tips": [
+      "Slå vísbendingalínurnar á til að sjá hvert svæði. Slökktu á þeim fyrir meiri þraut, þar sem aðeins útlínan er til leiðsagnar.",
+      "Byrjaðu á stóru formunum, til dæmis stóru þríhyrningunum og ferhyrningunum. Litlu bitarnir koma oft síðast.",
+      "Nefndu formin upphátt þegar þú vinnur: „þríhyrningur, ferningur, langur ferhyrningur“. Að tala saman getur gert þetta að sameiginlegri iðju.",
+      "Á pappír má lita bitana með tveimur eða þremur litum, eða klippa þá út með aðstoð fullorðins."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir, stig eða talning á hreyfingum?",
+        "a": "Nei. Ekkert er tímasett, talið eða gefin stig. Bitinn sem passar ekki er einfaldlega ekki settur á sinn stað, og þú getur hætt hvenær sem þú vilt."
+      },
+      {
+        "q": "Er það sem við búum til vistað eða sent?",
+        "a": "Nei. Myndin er aðeins á þessari síðu. Hún er ekki vistuð, send eða talin, og hún hverfur þegar þú lokar síðunni."
+      },
+      {
+        "q": "Eru svæðin nógu stór fyrir skjálfta hendi eða lítinn skjá?",
+        "a": "Útlínan er teiknuð eins stór og skjárinn leyfir, og hvert svæði er hnappur sem þú nærð með fingri eða með Tab-takkanum. Bitarnir í bakkanum eru stórir hnappar síðunnar."
+      },
+      {
+        "q": "Er til útgáfa á pappír?",
+        "a": "Já. „Prenta þetta form“ prentar eina mynd á eina síðu: útlínuna með vísbendingalínunum og bitana teiknaða í sömu stærð við hliðina. Litaðu bitana, eða klipptu þá út þannig að þeir passi. Fullorðinn getur séð um klippinguna."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engan aðgang, skráningu eða niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Róleg öndun",
-    "seoTitle": "Róleg öndunarstund fyrir eldri borgara og aðstandendur",
+    "seoTitle": "Róleg öndunarhlé til að deila",
     "h1": "Róleg öndunarstund",
     "description": "Hæg og hljóðlát öndunarstund til að eiga saman: mjúkur hringur stækkar og minnkar í sex andardrætti. Þú ræsir hann og getur stöðvað hvenær sem er.",
     "short": "Hægur hringur til að anda með. Byrjaðu og hættu þegar þér hentar.",
@@ -423,6 +1333,131 @@
       {
         "q": "Er þetta ókeypis og þarf ég að skrá mig?",
         "a": "Já, þetta er ókeypis og það þarf engan aðgang, enga skráningu og ekkert niðurhal. Þetta virkar í vefvafra í síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Sögukeðja",
+    "seoTitle": "Sögukeðja: sameiginlegur myndasögu­leikur",
+    "h1": "Sögukeðja: segðu sögu eina mynd í einu",
+    "description": "Röð mynda stækkar eina í einu, og hver og einn segir setningu um hana upphátt. Ekkert þarf að skrifa og ekkert rétt svar er til. Ókeypis, róleg, án tímamælis og stiga.",
+    "short": "Bættu við mynd, og segðu síðan eina setningu hvert, til skiptis.",
+    "players": "2 eða fleiri",
+    "intro": "Leikurinn byrjar á einni mynd og keðjan stækkar eina mynd í einu. Hver og einn segir eina setningu um keðjuna eins og hún er orðin, upphátt, og skiptist þannig á. Setningin má fjalla um það sem þú sérð, stað sem hún rifjar upp, eða eitthvað fyndið. Ekkert er skrifað, tekið upp eða geymt, engin rétt svör eru til og hver sem er má sleppa. Keðjan stoppar við átta myndir, og þá getur þú byrjað nýja.",
+    "howTo": [
+      "Skoðið fyrstu myndina saman.",
+      "Skiptist á: hver og einn segir eina setningu um keðjuna eins og hún er orðin. Hver sem er má sleppa.",
+      "Ýttu á „Bæta við mynd“ til að setja næstu mynd aftast í keðjuna.",
+      "Ýttu á „Taka síðustu af“ ef þú vilt heldur fara einni mynd til baka.",
+      "Þegar keðjan er komin með átta myndir, ýttu á „Byrja nýja keðju“ til að fá nýja, eða hættu einfaldlega."
+    ],
+    "tips": [
+      "Stuttar setningar duga: „Einhver setti ketilinn á.“ Næsti heldur áfram, eða sleppir.",
+      "Láttu myndirnar ráða för. Það er engin saga sem þið eigið að komast að.",
+      "Hættu hvenær sem þú vilt. Að hætta á miðri leið er fullkomlega góð leið til að ljúka leiknum."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stig?",
+        "a": "Nei. Engin klukka, stig, talning á hreyfingum eða tap er til staðar. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullkomlega góð leið til að ljúka leiknum."
+      },
+      {
+        "q": "Er eitthvað skrifað eða tekið upp?",
+        "a": "Nei. Setningarnar eru sagðar upphátt og eru hvorki skrifaðar, teknar upp né sendar neitt. Leikurinn sýnir aðeins myndirnar."
+      },
+      {
+        "q": "Hvað ef einhver vill ekki segja neitt?",
+        "a": "Hver sem er má sleppa og næsti heldur áfram. Enginn þarf að nefna eða muna mynd."
+      },
+      {
+        "q": "Er þetta ókeypis, og þarf ég að skrá mig?",
+        "a": "Já, þetta er ókeypis, og engan aðgang, skráningu eða niðurhal þarf. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Rólegt myndefni",
+    "seoTitle": "Rólegt myndefni: ein mynd í einu",
+    "h1": "Rólegt myndefni: ein kyrr mynd í einu",
+    "description": "Ein stór, kyrr mynd í einu, hver með einni mildri línu undir. Ýttu á Næsta eða Fyrra þegar þú ert tilbúin/n. Ekkert hreyfist eða spilar af sjálfu sér, og enginn tímamælir eða stig er til staðar. Ókeypis, án aðgangs.",
+    "short": "Skoðaðu eina kyrra mynd í einu, á þínum eigin hraða.",
+    "players": "Einn, eða hópur í sama herbergi",
+    "intro": "Ein stór mynd fyllir skjáinn, með einni stuttri línu undir. Ýttu á „Næsta mynd“ eða „Fyrri mynd“ þegar þú ert tilbúin/n fyrir þá næstu. Ekkert hreyfist, dofnar eða breytist af sjálfu sér, og engin tímasetning er í gangi. Ýttu á „Stærri mynd“ til að sýna aðeins myndina, svo allur hópurinn sjái hana í sjónvarpi.",
+    "howTo": [
+      "Skoðið myndina saman.",
+      "Lestu línuna undir henni upphátt ef þú vilt.",
+      "Ýttu á „Næsta mynd“ eða „Fyrri mynd“ þegar þú ert tilbúin/n.",
+      "Ýttu á „Stærri mynd“ til að sýna aðeins myndina, og á „Sýna allt“ til að fá restina aftur.",
+      "Hættu hvenær sem þú vilt með „Í bili er nóg“."
+    ],
+    "tips": [
+      "Leyfðu þeim sem þú ert með að ráða hvenær þeir fara áfram: bíddu eftir að þeir líti á myndina, og ýttu síðan á Næsta.",
+      "Fyrir hóp skaltu nota „Stærri mynd“ á sjónvarpi eða stórum skjá og sitja þar sem allir sjá.",
+      "Það er engin rétt leið til að skoða mynd. Það eitt að tala um hana er fullgild iðja."
+    ],
+    "faq": [
+      {
+        "q": "Er tímamælir eða stig?",
+        "a": "Nei. Engin klukka, stig, talning á hreyfingum eða tap er til staðar. Þú getur hætt hvenær sem er, og að hætta á miðri leið er fullkomlega góð leið til að ljúka leiknum."
+      },
+      {
+        "q": "Spilar þetta hljóð eða hreyfist?",
+        "a": "Nei. Ekkert hljóð er og ekkert hreyfist, dofnar eða breytist af sjálfu sér. Mynd breytist aðeins þegar þú ýtir á hnapp."
+      },
+      {
+        "q": "Finnst til pappírsútgáfa?",
+        "a": "Nei. Þetta er mynd sem þið skoðið saman á skjá. Uppáhaldsmynd eða póstkort á borðinu gerir sama gagn."
+      },
+      {
+        "q": "Er þetta ókeypis og þarf að skrá sig?",
+        "a": "Já, þetta er ókeypis og þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Litaþvottur",
+    "seoTitle": "Color Wash: Mjúkur litur yfir heila síðu",
+    "h1": "Color Wash: Málið mjúka liti yfir heila síðu",
+    "description": "Mjúkur pensill málar breiða, gegnsæja litaþvotta yfir eina síðu, í fjórum litum og tveimur pensilstærðum. Enginn endapunktur, engin stig og enginn tímamælir. Ókeypis í notkun, án aðgangs.",
+    "short": "Málið mjúka litaþvotta yfir síðu, á ykkar eigin hraða.",
+    "players": "Einn, eða 2 manns hlið við hlið",
+    "intro": "Ein síða og einn mjúkur pensill. Veljið lit og pensilstærð, dragið síðan yfir síðuna til að setja litaþvott á hana. Síðan hefur enga endalok: ekkert þarf að klára, engin mynd þarf að vera rétt og engin stig eru gefin. Setjið eins marga þvotta og þið viljið, eða leggið pensilinn frá ykkur og horfið einfaldlega á. Ný síða hreinsar allt, og „Setja aftur“ kallar þvottana fram aftur.",
+    "howTo": [
+      "Veljið lit. Hver litur hefur skráð heiti.",
+      "Veljið Breiður eða Mjög breiður. Mjög breiður þekur meira af síðunni með hverju striki.",
+      "Dragið yfir síðuna með fingri, mús eða penna til að setja á þvott.",
+      "Eða notið örvatakkana til að færa pensilhringinn, og bilslána til að setja pensilinn niður eða lyfta honum.",
+      "Pikkið á „Ný síða“ til að hreinsa síðuna, og síðan „Setja aftur“ ef þið viljið fá þvottana aftur."
+    ],
+    "tips": [
+      "Látið hinn aðilann velja litinn í næsta þvott og ræðið um litina um leið og þeir koma á síðuna.",
+      "Mjög breiður er auðveldara að stýra með skjálfandi hendi, því pensillinn þarf ekki að hitta nákvæmlega.",
+      "Engin rétt leið er til að mála. Hættið hvenær sem ykkur hentar, eða pikkið á „Hætta í bili“."
+    ],
+    "faq": [
+      {
+        "q": "Er einhver endir, stig eða tímamælir?",
+        "a": "Nei. Síðan hefur engan endapunkt. Ekkert er kláruð, talið, tímasett eða metið, og engin skilaboð biðja ykkur nokkurn tímann um að gera meira."
+      },
+      {
+        "q": "Er síðan vistuð eða send?",
+        "a": "Nei. Ekkert er vistað, prentað eða sent neitt. Þvottarnir haldast á þessari síðu þar til þið yfirgefið hana."
+      },
+      {
+        "q": "Get ég notað þetta án músar eða snertiskjás?",
+        "a": "Já. Þegar síðan er virk færa örvatakkarnir pensilhringinn og bilslánn setur pensilinn niður eða lyftir honum. Skjárinn segir „Pensill niðri“ eða „Pensill uppi“ í hvert skipti."
+      },
+      {
+        "q": "Finnst til pappírsútgáfa?",
+        "a": "Nei. Vatnslitamálun á pappír er sama hugmynd, blautur pensill og einn litur í einu, þannig að þetta er önnur iðja sem hægt er að prófa við borðið."
+      },
+      {
+        "q": "Hvaða litir eru þetta?",
+        "a": "Gulur, appelsínugulur, grænn og fjólublár, sömu fjórir litirnir og notaðir eru í hinum myndaleikjunum okkar. Hver hefur skráð heiti og heitið birtist við hliðina á valinu."
+      },
+      {
+        "q": "Er þetta ókeypis og þarf að skrá sig?",
+        "a": "Já, þetta er ókeypis og þarf hvorki aðgang, skráningu né niðurhal. Það virkar í vafra á síma, spjaldtölvu eða tölvu."
       }
     ]
   }

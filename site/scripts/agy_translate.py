@@ -71,6 +71,11 @@ def languages() -> list[dict]:
                 raise ValueError(f'duplicate language code in {CSV}: {code}')
             seen.add(code)
             out.append({'code': code, 'english': row[3].strip(), 'native': row[4].split(',')[0].strip()})
+    # Regional variants (pt-BR, pt-PT, zh-Hans, zh-Hant, fil) are site languages but not ISO 639-1
+    # rows, so take them from the site's locales.ts; leaving them out once skipped their re-translation.
+    for code, m in locale_codes().items():
+        if code not in seen and code != 'en':
+            out.append({'code': code, 'english': m['english'], 'native': m['native']})
     return out
 
 

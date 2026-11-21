@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities මුල් පිටුව",
     "mainNav": "ප්‍රධාන",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: තේකෝප්පයක, සූර්යකාන්තයක සහ බල්ලෙකුගේ විශාල, මිත්‍රශීලී චිත්‍ර",
+    "defaultImageAlt": "Creative Activities: දෛනික දේවල් තනන්නට සහ කරන්නට විශාල, හිතකර චිත්‍ර",
     "languages": "භාෂාව",
     "englishOnly": "(English)",
     "machineTranslated": "මෙම පිටුව ස්වයංක්‍රියව පරිවර්තනය කරන ලද අතර තවමත් මව් භාෂාව කතා කරන කෙනෙකු විසින් පරීක්ෂා කර නොමැත.",
     "readOriginal": "ඉංග්‍රීසියෙන් ඇති මුල් පාඨය කියවන්න",
     "nav": {
+      "find": "Find an activity",
       "games": "ක්‍රීඩා",
       "activities": "ක්‍රියාකාරකම්",
       "caregiving": "රැකබලා ගැනීම",
-      "brainHealth": "මොළයේ සෞඛ්‍යය"
+      "brainHealth": "මොළයේ සෞඛ්‍යය",
+      "crafts": "අත්කම්",
+      "kids": "ළමුන්",
+      "together": "එකට",
+      "creativeCalm": "නිර්මාණශීලී සන්සුන්කම",
+      "search": "සොයන්න"
     },
     "faqTitle": "ප්‍රශ්න සහ පිළිතුරු",
     "breadcrumb": "මාර්ග සලකුණ",
@@ -27,7 +33,32 @@
       "label": "අක්ෂර ප්‍රමාණය",
       "smaller": "සාමාන්‍ය අකුරු",
       "larger": "විශාල අකුරු",
-      "contrast": "ඉහළ වෙනස්කම"
+      "contrast": "ඉහළ වෙනස්කම",
+      "colors": "වර්ණ",
+      "light": "ආලෝක",
+      "dark": "අඳුරු",
+      "device": "මෙම උපාංගයේ ආකාරයටම",
+      "lineLength": "පේළියේ දිග",
+      "standardLines": "සාමාන්‍ය",
+      "shorterLines": "කෙටි පේළි",
+      "spacing": "පරතරය",
+      "standardSpacing": "සාමාන්‍ය",
+      "moreSpace": "වැඩි ඉඩ"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "ක්‍රියාකාරකම් අදහස් 101",
     "lateStage": "පසුකාලීන අවස්ථාවේ ක්‍රියාකාරකම්",
     "printable": "මුද්‍රණය කළ හැකි ක්‍රියාකාරකම්",
-    "allActivities": "සියලු ක්‍රියාකාරකම්",
+    "allActivities": "සියලු ක්‍රියාකාරකම් මාර්ගෝපදේශ",
     "forCaregivers": "රැකබලා ගන්නන් සඳහා",
     "playTogether": "එකට ක්‍රීඩා කරන ආකාරය",
     "selfCare": "ඔබ ගැන ම සැලකිලිමත් වීම",
@@ -54,24 +85,34 @@
     "app": "Creative Activities යෙදුම",
     "appHelp": "යෙදුම් උදව්",
     "support": "සහාය",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "නෛතික",
     "sitePrivacy": "වෙබ් අඩවියේ පෞද්ගලිකත්වය",
     "appPrivacy": "යෙදුමේ පෞද්ගලිකත්ව ප්‍රතිපත්තිය",
     "privacyChoices": "පෞද්ගලිකත්ව තේරීම්",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "කොන්දේසි සහ යෙදුම් බලපත්‍රය",
     "safety": "ආරක්ෂාව සහ අපේක්ෂිත භාවිතය",
     "accessibility": "ප්‍රවේශ්‍යතාව",
     "healthNotice": "සෞඛ්‍ය තොරතුරු දැන්වීම",
     "allLegal": "සියලු නෛතික තොරතුරු",
     "note": "Creative Activities මගින් විනෝදය සඳහා සරල, එකට කරන ක්‍රියාකාරකම් ඉදිරිපත් කරයි. එය වෛද්‍ය උපදෙසක්, පරීක්ෂණයක් හෝ ප්‍රතිකාරයක් නොවන අතර, කිසිවෙකු හඳුනා ගැනීමක්, මැනීමක් හෝ ලකුණු කිරීමක් නොකරයි. සෞඛ්‍ය ප්‍රශ්න සඳහා වෛද්‍යවරයෙකු සමඟ කථා කරන්න. හදිසි අවස්ථාවක දී 119 අංකයට ඇමතුමක් ගන්න.",
-    "publisher": "ප්‍රකාශනය: Cloudjet Solutions Pte. Ltd."
+    "publisher": "ප්‍රකාශනය: Cloudjet Solutions Pte. Ltd.",
+    "crafts": "සියලු වයස්වලට අත්කම්",
+    "kids": "ළමුන්ට ක්‍රියාකාරකම්",
+    "together": "එකට කළ හැකි ක්‍රියාකාරකම්",
+    "creativeCalm": "නිර්මාණශීලී සන්සුන්කම",
+    "dementiaActivities": "ඩිමන්ශියා සහිත පුද්ගලයන් සඳහා ක්‍රියාකාරකම්"
   },
   "home": {
-    "title": "ඩිමෙන්ශියා සහ ඇල්සයිමර් ක්‍රීඩා සහ ක්‍රියාකාරකම් | Creative Activities",
-    "description": "ඩිමෙන්ශියාව හෝ ඇල්සයිමර් ඇති අය සහ ඔවුන් රැකබලා ගන්නන් සඳහා මාර්ගගතව ක්‍රීඩා කළ හැකි, නොමිලේ, මෘදු චිත්‍ර ක්‍රීඩා සහ ක්‍රියාකාරකම් අදහස්. ලියාපදිංචියක් නැත, කාල මාපක හෝ ලකුණු නැත.",
+    "title": "යමෙකු රැකබලා ගන්නා ඕනෑම කෙනෙකු සඳහා නිර්මාණශීලී ක්‍රියාකාරකම්",
+    "description": "යමෙකු රැකබලා ගන්නා ඕනෑම කෙනෙකු සඳහා නොමිලේ නිර්මාණශීලී ක්‍රියාකාරකම්: අත්කම්, ළමුන්ට දේවල්, එකට කළ හැකි ක්‍රියාකාරකම් සහ සන්සුන් නිර්මාණ අදහස්.",
     "eyebrow": "නොමිලේ · දැන්වීම් නැත · ලියාපදිංචිය නැත · කාල මාපක හෝ ලකුණු නැත",
-    "h1": "ඩිමෙන්ශියා ඇති අය සඳහා මෘදු ක්‍රීඩා සහ ක්‍රියාකාරකම්",
-    "lede": "සරල චිත්‍ර ක්‍රීඩා, හුරු පුරුදු ඡායාරූප, සහ එකට රස විඳීමට ක්‍රියාකාරකම්—ඔබේ තමන්ගේ වේගයෙන්.",
+    "h1": "එකට යමක් තනමු",
+    "lede": "පුද්ගලයාට, මොහොතට සහ ඔබ සතුව ඇති දේට ගැලපෙන ක්‍රියාකාරකමක් සොයන්න. පහසු අත්කම්, ළමුන්ගේ කලාව, එකට කළ හැකි දේවල් සහ සන්සුන් නිර්මාණ අදහස් ඇත, පහසු අනුවාද සහ මුද්‍රණය කළ හැකි කාඩ්පතක් සමඟ. ඔබට අවශ්‍ය ඕනෑම වේලාවක නවත්වන්න.",
     "playGame": "ක්‍රීඩාවක් ක්‍රීඩා කරන්න",
     "findIdeas": "ක්‍රියාකාරකම් අදහස් සොයන්න",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "ක්‍රියාකාරකම් අදහස් 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "මුල් අවස්ථාව",
         "text": "ඔවුන් ආදරය කරන දේ දිගටම කරන්න, කුඩා වෙනස්කම් සමඟ: විනෝද, චාරිකා, වචන ක්‍රීඩා සහ එකට සැලසුම් කිරීම.",
         "label": "මුල් අවස්ථාවේ අදහස්"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "මධ්‍ය අවස්ථාව",
         "text": "සරල, හුරු පුරුදු කාර්යයන් පියවරවලට බෙදා: නැවීම, වර්ග කිරීම, සංගීතය, චිත්‍ර ක්‍රීඩා සහ කෙටි ඇවිදීම්.",
         "label": "මධ්‍ය අවස්ථාවේ අදහස්"
@@ -124,10 +165,10 @@
         "label": "පසුකාලීන අවස්ථාවේ අදහස්"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "ඔබ විශේෂයෙන් යමක් සොයනවාද? <a href=\"/dementia-activities/\">ඇල්සයිමර් සඳහා ක්‍රියාකාරකම් සහ ක්‍රීඩා</a>, <a href=\"/together/puzzles-and-table-games/\">ප්‍රහේලිකා සහ මේස ක්‍රීඩා</a>, <a href=\"/together/conversation-games-for-all-ages/\">සංවාද ක්‍රීඩා</a> හෝ <a href=\"/together/puzzles-and-table-games/\">ප්‍රහේලිකා</a> උත්සාහ කර බලන්න.",
     "approachEyebrow": "අපගේ ප්‍රවේශය",
-    "approachTitle": "එකට කරන ක්‍රියාකාරකමක්, මතක පරීක්ෂණයක් නොවේ",
-    "approachLede": "බොහෝ “මොළ ක්‍රීඩා” ගොඩනඟා ඇත්තේ වේගය, ලකුණු සහ අඛණ්ඩ ජයග්‍රහණ මත ය. ඩිමෙන්ශියාව සමඟ ජීවත් වන කෙනෙකුට එය විභාගයක් ලෙස දැනිය හැකිය. අපි ඊට ප්‍රතිවිරුද්ධව නිර්මාණය කළෙමු.",
+    "approachTitle": "හවුල් ක්‍රියාකාරකමක්, පරීක්ෂණයක් නොවේ",
+    "approachLede": "බොහෝ “මොළ ක්‍රීඩා” ගොඩනඟා ඇත්තේ වේගය, ලකුණු සහ අඛණ්ඩ ජයග්‍රහණ වටා ය. වෙහෙසට පත් වූ, අසනීප වූ, හෝ ඩිමන්ශියා සහිතව ජීවත් වන අයෙකුට එය විභාගයක් මෙන් දැනිය හැකිය. අපි ඊට ප්‍රතිවිරුද්ධ දෙයක් සාදා ඇත්තෙමු.",
     "approachLink": "අප මෙසේ නිර්මාණය කරන හේතුව",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "ප්‍රතික්ෂේප කිරීමට පොදු හේතු, සහ පසුව නැවත උත්සාහ කිරීමට මෘදු ක්‍රම."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "ටැබ්ලටයක් සකස් කිරීම",
-        "text": "විශාල අකුරු, අඩු බාධා සහ එක සරල මුල් තිරයක්."
+        "href": "/activities/group-art-activities/",
+        "title": "සාමූහික කලා ක්‍රියාකාරකම්",
+        "text": "පුද්ගලයන් කිහිප දෙනෙකුට මේසයක් වටා එකට කරන ව්‍යාපෘති, සෑම කෙනෙකුටම කාර්යභාරයක් සමඟ."
       },
       {
-        "href": "/activities/printable/",
-        "title": "නොමිලේ මුද්‍රණය කළ හැකි ක්‍රියාකාරකම්",
-        "text": "විශාල අකුරු වචන සෙවුම්, වර්ණ ගැන්වීමේ පිටු, බින්ගෝ සහ සංවාද කාඩ්පත්."
+        "href": "/activities/ideas/",
+        "title": "ක්‍රියාකාරකම් අදහස් 101",
+        "text": "ඔබ සතුව ඇති දේ සහ ශක්තිය කොපමණ ඇත්ද යන්න අනුව වර්ග කළ සරල අදහස්."
       }
     ],
     "researchTitle": "මොළයේ සෞඛ්‍යය: පර්යේෂණය සැබවින් ම කියන දේ",
@@ -185,16 +226,16 @@
     "aboutApp": "යෙදුම ගැන",
     "faq": [
       {
-        "q": "ඩිමෙන්ශියා ඇති අය සඳහා හොඳ ක්‍රීඩා මොනවාද?",
-        "a": "හොඳ ක්‍රීඩා සරල, හුරු පුරුදු සහ පීඩනයෙන් තොරයි: ගැලපීමට විශාල පින්තූර, වර්ග කිරීම, පහසු ප්‍රහේලිකා, ප්‍රසිද්ධ කියමන් සම්පූර්ණ කිරීම, වර්ණ තැවීම, පින්තූර බින්ගෝ සහ සංවාද කාඩ්. හොඳම තේරීම වන්නේ අද පුද්ගලයා රසවිඳින එකයි. කාලමානක, ලකුණු සහ පරීක්ෂණයක් වැනි දැනෙන ඕනෑම දෙයකින් වළකින්න."
+        "q": "වැඩිහිටියන් සඳහා හොඳ ක්‍රීඩා මොනවාද?",
+        "a": "හොඳ ක්‍රීඩා සරල, හුරුපුරුදු සහ පීඩනයෙන් තොර ඒවා ය: ගැලපීමට විශාල චිත්‍ර, වර්ග කිරීම, පහසු ජිග්සෝ ප්‍රහේලිකා, හොඳින් දන්නා කියමන් අවසන් කිරීම, වර්ණ තැවීම, චිත්‍ර බින්ගෝ සහ සංවාද කාඩ්පත්. ඩිමන්ශියා සහිතව ජීවත් වන අය ඇතුළු බොහෝ වැඩිහිටියන්ට ඒවා ගැලපේ. හොඳම තේරීම වන්නේ අද පුද්ගලයාට ප්‍රිය වන එකයි. කාල මානක්, ලකුණු සහ පරීක්ෂණයක් වැනි හැඟීමක් ඇති ඕනෑම දෙයක් වළක්වන්න."
       },
       {
-        "q": "මේ ඩිමෙන්ශියා ක්‍රීඩා නොමිලේද?",
+        "q": "මේ ක්‍රීඩා නොමිලේද?",
         "a": "ඔව්. Creative Activities හි ඇති සෑම ක්‍රීඩාවක් සහ මුද්‍රණය කළ හැකි දෙයක්ම නොමිලේය. ගිණුමක්, ලියාපදිංචියක් හෝ බාගත කිරීමක් අවශ්‍ය නොවේ. ක්‍රීඩා ජංගම දුරකථනයේ, ටැබ්ලට් පරිගණකයේ හෝ පරිගණකයේ වෙබ් බ්‍රව්සරයෙන් ධාවනය වේ."
       },
       {
         "q": "මොළ ක්‍රීඩා ඩිමෙන්ශියාව වළක්වයිද?",
-        "a": "ඩිමෙන්ශියාව වළක්වන බව පෙන්වා ඇති ක්‍රීඩාවක් නැත, සහ Creative Activities කිසිවක් සුව කරන හෝ වළක්වන බවට හිමිකම් නොකියයි. අපගේ ක්‍රීඩා රසවින්දන සහ එකට කාලය ගත කිරීම සඳහා ය. අපගේ මොළයේ සෞඛ්‍ය කොටසෙහි පර්යේෂණ පෙන්වන දේ සහ නොපෙන්වන දේ පැහැදිලි කර ඇත."
+        "a": "ඩිමන්ශියාව වළක්වන බව පෙන්වා දුන් ක්‍රීඩාවක් නොමැති අතර, Creative Activities කිසිවක් සුව කරන හෝ වළක්වන බව ප්‍රකාශ නොකරයි. අපේ ක්‍රීඩා රසවිඳීම සහ එකට ගත කරන කාලය සඳහා වන අතර, කිසිදු ක්‍රියාකාරකම් පිටුවක සෞඛ්‍ය ප්‍රකාශයක් නොමැත."
       },
       {
         "q": "මේ ක්‍රීඩා ඇල්සයිමර් රෝගය ඇති අයට සුදුසුද?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities සාදන්නේ කවුද?",
-        "a": "Creative Activities යනු පවුල්වලට සහ රැකබලා ගන්නන්ට වෙබ් අඩවියෙන් සහ නොමිලේ යෙදුමක් ලෙස සන්සුන්, වැඩිහිටි පින්තූර ක්‍රියාකාරකම් සපයන කුඩා කණ්ඩායමකි. අපි වෛද්‍යවරු නොවෙමු, සහ මෙහි ඇති කිසිවක් වෛද්‍ය උපදෙසක් නොවේ."
+        "a": "Creative Activities යනු යමෙකු රැකබලා ගන්නා ඕනෑම කෙනෙකු සඳහා සන්සුන්, වැඩිහිටි නිර්මාණශීලී ක්‍රියාකාරකම් සාදන කුඩා කණ්ඩායමකි; එය වෙබ් අඩවියේ සහ නොමිලේ යෙදුමක් ලෙස ක්‍රියාත්මක වේ. අපි වෛද්‍යවරු නොවෙමු, මෙහි ඇති කිසිවක් වෛද්‍ය උපදෙසක් නොවේ."
+      }
+    ],
+    "groupsEyebrow": "ඔබේ මාර්ගය සොයා ගන්න",
+    "groupsTitle": "නිර්මාණශීලී ක්‍රියාකාරකම් වර්ග හතරක්",
+    "groupsLede": "ඔබ කා සමඟද සිටින්නේ සහ ඔබ සතුව කුමක් ඇත්ද යන්නට ගැලපෙන කණ්ඩායමෙන් ආරම්භ කරන්න. සෑම පිටුවකම පහසු අනුවාද සහ ආරක්ෂක සටහන් ඇත.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "අත්කම්",
+        "text": "කඩදාසි, තීන්ත, නැවත භාවිත කළ ද්‍රව්‍ය සහ සෘතුමය ව්‍යාපෘති, සෑම එකකටම පහසු අනුවාදයක් සමඟ.",
+        "label": "අත්කම් බලන්න"
+      },
+      {
+        "href": "/kids/",
+        "title": "ළමුන්",
+        "text": "දරුවන් සඳහා කලාව සහ ක්‍රීඩා, අසලින් වැඩිහිටියෙකු සහ පැහැදිලි ආරක්ෂක සටහන් සමඟ.",
+        "label": "ළමුන්ගේ ක්‍රියාකාරකම් බලන්න"
+      },
+      {
+        "href": "/together/",
+        "title": "එකට",
+        "text": "සංවාද, ප්‍රහේලිකා, පිට කාලය සහ පරම්පරා අතර සමීපව සිටීමේ ක්‍රම.",
+        "label": "එකට කළ හැකි දේවල් බලන්න"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "නිර්මාණශීලී සන්සුන්කම",
+        "text": "පෑන්සලක්, පිටුවක් හෝ ගීතයක් සමඟ මන්දගාමී, නිශ්ශබ්ද නිර්මාණ මොහොතන්. චිකිත්සාව නොවේ.",
+        "label": "නිර්මාණශීලී සන්සුන්කම බලන්න"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "මුද්‍රණය කළ හැකි",
     "play": "{name} ක්‍රීඩා කරන්න →",
     "readGuide": "මාර්ගෝපදේශය කියවන්න"
+  },
+  "listen": {
+    "listenSteps": "පියවර සවන් දෙන්න",
+    "pause": "විරාමය",
+    "resume": "නැවත ආරම්භ කරන්න",
+    "stop": "නවත්වන්න",
+    "speed": "වේගය",
+    "normal": "සාමාන්‍ය",
+    "slower": "මන්දගාමී",
+    "reading": "පියවර උච්චාරණය කරමින් කියවයි.",
+    "paused": "විරාමයි. දිගටම කරගෙන යාමට නැවත ආරම්භ කරන්න ඔබන්න.",
+    "note": "ඔබේ උපාංගයේම හඬ භාවිත කරයි. සමහර උපාංග පෙළ එහි නිෂ්පාදකයාට යවා එය කියවයි.",
+    "listen": "සවන් දෙන්න",
+    "stepLabel": "පියවර {n} සවන් දෙන්න",
+    "stopStep": "පියවර {n} නවත්වන්න"
   },
   "playCta": {
     "title": "සැහැල්ලු ක්‍රීඩාවකට සූදානම්ද?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "ක්‍රියාකාරකම්",
-      "title": "ඩිමෙන්ශියා ඇති අයට ක්‍රියාකාරකම්",
-      "seo": "ඩිමෙන්ශියා ඇති අයට ක්‍රියාකාරකම්: අදියර අනුව අදහස්",
-      "description": "ඩිමෙන්ශියාව සහිත පුද්ගලයන්ට සෑම අදියරකම ගැලපෙන ක්‍රියාකාරකම් අදහස්: සංගීතය, මතක අවදි කිරීම, දෛනික කාර්යයන්, ඉන්ද්‍රිය අත්දැකීම්, අත්කම්, පිටත ස්වභාවය සහ නොමිලේ මුද්‍රණය කළ හැකි දේ.",
-      "lede": "අර්ථවත් ක්‍රියාකාරකමක් යනු සහනයක්, අරමුණක් හෝ සම්බන්ධතාවයේ මොහොතක් ගෙන එන ඕනෑම දෙයකි. පුද්ගලයා රසවින්දේ කුමක්ද යන්නෙන් ආරම්භ කර, අද දිනයට ගැලපෙන ලෙස සකස් කරන්න."
+      "label": "ක්‍රියාකාරකම් මාර්ගෝපදේශ",
+      "title": "ක්‍රියාකාරකම් මාර්ගෝපදේශ",
+      "seo": "ක්‍රියාකාරකම් මාර්ගෝපදේශ: අදහස්, කලා ද්‍රව්‍ය සහ ආරම්භ කිරීමේ ක්‍රම",
+      "description": "යමෙකු සමඟ කළ හැකි නිර්මාණශීලී ක්‍රියාකාරකම් පිළිබඳ සරල මාර්ගෝපදේශ: සරල අදහස්, අයවැයට ගැළපෙන කලා ද්‍රව්‍ය, කණ්ඩායම් කලාව, ලිපි, මතකයන් සහ කලා චිකිත්සාව පැහැදිලි කිරීම.",
+      "lede": "ඕනෑම වයසක හෝ හැකියාවක අයෙකු සමඟ ක්‍රියාකාරකමක් තෝරා ආරම්භ කිරීම සඳහා කෙටි, ප්‍රායෝගික මාර්ගෝපදේශ."
+    },
+    "crafts": {
+      "label": "අත්කම්",
+      "title": "සියලු වයස්වලට අත්කම්",
+      "seo": "සියලු වයස්වලට පහසු අත්කම්, පහසු අනුවාද සහිතව",
+      "description": "වැඩිහිටියන්, දරුවන් සහ පවුල් සඳහා පහසු අත්කම්: කඩදාසි, වර්ණ තැවීම, නැවත භාවිත කළ සහ සෘතුමය අත්කම්, ගැනීමට පහසු සහ අසුනේ වාඩි වී කළ හැකි අනුවාද සමඟ, විශේෂ කුසලතාවක් නොමැතිව.",
+      "lede": "බොහෝ ගෘහස්ථ භාණ්ඩ වලින් ආරම්භ වන අත්කම්, සෑම එකකටම පහසු අනුවාදයක් සමඟ, එවිට ඕනෑම කෙනෙකුට යමක් තැනිය හැකිය."
+    },
+    "kids": {
+      "label": "ළමුන්",
+      "title": "ළමුන් සඳහා නිර්මාණශීලී ක්‍රියාකාරකම්",
+      "seo": "ළමුන් සඳහා නිර්මාණශීලී ක්‍රියාකාරකම්: කලාව, සංවේදී සහ සන්සුන්",
+      "description": "දරුවන් සඳහා නිර්මාණශීලී ක්‍රියාකාරකම්: කුඩා දරුවන්ගේ කලාව, ක්‍රියාවලි කලාව, සංවේදී ක්‍රීඩා, වර්ෂා දින අත්කම් සහ සන්සුන් වීමේ අදහස්, ආරක්ෂක සටහන් සහ සංවේදී අවශ්‍යතා සඳහා අනුවාද සමඟ.",
+      "lede": "විවිධ වයස් සහ අවශ්‍යතා ඇති දරුවන් සඳහා කලා සහ ක්‍රීඩා අදහස්, පැහැදිලි ආරක්ෂක සටහන් සහ අසලින් වැඩිහිටියෙකු සමඟ."
+    },
+    "together": {
+      "label": "එකට",
+      "title": "එකට කළ හැකි ක්‍රියාකාරකම්",
+      "seo": "පරම්පරා අතර එකට කළ හැකි ක්‍රියාකාරකම්",
+      "description": "පරම්පරා දෙකක් හෝ ඊට වැඩි ගණනකට ක්‍රියාකාරකම්: සංවාද ක්‍රීඩා, ප්‍රහේලිකා, පිට කාලය, සීයා-නානා සහ මුණුබුරන් සඳහා අත්කම්, සහ දුරින් සිටියද සමීපව සිටීමේ ක්‍රම.",
+      "lede": "මව, සීයා, දරුවා හෝ මිතුරෙකු සමඟ කාලය බෙදා ගැනීමට අදහස්, ගෙදර, පිටතදී, සංචාරයකදී හෝ දුරින්."
+    },
+    "creative-calm": {
+      "label": "නිර්මාණශීලී සන්සුන්කම",
+      "title": "නිර්මාණශීලී සන්සුන්කම",
+      "seo": "නිර්මාණශීලී සන්සුන්කම: හෙමින් සැහැල්ලු වීමට සන්සුන් කලාව සහ ක්‍රියාකාරකම්",
+      "description": "වැඩිහිටියන් සහ රැකබලා ගන්නන් සඳහා සැහැල්ලු නිර්මාණශීලී ක්‍රියාකාරකම්: අවධානයෙන් කරන කලාව, දිනපොත් ලිවීම, සංගීතය, සංවේදී මොහොතන් සහ සන්සුන් සන්ධ්‍යාවන්. නිර්මාණශීලී ක්‍රියාකාරකම්, චිකිත්සාව නොවේ.",
+      "lede": "පෑන්සලක්, පිටුවක් හෝ ගීතයක් සමඟ හෙමින් වීමට මෘදු ක්‍රම. මේවා නිර්මාණශීලී ක්‍රියාකාරකම් වන අතර, චිකිත්සාව නොවේ, සහ කිසිදු කුසලතාවක් ඉල්ලන්නේ නැත."
     },
     "caregiving": {
-      "label": "රැකබලා ගැනීම",
-      "title": "රැකබලා ගැනීමේ මාර්ගෝපදේශ",
-      "seo": "ඩිමෙන්ශියා රැකබලා ගැනීමේ මාර්ගෝපදේශ: දෛනික ප්‍රායෝගික උදව්",
-      "description": "ඩිමෙන්ශියා රැකබලා ගන්නන් සඳහා ප්‍රායෝගික, කරුණාවන්ත මාර්ගෝපදේශ: එකට ක්‍රීඩා කිරීම, සන්නිවේදනය, ප්‍රතික්ෂේප කිරීම්, දවසේ අවසානයේ නොසන්සුන්කම, ටැබ්ලට්, යෙදුම් තේරීම සහ ස්වයං රැකවරණය.",
-      "lede": "ඩිමෙන්ශියාව ඇති කෙනෙකු රැකබලා ගැනීමේ දෛනික මොහොත් සඳහා, ඔබම ඔබ ගැන සැලකිලිමත් වීම ඇතුළුව, සරල ප්‍රායෝගික උදව්."
+      "label": "ස්මෘති රෝග සත්කාරය",
+      "title": "ස්මෘති රෝගයෙන් පෙළෙන අයෙකු රැකබලා ගැනීම",
+      "seo": "ස්මෘති රෝගයෙන් පෙළෙන අයෙකු රැකබලා ගැනීම: ක්‍රියාකාරකම් සහ උපකාර",
+      "description": "ස්මෘති රෝගයෙන් පෙළෙන අයෙකු රැකබලා ගන්නා පවුල් සඳහා මාර්ගෝපදේශ: එකට ක්‍රීඩා කරන ආකාරය, ඔවුන් නැත කියන විට කළ යුතු දේ, සහ රෝග විනිශ්චයෙන් පසු විශ්වාසදායක උපකාර සොයා ගන්නා ආකාරය.",
+      "lede": "ස්මෘති රෝගයෙන් පෙළෙන ප්‍රියජනයෙකු රැකබලා ගන්නා පවුල් සඳහා ක්‍රියාකාරකම් මුලින් තබන උපදෙස්, සහ වෛද්‍ය හා රැකවරණ උපදෙස් සඳහා යා යුතු තැන."
     },
     "brain-health": {
       "label": "මොළයේ සෞඛ්‍යය",
@@ -283,7 +396,16 @@
     "tryTogether": "එකට උත්සාහ කරන්න",
     "relatedGuides": "අදාළ මාර්ගෝපදේශ",
     "related": "අදාළ",
-    "startHere": "මෙතැනින් ආරම්භ කරන්න"
+    "startHere": "මෙතැනින් ආරම්භ කරන්න",
+    "staleAria": "පරිවර්තනය කල් ඉකුත් වී ඇත",
+    "staleTitle": "මෙම පරිවර්තනය කල් ඉකුත් වී ඇත",
+    "staleText": "එය ඉංග්‍රීසි පිටුවේ පෙර අනුවාදයකින් සාදන ලද අතර, එතැන් සිට එම පිටුව වෙනස් වී ඇත. වත්මන් පිටුව ඉංග්‍රීසි පිටුවයි.",
+    "staleHealth": "මෙහි ඇත්තේ සෞඛ්‍ය තොරතුරුය, එබැවින් ක්‍රියා කිරීමට පෙර ඉංග්‍රීසි පිටුව පරීක්ෂා කර වෛද්‍යවරයෙකු හෝ හෙදියක සමඟ කතා කරන්න.",
+    "staleLink": "වත්මන් ඉංග්‍රීසි පිටුව කියවන්න"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "සෞඛ්‍ය තොරතුරු දැනුම්දීම",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "මතක පරීක්ෂණයක් නොව, එක්ව කරන ක්‍රියාකාරකමක්",
+      "title": "පොදු ක්‍රියාකාරකමක්, පරීක්ෂණයක් නොවේ",
       "seoTitle": "Creative Activities ගැන: අපගේ ප්‍රවේශය",
-      "description": "Creative Activities ක්‍රීඩාවල කාලමානක, ලකුණු හෝ අඛණ්ඩ දින ගණන් නොමැත්තේ ඇයි, පින්තූර පෙනෙන සේ තිබෙන්නේ ඇයි, සහ ඩිමෙන්ශියා ගැන අපි කුමක් කියමුද සහ නොකියමුද යන්න.",
+      "description": "Creative Activities හි කාල මානක, ලකුණු හෝ දිනපතා අඛණ්ඩ ජයග්‍රහණ නොමැත්තේ ඇයි, චිත්‍ර දිගටම පෙන්වා තිබෙන්නේ ඇයි, සහ සෞඛ්‍ය ගැන අප කියන සහ නොකියන දේ.",
       "crumb": "අපගේ ප්‍රවේශය",
-      "lede": "Creative Activities මගින් රැකබලා ගන්නෙකුට සහ ඩිමෙන්ශියාව ඇති පුද්ගලයෙකුට එකට රසවිඳිය හැකි සන්සුන්, වැඩිහිටි පින්තූර ක්‍රියාකාරකම් සපයයි.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "අනුග්‍රාහකයින් සහ හවුල්කරුවන්",
+        "none": "Creative Activities සතු අනුග්‍රාහකයින් නොමැත, ගෙවුම් ලත් ස්ථාන නොමැත, අඩවියේ ලාංඡන පෙන්වන හවුල්කරුවන් ද නොමැත.",
+        "listed": "මේවා Creative Activities හි අනුග්‍රාහකයින් සහ හවුල්කරුවන් ය. එක් එක් සම්බන්ධතාවය, එය දිස්වන පිටුවේ ද හෙළි කර ඇත.",
+        "policy": "එය වෙනස් වුවහොත්, එවැනි එක් එක් පිටුව එය දිස්වන තැන එය කියනු ඇත, කිසිදු ක්‍රියාකාරකමක් කිසිදා අනුග්‍රාහකයෙකු ඇතිව නොයනු ඇත, සහ හවුල්කරුවන්ගේ ලැයිස්තුව මෙම පිටුවේ තබනු ඇත.",
+        "listHeading": "හවුල්කරුවන්ගේ ලැයිස්තුව",
+        "noPartners": "දැනට හවුල්කරුවන් නොමැත."
+      },
+      "lede": "Creative Activities මගින් දෙදෙනෙකුට එකට පැත්තෙන් පැත්තට සිට රසවිඳිය හැකි, සන්සුන් වැඩිහිටි ක්‍රියාකාරකම් නිර්මාණය කරයි. එක් අයෙක් අනෙකා රැකබලා ගන්නවා වුවද, හෝ ඔවුන් සරලව එකට කාලය ගත කිරීමට කැමති වුවද.",
+      "bodyHtml": "<h2>මෙය කා සඳහාද</h2><p>යම් අයෙකු රැකබලා ගන්නා ඕනෑම අයෙකු සඳහා: දෙමාපියෙක්, සීයා හෝ ආච්චි, දරුවෙක්, සහකරුවෙක්, මිතුරෙක්, හෝ ස්මෘති රෝගයෙන් පෙළෙන අයෙක්. පවුල්, වැඩිහිටියන් සහ ක්‍රියාකාරකම් කාර්ය මණ්ඩලය සියල්ලටම එම පිටු භාවිත කළ හැක.</p><h2>අප විශ්වාස කරන දේ</h2><p>ක්‍රියාකාරකමක අරමුණ ඒ මොහොතයි: සංවාදයක්, සිනහවක්, චිත්‍ර දෙකක් එකට ගැලපීමේ තෘප්තියක්, හෝ සරලව එකට ළඟින් වාඩි වීම. එය කිසිවෙකු මැනීමට, තව දුරටත් තල්ලු කිරීමට හෝ යමක් ඔප්පු කිරීමට නොවේ.</p><p>බොහෝ මොළය පුහුණු කරන යෙදුම් නිර්මාණය කර ඇත්තේ වේගය, ලකුණු, දිනපතා අඛණ්ඩ ජයග්‍රහණ සහ මට්ටම් වටා ය. වෙහෙසට පත් වූ, සනීප නොවන, හෝ ස්මෘති රෝගයෙන් පෙළෙන අයෙකුට එය සමත් විය නොහැකි විභාගයක් මෙන් දැනිය හැක. අපි ප්‍රතිවිරුද්ධ දෙය නිර්මාණය කර ඇති අතර, මෙම නීතිවලට අපම කැප වී සිටිමු:</p><ul><li><strong>අසමත් වීමට කිසිවක් නැත.</strong> කිසිදු තිරයක, ඔරලෝසුවක්, ලකුණු, චලන ගණකයක්, ජීවිත, දිනපතා අඛණ්ඩ ජයග්‍රහණ, කොන්ෆෙටි හෝ පසු-ගණනයක් නැත.</li><li><strong>මතක් කිරීමට වඩා හඳුනා ගැනීම.</strong> චිත්‍ර පෙරනිමියෙන් දිගටම පෙන්වයි. ඉඟි සංවාදයට ආරාධනා කරන අතර නම් හෝ මතකයන් ගැන ප්‍රශ්න නොකරයි.</li><li><strong>විශාල, සරල සහ ස්ථාවර.</strong> විශාල අකුරු සහ චිත්‍ර, ඉහළ වෙනසක් සහිත වර්ණ, සහ එකම ස්ථානයේ රැඳෙන පාලන.</li><li><strong>වැඩිහිටි ගෞරවය.</strong> සැබෑ ලෝකයේ චිත්‍ර සහ සරල, උණුසුම් වචන. කාටූන්, ගීතමය ප්‍රශංසා හෝ ඉමොජි ත්‍යාගයන් නැත.</li><li><strong>පහසු පිටවීමක්.</strong> “දැනට නවතිමි” සැමවිටම දෘශ්‍යමානයි. මැදදී නැවතීම හොඳ ප්‍රතිඵලයකි.</li><li><strong>පෙරනිමියෙන් පෞද්ගලික.</strong> ගිණුම් හෝ දැන්වීම් නැත. ඔබ තෝරන ඡායාරූප ඔබේ උපාංගයේ රැඳේ.</li></ul><h2>අප නොකියන දේ</h2><p>අපේ ක්‍රීඩා සහ ක්‍රියාකාරකම් අමන්දානන්දය සහ සම්බන්ධතාවය සඳහාය. ඒවා ස්මෘති රෝගය හෝ ඇල්ස්හයිමර් රෝගය හඳුනාගන්නේ, පරීක්ෂා කරන්නේ, මනින්නේ, ප්‍රතිකාර කරන්නේ, මන්දගාමී කරන්නේ හෝ වළක්වන්නේ නැත, ඒ හේතුව නිසා කිසිවෙකු ඒවා තෝරා නොගත යුතුය. සෞඛ්‍ය පර්යේෂණ ගැන ලිවීමේදී, සාක්ෂි දුර්වල වන්නේ කොතැනද යන්න අපි පැහැදිලිව කියමු, සහ එය කිසිදා අපගේ ක්‍රියාකාරකම්වලට සම්බන්ධ නොකරමු.</p><h2>අප කවුද</h2><p>Creative Activities යනු කුඩා ස්වාධීන කණ්ඩායමකි. අපි වෛද්‍යවරුන් නොවෙමු. අපගේ මාර්ගෝපදේශ National Institute on Aging සහ Alzheimer’s Association වැනි සංවිධානවල ප්‍රකාශිත මාර්ගෝපදේශ මත ලියා ඇති අතර, සෑම මාර්ගෝපදේශයකම එහි මූලාශ්‍ර ලැයිස්තුගත කර ඇත. <a href=\"/editorial-policy/\">අපි අපගේ පිටු ලියන සහ පරීක්ෂා කරන ආකාරය</a> කියවන්න.</p><h2>උපකාර වන දේ අපට කියන්න</h2><p>ඔබට වැඩ කරන දේ සහ වැඩ නොකරන දේ අපට දැනගැනීමට ඕනෑය, විශේෂයෙන් ස්මෘති රෝගයෙන් පෙළෙන අය, පවුලේ රැකබලා ගන්නන් සහ ක්‍රියාකාරකම් කාර්ය මණ්ඩලයෙන්. <a href=\"mailto:{email}\">{email}</a> වෙත ඊමේල් කරන්න.</p>"
     },
     "editorial": {
       "title": "අපි අපේ පිටු ලියන සහ පරීක්ෂා කරන ආකාරය",
       "seoTitle": "සංස්කරණ ප්‍රතිපත්තිය",
-      "description": "Creative Activities ඩිමෙන්ශියා ක්‍රියාකාරකම් සහ මොළයේ සෞඛ්‍ය පිටු පර්යේෂණය, ලිවීම, මූලාශ්‍ර දැක්වීම සහ යාවත්කාලීන කරන ආකාරයත්, අප කිසි විටෙක ප්‍රකාශ නොකරන දේත්.",
+      "description": "Creative Activities ක්‍රියාකාරකම් සහ සෞඛ්‍ය පිටු පර්යේෂණය, ලිවීම, මූලාශ්‍ර සැපයීම සහ යාවත්කාලීන කරන ආකාරය, සහ අප කිසිදා ප්‍රකාශ නොකරන දේ.",
       "crumb": "සංස්කරණ ප්‍රතිපත්තිය",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "ප්‍රශ්න සහ පිළිතුරු",
-      "seoTitle": "ඩිමෙන්ශියා ක්‍රීඩා සහ ක්‍රියාකාරකම්: ප්‍රශ්න සහ පිළිතුරු",
-      "description": "ඩිමෙන්ශියා ක්‍රීඩා සහ ක්‍රියාකාරකම් ගැන පොදු ප්‍රශ්නවලට පිළිතුරු: කුමන ක්‍රීඩා උත්සාහ කළ යුතුද, කොපමණ වෙලාවක් ගත කළ යුතුද, පසු අවස්ථාවල අදහස්, මොළයේ සෞඛ්‍යය සහ පෞද්ගලිකත්වය.",
+      "seoTitle": "Creative Activities ගැන ප්‍රශ්න සහ පිළිතුරු",
+      "description": "ක්‍රීඩා සහ ක්‍රියාකාරකම් ගැන පොදු ප්‍රශ්නවලට පිළිතුරු: කුමක් උත්සාහ කළ යුතුද, කොපමණ වේලාවක් ක්‍රීඩා කළ යුතුද, කණ්ඩායම් සහ පසු-අවස්ථාවේ අදහස්, සෞඛ්‍ය සහ පෞද්ගලිකත්වය.",
       "crumb": "ප්‍රශ්න සහ පිළිතුරු",
       "lede": "රැකබලා ගන්නන් වැඩියෙන්ම අසන ප්‍රශ්නවලට කෙටි, සරල පිළිතුරු.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "ක්‍රීඩා ගැන",
           "items": [
             {
-              "q": "ඩිමෙන්ශියාව ඇති කෙනෙකුට හොඳම ක්‍රීඩා මොනවාද?",
+              "q": "වැඩිහිටියන් සඳහා හොඳම ක්‍රීඩා මොනවාද?",
               "a": "හොඳම ක්‍රීඩා හුරු පුරුදු, සරල සහ පීඩනයෙන් තොර ඒවායි, සහ නිවැරදි එක වන්නේ අද එම පුද්ගලයාට රිසි දෙයයි. දෘශ්‍යමාන චිත්‍ර සමඟ චිත්‍ර ගැලපීම, වර්ග කිරීම, පහසු ජිගසෝ, හුරු කියමන් සම්පූර්ණ කිරීම, වර්ණ ගැන්වීම සහ චිත්‍ර බින්ගෝ බොහෝ දෙනෙකුට හොඳින් ගැළපේ. කාල ඔරලෝසු, ලකුණු සහ පරීක්ෂණයක් වැනි දැනෙන ඕනෑම දෙයකින් වළකින්න."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "මොළයේ සෞඛ්‍යය",
+          "title": "ස්මෘති රෝගය සහ සෞඛ්‍ය",
           "items": [
             {
               "q": "ක්‍රීඩා මගින් ඩිමෙන්ෂියාව වැළැක්වීමට හෝ මන්දගාමී කළ හැකිද?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "වැඩි විස්තර: <a href=\"/caregiving/how-to-play-together/\">එකට ක්‍රීඩා කරන ආකාරය</a>, <a href=\"/caregiving/when-they-say-no/\">ඔවුන් නැත කියන විට</a>, <a href=\"/activities/late-stage/\">පසු-අවස්ථාවේ ක්‍රියාකාරකම්</a> සහ <a href=\"/dementia-activities/\">ගෙදර ස්මෘති රෝග ක්‍රියාකාරකම්</a>."
     },
     "handout": {
       "title": "ඩිමෙන්ෂියා සහිත පුද්ගලයින් සඳහා නොමිලේ, මෘදු ක්‍රීඩා",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "රැකවරණ නිවාස, පුස්තකාල සහ සහාය කණ්ඩායම් සඳහා",
-      "seoTitle": "වැඩිහිටි නිවාසවලට සහ කණ්ඩායම්වලට නොමිලේ ඩිමෙන්ශියා ක්‍රියාකාරකම්",
-      "description": "වැඩිහිටි නිවාස, වැඩිහිටි දින වැඩසටහන්, පුස්තකාල, වැඩිහිටි සේවා ආයතන සහ සහාය කණ්ඩායම් අපගේ නොමිලේ ඩිමෙන්ශියා ක්‍රීඩා භාවිත කරන ආකාරයත්, සම්පත් ලැයිස්තුවකට අප එක් කිරීම සඳහා පෙළත් මෙහි ඇත.",
+      "seoTitle": "රැකවරණ නිවාස, පුස්තකාල සහ කණ්ඩායම් සඳහා නොමිලේ ක්‍රියාකාරකම්",
+      "description": "රැකවරණ නිවාස, දිනපතා වැඩසටහන්, පුස්තකාල, වැඩිහිටි ආයතන සහ සහාය කණ්ඩායම් අපගේ නොමිලේ ක්‍රීඩා සහ ක්‍රියාකාරකම් මාර්ගෝපදේශ භාවිත කරන ආකාරය, සහ සම්පත් ලැයිස්තුවකට අප එක් කිරීම සඳහා පෙළ.",
       "crumb": "ආයතන සඳහා",
       "lede": "මෙම වෙබ් අඩවියේ ඇති සියල්ල නවාතැන්ගත වන්නන්, සාමාජිකයන් සහ සේවාලාභීන් සමඟ නොමිලේ භාවිත කළ හැකිය. ගිණුමක්, බලපත්‍රයක් හෝ ගාස්තුවක් අවශ්‍ය නොවේ. මෙම පිටුව මෙහි ඇති දේ සහ එය බෙදාගන්නේ කෙසේද යන්න පැහැදිලි කරයි.",
-      "shortText": "{name}: ඩිමෙන්ශියා සහිත පුද්ගලයන් සහ ඔවුන්ව රැකබලා ගන්නන් සඳහා නොමිලේ, සැහැල්ලු චිත්‍ර ක්‍රීඩා සහ ක්‍රියාකාරකම් මාර්ගෝපදේශ. ලියාපදිංචියක් නැත, කාල සීමා නැත, ලකුණු නැත.",
-      "longText": "{name} ({domain}) ඩිමෙන්ශියා සහිත පුද්ගලයන් සඳහා සාදන ලද නොමිලේ බ්‍රවුසර ක්‍රීඩා {count}ක් ඉදිරිපත් කරයි. ඒවාට පින්තූර දෘශ්‍යමානව තබන පින්තූර යුගල ගැලපීම, සරල ජිග්සෝ ප්‍රහේළිය, වර්ග කිරීම, දන්නා කියමන් සහ මුද්‍රණය කළ හැකි කාඩ්පත් සහිත චිත්‍ර බින්ගෝ ඇතුළත් වේ. ගිණුමක්, දැන්වීම්, කාල මානයක් හෝ ලකුණු නැත. වෙබ් අඩවියේ ඩිමෙන්ශියාවේ සෑම අවස්ථාවක් සඳහාම සරල භාෂාවෙන් ලියැවුණු ක්‍රියාකාරකම් මාර්ගෝපදේශද ඇති අතර, ඒවා National Institute on Aging සහ Alzheimer's Association වෙත යොමු කරයි.",
+      "shortText": "{name}: වැඩිහිටියන්, පවුල් සහ ස්මෘති රෝගයෙන් පෙළෙන අය සඳහා නොමිලේ, මෘදු චිත්‍ර ක්‍රීඩා සහ ක්‍රියාකාරකම් මාර්ගෝපදේශ. ලියාපදිංචියක් නැත, ඔරලෝසු නැත, ලකුණු නැත.",
+      "longText": "{name} ({domain}) දෙයාට නොමිලේ බ්‍රවුසර් ක්‍රීඩා {count} ක් ඉදිරිපත් කරයි. ඒවා වැඩිහිටියන්, පවුල් සහ ඩිමෙන්ශියාව සහිතව ජීවත් වන පුද්ගලයින් සඳහා ය. ඒවාට චිත්‍ර පෙනෙන්නට තිබෙන විට යුගල ගැලපීම, පහසු ප්‍රහේලිකා, වර්ග කිරීම, පරිචිත කියමන් සහ මුද්‍රණය කළ හැකි කාඩ්පත් සහිත චිත්‍ර බින්ගෝ ඇතුළත් වේ. ගිණුමක් නැත, වීදුරු ප්‍රචාරණ නැත, කාල මානකයක් හෝ ලකුණු නැත. මෙම වෙබ් අඩවියේ පවුල්වලට, වැඩිහිටියන්ට සහ කාර්ය මණ්ඩලයට සඳහා සරල භාෂාවෙන් ලියන ලද ක්‍රියාකාරකම් මාර්ගෝපදේශ ද ඇත. ඒවායේ ජාතික වැඩිහිටි ආයතනය (National Institute on Aging) සහ Alzheimer's Association වැනි මූලාශ්‍ර ඇතුළත් වේ.",
       "useTitle": "සංවිධානවලට භාවිත කළ හැකි දේ",
       "gamesItemHtml": "<strong>බ්‍රවුසර ක්‍රීඩා {count}</strong> ලැප්ටොප්, ටැබ්ලට් හෝ පරිගණකයකට සම්බන්ධ රූපවාහිනියක ධාවනය වේ. ස්ථාපනය, ගිණුම හෝ බාගැනීම අවශ්‍ය නොවේ. <a href=\"/games/\">සියලුම ක්‍රීඩා</a> බලන්න.",
       "printablesLabel": "මුද්‍රණය කළ හැකි {count}:",
       "printablesAfter": "එක් එක් පිටුවේ මුද්‍රණ බොත්තම භාවිත කරන්න.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>කණ්ඩායම් ආකෘති:</strong> <a href=\"/games/picture-bingo/\">චිත්‍ර බින්ගෝ</a> හි මුද්‍රණය කළ හැකි කාඩ්පත් සහ තිරයේ ඇමතුම්කරු ඇත. <a href=\"/together/conversation-games-for-all-ages/\">සංවාද ක්‍රීඩා</a> හි පිළිතුරු තේරීම් සහිත ප්‍රශ්න සහ සාකච්ඡා කිරීමට කරුණු ඇත.</li><li><strong>ක්‍රියාකාරකම් මාර්ගෝපදේශ</strong> කාර්ය මණ්ඩලය සහ පවුල් සඳහා, මූලාශ්‍ර සහිත සරල භාෂාවෙන් ලියා ඇත. <a href=\"/activities/ideas/\">ක්‍රියාකාරකම් අදහස් 101</a> හෝ <a href=\"/crafts/craft-group-sessions/\">රැකවරණ නිවාසවල කණ්ඩායම් ක්‍රියාකාරකම්</a> වලින් ආරම්භ කරන්න.</li>",
       "restHtml": "<h2>කණ්ඩායම් එය භාවිත කරන ආකාරය</h2><ul><li><strong>වැඩිහිටි නිවාස සහ මතක රැකවරණය:</strong> පොදු කාමරයේ රූපවාහිනියේ චිත්‍ර බින්ගෝ හෝ කියමන සම්පූර්ණ කිරීමේ ක්‍රීඩාව, එක් අයෙක් කණ්ඩායම වෙනුවෙන් ස්පර්ශ කරමින්.</li><li><strong>වැඩිහිටි දින වැඩසටහන්:</strong> කෙටි තනි-එක-එකෙන් සැසි සඳහා, ටයිල් හතරකට සකසන ලද චිත්‍ර යුගල සහිත ටැබ්ලට් ස්ථානයක්.</li><li><strong>මහජන පුස්තකාල:</strong> මතක උපකරණ පෙට්ටිවල මුද්‍රිත වචන සෙවුම් සහ සංවාද කාඩ්පත්, සහ පුස්තකාල ටැබ්ලට්වල වෙබ් අඩවිය පොත් සලකුණු කර ඇත.</li><li><strong>රැකබලා ගන්නන්ගේ සහාය කණ්ඩායම් සහ මතක කැෆේ:</strong> පවුලට ගෙදර ගෙන යාම සඳහා <a href=\"/handout/\">එක් පිටුවක මුද්‍රිත හැන්ඩවුට්</a>.</li><li><strong>රෝහල් සහ පිටවීම් සැලසුම්කරුවන්:</strong> රැකබලා ගන්නන්ගේ පැකට් වලට හැන්ඩවුට් ඇතුළත් කරන්න, ගෙදරදී හෝ රැකබලා ගන්නා පුද්ගලයා ළඟ සන්සුන් ක්‍රියාකාරකමක් සඳහා.</li></ul><h2>අප නොකරන දේ</h2><p>ක්‍රීඩා ඇත්තේ විනෝදය සහ එකට ගත කරන කාලය සඳහාය. ඒවා ඩිමෙන්ශියාව හඳුනා ගැනීම, පරීක්ෂා කිරීම, ලකුණු කිරීම, ප්‍රතිකාර කිරීම හෝ මන්දගාමී කිරීම නොකරයි, සහ සංවිධානවලින් ඒවා එසේ විස්තර නොකරන ලෙස අපි ඉල්ලා සිටිමු. දැන්වීම් නැත, ක්‍රීඩා නම්, සෞඛ්‍ය තොරතුරු හෝ ඡායාරූප උඩුගත කරන ලෙස ඉල්ලන්නේ නැත. වෙබ් අඩවියට පැමිණීම් ගණන් කිරීමට වෙබ් අඩවිය Google Analytics භාවිත කරයි; එය රැස් කරන දේ <a href=\"/privacy/\">පෞද්ගලිකත්ව දැන්වීම</a> තුළ පැහැදිලි කර ඇත. <a href=\"/games/photo-pairs/\">ඡායාරූප යුගල</a> හි භාවිත කරන ඡායාරූප බ්‍රවුසරය තුළ පවතී.</p><h2>සම්පත් ලැයිස්තුවට අප එක් කරන්න</h2><p>රැකබලා ගන්නන් සඳහා සම්පත් ලැයිස්තුවක් ඔබ තබා ගන්නේ නම්, <a href=\"/\">{domain}</a> වෙත සබැඳි කිරීමට ඔබට සාදරයෙන් ආරාධනා කරමු. ඕනෑම විස්තරයක් ඔබට පිටපත් කළ හැකිය.</p>",
       "shortTitle": "කෙටි විස්තරය",
       "longTitle": "දිගු විස්තරය",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>කෙලින්ම සබැඳි කළ හැකි ප්‍රයෝජනවත් පිටු: <a href=\"/games/\">නොමිලේ ක්‍රීඩා</a>, <a href=\"/games/\">නොමිලේ මුද්‍රණ ද්‍රව්‍ය</a>, <a href=\"/dementia-activities/\">ගෙදර ඩිමෙන්ශියා ක්‍රියාකාරකම්</a> සහ <a href=\"/caregiving/how-to-play-together/\">එකට ක්‍රීඩා කරන ආකාරය</a>.</p><h2>ප්‍රශ්න හෝ නිවැරදි කිරීම්</h2><p>අඩවියේ යම් දෙයක් වැරදි හෝ නොපැහැදිලි නම්, හෝ නවාතැන්පළේ පදිංචිකරුවෙකුගේ අවශ්‍යතා මෙහි ඇති දෙයෙන් සපුරා නොමැති නම්, කරුණාකර <a href=\"mailto:{email}\">{email}</a> වෙත අපට දන්වන්න. කරුණාකර පදිංචිකරුවන් හෝ සේවාලාභීන් ගැන පුද්ගලික හෝ සෞඛ්‍ය තොරතුරු යවන්න එපා.</p>"
     },
     "app": {
       "title": "Creative Activities යෙදුම",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "නොමිලේ ඩිමෙන්ශියා සහ අල්සයිමර් ක්‍රීඩා මාර්ගගත",
-    "description": "ඩිමෙන්ශියාව හෝ අල්සයිමර් සමඟ ජීවත් වන වැඩිහිටියන් සඳහා නොමිලේ මාර්ගගත ක්‍රීඩා: පින්තූර ගැලපීම, පහසු ප්‍රහේලිකා, වර්ගීකරණය, කියමන්, වර්ණ ගැන්වීම, බින්ගෝ. ලියාපදිංචියක්, කාල මානයක් හෝ ලකුණු නැත.",
+    "title": "එකට ඔන්ලයින් ක්‍රීඩා කිරීමට නොමිලේ ක්‍රීඩා",
+    "description": "වැඩිහිටියන්, පවුල් සහ ඩිමෙන්ශියාව සහිතව ජීවත් වන පුද්ගලයින් සඳහා නොමිලේ ඔන්ලයින් ක්‍රීඩා: චිත්‍ර ගැලපීම, පහසු ප්‍රහේලිකා, වර්ග කිරීම, කියමන්, වර්ණ තැබීම සහ බින්ගෝ. ලියාපදිංචියක්, කාල මානක හෝ ලකුණු නැත.",
     "crumb": "ක්‍රීඩා",
-    "h1": "ඩිමෙන්ශියාව සහිත පුද්ගලයින් සඳහා සැහැල්ලු ක්‍රීඩා",
+    "h1": "එකට ක්‍රීඩා කිරීමට සෞම්‍ය ක්‍රීඩා",
     "lede": "ඔබේ බ්‍රවුසරයේ එකට සෙල්ලම් කිරීමට නොමිලේ ක්‍රීඩා {count}ක්. විශාල පින්තූර, සරල වචන, සහ අසමත් වීමට කිසිවක් නැත: කාල මානය නැත, ලකුණු නැත, ලියාපදිංචියක් නැත.",
-    "listName": "ඩිමෙන්ශියාව සහිත පුද්ගලයින් සඳහා සැහැල්ලු ක්‍රීඩා",
+    "listName": "එකට ක්‍රීඩා කිරීමට සෞම්‍ය ක්‍රීඩා",
     "byStageTitle": "අවස්ථාව අනුව ක්‍රීඩාවක් තේරීම",
     "byStageLede": "අවස්ථා යනු රළු මාර්ගෝපදේශයක් පමණි. පුද්ගලයාට රුචි දේ සහ අද සුවපහසු දේ අනුගමනය කරන්න.",
     "stageCol": "අවස්ථාව",
     "gamesCol": "බොහෝ විට ගැලපෙන ක්‍රීඩා",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "තිරයෙන් ඈත ඇති තවත් අදහස්: <a href=\"/activities/ideas/\">ක්‍රියාකාරකම් අදහස් 101</a>, <a href=\"/dementia-activities/\">ගෙදර ඩිමෙන්ශියා ක්‍රියාකාරකම්</a> සහ <a href=\"/crafts/\">අත්කම්</a>.",
     "faq": [
       {
         "q": "අප ආරම්භ කළ යුත්තේ කුමන ක්‍රීඩාවෙන්ද?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "මේවා වැඩිහිටියන් සඳහා මතක ක්‍රීඩාද?",
-        "a": "ඒවා ඕනෑම වැඩිහිටියෙකුට රසවිඳිය හැකි ගැලපීම් සහ පින්තූර ක්‍රීඩා වේ, නමුත් මතකය පරීක්ෂා කිරීම සඳහා ඒවා නිර්මාණය කර නැත: “පින්තූර යුගල” හි ඔබ වෙනස් ආකාරයට තෝරන්නේ නැත්නම් පින්තූර පෙනෙන පරිදි පවතී. ඩිමෙන්ශියාව සහිත වැඩිහිටියන් සඳහා මතක ක්‍රීඩා පිළිබඳ අපගේ මාර්ගෝපදේශය ඕනෑම මතක ක්‍රීඩාවක් සැහැල්ලුව තබා ගන්නේ කෙසේදැයි පැහැදිලි කරයි."
+        "a": "ඒවා ඕනෑම වැඩිහිටියෙකුට රසවිඳිය හැකි ගැලපීම් සහ චිත්‍ර ක්‍රීඩා ය, නමුත් ඒවා මතකය පරීක්ෂා කිරීමට නොව සැහැල්ලුවෙන් ක්‍රීඩා කිරීමට සකසා ඇත: චිත්‍ර යුගල ක්‍රීඩාවේදී, ඔබ වෙනත් ආකාරයකින් තෝරන්නේ නැත්නම්, චිත්‍ර මුහුණු උඩට හැරී පවතී. ඕනෑම මතක ක්‍රීඩාවක් කාල මානකය සහ ලකුණු ඉවත් කිරීමෙන් වඩාත් සැහැල්ලු කළ හැකිය."
       },
       {
         "q": "වැඩිහිටි නිවාසයක කණ්ඩායම් සඳහා ක්‍රීඩා තිබේද?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ඩිමෙන්ශියා ක්‍රියාකාරකම් යෙදුමක් තිබේද?",
+        "q": "වැඩිහිටියන් සහ පවුල් සඳහා යෙදුමක් තිබේද?",
         "a": "ඔව්. Creative Activities (“{storeName}” ලෙස ලැයිස්තුගත) App Store සහ Google Play හි නොමිලේ ලැබේ. එය විශාල ටයිල් සහිත සැහැල්ලු පින්තූර ගැලපීම, ඔබ තෝරන පවුලේ ඡායාරූප සහිත ක්‍රීඩා, සහ අන්තර්ජාලයෙන් තොරව ක්‍රියා කරන පින්තූර පැකේජ ඇතුළත් කරයි."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "මුද්‍රණය කළ හැක",
     "howTo": "{name} ක්‍රීඩා කරන ආකාරය",
     "tips": "එකට ක්‍රීඩා කිරීමට ඉඟි",
-    "newToPlayingHtml": "ඩිමෙන්ශියා ඇති කෙනෙකු සමඟ ක්‍රීඩා කිරීමට අලුත්ද? <a href=\"/caregiving/how-to-play-together/\">එකට ක්‍රීඩා කරන ආකාරය</a> කියවන්න, ඔවුන් උනන්දුව නැති වුවහොත් කළ යුතු දේ ඇතුළුව.",
+    "newToPlayingHtml": "වැඩිහිටියෙකු හෝ ඩිමෙන්ශියාව සහිතව ජීවත් වන පුද්ගලයෙකු සමඟ ක්‍රීඩා කිරීමට අලුත්ද? <a href=\"/caregiving/how-to-play-together/\">එකට ක්‍රීඩා කරන ආකාරය</a> කියවන්න, ඔවුන් ඒකාග්‍රතාව නැති වුවහොත් කළ යුතු දේ ඇතුළුව.",
     "moreAria": "තවත් බලන්න",
     "helpfulGuides": "ප්‍රයෝජනවත් මාර්ගෝපදේශ",
     "appTitle": "යෙදුමෙන් ක්‍රීඩා කරන්න",
@@ -536,6 +666,35 @@
     "goodToKnow": "දැනගත යුතු දේ",
     "goodToKnowText": "මෙම ක්‍රීඩාව විනෝදය සහ එකට ගත කරන කාලය සඳහායි. එය කිසිවක් පරීක්ෂා, මනින හෝ චිකිත්සා නොකරයි.",
     "moreGames": "තවත් මෘදු ක්‍රීඩා",
-    "crumb": "ක්‍රීඩා"
+    "crumb": "ක්‍රීඩා",
+    "print": {
+      "heading": "කඩදාසියෙන් ක්‍රීඩා කරන්න",
+      "sameRules": "කඩදාසි අනුවාදයේ තිරයේ ක්‍රීඩාවේ නීතිම ඇත:",
+      "button": "කඩදාසි අනුවාදය මුද්‍රණය කරන්න",
+      "pageNote": "A4 හෝ US Letter හි එක් පිටුවක්, කළු සහ සුදු පාටින් ද හොඳින් පෙනේ. අනුවාදය {date}.",
+      "islandNote": "දැන් තිරයේ ඇති දේ මුද්‍රණය කරයි. අනුවාදය {date}.",
+      "sheetTitle": "{name}: කඩදාසි අනුවාදය",
+      "point": "කඩදාසියේදී, චිත්‍රය ස්පර්ශ කරනවා වෙනුවට ඒ දෙසට අත දික් කරන්න, නැතහොත් පෑනකින් වට කරන්න. සෑම පේළියක්ම නව කට්ටලයකි.",
+      "pointTarget": "කඩදාසියේදී, බැලිය යුතු චිත්‍රය සෑම පේළියක ආරම්භයේ ඇති කොටුවේ ඇත. චිත්‍රය ස්පර්ශ කරනවා වෙනුවට ඒ දෙසට අත දික් කරන්න, නැතහොත් පෑනකින් වට කරන්න.",
+      "halves": "සෑම චිත්‍රයක්ම මැද සිට කපා ඇත. වම් පස සෑම කොටසකින්ම, ඊට ගැලපෙන දකුණු පස කොටස දක්වා රේඛාවක් අඳින්න, නැතහොත් ඇඟිල්ලෙන් ලකුණු කරන්න. කපීමක් අවශ්‍ය නොවේ.",
+      "grid": "සෑම කොටුවකටම අංකයක් ඇත. යතුරේ එම අංකය සොයා, එම පාටේ පැන්සලකින් කොටුව වර්ණ ගන්වන්න. ඔබට කැමති වෙනත් ඕනෑම පාටක් ද හොඳයි. කපීමක් අවශ්‍ය නොවේ.",
+      "colors": "සෑම පේළියක්ම පාටක් නම් කරයි. එම පාටේ ඇති සෑම චිත්‍රයක්ම ඇඟිල්ලෙන් ලකුණු කරන්න, නැතහොත් පෑනකින් වට කරන්න. සෑම පේළියක්ම නව කට්ටලයකි.",
+      "dice": "සෑම පේළියක්ම ද්‍රව්‍ය කට්ටලයකි. පේළියක් තෝරන්න, නැතහොත් චිත්‍ර කපා ගොඩෙන් කිහිපයක් ඇද ගෙන, ඒවා ඕනෑම පිළිවෙලකට භාවිතා කර කතාවක් කියන්න. කාටත් මඟ හැරිය හැක.",
+      "words": "වචන කපා ගන්න, නැතහොත් සෑම වචනයක් සිට එහි චිත්‍රය දක්වා රේඛාවක් අඳින්න. යන අතරේ වචන උච්චාරණය කර කියවන්න.",
+      "cards": "රේඛා ඉරි දිගේ කාඩ්පත් කපා ගන්න. ඒවා මේසය මත උඩට හරවා තබා, යුගල සොයන්න.",
+      "chain": "කඩදාසියේදී, චිත්‍ර වමේ සිට දකුණට, එකිනෙක පසුව කියවන්න. සෑම කෙනෙකුම මේ දක්වා ඇති චිත්‍ර ගැන එක වාක්‍යයක් කියා, ඊළඟ චිත්‍රය වෙත ඇඟිල්ලෙන් ලකුණු කරයි. කාටත් මඟ හැරිය හැක.",
+      "sort": "රේඛා ඉරි දිගේ චිත්‍ර කපා ගන්න, ඉන්පසු සෑම එකක්ම එයට අයත් පෙට්ටියේ තබන්න.",
+      "puzzle": "විශාල චිත්‍රය රේඛා ඉරි දිගේ කොටස් හතරකට කපා මිශ්‍ර කරන්න. චිත්‍රය සම්පූර්ණ වන තෙක් එකවර කොටස් දෙකක් මාරු කරන්න. කුඩා චිත්‍රය මාර්ගෝපදේශයක් වේ.",
+      "cutSafety": "ආරම්භ කිරීමට පෙර උදවුකරුවෙකුට කපීම කළ හැක. පසුව කතුර ආරක්ෂිතව තබන්න.",
+      "version": "අනුවාදය {date} · {url}",
+      "reasons": {
+        "photos": "කඩදාසි අනුවාදයක් නැත. මෙම ක්‍රීඩාව ඔබේම ඡායාරූප භාවිතා කරයි, ඒවා ඔබේ බ්‍රවුසරයේ පවතින අතර කිසිවිටෙක උඩුගත නොකෙරේ, එබැවින් අඩවියට ඒවා මුද්‍රණය කළ නොහැක. කඩදාසියෙන් ක්‍රීඩා කිරීමට, නිවසේදී ප්‍රිය ඡායාරූප කිහිපයක් පිටපත් දෙකක් මුද්‍රණය කර, මේසය මත ගැලපීම් කරන්න.",
+        "paced": "කඩදාසි අනුවාදයක් නැත. වටය තිරයේ සෙමින් සහ ස්ථිර වේගයක් සකසයි, මුද්‍රිත පිටුවකට එය කළ නොහැක, එබැවින් එය වෙනත් ක්‍රියාකාරකමක් වනු ඇත. තිරයක් නොමැතිව එකට නිශ්ශබ්ද විරාමයක් ගැනීම සෑම විටම විකල්පයකි.",
+        "turns": "මෙම ක්‍රීඩාවට කඩදාසි අනුවාදයක් නැත. මේසය මත යුගල සෙවීමට, Picture pairs හි චිත්‍ර කාඩ්පත් මුද්‍රණය කර, මාරුවෙන් මාරුවට ඒවා හරවන්න.",
+        "screen": "මෙයට කඩදාසි අනුවාදයක් නැත. මෙය එකට බලන්න තිරයක තිබෙන රූපයකි. මේසය මත ඔබ ප්‍රිය කරන ඡායාරූපයක් හෝ පෝස්ට්කාඩ් එකක් තබා ගැනීමෙන් ද එම අරමුණම ඉටු වේ.",
+        "wash": "මෙයට කඩදාසි අනුවාදයක් නැත. කඩදාසියක දියර වර්ණ ඇඳීමේ අදහසද මේකම්ය: තෙත් බුරුසුවක් සහ එක වරකට එක වර්ණයක්.",
+        "sayings": "මෙයට තවමත් කඩදාසි අනුවාදයක් නැත. කඩදාසි මත එක් එක් අවසානය එකවර පෙනී යනු ඇති අතර, \"අවසානය පෙන්වන්න\" යන මෘදු පියවර නැති වනු ඇත. මෙම කියමන් තිරයෙන් එකට කියවන්න, නැතහොත් ඔබ දෙදෙනාම දන්නා කිහිපයක් බෙදා ගන්න."
+      }
+    }
   }
 }

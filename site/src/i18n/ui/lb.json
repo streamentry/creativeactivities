@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities Startsäit",
     "mainNav": "Haaptmenü",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: grouss, frëndlech Biller vun enger Taass Téi, enger Sonneblumm an engem Hond",
+    "defaultImageAlt": "Creative Activities: grote, frëndlech Zeechnungen vun alldeeglechen Saache fir ze maachen an ze erliewen",
     "languages": "Sprooch",
     "englishOnly": "(Englesch)",
     "machineTranslated": "Dës Säit gouf automatesch iwwersat a gouf nach net vun engem Mammesproochler iwwerpréift.",
     "readOriginal": "D’Original op Englesch liesen",
     "nav": {
+      "find": "Find an activity",
       "games": "Spiller",
       "activities": "Aktivitéiten",
       "caregiving": "Begleedung a Fleeg",
-      "brainHealth": "Gehirgesondheet"
+      "brainHealth": "Gehirgesondheet",
+      "crafts": "Bastelen",
+      "kids": "Kanner",
+      "together": "Zesummen",
+      "creativeCalm": "Kreativ Rou",
+      "search": "Sichen"
     },
     "faqTitle": "Froen an Äntwerten",
     "breadcrumb": "Navigatiounswee",
@@ -27,7 +33,32 @@
       "label": "Schrëftgréisst",
       "smaller": "Standardgréisst",
       "larger": "Méi grouss Schrëft",
-      "contrast": "Méi héije Kontrast"
+      "contrast": "Méi héije Kontrast",
+      "colors": "Farwen",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "device": "Wéi bei dësem Apparat",
+      "lineLength": "Zeilelängt",
+      "standardLines": "Standard",
+      "shorterLines": "Méi kuerz Zeilen",
+      "spacing": "Ofstand",
+      "standardSpacing": "Standard",
+      "moreSpace": "Méi Plaz"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 Iddie fir Aktivitéiten",
     "lateStage": "Aktivitéite fir déi spéit Phas",
     "printable": "Aktivitéite fir auszedrécken",
-    "allActivities": "All Aktivitéiten",
+    "allActivities": "All Aktivitéitsguiden",
     "forCaregivers": "Fir Leit, déi sech këmmeren",
     "playTogether": "Wéi ee matenee spillt",
     "selfCare": "Op sech selwer oppassen",
@@ -54,24 +85,34 @@
     "app": "D’Creative Activities App",
     "appHelp": "Hëllef mat der App",
     "support": "Ënnerstëtzung",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Rechtleches",
     "sitePrivacy": "Dateschutz op der Websäit",
     "appPrivacy": "Dateschutzerklärung vun der App",
     "privacyChoices": "Dateschutz-Astellungen",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Konditiounen an App-Lizenz",
     "safety": "Sécherheet a virgesinn Notzung",
     "accessibility": "Barrierefräiheet",
     "healthNotice": "Gesondheetshinweis",
     "allLegal": "All rechtlech Informatiounen",
     "note": "Creative Activities bitt einfach gemeinsam Aktivitéite fir Freed ze maachen. Et ass kee medezinesche Rot, keen Test a keng Behandlung, a moosst, bewäert oder diagnostizéiert keen. Bei Froen zu der Gesondheet schwätzt mat engem Dokter. An engem Noutfall rufft den 112 un.",
-    "publisher": "Erausgi vu Cloudjet Solutions Pte. Ltd."
+    "publisher": "Erausgi vu Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Bastelen fir all Alter",
+    "kids": "Aktivitéiten fir Kanner",
+    "together": "Aktivitéiten fir zesummen ze maachen",
+    "creativeCalm": "Kreativ Rou",
+    "dementiaActivities": "Aktivitéiten fir Leit mat Demenz"
   },
   "home": {
-    "title": "Spiller an Aktivitéite bei Demenz an Alzheimer | Creative Activities",
-    "description": "Gratis, roueg Bilderspiller fir online ze spillen an Iddie fir Mënschen, déi mat Demenz oder Alzheimer liewen, a fir déi Leit, déi sech ëm si këmmeren. Ouni Umeldung, Zäitdrock oder Punkten.",
+    "title": "Kreativ Aktivitéiten fir jiddereen, deen sech em iergendeen këmmert",
+    "description": "Gratis kreativ Aktivitéiten fir jiddereen, deen sech em iergendeen këmmert: Bastelen, Saache fir Kanner, Aktivitéiten fir zesummen an roueg kreativ Iddien.",
     "eyebrow": "Gratis · Keng Reklamm · Keng Umeldung · Keng Zäituhr oder Punkten",
-    "h1": "Roueg Spiller an Aktivitéite fir Mënsche mat Demenz",
-    "lede": "Einfach Bilderspiller, vertraut Fotoen an Aktivitéite fir zesummen ze genéissen – am eegenen Tempo.",
+    "h1": "Zesummen iwwer eppes Neies maachen",
+    "lede": "Fannt eng Aktivitéit, déi zu der Persoun, dem Moment an deem passt, wat Dir scho Doheem hutt. Einfach Bastelaarbechten, Konscht fir Kanner, Saache fir zesummen an roueg kreativ Iddien, mat méi einfache Versioune an enger Kaart zum Drécke. Hält un, wann Dir wëllt.",
     "playGame": "E Spill spillen",
     "findIdeas": "Iddie fir Aktivitéite fannen",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 Iddie fir Aktivitéiten",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Ufanksphas",
         "text": "Weidermaache mat deem, wat Freed mécht, mat klenge Verännerungen: Hobbien, Ausflich, Wuertspiller a Saachen zesumme plangen.",
         "label": "Iddie fir d’Ufanksphas"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Mëttel Phas",
         "text": "Einfach, vertraut Aufgaben a kleng Schrëtt opgedeelt: zesummeleeën, sortéieren, Musek, Bilderspiller a kuerz Trëppeltouren.",
         "label": "Iddie fir déi mëttel Phas"
@@ -124,10 +165,10 @@
         "label": "Iddie fir déi spéit Phas"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Sicht Dir eppes Bestëmmtes? Probéiert <a href=\"/dementia-activities/\">Aktivitéiten a Spiller fir Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">Puzzelen a Brettspiller</a>, <a href=\"/together/conversation-games-for-all-ages/\">Gesprächsspiller</a> oder <a href=\"/together/puzzles-and-table-games/\">Puzzelen</a>.",
     "approachEyebrow": "Eise Konzept",
-    "approachTitle": "Eng gemeinsam Aktivitéit, kee Gediechtnes-Test",
-    "approachLede": "Vill Denkspiller si ronderëm Tempo, Punkten a Feeler opgebaut. Fir e Mënsch mat Demenz kann dat wéi en Examen wierken. Mir hunn de geneeë Géigendeel gemaach.",
+    "approachTitle": "Eng gemeinsam Aktivitéit, kee Test",
+    "approachLede": "Vill „Gehirnspiller“ sinn op Geschwindegkeet, Punkte an Serien opgebaut. Fir een, dee midd ass, sech net gutt fillt oder mat Demenz lieft, kann dat sech wéi eng Prüfung unfillen. Mir hunn dat Géigendeel gemaacht.",
     "approachLink": "Firwat mir et esou entwéckelen",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Heefeg Grënn dofir a sanft Weeër, fir et spéider nach eng Kéier ze probéieren."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "En Tablet ariichten",
-        "text": "Méi grouss Schrëft, manner Ënnerbriechungen an en eenzegen, einfachen Heembildschierm."
+        "href": "/activities/group-art-activities/",
+        "title": "Gemeinsam Konschtaktivitéiten",
+        "text": "Gemeinsam Projeten fir en Dësch mat e puer Leit, mat enger Aufgab fir all Persoun."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Gratis Aktivitéite fir auszedrécken",
-        "text": "Wierdersich mat grousser Schrëft, Molbiller, Bingo a Gespréichskaarten."
+        "href": "/activities/ideas/",
+        "title": "101 Aktivitéitsiddien",
+        "text": "Einfach Iddien, sortéiert no deem, wat Dir hutt an wéi vill Kraaft do ass."
       }
     ],
     "researchTitle": "Gehirgesondheet: wat d’Fuerschung wierklech seet",
@@ -185,16 +226,16 @@
     "aboutApp": "Iwwer d’App",
     "faq": [
       {
-        "q": "Wat fir Spiller si gutt fir Mënsche mat Demenz?",
-        "a": "Gutt Spiller sinn einfach, vertraut an ouni Drock: grouss Biller fir z'associéieren, Sortéieren, einfach Puzzelen, bekannt Spréchwierder fäerdegmaachen, Molen, Biller-Bingo a Gespréichskaarten. Dee beschte Choix ass deen, un deem d'Persoun haut Freed huet. Vermeit Timeren, Punkten an alles, wat sech wéi en Test ufillt."
+        "q": "Wat sinn gutt Spiller fir eeler Leit?",
+        "a": "Gutt Spiller sinn einfach, vertraut a ouni Drock: grouss Bilder fir zesummen ze passen, Sortéieren, einfach Puzzelen, bekannte Sprëch fäerdeg ze schwätzen, Ausmoolen, Bild-Bingo a Gesprächskaarten. Si passen fir vill eeler Leit, och fir Leit mat Demenz. Déi bescht Wiel ass déi, déi d'Persoun haut gär huet. Vermeit Timer, Punkten an alles, wat sech wéi en Test unfillt."
       },
       {
-        "q": "Sinn dës Demenz-Spiller gratis?",
+        "q": "Sinn dës Spiller gratis?",
         "a": "Jo. All Spill an all Drockvirlag op Creative Activities si gratis, ouni Kont, Umeldung oder Download. D'Spiller lafen direkt am Webbrowser um Handy, Tablet oder Computer."
       },
       {
         "q": "Kënne Gehirspiller Demenz verhënneren?",
-        "a": "Et ass vu kengem Spill bewisen, datt et Demenz verhënnere kann, a Creative Activities behaapt net, iergendeppes ze behandelen oder ze verhënneren. Eis Spiller si fir d'Freed an déi gemeinsam Zäit geduecht. Eis Rubrik iwwer d'Gehirgesondheet erkläert, wat d'Fuerschung weist a wat net."
+        "a": "Et ass kee Spill bewisen, dat Demenz verhënnert, an Creative Activities behaapt net, datt mir eppes behandelen oder verhënnere. Eis Spiller sinn fir de Plécir an d'Zäit zesummen, a keng Aktivitéitssäit mécht eng Gesondheetsaussoe."
       },
       {
         "q": "Sinn dës Spiller fir Mënsche mat Alzheimer gëeegent?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Wien entwéckelt Creative Activities?",
-        "a": "Creative Activities ass eng kleng Ekipp, déi roueg a wierdevoll Billeraktivitéite fir Familljen a Begleetpersounen entwéckelt, souwuel um Internet wéi och als gratis App. Mir si keng Dokteren, an näischt hei ass e medezinesche Rot."
+        "a": "Creative Activities ass e klenge Team, dee roueg, fir Erwuessener gedachte kreativ Aktivitéiten fir jiddereen mécht, deen sech em iergendeen këmmert, um Web an als gratis App. Mir si keng Klinikären, an näischt hei ass medezinesche Rot."
+      }
+    ],
+    "groupsEyebrow": "Fannt Iech zrecht",
+    "groupsTitle": "Véier Aarte vu kreativer Aktivitéit",
+    "groupsLede": "Fänkt mat där Grupp un, déi zu deem passt, mat deem Dir sidd an wat Dir hutt. All Säit huet méi einfach Versioune an Sécherheetshiweiser.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Bastelen",
+        "text": "Pabeier, Faarf, recycléiert a saisonal Projeten, mat enger méi einfacher Versioun fir all Eent.",
+        "label": "Bastelen duerchkucken"
+      },
+      {
+        "href": "/kids/",
+        "title": "Kanner",
+        "text": "Konscht a Spiller fir Kanner, mat engem Erwuessenen an der Nähe an kloren Sécherheetshiweiser.",
+        "label": "Kanneraktivitéiten duerchkucken"
+      },
+      {
+        "href": "/together/",
+        "title": "Zesummen",
+        "text": "Gespréich, Puzzelen, Zäit dobaussen a Weeër, fir iwwer Generatiounen hanner Ënn ze bleiwen.",
+        "label": "Saache fir zesummen ze maachen duerchkucken"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreativ Rou",
+        "text": "Lues a roueg kreativ Momenter mat engem Bläistëft, enger Säit oder engem Lidd. Keng Therapie.",
+        "label": "Kreativ Rou duerchkucken"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Drockvirlag",
     "play": "{name} spillen →",
     "readGuide": "Guide liesen"
+  },
+  "listen": {
+    "listenSteps": "D'Schrëtt ufhalen",
+    "pause": "Paus",
+    "resume": "Weiderfueren",
+    "stop": "Stoppen",
+    "speed": "Geschwindegkeet",
+    "normal": "Normal",
+    "slower": "Méi lues",
+    "reading": "D'Schrëtt ginn haut lues virgelies.",
+    "paused": "Paus. Dréckt op Weiderfueren, fir weiderzemaachen.",
+    "note": "Benotzt d'Stëmm vun Ärem Apparat. E puer Apparater schécken den Text fir en ze liesen un hiren Hiersteller.",
+    "listen": "Ufhalen",
+    "stepLabel": "Schrëtt {n} ufhalen",
+    "stopStep": "Schrëtt {n} stoppen"
   },
   "playCta": {
     "title": "Bereet fir e rouegt Spill?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktivitéiten",
-      "title": "Aktivitéite fir Mënsche mat Demenz",
-      "seo": "Aktivitéite fir Mënsche mat Demenz: Iddien no Stadium",
-      "description": "Aktivitéitsiddien fir Mënsche mat Demenz an all Stadium: Musek, Erënnerungsaarbecht, alldeeglech Aufgaben, sensoresch Andréck, Handwierk a Bastelen, dobaussen an der Natur a gratis Drockvirlagen.",
-      "lede": "Eng sënnvoll Aktivitéit ass alles, wat Trouscht, Freed oder e Moment vu Verbëndenheet bréngt. Fänkt mat deem un, wat d'Persoun ëmmer gär gemaach huet, a passt et un haut un."
+      "label": "Aktivitéitsguiden",
+      "title": "Aktivitéitsguiden",
+      "seo": "Aktivitéitsguiden: Iddien, Konschtmaterial an Ufanksweeër",
+      "description": "Kloer Guiden zu kreativen Aktivitéiten, déi Dir mat engem Mënsch maache kënnt: einfach Iddien, Konschtmaterial mat klengem Budget, Gruppekonscht, Bréiwer, Erënnerungen an Konschttherapie erklärt.",
+      "lede": "Kuerz, praktesch Guiden fir eng Aktivitéit mat engem Mënsch ze wielen an unzefänken, egal wéi alt oder wéi fit en ass."
+    },
+    "crafts": {
+      "label": "Bastelen",
+      "title": "Bastelen fir all Alter",
+      "seo": "Einfach Bastelaarbechten fir all Alter, mat méi einfache Versioune",
+      "description": "Einfach Bastelaarbechten fir Erwuessener, Kanner an Familljen: Pabeier, Ausmoolen, recycléiert a saisonal Bastelaarbechten, mat Versioune, déi einfach ze halen sinn an am Sëtzen gemaach kënne ginn, ouni besonnesch Fäegkeet.",
+      "lede": "Bastelaarbechten, déi vun deem ausgoen, wat déi meescht Haiser scho hunn, jiddereng mat enger méi einfacher Versioun, sou datt jiddereen eppes maache kann."
+    },
+    "kids": {
+      "label": "Kanner",
+      "title": "Kreativ Aktivitéiten fir Kanner",
+      "seo": "Kreativ Aktivitéiten fir Kanner: Konscht, Sënn a Rou",
+      "description": "Kreativ Aktivitéiten fir Kanner: Konscht fir Kleng, Prozesskonscht, Sënnesspiller, Bastelen fir reeneg Deeg a Iddien fir zur Rou ze kommen, mat Sécherheetshiweiser a Versioune fir Sënnesbedürfnisser.",
+      "lede": "Konscht- a Spiller-Iddien fir Kanner a verschiddenen Alteren a Bedürfnisser, mat kloren Sécherheetshiweiser an engem Erwuessenen an der Nähe."
+    },
+    "together": {
+      "label": "Zesummen",
+      "title": "Aktivitéiten fir zesummen ze maachen",
+      "seo": "Aktivitéiten fir zesummen ze maachen, iwwer Generatiounen hinnweg",
+      "description": "Aktivitéiten fir zwou oder méi Generatiounen: Gesprächsspiller, Puzzelen, Zäit dobaussen, Bastelen fir Grousselteren a Kanner an Weeër, fir och aus der Distanz no beienee ze bleiwen.",
+      "lede": "Ideen fir Zäit mat engem Elterendeel, Groussdeel, Kand oder Frënd ze deelen, doheem, dobaussen, beim Besuch oder aus der Distanz."
+    },
+    "creative-calm": {
+      "label": "Kreativ Rou",
+      "title": "Kreativ Rou",
+      "seo": "Kreativ Rou: entspaant Konscht a Aktivitéiten fir sech ze erhuelen",
+      "description": "Entspaant kreativ Aktivitéiten fir Erwuessener a Betreier: Achtsam Konscht, Journaling, Musik, Sënnesmomenter an roueg Nomëtteger. Kreativ Aktivitéit, keng Therapie.",
+      "lede": "Sanft Weeër fir mat engem Bläistëft, enger Säit oder engem Lidd lues ze ginn. Dat sinn kreativ Aktivitéiten, keng Therapie, a si verlaangen keng besonnesch Fäegkeet."
     },
     "caregiving": {
-      "label": "Begleedung",
-      "title": "Guiden fir d'Begleedung",
-      "seo": "Demenz-Begleedungsguiden: Praktesch Hëllef am Alldag",
-      "description": "Praktesch a verständnisvoll Guiden fir d'Begleedung vu Mënsche mat Demenz: zesumme spillen, Kommunikatioun, Ofleenung, Onrou am Nomëtteg oder Owend, Tabletten, d'Auswiel vun Apps a Selbstsuerg.",
-      "lede": "Einfach, praktesch Hëllef fir den Alldag mat engem Mënsch mat Demenz – an dofir, wéi Dir och op Iech selwer oppasst."
+      "label": "Demenzpflee",
+      "title": "Fir e Mënsch mat Demenz ze suergen",
+      "seo": "Fir e Mënsch mat Demenz ze suergen: Aktivitéiten an Hëllef",
+      "description": "Leedfaden fir Familljen, déi e Mënsch mat Demenz pflegen: wéi een zesumme spillt, wat ze maachen ass wann hien nee seet, an wou ee no enger Diagnos vertrauenswierdeg Hëllef fënnt.",
+      "lede": "Aktivitéiten als éischt Hëllef fir Familljen, déi e Mënsch mat Demenz pflegen, a wou een medizinesch a pflegeresch Rot fënnt."
     },
     "brain-health": {
       "label": "Gehirgesondheet",
@@ -283,7 +396,16 @@
     "tryTogether": "Zesummen ausprobéieren",
     "relatedGuides": "Änlech Guiden",
     "related": "Änlech Bäiträg",
-    "startHere": "Fänkt hei un"
+    "startHere": "Fänkt hei un",
+    "staleAria": "Iwwersetzung ass net méi aktuell",
+    "staleTitle": "Dës Iwwersetzung ass net méi aktuell",
+    "staleText": "Si gouf aus enger fréiere Versioun vun der englescher Säit gemaach, déi sech zwëschenzäit geännert huet. D'englesch Säit ass déi aktuell.",
+    "staleHealth": "Si gëtt Gesondheetsinformatiounen, dofir kontrolléiert w.e.g. d'englesch Säit a frot en Dokter oder eng Infirmière, ier dir ënnert d'Äerm grëft.",
+    "staleLink": "Lies déi aktuell englesch Säit"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Hiweis zu Gesondheetsinformatiounen",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Eng gemeinsam Aktivitéit, kee Gediechtnesstest",
+      "title": "Eng gemeinsam Aktivitéit, kee Test",
       "seoTitle": "Iwwer Creative Activities: Eis Approche",
-      "description": "Firwat d'Spiller vu Creative Activities ouni Timer, Punkte oder Serie funktionéieren, firwat d'Biller siichtbar bleiwen, a wat mir iwwer Demenz behaapten a wat net.",
+      "description": "Firwat Creative Activities keng Timer, Punkten oder Serien huet, firwat d'Biller sichtbar bleiwen, a wat mir iwwer d'Gesondheet bewierten an net bewierten.",
       "crumb": "Eis Approche",
-      "lede": "Creative Activities mécht roueg, wierdevoll Billeraktivitéiten, déi Begleetpersounen a Mënsche mat Demenz zesumme Säit u Säit erliewe kënnen.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsoren a Partner",
+        "none": "Creative Activities huet keng Sponsoren, keng bezuelten Placementer a keng Partner, deenen hir Logoen op der Säit stinn.",
+        "listed": "Dat sinn d'Sponsoren a Partner vun Creative Activities. All Bezéiung ass och op der Säit ugewise, wou se opdaucht.",
+        "policy": "Wann sech dat ännert, wäert all such Säit dat do soen, wou se opdaucht, keng Aktivitéit wäert jee e Sponsor droen, an d'Lëscht vun de Partner steet op dëser Säit.",
+        "listHeading": "Lëscht vun de Partner",
+        "noPartners": "Am Moment gi keng Partner."
+      },
+      "lede": "Creative Activities mécht roueg Aktivitéiten fir Erwuessener, déi zwee Mënschen zesumme genéissen kënnen, sief et, datt een deen anere pflegt, oder datt se einfach Zäit zesummen verbréngen wëllen.",
+      "bodyHtml": "<h2>Fir wien et ass</h2><p>Fir jiddereen, deen e Mënsch pflegt: e Elterendeel, e Grousselter, e Kand, en Partner, e Frënd oder e Mënsch mat Demenz. Familljen, eeler Mënschen an Aktivitéitsmataarbechter kënnen all déi selwecht Säiten benotzen.</p><h2>Wat mir gleewen</h2><p>De Sënn vun enger Aktivitéit ass de Moment selwer: e Gespréich, en Laachen, d'Freed, zwee Bilder zesummen ze leeën, oder einfach nieft enee sëtzen. Et geet net drem, een ze moossen, weider ze drécken oder eppes ze beweisen.</p><p>Vill Gehierntraining-Apps sinn op Geschwindegkeet, Punkten, Serien a Niveauen opgebaut. Fir een, deen midd ass, net gutt geet oder mat Demenz lieft, kann dat sech wéi eng Prüfung unfillen, déi een net bestoe kann. Mir hunn dat Géigendeel gemaach a halen eis un dës Reegelen:</p><ul><li><strong>Näischt, wat ee kann verléieren.</strong> Keng Auer, keng Punkten, keng Zuel vun Zich, keng Liewen, keng Serien, keng Confetti an keng Countdowns, op kengem Bildschierm.</li><li><strong>Erkennen virun erënneren.</strong> D'Biller bleiwe standardméisseg sichtbar. Impulser lueden zum Gespréich an freet ni no Nimm oder Erënnerungen.</li><li><strong>Grouss, kloer a roueg.</strong> Grousse Text an Bilder, staark Kontrast, a Knäpp, déi jiewelzech um selwechten Ort bleiwen.</li><li><strong>Erwuessenen Respekt.</strong> Bilder aus dem richtege Liewen an eng kloer, warm Sprooch. Keng Cartoons, kee Gesang-Lob an keng Emoji-Belounung.</li><li><strong>Ee liichte Wee eraus.</strong> „Fir elo fäerdeg“ ass ëmmer siichtbar. Halwer Wee ophalen ass e gudden Ausgang.</li><li><strong>Standardméisseg privat.</strong> Keng Kont a keng Reklamm. Fotoen, déi Dir auswielt, bleiwen op Ärem Apparat.</li></ul><h2>Wat mir net behaapten</h2><p>Eis Spiller a Aktivitéiten sinn fir Freed a fir Zesummenhalt. Si diagnostizéieren, testen, moossen, behandelen, verlangsamen oder verhënneren keng Demenz oder Alzheimer, a kee soll se aus deem Grond wielen. Wann mir iwwer Gesondheetsfuerschung schreiwen, soe mir kloer, wou d'Beweiser schwaach sinn, a mir verbannen dat ni mat eise eegene Aktivitéiten.</p><h2>Wien mir sinn</h2><p>Creative Activities ass e klenge onofhängege Team. Mir sinn keng Klinikeren. Eis Leedfaden baséieren op publizéierten Empfehlungen vun Organisatiounen wéi dem National Institute on Aging an der Alzheimer’s Association, an all Leedfaden nennt seng Quellen. Liest <a href=\"/editorial-policy/\">wéi mir eis Säiten schreiwen a kontrolléieren</a>.</p><h2>Sot eis, wat hëllefe kéint</h2><p>Mir hätten gär ze héieren, wat fir Iech funktionnéiert a wat net, besonnesch vu Mënschen mat Demenz, pflegende Familljen an Aktivitéitsmataarbechter. Schreift un <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Wéi mir eis Säite schreiwen an iwwerpréiwen",
       "seoTitle": "Redaktionell Richtlinnen",
-      "description": "Wéi Creative Activities seng Säiten iwwer Demenz-Aktivitéiten a Gehiergesondheet recherchéiert, schreift, mat Quelle beleet an aktualiséiert, a wat mir ni verëffentlechen.",
+      "description": "Wéi Creative Activities fuerscht, schreift, Quellen sammelt an seng Aktivitéits- a Gesondheetssäiten aktualiséiert, a wat mir ni publizéiere ginn.",
       "crumb": "Redaktionell Richtlinnen",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Froen an Äntwerten",
-      "seoTitle": "Spiller an Aktivitéite bei Demenz: Froen an Äntwerten",
-      "description": "Äntwerten op heefeg Froen iwwer Spiller an Aktivitéite bei Demenz: wéi eng Spiller een ausprobéiere kann, wéi laang ee spille soll, Iddie fir méi spéit Stadien, Gehiergesondheet a Privatsphär.",
+      "seoTitle": "Froen a Äntwerten iwwer Creative Activities",
+      "description": "Äntwerten op heefeg Froen zu de Spiller an Aktivitéiten: wéi een ze probéiert, wéi laang ee spillt, Gruppen- a spéider Iddien, Gesondheet a Privatsphär.",
       "crumb": "Froen an Äntwerten",
       "lede": "Kuerz, einfach Äntwerten op d'Froen, déi Familljen a Begleeder am dacksfte stellen.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Iwwer d'Spiller",
           "items": [
             {
-              "q": "Wéi eng Spiller sinn déi bescht fir eng Persoun mat Demenz?",
+              "q": "Wat sinn déi bescht Spiller fir eeler Mënschen?",
               "a": "Déi bescht Spiller si vertraut, einfach an ouni Drock – an dat richtegt ass ëmmer dat, wat der Persoun haut Freed mécht. Biller mateneen ofgläiche mat oppene Biller, Zortéieren, einfach Puzzelen, bekannt Spréchelcher fäerdegsoen, Molen a Billerbingo funktionéiere fir vill Leit ganz gutt. Vermeit Timeren, Punkten an alles, wat sech wéi en Test ufillt."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Gehirgesondheet",
+          "title": "Demenz a Gesondheet",
           "items": [
             {
               "q": "Kënne Spiller Demenz verhënneren oder verlangsamen?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Méi Detail: <a href=\"/caregiving/how-to-play-together/\">wéi ee zesumme spillt</a>, <a href=\"/caregiving/when-they-say-no/\">wann se nee soen</a>, <a href=\"/activities/late-stage/\">Aktivitéiten fir spéit Stadien</a> an <a href=\"/dementia-activities/\">Demenz-Aktivitéiten doheem</a>."
     },
     "handout": {
       "title": "Gratis, sanft Spiller fir Leit, déi mat Demenz liewen",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Fir Fleegeheem, Bibliothéiken an Ënnerstëtzungsgruppen",
-      "seoTitle": "Gratis Aktivitéite bei Demenz fir Pfleegheemmer a Gruppen",
-      "description": "Wéi Pfleegheemmer, Dageszentren fir Erwuessener, Bibliothéiken, Déngschtleeschtunge fir eeler Leit a Supportgruppen eis gratis Spiller bei Demenz benotzen, plus Text fir eis op eng Ressource-Lëscht ze setzen.",
+      "seoTitle": "Gratis Aktivitéiten fir Pflegheemer, Bibliothéiken a Gruppen",
+      "description": "Wéi Pflegheemer, Tagesbetreiungen fir Erwuessener, Bibliothéiken, Altersstellen a Selbsthëllegruppen eis gratis Spiller an Aktivitéitsleedfaden benotzen, plus Text fir eis op eng Ressourceliste ze setzen.",
       "crumb": "Fir Organisatiounen",
       "lede": "Alles op dëser Säit ass gratis fir mat Awunner, Memberen a Clienten ze benotzen, ouni Kont, Lizenz oder Käschten. Dës Säit erkläert, wat et hei gëtt a wéi Dir et deele kënnt.",
-      "shortText": "{name}: gratis, sanft Bildspiller an Aktivitéitsguide fir Mënschen, déi mat Demenz liewen, an hir Betreiungspersounen. Keng Umeldung, keng Zäitlimitten, keng Punkten.",
-      "longText": "{name} ({domain}) bitt {count} gratis Browser-Spiller, déi fir Mënschen entwéckelt goufen, déi mat Demenz liewen, dorënner Puer fannen mat Biller, déi siichtbar bleiwen, en einfache Puzzle, Zortéieren, bekannte Spréch a Bild-Bingo mat Kaarten zum Ausdrucken. Et gëtt kee Kont, keng Reklamm, keng Zäitlimit a keng Punkten. D’Säit huet och Aktivitéitsguiden an einfacher Sprooch fir all Stadium vun der Demenz, déi sech op den National Institute on Aging an d’Alzheimer’s Association bezéien.",
+      "shortText": "{name}: gratis, roueg Biller-Spiller a Leedfaden fir eeler Mënschen, Familljen a Mënschen mat Demenz. Keng Umeldung, keng Timer, keng Punkten.",
+      "longText": "{name} ({domain}) bitt {count} gratis Browser-Spiller fir eeler Leit, Familljen a Leit, déi mat Demenz liewen, mat Bildpaarer, bei deenen d'Bilder sichtbar bleiwen, engem einfache Puzzel, Sortéieren, bekannte Spréch a Bildbingo mat drockbare Kaarten. Et gëtt keen Konto, keng Reklame, keen Timer a keng Punkten. D'Säit huet och eng einfach geschriwwen Aktivitéitsufuerderungen fir Familljen, eeler Leit a Personal, mat Quelle wéi dem National Institute on Aging an der Alzheimer's Association.",
       "useTitle": "Wat Organisatioune benotze kënnen",
       "gamesItemHtml": "<strong>{count} Browser-Spiller</strong>, déi op engem Laptop, Tablet oder engem Fernseher funktionéieren, deen un e Computer ugeschloss ass. Keng Installatioun, kee Kont a keen Download. Kuckt <a href=\"/games/\">all Spiller</a>.",
       "printablesLabel": "{count} Sächë zum Ausdrucken:",
       "printablesAfter": "Benotzt de Knäppchen „Drécken“ op all Säit.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Gruppeformater:</strong> <a href=\"/games/picture-bingo/\">Bildbingo</a> huet drockbar Kaarten an e Virlieser um Bildschierm, an <a href=\"/together/conversation-games-for-all-ages/\">Gespréichsspiller</a> huet Froen mat Äntwertméiglechkeeten a Gesprächspunkten.</li><li><strong>Aktivitéitsufuerderungen</strong> fir Personal a Familljen, a klarer Sprooch mat Quelle geschriwwen. Fänkt mat <a href=\"/activities/ideas/\">101 Aktivitéitsiddien</a> oder <a href=\"/crafts/craft-group-sessions/\">Gruppenaktivitéiten fir Altersheemer</a> un.</li>",
       "restHtml": "<h2>Wéi Gruppen et benotzen</h2><ul><li><strong>Pfleegheemmer a Betreiung bei Demenz:</strong> Bild-Bingo oder Spréch fäerdeg maachen um Fernseher am Gemeinschaftsraum, wou eng Persoun fir d’Grupp tippt.</li><li><strong>Dageszentren fir Erwuessener:</strong> eng Tabletstatioun mat „Bildpuer fannen“ op véier Kachelen agestallt, fir kuerz Eenzelgespréicher.</li><li><strong>Ëffentlech Bibliothéiken:</strong> ausgedréckte Wuertsichen a Gespréichskaarten a Gedächtniskëschten, an d’Säit als Lieszeechen op de Bibliothéikstabletten.</li><li><strong>Supportgruppe fir Betreiungspersounen a Gedächtniscafés:</strong> en <a href=\"/handout/\">Handout op enger Säit zum Ausdrucken</a>, deen d’Famillen mat heem huele kënnen.</li><li><strong>Spideeler a Planung fir d’Entloossung:</strong> den Handout an de Päck fir Betreiungspersounen, fir eppes Roueges doheem oder um Bett ze maachen.</li></ul><h2>Wat mir net maachen</h2><p>D’Spiller si fir Freed an Zäit zesummen. Si diagnostizéieren, testen, bewäerten, behandelen oder luesen d’Demenz net, a mir bieden d’Organisatiounen, se net esou ze beschreiwen. Et gëtt keng Reklammen, an d’Spiller froen net no Nimm, Gesondheetsdetailer oder Fotoen, déi eropgeluede solle ginn. D’Websäit benotzt Google Analytics fir Visitten ze zielen; eise <a href=\"/privacy/\">Datenschutzhiweis</a> erkläert, wat dobäi gesammelt gëtt. Fotoen, déi a <a href=\"/games/photo-pairs/\">Foto-Puer</a> benotzt ginn, bleiwen am Browser.</p><h2>Setzt eis op Är Ressource-Lëscht</h2><p>Wann Dir eng Lëscht mat Ressourcen fir Betreiungspersounen hutt, kënnt Dir gäre op <a href=\"/\">{domain}</a> verlinken. Dir kënnt eng vun dësen zwou Beschreiwunge kopéieren.</p>",
       "shortTitle": "Kuerz Beschreiwung",
       "longTitle": "Méi laang Beschreiwung",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Nëtzlech Säiten, déi Dir direkt verlinke kënnt: <a href=\"/games/\">gratis Spiller</a>, <a href=\"/games/\">gratis Drockvirlagen</a>, <a href=\"/dementia-activities/\">Demenz-Aktivitéiten doheem</a> an <a href=\"/caregiving/how-to-play-together/\">wéi Dir zesumme spillt</a>.</p><h2>Froen oder Korrekturen</h2><p>Wann eppes op der Säit falsch oder net kloer ass, oder wann d'Bedierfnisser vun engem Bewunner duerch dat hei net ofgedeckt sinn, sot eis Bescheed ënner <a href=\"mailto:{email}\">{email}</a>. Schéckt w.e.g. keng perséinlech oder Gesondheetsinformatioune iwwer Bewunner oder Klienten.</p>"
     },
     "app": {
       "title": "D’App Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Gratis Online-Spiller bei Demenz an Alzheimer",
-    "description": "Gratis Online-Spiller fir eeler Mënsche mat Demenz oder Alzheimer: Billerkoppelen, einfach Puzzelen, Sortéieren, Spréchwierder, Ausmoolen a Bingo. Ouni Umeldung, Zäitdrock oder Punkten.",
+    "title": "Gratis Spiller fir zesumme online ze spillen",
+    "description": "Gratis Online-Spiller fir eeler Leit, Familljen a Leit, déi mat Demenz liewen: Bildpaarer, einfach Puzzelen, Sortéieren, Spréch, ausmoolen a Bingo. Keng Umeldung, keng Timer a keng Punkten.",
     "crumb": "Spiller",
-    "h1": "Roueg Spiller fir Mënsche mat Demenz",
+    "h1": "Sanfte Spiller fir zesumme ze spillen",
     "lede": "{count} gratis Spiller fir zesummen am Browser ze spillen. Grouss Biller, einfach Wierder an näischt, wat ee falsch maache kann: keng Zäituhr, keng Punkten, keng Umeldung.",
-    "listName": "Roueg Spiller fir Mënsche mat Demenz",
+    "listName": "Sanfte Spiller fir zesumme ze spillen",
     "byStageTitle": "E Spill no Phas auswielen",
     "byStageLede": "D'Phas ass nëmmen eng ongeféier Orientéierung. Richt Iech no deem, wat der Persoun Spaass mécht a wat sech haut gutt ufillt.",
     "stageCol": "Phas",
     "gamesCol": "Spiller, déi dacks gutt passen",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Méi Iddien ewech vum Bildschierm: <a href=\"/activities/ideas/\">101 Aktivitéitsiddien</a>, <a href=\"/dementia-activities/\">Demenz-Aktivitéiten doheem</a> an <a href=\"/crafts/\">Bastelprojeten</a>.",
     "faq": [
       {
         "q": "Mat wat fir engem Spill sollte mir ufänken?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Sinn dat Gediechtnes-Spiller fir eeler Leit?",
-        "a": "Et si Biller- a Kopplungsspiller, un deenen all eeler Persoun Freed ka hunn, si sinn awer sou opgebaut, datt se d'Gediechtnes net testen: Bei Billerkoppele bleiwen d'Biller opgedeckt, ausser Dir wielt et anescht. Eise Guide fir Gediechtnes-Spiller fir eeler Mënsche mat Demenz erkläert, wéi all Gediechtnes-Spill roueg an ouni Stress bleift."
+        "a": "Et sinn Passspiller an Bildspiller, déi all eeler Mënsch genéisse kann, mee si sinn net dofir gemaach, d'Gedächtnis ze testen: bei Bildpaarer bleiwen d'Bilder ugewisen, ausser Dir wielt anescht. All Gedächtnisspill kann méi sanft gemaach ginn, andeems Dir den Timer an d'Punkten ewechhuelt."
       },
       {
         "q": "Gëtt et Spiller fir Gruppen an engem Fleegeheem?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Gëtt et eng App mat Aktivitéite bei Demenz?",
+        "q": "Gëtt et eng App fir eeler Leit an Familljen?",
         "a": "Jo. Creative Activities (ënner dem Numm \"{storeName}\") ass gratis am App Store an op Google Play ze kréien. D'App bitt rouegt Billerpueren op grousse Kaarten, Spiller mat eegene Familljefotoen a Billerpäck, déi offline funktionéieren."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Zum Ausdrécken",
     "howTo": "Wéi ee {name} spillt",
     "tips": "Tipps fir zesummen ze spillen",
-    "newToPlayingHtml": "Spillt Dir fir d'éischt mat enger Persoun mat Demenz? Liest <a href=\"/caregiving/how-to-play-together/\">wéi een zesumme Spiller spillt</a>, dorënner wat Dir maache kënnt, wann d'Persoun den Interessi verléiert.",
+    "newToPlayingHtml": "Nei am Spillen mat engem eelere Mënsch oder mat jidderengem, deen mat Demenz lieft? Liest <a href=\"/caregiving/how-to-play-together/\">wéi Dir zesumme spillt</a>, och wat ze maachen ass, wann d'Persoun d'Interesse verléiert.",
     "moreAria": "Méi fir z'entdecken",
     "helpfulGuides": "Hëllefräich Guiden",
     "appTitle": "An der App spillen",
@@ -536,6 +666,35 @@
     "goodToKnow": "Gutt ze wëssen",
     "goodToKnowText": "Dëst Spill ass fir Freed a gemeinsam Zäit geduecht. Et test, moosst oder behandelt näischt.",
     "moreGames": "Méi roueg Spiller",
-    "crumb": "Spiller"
+    "crumb": "Spiller",
+    "print": {
+      "heading": "Op Pabeier spillen",
+      "sameRules": "D'Pabeier-Versioun huet déiselwecht Reegelen wéi de Spill um Bildschierm:",
+      "button": "Eng Pabeier-Versioun drécken",
+      "pageNote": "Eng Säit op A4 oder US Letter, och a Schwaarz-Wäiss gutt. Versioun {date}.",
+      "islandNote": "Et dréckt dat, wat elo um Bildschierm steet. Versioun {date}.",
+      "sheetTitle": "{name}: Pabeier-Versioun",
+      "point": "Op Pabeier weist Dir op en Bild, anstatt drop ze tippen, oder Dir ëmkreest en mat engem Stëft. All Rei ass en neie Set.",
+      "pointTarget": "Op Pabeier ass dat Bild, dat ze kucken ass, am Kascht um Ufank vun all Rei. Weist op e Bild, anstatt drop ze tippen, oder ëmkreest en mat engem Stëft.",
+      "halves": "All Bild ass an der Mëtt duerchgeschnidden. Zitt eng Linn vun all Hallschent lénks bis zu der Hallschent riets, déi derzou passt, oder weist mat engem Fanger. Näischt muss geschnidden ginn.",
+      "grid": "All Quadrat huet eng Nummer. Sicht déi Nummer an der Erklärung, a faarft d'Quadrat mat engem Stëft an där Faarf. All aner Faarf, déi Dir gär hutt, ass och gutt. Näischt muss geschnidden ginn.",
+      "colors": "All Rei nennt eng Faarf. Weist op all Bild, dat déi Faarf huet, oder ëmkreest en mat engem Stëft. All Rei ass en neie Set.",
+      "dice": "All Rei ass e Set Wierfel. Wielt eng Rei aus, oder schneidt d'Bilder aus, zitt e puer aus engem Stapel a erzielt eng Geschicht mat hinnen, an all Reiefolleg. Jiddereen kann passen.",
+      "words": "Schneidt d'Wierder aus, oder zitt eng Linn vun all Wuert op säi Bild. Liest d'Wierder laut vir, wéi Dir weidergitt.",
+      "cards": "Schneidt d'Kaarte laanscht d'gestréchelt Linnen aus. Leet se mat der Bildsäit no uewen op de Tësch, a sicht d'Paire.",
+      "chain": "Op Pabeier liest d'Bilder vu lénks no riets, ee nom aneren. All Persoun sot een Saz iwwer d'Bilder bis elo, a weist dann op dat nächst Bild. Jiddereen kann passen.",
+      "sort": "Schneidt d'Bilder laanscht d'gestréchelt Linnen aus, an da leet all Bild an déi Këscht, wou en hiregehéiert.",
+      "puzzle": "Schneidt dat grousst Bild laanscht d'gestréchelt Linnen a véier Stécker a mëscht se. Tauscht ëmmer zwee Stécker, bis d'Bild ganz ass. Dat kleng Bild ass eng Hëllef.",
+      "cutSafety": "Eng Hëllef kann de Schneiden maachen, ier Dir ufänkt. Lee d'Scheeren duerno ewech.",
+      "version": "Versioun {date} · {url}",
+      "reasons": {
+        "photos": "Et gëtt keng Pabeier-Versioun. Dëse Spill benotzt Är eegen Fotoen, déi am Browser bleiwen a ni eropgelueden ginn, dofir kann d'Säit se net drécken. Fir op Pabeier ze spillen, drëckt zu Haus zwou Kopien vun e puer Liiblingsfotoen a paart se um Tësch.",
+        "paced": "Et gëtt keng Pabeier-Versioun. De Kreis setzt op dem Bildschierm e lues, reegelméissegt Tempo, a eng gedréckt Säit kann dat net maachen; et wier dann eng aner Aktivitéit. Eng roueg Paus zesumme ouni Bildschierm ass ëmmer eng Méiglechkeet.",
+        "turns": "Et gëtt keng Pabeier-Versioun fir dëse Spill. Fir Paaren um Tësch ze fannen, drëckt d'Bildkaarte vu Bildpaarer aus a wiesselt Iech of beim Ëmdréinen.",
+        "screen": "Es gibt keng Papierversioun. Dat ass e Bild, dat Dir zesumme um Bildschierm kuckt; e Lieblingsbild oder eng Kaart um Dësch mécht dat selwecht.",
+        "wash": "Es gëtt keng Papierversioun. Aquarell op Papier funktionéiert ähnlech: en nassen Pinsel an eng Faarf nach der anerer.",
+        "sayings": "Et gëtt nach keng Papierversioun. Um Papier wiereALL Enden op eemol ze gesinn, an de sanfte Schrëtt \"Den Enn weisen\" géif verluer goen. Liest d'Sprëch zesumme vum Bildschierm of deelt e puer, déi Dir beid kennt."
+      }
+    }
   }
 }
