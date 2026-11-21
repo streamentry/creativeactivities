@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import '../../styles/partner-sheets.css';
+import { breadcrumbs } from '../../lib/schema';
+import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
+import { CARE_PLANS } from '../../lib/care-setting-plans';
+import { pickCards } from '../../lib/partner-sheets';
+
+const crumbs = [
+  { href: '/for-organizations/', label: 'For organizations' },
+  { href: '/for-organizations/activity-director/', label: 'Activity director summary' },
+];
+// The session plans already on the care-settings page. Names come from the cards, so a card that is missing fails the build.
+const all = await getCollection('activityCards');
+const plans = CARE_PLANS.map((plan) => ({
+  minutes: plan.minutes,
+  names: pickCards(all, plan.cards, plan.minutes).map((card) => card.data.name),
+}));
+---
+<BaseLayout
+  title="Activity director summary"
+  description="A one-page summary for activity directors: what the free activity cards offer, the weekly program, the 10, 20 and 30 minute session plans, and links."
+  jsonLd={[breadcrumbs(crumbs)]}
+  canonicalPath="/for-organizations/activity-director/"
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container partner-sheets">
+    <header class="partner-sheets__intro no-print">
+      <p class="eyebrow">For activity directors</p>
+      <h1>Activity director summary</h1>
+      <p class="lede">One page to share with a team: what this site offers, the plans it already has, and where to find them. It is not a care plan and not a clinical program.</p>
+      <p>Print this page. It prints on one sheet on A4 or US Letter.</p>
+      <p>{SCOPE_LINE}</p>
+    </header>
+
+    <article class="partner-sheet" aria-labelledby="director-sheet">
+      <p class="partner-sheet__kicker">Activity director summary</p>
+      <h2 id="director-sheet">What the site offers</h2>
+      <ul>
+        <li>Free printable activity cards. Each has what you need, the steps, a plainer version and easier, bedside, low-vision and group versions.</li>
+        <li>No account and no sign-up. Print at home or at the center.</li>
+        <li>Activities to do together, for enjoyment and time together.</li>
+      </ul>
+
+      <h3>Weekly program</h3>
+      <p>A printable week of activities with a room and group-size line for each day: <a href="/activity/weekly-program/">the weekly program</a>.</p>
+
+      <h3>Session plans, 10, 20 and 30 minutes</h3>
+      {plans.map((plan) => (
+        <p><strong>{plan.minutes} minutes:</strong> {plan.names.join(', ')}.</p>
+      ))}
+      <p>The plans, with the staff summaries, are at <a href="/for-organizations/care-settings/">care settings</a>.</p>
+
+      <h3>Activity of the week</h3>
+      <ol>
+        <li>Pick one card that suits the group. The card lists its activity time, setup and materials.</li>
+        <li>Check the materials on the card before the session.</li>
+        <li>Offer the group version if the group is more than one person.</li>
+        <li>Stop when the person wants to stop. Trying again another day is fine.</li>
+      </ol>
+
+      <h3>Where to find things</h3>
+      <ul>
+        <li><a href="/activity/">Find an activity</a></li>
+        <li><a href="/printables/">Printables</a></li>
+        <li><a href="/for-organizations/library-programming/">Library programming sheet</a></li>
+        <li><a href="/for-organizations/facilitator-note/">Facilitator note</a></li>
+      </ul>
+
+      <p><strong>Note:</strong> {PAUSE_LINE}</p>
+      <p class="partner-sheet__foot">Adaptations are suggestions. Taking part is always a choice.</p>
+    </article>
+  </div>
+</BaseLayout>

@@ -114,6 +114,21 @@ export function printableGroups(input: PrintableInput): PrintableGroup[] {
           note: 'One sheet of tick boxes for everyday items at home, to find activities you can start now.',
         },
         {
+          href: '/for-organizations/library-programming/',
+          label: 'Library programming sheet',
+          note: 'One sheet for a 30-minute drop-in session at a library, with a materials checklist from three cards.',
+        },
+        {
+          href: '/for-organizations/activity-director/',
+          label: 'Activity director summary',
+          note: 'One sheet for activity directors: what the site offers, the weekly program and the session plans.',
+        },
+        {
+          href: '/for-organizations/facilitator-note/',
+          label: 'Facilitator note',
+          note: 'One sheet to read to the group at the start: what to expect, and that anyone may watch or stop.',
+        },
+        {
           href: '/printables/blank-activity-card/',
           label: 'Blank activity card',
           note: 'A two-sided card to write your own activity, with the same headings as the cards on this site.',

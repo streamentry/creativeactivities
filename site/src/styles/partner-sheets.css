@@ -1,0 +1,133 @@
+/* SEO-025: one-page partner sheets for libraries, activity directors and facilitators. On screen, an intro and a sheet.
+   On paper, the sheet is the whole page, one page on A4 and US Letter (checked by check-print.mjs). Tokens only. */
+.partner-sheets {
+  max-width: var(--content-max);
+}
+.partner-sheets__intro {
+  margin-block-end: var(--space-lg);
+}
+.partner-sheet {
+  color: var(--gm-on-surface);
+  background: var(--gm-surface);
+  border: 1px solid var(--gm-outline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+.partner-sheet h2 {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--text-h2);
+}
+.partner-sheet h3 {
+  margin: var(--space-md) 0 var(--space-xs);
+  font-size: var(--text-title-lg);
+}
+.partner-sheet__kicker {
+  margin: 0;
+  font-weight: 700;
+  color: var(--gm-on-surface-variant);
+}
+.partner-sheet__facts {
+  margin-block: var(--space-md);
+}
+.partner-sheet__facts > div {
+  border-block-start: 1px solid var(--gm-outline);
+  padding-block: var(--space-xs);
+}
+.partner-sheet__facts dt {
+  font-weight: 700;
+}
+.partner-sheet__facts dd {
+  margin: 0;
+}
+.partner-sheet__card {
+  border-block-start: 1px solid var(--gm-outline);
+  padding-block: var(--space-sm);
+}
+.partner-sheet__card h3 {
+  margin-block-start: 0;
+}
+.partner-sheet__label {
+  margin-block: var(--space-xs) 0;
+  font-weight: 700;
+}
+.partner-sheet__checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.partner-sheet__checklist > li {
+  display: flex;
+  gap: var(--space-xs);
+  align-items: flex-start;
+}
+.partner-sheet__box {
+  flex: none;
+  display: inline-block;
+  inline-size: 1em;
+  block-size: 1em;
+  margin-block-start: 0.2em;
+  border: 1px solid var(--gm-on-surface);
+}
+.partner-sheet__field {
+  margin-block: var(--space-md);
+  border-block-end: 1px solid var(--gm-on-surface);
+  padding-block-end: 1.5rem;
+}
+.partner-sheet__foot {
+  font-size: 0.9em;
+  color: var(--gm-on-surface-variant);
+}
+
+@media print {
+  .partner-sheet {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: #000;
+  }
+  .partner-sheet p,
+  .partner-sheet li,
+  .partner-sheet dd,
+  .partner-sheet dt {
+    font-size: 12pt;
+    line-height: 1.3;
+    margin-block: 1.5mm;
+  }
+  .partner-sheet h2 {
+    font-size: 16pt;
+    margin-block: 0 2mm;
+  }
+  .partner-sheet h3 {
+    font-size: 13pt;
+    margin-block: 2.5mm 1mm;
+  }
+  .partner-sheet__card {
+    break-inside: avoid;
+  }
+  /* The card summary is on the full card; the sheet keeps the time, setup, group version and materials. */
+  .partner-sheet__summary {
+    display: none;
+  }
+  .partner-sheet__checklist {
+    columns: 2;
+    column-gap: 6mm;
+  }
+  .partner-sheet__checklist > li {
+    break-inside: avoid;
+  }
+  .partner-sheet__facts > div {
+    padding-block: 0.5mm;
+  }
+  .partner-sheet__card {
+    padding-block: 1mm;
+  }
+  .partner-sheet__field {
+    margin-block: 3mm;
+    padding-block-end: 6mm;
+  }
+  .partner-sheet__foot {
+    font-size: 10pt;
+  }
+}

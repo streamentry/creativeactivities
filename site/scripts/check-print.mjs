@@ -344,6 +344,43 @@ async function cnt7Templates(context, base, failures, record) {
   }
 }
 
+/**
+ * SEO-025: each partner sheet (library programming, activity director, facilitator note) is one sheet on each paper size,
+ * with the site header hidden and the sheet text at least 12 pt.
+ */
+export const PARTNER_SHEET_PAGES = 1;
+const PARTNER_MIN_PT = 12;
+export const PARTNER_SHEET_URLS = [
+  '/for-organizations/library-programming/',
+  '/for-organizations/activity-director/',
+  '/for-organizations/facilitator-note/',
+];
+
+async function partnerSheets(context, base, failures, record) {
+  for (const url of PARTNER_SHEET_URLS) {
+    const page = await context.newPage();
+    await page.goto(`${base}${url}`, { waitUntil: 'networkidle' });
+    await page.emulateMedia({ media: 'print' });
+    const hidden = await page.evaluate(() => {
+      const header = document.querySelector('.site-header');
+      return !!header && getComputedStyle(header).display === 'none';
+    });
+    const textPt = await page.evaluate(() => {
+      const sizes = [...document.querySelectorAll('.partner-sheet p, .partner-sheet li, .partner-sheet h2, .partner-sheet h3, .partner-sheet dd, .partner-sheet dt')]
+        .filter((el) => el.offsetParent !== null && el.textContent.trim() !== '')
+        .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
+      return sizes.length ? Math.min(...sizes) : null;
+    });
+    const counts = {};
+    for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+    const ok = hidden && textPt !== null && textPt >= PARTNER_MIN_PT && FORMATS.every((f) => counts[f] === PARTNER_SHEET_PAGES);
+    if (!ok) failures.push({ slug: `partner sheet ${url}`, counts, hidden, textPt });
+    record('partner sheet', ok);
+    console.log(`partner sheet ${url.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${PARTNER_SHEET_PAGES}  navigation hidden ${hidden ? 'yes' : 'NO'}  text ${textPt?.toFixed(0) ?? 'none'} pt (at least ${PARTNER_MIN_PT})  ${ok ? 'ok' : 'FAIL'}`);
+    await page.close();
+  }
+}
+
 async function main() {
   if (!existsSync(join(DIST, 'index.html'))) {
     console.error('dist/ is missing. Run `pnpm build` first.');
@@ -527,6 +564,7 @@ async function main() {
     await translatedPage(context, base, failures, record, 'translated hub', 'ar: activities', '/ar/activities/', TRANSLATED_HUB_PAGES);
     await careSheets(context, base, failures, record);
     await cnt7Templates(context, base, failures, record);
+    await partnerSheets(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }
