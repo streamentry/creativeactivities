@@ -37,10 +37,10 @@ describe('review queue (WEB-076, TSA-036)', () => {
     expect(entry.daysOverdue).toBe(31);
   });
 
-  it('reads the review date, then updated, then published, never inventing one', () => {
-    expect(readFrontmatterDates('updated: 2026-01-02\npublished: 2025-01-01')).toBe('2026-01-02');
-    expect(readFrontmatterDates('published: 2025-01-01')).toBe('2025-01-01');
+  it('dates a page only by its review, never by its update or publication (MET-011)', () => {
     expect(readFrontmatterDates('review:\n  name: A Person\n  date: 2026-03-04\nupdated: 2026-01-02')).toBe('2026-03-04');
+    expect(readFrontmatterDates('updated: 2026-01-02\npublished: 2025-01-01')).toBeNull();
+    expect(readFrontmatterDates('published: 2025-01-01')).toBeNull();
     expect(readFrontmatterDates('title: no dates')).toBeNull();
   });
 

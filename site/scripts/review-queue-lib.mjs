@@ -30,16 +30,14 @@ export function dueDate(checked, months) {
 }
 
 /**
- * The date a page was last checked: a named review's date, else `updated`, else `published`.
- * Returns null when the page carries none; a missing date is reported, never invented.
+ * The date a page was last reviewed: the review record's date only (MET-011).
+ * An edit (`updated`) or the first publication never counts as a review, so a page
+ * with no review record returns null and is reported as not yet reviewed.
  * @param {string} frontmatter
  * @returns {string | null}
  */
 export function readFrontmatterDates(frontmatter) {
-  const review = frontmatter.match(/^review:\n(?:[ \t]+.*\n)*?[ \t]+date: (\d{4}-\d{2}-\d{2})/m)?.[1];
-  const updated = frontmatter.match(/^updated: "?(\d{4}-\d{2}-\d{2})"?/m)?.[1];
-  const published = frontmatter.match(/^published: "?(\d{4}-\d{2}-\d{2})"?/m)?.[1];
-  return review ?? updated ?? published ?? null;
+  return frontmatter.match(/^review:\n(?:[ \t]+.*\n)*?[ \t]+date: (\d{4}-\d{2}-\d{2})/m)?.[1] ?? null;
 }
 
 /**

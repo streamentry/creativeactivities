@@ -53,8 +53,10 @@ const qr = qrSvg(`${SITE.url}${path}`, `QR code for the ${d.name} page`);
 const dateText = (date: Date) =>
   date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const isoDate = (date: Date) => date.toISOString().slice(0, 10);
+/** MET-011: only a review date counts; an edit never resets the clock, and a card with no review is not yet reviewed. */
+const reviewedOn = d.review?.date ? isoDate(d.review.date) : null;
 /** WEB-076, TSA-036: past its review date at build time, the card says so; the date is never refreshed without a review. */
-const reviewDue = overdueSince(isoDate(d.review?.date ?? d.updated), isoDate(new Date()));
+const reviewDue = reviewedOn ? overdueSince(reviewedOn, isoDate(new Date())) : null;
 
 const all = await getCollection('activityCards');
 const shown = listedActivities(all);
@@ -327,9 +329,15 @@ const jsonLd = withdrawn
       <p>
         {/* Explicit spaces: Astro drops the line breaks between text, expressions and tags. */}
         By {d.author}.{' '}
-        {reviewByline(d.review, dateText(d.review?.date ?? d.updated))}{' '}
+        {d.review && <>{reviewByline(d.review, dateText(d.review.date))}{' '}</>}
         Published <time datetime={isoDate(d.published)}>{dateText(d.published)}</time>, updated{' '}
         <time datetime={isoDate(d.updated)}>{dateText(d.updated)}</time>.{' '}
+        {!reviewedOn && (
+          <>
+            <strong data-review-missing>Not yet reviewed by an outside reviewer.</strong>{' '}
+            Read the safety notes with extra care until it is.{' '}
+          </>
+        )}
         {reviewDue && (
           <>
             <strong data-review-due>Due for a check since <time datetime={reviewDue}>{dateText(new Date(`${reviewDue}T00:00:00Z`))}</time>.</strong>{' '}

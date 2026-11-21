@@ -49,6 +49,8 @@ if (process.argv.includes('--json')) {
   for (const e of queue) {
     console.log(`${e.safetyFlagged ? 'SAFETY ' : '       '}${e.kind.padEnd(8)} ${e.id.padEnd(60)} checked ${e.checked}, due ${e.due}, ${e.daysOverdue} days overdue`);
   }
-  for (const m of missing) console.log(`NO DATE  ${m}`);
-  console.log(`\n${queue.length} of ${items.length} pages past a ${REVIEW_INTERVAL_MONTHS}-month review (today ${today}); ${missing.length} with no date.`);
+  for (const m of missing) console.log(`NOT REVIEWED  ${m}`);
+  console.log(
+    `\n${queue.length} of ${items.length} reviewed pages past a ${REVIEW_INTERVAL_MONTHS}-month review (today ${today}); ${missing.length} not yet reviewed (no review record; an update does not count as a review).`,
+  );
 }
