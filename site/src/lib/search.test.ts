@@ -113,6 +113,13 @@ describe('search (WEB-003)', () => {
     expect(search(index, 'zzzqx').groups).toEqual([]);
   });
 
+  it('offers the activity finder whenever no card or situation is in the answer (WEB-003)', () => {
+    expect(search(index, 'zzzqx').finder).toBe(true);
+    expect(search(index, 'the and for').finder).toBe(true);
+    expect(search(index, 'paint').finder).toBe(false);
+    expect(search(index, 'pictures').finder).toBe(true);
+  });
+
   it('lists activities first, then situations, games and guides', () => {
     const kinds = search(index, 'rainy paper').groups.map((g) => g.kind);
     const order = ['activity', 'hub', 'game', 'guide'];
@@ -275,9 +282,12 @@ describe('a guide-only match (WEB-003)', () => {
     expect(shown.map((e) => e.url)).toContain('/activity/paint-with-watercolors/');
   });
 
-  it('still shows a guide that no card or situation links to, rather than hiding a real answer', () => {
-    const shown = hitsOf(search(prepare([card, orphanGuide]), 'rainy'));
-    expect(shown.map((e) => e.kind)).toEqual(['guide']);
+  // WEB-003: a guide that no card or situation links to does not appear alone as a result.
+  it('does not show a guide that no card or situation links to when it would be the only answer', () => {
+    const r = search(prepare([card, orphanGuide]), 'rainy');
+    expect(hitsOf(r)).toEqual([]);
+    expect(r.match).toBe('none');
+    expect(r.finder).toBe(true);
   });
 
   it('leaves the results alone when a card or situation already matches', () => {
@@ -285,18 +295,42 @@ describe('a guide-only match (WEB-003)', () => {
     expect(hitsOf(r).map((e) => e.url)).toEqual(['/activity/paint-with-watercolors/']);
   });
 
-  // WEB-003: a guide title should lead to a card or situation too. Guides that no card or situation links to
-  // still answer with the guide alone; there were 14 on 2026-11-21. Linking a card to them is content work,
-  // and this number may only go down.
-  const GUIDE_ONLY_TITLES_AT_MOST = 14;
-  it('keeps the guides that answer only with themselves from growing', () => {
-    const guideOnly = real
-      .filter((e) => e.kind === 'guide')
-      .filter((guide) => {
-        const r = search(realIndex, guide.title);
-        return r.match !== 'none' && !hitsOf(r).some((e) => e.kind === 'activity' || e.kind === 'hub');
-      })
-      .map((g) => g.title);
-    expect(guideOnly.length, guideOnly.join('; ')).toBeLessThanOrEqual(GUIDE_ONLY_TITLES_AT_MOST);
+  // WEB-003: no guide is shown without a card or situation beside it. Guides that no page links to
+  // (14 English guides on 2026-11-21) are left out when they would be alone; they do not count as answers.
+  it('never shows a guide alone, on the real pages', () => {
+    for (const guide of real.filter((e) => e.kind === 'guide')) {
+      const shown = hitsOf(search(realIndex, guide.title));
+      if (shown.some((e) => e.kind === 'guide')) {
+        expect(shown.some((e) => e.kind === 'activity' || e.kind === 'hub'), guide.title).toBe(true);
+      }
+    }
+  });
+});
+
+describe('a game-only match (WEB-003)', () => {
+  const game = { ...entry('game', 'Picture pairs', 'Match two pictures'), url: '/games/picture-pairs/' };
+  const paint = { ...entry('activity', 'Paint with watercolors', 'Paint soft colors'), url: '/activity/paint-with-watercolors/' };
+  const album = { ...entry('activity', 'Look through a photo album', 'Share old snapshots'), url: '/activity/look-through-a-photo-album/' };
+  const hitsOf = (r: ReturnType<typeof search>) => r.groups.flatMap((g) => g.hits.map((h) => h.entry));
+
+  it('leads to a card that shares a word with the question, under the game', () => {
+    const r = search(prepare([paint, album, game]), 'picture pairs');
+    expect(hitsOf(r).map((e) => e.url)).toContain('/games/picture-pairs/');
+    expect(hitsOf(r).map((e) => e.url)).toContain('/activity/look-through-a-photo-album/');
+    expect(r.finder).toBe(false);
+  });
+
+  it('offers the activity finder when no card or situation shares a word with it', () => {
+    const r = search(prepare([paint, game]), 'pictures');
+    expect(hitsOf(r).map((e) => e.url)).toEqual(['/games/picture-pairs/']);
+    expect(r.finder).toBe(true);
+  });
+
+  it('gives every real game a card or situation when its name is typed', () => {
+    const withoutCard = GAMES.filter((g) => {
+      const kinds = search(realIndex, g.name).groups.flatMap((x) => x.hits.map((h) => h.entry.kind));
+      return !kinds.some((k) => k === 'activity' || k === 'hub');
+    }).map((g) => g.name);
+    expect(withoutCard, withoutCard.join('; ')).toEqual([]);
   });
 });
