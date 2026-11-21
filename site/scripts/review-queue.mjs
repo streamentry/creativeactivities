@@ -62,9 +62,11 @@ if (process.argv.includes('--json')) {
     const owner = `${e.owner}${e.ownerDefaulted ? ' (defaulted)' : ''}`;
     console.log(`${e.safetyFlagged ? 'SAFETY ' : '       '}${e.kind.padEnd(8)} ${e.id.padEnd(60)} owner ${owner.padEnd(28)} checked ${e.checked}, due ${e.due}, ${e.daysOverdue} days overdue`);
   }
-  for (const m of missing) console.log(`NO DATE  ${m}`);
+  for (const m of missing) console.log(`NOT REVIEWED  ${m}`);
   const scope = ownerFilter ? `, owner ${ownerFilter}` : '';
-  console.log(`\n${queue.length} of ${items.length} pages past a ${REVIEW_INTERVAL_MONTHS}-month review (today ${today}${scope}); ${missing.length} with no date.`);
+  console.log(
+    `\n${queue.length} of ${items.length} reviewed pages past a ${REVIEW_INTERVAL_MONTHS}-month review (today ${today}${scope}); ${missing.length} not yet reviewed (no review record; an update does not count as a review).`,
+  );
   const summary = Object.entries(ownerSummary(queue)).map(([role, n]) => `${role} ${n}`).join(', ');
   if (summary) console.log(`By owner: ${summary}.`);
 }

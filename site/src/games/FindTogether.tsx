@@ -42,6 +42,38 @@ const newBoard = (cards: CardCount): FindState => deal(cards, PICTURE_IDS, creat
 const FIRST_BOARD_SEED = 1;
 const firstBoard = (cards: CardCount): FindState => deal(cards, PICTURE_IDS, createRng(FIRST_BOARD_SEED));
 
+/** WEB-054: what Rest keeps. Picture ids and card states only. */
+interface SavedBoard {
+  cards: CardCount;
+  view: View;
+  game: FindState;
+}
+
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+
+/**
+ * A saved board is kept only when it has the shape this game deals: a card count from the choices, a view, a turn,
+ * each picture on exactly two cards, at most two cards turned, and none of those turned is matched.
+ */
+function checkBoard(b: unknown): boolean {
+  if (!isRecord(b) || !isRecord(b.game)) return false;
+  const cards = b.cards;
+  const game = b.game;
+  const tiles = game.tiles;
+  const turned = game.turned;
+  if (!(CARD_COUNTS as readonly unknown[]).includes(cards) || (b.view !== 'showing' && b.view !== 'hidden')) return false;
+  if (!Array.isArray(tiles) || tiles.length !== cards || (game.turn !== 0 && game.turn !== 1)) return false;
+  if (!Array.isArray(turned) || turned.length > 2) return false;
+  const counts = new Map<string, number>();
+  for (const tile of tiles) {
+    if (!isRecord(tile) || typeof tile.key !== 'string' || typeof tile.value !== 'string' || typeof tile.matched !== 'boolean') return false;
+    if (!PICTURE_IDS.includes(tile.value)) return false;
+    counts.set(tile.value, (counts.get(tile.value) ?? 0) + 1);
+  }
+  if ([...counts.values()].some((n) => n !== 2)) return false;
+  return turned.every((i) => typeof i === 'number' && Number.isInteger(i) && i >= 0 && i < tiles.length && tiles[i]?.matched === false);
+}
+
 /**
  * Find together (GAME-047): two people share one screen. Each turn, the person whose
  * turn it is turns over two cards. A pair is found together; two different cards stay
@@ -131,6 +163,15 @@ export default function FindTogether(props: PlayProps) {
     commit(newBoard(n));
   };
 
+  const restoreBoard = (b: unknown) => {
+    if (!checkBoard(b)) return;
+    const saved = b as SavedBoard;
+    setCards(saved.cards);
+    setView(saved.view);
+    commit({ tiles: saved.game.tiles, turn: saved.game.turn, turned: saved.game.turned });
+    setMessage('');
+  };
+
   const done = isFinished(game);
   const waiting = isWaiting(game);
   const showing = view === 'showing';
@@ -147,6 +188,7 @@ export default function FindTogether(props: PlayProps) {
       ui={ui}
       lang={lang}
       guidance={ui.findTogether.guidance}
+      place={{ slug: 'find-together', save: () => ({ cards, view, game }), check: checkBoard, restore: restoreBoard }}
       message={message}
       options={
         <>

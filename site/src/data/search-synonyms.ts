@@ -26,6 +26,7 @@ export const SYNONYM_GROUPS: readonly (readonly string[])[] = [
   ['indoor', 'indoors', 'rainy', 'rain'],
   ['group', 'groups', 'class', 'classes', 'workshop'],
   ['visit', 'visits', 'visiting', 'visitor', 'visitors'],
+  ['picnic', 'picnics', 'outing', 'outings'],
   // How long, how hard
   ['fiveminutes', 'quick', 'short', 'brief'],
   ['easy', 'easier', 'simple', 'gentle'],
@@ -45,7 +46,7 @@ export const SYNONYM_GROUPS: readonly (readonly string[])[] = [
   ['rhythm', 'beat', 'drum', 'drumming', 'tap', 'tapping'],
   ['dance', 'dancing', 'movement', 'move', 'moving'],
   // Photos and memories
-  ['photo', 'photos', 'photograph', 'photographs', 'picture', 'pictures', 'snapshot', 'album'],
+  ['photo', 'photos', 'photograph', 'photographs', 'picture', 'pictures', 'snapshot', 'album', 'scrapbook', 'scrapbooks'],
   ['reminiscence', 'reminisce', 'memories', 'nostalgia', 'keepsake', 'keepsakes'],
   // Outdoors and nature
   ['flower', 'flowers', 'bouquet', 'blossom', 'blooms'],

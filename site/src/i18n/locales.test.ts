@@ -36,9 +36,10 @@ describe('which languages search engines may index', () => {
     for (const code of ['en', 'es', 'ja', 'bn', 'fa']) expect(isIndexable(code), code).toBe(true);
   });
 
-  it('indexes even the weakest machine translations (maintainer decision, 2026-11-01)', () => {
-    for (const code of ['ha', 'am', 'my', 'ps', 'so', 'om', 'sd']) expect(isIndexable(code), code).toBe(true);
-    expect(HELD_FROM_INDEX.size).toBe(0);
+  it('holds the weakest seven machine translations until a native reviewer checks each (L10N-033, 2026-11-21)', () => {
+    const held = ['ha', 'am', 'my', 'ps', 'sd', 'so', 'om'];
+    for (const code of held) expect(isIndexable(code), code).toBe(false);
+    expect([...HELD_FROM_INDEX].sort()).toEqual([...held].sort());
   });
 
   it('keeps a held language out of the index', () => {

@@ -530,6 +530,14 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Seasonal puzzle pack chooses a month, opening on the current month | GAME-040 partial | Built by a Haiku subagent; seven everyday pictures per month, no festivals; three months lean on northern images (marked) |
 | Long steps and hub sentences shortened | TSA-008 partial | Built by a Haiku subagent, which also joined 40 short step pairs with "since"; review restored 26 cards (longer sentences, one changed meaning) and kept three cards' real fixes at version 2 |
 
+### Batch 61 (2026-11-21): partner sheets, printable card PDFs and a 96 px header logo
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Three one-page partner sheets (library programming, activity director summary, facilitator note), held from search, linked from the English for-organizations page, with a feedback line on screen only | SEO-025 partial | Checked against the SEO-025 spec. Fixes: each sheet prints on one A4 and one Letter page (the library sheet had spilled onto two), print color from the print token instead of black, and a feedback line (the spec asks for feedback). No logo, partner name or endorsement; card names and times come from the live cards, and the build fails if a card is missing or withdrawn |
+| Print-ready activity card PDFs for A4 and Letter (`card-pdf-lib.mjs`, with tests) | PLAT-019 | Reviewed before this batch |
+| Header logo at 96 px (`brand-mark.png`) | No spec item | The header mark only, no partner logo; not separately reviewed in this batch |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -545,28 +553,32 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 <!-- cspell:ignore démence apparentées cognitifs maladie maladies troubles الخرف الزهايمر -->
 ## Decisions only the maintainer can make
 
-Each of these blocks work that no one else can unblock. The last column is a suggestion to make the decision quicker. None is decided, and nothing in the repository acts on it.
+The maintainer asked on 2026-11-21 for the suggested option to be chosen for every open decision. This one remains because only the maintainer can act on it:
 
 | Decision | Unblocks | Options | Suggested |
 | --- | --- | --- | --- |
-| Hosting plan | Any page type that exists in every language (each adds about 189 files); PLAT-015 | Stay on the Cloudflare Free plan (20,000 files per version; 18,923 in use after the re-translation in #112, 94.6%, about 1,077 files of headroom) or move to Paid (100,000) | Move to Paid before adding another all-language page type; until then add new page types for English only |
-| Indexing the weakest seven expansion languages: Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo (L10N-033) | L10N-020, L10N-033 | Index them now, as the 2026-11-01 decision says, or keep them `noindex` until a native reviewer has checked each | Keep `noindex` until reviewed; the review guide already puts these seven first |
-| Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md |
-| Crawlers for AI products (SEO-035) | SEO-035, SEO-019 | Allow all (today, including GPTBot); allow search crawlers (Googlebot, Bingbot, OAI-SearchBot) and disallow training crawlers; disallow all | Allow search crawlers, decide training separately, never block Googlebot or Bingbot; `robots.txt` is a request, not access control |
-| AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | CNT-032, CNT-030 | Adopt the written rule and the one-line disclosure, with the wording confirmed by counsel, or not | Adopt, with counsel confirming the wording before it ships |
-| A first-party "We tried this" counter (PLAT-027) | PLAT-027, MET-001, MET-002, MET-003 | None (Google Analytics with consent only), or a cookieless endpoint that stores daily counts per activity and language with small cells hidden (proposed minimum 10) | Approve it in principle: Google Analytics cannot see an activity done away from the screen, and the north star is confirmed starts |
-| A service worker for offline reading (WEB-040, PLAT-034) | WEB-040, PLAT-034 | Keep `worker-src 'none'` in the security headers (no offline reading on the web) or allow a reviewed service worker for the site's own address | Allow it after a privacy review; care homes with poor Wi-Fi are the case for it |
-| The app's automatic rating prompt (APP-019) | APP-019, GM-001 | Keep the prompt the app shows after 4 finished games on 2 days (`lib/shared/rating/review_request.dart`), or change the app so the person opens the rating control, as APP-019 says | Change the app: the spec and DESIGN.md forbid prompts the person did not ask for |
-| The seven live kids guides (SEO-041) | SEO-041 | Keep the guides for parents in `site/src/content/guides/kids/` (adult-facing, so not behind the child-facing gate) and change SEO-041, or move them to hub links only as SEO-041 says | Keep them and change SEO-041: they are written for adults and already published; removing pages loses links |
-| Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
-| The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
-| Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
-| Six variations per card (CNT-902) | CNT-902, CNT-901 | Nine cards have six variations, the schema maximum, and none for a large grip. Raise the limit to seven (each card must still print on one two-sided sheet), or replace a weaker variation on each | Replace on each card after an occupational therapist has read them; keep the limit, which protects the printed sheet |
-| Language review order (L10N-002) | L10N-002, L10N-004 | The review-order table in the native review guide differs from the order in `release-status.json` from position 20 on, and its own text says both "review the later languages first" and "review Hausa and the six weakest first" | Keep `release-status.json` as the single order and fix the guide's table to match |
-| Analytics on the kids guides (CNT-880) | CNT-880 | The guides under `/kids/` load the analytics consent bar like other pages; CNT-880 says no trackers on pages a child can reach. Keep it there (the guides are written for parents), or turn it off there as on Photo pairs | Turn it off on `/kids/`: it costs little and matches the rule as written |
-| The reader-facing "Due for a check" notice (MET-011) | MET-011, WEB-076 | `review-queue-lib.mjs` still dates a page with no review by its last update, so an edit hides it from the queue and the notice. Change it to count only reviews (then every card shows as never reviewed), or keep it | Change it, with the notice reworded to "not yet reviewed" so readers are not alarmed |
+| Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md. **Done 2026-11-21:** steps 1–4 set and published (container version 2 turns off the Google tag's automatic events and user-provided data); step 5 checked on the live site in a browser, not yet with Tag Assistant in a fresh profile |
 
-| A parent organization named only in structured data (SEO-013) | SEO-013, TSA-049 | The JSON-LD names "Cloudjet Solutions Pte. Ltd." as a parent organization; no visible page says so. Say it on the About page, or remove it from the JSON-LD | Say it on the About page if it is true: structured data should not claim what the page does not show |
+### Decided on 2026-11-21 (the suggested option, by the maintainer's instruction)
+
+| Decision | Chosen | Status |
+| --- | --- | --- |
+| Hosting plan | Workers Paid (100,000 files per version) | Already in place: the account is on Paid (dashboard checked 2026-11-21); `check:capacity` now uses the Paid limit, so the site is at about 19%, not 95% |
+| Indexing the weakest seven expansion languages: Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo (L10N-033) | Keep them out of the search index until a native reviewer has checked each | Done in batch 62: added to `HELD_FROM_INDEX` |
+| Crawlers for AI products (SEO-035) | Allow search crawlers, disallow AI-training crawlers; never block Googlebot or Bingbot | Done in batch 62: `robots.txt` generated from a list |
+| AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | Adopt the rule and the one-line disclosure | Waits on counsel to confirm the wording before it ships |
+| A first-party "We tried this" counter (PLAT-027) | Approve in principle: a cookieless count per activity and language, small cells hidden (minimum 10) | Not built: needs its privacy note (MET-037) and a hosting endpoint first |
+| A service worker for offline reading (WEB-040, PLAT-034) | Allow a reviewed service worker for the site's own address | Not built: needs a privacy review first |
+| The app's automatic rating prompt (APP-019) | Change the app so the person opens the rating control (APP-019) | Not built: needs the Flutter SDK and a device check |
+| The seven live kids guides (SEO-041) | Keep the guides for parents; SEO-041 changed to match | Done in batch 62 (spec) |
+| Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | Turn it off, as on Photo pairs | Done in batch 62 |
+| The word for dementia in four live languages (L10N-007) | Use the term the project's research recommends, after a native reviewer confirms it | Waits on native reviewers (L10N-007) |
+| Units on cards (L10N-014) | Keep US customary until a reviewer for metric units is named | No change needed |
+| Six variations per card (CNT-902) | Keep the limit (it protects the printed sheet); replace a weaker variation on each of the nine cards after an occupational therapist has read them | Waits on an occupational therapist |
+| Language review order (L10N-002) | `release-status.json` is the single order; the weakest seven are reviewed first | Done in batch 62: the native review guide's table now follows it |
+| Analytics on the kids guides (CNT-880) | Turn it off on every `/kids/` page | Done in batch 62 |
+| The reader-facing "Due for a check" notice (MET-011) | Count only reviews; a page with none says it has not yet been reviewed | Done in batch 62 |
+| A parent organization named only in structured data (SEO-013) | Say it on the About page | Done in batch 62 |
 
 ## Next batches (buildable without a person)
 

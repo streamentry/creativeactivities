@@ -227,14 +227,14 @@ export const LOCALES: readonly LocaleInfo[] = [
  * are unreviewed and link to the English original. Remove a code to make that
  * language `noindex` again; TRANSLATING.md tracks which are reviewed.
  *
- * `HELD_FROM_INDEX` is the way to pull a language back out: its pages stay
+ * `HELD_FROM_INDEX` pulls a language out of the index: its pages stay
  * reachable and labelled but become `noindex` and drop out of the sitemaps,
- * hreflang and llms.txt. It is empty: on 2026-11-01 the maintainer chose to
- * index every language, including the weakest machine translations (Hausa,
- * Amharic, Burmese, Pashto, Sindhi, Somali, Oromo), which native speakers
- * should review first.
+ * hreflang and llms.txt. On 2026-11-21 the maintainer held the weakest seven
+ * machine translations (L10N-033) until a native reviewer has checked each:
+ * Hausa (ha), Amharic (am), Burmese (my), Pashto (ps), Sindhi (sd), Somali (so)
+ * and Oromo (om). This supersedes the 2026-11-01 decision to index every language.
  */
-export const HELD_FROM_INDEX: ReadonlySet<string> = new Set([]);
+export const HELD_FROM_INDEX: ReadonlySet<string> = new Set(['ha', 'am', 'my', 'ps', 'sd', 'so', 'om']);
 
 export const INDEXED_LANGUAGES: ReadonlySet<string> = new Set(
   LOCALES.map((l) => l.code).filter((code) => !HELD_FROM_INDEX.has(code)),
@@ -248,9 +248,8 @@ export function isIndexable(code: string): boolean {
  * Languages a native reviewer has signed off, as the website records them.
  * English is the source. Adding a code records the review (step 3 of
  * docs/engineering/native-review.md); it does not change indexing. `isIndexable`,
- * sitemaps and hreflang still follow `HELD_FROM_INDEX` only, until the
- * maintainer decides whether unreviewed languages are held (COMPLETION.md,
- * "Decisions only the maintainer can make", the indexing row for L10N-033).
+ * sitemaps and hreflang follow `HELD_FROM_INDEX` only. The seven weakest
+ * machine translations are held there (2026-11-21, L10N-033).
  * Tests check this list against `localization.languages` in
  * docs/specs/release-status.json.
  */

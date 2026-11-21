@@ -22,6 +22,34 @@ import { Icon } from './shared/Icon';
 import { moveInGrid } from './shared/gridKeys';
 import { sounds } from './shared/sound';
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const isPaletteValue = (v: unknown): v is PatternColor => PATTERN_COLORS.some((c) => c.index === v);
+
+/** The saved tiles, or null when this game cannot show them. */
+function parseGame(b: unknown): PatternGame | null {
+  if (!isRecord(b)) return null;
+  const { size, tiles, undo } = b;
+  if (!(TILE_SIZES as readonly unknown[]).includes(size) || !isRecord(tiles)) return null;
+  const tileSize = size as TileSize;
+  const out = {} as Record<TileSize, PatternColor[]>;
+  for (const n of TILE_SIZES) {
+    const cells = tiles[String(n)];
+    if (!Array.isArray(cells) || cells.length !== n * n || !cells.every(isPaletteValue)) return null;
+    out[n] = cells as PatternColor[];
+  }
+  let kept: PatternColor[] | null = null;
+  if (undo !== null) {
+    if (!Array.isArray(undo) || undo.length !== tileSize * tileSize || !undo.every(isPaletteValue)) return null;
+    kept = undo as PatternColor[];
+  }
+  return { size: tileSize, tiles: out, undo: kept };
+}
+
 /** A small shape in a color, so the color is also known by its shape. The shape is drawn in the square's ink color. */
 function Shape({ color }: { color: PatternColorInfo }) {
   return <span className="cbn__shape" data-shape={color.shape} aria-hidden="true" />;
@@ -123,6 +151,17 @@ export default function PatternMaker(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'pattern-maker',
+          save: () => game,
+          check: (b) => parseGame(b) !== null,
+          restore: (b) => {
+            const saved = parseGame(b);
+            if (!saved) return;
+            commit(saved);
+            setMessage('');
+          },
+        }}
       >
         <div className="pm">
           <div className="pm__colors">

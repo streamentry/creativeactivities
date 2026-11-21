@@ -1,0 +1,92 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import '../../styles/partner-sheets.css';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
+import { STOP_RULE } from '../../lib/care-setting-plans';
+import { LIBRARY_CARD_SLUGS, LIBRARY_MINUTES, activityTimeText, pickCards, groupVersion } from '../../lib/partner-sheets';
+
+const crumbs = [
+  { href: '/for-organizations/', label: 'For organizations' },
+  { href: '/for-organizations/library-programming/', label: 'Library programming sheet' },
+];
+// Every card must exist, be live and hold the session length. A failure stops the build.
+const cards = pickCards(await getCollection('activityCards'), LIBRARY_CARD_SLUGS, LIBRARY_MINUTES).map((card) => ({
+  slug: card.id,
+  name: card.data.name,
+  summary: card.data.summary,
+  time: activityTimeText(card),
+  setup: card.data.prepMinutes > 0 ? `${card.data.prepMinutes} minutes` : 'Check the card',
+  group: groupVersion(card),
+  materials: card.data.materials,
+}));
+---
+<BaseLayout
+  title="Library programming sheet"
+  description="A one-page plan for a free drop-in session at a library, built from free activity cards: room, time, group size, a materials checklist and a stop rule."
+  jsonLd={[breadcrumbs(crumbs)]}
+  canonicalPath="/for-organizations/library-programming/"
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container partner-sheets">
+    <header class="partner-sheets__intro no-print">
+      <p class="eyebrow">For libraries</p>
+      <h1>Library programming sheet</h1>
+      <p class="lede">A plan for a free drop-in session, using the free activity cards on this site. This sheet suggests a way to run a session. No library is named here, and printing it does not mean a library has agreed to anything.</p>
+      <p>Print this page. It prints on one sheet on A4 or US Letter.</p>
+      <p>Tell us how the session went: <a href={`mailto:${SITE.supportEmail}?subject=Partner%20sheet%20feedback`}>{SITE.supportEmail}</a>.</p>
+      <p>{SCOPE_LINE}</p>
+    </header>
+
+    <article class="partner-sheet" aria-labelledby="library-sheet">
+      <p class="partner-sheet__kicker">Library programming sheet</p>
+      <h2 id="library-sheet">A free drop-in session, {LIBRARY_MINUTES} minutes</h2>
+
+      <dl class="partner-sheet__facts">
+        <div>
+          <dt>Room</dt>
+          <dd>A table with chairs, near a window if you have one. The cards are marked for a table and seated use.</dd>
+        </div>
+        <div>
+          <dt>Time</dt>
+          <dd>{LIBRARY_MINUTES} minutes. Each card below holds that length in its activity time.</dd>
+        </div>
+        <div>
+          <dt>Group size</dt>
+          <dd>A small group at one table. The cards are marked for small groups; the library sets the number.</dd>
+        </div>
+        <div>
+          <dt>Who helps</dt>
+          <dd>One host sits with the group. All three cards are marked for an adult nearby.</dd>
+        </div>
+      </dl>
+
+      <p><strong>Choose one card</strong> for the session. Set it out before people arrive.</p>
+
+      {cards.map((card) => (
+        <div class="partner-sheet__card">
+          <h3>{card.name}</h3>
+          <p class="partner-sheet__summary">{card.summary}</p>
+          <p><strong>Activity time:</strong> {card.time}. <strong>Setup:</strong> {card.setup}.</p>
+          <p><strong>Group version:</strong> {card.group}</p>
+          <p class="partner-sheet__label">Materials checklist</p>
+          <ul class="partner-sheet__checklist">
+            {card.materials.map((item) => (
+              <li>
+                <span class="partner-sheet__box" aria-hidden="true" />
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+
+      <p><strong>Stop rule:</strong> {STOP_RULE} {PAUSE_LINE}</p>
+      <p class="partner-sheet__foot">Full steps and safety notes for each card: {SITE.domain}/activity/. Taking part is always a choice.</p>
+    </article>
+  </div>
+</BaseLayout>

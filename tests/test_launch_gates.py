@@ -22,8 +22,9 @@ class ReviewedLanguagesTests(unittest.TestCase):
             with self.subTest(language=code):
                 self.assertIn(code, NAMES)
 
-    def test_no_language_is_held_from_index_today(self):
-        self.assertEqual(gates.held_from_index(LOCALES_TEXT), set())
+    def test_the_weakest_seven_are_held_from_index(self):
+        # L10N-033, maintainer decision 2026-11-21: held until a native reviewer checks each.
+        self.assertEqual(gates.held_from_index(LOCALES_TEXT), {'ha', 'am', 'my', 'ps', 'sd', 'so', 'om'})
 
 
 class LaunchOrderTests(unittest.TestCase):

@@ -25,6 +25,30 @@ import { Icon } from './shared/Icon';
 import { moveInGrid } from './shared/gridKeys';
 import { sounds } from './shared/sound';
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const isCellValue = (v: unknown): v is CellValue => v === 0 || NUMBER_COLORS.some((k) => k.number === v);
+
+/** The saved painting, or null when this game cannot show it. */
+function parseGame(b: unknown): ColorGame | null {
+  if (!isRecord(b)) return null;
+  const { size, brush, boards } = b;
+  if (!(GRID_SIZES as readonly unknown[]).includes(size) || !NUMBER_COLORS.some((k) => k.number === brush) || !isRecord(boards)) return null;
+  const out = {} as Record<GridSize, Board>;
+  for (const n of GRID_SIZES) {
+    const board = boards[String(n)];
+    if (!isRecord(board)) return null;
+    const { motifIndex, cells } = board;
+    if ((motifIndex !== 0 && motifIndex !== 1) || !Array.isArray(cells) || cells.length !== n * n || !cells.every(isCellValue)) return null;
+    out[n] = { motifIndex: motifIndex as 0 | 1, cells: cells as CellValue[] };
+  }
+  return { size: size as GridSize, brush: brush as ColorNumber, boards: out };
+}
+
 /** A small shape beside a color, so the color is also known by its shape. */
 export function ColorShape({ shape }: { shape: NumberColor['shape'] }) {
   return <span className="cbn__shape" data-shape={shape} aria-hidden="true" />;
@@ -127,6 +151,17 @@ export default function ColorByNumber(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'color-by-number',
+        save: () => game,
+        check: (b) => parseGame(b) !== null,
+        restore: (b) => {
+          const saved = parseGame(b);
+          if (!saved) return;
+          commit(saved);
+          setMessage('');
+        },
+      }}
     >
       <div className="cbn">
         <div className="cbn__key" role="group" aria-label={ui.colorByNumber.keyLegend}>

@@ -29,6 +29,8 @@ interface Props {
 const { guide } = Astro.props;
 const { lang, id, entry } = guide;
 const d = entry.data;
+// CNT-880 (maintainer, 2026-11-21): the kids guides load no analytics, in any language.
+const kidsGuide = id.split('/')[0] === 'kids';
 const t = ui(lang);
 const g = t.guide;
 const l = (path: string) => localePath(lang, path);
@@ -94,7 +96,7 @@ const stale =
 // Until a language has its own wording, the notice shows the English text; say so to screen readers.
 const staleInEnglish = g.staleText === ui('en').guide.staleText;
 ---
-<BaseLayout title={d.seoTitle ?? d.title} description={d.description} type="article" image={ogImage} jsonLd={jsonLd} available={available}>
+<BaseLayout title={d.seoTitle ?? d.title} description={d.description} type="article" image={ogImage} jsonLd={jsonLd} analytics={!kidsGuide} available={available}>
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head">
