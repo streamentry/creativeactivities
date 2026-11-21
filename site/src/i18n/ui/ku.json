@@ -7,16 +7,22 @@
     "homeLabel": "Destpêka Creative Activities",
     "mainNav": "Sereke",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: wêneyên mezin û xweşik ên fîncanek, gulberojek û kûçikek",
+    "defaultImageAlt": "Creative Activities: große, freundliche Zeichnungen alltäglicher Dinge zum Herstellen und Tun",
     "languages": "Ziman",
     "englishOnly": "(Îngilîzî)",
     "machineTranslated": "Ev rûpel bixweber hatiye wergerandin û hêj ji aliyê axêverekî zikmakî ve nehatiye kontrolkirin.",
     "readOriginal": "Metna orjînal bi îngilîzî bixwînin",
     "nav": {
+      "find": "Find an activity",
       "games": "Lîstik",
       "activities": "Çalakî",
       "caregiving": "Lênêrîn",
-      "brainHealth": "Tenduristiya mêjî"
+      "brainHealth": "Tenduristiya mêjî",
+      "crafts": "Basteln",
+      "kids": "Kinder",
+      "together": "Gemeinsam",
+      "creativeCalm": "Kreative Ruhe",
+      "search": "Suche"
     },
     "faqTitle": "Pirs û bersiv",
     "breadcrumb": "Rêberiya rûpelê",
@@ -27,7 +33,32 @@
       "label": "Mezinahiya nivîsê",
       "smaller": "Nivîsa asayî",
       "larger": "Nivîsa mezintir",
-      "contrast": "Kontrasta bilindtir"
+      "contrast": "Kontrasta bilindtir",
+      "colors": "Farben",
+      "light": "Hell",
+      "dark": "Dunkel",
+      "device": "Wie auf diesem Gerät",
+      "lineLength": "Zeilenlänge",
+      "standardLines": "Standard",
+      "shorterLines": "Kürzere Zeilen",
+      "spacing": "Abstand",
+      "standardSpacing": "Standard",
+      "moreSpace": "Mehr Abstand"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 fikrên çalakiyan",
     "lateStage": "Çalakiyên qonaxa pêşketî",
     "printable": "Çalakiyên tên çapkirin",
-    "allActivities": "Hemû çalakî",
+    "allActivities": "Alle Aktivitätsanleitungen",
     "forCaregivers": "Ji bo lênêran",
     "playTogether": "Çawa bi hev re bilîzin",
     "selfCare": "Lênêrîna li xwe",
@@ -54,24 +85,34 @@
     "app": "Sepana Creative Activities",
     "appHelp": "Alîkariya sepanê",
     "support": "Piştgirî",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Agahiyên yasayî",
     "sitePrivacy": "Nepeniya malperê",
     "appPrivacy": "Rêgeza nepeniyê ya sepanê",
     "privacyChoices": "Vebijêrkên nepeniyê",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Merc û destûra sepanê",
     "safety": "Ewlehî û armanca bikaranînê",
     "accessibility": "Gihîştinî",
     "healthNotice": "Agahdariya tenduristiyê",
     "allLegal": "Hemû agahiyên yasayî",
     "note": "Creative Activities ji bo kêfxweşiyê çalakiyên hêsan û hevpar pêşkêş dike. Ev ne şîreta tibî, ne ceribandin û ne jî derman e, û ji bo teşxîskirin, pîvandin an xaldayîna tu kesî nîne. Ji bo pirsên derbarê tenduristiyê bi bijîşkekî re bipeyivin. Di rewşa lezgîn de telefonî 112 bikin.",
-    "publisher": "Ji aliyê Cloudjet Solutions Pte. Ltd. ve hatiye weşandin."
+    "publisher": "Ji aliyê Cloudjet Solutions Pte. Ltd. ve hatiye weşandin.",
+    "crafts": "Basteln für alle Altersgruppen",
+    "kids": "Aktivitäten für Kinder",
+    "together": "Aktivitäten zum gemeinsamen Tun",
+    "creativeCalm": "Kreative Ruhe",
+    "dementiaActivities": "Aktivitäten für Menschen mit Demenz"
   },
   "home": {
-    "title": "Lîstik û Çalakiyên Demans û Alzheimerê | Creative Activities",
-    "description": "Lîstikên nerm ên wêneyî yên bêpere li ser înternetê û fikrên çalakiyan ji bo kesên bi demans an Alzheimerê re dijîn û lênêrên wan. Bê qeydkirin, demjimêr an pûan.",
+    "title": "Kreative Aktivitäten für alle, die jemanden begleiten",
+    "description": "Kostenlose kreative Aktivitäten für alle, die jemanden begleiten: Basteln, Ideen für Kinder, gemeinsame Aktivitäten und ruhige kreative Anregungen.",
     "eyebrow": "Bêpere · Bê reklam · Bê qeydkirin · Bê demjimêr an pûan",
-    "h1": "Lîstik û Çalakiyên Nerm ji bo Kesên bi Demansê re Dijîn",
-    "lede": "Lîstikên hêsan ên wêneyî, wêneyên naskirî û çalakî ji bo bi hev re kêfxweşbûnê—bi leza we ya taybet.",
+    "h1": "Gemeinsam etwas gestalten",
+    "lede": "Finden Sie eine Aktivität, die zu der Person, zum Moment und zu dem passt, was Sie zur Hand haben. Einfache Bastelideen, Kinderkunst, gemeinsame Beschäftigungen und ruhige kreative Anregungen, jeweils mit leichteren Varianten und einer Karte zum Ausdrucken. Sie können jederzeit aufhören.",
     "playGame": "Lîstikekê Bilîze",
     "findIdeas": "Fikrên çalakiyan bibînin",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 fikrên çalakiyan",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Qonaxa destpêkê",
         "text": "Bi guhertinên biçûk ve berdewam bikin li ser tiştên ku jê hez dikin: hobî, derketina derve, lîstikên pevan û plansaziya bi hev re.",
         "label": "Fikrên qonaxa destpêkê"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Qonaxa navîn",
         "text": "Karên hêsan û naskirî yên gav bi gav: qatkirin, ji hev veqetandin, muzîk, lîstikên wêneyî û meşên kurt.",
         "label": "Fikrên qonaxa navîn"
@@ -124,10 +165,10 @@
         "label": "Fikrên qonaxa dereng"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Suchen Sie etwas Bestimmtes? Probieren Sie <a href=\"/dementia-activities/\">Aktivitäten und Spiele bei Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">Puzzles und Brettspiele</a>, <a href=\"/together/conversation-games-for-all-ages/\">Gesprächsspiele</a> oder <a href=\"/together/puzzles-and-table-games/\">Rätsel</a>.",
     "approachEyebrow": "Nêzîkatiya me",
-    "approachTitle": "Çalakiyeke hevpar, ne ezmûna bîrê",
-    "approachLede": "Gelek «lîstikên mêjî» li ser lez, xal û serkeftinên li pey hev hatine avakirin. Ji bo kesekî bi demansê re dijî dibe ku ev wekî ezmûnekê bê dîtin. Me berevajî vê ava kir.",
+    "approachTitle": "Eine gemeinsame Aktivität, kein Test",
+    "approachLede": "Viele „Gehirntrainings“ drehen sich um Tempo, Punkte und Serien. Für jemanden, der müde oder krank ist oder mit Demenz lebt, kann sich das wie eine Prüfung anfühlen. Wir haben es genau andersherum gemacht.",
     "approachLink": "Çima me bi vî awayî çêkir",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Sedemên gelemperî yên redkirinê, û rêyên nerm ji bo paşê dîsa ceribandinê."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Sazkirina tabletekê",
-        "text": "Nivîsa mezintir, kêmkirina carûbaran û ekrana sereke ya hêsan û tekane."
+        "href": "/activities/group-art-activities/",
+        "title": "Gemeinschaftliche Kunstaktivitäten",
+        "text": "Gemeinsame Projekte für einen Tisch mit mehreren Personen, mit einer Aufgabe für jede Person."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Çalakiyên belaş ên ji bo çapkirinê",
-        "text": "Lêgerîna pevan bi tîpên mezin, rûpelên boyaxkirinê, bîngo û kartên sohbetê."
+        "href": "/activities/ideas/",
+        "title": "101 Aktivitätsideen",
+        "text": "Einfache Ideen, sortiert nach dem, was Sie zur Hand haben, und danach, wie viel Kraft gerade da ist."
       }
     ],
     "researchTitle": "Tenduristiya mêjî: Lêkolîn bi rastî çi dibêjin",
@@ -185,16 +226,16 @@
     "aboutApp": "Derbarê sepanê de",
     "faq": [
       {
-        "q": "Ji bo kesên bi demansê re dijîn lîstikên baş kîjan in?",
-        "a": "Lîstikên baş sade û nas in û bê zext in: wêneyên mezin ji bo hevgirtinê, rêzkirin, puzzleyên hêsan, temamkirina gotinên naskirî, rengkirin, bîngoya wêneyan û kartên axaftinê. Hilbijartina baştirîn ew e ku kesê ku hûn jê re lênêrînê dikin îro jê kêfxweş dibe. Ji demjimêr, xal û her tiştê ku wek ceribandinê hîs dibe dûr bisekinin."
+        "q": "Welche Spiele eignen sich gut für ältere Menschen?",
+        "a": "Gute Spiele sind einfach, vertraut und ohne Druck: große Bilder zum Zuordnen, Sortieren, leichte Puzzles, das Ergänzen bekannter Sprichwörter, Ausmalen, Bilderbingo und Gesprächskarten. Sie passen für viele ältere Menschen, auch für Menschen mit Demenz. Die beste Wahl ist das Spiel, das der Person heute Freude macht. Vermeiden Sie Zeitmessung, Punkte und alles, was wie ein Test wirkt."
       },
       {
-        "q": "Gelo ev lîstikên dementia belaş in?",
+        "q": "Sind diese Spiele kostenlos?",
         "a": "Erê. Hemû lîstik û rûpelên çapkirî yên li ser Creative Activities belaş in, bê hesab, bê tomarkirin û bê daxistin. Lîstik di geroka webê de li ser têlefon, tablet an komputerê dixebitin."
       },
       {
         "q": "Gelo lîstikên mêjî dementia pêşî digirin?",
-        "a": "Tu lîstikek nehatiye nîşandan ku dementia pêşî digire, û Creative Activities jî îdîa nake ku tiştekî derman dike an pêşî digire. Lîstikên me ji bo kêfê û demê bi hev re ne. Beşa me ya tenduristiya mêjî şirove dike ku lêkolîn çi nîşan dide û çi nîşan nade."
+        "a": "Es ist nicht belegt, dass ein Spiel Demenz verhindern kann, und Creative Activities behauptet nicht, etwas zu behandeln oder zu verhindern. Unsere Spiele dienen dem Vergnügen und der gemeinsamen Zeit, und keine Aktivitätsseite macht gesundheitsbezogene Versprechen."
       },
       {
         "q": "Gelo ev lîstik ji bo kesekî ku Alzheimer heye guncaw in?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Kî Creative Activities çêdike?",
-        "a": "Creative Activities tîmek piçûk e ku çalakiyên wêneyî yên aram û mezinan ji bo malbat û lênêrîneran çêdike, li ser webê û wekî sepaneke belaş. Em pisporên tenduristiyê ne, û tiştek li vir şîreta bijîşkî nîne."
+        "a": "Creative Activities ist ein kleines Team, das ruhige, kreative Aktivitäten für Erwachsene macht, für alle, die jemanden begleiten, im Web und als kostenlose App. Wir sind keine Ärztinnen oder Ärzte, und nichts hier ist medizinischer Rat."
+      }
+    ],
+    "groupsEyebrow": "So finden Sie sich zurecht",
+    "groupsTitle": "Vier Arten kreativer Aktivitäten",
+    "groupsLede": "Beginnen Sie mit der Gruppe, die zu Ihrer Situation und dem passt, was Sie haben. Jede Seite enthält leichtere Varianten und Hinweise zur Sicherheit.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Basteln",
+        "text": "Projekte mit Papier, Farbe, Recyclingmaterial und zur Jahreszeit, jeweils mit einer leichteren Variante.",
+        "label": "Bastelideen ansehen"
+      },
+      {
+        "href": "/kids/",
+        "title": "Kinder",
+        "text": "Kunst und Spiel für Kinder, mit einer erwachsenen Begleitperson in der Nähe und klaren Sicherheitshinweisen.",
+        "label": "Kinderaktivitäten ansehen"
+      },
+      {
+        "href": "/together/",
+        "title": "Gemeinsam",
+        "text": "Gespräche, Puzzles, Zeit im Freien und Wege, auch über Generationen hinweg nah beieinander zu bleiben.",
+        "label": "Gemeinsame Aktivitäten ansehen"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreative Ruhe",
+        "text": "Langsame, stille kreative Momente mit einem Stift, einer Seite oder einem Lied. Keine Therapie.",
+        "label": "Kreative Ruhe ansehen"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Ji bo çapkirinê",
     "play": "{name} bilîze →",
     "readGuide": "Rêberê bixwîne"
+  },
+  "listen": {
+    "listenSteps": "Die Schritte anhören",
+    "pause": "Pause",
+    "resume": "Weiter",
+    "stop": "Stopp",
+    "speed": "Tempo",
+    "normal": "Normal",
+    "slower": "Langsamer",
+    "reading": "Die Schritte werden vorgelesen.",
+    "paused": "Pausiert. Drücken Sie auf Weiter, um fortzufahren.",
+    "note": "Verwendet die Stimme Ihres Geräts. Manche Geräte senden den Text zum Vorlesen an ihren Hersteller.",
+    "listen": "Anhören",
+    "stepLabel": "Schritt {n} anhören",
+    "stopStep": "Schritt {n} stoppen"
   },
   "playCta": {
     "title": "Amade ne ji bo lîstikeke nerm?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Çalakî",
-      "title": "Çalakî ji bo Kesên ku bi Dementia Dijîn",
-      "seo": "Çalakî ji bo Kesên ku bi Dementia Dijîn: Ramanên li gorî Qonaxê",
-      "description": "Ramanên çalakiyê ji bo kesên ku bi dementia dijîn di her qonaxê de: mûzîk, bîranîn, karên rojane, kêliyên hestî, hunerên destan, derve û rûpelên çapkirî yên belaş.",
-      "lede": "Çalakiya watedar her tişt e ku aramî, armanc an kêliyek pêwendiyê tîne. Bi tiştê ku kes her dem jê hez kiriye dest pê bikin, û li gorî îro biguncînin."
+      "label": "Aktivitätsanleitungen",
+      "title": "Aktivitätsanleitungen",
+      "seo": "Aktivitätsanleitungen: Ideen, Bastelmaterial und Einstiegsmöglichkeiten",
+      "description": "Verständliche Anleitungen für kreative Aktivitäten, die Sie mit jemandem gemeinsam machen können: einfache Ideen, preiswertes Bastelmaterial, Gruppenkunst, Briefe, Erinnerungen und eine Erklärung der Kunsttherapie.",
+      "lede": "Kurze, praktische Anleitungen, um mit jemandem eine Aktivität auszuwählen und zu beginnen, unabhängig von Alter oder Fähigkeiten."
+    },
+    "crafts": {
+      "label": "Basteln",
+      "title": "Basteln für alle Altersgruppen",
+      "seo": "Einfaches Basteln für alle Altersgruppen, mit leichteren Varianten",
+      "description": "Einfaches Basteln für Erwachsene, Kinder und Familien: Papier-, Mal-, Recycling- und Jahreszeitenprojekte, mit leichter zu greifenden und im Sitzen ausführbaren Varianten und ohne besondere Fertigkeiten.",
+      "lede": "Bastelideen, die von dem ausgehen, was in den meisten Haushalten ohnehin vorhanden ist, jeweils mit einer leichteren Variante, damit jeder etwas gestalten kann."
+    },
+    "kids": {
+      "label": "Kinder",
+      "title": "Kreative Aktivitäten für Kinder",
+      "seo": "Kreative Aktivitäten für Kinder: Kunst, Sinne und Ruhe",
+      "description": "Kreative Aktivitäten für Kinder: Kunst für Kleinkinder, Prozesskunst, Sinnesspiele, Bastelideen für Regentage und Ideen zum Herunterkommen, mit Sicherheitshinweisen und Varianten für sensorische Bedürfnisse.",
+      "lede": "Kunst- und Spielideen für Kinder unterschiedlichen Alters und mit unterschiedlichen Bedürfnissen, mit klaren Sicherheitshinweisen und einer erwachsenen Begleitperson in der Nähe."
+    },
+    "together": {
+      "label": "Gemeinsam",
+      "title": "Aktivitäten zum gemeinsamen Tun",
+      "seo": "Aktivitäten zum gemeinsamen Tun, über alle Generationen hinweg",
+      "description": "Aktivitäten für zwei oder mehr Generationen: Gesprächsspiele, Puzzles, Zeit im Freien, Basteln für Großeltern und Enkelkinder und Wege, auch aus der Ferne in Verbindung zu bleiben.",
+      "lede": "Ideen, um Zeit mit einem Elternteil, einer Großmutter oder einem Großvater, einem Kind oder einer Freundin bzw. einem Freund zu teilen, zu Hause, im Freien, beim Besuch oder aus der Ferne."
+    },
+    "creative-calm": {
+      "label": "Kreative Ruhe",
+      "title": "Kreative Ruhe",
+      "seo": "Kreative Ruhe: entspannende Kunst und Aktivitäten zum Abschalten",
+      "description": "Entspannende kreative Aktivitäten für Erwachsene und Pflegende: achtsame Kunst, Tagebuchschreiben, Musik, Sinnesmomente und ruhige Nachmittage. Kreative Aktivität, keine Therapie.",
+      "lede": "Sanfte Wege, mit einem Stift, einer Seite oder einem Lied langsamer zu werden. Dies sind kreative Aktivitäten, keine Therapie, und sie verlangen keine besonderen Fähigkeiten."
     },
     "caregiving": {
-      "label": "Lênêrîn",
-      "title": "Rêberên Lênêrînê",
-      "seo": "Rêberên Lênêrîna Dementia: Alîkariya Pratîk a Rojane",
-      "description": "Rêberên pratîk û dilovan ji bo lênêrînerên kesên ku bi dementia dijîn: lîstina bi hev re, ragihandin, redkirin, bêaramiyên dawiya rojê, tablet, hilbijartina sepanan û lênêrîna xwe.",
-      "lede": "Alîkariya sade û pratîk ji bo kêliyên rojane yên lênêrîna kesekî ku bi dementia dijî, tevî lênêrîna xwe."
+      "label": "Dementia care",
+      "title": "Caring for Someone with Dementia",
+      "seo": "Caring for Someone with Dementia: Activities and Help",
+      "description": "Guides for families caring for someone with dementia: how to play together, what to do when they say no, and where to find trusted help after a diagnosis.",
+      "lede": "Activity-first help for families caring for someone living with dementia, and where to turn for medical and care advice."
     },
     "brain-health": {
       "label": "Tenduristiya mêjî",
@@ -283,7 +396,16 @@
     "tryTogether": "Bi hev re biceribînin",
     "relatedGuides": "Rêberên têkildar",
     "related": "Têkildar",
-    "startHere": "Li vir dest pê bikin"
+    "startHere": "Li vir dest pê bikin",
+    "staleAria": "Tərcümə köhnəlib",
+    "staleTitle": "Bu tərcümə köhnəlib",
+    "staleText": "Bu, ingilis səhifəsinin əvvəlki versiyasından hazırlanıb, o vaxtdan bəri isə dəyişib. Cari səhifə ingilis dilindəkidir.",
+    "staleHealth": "Burada sağlamlıqla bağlı məlumat var, ona görə ingilis səhifəsini yoxlayın və hər hansı addım atmazdan əvvəl həkimdən və ya tibb bacısından məsləhət alın.",
+    "staleLink": "Cari ingilis səhifəsini oxuyun"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Agahdariya tenduristiyê",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Çalakiyek Hevbeş, Ne Ceribandinek Bîrê",
+      "title": "Birgə fəaliyyət, sınaq deyil",
       "seoTitle": "Derbarê Creative Activities: Nêzîkatiya Me",
-      "description": "Çima lîstikên Creative Activities demjimêr, xal an rêzikên serkeftinê tune ne, çima wêne xuya dimînin, û em derbarê dementia de çi dibêjin û çi nabêjin.",
+      "description": "Creative Activities niyə taymer, xal və ardıcıl gün sayğacı olmadan işləyir, şəkillər niyə görünən qalır və sağlamlıq barədə nə deyəcəyimizi və nə deyə bilməyəcəyimizi izah edirik.",
       "crumb": "Nêzîkatiya me",
-      "lede": "Creative Activities çalakiyên wêneyî yên aram û mezinan çêdike ku lênêrînerek û kesekî ku bi dementia dijî dikarin li kêleka hev kêfê jê bistînin.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsorlar və tərəfdaşlar",
+        "none": "Creative Activities-in sponsorları, ödənişli yerləşdirmələri və saytda loqoları görünən tərəfdaşları yoxdur.",
+        "listed": "Bunlar Creative Activities-in sponsorları və tərəfdaşlarıdır. Hər əlaqə həmin əlaqənin göründüyü səhifədə də açıqlanır.",
+        "policy": "Bu dəyişərsə, belə hər səhifə bunu göründüyü yerdə deyəcək, heç bir fəaliyyətdə heç vaxt sponsor olmayacaq və tərəfdaşların siyahısı bu səhifədə olacaq.",
+        "listHeading": "Tərəfdaşların siyahısı",
+        "noPartners": "Hazırda tərəfdaş yoxdur."
+      },
+      "lede": "Creative Activities, iki nəfərin yanaşı oturub birlikdə həzz ala biləcəyi sakit, böyüklər üçün fəaliyyətlər hazırlayır. Onlardan biri digərinə qulluq edir, ya da sadəcə birlikdə vaxt keçirmək istəyirlər.",
+      "bodyHtml": "<h2>Kimlər üçündür</h2><p>Kimsə ilə bağlı qayğı göstərən hər kəs üçün: valideyn, nənə və ya baba, uşaq, həyat yoldaşı, dost və ya demans ilə yaşayan şəxs. Ailələr, yaşlı insanlar və fəaliyyət üzrə işçilər eyni səhifələrdən istifadə edə bilərlər.</p><h2>Nəyə inanırıq</h2><p>Fəaliyyətin mənası anın özündədir: söhbət, təbəssüm, iki şəkli bir-birinə uyğunlaşdırmağın məmnunluğu və ya sadəcə yan-yana oturmaq. Bu, kimisə ölçmək, daha irəli itələmək və ya nəyisə sübut etmək üçün deyil.</p><p>Bir çox beyin məşqi tətbiqləri sürət, xal, ardıcıl gün sayğacı və səviyyələr üzərində qurulub. Yorğun, xəstə olan və ya demans ilə yaşayan biri üçün bu, keçə bilməyəcəyi imtahan kimi hiss oluna bilər. Biz bunun əksini qurmuşuq və özümüzü bu qaydalara bağlayırıq:</p><ul><li><strong>Uduzmaq yoxdur.</strong> Hər ekranda saat, xal, hərəkət sayğacı, can, ardıcıl gün sayğacı, konfeti və geriyə sayım yoxdur.</li><li><strong>Xatırlamaqdan çox tanımaq.</strong> Şəkillər defolt olaraq görünən qalır. Göstərişlər söhbəti dəvət edir və heç vaxt adları ya da xatirələri imtahan etmir.</li><li><strong>Böyük, sadə və sabit.</strong> Böyük mətn və şəkillər, yüksək kontrast və idarəetmə elementləri eyni yerdə qalır.</li><li><strong>Böyüklərin ləyaqəti.</strong> Real həyatdan şəkillər və sadə, isti sözlər. Cizgi filmi, uşaqlara xas tərifləmə və ya emoji mükafatı yoxdur.</li><li><strong>Asan çıxış yolu.</strong> “Hələlik bitdi” həmişə görünəndir. Yarıda dayanmaq da yaxşı nəticədir.</li><li><strong>Defolt olaraq məxfilik.</strong> Hesab və reklam yoxdur. Seçdiyiniz fotolar cihazınızda qalır.</li></ul><h2>Nəyi iddia etmirik</h2><p>Oyunlarımız və fəaliyyətlərimiz həzz və ünsiyyət üçündür. Onlar demansı və ya Alzheimer xəstəliyini diaqnoz etmir, yoxlamır, ölçmür, müalicə etmir, ləngitmir və ya qarşısını almır, heç kim də bu məqsədlə onları seçməməlidir. Sağlamlıq tədqiqatları barədə yazanda, sübutların zəif olduğunu açıq deyirik və onları heç vaxt öz fəaliyyətlərimizlə əlaqələndirmirik.</p><h2>Biz kimik</h2><p>Creative Activities kiçik, müstəqil bir komandadır. Biz klinisyen deyilik. Bizim bələdçilərimiz National Institute on Aging və Alzheimer’s Association kimi təşkilatların dərc etdiyi tövsiyələrə əsasən yazılır və hər bələdçi öz mənbələrini sadalayır. <a href=\"/editorial-policy/\">Səhifələrimizi necə yazdığımızı və yoxladığımızı</a> oxuyun.</p><h2>Bizə nəyin kömək edəcəyini deyin</h2><p>Sizin üçün nəyin işlədiyini və nəyin işləmədiyini eşitmək bizi çox sevindirər, xüsusilə demans ilə yaşayan insanlardan, ailə qulluqçularından və fəaliyyət üzrə işçilərdən. <a href=\"mailto:{email}\">{email}</a> ünvanına yazın.</p>"
     },
     "editorial": {
       "title": "Em çawa rûpelên xwe dinivîsin û kontrol dikin",
       "seoTitle": "Siyaseta edîtoriyê",
-      "description": "Creative Activities çawa rûpelên xwe yên çalakiyên demansê û tenduristiya mêjî lêkolîn dike, dinivîse, çavkaniyan dide û nû dike, û em çi tu carî naweşînin.",
+      "description": "Creative Activities fəaliyyət və sağlamlıq səhifələrini necə araşdırır, yazır, mənbə toplayır və yeniləyir, və heç vaxt nəyi dərc etməyəcəyimizi izah edirik.",
       "crumb": "Siyaseta edîtoriyê",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Pirs û bersiv",
-      "seoTitle": "Lîstik û çalakiyên demansê: Pirs û bersiv",
-      "description": "Bersivên pirsên gelemperî li ser lîstik û çalakiyên demansê: kîjan lîstikan biceribînin, çiqas dirêj bilîzin, ramanên ji bo qonaxên paşîn, tenduristiya mêjî û taybetî.",
+      "seoTitle": "Creative Activities haqqında suallar və cavablar",
+      "description": "Oyunlar və fəaliyyətlər barədə tez-tez verilən sualların cavabları: hansını sınamaq, nə qədər oynamaq, qruplar və sonrakı mərhələ üçün fikirlər, sağlamlıq və məxfilik.",
       "crumb": "Pirs û bersiv",
       "lede": "Bersivên kurt û zelal ji bo pirsên ku malbatên lênihêrînê herî zêde dipirsin.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Derbarê lîstikan de",
           "items": [
             {
-              "q": "Ji bo kesekî bi demansê çêtirîn lîstik kîjan in?",
+              "q": "Yaşlı insanlar üçün ən yaxşı oyunlar hansılardır?",
               "a": "Çêtirîn lîstik ew in ku nas in, hêsan in û zextê çênakin, û ya rast ew e ku kes îro jê kêfxweş dibe. Lihevhatina wêneyan bi wêneyên xuya, rêzkirin, puzzle-yên hêsan, temamkirina gotinên nas, rengkirin û bîngoya wêneyan ji bo gelek kesan baş dixebitin. Ji demjimêr, pûan û her tiştê ku wekî ceribandinê tê hîskirin dûr bisekinin."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Tenduristiya mêjî",
+          "title": "Demans və sağlamlıq",
           "items": [
             {
               "q": "Gelo lîstik dikarin pêşî li demansê bigirin an wê hêdî bikin?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Ətraflı: <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oynamaq</a>, <a href=\"/caregiving/when-they-say-no/\">onlar “yox” dedikdə</a>, <a href=\"/activities/late-stage/\">sonrakı mərhələ fəaliyyətləri</a> və <a href=\"/dementia-activities/\">evdə demans fəaliyyətləri</a>."
     },
     "handout": {
       "title": "Lîstikên Belaş û Nerm ji bo Kesên bi Demansê re Dijîn",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Ji bo Malên Lênerînê, Pirtûkxane û Komên Piştgiriyê",
-      "seoTitle": "Çalakiyên Bêpere yên Demansê ji bo Malên Lênihêrînê û Koman",
-      "description": "Malên lênihêrînê, bernameyên rojane yên mezinan, pirtûkxane, saziyên temendirêjan û komên piştgiriyê lîstikên me yên bêpere yên demansê çawa bi kar tînin, tevî nivîsa ji bo zêdekirina me li lîsteya çavkaniyan.",
+      "seoTitle": "Qayğı evləri, kitabxanalar və qruplar üçün pulsuz fəaliyyətlər",
+      "description": "Qayğı evləri, gündüz proqramları, kitabxanalar, yaşlanma agentlikləri və dəstək qrupları pulsuz oyun və fəaliyyət bələdçilərimizdən necə istifadə edir, habelə bizi resurs siyahısına əlavə etmək üçün mətn.",
       "crumb": "Ji bo saziyan",
       "lede": "Bikaranîna hemû tiştên li ser vê malperê bi mayîner, endam û xizmetwergiran re bêpere ye; bê hesab, bê destûrname û bê xerc e. Ev rûpel şirove dike bê li vir çi heye û hûn çawa dikarin parve bikin.",
-      "shortText": "{name}: ji bo kesên bi demansê re dijîn û lênerên wan, lîstikên nerm ên bi wêne û rêberên çalakiyan ên bêpere. Bê tomarkirin, bê pîvana demê, bê pûan.",
-      "longText": "{name} ({domain}) {count} lîstikên gerokê yên bêpere pêşkêş dike ku ji bo kesên bi demansê re dijîn hatine amadekirin; di nav wan de hevpêkirina cotan a bi wêneyên vekirî, pazileke hêsan, rêzkirin, gotinên naskirî û bîngoya bi wêne ya bi kartên çapkirinê hene. Bê hesab, reklam, demjimêr an pûan e. Her wiha malper rêberên çalakiyan ên bi zimanekî sade ji bo her qonaxeke demansê dihewîne ku çavkaniyên ji National Institute on Aging û Alzheimer's Association nîşan didin.",
+      "shortText": "{name}: yaşlı insanlar, ailələr və demans ilə yaşayan insanlar üçün pulsuz, yumşaq şəkil oyunları və fəaliyyət bələdçiləri. Qeydiyyat yoxdur, taymer yoxdur, xal yoxdur.",
+      "longText": "{name} ({domain}) pêşkêşî {count} lîstikên browserê yên belaş dike ji bo mirovên temen mezin, malbat û mirovên ku bi demensiyayê dijîn, di nav de lîstikên cotkirina wêneyan ku wêne ji dest pêve diyar dimînin, jigsawa hêsan, dabeşkirin, gotinên naskirî û bingoya wêneyî bi kartên çapkirinê. Hesab, reklam, demjimêr an puan tune ne. Malper di heman demê de rêberên çalakiyan ên bi zimanê sade ji bo malbat, mirovên temen mezin û karmendan jî heye, bi çavkaniyên wekî National Institute on Aging û Alzheimer's Association.",
       "useTitle": "Tiştên ku sazî dikarin bi kar bînin",
       "gamesItemHtml": "<strong>{count} lîstikên gerokê</strong> ku li ser laptop, tablet an televizyoneke bi komputerê ve girêdayî dixebitin. Bê sazkirin, bê hesab û bê daxistin e. Binêrin: <a href=\"/games/\">hemû lîstik</a>.",
       "printablesLabel": "{count} pelên ji bo çapê:",
       "printablesAfter": "Li ser her rûpelê bişkoka Çapkirinê bi kar bînin.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formatên komê:</strong> <a href=\"/games/picture-bingo/\">Bingoya wêneyî</a> kartên çapkirinê û bangkerê li ser ekranê heye, û <a href=\"/together/conversation-games-for-all-ages/\">lîstikên axaftinê</a> pirsên bi bijartinên bersivê û xalên axaftinê dihewîne.</li><li><strong>Rêberên çalakiyan</strong> ji bo karmend û malbatan, bi zimanê sade û bi çavkaniyan hatine nivîsandin. Bi <a href=\"/activities/ideas/\">101 ramanên çalakiyan</a> an <a href=\"/crafts/craft-group-sessions/\">çalakiyên komî ji bo xaniyên lênihêrînê</a> dest pê bikin.</li>",
       "restHtml": "<h2>Kom çawa bi kar tînin</h2><ul><li><strong>Malên lênihêrînê û lênihêrîna bîrê:</strong> li ser televizyona odeya giştî bîngoya bi wêne an temamkirina gotinan, ku kesek li ser navê komê pêlî ekranê dike.</li><li><strong>Bernameyên rojane yên mezinan:</strong> ji bo danişînên kurt ên yek-bi-yek, stasyoneke tabletê ku Cêwiyên wêneyan li ser çar qertan hatiye sazkirin.</li><li><strong>Pirtûkxaneyên giştî:</strong> di tûrikên bîrê de peyvên veşartî yên çapkirî û kartên axaftinê, û li ser tabletên pirtûkxaneyê tomarkirina malperê wekî nîşanek.</li><li><strong>Komên piştgiriya lêneran û kafeyên bîrê:</strong> <a href=\"/handout/\">belavokeke yek-rûpelî ya ji bo çapê</a> ku malbat bi xwe re bibin malê.</li><li><strong>Nexweşxane û plansazên derketinê:</strong> ji bo tiştekî aram ê ku li malê an li ser serê nivînê were kirin, belavoka di pakêtên lêneran de.</li></ul><h2>Tiştên ku em nakin</h2><p>Ev lîstik ji bo kêfxweşî û dema bi hev re derbaskirinê ne. Ew teşxîs nakin, diceribînin, pûan nadin, derman nakin an pêşveçûna demansê hêdî nakin, û em ji saziyan daxwaz dikin ku wan bi wî awayî pênase nekin. Reklam tune ne, û lîstik daxwaza navan, hûrgiliyên tenduristiyê an barkirina wêneyan nakin. Malper ji bo hejmartina serdanan Google Analytics bi kar tîne; <a href=\"/privacy/\">agahdariya me ya nepeniyê</a> şirove dike ka çi tê berhevkirin. Wêneyên ku di <a href=\"/games/photo-pairs/\">Cêwiyên wêneyan</a> de tên bikaranîn di gerokê de dimînin.</p><h2>Me li lîsteya çavkaniyên xwe zêde bikin</h2><p>Heke hûn ji bo lêneran lîsteyeke çavkaniyan amade dikin, hûn dikarin lînka <a href=\"/\">{domain}</a> bi cih bikin. Hûn dikarin her yek ji van danasînan kopî bikin.</p>",
       "shortTitle": "Danasîna kurt",
       "longTitle": "Danasîna berfirehtir",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Rûpelên kêrhatî ku dikarin rasterast girêdin: <a href=\"/games/\">lîstikên belaş</a>, <a href=\"/games/\">çapkirinên belaş</a>, <a href=\"/dementia-activities/\">çalakiyên demensiyayê li malê</a> û <a href=\"/caregiving/how-to-play-together/\">meriv çawa bi hev re dilîze</a>.</p><h2>Pirs an rastkirin</h2><p>Heke tiştek li ser malperê çewt an nezelal be, an pêdiviyên kesekî ku li vir tune ne, ji kerema xwe bi me re bi navnîşana <a href=\"mailto:{email}\">{email}</a> re pêwendî bigirin. Ji kerema xwe agahiyên kesanî an tenduristiyê yên niştecî an xerîdaran nenirxînin.</p>"
     },
     "app": {
       "title": "Sepana Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Lîstokên Belaş ên Demans û Alzheimerê Serhêl",
-    "description": "Lîstokên serhêl ên belaş ji bo kal û pîrên ku bi demans an Alzheimerê dijîn: lihevhatina wêneyan, puzzle yên hêsan, dabeşkirin, gotinên pêşiyan, rengkirin, bîngo. Bê tomarkirin, demjimêr an puanan.",
+    "title": "Lîstikên Belaş ku Bi Hev Re Bên Lîstin Serhêl",
+    "description": "Lîstikên serhêl ên belaş ji bo mirovên temen mezin, malbat û mirovên ku bi demensiyayê dijîn: cotkirina wêneyan, jigsawa hêsan, dabeşkirin, gotin, rengkirin û bingo. Bê qeyd, demjimêr an puan.",
     "crumb": "Lîstok",
-    "h1": "Lîstokên Nerm ji bo Kesên ku bi Demansê Dijîn",
+    "h1": "Lîstikên Nerm ku Bi Hev Re Bên Lîstin",
     "lede": "{count} lîstokên belaş ku hûn dikarin bi hev re di geroka xwe de bilîzin. Wêneyên mezin, peyvên zelal, û tiştek tune ku tê de bisernekevin: demjimêr tune, puan tune, tomarkirin tune.",
-    "listName": "Lîstokên nerm ji bo kesên ku bi demansê dijîn",
+    "listName": "Lîstikên nerm ku bi hev re bên lîstin",
     "byStageTitle": "Hilbijartina lîstokekê li gorî qonaxê",
     "byStageLede": "Qonax tenê rêberek gelemperî ne. Li gorî tiştê ku kes jê kêfxweş dibe û tiştê ku îro rehet e, tevbigerin.",
     "stageCol": "Qonax",
     "gamesCol": "Lîstokên ku pir caran guncan in",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Ramanên din ji dûrî ekranê: <a href=\"/activities/ideas/\">101 ramanên çalakiyan</a>, <a href=\"/dementia-activities/\">çalakiyên demensiyayê li malê</a> û <a href=\"/crafts/\">hunerên destan</a>.",
     "faq": [
       {
         "q": "Divê em bi kîjan lîstokê dest pê bikin?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Gelo ev lîstokên bîrê ne ji bo kal û pîran?",
-        "a": "Ew lîstokên lihevhatin û wêneyan in ku her kesê mezin dikare jê kêfxweş bibe, lê ew nehatine çêkirin ku bîrê biceribînin: di Cotên wêneyan de wêne rûxurû dimînin heya ku hûn wekî din hilnebijêrin. Rêbera me ya li ser lîstokên bîrê ji bo kal û pîrên ku bi demansê dijîn rave dike ka meriv çawa dikare her lîstokek bîrê nerm bihêle."
+        "a": "Ew lîstikên cotkirin û wêneyan in ku her mirovekî temen mezin dikare jê kêf bike, lê ew bi awayekî hatine çêkirin ku bibin ceribandina bîranînê: di Cotên wêneyan de wêne heta ku hûn bi awayekî din hilnebijêrin, li ser rûyê xwe xuya dimînin. Her lîstikeke bîranînê dikare bi rakirina demjimêr û puanan nermtir bibe."
       },
       {
         "q": "Gelo ji bo komên li maleke lênêrînê lîstok hene?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Gelo sepanek ji bo çalakiyên demansê heye?",
+        "q": "Ji bo mirovên temen mezin û malbatan appek heye?",
         "a": "Erê. Creative Activities (wekî \"{storeName}\" tê navnîş kirin) li App Store û Google Play belaş e. Ew lihevhatina wêneyan a nerm bi pelikên mezin, lîstokên bi wêneyên malbatê yên ku hûn hilbijêrin, û pakêtên wêneyan ên ku bê înternetê dixebitin pêşkêş dike."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Dikare were çapkirin",
     "howTo": "Awayê lîstina {name}",
     "tips": "Pêşniyarên ji bo lîstina bi hev re",
-    "newToPlayingHtml": "Gelo hûn nû bi kesekî ku bi demansê re dijî dilîzin? Bixwînin <a href=\"/caregiving/how-to-play-together/\">ka lîstik çawa bi hev re tên lîstin</a>, tevî ku heke eleqeya wan kêm bibe divê çi were kirin.",
+    "newToPlayingHtml": "Dara yekem e ku bi mirovekî temen mezin an kesekî ku bi demensiyayê dijî re dilîzî? Bixwînin <a href=\"/caregiving/how-to-play-together/\">meriv çawa bi hev re lîstikan dilîze</a>, di nav de ka divê çi bikin heke ew bi lîstikê re eleqedar nebin.",
     "moreAria": "Zêdetir ji bo keşfkirinê",
     "helpfulGuides": "Rêberên bikêr",
     "appTitle": "Di sepanê de bilîzin",
@@ -536,6 +666,35 @@
     "goodToKnow": "Baş e ku hûn bizanin",
     "goodToKnowText": "Ev lîstik ji bo kêfxweşî û dema bihevrebûnê ye. Ti tiştekî naceribîne, napîve û derman nake.",
     "moreGames": "Zêdetir lîstikên aram",
-    "crumb": "Lîstik"
+    "crumb": "Lîstik",
+    "print": {
+      "heading": "Li ser kaxezê bilîze",
+      "sameRules": "Guhertoya kaxezê heman qaîdeyên lîstika li ser ekranê heye:",
+      "button": "Guhertoyek kaxezê çap bike",
+      "pageNote": "Yek rûpel li ser A4 an US Letter, bi reş û spî jî baş e. Guhertoya {date}.",
+      "islandNote": "Ew tiştê ku niha li ser ekranê ye çap dike. Guhertoya {date}.",
+      "sheetTitle": "{name}: guhertoya kaxezê",
+      "point": "Li ser kaxezê, li şûna ku li wêneyekî bitikînin, tiştekî nîşan bidin an bi qelemekê dorpêç bikin. Her rêz komek nû ye.",
+      "pointTarget": "Li ser kaxezê, wêneya ku divê li wê binêrin di qutiya destpêka her rêzê de ye. Li şûna ku li wêneyekî bitikînin, nîşanê bidin an bi qelemekê dorpêç bikin.",
+      "halves": "Her wêne di nîvê de tê birrîn. Ji her nîvê li çepê xêzekê bikişînin heta nîvê rastê ku lê dikeve, an bi tiliyekê nîşan bidin. Hewce nake tiştek bibire.",
+      "grid": "Her kare jimarek heye. Vê jimarê di kilîlê de bibînin, û kareyê bi pênûsekê bi wî rengî reng bikin. Rengên din ên ku hûn hez dikin jî baş in. Hewce nake tiştek bibire.",
+      "colors": "Her rêz navê rengekî dide. Li her wêneyê ku wî rengî ye nîşan bidin, an bi qelemekê dorpêç bikin. Her rêz komek nû ye.",
+      "dice": "Her rêz komek zar e. Rêzekê hilbijêrin, an wêneyan bibirin û ji komekê bikişînin, paşê bi her rêzekê çîrokekê bibêjin. Kes dikare derbas bibe.",
+      "words": "Peyvan bibirin, an ji her peyvekê xêzekê bikişînin heta wêneya wê. Dema ku hûn diçin, peyvan bi dengekî bilind bixwînin.",
+      "cards": "Kartan li ser xetên xêzdar bibirin. Wan rûyê jor li ser masê bi rêz bikin, paşê cotan bibînin.",
+      "chain": "Li ser kaxezê, wêneyan ji çepê bo rastê, yek bi yek bixwînin. Her kes yek hevokê li ser wêneyên heta niha dibêje, paşê li wêneya din nîşan dide. Kes dikare derbas bibe.",
+      "sort": "Wêneyan li ser xetên xêzdar bibirin, paşê her yekî di qutiya xwe ya rast de bi cih bikin.",
+      "puzzle": "Wêneya mezin li ser xetên xêzdar bi çar perçeyan bibirin û tevlihev bikin. Her carê du perçeyan biguherînin heta ku wêne temam be. Wêneya piçûk rêberek e.",
+      "cutSafety": "Alîkarekî dikare berî ku hûn dest pê bikin birînê bike. Piştî wê, qeçikan dûr bixin.",
+      "version": "Guhertoya {date} · {url}",
+      "reasons": {
+        "photos": "Guhertoya kaxezê tune ye. Ev lîstik wêneyên we yên taybet bikar tîne, ku li browserê we dimînin û tu carî nayên barkirin, ji ber vê yekê malper nikare wan çap bike. Ji bo lîstin li ser kaxezê, li malê du kopiyên çend wêneyên xweş çap bikin û li ser masê wan cot bikin.",
+        "paced": "Guhertoya kaxezê tune ye. Çembera li ser ekranê tempoyekî hêdî û domdar datîne, û rûpelek çapkirî nikare wiya bike, ji ber vê yekê ew ê çalakiyeke cuda be. Dema bêdengiyek bi hev re bêyî ekranê her gav vebijarkek e.",
+        "turns": "Ji bo vê lîstikê guhertoya kaxezê tune ye. Ji bo dîtina cotan li ser masê, kartên wêneyan ji Cotên wêneyan çap bikin û dorê bigirin ku wan bizivirînin.",
+        "screen": "Ei ekzistê guhertoyek kaxez. Ev wêneyekî ye ku hûn bi hev re li ser ekranê temaşe dikin; wêneyek an kartpostalek ku hûn ji dil hez dikin li ser maseyê heman tiştî dike.",
+        "wash": "Ei ekzistê guhertoyek kaxez. Boyaxa avî li ser kaxezê heman fikir e: firçeyek şil û yek rengê carekê.",
+        "sayings": "Heta niha guhertoyek kaxez tune ye. Li ser kaxezê her encam dê bi carekê xuya bibe, û gava nermî ya \"Encamê nîşan bide\" winda dibe. Gotinan bi hev re li ser ekranê bixwînin, an çend gotinên ku hûn herdu jî dizanin parve bikin."
+      }
+    }
   }
 }

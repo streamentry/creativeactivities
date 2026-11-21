@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities башкы бети",
     "mainNav": "Негизги",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: чыны, күн карама жана иттин чоң, жагымдуу сүрөттөрү",
+    "defaultImageAlt": "Creative Activities: күнүмдүк нерселердин жагымдуу, ири сүрөттөрү, аларды жасап, колдонууга ылайыктуу",
     "languages": "Тил",
     "englishOnly": "(Англисче)",
     "machineTranslated": "Бул баракча автоматтык түрдө которулган жана эне тилинде сүйлөгөн адис тарабынан текшериле элек.",
     "readOriginal": "Түп нускасын англис тилинде окуу",
     "nav": {
+      "find": "Find an activity",
       "games": "Оюндар",
       "activities": "Иш-чаралар",
       "caregiving": "Кам көрүү",
-      "brainHealth": "Мээнин саламаттыгы"
+      "brainHealth": "Мээнин саламаттыгы",
+      "crafts": "Кол өнөр",
+      "kids": "Балдар",
+      "together": "Бирге",
+      "creativeCalm": "Чыгармачыл тынчтык",
+      "search": "Издөө"
     },
     "faqTitle": "Суроолор жана жооптор",
     "breadcrumb": "Багыттоо жолу",
@@ -27,7 +33,32 @@
       "label": "Тексттин өлчөмү",
       "smaller": "Кадимки текст",
       "larger": "Чоңураак текст",
-      "contrast": "Жогорку контраст"
+      "contrast": "Жогорку контраст",
+      "colors": "Түстөр",
+      "light": "Жарык",
+      "dark": "Караңгы",
+      "device": "Бул түзмөктөгүдөй",
+      "lineLength": "Сап узундугу",
+      "standardLines": "Стандарттуу",
+      "shorterLines": "Кыска саптар",
+      "spacing": "Аралык",
+      "standardSpacing": "Стандарттуу",
+      "moreSpace": "Көбүрөөк аралык"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 иш-чара идеясы",
     "lateStage": "Акыркы баскычтагы иш-чаралар",
     "printable": "Басып чыгарууга ылайыкталган материалдар",
-    "allActivities": "Бардык иш-чаралар",
+    "allActivities": "Бардык иш-аракет колдонмолору",
     "forCaregivers": "Кам көргөндөр үчүн",
     "playTogether": "Бирге кантип ойноо керек",
     "selfCare": "Өзүңүзгө кам көрүү",
@@ -54,24 +85,34 @@
     "app": "Creative Activities тиркемеси",
     "appHelp": "Тиркеме боюнча жардам",
     "support": "Колдоо кызматы",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Укуктук маалымат",
     "sitePrivacy": "Сайттын купуялыгы",
     "appPrivacy": "Тиркеменин купуялык саясаты",
     "privacyChoices": "Купуялык жөндөөлөрү",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Колдонуу шарттары жана тиркеменин лицензиясы",
     "safety": "Коопсуздук жана максаттуу колдонуу",
     "accessibility": "Жеткиликтүүлүк",
     "healthNotice": "Ден соолук тууралуу маалымат боюнча эскертүү",
     "allLegal": "Бардык укуктук маалыматтар",
     "note": "Creative Activities көңүлдүү убакыт өткөрүү үчүн жөнөкөй биргелешкен иш-чараларды сунуштайт. Бул медициналык кеңеш, тест же дарылоо эмес, ошондой эле эч кимге диагноз койбойт, баа бербейт жана упай санабайт. Ден соолукка байланыштуу суроолор боюнча дарыгерге кайрылыңыз. Өзгөчө кырдаалда 112ге чалыңыз.",
-    "publisher": "Cloudjet Solutions Pte. Ltd. тарабынан чыгарылган"
+    "publisher": "Cloudjet Solutions Pte. Ltd. тарабынан чыгарылган",
+    "crafts": "Бардык жаштагылар үчүн кол өнөр",
+    "kids": "Балдар үчүн иш-аракеттер",
+    "together": "Бирге аткарылуучу иш-аракеттер",
+    "creativeCalm": "Чыгармачыл тынчтык",
+    "dementiaActivities": "Деменциясы бар адамдар үчүн иш-аракеттер"
   },
   "home": {
-    "title": "Деменция жана Альцгеймер оорусу бар адамдар үчүн оюндар жана иш-чаралар | Creative Activities",
-    "description": "Деменция же Альцгеймер оорусу менен жашаган адамдар жана аларга кам көргөндөр үчүн акысыз, тынч сүрөт оюндары жана пайдалуу идеялар. Катталуунун, убакыт чектөөсүнүн же упайлардын кереги жок.",
+    "title": "Кимдир бирөөгө камкордук кылган адамдар үчүн Creative Activities",
+    "description": "Кимдир бирөөгө камкордук кылган адамдар үчүн акысыз чыгармачыл иш-аракеттер: кол өнөр, балдар үчүн нерселер, бирге аткарылуучу иш-аракеттер жана тынч чыгармачыл идеялар.",
     "eyebrow": "Акысыз · Жарнамасыз · Катталуусуз · Убакыт чектөөсүз жана упайсыз",
-    "h1": "Деменциясы бар адамдар үчүн жөнөкөй жана тынч оюндар менен иш-чаралар",
-    "lede": "Сизге ыңгайлуу ыргакта чогуу убакыт өткөрүү үчүн жөнөкөй сүрөт оюндары, тааныш сүрөттөр жана көңүлдүү иш-чаралар.",
+    "h1": "Бирге бир нерсе жасаңыз",
+    "lede": "Адамга, учурга жана колуңуздагы нерселерге ылайыкталган иш-аракетти табыңыз. Жөнөкөй кол өнөр, балдардын искусствосу, бирге аткарылуучу иш-аракеттер жана тынч чыгармачыл идеялар, жеңил варианттар жана басып чыгара турган карточка менен. Каалаган убакта токтоңуз.",
     "playGame": "Оюн ойноо",
     "findIdeas": "Иш-чара идеяларын табуу",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 иш-чара идеясы",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Алгачкы баскыч",
         "text": "Алар жакшы көргөн нерселерди бир аз ыңгайлаштыруу менен улантыңыз: сүйүктүү иштер, сейилдөө, сөз оюндары жана чогуу пландаштыруу.",
         "label": "Алгачкы баскыч үчүн идеялар"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Ортоңку баскыч",
         "text": "Кадам-кадамы менен бөлүнгөн жөнөкөй жана тааныш жумуштар: бүктөө, сорттоо, музыка, сүрөт оюндары жана кыска сейилдөөлөр.",
         "label": "Ортоңку баскыч үчүн идеялар"
@@ -124,10 +165,10 @@
         "label": "Акыркы баскыч үчүн идеялар"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Бир нерсе издеп жатасызбы? <a href=\"/dementia-activities/\">Альцгеймер ооруусу үчүн иш-аракеттер жана оюндар</a>, <a href=\"/together/puzzles-and-table-games/\">табышмактар жана үстөл оюндары</a>, <a href=\"/together/conversation-games-for-all-ages/\">сүйлөшүү оюндары</a> же <a href=\"/together/puzzles-and-table-games/\">табышмактар</a> менен таанышып көрүңүз.",
     "approachEyebrow": "Биздин мамиле",
-    "approachTitle": "Биргелешкен иш-чара, эс тутумду текшерүү эмес",
-    "approachLede": "Көптөгөн «мээ көнүгүүлөрү» ылдамдыкка, упайларга жана катары менен утуштарга багытталган. Деменциясы бар адам үчүн бул сынак тапшыргандай сезилиши мүмкүн. Биз анын толук карама-каршысын түздүк.",
+    "approachTitle": "Бул бөлүшүлгөн иш-аракет, тест эмес",
+    "approachLede": "Көптөгөн “мээ оюндары” ылдамдыкка, упайларга жана катарлаш утууларга негизделген. Чарчаган, ооруган же деменциясы бар адам үчүн бул экзаменге окшоп сезилиши мүмкүн. Биз андан мүлдө башкача кылдык.",
     "approachLink": "Эмне үчүн ушундай түзгөнүбүз жөнүндө",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Баш тартуунун көп кездешкен себептери жана бир аздан кийин кайра акырын сунуштоонун жолдору."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Планшетти тууралоо",
-        "text": "Чоңураак текст, алаксытуучу нерселердин аздыгы жана жөнөкөй бир башкы экран."
+        "href": "/activities/group-art-activities/",
+        "title": "Топтук сүрөт иш-аракеттери",
+        "text": "Бир нече адам отурган үстөл үчүн бөлүшүлгөн долбоорлор, ар бир адамга өз милдети бар."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Басып чыгаруу үчүн акысыз материалдар",
-        "text": "Чоң ариптүү сөз издөө оюндары, боёмо баракчалар, лото жана маектешүү карточкалары."
+        "href": "/activities/ideas/",
+        "title": "101 иш-аракеттин идеясы",
+        "text": "Жөнөкөй идеялар, колуңуздагы нерсеге жана канчалык күч барына жараша иреттелген."
       }
     ],
     "researchTitle": "Мээнин саламаттыгы: изилдөөлөр иш жүзүндө эмнени көрсөтөт",
@@ -185,8 +226,8 @@
     "aboutApp": "Тиркеме жөнүндө",
     "faq": [
       {
-        "q": "Деменциясы бар адамдар үчүн кандай оюндар ылайыктуу?",
-        "a": "Жакшы оюндар жөнөкөй, тааныш жана эч кандай басымсыз болот: дал келтирүүчү чоң сүрөттөр, иреттөө, жеңил пазлдар, белгилүү макалдарды толуктоо, боёо, сүрөттүү лото жана баарлашуу карталары. Эң жакшы тандоо — адамдын бүгүн көңүлүнө жаккан нерсе. Таймерлерден, упайлардан жана сынактай сезилген нерселерден алыс болуңуз."
+        "q": "Улгайган адамдар үчүн кандай оюндар жакшы?",
+        "a": "Good games are simple, familiar and free of pressure: large pictures to match, sorting, easy jigsaws, finishing well-known sayings, coloring, picture bingo and conversation cards. They suit many older adults, including people living with dementia. The best choice is the one the person enjoys today. Avoid timers, scores and anything that feels like a test."
       },
       {
         "q": "Бул оюндар акысызбы?",
@@ -194,7 +235,7 @@
       },
       {
         "q": "Мээге арналган оюндар деменциянын алдын алабы?",
-        "a": "Бир дагы оюн деменциянын алдын алары далилденген эмес жана Creative Activities эч нерсени айыктырууну же алдын алууну убада кылбайт. Биздин оюндар көңүл ачууга жана чогуу убакыт өткөрүүгө арналган. Биздин мээнин саламаттыгы тууралуу бөлүмүбүздө илимий изилдөөлөр эмнени көрсөтүп, эмнени көрсөтпөй турганы түшүндүрүлгөн."
+        "a": "Деменцияны алдын алууга далилденген бир дагы оюн жок, ал эми Creative Activities эч нерсени дарылоо же алдын алуу жөнүндө айтпайт. Биздин оюндар кубаныч жана бирге өткөрүлгөн убакыт үчүн, ал эми бир дагы иш-аракеттин баракчасында ден соолук жөнүндө билдирүү жок."
       },
       {
         "q": "Бул оюндар Альцгеймер оорусу бар адамга ылайыктуубу?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities долбоорун ким жасайт?",
-        "a": "Creative Activities — үй-бүлөлөр жана кам көрүүчүлөр үчүн веб-сайтта жана акысыз колдонмо түрүндө тынч, чоңдорго ылайыктуу сүрөттүү көнүгүүлөрдү жасаган чакан топ. Биз дарыгер эмеспиз жана бул жердеги маалыматтар медициналык кеңеш болуп саналбайт."
+        "a": "Creative Activities — бул кимдир бирөөгө камкордук көрсөткөн адамдар үчүн тынч, чоңдор үчүн чыгармачыл иш-аракеттерди жасаган кичине команда, веб-сайтта жана акысыз колдонмо түрүндө. Биз клиницистер эмеспиз, жана бул жерде медициналык кеңеш жок."
+      }
+    ],
+    "groupsEyebrow": "Өз жолуңузду табыңыз",
+    "groupsTitle": "Чыгармачыл иш-аракеттин төрт түрү",
+    "groupsLede": "Ким менен бирге экениңизге жана колуңузда эмне бар экенине ылайыктуу топтон баштаңыз. Ар бир баракчада жеңил варианттар жана коопсуздук эскертмелери бар.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Кол өнөр",
+        "text": "Кагаз, боёк, кайра иштетилген жана мезгилдик долбоорлор, ар биринин жеңил варианты менен.",
+        "label": "Кол өнөрдү карап чыгуу"
+      },
+      {
+        "href": "/kids/",
+        "title": "Балдар",
+        "text": "Балдар үчүн искусство жана оюн, жанында чоң адам жана так коопсуздук эскертмелери менен.",
+        "label": "Балдар иш-аракеттерин карап чыгуу"
+      },
+      {
+        "href": "/together/",
+        "title": "Бирге",
+        "text": "Сүйлөшүү, табышмактар, ачык аба убактысы жана муундар аралык жакын болуунун жолдору.",
+        "label": "Бирге аткарылуучу нерселерди карап чыгуу"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Чыгармачыл тынчтык",
+        "text": "Калем, барак же ыр менен акырын, тынч чыгармачыл учурлар. Бул терапия эмес.",
+        "label": "Чыгармачыл тынчтыкты карап чыгуу"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Басып чыгарууга болот",
     "play": "{name} ойноо →",
     "readGuide": "Колдонмону окуу"
+  },
+  "listen": {
+    "listenSteps": "Кадамдарды угуңуз",
+    "pause": "Тыныгуу",
+    "resume": "Улантуу",
+    "stop": "Токтотуу",
+    "speed": "Ылдамдык",
+    "normal": "Кадимки",
+    "slower": "Жайыраак",
+    "reading": "Кадамдар үнү менен окулуп жатат.",
+    "paused": "Тыныгуу. Улантуу үчүн Улантуу баскычын басыңыз.",
+    "note": "Түзмөгүңүздүн өз үнүн колдонот. Айрым түзмөктөр текстти аны жасаган компанияга жиберип, айттырат.",
+    "listen": "Угуу",
+    "stepLabel": "{n}-кадамды угуу",
+    "stopStep": "{n}-кадамды токтотуу"
   },
   "playCta": {
     "title": "Тынч оюн ойноого даярсызбы?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Көнүгүүлөр",
-      "title": "Деменциясы бар адамдар үчүн көнүгүүлөр",
-      "seo": "Деменциясы бар адамдар үчүн көнүгүүлөр: баскычтар боюнча идеялар",
-      "description": "Деменция менен жашаган адамдар үчүн ар бир баскычка ылайыктуу көнүгүү идеялары: музыка, эскерүүлөр, күнүмдүк иштер, сезүү көнүгүүлөрү, кол өнөрчүлүк, таза абада сейилдөө жана акысыз басып чыгаруу материалдары.",
-      "lede": "Маңыздуу көнүгүү — бул жанга тынчтык, максат же жакындык тартуулаган ар бир көз ирмем. Адам мурунтан бери эмнени жакшы көрсө, ошондон баштап, аны бүгүнкү күнгө ылайыкташтырыңыз."
+      "label": "Иш-аракет колдонмолору",
+      "title": "Иш-аракет колдонмолору",
+      "seo": "Иш-аракет колдонмолору: идеялар, искусство материалдары жана баштоо жолдору",
+      "description": "Бирөө менен кылып турган чыгармачыл иш-аракеттер боюнча жөнөкөй колдонмолор: жөнөкөй идеялар, бюджетке ылайыктуу сүрөт материалдары, топтук искусство, каттар, эстеликтер жана искусство терапиясынын түшүндүрмөсү.",
+      "lede": "Адамдын жашы же мүмкүнчүлүгү кандай болсо да, бирөө менен иш-аракетти тандоо жана баштоо боюнча кыска, практикалык колдонмолор."
+    },
+    "crafts": {
+      "label": "Кол өнөр",
+      "title": "Бардык жаштагылар үчүн кол өнөр",
+      "seo": "Бардык жаштагылар үчүн жөнөкөй кол өнөр, жеңил варианттар менен",
+      "description": "Чоңдор, балдар жана үй-бүлөлөр үчүн жөнөкөй кол өнөр: кагаз, боёо, кайра иштетилген жана мезгилдик кол өнөр, кармоого жеңил жана отуруп жасоо варианттары менен, атайын көндүмсүз.",
+      "lede": "Көпчүлүк үйдө бар нерселерден баштала турган кол өнөр, ар биринин жеңил варианты бар, ошондуктан ар бир адам бир нерсе жасай алат."
+    },
+    "kids": {
+      "label": "Балдар",
+      "title": "Балдар үчүн чыгармачыл иш-аракеттер",
+      "seo": "Балдар үчүн чыгармачыл иш-аракеттер: искусство, сенсордук жана тынчтык",
+      "description": "Балдар үчүн чыгармачыл иш-аракеттер: бала курагындагы искусство, процесс сүрөтү, сенсордук оюн, жамгырлуу күндөрдүн кол өнөрү жана тынчтануу идеялары, коопсуздук эскертмелери жана сенсордук муктаждыктар үчүн варианттар менен.",
+      "lede": "Ар кандай курактагы жана муктаждыктагы балдар үчүн искусство жана оюн идеялары, так коопсуздук эскертмелери жана жанында чоң адам менен."
+    },
+    "together": {
+      "label": "Бирге",
+      "title": "Бирге аткарылуучу иш-аракеттер",
+      "seo": "Бирге аткарылуучу иш-аракеттер, муундар аралык",
+      "description": "Эки же андан көп муундар үчүн иш-аракеттер: сүйлөшүү оюндары, табышмактар, ачык аба убактысы, чоң ата-чоң эне менен неберелер үчүн кол өнөр жана алыстан жакын болуунун жолдору.",
+      "lede": "Ата-эне, чоң ата-чоң эне, бала же дос менен үйдө, ачык абада, конокко барганда же алыстан убакыт бөлүшүүнүн идеялары."
+    },
+    "creative-calm": {
+      "label": "Чыгармачыл тынчтык",
+      "title": "Чыгармачыл тынчтык",
+      "seo": "Чыгармачыл тынчтык: тынчтандыра турган искусство жана иш-аракеттер",
+      "description": "Чоңдор жана камкорчулар үчүн тынчтандыра турган чыгармачыл иш-аракеттер: зээндүү искусство, күнделик жазуу, музыка, сенсордук учурлар жана тынч түштөр. Чыгармачыл иш-аракет, терапия эмес.",
+      "lede": "Калем, барак же ыр менен акырын жайлоонун жумшак жолдору. Бул чыгармачыл иш-аракеттер, терапия эмес, жана эч кандай көндүм талап кылбайт."
     },
     "caregiving": {
-      "label": "Кам көрүү",
-      "title": "Кам көрүү боюнча колдонмолор",
-      "seo": "Деменцияда кам көрүү боюнча колдонмолор: күнүмдүк турмуштагы жардам",
-      "description": "Деменциясы бар адамдарга кам көргөндөр үчүн пайдалуу, жылуу колдонмолор: чогуу ойноо, баарлашуу, баш тартуулар, кечки тынчсыздануу, планшет колдонуу, колдонмолорду тандоо жана өзүңүзгө кам көрүү.",
-      "lede": "Деменция менен жашаган адамга кам көрүүнүн күнүмдүк учурлары үчүн жөнөкөй жана иш жүзүндөгү кеңештер, анын ичинде өзүңүзгө да кам көрүү жолдору."
+      "label": "Уруучулук кам",
+      "title": "Деменциясы бар адамга кам көрүү",
+      "seo": "Деменциясы бар адамга кам көрүү: иш-чаралар жана жардам",
+      "description": "Деменциясы бар адамга кам көрүп жаткан үй-бүлөлөр үчүн жетекчилик: birge кантип ойноо, алар “жок” дешсе эмне кылуу керек жана диагноздон кийин ишенимдүү жардамды кайдан табуу керек.",
+      "lede": "Деменция менен жашаган адамга кам көрүп жаткан үй-бүлөлөр үчүн иш-чараларга негизделген жардам жана медициналык жана кам көрүү боюнча кеңеш алуу үчүн кайда бурулуу керек."
     },
     "brain-health": {
       "label": "Мээнин саламаттыгы",
@@ -283,7 +396,16 @@
     "tryTogether": "Чогуу жасап көрүңүз",
     "relatedGuides": "Байланыштуу колдонмолор",
     "related": "Байланыштуу",
-    "startHere": "Бул жерден баштаңыз"
+    "startHere": "Бул жерден баштаңыз",
+    "staleAria": "Которуу эскирген",
+    "staleTitle": "Бул которуу эскирген",
+    "staleText": "It was made from an earlier version of the English page, which has changed since. The English page is the current one.",
+    "staleHealth": "It gives health information, so check the English page and ask a doctor or nurse before acting on it.",
+    "staleLink": "Read the current English page"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Ден соолук тууралуу маалыматтык эскертүү",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Эс тутумду сыноо эмес, биргелешкен көнүгүү",
+      "title": "Бирге иш-чара, тест эмес",
       "seoTitle": "Creative Activities жөнүндө: биздин мамиле",
-      "description": "Эмне үчүн Creative Activities оюндарында таймерлер, упайлар же катар жеңиштер жок, эмне үчүн сүрөттөр көрүнүп турат жана деменция тууралуу эмнени айтып, эмнени айтпай тургандыгыбыз жөнүндө.",
+      "description": "Creative Activities эмнеге таймер, упай же катар эсептөөлөрсүз иштээрин, сүрөттөр эмне үчүн көрүнүп турарын жана саламаттык жөнүндө эмнелерди ырастайбыз же ырастабайбыз.",
       "crumb": "Биздин мамиле",
-      "lede": "Creative Activities кам көрүүчү жана деменция менен жашаган адам чогуу ырахат ала турган тынч, чоңдорго ылайыктуу сүрөттүү көнүгүүлөрдү сунуштайт.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Демөөрчүлөр жана өнөктөштөр",
+        "none": "Creative Activities’те демөөрчүлөр, акылуу жайгаштыруулар жана сайтта логотиптери көрүнгөн өнөктөштөр жок.",
+        "listed": "Бул — Creative Activities’тин демөөрчүлөрү жана өнөктөштөрү. Ар бир байланыш ал пайда болгон баракчада да ачык көрсөтүлгөн.",
+        "policy": "Бул өзгөрсө, ар бир ушундай баракча муну пайда болгон жеринде айтат, эч бир иш-чарада демөөрчү болбойт жана өнөктөштөрдүн тизмеси ушул бетте жайгаşат.",
+        "listHeading": "Өнөктөштөрдүн тизмеси",
+        "noPartners": "Учурда өнөктөштөр жок."
+      },
+      "lede": "Creative Activities эки адам катар отуруп бирге ырдай ала турган, сабырдуу, чоңдорго арналган иш-чараларды жасайт — бири экинчисине кам көрүп жатабы же жөн гана birge убакыт өткөргүсү келеби, бул маанилүү эмес.",
+      "bodyHtml": "<h2>Кимге арналган</h2><p>Кимдир бирөгө кам көргөн ар кимге: ата-энеге, чоң атага же чоң апага, балага, жубайга, досуна же деменция менен жашаган адамга. Үй-бүлөлөр, улгайган адамдар жана иш-чара кызматкерлери бирдей баракчаларды колдоно алышат.</p><h2>Биз эмнеге ишенебиз</h2><p>Иш-чаранын маани өзүндө: сүйлөшүү, жылмаюу, эки сүрөттү бириктирүүдөн алынган канааттануу же жөн гана жанаша отуруу. Ал адамды баалоо, аны алдыга түртүү же бир нерсени далилдөө үчүн эмес.</p><p>Көптөгөн мээни машыктыруучу колдонмолор ылдамдыкка, упайларга, катарларга жана деңгээлдерге негизделген. Чарчаган, ооруган же деменция менен жашаган адам үчүн бул өтө кыйын эмес, өтө кыйын сынак сыяктуу сезилиши мүмкүн. Биз тескерисин жасадык жана өзүбүзгө төмөнкү эрежелерди коёбуз:</p><ul><li><strong>Жеңилүүгө эч нерсе жок.</strong> Эч бир экранда саат, упай, жылдыруу санагычы, жашоо, катар, конфетти же санактоо жок.</li><li><strong>Эстеп калуудан көрө тааный билүү.</strong> Сүрөттөр демейде көрүнүп турат. Эскертмелер сүйлөшүүгө чакырат жана эч качан аттарды же эс тутумду сынга салбайт.</li><li><strong>Чоң, жөнөкөй жана туруктуу.</strong> Чоң текст жана сүрөттөр, жогорку контраст жана башкаруу элементтери бир жерде турат.</li><li><strong>Чоңдордун сыйы.</strong> Реалдуу турмуштан алынган сүрөттөр жана жөнөкөй, жылуу сөздөр. Мультфильмдер, ырдай айтылган мактоолор же эмоджи сыйлыктары жок.</li><li><strong>Жеңил чыгуу жолу.</strong> “Азырынча бүттү” баскычы ар дайым көрүнүп турат. Ортодо токтоо — жакшы натыйжа.</li><li><strong>Демейде жеке.</strong> Каттоо эсептери жана жарнамалар жок. Тандаган сүрөттөр түзмөгүңүздө калат.</li></ul><h2>Эмнелерди ырастабайбыз</h2><p>Биздин оюндар жана иш-чаралар көңүл ачуу жана байланыш үчүн. Алар деменцияны же Альцгеймер ооруусун диагноздобойт, текшербейт, өлчөбөйт, дарылабайт, басаңдатпайт же алдын албайт, жана эч ким аларды ушул себеп менен тандоосу керек эмес. Изилдөөлөр жөнүндө жазганда, далилдердин начар жерин ачык айтабыз жана аларды эч качан өзүбүздүн иш-чараларыбыз менен байланыштырбайбыз.</p><h2>Биз кансыз</h2><p>Creative Activities — кичине көз карандысыз команда. Биз клиницисттер эмеспиз. Биздин жетекчилик National Institute on Aging жана Alzheimer’s Association сыяктуу уюмдардын жарыяланган сунуштарынан жазылат, ар бир жетекчиликте анын булактары көрсөтүлгөн. <a href=\"/editorial-policy/\">Биз баракчаларды кантип жазып жана текшерерибизди</a> окуңуз.</p><h2>Эмне жардам берерин айтыңыз</h2><p>Сиз үчүн эмне иштээрин жана эмне иштебээрин угуудан кубанабыз, айрыкча деменция менен жашаган адамдардан, үй-бүлөлүк кам көрүүчүлөрдөн жана иш-чара кызматкерлеринен. Жазыңыз: <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Баракчаларыбызды кантип жазабыз жана текшеребиз",
       "seoTitle": "Редакциялык саясат",
-      "description": "Creative Activities деменцияга арналган иш-аракеттер жана мээнин ден соолугу баракчаларын кантип изилдеп, жазып, булактар менен бекемдеп жана жаңылайт, ошондой эле биз эч качан жарыялабай турган нерселер.",
+      "description": "Creative Activities иш-чара жана саламаттык баракчаларын кантип изилдейт, жазат, булактарын текшерет жана жаңыртат, жана эмнени эч качан жарыялабасы.",
       "crumb": "Редакциялык саясат",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Суроолор жана жооптор",
-      "seoTitle": "Деменцияга арналган оюндар жана иш-аракеттер: суроолор жана жооптор",
-      "description": "Деменцияга арналган оюндар жана иш-аракеттер боюнча көп берилүүчү суроолорго жооптор: кайсы оюндарды сынап көрүү керек, канча убакыт ойноо, кийинчерээк этаптарга идеялар, мээнин ден соолугу жана купуялык.",
+      "seoTitle": "Creative Activities жөнүндө суроолор жана жооптор",
+      "description": "Оюндар жана иш-чаралар боюнча көп берилүүчү суроолорго жооптор: эмнени сынап көрүү, канча убакыт ойноо, топтор жана кийинки баскычтагы идеялар, саламаттык жана купуялуулук.",
       "crumb": "Суроолор жана жооптор",
       "lede": "Кам көрүүчүлөр эң көп берген суроолорго кыска, жөнөкөй жооптор.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Оюндар жөнүндө",
           "items": [
             {
-              "q": "Деменция менен жашаган адам үчүн эң жакшы оюндар кайсылар?",
+              "q": "Улгайган адамдар үчүн эң жакшы оюндар кайсылар?",
               "a": "Эң жакшы оюндар — тааныш, жөнөкөй жана басымсыз оюндар. Туура оюн — адам бүгүн ырахат ала турган оюн. Сүрөттөр көрүнүп турган сүрөттөрдү дал келтирүү, сорттоо, жеңил пазлдар, тааныш сөз айкаштарын аяктоо, боёо жана сүрөттүү бинго көп адамдарга ылайыктуу болушу мүмкүн. Таймерлерден, упайлардан жана тест сыяктуу сезилген нерселерден алыс болуңуз."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Мээнин ден соолугу",
+          "title": "Деменция жана саламаттык",
           "items": [
             {
               "q": "Оюндар деменциянын алдын алабы же анын өнүгүшүн жайлатабы?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Кеңирээк: <a href=\"/caregiving/how-to-play-together/\">birge кантип ойноо</a>, <a href=\"/caregiving/when-they-say-no/\">алар “жок” дешсе</a>, <a href=\"/activities/late-stage/\">кийинки баскычтагы иш-чаралар</a> жана <a href=\"/dementia-activities/\">үйдөгү деменция боюнча иш-чаралар</a>."
     },
     "handout": {
       "title": "Деменция менен жашаган адамдар үчүн акысыз, жумшак оюндар",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Кам көрүү үйлөрү, китепканалар жана колдоо топтору үчүн",
-      "seoTitle": "Карылар үйлөрү жана топтор үчүн деменциядагы акысыз оюндар жана көнүгүүлөр",
-      "description": "Карылар үйлөрү, күндүзгү борборлор, китепканалар, социалдык мекемелер жана колдоо топтору деменция менен жашаган адамдар үчүн акысыз оюндарыбызды кантип колдоно алары тууралуу маалымат жана бизди пайдалуу ресурстар тизмесине кошуу үчүн текст.",
+      "seoTitle": "Кам көрүү үйлөрү, китепканалар жана топтор үчүн акысыз иш-чаралар",
+      "description": "Кам көрүү үйлөрү, күндүзгү программалар, китепканалар, улгайган адамдар боюнча агенттиктер жана колдоо топтору биздин акысыз оюндар жана иш-чара жетекчиликтерин кантип колдонушат, ошондой эле бизди ресурстар тизмесине кошуу үчүн текст.",
       "crumb": "Уюмдар үчүн",
       "lede": "Бул сайттагы бардык нерселер мекемеңиздеги тургундар, катышуучулар жана кардарлар менен колдонуу үчүн акысыз; каттоо, лицензия же төлөм талап кылынбайт. Бул баракчада сайтта эмнелер бар экени жана аларды кантип бөлүшүүгө болору түшүндүрүлөт.",
-      "shortText": "{name}: деменция менен жашаган адамдар жана аларды караган жакындары үчүн акысыз, тынч сүрөттүү оюндар жана көнүгүү колдонмолору. Каттоо, таймер жана упайлар жок.",
-      "longText": "{name} ({domain}) деменция менен жашаган адамдар үчүн атайын даярдалган {count} акысыз браузер оюнун сунуштайт. Алардын арасында сүрөттөрү ачык турган түгөйлөрдү табуу, жөнөкөй пазлдар, сорттоо, тааныш макал-лакаптар жана басып чыгарууга мүмкүн болгон карталары бар сүрөттүү лото бар. Сайтта катталуу, жарнама, таймер же упай топтоо жок. Ошондой эле сайтта деменциянын ар бир баскычына арналган жана National Institute on Aging менен Alzheimer's Association уюмдарынын маалыматтарына таянган, жөнөкөй тил менен жазылган колдонмолор камтылган.",
+      "shortText": "{name}: улгайган адамдар, үй-бүлөлөр жана деменция менен жашаган адамдар үчүн акысыз, жумшак сүрөт оюндары жана иш-чара жетекчиликтери. Каттоо жок, таймер жок, упай жок.",
+      "longText": "{name} ({domain}) сунуштаган {count} акысыз браузердеги оюн улгайган адамдар, үй-бүлөлөр жана деменция менен жашаган адамдар үчүн: сүрөттөрү ачык калган жуптарды табуу, жеңил пазл, сорттоо, тааныш накыл-сөздөр жана басып чыгарыла турган карталары бар сүрөттүү бинго. Каттоо эсеби, жарнама, таймер же упай жок. Сайтта үй-бүлөлөр, улгайган адамдар жана кызматкерлер үчүн жөнөкөй тилдеги иш-чаралар боюнча колдонмолор бар, булактар катары National Institute on Aging жана Alzheimer's Association көрсөтүлгөн.",
       "useTitle": "Уюмдар эмнелерди колдоно алат",
       "gamesItemHtml": "Ноутбукта, планшетте же компьютерге туташтырылган сыналгыда иштеген <strong>{count} браузер оюну</strong>. Орнотуу, катталуу же жүктөө талап кылынбайт. <a href=\"/games/\">Бардык оюндарды</a> көрүңүз.",
       "printablesLabel": "Басып чыгарууга {count} материал:",
       "printablesAfter": "Ар бир баракчадагы «Басып чыгаруу» баскычын колдонуңуз.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Топтук форматтар:</strong> <a href=\"/games/picture-bingo/\">Сүрөттүү бинго</a> басып чыгарыла турган карталары жана экрандагы жүргүзүүчүсү бар, ал эми <a href=\"/together/conversation-games-for-all-ages/\">сүйлөшүү оюндарында</a> жооп варианттары бар суроолор жана сүйлөшүү темалары берилген.</li><li><strong>Иш-чаралар боюнча колдонмолор</strong> кызматкерлер жана үй-бүлөлөр үчүн, булактары менен жөнөкөй тилде жазылган. <a href=\"/activities/ideas/\">101 иш-чара идеясынан</a> же <a href=\"/crafts/craft-group-sessions/\">кароо үйлөрү үчүн топтук иш-чаралардан</a> баштасаңыз болот.</li>",
       "restHtml": "<h2>Топтор муну кантип колдонушат</h2><ul><li><strong>Карылар үйлөрү жана эс тутуму начарлагандарды кароо бөлүмдөрү:</strong> жалпы бөлмөдөгү сыналгыдан сүрөттүү лото же макалды толуктоо оюну; мында бир адам бүтүндөй топ үчүн экранды басып турат.</li><li><strong>Күндүзгү борборлор:</strong> кыска жеке көнүгүүлөр үчүн төрт уячага коюлган «Сүрөт түгөйлөрү» оюну бар планшеттер.</li><li><strong>Коомдук китепканалар:</strong> эс тутум топтомдорундагы басылып чыккан сөз издөө жана баарлашуу карталары, ошондой эле китепкана планшеттеринде сакталган сайттын шилтемеси.</li><li><strong>Кам көрүүчүлөрдү колдоо топтору жана эс тутум кафелери:</strong> үй-бүлөлөр үйүнө ала кетүүгө ылайыкталган <a href=\"/handout/\">бир барактуу басып чыгаргыч эскертме</a>.</li><li><strong>Ооруканалар жана бейтапканадан чыгарууну уюштурган кызматкерлер:</strong> үйдө же керебет жанында тынч көнүгүүлөрдү жасоо үчүн кам көрүүчүлөрдүн маалымат топтомуна кошулуучу эскертме.</li></ul><h2>Биз эмнелерди жасабайбыз</h2><p>Оюндар көңүл ачуу жана бирге убакыт өткөрүү үчүн арналган. Алар деменцияны аныктабайт, текшербейт, баа бербейт, айыктырбайт же басаңдатпайт жана биз уюмдардан аларды мындай түрдө сүрөттөбөөнү өтүнөбүз. Жарнама жок жана оюндар ысымдарды, ден соолук тууралуу маалыматтарды же сүрөттөрдү жүктөө талап кылбайт. Веб-сайт кирүүлөрдү эсептөө үчүн Google Analytics колдонот; биздин <a href=\"/privacy/\">купуялык эрежелерибизде</a> кандай маалыматтар чогултулары түшүндүрүлгөн. <a href=\"/games/photo-pairs/\">Сүрөт түгөйлөрү</a> оюнунда колдонулган сүрөттөр браузерде гана сакталат.</p><h2>Бизди ресурстар тизмесине кошуңуз</h2><p>Эгер сиз кам көрүүчүлөр үчүн пайдалуу ресурстардын тизмесин түзсөңүз, <a href=\"/\">{domain}</a> шилтемесин калтырсаңыз болот. Төмөнкү сүрөттөмөлөрдүн каалаганын көчүрүп алсаңыз болот.</p>",
       "shortTitle": "Кыска сүрөттөмө",
       "longTitle": "Кененирээк сүрөттөмө",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Түздөн-түз шилтеме берүүгө ылайыктуу пайдалуу барактар: <a href=\"/games/\">акысыз оюндар</a>, <a href=\"/games/\">акысыз басып чыгарыла турган материалдар</a>, <a href=\"/dementia-activities/\">үйдөгү деменция боюнча иш-чаралар</a> жана <a href=\"/caregiving/how-to-play-together/\">биргелешип ойноо жолу</a>.</p><h2>Суроолор же оңдоолор</h2><p>Сайттагы бир нерсе туура эмес же түшүнүксүз болсо, же жашоочулардын жана кардарлардын муктаждыктары бул жерде камтылбаса, <a href=\"mailto:{email}\">{email}</a> дарегине жазып билдириңиз. Жашоочулар же кардарлар тууралуу жеке же саламаттык маалыматын жибербеңиз.</p>"
     },
     "app": {
       "title": "Creative Activities тиркемеси",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Деменция жана Альцгеймер оорусу бар адамдар үчүн акысыз онлайн оюндар",
-    "description": "Деменция же Альцгеймер оорусу менен жашаган улуу кишилер үчүн акысыз онлайн оюндар: сүрөт түгөйлөрүн табуу, жеңил пазлдар, сорттоо, макалдар, боёмолор жана бинго. Каттоосуз, убакыт чектөөсүз жана упайсыз.",
+    "title": "Бирге онлайн ойноо үчүн акысыз оюндар",
+    "description": "Улгайган адамдар, үй-бүлөлөр жана деменция менен жашаган адамдар үчүн акысыз онлайн оюндар: сүрөттөрдү жупташтыруу, жеңил пазлдар, сорттоо, накыл-сөздөр, боёо жана бинго. Катталуу, таймер же упай жок.",
     "crumb": "Оюндар",
-    "h1": "Деменция менен жашаган адамдар үчүн жайбаракат оюндар",
+    "h1": "Бирге ойноо үчүн жумшак оюндар",
     "lede": "Браузериңизде чогуу ойноо үчүн {count} акысыз оюн. Чоң сүрөттөр, жөнөкөй сөздөр жана ката кетирүү коркунучу жок: убакыт өлчөгүч, упайлар жана каттоо талап кылынбайт.",
-    "listName": "Деменция менен жашаган адамдар үчүн жайбаракат оюндар",
+    "listName": "Бирге ойноо үчүн жумшак оюндар",
     "byStageTitle": "Оюнду баскычына жараша тандоо",
     "byStageLede": "Баскычтар болжолдуу гана багыт берет. Сиз кам көргөн адам эмнеден ырахат алса жана бүгүн эмне ыңгайлуу болсо, ошону тандаңыз.",
     "stageCol": "Баскыч",
     "gamesCol": "Көбүнчө туура келген оюндар",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Экрансыз иш-чаралар боюнча дагы идеялар: <a href=\"/activities/ideas/\">101 иш-чара идеясы</a>, <a href=\"/dementia-activities/\">үйдөгү деменция боюнча иш-чаралар</a> жана <a href=\"/crafts/\">кол өнөрчүлүк</a>.",
     "faq": [
       {
         "q": "Кайсы оюндан баштаганыбыз оң?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Бул улуу курактагылар үчүн эс-тутум оюндарыбы?",
-        "a": "Бул ар бир улуу адам жактырып ойной турган дал келтирүү жана сүрөт оюндары. Бирок алар эс-тутумду текшерүү максатында жасалган эмес: «Сүрөт түгөйлөрү» оюнунда, эгер сиз аларды жабууну тандабасаңыз, сүрөттөр ачык бойдон калат. Биздин деменциясы бар улуу адамдар үчүн эс-тутум оюндары боюнча колдонмобуз ар бир оюнду кантип жөнөкөй жана жайбаракат ойноого болорун түшүндүрөт."
+        "a": "Булар улгайган ар бир адам ойной ала турган жупташтыруу жана сүрөт оюндары, бирок алар эс тутумду текшерүү үчүн эмес, ошондой түзүлгөн: «Сүрөт жуптары» оюнунда сүрөттөр өзгөртмөйүнчө ачык бойдон калат. Ар кандай эс тутум оюнун таймерди жана упайларды алып салуу менен жумшагыраак кылууга болот."
       },
       {
         "q": "Карылар үйүндөгү топтор үчүн оюндар барбы?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Деменция менен жашаган адамдар үчүн аракеттер колдонмосу барбы?",
+        "q": "Улгайган адамдар жана үй-бүлөлөр үчүн колдонмо барбы?",
         "a": "Ооба. Creative Activities (дүкөндөрдө «{storeName}» деп көрсөтүлгөн) App Store жана Google Play'де акысыз. Ал чоң карточкалар менен жайбаракат сүрөт дал келтирүүнү, сиз тандаган үй-бүлөлүк сүрөттөр менен оюндарды жана интернетсиз иштеген сүрөт топтомдорун сунуштайт."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Басып чыгарууга болот",
     "howTo": "{name} оюнун кантип ойнойсуз",
     "tips": "Бирге ойноо боюнча кеңештер",
-    "newToPlayingHtml": "Деменция менен жашаган адам менен ойноого жаңы баштап жатасызбы? <a href=\"/caregiving/how-to-play-together/\">Бирге оюн ойноо</a> жөнүндө окуңуз, анын ичинде кызыгуусу азайса эмне кылуу керек.",
+    "newToPlayingHtml": "Улгайган адам же деменция менен жашаган адам менен ойноого жаңыбы? <a href=\"/caregiving/how-to-play-together/\">Оюндарды биргелешип ойноо жолун</a> окуңуз, анын ичинде кызыгуу токтогондо эмне кылуу керек экенин да.",
     "moreAria": "Көбүрөөк көрүү",
     "helpfulGuides": "Пайдалуу жетектемелер",
     "appTitle": "Колдонмодо ойноңуз",
@@ -536,6 +666,35 @@
     "goodToKnow": "Билүү пайдалуу",
     "goodToKnowText": "Бул оюн көңүл ачуу жана бирге убакыт өткөрүү үчүн. Ал эч нерсени текшербейт, өлчөбөйт жана дарылабайт.",
     "moreGames": "Дагы жөнөкөй оюндар",
-    "crumb": "Оюндар"
+    "crumb": "Оюндар",
+    "print": {
+      "heading": "Кагазда ойноо",
+      "sameRules": "Кагаз варианты экрандагы оюн менен бирдей эрежелерге ээ:",
+      "button": "Кагаз вариантын басып чыгаруу",
+      "pageNote": "A4 же US Letter форматындагы бир барак, кара-ак түстө да жакшы. Версия {date}.",
+      "islandNote": "Ал учурда экранда көрүнүп турганды басып чыгарат. Версия {date}.",
+      "sheetTitle": "{name}: кагаз варианты",
+      "point": "Кагазда сүрөттү басуунун ордуна көрсөтүңүз же калем менен айлана тегеректеңиз. Ар бир катар — жаңы топтом.",
+      "pointTarget": "Кагазда карала турган сүрөт ар бир катардын башындагы кутучада. Сүрөттү басуунун ордуна көрсөтүңүз же калем менен тегеректеңиз.",
+      "halves": "Ар бир сүрөт ортосунан кесилген. Солдогу ар бир жарымды оң жактагы ага туура келген жарым менен сызык тартып туташтырыңыз же манжаңыз менен көрсөтүңүз. Кесүү керек эмес.",
+      "grid": "Ар бир квадраттын номери бар. Ушул номерди легендадан табып, квадратты ошол түстөгү карандаш менен боёңуз. Башка каалаган түс да жарайт. Кесүү керек эмес.",
+      "colors": "Ар бир катарда түс аталган. Ошол түстөгү ар бир сүрөттү көрсөтүңүз же калем менен тегеректеңиз. Ар бир катар — жаңы топтом.",
+      "dice": "Ар бир катар — кубиктердин топтому. Катарды тандаңыз же сүрөттөрдү кесип, үймөктөн бирин алып, аларды каалаган тартипте колдонуп окуя айтыңыз. Ар ким өткөрүп жиберсе болот.",
+      "words": "Сөздөрдү кесип алыңыз же ар бир сөздү анын сүрөтү менен сызык тартып туташтырыңыз. Иштеп жатканда сөздөрдү үн чыгарып окуңуз.",
+      "cards": "Карталарды чийилген сызыктар боюнча кесип алыңыз. Аларды үстүңкү жагы менен столго жайып, жуптарды табыңыз.",
+      "chain": "Кагазда сүрөттөрдү солдон оңго, бирин-бири артынан окуңуз. Ар бир адам азырынча көргөн сүрөттөр тууралуу бир сүйлөм айтып, кийинки сүрөттү көрсөтөт. Ар ким өткөрүп жиберсе болот.",
+      "sort": "Сүрөттөрдү чийилген сызыктар боюнча кесип, ар бирин тиешелүү кутучага салыңыз.",
+      "puzzle": "Чоң сүрөттү чийилген сызыктар боюнча төрт бөлүккө кесип, аралаштырыңыз. Сүрөт бүтмөйүнчө бир убакта эки бөлүктү алмаштырыңыз. Кичинекей сүрөт — жол көрсөткүч.",
+      "cutSafety": "Баштоодон мурун кесүүнү жардамчы аткарса болот. Андан кийин кайчыны жыйнап коюңуз.",
+      "version": "Версия {date} · {url}",
+      "reasons": {
+        "photos": "Кагаз варианты жок. Бул оюн сиздин өз сүрөттөрүңүздү колдонот, алар браузеризде калат жана эч жерге жүктөлбөйт, ошондуктан сайт аларды басып чыгара албайт. Кагазда ойноо үчүн үйүңүздө сүйүктүү бир нече сүрөттүн ар бирин эки нускада басып чыгарып, столдо шайкештириңиз.",
+        "paced": "Кагаз варианты жок. Айлана экранда жай, туруктуу ыргак коёт, ал эми басылган барак муну кыла албайт, ошондуктан бул башка иш-чара болмок. Экрансыз тынч тыныгуу бирге ар дайым бир тандоо болуп калат.",
+        "turns": "Бул оюндун кагаз варианты жок. Столдогу жуптарды табуу үчүн «Сүрөт жуптары» оюнунун сүрөт карталарын басып чыгарып, кезектешип ачыңыз.",
+        "screen": "Бумажного варианта нет. Это картинка, которую вы смотрите вместе на экране; любимая фотография или открытка на столе делают то же самое.",
+        "wash": "Бумажного варианта нет. Акварель на бумаге — та же идея: мокрая кисть и один цвет за раз.",
+        "sayings": "Бумажного варианта пока нет. На бумаге каждый финал был бы виден сразу, и мягкий шаг «Показать финал» пропал бы. Читайте поговорки вместе с экрана или назовите несколько, которые вы оба знаете."
+      }
+    }
   }
 }
