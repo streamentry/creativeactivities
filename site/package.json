@@ -38,6 +38,7 @@
     "content:bundle": "node scripts/content-bundle.mjs",
     "content:diff": "node scripts/content-diff.mjs",
     "audit:cards": "node scripts/card-audit.mjs",
+    "check:card-versions": "node scripts/check-card-versions.mjs",
     "content:validate": "node scripts/content-validate.mjs"
   },
   "dependencies": {

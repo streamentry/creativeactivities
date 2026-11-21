@@ -90,6 +90,7 @@ guides: [crafts/seasonal-crafts, crafts/easy-crafts-for-adults, crafts/craft-gro
 related: [make-a-greeting-card, fold-a-paper-boat, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

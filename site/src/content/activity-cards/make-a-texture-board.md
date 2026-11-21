@@ -91,6 +91,7 @@ guides: [creative-calm/sensory-activities-for-adults, activities/late-stage, cra
 related: [make-a-button-picture, tear-paper-mosaic, make-a-lavender-sachet, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

@@ -88,6 +88,7 @@ guides: [crafts/coloring-pages-for-adults, crafts/easy-crafts-for-adults, creati
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, draw-to-music]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

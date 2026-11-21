@@ -90,6 +90,7 @@ guides: [creative-calm/music-for-calm-and-connection, creative-calm/sensory-acti
 related: [make-a-playlist-together, make-a-sealed-shaker, draw-to-music]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

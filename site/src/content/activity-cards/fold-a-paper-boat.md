@@ -89,6 +89,7 @@ guides: [crafts/easy-crafts-for-adults, activities/ideas]
 related: [make-a-paper-chain-garland, make-a-greeting-card, wind-a-ball-of-yarn]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

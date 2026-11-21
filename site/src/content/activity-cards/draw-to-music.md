@@ -89,6 +89,7 @@ guides: [creative-calm/music-for-calm-and-connection, crafts/easy-crafts-for-adu
 related: [make-a-personal-songbook, paint-with-watercolors, tear-paper-mosaic]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

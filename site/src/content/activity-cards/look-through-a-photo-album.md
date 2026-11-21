@@ -91,6 +91,7 @@ guides: [activities/reminiscence, activities/late-stage, together/visiting-someo
 related: [make-a-memory-collage, make-a-photo-postcard, start-a-family-recipe-book]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

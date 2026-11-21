@@ -93,6 +93,7 @@ guides: [together/outdoor-and-garden-activities, crafts/easy-crafts-for-adults, 
 related: [decorate-a-plant-pot, plant-seeds-in-a-pot, paint-with-watercolors]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

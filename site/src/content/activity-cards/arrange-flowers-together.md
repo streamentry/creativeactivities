@@ -90,6 +90,7 @@ guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activitie
 related: [press-leaves-and-flowers, plant-seeds-in-a-pot, decorate-a-plant-pot]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

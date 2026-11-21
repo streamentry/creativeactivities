@@ -84,6 +84,7 @@ guides: [activities/ideas, creative-calm/sensory-activities-for-adults, activiti
 related: [wind-a-ball-of-yarn, give-a-hand-massage, make-a-lavender-sachet]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

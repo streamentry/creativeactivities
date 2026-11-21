@@ -91,6 +91,7 @@ guides: [crafts/easy-crafts-for-adults, together/visiting-someone-in-care, craft
 related: [make-a-memory-collage, start-a-family-recipe-book, make-a-greeting-card]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

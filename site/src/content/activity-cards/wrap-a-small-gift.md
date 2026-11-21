@@ -92,6 +92,7 @@ guides: [activities/ideas, crafts/easy-crafts-for-adults]
 related: [make-a-greeting-card, fold-towels-together, decorate-a-keepsake-box]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

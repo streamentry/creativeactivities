@@ -93,6 +93,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/craft-group-sessions, activities/
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-with-watercolors]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

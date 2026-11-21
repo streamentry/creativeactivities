@@ -69,6 +69,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/crafts-for-limited-dexterity]
 related: [thread-a-large-bead-bracelet, roll-paper-beads, make-a-friendship-bracelet]
 published: 2026-11-19
 updated: 2026-11-19
+version: 1
 author: Creative Activities editorial team
 ---
 

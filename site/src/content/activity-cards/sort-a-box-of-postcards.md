@@ -89,6 +89,7 @@ guides: [activities/ideas, creative-calm/calm-afternoon-activities, creative-cal
 related: [look-through-a-photo-album, make-a-photo-postcard, make-a-color-collage]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

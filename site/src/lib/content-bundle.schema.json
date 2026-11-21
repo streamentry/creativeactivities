@@ -17,13 +17,14 @@
         "type": "object",
         "additionalProperties": false,
         "required": [
-          "id", "status", "title", "summary", "steps", "materials", "safetyFlags", "safety", "stopNote",
+          "id", "status", "title", "version", "summary", "steps", "materials", "safetyFlags", "safety", "stopNote",
           "variations", "pictures", "review", "published", "updated", "languages", "surfaces"
         ],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
           "status": { "enum": ["listed", "withdrawn"] },
           "title": { "type": "string", "minLength": 1, "maxLength": 60 },
+          "version": { "type": "integer", "minimum": 1 },
           "summary": { "type": "string", "minLength": 1 },
           "steps": { "type": "array", "minItems": 3, "maxItems": 9, "items": { "type": "string", "minLength": 1 } },
           "plainSteps": { "type": "array", "minItems": 3, "maxItems": 16, "items": { "type": "string", "minLength": 1 } },

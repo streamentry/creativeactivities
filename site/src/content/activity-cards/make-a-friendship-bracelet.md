@@ -87,6 +87,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/crafts-for-limited-dexterity, cre
 related: [wind-a-ball-of-yarn, weave-paper-strips, make-a-lavender-sachet]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

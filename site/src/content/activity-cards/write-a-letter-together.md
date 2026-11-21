@@ -92,6 +92,7 @@ guides: [activities/ideas, activities/reminiscence, together/staying-connected-f
 related: [make-a-greeting-card, make-a-photo-postcard, make-a-memory-collage]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

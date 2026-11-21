@@ -90,6 +90,7 @@ guides: [together/outdoor-and-garden-activities, creative-calm/sensory-activitie
 related: [print-with-leaves, press-leaves-and-flowers, sketch-what-is-on-the-table]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

@@ -89,6 +89,7 @@ guides: [crafts/easy-crafts-for-adults, activities/group-art-activities]
 related: [draw-repeating-patterns, sketch-what-is-on-the-table, paint-a-shared-picture, make-a-family-tree-of-hands]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

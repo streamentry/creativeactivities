@@ -86,6 +86,7 @@ guides: [crafts/coloring-pages-for-adults, crafts/easy-crafts-for-adults, creati
 related: [sketch-what-is-on-the-table, draw-to-music, paint-a-shared-picture]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

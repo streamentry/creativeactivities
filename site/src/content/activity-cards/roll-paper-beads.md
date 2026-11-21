@@ -71,6 +71,7 @@ guides: [crafts/easy-crafts-for-adults, crafts/crafts-for-limited-dexterity, cra
 related: [make-a-paper-chain-garland, thread-a-large-bead-bracelet, make-a-beaded-keyring]
 published: 2026-11-19
 updated: 2026-11-19
+version: 1
 author: Creative Activities editorial team
 ---
 

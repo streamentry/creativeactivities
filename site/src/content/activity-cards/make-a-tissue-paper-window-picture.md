@@ -92,6 +92,7 @@ guides: [crafts/crafts-for-limited-dexterity]
 related: [tear-paper-mosaic, make-a-color-collage, paint-a-shared-picture, make-a-texture-board]
 published: 2026-11-15
 updated: 2026-11-15
+version: 1
 author: Creative Activities editorial team
 ---
 

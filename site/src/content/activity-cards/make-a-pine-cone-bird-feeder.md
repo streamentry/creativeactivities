@@ -93,6 +93,7 @@ guides: [together/outdoor-and-garden-activities, activities/ideas, crafts/easy-c
 related: [plant-seeds-in-a-pot, paint-a-garden-stone, decorate-a-plant-pot]
 published: 2026-11-13
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true

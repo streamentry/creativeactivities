@@ -79,6 +79,7 @@ guides: [creative-calm/sensory-activities-for-adults, activities/ideas, activiti
 related: [make-a-button-picture, make-a-texture-board, fold-towels-together]
 published: 2026-11-14
 updated: 2026-11-15
+version: 1
 changes:
   - date: 2026-11-15
     safety: true
