@@ -39,12 +39,15 @@ export interface GameData {
   intro: string;
 }
 
+export const cardUrl = (id: string): string => `/activity/${id}/`;
+export const hubUrl = (id: string): string => `/${id}/`;
+
 /** `typeLabel` is the card's plain-words type ("Painting and drawing"), so "painting" finds it. */
 export function cardEntry(id: string, d: CardData, typeLabel: string): SearchEntry {
   return {
     kind: 'activity',
     title: d.name,
-    url: `/activity/${id}/`,
+    url: cardUrl(id),
     summary: d.summary,
     text: clip([d.description, typeLabel, d.materials.join(' '), d.enjoy ?? ''].join(' ')),
   };
@@ -54,7 +57,7 @@ export function hubEntry(id: string, d: HubData): SearchEntry {
   return {
     kind: 'hub',
     title: d.title,
-    url: `/${id}/`,
+    url: hubUrl(id),
     summary: d.description,
     text: clip([d.eyebrow, d.lede, d.choosing.join(' ')].join(' ')),
   };
@@ -78,6 +81,24 @@ export function gameEntry(g: GameData): SearchEntry {
     summary: g.short,
     text: clip([g.description, g.intro].join(' ')),
   };
+}
+
+/** A card or situation and the guide ids its `guides` list names. */
+export interface GuideLinkSource {
+  readonly url: string;
+  readonly guides: readonly string[];
+}
+
+/** WEB-003: gives each guide the addresses of the cards and situations that link to it. */
+export function linkGuides(entries: readonly SearchEntry[], sources: readonly GuideLinkSource[]): SearchEntry[] {
+  const byGuide = new Map<string, string[]>();
+  for (const source of sources) {
+    for (const guide of source.guides) {
+      const url = `/${guide}/`;
+      byGuide.set(url, [...(byGuide.get(url) ?? []), source.url]);
+    }
+  }
+  return entries.map((e) => (e.kind === 'guide' && byGuide.has(e.url) ? { ...e, linked: byGuide.get(e.url) } : e));
 }
 
 export interface SearchIndexFile {

@@ -5,7 +5,7 @@ import { GAMES } from '../data/games';
 import { TYPE_LABELS } from './activities';
 import { isRetiredGuide } from './retired-guides';
 import { alternatives, normalize, prepare, search, stem, words, type SearchEntry } from './search';
-import { cardEntry, gameEntry, guideEntry, hubEntry, indexFile } from './search-index';
+import { cardEntry, cardUrl, gameEntry, guideEntry, hubEntry, hubUrl, indexFile, linkGuides } from './search-index';
 import { splitFrontmatter } from './yaml-subset';
 
 const entry = (kind: SearchEntry['kind'], title: string, summary = '', text = ''): SearchEntry => ({
@@ -163,17 +163,33 @@ const files = (dir: string) =>
   (readdirSync(new URL(dir, CONTENT), { recursive: true }) as string[]).filter((f) => f.endsWith('.md')).map((f) => f.split('\\').join('/'));
 const data = (dir: string, f: string) => splitFrontmatter(readFileSync(new URL(`${dir}${f}`, CONTENT), 'utf8')).frontmatter;
 
-const real = [
-  ...files('activity-cards/').map((f) => {
-    const d = data('activity-cards/', f) as never as Parameters<typeof cardEntry>[1] & { type: keyof typeof TYPE_LABELS; withdrawn?: unknown };
-    return d.withdrawn ? null : cardEntry(f.replace(/\.md$/, ''), d, TYPE_LABELS[d.type]);
-  }),
-  ...files('hubs/').map((f) => hubEntry(f.replace(/\.md$/, ''), data('hubs/', f) as never)),
-  ...files('guides/')
-    .filter((f) => !isRetiredGuide(f.replace(/\.md$/, '')))
-    .map((f) => guideEntry(f.replace(/\.md$/, ''), data('guides/', f) as never)),
-  ...GAMES.map((g) => gameEntry(g)),
-].filter((e): e is SearchEntry => e !== null);
+const linkSources: { url: string; guides: string[] }[] = [];
+const real = linkGuides(
+  [
+    ...files('activity-cards/').map((f) => {
+      const id = f.replace(/\.md$/, '');
+      const d = data('activity-cards/', f) as never as Parameters<typeof cardEntry>[1] & {
+        type: keyof typeof TYPE_LABELS;
+        withdrawn?: unknown;
+        guides?: string[];
+      };
+      if (d.withdrawn) return null;
+      linkSources.push({ url: cardUrl(id), guides: d.guides ?? [] });
+      return cardEntry(id, d, TYPE_LABELS[d.type]);
+    }),
+    ...files('hubs/').map((f) => {
+      const id = f.replace(/\.md$/, '');
+      const d = data('hubs/', f) as never as { guides?: string[] };
+      linkSources.push({ url: hubUrl(id), guides: d.guides ?? [] });
+      return hubEntry(id, d as never);
+    }),
+    ...files('guides/')
+      .filter((f) => !isRetiredGuide(f.replace(/\.md$/, '')))
+      .map((f) => guideEntry(f.replace(/\.md$/, ''), data('guides/', f) as never)),
+    ...GAMES.map((g) => gameEntry(g)),
+  ].filter((e): e is SearchEntry => e !== null),
+  linkSources,
+);
 const realIndex = prepare(indexFile(real).entries);
 const found = (q: string) => search(realIndex, q).groups.flatMap((g) => g.hits.map((h) => h.entry.url));
 
@@ -240,5 +256,42 @@ describe('what a person types is never kept (WEB-003, PLAT-022)', () => {
   it('fires no analytics event for a search', async () => {
     const { EVENT_DICTIONARY } = await import('./track');
     expect(Object.keys(EVENT_DICTIONARY).some((name) => /search/i.test(name))).toBe(false);
+  });
+});
+
+describe('a guide-only match (WEB-003)', () => {
+  const card = { ...entry('activity', 'Paint with watercolors', 'Paint soft colors'), url: '/activity/paint-with-watercolors/' };
+  const linkedGuide = {
+    ...entry('guide', 'Crafts for kids on a rainy day', 'Ideas for indoors'),
+    url: '/crafts/rainy-day/',
+    linked: ['/activity/paint-with-watercolors/'],
+  };
+  const orphanGuide = { ...entry('guide', 'Notes on rainy weather', 'Ideas for a wet day'), url: '/notes/rainy/' };
+  const hitsOf = (r: ReturnType<typeof search>) => r.groups.flatMap((g) => g.hits.map((h) => h.entry));
+
+  it('still returns the card or situation that the matched guide links to', () => {
+    const shown = hitsOf(search(prepare([card, linkedGuide]), 'rainy'));
+    expect(shown.some((e) => e.kind === 'activity' || e.kind === 'hub')).toBe(true);
+    expect(shown.map((e) => e.url)).toContain('/activity/paint-with-watercolors/');
+  });
+
+  it('says nothing matched when the guide links to no card or situation', () => {
+    const r = search(prepare([card, orphanGuide]), 'rainy');
+    expect(r.match).toBe('none');
+    expect(r.count).toBe(0);
+  });
+
+  it('leaves the results alone when a card or situation already matches', () => {
+    const r = search(prepare([card, linkedGuide]), 'paint');
+    expect(hitsOf(r).map((e) => e.url)).toEqual(['/activity/paint-with-watercolors/']);
+  });
+
+  it('holds for every guide on the real site: searching a guide title never returns only guides', () => {
+    for (const guide of real.filter((e) => e.kind === 'guide')) {
+      const r = search(realIndex, guide.title);
+      if (r.match !== 'none') {
+        expect(hitsOf(r).some((e) => e.kind === 'activity' || e.kind === 'hub'), guide.title).toBe(true);
+      }
+    }
   });
 });
