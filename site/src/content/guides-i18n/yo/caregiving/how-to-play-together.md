@@ -1,34 +1,34 @@
 ---
-title: "Bí a Ṣe Ń Ṣe Eré pẹ̀lú Ẹni Tí Ó Ní Dementia"
-description: "Ìtọ́sọ́nà gidi fún ṣíṣe eré pẹ̀lú ẹni tí ó ní dementia: ìṣètò, ìyára, má ṣe àtúnṣe láé, mímú eré rọrùn àti mímọ ìgbà láti dúró."
+title: "Bí a Ṣe Lè Ṣeré pẹ̀lú Ẹni Tó Ní Dementia"
+description: "Ìtọ́sọ́nà tó wúlò fún ṣíṣeré pẹ̀lú ẹni tó ń gbé pẹ̀lú dementia: ṣíṣètò, ìyára, kí a má ṣe tún àṣìṣe ṣe, ṣíṣe eré rọrùn, àti mímọ ìgbà láti dúró."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Ẹ kà eré sí àkókò papọ̀, kì í ṣe ìdánwò. Ẹ yan àkókò ọjọ́ tí ó parọ́rọ́, ẹ
-  jókòó lẹ́gbẹ̀ẹ́ ara yín nínú yàrá tí ó dákẹ́, kí ẹ sì gbé eré rírọrùn kan
-  kalẹ̀. Ẹ jẹ́ kí ẹni náà ṣètò ìyára, ẹ má ṣe àtúnṣe àwọn àṣìṣe tí kò lè pani lára,
-  ẹ mú eré rọrùn ní àmì àkọ́kọ́ ti ìdààmú, kí ẹ sì sọ àwọn àwòrán di ìjíròrò.
-  Ẹ dúró nígbà tí ó ṣì dùn. Parí ní kùtùkùtù, tàbí kíkàn wo papọ̀, jẹ́ àbájáde rere.
+  Ṣe eré bí àkókò papọ̀, kì í ṣe ìdánwò. Yan ìgbà tí ara balẹ̀ nínú ọjọ́, jókòó
+  ẹgbẹ̀ẹ́ ara yín ní yàrá tó dákẹ́, kí o sì gbé eré kan tó rọrùn kalẹ̀. Jẹ́ kí
+  ẹni náà ṣètò ìyára, má ṣe tún àṣìṣe tí kò ní ipa ṣe, ṣe eré rọrùn ní àmì
+  àkọ́kọ́ ti wàhálà, kí o sì yí àwòrán padà sí ọ̀rọ̀ sísọ. Dúró nígbà tí ó ṣì dára.
+  Dídá dúró ní kùtùkùtù, tàbí wíwo ara yín papọ̀, jẹ́ àbájáde tó dára.
 keyPoints:
-  - "Ète ni ìgbádùn àti ìsopọ̀, kì í ṣe parí tàbí dáhùn dáadáa."
-  - "Ẹ ṣètò ná: yàrá tí ó dákẹ́, ìmọ́lẹ̀ rere, awò ojú àti ẹ̀rọ ìgbọ́ràn lójú ẹ̀, tẹlifíṣọ̀n pa, eré kan tí ó ṣetán."
-  - "Ẹ má ṣe àtúnṣe àwọn àṣìṣe tí kò lè pani lára. Ẹ sọ “Ẹ jẹ́ kí a gbìyànjú ní ọ̀nà yìí” tàbí kí ẹ kàn tẹ̀síwájú."
-  - "Ẹ mú eré rọrùn kí ìbínú tó kọ́: àwọn àwòrán díẹ̀, àṣàyàn díẹ̀, kí ẹ fi àwọn àwòrán sílẹ̀ ní ojú."
-  - "Ẹ lo àwọn àwòrán gẹ́gẹ́ bí ibi ìbẹ̀rẹ̀ fún àwọn ìtàn pẹ̀lú “Ẹ sọ fún mi nípa…” dípò “Ṣé ẹ rántí…?”"
-  - "Ẹ dúró ní àwọn àmì àkọ́kọ́ ti àárẹ̀ tàbí ìbínú. Dídúró ní kùtùkùtù jẹ́ àṣeyọrí, kì í ṣe ìkùnà."
+  - "Ète ni ìgbádùn àti ìsopọ̀ pọ̀, kì í ṣe parí eré tàbí gba ìdáhùn tó tọ́."
+  - "Ṣètò kí o tó bẹ̀rẹ̀: yàrá tó dákẹ́, ìmọ́lẹ̀ tó dára, gilaasi àti ohun ìgbọ́ràn wà lára, tẹlifíṣọ̀n wà ní pípa, eré kan sì ti wà ní ìmúrasílẹ̀."
+  - "Má ṣe tún àṣìṣe tí kò ní ipa ṣe. Sọ pé \"Ẹ jẹ́ kí a gbìyànjú rẹ̀ lọ́nà yìí\" tàbí kan tẹ̀síwájú."
+  - "Ṣe eré rọrùn kí ìbínú tó dé: àwòrán díẹ̀, àṣàyàn díẹ̀, àwọn àwòrán sì wà ní ojú."
+  - "Lo àwòrán gẹ́gẹ́ bí ìbẹ̀rẹ̀ ìtàn pẹ̀lú \"Sọ fún mi nípa...\" dípò \"Ṣé o rántí...?\""
+  - "Dá dúró ní àmì àkọ́kọ́ ti àárẹ̀ tàbí ìbànújẹ́. Dídá dúró ní kùtùkùtù jẹ́ àṣeyọrí, kì í ṣe ìkùnà."
 faq:
-  - q: "Ìgbà tí ó pẹ́ tó wo ni kí a fi ṣe eré kan?"
-    a: "Kò sí gígùn tó tọ́. Fún ọ̀pọ̀ ènìyàn, ìṣẹ́jú díẹ̀ tó, àti ní àwọn ọjọ́ kan, ìgbà kan ṣoṣo tó. Ẹ wo ẹni náà dípò aago, kí ẹ sì dúró nígbà tí ó ṣì dàbí ẹni tí ara rẹ̀ balẹ̀."
-  - q: "Ṣé kí n jẹ́ kí wọ́n borí tàbí kí n ṣe bí ẹni pé n kò kíyèsí àwọn àṣìṣe?"
-    a: "Nínú eré ìpín tí kò ní ìdààmú, kò sí ohun láti borí tàbí pàdánù. Bí àṣìṣe kò bá yọ ẹni náà lẹ́nu, ẹ fi í sílẹ̀. Bí ó bá dàbí pé ó yọ ọ́ lẹ́nu, ẹ ràn án lọ́wọ́ ní ìdákẹ́ tàbí kí ẹ mú eré rọrùn láìtọ́ka sí i."
-  - q: "Kí ni bí wọ́n bá fẹ́ wò mí ṣeré dípò?"
-    a: "Ìyẹn dára. National Institute on Aging dámọ̀ràn jíjẹ́ kí ẹnìkan kàn wò bí ó bá dàbí pé ó gbádùn èyí jù. Ẹ sọ̀rọ̀ nípa ohun tí ẹ rí, kí ẹ sì pè é láti tọ́ka tàbí yan nígbàkúùgbà tí ó bá fẹ́."
+  - q: "Igba wo ni a gbọ́dọ̀ fi ṣe eré kan?"
+    a: "Kò sí gígùn tó tọ́ kan pàtó. Fún ọ̀pọ̀ ènìyàn, ìṣẹ́jú díẹ̀ tó tó, àwọn ọjọ́ kan sì ni ìyípo kan ṣoṣo tó tó. Wo ẹni náà dípò aago, kí o sì dá dúró nígbà tó ṣì dà bí ẹni tó balẹ̀."
+  - q: "Ṣé kí n jẹ́ kí wọ́n borí tàbí kí n dá bí ẹni pé mi ò rí àṣìṣe wọn?"
+    a: "Nínú eré tí a jọ ń ṣe tí kò ní wàhálà, kò sí ohun tó ń jẹ́ borí tàbí pàdánù. Tí àṣìṣe kan kò bá kan ẹni náà, jẹ́ kí ó lọ. Tí ó bá dà bí ẹni tó ń kó ìdààmú bá a, ràn án lọ́wọ́ lọ́nà jẹ́jẹ́ tàbí ṣe eré náà rọrùn láìtọ́ka sí i."
+  - q: "Kí ni tí wọ́n bá fẹ́ wo mi tí mo ń ṣeré dípò?"
+    a: "Ìyẹn dára. Ilé-iṣẹ́ National Institute on Aging dábàá pé kí a jẹ́ kí ẹni kan kàn máa wò bí ó bá dà bí ẹni tó gbádùn rẹ̀ jù. Sọ̀rọ̀ nípa ohun tí o rí, kí o sì pè wọ́n láti tọ́ka tàbí yan nígbàkigbà tí wọ́n bá fẹ́."
   - q: "Ṣé àwọn eré wọ̀nyí jẹ́ ọ̀nà láti dán ìrántí wò?"
-    a: "Rárá. Àwọn eré wa jẹ́ àwọn ìgbòkègbodò rírọrùn láti jọ ṣe fún ìgbádùn àti ìjíròrò. Kì í ṣe ìdánwò ìrántí, wọn kì í wọn ohunkóhun, wọn kì í sì í ṣe ìtọ́jú fún dementia."
-  - q: "Eré wo ni ó dára jù láti bẹ̀rẹ̀ pẹ̀lú?"
-    a: "Ẹ bẹ̀rẹ̀ pẹ̀lú èyí tí ó rọrùn jù tí ó bá ẹni náà mu. Àwọn méjì-méjì àwòrán pẹ̀lú àwòrán mẹ́rin tí a fi sílẹ̀ ní ojú, tàbí Wá èyí tí ó jọra pẹ̀lú àṣàyàn méjì, jẹ́ àwọn ibi ìbẹ̀rẹ̀ jẹ́ẹ́jẹ́ẹ́. Àwọn káàdì ìjíròrò ń ṣiṣẹ́ dáadáa bí ẹni náà bá fẹ́ràn sísọ̀rọ̀ ju títẹ̀ lọ."
+    a: "Rárá. Àwọn eré wa jẹ́ iṣẹ́ tó rọrùn tí a jọ ń ṣe fún ìgbádùn àti ọ̀rọ̀ sísọ. Wọn kì í ṣe ìdánwò ìrántí, wọn kò wọn nǹkankan, wọn kì í sì í ṣe ìtọ́jú dementia."
+  - q: "Eré wo ló dára jù láti bẹ̀rẹ̀ pẹ̀lú rẹ̀?"
+    a: "Bẹ̀rẹ̀ pẹ̀lú èyí tó rọrùn jù tó bá ẹni náà mu. Picture Pairs pẹ̀lú àwọn tile mẹ́rin àti àwọn àwòrán tó wà ní ojú, tàbí Find the Same pẹ̀lú àṣàyàn méjì, jẹ́ ibẹ̀rẹ̀ tó fàyè gba. Conversation Cards dára tí ẹni náà bá gbádùn sísọ̀rọ̀ ju títẹ̀ lọ."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,127 +47,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Eré rere pẹ̀lú ẹni tí ó ní dementia kò dà bí ìdíje. Ó dà bí ènìyàn méjì tí ó jókòó sún mọ́ ara wọn, tí wọ́n ń tọ́ka sí àwọn àwòrán, tí wọ́n ń rẹ́rìn-ín sí òwe kan, tí wọ́n sì ń sọ̀rọ̀ lórí ohunkóhun tí ó bá wá. Eré kàn jẹ́ ìdí láti lo àkókò papọ̀.
+Eré tó dára pẹ̀lú ẹni tó ń gbé pẹ̀lú dementia kì í dà bí ìdíje. Ó dà bí ẹni méjì tó jókòó lẹ́gbẹ̀ẹ́ ara wọn, tí wọ́n ń tọ́ka sí àwọn àwòrán, tí wọ́n ń rẹ́rìn-ín sí òwe kan, tí wọ́n sì ń sọ̀rọ̀ nípa ohunkóhun tó bá yọjú. Eré náà kàn jẹ́ ìdí láti lo àkókò papọ̀.
 
-Ìtọ́sọ́nà yìí bo bí a ṣe ń ṣètò, bí a ṣe ń ṣe ìyára eré, ohun láti sọ nígbà tí nǹkan bá “lọ ségesège”, bí a ṣe ń mú eré èyíkéyìí rọrùn tàbí le díẹ̀, bí a ṣe ń sọ ọ́ di ìjíròrò, àti bí a ṣe ń mọ ìgbà láti dúró. Ó ṣiṣẹ́ fún [àwọn eré](/games/) wa àti fún káàdì, àdììtú àti eré orí pátákó tí ẹ ti ní.
+Ìtọ́sọ́nà yìí ṣàlàyé bí a ṣe lè ṣètò, bí a ṣe lè ṣàkóso ìyára eré, kí a sọ kí ni nígbà tí nǹkan kan bá "lọ àṣìṣe", bí a ṣe lè ṣe eré kankan rọrùn tàbí díẹ̀ le sí i, bí a ṣe lè yí i padà sí ọ̀rọ̀ sísọ, àti bí a ṣe lè mọ ìgbà láti dúró. Ó wúlò fún [àwọn eré wa](/games/) àti fún kaadi, àdììtú àti eré tábìlì tí ẹ ti ní tẹ́lẹ̀.
 
-## Kí ni ọ̀nà tí ó dára jù láti ṣe eré pẹ̀lú ẹni tí ó ní dementia?
+## Kí ni ọ̀nà tó dára jù láti ṣeré pẹ̀lú ẹni tó ní dementia?
 
-Ẹ kọ ojú sí ìgbádùn, kì í ṣe àṣeyọrí. Ìyẹn ni ìmọ̀ràn àkọ́kọ́ láti [ìtọ́sọ́nà Alzheimer's Association lórí àwọn ìgbòkègbodò](https://www.alz.org/help-support/caregiving/daily-care/activities): ẹ kọ́ lórí ọgbọ́n tí ẹni náà ṣì ní, ẹ ràn án lọ́wọ́ láti bẹ̀rẹ̀, ẹ parí àwọn apá tí ó le fúnra yín, kí ẹ sì má ṣe bẹnu àtẹ́ lù tàbí ṣe àtúnṣe àwọn ìgbòkègbodò tí kò lè pani lára.
+Fojú sí ìgbádùn, kì í ṣe àṣeyọrí. Ìyẹn ni ìmọ̀ràn pàtàkì láti [ìtọ́sọ́nà Alzheimer's Association lórí iṣẹ́ ṣíṣe](https://www.alz.org/help-support/caregiving/daily-care/activities): kọ́ lórí ìmọ̀ tí ẹni náà ṣì ní, ràn án lọ́wọ́ láti bẹ̀rẹ̀, parí apá tó le fúnra rẹ, má sì ṣe ṣofintoto tàbí tún iṣẹ́ aláìlèwu ṣe.
 
 Ní ìṣe, èyí túmọ̀ sí:
 
-- **Ẹ jókòó lẹ́gbẹ̀ẹ́ rẹ̀, kì í ṣe ní òdìkejì.** Lẹ́gbẹ̀ẹ́ ara yín, ẹ̀yin méjèèjì lè rí ojú ìbòjú tàbí tábìlì, ìrànlọ́wọ́ sì dà bí iṣẹ́ ẹgbẹ́ dípò ìṣọ́.
-- **Ẹ gbé eré kan kalẹ̀ lẹ́ẹ̀kan.** Àtòjọ àṣàyàn lè dà bí ìdánwò kí nǹkan kankan tó bẹ̀rẹ̀.
-- **Ẹ tẹ̀lé e.** Bí ó bá fẹ́ tẹ àwọn àwòrán ní ìtẹ̀léra tirẹ̀, sọ̀rọ̀ nípa àwòrán kan fún ìṣẹ́jú mẹ́wàá, tàbí dúró lẹ́yìn ìgbà méjì, ìyẹn ni eré lónìí.
-- **Ẹ ka àwọn àkókò rere, kì í ṣe àwọn ìgbà tí a parí.** Ẹ̀rín, ìtàn tàbí ààbọ̀ wákàtí tí ó parọ́rọ́ ni àbájáde tí ẹ ń wá.
+- **Jókòó lẹ́gbẹ̀ẹ́ wọn, kì í ṣe kọjú sí wọn.** Ẹ̀gbẹ̀ẹ́ ara yín, ẹ̀yin méjèèjì lè rí ojú ìbòjú tàbí tábìlì, ìrànlọ́wọ́ sì dà bí iṣẹ́ ẹgbẹ́ dípò àbójútó.
+- **Fún ni eré kan ní àkókò kan.** Àkójọ àṣàyàn lè dà bí ìdánwò kí nǹkankan tó bẹ̀rẹ̀.
+- **Tẹ̀lé ìtọ́sọ́nà wọn.** Tí wọ́n bá fẹ́ tẹ àwòrán ní ọ̀nà tiwọn, sọ̀rọ̀ lórí àwòrán kan fún ìṣẹ́jú mẹ́wàá, tàbí dúró lẹ́yìn ìyípo méjì, ìyẹn ni eré òní.
+- **Ka àwọn àkókò dáradára, kì í ṣe àwọn ìyípo tí a parí.** Ẹ̀rín, ìtàn tàbí ààbọ̀ wákàtí ìbàlẹ̀ ni àbájáde tí ẹ ń wá.
 
-## Báwo ni mo ṣe ń ṣètò kí a tó bẹ̀rẹ̀?
+## Báwo ni mo ṣe lè ṣètò kí a tó bẹ̀rẹ̀?
 
-Ìṣẹ́jú díẹ̀ ti ìṣètò ń dènà ọ̀pọ̀ ìbínú tí àwọn ènìyàn ń dá eré fúnra rẹ̀ lẹ́bi fún.
+Ìṣẹ́jú díẹ̀ tí a fi ṣètò ń dènà ọ̀pọ̀ nínú ìbínú tí àwọn ènìyàn máa ń fi kan eré náà fúnra rẹ̀.
 
-1. **Ẹ yan àkókò ọjọ́ tí ó dára jù fún un.** [Ìtọ́sọ́nà National Institute on Aging (NIA) lórí mímú àwọn ìgbòkègbodò bá ipò mu](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) dámọ̀ràn ṣíṣètò ìrìn jáde àti àwọn ìgbòkègbodò fún àkókò ọjọ́ tí ẹni náà wà ní ipò rere jù. Fún ọ̀pọ̀ ènìyàn, ìyẹn ni àárín òwúrọ̀. Ìrọ̀lẹ́ sábà máa ń le jù; ẹ wo [àwọn ìgbòkègbodò parọ́rọ́ fún ìrọ̀lẹ́](/caregiving/late-day-restlessness/).
-2. **Ẹ jẹ́ kí yàrá dákẹ́.** Ẹ pa tẹlifíṣọ̀n àti rédíò, kí ẹ sì ti ilẹ̀kùn bí ẹ bá lè ṣe. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) gba níyànjú pé kí a dín ariwo àti àwọn ohun tí ń pín ọkàn níyà kù kí ẹ tó gbìyànjú láti sọ̀rọ̀.
-3. **Ẹ ṣàyẹ̀wò ìtùnú ná.** Ohun mímu nítòsí, lílọ sí ilé ìgbọ̀nsẹ̀ ṣáájú, àga tí ó tura, àti awò ojú àti ẹ̀rọ ìgbọ́ràn lójú ẹ̀.
-4. **Ẹ jẹ́ kí ibẹ̀ mọ́lẹ̀ dáadáa.** Ìmọ́lẹ̀ tí ó mọ́lẹ̀, tí ó dọ́gba láìsí dídán lórí ojú ìbòjú ń jẹ́ kí àwọn àwòrán rọrùn láti rí.
-5. **Ẹ ṣètò eré náà kí ẹ tó jókòó.** Ẹ ṣí i, ẹ yan àwọn ètò, kí ẹ sì ṣètò ìró fúnra yín. Lẹ́yìn náà ẹ yí ojú ìbòjú sí i. Fún àwọn ìmọ̀ràn tábìlẹ́ẹ̀tì, ẹ wo [ṣíṣètò tábìlẹ́ẹ̀tì tàbí fóònù](/caregiving/tablets-and-screens/).
-6. **Ẹ gbé ẹ̀rọ náà dúró.** Ìdúró tàbí àpò tí ó gbé tábìlẹ́ẹ̀tì dúró ṣánṣán túmọ̀ sí pé kò sí ẹni tí ó ní láti dì í mú, ó sì rọrùn láti tọ́ka sí.
+1. **Yan àkókò tó dára jù nínú ọjọ́.** [Ìtọ́sọ́nà National Institute on Aging (NIA) lórí ṣíṣe iṣẹ́ ṣe lọ́nà tó bá ènìyàn mu](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) dábàá pé kí a ṣètò ìrìn-àjò àti iṣẹ́ ní àkókò tí ẹni náà wà ní ipò rẹ̀ tó dára jù. Fún ọ̀pọ̀ ènìyàn, ó jẹ́ àárín òwúrọ̀. Ìrọ̀lẹ́ kùtùkùtù sábà máa ń le jù; wo [àwọn iṣẹ́ ìrọ̀lẹ́ tó balẹ̀](/creative-calm/calm-afternoon-activities/).
+2. **Jẹ́ kí yàrá dákẹ́.** Pa tẹlifíṣọ̀n àti rédíò, kí o sì ti ìlẹ̀kùn tí o bá lè ṣe é. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) gba nímọ̀ràn láti dín ariwo àti ohun tó ń dí ni lọ́wọ́ kù kí o tó bẹ̀rẹ̀ ọ̀rọ̀ sísọ.
+3. **Ṣàyẹ̀wò ìtùnú kọ́kọ́.** Omi mímu nítòsí, lílọ ilé ìwẹ̀ kí ẹ tó bẹ̀rẹ̀, àga tó ní ìtùnú, àti gilaasi àti ohun ìgbọ́ràn wà lára.
+4. **Tan ìmọ́lẹ̀ yàrá dáradára.** Ìmọ́lẹ̀ tó mọ́lẹ̀ tó sì dọ́gba, láìsí ìtànmọ́lẹ̀ lórí ojú ìbòjú, mú kí àwọn àwòrán rọrùn láti rí.
+5. **Ṣètò eré náà kí ẹ tó jókòó.** Ṣí i, yan ètò rẹ̀, kí o sì ṣàtúnṣe ìró fúnra rẹ. Lẹ́yìn náà yí ojú ìbòjú sí wọn. Tan ọ̀rọ̀ tó tóbi jù lórí ẹ̀rọ tí ó bá ràn yín lọ́wọ́.
+6. **Gbé ẹ̀rọ náà sókè.** Ìdúró tàbí àpò tó mú táblẹ́ẹ̀tì dúró ní ìdúró tó tọ́ túmọ̀ sí pé kò sí ẹni tó ní láti dì í mú, ó sì rọrùn láti tọ́ka sí.
 
-## Báwo ni mo ṣe ń pè é láìsí ìdààmú?
+## Báwo ni mo ṣe lè pè wọ́n láìfi wàhálà kan?
 
-Ẹ jẹ́ kí ìpè náà jẹ́ ti àìlábòsí tí ó sì rọrùn láti kọ̀. Àwọn gbólóhùn kan tí ó sábà máa ń dára:
+Jẹ́ kí ìpè náà jẹ́ èyí tí ó rọrùn tí ó sì rọrùn láti kọ̀. Àwọn gbólóhùn kan tó sábà máa ń ṣiṣẹ́ dáradára:
 
-- “Mo rí àwọn àwòrán ọgbà kan. Ṣé ẹ fẹ́ wò wọ́n pẹ̀lú mi?”
-- “Ṣé ẹ lè ràn mí lọ́wọ́ pẹ̀lú àdììtú yìí? Ó ti dì mí.”
-- “Ṣé ẹ fẹ́ àwọn òdòdó tàbí àwọn ẹyẹ lónìí?” (àṣàyàn méjì rọrùn ju ìbéèrè ṣíṣí lọ)
-- “Mò ń ṣe káàdì fún arábìnrin yín. Àwọ̀ wo ni kí èyí jẹ́?”
+- "Mo rí àwọn àwòrán ọgbà kan. Ṣé o fẹ́ kí a wò wọ́n papọ̀?"
+- "Ṣé o lè ràn mí lọ́wọ́ pẹ̀lú àdììtú yìí? Mo ti dì."
+- "Ṣé o fẹ́ àwọn òdòdó tàbí àwọn ẹyẹ lónìí?" (yíyàn méjì rọrùn ju ìbéèrè tí kò ní ìdáhùn kan pàtó lọ)
+- "Mo ń ṣe káàdì fún arábìnrin rẹ. Àwọ̀ wo ni èyí yẹ kí ó jẹ́?"
 
-Alzheimer's Association dámọ̀ràn ṣíṣàlàyé ète ìgbòkègbodò kan, bíi ṣíṣe káàdì fún ọ̀rẹ́, nítorí pé ìdí kan ń fún un ní ìtumọ̀. Bíbéèrè fún ìrànlọ́wọ́ náà ń ṣiṣẹ́ nítorí pé ó jẹ́ kí ẹni náà nímọ̀lára pé ó wúlò.
+Alzheimer's Association dábàá pé kí a ṣàlàyé ète iṣẹ́ kan, bíi ṣíṣe káàdì fún ọ̀rẹ́, nítorí ìdí kan ń fún un ní ìtumọ̀. Béèrè fún ìrànlọ́wọ́ náà ṣiṣẹ́ pẹ̀lú nítorí ó jẹ́ kí ẹni náà rí i pé òun wúlò.
 
-Bí wọ́n bá sọ pé rárá, ẹ gbà á. Ẹ tún gbìyànjú lẹ́yìn náà tàbí ẹ fún un ní ohun mìíràn. Ìtọ́sọ́nà wa lórí [ohun tí ẹ lè ṣe nígbà tí wọ́n bá sọ pé rárá](/caregiving/when-they-say-no/) lọ jìnnà sí i.
+Tí wọ́n bá sọ pé rárá, gbà á. Gbìyànjú lẹ́ẹ̀kan sí i nígbà míì, tàbí fún ni nǹkan míràn. Ìtọ́sọ́nà wa lórí [ohun tí a ó ṣe nígbà tí wọ́n bá sọ pé rárá](/caregiving/when-they-say-no/) ṣàlàyé sí i.
 
-## Ìgbà wo ni eré yẹ kí ó gbà, báwo sì ni a ṣe yẹ kí a yára tó?
+## Igba wo ni eré kan yẹ kí ó gbà, báwo sì ni a ṣe yẹ kí a yára tó?
 
-Ẹ jẹ́ kí ẹni náà ṣètò ìyára, kí ẹ sì ṣètò fún àwọn ìpàdé kúkúrú. Kò sí gígùn tí ó dára jù tí a gbé lé ẹ̀rí fún eré tí a jọ ṣe. Ìṣẹ́jú méjì sí márùn-ún tí ó parọ́rọ́ lè jẹ́ ìgbòkègbodò pípé.
+Jẹ́ kí ẹni náà ṣètò ìyára, kí o sì gbèrò fún àkókò kúkúrú. Kò sí gígùn tó dára jù tí a fihàn nípa ẹ̀rí fún eré tí a jọ ń ṣe. Ìṣẹ́jú méjì sí márùn-ún tí ó balẹ̀ lè jẹ́ iṣẹ́ tó pé.
 
-- **Ẹ dúró pẹ́ ju bí ó ti dà bí àdánidá.** NIA gbani nímọ̀ràn láti fún ẹni náà ní àkókò púpọ̀ sí i láti dáhùn àti láti gbìyànjú láti má dá a lẹ́kun. Ẹ ka dé mẹ́wàá nínú ọkàn yín kí ẹ tó ràn án lọ́wọ́.
-- **Ìgbésẹ̀ kan lẹ́ẹ̀kan.** Ẹ fún un ní ìtọ́ni kúkúrú kan (“Ẹ tẹ àwòrán kan”), lẹ́yìn náà ẹ dúró. Ẹ fi hàn dípò ṣíṣàlàyé: ẹ tọ́ka sí ibi tí a ó tẹ.
-- **Ẹ dúró nígbàkúùgbà.** Bí ó bá dúró láti sọ̀rọ̀ nípa àwòrán kan, eré náà lè dúró. Kò sí ìdí láti yára.
-- **Ẹ jẹ́ kí ó wò.** NIA sọ pé àwọn kan fẹ́ràn láti wò, ìyẹn sì jẹ́ àṣàyàn tó tọ́.
+- **Dúró ju bí ó ṣe rí lára rẹ lọ.** NIA gba nímọ̀ràn láti fún ẹni náà ní àkókò púpọ̀ láti dáhùn, kí o sì gbìyànjú kí o má ṣe dá a dúró. Kà sí mẹ́wàá nínú ọkàn rẹ kí o tó ràn án lọ́wọ́.
+- **Ìgbésẹ̀ kan ní àkókò kan.** Fún ní ìtọ́ni kan tó kúrú ("Tẹ àwòrán kan"), lẹ́yìn náà dúró. Fi hàn dípò àlàyé: tọ́ka sí ibi tí a ó ti tẹ̀.
+- **Dá dúró bí ó ṣe wù ú.** Tí wọ́n bá dúró láti sọ̀rọ̀ nípa àwòrán kan, eré náà lè dúró. Kò sí ìdí láti yára.
+- **Jẹ́ kí wọ́n wò.** NIA sọ pé àwọn kan fẹ́ láti wò, àyàn yẹn sì jẹ́ èyí tó tọ́.
 
-## Ṣé kí n ṣe àtúnṣe àwọn ìdáhùn tí kò tọ́?
+## Ṣé kí n tún àwọn ìdáhùn tí kò tọ́ ṣe?
 
-Rárá. Ṣíṣe àtúnṣe sí ẹnìkan léraléra ń sọ fún un pé ó ń kùnà, kódà nígbà tí ẹ bá ní èrò rere. Alzheimer's Association gbani nímọ̀ràn láti má bẹnu àtẹ́ lù tàbí ṣe àtúnṣe àwọn ìgbòkègbodò tí kò lè pani lára. Nínú eré, fẹ́rẹ̀ẹ́ gbogbo àṣìṣe kò lè pani lára.
+Rárá. Ṣíṣe àtúnṣe lọ́nà jẹ́jẹ́ léraléra ń sọ fún wọn pé wọ́n ń kùnà, àní nígbà tí o bá ní ète rere. Alzheimer's Association gba nímọ̀ràn pé kí a má ṣe ṣofintoto tàbí tún iṣẹ́ aláìlèwu ṣe. Nínú eré, fẹ́rẹ̀ẹ́ gbogbo àṣìṣe kò ní ipa.
 
-| Dípò | Ẹ gbìyànjú |
+| Dípò | Gbìyànjú |
 | --- | --- |
-| “Rárá, ó kùnà.” | “Ẹ jẹ́ kí a gbìyànjú ní ọ̀nà yìí.” (àpẹẹrẹ tí NIA fúnni) |
-| “Kò jọra. Ẹ tún wò.” | Ẹ má sọ nǹkan kan, kí ẹ sì lọ sí ìgbà tó kàn, tàbí “Ó, àwọn méjèèjì pupa ni.” |
-| “Ṣé ẹ rántí ẹni tí èyí jẹ́?” | “Ẹ sọ fún mi nípa àwòrán yìí.” |
-| “Ẹ ti ṣe èyí tẹ́lẹ̀.” | “Èyí dára. Ẹ jẹ́ kí a tún ṣe é.” |
-| “Ẹ wá, ẹ mọ èyí.” | “Ṣé kí n fi òpin rẹ̀ hàn?” |
+| "Rárá, ìyẹn kò tọ́." | "Ẹ jẹ́ kí a gbìyànjú rẹ̀ lọ́nà yìí." (àpẹẹrẹ tí NIA fúnni) |
+| "Kìí ṣe ìbámu. Wò lẹ́ẹ̀kan sí i." | Má ṣe sọ nǹkankan kí o gba ìyípo tó tẹ̀lé, tàbí "Ó dára, méjèèjì pupa ni wọ́n." |
+| "Ṣé o rántí ẹni yìí?" | "Sọ fún mi nípa àwòrán yìí." |
+| "O ti ṣe èyí tẹ́lẹ̀." | "Ó dára yẹn. Ẹ jẹ́ kí a tún ṣe é." |
+| "Wá, o mọ èyí." | "Ṣé o fẹ́ kí n fi òpin hàn?" |
 
-Bí àṣìṣe kan bá bí i nínú ní kedere, ẹ ràn án lọ́wọ́ ní ìdákẹ́. Ẹ tọ́ka sí àwòrán tó tọ́, ẹ gba ìgbà tiyín, tàbí ẹ mú eré rọrùn ní ìgbà tó kàn. Bí òwe kan bá ní òpin àṣìṣe tí ó dùn, ẹ bá a rẹ́rìn-ín. Òpin tirẹ̀ lè dára jù.
+Tí àṣìṣe kan bá ń mú wọn bínú hàn gbangba, ràn wọ́n lọ́wọ́ lọ́nà jẹ́jẹ́. Tọ́ka sí àwòrán tó tọ́, gba ìyípo fúnra rẹ, tàbí ṣe eré náà rọrùn ní ìyípo tó tẹ̀lé. Tí òwe kan bá ní òpin àṣìṣe tó ní àrìnrín, rẹ́rìn-ín pẹ̀lú wọn. Òpin tiwọn lè dára ju tiẹ lọ.
 
-## Báwo ni mo ṣe ń mú eré rọrùn tàbí le díẹ̀?
+## Báwo ni mo ṣe lè jẹ́ kí eré rọrùn tàbí kí ó le díẹ̀?
 
-Ẹ mú eré bá ẹni náà mu ní ọjọ́ náà, kì í ṣe orúkọ ìpele. Ẹni kan náà lè nílò ẹ̀yà tí ó rọrùn jù ní ìrọ̀lẹ́ ju ní òwúrọ̀. Ìmọ̀ràn àkọ́kọ́ ti NIA ni láti mú ìgbòkègbodò bá ohun tí ẹni náà lè ṣe mu àti láti rí i dájú pé ó nímọ̀lára pé òun ṣe é.
+Ṣe àtúnṣe eré náà sí ẹni náà ní ọjọ́ náà, kì í ṣe sí àmì ìpele kan. Ẹni kan náà lè nílò ẹ̀yà tó rọrùn jù ní ìrọ̀lẹ́ ju ní òwúrọ̀. Ìmọ̀ràn àkọ́kọ́ NIA ni pé kí iṣẹ́ náà bá ohun tí ẹni náà lè ṣe mu, kí ó sì rí i dájú pé ó nímọ̀lára àṣeyọrí.
 
-| Eré | Ẹ mú un rọrùn | Ẹ mú un le díẹ̀ |
+| Eré | Jẹ́ kí ó rọrùn | Jẹ́ kí ó le díẹ̀ |
 | --- | --- | --- |
-| [Àwọn méjì-méjì àwòrán](/games/picture-pairs/) | Ẹ bẹ̀rẹ̀ pẹ̀lú àwòrán 4 kí ẹ sì fi àwọn àwòrán sílẹ̀ ní ojú | Àwòrán púpọ̀ sí i, tàbí ẹ fi àwọn àwòrán pamọ́ bí ó bá dà bí ohun tó tura |
-| [Wá èyí tí ó jọra](/games/find-the-same/) | Àṣàyàn 2 | Títí dé àṣàyàn 4 |
-| [Ẹ jọ tòlẹ́sẹẹsẹ](/games/sort-together/) | Ẹ̀yin ni ẹ ń di àwòrán mú, ó ń tọ́ka sí agbọ̀n | Ó ń tẹ àwòrán àti agbọ̀n fúnra rẹ̀ |
-| [Kó àwòrán jọ](/games/picture-puzzle/) | Ègé 4, ẹ sọ̀rọ̀ nípa gbogbo àwòrán náà ní àkọ́kọ́ | Ègé 9 |
-| [Parí òwe náà](/games/finish-the-saying/) | Ẹ fi òpin hàn, lẹ́yìn náà ẹ sọ ọ́ papọ̀ | Ẹ jẹ́ kí ó sọ òpin náà kí ó tó tẹ̀ |
-| [Ìwádìí ọ̀rọ̀ ní ìtẹ̀ ńlá](/games/word-search/) | Ẹ tẹ̀ ẹ́ jáde, ẹ jọ wá ọ̀rọ̀ kan, ẹ tọ́ka sí lẹ́tà àkọ́kọ́ rẹ̀ | Ẹ jẹ́ kí ó yan ọ̀rọ̀ tó kàn láti wá |
-| [Àwọn ojú-ìwé àwọ̀ kíkùn](/games/coloring/) | Ẹ̀yin yan àwọ̀ méjì, ó yàn láàrín wọn | Ó yan gbogbo àwọn àwọ̀ |
-| [Àwọn káàdì ìjíròrò](/games/conversation-cards/) | Ẹ kàn jọ wo àwòrán náà | Ẹ lo àwọn ìpè ṣíṣí lórí káàdì náà |
-| [Àwọn méjì-méjì fọ́tò](/games/photo-pairs/) | Àwọn fọ́tò ẹbí díẹ̀ tí a fẹ́ràn gan-an | Ẹ fi àwọn fọ́tò kún un |
-| [Bíńgò àwòrán](/games/picture-bingo/) | Olùrànlọ́wọ́ kan jókòó pẹ̀lú ẹni tí ń ṣeré kọ̀ọ̀kan | Àwọn tí ń ṣeré ń ṣe àmì sórí káàdì wọn |
-| [Ìdúró mímí parọ́rọ́](/games/calm-breathing/) | Ẹ kàn jókòó, kí ẹ sì wò ó papọ̀ | Ẹ mí lọ́ra pẹ̀lú rẹ̀ |
+| [Picture Pairs](/games/picture-pairs/) | Bẹ̀rẹ̀ pẹ̀lú tile 4, fi àwọn àwòrán sílẹ̀ ní ojú | Tile púpọ̀ sí i, tàbí fi àwọn àwòrán pamọ́ tí ó bá rọrùn fún wọn |
+| [Find the Same](/games/find-the-same/) | Àṣàyàn 2 | Títí dé àṣàyàn 4 |
+| [Sort Together](/games/sort-together/) | Ìwọ ni o di àwòrán mú, wọ́n tọ́ka sí apẹ̀rẹ̀ | Wọ́n tẹ àwòrán àti apẹ̀rẹ̀ fúnra wọn |
+| [Picture Puzzle](/games/picture-puzzle/) | Ègé 4, sọ̀rọ̀ lórí gbogbo àwòrán ní àkọ́kọ́ | Ègé 9 |
+| [Finish the Saying](/games/finish-the-saying/) | Fi òpin hàn, lẹ́yìn náà sọ ọ́ pọ̀ | Jẹ́ kí wọ́n sọ òpin kí o tó tẹ̀ |
+| [Word Search](/games/word-search/) | Tẹ̀ ẹ́ jáde, wá ọ̀rọ̀ kan papọ̀, tọ́ka sí lẹ́tà àkọ́kọ́ rẹ̀ | Jẹ́ kí wọ́n yan ọ̀rọ̀ tó tẹ̀lé láti wá |
+| [Coloring](/games/coloring/) | Ìwọ yan àwọ̀ méjì, wọ́n yàn láàárín wọn | Wọ́n yan gbogbo àwọ̀ |
+| [Conversation Cards](/games/conversation-cards/) | Kan wo àwòrán papọ̀ | Lo àwọn ìbéèrè tí ó ṣí sílẹ̀ lórí káàdì |
+| [Photo Pairs](/games/photo-pairs/) | Díẹ̀ lára àwọn fọ́tò ẹbí tí wọ́n fẹ́ràn | Fi fọ́tò kún un |
+| [Picture Bingo](/games/picture-bingo/) | Olùrànlọ́wọ́ kan jókòó pẹ̀lú ẹni kọ̀ọ̀kan | Àwọn olùkópa sàmì sí káàdì tiwọn fúnra wọn |
+| [Calm Breathing](/games/calm-breathing/) | Kan jókòó kí o sì wò ó papọ̀ | Mí lọ́ra pẹ̀lú rẹ̀ |
 
-Àwọn àmì pé eré le jù: àwọn ìdákẹ́ gígùn tí ó dà bí ìdààmú dípò ìrònú, “Mi ò lè” léraléra, títì ẹ̀rọ náà kúrò, tàbí àwọn àṣìṣe tí ó bí i nínú. Àwọn àmì pé ó lè rọrùn jù: sísú, tàbí kí ó sọ pé ó dà bí ti ọmọdé. Bí èyí bá ṣẹlẹ̀, ẹ bọ̀wọ̀ fún un, kí ẹ sì yí padà sí ohun tí ó dà bí ti àgbàlagbà, bíi ìwádìí ọ̀rọ̀, àdììtú fọ́tò gidi, tàbí sísọ̀rọ̀ nípa àwòrán iṣẹ́ rẹ̀ àtijọ́.
+Àwọn àmì pé eré náà le jù: ìdúró gígùn tó dà bí ẹni tó ń ṣàníyàn dípò ẹni tó ń ronú, "Mi ò lè" tí a ń sọ léraléra, sísọ ẹ̀rọ náà kúrò lọ́dọ̀ wọn, tàbí àṣìṣe tó ń bí wọn nínú. Àwọn àmì pé ó lè rọrùn jù: àárẹ̀ ìdùnnú, tàbí tí wọ́n bá sọ pé ó jẹ́ ọmọdé. Tí èyí bá ṣẹlẹ̀, bọ̀wọ̀ fún un kí o sì yípadà sí nǹkan tó dà bí ti àgbà, bíi wíwá ọ̀rọ̀ nínú àkójọ, àdììtú fọ́tò gidi, tàbí sísọ̀rọ̀ nípa àwòrán iṣẹ́ àtijọ́ wọn.
 
-## Báwo ni mo ṣe ń sọ eré di ìjíròrò?
+## Báwo ni mo ṣe lè yí eré kan padà sí ìjíròrò?
 
-Ẹ lo àwòrán kọ̀ọ̀kan gẹ́gẹ́ bí ìpè láti sọ̀rọ̀, kí ẹ sì kà ohunkóhun tí ó bá sọ sí ìdáhùn rere. Fún ọ̀pọ̀ ẹbí, èyí ni apá tí ó dára jù nínú ṣíṣeré.
+Lo àwòrán kọ̀ọ̀kan gẹ́gẹ́ bí ìpè láti sọ̀rọ̀, kí o sì kà ohunkóhun tí wọ́n bá sọ sí ìdáhùn rere. Fún ọ̀pọ̀ ìdílé, èyí ni apá tó dára jù nínú eré.
 
-- **Ẹ béèrè àwọn ìbéèrè ṣíṣí tí kò ní ìdáhùn tí kò tọ́.** “Kí ni ẹ kíyèsí?” “Èwo ni ẹ fẹ́ràn?” “Ẹ sọ fún mi nípa ibi ìdáná bí èyí.”
-- **Ẹ kọ́kọ́ pín.** “Ìyá àgbà mi ní ajá bí èyí.” Ìtàn yín ń mú kí ó rọrùn fún un láti pín ọ̀kan.
-- **Ẹ tẹ̀lé ìyapa náà.** Bí àwòrán ọkọ̀ bá yọrí sí ìtàn nípa ìrìn àjò ojú ọ̀nà, ìtàn náà ni ìgbòkègbodò. Ẹ fi eré náà sílẹ̀ ní ìdúró.
-- **Ẹ má ṣàyẹ̀wò òtítọ́.** Nínú ríránti ìgbà àtijọ́, ìjíròrò dídùn ṣe pàtàkì ju àwọn àlàyé tó péye lọ. Bí ìtàn náà bá yí padà láti ìgbà tó kọjá, ẹ gbádùn ẹ̀yà tuntun náà.
-- **Ẹ lo àwọn ìpè tí ó wà nínú rẹ̀.** [Parí òwe náà](/games/finish-the-saying/) ń tẹ̀lé òwe kọ̀ọ̀kan pẹ̀lú ìpè láti sọ̀rọ̀, a sì ṣe [Àwọn káàdì ìjíròrò](/games/conversation-cards/) fún èyí gan-an. [Àwọn méjì-méjì fọ́tò](/games/photo-pairs/) ń lo àwọn fọ́tò ẹbí tiyín, tí ó sábà máa ń mú àwọn ìtàn tí ó jinlẹ̀ jù jáde.
+- **Béèrè àwọn ìbéèrè tí ó ṣí sílẹ̀, tí kò ní ìdáhùn tí kò tọ́.** "Kí ni o kíyèsí?" "Èwo ni o fẹ́ràn?" "Sọ fún mi nípa ilé ìdáná bí èyí."
+- **Pín tìrẹ kọ́kọ́.** "Ìyá-àgbà mi ní ajá bíi èyí." Ìtàn rẹ mú kí ó rọrùn fún wọn láti pín tiwọn.
+- **Tẹ̀lé ọ̀rọ̀ tó yọ ẹ̀ka.** Tí àwòrán ọkọ̀ bá yọrí sí ìtàn ìrìn-àjò, ìtàn náà ni iṣẹ́ náà. Jẹ́ kí eré náà dúró.
+- **Má ṣe ṣàyẹ̀wò òtítọ́.** Nínú ìrántí àtijọ́, ọ̀rọ̀ tó dùn ṣe pàtàkì ju àwọn àlàyé tó péye lọ. Tí ìtàn bá yípadà láti ìgbà tó kọjá, gbádùn ẹ̀yà tuntun náà.
+- **Lo àwọn ìbéèrè tó wà nínú eré.** [Finish the Saying](/games/finish-the-saying/) tẹ̀lé òwe kọ̀ọ̀kan pẹ̀lú ìbéèrè fún ọ̀rọ̀ sísọ, [Conversation Cards](/games/conversation-cards/) sì ti ṣe fún èyí gan-an. [Photo Pairs](/games/photo-pairs/) ń lo àwọn fọ́tò ẹbí tìrẹ, èyí tó sábà máa ń ru àwọn ìtàn tó lọ́rọ̀ jù sókè.
 
-Àwọn èrò sí i wà nínú àwọn ìtọ́sọ́nà wa lórí [àwọn ìgbòkègbodò ríránti ìgbà àtijọ́](/activities/reminiscence/) àti [àwọn ìmọ̀ràn ìbánisọ̀rọ̀](/caregiving/communication-tips/).
+Àwọn èrò míràn wà nínú ìtọ́sọ́nà wa lórí [iṣẹ́ ìrántí](/activities/reminiscence/). Fún ìrànlọ́wọ́ lẹ́yìn àyẹ̀wò, wo [àwọn ìgbésẹ̀ àkọ́kọ́ lẹ́yìn àyẹ̀wò](/caregiving/after-dementia-diagnosis/).
 
-## Ìgbà wo ni ó yẹ kí a dúró?
+## Ìgbà wo ni a ó dúró?
 
-Ẹ dúró ní àwọn àmì àkọ́kọ́ ti àárẹ̀ tàbí ìbínú, àti dáadáa ṣáájú díẹ̀. Alzheimer's Association gbani nímọ̀ràn láti dúró tàbí yí ìgbòkègbodò padà nígbà tí àfiyèsí bá ń dínkù tàbí ìbínú ń pọ̀ sí i.
+Dá dúró ní àmì àkọ́kọ́ ti àárẹ̀ tàbí ìbànújẹ́, tí ó dára jù bí ó bá ti ṣáájú díẹ̀. Alzheimer's Association gba nímọ̀ràn láti dá dúró tàbí yí iṣẹ́ náà padà nígbà tí àfiyèsí bá ń dínkù tàbí ìbínú bá ń pọ̀ sí i.
 
-Ẹ ṣọ́ra fún:
+Ṣọ́ra fún:
 
-- ṣíṣí ẹnu nítorí oorun, wíwọ́ ara sílẹ̀ tàbí ojú tí ń yà kúrò lórí ojú ìbòjú;
-- àìnísinmi, dídìde dúró, tàbí bíbéèrè láti lọ;
-- mímí ẹ̀dùn, àwọn ìdáhùn kúkúrú, tàbí “Mi ò mọ̀ ọ́n ṣe”;
-- títẹ̀ láìnídìí tàbí títì ẹ̀rọ náà kúrò;
-- ẹkún, ìbínú, tàbí àyípadà òjijì nínú ìmọ̀lára.
+- ìmí ìyàwó, ara tí ó rọ̀ sílẹ̀, tàbí ojú tí ó ń kúrò lórí ojú ìbòjú;
+- ìṣípò, dídìde dúró, tàbí béèrè láti lọ;
+- ìmí gígùn, ìdáhùn kúkúrú, tàbí "Èmi kò mọ̀ nípa èyí";
+- títẹ̀ láìdábùú tàbí títì ẹ̀rọ náà kúrò lọ́dọ̀ wọn;
+- ẹkún, ìbínú, tàbí ìyípadà ìmọ̀lára lójijì.
 
-Bí a ṣe ń dúró dáadáa:
+Bí a ṣe lè dá dúró dáadáa:
 
-- **Ẹ parí lórí ohun tí ó rọrùn.** Ìbára-mu kan ìkẹyìn tí ó lè ṣe, tàbí àwòrán ìkẹyìn láti wò pẹ̀lú ayọ̀.
-- **Ẹ jẹ́ kí ó jẹ́ nípa yín.** “Mo fẹ́ mu ife tíì kan. Ṣé kí a dúró níbí?” ń yẹra fún èrò èyíkéyìí pé ó ṣe burúkú.
-- **Ẹ lọ sí ohun ti ara tàbí ohun ìtura.** Ìrìn kúkúrú, oúnjẹ kékeré, kíká aṣọ tàbí orin.
-- **Ẹ sọ ohun gbígbóná.** “Mo fẹ́ràn ṣíṣe bẹ́ẹ̀ pẹ̀lú yín.” Kò sí ìyìn fún “gbígbà á dáadáa”, ayọ̀ nínú àkókò papọ̀ nìkan.
+- **Parí pẹ̀lú nǹkan tó rọrùn.** Ìbámu kan tí wọ́n lè ṣe kẹ́yìn, tàbí àwòrán kan tó kẹ́yìn láti wò.
+- **Jẹ́ kí ó dà bí ti ìwọ.** "Ife tii kan yóò dára fún mi. Ṣé kí a dúró síbí?" yóò yẹra fún àmì pé wọ́n ṣe àìdáa.
+- **Lọ sí nǹkan tó kan ara tàbí tó ń tuni lára.** Rìn díẹ̀, jẹun díẹ̀, ṣe aṣọ, tàbí gbọ́ orin.
+- **Sọ nǹkan tó gbóná.** "Mo fẹ́ràn ṣíṣe èyí pẹ̀lú rẹ." Má ṣe yìn wọn fún "pípe ẹ̀ tọ́", kan fi ayọ̀ hàn nínú àkókò papọ̀.
 
-Parí ní kùtùkùtù, yíyí ètò padà, tàbí fífi eré sílẹ̀ àti jíjókòó papọ̀ jẹ́ àwọn àbájáde rere.
+Dídá dúró ní kùtùkùtù, yíyí ètò padà, tàbí fífi eré sílẹ̀ kí a jọ jókòó lásán, gbogbo wọn jẹ́ àbájáde tó dára.
 
-## Ṣé a lè ṣeré ní ẹgbẹ́ tàbí nípasẹ̀ ìpè fídíò?
+## Ṣé a lè ṣeré nínú ẹgbẹ́ tàbí lórí ìpè fídíò?
 
-Bẹ́ẹ̀ ni, pẹ̀lú ìṣètò àfikún díẹ̀. Ní ẹgbẹ́, ẹ jẹ́ kí ó jẹ́ ènìyàn díẹ̀, ẹ jókòó àwọn olùrànlọ́wọ́ lẹ́gbẹ̀ẹ́ ẹnikẹ́ni tí ó nílò wọn, kí ẹ sì yan eré tí ó ní ìdojúkọ àjọpín tí ó hàn kedere. [Bíńgò àwòrán](/games/picture-bingo/) ní àwọn káàdì tí a lè tẹ̀ jáde àti ẹni tí ń pè lórí ojú ìbòjú fún àwọn ẹgbẹ́. Ẹ wo [àwọn ìgbòkègbodò fún àwọn ẹgbẹ́ ilé ìtọ́jú](/activities/care-home-groups/) fún sí i.
+Bẹ́ẹ̀ ni, pẹ̀lú ìṣètò díẹ̀ sí i. Nínú ẹgbẹ́, jẹ́ kí ó kéré sí ọ̀pọ̀ ènìyàn, jókòó àwọn olùrànlọ́wọ́ lẹ́gbẹ̀ẹ́ ẹnikẹ́ni tó bá nílò wọn, kí o sì yan eré kan tó ní ète pípín tó ṣe kedere. [Picture Bingo](/games/picture-bingo/) ní káàdì tí a lè tẹ̀ jáde àti olùpè lórí ìbòjú fún àwọn ẹgbẹ́. Wo [àwọn iṣẹ́ fún ẹgbẹ́ ilé ìtọ́jú](/crafts/craft-group-sessions/) fún èyí tó pọ̀ sí i.
 
-Nípasẹ̀ ìpè fídíò, ẹni tí ó wà lórí ìpè lè ṣàpèjúwe àwòrán nígbà tí ẹnìkan nínú yàrá ń tọ́ka tí ó sì ń tẹ̀. Ẹ jẹ́ kí àwọn ìpè kúrú, kí wọ́n sì mọ̀. Ìtọ́sọ́nà wa lórí [àwọn ìpè fóònù àti fídíò](/activities/phone-and-video-calls/) ní àwọn ìmọ̀ràn sí i.
+Lórí ìpè fídíò, ẹni tó wà lórí ìpè lè ṣàpèjúwe àwòrán nígbà tí ẹnìkan nínú yàrá ń tọ́ka sí i, tí ó sì ń tẹ̀. Jẹ́ kí àwọn ìpè kúrú àti faramọ́. Ìtọ́sọ́nà wa lórí [ìpè fóònù àti fídíò](/together/staying-connected-from-afar/) ní àwọn àbá míì.
 
-## Kí ni bí eré kan kò bá ṣiṣẹ́?
+## Kí ni tí eré kan bá kàn kò ṣiṣẹ́?
 
-Àwọn ọjọ́ kan, kò sí nǹkan tí ó bọ́ sí ipò, ìyẹn kì í ṣe àfihàn lórí yín tàbí lórí wọn. Ẹ gbé eré náà kúrò, kí ẹ sì tún gbìyànjú ní àkókò ọjọ́ mìíràn, eré mìíràn, tàbí láìsí eré rárá. Ọ̀pọ̀ ìgbòkègbodò rere kò ní ohunkóhun ṣe pẹ̀lú ojú ìbòjú: orin, kíká táwẹ́ẹ̀lì, wíwo ìwé fọ́tò, tàbí ìrìn kúkúrú. Ẹ wo [àwọn èrò ìgbòkègbodò](/activities/ideas/) wa fún sí i.
+Àwọn ọjọ́ kan, kò sí nǹkankan tó ń ṣiṣẹ́, kò sì ṣe àfihàn ìwọ tàbí wọn. Kó eré náà kúrò kí o gbìyànjú ìgbà míràn ti ọjọ́, eré mìíràn, tàbí kí o má ṣe eré rárá. Ọ̀pọ̀ iṣẹ́ rere kò ní nǹkan kan ṣe pẹ̀lú ìbòjú: orin, kíkó aṣọ ìnuwọ́, wíwo ìwé àwòrán ìdílé, tàbí rìn díẹ̀. Wo [àwọn èrò iṣẹ́ wa](/activities/ideas/) fún èyí tó pọ̀ sí i.
