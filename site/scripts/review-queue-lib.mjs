@@ -1,6 +1,8 @@
 // Due-for-review queue (WEB-076) with the review cadence from TSA-036.
 // The interval is a proposal until the maintainer records another value.
 // The queue is internal: it is printed by `pnpm review:queue` and never built into the site.
+// Owner roles (PLAT-012) are defined in src/lib/review-owner.ts; a page without one is defaulted by rule.
+import { ownerOf, REVIEW_OWNER_ROLES } from '../src/lib/review-owner.ts';
 
 export const REVIEW_INTERVAL_MONTHS = 12;
 
@@ -54,8 +56,8 @@ export function overdueSince(checked, today, months = REVIEW_INTERVAL_MONTHS) {
 }
 
 /**
- * @typedef {{ id: string, kind: string, checked: string, safetyFlagged: boolean }} ReviewItem
- * @typedef {ReviewItem & { due: string, daysOverdue: number }} ReviewEntry
+ * @typedef {{ id: string, kind: string, checked: string, safetyFlagged: boolean, owner?: string }} ReviewItem
+ * @typedef {ReviewItem & { due: string, daysOverdue: number, owner: string, ownerDefaulted: boolean }} ReviewEntry
  */
 
 /**
@@ -73,8 +75,34 @@ export function reviewQueue(items, today, months = REVIEW_INTERVAL_MONTHS) {
       if (!parse(item.checked)) throw new RangeError(`${item.id}: bad date ${item.checked}`);
       const due = dueDate(item.checked, months);
       const daysOverdue = Math.round((now.getTime() - /** @type {Date} */ (parse(due)).getTime()) / 86_400_000);
-      return { ...item, due, daysOverdue };
+      const { role, defaulted } = ownerOf(item);
+      return { ...item, due, daysOverdue, owner: role, ownerDefaulted: defaulted };
     })
     .filter((entry) => entry.daysOverdue > 0)
     .sort((a, b) => Number(b.safetyFlagged) - Number(a.safetyFlagged) || b.daysOverdue - a.daysOverdue);
+}
+
+/**
+ * The entries whose owner is `role`, in the same priority order.
+ * @param {ReviewEntry[]} entries
+ * @param {string} role
+ * @returns {ReviewEntry[]}
+ */
+export function filterByOwner(entries, role) {
+  return entries.filter((entry) => entry.owner === role);
+}
+
+/**
+ * How many entries each owner holds, in the fixed role order; roles with none are left out.
+ * @param {ReviewEntry[]} entries
+ * @returns {Record<string, number>}
+ */
+export function ownerSummary(entries) {
+  /** @type {Record<string, number>} */
+  const counts = {};
+  for (const role of REVIEW_OWNER_ROLES) {
+    const n = entries.filter((entry) => entry.owner === role).length;
+    if (n > 0) counts[role] = n;
+  }
+  return counts;
 }

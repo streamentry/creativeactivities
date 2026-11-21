@@ -18,10 +18,10 @@ Generated from the index. Do not edit the table by hand: change a status in `glo
 | Phase | exists | partial | new | total |
 | --- | --- | --- | --- | --- |
 | S1 | 12 | 28 | 0 | 40 |
-| S2 | 71 | 240 | 96 | 407 |
+| S2 | 71 | 241 | 95 | 407 |
 | S3 | 2 | 17 | 56 | 75 |
 | S4 | 0 | 0 | 11 | 11 |
-| **All** | **85** | **285** | **163** | **533** |
+| **All** | **85** | **286** | **162** | **533** |
 
 At the start of 2026-11-15: 55 exists, 134 partial, 290 new, 54 unclassified (`?`).
 
@@ -581,6 +581,8 @@ The maintainer asked on 2026-11-21 for the suggested option to be chosen for eve
 | A parent organization named only in structured data (SEO-013) | Say it on the About page | Done in batch 62 |
 
 ## Next batches (buildable without a person)
+
+Triage of the 162 `new` rows (2026-11-22): [global/new-items-triage.md](global/new-items-triage.md).
 
 From the 2026-11-19 audit of the partial items (batch 52); each gap was checked against the code. Most items stay partial after the gap is built, because a person is still needed.
 

@@ -2,6 +2,7 @@ import { z } from 'astro/zod';
 import { CARD_ID_FORMAT } from '../data/card-ids';
 import { SAFETY_FLAGS } from './activities';
 import { plainStepProblems } from './plain-steps';
+import { REVIEW_OWNER_ROLES } from './review-owner';
 
 /** The finder's three first questions (DESIGN.md › Finder filters). */
 export const ACTIVITY_TYPES = ['art', 'craft', 'nature', 'music', 'sensory', 'conversation'] as const;
@@ -197,6 +198,8 @@ export const activityCardSchema = z
     withdrawn: withdrawnSchema.optional(),
     /** Absent until a named, credentialed person has reviewed the card (TSA-034). */
     review: reviewSchema.optional(),
+    /** Who is answerable for the review queue (PLAT-012): a role, never a name. Defaulted by rule when absent. */
+    reviewOwner: z.enum(REVIEW_OWNER_ROLES).optional(),
     /** Set when the reviewer declined the card. A declined card is not published and is held from every listing (CNT-1004). */
     reviewDeclined: reviewDeclinedSchema.optional(),
     /**

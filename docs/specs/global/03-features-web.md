@@ -54,6 +54,8 @@ Risks / not doing: More visible filters slow a tired visitor down. Do not add a 
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `situation.test.ts`, `no-posts.test.ts`). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): the finder has a box above its filters where a few words become removable choices (`site/src/lib/situation.ts`, `site/src/tools/DescribeSituation.tsx`). "My father likes music but tires quickly" gives the music kind, seated and low energy. The first version reads a list of words and phrases, not a language model. A number of minutes is put in the finder's time bands, a child's age means a child is taking part, and a word turned around by "not", "dislikes", "difficulty" or "hard of" is left out ("she does not like music" and "difficulty walking" give nothing). A negation stays inside its clause, so "no mess, quick" keeps "quick", and it covers phrases as well as words ("she is not in bed, she is in the garden" gives the garden and not the bedside). Ordinary words are not rules by themselves: "short term memory loss", "some sort of music", "hard of hearing" and "loves loud music" give nothing the person did not ask for. The chips use the finder's own words and can be removed with the keyboard, focus stays in the box, and the results and the address change once after a pause in typing. The words are not sent, stored or put in the address (tested by scanning the code), the browser's spell-check is off in the box so an enhanced spell-check cannot send them, and a note beside the box says so. It also says that the choices read from the words are put in the filters and so appear in the address, as any filter picked by hand does. A choice made by hand after the box set it is not overruled while the words say the same thing about it, going back in the browser clears the box, and removing a chip is about the words that made it. A word that names a condition, a diagnosis or a feeling that points to one gives nothing (tested with 27 such words and over the whole rule list). With no known word the box says it could not turn the words into choices and points to the filters below. 41 test situations taken from 01 §3 each give the expected choices, and the cases an independent review found (negated phrases, contractions, clauses, ordinary words, ages) are tests (`site/src/lib/situation.test.ts`). The finder still passes the accessibility check at 320 to 1440 px and 200% text. Not done: an editor's check of the situations and of what each word maps to (one author wrote both); words and phrases in other languages (the box is English only); a mapping for needs the finder has no question for (grip, vision, one hand).
 
 Why: Visitors describe situations, not categories: "my dad likes music but tires quickly" ([VISION, ten-year vision](../../../VISION.md)). Demand is in specific queries, not head terms ([R5 §3, §6](research/05-search-scale-trust.md)).
@@ -73,6 +75,8 @@ Risks / not doing: A phrase must never imply a condition ("forgetful" is not a d
 ### WEB-003 · Site search with care and family language
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `/search/`). Acceptance criteria that need a person remain open.
 
 Status note (2026-11-21): a question that matches only guides now also returns the cards and situations linked to those guides. Game-only answers now bring the closest cards and situations that share a word, and a game name such as "Picnic planner" or "Scrapbook" reaches a card (a test checks every real game). A guide that no card or situation links to (14 English guides on this date) still shows, with the activity finder offered beside it; when nothing matches at all, the page says so and offers the finder. Linking a card to each of those guides is content work. The no-JavaScript query, a search box on every page, and a screen-reader test are still open.
 
@@ -136,6 +140,8 @@ Risks / not doing: Long filter URLs can create near-duplicate pages. The `noinde
 
 Priority P1 · Phase S2 · Status partial · Pillars: MAKE, CARE, GROW
 
+Status note (2026-11-22): Built: `/what-i-have/` with `site/src/data/materials.ts`, `site/src/data/card-needs.ts`, `site/src/lib/what-i-have.test.ts`. A reviewer check of the 61 items and the other open points in Evidence remain.
+
 Evidence (2026-11-16): `/what-i-have/` lists 61 everyday items in seven groups, each with its own checkbox label (`site/src/data/materials.ts`). Ticking items shows the cards whose every need is met, and a card that is one thing short is listed apart with the missing choice named. `site/src/data/card-needs.ts` records, for all 53 cards, which groups of items each needs (a group is met by any one of its items, as in "a glue stick or double-sided tape") and which extras are optional. `site/src/data/materials.test.ts` reads every line of every card's materials list both ways: a line that names an item must be recorded, a recorded item must be named in the card, and a line that names nothing must be one of the few not asked about (furniture, tap water, comfort extras). `site/src/lib/what-i-have.test.ts` checks that no card is shown ready when it needs something that was not ticked. The card's own substitutions show beside each result under "If something is missing". The ticked list stays in this browser (`ca-what-i-have-v1`, listed in the data inventory and on `/your-data/`) and the page has a "Clear my list" button. With the editors' picture of a plain household stash (23 items: paper, pens, crayons, scissors, glue stick, tape, bowls, cups, towels, photos, a music player and the like) 21 cards are ready, above the proposed 20. Checked: build 16,527 pages, `check-site` 0 errors, `check:a11y` 0 failing of 123 (the page passes at 320 to 1440 px and 200% text). Not done: a reviewer's check of the 61 items and of each card's record (one author classified them, so a wrong match is possible; the page tells people to read the card's own list); the materials class facet (nothing needed, things at home, simple purchase, specialist) and a "substitute: yes" mark on an item; other languages; the link from [WEB-002](#web-002--describe-your-situation).
 
 Why: MISSION asks for activities started "with everyday materials" ([MISSION](../../../MISSION.md), "The problem"). A stash-style view reduces buying pressure ([R1 §5](research/01-craft-diy-platforms.md)).
@@ -154,7 +160,9 @@ Risks / not doing: A weak substitution can mislead. Substitution notes are writt
 
 ### WEB-007 · One idea right now
 
-Priority P2 · Phase S2 · Status new · Pillars: all
+Priority P2 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `one-idea.test.ts`). Acceptance criteria that need a person remain open.
 
 | Feature | Notes |
 |---|---|
@@ -332,6 +340,8 @@ Risks / not doing: Users may not notice a version. The notice on the web page is
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): Built: `/activity/pack/` with `site/src/lib/pack.ts` and `pack.test.ts` (up to eight cards, one version, page count shown). A reviewer check of supply lists, other languages and real-printer tests remain.
+
 Evidence (2026-11-16): `/activity/pack/` lets a visitor tick up to eight of the 53 cards and choose one version for the whole pack, then prints a cover and the cards. The page keeps nothing and sends nothing itself: the pack is only in the address (`?cards=…&variation=…`, activity names and a version), so a link opens the same pack, and the page says that a visitor who has allowed visit counts shares that address with the analytics tool like any other page address. Names in a hand-made or old link are trimmed and checked, and anything left out (a card that is gone, one without the chosen version, more than eight) is said in a message and never dropped silently (`site/src/lib/pack.ts`, `pack.test.ts`). A card is in a pack only with the chosen version: its box is dimmed but still reachable by keyboard and says why (no such version, or the pack is full) in the row, in a note and in a status message, and changing the version takes out the cards that lack it and says how many. The cover lists the cards and "Main supplies", built from `card-needs.ts`: groups are merged, a group that a narrower group already covers is dropped, and extras no card needs are shown apart as "Nice to have". The list holds only items on the 61-item list, so the cover says what it assumes (a table or tray, a chair, tap water, a place to wash hands) and that each card lists everything else it needs. A seeded test over 600 random packs and shelves shows that someone who has one item from every group on the list can make every card in the pack and nobody else can, and the list is never longer than the cards listed one by one. The page count is shown before printing as "up to N pages". `scripts/check-print.mjs` prints every card through the builder on A4 and Letter and fails when a cover is over two pages or a card is over two, searches with the page itself for the pack with the longest supply list (35 lines for eight cards), which prints on 18 pages on both sizes, exactly the stated limit, and checks that three cards named out of order print in that order, each in the bedside version. A unit test keeps the limits in that script equal to the ones the page states. The printed cover carries a six-character pack key, the builder's layout date as its version, the address, and "Free to print and share for personal and noncommercial use", and every card in the pack ends with its own version date. The page is `noindex` and linked from the finder; it can also start from the activities saved on this device, which it reads and does not change. It counts as an app page for the page weight budget, as the finder does, because it carries all the cards as well as its pickers; its first-paint styles are 14.9 kB gzipped, and the print-only styles are in the file linked for print. The version choices are 48 px chips, and the accessibility gate (`check:a11y`) covers the page empty and with a pack chosen. Not done: one version per card (the version is for the whole pack); an exact page count (it is an upper bound, and a printer's settings can change it); a PDF (PLAT-019); a static pack page per key with a reviewer's sign-off; a version number and a last-checked date on each card (each printed card shows its own date, but [WEB-016](#web-016--versioned-prints) is partial, and the cover shows only the builder's layout date); a reviewer's check of the supply lists and of the lines the list leaves to each card, such as chairs and blankets (one author classified the needs, as for [WEB-006](#web-006--what-i-have-mode)); materials scaled to a group ([WEB-046](#web-046--group-mode-for-facilitators)); other languages; a test with a screen reader, in Firefox or Safari, or on real printers.
 
 Why: VISION Stage 2 tests "one sharable printable pack" ([VISION, Stage 2](../../../VISION.md)). Printable collections are a gap in free offers ([R2 §6](research/02-parenting-kids-platforms.md)). The baseline has two fixed packs.
@@ -351,6 +361,8 @@ Risks / not doing: Bulk copying for resale. The noncommercial line and the free-
 ### WEB-018 · Large-print editions
 
 Priority P1 · Phase S2 · Status partial · Pillars: CARE, MAKE
+
+Status note (2026-11-22): Built: `site/src/views/LargePrintView.astro` for all 53 cards, checked by `scripts/check-print.mjs`. The test with three large-print readers and the pack-builder link remain.
 
 Evidence (2026-11-17): every one of the 53 cards has a large-print edition at `/activity/<slug>/large-print/` (`site/src/views/LargePrintView.astro`, `large-print.css`), linked from the card and from the fixed packs, with a larger QR code, and not indexed. `pnpm check:print` prints all 53 on A4 and US Letter and fails the run unless the step text prints at 18 pt or more, each edition fits in 5 pages, and its steps are word for word the standard card's. Not done: the test with at least three people who read large print in their daily lives; a check in black and white beyond printing without backgrounds, which is how a browser prints; and a link from the pack builder.
 
@@ -599,6 +611,8 @@ Risks / not doing: Weekly plans can feel like homework. Keep the page short and 
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): Built: `site/src/data/paths.ts` and `site/src/lib/paths.test.ts` for the two four-week paths at `/paths/`. Reviewer and usability checks, and the other open points in Evidence, remain.
+
 Evidence (2026-11-17): `/paths/` lists two four-week paths, each with its own page: `/paths/quiet-weeks-at-the-table/` (care: a caregiver and an older adult, including someone living with memory loss) and `/paths/making-across-generations/` (together: a child and an older relative). Each states its purpose and who it is not for, why its activities were chosen, and a stop note, and each week offers two activities (`site/src/data/paths.ts`). Every sentence about the activities is limited to what the card files say: tests check that each care activity can be done sitting down, needs little energy and costs little or nothing, that each together activity has a version for children, takes 45 minutes or less and costs little or nothing, and that a path is dated no earlier than the newest card it lists. A visitor can start at any week, skip any week with one tap and bring it back with one tap. The page points at the first week from the start that is not skipped, and says nothing is waiting when every week from there is. Progress shows how many of the path's activities are tried, for the path and for each week, read from the tried list the activity pages keep; the page never writes that list. `site/src/lib/paths.test.ts` runs eight seeded random sequences of 400 steps over everything a person can do on a path together with marking activities tried, and checks that every path action leaves the tried list exactly as it was and that no count ever goes down. A path's actions take only the paths state, so they cannot reach the tried list. A scan of the words of the paths, the page's sentences and the source of the island and the pages fails on the words that would make a path a streak, a schedule or a debt (missed, behind, overdue, late, catch up, streak and the like), and the claims lint runs over the copy. The only thing the page keeps is the start and the skipped weeks, as week numbers in one local key, `ca-paths-v1`, which is in the data inventory and on `/your-data/` and is cleared there or with "Forget my place on this path"; nothing is sent and the page has no text field. If the browser refuses to save, the page keeps each tap for the visit and says so, and a second tab on another path is never overwritten. A path prints on two pages (one sheet, both sides) on A4 and on Letter, in 12 pt, with the buttons and counts left off the paper and a box to tick, the address, the scope line, the pause note and a version line on it, and `check:print` fails a path over two pages, one with the summary, counts or buttons still on the paper, or one without its addresses and version. The pages count as app pages for the page weight budget (first-paint styles 14.6 kB gzipped), and their print-only styles are in the file linked for print. The pages are `noindex`, left out of the sitemap, linked from the finder and in the accessibility gate, which checks the list, one path as a new visitor sees it and the other with a place kept on the device (a start, skipped weeks and tried marks). Without JavaScript the plan reads and prints as a list, and the buttons and counts that would do nothing are left out. Not done: a person checking that the activities suit the people each path names (one author chose them); any session with caregivers or families; paths for other audiences and a way to pick a path from a situation ([WEB-002](#web-002--describe-your-situation)); links from the hubs and the Today page; other languages; evidence that a path is wanted, which keeps the pages out of search; saved collections, which the spec lists as a dependency ([WEB-028](#web-028--saved-collections-on-the-device) is partial); and a weekly plan that includes a path ([WEB-031](#web-031--weekly-plan-printable) is partial).
 
 Why: "One daily item with no punishment for missing a day" works in puzzles ([R4 §3.1](research/04-games-engagement.md)). VISION Stage 2 asks for repeat usefulness without push pressure ([VISION, Stage 2](../../../VISION.md)).
@@ -626,6 +640,8 @@ Evidence: `/seasons/` asks which half of the world the visitor lives in (norther
 ### WEB-034 · Occasion hubs
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/`). Acceptance criteria that need a person remain open.
 
 Evidence (2026-11-16): four occasion hubs are built at `/occasions/visit/`, `/occasions/rainy-day/`, `/occasions/short-break/` and `/occasions/gift/` (`site/src/content/hubs/occasions/`). Each lists ten cards chosen by a written rule, and has its own opening, a stop note and a "not for" line. `site/src/lib/hubs.test.ts` checks each hub against its own rule (the visit hub lists only seated or bedside cards that take five minutes or less to set up; the short break hub only cards with five minutes or less of setup and a first go of ten or less; the rainy day hub only table activities for more than one person), checks that none names a festival, and checks the overlap limit with every other hub (H1). Writing the tests found one card that did not fit the visit rule and it was swapped. The gift hub has no link to a store, no product name and no price wording (tested). Bed rest and celebrations are not separate hubs: each would share more than half its cards with the bedside hub and the seasonal hub (H1), so those two hubs serve them. All four hubs are held from search (`indexable: false`) because 02 H11 allows new hubs in this phase only with search and usability evidence, and none exists yet; they are linked from the home page and the finder, and pass the accessibility check. Not done: the printable gift card; search or usability evidence; outside review of the wording.
 
@@ -880,7 +896,9 @@ Evidence (2026-11-19): `/for-professionals/` (`site/src/pages/for-professionals.
 
 ### WEB-050 · Share a card
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): The share button is built in `site/src/views/ActivityView.astro` (device share sheet, copy-link fallback, card summary as the share text, canonical URL). Not tested in iOS, Android or desktop share sheets, and no per-card share image is in the code.
 
 Why: "Useful sharing" is a distribution route: one caregiver sends an activity card to siblings, teachers or support groups ([VISION, distribution](../../../VISION.md)). "Share the moment" is a product promise ([MISSION](../../../MISSION.md)). No share control was found in the site code.
 
@@ -924,6 +942,8 @@ Risks / not doing: Too many filters on a small library. Show filters only when a
 
 Priority P1 · Phase S2 · Status partial · Pillars: PLAY, GROW, CARE
 
+Status note (2026-11-22): Built: `site/src/data/game-print.ts` (11 of 14 games print, 3 with written reasons) and `site/src/data/game-print.test.ts`. A paper check by a person and native review of the new print strings remain.
+
 Evidence (2026-11-15): all 14 games are audited in `site/src/data/game-print.ts`: 11 print (4 from the game's own sheet, 7 from a fixed build-time sheet in `site/src/lib/games/print-sheet.ts`, one page on A4 and US Letter), 3 give a written reason (photo pairs, calm breathing, finish the saying); the printed rules line is the game's own guidance string and each printable carries `Version <date>` (tests: `site/src/data/game-print.test.ts`). Not done: paper check by a person, native review of the new print strings (English fallback elsewhere), and a paper version for finish the saying.
 
 Why: "Printable plus digital pairs for the same game" is an open gap ([R4 §6](research/04-games-engagement.md)). Printable counterparts are in the game concepts ([R4 §8](research/04-games-engagement.md)).
@@ -942,6 +962,8 @@ Risks / not doing: A printable partner that is a worse game. Write the rules onc
 ### WEB-053 · Difficulty without scores
 
 Priority P1 · Phase S2 · Status partial · Pillars: CARE, PLAY
+
+Status note (2026-11-22): Guarded by `site/src/games/no-pressure.test.ts` (no score, timer, streak or early hint; hints can be switched off). Four games still start a new board on a count change, and no test with five adults has been done.
 
 Evidence: difficulty is a choice of tile or picture count, never a level. `site/src/games/no-pressure.test.ts` fails the build if an English game string carries score, timer, streak, move-count or failure wording, if any game uses a repeating clock (read-aloud pacing excepted), or if a hint starts sooner than 20 seconds idle; only Four together and Odd one out have a hint. Hints can be switched off in both games (a "Hints" choice, English only), which also hides one already showing; `no-pressure.test.ts` checks the switch stops the wait. Changing the count now keeps the place in five games: Find the same and Shadow match keep the target and the pictures on the board; Odd one out keeps the theme, the odd picture and whether it was found; Four together keeps the theme and the pictures already found; Picture pairs keeps the pictures and the pairs already matched, and switching between showing and hidden pictures no longer restarts the board. `site/src/lib/games/resize.test.ts` (60 seeds across every count pair), `pairs-carry.test.ts` and `site/src/games/keep-place.test.ts` (fails if a game rebuilds its round when the count changes) cover this. Remaining: Picture puzzle (a different piece count cannot carry the arrangement), Picture bingo (squares and cards), Word search (size and theme) and Sort together (theme) still start a new board when their choice changes; no testing with five adults.
 
@@ -1245,7 +1267,9 @@ Risks / not doing: Future video or chat widgets. Each one needs a separate revie
 
 ### WEB-070 · Notification policy
 
-Priority P0 · Phase S2 · Status new · Pillars: all
+Priority P0 · Phase S2 · Status exists · Pillars: all
+
+Status note (2026-11-22): Enforced by `site/src/lib/notification-policy.test.ts`: no notification permission request or push API in site code, and no "you missed" or streak wording in the English copy. No reminder exists on the website, so the reminder-copy review has no copy to check yet.
 
 Why: "No guilt-driven notifications" and "no manufactured urgency" ([MISSION](../../../MISSION.md)); "without push-notification pressure" ([VISION, Stage 2](../../../VISION.md)); streak shame and guilt messages are unsuitable for carers ([R2 §7](research/02-parenting-kids-platforms.md)).
 
@@ -1282,6 +1306,8 @@ Risks / not doing: Email is personal data. Keep the list small and the data mini
 
 Priority P0 · Phase S2 · Status partial · Pillars: GROW
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `child-image-rules.test.ts`). Acceptance criteria that need a person remain open.
+
 Evidence: the site has no child-directed page, no accounts, no ads and no third-party embeds. `site/src/lib/child-image-rules.test.ts` fails the build if any page declares `childDirected: true` without a privacy review record at `docs/privacy/child-pages-review.md`, or if such a page contains a form, input, script or iframe. Remaining: the privacy review record and legal advice before the first child page, and the visible label for a child-directed page.
 
 Why: "Children: COPPA / UK Age Appropriate Design Code by default; no child accounts, no child-facing data collection, no public child images" ([brief](_WRITER_BRIEF.md)). The amended COPPA rule and the UK children's code both apply to online services ([R5 §5.1](research/05-search-scale-trust.md); [R2 §7](research/02-parenting-kids-platforms.md)).
@@ -1301,6 +1327,8 @@ Risks / not doing: Legal advice is required. This item states the product rule, 
 ### WEB-073 · Image consent and rights log
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `child-image-rules.test.ts`). Acceptance criteria that need a person remain open.
 
 Evidence: `docs/specs/asset-provenance.json` logs every served picture, illustration and social card (`asset-provenance.test.ts`). `child-image-rules.test.ts` checks that every picture on a card page has a log entry and that no card picture shows a person or a child. All entries are `unreviewed`. Remaining: a named reviewer for each entry, consent records for any future photo of a person, and keeping the log outside the public site once photos are used.
 
@@ -1362,7 +1390,9 @@ Risks / not doing: Tests that pass on empty templates. Run them on real content.
 
 ### WEB-076 · Due-for-review queue
 
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `src/lib/review-queue.test.ts`). Acceptance criteria that need a person remain open.
 
 Why: "Updates overdue" is a quality metric ([VISION, metrics](../../../VISION.md)); "due-review" is a status in [02 §4.4](02-information-architecture.md#44-editorial-status-not-a-visitor-filter).
 

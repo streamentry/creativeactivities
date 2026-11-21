@@ -195,6 +195,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 
 ### GAME-061 · Daily shared card (P1, S2)
 
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 - **Why:** one shared daily item captures the habit pattern without guilt ([R4 §3 #1]; [R4 §8 #7]).
 - **What:** one picture puzzle a day, the same for everyone. An archive of past days stays. Result is a spoiler-free card: "Made 4 pairs with my grandson" ([R4 §3 #2]). Nothing is sent anywhere.
 - **Acceptance:** a missed day shows no message; the archive opens to any past day; the same date yields the same card for every user; no account and no notification.
@@ -262,6 +263,7 @@ Each is `new`, sits in the first two phases, and is the next to build after the 
 
 ### GAME-022 · Four together (P1, S2)
 
+- Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `/games/four-together/`). Acceptance criteria that need a person remain open.
 - **Why:** a grouping game with pictures and words, adult in look, with no timer. It is R4's Connections-style concept, renamed to avoid a trademark ([R4 §8 #12]).
 - **What:** four pictures; find the two or three that share a theme. Hints name the theme after a pause. A "show the group" button reveals the answer without penalty.
 - **Acceptance:** each group has a theme any reader would accept; no pass or fail; per-language category review passes before launch.

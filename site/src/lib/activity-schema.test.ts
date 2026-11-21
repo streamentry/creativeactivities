@@ -242,3 +242,13 @@ describe('activity card schema', () => {
     });
   });
 });
+
+describe('activity card review owner (PLAT-012)', () => {
+  const parseOwner = (overrides: Record<string, unknown>) => activityCardSchema.safeParse({ ...CARD, ...overrides });
+
+  it('is optional and takes only a role from the fixed set', () => {
+    expect(parseOwner({}).success).toBe(true);
+    expect(parseOwner({ reviewOwner: 'safety-reviewer' }).success).toBe(true);
+    expect(parseOwner({ reviewOwner: 'Jane Doe' }).success).toBe(false);
+  });
+});
