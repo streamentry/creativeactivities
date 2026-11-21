@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { REVIEWED_FIELDS, contentHash, normalizeValue, reviewedContent } from '../../scripts/content-hash-lib.mjs';
+import { CONTENT_FIELDS } from './card-versions';
 
 /** A card with every reviewed field set, as the front matter parser returns it. */
 const card = (overrides: Record<string, unknown> = {}) => ({
@@ -91,5 +92,11 @@ describe('content hash (PLAT-005)', () => {
 
   it('normalizes text to NFC so composed and decomposed accents match', () => {
     expect(normalizeValue('café')).toBe(normalizeValue('café'));
+  });
+});
+
+describe('reviewed fields and versioned fields', () => {
+  it('hash exactly the fields whose change needs a version bump (PLAT-005 and PLAT-007 share one list)', () => {
+    expect([...REVIEWED_FIELDS]).toEqual([...CONTENT_FIELDS]);
   });
 });
