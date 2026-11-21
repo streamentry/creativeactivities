@@ -91,7 +91,7 @@ Source: `EVENT_DICTIONARY` in `site/src/lib/track.ts`, the only place events are
 
 These events are sent through `dataLayer` to Google Tag Manager, and from there to Google Analytics 4 if the container is set up that way. The GA4 setup is in the Google console and is not in this repository (section 6).
 
-Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two pages built to open family photos, load no analytics at all, and `track()` does nothing there.
+Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two pages built to open family photos, load no analytics at all, and `track()` does nothing there. Picture puzzle (`/games/picture-puzzle/`), which accepts a family photo too, and the kids guides under `/kids/` (every language, and the section page) load no analytics either (maintainer decisions GAME-058 and CNT-880, 2026-11-21).
 
 ---
 
@@ -101,7 +101,7 @@ Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two
 
 | Origin | Used for | Where it loads | Integrity |
 |---|---|---|---|
-| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/` and its translations and `/games/scrapbook/`, and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
+| `https://www.googletagmanager.com` | Google Tag Manager loader (`gtm.js`) for container `GTM-5ZSV72WC` | Every page except `/games/photo-pairs/`, `/games/picture-puzzle/` and `/games/scrapbook/` (with their translations where they exist) and `/kids/` (every language), and only after the visitor chooses "Allow" (`Analytics.astro`, `lib/consent-runtime.ts`); consent mode starts all denied and ad storage stays denied; Tag Manager's automatic listeners and Custom HTML are blocklisted (`lib/consent.ts`) | No SRI. Google changes `gtm.js` for each container, so no fixed hash exists. Documented as an exception in `data-inventory.test.ts`. |
 | `https://*.googletagmanager.com`, `https://*.google-analytics.com`, `https://*.analytics.google.com` | Measurement requests and the image beacon, set by Google's tag | Pages with the tag. Allowed in `connect-src` and `img-src` in `public/_headers` | Not applicable (data requests) |
 
 ### 4b. Fonts and images
@@ -144,13 +144,13 @@ Photo pairs (`/games/photo-pairs/`) and Scrapbook (`/games/scrapbook/`), the two
 
 ## 5. Third parties on child-reachable and health-related pages
 
-TSA-011 acceptance says there is no third-party tracker on child-reachable or health-related pages. Gtm loads on every page except photo pairs, so it is on the caregiving, brain-health and activity guides, and on pages a child can reach. **This is open for the maintainer** (section 6, item 1). This inventory records the current state and does not change it.
+TSA-011 acceptance says there is no third-party tracker on child-reachable or health-related pages. Gtm loads on every page except Photo pairs, Picture puzzle, Scrapbook and the kids guides under `/kids/` (CNT-880, 2026-11-21), so it is on the caregiving, brain-health and activity guides, and on other pages a child can reach. **This is open for the maintainer** (section 6, item 1). This inventory records the current state and does not change it.
 
 ---
 
 ## 6. Open maintainer decisions
 
-1. **Analytics vendor (open maintainer decision).** Google Tag Manager (`GTM-5ZSV72WC`), which loads Google Analytics 4, runs on every page except photo pairs. `docs/specs/global/14-trust-safety-accessibility-privacy.md` (TSA-011) and `DESIGN.md` section 7 both call for no third-party trackers on child-reachable or health-related pages. Keep the vendor, remove it from the health and child pages, or move to a first-party measure. The website code will not add or remove a vendor without the maintainer's decision.
+1. **Analytics vendor (open maintainer decision).** Google Tag Manager (`GTM-5ZSV72WC`), which loads Google Analytics 4, runs on every page except the no-analytics pages in section 4a (Photo pairs, Picture puzzle, Scrapbook, and `/kids/`). `docs/specs/global/14-trust-safety-accessibility-privacy.md` (TSA-011) and `DESIGN.md` section 7 both call for no third-party trackers on child-reachable or health-related pages. Keep the vendor, remove it from the health and child pages, or move to a first-party measure. The website code will not add or remove a vendor without the maintainer's decision.
 2. **GA4 settings.** `Analytics.astro` says Google signals and ad personalization are off, but this is set in the Google console, which is not in the repository. Record the GA4 retention period and these settings in the console and the privacy notice before sign-off.
 3. **Cookies from Google's tag.** Confirm the cookie names in section 1 in a clean browser profile.
 4. **Sign-off.** Maintainer sign-off on this inventory is pending.
