@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { CRISIS_CHECKED_ON, CRISIS_PRINT_LINE, CRISIS_ROUTES } from './crisis-routes';
+import { CRISIS_CHECKED_ON, CRISIS_PRINT_LINE, CRISIS_ROUTES, crisisCheckedOn, type CrisisRoute } from './crisis-routes';
 
 /** L10N-009 and CNT-1003: every number is dated and sourced; nothing here is machine-translated or guessed. */
 const today = new Date().toISOString().slice(0, 10);
@@ -19,10 +19,12 @@ describe('crisis routes (CNT-1003, L10N-009)', () => {
       }
     });
 
-    it(`${r.region}: has a YYYY-MM-DD check date that is not in the future`, () => {
-      expect(r.checked).toMatch(/^\d{4}-\d{2}-\d{2}$/);
-      expect(new Date(`${r.checked}T00:00:00Z`).toISOString().slice(0, 10)).toBe(r.checked);
-      expect(r.checked <= today, `${r.region} checked ${r.checked} is in the future`).toBe(true);
+    it(`${r.region}: has no check date, or a real YYYY-MM-DD date that is not in the future`, () => {
+      const checked = r.checked;
+      if (checked === null) return;
+      expect(checked).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(new Date(`${checked}T00:00:00Z`).toISOString().slice(0, 10)).toBe(checked);
+      expect(checked <= today, `${r.region} checked ${checked} is in the future`).toBe(true);
     });
 
     it(`${r.region}: has a source field (an https URL or null)`, () => {
@@ -37,8 +39,34 @@ describe('crisis routes (CNT-1003, L10N-009)', () => {
     }
   }
 
-  it('shares one check date, which the page prints as "Numbers checked on"', () => {
-    for (const r of CRISIS_ROUTES) expect(r.checked, r.region).toBe(CRISIS_CHECKED_ON);
+  it('prints no check date while any numbered route lacks a recorded check and source', () => {
+    const unsourced = CRISIS_ROUTES.some((r) => r.number !== null && (r.checked === null || r.source === null));
+    if (unsourced) expect(CRISIS_CHECKED_ON).toBeNull();
+    else expect(CRISIS_CHECKED_ON).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+  });
+
+  describe('crisisCheckedOn', () => {
+    const route = (over: Partial<CrisisRoute>): CrisisRoute => ({
+      region: 'Somewhere', service: 'Line', number: '123', kind: 'helpline', lead: 'call', emphasis: '123', tail: '.',
+      checked: '2026-11-20', source: 'https://example.org/line', ...over,
+    });
+    const emergency = route({ number: null, service: null, kind: 'emergency', emphasis: null, checked: null, source: null });
+
+    it('gives the oldest date when every numbered route has a check and a source', () => {
+      expect(crisisCheckedOn([route({ checked: '2026-11-20' }), route({ checked: '2026-11-18' }), emergency])).toBe('2026-11-18');
+    });
+    it('gives null when a numbered route has a date but no source', () => {
+      expect(crisisCheckedOn([route({}), route({ source: null })])).toBeNull();
+    });
+    it('gives null when a numbered route has a source but no date', () => {
+      expect(crisisCheckedOn([route({}), route({ checked: null })])).toBeNull();
+    });
+    it('does not need a source for the local emergency services line', () => {
+      expect(crisisCheckedOn([route({}), emergency])).toBe('2026-11-20');
+    });
+    it('gives null when no route gives a number', () => {
+      expect(crisisCheckedOn([emergency])).toBeNull();
+    });
   });
 
   it('reports how many routes still have no official source recorded', () => {

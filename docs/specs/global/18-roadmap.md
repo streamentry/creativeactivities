@@ -67,7 +67,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | TSA-012 | Event allowlist and no health data | partial | Event allowlist and no health data: enforces PLAT-024; no health detail in analytics | PLAT-024 |
 | WEB-022 | Structured safety flags | partial | Structured safety flags: materials, supervision and food-as-material risk shown consistently | TSA-023 and TSA-024 (S2 vocabulary and rules) |
 | WEB-060 | Art-therapy boundary page | partial | Art-therapy boundary page: existing copy uses "therapeutic" and therapy-adjacent guides | TSA-028 |
-| WEB-061 | Crisis-safe route | partial | Crisis-safe route on pages that invite disclosure; UK, Ireland and US verified | CNT-1003 (country list), L10N-009 (owner) |
+| WEB-061 | Crisis-safe route | partial | Crisis-safe route on pages that invite disclosure; UK, Ireland and US listed; no check recorded with a source | CNT-1003 (country list), L10N-009 (owner) |
 | WEB-062 | Translation status and no-index for unreviewed copies | partial | Translation status and no-index for unreviewed copies: 189 machine-translated locale codes | L10N-033 (decision), L10N-020 |
 | TSA-035 | Corrections route and log | partial | Corrections route and log: wrong information needs a visible fix path | TSA-045, response targets (open decision 12) |
 | TSA-028 | Claims vocabulary and banned words | partial | Claims vocabulary and banned words: stops therapy, cure and cognitive claims; drives the CNT-909 title fix | TSA-031, L10N-007 |
@@ -332,7 +332,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-1000 | P0 | partial | Art-therapy boundary policy |
 | CNT-1001 | P0 | partial | Claim register and phrasing rules |
 | CNT-1002 | P0 | partial | Trauma-informed defaults |
-| CNT-1003 | P0 | partial | Crisis route by country (UK, Ireland, US checked; others unverified) |
+| CNT-1003 | P0 | partial | Crisis route by country (UK, Ireland, US listed; no check recorded with a source) |
 | CNT-1004 | P0 | partial | Reviewer roles and review record |
 | CNT-1020 | P1 | partial | Referral guides |
 

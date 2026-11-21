@@ -108,6 +108,8 @@ Any activity that invites personal reflection, journaling about feelings, or rem
 
 **CNT-1003 · Crisis route by country** · P0 · Phase S1 · Status partial · Pillars: CALM, CARE (caregivers), GROW (review)
 
+Status note (2026-11-22, maintainer decision): the site no longer prints "Numbers checked on 2026-11-15", because that date was recorded without any source. Each route's `checked` is now null, and `crisisCheckedOn()` in `site/src/data/crisis-routes.ts` prints a date only when every route that gives a number has both a check date and an official source (tested in `crisis-routes.test.ts`). The numbers themselves are unchanged. Next step for a person: check each number on the service's own page, record the source and the date.
+
 Status note (2026-11-21): the three routes (988 in the US, Samaritans 116 123 in the UK and Ireland, local emergency services elsewhere) are now a data file with a check date and a source field; no source URL is recorded yet and no number was re-checked. The country table and directory fallback are not built.
 
 Why: R3 §4.4 found no creative-activity product with a visible crisis route on its activity pages, and says to verify every number before publishing. [R3 §4.4, §6]
@@ -234,7 +236,7 @@ This list is binding. A request to add any of these is a product decision, not a
 | CNT-1000 | Art-therapy boundary policy | P0 | S2 | partial |
 | CNT-1001 | Claim register and phrasing rules | P0 | S2 | partial |
 | CNT-1002 | Trauma-informed defaults | P0 | S2 | new |
-| CNT-1003 | Crisis route by country (UK, Ireland, US checked; others unverified) | P0 | S2 | partial |
+| CNT-1003 | Crisis route by country (UK, Ireland, US listed; no check recorded with a source) | P0 | S2 | partial |
 | CNT-1004 | Reviewer roles and review record | P0 | S2 | partial |
 | CNT-1010 to 1019 | Activity families (section 8) | P1 to P2 | S1 to S3 | new |
 | CNT-1020 | Referral guides | P1 | S2 | partial |
