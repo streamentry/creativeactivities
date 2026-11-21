@@ -134,7 +134,7 @@ The person chooses some of their own photos. The game shows them in a memory-mat
 | Data item | About | Stored where | Sent off the device? | Kept for | Special category? |
 |---|---|---|---|---|---|
 | Photos the person explicitly picks (up to 24 in the app) | Reader, and the people in the photos | App: working copies in the app's support folder (`family_photos_v1/`, see [data-inventory.md](../specs/global/data-inventory.md) section 2b). Web: local to the browser | No. TSA-015 says photos never leave the device unless the person chooses | Until the person removes them ([privacy choices](/privacy-choices/)) | Photos of people can show health or care needs, so treat as sensitive |
-| Optional captions on the photos (app) | Reader | Same folder, sidecar file | No | As above | Free text could hold a health detail; the app should not analyse it |
+| Optional captions on the photos (app) | Reader | Same folder, sidecar file | No | As above | Free text could hold a health detail; the app should not analyze it |
 | Analytics events | None | None. Photo pairs loads no analytics and `track()` does nothing on that page (data-inventory section 3) | No | Not applicable | No |
 
 ### 5. Necessity
