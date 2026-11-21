@@ -185,6 +185,8 @@ Acceptance:
 
 Depends on: APP-001, GM-024.
 
+Status note (2026-11-22): the filter rules, a shared fixture and the finder screen are built on `specs/app-005-finder`. The fixture is generated from the website finder by `site/scripts/export-finder-fixture.ts` (56 cards, 38 queries) and checked by `test/features/finder`. The screen is not in navigation yet: the app bundles only picture data (id, label, drawing), with no time, materials, setting, group, mess, energy, supervision, sense or safety fields, so there is nothing to filter. Bundling card facts as a versioned asset, with no network, is a decision for the maintainer. The airplane-mode check is a widget test with HTTP disabled. The device airplane-mode and screen-reader checks stay open.
+
 Risks / not doing: Do not add an opaque "match score" ([DESIGN](../../../DESIGN.md) section 3).
 
 ### APP-006 · Helper mode on one device

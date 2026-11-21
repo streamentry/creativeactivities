@@ -2189,5 +2189,277 @@
   "materialsSaveFailed": "This tick could not be saved on this phone. Please try again.",
   "@materialsSaveFailed": {
     "description": "Shown in the materials checklist when the device refuses to save a tick."
+  },
+  "finderTitle": "Find an activity",
+  "@finderTitle": {
+    "description": "Title of the finder screen that lists activities by fit."
+  },
+  "finderIntro": "Choose what suits the moment. Each activity shows why it fits. Your choices stay on this screen only.",
+  "@finderIntro": {
+    "description": "Short intro under the finder title. Says choices are not saved or sent."
+  },
+  "finderHeadingTime": "How long",
+  "@finderHeadingTime": {
+    "description": "Heading for the time filter group in the finder."
+  },
+  "finderHeadingMaterials": "What to buy",
+  "@finderHeadingMaterials": {
+    "description": "Heading for the materials filter group in the finder."
+  },
+  "finderHeadingType": "Kind of activity",
+  "@finderHeadingType": {
+    "description": "Heading for the activity kind filter group in the finder."
+  },
+  "finderHeadingSetting": "Where you sit",
+  "@finderHeadingSetting": {
+    "description": "Heading for the setting filter group in the finder."
+  },
+  "finderHeadingPeople": "Who takes part",
+  "@finderHeadingPeople": {
+    "description": "Heading for the group size filter in the finder."
+  },
+  "finderHeadingMess": "Mess",
+  "@finderHeadingMess": {
+    "description": "Heading for the mess filter group in the finder."
+  },
+  "finderHeadingEnergy": "Energy",
+  "@finderHeadingEnergy": {
+    "description": "Heading for the energy filter group in the finder."
+  },
+  "finderHeadingSenses": "Senses",
+  "@finderHeadingSenses": {
+    "description": "Heading for the senses filter group in the finder."
+  },
+  "finderHeadingWords": "Words",
+  "@finderHeadingWords": {
+    "description": "Heading for the without-words filter in the finder."
+  },
+  "finderHeadingHelp": "Your help",
+  "@finderHeadingHelp": {
+    "description": "Heading for the supervision filter group in the finder."
+  },
+  "finderHeadingAvoid": "Leave these out",
+  "@finderHeadingAvoid": {
+    "description": "Heading for the safety flags the visitor can leave out."
+  },
+  "finderTimeFifteen": "About 15 minutes",
+  "@finderTimeFifteen": {
+    "description": "Finder option: the activity can start within about 15 minutes."
+  },
+  "finderTimeThirty": "Up to 30 minutes",
+  "@finderTimeThirty": {
+    "description": "Finder option: the activity can start within 30 minutes."
+  },
+  "finderMaterialsNone": "Nothing to buy",
+  "@finderMaterialsNone": {
+    "description": "Finder option: only free materials are needed."
+  },
+  "finderMaterialsLow": "A few low-cost things",
+  "@finderMaterialsLow": {
+    "description": "Finder option: low-cost materials are fine."
+  },
+  "finderTypeArt": "Painting and drawing",
+  "@finderTypeArt": {
+    "description": "Finder option: painting and drawing activities."
+  },
+  "finderTypeCraft": "Making and crafts",
+  "@finderTypeCraft": {
+    "description": "Finder option: making things and crafts."
+  },
+  "finderTypeNature": "Plants and nature",
+  "@finderTypeNature": {
+    "description": "Finder option: plants and nature activities."
+  },
+  "finderTypeMusic": "Music",
+  "@finderTypeMusic": {
+    "description": "Finder option: music activities."
+  },
+  "finderTypeSensory": "Touch and texture",
+  "@finderTypeSensory": {
+    "description": "Finder option: activities with touch and texture."
+  },
+  "finderTypeConversation": "Stories and talk",
+  "@finderTypeConversation": {
+    "description": "Finder option: activities built around talk and stories."
+  },
+  "finderSettingSeated": "Seated",
+  "@finderSettingSeated": {
+    "description": "Finder option: the activity works while seated."
+  },
+  "finderSettingBedside": "Bedside",
+  "@finderSettingBedside": {
+    "description": "Finder option: the activity works at a bedside table."
+  },
+  "finderSettingOutdoors": "Outdoors",
+  "@finderSettingOutdoors": {
+    "description": "Finder option: the activity works outdoors."
+  },
+  "finderPeopleOneToOne": "Two of you",
+  "@finderPeopleOneToOne": {
+    "description": "Finder option: the activity is for two people."
+  },
+  "finderPeopleSmallGroup": "A small group",
+  "@finderPeopleSmallGroup": {
+    "description": "Finder option: the activity suits a small group."
+  },
+  "finderPeopleIntergenerational": "With grandchildren",
+  "@finderPeopleIntergenerational": {
+    "description": "Finder option: the activity suits people of different ages together."
+  },
+  "finderMessNone": "No mess at all",
+  "@finderMessNone": {
+    "description": "Finder option: the activity makes no mess."
+  },
+  "finderMessLow": "A little is fine",
+  "@finderMessLow": {
+    "description": "Finder option: a little mess is acceptable."
+  },
+  "finderEnergyLow": "Low: sitting still",
+  "@finderEnergyLow": {
+    "description": "Finder option: the activity needs little movement."
+  },
+  "finderSenseSight": "Looking at things",
+  "@finderSenseSight": {
+    "description": "Finder option: the activity uses looking at things."
+  },
+  "finderSenseTouch": "Feeling textures",
+  "@finderSenseTouch": {
+    "description": "Finder option: the activity uses touch and textures."
+  },
+  "finderSenseHearing": "Sounds and music",
+  "@finderSenseHearing": {
+    "description": "Finder option: the activity uses sounds or music."
+  },
+  "finderSenseSmell": "Scents",
+  "@finderSenseSmell": {
+    "description": "Finder option: the activity uses scents."
+  },
+  "finderSenseMovement": "Moving about",
+  "@finderSenseMovement": {
+    "description": "Finder option: the activity involves gentle movement."
+  },
+  "finderSenseCalm": "Something calmer, with less to see or hear",
+  "@finderSenseCalm": {
+    "description": "Finder option: the activity has a calmer version with less to see or hear."
+  },
+  "finderWordsNone": "Works without words",
+  "@finderWordsNone": {
+    "description": "Finder option: the activity has a version that needs no words."
+  },
+  "finderHelpNearby": "I can stay nearby, not help hands-on",
+  "@finderHelpNearby": {
+    "description": "Finder option: the helper can stay nearby and does not need to help with hands."
+  },
+  "finderAvoidSmallParts": "Small parts",
+  "@finderAvoidSmallParts": {
+    "description": "Finder option: leave out activities with small parts."
+  },
+  "finderAvoidSharpTool": "Sharp tools",
+  "@finderAvoidSharpTool": {
+    "description": "Finder option: leave out activities with sharp tools."
+  },
+  "finderAvoidHeat": "Heat",
+  "@finderAvoidHeat": {
+    "description": "Finder option: leave out activities that use heat."
+  },
+  "finderAvoidAdhesive": "Glue or tape",
+  "@finderAvoidAdhesive": {
+    "description": "Finder option: leave out activities that use glue or tape."
+  },
+  "finderAvoidSkinContact": "Paint or materials on skin",
+  "@finderAvoidSkinContact": {
+    "description": "Finder option: leave out activities that put paint or materials on skin."
+  },
+  "finderResultsHeading": "Activities that fit",
+  "@finderResultsHeading": {
+    "description": "Heading above the finder results list."
+  },
+  "finderWhyFits": "Why it fits",
+  "@finderWhyFits": {
+    "description": "Label above the reasons an activity fits the choices."
+  },
+  "finderEmptyTitle": "Nothing fits all of these choices",
+  "@finderEmptyTitle": {
+    "description": "Heading shown when no activity matches every choice."
+  },
+  "finderEmptyBody": "Clear one or two choices to see more activities. Nothing you chose is saved or sent.",
+  "@finderEmptyBody": {
+    "description": "Explains how to widen the search when no activity matches."
+  },
+  "finderClearAll": "Clear all choices",
+  "@finderClearAll": {
+    "description": "Button that clears every finder choice to widen the search."
+  },
+  "finderReasonStartUnder15": "Can start in under 15 minutes",
+  "@finderReasonStartUnder15": {
+    "description": "Reason shown under an activity that can start in under 15 minutes."
+  },
+  "finderReasonStartUnder30": "Can start in under 30 minutes",
+  "@finderReasonStartUnder30": {
+    "description": "Reason shown under an activity that can start in under 30 minutes."
+  },
+  "finderReasonNothingToBuy": "Nothing to buy",
+  "@finderReasonNothingToBuy": {
+    "description": "Reason shown when an activity needs nothing to buy."
+  },
+  "finderReasonNeedsLowCostThings": "Needs only low-cost things",
+  "@finderReasonNeedsLowCostThings": {
+    "description": "Reason shown when an activity needs only low-cost things."
+  },
+  "finderReasonWorksSeated": "Works seated",
+  "@finderReasonWorksSeated": {
+    "description": "Reason shown when an activity works while seated."
+  },
+  "finderReasonWorksBedside": "Works bedside",
+  "@finderReasonWorksBedside": {
+    "description": "Reason shown when an activity works at a bedside."
+  },
+  "finderReasonWorksOutdoors": "Works outdoors",
+  "@finderReasonWorksOutdoors": {
+    "description": "Reason shown when an activity works outdoors."
+  },
+  "finderReasonNoMess": "No mess",
+  "@finderReasonNoMess": {
+    "description": "Reason shown when an activity makes no mess."
+  },
+  "finderReasonLittleOrNoMess": "Little or no mess",
+  "@finderReasonLittleOrNoMess": {
+    "description": "Reason shown when an activity makes little or no mess."
+  },
+  "finderReasonMostlySittingStill": "Mostly sitting still",
+  "@finderReasonMostlySittingStill": {
+    "description": "Reason shown when an activity is mostly done sitting still."
+  },
+  "finderReasonGoodToLook": "Good to look at",
+  "@finderReasonGoodToLook": {
+    "description": "Reason shown when an activity is good to look at."
+  },
+  "finderReasonSomethingToHandle": "Something to handle",
+  "@finderReasonSomethingToHandle": {
+    "description": "Reason shown when an activity has something to handle."
+  },
+  "finderReasonUsesSoundsOrMusic": "Uses sounds or music",
+  "@finderReasonUsesSoundsOrMusic": {
+    "description": "Reason shown when an activity uses sounds or music."
+  },
+  "finderReasonHasScents": "Has scents to enjoy",
+  "@finderReasonHasScents": {
+    "description": "Reason shown when an activity has scents to enjoy."
+  },
+  "finderReasonInvolvesGentleMovement": "Involves gentle movement",
+  "@finderReasonInvolvesGentleMovement": {
+    "description": "Reason shown when an activity involves gentle movement."
+  },
+  "finderReasonHasCalmerVersion": "Has a calmer version",
+  "@finderReasonHasCalmerVersion": {
+    "description": "Reason shown when an activity has a calmer version."
+  },
+  "finderReasonWorksWithoutWords": "Works without words",
+  "@finderReasonWorksWithoutWords": {
+    "description": "Reason shown when an activity works without words."
+  },
+  "finderReasonWorksWithYouNearby": "Works with you nearby",
+  "@finderReasonWorksWithYouNearby": {
+    "description": "Reason shown when an activity works with the helper nearby."
   }
 }
