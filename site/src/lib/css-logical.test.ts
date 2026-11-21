@@ -36,7 +36,13 @@ export function physicalDeclarations(css: string): string[] {
  * declaration exactly as written and why direction does not apply. A stale
  * entry fails the test, so the list cannot quietly grow.
  */
-const ALLOWLIST: { file: string; declaration: string; reason: string }[] = [];
+const ALLOWLIST: { file: string; declaration: string; reason: string }[] = [
+  {
+    file: 'styles/studio-home.css',
+    declaration: 'left: 50%',
+    reason: 'Centers the washi tape with translateX(-50%); centering is the same in both directions, and inset-inline-start would push it off center on a right-to-left page.',
+  },
+];
 
 function styleFiles(): string[] {
   return readdirSync(SRC, { recursive: true })
