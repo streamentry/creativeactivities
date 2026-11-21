@@ -11,7 +11,7 @@ from `HELD_FROM_INDEX` in `site/src/i18n/locales.ts`.
 The spend gate for every language is a maintainer decision (day-30 rule, L10N-002). No
 review budget is committed beyond it without that decision.
 
-Summary: app strings complete 50 of 50; website UI complete 2 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
+Summary: app strings complete 50 of 50; website UI complete 3 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
 
 <!-- cspell:disable -->
 
@@ -55,7 +55,7 @@ Summary: app strings complete 50 of 50; website UI complete 2 of 50; store listi
 | 36 | Assamese | `as` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 37 | Romanian | `ro` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 38 | Nepali | `ne` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 39 | Javanese | `jv` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 39 | Javanese | `jv` | yes | yes | yes | no | no | yes | maintainer decision |
 | 40 | Sundanese | `su` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 41 | Igbo | `ig` | yes | yes | yes | no | no | yes | maintainer decision |
 | 42 | Zulu | `zu` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
