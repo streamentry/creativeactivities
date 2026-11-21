@@ -7,16 +7,22 @@
     "homeLabel": "Qızıl anlar ev",
     "mainNav": "Əsas",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Qızıl anlar: çay fincanı, günəbaxan və itin böyük, dost şəkilləri",
+    "defaultImageAlt": "Creative Activities: ایری و دوستانه‌ی گوندلیک شئیلر ائتمک و ائتمک اوچون بیر بؤیوک رسم‌لر",
     "languages": "Dil",
     "englishOnly": "(İngilis dili)",
     "machineTranslated": "Bu səhifə avtomatik olaraq tərcümə edilib və hələ də ana dilində danışan şəxs tərəfindən yoxlanılmayıb.",
     "readOriginal": "Orijinalı ingilis dilində oxuyun",
     "nav": {
+      "find": "Find an activity",
       "games": "Oyunlar",
       "activities": "Fəaliyyətlər",
       "caregiving": "Baxım",
-      "brainHealth": "Beyin sağlamlığı"
+      "brainHealth": "Beyin sağlamlığı",
+      "crafts": "ال‌ایشلری",
+      "kids": "اوشاقلار",
+      "together": "بیرگه",
+      "creativeCalm": "یاراتیجی آرامیش",
+      "search": "جستجو"
     },
     "faqTitle": "Suallar və cavablar",
     "breadcrumb": "Çörək qırıntıları",
@@ -27,7 +33,32 @@
       "label": "Mətn ölçüsü",
       "smaller": "Standart mətn",
       "larger": "Daha böyük mətn",
-      "contrast": "Daha yüksək kontrast"
+      "contrast": "Daha yüksək kontrast",
+      "colors": "رنگلر",
+      "light": "روشن",
+      "dark": "تیره",
+      "device": "بو جهاز ایله ائیینی",
+      "lineLength": "ستیر اوزونلوغو",
+      "standardLines": "معمولی",
+      "shorterLines": "قیسا ستیرلر",
+      "spacing": "فاصله",
+      "standardSpacing": "معمولی",
+      "moreSpace": "داها چوخ فاصله"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 fəaliyyət ideyası",
     "lateStage": "Son mərhələdəki fəaliyyətlər",
     "printable": "Çap edilə bilən fəaliyyətlər",
-    "allActivities": "Bütün fəaliyyətlər",
+    "allActivities": "بوتون فعالیت راهنماları",
     "forCaregivers": "Baxıcılar üçün",
     "playTogether": "Birlikdə necə oynamaq olar",
     "selfCare": "Özünüz üçün qayğı",
@@ -54,24 +85,34 @@
     "app": "Qızıl anlar proqramı",
     "appHelp": "Proqram yardımı",
     "support": "Dəstək",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Hüquqi",
     "sitePrivacy": "Veb sayt məxfiliyi",
     "appPrivacy": "Tətbiq məxfilik siyasəti",
     "privacyChoices": "Məxfilik seçimləri",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Şərtlər və proqram lisenziyası",
     "safety": "Təhlükəsizlik və təyinatlı istifadə",
     "accessibility": "Əlçatanlıq",
     "healthNotice": "Sağlamlıq haqqında məlumat bildirişi",
     "allLegal": "Bütün hüquqi məlumatlar",
     "note": "Creative Activities əyləncə üçün sadə paylaşılan fəaliyyətlər təklif edir. Bu, tibbi məsləhət, test və ya müalicə deyil və heç kimə diaqnoz qoymur, ölçmür və qiymətləndirmir. Sağlamlığa dair suallar üçün həkimlə danışın. Təcili vəziyyətdə 911-ə zəng edin.",
-    "publisher": "Cloudjet Solutions Pte tərəfindən nəşr edilmişdir. Ltd."
+    "publisher": "Cloudjet Solutions Pte tərəfindən nəşr edilmişdir. Ltd.",
+    "crafts": "هر یاشدا ال‌ایشلری",
+    "kids": "اوشاقلار اوچون فعالیتلر",
+    "together": "بیرگه ائتمک اوچون فعالیتلر",
+    "creativeCalm": "یاراتیجی آرامیش",
+    "dementiaActivities": "دمانس اولان آدamlar اوچون فعالیتلر"
   },
   "home": {
-    "title": "Demans və Alzheimer Oyunları və Fəaliyyətləri | Qızıl anlar",
-    "description": "Onlayn oynamaq üçün pulsuz, zərif şəkilli oyunlar və demans və ya Alzheimer xəstələri və onların baxıcıları üçün fəaliyyət ideyaları.",
+    "title": "بیرینه باخان هر کس اوچون یاراتیجی فعالیتلر",
+    "description": "بیرینه باخان هر کس اوچون پولسوز یاراتیجی فعالیتلر: ال‌ایشلری، اوشاقلار اوچون شیلر، بیرگه ائتمک اوچون فعالیتلر و آرام یاراتیجی فیکیرلر.",
     "eyebrow": "Pulsuz · Reklam yoxdur · Qeydiyyat yoxdur · Taymer və ya xal yoxdur",
-    "h1": "Demanslı İnsanlar üçün Zərif Oyunlar və Fəaliyyətlər",
-    "lede": "Sadə şəkil oyunları, tanış fotoşəkillər və birlikdə həzz almaq üçün fəaliyyətlər - öz sürətinizlə.",
+    "h1": "بیرگه بیر شئی ائدین",
+    "lede": "آدama، آنا و الینیزدهکی شیلره اویغون بیر فعالیت تاپین. آسان ال‌ایشلری، اوشاقلارın رسمی، بیرگه ائتمک شیلر و آرام یاراتیجی فیکیرلر، آسانلاشدیریلمیش ورسیالار و چاپ ائتمک اوچون بیر کارت ایله. ایستدیینیز وخت دایانین.",
     "playGame": "Oyun Oyna",
     "findIdeas": "Fəaliyyət ideyaları tapın",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 fəaliyyət ideyası",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Erkən mərhələ",
         "text": "Kiçik düzəlişlərlə sevdiklərini etməyə davam edin: hobbilər, gəzintilər, söz oyunları və birlikdə planlaşdırma.",
         "label": "İlkin mərhələdəki fikirlər"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Orta mərhələ",
         "text": "Addımlara bölünmüş sadə, tanış tapşırıqlar: qatlama, çeşidləmə, musiqi, şəkil oyunları və qısa gəzintilər.",
         "label": "Orta səviyyəli fikirlər"
@@ -124,10 +165,10 @@
         "label": "Sonrakı fikirlər"
       }
     ],
-    "specificHtml": "Xüsusi bir şey axtarırsınız? cəhd edin <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər və oyunlar</a>, <a href=\"/activities/memory-games/\">incə yaddaş oyunları</a>, <a href=\"/activities/trivia/\">asan trivia</a> və ya <a href=\"/activities/puzzles/\">bulmacalar</a>.",
+    "specificHtml": "دقیق بیر شئی آختاریرسینیز؟ <a href=\"/dementia-activities/\">Alzheimer اوچون فعالیتلر و اویونلار</a>، <a href=\"/together/puzzles-and-table-games/\">بولمه‌لر و masa اویونلاری</a>، <a href=\"/together/conversation-games-for-all-ages/\">صحبت اویونلاری</a> یا <a href=\"/together/puzzles-and-table-games/\">بولمه‌لر</a> ایله دنیایین.",
     "approachEyebrow": "Bizim yanaşmamız",
-    "approachTitle": "Yaddaş testi deyil, paylaşılan fəaliyyət",
-    "approachLede": "Bir çox \"zehin oyunları\" sürət, xallar və zolaqlar ətrafında qurulur. Bir imtahan kimi hiss edə bilən demans ilə yaşayan biri üçün. Biz bunun əksini qurduq.",
+    "approachTitle": "بیرگه بیر فعالیت، امتحان دگیل",
+    "approachLede": "چوخ “بیین اویونلاری” سورعت، اوپوش و آردیجیل قازانماق اوزرینه قورولوب. یورغون، ساغلام اولمایان یا دمانس ایله یاشayan بیری اوچون بو، بیر امتحان کیمی حس اولا بیلر. بیز ترسینی قورموشuq.",
     "approachLink": "Niyə biz onu bu şəkildə dizayn edirik",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "İmtina etmənin ümumi səbəbləri və sonra yenidən cəhd etməyin yumşaq yolları."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Planşetin qurulması",
-        "text": "Daha böyük mətn, daha az fasilə və tək sadə ev ekranı."
+        "href": "/activities/group-art-activities/",
+        "title": "قروپ رسم فعالیتلری",
+        "text": "بیر مسا اطرافیندا بیر نئچه نفر اوچون بیرگه لاyihalar، هر بیر نفرین بیر ایشی اولار."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Pulsuz çap edilə bilən fəaliyyətlər",
-        "text": "Böyük çaplı söz axtarışları, rəngləmə səhifələri, bingo və danışıq kartları."
+        "href": "/activities/ideas/",
+        "title": "۱۰۱ فعالیت فیکری",
+        "text": "ساده فیکیرلر، الینیزده نه وار و نه قدر انرژی وار، اونا گوره سیراланمیش."
       }
     ],
     "researchTitle": "Beyin sağlamlığı: tədqiqat həqiqətən nə deyir",
@@ -185,16 +226,16 @@
     "aboutApp": "Proqram haqqında",
     "faq": [
       {
-        "q": "Demanslı insanlar üçün yaxşı oyunlar hansılardır?",
-        "a": "Yaxşı oyunlar sadə, tanış və təzyiqsizdir: uyğunlaşmaq üçün böyük şəkillər, çeşidləmə, asan yapışqanlar, tanınmış kəlamları bitirmək, rəngləmə, şəkil binqo və danışıq kartları. Ən yaxşı seçim bu gün insanın zövq aldığı seçimdir. Taymerlərdən, ballardan və sınaq kimi hiss edilən hər şeydən çəkinin."
+        "q": "یاشی بؤیوک آدamlar اوچون یاخشی اویونlar نهدیر؟",
+        "a": "یاخشی اویونlar ساده، تانیش و تزیقسیز اولور: قاباقکی شکیللرین اوست‌اوستی گلمه‌سی، ساییرمالار، آسان بولمه‌لر، تانیش ایفاده‌لری تاماملاماق، بویاماق، شکیللی بینگو و صحبت کارتلاری. بو، بیر چوخ یاشلی آدam اوچون، او جوملدن دمانس ایله یاشayanlar اوچون اویغوndur. ان یاخشی سئچیم، بوگون آدamın خوشuna گلن‌دیر. تایمر، اوپوش و امتحان کیمی حس ائدن هر شیدن قاچین."
       },
       {
-        "q": "Bu demans oyunları pulsuzdur?",
+        "q": "بو اویونlar پولسوزdur؟",
         "a": "Bəli. Creative Activities-da çap edilə bilən hər bir oyun pulsuzdur, heç bir hesab olmadan, qeydiyyatdan keçmədən və ya endirmədən. Oyunlar telefonda, planşetdə və ya kompüterdə veb brauzerdə işləyir."
       },
       {
         "q": "Beyin oyunları demansın qarşısını alırmı?",
-        "a": "Demansın qarşısını alan heç bir oyun göstərilməyib və Qızıl Anlar heç bir şeyi müalicə etmək və ya qarşısını almaq iddiasında deyil. Oyunlarımız əylənmək və birlikdə vaxt keçirmək üçündür. Beyin sağlamlığı bölməmiz araşdırmaların nələri etdiyini və göstərmədiyini izah edir."
+        "a": "هیچ بیر اویونون دمانسین قاباغینی آلدیغی گؤسترilmyib، و Creative Activities هیچ شیینین درمان یا قاباغینı آلدیغینı ایddia ائtmir. بizim اویونlarımız ایللنmə و بیرگه واختiçin‌dir، و هیچ bir فعالیت صفحه‌سی ساغلاملیق ایddiası ائtmir."
       },
       {
         "q": "Bu oyunlar Alzheimer xəstəsi üçün uyğundurmu?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Qızıl anları kim edir?",
-        "a": "Creative Activities internetdə və pulsuz proqram olaraq ailələr və baxıcılar üçün sakit, böyüklər üçün şəkil fəaliyyətləri edən kiçik bir komandadır. Biz klinisyen deyilik və burada heç bir şey tibbi məsləhət deyil."
+        "a": "Creative Activities هر کیم بیرینه باخیرسا اوچون، وب‌ده و پولسوز بیر اپ کیمی، آرام، بؤیوکلر اوچون یاراتیجی فعالیتلر ائدن کیچیک بیر تیمدیر. بیز کلینیسین دگیلik، و بورada هئچ بیر شی تibbi مشورت دگیل."
+      }
+    ],
+    "groupsEyebrow": "یولوnuzu تاپین",
+    "groupsTitle": "دؤرد نؤع یاراتیجی فعالیت",
+    "groupsLede": "کیمله و نه ایله اولدوغونuza و الینizdeki شیلره اویغون قروپدan باشلayın. هر صفحه‌ده آسانلاشدیریلمیش ورسیالar و تehlükesizlik قeydlері وار.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "ال‌ایشلری",
+        "text": "کاغذ، بویa، گری‌شیلmiş و فصلی لاyihalar، هر بیری اوچون بیر آسان ورسیا ایله.",
+        "label": "ال‌ایشلرینه باخین"
+      },
+      {
+        "href": "/kids/",
+        "title": "اوشاقلار",
+        "text": "اوشاقlar اوچون رسم و اویun، یاننda بیر بؤیوk و آیدین تehlükesizlik قeydlری ایله.",
+        "label": "اوشاقلارın فعالیتlerinə باخین"
+      },
+      {
+        "href": "/together/",
+        "title": "بیرگه",
+        "text": "صحبت، بولمه‌لر، هاوا وaxtı و نسیللر آراسیnda یaxın qalmaq yollarی.",
+        "label": "بیرگه ائدیلهجک شیlerə باخین"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "یاراتیجی آرامیش",
+        "text": "بیر قلم، بیر صفحه یا بیر ماهنی ایله یavaş، ساکیت یاراتیجی آنlar. تerapi دگیل.",
+        "label": "یاراتیجی آرامیشا باخین"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Çap edilə bilər",
     "play": "Oyna {name} →",
     "readGuide": "Bələdçi oxuyun"
+  },
+  "listen": {
+    "listenSteps": "addımları دیناین",
+    "pause": "دایاندیر",
+    "resume": "davam ات",
+    "stop": "دایانین",
+    "speed": "سورعت",
+    "normal": "عادی",
+    "slower": "داها یavaş",
+    "reading": "addımlar بلند اوخونور.",
+    "paused": "دایاندی. داوام ائتmək اوچون Resume-u basin.",
+    "note": "جهازینیzin اؤز سسini ایشلدیر. بعضی جهازlar متنی سسlendirmک اوچون اؤز ایستehsalçısına göndərir.",
+    "listen": "دینله",
+    "stepLabel": "{n} نömreli addımı دینله",
+    "stopStep": "{n} نömreli addımı دایandır"
   },
   "playCta": {
     "title": "Zərif oyuna hazırsınız?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Fəaliyyətlər",
-      "title": "Demans olan insanlar üçün fəaliyyətlər",
-      "seo": "Demanslı İnsanlar üçün Fəaliyyətlər: Mərhələ ilə İdeyalar",
-      "description": "Hər mərhələdə demensiya ilə yaşayan insanlar üçün fəaliyyət ideyaları: musiqi, xatirələr, gündəlik tapşırıqlar, duyğusal anlar, sənətkarlıq, açıq havada və pulsuz.",
-      "lede": "Mənalı fəaliyyət rahatlıq, məqsəd və ya bir anlıq əlaqə gətirən hər şeydir. İnsanın həmişə həzz aldığı şeydən başlayın və onu bu günə uyğunlaşdırın."
+      "label": "فعالیت راهنماları",
+      "title": "فعالیت راهنماları",
+      "seo": "فعالیت راهنماları: فیکیرلر، رسم لوازیمی و باشلاماq یollar",
+      "description": "بیرینه ائدهجیiniz یاراتیجی فعالیتlər اوچون ساده راهنماlar: ساده فیکیرlər، بودجه‌ yə اویغون رسم لوازیمی، قروپ رسمی، حرفلər، خاطیرلر و رسم تerapisi ایzahı.",
+      "lede": "بیرینه ایله بیر فعالیت سئچمک و باشlamاq اوچون قیسا و عملی راهنمالar، یاشی و قابلیتی نه اولورسا اولسون."
+    },
+    "crafts": {
+      "label": "ال‌ایشلری",
+      "title": "هر یاشدا ال‌ایشلری",
+      "seo": "هر یاش اوچون آسان ال‌ایشلری، آسانلاشدیریلمیش ورسیالarla",
+      "description": "بؤیوکلر، اوشاقlar و ailələr اوچون آسان ال‌ایشلری: کاغذ، بویاما، گری‌شیلmiş و فصلی ال‌ایشلری، توتماق و اوتوروب ائتمک اوچون آسانلاشدیریلمیش ورسیالarla و خاص بیر باجاریق گرکمه‌دن.",
+      "lede": "بیر چوخ ائوde اولان شیlerdən باشلayan ال‌ایشلری، هر بiri اوچون بیر آسان ورسیا ایله، هر کسین بیر شئی ائتمه‌سی اوچون."
+    },
+    "kids": {
+      "label": "اوشاقلار",
+      "title": "اوشاقلار اوچون یاراتیجی فعالیتlər",
+      "seo": "اوشاقlar اوچون یاراتیجی فعالیتlər: رسم، حسی و آرام",
+      "description": "اوشاقlar اوچون یاراتیجی فعالیتlər: کیچیک اوشاqlar اوچون رسم، پروسس رسمی، حسی اویun، یاغیشlı گون ال‌ایشlری و آرامlamaq فیکیرlری، تehlükesizlik قeydlری و حسی ehtiyaclar اوچون ورسیالarla.",
+      "lede": "فرقlی یاش و ehtiyaclardaکی اوشاqlar اوچون رسم و اویun فیکیرlری، آیدین تehlükesizlik قeydlری و یاننda بیر بؤیوk ایله."
+    },
+    "together": {
+      "label": "بیرگه",
+      "title": "بیرگه ائدیلهجک فعالیتlər",
+      "seo": "بیرگه ائدیلهجک فعالیتlər، نسیللر آراسیnda",
+      "description": "ایki یا داها چوخ نسیل اوچون فعالیتlər: صحبت اویunlari، بولمه‌lər، هاوا وaxtı، بؤیوkanaلار و نوه‌lər اوچون ال‌ایشlری، و اوزاqdan یaxın qalmaq yolları.",
+      "lede": "آتا، آنا، اوشاq یا دوستla، ائوde، هاواda، زیارتde یا اوزاqdan وaxt پaylaşماq فیکیرlری."
+    },
+    "creative-calm": {
+      "label": "یاراتیجی آرامیش",
+      "title": "یاراتیجی آرامیش",
+      "seo": "یاراتیجی آرامیش: دینجلدیجی رسم و فعالیتlər",
+      "description": "بؤیوklar و باخیجیlar اوچون دینجلدیجی یاراتیجی فعالیتlər: دیقتli رسم، ژورنال یazmaq، موسیقی، حسی آنlar و ساکیت گونorta‌lار. یاراتیجی فعالیت، تerapi دگیل.",
+      "lede": "بیر قلم، بیر صفحه یا بیر ماهنی ایله یavaş ائتmک یollari. بونlar یاراتیجی فعالیتlərdir، تerapi دگیل، و هئچ بیر باجاریق توllاب‌ماz."
     },
     "caregiving": {
-      "label": "Baxım",
-      "title": "Qulluq bələdçiləri",
-      "seo": "Demansa Baxım Bələdçiləri: Praktik Gündəlik Yardım",
-      "description": "Demensiyaya qulluq edənlər üçün praktiki, mehriban bələdçilər: birlikdə oyun oynamaq, ünsiyyət, imtinalar, gündüz narahatlığı, planşetlər, proqramların seçilməsi və.",
-      "lede": "Demansla yaşayan birinə qayğı göstərmək, o cümlədən özünüzə qulluq etmək üçün sadə, praktiki yardım."
+      "label": "مراقبت دمانس",
+      "title": "مراقبت از کسی که دمانس دارد",
+      "seo": "مراقبت از کسی که دمانس دارد: فعالیت‌ها و کمک",
+      "description": "راهنماهایی برای خانواده‌هایی که از کسی با دمانس نگهداری می‌کنند: چطور با هم بازی کنند، وقتی او نه می‌گوید چه کار کنند، و بعد از تشخیص کجا کمک مورد اعتماد پیدا کنند.",
+      "lede": "کمکی با محوریت فعالیت برای خانواده‌هایی که از کسی با دمانس نگهداری می‌کنند، و اینکه برای مشورت پزشکی و مراقبتی به کجا مراجعه کنند."
     },
     "brain-health": {
       "label": "Beyin sağlamlığı",
@@ -283,7 +396,16 @@
     "tryTogether": "Birlikdə cəhd edin",
     "relatedGuides": "Əlaqədar təlimatlar",
     "related": "Əlaqədar",
-    "startHere": "Buradan başlayın"
+    "startHere": "Buradan başlayın",
+    "staleAria": "ترجمه قدیمی است",
+    "staleTitle": "این ترجمه قدیمی است",
+    "staleText": "این ترجمه از نسخه قبلی صفحه انگلیسی ساخته شده که از آن زمان تغییر کرده است. صفحه انگلیسی نسخه فعلی است.",
+    "staleHealth": "این صفحه اطلاعات سلامتی می‌دهد، پس پیش از اقدام، صفحه انگلیسی را بررسی کنید و با پزشک یا پرستار مشورت کنید.",
+    "staleLink": "صفحه فعلی انگلیسی را بخوانید"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Sağlamlıq haqqında məlumat bildirişi",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Yaddaş Testi Deyil, Paylaşılan Fəaliyyət",
+      "title": "یک فعالیت مشترک، نه یک آزمون",
       "seoTitle": "Qızıl anlar haqqında: yanaşmamız",
-      "description": "Niyə Qızıl Anlar oyunlarında taymerlər, xallar və ya zolaqlar yoxdur, şəkillər niyə görünmür və demensiya ilə bağlı nə iddia edəcəyik və nəyi iddia etməyəcəyik.",
+      "description": "چرا Creative Activities تایمر، امتیاز یا زنجیره‌ی روزهای پیاپی ندارد، چرا تصویرها روی صفحه می‌مانند، و درباره‌ی سلامتی چه ادعایی می‌کنیم و چه ادعایی نمی‌کنیم.",
       "crumb": "Bizim yanaşmamız",
-      "lede": "Qızıl Anlar, baxıcının və demensiya ilə yaşayan birinin yan-yana həzz ala biləcəyi sakit, yetkin şəkilli fəaliyyətlər edir.",
-      "bodyHtml": "<h2>Nəyə inanırıq</h2><p>Fəaliyyətin mahiyyəti anın özüdür: söhbət, təbəssüm, iki şəkli bir araya gətirməkdən məmnunluq və ya sadəcə yaxın oturmaq. Kimisə ölçmək, daha da irəli çəkmək və ya nəyisə sübut etmək deyil.</p><p>Bir çox beyin təlimi proqramları sürət, xallar, zolaqlar və səviyyələr ətrafında hazırlanmışdır. Özünü imtahan kimi hiss edən demensiya ilə yaşayan bir şəxs keçə bilməz. Biz bunun əksini hazırladıq və özümüzü bu qaydalara sadiqik:</p><ul><li><strong>Uğursuz heç nə yoxdur.</strong> Heç bir ekranda saat, hesab, hərəkət sayğacı, canlılar, zolaqlar, konfeti və ya geri sayma yoxdur.</li><li><strong>Geri çağırma üzərində tanınma.</strong> Şəkillər standart olaraq göstərilməyə davam edir. Təkliflər söhbətə dəvət edir və heç vaxt ad və ya xatirələri sorğulamır.</li><li><strong>Böyük, düz və sabit.</strong> Böyük mətn və şəkillər, yüksək kontrast və eyni yerdə qalan nəzarətlər.</li><li><strong>Yetkinlərin ləyaqəti.</strong> Real dünya şəkilləri və sadə, isti sözlər. Cizgi filmləri, mahnı oxuyan təriflər və ya emoji mükafatları yoxdur.</li><li><strong>Asan çıxış yolu.</strong> “Hazırda tamamlandı” həmişə görünür. Yarım yolda dayanmaq yaxşı nəticədir.</li><li><strong>Varsayılan olaraq şəxsi.</strong> Hesab və ya reklam yoxdur. Seçdiyiniz şəkillər cihazınızda qalır.</li></ul><h2>Nə iddia etmirik</h2><p>Oyunlarımız həzz və əlaqə üçündür. Onlar demans və ya Alzheimer xəstəliyini diaqnoz etmir, sınaqdan keçirmir, ölçmür, müalicə etmir, yavaşlatmır və ya qarşısını almır və bu səbəbdən heç kim onları seçməməlidir. Araşdırmamız haqqında yazdığımız zaman <a href=\"/brain-health/\">beyin sağlamlığı səhifələri</a>, biz sübutların zəif olduğu yerdə açıq şəkildə deyirik və bunu heç vaxt öz oyunlarımıza bağlamırıq.</p><h2>Biz kimik</h2><p>Creative Activities kiçik müstəqil komandadır. Biz klinisyen deyilik. Bələdçilərimiz Milli Qocalma İnstitutu və Alzheimer Dərnəyi kimi təşkilatlar tərəfindən dərc edilmiş təlimatlardan yazılmışdır və hər bir bələdçi öz mənbələrini sadalayır. Oxuyun <a href=\"/editorial-policy/\">necə yazırıq və səhifələrimizi yoxlayırıq</a>.</p><h2>Bizə nə kömək edəcəyini söyləyin</h2><p>Xüsusilə demensiya ilə yaşayan insanlardan, ailə baxıcılarından və fəaliyyət işçilərindən sizin üçün nəyin işlədiyini və nəyin yaramadığını eşitmək istərdik. E-poçt <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "حامیان و شرکا",
+        "none": "Creative Activities هیچ حامی، جایگاه تبلیغاتی پولی یا شریکی که لوگویش در سایت دیده شود ندارد.",
+        "listed": "اینها حامیان و شرکای Creative Activities هستند. هر رابطه همچنین در صفحه‌ای که در آن ظاهر می‌شود اعلام شده است.",
+        "policy": "اگر این وضعیت تغییر کند، هر صفحه‌ی مربوط در محل ظاهر شدنش این را اعلام می‌کند، هیچ فعالیتی هرگز حامی نخواهد داشت، و فهرست شرکا در همین صفحه قرار خواهد گرفت.",
+        "listHeading": "فهرست شرکا",
+        "noPartners": "در حال حاضر شریکی وجود ندارد."
+      },
+      "lede": "Creative Activities فعالیت‌های آرام و مخصوص بزرگسالان می‌سازد که دو نفر می‌توانند کنار هم از آن لذت ببرند، چه یکی از آن دو از دیگری مراقبت کند و چه فقط بخواهند وقت خوبی با هم بگذرانند.",
+      "bodyHtml": "<h2>برای چه کسانی است</h2><p>برای هر کسی که از یک نفر مراقبت می‌کند: پدر یا مادر، پدربزرگ یا مادربزرگ، فرزند، همسر، دوست، یا کسی که خودش با دمانس زندگی می‌کند. خانواده‌ها، بزرگسالان مسن و کارکنان فعالیت‌ها می‌توانند از همین صفحه‌ها استفاده کنند.</p><h2>آنچه ما باور داریم</h2><p>ارزش یک فعالیت در خود آن لحظه است: یک گفت‌وگو، یک لبخند، رضایت از کنار هم گذاشتن دو تصویر، یا فقط نشستن کنار هم. هدف این نیست که کسی سنجیده شود، به جایی بیشتر هل داده شود یا چیزی ثابت شود.</p><p>بسیاری از برنامه‌های تمرین مغز بر پایه‌ی سرعت، امتیاز، زنجیره‌ی روزهای پیاپی و مرحله طراحی شده‌اند. برای کسی که خسته است، حالش خوب نیست یا با دمانس زندگی می‌کند، این می‌تواند مثل امتحانی باشد که نمی‌تواند قبول شود. ما برعکسش را ساخته‌ایم و خودمان را به این قواعد پایبند می‌دانیم:</p><ul><li><strong>چیزی برای شکست خوردن نیست.</strong> هیچ ساعت، امتیاز، شمارنده‌ی حرکت، جان، زنجیره‌ی روزهای پیاپی، بارش رنگ یا شمارش معکوسی روی هیچ صفحه‌ای نیست.</li><li><strong>شناختن به جای یادآوری.</strong> تصویرها به طور پیش‌فرض روی صفحه می‌مانند. پرسش‌ها به گفت‌وگو دعوت می‌کنند و هرگز درباره‌ی نام‌ها یا خاطره‌ها امتحان نمی‌گیرند.</li><li><strong>بزرگ، ساده و پایدار.</strong> متن و تصویر بزرگ، کنتراست بالا، و دکمه‌هایی که همیشه سر جای خودشان می‌مانند.</li><li><strong>کرامت بزرگسالی.</strong> تصویرهای واقعی از دنیای واقعی و کلمات ساده و گرم. بدون کارتون، تحسین با لحن کودکانه یا پاداش با ایموجی.</li><li><strong>راه خروج آسان.</strong> گزینه‌ی «فعلاً تمام» همیشه پیدا است. نیمه‌کاره تمام کردن هم نتیجه‌ی خوبی است.</li><li><strong>پیش‌فرض، خصوصی بودن.</strong> بدون حساب کاربری و بدون تبلیغ. عکس‌هایی که انتخاب می‌کنید روی دستگاه خودتان می‌مانند.</li></ul><h2>آنچه ادعا نمی‌کنیم</h2><p>بازی‌ها و فعالیت‌های ما برای سرگرمی و ارتباط است. آنها دمانس یا بیماری آلزایمر را تشخیص نمی‌دهند، نمی‌سنجند، درمان نمی‌کنند، کندتر نمی‌کنند و جلوگیری نمی‌کنند، و هیچ کس نباید آنها را به این دلیل انتخاب کند. وقتی درباره‌ی پژوهش‌های سلامتی می‌نویسیم، صریح می‌گوییم شواهد کجا ضعیف است و هرگز آن را به فعالیت‌های خودمان ربط نمی‌دهیم.</p><h2>ما که هستیم</h2><p>Creative Activities یک تیم کوچک و مستقل است. ما پزشک نیستیم. راهنماهای ما بر پایه‌ی رهنمودهای منتشرشده‌ی سازمان‌هایی مثل National Institute on Aging و Alzheimer’s Association نوشته شده‌اند و هر راهنما منابعش را فهرست می‌کند. <a href=\"/editorial-policy/\">بخوانید که چطور صفحه‌هایمان را می‌نویسیم و بررسی می‌کنیم</a>.</p><h2>به ما بگویید چه چیزی کمک می‌کند</h2><p>دوست داریم بدانیم چه چیزی برای شما خوب است و چه چیزی نیست، به‌ویژه از سوی کسانی که با دمانس زندگی می‌کنند، مراقبان خانوادگی و کارکنان فعالیت‌ها. به <a href=\"mailto:{email}\">{email}</a> ایمیل بزنید.</p>"
     },
     "editorial": {
       "title": "Səhifələrimizi Necə Yazırıq və Yoxlayırıq",
       "seoTitle": "Redaksiya Siyasəti",
-      "description": "Creative Activities öz demans fəaliyyətini və beyin sağlamlığı səhifələrini necə araşdırır, yazır, qaynaqlayır və yeniləyir və nələri heç vaxt dərc etməyəcəyik.",
+      "description": "Creative Activities چطور پژوهش می‌کند، می‌نویسد، منبع جمع می‌کند و صفحه‌های فعالیت و سلامتی‌اش را به‌روز می‌کند، و هرگز چه چیزی منتشر نمی‌کند.",
       "crumb": "Redaksiya siyasəti",
       "bodyHtml": "<h2>Bizim mənbələrimiz</h2><p>Biz bələdçilərimizi Milli Qocalma İnstitutu, CDC, Alzheimer Assosiasiyası, Amerika Alzheimer Fondu, Ailə Baxıcıları Alyansı və NHS kimi təşkilatların ictimai rəhbərliyinə və Cochrane rəyləri və böyük klinik sınaqlar kimi rəydən keçmiş araşdırmalara əsaslanırıq. Hər bir bələdçi etibar etdiyi mənbələri sadalayır. Biz hər bir mənbəyə istinad etməzdən əvvəl onu açırıq və yalnız əslində deyilənləri bildiririk.</p><h2>Necə yazırıq</h2><ul><li>Əvvəlcə praktiki: bu gün nə etməli, sadə dildə.</li><li>Dəlillər haqqında dürüst: həqiqət olduqda \"əlaqəli\", \"ola bilər\" və \"dəlil qarışıqdır\" deyirik.</li><li>Hörmətli: biz böyüklər kimi demensiya ilə yaşayan insanlar haqqında yazırıq və heç vaxt sorğu-sual və ya utanc verici dildən istifadə etmirik.</li><li>Heç bir icad edilmiş məzmun yoxdur: uydurma statistika, sitatlar, ekspertlər, araşdırmalar, rəylər və ya rəylər yoxdur.</li></ul><h2>Səhifələrimizi kim nəzərdən keçirir</h2><p>Səhifələr tədqiqat və layihə hazırlamaq üçün AI yazı alətlərinin köməyi ilə Qızıl Anlar komandası tərəfindən yazılır və yoxlanılır. Komanda tərəfindən hər səhifə öz mənbələri ilə yoxlanılır. Səhifələrimizdə var <strong>yox</strong> həkim və ya digər klinisist tərəfindən yoxlanılıb və biz əksini iddia etmirik. Bunlar tibbi məsləhət deyil, ümumi məlumatdır.</p><h2>Heç vaxt dərc etməyəcəyimiz şeylər</h2><ul><li>İddia edir ki, oyun, qida, əlavə, sürətli və ya rutin demansın qarşısını alır, müalicə edir, yavaşlatır və ya sağaldır.</li><li>Kiminsə demans olduğunu və ya olmadığını göstərən testlər, testlər və ya ballar.</li><li>Hər hansı bir dərmanı başlamaq, dayandırmaq və ya dəyişdirmək üçün məsləhət.</li><li>Rəhbər kimi gizlənən reklam və ya sponsorlu məzmun.</li></ul><h2>Yeniləmələr və düzəlişlər</h2><p>Hər səhifə sonuncu dəfə yeniləndiyi tarixi göstərir. Səhv və ya köhnəlmiş mənbə taparsanız, e-poçt göndərin <a href=\"mailto:{email}\">{email}</a> və biz onu dərhal yoxlayacağıq.</p>"
     },
     "faq": {
       "title": "Suallar və Cavablar",
-      "seoTitle": "Demans Oyunları və Fəaliyyətləri: Suallar və Cavablar",
-      "description": "Demans oyunları və fəaliyyətləri ilə bağlı ümumi suallara cavablar: hansı oyunları sınamaq, nə qədər oynamaq, sonrakı mərhələ ideyaları, beyin sağlamlığı və məxfilik.",
+      "seoTitle": "پرسش و پاسخ درباره‌ی Creative Activities",
+      "description": "پاسخ پرسش‌های رایج درباره‌ی بازی‌ها و فعالیت‌ها: کدام را امتحان کنیم، چقدر بازی کنیم، ایده‌های گروهی و ایده‌های مناسب مراحل بعدی، سلامتی و حریم خصوصی.",
       "crumb": "Suallar və cavablar",
       "lede": "Baxıcıların ən çox verdiyi suallara qısa, sadə cavablar.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Oyunlar haqqında",
           "items": [
             {
-              "q": "Demans olan biri üçün ən yaxşı oyunlar hansılardır?",
+              "q": "بهترین بازی‌ها برای بزرگسالان مسن کدام‌اند؟",
               "a": "Ən yaxşı oyunlar tanış, sadə və təzyiqdən azaddır və doğrusu bu gün insanın zövq aldığı şeydir. Görünən şəkillərlə şəkil uyğunluğu, çeşidləmə, asan yapışqanlar, tanış kəlamları tamamlamaq, rəngləmə və şəkil binqosu bütün insanlar üçün yaxşı işləyir. Taymerlərdən, ballardan və sınaq kimi hiss edilən hər şeydən çəkinin."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Beyin sağlamlığı",
+          "title": "دمانس و سلامتی",
           "items": [
             {
               "q": "Oyunlar demansın qarşısını ala və ya yavaşlata bilərmi?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Daha ətraflı: <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oynamaq olar</a>, <a href=\"/caregiving/when-they-say-no/\">yox deyəndə</a>, <a href=\"/activities/late-stage/\">sonrakı mərhələdəki fəaliyyətlər</a> və <a href=\"/brain-health/can-dementia-be-prevented/\">demansın qarşısını almaq olar?</a>"
+      "moreHtml": "جزئیات بیشتر: <a href=\"/caregiving/how-to-play-together/\">چطور با هم بازی کنیم</a>، <a href=\"/caregiving/when-they-say-no/\">وقتی نه می‌گویند</a>، <a href=\"/activities/late-stage/\">فعالیت‌ها برای مراحل پیشرفته</a> و <a href=\"/dementia-activities/\">فعالیت‌های دمانس در خانه</a>."
     },
     "handout": {
       "title": "Demansla Yaşayan İnsanlar üçün Pulsuz, Zərif Oyunlar",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Baxım Evləri, Kitabxanalar və Dəstək Qrupları üçün",
-      "seoTitle": "Baxım Evləri və Qruplar üçün Pulsuz Demans Fəaliyyətləri",
-      "description": "Qocalıq evləri, böyüklər üçün gün proqramları, kitabxanalar, qocalma agentlikləri və dəstək qrupları pulsuz demans oyunlarımızdan, üstəlik, bizi resurs siyahısına.",
+      "seoTitle": "فعالیت‌های رایگان برای خانه‌های سالمندان، کتابخانه‌ها و گروه‌ها",
+      "description": "خانه‌های سالمندان، برنامه‌های روزانه‌ی بزرگسالان، کتابخانه‌ها، سازمان‌های سالمندی و گروه‌های حمایتی چطور از بازی‌ها و راهنمای فعالیت‌های رایگان ما استفاده می‌کنند، به‌علاوه متنی برای افزودن ما به فهرست منابع.",
       "crumb": "Təşkilatlar üçün",
       "lede": "Bu saytdakı hər şey sakinlər, üzvlər və müştərilərlə heç bir hesab, lisenziya və ya ödəniş olmadan istifadə etmək üçün pulsuzdur. Bu səhifə burada nə olduğunu və necə paylaşılacağını izah edir.",
-      "shortText": "{name}: demensiya ilə yaşayan insanlar və onların baxıcıları üçün pulsuz, zərif şəkilli oyunlar və fəaliyyət təlimatları. Qeydiyyat yoxdur, taymerlər, xallar yoxdur.",
-      "longText": "{name} ({domain}) təklif edir {count} demensiyadan əziyyət çəkən insanlar üçün hazırlanmış pulsuz brauzer oyunları, o cümlədən nümayiş etdirilən şəkillərlə uyğun cütlər, asan yapışqan, çeşidləmə, tanış kəlamlar və çap edilə bilən kartlarla şəkil binqosu. Hesab, reklam, taymer və ya hesab yoxdur. Saytda həmçinin Milli Yaşlanma İnstitutu və Alzheimer Dərnəyinə istinad edən demansın hər bir mərhələsi üçün sadə dildə fəaliyyət təlimatları var.",
+      "shortText": "{name}: بازی‌های تصویری رایگان و ملایم و راهنمای فعالیت برای بزرگسالان مسن، خانواده‌ها و افراد با دمانس. بدون ثبت‌نام، بدون تایمر، بدون امتیاز.",
+      "longText": "{name} ({domain}) یاشلی آدام‌لار، عائله‌لر و زوال عقل ایله یاشایان آدام‌لار اوچون {count} پولسوز براوزر اویونو تقدیم ائدیر. بو اویونلار آراسیندا شکیل‌لری آچیق قالان جوت‌یابی، آسان پازل، دسته‌بندی، معروف مثل‌لر و چاپ اولونابیلن کارتلی تصویری بینگو وار. حساب، تبلیغات، زمان‌سنج یا امتیاز یوخدور. سایتده هم‌چنین عائله‌لر، یاشلی آدام‌لار و کارکنان اوچون ساده دیلده فعالیت راهنماهایی وار، که National Institute on Aging و Alzheimer's Association کیمی منبع‌لری ایله یازیلیب.",
       "useTitle": "Hansı təşkilatlar istifadə edə bilər",
       "gamesItemHtml": "<strong>{count} brauzer oyunları</strong> noutbuk, planşet və ya kompüterə qoşulmuş televizorda işləyən. Quraşdırma, hesab və ya yükləmə yoxdur. Bax <a href=\"/games/\">bütün oyunlar</a>.",
       "printablesLabel": "{count} çap edilə bilənlər:",
       "printablesAfter": "Hər səhifədə çap düyməsini istifadə edin.",
-      "moreItemsHtml": "<li><strong>Qrup formatları:</strong> <a href=\"/games/picture-bingo/\">Şəkil bingo</a> çap edilə bilən kartlara və ekranda zəng edənə malikdir və <a href=\"/activities/trivia/\">asan trivia</a> cavab seçimləri və danışıq nöqtələri ilə 50 sual var.</li><li><strong>Fəaliyyət təlimatları</strong> işçilər və ailələr üçün, mərhələ və növə görə, mənbələrlə sadə dildə yazılmışdır. ilə başlayın <a href=\"/activities/ideas/\">101 fəaliyyət ideyası</a> və ya <a href=\"/activities/care-home-groups/\">qayğı evləri üçün qrup fəaliyyətləri</a>.</li>",
+      "moreItemsHtml": "<li><strong>شیوه‌های گروهی:</strong> <a href=\"/games/picture-bingo/\">تصویری بینگو</a> چاپ اولونابیلن کارتلاری و ایکران اوستونده صداکننده‌سی وار، و <a href=\"/together/conversation-games-for-all-ages/\">صحبت اویونلاری</a> جوابلی سوال‌لار و صحبت نقطه‌لرینی ایچینه آلیر.</li><li><strong>فعالیت راهنماها</strong> کارکنان و عائله‌لر اوچون، ساده دیلده و منبع‌لی یازیلیب. <a href=\"/activities/ideas/\">101 فعالیت فیکری</a> یا <a href=\"/crafts/craft-group-sessions/\">خانه‌های مراقبت اوچون گروهی فعالیت‌لر</a>دن باشلایین.</li>",
       "restHtml": "<h2>Qruplar bundan necə istifadə edirlər</h2><ul><li><strong>Baxım evləri və yaddaşa qulluq:</strong> bir nəfərin qrupa toxunması ilə ümumi otaq TV-də binqo şəkli və ya sözləri bitirin.</li><li><strong>Yetkinlər üçün gün proqramları:</strong> qısa təkbətək seanslar üçün dörd plitə təyin edilmiş Şəkil cütləri olan planşet stansiyası.</li><li><strong>Xalq kitabxanaları:</strong> yaddaş dəstlərində çap olunmuş söz axtarışları və danışıq kartları və kitabxana planşetlərində əlfəcin qoyulmuş sayt.</li><li><strong>Baxıcı dəstək qrupları və yaddaş kafeləri:</strong> a <a href=\"/handout/\">çap edilə bilən bir səhifəlik paylama</a> ailələrin evə aparması üçün.</li><li><strong>Xəstəxanalar və boşaltma planlayıcıları:</strong> evdə və ya çarpayının yanında sakit bir şey etmək üçün baxıcı paketlərindəki paylama.</li></ul><h2>Biz nə etmirik</h2><p>Oyunlar əylənmək və birlikdə vaxt keçirmək üçündür. Onlar demensiya diaqnozu qoymur, sınaqdan keçirmir, qiymətləndirmir, müalicə etmir və ya yavaşlatmır və biz təşkilatlardan onları bu şəkildə təsvir etməmələrini xahiş edirik. Heç bir reklam yoxdur və oyunlar adlar, sağlamlıq məlumatları və ya fotoşəkillərin yüklənməsini tələb etmir. Veb sayt ziyarətləri saymaq üçün Google Analytics istifadə edir; bizim <a href=\"/privacy/\">məxfilik bildirişi</a> nə topladığını izah edir. Şəkillər istifadə olunur <a href=\"/games/photo-pairs/\">Foto cütləri</a> brauzerdə qalın.</p><h2>Bizi resurs siyahınıza əlavə edin</h2><p>Baxıcılar üçün resursların siyahısını saxlayırsınızsa, ona keçid edə bilərsiniz <a href=\"/\">{domain}</a>. İstənilən təsviri kopyalaya bilərsiniz.</p>",
       "shortTitle": "Qısa təsvir",
       "longTitle": "Daha uzun təsvir",
-      "linksHtml": "<p>Birbaşa keçid üçün faydalı səhifələr: <a href=\"/games/\">pulsuz oyunlar</a>, <a href=\"/activities/printable/\">pulsuz çap edilə bilənlər</a>, <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər</a> və <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oynamaq olar</a>.</p><h2>Suallar və ya düzəlişlər</h2><p>Saytda bir şey səhvdirsə və ya aydın deyilsə və ya sakinin ehtiyacları burada olanlarla təmin edilmirsə, zəhmət olmasa, bizə bu ünvanda bildirin. <a href=\"mailto:{email}\">{email}</a>. Sakinlər və ya müştərilər haqqında şəxsi və ya sağlamlıq məlumatlarını göndərməyin.</p>"
+      "linksHtml": "<p>مستقیم لینک وئرمک اوچون فایده‌لی صفحه‌لر: <a href=\"/games/\">پولسوز اویونلار</a>، <a href=\"/games/\">پولسوز چاپ اولونابیلن صفحه‌لر</a>، <a href=\"/dementia-activities/\">خانه‌ده زوال عقل اوچون فعالیت‌لر</a> و <a href=\"/caregiving/how-to-play-together/\">برابر اویناماق یولu</a>.</p><h2>سوال‌لار یا دوزلتمه‌لر</h2><p>اگر سایتده بیر شی یانلیش یا آیدین دگیلسه، یا ساکینین نیازلری بو صفحه‌لرده قارشیلانمیرسا، لطفاً بو آدرسده بیزه خبر وئرین: <a href=\"mailto:{email}\">{email}</a>. لطفاً ساکینلر یا مراجعه‌کنندگان باره‌سینده شخصی یا سلامتی ایله باغلی معلومات گؤندرمه‌یین.</p>"
     },
     "app": {
       "title": "Qızıl Anlar Tətbiqi",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Pulsuz Onlayn Demans və Alzheimer Oyunları",
-    "description": "Demans və ya Alzheimer ilə yaşayan yaşlılar üçün pulsuz onlayn oyunlar: şəkillərin uyğunlaşdırılması, asan yapışqanlar, çeşidləmə, kəlamlar, rəngləmə, bingo.",
+    "title": "بیرلیکده اویناماق اوچون پولسوز اونلاین اویونلار",
+    "description": "یاشلی آدام‌لار، عائله‌لر و زوال عقل ایله یاشایان آدام‌لار اوچون پولسوز اونلاین اویونلار: تصویری جوت‌یابی، آسان پازل، دسته‌بندی، معروف مثل‌لر، رنگ‌آمیزی و بینگو. ثبت‌نام، زمان‌سنج یا امتیاز یوخدور.",
     "crumb": "Oyunlar",
-    "h1": "Demanslı İnsanlar üçün Zərif Oyunlar",
+    "h1": "بیرلیکده اویناماق اوچون ملایم اویونلار",
     "lede": "{count} brauzerinizdə birlikdə oynamaq üçün pulsuz oyunlar. Böyük şəkillər, sadə sözlər və uğursuz heç nə yoxdur: taymerlər, xallar, qeydiyyat yoxdur.",
-    "listName": "Demanslı insanlar üçün zərif oyunlar",
+    "listName": "بیرلیکده اویناماق اوچون ملایم اویونلار",
     "byStageTitle": "Mərhələ ilə oyun seçimi",
     "byStageLede": "Mərhələlər yalnız kobud bir bələdçidir. Bu gün insanın nədən həzz aldığını və nəyin rahat olduğunu izləyin.",
     "stageCol": "Mərhələ",
     "gamesCol": "Tez-tez uyğun gələn oyunlar",
-    "moreHtml": "Ekrandan uzaq olan daha çox fikir: <a href=\"/activities/ideas/\">Demanslı insanlar üçün 101 fəaliyyət</a>, <a href=\"/activities/alzheimers/\">Alzheimer üçün fəaliyyətlər və oyunlar</a>, <a href=\"/activities/memory-games/\">incə yaddaş oyunları</a> və <a href=\"/activities/puzzles/\">bulmacalar</a>.",
+    "moreHtml": "ایکراندان دور فیکرلر: <a href=\"/activities/ideas/\">101 فعالیت فیکری</a>، <a href=\"/dementia-activities/\">خانه‌ده زوال عقل اوچون فعالیت‌لر</a> و <a href=\"/crafts/\">دستکاری‌لر</a>.",
     "faq": [
       {
         "q": "Hansı oyundan başlamalıyıq?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Bu yaddaş oyunları yaşlılar üçündür?",
-        "a": "Onlar hər hansı bir yaşlı yetkinin həzz ala biləcəyi uyğun və şəkil oyunlarıdır, lakin onlar yaddaşı yoxlamaq üçün qurulmayıb: Şəkil cütlərində başqa cür seçim etməyincə, şəkillər üzü yuxarı qalır. Demansdan əziyyət çəkən yaşlılar üçün yaddaş oyunlarına dair bələdçimiz hər hansı bir yaddaş oyununu necə yumşaq saxlamağı izah edir."
+        "a": "بونلار هر یاشلی آدامین لذت آلابیلدیی جورلاشدیرما و تصویری اویونلاردیر، اما حافظه‌نی سینماق اوچون دوزلدیلمیبلر: تصویری جوت‌یابیده، ایختیار ائدیلمزسه، شکیل‌لر آچیق قالیر. هر حافظه اویونو، زمان‌سنجی و امتیازلار چیخاریلاraq... "
       },
       {
         "q": "Qocalıq evində qruplar üçün oyunlar varmı?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Demans fəaliyyət proqramı varmı?",
+        "q": "یاشلی آدام‌لar و عائله‌لر اوچون تطبیقی وارمی؟",
         "a": "Bəli. Qızıl anlar (\"olaraq siyahıya alınmışdır\"{storeName}\") App Store və Google Play-də pulsuzdur. O, böyük plitələr, seçdiyiniz ailə şəkilləri ilə oyunlar və oflayn rejimdə işləyən şəkil paketləri ilə zərif şəkil uyğunluğu təklif edir."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Çap edilə bilər",
     "howTo": "Necə oynamaq {name}",
     "tips": "Birlikdə oynamaq üçün məsləhətlər",
-    "newToPlayingHtml": "Demans olan biri ilə oynamaq üçün yenisiniz? Oxuyun <a href=\"/caregiving/how-to-play-together/\">birlikdə necə oyun oynamaq olar</a>, o cümlədən maraqlarını itirdikdə nə etməli.",
+    "newToPlayingHtml": "یاشلی آدام یا زوال عقل ایله یاشایان بیرینله اویناماقda تازه‌سینیزmi؟ <a href=\"/caregiving/how-to-play-together/\">بیرلیکده اویناماق یولunu</a> اوخویون، جمله‌دن اگر اویناماقda ماراغی آزالسا نه ائتمه‌لی‌سینیز.",
     "moreAria": "Kəşf etmək üçün daha çox",
     "helpfulGuides": "Faydalı bələdçilər",
     "appTitle": "Proqramda oynayın",
@@ -536,6 +666,35 @@
     "goodToKnow": "Bilmək yaxşıdır",
     "goodToKnowText": "Bu oyun əylənmək və birlikdə vaxt keçirmək üçündür. Heç bir şeyi sınamaz, ölçməz və müalicə etmir.",
     "moreGames": "Daha yumşaq oyunlar",
-    "crumb": "Oyunlar"
+    "crumb": "Oyunlar",
+    "print": {
+      "heading": "کاغذدا اویناماق",
+      "sameRules": "کاغذ نسخه‌سی ایکران اوستونده‌کی اویونla همان قایده‌لری داشیر:",
+      "button": "کاغذ نسخه‌سینی چاپ ائدین",
+      "pageNote": "A4 یا US Letter اولچوسوندا بیر صفحه، سیاه‌و‌سفید چاپدا هم یارار. نسخه {date}.",
+      "islandNote": "چاپ اولونan شی هم‌اکنون ایکراندا گؤرونن‌دیر. نسخه {date}.",
+      "sheetTitle": "{name}: کاغذ نسخه‌سی",
+      "point": "کاغذ اوستونده، تصویری لمس ائتمک یرینه اونا اشاره ائدین یا قلمله دوره‌سینه چکین. هر ردیف تازه بیر دسته‌دیر.",
+      "pointTarget": "کاغذ اوستونده، باخیلاجاق تصویر هر ردیفین باشیندا اولان قوتودادیر. تصویری لمس ائتمک یرینه اونا اشاره ائدین یا قلمله دوره‌سینه چکین.",
+      "halves": "هر شکیل اورتasından ایکی‌یه بولونوب. سولدakı هر یاریمدan، صاغdakı اویغون یاریمه خط چکین یا بارماغınızla اشاره ائدین. هئچ شی کسمک لازیم دگیل.",
+      "grid": "هر کvadratın بیر نömrəsi وار. او نömrəni آچارda تapın و کvadratı هemin rəngdə قələmlə رنگلین. باشqa istənilən rəng də اوyğundur. هئچ شی کسمک لازیم دگیل.",
+      "colors": "هر ردیف بیر رنگi آدlandırır. او رنگدə اولان هر شکلə اشاره ائدین یا قلمله دوره چکین. هر ردیف تازه بیر دسته‌دیر.",
+      "dice": "هر ردیف بیر زار دسته‌سidir. بیر ردیف سeçin، یا شکilləri کسin و بیر یığından چکین، سonra اونlardan هر sıra ilə بیر حکایه دanışın. هر کس کecə بیlər.",
+      "words": "سözləri کسin، یا هر sözdən شکilinə خط چکin. ایش گedərkən سözləri بلند اوخuyun.",
+      "cards": "کartları نöqtəli xətlər üzrə کسین. اونlari masa üstə آچıq قoyun، سonra جوتlari تapın.",
+      "chain": "کاغذدا شکilləri سoldan saغa، بیر-بیرinin ardınca اوخuyun. هر nəfər indiyədək olan شکillərə dair بیر جümlə دeyir، سonra növbəti شکilə اشاره ائdir. هər kəs keçə bilər.",
+      "sort": "شکilləri نöqtəli xətlər üzrə کسین، سonra هر birini اوz qutusuna قoyun.",
+      "puzzle": "بؤیük شکili نöqtəli xətlər üzrə دörd پارچaya کسین و qarışdırın. هر دəfə ایکی پارچanı yerdəyişdirin تا شکil تamam اولsun. کiçik شکil بələdçidir.",
+      "cutSafety": "کسمə ایشینی اویناماقdan اوvvəl بیر کömək‌çi گؤره بیلər. ایش بیتəndə qayçıları yerinə قoyun.",
+      "version": "نسخه {date} · {url}",
+      "reasons": {
+        "photos": "کاغذ نسخه‌سی یوخدور. بو اویون اوز شخصی عکس‌لرینیزی ایشلدیر. بو عکس‌لر بروزرینیزده قالیر و هئچ وخت یوکلنمیر، اوندan اوترو سایت اونlari چاپ ائده بیلمز. کاغذ اوستونده اویناماق اوچون، سئودیینیز بیر نئچه عکسین ایکی نسخه‌سینی ائوده چاپ ائدین و ماسada جوت تapın.",
+        "paced": "کاغذ نسخه‌سی یوخدور. دایره ایکراندا یاواش و ثابت بیر تمپ تعیین ائدیر، و چاپ اولونمuş صفحه بونu ائده بیلمز، بو اوتور باشqa بیر فعالیت اولار. ایکرانsız، بیرلیکده بیر آرام فاصله هر وخت سeçimdir.",
+        "turns": "بو اویونون کاغذ نسخه‌سی یوخدور. ماسada «تصویری جوت‌یابی» کیمی جوتlar تapmaq اوچون، او اویوندakı تصویر کارتlarını چاپ ائدین و نوبه‌نوبه اوزلرینی چئویرین.",
+        "screen": "کاغذ نسخه‌سی یوخدور. بو، ائکران اوزریندن بیرلیکده باخماق اوچون بیر شکیلدیر. ماسانین اوزرینده قویدوغونوز سئوگیلی بیر فوتو یا کارت‌پستال ده ائله همین ایشی گورور.",
+        "wash": "کاغذ نسخه‌سی یوخدور. کاغذ اوزرینده آبرنگ ده همین فیکریدیر: بیر یاش فیرچا و هر دفعه بیر رنگ.",
+        "sayings": "هله کاغذ نسخه‌سی یوخدور. کاغذ اوزرینده بوتون سونلار بیردن گؤرونردی و یومشاق «سونو گؤستر» آددیمی ایتیریلردی. ائکراندان بیرلیکده آتالار سؤزلرینی اوخویون، یا ایکینیزین ده بیلدیگی بیر نئچه‌سینی پایلاشین."
+      }
+    }
   }
 }

@@ -1,33 +1,33 @@
 ---
-title: "Gec mərhələ demensiya üçün fəaliyyətlər, yataqda və ya stulda olanlar da daxil"
-seoTitle: "Gec mərhələ demensiya fəaliyyətləri: yataq və stul ideyaları"
-description: "Gec mərhələ demensiya üçün mülayim fəaliyyətlər, yataqda və ya stulda olanlar üçün də: musiqi, toxunuş, ucadan oxumaq, səslər və təhlükəsizlik qeydləri."
+title: "Son mərhələ demansı üçün fəaliyyətlər: yataq və kreslo"
+seoTitle: "Son mərhələ demansı: yataq və kreslo üçün fikirlər"
+description: "Son mərhələ demansı üçün yumşaq fəaliyyətlər, yataqda və ya kreslodə də: musiqi, toxunuş, oxumaq, səslər və birlikdə olmaq. Təhlükəsizlik qeydləri ilə."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Gec mərhələ demensiyada fəaliyyətlər hisslərə və sizin yanında olmağınıza
-  əsaslanır: sevdiyi musiqini qoşmaq, əl tutmaq, yavaş əl masajı, ucadan
-  oxumaq, şəkillərə baxmaq, təbiət səsləri və pəncərənin yanında və ya çöldə
-  oturmaq. Bunlar yataqda və ya stulda da işləyir. Seansları qısa saxlayın,
-  rahatlıq üçün üzə və əllərə baxın və unutmayın ki, yanında olmaq özü
+  Son mərhələdə fəaliyyətlər hiss orqanlarına və sizin yanınızda olmağınıza əsaslanır:
+  sevilən musiqi qoymaq, əl tutmaq, yavaş əl masajı, yüksək səslə oxumaq, şəkillərə
+  baxmaq, təbiət səsləri və pəncərə yanında və ya həyətdə oturmaq. Bunların hamısı
+  yataqda və ya kreslodə oturan insan üçün uyğundur. Sessiyaları qısa saxlayın, üz və
+  əllərə baxaraq rahatlığı izləyin və xatırlayın ki, yanında olmağınızın özü də bir
   fəaliyyətdir.
 keyPoints:
-  - "Əlaqə hələ də mümkündür. Gec mərhələdə dünya əsasən hisslər vasitəsilə yaşanır."
-  - "Musiqi, mülayim toxunuş, tanış səslər və tutmaq üçün yumşaq əşyalar sözlərin artıq çata bilmədiyi insanlara çox vaxt çatır."
-  - "Buradakı demək olar ki, hər ideya yataqda və ya stulda olan şəxs üçün işləyir."
-  - "Üzdə, əllərdə və nəfəsdə rahatlıq və narahatlığa baxın və narahatlıq əlaməti görəndə dayanın."
-  - "Xırda əşyalardan çəkinin və yemək-içkini yalnız qayğı komandasının məsləhət gördüyü qaydada verin, çünki udmaq təhlükəli ola bilər."
+  - "Əlaqə hələ də mümkündür. Son mərhələdə dünya əsasən hisslər vasitəsilə qavranılır."
+  - "Musiqi, yumşaq toxunuş, tanış səslər və tutmaq üçün yumşaq əşyalar çox vaxt sözlər artıq çatmadıqda insanlara çatır."
+  - "Buradakı demək olar ki, hər bir fikir yataqda və ya kreslodə oturan insan üçün işləyir."
+  - "Üzdə, əllərdə və nəfəsdə rahatlıq və narahatlıq əlamətlərinə diqqət edin və hər hansı narahatlıq əlaməti görəndə dayandırın."
+  - "Kiçik əşyalardan çəkinin və yemək və ya içkini yalnız baxıcı komandanın məsləhət verdiyi kimi təklif edin, çünki udmaq təhlükəli ola bilər."
 faq:
-  - q: "Yataqda olan gec mərhələ demensiyalı şəxslə hansı fəaliyyətləri etmək olar?"
-    a: "Sevdiyi musiqini qoşun, əlindən tutun, krem ilə yavaş əl masajı edin, sevdiyi kitabdan və ya duadan ucadan oxuyun, şəkillər göstərin və ya mülayim təbiət səsləri qoşun. Pərdələri açın ki, çölü görsün. Bir dəfəyə bir şeylə qısa, sakit seanslar adətən ən yaxşı işləyir."
-  - q: "Gec mərhələ demensiyalı insanlar hələ də musiqidən zövq ala bilərmi?"
-    a: "Çoxu bilər. Alzheimer’s Association qeyd edir ki, gec mərhələdə belə şəxs ritmə toxuna və ya uşaqlıqdan bir mahnıya qoşula bilər. Gənc olanda sevdiyi musiqini seçin və səsi yumşaq saxlayın."
-  - q: "Fəaliyyətdən zövq aldığını necə bilərəm?"
-    a: "Kiçik əlamətlərə baxın: boşalmış çiyinlər, yumşalmış üz, göz təması, zümzümə, əlin sıxılması və ya yavaşlayan nəfəs. Üzü turşutmaq, çəkilmək, narahatlıq və ya inildəmək narahatlıq və ya ağrı bildirə bilər. Bunları görsəniz, dayanın və davam edərsə, qayğı komandasına deyin."
-  - q: "Məni artıq tanımırsa, ziyarət etməyə dəyərmi?"
-    a: "Bəli. National Institute on Aging qeyd edir ki, sadəcə yanında olmaq sakitləşdirə bilər, toxunuş, musiqi və hekayələr irəliləmiş demensiyada da rahatlıq verə bilər. Adınız tanış olmasa da, səsiniz və toxunuşunuz tanış ola bilər."
+  - q: "Yataqda olan son mərhələ demansı olan insanla hansı fəaliyyətləri etmək olar?"
+    a: "Sevdiyi musiqini qoyun, əlini tutun, losyonla yavaş əl masajı edin, sevdiyi kitabdan və ya duadan yüksək səslə oxuyun, şəkillər göstərin və ya yumşaq təbiət səsləri qoyun. Pərdələri açın ki, bayırı görə bilsin. Qısa, sakit sessiyalar və hər dəfə bir şey adətən ən yaxşı işləyir."
+  - q: "Son mərhələ demansı olan insanlar hələ də musiqidən zövq ala bilərlərmi?"
+    a: "Bir çoxu bacarır. Alzheimer's Association qeyd edir ki, son mərhələdə də insan barmağı ilə ritm vura və ya uşaqlıqdan tanış mahnı ilə birlikdə oxuya bilər. Gənc yaşlarında sevdiyi musiqini seçin və səsi yumşaq saxlayın."
+  - q: "Fəaliyyətdən zövq aldığını necə anlayaram?"
+    a: "Kiçik əlamətlərə diqqət edin: rahat çiyinlər, yumşalmış üz, göz təması, mırıldanma, əlinizi sıxması və ya nəfəsinin yavaşlaması. Üzünü bürüşdürməsi, özünü geri çəkməsi, narahatlığı və ya inləməsi narahatlıq və ya ağrı ola bilər. Bunları görsəniz, dayanın və əgər davam edərsə, baxıcı komandaya xəbər verin."
+  - q: "Məni artıq tanımasa da, ona baş çəkməyə dəyərmi?"
+    a: "Bəli. National Institute on Aging qeyd edir ki, sadəcə yanda olmaq sakitləşdirici ola bilər və irəliləmiş demansda da toxunuş, musiqi və hekayələr rahatlıq verə bilər. Adınız yadda qalmasa belə, səsiniz və toxunuşunuz tanış ola bilər."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +49,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Demensiyanın gec mərhələsində şəxs çox az danışa, bütün gündəlik qayğıda köməyə ehtiyac duya və günün çox hissəsini yataqda və ya stulda keçirə bilər. Elə hiss oluna bilər ki, birlikdə etmək üçün heç nə qalmayıb. Qalıb. [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) qeyd edir ki, şəxsin şəxsiyyətinin əsas bir hissəsi qala bilər və bu mərhələdə dünya əsasən hisslər vasitəsilə yaşanır. Musiqi, toxunuş, tanış səs və sizin sakit yanında olmağınız yenə də rahatlıq və əlaqə anları gətirə bilər.
+Demansın son mərhələsində insan çox az danışa bilər, gündəlik qulluğun hər işində kömək lazım ola bilər və günün çox hissəsini yataqda və ya kreslodə keçirə bilər. Birlikdə etmək üçün heç nə qalmadığı hiss oluna bilər. Amma var. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) qeyd edir ki, insanın özünün bir hissəsi qalmaqda davam edə bilər və bu mərhələdə dünya əsasən hisslər vasitəsilə qavranılır. Musiqi, toxunuş, tanış səs və sakit yanınızdakı varlığınız hələ də rahatlıq və əlaqə anları verə bilər.
 
-## Gec mərhələ demensiyada hansı fəaliyyətlər kömək edir?
+## Son mərhələ demansında hansı fəaliyyətlər kömək edir?
 
-Gec mərhələdə ən çox sadə hissi fəaliyyətlər və sakit yoldaşlıq kömək edir. Alzheimer’s Association sevilən musiqini qoşmağı, mənalı kitabların hissələrini oxumağı, dərisinə sevdiyi qoxulu krem sürtməyi və xoş gündə birlikdə çöldə oturmağı təklif edir. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) bunlara hekayələr danışmaq, şəkillər göstərmək, mülayim toxunuş və ya masaj və musiqi, ağ küy və ya təbiət səslərini əlavə edir və deyir ki, yalnız sizin yanında olmağınız sakitləşdirə bilər.
+Son mərhələdə ən çox sadə hiss fəaliyyətləri və sakit yanınızdakı varlıq kömək edir. Alzheimer's Association sevilən musiqi qoymağı, əziz kitablardan hissələr oxumağı, sevilən ətirli losyonla dərini masaj etməyi və xoş havada birlikdə həyətdə oturmağı təklif edir. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) isə hekayə danışmağı, şəkil göstərməyi, yumşaq toxunuşu və ya masajı, ağ səs və ya təbiət səslərini əlavə edir və yalnız sizin varlığınızın sakitləşdirici ola biləcəyini qeyd edir.
 
-[Alzheimer’s Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) qeyd edir ki, gec mərhələdəki insanların rahatlıq üçün nəyisə yaxın tutmağa güclü ehtiyacı olur və sadə hissi fəaliyyətlər, mülayim dartınmalar, şərflə hərəkət, musiqi, heyvan ziyarətləri, insan toxunuşu və sərbəst incəsənət təklif edir.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) qeyd edir ki, son mərhələdəki insanların çox vaxt rahatlıq üçün bir şeyi sıx tutmaq ehtiyacı güclü olur və sadə hiss fəaliyyətləri, yumşaq əsnətmələr, şərf hərəkətləri, musiqi, heyvan ziyarətləri, insan toxunuşu və sərbəst təsviri sənət təklif edir.
 
-## Yataqda və ya stulda olan şəxs üçün fəaliyyətlər
+## Yataqda və ya kreslodə olan insan üçün fəaliyyətlər
 
-1. **Onun musiqisini qoşun.** Gənclik illərindən, inancından və ya ailəsindən mahnılar seçin. Səsi yumşaq saxlayın və yaxın oturun. İndi də bəziləri barmağı ilə ritm tutur və ya zümzümə edir. [Musiqi fəaliyyətlərinə](/activities/music/) baxın.
-2. **Əl tutun.** Sadəcə əl tutmaq, baş barmaqla yumşaq sığallamaqla, fəaliyyətdir. Əvvəlcə nə etdiyinizi deyin.
-3. **Yavaş əl masajı edin.** Bir az kremi ovuclarınızda isidin və biləkdən barmaq uclarına qədər sığallayın. Ətirsiz krem seçin və ya dərisi qəbul edərsə, həmişə sevdiyi qoxunu.
-4. **Ucadan oxuyun.** Sevdiyi şeir, çox sevilən kitabdan parça, müqəddəs mətn və ya idman səhifəsi. Səsinizin ritmi sözlərdən daha vacibdir.
-5. **Hekayə danışın.** Ailə səfəri və ya evləndiyi gün haqqında danışın. Cavab gözləmək lazım deyil.
-6. **Şəkillər göstərin.** Bir dəfəyə bir iri şəkli göz səviyyəsində tutun və mehribanlıqla təsvir edin. Şəkildəkinin kim olduğunu soruşmayın.
-7. **Tutmaq üçün yumşaq bir şey təklif edin.** Qatlanmış əski, flis kvadrat və ya yumşaq heyvan. NIA şəxsi yerini dəyişərkən tutması üçün əski verməyi təklif edir ki, sizi və ya mebeli yaxalamaq ehtimalı azalsın.
-8. **Təbiət səsləri qoşun.** Yağış, dalğalar və ya quş səsi aşağı səslə səs-küylü otağı yumşalda bilər.
-9. **Çölü içəri gətirin.** Pərdələri açın, pəncərənin kənarına quş yemliyi qoyun və ya baxmaq və toxunmaq üçün bir neçə təzə çiçək və ya yarpaq gətirin.
-10. **Çölə çıxın.** Şəxs əlil arabasında otura bilirsə, mülayim gündə kölgədə bir neçə dəqiqə gözəl ola bilər.
-11. **Saçını darayın və ya isti əski təklif edin.** Yavaş, mülayim qulluq və əllər və üz üçün isti əski qayğı kimi hiss oluna bilər.
-12. **Musiqi ilə yumşaq hərəkət edin.** Birlikdə yüngül şərf yelləyin və ya əlləri mahnının ritmində yelləyin. Dartınma və oynaq hərəkətləri üçün əvvəlcə fizioterapevtdən və ya tibb bacısından təhlükəsiz üsulları göstərməsini xahiş edin.
-13. **Sərbəst incəsənət edin.** Zəhərsiz boyanı iri kağıza süngər və ya əllə yayın, sizin əliniz istiqamətləndirsin. Düzgün nəticə yoxdur.
-14. **Heyvan ziyarətlərini qarşılayın.** Şəxs heyvanları xoşlayırdısa və mühit imkan verirsə, yataqda və ya qucaqda sakit ev heyvanı.
-15. **Birlikdə yavaş nəfəs alın.** Yaxın oturun və yavaş və eşidilən şəkildə nəfəs alın. [Sakit nəfəs](/games/calm-breathing/) ikinizin tempini tutmağa kömək edə bilər və onu siz başladıb dayandırırsınız.
-16. **Sadəcə yanında olun.** Yaxında oturun, zümzümə edin, toxuyun və ya sakitcə oxuyun. Yanında olmaq kifayətdir.
+1. **Onların musiqisini qoyun.** Gənclik illərindən, inancından və ya ailəsindən mahnılar seçin. Səsi yumşaq saxlayın və yaxında oturun. Hətta indi bəziləri barmağı ilə vurur və ya mırıldanır. Bax: [musiqi fəaliyyətləri](/creative-calm/music-for-calm-and-connection/).
+2. **Əl tutun.** Sadəcə əlini, baş barmağınızla yumşaq sığallayaraq tutmaq da bir fəaliyyətdir. Əvvəlcə nə etdiyinizi deyin.
+3. **Yavaş əl masajı edin.** Ovuclarınızda bir az losyon qızdırın və biləkdən barmaq uclarına doğru sığallayın. Qoxusuz losyon seçin və ya dərisi dözə bilirsə, sevdiyi qoxunu seçin.
+4. **Yüksək səslə oxuyun.** Sevimli şeir, sevilən kitabdan bir hissə, dini mətn və ya qəzetin idman səhifəsi. Səsinizin ritmi sözlərdən daha vacibdir.
+5. **Hekayə danışın.** Ailəvi səfər və ya evləndikləri gün haqqında danışın. Cavab gözləmək lazım deyil.
+6. **Şəkil göstərin.** Hər dəfə bir böyük şəkli göz hizasında tutun və isti tonla təsvir edin. Şəkildə kimin olduğunu soruşmaqdan çəkinin.
+7. **Tutmaq üçün yumşaq bir şey verin.** Qatlanmış dəsmal, fleece parçası və ya yumşaq oyuncaq heyvan. NIA, yerdəyişmə zamanı insana dəsmal tutdurmağı təklif edir ki, sizə və ya mebelə yapışmaq ehtimalı azalsın.
+8. **Təbiət səsləri qoyun.** Yağış, dalğa və ya quş səsləri aşağı səslə səs-küylü otağı yumşalda bilər.
+9. **Xarici dünyanı içəri gətirin.** Pərdələri açın, pəncərə kənarına quş yemliyi qoyun və ya baxmaq və toxunmaq üçün bir neçə təzə çiçək və ya yarpaq gətirin.
+10. **Həyətə çıxın.** Əgər insan təkərli kreslo ilə oturabilirsə, mülayim bir gündə kölgədə bir neçə dəqiqə çox xoş ola bilər.
+11. **Saçını darayın və ya isti dəsmal təklif edin.** Yavaş, yumşaq baxım və əllər və üz üçün isti dəsmal qayğı kimi hiss oluna bilər.
+12. **Musiqi ilə yumşaq hərəkət edin.** Birlikdə yüngül şərf yellədin və ya mahnının ritmində əllərinizi yırğalayın. Əsnətmə və oynaq hərəkətləri üçün əvvəlcə fizioterapevtdən və ya tibb bacısından təhlükəsiz üsulları göstərməyi xahiş edin.
+13. **Sərbəst təsviri sənət edin.** Böyük kağız üzərinə süngər və ya əllə zəhərsiz boya çəkin, sizin əlinizin köməyi ilə yönləndirərək. Düzgün nəticə yoxdur.
+14. **Heyvan ziyarətlərini qəbul edin.** İnsan heyvanları sevirsə və mühit icazə verirsə, sakit bir ev heyvanını yataq və ya dizlər üzərinə qoyun.
+15. **Birlikdə yavaş nəfəs alın.** Yaxın oturun və yavaş, eşidiləcək səslə nəfəs alın. [Sakit nəfəs alma](/games/calm-breathing/) ikinizin də ritmini tənzimləyə bilər və onu siz başladıb dayandırırsınız.
+16. **Sadəcə yanında olun.** Yaxında oturun, mırıldanın, toxuyun və ya səssizcə oxuyun. Yanında olmaq kifayətdir.
 
-## Bu mərhələdə fəaliyyəti necə bölüşməli
+## Bu mərhələdə fəaliyyəti necə paylaşmaq olar
 
-- **Qarşıdan yaxınlaşın.** Toxunmazdan əvvəl adını və öz adınızı deyin və yavaş, yumşaq danışın.
-- **Bir dəfəyə bir şey təklif edin.** Musiqini qoşmazdan əvvəl televizoru söndürün. Bir dəfəyə bir hissi işlədin.
-- **Qısa saxlayın.** Bir neçə dəqiqə kifayət ola bilər. Gün ərzində bir neçə qısa an bir uzun seansdan yaxşıdır.
-- **Əvvəlcə rahatlaşın.** Şəxsin yaxşı dəstəkləndiyinə əmin olun. NIA oturanda qolları dincəltmək və bədənin yuxarı hissəsini dəstəkləmək üçün qucaq lövhəsi təklif edir.
-- **Reaksiyaya baxın.** Boşalmış əllər, yumşalmış üz, göz təması və ya zümzümə rahatlıq göstərir. NIA qeyd edir ki, inildəmək, üzü turşutmaq, bədənin bir hissəsini qorumaq və ya qəfil narahatlıq ağrı əlaməti ola bilər. Dayanın və qayğı komandasına deyin.
+- **Öndə yaxınlaşın.** Toxunmazdan əvvəl adını və öz adınızı deyin, yavaş və yumşaq danışın.
+- **Hər dəfə bir şey təklif edin.** Musiqi qoymazdan əvvəl televizoru söndürün. Hər dəfə bir hissi istifadə edin.
+- **Qısa saxlayın.** Bir neçə dəqiqə kifayət edə bilər. Günün ərzində bir neçə qısa an bir uzun sessiyadan daha yaxşıdır.
+- **Əvvəl rahat olun.** İnsanın yaxşı dəstəkləndiyini yoxlayın. NIA oturarkən qolları dayandırmaq və yuxarı bədəni dəstəkləmək üçün dizlik taxtası təklif edir.
+- **Reaksiyaya baxın.** Rahat əllər, yumşalmış üz, göz təması və ya mırıldanma rahatlıq göstərir. NIA qeyd edir ki, inləmə, üzü bürüşdürmə, bədənin bir hissəsini qoruma və ya qəfil narahatlıq ağrının əlaməti ola bilər. Dayanın və baxıcı komandaya xəbər verin.
 
-## Hisslərə görə qısa bələdçi
+## Hiss orqanına görə qısa bələdçi
 
-| His | İdeyalar | Diqqət edin |
+| Hiss | Fikirlər | Diqqət |
 | --- | --- | --- |
-| Eşitmə | Sevdiyi musiqi, sizin oxuyan səsiniz, təbiət səsləri | Səsi aşağı saxlayın; bir dəfəyə bir səs |
-| Toxunuş | Əl masajı, əl tutmaq, yumşaq parça, isti əski | Əvvəlcə soruşun və ya xəbər verin; dərinin ağrılı və ya zədəli olmadığını yoxlayın |
-| Görmə | Şəkillər, çiçəklər, pəncərədən mənzərə, yavaş təbiət videosu | Əşyaları göz səviyyəsində tutun; yaxşı işıq, parıltısız |
-| Qoxu | Sevdiyi krem, təzə çiçəklər, yaxında dəmlənən qəhvə | Güclü qoxulardan çəkinin; allergiya və tənəffüsü yoxlayın |
-| Dad | Sevdiyi dadın kiçik bir ləzzəti | Yalnız qayğı komandasının təhlükəsiz dediyi yemək və quruluşlar |
+| Eşitmə | Sevilən musiqi, sizin səsinizlə oxumaq, təbiət səsləri | Səsi aşağı saxlayın; hər dəfə bir səs |
+| Toxunuş | Əl masajı, əl tutmaq, yumşaq parça, isti dəsmal | Əvvəl soruşun və ya xəbər verin; dərinin ağrımadığını və zədəsiz olduğunu yoxlayın |
+| Görmə | Şəkillər, çiçəklər, pəncərədən mənzərə, yavaş təbiət videosu | Şeyləri göz hizasında tutun; yaxşı işıq, parıltı olmasın |
+| Qoxu | Sevilən losyon, təzə çiçəklər, yaxında qəhvə dəmləmək | Güclü qoxulardan çəkinin; allergiya və nəfəsi yoxlayın |
+| Dad | Sevilən dadın bir az hissəsi | Yalnız baxıcı komandanın təhlükəsiz dediyi qida və teksturalar |
 
 ## Bu mərhələdə təhlükəsizlik
 
-Gec mərhələdə udmaq çətinləşə bilər və NIA xəbərdarlıq edir ki, bu, boğulma riskini artırır. Xırda əşyaları əlçatan yerdə qoymayın və yemək-içkini yalnız qayğı komandasının tövsiyə etdiyi quruluşda və vəziyyətdə verin. Toxunuş fəaliyyətləri zamanı dərini yumşaqlıqla yoxlayın, çünki dəri asanlıqla cırıla və ya göyərə bilər. Təhlükəsiz hissi ideyalar haqqında daha çox üçün [hissi fəaliyyətlərə](/activities/sensory/) baxın.
+Son mərhələdə udmaq çətinləşə bilər və NIA bunun boğulma riskini artırdığını xəbərdar edir. Kiçik əşyaları əlçatan yerdə qoymayın və yemək və ya içkini yalnız baxıcı komandanın tövsiyə etdiyi teksturada və vəziyyətdə təklif edin. Toxunuş fəaliyyətləri zamanı dərini yumşaq yoxlayın, çünki dəri asanlıqla cızıla və ya tutula bilər. Təhlükəsiz hiss fəaliyyətləri haqqında daha çox məlumat üçün [hiss fəaliyyətləri](/creative-calm/sensory-activities-for-adults/) bölməsinə baxın.
 
-## Özünüzə də qayğı göstərin
+## Özünüzə də qulluq edin
 
-Gec mərhələdə qayğı göstərmək, evdə də, qayğı evinə ziyarətlər zamanı da fiziki və emosional cəhətdən tələbkardır. Hospis və palliativ qayğı komandaları rahatlıq, dəstək və planlaşdırmada kömək edə bilər və NIA onları kömək mənbəyi kimi sadalayır. Qısa, sakit ziyarətlər dəyərlidir; [demensiyalı şəxsi ziyarət](/activities/visiting/) səhifəsinə baxın. Qruplar aparırsınızsa, [qayğı evi qrup fəaliyyətləri](/activities/care-home-groups/) seansları uyğunlaşdırmaq üçün ideyalar təqdim edir. Və xahiş edirik, [qayğı göstərənin özünə qayğısını](/caregiving/caregiver-self-care/) oxuyun: istirahət yaxşı qayğının bir hissəsidir.
+Son mərhələdə qulluq evdə olsun və ya qulluq evinə ziyarətlər zamanı olsun, həm fiziki, həm emosional cəhətdən çox yorucudur. Hospis və palliativ qulluq komandaları rahatlıq, dəstək və planlaşdırmada kömək edə bilər və NIA onları kömək mənbəyi kimi sadalayır. Qısa, sakit ziyarətlər dəyərlidir; bax: [demansı olan birini ziyarət etmək](/together/visiting-someone-in-care/). Qrupa rəhbərlik edirsinizsə, [qulluq evi qrup fəaliyyətləri](/crafts/craft-group-sessions/) sessiyaları uyğunlaşdırmaq üçün fikirlər verir. Və lütfən, [qulluqçu üçün özünə qulluq](/creative-calm/creative-self-care-for-caregivers/) bölməsini oxuyun: istirahət də yaxşı qulluq etmənin bir hissəsidir.

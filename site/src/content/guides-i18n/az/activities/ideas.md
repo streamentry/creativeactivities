@@ -1,35 +1,30 @@
 ---
-title: "Demensiyalı insanlar üçün fəaliyyətlər: 101 sadə ideya"
-seoTitle: "Demensiyalı insanlar üçün 101 fəaliyyət"
-description: "Demensiya ilə yaşayan insanlar üçün 101 sadə, böyüklərə yaraşan fəaliyyət: dəsmal qatlamaqdan musiqi və şəkillərə qədər, çətinləşdikcə uyğunlaşdırma yolları ilə."
+title: "Demans ilə yaşayan insanlar üçün 101 sadə fəaliyyət"
+seoTitle: "Demans üçün fəaliyyət ideyaları: 101 sadə fəaliyyət"
+description: "Demans ilə yaşayan insanlar üçün 101 sadə yetkin fəaliyyət: dəsmal qatlamaqdan musiqi və fotoşəkillərə qədər, hər birini necə asanlaşdırmaq barədə."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demensiyalı insanlar üçün yaxşı fəaliyyətlər tanış, böyüklərə yaraşan və
-  birlikdə etmək asan olur: camaşır qatlamaq, çeşidləmək, yemək bişirmək,
-  musiqi, şəkillərə baxmaq, gəzinti, bağbanlıq, ev heyvanları ilə vaxt və
-  sadə oyunlar. Şəxsin həmişə xoşladığını seçin, çətin hissələri öz üzərinizə
-  götürün və yorulanda dayanın. Birgə xoş vaxt keçirmək nəyisə bitirməkdən
-  daha vacibdir.
+  Demans ilə yaşayan insanlar üçün yaxşı fəaliyyətlər tanış, yetkinlərə uyğun və birlikdə etmək asan olanlardır: paltar qatlamaq, çeşidləmək, yemək bişirmək, musiqi, fotoşəkillərə baxmaq, gəzinti, bağçılıq, heyvanlarla vaxt keçirmək və sadə oyunlar. Şəxsin həmişə sevdiyi işi seçin, çətin hissələri özünüz götürün və yorulduqda dayandırın. Birlikdə xoş vaxt keçirmək, hər hansı bir işi bitirməkdən daha vacibdir.
 keyPoints:
-  - "Şəxsin öz həyatından başlayın: işi, hobbiləri, inancı və sevdiyi musiqi ən yaxşı bələdçidir."
-  - "Hər fəaliyyəti lazım olduqca kiçildin: daha az addım, daha az seçim, çətin hissəni siz edin."
-  - "Baxmaq, əlində nəsə tutmaq və ya sadəcə yaxında oturmaq da iştirak sayılır."
-  - "Yorğunluq, əsəbilik və ya darıxma görəndə dayanın və ya dəyişin. Tez bitirmək yaxşı nəticədir."
-  - "Birlikdə etmək düzgün etməkdən daha vacibdir."
+  - "Fəaliyyətə şəxsin öz həyatından başlayın: onun işi, hobbisi, inancı və sevimli musiqisi ən yaxşı yol göstəricisidir."
+  - "Lazım gələrsə hər fəaliyyəti sadələşdirin: az addım, az seçim, çətin hissəni özünüz görün."
+  - "Baxmaq, bir şeyi tutmaq və ya sadəcə yaxınlıqda oturmaq da iştirak sayılır."
+  - "Yorğunluq, narahatlıq və ya darıxma əlamətləri görəndə dayandırın və ya dəyişin. Vaxtından əvvəl bitirmək də yaxşı nəticədir."
+  - "Birlikdə etmək, düzgün etməkdən daha vacibdir."
 faq:
-  - q: "Demensiyalı şəxs üçün hansı fəaliyyətlər yaxşıdır?"
-    a: "Şəxsin illərdir etdiyi, bir az sadələşdirilmiş tanış fəaliyyətlər: camaşır qatlamaq, süfrə açmaq, yemək bişirmək, musiqi, şəkillərə baxmaq, gəzinti, bağbanlıq və ev heyvanı ilə vaxt. Böyüklərə yaraşan və faydalı hiss olunan şeyləri seçin və birlikdə edin."
+  - q: "Demans ilə yaşayan insan üçün hansı fəaliyyətlər yaxşıdır?"
+    a: "Şəxsin illərlə etdiyi tanış fəaliyyətlər, bir az sadələşdirilmiş halda: paltar qatlamaq, süfrə yığmaq, yemək bişirmək, musiqi, fotoşəkillərə baxmaq, gəzinti, bağçılıq və heyvanla vaxt keçirmək. Yetkin və faydalı hiss olunan işləri seçin və onları birlikdə görün."
   - q: "Fəaliyyət nə qədər davam etməlidir?"
-    a: "Düzgün müddət yoxdur. Bir gün bir neçə dəqiqə dəsmal qatlamaq kifayət ola bilər, başqa gün bağda bir saat asan gələ bilər. Tempi şəxs özü seçsin və hələ xoş olarkən bitirin."
+    a: "Düzgün müddət yoxdur. Bir gün bir neçə dəqiqə dəsmal qatlamaq kifayət edə bilər, başqa gün bağda bir saat rahat keçə bilər. Tempi şəxs təyin etsin və hələ xoş hiss olunarkən bitirin."
   - q: "Şəxs fəaliyyətdən imtina edərsə nə etməli?"
-    a: "Təzyiq göstərməyin. “Yox” işin çətin göründüyünü, vaxtın düz olmadığını, yorğun və ya narahat olduğunu bildirə bilər. Sonra sınayın, daha kiçik variant təklif edin və ya işi yaxınlıqda özünüz başlayıb ona kömək etməyi təklif edin."
-  - q: "Beyin oyunları demensiyalı insanlar üçün yaxşıdırmı?"
-    a: "Oyunlar birlikdə xoş vaxt keçirməyin yolu ola bilər, amma heç bir oyunun demensiyanı müalicə etdiyi, yavaşlatdığı və ya dayandırdığı sübut olunmayıb. Taymeri, xalı və yanlış cavab səsi olmayan oyunları seçin və onlara sınaq yox, birgə fəaliyyət kimi yanaşın."
-  - q: "Fəaliyyətlərin uşaq oyunu kimi görünməməsi üçün nə etməli?"
-    a: "Həqiqi, böyüklərə məxsus materiallardan istifadə edin: həqiqi dəsmallar, həqiqi reseptlər, böyüklər üçün musiqi və rəssamlıq ləvazimatları, böyüklərin mövzularında şəkillər. İşləri həqiqətən ehtiyacınız olan kömək kimi təqdim edin və şəxslə böyük bir insan olaraq danışın."
+    a: "Israr etməyin. «Yox» cavabı işin çətin gəldiyini, vaxtın səhv seçildiyini və ya şəxsin yorğun və ya narahat olduğunu bildirə bilər. Sonraya saxlayın, daha kiçik variant təklif edin və ya işi özünüz yaxınlıqda başlayıb onu kömək etməyə dəvət edin."
+  - q: "Beyin oyunları demans ilə yaşayan insanlar üçün faydalıdırmı?"
+    a: "Oyunlar birlikdə vaxt keçirməyin xoş yolu ola bilər, lakin heç bir oyunun demansı müalicə etdiyi, yavaşlatdığı və ya dayandırdığı göstərilməyib. Taymeri, xalı və ya səhv cavab səsi olmayan oyunları seçin və onlara imtahan kimi yox, birgə fəaliyyət kimi baxın."
+  - q: "Fəaliyyətlərin uşaqcasına görünməməsi üçün nə etməli?"
+    a: "Real, yetkin materiallardan istifadə edin: əsl dəsmallar, əsl reseptlər, böyüklərə məxsus musiqi və rəsm ləvazimatları, yetkin mövzulu şəkillər. Tapşırıqları həqiqətən ehtiyacınız olan kömək kimi təqdim edin və şəxslə yetkin insan kimi danışın."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +46,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-Demensiya ilə yaşayan şəxs üçün ən yaxşı fəaliyyət adətən onun artıq bildiyi, bir az sadələşdirilmiş və etibar etdiyi biri ilə yan-yana görülən işdir. Aşağıda növlərə görə qruplaşdırılmış 101 ideya var, hər biri necə hazırlamaq və çətinləşəndə necə asanlaşdırmaq barədə qeydlə. Xüsusi avadanlıq lazım deyil və nəyisə bitirmək də lazım deyil. Yaxşı bir günorta bir səbət dəsmal və birlikdə bir fincan çay ola bilər.
+Demans ilə yaşayan insan üçün ən yaxşı fəaliyyət adətən onun artıq bildiyi, bir az sadələşdirilmiş və ona etibar etdiyiniz biri ilə birlikdə etdiyi işdir. Aşağıda 101 ideya var; onlar növlərə görə qruplaşdırılıb və hər biri üçün necə hazırlamaq, çətinləşdikdə necə asanlaşdırmaq göstərilib. Xüsusi avadanlıq lazım deyil və heç nəyi bitirmək məcburi deyil. Yaxşı bir günortanı bir səbət dəsmal və birlikdə bir fincan qəhvə ilə keçirmək olar.
 
-## Düzgün fəaliyyəti necə seçməli?
+## Doğru fəaliyyəti necə seçmək olar?
 
-Siyahıya görə yox, şəxsə görə seçin: onun həmişə xoşladığı və bu gün rahat edə bildiyi şeylərdən başlayın.
+Siyahıya yox, şəxsə görə seçin: onun həmişə sevdiyi və hazırda rahat edə biləcəyi işlərdən başlayın.
 
-- **İşini və hobbilərini düşünün.** [Alzheimer’s Association](https://www.alz.org/help-support/caregiving/daily-care/activities) təklif edir ki, keçmiş ofis işçisi sikkələri çeşidləməyi və ya poçt göndərişlərini yığmağı, bağban isə həyət işlərini xoşlaya bilər.
-- **Onsuz da nə etdiyinə fikir verin.** Atanız hər səhər xahiş olmadan eyvanı süpürürsə, bunu günə daxil edin.
-- **Məhdudiyyətlərə görə planlaşdırın.** Yorğunluq, görmə, eşitmə, ağrıyan əllər və tarazlıq vacibdir.
-- **Əhval-ruhiyyəsinə baxın.** Səs-küylü, məşğul fəaliyyətlər bəzilərinə yaraşır, bəzilərini qorxudur.
-- **Ona məqsəd verin.** İcma yeməyi üçün salfetləri qatlamaq özlüyündə məşqdən daha mənalı hiss olunur.
+- **Onun işini və hobbisini düşünün.** [Alzheimer Assosiasiyası](https://www.alz.org/help-support/caregiving/daily-care/activities) təklif edir ki, əvvəllər ofisdə işləmiş biri pulları çeşidləməyi və ya poçt göndərişlərini yığmağı sevə bilər, bağban isə həyət işlərini.
+- **Onun artıq etdiyi işləri nəzərə alın.** Atanız hər səhər heç kim istəmədən eyvanı süpürürsə, bunu gününüzə daxil edin.
+- **Məhdudiyyətləri nəzərə alın.** Yorğunluq, görmə, eşitmə, ağrılı əllər və tarazlıq hamısı vacibdir.
+- **Əhval-ruhiyyəsinə diqqət edin.** Səs-küylü, hərəkətli fəaliyyətlər bəzilərinə uyğun gəlir, bəzilərini isə qorxudur.
+- **Ona məqsəd verin.** Kilsə yeməyi üçün salfet qatlamaq, sırf idman üçün idman etməkdən daha mənalı hiss olunur.
 
-### Mərhələyə görə təxmini bələdçi
+### Mərhələlərə görə qısa bələdçi
 
-Demensiya çox vaxt erkən, orta və gec mərhələlərə bölünür. Bunlar boş etiketlərdir, qutu deyil, bir çox insanın daha yaxşı və daha çətin günləri olur, ona görə bu gün gördüyünüzə əsaslanın. [Alzheimer’s Foundation of America-nın mərhələyə görə siyahısı](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) oxşar quruluşa malikdir.
+Demans çox vaxt erkən, orta və son mərhələlər şəklində təsvir olunur. Bunlar sərt sərhədlər yox, ümumi adlardır və bir çox insanın yaxşı və çətin günləri olur, ona görə də bu gün nə gördüyünüzə əsaslanın. [Amerika Alzheimer Fondunun mərhələlər üzrə siyahısı](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) oxşar quruluşa malikdir.
 
-| Mövzu | Erkən mərhələ | Orta mərhələ | Gec mərhələ |
+| Mövzu | Erkən mərhələ | Orta mərhələ | Son mərhələ |
 | --- | --- | --- | --- |
-| Nəyi görə bilərsiniz | Əsasən müstəqil; planlaşdırma, yeni adlar və izdihamlı yerlər çətinləşir | Başlamaq və addımlar üçün kömək lazımdır; sözlər daha çətin gəlir | Gündəlik qayğıların çoxunda kömək lazımdır; hisslər ən vacibdir |
-| Çox vaxt uyğun gələn fəaliyyətlər | Kartlar, stolüstü oyunlar, yemək bişirmək, bağbanlıq, gündəlik yazmaq, çıxışlar, klublar | Camaşır qatlamaq, çeşidləmək, yemək bişirmənin sadə addımları, mahnı oxumaq, şəkil albomları, müşayiətlə gəzintilər | Sevdiyi musiqi, əl masajı, tutmaq üçün yumşaq əşyalar, ona oxumaq, çöldə oturmaq |
-| Sizin rolunuz | Tərəfdaş: hansı dəstəyi istədiyini soruşun | Hazırlayın, göstərin, çətin hissələri öz üzərinizə götürün | Fəaliyyəti ona gətirin; sizin yanında olmağınız fəaliyyətdir |
-| Daha çox ideya | [Erkən mərhələ](/activities/early-stage/) | [Orta mərhələ](/activities/middle-stage/) | [Gec mərhələ](/activities/late-stage/) |
+| Nə nəzərə çarpa bilər | Əsasən müstəqildir; planlaşdırma, yeni adlar və səs-küylü yerlər çətinləşir | Başlamaq və addımlarda kömək lazımdır; sözlər daha az asanlıqla gəlir | Gündəlik qulluğun əksəriyyətində kömək lazımdır; hisslər ən vacib olur |
+| Çox vaxt uyğun gələn fəaliyyətlər | Kartlar, stolüstü oyunlar, yemək bişirmə, bağçılıq, gündəliyə yazma, gəzintilər, klublar | Dəsmal qatlamaq, çeşidləmə, sadə yemək addımları, mahnı oxumaq, fotoalbomlar, rəhbərlik ilə gəzinti | Sevimli musiqi, əllərə masaj, tutmaq üçün yumşaq şeylər, oxunub-eşidilmə, açıq havada oturmaq |
+| Sizin rolunuz | Tərəfdaş: hansı dəstəyi istədiklərini soruşun | Hazırlayın, göstərin, çətin hissələri öz üzərinizə götürün | Fəaliyyəti ona gətirin; sizin yanınız özü fəaliyyətdir |
+| Daha çox ideya | Erkən mərhələ: bu səhifədə | Orta mərhələ: bu səhifədə | [Son mərhələ](/activities/late-stage/) |
 
-## Demensiyalı şəxslə fəaliyyətə necə başlamalı?
+## Demans ilə yaşayan insanla fəaliyyətə necə başlamaq olar?
 
-Kiçik başlayın, yanında başlayın və “bəli” deməyi asan edin. Çox adam hələ də iştirak etmək istəyir, amma planlaşdırmaq və ya başlamaq çətin gəlir.
+Kiçikdən başlayın, onunla birlikdə başlayın və «hə» deməyi asanlaşdırın. Bir çox insan hələ də iştirak etmək istəyir, lakin planlaşdırmaqda və başlamaqda çətinlik çəkir.
 
-1. **Onun ən yaxşı vaxtını seçin,** çox vaxt səhər.
-2. **Əvvəlcə hər şeyi hazırlayın** ki, dərhal başlaya biləsiniz.
-3. **Nümayiş yox, kömək istəyin:** “Bunlarda mənə əl verərsiniz?”
-4. **Özünüz başlayın.** İlk dəsmalı qatlayın və qoşulmasına imkan verin. Göstərmək izah etməkdən üstündür.
-5. **Bir dəfəyə bir addım təklif edin.**
-6. **Ən çətin hissəni öz üzərinizə götürün.** Alzheimer’s Association inqrediyentləri özünüzün ölçməyi, sonra qarışdırmaq üçün qaşığı ona verməyi təklif edir.
-7. **Öz yolu ilə etməsinə icazə verin.** Fərqli qatlanmış dəsmallar problem deyil.
-8. **Xoş olmaqdan çıxanda dayanın.** Çırpınmaq, qaşqabaq salmaq və ya “bacarmıram” demək fəaliyyəti dəyişmək və ya istirahət etmək üçün əlamətdir.
+1. **Ən yaxşı vaxtını seçin,** adətən səhər.
+2. **Hər şeyi əvvəlcədən düzün,** ki, dərhal başlaya biləsiniz.
+3. **Tamaşa yox, kömək istəyin:** «Bu işlərdə mənə bir əl kömək edə bilərsiniz?»
+4. **İşə özünüz başlayın.** İlk dəsmalı qatlayın və onun da qoşulmasına imkan verin. Göstərmək izah etməkdən yaxşıdır.
+5. **Hər dəfə bir addım təklif edin.**
+6. **Ən çətin hissəni öz üzərinizə götürün.** Alzheimer Assosiasiyası təklif edir ki, ingredientləri özünüz ölçün, sonra qaşığı qarışdırmaq üçün ona verin.
+7. **Qoy iş onun öz üsulu ilə görülsün.** Fərqli qatlanmış dəsmallar da normaldır.
+8. **Xoş olmayanda dayandırın.** Narahatlıq, qaşların çatılması və ya «bacarmıram» sözləri dəyişmək və ya istirahət etmək üçün işarədir.
 
-Həmçinin [birlikdə necə oynamaq olar](/caregiving/how-to-play-together/) və [ünsiyyət məsləhətlərinə](/caregiving/communication-tips/) baxın.
+Həmçinin bax: [birlikdə necə oynamaq olar](/caregiving/how-to-play-together/) və [diaqnozdan sonra ilk addımlar](/caregiving/after-dementia-diagnosis/).
 
 ## Evdə gündəlik işlər
 
-Ev işləri tanış və faydalıdır, bu da onları başlamaq üçün təbii yer edir. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) insanların xoşlaya biləcəyi fəaliyyətlər arasında qabları yumağı, süfrə açmağı, süpürməyi, poçtu çeşidləməyi və camaşırı qatlamağı sadalayır. Daha çoxu [ev işlərində](/activities/household-tasks/).
+Məişət işləri tanış və faydalıdır, ona görə də başlamaq üçün təbii yerdir. [ABŞ Milli Qocalma İnstitutu](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) qab-qacaq, süfrə yığmaq, süpürmək, poçtu çeşidləmək və paltar qatlamağı insanların xoşladığı fəaliyyətlər sırasında göstərir.
 
-1. **İsti dəsmalları qatlayın.** Qurutma maşınından bir səbəti masaya boşaldın və yan-yana qatlayın. Sonra hamarlamaq və yığmaq da eyni dərəcədə köməkdir.
-2. **Corabları cütləyin.** Çox fərqli rənglərdən başlayın. Sonra açığı tündündən ayırmaq kifayətdir.
-3. **Süfrə açın.** Bir dəfəyə bir növ əşya verin. Nümunə olaraq bir yeri özünüz düzün.
-4. **Qabları yuyun və ya qurulayın.** İsti, sabunlu su və sınmayan qablar. Oturaraq qurulamaq ayaqlar üçün daha asandır.
-5. **Masanı silin.** Yeməkdən sonra nəm əski verin. Narahat əllər üçün bu, həqiqi işdir.
-6. **Poçtu çeşidləyin.** Kataloqları və lazımsız poçtu “saxla” və “at” qutularına ayırın. Həqiqi ödəniş sənədlərini kənarda saxlayın.
-7. **Kuponları kəsin.** Uclu olmayan qayçı və market vərəqələri. Sonra sevdiyi yeməkləri dairəyə almaq da olar.
-8. **Sikkələri çeşidləyin.** Xırdanı stəkanlara ayırın və ya bükülərə yığın. Şəxs əşyaları ağzına qoyursa, xırda əşyaları buraxın.
-9. **Süpürün və ya toz silin.** Eyvanda yüngül süpürgə və ya stuldan istifadə olunan uzun saplı toz fırçası.
-10. **Yemək hazırlamağa kömək edin.** Tərəvəzi yumaq, kahını əllə qoparmaq, qarışdırmaq. Bıçaq və istiliyi siz idarə edin.
-11. **Ailə resepti ilə bişirin.** Varsa, onun əl yazısı ilə olan kartdan istifadə edin. Sonra o, dadına baxan ola bilər.
-12. **Ofis işi görün.** Məktubları qatlayın, zərflərə qoyun və möhür vurun və ya alış-veriş siyahısını birlikdə yazın.
+1. **Isti dəsmalları qatlayın.** Quruducudan səbəti masaya boşaldın və yanaşı qatlayın. Sonra hamarlamaq və yığmaq da eyni dərəcədə faydalıdır.
+2. **Corab cütləyin.** Əvvəlcə çox fərqli rəngli corablarla başlayın. Sonra açıq və tünd olanları ayırmaq kifayətdir.
+3. **Süfrə yığın.** Hər dəfə bir növ əşya verin. Bir yeri nümunə kimi özünüz düzün.
+4. **Qab yuyun və ya qurulayın.** İsti, sabunlu su və sınmayan qablar. Oturaraq qurulamaq ayaqlar üçün daha rahatdır.
+5. **Masanı silin.** Yeməkdən sonra nəm bir parça verin. Narahat əllər üçün real işdir.
+6. **Poçtu çeşidləyin.** Kataloqları və reklam məktublarını «saxla» və «təkrar emal et» qutularına ayırın. Real hesabları kənarda qoyun.
+7. **Kupon kəsin.** Yumru ucluqlu qayçı və market reklam vərəqləri. Sonra sevimli yeməkləri dairəyə almaq da olar.
+8. **Sikkələri çeşidləyin.** Pulları fincanlara ayırın və ya kağızlara bükün. Əgər şəxs əşyaları ağzına qoyursa, kiçik əşyaları çıxarın.
+9. **Süpürün və ya tozunu silin.** Eyvanda yüngül süpürgə, ya da oturduğunuz yerdən uzun dəstəkli tozalayıcı.
+10. **Yeməyin hazırlanmasına kömək edin.** Tərəvəzi yumaq, salatı yırtmaq, qarışdırmaq. Bıçaq və istilik sizin üzərinizdə olsun.
+11. **Ailə reseptini bişirin.** Əlində yazılmış resept kartı varsa, ondan istifadə edin. Sonra dadına baxan o olsun.
+12. **Ofis işi görün.** Məktubları qatlayın, zərfləri doldurub möhürləyin və ya birlikdə alış-veriş siyahısı yazın.
 
 ## Musiqi
 
-Tanış musiqi sözlər çətin olanda belə insanlara çata bilər. [Alzheimer’s Association-ın musiqi məsləhətləri](https://www.alz.org/help-support/caregiving/daily-care/art-music) tanış mahnıları, reklamsız musiqini və televizorun söndürülməsini təklif edir. [Musiqi fəaliyyətlərinə](/activities/music/) baxın.
+Tanış musiqi sözlər çətin olanda belə insana çata bilər. [Alzheimer Assosiasiyasının musiqi məsləhətləri](https://www.alz.org/help-support/caregiving/daily-care/art-music) tanış mahnılar, reklamsız musiqi və televizorun söndürülməsini təklif edir. Bax: [musiqi fəaliyyətləri](/creative-calm/music-for-calm-and-connection/).
 
-13. **Şəxsi pleylist yaradın.** Onun yeniyetməlik və iyirmi yaşlarından, toyundan, ibadətindən və mədəniyyətindən musiqi.
-14. **Birlikdə oxuyun.** Özünüz oxumağa başlayın. Zümzümə etmək və ya dinləmək də sayılır.
-15. **Ritm tutun.** Əl çalın, dizlərə vurun və ya əl nağarasına toxunun. Oturaraq və gec mərhələlərdə də işləyir.
-16. **Rəqs edin.** Mətbəxdə yavaş rəqs edin və ya oturaraq əl-ələ yellənin.
-17. **Bütöv albom dinləyin.** Sevdiyi albomu əvvəldən sona, bir fincan çayla və başqa heç nə olmadan.
-18. **Musiqi haqqında danışın.** Faktlar yox, hekayələr istəyin: “Getdiyiniz rəqs gecələrindən danışın mənə.”
-19. **Çəkilmiş musiqili film və ya konserti izləyin.** Sevdiyi tamaşa yaxşı axşam olur. İstənilən an fasilə verin.
-20. **Tanış alətdə çalın.** Keçmiş pianoçu sadə parçaları xoşlaya bilər; sonra birlikdə bir neçə not.
+13. **Şəxsi musiqi siyahısı hazırlayın.** Onun gənclik illərindən, toyundan, kilsəsindən və mədəniyyətindən olan musiqilər.
+14. **Birlikdə oxuyun.** Əvvəl özünüz oxumağa başlayın. Mırıldanmaq və ya dinləmək də sayılır.
+15. **Ritmi tutun.** Əllərinizi çalın, dizlərə vurun və ya əl nağarası çalın. Oturaraq və son mərhələdə də olur.
+16. **Rəqs edin.** Mətbəxdə yavaş rəqs edin, ya da əl-ələ tutub oturaraq yırğalanın.
+17. **Bütün albomu dinləyin.** Sevimli plastinkanı başdan sonadək, qəhvə ilə və başqa heç nə olmadan.
+18. **Musiqi haqqında danışın.** Faktlar yox, hekayələr dəvət edin: «Mənə getdiyiniz rəqslər haqqında danışın.»
+19. **Lentə alınmış musiqili şou və ya konsert izləyin.** Sevdiyi şou yaxşı bir axşam edər. İstənilən an dayandıra bilərsiniz.
+20. **Tanış bir alətdə çalın.** Əvvəllər pianoçu olan biri sadə parçaları sevə bilər; sonra bir neçə notu birlikdə çalmaq olar.
 21. **Canlı musiqi dinləyin.** Qısa icma konserti və ya xor məşqi. Çıxışa yaxın oturun.
 
-## Xatirələr: şəkillər, əşyalar və hekayələr
+## Xatirələr: fotoşəkillər, əşyalar və hekayələr
 
-Keçmişdən yoxlamadan birlikdə zövq alın. “Yadınızdadır?” və “Bu kimdir?” demək əvəzinə açıq dəvətlərdən istifadə edin. [Xatirə fəaliyyətlərinə](/activities/reminiscence/) baxın.
+Keçmişi sınaqdan keçirmədən birlikdə yaşayın. «Xatırlayırsanmı...?» və «Bu kimdir?» suallarını buraxın, əvəzinə açıq dəvətlərdən istifadə edin. Bax: [xatirə fəaliyyətləri](/activities/reminiscence/).
 
-22. **Şəkil albomuna baxın.** Gördüyünüzü deyin: “Nə gözəl paltardır. Bu gündən danışın mənə.” İstifadə etdiyi hər adı qəbul edin.
-23. **Xatirə qutusu hazırlayın.** Həyatından əşyalarla, məsələn iş vəsiqəsi və ya resept kartı ilə dolu bir ayaqqabı qutusu. Əşyaları bir-bir çıxarın.
-24. **Həyat hekayəsi kitabı başlayın.** Hər səhifədə bir neçə şəkil və iri hərflərlə izah. Bu, yeni köməkçilərin şəxsi tanımasına kömək edir.
-25. **Söhbət kartlarından istifadə edin.** [Söhbət kartları](/games/conversation-cards/) şəkli açıq təklifə qoşur.
-26. **Ailə şəkli oyunu hazırlayın.** [Foto cütləri](/games/photo-pairs/) öz şəkillərinizi uyğunlaşdırma oyununa çevirir.
-27. **Ev videolarına və ya köhnə televiziya verilişlərinə baxın.** Sual vermək əvəzinə birlikdə şərh edin.
-28. **İş həyatından əşyaları tutun.** Qayka açarı, stetoskop, mühasibat dəftəri. Çox vaxt əllər hekayəni aparır.
-29. **Uşaqlıq yeməyi bişirin.** Qarışdıra, dadına baxa və ya sadəcə sizinlə mətbəxdə otura bilər.
-30. **Yaşadığı yerlərin xəritəsinə baxın.** Danışarkən iri atlasda tanış yolları izləyin.
+22. **Fotoalbomlara baxın.** Gördüklərinizi deyin: «Nə gözəl paltardır. Bu gün haqqında danışın.» Onun istifadə etdiyi adlarla razılaşın.
+23. **Xatirə qutusu hazırlayın.** Onun həyatından əşyalarla dolu ayaqqabı qutusu, məsələn iş nişanı və ya resept kartı. Əşyaları bir-bir çıxarın.
+24. **Həyat hekayəsi kitabı yaradın.** Hər səhifədə bir neçə fotoşəkil və böyük şriftli başlıqlar. Yeni köməkçilərə şəxsi tanımağa kömək edir.
+25. **Söhbət kartlarından istifadə edin.** [Söhbət kartları](/games/conversation-cards/) şəkli açıq sualla birləşdirir.
+26. **Ailə fotoşəkil oyunu hazırlayın.** [Foto cütləri](/games/photo-pairs/) öz fotolarınızı uyğunlaşdırma oyununa çevirir.
+27. **Ev videolarına və ya köhnə televiziya proqramlarına baxın.** Sual vermək əvəzinə birlikdə şərh edin.
+28. **İş həyatından əşyalara toxunun.** Açar, stetoskop, mühasibat dəftəri. Əllər çox vaxt hekayəni başladır.
+29. **Uşaqlıq yeməyi bişirin.** O qarışdıra, dadına baxa bilər və ya sadəcə sizinlə mətbəxdə oturar.
+30. **Yaşadığı yerlərin xəritəsinə baxın.** Söhbət edərkən böyük atlasda tanış yolları izləyin.
 
 ## Yaradıcı fəaliyyətlər
 
-İncəsənət bitmiş əsərdə deyil, etməkdədir. Materialları böyüklərə yaraşan və təhlükəsiz saxlayın. [Əl işlərinə](/activities/arts-and-crafts/) baxın.
+İncəsənət nəticədən çox, prosesdir. Materialları yetkin və təhlükəsiz saxlayın. Bax: [sənət və sənətkarlıq](/crafts/easy-crafts-for-adults/).
 
-31. **Akvarellə rəsm çəkin.** Qalın kağız, bir neçə rəng. Başlamaq çətindirsə, ilk cızıqları birlikdə çəkin.
-32. **Böyüklər üçün naxışları rəngləyin.** Cizgi filmləri yox, çiçəklər və ya yorğanlar. [Rəngləmə səhifələrimiz](/games/coloring/) ekranda və ya çapda işləyir.
-33. **Kollaj hazırlayın.** Jurnallardan bağ, maşın və ya yemək şəkillərini cırıb yapışdırın. Sonra yalnız şəkilləri seçmək kifayətdir.
-34. **Çiçək düzün.** Marketdən bir dəstə və vaza. Sonra bankada bir neçə saplaq.
-35. **Birlikdə toxuyun.** İri mili ilə sadə cərgələr. Sonra yun ipi yumaq etmək.
-36. **Ailə üçün kartlar hazırlayın.** Həqiqi insanlar üçün ad günü və tezliklə sağal kartlarını möhürləyin, imzalayın və ya bəzəyin.
-37. **Havada quruyan gildən forma verin.** Kiçik bir qab basıb düzəldin. Zəhərsiz materiallardan istifadə edin və yaxında qalın.
-38. **Ağacı zımparalayın.** Əvvəlcədən kəsilmiş quş evi dəsti və zımpara kağızı, elektrik alətləri olmadan. [Kişilər üçün fəaliyyətlərə](/activities/for-men/) baxın.
-39. **Məktub yazın və ya diktə edin.** Nəvəyə və ya köhnə dosta. Yazmaq çətindirsə, o danışır, siz yazırsınız.
+31. **Akvarel ilə rəsm çəkin.** Qalın kağız, bir neçə rəng. Başlamaq çətindirsə, ilk xətləri birlikdə çəkin.
+32. **Yetkin naxışları rəngləyin.** Cizgi filmi yox, çiçəklər və ya yorğanlar. [Rəngləmə səhifələrimiz](/games/coloring/) ekranda və ya çap şəklində işləyir.
+33. **Kollaj hazırlayın.** Bağçaların, maşınların və ya yeməklərin şəkillərini jurnaldan qoparıb yapışdırın. Sonra yalnız şəkil seçmək də kifayətdir.
+34. **Gül düzün.** Market dəstəsi və vaza. Sonra qavanda bir neçə gövdə.
+35. **Birlikdə toxuyun və ya kroçe edin.** Böyük sancaqlarla sadə sıralar. Sonra ipi topa dolamaq.
+36. **Ailə üçün kartlar hazırlayın.** Real insanlar üçün doğum günü və geciddirmə kartlarını möhürləyin, imzalayın və ya bəzəyin.
+37. **Hava ilə quruyan gil formalayın.** Kiçik bir qab hazırlayın. Zəhərsiz materiallardan istifadə edin və yaxınlıqda qalın.
+38. **Ağacı zımpara edin və örtün.** Hazır kəsilmiş quş evi dəsti və zımpara, elektrik alətləri olmadan.
+39. **Məktub yazın və ya diktə edin.** Nəvəyə və ya köhnə dostunuza. Yazmaq çətindirsə, o danışır, siz yazırsınız.
 
-## Çöl və bağbanlıq
+## Açıq hava və bağçılıq
 
-Təmiz hava və gün işığı yaxşı yoldaşdır. [Çöl və bağbanlıq fəaliyyətlərinə](/activities/outdoor-and-gardening/) baxın.
+Təmiz hava və gün işığı yaxşı yoldaşdır. Bax: [açıq hava və bağ fəaliyyətləri](/together/outdoor-and-garden-activities/).
 
-40. **Bitkiləri sulayın.** Kiçik bir qab və bir neçə güldan. Gündəlik suvarma günə ritm verir.
-41. **Bir güldan əkin.** Heç kim diz çökməsin deyə masanın üstünə qoyun. Tinglər toxumdan asandır.
-42. **Alaq otlarını və solmuş çiçəkləri təmizləyin.** Əlcək taxın, bir dəfəyə bir kiçik gül yatağı.
-43. **Yarpaq tırmıqlayın.** Bir kiçik sahə. Sonra torbanı açıq tutmaq həqiqi işdir.
-44. **Tanış marşrutla gəzin.** Məhəllənin ətrafı və ya poçt qutusuna qədər. Qısa da olar.
-45. **Birlikdə çöldə oturun.** Mülayim gündə eyvanda stul. Buludlara və ya yoldan keçənlərə baxın.
-46. **Quşları yemləyin.** Birlikdə yemlik doldurun və pəncərə kənarından izləyin.
-47. **Maşını yuyun.** Vedrə, süngər, isti günorta. Təkər qapaqlarını durulamaq yaxşı bir addımlıq işdir.
+40. **Bitkiləri suvarın.** Kiçik bir qab və bir neçə saxsı. Hər gün suvarmaq günə ritm verir.
+41. **Saxsıya əkin əkin.** Heç kim diz çökməsin deyə masaya qoyun. Toxumdan çox, şitillər əkmək daha asandır.
+42. **Ot təmizləyin və ya solmuş çiçəkləri dərin.** Əlcək taxın, hər dəfə bir kiçik yataqda.
+43. **Yarpaqları səpin.** Bir kiçik sahə. Sonra torbanı açıq tutmaq real işdir.
+44. **Tanış yolla gəzin.** Blok ətrafında və ya poçt qutusuna qədər. Qısası da yaxşıdır.
+45. **Birlikdə açıq havada oturun.** Mülayim günü eyvan stulunda. Buludlara və ya keçənlərə baxın.
+46. **Quşları yedizdirin.** Birlikdə yem qabını doldurun və pəncərə kənarından izləyin.
+47. **Maşını yuyun.** Vedrə, süngər, isti günortadan sonra. Təkər qapaqlarını yuymaq yaxşı bir addımlı işdir.
 
-## Hissi fəaliyyətlər
+## Hissləri oyadan fəaliyyətlər
 
-Demensiya irəlilədikcə toxunuş, qoxu, dad, səs və görmə daha çox əhəmiyyət kəsb edir. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) gec mərhələlər üçün musiqi, tutmaq üçün əşyalar və əl masajını qeyd edir. Əvvəlcə allergiyalara və boğulma risklərinə baxın; [hissi fəaliyyətlərə](/activities/sensory/) baxın.
+Toxunma, iy, dad, səs və görmə, demans irəlilədikcə daha vacib olur. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) sonrakı mərhələlər üçün musiqi, tutmaq üçün əşyalar və əllərə masaj qeyd edir. Əvvəlcə allergiyaları və boğulma risklərini yoxlayın; bax: [hissləri oyadan fəaliyyətlər](/creative-calm/sensory-activities-for-adults/).
 
-48. **Əl masajı edin.** Əvvəlcə soruşun və az miqdarda krem istifadə edin. Dəri və ya allergiyadan əmin deyilsinizsə, ətirsiz seçin.
-49. **Parçalara toxunun.** Tumar, kord, yun və atlazdan ibarət səbət, sığallamaq və qatlamaq üçün.
-50. **Otların və qəhvənin qoxusunu alın.** Təzə nanə və ya rozmarini barmaqlar arasında ovuşdurun. Tənəffüs problemi olanlarda güclü qoxulardan çəkinin.
-51. **Saçını darayın.** Xoşlayırsa, yavaş və mülayim.
-52. **İsti əski ilə silin.** Soyuq gündə əllər və üz üçün. Əvvəlcə temperaturu yoxlayın.
-53. **Fəaliyyət önlüyünü kəşf edin.** Möhkəm tikilmiş iri düymələr və fermuarlar. Heç nəyin qopa bilmədiyini yoxlayın.
-54. **Sevdiyi dadlı şeyi dadın.** Təhlükəsiz idarə edə biləcəyi quruluşda kiçik bir qaşıq.
-55. **Təbiət səsləri qoşun.** Yağış, dalğalar və ya quş səsi aşağı səslə.
-56. **Yavaş bir şeyə baxın.** Akvarium, təbiət videosu və ya yağan qar.
+48. **Əllərə masaj edin.** Əvvəlcə soruşun və bir az krem istifadə edin. Dəri və ya allergiya ilə bağlı əminsinizsə, ətirsiz olanı seçin.
+49. **Parçaları hiss edin.** Sığallamaq və qatlamaq üçün məxmər, kordon, yun və atlas səbəti.
+50. **Otu və qəhvəni iyləyin.** Təzə nanə və ya rozmarini barmaqlarınız arasında sürtün. Tənəffüs problemi olanda güclü ətirlərdən çəkinin.
+51. **Saçını daraqlayın.** Yavaş və yumşaq, əgər bundan xoşlanırsa.
+52. **İsti dəsmal paylaşın.** Soyuq gündə əllər və üz üçün. Əvvəlcə temperaturu yoxlayın.
+53. **Fəaliyyət önlüyünü araşdırın.** Böyük düymələr və möhkəm tikilmiş fermuarlar. Heç nəyin açılmadığından əmin olun.
+54. **Sevimli şirinliyi dadın.** Təhlükəsiz çeynəyə biləcəyi tekstura ilə kiçik bir qaşıq.
+55. **Təbiət səslərini qoyun.** Yağış, dalğa və ya quş səsi aşağı səslə.
+56. **Yavaş bir şeyə baxın.** Akvarium, təbiət videosu və ya düşən qar.
 
 ## Oyunlar və tapmacalar
 
-Oyunlar taymer, xal və təzyiq olmayanda işləyir. Biri sınağa bənzəməyə başlayırsa, onu kənara qoyun. [Tətbiq və oyun seçiminə](/caregiving/choosing-apps-and-games/) və [beyin oyunlarına](/brain-health/brain-games/) baxın.
+Oyunlar taymer, xal və ya təzyiq olmadıqda işləyir. Əgər biri imtahan kimi hiss olunmağa başlayırsa, onu kənara qoyun. Bax: [oyunlar səhifəsi](/games/) və [evdə demans fəaliyyətləri](/dementia-activities/).
 
-57. **Şəkilləri uyğunlaşdırın.** [Şəkil cütləri](/games/picture-pairs/) şəkillərin üzü yuxarı qalmasına imkan verir, ona görə söhbət yadda saxlamaq haqqında yox, fikir vermək haqqındadır.
-58. **Eyni şəkli tapın.** [Eynisini tapın](/games/find-the-same/) iki-dörd seçim təklif edir. Hər şəkil haqqında söhbət edin.
-59. **Səbətlərə çeşidləyin.** [Birlikdə çeşidləyək](/games/sort-together/) ekranda corab çeşidləməyə bənzəyir.
-60. **İri hissəli tapmaca yığın.** Böyüklər üçün şəkillər, asan hissə sayı. [Şəkil tapmacası](/games/picture-puzzle/) bütün şəkli görünən saxlayır. Daha çoxu [demensiya üçün tapmacalarda](/activities/puzzles/).
-61. **Köhnə kart oyunu oynayın.** İllərdir oynadığı hər hansı biri. Sonra dəstəni rəngə görə çeşidləmək özü oyundur.
-62. **Domino oynayın.** Uclarını uyğunlaşdırın. Sonra yalnız daşları cərgəyə düzmək də olar.
-63. **İri çaplı söz axtarışını sınayın.** [Söz axtarışımızda](/games/word-search/) sözlər yalnız yan-yana və yuxarıdan aşağı gedir və çap olunur.
-64. **Tanış deyimləri tamamlayın.** [Deyimi tamamlayın](/games/finish-the-saying/) sonunu istənilən vaxt göstərməyə imkan verir.
-65. **Şəkilli bingo oynayın.** [Şəkil bingosu](/games/picture-bingo/) ailələrə və qruplara yaraşır. Kartları işarələməyə sərbəst kömək edin.
-66. **Dama oynayın.** Qaydaları sərbəst saxlayın. Söhbət edə-edə daşları hərəkət etdirmək də sayılır.
+57. **Şəkilləri uyğunlaşdırın.** [Şəkil cütləri](/games/picture-pairs/) şəkilləri üzü yuxarı saxlayır, yəni yaddaşdan çox diqqət tələb olunur.
+58. **Eyni şəkli tapın.** [Eynisini tap](/games/find-the-same/) iki-dörd seçim təklif edir. Hər şəkil haqqında danışın.
+59. **Səbətlərə çeşidləyin.** [Birlikdə çeşidləyin](/games/sort-together/) ekranda corabları çeşidləməyə bənzəyir.
+60. **Böyük parçalı tapmaca yığın.** Yetkin şəkillər, asan hissə sayı. [Şəkil tapmacası](/games/picture-puzzle/) bütün şəkli görünən saxlayır. Daha çoxu: [tapmacalar və stolüstü oyunlar](/together/puzzles-and-table-games/).
+61. **Köhnə kart oyunu oynayın.** İllərlə oynadıqları hansısa oyun. Sonra kartları rənginə görə düzmək də ayrıca oyundur.
+62. **Domino oynayın.** Uclarını uyğunlaşdırın. Sonra sadəcə daşları düzmək də olar.
+63. **Böyük şriftli söz axtarışı sınayın.** [Söz axtarışımız](/games/word-search/) yalnız üfüqi və şaquli sözlərə malikdir və çap olunur.
+64. **Tanış atalar sözlərini tamamlayın.** [Atalar sözünü tamamla](/games/finish-the-saying/) istənilən an sonunu göstərməyə imkan verir.
+65. **Şəkilli bingo oynayın.** [Şəkilli bingo](/games/picture-bingo/) ailələrə və qruplara uyğundur. Kartları sərbəst işarələməyə kömək edin.
+66. **Dama oynayın.** Qaydaları sərbəst saxlayın. Söhbət edərkən daşları tərpətmək də sayılır.
 
 ## Hərəkət
 
-NIA gəzintiləri, velotrenajoru, dartınma lentlərini, yumşaq top və ya şar atmağı, konserv qutularını qaldırmağı və yaşlılar üçün idman videolarını təklif edir. Xüsusilə tarazlıq problemi olarsa, yeni bir şeyə başlamazdan əvvəl həkimlə məsləhətləşin.
+ABŞ Milli Qocalma İnstitutu (NIA) gəzintiləri, stasionar velosipedi, gərginlik lentlərini, yumşaq top və ya şar atmağı, şorba konservlərini qaldırmağı və yaşlı yetkinlər üçün məşq videolarını təklif edir. Hər hansı yeni fəaliyyətə başlamazdan əvvəl həkiminizlə məsləhətləşin, xüsusilə tarazlıq problemləri varsa.
 
-67. **Şar atın.** Üz-üzə oturun. Yavaş hərəkət edir, ona görə tutmaq asandır.
-68. **Yaşlılar üçün hazırlanmış oturaq idman videosunu** yan-yana izləyin.
-69. **Lentlə dartının.** Oturaraq yüngül lentlə mülayim qol dartmaları.
-70. **Konserv qutularını qaldırın.** Yavaş qol qaldırmaları, bəlkə də musiqi ilə.
-71. **Velotrenajorda sürün.** Bir neçə asan dəqiqə, siz yaxında olmaqla.
-72. **Şərflərlə rəqs edin.** Oturaraq və ya ayaq üstə musiqiyə yüngül şərfləri yelləyin.
-73. **Məqsədlə gəzin.** Məktub göndərməyə və ya bir qəhvə almağa. Getmək üçün səbəb təbii hiss olunur.
-74. **Birgə nəfəs fasiləsi verin.** [Sakit nəfəs](/games/calm-breathing/) ilə birlikdə yavaşlayın.
+67. **Şar atın.** Bir-birinə baxaraq oturun. Yavaş hərəkət edir, buna görə tutmaq asandır.
+68. **Yaşlılar üçün hazırlanmış oturaq məşq videosunu yanaşı izləyin.**
+69. **Lentlə gərginlik məşqi edin.** Oturaraq yüngül lentlə qolları yavaş dartın.
+70. **Şorba konservlərini qaldırın.** Qolları yavaş qaldırın, bəlkə musiqi ilə.
+71. **Stasionar velosiped sürün.** Bir neçə asan dəqiqə, siz yanınızda.
+72. **Şarflarla rəqs edin.** Yüngül şarfları musiqi ilə yelləyin, oturaraq və ya ayaq üstə.
+73. **Məqsədlə gəzin.** Məktub göndərmək və ya qəhvə almaq üçün. Getmək üçün səbəb təbii hiss olunur.
+74. **Nəfəs fasiləsi edin.** [Sakit nəfəs](/games/calm-breathing/) ilə birlikdə yavaşlayın.
 
 ## Sosial fəaliyyətlər
 
-Adlar çətin olanda belə ünsiyyət vacibdir və kiçik qruplar böyüklərdən asandır. NIA qeyd edir ki, şəxs qonağın kim olduğunu xatırlamaya bilər, amma çox vaxt yenə də ünsiyyətdən zövq alır. [Ziyarətlərə](/activities/visiting/) baxın.
+Adlar çətin olanda belə ünsiyyət vacibdir və kiçik qruplar böyük qruplardan asandır. NIA qeyd edir ki, şəxs qonağın kim olduğunu xatırlamasa da, çox vaxt yenə də ünsiyyətdən zövq alır. Bax: [ziyarət](/together/visiting-someone-in-care/).
 
-75. **Bir dəfəyə bir-iki qonaq qəbul edin.** Sakit otaqda qısa ziyarətlər, baxmaq üçün şəkillərlə.
-76. **Ailə ilə video zəng edin.** Qısa zənglər, bir dəfəyə bir səs. [Telefon və video zənglərə](/activities/phone-and-video-calls/) baxın.
-77. **Xatirə kafesini sınayın.** Demensiya ilə yaşayanlar və onlara qayğı göstərənlər üçün qeyri-rəsmi, gəlib-getməli toplantılar. Yaxınlıqda nə olduğunu yerli sosial xidmətdən və ya demensiya təşkilatından soruşun.
-78. **Sakit vaxtda kənarda yeyin.** NIA tanış, sakit restoranı, az adamın olduğu saatlarda, tualetə yaxın masa ilə təklif edir.
-79. **Yaşlılar mərkəzinə və ya gündüz proqramına baxın.** Onun üçün ünsiyyət, sizin üçün fasilə.
-80. **Uşaqlarla vaxt keçirin.** Nəvələrin qısa, sakit ziyarəti və ya körpəyə şəkilli kitab oxumaq.
-81. **Qəzeti çay üstündə bölüşün.** Başlıqları ucadan oxuyun. Ritual xəbərdən daha vacibdir.
-82. **Başqasına kömək edin.** İcma tədbirinin proqramlarını qatlayın və ya qonşu üçün kart hazırlayın.
+75. **Eyni anda bir və ya iki qonaq qəbul edin.** Sakit otaqda qısa ziyarətlər, baxmaq üçün fotoşəkillərlə.
+76. **Ailəyə videozəng edin.** Qısa zənglər, eyni anda bir səs. Bax: [telefon və video zənglər](/together/staying-connected-from-afar/).
+77. **Yaddaş kafesini sınayın.** Demans ilə yaşayan insanlar və onların qayğıkeşləri üçün qeyri-rəsmi görüşlər. Yerli Qocalma Sahəsi Agentliyindən (Area Agency on Aging) yaxında nə olduğunu soruşun.
+78. **Səssiz vaxtda restorana gedin.** NIA tələb olunmayan vaxtda, tanış və səssiz restoranı təklif edir, tualetə yaxın masa ilə.
+79. **Yaşlılar mərkəzinə və ya gündüz proqramına baş çəkin.** Onlar üçün ünsiyyət, sizin üçün isə fasilə.
+80. **Uşaqlarla vaxt keçirin.** Nəvələrin qısa və sakit ziyarəti, ya da kiçik uşağa şəkilli kitab oxumaq.
+81. **Qəhvə ilə qəzet paylaşın.** Başlıqları ucadan oxuyun. Ritual xəbərlərdən daha vacibdir.
+82. **Başqasına kömək edin.** Kilsə proqramlarını qatlayın və ya qonşuya kart hazırlayın.
 
-## İnanc və mənəvi fəaliyyətlər
+## Din və mənəvi fəaliyyətlər
 
-Şəxsin öz ənənəsini izləyin və ya heç birini. NIA tanış ibadətləri, oxunuşları, müqəddəs musiqini, duanı, meditasiyanı və bayram ritualları təklif edir.
+Şəxsin öz ənənəsini izləyin, ya da heç birini. NIA tanış ibadətləri, oxunuşları, müqəddəs musiqini, dua, meditasiyanı və bayram mərasimlərini təklif edir.
 
-83. **Tanış ibadətə gedin.** Daha sakit birini seçin, keçidin yanında oturun və orada olanlara demensiya barədə bildirin.
-84. **İbadəti onlayn izləyin,** çölə çıxmaq çox çətin olan günlərdə.
-85. **Birlikdə dua edin və ya oxuyun.** Tanış sözlər, yavaş oxunmaqla. Bildiyi hissələrə qoşula bilər.
-86. **Ənənəsindən ilahilər və ya müqəddəs musiqi oxuyun.**
-87. **Bayram ritualları saxlayın.** Batareyalı şamlar, xeyir-dua, həmişə istifadə etdiyi bəzəklər.
-88. **Sakit vaxtı bölüşün.** Bağda oturun və ya gün batımına birlikdə baxın.
+83. **Tanış ibadətə gedin.** Daha sakit bir ibadət seçin, koridora yaxın oturun və oradakı insanlara demansdan xəbər verin.
+84. **Gedə bilməyəcəyiniz günlərdə onlayn ibadətə baxın.**
+85. **Birlikdə dua edin və ya oxuyun.** Tanış sözlər, yavaş oxunur. Bildiyi hissələrə qoşula bilər.
+86. **Öz ənənəsindən himnlər və ya müqəddəs musiqi oxuyun.**
+87. **Bayram mərasimlərini davam etdirin.** Batareyalı şamlar, xeyir-dua, həmişə istifadə etdiyi bəzəklər.
+88. **Sakit vaxt keçirin.** Birlikdə bağda oturun və ya günbatanı izləyin.
 
-## Ev heyvanları və heyvanlar
+## Heyvanlar
 
-NIA ev heyvanını yemləməyi, tumarlamağı, gəzdirməyi və ya yanında oturub qucağında tutmağı təklif edir.
+NIA heyvanı yedizdirməyi, daranmağı, gəzdirməyi və ya yanında oturub qucaqlamağı təklif edir.
 
-89. **Sakit it və ya pişiyi** uzun, yavaş sığallarla darayın.
-90. **Ev heyvanını birlikdə yemləyin.** Siz ölçürsünüz; o tökür.
-91. **İti birlikdə gəzdirin.** Qayışı siz tutursunuz.
-92. **Ev heyvanını qucağında tutun.** Yorğan üstündə sakit pişik çox rahatladıcı ola bilər.
-93. **Ziyarətçi heyvanları qarşılayın.** Bəzi qayğı evləri və gündüz proqramları heyvan ziyarətləri təşkil edir. Yerli yerdə soruşun.
-94. **Həqiqi görünüşlü yumşaq heyvan təklif edin.** Ev heyvanı yoxdursa, bəzi insanlar həqiqətə bənzər plüş pişik və ya iti tutmağı xoşlayır. Onu sadəcə təklif edin, heç vaxt oyuncaq kimi yox və “yox” cavabını qəbul edin.
+89. **Sakit it və ya pişiyi daraqlayın.** Uzun, yavaş hərəkətlərlə.
+90. **Heyvanı birlikdə yedizdirin.** Siz ölçün, o tökün.
+91. **İti birlikdə gəzdirin.** Tasması sizdə olsun.
+92. **Heyvanı dizində saxlayın.** Yorğan üzərində sakit pişik çox sakitləşdirici ola bilər.
+93. **Gələn heyvanları qarşılayın.** Bəzi qayğı evləri və gündüz proqramları heyvan ziyarətləri təşkil edir. Yerli olaraq soruşun.
+94. **Həyatabənzər yumşaq heyvan təklif edin.** Əgər heyvan yoxdursa, bəziləri real görünüşlü peluş pişik və ya it qucaqlamaqdan xoşlanır. Sadəcə təklif edin, heç vaxt oyuncaq kimi yox, və «yox» cavabını qəbul edin.
 
 ## Mövsümi fəaliyyətlər
 
-Ənənələri saxlayın, amma daha sadə. NIA real olmağı və məşğul bayramlarda fasilələr üçün sakit yer ayırmağı təklif edir.
+Ənənələri saxlayın, amma sadə şəkildə. NIA bayram məşğuliyyəti zamanı real olmağı və fasilələr üçün sakit yer olmasını təklif edir.
 
-95. **Mövsümə uyğun bəzəyin.** Bir qabaq, təzə çiçəklər və ya masada mövsümi meyvələr.
-96. **Bayram şirniyyatı hazırlayın.** Xəmir yayın və ya peçenyeləri bəzəyin. Sobanı siz idarə edin.
-97. **Bəzəkləri asın.** Sınmayan bəzəklər, bir-bir uzadılmaqla.
-98. **İşıqlara baxmağa maşınla gəzin.** Qısa axşam gəzintisi yalnız yanında olmağınızı tələb edir.
-99. **Yaz soğanaqlarını əkin.** Payızda soğanaqları güldana basın və cücərtilərə baxın.
-100. **Qarğıdalı soyun və ya noxud qabığını açın.** Qucaqda qab ilə yay eyvanı işi.
-101. **Bayram təbrik kartlarına ünvan yazın.** O imzalayır, möhür vurur və ya yapışdırır; ünvanları siz yazırsınız.
+95. **Mövsüm üçün bəzəyin.** Balqabaq, çələng və ya masadakı təzə çiçəklər.
+96. **Bayram şirinliyi hazırlayın.** Xəmiri yayın və ya peçenyeləri şəkərlə örtün. Sobanı siz idarə edin.
+97. **Bəzək asın.** Sınmayan bəzəkləri bir-bir verin.
+98. **İşıqlara baxmağa gedin.** Qısa axşam sürüşü yalnız yanında olmağınızı tələb edir.
+99. **Bahar soğanaqları əkin.** Payızda soğanları qaba basın və cücərtiləri gözləyin.
+100. **Qarğıdalı soyun və ya noxud təmizləyin.** Yay eyvanında, dizinizə qab qoyaraq.
+101. **Bayram kartlarına ünvan yazın.** Onlar imzalayır, möhürləyir; siz ünvanları yazırsınız.
 
-## Fəaliyyət alınmırsa nə etməli?
+## Fəaliyyət işləmirsə nə etmək olar?
 
-Dayanın və başqa vaxt fərqli bir şey sınayın. NIA əsəbiliyə diqqət etməyi və şəxs üstün tutursa, sadəcə baxmasına icazə verməyi təklif edir. “Yox” çox vaxt işin çətin olduğunu, vaxtın düz olmadığını və ya onu başqa bir şeyin, məsələn ağrının, aclığın və ya səs-küyün narahat etdiyini bildirir. İşi kiçildin, günün daha erkən vaxtında sınayın və ya özünüz başlayıb qoşulub-qoşulmadığına baxın. [Onlar “yox” dedikdə](/caregiving/when-they-say-no/) və [axşam narahatlığı](/caregiving/late-day-restlessness/) səhifələrinə baxın.
+Dayandırın və başqa vaxt başqa bir şey sınayın. NIA məyusluğa diqqət etməyi və şəxs istəyirsə, sadəcə izləməsinə icazə verməyi təklif edir. «Yox» çox vaxt işin çətin olduğunu, vaxtın səhv seçildiyini və ya ağrı, aclıq, səs-küy kimi başqa bir şeyin narahat etdiyini bildirir. Onu sadələşdirin, gündə daha erkən vaxtda sınayın və ya özünüz başlayıb qoşulub-qoşulmadığını görün. Bax: [«yox» dediklərində](/caregiving/when-they-say-no/) və [axşam sakit fəaliyyətləri](/creative-calm/calm-afternoon-activities/).
 
-Fəaliyyətləri yeməklər və istirahət arasına yerləşdirmək üçün [mülayim gündəlik rejimə](/activities/daily-routine/) baxın. Hazır saxlamaq üçün şeylər üçün [çap oluna bilən fəaliyyətlərə](/activities/printable/), qrup aparırsınızsa [qayğı evi qrup fəaliyyətlərinə](/activities/care-home-groups/) baxın. Öz istirahətiniz də vacibdir: [qayğı göstərənin özünə qayğısına](/caregiving/caregiver-self-care/) baxın.
+Fəaliyyətləri yemək və istirahət arasına yerləşdirmək üçün bax: [axşam sakit fəaliyyətləri](/creative-calm/calm-afternoon-activities/). Hazır saxlamaq üçün [oyunlar səhifəsindəki pulsuz çap materiallarına](/games/) baxın və qrupa rəhbərlik edirsinizsə, [qayğı evlərində qrup fəaliyyətləri](/crafts/craft-group-sessions/). Öz istirahətiniz də vacibdir: bax: [qayğıkeşlər üçün özünəqulluq](/creative-calm/creative-self-care-for-caregivers/).

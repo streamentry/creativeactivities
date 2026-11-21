@@ -1,34 +1,35 @@
 ---
-title: "Demensiyası olan şəxs fəaliyyətdən imtina edəndə və ya əsəbiləşəndə"
+title: "Demensiyası olan şəxs fəaliyyətdən imtina edəndə"
 seoTitle: "Demensiya ilə yaşayan şəxs fəaliyyətdən imtina edəndə"
-description: "Demensiya ilə yaşayan şəxs fəaliyyətdən niyə imtina edə və ya əsəbiləşə bilər, nə sınamalı, nədən çəkinməli və qəfil dəyişiklik nə vaxt həkim tələb edir."
+description: "Demensiya ilə yaşayan şəxs niyə fəaliyyətdən imtina edə və ya əsəbiləşə bilər, nə sınamaq, nədən çəkinmək və nə vaxt həkimə müraciət etmək lazımdır."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Demensiyası olan şəxs “yox” dedikdə, bunu sakitcə qəbul edin və sonra yenidən
-  cəhd edin və ya başqa nəsə təklif edin. İmtinanın çox vaxt səbəbi olur: iş çox
-  çətin və ya uşaq işi kimi görünür, şəxs yorğundur, ağrısı var, acdır və ya
-  səs-küydən bunalıb. Mübahisə etməyin və təkid etməyin. Sadələşdirin, iki seçim
-  təklif edin və ya ondan kömək istəyin. Qəfil və ya tez dəyişən davranış,
-  xüsusən infeksiyadan və ya yeni dərmandan sonra, tez həkim tələb edir.
+  Demensiya ilə yaşayan şəxs «yox» dedikdə, bunu sakitcə qəbul edin və sonra
+  yenidən cəhd edin, ya da başqa bir şey təklif edin. İmtinanın çox vaxt səbəbi
+  olur: tapşırıq ona çətin və ya uşaqcasına görünür, yorulub, ağrıyır, ac qalıb
+  və ya səs-küydən narahat olub. Mübahisə etməyin və israr etməyin. Tapşırığı
+  sadələşdirin, iki seçim təklif edin və ya onun kömək etməsini xahiş edin.
+  Ani və sürətlə dəyişən davranış, xüsusilə infeksiyadan və ya yeni dərmandan
+  sonra, dərhal həkimə müraciət tələb edir.
 keyPoints:
-  - "“Yox” hörmət ediləcək cavabdır, aradan qaldırılacaq problem deyil."
-  - "İmtinanın adətən səbəbi olur: çox çətin, çox uşaqcasına, yorğunluq, özünü pis hiss etmək, narahatlıq və ya bunalmaq."
-  - "Geri çəkilin, gözləyin və sonra, başqa vaxt və ya daha sadə versiya ilə yenidən cəhd edin."
-  - "Ondan kömək istəmək, onu nəsə nümayiş etdirməyə məcbur etməkdən daha yaxşı işləyir."
-  - "Heç vaxt mübahisə etməyin, təkid etməyin, imtahan etməyin və ya düzəltməyin. Özünüzü tələskənlik və sıxışdırma baxımından yoxlayın."
-  - "Qəfil və ya sürətlə dəyişən davranış, xüsusən infeksiya və ya yeni dərmanlarla birlikdə, dərhal həkimə çatdırılmalıdır."
+  - "«Yox» cavabı həll edilməli problem yox, hörmət edilməli cavabdır."
+  - "İmtinanın adətən səbəbi olur: çətindir, uşaqcasınadır, yorğundur, xəstədir, narahatdır və ya həddən artıq yüklənib."
+  - "Geri çəkilin, gözləyin və sonra, başqa vaxtda və ya sadə variantla yenidən cəhd edin."
+  - "Onlardan icra etməyi yox, kömək etməyi xahiş etmək daha yaxşı işləyir."
+  - "Heç vaxt mübahisə etməyin, israr etməyin, sual verməyin və düzəltməyin. Özünüzdə tələsmə və üstünlük etmə halını yoxlayın."
+  - "Ani və tez dəyişən davranış, xüsusilə infeksiya və ya yeni dərmanlarla bağlıdırsa, dərhal həkimə göstərilməlidir."
 faq:
-  - q: "Fəaliyyətləri tamamilə buraxmasına icazə vermək normaldırmı?"
-    a: "Bəli, istənilən gün. Birlikdə oturmaq, musiqiyə qulaq asmaq və ya dünyanın axışına baxmaq kifayət ola bilər. Kimsə həftələr ərzində hər şeydən zövq almağı dayandırırsa, bunu onun həkiminə bildirin, çünki pis əhval-ruhiyyə, ağrı və ya digər sağlamlıq problemləri mənzərənin bir hissəsi ola bilər."
-  - q: "Əvvəllər sevdiyi şeylərdən niyə imtina edir?"
-    a: "Köhnə hobbi indi demensiyanın çətinləşdirdiyi bacarıqlar tələb etdikdə əsəbiləşdirici ola bilər və şəxs özünü utancverici hiss edə bilər. Eyni fəaliyyətin daha sadə hissəsini sınayın, məsələn tikmək əvəzinə düymələri çeşidləmək və ya əkmək əvəzinə bağ şəkillərinə baxmaq."
-  - q: "Onu inandırmağa çalışmalıyammı?"
-    a: "Xeyr. Kimisə demensiyanın çətinləşdirdiyi işi görməyə sıxışdırmaq narahatlığın məlum tetikleyicisidir. “Yox” cavabını qəbul edin, mövzunu dəyişin və sonra və ya başqa yolla yenidən təklif edin."
-  - q: "Davranış dəyişikliyi nə vaxt təcili haldır?"
-    a: "Kimsə təhlükədədirsə və ya tibbi təcili hal əlamətləri varsa, yerli təcili yardım nömrəsinə (Azərbaycanda 112) zəng edin. Qəfil çaşqınlıq və ya saatlar və ya günlər ərzində tez dəyişən davranış üçün, xüsusən hərarət, infeksiya və ya yeni dərmanla birlikdə, dərhal onun həkimi ilə əlaqə saxlayın."
+  - q: "Bəzi fəaliyyətləri tamamilə buraxmasına icazə vermək olarmı?"
+    a: "Bəli, istənilən gün. Birlikdə oturmaq, musiqi dinləmək və ya ətrafa baxmaq kifayət ola bilər. Əgər bir neçə həftə ərzində kimsə hər şeydən zövq almağı dayandırarsa, bunu həkiminə deyin, çünki əhval-ruhiyyənin aşağı düşməsi, ağrı və ya digər sağlamlıq problemləri bunun səbəbi ola bilər."
+  - q: "Niyə bəzən əvvəllər sevdikləri şeylərdən də imtina edirlər?"
+    a: "Köhnə hobbi, demensiyanın çətinləşdirdiyi bacarıqları tələb etdikdə, məyusedici ola bilər və şəxs utanc hiss edə bilər. Eyni fəaliyyətin daha sadə bir hissəsini sınayın, məsələn, tikmək əvəzinə düymələri çeşidləmək, əkmək əvəzinə bağ şəkillərinə baxmaq."
+  - q: "Onları inandırmağa çalışmalıyam?"
+    a: "Xeyr. Demensiyanın çətinləşdirdiyi bir şeyi etmək üçün məcbur etmək, məlum olaraq narahatlığa səbəb olur. İmtinanı qəbul edin, mövzunu dəyişin və sonra, ya da başqa şəkildə yenidən təklif edin."
+  - q: "Davranış dəyişikliyi nə zaman təcili haldır?"
+    a: "Əgər kimsə təhlükədədirsə və ya təcili tibbi əlamətlər göstərirsə, 911-i zəng edin. Saatlar və ya günlər ərzində qəflətən çaşqınlıq və ya sürətlə dəyişən davranış, xüsusilə hərarət, infeksiya və ya yeni dərman ilə birlikdə olarsa, dərhal onun həkimi ilə əlaqə saxlayın."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +51,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Hər şeyi hazırlayırsınız, oyun və ya gəzinti təklif edirsiniz və “Yox” eşidirsiniz. Ya da fəaliyyət yaxşı başlayır və kənara itələnmiş planşet və sərt sözlə bitir. Bu, ruhdan salır və çox yayılıb. İmtina və əsəbilik adətən inadkarlıq yox, mesajdır. Mesajın nə olduğunu anlamaq çox vaxt növbəti nəyi sınamalı olduğunuzu göstərir.
+Siz hər şeyi hazırlayırsınız, oyun və ya gəzinti təklif edirsiniz və «Yox» cavabını eşidirsiniz. Ya da fəaliyyət yaxşı başlayır, planşet kənara itələnir və kəskin bir söz deyilir. Bu, ürəkaçandır və çox yaygındır. İmtina və narazılıq adətən inadkarlıq yox, bir mesajdır. Bu mesajın nə olduğunu anlamaq, növbəti addımda nə sınamaq lazım olduğunu çox vaxt göstərir.
 
-## Demensiyası olan şəxs fəaliyyətlərdən niyə imtina edir?
+## Demensiyası olan şəxs niyə fəaliyyətdən imtina edir?
 
-Adətən şəxs sözlə ifadə edə bilməsə də, səbəb olur. [Alzheimer Assosiasiyası (Alzheimer's Association)](https://www.alz.org/help-support/caregiving/daily-care/activities) qeyd edir ki, müqavimət şəxsin işi görə bilmədiyini və ya cəhd etməkdən qorxduğunu bildirə bilər. Ümumi səbəblərə bunlar daxildir:
+Adətən bunun səbəbi olur, hətta şəxs bunu sözlə ifadə edə bilməsə belə. [Alzheimer Assosiasiyası](https://www.alz.org/help-support/caregiving/daily-care/activities) qeyd edir ki, müqavimət o deməkdir ki, şəxs tapşırığı yerinə yetirə bilmir və ya cəhd etməkdən qorxur. Ümumi səbəblər bunlardır:
 
-- **Çox çətin görünür.** Fəaliyyət indi demensiyanın çətinləşdirdiyi bacarıqlar tələb edir və kiminsə yanında uğursuz olmaq utancvericidir.
-- **Uşaqcasına görünür.** Böyüklər cizgi filmi şəkillərini, mahnı kimi səsləri və uşaqlar üçün hazırlanmış kimi görünən fəaliyyətləri fərq edir.
-- **Yorğunluq.** Bir çox insanın günün sonunda enerjisi az olur. [Günün sonunda sakit fəaliyyətlərə](/caregiving/late-day-restlessness/) baxın.
-- **Fiziki narahatlıq.** [Milli Qocalma İnstitutu (National Institute on Aging, NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ağrını, yuxu çatışmazlığını, görmə və ya eşitmə çətinliyini, qəbizliyi, aclığı, susuzluğu və yeni dərmanların yan təsirlərini sıxıntının mümkün səbəbləri kimi sadalayır.
-- **Çox şey baş verir.** Uca televizor, bir neçə söhbət və ya izdihamlı otaq bunaldıcı ola bilər.
-- **Sıxışdırıldığını hiss etmək.** NIA Alzheimerin çox çətinləşdirdiyi bir şeyi etməyə və ya hadisələri və ya insanları xatırlamağa sıxışdırılmağı narahatlığın səbəbi kimi göstərir.
-- **Pis əhval-ruhiyyə.** Şeylərə marağı itirmək depressiyanın əlaməti ola bilər və bunu həkimlə müzakirə etməyə dəyər.
-- **Sadəcə istəmir.** Böyüklər “yox” demək hüququna malikdir.
+- **Çətin gəlir.** Fəaliyyət indi demensiyanın çətinləşdirdiyi bacarıqlar tələb edir və başqasının qarşısında səhv etmək utandırıcıdır.
+- **Uşaqcasına görünür.** Böyüklər cizgi filmi şəkillərini, uşaq tonunda danışığı və uşaqlar üçün düzəldilmiş kimi görünən fəaliyyətləri hiss edir.
+- **Yorğunluq.** Bir çox insanın gün ərzində enerjisi azalır. Bax: [axşamüstü sakit fəaliyyətlər](/creative-calm/calm-afternoon-activities/).
+- **Fiziki narahatlıq.** [Milli Qocalma İnstitutu (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ağrını, yuxusuzluğu, görmə və eşitmə çətinliyini, qəbizliyi, ac və susuzluğu və yeni dərmanların yan təsirlərini narahatlığın mümkün səbəbləri kimi sadalayır.
+- **Həddən artıq şey var.** Yüksək səsli televizor, bir neçə söhbət və ya sıx otaq həddən artıq yükləyici ola bilər.
+- **Üzərinə təzyiq hiss etmək.** NIA narahatlığın səbəbi kimi, Alzheimerin çox çətinləşdirdiyi bir şeyi etmək və ya hadisələri və insanları xatırlamaq üçün təzyiq göstərilməsini qeyd edir.
+- **Əhval-ruhiyyənin aşağı olması.** Şeylərə maraq itirmək depressiyanın əlaməti ola bilər və bu, həkimlə müzakirə etməyə dəyər.
+- **Sadəcə istəmirlər.** Böyüklərin «yox» deməyə haqqı var.
 
-## “Yox” dedikdə nəyi sınamalıyam?
+## Onlar «yox» dedikdə nə sınamalıyam?
 
-“Yox”u sakitcə qəbul edin, sonra nəyisə dəyişin: vaxtı, fəaliyyəti, çətinliyi və ya xahiş etmə tərzini.
+Cavabı sakitcə qəbul edin, sonra bir şeyi dəyişin: vaxtı, fəaliyyəti, çətinlik səviyyəsini və ya xahiş etmə tərzinizi.
 
-1. **Hələlik buraxın.** “Problem yoxdur. Bəlkə sonra.” Sonra ah çəkmədən başqa şeyə keçin.
-2. **Sonra yenidən cəhd edin.** Alzheimer Assosiasiyası sonra və ya günün başqa vaxtında yenidən cəhd etməyi təklif edir.
-3. **Kiçildin.** Bütün oyun əvəzinə bir cütləmə. Camaşır səbəti əvəzinə bir dəsmal. Daha az şəkil, daha az seçim, şəkillər görünən qalsın.
-4. **İki seçim təklif edin.** “Quş şəkillərinə baxmaq istərdinizmi, yoxsa musiqiyə qulaq asmaq?” Seçim nəzarət hissini qaytarır.
-5. **Çıxış əvəzinə kömək istəyin.** “Bunları çeşidləməkdə mənə kömək edə bilərsiniz?” və ya “Hansı rəng ən yaxşı görünür, deyə bilərsiniz?” Lazım olmaq sınanmaqdan çox fərqli hiss olunur.
-6. **Özünüz başlayın.** Fəaliyyəti soruşmadan onun yanında başlayın. Bir çox insan nəsə artıq baş verəndə qoşulur və qoşulmasalar da, birlikdə vaxt keçirmisiniz.
-7. **Fiziki və ya sakitləşdirici bir şeyə keçin.** Qısa gəzinti, musiqi, qəlyanaltı, camaşır qatlamaq və ya birgə [sakit nəfəs](/games/calm-breathing/) fasiləsi. NIA diqqəti musiqiyə, kitaba və ya gəzintiyə yönəltməyi təklif edir.
-8. **Öz yolu ilə etməsinə icazə verin.** Qaydaların dediyindən fərqli oynamaq istəyirsə, razılaşın. Alzheimer Assosiasiyası çevik olmağı məsləhət görür.
+1. **Hələlik buraxın.** «Sorun yoxdur. Bəlkə sonra.» Sonra ah çəkmədən başqa bir şeyə keçin.
+2. **Sonra yenidən cəhd edin.** Alzheimer Assosiasiyası sonra və ya gündə fərqli bir vaxtda yenidən cəhd etməyi tövsiyə edir.
+3. **Daha kiçik edin.** Bütöv oyun əvəzinə bir cüt kart. Bütün yuyulacaq paltar səbətinin əvəzinə bir dəsmal. Az şəkil, az seçim, şəkillər görünən yerdə.
+4. **İki variant təklif edin.** «Quş şəkillərinə baxmaq istərdinizmi, ya musiqi dinləmək?» Seçim nəzarət hissini geri qaytarır.
+5. **İfa əvəzinə kömək istəyin.** «Bunları çeşidləməyimə kömək edərsinizmi?» və ya «Sizcə hansı rəng daha yaxşı görünür?» Lazım olmaq hissi, sınaqdan keçmək hissindən tamamilə fərqlidir.
+6. **Fəaliyyətə özünüz başlayın.** Onlardan soruşmadan yanlarında başlayın. Bir çox insan artıq nəsə baş verəndə qoşulur və qoşulmasalar belə, birlikdə vaxt keçirmisiniz.
+7. **Fiziki və ya sakitləşdirici bir şeyə keçin.** Qısa gəzinti, musiqi, qəlyanaltı, paltar qatlamaq və ya birlikdə [sakit nəfəs alma](/games/calm-breathing/) fasiləsi. NIA diqqəti musiqiyə, kitaba və ya gəzintiyə yönəltməyi tövsiyə edir.
+8. **Öz üsulu ilə etməsinə icazə verin.** Qaydalardan fərqli oynamaq istəsələr, qarşı çıxmayın. Alzheimer Assosiasiyası çevik olmağı məsləhət görür.
 
-## Əsəbiləşəndə nə deməliyəm?
+## Onlar əsəbiləşəndə nə deməliyəm?
 
-Yavaşlayın, səsinizi aşağı salın və arxayınlaşdırın. [Alzheimer Assosiasiyasının narahatlıq üzrə rəhbərliyi](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) geri çəkilməyi və icazə istəməyi, sakit, müsbət ifadələrdən istifadə etməyi və iki seçim arasında istiqamətləndirilmiş seçim təklif etməyi məsləhət görür. Həmin ruhda ifadələr:
+Yavaşlayın, səsinizi alçaldın və sakitləşdirin. [Alzheimer Assosiasiyasının narahatlıq üzrə təlimatı](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) geri çəkilməyi, icazə istəməyi, müsbət və sakit ifadələr işlətməyi və iki variant arasında seçim təklif etməyi tövsiyə edir. Bu ruhda ifadələr:
 
-- “Bağışlayın, bu bir az əsəbləşdirir. Dayanaq.”
-- “Yaxşı edirsiniz. Mən buradayam.”
-- “Başqa bir şeydə mənə kömək etməyə vaxtınız varmı?”
-- “Əvəzində bir fincan çay içək?”
+- «Üzr istəyirəm, bu bir az əsəbi edir. Dayandıraq.»
+- «Yaxşı gedirsiniz. Mən burdayam.»
+- «Başqa bir işdə mənə kömək etməyə vaxtınız varmı?»
+- «Bunun əvəzinə çay içək?»
 
-Sonra fəaliyyəti böyük məsələ etmədən bitirin. [Ünsiyyət məsləhətlərimizdə](/caregiving/communication-tips/) nə deməli barədə daha çox məlumat var.
+Sonra fəaliyyəti böyütmədən bitirin. [Diaqnozdan sonrakı ilk addımlar](/caregiving/after-dementia-diagnosis/) səhifəsi dəstək üçün başlanğıc nöqtəsidir.
 
 ## Nədən çəkinməliyəm?
 
-Bəzi təbii reaksiyalar işləri pisləşdirməyə meyillidir.
+Bəzi təbii reaksiyalar vəziyyəti pisləşdirə bilər.
 
-- **Mübahisə etmək və ya təkid etmək.** “Hə, bir dəfə də” və ya “Sən bunu sevirsən” nadir hallarda kömək edir.
-- **İmtahan etmək və ya düzəltmək.** “Sən bunun nə olduğunu bilirsən” və ya “Yox, bu yanlışdır” təzyiq əlavə edir.
-- **Şəxsi qəbul etmək.** NIA qayğı göstərənlərə xatırladır ki, bu dəyişikliklərə şəxs yox, xəstəlik səbəb olur.
-- **Sıxışdırmaq və ya tələsdirmək.** Alzheimer Assosiasiyası səsinizi qaldırmamağı, həyəcan göstərməməyi, şəxsi küncə sıxmamağı, sıxışdırmamağı, məhdudlaşdırmamağı, tənqid etməməyi, nəzərə almamazlıq etməməyi və ya onunla mübahisə etməməyi və onun görmə sahəsindən kənarda qəfil hərəkətlərdən çəkinməyi məsləhət görür.
-- **Günahkarlıq hissindən istifadə etmək.** “Bütün bunları sənin üçün hazırladım” hər ikinizi daha pis hiss etdirir.
-- **Damğalamaq.** “İnadkar” və ya “çətin” əsl səbəbi gizlədir və həllini çətinləşdirir.
+- **Mübahisə etmək və israr etmək.** «Gəl, bir dəfə daha» və ya «Sən bunu sevirsən» nadir hallarda kömək edir.
+- **Sual vermək və düzəltmək.** «Bunun nə olduğunu bilirsən» və ya «Yox, o səhvdir» təzyiq əlavə edir.
+- **Şəxsi qəbul etmək.** NIA qayğıkeşlərə xatırladır ki, bu dəyişiklikləri xəstəlik yaradır, şəxs yox.
+- **Üstünlük etmək və tələsmək.** Alzheimer Assosiasiyası şəxsə səs qaldırmamağı, həyəcan göstərməməyi, künc və ya sıxlıq yaratmamağı, saxlamamağı, tənqid etməməyi, nəzərə almamağı və ya mübahisə etməməyi, həmçinin onların nəzərindən kənarda qəfil hərəkətlərdən çəkinməyi məsləhət görür.
+- **Günahkarlıq hissi yaratmaq.** «Bütün bunları sizin üçün hazırladım» hər ikinizi daha pis hiss etdirir.
+- **Etiket yapışdırmaq.** «İnadkar» və ya «çətin» real səbəbi gizlədir və həlli çətinləşdirir.
 
-## Təkrarlanan imtinaların arxasında nə olduğunu necə tapmaq olar?
+## Təkrarlanan imtinaların arxasında nə olduğunu necə öyrənə bilərəm?
 
-Bir-iki həftə sadə qeyd aparın. NIA deyir ki, davranış dəyişikliklərini izləmək qayğı göstərənlərə və səhiyyə işçilərinə nümunəni tanımağa və səbəbi müəyyən etməyə kömək edə bilər.
+Bir-iki həftə ərzində sadə qeyd aparın. NIA deyir ki, davranış dəyişikliklərini izləmək qayğıkeşlərə və səhiyyə işçilərinə nümunəni görməyə və səbəbi tapmağa kömək edə bilər.
 
 Qeyd edin:
 
-- günün vaxtı;
-- nə təklif etdiyiniz və necə xahiş etdiyiniz;
-- ətrafda nə baş verirdi (səs-küy, qonaqlar, televizor);
-- necə yatdığı, yediyi və içdiyi və tualetdən sonuncu dəfə nə vaxt istifadə etdiyi;
-- hər hansı yeni dərmanlar və ya son xəstəlik.
+- gündəliyin vaxtı;
+- nə təklif etdiyinizi və necə xahiş etdiyinizi;
+- ətrafda nə baş verdiyini (səs-küy, qonaqlar, televizor);
+- necə yuxuladıqlarını, yediklərini və içdiklərini və ən son nə vaxt tualetə getdiklərini;
+- yeni dərmanları və ya son xəstəliyi.
 
-Nümunələr çox vaxt tez ortaya çıxır: yalnız saat 4-dən sonra baş verən, yalnız müəyyən oyunla və ya yalnız televizor yananda baş verən imtinalar. Ailə Qayğı Göstərənlər Alyansının (Family Caregiver Alliance) [demensiya davranışları bələdçisi](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) bunu sadə ifadə edir: biz şəxsi dəyişə bilmərik, amma öz davranışımızı və mühiti dəyişə bilərik.
+Nümunələr tez-tez sürətlə görünür: yalnız axşam saat 4-dən sonra, yalnız müəyyən oyunla və ya yalnız televizor açıq olanda baş verən imtinalar. Family Caregiver Alliance-ın [demensiya davranışları üzrə təlimatı](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) bunu sadə deyir: şəxsi dəyişə bilmərik, amma öz davranışımızı və mühiti dəyişə bilərik.
 
-## İmtina və ya əsəbilik barədə həkimlə nə vaxt danışmalıyam?
+## İmtina və ya əsəbilik barədə nə zaman həkimlə danışmalıyam?
 
-Davranış qəfil, tez və ya xəstəlik əlamətləri ilə birlikdə dəyişəndə həkimlə danışın. NIA deyir ki, davranışda qəfil və ya sürətlə dəyişən dəyişikliklər, xüsusən şəxsin infeksiyası olubsa və ya dərmanlar dəyişibsə, dərhal həkimin diqqətinə çatdırılmalıdır.
+Davranış qəfil, sürətlə və ya xəstəlik əlamətləri ilə birlikdə dəyişəndə həkimlə danışın. NIA deyir ki, davranışda qəfil və ya sürətlə dəyişən dəyişikliklər, xüsusilə şəxsdə infeksiya olubsa və ya son dərman dəyişiklikləri olubsa, dərhal həkimin diqqətinə çatdırılmalıdır.
 
-Aşağıdakıları görsəniz, onun həkimi ilə tez əlaqə saxlayın:
+Aşağıdakılardan birini görsəniz, həkimi dərhal əlaqələndirin:
 
-- qəfil çaşqınlıq və ya saatlar və ya günlər ərzində böyük dəyişiklik;
-- ağrı əlamətləri, məsələn üzünü turşutmaq, bədənin bir hissəsini qorumaq və ya hərəkətdə yeni çətinlik;
+- saatlar və ya günlər ərzində qəfil çaşqınlıq və ya böyük dəyişiklik;
+- ağrı əlamətləri, məsələn, üzünü turşudub gözləmək, bədənin bir hissəsini qorumaq və ya hərəkət etməkdə yeni çətinlik;
 - hərarət və ya infeksiyanın digər əlamətləri;
-- yeni və ya dəyişdirilmiş dərmanlardan sonra davranışda dəyişiklik;
-- demək olar ki, hər şeyə marağın itməsi, bir neçə həftədən çox davam edən ağlamaq və ya geri çəkilmə;
-- yeməkdən və ya içməkdən imtina.
+- yeni və ya dəyişdirilmiş dərmanlar, ardınca davranış dəyişikliyi;
+- demək olar ki, hər şeydən maraq itirmə, bir neçə həftədən çox davam edən ağlamaq meyli və ya geri çəkilmə;
+- yemək və ya içməkdən imtina.
 
-Alzheimer Assosiasiyası davranış əlamətləri olan hər kəs üçün, xüsusən qəfil ortaya çıxanda, hərtərəfli tibbi yoxlamanı tövsiyə edir. Ailə Qayğı Göstərənlər Alyansı da əvvəlcə həkimlə yoxlamağı məsləhət görür, çünki davranış problemlərinin tibbi səbəbi ola bilər. Həkim və ya əczaçı ilə danışmadan heç bir dərmana başlamayın, onu dayandırmayın və dəyişməyin.
+Alzheimer Assosiasiyası davranış əlamətləri olan hər kəs üçün, xüsusilə əlamətlər qəfil yarananda, ətraflı tibbi yoxlama tövsiyə edir. Family Caregiver Alliance da davranış problemlərinin tibbi səbəbi ola biləcəyi üçün əvvəlcə həkimlə məsləhətləşməyi məsləhət görür. Həkim və ya eczaçı ilə danışmadan heç bir dərmanı başlatmayın, dayandırmayın və ya dəyişdirməyin.
 
-Kimsə təhlükədədirsə və ya tibbi təcili hal əlamətləri varsa, yerli təcili yardım nömrəsinə (Azərbaycanda 112) zəng edin. NIA dispetçerə şəxsin demensiyası olduğunu deməyi təklif edir.
+Əgər kimsə təhlükədədirsə və ya təcili tibbi əlamətlər varsa, 911-i zəng edin. NIA dispetçerə şəxsin demensiyası olduğunu deməyi tövsiyə edir. Əgər əsəbilik fiziki hala gəlirsə, geri çəkilin və həkim və ya qayğı komandasından məsləhət alın.
 
-## Heç nə etməsək, normaldırmı?
+## Heç nə etməsək, bu normaldırmı?
 
-Bəli. Bəzi günlər ən yaxşı fəaliyyət fəaliyyətsizlikdir: birlikdə oturmaq, əl-ələ tutmaq, sevimli yazıya qulaq asmaq və ya pəncərədən quşlara baxmaq. Bu, uğursuzluq deyil. [Birlikdə oynamaq bələdçimiz](/caregiving/how-to-play-together/) izah edir ki, tez dayanmaq və ya heç başlamamaq niyə düzgün qərar ola bilər.
+Bəli. Bəzi günlər ən yaxşı fəaliyyət heç nə etməməkdir: birlikdə oturmaq, əl-ələ tutmaq, sevimli plastinka dinləmək və ya pəncərədən quşlara baxmaq. Bu, uğursuzluq deyil. [Birlikdə oynama təlimatımız](/caregiving/how-to-play-together/) erkən dayandırmağın və ya heç başlamamağın niyə düzgün qərar ola biləcəyini izah edir.

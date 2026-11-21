@@ -1,33 +1,33 @@
 ---
-title: "Gweithgareddau ar gyfer Dementia Hwyr, yn y Gwely neu Gadair"
-seoTitle: "Gweithgareddau Dementia Hwyr: Syniadau Gwely a Chadair"
-description: "Gweithgareddau tyner ar gyfer dementia hwyr, gan gynnwys i rywun yn y gwely neu ar gadair: cerddoriaeth, cyffwrdd, darllen yn uchel, seiniau a bod gyda'ch gilydd."
+title: "Gweithgareddau dementia cam hwyr, yn y gwely neu gadair"
+seoTitle: "Dementia Cam Hwyr: Syniadau i'r Gwely a'r Gadair"
+description: "Gweithgareddau tyner i ddementia cam hwyr, gan gynnwys i rywun yn y gwely neu gadair: cerddoriaeth, cyffwrdd, darllen yn uchel, synau a bod gyda'ch gilydd."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Ar gyfer dementia hwyr, mae gweithgareddau'n canolbwyntio ar y synhwyrau ac ar
-  eich cwmni: chwarae hoff gerddoriaeth, dal dwylo, tylino'r dwylo'n araf,
-  darllen yn uchel, edrych ar luniau, seiniau natur ac eistedd wrth y ffenestr
-  neu'r tu allan. Mae'r rhain yn gweithio yn y gwely neu ar gadair. Cadwch y
-  sesiynau'n fyr, gwyliwch yr wyneb a'r dwylo am arwyddion o gysur, a chofiwch
-  fod bod yn bresennol yn weithgaredd ynddo'i hun.
+  Mewn dementia cam hwyr, mae gweithgareddau'n canolbwyntio ar y synhwyrau ac ar
+  eich cwmni: chwarae hoff gerddoriaeth, dal dwylo, tylino llaw yn araf, darllen
+  yn uchel, edrych ar luniau, synau natur ac eistedd wrth ffenestr neu tu allan.
+  Mae'r rhain yn gweithio yn y gwely neu gadair. Cadwch sesiynau'n fyr, gwyliwch
+  wynebau a dwylo am gysur, a chofiwch mai bod yn bresennol ei hun yw'r
+  gweithgaredd.
 keyPoints:
-  - "Mae cysylltiad yn dal yn bosibl. Yn y cam hwyr, profir y byd yn bennaf drwy'r synhwyrau."
-  - "Mae cerddoriaeth, cyffyrddiad tyner, lleisiau cyfarwydd a phethau meddal i'w dal yn aml yn cyrraedd pobl pan nad yw geiriau'n gwneud hynny bellach."
-  - "Mae bron pob syniad yma'n gweithio i rywun yn y gwely neu ar gadair."
-  - "Gwyliwch am gysur ac anghysur yn yr wyneb, y dwylo a'r anadlu, a stopiwch os gwelwch unrhyw arwydd o drallod."
-  - "Osgowch bethau bach a chynnigwch fwyd neu ddiod dim ond fel y mae'r tîm gofal yn ei gynghori, oherwydd gall llyncu ddod yn anniogel."
+  - "Mae cysylltiad yn dal yn bosibl. Yng nghyfnod hwyr, caiff y byd ei brofi yn bennaf drwy'r synhwyrau."
+  - "Mae cerddoriaeth, cyffyrddiad tyner, lleisiau cyfarwydd a phethau meddal i'w dal yn aml yn cyrraedd pobl pan nad yw geiriau'n gwneud hynny mwyach."
+  - "Mae bron pob syniad yma'n gweithio i rywun yn y gwely neu gadair."
+  - "Gwyliwch am gysur ac anghysur yn yr wyneb, y dwylo a'r anadlu, a stopiwch ar unrhyw arwydd o drallod."
+  - "Osgowch wrthrychau bach a chynigiwch fwyd neu ddiod dim ond fel y mae'r tîm gofal yn ei argymell, oherwydd gall llyncu fynd yn anniogel."
 faq:
-  - q: "Pa weithgareddau allwch chi eu gwneud gyda rhywun â dementia hwyr sy'n y gwely?"
-    a: "Chwaraewch eu hoff gerddoriaeth, daliwch eu llaw, rhowch dyliniad araf i'w dwylo gyda hufen, darllenwch yn uchel o lyfr neu weddi y maen nhw'n ei charu, dangoswch luniau, neu chwaraewch seiniau natur tyner. Agorwch y llenni fel eu bod yn gallu gweld y tu allan. Fel arfer, mae sesiynau byr, tawel gydag un peth ar y tro yn gweithio orau."
-  - q: "A all pobl â dementia hwyr fwynhau cerddoriaeth o hyd?"
-    a: "Gall llawer ohonyn nhw. Mae'r Alzheimer's Association yn nodi, hyd yn oed yn y cam hwyr, y gall person allu tapio curiad neu ganu gyda chân o'u plentyndod. Dewiswch gerddoriaeth yr oeddent yn ei charu pan oedden nhw'n iau a chadwch y sain yn isel."
+  - q: "Pa weithgareddau y gallwch eu gwneud gyda rhywun â dementia cam hwyr sydd yn y gwely?"
+    a: "Chwaraewch eu hoff gerddoriaeth, daliwch eu llaw, rhowch dylino llaw araf gyda lotion, darllenwch yn uchel o lyfr neu weddi maen nhw'n ei hoffi, dangoswch luniau, neu chwaraewch synau natur tyner. Agorwch y llenni fel y gallant weld y tu allan. Sesiynau byr a thawel gydag un peth ar y tro sydd fel arfer yn gweithio orau."
+  - q: "A all pobl â dementia cam hwyr dal fwynhau cerddoriaeth?"
+    a: "Gall llawer. Mae'r Alzheimer's Association yn nodi, hyd yn oed yng nghyfnod hwyr, efallai y gall person dapio curiad neu ganu gyda chân o'i blentyndod. Dewiswch gerddoriaeth roedden nhw'n ei charu pan oedden nhw'n iau a chadwch y sain yn feddal."
   - q: "Sut ydw i'n gwybod a ydyn nhw'n mwynhau gweithgaredd?"
-    a: "Gwyliwch am arwyddion bach: ysgwyddau hamddenol, wyneb mwy meddal, cyswllt llygad, hymian, gwasgu llaw neu anadlu arafach. Gall gwgu, tynnu'n ôl, aflonyddwch neu gwyno olygu anghysur neu boen. Os gwelwch y rhain, stopiwch a dywedwch wrth y tîm gofal os ydyn nhw'n parhau."
-  - q: "A yw'n werth ymweld os nad ydyn nhw'n fy adnabod i bellach?"
-    a: "Ydy. Mae'r National Institute on Aging yn nodi y gall bod yn bresennol yn syml fod yn dawelu, ac y gall cyffyrddiad, cerddoriaeth a straeon ddarparu cysur o hyd mewn dementia datblygedig. Gall eich llais a'ch cyffyrddiad fod yn gyfarwydd hyd yn oed pan nad yw eich enw."
+    a: "Gwyliwch am arwyddion bach: ysgwyddau ymlaciol, wyneb meddalach, cyswllt llygad, canu'n dawel, gwasgu llaw neu anadlu arafach. Gall gwgu, tynnu i ffwrdd, aflonyddwch neu griddfan olygu anghysur neu boen. Os gwelwch y rhain, stopiwch a dywedwch wrth y tîm gofal os ydyn nhw'n parhau."
+  - q: "A yw'n werth ymweld os nad ydyn nhw'n fy adnabod mwyach?"
+    a: "Ydy. Mae'r National Institute on Aging yn nodi y gall bod yn bresennol yn unig fod yn dawelu, a bod cyffwrdd, cerddoriaeth a straeon yn dal i roi cysur mewn dementia uwch. Efallai bod eich llais a'ch cyffyrddiad yn gyfarwydd hyd yn oed pan nad yw eich enw'n gyfarwydd."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +49,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Yn y cam hwyr o ddementia, efallai na fydd person yn siarad llawer, bydd angen help gyda phob agwedd ar ofal dyddiol a bydd yn treulio llawer o'r dydd yn y gwely neu ar gadair. Gall deimlo fel nad oes dim byd ar ôl i'w wneud gyda'ch gilydd. Mae yna. Mae'r [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) yn nodi y gall rhywfaint o graidd hunaniaeth y person barhau, ac yn y cam hwn profir y byd yn bennaf drwy'r synhwyrau. Gall cerddoriaeth, cyffyrddiad, llais cyfarwydd a'ch cwmni tawel ddod â chysur ac eiliadau o gysylltiad o hyd.
+Yng nghyfnod hwyr dementia, efallai y bydd person yn siarad ychydig iawn, angen help gyda'r holl ofal dyddiol a threulio llawer o'r dydd yn y gwely neu gadair. Gall deimlo fel nad oes dim ar ôl i'w wneud gyda'ch gilydd. Mae yna. Mae'r [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) yn nodi y gall rhyw graidd o hunan y person aros, a bod y byd yn cael ei brofi yn bennaf drwy'r synhwyrau ar y cam hwn. Gall cerddoriaeth, cyffyrddiad, llais cyfarwydd a'ch cwmni tawel dal ddod â chysur a munudau o gysylltiad.
 
-## Pa weithgareddau sy'n helpu gyda dementia hwyr?
+## Pa weithgareddau sy'n helpu mewn dementia cam hwyr?
 
-Gweithgareddau synhwyraidd syml a chwmni tawel sy'n helpu fwyaf yn y cam hwyr. Mae'r Alzheimer's Association yn awgrymu chwarae hoff gerddoriaeth, darllen rhannau o lyfrau ystyrlon, rhwbio hufen gyda hoff arogl ar y croen, ac eistedd y tu allan gyda'ch gilydd ar ddiwrnod braf. Mae'r [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) yn ychwanegu adrodd straeon, dangos lluniau, cyffyrddiad tyner neu dyliniad, a cherddoriaeth, sŵn gwyn neu seiniau natur, ac yn dweud y gall eich presenoldeb yn unig fod yn dawelu.
+Mae gweithgareddau synhwyraidd syml a chwmni tawel yn helpu fwyaf yn y cyfnod hwyr. Mae'r Alzheimer's Association yn awgrymu chwarae hoff gerddoriaeth, darllen rhannau o lyfrau ystyrlon, rhwbio lotion ag arogl hoff i'r croen, ac eistedd tu allan gyda'ch gilydd ar ddiwrnod braf. Mae'r [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) yn ychwanegu adrodd straeon, dangos lluniau, cyffyrddiad tyner neu dylino, a cherddoriaeth, sŵn gwyn neu synau natur, ac yn dweud y gall eich presenoldeb yn unig fod yn dawelu.
 
-Mae'r [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) yn nodi bod gan bobl yn y cam hwyr anghenion cryf yn aml i ddal rhywbeth yn agos am gysur, ac yn awgrymu gweithgareddau synhwyraidd syml, ystwythiadau tyner, symud sgarff, cerddoriaeth, ymweliadau anifeiliaid, cyffyrddiad dynol a chelf ar ffurf rydd.
+Mae'r [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) yn nodi bod pobl yng nghyfnod hwyr yn aml yn cael angen cryf i ddal rhywbeth yn agos am gysur, ac yn awgrymu gweithgareddau synhwyraidd syml, ymestyniadau tyner, symud sgarff, cerddoriaeth, ymweliadau ag anifeiliaid, cyffwrdd dynol a chelf rydd.
 
-## Gweithgareddau i rywun yn y gwely neu ar gadair
+## Gweithgareddau i rywun yn y gwely neu gadair
 
-1. **Chwaraewch eu cerddoriaeth.** Dewiswch ganeuon o'u blynyddoedd fel oedolion ifanc, o'u ffydd neu o'u teulu. Cadwch y sain yn isel ac eisteddwch yn agos. Hyd yn oed nawr, gall rhai pobl dapio bys neu hymian. Gweler [gweithgareddau cerddoriaeth](/activities/music/).
-2. **Daliwch ddwylo.** Mae dal llaw, gyda strôc tyner â'r bawd, yn weithgaredd ynddo'i hun. Dywedwch beth rydych chi'n ei wneud yn gyntaf.
-3. **Rhowch dyliniad araf i'r dwylo.** Cynheswch ychydig o hufen yn eich cledrau a strôciwch o'r arddwrn i flaenau'r bysedd. Dewiswch hufen heb arogl, neu arogl yr oeddent bob amser yn ei garu os yw eu croen yn ei oddef.
-4. **Darllenwch yn uchel.** Hoff gerdd, darn o lyfr annwyl, ysgrythur neu dudalen chwaraeon. Mae rhythm eich llais yn bwysicach na'r geiriau.
-5. **Adroddwch stori.** Siaradwch am daith deulu neu'r diwrnod y priodon nhw. Nid oes angen atebion.
+1. **Chwaraewch eu cerddoriaeth.** Dewiswch ganeuon o'u blynyddoedd ifanc, eu ffydd neu eu teulu. Cadwch y sain yn feddal ac eisteddwch yn agos. Hyd yn oed nawr, mae rhai pobl yn tapio bys neu'n canu'n dawel. Gweler [gweithgareddau cerddoriaeth](/creative-calm/music-for-calm-and-connection/).
+2. **Daliwch ddwylo.** Dim ond dal llaw, gyda strôc tyner o'r bawd, yn weithgaredd. Dywedwch beth rydych chi'n ei wneud yn gyntaf.
+3. **Rhowch dylino llaw araf.** Cynheswch ychydig o lotion yn eich cledrau a strôc o'r arddwrn i flaenau'r bysedd. Dewiswch lotion di-arogl, neu arogl maen nhw bob amser wedi'i hoffi os yw eu croen yn ei oddef.
+4. **Darllenwch yn uchel.** Hoff gerdd, darn o lyfr annwyl, ysgrythur neu'r tudalennau chwaraeon. Mae rhythm eich llais yn bwysicach na'r geiriau.
+5. **Adroddwch stori.** Siaradwch am daith deuluol neu'r diwrnod y gwnaethon nhw briodi. Does dim angen atebion arnoch.
 6. **Dangoswch luniau.** Daliwch un llun mawr ar y tro ar lefel y llygaid a disgrifiwch ef yn gynnes. Osgowch ofyn pwy sydd ynddo.
-7. **Cynigiwch rywbeth meddal i'w ddal.** Clyt golchi wedi'i blygu, darn o ffliis neu anifail meddal. Mae'r NIA yn awgrymu rhoi clyt golchi i'r person ei ddal wrth gael ei symud, fel eu bod yn llai tebygol o afael ynddoch chi neu'r dodrefn.
-8. **Chwaraewch seiniau natur.** Gall glaw, tonnau neu gân adar ar sain isel leddfu ystafell swnllyd.
-9. **Dewch â'r tu allan i mewn.** Agorwch y llenni, rhowch fwydo adar y tu allan i'r ffenestr, neu dewch â rhai blodau ffres neu ddail i mewn i edrych arnyn nhw a'u cyffwrdd.
-10. **Ewch y tu allan.** Os gall y person eistedd mewn cadair olwyn, gall ychydig funudau yn y cysgod ar ddiwrnod mwyn fod yn hyfryd.
-11. **Brwsiwch eu gwallt neu cynigiwch liain cynnes.** Gall ymolchi araf, tyner a lliain cynnes ar gyfer y dwylo a'r wyneb deimlo'n ofalgar.
-12. **Symudwch yn dyner gyda cherddoriaeth.** Chwifiwch sgarff ysgafn gyda'ch gilydd, neu sigloch ddwylo yn amser â chân. Ar gyfer ystwythiadau a symud cymalau, gofynnwch i ffisiotherapydd neu nyrs ddangos ffyrdd diogel i chi yn gyntaf.
-13. **Gwnewch gelf ar ffurf rydd.** Taenwch baent nad yw'n wenwynig ar bapur mawr gyda sbyng neu law, dan arweiniad eich llaw chi. Does dim canlyniad cywir.
-14. **Croesewch ymweliadau anifeiliaid.** Anifail anwes tawel ar y gwely neu'r glin, os oedd y person yn mwynhau anifeiliaid ac os yw'r lleoliad yn caniatáu hynny.
-15. **Anadlwch yn araf gyda'ch gilydd.** Eisteddwch yn agos ac anadlwch yn araf ac yn hyglyw. Gall [anadlu tawel](/games/calm-breathing/) eich helpu chi'ch dau i gadw amser, a chi sy'n ei ddechrau a'i stopio.
-16. **Byddwch yno'n syml.** Eisteddwch gerllaw, hymiwch, gwnewch waith gwau neu ddarllenwch yn dawel. Mae bod yn bresennol yn ddigon.
+7. **Cynigiwch rywbeth meddal i'w ddal.** Lliain golchi wedi'i blygu, sgwâr ffliys neu anifail meddal. Mae'r NIA yn awgrymu rhoi lliain golchi i'r person ei ddal tra bo'n cael ei symud, fel ei fod yn llai tebygol o afael ynoch chi neu'r dodrefn.
+8. **Chwaraewch synau natur.** Gall glaw, tonnau neu gân adar ar gyfaint isel feddalu ystafell swnllyd.
+9. **Dewch â'r tu allan i mewn.** Agorwch y llenni, rhowch borthwr adar y tu allan i'r ffenestr, neu dewch â rhai blodau neu ddail ffres i edrych arnynt ac i'w cyffwrdd.
+10. **Ewch allan.** Os gall y person eistedd mewn cadair olwyn, gall ychydig funudau yn y cysgod ar ddiwrnod ysgafn fod yn hyfryd.
+11. **Brwsiwch eu gwallt neu cynigiwch lliain cynnes.** Gall meithrin araf, tyner a lliain golchi cynnes i'r dwylo a'r wyneb deimlo'n ofalgar.
+12. **Symudwch yn dyner gyda cherddoriaeth.** Chwifiwch sgarff ysgafn gyda'ch gilydd, neu symudwch eich dwylo yn unol â chân. Ar gyfer ymestyniadau a symudiad cymalau, gofynnwch i ffisiotherapydd neu nyrs ddangos ffyrdd diogel i chi yn gyntaf.
+13. **Creu celf rydd.** Taenwch baent nad yw'n wenwynig ar bapur mawr gyda sbwng neu law, wedi'i arwain gan eich llaw chi. Does dim canlyniad cywir.
+14. **Croesawu ymweliadau anifeiliaid.** Anifail anwes tawel ar y gwely neu'r glin, os oedd y person yn mwynhau anifeiliaid a'r lleoliad yn caniatáu.
+15. **Anadlwch yn araf gyda'ch gilydd.** Eisteddwch yn agos ac anadlwch yn araf ac yn glywadwy. Gall [anadlu tawel](/games/calm-breathing/) gyflymu'r ddau ohonoch, a chi sy'n dechrau ac yn stopio.
+16. **Byddwch yno'n syml.** Eisteddwch gerllaw, hymiwch, gwau neu ddarllen yn dawel. Mae bod yn bresennol yn ddigon.
 
-## Sut i rannu gweithgaredd yn y cam hwn
+## Sut i rannu gweithgaredd ar y cam hwn
 
-- **Ewch ato o'r tu blaen.** Dywedwch eu henw a'ch enw chi, a siaradwch yn araf ac yn feddal cyn i chi gyffwrdd.
+- **Dewch o'r blaen.** Dywedwch eu henw a'ch enw chi, a siaradwch yn araf ac yn feddal cyn cyffwrdd.
 - **Cynigiwch un peth ar y tro.** Diffoddwch y teledu cyn chwarae cerddoriaeth. Gwnewch un synnwyr ar y tro.
-- **Cadwch yn fyr.** Gall ychydig funudau fod yn ddigon. Mae sawl eiliad fer drwy'r dydd yn well nag un sesiwn hir.
-- **Gwnewch yn gyfforddus yn gyntaf.** Gwiriwch fod y person wedi'i gynnal yn dda. Mae'r NIA yn awgrymu bwrdd glin i orffwys y breichiau ac i gynnal rhan uchaf y corff wrth eistedd i fyny.
-- **Gwyliwch yr ymateb.** Mae dwylo hamddenol, wyneb mwy meddal, cyswllt llygad neu hymian yn awgrymu cysur. Mae'r NIA yn nodi y gall cwynfan, gwgu, gwarchod rhan o'r corff neu gythrwfl sydyn fod yn arwyddion o boen. Stopiwch, a dywedwch wrth y tîm gofal.
+- **Cadwch yn fyr.** Efallai y bydd ychydig funudau'n ddigon. Mae sawl eiliad fer drwy'r dydd yn well nag un sesiwn hir.
+- **Ewch yn gyfforddus yn gyntaf.** Gwiriwch fod y person wedi'i gynnal yn dda. Mae'r NIA yn awgrymu bwrdd glin i orffwys y breichiau a chynnal y corff uchaf pan fo'r person yn eistedd i fyny.
+- **Gwyliwch yr ymateb.** Mae dwylo ymlaciol, wyneb meddalach, cyswllt llygad neu ganu'n dawel yn awgrymu cysur. Mae'r NIA yn nodi y gall griddfan, gwgu, gwarchod rhan o'r corff neu gynhyrfu sydyn fod yn arwyddion o boen. Stopiwch, a dywedwch wrth y tîm gofal.
 
 ## Canllaw cyflym yn ôl synnwyr
 
-| Synnwyr | Syniadau | Gofalwch |
+| Synnwyr | Syniadau | Gofalu |
 | --- | --- | --- |
-| Clyw | Hoff gerddoriaeth, eich llais yn darllen, seiniau natur | Cadwch y sain yn isel; un sain ar y tro |
-| Cyffyrddiad | Tylino'r dwylo, dal dwylo, ffabrig meddal, lliain cynnes | Gofynnwch neu rhowch wybod yn gyntaf; gwiriwch nad yw'r croen yn ddolurus nac wedi torri |
-| Golwg | Lluniau, blodau, yr olygfa o'r ffenestr, fideo natur araf | Daliwch bethau ar lefel y llygaid; golau da, dim llacharedd |
-| Arogl | Hoff hufen, blodau ffres, coffi'n cael ei fragu gerllaw | Osgowch arogleuon cryf; gwiriwch am alergeddau ac anawsterau anadlu |
-| Blas | Blas bach o hoff flas | Dim ond bwydydd a gweadau y mae'r tîm gofal yn dweud eu bod yn ddiogel |
+| Clyw | Hoff gerddoriaeth, eich llais yn darllen, synau natur | Cadwch y sain yn isel; un sain ar y tro |
+| Cyffyrddiad | Tylino llaw, dal dwylo, ffabrig meddal, lliain cynnes | Gofynnwch neu cyhoeddwch yn gyntaf; gwiriwch nad yw'r croen yn ddolurus neu wedi torri |
+| Golwg | Lluniau, blodau, yr olygfa o ffenestr, fideo natur araf | Daliwch bethau ar lefel y llygaid; golau da, dim llacharedd |
+| Arogl | Hoff lotion, blodau ffres, coffi'n bragu gerllaw | Osgowch arogleuon cryf; gwiriwch alergeddau ac anadlu |
+| Blas | Blas bach o hoff flas | Dim ond bwydydd a gweadau y mae'r tîm gofal yn dweud sy'n ddiogel |
 
-## Diogelwch yn y cam hwn
+## Diogelwch ar y cam hwn
 
-Gall llyncu ddod yn anodd yn y cam hwyr, ac mae'r NIA yn rhybuddio bod hyn yn codi'r risg o dagu. Peidiwch â gadael pethau bach o fewn cyrraedd, a chynigiwch fwyd neu ddiod dim ond yn y gweadau a'r safleoedd y mae'r tîm gofal yn eu hargymell. Gwiriwch y croen yn dyner yn ystod gweithgareddau cyffyrddiad, gan y gall y croen rwygo neu gleisio'n hawdd. Am ragor o wybodaeth am syniadau synhwyraidd diogel, gweler [gweithgareddau synhwyraidd](/activities/sensory/).
+Gall llyncu fynd yn anodd yng nghyfnod hwyr, ac mae'r NIA yn rhybuddio bod hyn yn cynyddu'r risg o dagu. Peidiwch â gadael gwrthrychau bach o fewn cyrraedd, a dim ond cynnig bwyd neu ddiod yn y gweadau a'r safleoedd y mae'r tîm gofal yn eu hargymell. Gwiriwch y croen yn ysgafn yn ystod gweithgareddau cyffwrdd, gan y gall y croen rwygo neu gleisio'n hawdd. Am ragor o syniadau synhwyraidd diogel, gweler [gweithgareddau synhwyraidd](/creative-calm/sensory-activities-for-adults/).
 
 ## Gofalu amdanoch chi'ch hun hefyd
 
-Gall gofalu am rywun â dementia hwyr fod yn heriol yn gorfforol ac yn emosiynol, boed gartref neu yn ystod ymweliadau â chartref gofal. Gall timau gofal hosbis a gofal lliniarol helpu gyda chysur, cefnogaeth a chynllunio, ac mae'r NIA yn eu rhestru fel ffynhonnell gymorth. Mae ymweliadau byr, tawel yn werth chweil; gweler [ymweld â rhywun â dementia](/activities/visiting/). Os ydych chi'n arwain grwpiau, mae [gweithgareddau grŵp mewn cartref gofal](/activities/care-home-groups/) yn cynnwys syniadau ar gyfer addasu sesiynau. A darllenwch [hunangofal i ofalwyr](/caregiving/caregiver-self-care/): mae gorffwys yn rhan o ofalu'n dda.
+Mae gofalu yn y cyfnod hwyr yn feichus yn gorfforol ac yn emosiynol, boed gartref neu yn ystod ymweliadau â chartref gofal. Gall timau gofal hosbis a lliniarol helpu gyda chysur, cefnogaeth a chynllunio, ac mae'r NIA yn eu rhestru fel ffynhonnell cymorth. Mae ymweliadau byr a thawel yn werth chweil; gweler [ymweld â rhywun â dementia](/together/visiting-someone-in-care/). Os ydych chi'n arwain grwpiau, mae gan [gweithgareddau grŵp cartrefi gofal](/crafts/craft-group-sessions/) syniadau ar gyfer addasu sesiynau. Ac darllenwch [hunanofal i ofalwyr](/creative-calm/creative-self-care-for-caregivers/): mae gorffwys yn rhan o ofalu'n dda.
