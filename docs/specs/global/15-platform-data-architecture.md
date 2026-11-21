@@ -57,6 +57,9 @@ Summary: 40 items. P0 17, P1 14, P2 7, P3 2. Blocks are used for P0 and P1 items
 
 ### PLAT-001 · Stable entity IDs separate from slugs
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): every activity card has an immutable `id` (`ca-0001` to `ca-0056`), recorded in `site/src/data/card-ids.ts` with its slug; tests stop an id or a slug being reused. URLs are unchanged. The content bundle does not carry the id yet (an app-contract decision), and translation records (PLAT-004) are not built.
+
 Why: the slug is both the URL and the identity today. Translations and variations need IDs that survive a rename ([DESIGN.md §5] already shows `memory-collage-001`).
 What: every Activity, Variation, Media asset, Translation and Review record gets an immutable ID. The slug can change; the ID does not.
 Acceptance:
@@ -145,6 +148,9 @@ Risks / not doing: log noise. Only material changes are logged.
 
 ### PLAT-008 · URL policy, redirects and canonical registry
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): a card's earlier slugs, recorded in the card registry, generate permanent redirects (page and large print) in `public/_redirects`; there are none today, so a fixture proves it. Retired cards do not yet return 410 or redirect.
+
 Why: the site already uses trailing slashes and canonical tags. Tens of thousands of URLs need written rules and a redirect registry before the first slug changes.
 What: rules for slug format, locale prefix and section. One redirect registry file that maps retired and renamed URLs to their replacements.
 Acceptance:
