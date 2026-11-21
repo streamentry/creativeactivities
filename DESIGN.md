@@ -112,7 +112,8 @@ Target **WCAG 2.2 AA** for interfaces: 4.5:1 normal text, 3:1 large text and rel
 
 ### Bedside theme (APP-022)
 
-A calm, low-light option the person turns on in the comfort settings. It is an
+A calm, low-light option the person turns on in the comfort settings (kept by
+maintainer decision on 2026-11-22). It is an
 explicit choice, not the system's dark mode: the app still ignores the device
 setting. It uses only the `bedside-*` tokens above, with `sun` as the one
 filled action color and ink text on it. Every control keeps the same size
