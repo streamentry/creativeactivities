@@ -2461,5 +2461,25 @@
   "finderReasonWorksWithYouNearby": "Works with you nearby",
   "@finderReasonWorksWithYouNearby": {
     "description": "Reason shown when an activity works with the helper nearby."
+  },
+  "activityGuideOpenFull": "Full guide and printable card",
+  "@activityGuideOpenFull": {
+    "description": "Button. Opens this activity's full guide and printable card on the website, in the system browser."
+  },
+  "activityGuideCouldNotOpen": "The guide did not open on this device. Type the address below into any web browser, or scan the code with a phone camera.",
+  "@activityGuideCouldNotOpen": {
+    "description": "Calm message shown when the browser cannot open the guide. Shows the address and a QR code to use instead."
+  },
+  "activityGuideShare": "Share as text",
+  "@activityGuideShare": {
+    "description": "Button. Shares this activity's name, a short line and the website address as plain text through the system share sheet."
+  },
+  "activityGuideShareFailed": "Sharing did not work on this device. Nothing was sent.",
+  "@activityGuideShareFailed": {
+    "description": "Calm message shown when the share sheet cannot open. Nothing was shared."
+  },
+  "activityGuideQrSemantics": "QR code for the full guide address",
+  "@activityGuideQrSemantics": {
+    "description": "Screen reader label for the QR code that encodes the guide address."
   }
 }

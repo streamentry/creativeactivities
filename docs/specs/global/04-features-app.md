@@ -58,6 +58,8 @@ Depends on: GM-028, GM-031, APP-001.
 
 Risks / not doing: No interstitial asking people to install the app on web pages. No install banner on activity pages. See [DESIGN](../../../DESIGN.md) section 9.
 
+Status note (2026-11-22): Built as components, not yet placed on a screen. `activityGuideUri` (lib/shared/links/activity_guide_link.dart) builds `https://creativeactivities.org/activity/<slug>/` with no query or fragment, matching the website route. `ActivityGuideActions` (lib/shared/widgets/activity_guide_actions.dart) opens it with url_launcher in the external browser; if that fails, it shows the address and a QR code drawn on device with the `qr` package (pure Dart). Open points: no app activity has a website slug yet, so no screen shows the action; the offline check is "browser did not open", not a connectivity check; VoiceOver and TalkBack, target-size and 200% text checks on device are not done.
+
 ### APP-018 · Screen-reader-first activity reading
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -260,6 +262,8 @@ Acceptance:
 Depends on: APP-001, GM-022 (not used).
 
 Risks / not doing: No file or photo sharing without a separate approval.
+
+Status note (2026-11-22): Built as a pure payload builder, `activityShareText` (lib/shared/sharing/activity_share_text.dart). It returns the activity name, a short line and the APP-014 canonical link, one per line, and nothing else; it returns null for an invalid slug. `ActivityGuideActions` sends it with share_plus. Cancelling shows no message; a failed share shows a calm message. Unit tests cover the payload and widget tests cover the buttons. Open points: no screen places the action yet (see APP-014); the share sheet itself and sharing offline are not checked on device.
 
 ### APP-025 · Language status and picker
 
