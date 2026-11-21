@@ -108,6 +108,16 @@ export function printableGroups(input: PrintableInput): PrintableGroup[] {
           label: 'Pictures to print',
           note: 'Single drawings to look at together or print for the table.',
         },
+        {
+          href: '/printables/what-i-have-checklist/',
+          label: 'What I have checklist',
+          note: 'One sheet of tick boxes for everyday items at home, to find activities you can start now.',
+        },
+        {
+          href: '/printables/blank-activity-card/',
+          label: 'Blank activity card',
+          note: 'A two-sided card to write your own activity, with the same headings as the cards on this site.',
+        },
       ],
     },
   ];

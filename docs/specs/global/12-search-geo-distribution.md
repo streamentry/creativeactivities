@@ -166,6 +166,8 @@ Risks / not doing: Do not use AI-written activity ideas as if they were tested [
 ### SEO-008 · Intent ownership map
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): [intent-owners.md](intent-owners.md) maps 29 intents to one owning page each; 9 rows are left as "maintainer decision" where the cluster map leaves the owner open, and `tests/test_intent_owners.py` checks every hub owns exactly one row or is held from search. Three mismatches with the cluster map are recorded in the document.
+
 Why: Two pages compete when two owners claim one intent. The web SEO strategy gives the home page "dementia activities" intent, while the hub plan gives the same intent to a hub [web SEO §"Keyword-to-page map"; SEO-009].
 
 What: One table: intent → owner URL. The home page owns the brand and the broad games intent. Hubs own task intents. Activity pages own specific activity queries. Guides own "how do I" questions with no single activity.

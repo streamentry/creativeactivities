@@ -1,4 +1,5 @@
 ---
+id: ca-0014
 name: Look through a photo album
 seoTitle: "Look Through a Photo Album: Talk About the Pictures"
 description: "Turn the pages of a family photo album together, pausing wherever they like to talk about each picture. Seated or bedside, with easier and large-print versions."

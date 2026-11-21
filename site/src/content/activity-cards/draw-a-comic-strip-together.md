@@ -1,4 +1,5 @@
 ---
+id: ca-0004
 name: Draw a comic strip together
 seoTitle: "Draw a Comic Strip Together: A Two-Person Drawing Game"
 description: "Take turns drawing the boxes of a short comic strip about something ordinary, like the cat or breakfast. Stick figures are fine. Free, seated, for any two people."

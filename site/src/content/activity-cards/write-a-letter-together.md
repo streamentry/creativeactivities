@@ -1,4 +1,5 @@
 ---
+id: ca-0056
 name: Write a letter together
 seoTitle: "Write a Letter Together: A Simple Conversation Activity"
 description: "Write a short letter or postcard together to a grandchild or friend. The helper writes while you talk, with easier and bedside versions. Free and seated at a table."

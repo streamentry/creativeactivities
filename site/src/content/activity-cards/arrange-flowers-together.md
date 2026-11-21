@@ -1,4 +1,5 @@
 ---
+id: ca-0001
 name: Arrange flowers together
 seoTitle: "Arrange Flowers Together: A Simple Shared Activity"
 description: "Arrange a jar of flowers together from garden or store stems. Five minutes to set up, seated at a table, low cost, with easier, bedside and low-vision versions."

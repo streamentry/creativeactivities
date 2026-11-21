@@ -1,4 +1,5 @@
 import { z } from 'astro/zod';
+import { CARD_ID_FORMAT } from '../data/card-ids';
 import { SAFETY_FLAGS } from './activities';
 import { plainStepProblems } from './plain-steps';
 
@@ -134,6 +135,12 @@ export const reviewDeclinedSchema = z
  */
 export const activityCardSchema = z
   .object({
+    /**
+     * The stable card id (PLAT-001): `ca-` and four digits, for example `ca-0001`. It is set once and
+     * never changes when the file name (the slug, which is the URL) changes, and no id is ever given to
+     * a second card. The registry in src/data/card-ids.ts lists every id issued, with its current slug.
+     */
+    id: z.string().regex(CARD_ID_FORMAT, 'a card id: ca- and four digits, such as ca-0001'),
     name: z.string().max(60),
     seoTitle: z.string().max(60).optional(),
     description: z.string().min(110).max(165),

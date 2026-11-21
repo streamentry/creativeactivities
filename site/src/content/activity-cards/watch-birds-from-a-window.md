@@ -1,4 +1,5 @@
 ---
+id: ca-0052
 name: Watch birds from a window
 seoTitle: "Watch Birds from a Window: A Quiet Shared Look"
 description: "Sit by a window together and watch for birds, describing their colors and movement on a simple drawn chart. Seated or bedside, with no names needed and no cost."

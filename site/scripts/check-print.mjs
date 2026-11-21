@@ -252,6 +252,41 @@ async function careSheets(context, base, failures, record) {
 }
 const CARE_SHEET_PAGES = 1;
 
+/**
+ * CNT-007: the "What I have" checklist is one sheet, and the blank activity card is one two-sided sheet (two pages),
+ * each on A4 and on US Letter. The site header is hidden in print and the body text is at least 14 pt.
+ */
+export const CNT7_TEMPLATES = [
+  { type: 'what I have checklist', url: '/printables/what-i-have-checklist/', pages: 1 },
+  { type: 'blank activity card', url: '/printables/blank-activity-card/', pages: 2 },
+];
+const CNT7_MIN_PT = 14;
+
+async function cnt7Templates(context, base, failures, record) {
+  for (const template of CNT7_TEMPLATES) {
+    const page = await context.newPage();
+    await page.goto(`${base}${template.url}`, { waitUntil: 'networkidle' });
+    await page.emulateMedia({ media: 'print' });
+    const hidden = await page.evaluate(() => {
+      const header = document.querySelector('.site-header');
+      return !!header && getComputedStyle(header).display === 'none';
+    });
+    const textPt = await page.evaluate(() => {
+      const sizes = [...document.querySelectorAll('.checklist__sheet p, .checklist__sheet li, .checklist__sheet h2, .checklist__sheet h3, .blank-card p, .blank-card li, .blank-card h2, .blank-card h3')]
+        .filter((el) => el.offsetParent !== null && el.textContent.trim() !== '')
+        .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
+      return sizes.length ? Math.min(...sizes) : null;
+    });
+    const counts = {};
+    for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+    const ok = hidden && textPt !== null && textPt >= CNT7_MIN_PT && FORMATS.every((f) => counts[f] === template.pages);
+    if (!ok) failures.push({ slug: template.type, counts, hidden, textPt });
+    record(template.type, ok);
+    console.log(`${template.type}: A4 ${counts.A4}  Letter ${counts.Letter}  limit ${template.pages}  navigation hidden ${hidden ? 'yes' : 'NO'}  text ${textPt?.toFixed(0) ?? 'none'} pt (at least ${CNT7_MIN_PT})  ${ok ? 'ok' : 'FAIL'}`);
+    await page.close();
+  }
+}
+
 async function main() {
   if (!existsSync(join(DIST, 'index.html'))) {
     console.error('dist/ is missing. Run `pnpm build` first.');
@@ -432,6 +467,7 @@ async function main() {
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
     await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
     await careSheets(context, base, failures, record);
+    await cnt7Templates(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }

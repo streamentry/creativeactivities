@@ -1,4 +1,5 @@
 ---
+id: ca-0006
 name: Draw a slow line pattern
 seoTitle: "Draw a Slow Line Pattern: A Quiet Pencil Activity"
 description: "Trace round a cup to make a circle, then fill it one section at a time with slow lines and simple shapes. Plain paper and a pencil, with seated and bedside versions."

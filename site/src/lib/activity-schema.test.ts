@@ -6,6 +6,7 @@ const DESCRIPTION =
 
 /** A valid card; each test changes one field to see what the schema says. */
 const CARD = {
+  id: 'ca-0001',
   name: 'Fold towels together',
   description: DESCRIPTION,
   summary: 'Fold clean, warm towels together at a table.',

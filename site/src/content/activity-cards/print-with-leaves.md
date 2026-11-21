@@ -1,4 +1,5 @@
 ---
+id: ca-0041
 name: Print with leaves
 seoTitle: "Print with Leaves: A Simple Nature Art Activity"
 description: "Paint the back of a leaf, press it onto paper and lift it to see the veins in color. Outdoors or at a table, free to make, with easier and seated versions."

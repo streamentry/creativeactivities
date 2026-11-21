@@ -11,4 +11,6 @@ export const NOINDEX_PAGES: ReadonlySet<string> = new Set([
   '/for-professionals/',
   // The care-home and day-center session plans (CNT-014, adult variant) held until a care-setting reviewer has read them.
   '/for-organizations/care-settings/',
+  // A blank card is a form for a family or care home to fill in, not guidance to index (CNT-007).
+  '/printables/blank-activity-card/',
 ]);

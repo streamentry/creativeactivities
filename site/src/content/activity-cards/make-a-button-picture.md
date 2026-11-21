@@ -1,4 +1,5 @@
 ---
+id: ca-0016
 name: Make a button picture
 seoTitle: "Button Picture: A Colorful Craft to Make Together"
 description: "Make a button picture together by sorting and gluing buttons onto card. Seated at a table, low cost, with easier versions. Buttons are a choking hazard."

@@ -639,6 +639,8 @@ Risks / not doing: Do not use AI-written reviews or testimonials [SEO.md §5.3].
 ### TSA-038 · Image rights and consent log
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
+Status note (2026-11-21): all 43 social-card records name how they were made (`site/scripts/make-images.py` and its inputs). License statements and rights review still wait on the maintainer or counsel; every record stays `unreviewed`.
+
 Evidence: `docs/specs/asset-provenance.json` `site_images` holds 199 entries logged 2026-11-14 (83 picture-library SVGs, 100 generated illustrations, 16 social cards). `site/src/lib/asset-provenance.test.ts` (10 tests) fails if a picture, illustration or social card has no entry, if an entry points at a missing file, or if a person or child is shown without a release. Open: every entry is `unreviewed`. Creator, license text and review date are missing for the drawn art and the social cards, and the generated-illustration tool terms are not reviewed.
 
 Why: Images of older adults and children create image-rights and consent issues [R5 §5.5]. A person living with dementia may not be able to consent, and the rules for a legal representative vary by place.

@@ -1,4 +1,5 @@
 ---
+id: ca-0003
 name: Decorate a plant pot
 seoTitle: "Decorate a Plant Pot Together: A Simple Craft"
 description: "Decorate a plant pot together with paint, paper or twine, then pot up a plant. Low cost, seated at a table, and something useful to keep on a windowsill."

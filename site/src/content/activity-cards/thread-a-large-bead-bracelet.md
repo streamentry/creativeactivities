@@ -1,4 +1,5 @@
 ---
+id: ca-0051
 name: Thread a large bead bracelet
 seoTitle: "Thread a Large Bead Bracelet: A Seated Jewelry Craft"
 description: "Thread large beads onto stretchy cord to make a simple bracelet at a table. Beads are a choking hazard, so not for under-threes or anyone who mouths things."
