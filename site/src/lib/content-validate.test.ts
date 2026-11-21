@@ -9,6 +9,7 @@ import { activityCardSchema } from './activity-schema';
 
 /** A valid card as the schema reads it (the front matter of the real sample, already parsed). */
 const CARD_DATA = {
+  id: 'ca-0001',
   name: 'Arrange flowers together',
   seoTitle: 'Arrange Flowers Together: A Simple Shared Activity',
   description:
