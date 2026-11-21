@@ -112,6 +112,9 @@ Risks / not doing: churn from hash-based staleness. Do not automate translation 
 
 ### PLAT-005 · Review records that cannot be faked
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): a review record can carry `contentHash`, a normalized hash of the same fields the version rule covers (a test keeps the two lists equal); `pnpm review:drift` says whether a reviewed card changed since review. No card has a review record yet (0 of 56).
+
 Why: `reviewer` is a nullable string today. [R3 §7] and DESIGN §5 say a "clinically reviewed" label needs a documented review. Healthline-style review dates are the trust model in [R5 §2.1–2.2].
 What: a review record holds the reviewer's name (or role if they prefer), credential where one applies, scope, date, the version hash reviewed and the outcome. The page shows a reviewer only when a matching record exists.
 Acceptance:

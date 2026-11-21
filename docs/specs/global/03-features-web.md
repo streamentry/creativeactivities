@@ -904,6 +904,8 @@ Risks / not doing: Share counts are not a growth target. No "invite a friend" in
 
 Priority P1 · Phase S2 · Status partial · Pillars: PLAY
 
+Status note (2026-11-21): every game carries play modes (solo, together, group) and offline, taken from the 05-games table and marked unreviewed; Picture bingo's offline value is left open. The games index links to four static filter pages (solo, together, group, printable) that work without JavaScript, are `noindex` and canonical to `/games/`, and are not in the sitemap. A person still reviews every tag.
+
 Why: Games should match the setting and the company: solo or together, phone or tablet, offline ([R4 §4](research/04-games-engagement.md)). The baseline has a games index with 12 games.
 
 What: Filters for solo or together, device, offline-ready and group size. Each game shows its "How to play" and an adaptation note.

@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import GameCard from '../components/GameCard.astro';
+import GamesFilterNav from '../components/GamesFilterNav.astro';
 import Faq from '../components/Faq.astro';
 import type { Stage } from '../data/games';
 import { absoluteUrl } from '../lib/site';
@@ -45,6 +46,7 @@ const itemList = {
       <h1>{p.h1}</h1>
       <p class="lede">{fill(p.lede, { count: games.length })}</p>
     </header>
+    {lang === 'en' && <GamesFilterNav current="all" />}
     <ul class="games-bento">
       <li class="games-bento__lead"><GameCard game={leadGame} variant="lead" headingLevel="h2" lang={lang} /></li>
       {restGames.map((g) => (

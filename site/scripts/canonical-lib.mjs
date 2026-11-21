@@ -14,6 +14,13 @@ export const CANONICAL_ALTERNATES = [
     match: /^\/activity\/([^/]+)\/large-print\/$/,
     target: (m) => `/activity/${m[1]}/`,
   },
+  // WEB-051 games filter pages: the same catalog, shown through one filter. Noindex, canonical to the full index.
+  // Source: src/pages/games/<filter>.astro, rendered by GamesFilterView.astro.
+  {
+    name: 'games filter',
+    match: /^\/games\/(solo|together|group|printable)\/$/,
+    target: () => '/games/',
+  },
 ];
 
 /**

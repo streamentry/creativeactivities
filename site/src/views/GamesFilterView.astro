@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import GameCard from '../components/GameCard.astro';
+import GamesFilterNav from '../components/GamesFilterNav.astro';
+import { localizedGames } from '../i18n/games';
+import { breadcrumbs } from '../lib/schema';
+import { FILTER_CANONICAL, GAME_FILTERS, filterPath, gamesForFilter, type GameFilter } from '../lib/games/filters';
+import '../styles/studio-games.css';
+
+interface Props {
+  filter: GameFilter;
+}
+const { filter } = Astro.props;
+const info = GAME_FILTERS.find((f) => f.id === filter);
+if (!info) throw new Error(`Unknown games filter: ${filter}`);
+const games = gamesForFilter(localizedGames('en'), filter);
+const crumbs = [
+  { href: '/games/', label: 'Games' },
+  { href: filterPath(filter), label: info.label },
+];
+const description = `${info.lede} Free, gentle games for adults and families, with no timer or score.`;
+---
+<BaseLayout
+  title={info.heading}
+  description={description}
+  jsonLd={[breadcrumbs(crumbs, 'en')]}
+  noindex
+  canonicalPath={FILTER_CANONICAL}
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container games-index">
+    <header class="page-head games-head">
+      <p class="eyebrow">Games</p>
+      <h1>{info.heading}</h1>
+      <p class="lede">{info.lede}</p>
+    </header>
+    <GamesFilterNav current={filter} />
+    {
+      games.length > 0 ? (
+        <ul class="games-bento">
+          {games.map((g) => (
+            <li>
+              <GameCard game={g} headingLevel="h2" lang="en" />
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <p>No games match this filter yet. <a href="/games/">See all games</a>.</p>
+      )
+    }
+  </div>
+</BaseLayout>

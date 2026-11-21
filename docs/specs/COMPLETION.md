@@ -512,6 +512,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Group passing rules on Conversation cards; a one-page month calendar for Today's card | GAME-050, GAME-061 partial | Built by a Haiku subagent; no score, timer or winner wording (tested) |
 | Paths linked from hubs and Today, with each row's time; tablet portrait and landscape in the group and accessibility checks | CNT-006, WEB-046 partial | Built by a Haiku subagent; 168 of 168 group walk-throughs and 302 accessibility pages pass |
 
+### Batch 59 (2026-11-21): games filters, a claims report for translations, review hashes and a contrast scan
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Games index filters (solo, together, group, printable) as static, `noindex` pages; play modes and offline on every game from the spec table | WEB-051 partial | Built by a Haiku subagent; works without JavaScript; the canonical rule now also covers these filtered views. Every tag still needs a person's review |
+| `pnpm check:claims-i18n`, a report of draft claim terms in seven languages' translated guides | TSA-028 partial | Built by a Haiku subagent from repository sources only. Report only: 1,208 hits, mostly disclaimers such as "not therapy" that a word match cannot tell from a claim |
+| Review records can carry a content hash; `pnpm review:drift` | PLAT-005 partial | Built by a Haiku subagent; review added a test that the hash and the version rule cover the same fields |
+| A contrast scan of every token text-on-background rule in four themes | TSA-005 partial | Built by a Haiku subagent; 95 rules pass; 29 rules use colors outside the tokens, the next thing to fix |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |

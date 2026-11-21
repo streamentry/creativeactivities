@@ -1,0 +1,65 @@
+---
+import { GAME_FILTERS, filterPath, type GameFilter } from '../lib/games/filters';
+
+interface Props {
+  /** The filter this page shows, or "all" on the full index. */
+  current: GameFilter | 'all';
+}
+const { current } = Astro.props;
+const items: { href: string; label: string; id: GameFilter | 'all' }[] = [
+  { href: '/games/', label: 'All games', id: 'all' },
+  ...GAME_FILTERS.map((f) => ({ href: filterPath(f.id), label: f.label, id: f.id })),
+];
+---
+<nav class="games-filter" aria-label="Filter games">
+  <ul class="games-filter__list">
+    {
+      items.map((item) => (
+        <li>
+          <a class="games-filter__link" href={item.href} aria-current={item.id === current ? 'page' : undefined}>
+            {item.label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<style>
+  .games-filter {
+    margin-block: var(--space-md) var(--space-lg);
+  }
+  .games-filter__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .games-filter__link {
+    display: inline-flex;
+    align-items: center;
+    min-block-size: 48px;
+    padding-inline: var(--space-md);
+    border: 2px solid var(--gm-outline);
+    border-radius: var(--radius-full);
+    background: var(--gm-surface-raised);
+    color: var(--gm-on-surface);
+    font-size: var(--text-md);
+    text-decoration: none;
+  }
+  .games-filter__link:hover {
+    border-color: var(--gm-primary);
+    color: var(--gm-primary);
+  }
+  .games-filter__link:focus-visible {
+    outline: 3px solid var(--gm-primary);
+    outline-offset: 2px;
+  }
+  .games-filter__link[aria-current='page'] {
+    background: var(--gm-accent-pale);
+    border-color: var(--gm-on-surface);
+    font-weight: 700;
+  }
+</style>

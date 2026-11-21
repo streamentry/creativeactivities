@@ -100,19 +100,26 @@ export function issuesOf(schema, data) {
   }));
 }
 
+/**
+ * Parses one record's front matter. Returns `{ data }` on success, or `{ error }` with the reason.
+ * @param {string} contents
+ * @returns {Promise<{ data?: Record<string, unknown>, error?: string }>}
+ */
+export async function parseRecord(contents) {
+  const { parseFrontmatter, extractFrontmatter } = await loadFrontmatterParser();
+  if (extractFrontmatter(contents) === undefined) return { error: 'no --- front matter block found' };
+  try {
+    return { data: parseFrontmatter(contents).frontmatter };
+  } catch (error) {
+    return { error: `YAML error: ${error.message.split('\n')[0]}` };
+  }
+}
+
 /** Parses one record's front matter and validates it. Returns the issues; an empty list means valid. */
 export async function checkRecord(schema, contents) {
-  const { parseFrontmatter, extractFrontmatter } = await loadFrontmatterParser();
-  if (extractFrontmatter(contents) === undefined) {
-    return [{ field: '(front matter)', message: 'no --- front matter block found' }];
-  }
-  let data;
-  try {
-    data = parseFrontmatter(contents).frontmatter;
-  } catch (error) {
-    return [{ field: '(front matter)', message: `YAML error: ${error.message.split('\n')[0]}` }];
-  }
-  return issuesOf(schema, data);
+  const parsed = await parseRecord(contents);
+  if (parsed.error !== undefined) return [{ field: '(front matter)', message: parsed.error }];
+  return issuesOf(schema, parsed.data);
 }
 
 /**

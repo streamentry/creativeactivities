@@ -1,0 +1,138 @@
+{
+  "_note": "Draft, unreviewed: a native reviewer confirms every term (TSA-028).",
+  "scope": "Claim phrases from the English RULES in site/src/lib/claims.ts, for translated guides in site/src/content/guides-i18n/<code>/. Scanned by site/scripts/check-claims-i18n.mjs. Report only: nothing here is a verdict on a translation.",
+  "selection": "Languages are the five with the most translated guides (many locales tie at 116 files; the first five in alphabetical order are ar, bn, cs, da, de) plus es and fr, which the brief adds.",
+  "basisRule": "A form is listed only when a file in the repository uses it for the same idea (the translated sentence that says Creative Activities is not therapy, not a treatment, or the translated explainer title). An empty forms list means no repository basis was found, not that no equivalent exists.",
+  "notCovered": [
+    "dementia-sufferer (RULES): a wording rule, not a claim; no table yet.",
+    "review-badge (RULES): covered by the reviewer record rules (CNT-1004), not by vocabulary.",
+    "condition-title and skill-claim (RULES): context-dependent; not translated into a term list yet.",
+    "Therapeutic: the translated titles of therapeutic-art-activities-for-adults.md use a relaxing word in each language (ar مريحة, bn শান্তিদায়ক, cs Uvolňující, da Afslappende, de Entspannende, es relajantes, fr relaxantes). These are approved alternatives, not equivalents of the banned word, so no form is listed here."
+  ],
+  "languages": ["ar", "bn", "cs", "da", "de", "es", "fr"],
+  "entries": [
+    {
+      "id": "therapy",
+      "english": "therapy, therapies, therapeutic (RULES: therapy-word, profession-label)",
+      "terms": {
+        "ar": { "forms": ["علاج"], "basis": "ar/activities/art-therapy-or-creative-activity.md title: العلاج بالفن (art therapy). The same word is also used for treatment." },
+        "bn": { "forms": ["থেরাপি"], "basis": "src/i18n/ui/bn.json lede: \"থেরাপি নয়\" (not therapy)" },
+        "cs": { "forms": ["terapie", "terapii", "arteterapie"], "basis": "src/i18n/ui/cs.json lede: \"nikoli terapie\"; cs/activities/art-therapy-or-creative-activity.md title" },
+        "da": { "forms": ["terapi", "kunstterapi"], "basis": "src/i18n/ui/da.json lede: \"ikke terapi\"; da/activities/art-therapy-or-creative-activity.md title" },
+        "de": { "forms": ["Therapie", "Kunsttherapie"], "basis": "src/i18n/ui/de.json lede: \"keine Therapie\"; de/activities/art-therapy-or-creative-activity.md title" },
+        "es": { "forms": ["terapia", "arteterapia"], "basis": "src/i18n/ui/es.json lede: \"no terapia\"; es/activities/art-therapy-or-creative-activity.md title" },
+        "fr": { "forms": ["thérapie"], "basis": "src/i18n/ui/fr.json lede: \"pas une thérapie\"; fr/activities/art-therapy-or-creative-activity.md title (art-thérapie)" }
+      }
+    },
+    {
+      "id": "treatment",
+      "english": "treat, treats, treatment (RULES: treat-claim)",
+      "terms": {
+        "ar": { "forms": ["علاج"], "basis": "ar/crafts/paper-crafts.md: \"ليس علاجًا\" (not a treatment)" },
+        "bn": { "forms": ["চিকিৎসা"], "basis": "bn/crafts/paper-crafts.md: \"চিকিৎসাও নয়\" (not a treatment; the suffix is attached, so the scanner will not match it)" },
+        "cs": { "forms": ["léčba"], "basis": "cs/crafts/paper-crafts.md: \"nejsou léčba\"" },
+        "da": { "forms": ["behandling"], "basis": "da/crafts/paper-crafts.md: \"ikke en behandling\"" },
+        "de": { "forms": ["Behandlung"], "basis": "de/crafts/paper-crafts.md: \"keine Behandlung\"" },
+        "es": { "forms": ["tratamiento"], "basis": "es/crafts/paper-crafts.md: \"no son un tratamiento\"" },
+        "fr": { "forms": ["traitement"], "basis": "fr/crafts/paper-crafts.md: \"ne sont pas un traitement\"" }
+      }
+    },
+    {
+      "id": "proven",
+      "english": "proven, clinically proven, scientifically shown (RULES: proof-claim)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": ["prokázána", "prokázán"], "basis": "cs/brain-health/brain-games.md: \"nebyla prokázána jako prevence demence\" (no brain game has been shown to prevent dementia)" },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": ["demostrado"], "basis": "es/brain-health/brain-games.md: \"No se ha demostrado que ningún juego mental prevenga la demencia\"" },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "prevent-dementia",
+      "english": "prevents dementia, delays decline (RULES: delays-decline, outcome-claim)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": ["prevence demence"], "basis": "cs/brain-health/brain-games.md: \"jako prevence demence\" (as prevention of dementia)" },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": ["prevenga la demencia"], "basis": "es/brain-health/brain-games.md: \"prevenga la demencia\" (prevents dementia), used in a negated sentence" },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "brain-training",
+      "english": "brain training, brain age, brain games as exercise (RULES: brain-training, memory-exercise)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": ["trénink mozku"], "basis": "cs/brain-health/brain-games.md: \"Počítačový trénink mozku\" (computerised brain training, a research term)" },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": [], "basis": null },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "healing-and-cure",
+      "english": "heal, heals, healing, cure, cures (RULES: healing-and-cure)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": [], "basis": null },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": [], "basis": null },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "improves-memory",
+      "english": "improves memory, better memory, cognitive benefit (RULES: outcome-claim, cognitive-outcome, brain-benefit)",
+      "notes": "cs/brain-health/brain-games.md uses the research sentence \"většinou zlepšuje úkoly\" (mostly improves the tasks people practise). It describes a study result, not a benefit claim, so it is not listed.",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": [], "basis": null },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": [], "basis": null },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "reduces-anxiety",
+      "english": "reduces anxiety, calms anxiety, lowers stress, relieves stress (RULES: outcome-claim, calm-claim, stress-relief)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": [], "basis": null },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": [], "basis": null },
+        "fr": { "forms": [], "basis": null }
+      }
+    },
+    {
+      "id": "reverses-or-slows",
+      "english": "reverses, stops, slows decline (RULES: outcome-claim, stop-claim)",
+      "terms": {
+        "ar": { "forms": [], "basis": null },
+        "bn": { "forms": [], "basis": null },
+        "cs": { "forms": [], "basis": null },
+        "da": { "forms": [], "basis": null },
+        "de": { "forms": [], "basis": null },
+        "es": { "forms": [], "basis": null },
+        "fr": { "forms": [], "basis": null }
+      }
+    }
+  ],
+  "explainerFiles": [
+    "activities/art-therapy-or-creative-activity.md",
+    "activities/finding-an-art-therapist.md",
+    "activities/creative-arts-therapies.md"
+  ]
+}
