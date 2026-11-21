@@ -19,7 +19,7 @@ This file sets the requirements that make the website and app safe to rely on: a
 ### TSA-001 · WCAG 2.2 AA as the release gate
 Priority P0 · Phase S1 · Status partial · Pillars: all
 
-Evidence: `site/scripts/a11y-check.mjs` (`pnpm check:a11y`) runs axe at WCAG 2.2 AA on one page of each of 13 templates at 390 and 1440 px, with zero violations. A keyboard pass covers the same pages. The manual checklist and the per-release record are still open.
+Evidence: `site/scripts/a11y-check.mjs` (`pnpm check:a11y`) runs axe at WCAG 2.2 AA on one page of each of 13 templates at 390 and 1440 px, with zero violations. A keyboard pass covers the same pages. Status note (2026-11-22): the per-release record now exists. `pnpm run check:a11y -- --record=<file>` writes a dated JSON record (date, commit or null, pages checked, violations per template and page, and the sentence that automated checks are necessary but not sufficient), built by `site/scripts/a11y-record-lib.mjs` and tested in `site/src/lib/a11y-record.test.ts`. The checklist that lists it is `docs/release/site-release-checks.md`. The manual checklist is still open.
 
 Why: Accessibility is a core promise, and older users, people with low vision and people with motor limits are the primary audience [MISSION, "Accessible by default"; DESIGN §6]. WCAG 2.2 is the current W3C recommendation, and its 9 added criteria include several that matter here [R5 §5.4].
 
@@ -70,7 +70,7 @@ Risks / not doing: Do not add a score or streak to make a game feel finished [R4
 ### TSA-004 · Keyboard, focus and drag alternatives
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
-Status note (2026-11-21): every focus ring now passes 3:1 on each background it sits on, light and dark and high contrast, tested in `theme-contrast.test.ts` (fixes: the feedback ring, the puzzle piece ring on the print-white board, the word-search gap). A keyboard-only pass on every game and the drag alternatives are not yet documented and tested.
+Status note (2026-11-21): every focus ring now passes 3:1 on each background it sits on, light and dark and high contrast, tested in `theme-contrast.test.ts` (fixes: the feedback ring, the puzzle piece ring on the print-white board, the word-search gap). Status note (2026-11-22): the drag alternatives are documented in the table below and tested. `site/src/games/drag-alternatives.test.ts` scans every game `.tsx` file and fails when a file handles a pointer or native drag without a keyboard handler. A keyboard-only pass on every game is not yet recorded.
 
 Evidence: keyboard pass on every template and game in a11y-check.mjs; sorting and puzzle use tap-then-tap, not drag (site/src/lib/games/games.test.ts covers the tap alternatives). Not done: focus contrast check on every background.
 
@@ -82,6 +82,17 @@ Acceptance:
 - Keyboard-only pass on every game and every template.
 - Each drag action has a documented alternative, tested.
 - Focus indicator passes contrast on all backgrounds.
+
+Drag actions and their alternatives (checked 2026-11-22):
+
+| Drag action | Game | Alternative | Test |
+| --- | --- | --- | --- |
+| Paint a wash by dragging on the page | ColorWash (`ColorWash.tsx`) | Arrow keys move the brush ring one step; Space puts the brush down or up | `site/src/games/ColorWash.test.ts` ("answers the keyboard brush with Brush down and Brush up"); `site/src/lib/games/color-wash.test.ts` ("moves the ring one step at a time", "toggles the brush down and up") |
+| Draw a line by dragging | DrawingDuet (`DrawingDuet.tsx`) | Arrow keys move the pen; Space puts the pen down or up | `site/src/games/DrawingDuet.test.ts` ("answers the keyboard pen with Pen down and Pen up"); `site/src/lib/games/drawing-duet.test.ts` ("adds points to the line while the pen is down") |
+| Sort pictures into groups | Sort together (`SortTogether.tsx`) | Tap a picture, then tap its group (no pointer drag in the code) | `site/src/lib/games/games.test.ts` (`tapTogether`) |
+| Move puzzle pieces | Picture puzzle (`PicturePuzzle.tsx`) | Tap a piece, then tap its place (no pointer drag in the code) | `site/src/lib/games/games.test.ts` (`tapPiece`) |
+
+The scan (`site/src/games/drag-alternatives.test.ts`) currently finds two files that handle a drag, ColorWash.tsx and DrawingDuet.tsx; both have a keyboard handler. `draggable={false}` on images is not a drag and is not counted.
 
 Depends on: TSA-001.
 Risks / not doing: Do not hide a control behind hover.

@@ -217,6 +217,7 @@ Risks / not doing: publishing defect counts as a quality badge (L10N-025); readi
 
 ### MET-016 · Accessibility defects per release
 Priority P0 · Phase S2 · Status partial · Pillars: all
+Status note (2026-11-22): `pnpm run check:a11y -- --record=<file>` writes the per-release record (violations per template and per page, with the necessary-but-not-sufficient sentence), tested in `site/src/lib/a11y-record.test.ts`. Documented in `docs/release/site-release-checks.md`. Zero serious or critical violations is still the target, not yet recorded as met.
 Why: WCAG 2.2 AA is the minimum ([DESIGN.md §6]; [R5 §5.4]). The baseline says axe runs on key pages.
 What: serious and critical axe violations per template, per release.
 Acceptance:
@@ -239,6 +240,8 @@ Risks / not doing: averaging across tools.
 
 ### MET-018 · Safety reports and safety-field completeness
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): `pnpm run metrics:content` prints the share of published activity cards (not withdrawn, not declined) with each required safety field answered: a safety flag (`none` counts), a safety note, and a supervision level. The card schema has no field per topic (scissors, choking, falls and so on), so those topics are not counted one by one. Not done: the count of safety reports and harm or near-miss reports (the channel awaits TSA-047), and the same-working-day review target.
 Why: MISSION names safety as a non-negotiable. The baseline records zero incidents.
 What: count of safety reports and harm or near-miss reports; share of activities with every required safety field answered (scissors, heat, choking, skin contact, allergens, falls, ingestion, supervision).
 Acceptance:
@@ -499,7 +502,10 @@ Risks / not doing: adding a metric that needs a new SDK without a decision ([mea
 |---|---|---|---|---|
 | MET-001 Confirmed starts | `activity_started_confirmed` (GA4) | Not set | Proposed 10 | Acceptance says no cookie with a confirmation. The GA4 event is sent after consent, and `_ga` cookies are set. **Conflict to decide.** |
 | MET-002 Start rate | `activity_start` ÷ `activity_view` (GA4) | Not set | Not set | MET-002 says "card views", but `activity_view` counts activity page loads. **Define the denominator.** |
+| MET-002 Start rate, denominator | `activity_view` (GA4): sent once per activity page load, with the activity key only | Not set | Not set | Sent on activity pages only, not on the card listings. Counts page loads, not card views, so the MET-002 denominator is still open. |
 | MET-003 Prints, saves, shares | `activity_print`, `activity_save`, `activity_share` (GA4) | Not set | Not set | `activity_save` is not sent when removed. Print counts are not use. |
+| MET-008 PLAY restarts | `activity_restart` (GA4): sent when a game's restart button is used, no parameters | Not set | Not set | Counts restarts only. No score, time, move count or completion is sent. |
+| App store badge clicks (PLAT-024, TSA-012) | `app_cta_click` (GA4): `store` (`app_store` or `google_play`) and `placement` (fixed list) | Not set | Not set | Sent when a badge is clicked, before the store opens, so a click that leaves the page may not always be reported. Installs come from store reports, not from this event. |
 | MET-004 MAKE input | Variation views | No event in the dictionary | Not set | **No source yet.** |
 | MET-005 GROW input | Printable downloads; parent diaries | Not set | Not set | Not launched. Child pages excluded. |
 | MET-006 CARE input | `activity_not_a_fit` with fixed reason list (GA4); diaries | Not set | Not set | Check reason codes against `NOT_A_FIT_REASONS` before reporting. |

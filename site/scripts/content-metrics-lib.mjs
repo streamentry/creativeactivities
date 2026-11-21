@@ -19,6 +19,16 @@ function isoField(frontmatter, key) {
   return calendarDate(frontmatter.match(new RegExp(`^${key}: "?(\\d{4}-\\d{2}-\\d{2})"?\\s*$`, 'm'))?.[1] ?? null);
 }
 
+/**
+ * How many items a list field holds, written inline (`key: [a, b]`) or as `- item` lines under the key.
+ * @param {string} frontmatter @param {string} key @returns {number}
+ */
+function listCount(frontmatter, key) {
+  const inline = frontmatter.match(new RegExp(`^${key}:[ \\t]*\\[(.*)\\][ \\t]*$`, 'm'))?.[1];
+  if (inline !== undefined) return inline.split(',').map((item) => item.trim()).filter(Boolean).length;
+  return (block(frontmatter, key).match(/^[ \t]+- \S/gm) ?? []).length;
+}
+
 /** The lines of one top-level front matter block, without the key line. */
 function block(frontmatter, key) {
   const start = frontmatter.search(new RegExp(`^${key}:`, 'm'));
@@ -58,6 +68,12 @@ export function pageFacts(kind, id, frontmatter) {
     // Only a review record sets the review date. An edit (`updated`) or the first publication does not: a page with no
     // review is never reviewed, and reporting it as checked on its last edit would reset the clock (MET-011, PLAT-012).
     checked: reviewDate,
+    withdrawn: /^withdrawn:/m.test(frontmatter),
+    declined: /^reviewDeclined:/m.test(frontmatter),
+    // MET-018: the card's safety answers. `safetyFlags` holds `none` when the reviewer checked and nothing applies.
+    safetyFlags: listCount(frontmatter, 'safetyFlags'),
+    safetyNotes: listCount(frontmatter, 'safety'),
+    supervision: /^supervision:[ \t]*"?(nearby|hands-on)"?[ \t]*$/m.test(frontmatter),
     sources: (sources.match(/^[ \t]+- title:/gm) ?? []).length,
     // A source is dated only if it carries a date of its own; none of the schemas has such a field yet.
     datedSources: (sources.match(/^[ \t]+(?:date|retrieved|accessed|checked): /gm) ?? []).length,
@@ -154,11 +170,27 @@ export function sourceCoverage(pages) {
   };
 }
 
+/**
+ * MET-018: published activity cards (not withdrawn, not declined) with each required safety field answered.
+ * The card schema has three required safety fields: at least one safety flag (`none` counts, because it is the
+ * checked answer that nothing applies), at least one safety note, and a supervision level. The schema has no
+ * field per topic (scissors, heat, choking and so on), so those topics are not counted one by one.
+ * @param {ReturnType<typeof pageFacts>[]} pages
+ */
+export function safetyCompleteness(pages) {
+  const cards = pages.filter((p) => p.kind === 'activity' && !p.withdrawn && !p.declined);
+  const flags = cards.filter((p) => p.safetyFlags > 0).length;
+  const notes = cards.filter((p) => p.safetyNotes > 0).length;
+  const supervision = cards.filter((p) => p.supervision).length;
+  const all = cards.filter((p) => p.safetyFlags > 0 && p.safetyNotes > 0 && p.supervision).length;
+  return { total: cards.length, flags, notes, supervision, all };
+}
+
 const share = (part, whole) => (whole === 0 ? 'n/a' : `${Math.round((part / whole) * 100)}%`);
 
 /** The report as lines of plain text. Every figure is shown with its count and the date it was read. */
 export function formatReport(r, today, { rows = false } = {}) {
-  const { reviewed, overdue, translation, sources } = r;
+  const { reviewed, overdue, translation, sources, safety } = r;
   const line = (label, g) =>
     `  ${label}: ${g.current} of ${g.total} have a current review record (${share(g.current, g.total)}); ${g.stale} stale, ${g.none} with none`;
   return [
@@ -180,5 +212,11 @@ export function formatReport(r, today, { rows = false } = {}) {
     '',
     'MET-015 Source coverage on health-adjacent pages (a card has no field for a source)',
     `  ${sources.withDatedSource} of ${sources.total} have a dated source (${share(sources.withDatedSource, sources.total)}); ${sources.withSource} have at least one source`,
+    '',
+    'MET-018 Safety-field completeness (published activity cards; target 100%)',
+    `  safety flags answered: ${safety.flags} of ${safety.total} (${share(safety.flags, safety.total)})`,
+    `  safety notes answered: ${safety.notes} of ${safety.total} (${share(safety.notes, safety.total)})`,
+    `  supervision level answered: ${safety.supervision} of ${safety.total} (${share(safety.supervision, safety.total)})`,
+    `  all three answered: ${safety.all} of ${safety.total} (${share(safety.all, safety.total)})`,
   ];
 }

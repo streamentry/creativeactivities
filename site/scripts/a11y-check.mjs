@@ -15,10 +15,12 @@
 // checklist and assistive-technology sessions are recorded separately.
 
 import { createServer } from 'node:http';
-import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
+import { existsSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
+import { a11yRecord } from './a11y-record-lib.mjs';
 
 const SITE_DIR = fileURLToPath(new URL('../', import.meta.url));
 const DIST = join(SITE_DIR, 'dist');
@@ -395,9 +397,10 @@ async function checkPage(browser, base, { label, path, status = 200, dir: wantDi
     }
     if (game) notes.push(...(await restProblems(page)));
     const head = `${label.padEnd(14)} ${String(width).padStart(4)}px${height === 900 ? '' : ` x ${height}px`}${textScale ? ' text 200%' : ''}${colorScheme === 'dark' ? ' dark' : ''}`;
-    return { head, notes, axe: violations.length, stops: keys.count };
+    const problems = notes.filter((note) => !note.startsWith('axe '));
+    return { head, notes, axe: violations.length, stops: keys.count, violations, problems, path };
   } catch (error) {
-    return { head: `${label.padEnd(14)} ${String(width).padStart(4)}px${colorScheme === 'dark' ? ' dark' : ''}`, notes: [`ERROR ${error.message.split('\n')[0]}`], axe: 0, stops: 0 };
+    return { head: `${label.padEnd(14)} ${String(width).padStart(4)}px${colorScheme === 'dark' ? ' dark' : ''}`, notes: [`ERROR ${error.message.split('\n')[0]}`], axe: 0, stops: 0, violations: [], problems: [`ERROR ${error.message.split('\n')[0]}`], path };
   } finally {
     await context.close();
   }
@@ -416,11 +419,11 @@ async function main() {
   const base = given ?? `http://127.0.0.1:${server.address().port}`;
 
   let jobs = [];
-  for (const t of TEMPLATES) for (const v of VARIANTS) jobs.push({ ...t, ...v, label: t.name, game: false });
+  for (const t of TEMPLATES) for (const v of VARIANTS) jobs.push({ ...t, ...v, variant: v.label, label: t.name, game: false });
   const games = gamePaths();
   for (const path of games) {
     const name = path.split('/')[2];
-    for (const v of GAME_VARIANTS) jobs.push({ name, label: `game:${name}`, path, ...v, game: true });
+    for (const v of GAME_VARIANTS) jobs.push({ name, path, ...v, variant: v.label, label: `game:${name}`, game: true });
   }
 
   // --only=name keeps one template (or game:name) while a fix is tried; CI runs them all.
@@ -444,7 +447,37 @@ async function main() {
   });
   console.log(`\nChecked ${TEMPLATES.length} templates at ${VARIANTS.length} variants and ${games.length} games at ${GAME_VARIANTS.length} widths: ${failing} failing page(s) of ${jobs.length}.`);
   if (games.length === 0) console.log('warning: no game pages found under dist/games');
+  // --record=<file> writes the dated JSON record (TSA-001, MET-016). It does not change the exit code.
+  const recordPath = process.argv.find((a) => a.startsWith('--record='))?.slice('--record='.length);
+  if (recordPath !== undefined) {
+    if (!recordPath) {
+      console.error('--record needs a file name, for example --record=a11y-record.json');
+      process.exit(1);
+    }
+    const record = a11yRecord({
+      date: new Date().toISOString().slice(0, 10),
+      commit: currentCommit(),
+      pages: jobs.map((job, i) => ({
+        template: job.label,
+        path: results[i].path,
+        variant: job.variant,
+        violations: results[i].violations,
+        problems: results[i].problems,
+      })),
+    });
+    writeFileSync(resolve(recordPath), `${JSON.stringify(record, null, 2)}\n`);
+    console.log(`Wrote the accessibility record to ${resolve(recordPath)}: ${record.pagesPassed} of ${record.pagesChecked} pages pass.`);
+  }
   process.exit(failing ? 1 : 0);
+}
+
+/** The commit being checked, or null outside a git checkout. */
+function currentCommit() {
+  try {
+    return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: SITE_DIR, encoding: 'utf8' }).trim();
+  } catch {
+    return null;
+  }
 }
 
 await main();

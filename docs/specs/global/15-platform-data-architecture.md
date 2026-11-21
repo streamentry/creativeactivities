@@ -367,7 +367,7 @@ Risks / not doing: privacy and cost. Do not add it for speed alone.
 
 ### PLAT-024 · Website event dictionary and payload rules
 Priority P0 · Phase S1 · Status partial · Pillars: all
-Evidence: dictionary in `docs/specs/global/events.md` (now 11 events, including the four TSA-012 names added 2026-11-15); `site/src/lib/track.test.ts` fails when the doc table and `EVENT_DICTIONARY` differ, or when a property is outside its rule; each card key is checked against the slug rule. Not done: GA4 or GTM data-stream settings (Google signals and ad personalization off) are not visible from the repo and need the maintainer; the metric rows for the new events are not yet in 17.
+Evidence: dictionary in `docs/specs/global/events.md` (now 11 events, including the four TSA-012 names added 2026-11-15); `site/src/lib/track.test.ts` fails when the doc table and `EVENT_DICTIONARY` differ, or when a property is outside its rule; each card key is checked against the slug rule. Not done: GA4 or GTM data-stream settings (Google signals and ad personalization off) are not visible from the repo and need the maintainer; every event in the dictionary has a row in the data-source table of 17, checked by a test (`track.test.ts`, "has a metric row in file 17"). The rows for `activity_restart` and `app_cta_click` were added on 2026-11-22.
 Why: GA4 is live and the activity events exist, but the event list and payload rules are not written down in one place. The baseline reads "not read yet" ([plan measurement table](../../plan/README.md#8-measurement)).
 What: one document lists every event, its parameters and allowed values. Rules: no free text, no health words, no diagnosis, no child data, no user IDs.
 Acceptance:
