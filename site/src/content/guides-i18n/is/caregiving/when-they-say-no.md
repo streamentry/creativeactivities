@@ -1,34 +1,34 @@
 ---
-title: "Þegar einhver með heilabilun neitar eða verður uppgefinn"
-seoTitle: "Þegar einhver með heilabilun neitar athöfn"
-description: "Hvers vegna einstaklingur með heilabilun getur neitað eða orðið reiður við athöfn, hvað má prófa í staðinn, hvað ber að forðast og hvenær þarf að hafa samband við lækni."
+title: "Þegar einhver með heilabilun hafnar athöfn eða verður pirraður yfir henni"
+seoTitle: "Þegar einhver með heilabilun hafnar athöfn"
+description: "Af hverju fólk sem lifir með heilabilun getur hafnað athöfn eða orðið pirrað yfir henni, hvað er hægt að prófa í staðinn, hvað á að forðast og hvenær skyndileg breyting þarfnast læknis."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Þegar einhver með heilabilun segir nei, taktu því rólega og reyndu aftur
-  síðar eða bjóðu upp á eitthvað annað. Neitun á oft sína skýringu: verkefnið
-  finnst of erfitt eða barnalegt, viðkomandi er þreyttur, með verki, svangur
-  eða yfirþyrmdur af hávaða. Ekki rífast eða ýta á. Einfaldaðu, bjóðu upp á
-  tvo valkosti eða biddu um aðstoð. Skyndileg eða hröð hegðunarbreyting,
-  sérstaklega eftir sýkingu eða ný lyf, kallar á tafarlausan læknisviðtal.
+  Þegar einhver með heilabilun segir nei skaltu taka því rólega og reyna aftur
+  seinna eða bjóða eitthvað annað. Höfnun hefur oft ástæðu: verkefnið finnst of
+  erfitt eða barnalegt, viðkomandi er þreyttur, með verki, svangur eða
+  yfirkominn af hávaða. Ekki rökræða eða þrýsta á. Einfaldaðu, bjóddu tvo
+  valkosti eða biddu um hjálp. Skyndileg eða hratt breytileg hegðun, sérstaklega
+  eftir sýkingu eða nýtt lyf, þarfnast læknis strax.
 keyPoints:
-  - "„Nei“ er svar sem ber að virða, ekki vandamál sem þarf að leysa."
-  - "Neitun á yfirleitt sér skýringu: of erfitt, of barnalegt, þreyta, vanlíðan, óþægindi eða of mikið áreiti."
-  - "Hættu við, bíddu og reyndu aftur síðar, á öðrum tíma eða í einfaldari útgáfu."
-  - "Það virkar betur að biðja um aðstoð en að biðja viðkomandi um að standa sig."
-  - "Aldrei rífast, ýta á, yfirheyra eða leiðrétta. Hugsaðu líka um hvort þú sért að flýta þér eða þrengja að."
-  - "Skyndilegar eða hratt breytilegar hegðunarbreytingar, sérstaklega við sýkingu eða ný lyf, ættu að fara tafarlaust til læknis."
+  - "„Nei“ er svar sem ber að virða, ekki vandamál sem þarf að yfirstíga."
+  - "Höfnun á sér yfirleitt orsök: of erfitt, of barnalegt, þreyta, veikindi, óþægindi eða yfirþyrmandi áreiti."
+  - "Dragðu þig í hlé, bíddu og reyndu síðar, á öðrum tíma eða með einfaldari útgáfu."
+  - "Að biðja viðkomandi um hjálp virkar betur en að biðja hann um að standa sig."
+  - "Ekki rökræða, þrýsta á, spyrja í prófstíl eða leiðrétta. Athugaðu hvort þú sért að flýta þér eða þrengja að."
+  - "Skyndileg eða hratt breytileg hegðun, sérstaklega með sýkingu eða nýjum lyfjum, á að fara strax til læknis."
 faq:
-  - q: "Er í lagi að láta viðkomandi sleppa athöfnum alveg?"
-    a: "Já, einstaka daga. Það getur verið nóg að sitja saman, hlusta á tónlist eða horfa á lífið í kring. Ef einhver hættir að njóta alls yfir nokkrar vikur, nefndu það við lækni, þar sem depurð, verkir eða önnur heilsufarsvandamál geta spilað inn í."
-  - q: "Hvers vegna neitar viðkomandi hlutum sem áður voru eftirlætisathafnir?"
-    a: "Gömul áhugamál geta orðið erfið þegar þau krefjast færni sem heilabilun hefur gert erfiðari, og viðkomandi getur fundið fyrir skömm. Prófaðu einfaldari hluta sömu athafnar, til dæmis að flokka hnappa í stað sauma, eða að skoða myndir af garði í stað þess að planta."
-  - q: "Ætti ég að reyna að sannfæra viðkomandi?"
-    a: "Nei. Að ýta á einhvern til að gera eitthvað sem heilabilun hefur gert erfitt er þekkt kveikja fyrir óróleika. Samþykktu neitunina, skiptu um umræðuefni og bjóðu aftur upp á síðar eða á annan hátt."
-  - q: "Hvenær er hegðunarbreyting neyðarástand?"
-    a: "Hringdu í 112 ef einhver er í hættu eða sýnir merki um læknisfræðilegt neyðarástand. Ef rugl eða hegðun breytist skyndilega á nokkrum klukkustundum eða dögum, sérstaklega með hita, sýkingu eða nýjum lyfjum, hafðu strax samband við lækni."
+  - q: "Er í lagi að leyfa þeim að sleppa athöfnum alveg?"
+    a: "Já, á hvaða degi sem er. Að sitja saman, hlusta á tónlist eða horfa á heiminn líða hjá getur dugað. Ef einhver hættir að hafa gaman af öllu yfir nokkrar vikur skaltu nefna það við lækni, því lágt skap, verkir eða önnur heilsufarsvandamál geta verið hluti af myndinni."
+  - q: "Af hverju hafna þau hlutum sem þau höfðu áður gaman af?"
+    a: "Gamalt áhugamál getur orðið pirrandi þegar það krefst nú færni sem heilabilun hefur gert erfiðari, og viðkomandi gæti fundið fyrir vandræðum. Prófaðu einfaldari hluta sömu athafnar, svo sem að flokka tölur í stað þess að sauma, eða skoða garðmyndir í stað þess að gróðursetja."
+  - q: "Á ég að reyna að sannfæra þau?"
+    a: "Nei. Að þrýsta á einhvern um að gera eitthvað sem heilabilun hefur gert erfitt er þekkt kveikja að óróleika. Taktu nei-inu, skiptu um umræðuefni og bjóddu aftur seinna eða á annan hátt."
+  - q: "Hvenær er breyting á hegðun neyðartilvik?"
+    a: "Hringdu í 112 ef einhver er í hættu eða sýnir merki um bráða læknisfræðilega neyð. Við skyndilegt rugl eða hegðun sem breytist hratt á klukkustundum eða dögum, sérstaklega með hita, sýkingu eða nýju lyfi, skaltu hafa strax samband við lækni viðkomandi."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Þú hefur sett allt upp, býður upp á leik eða göngutúr og heyrir „Nei.“ Eða athöfnin byrjar vel og endar með því að spjaldtölvunni er ýtt frá og skörpum orðum. Það er niðurdrepandi og mjög algengt. Neitun og gremja eru yfirleitt skilaboð, ekki þrjósku. Að reyna að skilja skilaboðin sýnir oft hvað má prófa næst.
+Þú undirbýrð allt, býður upp á leik eða göngutúr og heyrir „Nei.“ Eða athöfnin byrjar vel og endar með því að spjaldtölvunni er ýtt frá og skarpt orð fellur. Þetta er letjandi og mjög algengt. Höfnun og pirringur eru yfirleitt skilaboð en ekki þrjóska. Ef þú finnur út hver skilaboðin eru sést oft hvað á að reyna næst.
 
-## Hvers vegna neitar einhver með heilabilun athöfnum?
+## Af hverju hafnar einhver með heilabilun athöfnum?
 
-Yfirleitt er ástæða til staðar, jafnvel þótt viðkomandi geti ekki sett hana í orð. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) bendir á að mótstaða geti þýtt að viðkomandi geti ekki sinnt verkefninu eða sé hræddur við að reyna. Algengar ástæður eru meðal annars:
+Yfirleitt er ástæða, jafnvel þótt viðkomandi geti ekki sett hana í orð. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) bendir á að mótspyrna geti þýtt að viðkomandi geti ekki unnið verkefnið eða sé hræddur við að reyna. Algengar orsakir eru meðal annars:
 
-- **Það finnst of erfitt.** Athöfnin krefst nú færni sem heilabilun hefur gert erfiðari, og það er vandræðalegt að mistakast fyrir framan aðra.
-- **Það finnst barnalegt.** Fullorðnir taka eftir teiknimyndakenndum myndum, söngkenndum röddum og athöfnum sem líta út fyrir að vera gerðar fyrir börn.
-- **Þreyta.** Margir hafa minni orku seinni part dags. Sjá [rólegar athafnir síðdegis](/caregiving/late-day-restlessness/).
-- **Líkamlegt óþægindi.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) nefnir verki, skort á svefni, erfiðleika með sjón eða heyrn, hægðatregðu, hungur, þorsta og aukaverkanir nýrra lyfja sem mögulegar orsakir vanlíðunar.
-- **Of mikið áreiti.** Hávaðasamt sjónvarp, mörg samtöl í einu eða fjölmennt herbergi geta verið yfirþyrmandi.
-- **Tilfinning um þrýsting.** NIA nefnir að vera ýtt til að gera eitthvað sem Alzheimer-sjúkdómurinn hefur gert mjög erfitt, eða til að muna atburði eða fólk, sem orsök óróleika.
-- **Depurð.** Minnkaður áhugi á hlutum getur verið merki um þunglyndi, sem er rétt að nefna við lækni.
-- **Viðkomandi vill einfaldlega ekki.** Fullorðnir mega segja nei.
+- **Það finnst of erfitt.** Athöfnin krefst nú færni sem heilabilun hefur gert erfiða, og það er vandræðalegt að mistakast fyrir framan einhvern.
+- **Það finnst barnalegt.** Fullorðnir taka eftir teiknimyndalegum myndum, söngröddum og athöfnum sem virðast gerðar fyrir börn.
+- **Þreyta.** Margir hafa minni orku seinni hluta dags. Sjá [rólegar síðdegisathafnir](/creative-calm/calm-afternoon-activities/).
+- **Líkamleg óþægindi.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) telur upp verki, svefnleysi, sjón- eða heyrnarvandamál, hægðatregðu, hungur, þorsta og aukaverkanir nýrra lyfja sem hugsanlegar orsakir vanlíðanar.
+- **Of mikið í gangi.** Hátt sjónvarp, nokkur samtöl í einu eða fullt herbergi getur verið yfirþyrmandi.
+- **Þrýstingur.** NIA nefnir það að vera þrýst í að gera eitthvað sem Alzheimer hefur gert mjög erfitt, eða að muna atburði eða fólk, sem orsök óróleika.
+- **Lítið skap.** Að missa áhugann á hlutum getur verið merki um þunglyndi, sem er þess virði að ræða við lækni.
+- **Þau vilja einfaldlega ekki.** Fullorðnir mega segja nei.
 
-## Hvað ætti ég að prófa þegar viðkomandi segir nei?
+## Hvað ætti ég að prófa þegar þau segja nei?
 
-Samþykktu neitunina rólega og breyttu svo einhverju: tímasetningunni, athöfninni, erfiðleikastiginu eða því hvernig þú biður.
+Taktu nei-inu rólega og breyttu síðan einhverju: tímanum, athöfninni, erfiðleikastiginu eða því hvernig þú spyrð.
 
-1. **Slepptu þessu í bili.** „Það er alveg í lagi. Kannski seinna.“ Færðu þig svo yfir í eitthvað annað án þess að andvarpa.
-2. **Reyndu aftur síðar.** Alzheimer's Association stingur upp á að reyna aftur síðar eða á öðrum tíma dags.
-3. **Gerðu þetta minna.** Eitt par í stað heils leiks. Eitt handklæði í stað þvottakarfa. Færri myndir, færri valkostir, láttu myndirnar vera sýnilegar.
-4. **Bjóðu upp á tvo valkosti.** „Viltu skoða fuglamyndirnar eða hlusta á tónlist?“ Valkostur gefur til baka tilfinningu fyrir stjórn.
-5. **Biddu um aðstoð í stað frammistöðu.** „Gætirðu hjálpað mér að flokka þetta?“ eða „Geturðu sagt mér hvaða litur finnst þér bestur?“ Að vera þörf finnst allt öðruvísi en að vera prófaður.
-6. **Byrjaðu sjálf(ur).** Byrjaðu á athöfninni við hlið viðkomandi án þess að spyrja. Margir taka þátt þegar eitthvað er þegar í gangi, og ef ekki, þá hafið þið samt eytt tíma saman.
-7. **Skiptu yfir í eitthvað líkamlegt eða róandi.** Stutt gönguferð, tónlist, snarl, að brjóta saman þvott eða sameiginleg róleg stund með [rólegri öndun](/games/calm-breathing/). NIA stingur upp á að beina athyglinni að tónlist, bók eða gönguferð.
-8. **Leyfðu viðkomandi að gera þetta á sinn hátt.** Ef viðkomandi vill gera hlutina öðruvísi en reglurnar segja til um, farðu eftir því. Alzheimer's Association ráðleggur að vera sveigjanleg(ur).
+1. **Láttu það eiga sig í bili.** „Það er allt í lagi. Kannski seinna.“ Farðu síðan yfir í eitthvað annað án þess að andvarpa.
+2. **Reyndu aftur seinna.** Alzheimer's Association mælir með að reyna aftur seinna eða á öðrum tíma dags.
+3. **Gerðu það minna.** Ein umferð í stað heils leiks. Eitt handklæði í stað þvottakörfunnar. Færri myndir, færri valmöguleikar, myndir sem eru áfram sýnilegar.
+4. **Bjóddu tvo valkosti.** „Viltu skoða fuglamyndirnar eða hlusta á smá tónlist?“ Val gefur tilfinningu fyrir stjórn.
+5. **Biddu um hjálp í stað frammistöðu.** „Gætir þú hjálpað mér að flokka þetta?“ eða „Getur þú sagt mér hvaða litur lítur best út?“ Að vera þörf finnst allt öðruvísi en að vera prófaður.
+6. **Taktu fyrsta skrefið.** Byrjaðu við hlið viðkomandi án þess að spyrja. Margir taka þátt þegar eitthvað er þegar í gangi, og ef þeir gera það ekki hefurðu samt eytt tíma saman.
+7. **Skiptu yfir í eitthvað líkamlegt eða róandi.** Stuttur göngutúr, tónlist, bita, að brjóta saman þvott eða sameiginlegt [róandi andardrátt](/games/calm-breathing/) hlé. NIA mælir með að beina athyglinni að tónlist, bók eða göngutúr.
+8. **Leyfðu þeim að gera það á sinn hátt.** Ef viðkomandi vill spila öðruvísi en reglurnar segja til um skaltu fara með það. Alzheimer's Association ráðleggur að vera sveigjanlegur.
 
-## Hvað ætti ég að segja þegar viðkomandi verður uppgefinn?
+## Hvað ætti ég að segja þegar þau verða pirruð?
 
-Hægðu á þér, lækkaðu róminn og hughreystu. [Leiðbeiningar Alzheimer's Association um óróleika](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) leggja til að bakka út og biðja um leyfi, nota rólegar og jákvæðar setningar og bjóða upp á leiðsögn með tveimur valkostum. Setningar í þeim anda:
+Hægðu á þér, lækkaðu röddina og veittu fullvissu. [Leiðbeiningar Alzheimer's Association um óróleika](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) mæla með að draga sig í hlé og spyrja um leyfi, nota rólegar og jákvæðar staðhæfingar og bjóða upp á val á milli tveggja kosta. Setningar í þeim anda:
 
-- „Fyrirgefðu, þetta er pirrandi. Við skulum hætta.“
-- „Þér gengur vel. Ég er hérna.“
+- „Mér þykir leitt, þessi er pirrandi. Hættum.“
+- „Þú ert að standa þig vel. Ég er rétt hjá þér.“
 - „Hefurðu tíma til að hjálpa mér með eitthvað annað?“
-- „Eigum við frekar að fá okkur te í staðinn?“
+- „Eigum við að fá okkur tebolla í staðinn?“
 
-Ljúktu svo athöfninni án þess að gera mikið mál út úr því. [Samskiptaráðin](/caregiving/communication-tips/) okkar fjalla meira um hvað má segja.
+Ljúktu síðan athöfninni án þess að gera mikið úr því. [Fyrstu skrefin eftir greiningu](/caregiving/after-dementia-diagnosis/) eru upphafspunktur til að finna stuðning.
 
 ## Hvað ætti ég að forðast?
 
-Sumar eðlilegar viðbrögð hafa tilhneigingu til að gera hlutina verri.
+Sum eðlileg viðbrögð hafa tilhneigingu til að gera hlutina verri.
 
-- **Að rífast eða ýta á.** „Æj, bara einu sinni í viðbót“ eða „Þér finnst gaman að þessu“ hjálpar sjaldan.
-- **Að yfirheyra eða leiðrétta.** „Þú veist hvað þetta er“ eða „Nei, þetta er rangt“ eykur álagið.
-- **Að taka þessu persónulega.** NIA minnir á að sjúkdómurinn, ekki einstaklingurinn, veldur þessum breytingum.
-- **Að þrengja að eða flýta sér.** Alzheimer's Association ráðleggur gegn því að hækka röddina, sýna skelfingu, loka viðkomandi af, þrengja að, halda í, gagnrýna, hunsa eða rífast, og að forðast skyndilegar hreyfingar þar sem viðkomandi sér ekki til.
-- **Að nota sektarkennd.** „Ég setti allt þetta upp fyrir þig“ lætur ykkur bæði líða verr.
-- **Að merkja viðkomandi.** „Þrjóska“ eða „erfiður“ felur raunverulega ástæðu og gerir erfiðara að leysa málið.
+- **Rökræða eða þrýsta á.** „Komdu nú, bara eina enn“ eða „Þú elskar þetta“ hjálpar sjaldan.
+- **Spyrja í prófstíl eða leiðrétta.** „Þú veist hvað þetta er“ eða „Nei, þessi er röng“ eykur pressuna.
+- **Taka þessu persónulega.** NIA minnir umönnunaraðila á að sjúkdómurinn, ekki manneskjan, valdi þessum breytingum.
+- **Þrengja að eða flýta sér.** Alzheimer's Association ráðleggur að hækka ekki röddina, sýna óþægindi, króa viðkomandi af, þrengja að, halda aftur af, gagnrýna, hunsa eða rökræða við hann, og forðast skyndilegar hreyfingar utan sjónsviðs hans.
+- **Nota samviskubit.** „Ég setti allt þetta upp fyrir þig“ lætur ykkur bæði líða verr.
+- **Merkja.** „Þrjóskur“ eða „erfiður“ felur raunverulegu ástæðuna og gerir lausnina erfiðari.
 
-## Hvernig get ég komist að því hvað liggur að baki endurtekinni neitun?
+## Hvernig get ég komist að því hvað liggur að baki endurteknum höfnunum?
 
-Skráðu einfaldlega hjá þér í viku eða tvær. NIA segir að að fylgjast með hegðunarbreytingum geti hjálpað aðstandendum og heilbrigðisstarfsfólki að greina mynstur og finna orsökina.
+Haltu einföldum minnispunktum í viku eða tvær. NIA segir að það að skrá breytingar á hegðun geti hjálpað umönnunaraðilum og heilbrigðisstarfsfólki að sjá mynstur og finna orsökina.
 
-Skráðu hjá þér:
+Skrifaðu niður:
 
-- tíma dagsins;
+- tíma dags;
 - hvað þú bauðst upp á og hvernig þú spurðir;
-- hvað var að gerast í kring (hávaði, gestir, sjónvarp);
-- hvernig viðkomandi svaf, borðaði og drakk og hvenær viðkomandi fór síðast á salerni;
+- hvað var að gerast í kringum þig (hávaði, gestir, sjónvarp);
+- hvernig viðkomandi svaf, borðaði og drakk, og hvenær hann fór síðast á klósettið;
 - öll ný lyf eða nýleg veikindi.
 
-Mynstur koma oft fljótt í ljós: neitun sem á sér aðeins stað eftir klukkan 16, aðeins með tilteknum leik eða aðeins þegar kveikt er á sjónvarpinu. [Leiðarvísir Family Caregiver Alliance um hegðun tengda heilabilun](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) orðar það einfaldlega: við getum ekki breytt einstaklingnum, en við getum breytt eigin hegðun og umhverfinu.
+Mynstur koma oft fljótt í ljós: höfnun sem gerist aðeins eftir kl. 4 síðdegis, aðeins með ákveðnum leik, eða aðeins þegar sjónvarpið er á. [Leiðbeiningar Family Caregiver Alliance um hegðun við heilabilun](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) orða það einfaldlega: við getum ekki breytt manneskjunni, en við getum breytt eigin hegðun og umhverfinu.
 
-## Hvenær ætti ég að tala við lækni um neitun eða gremju?
+## Hvenær ætti ég að ræða við lækni um höfnun eða pirring?
 
-Talaðu við lækni þegar hegðun breytist skyndilega, hratt eða ásamt einkennum veikinda. NIA segir að skyndilegar eða hratt sveiflukenndar hegðunarbreytingar, sérstaklega ef viðkomandi hefur fengið sýkingu eða nýlegar lyfjabreytingar, eigi að tilkynna lækni tafarlaust.
+Ræddu við lækni þegar hegðun breytist skyndilega, hratt eða samhliða einkennum veikinda. NIA segir að skyndilegar eða hratt sveiflukenndar breytingar á hegðun, sérstaklega ef viðkomandi hefur fengið sýkingu eða nýlegar breytingar á lyfjum, eigi tafarlaust að koma til athygli læknis.
 
-Hafðu tafarlaust samband við lækni ef þú tekur eftir:
+Hafðu strax samband við lækni viðkomandi ef þú tekur eftir:
 
 - skyndilegu rugli eða mikilli breytingu á nokkrum klukkustundum eða dögum;
-- merkjum um verki, svo sem grettum, hlífð við ákveðinn líkamshluta eða nýjum erfiðleikum við að hreyfa sig;
+- merkjum um verki, svo sem grettum, að verja ákveðinn líkamshluta eða ný erfiðleika við hreyfingu;
 - hita eða öðrum merkjum um sýkingu;
-- nýjum eða breyttum lyfjum og hegðunarbreytingu í kjölfarið;
-- áhugaleysi á næstum öllu, tárvotum augum eða undanhaldi sem varir lengur en nokkrar vikur;
-- neitun um að borða eða drekka.
+- nýjum eða breyttum lyfjum og breytingu á hegðun í kjölfarið;
+- missi áhuga á nánast öllu, tárum eða einangrun sem varir lengur en í tvær vikur;
+- að neita mat eða drykk.
 
-Alzheimer's Association mælir með ítarlegri læknisskoðun fyrir alla sem sýna hegðunareinkenni, sérstaklega þegar þau koma fram skyndilega. Family Caregiver Alliance ráðleggur einnig að hafa samband við lækni fyrst, vegna þess að hegðunarvandamál geta átt sér læknisfræðilegar orsakir. Ekki byrja á, hætta eða breyta neinum lyfjum án þess að tala við lækni eða lyfjafræðing.
+Alzheimer's Association mælir með ítarlegri læknisskoðun fyrir alla með hegðunareinkenni, sérstaklega þegar þau koma skyndilega fram. Family Caregiver Alliance ráðleggur líka að ræða fyrst við lækni, því hegðunarvandi getur átt sér líkamlega orsök. Ekki hefja, hætta eða breyta neinu lyfi án þess að ræða það við lækni eða lyfjafræðing.
 
-Ef einhver er í hættu eða sýnir merki um læknisfræðilegt neyðarástand skaltu hringja í 112. NIA leggur til að segja neyðarlínunni að viðkomandi sé með heilabilun.
+Ef einhver er í hættu eða það eru merki um bráða læknisfræðilega neyð skaltu hringja í 112. NIA ráðleggur að segja neyðarverðinum að viðkomandi sé með heilabilun. Ef reiðin verður líkamleg skaltu stíga til hliðar og leita ráða hjá lækni eða umönnunarteyminu.
 
-## Er í lagi ef við gerum ekkert?
+## Er í lagi ef við gerum ekki neitt?
 
-Já. Suma daga er besta athöfnin engin athöfn: að sitja saman, halda í höndina, hlusta á eftirlætislag eða horfa á fugla fyrir utan gluggann. Það er ekki mistök. [Leiðarvísirinn okkar um að gera eitthvað saman](/caregiving/how-to-play-together/) útskýrir hvers vegna það getur verið rétt að hætta snemma, eða aldrei byrja.
+Já. Sum dagar er besta athöfnin engin athöfn: að sitja saman, halda í hendur, hlusta á uppáhaldsplötu eða horfa á fugla út um gluggann. Það er ekki mistök. [Leiðbeiningin okkar um að spila saman](/caregiving/how-to-play-together/) útskýrir af hverju að hætta snemma, eða byrja aldrei, getur verið rétta ákvörðunin.
