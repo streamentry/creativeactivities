@@ -11,10 +11,11 @@ reviewed. Nobody has signed off any language yet; the record is
 - The audience is families of people living with dementia. A wrong tone,
   a medical promise, or a wrong emergency number does more harm than an
   awkward sentence.
-- The translated website stays out of search, sitemaps and language
-  alternates until its language is reviewed (`REVIEWED_LANGUAGES` in
-  `site/src/i18n/locales.ts`, website branch `feat/i18n-site`). So review is
-  what unlocks the website's search value.
+- The website records each reviewed language in `REVIEWED_LANGUAGES` in
+  `site/src/i18n/locales.ts`. That record does not decide indexing: today every
+  language is indexed (maintainer decision, 2026-11-01), and whether unreviewed
+  languages are held is still open (COMPLETION.md, "Decisions only the
+  maintainer can make").
 - Store listings are drafts. They should be reviewed before anyone pastes them
   into App Store Connect or Play Console.
 
@@ -131,9 +132,11 @@ These were noticed while translating; none is decided.
    test `tests/test_localization_status.py` fails if the two disagree or if a
    reviewed language lacks a reviewer or evidence.
 3. On the website branch, add the language to `REVIEWED_LANGUAGES` in
-   `site/src/i18n/locales.ts`. That makes its pages indexable and adds them to
-   the sitemaps and language alternates. The flag covers a whole language, so a
-   partly reviewed language cannot be unlocked page by page.
+   `site/src/i18n/locales.ts`. That records the website review; a test fails
+   if the list and step 2 disagree. It does not change indexing, sitemaps or
+   language alternates: those follow `HELD_FROM_INDEX` and the maintainer's
+   decision on indexing unreviewed languages. The record covers a whole
+   language, so a partly reviewed language cannot be recorded page by page.
 4. Release notes and the store listing may then say the language is available
    without the unreviewed caveat.
 
