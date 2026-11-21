@@ -52,6 +52,7 @@ Rules:
 - Warm, plain, respectful adult language, grade 6-8 reading level. Say what a native speaker naturally says; never word for word.
 - Say the local equivalent of "people living with dementia" / "the person you care for". Never "patients", "sufferers", "demented", or baby talk. Use the polite-but-warm adult form of address.
 - Never claim or imply any activity treats, slows, prevents, cures or "trains" anything. Keep every hedge ("may", "linked with").
+- Write numbers of 1,000 and over with this language's own thousands separator (German 1.972, French 1 972, English 1,972); never change the digits.
 - Keep EXACTLY: {placeholders} such as {name}, HTML tags and every href/URL, markdown link targets, the brand "Creative Activities", and the store name "Dementia Games: Creative Activities". Keep every number as the same digits, in the same quantity: never spell a number out as a word, never drop or add one (phone numbers, years, counts, minutes).
 - Use the language's own punctuation and quotation marks. No emoji, no exclamation-mark praise, no ALL CAPS.
 - Never add an emergency number or clinical detail that the English source does not provide. Localize a number only when the source explicitly gives one; if it asks readers to contact local urgent care or services without a number, keep it number-free. Keep cited source titles, publishers and URLs unchanged.
@@ -514,6 +515,9 @@ def translate_guide(lang: dict, rel: str) -> str:
 
 def number_tokens(text: str) -> list[str]:
     values = []
+    # Thousands groups read as one number whatever the separator ("1,972", "1.972", "1 972" with a
+    # space or no-break space, "1'972"), as the site's structure test reads them (normalizeDigits).
+    text = re.sub(r"(?<!\d)\d{1,3}(?:[.,\u00a0\u202f' ’]\d{3}(?!\d))+", lambda m: re.sub(r'\D', '', m.group()), text)
     for token in re.findall(r'\d+(?:[,.]\d+)*', text):
         value = ''.join(str(int(ch)) for ch in token if ch.isdecimal())
         if value:
