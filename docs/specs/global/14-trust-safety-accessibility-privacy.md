@@ -610,7 +610,8 @@ Depends on: TSA-033.
 Risks / not doing: Do not hide a correction by editing without a log line for safety or claim changes.
 
 ### TSA-036 · Review cadence
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Status note (2026-11-22): the review owner is a role, not a name (`reviewOwner`; see PLAT-012), so an overdue page has an owner in the queue. The queue is `pnpm review:queue`, internal and unscheduled; `-- --owner=<role>` gives one owner's list. The 12-month interval is still the proposal; the maintainer has not set it. The reader-facing overdue note and the editorial log entry are not built here.
 
 Why: Activities drift out of date, and some safety information changes with products and standards.
 
