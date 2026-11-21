@@ -275,10 +275,9 @@ describe('a guide-only match (WEB-003)', () => {
     expect(shown.map((e) => e.url)).toContain('/activity/paint-with-watercolors/');
   });
 
-  it('says nothing matched when the guide links to no card or situation', () => {
-    const r = search(prepare([card, orphanGuide]), 'rainy');
-    expect(r.match).toBe('none');
-    expect(r.count).toBe(0);
+  it('still shows a guide that no card or situation links to, rather than hiding a real answer', () => {
+    const shown = hitsOf(search(prepare([card, orphanGuide]), 'rainy'));
+    expect(shown.map((e) => e.kind)).toEqual(['guide']);
   });
 
   it('leaves the results alone when a card or situation already matches', () => {
@@ -286,12 +285,18 @@ describe('a guide-only match (WEB-003)', () => {
     expect(hitsOf(r).map((e) => e.url)).toEqual(['/activity/paint-with-watercolors/']);
   });
 
-  it('holds for every guide on the real site: searching a guide title never returns only guides', () => {
-    for (const guide of real.filter((e) => e.kind === 'guide')) {
-      const r = search(realIndex, guide.title);
-      if (r.match !== 'none') {
-        expect(hitsOf(r).some((e) => e.kind === 'activity' || e.kind === 'hub'), guide.title).toBe(true);
-      }
-    }
+  // WEB-003: a guide title should lead to a card or situation too. Guides that no card or situation links to
+  // still answer with the guide alone; there were 14 on 2026-11-21. Linking a card to them is content work,
+  // and this number may only go down.
+  const GUIDE_ONLY_TITLES_AT_MOST = 14;
+  it('keeps the guides that answer only with themselves from growing', () => {
+    const guideOnly = real
+      .filter((e) => e.kind === 'guide')
+      .filter((guide) => {
+        const r = search(realIndex, guide.title);
+        return r.match !== 'none' && !hitsOf(r).some((e) => e.kind === 'activity' || e.kind === 'hub');
+      })
+      .map((g) => g.title);
+    expect(guideOnly.length, guideOnly.join('; ')).toBeLessThanOrEqual(GUIDE_ONLY_TITLES_AT_MOST);
   });
 });

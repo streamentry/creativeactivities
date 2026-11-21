@@ -135,16 +135,14 @@ export function search(prepared: readonly Prepared[], question: string, perKind 
   const match: SearchResult['match'] = full.length > 0 ? 'all' : scored.length > 0 ? 'some' : 'none';
 
   // WEB-003: a question that reaches only guides still returns a card or situation the guide links to.
-  // When no card or situation is in the set, add the ones linked from the matched guides; when none is linked, say nothing matched.
+  // When no card or situation is in the set, add the ones linked from the matched guides.
   const guideHits = chosen.filter((h) => h.entry.kind === 'guide');
   const hasCardOrHub = chosen.some((h) => h.entry.kind === 'activity' || h.entry.kind === 'hub');
   if (guideHits.length > 0 && !hasCardOrHub) {
     const linked = linkedFromGuides(prepared, guideHits);
     if (linked.length > 0) return groupHits([...chosen, ...linked], perKind, match);
-    // No card or situation links to the matched guides, so the guides are not shown as the answer.
-    const rest = chosen.filter((h) => h.entry.kind !== 'guide');
-    if (rest.length === 0) return { match: 'none', groups: [], count: 0 };
-    return groupHits(rest, perKind, match);
+    // No card or situation links to the matched guides: the guides are still the best answer, so they stay.
+    // Linking a card to each such guide is a content task (14 English guides had none on 2026-11-21).
   }
   return groupHits(chosen, perKind, match);
 }
