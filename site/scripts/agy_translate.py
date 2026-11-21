@@ -718,7 +718,13 @@ def main():
         ap.error('--guides requires guides in --kinds')
     only_units = {}
     progress_file = Path(a.progress) if a.progress else None
-    finished = set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+    def on_disk() -> set:
+        try:
+            return set(json.loads(progress_file.read_text())) if progress_file and progress_file.exists() else set()
+        except ValueError:
+            return set()
+
+    finished = on_disk()
     if a.changed_since:
         only_units = {k: changed_units(k, a.changed_since) for k in kinds if k != 'guides'}
         rels = guide_paths(selected_guides) if selected_guides else changed_guides(a.changed_since)
@@ -755,6 +761,8 @@ def main():
             if lang_bad.get(c, 0) >= 3 and not lang_ok.get(c, 0):
                 raise RuntimeError(f'skipped {c}: 3 failures and no success this run')
         lang = {'code': c, 'english': meta[c]['english'], 'native': meta[c]['native']}
+        if progress_file and f'{k}|{c}|{r or ""}' in on_disk():
+            return t, 'already done'  # finished by another translator since this run started
         try:
             if k == 'guides':
                 res = t, translate_guide(lang, r)
@@ -780,10 +788,11 @@ def main():
                 t, p = f.result()
                 done += 1
                 print(f'[{done}/{len(todo)}] ok {t[0]} {t[1]} {t[2] or ""}', flush=True)
-                if progress_file:
+                if progress_file and p != 'already done':
                     with lock:
-                        finished.add(f'{t[0]}|{t[1]}|{t[2] or ""}')
-                        progress_file.write_text(json.dumps(sorted(finished)))
+                        # Add only this task to what is on disk now: other translators add their own
+                        # tasks, and a reviewer may remove one to have it redone.
+                        progress_file.write_text(json.dumps(sorted(on_disk() | {f'{t[0]}|{t[1]}|{t[2] or ""}'})))
             except Exception as e:  # noqa: BLE001
                 print('FAIL', str(e)[:200], flush=True)
 
