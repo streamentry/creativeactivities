@@ -137,6 +137,9 @@ export const GARDEN_PLANNER_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
  */
 export const STORY_DICE_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
 
+/** Word and picture pairs (GAME-023): English only until a native speaker reviews its words. */
+export const WORD_AND_PICTURE_PAIRS_REVIEWED: readonly string[] = [DEFAULT_LOCALE];
+
 /** Translatable fields of a game; everything else (slug, pictures, stages) is shared. */
 export type GameText = Partial<
   Pick<GameInfo, 'name' | 'seoTitle' | 'h1' | 'description' | 'short' | 'players' | 'intro' | 'howTo' | 'tips' | 'faq'>
@@ -193,6 +196,7 @@ export function gameAvailable(slug: string, code: string): boolean {
   if (slug === 'seasonal-pack') return SEASONAL_PACK_REVIEWED.includes(code);
   if (slug === 'story-chain') return STORY_CHAIN_REVIEWED.includes(code);
   if (slug === 'story-dice') return STORY_DICE_REVIEWED.includes(code);
+  if (slug === 'word-and-picture-pairs') return WORD_AND_PICTURE_PAIRS_REVIEWED.includes(code);
   if (slug === 'finish-the-saying') return !NO_SAYINGS_GAME.includes(code);
   if (slug !== 'word-search') return true;
   return playProps(code, slug).content.wordSearch.available;

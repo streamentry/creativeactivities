@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { GAMES } from '../data/games';
 import english from './games/en.json';
-import { BUILD_TOGETHER_REVIEWED, COLLAGE_BOARD_REVIEWED, COLORING_WALL_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, COLOR_WASH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, GARDEN_PLANNER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, PICNIC_PLANNER_REVIEWED, QUIET_SHAPES_REVIEWED, SCRAPBOOK_REVIEWED, SEASONAL_PACK_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, gameAvailable } from './games';
+import { BUILD_TOGETHER_REVIEWED, COLLAGE_BOARD_REVIEWED, COLORING_WALL_REVIEWED, COLOR_BY_NUMBER_REVIEWED, COLOR_MATCH_REVIEWED, COLOR_WASH_REVIEWED, DECORATE_A_CARD_REVIEWED, DRAWING_DUET_REVIEWED, FIND_TOGETHER_REVIEWED, FOUR_TOGETHER_REVIEWED, GARDEN_PLANNER_REVIEWED, HALVES_MATCH_REVIEWED, ODD_ONE_OUT_REVIEWED, PATTERN_MAKER_REVIEWED, PICNIC_PLANNER_REVIEWED, QUIET_SHAPES_REVIEWED, SCRAPBOOK_REVIEWED, SEASONAL_PACK_REVIEWED, SEATED_TOSS_REVIEWED, STORY_CHAIN_REVIEWED, STORY_DICE_REVIEWED, WORD_AND_PICTURE_PAIRS_REVIEWED, gameAvailable } from './games';
 import { LOCALES } from './locales';
 import { NO_LETTER_GRID, NO_SAYINGS_GAME } from './play';
 
@@ -130,6 +130,11 @@ describe('which games a language offers', () => {
   it('offers Story dice in English only for now', () => {
     expect(STORY_DICE_REVIEWED).toEqual(['en']);
     for (const { code } of LOCALES) expect(gameAvailable('story-dice', code), code).toBe(code === 'en');
+  });
+
+  it('offers Word and picture pairs in English only until its words are reviewed', () => {
+    expect(WORD_AND_PICTURE_PAIRS_REVIEWED).toEqual(['en']);
+    for (const { code } of LOCALES) expect(gameAvailable('word-and-picture-pairs', code), code).toBe(code === 'en');
   });
 
   it('leaves the word search out when a translation lacks enough usable words', () => {

@@ -27,6 +27,7 @@ const COMPONENT: Record<string, string> = {
   'seasonal-pack': 'SeasonalPack',
   'story-chain': 'StoryChain',
   'story-dice': 'StoryDice',
+  'word-and-picture-pairs': 'WordAndPicturePairs',
   'sort-together': 'SortTogether',
   'picture-puzzle': 'PicturePuzzle',
   'finish-the-saying': 'FinishTheSaying',
@@ -46,8 +47,8 @@ const COMPONENT: Record<string, string> = {
 };
 
 describe('printable partner on each game page (WEB-052)', () => {
-  it('covers all 34 games: each has a paper version or a non-empty reason', () => {
-    expect(GAMES).toHaveLength(34);
+  it('covers all 35 games: each has a paper version or a non-empty reason', () => {
+    expect(GAMES).toHaveLength(35);
     const reasons = ui('en').gamePage.print.reasons as Record<string, string>;
     for (const g of GAMES) {
       const entry = GAME_PRINT[g.slug];
@@ -150,6 +151,14 @@ describe('printable partner on each game page (WEB-052)', () => {
     expect(dice.rows).toHaveLength(4);
     for (const row of dice.rows) expect(new Set(row.choices).size).toBe(4);
     expect(new Set(dice.rows.flatMap((r) => r.choices)).size).toBe(16);
+    const words = printSheet('word-and-picture-pairs');
+    if (words?.layout !== 'words') throw new Error('words sheet');
+    expect(words.pictures).toHaveLength(6);
+    expect(new Set(words.pictures).size).toBe(6);
+    expect([...words.words].sort()).toEqual([...words.pictures].sort());
+    expect(words.words).not.toEqual(words.pictures);
+    expect(sheetPictures(words)).toEqual(words.pictures);
+    expect(rulesText('word-and-picture-pairs', playProps('en').ui)).toBe('Tap a picture, then the word that names it. Or tap a word, then its picture.');
     const toss = printSheet('seated-toss');
     if (toss?.layout !== 'toss') throw new Error('toss sheet');
     expect(toss.rings).toEqual(['near', 'middle', 'far']);

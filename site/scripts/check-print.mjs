@@ -33,6 +33,8 @@ const FIXED_PACK_PAGES = 12;
 const WEEKLY_PROGRAM_PAGES = 2;
 /** The referrer handout (WEB-048) is one sheet: one page on each paper size. */
 const PROFESSIONALS_HANDOUT_PAGES = 1;
+/** CNT-014 (adult variant): the care-settings page has three staff summaries, a family note and a permission template. */
+const CARE_SHEETS = 5;
 /**
  * A game's paper version is one page (WEB-052), except the sets of cards to cut out. Bingo cards are drawn at random each time
  * the page loads, so its set runs from 8 to 9 pages and the limit leaves one more.
@@ -168,6 +170,51 @@ export function gamesWithPaper() {
   const source = readFileSync(new URL('../src/data/game-print.ts', import.meta.url), 'utf8');
   return [...source.matchAll(/^\s*'?([a-z-]+)'?:\s*\{\s*kind:\s*'(page|island|none)'/gm)].filter((m) => m[2] !== 'none').map((m) => ({ slug: m[1], kind: m[2] }));
 }
+
+/**
+ * CNT-014: each printable sheet on the care-settings page is one page on each paper size. The check shows one sheet at a
+ * time, hiding the page heading, the lead text, the plans and the other sheets, and counts the pages of that sheet alone.
+ */
+async function careSheets(context, base, failures, record) {
+  const page = await context.newPage();
+  await page.goto(`${base}/for-organizations/care-settings/`, { waitUntil: 'networkidle' });
+  await page.emulateMedia({ media: 'print' });
+  const total = await page.locator('[data-care-sheet]').count();
+  if (total !== CARE_SHEETS) {
+    failures.push({ slug: 'care settings sheets', total, expected: CARE_SHEETS });
+    record('care-settings sheet', false);
+    console.log(`care-settings: ${total} sheets, expected ${CARE_SHEETS}  FAIL`);
+  }
+  for (let index = 0; index < total; index += 1) {
+    await page.evaluate((keep) => {
+      const root = document.querySelector('.care-settings');
+      const target = root.querySelectorAll('[data-care-sheet]')[keep];
+      document.querySelector('.page-head')?.setAttribute('data-print-skip', '');
+      for (const el of root.querySelectorAll('*')) {
+        const related = el === target || target.contains(el) || el.contains(target);
+        el.toggleAttribute('data-print-skip', !related);
+      }
+      if (!document.getElementById('care-only-sheet')) {
+        const style = document.createElement('style');
+        style.id = 'care-only-sheet';
+        style.textContent = '[data-print-skip] { display: none !important; }';
+        document.head.append(style);
+      }
+    }, index);
+    const shown = await page.evaluate(() => {
+      const target = document.querySelectorAll('[data-care-sheet]:not([data-print-skip])');
+      return target.length === 1 && target[0].getBoundingClientRect().height > 100;
+    });
+    const counts = {};
+    for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+    const ok = shown && FORMATS.every((f) => counts[f] === CARE_SHEET_PAGES);
+    if (!ok) failures.push({ slug: `care settings sheet ${index + 1}`, counts, shown });
+    record('care-settings sheet', ok);
+    console.log(`care-settings sheet ${index + 1}: A4 ${counts.A4}  Letter ${counts.Letter}  ${ok ? 'ok' : 'FAIL'}`);
+  }
+  await page.close();
+}
+const CARE_SHEET_PAGES = 1;
 
 async function main() {
   if (!existsSync(join(DIST, 'index.html'))) {
@@ -335,6 +382,7 @@ async function main() {
     }
     await check('weekly program', 'the weekly program', '/activity/weekly-program/', WEEKLY_PROGRAM_PAGES, null);
     await check('professionals handout', 'for health and social care', '/for-professionals/', PROFESSIONALS_HANDOUT_PAGES, null);
+    await careSheets(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }
