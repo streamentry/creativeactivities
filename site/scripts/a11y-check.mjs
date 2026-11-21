@@ -419,7 +419,7 @@ async function main() {
   const games = gamePaths();
   for (const path of games) {
     const name = path.split('/')[2];
-    for (const v of GAME_VARIANTS) jobs.push({ name, label: `game:${name}`, path, ...v, variant: v.label, game: true });
+    for (const v of GAME_VARIANTS) jobs.push({ name, path, ...v, variant: v.label, label: `game:${name}`, game: true });
   }
 
   // --only=name keeps one template (or game:name) while a fix is tried; CI runs them all.
