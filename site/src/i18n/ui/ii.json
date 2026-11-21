@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities ꄮꊰ",
     "mainNav": "ꀹꈚ",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: ꀬꊪ ꀑꋌꀘꋌꑌ ꎒꆈꎆꏦꎧꃅꎒꃅꐂ ꁮꄜ ꑌ ꌠ",
+    "defaultImageAlt": "Creative Activities: ꌠꀋꉙꆹ ꁯꂷ ꉔꀋꈌꀕ ꃀꊿꌠꁌꉙ ꌠꉬꁌ ꆈꌠꀋ ꌠꊂ ꊿꃅꆹꈌꀕꌠ",
     "languages": "ꉙꁌ",
     "englishOnly": "(ꑳ꒿)",
     "machineTranslated": "ꑝꊰꈴ ꋍꑌꇬ ꊈꌦꑌꍏꄉꌠ ꒿ꑌꅉ ꒿ꑌꆈꌠ ꋌꑌ ꀋꄺꐚꄚꄻꄲꄩ。",
     "readOriginal": "ꑳ꒿ ꑍꅉꈴꀄ ꁐꐚ",
     "nav": {
+      "find": "Find an activity",
       "games": "ꑍꇐ",
       "activities": "ꑋꆹ",
       "caregiving": "ꅐꂷꐚꌠ",
-      "brainHealth": "ꀨꑪ ꀨꐛꌠ"
+      "brainHealth": "ꀨꑪ ꀨꐛꌠ",
+      "crafts": "ꀋꏂꌠꈬ",
+      "kids": "ꆹꀕ",
+      "together": "ꌠꉬꁌ",
+      "creativeCalm": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ",
+      "search": "ꁨꁌ"
     },
     "faqTitle": "ꉙꈌ ꉙꁐ",
     "breadcrumb": "ꑝꊰ ꍯꒉ",
@@ -27,7 +33,32 @@
       "label": "꒿ꀑ ꂷꄿ",
       "smaller": "ꄹꅪ ꒿ꀑ",
       "larger": "꒿ꀑ ꀘꑌ",
-      "contrast": "꒿ꀑ ꐚꌠꃅꐵ"
+      "contrast": "꒿ꀑ ꐚꌠꃅꐵ",
+      "colors": "ꌠꉬꁌꆹ",
+      "light": "ꋍꃅ",
+      "dark": "ꃅ",
+      "device": "ꃀꊿꌠꁌꉙ ꌠꈬ ꉬꌠꆹ ꊂꋍꆹ",
+      "lineLength": "ꌠꉬꁌ ꋍꃅ",
+      "standardLines": "ꃀꌠꈬ",
+      "shorterLines": "ꌠꉬꁌ ꋍꃅ ꌠꆹꈬ",
+      "spacing": "ꌠꉬꁌ ꊂꋍꆹ",
+      "standardSpacing": "ꃀꌠꈬ",
+      "moreSpace": "ꌠꉬꁌ ꊂꋍꆹ ꌠꆹꈬ"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "ꑋꆹ ꀱꉙ 101",
     "lateStage": "ꇬꑌꅐ ꑋꆹ",
     "printable": "ꌺꇬꄉ ꑋꆹ",
-    "allActivities": "ꑋꆹ ꂿꃅ",
+    "allActivities": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ",
     "forCaregivers": "ꅐꂷꐚꑌ ꇬꑌ",
     "playTogether": "ꋍꆹ ꑍꇐ ꀨꐛꌠ",
     "selfCare": "ꆍꄊꈌ ꅐꂷꐚ",
@@ -54,24 +85,34 @@
     "app": "Creative Activities ꑌꍏꌐ",
     "appHelp": "ꑌꍏꌐ ꁁꀛ",
     "support": "ꁁꀛ ꀱꉙ",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "ꄸꂷ ꍯꒉ",
     "sitePrivacy": "ꑝꊰ ꍏꆪꌠ",
     "appPrivacy": "ꑌꍏꌐ ꍏꆪꌠ ꄸꂷ",
     "privacyChoices": "ꍏꆪꌠ ꍯꒉ",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "ꄸꂷ ꑋꅉ",
     "safety": "ꀨꐛ ꑌꍏꌠ",
     "accessibility": "ꂷꅉ ꁐꐚꌠ",
     "healthNotice": "ꀨꐛ ꉙꈌ ꀱꉙ",
     "allLegal": "ꄸꂷ ꍯꒉ ꂿꃅ",
     "note": "Creative Activities ꇬ ꋍꆹ ꑍꇐꐚꅉ ꀘꋌꑌ ꑋꆹ ꌦꂷꄹꐚꑌꄚ ꅑꅉꄻꄲ。ꋋꈴ ꀨꐛ ꀢꈊ ꀋꅉꈌ，ꋋꈴ ꋌꑌꇬ ꋒꃅ ꀋꄺꐚ，ꂿꈊ ꀋꁐ。ꀨꐛ ꉙꈌ ꌠꄻ ꀨꐛꋋꑌ ꅐꁐꐚ。ꋌꑌ ꀀꃤꐵꄮ 120 ꇬ ꀸꄻꄲ。",
-    "publisher": "Cloudjet Solutions Pte. Ltd. ꎤꂿꄚꄻꄲ。"
+    "publisher": "Cloudjet Solutions Pte. Ltd. ꎤꂿꄚꄻꄲ。",
+    "crafts": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ",
+    "kids": "ꆹꀕ ꌠꈬ ꀋꏂꌠꈬ",
+    "together": "ꌠꉬꁌ ꀋꏂꌠꈬ ꌠꈬ",
+    "creativeCalm": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ",
+    "dementiaActivities": "ꌠꈬ ꃀꊿꌠꁌꉙ ꀋꏂꌠꈬ ꌠꈬ"
   },
   "home": {
-    "title": "ꀋꄹꐛꋌꑌ ꑍꇐ ꑋꆹ | Creative Activities",
-    "description": "ꀋꄹꐛꋌꑌ ꇬꑌꄚ ꅐꂷꐚꑌ ꇬꑌ ꋍꆹ ꑍꇐꐚꅉ ꎒꃅ ꑍꇐ ꀘꋌꑌ。ꅉꈊ ꋋꑌꀋꐚ，ꀋꁐ，ꈎꆈꀋꄹꄻꄲ。",
+    "title": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꁯꂷ ꊂꋍꆹ",
+    "description": "ꃀꊿꌠꁌꉙ ꌠꈬ ꁯꂷ ꊂꋍꆹ: ꀋꏂꌠꈬ, ꆹꀕ ꌠꈬ, ꌠꉬꁌ ꀋꏂꌠꈬ ꌠꈬ, ꉬꌠꆹ ꀋꏂꌠꈬ.",
     "eyebrow": "ꅉꈊ ꋋꑌꀋꐚ · ꌐꄚ ꀋꐚ · ꊪꂷ ꀋꐚ · ꀋꁐ",
-    "h1": "ꀋꄹꐛꋌꑌ ꇬꑌ ꀘꋌꑌ ꎒꃅ ꑍꇐ ꑋꆹ",
-    "lede": "ꎒꃅ ꑍꇐ ꀘꋌꑌ ꇬꑌ，ꋍꆹ ꑍꇐꐚꅉ ꅐꂷ ꀨꐛꌠ ꑌꄚ ꐛꄻꄲ。",
+    "h1": "ꌠꉬꁌ ꀋꏂꌠꈬ",
+    "lede": "ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ.",
     "playGame": "ꑍꇐ ꑍ",
     "findIdeas": "ꑋꆹ ꀱꉙ ꅑꐚ",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "ꑋꆹ ꀱꉙ 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "ꀠꑌ ꇭꅉ",
         "text": "ꋌꑌ ꀘꋌꑌ ꑋꆹ ꑍꐛ：ꑋꆹꑍꇐ、ꀸꄚ ꐛꌠ、꒿ꀑ ꑍꇐ ꇬꑌꄚ ꋍꆹ ꀱꉙ ꍯꌠ。",
         "label": "ꀠꑌ ꇭꅉ ꀱꉙ"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "ꎔꈴ ꇭꅉ",
         "text": "ꀘꋌꑌ ꑋꆹ ꌦꂷꐚꌠ：ꌺꇬ、ꍯꒉ、ꑌꉘ、ꎒꃅ ꑍꇐ ꇬꑌꄚ ꀸꄚ ꐛꌠ。",
         "label": "ꎔꈴ ꇭꅉ ꀱꉙ"
@@ -124,10 +165,10 @@
         "label": "ꇬꑌꅐ ꇭꅉ ꀱꉙ"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "ꁨꁌ ꌠꈬ ꊂꋍꆹ? ꁌ <a href=\"/dementia-activities/\">ꀋꏂꌠꈬ ꌠꈬ</a>, <a href=\"/together/puzzles-and-table-games/\">ꃀꊿꌠꁌꉙ ꌠꈬ</a>, <a href=\"/together/conversation-games-for-all-ages/\">ꌠꉬꁌ ꀋꏂꌠꈬ</a> ꁌ <a href=\"/together/puzzles-and-table-games/\">ꃀꊿꌠꁌꉙ</a>.",
     "approachEyebrow": "ꉠꑴ ꀨꐛꌠ",
-    "approachTitle": "ꋍꆹ ꑋꆹ ꀨꐛꌠ，ꀋꄹ ꋒꃅ ꀋꅉꈌ",
-    "approachLede": "ꑍꇐ ꀱꂷ ꇬ ꊪꂷ ꇬꑌꄚ ꀋꁐ ꐚꄻꄲ。ꀋꄹꐛꋌꑌ ꇬꑌꄚ ꋋꈴ ꋒꃅ ꀋꅉꈌ ꑍꅉꄚ ꐚꄻꄲ。ꉠꑴ ꀘꋌꑌ ꀱꉙ ꑌꍏꄻꄲ。",
+    "approachTitle": "ꌠꉬꁌ ꀋꏂꌠꈬ, ꌠꈬ ꃀꊿꌠꁌꉙ",
+    "approachLede": "ꌠꈬ ꃀꊿꌠꁌꉙ ꀋꏂꌠꈬ ꌠꈬ ꊂꋍꆹ. ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ.",
     "approachLink": "ꉠꑴ ꋋꈴ ꑍꐚꌠ ꀱꉙ",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "ꀋꑍ ꀱꉙ，ꇬꑌꅐ ꀘꋌꑌꃅ ꇭꅉ ꑍꐚꌠ。"
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "ꎒꊈ ꀨꐛ ꑍꐚꌠ",
-        "text": "꒿ꀑ ꀑꋌꑌ，ꑝꊰ ꀘꋌꑌ ꋍꑌꄹ ꐚꄻꄲ。"
+        "href": "/activities/group-art-activities/",
+        "title": "ꌠꉬꁌ ꀋꏂꌠꈬ ꌠꈬ",
+        "text": "ꌠꉬꁌ ꀋꏂꌠꈬ ꌠꈬ ꊂꋍꆹ."
       },
       {
-        "href": "/activities/printable/",
-        "title": "ꌺꇬꄉ ꅉꈊ ꑋꆹ",
-        "text": "꒿ꀑ ꀑꋌꑌ ꅑꐚ，ꎒꃅ ꎤ，ꀶꎎ ꇬꑌꄚ ꉙꄊ ꍯꒉꑌ。"
+        "href": "/activities/ideas/",
+        "title": "101 ꀋꏂꌠꈬ ꌠꈬ",
+        "text": "ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ ꊂꋍꆹ."
       }
     ],
     "researchTitle": "ꀨꑪ ꀨꐛꌠ：ꋍꑋꌠ ꉙꈌ",
@@ -185,16 +226,16 @@
     "aboutApp": "ꑌꍏꌐ ꇬꑌ",
     "faq": [
       {
-        "q": "ꀋꄹꐛꋌꑌ ꇬꑌ ꀨꐛꌠ ꑍꇐ ꌠꄻ ꐚ?",
-        "a": "ꀤꊈꌠ ꑞꐎ ꆹ ꀋꄮꁧꀋꑌ，ꑊꍔꅐꅉ ꄹꈬꀋꒉꄉ：ꄰꑍꄮꈜ ꑊꁯ ꌬꒆ，ꀧꊿ，ꄰꑍꐎꆪ ꐎꋒ，ꁰꈴꀊꅐ ꌌꐛꑍ，ꀒꇐ ꀭꐚ，ꄰꑍ ꀽꈝ ꇬ ꉪꐚ ꐛꄐ ꈿꂷ。ꀤꊈꌠ ꀮꒉ ꌬꐯ ꀉꑌꑋ ꆍꄮꑌꄹꐛꑌ ꀋꏂꑌ ꋍꂷ ꑌ ꂿ。ꇬꄻ ꆹꋩ、ꐛꒉ ꇬ ꀿꐛꄻ ꐛꒉꄻ ꄮꈬꌠ ꀋꅉꀋꄮꐚ。"
+        "q": "ꁨꁌ ꌠꈬ ꀋꏂꌠꈬ ꌠꈬ ꃀꊿꌠꁌꉙ?",
+        "a": "ꀋꏂꌠꈬ ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꉬꌠꆹ ꃅ ꌠꈬ ꌠꉬꁌ: ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ, ꌠꉬꁌ ꊂꋍꆹ. ꃀꊿꌠꁌꉙ ꌠꈬ ꌠꉬꁌ ꁯꂷ ꀋꏂꌠꈬ ꌠꈬ. ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ. ꌠꈬ ꀋꏂꌠꈬ ꃅ ꌠꈬ ꌠꉬꁌ."
       },
       {
-        "q": "ꒉꑊꇐꄉꑌ ꑞꐎ ꋍꈨ ꒊꀋꑍꊪꉬ？",
+        "q": "ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ?",
         "a": "ꑍꄻ。Creative Activities ꇬꄻ ꑞꐎ ꇬ ꄰꑍꄹ ꐛꄐ ꊿꋅꑌ ꒊꀋꑍ，ꊿꂷ ꄹꈬꀋꒉ，ꎭꐚ ꀋꒉ，ꄰꈜ ꀋꒉꐛꄐ。ꑞꐎ ꋍꈨ ꆹ ꄹꄐ、ꄰꈬꄹꄐ ꇬ ꄩꄂ ꇬꄻ ꄰꈜꀋꒉ ꑞꐎꅉ ꑞꐚ。"
       },
       {
         "q": "ꀨꑌꑞꐎ ꇬꄻ ꒉꑊꇐꄉꑌ ꀋꄮꐚ ꅉꀨ？",
-        "a": "ꑞꐎ ꋍꂷꑌ ꒉꑊꇐꄉꑌ ꀋꄮꐚ ꅉ ꀋꐚꄐ，Creative Activities ꑌ ꂷꐛ ꀋꄮꐚ ꇬ ꀋꄮꐚꅉ ꀋꄻꐚ。ꀤꊎ ꑞꐎ ꆹ ꀋꏂ ꇬ ꊿꋅꑌ ꐛꐥ ꑌ ꅉ ꑌ。ꀤꊎ ꑌ ꀨꑌꒉꑊ ꐛꄐ ꇬꄻ ꑌꆏ ꀒꎂꀒꂷ ꇬꄻ ꐛꒉ ꇬ ꀋꐛꒉ ꌬꐯ ꉪꐚꄻ。"
+        "a": "ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꃅ ꌠꈬ, ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ. ꀋꏂꌠꈬ ꌠꈬ ꌠꉬꁌ ꊂꋍꆹ."
       },
       {
         "q": "ꑞꐎ ꋍꈨ ꆹ ꀨꑌꒉꑊꇐꄉꑌ (Alzheimer) ꄹꈬꀋꒉ ꀤꊈꌠꊪꉬ？",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Creative Activities ꆹ ꊿꂷ ꐚ ꑌ？",
-        "a": "Creative Activities ꆹ ꊿꂷꐛ ꋍꈨ ꑌ，ꊿꋅ ꇬ ꄹꐛꑌ ꅉ ꀤꊈꌠ ꄰꑍ ꑞꐎ ꐚ，ꄰꈜ ꇬ ꒊꀋꑍ app ꇬꄻ ꐚ。ꀤꊎ ꆹ ꁯꋒꀨ ꀋꑍ，ꋍꈨ ꑌ ꁯꋒ ꈿꂷ ꀋꑍ。"
+        "a": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ ꌠꈬ ꌠꉬꁌ ꊂꋍꆹ ꁯꂷ ꀋꏂꌠꈬ ꌠꈬ ꃀꊿꌠꁌꉙ. ꌠꈬ ꃅ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ."
+      }
+    ],
+    "groupsEyebrow": "ꌠꈬ ꁯꂷ ꃀꊿꌠꁌꉙ",
+    "groupsTitle": "ꃀꊿꌠꁌꉙ ꀋꏂꌠꈬ ꌠꈬ",
+    "groupsLede": "ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ. ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꌠꉬꁌ.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "ꀋꏂꌠꈬ",
+        "text": "ꌠꈬ, ꃀꊿꌠꁌꉙ ꌠꉬꁌ ꌠꈬ ꀋꏂꌠꈬ.",
+        "label": "ꁨꁌ ꀋꏂꌠꈬ"
+      },
+      {
+        "href": "/kids/",
+        "title": "ꆹꀕ",
+        "text": "ꉔꀋ ꁯꂷ ꌠꈬ ꆹꀕ, ꌠꉬꁌ ꊂꋍꆹ.",
+        "label": "ꁨꁌ ꀋꏂꌠꈬ ꆹꀕ"
+      },
+      {
+        "href": "/together/",
+        "title": "ꌠꉬꁌ",
+        "text": "ꌠꈬ, ꃀꊿꌠꁌꉙ ꌠꈬ ꌠꉬꁌ.",
+        "label": "ꁨꁌ ꌠꈬ ꌠꉬꁌ"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ",
+        "text": "ꌠꈬ, ꌠꉬꁌ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ. ꃅ ꌠꈬ.",
+        "label": "ꁨꁌ ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "ꄹꐚ ꐚꅉ",
     "play": "{name} ꑞ →",
     "readGuide": "ꐛꄐ ꄹ"
+  },
+  "listen": {
+    "listenSteps": "ꉔꀋ ꌠꈬ",
+    "pause": "ꌠꈬ",
+    "resume": "ꌠꉬꁌ",
+    "stop": "ꃅ",
+    "speed": "ꌠꈬ",
+    "normal": "ꃀꌠꈬ",
+    "slower": "ꌠꉬꁌ ꋍꃅ",
+    "reading": "ꉔꀋ ꌠꈬ ꁯꂷ.",
+    "paused": "ꌠꈬ. ꁨꁌ ꌠꉬꁌ ꌠꈬ ꊂꋍꆹ.",
+    "note": "ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꉔꀋ. ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꉬꌠꆹ.",
+    "listen": "ꉔꀋ",
+    "stepLabel": "ꉔꀋ ꌠꈬ {n}",
+    "stopStep": "ꃅ ꌠꈬ {n}"
   },
   "playCta": {
     "title": "ꑞꐎ ꀤꊈꌠ ꋍꂷ ꑞꊪ？",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "ꑞꐎ ꇬ ꐛꐥ",
-      "title": "ꒉꑊꇐꄉꑌ ꅉ ꑞꐎ ꇬ ꐛꐥ",
-      "seo": "ꒉꑊꇐꄉꑌ ꅉ ꑞꐎ ꇬ ꐛꐥ：ꇬꄉ ꅉ ꈿꂷ",
-      "description": "ꒉꑊꇐꄉꑌ ꇬꄉ ꊿꋅꑌ ꅉ ꐛꐥ ꈿꂷ：ꑌꒉ，ꀉꑌ ꒉꑊ，ꐥꄻ ꐛꐥ，ꄰꑍ ꀭꐚ，ꂷꐛ ꐚꅉ ꇬ ꒊꀋꑍ ꄹꐚ。",
-      "lede": "ꀤꊈꌠ ꐛꐥ ꆹ ꋍꑌ ꀋꏂ ꇬ ꊿꋅꑌ ꐛꐥ ꑌ ꂷꐛ ꑌ ꂿ。ꋍꑌ ꀉꑌ ꀋꏂ ꌬꐯ ꇬꄻ ꀮꒉ，ꀉꑌꑋ ꀤꊈꌠ ꐚ。"
+      "label": "ꀋꏂꌠꈬ ꌠꈬ",
+      "title": "ꀋꏂꌠꈬ ꌠꈬ",
+      "seo": "ꀋꏂꌠꈬ ꌠꈬ: ꌠꈬ, ꀋꏂꌠꈬ ꊂꋍꆹ ꁯꂷ ꌠꉬꁌ",
+      "description": "ꌠꈬ ꌠꉬꁌ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ: ꌠꈬ ꀋꏂꌠꈬ, ꀋꏂꌠꈬ ꌠꉬꁌ, ꌠꉬꁌ ꀋꏂꌠꈬ, ꌠꈬ ꁯꂷ ꌠꈬ.",
+      "lede": "ꌠꈬ ꌠꉬꁌ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꉬꁌ."
+    },
+    "crafts": {
+      "label": "ꀋꏂꌠꈬ",
+      "title": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ",
+      "seo": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ, ꌠꉬꁌ ꊂꋍꆹ",
+      "description": "ꀋꏂꌠꈬ ꌠꈬ, ꆹꀕ ꁯꂷ ꌠꈬ: ꌠꈬ, ꌠꉬꁌ, ꀋꏂꌠꈬ ꁯꂷ ꌠꈬ, ꌠꉬꁌ ꊂꋍꆹ ꁯꂷ ꌠꈬ ꃅ ꌠꈬ.",
+      "lede": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ, ꌠꈬ ꌠꉬꁌ ꊂꋍꆹ."
+    },
+    "kids": {
+      "label": "ꆹꀕ",
+      "title": "ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꆹꀕ",
+      "seo": "ꀋꏂꌠꈬ ꆹꀕ: ꌠꈬ, ꉬꌠꆹ ꁯꂷ ꌠꉬꁌ",
+      "description": "ꀋꏂꌠꈬ ꆹꀕ: ꌠꈬ ꌠꉬꁌ, ꀋꏂꌠꈬ ꌠꈬ, ꃀꊿꌠꁌꉙ ꌠꈬ ꁯꂷ ꌠꉬꁌ ꉬꌠꆹ, ꊂꋍꆹ ꌠꈬ ꁯꂷ ꌠꉬꁌ.",
+      "lede": "ꌠꈬ ꌠꉬꁌ ꀋꏂꌠꈬ ꆹꀕ ꃀꊿꌠꁌꉙ ꌠꈬ, ꃀꊿꌠꁌꉙ ꌠꈬ ꊂꋍꆹ ꌠꉬꁌ ꁯꂷ ꌠꈬ."
+    },
+    "together": {
+      "label": "ꌠꉬꁌ",
+      "title": "ꀋꏂꌠꈬ ꌠꈬ ꌠꉬꁌ",
+      "seo": "ꀋꏂꌠꈬ ꌠꉬꁌ, ꌠꈬ ꃀꊿꌠꁌꉙ",
+      "description": "ꀋꏂꌠꈬ ꌠꈬ ꃀꊿꌠꁌꉙ: ꌠꈬ ꌠꉬꁌ, ꌠꈬ, ꀋꏂꌠꈬ, ꀋꏂꌠꈬ ꁯꂷ ꌠꈬ, ꁯꂷ ꌠꉬꁌ ꊂꋍꆹ.",
+      "lede": "ꌠꈬ ꌠꉬꁌ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ, ꃀꊿꌠꁌꉙ ꌠꈬ ꌠꉬꁌ."
+    },
+    "creative-calm": {
+      "label": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ",
+      "title": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ",
+      "seo": "ꀋꏂꌠꈬ ꌠꉬꁌ ꉬꌠꆹ: ꌠꈬ ꀋꏂꌠꈬ ꁯꂷ ꌠꈬ",
+      "description": "ꌠꈬ ꀋꏂꌠꈬ ꃀꊿꌠꁌꉙ ꁯꂷ ꌠꈬ: ꌠꈬ ꀋꏂꌠꈬ, ꌠꈬ, ꌠꉬꁌ, ꉬꌠꆹ ꁯꂷ ꌠꉬꁌ. ꀋꏂꌠꈬ ꌠꉬꁌ, ꃅ ꌠꈬ.",
+      "lede": "ꌠꈬ ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ, ꌠꈬ ꁯꂷ ꌠꉬꁌ. ꃀꊿꌠꁌꉙ ꌠꈬ ꀋꏂꌠꈬ ꃅ ꌠꈬ, ꌠꉬꁌ ꊂꋍꆹ."
     },
     "caregiving": {
-      "label": "ꄹꐛ",
-      "title": "ꄹꐛꑌ ꐛꄐ",
-      "seo": "ꒉꑊꇐꄉꑌ ꄹꐛ ꐛꄐ：ꐥꄻ ꄹꐛ ꈿꂷ",
-      "description": "ꒉꑊꇐꄉꑌ ꄹꐛꑌ ꅉ ꐛꄐ：ꊿꋅꑌ ꑞꐎ ꑞ，ꉪꐚ，ꀋꐚ ꄻ，ꀒꑌ ꀋꀤ，ꄹꄐ ꄹꐚ，ꀤꊎ ꄹꐛ。",
-      "lede": "ꒉꑊꇐꄉꑌ ꄹꐛ ꇬ ꀤꊈꌠ ꄹꐛ ꈿꂷ ꐛꄐ，ꀤꊎ ꄹꐛꑌ ꑌ ꄹꐛ。"
+      "label": "ꃅꏂꉌ ꆹꌺ",
+      "title": "ꃅꏂꉌ ꆹꌺꌠꀊ ꃅꑠꏂꉌ ꌠꀕ",
+      "seo": "ꃅꏂꉌ ꆹꌺꌠꀊ ꃅꑠꏂꉌ ꌠꀕ: ꑌꆹꌠꁨ ꌠꀕ ꀋꆹꀀ",
+      "description": "ꃅꏂꉌ ꆹꌺꌠꀊ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ: ꊿꀕ ꃅꑠꏂꉌ ꌠꀕ, ꌠꀕꌠꁨ ꆹꀀ, ꀋꆹꀀ ꌠꀕ ꆹꀀ.",
+      "lede": "ꃅꏂꉌ ꆹꌺꌠꀊ ꃅꑠꏂꉌ ꌠꀕ ꀋꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꃅꏂꉌ ꌠꀕ."
     },
     "brain-health": {
       "label": "ꀨꑌꒉꑊ",
@@ -283,7 +396,16 @@
     "tryTogether": "ꊿꋅꑌ ꐚ",
     "relatedGuides": "ꐛꐥ ꐛꄐ",
     "related": "ꐛꐥ",
-    "startHere": "ꋍꈨ ꇬꄻ ꀮꒉ"
+    "startHere": "ꋍꈨ ꇬꄻ ꀮꒉ",
+    "staleAria": "ꌠꀕ ꆹꀀ ꊿꀕ",
+    "staleTitle": "ꌠꀕ ꆹꀀ ꊿꀕ",
+    "staleText": "ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ.",
+    "staleHealth": "ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ, ꀋꆹꀀ ꌠꀕ ꆹꀀ.",
+    "staleLink": "ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꌠꀕ"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "ꁯꋒ ꈿꂷ ꐛꄐ",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "ꊿꋅꑌ ꐛꐥ，ꒉꑊ ꀿꐛꄻ ꀋꑍ",
+      "title": "ꌠꀕ ꆹꀀ ꀋꆹꀀ, ꌠꀕ ꆹꀀ",
       "seoTitle": "Creative Activities ꈿꂷ：ꀤꊎ ꐚ ꈿꂷ",
-      "description": "Creative Activities ꑞꐎ ꆹ ꆹꋩ、ꐛꒉ ꀋꒉ，ꄰꑍ ꀋꐛꄐ，ꒉꑊꇐꄉ ꈿꂷ ꀤꊎ ꐚ ꇬ ꀋꐚ ꈿꂷ。",
+      "description": "Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ.",
       "crumb": "ꀤꊎ ꐚ ꈿꂷ",
-      "lede": "Creative Activities ꆹ ꄹꐛꑌ ꇬ ꒉꑊꇐꄉꑌ ꊿꋅꑌ ꀋꏂ ꐚꅉ ꀤꊈꌠ ꄰꑍ ꑞꐎ ꐚ。",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "ꌠꀕ ꆹꀀ ꌠꀕ",
+        "none": "Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ.",
+        "listed": "ꌠꀕ ꆹꀀ Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ.",
+        "policy": "ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ.",
+        "listHeading": "ꌠꀕ ꆹꀀ ꌠꀕ",
+        "noPartners": "ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ."
+      },
+      "lede": "Creative Activities ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꏂꉌ ꌠꀕ.",
+      "bodyHtml": "<h2>ꌠꀕ ꆹꀀ ꊿꀕ</h2><p>ꃅꏂꉌ ꆹꌺꌠꀊ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ.</p><h2>ꌠꀕ ꆹꀀ</h2><p>ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ.</p><p>ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ:</p><ul><li><strong>ꌠꀕ ꆹꀀ ꊿꀕ.</strong> ꌠꀕ ꆹꀀ.</li><li><strong>ꌠꀕ ꆹꀀ ꊿꀕ.</strong> ꌠꀕ ꆹꀀ ꊿꀕ.</li><li><strong>ꌠꀕ ꆹꀀ.</strong> ꌠꀕ ꆹꀀ ꊿꀕ.</li><li><strong>ꃅꏂꉌ ꆹꀀ.</strong> ꌠꀕ ꆹꀀ ꊿꀕ.</li><li><strong>ꀋꆹꀀ ꌠꀕ.</strong> “ꌠꀕ ꆹꀀ” ꊿꀕ ꌠꀕ.</li><li><strong>ꌠꀕ ꆹꀀ ꊿꀕ.</strong> ꌠꀕ ꆹꀀ ꊿꀕ.</li></ul><h2>ꌠꀕ ꆹꀀ ꊿꀕ</h2><p>ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ.</p><h2>ꌠꀕ ꆹꀀ</h2><p>Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ. ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ <a href=\"/editorial-policy/\">ꌠꀕ ꆹꀀ ꊿꀕ</a>.</p><h2>ꌠꀕ ꆹꀀ ꊿꀕ</h2><p>ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "ꉠꄹꒈꐭꑌꄹꑌꄸꄶꑌꄹ",
       "seoTitle": "ꒈꐭꑌꄹꑌꄸꄶꑌꄹ",
-      "description": "Creative Activities ꆏꀘꁌꐚꄹꀧꌋꎂꀘꁌꄻꑋꑋꑌꒈꐭꌌꄉꑌꑋꎂꑌꄹꎂꄻꇱꑋꎂꋍꑌꀋꑌꑋꌠꇬꐛꑍꆆ",
+      "description": "Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ.",
       "crumb": "ꒈꐭꑌꄹꑌꄸꄶꑌꄹ",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "ꐛꑍꎂꐛꒉ",
-      "seoTitle": "ꀘꁌꐚꄹꀧꌋꎂꑣꇬ：ꐛꑍꎂꐛꒉ",
-      "description": "ꀘꁌꐚꄹꀧꌋꎂꑣꇬꇬꐛꑍꐛꒉ：ꀉꄮꀧꌋꑣꑌꎂꈌꅑꀉꄮꒌꎂꀘꁌꄻꑋꎂꑌꄹꌐꂷꐚꄹꆆ",
+      "seoTitle": "Creative Activities ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ",
+      "description": "ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ.",
       "crumb": "ꐛꑍꎂꐛꒉ",
       "lede": "ꑴꄹꀉꌠꐛꑍꒌꌠꇬꐊꌠꐛꒉꆆ",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "ꀧꌋꇬꐛꑍ",
           "items": [
             {
-              "q": "ꀘꁌꐚꄹꀉꌠꇬꀉꄮꀧꌋꄻꑌ？",
+              "q": "ꃅꏂꉌ ꆹꌺꌠꀊ ꌠꀕ ꆹꀀ ꊿꀕ?",
               "a": "ꒌꐚꌠꎂꐊꌠꎂꀋꐚꌠꀧꌋꆏꄻꑌ，ꋋꑌꑌꑋꃪꑴꌠꆏꄻꑌꀋꒌꆆ ꉳꋌꑍꄉꒌꌠꎂꄹꄹꑌꑋꎂꐊꌠꉳꋌꄻꑌꎂꒌꐚꌠꃅꄿꐛꒉꎂꉳꋌꒆꑋꆏꑌꑋꑴꄮꄻꑌꆆ ꈌꅑꌅꎂꀕꑠꎂꄸꄶꑌꑋꀋꑋꒉꆆ"
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "ꀒꎂꐛꑌꅪꑌꂷꐛꑌ",
+          "title": "ꃅꏂꉌ ꆹꌺꌠꀊ ꀋꆹꀀ",
           "items": [
             {
               "q": "ꅪꄓꐛꑌꆏꌗꑌꁯꐛꅉꄹꀋꐚꄹꁏꄻꐥꄻꅉ？",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "ꌠꀕ ꆹꀀ: <a href=\"/caregiving/how-to-play-together/\">ꌠꀕ ꆹꀀ ꊿꀕ</a>, <a href=\"/caregiving/when-they-say-no/\">ꌠꀕ ꆹꀀ</a>, <a href=\"/activities/late-stage/\">ꌠꀕ ꆹꀀ ꊿꀕ</a> ꊿꀕ <a href=\"/dementia-activities/\">ꃅꏂꉌ ꆹꌺꌠꀊ ꌠꀕ ꆹꀀ</a>."
     },
     "handout": {
       "title": "ꌗꑌꁯꐛꅉꄹꑌꂷꐚꌠꄹꅪꄓꐛꑌ",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "ꆍꑌꄹꐛꑌꅐꅪꑌꑋꄹꐛꑌꄅꁧ",
-      "seoTitle": "ꀪꄿꇬꑌꈌꅑꑌꑋꌤꃅꐛ ꀪꄿꇬꒉꄻꈌꄻꂷꐛ ꌠꃅꄤꄜꀱꉐꐯꑌ",
-      "description": "ꀪꄿꇬꑌꈌꅑ、ꀪꄿꑍꂷꇬꑌꈌꅑ、ꄿꏦꒉ、ꀪꄿꌤꃅꑌꑋꌤꑍꑋꃅꆀꋍꑌ ꉡꑿꄻꀪꄿꇬꒉꄻꈌꄻꂷꐛ ꌠꃅꄤꄜꀱꉐꐯꑌꏹꂷꌠꄻꒌꌬꒉꌠ，ꑌꉡꑿꌠꃅꑍꌤꒉꌌꅐꑌꄤꈌꏦꂷꁨꅉ。",
+      "seoTitle": "ꌠꀕ ꆹꀀ, ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ",
+      "description": "ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꑠꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ.",
       "crumb": "ꑋꌤꃅꐛ",
       "lede": "ꄻꈌꑌꋍꑌꆀꅑꀪꄿꁱꂷ、ꑋꌤꁱꂷꑌꄻꂷꆀꋍꑌꀋꒌꌠꃅꄤꄜꀱꉐꌬꒉꅑ，ꒌꑍꈌꀱꉐ、ꑍꇬꀱꉐ、ꌠꃅꄤꄜꀱꉐ。ꄻꏦꂷꆀꄻꈌꑌꇬꎭꑌꑌꄻꌠꆀꄻꒌꌬꒉꌠꅑꐥꄻ。",
-      "shortText": "{name}：ꀪꄿꇬꒉꄻꈌꄻꂷꑌꀪꄿꇬꑌꈌꑌꄻꂷꐛ ꌠꃅꄤꄜꀱꉐ、ꈚꄻꌠꏹꂷꐯꑌꑌꐯꑌꌬꒉꌠꄻꂷ。ꒌꑍꈌꀱꉐ，ꑍꄮꑋꄮꀱꉐ，ꄤꈌꀱꉐ。",
-      "longText": "{name}（{domain}）ꆀꀪꄿꇬꒉꄻꈌꄻꂷꐛ ꌠꃅꄤꄜꀱꉐꏦꂷ꒿ꐯꑌ {count} ꈌꑌꐥ，ꏹꂷꄻꀕꑠꀋꒌꌠꏹꂷꐯꑌ、ꈚꄻꌠꏹꂷꑍꐯ、ꏹꂷꌤꅐ、ꇤꄉꌠꏦꂷꐚꂷꑌꄿꏦꐯꑌꏹꂷꑍꌤꆀꋍꑌꐥ。ꒌꑍꈌꀱꉐ，ꏦꂷꑌꀱꉐ，ꑍꄮꑋꄮꀱꉐ，ꄤꈌꀱꉐ。ꄻꈌꑌꆀ National Institute on Aging ꑌ Alzheimer's Association ꄻꌠꆀꑌꌬꒉꄻ，ꀪꄿꇬꒉꄻꈌꌬꒉꄻꅐꇤꌠꐯꑌꌬꒉꌠꄻꂷꑌꑌꐥ。",
+      "shortText": "{name}: ꌠꀕ ꆹꀀ ꊿꀕ ꌠꀕ ꆹꀀ ꃅꏂꉌ ꌠꀕ ꆹꀀ ꊿꀕ. ꌠꀕ ꆹꀀ, ꌠꀕ ꆹꀀ, ꌠꀕ ꆹꀀ.",
+      "longText": "{name} ({domain}) ꀋꏸ ꉬꆸ {count} ꁨꊿ ꃅꉙꌠ ꃅꆹ ꀕꏸꆹ ꉬꆸ ꃅꌠꁌ ꌠꄑꃅ ꊿꀕꌠ ꃅꉞ ꆈꌠ ꌠꄑꃅ ꀋꏸ ꌠꄑꃅ, ꃅꉙꌠ ꀕꏸ ꌠꄑꃅ ꊿꀕꌠ ꌠꏸ ꃅꉙꌠ ꃅꌠꁌ ꌠꏸ ꌠꄑꃅ ꀕꏸꆹ ꃅꉙꌠ ꆈꌠ ꌠꄑꃅ ꃅꌠꁌ ꀕꏸꆹ ꃅꉙꌠ ꌠꏸ ꌠꄑꃅ ꃅꉙꌠ. ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ ꌠꄑꃅ ꀕꏸꆹ ꃅꉙꌠ ꉬꆸ ꃅꌠꁌ ꌠꄑꃅ, National Institute on Aging ꀋꏸ Alzheimer's Association ꃅꉙꌠ ꃅꌠꁌ ꌠꏸ.",
       "useTitle": "ꑋꌤꃅꆀꄻꒌꌬꒉꌠ",
       "gamesItemHtml": "<strong>{count} ꈌꏦꂷ꒿ꐯꑌ</strong> ꆀꄿꏦꑍꐯꒉ、ꑌꐯꒉꒆꂷꑌꄿꏦꑍꐯꒉꑌꌬꒌꌠꄻꇬꐥ。ꀋꒌꌠꅐꑌ，ꒌꑍꈌꀱꉐ，ꀋꒌꌠꁦꅐ。<a href=\"/games/\">ꐯꑌꄻꈌꑌꆀꐚꂷ</a>ꐥ。",
       "printablesLabel": "{count} ꈌꄿꏦꐯꑌꄤꈌꏦꂷ：",
       "printablesAfter": "ꏦꂷꄻꈌꑌꆀꄿꏦꐯꑌꄤꈌꌠꌬꒉꅑ。",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>ꃅꌠꁌ ꀕꏸꆹ:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꃅꌠꁌ, ꀋꏸ <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꉬꆸ ꃅꌠꁌ ꌠꏸ.</li><li><strong>ꃅꌠꁌ ꌠꄑꃅ</strong> ꀕꏸꆹ ꀋꏸ ꃅꉙꌠ ꌠꏸ ꃅꌠꁌ ꌠꄑꃅ. ꌠꏸ <a href=\"/activities/ideas/\">101 activity ideas</a> ꀋꏸ <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a> ꃅꉙꌠ ꃅꌠꁌ.</li>",
       "restHtml": "<h2>ꑋꌤꃅꄻꒌꌬꒉꌠ</h2><ul><li><strong>ꀪꄿꇬꑌꈌꅑꑌꀪꄿꇬꒉꄻꈌꑌꄻꂷ：</strong> ꅑꀪꄿꅑꄻꇬ ꏹꂷꐯꑌꑍꌤ ꑌꄻ ꇤꄉꌠꏦꂷꐚꂷ ꐯꑌꅑ，ꑋꀨꋍꑌꆀꑋꌤꐛꐯꑌꅑ。</li><li><strong>ꀪꄿꑍꂷꇬꑌꈌꅑ：</strong> ꑌꐯꒉꒆꂷ꒿ ꏹꂷꄻꀕꑠꀋꒌꌠꏹꂷꐯꑌ ꄮ 4 ꈌꐥꄻ，ꑋꀨꋍꑌꑋꀨꋍꑌꐛꈚꄻꐯꑌꅑ。</li><li><strong>ꄿꏦꒉ：</strong> ꄿꏦꐯꑌꄤꈌꏦꂷꑌꏦꂷꐚꂷꄿꏦ ꑌꄿꏦꒉꑌꐯꒉꒆꂷ꒿ꄻꈌꑌꏦꂷꐥꄻ。</li><li><strong>ꀪꄿꇬꑌꈌꑋꌤꃅ：</strong> ꅑꀪꄿꐛ <a href=\"/handout/\">ꄿꏦꐯꑌꄤꈌꏦꂷ 1 ꏦ</a> ꑌꅑꒉꄻꅑ。</li><li><strong>ꅑꒉꄿꅑꑌꅑꒉꄻꑌꄻꂷ：</strong> ꀪꄿꇬꑌꈌꑌꄻꂷꐛ ꅑ꒿ꑌꄻꈌꑌ ꈚꄻꌠꐯꑌꅑ。</li></ul><h2>ꉡꑿꀋꄻꌠ</h2><p>ꄻꈌꑌꐯꑌꆀ ꈚꄻꌠꑌꋍꑌꐯꑌꐛꅑ。ꀪꄿꇬꒉꄻꈌꌠꀋꐯꄻ，ꀋꄤꈌ，ꀋꇬꑌ，ꀋꈚꄻꄻꀱꉐ，ꑋꌤꃅꑌꄻꒌꀋꐚꂷꅑꐥꄻ。ꏦꂷꀱꉐ，ꑌꐯꑌꆀꑋꑋꈌꐥ，ꀪꄿꇬꒉꄻꈌꄻꂷꏹꂷꑌꀋꁦꅐ。ꄻꈌꑌꆀ Google Analytics ꌬꒉꄻ ꑋꌤꐚꂷ；ꉡꑿ <a href=\"/privacy/\">ꒌꑍꈌꏦꂷ</a> ꒿ꄻꒌꐥꄻ。 <a href=\"/games/photo-pairs/\">ꏹꂷꐯꑌ</a> ꒿ꌬꒉꌠꏹꂷꆀ ꏦꂷ꒿ꑌꐥ。</p><h2>ꉡꑿꌠꃅꑍꌤꒉꌌꅐꑌ</h2><p>ꅪꑿ ꀪꄿꇬꑌꈌꑌꄻꂷꐛ ꌠꃅꑍꌤꒉꌌꅐꑌꐥꄻꅑ，<a href=\"/\">{domain}</a> ꑌꌬꒉꐥꄻ。ꄻꏦꂷꑍꈌꆀꋍꑌꌬꒉꄤꈌ。</p>",
       "shortTitle": "ꈚꄻꌠꏦꂷ",
       "longTitle": "ꏦꂷꇬꐥꄻ",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>ꃅꌠꁌ ꀋꏸ ꌠꄑꃅ: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> ꀋꏸ <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>ꌠꏸ ꀋꏸ ꃅꌠꁌ</h2><p>ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꃅꌠꁌ ꌠꏸ, ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꉬꆸ, <a href=\"mailto:{email}\">{email}</a> ꌠꏸ ꃅꌠꁌ. ꃅꉙꌠ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꃅꉙꌠ ꌠꏸ.</p>"
     },
     "app": {
       "title": "Creative Activities App",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "ꄿꇱꋍꁧꁮꄜꐚ Alzheimer's ꄯ꒿ꑋꌋꅿꃅꄮꅐꂷꎭꀋꑌ",
-    "description": "ꄿꇱꋍꁧꁮꄜꅐꑌ Alzheimer's ꐥꑌꄿꇱꇬꄯ꒿ꑋꌋꅿꃅꄮꅐꂷꎭꀋꑌ：ꄩꈬꑋꐚ，ꄩꈬꄜꐚ，ꋍꆪꋊ，꒿ꌠꑋꐚ，ꅐꑌꆍ，ꄩꈬꀤꈥ。ꐛꒈꀋꐥ，ꎭꀋꑌ，ꆂꀋꐯ。",
+    "title": "ꃅꌠꁌ ꀕꏸꆹ ꌠꄑꃅ ꃅꉙꌠ ꌠꏸ ꀋꏸ ꃅꌠꁌ",
+    "description": "ꃅꌠꁌ ꀕꏸꆹ ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ: ꃅꌠꁌ ꌠꏸ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ ꌠꏸ. ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ ꃅꌠꁌ ꌠꏸ.",
     "crumb": "ꌋꅿꃅꄮꅐ",
-    "h1": "ꄿꇱꋍꁧꁮꄜꇬꌋꅿꃅꄮꅐ",
+    "h1": "ꃅꉙꌠ ꀕꏸꆹ ꌠꄑꃅ ꃅꌠꁌ",
     "lede": "ꄯ꒿ꄜꇬꋋꄜꐥꃀꌋꅿꃅꄮꅐ {count} ꆪꐥ。ꄩꈬꄮꒉ，꒿ꌠꌐꌐ，ꀋꄹꄹꐚꀋꐥ：ꎭꀋꑌ，ꆂꀋꐯ，ꐛꒈꀋꐥ。",
-    "listName": "ꄿꇱꋍꁧꁮꄜꇬꌋꅿꃅꄮꅐ",
+    "listName": "ꃅꉙꌠ ꀕꏸꆹ ꌠꄑꃅ ꃅꌠꁌ",
     "byStageTitle": "ꆍꄮꑋꆈꑌꁧꄜꑌꌋꅿꃅꄮꅐꋊ",
     "byStageLede": "ꑌꁧꆹꋋꄜꈌꄜꄻꐚ。ꋌꆹꀋꃅꋌꑘꀋꑌꅐꑌꋋꄹꄹꐚꑌꑋꐚ。",
     "stageCol": "ꑌꁧ",
     "gamesCol": "ꑌꐚꑌꌋꅿꃅꄮꅐ",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "ꃅꌠꁌ ꀋꏸ ꌠꄑꃅ: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> ꀋꏸ <a href=\"/crafts/\">crafts</a>.",
     "faq": [
       {
         "q": "ꀊꆪꌋꅿꃅꄮꅐꄻꌐꄩꉢ？",
@@ -463,7 +593,7 @@
       },
       {
         "q": "ꋋꆪꆹꄿꇱꇬꋌꄤꌋꅿꃅꄮꅐꐚ？",
-        "a": "ꋋꆹꄿꇱꋌꑌꐥꃀꑌꐚꌠꄩꈬꌋꅿꃅꄮꅐꐚ，ꋌꄤꀋꄔꌠꐚ：ꄩꈬꑋꐚꇬꄩꈬꋌꑌꐯ。ꄿꇱꋍꁧꁮꄜꇬꋌꄤꌋꅿꃅꄮꅐꈌꄜꇬꌋꅿꃅꄮꅐꌋꅿꃅꄜꐚꑌꐥ。"
+        "a": "ꃅꉙꌠ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꀕꏸꆹ ꌠꏸ ꃅꉙꌠ, ꀋꏸ ꃅꌠꁌ ꌠꏸ: ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ “ꃅꉙꌠ ꌠꏸ” ꀋꏸ ꃅꌠꁌ. ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ."
       },
       {
         "q": "ꄿꇱꑋꑋꇬꋋꄜꐥꃀꌋꅿꃅꄮꅐꐥ？",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "ꄿꇱꋍꁧꁮꄜꇬꑘꃀꑲꄵꐥ？",
+        "q": "ꀕꏸꆹ ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꃅꉙꌠ ꌠꏸ ꀋꏸ app ꃅꌠꁌ?",
         "a": "ꑌꐚ。Creative Activities (\"{storeName}\") ꆹ App Store ꐚ Google Play ꇬꂷꎭꀋꑌꐥ。ꄩꈬꄮꒉꑋꐚ，ꅑꋌꄩꈬꌋꅿꃅꄮꅐ，ꄯ꒿ꀋꐥꑌꑌꐚꄩꈬꐥ。"
       },
       {
@@ -526,7 +656,7 @@
     "printable": "ꄚꐚ ꉘ",
     "howTo": "{name} ꎔ ꄡꏦ",
     "tips": "ꐎꇒ ꎔ ꇬ ꅿꍏ ꄹꄹ",
-    "newToPlayingHtml": "ꅪꀋꄮ ꑌ ꀨꅪ ꐎꇒ ꎔ ꅱ ꀋ ꏦ？<a href=\"/caregiving/how-to-play-together/\">ꐎꇒ ꎔ ꄡꏦ</a> ꇬ ꀒ，ꅪꂷ ꀋ ꄲ ꇬ ꄤꄡ ꃅ ꑌ ꂿ ꇁ ꄸ。",
+    "newToPlayingHtml": "ꀕꏸꆹ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꃅꌠꁌ ꌠꏸ? <a href=\"/caregiving/how-to-play-together/\">how to play games together</a> ꀋꏸ ꃅꉙꌠ ꌠꏸ ꃅꌠꁌ ꌠꄑꃅ.",
     "moreAria": "ꒅꄿ ꐎꇒ ꂿ",
     "helpfulGuides": "ꈯꄡ ꄸ ꑌ ꅿꍏ",
     "appTitle": "ꑌꊪ ꇬ ꎔ",
@@ -536,6 +666,35 @@
     "goodToKnow": "ꅪꂷ ꇬ ꄮꊪ ꑌ ꄹꄹ",
     "goodToKnowText": "ꎔꃅ ꊈꂷ ꆏ ꃅꄅꅪꂷ ꑌ ꐎꇒ ꐚꊪ ꇬ ꈬꑌ ꑣ。ꅈ ꀋ ꄮꊪ、ꀋ ꄿ ꈬꑌ ꀋ ꇢ。",
     "moreGames": "ꅪꂷ ꁮ ꑌ ꎔꃅ ꒅꄿ ꂿ",
-    "crumb": "ꎔꃅ"
+    "crumb": "ꎔꃅ",
+    "print": {
+      "heading": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ",
+      "sameRules": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꃅꉙꌠ ꌠꏸ ꀋꏸ ꌠꄑꃅ:",
+      "button": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ",
+      "pageNote": "A4 ꀋꏸ US Letter ꃅꉙꌠ ꌠꏸ, ꃅꌠꁌ ꀋꏸ ꌠꄑꃅ. ꃅꉙꌠ {date}.",
+      "islandNote": "ꃅꌠꁌ ꌠꏸ ꀋꏸ ꌠꄑꃅ. ꃅꉙꌠ {date}.",
+      "sheetTitle": "{name}: ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ",
+      "point": "ꌠꄑꃅ ꀋꏸ ꃅꉙꌠ, ꃅꌠꁌ ꌠꏸ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ ꃅꌠꁌ. ꃅꉙꌠ ꌠꏸ ꀋꏸ ꌠꄑꃅ.",
+      "pointTarget": "ꌠꄑꃅ ꀋꏸ ꃅꉙꌠ, ꃅꌠꁌ ꌠꏸ ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ.",
+      "halves": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ 4 ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ. ꃅꌠꁌ ꀋꏸ ꌠꏸ.",
+      "grid": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ, ꀋꏸ ꌠꏸ ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ. ꌠꏸ ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ.",
+      "colors": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꌠꏸ. ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ.",
+      "dice": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ. ꌠꄑꃅ ꀋꏸ ꃅꉙꌠ ꃅꌠꁌ ꌠꏸ ꀋꏸ ꌠꄑꃅ. ꃅꉙꌠ ꀋꏸ ꌠꏸ ꃅꌠꁌ.",
+      "words": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ, ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ. ꃅꉙꌠ ꀋꏸ ꌠꏸ ꌠꄑꃅ.",
+      "cards": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꃅꉙꌠ ꌠꏸ. ꃅꌠꁌ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ ꌠꏸ.",
+      "chain": "ꌠꄑꃅ ꀋꏸ ꃅꉙꌠ, ꃅꌠꁌ ꌠꏸ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ ꀋꏸ ꃅꌠꁌ. ꃅꉙꌠ ꀋꏸ ꌠꏸ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꃅꉙꌠ.",
+      "sort": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ, ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ.",
+      "puzzle": "ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꌠꏸ 4 ꀋꏸ ꃅꉙꌠ. ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꃅꉙꌠ ꌠꏸ.",
+      "cutSafety": "ꀕꏸꆹ ꀋꏸ ꃅꌠꁌ ꌠꏸ ꃅꉙꌠ. ꃅꌠꁌ ꀋꏸ ꌠꄑꃅ ꃅꉙꌠ.",
+      "version": "{date} · {url}",
+      "reasons": {
+        "photos": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꌠꏸ, ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ. ꌠꏸ ꃅꌠꁌ ꀋꏸ ꃅꉙꌠ ꌠꄑꃅ.",
+        "paced": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꌠꏸ, ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ. ꃅꌠꁌ ꀋꏸ ꃅꉙꌠ ꌠꏸ.",
+        "turns": "ꌠꄑꃅ ꀋꏸ ꃅꌠꁌ ꌠꏸ ꃅꉙꌠ. ꃅꉙꌠ ꀋꏸ ꌠꄑꃅ ꃅꌠꁌ ꀋꏸ ꌠꏸ, ꌠꄑꃅ ꀋꏸ ꃅꉙꌠ.",
+        "screen": "ꂷꇁ ꃅꐤ ꂷꀋ ꉙꈴ ꆹꏸ ꌠꆹ ꀋꃅ ꈴꌠ꒿ ꉙꐤ ꐤꒉ ꃅꏸ ꆹ ꐤꃅ ꃅꆹꈴ ꌠ꒿ꐤ.",
+        "wash": "ꂷꇁ ꃅꐤ ꂷꀋ ꉙꈴ ꆹꏸ ꌠꆹ ꀋꃅ ꈴꌠ꒿ ꉙꐤ ꐤꒉ ꃅꏸ ꆹ ꐤꃅ ꃅꆹꈴ ꌠ꒿ꐤ.",
+        "sayings": "ꂷꇁ ꃅꐤ ꂷꀋ ꉙꈴ ꆹꏸ ꌠꆹ ꀋꃅ ꈴꌠ꒿ ꉙꐤ ꐤꒉ ꃅꏸ ꆹ ꐤꃅ ꃅꆹꈴ ꌠ꒿ꐤ."
+      }
+    }
   }
 }

@@ -7,16 +7,22 @@
     "homeLabel": "Creative Activities hemo",
     "mainNav": "Chefa",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: granda, afabla imaji di te-taso, sunfloro e hundo",
+    "defaultImageAlt": "Creative Activities: grote, vekolanta desegni de ka ili fasas da omno di chike en la vivo, por far e facar",
     "languages": "Linguo",
     "englishOnly": "(Angla)",
     "machineTranslated": "Ica pagino esis tradukita automatale ed ankore ne esis revizita da nativa parolanto.",
     "readOriginal": "Lektez la originalo en la Angla",
     "nav": {
+      "find": "Find an activity",
       "games": "Ludi",
       "activities": "Aktivesi",
       "caregiving": "Flegado",
-      "brainHealth": "Cerebro-saneso"
+      "brainHealth": "Cerebro-saneso",
+      "crafts": "Laboraji",
+      "kids": "Infanti",
+      "together": "Kun altri",
+      "creativeCalm": "Kreativa kieteso",
+      "search": "Serchar"
     },
     "faqTitle": "Demandi e respondi",
     "breadcrumb": "Navigado-filo",
@@ -27,7 +33,32 @@
       "label": "Text-grandeso",
       "smaller": "Normala texto",
       "larger": "Plu granda texto",
-      "contrast": "Plu alta kontrasto"
+      "contrast": "Plu alta kontrasto",
+      "colors": "Kolori",
+      "light": "Hela",
+      "dark": "Obskura",
+      "device": "Sama kom ca aparato",
+      "lineLength": "Longeso di linii",
+      "standardLines": "Normala",
+      "shorterLines": "Plu kurta linii",
+      "spacing": "Spaco",
+      "standardSpacing": "Normala",
+      "moreSpace": "Plu spaco"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 idei por aktivesi",
     "lateStage": "Aktivesi por la tarda fazo",
     "printable": "Printebla aktivesi",
-    "allActivities": "Omna aktivesi",
+    "allActivities": "Omna gidilibri di aktiveso",
     "forCaregivers": "Por fleganti",
     "playTogether": "Quale ludar kune",
     "selfCare": "Prizorgar su ipsa",
@@ -54,24 +85,34 @@
     "app": "La programeto Creative Activities",
     "appHelp": "Helpo pri la programeto",
     "support": "Suporto",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Legala informi",
     "sitePrivacy": "Privateso di la retosituo",
     "appPrivacy": "Privateso-politiko di la programeto",
     "privacyChoices": "Selekti pri privateso",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Kondicioni e licenco di la programeto",
     "safety": "Sekureso e vizata uzo",
     "accessibility": "Acesebleso",
     "healthNotice": "Avizo pri saneso-informi",
     "allLegal": "Omna legala informi",
     "note": "Creative Activities ofras simpla komuna aktivesi por plezuro. Ol ne esas medicinala konsilo, testo o traktado, ed ol nek diagnozas, nek mezuras, nek evaluas ulu. Pri questioni pri saneso, parolez kun mediko. En urjanta kazo, telefonez a 112.",
-    "publisher": "Publikigita da Cloudjet Solutions Pte. Ltd."
+    "publisher": "Publikigita da Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Laboraji por omna etati",
+    "kids": "Aktiveso por infanti",
+    "together": "Aktiveso por far kun altri",
+    "creativeCalm": "Kreativa kieteso",
+    "dementiaActivities": "Aktiveso por personi kun demencio"
   },
   "home": {
-    "title": "Ludi ed aktivesi por demenco ed Alzheimer | Creative Activities",
-    "description": "Senpaga, delikata imaj-ludi por ludar enrete ed idei por aktivesi por personi kun demenco od Alzheimer e lia fleganti. Nula enskribo, tempizili o punti.",
+    "title": "Kreativa aktiveso por ulu ki zorgas pri altri persono",
+    "description": "Gratuita kreativa aktiveso por ulu ki zorgas pri altri persono: laboraji, cozi por infanti, aktiveso por far kun altri e kieta kreativa ideo.",
     "eyebrow": "Senpaga · Sen reklami · Sen enskribo · Sen tempizili o punti",
-    "h1": "Delikata ludi ed aktivesi por personi kun demenco",
-    "lede": "Simpla imaj-ludi, familiara fotografuri, ed aktivesi por juar kune—ye vua propra rapideso.",
+    "h1": "Far ulo kun altri",
+    "lede": "Trovez aktiveso ka convenas al la persono, al la momento e al to ka vu havas. Facila laboraji, arto por infanti, ulo por far kun altri e kieta kreativa ideo, kun plu facila versii e karto por imprimar. Ariventez kad ni volas.",
     "playGame": "Ludez ludo",
     "findIdeas": "Trovez idei por aktivesi",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 idei por aktivesi",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Frua fazo",
         "text": "Durigez facar to quon li amas, kun mikra adapti: pasitempi, eskursi, vorto-ludi e projetar kune.",
         "label": "Idei por la frua fazo"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Meza fazo",
         "text": "Simpla, familiara taski dividita aden pazi: faldar, ordinar, muziko, imaj-ludi e kurta promeni.",
         "label": "Idei por la meza fazo"
@@ -124,10 +165,10 @@
         "label": "Idei por la tarda fazo"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Ka vu serchas ulo specifa? Probez <a href=\"/dementia-activities/\">aktiveso e ludi por Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzli e tablo-ludi</a>, <a href=\"/together/conversation-games-for-all-ages/\">konverso-ludi</a> ka <a href=\"/together/puzzles-and-table-games/\">puzli</a>.",
     "approachEyebrow": "Nia maniero",
-    "approachTitle": "Komuna aktiveso, ne memor-testo",
-    "approachLede": "Multa “cerebro-ludi” esas kreita cirkum rapideso, punti e serii. Por ulu kun demenco to povas semblar kom exameno. Ni kreis la kontreajo.",
+    "approachTitle": "Komuna aktiveso, ne testo",
+    "approachLede": "Multa \"cerebro-ludi\" es konstruita pri rapideso, poentaro e serii. Por persono ki es laceata, malsana o vivas con demencio, to povas sentesar quale examino. Ni konstruis lo kontrauu.",
     "approachLink": "Pro quo ni desegnas ol tale",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Ordinara motivi por refuzar, e delikata manieri por riprobar pose."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Konfigurar tabuleto",
-        "text": "Plu granda texto, min multa interupti ed unika simpla chefa skreno."
+        "href": "/activities/group-art-activities/",
+        "title": "Grupa arto-aktiveso",
+        "text": "Komuna projekti por tablo de pluri personi, kun tasko por chaskun."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Senpaga printebla aktivesi",
-        "text": "Vorto-serchadi kun granda literi, kolorizenda pagini, bingo e konverso-karti."
+        "href": "/activities/ideas/",
+        "title": "101 aktiveso-ideo",
+        "text": "Simpla ideo, klasigata segun to ka vu havas e quanta energio existas."
       }
     ],
     "researchTitle": "Cerebro-saneso: quo la inquesto reale dicas",
@@ -185,16 +226,16 @@
     "aboutApp": "Pri la programeto",
     "faq": [
       {
-        "q": "Quala ludi esas bona por personi kun demenco?",
-        "a": "Bona ludi es simpla, familiara e sen preso: granda imaji por parigar, ordinar, facila puzli, kompletigar konocata proverbi, kolorizar, imajo-bingo e konverso-karti. La maxim bona selekto es to, quon la persono prizas cadie. Evitez temporizili, punti ed irquo qua semblas kom exameno."
+        "q": "Quon es bona ludi por plu matura adulti?",
+        "a": "Bona ludi es simpla, familiara e libera de premo: grandi bildi por agordar, klasigado, facila puzli, finado di konocata dicti, kolorado, bildo-bingo e konverso-karti. Ili konvenas a multa plu matura adulti, inkluzive personi kun demencio. La plu bona elekto es ta ka la persono ioie hodie. Evitez tempilo, poentaro e omno ka sentesas quale testo."
       },
       {
-        "q": "Ka ca ludi por personi kun dementio es gratuita?",
+        "q": "Ka ca ludi es gratuita?",
         "a": "Yes. Omna ludo ed imprimebla folio che Creative Activities es gratuita, sen konto, enskribo o deskargo. La ludi funcionas en la ret-navigilo sur telefono, tabuleto o komputoro."
       },
       {
         "q": "Ka cerbro-ludi preventas dementio?",
-        "a": "Nula ludo montresis preventar dementio, e Creative Activities ne pretendas kuracar o preventar irquo. Nia ludi es por plezuro e komuna tempo. Nia fako pri cerbro-saneso explikas quon inquesti montras e ne montras."
+        "a": "Nula ludo montrigesis preventar demencio, e Creative Activities ne pretendas trakar o preventar ulo. Nia ludi es por ioio e tempo kune, e nula aktiveso-pagino fabrikas sanitara pretendo."
       },
       {
         "q": "Ka ca ludi es apta por persono kun morbo di Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Qua kreas Creative Activities?",
-        "a": "Creative Activities es mikra esquado qua kreas kalma, adulta imajo-aktivesi por familii e fleganti, en la reto e kom gratuita apliko. Ni ne es mediki, e nulo hike es medicinala konsilo."
+        "a": "Creative Activities es mikra teamo ki kreas kieta, adultala kreativa aktiveso por ulu ki zorgas pri altri persono, en la reto e quale gratuita apliko. Ni ne es kliniki, e nulo hike es medicala konsilo."
+      }
+    ],
+    "groupsEyebrow": "Trovez vua vojo",
+    "groupsTitle": "Quar specii di kreativa aktiveso",
+    "groupsLede": "Komencez per la grupo ka konvenas a ti ka vu es kun e to ka vu havas. Chaska pagino havas plu facila versii e sekureso-noti.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Laboraji",
+        "text": "Papero, pigmento, recirkulizita e sezonala projekti, kun plu facila versio por chaskun.",
+        "label": "Video laboraji"
+      },
+      {
+        "href": "/kids/",
+        "title": "Infanti",
+        "text": "Arto e ludo por infanti, kun adulto proxima e klara sekureso-noti.",
+        "label": "Video aktiveso por infanti"
+      },
+      {
+        "href": "/together/",
+        "title": "Kun altri",
+        "text": "Konverso, puzli, ekstera tempo e vei restar proxima trans generaciono.",
+        "label": "Video ulo por far kun altri"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreativa kieteso",
+        "text": "Lenta, kieta kreativa momenti kun pluma, pagino o kanto. Ne terapio.",
+        "label": "Video kreativa kieteso"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Imprimebla",
     "play": "Ludez {name} →",
     "readGuide": "Lektez la guidilo"
+  },
+  "listen": {
+    "listenSteps": "Auskultez la pasi",
+    "pause": "Pauzo",
+    "resume": "Rekomencar",
+    "stop": "Haltar",
+    "speed": "Rapideso",
+    "normal": "Normala",
+    "slower": "Plu lenta",
+    "reading": "Lektas la pasi laute.",
+    "paused": "Pauzita. Premez Rekomencar por durar.",
+    "note": "Uzas la propra voco di vua aparato. Quelka aparati sendas la texto a ilia fabrikanto por ke ol parolu it.",
+    "listen": "Auskultez",
+    "stepLabel": "Auskultez paso {n}",
+    "stopStep": "Haltez paso {n}"
   },
   "playCta": {
     "title": "Ka pronta por dolca ludo?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktivesi",
-      "title": "Aktivesi por personi kun dementio",
-      "seo": "Aktivesi por personi kun dementio: Idei segun fazo",
-      "description": "Idei pri aktivesi por personi qui vivas kun dementio en omna fazo: muziko, rimemorigado, omnadiala taski, sensala momenti, mestieri, exterdomo e gratuita imprimibli.",
-      "lede": "Sencoplena aktiveso es irquo qua adportas konsolo, skopo o momento di ligeso. Komencez per to, quon la persono sempre prizis, ed adaptez ol a cadie."
+      "label": "Aktiveso-gidilibri",
+      "title": "Aktiveso-gidilibri",
+      "seo": "Aktiveso-gidilibri: Ideo, arto-provizaji e vii por komencar",
+      "description": "Klara gidilibri pri kreativa aktiveso ka vu povas far kun ulu: simpla ideo, arto-provizaji a bon prezo, grupa arto, letri, memori e arto-terapio explikata.",
+      "lede": "Mallonga, praktikala gidilibri por elektar e komencar aktiveso kun ulu, quala ilia etato o kapableso es."
+    },
+    "crafts": {
+      "label": "Laboraji",
+      "title": "Laboraji por omna etati",
+      "seo": "Facila laboraji por omna etati, kun plu facila versii",
+      "description": "Facila laboraji por adulti, infanti e familii: papero, kolorado, recirkulizita e sezonala laboraji, kun versii plu facila por tenar e sidanta, sen specala kapableso.",
+      "lede": "Laboraji ka komencas de to ka plo multa hemi jam havas, chaskun kun plu facila versio, tale ke omno povas krear ula."
+    },
+    "kids": {
+      "label": "Infanti",
+      "title": "Kreativa aktiveso por infanti",
+      "seo": "Kreativa aktiveso por infanti: arto, sensala e kieta",
+      "description": "Kreativa aktiveso por infanti: arto por mikra infanti, procesa arto, sensala ludo, laboraji por pluvoza tempo e kieta ideo, kun sekureso-noti e versii por sensala bezoni.",
+      "lede": "Arto- e ludo-ideo por infanti de diferanta eti e bezoni, kun klara sekureso-noti e adulto proxima."
+    },
+    "together": {
+      "label": "Kun altri",
+      "title": "Aktiveso por far kun altri",
+      "seo": "Aktiveso por far kun altri, trans generaciono",
+      "description": "Aktiveso por du o plu generaciono: konverso-ludi, puzli, ekstera tempo, laboraji por avi e nepoti, e vei restar proxima de for.",
+      "lede": "Ideo por partigar tempo kun patro, avo, infanto o amiko, hejme, ekstere, dum vizito o de for."
+    },
+    "creative-calm": {
+      "label": "Kreativa kieteso",
+      "title": "Kreativa kieteso",
+      "seo": "Kreativa kieteso: relaxanta arto e aktiveso por ripozar",
+      "description": "Relaxanta kreativa aktiveso por adulti e zorgisti: atenta arto, diario, muziko, sensala momenti e kieta posmanji. Kreativa aktiveso, ne terapio.",
+      "lede": "Delikata vii por lentigar con pluma, pagino o kanto. To es kreativa aktiveso, ne terapio, e ol postulas nula kapableso."
     },
     "caregiving": {
-      "label": "Flegado",
-      "title": "Guidili pri flegado",
-      "seo": "Guidili pri dementio-flegado: Praktika omnadiala helpo",
-      "description": "Praktika, afabla guidili por fleganti di personi kun dementio: ludar kune, komunikado, refuzi, vespera trublo, tabuleti, selektar apliki e su-flegado.",
-      "lede": "Simpla, praktika helpo por la omnadiala momenti di flegar ulu qua vivas kun dementio, inkluzite flegar vu ipsa."
+      "label": "Demenzo-prizorgo",
+      "title": "Prizorgar persono kun demenco",
+      "seo": "Prizorgar persono kun demenco: agadi e helpo",
+      "description": "Gidi por familii, quo prizorgas persono kun demenco: kualmaniere juar kune, quo far kande oli dicas ne, e kua trovar fidinda helpo pos diagnozo.",
+      "lede": "Agadi-unesma helpo por familii, quo prizorgas persono kun demenco, e kua turnar por medicinala e prizorgala konsilo."
     },
     "brain-health": {
       "label": "Cerbro-saneso",
@@ -283,7 +396,16 @@
     "tryTogether": "Provez kune",
     "relatedGuides": "Relatanta guidili",
     "related": "Relatanta",
-    "startHere": "Komencez hike"
+    "startHere": "Komencez hike",
+    "staleAria": "Traduko es ne aktuala",
+    "staleTitle": "Ca traduko es ne aktuala",
+    "staleText": "Ol faris de plua frua versiono di la angla pagino, qua posteye chanjis. La angla pagino es la aktuala.",
+    "staleHealth": "Ol donas sanitala informo, do kontrolez la angla pagino e demandez doktoro o infermiero ante ke agar segun ol.",
+    "staleLink": "Lektez la aktuala angla pagino"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Avizo pri sanesal informi",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Komuna aktiveso, ne memor-exameno",
+      "title": "Komuna agado, ne testo",
       "seoTitle": "Pri Creative Activities: Nia maniero",
-      "description": "Pro quo la ludi di Creative Activities ne havas temporizili, punti o sucedi, pro quo imaji restas videbla, e quon ni asertos e ne asertos pri dementio.",
+      "description": "Pro quo Creative Activities havas nula cronometri, punti o serii, pro quo imaji restas montrata, e quo ni ne asertos pri sanitado.",
       "crumb": "Nia maniero",
-      "lede": "Creative Activities kreas kalma, adulta imajo-aktivesi quin fleganto ed ulu vivanta kun dementio povas prizar kune, flanko apud flanko.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsori e partneri",
+        "none": "Creative Activities havas nula sponsori, nula pagata loko e nula partneri qui logotipi aparas en la situo.",
+        "listed": "Quar esas la sponsori e partneri di Creative Activities. Each relo es anke deklarata en la pagino ube ol aparas.",
+        "policy": "Se to chanjas, each tala pagino dicos to ube ol aparas, nula agado iam portos sponsoro, e la listo di partneri standos en ca pagino.",
+        "listHeading": "Listo di partneri",
+        "noPartners": "Ni havas nula partneri en la nuna tempo."
+      },
+      "lede": "Creative Activities kreas kvieta, adulta agadi qui du personi povas juar kust-kust, ca ke unu prizorgas la altra o simple volas pasar tempo kune.",
+      "bodyHtml": "<h2>Por qui it es</h2><p>Por omnu qui prizorgas nulu: patro o matro, avo, infanto, partnero, amiko o persono kun demenco. Familii, pluaga homi e agado-personalo povas omnu uzar la sama pagini.</p><h2>Quo ni kredas</h2><p>La punto di agado es la momento mem: konverso, rido, la kontenteso di metar du imaji en pari, o simple sidar pruxime. Ol ne es por mezurar ulu, puxar lu plu o pruvar ulo.</p><p>Multa cerebro-trenala programi es desegnita kun rapideso, punti, serii e niveli. Por persono qua es lasa, malsana o vivas kun demenco, to povas semblar quale examen qui lu ne povas pasar. Ni desegnis la kontrauo e tenas nos a ca reguli:</p><ul><li><strong>Nulo por falar.</strong> Nula horloj, punti, movo-kontori, vivi, serii, konfeti o retrokontado, sur irgana ekrano.</li><li><strong>Rekonar pli quam rememorar.</strong> Imaji restas montrata standarde. Indiki invitas konverso e ne demandas nomi o memori.</li><li><strong>Grandi, klara e stabila.</strong> Granda texto e imaji, forta kontrasto, e kontroli qui restas en la sama loko.</li><li><strong>Adulta dignitato.</strong> Imaji de reala mondo e klara, kalda vorti. Nula karikaturi, kantanta lauxo o emoji-rekompenso.</li><li><strong>Facila eskapo.</strong> \"Finita por nun\" es sempre videbla. Ceso a mezo es bona rezultato.</li><li><strong>Privata standarde.</strong> Nula konti e nula reklami. Fotografii quo vu elektas restas en via aparato.</li></ul><h2>Quo ni ne asertas</h2><p>Nia ludi e agadi es por ganar gaudo e kontaktado. Ol ne diagnozas, testas, mezuras, traktas, malrapidigas o prevenas demenco o Alzheimer-malado, e nulu devas elektar ilu pro ca kauzo. Kande ni skribas pri sanitala esploro, ni klare dicas ube la evidento es fébla, e ni nikam kompilas ol kun nia propra agadi.</p><h2>Qui ni es</h2><p>Creative Activities es mikra independanta teamo. Ni ne es kuracisti. Nia gidi es skribita de publikigita konsilo de organizi quale National Institute on Aging e Alzheimer's Association, e omna gido listigas sua fonti. Lektez <a href=\"/editorial-policy/\">kome ni skribas e kontrolas nia pagini</a>.</p><h2>Dicez a ni quo helpus</h2><p>Ni volus audar quo funkcionas por vu e quo ne funkcionas, precipe de personi kun demenco, familiala prizorgisti e agado-personalo. Skribez a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Quale ni skribas e kontrolas nia pagini",
       "seoTitle": "Redaktala politiko",
-      "description": "Quale Creative Activities exploras, skribas, dokumentizas e novigas sua pagini pri agivesi por dementio e pri cerebra saneso, e quon ni nultempe publikigos.",
+      "description": "Kome Creative Activities esploras, skribas, fontas e aktualigas sua agado- e sanitala pagini, e quo ni nikam publikigos.",
       "crumb": "Redaktala politiko",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Questioni e respondi",
-      "seoTitle": "Ludi ed agivesi por dementio: questioni e respondi",
-      "description": "Respondi a frequa questioni pri ludi ed agivesi por personi kun dementio: quin ludi probar, quante longe ludar, idei por plu tarda fazi, cerebra saneso e privateso.",
+      "seoTitle": "Demandi e respondi pri Creative Activities",
+      "description": "Respondi a komuna demandi pri ludi e agadi: quo probar, quant longe ludar, grupi e ideo por pluposta stadii, sanitado e privateso.",
       "crumb": "Questioni e respondi",
       "lede": "Kurta, simpla respondi a la questioni quin fleganti maxim ofte demandas.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Pri la ludi",
           "items": [
             {
-              "q": "Qua ludi esas la maxim bona por persono vivanta kun dementio?",
+              "q": "Quo es la maxim bona ludi por pluaga homi?",
               "a": "La maxim bona ludi esas familiara, simpla e sen preso, e la justa ludo esas irgo quon la persono prizas cadie. Akordigo di videbla imaji, klasifiko, facila puzli, kompletigo di familiara proverbi, kolorizo e bingo di imaji funcionas bone por multa personi. Evitez temporizili, punti ed irgo quo semblas kom exameno."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Saneso di la cerebro",
+          "title": "Demenco e sanitado",
           "items": [
             {
               "q": "Ka ludi povas preventar o desrapidigar dementio?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Plua detali: <a href=\"/caregiving/how-to-play-together/\">kualmaniere juar kune</a>, <a href=\"/caregiving/when-they-say-no/\">kande lu dicas ne</a>, <a href=\"/activities/late-stage/\">agadi por pluposta stadii</a> e <a href=\"/dementia-activities/\">demenco-agadi en hemo</a>."
     },
     "handout": {
       "title": "Senpaga, Milda Ludi por Personi qui Vivas kun Dementio",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Por Flegeyi, Biblioteki e Suporto-grupi",
-      "seoTitle": "Senkosta aktivesi pri dementio por flegeyi e grupi",
-      "description": "Quale flegeyi, diala programi por adulti, biblioteki, agenterii pri evo e suporto-grupi uzas nia senkosta ludi pri dementio, ultre texto por adjuntar ni a resursolisto.",
+      "seoTitle": "Gratuita agadi por prizorgo-domi, biblioteki e grupi",
+      "description": "Kualmaniere prizorgo-domi, quotidiana programi por adulti, biblioteki, agenti por pluaga homi e sustenogrupi uzas nia gratuita ludi e agado-gidi, plus texto por aldonar nus a resurso-listo.",
       "crumb": "Por organizuri",
       "lede": "Omno sur ca situo esas senkoste uzebla kun rezidanti, membri e klienti, sen konto, licenco o pago. Ca pagino explikas quo trovesas hike e quale partigar ol.",
-      "shortText": "{name}: senkosta, dolca imajoludi e guidolibri pri aktivesi por personi qui vivas kun dementio e lia fleganti. Nula registrago, nula horlojo, nula punti.",
-      "longText": "{name} ({domain}) ofras {count} senkosta retnavigila ludi kreita por personi qui vivas kun dementio, inkluzante parigado di imaji kun imaji sempre videbla, facila puzlo, klasifikado, konocata proverbi e bingo di imaji kun imprimabla karti. Ne existas konto, reklami, horlojo o punti. La situo anke havas simpla guidolibri pri aktivesi por singla stando di dementio, qui citas la National Institute on Aging e la Alzheimer's Association.",
+      "shortText": "{name}: gratuita, kvieta imaj-ludi e agado-gidi por pluaga homi, familii e persono kun demenco. Nula registro, nula cronometri, nula punti.",
+      "longText": "{name} ({domain}) ofera {count} liberala browsera ludi por personi de matureca eta, familii e personi quin vivas con demencio, inkluzive pari-kartoni kun bildi videbla, facila puzlo, klasifikado, familiara dicturi e bildo-bingo kun imprimebla kartoni. Ne esas konto, reklamo, tempimilo ni poentaro. La situo ankoraue havas simpla-linguala aktiveso-gidi por familii, maturaj personi e personali, kun fonti quale National Institute on Aging e Alzheimer's Association.",
       "useTitle": "Quon organizuri povas uzar",
       "gamesItemHtml": "<strong>{count} retnavigila ludi</strong> qui funcionas sur portebla komputoro, tabuleto o televiziono konektita a komputoro. Nula instaluro, konto o deskarguro. Videz <a href=\"/games/\">omna ludi</a>.",
       "printablesLabel": "{count} imprimaji:",
       "printablesAfter": "Uzez la butono Imprimez sur singla pagino.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Grupaj formi:</strong> <a href=\"/games/picture-bingo/\">Bildo-bingo</a> havas imprimebla kartoni e vidbla kriero, e <a href=\"/together/conversation-games-for-all-ages/\">konverstadludi</a> havas questioni kun respondo-selekti e punti por parolar.</li><li><strong>Aktiveso-gidi</strong> por personali e familii, skribita per simpla lingvo kun fonti. Komencez per <a href=\"/activities/ideas/\">101 aktivesi-ideo</a> o <a href=\"/crafts/craft-group-sessions/\">grupa aktivesi por zorgodomi</a>.</li>",
       "restHtml": "<h2>Quale grupi uzas ol</h2><ul><li><strong>Flegeyi e memoro-flegado:</strong> imajo-bingo o kompletez-la-proverbo sur la televiziono en la komuna chambro, kun un persono qua kliktas por la grupo.</li><li><strong>Diala programi por adulti:</strong> tabuleto-staciono kun Pari de imaji ajustita a quar teguli, por kurta sesioni inter du personi.</li><li><strong>Publika biblioteki:</strong> imprimita vortoserchadi e konversokarti en memorosaketi, e la situo markizita en la tabuleti di la biblioteko.</li><li><strong>Suporto-grupi por fleganti e memoro-kafeerii:</strong> <a href=\"/handout/\">unpaginala imprimabla foyo</a> quan familii povas kunportar aheme.</li><li><strong>Hospitali e koordineri por departo:</strong> la foyo en flegala pacheti, por tranquiligiva aktiveso aheme o che la lito.</li></ul><h2>Quon ni ne facas</h2><p>La ludi esas por plezuro e komuna tempo. Li ne diagnozas, probas, gradizas, kuracas o lentigas dementio, e ni pregas organizuri ne deskriptar li tale. Ne existas reklami, e la ludi ne demandas nomi, sanesala informi od uploadar fotografuri. La retosituo uzas Google Analytics por kontar viziti; nia <a href=\"/privacy/\">avizo pri privateso</a> explikas quo esas kolektata. Fotografuri uzata en <a href=\"/games/photo-pairs/\">Foto-pari</a> restas en la retnavigilo.</p><h2>Adjuntez ni a vua resursolisto</h2><p>Se vu mantenas listo de resursi por fleganti, vu esas volunte invitata ligar a <a href=\"/\">{domain}</a>. Vu povas kopiar irga de la du deskripti.</p>",
       "shortTitle": "Kurta deskripto",
       "longTitle": "Plu longa deskripto",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Utila pagini por ligar direkte: <a href=\"/games/\">liberala ludi</a>, <a href=\"/games/\">liberala imprimebli</a>, <a href=\"/dementia-activities/\">demencio-aktiveso hejme</a> e <a href=\"/caregiving/how-to-play-together/\">kike ludar kune</a>.</p><h2>Questioni o korekti</h2><p>Se ulo en la situo esas falsa o malklara, o se la bezono di ulo habitanto ne esas plenumata da tio qui esas hike, bonvolu informar nus che <a href=\"mailto:{email}\">{email}</a>. Bonvolu ne sendar personala o sanitara informi pri habitanti o klienti.</p>"
     },
     "app": {
       "title": "L'aplikajo Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Senkosta Enretala Ludi por Demencio ed Alzheimer",
-    "description": "Senkosta enretala ludi por anziani qui vivas kun demencio o la morbo di Alzheimer: imajopari, facila puzli, klasifiko, proverbio-kompletigo, kolorizo, bingo. Nula enrejistrado, tempizili o punti.",
+    "title": "Liberala ludi por kike ludar en interreto",
+    "description": "Liberala interretaj ludi por personi de matureca eta, familii e personi quin vivas con demencio: pari-kartoni por bildi, facila puzli, klasifikado, dicturi, kolorizado e bingo. Sen registro, tempimili o poenti.",
     "crumb": "Ludi",
-    "h1": "Dolca Ludi por Personi kun Demencio",
+    "h1": "Milda ludi por ludar kune",
     "lede": "{count} senkosta ludi por ludar kune en vua navigilo. Granda imaji, simpla vorti, e nulo falienda: nula tempizili, nula punti, nula enrejistrado.",
-    "listName": "Dolca ludi por personi kun demencio",
+    "listName": "Milda ludi por ludar kune",
     "byStageTitle": "Selektar ludo segun la stadio",
     "byStageLede": "La stadii esas nur proxima guidilo. Sequez to, quon la persono prizas e quo semblas komfortoza cadie.",
     "stageCol": "Stadio",
     "gamesCol": "Ludi qui ofte konvenas",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Plu ideo ekstere di la ekrano: <a href=\"/activities/ideas/\">101 aktivesi-ideo</a>, <a href=\"/dementia-activities/\">demencio-aktiveso hejme</a> e <a href=\"/crafts/\">kraftaji</a>.",
     "faq": [
       {
         "q": "Per qua ludo ni devus komencar?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Ka ca ludi esas memoroludi por anziani?",
-        "a": "Li esas paro- e imajoludi quin irga plu olda adulto povas prizar, ma li esas kreita por ne evaluar memoro: en Imajopari l'imaji restas videbla ecekte se vu selektas celar li. Nia guidilo pri memoroludi por anziani kun demencio explikas quale mantenar irga memoroludo dolca."
+        "a": "Oli esas pari- e bildo-ludi quin ulo maturi persono povas gaudar, ma oli esas konstruita por ne testar memorio: en Bildo-pari la bildi restas supre-videbla til vu elektas altre. Irga memor-ludo povas fariar milda per omisar la tempimilo e la poenti."
       },
       {
         "q": "Ka existas ludi por grupi en flegodomo?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Ka existas agado-aplikajo por demencio?",
+        "q": "Ka esas apliko por maturaj personi e familii?",
         "a": "Yes. Creative Activities (listata kom \"{storeName}\") esas senkosta che App Store e Google Play. Ol ofras dolca imajopari kun granda kareli, ludi kun familiala fotografuri quin vu selektas, ed imajopaki qui funcionas seninterrete."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Imprimebla",
     "howTo": "Quale ludar {name}",
     "tips": "Konsili por ludar kune",
-    "newToPlayingHtml": "Ka vu unesmafoye ludas kun persono qua vivas kun demenco? Lektiez <a href=\"/caregiving/how-to-play-together/\">quale ludar ludi kune</a>, inkluzite quon facar se lu perdas intereso.",
+    "newToPlayingHtml": "Nova pri ludar kun matura persono o persono quin vivas con demencio? Lektez <a href=\"/caregiving/how-to-play-together/\">kom ludar ludi kune</a>, inkluzive quo facar se li perdas intereso.",
     "moreAria": "Pluso por explorar",
     "helpfulGuides": "Utila guidili",
     "appTitle": "Ludez ol en la apliko",
@@ -536,6 +666,35 @@
     "goodToKnow": "Bona savar",
     "goodToKnowText": "Ca ludo esas por plezuro e komuna tempo. Ol ne probas, mezuras o traktas irquo.",
     "moreGames": "Plura tranquila ludi",
-    "crumb": "Ludi"
+    "crumb": "Ludi",
+    "print": {
+      "heading": "Ludar sur papiro",
+      "sameRules": "La papiro-versio havas la sama reguli quam la ludo sur ekrano:",
+      "button": "Imprimar papiro-version",
+      "pageNote": "Unu pagino sur A4 o US Letter, bone en nigra e bianka. Versio {date}.",
+      "islandNote": "It imprimas quo esas sur la ekrano nun. Versio {date}.",
+      "sheetTitle": "{name}: papiro-versio",
+      "point": "Sur papiro, indikez a bildo anstate tushar ol, o cirkulez ol per penso. Each vico esas nova aro.",
+      "pointTarget": "Sur papiro, la bildo por regardar esas en la kesto ye la komenco di each vico. Indikez a bildo anstate tushar ol, o cirkulez ol per penso.",
+      "halves": "Each bildo esas tranchita en la medio. Tiru linio de each duon sur la maldekstra al la duono sur la dekstra quu adaptas, o indikez per fingro. Nulo bezonas tranchar.",
+      "grid": "Each kvadrato havas numero. Trovez ta numero en la klavo, e kolorizez la kvadrato per pencilo de ta koloro. Irga altra koloro esas ankoraue bona. Nulo bezonas tranchar.",
+      "colors": "Each vico nomas koloro. Indikez a each bildo quu esas ta koloro, o cirkulez ol per penso. Each vico esas nova aro.",
+      "dice": "Each vico esas aro di dadi. Elektez vico, o tranchez la bildi e tiru kelkaji de stapo, e poste rakontez historio per oli en irga ordo. Irgu povas pasar.",
+      "words": "Tranchez la vorti, o tiru linio de each vorto ad ilua bildo. Legez la vorti laute dum ke vu progresas.",
+      "cards": "Tranchez la kartoni laŭ la strichita linii. Metez oli supre-videbla sur la tablo, e poste trovez la pari.",
+      "chain": "Sur papiro, legez la bildi de maldekstra ad dekstra, unu post la altra. Each persono dicas unu frazo pri la bildi til nun, e poste indikas la sequanta bildo. Irgu povas pasar.",
+      "sort": "Tranchez la bildi laŭ la strichita linii, e poste metez each en la kesto ube ol apartenas.",
+      "puzzle": "Tranchez la granda bildo laŭ la strichita linii en quar pecaji e miksez oli. Intershanjez du pecaji per foyo til la bildo esas kompleta. La mikra bildo esas guido.",
+      "cutSafety": "Helpanto povas tranchar antea ke vu komencas. Metez la tranchilo for pose.",
+      "version": "Versio {date} · {url}",
+      "reasons": {
+        "photos": "Ne esas papiro-versio. Ca ludo uzas vua propra fotaji, quin restas en vua browsero e nikam esas kargita supre, do la situo ne povas imprimar oli. Por ludar sur papiro, imprimez du kopii de kelka favorita fotaji hejme e pariigez oli sur la tablo.",
+        "paced": "Ne esas papiro-versio. La cirklo fixas lenta, stabila ritmo sur la ekrano, e presita pagino ne povas tala, do it esus altra aktiveso. Kieta pauzo kune sen ekrano esas ankoraue ulo opsionala.",
+        "turns": "Ne esas papiro-versio di ca ludo. Por trovar pari sur la tablo, imprimez la bildo-kartoni de Bildo-pari e turnez oli, po unu post la altra.",
+        "screen": "Ce ne esas paper-versione. It esas bildo por regardar kune sur ekrano; ca favorita foto o karto sur la tablo facas la sama.",
+        "wash": "Ne esas paper-versione. Akvarelo sur papero esas la sama ideo: humida pinsilo e unu koloro dum foye.",
+        "sayings": "Ne esas paper-versione ankore. Sur papero omna fini montrus ye la sama tempo, e la delikata paso \"Montrez la fino\" perdus. Lektez la proverbi kune de l'ekrano, o partigez kelkaji quin vi du konas."
+      }
+    }
   }
 }

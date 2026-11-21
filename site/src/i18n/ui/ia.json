@@ -7,16 +7,22 @@
     "homeLabel": "Pagina initial de Creative Activities",
     "mainNav": "Principal",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: grande e amical imagines de un tassa de the, un heliantho e un cane",
+    "defaultImageAlt": "Creative Activities: grandi disegnos amical de cosas quotidian pro facer e facer con altros",
     "languages": "Lingua",
     "englishOnly": "(Anglese)",
     "machineTranslated": "Iste pagina esseva traducite automaticamente e non ha essite ancora revidite per un persona experte.",
     "readOriginal": "Leger le original in anglese",
     "nav": {
+      "find": "Find an activity",
       "games": "Jocos",
       "activities": "Activitates",
       "caregiving": "Cura e supporto",
-      "brainHealth": "Sanitate cerebral"
+      "brainHealth": "Sanitate cerebral",
+      "crafts": "Artesanatos",
+      "kids": "Ninos",
+      "together": "Junctos",
+      "creativeCalm": "Calma creative",
+      "search": "Cercar"
     },
     "faqTitle": "Questiones e responsas",
     "breadcrumb": "Filo de navigation",
@@ -27,7 +33,32 @@
       "label": "Dimension del texto",
       "smaller": "Texto standard",
       "larger": "Texto plus grande",
-      "contrast": "Plus alte contrasto"
+      "contrast": "Plus alte contrasto",
+      "colors": "Colores",
+      "light": "Clar",
+      "dark": "Obscur",
+      "device": "Como iste dispositivo",
+      "lineLength": "Longitude del lineas",
+      "standardLines": "Standard",
+      "shorterLines": "Lineas plus curte",
+      "spacing": "Spatiamento",
+      "standardSpacing": "Standard",
+      "moreSpace": "Plus spatio"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 ideas de activitates",
     "lateStage": "Activitates pro le phase avantiate",
     "printable": "Activitates imprimibile",
-    "allActivities": "Tote le activitates",
+    "allActivities": "Tote le guidas de activitates",
     "forCaregivers": "Pro prestantes de cura",
     "playTogether": "Como jocar insimul",
     "selfCare": "Prender cura de se mesme",
@@ -54,24 +85,34 @@
     "app": "Le application Creative Activities",
     "appHelp": "Adjuta pro le application",
     "support": "Supporto",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Informationes legal",
     "sitePrivacy": "Confidentialitate del sito",
     "appPrivacy": "Politica de confidentialitate del application",
     "privacyChoices": "Optiones de confidentialitate",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Terminos e licentia del application",
     "safety": "Securitate e uso previste",
     "accessibility": "Accessibilitate",
     "healthNotice": "Aviso sur le informationes de sanitate",
     "allLegal": "Tote le informationes legal",
     "note": "Creative Activities offere simple activitates compartite pro le placer. Illo non es consilio medical, un test o un tractamento, e illo non diagnostica, mesura ni evaluta necuno. Pro questiones de sanitate, consulta un medico. In un emergentia, appella le 112.",
-    "publisher": "Published by Cloudjet Solutions Pte. Ltd."
+    "publisher": "Published by Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Artesanatos pro tote etates",
+    "kids": "Activitates pro ninos",
+    "together": "Activitates pro facer junctos",
+    "creativeCalm": "Calma creative",
+    "dementiaActivities": "Activitates pro personas con dementia"
   },
   "home": {
-    "title": "Jocos e activitates pro personas con dementia e Alzheimer | Creative Activities",
-    "description": "Jocos de imagines placide e gratuite pro jocar in linea, e ideas de activitates pro personas con dementia o Alzheimer e lor prestantes de cura. Sin inscription, chronometros ni punctos.",
+    "title": "Activitates creative pro qualcunque que se occupa de un altere",
+    "description": "Activitates creative gratuite pro qualcunque que se occupa de un altere: artesanatos, cosas pro ninos, activitates pro facer junctos e ideas creative calme.",
     "eyebrow": "Gratuite · Sin publicitate · Sin inscription · Sin chronometros ni punctos",
-    "h1": "Jocos e activitates placide pro personas con dementia",
-    "lede": "Simple jocos de imagines, photos familiar e activitates pro fruer insimul — a vostre proprie rhythmo.",
+    "h1": "Face qualcosa junctos",
+    "lede": "Trova un activitate que convene al persona, al momento e a lo que tu ha. Artesanatos facile, arte pro ninos, cosas pro facer junctos e ideas creative calme, con versiones plus facile e un carta pro imprimer. Arresta quando tu vole.",
     "playGame": "Jocar un joco",
     "findIdeas": "Trovar ideas de activitates",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 ideas de activitates",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Phase initial",
         "text": "Continua con le activitates que le persona ama, con parve adjustamentos: passatempos, excursiones, jocos de parolas e planificar insimul.",
         "label": "Ideas pro le phase initial"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Phase medie",
         "text": "Cargas simple e familiar dividite in passos: plicar, ordinar, musica, jocos de imagines e promenadas curte.",
         "label": "Ideas pro le phase medie"
@@ -124,10 +165,10 @@
         "label": "Ideas pro le phase avantiate"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Cerca alco specific? Proba <a href=\"/dementia-activities/\">activitates e jocos pro Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles e jocos de tabula</a>, <a href=\"/together/conversation-games-for-all-ages/\">jocos de conversation</a> o <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
     "approachEyebrow": "Nostre approche",
-    "approachTitle": "Un activitate compartite, non un test de memoria",
-    "approachLede": "Multe «jocos cerebral» es construite circa velocitate, punctos e series de victorias. Pro un persona qui vive con dementia, isto pote parer un examine. Nos ha construite le contrario.",
+    "approachTitle": "Un activitate commun, non un test",
+    "approachLede": "Multe \"jocos pro le cerebro\" es construite sur velocitate, punctos e series. Pro un persona que es fatigate, malade o vive con dementia, isto pote sentir se como un examine. Nos ha construite le contrario.",
     "approachLink": "Proque nos lo designa assi",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Motivos commun pro refusar, e manieras dulce de tentar de novo plus tarde."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Configurar un tabulietta",
-        "text": "Texto plus grande, minus interruptiones e un sol schermo initial simple."
+        "href": "/activities/group-art-activities/",
+        "title": "Activitates de arte in gruppo",
+        "text": "Projectos commun pro un tabula de plure personas, con un function pro cata persona."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Activitates imprimibile gratuite",
-        "text": "Cerca de parolas in grande characteres, paginas pro colorar, bingo e cartas de conversation."
+        "href": "/activities/ideas/",
+        "title": "101 ideas de activitates",
+        "text": "Ideas simple, ordinate secundo lo que tu ha e quanto energia il existe."
       }
     ],
     "researchTitle": "Sanitate cerebral: lo que le recerca dice realmente",
@@ -185,16 +226,16 @@
     "aboutApp": "A proposito del application",
     "faq": [
       {
-        "q": "Qual jocos es bon pro personas con dementia?",
-        "a": "Le bon jocos es simple, familiar e sin pression: grande imagines a associar, assortimento, facile puzzles, completar proverbios ben cognoscite, colorar, bingo de imagines e cartas de conversation. Le melior election es lo que le persona apprecia hodie. Evita chronometros, punctos e toto lo que pare un examine."
+        "q": "Quales son bon jocos pro adultos plus etate?",
+        "a": "Bon jocos es simple, familiar e sin pression: grande imagines pro associar, classificar, puzzles facile, completar dictos ben cognoscite, colorar, bingo con imagines e cartas de conversation. Illes convene a multe adultos plus etate, includite personas que vive con dementia. Le melior election es le que le persona apprecia hodie. Evita cronometros, punctos e cosas que pare un test."
       },
       {
-        "q": "Es iste jocos pro personas con dementia gratuite?",
+        "q": "Es iste jocos gratuite?",
         "a": "Si. Cata joco e material imprimibile in Creative Activities es gratuite, sin conto, inscription o discargamento. Le jocos functiona in le navigator web de un telephono, un tabletta o un computator."
       },
       {
         "q": "Pote le jocos cerebral prevenir le dementia?",
-        "a": "Nulle joco ha demonstrate prevenir le dementia, e Creative Activities non pretende tractar ni prevenir nihil. Nostre jocos es pro placer e tempore passate insimul. Nostre section sur le sanitate cerebral explica lo que le recerca monstra e non monstra."
+        "a": "Nulle joco ha essite demonstrate prevenir dementia, e Creative Activities non pretende tractar o prevenir alcun cosa. Nostre jocos es pro divertimento e tempore passate junctos, e nulle pagina de activitates face un declaration de salute."
       },
       {
         "q": "Es iste jocos apte pro un persona con Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Qui crea Creative Activities?",
-        "a": "Creative Activities es un parve equipa que crea calme activitates con imagines pro adultos, concipite pro familias e curatores, sur le web e como un application gratuite. Nos non es clinicos, e nihil hic es consilio medical."
+        "a": "Creative Activities es un parve equipa que crea activitates creative calme pro adultos pro qualcunque que se occupa de un altere, sur le web e como un app gratuite. Nos non es clinicos, e nihil hic es consilio medic."
+      }
+    ],
+    "groupsEyebrow": "Trova tu via",
+    "groupsTitle": "Quatro typos de activitate creative",
+    "groupsLede": "Comencia con le gruppo que convene a con quien tu es e a lo que tu ha. Cata pagina ha versiones plus facile e notas de securitate.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Artesanatos",
+        "text": "Projectos de papiro, pintura, material recyclate e stagional, con un version plus facile pro cata un.",
+        "label": "Explorar artesanatos"
+      },
+      {
+        "href": "/kids/",
+        "title": "Ninos",
+        "text": "Arte e joco pro ninos, con un adulto presente e notas de securitate clar.",
+        "label": "Explorar activitates pro ninos"
+      },
+      {
+        "href": "/together/",
+        "title": "Junctos",
+        "text": "Conversation, puzzles, tempore al aere libere e modos de restar vicin across generationes.",
+        "label": "Explorar cosas pro facer junctos"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calma creative",
+        "text": "Momentos creative lente e silentiose con un lapis, un pagina o un canto. Non es terapia.",
+        "label": "Explorar calma creative"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Imprimibile",
     "play": "Jocar {name} →",
     "readGuide": "Leger le guida"
+  },
+  "listen": {
+    "listenSteps": "Ascultar le passos",
+    "pause": "Pausa",
+    "resume": "Continuar",
+    "stop": "Arrestar",
+    "speed": "Velocitate",
+    "normal": "Normal",
+    "slower": "Plus lente",
+    "reading": "Legente le passos a voce alte.",
+    "paused": "In pausa. Preme Continuar pro proseguer.",
+    "note": "Usa le voce proprie de tu dispositivo. Alcun dispositivos envia le texto a lor fabricante pro lo parlar.",
+    "listen": "Ascultar",
+    "stepLabel": "Ascultar passo {n}",
+    "stopStep": "Arrestar passo {n}"
   },
   "playCta": {
     "title": "Preste pro un joco tranquille?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Activitates",
-      "title": "Activitates pro personas con dementia",
-      "seo": "Activitates pro personas con dementia: ideas per stadio",
-      "description": "Ideas de activitates pro personas qui vive con dementia a cata stadio: musica, reminiscentia, cargas quotidian, momentos sensorial, artesanias, aere libere e materiales imprimibile gratuite.",
-      "lede": "Un activitate significative es toto lo que apporta conforto, senso o un momento de connexion. Comencia con lo que le persona ha semper appreciate, e adapta lo a hodie."
+      "label": "Guidas de activitates",
+      "title": "Guidas de activitates",
+      "seo": "Guidas de activitates: ideas, materiales de arte e modos de comenciar",
+      "description": "Guidas simple pro activitates creative que tu pote facer con un persona: ideas simple, materiales de arte economic, arte in gruppo, litteras, memorias e explication de arte-terapia.",
+      "lede": "Guidas breve e practic pro seliger e comenciar un activitate con un persona, qualcunque sia su etate o capacitate."
+    },
+    "crafts": {
+      "label": "Artesanatos",
+      "title": "Artesanatos pro tote etates",
+      "seo": "Artesanatos facile pro tote etates, con versiones plus facile",
+      "description": "Artesanatos facile pro adultos, ninos e familias: papiro, colorar, material recyclate e artesanatos stagional, con versiones plus facile de tener e sedite.",
+      "lede": "Artesanatos que comencia con lo que le major parte del casas ja ha, cata un con un version plus facile, pro que qualcunque pote facer alco."
+    },
+    "kids": {
+      "label": "Ninos",
+      "title": "Activitates creative pro ninos",
+      "seo": "Activitates creative pro ninos: arte, sensorial e calma",
+      "description": "Activitates creative pro ninos: arte pro infantes, arte de processo, joco sensorial, artesanatos pro dies pluvial e ideas pro calmar se, con notas de securitate e versiones pro necessitates sensorial.",
+      "lede": "Ideas de arte e joco pro ninos de differente etates e necessitates, con notas de securitate clar e un adulto presente."
+    },
+    "together": {
+      "label": "Junctos",
+      "title": "Activitates pro facer junctos",
+      "seo": "Activitates pro facer junctos, across generationes",
+      "description": "Activitates pro duo o plus generationes: jocos de conversation, puzzles, tempore al aere libere, artesanatos pro avos e nepotes, e modos de restar vicin de longe.",
+      "lede": "Ideas pro compartir tempore con un parente, avo, infante o amico, a casa, al aere libere, durante un visita o de longe."
+    },
+    "creative-calm": {
+      "label": "Calma creative",
+      "title": "Calma creative",
+      "seo": "Calma creative: arte e activitates relaxante pro dissolver tension",
+      "description": "Activitates creative relaxante pro adultos e persona que se occupa de altere: arte attentive, diario, musica, momentos sensorial e tardes calme. Activitate creative, non terapia.",
+      "lede": "Modos delicate de ralentar con un lapis, un pagina o un canto. Isto es activitates creative, non terapia, e illes require nulle capacitate special."
     },
     "caregiving": {
-      "label": "Cura e assistentia",
-      "title": "Guidas pro curatores",
-      "seo": "Guidas de cura pro dementia: adjuta practic pro le vita de cata die",
-      "description": "Guidas practic e compassionate pro curatores de personas con dementia: jocar insimul, communication, refusos, agitation al fin del die, tablettas, selection de applicationes e le cura de se mesme.",
-      "lede": "Adjuta simple e practic pro le momentos quotidian de curar un persona qui vive con dementia, includente le cura de vos mesme."
+      "label": "Cura de demencia",
+      "title": "Cuidar a un ped­ersona con demencia",
+      "seo": "Cuidar a una persona con demencia: actividades y ayuda",
+      "description": "Guías para familias que cuidan a una persona con demencia: cómo jugar juntos, qué hacer cuando dicen que no, y dónde encontrar ayuda de confianza después de un diagnóstico.",
+      "lede": "Ayuda centrada en actividades para familias que cuidan a una persona con demencia, y dónde acudir para consejos médicos y de cuidado."
     },
     "brain-health": {
       "label": "Sanitate cerebral",
@@ -283,7 +396,16 @@
     "tryTogether": "Provar insimul",
     "relatedGuides": "Guidas connexe",
     "related": "Connexe",
-    "startHere": "Comencia hic"
+    "startHere": "Comencia hic",
+    "staleAria": "Traducción desactualizada",
+    "staleTitle": "Esta traducción está desactualizada",
+    "staleText": "Se hizo a partir de una versión anterior de la página en inglés, que ha cambiado desde entonces. La página en inglés es la versión actual.",
+    "staleHealth": "Ofrece información de salud, así que consulte la página en inglés y pregunte a un médico o enfermero antes de actuar según ella.",
+    "staleLink": "Lea la página actual en inglés"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Aviso de information sur le sanitate",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Un activitate compartite, non un test de memoria",
+      "title": "Una actividad compartida, no una prueba",
       "seoTitle": "A proposito de Creative Activities: nostre approche",
-      "description": "Pro que le jocos de Creative Activities non ha chronometros, punctos o series de victorias, pro que le imagines remane visibile, e lo que nos pretende e non pretende sur le dementia.",
+      "description": "Por qué Creative Activities no tiene cronómetros, puntuaciones ni rachas, por qué las imágenes permanecen visibles, y qué afirmaremos y qué no afirmaremos sobre la salud.",
       "crumb": "Nostre approche",
-      "lede": "Creative Activities crea calme activitates con imagines pro adultos, que un curator e un persona qui vive con dementia pote appreciar insimul.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Patrocinadores y colaboradores",
+        "none": "Creative Activities no tiene patrocinadores, ni anuncios pagados, ni colaboradores cuyos logotipos aparezcan en el sitio.",
+        "listed": "Estos son los patrocinadores y colaboradores de Creative Activities. Cada relación también se indica en la página donde aparece.",
+        "policy": "Si esto cambia, cada una de esas páginas lo indicará donde aparezca, ninguna actividad llevará nunca un patrocinador, y la lista de colaboradores estará en esta página.",
+        "listHeading": "Lista de colaboradores",
+        "noPartners": "Por el momento no hay colaboradores."
+      },
+      "lede": "Creative Activities ofrece actividades tranquilas para adultos que dos personas pueden disfrutar juntas, ya sea que una cuide a la otra o simplemente quieran pasar tiempo juntas.",
+      "bodyHtml": "<h2>Para quién es</h2><p>Para cualquier persona que cuide a alguien: un padre o una madre, un abuelo o una abuela, un hijo o una hija, una pareja, un amigo o una persona que vive con demencia. Las familias, las personas mayores y el personal de actividades pueden usar las mismas páginas.</p><h2>En qué creemos</h2><p>Lo importante de una actividad es el momento en sí: una conversación, una sonrisa, la satisfacción de juntar dos imágenes, o simplemente estar sentados muy cerca. No se trata de medir a nadie, de exigirle más ni de demostrar nada.</p><p>Muchas aplicaciones de entrenamiento cerebral se diseñan en torno a la velocidad, las puntuaciones, las rachas y los niveles. Para alguien que está cansado, enfermo o que vive con demencia, eso puede sentirse como un examen que no puede aprobar. Nosotros hemos diseñado lo contrario, y nos atenemos a estas normas:</p><ul><li><strong>Nada que fallar.</strong> Ni reloj, ni puntuación, ni contador de movimientos, ni vidas, ni rachas, ni confeti ni cuentas atrás, en ninguna pantalla.</li><li><strong>Reconocer antes que recordar.</strong> Las imágenes permanecen visibles de forma predeterminada. Las indicaciones invitan a conversar y nunca piden recordar nombres ni recuerdos.</li><li><strong>Grande, sencillo y estable.</strong> Textos e imágenes grandes, alto contraste y controles que siempre están en el mismo lugar.</li><li><strong>Dignidad adulta.</strong> Imágenes reales y palabras sencillas y cálidas. Nada de dibujos animados, elogios cantarines ni recompensas con emojis.</li><li><strong>Una salida fácil.</strong> «Por ahora hemos terminado» siempre está visible. Parar a mitad de camino es un buen resultado.</li><li><strong>Privado por defecto.</strong> Sin cuentas ni anuncios. Las fotos que usted elija permanecen en su dispositivo.</li></ul><h2>Lo que no afirmamos</h2><p>Nuestros juegos y actividades son para disfrutar y para conectar. No diagnostican, evalúan, miden, tratan, frenan ni previenen la demencia o la enfermedad de Alzheimer, y nadie debería elegirlos por ese motivo. Cuando escribimos sobre investigación en salud, decimos claramente dónde la evidencia es débil, y nunca la relacionamos con nuestras propias actividades.</p><h2>Quiénes somos</h2><p>Creative Activities es un equipo pequeño e independiente. No somos profesionales sanitarios. Nuestras guías se escriben a partir de recomendaciones publicadas por organizaciones como el National Institute on Aging y la Alzheimer’s Association, y cada guía enumera sus fuentes. Lea <a href=\"/editorial-policy/\">cómo escribimos y revisamos nuestras páginas</a>.</p><h2>Cuéntenos qué le ayudaría</h2><p>Nos encantaría saber qué funciona para usted y qué no, especialmente de parte de personas que viven con demencia, familiares cuidadores y personal de actividades. Escriba a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Como nos scribe e verifica nostre paginas",
       "seoTitle": "Politica editorial",
-      "description": "Como Creative Activities recerca, scribe, documenta e actualisa su paginas super activitates pro dementia e sanitate cerebral, e lo que nos nunquam publicara.",
+      "description": "Cómo Creative Activities investiga, escribe, obtiene las fuentes y actualiza sus páginas de actividades y de salud, y lo que nunca publicaremos.",
       "crumb": "Politica editorial",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Questiones e responsas",
-      "seoTitle": "Jocos e activitates pro dementia: Questiones e responsas",
-      "description": "Responsas a questiones commun super jocos e activitates pro dementia: qual jocos probar, quanto tempore jocar, ideas pro stadios plus avantiate, sanitate cerebral e confidentialitate.",
+      "seoTitle": "Preguntas y respuestas sobre Creative Activities",
+      "description": "Respuestas a preguntas frecuentes sobre los juegos y las actividades: cuáles probar, cuánto tiempo jugar, ideas para grupos y para etapas avanzadas, salud y privacidad.",
       "crumb": "Questiones e responsas",
       "lede": "Responsas curte e clar al questiones que le curatores face le plus frequentemente.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Super le jocos",
           "items": [
             {
-              "q": "Qual es le melior jocos pro un persona vivente con dementia?",
+              "q": "¿Cuáles son los mejores juegos para personas mayores?",
               "a": "Le melior jocos es familiar, simple e sin pression, e le joco juste es qualcunque le persona apprecia hodie. Associar imagines visibile, classificar, puzzles facile, completar proverbios familiar, colorar e bingo de imagines functiona multo ben pro multe personas. Evita chronometros, punctos e toto lo que pare un examine."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Sanitate cerebral",
+          "title": "Demencia y salud",
           "items": [
             {
               "q": "Pote le jocos prevenir o relentir le dementia?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Más detalles: <a href=\"/caregiving/how-to-play-together/\">cómo jugar juntos</a>, <a href=\"/caregiving/when-they-say-no/\">cuando dicen que no</a>, <a href=\"/activities/late-stage/\">actividades para etapas avanzadas</a> y <a href=\"/dementia-activities/\">actividades para la demencia en casa</a>."
     },
     "handout": {
       "title": "Jocos Gratuite e Suave pro Personas Vivente con Dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Pro Casas de Cura, Bibliothecas e Gruppos de Supporto",
-      "seoTitle": "Activitates gratuite pro personas con dementia pro domos de cura e gruppos",
-      "description": "Como domos de cura, centros de die pro adultos, bibliothecas, organismos pro seniores e gruppos de supporto utilisa nostre jocos gratuite pro personas con dementia, con texto pro adder nos a un lista de ressources.",
+      "seoTitle": "Actividades gratuitas para residencias, bibliotecas y grupos",
+      "description": "Cómo las residencias, los programas de día para adultos, las bibliotecas, las agencias de atención a personas mayores y los grupos de apoyo usan nuestros juegos y guías de actividades gratuitos, además de un texto para incluirnos en una lista de recursos.",
       "crumb": "Pro organisationes",
       "lede": "Toto sur iste sito es gratuite a utilisar con residentes, membros e clientes, sin conto, licentia o costo. Iste pagina explica lo que es disponibile hic e como divider lo con alteres.",
-      "shortText": "{name}: jocos con imagines calme e gratuite e guidas de activitate pro personas vivente con dementia e lor curatores. Sin registration, sin chronometros, sin punctos.",
-      "longText": "{name} ({domain}) offere {count} jocos de navigator gratuite concipite pro personas vivente con dementia, includente pares con imagines visibile, un puzzle facile, classification, proverbios familiar e bingo de imagines con cartas imprimibile. Il non ha necun conto, publicitate, chronometro o punctos. Le sito ha etiam guidas de activitate in linguage clar pro cata stadio de dementia que cita le National Institute on Aging e le Alzheimer's Association.",
+      "shortText": "{name}: juegos de imágenes gratuitos y suaves y guías de actividades para personas mayores, familias y personas que viven con demencia. Sin registro, sin cronómetros, sin puntuaciones.",
+      "longText": "{name} ({domain}) offere {count} juegos gratuitos in le navigator pro personas de edade, familias e personas vivente con dementia, includente pares a parar con imagines a vista, un puzzle facile, classificationes, dictos conosciute e bingo de imagines con cartas imprimibile. Non es necessari un conto, non ha publicitate, non ha cronometro e non ha punctuation. Le sito contine anque guias de actividades in linguage simple pro familias, personas de edade e personal, con fontes como le National Institute on Aging e le Alzheimer's Association.",
       "useTitle": "Lo que le organisationes pote utilisar",
       "gamesItemHtml": "<strong>{count} jocos de navigator</strong> que functiona sur un computator portabile, un tabletta o un televisor connectite a un computator. Sin installation, conto o discargamento. Vide <a href=\"/games/\">tote le jocos</a>.",
       "printablesLabel": "{count} materiales imprimibile:",
       "printablesAfter": "Utilisa le button de imprimer sur cata pagina.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formatos de gruppo:</strong> <a href=\"/games/picture-bingo/\">Bingo de imagines</a> ha cartas imprimibile e un presentator sur schermo, e <a href=\"/together/conversation-games-for-all-ages/\">jocos de conversation</a> ha questiones con optiones de responsa e punctos de discussion.</li><li><strong>Guias de actividades</strong> pro personal e familias, scriptas in linguage simple con fontes. Comencia con <a href=\"/activities/ideas/\">101 ideas de actividades</a> o <a href=\"/crafts/craft-group-sessions/\">actividades de gruppo pro casas de cura</a>.</li>",
       "restHtml": "<h2>Como le gruppos lo utilisa</h2><ul><li><strong>Domos de cura e unitates de memoria:</strong> bingo de imagines o completar proverbios sur le televisor del sala commun, con un persona toccante le schermo pro le gruppo.</li><li><strong>Centros de die pro adultos:</strong> un station con tabletta con Pares de imagines configurate a quatro quadratos, pro curte sessiones individual.</li><li><strong>Bibliothecas public:</strong> grillos de parolas imprimite e cartas de conversation in kits de memoria, e le sito registrate in le favoritos del tablettas del bibliotheca.</li><li><strong>Gruppos de supporto pro curatores e cafés de memoria:</strong> un <a href=\"/handout/\">folieto imprimibile de un pagina</a> pro le familias a portar a domo.</li><li><strong>Hospitales e coordinatores de congedamento:</strong> le folieto in le dossiers pro curatores, como un activitate calme a facer a domo o juxta le lecto.</li></ul><h2>Lo que nos non face</h2><p>Le jocos es pro le placer e le tempore passate insimul. Illos non diagnostica, non testa, non evaluta, non tracta e non relenta le dementia, e nos demanda al organisationes de non describer los de tal maniera. Il non ha advertimentos, e le jocos non demanda nomines, detalios de sanitate o telecargamento de photos. Le sito web utilisa Google Analytics pro contar le visitas; nostre <a href=\"/privacy/\">aviso de confidentialitate</a> explica lo que isto collige. Le photos utilisate in <a href=\"/games/photo-pairs/\">Pares de photos</a> remane in le navigator.</p><h2>Adde nos a vostre lista de ressources</h2><p>Si vos mantene un lista de ressources pro curatores, vos es benvenite a crear un ligamine verso <a href=\"/\">{domain}</a>. Vos pote copiar qualcunque del descriptiones.</p>",
       "shortTitle": "Curte description",
       "longTitle": "Description plus longe",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Paginas utile a le quales ligar directemente: <a href=\"/games/\">juegos gratuitos</a>, <a href=\"/games/\">imprimibile gratuite</a>, <a href=\"/dementia-activities/\">actividades pro demencia a domo</a> e <a href=\"/caregiving/how-to-play-together/\">como jocar junctos</a>.</p><h2>Questiones o corrections</h2><p>Si alique sur le sito es incorrecte o non clar, o si le besonios de un residente non es satisfacite per lo que es hic, per favor informa nos a <a href=\"mailto:{email}\">{email}</a>. Per favor non invia information personal o medical super residentes o clientes.</p>"
     },
     "app": {
       "title": "Le application Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Jocos gratiose in linea pro dementia e morbo de Alzheimer",
-    "description": "Jocos gratiose in linea pro personas de etate avantiate qui vive con dementia o Alzheimer: correlation de imagines, puzzles facile, assortimento, proverbios, colorar, bingo. Necun inscription, chronometros o punctos.",
+    "title": "Juegos gratuite a jocar junctos in linea",
+    "description": "Juegos gratuite in linea pro personas de edade, familias e personas vivente con dementia: association de imagines, puzzles faciles, classificationes, dictos, colorar e bingo. Sin registration, cronometros o punctuation.",
     "crumb": "Jocos",
-    "h1": "Jocos dulce pro personas qui vive con dementia",
+    "h1": "Juegos delicate a jocar junctos",
     "lede": "{count} jocos gratiose pro jocar insimul in vostre navigator. Grande imagines, parolas simple, e nihil a faller: necun chronometros, necun punctos, necun inscription.",
-    "listName": "Jocos dulce pro personas qui vive con dementia",
+    "listName": "Juegos delicate a jocar junctos",
     "byStageTitle": "Seliger un joco secundo le phase",
     "byStageLede": "Le phases es solmente un guida approximative. Seque lo que le persona apprecia e lo que pare confortabile hodie.",
     "stageCol": "Phase",
     "gamesCol": "Jocos que frequentemente conveni",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Plus ideas lontano del schermo: <a href=\"/activities/ideas/\">101 ideas de actividades</a>, <a href=\"/dementia-activities/\">actividades pro demencia a domo</a> e <a href=\"/crafts/\">artesanato</a>.",
     "faq": [
       {
         "q": "Con qual joco nos deberea comenciar?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Iste jocos es jocos de memoria pro personas de etate avantiate?",
-        "a": "Illos es jocos de correlation e de imagines que omne persona de etate avantiate pote appreciar, sed illos es concipite pro non testar le memoria: in Pares de imagines le imagines remane con le facie in alto a minus que vos selige alteremente. Nostre guida de jocos de memoria pro personas de etate avantiate qui vive con dementia explica como mantener dulce cata joco de memoria."
+        "a": "Illos es juegos de association e de imagines que qualcunque persona de edade pote apreciar, ma illos es concipite pro non testar le memoria: in Pares de imagines, le imagines remane a fronte in alto, excepto si tu elige alteremente. Qualcunque jocos de memoria pote esser rendite plus delicate eliminante le cronometro e le punctuation."
       },
       {
         "q": "Existe jocos pro gruppos in un casa de reposo?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Existe un application de activitates pro le dementia?",
+        "q": "Existe un app pro personas de edade e familias?",
         "a": "Si. Creative Activities (indicate como \"{storeName}\") es gratiose sur le App Store e Google Play. Illo offere correlation dulce de imagines con grande tegulas, jocos con photos de familia que vos selige, e pacchettos de imagines que functiona foras de linea."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Imprimibile",
     "howTo": "Como jocar {name}",
     "tips": "Consilios pro jocar insimul",
-    "newToPlayingHtml": "Nove a jocar con un persona vivente con dementia? Lege <a href=\"/caregiving/how-to-play-together/\">como jocar jocos insimul</a>, includente que facer si le persona perde le interesse.",
+    "newToPlayingHtml": "Nove a jocar con un persona de edade o con un persona vivente con dementia? Lege <a href=\"/caregiving/how-to-play-together/\">como jocar juegos junctos</a>, includente que facer si ille o illa perde interesse.",
     "moreAria": "Plus a explorar",
     "helpfulGuides": "Guidas utile",
     "appTitle": "Joca lo in le application",
@@ -536,6 +666,35 @@
     "goodToKnow": "Bon a saper",
     "goodToKnowText": "Iste joco es pro le placer e pro passar tempore insimul. Illo non testa, non mesura e non tracta nihil.",
     "moreGames": "Plus de jocos tranquille",
-    "crumb": "Jocos"
+    "crumb": "Jocos",
+    "print": {
+      "heading": "Jocar sur papiro",
+      "sameRules": "Le version de papiro ha le mesme regulas como le juego sur schermo:",
+      "button": "Imprimer un version de papiro",
+      "pageNote": "Un pagina in A4 o US Letter, bon in nigrum e blanc. Version {date}.",
+      "islandNote": "Illo imprime lo que es sur le schermo nunc. Version {date}.",
+      "sheetTitle": "{name}: version de papiro",
+      "point": "Sur papiro, indica un imagine in vice de tocar lo, o circumda lo con un pen. Cata linea es un nove serie.",
+      "pointTarget": "Sur papiro, le imagine a regardar es in le quadrato al initio de cata linea. Indica un imagine in vice de tocar lo, o circumda lo con un pen.",
+      "halves": "Cata imagine es tallate per le medietate. Trace un linea de cata medietate a sinistra a illa medietate a dextra que le convene, o indica con un digito. Nulle necessitate de taliar.",
+      "grid": "Cata quadrato ha un numero. Trova iste numero in le clave, e colora le quadrato con un crayon del color indicate. Qualcunque altere color que tu preferi es anque bon. Nulle necessitate de taliar.",
+      "colors": "Cata linea nomina un color. Indica tote le imagines de iste color, o circumda les con un pen. Cata linea es un nove serie.",
+      "dice": "Cata linea es un serie de dados. Elige un linea, o talia le imagines e trahe alcunes de un pila, e pois narra un historia usante les in qualcunque ordine. Qualcuno pote passar.",
+      "words": "Talia le parolas, o trace un linea de cata parola a su imagine. Lege le parolas a alta voce durante que tu procede.",
+      "cards": "Talia le cartas along le lineas tratate. Pone les a fronte in alto sur le tabula, e pois trova le pares.",
+      "chain": "Sur papiro, lege le imagines de sinistra a dextra, un post le altere. Cata persona dice un phrase super le imagines usque ora, e pois indica le proxime imagine. Qualcuno pote passar.",
+      "sort": "Talia le imagines along le lineas tratate, e pois mitte cata una in le cassa ubi illa appartene.",
+      "puzzle": "Talia le imagine grande along le lineas tratate in quatro pecias e mixa les. Permuta duo pecias a un tempore usque le imagine es complete. Le imagine parve es un guida.",
+      "cutSafety": "Un assistente pote facer le taliatura ante que tu committe. Pone le forfices a parte post.",
+      "version": "Version {date} · {url}",
+      "reasons": {
+        "photos": "Non existe version de papiro. Iste juego usa tu proprie photos, que resta in tu navigator e non es jamais cargate, dunque le sito non pote imprimer les. Pro jocar sur papiro, imprime duo copias de alcun photos favorite a domo e associa les sur le tabula.",
+        "paced": "Non existe version de papiro. Le circulo impone un ritmo lente e stabile sur le schermo, e un pagina imprimite non pote facer isto, dunque il serieva un altere activitate. Un pausa tranquille junctos sin schermo es sempre un option.",
+        "turns": "Non existe version de papiro de iste juego. Pro trovar pares sur le tabula, imprime le cartas de imagines de Pares de imagines e alterna in virar les.",
+        "screen": "Non c'è una versione su carta. Questa è un'immagine da guardare insieme su uno schermo; una foto preferita o una cartolina sul tavolo fa lo stesso effetto.",
+        "wash": "Non c'è una versione su carta. La pittura ad acquerello su carta segue la stessa idea: un pennello bagnato e un colore alla volta.",
+        "sayings": "Non c'è ancora una versione su carta. Su carta tutti i finali sarebbero visibili subito, e si perderebbe il passaggio delicato \"Mostra il finale\". Leggete insieme i detti dallo schermo, oppure condividetene qualcuno che conoscete entrambi."
+      }
+    }
   }
 }

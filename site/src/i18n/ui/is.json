@@ -7,16 +7,22 @@
     "homeLabel": "Forsíða Creative Activities",
     "mainNav": "Aðalvalmynd",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: stórar og hlýlegar myndir af tebolla, sólblómi og hundi",
+    "defaultImageAlt": "Creative Activities: stórar, vinalegar teikningar af hversdagslegum hlutum til að búa til og gera",
     "languages": "Tungumál",
     "englishOnly": "(Á ensku)",
     "machineTranslated": "Þessi síða var þýdd með vélþýðingu og hefur ekki enn verið yfirfarin af móðurmálstalandi einstaklingi.",
     "readOriginal": "Lesa upprunalega textann á ensku",
     "nav": {
+      "find": "Find an activity",
       "games": "Leikir",
       "activities": "Samverustundir",
       "caregiving": "Umönnun",
-      "brainHealth": "Heilaheilsa"
+      "brainHealth": "Heilaheilsa",
+      "crafts": "Föndur",
+      "kids": "Börn",
+      "together": "Saman",
+      "creativeCalm": "Skapandi ró",
+      "search": "Leita"
     },
     "faqTitle": "Spurningar og svör",
     "breadcrumb": "Brauðmolar",
@@ -27,7 +33,32 @@
       "label": "Leturstærð",
       "smaller": "Venjulegt letur",
       "larger": "Stærra letur",
-      "contrast": "Meiri birtuskil"
+      "contrast": "Meiri birtuskil",
+      "colors": "Litir",
+      "light": "Ljóst",
+      "dark": "Dökkt",
+      "device": "Eins og í þessu tæki",
+      "lineLength": "Lengd lína",
+      "standardLines": "Venjuleg",
+      "shorterLines": "Styttri línur",
+      "spacing": "Bil",
+      "standardSpacing": "Venjulegt",
+      "moreSpace": "Meira bil"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 hugmynd að samveru",
     "lateStage": "Samverustundir á síðari stigum",
     "printable": "Prentvæn verkefni",
-    "allActivities": "Allar samverustundir",
+    "allActivities": "Allar virknileiðbeiningar",
     "forCaregivers": "Fyrir aðstandendur",
     "playTogether": "Hvernig má spila saman",
     "selfCare": "Að hlúa að sjálfum sér",
@@ -54,24 +85,34 @@
     "app": "Creative Activities appið",
     "appHelp": "Aðstoð við appið",
     "support": "Aðstoð",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Lagaleg atriði",
     "sitePrivacy": "Persónuvernd á vef",
     "appPrivacy": "Persónuverndarstefna appsins",
     "privacyChoices": "Persónuverndarstillingar",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Skilmálar og leyfi fyrir appið",
     "safety": "Öryggi og ætluð notkun",
     "accessibility": "Aðgengi",
     "healthNotice": "Fyrirvari um heilsufarsupplýsingar",
     "allLegal": "Allar lagalegar upplýsingar",
     "note": "Creative Activities býður upp á einfaldar samverustundir til ánægju. Efnið jafngildir ekki læknisráðgjöf, prófi eða meðferð, og greinir ekki, mælir né gefur neinum einkunn. Ef spurningar vakna um heilsu skal ræða við lækni. Í neyðartilvikum skal hringja í 112.",
-    "publisher": "Gefið út af Cloudjet Solutions Pte. Ltd."
+    "publisher": "Gefið út af Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Föndur fyrir alla aldurshópa",
+    "kids": "Verkefni fyrir börn",
+    "together": "Verkefni til að gera saman",
+    "creativeCalm": "Skapandi ró",
+    "dementiaActivities": "Verkefni fyrir fólk með heilabilun"
   },
   "home": {
-    "title": "Leikir og samverustundir við heilabilun og Alzheimersjúkdómi | Creative Activities",
-    "description": "Ókeypis, rólegir myndaleikir á netinu og hugmyndir að samverustundum fyrir fólk með heilabilun eða Alzheimersjúkdóm og aðstandendur þess.",
+    "title": "Skapandi verkefni fyrir þá sem annast einhvern",
+    "description": "Ókeypis skapandi verkefni fyrir þá sem annast einhvern: föndur, hlutir fyrir börn, verkefni til að gera saman og róleg skapandi hugmyndir.",
     "eyebrow": "Ókeypis · Engar auglýsingar · Engin skráning · Engin tímamörk eða stig",
-    "h1": "Rólegir leikir og samverustundir fyrir fólk með heilabilun",
-    "lede": "Einfaldir myndaleikir, kunnuglegar ljósmyndir og afþreying til að njóta saman – á ykkar eigin hraða.",
+    "h1": "Búið eitthvað til saman",
+    "lede": "Finndu verkefni sem hentar þeim sem þú annast, stundinni og því sem þú átt til. Auðvelt föndur, listaverk fyrir börn, hlutir til að gera saman og rólegar skapandi hugmyndir, með auðveldari útgáfum og korti til að prenta. Hættu hvenær sem þú vilt.",
     "playGame": "Spila leik",
     "findIdeas": "Finna hugmyndir að samverustundum",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 hugmynd að samverustundum",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Fyrstu stig",
         "text": "Haldið áfram að gera það sem viðkomandi þykir vænt um, með litlum aðlögunum: áhugamál, göngutúrar, orðaleikir og skipulagning saman.",
         "label": "Hugmyndir fyrir fyrstu stig"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Miðstig",
         "text": "Einföld og kunnugleg verkefni brotin niður í skref: brjóta saman þvott, flokka hluti, tónlist, myndaleikir og stuttir göngutúrar.",
         "label": "Hugmyndir fyrir miðstig"
@@ -124,10 +165,10 @@
         "label": "Hugmyndir fyrir síðari stig"
       }
     ],
-    "specificHtml": "Ertu að leita að einhverju ákveðnu? Prófaðu <a href=\"/activities/alzheimers/\">samverustundir og leiki við Alzheimersjúkdómi</a>, <a href=\"/activities/memory-games/\">rólega minnisleiki</a>, <a href=\"/activities/trivia/\">einfaldar spurningar</a> eða <a href=\"/activities/puzzles/\">púsl</a>.",
+    "specificHtml": "Ertu að leita að einhverju ákveðnu? Prófaðu <a href=\"/dementia-activities/\">verkefni og leiki fyrir Alzheimer-sjúkdóm</a>, <a href=\"/together/puzzles-and-table-games/\">þrautir og borðspil</a>, <a href=\"/together/conversation-games-for-all-ages/\">samtalsleiki</a> eða <a href=\"/together/puzzles-and-table-games/\">þrautir</a>.",
     "approachEyebrow": "Nálgun okkar",
-    "approachTitle": "Samverustund, ekki minnispróf",
-    "approachLede": "Margir „heilaleikir“ snúast um hraða, stig og árangursraðir. Fyrir manneskju með heilabilun getur það minnt á próf. Við bjuggum til hið gagnstæða.",
+    "approachTitle": "Sameiginleg stund, ekki próf",
+    "approachLede": "Margir „heilaleikir“ snúast um hraða, stig og raðir sigra. Fyrir einhvern sem er þreyttur, veikur eða lifir með heilabilun getur það verið eins og próf. Við gerðum hið gagnstæða.",
     "approachLink": "Hvers vegna við hönnum leikina svona",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Algengar ástæður fyrir höfnun og hlýlegar leiðir til að reyna aftur síðar."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Að stilla spjaldtölvu",
-        "text": "Stærra letur, færri truflanir og einfaldur heimaskjár."
+        "href": "/activities/group-art-activities/",
+        "title": "Hópverkefni í listsköpun",
+        "text": "Sameiginleg verkefni við borð fyrir nokkra, með hlutverk fyrir hvern og einn."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ókeypis prentvæn verkefni",
-        "text": "Orðaleit með stóru letri, litalausar myndir, bingó og spjallspjöld."
+        "href": "/activities/ideas/",
+        "title": "101 hugmynd að verkefnum",
+        "text": "Einfaldar hugmyndir, flokkaðar eftir því sem þú átt til og hversu mikla orku er til staðar."
       }
     ],
     "researchTitle": "Heilaheilsa: hvað segja rannsóknirnar í raun og veru?",
@@ -185,16 +226,16 @@
     "aboutApp": "Um appið",
     "faq": [
       {
-        "q": "Hvaða leikir henta fólki með heilabilun?",
-        "a": "Góðir leikir eru einfaldir, kunnuglegir og án alls álags: stórar myndir til að para saman, flokkun, einföld púsl, að klára þekkt orðatiltæki, litun, myndabingó og spjallspjöld. Besti kosturinn er sá sem veitir ánægju í dag. Gott er að forðast tímamæla, stigagjöf og allt sem minnir á próf."
+        "q": "Hvaða leikir henta eldra fólki?",
+        "a": "Góðir leikir eru einfaldir, kunnuglegir og lausir við þrýsting: stórar myndir til að para saman, flokkun, auðveldar púsl, að ljúka þekktum málsháttum, litun, myndabingó og samtalsspil. Þeir henta mörgum eldri einstaklingum, þar á meðal fólki sem lifir með heilabilun. Besta valið er sá leikur sem viðkomandi hefur gaman af í dag. Forðastu tímamæla, stig og allt sem líkist prófi."
       },
       {
-        "q": "Eru þessir leikir fyrir fólk með heilabilun ókeypis?",
+        "q": "Eru þessir leikir ókeypis?",
         "a": "Já. Allir leikir og útprentanlegt efni á Creative Activities eru ókeypis, án aðgangs, nýskráningar eða niðurhals. Leikirnir keyra í vafra á síma, spjaldtölvu eða tölvu."
       },
       {
         "q": "Koma heilaleikir í veg fyrir heilabilun?",
-        "a": "Enginn leikur hefur sýnt sig að koma í veg fyrir heilabilun, og Creative Activities heldur því ekki fram að neitt hér lækni eða komi í veg fyrir nokkuð. Leikirnir okkar eru ætlaðir til ánægju og samveru. Í hlutanum um heilaheilsu er útskýrt hvað rannsóknir sýna og hvað þær sýna ekki."
+        "a": "Ekki hefur verið sýnt fram á að neinn leikur komi í veg fyrir heilabilun og Creative Activities segist hvorki lækna né koma í veg fyrir neitt. Leikir okkar eru ætlaðir til ánægju og til að verja tíma saman, og engin síða með verkefnum setur fram heilsufullyrðingu."
       },
       {
         "q": "Henta þessir leikir einhverjum með Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Hverjir standa að Creative Activities?",
-        "a": "Creative Activities er lítill hópur sem býr til róleg myndaverkefni fyrir fullorðna, ætluð fjölskyldum og aðstandendum, á vefnum og sem ókeypis smáforrit. Við erum ekki heilbrigðisstarfsfólk og ekkert hér telst læknisfræðileg ráðgjöf."
+        "a": "Creative Activities er lítið teymi sem býr til rólega, fullorðinsmiðaða skapandi starfsemi fyrir þá sem annast einhvern, á vefnum og sem ókeypis forrit. Við erum ekki læknar og ekkert hér er læknisfræðileg ráðgjöf."
+      }
+    ],
+    "groupsEyebrow": "Finndu þína leið",
+    "groupsTitle": "Fjórar tegundir skapandi verkefna",
+    "groupsLede": "Byrjaðu á þeim flokki sem hentar því hver er með þér og því sem þú átt til. Hver síða hefur auðveldari útgáfur og öryggisábendingar.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Föndur",
+        "text": "Verkefni úr pappír, málningu, endurunnu efni og eftir árstíðum, með auðveldari útgáfu fyrir hvert þeirra.",
+        "label": "Skoða föndur"
+      },
+      {
+        "href": "/kids/",
+        "title": "Börn",
+        "text": "List og leikur fyrir börn, með fullorðnum nálægt og skýrum öryggisábendingum.",
+        "label": "Skoða verkefni fyrir börn"
+      },
+      {
+        "href": "/together/",
+        "title": "Saman",
+        "text": "Samtal, þrautir, útivera og leiðir til að vera nálægt milli kynslóða.",
+        "label": "Skoða hluti til að gera saman"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Skapandi ró",
+        "text": "Hægar, rólegar skapandi stundir með blýanti, blaði eða lagi. Ekki meðferð.",
+        "label": "Skoða skapandi ró"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Útprentanlegt",
     "play": "Spila {name} →",
     "readGuide": "Lesa leiðbeiningar"
+  },
+  "listen": {
+    "listenSteps": "Hlustaðu á skrefin",
+    "pause": "Gera hlé",
+    "resume": "Halda áfram",
+    "stop": "Stöðva",
+    "speed": "Hraði",
+    "normal": "Venjulegur",
+    "slower": "Hægar",
+    "reading": "Les skrefin upphátt.",
+    "paused": "Í hléi. Ýttu á Halda áfram til að halda áfram.",
+    "note": "Notar rödd tækisins þíns. Sum tæki senda textann til framleiðanda síns til að lesa hann upp.",
+    "listen": "Hlusta",
+    "stepLabel": "Hlustaðu á skref {n}",
+    "stopStep": "Stöðva skref {n}"
   },
   "playCta": {
     "title": "Viltu prófa rólegan leik?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Viðfangsefni",
-      "title": "Viðfangsefni fyrir fólk með heilabilun",
-      "seo": "Viðfangsefni fyrir fólk með heilabilun: Hugmyndir eftir stigum",
-      "description": "Hugmyndir að viðfangsefnum fyrir fólk með heilabilun á öllum stigum: tónlist, upprifjun minninga, dagleg verk, skynjun, handmennt, útivera og ókeypis.",
-      "lede": "Gefandi viðfangsefni er hvaðeina sem veitir vellíðan, tilgang eða samverustund. Byrjaðu á því sem viðkomandi hefur alltaf haft gaman af og lagaðu það að deginum í dag."
+      "label": "Leiðbeiningar um verkefni",
+      "title": "Leiðbeiningar um verkefni",
+      "seo": "Leiðbeiningar um verkefni: hugmyndir, listvörur og leiðir til að byrja",
+      "description": "Einfaldar leiðbeiningar um skapandi verkefni sem þú getur gert með öðrum: einfaldar hugmyndir, listvörur á hagstæðu verði, hópverkefni í listsköpun, bréf, minningar og útskýringar á listmeðferð.",
+      "lede": "Stuttar, hagnýtar leiðbeiningar um val og upphaf verkefnis með einhverjum, óháð aldri eða getu."
+    },
+    "crafts": {
+      "label": "Föndur",
+      "title": "Föndur fyrir alla aldurshópa",
+      "seo": "Auðvelt föndur fyrir alla aldurshópa, með auðveldari útgáfum",
+      "description": "Auðvelt föndur fyrir fullorðna, börn og fjölskyldur: úr pappír, litun, endurunnu efni og árstíðabundið föndur, með útgáfum sem auðveldara er að halda á og sitja við og án sérstakrar kunnáttu.",
+      "lede": "Föndur sem byrjar á því sem flest heimili eiga nú þegar, hvert með auðveldari útgáfu, svo hver sem er geti búið eitthvað til."
+    },
+    "kids": {
+      "label": "Börn",
+      "title": "Skapandi verkefni fyrir börn",
+      "seo": "Skapandi verkefni fyrir börn: list, skynjun og ró",
+      "description": "Skapandi verkefni fyrir börn: list fyrir smábörn, ferlislist, skynjunarleikir, föndur fyrir rigningardaga og hugmyndir til að róa sig, með öryggisábendingum og útgáfum fyrir skynjunarþarfir.",
+      "lede": "Hugmyndir um list og leik fyrir börn á mismunandi aldri og með ólíkar þarfir, með skýrum öryggisábendingum og fullorðnum nálægt."
+    },
+    "together": {
+      "label": "Saman",
+      "title": "Verkefni til að gera saman",
+      "seo": "Verkefni til að gera saman, milli kynslóða",
+      "description": "Verkefni fyrir tvær eða fleiri kynslóðir: samtalsleikir, þrautir, útivera, föndur fyrir afa og ömmur og barnabörn og leiðir til að vera nálægt þótt fjarri sé.",
+      "lede": "Hugmyndir um að deila tíma með foreldri, afa eða ömmu, barni eða vini, heima, úti, í heimsókn eða þótt fjarri sé."
+    },
+    "creative-calm": {
+      "label": "Skapandi ró",
+      "title": "Skapandi ró",
+      "seo": "Skapandi ró: afslappandi list og verkefni til að slaka á",
+      "description": "Afslappandi skapandi verkefni fyrir fullorðna og umönnunaraðila: athyglislist, dagbókarskrif, tónlist, skynjunarstundir og rólegir síðdegisstundir. Skapandi virkni, ekki meðferð.",
+      "lede": "Mjúkar leiðir til að hægja á með blýanti, blaði eða lagi. Þetta eru skapandi verkefni, ekki meðferð, og krefjast engrar kunnáttu."
     },
     "caregiving": {
-      "label": "Umönnun",
-      "title": "Leiðbeiningar fyrir aðstandendur",
-      "seo": "Leiðbeiningar um umönnun við heilabilun: Hagnýt dagleg aðstoð",
-      "description": "Hagnýtar og hlýlegar leiðbeiningar fyrir aðstandendur fólks með heilabilun: að spila saman, samskipti, þegar viðkomandi neitar, óróleiki síðdegis.",
-      "lede": "Einföld og hagnýt aðstoð fyrir hversdagslegar stundir við umönnun einstaklings með heilabilun, þar á meðal að huga að sjálfum sér."
+      "label": "Umönnun vegna heilabilunar",
+      "title": "Umönnun fólks með heilabilun",
+      "seo": "Umönnun fólks með heilabilun: athafnir og hjálp",
+      "description": "Leiðbeiningar fyrir fjölskyldur sem annast fólk með heilabilun: hvernig má leika saman, hvað gera þegar viðkomandi segir nei og hvar má finna áreiðanlega aðstoð eftir greiningu.",
+      "lede": "Athafnamiðuð aðstoð fyrir fjölskyldur sem annast fólk með heilabilun, og hvert má leita eftir læknisfræðilegum ráðum og umönnunarráðgjöf."
     },
     "brain-health": {
       "label": "Heilaheilsa",
@@ -283,7 +396,16 @@
     "tryTogether": "Prófið saman",
     "relatedGuides": "Tengdar leiðbeiningar",
     "related": "Tengt efni",
-    "startHere": "Byrjaðu hér"
+    "startHere": "Byrjaðu hér",
+    "staleAria": "Þýðing er úrelt",
+    "staleTitle": "Þessi þýðing er úrelt",
+    "staleText": "Hún var gerð út frá eldri útgáfu enska textans, sem hefur breyst síðan. Enska síðan er sú uppfærða.",
+    "staleHealth": "Hér eru veittar heilsufarsupplýsingar, svo skoðaðu ensku síðuna og ræddu við lækni eða hjúkrunarfræðing áður en þú bregst við þeim.",
+    "staleLink": "Lestu núverandi ensku síðu"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Tilkynning um heilsufarsupplýsingar",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Samverustund, ekki minnispróf",
+      "title": "Sameiginleg athöfn, ekki próf",
       "seoTitle": "Um Creative Activities: Nálgunin okkar",
-      "description": "Hvers vegna leikir Creative Activities eru án tímamæla, stiga eða vinningsraða, hvers vegna myndir haldast sýnilegar og hvað við fullyrðum og fullyrðum ekki um heilabilun.",
+      "description": "Af hverju Creative Activities hefur engar klukkur, stig eða raðir, af hverju myndir haldast sýnilegar og hvað við munum og munum ekki fullyrða um heilsu.",
       "crumb": "Nálgunin okkar",
-      "lede": "Creative Activities býr til róleg myndaverkefni fyrir fullorðna sem aðstandandi og einstaklingur með heilabilun geta notið hlið við hlið.",
-      "bodyHtml": "<h2>Það sem við trúum á</h2><p>Tilgangur samverunnar er stundin sjálf: samtal, bros, ánægjan af því að tengja saman tvær myndir eða einfaldlega að sitja þétt saman. Tilgangurinn er ekki að prófa neinn, þrýsta á viðkomandi eða sanna eitthvað.</p><p>Mörg heilaþjálfunaröpp eru byggð upp í kringum hraða, stigafjölda, samfellda leikdaga og leikstig. Fyrir manneskju með heilabilun getur það virst eins og próf sem ómögulegt er að ná. Við hönnuðum andstæðuna og setjum okkur þessar reglur:</p><ul><li><strong>Ekkert sem hægt er að mistakast í.</strong> Engin klukka, stig, leikjateljari, líf, sigurræmur, partýglit eða niðurtalning, á neinum skjá.</li><li><strong>Að kannast við fremur en að muna.</strong> Myndir eru sýnilegar að sjálfgefnu. Textinn býður upp á samtal og spyr aldrei um nöfn eða minningar eins og í prófi.</li><li><strong>Stórt, skýrt og stöðugt.</strong> Stór texti og stórar myndir, skýr birtuskil og stjórntæki sem haldast á sama stað.</li><li><strong>Virðing gagnvart fullorðnum.</strong> Raunverulegar ljósmyndir og látlaus, hlý orð. Engar teiknimyndir, barnalegt hrós eða tjátákn í verðlaun.</li><li><strong>Einfalt að hætta.</strong> „Búið í bili“ er alltaf sýnilegt. Að hætta í miðju kafi er góð niðurstaða.</li><li><strong>Persónuvernd að sjálfgefnu.</strong> Enginn aðgangur og engar auglýsingar. Myndir sem þú velur verða áfram í tækinu þínu.</li></ul><h2>Það sem við fullyrðum ekki</h2><p>Leikirnir okkar eru ætlaðir til ánægju og samveru. Þeir greina ekki, prófa, mæla, meðhöndla, hægja á eða koma í veg fyrir heilabilun eða Alzheimers-sjúkdóm, og enginn ætti að velja þá af þeim sökum. Þegar við fjöllum um rannsóknir á <a href=\"/brain-health/\">síðum okkar um heilaheilsu</a>, segjum við skýrt frá þar sem vísbendingar eru veikar og við tengjum þær aldrei við okkar eigin leiki.</p><h2>Hver við erum</h2><p>Creative Activities er lítill óháður hópur. Við erum ekki heilbrigðisstarfsfólk. Leiðbeiningar okkar eru byggðar á útgefnum gögnum frá samtökum á borð við National Institute on Aging og Alzheimer’s Association, og sérhver leiðbeining birtir heimildir sínar. Kynntu þér <a href=\"/editorial-policy/\">hvernig við skrifum og yfirförum síðurnar okkar</a>.</p><h2>Segðu okkur hvað gæti hjálpað</h2><p>Við viljum endilega heyra hvað reynist vel og hvað ekki, sérstaklega frá fólki með heilabilun, aðstandendum og starfsfólki í tómstundastarfi. Sendu tölvupóst á <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Styrktaraðilar og samstarfsaðilar",
+        "none": "Creative Activities er ekki með neina styrktaraðila, engar greiddar staðsetningar og enga samstarfsaðila sem merki birtast um á vefnum.",
+        "listed": "Þetta eru styrktaraðilar og samstarfsaðilar Creative Activities. Hvert samband er einnig birt á þeirri síðu þar sem það kemur fram.",
+        "policy": "Ef þetta breytist mun hver slík síða segja frá því þar sem hún birtist, engin athöfn mun nokkurn tímann bera styrktaraðila og listi yfir samstarfsaðila verður á þessari síðu.",
+        "listHeading": "Listi yfir samstarfsaðila",
+        "noPartners": "Það eru engir samstarfsaðilar sem stendur."
+      },
+      "lede": "Creative Activities býr til rólegar athafnir fyrir fullorðna sem tveir geta notið hlið við hlið, hvort sem annar annast hinn eða þau vilja einfaldlega eyða tíma saman.",
+      "bodyHtml": "<h2>Fyrir hverja er þetta</h2><p>Fyrir alla sem annast einhvern: foreldri, afa eða ömmu, barn, maka, vin eða einstakling með heilabilun. Fjölskyldur, eldra fólk og starfsfólk í virkni geta öll notað sömu síðurnar.</p><h2>Það sem við trúum á</h2><p>Tilgangur athafnar er augnablikið sjálft: samtal, bros, ánægjan af því að raða saman tveimur myndum, eða einfaldlega að sitja nálægt. Það er ekki til þess að mæla neinn, ýta honum lengra eða sanna nokkuð.</p><p>Mörg forrit fyrir heilaþjálfun eru hönnuð í kringum hraða, stig, raðir og þrep. Fyrir einhvern sem er þreyttur, veikur eða lifir með heilabilun getur það verið eins og próf sem ekki er hægt að standast. Við hönnuðum hið gagnstæða og höldum okkur við þessar reglur:</p><ul><li><strong>Ekkert til að mistakast.</strong> Engin klukka, stig, teljari hreyfinga, líf, raðir, konfettí eða niðurtalning, á neinum skjá.</li><li><strong>Þekking fremur en upprifjun.</strong> Myndir haldast sýnilegar sjálfgefið. Vísbendingar bjóða upp á samtal og spyrja aldrei um nöfn eða minningar.</li><li><strong>Stórt, einfalt og stöðugt.</strong> Stór texti og myndir, mikil birtuskil og stýringar sem haldast á sama stað.</li><li><strong>Virðing fyrir fullorðnum.</strong> Myndir úr raunveruleikanum og látlaus, hlý orð. Engar teiknimyndir, sönglandi hrós eða emoji-verðlaun.</li><li><strong>Auðveld leið út.</strong> „Lokið í bili“ er alltaf sýnilegt. Að hætta á miðri leið er góð niðurstaða.</li><li><strong>Einkamál sjálfgefið.</strong> Engir notendareikningar né auglýsingar. Myndir sem þú velur haldast í tækinu þínu.</li></ul><h2>Það sem við fullyrðum ekki</h2><p>Leikirnir okkar og athafnirnar eru til ánægju og tengsla. Þær greina ekki, prófa, mæla, meðhöndla, hægja á eða koma í veg fyrir heilabilun eða Alzheimers-sjúkdóminn, og enginn ætti að velja þær í þeim tilgangi. Þegar við skrifum um heilsurannsóknir segjum við skýrt hvar sönnunargögnin eru veik, og tengjum þær aldrei við okkar eigin athafnir.</p><h2>Hver við erum</h2><p>Creative Activities er lítið, sjálfstætt teymi. Við erum ekki læknar eða sérfræðingar í klínískri þjónustu. Leiðbeiningar okkar eru skrifaðar út frá birtum leiðbeiningum frá samtökum eins og National Institute on Aging og Alzheimer's Association, og hver leiðbeining skráir heimildir sínar. Lestu <a href=\"/editorial-policy/\">hvernig við skrifum og yfirförum síðurnar okkar</a>.</p><h2>Segðu okkur hvað myndi hjálpa</h2><p>Okkur þætti vænt um að heyra hvað reynist þér vel og hvað ekki, sérstaklega frá fólki með heilabilun, aðstandendum og starfsfólki í virkni. Sendu tölvupóst á <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Hvernig við skrifum og yfirförum síðurnar okkar",
       "seoTitle": "Ritstjórnarstefna",
-      "description": "Hvernig Creative Activities aflar heimilda, skrifar og uppfærir síður um afþreyingu við heilabilun og heilaheilsu, og hvað við munum aldrei birta.",
+      "description": "Hvernig Creative Activities rannsakar, skrifar, aflar heimilda og uppfærir athafna- og heilsusíður sínar, og hvað við munum aldrei birta.",
       "crumb": "Ritstjórnarstefna",
       "bodyHtml": "<h2>Heimildir okkar</h2><p>Við byggjum leiðbeiningar okkar á opinberum gögnum frá stofnunum og samtökum á borð við National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance og NHS, ásamt ritrýndum rannsóknum eins og Cochrane-yfirlitsgreinum og stórum klínískum rannsóknum. Hver leiðbeining birtir þær heimildir sem hún byggir á. Við lesum sérhverja heimild áður en við vitnum í hana og segjum aðeins frá því sem þar kemur raunverulega fram.</p><h2>Hvernig við skrifum</h2><ul><li>Gagnlegt fyrst og fremst: hvað er hægt að gera í dag, á einföldu máli.</li><li>Heiðarleg gagnvart vísbendingum: við notum orðalag eins og „tengt við“, „gæti“ og „vísbendingar eru blendnar“ þegar það á við.</li><li>Virðing í fyrirrúmi: við skrifum um fólk með heilabilun sem fullorðna einstaklinga og notum aldrei yfirheyrslutón eða orðalag sem særir.</li><li>Enginn uppspuni: engar tilbúnar tölur, tilvitnanir, sérfræðingar, rannsóknir, dómar eða meðmæli.</li></ul><h2>Hverjir yfirfara síðurnar okkar</h2><p>Síðurnar eru skrifaðar og yfirfarnar af teyminu hjá Creative Activities, með aðstoð gervigreindartóla við gagnaöflun og drög. Sérhver síða er borin saman við heimildir af teyminu. Síðurnar okkar hafa <strong>ekki</strong> verið yfirfarnar af lækni eða öðru heilbrigðisstarfsfólki og við höldum því aldrei fram. Þær innihalda almennar upplýsingar, ekki læknisfræðilega ráðgjöf.</p><h2>Hvað við munum aldrei birta</h2><ul><li>Fullyrðingar um að leikur, matur, bætiefni, fasta eða ákveðnar venjur komi í veg fyrir, meðhöndli, hægi á eða lækni heilabilun.</li><li>Próf, spurningakeppnir eða stigatölur sem gefa í skyn að einhver sé með, eða ekki með, heilabilun.</li><li>Ráðleggingar um að byrja á, hætta á eða breyta einhverjum lyfjum.</li><li>Auglýsingar eða kostað efni í gervi leiðbeininga.</li></ul><h2>Uppfærslur og leiðréttingar</h2><p>Á hverri síðu kemur fram hvenær hún var síðast uppfærð. Ef þú finnur villu eða úrelta heimild, vinsamlegast sendu tölvupóst á <a href=\"mailto:{email}\">{email}</a> og við munum skoða það fljótt.</p>"
     },
     "faq": {
       "title": "Spurningar og svör",
-      "seoTitle": "Leikir og samverustundir við heilabilun: Spurningar og svör",
-      "description": "Svör við algengum spurningum um leiki og samverustundir við heilabilun: hvaða leiki er gott að prófa, hversu lengi á að spila, hugmyndir fyrir síðari stig.",
+      "seoTitle": "Spurningar og svör um Creative Activities",
+      "description": "Svör við algengum spurningum um leikina og athafnirnar: hvaða á að prófa, hversu lengi á að leika, hópa og hugmyndir fyrir síðari stig, heilsu og persónuvernd.",
       "crumb": "Spurningar og svör",
       "lede": "Stutt og skýr svör við þeim spurningum sem aðstandendur spyrja oftast.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Um leikina",
           "items": [
             {
-              "q": "Hvaða leikir henta best fyrir manneskju með heilabilun?",
+              "q": "Hverjir eru bestu leikirnir fyrir eldra fólk?",
               "a": "Bestu leikirnir eru kunnuglegir, einfaldir og án allrar pressu, og rétti leikurinn er sá sem viðkomandi hefur gaman af í dag. Myndapörun þar sem myndirnar eru sýnilegar, flokkun, auðveld pússl, að klára þekkt máltæki, litun og myndabingó henta mörgum vel. Forðastu tímatöku, stigafjölda og allt sem minnir á próf."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Heilaheilsa",
+          "title": "Heilabilun og heilsa",
           "items": [
             {
               "q": "Geta leikir komið í veg fyrir eða hægt á heilabilun?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Nánari upplýsingar: <a href=\"/caregiving/how-to-play-together/\">hvernig við spilum saman</a>, <a href=\"/caregiving/when-they-say-no/\">þegar sagt er nei</a>, <a href=\"/activities/late-stage/\">samverustundir á síðari stigum</a> og <a href=\"/brain-health/can-dementia-be-prevented/\">er hægt að koma í veg fyrir heilabilun?</a>"
+      "moreHtml": "Nánari upplýsingar: <a href=\"/caregiving/how-to-play-together/\">hvernig má leika saman</a>, <a href=\"/caregiving/when-they-say-no/\">þegar viðkomandi segir nei</a>, <a href=\"/activities/late-stage/\">athafnir á síðari stigum</a> og <a href=\"/dementia-activities/\">athafnir við heilabilun heima</a>."
     },
     "handout": {
       "title": "Ókeypis, ljúfir leikir fyrir fólk með heilabilun",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Fyrir hjúkrunarheimili, bókasöfn og stuðningshópa",
-      "seoTitle": "Ókeypis afþreying við heilabilun fyrir hjúkrunarheimili og hópa",
-      "description": "Hvernig hjúkrunarheimili, dagdvalir, bókasöfn, öldrunarþjónustur og stuðningshópar nýta ókeypis leikina okkar, ásamt texta til að setja okkur á tenglalista.",
+      "seoTitle": "Ókeypis athafnir fyrir hjúkrunarheimili, bókasöfn og hópa",
+      "description": "Hvernig hjúkrunarheimili, dagdvalir fyrir fullorðna, bókasöfn, öldrunarstofnanir og stuðningshópar nota ókeypis leiki okkar og athafnaleiðbeiningar, ásamt texta til að bæta okkur á lista yfir úrræði.",
       "crumb": "Fyrir samtök og stofnanir",
       "lede": "Allt á þessum vef er ókeypis til notkunar með íbúum, félagsmönnum og skjólstæðingum, án aðgangs, leyfis eða gjalda. Á þessari síðu er útskýrt hvað er hér í boði og hvernig má deila því.",
-      "shortText": "{name}: ókeypis og rólegir myndaleikir og samveruhugmyndir fyrir fólk með heilabilun og aðstandendur þeirra. Engin skráning, engin tímamörk og engin stig.",
-      "longText": "{name} ({domain}) býður upp á {count} ókeypis vafraleiki sem eru gerðir fyrir fólk með heilabilun, þar á meðal samstæðuleiki þar sem myndirnar snúa áfram upp, einföld púsl, flokkun, þekkta málshætti og myndabingó með útprentanlegum spjöldum. Engin þörf er á aðgangi, engar auglýsingar, engin tímamörk og engin stig. Á vefnum eru einnig samveruleiðbeiningar á skýru máli fyrir hvert stig heilabilunar, með vísunum í National Institute on Aging og Alzheimer's Association.",
+      "shortText": "{name}: ókeypis, mildir myndaleikir og athafnaleiðbeiningar fyrir eldra fólk, fjölskyldur og fólk með heilabilun. Engin skráning, engar klukkur, engin stig.",
+      "longText": "{name} ({domain}) býður upp á {count} ókeypis vafraleiki fyrir eldra fólk, fjölskyldur og fólk sem lifir með heilabilun, þar á meðal myndapör þar sem myndirnar eru sýnilegar, auðvelt púsl, flokkun, þekkt máltæki og myndabingó með prentanlegum spjöldum. Enginn notandaaðgangur, engar auglýsingar, enginn tímamælir og engin stig. Vefurinn hefur einnig einfaldar leiðbeiningar um athafnir fyrir fjölskyldur, eldra fólk og starfsfólk, með heimildum eins og National Institute on Aging og Alzheimer's Association.",
       "useTitle": "Hvað samtök og starfsstaðir geta nýtt",
       "gamesItemHtml": "<strong>{count} vafraleikir</strong> sem virka í fartölvu, spjaldtölvu eða á sjónvarpi sem er tengt við tölvu. Ekkert að setja upp, enginn aðgangur og ekkert að sækja. Skoða <a href=\"/games/\">alla leiki</a>.",
       "printablesLabel": "{count} útprentanleg verkefni:",
       "printablesAfter": "Notaðu prenthnappinn á hverri síðu.",
-      "moreItemsHtml": "<li><strong>Fyrir hópa:</strong> <a href=\"/games/picture-bingo/\">Myndabingó</a> er með útprentanleg spjöld og tölvu sem dregur á skjánum, og <a href=\"/activities/trivia/\">einfaldur spurningaleikur</a> býður upp á 50 spurningar með svarmöguleikum og umræðuefnum.</li><li><strong>Samveruhugmyndir</strong> fyrir starfsfólk og fjölskyldur, flokkaðar eftir stigum og tegundum, skrifaðar á skýru máli með heimildum. Byrjaðu á <a href=\"/activities/ideas/\">101 hugmynd að samveru</a> eða <a href=\"/activities/care-home-groups/\">hópastarfi fyrir hjúkrunarheimili</a>.</li>",
+      "moreItemsHtml": "<li><strong>Hópsnið:</strong> <a href=\"/games/picture-bingo/\">Myndabingó</a> er með prentanlegum spjöldum og kallara á skjánum, og <a href=\"/together/conversation-games-for-all-ages/\">samtalsleikir</a> hafa spurningar með svarmöguleikum og umræðuefni.</li><li><strong>Leiðbeiningar um athafnir</strong> fyrir starfsfólk og fjölskyldur, skrifaðar á einföldu máli og með heimildum. Byrjaðu á <a href=\"/activities/ideas/\">101 hugmynd að athöfnum</a> eða <a href=\"/crafts/craft-group-sessions/\">hópathöfnum á dvalarheimilum</a>.</li>",
       "restHtml": "<h2>Hvernig hópar nýta vefinn</h2><ul><li><strong>Hjúkrunarheimili og minnisdeildir:</strong> myndabingó eða klára málshætti á sjónvarpinu í setustofunni, þar sem einn stýrir fyrir hópinn.</li><li><strong>Dagdvalir og dagþjálfun:</strong> spjaldtölvuhorn með myndasamstæðum stilltum á fjóra reiti, fyrir stuttar samverustundir tveggja og tveggja.</li><li><strong>Bókasöfn:</strong> útprentuð orðaleit og samræðuspjöld í minnispökkum, og vefurinn vistaður sem bókamerki á spjaldtölvum safnsins.</li><li><strong>Stuðningshópar aðstandenda og minniskaffihús:</strong> <a href=\"/handout/\">einfalt útprentanlegt blað</a> sem fjölskyldur geta tekið með sér heim.</li><li><strong>Sjúkrahús og útskriftarteymi:</strong> upplýsingablaðið í gögnum til aðstandenda, sem róleg samvera heima eða við sjúkrarúmið.</li></ul><h2>Hvað við gerum ekki</h2><p>Leikirnir eru hugsaðir til skemmtunar og samverustunda. Þeir greina ekki, prófa, meta, meðhöndla eða hægja á heilabilun, og við biðjum samtök og starfsstaði að lýsa þeim ekki þannig. Hér eru engar auglýsingar og leikirnir biðja aldrei um nöfn, heilsufarsupplýsingar eða að myndum sé hlaðið upp. Vefurinn notar Google Analytics til að telja heimsóknir; í <a href=\"/privacy/\">persónuverndarstefnu</a> okkar kemur fram hvaða upplýsingum er safnað. Myndir sem notaðar eru í <a href=\"/games/photo-pairs/\">Myndasamstæðum</a> verða áfram í vafranum.</p><h2>Bættu okkur við tenglalistann þinn</h2><p>Ef þú heldur úti lista yfir gagnleg tengsl fyrir aðstandendur er þér velkomið að vísa á <a href=\"/\">{domain}</a>. Þú mátt afrita hvor lýsinganna sem er.</p>",
       "shortTitle": "Stutt lýsing",
       "longTitle": "Lengri lýsing",
-      "linksHtml": "<p>Gagnlegar síður til að vísa beint á: <a href=\"/games/\">ókeypis leikir</a>, <a href=\"/activities/printable/\">útprentanleg verkefni</a>, <a href=\"/activities/alzheimers/\">afþreying við Alzheimer</a> og <a href=\"/caregiving/how-to-play-together/\">hvernig við spilum saman</a>.</p><h2>Spurningar eða ábendingar</h2><p>Ef eitthvað á vefnum er rangt eða óljóst, eða ef efnið mætir ekki þörfum íbúa, má gjarnan láta okkur vita á <a href=\"mailto:{email}\">{email}</a>. Vinsamlegast sendið ekki persónuupplýsingar eða heilsufarsgögn um íbúa eða skjólstæðinga.</p>"
+      "linksHtml": "<p>Gagnlegar síður til að tengja beint á: <a href=\"/games/\">ókeypis leikir</a>, <a href=\"/games/\">ókeypis prentefni</a>, <a href=\"/dementia-activities/\">athafnir heima fyrir fólk með heilabilun</a> og <a href=\"/caregiving/how-to-play-together/\">hvernig á að spila saman</a>.</p><h2>Spurningar eða leiðréttingar</h2><p>Ef eitthvað á vefnum er rangt eða óskýrt, eða ef þörfum íbúa er ekki mætt með því efni sem hér er, vinsamlegast láttu okkur vita á <a href=\"mailto:{email}\">{email}</a>. Vinsamlegast sendu ekki persónu- eða heilsufarsupplýsingar um íbúa eða skjólstæðinga.</p>"
     },
     "app": {
       "title": "Creative Activities appið",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Ókeypis netleikir fyrir fólk með heilabilun og Alzheimer",
-    "description": "Ókeypis netleikir fyrir eldra fólk með heilabilun eða Alzheimer: samstæðuleikir, einföld púsl, flokkun, málshættir, litun og bingó.",
+    "title": "Ókeypis leikir til að spila saman á netinu",
+    "description": "Ókeypis leikir á netinu fyrir eldra fólk, fjölskyldur og fólk sem lifir með heilabilun: myndapör, auðveld púsl, flokkun, máltæki, litun og bingó. Engin nýskráning, tímamælar eða stig.",
     "crumb": "Leikir",
-    "h1": "Rólegir leikir fyrir fólk með heilabilun",
+    "h1": "Ljúfir leikir til að spila saman",
     "lede": "{count} ókeypis leikir til að spila saman í vafranum. Stórar myndir, einfalt mál og ekkert sem hægt er að mistakast í: engir tímateljarar, engin stig og engin nýskráning.",
-    "listName": "Rólegir leikir fyrir fólk með heilabilun",
+    "listName": "Ljúfir leikir til að spila saman",
     "byStageTitle": "Að velja leik eftir stigum",
     "byStageLede": "Stigin eru aðeins gróf vísbending. Miðaðu við hvað manneskjunni þykir skemmtilegt og hvað hentar vel í dag.",
     "stageCol": "Stig",
     "gamesCol": "Leikir sem eiga oft vel við",
-    "moreHtml": "Fleiri hugmyndir fjarri skjánum: <a href=\"/activities/ideas/\">101 viðfangsefni fyrir fólk með heilabilun</a>, <a href=\"/activities/alzheimers/\">afþreying og leikir fyrir fólk með Alzheimer</a>, <a href=\"/activities/memory-games/\">rólegir minnisleikir</a> og <a href=\"/activities/puzzles/\">púsl</a>.",
+    "moreHtml": "Fleiri hugmyndir án skjás: <a href=\"/activities/ideas/\">101 hugmynd að athöfnum</a>, <a href=\"/dementia-activities/\">athafnir heima fyrir fólk með heilabilun</a> og <a href=\"/crafts/\">föndur</a>.",
     "faq": [
       {
         "q": "Með hvaða leik ættum við að byrja?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Eru þetta minnisleikir fyrir eldra fólk?",
-        "a": "Þetta eru samstæðu- og myndaleikir sem allir eldri borgarar geta haft gaman af, en þeir eru hannaðir til að reyna ekki á minnið: í Myndapörum snúa myndirnar alltaf upp nema valið sé annað. Leiðarvísir okkar um minnisleiki fyrir eldra fólk með heilabilun útskýrir hvernig hægt er að hafa alla minnisleiki rólega og án álags."
+        "a": "Þetta eru samræmingar- og myndaleikir sem hver eldri einstaklingur getur notið, en þeir eru hannaðir þannig að þeir prófi ekki minnið: í Myndapörum liggja myndirnar upp á við nema þú veljir annað. Hægt er að gera hvaða minnisleik sem er mildari með því að sleppa tímamælinum og stigunum."
       },
       {
         "q": "Eru til leikir fyrir hópa á hjúkrunarheimili?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Er til afþreyingarforrit fyrir fólk með heilabilun?",
+        "q": "Er til smáforrit fyrir eldra fólk og fjölskyldur?",
         "a": "Já. Creative Activities (skráð sem „{storeName}“) er ókeypis í App Store og á Google Play. Það býður upp á rólega myndapörun með stórum reitum, leiki með eigin fjölskyldumyndum og myndapakka sem virka án nettengingar."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Til útprentunar",
     "howTo": "Hvernig á að spila {name}",
     "tips": "Góð ráð þegar spilað er saman",
-    "newToPlayingHtml": "Ertu að spila í fyrsta sinn með einhverjum sem lifir með heilabilun? Lestu um <a href=\"/caregiving/how-to-play-together/\">hvernig þið getið spilað saman</a>, þar á meðal hvað er gott að gera ef áhuginn dvínar.",
+    "newToPlayingHtml": "Ertu nýr í að spila með eldri einstaklingi eða með einhverjum sem lifir með heilabilun? Lestu <a href=\"/caregiving/how-to-play-together/\">hvernig á að spila leiki saman</a>, þar á meðal hvað á að gera ef viðkomandi missir áhugann.",
     "moreAria": "Skoða fleira",
     "helpfulGuides": "Gagnlegar leiðbeiningar",
     "appTitle": "Spilaðu í appinu",
@@ -536,6 +666,35 @@
     "goodToKnow": "Gott að vita",
     "goodToKnowText": "Þessi leikur er hugsaður til ánægju og samveru. Hann prófar, mælir eða meðhöndlar ekki neitt.",
     "moreGames": "Fleiri ljúfir leikir",
-    "crumb": "Leikir"
+    "crumb": "Leikir",
+    "print": {
+      "heading": "Spilað á pappír",
+      "sameRules": "Pappírsútgáfan hefur sömu reglur og leikurinn á skjánum:",
+      "button": "Prentaðu pappírsútgáfu",
+      "pageNote": "Ein síða á A4 eða US Letter, fín í svarthvítu. Útgáfa {date}.",
+      "islandNote": "Það prentar það sem er á skjánum núna. Útgáfa {date}.",
+      "sheetTitle": "{name}: pappírsútgáfa",
+      "point": "Á pappír skaltu benda á mynd í stað þess að smella á hana, eða draga hring utan um hana með penna. Hver röð er nýtt sett.",
+      "pointTarget": "Á pappír er myndin sem á að skoða í reitnum í upphafi hverrar raðar. Benddu á mynd í stað þess að smella á hana, eða dragðu hring utan um hana með penna.",
+      "halves": "Hver mynd er skorin í tvennt eftir miðju. Dragðu línu frá hverjum helmingi vinstra megin að þeim helmingi hægra megin sem passar við hann, eða benddu með fingri. Ekkert þarf að klippa.",
+      "grid": "Hver reitur hefur tölu. Finndu töluna í lyklinum og litaðu reitinn með litblýanti í þeim lit. Hvaða annar litur sem er gengur líka. Ekkert þarf að klippa.",
+      "colors": "Hver röð nefnir lit. Benddu á allar myndir í þeim lit, eða dragðu hring utan um þær með penna. Hver röð er nýtt sett.",
+      "dice": "Hver röð er sett af myndateningum. Veldu röð, eða klipptu myndirnar út, dragðu nokkrar úr bunka og segðu sögu með þeim í hvaða röð sem er. Hver sem er má sleppa.",
+      "words": "Klipptu út orðin, eða dragðu línu frá hverju orði að myndinni sinni. Lestu orðin upphátt um leið.",
+      "cards": "Klipptu spilin út eftir brotnu línunum. Leggðu þau upp á borðið og finndu pörin.",
+      "chain": "Á pappír skaltu lesa myndirnar frá vinstri til hægri, eina á eftir annarri. Hver og einn segir eina setningu um myndirnar sem komnar eru, og bendir síðan á næstu mynd. Hver sem er má sleppa.",
+      "sort": "Klipptu myndirnar út eftir brotnu línunum og settu síðan hverja mynd í reitinn þar sem hún á heima.",
+      "puzzle": "Klipptu stóru myndina eftir brotnu línunum í fjóra búta og blandaðu þeim saman. Skiptu tveimur bútum í einu þar til myndin er heil. Litla myndin er til viðmiðunar.",
+      "cutSafety": "Aðstoðarmaður getur klippt áður en þú byrjar. Leggðu skærin frá þér eftir á.",
+      "version": "Útgáfa {date} · {url}",
+      "reasons": {
+        "photos": "Það er engin pappírsútgáfa. Þessi leikur notar þínar eigin myndir, sem haldast í vafranum og eru aldrei sendar inn, svo vefurinn getur ekki prentað þær. Til að spila á pappír skaltu prenta tvö eintök af nokkrum uppáhaldsmyndum heima og para þær saman á borðinu.",
+        "paced": "Það er engin pappírsútgáfa. Hringurinn setur hægan, jafnan takt á skjánum, og prentuð síða getur ekki gert það, svo þetta væri önnur athöfn. Rólegt hlé saman án skjás er alltaf valkostur.",
+        "turns": "Það er engin pappírsútgáfa af þessum leik. Til að finna pör á borðinu skaltu prenta myndaspilin úr Myndapörum og skiptast á að snúa þeim við.",
+        "screen": "Það er engin prentuð útgáfa. Þetta er mynd til að skoða saman á skjá; uppáhaldsmynd eða póstkort á borðinu gerir sama gagn.",
+        "wash": "Það er engin prentuð útgáfa. Vatnslitamálun á pappír er sama hugmynd: blautur pensill og einn litur í einu.",
+        "sayings": "Það er engin prentuð útgáfa enn sem komið er. Á pappír myndu allir endar birtast í einu og mildu skrefið „Sýna endinn“ myndi glatast. Lesið málshættina saman af skjánum, eða deilið nokkrum sem þið þekkið bæði."
+      }
+    }
   }
 }
