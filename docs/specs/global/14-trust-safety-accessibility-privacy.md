@@ -89,6 +89,8 @@ Risks / not doing: Do not hide a control behind hover.
 ### TSA-005 · Color, contrast and text alternatives
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): `theme-contrast-scan.test.ts` finds every rule that sets a token text color on a token background (95 rules, 16 pairs) and checks them in light, dark and both high-contrast themes; all pass, the lowest at 7.05:1. 29 rules use a color outside the tokens and cannot be checked this way; moving them to tokens is the next step. Alt text quality needs a person.
+
 Evidence: axe color-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
 
 Why: Instructions must not depend on color. Instructional images need text alternatives [DESIGN §6; SEO.md §5.2].
@@ -474,6 +476,8 @@ Risks / not doing: Do not wait for a keyword match to show the route.
 
 ### TSA-028 · Claims vocabulary and banned words
 Priority P0 · Phase S1 · Status partial · Pillars: all
+
+Status note (2026-11-21): `pnpm check:claims-i18n` reports draft claim terms in translated guides for Arabic, Bengali, Czech, Danish, German, Spanish and French (19 of 63 cells have a basis in the repository; the rest are empty). It is report only: it cannot yet tell "not therapy" from a claim, so its 1,208 hits overstate the problem, and a native reviewer must confirm the terms before `--strict` means anything.
 
 Evidence: `site/src/lib/claims.ts` and `claims.test.ts` lint English activity cards, hubs, guides, `i18n/ui/en.json` and the boundary page; English passes. Translated locales are not covered yet (needs the reviewer's equivalents list).
 
