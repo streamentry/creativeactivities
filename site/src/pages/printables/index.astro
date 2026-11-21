@@ -67,7 +67,7 @@ const groups = printableGroups({ cardCount: cards.length, cardUpdated });
   .printables__item {
     padding: var(--space-md) var(--space-lg);
     background: var(--gm-surface);
-    border-left: 6px solid var(--gm-outline);
+    border-inline-start: 6px solid var(--gm-outline);
     border-radius: var(--radius-sm);
   }
   .printables__item h3 {
@@ -77,7 +77,7 @@ const groups = printableGroups({ cardCount: cards.length, cardUpdated });
     margin: 0;
   }
   .printables__item:focus-within {
-    border-left-color: var(--gm-primary);
+    border-inline-start-color: var(--gm-primary);
   }
   .printables__version {
     margin-top: var(--space-xs) !important;
