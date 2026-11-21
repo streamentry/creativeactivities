@@ -115,7 +115,7 @@ Target **WCAG 2.2 AA** for interfaces: 4.5:1 normal text, 3:1 large text and rel
 A calm, low-light option the person turns on in the comfort settings. It is an
 explicit choice, not the system's dark mode: the app still ignores the device
 setting. It uses only the `bedside-*` tokens above, with `sun` as the one
-filled action colour and ink text on it. Every control keeps the same size
+filled action color and ink text on it. Every control keeps the same size
 rules as the default theme. It turns off the tap click sound, so the activity
 stays quiet. Text and edges are checked in `test/design_system_bedside_test.dart`.
 
