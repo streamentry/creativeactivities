@@ -187,7 +187,8 @@ describe('theme-init.js applies reading settings before paint', () => {
     const attrs = runEarly(keyed({ 'gm-line-length': 'long', 'gm-spacing': 'less' }));
     expect(attrs.has('data-line')).toBe(false);
     expect(attrs.has('data-spacing')).toBe(false);
-    expect(runEarly('throws').size).toBe(0);
+    // Blocked storage sets no reading or theme setting; the consent bar is still asked for, as its own script would.
+    expect([...runEarly('throws').keys()].filter((name) => name !== 'data-consent-ask')).toEqual([]);
   });
 
   it('reads the same keys as LINE_LENGTH_KEY and SPACING_KEY', () => {

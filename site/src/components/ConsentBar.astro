@@ -15,7 +15,7 @@ interface Props {
 const { lang = 'en' } = Astro.props;
 const c = ui(lang).common.consent;
 ---
-<aside class="consent-bar" data-consent-bar aria-labelledby="consent-title" hidden>
+<aside class="consent-bar" data-consent-bar aria-labelledby="consent-title">
   <div class="container consent-bar__inner">
     <p class="consent-bar__text">
       <strong id="consent-title">{c.title}</strong>
@@ -69,6 +69,17 @@ const c = ui(lang).common.consent;
 </script>
 
 <style>
+  /* Shown from the first paint only when public/theme-init.js finds no stored answer and no Global Privacy
+     Control (data-consent-ask on <html>), so the bar never appears late and pushes the page down (CLS).
+     The script below sets [hidden] once a choice is made; without JavaScript the bar stays hidden. */
+  .consent-bar {
+    display: none;
+  }
+  @media screen {
+    :global(html[data-consent-ask]) .consent-bar:not([hidden]) {
+      display: block;
+    }
+  }
   .consent-bar {
     background: var(--gm-surface);
     border-bottom: 2px solid var(--gm-primary);
