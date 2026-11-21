@@ -484,6 +484,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | DPIA template, withdrawal runbook, and a per-metric privacy note | TSA-013, TSA-045, MET-037 partial | Written by a Haiku subagent from the repository; owners, targets and counsel's check are marked "TO SET". The note flags four metric conflicts for the maintainer |
 | Crisis routes in a data file with a check date and a source field | L10N-009, CNT-1003 partial | Built by a Haiku subagent; the 18,921 built files are byte-identical to before; no number changed or re-checked |
 
+### Batch 56 (2026-11-21): reading direction, casing, language inventory, card audit and one validation command
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Website CSS uses logical properties for reading direction, with a lint test; user-visible casing follows the page language | L10N-016, L10N-017 partial | Built by a Haiku subagent; the Turkish test failed first. Review restored one physical value: the decorative tape strip is centered with `left: 50%` and a transform, which a logical start value would push off center on a right-to-left page |
+| `scripts/l10n_inventory.py` and [language-inventory.md](global/language-inventory.md): keys and files per language and surface, review status, placeholders | L10N-001 partial | Built by a Haiku subagent; 190 codes; 103 placeholder strings, all from the re-translation in #112 |
+| `pnpm audit:cards` and [card-audit.md](global/card-audit.md); large-grip variations for three cards | CNT-901, CNT-902 partial | Built by a Haiku subagent; nine cards still lack a large-grip variation because of the six-variation limit |
+| `pnpm content:validate`: all 13,126 content records against the site's own schemas, without a build | PLAT-011 partial | Built by a Haiku subagent; it reaches Astro's front-matter helper through Astro's install (not a direct dependency), so an Astro upgrade may need a change; its tests would show it |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
@@ -515,6 +524,7 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 | Analytics on Picture puzzle now that it accepts a family photo (GAME-058) | TSA-011, GAME-058 | Keep analytics there after consent (no photo data is ever sent), or turn it off as on Photo pairs, which loads no analytics at all | Turn it off, to match Photo pairs: any page where a family photo can be opened loads no tracker |
 | The word for dementia in four live languages (L10N-007) | L10N-007, L10N-008, store listings | The draft glossary ([terminology.md](global/terminology.md)) found titles and headings using the term the project's own research says to avoid: French *démence* (research: use *maladie d'Alzheimer et maladies apparentées* or *troubles cognitifs*; 70 of 114 French guide titles), Arabic الخرف (research: public copy uses الزهايمر; 74 of 80), Korean 치매 (research: 43.8% dislike it, do not title with it, though searchers type it; 79 of 80, and the Korean store name), Simplified Chinese 老年痴呆 in two guide descriptions. Change titles now, or wait for a native reviewer per language | Ask a native reviewer for French, Arabic and Korean first; Korean needs a choice between the respectful title word and the word people search with |
 | Units on cards (L10N-014) | L10N-014 | Keep US customary only, or convert once by a rule for each locale, checked by a reviewer | Keep US customary until a reviewer for metric units is named |
+| Six variations per card (CNT-902) | CNT-902, CNT-901 | Nine cards have six variations, the schema maximum, and none for a large grip. Raise the limit to seven (each card must still print on one two-sided sheet), or replace a weaker variation on each | Replace on each card after an occupational therapist has read them; keep the limit, which protects the printed sheet |
 | Analytics on the kids guides (CNT-880) | CNT-880 | The guides under `/kids/` load the analytics consent bar like other pages; CNT-880 says no trackers on pages a child can reach. Keep it there (the guides are written for parents), or turn it off there as on Photo pairs | Turn it off on `/kids/`: it costs little and matches the rule as written |
 | The reader-facing "Due for a check" notice (MET-011) | MET-011, WEB-076 | `review-queue-lib.mjs` still dates a page with no review by its last update, so an edit hides it from the queue and the notice. Change it to count only reviews (then every card shows as never reviewed), or keep it | Change it, with the notice reworded to "not yet reviewed" so readers are not alarmed |
 

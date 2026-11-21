@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest';
 import {
   FILTERABLE_FLAGS,
   FILTER_LABELS,
+  capitalize,
   SAFETY_FLAGS,
   SAFETY_FLAG_LABELS,
   factList,
@@ -44,7 +45,18 @@ describe('glance', () => {
   });
 
   it('lists every fact with a value', () => {
-    expect(factList(COLLAGE).every((f) => f.value.length > 0)).toBe(true);
+    expect(factList(COLLAGE, 'en').every((f) => f.value.length > 0)).toBe(true);
+  });
+});
+
+describe('capitalize', () => {
+  it('uses the page language, so Turkish i becomes dotted capital İ', () => {
+    expect(capitalize('internet', 'tr')).toBe('İnternet');
+    expect(capitalize('internet', 'en')).toBe('Internet');
+  });
+
+  it('leaves an empty string alone', () => {
+    expect(capitalize('', 'en')).toBe('');
   });
 });
 

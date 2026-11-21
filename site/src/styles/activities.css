@@ -82,7 +82,7 @@
   outline-offset: 4px;
 }
 .activity-list {
-  padding-left: 1.25em;
+  padding-inline-start: 1.25em;
 }
 .activity-list li + li {
   margin-top: var(--space-sm);
@@ -124,7 +124,7 @@
 .activity-stop {
   padding: var(--space-lg);
   background: var(--gm-surface-sunken);
-  border-left: 6px solid var(--gm-primary);
+  border-inline-start: 6px solid var(--gm-primary);
   border-radius: var(--radius-md);
 }
 .activity-stop p {
@@ -232,7 +232,7 @@
 }
 .pack-checklist li {
   position: relative;
-  padding-left: 1.75em;
+  padding-inline-start: 1.75em;
 }
 .pack-checklist li + li {
   margin-top: var(--space-xs);
@@ -240,7 +240,7 @@
 .pack-checklist li::before {
   content: '';
   position: absolute;
-  left: 0;
+  inset-inline-start: 0;
   top: 0.25em;
   width: 1em;
   height: 1em;
@@ -263,7 +263,7 @@
   max-width: var(--content-max);
   padding: var(--space-lg);
   background: var(--gm-surface-sunken);
-  border-left: 6px solid var(--gm-primary);
+  border-inline-start: 6px solid var(--gm-primary);
   border-radius: var(--radius-md);
 }
 .hub-body {
@@ -310,7 +310,7 @@
   margin-bottom: var(--space-xl);
   padding: var(--space-lg);
   background: var(--gm-surface-sunken);
-  border-left: 6px solid var(--gm-primary);
+  border-inline-start: 6px solid var(--gm-primary);
   border-radius: var(--radius-md);
 }
 .finder-saved[hidden] {

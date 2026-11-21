@@ -68,7 +68,7 @@ export function chipLabel(facet: Facet, value: string): string {
     : facet === 'sense' ? labelIn(SENSE_CHOICES, value)
     : facet === 'talking' ? labelIn(TALKING_CHOICES, value)
     : labelIn(SUPERVISION_CHOICES, value);
-  return `${FACET_NAME[facet]}: ${(text ?? value).replace(/^(?!I\b)./, (c) => c.toLowerCase())}`;
+  return `${FACET_NAME[facet]}: ${(text ?? value).replace(/^(?!I\b)./, (c) => c.toLocaleLowerCase('en'))}`;
 }
 
 interface Rule {

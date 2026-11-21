@@ -495,7 +495,7 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
   font-size: var(--text-md);
 }
 .activity-changes__list {
-  padding-left: 1.25em;
+  padding-inline-start: 1.25em;
   margin: var(--space-sm) 0;
 }
 .activity-changes__list li + li {
@@ -516,7 +516,7 @@ html[data-contrast='high'] .activity-page .activity-steps li::before {
   }
   .activity-changes__list {
     margin: 0.5mm 0;
-    padding-left: 4mm;
+    padding-inline-start: 4mm;
   }
   .activity-changes__list li + li {
     margin-top: 0.5mm;

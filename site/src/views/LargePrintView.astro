@@ -24,7 +24,7 @@ const qr = qrSvg(`${SITE.url}${cardPath}`, `QR code for the ${d.name} page`);
 ---
 <BaseLayout
   title={`Large print: ${d.name}`}
-  description={`A large-print copy of the ${d.name.toLowerCase()} activity card, with the same steps and safety notes in bigger type.`}
+  description={`A large-print copy of the ${d.name.toLocaleLowerCase('en')} activity card, with the same steps and safety notes in bigger type.`}
   noindex
   canonicalPath={cardPath}
 >

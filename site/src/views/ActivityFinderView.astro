@@ -73,7 +73,7 @@ const lowerStatic = (() => {
       {
         PACKS.map((p) => (
           <p>
-            Want a few ready to go? <a href={`/activity/packs/${p.id}/`}>Print {p.title.split(':')[0].toLowerCase()}</a>, one card per page.
+            Want a few ready to go? <a href={`/activity/packs/${p.id}/`}>Print {p.title.split(':')[0].toLocaleLowerCase('en')}</a>, one card per page.
           </p>
         ))
       }
@@ -158,7 +158,7 @@ const lowerStatic = (() => {
             settings.map(([value, label]) => (
               <label class="choice">
                 <input type="radio" name="setting" value={value} />
-                <span>{label.charAt(0).toUpperCase() + label.slice(1)}</span>
+                <span>{label.charAt(0).toLocaleUpperCase('en') + label.slice(1)}</span>
               </label>
             ))
           }

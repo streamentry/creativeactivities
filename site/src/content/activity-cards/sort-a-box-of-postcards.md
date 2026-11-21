@@ -57,6 +57,8 @@ variations:
     text: "Hold up two cards and let them point to the one they like. Move cards to a pile by pointing or nodding, with no words needed."
   - kind: with-children
     text: "The child hands over one card at a time and the older adult decides which pile it joins. They can swap roles whenever they like."
+  - kind: large-grip
+    text: "Use a shallow tray or a large flat box lid, so the cards can be pushed across with the flat hand. Ask the helper to lift each card from the box and set it down in front of the person."
 images:
   - src: /pictures/sorted-postcards.svg
     alt: "Drawing of three tidy piles of postcards in blue, green, orange, yellow and pink, each with a red mark on the top card."

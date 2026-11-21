@@ -55,7 +55,7 @@ export function SeasonNow() {
             {seasonCalendar(shown).map((m) => (
               <li key={m.month} aria-current={m.month === month ? 'date' : undefined} className={m.month === month ? 'season-year__now' : undefined}>
                 <span className="season-year__month">{m.name}</span>{' '}
-                <a href={`/seasons/${m.season}/`}>{SEASON_PAGE_BY_ID[m.season].eyebrow.toLowerCase()}</a>
+                <a href={`/seasons/${m.season}/`}>{SEASON_PAGE_BY_ID[m.season].eyebrow.toLocaleLowerCase('en')}</a>
                 {m.month === month ? <span className="season-year__marker"> (this month)</span> : null}
               </li>
             ))}
@@ -66,7 +66,7 @@ export function SeasonNow() {
         {page ? (
           <>
             {choice === null ? 'We guess it is ' : 'It is '}
-            <a href={`/seasons/${page.id}/`}>{page.eyebrow.toLowerCase()}</a>
+            <a href={`/seasons/${page.id}/`}>{page.eyebrow.toLocaleLowerCase('en')}</a>
             {choice === null ? ' where you are, from your language setting. Change it above if that is wrong.' : '.'}
           </>
         ) : (

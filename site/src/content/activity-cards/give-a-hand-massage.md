@@ -56,6 +56,8 @@ variations:
     text: "Skip the lotion and use dry hands with very light touch, or wrap a warm towel around the hand instead."
   - kind: nonverbal
     text: "Offer an open palm and wait for the hand to come toward you. Stop if it pulls away or the face looks uneasy."
+  - kind: large-grip
+    text: "Rest the hand on a rolled towel so the fingers stay open without effort. Stroke with the whole palm, and move each finger only as far as it moves easily."
 images:
   - src: /pictures/hand-massage-with-lotion.svg
     alt: "Drawing of an open hand resting palm up on a blue towel, with a drop of lotion above it and a lotion bottle at the left."

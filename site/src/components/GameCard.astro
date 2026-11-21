@@ -31,6 +31,6 @@ const lead = variant === 'lead';
       <li class="tag tag--people">{game.players}</li>
       {game.printable && <li class="tag tag--print">{t.printable}</li>}
     </ul>
-    <span class="card__more" aria-hidden="true">{fill(t.play, { name: lang === 'en' ? game.name.toLowerCase() : game.name })}</span>
+    <span class="card__more" aria-hidden="true">{fill(t.play, { name: lang === 'en' ? game.name.toLocaleLowerCase(lang) : game.name })}</span>
   </div>
 </article>

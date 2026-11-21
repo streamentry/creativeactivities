@@ -239,7 +239,7 @@ export function Today() {
                     <li key={n.id}>
                       <span>
                         <strong>{SITUATION_BY_ID.get(n.situation)?.label}.</strong> {OUTCOME_IN_NOTES[n.outcome]}
-                        {n.timeOfDay ? ` (${TIME_OF_DAY_LABELS[n.timeOfDay].toLowerCase()})` : ''}.
+                        {n.timeOfDay ? ` (${TIME_OF_DAY_LABELS[n.timeOfDay].toLocaleLowerCase('en')})` : ''}.
                         {n.text ? ` “${n.text}”` : ''}
                       </span>
                       <button

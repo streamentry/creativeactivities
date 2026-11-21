@@ -32,10 +32,10 @@ import { SITE_STORES } from '../lib/your-data';
           <p class="data-item__status" data-status aria-live="polite"></p>
           <div class="data-item__actions">
             <button type="button" class="btn btn--quiet" data-action="download" data-store={store.id}>
-              Download {store.label.toLowerCase()}
+              Download {store.label.toLocaleLowerCase('en')}
             </button>
             <button type="button" class="btn btn--quiet" data-action="delete" data-store={store.id}>
-              Delete {store.label.toLowerCase()}
+              Delete {store.label.toLocaleLowerCase('en')}
             </button>
           </div>
         </li>
@@ -157,13 +157,13 @@ import { SITE_STORES } from '../lib/your-data';
       const [row] = readAll(browserStorage(), document.cookie).filter((r) => r.store.id === store.id);
       if (!row) return;
       download(`creative-activities-${store.id}.txt`, exportText([row]));
-      say(`Downloaded ${store.label.toLowerCase()}.`);
+      say(`Downloaded ${store.label.toLocaleLowerCase('en')}.`);
       return;
     }
-    if (!window.confirm(`Delete ${store.label.toLowerCase()} from this browser? This cannot be undone.`)) return;
+    if (!window.confirm(`Delete ${store.label.toLocaleLowerCase('en')} from this browser? This cannot be undone.`)) return;
     const ok = removeStore(store, browserStorage(), expireCookie);
     refresh();
-    say(ok ? `Deleted ${store.label.toLowerCase()}. Reload the page to see the site’s defaults.` : `Could not delete ${store.label.toLowerCase()}. The browser refused.`);
+    say(ok ? `Deleted ${store.label.toLocaleLowerCase('en')}. Reload the page to see the site’s defaults.` : `Could not delete ${store.label.toLocaleLowerCase('en')}. The browser refused.`);
   });
 
   document.querySelector('[data-action="download-all"]')?.addEventListener('click', () => {

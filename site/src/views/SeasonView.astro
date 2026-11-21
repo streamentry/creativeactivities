@@ -61,7 +61,7 @@ const jsonLd = [
     </section>
 
     <section aria-labelledby="season-activities" class="reveal">
-      <h2 id="season-activities">{own.length} for {page.eyebrow.toLowerCase()}</h2>
+      <h2 id="season-activities">{own.length} for {page.eyebrow.toLocaleLowerCase('en')}</h2>
       <p>{page.stopNote}</p>
       <ul class="activity-grid bento-grid">
         {own.map((a) => <li><ActivityCard activity={a} /></li>)}

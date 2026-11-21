@@ -120,7 +120,7 @@ export function WhatIHave({ cards, groups, assumed }: Props) {
                     ))}
                   </span>
                 </a>
-                {extras.length > 0 && <p className="wih__extras muted">Nice to have: {extras.join('; ').toLowerCase()}.</p>}
+                {extras.length > 0 && <p className="wih__extras muted">Nice to have: {extras.join('; ').toLocaleLowerCase('en')}.</p>}
                 {card.substitutions.length > 0 && (
                   <details className="wih__swaps">
                     <summary>If something is missing</summary>
@@ -158,7 +158,7 @@ export function WhatIHave({ cards, groups, assumed }: Props) {
               if (!card) return null;
               return (
                 <li key={o.id}>
-                  <a href={`/activity/${o.id}/`}>{card.name}</a> needs {choiceLabels(o.missing).join(' or ').toLowerCase()}.
+                  <a href={`/activity/${o.id}/`}>{card.name}</a> needs {choiceLabels(o.missing).join(' or ').toLocaleLowerCase('en')}.
                 </li>
               );
             })}

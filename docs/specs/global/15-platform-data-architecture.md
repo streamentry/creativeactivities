@@ -179,6 +179,9 @@ Risks / not doing: CMS lock-in. Gate proposal: move to a CMS when more than thre
 
 ### PLAT-011 · One validation command for every content type
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `cd site && pnpm content:validate` checks all 13,126 content records (cards, hubs, guides, translated guides) against the site's own schemas in about 7 to 16 seconds, without a build, and names each failing file and field. Not done: license and review rules (no license field exists), validation of changed files only, and a 10x measurement.
+
 Why: Zod checks frontmatter and `check-site.mjs` checks the built output, but no single step covers translations, variations, media and review records.
 What: one validation command reads every content type, including records that do not exist yet, and reports file and field for each error.
 Acceptance:

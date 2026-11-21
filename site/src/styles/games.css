@@ -2775,7 +2775,7 @@
   }
   .sheet-paper__cut[data-cut='down'] {
     inset: 0 auto 0 50%;
-    border-left-width: 2px;
+    border-inline-start-width: 2px;
   }
   /* Halves match on paper: left halves and right halves in two columns, with room between to draw a line.
      A dot on each cut edge marks where a line starts and ends. */
