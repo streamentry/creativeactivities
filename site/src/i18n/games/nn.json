@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Biletepar",
-    "seoTitle": "Paringsspel for demens: Biletepar",
+    "seoTitle": "Memoriespill for voksne: bildepar",
     "h1": "Biletepar: eit roleg paringsspel",
-    "description": "Eit gratis, roleg paringsspel for personar som lever med demens. Store bilete står synlege, det finst ingen tidtakar og ingen poeng, og du vel 4 til 12 ruter.",
+    "description": "Eit gratis, mildt memoriespill for vaksne og eldre vaksne, òg for personar som lever med demens. Bileta kan vere synlege heile tida. Ingen tidsavgrensing og ingen poengsum.",
     "short": "Finn dei to bileta som er like. Bileta kan stå synlege heile tida.",
     "players": "1 eller 2 personar, ved sida av kvarandre",
     "intro": "Trykk på eit bilete, og trykk så på det som passar til. Bileta står synlege som standard, så ingen treng å hugse noko. Når to bilete høyrer saman, får dei ein gylden ramme og ein hakemerkje.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Finn det same",
-    "seoTitle": "Finn det same biletet: eit enkelt demensspel",
+    "seoTitle": "Finn det same biletet: enkelt bildespel",
     "h1": "Finn det same biletet",
-    "description": "Eitt bilete øvst, to til fire nedst. Trykk på det som er likt. Eit roleg, gratis biletspel for personar som lever med demens, utan tidtakar.",
+    "description": "Eitt bilete øvst, to til fire under. Trykk på det som er likt. Eit roleg, gratis bildespel for vaksne, eldre og familiar, utan tidsavgrensing.",
     "short": "Sjå på biletet øvst og trykk på det same nedanfor.",
     "players": "1 eller 2 personar",
     "intro": "Eitt enkelt bilete står øvst på skjermen. Under det ligg to, tre eller fire bilete. Trykk på det som er likt. Det er eit enkelt val om gangen, med god plass til å prate.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Skuggeparing",
-    "seoTitle": "Skuggeparingsspel for demens: gratis på nett",
+    "seoTitle": "Skuggespel: gratis på nett for vaksne",
     "h1": "Skuggeparing: eit roleg biletspel",
-    "description": "Ein mørk skugge øvst, to til fire bilete nedst. Trykk på biletet som lagar skuggen. Eit gratis, roleg skuggeparingsspel for demens, utan tidtakar.",
+    "description": "Ein mørk skugge øvst, to til fire bilete under. Trykk på biletet som lagar skuggen. Eit gratis, roleg skuggespel utan tidsavgrensing.",
     "short": "Sjå på skuggen og trykk på biletet som lagar han.",
     "players": "1 eller 2 personar",
     "intro": "Skuggeparing er ein kjend aktivitet frå trykte arbeidsark, her med store bilete og utan noko å skrive ut. Ein mjuk skugge står øvst på skjermen, og to, tre eller fire bilete ventar under. Trykk på det som lagar skuggen. Former som ein sykkel, ein paraply eller ein tekopp er lette å prate om òg.",
@@ -100,8 +100,8 @@
         "a": "Nei. Det finst ingen klokke, ingen poeng, ingen trekkteljar og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
       },
       {
-        "q": "Er skuggematching bra for personar med demens?",
-        "a": "Det kan vere ein hyggeleg, enkel aktivitet for somme, særleg i tidlege stadium. Former er lettare å kjenne att enn ord. Aktiviteten er for kos og samtale, ikkje ein test, og han behandlar eller bremsar ikkje demens. Viss han skapar frustrasjon, prøv «Finn det same» eller berre sjå på bilete saman."
+        "q": "Kan personar som lever med demens ha glede av skuggespel?",
+        "a": "Mange vaksne har glede av det, òg somme personar som lever med demens, ofte i tidlege stadium. Former er lettare å kjenne att enn ord. Det er for glede og samtale, ikkje ein test, og det behandlar eller bremsar ikkje demens. Om det skapar frustrasjon, prøv Finn det same, eller sjå berre på bilete saman."
       },
       {
         "q": "Kva skjer viss det blir trykt på feil bilete?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Fire saman",
+    "seoTitle": "Biletgrupperingsspel for vaksne: Fire saman",
+    "h1": "Fire saman: eit roleg biletgrupperingsspel",
+    "description": "Somme av bileta har felles tema, til dømes frukt ellerver. Trykk på dei som høyrer saman. Eit gratis, roleg grupperingsspel utan tidsavgrensing og utan poengsum.",
+    "short": "Finn bilete som høyrer saman, til dømes frukt eller ver.",
+    "players": "1 eller 2 personar",
+    "intro": "Eit lite sett med bilete, og somme av dei høyrer saman: kanskje fire slag frukt, eller fire måtar å reise på. Trykk på dei som har felles tema. Om eit bilete høyrer til noko anna, nemner spelet berre det og ventar. Etter ei stille stund viser eit hint kva temaet er, og «Vis gruppa» avslører svaret når som helst.",
+    "howTo": [
+      "Vel fire, seks eller åtte bilete. Fire er enklast, med tre som høyrer saman.",
+      "Sjå på bileta saman og snakk om kva dei har felles.",
+      "Trykk på kvart bilete som høyrer til i gruppa. Det får ei gull ramme og ein hakemerkje.",
+      "Om eit bilete høyrer til noko anna, nemner spelet det og ventar. Ta deg god tid.",
+      "Trykk på «Vis gruppa» når du vil, og deretter «Eit nytt sett» for nye bilete."
+    ],
+    "tips": [
+      "Seie høgt kva du ser: «Desse to er begge noko å ete.»",
+      "Det er ingen hast. Eit hint som nemner temaet kjem etter ei pause, og du kan la det vere.",
+      "Snakk om gruppa når ho er funne: ein favorittfrukt, ein togtur, vêret i dag."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidsavgrensing eller poengsum?",
+        "a": "Nei. Det finst ingen klokke, poengsum, teljar for trekk eller tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Kva skjer om eit bilete utanfor gruppa blir trykt på?",
+        "a": "Ingenting ubehageleg. Det finst ingen summar, raudt kryss eller rysting. Spelet nemner biletet, seier at det høyrer til noko anna, og ventar på neste trykk."
+      },
+      {
+        "q": "Kva for grupper finst?",
+        "a": "Kvardagslege tema som ikkje krev spesiell kunnskap: frukt, dyr, blomar, ver, måtar å reise på, ting til ein varm drikke og ting som blir bakte i ovnen. Kvart bilete høyrer berre til éi gruppe."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Det som ikkje passar",
+    "seoTitle": "Spel: det som ikkje passar, for vaksne",
+    "h1": "Det som ikkje passar: eit avslappa bildespel",
+    "description": "Tre eller fire bilete, og alle unntatt eitt har felles tema, til dømes frukt eller ver. Trykk på det som ikkje høyrer til. Gratis, roleg, utan tidsavgrensing og utan poengsum.",
+    "short": "Finn biletet som ikkje høyrer til saman med dei andre.",
+    "players": "1 eller 2 personar",
+    "intro": "Tre eller fire bilete, og alle unntatt eitt høyrer saman: frukt, kanskje, eller måtar å reise på. Trykk på biletet som ikkje høyrer til. Om eit bilete faktisk høyrer til dei andre, seier spelet berre det og ventar. Etter ei stille stund viser eit hint kva dei andre har felles, og «Vis meg» peiker ut det som ikkje passar, når som helst.",
+    "howTo": [
+      "Vel tre eller fire bilete. Tre er enklast.",
+      "Sjå på bileta saman og snakk om kva dei fleste har felles.",
+      "Trykk på biletet som ikkje høyrer til. Det får ei gull ramme og ein hakemerkje.",
+      "Om eit bilete høyrer til dei andre, seier spelet det og ventar. Ta deg god tid.",
+      "Trykk på «Vis meg» når du vil, og deretter «Eit nytt sett» for nye bilete."
+    ],
+    "tips": [
+      "Snakk det igjennom høgt: «Eplet og peramma er begge frukt. Kva med bussen?»",
+      "Det er ingen hast. Eit hint som nemner temaet kjem etter ei pause, og du kan la det vere.",
+      "Eit kvart bilete er ein god start på ein samtale: ein favorittfrukt, ein bussetur, ein regnfull dag."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidsavgrensing eller poengsum?",
+        "a": "Nei. Det finst ingen klokke, poengsum, teljar for trekk eller tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Kva skjer om eit bilete som høyrer til blir trykt på?",
+        "a": "Ingenting ubehageleg. Det finst ingen summar, raudt kryss eller rysting. Spelet nemner biletet, seier at det høyrer til dei andre, og ventar på neste trykk."
+      },
+      {
+        "q": "Korleis blir biletet som ikkje passar valt?",
+        "a": "Bileta kjem frå kvardagslege tema som ikkje krev spesiell kunnskap: frukt, dyr, blomar, ver, måtar å reise på, ting til ein varm drikke og ting som blir bakte i ovnen. Kvart bilete høyrer berre til eitt tema, og det som ikkje passar kjem alltid frå eit anna tema."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Fargematch",
+    "seoTitle": "Fargematch: eit mildt bildespel",
+    "h1": "Fargematch: Finn bileta i éin farge",
+    "description": "Ein stor fargeflate med namnet sitt, og fire eller seks bilete. Trykk på kvart bilete som har den fargen. Ingen klokke, ingen poeng, og ei anna farge blir berre nemnd. Gratis å spele og skrive ut.",
+    "short": "Finn alle bileta som har same farge som den som blir vist.",
+    "players": "1 eller 2 personar, eller ein vaksen og eit barn",
+    "intro": "Ein stor fargeflate blir vist med namnet sitt skrive ved sidan av, og under den er det fire eller seks bilete. Trykk på kvart bilete som har denne fargen: til dømes eit raudt eple og ein raud kopp. Viss eit bilete har ein annan farge, nemner spelet berre kva farge det har («Pæra er grøn.») og ventar. «Vis dei» peikar ut bileta som passar når som helst, og «Ei anna farge» går vidare.",
+    "howTo": [
+      "Vel fire eller seks bilete. Fire er det enklaste.",
+      "Sjå på fargen og les namnet saman.",
+      "Trykk på kvart bilete som har den fargen. Kvart av dei får ei tjukk ramme og ein hakemerkje.",
+      "Viss eit bilete har ein annan farge, seier spelet kva farge det har og ventar. Ta deg god tid.",
+      "Trykk på «Vis dei» når du vil, og deretter «Ei anna farge» for ein ny farge."
+    ],
+    "tips": [
+      "Seie fargen høgt, og sjå deg så rundt i rommet: kva anna har den fargen?",
+      "Bruk dine eigne ord om du vil. «Tomat» eller «himmel» er like godt som «raud» eller «blå».",
+      "Å peike fungerer like godt som å trykke. Sit ved sida av kvarandre, slik at de begge ser skjermen."
+    ],
+    "faq": [
+      {
+        "q": "Finst det klokke eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Kva skjer viss ein trykker på eit bilete i ein annan farge?",
+        "a": "Ingenting ubehageleg. Det er ingen summelyd, raudt kryss eller rysting. Spelet nemner biletet og fargen, til dømes «Pæra er grøn.», og ventar på neste trykk."
+      },
+      {
+        "q": "Er farge det einaste hintet?",
+        "a": "Nei. Fargen blir vist som ein stor flate og er også skriven som eit ord, og kvart bilete blir nemnt når det blir trykt på. Den som synest det er vanskeleg å sjå ein farge, kan likevel spele ved å lese namnet."
+      },
+      {
+        "q": "Er kvart bilete verkeleg den fargen?",
+        "a": "Bileta er valde for hand, og berre der hovudmotivet tydeleg har éin farge. Bilete med fleire fargar, som ein drake eller ei bie, er ikkje med."
+      },
+      {
+        "q": "Finst det ein papirversjon?",
+        "a": "Ja. Eit ark på éin side har fire rader. Kvar rad nemner ein farge og viser fire bilete å peike på eller ringe inn."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Halvdelar som passar",
+    "seoTitle": "Halvdelar som passar: eit mildt bildespel",
+    "h1": "Halvdelar som passar: Set saman to halvdelar av eit bilete",
+    "description": "Dei venstre halvdelane av to eller tre bilete på éi side, dei høgre halvdelane på den andre. Trykk på ein halvdel, og så på den halvdelen som passar til. Ingen klokke, ingen poeng, og halvdelar som ikkje passar blir berre skilde att. Gratis å spele og skrive ut.",
+    "short": "Trykk på dei to halvdelane som passar saman og gir eitt bilete.",
+    "players": "1 eller 2 personar, eller ein vaksen og eit barn",
+    "intro": "Kvart bilete er delt midt på. Dei venstre halvdelane av to eller tre bilete står i éin kolonne, og dei høgre halvdelane står i ei anna rekkjefølgje i den andre. Trykk på ein halvdel til venstre, og trykk deretter på halvdelen til høgre som passar, til dømes tuten på ei kjele og handtaket. Halvdelar som passar, blir sette saman til eit heilt bilete. Halvdelar som ikkje passar, blir skilde att igjen, og spelet seier det mildt. «Vis meg» set dei alle saman.",
+    "howTo": [
+      "Vel to eller tre bilete. To er det enklaste.",
+      "Sjå på dei venstre halvdelane saman. Kva trur de kvar av dei er ein del av?",
+      "Trykk på ein halvdel til venstre, og trykk deretter på halvdelen til høgre som passar. Det går òg den andre vegen.",
+      "Halvdelar som passar, blir sette saman, med ei tjukk ramme og ein hakemerkje. Halvdelar som ikkje passar, blir skilde att igjen, og du kan prøve eit anna.",
+      "Trykk på «Vis meg» når du vil, og deretter «Eit anna sett» for nye bilete."
+    ],
+    "tips": [
+      "Følg kanten på ein halvdel med ein finger. Kvar når teikninga fram til midten?",
+      "Seie kva de ser: «Den har eit handtak.» Det er ikkje nødvendig å nemne alle bileta.",
+      "Å peike fungerer like godt som å trykke. Sit ved sida av kvarandre, slik at de begge ser skjermen."
+    ],
+    "faq": [
+      {
+        "q": "Finst det klokke eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Kva skjer viss to halvdelar ikkje passar?",
+        "a": "Ingenting ubehageleg. Det er ingen summelyd, raudt kryss eller rysting. Dei to halvdelane blir skilde att, og spelet seier: «Desse to passar ikkje saman. Prøv eit anna.» Ingenting blir telt."
+      },
+      {
+        "q": "Er bileta lette å skilje frå kvarandre?",
+        "a": "Ja. Bileta er valde for hand, og to bilete på same brett er aldri frå same gruppe, som to frukter eller to dyr. Bilete der dei to halvdelane ser like ut, som sola eller ein regnboge, er ikkje med."
+      },
+      {
+        "q": "Finst det ein papirversjon?",
+        "a": "Ja. Eitt ark med éin side har venstre halvdel av tre bilete i éin kolonne og høgre halvdel, i ein anna rekkjefølgje, i den andre. Dra eit strek frå kvar venstre halvdel til halvdelen som passar."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ikkje konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Fargelegg etter tal",
+    "seoTitle": "Fargelegg etter tal: eit roleg spel med store tal",
+    "h1": "Fargelegg etter tal: fyll rutene i den fargen du vil",
+    "description": "Eit rutenett med store, nummererte ruter og ei forklaring med fire fargar og namna deira. Vel ein farge, og trykk på rutene for å fylle dei. Kva farge som helst går bra, det finst ingen tidtakar eller poeng, og ein knapp fyller resten etter tala. Gratis å spele og skrive ut.",
+    "short": "Vel ein farge, og trykk på dei nummererte rutene for å fylle dei.",
+    "players": "1 eller 2 personar, ved sida av kvarandre",
+    "intro": "Eit kvadratisk rutenett med store ruter, kvar med eit tal, og over det ei forklaring med fire fargar, kvar med talet og det skrivne namnet sitt. Vel ein farge frå forklaringa, og trykk på rutene for å fylle dei. Rutenettet er 4 på 4 til å starte med, med 6 på 6 og 8 på 8 når du vil ha fleire ruter. Når kvar rute har fargen til talet sitt, er rutenettet biletet på arket. Ruter fylte med andre fargar er berre ditt eige bilete, og spelet seier ingenting om det. «Fyll etter tala» fyller alle tomme ruter for deg.",
+    "howTo": [
+      "Vel storleiken på rutenettet. 4 på 4 har dei største rutene og er enklast.",
+      "Sjå på forklaringa over rutenettet. Kvar farge har eit tal og eit namn, til dømes 1 Gul.",
+      "Trykk på ein farge i forklaringa, og trykk deretter på dei rutene du vil fylle med han.",
+      "Bruk fargen på talet, eller kva farge du vil. Begge deler går bra.",
+      "Trykk på «Fyll etter tala» for dei tomme rutene, «Tøm» for å starte rutenettet på nytt, eller «Eit anna bilete» for eit anna."
+    ],
+    "tips": [
+      "Sit ved sida av kvarandre, og skiftast på: éin person vel fargen, den andre trykker på ruta.",
+      "Snakk om fargane: «Eg likar den grøne.» Det er ikkje nødvendig å seie kva biletet skal vere.",
+      "På ein smal skjerm kan rutenettet på 8 på 8 rulle sideveis i sin eigen boks. Rutene held ein passande storleik.",
+      "Papirversjonen fungerer like godt, med blyantar ved sengebordet."
+    ],
+    "faq": [
+      {
+        "q": "Finst det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, poeng, teljar for trekk eller tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Kva om eg bruker ein annan farge enn talet?",
+        "a": "Ingenting skjer, og det er poenget. Kva farge som helst kan gå i kva rute som helst, og spelet seier ingenting om det. Når kvar rute har fargen til talet sitt, seier spelet det med eit mildt ord, og eit bilete i dine eigne fargar er like godt."
+      },
+      {
+        "q": "Kan folk med fargeblindheit skilje mellom dei fire fargane?",
+        "a": "Dei er valde for å kunne det. Kvar farge har også eit tal, eit skrive namn og si eiga lille form, så farge er aldri den einaste måten å skilje dei på. Dei fire fyllfargane er kontrollerte med simuleringar av raudgrøn og blågul fargeblindheit, og dei skil seg også i lysstyrke. Ein person med fargeblindheit har ikkje prøvd dei enno, så gi oss gjerne beskjed om to av dei ser like ut."
+      },
+      {
+        "q": "Er rutene store nok for skjelving eller ein liten skjerm?",
+        "a": "Kvar rute er minst 48 pikslar på tvers, og 56 på rutenettet 4 på 4. Om eit rutenett er for breitt for skjermen, rullar det sideveis i sin eigen boks i staden for at rutene blir mindre."
+      },
+      {
+        "q": "Finst det ein papirversjon?",
+        "a": "Ja. Eit ark med éin side har eit nummerert rutenett og forklaringa med fire fargar og namna deira. Fargelegg kvar rute med ein blyant i fargen på talet, eller kva farge du vil."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ikkje konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Mønsterlaging",
+    "seoTitle": "Mønsterlaging: lag ei flis og skriv ut mønsteret",
+    "h1": "Mønsterlaging: lag ei flis, og sjå ho gjenta seg",
+    "description": "Endre rutene på ei liten flis, og sjå ho gjenta seg til eit mønster ved sida av, i fire fargar som kvar har eit namn og ei form. Ingen tidtakar eller poeng. Gratis å spele og skrive ut.",
+    "short": "Endre rutene på ei liten flis, og sjå ho gjenta seg til eit mønster.",
+    "players": "1 eller 2 personar, ved sida av kvarandre",
+    "intro": "Ei lita flis på 3 på 3 ruter, eller 4 på 4 om du vil, og ved sida av ho «ditt mønster»: den same flisa gjentatt i eit felt. Trykk på ei rute, og ho skifter til neste av fire fargar, kvar med sitt eige skrivne namn og si form. Mønsteret ved sida av endrar seg med ein gong. Det finst ikkje noko rett mønster, og ingenting blir lagra eller sendt. «Skriv ut mønsteret mitt» legg det gjentatte mønsteret på éin side, til å ta vare på, fargelegge eller gi bort.",
+    "howTo": [
+      "Sjå på flisa og på mønsteret ditt ved sida av. Det er den same flisa, gjentatt.",
+      "Trykk på ei rute. Ho skifter til neste farge i raden med fire fargar over.",
+      "Fortsett å trykke på rutene til mønsteret ser ut slik du ønskjer. Eit kvart mønster er eit godt mønster.",
+      "Trykk på «Overrask meg» for ei ny flis, eller «Start på nytt» for ei tom. «Set tilbake» gjer at du får tilbake flisa du hadde.",
+      "Trykk på «Skriv ut mønsteret mitt» om du vil ha det på papir, eller trykk på Pause for å stoppe."
+    ],
+    "tips": [
+      "Sitt ved sida av kvarandre og tak om å trykkje: éin trykkjer på ei rute, og den andre fortel kva vedkomande legg merke til.",
+      "Snakk om det de ser: «Det ser ut som ei blome.» Det er ikkje nødvendig å gi noko namn.",
+      "Prøv same flisa med berre to fargar, og så på nytt med alle fire.",
+      "På papir kan mønsteret fargeleggjast med blyantar, klippast i strimlar til eit kort, eller brukast til å pakke inn ei lita gåve."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ei tidtakar eller ei poengsum?",
+        "a": "Nei. Det finst ingen klokke, poengsum, teljar for trekk eller tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Blir det de lagar, lagra eller sendt?",
+        "a": "Nei. Flisa di står berre på denne sida. Ho blir ikkje lagra, lasta opp eller talt, og ho er borte når du lukkar sida. Om du vil ta vare på eit mønster, kan du skrive det ut."
+      },
+      {
+        "q": "Kva om eg trykkjer på feil rute eller tømmer flisa ved en feil?",
+        "a": "Det finst ingen feil rute: trykk på ho igjen for å gå vidare til neste farge. Etter «Start på nytt» eller «Overrask meg» får du flisa du hadde att med «Legg tilbake»."
+      },
+      {
+        "q": "Kan folk med fargeblindheit skilje dei fire fargane?",
+        "a": "Dei er valde for å kunne det. Kvar farge har òg eit skriftleg namn og si eiga lita form i kvar rute, så farge er aldri einaste måten å skilje dei på. Dei fire fargane er sjekka med simuleringar av raud-grøn og blå-gul fargeblindheit. Ein person med fargeblindheit har ikkje prøvd dei enno, så fortel oss gjerne om to av dei ser like ut."
+      },
+      {
+        "q": "Er rutene store nok for skjelving eller ein liten skjerm?",
+        "a": "Kvar rute er minst 56 piksler på tvers. Om flisa er for brei for skjermen, rullar ho sideveis inne i sin eigen boks i staden for at rutene blir mindre."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. «Skriv ut mønsteret mitt» skriv ut mønsteret du laga på éi side, med dei fire fargane og namna deira. Det fungerer fint i svart-kvitt, fordi kvar farge har si eiga form."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Teikneduett",
+    "seoTitle": "Teikneduett: To personar, eitt bilete",
+    "h1": "Teikneduett: To personar, eitt ark",
+    "description": "To personar tek tur om å teikne linjer på eitt felles lerret, kvar i si eiga farge. Ingen får poeng eller vinn, og biletet kan lagrast eller skrivast ut. Gratis å bruke, utan konto.",
+    "short": "Tak tur om å teikne eitt felles bilete saman med nokon ved sida av deg.",
+    "players": "2 personar, ved sida av kvarandre",
+    "intro": "Eitt lerret, to personar. Kvar av dykk vel ein farge, og kvar farge har sitt eige skriftlege namn. De tek tur: teikn éi line eller éi form, og gi så vidare pennen. Kven som helst av dykk kan gi vidare når som helst. Det finst ikkje noko rett bilete og ingen poeng. Lagre biletet på eininga di om de likar det, eller skriv ut papirutgåva: eitt ark, to pennar.",
+    "howTo": [
+      "Kvar av dykk vel ein farge. Bannaret seier kven som har tur, med fargen til vedkomande på namn.",
+      "Teikn éi line eller éi form med ein finger, ei mus eller ein penn. Du kan òg bruke piltastane og mellomromstasten for å teikne utan peikar.",
+      "Når du er klar, trykk på «Gi vidare pennen». Kven som helst av dykk kan gi vidare når som helst.",
+      "Trykk på «Ta tilbake min siste line» for å fjerne den nyaste linja til den som har tur.",
+      "Trykk på «Lagre biletet» for å lage ei biletfil på denne eininga, eller «Skriv ut papirutgåva» for eitt ark og to pennar."
+    ],
+    "tips": [
+      "Sitt ved sida av kvarandre og snakk medan de teiknar: «Eg set ein sol i hjørnet.»",
+      "Start med ein prikk, ei line eller ei enkel form, og lat den andre svare på den.",
+      "Ingen treng å teikne eit bilete av noko. Eit mønster av linjer er like godt som eit landskap.",
+      "Om du vil stoppe, trykk på «Ferdig for no». Biletet blir ikkje tatt vare på etter at du forlet sida, med mindre du lagrar det."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ein vinnar eller ei poengsum?",
+        "a": "Nei. Det finst ingen vinnar, ingen poengsum, ingen tidtakar og ingen teljar for tur. Det finst ikkje noko rett bilete, og ingenting blir rangert eller samanlikna."
+      },
+      {
+        "q": "Blir biletet lagra eller sendt?",
+        "a": "Nei, ingenting blir sendt nokon stad. Biletet står på denne sida til du lukkar ho. Om du trykkjer på Lagre biletet, blir det laga ei fil på eininga di som du kan laste ned. Ingenting blir lasta opp."
+      },
+      {
+        "q": "Kan eg ta tilbake ei line?",
+        "a": "Ja. «Ta tilbake min siste line» fjernar den nyaste linja til den som har tur. «Start på nytt» tømmer arket, og «Legg tilbake» får linjene tilbake, berre eitt steg."
+      },
+      {
+        "q": "Kan eg bruke dette utan mus eller tastskjerm?",
+        "a": "Ja. Når teikneflata har fokus, flyttar piltastane ein penneprikk, og mellomromstasten set pennen ned eller opp. Skjermen seier «Penn ned» eller «Penn opp» kvar gong."
+      },
+      {
+        "q": "Kva fargar er dei, og kan folk med fargeblindheit skilje dei?",
+        "a": "Gul, oransje, grøn og lilla, dei same fire fargane som vi brukar i dei andre bileteleikane våre. Kvar har eit skriftleg namn, og namna vises ved sida av turen. Fargane er sjekka med simuleringar av vanlege fargesynsskilnader, men ein person med fargesynsskilnader har ikkje prøvd dei enno."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. «Skriv ut papirutgåva» skriv ut eitt ark med reglane på og ei stor, tom ramme å teikne i, for to personar med to pennar. Det fungerer i svart-kvitt."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, den er gratis, og du treng ingen konto, registrering eller nedlasting. Han fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Bygg saman",
+    "seoTitle": "Bygg saman: To personar bygger eitt mønster",
+    "h1": "Bygg saman: To personar, eitt rutenett",
+    "description": "To personar tek tur om å setje ein brikke i eit felles rutenett, til det er fullt. Kvar har ein eigen farge med eit namn og ei form. Ingen vinn, og det er ingen tidtakar eller poeng. Gratis å spele og skrive ut.",
+    "short": "Ta tur med nokon ved sida av deg for å fylle eitt felles rutenett.",
+    "players": "2 personar, ved sida av kvarandre",
+    "intro": "Eit felles rutenett med 4 gonger 4 plassar, eller 3 gonger 3 om de heller vil det. Kvar av dykk vel ein farge, og kvar farge har sitt eige skriftlege namn og si eiga form. Dykk tek tur: på di tur trykkjer du på ein tom plass for å setje brikka di der. Når kvar plass har ein brikke, er biletet bygd saman. Det finst ingen vinnar, fordi de lagar det som eit par, og ingenting blir lagra eller sendt. «Skriv ut rutenettet» gir eit tomt rutenett på éi side, slik at de kan bygge med to blyantar.",
+    "howTo": [
+      "Kvar av dykk vel ein farge. Ein farge som den andre har, er merkt «I bruk».",
+      "Den første personen startar. Skjermen viser kven som har tur, og kva farge som er deira.",
+      "Trykk på ein tom plass for å setje brikka di der. Turen går då over til den andre.",
+      "Om du heller ikkje vil setje ein brikke, trykkjer du på «Pass». Begge kan passe når som helst.",
+      "Når kvar plass har ein brikke, har de bygd biletet saman. Trykk på «Start på nytt» for å bygge eit nytt, eller trykk på Kvil for å stoppe."
+    ],
+    "tips": [
+      "Sit ved sida av kvarandre, slik at de begge kan sjå og nå skjermen. Snakk undervegs: «Eg set min ved sidan av din.»",
+      "Prøv å bygge eit mønster, stripar, eit sjakkbrett eller ein kant, eller set brikker kor som helst du vil. Begge deler er fint.",
+      "Eit barn, eller ein person som lett blir trøytt, kan passe så ofte dei vil. Biletet blir likevel bygd saman.",
+      "På papir bruker kvar person ein blyant og teiknar si eiga form i dei tomme rutene."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ein vinnar, ein tidtakar eller eit poeng?",
+        "a": "Nei. Det finst ingen vinnar, fordi de bygger eitt bilete saman. Det finst ingen klokke, ingen poeng, ingen telling av brikker og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Blir det vi lagar, lagra eller sendt?",
+        "a": "Nei. Rutenettet blir berre verande på denne sida. Det blir ikkje lagra, lasta opp eller talt, og det er borte når du lukkar sida. Om de vil ta vare på det, skriv ut rutenettet og bygg på papir."
+      },
+      {
+        "q": "Kva om eg set ein brikke på feil plass?",
+        "a": "Det finst ingen feil plass. Trykk på «Ta tilbake den siste brikka», så går turen tilbake til deg. Du kan ta tilbake eitt steg om gangen, og ein pass kan òg takast tilbake."
+      },
+      {
+        "q": "Kan folk med fargeblindheit skilje dei fire fargane frå kvarandre?",
+        "a": "Dei er valde for å kunne det. Kvar farge har òg eit skriftleg namn og ei lita eiga form i kvar brikke, så farge er aldri det einaste som skil dei frå kvarandre. Dei fire fargane er kontrollerte med simuleringar av raud-grøn og blå-gul fargeblindheit. Ein person med fargeblindheit har ikkje prøvd dei enno, så seie gjerne frå om to av dei ser like ut."
+      },
+      {
+        "q": "Er plassane store nok for skjelving eller ein liten skjerm?",
+        "a": "Kvar plass er minst 56 pikslar på tvers. Om rutenettet er for breitt for skjermen, blar det sideveges inne i sin eigen boks i staden for at plassane blir mindre."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. «Skriv ut rutenettet» skriv ut eit tomt rutenett på éi side med dei to fargane og namna deira, slik at de kan bygge med to blyantar. Det fungerer i svart-kvit, fordi kvar farge har si eiga form."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og du treng ingen konto, registrering eller nedlasting. Han fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Kast frå stolen, poengstrek",
+    "seoTitle": "Kast frå stolen: eit kasteseitspel for to",
+    "h1": "Kast frå stolen: kast saman ved eit bord",
+    "description": "To personar ved eit bord tek tur om å kaste ein mjuk postsekk inn i eit stort mål, og fører strek på papir. Ingenting blir tidtatt eller poengsett. Gratis å skrive ut.",
+    "short": "Ta tur om å kaste ein postsekk mot eit stort mål, med strekane på papir.",
+    "players": "2 personar, ved eit bord",
+    "intro": "Eit roleg kasteseitspel for to personar som sit ved eit bord. De legg eit utskrive mål på bordet og tek tur om å kaste ein mjuk postsekk, eller ein opprulla sokk, slik at han landar på ringane. Kvar av dykk fører strek ved å setje kryss i rutene på papiret, og de ser på krysa saman når de stoppar. Ingenting blir tidtatt, ingenting blir lagt saman på skjermen, og ingenting blir lagra eller sendt. Les tryggleiksmerknadene først: små fyllmasse er ein kvelingsfare.",
+    "howTo": [
+      "Les tryggleiksmerknadene. Vel ein pose med sydd lukking, eller rull opp ein reinvaska sokk.",
+      "Trykk på «Skriv ut målet og strekarket» og legg arket flatt på bordet mellom dykk.",
+      "Sit godt, éin på kvar side, og tek tur om å kaste éin forsiktig gong kvar. Kven som helst kan passe.",
+      "Når eit kast landar i ein ring, set du eit kryss i rutene i din kolonne, på raden for den ringen.",
+      "Sjå på krysa saman når de stoppar, eller trykk på Kvil for å ta pause."
+    ],
+    "tips": [
+      "Sitt nær nok til at eit mjukt kast underhands når målet utan at de må strekkje dykk.",
+      "Snakk om kastet, ikkje resultatet: «Det var eit mjukt ein.» Alle får applaus for kvart kast.",
+      "Ein oppruletta sokk er lett og enkel å halde i med svak grep. Legg armen på bordet mellom kvar runde.",
+      "Om nokon heller vil sjå på, kan dei vere den som set kryss i rutene."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. De kan stoppe når som helst, og det er ein fullt god måte å avslutte på å stoppe halvvegs."
+      },
+      {
+        "q": "Er det trygt å kaste ein sekk med fyll?",
+        "a": "Det kan det vere, med varsemd. Bruk ein sekk med sydd trekk eller ein oppruletta sokk, aldri laust fyll som korn, ris eller små delar, som er ein kvelningsfare for små barn og for alle som legg ting i munnen. Sit ned, kast forsiktig mot bordet og aldri mot eit ansikt, og hald ein vaksen i nærleiken."
+      },
+      {
+        "q": "Blir noko telt eller lagra på skjermen?",
+        "a": "Nei. Teljinga skjer berre på papir, i rutene de sjølve set kryss i. Sida held ingen teljing og ingen tidtakar, og ingenting blir lagra eller sendt."
+      },
+      {
+        "q": "Kva om nokon ikkje kan kaste, eller sekken landar utanfor arket?",
+        "a": "Kven som helst kan passe, og ein sekk som landar utanfor arket blir berre plukka opp til neste runde. Det blir ikkje telt noko for det."
+      },
+      {
+        "q": "Kva står på det utskrivne arket?",
+        "a": "Ei side: eit stort mål med dei tre ringane namngitt Nær, Midt og Langt, ei tabell med ein kolonne for kvar person og ei rad med små ruter å setje kryss i for kvar ring, samt ei linje med tryggleiksråd. Namna står skrivne på ringane, så det fungerer i svart-kvitt."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Sesongpuslepakke",
+    "seoTitle": "Sesongpuslepakke: Utskrivbare papirpuslespel",
+    "h1": "Sesongpuslepakke: Tre papirpuslespel for kvar årstid",
+    "description": "Tre små utskrivbare puslespel for vår, sommar, haust eller vinter: finn like par, ring den som er ulik, og fargelegg eit bilde. Vel ein årstid, eller ta ein kviledag. Gratis å skrive ut.",
+    "short": "Tre utskrivbare puslespel for årstida du vel, eller ein kviledag.",
+    "players": "Alle aldrar, aleine eller sida om sida",
+    "intro": "Vel ein årstid, så viser sida tre små papirpuslespel henta frå bileta til den årstida: to rader som skal knytast saman med strekar, ei rad med fire der de skal ringe den som er ulik, og eit bilde å fargelegge. De skriv ut ei side, og gjer eitt, to eller alle tre, i eige tempo. Vel «I dag er det kviledag» i staden, så er det ingenting å gjere.",
+    "howTo": [
+      "Vel ein årstid, eller vel «I dag er det kviledag».",
+      "Sjå på dei tre puslespela, og trykk deretter på «Skriv ut årstidspakken».",
+      "Gjer eitt, to eller alle tre, i eige tempo.",
+      "Knytt saman dei like bileta med ein strek, ring den som er ulik, og fargelegg det store biletet.",
+      "Stopp når de vil. Ein kviledag er òg ein god dag."
+    ],
+    "tips": [
+      "Start med puslespelet som kjennest lettast i dag. Eitt er nok.",
+      "Si namnet på kvart bilete høgt, om det hjelper.",
+      "Bruk fargeblyantar eller vanlege blyantar. Alle fargar går bra.",
+      "Behald sida til neste gong, eller legg ho bort."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. De kan stoppe når som helst, og det er ein fullt god måte å avslutte på å stoppe halvvegs."
+      },
+      {
+        "q": "Veit sida kva årstid det er?",
+        "a": "Nei. De vel årstida sjølv. Sida ser ikkje på datoen eller kvar de er."
+      },
+      {
+        "q": "Finst det poeng eller eit rett svar?",
+        "a": "Nei. Ingenting blir tidsbestemt, poengsett eller kontrollert på skjermen, og ingen svar blir vist. Kvart puslespel er berre eit bilete å sjå på, knyte saman, ringe eller fargelegge."
+      },
+      {
+        "q": "Kva om ingen har lyst på puslespel i dag?",
+        "a": "Vel «I dag er det kviledag». Sida viser då ei roleg line, og det er ingenting å skrive ut eller gjere."
+      },
+      {
+        "q": "Kva står på det utskrivne arket?",
+        "a": "Ei side for den årstida du valde: dei tre puslespela, kvar med ei kort line om korleis de gjer det, og ei line som seier at de kan gjere eitt, to eller alle tre."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Pynt eit kort saman",
+    "seoTitle": "Pynt eit kort saman: eit utskrivbart helsingskort",
+    "h1": "Pynt eit kort saman: lag eit til nokon",
+    "description": "To personar pyntar eit utskrivbart helsingskort til ein bursdag, ei takk eller berre for å vise omtanke, og skriv deretter ei melding på baksida saman. Berre fargestiftar eller pennar. Ingen tidtakar eller poeng. Gratis å skrive ut.",
+    "short": "Pynt eit utskrivbart helsingskort saman.",
+    "players": "2 personar, sida om sida",
+    "intro": "Eit roleg lagespel for to personar som sit sida om sida. De skriv ut eitt ark, som blir brett på midten til eit kort. Vel ei anledning, som ein bursdag eller ei takk, og pynt framsida rundt ordet der. Skriv deretter ei melding på baksida, saman, eller så skriv éin av dykk det den andre seier. Bruk fargestiftar, fargeblyantar eller tusjpennar. Det finst ikkje noko rett kort, og ingenting blir tidsbestemt, poengsett eller sendt.",
+    "howTo": [
+      "Velg en anledning, og trykk deretter på «Skriv ut kortet».",
+      "Brett arket på midten langs den stipla linja, slik at forsida hamnar utanpå.",
+      "Éin person pynter forsida, og den andre pynter baksida. Alternativt tek de turar om éi side.",
+      "Skriv ein melding saman. Den eine kan skrive medan den andre seier orda.",
+      "Stopp når de vil. Eit enkelt kort er like godt som eit detaljert."
+    ],
+    "tips": [
+      "Start med orda på forsida, og legg så til blad, stjerner eller prikkar rundt dei, éin om gangen.",
+      "Om nokon heller ikkje vil teikne, kan vedkomande velje fargane eller skrive meldinga.",
+      "Fortel kva du likar ved merkene den andre har gjort, i staden for om dei er gode.",
+      "Legg kortet der det kan givast bort, eller la det liggje på bordet no."
+    ],
+    "faq": [
+      {
+        "q": "Finst det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for tal på trekk og ingen tap. De kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Treng vi lim, saks eller klistremerke?",
+        "a": "Nei. Fargestifter, fargeblyantar eller tusjpennar er nok. Ingenting må klippast, limast eller festast."
+      },
+      {
+        "q": "Kan vi lage eit kort til ein anledning som ikkje står på lista?",
+        "a": "Vel «Berre fordi», og skriv eigne ord på forsida, eller pynt kortet utan nokon anledning."
+      },
+      {
+        "q": "Blir noko telt, vurdert eller lagra på skjermen?",
+        "a": "Nei. Sida viser berre kortet og stega. Ingenting blir rangert, poengsett eller lagra, og det finst ikkje noko rett kort."
+      },
+      {
+        "q": "Kva står på det utskrivne arket?",
+        "a": "Éi side: eit kort brett på midten, med anledningsorda og ei enkel ramme på forsida, og linjer for ei melding og ei Frå-linje på baksida. Reglane for to personar står trykte nedst."
+      },
+      {
+        "q": "Er det gratis, og må jeg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Finn saman",
+    "seoTitle": "Finn saman: To personar finn parane",
+    "h1": "Finn saman: To personar, eitt lag",
+    "description": "To personar deler ein skjerm og tek turar om å snu to bildekort for å finne eit par. Par blir funne saman og telte på ein felles strek. Gratis å spele, utan tidtakar og poeng.",
+    "short": "Ta turar med nokon ved sida av for å finne biletparane.",
+    "players": "2 personar, ved sida av kvarandre",
+    "intro": "Korta startar med biletet synleg, eller de kan leggje dei med baksida opp. På di tur snur du to kort. Er dei eit par, har de funne det saman, og turen går vidare. Er dei ulike, blir dei liggjande med framsida opp til du trykkjer på «Snu dei tilbake», slik at de begge kan sjå på dei. Du kan passe når som helst. Streken øvst går berre oppover: dei paren de har funne saman.",
+    "howTo": [
+      "Vel kor mange kort de vil bruke. Seks kort, tre par, er ein roleg stad å starte.",
+      "Skjermen seier kven som har tur, med ein sirkel for den første personen og ein firkant for den andre.",
+      "Snu to kort, det eine etter det andre. Om dei passar, er paret funne saman.",
+      "Er dei ulike, trykkjer du på «Snu dei tilbake» når de begge er klare. Turen går då vidare.",
+      "Kvar av dykk kan trykkje på «Pass» når som helst. Trykk på «Start på nytt» for nye kort, eller trykk på Kvil for å stoppe."
+    ],
+    "tips": [
+      "Sit ved sida av kvarandre, og nemn bileta høgt saman: «Ein tekopp. Tek du mjølk i teen?»",
+      "La personen du har omsorg for gjere trykkinga, sjølv om det tek tid. Pek heller enn å trykkje for vedkomande.",
+      "Vel «Kort med baksida opp» om de begge likar å snu kort for å finne biletta.",
+      "Ein person som blir sliten fort, kan passe så ofte som vedkomande vil. Para blir likevel funne saman."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ein vinnar, tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen vinnar, for de finn para som eit lag. Det finst ingen klokke, ingen poeng og ingen teljar for bomturar. Streken tel berre dei paren de har funne saman, og de kan stoppe når som helst."
+      },
+      {
+        "q": "Må vi hugse kvar biletta er?",
+        "a": "Nei. Spelet startar med alle bileta synlege. Med korta med baksida opp kan de spørje kvarandre kva de såg, eller berre snu dei att."
+      },
+      {
+        "q": "Kva skjer når to kort er ulike?",
+        "a": "Dei blir liggjande med framsida opp, slik at de begge kan sjå på dei så lenge de treng. Ingenting snur dei tilbake av seg sjølv. Når de er klare, trykkjer du på «Snu dei tilbake», og turen går til den andre personen."
+      },
+      {
+        "q": "Blir noko vi spelar, lagra eller sendt?",
+        "a": "Nei. Korta blir berre verande på denne sida. Ingenting blir lagra, lasta opp eller telt, og det er borte når du lukkar sida."
+      },
+      {
+        "q": "Er korta store nok for rystingar eller ein liten skjerm?",
+        "a": "Kvart kort er minst 64 pikslar breitt og så stort som skjermen tillèt. Brukarar av tastatur og skjermlesar høyrer kvart kort ved plassen sin og biletet sitt."
+      },
+      {
+        "q": "Er det gratis, og må jeg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Historieterningar",
+    "seoTitle": "Historieterningar: eit bildespel for historiefortelling",
+    "h1": "Historieterningar: Fortel ei historie med bilete",
+    "description": "Tre eller fire bileteterningar å fortelje ei historie med, i kva rekkjefølgje som helst. Ingen lesing, inga rett svar, ingen tidtakar og ingen poeng. Kast på nytt, eller pass. Gratis å spele og skrive ut.",
+    "short": "Kast bileteterningar og fortel ei historie saman, i kva rekkjefølgje som helst.",
+    "players": "2 eller fleire personar, eller ein vaksen og eit barn",
+    "intro": "Tre eller fire bilete blir viste, som terningar. Saman lagar de ei forteljing som brukar dei, i kva rekkjefølgje som helst. Ei forteljing kan vere éi setning eller nokre, og ho kan vere open eller nær det verkelege livet. Det finst ikkje éin rett forteljing, og ingen treng å namngi eller hugse noko. Trykk på «Kast på nytt» for nye bilete, og kven som helst kan hoppe over.",
+    "howTo": [
+      "Vel tre eller fire terningar. Tre er det enklaste.",
+      "Sjå på bileta saman. Trykk på eitt om de vil starte med det.",
+      "Ta tur om å fortelje ei forteljing som brukar bileta, i kva rekkjefølgje som helst. Ei setning kvar er nok.",
+      "Kven som helst kan hoppe over. Trykk på «Hopp over», så kan neste person starte.",
+      "Trykk på «Kast på nytt» for nye bilete når de vil, eller trykk på Kvil for å stoppe."
+    ],
+    "tips": [
+      "Still eit spørsmål i staden for å vente på svar: «Kvar kan paraplyen vere på veg?»",
+      "Bygg vidare på det førre personen sa, i staden for å rette det. Kva forteljing som helst går bra.",
+      "Ei forteljing kan handle om eit ekte minne. Eit bilete er ein god start på ho."
+    ],
+    "faq": [
+      {
+        "q": "Finst det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Må eg lese eller namngi bileta?",
+        "a": "Nei. Spelet fungerer berre med bileta. Spelarane kan peike, beskrive eller seie kva bildet minner dei om. Ingen blir bedne om å namngi eller hugse noko."
+      },
+      {
+        "q": "Kva om nokon ikkje vil ta tur?",
+        "a": "Dei kan hoppe over når som helst, utan å forklare. Spelet ventar berre, og neste person kan starte, eller de kan kaste på nytt."
+      },
+      {
+        "q": "Finst det ei papirversjon?",
+        "a": "Ja. Eit ark på ei side har seksten ulike bilete i fire rader. Vel ei rad, eller klipp ut bileta og trekk nokre frå ein stabel."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Ord- og biletpar",
+    "seoTitle": "Ord- og biletpar: Par ord med bilete",
+    "h1": "Ord- og biletpar: Par ordet med biletet",
+    "description": "Par engelske ord med biletene deira, og høyr kva ord som helst blir lese høgt. Bileta blir synlege heile tida, utan tidtakar, poeng eller teljing av forsøk. Gratis å spele og skrive ut.",
+    "short": "Par kvart ord med biletet sitt, og høyr det lese høgt.",
+    "players": "Éin vaksen, eller ei familie som speler side om side",
+    "intro": "Fire eller seks bilete blir viste, med dei engelske orda i ei anna rekkjefølgje. Trykk på eit ord og så på biletet det høyrer til, eller på eit bilete og så på ordet. Eit rett par blir verande saman med ein tjukk ramme og ordet «Pare». Trykk på «Les høgt» ved sida av eit ord for å høyre det uttala. Ingenting blir tidtaka eller poengsett, og eit trykk som ikkje passar blir berre nullstilt av seg sjølv.",
+    "howTo": [
+      "Vel fire eller seks bilete. Fire er det enklaste.",
+      "Trykk på eit ord, og så på biletet det namngir. Eller trykk på eit bilete først, og så på ordet.",
+      "Eit rett par blir verande saman. Eit trykk som ikkje passar blir nullstilt roleg, så prøv eit anna.",
+      "Trykk på «Les høgt» ved sida av eit ord for å høyre det, om eininga di kan lese tekst høgt.",
+      "Trykk på «Nye bilete» for eit nytt sett, eller «Start på nytt» for å løyse opp alle par. «Set tilbake» gir att dei siste paringane."
+    ],
+    "tips": [
+      "Seie kvart ord høgt saman før de parar det, og snakk om biletet.",
+      "Familiar kan ta tur. Kvar person vel eitt ord eller bilete om gongen.",
+      "Bruk orda de allereie kjenner først, og legg dei andre til seinare."
+    ],
+    "faq": [
+      {
+        "q": "Finst det tidtakar eller poeng?",
+        "a": "Nei. Det finst ingen klokke, ingen poeng, ingen teljar for trekk og ingen tap. Du kan stoppe når som helst, og å stoppe halvvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Er dette for born?",
+        "a": "Det er laga for vaksne som lærer eller lærer om engelske ord, og for familiar som speler side om side. Det er ikkje skrive for born."
+      },
+      {
+        "q": "Kva om eininga mi ikkje kan lese tekst høgt?",
+        "a": "Knappen «Les høgt» brukar stemma nettlesaren din allereie har. Om nettlesaren ikkje kan snakke, blir ikkje knappen vist, og spelet fungerer utan han."
+      },
+      {
+        "q": "Finst det ei papirversjon?",
+        "a": "Ja. Eit ark på ei side har seks bilete og dei seks orda deira, til å klippe ut eller knyte saman med ein strek."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Sortere saman",
-    "seoTitle": "Sorteringsspel for demens: Sortere saman",
+    "seoTitle": "Sorteringsspel: Sorter saman for vaksne",
     "h1": "Sortere saman: ein aktivitet med bileteskortering",
-    "description": "Trykk på eit bilete, og trykk så på kurven det høyrer heime i: kjøkken eller hage, frukt eller dyr. Ein rolig, gratis sorteringsaktivitet for personar som lever med demens.",
+    "description": "Trykk på eit bilete, og så på kurven det høyrer heime i: kjøkken eller hage, frukt eller dyr. Eit roleg og gratis sorteringsspel for vaksne og familiar.",
     "short": "Legg kvart bilete i sin kurv: kjøkken eller hage, og meir.",
     "players": "1 eller 2 personar",
     "intro": "Sortering er ei kjend og god kvardagsoppgåve, som å setje vekk handlevarer eller pare sokkar. Trykk på eit bilete, og trykk så på kurven det høyrer heime i. Det er ingen hastverk og ingen gale vegval.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Bileteputle",
-    "seoTitle": "Enkelt puslespel for demens: 4 eller 9 bitar",
+    "seoTitle": "Enkel puslespel på nett: 4 eller 9 store brikker",
     "h1": "Bileteputle: eit enkelt puslespel",
-    "description": "Eit enkelt puslespel på nett for personar som lever med demens: 4 eller 9 store bitar, heile biletet er synleg, og du trykker på to bitar for å byte plass.",
+    "description": "Eit enkelt puslespel på nett for vaksne: 4 eller 9 store brikker, heile biletet er synleg, og du trykkjer på to brikker for å byte dei. Bruk ditt eige foto, som blir verande på denne eininga. Gratis, utan tidtakar.",
     "short": "Trykk på to bitar for å byte dei, til biletet er heilt.",
     "players": "1 eller 2 personar",
-    "intro": "Eit vennleg bilete er delt i fire eller ni store bitar og blanda. Heile biletet er synleg som rettleiing. Trykk på éin bit, og så på ein annan, så byter dei plass. Du treng ikkje dra.",
+    "intro": "Eit vennleg bilete er delt i fire eller ni store brikker og blanda. Heile biletet er synleg som rettleiing. Trykk på éin brikke, så på ein annan, og dei byter plass. Det er ikkje nødvendig å dra. Du kan òg bruke eit av dine eigne foto. Det blir verande på denne eininga og blir aldri lasta opp.",
     "howTo": [
       "Vel eit bilete og 4 eller 9 bitar. Fire er ein mild start.",
       "Sjå på heile biletet øverst.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Fullfør ordtaket",
-    "seoTitle": "Fullfør ordtaket: ordtaksspel for eldre",
+    "seoTitle": "Fullfør talemåten: Spel med kjende talemåtar",
     "h1": "Fullfør ordtaket",
     "description": "Kjende norske ordtak med siste ordet borte, til dømes «Morgonstund har ___ i munnen». Trykk på eit svar eller vis slutten, og snakk så om det.",
     "short": "Fullfør kjende ordtak saman, og snakk så om dei.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Ordsøk med stor skrift",
-    "seoTitle": "Ordsøk med stor skrift for demens, til utskrift",
+    "seoTitle": "Ordsøk med stor skrift, gratis og til utskrift",
     "h1": "Ordsøk med stor skrift",
-    "description": "Eit gratis ordsøk med stor skrift for eldre og for folk som lever med demens. Få ord, store bokstavar, berre på tvers og nedover. Spel på nett eller skriv ut.",
+    "description": "Eit gratis ordsøk med stor skrift for eldre vaksne og familiar. Få ord, store bokstavar, berre ord på tvers og nedover. Spel på nett eller skriv ut.",
     "short": "Store bokstavar, få ord, berre på tvers og nedover. Skriv det ut òg.",
     "players": "1 eller 2 personar",
     "intro": "Eit lite rutenett med store bokstavar og berre nokre få ord, som alle går på tvers eller nedover. Trykk på den første bokstaven i eit ord, og så på den siste. Føretrekk du papir? Skriv ut eit nytt puslespel med eitt trykk.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Fargeleggingsark",
-    "seoTitle": "Fargeleggingsark for vaksne med demens (gratis)",
+    "seoTitle": "Gratis fargeleggingsark for vaksne, store og enkle",
     "h1": "Fargeleggingsark",
     "description": "Enkle fargeleggingsark for vaksne med store flater: trykk på ein farge, og så på biletet. Ingen søl, ingen feil fargar, og kvart ark kan skrivast ut gratis.",
     "short": "Trykk på ein farge, og så på ein del av biletet. Skriv ut ark òg.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Samtalekort",
-    "seoTitle": "Samtaleimpulsar ved demens: bildekort",
+    "seoTitle": "Samtalestartarar: bildekort for familiar",
     "h1": "Samtalekort",
-    "description": "Bildekort med milde samtaleimpulsar for folk som lever med demens: ingen spørjing, ingen rette svar. Bruk dei på skjermen eller skriv ut heile settet.",
+    "description": "Bildekort med milde samtalestartarar for familiar, venner og eldre, mellom anna for folk som lever med demens. Ingen kvizing, ingen rette svar.",
     "short": "Bildekort med opne, milde spørsmål. Ingen spørjing.",
     "players": "2 personar eller ei gruppe",
     "intro": "Kvart kort parar eit kjent bilete med ei open invitasjon til å snakke, til dømes «Kva slags vêr liker du best?» Det finst ingen rette svar, og ingenting å hugse. Vel eit tema, eller bland alle korta.",
@@ -329,12 +979,13 @@
     "description": "Gjer eigne familiebilete om til eit roleg parspel. Vel 2 til 6 bilete frå eininga di; dei blir verande i nettlesaren og blir aldri lasta opp.",
     "short": "Vel eigne bilete og finn para. Ingenting blir lasta opp.",
     "players": "2 personar, side om side",
-    "intro": "Vel to til seks bilete frå telefonen, nettbrettet eller datamaskina di, så blir dei til eit parspel med store, tydelege bilete. Bileta blir berre viste her på sida. Dei blir ikkje lasta opp, lagra eller delte, og dei forsvinn når du lèt att sida.",
+    "intro": "Vel to til seks av dine eigne familiefoto frå telefonen, nettbrettet eller datamaskinen, så blir dei til eit parspel med store, tydelege bilete. Fotoa blir berre viste på denne sida. Dei blir ikkje lasta opp, lagra eller delte, og dei forsvinn når du lukkar sida. Om du vil, kan du skrive nokre ord under kvart bilde, og eit mildt hint kan peike ut eitt par etter ei pause. Dette er ein måte å sjå på familiefoto saman på.",
     "howTo": [
-      "Trykk på «Vel bilete» og plukk ut to til seks bilete.",
-      "Kvart bilete kjem opp to gonger. Trykk på eitt, og trykk så på biletet som høyrer til.",
-      "Prat gjerne om kvart bilete etter kvart som de finn dei.",
-      "Når de er ferdige, lèt de att sida eller trykkjer på «Fjern bilete». Ingenting blir lagra."
+      "Trykk på \"Vel bilete\" og vel to til seks bilete.",
+      "Kvart bilete dukkar opp to gonger. Trykk på eitt, og trykk så på paret sitt.",
+      "Om du vil, kan du skrive nokre ord under kvart bilete. Bildetekstane blir ikkje lagra.",
+      "Snakk om kvart bilete når du finn det.",
+      "Når du er ferdig, lukk sida eller trykk på \"Tøm bilete\". Ingenting blir teke vare på."
     ],
     "tips": [
       "Vel tydelege bilete av hyggjelege, kjende ting: eit kjæledyr, ein hage, ein favorittstad eller ein bryllaupsdag.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Biletebingo",
-    "seoTitle": "Biletebingo for eldre med demens: Til utskrift",
+    "seoTitle": "Utskrivbart biletbingo for grupper",
     "h1": "Biletebingo for grupper",
-    "description": "Gratis biletebingo til utskrift for seniorgrupper og demensomsorg, med ein stor oppropar på skjermen. Store bilete med ord, 9 eller 16 ruter, krev inga lesing.",
+    "description": "Gratis utskrivbart biletbingo for familiar, seniorgrupper og omsorgsheimar. Store bilete med ord, 9 eller 16 ruter, og ein stor opplesar på skjermen.",
     "short": "Biletebingobrett til utskrift og oppropar på storskjerm for grupper.",
     "players": "Ei gruppe på 2 til 30",
     "intro": "Klassisk bingo med bilete i staden for tal, slik at ingen treng å lese lita skrift. Skriv ut eit sett med ulike brett, og bruk opproparen på skjermen til å vise kvart bilete i stort format på ein TV, berbar datamaskin eller eit nettbrett.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Picnicplanleggjar",
+    "seoTitle": "Picnicplanleggjar: vel bilete for ein tur ut",
+    "h1": "Picnicplanleggjar: vel bilete, og finn så pararane",
+    "description": "Vel bilete av mat og ting å gjere for ein picnic, og spel så ein mild paringsrunde med dei. Ingenting blir tidtaka. Gratis å spele og skrive ut.",
+    "short": "Vel bilete av mat og ting å gjere for ein picnic, og finn så pararane.",
+    "players": "Åleine, eller 2 personar ved sidan av kvarandre",
+    "intro": "Trykk på bilete av mat og ting å gjere for å leggje dei i picnickurva, som tek opptil seks. Ein setning med ord fortel kva som er i kurva, til dømes \"Picnicen vår: brød, ost, eple og ein drake.\" Trykk så på \"La oss spele med picnicen vår\" for ein mild paringsrunde laga av dei valde bileta. Bileta blir verande synlege, og ingenting blir tidtaka, poengsett eller lagra. \"Skriv ut picniclista vår\" skriv ut ei sjekkliste over det du har valt, med ein avkryssingsboks for kvar ting å pakke.",
+    "howTo": [
+      "Trykk på eit bilete av mat eller noko å gjere. Det blir lagt i kurva.",
+      "Trykk på eit bilete i kurva for å ta det ut igjen.",
+      "Vel minst to ting, og trykk så på \"La oss spele med picnicen vår\".",
+      "Trykk på to bilete som er like. Bileta blir verande synlege, så det er ingenting å hugse.",
+      "Trykk på \"Skriv ut picniclista vår\" for ei papirsjekkliste å ta med."
+    ],
+    "tips": [
+      "Spør dei du er saman med kva dei helst vil ta med, og vel bileta saman.",
+      "Snakk om kvart bilete når det kjem i kurva: \"Hugsar du dragen vi flaug på stranda?\"",
+      "På papiret er dei tomme linjene til alt anna du vil ta med, eller til eit namn."
+    ],
+    "faq": [
+      {
+        "q": "Finst det tidtakar, poeng eller ein vinnar?",
+        "a": "Nei. Ingenting blir tidtaka eller talt, og ingen vinn. Paringsrunden har ingen feil og ingen poeng."
+      },
+      {
+        "q": "Er dette ein måltidsplan?",
+        "a": "Nei. Det er ein biletplan for ein tur ut, å snakke om og ta med på papir. Han seier ikkje kva nokon bør ete."
+      },
+      {
+        "q": "Blir bileta vi vel, lagra eller sende?",
+        "a": "Nei. Kurva blir verande på denne sida berre. Ho blir ikkje lagra, lasta opp eller sendt, og ho er borte når du lukkar sida."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. \"Skriv ut picniclista vår\" skriv ut éi side, på A4 eller US Letter. Ho viser bileta du har valt, med ein avkryssingsboks for kvar, og tomme linjer for alt anna."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på telefon, nettbrett eller datamaskin."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Utklippsbok",
+    "seoTitle": "Utklippsbok: bla i familiefoto saman, side for side",
+    "h1": "Utklippsbok: legg til bileta og bildeteksta, og bla så vidare",
+    "description": "Vel to til tolv av dine eigne familiefoto på eininga di og bla i dei som ei bok, med nokre ord under kvart. Ingenting blir lasta opp. Gratis å skrive ut.",
+    "short": "Bla i dine eigne familiefoto saman, som i ei bok.",
+    "players": "Åleine, eller 2 personar ved sidan av kvarandre",
+    "intro": "Vel to til tolv av dine eigne bilete frå denne eininga. Kvart bilete blir éi side i ei bok, stor nok til å sjå, med eit valfritt par ord under. Bla vidare med knappane eller piltastane, og bruk \"Sjå saman\" for å sitje ved sidan av kvarandre med berre bileta og orda. Fotoa blir verande på denne eininga. Dei blir ikkje lasta opp eller lagra, og boka er borte når du lukkar sida. \"Skriv ut utklippsboka\" skriv ut eitt bilete og orda til på kvar side, med sidetal.",
+    "howTo": [
+      "Trykk på \"Vel bilete\" og vel to til tolv bilete. Spør før du bruker eit bilete av nokon som ikkje kan seie ja.",
+      "Bla vidare med \"Førre side\" og \"Neste side\", eller med venstre og høgre piltast.",
+      "Legg til nokre ord under eit bilete om du vil. Bruk \"Flytt tidlegare\" eller \"Flytt seinare\" for å endre rekkjefølgja.",
+      "Trykk på \"Sjå saman\" for å skjule redigeringsknappane og sjå på boka side om side.",
+      "Trykk på \"Skriv ut utklippsboka\" for ei papirutgåve, eller \"Tøm boka\" når du er ferdig. Ingenting blir teke vare på."
+    ],
+    "tips": [
+      "Velg bilete av noko kjent og glad: ein hage, eit kjæledyr, ein favorittstad. Snakk om kvar side når de snur han.",
+      "La personen seie nokre ord til kvar side, til og med berre eitt ord, og skriv dei ned nøyaktig slik dei blir sagde.",
+      "På papir kan dei utskrivne sidene leggjast i ei mappe, og familien kan leggje sine eigne bilete og notat rundt dei."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidtaking, poeng eller ein vinnar?",
+        "a": "Nei. Ingenting blir tidtatt, poengsett eller telt, og ingen vinn. Sidenummeret er berre der for at de skal sjå kvar de er i boka."
+      },
+      {
+        "q": "Blir bileta eller bildetekstane våre lagra, lasta opp eller sende?",
+        "a": "Nei. Bileta blir berre lesne av denne sida, og dei blir ikkje lasta opp, lagra eller sende nokon stad. Bildetekstane blir berre tekne vare medan sida er open. Når de lukkar sida, er boka borte."
+      },
+      {
+        "q": "Kan vi skrive ut boka?",
+        "a": "Ja. «Skriv ut fotoalbumet» skriv ut eitt bilete og éi bildetekst på kvar side, med sidenummer. Vel A4 eller US Letter i utskriftsvindauget."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Collagetavle",
+    "seoTitle": "Collagetavle: To personar legg bilete på tavla på omgang",
+    "h1": "Collagetavle: Legg bilete på éi tavle, på omgang",
+    "description": "To personar legg utskorne bilete på omgang på éi felles tavle. Trykk på eit utskore bilete, og deretter på ein tom plass. Ingen tidtaking eller poeng. Gratis å spele og skrive ut.",
+    "short": "Legg bilete på éi felles tavle, på omgang.",
+    "players": "2 personar, ved sidan av kvarandre",
+    "intro": "To personar sit ved sidan av kvarandre med éi tavle med tolv plassar og ei brett med åtte utskorne bilete. Trykk på eit utskore bilete, og trykk deretter på ein tom plass, så kjem biletet dit. Så er det den andre personen sin tur. Kvar person sine bilete har si eiga form, ein sirkel eller ein firkant, slik at tavla viser kven som la kva, utan å vere avhengig av farge. Begge kan hoppe over, og eitt steg kan takast tilbake. Ingenting blir tidtatt, poengsett eller lagra. «Skriv ut tavla» skriv ut den tomme tavla og bileta som skal klippast ut.",
+    "howTo": [
+      "Trykk på eit utskore bilete i brettet. Det viser «Valt» medan det er valt.",
+      "Trykk på ein tom plass på tavla. Det utskorne biletet blir lagt der, og turen går over til den andre.",
+      "Kven som helst kan trykke på «Hopp over» når som helst, eller på «Ta tilbake siste bilete» for å angre eitt steg.",
+      "Trykk på «Eit anna sett med bilete» for eit anna brett. Bilete som allereie ligg på tavla, blir liggjande der dei er.",
+      "Trykk på «Start på nytt» for å tømme tavla, og «Legg tilbake» om de skiftar meining."
+    ],
+    "tips": [
+      "Seie namnet på kvart bilete når det blir lagt ned, til dømes «koppen går ved huset». Å snakke saman gjer det til ei felles oppgåve.",
+      "La dei to personane velje utskore bilete og plass på omgang, slik at begge får vere med å bestemme.",
+      "På papir kan de klippe ut dei åtte bileta med hjelp frå ein vaksen, og så leggje dei på dei utskrivne rutene."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidtaking, poeng eller ein vinnar?",
+        "a": "Nei. Ingenting blir tidtatt, poengsett eller telt, og ingen vinn. Ei full tavle er berre ei tavle med eit bilete på kvar plass."
+      },
+      {
+        "q": "Blir bileta vi legg ut, lagra eller sende?",
+        "a": "Nei. Tavla blir berre verande på denne sida. Ho blir ikkje lagra, lasta opp eller telt, og ho er borte når de lukkar sida."
+      },
+      {
+        "q": "Korleis skil vi kva bilete som er kven sitt?",
+        "a": "Kvar person har si form. Den første personen sine bilete har ein sirkel i hjørnet, og den andre personen sine har ein firkant. Namnet til kvar står over tavla."
+      },
+      {
+        "q": "Finst det ein papirversjon?",
+        "a": "Ja. «Skriv ut tavla» skriv ut den tomme tavla som tolv ruter, med dei åtte bileta under i same storleik, og klipplinjene. Ein vaksen kan gjere klippinga."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krev ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Hageplanleggjar",
+    "seoTitle": "Hageplanleggjar: Legg opp ei tomt med plantebilete",
+    "h1": "Hageplanleggjar: Vel bilete og legg opp ei tomt",
+    "description": "Vel bilete av planter og hagesaker, og legg dei i tolv bed på ei tomt. Trykk på eit bilete, og deretter på eit bed. Ingen tidtaking eller poeng. Gratis å spele og skrive ut.",
+    "short": "Vel plantebilete og legg opp ei tomt med tolv bed.",
+    "players": "Åleine, eller 2 personar ved sidan av kvarandre",
+    "intro": "Vel bilete frå eit brett med planter og hagesaker, og trykk deretter på eit bed for å setje kvart av dei på plass. Ei tomt har tolv bed, og eitt bed rommar eitt bilete. Ei oppsummering i ord seier kva planen har, til dømes «Planen din har 3 solsikker, 2 roser og 1 tre.» Ingenting blir tidtatt, poengsett eller lagra, og det er ingen tur-ordning. Dette er ein bileteplan å snakke om, ikkje råd om planting. «Skriv ut planen» skriv ut bedda med bileta de valde, med tomme bed å teikne i og linjer for notat.",
+    "howTo": [
+      "Trykk på eit bilete i brettet. Det viser «Valt» medan det er valt.",
+      "Trykk på eit bed. Biletet blir lagt der, og valet er gjort.",
+      "For å endre eit bed, vel eit anna bilete og trykk på bedet. For å tømme eit bed, trykk på det utan at noko bilete er valt.",
+      "Trykk på «Start på nytt» for å tømme alle bed, og «Legg tilbake» om de skiftar meining.",
+      "Trykk på «Skriv ut planen» for ei papirkopi av tomta og oppsummeringa."
+    ],
+    "tips": [
+      "Snakk om kvart bilete når det kjem inn, til dømes «solsikka står ved fuglekassa». Når de snakkar saman, blir det ei felles aktivitet.",
+      "La kvar person velje eit bilete på tur, eller vel bileta saman, slik at begge får vere med å bestemme innhaldet.",
+      "På papiret er dei tomme beda til for å teikne inn eigne idear, og notatlinjene er til alt de vil hugse."
+    ],
+    "faq": [
+      {
+        "q": "Er dette råd om planting?",
+        "a": "Nei. Dette er ein bileteplan å snakke om, ikkje råd om planting. Han seier ikkje når, kvar eller korleis ein skal plante noko, fordi det avheng av kvar du bur."
+      },
+      {
+        "q": "Er det tidtakar, poeng eller ein vinnar?",
+        "a": "Nei. Ingenting blir tidtaka, poengsett, vurdert eller talt, og ingen vinn. Ein full plan får ingen spesiell melding."
+      },
+      {
+        "q": "Blir bileta vi vel, lagra eller sende?",
+        "a": "Nei. Planen blir verande berre på denne sida. Han blir ikkje lagra, lasta opp eller talt, og er borte når du lukkar sida."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. «Skriv ut planen» skriv ut éi side, på A4 eller US Letter. Der ser du dei tolv beda med bileta du valde, samandraget i ord og tomme linjer for notat."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og du treng ingen konto, registrering eller nedlasting. Det verkar i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Fargeveggen for fleire",
+    "seoTitle": "Fargevegg for fleire: Eitt bilete for mange hender",
+    "h1": "Fargevegg for fleire: Eitt stort bilete, fargelagt saman",
+    "description": "Skriv ut eitt stort bilete over fleire sider, slik at ei familie, ei klasse eller ein omsorgsbustad kan fargelegge ein vegg saman. Gratis å skrive ut. Ingen tidtakar eller poeng.",
+    "short": "Skriv ut eitt stort bilete over sider som mange kan fargelegge.",
+    "players": "Ei gruppe, ved eit bord eller på ein vegg",
+    "intro": "Vel eit bilete frå fargesidene og ein vegg med 4, 6 eller 9 sider. Skriv ut veggen: den første sida viser korleis du set han saman, og kvar av dei andre sidene er ein del av same store bilete, med ei merking som A1 i hjørnet. Kvar person fargelegg éi eller fleire sider, i kva fargar og stil dei vil. Sidene blir så lagde ut etter merkinga og festa saman med teip på baksida. Ingenting blir tidtaka, poengsett eller lagra.",
+    "howTo": [
+      "Vel eit bilete, og vel deretter kor mange sider veggen skal ha.",
+      "Les kartet på skjermen, som viser kvar kvar merking skal ligge.",
+      "Trykk på «Skriv ut veggen» og skriv ut alle sidene.",
+      "Gi kvar person éi eller fleire sider å fargelegge. Fargane og stilen treng ikkje passe saman.",
+      "Legg sidene ut etter merkinga, og fest dei saman med teip på baksida."
+    ],
+    "tips": [
+      "Gi dei med enklaste konturar til dei som vil ha ei roligare oppgåve, og dei travlaste til dei som likar det.",
+      "Heng veggen der alle kan sjå han, og snakk om delane saman.",
+      "Vel ein mindre vegg til eit lite bord, og ein større til eit rom."
+    ],
+    "faq": [
+      {
+        "q": "Er det tidtakar, poeng eller ein vinnar?",
+        "a": "Nei. Ingenting blir tidtaka, poengsett eller talt, og ingen vinn. Veggen er berre eit bilete som mange har fargelagt."
+      },
+      {
+        "q": "Blir sidene lagra eller sende nokon stad?",
+        "a": "Nei. Veggen blir laga berre på denne sida. Han blir ikkje lagra, lasta opp eller talt, og er borte når du lukkar sida."
+      },
+      {
+        "q": "Må fargane passe saman?",
+        "a": "Nei. Kvar person kan bruke kva fargar og stil som helst. Sidene går likevel saman til eitt bilete."
+      },
+      {
+        "q": "Finst det ei papirutgåve?",
+        "a": "Ja. Den utskrivne veggen er heile spelet: ei første side med stega og eit kart, og ei side for kvar del av biletet."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og du treng ingen konto, registrering eller nedlasting. Det verkar i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Rolege formpuslespel",
+    "seoTitle": "Rolege formpuslespel: Set formene inn i eit bilete",
+    "h1": "Rolege formpuslespel: Set bitane inn i biletet",
+    "description": "Set enkle former inn i konturen av eit hus, ein båt, ein fisk og fleire. Trykk på ein bit, så på ein plass med same form. Ingen tidtakar eller poeng. Gratis å spele og skrive ut.",
+    "short": "Set enkle former inn i eit bilete, i ditt eige tempo.",
+    "players": "1 person, ved eit bord",
+    "intro": "Ein bileteskisse, til dømes eit hus, ein båt eller ei rakett, er delt i plassar. Kvar plass har ein bit med same form: ein stor eller liten trekant, ein firkant, eit parallellogram eller ein rektangel. Trykk på ein bit, så på ein plass med same form, og han passar. Plassen snur biten for deg, så det er ingenting å dra eller rotere. Viss ein bit har anna form enn plassen, blir han liggande i brettet med ei kort merknad. Ingenting blir tidtaka eller poengsett, og ingenting blir lagra eller sendt. «Skriv ut denne forma» skriv ut skissa og bitane sine på éi side, for å fargelegge eller klippe ut.",
+    "howTo": [
+      "Trykk på ein bit i brettet. Han viser «Valt» medan han er valt.",
+      "Trykk på ein plass i biletet. Viss forma passar, blir biten liggande der.",
+      "Viss ho ikkje passar, prøv ein annan plass. Ingenting går tapt ved å prøve.",
+      "Trykk på ein bit i biletet for å flytte han tilbake til brettet, eller bruk «Start på nytt» for å flytte dei alle tilbake.",
+      "Når kvar plass har fått sin bit, er biletet ferdig. Trykk på «Ei anna form» for ei ny, eller trykk Pause for å stoppe."
+    ],
+    "tips": [
+      "Slå på hjelpelinjene for å sjå kvar kvar del skal. Slå dei av for meir av ei gåte, med berre omrisset å gå etter.",
+      "Start med dei store formene, til dømes dei store trekanten og rektanglane. Dei små bitane kjem ofte sist.",
+      "Namn formene høgt medan de held på: «ein trekant, ein firkant, eit langt rektangel». Å snakke saman kan gjere det til ei felles aktivitet.",
+      "På papir kan de fargelegge bitane med to eller tre fargar, eller klippe dei ut med hjelp frå ein vaksen."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ei tidsmåling, ei poengsum eller ein teljar for trekk?",
+        "a": "Nei. Ingenting blir tidsmålt, talt eller gitt poeng. Ein bit som ikkje passar, blir berre ikkje plassert, og de kan stoppe når de vil."
+      },
+      {
+        "q": "Blir det de lagar, lagra eller sendt?",
+        "a": "Nei. Biletet blir verande på denne sida åleine. Det blir ikkje lagra, lasta opp eller talt, og det er borte når de lukkar sida."
+      },
+      {
+        "q": "Er felta store nok for skjelving i hendene eller ein liten skjerm?",
+        "a": "Omrisset blir teikna så stort skjermen tillèt, og kvar plass er ein knapp de kan nå med fingeren eller med Tab-tasten. Bitane i brettet er dei store knappane på sida."
+      },
+      {
+        "q": "Finst det ei utgåve på papir?",
+        "a": "Ja. «Skriv ut denne forma» skriv ut eitt bilete på éi side: omrisset med hjelpelinjene, og bitane teikna i same storleik ved sidan av. Fargelegg bitane, eller klipp dei ut så dei passar. Ein vaksen kan gjere klippinga."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på telefon, nettbrett eller datamaskin."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Roleg pust",
-    "seoTitle": "Ein roleg pustepause for eldre og pårørande",
+    "seoTitle": "Ei rolig pust-pause å dele",
     "h1": "Ein roleg pustepause",
     "description": "Ein roleg og fredfull pustepause de kan dele: Ein mjuk sirkel veks og krympar i seks andedrag. Du startar han, og du kan stoppe når som helst.",
     "short": "Ein roleg sirkel å puste i takt med. Start og stopp når du vil.",
@@ -423,6 +1333,131 @@
       {
         "q": "Er det gratis, og må eg registrere meg?",
         "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på mobil, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Historiekjede",
+    "seoTitle": "Historiekjede: eit delt bilethistorie-spel",
+    "h1": "Historiekjede: fortel ei historie eitt bilete om gangen",
+    "description": "Ei rad med bilete veks eitt om gangen, og kvar person seier ein setning høgt om det. Ingenting å skrive, ikkje noko rett svar. Gratis, roleg, utan tidsmåling og utan poeng.",
+    "short": "Legg til eit bilete, og seie så ein setning kvar, på tur.",
+    "players": "2 eller fleire personar",
+    "intro": "Spelet startar med eitt bilete, og kjeda veks eitt bilete om gangen. Kvar person seier éin setning høgt om kjeda så langt, på tur. Setninga kan handle om det de ser, ein stad den minner om, eller noko tullete. Ingenting blir skrive, teke opp eller lagra, det finst ikkje noko rett svar, og kven som helst kan gå over. Kjeda stoppar på åtte bilete, og då kan de starte ei ny.",
+    "howTo": [
+      "Sjå på det første biletet saman.",
+      "Ta tur: kvar person seier éin setning om kjeda så langt. Kven som helst kan gå over.",
+      "Trykk på «Legg til eit bilete» for å setje neste bilete på enden av kjeda.",
+      "Trykk på «Ta bort det siste» om de heller vil gå tilbake eitt bilete.",
+      "Når kjeda har åtte bilete, trykk på «Start ei ny kjede» for ei frisk ei, eller stopp rett og slett."
+    ],
+    "tips": [
+      "Kort er bra: «Nokon sette på kjelen.» Neste person held fram, eller går over.",
+      "Lat biletta leie an. Det finst ingen historie de skal komme fram til.",
+      "Stopp når de vil. Å stoppe midtvegs er ein heilt god måte å avslutte på."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ei tidsmåling eller ei poengsum?",
+        "a": "Nei. Det finst ingen klokke, poengsum, teljar for trekk eller tap. De kan stoppe når som helst, og å stoppe midtvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Blir noko skrive eller teke opp?",
+        "a": "Nei. Setningane blir sagde høgt og blir ikkje skrivne, tekne opp eller sende nokon stad. Spelet viser berre biletta."
+      },
+      {
+        "q": "Kva om nokon ikkje vil seie noko?",
+        "a": "Kven som helst kan gå over, og neste person held fram. Ingen treng å namne eller hugse eit bilete."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og det krevst ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på telefon, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Roleg scene",
+    "seoTitle": "Roleg scene: eitt bilete om gangen",
+    "h1": "Roleg scene: eitt stille bilete om gangen",
+    "description": "Eitt stort, stille bilete om gangen, kvart med ei mild line under. Trykk på Neste eller Førre når de er klare. Ingenting rører seg eller spelar av seg sjølv, og det finst ingen tidsmåling eller poengsum. Gratis å bruke, utan konto.",
+    "short": "Sjå på eitt stille bilete om gangen, i eige tempo.",
+    "players": "Åleine, eller ei gruppe i same rom",
+    "intro": "Eitt stort bilete fyller skjermen, med ei kort line under. Trykk på «Neste bilete» eller «Førre bilete» når de er klare for eit anna. Ingenting rører seg, toner ut eller endrar seg av seg sjølv, og ingenting blir tidsmålt. Trykk på «Større bilete» for å vise berre biletet, slik at heile rommet kan sjå det på fjernsynet.",
+    "howTo": [
+      "Sjå på biletet saman.",
+      "Les linja under det høgt om de vil.",
+      "Trykk på «Neste bilete» eller «Førre bilete» når de er klare.",
+      "Trykk på «Større bilete» for å vise berre biletet, og «Vis alt» for å hente attende resten.",
+      "Stopp når de vil med «Ferdig no»."
+    ],
+    "tips": [
+      "Lat personen velje når det er tid for å gå vidare: vent til han eller ho har sett på biletet, og trykk så på Neste.",
+      "For ei gruppe, bruk «Større bilete» på fjernsyn eller stor skjerm, og sit der alle kan sjå.",
+      "Det finst ingen rett måte å sjå på eit bilete. Berre å snakke om det er ei fullverdig aktivitet."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ei tidsmåling eller ei poengsum?",
+        "a": "Nei. Det finst ingen klokke, poengsum, teljar for trekk eller tap. De kan stoppe når som helst, og å stoppe midtvegs er ein heilt god måte å avslutte på."
+      },
+      {
+        "q": "Spelar den lyd, eller rører han seg?",
+        "a": "Nei. Det er ingen lyd, og ingenting rører seg, toner ut eller endrar seg av seg sjølv. Eit bilete endrar seg berre når de trykkar på ein knapp."
+      },
+      {
+        "q": "Finnes det ei papirversjon?",
+        "a": "Nei. Dette er eit bilete de ser på saman på ein skjerm. Eit favorittbilete eller eit postkort på bordet gjer same nytte."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og der er ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på telefon, nettbrett eller datamaskin."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Fargevask",
+    "seoTitle": "Fargevask: Mjuk farge over eit ark",
+    "h1": "Fargevask: Mål mjuk farge over eit ark",
+    "description": "Ein mjuk pensel målar breie, gjennomsiktige fargevasker over eitt ark, i fire fargar og to penselstorleikar. Det finst ingen sluttpunkt, ingen poeng og ingen tidtakar. Gratis å bruke, utan konto.",
+    "short": "Mål mjuke fargevasker over eit ark, i eige tempo.",
+    "players": "Åleine, eller 2 personar ved sidan av kvarandre",
+    "intro": "Eitt ark og ein mjuk pensel. Vel ein farge og ein penselstorleik, dra så over arket for å leggje ut ein fargevask. Arket har ikkje noko sluttpunkt: det er ingenting å fullføre, ikkje noko bilete som må bli riktig, og ingen poeng. Legg ut så mange vasker de vil, eller legg penselen frå dykk og sjå på. Eit nytt ark tømmer alt, og Før tilbake hentar det tilbake.",
+    "howTo": [
+      "Vel ein farge. Kvar farge har sitt skrivne namn.",
+      "Vel Brei eller Svært brei. Svært brei dekkjer meir av arket med kvart strøk.",
+      "Dra over arket med ein finger, ei mus eller ein penn for å leggje ut ein vask.",
+      "Eller bruk piltastane for å flytte penselringen, og mellomromstasten for å setje penselen ned eller opp.",
+      "Trykk på \"Eit nytt ark\" for å tømme arket, og deretter \"Før tilbake\" om de vil ha vaskene tilbake."
+    ],
+    "tips": [
+      "La den andre personen velje farge til neste vask, og snakk om fargane medan de blir lagde på.",
+      "Svært brei er lettare å styre med ein skjelvande hand, fordi penselen ikkje treng å vere nøyaktig.",
+      "Det finst ingen rett måte å måle på. Stopp når de vil, eller trykk på \"Ferdig for no\"."
+    ],
+    "faq": [
+      {
+        "q": "Finst det ein slutt, eit poeng eller ein tidtakar?",
+        "a": "Nei. Arket har ikkje noko sluttpunkt. Ingenting blir fullført, talt, tidsbestemt eller poengsett, og ingen melding ber dykk om å gjere meir."
+      },
+      {
+        "q": "Blir arket lagra eller sendt?",
+        "a": "Nei. Ingenting blir lagra, skrive ut eller sendt nokon stad. Vaskene blir verande på denne sida til de forlèt ho."
+      },
+      {
+        "q": "Kan eg bruke dette utan mus eller berøringsskjerm?",
+        "a": "Ja. Når arket har fokus, flyttar piltastane ein penselring, og mellomromstasten set penselen ned eller opp. Skjermen seier \"Pensel ned\" eller \"Pensel opp\" kvar gang."
+      },
+      {
+        "q": "Finst det ein papirversjon?",
+        "a": "Nei. Akvarell på papir er same idé, ein våt pensel og éin farge om gangen, så det er ei anna aktivitet å prøve ved bordet."
+      },
+      {
+        "q": "Kva for fargar er det?",
+        "a": "Gul, oransje, grøn og lilla, dei same fire fargane som vi brukar i dei andre biletspela våre. Kvar har eit skrive namn, og namnet står ved sidan av valet."
+      },
+      {
+        "q": "Er det gratis, og må eg registrere meg?",
+        "a": "Ja, det er gratis, og der er ingen konto, registrering eller nedlasting. Det fungerer i nettlesaren på telefon, nettbrett eller datamaskin."
       }
     ]
   }

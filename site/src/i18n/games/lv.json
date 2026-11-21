@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Attēlu pāri",
-    "seoTitle": "Pāru meklēšanas spēle cilvēkiem ar demenci: Attēlu pāri",
+    "seoTitle": "Spēle pārī: attēlu pāri pieaugušajiem",
     "h1": "Attēlu pāri: mierīga pāru meklēšanas spēle",
-    "description": "Bezmaksas, mierīga pāru meklēšanas spēle cilvēkiem ar demenci. Lieli attēli paliek redzami, nav laika ierobežojuma un punktu skaitīšanas, un jūs varat izvēlēties no 4 līdz 12 lauciņiem.",
+    "description": "Bezmaksas, maiga atbilstības spēle pieaugušajiem un vecākiem cilvēkiem, arī cilvēkiem ar demenci. Attēli var palikt redzami. Nav taimera un punktu.",
     "short": "Atrodiet divus vienādus attēlus. Attēli var palikt atvērti.",
     "players": "1 vai 2 cilvēki, blakus viens otram",
     "intro": "Pieskarieties attēlam, pēc tam pieskarieties otram tādam pašam. Pēc noklusējuma attēli paliek redzami, tāpēc nekas nav jāpatur prātā. Kad divi attēli sakrīt, tie iegūst zelta krāsas maliņu un atzīmi.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Atrodi tādu pašu",
-    "seoTitle": "Atrodi tādu pašu attēlu: vienkārša spēle cilvēkiem ar demenci",
+    "seoTitle": "Atrodi to pašu attēlu: vienkārša attēlu spēle",
     "h1": "Atrodi tādu pašu attēlu",
-    "description": "Viens attēls augšā, divi līdz četri apakšā. Pieskarieties tam, kas ir tāds pats. Mierīga, bezmaksas attēlu spēle bez laika ierobežojuma cilvēkiem ar demenci.",
+    "description": "Viens attēls augšā, divi līdz četri zemāk. Pieskarieties tam, kas ir tāds pats. Klusa, bezmaksas attēlu spēle pieaugušajiem, vecākiem cilvēkiem un ģimenēm, bez taimera.",
     "short": "Paskatieties uz attēlu augšā un pieskarieties tādam pašam apakšā.",
     "players": "1 vai 2 cilvēki",
     "intro": "Ekrāna augšpusē ir viens attēls. Zem tā ir divi, trīs vai četri attēli. Pieskarieties tam, kurš ir tāds pats. Tā ir viena vienkārša izvēle vienā reizē, atstājot pietiekami daudz laika sarunām.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Ēnu spēle",
-    "seoTitle": "Ēnu meklēšanas spēle cilvēkiem ar demenci: bez maksas tiešsaistē",
+    "seoTitle": "Ēnu atbilstības spēle: bezmaksas tiešsaistē pieaugušajiem",
     "h1": "Ēnu spēle: mierīga attēlu spēle",
-    "description": "Tumša ēna augšā, divi līdz četri attēli apakšā. Pieskarieties attēlam, kas atbilst ēnai. Bezmaksas, mierīga ēnu meklēšanas spēle cilvēkiem ar demenci, bez laika ierobežojuma.",
+    "description": "Tumšs siluets augšā, divi līdz četri attēli zemāk. Pieskarieties attēlam, kas rada šo ēnu. Bezmaksas, klusa ēnu atbilstības spēle bez taimera.",
     "short": "Apskatiet ēnu un pieskarieties attēlam, kas tai atbilst.",
     "players": "1 vai 2 cilvēki",
     "intro": "Ēnu meklēšana ir pazīstama nodarbe no drukātām darba lapām, taču šeit attēli ir lieli un nekas nav jādrukā. Ekrāna augšdaļā ir redzama maiga ēna, un apakšā gaida divi, trīs vai četri attēli. Pieskarieties tam, kurš atbilst ēnai. Par tādām formām kā velosipēds, lietussargs vai tējas tasīte ir arī viegli parunāties.",
@@ -100,8 +100,8 @@
         "a": "Nē. Nav ne pulksteņa, ne punktu, ne gājienu skaitītāja, ne zaudēšanas. Jūs varat apstāties jebkurā brīdī, un pabeigt spēli pusceļā ir pilnīgi dabiski."
       },
       {
-        "q": "Vai ēnu saskaņošana ir piemērota cilvēkiem ar demenci?",
-        "a": "Dažiem cilvēkiem tā var būt patīkama un vienkārša nodarbe, jo īpaši agrīnā posmā. Formas ir vieglāk atpazīt nekā vārdus. Tā ir paredzēta priekam un sarunām, nevis pārbaudei, un tā neārstē un nepalēnina demenci. Ja tā rada satraukumu, izmēģiniet spēli „Atrodi vienādos” vai vienkārši kopā aplūkojiet attēlus."
+        "q": "Vai cilvēki ar demenci var baudīt ēnu atbilstības spēli?",
+        "a": "Daudziem pieaugušajiem tā patīk, arī dažiem cilvēkiem ar demenci, bieži agrīnajos posmos. Formas atpazīt ir vieglāk nekā vārdus. Spēle paredzēta baudai un sarunai, nevis pārbaudei, un tā neārstē un neapstādina demenci. Ja tā rada neapmierinātību, izmēģiniet spēli “Atrodi to pašu” vai vienkārši kopā aplūkojiet attēlus."
       },
       {
         "q": "Kas notiek, ja pieskaras nepareizajam attēlam?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Četri kopā",
+    "seoTitle": "Attēlu grupēšanas spēle pieaugušajiem: Četri kopā",
+    "h1": "Četri kopā: klusa attēlu grupēšanas spēle",
+    "description": "Daži attēli ir saistīti ar vienu tēmu, piemēram, augļiem vai laikapstākļiem. Pieskarieties tiem, kas pieder kopā. Bezmaksas, klusa grupēšanas spēle bez taimera un punktiem.",
+    "short": "Atrodiet attēlus, kas pieder kopā, piemēram, augļus vai laikapstākļus.",
+    "players": "1 vai 2 cilvēki",
+    "intro": "Neliela attēlu kopa, un daži no tiem pieder kopā: varbūt četri augļu veidi vai četri ceļošanas veidi. Pieskarieties tiem, kam ir kopīga tēma. Ja attēls pieder pie kaut kā cita, spēle to vienkārši nosauc un gaida. Pēc klusas pauzes parādās mājiens, kas nosauc tēmu, bet “Parādīt grupu” jebkurā brīdī atklāj atbildi.",
+    "howTo": [
+      "Izvēlieties četrus, sešus vai astoņus attēlus. Četri ir vienkāršākais variants, ar trim attēliem, kas pieder kopā.",
+      "Kopā aplūkojiet attēlus un runājiet par to, kas tiem ir kopīgs.",
+      "Pieskarieties katram attēlam, kas pieder grupā. Tam parādās zelta rāmis un atzīme.",
+      "Ja attēls pieder pie kaut kā cita, spēle to nosauc un gaida. Neskubiet.",
+      "Pieskarieties “Parādīt grupu” jebkurā brīdī, pēc tam “Citi attēli”, lai saņemtu jaunus attēlus."
+    ],
+    "tips": [
+      "Skaļi sakiet, ko pamanāt: “Šie abi ir kaut kas, ko ēst.”",
+      "Nav jāsteidzas. Pēc pauzes parādās mājiens ar tēmu, un to var ignorēt.",
+      "Kad grupa atrasta, runājiet par to: par mīļāko augli, braucienu ar vilcienu vai šodienas laiku."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punkti?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Kas notiek, ja pieskaras attēlam, kas nav grupā?",
+        "a": "Nekas nepatīkams. Nav signāla, sarkana krusta vai kratīšanas. Spēle nosauc attēlu, saka, ka tas pieder pie kaut kā cita, un gaida nākamo pieskārienu."
+      },
+      {
+        "q": "Kādas ir grupas?",
+        "a": "Ikdienas tēmas, kurām nav vajadzīgas īpašas zināšanas: augļi, dzīvnieki, ziedi, laikapstākļi, ceļošanas veidi, lietas karstajam dzērienam un cepto ēdienu. Katrs attēls pieder tikai vienai grupai."
+      },
+      {
+        "q": "Vai tas ir bezmaksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bezmaksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Atšķirīgais",
+    "seoTitle": "Atšķirīgais attēls: attēlu spēle pieaugušajiem",
+    "h1": "Atšķirīgais: nomierinoša attēlu spēle",
+    "description": "Trīs vai četri attēli, un visi, izņemot vienu, ir saistīti ar vienu tēmu, piemēram, augļiem vai laikapstākļiem. Pieskarieties tam, kas nepieder klāt. Bezmaksas, klusa spēle bez taimera un punktiem.",
+    "short": "Atrodiet attēlu, kas nepieder pie pārējiem.",
+    "players": "1 vai 2 cilvēki",
+    "intro": "Trīs vai četri attēli, un visi, izņemot vienu, pieder kopā: varbūt augļi vai ceļošanas veidi. Pieskarieties attēlam, kas nepieder klāt. Ja attēls tomēr pieder pie pārējiem, spēle to vienkārši pasaka un gaida. Pēc klusas pauzes parādās mājiens, kas nosauc, kas pārējiem ir kopīgs, un “Parādi man” jebkurā brīdī norāda atšķirīgo.",
+    "howTo": [
+      "Izvēlieties trīs vai četrus attēlus. Trīs ir vienkāršākais variants.",
+      "Kopā aplūkojiet attēlus un runājiet par to, kas lielākajai daļai no tiem ir kopīgs.",
+      "Pieskarieties attēlam, kas nepieder klāt. Tam parādās zelta rāmis un atzīme.",
+      "Ja attēls pieder pie pārējiem, spēle to pasaka un gaida. Neskubiet.",
+      "Pieskarieties “Parādi man” jebkurā brīdī, pēc tam “Citi attēli”, lai saņemtu jaunus attēlus."
+    ],
+    "tips": [
+      "Runājiet skaļi: “Ābols un bumbieris ir augļi. Kā ir ar autobusu?”",
+      "Nav jāsteidzas. Pēc pauzes parādās mājiens ar tēmu, un to var ignorēt.",
+      "Jebkurš attēls ir labs sarunas sākums: mīļākais augis, brauciens ar autobusu, lietaina diena."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punkti?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Kas notiek, ja pieskaras attēlam, kas pieder grupā?",
+        "a": "Nekas nepatīkams. Nav signāla, sarkana krusta vai kratīšanas. Spēle nosauc attēlu, saka, ka tas pieder pie pārējiem, un gaida nākamo pieskārienu."
+      },
+      {
+        "q": "Kā tiek izvēlēts atšķirīgais attēls?",
+        "a": "Attēli nāk no ikdienas tēmām, kurām nav vajadzīgas īpašas zināšanas: augļi, dzīvnieki, ziedi, laikapstākļi, ceļošanas veidi, lietas karstajam dzērienam un cepto ēdienu. Katrs attēls pieder tikai vienai tēmai, un atšķirīgais vienmēr nāk no citas tēmas."
+      },
+      {
+        "q": "Ir tas bezmaksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bezmaksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Krāsu atbilstība",
+    "seoTitle": "Krāsu atbilstība: maiga attēlu spēle",
+    "h1": "Krāsu atbilstība: atrodiet vienas krāsas attēlus",
+    "description": "Liels krāsas laukums ar tās nosaukumu un četri vai seši attēli. Pieskarieties katram attēlam, kas ir šādā krāsā. Nav taimera, nav punktu, un citas krāsas tiek vienkārši nosauktas. Spēle ir bezmaksas, to var spēlēt un izdrukāt.",
+    "short": "Atrodiet visus attēlus, kas ir tādā pašā krāsā kā parādītā.",
+    "players": "1 vai 2 cilvēki, vai pieaugušais un bērns",
+    "intro": "Redzams liels krāsas laukums, blakus tam uzrakstīts tā nosaukums, bet zemāk ir četri vai seši attēli. Pieskarieties katram attēlam, kas ir šajā krāsā, piemēram, sarkanai ābolam un sarkanai krūzei. Ja attēls ir citā krāsā, spēle vienkārši nosauc to („Bumbieris ir zaļš.“) un gaida. Pogu „Parādīt“ var nospiest jebkurā brīdī, lai norādītu atbilstošos attēlus, bet poga „Cita krāsa“ ved uz nākamo.",
+    "howTo": [
+      "Izvēlieties četrus vai sešus attēlus. Četri ir vienkāršākais variants.",
+      "Kopā apskatiet krāsu un izlasiet tās nosaukumu.",
+      "Pieskarieties katram attēlam, kas ir šajā krāsā. Katrs no tiem saņems biezu rāmi un atzīmi.",
+      "Ja attēls ir citā krāsā, spēle pasaka, kāda tā ir, un gaida. Neskubiet.",
+      "Pieskarieties pogai „Parādīt“, kad vēlaties, un pēc tam pogai „Cita krāsa“, lai izvēlētos jaunu krāsu."
+    ],
+    "tips": [
+      "Pasakiet krāsu skaļi un tad paskatieties apkārt istabā: kas vēl ir šādā krāsā?",
+      "Varat lietot savus vārdus. „Tomāts“ vai „debesis“ ir tikpat labi kā „sarkans“ vai “zils“.",
+      "Norādīšana darbojas tikpat labi kā pieskaršanās. Sēdiet blakus, lai abi varat redzēt ekrānu."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaits?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Varat apstāties jebkurā brīdī, un apstāties pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Kas notiek, ja tiek pieskarts citas krāsas attēlam?",
+        "a": "Nekas nepatīkams. Nav signāla, sarkana krusta vai kratīšanas. Spēle nosauc attēlu un tā krāsu, piemēram, „Bumbieris ir zaļš.“, un gaida nākamo pieskārienu."
+      },
+      {
+        "q": "Vai krāsa ir vienīgais norādījums?",
+        "a": "Nē. Krāsa ir parādīta kā liels laukums un arī uzrakstīta vārdā, un katrs attēls tiek nosaukts, kad uz tā pieskaras. Ja kādam krāsu ir grūti saskatīt, viņš var spēlēt, lasot nosaukumu."
+      },
+      {
+        "q": "Vai katrs attēls tiešām ir šādā krāsā?",
+        "a": "Attēlus izvēlas ar rokām, un tikai tādus, kuros galvenais priekšmets ir skaidri vienā krāsā. Attēli ar vairākām krāsām, piemēram, pūķis vai bite, ir izlaisti."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Vienlapas lapā ir četras rindas. Katrā rindā ir nosaukta krāsa un parādīti četri attēli, uz kuriem var norādīt vai ko apvilkt."
+      },
+      {
+        "q": "Vai tas ir bezmaksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bezmaksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Pušu saskaņošana",
+    "seoTitle": "Pušu saskaņošana: maiga attēlu spēle",
+    "h1": "Pušu saskaņošana: savienojiet attēla divas puses",
+    "description": "Divu vai trīs attēlu kreisās puses vienā pusē, to labās puses otrā. Pieskarieties vienai pusei, tad pusei, kas tai atbilst. Nav taimera, nav punktu, un puses, kas nesakrīt, vienkārši atdalās. Spēle ir bezmaksas, to var spēlēt un izdrukāt.",
+    "short": "Pieskarieties abām pusēm, kas savienojas, veidojot vienu attēlu.",
+    "players": "1 vai 2 cilvēki, vai pieaugušais un bērns",
+    "intro": "Katrs attēls ir pārgriezts pa vidu. Divu vai trīs attēlu kreisās puses ir vienā kolonnā, bet to labās puses citā secībā ir otrā. Pieskarieties kreisajai pusei, tad labajai pusei, kas tai atbilst, piemēram, tējkannas snīpim un tās rokturim. Atbilstošās puses tiek savienotas vienā attēlā. Puses, kas nesakrīt, atkal atdalās, un spēle to maigi pasaka. Pogа „Parādīt“ savieno visas.",
+    "howTo": [
+      "Izvēlieties divus vai trīs attēlus. Divi ir vienkāršākais variants.",
+      "Kopā apskatiet kreisās puses. Ko jūs domājat, kuras daļas tās ir?",
+      "Pieskarieties kreisajai pusei, tad labajai pusei, kas tai atbilst. Var arī otrādi.",
+      "Atbilstošās puses tiek savienotas, ar biezu rāmi un atzīmi. Puses, kas nesakrīt, atkal atdalās, un varat izmēģināt citu.",
+      "Pieskarieties pogai „Parādīt“, kad vēlaties, un pēc tam pogai „Cits komplekts“, lai izvēlētos jaunus attēlus."
+    ],
+    "tips": [
+      "Ar pirkstu izsekojiet malai. Kur zīmējums sasniedz vidu?",
+      "Sakiet, ko redzat: „Tam ir rokturis.“ Nav vajadzības nosaukt katru attēlu.",
+      "Norādīšana darbojas tikpat labi kā pieskaršanās. Sēdiet blakus, lai abi varat redzēt ekrānu."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaits?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Varat apstāties jebkurā brīdī, un apstāties pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Kas notiek, ja divas puses nesakrīt?",
+        "a": "Nekas nepatīkams. Nav signāla, sarkana krusta vai kratīšanas. Abas puses atkal atdalās, un spēle saka: „Tās divas nesavienojas. Izmēģiniet citas.“ Nekas netiek skaitīts."
+      },
+      {
+        "q": "Vai attēlus ir viegli atšķirt?",
+        "a": "Jā. Attēlus izvēlas ar rokām, un divi attēli vienā dēlī nekad nenāk no vienas grupas, piemēram, divi augļi vai divi dzīvnieki. Attēli, kuru abas puses izskatās vienādas, piemēram, saule vai varavīksne, ir izlaisti."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Vienā lapā ir trīs attēlu kreisās puses vienā kolonnā un to labās puses citā secībā otrā kolonnā. Novelciet līniju no katras kreisās puses līdz tai pusei, kas tai atbilst."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Krāsot pēc numuriem",
+    "seoTitle": "Krāsot pēc numuriem: mierīga spēle ar lieliem laukumiem",
+    "h1": "Krāsot pēc numuriem: aizpildiet laukumus jebkurā krāsā, kāda patīk",
+    "description": "Liels numurētu kvadrātu režģis un krāsu atslēga ar četrām krāsām un to nosaukumiem. Izvēlieties krāsu un pieskarieties kvadrātiem, lai tos aizpildītu. Jebkura krāsa ir pareiza, nav taimera un punktu, un poga aizpilda pārējos pēc numuriem. Spēle ir bez maksas, un to var arī izdrukāt.",
+    "short": "Izvēlieties krāsu un pieskarieties numurētajiem kvadrātiem, lai tos aizpildītu.",
+    "players": "1 vai 2 cilvēki blakus",
+    "intro": "Kvadrātu režģis ar lieliem kvadrātiem, katram ir numurs, un virs tā krāsu atslēga ar četrām krāsām, katrai ir savs numurs un rakstīts nosaukums. Izvēlieties krāsu no atslēgas un pieskarieties kvadrātiem, lai tos aizpildītu. Sākumā režģis ir 4 pa 4, bet, ja vēlaties vairāk kvadrātu, var izvēlēties 6 pa 6 vai 8 pa 8. Kad katrs kvadrāts ir tādā krāsā, kāda atbilst tā numuram, režģis kļūst par attēlu lapā. Kvadrāti, kas aizpildīti ar citām krāsām, ir jūsu pašu attēls, un spēle par to neko neteiks. Poga \"Aizpildīt pēc numuriem\" aizpilda visus tukšos kvadrātus.",
+    "howTo": [
+      "Izvēlieties režģa izmēru. Režģim 4 pa 4 ir lielākie kvadrāti, un tas ir vienkāršākais.",
+      "Apskatiet krāsu atslēgu virs režģa. Katrai krāsai ir numurs un nosaukums, piemēram, 1 Dzeltena.",
+      "Pieskarieties krāsai atslēgā un pēc tam kvadrātiem, kurus vēlaties aizpildīt ar to.",
+      "Izmantojiet krāsu, kas atbilst numuram, vai jebkuru citu krāsu, kāda patīk. Abas iespējas ir labas.",
+      "Pieskarieties \"Aizpildīt pēc numuriem\" tukšajiem kvadrātiem, \"Notīrīt\", lai sāktu režģi no jauna, vai \"Cits attēls\", lai izvēlētos citu."
+    ],
+    "tips": [
+      "Sēdiet blakus un ejiet pa kārtai: viens izvēlas krāsu, otrs pieskaras kvadrātam.",
+      "Runājiet par krāsām: \"Man patīk zaļā.\" Nav vajadzības nosaukt, ko attēls būs.",
+      "Šaurā ekrānā režģis 8 pa 8 ritina sānis savā rāmī. Kvadrāti paliek ērtā izmērā.",
+      "Papīra versija arī der, ja ir krāsaini zīmuļi pie gultas galdiņa."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punkti?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāties pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Ko darīt, ja izmantoju citu krāsu, nevis numuram atbilstošo?",
+        "a": "Nekas nenotiek, un tieši tā tam jābūt. Jebkuru krāsu var likt jebkurā kvadrātā, un spēle par to neko neteiks. Kad katrs kvadrāts ir tādā krāsā, kāda atbilst tā numuram, spēle to maigi pateiks, bet attēls jūsu pašu krāsās ir tikpat labs."
+      },
+      {
+        "q": "Vai četras krāsas var atšķirt cilvēki ar krāsu redzes traucējumiem?",
+        "a": "Tās izvēlētas tā, lai varētu. Katrai krāsai ir arī numurs, rakstīts nosaukums un sava neliela forma, tāpēc krāsa nekad nav vienīgais veids, kā tās atšķirt. Četras aizpildījumu krāsas pārbaudītas ar simulācijām sarkanzaļā un zildzeltenā krāsu aklumā, un tās atšķiras arī pēc spilgtuma. Cilvēks ar krāsu aklumu šīs krāsas vēl nav izmēģinājis, tāpēc, lūdzu, pastāstiet mums, ja divas šķiet vienādas."
+      },
+      {
+        "q": "Vai kvadrāti ir pietiekami lieli roku trīcēšanai vai mazam ekrānam?",
+        "a": "Katrs kvadrāts ir vismaz 48 pikseļus plats, bet režģī 4 pa 4 – 56. Ja režģis ekrānam ir par platu, tas ritina sānis savā rāmī, nevis samazina kvadrātus."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Vienā lapā ir numurēts režģis un četru krāsu atslēga ar nosaukumiem. Krāsojiet katru kvadrātu ar zīmuli, kas atbilst tā numuram, vai ar jebkuru citu krāsu, kāda patīk."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Rakstu veidotājs",
+    "seoTitle": "Rakstu veidotājs: izveidojiet flīzi un izdrukājiet rakstu",
+    "h1": "Rakstu veidotājs: izveidojiet flīzi un redziet, kā tā atkārtojas",
+    "description": "Mainiet mazas flīzes kvadrātus un skatiet, kā tā atkārtojas blakus esošajā rakstā četrās krāsās, kurām katrai ir nosaukums un forma. Nav taimera un punktu. Spēle ir bez maksas, un to var arī izdrukāt.",
+    "short": "Mainiet mazas flīzes kvadrātus un skatiet, kā tā atkārtojas rakstā.",
+    "players": "1 vai 2 cilvēki blakus",
+    "intro": "Maza flīze 3 pa 3 kvadrātiem vai 4 pa 4, ja vēlaties, un blakus – \"jūsu raksts\": tā pati flīze, atkārtota blokā. Pieskarieties kvadrātam, un tas mainās uz nākamo no četrām krāsām, katrai ir savs rakstītais nosaukums un forma. Blakus esošais raksts mainās uzreiz. Nav pareiza raksta, un nekas netiek saglabāts vai nosūtīts. Poga \"Drukāt manu rakstu\" novieto atkārtoto rakstu uz vienas lapas, ko paturēt, krāsot vai dāvināt.",
+    "howTo": [
+      "Apskatiet flīzi un blakus esošo savu rakstu. Tā ir tā pati flīze, kas atkārtota.",
+      "Pieskarieties kvadrātam. Tas mainās uz nākamo krāsu krāsu rindā augšā.",
+      "Turpiniet pieskarties kvadrātiem, līdz raksts izskatās tā, kā vēlaties. Jebkurš raksts ir labs.",
+      "Pieskarieties \"Pārsteidziet mani\" jaunai flīzei vai \"Sākt no jauna\" tukšai. \"Atjaunot\" atgriež flīzi, kāda bija jums.",
+      "Pieskarieties \"Drukāt manu rakstu\", ja vēlaties to uz papīra, vai pieskarieties Atpūsties, lai apstātos."
+    ],
+    "tips": [
+      "Sēdiet blakus un ejiet pēc kārtas: viens pieskaras kvadrātam, otrs saka, ko ievēro.",
+      "Runājiet par to, ko redzat: \"Tas izskatās pēc ziedas.\" Nav vajadzības nosaukt visu pareizi.",
+      "Izmēģiniet to pašu plāksni tikai ar divām krāsām, tad vēlreiz ar visām četrām.",
+      "Uz papīra rakstu var nokrāsot ar zīmuļiem, sagriezt svītrās kartītei vai izmantot mazas dāvanas ietīšanai."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punkti?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Vai tas, ko izveidoju, tiek saglabāts vai nosūtīts?",
+        "a": "Nē. Jūsu plāksne paliek tikai šajā lapā. Tā netiek saglabāta, augšupielādēta vai skaitīta, un aizverot lapu, tā pazūd. Ja vēlaties paturēt rakstu, izdrukājiet to."
+      },
+      {
+        "q": "Ko darīt, ja nejauši pieskaros nepareizam kvadrātam vai notīrāt plāksni?",
+        "a": "Nepareizu kvadrātu nav: pieskarieties vēlreiz, lai pārietu uz nākamo krāsu. Pēc \"Sākt no jauna\" vai \"Pārsteidz mani\" poga \"Atjaunot\" atgriež plāksni, kāda tā bija."
+      },
+      {
+        "q": "Vai cilvēki ar krāsu redzes traucējumiem var atšķirt četras krāsas?",
+        "a": "Tās izvēlētas tā, lai varētu. Katrai krāsai ir arī rakstisks nosaukums un sava neliela forma katrā kvadrātā, tāpēc krāsa nekad nav vienīgais veids, kā tās atšķirt. Četras krāsas pārbaudītas ar sarkanzaļās un zilgandzeltenās krāsu redzes traucējumu simulācijām. Cilvēks ar krāsu redzes traucējumiem tās vēl nav izmēģinājis, tāpēc, lūdzu, pastāstiet mums, ja divas šķiet vienādas."
+      },
+      {
+        "q": "Vai kvadrāti ir pietiekami lieli trīcošām rokām vai mazam ekrānam?",
+        "a": "Katrs kvadrāts ir vismaz 56 pikseļus plats. Ja plāksne ekrānā nav pietiekami plata, tā ritina sānis savā kastītē, nevis samazina kvadrātus."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Poga \"Drukāt manu rakstu\" izdrukā uz vienas lapas izveidoto rakstu ar četrām krāsām un to nosaukumiem. Tas izskatās labi arī melnbaltā, jo katrai krāsai ir sava forma."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Zīmēšanas duets",
+    "seoTitle": "Zīmēšanas duets: divi cilvēki, viens attēls",
+    "h1": "Zīmēšanas duets: divi cilvēki, viena lapa",
+    "description": "Divi cilvēki pēc kārtas zīmē līnijas uz kopīga audekla, katrs savā krāsā. Nav punktu un uzvarētāja, un attēlu var saglabāt vai izdrukāt. Spēle ir bez maksas, bez konta.",
+    "short": "Zīmējiet kopīgu attēlu pēc kārtas ar blakus esošu cilvēku.",
+    "players": "2 cilvēki, blakus",
+    "intro": "Viens audekls, divi cilvēki. Katrs izvēlaties krāsu, un katrai krāsai ir rakstisks nosaukums. Ejat pēc kārtas: uzzīmējiet vienu līniju vai formu un nododiet pildspalvu. Jebkurš no jums var nodot gājienu jebkurā brīdī. Nav pareizas bildes un nav punktu. Ja attēls patīk, varat to saglabāt savā ierīcē vai izdrukāt papīra versiju: viena lapa, divas pildspalvas.",
+    "howTo": [
+      "Katrs izvēlaties krāsu. Baneris rāda, kura kārta, kopā ar krāsas nosaukumu.",
+      "Uzzīmējiet vienu līniju vai formu ar pirkstu, peli vai pildspalvu. Vai izmantojiet bultiņu taustiņus un atstarpes taustiņu, ja nav rādītāja ierīces.",
+      "Kad esat gatavs, pieskarieties \"Nodot pildspalvu\". Jebkurš no jums var nodot gājienu jebkurā brīdī.",
+      "Pieskarieties \"Atsaukt manu pēdējo līniju\", lai noņemtu jaunāko līniju tam, kura kārta.",
+      "Pieskarieties \"Saglabāt attēlu\", lai ierīcē izveidotu attēla failu, vai \"Drukāt papīra versiju\" vienai lapai un divām pildspalvām."
+    ],
+    "tips": [
+      "Sēdiet blakus un runājiet, kamēr zīmējat: \"Es uzzīmēšu sauli stūrī.\"",
+      "Sāciet ar punktu, līniju vai vienkāršu formu, un ļaujiet otram cilvēkam uz to atbildēt.",
+      "Nevienam nav jāzīmē konkrēts attēls. Līniju raksts ir tikpat labs kā ainava.",
+      "Ja vēlaties pārtraukt, pieskarieties \"Pagaidām pietiek\". Jūsu attēls netiek saglabāts pēc lapas aizvēršanas, ja vien to neesat saglabājis."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir uzvarētājs vai punkti?",
+        "a": "Nav. Nav uzvarētāja, punktu, taimera un gājienu skaitīšanas. Nav pareizas bildes, un nekas netiek vērtēts vai salīdzināts."
+      },
+      {
+        "q": "Vai attēls tiek saglabāts vai nosūtīts?",
+        "a": "Nē, nekas nekur netiek nosūtīts. Attēls paliek šajā lapā, līdz to aizverat. Ja pieskaraties Saglabāt attēlu, jūsu ierīcē tiek izveidots fails lejupielādei. Nekas netiek augšupielādēts."
+      },
+      {
+        "q": "Vai var atsaukt līniju?",
+        "a": "Jā. \"Atsaukt manu pēdējo līniju\" noņem jaunāko līniju tam, kura kārta. \"Sākt no jauna\" notīra lapu, un \"Atjaunot\" atgriež līnijas, bet tikai vienu soli atpakaļ."
+      },
+      {
+        "q": "Vai to var izmantot bez peles vai skārienekrāna?",
+        "a": "Jā. Kad zīmējums ir fokusā, bultiņu taustiņi pārvieto pildspalvas punktu, bet atstarpes taustiņš pildspalvu noliek vai paceļ. Ekrānā katru reizi parādās \"Pildspalva lejā\" vai \"Pildspalva augšā\"."
+      },
+      {
+        "q": "Kādas ir krāsas, un vai cilvēki ar krāsu redzes traucējumiem tās var atšķirt?",
+        "a": "Dzeltena, oranža, zaļa un violeta, tās pašas četras krāsas, kas izmantotas citās mūsu attēlu spēlēs. Katrai ir rakstisks nosaukums, un nosaukumi redzami blakus gājienam. Krāsas pārbaudītas ar biežāko krāsu redzes atšķirību simulācijām, taču cilvēks ar krāsu redzes atšķirībām tās vēl nav izmēģinājis."
+      },
+      {
+        "q": "Vai ir papīra versija?",
+        "a": "Jā. \"Drukāt papīra versiju\" izdrukā vienu lapu ar noteikumiem un lielu tukšu rāmi zīmēšanai diviem cilvēkiem ar divām pildspalvām. Tas darbojas arī melnbaltā."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Taip, tai nemokama, ir nereikia kurti paskyros, registruotis ar ką nors atsisiųsti. Veikia interneto naršyklėje telefone, planšetėje ar kompiuteryje."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Kartu kurkime",
+    "seoTitle": "Kartu kurkime: du žmonės kuria vieną raštą",
+    "h1": "Kartu kurkime: du žmonės, vienas tinklelis",
+    "description": "Du žmonės paeiliui deda po vieną detalę į bendrą tinklelį, kol jis užpildomas. Kiekvienas turi savo spalvą, kuri turi pavadinimą ir formą. Nėra nei nugalėtojo, nei laikmačio, nei taškų. Žaisti ir spausdinti nemokama.",
+    "short": "Eikite paeiliui su šalia esančiu žmogumi ir užpildykite vieną bendrą tinklelį.",
+    "players": "2 žmonės, sėdint šalia",
+    "intro": "Bendras tinklelis iš 4 x 4 vietų arba, jei norite, iš 3 x 3. Kiekvienas pasirenkate spalvą, o kiekviena spalva turi savo užrašytą pavadinimą ir formą. Eina paeiliui: savo eilėje palieskite tuščią vietą, kad joje padėtumėte savo detalę. Kai kiekvienoje vietoje bus detalė, paveikslas bus sukurtas kartu. Nugalėtojo nėra, nes kuriate poroje, ir niekas nėra išsaugoma ar siunčiama. Mygtukas „Spausdinti tinklelį“ atspausdina tuščią tinklelį vienu puslapiu, kad galėtumėte kurti dviem pieštukais.",
+    "howTo": [
+      "Kiekvienas pasirinkite spalvą. Spalva, kurią jau pasirinko kitas žmogus, pažymėta „Naudojama“.",
+      "Pirmas pradeda pirmasis žmogus. Ekrane matyti, kieno eilė ir kokia spalva jam priklauso.",
+      "Palieskite tuščią vietą, kad joje padėtumėte savo detalę. Eilė pereina kitam žmogui.",
+      "Jei nenorite dėti detalės, palieskite „Praleisti“. Bet kuris iš jūsų bet kada gali praleisti eilę.",
+      "Kai kiekvienoje vietoje bus detalė, paveikslas bus sukurtas kartu. Palieskite „Pradėti iš naujo“, kad sukurtumėte kitą, arba palieskite Poilsis, kad sustotumėte."
+    ],
+    "tips": [
+      "Sėskite šalia, kad abu matytumėte ekraną ir galėtumėte į jį lengvai pasiekti. Kalbėkitės kurdami: „Aš padėsiu savo šalia tavosios.“",
+      "Galite bandyti kurti raštą: juostas, šachmatinę lentą ar kraštelį, arba tiesiog dėti detales kur norite. Abu variantai tinka.",
+      "Vaikas ar žmogus, kuris greitai pavargsta, gali praleisti eilę tiek kartų, kiek nori. Paveikslas vis tiek sukuriamas kartu.",
+      "Popieriuje kiekvienas žmogus naudoja vieną pieštuką ir tuščiuose languose piešia savo formą."
+    ],
+    "faq": [
+      {
+        "q": "Ar yra nugalėtojas, laikmatis ar taškai?",
+        "a": "Ne. Nugalėtojo nėra, nes paveikslą kuriate kartu. Nėra nei laikrodžio, nei taškų, nei detalių skaičiavimo, nei pralaimėjimo. Galite sustoti bet kuriuo metu, o sustoti pusiaukelėje – visiškai tinkamas baigimo būdas."
+      },
+      {
+        "q": "Ar tai, ką sukuriame, išsaugoma ar siunčiama?",
+        "a": "Ne. Tinklelis lieka tik šiame puslapyje. Jis neišsaugomas, neįkeliamas ir neskaičiuojamas, o uždarius puslapį dingsta. Jei norite jį išsaugoti, atspausdinkite tinklelį ir kurkite popieriuje."
+      },
+      {
+        "q": "Ką daryti, jei padėjau detalę ne ten?",
+        "a": "Neteisingos vietos nėra. Palieskite „Atšaukti paskutinę detalę“, ir eilė vėl grįš jums. Galite atšaukti po vieną žingsnį, taip pat galima atšaukti ir praleidimą."
+      },
+      {
+        "q": "Ar žmonės, turintys spalvų aklumą, gali atskirti keturias spalvas?",
+        "a": "Spalvos parinktos taip, kad galėtų. Kiekviena spalva turi ir užrašytą pavadinimą, ir savo mažą formą kiekvienoje detalėje, todėl spalva nėra vienintelis būdas jas atskirti. Keturios spalvos patikrintos naudojant raudonai žalio ir mėlynai geltono spalvų aklumo modeliavimą. Spalvų aklumą turintis žmogus jų dar nebandė, todėl praneškite, jei kurios dvi atrodo panašios."
+      },
+      {
+        "q": "Ar vietos yra pakankamai didelės drebančiai rankai ar mažam ekranui?",
+        "a": "Kiekviena vieta yra bent 56 pikselių pločio. Jei tinklelis per platus ekranui, jis slenka į šonus savo rėmelyje, o ne susitraukia."
+      },
+      {
+        "q": "Ar yra popierinė versija?",
+        "a": "Taip. „Spausdinti tinklelį“ atspausdina tuščią tinklelį vienu puslapiu su dviem spalvomis ir jų pavadinimais, kad galėtumėte kurti dviem pieštukais. Tai tinka ir juodai baltai, nes kiekviena spalva turi savo formą."
+      },
+      {
+        "q": "Ar tai nemokama ir ar reikia registruotis?",
+        "a": "Taip, tai nemokama, ir nereikia kurti paskyros, registruotis ar ką nors atsisiųsti. Veikia interneto naršyklėje telefone, planšetėje ar kompiuteryje."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Sėdint metama žaidimo skaičiuotė",
+    "seoTitle": "Sėdint metama žaidimo skaičiuotė: metimo žaidimas dviem su maišeliu",
+    "h1": "Sėdint metama žaidimo skaičiuotė: metate kartu prie stalo",
+    "description": "Du žmonės prie stalo paeiliui meta minkštą pupelių maišelį į didelį taikinį ir pažymi taškus popieriuje. Laikas nematuojamas ir taškai neskaičiuojami. Spausdinti nemokama.",
+    "short": "Eikite paeiliui ir mėtykite pupelių maišelį į didelį taikinį, o taškus žymėkite popieriuje.",
+    "players": "2 žmonės, prie stalo",
+    "intro": "Ramus metimo žaidimas dviem žmonėms, sėdintiems prie stalo. Padedate ant stalo atspausdintą taikinį ir paeiliui metate minkštą pupelių maišelį arba suvyniotą kojinę, kad jis nukristų ant žiedų. Kiekvienas žymite taškus popieriuje, pažymėdami langelius, o sustoję kartu peržiūrite žymes. Laikas nematuojamas, ekrane nieko nesumuojama, ir niekas nėra išsaugoma ar siunčiama. Pirmiausia perskaitykite saugos nurodymus: smulkūs užpildai kelia pavojų uždusti.",
+    "howTo": [
+      "Perskaitykite saugos nurodymus. Pasirinkite maišelį su susiūtu dangteliu arba suvyniokite švarią kojinę.",
+      "Palieskite „Spausdinti taikinį ir taškų lapą“ ir padėkite lapą plokščiai ant stalo tarp savęs.",
+      "Sėskite patogiai, po vieną kiekvienoje pusėje, ir paeiliui švelniai metkite po vieną kartą. Bet kuris gali praleisti eilę.",
+      "Kai metimas nukrenta į žiedą, pažymėkite langelį savo stulpelyje, eilutėje, atitinkančioje tą žiedą.",
+      "Sustoję kartu peržiūrėkite žymes arba palieskite Poilsis, kad padarytumėte pertrauką."
+    ],
+    "tips": [
+      "Sēdiet pietiekami tuvu, lai maigs apakšējais metiens sasniegtu mērķi bez jebkādas stiepšanās.",
+      "Runājiet par metienu, nevis par rezultātu: \"Tas bija mīksts metiens.\" Visi apsveic katru metienu.",
+      "Satīta zeķe ir viegla un ērti turama, ja roka ir vāja. Starp gājieniem atbalstiet roku uz galda.",
+      "Ja kāds labāk vēro, viņš var būt tas, kas atzīmē kastītes."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai rezultāts?",
+        "a": "Nav. Nav pulksteņa, rezultāta, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāties pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Vai ir droši mest pupu maisiņu?",
+        "a": "Ar uzmanību var būt. Izmantojiet maisiņu ar sašūtu vāku vai satītu zeķi, nekad nebirstošas pupiņas, rīsus vai sīkus pildījumus, kas ir aizrīšanās risks maziem bērniem un ikvienam, kas liek lietas mutē. Sēdiet, metiet maigi uz galda pusi, nekad uz sejas pusi, un turiet tuvumā pieaugušo."
+      },
+      {
+        "q": "Vai ekrānā kaut kas tiek skaitīts vai saglabāts?",
+        "a": "Nē. Uzskaite ir tikai uz papīra, kastītēs, ko atzīmējat paši. Lapa neglabā skaitu un taimeri, un nekas netiek saglabāts vai nosūtīts."
+      },
+      {
+        "q": "Ko darīt, ja kāds nevar mest vai maisiņš nokrīt ārpus lapas?",
+        "a": "Ikviens var nodot gājienu, un maisiņš, kas nokrīt ārpus lapas, vienkārši tiek paņemts nākamajam gājienam. Par to nekas netiek ieskaitīts."
+      },
+      {
+        "q": "Kas ir uz izdrukātās lapas?",
+        "a": "Viena lapa: liels mērķis ar trim gredzeniem, kas nosaukti Tuvu, Vidēji un Tālu, tabula ar kolonnu katram dalībniekam un rindu mazām kastītēm, ko atzīmēt katram gredzenam, un drošības padomu rindiņa. Nosaukumi ir uzrakstīti uz gredzeniem, tāpēc tas darbojas arī melnbaltā."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Sezonas puzļu komplekts",
+    "seoTitle": "Sezonas puzļu komplekts: drukājamas papīra puzles",
+    "h1": "Sezonas puzļu komplekts: trīs papīra puzles katram gadalaikam",
+    "description": "Trīs mazas drukājamas puzles pavasarim, vasarai, rudenim vai ziemai: savienojiet pārus, apvelciet to, kas atšķiras, un iekrāsojiet attēlu. Izvēlieties gadalaiku vai atpūtas dienu. Bez maksas drukāt.",
+    "short": "Trīs drukājamas puzles izvēlētajam gadalaikam vai atpūtas dienai.",
+    "players": "Visu vecumu cilvēkiem, vienam vai blakus",
+    "intro": "Izvēlieties gadalaiku, un lapa parāda trīs mazas papīra puzles, kas veidotas pēc šī gadalaika attēliem: divas rindas, kuras savienot ar līnijām, rindu ar četriem attēliem, kur apvilkt to, kas atšķiras, un attēlu krāsošanai. Izdrukājiet vienu lapu un veiciet vienu, divas vai visas trīs, savā tempā. Ja izvēlaties \"Šodien ir atpūtas diena\", nekas nav jādara.",
+    "howTo": [
+      "Izvēlieties gadalaiku vai izvēlieties \"Šodien ir atpūtas diena\".",
+      "Apskatiet trīs puzles un pieskarieties \"Drukāt šī gadalaika komplektu\".",
+      "Veiciet vienu, divas vai visas trīs, savā tempā.",
+      "Savienojiet atbilstošos attēlus ar līniju, apvelciet to, kas atšķiras, un iekrāsojiet lielo attēlu.",
+      "Apstājieties, kad vēlaties. Atpūtas diena arī ir laba diena."
+    ],
+    "tips": [
+      "Sāciet ar puzli, kas šodien šķiet vieglākā. Pietiek ar vienu.",
+      "Ja tas palīdz, skaļi nosauciet katra attēla nosaukumu.",
+      "Izmantojiet krāsainos zīmuļus vai flomāsterus. Visas krāsas ir labas.",
+      "Paturiet lapu nākamreizei vai atlaidiet to."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai rezultāts?",
+        "a": "Nav. Nav pulksteņa, rezultāta, gājienu skaitītāja un zaudējuma. Varat apstāties jebkurā brīdī, un apstāties pusceļā ir pilnīgi labs veids, kā pabeigt."
+      },
+      {
+        "q": "Vai lapa zina, kāds gadalaiks ir?",
+        "a": "Nē. Gadalaiku izvēlaties jūs. Lapa neskatās uz datumu vai jūsu atrašanās vietu."
+      },
+      {
+        "q": "Vai ir rezultāts vai pareiza atbilde?",
+        "a": "Nē. Ekrānā nekas netiek mērīts laikā, vērtēts vai pārbaudīts, un atbildes netiek rādītas. Katra puzle ir tikai attēls, ko aplūkot, savienot, apvilkt vai iekrāsot."
+      },
+      {
+        "q": "Ko darīt, ja šodien neviens nevēlas puzles?",
+        "a": "Izvēlieties \"Šodien ir atpūtas diena\". Lapa tad parāda vienu mierīgu rindiņu, un nav nekas jādrukā vai jādara."
+      },
+      {
+        "q": "Kas ir uz izdrukātās lapas?",
+        "a": "Viena lapa izvēlētajam gadalaikam: tās trīs puzles, katrai īss paskaidrojums, kā to darīt, un rindiņa, ka varat veikt vienu, divas vai visas trīs."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Kopā dekorēt kartīti",
+    "seoTitle": "Kopā dekorēt kartīti: drukājama apsveikuma kartīte",
+    "h1": "Kopā dekorēt kartīti: izveidojiet to kādam",
+    "description": "Divi cilvēki dekorē izdrukātu apsveikuma kartīti dzimšanas dienai, pateicībai vai vienkārši tāpat, un pēc tam kopā uzraksta vēstījumu aizmugurē. Tikai krāsainie zīmuļi vai pildspalvas. Bez taimera un rezultāta. Bez maksas drukāt.",
+    "short": "Kopā dekorējiet izdrukātu apsveikuma kartīti.",
+    "players": "2 cilvēki, blakus",
+    "intro": "Kluss radošs spēles veids diviem cilvēkiem, kas sēž blakus. Izdrukājiet vienu lapu, kuru salokot iegūstat kartīti. Izvēlieties iemeslu, piemēram, dzimšanas dienu vai pateicību, un dekorējiet priekšpusi ap tās vārdiem. Tad aizmugurē uzrakstiet vēstījumu kopā, vai viens cilvēks raksta to, ko saka otrs. Izmantojiet vaska krītiņus, krāsainos zīmuļus vai flomāsterus. Nav pareizas kartītes, un nekas netiek mērīts laikā, vērtēts vai nosūtīts.",
+    "howTo": [
+      "Izvēlieties notikumu un pēc tam pieskarieties \"Drukāt kartīti\".",
+      "Salociet lapu uz pusēm pa punktēto līniju, lai priekšpuse būtu ārpusē.",
+      "Viens cilvēks rotā priekšpusi, bet otrs – aizmuguri, vai arī jūs maināties un rotājat vienu pusi.",
+      "Uzrakstiet vēstījumu kopā. Viens var rakstīt, kamēr otrs saka vārdus.",
+      "Apstājieties, kad vien vēlaties. Vienkārša kartīte ir tikpat laba kā sarežģīta."
+    ],
+    "tips": [
+      "Sāciet ar vārdiem uz priekšpuses, pēc tam pa vienam pievienojiet lapiņas, zvaigznītes vai punktiņus ap tiem.",
+      "Ja kādam nepatīk zīmēt, viņš var izvēlēties krāsas vai uzrakstīt vēstījumu.",
+      "Pastāstiet, kas jums patīk otra cilvēka zīmējumos, nevis vērtējiet, vai tie ir labi.",
+      "Turiet kartīti vietā, kur to varēs pasniegt, vai vienkārši atstājiet to uz galda."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaitīšana?",
+        "a": "Nē. Nav ne pulksteņa, ne punktu, ne gājienu skaitītāja, ne zaudēšanas. Varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi pieņemams noslēgums."
+      },
+      {
+        "q": "Vai mums vajag līmi, šķēres vai uzlīmes?",
+        "a": "Nē. Pietiek ar krāsainiem zīmuļiem, krāsu zīmuļiem vai flomāsteriem. Nekas nav jāgriež, jālīmē vai jāpiestiprina."
+      },
+      {
+        "q": "Vai varam izveidot kartīti notikumam, kas nav sarakstā?",
+        "a": "Izvēlieties \"Vienkārši tāpat\" un uzrakstiet savus vārdus uz priekšpuses vai vienkārši rotājiet kartīti bez jebkura notikuma."
+      },
+      {
+        "q": "Vai ekrānā kaut kas tiek skaitīts, vērtēts vai saglabāts?",
+        "a": "Nē. Lapā ir redzama tikai kartīte un soļi. Nekas netiek ranžēts, vērtēts vai saglabāts, un nav pareizas kartītes."
+      },
+      {
+        "q": "Kas ir uz izdrukātās lapas?",
+        "a": "Viena lapa: kartīte, salocīta uz pusēm, ar notikuma vārdiem un vienkāršu rāmi priekšpusē, kā arī līnijas vēstījumam un parakstam \"No\" aizmugurē. Noteikumi diviem cilvēkiem ir izdrukāti lapas apakšā."
+      },
+      {
+        "q": "Vai tas ir bez maksas, un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Meklēt kopā",
+    "seoTitle": "Meklēt kopā: divi cilvēki atrod pārus",
+    "h1": "Meklēt kopā: divi cilvēki, viena komanda",
+    "description": "Divi cilvēki dala vienu ekrānu un mainās, apgriežot divas attēlu kartītes, lai meklētu pāri. Pārus atrod kopā, un tie tiek skaitīti vienā kopīgā uzskaitē. Spēle ir bez maksas, bez taimera un punktiem.",
+    "short": "Mainieties ar blakus sēdošo cilvēku, lai atrastu attēlu pārus.",
+    "players": "2 cilvēki blakus",
+    "intro": "Kartītes sākumā var būt redzamas ar attēliem uz augšu, vai arī tās var nolikt ar attēliem uz leju. Savā gājienā apgriežat divas kartītes. Ja tās ir pāris, to esat atraduši kopā, un gājiens pāriet. Ja tās atšķiras, tās paliek ar attēliem uz augšu, līdz nospiežat \"Apgriezt atpakaļ\", lai jūs abi varētu paskatīties. Varat paspēlēt jebkurā laikā. Uzskaite augšā tikai aug: pāri, ko esat atraduši kopā.",
+    "howTo": [
+      "Izvēlieties, cik kartīšu izmantot. Sešas kartītes, trīs pāri, ir mierīgs sākums.",
+      "Ekrānā redzams, kura kārta, ar apli pirmajam cilvēkam un kvadrātu otrajam.",
+      "Apgriezt divas kartītes, vienu pēc otras. Ja tās sakrīt, pāri atrasts kopā.",
+      "Ja tās atšķiras, kad abi esat gatavi, nospiediet \"Apgriezt atpakaļ\". Tad kārta pāriet.",
+      "Jebkurš no jums jebkurā brīdī var nospiest \"Izlaist\". Lai sāktu no jauna ar citām kartītēm, pieskarieties \"Sākt no jauna\", vai pieskarieties Atpūsties, lai apturētu."
+    ],
+    "tips": [
+      "Sēdiet blakus un kopā skaļi nosauciet attēlus: \"Tējas tase. Vai jūs tējai pievienojat pienu?\"",
+      "Ļaujiet cilvēkam, par kuru rūpējaties, pašam pieskarties ekrānam, pat ja tas prasa laiku. Rādiet ar pirkstu, nevis pieskarieties viņa vietā.",
+      "Izvēlieties \"Kartītes ar attēliem uz leju\", ja abiem patīk apgriezt kartītes, lai atrastu attēlus.",
+      "Cilvēks, kurš ātri noguris, var izlaist gājienu, cik bieži vien vēlas. Pāri tik un tā tiek atrasti kopā."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir uzvarētājs, taimeris vai punkti?",
+        "a": "Nē. Nav uzvarētāja, jo pārus atrodat kā komanda. Nav pulksteņa, punktu un kļūdu skaitīšanas. Uzskaitē tiek skaitīti tikai pāri, ko esat atraduši kopā, un varat apstāties jebkurā brīdī."
+      },
+      {
+        "q": "Vai mums jāatceras, kur atrodas attēli?",
+        "a": "Nē. Spēle sākas ar visiem attēliem redzamiem. Ja kartītes ir ar attēliem uz leju, varat jautāt viens otram, ko redzējāt, vai vienkārši apgriezt tās vēlreiz."
+      },
+      {
+        "q": "Kas notiek, ja divas kartītes atšķiras?",
+        "a": "Tās paliek ar attēliem uz augšu, lai jūs abi varētu tās aplūkot tik ilgi, cik nepieciešams. Nekas tās pats neapgriež atpakaļ. Kad esat gatavi, nospiediet \"Apgriezt atpakaļ\", un kārta pāriet otram cilvēkam."
+      },
+      {
+        "q": "Vai tas, ko spēlējam, tiek saglabāts vai nosūtīts?",
+        "a": "Nē. Kartītes paliek tikai šajā lapā. Nekas netiek saglabāts, augšupielādēts vai skaitīts, un viss pazūd, kad aizverat lapu."
+      },
+      {
+        "q": "Vai kartītes ir pietiekami lielas drebošām rokām vai mazam ekrānam?",
+        "a": "Katra kartīte ir vismaz 64 pikseļus plata un tik liela, cik ļauj ekrāns. Tastatūras un ekrāna lasītāja lietotāji katru kartīti dzird pēc tās vietas un attēla."
+      },
+      {
+        "q": "Vai tas ir bez maksas, un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Stāstu kauliņi",
+    "seoTitle": "Stāstu kauliņi: attēlu stāstu spēle",
+    "h1": "Stāstu kauliņi: stāsti ar attēliem",
+    "description": "Trīs vai četri attēlu kauliņi, ar kuriem stāstīt stāstu jebkurā secībā. Nav lasīšanas, nav pareizas atbildes, nav taimera un punktu. Metiet vēlreiz vai izlaidiet. Spēle ir bez maksas un drukājama.",
+    "short": "Metiet attēlu kauliņus un kopā stāstiet stāstu jebkurā secībā.",
+    "players": "2 vai vairāk cilvēku, vai pieaugušais un bērns",
+    "intro": "Rodas trīs vai četras attēli, kā kauliņi. Kopā sacerat stāstu, kurā tie izmantoti, jebkurā secībā. Stāsts var būt viens teikums vai vairāki, un tas var būt jocīgs vai dzīvs, no ikdienas. Nav pareizu stāstu, un neviens nav spiests kaut ko nosaukt vai atcerēties. Pieskarieties pogai „Ripināt vēlreiz”, lai saņemtu jaunus attēlus, un ikviens var izlaist savu gājienu.",
+    "howTo": [
+      "Izvēlieties trīs vai četrus kauliņus. Vienkāršākais ir trīs.",
+      "Kopā apskatiet attēlus. Ja vēlaties sākt ar kādu no tiem, pieskarieties tam.",
+      "Stāstiet pa vienam, izmantojot attēlus jebkurā secībā. Pietiek ar vienu teikumu katram.",
+      "Ikviens var izlaist savu gājienu. Pieskarieties pogai „Izlaist”, un nākamais cilvēks var sākt.",
+      "Jebkurā brīdī pieskarieties pogai „Ripināt vēlreiz”, lai saņemtu jaunus attēlus, vai pogai „Atpūsties”, lai apstātos."
+    ],
+    "tips": [
+      "Uzdodiet jautājumu, nevis gaidiet atbildi: „Kurp varētu doties lietussargs?”",
+      "Papildiniet iepriekšējā cilvēka teikto, nevis labojiet to. Ikviens stāsts ir labs.",
+      "Stāsts var būt par reālu atmiņu. Attēls ir labs sākums."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaitīšana?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Jūs varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā beigt."
+      },
+      {
+        "q": "Vai man vajag lasīt vai nosaukt attēlus?",
+        "a": "Nē. Spēle darbojas arī tikai ar attēliem. Spēlētāji var norādīt, aprakstīt vai vienkārši pateikt, ko attēls viņiem atgādina. Nevienam nelūdz nosaukt vai atcerēties."
+      },
+      {
+        "q": "Ko darīt, ja kāds negrib piedalīties gājienā?",
+        "a": "Viņš jebkurā brīdī var izlaist gājienu bez paskaidrojuma. Spēle vienkārši gaida, un nākamais cilvēks var sākt vai jūs varat ripināt vēlreiz."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Vienā lapā ir sešpadsmit dažādi attēli četrās rindās. Izvēlieties vienu rindu vai izgriezt attēlus un izvilkt dažus no kaudzes."
+      },
+      {
+        "q": "Vai tā ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tā ir bez maksas, un nav vajadzīga konta, reģistrācija vai lejupielāde. Tā darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Vārdu un attēlu pāri",
+    "seoTitle": "Vārdu un attēlu pāri: savienojiet vārdus ar attēliem",
+    "h1": "Vārdu un attēlu pāri: savienojiet vārdu ar attēlu",
+    "description": "Savienojiet angļu vārdus ar to attēliem un noklausieties jebkuru vārdu izrunātu. Attēli paliek redzami, bez taimera, punktiem un mēģinājumu skaitīšanas. Bez maksas spēlējams un drukājams.",
+    "short": "Savienojiet katru vārdu ar tā attēlu un noklausieties to izrunātu.",
+    "players": "Viens pieaugušais vai ģimene, kas spēlē blakus",
+    "intro": "Tiek parādīti četri vai seši attēli, un to angļu vārdi ir citā secībā. Pieskarieties vārdam un pēc tam tā attēlam vai attēlam un pēc tam tā vārdam. Savienots pāris paliek kopā ar biezu rāmi un vārdu „Savienots”. Pieskarieties pogai „Noklausīties” blakus jebkuram vārdam, lai to dzirdētu izrunātu. Nekas netiek mērīts laikā un nav punktu, un nepareizs pieskiens vienkārši notīrās pats.",
+    "howTo": [
+      "Izvēlieties četrus vai sešus attēlus. Vienkāršākie ir četri.",
+      "Pieskarieties vārdam un pēc tam attēlam, ko tas nosauc. Vai arī vispirms pieskarieties attēlam un pēc tam tā vārdam.",
+      "Savienots pāris paliek kopā. Nepareizs pieskiens klusi notīrās, tāpēc izmēģiniet citu.",
+      "Pieskarieties pogai „Noklausīties” blakus vārdam, lai to dzirdētu, ja jūsu ierīce spēj nolasīt tekstu skaļi.",
+      "Pieskarieties pogai „Jauni attēli” citam komplektam vai „Sākt no jauna”, lai atdalītu visus pārus. Poga „Atlikt atpakaļ” atjauno pēdējos savienojumus."
+    ],
+    "tips": [
+      "Pirms savienošanas kopā izrunājiet katru vārdu skaļi un parunājiet par attēlu.",
+      "Ģimenes var spēlēt pa vienam. Katrs reizē izvēlas vienu vārdu vai attēlu.",
+      "Vispirms izmantojiet vārdus, ko jau zināt, bet pārējos atstājiet vēlākam laikam."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaitīšana?",
+        "a": "Nav. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Jūs varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā beigt."
+      },
+      {
+        "q": "Vai tas ir bērniem?",
+        "a": "Tas ir paredzēts pieaugušajiem, kuri mācās vai atkārto angļu vārdus, un ģimenēm, kas spēlē blakus. Tas nav rakstīts bērniem."
+      },
+      {
+        "q": "Ko darīt, ja mana ierīce nevar nolasīt tekstu skaļi?",
+        "a": "Poga „Noklausīties” izmanto balsi, kas jau ir jūsu pārlūkā. Ja pārlūks nevar runāt, poga netiek rādīta, un spēle darbojas arī bez tās."
+      },
+      {
+        "q": "Vai ir arī papīra versija?",
+        "a": "Jā. Vienā lapā ir seši attēli un to seši vārdi, ko izgriezt vai savienot ar līniju."
+      },
+      {
+        "q": "Vai tā ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tā ir bez maksas, un nav vajadzīga konta, reģistrācija vai lejupielāde. Tā darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Šķirosim kopā",
-    "seoTitle": "Šķirošanas spēle cilvēkiem ar demenci: Šķirosim kopā",
+    "seoTitle": "Šķirošanas spēle: kopā šķiroties pieaugušajiem",
     "h1": "Šķirosim kopā: attēlu šķirošanas nodarbe",
-    "description": "Pieskarieties attēlam un pēc tam grozam, pie kura tas pieder: virtuve vai dārzs, augļi vai dzīvnieki. Mierīga, bezmaksas šķirošanas nodarbe cilvēkiem ar demenci.",
+    "description": "Pieskarieties attēlam un pēc tam grozam, kurā tas pieder: virtuve vai dārzs, augļi vai dzīvnieki. Mierīga, bezmaksas šķirošanas spēle pieaugušajiem un ģimenēm.",
     "short": "Ievietojiet katru attēlu atbilstošajā grozā: virtuve vai dārzs un daudzi citi.",
     "players": "1 vai 2 cilvēki",
     "intro": "Šķirošana ir pazīstams un patīkams ikdienas darbs, gluži kā pirkumu nolikšana vietā vai zeķu sapārošana. Pieskarieties attēlam un pēc tam grozam, pie kura tas pieder. Šeit nav jāsteidzas un nav iespējams kļūdīties.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Attēlu puzle",
-    "seoTitle": "Vienkārša puzle cilvēkiem ar demenci: 4 vai 9 gabaliņi",
+    "seoTitle": "Viegla tiešsaistes puzle: 4 vai 9 lieli gabaliņi",
     "h1": "Attēlu puzle: viegli saliekama puzle",
-    "description": "Vienkārša tiešsaistes puzle cilvēkiem ar demenci: 4 vai 9 lieli gabaliņi, pilns attēls paliek redzams, un pietiek pieskarties diviem gabaliņiem, lai samainītu tos vietām.",
+    "description": "Viegla tiešsaistes puzle pieaugušajiem: 4 vai 9 lieli gabaliņi, viss attēls paliek redzams, un divus gabaliņus apmainiet, pieskaroties tiem. Izmantojiet savu fotogrāfiju, kas paliek šajā ierīcē. Bez maksas, bez taimera.",
     "short": "Pieskarieties diviem gabaliņiem, lai samainītu tos vietām, līdz attēls ir salikts.",
     "players": "1 vai 2 cilvēki",
-    "intro": "Jauks attēls ir sadalīts četrās vai deviņās lielās daļās un sajaukts. Pilns attēls paliek redzams kā paraugs. Pieskarieties vienam gabaliņam, pēc tam otram, un tie samainīsies vietām. Gabaliņi nav jāvelk.",
+    "intro": "Draudzīgs attēls ir sagriezts četros vai deviņos lielos gabaliņos un sajaukts. Viss attēls paliek redzams kā ceļvedis. Pieskarieties vienam gabaliņam un pēc tam otram, un tie apmainās vietām. Vilkt nav vajadzīgs. Varat izmantot arī kādu no savām fotogrāfijām. Tā paliek šajā ierīcē un nekad netiek augšupielādēta.",
     "howTo": [
       "Izvēlieties attēlu un 4 vai 9 gabaliņus. Četri gabaliņi būs mierīgs sākums.",
       "Apskatiet pilno attēlu augšpusē.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Pabeidz teicienu",
-    "seoTitle": "Pabeidz teicienu: sakāmvārdu spēle senioriem",
+    "seoTitle": "Pabeidziet teicienu: pazīstamu teicienu spēle",
     "h1": "Pabeidz teicienu",
     "description": "Pazīstami sakāmvārdi ar iztrūkstošu pēdējo vārdu, piemēram, „Mūžu dzīvo, mūžu ___”. Pieskarieties variantam vai apskatiet nobeigumu un parunājieties par to.",
     "short": "Pabeidziet pazīstamus teicienus kopā un aprunājieties par tiem.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Vārdu meklēšana lielā drukā",
-    "seoTitle": "Vārdu meklēšana lielā drukā cilvēkiem ar demenci, izdrukājama",
+    "seoTitle": "Vārdu meklētājs lielā drukā, bez maksas un drukājams",
     "h1": "Vārdu meklēšana lielā drukā",
-    "description": "Bezmaksas vārdu meklēšanas spēle lielā drukā senioriem un cilvēkiem ar demenci. Maz vārdu, lieli burti, vārdi izvietoti tikai horizontāli un vertikāli. Spēlējiet tiešsaistē vai izdrukājiet.",
+    "description": "Bezmaksas vārdu meklētājs lielā drukā vecākiem pieaugušajiem un ģimenēm. Maz vārdu, lieli burti, vārdi tikai horizontāli un vertikāli. Spēlējiet tiešsaistē vai izdrukājiet.",
     "short": "Lieli burti, daži vārdi, tikai horizontāli un vertikāli. Var arī izdrukāt.",
     "players": "1 vai 2 cilvēki",
     "intro": "Neliels laukums ar lieliem burtiem un tikai dažiem vārdiem, kas lasāmi no kreisās uz labo pusi vai no augšas uz leju. Pieskarieties vārda pirmajam burtam un pēc tam pēdējam burtam. Vēlaties darboties uz papīra? Izdrukājiet jaunu mīklu ar vienu pieskārienu.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Krāsojamās lapas",
-    "seoTitle": "Krāsojamās lapas pieaugušajiem ar demenci (bez maksas)",
+    "seoTitle": "Bezmaksas krāsojamās lapas pieaugušajiem, lielas un vienkāršas",
     "h1": "Krāsojamās lapas",
     "description": "Vienkāršas krāsojamās lapas pieaugušajiem ar lieliem laukumiem: pieskarieties krāsai, pēc tam attēlam. Nekādas nekārtības, nav nepareizu krāsu, un katru lapu var izdrukāt bez maksas.",
     "short": "Pieskarieties krāsai, pēc tam attēla daļai. Lapas var arī izdrukāt.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Sarunu kartītes",
-    "seoTitle": "Sarunu rosinātāji cilvēkiem ar demenci: attēlu kartītes",
+    "seoTitle": "Sarunu iesācēji: attēlu kartītes ģimenēm",
     "h1": "Sarunu kartītes",
-    "description": "Attēlu kartītes ar iejūtīgiem sarunu rosinātājiem cilvēkiem ar demenci: bez eksaminēšanas, bez pareizām atbildēm. Izmantojiet ekrānā vai izdrukājiet pilnu komplektu.",
+    "description": "Attēlu kartītes ar maigiem sarunu iesācējiem ģimenēm, draugiem un vecākās paaudzes cilvēkiem, tostarp cilvēkiem ar demenci. Nav viktorīnu un nav pareizo atbilžu.",
     "short": "Attēlu kartītes ar atvērtiem, iejūtīgiem jautājumiem. Bez zināšanu pārbaudes.",
     "players": "2 cilvēki vai grupa",
     "intro": "Katrā kartītē pazīstams attēls ir apvienots ar sirsnīgu aicinājumu parunāties, piemēram: „Kādi laikapstākļi jums patīk vislabāk?” Šeit nav pareizu atbilžu un nekas nav jāatceras. Izvēlieties tēmu vai sajauciet visas kopā.",
@@ -329,12 +979,13 @@
     "description": "Pārvērtiet savas ģimenes fotogrāfijas mierīgā pāru spēlē. Izvēlieties no 2 līdz 6 fotogrāfijām savā ierīcē; tās paliek jūsu pārlūkprogrammā un nekad netiek augšupielādētas.",
     "short": "Izvēlieties savas fotogrāfijas un meklējiet pārus. Nekas netiek augšupielādēts.",
     "players": "2 cilvēki, līdzās viens otram",
-    "intro": "Izvēlieties no divām līdz sešām fotogrāfijām no sava tālruņa, planšetdatora vai datora, un tās pārtaps pāru meklēšanas spēlē ar lieliem, labi saskatāmiem attēliem. Fotogrāfijas tiek rādītas tikai šajā lapā. Tās netiek augšupielādētas, saglabātas vai kopīgotas, un tās pazūd, tiklīdz aizverat lapu.",
+    "intro": "Izvēlieties no diviem līdz sešiem savām ģimenes fotogrāfijām no tālruņa, planšetdatora vai datora, un tās kļūs par atbilstību spēli ar lielām, labi redzamām bildēm. Fotogrāfijas tiek rādītas tikai šajā lapā. Tās netiek augšupielādētas, saglabātas vai kopīgotas, un tās pazūd, kad aizverat lapu. Ja vēlaties, zem katras fotogrāfijas varat pierakstīt dažus vārdus, un maigs mājiens pēc pauzes var norādīt uz vienu pāri. Tas ir veids, kā kopā skatīties ģimenes fotogrāfijas.",
     "howTo": [
-      "Pieskarieties „Izvēlēties fotogrāfijas” un atlasiet no divām līdz sešām fotogrāfijām.",
-      "Katra fotogrāfija parādās divreiz. Pieskarieties vienai, pēc tam tās pārim.",
-      "Atrodot katru fotogrāfiju, aprunājieties par to.",
-      "Kad esat beiguši, aizveriet lapu vai pieskarieties „Notīrīt fotogrāfijas”. Nekas netiek saglabāts."
+      "Pieskarieties pogai \"Izvēlēties fotogrāfijas\" un izvēlieties divas līdz sešas fotogrāfijas.",
+      "Katra fotogrāfija parādās divreiz. Pieskarieties vienai un pēc tam tās pārim.",
+      "Ja vēlaties, zem katras fotogrāfijas pierakstiet dažus vārdus. Paraksti netiek saglabāti.",
+      "Runājiet par katru fotogrāfiju, kad to atrodat.",
+      "Kad esat pabeidzis, aizveriet lapu vai pieskarieties pogai \"Notīrīt fotogrāfijas\". Nekas netiek saglabāts."
     ],
     "tips": [
       "Izvēlieties skaidras fotogrāfijas ar patīkamām, pazīstamām lietām: mājdzīvnieku, dārzu, iemīļotu vietu vai kāzu dienu.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Attēlu bingo",
-    "seoTitle": "Attēlu bingo senioriem ar demenci: izdrukājams",
+    "seoTitle": "Drukājams attēlu bingo grupām",
     "h1": "Attēlu bingo grupām",
-    "description": "Bezmaksas izdrukājams attēlu bingo atmiņas aprūpes un senioru grupām ar lielu izsaucēja ekrānu. Lieli attēli ar uzrakstiem, 9 vai 16 lauciņi, lasītprasme nav nepieciešama.",
+    "description": "Bezmaksas drukājams attēlu bingo ģimenēm, vecākās paaudzes grupām un aprūpes namiem. Lieli attēli ar vārdiem, 9 vai 16 laukumi un liels ekrāna vadītājs.",
     "short": "Izdrukājamas attēlu bingo kartītes un liela ekrāna izsaucējs grupām.",
     "players": "Grupa no 2 līdz 30 cilvēkiem",
     "intro": "Klasiskais bingo ar attēliem, nevis skaitļiem, lai nevienam nebūtu jālasa sīks teksts. Izdrukājiet unikālu kartīšu komplektu un pēc tam izmantojiet ekrāna izsaucēju, lai rādītu katru attēlu lielā formātā televizorā, klēpjdatorā vai planšetdatorā.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Pikniku plānotājs",
+    "seoTitle": "Pikniku plānotājs: izvēlieties attēlus izbraukumam",
+    "h1": "Pikniku plānotājs: izvēlieties attēlus un pēc tam saskaņojiet tos",
+    "description": "Izvēlieties ēdiena un nodarbju attēlus piknikam un pēc tam spēlējiet maigu saskaņošanas raundu ar tiem. Laiks netiek mērīts. Bezmaksas spēlēt un drukāt.",
+    "short": "Izvēlieties ēdiena un izbraukuma attēlus piknikam un pēc tam saskaņojiet tos.",
+    "players": "Vienam vai 2 cilvēkiem blakus",
+    "intro": "Pieskarieties ēdiena un nodarbju attēliem, lai ievietotu tos piknika grozā, kurā var būt līdz sešiem. Teksts vārdos norāda, kas ir grozā, piemēram, \"Mūsu pikniks: maize, siers, āboli un pūķis.\" Pēc tam pieskarieties pogai \"Spēlēsim ar mūsu pikniku\", lai iegūtu maigu saskaņošanas raundu no izvēlētajiem attēliem. Attēli paliek redzami, un nekas netiek mērīts, vērtēts vai saglabāts. Poga \"Drukāt mūsu piknika sarakstu\" izdrukā izvēlēto lietu kontrolsarakstu ar izvēles rūtiņu katrai lietai, ko iepakot.",
+    "howTo": [
+      "Pieskarieties ēdiena vai nodarbes attēlam. Tas nonāk grozā.",
+      "Pieskarieties attēlam grozā, lai to izņemtu.",
+      "Izvēlieties vismaz divas lietas un pēc tam pieskarieties pogai \"Spēlēsim ar mūsu pikniku\".",
+      "Pieskarieties diviem vienādiem attēliem. Attēli paliek redzami, tāpēc nav nepieciešams nekas atcerēties.",
+      "Pieskarieties pogai \"Drukāt mūsu piknika sarakstu\", lai iegūtu papīra kontrolsarakstu līdzi."
+    ],
+    "tips": [
+      "Pajautājiet cilvēkiem, kas ir jūsu blakus, ko viņi vēlētos paņemt līdzi, un kopā izvēlieties attēlus.",
+      "Runājiet par katru attēlu, kad tas tiek ievietots grozā: \"Vai atceraties pūķi, ko palaidām pludmalē?\"",
+      "Uz papīra tukšās līnijas ir domātas jebkam citam, ko vēlaties paņemt līdzi, vai vārdam."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris, vērtējums vai uzvarētājs?",
+        "a": "Nē. Laiks netiek mērīts un punkti netiek skaitīti, un neviens neuzvar. Saskaņošanas raundā nav kļūdu un nav punktu."
+      },
+      {
+        "q": "Vai tā ir ēdienkarte?",
+        "a": "Nē. Tas ir attēlu plāns izbraukumam, par ko runāt un ko paņemt uz papīra. Tajā nav norādīts, ko kādam vajadzētu ēst."
+      },
+      {
+        "q": "Vai mūsu izvēlētie attēli tiek saglabāti vai nosūtīti?",
+        "a": "Nē. Grozs paliek tikai šajā lapā. Tas netiek saglabāts, augšupielādēts vai nosūtīts, un tas pazūd, kad aizverat lapu."
+      },
+      {
+        "q": "Vai ir papīra versija?",
+        "a": "Jā. Poga \"Drukāt mūsu piknika sarakstu\" izdrukā vienu lapu A4 vai US Letter formātā. Tajā redzami izvēlētie attēli ar izvēles rūtiņu katram un tukšas līnijas jebkam citam."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Albums",
+    "seoTitle": "Albums: kopā šķirstiet ģimenes fotogrāfijas pa lapai",
+    "h1": "Albums: pievienojiet fotogrāfijas un paraksti, pēc tam šķirstiet lapas",
+    "description": "Izvēlieties no divām līdz divpadsmit savām ģimenes fotogrāfijām savā ierīcē un šķirstiet tās kā grāmatu ar dažiem vārdiem zem katras. Nekas netiek augšupielādēts. Bezmaksas drukāšana.",
+    "short": "Kopā šķirstiet savas ģimenes fotogrāfijas kā grāmatu.",
+    "players": "Vienam vai 2 cilvēkiem blakus",
+    "intro": "Izvēlieties no divām līdz divpadsmit savām fotogrāfijām no šīs ierīces. Katra fotogrāfija kļūst par vienu grāmatas lappusi, pietiekami lielu, lai to labi redzētu, ar pēc izvēles dažiem vārdiem zem tās. Šķirstiet lapas ar pogām vai bultiņu taustiņiem, un izmantojiet \"Skatīties kopā\", lai sēdētu blakus un skatītos tikai fotogrāfijas un vārdus. Jūsu fotogrāfijas paliek šajā ierīcē. Tās netiek augšupielādētas vai saglabātas, un grāmata pazūd, kad aizverat lapu. Poga \"Drukāt albumu\" izdrukā vienu fotogrāfiju un tās vārdus katrā lappusē ar lappušu numuriem.",
+    "howTo": [
+      "Pieskarieties pogai \"Izvēlēties fotogrāfijas\" un izvēlieties no divām līdz divpadsmit fotogrāfijām. Pirms izmantojat fotogrāfiju, kurā ir cilvēks, kurš nevar piekrist, pajautājiet.",
+      "Šķirstiet lapas ar pogām \"Iepriekšējā lappuse\" un \"Nākamā lappuse\" vai ar bultiņu taustiņiem pa kreisi un pa labi.",
+      "Ja vēlaties, pievienojiet dažus vārdus zem fotogrāfijas. Izmantojiet \"Pārvietot agrāk\" vai \"Pārvietot vēlāk\", lai mainītu secību.",
+      "Pieskarieties pogai \"Skatīties kopā\", lai paslēptu rediģēšanas vadības elementus un skatītos grāmatu blakus.",
+      "Pieskarieties pogai \"Drukāt albumu\", lai iegūtu papīra kopiju, vai \"Notīrīt grāmatu\", kad esat pabeidzis. Nekas netiek saglabāts."
+    ],
+    "tips": [
+      "Izvēlieties fotogrāfijas ar priecīgām, pazīstamām lietām: dārzu, mājdzīvnieku, iecienītu vietu. Pastāstiet par katru lappusi, kad to pagriežat.",
+      "Ļaujiet cilvēkam pateikt dažus vārdus katrai lappusei, pat tikai vienu vārdu, un pierakstiet tos tieši tā, kā viņš tos saka.",
+      "Uz papīra izdrukātās lappuses var ielikt mapē, un ģimene var pievienot savas fotogrāfijas un piezīmes ap tām."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris, punkti vai uzvarētājs?",
+        "a": "Nē. Nekas netiek mērīts laikā, nevērtēts un neskaitīts, un neviens neuzvar. Lappuses numurs ir tikai tam, lai zinātu, kur atrodaties grāmatā."
+      },
+      {
+        "q": "Vai mūsu fotogrāfijas vai paraksti tiek saglabāti, augšupielādēti vai nosūtīti?",
+        "a": "Nē. Fotogrāfijas nolasa tikai šī lapa, un tās netiek augšupielādētas, glabātas vai sūtītas nekur. Paraksti paliek tikai tik ilgi, kamēr lapa ir atvērta. Kad lapu aizverat, grāmata pazūd."
+      },
+      {
+        "q": "Vai grāmatu var izdrukāt?",
+        "a": "Jā. Poga \"Drukāt albumu\" izdrukā vienu fotogrāfiju ar tās parakstu uz katras lappuses, kopā ar lappušu numuriem. Drukāšanas logā izvēlieties A4 vai US Letter."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Kolāžas dēlis",
+    "seoTitle": "Kolāžas dēlis: divi cilvēki novieto attēlus pa kārtai",
+    "h1": "Kolāžas dēlis: attēlu novietošana vienā dēlī pa kārtai",
+    "description": "Divi cilvēki pa kārtai novieto izgrieztus attēlus vienā kopīgā dēlī. Pieskarieties izgriezumam, pēc tam tukšai vietai. Bez taimera un punktiem. Bez maksas spēlējams un drukājams.",
+    "short": "Pa kārtai novietojiet attēlus vienā kopīgā dēlī.",
+    "players": "2 cilvēki blakus",
+    "intro": "Divi cilvēki sēž blakus pie viena dēļa ar divpadsmit vietām un paplāti ar astoņiem izgrieztiem attēliem. Pieskarieties izgriezumam, pēc tam tukšai vietai, un attēls tur nonāk. Pēc tam gājiens pāriet otram cilvēkam. Katra cilvēka attēliem ir sava forma, aplis vai kvadrāts, tāpēc dēlis rāda, kas ko novietoja, nepaļaujoties uz krāsu. Katrs no abiem var izlaist gājienu, un vienu soli var atsaukt. Nekas netiek mērīts laikā, vērtēts vai saglabāts. Poga \"Drukāt dēli\" izdrukā tukšu dēli un attēlus, ko izgriezt.",
+    "howTo": [
+      "Pieskarieties izgriezumam paplātē. Kamēr tas ir izvēlēts, tam ir uzraksts \"Izvēlēts\".",
+      "Pieskarieties tukšai vietai uz dēļa. Izgriezums tur nonāk, un gājiens pāriet.",
+      "Jebkurā brīdī katrs no abiem var pieskarties pogai \"Izlaist\" vai \"Atsaukt pēdējo gabalu\", lai atsauktu vienu soli.",
+      "Pieskarieties \"Cits attēlu komplekts\", lai iegūtu citu paplāti. Dēlī jau novietotie attēli paliek savās vietās.",
+      "Pieskarieties \"Sākt no jauna\", lai notīrītu dēli, un \"Ielikt atpakaļ\", ja pārdomājat."
+    ],
+    "tips": [
+      "Nosauciet katra attēla nosaukumu, kad to novietojat, piemēram, \"tējas tase iet pie mājas\". Sarunas padara to par kopīgu nodarbi.",
+      "Ļaujiet abiem cilvēkiem pa kārtai izvēlēties ne tikai vietu, bet arī izgriezumu, lai katram ir balss.",
+      "Uz papīra astoņus attēlus izgriezi kopā ar pieaugušo palīgu, pēc tam novietojiet tos izdrukātajos laukumos."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris, punkti vai uzvarētājs?",
+        "a": "Nē. Nekas netiek mērīts laikā, vērtēts vai skaitīts, un neviens neuzvar. Pilns dēlis ir tāds, kurā katrā vietā ir attēls."
+      },
+      {
+        "q": "Vai attēli, ko novietojam, tiek saglabāti vai nosūtīti?",
+        "a": "Nē. Dēlis paliek tikai šajā lapā. Tas netiek saglabāts, augšupielādēts vai skaitīts, un pazūd, kad lapu aizverat."
+      },
+      {
+        "q": "Kā atpazīt, kura attēls ir kura?",
+        "a": "Katram cilvēkam ir sava forma. Pirmā cilvēka attēliem stūrī ir aplis, bet otrā cilvēka attēliem kvadrāts, un virs dēļa rādīts katra vārds."
+      },
+      {
+        "q": "Vai ir papīra versija?",
+        "a": "Jā. Poga \"Drukāt dēli\" izdrukā tukšu dēli kā divpadsmit kastes, zemāk ar astoņiem attēliem tādā pašā izmērā un griezuma līniju. Griezt var pieaugušais."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Dārza plānotājs",
+    "seoTitle": "Dārza plānotājs: veidojiet dārza plānu no augu attēliem",
+    "h1": "Dārza plānotājs: izvēlieties attēlus un izkārtojiet dārza plānu",
+    "description": "Izvēlieties augu un dārza lietu attēlus un novietojiet tos divpadsmit dobēs. Pieskarieties attēlam, pēc tam dobei. Bez taimera un punktiem. Bez maksas spēlējams un drukājams.",
+    "short": "Izvēlieties augu attēlus un izkārtojiet dārza plānu ar divpadsmit dobēm.",
+    "players": "Viens, vai 2 cilvēki blakus",
+    "intro": "Izvēlieties attēlus no paplātes ar augiem un dārza lietām, pēc tam pieskarieties dobei, lai katru no tiem novietotu vietā. Plānā ir divpadsmit dobes, un vienā dobē ir viens attēls. Vārdos sniegts kopsavilkums, piemēram, \"Jūsu plānā ir 3 saulespuķes, 2 rozes un 1 koks\". Nekas netiek mērīts laikā, vērtēts vai saglabāts, un gājienu nav. Šis ir attēlu plāns, par ko runāt, nevis stādīšanas padoms. Poga \"Drukāt plānu\" izdrukā dobes ar izvēlētajiem attēliem, tukšas dobes zīmēšanai un līnijas piezīmēm.",
+    "howTo": [
+      "Pieskarieties attēlam paplātē. Kamēr tas ir izvēlēts, tam ir uzraksts \"Izvēlēts\".",
+      "Pieskarieties dobei. Attēls tur nonāk, un izvēle ir nolikta.",
+      "Lai mainītu dobi, izvēlieties citu attēlu un pieskarieties dobei. Lai notīrītu dobi, pieskarieties tai, kad neviens attēls nav izvēlēts.",
+      "Pieskarieties \"Sākt no jauna\", lai iztukšotu visas dobes, un \"Ielikt atpakaļ\", ja pārdomājat.",
+      "Pieskarieties \"Drukāt plānu\", lai iegūtu papīra kopiju ar dārza plānu un kopsavilkumu."
+    ],
+    "tips": [
+      "Nosauciet katru attēlu, kad to ieliekat, piemēram, \"saulespuķe iet pie putnu mājiņas\". Sarunāšanās padara to par kopīgu nodarbi.",
+      "Ļaujiet katram pēc kārtas izvēlēties attēlu vai izvēlieties attēlus kopā, lai abiem būtu balss stāsta veidošanā.",
+      "Uz papīra tukšās dobes ir domām par jūsu pašu idejām, bet piezīmju rindiņas ir tam, ko vēlaties atcerēties."
+    ],
+    "faq": [
+      {
+        "q": "Vai tas ir stādīšanas padoms?",
+        "a": "Nē. Šis ir attēlu plāns, par ko runāt, nevis stādīšanas padoms. Tajā nav teikts, kad, kur vai kā kaut ko stādīt, jo tas atkarīgs no tā, kur dzīvojat."
+      },
+      {
+        "q": "Vai ir taimeris, punkti vai uzvarētājs?",
+        "a": "Nē. Nekas netiek laikots, vērtēts, novērtēts vai skaitīts, un neviens neuzvar. Pilnai dobju plāksnei nav īpaša ziņojuma."
+      },
+      {
+        "q": "Vai izvēlētie attēli tiek saglabāti vai nosūtīti?",
+        "a": "Nē. Plāns paliek tikai šajā lapā. Tas netiek saglabāts, augšupielādēts vai skaitīts, un tas pazūd, kad aizverat lapu."
+      },
+      {
+        "q": "Vai ir versija drukātā veidā?",
+        "a": "Jā. \"Drukāt plānu\" izdrukā vienu lapu, A4 vai US Letter formātā. Tajā redzamas divpadsmit dobes ar izvēlētajiem attēliem, kopsavilkums vārdos un tukšas rindiņas piezīmēm."
+      },
+      {
+        "q": "Vai tas ir bez maksas, un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Grupas krāsošanas siena",
+    "seoTitle": "Grupas krāsošanas siena: viens attēls daudzām rokām",
+    "h1": "Grupas krāsošanas siena: viens liels attēls, krāsots kopā",
+    "description": "Izdrukājiet vienu lielu attēlu vairākās lapās, lai ģimene, klase vai aprūpes māja varētu kopā krāsot vienu sienu. Drukāt var bez maksas. Nav taimera un punktu.",
+    "short": "Izdrukājiet vienu lielu attēlu pa lapām, lai daudzi cilvēki to varētu krāsot.",
+    "players": "Grupa, pie galda vai uz sienas",
+    "intro": "Izvēlieties attēlu no krāsošanas lapām un sienu no 4, 6 vai 9 lapām. Izdrukājiet sienu: pirmajā lapā ir redzams, kā to salikt, bet katra no pārējām lapām ir viena daļa no tā paša lielā attēla, ar tādu apzīmējumu kā A1 stūrī. Katrs cilvēks krāso vienu vai vairākas lapas, jebkurās krāsās un jebkurā stilā. Pēc tam lapas tiek salikta pēc apzīmējumiem un savienotas ar līmlenti aizmugurē. Nekas netiek laikots, vērtēts vai saglabāts.",
+    "howTo": [
+      "Izvēlieties attēlu, pēc tam izvēlieties, cik lapu būs sienā.",
+      "Izlasiet ekrānā redzamo karti, kurā parādīts, kur katrs apzīmējums jāliek.",
+      "Nospiediet \"Drukāt sienu\" un izdrukājiet visas lapas.",
+      "Katram cilvēkam iedodiet vienu vai vairākas lapas krāsošanai. Krāsām un stilam nav jāsakrīt.",
+      "Salieciet lapas pēc apzīmējumiem un savienojiet tās ar līmlenti aizmugurē."
+    ],
+    "tips": [
+      "Lapas ar vienkāršākajām kontūrām dodiet tiem, kas vēlas klusāku darbu, bet sarežģītākās – ikvienam, kam tās patīk.",
+      "Pakariet sienu tur, kur visi to redz, un kopā runājiet par tās daļām.",
+      "Mazam galdam izvēlieties mazāku sienu, bet istabai – lielāku."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris, punkti vai uzvarētājs?",
+        "a": "Nē. Nekas netiek laikots, vērtēts vai skaitīts, un neviens neuzvar. Siena ir vienkārši attēls, ko krāsojuši daudzi cilvēki."
+      },
+      {
+        "q": "Vai lapas tiek saglabātas vai kur nosūtītas?",
+        "a": "Nē. Siena tiek veidota tikai šajā lapā. Tā netiek saglabāta, augšupielādēta vai skaitīta, un tā pazūd, kad aizverat lapu."
+      },
+      {
+        "q": "Vai krāsām jāsakrīt?",
+        "a": "Nē. Ikviens var izmantot jebkuras krāsas un jebkuru stilu. Lapas joprojām saliekas vienā attēlā."
+      },
+      {
+        "q": "Vai ir versija drukātā veidā?",
+        "a": "Jā. Izdrukātā siena ir visa spēle: pirmā lapa ar soļiem un karti un viena lapa katrai attēla daļai."
+      },
+      {
+        "q": "Vai tas ir bez maksas, un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav nepieciešams konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Klusais figūru puzle",
+    "seoTitle": "Klusā figūru puzle: ievietojiet figūras attēlā",
+    "h1": "Klusā figūru puzle: ievietojiet gabaliņus attēlā",
+    "description": "Ievietojiet vienkāršas figūras mājas, laivas, zivs un citu attēlu kontūrās. Pieskarieties gabaliņam un pēc tam tādas pašas formas tukšai vietai. Nav taimera un punktu. Spēlēt un drukāt var bez maksas.",
+    "short": "Ievietojiet vienkāršas figūras attēlā savā tempā.",
+    "players": "1 cilvēks, pie galda",
+    "intro": "Attēla kontūra, piemēram, māja, laiva vai raķete, ir sadalīta vietās. Katrai vietai ir gabaliņš tādā pašā formā: liels vai mazs trīsstūris, kvadrāts, paralelograms vai taisnstūris. Pieskarieties gabaliņam un pēc tam tādas pašas formas vietai, un tas ietilpst. Vieta pati pagriež gabaliņu, tāpēc nav nekas jāvelk vai jāgriež. Ja gabaliņa forma neatbilst vietai, tas paliek paliktnī ar īsu piezīmi. Nekas netiek laikots vai vērtēts, un nekas netiek saglabāts vai nosūtīts. \"Drukāt šo figūru\" izdrukā kontūru un tās gabaliņus vienā lapā, ko krāsot vai izgriezt.",
+    "howTo": [
+      "Pieskarieties gabaliņam paliktnī. Kamēr tas ir izvēlēts, tiek rādīts \"Izvēlēts\".",
+      "Pieskarieties vietai attēlā. Ja forma sakrīt, gabaliņš tur ietilpst.",
+      "Ja nesakrīt, izmēģiniet citu vietu. Mēģinot nekas nezūd.",
+      "Pieskarieties gabaliņam attēlā, lai to atgrieztu paliktnī, vai izmantojiet \"Sākt no jauna\", lai atgrieztu visus.",
+      "Kad katrai vietai ir sava gabaliņš, attēls ir pabeigts. Pieskarieties \"Cita figūra\", lai iegūtu jaunu, vai pieskarieties Atpūsties, lai apstātos."
+    ],
+    "tips": [
+      "Ieslēdziet palīglīnijas, lai redzētu katru laukumu. Izslēdziet tās, ja vēlaties sarežģītāku puzli, kur vienīgais orientieris ir kontūra.",
+      "Sāciet ar lielajām formām, piemēram, lielajiem trijstūriem un taisnstūriem. Mazās detaļas bieži ieliek pēdējās.",
+      "Nosauciet formas skaļi, kamēr strādājat: \"trīsstūris, kvadrāts, garš taisnstūris\". Sarunāšanās var padarīt to par kopīgu nodarbi.",
+      "Uz papīra krāsojiet detaļas ar divām vai trim krāsām vai izgrieziet tās, ja palīdz pieaugušais."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris, punktu skaits vai gājienu skaitītājs?",
+        "a": "Nē. Nekas netiek mērīts laikā, neskaitīts un nevērtēts. Detaļa, kas neder, vienkārši netiek ielikta, un jūs varat apstāties jebkurā brīdī."
+      },
+      {
+        "q": "Vai mūsu veidotais attēls tiek saglabāts vai nosūtīts?",
+        "a": "Nē. Attēls paliek tikai šajā lapā. Tas netiek saglabāts, augšupielādēts vai skaitīts, un aizverot lapu, tas pazūd."
+      },
+      {
+        "q": "Vai vietas ir pietiekami lielas trīcošām rokām vai maziem ekrāniem?",
+        "a": "Kontūra tiek zīmēta, cik lielu vien ekrāns ļauj, un katra vieta ir poga, ko var sasniegt ar pirkstu vai taustiņu Tab. Detaļas paliktnī ir šīs lapas lielās pogas."
+      },
+      {
+        "q": "Vai ir arī versija drukai uz papīra?",
+        "a": "Jā. Poga \"Drukāt šo formu\" izdrukā vienu attēlu vienā lappusē: kontūru ar palīglīnijām un blakus tādā pašā izmērā zīmētas detaļas. Krāsojiet detaļas vai izgrieziet tās, lai tās iederētos. Griezt var pieaugušais."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Mierīga elpošana",
-    "seoTitle": "Mierīgas elpošanas pauze senioriem un aprūpētājiem",
+    "seoTitle": "Mierīga elpošanas pauze kopā",
     "h1": "Mierīgas elpošanas pauze",
     "description": "Lēna, klusa elpošanas pauze, ko piedzīvot kopā: maigs aplis izplešas un saraujas sešu elpas vilcienu laikā. Jūs to sākat un varat apturēt jebkurā brīdī.",
     "short": "Lēns aplis, kuram elpot līdzi. Sāciet un apturiet, kad vien vēlaties.",
@@ -423,6 +1333,131 @@
       {
         "q": "Vai tas ir bez maksas, un vai man ir jāreģistrējas?",
         "a": "Jā, tas ir bez maksas, un nav vajadzīgs ne konts, ne reģistrācija, ne lejupielāde. Tas darbojas tīmekļa pārlūkprogrammā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Stāstu ķēde",
+    "seoTitle": "Stāstu ķēde: kopīga attēlu stāsta spēle",
+    "h1": "Stāstu ķēde: stāsts pa vienam attēlam",
+    "description": "Attēlu rinda aug pa vienam attēlam, un katrs dalībnieks par to skaļi pasaka vienu teikumu. Nekas nav jāraksta, nav pareizas atbildes. Bez maksas, mierīgi, bez taimera un punktiem.",
+    "short": "Pievienojiet attēlu un pēc kārtas pasakiet pa teikumam.",
+    "players": "2 vai vairāk cilvēku",
+    "intro": "Spēle sākas ar vienu attēlu, un ķēde pakāpeniski aug pa vienam attēlam. Katrs dalībnieks pēc kārtas skaļi pasaka vienu teikumu par līdz šim veidoto ķēdi. Teikums var būt par to, ko redzat, par vietu, ko tas atgādina, vai par kaut ko jocīgu. Nekas netiek rakstīts, ierakstīts vai saglabāts, nav pareizas atbildes, un ikviens var izlaist savu gājienu. Ķēde beidzas pie astoņiem attēliem, un tad var sākt jaunu.",
+    "howTo": [
+      "Kopā apskatiet pirmo attēlu.",
+      "Ejiet pa kārtai: katrs dalībnieks pasaka vienu teikumu par līdz šim veidoto ķēdi. Ikviens var izlaist savu gājienu.",
+      "Nospiediet \"Pievienot attēlu\", lai ķēdes beigās liktu nākamo attēlu.",
+      "Nospiediet \"Noņemt pēdējo\", ja vēlaties atgriezties vienu attēlu atpakaļ.",
+      "Kad ķēdē ir astoņi attēli, nospiediet \"Sākt jaunu ķēdi\", lai sāktu no jauna, vai vienkārši apstājieties."
+    ],
+    "tips": [
+      "Īss teikums ir pietiekams: \"Kāds uzlika tējkannu.\" Nākamais dalībnieks turpina vai izlaiž savu gājienu.",
+      "Ļaujiet attēliem vadīt stāstu. Nav tāda stāsta, pie kura jānonāk.",
+      "Apstājieties, kad vien vēlaties. Apstāšanās pusceļā ir pilnīgi labs veids, kā beigt."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaits?",
+        "a": "Nē. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Jūs varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā beigt."
+      },
+      {
+        "q": "Vai kaut kas tiek rakstīts vai ierakstīts?",
+        "a": "Nē. Teikumi tiek izteikti skaļi, un tie netiek ierakstīti, rakstīti vai nosūtīti. Spēle rāda tikai attēlus."
+      },
+      {
+        "q": "Ko darīt, ja kāds negrib neko teikt?",
+        "a": "Ikviens var izlaist savu gājienu, un nākamais dalībnieks turpina. Nevienam nav jānosauc vai jāatceras attēls."
+      },
+      {
+        "q": "Vai tas ir bez maksas un vai jāreģistrējas?",
+        "a": "Jā, tas ir bez maksas, un nav vajadzīgs konts, reģistrācija vai lejupielāde. Tas darbojas tīmekļa pārlūkā tālrunī, planšetdatorā vai datorā."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Klusa aina",
+    "seoTitle": "Klusa aina: pa vienam attēlam",
+    "h1": "Klusa aina: pa vienam klusam attēlam",
+    "description": "Viens liels, kluss attēls vienlaikus, katram ir viena maiga rindiņa zem tā. Nospiediet Nākamais vai Iepriekšējais, kad esat gatavi. Nekas nekustas un neatskaņojas pats, nav taimera vai punktu. Spēle ir bez maksas, bez konta.",
+    "short": "Skatieties pa vienam klusam attēlam, savā tempā.",
+    "players": "Vienam vai grupai vienā telpā",
+    "intro": "Ekrānu aizpilda viens liels attēls ar vienu īsu rindiņu zem tā. Nospiediet \"Nākamais attēls\" vai \"Iepriekšējais attēls\", kad esat gatavi nākamajam. Nekas nekustas, nepazūd un nemainās pats, un nekas netiek mērīts laikā. Nospiediet \"Lielāks attēls\", lai redzamu tikai attēlu, lai visa telpa to var redzēt televizorā.",
+    "howTo": [
+      "Kopā apskatiet attēlu.",
+      "Ja vēlaties, skaļi izlasiet tam zem esošo rindiņu.",
+      "Nospiediet \"Nākamais attēls\" vai \"Iepriekšējais attēls\", kad esat gatavi.",
+      "Nospiediet \"Lielāks attēls\", lai redzētu tikai attēlu, un \"Rādīt visu\", lai atgrieztu pārējo.",
+      "Apstājieties jebkurā brīdī, nospiežot \"Pagaidām pietiek\"."
+    ],
+    "tips": [
+      "Ļaujiet cilvēkam izvēlēties, kad iet tālāk: pagaidiet, līdz viņš paskatās, un tad nospiediet Nākamais.",
+      "Grupai izmantojiet \"Lielāks attēls\" televizorā vai lielā ekrānā un sēdiet tur, kur visi var redzēt.",
+      "Nav vienas pareizas veida, kā skatīties attēlu. Vienkārši par to runāt jau ir pilnvērtīga nodarbe."
+    ],
+    "faq": [
+      {
+        "q": "Vai ir taimeris vai punktu skaits?",
+        "a": "Nē. Nav pulksteņa, punktu, gājienu skaitītāja un zaudēšanas. Jūs varat apstāties jebkurā brīdī, un apstāšanās pusceļā ir pilnīgi labs veids, kā beigt."
+      },
+      {
+        "q": "Vai tas atskaņo skaņu vai kustas?",
+        "a": "Nē. Skaņas nav, un nekas nekustas, nepazūd un nemainās pats. Attēls mainās tikai tad, kad nospiežat pogu."
+      },
+      {
+        "q": "Gibt es eine Papierversion?",
+        "a": "Nein. Das ist ein Bild, das Sie gemeinsam auf einem Bildschirm ansehen. Ein Lieblingsfoto oder eine Postkarte auf dem Tisch erfüllt denselben Zweck."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich registrieren?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Registrierung und keinen Download. Es funktioniert im Webbrowser auf einem Handy, Tablet oder Computer."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Farbverlauf",
+    "seoTitle": "Color Wash: weiche Farbe über eine ganze Seite",
+    "h1": "Color Wash: weiche Farbe über eine ganze Seite malen",
+    "description": "Ein weicher Pinsel malt breite, durchscheinende Farbschichten über eine Seite, in vier Farben und zwei Pinselgrößen. Es gibt kein Ende, keine Punkte und keine Uhr. Kostenlos spielbar, ohne Konto.",
+    "short": "Weiche Farbschichten über eine Seite malen, in Ihrem eigenen Tempo.",
+    "players": "Allein oder 2 Personen nebeneinander",
+    "intro": "Eine Seite und ein weicher Pinsel. Wählen Sie eine Farbe und eine Pinselgröße, dann ziehen Sie über die Seite, um eine Farbschicht aufzutragen. Die Seite hat kein Ende: Es gibt nichts abzuschließen, kein Bild richtig zu treffen und keine Punkte. Tragen Sie so viele Schichten auf, wie Sie möchten, oder legen Sie den Pinsel weg und schauen Sie einfach zu. Eine frische Seite löscht alles, und „Zurückholen“ bringt es wieder.",
+    "howTo": [
+      "Wählen Sie eine Farbe. Jede Farbe hat ihren geschriebenen Namen.",
+      "Wählen Sie „Breit“ oder „Sehr breit“. Sehr breit deckt mit jedem Strich mehr von der Seite ab.",
+      "Ziehen Sie mit einem Finger, einer Maus oder einem Stift über die Seite, um eine Farbschicht aufzutragen.",
+      "Oder nutzen Sie die Pfeiltasten, um den Pinselkreis zu bewegen, und die Leertaste, um den Pinsel aufzusetzen oder abzuheben.",
+      "Tippen Sie auf „Frische Seite“, um die Seite zu leeren, und dann auf „Zurückholen“, wenn Sie die Schichten wieder möchten."
+    ],
+    "tips": [
+      "Lassen Sie die andere Person die Farbe für die nächste Schicht wählen, und sprechen Sie beim Auftragen über die Farben.",
+      "Sehr breit lässt sich mit zittriger Hand leichter führen, weil der Pinsel nicht genau sein muss.",
+      "Es gibt keine richtige Art zu malen. Hören Sie auf, wann immer Sie möchten, oder tippen Sie auf „Vorerst fertig“."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es ein Ende, eine Punktewertung oder eine Uhr?",
+        "a": "Nein. Die Seite hat kein Ende. Nichts wird abgeschlossen, gezählt, zeitlich erfasst oder bewertet, und keine Meldung fordert Sie je auf, mehr zu tun."
+      },
+      {
+        "q": "Wird die Seite gespeichert oder verschickt?",
+        "a": "Nein. Nichts wird gespeichert, gedruckt oder irgendwohin gesendet. Die Farbschichten bleiben auf dieser Seite, bis Sie sie verlassen."
+      },
+      {
+        "q": "Kann ich das ohne Maus oder Touchscreen nutzen?",
+        "a": "Ja. Wenn die Seite den Fokus hat, bewegen die Pfeiltasten einen Pinselkreis, und die Leertaste setzt den Pinsel auf oder hebt ihn ab. Der Bildschirm zeigt jedes Mal „Pinsel auf“ oder „Pinsel ab“ an."
+      },
+      {
+        "q": "Gibt es eine Papierversion?",
+        "a": "Nein. Aquarellmalen auf Papier folgt derselben Idee, einem nassen Pinsel und jeweils einer Farbe. Es ist daher eine andere Aktivität, die Sie am Tisch ausprobieren können."
+      },
+      {
+        "q": "Welche Farben gibt es?",
+        "a": "Gelb, Orange, Grün und Lila, dieselben vier Farben, die in unseren anderen Bildspielen verwendet werden. Jede hat einen geschriebenen Namen, der neben der Auswahl angezeigt wird."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich registrieren?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Registrierung und keinen Download. Es funktioniert im Webbrowser auf einem Handy, Tablet oder Computer."
       }
     ]
   }

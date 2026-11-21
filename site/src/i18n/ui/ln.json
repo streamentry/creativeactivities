@@ -7,16 +7,22 @@
     "homeLabel": "Lokasa ya ebandeli ya Creative Activities",
     "mainNav": "Monene",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: bilili ya minene mpe ya malamu ya kopo ya tii, tournesol mpe mbwa",
+    "defaultImageAlt": "Creative Activities: iwa ya kobimba ya bilenge mpe ya motuya, bilongi ya mikolo ya mokili mpo na kosala mpe kosala",
     "languages": "Lokota",
     "englishOnly": "(Lingelesi)",
     "machineTranslated": "Lokasa oyo ebongolamaki na masini mpe naino etalelamaki te na moto oyo alobaka Lingála lokola lokota na ye ya liboso.",
     "readOriginal": "Tanga ya ebandeli na Lingelesi",
     "nav": {
+      "find": "Find an activity",
       "games": "Masano",
       "activities": "Misala",
       "caregiving": "Kobatela",
-      "brainHealth": "Bolamu ya bongo"
+      "brainHealth": "Bolamu ya bongo",
+      "crafts": "Bisalelo ya maboko",
+      "kids": "Bana",
+      "together": "Elongo",
+      "creativeCalm": "Kimya ya bokeli",
+      "search": "Koluka"
     },
     "faqTitle": "Mituna mpe biyano",
     "breadcrumb": "Nzela ya lokasa",
@@ -27,7 +33,32 @@
       "label": "Bonene ya makomi",
       "smaller": "Makomi ya momesano",
       "larger": "Makomi ya minene koleka",
-      "contrast": "Bokeseni ya makasi koleka"
+      "contrast": "Bokeseni ya makasi koleka",
+      "colors": "Bilanga",
+      "light": "Mwinda",
+      "dark": "Molili",
+      "device": "Lokola esaleli oyo",
+      "lineLength": "Bolai ya mitinda",
+      "standardLines": "Ya kosalema",
+      "shorterLines": "Mitinda mikuse",
+      "spacing": "Libanda",
+      "standardSpacing": "Ya kosalema",
+      "moreSpace": "Libanda monene"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Makanisi 101 ya misala",
     "lateStage": "Misala mpo na etape ya suka",
     "printable": "Misala ya kobimisa na imprimante",
-    "allActivities": "Misala nyonso",
+    "allActivities": "Banguide nyonso ya misala",
     "forCaregivers": "Mpo na babateli",
     "playTogether": "Ndenge ya kosakana elongo",
     "selfCare": "Komibatela yo moko",
@@ -54,24 +85,34 @@
     "app": "Aplikasio ya Creative Activities",
     "appHelp": "Lisalisi ya aplikasio",
     "support": "Lisungi",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Makambo ya mibeko",
     "sitePrivacy": "Bobateli ya makambo ya moto na site",
     "appPrivacy": "Politiki ya bobateli ya makambo ya moto na aplikasio",
     "privacyChoices": "Maponi ya bobateli ya makambo ya moto",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Mibeko mpe ndingisa ya kosalela aplikasio",
     "safety": "Bobateli mpe ndenge ya kosalela yango malamu",
     "accessibility": "Kosalela yango na pete",
     "healthNotice": "Liyebisi ya makambo ya bokolongono",
     "allLegal": "Makambo nyonso ya mibeko",
     "note": "Creative Activities epesaka misala ya pete oyo bokoki kosala elongo mpo na kosepela. Ezali te toli ya monganga, komeka te, to lisalisi ya monganga, mpe etalaka te, emekaka te to epesaka te motuya na moto. Mpo na mituna ya bokolongono, solola na monganga. Soki ezali likambo ya mbalakaka, benga 112.",
-    "publisher": "Ebimisami na Cloudjet Solutions Pte. Ltd."
+    "publisher": "Ebimisami na Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Bisalelo ya maboko mpo na bato nyonso",
+    "kids": "Misala mpo na bana",
+    "together": "Misala mpo na kosala elongo",
+    "creativeCalm": "Kimya ya bokeli",
+    "dementiaActivities": "Misala mpo na bato oyo bazali na dementia"
   },
   "home": {
-    "title": "Masano mpe misala mpo na bato oyo bazali na bokono ya kobosana to maladi ya Alzheimer | Creative Activities",
-    "description": "Masano ya bilili ya ofele mpe ya kimia mpo na kosakana na internet, mpe makanisi ya misala mpo na bato oyo bazali na bokono ya kobosana to maladi ya Alzheimer mpe babateli na bango. Komikomisa te, ngonga te, mpe motuya te.",
+    "title": "Misala ya bokeli mpo na moto nyonso oyo azali kokokisa motema ya moto mosusu",
+    "description": "Misala ya bokeli ya nzela ya ofele mpo na moto nyonso oyo azali kokokisa motema ya moto mosusu: bisalelo ya maboko, makambo mpo na bana, misala ya kosalela elongo mpe makanisi ya bokeli ya kimya.",
     "eyebrow": "Ofele · Piblisite te · Komikomisa te · Ngonga to motuya te",
-    "h1": "Masano mpe misala ya kimia mpo na bato oyo bazali na bokono ya kobosana",
-    "lede": "Masano ya bilili ya pete, bilili oyo eyebani malamu, mpe misala oyo bokoki kosepela na yango elongo — na lombangu oyo ebongi bino.",
+    "h1": "Salá eloko elongo",
+    "lede": "Koluka misala oyo ekokani na moto, ntango mpe oyo ozali na yango. Bisalelo ya maboko ya pete, mosala ya bana, misala ya kosalela elongo mpe makanisi ya bokeli ya kimya, elongo na bilongi ya pete mpe kaatə ya kobimisa. Tika ntango nyonso oyo olingi.",
     "playGame": "Sakana lisano moko",
     "findIdeas": "Luka makanisi ya misala",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Makanisi 101 ya misala",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Etape ya ebandeli",
         "text": "Kokoba kosala oyo alingaka, na bambongwana mike: misala oyo asepelaka na yango, kobima, masano ya maloba mpe kobongisa makambo elongo.",
         "label": "Makanisi mpo na etape ya ebandeli"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Etape ya katikati",
         "text": "Misala ya pete mpe oyo eyebani, ekabolami na biteni mike: kofungola bilamba, kopona biloko, miziki, masano ya bilili mpe kotambola mwa moke.",
         "label": "Makanisi mpo na etape ya katikati"
@@ -124,10 +165,10 @@
         "label": "Makanisi mpo na etape ya suka"
       }
     ],
-    "specificHtml": "Looking for something specific? Try <a href=\"/dementia-activities/\">activities and games for Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">puzzles and table games</a>, <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> or <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
+    "specificHtml": "Olingi eloko ya pɛ́tɛ́ɛ? Meka <a href=\"/dementia-activities/\">misala mpe mikanda mpo na Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">mayele mpe mikanda ya mesa</a>, <a href=\"/together/conversation-games-for-all-ages/\">mikanda ya kosolola</a> to <a href=\"/together/puzzles-and-table-games/\">mayele</a>.",
     "approachEyebrow": "Ndenge na biso ya kosala",
-    "approachTitle": "Mosala ya kosala elongo, komeka ya makanisi te",
-    "approachLede": "Masano mingi oyo babengaka «masano ya bongo» etongami na lombangu, motuya mpe milongo ya kolonga. Mpo na moto oyo azali na bokono ya kobosana, yango ekoki koyokana lokola ekzamɛ. Biso tosalaki ndenge mosusu.",
+    "approachTitle": "Misala ya elongo, kaka ya etamboli",
+    "approachLede": "Mingi ya “mikanda ya mayele ya ndenge” ekangami na mbangu, minkanda mpe ndenge ya kolonga mbala na mbala. Mpo na moto oyo azali koluka mpema, azali malade to azali na dementia, yango ekoki kozala lokola etamboli. Biso tosali ndenge ya kotalana na yango.",
     "approachLink": "Mpo na nini tosala yango ndenge oyo",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Bantina oyo emonanaka mingi ya koboya, mpe ndenge ya kimia ya komeka lisusu na sima."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Kobongisa tableti",
-        "text": "Makomi ya minene, makambo ya kopengola moke, mpe ekran ya ebandeli ya pete."
+        "href": "/activities/group-art-activities/",
+        "title": "Misala ya bilongi ya nkomo",
+        "text": "Misala ya elongo mpo na mesa moko ya bato mingi, moto na moto azali na mosala na ye."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Misala ya ofele ya kobimisa na imprimante",
-        "text": "Boluki ya maloba na makomi ya minene, lokasa ya kopakola langi, bingo mpe bakarte ya masolo."
+        "href": "/activities/ideas/",
+        "title": "Makanisi 101 ya misala",
+        "text": "Makanisi ya pete, kokabolama na oyo olingi mpe nguya boni ezali."
       }
     ],
     "researchTitle": "Bolamu ya bongo: oyo bolukiluki elobaka mpenza",
@@ -185,16 +226,16 @@
     "aboutApp": "Mpo na aplikasio",
     "faq": [
       {
-        "q": "Masano nini ezali malamu mpo na bato oyo bazali na bokono ya kobosana?",
-        "a": "Masano malamu mazalaka pete, eyebana malamu mpe ezangi kopusama na mbangu: bilili ya minene mpo na kokokanisa, kokabola biloko na molɔngɔ́, puzzle ya pete, kosukisa masese oyo eyebana, kotiya langi, bingo ya bilili mpe bakarti ya masolo. Pona oyo moto yango asepeli na yango lelo. Boyá kobalola ngonga, kotánga bapwɛ́ to eloko nyonso oyo ekokani na ekzamɛ."
+        "q": "Mikanda ya malamu mpo na bakolo ezali nini?",
+        "a": "Mikanda ya malamu ezali ya pete, ya koyebana mpe ya kozanga mposa ya kolonga: bilongi minene ya kokokana, kobanga, mayele ya pete, kosukisa maloba ya koyebana, kolongisa mpe kosala bilongi, bingo ya bilongi mpe makaadi ya kosolola. Ezali malamu mpo na bakolo mingi, na yango moko bato oyo bazali na dementia. Eloko ya malamu koleka ezali oyo moto asepelaka yango lelo. Bôkoma na bilelo ya ntango, bilongi ya mabɛ́ mpe eloko nyonso oyo ekoki kozala lokola etamboli."
       },
       {
-        "q": "Masano oyo mpo na bato bazali na bokono bwa kobosana ezali ya ofele?",
+        "q": "Mikanda oyo ezali na bofuluki?",
         "a": "Ɛɛ. Lisano nyonso mpe biloko nyonso ya kobimisa na papye na Creative Activities ezali ya ofele, ezangi kosɛnga kofungola kɔnti, kokomisa nkombo to kokitisa eloko. Masano yango esalaka na motambwisi-web ya telefone, tablɛti to ordinatɛrɛ."
       },
       {
         "q": "Masano ya bɔngɔ́ ekoki kopekisa bokono bwa kobosana?",
-        "a": "Lisano moko te emonisami ete epekisaka bokono bwa kobosana, mpe Creative Activities elobaka te ete esilisaka to epekisaka eloko moko. Masano na biso ezali mpo na kosepela mpe kolekisa ntango elongo. Eteni na biso ya kolɔngɔnɔ ya bɔngɔ́ elimboli makambo oyo bolukiluki emonisi mpe oyo emonisi te."
+        "a": "Mikanda moko te emonanaki ete ekoki kopekisa dementia, mpe Creative Activities elobi te ete ekoki kobikisa to kopekisa eloko. Mikanda na biso ezali mpo na esengo mpe ntango ya elongo, mpe nkasa moko ya misala ezali na maloba ya bilamba ya bozali malamu te."
       },
       {
         "q": "Masano oyo ebongi mpo na moto oyo azali na Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Nani asalaka Creative Activities?",
-        "a": "Creative Activities ezali etuluku moke ya bato oyo basalaka misala ya bilili ya kimia mpo na mikóló, oyo mabota mpe babateli bakoki kosalela na site ya web mpe lokola aplikasyo ya ofele. Tozali minganga te, mpe eloko moko te awa ezali toli ya monganga."
+        "a": "Creative Activities ezali ekipe moke ya kosala misala ya bokeli ya kimya mpo na bakolo, mpo na moto nyonso oyo azali kokokisa motema ya moto mosusu, na web mpe na application ya bofuluki. Biso tozali bato ya bilongi ya bobongisi te, mpe eloko nyonso oyo ezali awa ezali toli ya bobongisi te."
+      }
+    ],
+    "groupsEyebrow": "Kokota na nzela",
+    "groupsTitle": "Bisika minei ya misala ya bokeli",
+    "groupsLede": "Banda na lisangani oyo ekokani na moto oyo ozali elongo na ye mpe oyo ozali na yango. Nkasa na nkasa ezali na ndenge ya pete mpe bolamu ya kobatela.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Bisalelo ya maboko",
+        "text": "Mpapi, peinture, bilongi ya kozongisa mpe misala ya ntango ya mokolo, elongo na ndenge ya pete mpo na nkasa moko.",
+        "label": "Talá bisalelo ya maboko"
+      },
+      {
+        "href": "/kids/",
+        "title": "Bana",
+        "text": "Kosala mpe kosana mpo na bana, elongo na moto mokolo pembeni mpe bolamu ya kobatela ya polele.",
+        "label": "Talá misala ya bana"
+      },
+      {
+        "href": "/together/",
+        "title": "Elongo",
+        "text": "Kosolola, mayele, ntango na libulu mpe nzela ya kozala pene na bilongo ya bikolo.",
+        "label": "Talá eloko ya kosala elongo"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kimya ya bokeli",
+        "text": "Ntango ya kimya ya kosala na kikalame, na mpapi, na nkasa to na nzembo. Ezali kaka lisusu ndenge ya bobongisi te.",
+        "label": "Talá kimya ya bokeli"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Okoki kobimisa na papye",
     "play": "Bɛtá {name} →",
     "readGuide": "Tángá mokanda ya kolakisa"
+  },
+  "listen": {
+    "listenSteps": "Yoka bambongo",
+    "pause": "Kotɛmɛla",
+    "resume": "Kokoba",
+    "stop": "Kotɛmɛla mpenza",
+    "speed": "Vitesse",
+    "normal": "Ya kosalema",
+    "slower": "Polele koleka",
+    "reading": "Kotanga bambongo na mongongo.",
+    "paused": "Etɛmɛlí. Pesa Kokoba mpo na kokoba.",
+    "note": "Esalelaka mongongo ya esaleli na yo mpenza. Bisaleli mosusu batindelaka maloba na mokeli ya yango mpo na koloba yango.",
+    "listen": "Yoka",
+    "stepLabel": "Yoka bambongo {n}",
+    "stopStep": "Kotɛmɛla bambongo {n}"
   },
   "playCta": {
     "title": "Olingi lisano moko ya kimia?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Misala",
-      "title": "Misala mpo na bato bazali na bokono bwa kobosana",
-      "seo": "Misala mpo na bato bazali na bokono bwa kobosana: Makanisi na kotalela biteni",
-      "description": "Makanisi ya misala mpo na bato bazali na bokono bwa kobosana na eteni nyonso: miziki, kokanisa makambo ya kala, misala ya mokolo na mokolo, ntango ya koyoka na binama ya nzoto, misala ya mabɔkɔ, kobima na libanda mpe mikanda ya ofele ya kobimisa na papye.",
-      "lede": "Mosala ya ntina ezali eloko nyonso oyo epesaka bopemi, ntina to ntango ya kozala elongo. Bandá na oyo moto yango asepelaka na yango banda kala, mpe bongisá yango mpo ebonga lelo."
+      "label": "Banguide ya misala",
+      "title": "Banguide ya misala",
+      "seo": "Banguide ya misala: Makanisi, bisaleli ya peinture mpe nzela ya kobanda",
+      "description": "Banguide ya polele ya misala ya bokeli oyo okoki kosala elongo na moto: makanisi ya pete, bisaleli ya peinture na malamu ya mosolo, peinture ya elongo, mabaluwa, bikanisi mpe ntina ya peinture ya bobongisi.",
+      "lede": "Banguide ya mokuse mpe ya misala mpo na kopona mpe kobanda misala elongo na moto, na mbula nini to bokoki nini."
+    },
+    "crafts": {
+      "label": "Bisalelo ya maboko",
+      "title": "Bisalelo ya maboko mpo na bato nyonso",
+      "seo": "Bisalelo ya maboko ya pete mpo na bato nyonso, elongo na ndenge ya pete",
+      "description": "Bisalelo ya maboko ya pete mpo na bakolo, bana mpe libota: mpapi, kosukisa mikolo, bilongi ya kozongisa mpe ya ntango ya mokolo, elongo na ndenge ya pete ya kokanga mpe ya kotelema.",
+      "lede": "Bisalelo oyo ebandaka na biloko ya ndako ya bato mingi, moko na moko na ndenge ya pete, mpo ete moto nyonso akoka kosala eloko."
+    },
+    "kids": {
+      "label": "Bana",
+      "title": "Misala ya bokeli mpo na bana",
+      "seo": "Misala ya bokeli mpo na bana: Peinture, bisika ya bobɔngɔ mpe kimya",
+      "description": "Misala ya bokeli mpo na bana: peinture ya bana ya mike, peinture ya mosala, misala ya bisika ya bobɔngɔ, bisalelo ya mokolo ya mbula, mpe makanisi ya kokitisa mpiko, elongo na bolamu ya kobatela mpe ndenge mpo na bisika ya bobɔngɔ.",
+      "lede": "Makanisi ya peinture mpe ya misala mpo na bana ya mbula mpe mposa ya lokola, elongo na bolamu ya kobatela ya polele mpe moto mokolo pembeni."
+    },
+    "together": {
+      "label": "Elongo",
+      "title": "Misala ya kosala elongo",
+      "seo": "Misala ya kosala elongo, na mbula mpe bilongo",
+      "description": "Misala mpo na bilongo mibale to koleka: mikanda ya kosolola, mayele, ntango na libulu, bisalelo mpo na bakoko mpe bana ya bana, mpe nzela ya kozala pene wana bozali mosika.",
+      "lede": "Makanisi ya kokabola ntango elongo na tata to mama, mokoko, mwana to moninga, na ndako, na libulu, na kotala to uta mosika."
+    },
+    "creative-calm": {
+      "label": "Kimya ya bokeli",
+      "title": "Kimya ya bokeli",
+      "seo": "Kimya ya bokeli: Peinture mpe misala ya kopema",
+      "description": "Misala ya bokeli ya kopema mpo na bakolo mpe bato oyo bazali kosunga: peinture ya mayele ya motema, kokoma na buku, nzembo, ntango ya bisika ya bobɔngɔ mpe mpokwa ya kimya. Misala ya bokeli, kaka ya etamboli.",
+      "lede": "Nzela ya pete ya kokitisa mwendo elongo na mpapi, nkasa to nzembo. Yango ezali misala ya bokeli, kaka ya etamboli, mpe ekoki te mayele ya ntango nyonso."
     },
     "caregiving": {
-      "label": "Kobatela moto",
-      "title": "Buku ya kolakisa ndenge ya kobatela moto",
-      "seo": "Buku ya kolakisa ndenge ya kobatela moto azali na bokono bwa kobosana: Lisalisi ya mokolo na mokolo",
-      "description": "Buku ya kolakisa ya pete mpe ya boboto mpo na babateli ya bato bazali na bokono bwa kobosana: kobɛta masano elongo, kosolola, koboya kosala eloko, kozanga kimia na nsuka ya mokolo, basaleli ya tablɛti, kopona baaplikasyo mpe komibatela yo moko.",
-      "lede": "Lisalisi ya pete mpe ya sikisiki mpo na bantango ya mokolo na mokolo ya kobatela moto oyo azali na bokono bwa kobosana, bakisa mpe komibatela yo moko."
+      "label": "Dementia care",
+      "title": "Kokokisa moto oyo azali na dementia",
+      "seo": "Kokokisa moto oyo azali na dementia: misala mpe lisungi",
+      "description": "Baguide ya bandeko oyo bazali kokokisa moto oyo azali na dementia: ndenge ya kosala elikia mpo, nini esengeli kosala tango alobi ete alingi te, mpe esika ya kozwa lisungi ya sembo nsima ya kopesama ndakisa.",
+      "lede": "Lisungi oyo ebandaka na misala mpo na bandeko oyo bazali kokokisa moto oyo azali na dementia, mpe esika ya kokende mpo na toli ya bimedikalo mpe ya kokokisa."
     },
     "brain-health": {
       "label": "Kolɔngɔnɔ ya bɔngɔ́",
@@ -283,7 +396,16 @@
     "tryTogether": "Meká bino mibale",
     "relatedGuides": "Buku ya kolakisa oyo ekokani",
     "related": "Etali mpe oyo",
-    "startHere": "Bandelá awa"
+    "startHere": "Bandelá awa",
+    "staleAria": "Liloba oyo ekoma kala",
+    "staleTitle": "Liloba oyo ekoma kala",
+    "staleText": "Esalemaki na nsima ya likasi ya kala ya lokasa ya Lingelesi, oyo ekomi kobongwana sikawa. Lokasa ya Lingelesi ezali oyo ya sikawa.",
+    "staleHealth": "Ezali kopesa boyebi ya bolamu ya nzoto, yango wana tala lokasa ya Lingelesi mpe botuna monganga to mouguki ya bokuli liboso ya kosala na ndenge ezali kolobama.",
+    "staleLink": "Tala lokasa ya sikawa ya Lingelesi"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Liyebisi na ntina ya kolɔngɔnɔ ya nzoto",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Mosala ya kosala elongo, ekzamɛ ya bɔngɔ́ te",
+      "title": "Misala ya elikia, kaka te komeka",
       "seoTitle": "Na ntina ya Creative Activities: Lolenge na biso ya kosala",
-      "description": "Ntina oyo masano ya Creative Activities ezangaka bakɔntɛrɛ ya ngonga, bapwɛ́ to kolanda milɔngɔ́ ya kolonga, ntina oyo bilili etikalaka komonana, mpe makambo nini tokoki koloba to tokoki te koloba na ntina ya bokono bwa kobosana.",
+      "description": "Mpo nini Creative Activities ezali na ngonga ya kotalela te, bonzambe te to mikanda ya mikolo te, mpe mpo nini bilembo ezali koloba kobatela, mpe nini tokoloba te na makambo ya bolamu.",
       "crumb": "Lolenge na biso ya kosala",
-      "lede": "Creative Activities esalaka misala ya bilili ya kimia mpo na mikóló oyo mobateli mpe moto oyo azali na bokono bwa kobosana bakoki kosepela na yango elongo bango mibale.",
-      "bodyHtml": "<h2>Who it is for</h2><p>Anyone caring for someone: a parent, a grandparent, a child, a partner, a friend, or a person living with dementia. Families, older adults and activity staff can all use the same pages.</p><h2>What we believe</h2><p>The point of an activity is the moment itself: a conversation, a smile, the satisfaction of putting two pictures together, or simply sitting close. It is not to measure anyone, push them further or prove anything.</p><p>Many brain-training apps are designed around speed, scores, streaks and levels. For someone who is tired, unwell or living with dementia, that can feel like an exam they cannot pass. We designed the opposite, and we hold ourselves to these rules:</p><ul><li><strong>Nothing to fail.</strong> No clock, score, move counter, lives, streaks, confetti or countdowns, on any screen.</li><li><strong>Recognition over recall.</strong> Pictures stay showing by default. Prompts invite conversation and never quiz names or memories.</li><li><strong>Big, plain and steady.</strong> Large text and pictures, high contrast, and controls that stay in the same place.</li><li><strong>Adult dignity.</strong> Real-world pictures and plain, warm words. No cartoons, sing-song praise or emoji rewards.</li><li><strong>An easy way out.</strong> “Done for now” is always visible. Stopping halfway is a good outcome.</li><li><strong>Private by default.</strong> No accounts or ads. Photos you choose stay on your device.</li></ul><h2>What we do not claim</h2><p>Our games and activities are for enjoyment and connection. They do not diagnose, test, measure, treat, slow or prevent dementia or Alzheimer’s disease, and no one should choose them for that reason. When we write about health research, we say plainly where the evidence is weak, and we never connect it to our own activities.</p><h2>Who we are</h2><p>Creative Activities is a small independent team. We are not clinicians. Our guides are written from published guidance by organizations such as the National Institute on Aging and the Alzheimer’s Association, and every guide lists its sources. Read <a href=\"/editorial-policy/\">how we write and check our pages</a>.</p><h2>Tell us what would help</h2><p>We would love to hear what works for you and what does not, especially from people living with dementia, family caregivers and activity staff. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Basungi mpe batambwisi",
+        "none": "Creative Activities ezali na basungi te, mpe bobateli ya kofuta te, mpe bampaka oyo bilogo na bango ezali koyebana na site te.",
+        "listed": "Oyo ezali basungi mpe batambwisi ya Creative Activities. Mokanda na mokanda oyo bokutani na yango, lisanga yango elimbolami mpe na nsangela yango.",
+        "policy": "Soki yango ekobongwana, nsangela ya ndenge yango ekolakisa yango na esika ekomonana, misala moko te ekozala na mosungi, mpe nkombo ya bampaka ekozala na ekuke oyo.",
+        "listHeading": "Lisanga ya bampaka",
+        "noPartners": "Ezali na bampaka te sikawa."
+      },
+      "lede": "Creative Activities esalaka misala ya kimia mpo na bato ya bomi, oyo bato mibale bakoki kosepela bo bazali pembeni ya mosusu, soit moko azali kokokisa mosusu, soit bazali kaka na mposa ya kozala elongo.",
+      "bodyHtml": "<h2>Nani ezali mpo na ye</h2><p>Moto nyonso oyo akokokisa moto mosusu: tata to mama, mokoko, mwana, mobali to mwasi na ye, mosangani, to moto oyo azali na dementia. Bandeko, bato ya mikolo mpe basali ya misala ya bato ya mikolo bakoki konotela biteni ya lolenge moko.</p><h2>Nini tokondima</h2><p>Ntina ya misala ezali ngonga yango mpenza: koloba elongo, komeka mpo na kotuta, esengo ya kokangisa mikanda mibale ya bilembo, to kaka kofanda pembeni. Ezali te mpo na kotalela moto, kosunga ye koleka, to kolakisa eloko.</p><p>Ba-appli ya kotinda bongo ya ebongiseli ezali kotongama na ntango ya lipasi, bapoints, bisika ya kolonga mpe bikalo. Mpo na moto oyo azali na mpasi, azali malade to azali na dementia, yango ekoki kokoma lokuta oyo akoki kolonga te. Biso tosali na ndenge ya lisusu, mpe tozali kolanda mibeko oyo:</p><ul><li><strong>Ezali na eloko ya kozanga te.</strong> Ezali na ngonga te, ponte te, kotalela mpe mpo na bopasi te, bomoi te, bikalo te, ba-konfetti te, to kokatama ya ngonga te, na ekran nyonso.</li><li><strong>Koyeba biloko na kokamwa.</strong> Bilembo ezali komonana na ntango nyonso. Maloba ya kosunga ezali kobimisa koloba, mpe ezali kotuna te na nkombo to makanisi ya kala.</li><li><strong>Monene, polele mpe ya kotelema.</strong> Maloba mpe bilembo ya monene, lolenge ya kokamwa ya malamu, mpe bibatelo oyo ekotelema na esika moko.</li><li><strong>Lokumu ya moto mokolo.</strong> Bilembo ya bomoi ya ebele, maloba ya polele mpe ya boboto. Ezali na bilembo ya bibwele te, makambo ya kosepelisa na bolimbi te, to bampresanti ya emoji te.</li><li><strong>Ndenge ya kobima malamu.</strong> « Esili mpo na sikawa » ezali komonana tango nyonso. Kosila na katikati ezali elikya ya malamu.</li><li><strong>Bokobateli ya liboso.</strong> Ezali na makomi te, mpe ezali na pub te. Bilembo oyo osili kopona ekobomba na esika yo ozali.</li></ul><h2>Biso tolobaka te</h2><p>Ba-jeux mpe misala na biso ezali mpo na esengo mpe kokutana. Ezali kolakisa te, kotala te, kopima te, kobikisa te, kokitisa te to kobatela dementia to maladi ya Alzheimer, mpe moto moko akoki kopona yango mpo na ntina yango te. Ntango tokomaka makambo ya boyekoli ya bolamu, tolobaka polele esika bopeto ya boyekoli ekozala dhaifu, mpe tokokangaka yango na misala na biso te.</p><h2>Biso ye nani</h2><p>Creative Activities ezali ekipe moke ya kozala ya nkombo mpe ya kozala moko te. Biso tozali bango ya bokuli te. Baguide na biso bakomami na toli ya bibongiseli oyo ebimisami na mikanda ya mabanga lokola National Institute on Aging mpe Alzheimer’s Association, mpe baguide nyonso elimbolaka bankoli na yango. Tanga <a href=\"/editorial-policy/\">ndenge tokomaka mpe tomekaka bilembo na biso</a>.</p><h2>Tolobela biso nini ekosunga</h2><p>Tosepela koyoka nini esalaka malamu mpo na yo mpe nini esalaka malamu te, mingi mingi na bato oyo bazali na dementia, bandeko oyo bakokokisa mpe basali ya misala ya bato ya mikolo. Tindela email na <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Ndenge tokomaka mpe totatoli nkasa na biso",
       "seoTitle": "Mibeko ya bokomi na biso",
-      "description": "Ndenge Creative Activities elukilukaka, ekomaka, elakisaka bisika makambo ewutaka mpe ebongisaka nkasa na yango ya misala mpo na maladi ya kobosana mpe kolɔngɔnɔ ya bɔɔngɔ, mpe makambo oyo tokobimisa soki moke te.",
+      "description": "Ndenge Creative Activities ezwaka boyebi, ezalaka, ezwaka biloko, mpe ebongisaka bilembo na misala mpe bolamu, mpe biloko tokokoma kobimisa te.",
       "crumb": "Mibeko ya bokomi",
       "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Mituna mpe biyano",
-      "seoTitle": "Masano mpe misala mpo na maladi ya kobosana: Mituna mpe biyano",
-      "description": "Biyano na mituna oyo etunamaka mingi mpo na masano mpe misala mpo na bato oyo bazali na maladi ya kobosana: masano nini ya komeka, ntango boni ya kosana, makanisi mpo na bilembo ya nsuka, kolɔngɔnɔ ya bɔɔngɔ mpe kobomba makambo ya moto moko.",
+      "seoTitle": "Mituya mpe biyano na makambo ya Creative Activities",
+      "description": "Biyano na mituya ya ebele ya bato na makambo ya ba-jeux mpe misala: nini ekoki kosala liboso, ngonga ya kosala, lisanga mpe makanisi ya nsima, bolamu mpe bokobateli.",
       "crumb": "Mituna mpe biyano",
       "lede": "Biyano ya mokuse mpe ya pete na mituna oyo babateli batunaka mingi.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Mpo na masano",
           "items": [
             {
-              "q": "Masano nini ezali malamu mpenza mpo na moto oyo azali na maladi ya kobosana?",
+              "q": "Ba-jeux malamu mpo na bato ya mikolo ezali nini?",
               "a": "Masano oyo eleki malamu ezali oyo eyebani malamu, ya pete mpe ezangi kopusama, mpe lisano oyo ebongi ezali kaka oyo moto yango asepeli na yango lelo. Kokangisa bilili mibale oyo emonanaka polele, kokabola biloko na ndenge na ndenge, puzzle ya pete, kosukisa maloba ya kala oyo eyebani, kopesa langi mpe bingo ya bilili nyonso esalaka malamu mpenza mpo na bato mingi. Boyá biloko ya kotánga ntango, banote mpe eloko nyonso oyo ekoki koyokana lokola ekzamɛ."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Kolɔngɔnɔ ya bɔɔngɔ́",
+          "title": "Dementia mpe bolamu",
           "items": [
             {
               "q": "Masano ekoki kopekisa to kokitisa lombango ya bokono bwa kobosana?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "More detail: <a href=\"/caregiving/how-to-play-together/\">how to play together</a>, <a href=\"/caregiving/when-they-say-no/\">when they say no</a>, <a href=\"/activities/late-stage/\">later-stage activities</a> and <a href=\"/dementia-activities/\">dementia activities at home</a>."
+      "moreHtml": "Ndakisa ya mingi: <a href=\"/caregiving/how-to-play-together/\">ndenge ya kosala elongo</a>, <a href=\"/caregiving/when-they-say-no/\">tango alobi ete alingi te</a>, <a href=\"/activities/late-stage/\">misala ya nsima</a> mpe <a href=\"/dementia-activities/\">misala ya dementia na ndako</a>."
     },
     "handout": {
       "title": "Masano ya Ofélé mpe ya Pɛtɛɛ mpo na Bato Bazali na Bokono bwa Kobosana",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Mpo na Bandako ya Kobatela Mibange, Babibliotɛkɛ ná Bituluku ya Lisungi",
-      "seoTitle": "Misala ya ofele mpo na bato oyo bazali na bokono ya kobosana na bandako ya kobatela mpe mangomba",
-      "description": "Ndenge nini bandako ya kobatela mibange, bibongiseli ya lisungi ya mikolo nyonso, babiblioteke mpe mangomba basalelaka masano na biso ya ofele mpo na bato oyo bazali na bokono ya kobosana, elongo na makomi mpo na kobakisa biso na liste ya biloko ya lisungi.",
+      "seoTitle": "Misala ya bopesi ya ofele mpo na bandako ya bokonzi, bibliotek mpe bisangani",
+      "description": "Ndenge bandako ya bokonzi, ba-programme ya bomoi ya mokolo, bibliotek, mabanga ya mikolo mpe bisangani ya lisungi bazali kosalela ba-jeux mpe baguide na biso ya misala ya ofele, mpe maloba ya kobakisa biso na lisanga ya biteni.",
       "crumb": "Mpo na bibongiseli",
       "lede": "Biloko nyonso oyo bizali na site oyo bizali ya ofele mpo na kosalela elongo na bato oyo bafandaka na bandako ya kobatela, basangani mpe bakiliya, kozanga kofungola konte, kopesa mikanda to kofuta mbongo. Lokasa oyo elimboli makambo oyo ezali awa mpe ndenge ya kokabola yango.",
-      "shortText": "{name}: masano ya bililingi ya pete mpe ya ofele, elongo na batoli ya misala mpo na bato oyo bazali na bokono ya kobosana mpe babateli na bango. Kozanga komikoma, kozanga ntango ya kolanda, kozanga bapwa.",
-      "longText": "{name} ({domain}) epesi masano {count} ya ofele na internet oyo masalemi mpo na bato oyo bazali na bokono ya kobosana, na ndakisa koluka bililingi mibale oyo ekokani ntango bililingi bizali komonana kaka, puzzle ya pete, kokabola biloko, bisesego oyo eyebani mingi mpe bingo ya bililingi oyo ekoki kobimisama na papye. Ezali na bosenga te ya kofungola konte, ezali na bapiblisite te, ntango ya kolanda te to bapwa te. Site oyo ezali mpe na batoli ya misala oyo ekomami na maloba ya pete mpo na eteni mokomoko ya bokono ya kobosana, oyo ezali kolobela makomi ya National Institute on Aging mpe Alzheimer's Association.",
+      "shortText": "{name}: ba-jeux ya bilembo ya ofele mpe ya boboto, mpe baguide ya misala mpo na bato ya mikolo, bandeko mpe bato oyo bazali na dementia. Kokota te, ngonga te, bonzambe te.",
+      "longText": "{name} ({domain}) epesi masano {count} ya ordinatère ya mbongo te mpo na bakaki, bana mpe bato oyo bazali na dementia: kokanga bilembo, bifuta ya kotia, kopanga, makambo ya bilongi, bingo ya bilembo na makaridi ya kobimisa. Ezali na konto te, mabanzo te, ntango te mpe mabonza te. Site ezali mpe na bilakisi ya malako ya kosala mpo na bakaki, bato ya libota mpe babalani, na lolenge ya pete, elakisami na National Institute on Aging mpe Alzheimer's Association.",
       "useTitle": "Oyo bibongiseli bikoki kosalela",
       "gamesItemHtml": "<strong>Masano {count} na internet</strong> oyo ekoki kosala na ordinatɛrɛ ya maboko, tabulɛti to televizyo oyo ekangisami na ordinatɛrɛ. Kozanga kotiya programe, kozanga kofungola konte to kokitisa eloko. Tala <a href=\"/games/\">masano nyonso</a>.",
       "printablesLabel": "Biloko {count} oyo ekoki kobimisama na papye:",
       "printablesAfter": "Finá na bouton ya kobimisa na papye na lokasa mokomoko.",
-      "moreItemsHtml": "<li><strong>Group formats:</strong> <a href=\"/games/picture-bingo/\">Picture bingo</a> has printable cards and an on-screen caller, and <a href=\"/together/conversation-games-for-all-ages/\">conversation games</a> has questions with answer choices and talking points.</li><li><strong>Activity guides</strong> for staff and families, written in plain language with sources. Start with <a href=\"/activities/ideas/\">101 activity ideas</a> or <a href=\"/crafts/craft-group-sessions/\">group activities for care homes</a>.</li>",
+      "moreItemsHtml": "<li><strong>Ndenge ya bato mingi:</strong> <a href=\"/games/picture-bingo/\">Bingo ya bilembo</a> ezali na makaridi ya kobimisa mpe moto oyo abengisaka na ekran, mpe <a href=\"/together/conversation-games-for-all-ages/\">masano ya kosolola</a> ezali na mituya ya kopona mpe makanisi ya kosolola.</li><li><strong>Bilakisi ya malako</strong> mpo na babalani mpe bato ya libota, na pete, elakisami na bikoli. Banda na <a href=\"/activities/ideas/\">101 mikano ya misala</a> to <a href=\"/crafts/craft-group-sessions/\">misala ya bato mingi mpo na bandako ya bakaki</a>.</li>",
       "restHtml": "<h2>Ndenge mangomba basalelaka yango</h2><ul><li><strong>Bandako ya kobatela mibange mpe ya lisungi ya makanisi:</strong> bingo ya bililingi to kosilisa lisesego na televizyo ya salo, elongo na moto moko oyo azali kofina mpo na etuluku mobimba.</li><li><strong>Manaka ya moi mpo na mikolo:</strong> esika ya tabulɛti elongo na masano ya bililingi mibale oyo eponami kaka bililingi minei, mpo na kosala moko na moko na ntango ya mokuse.</li><li><strong>Babiblioteke ya bato nyonso:</strong> koluka maloba oyo ebimisami na papye mpe kakati ya masolo na biloko ya kosalisa bongo, elongo na kotya site oyo na esika ya kobomba bilembo na batabulɛti ya biblioteke.</li><li><strong>Mangomba ya lisungi ya babateli mpe bisika ya kokutana:</strong> <a href=\"/handout/\">lokasa moko oyo ekoki kobimisama na papye</a> mpo mabota bamema na ndako.</li><li><strong>Bopitalo mpe basali ya kobongisa kobima na ndako:</strong> lokasa ya kobimisa na mikanda ya babateli, mpo na kozala na eloko ya kimia ya kosala na ndako to pene na mbeto.</li></ul><h2>Oyo biso tosalaka te</h2><p>Masano oyo ezali mpo na esengo mpe kolekisa ntango elongo. Ezali kopesa diagnostik te, komeka te, kopesa bapwa te, kosilisa to kokitisa bokono ya kobosana te, mpe tosengi bibongiseli balobela yango bongo te. Ezali na bapiblisite te, mpe masano masengaka kombo te, makambo ya kolongono ya nzoto te to kotinda bafoto te. Site internet esalelaka Google Analytics mpo na kotanga bato oyo bayei; <a href=\"/privacy/\">maloba na biso mpo na kobomba makambo ya moto</a> elimboli oyo yango ezwaka. Bafoto oyo esalelami na <a href=\"/games/photo-pairs/\">Photo pairs</a> etikalami kaka na programe ya internet na yo.</p><h2>Bakisa biso na liste na yo ya biloko ya lisungi</h2><p>Soki ozali kobomba liste ya biloko ya lisungi mpo na babateli, osepelami kotiya lianzi na <a href=\"/\">{domain}</a>. Okoki kokopia ndimbola moko to mosusu.</p>",
       "shortTitle": "Ndimbola ya mokuse",
       "longTitle": "Ndimbola ya molai",
-      "linksHtml": "<p>Useful pages to link to directly: <a href=\"/games/\">free games</a>, <a href=\"/games/\">free printables</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/caregiving/how-to-play-together/\">how to play together</a>.</p><h2>Questions or corrections</h2><p>If something on the site is wrong or unclear, or a resident's needs are not met by what is here, please tell us at <a href=\"mailto:{email}\">{email}</a>. Please do not send personal or health information about residents or clients.</p>"
+      "linksHtml": "<p>Bisika ya malamu oyo okoki kotinda na lien: <a href=\"/games/\">masano ya mbongo te</a>, <a href=\"/games/\">bilembo ya kobimisa mbongo te</a>, <a href=\"/dementia-activities/\">misala ya dementia na ndako</a> mpe <a href=\"/caregiving/how-to-play-together/\">ndenge ya kosala elongo</a>.</p><h2>Mituya to kobongisa</h2><p>Soki eloko na site ezali mabe to ezali na pasi ya koyeba, to soki mposa ya moto oyo akofandaka na esika ezali kokokisama te na oyo ezali awa, bobenga biso na <a href=\"mailto:{email}\">{email}</a>. Bolakisa te makambo ya moto to ya bozalisi ya bato oyo bazali na bandako.</p>"
     },
     "app": {
       "title": "Aplikasyon Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Masano ya ofele na internet mpo na maladi ya kobosana mpe Alzheimer",
-    "description": "Masano ya ofele na internet mpo na mikóló oyo bazali na maladi ya kobosana to Alzheimer: kokokanisa bililingi, puzzle ya pete, kokabola biloko, bisesego, kotiya langi, bingo. Kokomisa nkombo te, ngonga te, pwen te.",
+    "title": "Masano ya mbongo te ya kosala elongo na ordinatère",
+    "description": "Masano ya ordinatère ya mbongo te mpo na bakaki, bato ya libota mpe bato oyo bazali na dementia: kokanga bilembo, bifuta ya kotia, kopanga, makambo ya bilongi, kopaka langi mpe bingo. Kosala na kokota konto te, ntango te to mabonza te.",
     "crumb": "Masano",
-    "h1": "Masano ya malɛmbɛ mpo na bato bazali na maladi ya kobosana",
+    "h1": "Masano ya pete ya kosala elongo",
     "lede": "Masano {count} ya ofele ya kosakana elongo na motambwisi-internet na yo. Bililingi ya minene, maloba ya pete, mpe eloko ya kokweisa ezali te: ngonga te, pwen te, kokomisa nkombo te.",
-    "listName": "Masano ya malɛmbɛ mpo na bato bazali na maladi ya kobosana",
+    "listName": "Masano ya pete ya kosala elongo",
     "byStageTitle": "Kopona lisano na kotalela nivo ya bokono",
     "byStageLede": "Banivo ezali kaka mpo na kopesa nzela. Landá oyo moto oyo ozali kobatela asepelaka na yango mpe oyo ezali kopesa ye kimia lelo.",
     "stageCol": "Nivo",
     "gamesCol": "Masano oyo ebongaka mingi",
-    "moreHtml": "More ideas away from the screen: <a href=\"/activities/ideas/\">101 activity ideas</a>, <a href=\"/dementia-activities/\">dementia activities at home</a> and <a href=\"/crafts/\">crafts</a>.",
+    "moreHtml": "Mayele mpo na nzela oyo ezali na ekran te: <a href=\"/activities/ideas/\">101 mikano ya misala</a>, <a href=\"/dementia-activities/\">misala ya dementia na ndako</a> mpe <a href=\"/crafts/\">misala ya maboko</a>.",
     "faq": [
       {
         "q": "Lisano nini tosengeli kobanda na yango?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Masano oyo ezali mpo na komeka makanisi ya mikóló?",
-        "a": "Ezali masano ya kokokanisa mpe bililingi oyo mokóló nyonso akoki kosepela na yango, kasi esalemi mpo na komeka makanisi te: na Kokokanisa bililingi mibale mibale, bililingi bitikalaka polele longola se soki oponi kobomba yango. Mokanda na biso ya litambwisi na masano ya makanisi mpo na mikóló oyo bazali na maladi ya kobosana ezali kolimbola ndenge ya kotika lisano nyonso ya makanisi ezala ya malɛmbɛ."
+        "a": "Ezali masano ya kokanga mpe ya bilembo oyo moto mosusu ya mikolo akoki kosepela, kasi esalemi mpo ete ekonyokola memoire te: na Picture pairs bilembo bitikali kofungwama kino soki okopesa mosusu. Masano mosusu ya memoire akoki kozala na pete soki otiki ntango ya kotangisa mpe mabonza."
       },
       {
         "q": "Masano mpo na bituluku ya bato na ndako ya kobatela mibange ezali?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Programe ya misala mpo na maladi ya kobosana ezali?",
+        "q": "Ezali na application mpo na bakaki mpe bato ya libota?",
         "a": "Iyo. Creative Activities (ekomami na nkombo \"{storeName}\") ezali ya ofele na App Store mpe Google Play. Ezali kopesa lisano ya malɛmbɛ ya kokokanisa bililingi na biteni ya minene, masano elongo na bafɔtɔ́ ya libota oyo oponi, mpe maboke ya bililingi oyo esalaka kozanga internet."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Okoki kobimisa na papye",
     "howTo": "Ndenge ya kosakana {name}",
     "tips": "Batoli mpo na kosakana elongo",
-    "newToPlayingHtml": "Oyei sika na kosakana na moto oyo azali na maladi ya kobosana? Tángá <a href=\"/caregiving/how-to-play-together/\">ndenge ya kosakana masano elongo</a>, bakisa mpe oyo ya kosala soki asepeli lisusu te.",
+    "newToPlayingHtml": "Ozali sika na kosala na moto ya mikolo to na moto oyo azali na dementia? Tanga <a href=\"/caregiving/how-to-play-together/\">ndenge ya kosala masano elongo</a>, na makambo ya kosala soki akobwaka motema na masano.",
     "moreAria": "Makambo mosusu ya kotala",
     "helpfulGuides": "Batoli ya ntina",
     "appTitle": "Sakaná na aplikasio",
@@ -536,6 +666,35 @@
     "goodToKnow": "Malamu koyeba",
     "goodToKnowText": "Lisano oyo ezali mpo na kosepela mpe kolekisa ntango elongo. Emekaka eloko te, emekaka bɔɔngɔ te mpe esalisaka bokono moko te.",
     "moreGames": "Masano mosusu ya pete",
-    "crumb": "Masano"
+    "crumb": "Masano",
+    "print": {
+      "heading": "Kosala na mpapi",
+      "sameRules": "Version ya mpapi ezali na mitindo ya masano kaka lokola oyo ezali na ekran:",
+      "button": "Bimisa version ya mpapi",
+      "pageNote": "Lipapi moko na A4 to US Letter, malamu na noir mpe blanc. Version {date}.",
+      "islandNote": "Ezali kobimisa oyo ezali na ekran sikoyo. Version {date}.",
+      "sheetTitle": "{name}: version ya mpapi",
+      "point": "Na mpapi, tuna elilingi na bilembo na esika ya kobeta yango, to pota yango na stylo. Motindo na motindo ezali eseko ya sika.",
+      "pointTarget": "Na mpapi, elilingi ya kotala ezali na boite na mbandela ya motindo na motindo. Tuna elilingi na bilembo na esika ya kobeta, to pota yango na stylo.",
+      "halves": "Elilingi na elilingi ekaseli na katikati. Tia nzela kuta na loboko ya mwasi kino na loboko ya mobali oyo ekokana na yango, to tuna na mosapi. Ezali na kokata te.",
+      "grid": "Quarré na quarré na nomero. Maka nomero yango na lisolo ya clé, mpe pakola quarré na crayon ya langi yango. Langi mosusu oyo olingi ezali malamu mpe. Ezali na kokata te.",
+      "colors": "Motindo na motindo elobi langi. Tuna elilingi na bilembo nyonso ya langi yango, to pota yango na stylo. Motindo na motindo ezali eseko ya sika.",
+      "dice": "Motindo na motindo ezali eseko ya bilembo ya dé. Poná motindo, to kata bilembo mpe pona moko moko na mopepe ya bilembo, bongo lobela lisolo na kosalela yango na ndenge nyonso. Moto nyonso akoki kolongwa.",
+      "words": "Kata bamot, to tia nzela kuta na liloba kino na elilingi na yango. Yemba bamot na mongongo ya monene ntango okosala.",
+      "cards": "Kata bakarte na nzela ya ba-ligne ya ba-tiret. Tia yango na elongi na mesa, bongo luka bapaire.",
+      "chain": "Na mpapi, tanga bilembo na ndenge ya left na right, moko na sima ya mosusu. Moto motindo akoloba lokasa moko mpo na bilembo ya kino sikoyo, bongo akotuna elilingi ya sima. Moto nyonso akoki kolongwa.",
+      "sort": "Kata bilembo na nzela ya ba-ligne ya ba-tiret, bongo tia moko na moko na boite oyo ezali na yango.",
+      "puzzle": "Kata elilingi monene na nzela ya ba-ligne ya ba-tiret na ba-morceaux minei, bongo bolongola. Bongisa pete mibale mibale kino elilingi etondi. Elilingi ya moke ezali lolenge ya kolakisa.",
+      "cutSafety": "Moto mosusu akoki kokata liboso ya kobanda. Bwaka ba-ciseaux sima.",
+      "version": "Version {date} · {url}",
+      "reasons": {
+        "photos": "Ezali na version ya mpapi te. Masano oyo esalelaka bapikicha na yo mpenza, oyo ekotikala na navigateur na yo mpe ekobimisamaka na site te, boye site ekoki kobimisa yango te. Mpo na kosala na mpapi, bimisa bapikicha mibale ya bapikicha moko ya kolinga na ndako mpe lengisa bango na mesa.",
+        "paced": "Ezali na version ya mpapi te. Lokasa ya kotambola na ekran eyebisi ntango ya malamu mpe ya pete, mpe lipapi ya kobimisama ekoki kosala yango te, boye ekozala mosala mosusu. Kolema ntango ya kimia elongo na ekran te ezali ndenge ya kosala soki olingi.",
+        "turns": "Ezali na version ya mpapi ya masano oyo te. Mpo na kokanga bapaire na mesa, bimisa bakarte ya bilembo na Picture pairs mpe bobalana na kobaluka yango.",
+        "screen": "Ko ya bakasi ezali te ya lipapi. Ezali elilingi ya kotala esika moko na moko na ndeko na yo na skelo; foto to kaartɛ ya motuya na mesa ekosala makambo ndenge moko.",
+        "wash": "Ezali na version ya lipapi te. Mpe loole na lipapi ezali likanisi moko: libolo ya mai mpe langi moko kaka mbala moko.",
+        "sayings": "Ezali na version ya lipapi te kaka sikoyo. Na lipapi, nsuka nyonso ekolakisama mbala moko mpe etape ya boboto \"Monstra nsuka\" ekozanga. Tangá maloba yango na skelo elongo, to kabá biso malamu oyo bino bino boyebi mingi."
+      }
+    }
   }
 }

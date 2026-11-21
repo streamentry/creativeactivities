@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Paria imaginum",
-    "seoTitle": "Ludus coniungendi pro dementia: Paria imaginum",
+    "seoTitle": "Ludus congruentiae pro adultis: paria imaginum",
     "h1": "Paria imaginum: ludus coniungendi lenis",
-    "description": "Ludus coniungendi gratuitus et lenis pro hominibus qui cum dementia vivunt. Imagines magnae manent visibiles, sine horologio aut punctis, et eligis 4 usque ad 12 tessellas.",
+    "description": "Ludus congruentiae liber et placidus pro adultis et senioribus, etiam pro hominibus cum dementia viventibus. Imagines manere visae possunt. Nec horologium nec punctorum numerus.",
     "short": "Inveni duas imagines quae eaedem sunt. Imagines possunt manere visibiles.",
     "players": "1 vel 2 homines, una sedentes",
     "intro": "Tange imaginem, deinde tange eam quae ei congruit. Imagines per se visibiles manent, ita ut nihil memoria tenendum sit. Cum duae imagines inter se conveniunt, marginem aureum et signum comprobationis accipiunt.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Inveni eandem",
-    "seoTitle": "Inveni eandem imaginem: ludus simplex pro dementia",
+    "seoTitle": "Invenite eandem imaginem: simplex ludus imaginum",
     "h1": "Inveni eandem imaginem",
-    "description": "Una imago superne, duae usque ad quattuor infra. Tange eam quae eadem est. Ludus imaginum tranquillus et gratuitus pro hominibus qui cum dementia vivunt, sine horologio.",
+    "description": "Una imago in summo, duae ad quattuor infra. Tangite eam quae eadem est. Placidus ludus imaginum liber pro adultis, senioribus et familiis, sine horologio.",
     "short": "Specta imaginem superne et tange eandem infra.",
     "players": "1 vel 2 homines",
     "intro": "Una imago in summo scrinio posita est. Infra sunt duae, tres vel quattuor imagines. Tange eam quae eadem est. Una electio simplex simul fit, cum satis spatio ad colloquendum.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Umbrae coniunctio",
-    "seoTitle": "Ludus umbrarum coniungendarum pro dementia: gratuitus in rete",
+    "seoTitle": "Ludus congruentiae umbrarum: liber in rete pro adultis",
     "h1": "Umbrae coniunctio: ludus imaginum lenis",
-    "description": "Umbra obscura superne, duae usque ad quattuor imagines infra. Tange imaginem quae umbram facit. Ludus umbrarum coniungendarum gratuitus et tranquillus pro dementia, sine horologio.",
+    "description": "Umbra obscura in summo, duae ad quattuor imagines infra. Tangite imaginem quae umbram facit. Ludus umbrarum congruentium liber et placidus, sine horologio.",
     "short": "Specta umbram et tange imaginem quae eam facit.",
     "players": "1 vel 2 homines",
     "intro": "Umbras coniungere est actio nota ex schedis impressis, hic cum magnis imaginibus et sine necessitate imprimendi. Umbra lenis in summo scrinio sedet et duae, tres vel quattuor imagines infra exspectant. Tange eam quae umbram facit. Formae sicut birota, umbella vel poculum etiam facilem materiam colloquendi praebent.",
@@ -100,8 +100,8 @@
         "a": "Non. Nullum est horologium, nulla puncta, nullus numerus motuum, nulla iactura. Quovis momento desinere potes, et media in parte desinere est modus omnino bonus finiendi."
       },
       {
-        "q": "Num umbras conferre iis qui cum dementia vivunt prodest?",
-        "a": "Aliquot personis iucunda et facilis actio esse potest, praesertim primis temporibus. Formae facilius quam verba agnoscuntur. Ad oblectationem et colloquium pertinet, non ad examen, neque dementiam curat vel retardat. Si molestiam affert, conare Reperi idem vel simpliciter imagines una aspicite."
+        "q": "Possuntne homines cum dementia viventes ludo umbrarum congruentium delectari?",
+        "a": "Multi adulti eo delectantur, etiam nonnulli homines cum dementia viventes, saepe in prioribus gradibus. Formae facilius agnoscuntur quam verba. Ludus ad voluptatem et colloquium est, non ad probationem, et neque dementiam sanat neque tardat. Si frustrationem efficit, proba «Invenite eandem imaginem» vel simpliciter imagines una spectate."
       },
       {
         "q": "Quid evenit si imago falsa tangitur?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Quattuor simul",
+    "seoTitle": "Ludus congregandarum imaginum pro adultis: Quattuor simul",
+    "h1": "Quattuor simul: placidus ludus imaginum congregandarum",
+    "description": "Nonnullae imagines themate communi coniunguntur, ut fructus vel tempestates. Tangite eas quae simul pertinent. Liber et placidus ludus congregandi, sine horologio et sine punctis.",
+    "short": "Invenite imagines quae simul pertinent, ut fructus vel tempestates.",
+    "players": "1 vel 2 homines",
+    "intro": "Parva series imaginum, quarum nonnullae simul pertinent: fortasse quattuor genera fructuum, vel quattuor modi itineris. Tangite eas quae idem thema communicant. Si imago cum aliis non convenit, ludus eam simpliciter nominat et exspectat. Post tacitam pausam indicium thema nominat, et «Ostende congregationem» quovis tempore responsum monstrat.",
+    "howTo": [
+      "Eligite quattuor, sex vel octo imagines. Quattuor simplicissima sunt, cum tribus quae simul pertinent.",
+      "Imagines una spectate et loquimini de eo quod communiter habent.",
+      "Tangite singulas imagines quae ad congregationem pertinent. Margo aureus et signum verificationis apparebit.",
+      "Si imago cum aliis pertinet, ludus eam nominat et exspectat. Sumite tempus vestrum.",
+      "Tangite «Ostende congregationem» quovis tempore, deinde «Alia series» pro novis imaginibus."
+    ],
+    "tips": [
+      "Dicite quod animadvertitis clara voce: «Hae duae sunt res edendae.»",
+      "Nulla festinatio est. Post pausam indicium thema nominans apparet, quod potestis praeterire.",
+      "Loquimini de congregatione inventa: de fructu favorito, de itinere ferrario, de caelo hodierno."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel punctorum numerus?",
+        "a": "Non. Nullus horologium, nullus punctorum numerus, nullus numerus motuum, nulla amissio. Quovis momento desinere potestis, et desinere medio tempore bona ratio finiendi est."
+      },
+      {
+        "q": "Quid fit, si imago extra congregationem tangitur?",
+        "a": "Nihil molestum. Nullus sonus, nulla crux rubra, nulla tremor. Ludus imaginem nominat, dicit eam cum aliis non congruere, et exspectat tactum proximum."
+      },
+      {
+        "q": "Quae sunt congregationes?",
+        "a": "Themata cotidiana, quae nullam peritiam specialem requirunt: fructus, animalia, flores, tempestates, modi itineris, res ad potionem calidam et res in furno coctae. Quaevis imago unam tantum congregationem pertinet."
+      },
+      {
+        "q": "Estne liber, et num oportet me inscribi?",
+        "a": "Ita, liber est, et nulla ratio, nulla inscriptio nec receptio necessaria est. Currit in exploratore interretiali in telephono, tabulato vel computatro."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Unum alienum",
+    "seoTitle": "Ludus imaginum «Unum alienum» pro adultis",
+    "h1": "Unum alienum: placidus ludus imaginum",
+    "description": "Tres vel quattuor imagines, et omnes praeter unam themate communi coniunguntur, ut fructus vel tempestates. Tangite eam quae non pertinet. Liber et placidus, sine horologio et sine punctis.",
+    "short": "Invenite imaginem quae cum ceteris non pertinet.",
+    "players": "1 vel 2 homines",
+    "intro": "Tres vel quattuor imagines, et omnes praeter unam simul pertinent: fortasse fructus, vel modi itineris. Tangite imaginem quae non pertinet. Si imago cum ceteris pertinet, ludus hoc simpliciter dicit et exspectat. Post tacitam pausam indicium nominat quod ceterae communicant, et «Ostende mihi» alienum quovis tempore monstrat.",
+    "howTo": [
+      "Eligite tres vel quattuor imagines. Tres simplicissimae sunt.",
+      "Imagines una spectate et loquimini de eo quod plerumque communiter habent.",
+      "Tangite imaginem quae non pertinet. Margo aureus et signum verificationis apparebit.",
+      "Si imago cum ceteris pertinet, ludus hoc dicit et exspectat. Sumite tempus vestrum.",
+      "Tangite «Ostende mihi» quovis tempore, deinde «Alia series» pro novis imaginibus."
+    ],
+    "tips": [
+      "Clara voce disputate: «Malum et pirum sunt fructus. Quid de bus?»",
+      "Nulla festinatio est. Post pausam indicium thema nominans apparet, quod potestis praeterire.",
+      "Quaevis imago bonum initium colloquii est: fructus favoritus, vectura bus, dies pluvius."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel punctorum numerus?",
+        "a": "Non. Nullus horologium, nullus punctorum numerus, nullus numerus motuum, nulla amissio. Quovis momento desinere potestis, et desinere medio tempore bona ratio finiendi est."
+      },
+      {
+        "q": "Quid fit, si imago quae pertinet tangitur?",
+        "a": "Nihil molestum. Nullus sonus, nulla crux rubra, nulla tremor. Ludus imaginem nominat, dicit eam cum ceteris pertinere, et exspectat tactum proximum."
+      },
+      {
+        "q": "Quomodo imago aliena eligitur?",
+        "a": "Imagines e themate cotidianis veniunt, quae nullam peritiam specialem requirunt: fructus, animalia, flores, tempestates, modi itineris, res ad potionem calidam et res in furno coctae. Quaevis imago unum tantum thema pertinet, et imago aliena semper e alio themate venit."
+      },
+      {
+        "q": "Quod gratis est, an opus est ut me inscribam?",
+        "a": "Ita, gratis est, nec ratio nec inscriptio nec transmissio opus est. In navigatro retis in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Colorem congrue",
+    "seoTitle": "Colorem congrue: ludus imaginum placidus",
+    "h1": "Colorem congrue: imagines unius coloris inveni",
+    "description": "Color magnus cum nomine suo et quattuor vel sex imagines. Tange omnes imagines eius coloris. Sine horologio, sine punctis; alius color tantum nominatur. Gratis ad ludendum et imprimendum.",
+    "short": "Inveni omnes imagines eiusdem coloris atque ille qui ostenditur.",
+    "players": "1 vel 2 homines, vel adultus cum puero",
+    "intro": "Magna macula coloris ostenditur, eiusque nomen iuxta scriptum est; infra eam quattuor vel sex imagines sunt. Tange omnes imagines eius coloris: malum rubrum et calicem rubrum, exempli gratia. Si imago alterius coloris est, ludus eam tantum nominat (\"Pirum viride est.\") et exspectat. \"Ostende\" imagines congruentes quoquo tempore demonstrat, et \"Alius color\" ad sequentem procedit.",
+    "howTo": [
+      "Elige quattuor vel sex imagines. Quattuor simplicissimum est.",
+      "Color inspice et nomen eius una lege.",
+      "Tange omnes imagines eius coloris. Singulae limbum crassum et notam recognitionis accipiunt.",
+      "Si imago alterius coloris est, ludus dicit qui color sit et exspectat. Sume tempus.",
+      "Tange \"Ostende\" quotiescumque vis, deinde \"Alius color\" pro novo colore."
+    ],
+    "tips": [
+      "Color voce dic, deinde in cubiculum circumspice: quid aliud eius coloris est?",
+      "Tuis verbis utere, si vis. \"Lycopersicum\" vel \"caelum\" tam bene est quam \"rubrum\" vel \"caeruleum\".",
+      "Digito monstrare tam bene est quam tangere. Iuxta sedete ut ambo ecranum videatis."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel punctum?",
+        "a": "Non. Nullum horologium, punctum, numerus motuum aut victoria vel damnum est. Quocumque momento desinere potes, et ad medium desinere recte finis est."
+      },
+      {
+        "q": "Quid fit si imago alterius coloris tangitur?",
+        "a": "Nihil molestum. Nullus sonus, nulla crux rubra, nullus tremor. Ludus imaginem et eius colorem nominat, ut \"Pirum viride est.\", et ad sequentem tactum exspectat."
+      },
+      {
+        "q": "Estne color solum indicium?",
+        "a": "Non. Color ut macula magna ostenditur et verbo quoque scribitur, omnisque imago cum tangitur nominatur. Qui colorem difficile videt, nomen legendo tamen ludere potest."
+      },
+      {
+        "q": "Estne omnis imago vere eius coloris?",
+        "a": "Imagines manu eliguntur, et tantum eae ubi res principalis aperte unius coloris est. Imagines pluribus coloribus, ut draco vel apis, omittuntur."
+      },
+      {
+        "q": "Estne versio chartacea?",
+        "a": "Ita. Folium unius paginae quattuor ordines habet. Quisque ordo colorem nominat et quattuor imagines ostendit ad indicandum vel circumscribendum."
+      },
+      {
+        "q": "Quod gratis est, an opus est ut me inscribam?",
+        "a": "Ita, gratis est, nec ratio nec inscriptio nec transmissio opus est. In navigatro retis in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Dimidia congruentia",
+    "seoTitle": "Dimidia congruentia: ludus imaginum placidus",
+    "h1": "Dimidia congruentia: duas dimidias partes imaginis coniunge",
+    "description": "Dimidiae sinistrae duarum vel trium imaginum ab uno latere, dimidiae dextrae ab altero. Tange dimidiam, deinde eam quae ei congruit. Sine horologio, sine punctis; dimidiae non congruentes tantum separantur. Gratis ad ludendum et imprimendum.",
+    "short": "Tange duas dimidias partes quae coniunctae unam imaginem faciunt.",
+    "players": "1 vel 2 homines, vel adultus cum puero",
+    "intro": "Quaevis imago per medium secatur. Dimidiae sinistrae duarum vel trium imaginum in una columna sunt, dimidiae dextrae in alio ordine in altera. Tange dimidiam sinistram, deinde dimidiam dextram eam quae congruit tange, ut rostrum lebetis et ansam eius. Dimidiae congruentes in imaginem integram iunguntur. Dimidiae non congruentes rursus separantur, et ludus id leniter dicit. \"Ostende mihi\" omnes coniungit.",
+    "howTo": [
+      "Elige duas vel tres imagines. Duae simplicissimum est.",
+      "Dimidias sinistras una inspicite. Quam partem cuiusque putatis esse?",
+      "Dimidiam sinistram tange, deinde dimidiam dextram quae congruit. Etiam contra modo fungitur.",
+      "Dimidiae congruentes coniunguntur, limbo crasso et nota recognitionis. Dimidiae non congruentes rursus separantur, et alteram temptare potes.",
+      "Tange \"Ostende mihi\" quotiescumque vis, deinde \"Alia series\" pro novis imaginibus."
+    ],
+    "tips": [
+      "Margines dimidiae digito persequere. Ubi pictura ad medium pertingit?",
+      "Dic quod vides: \"Illa ansam habet.\" Non necesse est omnes imagines nominare.",
+      "Digito monstrare tam bene est quam tangere. Iuxta sedete ut ambo ecranum videatis."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel punctum?",
+        "a": "Non. Nullum horologium, punctum, numerus motuum aut victoria vel damnum est. Quocumque momento desinere potes, et ad medium desinere recte finis est."
+      },
+      {
+        "q": "Quid fit si duae dimidiae non congruunt?",
+        "a": "Nihil molestum. Nullus sonus, nulla crux rubra, nullus tremor. Duae dimidiae rursus separantur, et ludus dicit: \"Illae duae non congruunt. Alteram proba.\" Nihil numeratur."
+      },
+      {
+        "q": "Estne facile imagines discernere?",
+        "a": "Ita. Imagines manu eliguntur, et duae imagines in una tabula numquam ex eodem genere sunt, ut duo poma vel duo animalia. Imagines quarum dimidiae similes sunt, ut sol vel iris, omittuntur."
+      },
+      {
+        "q": "Estne versio chartacea?",
+        "a": "Ita. Chartula una pagina tres imagines in dimidiis sinistris in una columna habet, et earum dimidia dextra alio ordine in altera. Lineam ab unoquoque dimidio sinistro ad id dimidium ducite quod ei convenit."
+      },
+      {
+        "q": "Estne gratuitum, et num nomen dare debeo?",
+        "a": "Ita, gratuitum est, nec ratio, nomen dandum aut aliquid deponendum est. In retiaculo in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Colora per numerum",
+    "seoTitle": "Colora per numerum: lusus tranquillus in litteris magnis colorandi",
+    "h1": "Colora per numerum: quadrata imple, quolibet colore velis",
+    "description": "Crates quadratorum magnorum numeratorum et clavis quattuor colorum cum nominibus suis. Color elige, deinde quadrata tange ut impleas. Quilibet color bonus est, nec horologium nec punctorum ratio adest, et button reliqua per numeros implet. Gratis ad ludendum et imprimendum.",
+    "short": "Color elige, deinde quadrata numerata tange ut ea imples.",
+    "players": "1 vel 2 homines, sibi proximi",
+    "intro": "Crates quadratorum magnorum, quorum singula numerum habent, et supra eam clavis cum quattuor coloribus, singulis cum numero et nomine scripto. Color e clave elige, deinde quadrata tange ut impleas. Crates initio 4 per 4 est, cum 6 per 6 et 8 per 8 si plura quadrata vis. Cum omne quadratum colorem numeri sui habet, crates est imago in charta. Quadrata alio colore impleta tua sola imago sunt, et lusus de ea nihil dicit. \"Imple per numeros\" omnia quadrata vacua pro te implet.",
+    "howTo": [
+      "Magnitudinem cratis elige. 4 per 4 maxima quadrata habet et simplicissima est.",
+      "Clavem supra cratem inspice. Singuli colores numerum et nomen habent, ut 1 Flavus.",
+      "Colorem in clave tange, deinde quadrata tange quae eo implere velis.",
+      "Colorem numeri utere, vel quolibet colore quem vis. Utrumque bonum est.",
+      "Tange \"Imple per numeros\" pro quadratis vacuis, \"Dele\" ut crates iterum incipias, vel \"Alia imago\" pro alia."
+    ],
+    "tips": [
+      "Sibi proximi sedete et vices alternate: unus colorem eligit, alter quadratum tangit.",
+      "De coloribus loquimini: \"Viride mihi placet.\" Non necesse est dicere quid imago futura sit.",
+      "In angusto schemate crates 8 per 8 intra suam capsulam in latus volvitur. Quadrata commodae magnitudinis manent.",
+      "Versio in charta cum pencillis ad mensam lecti pariter bene operatur."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel punctorum ratio?",
+        "a": "Non. Nec horologium, nec punctorum ratio, nec numerus motuum, nec victoria aut defectus est. Quovis momento desinere potes, et mediam partem relinquere modus recte finiendi est."
+      },
+      {
+        "q": "Quid si alium colorem quam numerum usurpo?",
+        "a": "Nihil fit, et hoc est propositum. Quilibet color in quodlibet quadratum poni potest, et lusus de eo nihil dicit. Cum omne quadratum colorem numeri sui habet, lusus leniter id significat, et imago tuis coloribus facta aeque bona est."
+      },
+      {
+        "q": "Possuntne quattuor colores ab hominibus cum daltonismo distingui?",
+        "a": "Ita electi sunt. Singuli colores etiam numerum, nomen scriptum et formam parvam propriam habent, ut color numquam unica ratio distinguendi sit. Quattuor impletiones simulationibus daltonismi ruboris-viridis et caerulei-flavi probatae sunt, et claritate quoque differunt. Homo cum daltonismo eos nondum temptavit, itaque, si duo similia videntur, nobis dicite, quaeso."
+      },
+      {
+        "q": "Suntne quadrata satis magna pro tremore vel parvo schemate?",
+        "a": "Singula quadrata ad minimum 48 pixelorum lata sunt, in cratibus 4 per 4 autem 56. Si crates schemati nimis lata est, in latus intra suam capsulam volvitur potius quam quadrata minuat."
+      },
+      {
+        "q": "Estne versio in charta?",
+        "a": "Ita. Charta una pagina crates numeratam et clavem quattuor colorum cum nominibus habet. Singula quadrata pencillo coloris numeri sui colorate, vel quolibet colore quem vis."
+      },
+      {
+        "q": "Estne gratuitum, et num nomen dare debeo?",
+        "a": "Ita, gratuitum est, nec ratio, nomen dandum aut aliquid deponendum est. In retiaculo in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Exemplar creator",
+    "seoTitle": "Exemplar creator: tesseram fac et exemplar imprime",
+    "h1": "Exemplar creator: tesseram fac, et vide eam iterari",
+    "description": "Quadrata unius parvae tesserae muta et vide eam in exemplar iuxta se iterari, quattuor coloribus quorum singuli nomen et formam habent. Nec horologium nec punctorum ratio adest. Gratis ad ludendum et imprimendum.",
+    "short": "Quadrata parvae tesserae muta et vide eam in exemplar iterari.",
+    "players": "1 vel 2 homines, sibi proximi",
+    "intro": "Tessera parva 3 per 3 quadrata, vel 4 per 4 si vis, et iuxta eam \"exemplar tuum\": eadem tessera in massa iterata. Quadratum preme et in proximum e quattuor coloribus mutatur, quorum singuli nomen scriptum et formam suam habent. Exemplar iuxta statim mutatur. Nullum exemplar rectum est, nihil servatur nec mittitur. \"Exemplar meum imprime\" exemplar iteratum in una pagina ponit, ut servetis, colorelis aut donetis.",
+    "howTo": [
+      "Tesseram et exemplar tuum iuxta eam inspice. Eadem tessera est, iterata.",
+      "Quadratum tange. In proximum colorem seriei quattuor colorum supra mutatur.",
+      "Quadrata tangere perge, donec exemplar tibi ita videatur ut velis. Quodvis exemplar bonum est.",
+      "Tange \"Miraculum mihi\" pro nova tessera, vel \"Ab initio incipe\" pro vacua. \"Restitue\" tesseram quam habebas reducit.",
+      "Tange \"Exemplar meum imprime\" si in charta id vis, vel tange Requiesce ut desinas."
+    ],
+    "tips": [
+      "Considite iuxta et per vices agite: alter quadratum tangit, alter dicit quod videt.",
+      "Loquimini de eo quod videtis: «Hoc flori simile videtur.» Nihil necesse est nominare.",
+      "Eandem tesseram primum duobus tantum coloribus, deinde omnibus quattuor, experimini.",
+      "In charta, exemplar pencillis colorari potest, in fasciolas pro charta secari, vel ad parvum munus involvendum adhiberi."
+    ],
+    "faq": [
+      {
+        "q": "Adestne horologium vel punctorum numerus?",
+        "a": "Non. Nullus horologius, nullus punctorum numerus, nullus numerus motuum, nulla est defectio. Quovis momento desistere potestis, et in medio desistere rectus modus est ad finem perducendi."
+      },
+      {
+        "q": "Servanturne aut mittuntur ea quae facio?",
+        "a": "Non. Tessera vestra in hac pagina sola manet. Nec servatur nec in rete mittitur nec numeratur, et cum paginam claudetis, evanescit. Si exemplar servare vultis, imprimite."
+      },
+      {
+        "q": "Quid si errore quadratum malum tangam aut tesseram casu delebo?",
+        "a": "Quadratum malum non est: iterum tangite ut ad proximum colorem transeatis. Post «Incipe iterum» vel «Stupefac me», «Restitue» tesseram quam habebatis reddit."
+      },
+      {
+        "q": "Possuntne quattuor colores ab hominibus qui colores difficulter distinguunt discerni?",
+        "a": "Ita electi sunt. Quisque color etiam nomen scriptum et suam figuram parvam in quoque quadrato habet, ut color numquam solus ad eos distinguendos sit. Quattuor colores simulationibus rubri-viridis et caeruleo-flavi daltonismi probati sunt. Homo daltonismo affectus eos nondum temptavit; quare, si duo similes videntur, nobis indicate."
+      },
+      {
+        "q": "Suntne quadrata satis magna pro tremore vel parvo monitori?",
+        "a": "Quodque quadratum ad minimum 56 pixelis latum est. Si tessera monitori nimis lata est, intra suam capsulam in latus volvitur potius quam quadrata minuuntur."
+      },
+      {
+        "q": "Adestne versio chartacea?",
+        "a": "Ita. «Exemplar meum imprime» exemplar quod fecistis in una pagina imprimit, cum quattuor coloribus et nominibus eorum, in nigro et albo bene, quia quisque color suam figuram habet."
+      },
+      {
+        "q": "Estne gratuitum, et num rationem instituere opus est?",
+        "a": "Ita, gratuitum est, nec ratio nec inscriptio nec retractio necessaria est. In navigatro retis in telephono, tabella vel computatro operatur."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Pictura duorum",
+    "seoTitle": "Pictura duorum: duo homines, una imago",
+    "h1": "Pictura duorum: duo homines, una charta",
+    "description": "Duo homines alternis lineas in una tela communi trahunt, quisque suo colore. Nemo punctat aut vincit, et imago servari aut imprimi potest. Gratis ludi, sine ratione.",
+    "short": "Alternis unam imaginem communem cum eo qui iuxta est pingite.",
+    "players": "2 homines, latus ad latus",
+    "intro": "Una tela, duo homines. Quisque vestrum colorem eligit, et quisque color nomen suum scriptum habet. Alternis agitis: unam lineam vel figuram ducitis, deinde calamum tradite. Quisque vestrum quovis tempore turnum transmittere potest. Nulla est recta imago nec punctatio. Imaginem in instrumento vestro servate, si placet, aut versionem chartaceam imprimite: una charta, duo calami.",
+    "howTo": [
+      "Quisque vestrum colorem eligit. Titulus indicat cuius sit turnus, nomine coloris eius.",
+      "Lineam vel figuram digito, mure aut calamo ducite, vel clavibus sagittarum et clavi Spatii sine indicatore.",
+      "Cum parati estis, «Calamum trade» tangite. Quisque vestrum quovis tempore turnum transmittere potest.",
+      "Tangite «Ultimam lineam meam tolle» ut lineam recentissimam eius qui turnum habet auferatis.",
+      "Tangite «Imaginem serva» ut imaginem in hoc instrumento faciatis, vel «Versionem chartaceam imprime» pro una charta et duobus calamis."
+    ],
+    "tips": [
+      "Iuxta sedete et dum ducitis loquimini: «Solem in angulo addam.»",
+      "Incipite a puncto, linea vel figura simplici, et sinite alterum respondere.",
+      "Nemo cogitur rem aliquam pingere. Series linearum non minus bona est quam scaena.",
+      "Si desistere vultis, tangite «Hactenus satis». Imago post discessum e pagina non servatur, nisi eam servaveritis."
+    ],
+    "faq": [
+      {
+        "q": "Adestne victor aut punctorum numerus?",
+        "a": "Non. Nullus victor, nullus punctorum numerus, nullum horologium nec numerus turnorum est. Nulla est recta imago, nihil ordinatur aut comparatur."
+      },
+      {
+        "q": "Servaturne aut mittitur imago?",
+        "a": "Non, nihil quoquam mittitur. Imago in hac pagina manet donec eam claudatis. Si «Imaginem serva» tangitis, fasciculus in instrumento vestro fit, quem reponere potestis. Nihil in rete mittitur."
+      },
+      {
+        "q": "Possumne lineam revocare?",
+        "a": "Ita. «Ultimam lineam meam tolle» lineam recentissimam eius qui turnum habet tollit. «Incipe iterum» chartam purgat, et «Restitue» lineas reddit, sed uno gradu tantum."
+      },
+      {
+        "q": "Possumne hoc sine mure aut tactu-schermo uti?",
+        "a": "Ita. Cum tabula pictoria focum habet, claves sagittarum punctum calami movent, et clavis Spatii calamum deorsum aut sursum ponit. Schema quoque dicit «Calamus premitur» vel «Calamus tollitur» quoties id fit."
+      },
+      {
+        "q": "Qui sunt colores, et possuntne homines qui colores difficulter distinguunt eos discernere?",
+        "a": "Flavus, aurantiacus, viridis et purpureus, iidem quattuor colores qui in aliis nostris ludis picturae sunt. Quisque nomen scriptum habet, et nomina iuxta turnum apparent. Colores simulationibus communium differentiarum visus colorum probati sunt, sed homo cum talibus differentiis nondum eos temptavit."
+      },
+      {
+        "q": "Adestne versio chartacea?",
+        "a": "Ita. «Versionem chartaceam imprime» unam chartam imprimit cum regulis et magno vacuo quadro ad pingendum, pro duobus hominibus cum duobus calamis. In nigro et albo bene operatur."
+      },
+      {
+        "q": "Estne gratuitum, et num rationem instituere opus est?",
+        "a": "Ita, gratis est, nec ratio, nec subscriptio, nec transmissio opus est. In navigatro retis in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Simul aedificate",
+    "seoTitle": "Simul aedificate: duo homines unum exemplar aedificant",
+    "h1": "Simul aedificate: duo homines, una crates",
+    "description": "Duo homines per vices frustum in communem cratem ponunt, donec plena sit, singuli colore suo, quod nomen et formam habet. Nemo vincit, nec tempus aut punctum est. Ludus et impressio gratuita sunt.",
+    "short": "Per vices cum aliquo iuxta te sede, ut unam communem cratem compleas.",
+    "players": "2 homines, iuxta sedentes",
+    "intro": "Communis crates 4 per 4 loca, vel 3 per 3, si mavis. Singuli colorem eligitis, et quisque color suum nomen scriptum et suam formam habet. Per vices agitis: in vestra vice locum vacuum tangite, ut frustum ibi ponatis. Cum omnia loca frusta habent, imago una simul aedificata est. Nemo vincit, quia paria simul facitis, et nihil servatur aut mittitur. \"Crates imprime\" cratem vacuam in una pagina praebet, ut duobus stilis aedificetis.",
+    "howTo": [
+      "Singuli colorem eligite. Colorem, quem alter habet, \"In usu\" notatum est.",
+      "Primus incipit. Schema dicit, cuius sit vicis et quis color ad eum pertineat.",
+      "Locum vacuum tangite, ut frustum ibi ponatis. Vicis ad alterum transit.",
+      "Si frustum ponere nolueritis, \"Praetermitte\" tangite. Uterque quovis tempore praetermittere potest.",
+      "Cum omnia loca frusta habent, imaginem simul aedificastis. \"Iterum incipe\" tangite, ut aliam aedificetis, aut Quiesce tangite, ut desinatis."
+    ],
+    "tips": [
+      "Iuxta sedete, ut ambo et videatis et ad schema attingatis. Dum agitis, loquimini: \"Meum iuxta tuum ponam.\"",
+      "Exemplar aedificare potestis, strigas, tabulam scaccorum vel marginem, aut frusta quolibet ponere. Utrumque bene est.",
+      "Puer aut qui facile fatigatur, quotiens velit, praetermittere potest. Imago tamen simul aedificatur.",
+      "In charta, singuli unum stilum habent et suam formam in quadratis vacuis pingunt."
+    ],
+    "faq": [
+      {
+        "q": "Estne victor, tempus aut punctum?",
+        "a": "Non. Nemo vincit, quia unam imaginem simul aedificatis. Nullum horologium, punctum, numerus frustorum aut damnum est. Quovis momento desinere potestis, et medio in opere desinere bona ratio est."
+      },
+      {
+        "q": "Servatur aut mittitur quod facimus?",
+        "a": "Non. Crates in hac pagina sola manet. Non servatur, non in retem inponitur nec numeratur, et cum paginam claudis, evanescit. Si eam servare vis, crates imprime et in charta aedifica."
+      },
+      {
+        "q": "Quid si frustum in locum falsum ponam?",
+        "a": "Locus falsus non est. Tange \"Ultimum frustum retrahe\", et vicis ad te redit. Gradatim retrahere potes, et praetermissio quoque retrahi potest."
+      },
+      {
+        "q": "Possuntne homines colorum caecitate laborantes quattuor colores discernere?",
+        "a": "Ita electi sunt. Singuli colores etiam nomen scriptum et suam parvam formam in quolibet frusto habent, ut color numquam solus ad discernendum sit. Quattuor colores simulationibus caecitatis rubri-viridis et caerulei-flavi probati sunt. Homo colorum caecitate laborans nondum eos temptavit, itaque, si duo similes videntur, nobis dicite."
+      },
+      {
+        "q": "Suntne loca satis magna pro tremore aut parvo schemate?",
+        "a": "Singula loca ad minimum 56 pixela lata sunt. Si crates schemati nimis lata est, intra suam capsulam in latus volvitur, non loca minuit."
+      },
+      {
+        "q": "Estne versio in charta?",
+        "a": "Ita. \"Crates imprime\" cratem vacuam in una pagina cum duobus coloribus et eorum nominibus imprimit, ut duobus stilis aedificetis. In nigro et albo quoque funguntur, quia singuli colores suam formam habent."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me inscribam?",
+        "a": "Ita, gratuitum est, nec ratio, nec inscriptio, nec transmissio opus est. In navigatro retis in telephono, tabulato vel computatro operatur."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Iactus sedentis cum numeratione",
+    "seoTitle": "Iactus sedentis cum numeratione: ludus cum sacculo fabaceo pro duobus",
+    "h1": "Iactus sedentis cum numeratione: iacite simul ad mensam",
+    "description": "Duo homines ad mensam per vices molle saccum fabaceum in magnum scopum iaciunt, et numerum in charta notant. Nihil tempore aut punctis metitur. Impressio gratuita est.",
+    "short": "Per vices saccum fabaceum in magnum scopum iacite, numerum in charta notantes.",
+    "players": "2 homines, ad mensam sedentes",
+    "intro": "Placidus ludus iactus pro duobus hominibus ad mensam sedentibus. Scopum impressum in mensa ponitis et per vices molle saccum fabaceum, aut tomentum involutum, iacitis, ut in annulos cadat. Singuli numerum in charta notatis, quadrata signantes, et cum desinitis, signa simul spectatis. Nihil tempore metitur, nihil in schermo additur, nec quicquam servatur aut mittitur. Primum notas de securitate legite: partes parvae periculum suffocationis sunt.",
+    "howTo": [
+      "Notas de securitate legite. Saccum cum tegmine consutum eligite, aut mundam tomentum involvite.",
+      "\"Scopum et chartam numerationis imprime\" tangite et chartam in mensa inter vos plane ponite.",
+      "Sedete commode, unus ad utrumque latus, et per vices singuli leniter iacite. Quisque praetermittere potest.",
+      "Cum iactus in annulum cadit, quadratum in columna vestra, in ordine illius annuli, signate.",
+      "Cum desinitis, signa simul spectate, aut Quiesce tangite, ut paulisper cessetis."
+    ],
+    "tips": [
+      "Sede satis prope ut iactus leni manu subter facilis ad scopum sine ullo extensu perveniat.",
+      "Loquere de iactu, non de eventu: \"Hic iactus mollis erat.\" Omnes singulis iactibus plaudunt.",
+      "Sarcina chartacea arrepta vel tibialis convoluta facile tenetur etiam infirma manu. Inter vices bracchium in mensa reclina.",
+      "Si quis spectare malit, ille notas in capsulis signare potest."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel numerus punctorum?",
+        "a": "Non. Nullum horologium, nullus numerus punctorum, nullus numerus motuum aut victoria vel defectio est. Quovis momento desistere potes, et medio in opere desinere recte finire est."
+      },
+      {
+        "q": "Estne tuta iactatio sarcinae pilae fabae?",
+        "a": "It can be, with care. Use a bag with a sewn-shut cover or a rolled-up sock, never loose beans, rice or small fillings, which are a choking hazard for young children and for anyone who puts things in their mouth. Stay seated, toss gently toward the table and never toward a face, and keep an adult close by."
+      },
+      {
+        "q": "Estne aliquid in schermo numeratum aut servatum?",
+        "a": "Non. Numerus tantum in charta est, in capsulis quas ipsi signatis. Pagina nullum numerum neque horologium servat, nihilque servatur aut mittitur."
+      },
+      {
+        "q": "Quid si quis iacere non potest, aut sarcina extra chartam cadit?",
+        "a": "Quisque praeterire potest, et sarcina extra chartam cadens simpliciter ad proximam vicem sumitur. Nihil pro ea numeratur."
+      },
+      {
+        "q": "Quid in charta impressa est?",
+        "a": "Una pagina: scopus magnus cum tribus anulis Prope, Medius et Longe nominatis, mensa cum columna pro quoque et ordine parvarum capsularum ad signandum pro quoque anulo, et linea consiliorum de securitate. Nomina in anulis scripta sunt, ut in nigro et albo quoque procedat."
+      },
+      {
+        "q": "Estne gratuitum, et num inscribi oportet?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. In navigatore retiali in telephono, tabulato aut computatro functionat."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Sarcina ludorum tempestivorum",
+    "seoTitle": "Sarcina Ludorum Tempestivorum: Ludi Chartacei Impressibiles",
+    "h1": "Sarcina Ludorum Tempestivorum: Tres Ludi Chartacei Singulis Temporibus",
+    "description": "Tres parvi ludi impressibiles pro vere, aestate, autumno aut hieme: pares coniunge, diversum circumda et imaginem colora. Tempus elige, aut diem quietis. Gratuitum ad imprimendum.",
+    "short": "Tres ludi impressibiles pro tempore quod eligis, aut dies quietis.",
+    "players": "Omnes aetates, solus aut una",
+    "intro": "Tempus elige, et pagina tres parvos ludos chartaceos ostendit ex imaginibus illius temporis ductos: duos ordines lineis coniungendos, ordinem quattuor ad diversum circumdandum et imaginem colorandam. Unam paginam imprimis, deinde unum, duos aut omnes tres, tuo ritu facis. Elige autem \"Hodie dies quietis est\", et nihil est faciendum.",
+    "howTo": [
+      "Tempus elige, aut \"Hodie dies quietis est\" elige.",
+      "Tres ludos inspice, deinde \"Imprime sarcinam huius temporis\" preme.",
+      "Unum, duos aut omnes tres, tuo ritu fac.",
+      "Imagines pares linea coniunge, diversam circumda et imaginem magnam colora.",
+      "Quando vis desine. Dies quietis quoque bonus dies est."
+    ],
+    "tips": [
+      "Incipe ab ludo qui hodie facillimus videtur. Unus satis est.",
+      "Nomina cuiusque imaginis, si iuvat, alta voce dic.",
+      "Utere cretis aut graphiis. Quilibet colores boni sunt.",
+      "Paginam in posterum serva, aut dimitte."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium vel numerus punctorum?",
+        "a": "Non. Nullum horologium, nullus numerus punctorum, nullus numerus motuum aut victoria vel defectio est. Quovis momento desistere potes, et medio in opere desinere recte finire est."
+      },
+      {
+        "q": "Scitne pagina quod tempus sit?",
+        "a": "Non. Tu tempus eligis. Pagina diem aut locum tuum non inspicit."
+      },
+      {
+        "q": "Estne numerus punctorum aut responsum rectum?",
+        "a": "Non. Nihil in schermo tempore metitur, numeratur aut probatur, nec responsa ostenduntur. Quisque ludus est tantum imago ad inspiciendum, coniungendum, circumdandum aut colorandum."
+      },
+      {
+        "q": "Quid si hodie nemo ludos vult?",
+        "a": "Elige \"Hodie dies quietis est\". Pagina tum unam lineam tranquillam ostendit, et nihil est imprimendum aut faciendum."
+      },
+      {
+        "q": "Quid in charta impressa est?",
+        "a": "Una pagina pro tempore quod elegisti: tres ludi eius, quisque cum brevi linea de modo faciendi, et linea dicens te unum, duos aut omnes tres facere posse."
+      },
+      {
+        "q": "Estne gratuitum, et num inscribi oportet?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. In navigatore retiali in telephono, tabulato aut computatro functionat."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Chartam simul orna",
+    "seoTitle": "Chartam Simul Orna: Charta Gratulatoria Impressibilis",
+    "h1": "Chartam Simul Orna: Fac Unam Alicui",
+    "description": "Duo homines chartam gratulatoriam impressam pro natalicio, gratiarum actione aut sine causa ornant, deinde in tergo nuntium simul scribunt. Tantum cretae aut calami. Nullum horologium aut numerus punctorum. Gratuitum ad imprimendum.",
+    "short": "Chartam gratulatoriam impressam simul orna.",
+    "players": "2 homines, latus ad latus",
+    "intro": "Ludus quietus faciendi pro duobus hominibus latus ad latus sedentibus. Unam paginam imprimis, quae in duas partes plicata chartam fit. Occasionem elige, ut natalicium aut gratiarum actionem, et anteriorem partem circa verba eius orna. Deinde in tergo nuntium scribe, simul aut uno scribente quod alter dicit. Utere cretis, graphiis coloratis aut calamis viridibus. Nulla charta recta est, nihilque horologio metitur, numeratur aut mittitur.",
+    "howTo": [
+      "Elige una occasione, deinde preme \"Imprime chartam\".",
+      "Folium in duas partes plica per lineam punctatam, ut anterior pars extrinsecus sit.",
+      "Una persona anteriorem partem ornat, altera posteriorem, aut per vices in uno latere laboratis.",
+      "Nuntium simul scribite. Una persona scribere potest, altera verba dicit.",
+      "Quando vis, desine. Charta simplex non minus bona est quam charta copiosa."
+    ],
+    "tips": [
+      "Incipe a verbis in fronte, deinde folia, stellas aut puncta circa ea adde, singula per vicem.",
+      "Si qui pingere malit, colores eligere aut nuntium scribere potest.",
+      "Dic quid in notis alterius placeat, potius quam utrum bene sint.",
+      "Charta eo loco servetur ubi dari possit, aut interim in mensa relinquatur."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium aut punctorum numerus?",
+        "a": "Non. Nullum horologium, nulla puncta, nullus motuum numerus, nulla amissio est. Quando vis, desinere potes, et dimidio opere desinere optima ratio finiendi est."
+      },
+      {
+        "q": "Num glutine, forfice aut titulis opus est?",
+        "a": "Non. Cretae, pencilla colorata aut calami feltri sufficiunt. Nihil secandum, glutinandum aut affigendum est."
+      },
+      {
+        "q": "Potestne charta fieri pro occasione quae in indice non est?",
+        "a": "Elige \"Sine causa\" et verba tua in fronte scribe, aut chartam sine ulla occasione simpliciter orna."
+      },
+      {
+        "q": "Numerantur, iudicantur aut in schermo servantur aliqua?",
+        "a": "Non. Pagina tantum chartam et gradus ostendit. Nihil ordinatur, computatur aut servatur, nec est charta recta."
+      },
+      {
+        "q": "Quid in folio impresso est?",
+        "a": "Una pagina: charta in duas partes plicata, cum verbis occasionis et simplici margine in fronte, et lineis nuntio et linea \"A\" in posteriore parte. Regulae duorum hominum in imo impressae sunt."
+      },
+      {
+        "q": "Estne gratuitum, et num ratio creanda est?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. In navigatore retiali in telephono, tabella aut computatro operatur."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Simul invenite",
+    "seoTitle": "Simul Invenite: Duo Paria Inveniunt",
+    "h1": "Simul Invenite: Duo Homines, Unus Chorus",
+    "description": "Duo homines unum schermum communicant et per vices duas chartas pictas revertunt, ut par quaerant. Paria simul inveniuntur et in una communi tabella numerantur. Gratuitum ad ludendum, sine horologio aut punctis.",
+    "short": "Per vices cum proximo sede ad paria picturarum inveniendum.",
+    "players": "2 homines, latus ad latus",
+    "intro": "Chartae ab picturis suis ostensis incipiunt, aut facie deorsum poni possunt. Tuo in turno duas chartas revertis. Si par sunt, simul invenistis et turnus transit. Si diversae sunt, faciem sursum manent donec \"Revertite eas\" premis, ut ambo spectare possitis. Quovis tempore transire licet. Tabella in summo solum crescit: paria quae simul invenistis.",
+    "howTo": [
+      "Elige quot chartas uti. Sex chartae, tria paria, locus placidus ad incipiendum est.",
+      "Schermus dicit cuius sit turnus, cum circulo pro primo homine et quadrato pro altero.",
+      "Duas chartas unam post alteram revertite. Si congruunt, par simul inventum est.",
+      "Si diversae sunt, \"Revertite eas\" premite, cum ambo parati estis. Turnus tunc transit.",
+      "Alter vestrum quovis tempore \"Transi\" premere potest. Tange \"Incipe iterum\" pro novis chartis, aut tange Quiesce ut desinas."
+    ],
+    "tips": [
+      "Simul sedete latus ad latus et picturas simul alta voce nominate: \"Calix theae. Lacte in tuo thea uteris?\"",
+      "Sine eum quem curas tangere, etiamsi diu sumit. Potius monstra quam pro eo tange.",
+      "Elige \"Chartae facie deorsum\" si ambo libenter chartas revertitis ad picturas inveniendas.",
+      "Qui facile fatigatur, quotiens vult transire potest. Paria tamen simul invenientur."
+    ],
+    "faq": [
+      {
+        "q": "Estne victor, horologium aut punctum?",
+        "a": "Non. Nullus victor est, quia paria ut chorus invenitis. Nullum horologium, nullum punctum, nulla numeratio errorum. Tabella solum paria quae simul invenistis numerat, et quovis tempore desinere potestis."
+      },
+      {
+        "q": "Num meminisse debemus ubi picturae sint?",
+        "a": "Non. Ludus cum omnibus picturis in conspectu incipit. Chartis facie deorsum positis, sibi dicere potestis quid vidistis, aut simpliciter eas iterum revertere."
+      },
+      {
+        "q": "Quid fit cum duae chartae diversae sunt?",
+        "a": "Faciem sursum manent, ut ambo spectare possitis, quamdiu opus est. Nihil eas per se revertit. Cum parati estis, \"Revertite eas\" premite, et turnus ad alterum transit."
+      },
+      {
+        "q": "Servanturne aut mittuntur quae ludimus?",
+        "a": "Non. Chartae in hac pagina tantum manent. Nihil servatur, oneratur aut numeratur, et paginā clausa abit."
+      },
+      {
+        "q": "Suntne chartae satis magnae pro tremore aut parvo schermo?",
+        "a": "Quaelibet charta saltem 64 pixelia lata est et tantum quantum schermus permittit. Qui clavibus aut lectore schermi utuntur, quamque chartam loco et pictura audiunt."
+      },
+      {
+        "q": "Estne gratuitum, et num ratio creanda est?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. In navigatore retiali in telephono, tabella aut computatro operatur."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Tesserae fabulae",
+    "seoTitle": "Tesserae Fabulae: Ludus Narrandi cum Picturis",
+    "h1": "Tesserae Fabulae: Narra Fabulam cum Picturis",
+    "description": "Tres aut quattuor tesserae pictae, quibus fabulam quovis ordine narres. Nulla lectio, nulla recta responsio, nullum horologium, nullum punctum. Iterum iace, aut transi. Gratuitum ad ludendum et imprimendum.",
+    "short": "Tesseras pictas iace et fabulam simul narra, quovis ordine.",
+    "players": "2 aut plures homines, aut adultus cum puero",
+    "intro": "Tres aut quattuor imagines ostenduntur, quasi tesserae. Simul narrationem componite quae eas in quolibet ordine adhibeat. Narratio unam sententiam aut plures habere potest, et ioca aut vera ad vitam esse potest. Nulla est recta narratio, neque quisquam debet quicquam nominare aut meminisse. Tange \"Iterum iace\" ad novas imagines, et quilibet omittere potest.",
+    "howTo": [
+      "Elige tres aut quattuor tesseras. Tres simplicissimae sunt.",
+      "Imagines simul inspicite. Tange unam, si ab ea incipere velis.",
+      "Per vices narrationem narrate quae imagines in quolibet ordine adhibeat. Una sententia cuique satis est.",
+      "Quilibet omittere potest. Tange \"Omitte\", et proximus incipere potest.",
+      "Tange \"Iterum iace\" ad novas imagines quandocumque vis, aut tange \"Quiesce\" ut desinas."
+    ],
+    "tips": [
+      "Roga quaestionem potius quam responsum exspectes: \"Quo umbella ire fortasse vult?\"",
+      "Adde ad id quod ultimus dixit, potius quam correctionem facias. Quaelibet narratio recta est.",
+      "Narratio de vera memoria esse potest. Imago ad eam bonum initium est."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium aut punctorum numerus?",
+        "a": "Non. Nullum horologium, nullus punctorum numerus, nullus numerus motuum, nulla amissio est. Ad quodvis tempus desinere potes, et dimidio itinere desinere est recta ratio finiendi."
+      },
+      {
+        "q": "Num imagines legere aut nominare debeo?",
+        "a": "Non. Ludus imaginibus solis procedit. Ludentes digito monstrare, describere, aut simpliciter dicere possunt quid imago in mentem revocet. Nemo rogatur ut quicquam nominet aut meminerit."
+      },
+      {
+        "q": "Quid si quis vices non capere velit?",
+        "a": "Sine ulla causa quolibet tempore omittere potest. Ludus solum manet, et proximus incipere potest, aut iterum iacere potes."
+      },
+      {
+        "q": "Estne versio charta?",
+        "a": "Est. Folium unius paginae sedecim diversas imagines in quattuor ordinibus habet. Ordinem elige, aut imagines praecide et ex acervo quasdam trahe."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me adscribam?",
+        "a": "Est, gratuitum est, nec ratio, adscriptio aut ullum prolatum necessarium est. In navigatro retis in telephono, tablet aut computatro operatur."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Paria verborum et imaginum",
+    "seoTitle": "Paria verborum et imaginum: verba imaginibus coniunge",
+    "h1": "Paria verborum et imaginum: verbum imagini coniunge",
+    "description": "Verba Anglica imaginibus suis coniunge, et quodvis verbum lectum audi. Imagines in conspectu manent, sine horologio, punctis aut numero conatuum. Gratuitum ad ludendum et imprimendum.",
+    "short": "Verbum cuique imagini coniunge, et lectum audi.",
+    "players": "Unus adultus, aut familia iuxta ludens",
+    "intro": "Quattuor aut sex imagines ostenduntur, cum verbis Anglicis suis in alio ordine. Verbum tange, deinde imaginem eius, aut imaginem, deinde verbum eius. Par coniunctum margine crasso et verbo \"Coniunctum\" manet. Tange \"Lege\" iuxta quodvis verbum ut audias id dictum. Nihil tempore aut punctis metitur, et tactus qui non congruit sponte sua purgatur.",
+    "howTo": [
+      "Elige quattuor aut sex imagines. Quattuor simplicissimae sunt.",
+      "Verbum tange, deinde imaginem quam nominat. Aut imaginem primum tange, deinde verbum eius.",
+      "Par coniunctum manet. Tactus qui non congruit silenter purgatur, itaque alium tenta.",
+      "Tange \"Lege\" iuxta verbum ut id audias, si instrumentum tuum textum legere potest.",
+      "Tange \"Novae imagines\" ad aliud par, aut \"Incipe iterum\" ad omnia paria dissolvenda. \"Redde\" ultimas coniunctiones revocat."
+    ],
+    "tips": [
+      "Verba singula simul clara voce dicite antequam coniungitis, et de imagine loquimini.",
+      "Familiae per vices ludere possunt. Quisque unum verbum aut unam imaginem simul eligit.",
+      "Verba quae iam nosti primum adhibe, alia in posterum reserva."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium aut punctorum numerus?",
+        "a": "Non. Nullum horologium, nullus punctorum numerus, nullus numerus motuum, nulla amissio est. Ad quodvis tempus desinere potes, et dimidio itinere desinere est recta ratio finiendi."
+      },
+      {
+        "q": "Estne hoc pro pueris?",
+        "a": "Adultis discentibus aut iterum discentibus verba Anglica facta est, et familiis iuxta ludentibus. Pueris scripta non est."
+      },
+      {
+        "q": "Quid si instrumentum meum textum legere non potest?",
+        "a": "Tabula \"Lege\" vocem utitur quam navigator iam habet. Si navigator loqui non potest, tabula non ostenditur, et ludus sine ea procedit."
+      },
+      {
+        "q": "Estne versio charta?",
+        "a": "Est. Folium unius paginae sex imagines et sex verba eorum habet, ad praecidendum aut linea iungendum."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me adscribam?",
+        "a": "Est, gratuitum est, nec ratio, adscriptio aut ullum prolatum necessarium est. In navigatro retis in telephono, tablet aut computatro operatur."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Una ordinare",
-    "seoTitle": "Ludus ordinandi iis qui cum dementia vivunt: Una ordinare",
+    "seoTitle": "Ludus digerendi: simul digere pro adultis",
     "h1": "Una ordinare: actio imaginum disponendarum",
-    "description": "Tange imaginem, deinde tange calathum ad quem pertinet: culinam an hortum, poma an animalia. Tranquilla et gratuita actio disponendi iis qui cum dementia vivunt.",
+    "description": "Tange imaginem, deinde canistrum in quod pertinet: culina aut hortus, fructus aut animalia. Ludus digerendi placidus et gratuitus pro adultis et familiis.",
     "short": "Pone quamque imaginem in suo calatho: culinae an horti, et pluribus.",
     "players": "1 vel 2 homines",
     "intro": "Res disponere est opus cotidianum, notum atque gratum, velut cibos reponere aut soccos componere. Tange imaginem, deinde tange calathum ad quem pertinet. Nulla est festinatio neque iter falsum.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Aenigma pictum",
-    "seoTitle": "Aenigma pictum facile iis qui cum dementia vivunt: 4 vel 9 partes",
+    "seoTitle": "Facile tabula in rete: 4 aut 9 frusta magna",
     "h1": "Aenigma pictum: ludus partium facilis",
-    "description": "Aenigma pictum interretiale et facile iis qui cum dementia vivunt: 4 vel 9 magnae partes, tota imago conspicua manet, et duas partes tangis ut locum inter se mutent.",
+    "description": "Facilis tabula in rete pro adultis: 4 aut 9 frusta magna, tota imago in conspectu manet, et duo frusta tangendo permutas. Tuam ipsius imaginem adhibe, quae in hoc instrumento manet. Gratuitum, sine horologio.",
     "short": "Tange duas partes ut locum mutent, donec imago integra sit.",
     "players": "1 vel 2 homines",
-    "intro": "Iucunda imago in quattuor vel novem magnas partes secta et commixta est. Tota imago ad ducendum conspicua manet. Tange unam partem, deinde aliam, et locum inter se mutant. Nihil trahendum est.",
+    "intro": "Imago amica in quattuor aut novem frusta magna secatur et permiscetur. Tota imago in conspectu manet ut dux. Unum frustum tange, deinde alterum, et loca permutant. Trahere non necesse est. Potes etiam unam ex tuis imaginibus adhibere. Manet in hoc instrumento, nec umquam sursum mittitur.",
     "howTo": [
       "Elige imaginem et 4 vel 9 partes. Quattuor partes initium lene praebent.",
       "Aspice totam imaginem in summa parte.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Sententiam perficere",
-    "seoTitle": "Sententiam perficere: ludus proverbiorum senioribus",
+    "seoTitle": "Dic reliquum dicti: ludus dictorum notorum",
     "h1": "Sententiam perficere",
     "description": "Sententiae notae quibus extremum verbum deest, velut «As servatus est as ___». Tange optionem vel ostende finem, deinde de ea colloqui.",
     "short": "Sententias notas una perficite, deinde de eis colloquimini.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Verborum inquisitio litteris grandioribus",
-    "seoTitle": "Verborum inquisitio litteris grandibus ad personas cum dementia viventes, imprimenda",
+    "seoTitle": "Quaestio verborum in litteris magnis, gratuita et imprimenda",
     "h1": "Verborum inquisitio litteris grandioribus",
-    "description": "Gratuita verborum inquisitio litteris grandibus ad seniores et personas cum dementia viventes. Pauca verba, litterae amplae, tantum transversa et deorsum spectantia. Lude in interreti vel imprime.",
+    "description": "Quaestio verborum gratuita in litteris magnis pro senioribus et familiis. Pauca verba, litterae magnae, verba tantum transverse et deorsum. Ludere in rete aut imprimere.",
     "short": "Litterae amplae, pauca verba, transversa et deorsum tantum. Etiam imprimere licet.",
     "players": "Una vel duae personae",
     "intro": "Cancellata parva litteris amplis et paucis verbis instructa, omnibus transversim aut deorsum directis. Tange primam verbi litteram, deinde ultimam. Chartamne mavis? Novum aenigma uno tactu imprime.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Paginae colorandae",
-    "seoTitle": "Paginae colorandae adultis cum dementia viventibus (Gratuitae)",
+    "seoTitle": "Paginae colorandae gratuitae pro adultis, magnae et simplices",
     "h1": "Paginae colorandae",
     "description": "Paginae simplices ad adultos accommodatae amplis spatiis: elige colorem, deinde imaginem tange. Nihil foedatur, nulli colores vitiosi sunt, et omnis pagina gratis imprimi potest.",
     "short": "Tange colorem, deinde partem imaginis. Paginas etiam imprime.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Chartulae colloquii",
-    "seoTitle": "Initia colloquii ad personas cum dementia viventes: chartulae cum imaginibus",
+    "seoTitle": "Sermones colloquii: Chartae imaginum pro familiis",
     "h1": "Chartulae colloquii",
-    "description": "Chartulae cum imaginibus et mitibus sermonum initiis ad personas cum dementia viventes: sine probationibus, sine responsis exquisitis. Utere in scrinio vel imprime seriem integram.",
+    "description": "Chartae imaginum cum sermonibus colloquii leniter incipientibus pro familiis, amicis et senioribus, etiam pro hominibus cum dementia viventibus. Nulla interrogatio, nulla responsa recta.",
     "short": "Chartulae cum imaginibus et quaestionibus apertis ac mitibus. Sine interrogationibus anxiis.",
     "players": "Duae personae vel coetus",
     "intro": "Quaeque chartula imaginem notam cum aperta invitatione ad confabulandum coniungit, ut \"Quale caelum maxime diligis?\". Nullae sunt responsiones exactae neque quicquam meminisse necesse est. Elige argumentum vel omnes permisce.",
@@ -329,12 +979,13 @@
     "description": "Imagines domesticas in lene comparandi ludicrum converte. Sume 2 ad 6 imagines in instrumento tuo; in navigatro manent nec umquam transmittuntur.",
     "short": "Elige imagines tuas et paria compone. Nihil transmittitur.",
     "players": "Duo homines, alter iuxta alterum",
-    "intro": "Sume duas ad sex imagines e telephono, tabula aut computatro tuo, quae in ludum imaginum magnarum et clararum convenient. Imagines tantum in hac pagina exhibentur. Non transmittuntur, non servantur, non communicantur, atque pagina clausa statim evanescunt.",
+    "intro": "Elige duas ad sex imagines familiares tuas ex telephono, tabulato vel computatro, et fiunt ludus conferendi cum imaginibus magnis et conspicuis. Imagines solum intra hanc paginam ostenduntur. Non sursum onerantur, non servantur nec communicantur, et evanescunt cum paginam claudis. Si vis, paucula verba sub unaquaque imagine adde; suggestio leniter unum par post morulam indicare potest. Haec est via imagines familiares una spectandi.",
     "howTo": [
-      "Tange «Elige imagines» et duas ad sex imagines sume.",
-      "Quaeque imago bis apparet. Tange unam, deinde tangito parem.",
-      "De singulis imaginibus, prout reperiuntur, libenter confabulamini.",
-      "Re peracta, claude paginam aut tange «Dele imagines». Nihil servatur."
+      "Preme \"Elige imagines\" et elige duas ad sex imagines.",
+      "Quaeque imago bis apparet. Preme unam, deinde eius par.",
+      "Si vis, paucula verba sub unaquaque imagine adde. Tituli non servantur.",
+      "Loquere de unaquaque imagine, dum eam invenis.",
+      "Cum finieris, paginam claude vel preme \"Imagines tolle\". Nihil servatur."
     ],
     "tips": [
       "Elige claras imagines rerum laetarum ac notarum: animalis domestici, horti, loci dilecti, diei nuptiarum.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Bingo imaginum",
-    "seoTitle": "Bingo imaginum pro senioribus cum memoriae defectu: chartis imprimendis",
+    "seoTitle": "Bingo imaginum imprimendum pro coetibus",
     "h1": "Bingo imaginum pro circulis",
-    "description": "Bingo imaginum gratuitum chartis imprimendis pro circulis seniorum et eorum qui memoria labant, cum monstratore magno in velo. Imagines amplae cum verbis, 9 vel 16 quadrata, sine legendi necessitate.",
+    "description": "Bingo imaginum gratuitum imprimendum pro familiis, coetibus seniorum et domibus curae. Imagines magnae cum verbis, 9 vel 16 quadrata, et magnus vocator in schermo.",
     "short": "Chartae bingo imaginum imprimendae et monstrator in amplo velo pro circulis.",
     "players": "Circulus 2 ad 30 hominum",
     "intro": "Ludus notus bingo cum imaginibus loco numerorum, ut nemo parvas litteras legere cogatur. Imprime seriem chartarum singularium, deinde monstratore in velo utere ad singulas imagines ampliter exhibendas in televisorio, computatro gestabili aut tabula.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Consilium sumptus campestris",
+    "seoTitle": "Consilium sumptus campestris: imagines elige pro excursione",
+    "h1": "Consilium sumptus campestris: imagines elige, deinde confer",
+    "description": "Elige imagines ciborum et rerum agendarum pro sumptu campestri, deinde lude leniter conferendo cum eis. Nihil tempore metitur. Gratis ad ludendum et imprimendum.",
+    "short": "Elige imagines ciborum et excursionis pro sumptu campestri, deinde confer.",
+    "players": "Solus, vel 2 homines latus ad latus",
+    "intro": "Preme imagines ciborum et rerum agendarum, ut in canistrum sumptus campestris ponantur, qui usque ad sex capit. Sententia verbis dicit quid in canistro sit, ut \"Sumptus noster: panis, caseus, mala et aquilo.\" Deinde preme \"Ludamus cum sumptu nostro\" pro leni ludo conferendi ex imaginibus electis. Imagines manent ostensae, et nihil tempore metitur, computatur aut servatur. \"Indica album sumptus nostri\" indicem imprimit eorum quae elegisti, cum cista signanda pro unaquaque re ad sarcinandum.",
+    "howTo": [
+      "Preme imaginem cibi vel rei agendae. In canistrum it.",
+      "Preme imaginem in canistro ut eam iterum tollas.",
+      "Elige saltem duas res, deinde preme \"Ludamus cum sumptu nostro\".",
+      "Preme duas imagines eaedem sunt. Imagines manent ostensae, ita nihil memoriae est.",
+      "Preme \"Indica album sumptus nostri\" pro indice chartaceo tecum sumendo."
+    ],
+    "tips": [
+      "Roga eos cum quibus es, quid adferre velint, et imagines una elige.",
+      "Loquere de unaquaque imagine dum in canistrum it: \"Memines aquilonis quem ad litus volavimus?\"",
+      "In charta, lineae vacuae sunt pro quovis alio quod adferre vis, vel pro nomine."
+    ],
+    "faq": [
+      {
+        "q": "Estne horologium, punctum aut victor?",
+        "a": "Non. Nihil tempore metitur aut numeratur, et nemo vincit. Ludus conferendi nullos errores nec puncta habet."
+      },
+      {
+        "q": "Estne consilium cibi?",
+        "a": "Non. Est consilium imaginum pro excursione, de quo loquaris et quod in charta sumas. Non dicit quid quisquam edere debeat."
+      },
+      {
+        "q": "Servanturne aut mittuntur imagines quas eligimus?",
+        "a": "Non. Canistrum in hac pagina solum manet. Non servatur, non sursum oneratur nec mittitur, et abit cum paginam claudis."
+      },
+      {
+        "q": "Estne versio chartacea?",
+        "a": "Est. \"Indica album sumptus nostri\" unam paginam imprimit, in A4 vel US Letter. Imagines quas elegisti ostendit, cum cista signanda pro unaquaque, et lineis vacuis pro quovis alio."
+      },
+      {
+        "q": "Estne gratis, et opus est ut me inscribam?",
+        "a": "Est, gratis est, et nulla ratio, nulla inscriptio nec depositio est. In navigatro retis in telephono, tabulato vel computatro operatur."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Album memoriarum",
+    "seoTitle": "Album memoriarum: imagines familiares una verte, pagina post paginam",
+    "h1": "Album memoriarum: imagines et titulos adde, deinde paginas verte",
+    "description": "Elige duas ad duodecim imagines familiares tuas in instrumento tuo et verte eas ut librum, cum paucis verbis sub unaquaque. Nihil sursum onerator. Gratis ad imprimendum.",
+    "short": "Imagines familiares tuas una verte, ut librum.",
+    "players": "Solus, vel 2 homines latus ad latus",
+    "intro": "Elige duas ad duodecim imagines tuas ex hoc instrumento. Quaeque imago unam paginam libri fit, satis magna ut videatur, cum verbis optionalibus sub ea. Paginas verte cum globulis vel clavibus sagittarum, et utere \"Spectate una\" ut latus ad latus sedeas solum cum imaginibus et verbis. Imagines tuae in hoc instrumento manent. Non sursum onerantur nec servantur, et liber abit cum paginam claudis. \"Imprime album\" unam imaginem et verba eius in unaquaque pagina imprimit, cum numeris paginarum.",
+    "howTo": [
+      "Preme \"Elige imagines\" et elige duas ad duodecim imagines. Roga antequam imaginem eius qui dicere non potest uti.",
+      "Paginas verte cum \"Pagina prior\" et \"Pagina sequens\", vel clavibus sagittarum Sinistra et Dextra.",
+      "Adde paucula verba sub imagine, si vis. Utere \"Move prius\" vel \"Move posterius\" ad ordinem mutandum.",
+      "Preme \"Spectate una\" ut instrumenta recensendi occultes et librum latus ad latus spectes.",
+      "Preme \"Imprime album\" pro exemplari chartaceo, vel \"Librum tolle\" cum finieris. Nihil servatur."
+    ],
+    "tips": [
+      "Scegli foto di cose felici e familiari: un giardino, un animale domestico, un posto preferito. Parlate di ogni pagina mentre la girate.",
+      "Lascia che la persona dica qualche parola per ogni pagina, anche una sola, e scrivila esattamente come la dice.",
+      "Su carta, le pagine stampate possono finire in una cartella, e la famiglia può aggiungere le proprie foto e note intorno ad esse."
+    ],
+    "faq": [
+      {
+        "q": "C'è un timer, un punteggio o un vincitore?",
+        "a": "No. Non si misura il tempo, non si fanno punteggi o conteggi e nessuno vince. Il numero di pagina serve solo a sapere dove ci si trova nel libro."
+      },
+      {
+        "q": "Le nostre foto o le didascalie vengono salvate, caricate o inviate?",
+        "a": "No. Le foto vengono lette solo da questa pagina e non vengono caricate, conservate o inviate da nessuna parte. Le didascalie restano solo finché la pagina è aperta. Quando chiudi la pagina, il libro scompare."
+      },
+      {
+        "q": "Possiamo stampare il libro?",
+        "a": "Sì. \"Stampa il album dei ricordi\" stampa una foto con la sua didascalia su ogni pagina, con i numeri di pagina. Scegli A4 o US Letter nella finestra di stampa."
+      },
+      {
+        "q": "È gratuito e bisogna registrarsi?",
+        "a": "Sì, è gratuito e non serve un account, una registrazione o un download. Funziona nel browser web di telefono, tablet o computer."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Tavola del collage",
+    "seoTitle": "Tavola del collage: due persone posizionano le immagini a turno",
+    "h1": "Tavola del collage: posizionare le immagini su un'unica tavola, a turno",
+    "description": "Due persone posizionano a turno delle immagini ritagliate su un'unica tavola condivisa. Tocca un ritaglio, poi un posto vuoto. Nessun timer né punteggio. Gioco e stampa gratuiti.",
+    "short": "Posizionate a turno delle immagini su un'unica tavola condivisa.",
+    "players": "2 persone, una accanto all'altra",
+    "intro": "Due persone siedono una accanto all'altra davanti a un'unica tavola con dodici posti e un vassoio con otto immagini ritagliate. Tocca un ritaglio, poi tocca un posto vuoto, e l'immagine vi andrà. Il turno passa quindi all'altra persona. Le immagini di ciascuna persona hanno una forma propria, un cerchio o un quadrato, così la tavola mostra chi ha messo cosa senza affidarsi al colore. Ognuno può passare il turno, e si può tornare indietro di un passo. Non si misura il tempo, non si fanno punteggi e non si salva nulla. \"Stampa la tavola\" stampa la tavola vuota e le immagini da ritagliare.",
+    "howTo": [
+      "Tocca un ritaglio nel vassoio. Mentre è selezionato, mostra \"Scelto\".",
+      "Tocca un posto vuoto sulla tavola. Il ritaglio vi viene collocato e il turno passa.",
+      "Ognuno può toccare in qualsiasi momento Passa, oppure \"Riprendi l'ultima immagine\" per annullare un passo.",
+      "Tocca \"Un altro set di immagini\" per un vassoio diverso. Le immagini già sulla tavola restano dove sono.",
+      "Tocca \"Ricomincia\" per svuotare la tavola, e \"Rimetti a posto\" se cambi idea."
+    ],
+    "tips": [
+      "Dite ad alta voce il nome di ogni immagine mentre la posate, per esempio \"la tazza di tè va vicino alla casa\". Parlarne rende l'attività condivisa.",
+      "Lascia che le due persone scelgano a turno il ritaglio oltre al posto, così ciascuna dice la sua.",
+      "Su carta, ritagliate le otto immagini con l'aiuto di un adulto, poi posatele sulle caselle stampate."
+    ],
+    "faq": [
+      {
+        "q": "C'è un timer, un punteggio o un vincitore?",
+        "a": "No. Non si misura il tempo, non si fanno punteggi o conteggi e nessuno vince. Una tavola completa è semplicemente una con un'immagine in ogni posto."
+      },
+      {
+        "q": "Le immagini che posizioniamo vengono salvate o inviate?",
+        "a": "No. La tavola resta solo in questa pagina. Non viene salvata, caricata o conteggiata, e scompare quando chiudi la pagina."
+      },
+      {
+        "q": "Come capiamo di chi è ciascuna immagine?",
+        "a": "Ogni persona ha una forma. Le immagini della prima persona hanno un cerchio nell'angolo, quelle della seconda un quadrato, e sopra la tavola è mostrato il nome di ciascuna."
+      },
+      {
+        "q": "Esiste una versione su carta?",
+        "a": "Sì. \"Stampa la tavola\" stampa la tavola vuota come dodici caselle, con le otto immagini sotto alla stessa dimensione e la linea di taglio. La ritaglia un adulto."
+      },
+      {
+        "q": "È gratuito e bisogna registrarsi?",
+        "a": "Sì, è gratuito e non serve un account, una registrazione o un download. Funziona nel browser web di telefono, tablet o computer."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Pianificatore del giardino",
+    "seoTitle": "Pianificatore del giardino: disporre un appezzamento con immagini di piante",
+    "h1": "Pianificatore del giardino: scegliere le immagini e disporre un appezzamento",
+    "description": "Scegli immagini di piante e oggetti da giardino, poi collocali nelle dodici aiuole di un appezzamento. Tocca un'immagine, poi un'aiuola. Nessun timer né punteggio. Gioco e stampa gratuiti.",
+    "short": "Scegliete immagini di piante e disponete un appezzamento di dodici aiuole.",
+    "players": "Da soli, oppure 2 persone una accanto all'altra",
+    "intro": "Scegli le immagini da un vassoio di piante e oggetti da giardino, poi tocca un'aiuola per collocare ciascuna immagine al suo posto. Un appezzamento ha dodici aiuole, e ogni aiuola accoglie una sola immagine. Un riepilogo scritto indica cosa contiene il piano, per esempio \"Il tuo piano comprende 3 girasoli, 2 rose e 1 albero\". Non si misura il tempo, non si fanno punteggi e non si salva nulla, e non ci sono turni. Si tratta di un piano per immagini da commentare insieme, non di consigli sulla coltivazione. \"Stampa il piano\" stampa le aiuole con le immagini scelte, con aiuole vuote da disegnare e righe per le note.",
+    "howTo": [
+      "Tocca un'immagine nel vassoio. Mentre è selezionata, mostra \"Scelto\".",
+      "Tocca un'aiuola. L'immagine vi viene collocata e la scelta è fatta.",
+      "Per cambiare un'aiuola, scegli un'altra immagine e tocca l'aiuola. Per svuotarla, toccala senza aver scelto alcuna immagine.",
+      "Tocca \"Ricomincia\" per svuotare tutte le aiuole, e \"Rimetti a posto\" se cambi idea.",
+      "Tocca \"Stampa il piano\" per una copia cartacea dell'appezzamento e del riepilogo."
+    ],
+    "tips": [
+      "Dic de singulis imaginibus dum eas ponis, ut \"sinapis iuxta domunculam avium ponitur\". Colloquium actionem communem facit.",
+      "Sine quemque imaginem in vicem eligere, vel imagines simul eligite, ut uterque in argumento suam sententiam habeat.",
+      "In charta, areae vacuae ad tuas ipsius sententias delineandas sunt, et lineae notarum ad quidquid meminisse vis."
+    ],
+    "faq": [
+      {
+        "q": "Estne consilium de serendis plantis?",
+        "a": "Non. Hoc est consilium imaginum de quo loquamur, non consilium serendi. Non dicit quando, ubi aut quomodo quidquam serendum sit, quia id a loco ubi habitas pendet."
+      },
+      {
+        "q": "Estne tempus, punctum aut victor?",
+        "a": "Non. Nihil tempore mensuratur, punctis aestimatur aut numeratur, et nemo vincit. Hortus plenus nullum nuntium peculiarem accipit."
+      },
+      {
+        "q": "Servanturne aut mittuntur imagines quas eligimus?",
+        "a": "Non. Consilium in hac pagina solum manet. Non servatur, non mittitur, non numeratur, et cum paginam clauseris, evanescit."
+      },
+      {
+        "q": "Estne versio chartacea?",
+        "a": "Ita. \"Consilium imprime\" unam paginam imprimit, in formato A4 vel US Letter. Duodecim areas cum imaginibus quas elegisti ostendit, summarium verbis, et lineas vacuas ad notas."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me inscribam?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. Operatur in navigatore retiali in telephono, tabella vel computatro."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Paries colorandi communis",
+    "seoTitle": "Paries Colorandi Communis: Una Imago Multis Manibus",
+    "h1": "Paries Colorandi Communis: Una Ingens Imago, Simul Picta",
+    "description": "Imaginem ingentem per plures paginas imprime, ut familia, classis aut domus curae unum parietem simul colorare possint. Gratis imprimitur. Nullum tempus aut punctum.",
+    "short": "Imaginem ingentem per paginas imprime, ut multi eam colorent.",
+    "players": "Coetus, ad mensam aut in pariete",
+    "intro": "Elige imaginem ex paginis colorandis et parietem ex 4, 6 vel 9 paginis. Paries imprimatur: prima pagina docet quomodo eum componas, et ceterae paginae singulae partes eiusdem imaginis ingentis sunt, cum titulo, ut A1, in angulo. Quisque unam vel plures paginas colorat, quibuscumque coloribus et stilo. Paginae deinde secundum titulos disponuntur et a tergo nastro iunguntur. Nihil tempore mensuratur, punctis aestimatur aut servatur.",
+    "howTo": [
+      "Elige imaginem, deinde elige quot paginas paries habeat.",
+      "Lege tabulam in hac pagina, quae ostendit quo quisque titulus pertineat.",
+      "Preme \"Imprime parietem\" et omnes paginas imprime.",
+      "Da cuique unam vel plures paginas colorandas. Colores et stilus congruere non debent.",
+      "Paginas secundum titulos dispone et a tergo nastro iunge."
+    ],
+    "tips": [
+      "Paginas simplicissimis lineis iis da qui opus tranquillius volunt, et paginas multa habentes cuivis qui eas delectat.",
+      "Paries ubi omnes videre possint suspende, et partes simul colloquere.",
+      "Parietem minorem ad mensam parvam, maiorem ad cubiculum elige."
+    ],
+    "faq": [
+      {
+        "q": "Estne tempus, punctum aut victor?",
+        "a": "Non. Nihil tempore mensuratur, punctis aestimatur aut numeratur, et nemo vincit. Paries est simpliciter imago quam multi colorarunt."
+      },
+      {
+        "q": "Servanturne paginae aut mittuntur quoquam?",
+        "a": "Non. Paries in hac pagina solum fit. Non servatur, non mittitur, non numeratur, et cum paginam clauseris, evanescit."
+      },
+      {
+        "q": "Debentne colores congruere?",
+        "a": "Non. Quisque quibuscumque coloribus et stilo uti potest. Paginae tamen in unam imaginem coniunguntur."
+      },
+      {
+        "q": "Estne versio chartacea?",
+        "a": "Ita. Paries impressus est totus ludus: prima pagina cum gradibus et tabula, et una pagina pro singulis partibus imaginis."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me inscribam?",
+        "a": "Ita, gratuitum est, nec ratio, inscriptio aut transmissio necessaria est. Operatur in navigatore retiali in telephono, tabella vel computatro."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Problema formarum tranquillum",
+    "seoTitle": "Problema Formarum Tranquillum: Formas in Imagine Coapta",
+    "h1": "Problema Formarum Tranquillum: Partes in Imagine Coaptae",
+    "description": "Formas simplices in lineas domus, navis, piscis aliarumque imaginum coapta. Tange partem, deinde spatium eiusdem formae. Nullum tempus aut punctum. Gratis ludi et imprimi potest.",
+    "short": "Formas simplices in imagine coapta, suo ipsius gradu.",
+    "players": "1 persona, ad mensam",
+    "intro": "Lineae imaginis, ut domus, navis aut missile, in spatia divisae sunt. Quodque spatium habet partem eiusdem formae: triangulum magnum vel parvum, quadratum, parallelogrammum aut rectangulum. Tange partem, deinde tange spatium eiusdem formae, et congruit. Spatium partem ipsum vertit, ut nihil trahendum aut vertendum sit. Si pars alia forma est quam spatium, in scrinio manet cum brevi nota. Nihil tempore aut punctis mensuratur, nihil servatur aut mittitur. \"Imprime hanc formam\" lineas et partes in una pagina imprimit, ad colorandum aut secandum.",
+    "howTo": [
+      "Tange partem in scrinio. Dum eligitur, \"Electa\" monstratur.",
+      "Tange spatium in imagine. Si forma congruit, pars ibi coaptatur.",
+      "Si non congruit, alterum spatium tempta. Nihil per temptamentum amittitur.",
+      "Tange partem in imagine ut eam in scrinium redigas, aut \"Incipe iterum\" ut omnes redigantur.",
+      "Cum omnia spatia partem habent, imago perfecta est. Tange \"Alia forma\" ut novam habeas, aut tange Requiem ut desinas."
+    ],
+    "tips": [
+      "Attiva le linee di suggerimento per vedere ogni spazio. Disattivale per un enigma più impegnativo, con solo il contorno come guida.",
+      "Inizia dalle forme grandi, come i triangoli grandi e i rettangoli. I pezzi piccoli spesso vanno per ultimi.",
+      "Nomina le forme ad alta voce mentre procedi: \"un triangolo, un quadrato, un rettangolo lungo\". Parlarne può far diventare l'attività un momento condiviso.",
+      "Su carta, colora i pezzi con due o tre colori, oppure ritagliali con l'aiuto di un adulto."
+    ],
+    "faq": [
+      {
+        "q": "C'è un timer, un punteggio o un conteggio delle mosse?",
+        "a": "No. Non si misura il tempo, non si contano le mosse e non si assegnano punti. Un pezzo che non entra semplicemente non viene posizionato, e puoi fermarti quando vuoi."
+      },
+      {
+        "q": "Quello che creiamo viene salvato o inviato?",
+        "a": "No. L'immagine resta solo su questa pagina. Non viene salvata, caricata o conteggiata, e scompare quando chiudi la pagina."
+      },
+      {
+        "q": "Gli spazi sono abbastanza grandi per un tremore o per uno schermo piccolo?",
+        "a": "Il contorno viene disegnato il più grande possibile in base allo schermo, e ogni spazio è un pulsante che puoi raggiungere con un dito o con il tasto Tab. I pezzi nel vassoio sono i pulsanti più grandi della pagina."
+      },
+      {
+        "q": "Esiste una versione su carta?",
+        "a": "Sì. \"Stampa questa forma\" stampa un'immagine su una pagina: il contorno con le sue linee di suggerimento e, accanto, i pezzi disegnati alla stessa dimensione. Colora i pezzi oppure ritagliali per adattarli. Il ritaglio può farlo un adulto."
+      },
+      {
+        "q": "È gratuito e bisogna registrarsi?",
+        "a": "Sì, è gratuito e non servono account, registrazione o download. Funziona nel browser web di telefono, tablet o computer."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Spiratio tranquilla",
-    "seoTitle": "Mora spirandi tranquilla pro senioribus et curatoribus",
+    "seoTitle": "Una pausa di respirazione calma da condividere",
     "h1": "Mora spirandi tranquilla",
     "description": "Mora spirandi lenta ac tranquilla communiter capienda: orbis lenis per sex spiritus crescit et minuitur. Tu incipis, et quovis tempore desinere potes.",
     "short": "Lentus orbis ad una spirandum. Incipe ac desine cum voles.",
@@ -423,6 +1333,131 @@
       {
         "q": "Estne gratuitum, et oportetne nomen dare?",
         "a": "Ita, gratuitum est, neque ulla ratione, inscriptione, aut deoneratione opus est. In navigatro interretiali telephoni, tabulae, vel computatri operatur."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Catena di storie",
+    "seoTitle": "Catena di storie: un gioco di racconto condiviso per immagini",
+    "h1": "Catena di storie: raccontare una storia un'immagine alla volta",
+    "description": "Una fila di immagini cresce una alla volta, e ciascuno dice ad alta voce una frase su di essa. Niente da scrivere, nessuna risposta giusta. Gratuito, tranquillo, senza timer e senza punteggio.",
+    "short": "Aggiungi un'immagine, poi ognuno dice una frase, a turno.",
+    "players": "2 o più persone",
+    "intro": "Il gioco inizia con un'immagine e fa crescere la catena un'immagine alla volta. Ciascuno, a turno, dice ad alta voce una frase su quanto è stato costruito finora. Una frase può riguardare ciò che si vede, un luogo che evoca o qualcosa di buffo. Niente viene scritto, registrato o conservato, non esiste una risposta giusta e chiunque può passare. La catena si ferma a otto immagini, poi si può iniziarne una nuova.",
+    "howTo": [
+      "Guardate insieme la prima immagine.",
+      "A turno, ognuno dice una frase sulla catena finora. Chiunque può passare.",
+      "Tocca \"Aggiungi un'immagine\" per mettere la successiva in fondo alla catena.",
+      "Tocca \"Togli l'ultima\" se preferisci tornare indietro di un'immagine.",
+      "Quando la catena arriva a otto immagini, tocca \"Inizia una nuova catena\" per ricominciare, oppure fermati semplicemente."
+    ],
+    "tips": [
+      "Va bene anche una frase breve: \"Qualcuno ha messo sul fuoco il bollitore.\" La persona successiva prosegue, oppure passa.",
+      "Lascia che siano le immagini a guidare. Non c'è una storia a cui si debba arrivare.",
+      "Fermati quando vuoi. Fermarsi a metà è un modo perfettamente valido per concludere."
+    ],
+    "faq": [
+      {
+        "q": "C'è un timer o un punteggio?",
+        "a": "No. Non ci sono orologio, punteggio, contatore di mosse né sconfitta. Puoi fermarti in qualsiasi momento, e fermarsi a metà è un modo perfettamente valido per concludere."
+      },
+      {
+        "q": "Viene scritto o registrato qualcosa?",
+        "a": "No. Le frasi vengono pronunciate ad alta voce e non vengono scritte, registrate o inviate da nessuna parte. Il gioco mostra soltanto le immagini."
+      },
+      {
+        "q": "E se qualcuno non vuole dire niente?",
+        "a": "Chiunque può passare, e la persona successiva prosegue. Nessuno deve dare un nome a un'immagine o ricordarla."
+      },
+      {
+        "q": "È gratuito e bisogna registrarsi?",
+        "a": "Sì, è gratuito e non servono account, registrazione o download. Funziona nel browser web di telefono, tablet o computer."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Scena tranquilla",
+    "seoTitle": "Scena tranquilla: un'immagine alla volta",
+    "h1": "Scena tranquilla: un'immagine ferma alla volta",
+    "description": "Un'immagine grande e ferma alla volta, ciascuna con una breve frase gentile sotto. Premi Avanti o Indietro quando sei pronto. Nulla si muove né parte da solo, e non ci sono timer né punteggi. Gratuito, senza account.",
+    "short": "Guarda un'immagine ferma alla volta, con il tuo ritmo.",
+    "players": "Da soli, oppure in gruppo nella stessa stanza",
+    "intro": "Una grande immagine riempie lo schermo, con una breve frase sotto. Premi \"Immagine successiva\" o \"Immagine precedente\" quando vuoi passare a un'altra. Nulla si muove, sfuma o cambia da solo, e il tempo non viene misurato. Tocca \"Immagine a schermo intero\" per mostrare solo l'immagine, così tutta la stanza può vederla sulla televisione.",
+    "howTo": [
+      "Guardate insieme l'immagine.",
+      "Leggete ad alta voce la frase sotto, se vi va.",
+      "Premi \"Immagine successiva\" o \"Immagine precedente\" quando sei pronto.",
+      "Tocca \"Immagine a schermo intero\" per mostrare solo l'immagine, e \"Mostra tutto\" per riportare il resto.",
+      "Fermati quando vuoi con \"Per ora basta\"."
+    ],
+    "tips": [
+      "Lascia che sia la persona a scegliere quando passare oltre: aspetta che guardi, poi premi Avanti.",
+      "In gruppo, usa \"Immagine a schermo intero\" su una televisione o su uno schermo grande e siediti dove tutti possono vedere.",
+      "Non esiste un modo giusto di guardare un'immagine. Anche solo parlarne è un'attività completa."
+    ],
+    "faq": [
+      {
+        "q": "C'è un timer o un punteggio?",
+        "a": "No. Non ci sono orologio, punteggio, contatore di mosse né sconfitta. Puoi fermarti in qualsiasi momento, e fermarsi a metà è un modo perfettamente valido per concludere."
+      },
+      {
+        "q": "Riproduce suoni o si muove?",
+        "a": "No. Non c'è alcun suono, e nulla si muove, sfuma o cambia da solo. Un'immagine cambia solo quando premi un pulsante."
+      },
+      {
+        "q": "Existit versio chartacea?",
+        "a": "Non. Hoc est imago quam in schermo una spectatis. Imago grata vel tabella postalis in mensa idem praestat."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me adscribam?",
+        "a": "Ita, gratuitum est, et nulla ratio, nulla inscriptio nec receptio requiritur. In navigatore retiali in telephono, tablet vel computatro operatur."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Color wash",
+    "seoTitle": "Color Wash: Color mollis per paginam",
+    "h1": "Color Wash: Color mollis per paginam pinge",
+    "description": "Penicillus mollis latas, pellucidas lavaturas coloris per unam paginam pingit, quattuor coloribus et duabus penicilli magnitudinibus. Nullus finis, nulla nota, nullum horologium. Gratuitum ad ludendum, sine ratione.",
+    "short": "Lavaturas mollis coloris per paginam pinge, ad tuum ipsius gradum.",
+    "players": "Solus, vel 2 homines iuxta sedentes",
+    "intro": "Una pagina et unum penicillum molle. Color et penicilli magnitudinem elige, deinde per paginam trahe ut lavaturam coloris stratam facias. Pagina nullum finem habet: nihil absolvendum est, nulla imago recte facienda, nulla nota. Quot velis lavaturas fac, aut penicillum depone et tantum aspice. Pagina nova omnia purgat, et \"Restitue\" illas reddit.",
+    "howTo": [
+      "Color elige. Quisque color nomen scriptum habet.",
+      "Elige \"Latum\" vel \"Valde latum\". \"Valde latum\" plus paginae cum singulis ductibus tegit.",
+      "Digito, mure vel stylo per paginam trahe ut lavaturam facias.",
+      "Vel sagittis moves annulum penicilli, et Spatio penicillum deponis vel tollis.",
+      "Preme \"Pagina nova\" ad paginam purgandam, deinde \"Restitue\" si lavaturas reddi vis."
+    ],
+    "tips": [
+      "Alterum hominem sinito colorem proximae lavaturae eligere, et de coloribus dum fiunt loquimini.",
+      "\"Valde latum\" facilius tenetur manu tremula, quia penicillum accurate movere non opus est.",
+      "Nullus rectus modus pingendi est. Quando vis, desine, vel preme \"Satis pro nunc\"."
+    ],
+    "faq": [
+      {
+        "q": "Estne finis, nota vel horologium?",
+        "a": "Non. Pagina finem non habet. Nihil absolvitur, numeratur, tempore metitur aut notatur, neque ullus nuntius unquam te rogat ut plura facias."
+      },
+      {
+        "q": "Servatur an mittitur pagina?",
+        "a": "Non. Nihil servatur, imprimitur aut alicubi mittitur. Lavaturae in hac pagina manent donec eam relinquas."
+      },
+      {
+        "q": "Possumne sine mure vel tactili schermo uti?",
+        "a": "Ita. Cum pagina attenta est, sagittae annulum penicilli movent, et clavis Spatium penicillum deponit vel tollit. Schermus singulis vicibus dicit \"Penicillus deponitur\" vel \"Penicillus tollitur\"."
+      },
+      {
+        "q": "Existit versio chartacea?",
+        "a": "Non. Pictura aquarelle in charta eadem res est, penicillus madidus et unus color simul, ideo alia actio est quam in mensa temptare."
+      },
+      {
+        "q": "Qui colores sunt?",
+        "a": "Flavus, aurantiacus, viridis et purpureus, iidem quattuor colores qui in aliis nostris ludis pictoriis adhibentur. Quisque nomen scriptum habet, et nomen iuxta electionem apparet."
+      },
+      {
+        "q": "Estne gratuitum, et opus est ut me adscribam?",
+        "a": "Ita, gratuitum est, et nulla ratio, nulla inscriptio nec receptio requiritur. In navigatore retiali in telephono, tablet vel computatro operatur."
       }
     ]
   }
