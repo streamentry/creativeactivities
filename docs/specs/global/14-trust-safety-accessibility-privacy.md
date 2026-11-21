@@ -70,6 +70,8 @@ Risks / not doing: Do not add a score or streak to make a game feel finished [R4
 ### TSA-004 · Keyboard, focus and drag alternatives
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): every focus ring now passes 3:1 on each background it sits on, light and dark and high contrast, tested in `theme-contrast.test.ts` (fixes: the feedback ring, the puzzle piece ring on the print-white board, the word-search gap). A keyboard-only pass on every game and the drag alternatives are not yet documented and tested.
+
 Evidence: keyboard pass on every template and game in a11y-check.mjs; sorting and puzzle use tap-then-tap, not drag (site/src/lib/games/games.test.ts covers the tap alternatives). Not done: focus contrast check on every background.
 
 Why: Keyboard and switch users can only use what they can reach and see. The sorting, puzzle and picture-matching games need drag-free paths [DESIGN §6; R4 §5].

@@ -5,20 +5,22 @@
 //
 // Does not fail the build by default. The threshold is provisional until an
 // editor has reviewed a sample of flagged pairs (see docs/specs/global/duplicate-audit.md).
-// --strict exits 1 when anything is flagged; it is not wired into CI yet.
+// --strict exits 1 when anything is flagged (near-duplicates need an editor, so it is not in CI).
+// --exact exits 1 only on exact duplicate titles, H1s or descriptions; CI runs this (SEO-006, SEO-015).
 //
 // Usage:
 //   node --max-old-space-size=6144 scripts/check-duplicates.mjs
 //   node --max-old-space-size=6144 scripts/check-duplicates.mjs --threshold=0.6 --strict
 //   ... --report=/path/to/report.txt
 import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { performance } from 'node:perf_hooks';
 import { exactDuplicates, findNearDuplicates } from '../src/lib/similarity.ts';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
 const SITE = 'https://creativeactivities.org';
-const DEFAULT_REPORT = '/Volumes/SANDISK-Data/ca-shots/dup/duplicates-report.txt';
+const DEFAULT_REPORT = join(tmpdir(), 'creative-activities', 'duplicates-report.txt');
 /** Proposed, not chosen. Pairs are reported from 0.3 so the sample review can compare cut-offs. */
 const PROPOSED_THRESHOLD = 0.5;
 const SCAN_FLOOR = 0.3;
@@ -32,6 +34,7 @@ const args = Object.fromEntries(
 );
 const threshold = Number(args.threshold ?? PROPOSED_THRESHOLD);
 const strict = args.strict === 'true';
+const exactOnly = args.exact === 'true';
 const reportPath = args.report ?? DEFAULT_REPORT;
 if (!(threshold > SCAN_FLOOR && threshold <= 1)) {
   console.error(`--threshold must be above ${SCAN_FLOOR} and at most 1`);
@@ -212,6 +215,10 @@ console.log(`Near-duplicate body pairs: ${flagged.length} at threshold ${thresho
 console.log(`Full report: ${reportPath}`);
 if (!existsSync(reportPath)) console.error(`warning: report was not written to ${reportPath}`);
 
+if (exactOnly && exactCount > 0) {
+  console.error(`--exact: ${exactCount} exact duplicate groups (titles, H1s or descriptions) need a fix.`);
+  process.exit(1);
+}
 if (strict && (exactCount > 0 || flagged.length > 0)) {
   console.error(`--strict: ${exactCount} exact duplicate groups and ${flagged.length} flagged pairs need a decision.`);
   process.exit(1);

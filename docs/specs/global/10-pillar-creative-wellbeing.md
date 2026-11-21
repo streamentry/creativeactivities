@@ -138,6 +138,8 @@ Art therapy is a credentialed profession. Activities that touch emotion, grief, 
 
 **CNT-1004 · CALM reviewer roles and review record** · P0 · Phase S1 · Status partial · Pillars: CALM
 
+Status note (2026-11-21): a card can now record a declined review (`reviewDeclined`: reviewer, role, credential, date, reason); a declined card gets no page, leaves every listing and is kept out of the app's content bundle. No reviewer is named yet.
+
 Evidence (2026-11-16): the review record (`reviewSchema` in `site/src/lib/activity-schema.ts`) holds the reviewer's role (nine roles, including the five in the table below), name, credential, the register or board that holds it (required for every role except lived experience), date, scope, not-for, not-without-someone-nearby, stop signs and `permissionOnFile: true`. A shown review prints the credential with its body in the byline and says "This review checked what is written here. It does not make the activity therapy." Copy that says "clinically reviewed", "therapist-approved" or the like fails the claims lint, so a reviewed badge can only come from a record. Tested in `activity-schema.test.ts`, `activities.test.ts` and `claims.test.ts`; a trial record on one card showed the byline and the review section in the built page, then was removed. Not done: no reviewer has been named or has given permission, so no card has a record; nothing marks a page a reviewer declined; the credential check against the issuing body is the reviewer's, not automated.
 
 Roles (at least one for each page type before it is published):

@@ -236,6 +236,16 @@ describe('withdrawn activities (TSA-045)', () => {
   });
 });
 
+describe('declined activities (CNT-1004)', () => {
+  // Fixtures stand in for cards: no real activity has been declined.
+  const card = (id: string, reviewDeclined?: { reason: string }) => ({ id, data: { reviewDeclined } });
+
+  it('holds a declined card out of every listing and keeps the rest in order', () => {
+    const cards = [card('a'), card('b', { reason: 'A fixture reason, long enough to read as one.' }), card('c')];
+    expect(listedActivities(cards).map((c) => c.id)).toEqual(['a', 'c']);
+  });
+});
+
 describe('review byline (TSA-034)', () => {
   it('says plainly when no outside expert has reviewed the card', () => {
     expect(reviewByline(undefined, 'November 13, 2026')).toBe('Not yet reviewed by an outside expert.');

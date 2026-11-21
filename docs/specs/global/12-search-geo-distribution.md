@@ -133,6 +133,8 @@ Risks / not doing: Do not redirect everything to the homepage.
 ### SEO-006 · Page-type rules and the canonical activity
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): CI now fails on an exact duplicate title, H1 or description (`check-duplicates.mjs --exact`); 0 today across 16,641 indexable pages. The page-type field and the H1 pattern rule are not built.
+
 Why: "One idea, many adaptations" is the product's core claim [MISSION, "What makes us different" 3]. Separate pages per audience would create near-duplicates [SEO.md §4.1].
 
 What: Adopt the page-type rules in this file as the release standard. Each new page's brief declares its type and its canonical activity.
@@ -286,6 +288,9 @@ Risks / not doing: Do not link by keyword similarity alone. Related activities a
 
 ### SEO-015 · Duplicate and near-duplicate audit
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): exact duplicates are blocked in CI (`--exact`). The 23 near-duplicate body pairs at 0.5 need an editor's decision, so `--strict` stays out of CI.
+
 Evidence: `site/scripts/check-duplicates.mjs` (`pnpm run check:duplicates`, `--strict` optional, not in CI), `site/src/lib/similarity.ts` and tests; first run 2026-11-15 on a fresh build: 15,731 pages, 1 exact H1 duplicate, 11 near-duplicate pairs at the provisional 0.5 threshold. Method, counts and example pairs in [duplicate-audit.md](duplicate-audit.md). Threshold awaits editor sample review; flagged pairs need decisions.
 
 Why: Mass-similar pages are the main risk the strategy names [SEO.md §14; VISION counter-metrics]. Duplication should be caught before it ships, not in a quarterly review.
@@ -505,6 +510,8 @@ Risks / not doing: Do not trade accessibility for speed effects [performance rul
 
 ### SEO-029 · Canonical and parameter policy
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): the large-print card canonicalizes to its activity page; `check-site` allows a non-self canonical only for templates listed in `site/scripts/canonical-lib.mjs` and only to a built, indexable page. No crawl report has been run.
 
 Why: Filter states and print views create duplicates. Wrong canonicals hide good pages [SEO.md §4.1, §6.1].
 

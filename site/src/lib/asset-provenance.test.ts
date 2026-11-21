@@ -1,7 +1,8 @@
+import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import { ALL_SERVED_PICTURES } from '../data/pictures';
+import { ALL_SERVED_PICTURES, pictureSvg } from '../data/pictures';
 
 /**
  * TSA-038: every image the website serves has a rights and consent entry in
@@ -27,6 +28,10 @@ interface SiteImage {
   consent: string;
   release_ref: string | null;
   logged_on: string;
+  sha256?: string;
+  alt: string | null;
+  decorative?: boolean;
+  surfaces: string[];
 }
 
 const register = JSON.parse(readFileSync(REGISTER_PATH, 'utf8')) as { site_images?: SiteImage[] };
@@ -122,5 +127,34 @@ describe('every image the website references has an entry', () => {
       })
       .map((img) => img.url);
     expect(stale).toEqual([]);
+  });
+});
+
+describe('recorded hashes, alt text and surfaces (PLAT-003)', () => {
+  const sha256 = (text: string) => createHash('sha256').update(text, 'utf8').digest('hex');
+
+  it('records the hash of every drawn picture as it is served', () => {
+    const drawn = images.filter((i) => i.kind === 'drawn-svg');
+    expect(drawn.length).toBe(ALL_SERVED_PICTURES.length);
+    for (const img of drawn) {
+      const id = img.url.replace('/pictures/', '').replace('.svg', '');
+      const picture = ALL_SERVED_PICTURES.find((p) => p.id === id);
+      expect(picture, img.id).toBeDefined();
+      expect(img.sha256, img.id).toBe(sha256(pictureSvg(picture!)));
+    }
+  });
+
+  it('gives every record a hash, an alt value and a surfaces list', () => {
+    for (const img of images) {
+      expect(img.sha256 ?? '', `${img.id}: sha256`).toMatch(/^[0-9a-f]{64}$/);
+      expect(img.alt === null || typeof img.alt === 'string', `${img.id}: alt`).toBe(true);
+      expect(Array.isArray(img.surfaces), `${img.id}: surfaces`).toBe(true);
+    }
+  });
+
+  it('marks an empty alt as decorative, and a non-empty alt as not decorative', () => {
+    for (const img of images.filter((i) => typeof i.alt === 'string')) {
+      expect(img.decorative, `${img.id}: decorative`).toBe(img.alt === '');
+    }
   });
 });

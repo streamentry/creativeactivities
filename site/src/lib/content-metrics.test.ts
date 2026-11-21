@@ -50,11 +50,11 @@ describe('reading one page (MET-010, MET-015)', () => {
 
   it('reads a page with no review and no sources as exactly that', () => {
     const facts = pageFacts('hub', 'h', fm(['title: "H"', 'updated: 2026-02-02', 'sources: []']));
-    expect(facts).toMatchObject({ health: false, hasReviewRecord: false, reviewDate: null, sources: 0, datedSources: 0, checked: '2026-02-02' });
+    expect(facts).toMatchObject({ health: false, hasReviewRecord: false, reviewDate: null, sources: 0, datedSources: 0, checked: null });
   });
 
-  it('falls back from review date to updated to published, and never invents a date', () => {
-    expect(pageFacts('hub', 'h', 'published: 2026-01-05').checked).toBe('2026-01-05');
+  it('never invents a review date: an edit or a publication date is not a review', () => {
+    expect(pageFacts('hub', 'h', 'published: 2026-01-05').checked).toBeNull();
     expect(pageFacts('hub', 'h', 'title: "H"').checked).toBeNull();
     expect(pageFacts('hub', 'h', 'updated: 2026-13-45').updated).toBeNull();
   });
@@ -131,6 +131,26 @@ describe('reviewed coverage (MET-010)', () => {
       '2026-11-17',
     );
     expect(r.other).toEqual({ total: 3, current: 1, stale: 2, none: 0 });
+  });
+});
+
+describe('the review clock (MET-011, PLAT-012)', () => {
+  it('reports a page by its review date, even when a later edit has updated it', () => {
+    const facts = pageFacts('activity', 'a', fm(['updated: 2026-06-01', 'review:', '  name: R', '  date: 2026-03-01']));
+    expect(facts.checked).toBe('2026-03-01');
+  });
+
+  it('reports a page with no review record as never reviewed, not as checked on its updated date', () => {
+    const facts = pageFacts('guide', 'g', fm(['title: "G"', 'published: 2025-01-01', 'updated: 2026-06-01']));
+    expect(facts.checked).toBeNull();
+    expect(overdueReviews([facts], '2026-11-16')).toMatchObject({ overdue: 0, undated: 1, total: 1 });
+  });
+
+  it('does not clear an overdue page by editing it: a review record is needed to move the date', () => {
+    const edited = pageFacts('guide', 'g', fm(['title: "G"', 'published: 2024-01-01', 'updated: 2026-11-01']));
+    expect(edited.checked).toBeNull();
+    const reviewed = pageFacts('guide', 'g', fm(['title: "G"', 'updated: 2026-11-01', 'review:', '  name: R', '  date: 2024-01-01']));
+    expect(overdueReviews([reviewed], '2026-11-16').overdue).toBe(1);
   });
 });
 
