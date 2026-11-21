@@ -530,6 +530,14 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Seasonal puzzle pack chooses a month, opening on the current month | GAME-040 partial | Built by a Haiku subagent; seven everyday pictures per month, no festivals; three months lean on northern images (marked) |
 | Long steps and hub sentences shortened | TSA-008 partial | Built by a Haiku subagent, which also joined 40 short step pairs with "since"; review restored 26 cards (longer sentences, one changed meaning) and kept three cards' real fixes at version 2 |
 
+### Batch 61 (2026-11-21): partner sheets, printable card PDFs and a 96 px header logo
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Three one-page partner sheets (library programming, activity director summary, facilitator note), held from search, linked from the English for-organizations page, with a feedback line on screen only | SEO-025 partial | Checked against the SEO-025 spec. Fixes: each sheet prints on one A4 and one Letter page (the library sheet had spilled onto two), print color from the print token instead of black, and a feedback line (the spec asks for feedback). No logo, partner name or endorsement; card names and times come from the live cards, and the build fails if a card is missing or withdrawn |
+| Print-ready activity card PDFs for A4 and Letter (`card-pdf-lib.mjs`, with tests) | PLAT-019 | Reviewed before this batch |
+| Header logo at 96 px (`brand-mark.png`) | No spec item | The header mark only, no partner logo; not separately reviewed in this batch |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
