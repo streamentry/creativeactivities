@@ -2,12 +2,13 @@
 /**
  * Crisis-safe route (WEB-061). Shown on pages that invite talk about feelings, grief or loss.
  * All three routes are listed; the page does not guess where the visitor lives.
- * Numbers were checked against official pages on CHECKED_ON (988lifeline.org, samaritans.org).
+ * The routes, numbers and check dates live in src/data/crisis-routes.ts.
  */
-export const CHECKED_ON = '2026-11-15';
+import { CRISIS_CHECKED_ON, CRISIS_PRINT_LINE, CRISIS_ROUTES } from '../data/crisis-routes';
+
+export const CHECKED_ON = CRISIS_CHECKED_ON;
 /** The same routes as the box below, in one line for printed cards (TSA-027). */
-export const PRINT_CRISIS_LINE =
-  'United States: call or text 988, 24 hours a day. United Kingdom and Ireland: Samaritans on 116 123, free, day or night. Anywhere else: local emergency services.';
+export const PRINT_CRISIS_LINE = CRISIS_PRINT_LINE;
 ---
 <aside class="notice crisis-route" aria-labelledby="crisis-route-title">
   <div>
@@ -17,9 +18,9 @@ export const PRINT_CRISIS_LINE =
       You do not need to explain why first.
     </p>
     <ul>
-      <li><strong>United States:</strong> call or text <strong>988</strong>, 24 hours a day.</li>
-      <li><strong>United Kingdom and Ireland:</strong> call <strong>Samaritans on 116 123</strong>. The call is free, day or night.</li>
-      <li><strong>Anywhere else:</strong> contact your local emergency services.</li>
+      {CRISIS_ROUTES.map((r) => (
+        <li><strong>{r.region}:</strong> {r.lead}{r.emphasis !== null && <> <strong>{r.emphasis}</strong></>}{r.tail}</li>
+      ))}
     </ul>
     <p class="muted">
       Numbers checked on {CHECKED_ON}. This note does not collect anything you read or type, and it does not assess anyone's

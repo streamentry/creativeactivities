@@ -77,7 +77,8 @@ describe('TSA-027: crisis route on printed cards and activity pages', () => {
     expect(card).toContain('data-crisis-route');
     const component = read('../components/CrisisRoute.astro');
     expect(component).toContain("PRINT_CRISIS_LINE =");
-    expect(component).toContain('988');
-    expect(component).toContain('116 123');
+    const data = read('../data/crisis-routes.ts');
+    expect(data).toContain('988');
+    expect(data).toContain('116 123');
   });
 });
