@@ -1,10 +1,11 @@
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { GAMES } from './games';
 import { PACKS } from './packs';
 import { PATHS } from './paths';
 import { packVersion, paperGameCount, printableGroups } from './printables';
+import { NOINDEX_PAGES } from '../lib/noindex-pages';
 
 const PAGES = fileURLToPath(new URL('../pages', import.meta.url));
 const updated = new Map([
@@ -65,5 +66,42 @@ describe('paperGameCount', () => {
     const count = paperGameCount();
     expect(count).toBeGreaterThan(0);
     expect(count).toBeLessThan(GAMES.length);
+  });
+});
+
+/** CNT-007: the keepsake card and the family note are built, listed, held from search and free of forbidden wording. */
+describe('CNT-007 printable templates', () => {
+  const NEW_PAGES = ['keepsake-card', 'family-note'];
+  // Words the printed copy must never use: no memory test, score, clinical or care-record language, and no praise-as-grading.
+  const FORBIDDEN = ['score', 'scored', 'scoring', 'test', 'testing', 'brain', 'memory', 'recall', 'remember', 'cognitive', 'cognition', 'clinical', 'patient', 'diagnos', 'prescri', 'treatment', 'therapy', 'therapeutic', 'outcome', 'performance', 'progress', 'assessment', 'improve', 'correct', 'failed', 'mistake', 'well done', 'good job', 'quiz'];
+  const source = (slug: string) => readFileSync(fileURLToPath(new URL(`../pages/printables/${slug}.astro`, import.meta.url)), 'utf8');
+  // The visible copy: drop the frontmatter comment and the style block.
+  const visibleCopy = (slug: string) => source(slug).replace(/^---[\s\S]*?---/, '').replace(/<style>[\s\S]*<\/style>/, '');
+
+  it('has a page for each new template, listed on the printables index', () => {
+    const hrefs = items.map((i) => i.href);
+    for (const slug of NEW_PAGES) {
+      expect(existsSync(`${PAGES}/printables/${slug}.astro`), slug).toBe(true);
+      expect(hrefs, slug).toContain(`/printables/${slug}/`);
+    }
+  });
+
+  it('is held from search and the sitemap through NOINDEX_PAGES and the page noindex', () => {
+    for (const slug of NEW_PAGES) {
+      expect(NOINDEX_PAGES.has(`/printables/${slug}/`), slug).toBe(true);
+      expect(visibleCopy(slug), slug).toMatch(/<BaseLayout[\s\S]*?\bnoindex\b[\s\S]*?>/);
+    }
+  });
+
+  it('is in the one-sheet print check', () => {
+    const checkPrint = readFileSync(fileURLToPath(new URL('../../scripts/check-print.mjs', import.meta.url)), 'utf8');
+    for (const slug of NEW_PAGES) expect(checkPrint, slug).toContain(`'/printables/${slug}/'`);
+  });
+
+  it('has none of the forbidden words in its visible copy', () => {
+    for (const slug of NEW_PAGES) {
+      const found = FORBIDDEN.filter((word) => new RegExp(`\\b${word}`, 'i').test(visibleCopy(slug)));
+      expect(found, slug).toEqual([]);
+    }
   });
 });

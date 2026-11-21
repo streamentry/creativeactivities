@@ -118,6 +118,16 @@ export function printableGroups(input: PrintableInput): PrintableGroup[] {
           label: 'Blank activity card',
           note: 'A two-sided card to write your own activity, with the same headings as the cards on this site.',
         },
+        {
+          href: '/printables/keepsake-card/',
+          label: 'Keepsake card',
+          note: 'A thank-you card to write after an activity together, with a space for a drawing or a signature.',
+        },
+        {
+          href: '/printables/family-note/',
+          label: 'Family note',
+          note: 'A short note for another family member or a visiting helper: what was enjoyed today and what to try next time.',
+        },
       ],
     },
   ];

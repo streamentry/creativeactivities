@@ -310,12 +310,15 @@ async function translatedPage(context, base, failures, record, type, label, url,
 }
 
 /**
- * CNT-007: the "What I have" checklist is one sheet, and the blank activity card is one two-sided sheet (two pages),
- * each on A4 and on US Letter. The site header is hidden in print and the body text is at least 14 pt.
+ * CNT-007: the "What I have" checklist, the keepsake card and the family note are one sheet each; the blank activity card is
+ * one two-sided sheet (two pages). Each is checked on A4 and on US Letter. The site header is hidden in print and the body
+ * text is at least 14 pt.
  */
 export const CNT7_TEMPLATES = [
   { type: 'what I have checklist', url: '/printables/what-i-have-checklist/', pages: 1 },
   { type: 'blank activity card', url: '/printables/blank-activity-card/', pages: 2 },
+  { type: 'keepsake card', url: '/printables/keepsake-card/', pages: 1 },
+  { type: 'family note', url: '/printables/family-note/', pages: 1 },
 ];
 const CNT7_MIN_PT = 14;
 
@@ -329,7 +332,7 @@ async function cnt7Templates(context, base, failures, record) {
       return !!header && getComputedStyle(header).display === 'none';
     });
     const textPt = await page.evaluate(() => {
-      const sizes = [...document.querySelectorAll('.checklist__sheet p, .checklist__sheet li, .checklist__sheet h2, .checklist__sheet h3, .blank-card p, .blank-card li, .blank-card h2, .blank-card h3')]
+      const sizes = [...document.querySelectorAll('.checklist__sheet p, .checklist__sheet li, .checklist__sheet h2, .checklist__sheet h3, .blank-card p, .blank-card li, .blank-card h2, .blank-card h3, .keepsake p, .keepsake h2, .keepsake h3, .family-note p, .family-note h2, .family-note h3')]
         .filter((el) => el.offsetParent !== null && el.textContent.trim() !== '')
         .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
       return sizes.length ? Math.min(...sizes) : null;
