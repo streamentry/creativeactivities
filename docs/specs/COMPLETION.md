@@ -570,6 +570,8 @@ Each of these blocks work that no one else can unblock. The last column is a sug
 
 ## Next batches (buildable without a person)
 
+Triage of the 162 `new` rows (2026-11-22): [global/new-items-triage.md](global/new-items-triage.md).
+
 From the 2026-11-19 audit of the partial items (batch 52); each gap was checked against the code. Most items stay partial after the gap is built, because a person is still needed.
 
 1. Website: search returns guide-only results (WEB-003); a games filter from the games table (WEB-051); right-to-left and long-word print checks (WEB-043); Core Web Vitals lab timing in CI (WEB-074, SEO-028, PLAT-036).
