@@ -11,7 +11,7 @@ from `HELD_FROM_INDEX` in `site/src/i18n/locales.ts`.
 The spend gate for every language is a maintainer decision (day-30 rule, L10N-002). No
 review budget is committed beyond it without that decision.
 
-Summary: app strings complete 50 of 50; website UI complete 3 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
+Summary: app strings complete 50 of 50; website UI complete 7 of 50; store listing present 50 of 50; native reviewer recorded 0 of 50; website reviewed 0 of 50; indexable today 50 of 50.
 
 <!-- cspell:disable -->
 
@@ -49,12 +49,12 @@ Summary: app strings complete 50 of 50; website UI complete 3 of 50; store listi
 | 30 | Kannada | `kn` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 31 | Malay | `ms` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 32 | Malayalam | `ml` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 33 | Odia | `or` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 33 | Odia | `or` | yes | yes | yes | no | no | yes | maintainer decision |
 | 34 | Uzbek | `uz` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 35 | Azerbaijani | `az` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 36 | Assamese | `as` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 37 | Romanian | `ro` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
-| 38 | Nepali | `ne` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 38 | Nepali | `ne` | yes | yes | yes | no | no | yes | maintainer decision |
 | 39 | Javanese | `jv` | yes | yes | yes | no | no | yes | maintainer decision |
 | 40 | Sundanese | `su` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 41 | Igbo | `ig` | yes | yes | yes | no | no | yes | maintainer decision |
@@ -62,10 +62,10 @@ Summary: app strings complete 50 of 50; website UI complete 3 of 50; store listi
 | 43 | Yoruba | `yo` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 44 | Amharic | `am` | yes | no (1 missing) | yes | no | no | yes | maintainer decision |
 | 45 | Pashto | `ps` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 46 | Burmese | `my` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 46 | Burmese | `my` | yes | yes | yes | no | no | yes | maintainer decision |
 | 47 | Sindhi | `sd` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
 | 48 | Somali | `so` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
-| 49 | Oromo | `om` | yes | no (114 missing) | yes | no | no | yes | maintainer decision |
+| 49 | Oromo | `om` | yes | yes | yes | no | no | yes | maintainer decision |
 | 50 | Hausa | `ha` | yes | yes | yes | no | no | yes | maintainer decision |
 
 Outside the launch order (14 codes in `release-status.json`, no gate row until they are placed under L10N-030): `ca`, `cs`, `da`, `el`, `fi`, `he`, `hr`, `hu`, `nb`, `pt-PT`, `sk`, `sl`, `sv`, `mn`.
