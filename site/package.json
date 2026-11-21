@@ -21,6 +21,7 @@
     "check:patterns": "node --max-old-space-size=6144 scripts/check-duplicates.mjs --patterns",
     "check:orphans": "node --max-old-space-size=6144 scripts/check-orphans.mjs",
     "check:print": "node scripts/check-print.mjs",
+    "pdf:cards": "node scripts/build-card-pdfs.mjs",
     "check:visual": "node scripts/check-visual.mjs",
     "check:a11y": "node scripts/a11y-check.mjs",
     "check:lab-timing": "node scripts/check-lab-timing.mjs",

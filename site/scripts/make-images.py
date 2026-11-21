@@ -150,7 +150,8 @@ def main() -> int:
         tmpdir = Path(tmp)
         # The app icon already carries its own margin, so icons use it full bleed.
         app_icon = Image.open(BRAND / "app-icon.png").convert("RGB")
-        for size, name in [(180, "apple-touch-icon.png"), (192, "icon-192.png"), (512, "icon-512.png")]:
+        # brand-mark.png is the header logo (rendered at 44 px, 2x retina = 88 px): small so it does not compete with fonts.
+        for size, name in [(96, "brand-mark.png"), (180, "apple-touch-icon.png"), (192, "icon-192.png"), (512, "icon-512.png")]:
             app_icon.resize((size, size), Image.LANCZOS).save(PUBLIC / "icons" / name, optimize=True)
         app_icon.resize((48, 48), Image.LANCZOS).save(PUBLIC / "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
         # favicon.svg wraps a PNG of the cut-out mark so tabs show the shapes, not a tile.

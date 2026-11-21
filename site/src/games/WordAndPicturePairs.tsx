@@ -6,6 +6,7 @@ import { readAloud, speechOf, type SpeechLike } from '../lib/games/readAloud';
 import { createRng, randomSeed } from '../lib/games/random';
 import {
   WORD_PICTURE_COUNTS,
+  WORD_PICTURE_POOL,
   createWordRound,
   isWordMatched,
   isWordPairsDone,
@@ -22,6 +23,29 @@ import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { pictureNamer } from './shared/PictureTile';
 import { sounds } from './shared/sound';
+
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+
+/**
+ * A saved set (WEB-054): the pairs asked for, the pictures and their words (the same pictures), the pairs made,
+ * the tile waiting for its partner, and the matches kept for Put it back. All must be pictures from the pool.
+ */
+function checkBoard(b: unknown): boolean {
+  if (!isRecord(b) || !isRecord(b.round)) return false;
+  const count = b.count;
+  const pictures = b.round.pictures;
+  const words = b.round.words;
+  if (!(WORD_PICTURE_COUNTS as readonly unknown[]).includes(count)) return false;
+  if (!Array.isArray(pictures) || !Array.isArray(words) || pictures.length !== count || words.length !== count) return false;
+  const inPool = (id: unknown): id is string => typeof id === 'string' && WORD_PICTURE_POOL.includes(id);
+  if (!pictures.every(inPool) || new Set(pictures).size !== count) return false;
+  if (!words.every((id) => inPool(id) && pictures.includes(id)) || new Set(words).size !== count) return false;
+  const onBoard = (id: unknown): boolean => typeof id === 'string' && pictures.includes(id);
+  if (!Array.isArray(b.matched) || !b.matched.every(onBoard)) return false;
+  if (b.before !== null && (!Array.isArray(b.before) || !b.before.every(onBoard))) return false;
+  if (b.selected === null) return true;
+  return isRecord(b.selected) && (b.selected.side === 'picture' || b.selected.side === 'word') && onBoard(b.selected.id);
+}
 
 type Look = 'resting' | 'selected' | 'matched';
 
@@ -155,6 +179,25 @@ export default function WordAndPicturePairs(props: PlayProps) {
     );
   }
 
+  const restoreBoard = (b: unknown) => {
+    if (!checkBoard(b)) return;
+    const saved = b as {
+      count: number;
+      round: { pictures: string[]; words: string[] };
+      matched: string[];
+      selected: { side: WordSide; id: string } | null;
+      before: string[] | null;
+    };
+    setCount(saved.count);
+    setState({
+      round: { pictures: [...saved.round.pictures], words: [...saved.round.words] },
+      matched: [...saved.matched],
+      selected: saved.selected,
+      before: saved.before ? [...saved.before] : null,
+    });
+    setMessage('');
+  };
+
   const done = isWordPairsDone(state);
 
   const tap = (side: WordSide, id: string) => {
@@ -203,6 +246,7 @@ export default function WordAndPicturePairs(props: PlayProps) {
       lang={lang}
       guidance={ui.wordPicture.guidance}
       message={message}
+      place={{ slug: 'word-and-picture-pairs', save: () => ({ count, round: state.round, matched: state.matched, selected: state.selected, before: state.before }), check: checkBoard, restore: restoreBoard }}
       options={options}
       footer={
         <div className="btn-row btn-row--center">

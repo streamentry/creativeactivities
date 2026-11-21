@@ -11,9 +11,10 @@ import {
   showColors,
   startColors,
   tapColor,
+  matchSize,
   type ColorState,
 } from '../lib/games/color-match';
-import type { MatchColorId } from '../data/color-match';
+import { MATCH_COLORS, type MatchColorId } from '../data/color-match';
 import { boardColumns } from '../lib/games/pairs';
 import { createRng, randomSeed } from '../lib/games/random';
 import { ChoiceChips } from './shared/ChoiceChips';
@@ -24,6 +25,28 @@ import { useWide } from './shared/useWide';
 
 const newState = (count: number, previous?: MatchColorId): ColorState =>
   startColors(createColorRound(count, createRng(randomSeed()), previous));
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+/** The saved board, or null when this game cannot show it. */
+function parseBoard(b: unknown): { count: number; state: ColorState } | null {
+  if (!isRecord(b)) return null;
+  const { count, round, found, shown } = b;
+  if (typeof count !== 'number' || !(COLOR_COUNTS as readonly number[]).includes(count) || typeof shown !== 'boolean') return null;
+  if (!isRecord(round)) return null;
+  const { color, matches, pictures } = round;
+  if (typeof color !== 'string' || !MATCH_COLORS.some((c) => c.id === color)) return null;
+  const target = color as MatchColorId;
+  if (!isIdList(pictures, (id) => pictureColor(id) !== undefined)) return null;
+  if (!isIdList(matches, (id) => pictureColor(id) === target) || matches.length !== matchSize(count)) return null;
+  if (!matches.every((id) => pictures.includes(id))) return null;
+  if (!isIdList(found, (id) => matches.includes(id))) return null;
+  return { count, state: { round: { color: target, matches: [...matches], pictures: [...pictures] }, found: [...found], shown } };
+}
 
 /**
  * Color match (GAME-020): a color with its name written beside it, and a board
@@ -118,6 +141,18 @@ export default function ColorMatch(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'color-match',
+        save: () => ({ count, state }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setCount(saved.count);
+          setState(saved.state);
+          setMessage('');
+        },
+      }}
     >
       <div className="color-match__target">
         <span className="color-match__swatch" data-color={round.color} aria-hidden="true" />

@@ -112,6 +112,8 @@ const s = game.slug;
 const play = playProps(lang, s);
 // Photo pairs and Scrapbook read the family's own photos, so they load no analytics.
 const photo = s === 'photo-pairs' || s === 'scrapbook';
+// Picture puzzle accepts a family photo too (GAME-058), so it loads no analytics either (maintainer, 2026-11-21).
+const noAnalytics = photo || s === 'picture-puzzle';
 // WEB-052: the paper partner, or the reason there is none. The rules line is the game's own guidance.
 // A page-kind sheet also prints the scope and pause lines; an island's own sheet fills its page, so it
 // gets the rules and version lines only.
@@ -128,7 +130,7 @@ const card = sheet?.layout === 'card' ? play.ui.decorateACard : undefined;
 const seasonal = sheet?.layout === 'seasonal' ? play.ui.seasonalPack : undefined;
 const baskets = sheet?.layout === 'sort' ? play.content.sorting.themes[sheet.theme]?.baskets : undefined;
 ---
-<BaseLayout title={game.seoTitle} description={game.description} image={ogImage} imageAlt={fill(p.imageAlt, { name: game.name })} jsonLd={jsonLd} analytics={!photo} available={gameLanguages(game.slug)}>
+<BaseLayout title={game.seoTitle} description={game.description} image={ogImage} imageAlt={fill(p.imageAlt, { name: game.name })} jsonLd={jsonLd} analytics={!noAnalytics} available={gameLanguages(game.slug)}>
   <Breadcrumbs items={crumbs} lang={lang} />
   <div class="container">
     <header class="page-head page-head--game">

@@ -314,7 +314,9 @@ Risks / not doing: Do not optimize for passing the check. A rewrite must add con
 ## P1 items
 
 ### SEO-016 · Reminiscence hub (non-clinical)
-Priority P1 · Phase S2 · Status new · Pillars: CARE, CALM, TOGETHER
+Priority P1 · Phase S2 · Status partial · Pillars: CARE, CALM, TOGETHER
+
+Status note (2026-11-22): Built: `site/src/content/hubs/reminiscence-activities.md` and `/reminiscence-activities/`, ten cards. Held from search (`indexable: false`) until a dementia specialist review (CNT-903).
 
 Why: R5 ranks reminiscence third, with App Store reminiscence apps already ranking [R5 §3.1, §6]. Some of the wording is clinical in other sources, so the frame must be ours.
 
@@ -329,7 +331,9 @@ Depends on: SEO-008, SEO-012.
 Risks / not doing: Do not run reminiscence as a memory exercise. The App Store brain-training pattern is what we avoid [R4 §7].
 
 ### SEO-017 · Crafts for limited hand strength or arthritis
-Priority P1 · Phase S2 · Status new · Pillars: MAKE, CARE
+Priority P1 · Phase S2 · Status partial · Pillars: MAKE, CARE
+
+Status note (2026-11-22): Built: `site/src/content/hubs/easy-grip-crafts.md` and `/easy-grip-crafts/`, ten cards with easier-grip versions. Held from search (`indexable: false`) until an occupational or hand therapist has reviewed them.
 
 Why: Adaptation is the differentiator; few sites explain grip and tool changes [R5 §6 rank 2].
 
@@ -548,7 +552,9 @@ Risks / not doing: Do not index a language to see if it ranks.
 ### SEO-031 · Hreflang implementation
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
-Evidence: each page lists itself and the other languages it exists in as `hreflang` alternates, with a self-referencing canonical and an `x-default` for the English page. `site/scripts/check-site.mjs` now checks, on all built pages, that each page lists itself, that no language code repeats, that every alternate is a built page that links back, and that `x-default` is one of the pages listed; it failed on 10,541 pages when first run. The cause was the 2026-11-15 guide retirement: `x-default` and the translated retired section's index pointed at English addresses that now redirect. The layout now leaves out `x-default` where English is not in the set, and a retired section no longer lists its English redirect as an alternate; the check passes on 16,526 pages, and removing one back-link from a built page makes it fail. `site/src/middleware.ts` only rewrites links inside translated pages and redirects nothing; the language choice on the English home page reads the browser's language list and never the address, and a saved choice always wins. Not done: every one of the 189 languages is advertised as an alternate because none is held from the index (`HELD_FROM_INDEX` is empty; the index decision is L10N-033 in [13](13-localization.md)), so there is no reviewed-locale gate yet; alternates are built from path and the content list of languages, not from a mapping of content identifiers; no check yet that a page with only part of its text translated is left out.
+Status note (2026-11-22): Reciprocal hreflang is checked on every built page by `site/scripts/check-site.mjs`; `site/src/middleware.ts` does no IP-based redirect. Not done: held languages and the rule for partial translations.
+
+Evidence: each page lists itself and the other languages it exists in as `hreflang` alternates, with a self-referencing canonical and an `x-default` for the English page. `site/scripts/check-site.mjs` now checks, on all built pages, that each page lists itself, that no language code repeats, that every alternate is a built page that links back, and that `x-default` is one of the pages listed; it failed on 10,541 pages when first run. The cause was the 2026-11-15 guide retirement: `x-default` and the translated retired section's index pointed at English addresses that now redirect. The layout now leaves out `x-default` where English is not in the set, and a retired section no longer lists its English redirect as an alternate; the check passes on 16,526 pages, and removing one back-link from a built page makes it fail. `site/src/middleware.ts` only rewrites links inside translated pages and redirects nothing; the language choice on the English home page reads the browser's language list and never the address, and a saved choice always wins. Status note (2026-11-21): the seven weakest machine translations (Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo) are held from the index in `HELD_FROM_INDEX` until a native reviewer checks each (L10N-033 in [13](13-localization.md)); the other languages are advertised as alternates. Not done: no reviewed-locale gate for the rest, so the held set is a list, not a rule; alternates are built from path and the content list of languages, not from a mapping of content identifiers; no check yet that a page with only part of its text translated is left out.
 
 Why: Language alternates help the right page reach the right reader only when they are reciprocal and exact [SEO.md §8.1].
 
@@ -608,9 +614,11 @@ Depends on: [TSA](14-trust-safety-accessibility-privacy.md) claims policy.
 Risks / not doing: Do not expand it into a keyword list.
 
 ### SEO-035 · AI crawler policy
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
 
-Why: Search crawling and model training are separate controls [SEO.md §6.2]. The 2026-10-30 check showed everything allowed, including GPTBot. No one has decided the training question.
+Decision (2026-11-21, maintainer): search crawlers are allowed (Googlebot, Bingbot, OAI-SearchBot, and the other search-answer bots named in `site/src/lib/ai-crawlers.ts`); AI training crawlers are disallowed (GPTBot, Google-Extended, CCBot, ClaudeBot, anthropic-ai, Applebot-Extended, Bytespider). `robots.txt` is generated from `site/src/lib/ai-crawlers.ts`, and `site/src/lib/robots.test.ts` checks the allows, disallows and sitemap line. Live CDN/WAF requests are not yet tested.
+
+Why: Search crawling and model training are separate controls [SEO.md §6.2]. The 2026-10-30 check showed everything allowed, including GPTBot.
 
 What: Write a decision for each named crawler: search (OAI-SearchBot, Bingbot, Googlebot) and training (GPTBot and others). Record the reason. Verify the CDN and WAF pass each crawler.
 
@@ -628,12 +636,12 @@ Risks / not doing: Do not treat `robots.txt` as access control [SEO.md §6.2].
 
 | ID | Item | Priority · Phase · Status | What and acceptance | Depends on |
 | --- | --- | --- | --- | --- |
-| SEO-036 | Holiday and seasonal pages (R5 rank 6) | P2 · S2 · new | Evergreen core with a dated seasonal layer. Holidays come from each locale's calendar, not a US default ([localization](13-localization.md)). Acceptance: no page assumes one holiday. | SEO-009 |
-| SEO-037 | Music activities for seniors (R5 rank 10) | P2 · S2 · new | Creative, non-listening versions such as making a playlist together. Acceptance: no claim about music and mood beyond enjoyment ([R3 §5](research/03-art-therapy-wellbeing.md)). | [CARE](09-pillar-older-adults-dementia.md) |
+| SEO-036 | Holiday and seasonal pages (R5 rank 6) | P2 · S2 · partial | Evergreen core with a dated seasonal layer. Holidays come from each locale's calendar, not a US default ([localization](13-localization.md)). Acceptance: no page assumes one holiday. Status note (2026-11-22): Built: `site/src/content/hubs/seasonal-activities.md` and `/seasonal-activities/`, ten cards for any tradition. Cultural review of holidays and the per-season layer remain. | SEO-009 |
+| SEO-037 | Music activities for seniors (R5 rank 10) | P2 · S2 · exists | Creative, non-listening versions such as making a playlist together. Acceptance: no claim about music and mood beyond enjoyment ([R3 §5](research/03-art-therapy-wellbeing.md)). Status note (2026-11-22): Built: `site/src/content/hubs/music-activities.md`, eight cards that do something with the music. The hub text makes no mood or memory claim. | [CARE](09-pillar-older-adults-dementia.md) |
 | SEO-038 | Life-story and storytelling (R5 rank 11) | P2 · S3 · exists | Low volume, strong fit. Acceptance: prompts ask about objects and everyday things, not loss or diagnosis; crisis route if disclosure is invited. Evidence (2026-11-19): the guide "Making a Life-Story Book Together, One Page at a Time" at `/activities/life-story-book/`, one page per session by making things; prompts are about the object in front of you, never the past, loss or diagnosis, and nothing is quizzed; the crisis route is on; it links eight cards and the reminiscence guide and hub instead of repeating them; a test bans remember, therapy, treatment, diagnosis, loss and grief words. | SEO-016 |
 | SEO-039 | Relaxing art for adults (R5 rank 9) | P2 · S3 · partial | Scoped wording: "relaxing art activities." Acceptance: no "therapy," "healing," or "treatment" wording; non-therapy statement on page; sits under [CALM](10-pillar-creative-wellbeing.md) rules. | [CALM](10-pillar-creative-wellbeing.md) |
 | SEO-040 | Sensory activities for children (R5 rank 12) | P3 · S3 · new | Gated. Starts only after the children's controls in the TSA file are live and the GROW pillar has evidence. Acceptance: no child accounts, no child data, no third-party ads. | [GROW](08-pillar-parenting-kids.md), [TSA file](14-trust-safety-accessibility-privacy.md) |
-| SEO-041 | Broad rainy-day and adult or kids' crafts (R5 ranks 13 to 15) | P3 · S3 · new | Hub-only links, no dedicated pages until an adaptation angle is proven. Acceptance: each page would pass SEO-007. | SEO-007 |
+| SEO-041 | Broad rainy-day and adult or kids' crafts (R5 ranks 13 to 15) | P3 · S3 · new | Hub-only links, no dedicated pages until an adaptation angle is proven. Acceptance: each page would pass SEO-007. Decision 2026-11-21: the seven live guides for parents under `/kids/` stay (they are written for adults, so they are not behind the child-facing gate, and removing them would lose links); no new broad pages. | SEO-007 |
 | SEO-042 | FAQPage on visible questions | P2 · S2 · partial | Only where real questions are visible on the page. Not added to every page for markup. Acceptance: validator passes; questions match visible text. Status 2026-11-21: questions and answers match the visible text on all 95 English FAQ pages (`check:structured-data`, in CI); the external validator run is not done. | SEO-013 |
 | SEO-043 | ItemList on curated collections | P2 · S2 · exists | Hubs and printable packs with visible lists. Acceptance: the list order is on the page. Status 2026-11-21: `check:structured-data` (in CI) checks every English ItemList (28 pages) links its items in the page's order. | SEO-013 |
 | SEO-044 | VideoObject on real videos | P2 · S2 · new | Only with a transcript on the page. Acceptance: metadata matches the video. | SEO-023 |

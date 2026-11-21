@@ -154,6 +154,8 @@ Risks / not doing: Do not claim full conformance without a test record.
 ### TSA-008 · Plain-language standard
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `plain-language.test.ts`). Acceptance criteria that need a person remain open.
+
 Status note (2026-11-21, later): the five steps of 25 words or more (three cards) and the eight hub sentences of 30 words or more are shortened; those cards are at version 2 with a change note. The 38 steps that pair an action with a short reassurance ("Any choice is fine.") are kept as two short sentences: joining them made sentences longer, and the spec asks for short sentences. The editor's checklist on every card is a person's work.
 
 Evidence (2026-11-17): `pnpm review:plain` (`site/scripts/plain-language.mjs` and `plain-language-lib.mjs`) reads the steps of all 53 cards (413 steps) and the sentences of the 14 hubs, and lists what an editor may want to look at: 5 steps of 25 words or more, 40 steps of more than one sentence and 8 hub sentences of 30 words or more. It prints the mean reading grade of a step (4.4) as a prompt and not as a score target. The rule in the acceptance, that no step joins two actions with "and then", is a test in `site/src/lib/plain-language.test.ts`: none (the literal words only: about 33 steps chain actions with ", then" and are not caught) does ("now and then" means "sometimes" and is let through), and the same test stops any step from passing 60 words between reviews. Not done: the editor's checklist on every activity and hub, which is a person's work; the five long steps and the long hub sentences have not been looked at; "one action per step" cannot be checked by a program, so the tool only points at steps of several sentences; and the counts and the word rules are for English only.
@@ -341,6 +343,8 @@ Policy note (2026-11-14): S1 treats every page as child-reachable. Current pages
 ### TSA-019 · No ads or ad technology on child-reachable pages
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `claims.ts`). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): the site has no ad network, retargeting pixel or ad SDK; the default CSP in `site/public/_headers` allows only first-party sources plus Google Tag Manager and Analytics (measurement, not advertising), and Photo pairs, which handles family photos, has a stricter first-party CSP. There is no child-directed page (WEB-072). `check-site` (part of `pnpm verify`) now fails the build on any page that references a known ad network (Google ads, Meta pixel and other ad networks) or loads a script, frame, image, media file or stylesheet from a host other than this site and Google Tag Manager; shown to catch both by injecting them into a built page. It reads page markup, not the scripts GTM itself would load at run time. Remaining: the inventory check (TSA-011) as a recorded release step, the app, and your decision on whether analytics may stay on pages a child could reach.
 
 Why: COPPA requires separate verifiable parental consent before disclosing children's data to third parties, including for targeted advertising [R5 §5.1]. Ads inside activities and games are rejected by product rule [MISSION; R4 §7]. Ad-led feeds on craft platforms drift toward paid placement and trust loss [R1 §7].
@@ -372,6 +376,8 @@ Risks / not doing: Do not cite the standard numbers in public copy until verifie
 ### TSA-021 · Children in media
 Priority P0 · Phase S2 · Status partial · Pillars: GROW, all
 
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `claims.ts`). Acceptance criteria that need a person remain open.
+
 Evidence (2026-11-16): no public image shows a child or any person; `asset-provenance.test.ts` and `child-image-rules.test.ts` fail the build if a logged image shows a child without a release reference or a card picture shows a person. Remaining: a release log for any future child image or video, and the made-for-kids label check on YouTube uploads (no video is published).
 
 Why: Public images of children need an explicit parental release, and video labels have legal effect on YouTube [R5 §4, §5.1].
@@ -387,6 +393,8 @@ Risks / not doing: Do not use a stock child photo as a demonstration of a real a
 
 ### TSA-022 · Parenting content boundaries
 Priority P1 · Phase S2 · Status partial · Pillars: GROW
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 
 Evidence (2026-11-16): the claims lint (`site/src/lib/claims.ts`) now fails on copy that says an activity builds, develops, boosts, improves, strengthens, teaches or promotes a named skill or quality (fine motor, literacy, vocabulary, coordination, confidence, creativity and the like) and on "skill-building", unless the sentence is negated, a question, a quotation, a warning or cited research. It runs over all English cards, hubs and guides (including the kids section), the interface, game and app strings and the store copy; no current copy needed changing. `site/scripts/check-site.mjs` fails any page with an autoplaying video or audio element or a frame allowed to autoplay; there are none, and the code has no infinite scroll or load-more. Not done: the "playful practice" wording is a writing rule and is not checked; whether a citation is enough for a skill claim is a reviewer's call (the lint accepts research framing in the same sentence); the child-development reviewer is not yet named.
 
@@ -621,7 +629,9 @@ Depends on: TSA-033.
 Risks / not doing: Do not hide a correction by editing without a log line for safety or claim changes.
 
 ### TSA-036 · Review cadence
-Priority P1 · Phase S2 · Status new · Pillars: all
+Priority P1 · Phase S2 · Status partial · Pillars: all
+Status note (2026-11-22): the review owner is a role, not a name (`reviewOwner`; see PLAT-012), so an overdue page has an owner in the queue. The queue is `pnpm review:queue`, internal and unscheduled; `-- --owner=<role>` gives one owner's list. The 12-month interval is still the proposal; the maintainer has not set it. The reader-facing overdue note and the editorial log entry are not built here.
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: `src/lib/review-queue.test.ts`). Acceptance criteria that need a person remain open.
 
 Why: Activities drift out of date, and some safety information changes with products and standards.
 
@@ -759,6 +769,8 @@ Risks / not doing: Do not commit a test key that works in production.
 
 ### TSA-044 · Forms: anti-abuse without heavy CAPTCHA
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-22): set to partial to match `id-index.tsv` and the COMPLETION.md record (evidence: the COMPLETION.md record only). Acceptance criteria that need a person remain open.
 
 Evidence (2026-11-16): the site has no form that posts to a server. Its 55 forms (the finder, the search box and one "did this fit" form on each of the 53 activity pages) run in the browser; the last one sends a single allowlisted choice as an analytics event and takes no free text. No form sets an action or method, no page loads a captcha service, and the security policy allows form posts only to this site. `site/scripts/check-site.mjs` now fails the build if a form sets an action or method or a page loads a captcha service, so a form that posts data cannot arrive without this item's controls. Not done: the controls themselves (server-side validation, a rate limit, a honeypot and light bot checks), because there is nothing yet to protect; a test of a posting form with browser validation off and with a screen reader.
 

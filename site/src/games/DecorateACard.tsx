@@ -7,6 +7,13 @@ import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
 
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+
+/** A saved board is the occasion chosen: one of the five the card has. */
+function checkBoard(b: unknown): boolean {
+  return isRecord(b) && typeof b.occasion === 'string' && (OCCASIONS as readonly string[]).includes(b.occasion);
+}
+
 /**
  * Decorate a card together (GAME-035): two people decorate a printed greeting card, folded in half. The page
  * shows the chosen occasion, the steps and a small preview of the card; the paper version is the same drawing,
@@ -36,6 +43,14 @@ export default function DecorateACard(props: PlayProps) {
       lang={lang}
       guidance={ui.decorateACard.guidance}
       readAloudText={ui.decorateACard.guidance}
+      place={{
+        slug: 'decorate-a-card',
+        save: () => ({ occasion }),
+        check: checkBoard,
+        restore: (b) => {
+          if (isRecord(b)) setOccasion(b.occasion as Occasion);
+        },
+      }}
       footer={
         <div className="btn-row btn-row--center">
           <button
