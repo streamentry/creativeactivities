@@ -27,6 +27,33 @@
   font-display: swap;
   src: url('/fonts/AtkinsonHyperlegibleNext-Bold.ttf') format('truetype');
 }
+/* Stand-in while the Atkinson file loads (CLS). It is the platform's Arial, scaled so its average glyph width and
+   line metrics match Atkinson's; without it, the swap reflows wrapped text. Latin only (the unicode-range), so
+   other scripts still reach Roboto and the system fonts as before. Percentages from the two files' hhea and
+   advance widths over the built pages' visible text (Regular 0.439 em against Arial's 0.443 em; Bold 0.485 em
+   against 0.490 em). */
+@font-face {
+  font-family: 'Atkinson Fallback';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial'), local('ArialMT');
+  size-adjust: 99%;
+  ascent-override: 99.7%;
+  descent-override: 32%;
+  line-gap-override: 0%;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+@font-face {
+  font-family: 'Atkinson Fallback';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arial Bold'), local('Arial-BoldMT');
+  size-adjust: 99%;
+  ascent-override: 99.4%;
+  descent-override: 31.9%;
+  line-gap-override: 0%;
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -174,8 +201,8 @@
   --gm-glow: rgb(244 205 118 / 60%); /* sun at 60% */
 
   /* Type scale (rem follows the reader's browser text size) */
-  --font-display: 'Atkinson Hyperlegible Next', 'Roboto', system-ui, sans-serif;
-  --font-sans: 'Atkinson Hyperlegible Next', 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Atkinson Hyperlegible Next', 'Atkinson Fallback', 'Roboto', system-ui, sans-serif;
+  --font-sans: 'Atkinson Hyperlegible Next', 'Atkinson Fallback', 'Roboto', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --text-sm: 1rem; /* 16px floor */
   --text-md: 1.125rem; /* 18 */
   --text-lg: 1.25rem; /* 20, default reading */
