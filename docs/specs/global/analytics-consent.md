@@ -47,13 +47,16 @@ Property creativeactivities.org (stream `16331161065`, measurement ID `G-JX0SFMN
 | 2. User-provided data collection | Off | Off (unchanged) |
 | 3. Event data retention | 2 months | 2 months (unchanged) |
 | 3. User data retention | 14 months, reset on new activity | 2 months, no reset on new activity |
-| 4. Container `GTM-5ZSV72WC` | One tag: Google Analytics `G-JX0SFMN3B0`, trigger "Initialization – All Pages". No other triggers, no Custom HTML | Unchanged; already matches step 4 |
+| 4. Container `GTM-5ZSV72WC` triggers and tags | One tag: Google Analytics `G-JX0SFMN3B0`, trigger "Initialization – All Pages". No other triggers, no Custom HTML | Unchanged; already matches step 4 |
+| 4. Google tag › automatic event detection | Page views on history change, scrolls, outbound clicks, form interactions, video engagement and file downloads all on (`__ogt_auto_events`; the site's blocklist does not cover these) | All six off |
+| 4. Google tag › user-provided data capabilities | On, with automatic email, phone and address detection (`__ogt_1p_data_v2`) | Off |
 
-**Still open in the container's Google tag settings (not saved; needs the maintainer's go-ahead):**
+The two Google tag settings were published as container version 2 ("Privacy: automatic events and user-provided data off"). The `gtm.js` that Google served afterwards shows every `__ogt_auto_events` option `false` and `__ogt_1p_data_v2` with `vtp_isEnabled: false`, and the `DEVICE_AND_GEO` and `GOOGLE_SIGNALS` redaction set for all regions.
 
-- "Manage automatic event detection": page views on history change, scrolls, outbound clicks, form interactions, video engagement and file downloads are all on. They should be off to match step 1; the site's blocklist does not cover these Google tag listeners (`__ogt_auto_events` in the published container).
-- "Allow user-provided data capabilities": the published container includes `__ogt_1p_data_v2` with automatic email, phone and address detection enabled. It should be off.
-- Step 5, the Tag Assistant check, has not been run.
+**Step 5, checked in a browser on the live site on 2026-11-21** (the in-app browser with the stored answer removed, not a fresh profile, and the network list read from the page, not Tag Assistant):
+
+- No answer stored: the question shows, there is no `dataLayer`, and nothing is requested from Google.
+- "Allow" stored: the consent default is all denied, then the update grants only `analytics_storage` (`ad_storage`, `ad_user_data` and `ad_personalization` stay denied). After that, `gtm.js` and `g/collect` load.
 
 ## Open
 
