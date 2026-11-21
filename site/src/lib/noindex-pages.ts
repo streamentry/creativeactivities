@@ -13,4 +13,9 @@ export const NOINDEX_PAGES: ReadonlySet<string> = new Set([
   '/for-organizations/care-settings/',
   // A blank card is a form for a family or care home to fill in, not guidance to index (CNT-007).
   '/printables/blank-activity-card/',
+  // Games filter pages (WEB-051): one filter each, canonical to /games/, held from search and the sitemap.
+  '/games/solo/',
+  '/games/together/',
+  '/games/group/',
+  '/games/printable/',
 ]);

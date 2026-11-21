@@ -39,6 +39,21 @@ export type GameSlug =
 
 export type Stage = 'early' | 'middle' | 'late';
 
+/** How people play together (WEB-051 filters). A game may list more than one. */
+export type PlayMode = 'solo' | 'together' | 'group';
+
+/**
+ * A tag that is not known for one game, with the reason (WEB-051: "use undefined and list it").
+ * The fields the table does not settle are left undefined here and filtered out, never guessed.
+ */
+export const SPEC_TAG_GAPS: readonly { slug: GameSlug; field: 'playModes' | 'offline'; reason: string }[] = [
+  {
+    slug: 'picture-bingo',
+    field: 'offline',
+    reason: 'The 05-games table says "Yes (cards)": the printed cards work offline; offline use of the digital caller is not stated.',
+  },
+];
+
 export interface GameInfo {
   slug: GameSlug;
   name: string;
@@ -54,6 +69,18 @@ export interface GameInfo {
   players: string;
   /** Has a paper version; must agree with `GAME_PRINT` in `game-print.ts` (WEB-052). */
   printable: boolean;
+  /**
+   * WEB-051 play mode, from the Co-play column of docs/specs/global/05-games.md. Mapped by hand:
+   * "Solo" is solo, "Side by side", "2 people", "adult and child" and "shared control" are together,
+   * "Group" is group, and "1 or 2" counts as solo and together. From the spec table, not reviewed by a person.
+   * Undefined only where listed in SPEC_TAG_GAPS.
+   */
+  playModes?: readonly PlayMode[];
+  /**
+   * WEB-051 offline-ready, from the Offline column of docs/specs/global/05-games.md ("Yes" is true).
+   * From the spec table, not reviewed by a person. Undefined only where listed in SPEC_TAG_GAPS.
+   */
+  offline?: boolean;
   intro: string;
   howTo: string[];
   tips: string[];
@@ -101,6 +128,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people, side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Tap a picture, then tap the one that matches it. Pictures stay showing by default, so nothing has to be remembered. When two pictures go together they get a gold border and a check mark.',
     howTo: [
@@ -143,6 +172,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['middle', 'late'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'A single picture sits at the top of the screen. Below it are two, three or four pictures. Tap the one that is the same. It is one simple choice at a time, with plenty of room to talk.',
     howTo: [
@@ -180,6 +211,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Shadow matching is a familiar activity from printed worksheets, here with large pictures and nothing to print. A soft shadow sits at the top of the screen and two, three or four pictures wait below. Tap the one that makes the shadow. Shapes like a bicycle, an umbrella or a teacup are easy to talk about too.',
     howTo: [
@@ -221,6 +254,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['together', 'group'],
+    offline: true,
     intro:
       'A small set of pictures, and some of them belong together: four kinds of fruit, perhaps, or four ways to travel. Tap the ones that share a theme. If a picture goes with something else, the game simply names it and waits. After a quiet pause a hint names the theme, and "Show the group" reveals the answer at any time.',
     howTo: [
@@ -262,6 +297,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Three or four pictures, and all but one go together: fruit, perhaps, or ways to travel. Tap the picture that does not belong. If a picture does go with the others, the game simply says so and waits. After a quiet pause a hint names what the others share, and "Show me" points out the odd one at any time.',
     howTo: [
@@ -303,6 +340,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people, or an adult and a child',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'A large patch of color is shown with its name written beside it, and below it are four or six pictures. Tap every picture that is that color: a red apple and a red cup, for example. If a picture is another color, the game simply names it ("The pear is green.") and waits. "Show them" points out the pictures that match at any time, and "Another color" moves on.',
     howTo: [
@@ -352,6 +391,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people, or an adult and a child',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Each picture is cut down the middle. The left halves of two or three pictures are in one column and their right halves, in a different order, are in the other. Tap a half on the left, then tap the half on the right that fits it, such as the spout of a kettle and its handle. Halves that fit are joined into a whole picture. Halves that do not fit simply separate again, and the game says so gently. "Show me" joins them all.',
     howTo: [
@@ -397,6 +438,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people, side by side',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'A square grid of large squares, each with a number, and a key above it with four colors, each with its number and its written name. Choose a color from the key, then tap squares to fill them. The grid is 4 by 4 to start, with 6 by 6 and 8 by 8 when you want more squares. When every square has the color of its number, the grid is the picture on the sheet. Squares filled with any other color are simply your own picture, and the game says nothing about it. "Fill with the numbers" fills every empty square for you.',
     howTo: [
@@ -447,6 +490,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people, side by side',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'A small tile of 3 by 3 squares, or 4 by 4 if you like, and beside it "your pattern": the same tile repeated in a block. Tap a square and it changes to the next of four colors, each with its own written name and shape. The pattern beside it changes at once. There is no right pattern and nothing is saved or sent. "Print my pattern" puts the repeated pattern on one page to keep, color in or give away.',
     howTo: [
@@ -501,6 +546,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'A shared grid of 4 by 4 places, or 3 by 3 if you like. Each of you picks a color, and each color has its own written name and shape. You take turns: on your turn, tap an empty place to put your piece there. When every place has a piece, the picture is built together. There is no winner, because you make it as a pair, and nothing is saved or sent. "Print the grid" puts an empty grid on one page so you can build with two pencils.',
     howTo: [
@@ -557,6 +604,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: "2 people, side by side",
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro: "One canvas, two people. Each of you picks a color, and each color has its own written name. You take turns: draw one line or shape, then pass the pen. Either of you may pass at any time. There is no right picture and no score. Save the picture to your device if you like it, or print the paper version: one sheet, two pens.",
     howTo: [
       "Each of you picks a color. The banner says whose turn it is, with that person's color by name.",
@@ -595,6 +644,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '2 people, at a table',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'A calm tossing game for two people sitting at a table. You lay a printed target on the table and take turns tossing a soft bean bag, or a rolled-up sock, so that it lands on the rings. Each of you keeps a tally by ticking boxes on paper, and you look at the ticks together when you stop. Nothing is timed, nothing is added up on screen, and nothing is saved or sent. Please read the safety notes first: small fillings are a choking hazard.',
     howTo: [
@@ -645,6 +696,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'A quiet making game for two people sitting side by side. You print one sheet, which folds in half to make a card. Choose an occasion, such as a birthday or a thank you, and decorate the front around its words. Then write a message on the back, together or one person writing what the other says. Use crayons, colored pencils or felt-tip pens. There is no right card, and nothing is timed, scored or sent.',
     howTo: [
@@ -695,6 +748,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: false,
+    playModes: ['together'],
+    offline: true,
     intro:
       'The cards start with their pictures showing, or you can lay them face down. On your turn you turn over two cards. If they are a pair, you have found it together and the turn passes. If they are different, they stay face up until you press "Turn them back", so you can both look. Pass at any time. The tally at the top only goes up: the pairs you have found together.',
     howTo: [
@@ -748,6 +803,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'All ages, solo or side by side',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'Choose a season, and the page shows three small paper puzzles drawn from that season\'s pictures: two rows to join with lines, a row of four to circle the one that is different, and a picture to color in. You print one page, then do one, two or all three, at your own pace. Choose "Today is a rest day" instead and there is nothing to do.',
     howTo: [
@@ -798,6 +855,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 or more people, or an adult and a child',
     printable: true,
+    playModes: ['together', 'group'],
+    offline: true,
     intro:
       'Three or four pictures are shown, like dice. Together, make up a story that uses them, in any order. A story can be one sentence or a few, and it can be silly or true to life. There is no right story, and nobody has to name or remember anything. Tap "Roll again" for new pictures, and anyone may pass.',
     howTo: [
@@ -843,6 +902,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '2 or more people',
     printable: true,
+    playModes: ['together', 'group'],
+    offline: true,
     intro:
       'The game starts with one picture and grows the chain one picture at a time. Each person says one sentence about the chain so far, out loud, in turn. A sentence can be about what you see, a place it brings to mind, or something silly. Nothing is typed, recorded or kept, there is no right answer, and anyone may pass. The chain stops at eight pictures, and then you can start a new one.',
     howTo: [
@@ -884,6 +945,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: 'One adult, or a family playing side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Four or six pictures are shown, with their English words in a different order. Tap a word and then its picture, or a picture and then its word. A matched pair stays together with a thick border and the word "Matched". Tap "Read aloud" beside any word to hear it spoken. Nothing is timed or scored, and a tap that does not match simply clears itself.',
     howTo: [
@@ -929,6 +992,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'Sorting is a familiar, satisfying everyday task, like putting away groceries or pairing socks. Tap a picture, then tap the basket where it belongs. There is no rush and no wrong turn.',
     howTo: [
@@ -966,6 +1031,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'A friendly picture is cut into four or nine large pieces and mixed up. The whole picture stays visible as a guide. Tap one piece, then another, and they swap places. No dragging is needed. You can also use one of your own photos. It stays on this device and is never uploaded.',
     howTo: [
@@ -1003,6 +1070,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: '1, 2 or a group',
     printable: false,
+    playModes: ['solo', 'together', 'group'],
+    offline: true,
     intro:
       'Old sayings are often well known for a lifetime. Each card shows a familiar saying with the last word missing, three choices, and a "Show the ending" button. After the ending, a gentle question invites conversation.',
     howTo: [
@@ -1039,6 +1108,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'A small grid with large letters and just a handful of words, all reading across or down. Tap the first letter of a word, then its last letter. Prefer paper? Print a fresh puzzle in one tap.',
     howTo: [
@@ -1076,6 +1147,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'Pages with large, simple shapes: a flower in a pot, a house, a teacup, a butterfly and a sailboat. Tap a color, then tap a part of the picture to fill it. There are no wrong colors.',
     howTo: [
@@ -1113,6 +1186,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people or a group',
     printable: true,
+    playModes: ['together', 'group'],
+    offline: true,
     intro:
       'Each card pairs a familiar picture with an open invitation to talk, like "What is your favorite kind of weather?" There are no right answers and nothing to remember. Choose a theme or shuffle them all.',
     howTo: [
@@ -1153,6 +1228,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: false,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Choose two to six of your own family photos from your phone, tablet or computer, and they become a matching game with large, visible pictures. The photos are shown only inside this page. They are not uploaded, saved or shared, and they disappear when you close the page. If you like, add a few words under each photo, and a gentle hint can point to one pair after a pause. This is a way of looking at family photos together.',
     howTo: [
@@ -1193,6 +1270,7 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle'],
     players: 'A group of 2 to 30',
     printable: true,
+    playModes: ['group'],
     intro:
       'Classic bingo with pictures instead of numbers, so no one needs to read small print. Print a set of unique cards, then use the on-screen caller to show each picture large on a TV, laptop or tablet.',
     howTo: [
@@ -1237,6 +1315,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['middle', 'late'],
     players: '1 person, at a table',
     printable: true,
+    playModes: ['solo'],
+    offline: true,
     intro:
       'A picture outline, such as a house, a boat or a rocket, is divided into spaces. Each space has a piece of the same shape, a large or small triangle, a square, a parallelogram or a rectangle. Tap a piece, then tap a space of the same shape, and it fits. The space turns the piece for you, so there is nothing to drag or rotate. If a piece is a different shape from a space, it stays in the tray with a short note. Nothing is timed or scored, and nothing is saved or sent. "Print this shape" prints the outline and its pieces on one page to color or cut out.',
     howTo: [
@@ -1286,6 +1366,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '2 people, side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Two people sit side by side with one board of twelve places and a tray of eight cut-out pictures. Tap a cut-out, then tap an empty place, and the picture goes there. The turn then passes to the other person. Each person\'s pictures carry their own shape, a circle or a square, so the board shows who placed what without relying on color. Either person may pass, and one step can be taken back. Nothing is timed, scored or saved. "Print the board" prints the empty board and the pictures to cut out.',
     howTo: [
@@ -1334,6 +1416,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'Solo, or 2 people side by side',
     printable: true,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'Choose pictures from a tray of plants and garden things, then tap a bed to put each one in place. A plot has twelve beds, and a bed holds one picture. A summary in words says what the plan has, such as "Your plan has 3 sunflowers, 2 roses and 1 tree." Nothing is timed, scored or saved, and there are no turns. This is a picture plan to talk about, not planting advice. "Print the plan" prints the beds with the pictures you chose, with blank beds to draw in and lines for notes.',
     howTo: [
@@ -1382,6 +1466,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'A group, at a table or on a wall',
     printable: true,
+    playModes: ['group'],
+    offline: true,
     intro:
       'Choose a picture from the coloring pages and a wall of 4, 6 or 9 pages. Print the wall: the first page shows how to put it together, and each of the other pages is one part of the same big picture, with a label such as A1 in its corner. Each person colors one or more pages, in any colors and any style. The pages are then laid out by their labels and joined with tape on the back. Nothing is timed, scored or saved.',
     howTo: [
@@ -1430,6 +1516,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: '1 or 2 people',
     printable: false,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'Sometimes the best activity is a quiet pause. Tap "Start", then breathe in as the circle grows and out as it shrinks. Choose a slower or faster pace. It is not a treatment, just a peaceful moment to share.',
     howTo: [
@@ -1469,6 +1557,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'Alone, or 2 people side by side',
     printable: false,
+    playModes: ['solo', 'together'],
+    offline: true,
     intro:
       'One page and one soft brush. Choose a color and a brush size, then drag across the page to lay down a wash of color. The page has no end point: there is nothing to finish, no picture to get right and no score. Lay down as many washes as you like, or put the brush down and simply look. A fresh page clears everything, and Put it back brings it back.',
     howTo: [
@@ -1506,6 +1596,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'Solo, or 2 people side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Choose two to twelve of your own photos from this device. Each photo becomes one page of a book, large enough to see, with an optional few words under it. Turn the pages with the buttons or the arrow keys, and use "Look together" to sit side by side with just the photos and words. Your photos stay on this device. They are not uploaded or saved, and the book is gone when you close the page. "Print the scrapbook" prints one photo and its words on each page, with page numbers.',
     howTo: [
@@ -1550,6 +1642,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: 'Solo, or 2 people side by side',
     printable: true,
+    playModes: ['together'],
+    offline: true,
     intro:
       'Tap pictures of food and things to do to put them in a picnic basket, which holds up to six. A sentence in words says what is in the basket, such as "Our picnic: bread, cheese, apples and a kite." Then tap "Let\'s play with our picnic" for a gentle matching round made from the chosen pictures. The pictures stay showing, and nothing is timed, scored or saved. "Print our picnic list" prints a checklist of what you chose, with a tick box for each thing to pack.',
     howTo: [
@@ -1597,6 +1691,8 @@ export const GAMES: readonly GameInfo[] = [
     stages: ['early', 'middle', 'late'],
     players: "Alone, or a group in the same room",
     printable: false,
+    playModes: ['solo', 'group'],
+    offline: true,
     intro: "One large picture fills the screen, with one short line under it. Press \"Next picture\" or \"Previous picture\" when you are ready for another. Nothing moves, fades or changes on its own, and nothing is timed. Tap \"Bigger picture\" to show only the picture, so the whole room can see it on a television.",
     howTo: ["Look at the picture together.","Read the line under it aloud if you like.","Press \"Next picture\" or \"Previous picture\" when you are ready.","Tap \"Bigger picture\" to show only the picture, and \"Show everything\" to bring the rest back.","Stop whenever you like with \"Done for now\"."],
     tips: ["Let the person choose when to move on: wait for them to look, then press Next.","For a group, use \"Bigger picture\" on a television or large screen and sit where everyone can see it.","There is no right way to look at a picture. Simply talking about one is a complete activity."],

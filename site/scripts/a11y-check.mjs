@@ -60,6 +60,8 @@ const TEMPLATES = [
   { name: 'guide', path: '/caregiving/after-dementia-diagnosis/' },
   { name: 'section-index', path: '/caregiving/' },
   { name: 'game', path: '/games/picture-pairs/' },
+  // WEB-051 games filter page: a list of game cards, not a game, so it gets the template checks.
+  { name: 'games-filter', path: '/games/together/' },
   { name: 'today', path: '/today/' },
   { name: 'what-i-have', path: '/what-i-have/' },
   // The pack builder twice: empty, and with a pack chosen so the printable cover and its supply checklist are on the page.
@@ -314,12 +316,15 @@ async function axeCheck(page) {
   }, AXE_TAGS);
 }
 
-/** Game pages: every folder in dist/games that has a page. */
+/** WEB-051 filter pages live in dist/games but are lists of games, checked as templates. */
+const FILTER_FOLDERS = new Set(['solo', 'together', 'group', 'printable']);
+
+/** Game pages: every folder in dist/games that has a page, except the filter pages. */
 function gamePaths() {
   const dir = join(DIST, 'games');
   if (!existsSync(dir)) return [];
   return readdirSync(dir, { withFileTypes: true })
-    .filter((d) => d.isDirectory() && existsSync(join(dir, d.name, 'index.html')))
+    .filter((d) => d.isDirectory() && existsSync(join(dir, d.name, 'index.html')) && !FILTER_FOLDERS.has(d.name))
     .map((d) => `/games/${d.name}/`)
     .sort();
 }

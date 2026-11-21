@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { CANONICAL_ALTERNATES, canonicalError } from '../../scripts/canonical-lib.mjs';
 
 const SITE = 'https://creativeactivities.org';
-const built = new Set(['/activity/wrap-a-small-gift/', '/activity/wrap-a-small-gift/large-print/', '/games/scrapbook/']);
+const built = new Set(['/activity/wrap-a-small-gift/', '/activity/wrap-a-small-gift/large-print/', '/games/scrapbook/', '/games/']);
 const options = {
   site: SITE,
   targetIndexable: (target: string) => built.has(target) && target !== '/activity/wrap-a-small-gift/large-print/',
@@ -10,7 +10,12 @@ const options = {
 
 describe('canonical rule (SEO-029)', () => {
   it('lists the large-print card as the only alternate template', () => {
-    expect(CANONICAL_ALTERNATES.map((t) => t.name)).toEqual(['large-print card']);
+    expect(CANONICAL_ALTERNATES.map((t) => t.name)).toEqual(['large-print card', 'games filter']);
+  });
+
+  it('canonicalizes a games filter page to the full index (WEB-051)', () => {
+    expect(canonicalError('/games/together/', `${SITE}/games/`, options)).toBeNull();
+    expect(canonicalError('/games/together/', `${SITE}/games/together/`, options)).toMatch(/should be/);
   });
 
   it('lets an ordinary page canonicalize only to itself', () => {
