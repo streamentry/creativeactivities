@@ -260,24 +260,29 @@ class _PicturePuzzlePageState extends State<PicturePuzzlePage> {
       child: ExcludeSemantics(
         child: SizedBox.square(
           dimension: side,
-          child: Material(
-            color: piece == null ? gmSage : scheme.surface,
-            shape: gmTileShape(
-              scheme,
-              emphasized: _board.selected != null && piece == null,
-            ),
-            clipBehavior: Clip.antiAlias,
-            child: InkWell(
-              onTap: () => setState(() => _board.tapSlot(slot)),
-              child: piece == null
-                  ? Center(
-                      child: Icon(
-                        Icons.add,
-                        size: 40,
-                        color: scheme.onSurfaceVariant,
-                      ),
-                    )
-                  : _piece(piece, side),
+          child: GmFocusRing(
+            radius: BorderRadius.circular(gmRadiusLg),
+            child: Material(
+              color: piece == null
+                  ? scheme.surfaceContainerHighest
+                  : scheme.surface,
+              shape: gmTileShape(
+                scheme,
+                emphasized: _board.selected != null && piece == null,
+              ),
+              clipBehavior: Clip.antiAlias,
+              child: InkWell(
+                onTap: () => setState(() => _board.tapSlot(slot)),
+                child: piece == null
+                    ? Center(
+                        child: Icon(
+                          Icons.add,
+                          size: 40,
+                          color: scheme.onSurfaceVariant,
+                        ),
+                      )
+                    : _piece(piece, side),
+              ),
             ),
           ),
         ),
@@ -298,13 +303,16 @@ class _PicturePuzzlePageState extends State<PicturePuzzlePage> {
       child: ExcludeSemantics(
         child: SizedBox.square(
           dimension: side,
-          child: Material(
-            color: scheme.surface,
-            shape: gmTileShape(scheme, emphasized: selected),
-            clipBehavior: Clip.antiAlias,
-            child: InkWell(
-              onTap: () => setState(() => _board.select(piece)),
-              child: _piece(piece, side),
+          child: GmFocusRing(
+            radius: BorderRadius.circular(gmRadiusLg),
+            child: Material(
+              color: scheme.surface,
+              shape: gmTileShape(scheme, emphasized: selected),
+              clipBehavior: Clip.antiAlias,
+              child: InkWell(
+                onTap: () => setState(() => _board.select(piece)),
+                child: _piece(piece, side),
+              ),
             ),
           ),
         ),

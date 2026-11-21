@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:creative_activities/app/view/main_navigation.dart';
 import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/gentle_activities/data/bedside_setting.dart';
 import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
 import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
 import 'package:creative_activities/features/gentle_activities/models/activity_picture.dart';
@@ -162,6 +163,7 @@ class _GentleHomePageState extends State<GentleHomePage>
     final store = widget.preferencesStore;
     // Read before the first await, so the app-wide setting is updated safely.
     final contrastSetting = context.read<HighContrastSetting?>();
+    final bedsideSetting = context.read<BedsideSetting?>();
     final initial = await store.load();
     if (!mounted) return;
     await showModalBottomSheet<void>(
@@ -175,6 +177,7 @@ class _GentleHomePageState extends State<GentleHomePage>
           final saved = await store.save(next);
           if (mounted) {
             contrastSetting?.set(enabled: next.highContrast);
+            bedsideSetting?.set(enabled: next.bedside);
           }
           return (prefs: next, saved: saved);
         },

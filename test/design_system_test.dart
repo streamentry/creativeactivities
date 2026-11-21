@@ -86,6 +86,13 @@ void main() {
         'success': gmGreen600,
         'warning': gmOrange600,
         'danger': gmDanger,
+        'bedside-canvas': gmBedsideCanvas,
+        'bedside-paper': gmBedsidePaper,
+        'bedside-tile': gmBedsideTile,
+        'bedside-ink': gmBedsideInk,
+        'bedside-muted': gmBedsideMuted,
+        'bedside-outline': gmBedsideOutline,
+        'bedside-danger': gmBedsideDanger,
       };
       for (final entry in expected.entries) {
         expect(
