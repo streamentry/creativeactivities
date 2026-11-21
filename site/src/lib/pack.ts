@@ -79,7 +79,7 @@ export function whyNotAdded(card: PackCardLike | undefined, kind: string, count:
 
 /** A version's name inside a sentence: lower case in quotes, so "make it easier" reads as a name. */
 export function quotedName(label: string): string {
-  return `\u201c${label.toLowerCase()}\u201d`;
+  return `\u201c${label.toLocaleLowerCase('en')}\u201d`;
 }
 
 const plural = (count: number, one: string, many: string): string => (count === 1 ? one : many);
@@ -139,7 +139,7 @@ export function printLabel(tagId: string): string {
 
 /** A group of choices in words: "A glue stick or tape". */
 export function groupLabel(group: readonly string[]): string {
-  const names = group.map(printLabel).map((l, i) => (i === 0 ? l : l.charAt(0).toLowerCase() + l.slice(1)));
+  const names = group.map(printLabel).map((l, i) => (i === 0 ? l : l.charAt(0).toLocaleLowerCase('en') + l.slice(1)));
   return names.join(' or ');
 }
 

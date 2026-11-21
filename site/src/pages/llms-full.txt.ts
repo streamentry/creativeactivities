@@ -29,7 +29,7 @@ export const GET: APIRoute = async () => {
   for (const a of activities) {
     const d = a.data;
     out.push(`## Activity: ${d.name}`, `URL: ${SITE.url}/activity/${a.id}/`, `Updated: ${d.updated.toISOString().slice(0, 10)}`, '', d.summary, '');
-    out.push(...factList(d).map((f) => `- ${f.label}: ${f.value}`), '');
+    out.push(...factList(d, 'en').map((f) => `- ${f.label}: ${f.value}`), '');
     out.push('What you need:', ...d.materials.map((m) => `- ${m}`), '');
     out.push('What to do:', ...d.steps.map((s, i) => `${i + 1}. ${s}`), '');
     out.push('Ways to adapt it:', ...d.variations.map((v) => `- ${VARIATION_LABELS[v.kind]}: ${v.text}`), '');

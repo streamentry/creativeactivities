@@ -79,22 +79,23 @@ export function glance(a: ActivityFacts): string[] {
   return [prep, `${minutesRange(a.activityMinutes)} activity`, where, COST[a.cost]];
 }
 
-/** Full facts for the fact list: label and value pairs. */
-export function factList(a: ActivityFacts): { label: string; value: string }[] {
+/** Full facts for the fact list: label and value pairs, cased for the page language. */
+export function factList(a: ActivityFacts, lang: string): { label: string; value: string }[] {
   return [
     { label: 'Setup', value: a.prepMinutes === 0 ? 'None' : `About ${a.prepMinutes} minutes` },
     { label: 'Activity', value: minutesRange(a.activityMinutes).replace('min', 'minutes') },
-    { label: 'Cost', value: capitalize(COST[a.cost]) },
-    { label: 'Mess', value: capitalize(MESS[a.mess]) },
+    { label: 'Cost', value: capitalize(COST[a.cost], lang) },
+    { label: 'Mess', value: capitalize(MESS[a.mess], lang) },
     { label: 'Energy', value: a.energy === 'low' ? 'Low, mostly sitting still' : 'Some moving about' },
-    { label: 'Where', value: capitalize(a.settings.map((s) => SETTING_LABELS[s]).join(', ')) },
+    { label: 'Where', value: capitalize(a.settings.map((s) => SETTING_LABELS[s]).join(', '), lang) },
     { label: 'Help', value: a.supervision === 'nearby' ? 'Someone nearby' : 'Hands-on help' },
-    { label: 'Who', value: capitalize(a.groups.map((g) => GROUP_LABELS[g].toLowerCase()).join(', ')) },
+    { label: 'Who', value: capitalize(a.groups.map((g) => GROUP_LABELS[g].toLocaleLowerCase(lang)).join(', '), lang) },
   ];
 }
 
-function capitalize(text: string): string {
-  return text.charAt(0).toUpperCase() + text.slice(1);
+/** Upper-cases the first letter in the page language (Turkish i becomes İ, not I). */
+export function capitalize(text: string, lang: string): string {
+  return text.charAt(0).toLocaleUpperCase(lang) + text.slice(1);
 }
 
 /** Finder time choices: the activity's shortest run must fit. */

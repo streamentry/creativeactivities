@@ -251,7 +251,7 @@ export function PackBuilder({ cards, variations, version, address }: Props) {
                 {supplies.length === 0 && <li>No main supplies. Each card lists what to set out.</li>}
               </ul>
               {extras.length > 0 && (
-                <p className="muted">Nice to have: {extras.map((t) => printLabel(t).toLowerCase()).join('; ')}.</p>
+                <p className="muted">Nice to have: {extras.map((t) => printLabel(t).toLocaleLowerCase('en')).join('; ')}.</p>
               )}
               <p className="muted">{ASSUMED_NOTE}</p>
             </div>

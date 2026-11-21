@@ -74,7 +74,7 @@ const game = localizeGame(Astro.props.game, lang);
 const t = ui(lang);
 const p = t.gamePage;
 const l = (path: string) => localePath(lang, path);
-const nameInText = lang === 'en' ? game.name.toLowerCase() : game.name;
+const nameInText = lang === 'en' ? game.name.toLocaleLowerCase(lang) : game.name;
 const path = l(`/games/${game.slug}/`);
 const crumbs = [
   { href: l('/games/'), label: p.crumb },
