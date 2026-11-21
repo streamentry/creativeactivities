@@ -1,29 +1,29 @@
 ---
 title: "Po demencijos diagnozės: nuo ko pradėti"
 seoTitle: "Kiti žingsniai po demencijos diagnozės"
-description: "Aiškus pradžios taškas po demencijos diagnozės: planuokite tolesnę priežiūrą, ieškokite paramos ir įtraukite žmogų į sprendimus jo tempu."
+description: "Aiškus atspirties taškas po demencijos diagnozės: planuokite tolesnę priežiūrą, raskite paramą ir įtraukite žmogų į sprendimus jam tinkamu tempu."
 section: caregiving
 order: 30
 updated: 2026-11-11
 translatedFrom: 2026-11-11
 summary: >-
-  Po diagnozės skirkite laiko ją suvokti ir pasirinkite vieną kitą žingsnį. Paklauskite
-  gydytojų komandos, ką diagnozė reiškia, raskite patikimą paramos šaltinį ir
-  įtraukite žmogų į sprendimus bei ateities planavimą tiek, kiek jis nori.
+  Po diagnozės skirkite laiko ją apdoroti ir pasirinkite vieną kitą žingsnį. Paklauskite
+  priežiūros komandos, ką diagnozė reiškia, raskite patikimą paramos šaltinį ir įtraukite
+  žmogų į sprendimus bei ateities planavimą, kiek jis pats nori.
 keyPoints:
-  - "Nereikia išspręsti visų klausimų iš karto; pradėkite nuo to, kas svarbiausia dabar."
-  - "Paklauskite, kas koordinuos tolesnę priežiūrą, ir užsirašykite klausimus kitam apsilankymui."
-  - "Raskite paramą tam, kuris gavo diagnozę, ir šeimos nariams ar draugams, jei jie to nori."
-  - "Įtraukite žmogų į pasirinkimus ir ateities planavimą, kaip jis pageidauja, ir dėl teisinių ar finansinių klausimų pasitarkite su vietos specialistais."
+  - "Nereikia išspręsti visų klausimų iš karto. Pradėkite nuo to, kas svarbiausia dabar."
+  - "Paklauskite, kas koordinuos tolesnę priežiūrą, ir užsirašykite klausimus kitam vizitui."
+  - "Raskite paramą diagnozę gavusiam žmogui ir šeimos nariams ar draugams, kurie jos nori."
+  - "Įtraukite žmogų į pasirinkimus ir ateities planavimą, kiek jis nori, o teisiniais ar finansiniais klausimais gaukite vietinį profesionalų patarimą."
 faq:
-  - q: "Ką daryti pirmiausia po demencijos diagnozės?"
-    a: "Pradėkite nuo vieno naudingo žingsnio, pavyzdžiui, patikslinkite tolesnės priežiūros planą su diagnozę nustačiusiu gydytoju arba raskite patikimą paramos tarnybą. Žmogui gali prireikti laiko suvokti diagnozę, todėl nereikia per vieną dieną įvykdyti ilgo kontrolinio sąrašo."
+  - q: "Ką pirmiausia daryti po demencijos diagnozės?"
+    a: "Pradėkite nuo vieno naudingo žingsnio, pavyzdžiui, nuo tolesnio plano išsiaiškinimo su diagnozę nustačiusiu gydytoju arba patikimos paramos tarnybos paieškos. Žmogui gali prireikti laiko diagnozei apdoroti, todėl ilgo kontrolinio sąrašo nereikia baigti per vieną dieną."
   - q: "Ar demencijos diagnozė reiškia, kad žmogus nebegali priimti sprendimų?"
-    a: "Pati diagnozė nenusako, ką žmogus gali nuspręsti. Paklauskite, kaip jis nori dalyvauti, o dėl konkretaus sveikatos, teisinio ar finansinio sprendimo kreipkitės į kvalifikuotus vietos specialistus."
-  - q: "Ar reikia pasakoti šeimos nariams ir draugams apie diagnozę?"
-    a: "Tai žmogaus informacija, ir jis pats nusprendžia, ją dalytis. Paklauskite, kam jis nori pasakyti, ką nori, kad kiti žinotų, ir ar nori pagalbos pokalbiui."
-  - q: "Kada kalbėti apie ateities planavimą?"
-    a: "Galite pradėti, kai žmogus bus pasiruošęs. Jei jis nori priimti ar įrašyti būsimus sprendimus, paklauskite kvalifikuotų vietos specialistų, kokios galimybės ir terminai taikomi jūsų gyvenamojoje vietoje. Keli trumpesni pokalbiai gali būti lengvesni nei vienas didelis."
+    a: "Pati diagnozė savaime nenusako, ką žmogus gali nuspręsti. Paklauskite žmogaus, kaip jis nori dalyvauti, o dėl konkretaus sveikatos, teisinio ar finansinio sprendimo ieškokite kvalifikuoto vietinio patarimo."
+  - q: "Ar reikėtų pasakoti šeimai ir draugams apie diagnozę?"
+    a: "Tai žmogaus informacija, ir jis pats nusprendžia, ar ja dalytis. Paklauskite, su kuo jis nori pasikalbėti, ką nori, kad kiti žinotų, ir ar nori pagalbos pokalbyje."
+  - q: "Kada reikėtų kalbėti apie ateities planavimą?"
+    a: "Galite pradėti, kai žmogus bus pasiruošęs. Jei jis nori priimti ar užfiksuoti ateities sprendimus, paklauskite kvalifikuotų vietinių specialistų, kokios galimybės ir terminai taikomi jo gyvenamojoje vietoje. Keletas mažesnių pokalbių gali atrodyti lengviau nei vienas didelis."
 sources:
   - title: "Life After Diagnosis"
     publisher: "Alzheimer's Association"
@@ -49,66 +49,67 @@ sources:
 relatedGames: []
 related: [caregiving/doctor-visit-with-dementia, caregiving/caregiver-self-care, caregiving/choosing-adult-day-program-dementia, caregiving/medication-support-with-dementia]
 health: true
+crisisRoute: true
 ---
 
-Demencijos diagnozė gali sukelti klausimų apie sveikatą, kasdienį gyvenimą, paramą ir ateitį. Žmonės reaguoja skirtingai: vieni nori laiko priimti žinią, kiti nori iš karto pradėti planuoti. Nėra vienos teisingos reakcijos ar tvarkaraščio. Pradėkite nuo to, kas dabar svarbu žmogui, o kitus klausimus grįžkite nagrinėti tada, kai jis bus pasiruošęs.
+Demencijos diagnozė gali sukelti klausimų apie sveikatą, kasdienį gyvenimą, paramą ir ateitį. Žmonės reaguoja įvairiai: vieniems reikia laiko priimti naujieną, kiti nori pradėti planuoti. Nėra vienos teisingos reakcijos ar tvarkaraščio. Pradėkite nuo to, kas žmogui dabar svarbu, o kitus klausimus grįžkite nagrinėti, kai jis bus pasiruošęs.
 
-[Alzheimerio asociacijos vadovas apie gyvenimą po diagnozės](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis) nukreipia į tolesnę priežiūrą, vietos paramą ir ateities planavimą. [Dementia Australia patarimai, kaip susitvarkyti su diagnoze](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis), pabrėžia, kad žmonės reaguoja skirtingai ir gali kreiptis pagalbos, kada tik nori. Šis puslapis yra tik pradžios taškas, o ne asmeninis medicininis, teisinis ar finansinis planas.
+[Alzheimer's Association vadove apie gyvenimą po diagnozės](https://www.alz.org/alzheimers-dementia/diagnosis/life-after-diagnosis) nurodoma, kur kreiptis dėl tolesnės priežiūros, vietinės paramos ir ateities planavimo. [Dementia Australia patarimuose, kaip susitvarkyti su diagnoze](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/coping-your-diagnosis) pabrėžiama, kad žmonės reaguoja skirtingai ir gali kreiptis pagalbos, kai jos nori. Šis puslapis yra atspirties taškas, o ne asmeninis medicininis, teisinis ar finansinis planas.
 
-## Koks vienas naudingas pirmas žingsnis?
+## Koks yra vienas naudingas pirmas žingsnis?
 
-Pasirinkite vieną klausimą, kuris šią savaitę padarytų gyvenimą lengvesnį. Tai gali būti išsiaiškinti, kas koordinuos žmogaus tolesnę priežiūrą, kur gauti patikimos informacijos apie jo diagnozę arba kas yra asmuo, kuriuo jis pasitiki ir su kuriuo gali pasikalbėti. Žmogus gali norėti pats vadovauti, paprašyti kieno nors pagalbos arba palaukti prieš priimdamas sprendimą.
+Pasirinkite vieną klausimą, kuris padarytų šią savaitę lengvesnę. Tai gali būti sužinoti, kas koordinuos žmogaus tolesnę priežiūrą, kur gauti patikimos informacijos apie jo diagnozę, arba nustatyti, kuo jis pasitiki ir su kuo gali pasikalbėti. Žmogus gali norėti pats vadovauti, paprašyti kieno nors padėti arba palaukti prieš priimdamas sprendimą.
 
-Kitam apsilankymui pas gydytoją, jei žmogus nori, kartu užsirašykite kelis klausimus. Galite paklausti, ką reiškia diagnozė, kas dar nežinoma, kada reikia grįžti pas gydytoją ir su kuo susisiekti, jei atsiranda naujas rūpestis. Paprašykite gydytojo paaiškinti bet kokį nesuprantamą terminą ar rekomendaciją. Mūsų [vadovas, kaip ruoštis apsilankymui pas gydytoją](/caregiving/doctor-visit-with-dementia/), turi trumpą pasiruošimo sąrašą.
+Artėjančiam vizitui, jei žmogus nori, kartu užsirašykite keletą klausimų. Galite paklausti, ką reiškia diagnozė, kas dar neaišku, kada reikia grįžti ir su kuo susisiekti, jei atsiranda naujas rūpestis. Paprašykite gydytojo paaiškinti bet kokį neaiškų terminą ar rekomendaciją. Užrašyti klausimus prieš vizitą gali padėti.
 
-Žmogui nereikia vienu metu išmokti visko apie demenciją. Pasirinkite patikimą informaciją apie jam nustatytą diagnozę ir užsirašykite klausimus, kurie kils vėliau. Būkite atsargūs su pažadais, išgydymo teiginiais ar patarimais, kad visiems tiktų tas pats gydymas ar planas.
+Žmogui nereikia iš karto išmokti visko apie demenciją. Pasirinkite patikimą informaciją apie gautą diagnozę, o vėliau kylančius klausimus užsirašykite. Būkite atsargūs su pažadais, teiginiais apie išgydymą ar patarimais, kuriais visiems siūloma laikytis to paties gydymo ar to paties plano.
 
 ## Kur galime rasti paramos?
 
-Paklauskite žmogaus, kokia parama jam padėtų ir kuo jis norėtų pasitikėti. Pirmas pokalbis gali būti su patikimu draugu ar šeimos nariu. Kai kas nori paramos grupės, psichologo, vietos demencijos organizacijos ar pokalbio su gydytojų komanda. Tinkamas pasirinkimas priklauso nuo žmogaus ir to, kas yra prieinama netoli.
+Paklauskite žmogaus, kokia parama jam padėtų ir kas norėtų dalyvauti. Patikimas draugas ar šeimos narys gali būti geras pirmas pokalbis. Kai kurie žmonės renkasi paramos grupę, psichologą ar konsultantą, vietinę demencijos organizaciją arba pokalbį su priežiūros komanda. Tinkamas pasirinkimas priklauso nuo žmogaus ir to, kas yra netoliese.
 
-Parama skirta ir žmogui, kuriam nustatyta diagnozė, ir šeimos nariams bei draugams. Globėjui gali prireikti poilsio ar pagalbos kasdienėse užduotyse; žmogus gali norėti informacijos ar progos susitikti su kitais, gyvenančiais su demencija. Šie poreikiai gali skirtis. Prieš organizuodami grupę, susitardami dėl vizito ar dalydamiesi asmenine informacija, klauskite.
+Parama skirta tiek žmogui su diagnoze, tiek šeimos nariams ir draugams. Prižiūrintis artimasis gali reikalauti trumpo atokvėpio ar pagalbos kasdieninėse užduotyse; žmogus gali norėti informacijos ar progos susitikti su kitais gyvenančiais su demencija. Šie poreikiai gali skirtis. Prieš organizuodami grupę, susitardami dėl vizito ar dalydamiesi asmenine informacija, pasiteiraukite.
 
-Mūsų [savipagalbos vadovas globėjams](/caregiving/caregiver-self-care/) pateikia idėjų, kaip paprašyti kitų pasidalyti parama. Jei žmogus norėtų daugiau pagalbos dienos metu, vadovai apie [suaugusiųjų dienos programas](/caregiving/choosing-adult-day-program-dementia/) ir [pagalbą namuose](/caregiving/choosing-in-home-dementia-care/) paaiškina klausimus, kuriuos verta užduoti vietos paslaugoms.
+Mūsų [vadove apie savipagalbą prižiūrintiems artimuosius](/creative-calm/creative-self-care-for-caregivers/) rasite idėjų, kaip paprašyti kitų pagalbos. Jei žmogui dienos metu reikia daugiau pagalbos, žemiau pateikti klausimai apie būsimą priežiūrą padės sužinoti, ko klausti apie vietines paslaugas.
 
-## Kaip žmogus gali likti sprendimų dalyviu?
+## Kaip žmogus gali likti sprendimų dalimi?
 
-Pati diagnozė nepasako, ką žmogus gali nuspręsti ar kaip nori dalyvauti. Paklauskite žmogaus tiesiogiai. Duokite jam laiko, paaiškinkite pasirinkimą paprasta kalba ir paklauskite, kokia pagalba padarytų pokalbį lengvesnį. Kai kuriuos klausimus geriau aptarti ramioje aplinkoje ar per kelis pokalbius.
+Pati diagnozė nesako, ką žmogus gali nuspręsti ar kaip nori dalyvauti. Klauskite žmogaus tiesiogiai. Skirkite jam laiko, paaiškinkite pasirinkimą paprasta kalba ir paklauskite, kokia parama padarytų pokalbį lengvesnį. Kai kuriuos pasirinkimus lengviau aptarti tyloje ar per kelis pokalbius.
 
-Jei žmogus nori planuoti ateities sveikatos priežiūrą, finansus ar gyvenamąją vietą, pradėkite nuo to, kas jam svarbu ir kuo jis pasitiki. [Dementia Australia planavimo vadovas](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) rekomenduoja aptarti norus su patikimais žmonėmis ir atitinkamais specialistais. Teisiniai dokumentai ir sprendimų priėmimo taisyklės skiriasi priklausomai nuo vietos, todėl prieš remdamiesi bendru vadovu, pasitarkite su kvalifikuotu vietos specialistu. Dėl kasdienių sąskaitų ir sukčiavimo grėsmių žiūrėkite mūsų [vadovą, kaip tvarkyti pinigus su demencija](/caregiving/managing-money-with-dementia/).
+Jei žmogus nori planuoti ateities sveikatos priežiūrą, finansus ar gyvenamąją vietą, pradėkite nuo to, kas jam svarbu ir kuo jis pasitiki. [Dementia Australia planavimo vadove](https://www.dementia.org.au/living-dementia/what-next-after-your-diagnosis/planning-ahead) rekomenduojama aptarti norus su patikimais žmonėmis ir atitinkamais specialistais. Teisiniai dokumentai ir sprendimų priėmimo taisyklės skiriasi priklausomai nuo vietos, todėl prieš remdamiesi bendru vadovu pasikonsultuokite su kvalifikuotu vietiniu specialistu. Dėl kasdienių sąskaitų apmokėjimo ir apgaulės keliamų rūpesčių kreipkitės į banką ar patikimą patarėją.
 
-### Ko galima paklausti pirmame pokalbyje apie ateities priežiūrą?
+### Ko galime paklausti pirmame pokalbyje apie būsimą priežiūrą?
 
-Paklauskite, ar žmogus nori kalbėti dabar, tada kelkite po vieną temą. [Alzheimerio asociacija rekomenduoja kelis trumpus pokalbius, paprastą kalbą ir žmogaus norų, įsitikinimų bei vertybių klausymą](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimerio draugija pastebi, kad žmonės skirtingai jaučiasi pasiruošę galvoti į priekį](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Galima sustoti ir grįžti kitą dieną.
+Paklauskite, ar žmogus nori kalbėti dabar, tada aptarkite po vieną temą. [Alzheimer's Association rekomenduoja kelis trumpus pokalbius, paprastą kalbą ir žmogaus norų, įsitikinimų bei vertybių klausymąsi](https://www.alz.org/professionals/health-systems-medical-professionals/management/advanced-care-planning). [Alzheimer's Society pažymi, kad žmonės skiriasi savo pasirengimu galvoti į priekį](https://www.alzheimers.org.uk/get-support/living-with-dementia/planning-ahead). Sustoti ir grįžti kitą dieną yra gerai.
 
-Jei žmogus nori užuominų, galite pasirinkti vieną iš šių:
+Jei žmogus nori užuominų, pabandykite vieną iš šių:
 
-- „Ko labiausiai norėtumėte išlaikyti savo kasdienybėje?“
-- „Kas norėtų dalyvauti, kai kalbėsime apie ateities priežiūrą?“
-- „Kas padeda jaustis patogiai ir orumą išlaikant, kai reikia pagalbos?“
-- „Ar yra ko nors, ką norėtumėte, kad jūsų gydytojų komanda žinotų apie tai, kas jums svarbu?“
-- „Ar norėtumėte, kad užrašyčiau, ką pasakėte ir kas turėtų tai matyti?“
+- „Ką iš savo kasdienybės labiausiai norėtumėte išsaugoti?“
+- „Ką norėtumėte įtraukti, kai kalbame apie būsimą priežiūrą?“
+- „Kas padeda jaustis patogiai ir gerbiamam, kai reikia pagalbos?“
+- „Ar yra ko nors, ką norėtumėte, kad jūsų priežiūros komanda žinotų apie tai, kas jums svarbu?“
+- „Ar norėtumėte, kad užrašyčiau, ką pasakėte, ir kas turėtų tai matyti?“
 
-Klausykite neprašydami sprendimo iš karto. [JAV Nacionalinis senėjimo institutas nurodo, kad prasmingi pokalbiai apie vertybes ir pageidavimus yra pagrindinis išankstinio priežiūros planavimo elementas](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Jei žmogus sutinka, užsirašykite jo žodžius, datą ir kas buvo šalia. Prieš dalydamiesi užrašais, paklauskite leidimo. Tokie užrašai gali padėti vėlesniems pokalbiams, bet tai nėra teisiniai dokumentai ar medicininiai nurodymai.
+Klausykite, nereikalaudami sprendimo iš karto. [Nacionalinis senėjimo institutas apibūdina prasmingus pokalbius apie vertybes ir pageidavimus kaip esminę išankstinio priežiūros planavimo dalį](https://order.nia.nih.gov/sites/default/files/2024-03/caring-for-a-Person-with-alzheimers-disease.pdf). Jei žmogus sutinka, užrašykite jo žodžius, datą ir kas buvo šalia. Prieš dalydamiesi užrašu, paprašykite leidimo. Šie užrašai gali padėti vėlesniuose pokalbiuose, bet jie nėra teisiniai dokumentai ar medicininiai nurodymai.
 
-Nedarykite prielaidų vien remdamiesi diagnoze ar vienu pokalbiu. Žmogaus pageidavimai gali keistis, ir jis gali paprašyti sustoti arba grįžti prie temos vėliau. Įtraukite jį į sprendimus, kurie jį liečia, tiek, kiek jis nori.
+Nedarykite prielaidų vien remdamiesi diagnoze ar vienu pokalbiu. Žmogaus pageidavimai gali keistis, ir jis gali paprašyti sustoti ar grįžti prie temos vėliau. Įtraukite jį į sprendimus, kurie jį paveikia, tiek, kiek jis nori.
 
 ## Kas turėtų žinoti apie diagnozę?
 
-Žmogus pats nusprendžia, ar, kada ir kaip pasakyti kitiems, nebent konkreti saugumo ar teisinė situacija reikalauja kvalifikuotos profesionalų konsultacijos. Paklauskite, kam jis nori pasakyti ir ką nori, kad tie žmonės žinotų. Jis gali pasirinkti pirmiausia vieną patikimą asmenį arba norėti neplatinti informacijos plačiai.
+Žmogus pats nusprendžia, ar, kada ir kaip sakyti kitiems, nebent konkreti saugumo ar teisinė situacija reikalauja profesionalaus patarimo. Paklauskite, su kuo jis nori pasikalbėti ir ką nori, kad tie žmonės žinotų. Jis gali pirmiausia pasirinkti vieną patikimą asmenį arba nenorėti plačiai dalytis.
 
-Jei žmogus nori pagalbos pokalbyje, paklauskite, ką jis norėtų, kad pasakytumėte, ir ar nori dalyvauti. Dalykitės tik ta informacija, dėl kurios jis sutiko. Mūsų [bendravimo vadovas](/caregiving/communication-tips/) aprašo, kaip pagarbiai kalbėtis su šeima ir kitais.
+Jei žmogus nori pagalbos pokalbyje, paklauskite, ką norėtumėte pasakyti, ir ar jis nori būti šalia. Dalykitės tik ta informacija, kuria jis sutiko dalytis. Jei abejojate, pasitarkite su gydytoju, socialiniu darbuotoju ar kitu patikimu specialistu.
 
 ## Kaip kasdienybė gali tęstis, kol prisitaikome?
 
-Išlaikykite įprastas rutinas ir veiklas, kurios žmogui dar patogios. Diagnozė nereiškia, kad turi nutrūkti kiekvienas pomėgis, išvyka ar namų ūkio vaidmuo. Jei kas nors tampa sunkiau, paklauskite, ką žmogus norėtų pakeisti. Trumpesnis vizitas, pažįstama muzika, pagalba su vienu žingsniu ar kitas dienos laikas gali jam tikti geriau.
+Išlaikykite įpročius ir veiklas, kurios žmogui svarbios ir kur jis dar jaučiasi patogiai. Diagnozė nereiškia, kad kiekvienas pomėgis, išvyka ar namų ūkio vaidmuo turi nutrūkti. Jei kas nors tampa sunkiau, paklauskite, ką žmogus norėtų pakeisti. Trumpesnis vizitas, pažįstama muzika, pagalba su vienu žingsniu ar kitas dienos metas jam gali tikti geriau.
 
-Žmogui taip pat gali prireikti erdvės apdoroti naujieną, nekalbant apie planus. Toliau domėkitės, kaip jam sekasi, bet nepaversdami kiekvieno pokalbio priežiūros posėdžiu. Galima padaryti pertrauką nuo planavimo ir tiesiog praleisti laiką kartu įprastu būdu.
+Žmogui gali reikėti erdvės apdoroti naujieną neaptarinėjant planų. Nuolat domėkitės, bet nepaversdami kiekvieno pokalbio priežiūros susitikimu. Galima padaryti pertrauką nuo planavimo ir praleisti laiką kartu įprastai.
 
 ## Kada kreiptis į specialistą?
 
-Klauskite gydytojo apie klausimus, susijusius su konkrečia diagnoze, sveikata, vaistais ar simptomais. Teisiniais ir finansiniais klausimais kalbėkitės su kvalifikuotais specialistais, kurie išmano taisykles jūsų gyvenamojoje vietoje. Bendra svetainė negali pasakyti, koks gydymas, dokumentas ar paslauga tinka konkrečiam žmogui.
+Klauskite žmogaus gydytojo apie klausimus, susijusius su jo diagnoze, sveikata, vaistais ar simptomais. Dėl teisinių ir finansinių sprendimų kalbėkitės su kvalifikuotais specialistais, kurie išmano taisykles žmogaus gyvenamojoje vietoje. Bendra svetainė negali pasakyti, koks gydymas, dokumentas ar paslauga tinka konkrečiam žmogui.
 
-Staigus sumišimas ar kitas netikėtas sveikatos pokytis reikalauja skubios medicininės pagalbos. [NHS nurodymai dėl staigaus sumišimo](https://www.nhs.uk/symptoms/confusion/) sako, kad reikia nedelsiant kreiptis medicininės pagalbos. Naudokitės vietos skubios pagalbos ar skubios medicinos sistema, kur gyvena žmogus; nemanykite, kad staigus pokytis yra įprasta jo būklės dalis.
+Staigus sumišimas ar kitas netikėtas sveikatos pasikeitimas reikalauja skubios medicininės pagalbos. [NHS patarimas dėl staigaus sumišimo](https://www.nhs.uk/symptoms/confusion/) sako, kad medicinos pagalbos reikia nedelsiant. Naudokitės vietine skubiosios pagalbos ar skubios medicinos sistema, kur gyvena žmogus, ir nemanykite, kad staigus pasikeitimas yra jo įprastos būklės dalis.
 
-Jei planavimas atrodo per sunkus, pasirinkite vieną patikimą asmenį ar tarnybą, kuri padės surūšiuoti klausimus į tuos, kuriuos reikia spręsti dabar, ir tuos, kuriuos galima atidėti. Žmogus gali pats nustatyti tempą ir nuspręsti, dėl ko nori pagalbos. Diagnozė yra svarbi informacija, bet ji nenusako žmogaus interesų, santykių ar kasdienio gyvenimo.
+Jei planavimas atrodo per daug, pasirinkite vieną patikimą asmenį ar tarnybą, kuri padėtų suskirstyti klausimus į neatidėliotinus ir vėlesnius. Žmogus pats nustato tempą ir nusprendžia, kokios pagalbos nori. Diagnozė yra svarbi informacija, bet ji nenusako žmogaus interesų, santykių ar kasdienio gyvenimo.
