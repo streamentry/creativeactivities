@@ -69,13 +69,20 @@ describe('card version rule (PLAT-007)', () => {
     const after = base({ version: 2 });
     const problems = oneCard(base(), after).problems;
     expect(problems.map((p) => p.message)).toEqual([
-      'version changed from 1 to 2 with no change to steps, materials, safety, stopNote, variations',
+      'version changed from 1 to 2 with no change to steps, plainSteps, materials, safety, safetyFlags, stopNote, variations',
     ]);
   });
 
-  it('ignores a change to fields the rule does not list (pictures, plain steps, a new changes entry alone)', () => {
-    const after = base({ changes: [BASE_ENTRY, LOG_ENTRY], plainSteps: ['Lay them out.'] });
+  it('ignores a change to fields the rule does not list (pictures, a new changes entry alone)', () => {
+    const after = base({ changes: [BASE_ENTRY, LOG_ENTRY], images: [{ src: '/pictures/teacup.svg' }] });
     expect(oneCard(base(), after).problems).toEqual([]);
+  });
+
+  it('counts a change to the short steps or the safety flags as a content change', () => {
+    for (const change of [{ plainSteps: ['Lay them out.'] }, { safetyFlags: ['sharp-tool'] }]) {
+      const problems = oneCard(base(), base(change)).problems;
+      expect(problems.length, JSON.stringify(change)).toBeGreaterThan(0);
+    }
   });
 
   it('treats a base card with no version as version 1, so the first version line is not a bump', () => {

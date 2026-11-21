@@ -4,7 +4,7 @@
  * scripts/check-card-versions.mjs reads the files from git; tests pass fixtures.
  *
  * Rules, per card id present in both sets:
- * - A content change (steps, materials, safety, stopNote or variations) needs a
+ * - A content change (steps, plainSteps, materials, safety, safetyFlags, stopNote or variations) needs a
  *   version above the base, and at least one `changes` entry that the base does not have.
  * - A version change with no content change is a problem.
  * - A base card with no `version` counts as version 1, the version every card starts at.
@@ -12,7 +12,7 @@
  */
 
 /** The fields whose change requires a version bump. Other fields (pictures, plain steps, flags) are not listed. */
-export const CONTENT_FIELDS = ['steps', 'materials', 'safety', 'stopNote', 'variations'] as const;
+export const CONTENT_FIELDS = ['steps', 'plainSteps', 'materials', 'safety', 'safetyFlags', 'stopNote', 'variations'] as const;
 
 /** The version a card has when its base has none. Every card starts at 1 (PLAT-007). */
 export const STARTING_VERSION = 1;
@@ -27,7 +27,9 @@ export interface ChangeEntry {
 export interface VersionedCard {
   version?: unknown;
   steps?: unknown;
+  plainSteps?: unknown;
   materials?: unknown;
+  safetyFlags?: unknown;
   safety?: unknown;
   stopNote?: unknown;
   variations?: unknown;
