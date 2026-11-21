@@ -1,4 +1,5 @@
 ---
+id: ca-0031
 name: Make a tissue paper window picture
 seoTitle: "Tissue Paper Window Picture: No Glue, No Cutting"
 description: "Press pre-torn colored tissue paper onto clear sticky film and hang it in a window so light shows through. No glue or cutting for the person; large-grip version."

@@ -1,4 +1,5 @@
 ---
+id: ca-0044
 name: Shape a pinch pot
 seoTitle: "Shape a Pinch Pot: A Gentle Clay Activity Together"
 description: "Shape a small bowl from air-dry clay by pressing with your thumbs, working together at a table. It dries overnight, costs little, and has easier and seated versions."

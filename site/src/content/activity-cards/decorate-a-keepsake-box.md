@@ -1,4 +1,5 @@
 ---
+id: ca-0002
 name: Decorate a keepsake box
 seoTitle: "Decorate a Keepsake Box: A Calm Craft to Share"
 description: "Cover a shoebox with paper or fabric, then choose a few small things to keep inside it. A calm seated craft that costs little, with easier and bedside versions."

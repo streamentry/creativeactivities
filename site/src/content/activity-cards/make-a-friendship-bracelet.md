@@ -1,4 +1,5 @@
 ---
+id: ca-0020
 name: Make a friendship bracelet
 seoTitle: "Make a Friendship Bracelet: A Quiet Hour of Making"
 description: "Braid three strands of thick yarn into a simple bracelet or bookmark, taped to the table. A quiet hour of making, with large-grip and easier versions."

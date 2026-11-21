@@ -1,4 +1,5 @@
 ---
+id: ca-0038
 name: Paint with watercolors
 seoTitle: "Paint With Watercolors Together: A Relaxed Art Activity"
 description: "Paint with watercolors together, letting colors run and blend on wet paper. Non-toxic paint, 10 minutes to set up, seated at a table, no drawing skill needed."

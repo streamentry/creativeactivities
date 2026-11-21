@@ -1,4 +1,5 @@
 ---
+id: ca-0049
 name: Tap a rhythm together
 seoTitle: "Tap a Rhythm Together: Simple Beats to Share"
 description: "Tap along to a steady song on a table, tray or small drum, taking turns to lead. Seated or bedside, with quieter, easier and with-children versions to choose from."

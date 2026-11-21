@@ -244,6 +244,18 @@ export function isIndexable(code: string): boolean {
   return INDEXED_LANGUAGES.has(code);
 }
 
+/**
+ * Languages a native reviewer has signed off, as the website records them.
+ * English is the source. Adding a code records the review (step 3 of
+ * docs/engineering/native-review.md); it does not change indexing. `isIndexable`,
+ * sitemaps and hreflang still follow `HELD_FROM_INDEX` only, until the
+ * maintainer decides whether unreviewed languages are held (COMPLETION.md,
+ * "Decisions only the maintainer can make", the indexing row for L10N-033).
+ * Tests check this list against `localization.languages` in
+ * docs/specs/release-status.json.
+ */
+export const REVIEWED_LANGUAGES: readonly string[] = ['en'];
+
 const BY_CODE = new Map(LOCALES.map((l) => [l.code, l]));
 const BY_PREFIX = new Map(LOCALES.filter((l) => l.prefix).map((l) => [l.prefix, l]));
 const BY_LOWER_CODE = new Map(LOCALES.map((l) => [l.code.toLowerCase(), l.code]));

@@ -1,4 +1,5 @@
 ---
+id: ca-0043
 name: Roll paper beads
 seoTitle: "Roll Paper Beads Together: A Simple Seated Paper Craft"
 description: "Roll thin paper triangles around a pencil with a glue stick to make paper beads, then thread them on a string. Low cost and seated, with a large-grip version."

@@ -1,4 +1,5 @@
 ---
+id: ca-0013
 name: Hold a sing-along at home
 seoTitle: "Hold a Sing-Along at Home: Songs They Choose"
 description: "Hold a small sing-along at home with songs they choose from a phone, radio or memory. Singing, humming, clapping or just listening all count. Seated and free."

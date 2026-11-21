@@ -42,6 +42,8 @@ Risks / not doing: Do not report a language as "translated" in public copy if it
 ### L10N-002 · Launch order and evidence gates
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): `python3 scripts/launch_gates.py --write` generates [launch-gates.md](launch-gates.md) for the 50 launch languages: app strings complete 50, website UI complete 0 (Japanese, for example, lacks 33 UI strings; Chinese 114), store listing 50, native reviewer 0, website reviewed 0, indexable 50. The spend gate is a maintainer decision. The review-order table in the native review guide differs from `release-status.json` from position 20 on, and contradicts itself on which languages go first; the maintainer decides which order holds.
+
 Why: Languages cost review time, and the program has said that global coverage is earned language by language [VISION; roadmap]. An order without gates is a list of hopes.
 
 What: The operative order is the review order in the [native review guide](../../engineering/native-review.md): Spanish, Vietnamese, Japanese, Traditional Chinese, German, French, Korean, Simplified Chinese, Portuguese (Brazil), Italian, Arabic, Russian, then Polish, Dutch, Turkish, Indonesian, Thai, Ukrainian, Hindi, then the top-50 expansion. Each language moves forward only when its gate passes.
@@ -61,6 +63,8 @@ Risks / not doing: The web SEO strategy's focus list differs from this order (Op
 
 ### L10N-003 · Native review workflow
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `REVIEWED_LANGUAGES` in `site/src/i18n/locales.ts` records the website's reviewed languages (English only today) and is tested to match `release-status.json`. It does not change indexing: that stays with the maintainer decision on unreviewed languages. No native reviewer has signed off a language.
 
 Why: A wrong tone, a medical promise or a wrong emergency number does more harm than an awkward sentence [native review, "Why review matters"].
 

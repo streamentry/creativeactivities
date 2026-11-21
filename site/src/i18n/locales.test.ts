@@ -1,7 +1,35 @@
-import { readdirSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
-import { HELD_FROM_INDEX, INDEXED_LANGUAGES, LOCALES, isIndexable, localeOfContentDir, splitLocale } from './locales';
+import {
+  HELD_FROM_INDEX,
+  INDEXED_LANGUAGES,
+  LOCALES,
+  REVIEWED_LANGUAGES,
+  isIndexable,
+  localeOfContentDir,
+  splitLocale,
+} from './locales';
+
+const STATUS_FILE = fileURLToPath(new URL('../../../docs/specs/release-status.json', import.meta.url));
+
+describe('reviewed languages record', () => {
+  it('equals English plus exactly the languages release-status.json marks reviewed', () => {
+    const status = JSON.parse(readFileSync(STATUS_FILE, 'utf8')) as {
+      localization: { languages: Record<string, { status: string }> };
+    };
+    const reviewed = Object.entries(status.localization.languages)
+      .filter(([, entry]) => entry.status === 'reviewed')
+      .map(([code]) => code);
+    expect([...REVIEWED_LANGUAGES].sort()).toEqual(['en', ...reviewed].sort());
+  });
+
+  it('names each language once, and only languages that exist', () => {
+    const codes = new Set(LOCALES.map((l) => l.code));
+    expect(new Set(REVIEWED_LANGUAGES).size).toBe(REVIEWED_LANGUAGES.length);
+    for (const code of REVIEWED_LANGUAGES) expect(codes.has(code), code).toBe(true);
+  });
+});
 
 describe('which languages search engines may index', () => {
   it('indexes English and the machine translations that read acceptably', () => {

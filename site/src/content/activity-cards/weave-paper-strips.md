@@ -1,4 +1,5 @@
 ---
+id: ca-0053
 name: Weave paper strips
 seoTitle: "Weave Paper Strips: A Simple Over-and-Under Craft"
 description: "Weave colored paper strips over and under on a card base that the helper has slit in advance. A calm, hands-on seated craft with low cost and easier versions."

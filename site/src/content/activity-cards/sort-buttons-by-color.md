@@ -1,4 +1,5 @@
 ---
+id: ca-0047
 name: Sort buttons by color
 seoTitle: "Sort Buttons by Color: A Simple Hands-On Activity"
 description: "Sort a bowl of large buttons into a muffin tin or small dishes by color or size, in whatever order they like. Seated at a table, with easier and low-vision versions."

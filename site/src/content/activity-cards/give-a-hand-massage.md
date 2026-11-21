@@ -1,4 +1,5 @@
 ---
+id: ca-0012
 name: Give a hand massage
 seoTitle: "Give a Hand Massage: A Gentle, Ask-First Touch"
 description: "Ask first, then gently massage the back of one hand and each finger with a little plain lotion. Stop at any time. Seated or bedside, with quieter versions."

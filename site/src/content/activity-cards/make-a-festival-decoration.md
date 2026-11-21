@@ -1,4 +1,5 @@
 ---
+id: ca-0019
 name: Make a festival decoration
 seoTitle: "Make a Festival Decoration: A Paper Craft to Share"
 description: "Make a simple paper decoration for a celebration you choose together: a lantern, star, garland or card. Your tradition, your pace, no flames. Easy to adapt."

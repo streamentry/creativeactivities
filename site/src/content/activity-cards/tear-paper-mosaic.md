@@ -1,4 +1,5 @@
 ---
+id: ca-0050
 name: Make a torn paper mosaic
 seoTitle: "Torn Paper Mosaic: A No-Scissors Craft to Share"
 description: "Tear colored paper into pieces and glue them into a simple mosaic together. No scissors needed, low cost, seated at a table, with easier and bedside versions."

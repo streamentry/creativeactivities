@@ -1,4 +1,5 @@
 ---
+id: ca-0026
 name: Make a photo postcard
 seoTitle: "Make a Photo Postcard: A Simple Keepsake Craft"
 description: "Glue a copy of a favorite photo onto card, write one line together and send it to someone special. Seated at a table, low cost, with easier and bedside versions."

@@ -1,4 +1,5 @@
 ---
+id: ca-0005
 name: Draw a map of a favorite place
 seoTitle: "Draw a Map of a Favorite Place Together"
 description: "Draw a simple map together of a street, garden, kitchen or beach they know well, with the helper drawing if asked. An open invitation to talk, never a quiz."

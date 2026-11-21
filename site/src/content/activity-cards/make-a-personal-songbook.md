@@ -1,4 +1,5 @@
 ---
+id: ca-0025
 name: Make a personal songbook
 seoTitle: "Personal Songbook: Collect Favorite Songs Together"
 description: "Make a personal songbook together with favorite song titles, a few lines of lyrics and the stories behind them. Seated, low cost, with easier and bedside versions."

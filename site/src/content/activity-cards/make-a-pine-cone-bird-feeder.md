@@ -1,4 +1,5 @@
 ---
+id: ca-0027
 name: Make a pine cone bird feeder
 seoTitle: "Pine Cone Bird Feeder: A Hands-On Craft to Share"
 description: "Make a pine cone bird feeder together with fat and birdseed, then hang it where you can watch. Low cost, seated at a table, with nut-free and easier options."

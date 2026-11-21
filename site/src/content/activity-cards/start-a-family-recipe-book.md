@@ -1,4 +1,5 @@
 ---
+id: ca-0048
 name: Start a family recipe book
 seoTitle: "Family Recipe Book: Write Down Favorite Dishes Together"
 description: "Start a family recipe book together by talking about favorite dishes and writing them down. Seated at a table, no cooking, low cost, with easier versions."

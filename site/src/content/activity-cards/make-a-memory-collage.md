@@ -1,4 +1,5 @@
 ---
+id: ca-0023
 name: Make a memory collage
 seoTitle: "Memory Collage: A Relaxed Craft to Make Together"
 description: "Make a memory collage together from photos, magazine pictures and paper. 10 minutes to set up, seated at a table, low cost, with easier and bedside versions."

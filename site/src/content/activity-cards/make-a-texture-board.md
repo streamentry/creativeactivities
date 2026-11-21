@@ -1,4 +1,5 @@
 ---
+id: ca-0030
 name: Make a texture board
 seoTitle: "Make a Texture Board: A Hands-On Sensory Craft"
 description: "Glue scraps of fabric, ribbon and household materials onto card to make a texture board together. Low cost, seated or bedside, with easier versions."

@@ -1,4 +1,5 @@
 ---
+id: ca-0021
 name: Make a greeting card
 seoTitle: "Make a Greeting Card Together: A Simple Paper Craft"
 description: "Make a greeting card together to send to someone who will enjoy it. Folded card, a few pictures and a short message, 5 minutes to set up, seated at a table."

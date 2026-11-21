@@ -1,4 +1,5 @@
 ---
+id: ca-0033
 name: Make leaf rubbings
 seoTitle: "Make Leaf Rubbings: A Simple Nature Art Activity"
 description: "Lay leaves under thin paper and rub over them with the side of a crayon to bring up the veins. Free, tidy, at a table or bedside, with easier versions."
