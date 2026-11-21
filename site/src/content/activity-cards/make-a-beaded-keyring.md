@@ -1,4 +1,5 @@
 ---
+id: ca-0015
 name: Make a beaded keyring
 seoTitle: "Make a Beaded Keyring Together: A Small Seated Craft"
 description: "Tie a few large beads onto a cord and fasten it to a split keyring at a table. Beads are a choking hazard, so not for under-threes or anyone who mouths things."

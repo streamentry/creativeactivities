@@ -1,4 +1,5 @@
 ---
+id: ca-0040
 name: Press leaves and flowers
 seoTitle: "Press Leaves and Flowers: A Gentle Nature Craft"
 description: "Collect leaves and flowers, then press them in a heavy book together. Free or low cost, seated at a table, with outdoor, easier and group versions."

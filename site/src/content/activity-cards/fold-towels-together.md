@@ -1,4 +1,5 @@
 ---
+id: ca-0011
 name: Fold towels together
 seoTitle: "Fold Towels Together: A Simple Household Task"
 description: "Fold warm towels from the dryer together and stack them neatly, with no right way to fold. Seated at a table or standing, with easier and seated versions."

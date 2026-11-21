@@ -1,4 +1,5 @@
 ---
+id: ca-0007
 name: Draw repeating patterns
 seoTitle: "Draw Repeating Patterns: A Calm Pencil Activity"
 description: "Fill boxes on a page with lines, loops and dots using a soft pencil or marker. There is no subject and no right answer, and it has easier and bedside versions."

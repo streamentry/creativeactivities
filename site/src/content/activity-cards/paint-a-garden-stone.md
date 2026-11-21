@@ -1,4 +1,5 @@
 ---
+id: ca-0036
 name: Paint a garden stone
 seoTitle: "Paint a Garden Stone Together: An Outdoor Craft"
 description: "Paint a smooth stone together to place in a garden, window box or path. Non-toxic acrylic paint, low cost, at a table indoors or outside in the shade."

@@ -1,4 +1,5 @@
 ---
+id: ca-0009
 name: Draw with oil pastels on dark paper
 seoTitle: "Oil Pastels on Dark Paper: A Bold, Easy Art Activity"
 description: "Draw with bright oil pastels on black or dark paper. Simple shapes, a sky or a flower, with strong contrast and no water. Seated, low cost, with easier versions."

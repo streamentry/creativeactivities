@@ -1,4 +1,5 @@
 ---
+id: ca-0028
 name: Make a playlist together
 seoTitle: "Make a Playlist Together: Songs You Both Enjoy"
 description: "Choose five to eight favorite songs together on a phone, play each one and keep the ones they like. Seated or bedside, with easier and low-vision versions."

@@ -1,4 +1,5 @@
 ---
+id: ca-0035
 name: Move to music in a chair
 seoTitle: "Move to Music in a Chair: Gentle Seated Movement"
 description: "Sway, tap your feet and wave a scarf to a tune they choose, all from a steady chair. Gentle, unhurried and nothing to count. Bedside and easier versions too."

@@ -1,4 +1,5 @@
 ---
+id: ca-0029
 name: Make a sealed shaker
 seoTitle: "Make a Sealed Shaker: Shake Along to Music"
 description: "Fill a small plastic bottle with dried rice, seal the lid and decorate it, then shake along to music. A helper seals it; quieter versions too."

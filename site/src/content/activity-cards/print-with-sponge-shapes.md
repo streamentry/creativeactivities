@@ -1,4 +1,5 @@
 ---
+id: ca-0042
 name: Print with sponge shapes
 seoTitle: "Print with Sponge Shapes: An Easy-Grip Craft"
 description: "Press thick sponge shapes into paint and onto paper to make bold prints together. The helper cuts the shapes first. Seated, with easier and large-grip versions."

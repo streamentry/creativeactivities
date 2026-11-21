@@ -1,4 +1,5 @@
 ---
+id: ca-0034
 name: Match colors to a tune
 seoTitle: "Match Colors to a Tune: A Music and Color Activity"
 description: "Listen to a short tune together, then choose the colored paper that seems to go with it. No drawing and no right answer. Seated or in bed, with easier versions."

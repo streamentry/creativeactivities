@@ -1,4 +1,5 @@
 ---
+id: ca-0045
 name: Sketch what is on the table
 seoTitle: "Sketch What Is on the Table: A Simple Drawing Activity"
 description: "Look at a cup, a piece of fruit or a flower, then draw its outline together with a soft pencil. No drawing skill needed. It is free, seated, and has easier versions."

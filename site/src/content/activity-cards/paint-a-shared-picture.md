@@ -1,4 +1,5 @@
 ---
+id: ca-0037
 name: Paint a shared picture
 seoTitle: "Paint a Shared Picture: A Group Art Activity"
 description: "Paint one large picture together on a sheet taped to the table, with everyone adding in turn. Non-toxic paint for small groups, with easier and seated versions."

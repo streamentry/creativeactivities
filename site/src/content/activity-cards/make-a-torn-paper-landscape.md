@@ -1,4 +1,5 @@
 ---
+id: ca-0032
 name: Make a torn paper landscape
 seoTitle: "Make a Torn Paper Landscape: Layered Strips of Paper"
 description: "Tear long strips of colored paper and layer them into sky, hills and ground on a sheet of card. No scissors, no drawing, and with seated and bedside versions."

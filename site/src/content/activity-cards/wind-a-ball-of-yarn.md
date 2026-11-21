@@ -1,4 +1,5 @@
 ---
+id: ca-0054
 name: Wind a ball of yarn
 seoTitle: "Wind a Ball of Yarn Together: A Relaxed Shared Task"
 description: "Wind loose yarn into a ball together, one person holding and one winding. No setup, low cost, seated or bedside, with easier and less-sensory versions."
