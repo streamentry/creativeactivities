@@ -498,7 +498,7 @@ Risks / not doing: Do not pitch the 11 prospects again without a new gap.
 ### SEO-028 · Core Web Vitals and performance budgets
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
-Status note (2026-11-21): a lab report (`pnpm check:lab-timing`) covers LCP, CLS and blocking time per template and width; the consent bar's layout shift it found is being fixed. Field data needs the analytics decision.
+Status note (2026-11-21): a lab report (`pnpm check:lab-timing`) covers LCP, CLS and blocking time per template and width; the consent bar's layout shift it found is fixed (CLS 0.000 except the finder at 768 px). Field data needs the analytics decision.
 
 Why: Mobile and low-bandwidth users are the primary audience [DESIGN.md §6, §7].
 
