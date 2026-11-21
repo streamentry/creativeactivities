@@ -80,6 +80,13 @@ describe('partner sheet pages (SEO-025)', () => {
     for (const text of Object.values(pages)) expect(text).toMatch(/^\s*noindex\s*$/m);
   });
 
+  it('ask for feedback by email on screen, outside the printed sheet', () => {
+    for (const text of Object.values(pages)) {
+      expect(text).toMatch(/<p>Tell us how[^<]*<a href=\{`mailto:\$\{SITE\.supportEmail\}\?subject=Partner%20sheet%20feedback`\}/);
+      expect(text).toMatch(/import \{ SITE \} from '..\/..\/lib\/site';/);
+    }
+  });
+
   it('are linked from for-organizations (English only) and the printables index', () => {
     for (const path of PARTNER_SHEET_PATHS) {
       expect(organizations).toContain(`href="${path}"`);

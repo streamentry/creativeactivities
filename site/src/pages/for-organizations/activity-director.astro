@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import '../../styles/partner-sheets.css';
 import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
 import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
 import { CARE_PLANS } from '../../lib/care-setting-plans';
 import { pickCards } from '../../lib/partner-sheets';
@@ -33,6 +34,7 @@ const plans = CARE_PLANS.map((plan) => ({
       <h1>Activity director summary</h1>
       <p class="lede">One page to share with a team: what this site offers, the plans it already has, and where to find them. It is not a care plan and not a clinical program.</p>
       <p>Print this page. It prints on one sheet on A4 or US Letter.</p>
+      <p>Tell us how the week went: <a href={`mailto:${SITE.supportEmail}?subject=Partner%20sheet%20feedback`}>{SITE.supportEmail}</a>.</p>
       <p>{SCOPE_LINE}</p>
     </header>
 

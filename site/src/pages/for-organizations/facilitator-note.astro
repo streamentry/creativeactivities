@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import '../../styles/partner-sheets.css';
 import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
 import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
 
 const crumbs = [
@@ -24,6 +25,7 @@ const crumbs = [
       <h1>Facilitator note</h1>
       <p class="lede">A short note to read to the group at the start of an intergenerational or family activity. Read it in your own words if that suits the group better.</p>
       <p>Print this page. It prints on one sheet on A4 or US Letter.</p>
+      <p>Tell us how it went: <a href={`mailto:${SITE.supportEmail}?subject=Partner%20sheet%20feedback`}>{SITE.supportEmail}</a>.</p>
       <p>{SCOPE_LINE}</p>
     </header>
 
