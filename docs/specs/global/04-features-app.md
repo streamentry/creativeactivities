@@ -60,6 +60,8 @@ Risks / not doing: No interstitial asking people to install the app on web pages
 
 Status note (2026-11-22): Built as components, not yet placed on a screen. `activityGuideUri` (lib/shared/links/activity_guide_link.dart) builds `https://creativeactivities.org/activity/<slug>/` with no query or fragment, matching the website route. `ActivityGuideActions` (lib/shared/widgets/activity_guide_actions.dart) opens it with url_launcher in the external browser; if that fails, it shows the address and a QR code drawn on device with the `qr` package (pure Dart). Open points: no app activity has a website slug yet, so no screen shows the action; the offline check is "browser did not open", not a connectivity check; VoiceOver and TalkBack, target-size and 200% text checks on device are not done.
 
+Status note (2026-11-22, APP-014): Placed on each activity card screen (`ActivityCardPage`) through the existing `ActivityGuideActions`. Every bundled card has a slug, so the button opens `/activity/<slug>/` with no query or fragment. Device checks for the browser handoff, VoiceOver, TalkBack and target size remain open.
+
 ### APP-018 · Screen-reader-first activity reading
 
 Priority P0 · Phase S2 · Status partial · Pillars: all
@@ -114,6 +116,8 @@ Acceptance:
 Depends on: GM-023, GM-025, GM-029.
 
 Risks / not doing: Duplicated content drifts. Use one content source for both app and site. Do not bundle unreviewed translations.
+
+Status note (2026-11-22): Built on this branch. `site/scripts/export-app-cards.ts` writes `assets/cards/cards.v1.json` (version 1, 56 listed cards, a `generatedFrom` content hash) from the website cards, validated by the site card schema. Each card carries its id, slug, name, summary, finder facts (minutes, cost, mess, energy, supervision, settings, groups, senses, variation kinds, safety flags), materials, steps, safety notes, stop note, crisis flag, content version and a reviewed or not-reviewed status. No author, reviewer name, image, changelog or source link is bundled. A vitest check in `site/src/lib/app-cards.test.ts` fails when the file is stale and names the refresh command. The app reads the file with a strict parser (`lib/features/activity_cards/data/activity_catalog.dart`); an unreadable or invalid file hides the finder and shows a calm message. Card text is English; other languages wait for review (APP-025). Crisis routes match the website wording, with no "Numbers checked on" date because no route has a recorded check and source (decision of 2026-11-22). Not checked here: the size budget on the lowest supported device (GM-029) and a card-by-card comparison on a device.
 
 ### APP-002 · Print an activity card or pack from the app
 
@@ -191,6 +195,8 @@ Status note (2026-11-22): the filter rules, a shared fixture and the finder scre
 
 Risks / not doing: Do not add an opaque "match score" ([DESIGN](../../../DESIGN.md) section 3).
 
+Status note (2026-11-22, APP-005): The finder is in the Home menu as "Find an activity", over the bundled cards (APP-001). Each result opens its activity card. The card facts come from the same website data as the shared fixture, which is still checked separately. Airplane mode is covered by widget tests with HTTP disabled. Device airplane-mode and screen-reader checks stay open.
+
 ### APP-006 · Helper mode on one device
 
 Priority P1 · Phase S2 · Status partial · Pillars: CARE, GROW, TOGETHER
@@ -265,6 +271,8 @@ Risks / not doing: No file or photo sharing without a separate approval.
 
 Status note (2026-11-22): Built as a pure payload builder, `activityShareText` (lib/shared/sharing/activity_share_text.dart). It returns the activity name, a short line and the APP-014 canonical link, one per line, and nothing else; it returns null for an invalid slug. `ActivityGuideActions` sends it with share_plus. Cancelling shows no message; a failed share shows a calm message. Unit tests cover the payload and widget tests cover the buttons. Open points: no screen places the action yet (see APP-014); the share sheet itself and sharing offline are not checked on device.
 
+Status note (2026-11-22, APP-020): Placed on each activity card screen beside the website link. It shares the name, summary and canonical link only. Device checks of the share sheet remain open.
+
 ### APP-025 · Language status and picker
 
 Priority P1 · Phase S3 · Status partial · Pillars: all
@@ -335,6 +343,8 @@ Depends on: APP-001.
 Risks / not doing: Do not recommend purchases.
 
 Status note (2026-11-22): The tick store (`material_ticks.v1`, per activity, at most ten materials per activity and 200 activities) and the "I have this / Need to get" checklist are built and tested, with no product or shopping links. The checklist is not shown on any screen yet: the app has no per-activity materials data, which waits on APP-001. Ticks are cleared only by their own clear call; no central data-deletion control exists. Not checked here: VoiceOver, TalkBack and one-switch use on a device.
+
+Status note (2026-11-22, APP-030): The "I have this" checklist is shown on each activity card screen for that card, keyed by the card id. Device checks for VoiceOver, TalkBack and one-switch use remain open.
 
 ### APP-031 · Picture-only card view
 

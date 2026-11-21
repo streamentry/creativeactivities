@@ -63,6 +63,8 @@ flutter:
     - assets/images/pictures/
     # More drawings in the same style, made with the Codex CLI image tool.
     - assets/images/illustrations/
+    # Activity cards bundled offline (APP-001; site/scripts/export-app-cards.ts).
+    - assets/cards/
     - assets/sounds/
 
 # Masters come from brand/ via scripts/make_brand_icons.py.

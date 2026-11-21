@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 /// Every destination the Home menu can open. The menu closes first and returns
 /// one of these; Home then opens the page, so Back always returns to Home.
 enum HomeMenuAction {
+  findActivity,
   exploreLibrary,
   dailyMoment,
   personalPlan,
@@ -32,6 +33,7 @@ class HomeMenuPage extends StatelessWidget {
     final l10n = context.l10n;
     final sections = <_MenuSection>[
       _MenuSection(l10n.menuSectionActivities, const [
+        _MenuItem(HomeMenuAction.findActivity, Icons.search),
         _MenuItem(
           HomeMenuAction.exploreLibrary,
           Icons.collections_bookmark_outlined,
@@ -123,6 +125,7 @@ class _MenuItem extends StatelessWidget {
   String _label(BuildContext context) {
     final l10n = context.l10n;
     return switch (action) {
+      HomeMenuAction.findActivity => l10n.menuFindActivity,
       HomeMenuAction.exploreLibrary => l10n.homeExploreLibrary,
       HomeMenuAction.dailyMoment => l10n.wellbeingHomeDailyMoment,
       HomeMenuAction.personalPlan => l10n.menuPersonalPlan,
