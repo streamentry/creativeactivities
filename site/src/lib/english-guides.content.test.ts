@@ -2,6 +2,7 @@ import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
+import { LOCALES } from '../i18n/locales';
 import { englishGuideLanguages } from './english-guides';
 import { isRetiredGuide } from './retired-guides';
 
@@ -37,7 +38,7 @@ describe('languages whose guides stay in English', () => {
   it('lists only real site languages, once each', () => {
     expect(LANGS.length).toBeGreaterThan(0);
     expect(new Set(LANGS).size).toBe(LANGS.length);
-    for (const lang of LANGS) expect(existsSync(join(TRANSLATED, lang)), lang).toBe(true);
+    for (const lang of LANGS) expect(LOCALES.some((l) => l.code === lang), lang).toBe(true);
   });
 
   it('has no translation of a live guide in those languages', () => {

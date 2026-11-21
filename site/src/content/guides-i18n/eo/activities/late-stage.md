@@ -1,32 +1,32 @@
 ---
-title: "Aktivaĵoj por malfrua demenco, eĉ en lito aŭ seĝo"
-seoTitle: "Malfrua demenco: ideoj por lito kaj seĝo"
-description: "Mildaj aktivaĵoj por malfrua demenco, ankaŭ por iu en lito aŭ seĝo: muziko, tuŝo, laŭtlegado, sonoj kaj simpla estado kune, kun sekurecaj notoj."
+title: "Agadoj por Malfrua Demenco, Inkluzive en Lito aŭ Seĝo"
+seoTitle: "Agadoj por Malfrua Demenco: Ideoj por Lito kaj Seĝo"
+description: "Mildaj agadoj por malfrua demenco, inkluzive por iu en lito aŭ seĝo: muziko, tuŝo, laŭta legado, sonoj kaj simple esti kune, kun sekureczaj notoj."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  En malfrua demenco, aktivaĵoj centriĝas sur la sentoj kaj sur via ĉeesto:
-  ludi plej ŝatatan muzikon, teni manojn, malrapida manmasaĝo, laŭtlegado,
+  En malfrua demenco, agadoj centriĝas al la sentoj kaj al via kompanio:
+  ludi ŝatatan muzikon, teni manojn, malrapide masaĝi la manon, laŭte legi,
   rigardi fotojn, naturajn sonojn kaj sidi apud fenestro aŭ ekstere. Ĉi tiuj
-  funkcias en lito aŭ seĝo. Tenu renkontiĝojn mallongaj, observu vizaĝojn kaj
-  manojn por komforto, kaj memoru, ke la simpla ĉeesto mem estas aktivaĵo.
+  funkcias en lito aŭ seĝo. Tenu seancojn mallongaj, observu vizaĝojn kaj manojn
+  pro komforto, kaj memoru, ke esti ĉeeste mem estas la agado.
 keyPoints:
-  - "Ligo ankoraŭ eblas. En la malfrua stadio, la mondo estas spertata ĉefe per la sentoj."
-  - "Muziko, milda tuŝo, konataj voĉoj kaj molaj aferoj por teni ofte atingas homojn, kiam vortoj jam ne sufiĉas."
+  - "Kontakto ankoraŭ eblas. En la malfrua stadio, la mondo estas travivata ĉefe per la sentoj."
+  - "Muziko, milda tuŝo, konataj voĉoj kaj molaj objektoj por teni ofte atingas homojn, kiam vortoj jam ne atingas."
   - "Preskaŭ ĉiu ideo ĉi tie funkcias por iu en lito aŭ seĝo."
-  - "Observu signojn de komforto kaj malkomforto en la vizaĝo, manoj kaj spirado, kaj ĉesu ĉe ajna signo de sufero."
-  - "Evitu malgrandajn objektojn kaj proponu manĝaĵon aŭ trinkaĵon nur laŭ la konsilo de la zorga teamo, ĉar glutado povas fariĝi nesekura."
+  - "Rimarku komforton kaj malkomforton en la vizaĝo, manoj kaj spirado, kaj haltu ĉe ĉiu signo de malfacilaĵo."
+  - "Evitu malgrandajn objektojn kaj oferu manĝaĵon aŭ trinkaĵon nur laŭ la konsilo de la zorgteamo, ĉar glutado povas fariĝi malsekura."
 faq:
-  - q: "Kiujn aktivaĵojn vi povas fari kun iu kun malfrua demenco, kiu estas en lito?"
-    a: "Ludu lian aŭ ŝian plej ŝatatan muzikon, tenu lian aŭ ŝian manon, faru malrapidan manmasaĝon per lotiono, legu laŭte el libro aŭ preĝo, kiun la persono amas, montru fotojn aŭ ludu mildajn naturajn sonojn. Malfermu la kurtenojn, por ke la persono povu vidi eksteren. Mallongaj, trankvilaj momentoj kun unu afero samtempe kutime funkcias plej bone."
-  - q: "Ĉu homoj kun malfrua demenco ankoraŭ povas ĝui muzikon?"
-    a: "Multaj povas. La Alzheimer's Association rimarkas, ke eĉ en la malfrua stadio homo povas frapeti ritmon aŭ kunkanti kanton el infanaĝo. Elektu muzikon, kiun la persono amis en pli junaj jaroj, kaj tenu la laŭtecon mallaŭta."
-  - q: "Kiel mi scias, ĉu la persono ĝuas aktivaĵon?"
-    a: "Observu etajn signojn: malstreĉitajn ŝultrojn, pli mildan vizaĝon, okulkontakton, zumadon, manpremon aŭ pli malrapidan spiradon. Grimaco, fortiriĝo, maltrankvilo aŭ ĝemado povas signifi malkomforton aŭ doloron. Se vi vidas tion, ĉesu kaj diru al la zorga teamo, se tio daŭras."
-  - q: "Ĉu valoras viziti, se la persono jam ne rekonas min?"
-    a: "Jes. La National Institute on Aging rimarkas, ke simpla ĉeesto povas trankviligi, kaj ke tuŝo, muziko kaj rakontoj ankoraŭ povas doni komforton en progresinta demenco. Via voĉo kaj tuŝo povas esti konataj, eĉ kiam via nomo ne estas."
+  - q: "Kiajn agadojn oni povas fari kun iu en malfrua demenco, kiu kuŝas en lito?"
+    a: "Ludu ŝatatan muzikon, tenu la manon, donu malrapidan manmasaĝon per losjono, laŭte legu el libro aŭ preĝo, kiun la persono amas, montru fotojn aŭ ludu mildajn naturajn sonojn. Malfermu la kurtenojn, por ke la persono povu vidi eksteren. Mallongaj, kvietaj seancoj kun unu afero samtempe kutime funkcias plej bone."
+  - q: "Ĉu homoj en malfrua demenco ankoraŭ povas ĝui muzikon?"
+    a: "Multaj povas. La Alzheimer-Asocio notas, ke eĉ en la malfrua stadio, persono povas frapeti ritmon aŭ kanti kune kun kanto el la infanaĝo. Elektu muzikon, kiun la persono ŝatis kiam li aŭ ŝi estis pli juna, kaj tenu la volumon malalta."
+  - q: "Kiel mi scias, ĉu ili ĝuas agadon?"
+    a: "Rimarku malgrandajn signojn: malstreĉitajn ŝultrojn, pli mildan vizaĝon, okulkontakton, nuancan kantadon, manpremon aŭ pli malrapidan spiradon. Grimacado, forpuŝado, agitiĝo aŭ ĝemado povas signifi malkomforton aŭ doloron. Se vi vidas ion tian, haltu kaj diru al la zorgteamo, se ĝi daŭras."
+  - q: "Ĉu vizitado valoras la penon, se ili ne plu rekonas min?"
+    a: "Jes. La Nacia Instituto pri Maljuneco notas, ke simple esti ĉeeste povas esti trankviligate, kaj ke tuŝo, muziko kaj rakontoj ankoraŭ povas doni konsolon en progresinta demenco. Via voĉo kaj tuŝo povas esti konataj, eĉ kiam via nomo ne estas."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -48,55 +48,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-En la malfrua stadio de demenco, homo povas paroli tre malmulte, bezoni helpon pri la tuta ĉiutaga zorgado kaj pasigi grandan parton de la tago en lito aŭ seĝo. Povas ŝajni, ke ne restas io por fari kune. Restas. La [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) rimarkas, ke iu kerno de la memo de la persono povas resti, kaj ke en ĉi tiu stadio la mondo estas spertata ĉefe per la sentoj. Muziko, tuŝo, konata voĉo kaj via trankvila ĉeesto ankoraŭ povas alporti komforton kaj momentojn de ligo.
+En la malfrua stadio de demenco, homo povas paroli tre malmulte, bezoni helpon en ĉiuj ĉiutagaj taskoj kaj pasigi multon de la tago en lito aŭ seĝo. Povas ŝajni, ke nenio restas por fari kune. Tamen estas. La [Alzheimer-Asocio](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) notas, ke kerno de la persono ankoraŭ povas resti, kaj ke en ĉi tiu stadio la mondo estas travivata ĉefe per la sentoj. Muziko, tuŝo, konata voĉo kaj via kvieta ĉeesto ankoraŭ povas alporti konsolon kaj momentojn de kontakto.
 
-## Kiuj aktivaĵoj helpas en malfrua demenco?
+## Kiuj agadoj helpas en malfrua demenco?
 
-Simplaj sentaj aktivaĵoj kaj trankvila ĉeesto plej helpas en la malfrua stadio. La Alzheimer's Association sugestas ludi plej ŝatatan muzikon, legi partojn de signifoplenaj libroj, froteti lotionon kun ŝatata odoro sur la haŭton kaj sidi kune ekstere en agrabla tago. La [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) aldonas rakontadon, montradon de fotoj, mildan tuŝon aŭ masaĝon, kaj muzikon, blankan bruon aŭ naturajn sonojn, kaj diras, ke via ĉeesto sola povas trankviligi.
+Simplaj sentaj agadoj kaj kvieta kompanio plej helpas en la malfrua stadio. La Alzheimer-Asocio proponas ludi ŝatatan muzikon, legi partojn de signifaj libroj, frotadi losjonon kun ŝatata odoro en la haŭton, kaj kune sidi ekstere en agrabla tago. La [Nacia Instituto pri Maljuneco](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) aldonas rakontadon de historioj, montradon de fotoj, mildan tuŝon aŭ masaĝon, kaj muzikon, blankan bruon aŭ naturajn sonojn, kaj diras, ke via ĉeesto sola povas trankviligi.
 
-La [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) rimarkas, ke homoj en la malfrua stadio ofte havas fortan bezonon teni ion proksime por komforto, kaj sugestas simplajn sentajn aktivaĵojn, mildajn streĉojn, movadon per koltuko, muzikon, vizitojn de bestoj, homan tuŝon kaj liberforman arton.
+La [Alzheimer-Fondaĵo de Ameriko](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) notas, ke homoj en la malfrua stadio ofte forte bezonas teni ion proksime por konsolo, kaj proponas simplajn sentajn agadojn, mildajn streĉojn, moviĝon per ŝalo, muzikon, vizitojn de bestoj, homan tuŝon kaj libere kreitan arton.
 
-## Aktivaĵoj por iu en lito aŭ seĝo
+## Agadoj por iu en lito aŭ seĝo
 
-1. **Ludu lian aŭ ŝian muzikon.** Elektu kantojn el la jaroj de juna plenkreskeco, el la kredo aŭ el la familio de la persono. Tenu la laŭtecon mallaŭta kaj sidu proksime. Eĉ nun, iuj homoj frapetas fingron aŭ zumas. Vidu [muzikajn aktivaĵojn](/activities/music/).
-2. **Tenu manojn.** Nur teni manon, kun milda strokado per la dikfingro, estas aktivaĵo. Diru antaŭe, kion vi faras.
-3. **Faru malrapidan manmasaĝon.** Varmigu iom da lotiono en viaj manplatoj kaj strokadu de la pojno al la fingropintoj. Elektu senodoran lotionon, aŭ odoron, kiun la persono ĉiam amis, se la haŭto ĝin toleras.
-4. **Legu laŭte.** Plej ŝatatan poemon, parton el amata libro, sanktan tekston aŭ la sportan paĝon. La ritmo de via voĉo pli gravas ol la vortoj.
-5. **Rakontu historion.** Parolu pri familia vojaĝo aŭ pri la tago, kiam la persono edziĝis. Vi ne bezonas respondojn.
-6. **Montru fotojn.** Tenu po unu grandan foton samtempe je okulnivelo kaj priskribu ĝin varme. Evitu demandi, kiu estas sur ĝi.
-7. **Proponu ion molan por teni.** Falditan lavtukon, felcan kvadraton aŭ molan besteton. La NIA sugestas doni al la persono lavtukon por teni dum movado, por ke la persono malpli verŝajne ekkaptu vin aŭ la meblojn.
-8. **Ludu naturajn sonojn.** Pluvo, ondoj aŭ birdokantoj je malalta laŭteco povas mildigi brueman ĉambron.
-9. **Alportu la eksteron enen.** Malfermu la kurtenojn, metu birdomanĝejon ekster la fenestro, aŭ enportu kelkajn freŝajn florojn aŭ foliojn por rigardi kaj tuŝi.
-10. **Iru eksteren.** Se la persono povas sidi en rulseĝo, kelkaj minutoj en ombro dum milda tago povas esti agrablaj.
-11. **Brosu liajn aŭ ŝiajn harojn aŭ proponu varman tukon.** Malrapida, milda prizorgado kaj varma lavtuko por manoj kaj vizaĝo povas sentiĝi karese.
-12. **Moviĝu milde kun muziko.** Svingu kune malpezan koltukon, aŭ svingu manojn laŭ la ritmo de kanto. Por streĉoj kaj movado de artikoj, petu fizioterapiiston aŭ flegiston montri al vi sekurajn manierojn unue.
-13. **Faru liberforman arton.** Etendu netoksan farbon sur grandan paperon per spongo aŭ mano, gvidata de via mano. Ne ekzistas ĝusta rezulto.
-14. **Bonvenigu vizitojn de bestoj.** Trankvilan hejmbeston sur la lito aŭ sur la genuoj, se la persono ĝuis bestojn kaj la loko tion permesas.
-15. **Spiru malrapide kune.** Sidu proksime kaj spiru malrapide kaj aŭdeble. [Trankvila spirado](/games/calm-breathing/) povas doni ritmon al vi ambaŭ, kaj vi mem ekigas kaj ĉesigas ĝin.
-16. **Simple estu tie.** Sidu proksime, zumu, triku aŭ legu trankvile. La ĉeesto sufiĉas.
+1. **Ludu lian aŭ ŝian muzikon.** Elektu kantojn el la juneco, el lia aŭ ŝia kredo aŭ el la familio. Tenu la volumon malalta kaj sidu proksime. Eĉ nun, kelkaj homoj frapetas fingron aŭ nuancas. Vidu [muzikajn agadojn](/creative-calm/music-for-calm-and-connection/).
+2. **Tenu la manojn.** Simple teni manon, kun milda ĉirkaŭfrota movo de la dikfingro, estas agado. Unue diru, kion vi faras.
+3. **Donu malrapidan manmasaĝon.** Varmigu iom da losjono en viaj manplatoj kaj glitigu de la poso ĝis la fingropintoj. Elektu nenaŭdoran losjonon, aŭ odoron, kiun la persono ĉiam amis, se ties haŭto toleras ĝin.
+4. **Laŭte legu.** Ŝatata poemo, parto el amata libro, sankta skribo aŭ la sportpaĝo. La ritmo de via voĉo gravas pli ol la vortoj.
+5. **Rakontu historion.** Parolu pri familia vojaĝo aŭ la tago de la geedziĝo. Vi ne bezonas respondojn.
+6. **Montru fotojn.** Tenu unu grandan foton samtempe ĉe la okulnivelo kaj priskribu ĝin varme. Evitu demandi, kiu estas en ĝi.
+7. **Oferu ion molan por teni.** Plifaldita lavotuko, kvadrato el felto aŭ mola bestido. La NIA proponas doni al la persono lavotukon por teni dum oni movas ĝin, por ke ĝi malpli verŝajne kaptu vin aŭ la meblojn.
+8. **Ludu naturajn sonojn.** Pluvo, ondoj aŭ birdkanto je malalta volumo povas mildigi bruan ĉambron.
+9. **Alportu la eksteron internen.** Malfermu la kurtenojn, metu birdmanĝejon ekster la fenestron, aŭ alportu kelkajn freŝajn florojn aŭ foliojn por rigardi kaj tuŝi.
+10. **Eliru ekstere.** Se la persono povas sidi en rulseĝo, kelkaj minutoj en ombro en milda tago povas esti belaj.
+11. **Brosu la hararon aŭ oferu varman tuko.** Malrapida, milda prizorgado kaj varma lavotuko por manoj kaj vizaĝo povas senti sin zorgema.
+12. **Movu sin mildе kun muziko.** Kune svingu malpezan ŝalon, aŭ movu la manojn laŭ kanto. Por streĉoj kaj artikula movado, petu fizioterapiiston aŭ flegistinon montri al vi sekurajn manierojn unue.
+13. **Kreu libere artan verkon.** Disvastigu netoksan farbon sur grandan paperon per spongo aŭ mano, gvidata de via. Ne ekzistas ĝusta rezulto.
+14. **Bonvenigu vizitojn de bestoj.** Kvieta dorlotbesto sur la lito aŭ la genuo, se la persono ŝatis bestojn kaj la medio permesas tion.
+15. **Spiru malrapide kune.** Sidu proksime kaj spiru malrapide kaj aŭdeble. [Trankviliga spirado](/games/calm-breathing/) povas doni ritmon al vi ambaŭ, kaj vi komencas kaj ĉesigas ĝin.
+16. **Simple estu ĉeeste.** Sidu proksime, nuancu, kroĉu aŭ legu kviete. Esti ĉeeste sufiĉas.
 
-## Kiel dividi aktivaĵon en ĉi tiu stadio
+## Kiel dividi agadon en ĉi tiu stadio
 
-- **Alproksimiĝu de antaŭe.** Diru lian aŭ ŝian nomon kaj vian nomon, kaj parolu malrapide kaj mallaŭte antaŭ ol vi tuŝas.
-- **Proponu unu aferon samtempe.** Malŝaltu la televidilon antaŭ ol ludi muzikon. Faru unu senton samtempe.
-- **Tenu ĝin mallonga.** Kelkaj minutoj povas sufiĉi. Pluraj mallongaj momentoj dum la tago estas pli bonaj ol unu longa renkontiĝo.
-- **Unue certigu komforton.** Kontrolu, ke la persono estas bone subtenata. La NIA sugestas surtabulon por ripozigi la brakojn kaj subteni la supran korpon dum sidado.
-- **Observu la reagon.** Malstreĉitaj manoj, pli milda vizaĝo, okulkontakto aŭ zumado sugestas komforton. La NIA rimarkas, ke ĝemoj, grimaco, protekto de parto de la korpo aŭ subita maltrankvilo povas esti signoj de doloro. Ĉesu kaj diru al la zorga teamo.
+- **Alproksimiĝu de antaŭe.** Diru lian aŭ ŝian nomon kaj vian nomon, kaj parolu malrapide kaj mallaŭte antaŭ ol tuŝi.
+- **Oferu unu aferon samtempe.** Malŝaltu la televidon antaŭ ol ludi muzikon. Faru unu senton samtempe.
+- **Tenu ĝin mallonga.** Kelkaj minutoj povas esti sufiĉe. Pluraj mallongaj momentoj dum la tago estas pli bonaj ol unu longa seanco.
+- **Unue komfortigu.** Kontrolu, ke la persono estas bone subtenata. La NIA proponas genuan tabulon por apogi la brakojn kaj la supran korpon, kiam oni sidas.
+- **Observu la reagon.** Malstreĉitaj manoj, pli milda vizaĝo, okulkontakto aŭ nuancado indikas komforton. La NIA notas, ke ĝemado, grimacado, protektado de parto de la korpo aŭ subita agitiĝo povas esti signoj de doloro. Haltu kaj diru al la zorgteamo.
 
-## Rapida gvido laŭ sento
+## Rapida gvidilo laŭ sento
 
-| Sento | Ideoj | Atentu |
+| Sento | Ideoj | Zorgu pri |
 | --- | --- | --- |
-| Aŭdo | Plej ŝatata muziko, via voĉo dum legado, naturaj sonoj | Tenu la laŭtecon malalta; unu sono samtempe |
-| Tuŝo | Manmasaĝo, tenado de manoj, mola ŝtofo, varma tuko | Petu aŭ anoncu antaŭe; kontrolu, ke la haŭto ne estas dolora aŭ vundita |
-| Vido | Fotoj, floroj, la vido el fenestro, malrapida naturfilmeto | Tenu aferojn je okulnivelo; bona lumo, sen brilo |
-| Flaro | Plej ŝatata lotiono, freŝaj floroj, proksime preparata kafo | Evitu fortajn odorojn; kontrolu alergiojn kaj spiradon |
-| Gusto | Malgranda gusto de plej ŝatata gusto | Nur manĝaĵoj kaj teksturoj, kiujn la zorga teamo diras sekuraj |
+| Aŭdo | Ŝata muziko, via voĉo legante, naturaj sonoj | Tenu la volumon malalta; unu sonon samtempe |
+| Tuŝo | Manmasaĝo, tenado de manoj, mola tolaĵo, varma lavotuko | Demandu aŭ sciigu unue; kontrolu, ke la haŭto ne doloras aŭ ne estas difektita |
+| Vido | Fotoj, floroj, la vido el fenestro, malrapida naturvideo | Tenu aferojn ĉe la okulnivelo; bona lumo, senbrila |
+| Odoro | Ŝata losjono, freŝaj floroj, kafo, kiu fartiĝas proksime | Evitu fortajn odorojn; kontrolu alergiojn kaj spiradon |
+| Gusto | Malgranda gusto de ŝata aromo | Nur manĝaĵoj kaj teksturoj, kiujn la zorgteamo diras esti sekuraj |
 
 ## Sekureco en ĉi tiu stadio
 
-Glutado povas fariĝi malfacila en la malfrua stadio, kaj la NIA avertas, ke tio pliigas la riskon de sufokiĝo. Ne lasu malgrandajn objektojn atingeblaj, kaj proponu manĝaĵon aŭ trinkaĵon nur en la teksturoj kaj pozicioj, kiujn la zorga teamo rekomendas. Kontrolu la haŭton milde dum tuŝaj aktivaĵoj, ĉar haŭto povas facile ŝiriĝi aŭ ekchimi. Por pli pri sekuraj sentaj ideoj, vidu [sentajn aktivaĵojn](/activities/sensory/).
+Glutado povas fariĝi malfacila en la malfrua stadio, kaj la NIA avertas, ke tio pliigas la riskon de sufokiĝo. Ne lasu malgrandajn objektojn ĉe la mano, kaj oferu manĝaĵon aŭ trinkaĵon nur en la teksturoj kaj pozicioj, kiujn la zorgteamo rekomendas. Kontrolu la haŭton milde dum tuŝaj agadoj, ĉar la haŭto povas facile ŝiriĝi aŭ kontuziĝi. Por pli da informoj pri sekuraj sentaj ideoj, vidu [sentajn agadojn](/creative-calm/sensory-activities-for-adults/).
 
 ## Zorgu ankaŭ pri vi mem
 
-Zorgado en la malfrua stadio estas fizike kaj emocie postulema, ĉu hejme aŭ dum vizitoj al zorghejmo. Hospicaj kaj paliativaj zorgteamoj povas helpi pri komforto, subteno kaj planado, kaj la NIA listigas ilin kiel fonton de helpo. Mallongaj, trankvilaj vizitoj valoras; vidu [viziti iun kun demenco](/activities/visiting/). Se vi gvidas grupojn, [grupaj aktivaĵoj en zorghejmo](/activities/care-home-groups/) havas ideojn por adapti renkontiĝojn. Kaj bonvolu legi [memzorgon por zorgantoj](/caregiving/caregiver-self-care/): ripozo estas parto de bona zorgado.
+Malfrua prizorgado estas fizike kaj emocie postulema, ĉu hejme ĉu dum vizitoj al flegejo. Hospicaj kaj paliativaj zorgteamoj povas helpi per komforto, subteno kaj planado, kaj la NIA listigas ilin kiel fonton de helpo. Mallongaj, kvietaj vizitoj valoras la penon; vidu [vizitadon de iu kun demenco](/together/visiting-someone-in-care/). Se vi gvidas grupojn, [grupajn agadojn en flegejoj](/crafts/craft-group-sessions/) havas ideojn por adapti seancojn. Kaj bonvolu legi [memzorgon por zorgantoj](/creative-calm/creative-self-care-for-caregivers/): ripozo estas parto de bona prizorgado.

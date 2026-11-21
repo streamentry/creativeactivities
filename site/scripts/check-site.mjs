@@ -150,6 +150,17 @@ for (const file of htmlFiles) {
   const html = readFileSync(file, 'utf8');
   const path = pathFor(file);
   const is404 = rel === '404.html';
+  // A retired page's address (components/RetiredRedirect.astro): it only sends the reader on, so it is
+  // checked as a redirect, not as a page: noindex, a canonical, and a target that exists in the build.
+  const refresh = html.match(/<meta http-equiv="refresh" content="0; url=([^"]+)"/);
+  if (refresh) {
+    const target = refresh[1];
+    if (!/<meta name="robots" content="[^"]*noindex/.test(html)) err(rel, 'redirect page is not noindex');
+    if (!/<link rel="canonical" href="https:\/\//.test(html)) err(rel, 'redirect page has no absolute canonical');
+    if (!target.startsWith('/') || !existsSync(join(DIST, target, 'index.html'))) err(rel, `redirects to a page that does not exist: ${target}`);
+    noindexed.push(`${SITE}${path}`);
+    continue;
+  }
   if (!is404 && !prefixIn(rel) && !html.includes(SCOPE_NOTE)) err(rel, 'missing the approved scope note in the footer (WEB-023)');
   const cardPage = /^activity\/[^/]+\/index\.html$/.test(rel) && !html.includes('This activity has been withdrawn');
   if (cardPage && !html.includes(CARD_SCOPE_LINE)) err(rel, 'card is missing its scope line (TSA-026)');

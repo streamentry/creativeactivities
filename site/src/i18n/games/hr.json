@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Parovi slika",
-    "seoTitle": "Igra slaganja za demenciju: Parovi slika",
+    "seoTitle": "Igra pronalaženja parova za odrasle: parovi slika",
     "h1": "Parovi slika: nježna igra slaganja",
-    "description": "Besplatna, nježna igra slaganja za osobe koje žive s demencijom. Velike slike ostaju vidljive, nema mjerenja vremena ni bodova, a Vi birate od 4 do 12 pločica.",
+    "description": "Besplatna, blaga igra spajanja za odrasle i starije osobe, uključujući osobe koje žive s demencijom. Slike mogu ostati vidljive. Bez tajmera i bez bodova.",
     "short": "Pronađite dvije iste slike. Slike mogu ostati vidljive.",
     "players": "1 ili 2 osobe, jedna uz drugu",
     "intro": "Dodirnite sliku, zatim dodirnite onu koja joj odgovara. Slike su prema zadanim postavkama vidljive, pa ništa ne treba pamtiti. Kad se dvije slike podudaraju, dobivaju zlatni obrub i kvačicu.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Pronađi isto",
-    "seoTitle": "Pronađite istu sliku: jednostavna igra za demenciju",
+    "seoTitle": "Pronađite istu sliku: jednostavna igra sa slikama",
     "h1": "Pronađite istu sliku",
-    "description": "Jedna slika gore, dvije do četiri dolje. Dodirnite onu koja je ista. Mirna, besplatna igra sa slikama za osobe koje žive s demencijom, bez mjerenja vremena.",
+    "description": "Jedna slika na vrhu, dvije do četiri ispod. Dotaknite onu koja je ista. Mirna, besplatna igra sa slikama za odrasle, starije osobe i obitelji, bez tajmera.",
     "short": "Pogledajte sliku gore i dodirnite istu dolje.",
     "players": "1 ili 2 osobe",
     "intro": "Jedna slika nalazi se na vrhu zaslona. Ispod nje su dvije, tri ili četiri slike. Dodirnite onu koja je ista. Svaki put je jedan jednostavan izbor, uz puno prostora za razgovor.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Pronađi sjenu",
-    "seoTitle": "Igra slaganja sjena za demenciju: besplatno na internetu",
+    "seoTitle": "Igra spajanja sjenki: besplatno na mreži za odrasle",
     "h1": "Pronađi sjenu: nježna igra sa slikama",
-    "description": "Tamna sjena gore, dvije do četiri slike dolje. Dodirnite sliku koja baca sjenu. Besplatna, mirna igra slaganja sjena za demenciju, bez mjerenja vremena.",
+    "description": "Tamna sjena na vrhu, dvije do četiri slike ispod. Dotaknite sliku koja stvara sjenu. Besplatna, mirna igra spajanja sjenki bez tajmera.",
     "short": "Pogledajte sjenu i dodirnite sliku koja je baca.",
     "players": "1 ili 2 osobe",
     "intro": "Slaganje sjena poznata je aktivnost s tiskanih listova, ovdje s velikim slikama i bez ičega za ispis. Meka sjena nalazi se na vrhu zaslona, a dolje čekaju dvije, tri ili četiri slike. Dodirnite onu koja baca sjenu. O oblicima poput bicikla, kišobrana ili šalice za čaj lako je i razgovarati.",
@@ -100,8 +100,8 @@
         "a": "Ne. Nema sata, bodova, brojača poteza ni gubljenja. Možete prekinuti u bilo kojem trenutku, a prekid na pola puta posve je dobar način da završite."
       },
       {
-        "q": "Je li slaganje sjena dobro za osobe s demencijom?",
-        "a": "Nekima može biti ugodna, jednostavna aktivnost, osobito u ranijim fazama. Oblike je lakše prepoznati nego riječi. Namijenjena je uživanju i razgovoru, a ne testu, i ne liječi niti usporava demenciju. Ako izaziva frustraciju, isprobajte Pronađi isto ili jednostavno zajedno gledajte slike."
+        "q": "Mogu li osobe koje žive s demencijom uživati u spajanju sjenki?",
+        "a": "Mnogi odrasli uživaju u tome, uključujući neke osobe koje žive s demencijom, često u ranijim fazama. Oblike je lakše prepoznati nego riječi. Igra je za zabavu i razgovor, a ne test, i ne liječi niti usporava demenciju. Ako izaziva frustraciju, probajte Pronađite istu sliku ili jednostavno zajedno gledajte slike."
       },
       {
         "q": "Što se događa ako se dodirne druga slika?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Četiri zajedno",
+    "seoTitle": "Igra grupiranja slika za odrasle: Četiri zajedno",
+    "h1": "Četiri zajedno: mirna igra grupiranja slika",
+    "description": "Neke od slika dijele zajedničku temu, primjerice voće ili vrijeme. Dotaknite one koje pripadaju zajedno. Besplatna, mirna igra grupiranja bez tajmera i bez bodova.",
+    "short": "Pronađite slike koje idu zajedno, poput voća ili vremena.",
+    "players": "1 ili 2 osobe",
+    "intro": "Mali skup slika, a neke od njih pripadaju zajedno: možda četiri vrste voća ili četiri načina putovanja. Dotaknite one koje dijele temu. Ako slika ide uz nešto drugo, igra to jednostavno kaže i čeka. Nakon kratke pauze savjet imenuje temu, a \"Pokaži skupinu\" otkriva odgovor u bilo kojem trenutku.",
+    "howTo": [
+      "Odaberite četiri, šest ili osam slika. Četiri su najjednostavnije, s tri koje idu zajedno.",
+      "Pogledajte slike zajedno i razgovarajte o tome što im je zajedničko.",
+      "Dotaknite svaku sliku koja pripada skupini. Dobiva zlatni okvir i kvačicu.",
+      "Ako slika ide uz nešto drugo, igra to kaže i čeka. Uzmite si vremena.",
+      "Dotaknite \"Pokaži skupinu\" kad god želite, zatim \"Drugi skup\" za nove slike."
+    ],
+    "tips": [
+      "Naglas recite što primjećujete: \"Ova dva su obje stvari koje se jedu.\"",
+      "Nema žurbe. Savjet s temom pojavljuje se nakon pauze, a možete ga i ignorirati.",
+      "Razgovarajte o skupini kad je pronađena: omiljeno voće, putovanje vlakom, vrijeme danas."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovi?",
+        "a": "Ne. Nema sata, bodova, brojača poteza niti gubitka. Možete stati u bilo kojem trenutku, a prekid na pola također je sasvim dobar način završetka."
+      },
+      {
+        "q": "Što se dogodi ako se dotakne slika izvan skupine?",
+        "a": "Ništa neugodno. Nema zvučnog signala, crvenog križa ni treskanja. Igra imenuje sliku, kaže da ide uz nešto drugo i čeka sljedeći dodir."
+      },
+      {
+        "q": "Koje su skupine?",
+        "a": "Svakodnevne teme koje ne traže posebno znanje: voće, životinje, cvijeće, vrijeme, načini putovanja, stvari za toplo piće i stvari pečene u pećnici. Svaka slika pripada samo jednoj skupini."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je i nema računa, registracije ni preuzimanja. Radi u web-pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Neparna slika",
+    "seoTitle": "Igra s neparnom slikom za odrasle",
+    "h1": "Neparna slika: opuštena igra sa slikama",
+    "description": "Tri ili četiri slike, a sve osim jedne dijele temu, poput voća ili vremena. Dotaknite onu koja ne pripada. Besplatno, mirno, bez tajmera i bez bodova.",
+    "short": "Pronađite sliku koja ne pripada ostalima.",
+    "players": "1 ili 2 osobe",
+    "intro": "Tri ili četiri slike, a sve osim jedne idu zajedno: možda voće ili načini putovanja. Dotaknite sliku koja ne pripada. Ako slika ipak ide uz ostale, igra to jednostavno kaže i čeka. Nakon kratke pauze savjet imenuje što ostale dijele, a \"Pokaži mi\" u bilo kojem trenutku pokazuje neparnu sliku.",
+    "howTo": [
+      "Odaberite tri ili četiri slike. Tri su najjednostavnije.",
+      "Pogledajte slike zajedno i razgovarajte o tome što većina njih ima zajedničko.",
+      "Dotaknite sliku koja ne pripada. Dobiva zlatni okvir i kvačicu.",
+      "Ako slika ide uz ostale, igra to kaže i čeka. Uzmite si vremena.",
+      "Dotaknite \"Pokaži mi\" kad god želite, zatim \"Drugi skup\" za nove slike."
+    ],
+    "tips": [
+      "Razgovarajte naglas: \"Jabuka i kruška su obje voće. Što je s autobusom?\"",
+      "Nema žurbe. Savjet s temom pojavljuje se nakon pauze, a možete ga i ignorirati.",
+      "Svaka slika dobar je početak razgovora: omiljeno voće, vožnja autobusom, kišan dan."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovi?",
+        "a": "Ne. Nema sata, bodova, brojača poteza niti gubitka. Možete stati u bilo kojem trenutku, a prekid na pola također je sasvim dobar način završetka."
+      },
+      {
+        "q": "Što se dogodi ako se dotakne slika koja pripada skupini?",
+        "a": "Ništa neugodno. Nema zvučnog signala, crvenog križa ni treskanja. Igra imenuje sliku, kaže da ide uz ostale i čeka sljedeći dodir."
+      },
+      {
+        "q": "Kako se bira neparna slika?",
+        "a": "Slike dolaze iz svakodnevnih tema koje ne traže posebno znanje: voće, životinje, cvijeće, vrijeme, načini putovanja, stvari za toplo piće i stvari pečene u pećnici. Svaka slika pripada samo jednoj temi, a neparna uvijek dolazi iz druge teme."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je i nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Podudaranje boja",
+    "seoTitle": "Podudaranje boja: nježna igra sa slikama",
+    "h1": "Podudaranje boja: pronađite slike jedne boje",
+    "description": "Velika boja s njezinim nazivom i četiri ili šest slika. Dotaknite svaku sliku koja je te boje. Nema štoperice, bodova, a druga boja se jednostavno imenuje. Igra je besplatna i može se ispisati.",
+    "short": "Pronađite svaku sliku iste boje kao prikazana.",
+    "players": "1 ili 2 osobe, ili odrasla osoba i dijete",
+    "intro": "Prikazana je velika površina boje s njezinim nazivom pokraj nje, a ispod nje su četiri ili šest slika. Dotaknite svaku sliku koja je te boje: na primjer, crvenu jabuku i crvenu šalicu. Ako je slika druge boje, igra jednostavno kaže njezinu boju (\"Kruška je zelena.\") i čeka. Gumb \"Pokaži mi\" u bilo kojem trenutku ističe slike koje se podudaraju, a \"Druga boja\" prelazi dalje.",
+    "howTo": [
+      "Odaberite četiri ili šest slika. Četiri je najjednostavnije.",
+      "Pogledajte boju i zajedno pročitajte njezin naziv.",
+      "Dotaknite svaku sliku koja je te boje. Svaka dobije debeli okvir i kvačicu.",
+      "Ako je slika druge boje, igra kaže koje je boje i čeka. Uzmite si vremena.",
+      "Dotaknite \"Pokaži mi\" kad god želite, zatim \"Druga boja\" za novu boju."
+    ],
+    "tips": [
+      "Izgovorite boju naglas, zatim pogledajte oko sebe: što je još te boje?",
+      "Koristite svoje riječi ako želite. \"Rajčica\" ili \"nebo\" jednako su dobri kao \"crvena\" ili \"plava\".",
+      "Pokazivanje funkcionira jednako dobro kao dodir. Sjednite jedno do drugoga da oboje vidite zaslon."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li štoperica ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubljenja. Možete stati u bilo kojem trenutku, a prekid na pola puta također je sasvim dobar način za završetak."
+      },
+      {
+        "q": "Što se dogodi ako se dotakne slika druge boje?",
+        "a": "Ništa neugodno. Nema zvučnog signala, crvenog križa ni treslja. Igra imenuje sliku i njezinu boju, na primjer \"Kruška je zelena.\", i čeka sljedeći dodir."
+      },
+      {
+        "q": "Je li boja jedini znak?",
+        "a": "Ne. Boja je prikazana kao velika površina, a zapisana je i riječju, a svaka se slika imenuje kada se dotakne. Netko kome je boju teško razaznati i dalje može igrati čitajući naziv."
+      },
+      {
+        "q": "Je li svaka slika zaista te boje?",
+        "a": "Slike se biraju ručno, i to samo one na kojima je glavni predmet jasno jedne boje. Slike s više boja, poput zmaja ili pčele, ne uključuju se."
+      },
+      {
+        "q": "Postoji li verzija za ispis na papiru?",
+        "a": "Da. List na jednoj stranici ima četiri retka. Svaki redak imenuje boju i prikazuje četiri slike na koje se može pokazati ili koje se mogu zaokružiti."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je i nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Podudaranje polovica",
+    "seoTitle": "Podudaranje polovica: nježna igra sa slikama",
+    "h1": "Podudaranje polovica: spojite dvije polovice slike",
+    "description": "Lijeve polovice dviju ili triju slika na jednoj strani, njihove desne polovice na drugoj. Dotaknite jednu polovicu, zatim onu koja joj odgovara. Nema štoperice, bodova, a polovice koje ne odgovaraju jednostavno se razdvoje. Igra je besplatna i može se ispisati.",
+    "short": "Dotaknite dvije polovice koje se spajaju u jednu sliku.",
+    "players": "1 ili 2 osobe, ili odrasla osoba i dijete",
+    "intro": "Svaka je slika prepolovljena po sredini. Lijeve polovice dviju ili triju slika nalaze se u jednom stupcu, a njihove desne polovice, u drugačijem redoslijedu, u drugom. Dotaknite polovicu lijevo, zatim dotaknite desnu polovicu koja joj odgovara, na primjer kljun čajnika i njegovu ručku. Polovice koje odgovaraju spajaju se u cijelu sliku. Polovice koje ne odgovaraju ponovno se razdvoje, a igra to nježno kaže. \"Pokaži mi\" spaja sve njih.",
+    "howTo": [
+      "Odaberite dvije ili tri slike. Dvije je najjednostavnije.",
+      "Zajedno pogledajte lijeve polovice. Što mislite, dio čega je svaka od njih?",
+      "Dotaknite polovicu lijevo, zatim dotaknite desnu polovicu koja joj odgovara. Funkcionira i obrnutim redom.",
+      "Polovice koje odgovaraju spajaju se, uz debeli okvir i kvačicu. Polovice koje ne odgovaraju ponovno se razdvoje, a možete pokušati s drugom.",
+      "Dotaknite \"Pokaži mi\" kad god želite, zatim \"Drugi skup\" za nove slike."
+    ],
+    "tips": [
+      "Prstom pratite rub polovice. Gdje crtež dolazi do sredine?",
+      "Recite što vidite: \"Ovaj ima ručku.\" Nije potrebno imenovati svaku sliku.",
+      "Pokazivanje funkcionira jednako dobro kao dodir. Sjednite jedno do drugoga da oboje vidite zaslon."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li štoperica ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubljenja. Možete stati u bilo kojem trenutku, a prekid na pola puta također je sasvim dobar način za završetak."
+      },
+      {
+        "q": "Što se dogodi ako dvije polovice ne odgovaraju?",
+        "a": "Ništa neugodno. Nema zvučnog signala, crvenog križa ni treslja. Dvije polovice se ponovno razdvoje, a igra kaže: \"Ta dva ne idu zajedno. Pokušajte s drugom.\" Ništa se ne broji."
+      },
+      {
+        "q": "Jesu li slike lako razlikovati?",
+        "a": "Da. Slike se biraju ručno, a dvije slike na jednoj ploči nikada nisu iz iste skupine, poput dva voća ili dvije životinje. Slike čije polovice izgledaju slično, poput sunca ili duge, ne uključuju se."
+      },
+      {
+        "q": "Postoji li verzija za ispis na papiru?",
+        "a": "Da. Na jednoj stranici nalaze se lijeve polovice triju slika u jednom stupcu, a njihove desne polovice, u drugačijem redoslijedu, u drugom stupcu. Povucite crtu od svake lijeve polovice do polovice koja joj odgovara."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je, a nisu potrebni ni korisnički račun, ni registracija, ni preuzimanje. Radi u web-pregledniku na mobitelu, tabletu ili računalu."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Bojanje po brojevima",
+    "seoTitle": "Bojanje po brojevima: mirna igra ispunjavanja velikim slovima",
+    "h1": "Bojanje po brojevima: ispunite polja bojom koju želite",
+    "description": "Mreža velikih numeriranih polja i legenda s četiri boje i njihovim nazivima. Odaberite boju, pa dodirnite polja da ih ispunite. Bilo koja boja je u redu, nema vremena ni bodova, a gumb ispunjava preostala polja prema brojevima. Igra je besplatna i može se ispisati.",
+    "short": "Odaberite boju, pa dodirnite numerirana polja da ih ispunite.",
+    "players": "1 ili 2 osobe, jedna pored druge",
+    "intro": "Kvadratna mreža velikih polja, svako s brojem, a iznad nje legenda s četiri boje, svaka s brojem i napisanim nazivom. Odaberite boju iz legende, pa dodirnite polja da ih ispunite. Mreža je na početku 4 x 4, a kada želite više polja, dostupne su 6 x 6 i 8 x 8. Kada svako polje ima boju koja odgovara njegovu broju, mreža postaje slika s lista. Polja ispunjena nekom drugom bojom jednostavno su vaša vlastita slika, a igra o tome ništa ne govori. Gumb \"Ispuni prema brojevima\" ispunjava umjesto vas sva prazna polja.",
+    "howTo": [
+      "Odaberite veličinu mreže. Mreža 4 x 4 ima najveća polja i najjednostavnija je.",
+      "Pogledajte legendu iznad mreže. Svaka boja ima broj i naziv, na primjer 1 Žuta.",
+      "Dodirnite boju u legendi, pa dodirnite polja koja biste htjeli ispuniti tom bojom.",
+      "Koristite boju koja odgovara broju ili bilo koju boju koju želite. Oba su u redu.",
+      "Dodirnite \"Ispuni prema brojevima\" za prazna polja, \"Obriši\" da mrežu vratite na početak ili \"Druga slika\" za drugu sliku."
+    ],
+    "tips": [
+      "Sjednite jedno pored drugoga i izmjenjujte se: jedna osoba bira boju, a druga dodiruje polje.",
+      "Razgovarajte o bojama: \"Sviđa mi se zelena.\" Nije potrebno govoriti što će slika prikazivati.",
+      "Na užem zaslonu mreža 8 x 8 može se pomicati u stranu unutar vlastitog okvira. Polja ostaju ugodne veličine.",
+      "Verzija na papiru također dobro funkcionira s olovkama na noćnom ormariću."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li vremenski ograničenik ili bodovi?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a prekid na pola puta također je savršeno dobar način da završite."
+      },
+      {
+        "q": "Što ako upotrijebim drugu boju od one na broju?",
+        "a": "Ništa se ne dogodi, a upravo je to poanta. Svako polje može dobiti bilo koju boju, a igra o tome ništa ne govori. Kada svako polje ima boju koja odgovara njegovu broju, igra to nježno kaže, a slika u vašim vlastitim bojama jednako je dobra."
+      },
+      {
+        "q": "Mogu li osobe s daltonizmom razlikovati četiri boje?",
+        "a": "Boje su tako odabrane. Svaka boja ima i broj, napisan naziv i vlastiti mali oblik, pa boja nikad nije jedini način da se razlikuju. Četiri ispune provjerene su simulacijama crveno-zelenog i plavo-žutog daltonizma, a razlikuju se i po svjetlini. Osoba s daltonizmom ih još nije isprobala, pa nam javite ako vam se dvije čine slične."
+      },
+      {
+        "q": "Jesu li polja dovoljno velika za drhtanje ruke ili mali zaslon?",
+        "a": "Svako polje široko je najmanje 48 piksela, a na mreži 4 x 4 čak 56. Ako je mreža preširoka za zaslon, pomiče se u stranu unutar vlastitog okvira, umjesto da se polja smanjuju."
+      },
+      {
+        "q": "Postoji li verzija na papiru?",
+        "a": "Da. Jedna stranica sadrži mrežu s brojevima i legendu s četiri boje i njihovim nazivima. Svako polje obojite olovkom boje koja odgovara njegovu broju ili bilo kojom bojom koju želite."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je, a nisu potrebni ni korisnički račun, ni registracija, ni preuzimanje. Radi u web-pregledniku na mobitelu, tabletu ili računalu."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Generator uzoraka",
+    "seoTitle": "Generator uzoraka: osmislite pločicu i ispišite uzorak",
+    "h1": "Generator uzoraka: osmislite pločicu i pogledajte kako se ponavlja",
+    "description": "Mijenjajte polja jedne male pločice i gledajte kako se ona ponavlja u uzorak pored nje, u četiri boje od kojih svaka ima naziv i oblik. Bez vremena i bodova. Igra je besplatna i može se ispisati.",
+    "short": "Mijenjajte polja male pločice i gledajte kako se ona ponavlja u uzorak.",
+    "players": "1 ili 2 osobe, jedna pored druge",
+    "intro": "Mala pločica od 3 x 3 polja, ili 4 x 4 ako želite, a pored nje \"vaš uzorak\": ista pločica ponovljena u bloku. Dodirnite polje i ono se mijenja u sljedeću od četiri boje, a svaka ima svoj napisani naziv i oblik. Uzorak pored mijenja se odmah. Nema točnog uzorka, a ništa se ne sprema niti šalje. \"Ispiši moj uzorak\" stavlja ponovljeni uzorak na jednu stranicu koju možete zadržati, obojiti ili pokloniti.",
+    "howTo": [
+      "Pogledajte pločicu i svoj uzorak pored nje. To je ista pločica, ponovljena.",
+      "Dodirnite polje. Ono se mijenja u sljedeću boju u nizu od četiri boje iznad.",
+      "Nastavite dodirivati polja dok uzorak ne izgleda onako kako želite. Svaki uzorak je dobar.",
+      "Dodirnite \"Iznenadi me\" za novu pločicu ili \"Počni ispočetka\" za praznu. \"Vrati\" vraća pločicu koju ste imali.",
+      "Dodirnite \"Ispiši moj uzorak\" ako ga želite na papiru, ili dodirnite Odmor da zaustavite."
+    ],
+    "tips": [
+      "Sjednite jedno do drugoga i izmjenjujte se: jedna osoba dodirne kvadrat, a druga kaže što primjećuje.",
+      "Razgovarajte o onome što vidite: \"To izgleda kao cvijet.\" Ne treba ništa imenovati.",
+      "Isprobajte istu pločicu samo u dvije boje, a zatim u sve četiri.",
+      "Na papiru se uzorak može obojiti olovkama, izrezati u trake za čestitku ili iskoristiti za omotavanje male darovne kutije."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li sat ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a prekid usred rada također je sasvim dobar način da završite."
+      },
+      {
+        "q": "Sprema li se ili šalje ono što napravim?",
+        "a": "Ne. Vaša pločica ostaje samo na ovoj stranici. Ne sprema se, ne šalje se i ne bilježi se, a nestaje kad zatvorite stranicu. Ako želite zadržati uzorak, ispišite ga."
+      },
+      {
+        "q": "Što ako slučajno dodirnete krivi kvadrat ili obrišete pločicu?",
+        "a": "Nema krivog kvadrata: dodirnite ga ponovno da biste prešli na sljedeću boju. Nakon \"Počni ispočetka\" ili \"Iznenadi me\", \"Vrati je\" vraća pločicu kakva je bila."
+      },
+      {
+        "q": "Mogu li ljudi s daltonizmom razlikovati te četiri boje?",
+        "a": "Odabrane su tako da mogu. Svaka boja ima i napisani naziv i vlastiti mali oblik u svakom kvadratu, pa boja nikada nije jedini način razlikovanja. Četiri boje provjerene su simulacijama crveno-zelenog i plavo-žutog daltonizma. Osoba s daltonizmom ih još nije isprobala, pa nam javite ako vam se dvije čine slične."
+      },
+      {
+        "q": "Jesu li kvadrati dovoljno veliki za drhtanje ruku ili mali zaslon?",
+        "a": "Svaki kvadrat širok je najmanje 56 piksela. Ako je pločica preširoka za zaslon, pomiče se vodoravno unutar vlastitog okvira, umjesto da se kvadrati smanjuju."
+      },
+      {
+        "q": "Postoji li verzija za ispis na papiru?",
+        "a": "Da. \"Ispiši moj uzorak\" ispisuje uzorak koji ste napravili na jednoj stranici, sa sve četiri boje i njihovim nazivima. Dobro izgleda i crno-bijelo, jer svaka boja ima svoj oblik."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nisu potrebni ni korisnički račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Zajedničko crtanje",
+    "seoTitle": "Zajedničko crtanje: dvije osobe, jedna slika",
+    "h1": "Zajedničko crtanje: dvije osobe, jedan list",
+    "description": "Dvije osobe izmjenjuju se u crtanju linija na jednoj zajedničkoj površini, svaka u svojoj boji. Nitko ne boduje niti pobjeđuje, a slika se može spremiti ili ispisati. Besplatno je, bez računa.",
+    "short": "Izmjenjujte se u crtanju jedne zajedničke slike s osobom pokraj vas.",
+    "players": "2 osobe, jedna pokraj druge",
+    "intro": "Jedna površina, dvije osobe. Svaka od vas odabire boju, a svaka boja ima svoj napisani naziv. Izmjenjujte se: nacrtajte jednu liniju ili oblik, zatim predajte olovku. Bilo tko od vas može predati olovku u bilo kojem trenutku. Nema \"ispravne\" slike i nema bodova. Ako vam se slika sviđa, spremite je na svoj uređaj ili ispišite verziju na papiru: jedan list, dvije olovke.",
+    "howTo": [
+      "Svaka od vas odabire boju. Traka pokazuje čiji je red, uz naziv boje te osobe.",
+      "Nacrtajte jednu liniju ili oblik prstom, mišem ili olovkom. Ili koristite tipke sa strelicama i razmaknicu za crtanje bez pokazivača.",
+      "Kad ste spremni, dodirnite \"Predaj olovku\". Bilo tko od vas može predati olovku u bilo kojem trenutku.",
+      "Dodirnite \"Vrati moju zadnju liniju\" da uklonite najnoviju liniju osobe čiji je red.",
+      "Dodirnite \"Spremi sliku\" da napravite datoteku slike na ovom uređaju ili \"Ispiši verziju na papiru\" za jedan list i dvije olovke."
+    ],
+    "tips": [
+      "Sjednite jedno do drugoga i razgovarajte dok crtate: \"Dodat ću sunce u kut.\"",
+      "Počnite s točkom, linijom ili jednostavnim oblikom i neka druga osoba odgovori na to.",
+      "Nitko ne mora crtati nešto konkretno. Uzorak linija jednako je dobar kao i prizor.",
+      "Ako želite stati, dodirnite \"Za sada gotovo\". Vaša slika se ne čuva nakon što napustite stranicu, osim ako je ne spremite."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li pobjednik ili bodovanje?",
+        "a": "Ne. Nema pobjednika, bodova, vremenskog ograničenja ni brojanja poteza. Nema \"ispravne\" slike i ništa se ne rangira niti uspoređuje."
+      },
+      {
+        "q": "Sprema li se ili šalje slika?",
+        "a": "Ne, ništa se ne šalje nigdje. Slika ostaje na ovoj stranici dok je ne zatvorite. Ako dodirnete Spremi sliku, na vašem uređaju se napravi datoteka koju možete preuzeti. Ništa se ne učitava na poslužitelj."
+      },
+      {
+        "q": "Mogu li poništiti liniju?",
+        "a": "Da. \"Vrati moju zadnju liniju\" uklanja najnoviju liniju osobe čiji je red. \"Počni ispočetka\" briše list, a \"Vrati je\" vraća linije, ali samo jedan korak unatrag."
+      },
+      {
+        "q": "Mogu li koristiti ovo bez miša ili zaslona osjetljivog na dodir?",
+        "a": "Da. Kad je crtanje u fokusu, tipke sa strelicama pomiču točku olovke, a razmaknica spušta ili podiže olovku. Zaslon svaki put kaže \"Olovka dolje\" ili \"Olovka gore\"."
+      },
+      {
+        "q": "Koje su to boje i mogu li ih ljudi s daltonizmom razlikovati?",
+        "a": "Žuta, narančasta, zelena i ljubičasta, iste četiri boje koje se koriste i u našim drugim igrama s crtežima. Svaka ima napisani naziv, a nazivi se prikazuju uz red. Boje su provjerene simulacijama uobičajenih razlika u percepciji boja, ali osoba s razlikama u percepciji boja ih još nije isprobala."
+      },
+      {
+        "q": "Postoji li verzija za ispis na papiru?",
+        "a": "Da. \"Ispiši verziju na papiru\" ispisuje jedan list s pravilima i velikim praznim okvirom za crtanje, za dvije osobe s dvije olovke. Radi i crno-bijelo."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Ja, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Zajedno graditi",
+    "seoTitle": "Zajedno graditi: dvoje ljudi, jedan uzorak",
+    "h1": "Zajedno graditi: dvoje ljudi, jedna mreža",
+    "description": "Dvoje ljudi naizmjence stavlja dio u zajedničku mrežu dok ne bude puna, a svaki ima svoju boju s imenom i oblikom. Nitko ne pobjeđuje, nema tajmera ni bodova. Besplatno za igru i ispis.",
+    "short": "Naizmjence s nekim pored vas popunite jednu zajedničku mrežu.",
+    "players": "2 osobe, jedna pored druge",
+    "intro": "Zajednička mreža od 4 puta 4 mjesta, ili 3 puta 3 ako želite. Svaki od vas odabere boju, a svaka boja ima svoje napisano ime i oblik. Igrate naizmjence: na svom potezu dodirnite prazno mjesto da tamo stavite svoj dio. Kad je svako mjesto popunjeno, slika je zajedno izgrađena. Nema pobjednika, jer je radite u paru, a ništa se ne sprema niti šalje. Gumb „Ispiši mrežu” stavlja praznu mrežu na jednu stranicu da možete graditi s dvije olovke.",
+    "howTo": [
+      "Svaki od vas odabere boju. Boja koju je odabrala druga osoba označena je oznakom „U upotrebi”.",
+      "Prva osoba počinje. Ekran pokazuje čiji je red i koja je boja njegova.",
+      "Dodirnite prazno mjesto da tamo stavite svoj dio. Red prelazi na drugu osobu.",
+      "Ako radije ne želite staviti dio, dodirnite „Preskoči”. Svatko od vas može preskočiti u bilo kojem trenutku.",
+      "Kad je svako mjesto popunjeno, zajedno ste izgradili sliku. Dodirnite „Počni ponovno” za novu sliku ili dodirnite Odmor da stanete."
+    ],
+    "tips": [
+      "Sjedite jedno pored drugoga da oboje vidite i dosegnete ekran. Razgovarajte dok radite: „Svoj ću staviti pored tvojeg.”",
+      "Pokušajte izgraditi uzorak, pruge, šahovsku ploču ili rub, ili jednostavno stavljajte dijelove gdje god želite. Oboje je u redu.",
+      "Dijete ili osoba koja se brzo umara može preskočiti koliko god želi. Slika se i dalje gradi zajedno.",
+      "Na papiru svaka osoba koristi jednu olovku i crta svoj oblik u praznim poljima."
+    ],
+    "faq": [
+      {
+        "q": "Ima li pobjednika, tajmera ili bodova?",
+        "a": "Ne. Nema pobjednika, jer zajedno gradite jednu sliku. Nema sata, bodova, brojanja dijelova ni gubljenja. Možete stati u bilo kojem trenutku, a zaustavljanje na pola puta sasvim je dobar način da završite."
+      },
+      {
+        "q": "Sprema li se ili šalje išta što napravimo?",
+        "a": "Ne. Mreža ostaje samo na ovoj stranici. Ne sprema se, ne učitava se i ne broji se, i nestaje kad zatvorite stranicu. Ako je želite zadržati, ispišite mrežu i gradite na papiru."
+      },
+      {
+        "q": "Što ako stavim dio na krivo mjesto?",
+        "a": "Nema krivog mjesta. Dodirnite „Vrati zadnji dio” i red se vraća na vas. Možete vraćati korak po korak, a i preskakanje se može poništiti."
+      },
+      {
+        "q": "Mogu li ljudi s daltonizmom razlikovati četiri boje?",
+        "a": "Odabrane su upravo zato. Svaka boja ima i napisano ime i vlastiti mali oblik na svakom dijelu, pa boja nikad nije jedini način razlikovanja. Četiri boje provjerene su simulacijama crveno-zelenog i plavo-žutog daltonizma. Osoba s daltonizmom još ih nije isprobala, pa nam javite ako vam se čine slične."
+      },
+      {
+        "q": "Jesu li mjesta dovoljno velika za tremor ili mali ekran?",
+        "a": "Svako mjesto je široko najmanje 56 piksela. Ako je mreža preširoka za ekran, pomiče se bočno unutar svog okvira umjesto da se mjesta smanjuju."
+      },
+      {
+        "q": "Postoji li verzija za papir?",
+        "a": "Da. „Ispiši mrežu” ispisuje praznu mrežu na jednu stranicu s dvije boje i njihovim imenima, za gradnju dvjema olovkama. Radi i u crno-bijelom jer svaka boja ima svoj oblik."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Bacanje sjedeći s bilježenjem",
+    "seoTitle": "Bacanje sjedeći s bilježenjem: igra s vrećicama graška za dvoje",
+    "h1": "Bacanje sjedeći s bilježenjem: bacajte zajedno za stolom",
+    "description": "Dvoje ljudi za stolom naizmjence baca mekanu vrećicu graška u veliku metu i bilježi rezultat na papir. Ništa se ne mjeri vremenom niti boduje. Besplatno za ispis.",
+    "short": "Naizmjence bacajte vrećicu graška u veliku metu, a rezultat bilježite na papiru.",
+    "players": "2 osobe, za stolom",
+    "intro": "Mirna igra bacanja za dvoje ljudi koji sjede za stolom. Na stol položite ispisanu metu i naizmjence bacajte mekanu vrećicu graška ili smotanu čarapu tako da padne na kolutove. Svaki od vas bilježi rezultat kvačicama u kućicama na papiru, a zajedno ih pogledate kad stanete. Ništa se ne mjeri vremenom, ništa se ne zbraja na ekranu i ništa se ne sprema niti šalje. Prvo pročitajte sigurnosne napomene: sitni punjenje predstavlja opasnost od gušenja.",
+    "howTo": [
+      "Pročitajte sigurnosne napomene. Odaberite vrećicu sa zašivenim poklopcem ili smotajte čistu čarapu.",
+      "Dodirnite „Ispiši metu i list za bilježenje” i položite list ravno na stol između vas.",
+      "Udobno sjednite, po jedna osoba sa svake strane, i naizmjence bacite po jedan nježan bacaj. Svatko može preskočiti.",
+      "Kad bacaj padne u kolut, stavite kvačicu u kućicu u svom stupcu, u redu za taj kolut.",
+      "Kad stanete, zajedno pogledajte kvačice, ili dodirnite Odmor za pauzu."
+    ],
+    "tips": [
+      "Sjednite se dovoljno blizu da nježno bačeno dodavanje dosegne cilj bez ikakvog ispružanja.",
+      "Pričajte o bacanju, a ne o rezultatu: \"Bilo je lijepo meko.\" Svako bacanje dočekajte pljeskom.",
+      "Smotana čarapa je lagana i lako se drži i sa slabijim hvatom. Između rundi odložite ruku na stol.",
+      "Ako netko radije promatra, može biti onaj koji označava kućice."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li sat ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubljenja. Možete stati u bilo kojem trenutku, a prekid na pola puta sasvim je dobar način da završite."
+      },
+      {
+        "q": "Je li sigurno bacati vrećicu s grahom?",
+        "a": "Može biti, uz pažnju. Koristite vrećicu sa zašivenim omotom ili smotanu čarapu, nikada rastresite grah, rižu ili sitne punjenje, jer su to opasnosti od gušenja za malu djecu i za svakoga tko stavlja stvari u usta. Ostanite sjediti, bacajte nježno prema stolu, nikada prema licu, i neka odrasla osoba bude blizu."
+      },
+      {
+        "q": "Broji li se ili sprema što na ekranu?",
+        "a": "Ne. Brojanje se vodi samo na papiru, u kućicama koje sami označite. Stranica ne bilježi brojeve ni vrijeme, a ništa se ne sprema niti šalje."
+      },
+      {
+        "q": "Što ako netko ne može baciti ili vrećica padne izvan lista?",
+        "a": "Svatko može preskočiti red, a vrećica koja padne izvan lista jednostavno se podigne za sljedeći red. Za nju se ništa ne broji."
+      },
+      {
+        "q": "Što se nalazi na ispisanom listu?",
+        "a": "Jedna stranica: velika meta s tri prstena nazvana Blizu, Sredina i Daleko, tablica sa stupcem za svaku osobu i redom sitnih kućica za označavanje po svakom prstenu te redak sigurnosnih savjeta. Nazivi su napisani na prstenovima, pa radi i u crno-bijelom ispisu."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nema računa, registracije ni preuzimanja. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Sezonski paket slagalica",
+    "seoTitle": "Sezonski paket slagalica: slagalice za ispis na papiru",
+    "h1": "Sezonski paket slagalica: tri papirnate slagalice za svako godišnje doba",
+    "description": "Tri male slagalice za ispis za proljeće, ljeto, jesen ili zimu: spojite parove, zaokružite onu koja se razlikuje i obojite sliku. Odaberite godišnje doba ili dan odmora. Besplatno za ispis.",
+    "short": "Tri slagalice za ispis za godišnje doba koje odaberete ili za dan odmora.",
+    "players": "Za sve dobne skupine, sam ili uz nekoga",
+    "intro": "Odaberite godišnje doba, a stranica prikazuje tri male papirnate slagalice nastale iz slika tog godišnjeg doba: dva reda za spajanje crtama, red od četiri za zaokruživanje onoga koji se razlikuje te sliku za bojanje. Ispišete jednu stranicu, zatim radite jednu, dvije ili sve tri, svojim tempom. Ako umjesto toga odaberete \"Danas je dan odmora\", nema ničega za raditi.",
+    "howTo": [
+      "Odaberite godišnje doba ili odaberite \"Danas je dan odmora\".",
+      "Pogledajte tri slagalice, zatim dodirnite \"Ispiši paket za ovo godišnje doba\".",
+      "Radite jednu, dvije ili sve tri, svojim tempom.",
+      "Spojite odgovarajuće slike crtom, zaokružite onu koja se razlikuje i obojite veliku sliku.",
+      "Stanite kad god želite. I dan odmora je dobar dan."
+    ],
+    "tips": [
+      "Počnite sa slagalicom koja vam se danas čini najlakšom. Dovoljna je jedna.",
+      "Ako vam pomaže, naglas izgovarajte naziv svake slike.",
+      "Koristite bojice ili olovke. Sve boje su u redu.",
+      "Čuvajte stranicu za sljedeći put ili je odložite."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li sat ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubljenja. Možete stati u bilo kojem trenutku, a prekid na pola puta sasvim je dobar način da završite."
+      },
+      {
+        "q": "Zna li stranica koje je godišnje doba?",
+        "a": "Ne. Godišnje doba birate vi. Stranica ne gleda datum ni vašu lokaciju."
+      },
+      {
+        "q": "Postoji li bodovanje ili točan odgovor?",
+        "a": "Ne. Na ekranu se ništa ne mjeri vremenom, ne boduje i ne provjerava, a odgovori se ne prikazuju. Svaka slagalica samo je slika za gledanje, spajanje, zaokruživanje ili bojanje."
+      },
+      {
+        "q": "Što ako danas nitko ne želi slagalice?",
+        "a": "Odaberite \"Danas je dan odmora\". Stranica tada prikazuje jedan miran redak, a nema ničega za ispis ili raditi."
+      },
+      {
+        "q": "Što se nalazi na ispisanom listu?",
+        "a": "Jedna stranica za godišnje doba koje ste odabrali: njegove tri slagalice, svaka s kratkim opisom kako se radi, te redak koji kaže da možete raditi jednu, dvije ili sve tri."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nema računa, registracije ni preuzimanja. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Zajedno ukrasite čestitku",
+    "seoTitle": "Zajedno ukrasite čestitku: čestitka za ispis",
+    "h1": "Zajedno ukrasite čestitku: napravite je za nekoga",
+    "description": "Dvije osobe ukrašavaju tiskanu čestitku za rođendan, zahvalu ili jednostavno tako, a zatim zajedno napišu poruku na poleđini. Samo bojice ili olovke. Bez sata i bodovanja. Besplatno za ispis.",
+    "short": "Zajedno ukrasite tiskanu čestitku.",
+    "players": "2 osobe, jedna pored druge",
+    "intro": "Tiha igra izrade za dvije osobe koje sjede jedna pored druge. Ispišete jedan list koji se presavije na pola i postane čestitka. Odaberite prigodu, poput rođendana ili zahvale, i ukrasite prednju stranu oko njenih riječi. Zatim napišite poruku na poleđini, zajedno ili tako da jedna osoba piše ono što druga kaže. Koristite bojice, pastelne olovke ili flomastere. Nema pravilne čestitke, a ništa se ne mjeri vremenom, ne boduje niti šalje.",
+    "howTo": [
+      "Odaberite prigodu, zatim dodirnite „Ispiši čestitku”.",
+      "Presavite list na pola po crtkanoj liniji tako da prednja strana bude vani.",
+      "Jedna osoba ukrašava prednju stranu, a druga stražnju, ili se izmjenjujete na jednoj strani.",
+      "Napišite poruku zajedno. Jedna osoba može pisati, dok druga izgovara riječi.",
+      "Stanite kad god želite. Jednostavna čestitka jednako je dobra kao i razrađena."
+    ],
+    "tips": [
+      "Počnite s riječima na prednjoj strani, pa zatim jedno po jedno dodajte lišće, zvjezdice ili točkice oko njih.",
+      "Ako netko radije ne bi crtao, može odabrati boje ili napisati poruku.",
+      "Recite što vam se sviđa u tuđim crtežima, a ne jesu li dobri.",
+      "Čestitku držite tamo gdje se može predati ili je zasad jednostavno ostavite na stolu."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li mjerač vremena ili bodovi?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a zaustavljanje na pola puta također je sasvim dobar način da završite."
+      },
+      {
+        "q": "Trebaju li nam ljepilo, makaze ili naljepnice?",
+        "a": "Ne. Dovoljne su bojice, drvene bojice ili flomasteri. Ništa se ne mora rezati, lijepiti ni zalijepiti."
+      },
+      {
+        "q": "Možemo li napraviti čestitku za prigodu koje nema na popisu?",
+        "a": "Odaberite „Samo tako” i na prednju stranu napišite svoje riječi ili jednostavno ukrasite čestitku bez ikakve prigode."
+      },
+      {
+        "q": "Broji li se, ocjenjuje li se ili sprema li se išta na ekranu?",
+        "a": "Ne. Stranica prikazuje samo čestitku i korake. Ništa se ne rangira, ne boduje i ne sprema, i nema ispravne čestitke."
+      },
+      {
+        "q": "Što se nalazi na ispisanom listu?",
+        "a": "Jedna stranica: čestitka presavijena na pola, s riječima za prigodu i jednostavnim okvirom na prednjoj strani te linijama za poruku i redak „Od” na stražnjoj strani. Pravila za dvije osobe ispisana su pri dnu."
+      },
+      {
+        "q": "Je li besplatno i trebam li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Pronađite zajedno",
+    "seoTitle": "Pronađite zajedno: dvoje ljudi traži parove",
+    "h1": "Pronađite zajedno: dvoje ljudi, jedan tim",
+    "description": "Dvoje ljudi dijeli jedan ekran i izmjenjuju se okrećući dvije slikovne kartice kako bi pronašli par. Parove pronalazite zajedno i brojite ih na jednom zajedničkom brojaču. Igra je besplatna, bez mjerača vremena i bodova.",
+    "short": "Izmjenjujte se s osobom pored vas i pronađite parove slika.",
+    "players": "2 osobe, jedna pored druge",
+    "intro": "Kartice na početku imaju vidljive slike, ili ih možete položiti licem prema dolje. Na svom potezu okrenite dvije kartice. Ako su par, zajedno ste ga pronašli i potez prelazi na drugu osobu. Ako su različite, ostaju okrenute licem prema gore dok ne pritisnete „Vrati ih”, tako da ih oboje možete pogledati. Potez možete preskočiti u bilo kojem trenutku. Brojač na vrhu samo raste: to su parovi koje ste zajedno pronašli.",
+    "howTo": [
+      "Odaberite koliko kartica želite koristiti. Šest kartica, odnosno tri para, dobro je mirno mjesto za početak.",
+      "Na ekranu piše čiji je potez, s krugom za prvu osobu i kvadratom za drugu.",
+      "Okrenite dvije kartice, jednu za drugom. Ako se podudaraju, par je pronađen zajedno.",
+      "Ako su različite, pritisnite „Vrati ih” kad ste oboje spremni. Potez tada prelazi na drugu osobu.",
+      "Bilo koja od vas može pritisnuti „Preskoči” u bilo kojem trenutku. Dodirnite „Počni ispočetka” za nove kartice ili dodirnite Odmor za zaustavljanje."
+    ],
+    "tips": [
+      "Sjedite jedno pored drugog i zajedno naglas imenujte slike: „Šalica čaja. Pijete li čaj s mlijekom?”",
+      "Neka osoba o kojoj brinete sama dodiruje kartice, čak i ako to traje dugo. Pokažite prstom umjesto da dodirujete umjesto nje.",
+      "Odaberite „Kartice licem prema dolje” ako vam oboma je drago okretati kartice da biste pronašli slike.",
+      "Osoba koja se brzo umara može preskočiti potez koliko god puta želi. Parovi se i dalje pronalaze zajedno."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li pobjednik, mjerač vremena ili bodovi?",
+        "a": "Ne. Nema pobjednika jer parove pronalazite kao tim. Nema sata, bodova ni brojanja promašaja. Brojač broji samo parove koje ste zajedno pronašli, a možete stati u bilo kojem trenutku."
+      },
+      {
+        "q": "Moramo li zapamtiti gdje su slike?",
+        "a": "Ne. Igra počinje tako da su sve slike vidljive. Kad su kartice licem prema dolje, možete se međusobno pitati što ste vidjeli ili ih jednostavno ponovno okrenuti."
+      },
+      {
+        "q": "Što se događa kad su dvije kartice različite?",
+        "a": "Ostaju okrenute licem prema gore da ih oboje možete pogledati koliko god je potrebno. Ništa ih samo od sebe ne okreće natrag. Kad budete spremni, pritisnite „Vrati ih” i potez prelazi na drugu osobu."
+      },
+      {
+        "q": "Sprema li se ili šalje išta od onoga što igramo?",
+        "a": "Ne. Kartice ostaju samo na ovoj stranici. Ništa se ne sprema, ne šalje niti broji, a sve nestaje kad zatvorite stranicu."
+      },
+      {
+        "q": "Jesu li kartice dovoljno velike za drhtanje ruku ili mali ekran?",
+        "a": "Svaka kartica široka je najmanje 64 piksela i onoliko velika koliko ekran dopušta. Korisnici tipkovnice i čitača zaslona čuju svaku karticu po njezinom mjestu i slici."
+      },
+      {
+        "q": "Je li besplatno i trebam li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Kocke za priču",
+    "seoTitle": "Kocke za priču: igra pripovijedanja uz slike",
+    "h1": "Kocke za priču: ispričajte priču uz slike",
+    "description": "Tri ili četiri kocke sa slikama za pričanje priče bilo kojim redoslijedom. Nema čitanja, nema točnog odgovora, nema mjerača vremena i nema bodova. Bacite ponovno ili preskočite. Igra je besplatna i može se ispisati.",
+    "short": "Bacajte kocke sa slikama i zajedno pričajte priču, bilo kojim redoslijedom.",
+    "players": "2 ili više osoba, ili odrasla osoba i dijete",
+    "intro": "Prikazuju se tri ili četiri slike, poput kockica. Zajedno sastavite priču koja ih koristi, bilo kojim redom. Priča može biti jedna rečenica ili nekoliko, može biti našaljiva ili vjerna stvarnom životu. Nema pogrešne priče i nitko ne mora ništa imenovati ni pamtiti. Dodirnite „Zavrti ponovno” za nove slike, a svatko može preskočiti.",
+    "howTo": [
+      "Odaberite tri ili četiri kockice. Tri su najjednostavnije.",
+      "Zajedno pogledajte slike. Dodirnite jednu ako želite započeti s njom.",
+      "Izmjenjujte se u pričanju priče koja koristi slike, bilo kojim redom. Dovoljna je po jedna rečenica.",
+      "Svatko može preskočiti. Dodirnite „Preskoči” i sljedeća osoba može započeti.",
+      "Dodirnite „Zavrti ponovno” za nove slike kad god želite ili dodirnite Odmor da stanete."
+    ],
+    "tips": [
+      "Postavite pitanje umjesto da čekate odgovor: „Kamo bi mogao ići kišobran?”",
+      "Nadovežite se na ono što je rekla prethodna osoba umjesto da ispravljate. Svaka priča je dobra.",
+      "Priča može biti o stvarnom sjećanju. Slika je dobar početak za nju."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a zaustavljanje usred igre također je savršen način da je završite."
+      },
+      {
+        "q": "Moram li čitati ili imenovati slike?",
+        "a": "Ne. Igra radi samo sa slikama. Igrači mogu pokazati, opisati ili jednostavno reći što ih slika podsjeća. Nikoga se ne traži da išta imenuje ili prisjeti."
+      },
+      {
+        "q": "Što ako netko ne želi biti na redu?",
+        "a": "Može preskočiti u bilo kojem trenutku bez objašnjenja. Igra jednostavno čeka, a sljedeća osoba može započeti ili možete ponovno zavrtjeti."
+      },
+      {
+        "q": "Postoji li verzija za tisak?",
+        "a": "Da. Jedan list sadrži šesnaest različitih slika u četiri retka. Odaberite redak ili izrežite slike i izvlačite ih iz gomile."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Parovi riječi i slika",
+    "seoTitle": "Parovi riječi i slika: spojite riječi sa slikama",
+    "h1": "Parovi riječi i slika: spojite riječ sa slikom",
+    "description": "Spojite engleske riječi s njihovim slikama i poslušajte svaku riječ naglas. Slike ostaju na vidiku, bez tajmera, bodova i brojanja pokušaja. Besplatno za igru i ispis.",
+    "short": "Spojite svaku riječ s njezinom slikom i poslušajte je naglas.",
+    "players": "Jedna odrasla osoba ili obitelj koja igra jedno uz drugo",
+    "intro": "Prikazuju se četiri ili šest slika, a njihove engleske riječi su poredane drugim redom. Dodirnite riječ, a zatim njezinu sliku, ili sliku pa zatim riječ. Spojeni par ostaje zajedno s debelim okvirom i oznakom „Spojeno”. Dodirnite „Čitaj naglas” pored bilo koje riječi da je čujete. Ništa se ne mjeri vremenom i ne boduje, a pogrešan dodir jednostavno se sam poništi.",
+    "howTo": [
+      "Odaberite četiri ili šest slika. Četiri su najjednostavnije.",
+      "Dodirnite riječ, a zatim sliku koju ona imenuje. Ili prvo dodirnite sliku, pa zatim njezinu riječ.",
+      "Spojeni par ostaje zajedno. Pogrešan dodir se tiho poništi, pa pokušajte ponovno.",
+      "Dodirnite „Čitaj naglas” pored riječi da je čujete, ako vaš uređaj može čitati tekst naglas.",
+      "Dodirnite „Nove slike” za novi niz ili „Počni ispočetka” da rastavite sve parove. „Vrati” vraća posljednje spojene parove."
+    ],
+    "tips": [
+      "Prije nego spojite svaku riječ, zajedno je izgovorite naglas i razgovarajte o slici.",
+      "Obitelji se mogu izmjenjivati. Svaka osoba odabire jednu riječ ili sliku u isto vrijeme.",
+      "Prvo koristite riječi koje već znate, a ostale ostavite za kasnije."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a zaustavljanje usred igre također je savršen način da je završite."
+      },
+      {
+        "q": "Je li ovo za djecu?",
+        "a": "Napravljeno je za odrasle koji uče ili ponovno uče engleske riječi i za obitelji koje igraju jedno uz drugo. Nije pisano za djecu."
+      },
+      {
+        "q": "Što ako moj uređaj ne može čitati tekst naglas?",
+        "a": "Gumb „Čitaj naglas” koristi glas koji vaš preglednik već ima. Ako preglednik ne može govoriti, gumb se ne prikazuje i igra radi i bez njega."
+      },
+      {
+        "q": "Postoji li verzija za tisak?",
+        "a": "Da. Jedan list sadrži šest slika i njihovih šest riječi, za izrezivanje ili za spajanje crtom."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Razvrstajmo zajedno",
-    "seoTitle": "Igra razvrstavanja za demenciju: razvrstajmo zajedno",
+    "seoTitle": "Igra razvrstavanja: zajedničko razvrstavanje za odrasle",
     "h1": "Razvrstajmo zajedno: razvrstavanje slika",
-    "description": "Dodirnite sliku, zatim košaru u koju pripada: kuhinja ili vrt, voće ili životinje. Mirna, besplatna aktivnost razvrstavanja za osobe koje žive s demencijom.",
+    "description": "Dodirnite sliku, a zatim košaricu u koju pripada: kuhinja ili vrt, voće ili životinje. Mirna, besplatna igra razvrstavanja za odrasle i obitelji.",
     "short": "Stavite svaku sliku u njezinu košaru: kuhinja ili vrt i još mnogo toga.",
     "players": "1 ili 2 osobe",
     "intro": "Razvrstavanje je poznat, ugodan svakodnevni posao, kao spremanje namirnica ili slaganje čarapa u parove. Dodirnite sliku, zatim košaru u koju pripada. Nema žurbe ni krivog skretanja.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Slagalica sa slikom",
-    "seoTitle": "Laka slagalica za demenciju: 4 ili 9 dijelova",
+    "seoTitle": "Jednostavna online slagalica: 4 ili 9 velikih dijelova",
     "h1": "Slagalica sa slikom: laka slagalica",
-    "description": "Laka internetska slagalica za osobe koje žive s demencijom: 4 ili 9 velikih dijelova, cijela slika ostaje vidljiva, a dodirom dvaju dijelova mijenjate im mjesta.",
+    "description": "Jednostavna online slagalica za odrasle: 4 ili 9 velikih dijelova, cijela slika ostaje vidljiva, a dva dijela zamijenite dodirom. Koristite vlastitu fotografiju, koja ostaje na ovom uređaju. Besplatno, bez tajmera.",
     "short": "Dodirnite dva dijela da ih zamijenite dok slika ne bude cjelovita.",
     "players": "1 ili 2 osobe",
-    "intro": "Prijateljska slika izrezana je na četiri ili devet velikih dijelova i izmiješana. Cijela slika ostaje vidljiva kao vodič. Dodirnite jedan dio, zatim drugi, i zamijenit će mjesta. Povlačenje nije potrebno.",
+    "intro": "Prijateljska slika izrezana je na četiri ili devet velikih dijelova i pomiješana. Cijela slika ostaje vidljiva kao vodič. Dodirnite jedan dio, zatim drugi, i zamijenit će mjesta. Vučenje nije potrebno. Možete koristiti i jednu od svojih fotografija. Ona ostaje na ovom uređaju i nikad se ne šalje.",
     "howTo": [
       "Odaberite sliku i 4 ili 9 dijelova. Četiri su nježan početak.",
       "Pogledajte cijelu sliku gore.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Dovrši izreku",
-    "seoTitle": "Dovrši izreku: igra poslovicama za starije osobe",
+    "seoTitle": "Dovršite izreku: igra poznatih izreka",
     "h1": "Dovrši izreku",
     "description": "Poznate izreke kojima nedostaje posljednja riječ, poput „Tko rano rani, dvije sreće ___“. Dodirnite ponuđeni odgovor ili prikažite završetak, a zatim razgovarajte.",
     "short": "Zajedno dovršite poznate izreke, a zatim razgovarajte o njima.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Osmosmjerka u velikom tisku",
-    "seoTitle": "Osmosmjerka u velikom tisku za demenciju, za ispis",
+    "seoTitle": "Pretraga riječi velikim tiskom, besplatno i za ispis",
     "h1": "Osmosmjerka u velikom tisku",
-    "description": "Besplatna osmosmjerka u velikom tisku za starije osobe i osobe s demencijom. Malo riječi, velika slova, samo vodoravno i okomito. Igrajte ili ispišite.",
+    "description": "Besplatna pretraga riječi velikim tiskom za starije odrasle i obitelji. Malo riječi, velika slova, riječi samo vodoravno i okomito. Igrajte online ili ispišite.",
     "short": "Velika slova, nekoliko riječi, samo vodoravno i okomito. Možete i ispisati.",
     "players": "1 ili 2 osobe",
     "intro": "Mala mreža s velikim slovima i samo šačicom riječi, sve se čitaju vodoravno ili okomito. Dodirnite prvo slovo riječi, zatim njezino posljednje slovo. Više volite papir? Jednim dodirom ispišite novu slagalicu.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Bojanke",
-    "seoTitle": "Bojanke za odrasle osobe s demencijom (besplatno)",
+    "seoTitle": "Besplatne stranice za bojanje za odrasle, velike i jednostavne",
     "h1": "Bojanke",
     "description": "Jednostavne bojanke za odrasle s velikim površinama: dodirnite boju, zatim sliku. Bez prljanja, bez pogrešnih boja, a svaka se stranica može besplatno ispisati.",
     "short": "Dodirnite boju, zatim dio slike. Možete i ispisati stranice.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Kartice za razgovor",
-    "seoTitle": "Poticaji za razgovor s osobama s demencijom: kartice sa slikama",
+    "seoTitle": "Razgovorne kartice: slikovne kartice za obitelji",
     "h1": "Kartice za razgovor",
-    "description": "Kartice sa slikama i nježnim poticajima za razgovor za osobe s demencijom: bez ispitivanja i točnih odgovora. Koristite na zaslonu ili ispišite komplet.",
+    "description": "Slikovne kartice s blagim pitanjima za razgovor, za obitelji, prijatelje i starije osobe, uključujući osobe koje žive s demencijom. Bez ispitivanja i bez točnih odgovora.",
     "short": "Kartice sa slikama i otvorenim, nježnim pitanjima. Bez ispitivanja.",
     "players": "2 osobe ili grupa",
     "intro": "Svaka kartica spaja poznatu sliku s otvorenim pozivom na razgovor, poput „Kakvo vrijeme najviše volite?“ Nema točnih odgovora ni ičega što treba pamtiti. Odaberite temu ili promiješajte sve.",
@@ -329,12 +979,13 @@
     "description": "Pretvorite obiteljske fotografije u nježnu igru slaganja. Odaberite 2 do 6 fotografija na uređaju; ostaju u pregledniku i nikada se ne prenose.",
     "short": "Odaberite vlastite fotografije i složite ih u parove. Ništa se ne prenosi na internet.",
     "players": "2 osobe, jedna uz drugu",
-    "intro": "Odaberite dvije do šest fotografija s telefona, tableta ili računala i one postaju igra slaganja s velikim, vidljivim slikama. Fotografije se prikazuju samo unutar ove stranice. Ne prenose se na internet, ne spremaju se i ne dijele, a nestaju kad zatvorite stranicu.",
+    "intro": "Odaberite dvije do šest vlastitih obiteljskih fotografija s telefona, tableta ili računala i one će postati igra parova s velikim, dobro vidljivim slikama. Fotografije se prikazuju samo unutar ove stranice. Ne učitavaju se, ne spremaju i ne dijele, a nestaju kad zatvorite stranicu. Ako želite, ispod svake fotografije možete dodati nekoliko riječi, a nježan savjet nakon kratke stanke može ukazati na jedan par. Ovo je način da zajedno pogledate obiteljske fotografije.",
     "howTo": [
-      "Dodirnite „Odaberite fotografije“ i odaberite dvije do šest fotografija.",
-      "Svaka se fotografija pojavljuje dvaput. Dodirnite jednu, zatim njezin par.",
-      "Razgovarajte o svakoj fotografiji kad je pronađete.",
-      "Kad završite, zatvorite stranicu ili dodirnite „Očisti fotografije“. Ništa se ne čuva."
+      "Dodirnite \"Odaberi fotografije\" i izaberite dvije do šest fotografija.",
+      "Svaka se fotografija pojavljuje dvaput. Dodirnite jednu, zatim dodirnite njezin par.",
+      "Ako želite, ispod svake fotografije dodajte nekoliko riječi. Natpisi se ne spremaju.",
+      "Razgovarajte o svakoj fotografiji dok je pronalazite.",
+      "Kad završite, zatvorite stranicu ili dodirnite \"Obriši fotografije\". Ništa se ne zadržava."
     ],
     "tips": [
       "Odaberite jasne fotografije sretnih, poznatih stvari: ljubimac, vrt, omiljeno mjesto, dan vjenčanja.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Bingo sa slikama",
-    "seoTitle": "Bingo sa slikama za starije osobe s demencijom: za ispis",
+    "seoTitle": "Bingo sa slikama za ispis za grupe",
     "h1": "Bingo sa slikama za grupe",
-    "description": "Besplatni bingo sa slikama za ispis za njegu osoba s demencijom i grupe starijih, s velikim pozivateljem na zaslonu. 9 ili 16 polja, čitanje nije potrebno.",
+    "description": "Besplatan bingo sa slikama za ispis za obitelji, grupe starijih osoba i domove za skrb. Velike slike s riječima, 9 ili 16 polja i veliki voditelj igre na zaslonu.",
     "short": "Kartice za bingo sa slikama za ispis i pozivatelj za veliki zaslon za grupe.",
     "players": "Grupa od 2 do 30 osoba",
     "intro": "Klasični bingo sa slikama umjesto brojeva, pa nitko ne mora čitati sitan tisak. Ispišite komplet jedinstvenih kartica, a zatim pomoću pozivatelja na zaslonu prikažite svaku sliku veliku na televizoru, prijenosnom računalu ili tabletu.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Planer piknika",
+    "seoTitle": "Planer piknika: odaberite slike za izlet",
+    "h1": "Planer piknika: odaberite slike, zatim ih spojite u parove",
+    "description": "Odaberite slike hrane i aktivnosti za piknik, zatim s njima odigrajte blagu igru spajanja parova. Ništa se ne mjeri na vrijeme. Besplatno za igru i ispis.",
+    "short": "Odaberite slike hrane i izleta za piknik, zatim ih spojite u parove.",
+    "players": "Sami ili 2 osobe jedna uz drugu",
+    "intro": "Dodirnite slike hrane i aktivnosti da ih stavite u košaricu za piknik, u koju stane do šest stavki. Rečenica riječima pokazuje što je u košarici, na primjer: \"Naš piknik: kruh, sir, jabuke i zmaj.\" Zatim dodirnite \"Igrajmo se s našim piknikom\" za blagu igru spajanja parova od odabranih slika. Slike ostaju vidljive, a ništa se ne mjeri na vrijeme, ne boduje i ne sprema. \"Ispiši naš popis za piknik\" ispisuje popis onoga što ste odabrali, s kvadratićem za kvačicu uz svaku stavku za pakiranje.",
+    "howTo": [
+      "Dodirnite sliku hrane ili aktivnosti. Ona ulazi u košaricu.",
+      "Dodirnite sliku u košarici da je ponovno izvadite.",
+      "Odaberite barem dvije stavke, zatim dodirnite \"Igrajmo se s našim piknikom\".",
+      "Dodirnite dvije iste slike. Slike ostaju prikazane, pa se ništa ne mora pamtiti.",
+      "Dodirnite \"Ispiši naš popis za piknik\" za papirni popis koji možete ponijeti."
+    ],
+    "tips": [
+      "Pitajte ljude s kojima ste što bi htjeli ponijeti i zajedno odaberite slike.",
+      "Razgovarajte o svakoj slici dok ulazi u košaricu: \"Sjećate li se zmaja koji smo pustili na plaži?\"",
+      "Na papiru su prazne crte za sve što želite još ponijeti ili za ime."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer, bodovi ili pobjednik?",
+        "a": "Ne. Ništa se ne mjeri na vrijeme niti broji, a nitko ne pobjeđuje. Igra spajanja nema promašaja ni bodova."
+      },
+      {
+        "q": "Je li ovo plan prehrane?",
+        "a": "Ne. To je slikovni plan za izlet, za razgovor i za ispis na papiru. Ne govori što bi itko trebao jesti."
+      },
+      {
+        "q": "Spremaju li se ili šalju odabrane slike?",
+        "a": "Ne. Košarica ostaje samo na ovoj stranici. Ne sprema se, ne učitava i ne šalje, a nestaje kad zatvorite stranicu."
+      },
+      {
+        "q": "Postoji li verzija za ispis?",
+        "a": "Da. \"Ispiši naš popis za piknik\" ispisuje jednu stranicu, na formatu A4 ili US Letter. Prikazuje odabrane slike s kvadratićem za kvačicu uz svaku i prazne crte za sve ostalo."
+      },
+      {
+        "q": "Je li besplatno i trebam li se registrirati?",
+        "a": "Da, besplatno je, a nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Album uspomena",
+    "seoTitle": "Album uspomena: zajedno listajte obiteljske fotografije, stranicu po stranicu",
+    "h1": "Album uspomena: dodajte fotografije i natpise, zatim listajte stranice",
+    "description": "Odaberite dvije do dvanaest vlastitih obiteljskih fotografija na uređaju i listajte ih kao knjigu, s nekoliko riječi ispod svake. Ništa se ne učitava. Besplatno za ispis.",
+    "short": "Zajedno listajte vlastite obiteljske fotografije, kao knjigu.",
+    "players": "Sami ili 2 osobe jedna uz drugu",
+    "intro": "Odaberite dvije do dvanaest vlastitih fotografija s ovog uređaja. Svaka fotografija postaje jedna stranica knjige, dovoljno velika da se dobro vidi, s dodatnim riječima ispod, ako želite. Stranice listate gumbima ili tipkama sa strelicama, a \"Gledajte zajedno\" služi za sjedenje jedni uz druge samo uz fotografije i riječi. Vaše fotografije ostaju na ovom uređaju. Ne učitavaju se niti spremaju, a knjiga nestaje kad zatvorite stranicu. \"Ispiši album\" ispisuje jednu fotografiju i njezine riječi na svakoj stranici, s brojevima stranica.",
+    "howTo": [
+      "Dodirnite \"Odaberi fotografije\" i izaberite dvije do dvanaest fotografija. Prije korištenja fotografije osobe koja ne može reći da, pitajte je.",
+      "Listajte stranice gumbima \"Prethodna stranica\" i \"Sljedeća stranica\" ili tipkama lijevo i desno.",
+      "Dodajte nekoliko riječi ispod fotografije, ako želite. Za promjenu redoslijeda koristite \"Pomakni ranije\" ili \"Pomakni kasnije\".",
+      "Dodirnite \"Gledajte zajedno\" da sakrijete alate za uređivanje i pogledate knjigu jedni uz druge.",
+      "Dodirnite \"Ispiši album\" za papirnu kopiju ili \"Obriši knjigu\" kad završite. Ništa se ne zadržava."
+    ],
+    "tips": [
+      "Izaberite fotografije sretnih, poznatih stvari: vrt, ljubimca, omiljeno mjesto. Dok okrećete svaku stranicu, razgovarajte o njoj.",
+      "Neka osoba za svaku stranicu kaže nekoliko riječi, čak i samo jednu, i zapišite ih točno onako kako ih izgovori.",
+      "Na papiru tiskane stranice mogu se staviti u mapu, a obitelj može dodati svoje slike i bilješke oko njih."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li mjerenje vremena, bodovi ili pobjednik?",
+        "a": "Ne. Ništa se ne mjeri vremenom, ne boduje se i ne broji se, a nitko ne pobjeđuje. Broj stranice tu je samo da znate gdje ste u knjizi."
+      },
+      {
+        "q": "Spremaju li se, učitavaju li se ili šalju li se naše fotografije ili opisi?",
+        "a": "Ne. Fotografije čita samo ova stranica i ne učitavaju se, ne spremaju se niti šalju nikamo. Opisi se čuvaju samo dok je stranica otvorena. Kada zatvorite stranicu, knjiga nestaje."
+      },
+      {
+        "q": "Možemo li ispisati knjigu?",
+        "a": "Da. \"Ispiši album sjećanja\" ispisuje jednu fotografiju i njezin opis na svakoj stranici, s brojevima stranica. U dijaloškom okviru za ispis odaberite A4 ili US Letter."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, i nisu potrebni korisnički račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Ploča za kolaž",
+    "seoTitle": "Ploča za kolaž: dvoje ljudi stavlja slike naizmjence",
+    "h1": "Ploča za kolaž: stavljajte slike na jednu ploču, naizmjence",
+    "description": "Dvoje ljudi naizmjence stavlja izrezane slike na jednu zajedničku ploču. Dodirnite izrezak, pa prazno mjesto. Bez mjerenja vremena i bodova. Igra i ispis su besplatni.",
+    "short": "Naizmjence stavljajte slike na jednu zajedničku ploču.",
+    "players": "2 osobe, jedna pored druge",
+    "intro": "Dvoje ljudi sjedi jedno pored drugoga pred jednom pločom s dvanaest mjesta i ladicom s osam izrezanih slika. Dodirnite izrezak, pa dodirnite prazno mjesto, i slika će se tamo staviti. Potez zatim prelazi na drugu osobu. Slike svake osobe imaju vlastiti oblik, krug ili kvadrat, pa se na ploči vidi tko je što stavio i bez oslanjanja na boju. Bilo koja osoba može preskočiti potez, a jedan korak može se poništiti. Ništa se ne mjeri vremenom, ne boduje se i ne sprema. \"Ispiši ploču\" ispisuje praznu ploču i slike za izrezivanje.",
+    "howTo": [
+      "Dodirnite izrezak u ladici. Dok je odabran, piše \"Odabrano\".",
+      "Dodirnite prazno mjesto na ploči. Izrezak se tamo stavlja, a potez prelazi dalje.",
+      "Bilo koja osoba može u bilo kojem trenutku dodirnuti \"Preskoči\" ili \"Vrati zadnji komad\" za poništavanje jednog koraka.",
+      "Dodirnite \"Drugi set slika\" za drugu ladicu. Slike koje su već na ploči ostaju tamo gdje jesu.",
+      "Dodirnite \"Počni ispočetka\" za brisanje ploče, a \"Vrati\" ako si predomislite."
+    ],
+    "tips": [
+      "Izgovarajte naziv svake slike dok je stavljate, npr. \"šalica čaja ide uz kuću\". Razgovor čini aktivnost zajedničkom.",
+      "Neka obje osobe naizmjence biraju izrezak, a ne samo mjesto, pa svatko ima udjela.",
+      "Na papiru izrežite osam slika uz pomoć odrasle osobe, pa ih stavite na ispisane okvire."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li mjerenje vremena, bodovi ili pobjednik?",
+        "a": "Ne. Ništa se ne mjeri vremenom, ne boduje se i ne broji se, a nitko ne pobjeđuje. Puna ploča jednostavno je ona na kojoj je slika na svakom mjestu."
+      },
+      {
+        "q": "Spremaju li se ili šalju li se slike koje stavljamo?",
+        "a": "Ne. Ploča ostaje samo na ovoj stranici. Ne sprema se, ne učitava se niti broji, a nestaje kada zatvorite stranicu."
+      },
+      {
+        "q": "Kako znamo čija je koja slika?",
+        "a": "Svaka osoba ima svoj oblik. Slike prve osobe imaju krug u kutu, a slike druge osobe kvadrat, a iznad ploče prikazano je ime svake osobe."
+      },
+      {
+        "q": "Postoji li verzija na papiru?",
+        "a": "Da. \"Ispiši ploču\" ispisuje praznu ploču kao dvanaest okvira, s osam slika ispod u istoj veličini i crtom za rezanje. Rezanje može napraviti odrasla osoba."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, i nisu potrebni korisnički račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Planer vrta",
+    "seoTitle": "Planer vrta: rasporedite gredice pomoću slika biljaka",
+    "h1": "Planer vrta: odaberite slike i rasporedite parcelu",
+    "description": "Odaberite slike biljaka i predmeta iz vrta, pa ih stavite na dvanaest gredica parcele. Dodirnite sliku, pa gredicu. Bez mjerenja vremena i bodova. Igra i ispis su besplatni.",
+    "short": "Odaberite slike biljaka i rasporedite parcelu od dvanaest gredica.",
+    "players": "Sami ili 2 osobe jedna pored druge",
+    "intro": "Odaberite slike iz ladice s biljkama i predmetima iz vrta, pa dodirnite gredicu da svaku stavite na mjesto. Parcela ima dvanaest gredica, a jedna gredica prima jednu sliku. Sažetak riječima kaže što plan sadrži, npr. \"Vaš plan ima 3 suncokreta, 2 ruže i 1 drvo.\" Ništa se ne mjeri vremenom, ne boduje se i ne sprema, a potezi se ne izmjenjuju. Ovo je slikovni plan o kojem se može razgovarati, a ne savjet za sadnju. \"Ispiši plan\" ispisuje gredice s odabranim slikama, s praznim gredicama za crtanje i linijama za bilješke.",
+    "howTo": [
+      "Dodirnite sliku u ladici. Dok je odabrana, piše \"Odabrano\".",
+      "Dodirnite gredicu. Slika se tamo stavlja, a izbor je zabilježen.",
+      "Za promjenu gredice odaberite drugu sliku i dodirnite gredicu. Za brisanje gredice dodirnite je bez odabrane slike.",
+      "Dodirnite \"Počni ispočetka\" za pražnjenje svih gredica, a \"Vrati\" ako si predomislite.",
+      "Dodirnite \"Ispiši plan\" za papirnatu kopiju parcele i sažetka."
+    ],
+    "tips": [
+      "Pričajte o svakoj slici dok je stavljate, npr. \"suncokret ide pored kućice za ptice\". Razgovor čini aktivnost zajedničkom.",
+      "Neka svaka osoba redom bira sliku ili slike zajedno birajte, kako bi obje imale riječ u tome što će se događati.",
+      "Na papiru su prazne gredice za crtanje vlastitih ideja, a retci za bilješke za sve što želite zapamtiti."
+    ],
+    "faq": [
+      {
+        "q": "Je li ovo savjet o sadnji?",
+        "a": "Ne. Ovo je plan u slikama o kojem možete razgovarati, a ne savjet o sadnji. Ne govori kada, gdje ni kako nešto saditi, jer to ovisi o mjestu u kojem živite."
+      },
+      {
+        "q": "Postoji li mjerenje vremena, bodovanje ili pobjednik?",
+        "a": "Ne. Ništa se ne mjeri vremenski, ne boduje, ne ocjenjuje i ne broji, i nitko ne pobjeđuje. Potpuno popunjena gredica ne dobiva posebnu poruku."
+      },
+      {
+        "q": "Spremaju li se ili šalju slike koje odaberemo?",
+        "a": "Ne. Plan ostaje samo na ovoj stranici. Ne sprema se, ne učitava i ne broji se, a nestaje kada zatvorite stranicu."
+      },
+      {
+        "q": "Postoji li verzija za ispis?",
+        "a": "Da. Gumb \"Ispiši plan\" ispisuje jednu stranicu, u formatu A4 ili US Letter. Prikazuje dvanaest gredica s odabranim slikama, sažetak riječima i prazne retke za bilješke."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nisu potrebni računi, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Zajednički zid za bojanje",
+    "seoTitle": "Zajednički zid za bojanje: jedna slika za mnogo ruku",
+    "h1": "Zajednički zid za bojanje: jedna velika slika, obojena zajedno",
+    "description": "Ispišite jednu veliku sliku na više stranica da obitelj, razred ili dom za njegu može zajedno obojiti jedan zid. Besplatno za ispis. Bez mjerenja vremena i bodovanja.",
+    "short": "Ispišite jednu veliku sliku na više stranica za mnogo ljudi koji će je bojati.",
+    "players": "Grupa, za stolom ili na zidu",
+    "intro": "Odaberite sliku iz stranica za bojanje i zid od 4, 6 ili 9 stranica. Ispišite zid: prva stranica pokazuje kako ga složiti, a svaka od ostalih stranica dio je iste velike slike, s oznakom poput A1 u kutu. Svaka osoba boja jednu ili više stranica, bilo kojim bojama i stilom. Stranice se zatim slažu prema oznakama i lijepe trakom na poleđini. Ništa se ne mjeri vremenski, ne boduje niti sprema.",
+    "howTo": [
+      "Odaberite sliku, zatim odaberite koliko stranica će zid imati.",
+      "Pogledajte kartu na ekranu koja pokazuje gdje ide koja oznaka.",
+      "Dodirnite \"Ispiši zid\" i ispišite sve stranice.",
+      "Svakoj osobi dajte jednu ili više stranica za bojanje. Boje i stil ne moraju se podudarati.",
+      "Složite stranice prema oznakama i spojite ih trakom na poleđini."
+    ],
+    "tips": [
+      "Stranice s najjednostavnijim obrisima dajte onima koji žele mirniji zadatak, a zahtjevnije onima koji u tome uživaju.",
+      "Objesite zid na mjesto gdje ga svi mogu vidjeti i zajedno razgovarajte o dijelovima slike.",
+      "Za mali stol odaberite manji zid, a za veću prostoriju veći."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li mjerenje vremena, bodovanje ili pobjednik?",
+        "a": "Ne. Ništa se ne mjeri vremenski, ne boduje i ne broji, i nitko ne pobjeđuje. Zid je jednostavno slika koju su mnogi ljudi obojili."
+      },
+      {
+        "q": "Spremaju li se stranice ili šalju negdje?",
+        "a": "Ne. Zid se izrađuje samo na ovoj stranici. Ne sprema se, ne učitava i ne broji se, a nestaje kada zatvorite stranicu."
+      },
+      {
+        "q": "Moraju li se boje podudarati?",
+        "a": "Ne. Svaka osoba može koristiti bilo koje boje i bilo koji stil. Stranice se i dalje spajaju u jednu sliku."
+      },
+      {
+        "q": "Postoji li verzija za ispis?",
+        "a": "Da. Ispisani zid je cijela igra: prva stranica s koracima i kartom te po jedna stranica za svaki dio slike."
+      },
+      {
+        "q": "Je li besplatno i treba li se registrirati?",
+        "a": "Da, besplatno je, a nisu potrebni računi, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Zagonetka mirnih oblika",
+    "seoTitle": "Zagonetka mirnih oblika: složite oblike u sliku",
+    "h1": "Zagonetka mirnih oblika: složite dijelove u sliku",
+    "description": "Složite jednostavne oblike u obrise kućice, broda, ribe i drugog. Dodirnite dio, zatim prazno mjesto istog oblika. Nema mjerenja vremena ni bodovanja. Besplatno za igru i ispis.",
+    "short": "Složite jednostavne oblike u sliku, vlastitim tempom.",
+    "players": "1 osoba, za stolom",
+    "intro": "Obris slike, poput kućice, broda ili rakete, podijeljen je na prazna mjesta. Svako mjesto ima dio istog oblika: veliki ili mali trokut, kvadrat, paralelogram ili pravokutnik. Dodirnite dio, zatim dodirnite mjesto istog oblika, i on će se uklopiti. Mjesto dio sam okrene, pa ga nije potrebno vući ni zakretati. Ako dio ima drugačiji oblik od mjesta, ostaje u ladici uz kratku napomenu. Ništa se ne mjeri vremenski ni boduje, a ništa se ne sprema ni šalje. \"Ispiši ovaj oblik\" ispisuje obris i njegove dijelove na jednoj stranici za bojanje ili rezanje.",
+    "howTo": [
+      "Dodirnite dio u ladici. Dok je odabran, piše \"Odabrano\".",
+      "Dodirnite mjesto na slici. Ako se oblik podudara, dio se tamo uklapa.",
+      "Ako se ne podudara, pokušajte s drugim mjestom. Pokušaj ne koči napredak.",
+      "Dodirnite dio na slici da ga vratite u ladicu ili koristite \"Počni ponovo\" da ih sve vratite.",
+      "Kada svako mjesto ima svoj dio, slika je dovršena. Dodirnite \"Drugi oblik\" za novi ili Odmor da stanete."
+    ],
+    "tips": [
+      "Uključite linije s tragovima da vidite svaki prostor. Isključite ih za više zagonetke, s samo obrisom kao vodičem.",
+      "Počnite s velikim oblicima, poput velikih trokuta i pravokutnika. Mali dijelovi često idu na kraj.",
+      "Imenujte oblike naglas dok radite: \"trokut, kvadrat, dugi pravokutnik\". Razgovor može od ovoga učiniti zajedničku aktivnost.",
+      "Na papiru obojite dijelove dvjema ili trima bojama ili ih izrežite uz pomoć odrasle osobe."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer, bodovanje ili brojanje poteza?",
+        "a": "Ne. Ništa se ne mjeri vremenom, ne broji se i ne boduje. Dio koji ne pristaje jednostavno se ne stavlja, a možete stati kad god želite."
+      },
+      {
+        "q": "Sprema li se ili šalje ono što napravimo?",
+        "a": "Ne. Slika ostaje samo na ovoj stranici. Ne sprema se, ne učitava se i ne broji se, a nestaje kad zatvorite stranicu."
+      },
+      {
+        "q": "Jesu li polja dovoljno velika za drhtanje ruku ili mali zaslon?",
+        "a": "Obris je nacrtan koliko je zaslon dopušta, a svaki prostor je gumb do kojeg možete doći prstom ili tipkom Tab. Dijelovi u kutiji su veliki gumbi na stranici."
+      },
+      {
+        "q": "Postoji li verzija za ispis?",
+        "a": "Da. \"Ispiši ovaj oblik\" ispisuje jednu sliku na jednoj stranici: obris s linijama s tragovima i dijelove nacrtane u istoj veličini pokraj njega. Obojite dijelove ili ih izrežite da stanu. Rezanje može obaviti odrasla osoba."
+      },
+      {
+        "q": "Je li besplatno i trebam li se registrirati?",
+        "a": "Da, besplatno je i nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Mirno disanje",
-    "seoTitle": "Mirna stanka za disanje za starije osobe i njegovatelje",
+    "seoTitle": "Smirujuća stanka za disanje koju možete podijeliti",
     "h1": "Mirna stanka za disanje",
     "description": "Spora, tiha stanka za disanje koju možete podijeliti: nježan krug raste i smanjuje se tijekom šest udaha. Vi je pokrećete i možete je zaustaviti u bilo kojem trenutku.",
     "short": "Spori krug uz koji možete disati. Pokrenite i zaustavite kad želite.",
@@ -423,6 +1333,131 @@
       {
         "q": "Je li besplatna i moram li se prijaviti?",
         "a": "Da, besplatna je i nema računa, prijave ni preuzimanja. Radi u web-pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Lanac priče",
+    "seoTitle": "Lanac priče: zajednička igra priče u slikama",
+    "h1": "Lanac priče: pričajte priču jednu po jednu sliku",
+    "description": "Niz slika raste jedna po jedna, a svaka osoba naglas kaže jednu rečenicu o njoj. Ništa se ne tipka i nema točnog odgovora. Besplatno, smireno, bez tajmera i bodova.",
+    "short": "Dodajte sliku, zatim svatko kaže rečenicu, redom.",
+    "players": "2 ili više osoba",
+    "intro": "Igra počinje jednom slikom, a lanac raste jednu po jednu sliku. Svaka osoba redom naglas kaže jednu rečenicu o dosadašnjem lancu. Rečenica može biti o onome što vidite, o mjestu koje vam pada na pamet ili o nečemu šaljivom. Ništa se ne tipka, ne snima i ne čuva, nema točnog odgovora, a svatko može preskočiti red. Lanac staje na osam slika, nakon čega možete započeti novi.",
+    "howTo": [
+      "Zajedno pogledajte prvu sliku.",
+      "Redom: svaka osoba kaže jednu rečenicu o dosadašnjem lancu. Svatko može preskočiti red.",
+      "Dodirnite \"Dodaj sliku\" da stavite sljedeću sliku na kraj lanca.",
+      "Dodirnite \"Makni zadnju\" ako se želite vratiti za jednu sliku.",
+      "Kad lanac ima osam slika, dodirnite \"Počni novi lanac\" za novi ili jednostavno stanite."
+    ],
+    "tips": [
+      "Kratko je u redu: \"Netko je stavio vodu za čaj.\" Sljedeća osoba nastavlja ili preskače red.",
+      "Neka slike vode. Nema priče kojoj biste trebali doći.",
+      "Stanite kad god želite. Zaustavljanje na pola također je sasvim dobar način da završite."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a zaustavljanje na pola također je sasvim dobar način da završite."
+      },
+      {
+        "q": "Tipka li se ili snima li se nešto?",
+        "a": "Ne. Rečenice se izgovaraju naglas i ne tipkaju se, ne snimaju niti šalju nigdje. Igra prikazuje samo slike."
+      },
+      {
+        "q": "Što ako netko ne želi ništa reći?",
+        "a": "Svatko može preskočiti red, a sljedeća osoba nastavlja. Nitko ne mora imenovati ni pamtiti sliku."
+      },
+      {
+        "q": "Je li besplatno i trebam li se registrirati?",
+        "a": "Da, besplatno je i nije potreban račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Tiha scena",
+    "seoTitle": "Tiha scena: jedna slika po jedna",
+    "h1": "Tiha scena: jedna mirna slika po jedna",
+    "description": "Jedna velika, mirna slika po jedna, svaka s jednim nježnim retkom ispod. Pritisnite Sljedeća ili Prethodna kad ste spremni. Ništa se ne miče niti svira samo od sebe, a nema tajmera ni bodova. Igra je besplatna, bez računa.",
+    "short": "Gledajte jednu mirnu sliku po jednu, vlastitim tempom.",
+    "players": "Sam ili grupa u istoj prostoriji",
+    "intro": "Jedna velika slika ispunjava zaslon, a ispod nje je jedan kratak redak. Pritisnite \"Sljedeća slika\" ili \"Prethodna slika\" kad budete spremni za drugu. Ništa se ne miče, ne blijedi niti se mijenja samo od sebe, a ništa se ne mjeri vremenom. Dodirnite \"Veća slika\" da prikažete samo sliku, kako cijela prostorija može vidjeti na televizoru.",
+    "howTo": [
+      "Zajedno pogledajte sliku.",
+      "Ako želite, naglas pročitajte redak ispod nje.",
+      "Pritisnite \"Sljedeća slika\" ili \"Prethodna slika\" kad budete spremni.",
+      "Dodirnite \"Veća slika\" da prikažete samo sliku, a \"Prikaži sve\" da vratite ostalo.",
+      "Stanite kad god želite s \"Za sada gotovo\"."
+    ],
+    "tips": [
+      "Neka osoba sama odluči kada će dalje: pričekajte da pogleda, pa pritisnite Sljedeća.",
+      "Za grupu koristite \"Veća slika\" na televizoru ili velikom zaslonu i sjednite tako da svi vide.",
+      "Ne postoji pravi način gledanja slike. Samo razgovor o njoj već je potpuna aktivnost."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li tajmer ili bodovanje?",
+        "a": "Ne. Nema sata, bodova, brojača poteza ni gubitka. Možete stati u bilo kojem trenutku, a zaustavljanje na pola također je sasvim dobar način da završite."
+      },
+      {
+        "q": "Svira li zvuk ili se nešto miče?",
+        "a": "Ne. Nema zvuka, a ništa se ne miče, ne blijedi i ne mijenja samo od sebe. Slika se mijenja samo kad pritisnete gumb."
+      },
+      {
+        "q": "Postoji li verzija na papiru?",
+        "a": "Ne. Ovo je slika koju gledate zajedno na ekranu. Omiljena fotografija ili razglednica na stolu čini isto."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je, i nije potreban nikakav račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Prelijevanje boje",
+    "seoTitle": "Prelijevanje boje: nježna boja preko cijele stranice",
+    "h1": "Prelijevanje boje: nanesite nježnu boju preko cijele stranice",
+    "description": "Mekani kist nanosi široke, prozirne slojeve boje preko jedne stranice, u četiri boje i dvije veličine kista. Nema krajnje točke, bodovanja ni tajmera. Igra je besplatna i ne treba račun.",
+    "short": "Nanosite nježne slojeve boje preko stranice, vlastitim tempom.",
+    "players": "Sami ili 2 osobe jedna uz drugu",
+    "intro": "Jedna stranica i jedan mekani kist. Odaberite boju i veličinu kista, zatim povucite preko stranice da nanesete sloj boje. Stranica nema krajnju točku: nema ničega za dovršiti, nema slike koju treba pogoditi i nema bodova. Nanesite koliko god slojeva želite ili spustite kist i jednostavno gledajte. Nova stranica briše sve, a gumb Vrati ga vraća.",
+    "howTo": [
+      "Odaberite boju. Svaka boja ima svoj napisani naziv.",
+      "Odaberite Široko ili Vrlo široko. Vrlo široko pokriva više stranice pri svakom potezu.",
+      "Povucite preko stranice prstom, mišem ili olovkom da nanesete sloj boje.",
+      "Ili koristite tipke sa strelicama da pomaknete prsten kista, a razmaknicom spustite ili podignite kist.",
+      "Dodirnite \"Nova stranica\" da očistite stranicu, a zatim \"Vrati ga\" ako želite vratiti slojeve boje."
+    ],
+    "tips": [
+      "Neka druga osoba odabere boju za sljedeći sloj i razgovarajte o bojama dok ih nanosite.",
+      "Vrlo široko je lakše voditi drhtavom rukom, jer kist ne mora biti precizan.",
+      "Ne postoji ispravan način slikanja. Stanite kad god želite ili dodirnite \"Za sada gotovo\"."
+    ],
+    "faq": [
+      {
+        "q": "Postoji li završetak, bodovanje ili tajmer?",
+        "a": "Ne. Stranica nema krajnju točku. Ništa se ne završava, ne broji, ne mjeri vremenom i ne boduje, a nijedna poruka vas nikada ne traži da učinite više."
+      },
+      {
+        "q": "Sprema li se stranica ili šalje?",
+        "a": "Ne. Ništa se ne sprema, ne ispisuje niti šalje nigdje. Slojevi boje ostaju na ovoj stranici dok je ne napustite."
+      },
+      {
+        "q": "Mogu li ovo koristiti bez miša ili ekrana osjetljivog na dodir?",
+        "a": "Da. Kad je stranica u fokusu, tipke sa strelicama pomiču prsten kista, a razmaknica spušta ili podiže kist. Ekran pri svakoj promjeni kaže \"Kist dolje\" ili \"Kist gore\"."
+      },
+      {
+        "q": "Postoji li verzija na papiru?",
+        "a": "Ne. Akvarel na papiru ima istu ideju, mokri kist i jednu boju u isto vrijeme, pa je to druga aktivnost koju možete isprobati za stolom."
+      },
+      {
+        "q": "Koje su to boje?",
+        "a": "Žuta, narančasta, zelena i ljubičasta, iste četiri boje koje koristimo i u drugim igrama sa slikama. Svaka ima napisani naziv, a naziv se prikazuje uz odabir."
+      },
+      {
+        "q": "Je li besplatno i moram li se registrirati?",
+        "a": "Da, besplatno je, i nije potreban nikakav račun, registracija ni preuzimanje. Radi u web pregledniku na telefonu, tabletu ili računalu."
       }
     ]
   }

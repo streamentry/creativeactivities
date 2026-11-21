@@ -1,36 +1,35 @@
 ---
-title: "Leikir með manneskju sem lifir með heilabilun"
-seoTitle: "Leikir með manneskju sem lifir með heilabilun"
-description: "Hagnýt leiðbeining um leiki með manneskju sem lifir með heilabilun: undirbúningur, taktur, að leiðrétta ekki, einfalda leiki og hvenær á að hætta."
+title: "Hvernig á að spila leiki með einhverjum sem er með heilabilun"
+description: "Hagnýt leiðbeining um að spila leiki með fólki sem lifir með heilabilun: undirbúningur, hraði, að leiðrétta aldrei, gera leiki auðveldari og vita hvenær á að hætta."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Líttu á leikinn sem samverustund, ekki próf. Veldu rólegan tíma dags, sitjið
-  hlið við hlið í hljóðlátu rými og bjóðið upp á einn einfaldan leik. Leyfðu
-  viðkomandi að ráða takti, leiðréttu ekki meinlaus mistök, gerðu leikinn
-  einfaldari við fyrstu merki um erfiðleika og notaðu myndir sem upphaf að
-  samræðum. Hættið á meðan það er enn gott. Að hætta snemma, eða einfaldlega
-  horfa saman, er góður árangur.
+  Líttu á leik sem samverustund, ekki próf. Veldu rólegan tíma dags, sestu hlið
+  við hlið í rólegu herbergi og bjóddu upp á einn einfaldan leik. Láttu
+  viðkomandi ráða hraðanum, leiðréttu aldrei meinlaus mistök, gerðu leikinn
+  auðveldari um leið og álags verður vart og breyttu myndum í samtal. Hættu
+  meðan þetta er enn gott. Að ljúka stundinni snemma, eða einfaldlega horfa
+  saman, er góð niðurstaða.
 keyPoints:
-  - "Markmiðið er ánægja og samvera, ekki að klára eða fá rétt svör."
-  - "Undirbúðu fyrst: rólegt rými, gott ljós, gleraugu og heyrnartæki á, slökkt á sjónvarpi, einn leikur tilbúinn."
-  - "Leiðréttu ekki meinlaus mistök. Segðu „Við skulum prófa svona“ eða haltu bara áfram."
-  - "Gerðu leikinn einfaldari áður en pirringur byggist upp: færri myndir, færri valkostir, myndir sýnilegar."
-  - "Notaðu myndir sem upphaf að sögum með „Segðu mér frá...“ í stað „Manstu...?“"
-  - "Hættið við fyrstu merki um þreytu eða óþægindi. Að hætta snemma er árangur, ekki mistök."
+  - "Markmiðið er ánægja og tengsl, ekki að klára eða hafa rétt svör."
+  - "Undirbúðu fyrst: rólegt herbergi, góð birta, gleraugu og heyrnartæki á sínum stað, sjónvarpið slökkt og einn leikur tilbúinn."
+  - "Leiðréttu ekki meinlaus mistök. Segðu „Prófum þetta bara svona“ eða haltu bara áfram."
+  - "Gerðu leik auðveldari áður en pirringurinn eykst: færri myndir, færri valmöguleikar, myndir sem eru áfram sýnilegar."
+  - "Notaðu myndir sem upphaf sagna með „Segðu mér frá...“ í stað „Manstu...?“"
+  - "Hættu við fyrstu merki um þreytu eða uppnám. Að hætta snemma er árangur, ekki mistök."
 faq:
-  - q: "Hve lengi ættum við að spila?"
-    a: "Það er enginn réttur tímalengd. Fyrir marga duga nokkrar mínútur vel, og sumum dögum nægir ein umferð. Fylgstu með viðkomandi frekar en klukkunni og hættu á meðan hann eða hún virðist enn afslappaður."
-  - q: "Ætti ég að láta viðkomandi vinna eða láta sem ég taki ekki eftir mistökum?"
-    a: "Í sameiginlegum, afslöppuðum leik er ekkert að vinna eða tapa. Ef mistök trufla viðkomandi ekki skaltu láta þau liggja á milli hluta. Ef þau virðast trufla, hjálpaðu hljóðlega eða gerðu leikinn einfaldari án þess að benda á þau."
+  - q: "Hversu lengi ætti að spila leik?"
+    a: "Það er engin rétt lengd. Fyrir marga nægja nokkrar mínútur og suma daga nægir ein umferð. Fylgstu með viðkomandi frekar en klukkunni og hættu á meðan hann virðist enn slakur."
+  - q: "Á ég að leyfa þeim að vinna eða þykjast ekki taka eftir mistökum?"
+    a: "Í sameiginlegum leik með lítilli pressu er ekkert að vinna eða tapa. Ef mistök trufla viðkomandi ekki skaltu láta þau eiga sig. Ef þau virðast trufla hann skaltu hjálpa rólega eða gera leikinn auðveldari án þess að benda á þau."
   - q: "Hvað ef viðkomandi vill frekar horfa á mig spila?"
-    a: "Það er í lagi. Heilbrigðisstofnunin National Institute on Aging bendir á að það sé gott að láta viðkomandi bara horfa ef honum eða henni finnst það skemmtilegra. Talaðu um það sem þú sérð og bjóddu viðkomandi að benda eða velja hvenær sem hann eða hún vill."
-  - q: "Eru þessir leikir leið til að prófa minni?"
-    a: "Nei. Leikirnir okkar eru einfaldar sameiginlegar athafnir til ánægju og samræðna. Þeir eru ekki minnispróf, mæla ekkert og eru ekki meðferð við heilabilun."
+    a: "Það er í lagi. National Institute on Aging mælir með því að leyfa fólki einfaldlega að horfa ef það virðist njóta þess betur. Talaðu um það sem þú sérð og bjóddu viðkomandi að benda eða velja hvenær sem hann vill."
+  - q: "Eru þessir leikir leið til að prófa minnið?"
+    a: "Nei. Leikirnir okkar eru einfaldar sameiginlegar athafnir til ánægju og samtals. Þeir eru ekki minnispróf, mæla ekki neitt og eru ekki meðferð við heilabilun."
   - q: "Hvaða leik er best að byrja á?"
-    a: "Byrjaðu á einfaldasta leiknum sem hentar viðkomandi. Picture Pairs með fjórum reitum og myndum sýnilegum, eða Find the Same með tveimur valkostum, eru mildir upphafspunktar. Conversation Cards hentar vel ef viðkomandi vill frekar tala en smella."
+    a: "Byrjaðu á einfaldasta leiknum sem hentar viðkomandi. Picture Pairs með fjórum flísum og myndum sem eru áfram sýnilegar, eða Find the Same með tveimur valmöguleikum, eru mjúk upphaf. Conversation Cards henta vel ef viðkomandi finnst skemmtilegra að tala en að ýta á skjá."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -49,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Góður leikur með manneskju sem lifir með heilabilun lítur ekki út eins og keppni. Hann lítur út eins og tvær manneskjur sem sitja nálægt hvor annarri, benda á myndir, hlæja að málshætti og tala um það sem upp kemur. Leikurinn er bara ástæða til að eyða tíma saman.
+Góður leikur með einhverjum sem lifir með heilabilun lítur ekki út eins og keppni. Hann lítur út eins og tveir einstaklingar sem sitja þétt saman, benda á myndir, hlæja að máltæki og tala um það sem kemur upp. Leikurinn er bara ástæða til að eyða tíma saman.
 
-Þessi leiðarvísir fjallar um hvernig á að undirbúa, hvernig á að halda réttu takti, hvað á að segja þegar eitthvað fer „úrskeiðis“, hvernig á að gera hvaða leik sem er einfaldari eða aðeins erfiðari, hvernig á að breyta leiknum í samræður og hvernig á að vita hvenær á að hætta. Hann á við um [leiki okkar](/games/) og um spil, púsl og borðspil sem þú átt nú þegar.
+Þessi leiðbeining fjallar um hvernig á að undirbúa, hvernig hraðinn er ákveðinn, hvað á að segja þegar eitthvað „fer úrskeiðis“, hvernig má gera hvaða leik sem er auðveldari eða aðeins erfiðari, hvernig breyta má honum í samtal og hvernig vita má hvenær á að hætta. Hún nýtist fyrir [leikina okkar](/games/) og fyrir spil, þrautir og borðspil sem þú átt nú þegar.
 
-## Hver er besta leiðin til að spila leik með manneskju sem lifir með heilabilun?
+## Hver er besta leiðin til að spila leik með einhverjum sem er með heilabilun?
 
-Leggðu áherslu á ánægju, ekki afrek. Það er meginráðleggingin í [leiðbeiningum Alzheimer’s Association um athafnir](https://www.alz.org/help-support/caregiving/daily-care/activities): byggðu á þeim færni sem viðkomandi hefur enn, hjálpaðu til við að byrja, kláraðu erfiðu hlutana sjálf(ur) og gagnrýndu ekki né leiðréttu meinlausar athafnir.
+Einbeittu þér að ánægju, ekki árangri. Það er meginráðið úr [leiðbeiningum Alzheimer's Association um athafnir](https://www.alz.org/help-support/caregiving/daily-care/activities): byggðu á færni sem viðkomandi hefur enn, hjálpaðu honum að byrja, taktu erfiðu hlutana að þér og gagnrýndu eða leiðréttu ekki meinlausar athafnir.
 
-Í framkvæmd þýðir þetta:
+Í framkvæmd þýðir það:
 
-- **Sitjið hlið við hlið, ekki á móti hvor öðrum.** Þegar þið sitjið saman hlið við hlið sjáið þið bæði skjáinn eða borðið og hjálpin lýtur út eins og samvinna frekar en eftirlit.
-- **Bjóðið upp á einn leik í einu.** Valmynd með mörgum valkostum getur fundist eins og próf áður en nokkuð byrjar.
-- **Fylgið forystu viðkomandi.** Ef hann eða hún vill smella á myndirnar í sinni eigin röð, tala um eina mynd í tíu mínútur eða hætta eftir tvær umferðir, þá er það leikurinn í dag.
-- **Teljið góðu augnablikin, ekki kláraðar umferðir.** Bros, saga eða róleg hálftími er sá árangur sem þú ert að leita að.
+- **Sestu við hlið viðkomandi, ekki á móti.** Þegar þið sitjið hlið við hlið sjáið þið bæði skjáinn eða borðið og hjálpin verður eins og samvinna frekar en eftirlit.
+- **Bjóddu upp á einn leik í einu.** Valmynd með mörgum kostum getur virkað eins og próf áður en nokkuð hefst.
+- **Fylgdu forystu viðkomandi.** Ef hann vill snerta myndirnar í eigin röð, tala um eina mynd í tíu mínútur eða hætta eftir tvær umferðir, þá er það leikurinn í dag.
+- **Teldu góðu stundirnar, ekki kláraðar umferðir.** Bros, saga eða rólegur hálftími er sú útkoma sem þú leitar að.
 
 ## Hvernig undirbý ég áður en við byrjum?
 
-Nokkrar mínútur í undirbúning koma í veg fyrir mest af þeim pirringi sem fólk kennir leiknum sjálfum um.
+Nokkrar mínútur af undirbúningi koma í veg fyrir flestan pirring sem fólk kennir leiknum sjálfum um.
 
-1. **Veldu besta tíma dagsins fyrir viðkomandi.** [Leiðbeiningar National Institute on Aging (NIA) um að aðlaga athafnir](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) mæla með að skipuleggja athafnir á þeim tíma dags þegar viðkomandi er í sínu besta formi. Fyrir marga er það um miðjan morgun. Síðdegis og seint um daginn er oft erfiðara; sjá [rólegar athafnir síðdegis](/caregiving/late-day-restlessness/).
-2. **Hafðu rólegt í herberginu.** Slökktu á sjónvarpi og útvarpi og lokaðu hurðinni ef hægt er. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) mælir með að takmarka hávaða og truflanir áður en þú reynir að tala.
-3. **Athugaðu þægindi fyrst.** Drykkur nálægt, salernisferð áður, þægilegur stóll og gleraugu og heyrnartæki á.
-4. **Lýstu rýmið vel.** Björt, jöfn lýsing án glampa á skjánum gerir myndir auðveldari að sjá.
-5. **Gerðu leikinn tilbúinn áður en þið setjist niður.** Opnaðu hann, veldu stillingar og stilltu hljóðið sjálf(ur). Snúðu síðan skjánum að viðkomandi. Fyrir ábendingar um spjaldtölvur, sjá [að setja upp spjaldtölvu eða síma](/caregiving/tablets-and-screens/).
-6. **Settu tækið upp.** Standur eða hulstur sem heldur spjaldtölvunni uppréttri þýðir að enginn þarf að halda á henni og auðveldara er að benda.
+1. **Veldu besta tíma dagsins.** [Leiðbeiningar National Institute on Aging (NIA) um að aðlaga athafnir](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) mæla með að skipuleggja útiveru og athafnir þegar viðkomandi er upp á sitt besta. Hjá mörgum er það um miðjan morgun. Síðdegi er oft erfiðara; sjá [rólegar síðdegisathafnir](/creative-calm/calm-afternoon-activities/).
+2. **Gerðu herbergið rólegt.** Slökktu á sjónvarpi og útvarpi og lokaðu hurðinni ef þú getur. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) mælir með að draga úr hávaða og truflunum áður en þú reynir að tala.
+3. **Athugaðu þægindin fyrst.** Drykkur innan seilingar, klósettferð áður, þægilegur stóll og gleraugu og heyrnartæki á sínum stað.
+4. **Lýstu rýmið vel.** Björt, jöfn birta án glampa á skjánum gerir myndirnar auðveldari að sjá.
+5. **Gerðu leikinn tilbúinn áður en þú sest niður.** Opnaðu hann, veldu stillingarnar og stilltu hljóðstyrkinn áður en skjárinn er snúinn að viðkomandi. Kveiktu á stærri texta í tækinu ef það hjálpar.
+6. **Festu tækið upp.** Standur eða hulstur sem heldur spjaldtölvunni uppréttri þýðir að enginn þarf að halda á henni, og auðveldara er að benda á hana.
 
-## Hvernig býð ég viðkomandi að vera með án þrýstings?
+## Hvernig býð ég þeim án þrýstings?
 
-Gerðu boðið afslappað og auðvelt að hafna. Nokkrar setningar sem oft virka vel:
+Gerðu boðið létt og auðvelt að hafna. Nokkur orð sem virka oft vel:
 
 - „Ég fann nokkrar garðmyndir. Viltu skoða þær með mér?“
-- „Gætirðu hjálpað mér með þetta púsl? Ég er föst.“
-- „Viltu frekar blómin eða fuglana í dag?“ (val á milli tveggja er auðveldara en opin spurning)
-- „Ég er að búa til kort fyrir systur þína. Hvaða lit ætti þetta að vera?“
+- „Gætir þú hjálpað mér með þessa þraut? Ég er alveg fastur.“
+- „Viltu blómin eða fuglana í dag?“ (val á milli tveggja er auðveldara en opin spurning)
+- „Ég er að búa til kort handa systur þinni. Hvaða lit ætti þetta að vera?“
 
-Alzheimer’s Association leggur til að útskýra tilgang athafnar, eins og að búa til kort fyrir vin, því ástæða gefur henni merkingu. Að biðja um hjálp virkar líka vel því það lætur viðkomandi finna fyrir gagnsemi.
+Alzheimer's Association mælir með að útskýra tilgang athafnar, svo sem að búa til kort handa vini, því ástæða gefur henni merkingu. Að biðja um hjálp virkar líka vel því það gerir viðkomandi kleift að finna að hann sé gagnlegur.
 
-Ef viðkomandi segir nei skaltu virða það. Prófaðu aftur síðar eða bjóððu upp á eitthvað annað. Leiðarvísirinn okkar um [hvað á að gera þegar viðkomandi segir nei](/caregiving/when-they-say-no/) fer nánar út í það.
+Ef viðkomandi segir nei skaltu virða það. Reyndu aftur síðar eða bjóddu eitthvað annað. Leiðbeining okkar um [hvað á að gera þegar viðkomandi segir nei](/caregiving/when-they-say-no/) fer lengra í það.
 
-## Hve lengi ætti leikur að vara og hversu hratt ættum við að fara?
+## Hversu lengi á leikurinn að vara og hversu hratt eigum við að fara?
 
-Leyfðu viðkomandi að ráða takti og gerðu ráð fyrir stuttum lotum. Það er engin rannsóknarbyggð kjörtímalengd fyrir sameiginlegan leik. Tvær til fimm rólegar mínútur geta verið heil athöfn.
+Láttu viðkomandi ráða hraðanum og gerðu ráð fyrir stuttum stundum. Það er engin vísindalega ákjósanleg lengd fyrir sameiginlegan leik. Tvær til fimm rólegar mínútur geta verið heil athöfn.
 
-- **Bíddu lengur en þér finnst eðlilegt.** NIA ráðleggur að gefa viðkomandi meiri tíma til að svara og reyna að trufla ekki. Teldu að tíu í huganum áður en þú hjálpar.
-- **Eitt skref í einu.** Gefðu eina stutta leiðbeining („Smelltu á mynd“), bíddu síðan. Sýndu frekar en að útskýra: bentu á hvar á að smella.
-- **Gerið hlé þegar þarf.** Ef viðkomandi stoppar til að tala um mynd getur leikurinn beðið. Engin ástæða er til að flýta sér.
-- **Leyfðu viðkomandi að horfa.** NIA bendir á að sumir kjósi að horfa og það er gildur kostur.
+- **Bíddu lengur en þér finnst eðlilegt.** NIA ráðleggur að gefa meiri tíma til að svara og reyna að grípa ekki fram í. Teldu upp í tíu í huganum áður en þú hjálpar.
+- **Eitt skref í einu.** Gefðu eina stutta leiðbeiningu („Snertu mynd“) og bíddu síðan. Sýndu frekar en að útskýra: benddu þangað sem á að snerta.
+- **Gerðu hlé að vild.** Ef viðkomandi hættir til að tala um mynd getur leikurinn beðið. Það er engin þörf á að flýta sér.
+- **Leyfðu þeim að horfa.** NIA bendir á að sumir kjósi að horfa, og það er gilt val.
 
-## Ætti ég að leiðrétta röng svör?
+## Á ég að leiðrétta röng svör?
 
-Nei. Að leiðrétta einhvern mjúklega aftur og aftur segir viðkomandi að hann eða hún sé að mistakast, jafnvel þótt þú meinir það vel. Alzheimer’s Association ráðleggur að gagnrýna ekki né leiðrétta meinlausar athafnir. Í leik eru næstum öll mistök meinlaus.
+Nei. Ef þú leiðréttir aftur og aftur gefur þú til kynna að viðkomandi sé að mistakast, þó þú meinir vel. Alzheimer's Association ráðleggur að gagnrýna eða leiðrétta ekki meinlausar athafnir. Í leik eru nær allar villur meinlausar.
 
-| Í stað þess að segja | Prófaðu frekar |
+| Í stað þess að segja | Prófaðu |
 | --- | --- |
-| „Nei, þetta er rangt.“ | „Við skulum prófa svona.“ (dæmi sem NIA gefur) |
-| „Þetta passar ekki. Skoðaðu aftur.“ | Segðu ekkert og taktu næstu umferð, eða „Ó, þessi eru bæði rauð.“ |
+| „Nei, það er rangt.“ | „Prófum þetta bara svona.“ (dæmi sem NIA gefur) |
+| „Þetta passar ekki. Skoðaðu aftur.“ | Segðu ekkert og taktu næstu umferð, eða „Æ, þessar eru báðar rauðar.“ |
 | „Manstu hver þetta er?“ | „Segðu mér frá þessari mynd.“ |
-| „Þú gerðir þessa nú þegar.“ | „Þessi er góð. Við skulum gera hana aftur.“ |
-| „Æjæ, þú veist þetta.“ | „Viltu að ég sýni endinn?“ |
+| „Þessa gerðum við þegar.“ | „Þetta er góð mynd. Gerum hana aftur.“ |
+| „Komdu nú, þú veist þetta.“ | „Viltu að ég sýni þér endinn?“ |
 
-Ef mistök pirra viðkomandi augljóslega skaltu hjálpa hljóðlega. Bendu á réttu myndina, taktu umferð sjálf(ur) eða gerðu leikinn einfaldari í næstu umferð. Ef málsháttur fær fyndinn rangan endi skaltu hlæja með. Ending viðkomandi gæti verið betri.
+Ef mistök pirra viðkomandi greinilega skaltu hjálpa rólega. Benddu á réttu myndina, taktu þína eigin umferð eða gerðu leikinn auðveldari í næstu umferð. Ef máltæki fær skondinn rangan endi skaltu hlæja með. Þeirra endir gæti verið betri.
 
 ## Hvernig geri ég leik auðveldari eða erfiðari?
 
-Aðlagaðu leikinn að viðkomandi hverjum degi fyrir sig, ekki út frá stigi. Sami einstaklingurinn gæti þurft einfaldari útgáfu að kvöldi en að morgni. Fyrsta ráð NIA er að velja athöfn sem hæfir getu viðkomandi og tryggja að honum eða henni líði vel með árangurinn.
+Aðlagaðu leikinn að viðkomandi þann daginn, ekki að stigi. Sami einstaklingur gæti þurft einfaldari útgáfu á kvöldin en að morgni. Fyrsta ráð NIA er að passa athöfnina við það sem viðkomandi getur gert og tryggja að honum finnist hann ná árangri.
 
-| Leikur | Gerðu einfaldara | Gerðu aðeins erfiðara |
+| Leikur | Gera auðveldari | Gera aðeins erfiðara |
 | --- | --- | --- |
-| [Picture Pairs](/games/picture-pairs/) | Byrjaðu með 4 reiti og hafðu myndir sýnilegar | Fleiri reitir, eða feldu myndir ef það er þægilegt |
-| [Find the Same](/games/find-the-same/) | 2 valkostir | Allt að 4 valkostir |
-| [Sort Together](/games/sort-together/) | Þú heldur á myndinni, viðkomandi bendir á körfuna | Viðkomandi smellir bæði á mynd og körfu sjálf(ur) |
-| [Picture Puzzle](/games/picture-puzzle/) | 4 bitar, talið fyrst um alla myndina | 9 bitar |
-| [Finish the Saying](/games/finish-the-saying/) | Sýndu endinguna og segið hana síðan saman | Leyfðu viðkomandi að segja endinguna áður en smellt er |
-| [Word Search](/games/word-search/) | Prentaðu hann, leitið að einu orði saman, bentu á fyrsta stafinn | Leyfðu viðkomandi að velja næsta orð til að finna |
+| [Picture Pairs](/games/picture-pairs/) | Byrjaðu með 4 flísum og láttu myndirnar vera sýnilegar | Fleiri flísar, eða feldu myndirnar ef það hentar |
+| [Find the Same](/games/find-the-same/) | 2 valmöguleikar | Allt að 4 valmöguleikar |
+| [Sort Together](/games/sort-together/) | Þú heldur á myndinni, viðkomandi bendir á körfuna | Viðkomandi snertir bæði mynd og körfu sjálfur |
+| [Picture Puzzle](/games/picture-puzzle/) | 4 hlutar, talaðu fyrst um alla myndina | 9 hlutar |
+| [Finish the Saying](/games/finish-the-saying/) | Sýndu endinn og segðu hann svo saman | Láttu viðkomandi segja endinn áður en þú snertir |
+| [Word Search](/games/word-search/) | Prentaðu hann, leitaðu að einu orði saman, bentu á upphafsstafinn | Láttu viðkomandi velja næsta orð til að finna |
 | [Coloring](/games/coloring/) | Þú velur tvo liti, viðkomandi velur á milli þeirra | Viðkomandi velur alla litina |
-| [Conversation Cards](/games/conversation-cards/) | Bara horfa á myndina saman | Notaðu opnu spurningarnar á spjaldinu |
-| [Photo Pairs](/games/photo-pairs/) | Nokkrar ástsælar fjölskyldumyndir | Bættu við fleiri myndum |
-| [Picture Bingo](/games/picture-bingo/) | Aðstoðarmaður situr hjá hverjum spilara | Spilarar merkja við á eigin spjöld |
-| [Calm Breathing](/games/calm-breathing/) | Sitjið bara og horfið saman | Andið rólega með |
+| [Conversation Cards](/games/conversation-cards/) | Skoðaðu myndina saman | Notaðu opnu spurningarnar á spjaldinu |
+| [Photo Pairs](/games/photo-pairs/) | Nokkrar vel þekktar fjölskyldumyndir | Bættu við fleiri myndum |
+| [Picture Bingo](/games/picture-bingo/) | Aðstoðarmaður situr hjá hverjum leikmanni | Leikmenn merkja sín eigin spjöld |
+| [Calm Breathing](/games/calm-breathing/) | Sestu og horfðu bara saman | Andaðu hægt með |
 
-Merki um að leikurinn sé of erfiður: langar þagnir sem virðast uggandi frekar en hugsi, endurtekið „ég get þetta ekki“, að ýta tækinu frá sér eða mistök sem valda vanlíðan. Merki um að hann gæti verið of auðveldur: leiðindi eða að viðkomandi segi að hann sé barnalegur. Ef það gerist skaltu virða það og skipta yfir í eitthvað sem virðist fullorðinslegra, eins og orðaleit, púsl af raunverulegri ljósmynd eða samræður um mynd af fyrra starfi viðkomandi.
+Merki um að leikurinn sé of erfiður: löng hlé sem líta út fyrir að vera áhyggjufull frekar en íhugandi, endurtekið „ég get þetta ekki“, að ýta tækinu frá sér, eða mistök sem gera viðkomandi leiðan. Merki um að hann gæti verið of auðveldur: leiði, eða að viðkomandi segi að þetta sé barnalegt. Ef það gerist skaltu virða það og skipta yfir í eitthvað sem finnst fullorðinslegt, svo sem orðaleit, þraut með raunverulegri ljósmynd, eða að tala um mynd af starfinu sem viðkomandi vann áður.
 
-## Hvernig breyti ég leik í samræður?
+## Hvernig breyti ég leik í samtal?
 
-Notaðu hverja mynd sem boð um að tala og líttu á allt sem viðkomandi segir sem gott svar. Fyrir margar fjölskyldur er þetta besti hluti leiksins.
+Notaðu hverja mynd sem boð um að tala og taktu öllu sem viðkomandi segir sem góðu svari. Fyrir margar fjölskyldur er þetta besti hluti þess að spila.
 
-- **Spyrðu opinna spurninga sem ekki er hægt að svara rangt.** „Hvað tekurðu eftir?“ „Hverjum líkar þér best við þessa?“ „Segðu mér frá svona eldhúsi.“
-- **Deildu fyrst.** „Amma mín átti svona hund.“ Sagan þín gerir viðkomandi auðveldara að deila sinni.
-- **Fylgdu frávikunum.** Ef mynd af bíl leiðir að sögu af bílferð er sagan athöfnin. Leyfðu leiknum að bíða.
-- **Ekki leiðrétta staðreyndir.** Í endurminningum skiptir skemmtilegt samtal meira máli en nákvæmar upplýsingar. Ef sagan breytist frá því síðast skaltu njóta nýju útgáfunnar.
-- **Notaðu innbyggðu hvatningarnar.** [Finish the Saying](/games/finish-the-saying/) fylgir hverjum málshætti með spurningu til að ræða, og [Conversation Cards](/games/conversation-cards/) eru hönnuð einmitt fyrir þetta. [Photo Pairs](/games/photo-pairs/) notar ykkar eigin fjölskyldumyndir, sem vekja oft ríkustu sögurnar.
+- **Spurðu opinna spurninga sem hafa ekkert rangt svar.** „Hvað tekurðu eftir?“ „Hver þeirra finnst þér best?“ „Segðu mér frá eldhúsi eins og þessu.“
+- **Deildu fyrst.** „Amma mín átti hund eins og þennan.“ Sagan þín gerir það auðveldara fyrir viðkomandi að deila sinni.
+- **Fylgdu útúrdúrnum.** Ef mynd af bíl leiðir til sögu af ferðalagi er sagan athöfnin. Leyfðu leiknum að bíða.
+- **Ekki leiðrétta staðreyndir.** Í endurminningavinnu skiptir ánægjulegt samtal meira máli en nákvæm smáatriði. Ef sagan breytist frá því síðast skaltu njóta nýju útgáfunnar.
+- **Notaðu innbyggðu spurningarnar.** [Finish the Saying](/games/finish-the-saying/) fylgir hverju máltæki með umræðuspurningu og [Conversation Cards](/games/conversation-cards/) eru hönnuð nákvæmlega í þetta. [Photo Pairs](/games/photo-pairs/) notar þínar eigin fjölskyldumyndir, sem oft vekja ríkustu sögurnar.
 
-Fleiri hugmyndir eru í leiðbeiningunum okkar um [endurminningar](/activities/reminiscence/) og [ráð um samskipti](/caregiving/communication-tips/).
+Fleiri hugmyndir eru í leiðbeiningunni okkar um [endurminningaverkefni](/activities/reminiscence/). Fyrir stuðning eftir greiningu, sjá [fyrstu skrefin eftir greiningu](/caregiving/after-dementia-diagnosis/).
 
 ## Hvenær ættum við að hætta?
 
-Hættið við fyrstu merki um þreytu eða óþægindi, og helst aðeins áður. Alzheimer’s Association ráðleggur að hætta eða breyta athöfn þegar athygli dvínar eða pirringur eykst.
+Hættu við fyrstu merki um þreytu eða uppnám, og helst aðeins fyrr. Alzheimer's Association ráðleggur að hætta eða breyta athöfn þegar athyglin dvínar eða pirringurinn eykst.
 
 Fylgstu með:
 
-- geispum, því að síga saman eða því að augun hverfa frá skjánum,
-- eirðarleysi, því að standa upp eða biðja um að fara,
-- andvörpum, stuttum svörum eða „ég er ekkert góð(ur) í þessu“,
-- handahófskenndum smellum eða því að ýta tækinu frá sér,
+- geispum, lútingu eða augum sem reika frá skjánum;
+- fiktum, að standa upp eða biðja um að fara;
+- andvörpum, stuttum svörum eða „Ég er ekki góður í þessu“;
+- handahófskenndum snertingum eða að ýta tækinu frá sér;
 - tárum, pirringi eða skyndilegri breytingu á skapi.
 
-Hvernig á að hætta vel:
+Svona hættir þú vel:
 
-- **Endaðu á einhverju auðveldu.** Ein síðasta pörun sem tekst, eða ein lokamynd til að dást að.
-- **Leggðu það á þig.** „Mig langar í tebolla. Eigum við að hætta hér?“ forðast að gefa í skyn að viðkomandi hafi staðið sig illa.
-- **Farið yfir í eitthvað líkamlegt eða róandi.** Stutt gönguferð, snarl, að brjóta saman þvott eða tónlist.
-- **Segðu eitthvað hlýlegt.** „Mér fannst gott að gera þetta með þér.“ Engin hrós fyrir að „gera rétt“, bara ánægja af samverunni.
+- **Ljúktu á einhverju auðveldu.** Eitt síðasta par sem þau geta fundið, eða lokamynd til að dást að.
+- **Gerðu það um þig.** „Mig langar í tebolla. Eigum við að hætta hér?“ forðast allt sem gefur í skyn að viðkomandi hafi staðið sig illa.
+- **Farðu yfir í eitthvað líkamlegt eða róandi.** Stuttan göngutúr, bita, að brjóta saman þvott eða tónlist.
+- **Segðu eitthvað hlýtt.** „Mér fannst gaman að gera þetta með þér.“ Ekkert hrós fyrir að „hafa náð því“, aðeins gleði yfir samverunni.
 
-Að hætta snemma, breyta áætlun eða hætta við leikinn og bara sitja saman eru allt góðir árangrar.
+Að hætta snemma, breyta áætlunum eða gefast upp á leiknum og bara sitja saman eru öll góð útkoma.
 
-## Getum við spilað í hópi eða í myndsímtali?
+## Getum við spilað í hóp eða í myndsímtali?
 
-Já, með smá auknum undirbúningi. Í hópi skaltu halda hópnum litlum, láta aðstoðarfólk sitja hjá þeim sem þurfa á því að halda og velja leik með skýrum sameiginlegum fókus. [Picture Bingo](/games/picture-bingo/) er með prentanleg spil og bingóstjóra á skjánum fyrir hópa. Sjá [athafnir fyrir hópa á hjúkrunarheimili](/activities/care-home-groups/) fyrir fleiri upplýsingar.
+Já, með smá auka undirbúningi. Í hóp skaltu halda þessu við fáa, setja aðstoðarfólk við hlið þeirra sem þurfa þess og velja leik með skýrt sameiginlegt viðfangsefni. [Picture Bingo](/games/picture-bingo/) er með prentanleg spjöld og sjálfvirkan kall á skjánum fyrir hópa. Sjá [athafnir fyrir hópa á öldrunarheimilum](/crafts/craft-group-sessions/) til frekari upplýsinga.
 
-Í myndsímtali getur sá sem er í símtalinu lýst mynd á meðan einhver í herberginu bendir og smellir. Hafðu símtöl stutt og kunnuleg. Leiðarvísirinn okkar um [síma- og myndsímtöl](/activities/phone-and-video-calls/) hefur fleiri ábendingar.
+Í myndsímtali getur sá sem er á línunni lýst mynd á meðan einhver í herberginu bendir og snertir. Hafðu símtölin stutt og kunnugleg. Leiðbeining okkar um [síma- og myndsímtöl](/together/staying-connected-from-afar/) hefur fleiri ráð.
 
-## Hvað ef leikur virkar bara ekki?
+## Hvað ef leikur er bara ekki að virka?
 
-Sumir dagar gengur ekkert upp og það endurspeglar hvorki þig né viðkomandi. Leggðu leikinn til hliðar og prófaðu aftur á öðrum tíma dags, með öðrum leik eða án leiks. Margar góðar athafnir hafa ekkert með skjái að gera: tónlist, að brjóta saman handklæði, að skoða ljósmyndaalbúm eða stutt gönguferð. Skoðaðu [hugmyndir að athöfnum](/activities/ideas/) til að fá fleiri hugmyndir.
+Stundum gengur ekkert, og það er ekki endurspeglun á þér eða viðkomandi. Leggðu leikinn til hliðar og reyndu annan tíma dags, annan leik eða engan leik. Margar góðar athafnir tengjast ekkert skjám: tónlist, að brjóta saman handklæði, skoða myndaalbúm eða stuttur göngutúr. Skoðaðu [hugmyndir að athöfnum](/activities/ideas/) til að fá fleiri.

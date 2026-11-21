@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Péirí pictiúr",
-    "seoTitle": "Cluiche Meaitseála do Néaltrú: Péirí Pictiúr",
+    "seoTitle": "Cluichí Meaitseála do Dhaoine Fásta: Péirí Pictiúr",
     "h1": "Péirí Pictiúr: Cluiche Meaitseála Mín",
-    "description": "Cluiche meaitseála saor in aisce do dhaoine a bhfuil néaltrú orthu. Fanann pictiúir mhóra le feiceáil, níl aon lasc ama nó scór ann, agus roghnaíonn tú 4.",
+    "description": "Cluiche meaitseála saor agus socair do dhaoine fásta agus do dhaoine scothaosta, lena n-áirítear daoine a mhaireann le demeintia. Is féidir leis na pictiúir a bheith le feiceáil i gcónaí. Gan cronóir ná scór.",
     "short": "Faigh an dá phictiúr atá mar an gcéanna. Is féidir le pictiúir fanacht ag taispeáint.",
     "players": "1 nó 2 duine, taobh le taobh",
     "intro": "Tapáil pictiúr, ansin tapáil an ceann a oireann dó. Fanann na pictiúir ag taispeáint de réir réamhshocraithe, mar sin ní gá cuimhneamh ar rud ar bith. Nuair a théann dhá phictiúr le chéile faigheann siad teorainn óir agus marc seiceála.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Faigh mar an gcéanna",
-    "seoTitle": "Faigh an Pictiúr céanna: Cluiche Simplí Néaltraithe",
+    "seoTitle": "Faigh an Pictiúr Céanna: Cluiche Simplí Pictiúr",
     "h1": "Faigh an Pictiúr céanna",
-    "description": "Pictiúr amháin ag an mbarr, a dó nó a ceathair thíos. Beartaíonn an ceann atá mar an gcéanna.",
+    "description": "Pictiúr amháin ar barr, dhá cheann go ceithre cinn thíos. Tapáil an ceann atá mar an gcéanna. Cluiche pictiúr socair agus saor do dhaoine fásta, do dhaoine scothaosta agus do theaghlaigh, gan cronóir.",
     "short": "Féach ar an bpictiúr ag barr agus tapáil an ceann céanna thíos.",
     "players": "1 nó 2 duine",
     "intro": "Suíonn pictiúr amháin ag barr an scáileáin. Anseo thíos tá dhá, trí nó ceithre phictiúr. Beartaíonn an ceann atá mar an gcéanna. Rogha simplí amháin atá ann ag an am, le neart spáis le labhairt.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Cluiche scáth",
-    "seoTitle": "Cluiche Meaitseála Scáth le haghaidh Néaltrú: Ar Líne In Aisce",
+    "seoTitle": "Cluiche Meaitseála Scáthanna: Saor in Aisce ar Líne do Dhaoine Fásta",
     "h1": "Scáthmheaitseáil: Cluiche Pictiúr Mín",
-    "description": "Scáth dorcha ag an mbarr, dhá nó ceithre phictiúr thíos. Tapáil an pictiúr a dhéanann an scáth. Cluiche meaitseála scáthanna saor in aisce do néaltrú, gan aon lasc ama.",
+    "description": "Scáth dorcha ar barr, dhá phictiúr go ceithre phictiúr thíos. Tapáil an pictiúr a dhéanann an scáth. Cluiche meaitseála scáthanna saor agus socair gan cronóir.",
     "short": "Féach ar an scáth agus tapáil an pictiúr a dhéanann é.",
     "players": "1 nó 2 duine",
     "intro": "Is gníomhaíocht eolach é meaitseáil scáth ó bhileoga oibre priontáilte, anseo le pictiúir mhóra agus gan aon rud le priontáil. Suíonn scáth bog ag barr an scáileáin agus fanann dhá, trí nó ceithre phictiúr thíos. Beartaíonn an ceann a dhéanann an scáth. Is furasta labhairt faoi chruthanna cosúil le rothar, scáth fearthainne nó cupáin tae freisin.",
@@ -100,8 +100,8 @@
         "a": "Níl. Níl aon chlog, scór, bogadh cuntar nó cailleadh. Is féidir leat stopadh tráth ar bith, agus is bealach iontach maith é stopadh leath bealaigh."
       },
       {
-        "q": "An bhfuil comhoiriúnú scátha go maith do dhaoine a bhfuil néaltrú orthu?",
-        "a": "Is féidir leis a bheith ina ghníomhaíocht thaitneamhach, shimplí do roinnt daoine, go háirithe sna céimeanna níos luaithe. Is fusa cruthanna a aithint ná focail. Is ar mhaithe le taitneamh agus comhrá atá sé, ní le tástáil, agus ní chuireann sé cóireáil ar néaltrú nó ní mhoillíonn sé. Más cúis frustrachais é, bain triail as Faigh an rud céanna nó breathnaigh ar phictiúir le chéile."
+        "q": "An féidir le daoine a mhaireann le demeintia taitneamh a bhaint as meaitseáil scáthanna?",
+        "a": "Baineann go leor daoine fásta taitneamh as, lena n-áirítear roinnt daoine a mhaireann le demeintia, go minic sna céimeanna luatha. Is furasta cruthanna a aithint ná focail. Is le haghaidh taitnimh agus comhrá atá sé, ní tástáil, agus ní leigheasann ná ní mhoillíonn sé demeintia. Mura gcruthaíonn sé dífhoinn, bain triail as Faigh an ceann céanna nó breathnaigh ar phictiúir le chéile."
       },
       {
         "q": "Cad a tharlaíonn má tapaítear an pictiúr mícheart?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Ceithre le chéile",
+    "seoTitle": "Cluiche Grúpálacha Pictiúr do Dhaoine Fásta: Ceithre le Chéile",
+    "h1": "Ceithre le Chéile: Cluiche Socair Grúpálacha Pictiúr",
+    "description": "Roinneann cuid de na pictiúir téama, mar shampla torthaí nó aimsir. Tapáil na cinn a bhaineann le chéile. Cluiche grúpálacha saor agus socair gan cronóir agus gan scór.",
+    "short": "Faigh na pictiúir a bhaineann le chéile, mar shampla torthaí nó aimsir.",
+    "players": "1 nó 2 dhuine",
+    "intro": "Tacar beag pictiúr, agus baineann cuid acu le chéile: ceithre chineál torthaí, b'fhéidir, nó ceithre bhealach taistil. Tapáil na cinn a roinneann téama. Mura mbaineann pictiúr le rud eile, luann an cluiche é sin go simplí agus fanann sé. Tar éis sosa ciúin luann leid an téama, agus taispeánann \"Taispeán an grúpa\" an freagra aon am.",
+    "howTo": [
+      "Roghnaigh ceithre, sé cinn nó ocht bpictiúr. Is é ceithre an ceann is simplí, le trí cinn a bhaineann le chéile.",
+      "Breathnaigh ar na pictiúir le chéile agus labhair faoin rud atá comhchoitianta eatarthu.",
+      "Tapáil gach pictiúr a bhaineann leis an ngrúpa. Faigheann sé fráma órga agus marc seiceála.",
+      "Mura mbaineann pictiúr le rud eile, luann an cluiche é sin agus fanann sé. Glac am duit.",
+      "Tapáil \"Taispeán an grúpa\" aon uair is mian leat, ansin \"Tacar eile\" le haghaidh pictiúr nua."
+    ],
+    "tips": [
+      "Abair an rud a thugann tú faoi deara os ard: \"Is rudaí le hithe iad an dá cheann seo.\"",
+      "Ní gá deifir a dhéanamh. Tagann leid a luann an téama tar éis sosa, agus is féidir leat neamhaird a dhéanamh de.",
+      "Labhair faoin ngrúpa nuair a bheidh sé aimsithe: torthaí is fearr leat, turas traenach, an aimsir inniu."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil cronóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, comhaireamh gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh aon uair, agus is bealach maith críochnaithe é stopadh i lár an chluiche."
+      },
+      {
+        "q": "Cad a tharlaíonn mura bpictiúr as an ngrúpa a thapáiltear?",
+        "a": "Rud ar bith míthaitneamhach. Níl buzzer, crois dhearg ná crith ann. Luann an cluiche an pictiúr, deir sé go mbaineann sé le rud eile, agus fanann sé don chéad tapáil eile."
+      },
+      {
+        "q": "Cad iad na grúpaí?",
+        "a": "Téamaí laethúla nach gá eolas speisialta a bheith agat orthu: torthaí, ainmhithe, bláthanna, aimsir, bealaí taistil, rudaí don deoch te agus rudaí a bhácáiltear san fhiacla. Baineann gach pictiúr le grúpa amháin."
+      },
+      {
+        "q": "An saor é, agus an gá clárú?",
+        "a": "Is saor é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tablet nó ar ríomhaire."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "An ceann eile",
+    "seoTitle": "Cluiche Pictiúr an Chinn Eile do Dhaoine Fásta",
+    "h1": "An Ceann Eile: Cluiche Pictiúr Socair",
+    "description": "Trí phictiúr nó ceithre phictiúr, agus baineann an chuid eile le téama amháin, mar shampla torthaí nó aimsir. Tapáil an ceann nach mbaineann leis. Saor, socair, gan cronóir agus gan scór.",
+    "short": "Aimsigh an pictiúr nach mbaineann leis na cinn eile.",
+    "players": "1 nó 2 dhuine",
+    "intro": "Trí phictiúr nó ceithre phictiúr, agus baineann an chuid eile le chéile: torthaí, b'fhéidir, nó bealaí taistil. Tapáil an pictiúr nach mbaineann leis. Mura mbaineann pictiúr leis na cinn eile, deir an cluiche sin go simplí agus fanann sé. Tar éis sosa ciúin luann leid cad atá comhchoitianta sna cinn eile, agus pointeálann \"Taispeán dom\" an ceann eile aon am.",
+    "howTo": [
+      "Roghnaigh trí phictiúr nó ceithre phictiúr. Is é trí an ceann is simplí.",
+      "Breathnaigh ar na pictiúir le chéile agus labhair faoin rud atá comhchoitianta ar an gcuid is mó acu.",
+      "Tapáil an pictiúr nach mbaineann leis. Faigheann sé fráma órga agus marc seiceála.",
+      "Mura mbaineann pictiúr leis na cinn eile, deir an cluiche sin agus fanann sé. Glac am duit.",
+      "Tapáil \"Taispeán dom\" aon uair is mian leat, ansin \"Tacar eile\" le haghaidh pictiúr nua."
+    ],
+    "tips": [
+      "Pléigh é os ard: \"Is torthaí iad an úll agus an péar. Cad faoin mbus?\"",
+      "Ní gá deifir a dhéanamh. Tagann leid a luann an téama tar éis sosa, agus is féidir leat neamhaird a dhéanamh de.",
+      "Is tús maith comhrá aon phictiúr: torthaí is fearr leat, turas ar an mbus, lá báistí."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil cronóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, comhaireamh gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh aon uair, agus is bealach maith críochnaithe é stopadh i lár an chluiche."
+      },
+      {
+        "q": "Cad a tharlaíonn mura bpictiúr a bhaineann leis an ngrúpa a thapáiltear?",
+        "a": "Rud ar bith míthaitneamhach. Níl buzzer, crois dhearg ná crith ann. Luann an cluiche an pictiúr, deir sé go mbaineann sé leis na cinn eile, agus fanann sé don chéad tapáil eile."
+      },
+      {
+        "q": "Conas a roghnaítear an pictiúr eile?",
+        "a": "Tagann na pictiúir ó théamaí laethúla nach gá eolas speisialta a bheith agat orthu: torthaí, ainmhithe, bláthanna, aimsir, bealaí taistil, rudaí don deoch te agus rudaí a bhácáiltear san fhiacla. Baineann gach pictiúr le téama amháin, agus tagann an ceann eile i gcónaí ó théama difriúil."
+      },
+      {
+        "q": "An bhfuil sé saor in aisce, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tabletí nó ar ríomhaire."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Meaitseáil datha",
+    "seoTitle": "Meaitseáil Datha: Cluiche Pictiúr Séimh",
+    "h1": "Meaitseáil Datha: Faigh na Pictiúir de Dhath Amháin",
+    "description": "Dath mór lena ainm, agus ceithre phictiúr nó sé cinn. Cliceáil ar gach pictiúr atá den dath sin. Gan clog, gan scór, agus luaitear dath eile go simplí. Saor in aisce le imirt agus le priontáil.",
+    "short": "Faigh gach pictiúr atá den dath céanna leis an dath a thaispeántar.",
+    "players": "1 nó 2 dhuine, nó duine fásta agus páiste",
+    "intro": "Taispeántar paiste mór datha lena ainm scríofa in aice leis, agus faoi tá ceithre phictiúr nó sé cinn. Cliceáil ar gach pictiúr atá den dath sin: úll dearg agus cupán dearg, mar shampla. Mura bhfuil pictiúr de dhath eile, luann an cluiche é go simplí (\"Tá an pera glas.\") agus fanann sé. Taispeánann \"Taispeáin dóibh\" na pictiúir a mheaitseálann ag am ar bith, agus bogann \"Dath eile\" ar aghaidh.",
+    "howTo": [
+      "Roghnaigh ceithre phictiúr nó sé cinn. Is é ceithre cinn an simplí is féidir.",
+      "Breathnaígí ar an dath agus léigh a ainm le chéile.",
+      "Cliceáil ar gach pictiúr atá den dath sin. Faigheann gach ceann acu imeall tiubh agus marc seiceála.",
+      "Mura bhfuil pictiúr de dhath eile, deir an cluiche cén dath atá air agus fanann sé. Glac do cheart ama.",
+      "Cliceáil \"Taispeáin dóibh\" nuair is maith leat, agus ansin \"Dath eile\" le haghaidh dath nua."
+    ],
+    "tips": [
+      "Abair an dath os ard, agus ansin breathnaigh timpeall an tseomra: cad eile atá den dath sin?",
+      "Úsáid do chuid focal féin más maith leat. Is chomh maith le \"dearg\" nó \"gorm\" an focal \"tráta\" nó \"spéir\".",
+      "Oibríonn ag pointeáil chomh maith le cliceáil. Suígí taobh le taobh ionas gur féidir libh an scáileán a fheiceáil araon."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil clog nó scór ann?",
+        "a": "Níl. Níl cloc, scór, cuntas gluaiseachtaí ná caillteanas ann. Is féidir leat stop ag am ar bith, agus is bealach maith é stopadh idir an dá linn chun críoch a chur leis."
+      },
+      {
+        "q": "Cad a tharlaíonn má chliceáiltear ar phictiúr de dhath eile?",
+        "a": "Ní tharlaíonn rud míthaitneamhach ar bith. Níl buzzer, crois dhearg ná crith ann. Luann an cluiche an pictiúr agus a dhath, mar shampla \"Tá an pera glas.\", agus fanann sé don chliceáil eile."
+      },
+      {
+        "q": "An é an dath an t-aon leid amháin?",
+        "a": "Ní hea. Taispeántar an dath mar phaiste mór agus scríobhtar mar fhocal é freisin, agus luaitear gach pictiúr nuair a chliceáiltear air. Is féidir le duine a bhfuil deacracht aige dath a fheiceáil imirt fós trí ainm an datha a léamh."
+      },
+      {
+        "q": "An bhfuil gach pictiúr den dath sin i ndáiríre?",
+        "a": "Roghnaítear na pictiúir de láimh, agus ní roghnaítear ach iad sin nach mbíonn ach dath amháin soiléir ar an bpríomh-rud iontu. Fágtar pictiúir a bhfuil roinnt datheanna iontu ar lár, mar eitleán páipéir nó beach, amach."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Tá ceithre líne ar leathanach amháin. Luann gach líne dath agus taispeánann sé ceithre phictiúr le pointeáil orthu nó le ciorcal a tharraingt timpeall orthu."
+      },
+      {
+        "q": "An é saor in aisce é, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tabletí nó ar ríomhaire."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Meaitseáil leathanna",
+    "seoTitle": "Meaitseáil Leathanna: Cluiche Pictiúr Séimh",
+    "h1": "Meaitseáil Leathanna: Cuir Dhá Leath Pictiúir le Chéile",
+    "description": "Leathanna clé dhá phictiúr nó trí cinn ar thaobh amháin, a leathanna deasa ar an taobh eile. Cliceáil ar leath, agus ansin ar an leath a fheileann dó. Gan clog, gan scór, agus scarann leathanna nach bhfeileann lena chéile go simplí. Saor in aisce le imirt agus le priontáil.",
+    "short": "Cliceáil ar an dá leath a fheileann lena chéile chun pictiúr amháin a dhéanamh.",
+    "players": "1 nó 2 dhuine, nó duine fásta agus páiste",
+    "intro": "Gearrtar gach pictiúr ar an lár. Tá leathanna clé dhá phictiúr nó trí cinn i gcolún amháin agus a leathanna deasa, in ord difriúil, sa cholún eile. Cliceáil ar leath ar thaobh na láimhe clé, agus ansin cliceáil ar an leath ar thaobh na láimhe deise a fheileann dó, mar shampla spout citeal agus a hanla. Ceanglaítear leathanna a fheileann lena chéile ina bpictiúr iomlán. Scarann leathanna nach bhfeileann arís, agus deir an cluiche sin go bog. Ceanglaíonn \"Taispeáin dom\" iad uile.",
+    "howTo": [
+      "Roghnaigh dhá phictiúr nó trí cinn. Is é dhá cheann an simplí is féidir.",
+      "Breathnaígí ar na leathanna clé le chéile. Cad a shíleann tú atá ina gcuid de gach ceann acu?",
+      "Cliceáil ar leath ar thaobh na láimhe clé, agus ansin cliceáil ar an leath ar thaobh na láimhe deise a fheileann dó. Oibríonn sé freisin ar an mbealach eile.",
+      "Ceanglaítear leathanna a fheileann lena chéile, le himeall tiubh agus marc seiceála. Scarann leathanna nach bhfeileann arís, agus is féidir leat triail a bhaint as ceann eile.",
+      "Cliceáil \"Taispeáin dom\" nuair is maith leat, agus ansin \"Tacar eile\" le haghaidh pictiúr nua."
+    ],
+    "tips": [
+      "Rianaigh imeall leath le méar. Cá dtagann an líníocht chomh fada leis an lár?",
+      "Abair cad a fheiceann tú: \"Tá hanla ar an gceann sin.\" Ní gá gach pictiúr a ainmniú.",
+      "Oibríonn ag pointeáil chomh maith le cliceáil. Suígí taobh le taobh ionas gur féidir libh an scáileán a fheiceáil araon."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil clog nó scór ann?",
+        "a": "Níl. Níl cloc, scór, cuntas gluaiseachtaí ná caillteanas ann. Is féidir leat stop ag am ar bith, agus is bealach maith é stopadh idir an dá linn chun críoch a chur leis."
+      },
+      {
+        "q": "Cad a tharlaíonn mura bhfeileann dhá leath lena chéile?",
+        "a": "Ní tharlaíonn rud míthaitneamhach ar bith. Níl buzzer, crois dhearg ná crith ann. Scarann an dá leath arís, agus deir an cluiche, \"Nach bhfeileann an dá cheann sin lena chéile. Bain triail as ceann eile.\" Ní chuirtear aon rud i gcuntas."
+      },
+      {
+        "q": "An furasta na pictiúir a idirdhealú?",
+        "a": "Is furasta. Roghnaítear na pictiúir de láimh, agus ní bhíonn dhá phictiúr ar an gclár céanna riamh ón ngrúpa céanna, mar shampla dhá thorthaí nó dhá ainmhí. Fágtar pictiúir ar lár a bhfuil an dá leath cosúil lena chéile iontu, mar shampla an ghrian nó an bogha báistí."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Tá leathanach amháin ina bhfuil leathchuid clé trí phictiúr i gcolún amháin, agus a leathchuid deas, in ord difriúil, sa cholún eile. Tarraing líne ó gach leathchuid chlé go dtí an leathchuid a oireann di."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus níl cuntas, clárú nó íoslódáil ag teastáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tabhlaí nó ar ríomhaire."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Dath de réir uimhir",
+    "seoTitle": "Dath de réir Uimhir: Cluiche Socair Lándaite Clóite",
+    "h1": "Dath de réir Uimhir: Líon na Cearnóga, Aon Dath is Maith Leat",
+    "description": "Greille de chearnóga móra uimhrithe agus eochair de cheithre dhath lena n-ainmneacha. Roghnaigh dath, agus tapáil cearnóga chun iad a líonadh. Tá aon dath ceart, níl aमलीर ama ná scór ann, agus líonann cnaipe na cearnóga eile de réir na n-uimhreacha. Saor in aisce le imirt agus le priontáil.",
+    "short": "Roghnaigh dath, ansin tapáil na cearnóga uimhrithe chun iad a líonadh.",
+    "players": "1 nó 2 dhuine, taobh le taobh",
+    "intro": "Greille cearnach de chearnóga móra, gach ceann acu le uimhir, agus eochair os a cionn le ceithre dhath, gach ceann acu lena uimhir agus lena ainm scríofa. Roghnaigh dath ón eochair, ansin tapáil cearnóga chun iad a líonadh. Is 4 faoi 4 an greille ag tús, agus 6 faoi 6 nó 8 faoi 8 nuair a theastaíonn níos mó cearnóg uait. Nuair a bheidh dath uimhir gach cearnóige ann, is é an greille an pictiúr ar an leathanach. Ní dhéanann an cluiche tuairim ar bith de na cearnóga atá líonta le dath eile; is do phictiúr féin iad. Líonann \"Líon de réir na n-uimhreacha\" gach cearnóg fholamh duit.",
+    "howTo": [
+      "Roghnaigh méid na greille. Is iad na cearnóga is mó atá sa 4 faoi 4, agus is é is simplí é.",
+      "Féach ar an eochair os cionn na greille. Tá uimhir agus ainm ag gach dath, mar shampla 1 Buí.",
+      "Tapáil dath san eochair, ansin tapáil na cearnóga ar mhaith leat a líonadh leis.",
+      "Úsáid an dath atá ar an uimhir, nó aon dath is maith leat. Tá an dá rogha go maith.",
+      "Tapáil \"Líon de réir na n-uimhreacha\" le haghaidh na gcearnóg folmhaí, \"Glan\" chun an greille a thosú arís, nó \"Pictiúr eile\" chun ceann difriúil a fháil."
+    ],
+    "tips": [
+      "Suígh taobh le taobh agus bíodh seift agaibh: roghnaíonn duine amháin an dath, agus tapálann an duine eile an chearnóg.",
+      "Labhair faoi na dathanna: \"Is maith liom an glas.\" Ní gá a rá cad a bheidh sa phictiúr.",
+      "Ar scáileán caol scrollaíonn an greille 8 faoi 8 go cothrom laistigh dá bhosca féin. Fanann na cearnóga ar mhéid compordach.",
+      "Oibríonn an leagan páipéir go maith freisin, le peann luaidhe ag bord taobh le leaba."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, comhaireamh gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh ag aon nóiméad, agus is bealach maith é stopadh leath bealaigh chun críche a bhaint amach."
+      },
+      {
+        "q": "Cad a tharlaíonn más dath difriúil ón uimhir a úsáidim?",
+        "a": "Ní tharlaíonn aon rud, agus sin an pointe. Is féidir aon dath a chur in aon chearnóg, agus ní dhéanann an cluiche tuairim ar bith de. Nuair a bheidh dath uimhir gach cearnóige ann, deir an cluiche sin go socair, agus tá pictiúr i do dhathanna féin chomh maith céanna."
+      },
+      {
+        "q": "An féidir le daoine a bhfuil dathdall orthu na ceithre dhath a idirdhealú?",
+        "a": "Roghnaíodh iad chun sin a dhéanamh. Tá uimhir, ainm scríofa agus cruth beag féin ag gach dath, mar sin ní hé an dath amháin an bealach chun iad a idirdhealú. Seiceáladh na ceithre líonadh le samhlacháin de dhathdall dearg-glas agus gorm-buí, agus tá difríocht soilseachta eatarthu freisin. Níor bhain duine a bhfuil dathdall air triail as go fóill, mar sin inis dúinn más cosúil dhá cheann le chéile."
+      },
+      {
+        "q": "An bhfuil na cearnóga sách mór do chrith nó do scáileán beag?",
+        "a": "Tá gach cearnóg 48 picteilín ar a laghad ar leithead, agus 56 ar an greille 4 faoi 4. Má tá greille ró-leathan don scáileán, scrollaíonn sé go cothrom laistigh dá bhosca féin in ionad na cearnóga a laghdú."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Tá greille uimhrithe agus eochair de cheithre dhath lena n-ainmneacha ar leathanach amháin. Dathaigh gach cearnóg le peann luaidhe den dath atá ar a uimhir, nó aon dath is maith leat."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus níl cuntas, clárú nó íoslódáil ag teastáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tabhlaí nó ar ríomhaire."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Déantóir patrún",
+    "seoTitle": "Déantóir Patrún: Dear tíl agus priontáil an patrún",
+    "h1": "Déantóir Patrún: Dear tíl, agus féach ar an athrá",
+    "description": "Athraigh cearnóga tíle bheag amháin agus féach ar a athrá ina phatrún taobh léi, i gceithre dhath a bhfuil ainm agus cruth acu. Gan clog ná scór. Saor in aisce le himirt agus le priontáil.",
+    "short": "Athraigh cearnóga tíle bheag agus féach ar a hathrá ina phatrún.",
+    "players": "1 nó 2 dhuine, taobh le taobh",
+    "intro": "Tíl bheag de 3 faoi 3 cearnóg, nó 4 faoi 4 más mian leat, agus taobh léi \"do phatrún\": an tíl chéanna, athraithe i mbloc. Tapáil cearnóg agus athraíonn sí go dtí an ceann eile de cheithre dhath, gach ceann acu lena ainm scríofa agus lena chruth féin. Athraíonn an patrún taobh léi láithreach. Níl patrún ceart ann, agus ní shábhálfar ná ní sheolfar aon rud. Cuireann \"Priontáil mo phatrún\" an patrún athraithe ar leathanach amháin, le coinneáil, le dathú nó le tabhairt uait.",
+    "howTo": [
+      "Féach ar an tíl agus ar do phatrún taobh léi. Is í an tíl chéanna í, athraithe.",
+      "Tapáil cearnóg. Athraíonn sí go dtí an dath ar aghaidh sa tsraith de cheithre dhath thuas.",
+      "Coinnigh ag tapáil cearnóga go dtí go bhfuil an patrún mar a theastaíonn uait. Is patrún maith é aon phatrún.",
+      "Tapáil \"Iontas dom\" le haghaidh tíle nua, nó \"Tosaigh arís\" le haghaidh ceann glan. Cuireann \"Cuir ar ais é\" an tíl a bhí agat ar ais.",
+      "Tapáil \"Priontáil mo phatrún\" má theastaíonn uait é ar pháipéar, nó tapáil Scíth chun stopadh."
+    ],
+    "tips": [
+      "Suíigí in aice a chéile agus glacaigí seans: tapálann duine amháin cearnóg, agus deir an duine eile cad a thugann sé faoi deara.",
+      "Labhraigí faoi cad a fheicann sibh: \"Is cosúil le bláth é sin.\" Ní gá aon rud a ainmniú.",
+      "Bain triail as an tíle céanna le dhá dhath amháin, agus ansin arís le ceithre dhath.",
+      "Ar pháipéar, is féidir an patrún a dhathú le peansailí, a ghearradh ina stiallacha le haghaidh cárta, nó é a úsáid chun bronntanas beag a pháipéarú."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, cuntas gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh ag am ar bith, agus is bealach maith é stopadh i lár an bhealaigh chun an obair a chríochnú."
+      },
+      {
+        "q": "An sábhálfar nó an seolfar rud ar bith a dhéanann tú?",
+        "a": "Ní sábhálfar. Ní fhanann do thíle ach ar an leathanach seo. Ní shábhálfar, ní uaslódálfar ná ní chomhaireofar é, agus imíonn sé nuair a dhúnann tú an leathanach. Más mian leat patrún a choinneáil, priontáil é."
+      },
+      {
+        "q": "Cad a tharlaíonn más tapáil tú an cearnóg mhícheart nó más glan tú an tíle de thimpiste?",
+        "a": "Ní cearnóg mhícheart ann: tapáil arís é chun dul ar aghaidh chuig an dath eile. Tar éis \"Tosaigh arís\" nó \"Iontas orm\", tabharfaidh \"Cuir ar ais é\" an tíle a bhí agat ar ais."
+      },
+      {
+        "q": "An féidir le daoine a bhfuil dall datha orthu na ceithre dhath a idirdhealú?",
+        "a": "Roghnaíodh iad sin chun sin a dhéanamh. Tá ainm scríofa ag gach dath freisin, agus cruth beag dá chuid féin i ngach cearnóg, mar sin ní hé dath an t-aon bhealach chun iad a idirdhealú. Seiceáladh na ceithre dhath le samhlacha de dhall dearg-glas agus dall gorm-buí. Níor bhain duine a bhfuil dall datha air triail as go fóill, mar sin, más rud é go bhfuil dhá cheann cosúil lena chéile, inis dúinn le do thoil."
+      },
+      {
+        "q": "An bhfuil na cearnóga mór go leor do chrith nó do scáileán beag?",
+        "a": "Tá gach cearnóg 56 picteilín ar a laghad ar leithead. Má tá an tíle ró-leathan don scáileán, scrollaíonn sé go cothrománach laistigh dá bhosca féin in ionad na cearnóga a chur de réir a chéile."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil mo phatrún\" an patrún a rinne tú ar leathanach amháin, leis na ceithre dhath agus a n-ainmneacha, agus tá sé go maith i ndubh agus bán toisc go bhfuil cruth dá chuid féin ag gach dath."
+      },
+      {
+        "q": "An bhfuil sé saor in aisce, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus ní gá cuntas, clárú nó íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tablet nó ar ríomhaire."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Duet tarraingthe",
+    "seoTitle": "Duet Tarraingthe: Beirt Dhaoine, Pictiúr Amháin",
+    "h1": "Duet Tarraingthe: Beirt Dhaoine, Dún Amháin",
+    "description": "Tarraingíonn beirt dhaoine línte ar chanbhás comhroinnte a chéile de réir a chéile, gach duine i ndath dá chuid féin. Níl scór ná buaiteoir ann, agus is féidir an pictiúr a shábháil nó a phriontáil. Saor in aisce le himirt, gan cuntas.",
+    "short": "Tarraingígí pictiúr comhroinnte de réir a chéile le duine atá in aice libh.",
+    "players": "2 dhuine, in aice a chéile",
+    "intro": "Canbhás amháin, beirt dhaoine. Roghnaíonn gach duine agaibh dath, agus tá ainm scríofa ag gach dath. Tarraingíonn sibh de réir a chéile: tarraingíonn tú líne nó cruth amháin, agus ansin tugann tú an peann don duine eile. Is féidir le duine ar bith agaibh pas a thabhairt ag am ar bith. Níl pictiúr ceart ann agus níl scór ann. Sábháil an pictiúr ar do ghléas más maith leat é, nó priontáil an leagan páipéir: dún amháin, dhá pheann.",
+    "howTo": [
+      "Roghnaíonn gach duine agaibh dath. Insíonn an meirge cé atá ag an ngníomh, agus dath an duine sin ainmnithe.",
+      "Tarraingíonn tú líne nó cruth le do mhéar, luch nó peann. Nó bain úsáid as na saighead-eochracha agus an Spás chun tarraingt gan luchtaire.",
+      "Nuair a bhíonn tú réidh, tapáil \"Tabhair an peann\". Is féidir le duine ar bith agaibh pas a thabhairt ag am ar bith.",
+      "Tapáil \"Glac ar ais mo líne dheireanach\" chun an líne is nuaí den duine atá ag an ngníomh a bhaint.",
+      "Tapáil \"Sábháil pictiúr\" chun comhad pictiúir a dhéanamh ar an ngléas seo, nó \"Priontáil an leagan páipéir\" le haghaidh dún amháin agus dhá pheann."
+    ],
+    "tips": [
+      "Suíigí in aice a chéile agus labhraigí agus sibh ag tarraingt: \"Cuirfidh mé grian sa chúinne.\"",
+      "Tosaigh le ponc, líne nó cruth simplí, agus lig don duine eile freagra a thabhairt air.",
+      "Ní gá do dhuine ar bith pictiúr de rud ar bith a tharraingt. Is maith cuma le pictiúr de líntí ná le radharc.",
+      "Más mian leat stopadh, tapáil \"Críochnaithe go fóill\". Ní choinnítear do phictiúr tar éis duit an leathanach a fhágáil mura sábhálann tú é."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil buaiteoir nó scór ann?",
+        "a": "Níl. Níl buaiteoir, scór, amadóir ná comhaireamh ar chasadh ann. Níl pictiúr ceart ann, agus ní rangaítear ná ní chuirtear rud ar bith i gcomparáid."
+      },
+      {
+        "q": "An sábhálfar nó an seolfar an pictiúr?",
+        "a": "Níl, ní sheoltar rud ar bith áit ar bith. Fanann an pictiúr ar an leathanach seo go dtí go ndúnann tú é. Má thapáileann tú Sábháil pictiúr, déantar comhad ar do ghléas le go mbeidh tú in ann é a íoslódáil. Ní uaslódáiltear rud ar bith."
+      },
+      {
+        "q": "An féidir liom líne a bhaint siar?",
+        "a": "Is féidir. Baineann \"Glac ar ais mo líne dheireanach\" an líne is nuaí den duine atá ag an ngníomh. Glanann \"Tosaigh arís\" an dún, agus tugann \"Cuir ar ais é\" na línte ar ais, céim amháin amháin."
+      },
+      {
+        "q": "An féidir liom é a úsáid gan luch nó scáileán tadhaill?",
+        "a": "Is féidir. Nuair a bhíonn fócas ar an tarraingt, bogann na saighead-eochracha ponc peann, agus cuireann an eochair Spás an peann síos nó suas. Deir an scáileán \"Peann síos\" nó \"Peann suas\" gach uair."
+      },
+      {
+        "q": "Cad iad na dathanna, agus an féidir le daoine a bhfuil dall datha orthu iad a idirdhealú?",
+        "a": "Buí, oráiste, glas agus corcra, na ceithre dathanna céanna a úsáidtear inár gcluichí pictiúir eile. Tá ainm scríofa ag gach ceann acu, agus taispeántar na hainmneacha in aice leis an gcasadh. Seiceáladh na dathanna le samhlacha de dhifríochtaí coitianta i radharc datha, ach níor bhain duine a bhfuil difríochtaí radharc datha air triail astu go fóill."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil an leagan páipéir\" dún amháin leis na rialacha air agus fráma mór bán le tarraingt ann, do dhá dhuine le dhá pheann. Oibríonn sé i ndubh agus bán."
+      },
+      {
+        "q": "An bhfuil sé saor in aisce, agus an gá clárú?",
+        "a": "Tá, is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tabléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Tógáil le chéile",
+    "seoTitle": "Tógáil le Chéile: Beirt Dhaoine, Patrún Amháin",
+    "h1": "Tógáil le Chéile: Beirt Dhaoine, Eangach Amháin",
+    "description": "Cuireann beirt dhaoine píosa in eangach roinnte ina dhiaidh sin go dtí go mbíonn sí lán, agus dath dá gcuid féin acu, a bhfuil ainm agus cruth aige. Ní bhuann duine ar bith, agus níl aon amadóir ná scór ann. Saor le himirt agus le priontáil.",
+    "short": "Bain sos ó chéile le duine atá in aice leat chun eangach roinnte amháin a líonadh.",
+    "players": "2 dhuine, taobh le taobh",
+    "intro": "Eangach roinnte de 4 x 4 áit, nó de 3 x 3 más mian leat. Roghnaíonn gach duine agaibh dath, agus tá ainm scríofa agus cruth ag gach dath. Bainigí sosanna: nuair a bhíonn do sos agat, tapáil áit folamh chun do phíosa a chur ann. Nuair a bhíonn píosa i ngach áit, bheidh an pictiúr tógtha le chéile agaibh. Ní bhíonn buaiteoir ann, mar déanann sibh é mar phéire, agus ní shábháiltear ná ní sheoltar aon rud. Cuireann \"Priontáil an eangach\" eangach fholamh ar leathanach amháin, ionas gur féidir libh tógáil le dhá pheann luaidhe.",
+    "howTo": [
+      "Roghnaíonn gach duine agaibh dath. Marcáiltear dath atá ag an duine eile mar \"In úsáid\".",
+      "Téann an chéad duine ar aghaidh ar dtús. Insíonn an scáileán cé atá ag imirt agus cén dath atá acu.",
+      "Tapáil áit fholamh chun do phíosa a chur ann. Ritheann an sos chuig an duine eile.",
+      "Mura mian leat píosa a chur, tapáil \"Pas\". Is féidir le duine ar bith agaibh pas a thabhairt ag am ar bith.",
+      "Nuair a bhíonn píosa i ngach áit, tá an pictiúr tógtha le chéile agaibh. Tapáil \"Tosaigh arís\" chun ceann eile a thógáil, nó tapáil Scíth chun stop a chur.\""
+    ],
+    "tips": [
+      "Suígí taobh le taobh ionas gur féidir libh araon an scáileán a fheiceáil agus a bhaint amach. Labhraígí agaibh agus sibh ag obair: \"Cuirfidh mé mo cheannsa in aice le do cheannsa.\"",
+      "Bain triail as patrún a thógáil, stríoca, cliathán seiceadáin nó teorainn, nó díreach píosaí a chur áit ar bith is maith leat. Tá an dá rud go maith.",
+      "Is féidir le leanbh nó le duine a bhíonn tuirseach go tapa pas a thabhairt chomh minic agus is maith leo. Tógtar an pictiúr le chéile fós.",
+      "Ar pháipéar, úsáideann gach duine peann luaidhe amháin agus tarraingíonn sé a chruth féin sna cearnóga folmha."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil buaiteoir, amadóir nó scór ann?",
+        "a": "Níl. Ní bhuann duine ar bith, mar tógann sibh pictiúr amháin le chéile. Níl clog, scór, comhaireamh píosaí ná cailliúint ann. Is féidir leat stopadh ag am ar bith, agus is dea-bhealach é stopadh i lár an bhealaigh chun críochnú."
+      },
+      {
+        "q": "An sábháiltear nó an seoltar aon rud a dhéanaimid?",
+        "a": "Ní sábháiltear. Fanann an eangach ar an leathanach seo amháin. Ní shábháiltear, ní uaslódáiltear ná ní chomhaireofar é, agus imíonn sé nuair a dhúnann tú an leathanach. Más mian leat é a choinneáil, priontáil an eangach agus tóg ar pháipéar é."
+      },
+      {
+        "q": "Cad a tharlaíonn mura gcuirim píosa san áit cheart?",
+        "a": "Ní hann d'áit mhícheart. Tapáil \"Tóg ar ais an píosa deireanach\" agus téann an sos ar ais chugat. Is féidir sos amháin ar leith a thógáil ar ais ag an am, agus is féidir pas a thógáil ar ais freisin."
+      },
+      {
+        "q": "An féidir le daoine a bhfuil dall datha orthu na ceithre dath a aithint óna chéile?",
+        "a": "Roghnaíodh iad chun sin. Tá ainm scríofa agus cruth beag féin ag gach dath i ngach píosa, mar sin ní hé an dath amháin an bealach chun iad a aithint óna chéile. Seiceadh na ceithre dath le samhlacháin de dhall datha dearg-glas agus gorm-buí. Níor bhain duine a bhfuil dall datha air triail astu fós, mar sin inis dúinn más cosúil dhá cheann acu le chéile."
+      },
+      {
+        "q": "An bhfuil na háiteanna mór go leor do chrith nó do scáileán beag?",
+        "a": "Tá gach áit at least 56 picteilín ar leithead. Más leithne an eangach ná an scáileán, scrollaíonn sí go cliathánach laistigh dá bosca féin in ionad na háiteanna a laghdú."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil an eangach\" eangach fholamh ar leathanach amháin leis an dá dhath agus a n-ainmneacha, chun tógáil le dhá pheann luaidhe. Oibríonn sé i ndubh agus bán mar tá cruth ag gach dath."
+      },
+      {
+        "q": "An saor é, agus an gá clárú?",
+        "a": "Tá, is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tabléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Tally caitheamh ag suí",
+    "seoTitle": "Tally Caitheamh ag Suí: Cluiche Mála Pónaí do Bheirt",
+    "h1": "Tally Caitheamh ag Suí: Caitheamh le Chéile ag Bord",
+    "description": "Caitheann beirt dhaoine ag bord mála pónaí bog ina dhiaidh sin i dtaobh sprioc mhóir, agus coinníonn siad an tally ar pháipéar. Ní thomhaistear aon rud ná ní scóráiltear aon rud. Saor le priontáil.",
+    "short": "Caith mála pónaí i dtreo sprioc mhóir ina dhiaidh sin, agus an tally ar pháipéar.",
+    "players": "2 dhuine, ag bord",
+    "intro": "Cluiche caitheamh socair do bheirt dhaoine ina suí ag bord. Leagann tú sprioc phriontáilte ar an mbord agus caitheann sibh an mála pónaí bog ina dhiaidh sin, nó stoca rollta, ionas go dtitfidh sé ar na fáinní. Coinníonn gach duine agaibh tally trí bhoscaí a mharcáil ar pháipéar, agus féachann sibh ar na marcanna le chéile nuair a stopann sibh. Ní thomhaistear aon rud, ní chuirtear aon rud le chéile ar an scáileán, agus ní shábháiltear ná ní sheoltar aon rud. Léigh na nótaí sábháilteachta ar dtús, mar tá contúirt bheith ag slogadh ag líonadh beag.",
+    "howTo": [
+      "Léigh na nótaí sábháilteachta. Roghnaigh mála a bhfuil a chlúdach fuaite dúnta, nó rollaigh stoca glan.",
+      "Tapáil \"Priontáil an sprioc agus an bileog tally\" agus leag an bileog go cothrom ar an mbord eatarthu.",
+      "Suígí go compordach, duine ar gach taobh, agus bain úsáid as caitheamh réidh amháin an duine. Is féidir le duine ar bith pas a thabhairt.",
+      "Nuair a thitfidh caitheamh i bhfáinne, márcáil bosca i do cholún, ar an líne don fháinne sin.",
+      "Féach ar na marcanna le chéile nuair a stopann sibh, nó tapáil Scíth chun sos a ghlacadh."
+    ],
+    "tips": [
+      "Sit close enough that a gentle underhand toss reaches the target without any stretching.",
+      "Talk about the toss, not the result: \"That was a soft one.\" Everyone cheers for every toss.",
+      "A rolled-up sock is light and easy to hold with a weak grip. Rest an arm on the table between turns.",
+      "If someone would rather watch, they can be the one who ticks the boxes."
+    ],
+    "faq": [
+      {
+        "q": "Is there a timer or a score?",
+        "a": "No. There is no clock, score, move counter or losing. You can stop at any moment, and stopping halfway is a perfectly good way to finish."
+      },
+      {
+        "q": "Is it safe to toss a bean bag?",
+        "a": "It can be, with care. Use a bag with a sewn-shut cover or a rolled-up sock, never loose beans, rice or small fillings, which are a choking hazard for young children and for anyone who puts things in their mouth. Stay seated, toss gently toward the table and never toward a face, and keep an adult close by."
+      },
+      {
+        "q": "Is anything counted or saved on the screen?",
+        "a": "No. The tally is only on paper, in boxes you tick yourselves. The page keeps no count and no timer, and nothing is saved or sent."
+      },
+      {
+        "q": "What if someone cannot toss, or the bag lands off the sheet?",
+        "a": "Anyone may pass, and a bag that lands off the sheet is simply picked up for the next turn. Nothing is counted for it."
+      },
+      {
+        "q": "What is on the printed sheet?",
+        "a": "One page: a large target with its three rings named Near, Middle and Far, a table with a column for each person and a row of small boxes to tick for each ring, and a line of safety advice. The names are written on the rings, so it works in black and white."
+      },
+      {
+        "q": "Is it free, and do I need to sign up?",
+        "a": "Yes, it is free, and there is no account, sign-up or download. It works in the web browser on a phone, tablet or computer."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Pacáiste puzal séasúrach",
+    "seoTitle": "Pacáiste Puzal Séasúrach: Puzail Pháipéir Inphriontáilte",
+    "h1": "Pacáiste Puzal Séasúrach: Trí Phuzal Pháipéir do Gach Séasúr",
+    "description": "Trí phuzal bheag inphriontáilte do an earrach, an samhradh, an fómhar nó an geimhreadh: meaitseáil na péirí, cuir timthriall faoin gcinn atá difriúil, agus kolaigh pictiúr. Roghnaigh séasúr, nó glac lá scíthe. Saor in aisce le priontáil.",
+    "short": "Trí phuzal inphriontáilte don séasúr a roghnaíonn tú, nó lá scíthe.",
+    "players": "Gach aois, go haonair nó le chéile",
+    "intro": "Roghnaigh séasúr, agus taispeánann an leathanach trí phuzal bheag pháipéir a tharraingítear ó phictiúir an tséasúir sin: dhá sraith le nascadh le línte, sraith de cheathrar le timthriall a chur faoin gcinn atá difriúil, agus pictiúr le kolú. Priontálann tú leathanach amháin, agus déanann tú ceann amháin, dhá cheann nó na trí cinn, ag do luas féin. Roghnaigh \"Is lá scíthe é inniu\" ina ionad sin agus ní bhíonn aon rud le déanamh.",
+    "howTo": [
+      "Roghnaigh séasúr, nó roghnaigh \"Is lá scíthe é inniu\".",
+      "Féach ar an trí phuzal, ansin tapáil \"Priontáil pacáiste an tséasúir seo\".",
+      "Déan ceann amháin, dhá cheann nó na trí cinn, ag do luas féin.",
+      "Nasc na pictiúir a mheaitseálann le líne, cuir timthriall faoin gcinn atá difriúil, agus kolaigh an pictiúr mór.",
+      "Stop nuair is mian leat. Is lá maith é lá scíthe freisin."
+    ],
+    "tips": [
+      "Tosaigh leis an bpuzal is furasta leat inniu. Is leor ceann amháin.",
+      "Abair ainm gach pictiúir os ard, más cabhair é sin.",
+      "Bain úsáid as crián nó peann luaidhe. Is fiú aon dath.",
+      "Coinnigh an leathanach don uair eile, nó lig uait é."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, comhaireamh gluaiseachtaí nó caillteanas ann. Is féidir leat stopadh ag aon nóiméad, agus is bealach maith é stopadh i lár an bhealaigh chun críche a bhaint amach."
+      },
+      {
+        "q": "An bhfuil a fhios ag an leathanach cén séasúr atá ann?",
+        "a": "Níl. Roghnaíonn tú an séasúr. Ní fhéachann an leathanach ar an dáta ná ar do shuíomh."
+      },
+      {
+        "q": "An bhfuil scór nó freagra ceart ann?",
+        "a": "Níl. Ní thomhaistear, ní scórálann agus ní seiceáiltear aon rud ar an scáileán, agus ní thaispeántar aon fhreagraí. Is pictiúr amháin é gach puzal le féachaint air, a nascadh, timthriall a chur faoi nó a kolú."
+      },
+      {
+        "q": "Cad a dhéanfaimid mura bhfuil aon duine ag iarraidh puzail inniu?",
+        "a": "Roghnaigh \"Is lá scíthe é inniu\". Taispeánann an leathanach líne shocair amháin ansin, agus níl aon rud le priontáil nó le déanamh."
+      },
+      {
+        "q": "Cad atá ar an leathanach priontáilte?",
+        "a": "Leathanach amháin don séasúr a roghnaigh tú: a trí phuzal, gach ceann acu le líne ghearr ar conas é a dhéanamh, agus líne a deir gur féidir leat ceann amháin, dhá cheann nó na trí cinn a dhéanamh."
+      },
+      {
+        "q": "An bhfuil sé saor in aisce, agus an gá clárú?",
+        "a": "Tá, tá sé saor in aisce, agus níl cuntas, clárú nó íoslódáil ag teastáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fón, ar tablet nó ar ríomhaire."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Cárta a mhaisiú le chéile",
+    "seoTitle": "Cárta a Mhaisiú le Chéile: Cárta Beannachta Inphriontáilte",
+    "h1": "Cárta a Mhaisiú le Chéile: Déan ceann do dhuine éigin",
+    "description": "Maisíonn beirt dhuine cárta beannachta priontáilte do lá breithe, buíochas nó díreach mar sin, agus ansin scríobhann siad teachtaireacht ar an gcúl le chéile. Crián nó peann amháin. Gan clog ná scór. Saor in aisce le priontáil.",
+    "short": "Maisigh cárta beannachta priontáilte le chéile.",
+    "players": "2 dhuine, ag suí taobh le taobh",
+    "intro": "Cluiche ciúin déanta le haghaidh beirt dhaoine atá ag suí taobh le taobh. Priontálann tú leathanach amháin, a bhfilltear ina leath chun cárta a dhéanamh. Roghnaigh ócáid, mar shampla lá breithe nó buíochas, agus maisigh an taobh tosaigh timpeall ar na focail. Ansin scríobh teachtaireacht ar an gcúl, le chéile nó le duine amháin ag scríobh an rud a deir an duine eile. Bain úsáid as criáin, peannaí dathanna nó peannaí feilte. Níl cárta ceart ann, agus ní thomhaistear, ní scórálann agus ní sheoltar aon rud.",
+    "howTo": [
+      "Seoigh ócáid, agus ansin tapáil \"Priontáil an cárta\".",
+      "Paitseáil an depháipéar ina dhá leath feadh na líne briste, ionas go mbeidh an taobh tosaigh ar an taobh amuigh.",
+      "Maisíonn duine amháin an taobh tosaigh, agus maisíonn an duine eile an taobh cúil, nó glacaigí turas ar aon taobh amháin.",
+      "Scríobhaigí teachtaireacht le chéile. Is féidir le duine amháin scríobh agus an duine eile na focail a rá.",
+      "Stop nuair is mian libh. Tá cárta simplí chomh maith le cárta mionsonraithe."
+    ],
+    "tips": [
+      "Tosaigh leis na focail ar an taobh tosaigh, agus cuir duilleoga, réaltaí nó poncanna timpeall orthu ansin, ceann ag an am.",
+      "Mura mian le duine tarraingt, is féidir leis na dathanna a roghnú nó an teachtaireacht a scríobh.",
+      "Abair cad is maith leat faoi mharcanna an duine eile, seachas an bhfuil siad go maith.",
+      "Coinnigh an cárta áit ar féidir é a thabhairt, nó coinnigh ar an mbord go fóill é."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, comhaireamh gluaiseachtaí ná cailleadh ann. Is féidir leat stop ag am ar bith, agus is cuma maith é stopadh leath bealaigh chun críche a bhaint amach."
+      },
+      {
+        "q": "An gá dúinn gliú, siosúr nó greamáin?",
+        "a": "Ní gá. Is leor crián-phéinteanna, peann luaidhe datha nó peann feilte. Ní gá rud ar bith a ghearradh, a ghliúáil ná a gréasú."
+      },
+      {
+        "q": "An féidir linn cárta a dhéanamh d'ócáid nach bhfuil ar an liosta?",
+        "a": "Roghnaigh \"Gan ócáid ar leith\" agus scríobh do chuid focal féin ar an taobh tosaigh, nó maisigh an cárta gan aon ócáid ar chor ar bith."
+      },
+      {
+        "q": "An gcomhaireamhtar, an dtugtar breith nó an sábháiltear rud ar bith ar an scáileán?",
+        "a": "Ní dhéantar. Ní thaispeánann an leathanach ach an cárta agus na céimeanna. Ní dhéantar rangú, scóráil ná sábháil ar rud ar bith, agus níl cárta ceart ann."
+      },
+      {
+        "q": "Cad atá ar an leathanach priontáilte?",
+        "a": "Leathanach amháin: cárta paiteáilte ina dhá leath, le focail na hócáide agus fráma simplí ar an taobh tosaigh, agus línte le haghaidh teachtaireachta agus líne Ó ar an taobh cúil. Tá rialacha do bheirt daoine priontáilte ar bun an leathanaigh."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fón, ar thaibléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Faigh le chéile",
+    "seoTitle": "Faigh le Chéile: Beirt Daoine Aimsíonn na Péirí",
+    "h1": "Faigh le Chéile: Beirt Daoine, Foireann Amháin",
+    "description": "Roinneann beirt daoine scáileán amháin agus glacann siad turas ar dhá chárta pictiúr a iompú chun péire a aimsiú. Aimsítear péirí le chéile agus comhairítear ar thallaí comhroinnte amháin iad. Saor in aisce le imirt, gan clog ná scór.",
+    "short": "Glac turais le duine atá in aice leat chun péirí pictiúr a aimsiú.",
+    "players": "2 dhuine, taobh le taobh",
+    "intro": "Tosaíonn na cártaí le a bpictiúir le feiceáil, nó is féidir iad a leagan síos ar a ndroim. Ar do shon féin, iompaíonn tú dhá chárta. Má tá péire acu, tá sibh aimsithe le chéile agus téann an tsíre chuig an duine eile. Má tá siad éagsúil, fanann siad ar aghaidh go dtí go brúnn tú \"Cas ar ais iad\", ionas gur féidir libh araon breathnú orthu. Is féidir pas a fháil ag am ar bith. Ní théann an tallaí ag bun an scáileáin ach suas: na péirí a d'aimsigh sibh le chéile.",
+    "howTo": [
+      "Roghnaigh cé mhéad cárta le húsáid. Sé chárta, trí phéire, is áit chiúin le tosú.",
+      "Insíonn an scáileán cé atá ag imirt, le ciorcal don chéad duine agus cearnóg don dara duine.",
+      "Iompaigh dhá chárta, ceann i ndiaidh a chéile. Má mheaitseálann siad, aimsítear an péire le chéile.",
+      "Má tá siad éagsúil, brúigh \"Cas ar ais iad\" nuair a bheidh sibh araon réidh. Téann an tsíre ansin chuig an duine eile.",
+      "Is féidir le duine agaibh \"Pas\" a bhrú ag am ar bith. Tapáil \"Tosaigh arís\" le haghaidh cártaí nua, nó tapáil Scíth chun stopadh."
+    ],
+    "tips": [
+      "Suígí taobh le taobh agus ainmnígí na pictiúir le chéile os ard: \"Cupán tae. An nglacann tú bainne i do thae?\"",
+      "Lig don duine a bhfuil cúram agat air an tapáil a dhéanamh, fiú má thógann sé tamall. Cuir méar ar an rud in ionad tapáil ar a shon.",
+      "Roghnaigh \"Cártaí ar a ndroim\" má tá sibh araon sásta cártaí a iompú chun na pictiúir a fháil.",
+      "Is féidir le duine a bhfuil tuirse air pas a fháil chomh minic agus is maith leis. Aimsítear na péirí le chéile fós."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil buaiteoir, clog nó scór ann?",
+        "a": "Níl. Níl buaiteoir ann, mar aimsíonn sibh na péirí mar fhoireann. Níl clog, scór ná comhaireamh earráidí ann. Ní chomhaireamh an tallaí ach na péirí a d'aimsigh sibh le chéile, agus is féidir stopadh ag am ar bith."
+      },
+      {
+        "q": "An gá dúinn cuimhneamh cá bhfuil na pictiúir?",
+        "a": "Ní gá. Tosaíonn an cluiche le gach pictiúr le feiceáil. Nuair a bhíonn na cártaí ar a ndroim, is féidir libh a fhiafraí de chéile cad a chonaic sibh, nó iad a iompú arís."
+      },
+      {
+        "q": "Cad a tharlaíonn nuair atá dhá chárta éagsúil?",
+        "a": "Fanann siad ar aghaidh, ionas gur féidir libh araon breathnú orthu chomh fada agus a theastaíonn uaibh. Ní iompaíonn rud ar bith ar ais iad leo féin. Nuair a bhíonn sibh réidh, brúigh \"Cas ar ais iad\" agus téann an tsíre chuig an duine eile."
+      },
+      {
+        "q": "An sábháiltear nó an seoltar aon rud a imríonn sibh?",
+        "a": "Ní sábháiltear. Fanann na cártaí ar an leathanach seo amháin. Ní shábháiltear, ní uaslódáiltear ná ní comhairítear rud ar bith, agus imíonn sé nuair a dhúnann tú an leathanach."
+      },
+      {
+        "q": "An bhfuil na cártaí sách mór do chrith nó do scáileán beag?",
+        "a": "Tá gach cárta 64 picteilín ar a laghad ar leithead, agus tá sé chomh mór agus a cheadaíonn an scáileán. Cloiseann úsáideoirí méarchláir agus léitheoirí scáileáin gach cárta de réir a shuímh agus a phictiúir."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fón, ar thaibléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Dísle scéalta",
+    "seoTitle": "Dísle Scéalta: Cluiche Insint Scéalta le Pictiúir",
+    "h1": "Dísle Scéalta: Insígí Scéal le Pictiúir",
+    "description": "Trí nó ceithre dísle pictiúr le scéal a insint leo, in aon ord. Gan léamh, gan freagra ceart, gan clog agus gan scór. Caith arís iad, nó pas. Saor in aisce le himirt agus le priontáil.",
+    "short": "Caith dísle pictiúr agus insígí scéal le chéile, in aon ord.",
+    "players": "2 dhuine nó níos mó, nó duine fásta agus leanbh",
+    "intro": "Tá trí nó ceithre phictiúr le feiceáil, cosúil le fáinní. Déanaigí scéal le chéile a úsáideann iad, in aon ordú. Is féidir le scéal a bheith ina aon abairt amháin nó i bpáirt abairtí, agus is féidir go mbeadh sé greannmhar nó dílis don saol. Níl scéal ceart ann, agus ní gá do dhuine ar bith aon rud a ainmniú nó a chuimhniú. Brúigh \"Caith arís\" le pictiúir nua a fháil, agus is féidir le duine ar bith an seans a thabhairt do dhuine eile.",
+    "howTo": [
+      "Roghnaigh trí nó ceithre fháinne. Is é trí an rogha is simplí.",
+      "Féachaigí ar na pictiúir le chéile. Brúigh ceann acu más mian leat tosú leis.",
+      "Abair scéal ar a seal a úsáideann na pictiúir, in aon ordú. Is leor abairt amháin ar an mbealach.",
+      "Is féidir le duine ar bith an seans a thabhairt do dhuine eile. Brúigh \"Pas\" agus is féidir leis an duine nesta tosú.",
+      "Brúigh \"Caith arís\" chun pictiúir nua a fháil whenever is mian leat, nó brúigh Scíth chun stop a chur leis."
+    ],
+    "tips": [
+      "Cuir ceist in ionad fanacht le freagra: \"Cá bhfuil an scáth báistí ag dul, an dóigh leat?\"",
+      "Cuir leis an méid a dúirt an duine deiridh in ionad é a cheartú. Oireann aon scéal.",
+      "Is féidir le scéal a bheith faoi chuimhne fhíor. Is tús maith é pictiúr chun ceann a thosú."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil clog nó scór ann?",
+        "a": "Níl. Níl cloig, scór, comhaireamh gluaiseachtaí ná cailliúint ann. Is féidir leat stop a chur ag am ar bith, agus is bealach maith é stop a chur leis idir an dá linn chun críche a bhaint amach."
+      },
+      {
+        "q": "An gá dom na pictiúir a léamh nó a ainmniú?",
+        "a": "Níl. Oibríonn an cluiche leis na pictiúir amháin. Is féidir le himreoirí pointeáil, cur síos a dhéanamh nó a rá go simplí cad a chuireann an pictiúr i gcuimhne dóibh. Ní iarrtar ar dhuine ar bith rud ar bith a ainmniú ná a chuimhniú."
+      },
+      {
+        "q": "Cad a tharlaíonn mura bhfuil duine ag iarraidh a sheal a ghlacadh?",
+        "a": "Is féidir leo pas a thabhairt ag am ar bith gan míniú ar bith. Fanann an cluiche go simplí, agus is féidir leis an duine nesta tosú, nó is féidir libh pictiúir nua a chaitheamh."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Tá sé-chéad-agus-sé pictiúr éagsúla ar leathanach amháin i gceithre líne, is é sin sé ceithre pictiúr déag. Roghnaigh líne amháin, nó gearr amach na pictiúir agus tarraing cuid acu as carn."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá dom clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tháibléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Péirí focal agus pictiúr",
+    "seoTitle": "Péirí Focal agus Pictiúr: Meaitseáil Focail le Pictiúir",
+    "h1": "Péirí Focal agus Pictiúr: Meaitseáil an Focal leis an bPictiúr",
+    "description": "Meaitseáil focail Bhéarla lena bpictiúir, agus éist le focal ar bith á léamh os ard. Fanann na pictiúir i radharc, gan clog, scór ná comhaireamh iarrachtaí. Saor in aisce le imirt agus le priontáil.",
+    "short": "Meaitseáil gach focal lena phictiúr, agus éist leis á léamh os ard.",
+    "players": "Duine fásta amháin, nó teaghlach ag imirt taobh le taobh",
+    "intro": "Taispeántar ceithre phictiúr nó sé phictiúr, agus a bhfocail Bhéarla in ord difriúil. Brúigh focal agus ansin a phictiúr, nó pictiúr agus ansin a fhocal. Fanann péire meaitseáilte le chéile le teorainn tiubh agus an focal \"Meaitseáilte\". Brúigh \"Léigh os ard\" in aice le haon fhocal chun é a chloisteáil á rá. Ní thomhaistear ná ní scóráiltear rud ar bith, agus glanann brú nach meaitseálann é féin.",
+    "howTo": [
+      "Roghnaigh ceithre phictiúr nó sé phictiúr. Is é ceithre cinn an rogha is simplí.",
+      "Brúigh focal, agus ansin an pictiúr a ainmníonn sé. Nó brúigh pictiúr ar dtús, agus ansin a fhocal.",
+      "Fanann péire meaitseáilte le chéile. Glanann brú nach meaitseálann é féin go ciúin, mar sin bain triail as ceann eile.",
+      "Brúigh \"Léigh os ard\" in aice le focal chun é a chloisteáil, má tá do ghléas in ann téacs a léamh os ard.",
+      "Brúigh \"Pictiúir nua\" le haghaidh tacar eile, nó \"Tosaigh arís\" chun gach péire a scaoileadh. Tugann \"Cuir ar ais é\" ar ais na meaitseálacha deiridh."
+    ],
+    "tips": [
+      "Abair gach focal os ard le chéile sula meaitseálann tú é, agus labhair faoin bpictiúr.",
+      "Is féidir le teaghlaigh seal a ghlacadh. Roghnaíonn gach duine focal amháin nó pictiúr amháin ag an am.",
+      "Úsáid na focail a bhfuil aithne agat orthu cheana ar dtús, agus fág na cinn eile don am atá romhainn."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil clog nó scór ann?",
+        "a": "Níl. Níl cloig, scór, comhaireamh gluaiseachtaí ná cailliúint ann. Is féidir leat stop a chur ag am ar bith, agus is bealach maith é stop a chur leis idir an dá linn chun críche a bhaint amach."
+      },
+      {
+        "q": "An don leanaí atá sé seo?",
+        "a": "Tá sé déanta do dhaoine fásta atá ag foghlaim focal Béarla nó ag athfhoghlaim iad, agus do theaghlaigh a bhíonn ag imirt taobh le taobh. Níl sé scríofa do leanaí."
+      },
+      {
+        "q": "Cad a dhéanfaidh mé mura féidir le mo ghléas téacs a léamh os ard?",
+        "a": "Úsáideann an cnaipe Léigh os ard an guth atá ag do bhrabhsálaí cheana féin. Mura féidir leis an mbrabhsálaí labhairt, ní thaispeántar an cnaipe, agus oibríonn an cluiche gan é."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Tá sé phictiúr agus a sé fhocal ar leathanach amháin, le gearradh amach nó le ceangal le líne."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá dom clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tháibléad nó ar ríomhaire."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Sórtáil le chéile",
-    "seoTitle": "Cluiche Sórtáil le haghaidh Néaltrú: Sórtáil le Chéile",
+    "seoTitle": "Cluiche Seachadta: Seachadadh le Chéile do Dhaoine Fásta",
     "h1": "Sórtáil le Chéile: Gníomhaíocht Sórtála Pictiúir",
-    "description": "Tapáil pictiúr, ansin tapáil an ciseán ina bhfuil sé: cistin nó gairdín, torthaí nó ainmhithe. Gníomhaíocht sórtála saor in aisce do dhaoine a bhfuil néaltrú orthu.",
+    "description": "Brúigh pictiúr, agus ansin an ciseán ina bhaineann sé: cistin nó gairdín, torthaí nó ainmhithe. Cluiche seachadta ciúin agus saor in aisce do dhaoine fásta agus do theaghlaigh.",
     "short": "Cuir gach pictiúr ina chiseán: cistin nó gairdín, agus níos mó.",
     "players": "1 nó 2 duine",
     "intro": "Is tasc coitianta, sásúil laethúil é sórtáil, mar shampla earraí grósaera a chur ar shiúl nó stocaí a phéireáil. Tapáil pictiúr, ansin sconna ar an gciseán ina mbaineann sé. Níl aon deifir agus aon chasadh mícheart.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Puzal pictiúr",
-    "seoTitle": "Puzal Jigsaw Éasca don Néaltrú: 4 nó 9 bpíosa",
+    "seoTitle": "Puzal Pictiúr Simplí ar Líne: 4 nó 9 Píosa Mhóra",
     "h1": "Puzal Pictiúr: Jigsaw Éasca",
-    "description": "Míreanna mearaí ar líne do dhaoine a bhfuil néaltrú orthu: 4 nó 9 bpíosa móra, fanann an pictiúr iomlán le feiceáil, agus tapálann tú dhá phíosa chun iad a mhalartú.",
+    "description": "Puzal simplí ar líne do dhaoine fásta: 4 nó 9 bpíosa mór, fanann an pictiúr iomlán i radharc, agus brúigh dhá phíosa chun iad a mhalartú. Úsáid do ghrianghraf féin, a fhanann ar an ngléas seo. Saor in aisce, gan clog.",
     "short": "Tapáil dhá phíosa chun iad a mhalartú go dtí go mbeidh an pictiúr iomlán.",
     "players": "1 nó 2 duine",
-    "intro": "Gearrtar pictiúr cairdiúil i gceithre nó naoi bpíosa móra agus measctar é. Fanann an pictiúr iomlán le feiceáil mar threoir. Tapáil píosa amháin, ansin ceann eile, agus malartaíonn siad áiteanna. Níl aon tarraingt ag teastáil.",
+    "intro": "Gearrtar pictiúr cairdiúil ina cheithre phíosa nó ina naoi bpíosa mhóra agus cuirtear measc orthu. Fanann an pictiúr iomlán i radharc mar threoir. Brúigh píosa amháin, agus ansin píosa eile, agus malartaíonn siad áit. Ní gá tarraingt. Is féidir leat ceann de do ghrianghraif féin a úsáid freisin. Fanann sé ar an ngléas seo agus ní uaslódáiltear é riamh.",
     "howTo": [
       "Roghnaigh pictiúr agus 4 nó 9 píosaí. Tús milis é ceithre cinn.",
       "Féach ar an bpictiúr iomlán ag an mbarr.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Críochnaigh an rá",
-    "seoTitle": "Críochnaigh an Abair: Cluiche Seanfhocal do Sheanóirí",
+    "seoTitle": "Críochnaigh an Seanfhocal: Cluiche Seanfhocal Aitheanta",
     "h1": "Críochnaigh an Deir",
     "description": "Nathanna cainte Meiriceánacha a bhfuil an focal deireanach in easnamh orthu, cosúil le “Pingin a shábháiltear is pingin ___”.",
     "short": "Comhlánaigh nathanna coitianta le chéile, ansin labhair fúthu.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Cuardach focal i gcló mór",
-    "seoTitle": "Cuardach Focal Cló Mór do Néaltrú, Inphriontáilte",
+    "seoTitle": "Cuardach Focal Clómhór, Saor in Aisce agus Inphriontáilte",
     "h1": "Cuardach Focal Mórchló",
-    "description": "Cuardach focal mórchló saor in aisce do sheanóirí agus do dhaoine a bhfuil néaltrú orthu. Cúpla focal, litreacha móra, focail trasna agus síos amháin.",
+    "description": "Cuardach focal clómhór saor in aisce do dhaoine fásta níos sine agus do theaghlaigh. Focail bheaga, litreacha móra, focail trasna agus síos amháin. Imir ar líne nó priontáil.",
     "short": "Litreacha móra, cúpla focal, trasna agus síos amháin. Déan é a phriontáil freisin.",
     "players": "1 nó 2 duine",
     "intro": "Greille bheag le litreacha móra agus gan ach dornán focal, iad ar fad ag léamh trasna nó síos. Tapáil an chéad litir d’fhocal, ansin a litir dheireanach. Is fearr páipéar? Priontáil puzal úr in aon sconna amháin.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Leathanaigh dathúcháin",
-    "seoTitle": "Leathanaigh Dathúcháin do Dhaoine Fásta ar a bhfuil Néaltrú (Saor in Aisce)",
+    "seoTitle": "Leathanaigh Dhaite Saor in Aisce do Dhaoine Fásta, Mhóra agus Shimplí",
     "h1": "Leathanaigh Dathúcháin",
     "description": "Leathanaigh dhathúcháin shimplí do dhaoine fásta le réimsí móra: tapáil dath, ansin tapáil an pictiúr.",
     "short": "Tapáil dath, ansin cuid den phictiúr. Priontáil leathanaigh freisin.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Cártaí comhrá",
-    "seoTitle": "Tosaitheoirí Comhrá le haghaidh Néaltrú: Pictiúrchártaí",
+    "seoTitle": "Comhrá: Cártaí Pictiúr do Theaghlaigh",
     "h1": "Cártaí Comhrá",
-    "description": "Cártaí pictiúr le tosaithe milis comhrá do dhaoine a bhfuil néaltrú orthu: gan aon cheistiú, gan freagraí cearta. Úsáid ar an scáileán nó priontáil an tacar iomlán.",
+    "description": "Cártaí pictiúr le tosaitheoirí comhrá éadrom do theaghlaigh, do chairde agus do dhaoine fásta, lena n-áirítear daoine a bhfuil meabhairghalar orthu. Gan cheistiú, gan freagraí cearta.",
     "short": "Cártaí pictiúr le ceisteanna oscailte, milis. Gan tráth na gceist.",
     "players": "2 duine nó grúpa",
     "intro": "Déanann gach cárta pictiúr aithnidiúil a phéireáil le cuireadh oscailte chun cainte, cosúil le \"Cén cineál aimsire is fearr leat?\" Níl aon fhreagraí cearta ann agus níl aon rud le cuimhneamh orthu. Roghnaigh téama nó suaith iad go léir.",
@@ -329,12 +979,13 @@
     "description": "Déan do ghrianghraif teaghlaigh féin ina gcluiche meaitseála milis. Roghnaigh 2 go 6 ghrianghraf ar do ghléas; fanann siad i do bhrabhsálaí agus ní.",
     "short": "Roghnaigh do ghrianghraif féin agus iad a mheaitseáil. Níl aon rud uaslódáilte.",
     "players": "2 duine, taobh le taobh",
-    "intro": "Roghnaigh dhá nó sé ghrianghraf ó do ghuthán, táibléad nó ríomhaire, agus déantar cluiche meaitseála le pictiúir mhóra infheicthe. Ní thaispeántar na grianghraif ach taobh istigh den leathanach seo. Ní dhéantar iad a uaslódáil, a shábháil nó a roinnt, agus imíonn siad nuair a dhúnann tú an leathanach.",
+    "intro": "Roghnaigh dhá ghrianghraf go sé de do ghrianghrafanna teaghlaigh féin ó do fhón, do thaibléad nó do ríomhaire, agus is cluiche meaitseála le pictiúir mhóra, infheicthe a bheidh iontu. Ní thaispeántar na grianghraif ach laistigh den leathanach seo. Ní uaslódáiltear, ní shábhálfar ná ní roinnfear iad, agus imíonn siad nuair a dhúnann tú an leathanach. Más mian leat, cuir cúpla focal faoi gach grianghraf, agus is féidir le leid chineálta cúpla pictiúr a chur in iúl tar éis sos. Is bealach é seo chun grianghraif theaghlaigh a fhéachaint le chéile.",
     "howTo": [
-      "Beartaíonn \"Roghnaigh grianghraif\" agus roghnaigh 2-6 grianghraif.",
-      "Tá gach grianghraf le feiceáil faoi dhó. Beartaíonn ceann amháin, ansin sconna ar a phéire.",
-      "Labhair faoi gach grianghraf mar a fhaigheann tú é.",
-      "Nuair a bheidh tú críochnaithe, dún an leathanach nó sconna ar \"Grianghraif soiléire\". Ní choinnítear aon ní."
+      "Tapáil \"Roghnaigh grianghraif\" agus roghnaigh dhá ghrianghraf go sé.",
+      "Taispeántar gach grianghraf faoi dhó. Tapáil ceann amháin, ansin tapáil a phéire.",
+      "Más mian leat, cuir cúpla focal faoi gach grianghraf. Ní shábhálfar na focail.",
+      "Labhair faoi gach grianghraf de réir mar a aimsíonn tú é.",
+      "Nuair a bheidh tú críochnaithe, dún an leathanach nó tapáil \"Glan na grianghraif\". Ní choinnítear rud ar bith."
     ],
     "tips": [
       "Roghnaigh grianghraif soiléire de rudaí sona, eolach: peataí, gairdín, áit is fearr leat, lá bainise.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Bingo pictiúir",
-    "seoTitle": "Bingo Pictiúir do Sheanóirí ar a bhfuil Néaltrú: Inphriontáilte",
+    "seoTitle": "Bingo Pictiúr Inphriontáilte do Ghrúpaí",
     "h1": "Pictiúr Bingo do Ghrúpaí",
-    "description": "Bingo pictiúr inphriontáilte saor in aisce le haghaidh cúram cuimhne agus grúpaí sinsearacha, le glaoiteoir mór ar an scáileán.",
+    "description": "Bingo pictiúr saor in aisce, inphriontáilte do theaghlaigh, do ghrúpaí seanóirí agus do thithe cúraim. Pictiúir mhóra le focail, 9 nó 16 cearnóg, agus glaoch mór ar an scáileán.",
     "short": "Cártaí biongó pictiúr inphriontáilte agus glaoiteoir mórscáileáin do ghrúpaí.",
     "players": "Grúpa 2 go 30 saor in aisce,",
     "intro": "Bingo clasaiceach le pictiúir in ionad uimhreacha, mar sin ní gá d'aon duine cló beag a léamh. Priontáil sraith cártaí uathúla, ansin bain úsáid as an nglaoiteoir ar an scáileán chun gach pictiúr mór a thaispeáint ar an teilifís, ar ríomhaire glúine nó ar thaibléad.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Pleanálaí picnice",
+    "seoTitle": "Pleanálaí Picnice: Roghnaigh Pictiúir le haghaidh Turais",
+    "h1": "Pleanálaí Picnice: Roghnaigh Pictiúir, Ansin Meaitseáil Iad",
+    "description": "Roghnaigh pictiúir de bhia agus de rudaí le déanamh le haghaidh picnice, ansin imir babhta meaitseála éadrom leo. Ní thomhaistear am ar bith. Saor in aisce le himirt agus le priontáil.",
+    "short": "Roghnaigh pictiúir de bhia agus de thurais le haghaidh picnice, ansin meaitseáil iad.",
+    "players": "Duine amháin, nó 2 dhuine taobh le taobh",
+    "intro": "Tapáil pictiúir de bhia agus de rudaí le déanamh chun iad a chur i gciseán picnice, a shealbhaíonn suas le sé mhír. Insíonn abairt i bhfocail cad atá sa chiseán, mar shampla \"Ár bpicnic: arán, cáis, almonróga agus fleasc.\" Ansin tapáil \"Imirimis lenár bpicnic\" le haghaidh babhta meaitseála éadrom as na pictiúir roghnaithe. Fanann na pictiúir ar taispeáint, agus ní thomhaistear, ní scórálann agus ní shábhálfar aon rud. Priontálann \"Priontáil liosta ár bpicnice\" liosta seiceála de do roghanna, le bosca tic le haghaidh gach rud le pacáil.",
+    "howTo": [
+      "Tapáil pictiúr de bhia nó de rud le déanamh. Téann sé isteach sa chiseán.",
+      "Tapáil pictiúr sa chiseán chun é a bhaint amach arís.",
+      "Roghnaigh ar a laghad dhá rud, ansin tapáil \"Imirimis lenár bpicnic\".",
+      "Tapáil dhá phictiúr atá mar an gcéanna. Fanann na pictiúir ar taispeáint, mar sin ní gá aon rud a chuimhneamh.",
+      "Tapáil \"Priontáil liosta ár bpicnice\" le haghaidh liosta seiceála ar pháipéar le tabhairt leat."
+    ],
+    "tips": [
+      "Fiafraigh de na daoine a bhfuil tú leo cad a theastaíonn uathu a thabhairt, agus roghnaigh na pictiúir le chéile.",
+      "Labhair faoi gach pictiúr de réir mar a théann sé isteach: \"An cuimhin leat an eitleán páipéir a d'eitil muid ar an trá?\"",
+      "Ar pháipéar, is le haghaidh rud ar bith eile is mian leat a thabhairt, nó le haghaidh ainm, atá na línte bána."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir, scór nó buaiteoir ann?",
+        "a": "Níl. Ní thomhaistear ná ní áirítear rud ar bith, agus ní bhuann aon duine. Níl aon earráidí ná pointí sa bhabhta meaitseála."
+      },
+      {
+        "q": "An plean béilí é seo?",
+        "a": "Níl. Is plean pictiúr le haghaidh turais é, le labhairt faoi agus le tabhairt leat ar pháipéar. Ní insíonn sé cad ba cheart do dhuine ar bith a ithe."
+      },
+      {
+        "q": "An sábhálfar nó an seolfar na pictiúir a roghnaímid?",
+        "a": "Níl. Fanann an ciseán ar an leathanach seo amháin. Ní shábhálfar, ní uaslódálfar ná ní sheolfar é, agus imíonn sé nuair a dhúnann tú an leathanach."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil liosta ár bpicnice\" leathanach amháin, ar A4 nó US Letter. Taispeánann sé na pictiúir a roghnaigh tú, le bosca tic do gach ceann, agus línte bána le haghaidh rud ar bith eile."
+      },
+      {
+        "q": "An bhfuil sé saor in aisce, agus an gá dom clárú?",
+        "a": "Tá, tá sé saor in aisce, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar thaibléad nó ar ríomhaire."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Leabhar cuimhní",
+    "seoTitle": "Leabhar Cuimhní: Iompaigh Grianghraif Theaghlaigh Le Chéile, Leathanach ar Leathanach",
+    "h1": "Leabhar Cuimhní: Cuir Do Ghrianghraif agus Do Chur Síos Leis, Ansin Iompaigh na Leathanaigh",
+    "description": "Roghnaigh dhá ghrianghraf go dhá dhéag de do ghrianghrafanna teaghlaigh ar do ghléas agus iompaigh iad mar leabhar, le cúpla focal faoi gach ceann. Ní uaslódáiltear aon rud. Saor in aisce le priontáil.",
+    "short": "Iompaigh do ghrianghraif teaghlaigh féin le chéile, mar leabhar.",
+    "players": "Duine amháin, nó 2 dhuine taobh le taobh",
+    "intro": "Roghnaigh dhá ghrianghraf go dhá dhéag de do ghrianghrafanna ón ngléas seo. Bíonn leathanach amháin de leabhar de gach grianghraf, mór go leor le feiceáil, le cúpla focal roghnach faoi. Iompaigh na leathanaigh leis na cnaipí nó na saighdiúir méire, agus úsáid \"Féach le chéile\" chun suí taobh le taobh leis na grianghraif agus na focail amháin. Fanann do ghrianghraif ar an ngléas seo. Ní uaslódáiltear nó ní shábhálfar iad, agus imíonn an leabhar nuair a dhúnann tú an leathanach. Priontálann \"Priontáil an leabhar cuimhní\" grianghraf amháin agus a chuid focal ar gach leathanach, le huimhreacha leathanach.",
+    "howTo": [
+      "Tapáil \"Roghnaigh grianghraif\" agus roghnaigh dhá ghrianghraf go dhá dhéag. Iarr cead sula n-úsáideann tú grianghraf de dhuine nach féidir leis an gceist a fhreagairt le tá.",
+      "Iompaigh na leathanaigh le \"Leathanach roimhe\" agus \"Leathanach eile\", nó leis na saighdiúir clé agus deas.",
+      "Cuir cúpla focal faoi ghrianghraf más mian leat. Úsáid \"Bog níos luaithe\" nó \"Bog níos déanaí\" chun an ord a athrú.",
+      "Tapáil \"Féach le chéile\" chun na rialuithe eagarthóireachta a cheilt agus an leabhar a fhéachaint taobh le taobh.",
+      "Tapáil \"Priontáil an leabhar cuimhní\" le haghaidh cóip pháipéir, nó \"Glan an leabhar\" nuair a bheidh tú críochnaithe. Ní choinnítear rud ar bith."
+    ],
+    "tips": [
+      "Wähle Fotos von schönen, vertrauten Dingen: einem Garten, einem Haustier, einem Lieblingsort. Sprechen Sie über jede Seite, während Sie umblättern.",
+      "Lassen Sie die Person zu jeder Seite ein paar Worte sagen, auch nur ein einziges Wort, und schreiben Sie es genau so auf, wie es gesagt wird.",
+      "Auf Papier können die gedruckten Seiten in einen Ordner gelegt werden, und die Familie kann eigene Bilder und Notizen rundherum ergänzen."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es einen Timer, eine Punktzahl oder einen Gewinner?",
+        "a": "Nein. Nichts wird gestoppt, bewertet oder gezählt, und niemand gewinnt. Die Seitenzahl dient nur dazu, dass Sie wissen, wo Sie im Buch sind."
+      },
+      {
+        "q": "Werden unsere Fotos oder Bildunterschriften gespeichert, hochgeladen oder versendet?",
+        "a": "Nein. Die Fotos werden nur auf dieser Seite gelesen. Sie werden nicht hochgeladen, gespeichert oder irgendwohin gesendet. Die Bildunterschriften bleiben nur geöffnet, solange die Seite offen ist. Wenn Sie die Seite schließen, ist das Buch weg."
+      },
+      {
+        "q": "Können wir das Buch drucken?",
+        "a": "Ja. „Das Fotobuch drucken“ druckt auf jeder Seite ein Foto und seine Bildunterschrift, mit Seitenzahlen. Wählen Sie im Druckdialog A4 oder US Letter."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Smartphone, Tablet oder Computer."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Collage-Brett",
+    "seoTitle": "Collage-Brett: Zwei Personen legen abwechselnd Bilder auf ein Brett",
+    "h1": "Collage-Brett: Bilder abwechselnd auf einem Brett platzieren",
+    "description": "Zwei Personen legen abwechselnd ausgeschnittene Bilder auf ein gemeinsames Brett. Tippen Sie auf ein Ausschnitt-Bild und dann auf einen freien Platz. Keine Zeitmessung und keine Punkte. Kostenlos zu spielen und zu drucken.",
+    "short": "Legen Sie abwechselnd Bilder auf ein gemeinsames Brett.",
+    "players": "2 Personen, nebeneinander",
+    "intro": "Zwei Personen sitzen nebeneinander vor einem Brett mit zwölf Plätzen und einem Tablett mit acht ausgeschnittenen Bildern. Tippen Sie auf ein Ausschnitt-Bild und dann auf einen freien Platz, und das Bild wird dorthin gelegt. Danach ist die andere Person an der Reihe. Jede Person hat ihre eigene Form, einen Kreis oder ein Quadrat, sodass das Brett zeigt, wer welches Bild gelegt hat, ohne sich auf Farben zu verlassen. Jede Person darf aussetzen, und ein Schritt kann zurückgenommen werden. Nichts wird gestoppt, bewertet oder gespeichert. „Das Brett drucken“ druckt das leere Brett und die Bilder zum Ausschneiden.",
+    "howTo": [
+      "Tippen Sie im Tablett auf ein Ausschnitt-Bild. Solange es ausgewählt ist, steht dort „Gewählt“.",
+      "Tippen Sie auf einen freien Platz auf dem Brett. Das Ausschnitt-Bild wird dorthin gelegt, und die Reihe wechselt.",
+      "Jede Person kann jederzeit auf „Aussetzen“ tippen oder auf „Letztes Teil zurücknehmen“, um einen Schritt rückgängig zu machen.",
+      "Tippen Sie auf „Ein anderer Satz Bilder“ für ein anderes Tablett. Bereits auf dem Brett liegende Bilder bleiben, wo sie sind.",
+      "Tippen Sie auf „Neu beginnen“, um das Brett zu leeren, und auf „Zurücklegen“, wenn Sie es sich anders überlegen."
+    ],
+    "tips": [
+      "Nennen Sie den Namen jedes Bildes, wenn es hingelegt wird, zum Beispiel „die Teetasse kommt neben das Haus“. Das Sprechen macht die Tätigkeit zu einer gemeinsamen Sache.",
+      "Lassen Sie beide Personen abwechselnd das Ausschnitt-Bild und den Platz wählen, damit jede mitbestimmen kann.",
+      "Auf Papier schneiden Sie die acht Bilder mit Hilfe eines Erwachsenen aus und legen sie dann auf die gedruckten Felder."
+    ],
+    "faq": [
+      {
+        "q": "Gibt es einen Timer, eine Punktzahl oder einen Gewinner?",
+        "a": "Nein. Nichts wird gestoppt, bewertet oder gezählt, und niemand gewinnt. Ein volles Brett ist einfach eines, auf dem an jedem Platz ein Bild liegt."
+      },
+      {
+        "q": "Werden die Bilder, die wir legen, gespeichert oder versendet?",
+        "a": "Nein. Das Brett bleibt nur auf dieser Seite. Es wird nicht gespeichert, hochgeladen oder gezählt, und es ist weg, wenn Sie die Seite schließen."
+      },
+      {
+        "q": "Woran erkennen wir, wessen Bild welches ist?",
+        "a": "Jede Person hat eine Form. Die Bilder der ersten Person haben in der Ecke einen Kreis, die der zweiten Person ein Quadrat. Über dem Brett wird jeweils der Name angezeigt."
+      },
+      {
+        "q": "Gibt es eine Papierversion?",
+        "a": "Ja. „Das Brett drucken“ druckt das leere Brett als zwölf Felder, darunter die acht Bilder in gleicher Größe, mit Schnittlinien. Das Ausschneiden kann ein Erwachsener übernehmen."
+      },
+      {
+        "q": "Ist es kostenlos, und muss ich mich anmelden?",
+        "a": "Ja, es ist kostenlos, und es gibt kein Konto, keine Anmeldung und keinen Download. Es funktioniert im Webbrowser auf Smartphone, Tablet oder Computer."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Gartenplaner",
+    "seoTitle": "Gartenplaner: Ein Beet aus Pflanzenbildern gestalten",
+    "h1": "Gartenplaner: Bilder wählen und ein Beet gestalten",
+    "description": "Wählen Sie Bilder von Pflanzen und Gartenutensilien und legen Sie sie in zwölf Beete eines Gartenstücks. Tippen Sie auf ein Bild und dann auf ein Beet. Keine Zeitmessung und keine Punkte. Kostenlos zu spielen und zu drucken.",
+    "short": "Wählen Sie Pflanzenbilder und gestalten Sie ein Gartenstück mit zwölf Beeten.",
+    "players": "Allein oder 2 Personen nebeneinander",
+    "intro": "Wählen Sie Bilder aus einem Tablett mit Pflanzen und Gartenutensilien, und tippen Sie dann auf ein Beet, um jedes Bild dorthin zu legen. Ein Gartenstück hat zwölf Beete, und in einem Beet liegt jeweils ein Bild. Eine Zusammenfassung in Worten sagt, was der Plan enthält, zum Beispiel: „Ihr Plan hat 3 Sonnenblumen, 2 Rosen und 1 Baum.“ Nichts wird gestoppt, bewertet oder gespeichert, und es gibt keine Reihenfolge. Dies ist ein Bilderplan zum Besprechen, keine Anleitung zum Pflanzen. „Den Plan drucken“ druckt die Beete mit den gewählten Bildern, dazu leere Beete zum Zeichnen und Linien für Notizen.",
+    "howTo": [
+      "Tippen Sie im Tablett auf ein Bild. Solange es ausgewählt ist, steht dort „Gewählt“.",
+      "Tippen Sie auf ein Beet. Das Bild wird dorthin gelegt, und die Auswahl ist abgeschlossen.",
+      "Um ein Beet zu ändern, wählen Sie ein anderes Bild und tippen Sie auf das Beet. Um ein Beet zu leeren, tippen Sie darauf, ohne ein Bild gewählt zu haben.",
+      "Tippen Sie auf „Neu beginnen“, um alle Beete zu leeren, und auf „Zurücklegen“, wenn Sie es sich anders überlegen.",
+      "Tippen Sie auf „Den Plan drucken“ für eine Papierkopie des Gartenstücks und der Zusammenfassung."
+    ],
+    "tips": [
+      "Parle faoi gach pictiúr agus é á chur isteach, mar shampla \"tá an cathaoir ghréine in aice leis an teach éan\". Is gníomhaíocht roinnte í an chaint.",
+      "Lig do gach duine pictiúr a roghnú ina sheal, nó roghnaigí na pictiúir le chéile, ionas go mbeidh guth ag an mbeirt agaibh ar an bpleanáil.",
+      "Ar pháipéar, is le haghaidh do chuid smaointe féin atá na pléasc folmha, agus is le haghaidh rud ar mhaith leat cuimhneamh air atá na línte nótaí."
+    ],
+    "faq": [
+      {
+        "q": "An comhairle phlandála é seo?",
+        "a": "Ní hea. Is plean pictiúr é seo le labhairt faoi, ní comhairle phlandála. Ní deir sé cathain, cá háit nó conas rud a phlanáil, mar go mbraitheann sin ar an áit a bhfuil tú i do chónaí."
+      },
+      {
+        "q": "An bhfuil amadóir, scór nó buaiteoir ann?",
+        "a": "Níl. Ní thomhaistear, ní scórálann, ní mheastar agus ní comhaireamhtar rud ar bith, agus ní bhuaiann duine ar bith. Ní thugtar teachtaireacht speisialta do phlot lán."
+      },
+      {
+        "q": "An sábháiltear nó an seoltar na pictiúir a roghnaíonn muid?",
+        "a": "Ní sábháiltear, ní sheoltar. Ní fhanann an plean ach ar an leathanach seo. Ní shábháiltear, ní uaslódáiltear agus ní chomhaireamhtar é, agus imíonn sé nuair a dhúnann tú an leathanach."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil an plean\" leathanach amháin, ar A4 nó US Letter. Taispeánann sé na dáréag pléasc leis na pictiúir a roghnaigh tú, an achoimre i bhfocail, agus línte folmha do nótaí."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú nó íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tháibléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Balla dathúcháin an ghrúpa",
+    "seoTitle": "Balla Dathúcháin an Ghrúpa: Pictiúr Amháin do Lámha Go Leor",
+    "h1": "Balla Dathúcháin an Ghrúpa: Pictiúr Mór Amháin, Dathaithe le Chéile",
+    "description": "Priontáil pictiúr mór amháin thar roinnt leathanach, ionas gur féidir le teaghlach, rang nó teach cúraim balla amháin a dhathú le chéile. Saor in aisce le priontáil. Gan amadóir nó scór.",
+    "short": "Priontáil pictiúr mór thar leathanaigh le go mbeidh go leor daoine ag dathú.",
+    "players": "Grúpa, ag bord nó ar bhalla",
+    "intro": "Roghnaigh pictiúr ó na leathanaigh dathúcháin agus balla de 4, 6 nó 9 leathanach. Priontáil an balla: taispeánann an chéad leathanach conas é a chur le chéile, agus is cuid amháin den phictiúr mór céanna é gach leathanach eile, le lipéad mar A1 ina chúinne. Dathaíonn gach duine leathanach amháin nó níos mó, in aon dathanna agus in aon stíl. Ansin cuirtear na leathanaigh in ord de réir a lipéad agus ceanglaítear le téip ar an gcúl iad. Ní thomhaistear, ní scórálann agus ní sábháiltear rud ar bith.",
+    "howTo": [
+      "Roghnaigh pictiúr, agus ansin roghnaigh cé mhéad leathanach a bheidh sa bhalla.",
+      "Léigh an mapa ar an scáileán, a thaispeánann cá háit a rachaidh gach lipéad.",
+      "Tapáil \"Priontáil an balla\" agus priontáil na leathanaigh go léir.",
+      "Tabhair leathanach amháin nó níos mó do gach duine le dathú. Ní gá do na dathanna ná na stíleanna a bheith mar an gcéanna.",
+      "Cuir na leathanaigh in ord de réir a lipéad, agus ceangail le téip ar an gcúl iad."
+    ],
+    "tips": [
+      "Tabhair na leathanaigh a bhfuil na himlínte is simplí orthu do na daoine ar mian leo tasc níos ciúine, agus na cinn is gnóthaí do dhuine ar bith a bhaineann taitneamh astu.",
+      "Crochadh an balla san áit a bhfeicfidh gach duine é, agus labhraígí faoi na codanna le chéile.",
+      "Roghnaigh balla níos lú do bhord beag, agus ceann níos mó do sheomra."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir, scór nó buaiteoir ann?",
+        "a": "Níl. Ní thomhaistear, ní scórálann agus ní comhaireamhtar rud ar bith, agus ní bhuaiann duine ar bith. Is pictiúr é an balla, simplí, a dhath go leor daoine."
+      },
+      {
+        "q": "An sábháiltear nó an seoltar na leathanaigh áit ar bith?",
+        "a": "Ní sábháiltear, ní sheoltar. Déantar an balla ar an leathanach seo amháin. Ní shábháiltear, ní uaslódáiltear agus ní chomhaireamhtar é, agus imíonn sé nuair a dhúnann tú an leathanach."
+      },
+      {
+        "q": "An gá do na dathanna a bheith mar an gcéanna?",
+        "a": "Níl. Is féidir le gach duine aon dathanna agus aon stíl a úsáid. Fanann na leathanaigh ceangailte le chéile mar phictiúr amháin fós."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Is é an balla priontáilte an cluiche iomlán: an chéad leathanach leis na céimeanna agus mapa, agus leathanach amháin do gach cuid den phictiúr."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú nó íoslódáil. Oibríonn sé i mbrabhsálaí gréasáin ar fhón, ar tháibléad nó ar ríomhaire."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Puzal cruthanna ciúine",
+    "seoTitle": "Puzal Cruthanna Ciúine: Cuir Cruthanna Isteach i bPictiúr",
+    "h1": "Puzal Cruthanna Ciúine: Cuir na Píosaí Isteach sa Phictiúr",
+    "description": "Cuir cruthanna simplí isteach in imlíne tí, báid, éisc agus níos mó. Tapáil píosa, ansin spás den chruth céanna. Gan amadóir nó scór. Saor in aisce le himirt agus le priontáil.",
+    "short": "Cuir cruthanna simplí isteach i bpictiúr, ag do luas féin.",
+    "players": "1 duine, ag bord",
+    "intro": "Tá imlíne pictiúir, mar shampla teach, bád nó roicéad, roinnte ina spásanna. Tá píosa den chruth céanna ag gach spás: triantán mór nó beag, cearnóg, parallelagram nó dronuilleog. Tapáil píosa, ansin tapáil spás den chruth céanna, agus feisteoidh sé. Casann an spás an píosa duit, mar sin ní gá tarraingt ná rothlú. Mura bhfuil an píosa mar an gcruth céanna leis an spás, fanann sé sa tráidire le nóta gairid. Ní thomhaistear ná ní scórálann rud ar bith, agus ní sábháiltear ná ní seoltar rud ar bith. Priontálann \"Priontáil an cruth seo\" an imlíne agus a chuid píosaí ar leathanach amháin le dathú nó gearradh amach.",
+    "howTo": [
+      "Tapáil píosa sa tráidire. Taispeánann sé \"Roghnaithe\" nuair a bhíonn sé roghnaithe.",
+      "Tapáil spás sa phictiúr. Má mheaitseálann an cruth, feisteoidh an píosa ansin.",
+      "Mura mheaitseálann, bain triail as spás eile. Ní chailltear rud ar bith trí thriail a bhaint as.",
+      "Tapáil píosa sa phictiúr chun é a thabhairt ar ais go dtí an tráidire, nó úsáid \"Tosaigh arís\" chun iad go léir a thabhairt ar ais.",
+      "Nuair a bhíonn píosa i ngach spás, tá an pictiúr críochnaithe. Tapáil \"Cruth eile\" le haghaidh cinn nua, nó tapáil Scíth chun stopadh."
+    ],
+    "tips": [
+      "Cuir na línte leideanna ar siúl chun gach spás a fheiceáil. Cuir as iad le haghaidh tomhais níos mó, le ní ach an imlíne mar threoir.",
+      "Tosaigh leis na cruthanna mór, mar na triantáin mhóra agus na dronuilleoga. Is minic a thagann na píosaí beaga ar deireadh.",
+      "Abair ainmneacha na gcruthanna os ard de réir a chéile: \"triantán, cearnóg, dronuilleog fhada\". Is féidir leis an gcaint gníomhaíocht a dhéanamh de ghníomhaíocht chomhroinnte.",
+      "Ar pháipéar, dathaigh na píosaí le dhá dhath nó trí dhath, nó gearr amach iad le cabhair ó dhuine fásta."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir, scór nó áireamh bogadh ann?",
+        "a": "Níl. Ní thomhaistear, ní áirítear ná ní scóráiltear rud ar bith. Ní chuirtear píosa nach dtagann isteach san áit, agus is féidir leat stopadh aon uair a theastaíonn uait."
+      },
+      {
+        "q": "An sábhálfar nó an seolfar an rud a dhéanaimid?",
+        "a": "Ní sábhálfar. Ní fhanann an pictiúr ach ar an leathanach seo. Ní shábhálfar, ní uaslódálfar ná ní áireofar é, agus imeoidh sé nuair a dhúnann tú an leathanach."
+      },
+      {
+        "q": "An bhfuil na spásanna mór go leor do chrith nó do scáileán beag?",
+        "a": "Tarraingítear an imlíne chomh mór agus is féidir leis an scáileán, agus is cnaipe é gach spás ar féidir leat teacht air le méar nó leis an eochair Tab. Is iad na píosaí sa tráidire cnaipí móra an leathanaigh."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Tá. Priontálann \"Priontáil an cruth seo\" pictiúr amháin ar leathanach amháin: an imlíne lena línte leideanna, agus na píosaí tarraingthe ar an méid céanna in aice léi. Dathaigh na píosaí, nó gearr amach iad le go n-oirfidh siad. Is féidir le duine fásta an gearradh a dhéanamh."
+      },
+      {
+        "q": "An saor é, agus an gá clárú?",
+        "a": "Is saor é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tábhlaí nó ar ríomhaire."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Análaithe calma",
-    "seoTitle": "Sos Socair análaithe do Sheanóirí agus Chúramóirí",
+    "seoTitle": "Sos Análaithe Ciúin le Roinnt",
     "h1": "Sos Análaithe Socair",
     "description": "Sos análaithe mall, ciúin le roinnt: fásann agus crapadh ciorcal milis ar feadh sé anáil. Tosaíonn tú é, agus is féidir leat stop a chur am ar bith.",
     "short": "Ciorcal mall chun análú in éineacht leis. Tosaigh agus stop nuair is mian leat.",
@@ -423,6 +1333,131 @@
       {
         "q": "An bhfuil sé saor in aisce, agus an gá dom clárú?",
         "a": "Sea, tá sé saor in aisce, agus níl aon chuntas, clárú nó íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar ghuthán, táibléad nó ríomhaire."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Slabhra scéalta",
+    "seoTitle": "Slabhra Scéalta: Cluiche Scéal Pictiúr Comhroinnte",
+    "h1": "Slabhra Scéalta: Scéal a Insint Pictiúr amháin ag an am",
+    "description": "Fásann sraith pictiúr amháin ag an am, agus deir gach duine abairt faoi os ard. Gan rud ar bith le clóscríobh, gan freagra ceart. Saor, ciúin, gan amadóir agus gan scór.",
+    "short": "Cuir pictiúr leis, agus abair abairt ag gach duine ina dhiaidh sin, de réir a chéile.",
+    "players": "2 dhuine nó níos mó",
+    "intro": "Tosaíonn an cluiche le pictiúr amháin, agus fásann an slabhra pictiúr amháin ag an am. Deir gach duine abairt amháin faoin slabhra go dtí seo, os ard, de réir a chéile. Is féidir le habairt a bheith faoi rud a fheiceann tú, faoi áit a shamhlaíonn sé, nó faoi rud greannmhar. Ní chlóscríobhtar, ní thaifeadtar ná ní choimeádtar rud ar bith, níl freagra ceart ann, agus is féidir le duine ar bith pas a thabhairt. Stopann an slabhra ag ocht bpictiúr, agus ansin is féidir slabhra nua a thosú.",
+    "howTo": [
+      "Féach ar an gcéad phictiúr le chéile.",
+      "Bíodh an t-ionad ag gach duine de réir a chéile: deir gach duine abairt amháin faoin slabhra go dtí seo. Is féidir le duine ar bith pas a thabhairt.",
+      "Brúigh \"Cuir pictiúr leis\" chun an chéad phictiúr eile a chur ag deireadh an tslabhra.",
+      "Brúigh \"Bain an ceann deireanach de\" más mian leat pictiúr amháin a fhilleadh.",
+      "Nuair a bhíonn ocht bpictiúr sa slabhra, brúigh \"Tosaigh slabhra nua\" le haghaidh slabhra úr, nó stop go simplí."
+    ],
+    "tips": [
+      "Is leor abairt ghearr: \"Chuir duine éigin an citeal ar an tine.\" Leanann an chéad duine eile ar aghaidh, nó tugann pas.",
+      "Lig do na pictiúir an bealach a leanúint. Níl scéal ann ar cheart duit teacht air.",
+      "Stop aon uair a theastaíonn uait. Is bealach maith go leor é stopadh i lár an bhealaigh chun críoch a chur leis."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, áireamhán gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh ar nóiméad ar bith, agus is bealach maith go leor é stopadh i lár an bhealaigh chun críoch a chur leis."
+      },
+      {
+        "q": "An gclóscríobhtar nó an dtaifeadtar rud ar bith?",
+        "a": "Níl. Abairtí labhartha iad, agus ní chlóscríobhtar, ní thaifeadtar ná ní sheoltar áit ar bith iad. Ní thaispeánann an cluiche ach na pictiúir."
+      },
+      {
+        "q": "Cad a tharlaíonn mura mian le duine rud ar bith a rá?",
+        "a": "Is féidir le duine ar bith pas a thabhairt, agus téann an chéad duine eile ar aghaidh. Ní gá do dhuine ainm a thabhairt ar phictiúr ná a chuimhneamh."
+      },
+      {
+        "q": "An saor é, agus an gá clárú?",
+        "a": "Is saor é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fhón, ar tábhlaí nó ar ríomhaire."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Radharc ciúin",
+    "seoTitle": "Radharc Ciúin: Pictiúr Amháin ag an am",
+    "h1": "Radharc Ciúin: Pictiúr Socair Amháin ag an am",
+    "description": "Pictiúr mór, socair amháin ag an am, agus líne bheag chineálta faoi gach ceann. Brúigh Ar aghaidh nó Ar ais nuair a bheidh tú réidh. Ní bhogann rud ar bith ná ní sheinneann sé leis féin, agus níl amadóir ná scór ann. Saor in aisce le imirt, gan cuntas.",
+    "short": "Féach ar phictiúr socair amháin ag an am, ag do luas féin.",
+    "players": "Leat féin, nó grúpa sa seomra céanna",
+    "intro": "Líonann pictiúr mór amháin an scáileán, agus líne ghearr faoi. Brúigh \"Pictiúr eile\" nó \"Pictiúr roimhe\" nuair a bheidh tú réidh le pictiúr eile. Ní bhogann, ní dhifríonn ná ní athraíonn rud ar bith leis féin, agus ní thomhaistear aon rud. Brúigh \"Pictiúr níos mó\" chun an pictiúr amháin a thaispeáint, ionas gur féidir leis an seomra iomlán é a fheiceáil ar theilifís.",
+    "howTo": [
+      "Féach ar an bpictiúr le chéile.",
+      "Léigh an líne faoi os ard, más mian leat.",
+      "Brúigh \"Pictiúr eile\" nó \"Pictiúr roimhe\" nuair a bheidh tú réidh.",
+      "Brúigh \"Pictiúr níos mó\" chun an pictiúr amháin a thaispeáint, agus \"Taispeáin gach rud\" chun an chuid eile a thabhairt ar ais.",
+      "Stop aon uair a theastaíonn uait le \"Críochnaithe anois\"."
+    ],
+    "tips": [
+      "Lig don duine roghnú cathain a bhogann sé ar aghaidh: fan go mbreathnaíonn sé, agus ansin brúigh Ar aghaidh.",
+      "Do ghrúpa, úsáid \"Pictiúr níos mó\" ar theilifíseán nó ar scáileán mór, agus suigh san áit ar féidir le gach duine é a fheiceáil.",
+      "Níl bealach ceart ann chun breathnú ar phictiúr. Is gníomhaíocht iomlán é díreach labhairt faoi."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil amadóir nó scór ann?",
+        "a": "Níl. Níl clog, scór, áireamhán gluaiseachtaí ná cailliúint ann. Is féidir leat stopadh ar nóiméad ar bith, agus is bealach maith go leor é stopadh i lár an bhealaigh chun críoch a chur leis."
+      },
+      {
+        "q": "An seinneann sé fuaim nó an bogann sé?",
+        "a": "Ní sheinneann. Níl fuaim ar bith ann, agus ní bhogann, ní dhifríonn ná ní athraíonn rud ar bith leis féin. Athraíonn pictiúr ach nuair a bhrúnn tú cnaipe."
+      },
+      {
+        "q": "Là ann dó ar pháipéar?",
+        "a": "Níl. Is pictiúr é seo le breathnú air le chéile ar scáileán. Déanann grianghraf nó cárta poist is fearr leat ar an mbord an rud céanna."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fón, ar tablet nó ar ríomhaire."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Níochán datha",
+    "seoTitle": "Níochán Datha: Dath Bog ar Feadh Leathanaigh",
+    "h1": "Níochán Datha: Peinteáil Dath Bog ar Feadh Leathanaigh",
+    "description": "Peinteálann scuab bog níocháin leathana, trédhearcacha datha ar fud leathanaigh amháin, i gceithre dhath agus i ndá mhéid scuaibe. Níl aon deireadh, aon scór ná aon amadóir. Saor in aisce le imirt, gan cuntas.",
+    "short": "Peinteáil níocháin bhog datha ar fud leathanaigh, ag do luas féin.",
+    "players": "Leat féin, nó 2 dhuine taobh le taobh",
+    "intro": "Leathanach amháin agus scuab bhog amháin. Roghnaigh dath agus méid scuaibe, ansin tarraing ar fud an leathanaigh chun níochán datha a chur síos. Níl deireadh ag an leathanach: níl aon rud le críochnú, aon phictiúr le cur i gceart ná aon scór. Cuir síos a oiread níochán agus is maith leat, nó cuir an scuab síos agus breathnaigh go simplí. Glanann leathanach nua gach rud, agus tugann Cuir ar ais iad ar ais.",
+    "howTo": [
+      "Roghnaigh dath. Tá a ainm scríofa ag gach dath.",
+      "Roghnaigh Leathan nó An-leathan. Clúdaíonn An-leathan níos mó den leathanach le gach stróc.",
+      "Tarraing ar fud an leathanaigh le méar, luch nó peann chun níochán a chur síos.",
+      "Nó úsáid na heochracha saigheada chun fáinne na scuaibe a bhogadh, agus an eochair Spáis chun an scuab a chur síos nó suas.",
+      "Tapáil \"Leathanach nua\" chun an leathanach a ghlanadh, ansin \"Cuir ar ais\" más mian leat na níocháin ar ais."
+    ],
+    "tips": [
+      "Lig don duine eile an dath don chéad níochán eile a roghnú, agus labhair faoi na dathanna agus iad á gcur ar an leathanach.",
+      "Is furasta An-leathan a stiúradh le lámh chrith, mar ní gá don scuab a bheith beacht.",
+      "Níl bealach ceart ar bith ann chun péinteáil. Stop nuair is mian leat, nó tapáil \"Críochnaithe anois\"."
+    ],
+    "faq": [
+      {
+        "q": "An bhfuil críoch, scór nó amadóir ann?",
+        "a": "Níl. Níl deireadh ag an leathanach. Ní chríochnaítear, ní chomhaireamh, ní thomhaistear ná ní scórálann aon rud, agus ní iarrann aon teachtaireacht ort tuilleadh a dhéanamh."
+      },
+      {
+        "q": "An sábháltar nó an seoltar an leathanach?",
+        "a": "Ní sábhálann. Ní shábháiltear, ní phriontáiltear agus ní sheoltar rud ar bith áit ar bith. Fanann na níocháin ar an leathanach seo go dtí go bhfágann tú é."
+      },
+      {
+        "q": "An féidir é a úsáid gan luch nó scáileán tadhalach?",
+        "a": "Is féidir. Nuair a bhíonn an leathanach roghnaithe, bogann na heochracha saigheada fáinne na scuaibe, agus cuireann an eochair Spáis an scuab síos nó suas. Deir an scáileán \"Scuab síos\" nó \"Scuab suas\" gach uair."
+      },
+      {
+        "q": "An bhfuil leagan páipéir ann?",
+        "a": "Níl. Is é an smaoineamh céanna é péinteáil uisce ar pháipéar, scuab fliuch agus dath amháin ag an am, mar sin is gníomhaíocht eile é le triail a bhaint as ag an mbord."
+      },
+      {
+        "q": "Cad iad na dathanna?",
+        "a": "Buí, oráiste, glas agus corcra, na ceithre dhath céanna a úsáidtear inár gcluichí pictiúr eile. Tá ainm scríofa ag gach dath, agus taispeántar an t-ainm in aice leis an rogha."
+      },
+      {
+        "q": "An saor in aisce é, agus an gá clárú?",
+        "a": "Is saor in aisce é, agus ní gá cuntas, clárú ná íoslódáil. Oibríonn sé sa bhrabhsálaí gréasáin ar fón, ar tablet nó ar ríomhaire."
       }
     ]
   }

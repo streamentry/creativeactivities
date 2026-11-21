@@ -1,34 +1,34 @@
 ---
-title: "Kaip žaisti su žmogumi, sergančiu demencija"
-description: "Praktinis vadovas, kaip žaisti su žmogumi, gyvenančiu su demencija: pasiruošimas, tempas, klaidų netaisymas, lengvesni žaidimai ir kada sustoti."
+title: "Kaip žaisti žaidimus su žmogumi, gyvenančiu su demencija"
+description: "Praktinis vadovas, kaip žaisti žaidimus su žmogumi, gyvenančiu su demencija: kaip pasiruošti, kaip derinti tempą, kaip nekoreguoti nekenksmingų klaidų, kaip padaryti žaidimą lengvesnį ir kada sustoti."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Žaidimą laikykite bendru laiku, o ne testu. Pasirinkite ramų dienos laiką, sėdėkite šalia
-  tyliame kambaryje ir pasiūlykite vieną paprastą žaidimą. Leiskite žmogui nustatyti tempą,
-  niekada netaisykite nekenksmingų klaidų, kai tik pajuntate įtampą, padarykite žaidimą
-  lengvesnį ir paveikslėlius paverskite pokalbiu. Sustokite, kol dar gera. Anksti baigti ar
-  tiesiog kartu stebėti – geras rezultatas.
+  Su žaidimu elkitės kaip su bendru laiku, o ne kaip su testu. Pasirinkite ramų dienos metą,
+  sėdėkite šalia vienas kito tyliame kambaryje ir pasiūlykite vieną paprastą žaidimą. Leiskite
+  žmogui nustatyti tempą, niekada netaisykite nekenksmingų klaidų, žaidimą supaprastinkite vos
+  pastebėję įtampą ir paveikslėlius paverskite pokalbiu. Baikite tada, kol dar gera. Anksti
+  nutraukta veikla arba tiesiog kartu stebint yra gera baigtis.
 keyPoints:
-  - "Tikslas – malonumas ir ryšys, o ne baigti ar atsakyti teisingai."
-  - "Pirmiausia pasiruoškite: tylus kambarys, gera šviesa, akiniai ir klausos aparatai, išjungtas televizorius, paruoštas vienas žaidimas."
-  - "Netaisykite nekenksmingų klaidų. Sakykite „Pabandykime kitaip“ arba tiesiog tęskite."
-  - "Padarykite žaidimą lengvesnį, kol nesikaupia nusivylimas: mažiau paveikslėlių, mažiau pasirinkimų, paveikslėliai lieka matomi."
-  - "Naudokite paveikslėlius kaip pradžią pasakojimams su „Papasakok apie...“, o ne „Ar prisimeni...?“"
-  - "Sustokite pirmiesiems nuovargio ar sujaudinimo požymiams. Anksti sustoti – sėkmė, ne nesėkmė."
+  - "Tikslas yra malonumas ir ryšys, o ne žaidimo užbaigimas ar teisingi atsakymai."
+  - "Pirmiausia pasiruoškite: tylus kambarys, gera šviesa, uždėti akiniai ir klausos aparatai, išjungtas televizorius, paruoštas vienas žaidimas."
+  - "Nekoreguokite nekenksmingų klaidų. Sakykite „Pabandykime kitaip“ arba tiesiog tęskite."
+  - "Padarykite žaidimą lengvesnį, kol nesusikaupė nusivylimas: mažiau paveikslėlių, mažiau pasirinkimų, paveikslėliai lieka matomi."
+  - "Paveikslėlius naudokite kaip pradžią istorijoms, klausdami „Papasakokite apie...“, o ne „Ar prisimenate...?“"
+  - "Sustokite pirmą nuovargio ar sujaudinimo ženklą. Anksti sustoti yra sėkmė, o ne nesėkmė."
 faq:
-  - q: "Kiek laiko turėtume žaisti vieną žaidimą?"
-    a: "Teisingo ilgio nėra. Daugeliui žmonių pakanka kelių minučių, o kai kuriomis dienomis užtenka vieno ratelio. Stebėkite žmogų, o ne laikrodį, ir sustokite, kol jis dar atrodo atsipalaidavęs."
-  - q: "Ar turėčiau leisti jam laimėti ar delsti klaidų nepastebėti?"
-    a: "Bendrame, mažos įtampos žaidime nėra ko laimėti ar pralaimėti. Jei klaida žmogaus neerzina, praleiskite ją. Jei atrodo, kad erzina, tyliai padėkite arba padarykite žaidimą lengvesnį, neatkreipdami dėmesio."
-  - q: "O jei jis norėtų tik žiūrėti, kaip aš žaidžiu?"
-    a: "Tai gerai. Nacionalinis senėjimo institutas pataria leisti tiesiog žiūrėti, jei tai atrodo malonesnė veikla. Kalbėkite apie tai, ką matote, ir kvieskite rodyti ar rinktis, kada tik norės."
-  - q: "Ar šie žaidimai – būdas patikrinti atmintį?"
-    a: "Ne. Mūsų žaidimai – paprasta bendra veikla malonumui ir pokalbiams. Jie nėra atminties testas, nieko nematuoja ir nėra demencijos gydymas."
-  - q: "Kurį žaidimą geriausia pradėti?"
-    a: "Pradėkite nuo paprasčiausio, tinkančio žmogui. Paveikslėlių poros su keturiais langeliais ir matomais paveikslėliais arba Rasti tą patį su dviem pasirinkimais yra švelnios pradžios. Pokalbių kortos tinka, jei žmogus labiau mėgsta kalbėti nei spustelėti."
+  - q: "Kiek ilgai turėtume žaisti vieną žaidimą?"
+    a: "Nėra teisingo ilgio. Daugeliui žmonių pakanka kelių minučių, o kai kuriomis dienomis užtenka vieno ėjimo. Stebėkite žmogų, o ne laikrodį, ir sustokite tada, kai jis dar atrodo atsipalaidavęs."
+  - q: "Ar turėčiau leisti jam laimėti arba apsimesti, kad nepastebiu klaidų?"
+    a: "Bendrame, nedidelės įtampos žaidime nėra ko laimėti ar pralaimėti. Jei klaida žmogaus nejaudina, leiskite jai praeiti. Jei atrodo, kad jaudina, tyliai padėkite arba padarykite žaidimą lengvesnį, neatkreipdami dėmesio į klaidą."
+  - q: "Ką daryti, jei žmogus norėtų geriau stebėti, kaip žaidžiu aš?"
+    a: "Tai gerai. Nacionalinis senėjimo institutas pataria leisti žmogui tiesiog stebėti, jei atrodo, kad tai jam malonu. Kalbėkitės apie tai, ką matote, ir kvieskite rodyti ar rinktis, kai tik nori."
+  - q: "Ar šie žaidimai yra atminties testas?"
+    a: "Ne. Mūsų žaidimai yra paprasta bendra veikla malonumui ir pokalbiams. Tai nėra atminties testas, jie nieko nematuoja ir nėra demencijos gydymas."
+  - q: "Koks žaidimas geriausias pradžiai?"
+    a: "Pradėkite nuo paprasčiausio, kuris tinka žmogui. Picture Pairs su keturiomis plytelėmis ir matomais paveikslėliais arba Find the Same su dviem pasirinkimais yra švelnios pradžios. Conversation Cards tinka, jei žmogus labiau mėgsta kalbėti, o ne spausti."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -47,174 +47,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Geras žaidimas su žmogumi, gyvenančiu su demencija, neatrodo kaip varžybos. Jis atrodo kaip du
-žmonės, sėdintys arti, rodantys į paveikslėlius, besijuokiantys iš posakio ir kalbantys apie tai,
-kas iškyla. Žaidimas – tik priežastis praleisti laiką kartu.
+Geras žaidimas su žmogumi, gyvenančiu su demencija, neatrodo kaip varžybos. Jis atrodo kaip du žmonės, sėdintys arti vienas kito, rodantys į paveikslėlius, juokiantys iš posakio ir kalbantys apie tai, kas iškyla. Žaidimas yra tik proga praleisti laiką kartu.
 
-Šiame vadove aptariama, kaip pasiruošti, kaip reguliuoti žaidimo tempą, ką sakyti, kai kas nors
-„nepavyksta“, kaip padaryti bet kurį žaidimą lengvesnį ar šiek tiek sudėtingesnį, kaip paversti jį
-pokalbiu ir kaip žinoti, kada sustoti. Tai tinka mūsų [žaidimams](/games/) ir kortoms, dėlionėms bei
-stalo žaidimams, kurie jau turite namuose.
+Šiame vadove aprašoma, kaip pasiruošti, kaip derinti žaidimo tempą, ką sakyti, kai kas nors „nueina ne taip“, kaip padaryti bet kurį žaidimą lengvesnį ar šiek tiek sudėtingesnį, kaip jį paversti pokalbiu ir kaip žinoti, kada sustoti. Jis tinka mūsų [žaidimams](/games/) ir kortoms, dėlionėms bei stalo žaidimams, kuriuos jau turite.
 
-## Koks geriausias būdas žaisti su žmogumi, sergančiu demencija?
+## Koks geriausias būdas žaisti žaidimą su žmogumi, gyvenančiu su demencija?
 
-Orientuokitės į malonumą, o ne į pasiekimus. Tai pagrindinis patarimas iš
-[Alzheimerio asociacijos gairių apie veiklą](https://www.alz.org/help-support/caregiving/daily-care/activities):
-remkitės įgūdžiais, kurie žmogui dar išlikę, padėkite jam pradėti, sunkiausias dalis atlikite patys ir
-nekritikuokite bei netaisykite nekenksmingos veiklos.
+Dėmesys skirkite malonumui, o ne pasiekimams. Tai pagrindinis patarimas iš [Alzheimer's Association veiklų gairių](https://www.alz.org/help-support/caregiving/daily-care/activities): remkitės įgūdžiais, kuriuos žmogus dar turi, padėkite pradėti, sunkesnes dalis atlikite patys ir nekritikuokite bei netaisykite nekenksmingos veiklos.
 
 Praktiškai tai reiškia:
 
-- **Sėdėkite šalia, o ne priešais.** Sėdint šalia abu matote ekraną ar stalą, o pagalba atrodo kaip
-  komandinis darbas, o ne priežiūra.
+- **Sėdėkite šalia, o ne priešais.** Sėdint šalia abu matote ekraną ar stalą, o pagalba atrodo kaip komandinis darbas, o ne priežiūra.
 - **Siūlykite po vieną žaidimą.** Pasirinkimų meniu gali atrodyti kaip testas dar prieš pradedant.
-- **Sekite jo pasirinkimą.** Jei jis nori liesti paveikslėlius savo tvarka, dešimt minučių kalbėti apie
-  vieną paveikslėlį ar sustoti po dviejų ėjimų – tai šiandienos žaidimas.
-- **Skaičiuokite gerus momentus, o ne baigtus ratelius.** Šypsena, istorija ar ramus pusvalandis – tai
-  rezultatas, kurio siekiate.
+- **Sekite žmogaus iniciatyvą.** Jei jis nori liesti paveikslėlius savo tvarka, dešimt minučių kalbėti apie vieną paveikslėlį ar sustoti po dviejų ėjimų, tai ir yra šios dienos žaidimas.
+- **Skaičiuokite gerus momentus, o ne baigtus ratus.** Šypsena, istorija ar ramus pusvalandis yra rezultatas, kurio siekiate.
 
 ## Kaip pasiruošti prieš pradedant?
 
 Kelios minutės pasiruošimo užkerta kelią daugumai nusivylimų, kuriuos žmonės priskiria pačiam žaidimui.
 
-1. **Pasirinkite geriausią jo dienos laiką.** [Nacionalinio senėjimo instituto (NIA) gairės apie veiklos
-   pritaikymą](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease)
-   pataria planuoti išvykas ir veiklą tuo metu, kai žmogus geriausios formos. Daugeliui tai – vidurio
-   rytas. Vėlyva popietė dažnai sunkesnė; žr. [ramią veiklą vėlyvą popietę](/caregiving/late-day-restlessness/).
-2. **Padarykite kambarį tylų.** Išjunkite televizorių ir radiją, jei galite – uždarykite duris.
-   [Globėjų aljansas (Family Caregiver Alliance)](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/)
-   rekomenduoja prieš kalbant sumažinti triukšmą ir blaškymąsi.
-3. **Pirmiausia patikrinkite patogumą.** Gėrimas šalia, apsilankymas tualete prieš tai, patogi kėdė, akiniai
-   ir klausos aparatai užsidėti.
-4. **Gerai apšviesk erdvę.** Ryški, vienoda šviesa be atspindžių ekrane padeda geriau matyti paveikslėlius.
-5. **Paruoškite žaidimą prieš sėdant.** Atidarykite jį, pasirinkite nustatymus ir patys nustatykite garsą.
-   Tada pasukite ekraną į jo pusę. Patarimų dėl planšetės rasite [planšetės ar telefono sąrankos vadove](/caregiving/tablets-and-screens/).
-6. **Pastatykite įrenginį.** Stovas ar dėklas, laikantis planšetę stačiai, reiškia, kad jos laikyti nereikia,
-   ir ją lengviau parodyti.
+1. **Pasirinkite geriausią dienos metą.** [Nacionalinio senėjimo instituto (NIA) gairės, kaip pritaikyti veiklas](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) pataria planuoti išvykas ir veiklas tuo dienos metu, kai žmogus jaučiasi geriausiai. Daugeliui tai yra vidurio rytas. Popietė dažnai būna sunkesnė; žr. [ramias popietės veiklas](/creative-calm/calm-afternoon-activities/).
+2. **Padarykite kambarį tylų.** Jei galite, išjunkite televizorių ir radiją bei uždarykite duris. [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) rekomenduoja prieš bandant kalbėtis sumažinti triukšmą ir blaškymąsi.
+3. **Patikrinkite, ar žmogui patogu.** Šalia turėkite gėrimą, prieš tai apsilankykite tualete, pasirūpinkite patogia kėdžia ir uždėtais akiniais bei klausos aparatais.
+4. **Gerai apšviekite erdvę.** Ryški, vienoda šviesa be atspindžių ekrane padeda lengviau matyti paveikslėlius.
+5. **Paruoškite žaidimą prieš atsisėdant.** Atidarykite jį, pasirinkite nustatymus ir patys nustatykite garsumą. Tada pasukite ekraną į žmogų. Jei tai padeda, įjunkite didesnį tekstą įrenginyje.
+6. **Pastatykite įrenginį ant stovo.** Stovas ar dėklas, laikantis planšetę tiesiai, reiškia, kad jos niekam nereikia laikyti, o į ją lengviau rodyti.
 
 ## Kaip pakviesti be spaudimo?
 
-Pakvietimas turi būti neformalus ir lengvai atmetamas. Frazės, kurios paprastai gerai veikia:
+Kvietimas turi būti paprastas ir lengvai atmetamas. Štai keletas frazių, kurios dažniausiai sulaukia gero atsako:
 
-- „Radau sodo paveikslėlių. Ar norėtum kartu pažiūrėti?“
-- „Ar galėtum man padėti su šia dėlione? Aš įstrigau.“
-- „Ar šiandien norėtum gėlių, ar paukščių?“ (pasirinkti iš dviejų lengviau nei atviras klausimas)
-- „Kuriu kortelę tavo seseriai. Kokios spalvos ši turėtų būti?“
+- „Radau keletą sodo paveikslėlių. Norite kartu pažiūrėti?“
+- „Ar galėtumėte man padėti su šia dėlione? Aš įstrigau.“
+- „Ar šiandien norėtumėte gėlių ar paukščių?“ (dviejų pasirinkimų kvietimas lengvesnis nei atviras klausimas)
+- „Gaminu atviruką jūsų sesei. Kokios spalvos turėtų būti šis?“
 
-Alzheimerio asociacija pataria paaiškinti
-veiklos tikslą, pavyzdžiui, kad kuriate kortelę draugui, nes priežastis suteikia prasmę. Prašymas
-padėti taip pat veikia, nes žmogus jaučiasi naudingas.
+Alzheimer's Association pataria paaiškinti veiklos tikslą, pavyzdžiui, atviruko gaminimą draugui, nes priežastis suteikia jai prasmės. Prašymas pagalbos taip pat veikia, nes leidžia žmogui jaustis naudingam.
 
-Jei jis sako ne, priimkite tai. Pabandykite vėliau arba pasiūlykite ką nors kita. Mūsų vadove
-[ką daryti, kai jie sako ne](/caregiving/when-they-say-no/) apie tai kalbama plačiau.
+Jei žmogus sako ne, priimkite tai. Bandykite vėliau arba pasiūlykite ką nors kita. Mūsų vadove [ką daryti, kai jie sako ne](/caregiving/when-they-say-no/) rasite daugiau.
 
-## Kiek turėtų trukti žaidimas ir kokiu tempu judėti?
+## Kiek turėtų trukti žaidimas ir kokiu tempu eiti?
 
-Leiskite žmogui nustatyti tempą ir planuokite trumpas sesijas. Bendram žaidimui nėra įrodymais pagrįsto
-idealaus ilgio. Dvi–penkios ramios minutės gali būti visa veikla.
+Leiskite žmogui nustatyti tempą ir planuokite trumpas sesijas. Bendram žaidimui nėra įrodymais pagrįsto idealaus ilgio. Dvi ar penkios ramios minutės gali būti visa veikla.
 
-- **Laukite ilgiau, nei atrodo natūralu.** NIA pataria skirti daugiau laiko atsakymui ir stengtis nepertraukti.
-  Prieš padėdami, savyje suskaičiuokite iki dešimt.
-- **Po vieną žingsnį.** Duokite vieną trumpą nurodymą („Paliesk paveikslėlį“) ir palaukite. Rodykite, o ne aiškinkite:
-  parodykite, kur paliesti.
-- **Laisvai sustokite.** Jei jis sustoja pakalbėti apie paveikslėlį, žaidimas gali palaukti. Skubėti nereikia.
-- **Leiskite stebėti.** NIA pažymi, kad kai kurie žmonės mieliau stebi, ir tai yra pilnavertis pasirinkimas.
+- **Palaukite ilgiau, nei atrodo natūralu.** NIA pataria skirti daugiau laiko atsakymui ir stengtis nepertraukti. Prieš padėdami, galvoje suskaičiuokite iki dešimt.
+- **Po vieną žingsnį.** Duokite vieną trumpą nurodymą („Palieskite paveikslėlį“), tada palaukite. Rodykite, o ne aiškinkite: parodykite, kur spausti.
+- **Stabdykite laisvai.** Jei jis sustoja pakalbėti apie paveikslėlį, žaidimas gali palaukti. Skubėti nereikia.
+- **Leiskite stebėti.** NIA pažymi, kad kai kurie žmonės nori stebėti, ir tai yra pagrįstas pasirinkimas.
 
-## Ar taisyti neteisingus atsakymus?
+## Ar turėčiau taisyti neteisingus atsakymus?
 
-Ne. Nuolatinis švelnus taisymas parodo, kad žmogus nesiseka, net jei norite gero. Alzheimerio asociacija
-pataria nekritikuoti ir netaisyti nekenksmingos veiklos. Žaidime beveik visos klaidos yra nekenksmingos.
+Ne. Vis iš naujo švelniai taisydami parodote žmogui, kad jis nesėkmingas, net jei norite gero. Alzheimer's Association pataria nekritikuoti ir netaisyti nekenksmingos veiklos. Žaidime beveik kiekviena klaida yra nekenksminga.
 
 | Vietoj to | Pabandykite |
 | --- | --- |
-| „Ne, tai neteisinga.“ | „Pabandykime kitaip.“ (NIA pateikiamas pavyzdys) |
-| „Tai nėra pora. Pažiūrėk dar kartą.“ | Nieko nesakykite ir pereikite prie kito ėjimo arba sakykite „Oi, abu raudoni.“ |
-| „Ar prisimeni, kas čia?“ | „Papasakok apie šį paveikslėlį.“ |
-| „Tą jau darėme.“ | „Tai gražus. Padarykime dar kartą.“ |
-| „Na, tu gi žinai.“ | „Ar nori, kad parodyčiau pabaigą?“ |
+| „Ne, tai neteisinga.“ | „Pabandykime kitaip.“ (NIA pateiktas pavyzdys) |
+| „Tai nesutampa. Pažiūrėkite dar kartą.“ | Nieko nesakykite ir eikite toliau arba sakykite „O, abu raudoni.“ |
+| „Ar prisimenate, kas čia?“ | „Papasakokite apie šį paveikslėlį.“ |
+| „Šį jau padarėte.“ | „Tai gera. Padarykime dar kartą.“ |
+| „Na, juk žinote.“ | „Norite, parodysiu pabaigą?“ |
 
-Jei klaida akivaizdžiai nuvilia, padėkite tyliai. Parodykite teisingą paveikslėlį, pats atlikite ėjimą arba
-kitame rate padarykite žaidimą lengvesnį. Jei posakis baigiasi juokinga neteisinga pabaiga, nusijuokite kartu.
-Jų pabaiga gal net geresnė.
+Jei klaida akivaizdžiai nuvilia, padėkite tyliai. Parodykite teisingą paveikslėlį, pats atlikite ėjimą arba kitame ratelyje padarykite žaidimą lengvesnį. Jei posakis baigiasi juokinga neteisinga pabaiga, juokitės kartu. Galbūt jų pabaiga net geresnė.
 
 ## Kaip padaryti žaidimą lengvesnį ar sudėtingesnį?
 
-Pritaikykite žaidimą žmogui tą dieną, o ne etiketei apie etapą. Tas pats žmogus vakare gali reikalauti
-paprastesnės versijos nei ryte. NIA pirmasis patarimas – derinti veiklą prie to, ką žmogus gali, ir užtikrinti,
-kad jis jaustųsi sėkmingas.
+Prisitaikykite prie žmogaus tos dienos, o ne prie etapo pavadinimo. Tam pačiam žmogui vakare gali prireikti paprastesnės versijos nei ryte. NIA pirmasis patarimas: suderinkite veiklą su tuo, ką žmogus gali, ir užtikrinkite, kad jis jaustųsi sėkmingas.
 
 | Žaidimas | Padaryti lengvesnį | Padaryti šiek tiek sudėtingesnį |
 | --- | --- | --- |
-| [Paveikslėlių poros](/games/picture-pairs/) | Pradėkite nuo 4 langelių ir palikite paveikslėlius matomus | Daugiau langelių arba paslėpkite paveikslėlius, jei tai patogu |
-| [Rasti tą patį](/games/find-the-same/) | 2 pasirinkimai | Iki 4 pasirinkimų |
-| [Rūšiuoti kartu](/games/sort-together/) | Jūs laikote paveikslėlį, jis rodo krepšį | Jis pats liečia ir paveikslėlį, ir krepšį |
-| [Paveikslėlių dėlionė](/games/picture-puzzle/) | 4 dalys, pirmiausia kalbėkite apie visą paveikslėlį | 9 dalys |
-| [Baik posakį](/games/finish-the-saying/) | Parodykite pabaigą, tada sakykite kartu | Leiskite jam pasakyti pabaigą prieš spustelėdamas |
-| [Žodžių paieška](/games/word-search/) | Atspausdinkite, ieškokite vieno žodžio kartu, parodykite jo pirmą raidę | Leiskite jam pasirinkti kitą ieškomą žodį |
-| [Spalvinimas](/games/coloring/) | Jūs parenkate dvi spalvas, jis renkasi tarp jų | Jis renkasi visas spalvas |
-| [Pokalbių kortos](/games/conversation-cards/) | Tiesiog kartu pažiūrėkite į paveikslėlį | Naudokite kortelėje pateiktus atvirus klausimus |
-| [Nuotraukų poros](/games/photo-pairs/) | Kelios mylimos šeimos nuotraukos | Pridėkite daugiau nuotraukų |
-| [Paveikslėlių bingas](/games/picture-bingo/) | Su kiekvienu žaidėju sėdi padėjėjas | Žaidėjai žymi savo kortas |
-| [Ramus kvėpavimas](/games/calm-breathing/) | Tiesiog sėdėkite ir stebėkite kartu | Lėtai kvėpuokite kartu |
+| [Picture Pairs](/games/picture-pairs/) | Pradėkite nuo 4 plytelių ir palikite paveikslėlius matomus | Daugiau plytelių arba paslėpkite paveikslėlius, jei tai patogu |
+| [Find the Same](/games/find-the-same/) | 2 pasirinkimai | Iki 4 pasirinkimų |
+| [Sort Together](/games/sort-together/) | Jūs laikote paveikslėlį, o žmogus rodo krepšelį | Žmogus pats paliečia ir paveikslėlį, ir krepšelį |
+| [Picture Puzzle](/games/picture-puzzle/) | 4 dalys, pirmiausia kalbėkite apie visą paveikslėlį | 9 dalys |
+| [Finish the Saying](/games/finish-the-saying/) | Parodykite pabaigą, tada kartu ją ištarkite | Leiskite jam ištarti pabaigą prieš spaudžiant |
+| [Word Search](/games/word-search/) | Atspausdinkite, kartu ieškokite vieno žodžio, parodykite jo pirmą raidę | Leiskite jam pasirinkti kitą ieškomą žodį |
+| [Coloring](/games/coloring/) | Jūs pasirenkate dvi spalvas, o žmogus renkasi tarp jų | Jis pasirenka visas spalvas |
+| [Conversation Cards](/games/conversation-cards/) | Tiesiog kartu pažiūrėkite į paveikslėlį | Naudokite atvirus klausimus ant kortelės |
+| [Photo Pairs](/games/photo-pairs/) | Keletas mėgstamų šeimos nuotraukų | Pridėkite daugiau nuotraukų |
+| [Picture Bingo](/games/picture-bingo/) | Prie kiekvieno žaidėjo sėdi padėjėjas | Žaidėjai žymi savo kortas patys |
+| [Calm Breathing](/games/calm-breathing/) | Tiesiog sėdėkite ir kartu stebėkite | Kvėpuokite kartu lėtai |
 
-Ženklai, kad žaidimas per sunkus: ilgos pauzės, atrodančios nerimastingos, o ne apmąstančios, kartojamas
-„aš negaliu“, įrenginio atstūmimas ar klaidos, kurios juos supykdo. Ženklai, kad gali būti per lengva: nuobodulys
-arba jų teiginys, kad tai vaikiška. Tokiu atveju gerbkite tai ir pereikite prie to, kas atrodo suaugusiam tinkamiau,
-pavyzdžiui, žodžių paieškos, tikros nuotraukos dėlionės ar pokalbio apie paveikslėlį iš jų senos darbo srities.
+Ženklai, kad žaidimas per sunkus: ilgos pauzės, atrodančios nerimastingos, o ne apgalvotos, pasikartojantys „Negaliu“, įrenginio stūmimas nuo savęs arba klaidos, kurios juos nuvilia. Ženklai, kad gal per lengva: nuobodulys ar tvirtinimas, kad tai vaikiška. Tokiu atveju gerbkite tai ir perjunkite į ką nors, kas atrodo suaugusiam tinkama, pavyzdžiui, žodžių paiešką, tikros nuotraukos dėlionę ar pokalbį apie jų buvusio darbo nuotrauką.
 
-## Kaip paversti žaidimą pokalbiu?
+## Kaip žaidimą paversti pokalbiu?
 
-Naudokite kiekvieną paveikslėlį kaip kvietimą kalbėti ir visa, ką jis pasakys, laikykite geru atsakymu. Daugeliui
-šeimų tai geriausia žaidimo dalis.
+Naudokite kiekvieną paveikslėlį kaip kvietimą kalbėtis ir laikykite bet kokį atsakymą geru. Daugeliui šeimų tai yra geriausia žaidimo dalis.
 
-- **Klauskite atvirų klausimų, kuriuose nėra neteisingų atsakymų.** „Ką pastebi?“ „Kuris tau patinka?“ „Papasakok
-  apie tokią virtuvę.“
-- **Pirmieji dalinkitės.** „Mano senelė turėjo tokį šunį.“ Jūsų istorija padeda jiems pasidalyti savo.
-- **Sekite nukrypimą.** Jei automobilio paveikslėlis veda prie kelionės istorijos, istorija ir yra veikla. Palikite
-  žaidimą pristabdytą.
-- **Netikrinkite faktų.** Prisiminimų veikloje malonus pokalbis svarbesnis už tikslias detales. Jei istorija
-  nuo praeito karto pasikeitė, mėgaukitės nauja versija.
-- **Naudokite įmontuotus raginimus.** [Baik posakį](/games/finish-the-saying/) po kiekvieno posakio pateikia
-  pokalbio raginimą, o [Pokalbių kortos](/games/conversation-cards/) sukurtos būtent šiam tikslui. [Nuotraukų poros](/games/photo-pairs/)
-  naudoja jūsų pačių šeimos nuotraukas, kurios dažnai sukelia turtingiausias istorijas.
+- **Klauskite atvirų klausimų, kuriuose nėra klaidingo atsakymo.** „Ką pastebite?“ „Kuris jums patinka?“ „Papasakokite apie virtuvę, panašią į šią.“
+- **Pirmiausia pasidalykite.** „Mano senelė turėjo tokį šunį.“ Jūsų istorija palengvina žmogui pasidalyti savąja.
+- **Sekite nukrypimą.** Jei automobilio paveikslėlis atveda prie kelionės istorijos, istorija yra veikla. Žaidimą palikite sustabdytą.
+- **Netikrinkite faktų.** Reminiscencijoje malonus pokalbis svarbiau nei tikslios detalės. Jei istorija pasikeičia nuo praeito karto, mėgaukitės nauja versija.
+- **Naudokite įmontuotus klausimus.** [Finish the Saying](/games/finish-the-saying/) po kiekvieno posakio pateikia kalbėjimo užuominą, o [Conversation Cards](/games/conversation-cards/) sukurtos būtent tam. [Photo Pairs](/games/photo-pairs/) naudoja jūsų šeimos nuotraukas, kurios dažnai sukelia turtingiausias istorijas.
 
-Daugiau idėjų rasite mūsų vadovuose apie [prisiminimų veiklas](/activities/reminiscence/) ir [bendravimo patarimus](/caregiving/communication-tips/).
+Daugiau idėjų rasite mūsų vadove apie [reminiscencijos veiklas](/activities/reminiscence/). Paramos po diagnozės ieškokite [pirmuose žingsniuose po diagnozės](/caregiving/after-dementia-diagnosis/).
 
 ## Kada sustoti?
 
-Sustokite pirmiesiems nuovargio ar sujaudinimo požymiams, o geriausia – šiek tiek anksčiau. Alzheimerio asociacija
-pataria sustoti arba pakeisti veiklą, kai dėmesys blėsta ar didėja nusivylimas.
+Sustokite pirmą nuovargio ar sujaudinimo ženklą, geriausia šiek tiek anksčiau. Alzheimer's Association pataria sustoti arba pakeisti veiklą, kai dėmesys išsisklaido ar didėja nusivylimas.
 
 Stebėkite:
 
-- žiovavimą, susmukimą ar akis, nukrypstančias nuo ekrano;
-- neramumą, atsistojimą ar prašymą išeiti;
-- atodūsius, trumpus atsakymus ar „aš tuo visai nemoku“;
-- atsitiktinį bakstelėjimą ar įrenginio atstūmimą;
-- ašaras, dirglumą ar staigų nuotaikos pokytį.
+- žiovulį, susmukimą ar akis, nukrypstančias nuo ekrano;
+- nerimavimą, atsistojimą ar prašymą išeiti;
+- atodūsius, trumpus atsakymus ar „Aš tam netinku“;
+- atsitiktinį spaudinėjimą ar įrenginio stūmimą nuo savęs;
+- ašarojimą, dirglumą ar staigų nuotaikos pasikeitimą.
 
-Kaip sustoti gerai:
+Kaip gerai baigti:
 
-- **Baikite kažkuo lengvu.** Viena paskutinė pora, kurią jis gali sudėti, ar paskutinis paveikslėlis pasigėrėti.
-- **Kalbėkite apie save.** „Pravers puodelis arbatos. Gal čia ir sustosime?“ – tai nesufleruoja, kad jis pasirodė blogai.
-- **Pereikite prie ko nors fizinio ar raminančio.** Trumpas pasivaikščiojimas, užkandis, skalbinių lankstymas ar muzika.
-- **Pasakykite ką nors šilta.** „Man patiko taip su tavimi.“ Be pagyrimų už „teisingą atsakymą“, tik džiaugsmas kartu praleistu laiku.
+- **Baikite ką nors lengvo.** Vieną paskutinį atitikmenį, kurį jie gali surasti, arba paskutinį paveikslėlį, kurį galima pasigėrėti.
+- **Kalbėkite apie save.** „Man pravertų puodelis arbatos. Gal sustabdysime čia?“ leidžia išvengti bet kokios užuominos, kad jie blogai žaidė.
+- **Pereikite prie kažko fizinio ar raminančio.** Trumpas pasivaikščiojimas, užkandis, skalbinių lankstymas ar muzika.
+- **Pasakykite ką nors šilta.** „Man patiko taip su jumis praleisti laiką.“ Jokio pagyrimo už „teisingą“ atsakymą, tik džiaugsmas kartu praleistu laiku.
 
-Anksti baigti, pakeisti planus arba atsisakyti žaidimo ir tiesiog kartu sėdėti – visi tai geri rezultatai.
+Anksti baigti, keisti planus ar atsisakyti žaidimo ir tiesiog kartu sėdėti yra geri rezultatai.
 
 ## Ar galime žaisti grupėje ar per vaizdo skambutį?
 
-Taip, su šiek tiek papildomo pasiruošimo. Grupėje laikykitės kelių žmonių, pasodinkite padėjėjus šalia tų, kam
-reikia pagalbos, ir pasirinkite žaidimą su aiškiu bendru fokusu. [Paveikslėlių bingas](/games/picture-bingo/) turi
-spausdinamas korteles ir ekrane rodomą vedėją grupėms. Daugiau rasite [veiklose globos namų grupėms](/activities/care-home-groups/).
+Taip, su šiek tiek papildomo pasiruošimo. Grupėje laikykitės kelių žmonių, prie kiekvieno, kam reikia pagalbos, pasodinkite padėjėją ir pasirinkite žaidimą su aiškiu bendru dėmesio centru. [Picture Bingo](/games/picture-bingo/) turi spausdinamas korteles ir ekrane rodomą vedėją grupėms. Daugiau rasite [veiklose globos namų grupėms](/crafts/craft-group-sessions/).
 
-Per vaizdo skambutį žmogus skambutyje gali aprašyti paveikslėlį, o kambaryje esantis žmogus rodo ir liečia.
-Skambučius laikykite trumpus ir pažįstamus. Mūsų vadove apie [telefoninius ir vaizdo skambučius](/activities/phone-and-video-calls/)
-rasite daugiau patarimų.
+Per vaizdo skambutį žmogus skambutyje gali apibūdinti paveikslėlį, o kas nors kambaryje rodo ir spaudinėja. Skambučius laikykite trumpus ir pažįstamus. Mūsų vadove apie [telefono ir vaizdo skambučius](/together/staying-connected-from-afar/) yra daugiau patarimų.
 
 ## Ką daryti, jei žaidimas tiesiog neveikia?
 
-Kai kuriomis dienomis niekas nepasiteisina, ir tai nėra atspindys nei jūsų, nei jų. Padėkite žaidimą ir pabandykite
-kitu paros metu, kitu žaidimu arba visai be žaidimo. Daug geros veiklos neturi nieko bendra su ekranais: muzika,
-rankšluosčių lankstymas, nuotraukų albumo peržiūra ar trumpas pasivaikščiojimas. Daugiau idėjų rasite mūsų
-[veiklos idėjų](/activities/ideas/) puslapyje.
+Kartais niekas nepasiteisina, ir tai nėra nei jūsų, nei jų kaltė. Padėkite žaidimą į šalį ir bandykite kitu dienos metu, kitą žaidimą arba visai be žaidimo. Daugelis gerų veiklų visai nesusijusios su ekranais: muzika, rankšluosčių lankstymas, nuotraukų albumo peržiūra ar trumpas pasivaikščiojimas. Daugiau idėjų rasite mūsų [veiklų idėjose](/activities/ideas/).

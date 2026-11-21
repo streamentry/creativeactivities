@@ -7,16 +7,22 @@
     "homeLabel": "Ibe mbụ nke Creative Activities",
     "mainNav": "Isi",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: onyonyo buru ibu, dị mma nke iko tii, ifuru anyanwụ na nkịta",
+    "defaultImageAlt": "Creative Activities: ihe ngosi buru ibu na enyi, nke ihe ndị a na-ahụ kwa ụbọchị, iji mee ihe na iji mee ọrụ",
     "languages": "Asụsụ",
     "englishOnly": "(Bekee)",
     "machineTranslated": "A sụgharịrị ibe a n'onwe ya, onye na-asụ asụsụ a elebeghịkwa ya anya.",
     "readOriginal": "Gụọ nke izizi n'asụsụ Bekee",
     "nav": {
+      "find": "Find an activity",
       "games": "Egwuregwu",
       "activities": "Ọrụ",
       "caregiving": "Nlekọta",
-      "brainHealth": "Ahụike ụbụrụ isi"
+      "brainHealth": "Ahụike ụbụrụ isi",
+      "crafts": "Ọrụ aka",
+      "kids": "Ụmụaka",
+      "together": "Ọnụ ọnụ",
+      "creativeCalm": "Udo na okike",
+      "search": "Chọọ"
     },
     "faqTitle": "Ajụjụ na azịza",
     "breadcrumb": "Ụzọ ibe",
@@ -27,7 +33,32 @@
       "label": "Nha ederede ihe edere",
       "smaller": "Ederede nkịtị",
       "larger": "Ederede ka ukwu",
-      "contrast": "Ịdị iche dị elu"
+      "contrast": "Ịdị iche dị elu",
+      "colors": "Agba",
+      "light": "Ìhè",
+      "dark": "Ọchịchịrị",
+      "device": "Dị ka ngwaọrụ a",
+      "lineLength": "Ogologo ahịrị",
+      "standardLines": "Ọkọlọtọ",
+      "shorterLines": "Ahịrị dị mkpụmkpụ",
+      "spacing": "Oghere",
+      "standardSpacing": "Ọkọlọtọ",
+      "moreSpace": "Oghere karị"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "Echiche ọrụ 101",
     "lateStage": "Ọrụ maka oge ikpeazụ",
     "printable": "Ọrụ a ga-ebipụta",
-    "allActivities": "Ọrụ niile",
+    "allActivities": "Ndụmọdụ ihe omume niile",
     "forCaregivers": "Maka ndị na-elekọta",
     "playTogether": "Otu esi akpọ ọnụ",
     "selfCare": "Ilekọta onwe gị",
@@ -54,24 +85,34 @@
     "app": "App Creative Activities",
     "appHelp": "Enyemaka app",
     "support": "Nkwado",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Iwu",
     "sitePrivacy": "Nzuzo weebụsaịtị",
     "appPrivacy": "Iwu nzuzo nke app",
     "privacyChoices": "Nhọrọ nzuzo",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Ụkpụrụ na ikike app",
     "safety": "Nchekwa na ojiji e bu n'obi",
     "accessibility": "Ịnweta ya maka onye ọ bụla",
     "healthNotice": "Ọkwa ozi ahụike",
     "allLegal": "Ozi iwu niile",
     "note": "Creative Activities na-enye ọrụ dị mfe e nwere ọnụ maka obi ụtọ. Ọ bụghị ndụmọdụ ahụike, nnwale ma ọ bụ ọgwụgwọ, ọ naghịkwa achọpụta, tụọ ma ọ bụ nye onye ọ bụla akara. Maka ajụjụ ahụike, kparịta ya na dọkịta. N'oge mberede, kpọọ nọmba mberede nke mpaghara gị.",
-    "publisher": "Cloudjet Solutions Pte. Ltd. bipụtara ya."
+    "publisher": "Cloudjet Solutions Pte. Ltd. bipụtara ya.",
+    "crafts": "Ọrụ aka maka ndị niile",
+    "kids": "Ihe omume maka ụmụaka",
+    "together": "Ihe omume iji mee ọnụ ọnụ",
+    "creativeCalm": "Udo na okike",
+    "dementiaActivities": "Ihe omume maka ndị nwere ọrịa ncheta"
   },
   "home": {
-    "title": "Egwuregwu na ọrụ maka dementia na Alzheimer | Creative Activities",
-    "description": "Egwuregwu onyonyo n'efu, dị nwayọọ n'ịntanetị na echiche ọrụ maka ndị na-ebi ná dementia ma ọ bụ Alzheimer na ndị na-elekọta ha. Enweghị ndebanye aha.",
+    "title": "Ihe Omume Okike Maka Onye Ọ Bụla Na-elekọta Onye",
+    "description": "Ihe omume okike na-enweghị ụgwọ maka onye ọ bụla na-elekọta onye: ọrụ aka, ihe maka ụmụaka, ihe omume iji mee ọnụ ọnụ na echiche okike dị jụụ.",
     "eyebrow": "N'efu · Enweghị mgbasa ozi ahịa · Enweghị ndebanye aha · Enweghị elekere ma ọ bụ akara",
-    "h1": "Egwuregwu na ọrụ dị nwayọọ maka ndị na-ebi ná dementia",
-    "lede": "Egwuregwu onyonyo dị mfe, foto ndị a maara, na ọrụ ndị unu ga-enwe obi ụtọ ime ọnụ, n'ọsọ unu.",
+    "h1": "Mee ihe ọnụ ọnụ",
+    "lede": "Chọta ihe omume dabara onye ahụ, oge ahụ na ihe ị nwere. Ọrụ aka dị mfe, ihe ụmụaka na-eme, ihe omume iji mee ọnụ ọnụ na echiche okike dị jụụ, yana ụdị dị mfe na kaadị iji bipụta. Kwụsị mgbe ọ bụla ịchọrọ.",
     "playGame": "Kpọọ egwuregwu",
     "findIdeas": "Chọta echiche ọrụ",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "Echiche ọrụ 101",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Oge mbụ",
         "text": "Gaa n'ihu ime ihe ha hụrụ n'anya, na obere mgbanwe: ihe ha na-eme maka mmasị, njem, egwuregwu okwu na ịhazi ihe ọnụ.",
         "label": "Echiche maka oge mbụ"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Oge etiti",
         "text": "Ọrụ dị mfe, ndị a maara, nke e kewara n'obere nzọụkwụ: ịpịkọ akwa, ịhazi ihe, egwu, egwuregwu onyonyo na njem mkpụmkpụ.",
         "label": "Echiche maka oge etiti"
@@ -124,10 +165,10 @@
         "label": "Echiche maka oge ikpeazụ"
       }
     ],
-    "specificHtml": "Ị na-achọ ihe kpọmkwem? Nwaa <a href=\"/activities/alzheimers/\">ọrụ na egwuregwu maka Alzheimer</a>, <a href=\"/activities/memory-games/\">egwuregwu ncheta dị nwayọọ</a>, <a href=\"/activities/trivia/\">ajụjụ dị mfe</a> ma ọ bụ <a href=\"/activities/puzzles/\">egwuregwu ijikọta ihe</a>.",
+    "specificHtml": "Ị na-achọ ihe pụrụ iche? Nwalee <a href=\"/dementia-activities/\">ihe omume na egwuregwu maka Alzheimer's</a>, <a href=\"/together/puzzles-and-table-games/\">egwuregwu puzzle na egwuregwu tebụl</a>, <a href=\"/together/conversation-games-for-all-ages/\">egwuregwu mkparịta ụka</a> ma ọ bụ <a href=\"/together/puzzles-and-table-games/\">puzzle</a>.",
     "approachEyebrow": "Ụzọ anyị si arụ ọrụ",
-    "approachTitle": "Ọrụ e nwere ọnụ, ọ bụghị nnwale ncheta",
-    "approachLede": "Ọtụtụ “egwuregwu ụbụrụ isi” e wuru gburugburu ọsọ, akara na usoro mmeri. Onye na-ebi ná dementia nwere ike ịhụ nke ahụ dị ka ule. Anyị wuru nke ọzọ.",
+    "approachTitle": "Ihe omume a na-eme ọnụ, ọ bụghị ule",
+    "approachLede": "Ọtụtụ “egwuregwu nkà uche” na-agbakwasị n'ijikwa oge, ihe ndekọ na mmeri n'usoro. Maka onye ruru eru, na-enwe ahụ ike ma ọ bụ nwere ọrịa ncheta, nke a nwere ike ịdị ka ule. Anyị mere ihe nke ọzọ.",
     "approachLink": "Ihe mere anyị ji deziga ya otu a",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Ihe ndị na-eme ka ha jụ, na ụzọ dị nwayọọ iji nwaa ọzọ mgbe e mesịrị."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Ịtọlite tablet",
-        "text": "Ederede buru ibu, mkpọsa ole na ole, na otu ihuenyo mbụ dị mfe."
+        "href": "/activities/group-art-activities/",
+        "title": "Ọrụ ihe osise nke otu",
+        "text": "Ọrụ ndị a na-eme ọnụ maka otu nke ndị mmadụ ole na ole, nwere ọrụ maka onye ọ bụla."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Ọrụ a ga-ebipụta n'efu",
-        "text": "Chọta okwu n'mkpụrụ edemede buru ibu, ibe ịtee agba, bingo na kaadị mkparịta ụka."
+        "href": "/activities/ideas/",
+        "title": "Echiche ihe omume 101",
+        "text": "Echiche dị mfe, a na-ahazi ha site na ihe ị nwere na ike ị nwere."
       }
     ],
     "researchTitle": "Ahụike ụbụrụ isi: ihe nyocha na-ekwu n'ezie",
@@ -185,16 +226,16 @@
     "aboutApp": "Maka app ahụ",
     "faq": [
       {
-        "q": "Kedu egwuregwu ndị dị mma maka ndị na-ebi ná dementia?",
-        "a": "Egwuregwu ndị dị mma dị mfe, bụrụ ndị a maara, na-enweghịkwa ọgbaghara: onyonyo buru ibu a ga-ahụ ndị dakọrọ, ịhazi ihe, egwuregwu ijikọta onyonyo dị mfe, imecha ilu ndị a maara, ịtee agba, bingo onyonyo na kaadị mkparịta ụka. Nhọrọ kacha mma bụ nke onye ahụ nwere obi ụtọ ime taa. Zere elekere, akara na ihe ọ bụla dị ka ule."
+        "q": "Gịnị bụ egwuregwu ọma maka ndị okenye?",
+        "a": "Egwuregwu ọma dị mfe, a maara ya, na-enweghị nrụgide: foto buru ibu iji kwekọta, ihe a na-ahazi, puzzle dị mfe, imecha ilu a maara, ịgba agba, egwuregwu foto bingo na kaadị mkparịta ụka. Ha dabara ọtụtụ ndị okenye, gụnyere ndị nwere ọrịa ncheta. Nhọrọ kacha mma bụ nke onye ahụ na-enwe ọṅụ taa. Zere oge oge, akara na ihe ọ bụla dị ka ule."
       },
       {
-        "q": "Egwuregwu dementia ndị a ọ bụ n'efu?",
+        "q": "Egwuregwu ndị a bụ n'efu?",
         "a": "Ee. Egwuregwu ọ bụla na ihe a ga-ebipụta ọ bụla dị na Creative Activities bụ n'efu, na-enweghị akaụntụ, ndebanye aha ma ọ bụ nbudata. Egwuregwu ndị a na-arụ ọrụ n'ime browser na ekwentị, tablet ma ọ bụ kọmputa."
       },
       {
         "q": "Egwuregwu ụbụrụ isi ha na-egbochi dementia?",
-        "a": "Mba. A gosipụtabeghị na egwuregwu ọ bụla na-egbochi dementia, Creative Activities anaghịkwa ekwu na ọ na-agwọ ma ọ bụ na-egbochi ihe ọ bụla. Egwuregwu anyị bụ maka obi ụtọ na ịnọ ọnụ. Ngalaba ahụike ụbụrụ isi anyị na-akọwa ihe nyocha na-egosi na ihe ọ na-egosighị."
+        "a": "Egwuregwu ọ bụla egosighị na ọ na-egbochi ọrịa ncheta, Creative Activities adịghị ekwu na ọ na-agwọ ma ọ bụ na-egbochi ihe ọ bụla. Egwuregwu anyị bụ maka ọṅụ na oge ọnụ, ihe nkwupụta ahụike adịghịkwa na ibe ihe omume ọ bụla."
       },
       {
         "q": "Egwuregwu ndị a ha dabara maka onye nwere Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Onye na-eme Creative Activities?",
-        "a": "Creative Activities bụ obere otu na-eme ọrụ onyonyo dị jụụ, nke ndị okenye, maka ezinụlọ na ndị na-elekọta, n'ịntanetị na dị ka app n'efu. Anyị abụghị ndị dọkịta, ihe ọ bụla dị ebe a abụghịkwa ndụmọdụ ahụike."
+        "a": "Creative Activities bụ otu obere otu na-eme ihe omume okike dị jụụ, maka ndị okenye, maka onye ọ bụla na-elekọta onye, n'ịntanetị na dịka app na-enweghị ụgwọ. Anyị abụghị ndị dọkịta, ihe ọ bụla dị ebe a abụghịkwa ndụmọdụ ahụike."
+      }
+    ],
+    "groupsEyebrow": "Chọta ụzọ gị",
+    "groupsTitle": "Ụdị okike anọ",
+    "groupsLede": "Malite site na otu dabara onye ị na-eso na ihe ị nwere. Ihe ọ bụla nwere ụdị dị mfe na ndụmọdụ nchekwa.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Ọrụ aka",
+        "text": "Akwụkwọ, agba, ọrụ a na-eji ihe ejiri mee ya ọzọ na ọrụ oge, nwere ụdị dị mfe maka ọ bụla.",
+        "label": "Lelee ọrụ aka"
+      },
+      {
+        "href": "/kids/",
+        "title": "Ụmụaka",
+        "text": "Ihe osise na egwuregwu maka ụmụaka, nwere onye okenye nso na ndụmọdụ nchekwa doro anya.",
+        "label": "Lelee ihe omume ụmụaka"
+      },
+      {
+        "href": "/together/",
+        "title": "Ọnụ ọnụ",
+        "text": "Mkparịta ụka, puzzle, oge n'èzí na ụzọ ịnọ nso n'etiti ọgbọ.",
+        "label": "Lelee ihe iji mee ọnụ ọnụ"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Udo na okike",
+        "text": "Oge okike dị nwayọ na jụụ, na pensụl, akwụkwọ ma ọ bụ abụ. Ọ bụghị ọgwụgwọ.",
+        "label": "Lelee udo na okike"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "A ga-ebipụta",
     "play": "Kpọọ {name} →",
     "readGuide": "Gụọ nduzi"
+  },
+  "listen": {
+    "listenSteps": "Gee usoro ahụ ntị",
+    "pause": "Kwụsị",
+    "resume": "Malite ọzọ",
+    "stop": "Kwụsị ya",
+    "speed": "Ọsọ",
+    "normal": "Nkịtị",
+    "slower": "Nwayọ karị",
+    "reading": "Na-agụ usoro ahụ n'olu.",
+    "paused": "Akwụsịrị. Pịa Malite ọzọ iji gaa n'ihu.",
+    "note": "Na-eji olu nke ngwaọrụ gị. Ụfọdụ ngwaọrụ na-ezipu ederede ahụ n'ebe onye mere ya iji gụọ ya n'olu.",
+    "listen": "Gee ntị",
+    "stepLabel": "Gee usoro {n} ntị",
+    "stopStep": "Kwụsị usoro {n}"
   },
   "playCta": {
     "title": "Ị dị njikere maka egwuregwu dị nwayọọ?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Ọrụ",
-      "title": "Ọrụ maka ndị na-ebi ná dementia",
-      "seo": "Ọrụ maka ndị na-ebi ná dementia: echiche dịka oge si dị",
-      "description": "Echiche ọrụ maka ndị na-ebi ná dementia n'oge ọ bụla: egwu, ncheta ihe gara aga, ọrụ kwa ụbọchị, ihe mmetụta, ọrụ aka, ezumike n'èzí na ihe a ga-ebipụta n'efu.",
-      "lede": "Ọrụ bara uru bụ ihe ọ bụla na-ewetara onye ahụ ahụ iru ala, ebumnobi ma ọ bụ oge njikọ. Malite n'ihe onye ahụ na-ahụ n'anya mgbe niile, ma dozie ya maka taa."
+      "label": "Ndụmọdụ ihe omume",
+      "title": "Ndụmọdụ Ihe Omume",
+      "seo": "Ndụmọdụ Ihe Omume: Echiche, Ngwaọrụ Ihe Osise na Ụzọ Malite",
+      "description": "Ndụmọdụ doro anya maka ihe omume okike ị ga-eme na onye ọ bụla: echiche dị mfe, ngwaọrụ ihe osise n'ego dị obere, ihe osise ọnụ, akwụkwọ ozi, ihe ncheta, na nkọwa nke art therapy.",
+      "lede": "Ndụmọdụ dị mkpirikpi, bara uru maka ịhọrọ na ịmalite ihe omume na onye ọ bụla, n'agbanyeghị afọ ma ọ bụ ike ya."
+    },
+    "crafts": {
+      "label": "Ọrụ aka",
+      "title": "Ọrụ Aka Maka Ndị Niile",
+      "seo": "Ọrụ Aka Dị Mfe Maka Ndị Niile, Nwere Ụdị Dị Mfe",
+      "description": "Ọrụ aka dị mfe maka ndị okenye, ụmụaka na ezinụlọ: akwụkwọ, agba, ihe a na-ejighị ọzọ ma ọ bụ ihe oge, nwere ụdị dị mfe iji aka kwado na ụdị a na-eme ka onye nọdụ ala, na-enweghị nkà pụrụ iche.",
+      "lede": "Ọrụ aka sitere n'ihe ọtụtụ ụlọ nwere, nke ọ bụla nwere ụdị dị mfe, ka onye ọ bụla wee nwee ike ime ihe."
+    },
+    "kids": {
+      "label": "Ụmụaka",
+      "title": "Ihe Omume Okike Maka Ụmụaka",
+      "seo": "Ihe Omume Okike Maka Ụmụaka: Ihe Osise, Mmetụta na Udo",
+      "description": "Ihe omume okike maka ụmụaka: ihe osise ụmụ ntakịrị, ihe osise usoro, egwuregwu mmetụta, ọrụ ụbọchị mmiri ọnwụ na echiche ịkwantụ obi jụụ, nwere ndụmọdụ nchekwa na ụdị maka chọrọ mmetụta.",
+      "lede": "Echiche ihe osise na egwuregwu maka ụmụaka nke afọ na chọrọ dị iche iche, nwere ndụmọdụ nchekwa doro anya na onye okenye nso."
+    },
+    "together": {
+      "label": "Ọnụ ọnụ",
+      "title": "Ihe Omume Iji Mee Ọnụ Ọnụ",
+      "seo": "Ihe Omume Iji Mee Ọnụ Ọnụ, N'etiti Ọgbọ",
+      "description": "Ihe omume maka ọgbọ abụọ ma ọ bụ karịa: egwuregwu mkparịta ụka, puzzle, oge n'èzí, ọrụ aka maka nna nna na ụmụ ụmụ, na ụzọ ịnọ nso ọ bụrụ na ị nọ n'ebe dị anya.",
+      "lede": "Echiche maka ịkekọrịta oge na nne ma ọ bụ nna, nna nna ma ọ bụ nne nna, nwa ma ọ bụ enyi, n'ụlọ, n'èzí, n'ọbịbịa ma ọ bụ site n'ebe dị anya."
+    },
+    "creative-calm": {
+      "label": "Udo na okike",
+      "title": "Udo na Okike",
+      "seo": "Udo na Okike: Ihe Osise Na Ihe Omume Iji Dị Jụụ",
+      "description": "Ihe omume okike na-eme ka obi dị jụụ maka ndị okenye na ndị na-elekọta: ihe osise nke na-echeta onwe, ide ihe na akwụkwọ, egwuregwu abụ, oge mmetụta na ehihie dị jụụ. Ihe omume okike, ọ bụghị ọgwụgwọ.",
+      "lede": "Ụzọ dị nwayọ iji hụ n'anya ihe ọ bụla na pensụl, akwụkwọ ma ọ bụ abụ. Ndị a bụ ihe omume okike, ọ bụghị ọgwụgwọ, ha achọghị nkà ọ bụla."
     },
     "caregiving": {
-      "label": "Nlekọta",
-      "title": "Nduzi nlekọta",
-      "seo": "Nduzi nlekọta dementia: enyemaka bara uru kwa ụbọchị",
-      "description": "Nduzi bara uru, nke obi ọma maka ndị na-elekọta ndị nwere dementia: ịkpọ egwuregwu ọnụ, mkparịta ụka, mgbe ha jụrụ, tablet na ilekọta onwe gị.",
-      "lede": "Enyemaka dị mfe, bara uru maka oge kwa ụbọchị nke ilekọta onye na-ebi ná dementia, gụnyere ilekọta onwe gị."
+      "label": "Itọ ahụike ndị nọ n'ọrịa nchekwa",
+      "title": "Ilekọta Onye Nwere Ọrịa Nchekwa",
+      "seo": "Ilekọta Onye Nwere Ọrịa Nchekwa: Ọrụ na Enyemaka",
+      "description": "Ndụmọdụ maka ezinaụlọ na-elekọta onye nwere ọrịa nchekwa: otu esi egwu ọnụ, ihe a ga-eme mgbe ọ jụrụ, na ebe a ga-achọta enyemaka a pụrụ ịtụkwasị obi mgbe e mechara chọpụta ọrịa ahụ.",
+      "lede": "Enyemaka dabere n'ọrụ maka ezinaụlọ na-elekọta onye ndụ ya metụtara ọrịa nchekwa, na ebe a ga-agakwa maka ndụmọdụ ahụike na nlekọta."
     },
     "brain-health": {
       "label": "Ahụike ụbụrụ isi",
@@ -283,7 +396,16 @@
     "tryTogether": "Nwaa ọnụ",
     "relatedGuides": "Nduzi ndị yiri ya",
     "related": "Ndị yiri ya",
-    "startHere": "Malite ebe a"
+    "startHere": "Malite ebe a",
+    "staleAria": "Ntụgharị ahụ emebeela oge",
+    "staleTitle": "Ntụgharị a emebeela oge",
+    "staleText": "A mere ya site n'ihe odide Bekee gara aga, ihe odide ahụ agbanwela kemgbe ahụ. Ihe odide Bekee bụ ihe ugbu a.",
+    "staleHealth": "O nwere ozi ahụike, ya mere lelee ihe odide Bekee wee jụọ dọkịta ma ọ bụ onye nọọsụ tupu i mee ihe dabere na ya.",
+    "staleLink": "Gụọ ihe odide Bekee ugbu a"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Ọkwa ozi ahụike",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Ọrụ e nwere ọnụ, ọ bụghị nnwale ncheta",
+      "title": "Ọrụ Otu, Ọ Bụghị Ule",
       "seoTitle": "Maka Creative Activities: ụzọ anyị si arụ ọrụ",
-      "description": "Ihe mere egwuregwu Creative Activities enweghị elekere ma ọ bụ akara, ihe mere onyonyo ji na-anọ ebe a na-ahụ ha, na ihe anyị ga-ekwu banyere dementia.",
+      "description": "Ihe mere Creative Activities ji enweghị oge ọgwụgwụ, akara ma ọ bụ ihe na-aga n'ihu n'ụbọchị, ihe mere eserese ji anọ na-egosi, na ihe anyị ga-ekwu ma ọ bụrụ na anyị agaghị ekwu banyere ahụike.",
       "crumb": "Ụzọ anyị si arụ ọrụ",
-      "lede": "Creative Activities na-eme ọrụ onyonyo dị jụụ, nke ndị okenye, nke onye na-elekọta na onye na-ebi ná dementia nwere ike ịnwe obi ụtọ ime n'akụkụ ibe ha.",
-      "bodyHtml": "<h2>Ihe anyị kwenyere</h2><p>Ebumnuche ọrụ bụ oge ahụ n'onwe ya: mkparịta ụka, ọchị, obi ụtọ nke ijikọta onyonyo abụọ, ma ọ bụ naanị ịnọ nso. Ọ bụghị ịtụ onye ọ bụla, ịkwanye ya ka ọ gawa n'ihu ma ọ bụ igosi ihe ọ bụla.</p><p>Ọtụtụ app ọzụzụ ụbụrụ isi e deziri gburugburu ọsọ, akara, usoro mmeri na ọkwa. Maka onye na-ebi ná dementia, nke ahụ nwere ike ịdị ka ule ọ pụghị ịga nke ọma. Anyị mere nke ọzọ, anyị na-edebe onwe anyị n'iwu ndị a:</p><ul><li><strong>Ọ dịghị ihe a ga-ata.</strong> Enweghị elekere, akara, ọnụọgụ nke ije, ndụ, usoro mmeri, confetti ma ọ bụ ọnụọgụ na-ebelata, n'ihuenyo ọ bụla.</li><li><strong>Ịmata karịa icheta.</strong> Onyonyo na-anọ ebe a na-ahụ ha site na ntọala. Ajụjụ na-akpọ mkparịta ụka, anaghị ajụ aha ma ọ bụ ncheta.</li><li><strong>Buru ibu, dị mfe, kwụsiri ike.</strong> Ederede na onyonyo buru ibu, ọdịiche agba dị elu, na ihe nchịkwa na-anọ n'otu ebe.</li><li><strong>Nsọpụrụ nke ndị okenye.</strong> Onyonyo nke ezi ụwa na okwu dị mfe, dị ọkụ obi. Enweghị eserese ụmụaka, otuto dị ka ọbụ abụ ma ọ bụ emoji dị ka ụgwọ ọrụ.</li><li><strong>Ụzọ dị mfe ịpụ.</strong> “Kwụsị ugbu a” na-ahụ anya mgbe niile. Ịkwụsị n'etiti bụ nsonaazụ dị mma.</li><li><strong>Nzuzo site na ntọala.</strong> Enweghị akaụntụ ma ọ bụ mgbasa ozi ahịa. Foto ndị ị họọrọ na-anọ na ngwaọrụ gị.</li></ul><h2>Ihe anyị anaghị ekwu</h2><p>Egwuregwu anyị bụ maka obi ụtọ na njikọ. Ha anaghị achọpụta, nwale, tụọ, agwọ, belata ma ọ bụ gbochie dementia ma ọ bụ ọrịa Alzheimer, onye ọ bụla agaghịkwa ahọrọ ha n'ihi nke ahụ. Mgbe anyị na-ede banyere nyocha n'<a href=\"/brain-health/\">ibe ahụike ụbụrụ isi</a> anyị, anyị na-ekwu nke ọma ebe ihe ngosi adịghị ike, anyị anaghịkwa ejikọ ya na egwuregwu anyị.</p><h2>Ndị anyị bụ</h2><p>Creative Activities bụ obere otu nke onwe. Anyị abụghị ndị dọkịta. A na-ede nduzi anyị site na nduzi e bipụtara nke ndị otu dị ka National Institute on Aging na Alzheimer’s Association, nduzi ọ bụla na-depụtakwa isi mmalite ya. Gụọ <a href=\"/editorial-policy/\">otu anyị si ede ma lelee ibe anyị</a>.</p><h2>Gwa anyị ihe ga-enye aka</h2><p>Anyị ga-enwe mmasị ịnụ ihe na-arụ ọrụ maka gị na ihe na-adịghị arụ ọrụ, karịsịa site n'aka ndị na-ebi ná dementia, ndị ezinụlọ na-elekọta na ndị ọrụ ọrụ. Zipụ email na <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Ndị na-akwado na ndị mmekorita",
+        "none": "Creative Activities enweghị ndị na-akwado ya, enweghị ebe a na-akwụ ụgwọ maka ntinye, na enweghị ndị mmekorita ejiri akara ha egosi n'saịtị a.",
+        "listed": "Ndị a bụ ndị na-akwado na ndị mmekorita Creative Activities. A na-ekwupụta mmekorita ọ bụla n'ihe odide ebe ọ pụtara.",
+        "policy": "Ma ọ bụrụ na nke a agbanwee, ihe odide ọ bụla dị otu a ga-ekwu otú ahụ n'ebe ọ pụtara, ọrụ ọ bụla agaghị ebu onye na-akwado ya, ndepụta ndị mmekorita ga-adị n'ihe odide a.",
+        "listHeading": "Ndepụta ndị mmekorita",
+        "noPartners": "Ugbu a, enweghị ndị mmekorita."
+      },
+      "lede": "Creative Activities na-emepụta ọrụ nwayọọ, nke ndị okenye, nke mmadụ abụọ nwere ike ịnwe obi ụtọ n'akụkụ ibe ya, ma ọ bụrụ na otu n'ime ha na-elekọta onye ọzọ ma ọ bụ na ha chọrọ naanị ịnọ ọnụ.",
+      "bodyHtml": "<h2>Onye ọ bụ maka ya</h2><p>Onye ọ bụla na-elekọta onye ọzọ: nne ma ọ bụ nna, nna nna ma ọ bụ nne nne, nwa, di ma ọ bụ nwunye, enyi, ma ọ bụ onye nwere ọrịa nchekwa. Ezinaụlọ, ndị okenye na ndị ọrụ ọrụ ihe omume nwere ike iji otu ihe odide ahụ.</p><h2>Ihe anyị kwenyere</h2><p>Ihe kpatara ọrụ bụ oge ahụ n'onwe ya: mkparita ụka, ihu ọmụma, obi ụtọ nke itinye eserese abụọ n'otu, ma ọ bụ naanị ịnọdụ nso. Ọ bụghị iji tụọ onye ọ bụla, ibute ya ka ọ gaa n'ihu ma ọ bụ igosi ihe.</p><p>Ọtụtụ ngwa mmụta uche e mere n'ihe gbasara ọsọ, akara, ihe na-aga n'ihu n'ụbọchị na ọkwá. Maka onye nwere mkpali, na-enweghị ike ma ọ bụ nwere ọrịa nchekwa, nke a nwere ike ịdị ka ule o nweghị ike ịga nke ọma. Anyị mere ihe ọzọ, anyị ejidekwa onwe anyị n'iwu ndị a:</p><ul><li><strong>Enweghị ihe ị ga-adaghị.</strong> Enweghị oge, akara, ọnụ ọgụgụ mmegharị, ndụ, ihe na-aga n'ihu n'ụbọchị, nkpuchi ụzọ ma ọ bụ ịgba ọnụ ụba n'ihu, n'ihe ngosi ọ bụla.</li><li><strong>Ịmata karịa icheta.</strong> Eserese na-anọ na-egosi n'ụzọ ntụkwasị obi. Ihe ndọta na-akpọ mkparita ụka ma adịghị ajụ aha ma ọ bụ ncheta.</li><li><strong>Nke buru ibu, doro anya na nke kwụsiri ike.</strong> Ederede na eserese buru ibu, agba doro anya, na njikwa na-anọgide n'otu ebe.</li><li><strong>Ugwu nke onye okenye.</strong> Eserese nke ụwa n'ezie na okwu doro anya, nwayọọ. Enweghị ihe nkiri, otu ọ na-eji abụ na-otọ iyi ma ọ bụ ihe ụgwọ emoji.</li><li><strong>Ụzọ dị mfe isi pụta.</strong> \"Akwụsịla ugbu a\" na-adị ka ọ na-ahụ anya mgbe niile. Ịkwụsị n'etiti bụ nsonaazụ dị mma.</li><li><strong>Nzuzo site na mbu.</strong> Enweghị akaụntụ ma ọ bụ mgbasa ozi. Foto ị họọrọ na-anọ n'ngwaọrụ gị.</li></ul><h2>Ihe anyị adịghị ekwu</h2><p>Egwuregwu na ọrụ anyị bụ maka obi ụtọ na njikọ. Ha adịghị achọpụta, nwalee, tụọ, gwọọ, mee ka ọ dịkwuo nwayọọ ma ọ bụ gbochie ọrịa nchekwa ma ọ bụ ọrịa Alzheimer, na onye ọ bụla akwadoghị ha maka ihe ahụ. Mgbe anyị na-edekọ banyere nyocha ahụike, anyị na-ekwu nke doro anya ebe ihe akaebe dị adịghị ike, anyị agaghịkwa ejikọ ya na ọrụ anyị.</p><h2>Ihe anyị bụ</h2><p>Creative Activities bụ otu obere ndị ọrụ nwere onwe ha. Anyị abụghị ndị dọkịta. Ihe ndụmọdụ anyị dere site na ntụziaka a bipụtara site n'aka ndị otu dị ka National Institute on Aging na Alzheimer's Association, ihe ndụmọdụ ọ bụla na-edepụta isi mmalite ya. Gụọ <a href=\"/editorial-policy/\">otú anyị si ede ma nyochaa ihe odide anyị</a>.</p><h2>Gwa anyị ihe ga-enyere aka</h2><p>Anyị ga-enwe obi ụtọ ịnụ ihe na-arụ ọrụ maka gị na ihe na-adịghị, karịsịa site n'aka ndị nwere ọrịa nchekwa, ndị na-elekọta ezinaụlọ na ndị ọrụ ọrụ ihe omume. Zipu ozi na <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Otu anyị si ede ma lelee ibe anyị",
       "seoTitle": "Iwu mmeputa",
-      "description": "Otu Creative Activities si enyocha, ede, kwuo isi mmalite na imelite ibe ọrụ dementia na ahụike ụbụrụ isi ya, na ihe anyị agaghị ebipụta.",
+      "description": "Otú Creative Activities si nyochaa, ede, nweta ihe, na imelite ihe odide ọrụ na ahụike ya, na ihe anyị agaghị ebipụta mgbe ụwa niile.",
       "crumb": "Iwu mmeputa",
-      "bodyHtml": "<h2>Isi mmalite anyị</h2><p>Anyị na-ewu nduzi anyị n'ihe nduzi ọha nke ndị otu dị ka National Institute on Aging, CDC, Alzheimer’s Association, Alzheimer’s Foundation of America, Family Caregiver Alliance na NHS, na n'ihe nyocha ndị ọkachamara lere anya dị ka nyocha Cochrane na nnukwu nnwale ụlọ ọgwụ. Nduzi ọ bụla na-depụta isi mmalite ọ na-adabere na ha. Anyị na-emepe isi mmalite ọ bụla tupu anyị kwuo ya, anyị na-akọkwa naanị ihe o kwuru n'ezie.</p><h2>Otu anyị si ede</h2><ul><li>Ihe bara uru buru ụzọ: ihe a ga-eme taa, n'asụsụ dị mfe.</li><li>Eziokwu banyere ihe ngosi: anyị na-ekwu “jikọtara ya na”, “nwere ike” na “ihe ngosi agwakọtara” mgbe nke ahụ bụ eziokwu.</li><li>Nsọpụrụ: anyị na-ede banyere ndị na-ebi ná dementia dị ka ndị okenye, anyị anaghịkwa eji okwu ajụjụ ma ọ bụ ihere.</li><li>Enweghị ọdịnaya e chepụtara: enweghị ọnụ ọgụgụ, okwu, ndị ọkachamara, nyocha, nyocha ndị ahịa ma ọ bụ akaebe e chepụtara.</li></ul><h2>Onye na-elele ibe anyị</h2><p>Otu Creative Activities na-ede ma na-elele ibe, ya na enyemaka site na ngwa ide AI maka nyocha na ịkwado ede. Otu ahụ na-elele ibe ọ bụla megide isi mmalite ya. Dọkịta ma ọ bụ onye ọkachamara ọzọ <strong>elebeghị</strong> ibe anyị anya, anyị anaghịkwa ekwu ọzọ. Ha bụ ozi izugbe, ọ bụghị ndụmọdụ ahụike.</p><h2>Ihe anyị agaghị ebipụta</h2><ul><li>Nkwupụta na egwuregwu, nri, ihe mgbakwunye, ibu ọnụ ma ọ bụ usoro ọ bụla na-egbochi, agwọ, belata ma ọ bụ gwọọ dementia.</li><li>Nnwale, ajụjụ ma ọ bụ akara na-egosi na onye nwere, ma ọ bụ na o nweghị, dementia.</li><li>Ndụmọdụ ịmalite, kwụsị ma ọ bụ gbanwee ọgwụ ọ bụla.</li><li>Mgbasa ozi ahịa ma ọ bụ ọdịnaya e nyere ụgwọ nke e zoro ezo dị ka nduzi.</li></ul><h2>Mmelite na nhazi</h2><p>Ibe ọ bụla na-egosi ụbọchị e melitere ya ikpeazụ. Ọ bụrụ na ị chọta njehie ma ọ bụ isi mmalite ochie, biko zipụ email na <a href=\"mailto:{email}\">{email}</a>, anyị ga-elele ya ngwa ngwa.</p>"
+      "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Ajụjụ na azịza",
-      "seoTitle": "Egwuregwu na ọrụ dementia: ajụjụ na azịza",
-      "description": "Azịza maka ajụjụ a na-ajụkarị banyere egwuregwu na ọrụ dementia: egwuregwu a ga-anwale, ogologo oge a ga-akpọ, echiche oge ikpeazụ, ahụike ụbụrụ isi na nzuzo.",
+      "seoTitle": "Ajụjụ na Azịza Banyere Creative Activities",
+      "description": "Azịza maka ajụjụ a na-ajụkarị banyere egwuregwu na ọrụ: nke ị kwesịrị ịnwale, ogologo oge egwu, echiche maka otu na nke ndị na-aga n'ihu, ahụike na nzuzo.",
       "crumb": "Ajụjụ na azịza",
       "lede": "Azịza mkpirikpi, dị mfe maka ajụjụ ndị na-elekọta kacha ajụ.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Maka egwuregwu ndị ahụ",
           "items": [
             {
-              "q": "Kedu egwuregwu ndị kacha mma maka onye nwere dementia?",
+              "q": "Gịnị bụ egwuregwu kacha mma maka ndị okenye?",
               "a": "Egwuregwu ndị kacha mma bụ ndị a maara, dị mfe, na-enweghịkwa ọgbaghara, nke ziri ezi bụkwa ihe onye ahụ nwere obi ụtọ ime taa. Ịhụ onyonyo ndị dakọrọ ebe a na-ahụ onyonyo, ịhazi ihe, egwuregwu ijikọta onyonyo dị mfe, imecha ilu ndị a maara, ịtee agba na bingo onyonyo na-adịkwa mma maka ọtụtụ mmadụ. Zere elekere, akara na ihe ọ bụla dị ka ule."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Ahụike ụbụrụ isi",
+          "title": "Ọrịa nchekwa na ahụike",
           "items": [
             {
               "q": "Egwuregwu nwere ike igbochi ma ọ bụ belata dementia?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Nkọwa ndị ọzọ: <a href=\"/caregiving/how-to-play-together/\">otu esi akpọ ọnụ</a>, <a href=\"/caregiving/when-they-say-no/\">mgbe ha sịrị mba</a>, <a href=\"/activities/late-stage/\">ọrụ oge ikpeazụ</a> na <a href=\"/brain-health/can-dementia-be-prevented/\">enwere ike igbochi dementia?</a>"
+      "moreHtml": "Ozi ndị ọzọ: <a href=\"/caregiving/how-to-play-together/\">otu esi egwu ọnụ</a>, <a href=\"/caregiving/when-they-say-no/\">mgbe ha jụrụ</a>, <a href=\"/activities/late-stage/\">ọrụ nke oge ikpeazụ</a> na <a href=\"/dementia-activities/\">ọrụ ọrịa nchekwa n'ụlọ</a>."
     },
     "handout": {
       "title": "Egwuregwu n'efu, dị nwayọọ maka ndị na-ebi ná dementia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Maka ụlọ nlekọta, ọbá akwụkwọ na otu nkwado",
-      "seoTitle": "Ọrụ dementia n'efu maka ụlọ nlekọta na otu",
-      "description": "Otu ụlọ nlekọta, ọbá akwụkwọ na otu nkwado si eji egwuregwu dementia n'efu anyị, na ederede iji tinye anyị n'ndepụta isi mmalite gị.",
+      "seoTitle": "Ọrụ N'efu maka Ụlọ Nlekọta, Ọba Akwụkwọ na Otu",
+      "description": "Otú ụlọ nlekọta, mmemme ụbọchị maka ndị okenye, ọba akwụkwọ, ụlọ ọrụ ndị okenye na otu nkwado si eji egwuregwu anyị na ndụmọdụ ọrụ n'efu, yana ederede iji tinye anyị na ndepụta akụrụngwa.",
       "crumb": "Maka ụlọ ọrụ",
       "lede": "Ihe niile dị na saịtị a bụ n'efu iji ya na ndị bi, ndị otu na ndị ahịa, na-enweghị akaụntụ, ikike ma ọ bụ ụgwọ. Ibe a na-akọwa ihe dị ebe a na otu esi ekesa ya.",
-      "shortText": "{name}: egwuregwu onyonyo n'efu, dị nwayọọ na nduzi ọrụ maka ndị na-ebi ná dementia na ndị na-elekọta ha. Enweghị ndebanye aha, elekere ma ọ bụ akara.",
-      "longText": "{name} ({domain}) na-enye egwuregwu browser n'efu {count} e mere maka ndị na-ebi ná dementia, gụnyere ịhụ ndị dakọrọ na onyonyo a hapụrụ ka ha na-ahụ anya, egwuregwu ijikọta onyonyo dị mfe, ịhazi ihe, ilu ndị a maara na bingo onyonyo nwere kaadị a ga-ebipụta. Enweghị akaụntụ, mgbasa ozi ahịa, elekere ma ọ bụ akara. Saịtị ahụ nwekwara nduzi ọrụ n'asụsụ dị mfe maka oge ọ bụla nke dementia nke na-ekwu National Institute on Aging na Alzheimer's Association.",
+      "shortText": "{name}: egwuregwu eserese dị n'efu, nwayọọ na ndụmọdụ ọrụ maka ndị okenye, ezinaụlọ na ndị nwere ọrịa nchekwa. Enweghị ndebanye aha, enweghị oge, enweghị akara.",
+      "longText": "{name} ({domain}) na-enye {count} egwuregwu browser n'efu maka ndị okenye, ezinaụlọ na ndị na-ebi ndụ na dementia, gụnyere foto ndị dị abụọ-abụọ nke a na-ahapụ foto ndị a na-ahụ, jigsaw dị mfe, ihazi ihe, okwu ochie ndị a maara nke ọma, na bingo foto nwere kaadị a ga-ebipụta. Enweghị akaụntụ, mgbasa ozi, oge ọ bụla ma ọ bụ ndekọ akara. Saịtị ahụ nwekwara ntuziaka omume dị mfe maka ezinaụlọ, ndị okenye na ndị ọrụ, yana isi mmalite dịka National Institute on Aging na Alzheimer's Association.",
       "useTitle": "Ihe ụlọ ọrụ nwere ike iji",
       "gamesItemHtml": "<strong>Egwuregwu browser {count}</strong> na-arụ ọrụ n'ime laptọọpụ, tablet ma ọ bụ TV jikọtara na kọmputa. Enweghị nwụnye, akaụntụ ma ọ bụ nbudata. Lee <a href=\"/games/\">egwuregwu niile</a>.",
       "printablesLabel": "Ihe a ga-ebipụta {count}:",
       "printablesAfter": "Jiri bọtịnụ Print dị n'ibe ọ bụla.",
-      "moreItemsHtml": "<li><strong>Nhazi maka otu:</strong> <a href=\"/games/picture-bingo/\">Bingo onyonyo</a> nwere kaadị a ga-ebipụta na onye na-akpọ n'ihuenyo, <a href=\"/activities/trivia/\">ajụjụ dị mfe</a> nwekwara ajụjụ 50 nwere nhọrọ azịza na isi okwu mkparịta ụka.</li><li><strong>Nduzi ọrụ</strong> maka ndị ọrụ na ezinụlọ, dịka oge si dị na dịka ụdị si dị, e dere n'asụsụ dị mfe na isi mmalite. Malite na <a href=\"/activities/ideas/\">echiche ọrụ 101</a> ma ọ bụ <a href=\"/activities/care-home-groups/\">ọrụ otu maka ụlọ nlekọta</a>.</li>",
+      "moreItemsHtml": "<li><strong>Usoro otu:</strong> <a href=\"/games/picture-bingo/\">Bingo foto</a> nwere kaadị a ga-ebipụta na onye na-akpọ n'ihuenyo, na <a href=\"/together/conversation-games-for-all-ages/\">egwuregwu mkparịta ụka</a> nwere ajụjụ, nhọrọ azịza na isi okwu ị ga-akparịta ụka.</li><li><strong>Ntuziaka omume</strong> maka ndị ọrụ na ezinaụlọ, e dere n'asụsụ dị mfe nwere isi mmalite. Malite site na <a href=\"/activities/ideas/\">echiche omume 101</a> ma ọ bụ <a href=\"/crafts/craft-group-sessions/\">omume otu maka ụlọ nlekọta</a>.</li>",
       "restHtml": "<h2>Otu otu si eji ya</h2><ul><li><strong>Ụlọ nlekọta na nlekọta ncheta:</strong> bingo onyonyo ma ọ bụ mechaa-ilu na TV ụlọ nzukọ, ya na otu onye na-apị maka otu ahụ.</li><li><strong>Mmemme ehihie ndị okenye:</strong> ebe tablet nwere Onyonyo ndị dakọrọ edobere na kaadị anọ, maka oge mkpụmkpụ otu n'otu.</li><li><strong>Ọbá akwụkwọ ọha:</strong> chọta okwu e bipụtara na kaadị mkparịta ụka n'ime ngwugwu ncheta, na saịtị ahụ e debere na tablet ọbá akwụkwọ.</li><li><strong>Otu nkwado ndị na-elekọta na ebe ndị mmadụ na-ezukọ:</strong> <a href=\"/handout/\">otu ibe a ga-ebipụta</a> ka ezinụlọ were laghachi.</li><li><strong>Ụlọ ọgwụ na ndị na-ahazi mwepụ:</strong> ibe ahụ n'ime ngwugwu ndị na-elekọta, maka ihe dị jụụ a ga-eme n'ụlọ ma ọ bụ n'akụkụ ihe ndina.</li></ul><h2>Ihe anyị anaghị eme</h2><p>Egwuregwu ndị a bụ maka obi ụtọ na ịnọ ọnụ. Ha anaghị achọpụta, nwale, nye akara, agwọ ma ọ bụ belata dementia, anyị na-arịọkwa ka ụlọ ọrụ ghara ịkọwa ha otu ahụ. Enweghị mgbasa ozi ahịa, egwuregwu ndị ahụ anaghịkwa arịọ ka e bubata aha, nkọwa ahụike ma ọ bụ foto. Weebụsaịtị na-eji Google Analytics agụ nleta; <a href=\"/privacy/\">ọkwa nzuzo</a> anyị na-akọwa ihe ọ na-anakọta. Foto ndị e ji mee <a href=\"/games/photo-pairs/\">Foto ndị dakọrọ</a> na-anọ n'ime browser.</p><h2>Tinye anyị n'ndepụta isi mmalite gị</h2><p>Ọ bụrụ na ị na-edebe ndepụta isi mmalite maka ndị na-elekọta, ị nwere nnabata ijikọ <a href=\"/\">{domain}</a>. Ị nwere ike ikọpị nkọwa ọ bụla.</p>",
       "shortTitle": "Nkọwa mkpirikpi",
       "longTitle": "Nkọwa ogologo",
-      "linksHtml": "<p>Ibe bara uru ị ga-ejikọ ozugbo: <a href=\"/games/\">egwuregwu n'efu</a>, <a href=\"/activities/printable/\">ihe a ga-ebipụta n'efu</a>, <a href=\"/activities/alzheimers/\">ọrụ maka Alzheimer</a> na <a href=\"/caregiving/how-to-play-together/\">otu esi akpọ ọnụ</a>.</p><h2>Ajụjụ ma ọ bụ nhazi</h2><p>Ọ bụrụ na ihe ọ bụla n'saịtị adịghị mma ma ọ bụ doro anya, ma ọ bụ ihe dị ebe a anaghị emezu mkpa onye bi, biko gwa anyị na <a href=\"mailto:{email}\">{email}</a>. Biko ezila ozi onwe onye ma ọ bụ ozi ahụike banyere ndị bi ma ọ bụ ndị ahịa.</p>"
+      "linksHtml": "<p>Ibe ndị bara uru ị ga-ejikwa kpọtụrụ ozugbo: <a href=\"/games/\">egwuregwu n'efu</a>, <a href=\"/games/\">ihe a ga-ebipụta n'efu</a>, <a href=\"/dementia-activities/\">omume dementia n'ụlọ</a> na <a href=\"/caregiving/how-to-play-together/\">otu esi egwuri egwuregwu ọnụ</a>.</p><h2>Ajụjụ ma ọ bụ ndozi</h2><p>Ọ bụrụ na ihe ọ bụla n'saịtị ahụ adịghị mma ma ọ bụ doro anya, ma ọ bụ ihe dị ebe a emeghị ka onye bi n'ụlọ ma ọ bụ onye a na-elekọta chọọ, biko gwa anyị na <a href=\"mailto:{email}\">{email}</a>. Biko, ezila ozi onwe ma ọ bụ ozi ahụike gbasara ndị bi n'ụlọ ma ọ bụ ndị a na-elekọta.</p>"
     },
     "app": {
       "title": "App Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Egwuregwu n'efu maka dementia na Alzheimer n'ịntanetị",
-    "description": "Egwuregwu n'efu maka ndị agadi na-ebi ná dementia ma ọ bụ Alzheimer: ịhụ onyonyo ndị dakọrọ, ijikọta onyonyo, ịhazi, bingo. Enweghị ndebanye aha ma ọ bụ akara.",
+    "title": "Egwuregwu n'efu iji egwuri ọnụ n'ịntanetị",
+    "description": "Egwuregwu n'ịntanetị n'efu maka ndị okenye, ezinaụlọ na ndị na-ebi ndụ na dementia: ịkwado foto, jigsaw dị mfe, ihazi ihe, okwu ochie, ịgba agba na bingo. Enweghị ndebanye aha, oge ma ọ bụ ndekọ akara.",
     "crumb": "Egwuregwu",
-    "h1": "Egwuregwu dị nwayọọ maka ndị na-ebi ná dementia",
+    "h1": "Egwuregwu Nwayọ Iji Egwuri Ọnụ",
     "lede": "Egwuregwu n'efu {count} ị ga-akpọ ọnụ n'ime browser gị. Onyonyo buru ibu, okwu dị mfe, na ọ dịghị ihe a ga-ata: enweghị elekere, enweghị akara, enweghị ndebanye aha.",
-    "listName": "Egwuregwu dị nwayọọ maka ndị na-ebi ná dementia",
+    "listName": "Egwuregwu nwayọ iji egwuri ọnụ",
     "byStageTitle": "Ịhọrọ egwuregwu dịka oge si dị",
     "byStageLede": "Oge bụ naanị ntụziaka nkịtị. Soro ihe onye ahụ na-ahụ n'anya na ihe dị mma taa.",
     "stageCol": "Oge",
     "gamesCol": "Egwuregwu na-adabakarị",
-    "moreHtml": "Echiche ndị ọzọ na mpụga ihuenyo: <a href=\"/activities/ideas/\">ọrụ 101 maka ndị na-ebi ná dementia</a>, <a href=\"/activities/alzheimers/\">ọrụ na egwuregwu maka Alzheimer</a>, <a href=\"/activities/memory-games/\">egwuregwu ncheta dị nwayọọ</a> na <a href=\"/activities/puzzles/\">egwuregwu ijikọta ihe</a>.",
+    "moreHtml": "Echiche ndị ọzọ na-enweghị ihuenyo: <a href=\"/activities/ideas/\">echiche omume 101</a>, <a href=\"/dementia-activities/\">omume dementia n'ụlọ</a> na <a href=\"/crafts/\">ọrụ aka</a>.",
     "faq": [
       {
         "q": "Kedu egwuregwu anyị kwesịrị ịmalite na ya?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Ndị a ha bụ egwuregwu ncheta maka ndị agadi?",
-        "a": "Ha bụ egwuregwu ịhụ ndị dakọrọ na egwuregwu onyonyo nke okenye ọ bụla nwere ike ịmasị, mana e wuru ha ka ha ghara ịnwale ncheta: n'Onyonyo ndị dakọrọ, onyonyo na-anọ ebe a na-ahụ ha belụsọ ma ị họrọ ihe ọzọ. Nduzi anyị banyere egwuregwu ncheta maka ndị agadi nwere dementia na-akọwa otu esi eme ka egwuregwu ncheta ọ bụla dị nwayọọ."
+        "a": "Ha bụ egwuregwu ịkwado na foto nke onye okenye ọ bụla nwere ike ịnwe obi ụtọ, mana a rụrụ ha ka ha ghara ịnwale ncheta: n'egwuregwu Foto Abụọ-abụọ, foto ndị ahụ na-anọ n'elu ihu ma ọ bụrụ na ịhọrọ ọzọ. Egwuregwu ncheta ọ bụla nwere ike ịdị nwayọ ma a wepụ oge na ndekọ akara."
       },
       {
         "q": "Ọ nwere egwuregwu maka otu n'ụlọ nlekọta?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Ọ nwere app ọrụ dementia?",
+        "q": "Enwere app maka ndị okenye na ezinaụlọ?",
         "a": "Ee. Creative Activities (e depụtara ya dị ka \"{storeName}\") bụ n'efu na App Store na Google Play. Ọ na-enye ịhụ onyonyo ndị dakọrọ dị nwayọọ na kaadị buru ibu, egwuregwu na foto ezinụlọ ị họọrọ, na ụyọkọ onyonyo na-arụ ọrụ na-enweghị ịntanetị."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "A ga-ebipụta",
     "howTo": "Otu esi akpọ {name}",
     "tips": "Ndụmọdụ maka ịkpọ ọnụ",
-    "newToPlayingHtml": "Ị bụ onye ọhụrụ n'ịkpọ egwuregwu na onye nwere dementia? Gụọ <a href=\"/caregiving/how-to-play-together/\">otu esi akpọ egwuregwu ọnụ</a>, gụnyere ihe a ga-eme ma ọ bụrụ na ha ahụghị mmasị ọzọ.",
+    "newToPlayingHtml": "Ị bụ onye ọhụrụ n'ịkwado egwuregwu na onye okenye ma ọ bụ onye na-ebi ndụ na dementia? Gụọ <a href=\"/caregiving/how-to-play-together/\">otu esi egwuri egwuregwu ọnụ</a>, gụnyere ihe a ga-eme ọ bụrụ na ha adịghịzi anụ ụtọ n'ọrụ a.",
     "moreAria": "Ihe ndị ọzọ a ga-achọpụta",
     "helpfulGuides": "Nduzi bara uru",
     "appTitle": "Kpọọ ya n'ime app",
@@ -536,6 +666,35 @@
     "goodToKnow": "Ọ dị mma ịmara",
     "goodToKnowText": "Egwuregwu a bụ maka obi ụtọ na ịnọ ọnụ. Ọ naghị anwale, tụọ ma ọ bụ agwọ ihe ọ bụla.",
     "moreGames": "Egwuregwu dị nwayọọ ndị ọzọ",
-    "crumb": "Egwuregwu"
+    "crumb": "Egwuregwu",
+    "print": {
+      "heading": "Egwuregwu n'akwụkwọ",
+      "sameRules": "Ụdị akwụkwọ nwere otu iwu ahụ dịka egwuregwu dị n'ihuenyo:",
+      "button": "Bipụta ụdị akwụkwọ",
+      "pageNote": "Otu peeji na A4 ma ọ bụ US Letter, dị mma n'agba ojii na nke ọcha. Ụdị {date}.",
+      "islandNote": "Ọ na-ebipụta ihe dị n'ihuenyo ugbu a. Ụdị {date}.",
+      "sheetTitle": "{name}: ụdị akwụkwọ",
+      "point": "Na akwụkwọ, gosi foto n'aka kama pị ya, ma ọ bụ gbaa ya gburugburu n'aka pen. Ahịrị ọ bụla bụ ìgwè ọhụrụ.",
+      "pointTarget": "Na akwụkwọ, foto a ga-ele anya na ya dị n'igbe dị na mmalite nke ahịrị ọ bụla. Gosi foto n'aka kama pị ya, ma ọ bụ gbaa ya gburugburu n'aka pen.",
+      "halves": "A na-egbutu foto ọ bụla n'etiti. Dọta ahịrị site na ọkara ọ bụla n'aka ekpe gaa na ọkara n'aka nri nke dabara ya, ma ọ bụ gosi n'aka. Ihe ọ bụla achọghị ịgbutu.",
+      "grid": "Oghere ọ bụla nwere nọmba. Chọta nọmba ahụ n'igodo ahụ, wee gbaa oghere ahụ agba site na pensụl nke agba ahụ. Agba ọ bụla ọzọ ịhọrọ dịkwa mma. Ihe ọ bụla achọghị ịgbutu.",
+      "colors": "Ahịrị ọ bụla kwuru agba. Gosi foto ọ bụla nke agba ahụ, ma ọ bụ gbaa ya gburugburu n'aka pen. Ahịrị ọ bụla bụ ìgwè ọhụrụ.",
+      "dice": "Ahịrị ọ bụla bụ ìgwè foto maka ọkpụkpụ egwuregwu. Họrọ otu ahịrị, ma ọ bụ gbutu foto ndị ahụ wee were ụfọdụ n'otu nchịkọta, wee kọọ akụkọ site n'iji ha n'usoro ọ bụla. Onye ọ bụla nwere ike ịgafe.",
+      "words": "Gbutu okwu ndị ahụ, ma ọ bụ dọta ahịrị site na okwu ọ bụla gaa na foto ya. Gụọ okwu ndị ahụ n'olu ka ị na-aga.",
+      "cards": "Gbutu kaadị ndị ahụ n'akara ndị a na-ahụ n'ahịrị. Tọọ ha n'elu tebụl n'ihu foto ahụ ka ọ na-ele anya, wee chọta ụzọ abụọ ndị yiri ibe.",
+      "chain": "Na akwụkwọ, gụọ foto ndị ahụ site n'aka ekpe gaa n'aka nri, otu n'otu. Onye ọ bụla kwuo otu ahịrịokwu gbasara foto ndị gara aga, wee gosi foto ọzọ. Onye ọ bụla nwere ike ịgafe.",
+      "sort": "Gbutu foto ndị ahụ n'akara ndị a na-ahụ n'ahịrị, wee tinye ọ bụla n'igbe ebe ọ kwesịrị ịdị.",
+      "puzzle": "Gbutu foto buru ibu ahụ n'akara ndị a na-ahụ n'ahịrị ka ọ bụrụ akụkụ anọ, wee gbanwee ha. Gbanwee akụkụ abụọ n'otu oge ruo mgbe foto ahụ zuru ezu. Foto nta bụ nduzi.",
+      "cutSafety": "Onye enyere aka nwere ike ịgbutu tupu ị malite. Tinye ihe a na-egbutu ahụ ebe dị mma mgbe ahụ.",
+      "version": "Ụdị {date} · {url}",
+      "reasons": {
+        "photos": "Enweghị ụdị akwụkwọ. Egwuregwu a na-eji foto gị, ndị na-anọ n'ime browser gị ma a na-adịghị ebugo ha n'ịntanetị, ya mere saịtị ahụ enweghị ike ibipụta ha. Iji kwuo egwuregwu na akwụkwọ, bipụta foto ole na ole ọ masịrị gị ụzọ abụọ n'ụlọ, wee dakọta ha n'elu tebụl.",
+        "paced": "Enweghị ụdị akwụkwọ. Okirikiri ahụ na-edozi usoro nwayọ, nwayọ n'ihuenyo, akwụkwọ e bipụtara enweghị ike ime nke ahụ, ya mere ọ ga-abụ omume dị iche. Ịnọdụ ala ọnụ n'udo na-enweghị ihuenyo bụ nhọrọ mgbe niile.",
+        "turns": "Enweghị ụdị akwụkwọ nke egwuregwu a. Iji chọta ụzọ abụọ n'elu tebụl, bipụta kaadị foto site na Foto Abụọ-abụọ, wee na-agbanwe ọnọdụ ịtụgharị ha.",
+        "screen": "Ko nwere ihe odide na akwụkwọ. Nke a bụ foto ka ndị abụọ na-ele n'ihu na screen; foto ma ọ bụ kaadị ozi nke ị hụrụ n'obi na tebụl na-eme otu ihe ahụ.",
+        "wash": "Ọ dịghị ụdị akwụkwọ. Mmiri-agba na akwụkwọ bụ otu echiche: brọọsh mmiri na otu agba n'otu oge.",
+        "sayings": "Ọ dịghị ụdị akwụkwọ ka ugbu a. Na akwụkwọ, njedebe niile ga-egosi n'otu oge, nzọụkwụ \"Gosi njedebe\" dị nro ga-efunahụ. Gụọ ilu ndị a site na screen ọnụ, ma ọ bụ kekọrịta ụfọdụ ndị unu abụọ maara."
+      }
+    }
   }
 }

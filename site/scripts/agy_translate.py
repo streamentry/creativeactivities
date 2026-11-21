@@ -52,6 +52,7 @@ Rules:
 - Warm, plain, respectful adult language, grade 6-8 reading level. Say what a native speaker naturally says; never word for word.
 - Say the local equivalent of "people living with dementia" / "the person you care for". Never "patients", "sufferers", "demented", or baby talk. Use the polite-but-warm adult form of address.
 - Never claim or imply any activity treats, slows, prevents, cures or "trains" anything. Keep every hedge ("may", "linked with").
+- Write numbers of 1,000 and over with this language's own thousands separator (German 1.972, French 1 972, English 1,972); never change the digits.
 - Keep EXACTLY: {placeholders} such as {name}, HTML tags and every href/URL, markdown link targets, the brand "Creative Activities", and the store name "Dementia Games: Creative Activities". Keep every number as the same digits, in the same quantity: never spell a number out as a word, never drop or add one (phone numbers, years, counts, minutes).
 - Use the language's own punctuation and quotation marks. No emoji, no exclamation-mark praise, no ALL CAPS.
 - Never add an emergency number or clinical detail that the English source does not provide. Localize a number only when the source explicitly gives one; if it asks readers to contact local urgent care or services without a number, keep it number-free. Keep cited source titles, publishers and URLs unchanged.
@@ -514,6 +515,9 @@ def translate_guide(lang: dict, rel: str) -> str:
 
 def number_tokens(text: str) -> list[str]:
     values = []
+    # Thousands groups read as one number whatever the separator ("1,972", "1.972", "1 972" with a
+    # space or no-break space, "1'972"), as the site's structure test reads them (normalizeDigits).
+    text = re.sub(r"(?<!\d)\d{1,3}(?:[.,\u00a0\u202f' ’]\d{3}(?!\d))+", lambda m: re.sub(r'\D', '', m.group()), text)
     for token in re.findall(r'\d+(?:[,.]\d+)*', text):
         value = ''.join(str(int(ch)) for ch in token if ch.isdecimal())
         if value:
@@ -521,6 +525,8 @@ def number_tokens(text: str) -> list[str]:
     return sorted(values)
 
 
+# The numbers src/lib/translation-structure.ts treats as country facts (LOCALE_FACT_NUMBERS).
+LOCALE_FACT_NUMBERS = ('911', '112', '999', '119', '988')
 EMERGENCY_NUMBERS = {'000', '101', '102', '108', '110', '111', '112', '119', '190', '191', '192', '193', '911', '988', '995', '999'}
 
 
@@ -576,8 +582,15 @@ def mixed_script_words(src: str, out: str) -> list[str]:
     bad = []
     for word in re.findall(r'\S+', text):
         kinds = [_script(c) for c in word]
+        if len({k for k in kinds if k not in (None, 'ascii')}) > 1:  # two non-Latin alphabets in one word
+            bad.append(word)
+            continue
         touching = any('ascii' in (a, b) and a != b and None not in (a, b) for a, b in zip(kinds, kinds[1:]))
-        if touching and any(run.lower() not in english for run in re.findall(r'[A-Za-z]+', word)):
+        # A short run ("a", "i") is always an English word, so only longer runs can be a name with a suffix.
+        # Short lowercase runs ("a", "i") are always English words, so they cannot excuse a mix;
+        # acronyms ("AP") and names with an apostrophe ("Alzheimer's") are checked whole.
+        runs = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", word)
+        if touching and any((len(r) < 3 and r.islower()) or r.split("'")[0].lower() not in english for r in runs):
             bad.append(word)
     return bad
 
@@ -623,6 +636,12 @@ def guide_problems(src: str, out: str) -> str:
     from collections import Counter
     na = Counter(visible_number_tokens(ba + '\n' + frontmatter_prose(fa)))
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
+    # Emergency and crisis numbers are country facts: "911" may become the reader's "112", as the
+    # site's structure test allows (LOCALE_FACT_NUMBERS), but none may be added or dropped.
+    la = sum(na.pop(n, 0) for n in LOCALE_FACT_NUMBERS)
+    lb = sum(nb.pop(n, 0) for n in LOCALE_FACT_NUMBERS)
+    if la != lb:
+        errs.append(f'emergency numbers: English has {la}, the translation has {lb}; swap one for the local number, never add or drop')
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
     # Lengths the guidesI18n schema in src/content.config.ts allows (JavaScript string length: UTF-16 units).

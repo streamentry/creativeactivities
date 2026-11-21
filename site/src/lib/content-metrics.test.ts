@@ -267,8 +267,9 @@ describe('the report over the real pages', () => {
     expect(result.reviewed.health.current + result.reviewed.other.current + result.reviewed.health.stale + result.reviewed.other.stale).toBe(withRecord);
   });
 
-  it('accounts for every translated guide, live or behind a retired guide', () => {
-    expect(result.translation.translatedPages + result.translation.behindRetiredGuides).toBeGreaterThan(10000);
+  it('accounts for every translated guide; retired translations are removed (their addresses redirect)', () => {
+    expect(result.translation.translatedPages).toBeGreaterThan(2500);
+    expect(result.translation.behindRetiredGuides).toBe(0);
     expect(result.translation.liveEnglishGuides).toBe(liveGuides.length);
     expect(result.translation.nativeReviewedPages).toBe(0);
   });

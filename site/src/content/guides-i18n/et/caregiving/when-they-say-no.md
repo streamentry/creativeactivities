@@ -1,35 +1,34 @@
 ---
 title: "Kui dementsusega inimene keeldub tegevusest või ärritub"
 seoTitle: "Kui dementsusega inimene keeldub tegevusest"
-description: "Miks dementsusega inimene võib tegevusest keelduda või ärrituda, mida proovida, mida vältida ja millal vajab ootamatu muutus arsti abi."
+description: "Miks dementsusega elav inimene võib tegevusest keelduda või ärrituda, mida proovida selle asemel, mida vältida ja millal äkiline muutus vajab arsti."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Kui dementsusega inimene ütleb „ei“, võtke see rahulikult vastu ning
-  proovige hiljem uuesti või pakkuge midagi muud. Keeldumisel on sageli põhjus:
-  tegevus tundub liiga raske või lapsik, inimene on väsinud, tal on valus, ta
-  on näljane või teda segab liiga palju müra. Ärge vaidlege ega suruge peale.
-  Tehke tegevus lihtsamaks, pakkuge kahte valikut või paluge tal teid aidata.
-  Ootamatu või kiiresti muutuv käitumine, eriti pärast nakkust või uue ravimi
-  võtmist, vajab viivitamatut arsti abi.
+  Kui dementsusega inimene ütleb ei, aktsepteerige see rahulikult ja proovige
+  hiljem uuesti või pakkuge midagi muud. Keeldumisel on sageli põhjus: ülesanne
+  tundub liiga raske või lapsik, inimene on väsinud, valus või näljane või ei
+  talu müra. Ärge vaielge ega suruge peale. Lihtsustage, pakkuge kahte valikut
+  või paluge abi. Äkiline või kiiresti muutuv käitumine, eriti pärast infektsiooni
+  või uut ravimit, vajab kiiret arstiabi.
 keyPoints:
-  - "„Ei“ on vastus, mida tuleb austada, mitte probleem, millest üle saada."
-  - "Keeldumisel on tavaliselt põhjus: liiga raske, liiga lapsik, väsimus, halb enesetunne, ebamugavus või liiga palju ärritajaid."
-  - "Astuge sammu tagasi, oodake ja proovige hiljem, teisel ajal või lihtsama variandiga."
-  - "Abi palumine toimib paremini kui soorituse ootamine."
-  - "Ärge kunagi vaidlege, suruge peale, küsitlege ega parandage. Pöörake tähelepanu ka sellele, kas te ise kiirustate või tungite liiga lähedale."
-  - "Ootamatu või kiiresti muutuv käitumine, eriti nakkuse või uute ravimite korral, vajab viivitamatut arsti poole pöördumist."
+  - "„Ei“ on vastus, mida tuleb austada, mitte probleem, mida tuleb ületada."
+  - "Keeldumisel on tavaliselt põhjus: liiga raske, liiga lapsik, väsimus, halb enesetunne, ebamugavus või üleküllastumine."
+  - "Taganege, oodake ja proovige hiljem, teisel ajal või lihtsamal kujul."
+  - "Abi palumine toimib paremini kui nende käest sooritust nõuda."
+  - "Ärge vaielge, ärge suruge peale, ärge testige ega parandage. Jälgige ennast, kas kiirustate või surute liiga peale."
+  - "Äkiline või kiiresti muutuv käitumine, eriti nakkuse või uute ravimite korral, tuleb kohe arstile näidata."
 faq:
-  - q: "Kas on sobiv lasta tal tegevustest täiesti loobuda?"
-    a: "Jah, üksikul päeval küll. Koos istumine, muusika kuulamine või aknast välja vaatamine võib olla täiesti piisav. Kui inimene kaotab nädalate jooksul huvi peaaegu kõige vastu, rääkige sellest tema arstile, sest pildis võivad olla ka tuju langus, valu või muud tervisemured."
-  - q: "Miks ta keeldub asjadest, mis talle varem meeldisid?"
-    a: "Vana hobi võib muutuda masendavaks, kui see nõuab nüüd oskusi, mis on dementsuse tõttu raskemaks läinud, ja inimene võib tunda piinlikkust. Proovige sama tegevuse lihtsamat osa, näiteks nööpide sorteerimist õmblemise asemel või aiapiltide vaatamist istutamise asemel."
-  - q: "Kas ma peaksin teda veenma proovima?"
-    a: "Ei. Inimese sundimine tegema midagi, mis on dementsuse tõttu raske, on teadaolev ärrituse vallandaja. Nõustuge keeldumisega, vahetage teemat ja pakkuge hiljem uuesti või teisel viisil."
+  - q: "Kas on okei lasta neil tegevused hoopis vahele jätta?"
+    a: "Jah, mõnel päeval küll. Koos istumine, muusika kuulamine või akna taga toimuva jälgimine võib piisata. Kui inimene lakkab nädalate jooksul kõigest rõõmu tundmast, rääkige sellest arstiga, sest taolise seisundi taga võivad olla madal meeleolu, valu või muud terviseprobleemid."
+  - q: "Miks nad keelduvad asjadest, mida varem armastasid?"
+    a: "Vana hobi võib muutuda frustreerivaks, kui see nõuab nüüd oskusi, mida dementsus on raskemaks muutnud, ja inimene võib tunda piinlikkust. Proovige sama tegevuse lihtsamat osa, näiteks nööpide sortimist õmblemise asemel või aiapiltide vaatamist aiatöö asemel."
+  - q: "Kas peaksin neid veenma?"
+    a: "Ei. Kellegi peale surumine ülesande kallal, mis dementsuse tõttu on raskeks muutunud, on tuntud ärrituse käivitaja. Aktsepteerige ei, vahetage teema ja pakkuge uuesti hiljem või teisiti."
   - q: "Millal on käitumise muutus hädaolukord?"
-    a: "Helistage numbril 112, kui keegi on ohus või tal on meditsiinilise hädaolukorra tunnused. Äkilise segasuse või tundide või päevade jooksul kiiresti muutuva käitumise korral, eriti palaviku, nakkuse või uue ravimi puhul, võtke viivitamata ühendust tema arstiga."
+    a: "Helistage hädaabinumbrile 112, kui inimene on ohus või tal on meditsiinilise hädaolukorra tunnused. Äkilise segasuse või käitumise muutumise korral, mis areneb kiiresti tundide või päevadega, eriti palaviku, nakkuse või uue ravimi korral, võtke kohe ühendust arstiga."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -51,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Te panete kõik valmis, pakute mängu või jalutuskäiku ja kuulete „ei“. Või algab tegevus kenasti, aga lõpeb kõrvale lükatud tahvelarvuti ja järsu sõnaga. See on masendav ja väga tavaline. Keeldumine ja ärritumine on tavaliselt sõnum, mitte kangekaelsus. Kui mõistate, mis sõnumiga on tegu, on sageli lihtsam otsustada, mida järgmisena proovida.
+Olete kõik valmis seadnud, pakute mängu või jalutuskäiku ja kuulete vastuseks „Ei“. Või tegevus algab hästi ja lõpeb eemale lükatud tahvelarvuti ja terava sõnaga. See on masendav ja väga tavaline. Keeldumine ja ärritus on tavaliselt sõnum, mitte trots. Kui selgitate välja, mis see sõnum on, näete sageli, mida järgmiseks proovida.
 
 ## Miks dementsusega inimene tegevustest keeldub?
 
-Tavaliselt on sellel põhjus, isegi kui inimene ei oska seda sõnadesse panna. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) märgib, et vastupanu võib tähendada, et inimene ei suuda ülesannet täita või kardab seda proovida. Levinud põhjused on:
+Tavaliselt on põhjus olemas, isegi kui inimene seda sõnadesse panna ei oska. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) märgib, et vastuseisu võib tähendada, et inimene ei suuda ülesannet täita või kardab proovida. Levinumad põhjused on:
 
-- **See tundub liiga raske.** Tegevus nõuab nüüd oskusi, mis on dementsuse tõttu raskemaks läinud, ja teise inimese ees ebaõnnestumine on piinlik.
-- **See tundub lapsik.** Täiskasvanud märkavad multikalaadseid pilte, lastehääli ja tegevusi, mis näivad olevat mõeldud lastele.
-- **Väsimus.** Paljudel inimestel on hiljem päeval vähem energiat. Vaadake ka lehte [rahulikud tegevused hilisel pärastlõunal](/caregiving/late-day-restlessness/).
-- **Kehaline ebamugavus.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) toob distressi võimalike põhjustena esile valu, une puudumise, nägemis- või kuulmisraskused, kõhukinnisuse, nälja, janu ning uute ravimite kõrvaltoimed.
-- **Liiga palju toimub korraga.** Vali teler, mitu vestlust või rahvarohke tuba võivad inimese üle koormata.
-- **Pealesurumise tunne.** NIA nimetab ärrituse põhjustena sundimist tegema midagi, mis on Alzheimeri tõve tõttu väga raskeks muutunud, või sundimist sündmusi või inimesi meenutada.
-- **Tujulangus.** Huvi kadumine asjade vastu võib olla depressiooni märk, millest tasub arstiga rääkida.
-- **Ta lihtsalt ei taha.** Täiskasvanutel on õigus „ei“ öelda.
+- **Tundub liiga raske.** Tegevus nõuab nüüd oskusi, mida dementsus on raskendanud, ja kellegi ees ebaõnnestumine on piinlik.
+- **Tundub lapsik.** Täiskasvanud märkavad koomiksilikke pilte, lapsikke ja laulvaid hääli ning tegevusi, mis näivad olevat tehtud lastele.
+- **Väsimus.** Paljudel inimestel on päeva lõpus vähem energiat. Vaadake [rahulikke pärastlõunaseid tegevusi](/creative-calm/calm-afternoon-activities/).
+- **Füüsiline ebamugavus.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) loetleb ahastuse võimalike põhjustena valu, unepuuduse, nägemis- või kuulmisraskused, kõhukinnisuse, nälja, janu ja uute ravimite kõrvaltoimed.
+- **Liiga palju toimub korraga.** Vali telesaade, mitu vestlust või rahvast täis ruum võivad olla ülekoormavad.
+- **Tunne, et survestatakse.** NIA nimetab ärevuse põhjusena survet teha midagi, mida Alzheimeri tõbi on muutnud väga raskeks, või meenutada sündmusi ja inimesi.
+- **Madal meeleolu.** Huvi kaotamine asjade vastu võib olla depressiooni märk, millest tasub arstile rääkida.
+- **Lihtsalt ei taha.** Täiskasvanutel on õigus öelda ei.
 
-## Mida peaksin proovima, kui ta ütleb „ei“?
+## Mida proovida, kui nad ütlevad ei?
 
-Võtke keeldumine rahulikult vastu ja muutke seejärel midagi: aega, tegevust, raskusastet või seda, kuidas te küsite.
+Aktsepteerige ei rahulikult ja muutke siis midagi: aega, tegevust, raskusastet või seda, kuidas küsite.
 
-1. **Laske praegu olla.** „See on täiesti korras. Võib-olla hiljem.“ Seejärel liikuge millegi muu juurde ilma ohkamata.
-2. **Proovige hiljem uuesti.** Alzheimer's Association soovitab proovida hiljem uuesti või teisel kellaajal.
-3. **Tehke see väiksemaks.** Üks paar terve mängu asemel. Üks rätik pesukorvi asemel. Vähem pilte, vähem valikuid, pildid nähtaval.
-4. **Pakkuge kahte valikut.** „Kas soovite vaadata linnupilte või kuulata veidi muusikat?“ Valik annab inimesele tagasi kontrollitunde.
-5. **Paluge abi, mitte sooritust.** „Kas saaksid mind nende sortimisel aidata?“ või „Kas saad öelda, milline värv tundub kõige parem?“ Vajalik olemine tundub hoopis teistsugune kui proovile pandud olemine.
-6. **Alustage ise.** Alustage tegevust tema kõrval ilma küsimata. Paljud inimesed ühinevad siis, kui midagi juba toimub; kui ta ei ühine, olete te ikkagi koos aega veetnud.
-7. **Vahetage midagi füüsilise või rahustava vastu.** Lühike jalutuskäik, muusika, suupiste, pesu voltimine või ühine [rahulik hingamine](/games/calm-breathing/). NIA soovitab suunata tähelepanu muusikale, raamatule või jalutuskäigule.
-8. **Laske tal teha omal viisil.** Kui ta soovib mängida teisiti, kui reeglid ütlevad, tehke nii, nagu talle sobib. Alzheimer's Association soovitab paindlik olla.
+1. **Laske sellel praegu minna.** „Pole hullu. Võib-olla hiljem.“ Seejärel liikuge kergelt edasi millegi muu juurde, ohkamata.
+2. **Proovige hiljem uuesti.** Alzheimer's Association soovitab proovida uuesti hiljem või päeva muul ajal.
+3. **Tehke väiksemaks.** Üks vaste terve mängu asemel. Üks rätik pesukorvi asemel. Vähem pilte, vähem valikuid, pildid nähtaval.
+4. **Pakkuge kahte valikut.** „Kas soovite vaadata linnupilte või kuulata muusikat?“ Valik annab tagasi tunde, et inimene ise otsustab.
+5. **Paluge abi, mitte sooritust.** „Kas aitaksite mind nende sortimisel?“ või „Milline värv teie arvates sobib kõige paremini?“ Vajalikuks olemine tundub väga erinev sellest, et teid testitakse.
+6. **Alustage ise.** Alustage tegevust nende kõrval, küsimata. Paljud inimesed liituvad, kui midagi juba toimub. Ja kui ei liitu, olete ikkagi koos aega veetnud.
+7. **Lülituge füüsilisele või rahustavale tegevusele.** Lühike jalutuskäik, muusika, suupiste, pesu kokkuvoltimine või ühine [rahuliku hingamise](/games/calm-breathing/) paus. NIA soovitab suunata tähelepanu muusikale, raamatule või jalutuskäigule.
+8. **Laske neil teha omal moel.** Kui nad tahavad mängida teisiti, kui reeglid ütlevad, minge sellega kaasa. Alzheimer's Association soovitab olla paindlik.
 
-## Mida peaksin ütlema, kui ta ärritub?
+## Mida öelda, kui nad ärrituvad?
 
-Võtke rahulikumalt, rääkige vaiksemalt ja kinnitage talle turvatunnet. [Alzheimer's Associationi juhised ärrituse kohta](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) soovitavad sammu tagasi astuda ja luba küsida, kasutada rahulikke ja toetavaid lauseid ning pakkuda juhitud valikut kahe võimaluse vahel. Selles vaimus sobivad laused:
+Aeglustage, madaldage häält ja rahustage. [Alzheimer's Associationi juhised ärrituse kohta](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) soovitavad taganeda ja küsida luba, kasutada rahulikke ja positiivseid lauseid ning pakkuda kahe võimaluse vahel valikut. Sellises vaimus fraasid:
 
-- „Mul on kahju, see on tõesti tülikas. Lõpetame selle.“
-- „Kõik on hästi. Ma olen siin.“
-- „Kas sul oleks aega mind millegi muuga aidata?“
-- „Kas joome parem tassi teed?“
+- „Mul on kahju, see on tüütu. Lõpetame.“
+- „Teil läheb hästi. Ma olen siin.“
+- „Kas teil on aega aidata mul millegi muuga?“
+- „Kas joome hoopis tassi teed?“
 
-Seejärel lõpetage tegevus ilma sellest suurt numbrit tegemata. Meie [suhtlemisnõuanded](/caregiving/communication-tips/) aitavad leida veel sobivaid sõnu.
+Seejärel lõpetage tegevus ilma sellest suurt numbrit tegemata. [Esimesed sammud pärast diagnoosi](/caregiving/after-dementia-diagnosis/) leheküljel on hea algus toe leidmiseks.
 
-## Mida peaksin vältima?
+## Mida tuleks vältida?
 
-Mõned loomulikud reaktsioonid kipuvad olukorda halvendama.
+Mõned loomulikud reaktsioonid kipuvad asju halvemaks tegema.
 
-- **Vaidlemist või peale surumist.** „No tule, veel üks kord“ või „Sulle ju meeldib see“ ei aita kuigi sageli.
-- **Küsitlemist või parandamist.** „Sa ju tead, mis see on“ või „Ei, see on vale“ lisavad survet.
-- **Isiklikult võtmist.** NIA tuletab hooldajatele meelde, et need muutused on seotud haiguse, mitte inimese iseloomuga.
-- **Liiga lähedale tungimist või kiirustamist.** Alzheimer's Association soovitab vältida hääle tõstmist, ärevuse näitamist, nurka surumist, liiga lähedale minemist, kinni hoidmist, kritiseerimist, ignoreerimist ja vaidlemist ning vältida ka järske liigutusi inimese selja taga.
-- **Süütunde tekitamist.** „Ma panin selle kõik sinu jaoks valmis“ jätab mõlemad end halvasti tundma.
-- **Sildistamist.** „Jonnakas“ või „raske inimene“ peidab tegeliku põhjuse ja raskendab lahenduse leidmist.
+- **Vaidlemine või peale surumine.** „Tule nüüd, veel üks“ või „Sulle ju meeldib see“ aitavad harva.
+- **Küsimustega testimine või parandamine.** „Sa tead ju, mis see on“ või „Ei, see on vale“ lisab survet.
+- **Asja isiklikuks võtmine.** NIA tuletab hooldajatele meelde, et just haigus, mitte inimene, põhjustab neid muutusi.
+- **Pealetungimine ja kiirustamine.** Alzheimer's Association soovitab mitte tõsta häält, mitte näidata ehmatust, mitte inimest nurka suruda, ahistada, kinni hoida, kritiseerida, ignoreerida ega temaga vaielda ning vältida äkilisi liigutusi tema nägemisvälja.
+- **Süütunde tekitamine.** „Ma seadsin kõik selle sinu jaoks üles“ paneb mõlemad end halvemini tundma.
+- **Silte kleepimine.** „Trotslik“ või „raske“ varjab tegelikku põhjust ja teeb lahendamise raskemaks.
 
-## Kuidas selgitada välja, mis korduva keeldumise taga on?
+## Kuidas selgitada, mis korduva keeldumise taga on?
 
-Pidage nädal või kaks lihtsat märkmikku. NIA ütleb, et käitumismuutuste jälgimine võib aidata hooldajatel ja tervishoiutöötajatel märgata mustrit ja leida põhjuse.
+Pidage paar nädalat lihtsat märkmikku. NIA sõnul võib käitumise muutuste jälgimine aidata hooldajatel ja tervishoiutöötajatel märgata mustrit ja selgitada välja põhjuse.
 
 Märkige üles:
 
-- kellaaeg;
-- mida te pakkusite ja kuidas te küsisite;
-- mis teie ümber toimus (müra, külalised, teler);
-- kuidas ta magas, sõi ja jõi ning millal ta viimati tualetis käis;
-- kas on lisandunud uusi ravimeid või hiljutine haigus.
+- päeva kellaaeg;
+- mida pakkusite ja kuidas küsisite;
+- mis teie ümber toimus (müra, külalised, telekas);
+- kuidas inimene magas, sõi ja jõi ning millal viimati tualetis käis;
+- uued ravimid või hiljutine haigus.
 
-Mustrid tulevad sageli kiiresti esile: keeldumised, mis juhtuvad ainult pärast kella 16, ainult teatud mängu korral või ainult siis, kui teler on sees. Family Caregiver Alliance'i [dementsusega seotud käitumise juhend](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) ütleb selle lihtsalt: me ei saa inimest muuta, kuid saame muuta oma käitumist ja keskkonda.
+Mustrid ilmnevad sageli kiiresti: keeldumised, mis esinevad ainult pärast kella 4 pärastlõunal, ainult kindla mängu puhul või ainult siis, kui telekas on sees. Family Caregiver Alliance'i [juhend dementsuse käitumise kohta](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) ütleb lihtsalt: me ei saa inimest muuta, kuid saame muuta oma käitumist ja keskkonda.
 
-## Millal peaksin keeldumisest või ärritumisest arstiga rääkima?
+## Millal peaksite arstiga rääkima keeldumisest või ärritusest?
 
-Rääkige arstiga siis, kui käitumine muutub ootamatult, kiiresti või koos haiguse tunnustega. NIA ütleb, et ootamatutest või kiiresti kõikuvaist käitumismuutustest, eriti kui inimesel on olnud nakkus või hiljuti on muudetud ravimeid, tuleks arstile viivitamata teada anda.
+Rääkige arstiga, kui käitumine muutub äkitselt, kiiresti või koos haiguse tunnustega. NIA sõnul tuleb äkilised või kiiresti kõikuvad käitumismuutused, eriti kui inimesel on olnud nakkus või hiljuti muudetud ravimeid, kohe arsti tähelepanu alla tuua.
 
-Võtke viivitamata ühendust tema arstiga, kui märkate järgmist:
+Võtke arstiga kiiresti ühendust, kui märkate:
 
-- äkiline segasus või suur muutus tundide või päevade jooksul;
-- valust rääkivad märgid, nagu grimassitamine, kehaosa kaitsmine või uus raskus liikumisel;
-- palavik või muud nakkuse tunnused;
-- uued või muudetud ravimid, millele järgneb käitumise muutus;
-- huvi kadumine peaaegu kõige vastu, nutulisus või endassetõmbumine, mis kestab kauem kui paar nädalat;
-- söögist või joogist keeldumine.
+- äkilist segadust või suurt muutust tundide või päevade jooksul;
+- valu tunnuseid, näiteks näo kokkutõmbumist, kehaosa kaitsmist või uusi liikumisraskusi;
+- palavikku või muid nakkuse tunnuseid;
+- uusi või muudetud ravimeid, millele järgneb käitumise muutus;
+- peaaegu kõige huvi kadumist, pisaravust või tõmbumist, mis kestab rohkem kui paar nädalat;
+- toidust või joogist keeldumist.
 
-Alzheimer's Association soovitab kõigil, kellel esineb käitumuslikke sümptomeid, põhjalikku arstlikku kontrolli, eriti kui need ilmnevad ootamatult. Ka Family Caregiver Alliance soovitab esmalt arstiga nõu pidada, sest käitumisprobleemidel võib olla meditsiiniline põhjus. Ärge alustage, lõpetage ega muutke ühegi ravimi võtmist ilma arsti või proviisoriga rääkimata.
+Alzheimer's Association soovitab põhjalikku arstlikku läbivaatust igale inimesele, kellel on käitumuslikke sümptomeid, eriti kui need ilmnevad äkki. Family Caregiver Alliance soovitab samuti kõigepealt arstiga nõu pidada, sest käitumisprobleemidel võib olla meditsiiniline põhjus. Ärge alustage, lõpetage ega muutke ühtegi ravimit ilma arsti või apteekriga rääkimata.
 
-Kui keegi on ohus või esinevad meditsiinilise hädaolukorra tunnused, helistage 112. NIA soovitab häirekeskusele öelda, et inimesel on dementsus.
+Kui keegi on ohus või on meditsiinilise hädaolukorra tunnuseid, helistage hädaabinumbrile 112. NIA soovitab dispetšerile öelda, et inimesel on dementsus. Kui ärritus muutub füüsiliseks, astuge eemale ja küsige nõu arstilt või hooldusmeeskonnalt.
 
-## Kas on sobiv, kui me ei tee üldse midagi?
+## Kas on okei, kui me ei tee üldse midagi?
 
-Jah. Mõnel päeval on parim tegevus tegevusetus: koos istumine, käest kinni hoidmine, lemmikmuusika kuulamine või lindude vaatamine aknast. See ei ole ebaõnnestumine. Meie [koos mängimise juhend](/caregiving/how-to-play-together/) selgitab, miks vara lõpetamine või üldse mitte alustamine võib olla õige otsus.
+Jah. Mõnel päeval on parim tegevus mitte midagi teha: koos istuda, käest kinni hoida, lemmikplaati kuulata või aknast linde vaadata. See ei ole ebaõnnestumine. Meie [juhend koos mängimise kohta](/caregiving/how-to-play-together/) selgitab, miks varane lõpetamine või mittealustamine võib olla õige otsus.

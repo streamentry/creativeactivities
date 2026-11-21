@@ -1,33 +1,28 @@
 ---
-title: "Actividades para demencia avanzada, na cama ou cadeira"
-seoTitle: "Demencia avanzada: actividades na cama e na cadeira"
-description: "Actividades suaves para a demencia avanzada, tamén para quen está na cama ou nunha cadeira: música, tacto, lectura en voz alta, sons e estar xuntos."
+title: "Actividades para a demencia en etapa avanzada, tamén na cama ou na cadeira"
+seoTitle: "Actividades para a demencia avanzada: ideas para a cama e a cadeira"
+description: "Actividades suaves para a demencia en etapa avanzada, tamén para unha persoa na cama ou na cadeira: música, tacto, lectura en voz alta, sons e estar xuntos, con notas de seguridade."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Na demencia en fase avanzada, as actividades céntranse nos sentidos e na túa
-  compañía: escoitar a súa música favorita, coller da man, dar unha masaxe
-  lenta nas mans, ler en voz alta, mirar fotos, escoitar sons da natureza e
-  sentar xunto á ventá ou fóra. Estas ideas serven tanto na cama como nunha
-  cadeira. Fai sesións curtas, fíxate na cara, nas mans e na respiración para
-  ver se a persoa está cómoda e lembra que a túa presenza xa é unha actividade.
+  Na demencia en etapa avanzada, as actividades céntranse nos sentidos e na compañía: poñer a música favorita, dar a man, unha masaxe lenta nas mans, ler en voz alta, mirar fotos, sons da natureza e sentar xunto a unha fiestra ou ao aire libre. Estas actividades funcionan na cama ou na cadeira. Manteña as sesións curtas, observe o rostro e as mans para ver se hai comodidade, e lembre que estar presente é en si mesmo a actividade.
 keyPoints:
-  - "A conexión aínda é posible. Na fase avanzada, o mundo vivese sobre todo a través dos sentidos."
-  - "A música, o tacto suave, as voces familiares e as cousas brandas para coller adoitan chegar cando as palabras xa non."
-  - "Case todas as ideas desta páxina serven para unha persoa que está na cama ou nunha cadeira."
-  - "Observa sinais de benestar ou malestar na cara, nas mans e na respiración, e para ante calquera sinal de angustia."
-  - "Evita obxectos pequenos e ofrece comida ou bebida só segundo as indicacións do equipo de coidados, porque tragar pode facerse inseguro."
+  - "A conexión segue sendo posible. Na etapa avanzada, o mundo vívese sobre todo a través dos sentidos."
+  - "A música, o tacto suave, as voces coñecidas e os obxectos brandos para sostener adoitan chegar ás persoas cando as palabras xa non o fan."
+  - "Case todas as ideas aquí funcionan para unha persoa na cama ou na cadeira."
+  - "Observe a comodidade e o malestar no rostro, nas mans e na respiración, e pare ante calquera sinal de angustia."
+  - "Evite os obxectos pequenos e ofreza comida ou bebida só como indique o equipo de coidados, porque tragar pode volverse inseguro."
 faq:
-  - q: "Que actividades podo facer cunha persoa con demencia avanzada que está na cama?"
-    a: "Podes poñer a súa música favorita, collerlle da man, dar unha masaxe lenta nas mans con crema, ler en voz alta un libro ou unha oración que lle guste, mostrar fotos ou poñer sons suaves da natureza. Abre as cortinas para que vexa o exterior. Adoitan funcionar mellor sesións curtas e tranquilas, cunha soa cousa de cada vez."
-  - q: "As persoas con demencia avanzada aínda poden gozar da música?"
-    a: "Moitas poden. A Alzheimer's Association indica que, mesmo na fase avanzada, unha persoa pode seguir o ritmo cunha palmada ou cantar unha canción da infancia. Elixe música que lle gustaba cando era máis nova e mantén o volume baixo."
-  - q: "Como podo saber se está a gozar dunha actividade?"
-    a: "Fíxate en pequenos sinais: ombreiros relaxados, unha expresión máis suave, contacto visual, tararear, apertar a man ou unha respiración máis lenta. Un xesto de dor, afastarse, inquietude ou xemidos poden indicar malestar ou dor. Se ves estes sinais, para e coméntallo ao equipo de coidados se continúan."
-  - q: "Merece a pena visitala se xa non me recoñece?"
-    a: "Si. O National Institute on Aging indica que simplemente estar presente pode ser calmante, e que o tacto, a música e as historias aínda poden dar confort na demencia avanzada. A túa voz e o teu tacto poden resultarlle familiares aínda que non lembre o teu nome."
+  - q: "Que actividades se poden facer con alguén en etapa avanzada de demencia que está na cama?"
+    a: "Poña a súa música favorita, déalle a man, faga unha masaxe lenta nas mans con crema, lea en voz alta un libro ou unha oración que lle guste, mostre fotos ou poña sons suaves da natureza. Abra as cortinas para que poida ver o exterior. As sesións curtas e tranquilas, con unha cousa de cada vez, adoitan funcionar mellor."
+  - q: "As persoas en etapa avanzada de demencia aínda poden gozar da música?"
+    a: "Moitas poden. A Alzheimer's Association sinala que, mesmo na etapa avanzada, unha persoa pode seguir o ritmo cos dedos ou cantar unha canción da infancia. Escolla música que lle gustaba cando era máis xoven e manteña o volume baixo."
+  - q: "Como sei se gozan dunha actividade?"
+    a: "Observe os pequenos sinais: ombros relaxados, un rostro máis suave, contacto visual, tararear, un apertón de man ou unha respiración máis lenta. Facer caretos, apartarse, inquietude ou xemidos poden indicar malestar ou dor. Se os ve, pare e avise ao equipo de coidados se seguen."
+  - q: "Paga a pena visitar á persoa se xa non me recoñece?"
+    a: "Si. O National Institute on Aging sinala que o simple feito de estar presente pode tranquilizar, e que o tacto, a música e as historias poden seguir dando consolo na demencia avanzada. A súa voz e o seu tacto poden resultar coñecidos aínda cando o seu nome non o é."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -49,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Na fase avanzada da demencia, unha persoa pode falar moi pouco, precisar axuda para todos os coidados diarios e pasar gran parte do día na cama ou nunha cadeira. Pode parecer que xa non queda nada que facer xuntos. Si que queda. A [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) indica que pode permanecer parte da esencia da persoa e que, nesta fase, o mundo se vive sobre todo a través dos sentidos. A música, o tacto, unha voz familiar e a túa compañía tranquila aínda poden dar confort e momentos de conexión.
+Na etapa avanzada da demencia, unha persoa pode falar moi pouco, necesitar axuda con todo o coidado diario e pasar boa parte do día na cama ou na cadeira. Pode parecer que xa non queda nada que facer xuntos. Si queda. A [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) sinala que segue existindo unha parte do eu da persoa, e que nesta etapa o mundo se vive sobre todo a través dos sentidos. A música, o tacto, unha voz coñecida e a súa compañía tranquila poden seguir dando consolo e momentos de conexión.
 
-## Que actividades axudan na demencia en fase avanzada?
+## Que actividades axudan na demencia en etapa avanzada?
 
-As actividades sensoriais sinxelas e a compañía tranquila adoitan ser as que mellor funcionan nesta fase. A Alzheimer's Association suxire poñer a música favorita, ler partes de libros con significado, dar unha masaxe con crema cun aroma que lle guste e sentar xuntos fóra nun día agradable. O [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) engade contar historias, mostrar fotos, ofrecer tacto suave ou masaxe, e poñer música, ruído branco ou sons da natureza, e sinala que a túa presenza por si soa pode ser calmante.
+As actividades sensoriais sinxelas e a compañía tranquila axudan máis nesta etapa. A Alzheimer's Association suxire poñer a música favorita, ler partes de libros con significado, esfregar crema con un aroma favorito na pel e sentar fóra xuntos nun día agradable. O [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) engade contar historias, mostrar fotos, un tacto suave ou masaxe, e música, ruído branco ou sons da natureza, e di que a súa presenza por si soa pode tranquilizar.
 
-A [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) indica que as persoas na fase avanzada adoitan ter unha forte necesidade de coller algo preto para sentirse cómodas, e suxire actividades sensoriais sinxelas, estiramentos suaves, movemento cun pano, música, visitas de animais, contacto humano e arte libre.
+A [Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) sinala que as persoas en etapa avanzada adoitan ter unha forte necesidade de sostener algo preto para sentirse consoladas, e suxire actividades sensoriais sinxelas, estiramentos suaves, movemento con pañuelos, música, visitas de animais, contacto humano e arte libre.
 
-## Actividades para unha persoa na cama ou nunha cadeira
+## Actividades para unha persoa na cama ou na cadeira
 
-1. **Pon a súa música.** Elixe cancións da súa mocidade, da súa fe ou da súa familia. Mantén o volume baixo e senta preto. Aínda agora, algunhas persoas moven un dedo ou tararean. Consulta [actividades con música](/activities/music/).
-2. **Colle da súa man.** Só coller a man, cunha caricia suave co polgar, xa é unha actividade. Primeiro dille o que vas facer.
-3. **Dálle unha masaxe lenta nas mans.** Quenta un pouco de crema nas mans e acaricia desde o pulso ata as puntas dos dedos. Usa crema sen perfume, ou cun aroma que sempre lle gustase se a súa pel o tolera.
-4. **Le en voz alta.** Un poema favorito, un fragmento dun libro moi querido, unha oración ou a sección de deportes. O ritmo da túa voz importa máis ca as palabras.
-5. **Conta unha historia.** Fala dunha viaxe en familia ou do día en que casou. Non fai falta que responda.
-6. **Mostra fotos.** Sostén unha foto grande de cada vez á altura dos ollos e descríbea con cariño. Evita preguntar quen aparece nela.
-7. **Ofrécelle algo brando para coller.** Un pano dobrado, un anaco de forro polar ou un peluche suave. O NIA suxire dar á persoa un pano para coller mentres a moven, para que sexa menos probable que se agarre a ti ou aos mobles.
-8. **Pon sons da natureza.** Choiva, ondas ou paxaros cun volume baixo poden suavizar un cuarto con ruído.
-9. **Achega o exterior.** Abre as cortinas, coloca un comedeiro para paxaros fóra da ventá ou trae unhas flores ou follas frescas para miralas e tocalas.
-10. **Sae fóra.** Se a persoa pode sentar nunha cadeira de rodas, uns minutos á sombra nun día suave poden ser agradables.
-11. **Peitéalle o pelo ou ofrécelle un pano morno.** Un coidado lento e suave e un pano morno para as mans e a cara poden resultar reconfortantes.
-12. **Móvete con suavidade coa música.** Axitade xuntos un pano lixeiro ou move as mans ao ritmo dunha canción. Para estiramentos e movementos das articulacións, pide antes a unha fisioterapeuta, un fisioterapeuta, unha enfermeira ou un enfermeiro que che mostre formas seguras de facelo.
-13. **Facede arte libre.** Estende pintura non tóxica sobre un papel grande cunha esponxa ou coa man, guiada pola túa. Non hai un resultado correcto.
-14. **Permite visitas de animais.** Un animal tranquilo na cama ou no colo, se á persoa lle gustaban os animais e o lugar o permite.
-15. **Respirade amodo xuntos.** Senta preto e respira amodo e de forma audible. [Respiración tranquila](/games/calm-breathing/) pode marcarvos o ritmo, e ti es quen a comeza e a para.
-16. **Simplemente está.** Senta preto, tararea, tece ou le en silencio. Estar presente xa abonda.
+1. **Poña a súa música.** Escolla cancións da súa mocidade, da súa fe ou da súa familia. Manteña o volume baixo e sente preto. Aínda agora, algunhas persoas bateen cun dedo ou tararean. Vexa [actividades musicais](/creative-calm/music-for-calm-and-connection/).
+2. **Dea a man.** Só sostendo unha man, cunha lixeira caricia co polgar, xa é unha actividade. Diga antes o que vai facer.
+3. **Faga unha masaxe lenta nas mans.** Quente un pouco de crema nas palmas e acaricie desde a boneca ata as xemas dos dedos. Escolla unha crema sen perfume, ou un aroma que sempre lle gustou se a pel o tolera.
+4. **Lea en voz alta.** Un poema favorito, un pasaxe dun libro moi querido, a Biblia ou a sección de deportes. O ritmo da súa voz importa máis que as palabras.
+5. **Conte unha historia.** Fale dunha viaxe familiar ou do día da voda. Non fan falta respostas.
+6. **Mostre fotos.** Sostéña unha foto grande de cada vez á altura dos ollos e descríbaa con calidez. Evite preguntar quen aparece.
+7. **Ofreza algo brando para sostener.** Unha toalla dobrada, un cadrado de polar ou un animal brando. O NIA suxire darlle unha toalla para sostener mentres se a move, para que sexa menos probable que se agarre a vostede ou aos mobles.
+8. **Poña sons da natureza.** Choiva, ondas ou canto de paxaros a baixo volume poden suavizar unha sala ruidosa.
+9. **Traia o exterior ao interior.** Abra as cortinas, coloque un comedeiro de paxaros fóra da fiestra, ou traia unhas flores ou follas frescas para mirar e tocar.
+10. **Saia ao exterior.** Se a persoa pode sentar nunha cadeira de rodas, uns minutos á sombra nun día suave poden ser moi bonitos.
+11. **Cepille o cabelo ou ofreza unha toalla quente.** O coidado lento e suave, e unha toalla quente para as mans e a cara, poden resultar moi cariñosos.
+12. **Muévase suavemente ao son da música.** Axite un pañuelo lixeiro xuntos, ou balance as mans ao compás dunha canción. Para estiramentos e mobilidade das articulacións, pida antes a unha fisioterapeuta ou a unha enfermeira que lle amosen xeitos seguros.
+13. **Faga arte libre.** Estenda pintura non tóxica sobre papel grande cunha esponxa ou coa man, guiado pola súa. Non hai resultado correcto.
+14. **Acolla visitas de animais.** Unha mascota tranquila na cama ou no colo, se á persoa lle gustaban os animais e o contorno o permite.
+15. **Respire amodo xuntos.** Sente preto e respire lento e de xeito que se note. A [respiración tranquila](/games/calm-breathing/) pode marcar o ritmo de ambos, e vostede decide cando comezar e parar.
+16. **Estea simplemente aí.** Sente cerca, tarareie, tricote ou lea en silencio. Estar presente xa é suficiente.
 
-## Como compartir unha actividade nesta fase
+## Como compartir unha actividade nesta etapa
 
-- **Achégate de fronte.** Di o seu nome e o teu, e fala amodo e con suavidade antes de tocalo ou tocala.
-- **Ofrece unha cousa de cada vez.** Apaga a televisión antes de poñer música. Traballa cun só sentido de cada vez.
-- **Faino curto.** Uns poucos minutos poden ser suficientes. Varios momentos curtos ao longo do día adoitan ir mellor ca unha sesión longa.
-- **Busca comodidade primeiro.** Comproba que a persoa estea ben apoiada. O NIA suxire unha bandexa para o colo para apoiar os brazos e a parte superior do corpo cando está sentada.
-- **Observa a resposta.** Mans relaxadas, unha expresión máis suave, contacto visual ou tararear poden indicar benestar. O NIA indica que os xemidos, un xesto de dor, protexer unha parte do corpo ou unha axitación repentina poden ser sinais de dor. Para e avisa ao equipo de coidados.
+- **Achéguese de fronte.** Diga o seu nome e o da persoa, e fale amodo e con calma antes de tocar.
+- **Ofreza unha cousa de cada vez.** Apague a televisión antes de poñer música. Use un sentido de cada vez.
+- **Manteña a sesión curta.** Uns poucos minutos poden bastar. Varios momentos curtos ao longo do día son mellores que unha sesión longa.
+- **Procure primeiro a comodidade.** Comprobe que a persoa está ben apoiada. O NIA suxire unha táboa de regazo para descansar os brazos e sostér a parte superior do corpo cando está sentada.
+- **Observe a resposta.** Mans relaxadas, un rostro máis suave, contacto visual ou tararear indican comodidade. O NIA sinala que os xemidos, os caretos, protexer unha parte do corpo ou unha agitación repentina poden ser sinais de dor. Pare e avise ao equipo de coidados.
 
-## Guía rápida segundo o sentido
+## Unha guía rápida por sentido
 
-| Sentido | Ideas | Ten coidado |
+| Sentido | Ideas | Ter coidado |
 | --- | --- | --- |
-| Oído | Música favorita, a túa voz lendo, sons da natureza | Mantén o volume baixo; un só son de cada vez |
-| Tacto | Masaxe nas mans, coller da man, tea suave, pano morno | Pregunta ou avisa antes; comproba que a pel non estea dolorida nin ferida |
-| Vista | Fotos, flores, a vista desde a ventá, un vídeo lento da natureza | Sostén as cousas á altura dos ollos; boa luz, sen reflexos |
-| Olfacto | Unha crema favorita, flores frescas, o aroma do café preto | Evita cheiros fortes; ten en conta as alerxias e a respiración |
-| Gusto | Un pequeno sabor dun alimento favorito | Só alimentos e texturas que o equipo de coidados considere seguros |
+| Oído | Música favorita, a súa voz lendo, sons da natureza | Manteña o volume baixo; un son de cada vez |
+| Tacto | Masaxe nas mans, dar a man, tecido brando, toalla quente | Pregunte ou avise antes; comprobe que a pel non estea dorida nin ferida |
+| Vista | Fotos, flores, a vista desde unha fiestra, un vídeo da natureza lento | Sosteña as cousas á altura dos ollos; boa luz, sen reflexos |
+| Olfato | Unha crema favorita, flores frescas, café que se fai preto | Evite os cheiros fortes; comprobe alerxias e respiración |
+| Gusto | Unha pequena proba dun sabor favorito | Só alimentos e texturas que o equipo de coidados diga que son seguros |
 
-## Seguridade nesta fase
+## Seguridade nesta etapa
 
-Na fase avanzada, tragar pode facerse difícil, e o NIA advirte de que isto aumenta o risco de atragoamento. Non deixes obxectos pequenos ao seu alcance e ofrece comida ou bebida só nas texturas e posicións que recomende o equipo de coidados. Comproba a pel con delicadeza durante as actividades de tacto, xa que pode mancarse ou amoratarse con facilidade. Para máis ideas sensoriais seguras, consulta [actividades sensoriais](/activities/sensory/).
+Tragar pode volverse difícil na etapa avanzada, e o NIA advirte de que isto aumenta o risco de atragantamento. Non deixe obxectos pequenos ao alcance, e ofreza comida ou bebida só nas texturas e posturas que recomende o equipo de coidados. Comprobe con suavidade a pel durante as actividades de tacto, porque a pel pode romperse ou magullarse con facilidade. Para máis ideas sensoriais seguras, vexa [actividades sensoriais](/creative-calm/sensory-activities-for-adults/).
 
-## Coidar tamén de ti
+## Coidarse a si mesmo tamén
 
-Cuidar dunha persoa con demencia en fase avanzada é esixente no plano físico e emocional, tanto na casa como durante as visitas a unha residencia. Os equipos de coidados paliativos poden axudar co confort, o apoio e a planificación, e o NIA menciónaos como unha fonte de axuda. As visitas curtas e tranquilas tamén son valiosas; consulta [visitar unha persoa con demencia](/activities/visiting/). Se coordinas grupos, en [actividades en grupo nunha residencia](/activities/care-home-groups/) atoparás ideas para adaptar as sesións. E, por favor, le [coidarse cando coidas](/caregiving/caregiver-self-care/): descansar tamén forma parte de coidar ben.
+O coidado na etapa avanzada é esixente, física e emocionalmente, tanto na casa como durante as visitas a un centro de coidados. Os equipos de hospice e de coidados paliativos poden axudar con conforto, apoio e planificación, e o NIA os cita como fonte de axuda. As visitas curtas e tranquilas merecen a pena; vexa [visitar a alguén con demencia](/together/visiting-someone-in-care/). Se dirixe grupos, [actividades de grupo en centros de coidados](/crafts/craft-group-sessions/) ten ideas para adaptar as sesións. E, por favor, lea o [autocoidado para coidadores](/creative-calm/creative-self-care-for-caregivers/): o descanso forma parte de coidar ben.

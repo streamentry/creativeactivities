@@ -28,7 +28,7 @@ export async function pathsIn(code: string): Promise<Set<string>> {
       ? [
           ...LOCALIZED_STATIC,
           ...GAMES.filter((g) => gameAvailable(g.slug, code)).map((g) => `/games/${g.slug}/`),
-          ...SECTIONS.filter((s) => !(english && isRetiredSection(s))).map((s) => `/${s}/`),
+          ...SECTIONS.filter((s) => !isRetiredSection(s)).map((s) => `/${s}/`),
           ...guides.filter((g) => g.lang === code).map((g) => `/${g.id}/`),
         ]
       : [],

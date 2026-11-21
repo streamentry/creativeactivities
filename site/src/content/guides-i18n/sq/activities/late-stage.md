@@ -1,32 +1,28 @@
 ---
-title: "Aktivitete për demencën në fazën e vonë, përfshirë në shtrat ose karrige"
-seoTitle: "Aktivitete për demencën e vonë: ide për shtrat dhe karrige"
-description: "Aktivitete të buta për demencën në fazën e vonë, edhe për personin në shtrat ose karrige: muzikë, prekje, lexim me zë, tinguj dhe thjesht qenia bashkë, me kujdes."
+title: "Aktivitete për demencën në fazën e vonshme, përfshirë në shtrat ose në karrige"
+seoTitle: "Aktivitete për demencën e vonshme: ide për shtratin dhe karriget"
+description: "Aktivitete të buta për demencën në fazën e vonshme, përfshirë për personin në shtrat ose në karrige: muzikë, prekje, leximi me zë, tinguj dhe thjesht të qenit bashkë, me shënime sigurie."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Në fazën e vonë të demencës, aktivitetet përqendrohen te shqisat dhe te shoqëria
-  juaj: muzikë e preferuar, duar të mbajtura, masazh i butë i dorës, lexim me zë,
-  foto, tinguj natyre dhe ulje pranë dritares ose jashtë. Këto punojnë edhe në
-  shtrat ose karrige. Mbajini seancat të shkurtra, shikoni fytyrën dhe duart për
-  rehati, dhe mbani mend se të jesh i pranishëm është vetë aktiviteti.
+  Në fazën e vonshme të demencës, aktivitetet përqendrohen te shqisat dhe te shoqëria juaj: luajtja e muzikës së preferuar, mbajtja e duarve, një masazh i ngadaltë i duarve, leximi me zë, shikimi i fotove, tingujt e natyrës dhe uljen pranë dritares ose jashtë. Këto funksionojnë në shtrat ose në karrige. Mbajini seancat të shkurtra, shikoni fytyrat dhe duart për rehati, dhe mbani mend se të qenit i pranishëm është vetë aktiviteti.
 keyPoints:
-  - "Lidhja është ende e mundur. Në fazën e vonë, bota përjetohet kryesisht përmes shqisave."
-  - "Muzika, prekja e butë, zërat e njohur dhe objektet e buta për t'i mbajtur shpesh arrijnë te njerëzit kur fjalët nuk arrijnë më."
-  - "Pothuajse çdo ide këtu punon për dikë në shtrat ose në karrige."
-  - "Shikoni rehatinë dhe shqetësimin në fytyrë, duar dhe frymëmarrje, dhe ndaloni në çdo shenjë fatkeqësie."
-  - "Shmangni objektet e vogla dhe ofroni ushqim ose pije vetëm siç këshillon ekipi kujdesues, sepse gëlltitja mund të bëhet e pasigurt."
+  - "Lidhja është ende e mundshme. Në fazën e vonshme, bota përjetohet kryesisht përmes shqisave."
+  - "Muzika, prekja e butë, zërat e njohur dhe objektet e buta për t'i mbajtur arrijnë shpesh te njerëzit kur fjalët nuk arrijnë më."
+  - "Pothuajse çdo ide këtu funksionon për dikë në shtrat ose në karrige."
+  - "Shikoni rehatinë dhe shqetësimin në fytyrë, duar dhe frymëmarrje, dhe ndaloni kur shihni çfarëdo shenje angështie."
+  - "Shmangni objektet e vogla, dhe ofroni ushqim ose pije vetëm siç këshillon ekipi i kujdesit, sepse gëlltitja mund të bëhet e pasigurt."
 faq:
-  - q: "Çfarë aktivitetesh mund të bëni me një person me demencë në fazën e vonë që është në shtrat?"
-    a: "Luajini muzikën e preferuar, mbajini dorën, bëni një masazh të ngadaltë dore me llamb, lexoni me zë nga një libër ose lutje që e do, tregoni foto ose luani tinguj të butë natyre. Hapni perdet që të mund të shohë jashtë. Seancat e shkurtra dhe të qeta, me një gjë në një kohë, zakonisht funksionojnë më mirë."
-  - q: "A mund të kënaqen akoma muzikën personat me demencë në fazën e vonë?"
-    a: "Shumë mund. Alzheimer's Association thekson se edhe në fazën e vonë, një person mund të trokasë ritmin ose të këndojë bashkë me një këngë nga fëmijëria. Zgjidhni muzikë që e donte kur ishte më i ri dhe mbajeni volumin të butë."
-  - q: "Si e di nëse po e shijon një aktivitet?"
-    a: "Vëzhgoni shenja të vogla: supe të relaksuara, fytyrë më e butë, kontakt me sy, nynëllimë, shtrëngim të lehtë dore ose frymëmarrje më të ngadaltë. Grimasa, largimi, shqetësimi ose psherëtimat mund të tregojnë mosrehati ose dhimbje. Nëse i shihni këto, ndaloni dhe tregojani ekipit kujdesues nëse vazhdojnë."
-  - q: "A vlen të vizitoj nëse nuk më njeh më?"
-    a: "Po. National Institute on Aging thekson se thjesht të qenit i pranishëm mund të jetë qetësues, dhe se prekja, muzika dhe historitë mund të sjellin ende rehati në demencën e avancuar. Zëri dhe prekja juaj mund të jenë të njohura edhe kur emri juaj nuk është."
+  - q: "Çfarë aktivitetesh mund të bëj me dikë me demencë në fazën e vonshme që është në shtrat?"
+    a: "Luajini muzikën e preferuar, mbajini dorën, bëni një masazh të ngadaltë të duarve me lozion, lexoni me zë një libër ose lutje që e do, tregoni foto, ose luani tinguj të butë natyre. Hapni perdet që të mund të shohë jashtë. Seancat e shkurtra dhe të qeta, me një gjë në një kohë, zakonisht funksionojnë më mirë."
+  - q: "A mund të shijojnë muzikën personat me demencë të fazës së vonshme?"
+    a: "Shumë mund. Shoqata Alzheimer vë në dukje se edhe në fazën e vonshme, një person mund të trokasë ritmin ose të këndojë bashkë me një këngë të fëmijërisë. Zgjidhni muzikë që e donte kur ishte më i ri, dhe mbajeni volumin të butë."
+  - q: "Si e di nëse po shijon një aktivitet?"
+    a: "Shikoni shenja të vogla: supe të relaksuara, fytyrë më e butë, kontakt me sytë, gumëzhitje, shtrëngim dore ose frymëmarrje më e ngadaltë. Grimasat, tërheqja, lëvizja nervoze ose rënkimi mund të tregojnë shqetësim ose dhimbje. Nëse i shihni këto, ndaloni dhe i thoni ekipit të kujdesit nëse vazhdojnë."
+  - q: "A vlen të vizitoj nëse më njeh më?"
+    a: "Po. Instituti Kombëtar mbi Plakjen vë në dukje se thjesht të qenit i pranishëm mund të qetësojë, dhe se prekja, muzika dhe historitë mund të japin ende rehati në demencën e avancuar. Zëri dhe prekja juaj mund të jenë të njohura edhe kur emri juaj nuk është."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -48,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Në fazën e vonë të demencës, një person mund të flasë shumë pak, të ketë nevojë për ndihmë me të gjithë kujdesin e përditshëm dhe të kalojë pjesën më të madhe të ditës në shtrat ose në karrige. Mund të duket sikur nuk ka më asgjë për të bërë bashkë. Ka. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) thekson se diçka nga thelbi i vetes së personit mund të mbetet, dhe se në këtë fazë bota përjetohet kryesisht përmes shqisave. Muzika, prekja, një zë i njohur dhe qetësia juaj e pranishme ende mund të sjellin rehati dhe momente lidhjeje.
+Në fazën e vonshme të demencës, një person mund të flasë shumë pak, të ketë nevojë për ndihmë me gjithë kujdesin e përditshëm, dhe të kalojë shumicën e ditës në shtrat ose në karrige. Mund të ndihet sikur nuk ka më asgjë për të bërë bashkë. Ka. [Shoqata Alzheimer](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) vë në dukje se një bërthamë e vetes së personit mund të mbetet, dhe se në këtë fazë bota përjetohet kryesisht përmes shqisave. Muzika, prekja, një zë i njohur dhe shoqëria juaj e qetë mund të sjellin ende rehati dhe momente lidhjeje.
 
-## Cilat aktivitete ndihmojnë në fazën e vonë të demencës?
+## Çfarë aktivitetesh ndihmojnë në demencën e fazës së vonshme?
 
-Aktivitetet e thjeshta shqisore dhe shoqëria e qetë ndihmojnë më shumë në fazën e vonë. Alzheimer's Association sugjeron luajtjen e muzikës së preferuar, lexim i pjesëve nga libra të rëndësishëm, lyerjen e lociones me aromë të preferuar në lëkurë dhe ulje jashtë bashkë në një ditë të bukur. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) shton rrëfimin e historive, shfaqjen e fotove, prekjen ose masazhin e butë, dhe muzikën, zhurmën e bardhë ose tingujt e natyrës, dhe thotë se prania juaj vetëm mund të jetë qetësuese.
+Aktivitetet e thjeshta shqisore dhe shoqëria e qetë ndihmojnë më së shumti në fazën e vonshme. Shoqata Alzheimer sugjeron të luhet muzika e preferuar, të lexohen pjesë nga libra me kuptim, të lyhet lëkura me lozion me aromën e preferuar, dhe të uleni jashtë bashkë në një ditë të bukur. [Instituti Kombëtar mbi Plakjen](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) shton tregimin e historive, shfaqjen e fotove, prekjen e butë ose masazhin, dhe muzikën, zhurmën e bardhë ose tingujt e natyrës, dhe thotë se vetëm prania juaj mund të qetësojë.
 
-[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) thekson se personat në fazën e vonë shpesh kanë nevojë të fortë të mbajnë diçka afër për rehati, dhe sugjeron aktivitete të thjeshta shqisore, shtrirje të butë, lëvizje me shall, muzikë, vizita të kafshëve, prekje njerëzore dhe art të lirë.
+[Fondacioni Amerikan i Alzheimerit](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) vë në dukje se njerëzit në fazën e vonshme shpesh kanë nevojë të fortë për të mbajtur diçka afër për rehati, dhe sugjeron aktivitete të thjeshta shqisore, shtrirje të buta, lëvizje me shall, muzikë, vizita me kafshë, prekje njerëzore dhe art të lirë.
 
-## Aktivitete për personin në shtrat ose karrige
+## Aktivitete për dikë në shtrat ose në karrige
 
-1. **Luajini muzikën e tij.** Zgjidhni këngë nga vitet e tij të rinisë, nga besimi ose nga familja. Mbajeni volumin të butë dhe uluni afër. Edhe tani, disa njerëz trokasin me gishtin ose nynëllojnë. Shihni [aktivitetet muzikore](/activities/music/).
-2. **Mbani duart.** Vetëm mbajtja e një dore, me një prekje të butë të gishtit të madh, është një aktivitet. Thoni çfarë po bëni para se ta bëni.
-3. **Bëni një masazh të ngadaltë dore.** Ngrohni pak llamb në pëllëmbë dhe përkëdhelni nga kyçi deri te gishtat. Zgjidhni llamb pa aromë, ose një aromë që e pëlqente gjithmonë nëse lëkura e tij e toleron.
-4. **Lexoni me zë.** Një poezi të preferuar, një pjesë nga një libër i dashur, një tekst fetar ose faqen e sportit. Ritmi i zërit tuaj ka më shumë rëndësi sesa fjalët.
-5. **Tregoni një histori.** Flisni për një udhëtim familjar ose për ditën kur u martua. Nuk ju duhen përgjigje.
-6. **Tregoni foto.** Mbani një foto të madhe në një herë, në nivelin e syve, dhe përshkruajeni ngrohtë. Mos e pyesni kush është në të.
-7. **Ofroni diçka të butë për ta mbajtur.** Një peshqir i palosur, një katror me pelhurë polari ose një kafshë e butë. National Institute on Aging sugjeron t'i jepet personit një peshqir për ta mbajtur gjatë lëvizjes, që të ketë më pak gjasa të kapë ju ose mobiljet.
-8. **Luani tinguj natyre.** Shi, valë ose zëra zogjsh me volum të ulët mund ta zbusin një dhomë të zhurmshme.
-9. **Sillni jashtë brenda.** Hapni perdet, vendosni një ushqyes zogjsh jashtë dritares ose sillni brenda disa lule ose gjethe të freskëta për t'i parë dhe prekur.
-10. **Dilni jashtë.** Nëse personi mund të ulet në karrocë, disa minuta në hije një ditë të butë mund të jenë shumë të bukura.
-11. **Krihni flokët ose ofroni një leckë të ngrohtë.** Kujdesi i butë dhe i ngadaltë për flokët dhe një leckë e ngrohtë për duart dhe fytyrën mund të ndihen të dashura.
-12. **Lëvizni butë me muzikë.** Lëvizni një shall të lehtë bashkë, ose lëvizni duart në ritëm me një këngë. Për shtrirje dhe lëvizje të kyçeve, kërkoni nga një fizioterapist ose infermier t'ju tregojë më parë mënyra të sigurta.
-13. **Bëni art të lirë.** Shtrydhni bojë jo toksike në letër të madhe me një sfungjer ose me dorën, e udhëhequr nga e juaja. Nuk ka rezultat të saktë.
-14. **Mirëpritni vizitat e kafshëve.** Një kafshë shtëpiake e qetë në shtrat ose në prehër, nëse personi i ka pëlqyer kafshët dhe vendi e lejon.
-15. **Frymoni ngadalë bashkë.** Uluni afër dhe frymoni ngadalë, duke u dëgjuar. [Frymëmarrja e qetë](/games/calm-breathing/) mund t'ju rregullojë ritmin të dyve, dhe ju e nisni dhe e ndaloni.
-16. **Thjesht jini aty.** Uluni pranë, nynëlloni, qepni ose lexoni në heshtje. Të jesh i pranishëm mjafton.
+1. **Luajini muzikën e tij.** Zgjidhni këngë nga vitet e rinisë, nga besimi ose familja e tij. Mbajeni volumin të butë dhe uluni afër. Edhe tani, disa njerëz trokasin me gisht ose gumëzhijnë. Shihni [aktivitetet me muzikë](/creative-calm/music-for-calm-and-connection/).
+2. **Mbajini duart.** Thjesht mbajtja e një dore, me një lëvizje të butë të gishtit të madh, është aktivitet. Thoni para se çfarë po bëni.
+3. **Bëni një masazh të ngadaltë të duarve.** Ngrohni pak lozion në pëllëmbë dhe ledhatoni nga kyçi deri te majat e gishtave. Zgjidhni lozion pa aromë, ose një aromë që e ka dashur gjithmonë, nëse lëkura e duron.
+4. **Lexoni me zë.** Një poezi të preferuar, një pasazh nga një libër i dashur, një tekst fetar ose faqen e sporteve. Ritmi i zërit tuaj ka më shumë rëndësi sesa fjalët.
+5. **Tregoni një histori.** Flisni për një udhëtim familjar ose ditën kur u martua. Nuk ju duhen përgjigje.
+6. **Tregoni foto.** Mbajeni një foto të madhe në një kohë, në nivelin e syve, dhe përshkruajeni me ngrohtësi. Shmangni pyetjen kush është në të.
+7. **Ofroni diçka të butë për ta mbajtur.** Një leckë e palosur, një katror me leshe ose një kafshë e butë. NIA sugjeron t'i jepni personit një leckë për ta mbajtur gjatë lëvizjes, që të jetë më pak e mundshme të kapë ju ose mobiljet.
+8. **Luani tinguj natyre.** Shi, valë ose cicërimë zogjsh me volum të ulët mund të zbusin një dhomë me zhurmë.
+9. **Sillni jashtën brenda.** Hapni perdet, vendosni një ushqyes zogjsh jashtë dritares, ose sillni brenda disa lule ose gjethe të freskëta për t'i parë dhe prekur.
+10. **Dilni jashtë.** Nëse personi mund të ulet në karrocë, disa minuta në hije, në një ditë të butë, mund të jenë të bukura.
+11. **Krihni flokët ose ofroni një leckë të ngrohtë.** Krehja e ngadaltë dhe e butë, dhe një leckë e ngrohtë për duart dhe fytyrën, mund të ndihen si kujdes.
+12. **Lëvizni butësisht me muzikë.** Valëzoni bashkë një shall të lehtë, ose lëkundni duart në ritëm me një këngë. Për shtrirje dhe lëvizje të kyçeve, pyesni një fizioterapist ose infermier që t'ju tregojë fillimisht mënyra të sigurta.
+13. **Bëni art të lirë.** Shtrini bojë jo toksike mbi letër të madhe me një sfungjer ose me dorën, të udhëhequr nga ju. Nuk ka rezultat të saktë.
+14. **Mirëpritni vizitat e kafshëve.** Një kafshë shtëpiake e qetë mbi shtrat ose në prehër, nëse personi ka shijuar kafshët dhe mjedisi e lejon.
+15. **Thithni ngadalë bashkë.** Uluni afër dhe merrni frymë ngadalë dhe me zë të dëgjueshëm. [Frymëmarrja e qetë](/games/calm-breathing/) mund t'ju rregullojë ritmin të dyve, dhe e nisni dhe e ndaloni ju.
+16. **Thjesht jini aty.** Uluni pranë, gumëzhitni, thurni ose lexoni qetë. Të qenit i pranishëm mjafton.
 
-## Si ta ndani një aktivitet në këtë fazë
+## Si ndahet një aktivitet në këtë fazë
 
-- **Afrohuni nga përpara.** Thoni emrin e tij dhe emrin tuaj, dhe flisni ngadalë dhe butë përpara se ta prekni.
-- **Ofroni një gjë në një kohë.** Fikeni televizorin përpara se të luani muzikë. Bëni një shqisë në një kohë.
-- **Mbajeni të shkurtër.** Disa minuta mund të mjaftojnë. Disa momente të shkurtra gjatë ditës janë më mirë sesa një seancë e gjatë.
-- **Sigurohuni fillimisht për rehatinë.** Kontrolloni që personi të jetë mbështetur mirë. National Institute on Aging sugjeron një dërrasë në prehër për të mbështetur krahët dhe trupin e sipërm kur ulet drejt.
-- **Shikoni reagimin.** Duart e relaksuara, fytyra më e butë, kontakti me sy ose nynëllima sugjerojnë rehati. NIA thotë se psherëtima, grimasa, mbrojtja e një pjese të trupit ose agjitacioni i papritur mund të jenë shenja dhimbjeje. Ndaloni dhe tregojani ekipit kujdesues.
+- **Afrohuni nga para.** Thoni emrin e tij dhe emrin tuaj, dhe flisni ngadalë dhe butë përpara se ta prekni.
+- **Ofroni një gjë në një kohë.** Fikni televizorin përpara se të luani muzikë. Bëni një shqisë në një kohë.
+- **Mbajeni të shkurtër.** Disa minuta mund të mjaftojnë. Disa momente të shkurtra gjatë ditës janë më mirë se një seancë e gjatë.
+- **Rrini rehat më parë.** Kontrolloni që personi të jetë i mbështetur mirë. NIA sugjeron një dërrasë në prehër për të mbështetur krahët dhe trupin e sipërm kur ulet drejt.
+- **Vëzhgoni reagimin.** Duart e relaksuara, fytyra më e butë, kontakti me sytë ose gumëzhitja tregojnë rehati. NIA vë në dukje se rënkimet, grimasat, mbrojtja e një pjese të trupit ose agjitimi i papritur mund të jenë shenja dhimbjeje. Ndaloni dhe i thoni ekipit të kujdesit.
 
 ## Një udhëzues i shpejtë sipas shqisës
 
 | Shqisa | Ide | Kujdes |
 | --- | --- | --- |
-| Dëgjimi | Muzikë e preferuar, zëri juaj duke lexuar, tinguj natyre | Mbajeni volumin të ulët; një tingull në një kohë |
-| Prekja | Masazh dore, mbajtje dore, pelhurë e butë, leckë e ngrohtë | Pyesni ose njoftoni para; kontrolloni që lëkura të mos jetë e dhimbshme ose e plagosur |
-| Shikimi | Foto, lule, pamja nga dritarja, një video e ngadaltë natyre | Mbajini sendet në nivelin e syve; dritë e mirë, pa shkëlqim |
-| Nuhatja | Llamb i preferuar, lule të freskëta, kafe që po bëhet pranë | Shmangni aroma të forta; kontrolloni alergjitë dhe frymëmarrjen |
-| Shijimi | Një shije e vogël e një ushqimi të preferuar | Vetëm ushqime dhe tekstura që ekipi kujdesues thotë se janë të sigurta |
+| Dëgjimi | Muzika e preferuar, zëri juaj duke lexuar, tinguj natyre | Mbajeni volumin të ulët; një tingull në një kohë |
+| Prekja | Masazh duarsh, mbajtja e duarve, pëlhurë e butë, leckë e ngrohtë | Pyesni ose njoftoni më parë; kontrolloni që lëkura të mos jetë e dhimbshme ose e plasur |
+| Shikimi | Foto, lule, pamja nga dritarja, një video e ngadaltë natyre | Mbajini gjërat në nivelin e syve; dritë e mirë, pa shkëlqim |
+| Era | Lozion i preferuar, lule të freskëta, kafe që po bëhet afër | Shmangni aromat e forta; kontrolloni alergjitë dhe frymëmarrjen |
+| Shija | Një shije e vogël e një aromë të preferuar | Vetëm ushqime dhe tekstura që ekipi i kujdesit thotë se janë të sigurta |
 
 ## Siguria në këtë fazë
 
-Gëlltitja mund të bëhet e vështirë në fazën e vonë, dhe NIA paralajmëron se kjo rrit rrezikun e mbytjes. Mos lini objekte të vogla brenda dorës, dhe ofroni ushqim ose pije vetëm në teksturat dhe pozicionet që rekomandon ekipi kujdesues. Kontrolloni butësisht lëkurën gjatë aktiviteteve me prekje, sepse lëkura mund të çahet ose të mavijoset lehtë. Për më shumë ide të sigurta shqisore, shihni [aktivitetet shqisore](/activities/sensory/).
+Gëlltitja mund të bëhet e vështirë në fazën e vonshme, dhe NIA paralajmëron se kjo rrit rrezikun e mbytjes. Mos lini objekte të vogla brenda arritjes, dhe ofroni ushqim ose pije vetëm në teksturat dhe pozicionet që rekomandon ekipi i kujdesit. Kontrolloni lëkurën me kujdes gjatë aktiviteteve me prekje, sepse lëkura mund të çahet ose të mavijoset lehtë. Për më shumë ide të sigurta shqisore, shihni [aktivitetet shqisore](/creative-calm/sensory-activities-for-adults/).
 
 ## Kujdesuni edhe për veten
 
-Kujdesi në fazën e vonë është fizikisht dhe emocionalisht i rëndë, qoftë në shtëpi qoftë gjatë vizitave në një kujdes për të moshuarit. Ekipet e kujdesit paliativ dhe të spitalit mund të ndihmojnë me rehatinë, mbështetjen dhe planifikimin, dhe NIA i liston si burime ndihme. Vizitat e shkurtra dhe të qeta vlejnë; shihni [vizitimin e dikujt me demencë](/activities/visiting/). Nëse drejtoni grupe, [aktivitetet e grupeve në kujdes për të moshuarit](/activities/care-home-groups/) ka ide për përshtatjen e seancave. Dhe, ju lutem, lexoni [kujdesin ndaj vetes](/caregiving/caregiver-self-care/): pushimi është pjesë e kujdesit të mirë.
+Kujdesi në fazën e vonshme është fizikisht dhe emocionalisht i rëndë, qoftë në shtëpi ose gjatë vizitave në një shtëpi kujdesi. Ekipet e kujdesit paliativ dhe të kujdesit të fundit mund të ndihmojnë me rehatinë, mbështetjen dhe planifikimin, dhe NIA i liston si burim ndihme. Vizitat e shkurtra dhe të qeta kanë vlerë; shihni [vizitimin e dikujt me demencë](/together/visiting-someone-in-care/). Nëse udhëhiqni grupe, [aktivitetet e grupeve në qendrat e kujdesit](/crafts/craft-group-sessions/) ka ide për përshtatjen e seancave. Dhe ju lutem lexoni [vetë-kujdesin e kujdestarit](/creative-calm/creative-self-care-for-caregivers/): pushimi është pjesë e kujdesit të mirë.

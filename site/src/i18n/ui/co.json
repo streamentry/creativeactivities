@@ -7,16 +7,22 @@
     "homeLabel": "Momenti d'oru in casa",
     "mainNav": "Main",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Momenti d'oru: ritratti grandi è amichevuli di una tazza di tè, un girasole è un cane",
+    "defaultImageAlt": "Creative Activities: grandes illustrations amichevoli di cose di ogni ghjornu da fà è da fà inseme",
     "languages": "Lingua",
     "englishOnly": "(Inglese)",
     "machineTranslated": "Sta pagina hè stata tradutta automaticamente è ùn hè ancu stata verificata da un parlante nativu.",
     "readOriginal": "Leghjite l'uriginale in inglese",
     "nav": {
+      "find": "Find an activity",
       "games": "Ghjochi",
       "activities": "Attività",
       "caregiving": "Cura",
-      "brainHealth": "Salute di u cervellu"
+      "brainHealth": "Salute di u cervellu",
+      "crafts": "Fattura",
+      "kids": "Zitelli",
+      "together": "Inseme",
+      "creativeCalm": "Calma creativa",
+      "search": "Cerca"
     },
     "faqTitle": "Dumande è risposte",
     "breadcrumb": "Breadcrumb",
@@ -27,7 +33,32 @@
       "label": "Dimensione di u testu",
       "smaller": "Testu standard",
       "larger": "Testu più grande",
-      "contrast": "Cuntrastu più altu"
+      "contrast": "Cuntrastu più altu",
+      "colors": "Culori",
+      "light": "Chjaru",
+      "dark": "Scuru",
+      "device": "Listessu di stu dispusitivu",
+      "lineLength": "Lunghezza di e linee",
+      "standardLines": "Standard",
+      "shorterLines": "Linee più corte",
+      "spacing": "Spaziatura",
+      "standardSpacing": "Standard",
+      "moreSpace": "Più spaziu"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 idee di attività",
     "lateStage": "Attività tardive",
     "printable": "Attività stampabile",
-    "allActivities": "Tutte l'attività",
+    "allActivities": "Guide di tutte l'attività",
     "forCaregivers": "Per i caregivers",
     "playTogether": "Cumu ghjucà inseme",
     "selfCare": "A cura di sè stessu",
@@ -54,24 +85,34 @@
     "app": "L'app Creative Activities",
     "appHelp": "Aiutu di l'app",
     "support": "Supportu",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Legale",
     "sitePrivacy": "A privacy di u situ web",
     "appPrivacy": "A pulitica di privacy di l'app",
     "privacyChoices": "Scelte di privacy",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Termini è licenza di l'app",
     "safety": "Sicurezza è usu destinatu",
     "accessibility": "L'accessibilità",
     "healthNotice": "Avvisu di infurmazione sanitaria",
     "allLegal": "Tutte l'infurmazioni legali",
     "note": "Creative Activities offre semplici attività spartute per piacè. Ùn hè micca cunsiglii medichi, una prova o un trattamentu, è ùn diagnostica, misura o puntuà nimu. Per questioni di salute, parlate cù un duttore. In una emergenza, chjamate u 911.",
-    "publisher": "Pubblicatu da Cloudjet Solutions Pte. Ltd."
+    "publisher": "Pubblicatu da Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Fattura per tutte l'età",
+    "kids": "Attività per i zitelli",
+    "together": "Attività da fà inseme",
+    "creativeCalm": "Calma creativa",
+    "dementiaActivities": "Attività per e persone cù a demenza"
   },
   "home": {
-    "title": "Dementia & Alzheimer's Games è Attività | Momenti d'oru",
-    "description": "Ghjochi d'imaghjini gratuiti è gentili per ghjucà in linea è idee di attività per e persone chì vivenu cù demenza o Alzheimer è i so caregivers.",
+    "title": "Attività creative per chì cura qualcunu",
+    "description": "Attività creative gratuite per chì cura qualcunu: fattura, cose per i zitelli, attività da fà inseme è idee creative calme.",
     "eyebrow": "Gratuitu · Nisun annunziu · Nisuna iscrizzione · Nisun timer o partitura",
-    "h1": "Giochi è attività gentili per e persone cun demenza",
-    "lede": "Ghjochi di stampa simplici, ritratti familiari è attività per piacè inseme, à u vostru ritmu.",
+    "h1": "Fate qualcosa inseme",
+    "lede": "Truvate un'attività chì s'adatta à a persona, à u mumentu è à ciò chì avete. Fattura facili, arte per i zitelli, cose da fà inseme è idee creative calme, cù versioni più facili è una carta da stampà. Fermatevi quandu vulete.",
     "playGame": "Ghjucà un ghjocu",
     "findIdeas": "Truvate idee di attività",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 idee di attività",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Prima tappa",
         "text": "Cuntinuà à fà ciò chì amanu, cù picculi aghjustamenti: passatempi, viaghji, ghjochi di parolle è pianificazione inseme.",
         "label": "Idee di prima fase"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Fase media",
         "text": "I travaglii simplici è familiari sò spartuti in passi: plegamentu, ordinamentu, musica, ghjochi di stampa è brevi passeggiate.",
         "label": "Idee di u stadiu mediu"
@@ -124,10 +165,10 @@
         "label": "Idee di u stadiu più tardi"
       }
     ],
-    "specificHtml": "Cerchi qualcosa di specificu? Pruvate <a href=\"/activities/alzheimers/\">attività è ghjochi per l'Alzheimer</a>, <a href=\"/activities/memory-games/\">ghjochi di memoria gentile</a>, <a href=\"/activities/trivia/\">trivia faciuli</a> o <a href=\"/activities/puzzles/\">puzziche</a>.",
+    "specificHtml": "Cercate qualcosa di precisu? Pruvate <a href=\"/dementia-activities/\">attività è ghjochi per l'Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzzle è ghjochi di tavola</a>, <a href=\"/together/conversation-games-for-all-ages/\">ghjochi di cunversazione</a> o <a href=\"/together/puzzles-and-table-games/\">puzzle</a>.",
     "approachEyebrow": "U nostru approcciu",
-    "approachTitle": "Una attività cumuna, micca una prova di memoria",
-    "approachLede": "Parechji \"ghjochi di u cervellu\" sò custruiti intornu à a velocità, i punteggi è e strisce. Per qualchissia chì vive cù a demenza chì pò sente cum'è un esame. Avemu custruitu u cuntrariu.",
+    "approachTitle": "Un'attività cumuna, micca una prova",
+    "approachLede": "Parechji « ghjochi di cervellu » sò custruiti annantu à a velocità, i punti è e serie di vittorie. Per una persona stanca, malata o cù a demenza, ciò pò sembrà un esame. Noi avemu fattu u cuntrariu.",
     "approachLink": "Perchè u cuncepemu cusì",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Motivi cumuni per ricusà, è modi gentili per pruvà più tardi."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Configurazione di una tableta",
-        "text": "Testu più grande, menu interruzioni è una sola pantalla di casa simplice."
+        "href": "/activities/group-art-activities/",
+        "title": "Attività d'arte di gruppu",
+        "text": "Prugetti cumuni per una tavola di parechje persone, cù un compitu per ognuna."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Attività stampate gratuiti",
-        "text": "Ricerche di parole in grande stampa, pagine di culore, bingo è carte di cunversazione."
+        "href": "/activities/ideas/",
+        "title": "101 idee d'attività",
+        "text": "Idee simplici, classificate secondu ciò chì avete è quantu energia ci hè."
       }
     ],
     "researchTitle": "Salute di u cervellu: ciò chì a ricerca dice veramente",
@@ -185,16 +226,16 @@
     "aboutApp": "Circa l'app",
     "faq": [
       {
-        "q": "Chì sò i boni ghjochi per e persone cun demenza?",
-        "a": "I boni ghjoculi sò simplici, familiari è senza pressione: grandi stampe per currispondenu, sorte, puzzle faciuli, finiscinu detti famosi, culore, bingo di stampa è carte di cunversazione. A megliu scelta hè quella chì a persona piace oghje. Evite timers, scores è tuttu ciò chì si sente cum'è una prova."
+        "q": "Chì sò boni ghjochi per l'adulti più anziani?",
+        "a": "I boni ghjochi sò simplici, familiari è senza pressione: imàgine grandi da accoppià, classificazione, puzzle facili, cumpletà frasi cunnisciute, culurà, bingo cù imàgine è carte di cunversazione. Si adattanu à parechji adulti più anziani, ancu à e persone cù a demenza. A sceglia megliu hè quella chì a persona apprezza oghje. Evitate i timer, i punti è tuttu ciò chì pare una prova."
       },
       {
-        "q": "Sò questi ghjochi di demenza gratuiti?",
+        "q": "Sò gratuiti questi ghjochi?",
         "a": "Iè. Ogni ghjocu è stampabile nantu à Creative Activities hè liberu, senza contu, iscrizzione o scaricamentu. I ghjochi currispondenu in u navigatore web in un telefunu, tableta o computer."
       },
       {
         "q": "I ghjochi di u cervellu impediscenu a demenza?",
-        "a": "Nisun ghjocu hè statu dimustratu per prevene a demenza, è Creative Activities ùn pretende micca trattà o impedisce nunda. I nostri ghjochi sò per piacè è tempu inseme. A nostra sezione di salute di u cervellu spiega ciò chì a ricerca faci è ùn mostra micca."
+        "a": "Nisun ghjocu hà dimustratu di prevene a demenza, è Creative Activities ùn pretende di cura o prevene nunda. I nostri ghjochi sò per u piacè è u tempu passatu inseme, è nisuna pagina d'attività face una dichjarazione sanitaria."
       },
       {
         "q": "Sò questi ghjochi adattati per qualchissia cù Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Quale hè chì face Momenti d'oru ?",
-        "a": "Momenti d'oru hè una piccula squadra chì face attività d'imaghjini d'adulte calme per e famiglie è i caregivers, in u web è cum'è una app gratuita. Ùn simu micca clinichi, è nunda quì hè cunsiglii medichi."
+        "a": "Creative Activities hè una piccula squadra chì face attività creative calme per l'adulti, per chì cura qualcunu, nant'à u web è cum'è una app gratuita. Ùn simu medichi, è nunda quì hè un cunsigliu medicu."
+      }
+    ],
+    "groupsEyebrow": "Truvate u vostru cammin",
+    "groupsTitle": "Quattru tipi d'attività creative",
+    "groupsLede": "Cuminciate cù u gruppu chì s'adatta à quellu chì avete cun voi è à ciò chì avete. Ogni pagina hà versioni più facili è note di sicurezza.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Fattura",
+        "text": "Prugetti di carta, pittura, riciclatu è di stagione, cù una versione più facile per ognunu.",
+        "label": "Sfugliate a fattura"
+      },
+      {
+        "href": "/kids/",
+        "title": "Zitelli",
+        "text": "Arte è ghjocu per i zitelli, cù un adultu vicinu è note di sicurezza chjare.",
+        "label": "Sfugliate l'attività per i zitelli"
+      },
+      {
+        "href": "/together/",
+        "title": "Inseme",
+        "text": "Cunversazione, puzzle, tempu à l'apertu è modi per restà vicini frà e generazioni.",
+        "label": "Sfugliate e cose da fà inseme"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calma creativa",
+        "text": "Mumenti creativi lenti è quieti cù una matita, una pagina o una canzone. Micca terapia.",
+        "label": "Sfugliate la calma creativa"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Printable",
     "play": "Ghjucà {name} →",
     "readGuide": "Leghjite a guida"
+  },
+  "listen": {
+    "listenSteps": "Ascultate i passi",
+    "pause": "Pausa",
+    "resume": "Ripiglià",
+    "stop": "Ferma",
+    "speed": "Velocità",
+    "normal": "Normale",
+    "slower": "Più lenta",
+    "reading": "Lettura ad alta voce di i passi.",
+    "paused": "In pausa. Premete Ripiglià per cuntinuà.",
+    "note": "Usa a voce propria di u vostru dispusitivu. Alcuni dispusitivi mandanu u testu à u so fabricante per leghjelu.",
+    "listen": "Ascultà",
+    "stepLabel": "Ascultate u passu {n}",
+    "stopStep": "Ferma u passu {n}"
   },
   "playCta": {
     "title": "Pronti per un ghjocu gentile?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Attività",
-      "title": "Attività per e persone cun demenza",
-      "seo": "Attività per e persone cun demenza: idee per tappe",
-      "description": "Idee di attività per e persone chì vivenu cù a demenza in ogni tappa: musica, reminiscenza, travaglii di ogni ghjornu, mumenti sensoriali, artighjanali.",
-      "lede": "L'attività significativa hè qualcosa chì porta cunfortu, scopu o un mumentu di cunnessione. Cumincià cù ciò chì a persona hà sempre piaciutu, è adatta à oghje."
+      "label": "Guide d'attività",
+      "title": "Guide d'attività",
+      "seo": "Guide d'attività: idee, materiale d'arte è modi per principià",
+      "description": "Guide chjare à e attività creative da fà cù qualcunu: idee simplici, materiale d'arte economicu, arte cumuna, lettere, ricordi, è spiegazione di l'arte-terapia.",
+      "lede": "Guide corte è pratiche per sceglie è principià una attività cù qualcunu, qualunque sia a so età o e so capacità."
+    },
+    "crafts": {
+      "label": "Fattura",
+      "title": "Fattura per tutte l'età",
+      "seo": "Fattura facile per tutte l'età, cù versioni più facili",
+      "description": "Fattura facile per l'adulti, i zitelli è e famiglie: carta, culurà, fattura riciclata è di stagione, cù versioni più facili da tene è in pusizione seduta, senza capacità speciale.",
+      "lede": "Fattura chì parte da ciò chì a maiò parte di e case hà digià, ognuna cù una versione più facile, perchè chiunque possa fà qualcosa."
+    },
+    "kids": {
+      "label": "Zitelli",
+      "title": "Attività creative per i zitelli",
+      "seo": "Attività creative per i zitelli: arte, sensoriale è calma",
+      "description": "Attività creative per i zitelli: arte per i più piccoli, arte di prucessu, ghjocu sensoriale, fattura per i ghjorni di pioggia è idee per calmassi, cù note di sicurezza è versioni per i bisogni sensoriali.",
+      "lede": "Idee d'arte è di ghjocu per zitelli di età è bisogni diversi, cù note di sicurezza chjare è un adultu vicinu."
+    },
+    "together": {
+      "label": "Inseme",
+      "title": "Attività da fà inseme",
+      "seo": "Attività da fà inseme, frà e generazioni",
+      "description": "Attività per duie o più generazioni: ghjochi di cunversazione, puzzle, tempu à l'apertu, fattura per i nonni è i nipoti, è modi per restà vicini da luntanu.",
+      "lede": "Idee per cundivide u tempu cù un parente, un nonnu, un zitellu o un amicu, in casa, à l'apertu, durante una visita o da luntanu."
+    },
+    "creative-calm": {
+      "label": "Calma creativa",
+      "title": "Calma creativa",
+      "seo": "Calma creativa: arte è attività rilassanti per riposà",
+      "description": "Attività creative rilassanti per l'adulti è chì i cura: arte cuscente, diariu, musica, mumenti sensoriali è pumeriggi calmi. Attività creativa, micca terapia.",
+      "lede": "Modi dolci per rallentà cù una matita, una pagina o una canzone. Sò attività creative, micca terapia, è ùn richiedenu alcuna capacità."
     },
     "caregiving": {
-      "label": "Cura",
-      "title": "Guide di cura",
-      "seo": "Guide di cura di demenza: aiutu praticu di ogni ghjornu",
-      "description": "Guide pratiche è gentili per i caregivers di demenza: ghjoculi inseme, cumunicazione, rifiuti, inquietudine di a fine di u ghjornu, tablette, scelta di.",
-      "lede": "Aiutà simplice è pratica per i mumenti di ogni ghjornu di a cura di qualchissia chì vive cù a demenza, cumpresa a cura di sè stessu."
+      "label": "Cura di dementia",
+      "title": "Cura di una persona con demenza",
+      "seo": "Cura di una persona con demenza: attività e aiuto",
+      "description": "Guide per le famiglie che si prendono cura di una persona con demenza: come giocare insieme, cosa fare quando dice di no e dove trovare aiuto affidabile dopo una diagnosi.",
+      "lede": "Aiuto basato soprattutto sulle attività per le famiglie che assistono una persona con demenza, e dove rivolgersi per consigli medici e di cura."
     },
     "brain-health": {
       "label": "Salute di u cervellu",
@@ -283,7 +396,16 @@
     "tryTogether": "Pruvate inseme",
     "relatedGuides": "Guide relative",
     "related": "Relativu",
-    "startHere": "Cumincià quì"
+    "startHere": "Cumincià quì",
+    "staleAria": "Traduzione non aggiornata",
+    "staleTitle": "Questa traduzione non è aggiornata",
+    "staleText": "È stata fatta da una versione precedente della pagina in inglese, che nel frattempo è cambiata. La pagina in inglese è quella aggiornata.",
+    "staleHealth": "Contiene informazioni sulla salute, quindi controlla la pagina in inglese e chiedi a un medico o a un infermiere prima di agire in base a quanto letto.",
+    "staleLink": "Leggi la pagina in inglese aggiornata"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Avvisu di infurmazione sanitaria",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Un'attività spartuta, micca una prova di memoria",
+      "title": "Un'attività da fare insieme, non un test",
       "seoTitle": "À propositu di i Momenti d'Oro: U Nostru Approcciu",
-      "description": "Perchè i ghjochi Creative Activities ùn anu micca cronometri, punteggi o strisce, perchè e foto restanu mostrate, è ciò chì vulemu è ùn diceremu micca di a demenza.",
+      "description": "Perché Creative Activities non usa timer, punteggi o serie di giorni consecutivi, perché le immagini restano visibili e cosa diciamo, e non diciamo, sulla salute.",
       "crumb": "U nostru approcciu",
-      "lede": "Momenti d'oru facenu attività di stampa calma è adulti chì un caregiver è qualcunu chì vive cù a demenza ponu gode di fiancu à fiancu.",
-      "bodyHtml": "<h2>Ciò chì avemu cridutu</h2><p>U puntu di una attività hè u mumentu stessu: una cunversazione, un surrisu, a satisfaczione di mette dui ritratti inseme, o simpricimenti pusatu vicinu. Ùn hè micca per misurà à nimu, spinghje più o pruvucà qualcosa.</p><p>Parechje app di furmazione di u cervellu sò pensate intornu à a velocità, punteggi, strisce è livelli. Per una persona chì vive cù a demenza chì pò sente cum'è un esame ùn pò micca passà. Avemu cuncepitu u cuntrariu, è ci mantenemu à sti regule:</p><ul><li><strong>Nunda à fallu.</strong> Nisun clock, score, move counter, lives, stries, confetti o countdowns, in ogni schermu.</li><li><strong>Ricunniscenza nantu à ricurdà.</strong> L'imaghjini si mostranu per difettu. L'invitazioni invitanu a cunversazione è mai quiz nomi o ricordi.</li><li><strong>Grande, chjara è fermu.</strong> Grande testu è stampi, altu cuntrastu, è cuntrolli chì stanu in u stessu locu.</li><li><strong>A dignità adulta.</strong> Foto di u mondu reale è parolle chjaru è calde. Nisuna caricatura, lode di canti o premie emoji.</li><li><strong>Un modu faciliu fora.</strong> \"Fattu per avà\" hè sempre visibile. Firmà a mità di strada hè un bonu risultatu.</li><li><strong>Privatu per difettu.</strong> Nisun contu o annunzii. I ritratti chì sceglite stà nantu à u vostru dispositivu.</li></ul><h2>Ciò chì ùn riclamemu micca</h2><p>I nostri ghjochi sò per piacè è cunnessione. Ùn diagnosticanu, testanu, misurà, trattà, rallenta o prevene a demenza o a malatia d'Alzheimer, è nimu ùn deve sceglie per quessa. Quandu avemu scrittu annantu à a ricerca nantu à i nostri <a href=\"/brain-health/\">pagine di salute di u cervellu</a>, dicemu chjaramente induve l'evidenza hè debule, è ùn avemu mai cunnessu à i nostri ghjoculi.</p><h2>Chi simu</h2><p>Creative Activities hè una piccula squadra indipendente. Ùn simu micca clinichi. I nostri guide sò scritti da guida publicata da urganisazioni cum'è l'Istitutu Naziunale di l'Anzianu è l'Associazione Alzheimer, è ogni guida lista e so fonti. Leghjite <a href=\"/editorial-policy/\">cumu scrivemu è verificate e nostre pagine</a>.</p><h2>Diteci ciò chì aiuterà</h2><p>Ci piacerebbe à sente ciò chì travaglia per voi è ciò chì ùn hè micca, in particulare da e persone chì vivenu cù a demenza, i caregivers di famiglia è u persunale di l'attività. E-mail <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsor e partner",
+        "none": "Creative Activities non ha sponsor, non accetta inserzioni a pagamento e non ha partner con loghi visibili sul sito.",
+        "listed": "Questi sono gli sponsor e i partner di Creative Activities. Ogni rapporto è indicato anche nella pagina in cui compare.",
+        "policy": "Se la situazione cambiasse, ogni pagina interessata lo dirà nel punto in cui compare, nessuna attività avrà mai uno sponsor e l'elenco dei partner sarà in questa pagina.",
+        "listHeading": "Elenco dei partner",
+        "noPartners": "Al momento non ci sono partner."
+      },
+      "lede": "Creative Activities propone attività tranquille, pensate per gli adulti, che due persone possono godersi fianco a fianco, sia quando una si prende cura dell'altra, sia quando semplicemente vogliono passare del tempo insieme.",
+      "bodyHtml": "<h2>Per chi è pensato</h2><p>Per chiunque si prenda cura di qualcuno: un genitore, un nonno, un figlio, un partner, un amico o una persona con demenza. Famiglie, adulti anziani e operatori delle attività possono usare le stesse pagine.</p><h2>In cosa crediamo</h2><p>Il senso di un'attività sta nel momento stesso: una conversazione, un sorriso, la soddisfazione di unire due immagini o semplicemente stare vicini. Non serve a misurare nessuno, a spingerlo oltre o a dimostrare qualcosa.</p><p>Molte app di allenamento cerebrale sono costruite intorno alla velocità, ai punteggi, alle serie di giorni consecutivi e ai livelli. Per chi è stanco, non sta bene o vive con la demenza, questo può sembrare un esame che non si può superare. Abbiamo progettato l'esatto contrario e ci atteniamo a queste regole:</p><ul><li><strong>Nulla da fallire.</strong> Nessun orologio, punteggio, contatore di mosse, vite, serie di giorni, coriandoli o conto alla rovescia, su nessuno schermo.</li><li><strong>Riconoscere invece di ricordare.</strong> Le immagini restano visibili per impostazione predefinita. Gli spunti invitano alla conversazione e non interrogano mai su nomi o ricordi.</li><li><strong>Grande, semplice e stabile.</strong> Testi e immagini grandi, contrasto elevato e comandi che restano sempre nello stesso punto.</li><li><strong>Dignità adulta.</strong> Immagini reali e parole semplici e calde. Niente cartoni animati, lodi cantilenanti o premi con emoji.</li><li><strong>Una via d'uscita facile.</strong> «Per ora basta» è sempre visibile. Fermarsi a metà è un buon risultato.</li><li><strong>Privato per impostazione predefinita.</strong> Nessun account e nessuna pubblicità. Le foto che scegli restano sul tuo dispositivo.</li></ul><h2>Ciò che non affermiamo</h2><p>I nostri giochi e le nostre attività servono per divertirsi e stare in compagnia. Non diagnosticano, non valutano, non misurano, non curano, non rallentano e non prevengono la demenza o la malattia di Alzheimer, e nessuno dovrebbe sceglierli per questo motivo. Quando scriviamo di ricerche sulla salute, diciamo apertamente dove le prove sono deboli e non le colleghiamo mai alle nostre attività.</p><h2>Chi siamo</h2><p>Creative Activities è un piccolo team indipendente. Non siamo medici né operatori sanitari. Le nostre guide si basano su linee guida pubblicate da organizzazioni come il National Institute on Aging e l'Alzheimer's Association, e ogni guida elenca le proprie fonti. Leggi <a href=\"/editorial-policy/\">come scriviamo e verifichiamo le nostre pagine</a>.</p><h2>Diteci cosa potrebbe aiutare</h2><p>Ci farebbe piacere sapere cosa funziona per voi e cosa no, soprattutto da parte di persone con demenza, familiari che prestano assistenza e operatori delle attività. Scrivete a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Cumu Scrivemu è Verificate e Nostre Pagine",
       "seoTitle": "Politica Editoriale",
-      "description": "Cumu Creative Activities ricerca, scrive, fonti è aghjurnà a so attività di demenza è e pagine di salute di u cervellu, è ciò chì ùn avemu mai publicà.",
+      "description": "Come Creative Activities fa ricerche, scrive, seleziona le fonti e aggiorna le sue pagine su attività e salute, e cosa non pubblicherà mai.",
       "crumb": "Pulitica editoriale",
-      "bodyHtml": "<h2>I nostri fonti</h2><p>Basemu i nostri guide nantu à a guida publica da urganisazioni cum'è l'Istitutu Naziunale di l'Anzianu, u CDC, l'Associazione Alzheimer, a Fundazione Alzheimer d'America, l'Alleanza per i Caregiver di Famiglia è u NHS, è nantu à a ricerca peer-reviewed such as Cochrane reviews è grandi prucessi clinichi. Ogni guida elenca e fonti chì si basa. Avemu apertu ogni fonte prima di citallu, è avemu solu rapportu ciò chì dice veramente.</p><h2>Cumu scrivemu</h2><ul><li>Prima pratica : chì fà oghje, in lingua chjara.</li><li>Onestu nantu à l'evidenza: dicemu \"ligatu cù\", \"puderà\" è \"l'evidenza hè mischiata\" quandu hè a verità.</li><li>Rispittivu: scrivimu nantu à e persone chì vivenu cù a demenza cum'è adulti, è ùn usemu mai a lingua di quizzing o di vergogna.</li><li>Nisun cuntenutu inventatu: senza statistiche inventate, citazioni, esperti, studii, recensioni o testimonii.</li></ul><h2>Chi rivista e nostre pagine</h2><p>E pagine sò scritte è verificate da a squadra di Creative Activities, cù l'aiutu di strumenti di scrittura AI per a ricerca è a redazione. Ogni pagina hè verificata cù e so fonti da a squadra. E nostre pagine anu <strong>micca</strong> statu rivisatu da un duttore o un altru clinicu, è ùn riclamemu micca altrimenti. Sò infurmazione generale, micca cunsiglii medichi.</p><h2>Ciò chì ùn publicheremu mai</h2><ul><li>Dichjara chì un ghjocu, cibo, supplementu, veloce o rutina impedisce, tratta, rallenta o cura a demenza.</li><li>Testi, quiz o puntuazioni chì suggerenu chì qualchissia hà, o ùn hà micca, demenza.</li><li>Cunsigliu per inizià, piantà o cambià qualsiasi medicina.</li><li>Publicità o cuntenutu sponsorizatu disfrazatu da guida.</li></ul><h2>Aghjurnamenti è currezzione</h2><p>Ogni pagina mostra a data di l'ultima aghjurnazione. Sè truvate un sbagliu o una fonte fora di data, per piacè email <a href=\"mailto:{email}\">{email}</a> è avemu da verificà subitu.</p>"
+      "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Domande è Risposte",
-      "seoTitle": "Dementia Games è Attività: Dumande è Risposte",
-      "description": "Risposte à e dumande cumuni nantu à i ghjoculi è l'attività di demenza: quali ghjoculi pruvate, quantu tempu per ghjucà, idee più tardi, salute di u cervellu è privacy.",
+      "seoTitle": "Domande e risposte su Creative Activities",
+      "description": "Risposte alle domande più comuni sui giochi e sulle attività: quali provare, quanto giocare, idee per gruppi e per le fasi più avanzate, salute e privacy.",
       "crumb": "Dumande è risposte",
       "lede": "Risposte brevi è chjaru à e dumande chì i caregivers facenu più.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Circa i ghjochi",
           "items": [
             {
-              "q": "Chì sò i migliori ghjochi per qualchissia cù demenza?",
+              "q": "Quali sono i migliori giochi per gli adulti anziani?",
               "a": "I migliori ghjochi sò familiari, simplici è senza pressione, è u dirittu hè quellu chì a persona piace oghje. L'abbinamentu di l'imaghjini cù l'imaghjini visibili, a classificazione, i puzzle faciuli, a finitura di detti familiari, u culore è u bingo d'imaghjini funzionanu bè per parechje persone. Evite timers, scores è tuttu ciò chì si sente cum'è una prova."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Salute di u cervellu",
+          "title": "Demenza e salute",
           "items": [
             {
               "q": "I ghjochi ponu prevene o rallenta a demenza?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Più dettagli: <a href=\"/caregiving/how-to-play-together/\">cumu ghjucà inseme</a>, <a href=\"/caregiving/when-they-say-no/\">quand'elli dicenu micca</a>, <a href=\"/activities/late-stage/\">l'attività di a tappa più tardi</a> è <a href=\"/brain-health/can-dementia-be-prevented/\">si pò prevene a demenza?</a>"
+      "moreHtml": "Maggiori dettagli: <a href=\"/caregiving/how-to-play-together/\">come giocare insieme</a>, <a href=\"/caregiving/when-they-say-no/\">quando dice di no</a>, <a href=\"/activities/late-stage/\">attività per le fasi avanzate</a> e <a href=\"/dementia-activities/\">attività per la demenza a casa</a>."
     },
     "handout": {
       "title": "Ghjochi gratuiti è gentili per e persone chì vivenu cù a demenza",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Per Case di Cura, Biblioteche è Gruppi di Supportu",
-      "seoTitle": "Attività di Demenza Gratuite per Case di Cura è Gruppi",
-      "description": "Cumu e case di cura, i prugrammi di ghjornu di l'adulti, e biblioteche, l'agenzii di anziane è i gruppi di supportu utilizanu i nostri ghjochi gratuiti di.",
+      "seoTitle": "Attività gratuite per residenze per anziani, biblioteche e gruppi",
+      "description": "Come residenze per anziani, centri diurni per adulti, biblioteche, agenzie per la terza età e gruppi di sostegno usano i nostri giochi e le nostre guide alle attività gratuite, più un testo per inserirci in un elenco di risorse.",
       "crumb": "Per l'urganisazione",
       "lede": "Tuttu in stu situ hè liberu d'utilizà cù residenti, membri è clienti, senza cuntu, licenza o tariffu. Questa pagina spiega ciò chì hè quì è cumu si sparte.",
-      "shortText": "{name}: ghjochi di stampa gratuiti è guide d'attività per e persone chì vivenu cù a demenza è i so caregivers. Nisuna registrazione, senza cronometri, nè punteggi.",
-      "longText": "{name} ({domain}) offre {count} ghjochi di navigatore gratuiti fatti per e persone chì vivenu cù a demenza, cumprese coppie currispondenti cù stampe lasciate chì mostranu, un puzzle faciule, classificazione, detti familiari è bingo di stampa cù carte stampate. Ùn ci hè micca contu, publicità, timer o puntuazione. U situ hà ancu guide d'attività in lingua semplice per ogni stadiu di a dimenzja chì cita l'Istitutu Naziunale di l'Anzianu è l'Associazione Alzheimer.",
+      "shortText": "{name}: giochi con immagini gratuiti e delicati e guide alle attività per adulti anziani, famiglie e persone con demenza. Nessuna registrazione, nessun timer, nessun punteggio.",
+      "longText": "{name} ({domain}) offre {count} giochi gratuiti in linea per persone anziane, famiglie e persone che vivono con la demenza, tra cui coppie da trovare con le figure lasciate visibili, un puzzle facile, giochi di smistamento, detti familiari e tombola con figure e cartelle da stampare. Non servono account, non ci sono pubblicità, cronometri né punteggi. Il sito propone anche guide alle attività in linguaggio semplice per famiglie, persone anziane e operatori, con fonti come il National Institute on Aging e l'Alzheimer's Association.",
       "useTitle": "Chì l'urganisazione ponu aduprà",
       "gamesItemHtml": "<strong>{count} ghjochi di navigatore</strong> chì funziona nantu à un laptop, tableta o TV cunnessu à un urdinatore. Nisuna stallazione, contu o scaricamentu. Vede <a href=\"/games/\">tutti i ghjochi</a>.",
       "printablesLabel": "{count} stampabili:",
       "printablesAfter": "Aduprà u buttone Stampa in ogni pagina.",
-      "moreItemsHtml": "<li><strong>Formati di gruppu:</strong> <a href=\"/games/picture-bingo/\">Bingo di foto</a> hà carte stampate è un chjamante nantu à u screnu, è <a href=\"/activities/trivia/\">trivia faciuli</a> hà 50 dumande cù scelte di risposta è punti di discussione.</li><li><strong>Guide d'attività</strong> per u persunale è e famiglie, per tappe è per tipu, scrittu in lingua chjara cù fonti. Cumincià cù <a href=\"/activities/ideas/\">101 idee di attività</a> o <a href=\"/activities/care-home-groups/\">attività di gruppu per case di cura</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formati di gruppo:</strong> la <a href=\"/games/picture-bingo/\">tombola con figure</a> ha cartelle da stampare e un animatore sullo schermo, mentre i <a href=\"/together/conversation-games-for-all-ages/\">giochi di conversazione</a> hanno domande con risposte da scegliere e spunti per parlare.</li><li><strong>Guide alle attività</strong> per operatori e famiglie, scritte in linguaggio semplice e con fonti. Si può iniziare dalle <a href=\"/activities/ideas/\">101 idee per le attività</a> o dalle <a href=\"/crafts/craft-group-sessions/\">attività di gruppo per le case di cura</a>.</li>",
       "restHtml": "<h2>Cumu i gruppi l'utilizanu</h2><ul><li><strong>Case di cura è cura di memoria:</strong> bingo d'imaghjini o finisci u dicenu nantu à a TV di a sala cumuna, cù una persona chì tocca per u gruppu.</li><li><strong>Programmi di ghjornu per adulti:</strong> una stazione di tavuletta cù Coppie di Picture set to four tiles, per brevi sessioni unu à unu.</li><li><strong>Biblioteche pubbliche:</strong> ricerche di parole stampate è carte di cunversazione in kit di memoria, è u situ marcatu nantu à i tablette di a biblioteca.</li><li><strong>Gruppi di supportu di caregiver è caffè di memoria:</strong> a <a href=\"/handout/\">documentu stampabile di una pagina</a> per e famiglie da piglià in casa.</li><li><strong>Ospedali è pianificatori di scaricamentu:</strong> u handout in pacchetti di caregiver, per qualcosa di calmu da fà in casa o à u lettu.</li></ul><h2>Ciò chì ùn facemu micca</h2><p>I ghjochi sò per piacè è tempu inseme. Ùn anu micca diagnosticatu, testatu, puntuatu, trattatu o rallenta a demenza, è dumandemu à l'urganisazioni di ùn li discrive micca cusì. Ùn ci hè micca annunzii, è i ghjochi ùn dumandanu micca nomi, dettagli di salute o ritratti per esse caricati. U situ web usa Google Analytics per cuntà e visite; i nostri <a href=\"/privacy/\">avvisu di privacy</a> spiega ciò chì raccoglie. Foto usate in <a href=\"/games/photo-pairs/\">Coppie di foto</a> stà in u navigatore.</p><h2>Aghjunghjiteci à a vostra lista di risorse</h2><p>Se tenete una lista di risorse per i caregivers, site benvenutu per ligà <a href=\"/\">{domain}</a>. Pudete copià ogni descrizzione.</p>",
       "shortTitle": "Breve descrizzione",
       "longTitle": "Descrizzione più longa",
-      "linksHtml": "<p>Pagine utili per ligà direttamente: <a href=\"/games/\">ghjochi gratuiti</a>, <a href=\"/activities/printable/\">stampabili gratuiti</a>, <a href=\"/activities/alzheimers/\">attività per l'Alzheimer</a> è <a href=\"/caregiving/how-to-play-together/\">cumu ghjucà inseme</a>.</p><h2>Domande o currezzione</h2><p>Se qualcosa in u situ hè sbagliatu o pocu chjaru, o i bisogni di un residente ùn sò micca soddisfatti da ciò chì hè quì, per piacè diteci à <a href=\"mailto:{email}\">{email}</a>. Per piacè ùn mandà micca infurmazioni persunali o di salute nantu à i residenti o i clienti.</p>"
+      "linksHtml": "<p>Pagine utili a cui collegarsi direttamente: <a href=\"/games/\">giochi gratuiti</a>, <a href=\"/games/\">materiali gratuiti da stampare</a>, <a href=\"/dementia-activities/\">attività per la demenza a casa</a> e <a href=\"/caregiving/how-to-play-together/\">come giocare insieme</a>.</p><h2>Domande o correzioni</h2><p>Se qualcosa nel sito è sbagliato o poco chiaro, oppure se ciò che si trova qui non risponde alle esigenze di un ospite o di una persona assistita, scriveteci a <a href=\"mailto:{email}\">{email}</a>. Vi preghiamo di non inviare informazioni personali o sanitarie sugli ospiti o sulle persone assistite.</p>"
     },
     "app": {
       "title": "The Creative Activities App",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Giochi gratuiti di demenza è Alzheimer in linea",
-    "description": "Ghjochi in linea gratuiti per anziani chì vivenu cù a demenza o l'Alzheimer: currispondenza di l'imaghjini, puzzle faciuli, classificazione, detti, culore, bingo.",
+    "title": "Giochi gratuiti da fare insieme online",
+    "description": "Giochi online gratuiti per persone anziane, famiglie e persone che vivono con la demenza: abbinamento di figure, puzzle facili, smistamento, detti, colorazione e tombola. Senza registrazione, cronometri o punteggi.",
     "crumb": "Ghjochi",
-    "h1": "Ghjochi gentili per e persone cun demenza",
+    "h1": "Giochi dolci da fare insieme",
     "lede": "{count} ghjochi gratuiti per ghjucà inseme in u vostru navigatore. Grandi ritratti, parolle chjaru, è nunda di fallu: senza timer, senza punteggi, senza registrazione.",
-    "listName": "Ghjochi gentili per e persone cù demenza",
+    "listName": "Giochi dolci da fare insieme",
     "byStageTitle": "Sceglie un ghjocu per stage",
     "byStageLede": "I tappe sò solu una guida grossa. Segui ciò chì a persona piace è ciò chì si senti còmode oghje.",
     "stageCol": "Scena",
     "gamesCol": "Ghjochi chì spessu si adattanu",
-    "moreHtml": "Più idee fora di u screnu: <a href=\"/activities/ideas/\">101 attività per e persone cù demenza</a>, <a href=\"/activities/alzheimers/\">attività è ghjochi per l'Alzheimer</a>, <a href=\"/activities/memory-games/\">ghjochi di memoria gentile</a> è <a href=\"/activities/puzzles/\">puzziche</a>.",
+    "moreHtml": "Altre idee lontano dallo schermo: <a href=\"/activities/ideas/\">101 idee per le attività</a>, <a href=\"/dementia-activities/\">attività per la demenza a casa</a> e <a href=\"/crafts/\">lavoretti</a>.",
     "faq": [
       {
         "q": "Cù quale ghjocu duvemu principià ?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Sò questi ghjochi di memoria per anziani ?",
-        "a": "Sò ghjochi di currispundenza è di stampa chì ogni adultu anzianu pò gode, ma sò custruiti micca per pruvà a memoria: in i coppie di Picture, i ritratti restanu a faccia, salvu chì ùn sceglite altrimenti. A nostra guida à i ghjochi di memoria per l'anziani cù demenza spiega cumu mantene ogni ghjocu di memoria gentile."
+        "a": "Sono giochi di abbinamento e con figure che ogni persona anziana può apprezzare, ma sono pensati per non mettere alla prova la memoria: in Coppie di figure le immagini restano scoperte, salvo diversa scelta. Qualsiasi gioco di memoria può diventare più dolce eliminando il cronometro e i punteggi."
       },
       {
         "q": "Ci sò ghjochi per i gruppi in una casa di cura?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Ci hè una app per l'attività di demenza?",
+        "q": "Esiste un'app per persone anziane e famiglie?",
         "a": "Iè. Momenti d'oru (elencu cum'è \"{storeName}\") hè gratuitu nantu à l'App Store è Google Play. Offre un accoppiamentu di foto gentile cù piastrelle grandi, ghjochi cù foto di famiglia chì sceglite, è pacchetti di foto chì funzionanu offline."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Printable",
     "howTo": "Cumu ghjucà {name}",
     "tips": "Cunsiglii per ghjucà inseme",
-    "newToPlayingHtml": "Novu à ghjucà cù qualchissia chì hà a demenza? Leghjite <a href=\"/caregiving/how-to-play-together/\">cumu ghjucà ghjochi inseme</a>, cumpresu ciò chì fà si perdenu interessu.",
+    "newToPlayingHtml": "È la prima volta che giocate con una persona anziana o con una persona che vive con la demenza? Leggete <a href=\"/caregiving/how-to-play-together/\">come giocare insieme</a>, compreso cosa fare se perde interesse.",
     "moreAria": "Più à spiegà",
     "helpfulGuides": "Guide utili",
     "appTitle": "Ghjucà in l'app",
@@ -536,6 +666,35 @@
     "goodToKnow": "Bonu à sapè",
     "goodToKnowText": "Stu ghjocu hè per piacè è tempu inseme. Ùn prova, misura o tratta nunda.",
     "moreGames": "Ghjochi più gentili",
-    "crumb": "Ghjochi"
+    "crumb": "Ghjochi",
+    "print": {
+      "heading": "Giocare su carta",
+      "sameRules": "La versione su carta ha le stesse regole del gioco sullo schermo:",
+      "button": "Stampa una versione su carta",
+      "pageNote": "Una pagina in formato A4 o US Letter, va bene anche in bianco e nero. Versione {date}.",
+      "islandNote": "Stampa ciò che è sullo schermo in questo momento. Versione {date}.",
+      "sheetTitle": "{name}: versione su carta",
+      "point": "Su carta, indicate una figura invece di toccarla, oppure cerchiatela con una penna. Ogni riga è un nuovo insieme.",
+      "pointTarget": "Su carta, la figura da osservare si trova nel riquadro all'inizio di ogni riga. Indicate una figura invece di toccarla, oppure cerchiatela con una penna.",
+      "halves": "Ogni figura è tagliata a metà. Tracciate una linea da ogni metà a sinistra alla metà a destra che le corrisponde, oppure indicatela con un dito. Non serve tagliare nulla.",
+      "grid": "Ogni quadrato ha un numero. Trovate quel numero nella legenda e colorate il quadrato con una matita di quel colore. Va bene anche qualsiasi altro colore. Non serve tagliare nulla.",
+      "colors": "Ogni riga indica un colore. Indicate ogni figura di quel colore, oppure cerchiatela con una penna. Ogni riga è un nuovo insieme.",
+      "dice": "Ogni riga è un insieme di dadi. Scegliete una riga, oppure ritagliate le figure e pescatene alcune da un mucchio, poi raccontate una storia usandole in qualsiasi ordine. Chiunque può passare.",
+      "words": "Ritagliate le parole, oppure tracciate una linea da ogni parola alla sua figura. Leggete le parole ad alta voce man mano.",
+      "cards": "Ritagliate le carte lungo le linee tratteggiate. Disponetele a faccia in su sul tavolo, poi cercate le coppie.",
+      "chain": "Su carta, leggete le figure da sinistra a destra, una dopo l'altra. Ogni persona dice una frase sulle figure viste finora, poi indica la figura successiva. Chiunque può passare.",
+      "sort": "Ritagliate le figure lungo le linee tratteggiate, poi mettete ciascuna nella scatola a cui appartiene.",
+      "puzzle": "Ritagliate la figura grande lungo le linee tratteggiate in quattro pezzi e mescolateli. Scambiate due pezzi alla volta finché la figura non è completa. La figura piccola serve da guida.",
+      "cutSafety": "Un aiutante può fare il taglio prima di iniziare. Riponete le forbici al termine.",
+      "version": "Versione {date} · {url}",
+      "reasons": {
+        "photos": "Non esiste una versione su carta. Questo gioco usa le vostre foto, che restano nel browser e non vengono mai caricate, quindi il sito non può stamparle. Per giocare su carta, stampate due copie di alcune foto preferite a casa e abbinatele sul tavolo.",
+        "paced": "Non esiste una versione su carta. Il cerchio imposta sullo schermo un ritmo lento e costante, e una pagina stampata non può farlo, quindi sarebbe un'attività diversa. Una pausa tranquilla insieme, senza schermo, è sempre una possibilità.",
+        "turns": "Non esiste una versione su carta di questo gioco. Per trovare le coppie sul tavolo, stampate le carte figura da Coppie di figure e fate a turno nel girarle.",
+        "screen": "Ùn ci hè una versione di carta. Hè una stampa per guardà inseme nant'à un schermu; una foto preferita o una cartulina nant'à a tavola face u listessu.",
+        "wash": "Ùn ci hè una versione di carta. A pittura à acquarella nant'à carta hè a listessa idea: un pennellu bagnatu è un colore à la volta.",
+        "sayings": "Ùn ci hè ancu una versione di carta. Nant'à carta, ogni finale saria mostratu di colpu, è u passu dolce \"Mostra a fine\" si perderia. Leghjite i detti nant'à u schermu inseme, o sparte qualchi detti chì tramindui cunniscete."
+      }
+    }
   }
 }

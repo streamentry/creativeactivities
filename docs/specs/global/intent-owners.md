@@ -23,25 +23,25 @@
 | Broad "activities for seniors" head term | maintainer decision | open; the hub above is narrower | the decided owner, once chosen | not ranked in cluster-map |
 | Easy art and arts and crafts for seniors | `/arts-and-crafts-for-seniors/` | live (hub) | `/crafts/easy-crafts-for-adults/` and `/activities/art-supplies-for-older-adults/` link here | cluster-map rank 8; hub title |
 | Grandparent and grandchild activities | `/grandparent-grandchild-activities/` | live (hub) | none | cluster-map rank 5 |
-| Seasonal and festival crafts for any tradition | `/seasonal-activities/` | live (hub) | `/activities/holidays/` links here | hub title and selection rules |
-| Christmas and holiday crafts for seniors | maintainer decision | hold (SEO-036, S2) | `/activities/holidays/` (interim guide) | cluster-map rank 6 |
+| Seasonal and festival crafts for any tradition | `/seasonal-activities/` | live (hub) | `/crafts/seasonal-crafts/` links here | hub title and selection rules |
+| Christmas and holiday crafts for seniors | maintainer decision | hold (SEO-036, S2) | `/crafts/seasonal-crafts/` (interim guide) | cluster-map rank 6 |
 | Easy crafts for arthritis or limited dexterity | maintainer decision | hold (SEO-017, S2); the held hub `/easy-grip-crafts/` is a candidate | `/crafts/crafts-for-limited-dexterity/` | cluster-map rank 2; hub `easy-grip-crafts` |
-| Dementia activities at home, including Alzheimer's activities | maintainer decision | hold; candidates are `/` (web-seo keyword map and SEO-008) and the held hub `/dementia-activities/` (cluster-map rank 7, SEO-009); guides `/activities/alzheimers/` and `/activities/ideas/` also match the query | `/caregiving/how-to-play-together/` | cluster-map rank 7; SEO-008; web-seo keyword map |
+| Dementia activities at home, including Alzheimer's activities | maintainer decision | hold; candidates are `/` (web-seo keyword map and SEO-008) and the held hub `/dementia-activities/` (cluster-map rank 7, SEO-009); guides `/activities/ideas/` and `/activities/ideas/` also match the query | `/caregiving/how-to-play-together/` | cluster-map rank 7; SEO-008; web-seo keyword map |
 | Reminiscence activities, non-clinical | maintainer decision | hold (SEO-016); the held hub `/reminiscence-activities/` is a candidate | interim guide `/activities/reminiscence/` | cluster-map rank 3 |
 | Storytelling and life-story activities | maintainer decision | hold (SEO-038) | interim guide `/activities/reminiscence/`; guide `/activities/life-story-book/`; card `start-a-family-recipe-book` | cluster-map rank 11 |
-| Music activities for seniors | maintainer decision | hold for a hub (SEO-037); the hub `/music-activities/` is live | interim guide `/activities/music/` | cluster-map rank 10 |
+| Music activities for seniors | maintainer decision | hold for a hub (SEO-037); the hub `/music-activities/` is live | interim guide `/creative-calm/music-for-calm-and-connection/` | cluster-map rank 10 |
 | Relaxing art activities for adults | `/activities/drawing-and-painting-to-relax/` | hold on wording (SEO-039) | `/activities/therapeutic-art-activities-for-adults/` has the same intent; its path rename is a CNT-909 decision | cluster-map rank 9 |
-| Printable activities for older adults | maintainer decision | two packs exist; index held (SEO-022); the `/printables/` index page also exists | guide `/activities/printable/`; packs listed in `src/data/packs.ts` | cluster-map rank 4 |
+| Printable activities for older adults | maintainer decision | two packs exist; index held (SEO-022); the `/printables/` index page also exists | guide `/activities/ideas/`; packs listed in `src/data/packs.ts` | cluster-map rank 4 |
 | Quiet and rainy-day activities at home | `/activity/` | finder; no page of its own (H6) | `/occasions/rainy-day/` (held occasion hub) | cluster-map rank 13 |
 | Easy crafts for adults | `/activity/` | finder; no page of its own (H6) | guide `/crafts/easy-crafts-for-adults/` | cluster-map rank 14 |
 | Crafts for kids at home | `/activity/` | finder; gated behind children's privacy work | kids section pages | cluster-map rank 15 |
-| Low-mess sensory activities for children | maintainer decision | hold (SEO-040, gated by GROW and children's privacy work) | guide `/activities/sensory/` only as a candidate | cluster-map rank 12 |
+| Low-mess sensory activities for children | maintainer decision | hold (SEO-040, gated by GROW and children's privacy work) | guide `/creative-calm/sensory-activities-for-adults/` only as a candidate | cluster-map rank 12 |
 | Handmade gift activities to make together | maintainer decision | held occasion hub `/occasions/gift/` (H11); interim finder `/activity/` | none | hub `occasions/gift` |
 | Five-minute activities for a short break | maintainer decision | held occasion hub `/occasions/short-break/` (H11); interim finder `/activity/` | none | hub `occasions/short-break` |
 | Activities for a visit to someone at home or in care | maintainer decision | held occasion hub `/occasions/visit/` (H11); interim finder `/activity/` | guide `/together/visiting-someone-in-care/` | hub `occasions/visit` |
 | How to play together with someone living with dementia | `/caregiving/how-to-play-together/` | live (guide) | the dementia, seated, bedside and music hubs link here | hub guide lists |
 | Art supplies for older adults | `/activities/art-supplies-for-older-adults/` | live (guide) | `/arts-and-crafts-for-seniors/` links here | hub guide lists |
-| Memory games for seniors | `/activities/memory-games/` | live (guide) | none | web-seo keyword map |
+| Memory games for seniors | `/together/puzzles-and-table-games/` | live (guide) | none | web-seo keyword map |
 
 ## Hubs that do not own a row
 
@@ -61,13 +61,13 @@ These hubs have `indexable: false` in their frontmatter. Each is held until the 
 
 These hubs are live (indexable by default) but no source gives them a clear owner. They have no row until the maintainer chooses.
 
-- `/music-activities/`: cluster-map rank 10 says the intent is held for a hub (SEO-037) and names the guide `/activities/music/` as interim. The hub file is live.
+- `/music-activities/`: cluster-map rank 10 says the intent is held for a hub (SEO-037) and names the guide `/creative-calm/music-for-calm-and-connection/` as interim. The hub file is live.
 
 ## Discrepancies found while building the table
 
 - `/music-activities/` is live, while cluster-map rank 10 says a hub for this intent is held.
 - `/printables/` exists as a page, while cluster-map rank 4 says the index is held (SEO-022).
-- web-seo keyword map gives "printable dementia activities" to `/activities/printable/`, while cluster-map rank 4 leaves the printable owner open. The row above follows cluster-map.
+- web-seo keyword map gives "printable dementia activities" to `/activities/ideas/`, while cluster-map rank 4 leaves the printable owner open. The row above follows cluster-map.
 - cluster-map rank 8 says the arts hub is owned by SEO-017, while the same rank names `/arts-and-crafts-for-seniors/` as the canonical URL. The row above uses the canonical URL.
 
 ## Not covered

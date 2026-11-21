@@ -7,16 +7,22 @@
     "homeLabel": "Inici de Creative Activities",
     "mainNav": "Principal",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities: imatges grans i amables d’una tassa de te, un gira-sol i un gos",
+    "defaultImageAlt": "Creative Activities: grans dibuixos grans i amables de coses de cada dia per fer i per jugar",
     "languages": "Idioma",
     "englishOnly": "(anglès)",
     "machineTranslated": "Aquesta pàgina s’ha traduït automàticament i encara no l’ha revisat cap persona nativa.",
     "readOriginal": "Llegir l’original en anglès",
     "nav": {
+      "find": "Find an activity",
       "games": "Jocs",
       "activities": "Activitats",
       "caregiving": "Cures",
-      "brainHealth": "Salut cerebral"
+      "brainHealth": "Salut cerebral",
+      "crafts": "Manualitats",
+      "kids": "Infants",
+      "together": "Junts",
+      "creativeCalm": "Calma creativa",
+      "search": "Cerca"
     },
     "faqTitle": "Preguntes i respostes",
     "breadcrumb": "Camí de navegació",
@@ -27,7 +33,32 @@
       "label": "Mida del text",
       "smaller": "Text estàndard",
       "larger": "Text més gran",
-      "contrast": "Contrast més alt"
+      "contrast": "Contrast més alt",
+      "colors": "Colors",
+      "light": "Clar",
+      "dark": "Fosc",
+      "device": "Igual que aquest dispositiu",
+      "lineLength": "Amplada de la línia",
+      "standardLines": "Estàndard",
+      "shorterLines": "Línies més curtes",
+      "spacing": "Espaiat",
+      "standardSpacing": "Estàndard",
+      "moreSpace": "Més espai"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -36,11 +67,12 @@
     "conversationCards": "Targetes de conversa",
     "pictureBingo": "Bingo d’imatges",
     "allGames": "Tots els jocs",
+    "pictures": "Imatges per imprimir",
     "activityIdeas": "Idees d’activitats",
     "ideas101": "101 idees d’activitats",
     "lateStage": "Activitats per a la fase avançada",
     "printable": "Activitats per imprimir",
-    "allActivities": "Totes les activitats",
+    "allActivities": "Totes les guies d’activitats",
     "forCaregivers": "Per a persones cuidadores",
     "playTogether": "Com jugar plegats",
     "selfCare": "Cuidar-se un mateix",
@@ -53,10 +85,15 @@
     "app": "L’aplicació Creative Activities",
     "appHelp": "Ajuda de l’aplicació",
     "support": "Ajuda",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Informació legal",
     "sitePrivacy": "Privadesa del web",
     "appPrivacy": "Política de privadesa de l’aplicació",
     "privacyChoices": "Opcions de privadesa",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Condicions i llicència de l’aplicació",
     "safety": "Seguretat i ús previst",
     "accessibility": "Accessibilitat",
@@ -64,14 +101,18 @@
     "allLegal": "Tota la informació legal",
     "note": "Creative Activities ofereix activitats compartides senzilles per gaudir-ne. No és un consell mèdic, ni una prova, ni un tractament, i no diagnostica, mesura ni puntua ningú. Per a qualsevol dubte de salut, parli amb un metge. En una emergència, truqui al 112.",
     "publisher": "Publicat per Cloudjet Solutions Pte. Ltd.",
-    "pictures": "Imatges per imprimir"
+    "crafts": "Manualitats per a totes les edats",
+    "kids": "Activitats per a infants",
+    "together": "Activitats per fer junts",
+    "creativeCalm": "Calma creativa",
+    "dementiaActivities": "Activitats per a persones amb demència"
   },
   "home": {
-    "title": "Jocs i activitats per a la demència i l’Alzheimer | Creative Activities",
-    "description": "Jocs d’imatges suaus i gratuïts en línia i idees d’activitats per a persones amb demència o Alzheimer i per a qui les cuida. Sense registre ni puntuacions.",
+    "title": "Activitats creatives per a qui cuida algú",
+    "description": "Activitats creatives gratuïtes per a qui cuida algú: manualitats, coses per als infants, activitats per fer junts i idees creatives tranquil·les.",
     "eyebrow": "Gratuït · Sense anuncis · Sense registre · Sense cronòmetres ni puntuacions",
-    "h1": "Jocs i activitats suaus per a persones amb demència",
-    "lede": "Jocs d’imatges senzills, fotos conegudes i activitats per gaudir plegats, al seu ritme.",
+    "h1": "Fer alguna cosa junts",
+    "lede": "Troba una activitat que encaixi amb la persona, el moment i el que tens a mà. Manualitats senzilles, art per a infants, coses per fer junts i idees creatives tranquil·les, amb versions més fàcils i una targeta per imprimir. Atura’t quan vulguis.",
     "playGame": "Jugar a un joc",
     "findIdeas": "Trobar idees d’activitats",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 idees d’activitats",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Fase inicial",
         "text": "Seguir fent el que més els agrada, amb petits ajustos: aficions, sortides, jocs de paraules i planificar plegats.",
         "label": "Idees per a la fase inicial"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Fase intermèdia",
         "text": "Tasques senzilles i conegudes dividides en passos: plegar, classificar, música, jocs d’imatges i passejades curtes.",
         "label": "Idees per a la fase intermèdia"
@@ -124,10 +165,10 @@
         "label": "Idees per a la fase avançada"
       }
     ],
-    "specificHtml": "Busca alguna cosa concreta? Provi les <a href=\"/activities/alzheimers/\">activitats i jocs per a l’Alzheimer</a>, els <a href=\"/activities/memory-games/\">jocs suaus de memòria</a>, les <a href=\"/activities/trivia/\">preguntes fàcils</a> o els <a href=\"/activities/puzzles/\">trencaclosques</a>.",
+    "specificHtml": "Busques alguna cosa en concret? Prova les <a href=\"/dementia-activities/\">activitats i jocs per a l’Alzheimer</a>, els <a href=\"/together/puzzles-and-table-games/\">trencaclosques i jocs de taula</a>, els <a href=\"/together/conversation-games-for-all-ages/\">jocs de conversa</a> o els <a href=\"/together/puzzles-and-table-games/\">puzzles</a>.",
     "approachEyebrow": "El nostre enfocament",
-    "approachTitle": "Una activitat compartida, no una prova de memòria",
-    "approachLede": "Molts «jocs per al cervell» es basen en la velocitat, les puntuacions i les ratxes. Per a una persona que viu amb demència pot semblar un examen. Nosaltres hem fet el contrari.",
+    "approachTitle": "Una activitat compartida, no un examen",
+    "approachLede": "Molts «jocs per al cervell» es basen en la rapidesa, les puntuacions i les ratxes. Per a una persona cansada, malalta o que viu amb demència, això pot semblar un examen. Nosaltres hem fet just el contrari.",
     "approachLink": "Per què ho dissenyem així",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Motius habituals per negar-s’hi i maneres suaus de tornar-ho a provar més tard."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Preparar una tauleta",
-        "text": "Text més gran, menys interrupcions i una sola pantalla d’inici senzilla."
+        "href": "/activities/group-art-activities/",
+        "title": "Activitats artístiques en grup",
+        "text": "Projectes compartits per a una taula de diverses persones, amb una feina per a cadascuna."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Activitats gratuïtes per imprimir",
-        "text": "Sopes de lletres en lletra gran, pàgines per pintar, bingo i targetes de conversa."
+        "href": "/activities/ideas/",
+        "title": "101 idees d’activitats",
+        "text": "Idees senzilles, ordenades segons el que tens a mà i la energia que hi ha."
       }
     ],
     "researchTitle": "Salut cerebral: què diu realment la recerca",
@@ -185,16 +226,16 @@
     "aboutApp": "Sobre l’aplicació",
     "faq": [
       {
-        "q": "Quins són bons jocs per a persones amb demència?",
-        "a": "Els bons jocs són senzills, coneguts i sense pressió: imatges grans per fer parelles, classificar, trencaclosques fàcils, acabar refranys coneguts, pintar, bingo d’imatges i targetes de conversa. La millor opció és la que la persona gaudeix avui. Eviti els cronòmetres, les puntuacions i qualsevol cosa que sembli una prova."
+        "q": "Quins són els bons jocs per a persones grans?",
+        "a": "Els bons jocs són senzills, familiars i sense pressió: imatges grans per emparellar, classificar, puzzles fàcils, acabar frases conegudes, pintar, bingo amb imatges i targetes de conversa. Són adequats per a moltes persones grans, incloses les que viuen amb demència. La millor opció és la que la persona gaudeix avui. Evita els cronòmetres, les puntuacions i tot el que sembli una prova."
       },
       {
-        "q": "Aquests jocs per a la demència són gratuïts?",
+        "q": "Aquests jocs són gratuïts?",
         "a": "Sí. Tots els jocs i materials per imprimir de Creative Activities són gratuïts, sense compte, registre ni descàrrega. Els jocs funcionen al navegador d’un mòbil, una tauleta o un ordinador."
       },
       {
         "q": "Els jocs per al cervell prevenen la demència?",
-        "a": "No s’ha demostrat que cap joc previngui la demència, i Creative Activities no afirma que tracti ni previngui res. Els nostres jocs són per gaudir i passar temps plegats. La nostra secció de salut cerebral explica què mostra i què no mostra la recerca."
+        "a": "Cap joc no ha demostrat que previngui la demència, i Creative Activities no afirma que tracti ni previngui res. Els nostres jocs són per gaudir i per passar temps junts, i cap pàgina d’activitats fa afirmacions sobre la salut."
       },
       {
         "q": "Aquests jocs són adequats per a algú amb Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Qui fa Creative Activities?",
-        "a": "Creative Activities és un equip petit que fa activitats d’imatges tranquil·les i adultes per a famílies i persones cuidadores, al web i com a aplicació gratuïta. No som professionals clínics, i res d’aquí és un consell mèdic."
+        "a": "Creative Activities és un equip petit que crea activitats creatives tranquil·les per a adults, per a qui cuida algú, a la web i com a aplicació gratuïta. No som professionals sanitaris i res d’aquí no és un consell mèdic."
+      }
+    ],
+    "groupsEyebrow": "Troba el teu camí",
+    "groupsTitle": "Quatre tipus d’activitat creativa",
+    "groupsLede": "Comença pel grup que encaixi amb qui ets amb la persona i amb el que tens a mà. Cada pàgina té versions més fàcils i notes de seguretat.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Manualitats",
+        "text": "Projectes de paper, pintura, material reciclat i de temporada, amb una versió més fàcil per a cadascun.",
+        "label": "Explora les manualitats"
+      },
+      {
+        "href": "/kids/",
+        "title": "Infants",
+        "text": "Art i joc per a infants, amb un adult a prop i notes de seguretat clares.",
+        "label": "Explora les activitats per a infants"
+      },
+      {
+        "href": "/together/",
+        "title": "Junts",
+        "text": "Conversa, puzzles, temps a l’aire lliure i maneres de mantenir-se a prop entre generacions.",
+        "label": "Explora coses per fer junts"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calma creativa",
+        "text": "Moments creatius lents i tranquils amb un llapis, una pàgina o una cançó. No és teràpia.",
+        "label": "Explora la calma creativa"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Per imprimir",
     "play": "Jugar a {name} →",
     "readGuide": "Llegir la guia"
+  },
+  "listen": {
+    "listenSteps": "Escolta els passos",
+    "pause": "Pausa",
+    "resume": "Continua",
+    "stop": "Atura",
+    "speed": "Velocitat",
+    "normal": "Normal",
+    "slower": "Més lenta",
+    "reading": "Llegint els passos en veu alta.",
+    "paused": "En pausa. Prem Continua per seguir.",
+    "note": "Utilitza la veu del teu dispositiu. Alguns dispositius envien el text al seu fabricant perquè el llegeixi.",
+    "listen": "Escolta",
+    "stepLabel": "Escolta el pas {n}",
+    "stopStep": "Atura el pas {n}"
   },
   "playCta": {
     "title": "Preparat per a un joc suau?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Activitats",
-      "title": "Activitats per a persones amb demència",
-      "seo": "Activitats per a persones amb demència: idees per fase",
-      "description": "Idees d’activitats per a persones que viuen amb demència en qualsevol fase: música, records, tasques quotidianes, manualitats i materials per imprimir.",
-      "lede": "Una activitat amb sentit és tot allò que aporta confort, propòsit o un moment de connexió. Comenci pel que a la persona sempre li ha agradat i adapti-ho a avui."
+      "label": "Guies d’activitats",
+      "title": "Guies d’activitats",
+      "seo": "Guies d’activitats: idees, material artístic i maneres de començar",
+      "description": "Guies senzilles d’activitats creatives per fer amb algú: idees simples, material artístic econòmic, art en grup, cartes i records, i l’art teràpia explicat.",
+      "lede": "Guies curtes i pràctiques per triar i començar una activitat amb algú, sigui quina sigui la seva edat o capacitat."
+    },
+    "crafts": {
+      "label": "Manualitats",
+      "title": "Manualitats per a totes les edats",
+      "seo": "Manualitats fàcils per a totes les edats, amb versions més senzilles",
+      "description": "Manualitats fàcils per a adults, infants i famílies: de paper, per pintar, reciclades i de temporada, amb versions més fàcils de agafar i per fer asseguts, sense cap habilitat especial.",
+      "lede": "Manualitats que parteixen del que tenen la majoria de llars, cadascuna amb una versió més fàcil, perquè qualsevol pugui fer alguna cosa."
+    },
+    "kids": {
+      "label": "Infants",
+      "title": "Activitats creatives per a infants",
+      "seo": "Activitats creatives per a infants: art, sensorial i calma",
+      "description": "Activitats creatives per a infants: art per a petits, art de procés, joc sensorial, manualitats per als dies de pluja i idees per calmar-se, amb notes de seguretat i versions per a necessitats sensorials.",
+      "lede": "Idees d’art i joc per a infants de diferents edats i necessitats, amb notes de seguretat clares i un adult a prop."
+    },
+    "together": {
+      "label": "Junts",
+      "title": "Activitats per fer junts",
+      "seo": "Activitats per fer junts, entre generacions",
+      "description": "Activitats per a dues o més generacions: jocs de conversa, puzzles, temps a l’aire lliure, manualitats per a avis i nets, i maneres de mantenir-se a prop a distància.",
+      "lede": "Idees per compartir el temps amb un pare o una mare, un avi o una àvia, un fill, una filla o un amic, a casa, a l’aire lliure, de visita o a distància."
+    },
+    "creative-calm": {
+      "label": "Calma creativa",
+      "title": "Calma creativa",
+      "seo": "Calma creativa: art i activitats relaxants per desconnectar",
+      "description": "Activitats creatives relaxants per a adults i cuidadors: art conscient, diari, música, moments sensorials i tardes tranquil·les. Activitat creativa, no teràpia.",
+      "lede": "Maneres suaus d’anar més a poc a poc amb un llapis, una pàgina o una cançó. Són activitats creatives, no teràpia, i no requereixen cap habilitat."
     },
     "caregiving": {
-      "label": "Cures",
-      "title": "Guies de cures",
-      "seo": "Guies de cures per a la demència: ajuda pràctica diària",
-      "description": "Guies pràctiques i amables per a qui cuida una persona amb demència: jugar plegats, comunicació, negatives, tauletes i cuidar-se un mateix.",
-      "lede": "Ajuda clara i pràctica per als moments de cada dia de cuidar una persona que viu amb demència, inclosa la cura d’un mateix."
+      "label": "Atenció a la demència",
+      "title": "Cuidar una persona amb demència",
+      "seo": "Cuidar una persona amb demència: activitats i ajuda",
+      "description": "Guies per a famílies que cuiden una persona amb demència: com jugar junts, què fer quan diu que no i on trobar ajuda de confiança després del diagnòstic.",
+      "lede": "Ajuda centrada en les activitats per a famílies que cuiden una persona amb demència, i on acudir per obtenir consells mèdics i d'atenció."
     },
     "brain-health": {
       "label": "Salut cerebral",
@@ -283,7 +396,16 @@
     "tryTogether": "Provar plegats",
     "relatedGuides": "Guies relacionades",
     "related": "Relacionat",
-    "startHere": "Comenci aquí"
+    "startHere": "Comenci aquí",
+    "staleAria": "Traducció desactualitzada",
+    "staleTitle": "Aquesta traducció està desactualitzada",
+    "staleText": "Es va fer a partir d'una versió anterior de la pàgina en anglès, que ha canviat des de llavors. La pàgina en anglès és la versió vigent.",
+    "staleHealth": "Aquesta guia ofereix informació sobre salut, així que consulta la pàgina en anglès i pregunta a un metge o a una infermera abans d'actuar-hi.",
+    "staleLink": "Llegeix la pàgina en anglès actual"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Avís d’informació sobre salut",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Una activitat compartida, no una prova de memòria",
+      "title": "Una activitat compartida, no una prova",
       "seoTitle": "Sobre Creative Activities: el nostre enfocament",
-      "description": "Per què els jocs de Creative Activities no tenen cronòmetres, puntuacions ni ratxes, per què les imatges es queden a la vista i què afirmarem i què no sobre la demència.",
+      "description": "Per què Creative Activities no té cronòmetres, puntuacions ni ratxes, per què les imatges es mantenen visibles i què afirmem i què no afirmem sobre la salut.",
       "crumb": "El nostre enfocament",
-      "lede": "Creative Activities fa activitats d’imatges tranquil·les i adultes que una persona cuidadora i una persona que viu amb demència poden gaudir una al costat de l’altra.",
-      "bodyHtml": "<h2>Què creiem</h2><p>El sentit d’una activitat és el moment mateix: una conversa, un somriure, la satisfacció de posar dues imatges juntes o simplement seure a prop. No és mesurar ningú, empènyer-lo més lluny ni demostrar res.</p><p>Moltes aplicacions d’entrenament cerebral es dissenyen al voltant de la velocitat, les puntuacions, les ratxes i els nivells. Per a una persona que viu amb demència pot semblar un examen que no pot aprovar. Nosaltres hem dissenyat el contrari, i ens exigim aquestes regles:</p><ul><li><strong>Res per suspendre.</strong> Sense rellotge, puntuació, comptador de moviments, vides, ratxes, confeti ni comptes enrere, a cap pantalla.</li><li><strong>Reconèixer en lloc de recordar.</strong> Les imatges es queden a la vista per defecte. Les preguntes conviden a conversar i mai posen a prova noms ni records.</li><li><strong>Gran, clar i estable.</strong> Text i imatges grans, contrast alt i controls que es queden sempre al mateix lloc.</li><li><strong>Dignitat adulta.</strong> Imatges del món real i paraules clares i càlides. Sense dibuixos animats, elogis cantussejats ni premis amb emojis.</li><li><strong>Una sortida fàcil.</strong> «Per ara ja n’hi ha prou» sempre és visible. Parar a mitges és un bon resultat.</li><li><strong>Privat per defecte.</strong> Sense comptes ni anuncis. Les fotos que triï es queden al seu dispositiu.</li></ul><h2>Què no afirmem</h2><p>Els nostres jocs són per gaudir i per connectar. No diagnostiquen, no posen a prova, no mesuren, no tracten, no frenen ni prevenen la demència ni la malaltia d’Alzheimer, i ningú no els hauria de triar per aquest motiu. Quan parlem de recerca a les nostres <a href=\"/brain-health/\">pàgines de salut cerebral</a>, diem clarament on l’evidència és feble, i mai ho lliguem als nostres jocs.</p><h2>Qui som</h2><p>Creative Activities és un equip petit i independent. No som professionals clínics. Les nostres guies s’escriuen a partir d’orientacions publicades per organitzacions com el National Institute on Aging i l’Alzheimer’s Association, i cada guia indica les seves fonts. Llegeixi <a href=\"/editorial-policy/\">com escrivim i comprovem les nostres pàgines</a>.</p><h2>Digui’ns què us podria ajudar</h2><p>Ens agradaria saber què li funciona i què no, especialment si és una persona que viu amb demència, una persona cuidadora familiar o personal d’activitats. Escrigui a <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Patrocinadors i socis",
+        "none": "Creative Activities no té patrocinadors, ni espais publicitaris de pagament, ni socis amb logotips visibles al lloc.",
+        "listed": "Aquests són els patrocinadors i socis de Creative Activities. Cada relació també s'indica a la pàgina on apareix.",
+        "policy": "Si això canvia, cada pàgina afectada ho indicarà on aparegui, cap activitat no portarà mai un patrocinador i la llista de socis serà en aquesta pàgina.",
+        "listHeading": "Llista de socis",
+        "noPartners": "Actualment no hi ha socis."
+      },
+      "lede": "Creative Activities ofereix activitats tranquil·les i pensades per a adults, que dues persones poden gaudir una al costat de l'altra, tant si una cuida l'altra com si simplement volen passar temps juntes.",
+      "bodyHtml": "<h2>Per a qui és</h2><p>Per a qualsevol persona que cuida algú: un pare o una mare, un avi o una àvia, un fill o una filla, una parella, un amic o una amiga, o una persona amb demència. Les famílies, les persones grans i el personal d'activitats poden fer servir les mateixes pàgines.</p><h2>Què creiem</h2><p>El valor d'una activitat és el moment en si: una conversa, un somriure, la satisfacció de encaixar dues imatges o, simplement, seure a prop. No serveix per mesurar ningú, empènyer-lo més enllà ni demostrar res.</p><p>Moltes aplicacions d'entrenament cerebral es dissenyen al voltant de la velocitat, les puntuacions, les ratxes i els nivells. Per a una persona cansada, malalta o amb demència, això pot semblar un examen que no pot aprovar. Nosaltres hem dissenyat el contrari, i ens hi mantenim fidels:</p><ul><li><strong>Res per fallar.</strong> Cap rellotge, puntuació, comptador de moviments, vides, ratxes, confeti ni compte enrere, en cap pantalla.</li><li><strong>Reconèixer abans que recordar.</strong> Les imatges es mantenen visibles per defecte. Les indicacions inviten a conversar i mai no pregunten noms ni records.</li><li><strong>Grans, senzills i estables.</strong> Text i imatges grans, alt contrast i controls que sempre estan al mateix lloc.</li><li><strong>Dignitat d'adult.</strong> Imatges del món real i paraules senzilles i càlides. Sense dibuixos animats, elogis cantarells ni recompenses amb emojis.</li><li><strong>Una sortida fàcil.</strong> «Acabem per ara» sempre és visible. Aturar-se a mitges també és un bon resultat.</li><li><strong>Privadesa per defecte.</strong> Sense comptes ni publicitat. Les fotos que triïs es queden al teu dispositiu.</li></ul><h2>Què no afirmem</h2><p>Els nostres jocs i activitats són per gaudir i per connectar. No diagnostiquen, no proven, no mesuren, no tracten, no alenteixen ni previenen la demència ni la malaltia d'Alzheimer, i ningú no els hauria de triar per aquest motiu. Quan escrivim sobre recerca en salut, diem clarament on l'evidència és feble, i mai no la relacionem amb les nostres pròpies activitats.</p><h2>Qui som</h2><p>Creative Activities és un petit equip independent. No som clínics. Les nostres guies es redacten a partir de recomanacions publicades per organitzacions com el National Institute on Aging i l'Alzheimer's Association, i cada guia en enumera les fonts. Llegeix <a href=\"/editorial-policy/\">com redactem i revisem les nostres pàgines</a>.</p><h2>Explica'ns què ajudaria</h2><p>Ens agradaria saber què funciona per a tu i què no, sobretot de les persones amb demència, dels familiars cuidadors i del personal d'activitats. Escriu a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Com escrivim i comprovem les nostres pàgines",
       "seoTitle": "Política editorial",
-      "description": "Com Creative Activities investiga, escriu, documenta i actualitza les seves pàgines d’activitats per a la demència i de salut cerebral, i què no publicarem mai.",
+      "description": "Com Creative Activities investiga, redacta, obté les fonts i actualitza les seves pàgines d'activitats i de salut, i què no publicarem mai.",
       "crumb": "Política editorial",
       "bodyHtml": "<h2>Les nostres fonts</h2><p>Basem les guies en orientacions públiques d’organitzacions com el National Institute on Aging, el CDC, l’Alzheimer’s Association, l’Alzheimer’s Foundation of America, el Family Caregiver Alliance i el NHS, i en recerca revisada per experts, com les revisions Cochrane i els assaigs clínics grans. Cada guia indica les fonts en què es basa. Obrim cada font abans de citar-la, i només diem el que realment diu.</p><h2>Com escrivim</h2><ul><li>Primer, el pràctic: què fer avui, en llenguatge clar.</li><li>Honestos amb l’evidència: diem «vinculat amb», «pot» i «l’evidència és contradictòria» quan és la veritat.</li><li>Respectuosos: escrivim sobre les persones que viuen amb demència com a adults i no fem servir mai llenguatge que les interrogui o les avergonyeixi.</li><li>Res d’inventat: sense estadístiques, cites, experts, estudis, ressenyes ni testimonis inventats.</li></ul><h2>Qui revisa les nostres pàgines</h2><p>Les pàgines les escriu i les comprova l’equip de Creative Activities, amb l’ajuda d’eines d’escriptura amb IA per a la recerca i els esborranys. L’equip comprova cada pàgina amb les seves fonts. Les nostres pàgines <strong>no</strong> les ha revisat cap metge ni cap altre professional clínic, i no afirmem el contrari. Són informació general, no un consell mèdic.</p><h2>Què no publicarem mai</h2><ul><li>Afirmacions que un joc, un aliment, un suplement, un dejuni o una rutina prevé, tracta, frena o cura la demència.</li><li>Proves, qüestionaris o puntuacions que suggereixin que algú té o no té demència.</li><li>Consells per començar, deixar o canviar cap medicament.</li><li>Publicitat o contingut patrocinat disfressat de consell.</li></ul><h2>Actualitzacions i correccions</h2><p>Cada pàgina mostra la data de l’última actualització. Si troba un error o una font desactualitzada, escrigui a <a href=\"mailto:{email}\">{email}</a> i ho revisarem aviat.</p>"
     },
     "faq": {
       "title": "Preguntes i respostes",
-      "seoTitle": "Jocs i activitats per a la demència: preguntes i respostes",
-      "description": "Respostes a preguntes habituals sobre jocs i activitats per a la demència: quins jocs provar, quant de temps jugar, salut cerebral i privadesa.",
+      "seoTitle": "Preguntes i respostes sobre Creative Activities",
+      "description": "Respostes a preguntes habituals sobre els jocs i les activitats: quins provar, quant durar una sessió, idees per a grups i per a fases avançades, salut i privadesa.",
       "crumb": "Preguntes i respostes",
       "lede": "Respostes breus i clares a les preguntes que més fan les persones cuidadores.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Sobre els jocs",
           "items": [
             {
-              "q": "Quins són els millors jocs per a una persona amb demència?",
+              "q": "Quins són els millors jocs per a persones grans?",
               "a": "Els millors jocs són coneguts, senzills i sense pressió, i el bo és el que la persona gaudeix avui. Fer parelles amb imatges visibles, classificar, trencaclosques fàcils, acabar refranys coneguts, pintar i el bingo d’imatges funcionen bé per a moltes persones. Eviti els cronòmetres, les puntuacions i qualsevol cosa que sembli una prova."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Salut cerebral",
+          "title": "Demència i salut",
           "items": [
             {
               "q": "Els jocs poden prevenir o frenar la demència?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Més detalls: <a href=\"/caregiving/how-to-play-together/\">com jugar plegats</a>, <a href=\"/caregiving/when-they-say-no/\">quan diu que no</a>, <a href=\"/activities/late-stage/\">activitats per a la fase avançada</a> i <a href=\"/brain-health/can-dementia-be-prevented/\">es pot prevenir la demència?</a>"
+      "moreHtml": "Més detalls: <a href=\"/caregiving/how-to-play-together/\">com jugar junts</a>, <a href=\"/caregiving/when-they-say-no/\">quan diu que no</a>, <a href=\"/activities/late-stage/\">activitats per a fases avançades</a> i <a href=\"/dementia-activities/\">activitats de demència a casa</a>."
     },
     "handout": {
       "title": "Jocs suaus i gratuïts per a persones que viuen amb demència",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Per a residències, biblioteques i grups de suport",
-      "seoTitle": "Activitats gratuïtes per a la demència per a residències i grups",
-      "description": "Com fan servir els nostres jocs gratuïts per a la demència residències, centres de dia, biblioteques i grups de suport, i un text per afegir-nos a una llista.",
+      "seoTitle": "Activitats gratuïtes per a residències, biblioteques i grups",
+      "description": "Com les residències, els programes de dia per a adults, les biblioteques, les agències de gent gran i els grups de suport fan servir els nostres jocs i guies d'activitats gratuïts, i un text per afegir-nos a una llista de recursos.",
       "crumb": "Per a organitzacions",
       "lede": "Tot el que hi ha en aquest web es pot fer servir gratuïtament amb residents, persones sòcies i usuàries, sense compte, llicència ni tarifa.",
-      "shortText": "{name}: jocs d’imatges suaus i gratuïts i guies d’activitats per a persones que viuen amb demència i per a qui les cuida. Sense registre, sense cronòmetres, sense puntuacions.",
-      "longText": "{name} ({domain}) ofereix {count} jocs gratuïts de navegador fets per a persones que viuen amb demència, entre ells parelles d’imatges amb les imatges a la vista, un trencaclosques fàcil, classificar, refranys coneguts i bingo d’imatges amb cartrons per imprimir. No hi ha compte, publicitat, cronòmetre ni puntuació. El web també té guies d’activitats en llenguatge clar per a cada fase de la demència que citen el National Institute on Aging i l’Alzheimer's Association.",
+      "shortText": "{name}: jocs d'imatges gratuïts i suaus i guies d'activitats per a persones grans, famílies i persones amb demència. Sense registre, sense cronòmetres ni puntuacions.",
+      "longText": "{name} ({domain}) ofereix {count} jocs gratuïts per al navegador per a persones grans, famílies i persones que viuen amb demència, inclosos parelles d’imatges amb les cartes visibles, un puzle senzill, classificació, dites conegudes i bingo d’imatges amb cartrons per imprimir. No cal compte, no hi ha publicitat, cronòmetre ni puntuació. El lloc també té guies d’activitats en llenguatge senzill per a famílies, persones grans i personal, amb fonts com el National Institute on Aging i l’Alzheimer's Association.",
       "useTitle": "Què poden fer servir les organitzacions",
       "gamesItemHtml": "<strong>{count} jocs de navegador</strong> que funcionen en un portàtil, una tauleta o un televisor connectat a un ordinador. Sense instal·lar, sense compte ni descàrrega. Vegi <a href=\"/games/\">tots els jocs</a>.",
       "printablesLabel": "{count} materials per imprimir:",
       "printablesAfter": "Faci servir el botó Imprimir de cada pàgina.",
-      "moreItemsHtml": "<li><strong>Formats per a grups:</strong> el <a href=\"/games/picture-bingo/\">Bingo d’imatges</a> té cartrons per imprimir i un cantador a la pantalla, i les <a href=\"/activities/trivia/\">preguntes fàcils</a> tenen 50 preguntes amb opcions de resposta i temes de conversa.</li><li><strong>Guies d’activitats</strong> per al personal i les famílies, per fase i per tipus, escrites en llenguatge clar i amb fonts. Comenci amb les <a href=\"/activities/ideas/\">101 idees d’activitats</a> o les <a href=\"/activities/care-home-groups/\">activitats de grup per a residències</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formats per a grups:</strong> <a href=\"/games/picture-bingo/\">el bingo d’imatges</a> té cartrons per imprimir i un locutor a la pantalla, i <a href=\"/together/conversation-games-for-all-ages/\">els jocs de conversa</a> tenen preguntes amb opcions de resposta i punts per parlar.</li><li><strong>Guies d’activitats</strong> per al personal i les famílies, escrites en llenguatge senzill amb fonts. Per començar, vegeu <a href=\"/activities/ideas/\">101 idees d’activitats</a> o <a href=\"/crafts/craft-group-sessions/\">activitats en grup per a residències</a>.</li>",
       "restHtml": "<h2>Com ho fan servir els grups</h2><ul><li><strong>Residències i unitats de memòria:</strong> bingo d’imatges o «Acabar el refrany» al televisor de la sala comuna, amb una persona que toca per al grup.</li><li><strong>Centres de dia:</strong> una estació amb tauleta amb les Parelles d’imatges amb quatre fitxes, per a sessions curtes individuals.</li><li><strong>Biblioteques públiques:</strong> sopes de lletres i targetes de conversa impreses en maletes de records, i el web desat als preferits de les tauletes de la biblioteca.</li><li><strong>Grups de suport a persones cuidadores i cafès de memòria:</strong> un <a href=\"/handout/\">fulletó d’una pàgina per imprimir</a> perquè les famílies se l’emportin a casa.</li><li><strong>Hospitals i serveis d’alta:</strong> el fulletó a les carpetes per a persones cuidadores, per tenir alguna cosa tranquil·la per fer a casa o al costat del llit.</li></ul><h2>Què no fem</h2><p>Els jocs són per gaudir i passar temps plegats. No diagnostiquen, no posen a prova, no puntuen, no tracten ni frenen la demència, i demanem a les organitzacions que no els descriguin així. No hi ha anuncis, i els jocs no demanen que es pugin noms, dades de salut ni fotos. El web fa servir Google Analytics per comptar les visites; el nostre <a href=\"/privacy/\">avís de privadesa</a> explica què recull. Les fotos que es fan servir a les <a href=\"/games/photo-pairs/\">Parelles de fotos</a> es queden al navegador.</p><h2>Afegeixi’ns a la seva llista de recursos</h2><p>Si té una llista de recursos per a persones cuidadores, pot enllaçar <a href=\"/\">{domain}</a>. Pot copiar qualsevol de les dues descripcions.</p>",
       "shortTitle": "Descripció breu",
       "longTitle": "Descripció més llarga",
-      "linksHtml": "<p>Pàgines útils per enllaçar directament: <a href=\"/games/\">jocs gratuïts</a>, <a href=\"/activities/printable/\">materials gratuïts per imprimir</a>, <a href=\"/activities/alzheimers/\">activitats per a l’Alzheimer</a> i <a href=\"/caregiving/how-to-play-together/\">com jugar plegats</a>.</p><h2>Preguntes o correccions</h2><p>Si alguna cosa del web és errònia o poc clara, o si el que hi ha aquí no cobreix les necessitats d’una persona resident, avisi’ns a <a href=\"mailto:{email}\">{email}</a>. Si us plau, no ens enviï informació personal ni de salut de residents o usuaris.</p>"
+      "linksHtml": "<p>Pàgines útils per enllaçar directament: <a href=\"/games/\">jocs gratuïts</a>, <a href=\"/games/\">material gratuït per imprimir</a>, <a href=\"/dementia-activities/\">activitats per a la demència a casa</a> i <a href=\"/caregiving/how-to-play-together/\">com jugar junts</a>.</p><h2>Preguntes o correccions</h2><p>Si alguna cosa del lloc és incorrecta o poc clara, o si les necessitats d’una persona resident no queden cobertes amb el que hi ha aquí, si us plau, escriviu-nos a <a href=\"mailto:{email}\">{email}</a>. Us preguem que no envieu informació personal ni de salut sobre residents o clients.</p>"
     },
     "app": {
       "title": "L’aplicació Creative Activities",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Jocs gratuïts en línia per a la demència i l’Alzheimer",
-    "description": "Jocs gratuïts en línia per a persones grans amb demència o Alzheimer: parelles d’imatges, trencaclosques, refranys, bingo. Sense registre ni puntuacions.",
+    "title": "Jocs gratuïts per jugar junts en línia",
+    "description": "Jocs en línia gratuïts per a persones grans, famílies i persones que viuen amb demència: parelles d’imatges, puzles senzills, classificació, dites, acolorir i bingo. Sense registre, cronòmetres ni puntuacions.",
     "crumb": "Jocs",
-    "h1": "Jocs suaus per a persones amb demència",
+    "h1": "Jocs suaus per jugar junts",
     "lede": "{count} jocs gratuïts per jugar plegats al navegador. Imatges grans, paraules clares i res per suspendre: sense cronòmetres, sense puntuacions, sense registre.",
-    "listName": "Jocs suaus per a persones amb demència",
+    "listName": "Jocs suaus per jugar junts",
     "byStageTitle": "Triar un joc segons la fase",
     "byStageLede": "Les fases són només una guia aproximada. Segueixi el que la persona gaudeix i el que li resulta còmode avui.",
     "stageCol": "Fase",
     "gamesCol": "Jocs que sovint van bé",
-    "moreHtml": "Més idees fora de la pantalla: <a href=\"/activities/ideas/\">101 activitats per a persones amb demència</a>, <a href=\"/activities/alzheimers/\">activitats i jocs per a l’Alzheimer</a>, <a href=\"/activities/memory-games/\">jocs suaus de memòria</a> i <a href=\"/activities/puzzles/\">trencaclosques</a>.",
+    "moreHtml": "Més idees lluny de la pantalla: <a href=\"/activities/ideas/\">101 idees d’activitats</a>, <a href=\"/dementia-activities/\">activitats per a la demència a casa</a> i <a href=\"/crafts/\">manualitats</a>.",
     "faq": [
       {
         "q": "Amb quin joc hauríem de començar?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Són jocs de memòria per a persones grans?",
-        "a": "Són jocs de parelles i d’imatges que qualsevol persona gran pot gaudir, però estan fets per no posar a prova la memòria: a les Parelles d’imatges les imatges es queden cap amunt si no tria una altra cosa. La nostra guia de jocs de memòria per a persones grans amb demència explica com mantenir suau qualsevol joc de memòria."
+        "a": "Són jocs de parelles i d’imatges que qualsevol persona gran pot gaudir, però no estan pensats per posar a prova la memòria: a Parelles d’imatges, les imatges es mantenen visibles tret que en trieu d’altra manera. Qualsevol joc de memòria es pot fer més suau si se’n treuen el cronòmetre i les puntuacions."
       },
       {
         "q": "Hi ha jocs per a grups en una residència?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Hi ha alguna aplicació d’activitats per a la demència?",
+        "q": "Hi ha una aplicació per a persones grans i famílies?",
         "a": "Sí. Creative Activities (que apareix com a «{storeName}») és gratuïta a l’App Store i a Google Play. Ofereix parelles d’imatges suaus amb fitxes grans, jocs amb fotos de família que vostè triï i col·leccions d’imatges que funcionen sense connexió."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Per imprimir",
     "howTo": "Com jugar a {name}",
     "tips": "Consells per jugar plegats",
-    "newToPlayingHtml": "Jugar amb una persona amb demència és nou per a vostè? Llegeixi <a href=\"/caregiving/how-to-play-together/\">com jugar plegats</a>, que inclou què fer si perd l’interès.",
+    "newToPlayingHtml": "És la primera vegada que juga amb una persona gran o amb una persona que viu amb demència? Vegeu <a href=\"/caregiving/how-to-play-together/\">com jugar junts</a>, inclòs què fer si la persona perd l’interès.",
     "moreAria": "Més coses per descobrir",
     "helpfulGuides": "Guies útils",
     "appTitle": "Jugar-hi a l’aplicació",
@@ -536,6 +666,35 @@
     "goodToKnow": "Bo de saber",
     "goodToKnowText": "Aquest joc és per gaudir i passar temps plegats. No posa a prova, no mesura ni tracta res.",
     "moreGames": "Més jocs suaus",
-    "crumb": "Jocs"
+    "crumb": "Jocs",
+    "print": {
+      "heading": "Jugar en paper",
+      "sameRules": "La versió en paper té les mateixes regles que el joc a la pantalla:",
+      "button": "Imprimir una versió en paper",
+      "pageNote": "Una pàgina en format A4 o US Letter, que també es veu bé en blanc i negre. Versió {date}.",
+      "islandNote": "S’imprimeix el que hi ha ara a la pantalla. Versió {date}.",
+      "sheetTitle": "{name}: versió en paper",
+      "point": "En paper, assenyalar una imatge en lloc de tocar-la, o encerclar-la amb un bolígraf. Cada fila és un conjunt nou.",
+      "pointTarget": "En paper, la imatge a mirar és a la casella del començament de cada fila. Assenyalar una imatge en lloc de tocar-la, o encerclar-la amb un bolígraf.",
+      "halves": "Cada imatge està tallada pel mig. Traçar una línia des de cada meitat de l’esquerra fins a la meitat de la dreta que hi encaixa, o assenyalar-la amb el dit. No cal tallar res.",
+      "grid": "Cada quadre té un número. Buscar aquest número a la clau i pintar el quadre amb un llapis d’aquest color. També val qualsevol altre color. No cal tallar res.",
+      "colors": "Cada fila indica un color. Assenyalar cada imatge d’aquest color, o encerclar-la amb un bolígraf. Cada fila és un conjunt nou.",
+      "dice": "Cada fila és un conjunt de daus. Triar una fila, o tallar les imatges i treure’n algunes d’una pila, i després explicar una història amb elles en qualsevol ordre. Qualsevol persona pot passar.",
+      "words": "Tallar les paraules, o traçar una línia de cada paraula fins a la seva imatge. Llegir les paraules en veu alta mentre es fa.",
+      "cards": "Tallar les cartes seguint les línies discontínues. Posar-les cara amunt sobre la taula i després buscar les parelles.",
+      "chain": "En paper, llegir les imatges d’esquerra a dreta, una rere l’altra. Cada persona diu una frase sobre les imatges fins ara i després assenyala la imatge següent. Qualsevol persona pot passar.",
+      "sort": "Tallar les imatges seguint les línies discontínues i després posar-ne cada una a la caixa que li correspon.",
+      "puzzle": "Tallar la imatge gran en quatre peces seguint les línies discontínues i barrejar-les. Intercanviar dues peces cada vegada fins que la imatge quedi completa. La imatge petita és una guia.",
+      "cutSafety": "Abans de començar, una persona que ajudi pot fer el tall. Guardar les tisores després.",
+      "version": "Versió {date} · {url}",
+      "reasons": {
+        "photos": "No hi ha versió en paper. Aquest joc fa servir les vostres pròpies fotografies, que es queden al navegador i mai no es pugen, de manera que el lloc no les pot imprimir. Per jugar en paper, imprimir a casa dues còpies d’unes quantes fotografies preferides i fer-ne parelles sobre la taula.",
+        "paced": "No hi ha versió en paper. El cercle marca a la pantalla un ritme lent i constant, i una pàgina impresa no ho pot fer, de manera que seria una altra activitat. Sempre es pot optar per una pausa tranquil·la junts, sense pantalla.",
+        "turns": "No hi ha versió en paper d’aquest joc. Per trobar parelles sobre la taula, imprimir les cartes d’imatges de Parelles d’imatges i fer torns per girar-les.",
+        "screen": "No hi ha versió en paper. És una imatge per mirar junts en una pantalla; una foto preferida o una postal sobre la taula fa el mateix.",
+        "wash": "No hi ha versió en paper. La aquarel·la sobre paper segueix la mateixa idea: un pinzell humit i un color cada vegada.",
+        "sayings": "Encara no hi ha versió en paper. En paper, cada final es veuria de cop i es perdria el pas suau de «Mostra el final». Llegiu els refranys junts des de la pantalla, o compartiu-ne alguns que tots dos conegueu."
+      }
+    }
   }
 }

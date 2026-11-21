@@ -1,35 +1,35 @@
 ---
-title: "Kiel ludi kun iu vivanta kun demenco"
-description: "Praktika gvidilo por ludi kun iu vivanta kun demenco: prepari, tempigi, ne korekti, faciligi kaj scii kiam ĉesi."
+title: "Kiel Ludi kun Iu, Kiu Vivas kun Demenco"
+description: "Praktika gvidilo pri ludado kun iu, kiu vivas kun demenco: preparado, rapideco, neniam korektado, pli facila ludado, kaj scio, kiam halti."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Traktu ludon kiel tempon kune, ne kiel provon. Elektu trankvilan momenton de
-  la tago, sidu apude en silenta ĉambro kaj proponu nur unu simplan ludon.
-  Lasu la personon, pri kiu vi zorgas, decidi la ritmon. Neniam korektu
-  senharmajn erarojn. Faciligu la ludon jam ĉe la unua signo de streĉo kaj uzu
-  bildojn kiel bazo por konversacio. Ĉesu dum ĝi ankoraŭ sentas agrabla. Fini
-  frue, aŭ simple rigardi kune, estas bona rezulto.
+  Traktu ludon kiel kunan tempon, ne kiel teston. Elektu kvietan tempon de la
+  tago, sidiĝu flanke en trankvila ĉambro, kaj proponu unu simplan ludon. Lasu
+  la personon fiksi la rapidecon, neniam korektu senvarajn erarojn, faciligu la
+  ludon ĉe la unua signo de streĉiĝo, kaj turnu bildojn en interparolon. Haltu
+  dum ĝi ankoraŭ sentiĝas bone. Frua finiĝo, aŭ simple kune rigardi, estas bona
+  rezulto.
 keyPoints:
-  - "La celo estas ĝuo kaj kuneco, ne fini la ludon aŭ respondi ĝuste."
-  - "Preparu antaŭe: silenta ĉambro, bona lumo, okulvitroj kaj aŭdhelpiloj surmetitaj, televidilo malŝaltita, unu ludo preta."
-  - "Ne korektu senharmajn erarojn. Diru: \"Ni provu tiel\", aŭ simple daŭrigu."
-  - "Faciligu la ludon antaŭ ol streĉo ekkreskas: malpli da bildoj, malpli da elektoj, lasu la bildojn videblaj."
-  - "Uzu bildojn kiel deirpunkton por rakontoj per \"Rakontu al mi pri...\" anstataŭ \"Ĉu vi memoras...?\""
-  - "Ĉesu ĉe la unuaj signoj de laceco aŭ maltrankvilo. Fini frue estas sukceso, ne malsukceso."
+  - "La celo estas ĝuo kaj kontakto, ne finado aŭ ĝusta respondado."
+  - "Unue preparu: trankvila ĉambro, bona lumo, okulvitroj kaj aŭdilo surmetitaj, televido malŝaltita, unu ludo preta."
+  - "Ne korektu senvarajn erarojn. Diru \"Ni provu tiel\" aŭ simple daŭrigu."
+  - "Faciligu ludon antaŭ ol frustriĝo kreskas: malpli da bildoj, malpli da elektoj, bildoj restu videblaj."
+  - "Uzu bildojn kiel ekiron por rakontoj per \"Rakontu al mi pri...\" anstataŭ \"Ĉu vi memoras...?\""
+  - "Haltu ĉe la unuaj signoj de laceco aŭ ĉagreno. Frua halto estas sukceso, ne fiasko."
 faq:
-  - q: "Kiom longe ni lududu?"
-    a: "Ne ekzistas ĝusta daŭro. Por multaj homoj, kelkaj minutoj sufiĉas, kaj iuj tagoj nur unu raŭndo. Rigardu la personon, pri kiu vi zorgas, ne la horloĝon, kaj ĉesu dum ŝi aŭ li ankoraŭ ŝajnas trankvila."
-  - q: "Ĉu mi lasu lin aŭ ŝi gajni, aŭ simuli ne rimarki erarojn?"
-    a: "En kunhaviga ludo sen premado ne ekzistas gajnanto nek malgajnanto. Se eraro ne ĝenas la personon, lasu ĝin. Se ĝi ŝajnas ĝeni lin aŭ ŝin, helpu silente aŭ faciligu la ludon sen atentigi pri ĝi."
-  - q: "Kio se li aŭ ŝi preferas nur rigardi min ludi?"
-    a: "Tio estas tute bone. La National Institute on Aging sugestas lasi la personon simple rigardi, se tio ŝajnas pli agrabla por li aŭ ŝi. Parolu pri tio, kion vi vidas, kaj inviton lin aŭ ŝin montri aŭ elekti kiam ajn li aŭ ŝi volas."
-  - q: "Ĉu tiuj ludoj estas por testi memoron?"
-    a: "Ne. Niaj ludoj estas simplaj kunagadoj por ĝuo kaj konversacio. Ili ne estas memorprovo, ne mezuras ion ajn, kaj ne estas kuracado por demenco."
-  - q: "Per kiu ludo ni komencu?"
-    a: "Komencu per la plej simpla ludo, kiu taŭgas por la persono. Bildparoj kun kvar kaheloj kaj bildoj lasitaj videblaj, aŭ Trovu la saman kun du elektoj, estas bonaj deirpunktoj. Konversaciaj kartoj taŭgas bone se la persono pli volas paroli ol frapeti la ekranon."
+  - q: "Kiom longe ni devus ludi?"
+    a: "Ne ekzistas ĝusta longeco. Por multaj homoj, kelkaj minutoj sufiĉas, kaj en kelkaj tagoj unu rondo estas sufiĉa. Observu la personon anstataŭ la horloĝon, kaj haltu dum ŝi aŭ li ankoraŭ ŝajnas relaksita."
+  - q: "Ĉu mi lasu ilin gajni aŭ ŝajnigu, ke mi ne rimarkas erarojn?"
+    a: "En komuna, malstreĉa ludo estas nenio por gajni aŭ perdi. Se eraro ne ĝenas la personon, lasu ĝin. Se ŝajnas, ke ĝi ĝenas, helpu trankvile aŭ faciligu la ludon sen tion montri."
+  - q: "Kio se ili preferas rigardi min ludi?"
+    a: "Tio estas bone. La Nacia Instituto pri Maljuneco sugestas lasi personon simple rigardi, se ŝi aŭ li ŝajnas ĝui tion pli. Parolu pri tio, kion vi vidas, kaj invitu la personon montri aŭ elekti kiam ajn ŝi aŭ li volas."
+  - q: "Ĉu ĉi tiuj ludoj estas maniero testi memoron?"
+    a: "Ne. Niaj ludoj estas simplaj komunaj agadoj por ĝuo kaj interparolo. Ili ne estas memortesto, ne mezuras ion, kaj ne estas traktado de demenco."
+  - q: "Kiun ludon estas plej bone komenci per?"
+    a: "Komencu per la plej simpla, kiu taŭgas al la persono. Bildparoj kun kvar kartoj kaj videblaj bildoj, aŭ Trovu la Samon kun du elektoj, estas mildaj komencoj. Konversaciaj kartoj funkcias bone, se la persono ŝatas paroli pli ol tuŝi."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -48,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Bona ludo kun iu vivanta kun demenco ne aspektas kiel konkurso. Ĝi aspektas kiel du homoj sidantaj proksime, montrantaj bildojn per fingro, ridantaj pri diraĵo kaj parolantaj pri kio ajn venas en la kapon. La ludo nur estas kialo por pasi tempon kune.
+Bona ludo kun iu, kiu vivas kun demenco, ne aspektas kiel konkurso. Ĝi aspektas kiel du homoj sidantaj proksime, montrantaj bildojn, ridantaj pri proverbo, kaj parolantaj pri tio, kio venas al la menso. La ludo estas nur kialo por pasigi tempon kune.
 
-Tiu ĉi gvidilo klarigas kiel prepari, kiel tempigi ludon, kion diri kiam io iras "malĝuste", kiel faciligi aŭ iom malfaciligi ajnan ludon, kiel fari el ĝi konversacion kaj kiel scii kiam ĉesi. Ĝi taŭgas por niaj [ludoj](/games/) kaj por kartoj, enigmoj aŭ tabulludoj, kiujn vi jam havas.
+Ĉi tiu gvidilo klarigas, kiel prepari, kiel regi la rapidecon de ludo, kion diri, kiam io "misiras", kiel faciligi aŭ iomete malfaciligi ajnan ludon, kiel turni ĝin en interparolon, kaj kiel scii, kiam halti. Ĝi taugas por niaj [ludoj](/games/) kaj por kartaroj, puzloj kaj tabluludoj, kiujn vi jam havas.
 
-## Kiel estas plej bone ludi kun iu vivanta kun demenco?
+## Kio estas la plej bona maniero ludi kun iu, kiu havas demencon?
 
-Koncentru vin al ĝuo, ne al atingoj. Tio estas la ĉefa konsilo el la [gvidilo de la Alzheimer's Association pri agadoj](https://www.alz.org/help-support/caregiving/daily-care/activities): baziĝu sur kapabloj, kiujn la persono ankoraŭ havas, helpu lin aŭ ŝin ekigi, faru la malfacilajn partojn mem kaj ne kritiku nek korektu senharmajn agadojn.
+Koncentriĝu pri ĝuo, ne pri atingo. Tio estas la kerna konsilo el la [gvidilo de Alzheimer's Association pri agadoj](https://www.alz.org/help-support/caregiving/daily-care/activities): konstruu sur kapabloj, kiujn la persono ankoraŭ havas, helpu ŝin aŭ lin komenci, faru la malfacilajn partojn mem, kaj ne kritiku aŭ korektu senvarajn agadojn.
 
-En la praktiko tio signifas:
+En praktiko tio signifas:
 
-- **Sidu apude, ne kontraŭe.** Apudside vi ambaŭ povas vidi la ekranon aŭ tablon, kaj helpo sentiĝas kiel kunlaboro, ne kiel inspektado.
-- **Proponu nur unu ludon samtempe.** Elekto inter multaj opcioj povas sentiĝi kiel provo antaŭ ol la ludo eĉ komenciĝas.
-- **Sekvu lian aŭ ŝian volon.** Se la persono volas frapeti bildojn en sia propra ordo, paroli pri unu bildo dum dek minutoj, aŭ ĉesi post du vicoj, tio estas la ludo por hodiaŭ.
-- **Kalkulu la bonajn momentojn, ne la finitaj raŭndoj.** Rideto, rakonto aŭ trankvila duonhoro estas la rezulto, kiun vi serĉas.
+- **Sidu apud, ne trans.** Flanke de la alia, ambaŭ povas vidi la ekranon aŭ la tablon, kaj helpado sentiĝas kiel kunlaborado prefere ol kontrolado.
+- **Proponu unu ludon samtempe.** Menuo de elektoj povas sentiĝi kiel testo antaŭ ol io ajn komenciĝas.
+- **Sekvu lian aŭ ŝian gvidon.** Se la persono volas tuŝi la bildojn laŭ propra ordo, paroli dek minutojn pri unu bildo, aŭ halti post du turnoj, tio estas la ludo de hodiaŭ.
+- **Kalkulu la bonajn momentojn, ne la finitajn rondojn.** Rideto, rakonto aŭ trankvila duonhoro estas la rezulto, kiun vi serĉas.
 
-## Kiel mi preparu antaŭ ol ni komenci?
+## Kiel mi preparu antaŭ ol ni komencas?
 
-Kelkaj minutoj da preparado malhelpas la plej multajn frustraciojn, kiujn oni ofte kulpigas la ludon mem.
+Kelkaj minutoj da preparo evitas plej multajn el la frustriĝoj, kiujn homoj kulpigas al la ludo mem.
 
-1. **Elektu la plej bonan momenton de la tago.** La [gvidilo de la National Institute on Aging (NIA) pri adapti agadojn](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) sugestas fari agadojn tiam, kiam la persono sentas sin plej bone. Por multaj homoj tio estas antaŭtagmeze. La malfrua posttagmezo ofte estas pli malfacila; vidu [trankvilaj agadoj por la malfrua posttagmezo](/caregiving/late-day-restlessness/).
-2. **Silentigu la ĉambron.** Malŝaltu la televidilon kaj radion kaj, se eble, fermu la pordon. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) rekomendas limigi bruon kaj distraĵojn antaŭ ol vi provas paroli.
-3. **Kontrolu la komforton unue.** Certiĝu pri trinkaĵo proksime, vizito al la necesejo antaŭe, komforta seĝo, kaj ke okulvitroj kaj aŭdhelpiloj estas surmetitaj.
-4. **Bone prilumu la spacon.** Brila, egala lumo sen brilo sur la ekrano faciligas vidi la bildojn.
-5. **Preparu la ludon antaŭ ol sidiĝi.** Malfermu ĝin, elektu la agordojn kaj agordu la laŭtecon mem. Poste turnu la ekranon al la persono. Por konsiloj pri tablojdo, vidu [kiel agordi tablojdon aŭ telefonon](/caregiving/tablets-and-screens/).
-6. **Subtenu la aparaton.** Uzu subtenilon aŭ kesteton, kiu tenas la tablojdon vertikale, tiel ke neniu devas ĝin teni kaj estas pli facile montri per fingro.
+1. **Elektu ilian plej bonan tempon de la tago.** La [gvidilo de la Nacia Instituto pri Maljuneco (NIA) pri adaptado de agadoj](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) sugestas planadi elirojn kaj agadojn por la tempo de la tago, kiam la persono estas en sia plej bona stato. Por multaj homoj tio estas meztago-antaŭe. Posttagmezo estas ofte pli malfacila; vidu [trankvilajn agadojn por posttagmezo](/creative-calm/calm-afternoon-activities/).
+2. **Igu la ĉambron trankvila.** Malŝaltu la televidon kaj la radion, kaj fermu la pordon, se vi povas. La [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) rekomendas limigi bruon kaj distrojn antaŭ ol vi provas paroli.
+3. **Kontrolu komforton unue.** Trinkaĵo proksime, banĉambra vizito antaŭe, komforta seĝo, kaj okulvitroj kaj aŭdilo surmetitaj.
+4. **Bone lumigu la spacon.** Hela, egala lumo sen brilo sur la ekrano faciligas la vidadon de bildoj.
+5. **Preparu la ludon antaŭ ol sidiĝi.** Malfermu ĝin, elektu la agordojn kaj fiksu la sonon mem. Poste turnu la ekranon al la persono. Ŝaltu pli grandan tekston en la aparato, se tio helpas.
+6. **Subtenu la aparaton.** Stando aŭ kazo, kiu tenas la tablokomputilon vertikale, signifas, ke neniu devas teni ĝin, kaj ĝi estas pli facile montrebla.
 
-## Kiel mi inviton sen premado?
+## Kiel mi invitu ilin sen premo?
 
-Faru la inviton malpeze kaj lasu facile ne akcepti. Jen kelkaj frazoj, kiuj ofte funkcias bone:
+Faru la inviton senzorga kaj facile rifuzebla. Kelkaj frazoj, kiuj kutime bone funkcias:
 
-- "Mi trovis kelkajn bildojn pri ĝardeno. Ĉu vi volas rigardi ilin kun mi?"
-- "Ĉu vi povus helpi min kun tiu ĉi enigmo? Mi ne certas."
-- "Ĉu vi hodiaŭ preferas la florojn aŭ la birdojn?" (elekto inter du estas pli facila ol malferma demando)
-- "Mi faras karton por via fratino. Kiun koloron mi uzu por tio?"
+- "Mi trovis kelkajn bildojn de ĝardeno. Ĉu vi volas rigardi ilin kune kun mi?"
+- "Ĉu vi povus helpi min per ĉi tiu puzlo? Mi blokiĝis."
+- "Ĉu vi hodiaŭ preferas la florojn aŭ la birdojn?" (elekto inter du estas pli facila ol malfermita demando)
+- "Mi faras karton por via fratino. Kiu koloro konvenus al ĉi tio?"
 
-La Alzheimer's Association sugestas klarigi la celon de agado, ekzemple fari karton por amiko, ĉar tio donas al ĝi signifon. Peti helpon ankaŭ funkcias bone, ĉar tio lasas la personon senti sin utila.
+La Alzheimer's Association sugestas klarigi la celon de agado, ekzemple farado de karto por amiko, ĉar kialo donas al ĝi signifon. Peti helpon ankaŭ funkcias, ĉar ĝi lasas la personon senti sin utila.
 
-Se la persono diras ne, akceptu tion. Provu denove poste aŭ proponu ion alian. Nia gvidilo pri [kio fari kiam oni diras ne](/caregiving/when-they-say-no/) traktas tion pli detale.
+Se ŝi aŭ li diras ne, akceptu tion. Provu denove poste aŭ proponu ion alian. Nia gvidilo pri [kion fari, kiam ili diras ne](/caregiving/when-they-say-no/) iras pli foren.
 
-## Kiom longe daŭru ludo kaj kiom rapide ni iru?
+## Kiom longe ludo daŭru, kaj kiom rapide ni iru?
 
-Lasu la personon fiksi la ritmon kaj kalkulu kun mallongaj ludaj momentoj. Ne ekzistas scienca ideala daŭro por kunhaviga ludo. Du ĝis kvin trankvilaj minutoj povas esti kompleta agado.
+Lasu la personon fiksi la rapidecon, kaj planu mallongajn sesiojn. Ne ekzistas pruvite ideala longeco por komuna ludo. Du ĝis kvin trankvilaj minutoj povas esti kompleta agado.
 
-- **Atendu pli longe ol sentas natura.** La NIA konsilas lasi pli da tempo por respondi kaj provi ne interrompi. Kalkulu ĝis dek en via kapo antaŭ ol helpi.
-- **Unu paŝo samtempe.** Donu nur unu mallongan instrukcion ("Frapetu bildon"), poste atendu. Montru anstataŭ klarigi: montru per fingro kien frapeti.
-- **Paŭzu libere.** Se la persono haltas por paroli pri bildo, la ludo povas atendi. Ne necesas rapidigi.
-- **Lasu lin aŭ ŝi rigardi.** La NIA rimarkigas, ke iuj homoj preferas nur rigardi, kaj tio estas valida elekto.
+- **Atendu pli longe ol ŝajnas natura.** La NIA rekomendas doni pli da tempo al la persono por respondi kaj provi ne interrompi. Kalkulu ĝis dek en via kapo antaŭ ol helpi.
+- **Unu paŝo samtempe.** Donu unu mallongan instrukcion ("Tuŝu bildon"), kaj poste atendu. Montru prefere ol klarigu: montru per fingro, kie tuŝi.
+- **Paŭzu libere.** Se ŝi aŭ li haltas por paroli pri bildo, la ludo povas atendi. Ne necesas rapidi.
+- **Lasu ilin rigardi.** La NIA rimarkigas, ke kelkaj homoj preferas rigardi, kaj tio estas valida elekto.
 
 ## Ĉu mi korektu malĝustajn respondojn?
 
-Ne. Se vi ripete korektas iun, eĉ kun bonaj intencoj, tio povas lasi lin aŭ ŝin senti, ke ŝi aŭ li malsukcesas. La Alzheimer's Association konsilas ne kritiki nek korekti senharmajn agadojn. En ludo, preskaŭ ĉiu eraro estas senharmo.
+Ne. Ripete korekti iun malrapide diras al ŝi aŭ al li, ke li aŭ ŝi malsukcesas, eĉ kiam vi intencas bone. La Alzheimer's Association konsilas ne kritiki aŭ korekti senvarajn agadojn. En ludo preskaŭ ĉiu eraro estas senvara.
 
-| Anstataŭ | Provu tion |
+| Anstataŭ | Provu |
 | --- | --- |
-| "Ne, tio estas malĝusta." | "\"Ni provu tiel.\"" (ekzemplo donita de la NIA) |
-| "Tio ne kongruas. Rigardu denove." | Diru nenion kaj faru la sekvan vicon, aŭ "\"Ho, ambaŭ estas ruĝaj.\"" |
-| "Ĉu vi memoras kiu tio estas?" | "\"Rakontu al mi pri tiu bildo.\"" |
-| "Vi jam faris tion." | "\"Tio estas bona. Ni povas fari ĝin denove.\"" |
-| "Venu, vi ja scias tion." | "\"Ĉu mi montru la finon?\"" |
+| "Ne, tio estas malĝusta." | "Ni provu tiel." (ekzemplo, kiun donas la NIA) |
+| "Tio ne estas parigo. Rigardu denove." | Diru nenion kaj prenu la sekvan turnon, aŭ "Ho, ambaŭ estas ruĝaj." |
+| "Ĉu vi memoras, kiu ĉi tio estas?" | "Rakontu al mi pri ĉi tiu bildo." |
+| "Vi jam faris tion." | "Tio estas bona. Ni faru ĝin denove." |
+| "Venu, vi scias ĉi tion." | "Ĉu vi volas, ke mi montru la finon?" |
 
-Se eraro klare frustriĝas lin aŭ ŝin, helpu silente. Montru al la ĝusta bildo, faru vicon mem, aŭ faciligu la ludon por la sekva raŭndo. Se diraĵo ricevas amuzan malĝustan finon, ridu kune. Eble lia aŭ ŝia fino estas eĉ pli bona.
+Se eraro klare ĝenas ilin, helpu trankvile. Montru la ĝustan bildon, prenu turnon mem, aŭ faciligu la ludon en la venonta rondo. Se proverbo havas amuzan malĝustan finon, ridu kune. Ilia fino eble estas pli bona.
 
-## Kiel mi faciligu aŭ iom malfaciligu ludon?
+## Kiel mi faciligu aŭ malfaciligu ludon?
 
-Adapti la ludon al la persono por tiu tago, ne al etikedo pri stadio. La sama persono eble bezonas pli simplan version vespere ol matene. La unua konsilo de la NIA estas kongrui la agadon kun tio, kion la persono povas fari, kaj certigi, ke ŝi aŭ li sentas sin sukcesa.
+Adaptu la ludon al la persono de la tago, ne al etikedo de stadio. La sama persono eble bezonas pli simplan version vespere ol matene. La unua konsilo de la NIA estas kongrui la agadon kun tio, kion la persono kapablas, kaj certigi, ke ŝi aŭ li sentas sukceson.
 
-| Ludo | Faciligu ĝin | Iom malfaciligu ĝin |
+| Ludo | Faciligu ĝin | Iomete malfaciligu ĝin |
 | --- | --- | --- |
-| [Bildparoj](/games/picture-pairs/) | Komencu kun 4 kaheloj kaj lasu la bildojn videblaj | Pli da kaheloj, aŭ kaŝu la bildojn se tio sentas agrabla |
-| [Trovu la saman](/games/find-the-same/) | 2 elektoj | Ĝis 4 elektoj |
-| [Klasifiku kune](/games/sort-together/) | Vi tenu la bildon, li aŭ ŝi montru al la korbo | Li aŭ ŝi frapetu kaj la bildon kaj la korbon mem |
-| [Bildenigmo](/games/picture-puzzle/) | 4 pecoj, parolu pri la tuta bildo unue | 9 pecoj |
-| [Finu la diraĵon](/games/finish-the-saying/) | Montru la finon, poste diru ĝin kune | Lasu lin aŭ ŝin diri la finon antaŭ ol frapeti |
-| [Vortserĉo](/games/word-search/) | Presu ĝin, serĉu unu vorton kune, montru al ĝia unua litero | Lasu lin aŭ ŝi elekti la sekvan serĉotan vorton |
-| [Kolorigo](/games/coloring/) | Vi elektu du kolorojn, li aŭ ŝi elektu inter ili | Li aŭ ŝi elektu ĉiujn kolorojn |
-| [Konversaciaj kartoj](/games/conversation-cards/) | Nur rigardu la bildon kune | Uzu la malfermajn demandojn sur la karto |
-| [Fotoparoj](/games/photo-pairs/) | Kelkaj tre amataj familiaj fotoj | Aldonu pliajn fotojn |
-| [Bildbingo](/games/picture-bingo/) | Helputo sidas apud ĉiu ludanto | Ludantoj mem markas siajn kartojn |
-| [Trankvila spirado](/games/calm-breathing/) | Nur sidu kaj rigardu ĝin kune | Spiru kune malrapide |
+| [Bildparoj](/games/picture-pairs/) | Komencu per 4 kartoj kaj lasu bildojn videblaj | Pli da kartoj, aŭ kaŝu bildojn, se tio komfortas |
+| [Trovu la Samon](/games/find-the-same/) | 2 elektoj | Ĝis 4 elektoj |
+| [Ordigu Kune](/games/sort-together/) | Vi tenas la bildon, ili montras la korbon | Ili tuŝas kaj bildon kaj korbon memstare |
+| [Bildpuzlo](/games/picture-puzzle/) | 4 pecoj, parolu unue pri la tuta bildo | 9 pecoj |
+| [Finu la Proverbon](/games/finish-the-saying/) | Montru la finon, poste diru ĝin kune | Lasu ilin diri la finon antaŭ ol tuŝi |
+| [Vortserĉo](/games/word-search/) | Presu ĝin, serĉu unu vorton kune, montru ĝian unuan literon | Lasu ilin elekti la sekvan serĉotan vorton |
+| [Kolorado](/games/coloring/) | Vi elektas du kolorojn, ili elektas inter ili | Ili elektas ĉiujn kolorojn |
+| [Konversaciaj kartoj](/games/conversation-cards/) | Simple rigardu la bildon kune | Uzu la malfermajn demandojn sur la karto |
+| [Fotoparoj](/games/photo-pairs/) | Kelkaj amataj familiaj fotoj | Aldonu pliajn fotojn |
+| [Bildbingo](/games/picture-bingo/) | Helpanto sidas kun ĉiu ludanto | Ludantoj markas siajn proprajn kartojn |
+| [Trankvila spirado](/games/calm-breathing/) | Simple sidu kaj rigardu kune | Spiru kune malrapide |
 
-Signoj, ke la ludo estas tro malfacila: longaj paŭzoj, kiuj aspektas zorgaj anstataŭ pripensaj, ripetita "mi ne povas", forpuŝi la aparaton, aŭ eraroj, kiuj ĝenas lin aŭ ŝin. Signoj, ke eble ĝi estas tro facila: enuo, aŭ diri, ke tio sentas infana. Se tio okazas, respektu tion kaj ŝanĝu al io, kio sentas plenkreska, kiel vortserĉo, enigmo el vera familia foto, aŭ paroli pri bildo de lia aŭ ŝia antaŭa laboro.
+Signoj, ke la ludo estas tro malfacila: longaj paŭzoj, kiuj aspektas maltrankvilaj prefere ol pripensemaj, ripetitaj "Mi ne povas", forpuŝado de la aparato, aŭ eraroj, kiuj ĉagrenas. Signoj, ke ĝi eble estas tro facila: enuo, aŭ ili diras, ke ĝi estas infaneca. Se tio okazas, respektu tion kaj ŝanĝu al io, kio sentiĝas plenkreska, kiel vortserĉo, puzlo de vera fotografaĵo, aŭ parolado pri bildo de ilia iama laborkampo.
 
-## Kiel mi faru el ludo konversacion?
+## Kiel mi turnu ludon en interparolon?
 
-Uzu ĉiun bildon kiel inviton paroli, kaj traktu kion ajn li aŭ ŝi diras kiel bonan respondon. Por multaj familioj, tio estas la plej agrabla parto de ludi.
+Uzu ĉiun bildon kiel invitas paroli, kaj traktu ĉion, kion ili diras, kiel bonan respondon. Por multaj familioj, tio estas la plej bona parto de ludado.
 
-- **Faru malfermajn demandojn sen malĝusta respondo.** "\"Kion vi rimarkas?\" \"Kiu el ili plaĉas al vi plej multe?\" \"Rakontu al mi pri kuirejo kiel ĉi tiu.\""
-- **Komencu vi mem.** "\"Mia avino havis hundon similan al ĉi tiu.\"" Via rakonto faciligas al li aŭ ŝi dividi sian.
-- **Sekvu la digresion.** Se bildo de aŭto kondukas al rakonto pri vojaĝo, la rakonto estas la agado. Lasu la ludon paŭzi.
-- **Ne korektu faktojn.** En rememorado, agrabla konversacio gravas pli ol precizaj detaloj. Se la rakonto ŝanĝiĝas de fojo al fojo, ĝuu la novan version.
-- **Uzu la enkonstruajn demandojn.** [Finu la diraĵon](/games/finish-the-saying/) sekvas ĉiun diraĵon per konversacia demando, kaj [Konversaciaj kartoj](/games/conversation-cards/) estas ĝuste por tio. [Fotoparoj](/games/photo-pairs/) uzas viajn proprajnfamiliajn fotojn, kio ofte vekas la plej riĉajn rakontojn.
+- **Demandu malfermajn demandojn, kiuj havas neniun malĝustan respondon.** "Kion vi rimarkas?" "Kiun vi ŝatas?" "Rakontu al mi pri kuirejo kiel ĉi tiu."
+- **Dividu unue.** "Mia avino havis hundon kiel ĉi tiu." Via rakonto faciligas al ili dividi unu.
+- **Sekvu la flankan vojon.** Se bildo de aŭto kondukas al rakonto pri vojaĝo, la rakonto estas la agado. Lasu la ludon paŭzita.
+- **Ne kontrolu faktojn.** En rememorado, agrabla interparolo gravas pli ol precizaj detaloj. Se la rakonto ŝanĝiĝas de la pasintfoja, ĝuu la novan version.
+- **Uzu la enkonstruitajn invitojn.** [Finu la Proverbon](/games/finish-the-saying/) sekvas ĉiun proverbon per parolinvito, kaj [Konversaciaj kartoj](/games/conversation-cards/) estas dizajnitaj ekzakte por tio. [Fotoparoj](/games/photo-pairs/) uzas viajn proprajn familiajn fotojn, kiuj ofte vekas la plej riĉajn rakontojn.
 
-Pliaj ideoj troviĝas en niaj gvidiloj pri [rememoragadoj](/activities/reminiscence/) kaj [konsiloj por komunikado](/caregiving/communication-tips/).
+Pliaj ideoj troveblas en nia gvidilo pri [rememoraj agadoj](/activities/reminiscence/). Por subteno post diagnozo, vidu [unuajn paŝojn post diagnozo](/caregiving/after-dementia-diagnosis/).
 
-## Kiam ni devas ĉesi?
+## Kiam ni devus halti?
 
-Ĉesu ĉe la unuaj signoj de laceco aŭ maltrankvilo, prefere iom antaŭe. La Alzheimer's Association konsilas ĉesi aŭ ŝanĝi agadon kiam atento malpliiĝas aŭ frustriĝo kreskas.
+Haltu ĉe la unuaj signoj de laceco aŭ ĉagreno, kaj ideale iomete antaŭe. La Alzheimer's Association konsilas halti aŭ ŝanĝi agadon, kiam atento malpliiĝas aŭ frustriĝo kreskas.
 
-Atentu jenon:
+Atentu:
 
-- boceado, senforta sidado aŭ okuloj forirantaj de la ekrano;
-- moviĝemo, leviĝo aŭ peto foriri;
-- suspiro, mallongaj respondoj aŭ "Mi ne sukcesas pri tio";
-- frapeti senorde aŭ forpuŝi la aparaton;
-- larmoj, iritiĝo aŭ subita ŝanĝo en humoro.
+- oscedado, senfortiĝo aŭ okuloj forirantaj de la ekrano;
+- senripoza moviĝado, stariĝado, aŭ peto foriri;
+- suspiroj, mallongaj respondoj, aŭ "Mi ne bonas en ĉi tio";
+- hazarda tuŝado aŭ forpuŝado de la aparato;
+- plorema humoro, kolero, aŭ subita ŝanĝo de humoro.
 
-Kiel bone fini:
+Kiel halti bone:
 
-- **Finu per io facila.** Unu lasta kongruo, kiun li aŭ ŝi povas fari, aŭ simple admiri lastan bildon.
-- **Faru ĝin pri vi.** "\"Mi bezonus taseton da teo. Ĉu ni ĉesu ĉi tie?\"" Tio evitas ajnan indikon, ke li aŭ ŝi malbone agis.
-- **Transiru al io korpa aŭ trankviliganta.** Mallonga promenejo, manĝeto, faldado de lavtukoj aŭ muziko.
-- **Diru ion varman.** "\"Mi ĝojis fari tion kun vi.\"" Ne laŭdu pro "ĝusta respondo", nur pro la tempo kune.
+- **Finu per io facila.** Unu lasta parigo, kiun ili povas fari, aŭ fina bildo por admiri.
+- **Faru ĝin pri vi.** "Mi povus uzi tason da teo. Ĉu ni haltu ĉi tie?" evitas ajnan indikon, ke ili malbone faris.
+- **Ŝanĝu al io korpa aŭ kvietiga.** Mallonga promenado, manĝeto, faldado de tukoj aŭ muziko.
+- **Diru ion varman.** "Mi ŝatis fari tion kun vi." Neniu laŭdo pro "ĝusta respondo", nur ĝojo pro la komuna tempo.
 
-Fini frue, ŝanĝi planojn aŭ rezigni pri la ludo kaj simple sidi kune estas ĉiuj bonaj rezultoj.
+Frua finiĝo, ŝanĝo de planoj, aŭ rezigno pri la ludo kaj simple kunsidi estas ĉiuj bonaj rezultoj.
 
-## Ĉu ni povas ludi grupe aŭ per vidvoko?
+## Ĉu ni povas ludi en grupo aŭ per videovoko?
 
-Jes, kun iom da ekstra preparado. En grupo, limigu vin al kelkaj homoj, sidigu helpantojn apud tiuj, kiuj bezonas ilin, kaj elektu ludon kun klara komuna fokuso. [Bildbingo](/games/picture-bingo/) havas preseblajn kartojn kaj ekranan vokanton por grupoj. Vidu [agadoj por grupoj en prizorgejoj](/activities/care-home-groups/) por pli da informoj.
+Jes, kun iom da plia preparo. En grupo, limigu ĝin al kelkaj homoj, sidigu helpantojn apud ĉiu, kiu bezonas ilin, kaj elektu ludon kun klara komuna celo. [Bildbingo](/games/picture-bingo/) havas preseblajn kartojn kaj ekranan vokanton por grupoj. Vidu [agadojn por grupoj en prizorgejoj](/crafts/craft-group-sessions/) por pli.
 
-Per vidvoko, la persono ĉe la voko povas priskribi bildon dum iu en la ĉambro montras kaj frapetas ĝin. Mallongigu la vokojn kaj faru ilin konataj. Nia gvidilo pri [telefonaj kaj vidvokoj](/activities/phone-and-video-calls/) donas pliajn konsilojn.
+Per videovoko, la persono en la voko povas priskribi bildon, dum iu en la ĉambro montras kaj tuŝas. Konservu la vokojn mallongaj kaj konataj. Nia gvidilo pri [telefonaj kaj videovokoj](/together/staying-connected-from-afar/) havas pliajn konsilojn.
 
-## Kio se ludo simple ne funkcias?
+## Kion fari, se ludo simple ne funkcias?
 
-Iuj tagoj nenio sukcesas, kaj tio ne estas via nek lia nek ŝia kulpo. Demetu la ludon kaj provu alian horon de la tago, alian ludon aŭ entute nenian ludon. Multaj bonaj agadoj tute ne rilatas al ekranoj: muziko, faldado de lavtukoj, trarigardo de fotoalbumo aŭ mallonga promenejo. Foliumu niajn [agadoideojn](/activities/ideas/) por pli da elektoj.
+Kelkaj tagoj nenio trafas, kaj tio ne reflektas pri vi aŭ pri ili. Metu la ludon for kaj provu alian tempon de la tago, alian ludon, aŭ neniun ludon. Multaj bonaj agadoj havas nenion komunan kun ekranoj: muzikon, faldadon de tukoj, rigardadon de fotalbumo, aŭ mallongan promenadon. Rigardu nian [ideojn por agadoj](/activities/ideas/) por pli.

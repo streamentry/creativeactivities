@@ -1,34 +1,34 @@
 ---
-title: "When Someone with Dementia Refuses or Gets Frustrated with an Activity"
-seoTitle: "When Someone with Dementia Refuses an Activity"
-description: "Why a person living with dementia may refuse or get upset with an activity, what to try instead, what to avoid, and when a sudden change needs a doctor."
+title: "Når nokon med demens seier nei til eller blir frustrert over ein aktivitet"
+seoTitle: "Når nokon med demens seier nei til ein aktivitet"
+description: "Kvifor ein person som lever med demens kan seie nei til eller bli opprørt over ein aktivitet, kva du kan prøve i staden, kva du bør unngå, og når ei brå endring krev lege."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  When someone with dementia says no, accept it calmly and try again later or
-  offer something different. Refusal often has a reason: the task feels too
-  hard or childish, they are tired, in pain, hungry, or overwhelmed by noise.
-  Do not argue or insist. Simplify, offer two choices, or ask for their help.
-  Sudden or fast-changing behavior, especially after an infection or new
-  medicine, needs a doctor promptly.
+  Når nokon med demens seier nei, aksepter det roleg, og prøv igjen seinare eller
+  tilby noko anna. Eit nei har ofte ei grunn: oppgåva kjennest for vanskeleg eller
+  barnsleg, dei er trøytte, har vondt, er svoltne, eller blir overvelda av støy.
+  Ikkje krangle eller insister. Gjer det enklare, tilby to val, eller be om hjelp
+  frå personen. Brå eller raskt skiftande åtferd, særleg etter ein infeksjon eller
+  eit nytt legemiddel, krev legehjelp med ein gong.
 keyPoints:
-  - "A \"no\" is an answer to respect, not a problem to overcome."
-  - "Refusal usually has a cause: too hard, too childish, tired, unwell, uncomfortable, or overwhelmed."
-  - "Back off, wait, and try later, at a different time, or with a simpler version."
-  - "Asking for their help works better than asking them to perform."
-  - "Never argue, insist, quiz or correct. Check yourself for rushing or crowding."
-  - "Sudden or rapidly changing behavior, especially with infection or new medicines, should go to a doctor right away."
+  - "Eit «nei» er eit svar å respektere, ikkje eit problem å overvinne."
+  - "Eit nei har vanlegvis ei årsak: for vanskeleg, for barnsleg, trøytt, uvel, ukomfortabel eller overvelda."
+  - "Trekk deg tilbake, vent, og prøv seinare, til eit anna tidspunkt, eller med ei enklare utgåve."
+  - "Å be om hjelp fungerer betre enn å be personen prestere noko."
+  - "Aldri krangle, insister, still quiz eller rett opp. Sjekk om du sjølv hastar eller legg for mykje press på."
+  - "Brå eller raskt skiftande åtferd, særleg med infeksjon eller nye legemiddel, bør til lege med ein gong."
 faq:
-  - q: "Is it okay to let them skip activities altogether?"
-    a: "Yes, on any given day. Sitting together, listening to music or watching the world go by can be enough. If someone stops enjoying everything over weeks, mention it to their doctor, since low mood, pain or other health problems can be part of the picture."
-  - q: "Why do they refuse things they used to love?"
-    a: "An old hobby can become frustrating when it now takes skills that dementia has made harder, and the person may feel embarrassed. Try a simpler part of the same activity, such as sorting buttons instead of sewing, or looking at garden pictures instead of planting."
-  - q: "Should I try to convince them?"
-    a: "No. Pushing someone to do something dementia has made hard is a known trigger for agitation. Accept the no, change the subject, and offer again later or in a different way."
-  - q: "When is a change in behavior an emergency?"
-    a: "Call 911 if someone is in danger or has signs of a medical emergency. For sudden confusion or behavior that changes quickly over hours or days, especially with fever, infection or a new medicine, contact their doctor right away."
+  - q: "Er det greitt å la dei hoppe over aktivitetar heilt?"
+    a: "Ja, på ein gitt dag. Å sitje saman, lytte til musikk eller sjå på det som skjer rundt kan vere nok. Om nokon over veker slutter å like alt, bør de nemne det for legen, sidan låg stemning, smerte eller andre helseproblem kan vere ein del av biletet."
+  - q: "Kvifor seier dei nei til ting dei pleidde å elske?"
+    a: "Ein gammal hobby kan bli frustrerande når han no krev ferdigheiter som demensen har gjort vanskelegare, og personen kan kjenne seg flau. Prøv ein enklare del av same aktivitet, til dømes å sortere knappar i staden for å sy, eller sjå på hagebilete i staden for å plante."
+  - q: "Bør eg prøve å overtale dei?"
+    a: "Nei. Å presse nokon til å gjere noko demensen har gjort vanskeleg, er ein kjend utløysar for agitasjon. Aksepter avvisinga, skift emne, og tilby på nytt seinare eller på ein annan måte."
+  - q: "Når er ei endring i åtferd ein nødsituasjon?"
+    a: "Ring 112 om nokon er i fare eller har teikn på ein medisinsk nødsituasjon. Ved plutseleg forvirring eller åtferd som endrar seg raskt over timar eller dagar, særleg med feber, infeksjon eller eit nytt legemiddel, kontakt legen med ein gong."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -50,87 +50,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-You set everything up, offer a game or a walk, and hear "No." Or the activity starts well and ends with a pushed-away tablet and a sharp word. It is discouraging, and it is very common. Refusal and frustration are usually a message, not stubbornness. Working out what the message is often shows you what to try next.
+Du har gjort i stand alt, tilbydd eit spel eller ein spasertur, og høyrer «Nei». Eller aktiviteten startar bra og endar med eit nettbrett skuvd bort og eit skarpt ord. Det er nedslåande, og det er svært vanleg. Nei-svar og frustrasjon er vanlegvis ei melding, ikkje stahet. Når du finn ut kva meldinga er, viser det ofte kva du bør prøve neste gong.
 
-## Why does someone with dementia refuse activities?
+## Kvifor seier nokon med demens nei til aktivitetar?
 
-Usually there is a reason, even if the person cannot put it into words. The [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) notes that resistance may mean the person cannot do the task or is afraid to try. Common causes include:
+Vanlegvis finst det ei grunn, sjølv om personen ikkje kan setje ord på ho. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) seier at motstand kan tyde på at personen ikkje kan gjere oppgåva, eller er redd for å prøve. Vanlege årsaker er:
 
-- **It feels too hard.** The activity now needs skills dementia has made difficult, and failing in front of someone is embarrassing.
-- **It feels childish.** Adults notice cartoonish pictures, sing-song voices and activities that look like they were made for kids.
-- **Tiredness.** Many people have less energy later in the day. See [calm late-afternoon activities](/caregiving/late-day-restlessness/).
-- **Physical discomfort.** The [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) lists pain, lack of sleep, trouble seeing or hearing, constipation, hunger, thirst and side effects of new medicines as possible causes of distress.
-- **Too much going on.** A loud TV, several conversations or a crowded room can be overwhelming.
-- **Feeling pushed.** The NIA names being pushed to do something that Alzheimer's has made very hard, or to remember events or people, as a cause of agitation.
-- **Low mood.** Losing interest in things can be a sign of depression, which is worth raising with a doctor.
-- **They simply don't want to.** Adults are allowed to say no.
+- **Det kjennest for vanskeleg.** Aktiviteten krev no ferdigheiter demens har gjort vanskelege, og det er flaut å mislykkast framfor nokon.
+- **Det kjennest barnsleg.** Vaksne legg merke til teiknefilmbilete, syngjande stemmer og aktivitetar som ser ut til å vere laga for born.
+- **Trøyttleik.** Mange har mindre energi seinare på dagen. Sjå [rolege ettermiddagsaktivitetar](/creative-calm/calm-afternoon-activities/).
+- **Fysisk ubehag.** [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) nemner smerte, mangel på søvn, problem med syn eller høyrsel, forstopping, svolt, tørst og bivirkningar av nye legemiddel som mogleg årsak til uro.
+- **For mykje som skjer.** Ein høg TV, fleire samtalar eller eit fullt rom kan vere overveldande.
+- **Å kjenne seg press.** NIA nemner å bli pressa til å gjere noko Alzheimer's har gjort svært vanskeleg, eller til å hugse hendingar eller folk, som ei årsak til agitasjon.
+- **Låg stemning.** Å miste interessa for ting kan vere eit teikn på depresjon, noko som er verdt å ta opp med lege.
+- **Dei vil rett og slett ikkje.** Vaksne har lov til å seie nei.
 
-## What should I try when they say no?
+## Kva bør eg prøve når dei seier nei?
 
-Accept the no calmly, then change something: the time, the activity, the difficulty or the way you ask.
+Aksepter nei-svaret roleg, og endre så noko: tidspunktet, aktiviteten, vanskegraden eller måten du spør på.
 
-1. **Let it go for now.** "That's fine. Maybe later." Then move on to something else without a sigh.
-2. **Try again later.** The Alzheimer's Association suggests trying again later, or at a different time of day.
-3. **Make it smaller.** One match instead of a whole game. One towel instead of the laundry basket. Fewer pictures, fewer choices, pictures left visible.
-4. **Offer two options.** "Would you like to look at the bird pictures or listen to some music?" A choice gives back a sense of control.
-5. **Ask for help instead of performance.** "Could you help me sort these?" or "Can you tell me which color looks best?" Being needed feels very different from being tested.
-6. **Start it yourself.** Begin the activity beside them without asking. Many people join in once something is already happening, and if they do not, you have still spent time together.
-7. **Switch to something physical or soothing.** A short walk, music, a snack, folding laundry, or a shared [calm breathing](/games/calm-breathing/) pause. The NIA suggests redirecting attention to music, a book or a walk.
-8. **Let them do it their way.** If they want to play differently than the rules say, go with it. The Alzheimer's Association advises being flexible.
+1. **Lat det vere førebels.** «Det er greitt. Kanskje seinare.» Gå så vidare til noko anna utan sukk.
+2. **Prøv igjen seinare.** Alzheimer's Association foreslår å prøve på nytt seinare, eller på eit anna tidspunkt på dagen.
+3. **Gjer det mindre.** Ein kamp i staden for eit heilt spel. Eitt handkle i staden for vaskekorga. Færre bilete, færre val, bilete framleis synlege.
+4. **Tilby to val.** «Vil du sjå på fuglebileta eller høyre litt musikk?» Eit val gjev tilbake ei kjensle av kontroll.
+5. **Be om hjelp i staden for ei prestasjon.** «Kan du hjelpe meg å sortere desse?» eller «Kan du seie meg kva farge som ser best ut?» Å bli trengt kjennest heilt annleis enn å bli testa.
+6. **Start det sjølv.** Begynn aktiviteten ved sidan av personen utan å spørje. Mange blir med når noko alt er i gang, og om dei ikkje gjer det, har de likevel brukt tid saman.
+7. **Gå over til noko fysisk eller roande.** Ein kort spasertur, musikk, eit mellommål, brettje klede, eller ei felles [roleg pusting](/games/calm-breathing/)-pause. NIA foreslår å flytte merksemda over til musikk, ei bok eller ein spasertur.
+8. **Lat dei gjere det på sin måte.** Om dei vil spele annleis enn reglane seier, gå med på det. Alzheimer's Association rår til å vere fleksibel.
 
-## What should I say when they get frustrated?
+## Kva bør eg seie når dei blir frustrerte?
 
-Slow down, lower your voice and reassure. The [Alzheimer's Association guidance on agitation](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) suggests backing off and asking permission, using calm, positive statements, and offering a guided choice between two options. Phrases in that spirit:
+Ta det roleg, senk stemma, og gje trygging. [Alzheimer's Association si rettleiing om agitasjon](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) foreslår å trekkje seg litt tilbake og spørje om lov, bruke roleg og positive utsegn, og tilby eit styrt val mellom to alternativ. Setningar i same ånd:
 
-- "I'm sorry, this one is annoying. Let's stop."
-- "You're doing fine. I'm right here."
-- "Do you have time to help me with something else?"
-- "Shall we have a cup of tea instead?"
+- «Eg beklagar, dette er irriterande. La oss stoppe.»
+- «Du klarer det fint. Eg er rett her.»
+- «Har du tid til å hjelpe meg med noko anna?»
+- «Skal vi heller ha ein kopp te?»
 
-Then end the activity without making it a big deal. Our [communication tips](/caregiving/communication-tips/) have more on what to say.
+Avslutt så aktiviteten utan å gjere det til ei stor sak. Sida [første steg etter ein demensdiagnose](/caregiving/after-dementia-diagnosis/) er eit utgangspunkt for støtte.
 
-## What should I avoid?
+## Kva bør eg unngå?
 
-Some natural reactions tend to make things worse.
+Nokre naturlege reaksjonar har ein tendens til å gjere det verre.
 
-- **Arguing or insisting.** "Come on, just one more" or "You love this" rarely helps.
-- **Quizzing or correcting.** "You know what this is" or "No, that one's wrong" adds pressure.
-- **Taking it personally.** The NIA reminds caregivers that the disease, not the person, causes these changes.
-- **Crowding or rushing.** The Alzheimer's Association advises not to raise your voice, show alarm, corner, crowd, restrain, criticize, ignore or argue with the person, and to avoid sudden movements out of their view.
-- **Using guilt.** "I set all this up for you" leaves both of you feeling worse.
-- **Labeling.** "Stubborn" or "difficult" hides the real reason and makes it harder to solve.
+- **Krangle eller insistere.** «Kom igjen, berre éin til» eller «Du likar dette» hjelper sjeldan.
+- **Stille quizspørsmål eller rette opp.** «Du veit kva dette er» eller «Nei, det der er feil» legg til press.
+- **Ta det personleg.** NIA minner pårørande om at sjukdommen, ikkje personen, står bak endringane.
+- **Trengje på eller hasta.** Alzheimer's Association rår til å ikkje heve stemma, vise uro, sette i eit hjørne, trengje på, halde fast, kritisere, ignorere eller krangle med personen, og å unngå brå rørsler utanfor synsfeltet.
+- **Bruke skuld.** «Eg ordna alt dette for deg» gjer at de begge kjenner dykk verre.
+- **Setje merkelappar.** «Vrang» eller «vanskeleg» skjuler den verkelege grunnen, og gjer det vanskelegare å løyse.
 
-## How can I find out what is behind repeated refusals?
+## Korleis finn eg ut kva som ligg bak gjentatte nei?
 
-Keep a simple note for a week or two. The NIA says tracking behavior changes can help caregivers and health care providers recognize a pattern and work out the cause.
+Før eit enkelt notat i ei veke eller to. NIA seier at å følgje med på endringar i åtferd kan hjelpe pårørande og helsepersonell å sjå eit mønster og finne ut årsaka.
 
-Jot down:
+Skriv ned:
 
-- the time of day;
-- what you offered and how you asked;
-- what was happening around you (noise, visitors, TV);
-- how they slept, ate and drank, and when they last used the bathroom;
-- any new medicines or recent illness.
+- tidspunktet på dagen;
+- kva du tilbydde, og korleis du spurte;
+- kva som skjedde rundt deg (støy, besøkjande, TV);
+- korleis personen sov, åt og drakk, og når vedkomande sist var på toalettet;
+- eventuelle nye legemiddel eller nylege sjukdomar.
 
-Patterns often appear quickly: refusals that only happen after 4 p.m., only with a certain game, or only when the TV is on. The Family Caregiver Alliance's [guide to dementia behaviors](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) puts it simply: we cannot change the person, but we can change our own behavior and the environment.
+Mønster dukkar ofte fort opp: nei som berre kjem etter 4 p.m., berre med eit bestemt spel, eller berre når TVen står på. [Family Caregiver Alliance si rettleiing om åtferd ved demens](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) seier det enkelt: vi kan ikkje endre personen, men vi kan endre eigen åtferd og omgjevnadene.
 
-## When should I talk to a doctor about refusal or frustration?
+## Når bør eg snakke med lege om nei eller frustrasjon?
 
-Talk to a doctor when behavior changes suddenly, quickly, or along with signs of illness. The NIA says sudden or rapidly fluctuating changes in behavior, especially if the person has had an infection or recent medication changes, should be brought to a doctor's attention immediately.
+Snakk med lege når åtferda endrar seg brått, raskt eller saman med teikn på sjukdom. NIA seier at brå eller raskt skiftande endringar i åtferd, særleg om personen har hatt infeksjon eller nylege endringar i medisinen, bør førast fram for legen med ein gong.
 
-Contact their doctor promptly if you notice:
+Kontakt legen til personen snarast om de merkar:
 
-- sudden confusion or a big change over hours or days;
-- signs of pain, such as wincing, guarding part of the body, or new trouble moving;
-- fever or other signs of an infection;
-- new or changed medicines followed by a change in behavior;
-- loss of interest in almost everything, tearfulness or withdrawal lasting more than a couple of weeks;
-- refusing food or drink.
+- plutseleg forvirring eller ei stor endring over timar eller dagar;
+- teikn på smerte, til dømes å grimasere, skjerme ein kroppsdel, eller nye vanskar med å bevege seg;
+- feber eller andre teikn på infeksjon;
+- nye eller endra legemiddel, etterfølgde av ei endring i åtferd;
+- tap av interesse for nesten alt, gråt eller tilbaketrekking som varer i meir enn eit par veker;
+- at personen nektar mat eller drikke.
 
-The Alzheimer's Association recommends a thorough medical checkup for anyone with behavioral symptoms, especially when they appear suddenly. The Family Caregiver Alliance also advises checking with the doctor first, because behavior problems may have a medical cause. Do not start, stop or change any medicine without talking to a doctor or pharmacist.
+Alzheimer's Association tilrår ei grundig medisinsk undersøking for alle med åtferdssymptom, særleg når dei oppstår brått. Family Caregiver Alliance rår òg til å sjekke med legen først, sidan åtferdsproblem kan ha ei medisinsk årsak. Start, stopp eller endre ingen legemiddel utan å snakke med lege eller apotekar.
 
-If anyone is in danger or there are signs of a medical emergency, call 911. The NIA suggests telling the dispatcher that the person has dementia.
+Om nokon er i fare, eller det er teikn på ein medisinsk nødsituasjon, ring 112. NIA foreslår å seie til operatøren at personen har demens. Om sinne blir fysisk, gå unna og be legen eller helseteamet om råd.
 
-## Is it okay if we do nothing at all?
+## Er det greitt om vi ikkje gjer noko i det heile?
 
-Yes. Some days the best activity is no activity: sitting together, holding hands, listening to a favorite record, or watching birds out the window. That is not a failure. Our [guide to playing together](/caregiving/how-to-play-together/) explains why stopping early, or never starting, can be the right call.
+Ja. Nokre dagar er den beste aktiviteten ingen aktivitet: å sitje saman, halde kvarandre i handa, lytte til ei kjær plate, eller sjå på fuglar ute av vindauget. Det er ikkje eit nederlag. [Guiden vår om å spele saman](/caregiving/how-to-play-together/) forklarar kvifor det å stoppe tidleg, eller aldri å starte, kan vere det rette valet.

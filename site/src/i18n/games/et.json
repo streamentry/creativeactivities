@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Piltide paarid",
-    "seoTitle": "Sobiv mäng dementsuse jaoks: pildipaarid",
+    "seoTitle": "Kaardimäng paaride leidmiseks täiskasvanutele: pildipaarid",
     "h1": "Pildipaarid: õrn sobitamismäng",
-    "description": "Tasuta õrn sobitamismäng dementsusega inimestele. Suured pildid jäävad nähtavaks, pole taimerit ega skoori ning valite 4–12 paani.",
+    "description": "Tasuta ja rahulik sobitamismäng täiskasvanutele ja eakatele, sealhulgas dementsusega elavatele inimestele. Pildid võivad jääda nähtavaks. Taimerit ega punktiarvestust pole.",
     "short": "Leidke kaks pilti, mis on samad. Pildid võivad jääda näitamisele.",
     "players": "1 või 2 inimest kõrvuti",
     "intro": "Puudutage pilti, seejärel puudutage seda, mis sellele sobib. Pildid jäävad vaikimisi kuvamiseks, nii et midagi ei pea meeles pidama. Kui kaks pilti kokku lähevad, saavad nad kuldse äärise ja linnukese.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Leia sama",
-    "seoTitle": "Leidke sama pilt: lihtne dementsuse mäng",
+    "seoTitle": "Leia sama pilt: lihtne pildimäng",
     "h1": "Leia sama pilt",
-    "description": "Üks pilt üleval, kaks kuni neli allpool. Puudutage seda, mis on sama. Rahulik tasuta pildimäng dementsusega inimestele, ilma taimeriga.",
+    "description": "Üks pilt on üleval, kaks kuni neli all. Puuduta seda, mis on samasugune. Rahulik ja tasuta pildimäng täiskasvanutele, eakatele ja peredele, ilma taimerita.",
     "short": "Vaadake üleval olevat pilti ja puudutage sama pilti allpool.",
     "players": "1 või 2 inimest",
     "intro": "Üks pilt asub ekraani ülaosas. Selle all on kaks, kolm või neli pilti. Puudutage seda, mis on sama. See on üks lihtne valik korraga, kus on palju ruumi rääkimiseks.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Varjude matš",
-    "seoTitle": "Varjude sobitamise mäng dementsuse jaoks: tasuta võrgus",
+    "seoTitle": "Varju sobitamise mäng: tasuta veebis täiskasvanutele",
     "h1": "Shadow Match: õrn pildimäng",
-    "description": "Üleval tume vari, all kaks kuni neli pilti. Puudutage pilti, mis teeb varju. Tasuta rahulik varjude sobitamise mäng dementsuse jaoks, ilma taimeriga.",
+    "description": "Üleval on tume vari, all kaks kuni neli pilti. Puuduta pilti, mis selle varju tekitab. Tasuta ja rahulik varju sobitamise mäng ilma taimerita.",
     "short": "Vaadake varju ja puudutage seda pilti.",
     "players": "1 või 2 inimest",
     "intro": "Varjude sobitamine on tuttav tegevus prinditud töölehtedelt, siin on suured pildid ja pole midagi printida. Ekraani ülaosas on pehme vari ja all ootavad kaks, kolm või neli pilti. Puudutage seda, mis teeb varju. Ka sellistest kujunditest nagu jalgratas, vihmavari või teetass on lihtne rääkida.",
@@ -100,8 +100,8 @@
         "a": "Ei. Kella, skoori, käiguloendurit ega kaotust pole. Võite igal hetkel peatuda ja poolel teel peatumine on täiesti hea viis lõpetamiseks."
       },
       {
-        "q": "Kas varjude sobitamine on hea dementsusega inimestele?",
-        "a": "Mõne inimese jaoks võib see olla meeldiv ja lihtne tegevus, eriti varasematel etappidel. Kujundeid on lihtsam ära tunda kui sõnu. See on mõeldud nautimiseks ja vestluseks, mitte testimiseks ning see ei ravi ega aeglusta dementsust. Kui see tekitab frustratsiooni, proovige Otsige sama või vaadake lihtsalt koos pilte."
+        "q": "Kas dementsusega elavad inimesed võivad varju sobitamisest rõõmu tunda?",
+        "a": "Paljudele täiskasvanutele meeldib see, sealhulgas mõnele dementsusega elavale inimesele, sageli haiguse varases staadiumis. Kujundeid on lihtsam ära tunda kui sõnu. Mäng on mõeldud naudinguks ja vestluseks, mitte testiks, ega ravi ega aeglusta dementsust. Kui see tekitab pettumust, proovige leia sama pilt või vaadake lihtsalt koos pilte."
       },
       {
         "q": "Mis juhtub, kui koputatakse vale pilti?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Neli koos",
+    "seoTitle": "Piltide rühmitamise mäng täiskasvanutele: neli koos",
+    "h1": "Neli koos: rahulik piltide rühmitamise mäng",
+    "description": "Osad pildid kuuluvad ühte teemasse, näiteks puuviljad või ilm. Puuduta neid, mis kokku sobivad. Tasuta ja rahulik rühmitamismäng ilma taimerita ja punktideta.",
+    "short": "Leia pildid, mis kokku sobivad, näiteks puuviljad või ilm.",
+    "players": "1 või 2 inimest",
+    "intro": "Väike hulk pilte, ja osad neist kuuluvad kokku: näiteks neli puuviljaliiki või neli viisi reisimiseks. Puuduta pilte, mis jagavad ühte teemat. Kui pilt kuulub kellegi teise juurde, ütleb mäng lihtsalt selle nime ja ootab. Pärast vaikset hetke nimetab vihje teema ning nupp „Näita rühma” avab vastuse igal ajal.",
+    "howTo": [
+      "Vali neli, kuus või kaheksa pilti. Neli on kõige lihtsam, kolm neist kuuluvad kokku.",
+      "Vaadake pilte koos ja rääkige, mis neil ühist on.",
+      "Puuduta iga pilti, mis rühma kuulub. See saab kuldse raami ja linnukese.",
+      "Kui pilt kuulub millegi muu juurde, ütleb mäng selle nime ja ootab. Võtke aega.",
+      "Puuduta nuppu „Näita rühma” alati, kui soovid, ning seejärel „Teine komplekt”, et saada uued pildid."
+    ],
+    "tips": [
+      "Ütle valjusti, mida märkad: „Need kaks on mõlemad söögiasjad.”",
+      "Kiirustamist pole vaja. Pärast pausi ilmub vihje, mis nimetab teema, ja seda võib ignoreerida.",
+      "Kui rühm on leitud, rääkige sellest: lemmik puuvili, rongisõit, täna ilm."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktid?",
+        "a": "Ei. Kella, punkte, käikude loendurit ega kaotamist pole. Võite igal hetkel peatuda, ja pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Mis juhtub, kui puudutada pilti, mis rühma ei kuulu?",
+        "a": "Midagi ebameeldivat ei juhtu. Summerit, punast ristki ega värisemist pole. Mäng ütleb pildi nime, teatab, et see kuulub millegi muu juurde, ja ootab järgmist puudutust."
+      },
+      {
+        "q": "Millised on rühmad?",
+        "a": "Igapäevased teemad, mis ei nõua eriteadmisi: puuviljad, loomad, lilled, ilm, reisimisviisid, asjad kuuma joogi jaoks ja ahjus küpsetatud asjad. Iga pilt kuulub ainult ühte rühma."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta, konto, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "Rühmast välja",
+    "seoTitle": "Rühmast välja jääv pilt: rahulik pildimäng täiskasvanutele",
+    "h1": "Rühmast välja: rahulik pildimäng",
+    "description": "Kolm või neli pilti, ja kõik peale ühe kuuluvad samasse teemasse, näiteks puuviljad või ilm. Puuduta seda, mis ei kuulu sinna. Tasuta, rahulik, ilma taimerita ja punktideta.",
+    "short": "Leia pilt, mis ei sobi teistega kokku.",
+    "players": "1 või 2 inimest",
+    "intro": "Kolm või neli pilti, ja kõik peale ühe kuuluvad kokku: näiteks puuviljad või viisid reisimiseks. Puuduta pilti, mis ei kuulu sinna. Kui pilt siiski kuulub teistega kokku, ütleb mäng seda ja ootab. Pärast vaikset hetke nimetab vihje, mis teistel ühist on, ja nupp „Näita mulle” osutab rühmast väljajäänud pildile igal ajal.",
+    "howTo": [
+      "Vali kolm või neli pilti. Kolm on kõige lihtsam.",
+      "Vaadake pilte koos ja rääkige, mis neist enamikul ühist on.",
+      "Puuduta pilti, mis ei kuulu sinna. See saab kuldse raami ja linnukese.",
+      "Kui pilt kuulub teistega kokku, ütleb mäng seda ja ootab. Võtke aega.",
+      "Puuduta nuppu „Näita mulle” alati, kui soovid, ning seejärel „Teine komplekt”, et saada uued pildid."
+    ],
+    "tips": [
+      "Rääkige see valjusti läbi: „Õun ja pirn on mõlemad puuviljad. Aga buss?”",
+      "Kiirustamist pole vaja. Pärast pausi ilmub vihje, mis nimetab teema, ja seda võib ignoreerida.",
+      "Iga pilt sobib vestluse alustamiseks: lemmik puuvili, bussisõit, vihmane päev."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktid?",
+        "a": "Ei. Kella, punkte, käikude loendurit ega kaotamist pole. Võite igal hetkel peatuda, ja pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Mis juhtub, kui puudutada pilti, mis kuulub rühma?",
+        "a": "Midagi ebameeldivat ei juhtu. Summerit, punast ristki ega värisemist pole. Mäng ütleb pildi nime, teatab, et see kuulub teistega kokku, ja ootab järgmist puudutust."
+      },
+      {
+        "q": "Kuidas rühmast väljajääv pilt valitakse?",
+        "a": "Pildid pärinevad igapäevastest teemadest, mis ei nõua eriteadmisi: puuviljad, loomad, lilled, ilm, reisimisviisid, asjad kuuma joogi jaoks ja ahjus küpsetatud asjad. Iga pilt kuulub ainult ühte teemasse ning rühmast väljajääv pilt tuleb alati teisest teemast."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta, ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Värvivaste",
+    "seoTitle": "Värvivaste: leebe pildimäng",
+    "h1": "Värvivaste: leia ühte värvi pildid",
+    "description": "Suur värvilaik koos nimega ning neli või kuus pilti. Puuduta iga pilti, mis on just selle värvi. Taimerit, punktiarvestust ega ajapiirangut pole, teine värv lihtsalt nimetatakse. Mängida ja printida on tasuta.",
+    "short": "Leia kõik pildid, mis on sama värvi kui näidatud värv.",
+    "players": "1 või 2 inimest, või täiskasvanu ja laps",
+    "intro": "Näidatakse suurt värvilaiku, mille kõrval on kirjas selle nimi, ning all on neli või kuus pilti. Puuduta iga pilti, mis on just selle värvi, näiteks punane õun ja punane tass. Kui pilt on mõnd muud värvi, nimetab mäng selle ära (\"Pirn on roheline.\") ja ootab. Nupp \"Näita neid\" osutab igal ajal sobivad pildid ning \"Teine värv\" liigub edasi.",
+    "howTo": [
+      "Vali neli või kuus pilti. Neli on kõige lihtsam.",
+      "Vaadake värvi ja lugege selle nimi koos ette.",
+      "Puuduta iga pilti, mis on just selle värvi. Igale neist tekib paks raam ja linnukene.",
+      "Kui pilt on mõnd muud värvi, ütleb mäng, mis värvi see on, ja ootab. Võtke aega.",
+      "Puuduta \"Näita neid\" niipalju kui soovite ning seejärel \"Teine värv\", et saada uus värv."
+    ],
+    "tips": [
+      "Ütlege värv valjusti ning vaadake ringi: mis veel on sellist värvi?",
+      "Kasutage oma sõnu, kui soovite. \"Tomat\" või \"taevas\" on sama hea kui \"punane\" või \"sinine\".",
+      "Osutamine töötab sama hästi kui puudutamine. Istuge kõrvuti, et te mõlemad näeksite ekraani."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktid?",
+        "a": "Ei. Kella, punktiarvestust, käigulugejat ega kaotamist pole. Võite igal hetkel peatuda ning pooleli peatumine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Mis juhtub, kui puudutada teist värvi pilti?",
+        "a": "Midagi ebameeldivat ei juhtu. Summerit, punast risti ega raputamist pole. Mäng nimetab pildi ja selle värvi, näiteks \"Pirn on roheline.\", ning ootab järgmist puudutust."
+      },
+      {
+        "q": "Kas värv on ainus vihje?",
+        "a": "Ei. Värv on näidatud suure laigu ja ka sõnana kirjas ning iga pilt nimetatakse puudutamisel. Keegi, kellel on värve raske eristada, saab mängida ka nime lugedes."
+      },
+      {
+        "q": "Kas iga pilt on tõesti just selle värvi?",
+        "a": "Pildid valitakse käsitsi ning ainult sellised, kus põhiese on selgelt ühte värvi. Mitmevärvilised pildid, näiteks draakon või mesilane, jäetakse välja."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Üheleheküljelisel lehel on neli rida. Igal real on nimetatud värv ning neli pilti, mida saab näidata või ringi tõmmata."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta, ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Pooled kokku",
+    "seoTitle": "Pooled kokku: leebe pildimäng",
+    "h1": "Pooled kokku: ühenda pildi kaks poolt",
+    "description": "Kahe või kolme pildi vasakpoolsed pooled ühel pool ja parempoolsed teisel. Puuduta pool ja seejärel sellele sobiv pool. Taimerit ega punktiarvestust pole, ning kokku mittesobivad pooled lihtsalt eralduvad. Mängida ja printida on tasuta.",
+    "short": "Puuduta kahte poolt, mis sobivad kokku ja moodustavad ühe pildi.",
+    "players": "1 või 2 inimest, või täiskasvanu ja laps",
+    "intro": "Iga pilt on keskelt pooleks lõigatud. Kahe või kolme pildi vasakpoolsed pooled on ühes veerus ning nende parempoolsed pooled, teises järjekorras, teises veerus. Puuduta vasakul olevat poolt ning seejärel sellele sobivat paremal olevat poolt, näiteks teekannu tila ja selle käepide. Sobivad pooled ühinevad terveks pildiks. Kokku mittesobivad pooled eralduvad uuesti ning mäng ütleb seda hellalt. Nupp \"Näita mulle\" ühendab need kõik.",
+    "howTo": [
+      "Vali kaks või kolm pilti. Kaks on kõige lihtsam.",
+      "Vaadake koos vasakpoolseid pooli. Mis arvate, millise terviku osa iga üks on?",
+      "Puuduta vasakul olevat poolt ning seejärel sellele sobivat paremal olevat poolt. Töötab ka vastupidi.",
+      "Sobivad pooled ühinevad, neile tekib paks raam ja linnuke. Kokku mittesobivad pooled eralduvad uuesti ning võite proovida teist.",
+      "Puuduta \"Näita mulle\" niipalju kui soovite ning seejärel \"Teine komplekt\", et saada uued pildid."
+    ],
+    "tips": [
+      "Libistage sõrmega mööda poole serva. Kus joonis keskjooneni ulatub?",
+      "Ütlege, mida näete: \"Sellel on käepide.\" Pole vaja nimetada iga pilti.",
+      "Osutamine töötab sama hästi kui puudutamine. Istuge kõrvuti, et te mõlemad näeksite ekraani."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktid?",
+        "a": "Ei. Kella, punktiarvestust, käigulugejat ega kaotamist pole. Võite igal hetkel peatuda ning pooleli peatumine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Mis juhtub, kui kaks poolt ei sobi kokku?",
+        "a": "Midagi ebameeldivat ei juhtu. Summerit, punast risti ega raputamist pole. Need kaks poolt eralduvad uuesti ning mäng ütleb: \"Need kaks ei sobi kokku. Proovige teist.\" Midagi ei arvestata."
+      },
+      {
+        "q": "Kas pilte on lihtne üksteisest eristada?",
+        "a": "Jah. Pildid valitakse käsitsi ning laual olevad kaks pilti ei ole kunagi samast rühmast, näiteks kaks puuviljа või kaks looma. Pildid, mille pooled näevad üksteisega sarnased välja, näiteks päike või vikerkaar, jäetakse välja."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Ühel lehel on kolme pildi vasakud pooled ühes veerus ja nende paremad pooled teises veerus, teises järjekorras. Tõmmake joon igast vasakust poolest selle poolega, mis sellele sobib."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Värvi numbri järgi",
+    "seoTitle": "Värvi numbri järgi: rahulik täitmismäng suurte ruutudega",
+    "h1": "Värvi numbri järgi: täida ruudud ükskõik millise värviga, mis meeldib",
+    "description": "Suurtest nummerdatud ruutudest koosnev ruudustik ja neljast värvist koosnev selgitus koos nimedega. Valige värv ja puudutage ruute, et neid täita. Igasugune värv sobib, taimerit ega punktisummat ei ole ning nupp täidab ülejäänud ruudud numbrite järgi. Mängimine ja printimine on tasuta.",
+    "short": "Valige värv ja puudutage nummerdatud ruute, et neid täita.",
+    "players": "1 või 2 inimest kõrvuti",
+    "intro": "Suurtest ruutudest koosnev ruudustik, kus igal ruudul on number, ning selle kohal neljast värvist koosnev selgitus, kus igal värvil on oma number ja kirjalik nimi. Valige selgitusest värv ja puudutage ruute, et neid täita. Ruudustik on alguses 4 x 4, soovi korral saab valida ka 6 x 6 või 8 x 8. Kui iga ruut on täidetud oma numbrile vastava värviga, on ruudustik lehel olev pilt. Muude värvidega täidetud ruudud on lihtsalt teie enda pilt ja mäng ei anna sellele hinnangut. Nupp „Täida numbrite järgi“ täidab teie eest kõik tühjad ruudud.",
+    "howTo": [
+      "Valige ruudustiku suurus. 4 x 4 on suurimate ruutudega ja kõige lihtsam.",
+      "Vaadake ruudustiku kohal olevat selgitust. Igal värvil on number ja nimi, näiteks 1 Kollane.",
+      "Puudutage selgitusest värvi ja seejärel ruute, mida soovite selle värviga täita.",
+      "Kasutage numbril olevat värvi või mis tahes muud värvi. Mõlemad on sobivad.",
+      "Tühjade ruutude täitmiseks puudutage „Täida numbrite järgi“, ruudustiku uuesti alustamiseks „Tühjenda“ või teise pildi jaoks „Teine pilt“."
+    ],
+    "tips": [
+      "Istuge kõrvuti ja võtke kordamööda: üks inimene valib värvi, teine puudutab ruutu.",
+      "Rääkige värvidest: „Mulle meeldib roheline.“ Ei ole vaja öelda, millist pilti see lõpuks moodustab.",
+      "Kitsal ekraanil kerib 8 x 8 ruudustik oma kastis küljelt-küljele. Ruudud jäävad mugavasse suurusesse.",
+      "Paberversioon töötab samuti, kui kasutada värvipliiatseid voodilaua juures."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktisumma?",
+        "a": "Ei. Kella, punktisummat, käigulugejat ega kaotamist ei ole. Võite igal hetkel peatuda ja pooleli jätmine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Mis juhtub, kui kasutan numbrist erinevat värvi?",
+        "a": "Ei juhtu midagi, ja just see ongi mõte. Mis tahes värv sobib mis tahes ruutu ja mäng sellest ei arvusta. Kui iga ruut on täidetud oma numbrile vastava värviga, teatab mäng seda õrnalt, kuid oma värvidega loodud pilt on sama väärtuslik."
+      },
+      {
+        "q": "Kas värvipimedad inimesed saavad neljast värvist vahet teha?",
+        "a": "Värvid on valitud just selleks. Igal värvil on lisaks ka number, kirjalik nimi ja oma väike kuju, nii et värv ei ole ainus viis neid eristada. Neli täidet on kontrollitud punase-rohelise ja sinise-kollase värvipimeduse simulatsioonidega ning need erinevad ka heleduse poolest. Värvipimedad inimesed ei ole neid veel katsetanud, seega andke meile palun teada, kui mõni kaks värvi tundub sarnased."
+      },
+      {
+        "q": "Kas ruudud on värisevate kätega või väikese ekraani puhul piisavalt suured?",
+        "a": "Iga ruut on vähemalt 48 pikslit lai ning 4 x 4 ruudustikus koguni 56. Kui ruudustik on ekraani jaoks liiga lai, kerib see oma kastis küljelt-küljele, selle asemel et ruute kokku suruda."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Ühel lehel on nummerdatud ruudustik ja neljast värvist koosnev selgitus nende nimedega. Värvige iga ruut värvipliiatsiga, mis vastab ruudu numbrile, või mis tahes värviga, mis meeldib."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Mustrite koostaja",
+    "seoTitle": "Mustrite koostaja: kujundage plaat ja printige muster",
+    "h1": "Mustrite koostaja: kujundage plaat ja vaadake, kuidas see kordub",
+    "description": "Muutke ühe väikese plaadi ruute ja vaadake, kuidas see kõrvale kordub mustriks neljas värvis, millel kõigil on nimi ja kuju. Taimerit ega punktisummat ei ole. Mängimine ja printimine on tasuta.",
+    "short": "Muutke väikese plaadi ruute ja vaadake, kuidas see kordub mustriks.",
+    "players": "1 või 2 inimest kõrvuti",
+    "intro": "Väike plaat 3 x 3 ruudust, soovi korral 4 x 4, ja selle kõrval „teie muster“: sama plaat korduvana plokina. Puudutage ruutu ja see muutub neljast värvist järgmiseks, millel igal on oma kirjalik nimi ja kuju. Kõrvalolev muster muutub kohe. Õiget mustrit ei ole ning midagi ei salvestata ega saadeta. Nupp „Printige minu muster“ paneb korduva mustri ühele lehele, et seda alles hoida, värvida või kellelegi kinkida.",
+    "howTo": [
+      "Vaadake plaati ja selle kõrval olevat oma mustrit. Need on sama plaat, mis on korduv.",
+      "Puudutage ruutu. See muutub ülal oleva nelja värvi rea järgmiseks värviks.",
+      "Puudutage ruute, kuni muster on selline, nagu soovite. Iga muster on hea muster.",
+      "Uue plaadi saamiseks puudutage „Üllata mind“, puhta alguse jaoks „Alusta uuesti“. „Pane tagasi“ toob tagasi plaadi, mis teil varem oli.",
+      "Kui soovite mustrit paberil, puudutage „Printige minu muster“, või puudutage „Puhka“, et peatuda."
+    ],
+    "tips": [
+      "Sitzge koos ja võtke kordamööda: üks inimene puudutab ruutu, teine ütleb, mida ta märkab.",
+      "Rääkige sellest, mida näete: \"See näeb välja nagu lill.\" Midagi nimetama ei pea.",
+      "Proovige sama plaati kõigepealt ainult kahe värviga, seejärel kõigi nelja värviga.",
+      "Paberil saab mustrit värvida pliiatsitega, lõigata ribadeks kaardi jaoks või kasutada väikese kingituse pakkimiseks."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer või punktiarvestus?",
+        "a": "Ei. Kella, punktiarvestust, käikude lugemist ega kaotamist ei ole. Võite igal hetkel peatuda ja poolelt katkestamine on täiesti hea viis lõpetada."
+      },
+      {
+        "q": "Kas tehtut salvestatakse või saadetakse kuhugi?",
+        "a": "Ei. Teie plaat jääb ainult sellele lehele. Seda ei salvestata, ei laadita üles ega arvestata, ning lehe sulgemisel see kaob. Kui soovite mustrit alles hoida, printige see välja."
+      },
+      {
+        "q": "Mis siis, kui puudutate valesti ruutu või kustutate plaadi kogemata?",
+        "a": "Valet ruutu ei ole: puudutage seda uuesti, et minna järgmise värvi juurde. Pärast \"Alusta uuesti\" või \"Üllata mind\" toob \"Pane tagasi\" tagasi plaadi, mis teil enne oli."
+      },
+      {
+        "q": "Kas värvipimedad inimesed saavad neli värvi üksteisest eristada?",
+        "a": "Need on valitud just selleks. Igal värvil on ka kirjalik nimi ning igas ruudus oma väike kuju, nii et värv ei ole ainus viis neid eristada. Neli värvi on kontrollitud punase-rohelise ja sinise-kollase värvipimeduse simulatsioonidega. Värvipimedad inimesed ei ole neid veel proovinud, seega andke meile teada, kui kaks värvi näivad sarnased."
+      },
+      {
+        "q": "Kas ruudud on tremori või väikese ekraani jaoks piisavalt suured?",
+        "a": "Iga ruut on vähemalt 56 pikslit lai. Kui plaat on ekraani jaoks liiga lai, kerib see külgsuunas oma kasti sees, selle asemel et ruudud kokku tõmbuda."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. \"Prindi minu muster\" prindib teie tehtud mustri ühele lehele koos nelja värvi ja nende nimedega. See on hea ka mustvalgelt, sest igal värvil on oma kuju."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab end registreerima?",
+        "a": "Jah, see on tasuta, ning kontot, registreerimist ega allalaadimist ei ole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Joonistusduett",
+    "seoTitle": "Joonistusduett: kaks inimest, üks pilt",
+    "h1": "Joonistusduett: kaks inimest, üks leht",
+    "description": "Kaks inimest joonistavad kordamööda ühele ühisele lõuendile, kumbki oma värviga. Keegi ei saa punkte ega võida, ning pilti saab salvestada või printida. Mängimine on tasuta ja kontot pole vaja.",
+    "short": "Joonistage koos kõrval istuva inimesega üks ühine pilt, võttes kordamööda.",
+    "players": "2 inimest, kõrvuti",
+    "intro": "Üks lõuend, kaks inimest. Igaüks teist valib endale värvi ning igal värvil on oma kirjalik nimi. Võtate kordamööda: joonistate ühe joone või kuju ning annate pliidi edasi. Kumbki teist võib igal ajal edasi anda. Õiget pilti ei ole ega punkte. Kui pilt meeldib, saate selle oma seadmesse salvestada või printida paberversiooni: üks leht, kaks pliiatsit.",
+    "howTo": [
+      "Igaüks teist valib värvi. Silt ütleb, kelle kord on, ja nimetab selle inimese värvi.",
+      "Joonistage ühe joone või kuju sõrme, hiire või pliiatsiga. Või kasutage osutita joonistamiseks noolenuppe ja tühikuklahvi.",
+      "Kui olete valmis, puudutage \"Anna pliats edasi\". Kumbki teist võib igal ajal edasi anda.",
+      "Puudutage \"Võta minu viimane joon tagasi\", et eemaldada selle inimese uusim joon, kelle kord on.",
+      "Puudutage \"Salvesta pilt\", et teha pildifail sellesse seadmesse, või \"Prindi paberversioon\" ühe lehe ja kahe pliiatsi jaoks."
+    ],
+    "tips": [
+      "Istuge kõrvuti ja rääkige joonistades: \"Ma lisan nurka päikese.\"",
+      "Alustage punkti, joone või lihtsa kujuga ning laske teisel inimesel sellele vastata.",
+      "Keegi ei pea midagi konkreetset joonistama. Joonte muster on sama hea kui stseen.",
+      "Kui soovite lõpetada, puudutage \"Praegu aitab\". Teie pilti ei hoita alles pärast lehelt lahkumist, kui te seda ei salvesta."
+    ],
+    "faq": [
+      {
+        "q": "Kas on võitjat või punktiarvestust?",
+        "a": "Ei. Võitjat, punkte, taimerit ega käikude arvestust ei ole. Õiget pilti ei ole ning midagi ei järjestata ega võrrelda."
+      },
+      {
+        "q": "Kas pilt salvestatakse või saadetakse?",
+        "a": "Ei, midagi ei saadeta kuhugi. Pilt jääb sellele lehele, kuni te selle sulgete. Kui vajutate \"Salvesta pilt\", luuakse teie seadmesse fail, mille saate alla laadida. Midagi ei laadita üles."
+      },
+      {
+        "q": "Kas joont saab tagasi võtta?",
+        "a": "Jah. \"Võta minu viimane joon tagasi\" eemaldab selle inimese uusima joone, kelle kord on. \"Alusta uuesti\" tühjendab lehe ja \"Pane tagasi\" toob jooned tagasi, ainult ühe sammu võrra."
+      },
+      {
+        "q": "Kas seda saab kasutada ilma hiireta või puuteekraanita?",
+        "a": "Jah. Kui joonistusala on fookuses, liigutavad noolenupud pliiatsi punkti ning tühikuklahv paneb pliiatsi alla või tõstab selle üles. Ekraanil ütleb \"Pliats alla\" või \"Pliats üles\" iga kord."
+      },
+      {
+        "q": "Mis värvid need on ja kas värvipimedad inimesed saavad neid eristada?",
+        "a": "Kollane, oranž, roheline ja lilla, samad neli värvi, mida kasutame meie teistes pildimängudes. Igal värvil on kirjalik nimi ja nimed kuvatakse kõrvuti käiguga. Värvid on kontrollitud tavaliste värvinägemise erinevuste simulatsioonidega, kuid värvinägemise erinevustega inimesed neid veel proovinud ei ole."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. \"Prindi paberversioon\" prindib ühe lehe, millel on reeglid ja suur tühi raam joonistamiseks kahele inimesele kahe pliiatsiga. See töötab ka mustvalgelt."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab end registreerima?",
+        "a": "Jah, see on tasuta, ja kontot, registreerumist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Koos ehitamine",
+    "seoTitle": "Koos ehitamine: kaks inimest ehitavad ühe mustri",
+    "h1": "Koos ehitamine: kaks inimest, üks ruudustik",
+    "description": "Kaks inimest panevad vuoruti tükke ühisesse ruudustikku, kuni see on täis. Igal mängijal on oma nimi ja kujuga värv. Kedagi ei võida, taimerit ega punktiarvestust pole. Mängida ja printida on tasuta.",
+    "short": "Mängige vuoruti kõrvalistuva inimesega, et täita üks ühine ruudustik.",
+    "players": "2 inimest, kõrvuti",
+    "intro": "Ühine ruudustik 4 x 4 kohta või soovi korral 3 x 3. Igaüks valib endale värvi ning igal värvil on oma kirjalik nimi ja kuju. Käige vuoruti: oma käigul puudutage tühja kohta, et sinna oma tükk panna. Kui iga koht on täidetud, on pilt koos valmis. Võitjat ei ole, sest te teete seda paarina, ega midagi ei salvestata ega saadeta. Nupp „Prindi ruudustik“ paneb tühja ruudustiku ühele lehele, et saaksite kahe pliiatsiga koos ehitada.",
+    "howTo": [
+      "Igaüks valib endale värvi. Värvi, mida teine inimene juba kasutab, tähistatakse sõnaga „Kasutusel“.",
+      "Esimene inimene alustab. Ekraanil on näha, kelle käik on ja milline värv kellelegi kuulub.",
+      "Puudutage tühja kohta, et sinna oma tükk panna. Käik läheb teisele inimesele.",
+      "Kui te ei soovi tükki panna, puudutage nuppu „Jäta vahele“. Kumbki teist võib igal ajal vahele jätta.",
+      "Kui iga koht on tükiga täidetud, olete pildi koos valmis ehitanud. Teise pildi ehitamiseks puudutage nuppu „Alusta uuesti“ või peatamiseks nuppu Puhka."
+    ],
+    "tips": [
+      "Istuge kõrvuti, et te mõlemad näeksite ekraani ja ulatuksite sinna. Rääkige tegevuse ajal: „Panen oma tüki sinu oma kõrvale.“",
+      "Proovige ehitada muster, triipe, male-laua mustrit või äärist, või pange tükid lihtsalt sinna, kuhu tahate. Mõlemad on head.",
+      "Laps või inimene, kes väsib kergesti, võib vahele jätta nii tihti, kui soovib. Pilt valmib ikka koos.",
+      "Paberil kasutab igaüks ühte pliiatsit ja joonistab oma kuju tühjadesse ruutudesse."
+    ],
+    "faq": [
+      {
+        "q": "Kas on võitjat, taimerit või punktiarvestust?",
+        "a": "Ei ole. Võitjat ei ole, sest koostate ühe pildi koos. Kella, punkte, tükkide arvestust ega kaotamist ei ole. Võite igal hetkel peatuda, ja pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Kas meie tehtut salvestatakse või saadetakse kuhugi?",
+        "a": "Ei. Ruudustik jääb ainult sellele lehele. Seda ei salvestata, üles ei laadita ega loendata ning see kaob, kui lehe sulgete. Kui soovite seda alles hoida, printige ruudustik välja ja ehitage paberil edasi."
+      },
+      {
+        "q": "Mis siis, kui panen tüki valesse kohta?",
+        "a": "Valet kohta ei ole. Puudutage nuppu „Võta viimane tükk tagasi“ ja käik läheb tagasi teile. Võite tagasi võtta ühe sammu korraga, ka vahelejätmise võib tagasi võtta."
+      },
+      {
+        "q": "Kas värvipimedad inimesed saavad neli värvi üksteisest eristada?",
+        "a": "Värvid on valitud nii, et saaks. Igal värvil on kirjalik nimi ja igas tükis oma väike kuju, nii et värv ei ole ainus viis neid eristada. Neli värvi on kontrollitud punase-rohelise ja sinise-kollase värvipimeduse simulatsioonidega. Värvipime inimene pole neid veel proovinud, seega andke meile palun teada, kui kaks näivad sarnased."
+      },
+      {
+        "q": "Kas kohad on värisemise või väikese ekraani jaoks piisavalt suured?",
+        "a": "Iga koht on vähemalt 56 pikslit lai. Kui ruudustik on ekraanile liiga lai, kerib see oma kastis külgsuunas, kohti aga ei kahandata."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Nupp „Prindi ruudustik“ prindib ühele lehele tühja ruudustiku koos kahe värvi ja nende nimedega, et saaksite kahe pliiatsiga ehitada. See töötab ka mustvalgelt, sest igal värvil on oma kuju."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta, ja kontot, registreerumist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Istuv viskemäng",
+    "seoTitle": "Istuv viskemäng: kotiviskemäng kahele",
+    "h1": "Istuv viskemäng: viskake koos laua taga",
+    "description": "Laua taga istuvad kaks inimest viskavad vuoruti pehme kotikese suurde sihtmärki ja peavad arvestust paberil. Midagi ei mõõdeta ega punkteerita. Printimine on tasuta.",
+    "short": "Viskake vuoruti pehme kotikest suurde sihtmärki, arvestust peetakse paberil.",
+    "players": "2 inimest, laua taga",
+    "intro": "Rahulik viskemäng kahele inimesele, kes istuvad laua taga. Asetate trükitud sihtmärgi lauale ja viskate vuoruti pehmet kotikest või kokkukeerutatud sokki, et see maanduks rõngastele. Igaüks peab arvestust paberil, märkides ruute, ja vaatate märgistusi koos, kui lõpetate. Midagi ei mõõdeta, ekraanil ei liideta punkte kokku ega salvestata ega saadeta midagi. Lugege enne ohutusjuhiseid: väikesed täitematerjalid võivad põhjustada lämbumist.",
+    "howTo": [
+      "Lugege ohutusjuhiseid. Valige kott, mille kate on õmmeldud kinni, või keerake kokku puhas sokk.",
+      "Puudutage nuppu „Prindi sihtmärk ja arvestusleht“ ning asetage leht lauale teie kahe vahele.",
+      "Istuge mugavalt, üks igal pool, ja viskake vuoruti igaüks üks õrn vise. Keegi ei pea viskama.",
+      "Kui vise maandub rõngasse, märkige oma veerus ruut selle rõnga reas.",
+      "Vaadake lõpetades märgistusi koos või puudutage paus tegemiseks nuppu Puhka."
+    ],
+    "tips": [
+      "Istu nii lähedal, et leebe alt-üles viske jõuab sihtmärgini ilma ulatumata.",
+      "Räägi viskest, mitte tulemusest: \"See oli pehme vise.\" Iga viske eest ploomitakse kõigi poolt.",
+      "Kokkukeritud sokk on kerge ja seda on nõrga haardega lihtne hoida. Toetage käsi laua peale kordade vahel.",
+      "Kui keegi eelistab vaadata, võib tema olla see, kes märgib ruudud ära."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimerit või punktiarvestust?",
+        "a": "Ei. Kella, punktiarvestust, käikude lugejat ega kaotamist ei ole. Võite igal hetkel peatuda ja pooleli jätmine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Kas kotikese viskamine on ohutu?",
+        "a": "Võib olla, kui olla ettevaatlik. Kasutage kotti õmmeldud kattega või kokkukeeratud sokki, mitte lahtiseid ube, riisi ega väikseid täiteid, mis on väikelastele ja kõigile, kes panevad asju suhu, lämbumisohtlikud. Istuge, viske õrnalt laua suunas, mitte kunagi näo suunas, ja hoidke täiskasvanu lähedal."
+      },
+      {
+        "q": "Kas ekraanil midagi loendatakse või salvestatakse?",
+        "a": "Ei. Arvestus on ainult paberil, ruutudes, mille te ise ära märgite. Leht ei pea arvestust ega taimerit ning midagi ei salvestata ega saadeta."
+      },
+      {
+        "q": "Mis saab, kui keegi ei saa visata või kott kukub lehelt välja?",
+        "a": "Igaüks võib käigu vahele jätta ning kott, mis kukub lehelt välja, võetakse lihtsalt üles järgmise käigu jaoks. Selle eest ei arvestata midagi."
+      },
+      {
+        "q": "Mis on trükitud lehel?",
+        "a": "Üks leht: suur sihtmärk, mille kolm ringi on nimetatud Lähedal, Keskel ja Kaugel, tabel igale osalejale veeruga ning rida väikeseid ruute iga ringi jaoks märkimiseks, samuti ohutusnõuanne. Nimed on kirjutatud ringidele, nii et leht toimib ka mustvalgelt."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Hooajaline pusleripakk",
+    "seoTitle": "Hooajaline pusleripakk: trükitavad paberpusled",
+    "h1": "Hooajaline pusleripakk: kolm paberpuslet igale aastaajale",
+    "description": "Kolm väikest trükitavat puslet kevadeks, suveks, sügiseks või talveks: sobita paarid, ümbritse erinev pilt ja värvi pilt välja. Vali aastaaeg või puhkepäev. Trükkimine on tasuta.",
+    "short": "Kolm trükitavat puslet valitud aastaajaks või puhkepäevaks.",
+    "players": "Kõigile vanustele, üksi või kõrvuti",
+    "intro": "Vali aastaaeg ja leht näitab kolme väikest paberpuslet, mis on tehtud selle aastaaja piltidest: kaks rida pilte, mis tuleb joonega ühendada, rida neljast pildist, millest tuleb ringi ümbritseda erinev, ning pilt, mida värvida. Trükid ühe lehe ja teed ühe, kaks või kõik kolm oma tempos. Kui vali selle asemel \"Täna on puhkepäev\", siis pole midagi teha.",
+    "howTo": [
+      "Vali aastaaeg või vali \"Täna on puhkepäev\".",
+      "Vaata kolme puslet ja seejärel klõpsa \"Trüki selle aastaaja pakk\".",
+      "Tee üks, kaks või kõik kolm oma tempos.",
+      "Ühenda sobivad pildid joonega, ümbritse erinev pilt ringiga ja värvi suur pilt välja.",
+      "Peatu, millal soovid. Puhkepäev on samuti hea päev."
+    ],
+    "tips": [
+      "Alusta sellest pusslist, mis tundub täna kõige lihtsam. Üks on piisav.",
+      "Ütle iga pildi nimi valjusti, kui see aitab.",
+      "Kasuta värvipliiatseid või pliiatseid. Igasugused värvid sobivad.",
+      "Hoia leht järgmiseks korraks või lase see lahti."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimerit või punktiarvestust?",
+        "a": "Ei. Kella, punktiarvestust, käikude lugejat ega kaotamist ei ole. Võite igal hetkel peatuda ja pooleli jätmine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Kas leht teab, milline aastaaeg on?",
+        "a": "Ei. Aastaaja valite ise. Leht ei vaata kuupäeva ega teie asukohta."
+      },
+      {
+        "q": "Kas on punktisummat või õiget vastust?",
+        "a": "Ei. Ekraanil ei mõõdeta aega, ei anta punkte ega kontrollita midagi ning vastuseid ei näidata. Iga pusle on lihtsalt pilt, mida vaadata, ühendada, ümbritseda või värvida."
+      },
+      {
+        "q": "Mis saab, kui keegi täna puslesid ei soovi?",
+        "a": "Vali \"Täna on puhkepäev\". Leht näitab siis ühte rahulikku rida ning midagi ei ole vaja trükkida ega teha."
+      },
+      {
+        "q": "Mis on trükitud lehel?",
+        "a": "Üks leht valitud aastaaja jaoks: selle kolm puslet, millest igaühel on lühike juhis, kuidas seda teha, ning rida, mis ütleb, et võite teha ühe, kaks või kõik kolm."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Kaunista kaart koos",
+    "seoTitle": "Kaunista kaart koos: trükitav õnnitluskaart",
+    "h1": "Kaunista kaart koos: tee kaart kellelegi",
+    "description": "Kaks inimest kaunistavad trükitud õnnitluskaarti sünnipäevaks, tänuks või lihtsalt niisama ning kirjutavad seejärel koos sõnumi kaardi tagaküljele. Ainult värvipliiatsid või pliiatsid. Ei mingit taimerit ega punkte. Trükkimine on tasuta.",
+    "short": "Kaunista koos trükitud õnnitluskaarti.",
+    "players": "2 inimest, kõrvuti",
+    "intro": "Vaikne tegemismäng kahele inimesele, kes istuvad kõrvuti. Trükid ühe lehe, mis kokku voltides saab kaardiks. Vali sündmus, näiteks sünnipäev või tänu, ja kaunista esikülg selle sõnade ümber. Seejärel kirjuta tagaküljele sõnum, koos või nii, et üks kirjutab, mida teine ütleb. Kasuta värvipliiatseid, värvilisi pliiatseid või viltpliiatseid. Õiget kaarti pole olemas ning midagi ei mõõdeta aja ega punktidega ega saadeta kuhugi.",
+    "howTo": [
+      "Valige tähtpäev ja puudutage seejärel nuppu „Trüki kaart“.",
+      "Voltige leht katkendjoone järgi pooleks, nii et esikülg jääb väljapoole.",
+      "Üks inimene kaunistab esikülge ja teine tagakülge, või võtte ühel küljel kordamööda.",
+      "Kirjutage koos sõnum. Üks inimene võib kirjutada, samal ajal kui teine ütleb sõnad.",
+      "Peatuge alati, kui soovite. Lihtne kaart on sama hea kui üksikasjalik."
+    ],
+    "tips": [
+      "Alustage esikülje sõnadest ja lisage seejärel ükshaaval lehti, täppe või tähti nende ümber.",
+      "Kui keegi ei soovi joonistada, võib ta valida värvid või kirjutada sõnumi.",
+      "Rääkige sellest, mis teile teise inimese märkmete juures meeldib, mitte sellest, kas need on head.",
+      "Hoidke kaarti kohas, kust seda saab kinkida, või jätke see praegu lihtsalt lauale."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimer või punktiarvestus?",
+        "a": "Ei. Kellaaega, punkte, käikude loendurit ega kaotamist ei ole. Võite igal hetkel peatuda ja pooleli jätmine on täiesti hea viis lõpetada."
+      },
+      {
+        "q": "Kas vajame liimi, käärisid või kleepse?",
+        "a": "Ei. Piisab värvipliiatsitest, värvilistest pliiatsitest või viltpliiatsitest. Midagi ei pea lõikama, liimima ega kleepima."
+      },
+      {
+        "q": "Kas saame teha kaardi sündmuseks, mida loendis ei ole?",
+        "a": "Valige „Lihtsalt niisama“ ja kirjutage esikülje peale oma sõnad või kaunistage kaarti ilma tähtpäevata."
+      },
+      {
+        "q": "Kas ekraanil loetakse, hinnatakse või salvestatakse midagi?",
+        "a": "Ei. Leht näitab ainult kaarti ja samme. Midagi ei järjestata, ei punktistata ega salvestata ning õiget kaarti ei ole."
+      },
+      {
+        "q": "Mis on trükitud lehele?",
+        "a": "Üks leht: pooleks volditud kaart, mille esikülel on tähtpäeva sõnad ja lihtne raam, ning tagaküljel read sõnumi ja „Kellelt“ jaoks. Kahe inimese reeglid on trükitud allservas."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist ei ole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Leidke koos",
+    "seoTitle": "Leidke koos: kaks inimest leiavad pildipaarid",
+    "h1": "Leidke koos: kaks inimest, üks meeskond",
+    "description": "Kaks inimest jagavad ühte ekraani ja võtavad kordamööda üles kaks pildikaarti, et leida paar. Paarid leitakse koos ja loetakse ühisel loendusel. Mäng on tasuta, ilma taimeri ja punktideta.",
+    "short": "Mängige kordamööda kõrvuti istuva inimesega, et leida pildipaare.",
+    "players": "2 inimest, kõrvuti",
+    "intro": "Kaardid algavad nii, et pildid on nähtaval, või võite need panna näoga allapoole. Oma käigul pöörate ümber kaks kaarti. Kui need on paar, olete selle koos leidnud ja kord läheb edasi. Kui need on erinevad, jäävad need nähtavale, kuni vajutate nuppu „Pööra tagasi“, et te mõlemad saaksite vaadata. Käigu võite igal ajal vahele jätta. Ekraani ülaosas olev loendur ainult kasvab: see näitab koos leitud paaride arvu.",
+    "howTo": [
+      "Valige, mitu kaarti kasutada. Kuus kaarti, kolm paari, on rahulik algus.",
+      "Ekraan näitab, kelle kord on: ringiga esimene inimene ja ruuduga teine.",
+      "Pöörake ümber kaks kaarti üksteise järel. Kui need sobivad, on paar koos leitud.",
+      "Kui need on erinevad, vajutage nuppu „Pööra tagasi“, kui te mõlemad olete valmis. Seejärel läheb kord edasi.",
+      "Kumbki teist võib igal ajal vajutada nuppu „Jäta vahele“. Uute kaartide jaoks puudutage „Alusta uuesti“ ja peatamiseks nuppu „Puhka“."
+    ],
+    "tips": [
+      "Istuge kõrvuti ja nimetage pilte valjusti koos: „Teetass. Kas panete teesse piima?“",
+      "Laske inimesel, keda hoolite, ise kaarte puudutada, isegi kui see võtab aega. Osutage pigem, selle asemel et tema eest koputada.",
+      "Valige „Kaardid näoga allapoole“, kui te mõlemad naudite kaartide pööramist ppiltide leidmiseks.",
+      "Inimene, kes väsib kergesti, võib käigu vahele jätta nii tihti, kui soovib. Paarid leitakse ikkagi koos."
+    ],
+    "faq": [
+      {
+        "q": "Kas on võitjat, taimerit või punkte?",
+        "a": "Ei. Võitjat ei ole, sest paarid leitakse meeskonnana. Kellaaega, punkte ega eksimuste loendamist ei ole. Loendur arvestab ainult koos leitud paare ja võite igal hetkel peatuda."
+      },
+      {
+        "q": "Kas peame meeles pidama, kus pildid asuvad?",
+        "a": "Ei. Mäng algab nii, et kõik pildid on nähtaval. Kui kaardid on näoga allapoole, võite üksteiselt küsida, mida nägite, või lihtsalt need uuesti ümber pöörata."
+      },
+      {
+        "q": "Mis juhtub, kui kaks kaarti on erinevad?",
+        "a": "Need jäävad nähtavale, et te mõlemad saaksite neid vaadata nii kaua, kui vaja. Miski ei pööra neid iseenesest tagasi. Kui olete valmis, vajutage nuppu „Pööra tagasi“ ja kord läheb teisele inimesele."
+      },
+      {
+        "q": "Kas meie mängitut salvestatakse või saadetakse?",
+        "a": "Ei. Kaardid jäävad ainult sellele lehele. Midagi ei salvestata, ei laadita üles ega loendata ning see kaob, kui lehe sulgete."
+      },
+      {
+        "q": "Kas kaardid on piisavalt suured värisemise või väikese ekraani jaoks?",
+        "a": "Iga kaart on vähemalt 64 pikslit lai ja nii suur, kui ekraan lubab. Klaviatuuri ja ekraanilugeja kasutajad kuulevad iga kaardi nime selle asukoha ja pildi järgi."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist ei ole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Lugude täringud",
+    "seoTitle": "Lugude täringud: pildimäng jutustamiseks",
+    "h1": "Lugude täringud: jutustage pildiga lugu",
+    "description": "Kolm või neli pildiga täringut, millest lugu jutustada, mis tahes järjekorras. Lugemist, õiget vastust, taimerit ega punkte ei ole. Veeretage uuesti või jätke vahele. Mäng on tasuta ja prinditav.",
+    "short": "Veeretage pildiga täringuid ja jutustage koos lugu mis tahes järjekorras.",
+    "players": "2 või enam inimest või täiskasvanu ja laps",
+    "intro": "Näidatakse kolme või nelja pilti, nagu täringuid. Koos koostage nende abil lugu, kasutades pilte mis tahes järjekorras. Lugu võib olla üks lause või mitu ning see võib olla naljakas või eluline. Õiget lugu pole olemas ja keegi ei pea midagi nimetama ega meelde jätma. Uute piltide saamiseks puudutage nuppu „Veereta uuesti“ ja igaüks võib vahele jätta.",
+    "howTo": [
+      "Valige kolm või neli täringut. Kolm on kõige lihtsam.",
+      "Vaadake pilte koos. Puudutage ühte, kui soovite sellega alustada.",
+      "Rääkige kordamööda lugu, mis kasutab pilte mis tahes järjekorras. Igaühe üks lause on täiesti piisav.",
+      "Igaüks võib vahele jätta. Puudutage nuppu „Jäta vahele“, et järgmine inimene saaks alustada.",
+      "Uute piltide saamiseks puudutage nuppu „Veereta uuesti“, kkui soovite. Peatumiseks puudutage nuppu „Puhka“."
+    ],
+    "tips": [
+      "Esitage küsimus, selle asemel et oodata vastust: „Kuhu võib vihmavari minna?“",
+      "Liituge eelmise inimese jutuga, selle asemel et seda parandada. Iga lugu sobib.",
+      "Lugu võib põhineda tegelikul mälestusel. Pilt on selleks hea alguspunkt."
+    ],
+    "faq": [
+      {
+        "q": "Kas mängus on taimer või punktid?",
+        "a": "Ei. Kellaaega, punkte, käikude loendurit ega kaotamist pole. Võite igal ajal peatuda ja pooleli jätmine on täiesti sobiv viis lõpetamiseks."
+      },
+      {
+        "q": "Kas pilte peab lugema või nimetama?",
+        "a": "Ei. Mäng toimib ka ainult piltidega. Mängijad võivad osutada, kirjeldada või lihtsalt öelda, mis pilt neile meenutab. Kedagi ei palu midagi nimetada ega meenutada."
+      },
+      {
+        "q": "Mis siis, kui keegi ei soovi käiku teha?",
+        "a": "Ta võib igal ajal vahele jätta, ilma selgitust andmata. Mäng lihtsalt ootab ning järgmine inimene võib alustada või te võite uuesti veeretada."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Ühel lehel on kuusteist erinevat pilti neljas reas. Valige üks rida või lõigake pildid välja ja tõmmake pilte hunnikust."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab registreeruma?",
+        "a": "Jah, see on tasuta ning konto, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Sõna- ja pildipaarid",
+    "seoTitle": "Sõna- ja pildipaarid: sobitage sõnad piltidega",
+    "h1": "Sõna- ja pildipaarid: sobitage sõna pildiga",
+    "description": "Sobitage inglise sõnad nende piltidega ja kuulake iga sõna ette loetuna. Pildid jäävad nähtavale, ilma taimeri, punktide ega katsete loenduseta. Mängida ja printida saab tasuta.",
+    "short": "Sobitage iga sõna selle pildiga ja kuulake seda ette loetuna.",
+    "players": "Üks täiskasvanu või pere, kes mängib kõrvuti",
+    "intro": "Näidatakse neli või kuus pilti, mille inglisekeelsed sõnad on segamini. Puudutage üht sõna ja seejärel selle pilti, või pilti ja seejärel selle sõna. Sobitatud paar jääb kokku paksu äärise ja sõnaga „Sobitatud“. Puudutage mis tahes sõna kõrval nuppu „Loe ette“, et seda kuulda. Ajastust ega punktiarvestust pole ning vale valik tühistub ise.",
+    "howTo": [
+      "Valige neli või kuus pilti. Neli on kõige lihtsam.",
+      "Puudutage sõna ja seejärel pilti, mida see nimetab. Või puudutage kõigepealt pilti ja seejärel sõna.",
+      "Sobitatud paar jääb kokku. Vale valik tühistub vaikselt, nii et proovige teist.",
+      "Puudutage sõna kõrval nuppu „Loe ette“, et seda kuulda, kui teie seade oskab tekstit valjusti lugeda.",
+      "Puudutage nuppu „Uued pildid“ teise komplekti jaoks või nuppu „Alusta uuesti“, et kõik paarid lahti võtta. Nupp „Pane tagasi“ toob tagasi viimased sobitused."
+    ],
+    "tips": [
+      "Öelge iga sõna enne sobitamist koos valjusti ja rääkige pildist.",
+      "Pered saavad mängida kordamööda. Iga inimene valib korraga ühe sõna või pildi.",
+      "Kasutage esmalt sõnu, mida juba tunnete, ja jätke ülejäänud hilisemaks."
+    ],
+    "faq": [
+      {
+        "q": "Kas mängus on taimer või punktid?",
+        "a": "Ei. Kellaaega, punkte, käikude loendurit ega kaotamist pole. Võite igal ajal peatuda ja pooleli jätmine on täiesti sobiv viis lõpetamiseks."
+      },
+      {
+        "q": "Kas see on lastele?",
+        "a": "See on tehtud täiskasvanutele, kes õpivad inglise sõnu või õpivad neid uuesti, ning peredele, kes mängivad kõrvuti. See ei ole kirjutatud lastele."
+      },
+      {
+        "q": "Mis siis, kui minu seade ei oska tekstit valjusti lugeda?",
+        "a": "Nupp „Loe ette“ kasutab brauseris juba olemasolevat häält. Kui brauser ei oska rääkida, nuppu ei kuvata ja mäng töötab ka ilma selleta."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Ühel lehel on kuus pilti ja nende kuus sõna, mida saab välja lõigata või joonega kokku ühendada."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab registreeruma?",
+        "a": "Jah, see on tasuta ning konto, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Sorteeri koos",
-    "seoTitle": "Dementsuse sorteerimismäng: sorteerige koos",
+    "seoTitle": "Sorteerimismäng: koos sorteerimine täiskasvanutele",
     "h1": "Sorteerige koos: piltide sortimine",
-    "description": "Puudutage pilti, seejärel puudutage korvi, kuhu see kuulub: köök või aed, puuvili või loomad. Rahulik tasuta sorteerimistegevus dementsusega inimestele.",
+    "description": "Puudutage pilti ja seejärel korvi, kuhu see kuulub: köök või aed, puuviljad või loomad. Rahulik ja tasuta sorteerimismäng täiskasvanutele ja peredele.",
     "short": "Pange iga pilt oma ostukorvi: köök või aed ja palju muud.",
     "players": "1 või 2 inimest",
     "intro": "Sorteerimine on tuttav ja rahuldust pakkuv igapäevane ülesanne, nagu toidukaupade ärapanemine või sokkide sidumine. Puudutage pilti, seejärel puudutage korvi, kuhu see kuulub. Kiirustamist ja valet pööret pole.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Piltmõistatus",
-    "seoTitle": "Lihtne pusle dementsuse jaoks: 4 või 9 tükki",
+    "seoTitle": "Lihtne veebipuzzle: 4 või 9 suurt tükki",
     "h1": "Piltmõistatus: lihtne pusle",
-    "description": "Lihtne veebipõhine pusle dementsusega inimestele: 4 või 9 suurt tükki, kogu pilt jääb nähtavaks ja nende vahetamiseks puudutate kahte tükki.",
+    "description": "Lihtne veebipuzzle täiskasvanutele: 4 või 9 suurt tükki, kogu pilt jääb nähtavale ja kahe tüki vahetamiseks puudutate neid. Kasutage oma fotot, mis jääb sellesse seadmesse. Tasuta, ilma taimerita.",
     "short": "Puudutage kahte tükki, et neid vahetada, kuni pilt on terve.",
     "players": "1 või 2 inimest",
-    "intro": "Sõbralik pilt lõigatakse neljaks või üheksaks suureks tükiks ja segatakse. Kogu pilt jääb teejuhiks nähtavaks. Puudutage ühte tükki, seejärel teist ja nad vahetavad kohti. Lohistamist pole vaja.",
+    "intro": "Sõbralik pilt on lõigatud neljaks või üheksaks suureks tükiks ja segatud. Kogu pilt jääb juhendiks nähtavale. Puudutage ühte tükki ja seejärel teist, ning need vahetavad kohti. Lohistamine pole vaja. Võite kasutada ka oma fotosid. Foto jääb sellesse seadmesse ega laadita kunagi üles.",
     "howTo": [
       "Valige pilt ja 4 või 9 tükki. Neli on õrn algus.",
       "Vaadake kogu pilti ülaosas.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Lõpeta ütlus",
-    "seoTitle": "Lõpetage ütlus: Vanasõnade mäng pensionäridele",
+    "seoTitle": "Lõpetage ütlus: tuttavate kõnekäändude mäng",
     "h1": "Lõpeta ütlus",
     "description": "Tuttavad Ameerika ütlused, mille viimane sõna on puudu, näiteks \"A penny saved is a penny ___\". Puudutage valikut või näidake lõppu ja seejärel rääkige sellest.",
     "short": "Lõpetage koos tuttavaid ütlusi, seejärel rääkige neist.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Sõnaotsing suures kirjas",
-    "seoTitle": "Suure trükiga sõnaotsing dementsuse jaoks, prinditav",
+    "seoTitle": "Suurtähtedega sõnaotsing, tasuta ja prinditav",
     "h1": "Suures kirjas sõnaotsing",
-    "description": "Tasuta suures kirjas sõnaotsing pensionäridele ja dementsusega inimestele. Vähe sõnu, suured tähed, sõnad ainult risti ja alla. Mängige võrgus või printige.",
+    "description": "Tasuta suurtähtedega sõnaotsing vanematele täiskasvanutele ja peredele. Vähe sõnu, suured tähed, sõnad ainult horisontaalselt ja vertikaalselt. Mängige veebis või printige.",
     "short": "Suured tähed, paar sõna, ainult risti ja alla. Printige ka.",
     "players": "1 või 2 inimest",
     "intro": "Väike ruudustik suurte tähtedega ja vaid käputäie sõnadega, mis kõik loevad risti või alla. Puudutage sõna esimest tähte ja seejärel viimast tähte. Kas eelistate paberit? Printige värske pusle ühe puudutusega.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Värvimislehed",
-    "seoTitle": "Värvimislehed dementsusega täiskasvanutele (tasuta)",
+    "seoTitle": "Tasuta värvimislehed täiskasvanutele, suured ja lihtsad",
     "h1": "Värvimislehed",
     "description": "Lihtsad täiskasvanutele mõeldud värvimislehed suurte aladega: puudutage värvi ja seejärel pilti. Pole segadust, pole valesid värve ja iga lehe saab tasuta printida.",
     "short": "Puudutage värvi ja seejärel pildi osa. Printige ka lehti.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Vestluskaardid",
-    "seoTitle": "Vestluse alustajad dementsuse jaoks: pildikaardid",
+    "seoTitle": "Vestlusalgatajad: pildikaardid peredele",
     "h1": "Vestluskaardid",
-    "description": "Piltkaardid õrnade vestluse alustajatega dementsusega inimestele: ei küsitlemist ega õigeid vastuseid. Kasutage ekraanil või printige kogu komplekt.",
+    "description": "Pildikaardid hellade vestlusalgatajatega peredele, sõpradele ja vanematele inimestele, sealhulgas dementsusega elavatele inimestele. Ei mingitküsitlemist ega õigeid vastuseid.",
     "short": "Pildikaardid avatud, õrnade küsimustega. Ei küsitlemist.",
     "players": "2 inimest või grupp",
     "intro": "Iga kaart ühendab tuttava pildi avatud vestluskutsega, näiteks \"Milline on teie lemmikilm?\" Pole õigeid vastuseid ja midagi pole meeles pidada. Valige teema või segage neid kõiki.",
@@ -329,12 +979,13 @@
     "description": "Muutke oma perefotod õrnaks sobitamismänguks. Valige oma seadmes 2–6 fotot; need jäävad teie brauserisse ja neid ei laadita kunagi üles.",
     "short": "Valige oma fotod ja sobitage need. Midagi pole üles laaditud.",
     "players": "2 inimest kõrvuti",
-    "intro": "Valige oma telefonist, tahvelarvutist või arvutist kaks kuni kuus fotot ja neist saab suurte ja nähtavate piltidega sobiv mäng. Fotosid kuvatakse ainult sellel lehel. Neid ei laadita üles, ei salvestata ega jagata ning need kaovad lehe sulgemisel.",
+    "intro": "Vali oma telefonist, tahvelarvutist või arvutist kaks kuni kuus enda perefotot, ja neist saab sobitusmäng suurte, hästi nähtavate piltidega. Fotosid näidatakse ainult sellel lehel. Neid ei laadita üles, ei salvestata ega jagata ning need kaovad, kui lehe sulged. Kui soovid, lisa iga foto alla mõni sõna, ja pausi järel võib hiline osutada ühele paarile. See on viis perefotosid koos vaadata.",
     "howTo": [
-      "Puudutage valikut \"Vali fotod\" ja valige kaks kuni kuus fotot.",
-      "Iga foto kuvatakse kaks korda. Puudutage ühte ja seejärel selle paari.",
-      "Rääkige igast fotost, kui selle leiate.",
-      "Kui olete lõpetanud, sulgege leht või puudutage \"Kustuta fotod\". Midagi ei hoita."
+      "Vajuta nuppu \"Vali fotod\" ja vali kaks kuni kuus fotot.",
+      "Iga foto ilmub kaks korda. Vajuta ühele ja seejärel selle paarile.",
+      "Kui soovid, lisa iga foto alla mõni sõna. Pealkirju ei salvestata.",
+      "Räägi iga fotost, kui selle leiad.",
+      "Kui oled valmis, sulge leht või vajuta nuppu \"Tühjenda fotod\". Midagi ei jää alles."
     ],
     "tips": [
       "Valige selged fotod õnnelikest tuttavatest asjadest: lemmikloom, aed, lemmikkoht, pulmapäev.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Pildibingo",
-    "seoTitle": "Pildibingo dementsusega eakatele: prinditav",
+    "seoTitle": "Prinditav pildibingo gruppidele",
     "h1": "Pildibingo gruppidele",
-    "description": "Tasuta prinditav piltbingo mäluhoolduse ja vanemate rühmade jaoks suure ekraanil kuvatava helistajaga. Suured sõnadega pildid, 9 või 16 ruutu, lugemist pole vaja.",
+    "description": "Tasuta prinditav pildibingo peredele, vanemate inimeste gruppidele ja hooldekodudele. Suured pildid sõnadega, 9 või 16 ruutu ja suur ekraanil olev hüüdja.",
     "short": "Prinditavad piltidega bingokaardid ja suure ekraaniga helistaja gruppidele.",
     "players": "Grupp 2-30",
     "intro": "Klassikaline bingo numbrite asemel piltidega, nii et keegi ei pea lugema väikeses kirjas. Printige unikaalsete kaartide komplekt, seejärel kasutage ekraanil kuvatavat helistajat, et kuvada iga pilt suurelt teleris, sülearvutis või tahvelarvutis.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Piknikuplaneerija",
+    "seoTitle": "Piknikuplaneerija: vali pildid väljasõiduks",
+    "h1": "Piknikuplaneerija: vali pildid ja seejärel sobita need",
+    "description": "Vali piknikuks toidu- ja tegevuspildid ning mängi nendega rahulikku sobitusvooru. Aega ei mõõdeta. Mängimine ja printimine on tasuta.",
+    "short": "Vali piknikuks toidu- ja väljasõidupildid ning sobita need.",
+    "players": "Üksi või 2 inimest kõrvuti",
+    "intro": "Vajuta toidu- ja tegevuspiltidel, et need paneksid piknikukorvi, kuhu mahub kuni kuus asja. Sõnaline lause ütleb, mis korvis on, näiteks \"Meie piknik: leib, juust, õunad ja draakon.\" Seejärel vajuta nuppu \"Mängime oma piknikuga\", et mängida rahulikku sobitusvooru valitud piltidega. Pildid jäävad nähtavale ning aega ei mõõdeta, punkte ei arvestata ega midagi ei salvestata. Nupp \"Prindi meie pikniku nimekiri\" prindib valitud asjadest kontrollnimekirja, kus iga asja kõrval on märkeruut pakkimiseks.",
+    "howTo": [
+      "Vajuta toidu või tegevuse pildil. See läheb korvi.",
+      "Vajuta korvis oleval pildil, et see sealt välja võtta.",
+      "Vali vähemalt kaks asja ja vajuta seejärel nuppu \"Mängime oma piknikuga\".",
+      "Vajuta kahele ühesugusele pildile. Pildid jäävad nähtavale, nii et midagi ei pea meelde jätma.",
+      "Vajuta nuppu \"Prindi meie pikniku nimekiri\", et saada kaasa paberkontrollnimekiri."
+    ],
+    "tips": [
+      "Küsi kaasasolijatelt, mida nad tahaksid kaasa võtta, ja vali pildid koos.",
+      "Räägi igast pildist, kui see korvi läheb: \"Kas mäletad draakonit, mida lendasime rannas?\"",
+      "Paberil on tühjad read muu kaasavõetava või nime jaoks."
+    ],
+    "faq": [
+      {
+        "q": "Kas seal on taimer, punktid või võitja?",
+        "a": "Ei. Aega ei mõõdeta ega punkte ei arvestata ning keegi ei võida. Sobitusvoorus pole vigu ega punkte."
+      },
+      {
+        "q": "Kas see on toidukava?",
+        "a": "Ei. See on väljasõidu pildikava, millest rääkida ja mida paberil kaasa võtta. See ei ütle, mida keegi peaks sööma."
+      },
+      {
+        "q": "Kas valitud pilte salvestatakse või saadetakse?",
+        "a": "Ei. Korv jääb ainult sellele lehele. Seda ei salvestata, laadita üles ega saadeta ning see kaob, kui lehe sulged."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. Nupp \"Prindi meie pikniku nimekiri\" prindib ühe lehe formaadis A4 või US Letter. Sellel on valitud pildid, iga pildi juures märkeruut ja tühjad read muu jaoks."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Albumi raamat",
+    "seoTitle": "Albumi raamat: keerake perefotosid koos, leht leheküljelt",
+    "h1": "Albumi raamat: lisage oma fotod ja pealkirjad ning keerake lehti",
+    "description": "Vali seadmest kaks kuni kaksteist enda perefotot ja keera neid raamatuna, iga foto all mõni sõna. Midagi ei laadita üles. Printimine on tasuta.",
+    "short": "Vaadake oma perefotosid koos läbi nagu raamatut.",
+    "players": "Üksi või 2 inimest kõrvuti",
+    "intro": "Vali sellest seadmest kaks kuni kaksteist enda fotot. Iga foto saab raamatu ühele leheküljele, mis on piisavalt suur, et seda näha, ja mille all võib olla mõni sõna. Lehti keeratakse nuppudega või noolenuppudega, ja nupust \"Vaadake koos\" saab istuda kõrvuti ning vaadata ainult fotosid ja sõnu. Sinu fotod jäävad sellesse seadmesse. Neid ei laadita üles ega salvestata ning raamat kaob, kui lehe sulged. Nupp \"Prindi album\" prindib igale lehele ühe foto ja selle sõnad koos lehenumbriga.",
+    "howTo": [
+      "Vajuta nuppu \"Vali fotod\" ja vali kaks kuni kaksteist fotot. Enne foto kasutamist küsi luba, kui pildil olev inimene ei saa ise nõustuda.",
+      "Keera lehti nuppudega \"Eelmine leht\" ja \"Järgmine leht\" või noolenuppudega vasak ja parem.",
+      "Lisa foto alla mõni sõna, kui soovid. Järjekorra muutmiseks kasuta nuppe \"Liiguta varem\" või \"Liiguta hiljem\".",
+      "Vajuta nuppu \"Vaadake koos\", et peita muutmisnupud ja vaadata raamatut kõrvuti.",
+      "Vajuta nuppu \"Prindi album\", et saada paberkoopia, või nuppu \"Tühjenda raamat\", kui oled valmis. Midagi ei jää alles."
+    ],
+    "tips": [
+      "Elige fotos de cosas alegres y conocidas: un jardín, una mascota, un lugar favorito. Habla de cada página mientras pasas la hoja.",
+      "Deja que la persona diga unas palabras por cada página, aunque sea una sola, y anótalas tal como las diga.",
+      "En papel, las hojas impresas pueden guardarse en una carpeta, y la familia puede añadir sus propias fotos y notas alrededor."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, se puntúa ni se cuenta, y nadie gana. El número de página solo está para que sepáis en qué parte del libro estáis."
+      },
+      {
+        "q": "¿Se guardan, suben o envían nuestras fotos o pies de foto?",
+        "a": "No. Las fotos solo las lee esta página; no se suben, guardan ni envían a ningún sitio. Los pies de foto se conservan solo mientras la página está abierta. Al cerrarla, el libro desaparece."
+      },
+      {
+        "q": "¿Podemos imprimir el libro?",
+        "a": "Sí. \"Imprimir el álbum\" imprime una foto con su pie de foto en cada página, con los números de página. Elige A4 o US Letter en el cuadro de impresión."
+      },
+      {
+        "q": "¿Es gratis? ¿Hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Tablero de collage",
+    "seoTitle": "Tablero de collage: dos personas colocan imágenes por turnos",
+    "h1": "Tablero de collage: colocar imágenes en un solo tablero, por turnos",
+    "description": "Dos personas se turnan para colocar imágenes recortadas en un tablero compartido. Toca una imagen y luego un hueco vacío. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Turnaos para colocar imágenes en un tablero compartido.",
+    "players": "2 personas, una al lado de la otra",
+    "intro": "Dos personas se sientan una al lado de la otra, con un tablero de doce huecos y una bandeja de ocho imágenes recortadas. Toca una imagen y luego un hueco vacío, y la imagen irá allí. Después, el turno pasa a la otra persona. Las imágenes de cada persona tienen su propia forma, un círculo o un cuadrado, de modo que el tablero muestra quién colocó cada una sin depender del color. Cualquiera de las dos puede pasar el turno, y se puede deshacer un paso. Nada se cronometra, se puntúa ni se guarda. \"Imprimir el tablero\" imprime el tablero vacío y las imágenes para recortar.",
+    "howTo": [
+      "Toca una imagen recortada de la bandeja. Mientras esté seleccionada, aparecerá \"Elegida\".",
+      "Toca un hueco vacío del tablero. La imagen recortada se colocará allí y el turno pasará.",
+      "Cualquiera de las dos personas puede tocar Pasar en cualquier momento, o \"Quitar la última pieza\" para deshacer un paso.",
+      "Toca \"Otro conjunto de imágenes\" para ver una bandeja distinta. Las imágenes que ya están en el tablero se quedan donde están.",
+      "Toca \"Empezar de nuevo\" para vaciar el tablero, y \"Devolver\" si cambias de opinión."
+    ],
+    "tips": [
+      "Di el nombre de cada imagen al colocarla, por ejemplo \"la taza de té va junto a la casa\". Hablar convierte la actividad en algo compartido.",
+      "Deja que las dos personas se turnen también para elegir la imagen recortada, no solo el lugar, para que ambas tengan voz.",
+      "En papel, recorta las ocho imágenes con ayuda de un adulto y colócalas sobre los recuadros impresos."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, se puntúa ni se cuenta, y nadie gana. Un tablero completo es simplemente aquel con una imagen en cada hueco."
+      },
+      {
+        "q": "¿Se guardan o envían las imágenes que colocamos?",
+        "a": "No. El tablero se queda solo en esta página. No se guarda, sube ni cuenta, y desaparece al cerrarla."
+      },
+      {
+        "q": "¿Cómo sabemos de quién es cada imagen?",
+        "a": "Cada persona tiene una forma. Las imágenes de la primera llevan un círculo en la esquina, y las de la segunda, un cuadrado, y cada nombre aparece encima del tablero."
+      },
+      {
+        "q": "¿Hay una versión en papel?",
+        "a": "Sí. \"Imprimir el tablero\" imprime el tablero vacío como doce recuadros, con las ocho imágenes debajo del mismo tamaño y la línea de corte. Un adulto puede encargarse del recorte."
+      },
+      {
+        "q": "¿Es gratis? ¿Hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Planificador de jardín",
+    "seoTitle": "Planificador de jardín: distribuye un terreno con imágenes de plantas",
+    "h1": "Planificador de jardín: elige imágenes y distribuye un terreno",
+    "description": "Elige imágenes de plantas y cosas de jardín, y colócalas en doce parterres de un terreno. Toca una imagen y luego un parterre. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Elige imágenes de plantas y distribuye un terreno de doce parterres.",
+    "players": "Individual, o 2 personas una al lado de la otra",
+    "intro": "Elige imágenes de una bandeja de plantas y cosas de jardín, y después toca un parterre para colocar cada una en su sitio. El terreno tiene doce parterres, y cada parterre admite una imagen. Un resumen en palabras indica lo que contiene el plan, por ejemplo \"Tu plan tiene 3 girasoles, 2 rosales y 1 árbol\". Nada se cronometra, se puntúa ni se guarda, y no hay turnos. Es un plan con imágenes para conversar, no un consejo de cultivo. \"Imprimir el plan\" imprime los parterres con las imágenes que elegiste, con parterres en blanco para dibujar y líneas para anotaciones.",
+    "howTo": [
+      "Toca una imagen de la bandeja. Mientras esté seleccionada, aparecerá \"Elegida\".",
+      "Toca un parterre. La imagen se colocará allí y la elección quedará hecha.",
+      "Para cambiar un parterre, elige otra imagen y tócalo. Para vaciar un parterre, tócalo sin tener ninguna imagen elegida.",
+      "Toca \"Empezar de nuevo\" para vaciar todos los parterres, y \"Devolver\" si cambias de opinión.",
+      "Toca \"Imprimir el plan\" para tener una copia en papel del terreno y del resumen."
+    ],
+    "tips": [
+      "Nimeta iga pilt, kui ta plaanile lisatakse, näiteks \"päevalill läheb linnumaja kõrvale\". Rääkimine muudab tegevuse ühiseks.",
+      "Laske igal inimesel valida pilt järjekorras või valige pildid koos, nii et mõlemal oleks plaani kujundamisel sõna.",
+      "Paberil on tühjad peenrad selleks, et joonistada oma mõtteid, ja märkmete read selleks, et kirja panna midagi, mida soovite meeles pidada."
+    ],
+    "faq": [
+      {
+        "q": "Kas see on taimekasvatuse nõuanne?",
+        "a": "Ei. See on pildiplaan, millest rääkida, mitte taimekasvatuse nõuanne. See ei ütle, millal, kus või kuidas midagi istutada, sest see sõltub sellest, kus te elate."
+      },
+      {
+        "q": "Kas siin on taimer, punktisumma või võitja?",
+        "a": "Ei. Midagi ei mõõdeta ajaliselt, ei punktthere hinnata ega loenduda ning keegi ei võida. Täis peenar ei too kaasa mingit eriteadet."
+      },
+      {
+        "q": "Kas valitud pilte salvestatakse või saadetakse kuhugi?",
+        "a": "Ei. Plaan jääb ainult sellele lehele. Seda ei salvestata, ei laadita üles ega loendata ning see kaob, kui lehe sulgete."
+      },
+      {
+        "q": "Kas plaani saab ka paberil?",
+        "a": "Jah. Nupp \"Prindi plaan\" prindib ühe lehe, formaadis A4 või US Letter. Lehel on kaheteist peenart valitud piltidega, kokkuvõte sõnadega ning tühjad read märkmete jaoks."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Rühma värvimisseina",
+    "seoTitle": "Rühma värvimisesein: üks pilt paljudele kätele",
+    "h1": "Rühma värvimisesein: üks suur pilt, värvitud koos",
+    "description": "Prindi üks suur pilt mitmele lehele, et pere, klass või hooldekodu saaks ühiselt värvida ühe seina. Prindib tasuta. Taimerit ega punktisummat pole.",
+    "short": "Prindi üks suur pilt mitmele lehele, et paljud inimesed saaksid seda värvida.",
+    "players": "Rühm laua taga või seina ääres",
+    "intro": "Valige värvimislehtede seast pilt ning 4, 6 või 9 lehega sein. Prindi sein: esimene leht näitab, kuidas see kokku panna, ja iga teine leht on üks osa samast suurest pildist, nurgas silt nagu A1. Iga inimene värvib ühe või mitu lehte, mis tahes värvide ja stiiliga. Seejärel asetatakse lehed siltide järgi ja kleebitakse tagaküljelt teibiga kokku. Midagi ei mõõdeta ajaliselt, ei punkteerita ega salvestata.",
+    "howTo": [
+      "Valige pilt ning seejärel, mitme lehega sein see olema peab.",
+      "Lugege ekraanil olevat kaarti, mis näitab, kuhu iga silt läheb.",
+      "Klõpsake nuppu \"Prindi sein\" ja prindige kõik lehed.",
+      "Andke igale inimesele üks või mitu lehte värvimiseks. Värvid ja stiilid ei pea sobima.",
+      "Asetage lehed siltide järgi ja kleepige need tagaküljelt teibiga kokku."
+    ],
+    "tips": [
+      "Andke kõige lihtsama joonisega lehed neile, kes soovivad rahulikumat tegevust, ja keerukamad neile, kes neid naudivad.",
+      "Riputage sein kohta, kus kõik seda näevad, ja rääkige osadest koos.",
+      "Väikese laua jaoks valige väiksem sein, toa jaoks suurem."
+    ],
+    "faq": [
+      {
+        "q": "Kas siin on taimer, punktisumma või võitja?",
+        "a": "Ei. Midagi ei mõõdeta ajaliselt, ei punkteerita ega loenduda ning keegi ei võida. Sein on lihtsalt pilt, mille on värvinud paljud inimesed."
+      },
+      {
+        "q": "Kas lehti salvestatakse või saadetakse kuhugi?",
+        "a": "Ei. Sein valmib ainult sellel lehel. Seda ei salvestata, ei laadita üles ega loendata ning see kaob, kui lehe sulgete."
+      },
+      {
+        "q": "Kas värvid peavad sobima?",
+        "a": "Ei. Igaüks võib kasutada mis tahes värve ja stiili. Lehed ühtivad siiski üheks pildiks."
+      },
+      {
+        "q": "Kas seina saab ka paberil?",
+        "a": "Jah. Prinditud sein on kogu mäng: esimene leht sammude ja kaardiga ning üks leht iga pildi osa kohta."
+      },
+      {
+        "q": "Kas see on tasuta ja kas peab registreeruma?",
+        "a": "Jah, see on tasuta ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Vaikne kujundite mõistatus",
+    "seoTitle": "Vaikne kujundite mõistatus: sobita kujundid pildile",
+    "h1": "Vaikne kujundite mõistatus: sobita tükid pildile",
+    "description": "Sobita lihtsad kujundid maja, paadi, kala ja muu joonise piirjoonte sisse. Klõpsa tükil ning seejärel sama kujuga ruumil. Taimerit ega punktisummat pole. Mängida ja printida on tasuta.",
+    "short": "Sobita lihtsad kujundid pildile omas tempos.",
+    "players": "1 inimene laua taga",
+    "intro": "Pildi piirjoon, näiteks maja, paat või rakett, on jaotatud ruumideks. Igal ruumil on sama kujuga tükk: suur või väike kolmnurk, ruut, rööpkülik või ristkülik. Klõpsa tükil ja seejärel sama kujuga ruumil, siis tükk sobib. Ruum pöörab tüki sinu eest õigesti, nii et midagi ei pea lohistama ega pöörama. Kui tükk on erineva kujuga kui ruum, jääb see alusesse lühikese märkusega. Midagi ei mõõdeta ajaliselt ega punkteerita ning midagi ei salvestata ega saadeta. Nupp \"Prindi see kujund\" prindib piirjoone ja tükid ühele lehele, et värvida või välja lõigata.",
+    "howTo": [
+      "Klõpsa alusel olevat tükki. Valitud tükk näitab sõna \"Valitud\".",
+      "Klõpsa pildi ruumil. Kui kuju sobib, jääb tükk sinna.",
+      "Kui kuju ei sobi, proovi mõnda teist ruumi. Proovimisega ei kao midagi.",
+      "Klõpsa pildil olevat tükki, et see tagasi alusele viia, või kasuta nuppu \"Alusta uuesti\", et need kõik tagasi viia.",
+      "Kui igal ruumil on oma tükk, on pilt valmis. Klõpsa nuppu \"Teine kujund\" uue kujundi jaoks või Puhka, et peatada."
+    ],
+    "tips": [
+      "Näita abijooni, et iga ala näha. Lülita need välja, kui tahad rohkem mõistatust, ja ainult ääris on juhiseks.",
+      "Alusta suurte kujunditega, näiteks suurte kolmnurkade ja ristkülikutega. Väikesed tükid tulevad sageli viimaseks.",
+      "Nimeta kujundeid valjult, kui töötad: \"kolmnurk, ruut, pikk ristkülik\". Rääkimine võib teha tegevusest ühise.",
+      "Paberil värvi tükid kahe-kolme värviga või lõika need välja, kui täiskasvanu aitab."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimer, skoor või käikude loendur?",
+        "a": "Ei. Midagi ei mõõdeta aja järgi, ei loendata ega punktistata. Tükk, mis ei sobi, lihtsalt ei asetu paika, ja võid peatuda, millal tahad."
+      },
+      {
+        "q": "Kas valminud pilti salvestatakse või saadetakse kuhugi?",
+        "a": "Ei. Pilt jääb ainult sellele lehele. Seda ei salvestata, ei laadita üles ega loendata, ja see kaob, kui lehe sulged."
+      },
+      {
+        "q": "Kas kohad on piisavalt suured värisemise või väikese ekraani jaoks?",
+        "a": "Ääris joonistatakse nii suurelt, kui ekraan lubab, ja iga ala on nupp, mida saab puudutada sõrmega või klahviga Tab. Salves olevad tükid on lehe suured nupud."
+      },
+      {
+        "q": "Kas on ka paberversioon?",
+        "a": "Jah. \"Trüki see kuju\" prindib ühe pildi ühele lehele: ääris koos abijoontega ja selle kõrval samas suuruses joonistatud tükid. Värvi tükid või lõika need välja, et need sobiksid. Lõikamisega saab aidata täiskasvanu."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta, ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Rahulik hingamine",
-    "seoTitle": "Rahulik hingamispaus pensionäridele ja hooldajatele",
+    "seoTitle": "Rahulik hingamispaus koos jagamiseks",
     "h1": "Rahulik hingamispaus",
     "description": "Aeglane ja vaikne hingamispaus, mida jagada: õrn ring kasvab ja kahaneb kuus hingetõmmet. Te alustate seda ja saate igal ajal lõpetada.",
     "short": "Aeglane ring, millega koos hingata. Alusta ja lõpeta, kui sulle meeldib.",
@@ -423,6 +1333,131 @@
       {
         "q": "Kas see on tasuta ja kas ma pean registreeruma?",
         "a": "Jah, see on tasuta ja sellel pole kontot, registreerumist ega allalaadimist. See töötab telefoni, tahvelarvuti või arvuti veebibrauseris."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Lugude ahel",
+    "seoTitle": "Lugude ahel: ühine piltidega jutustamise mäng",
+    "h1": "Lugude ahel: jutusta lugu ühe pildi kaupa",
+    "description": "Piltide rida kasvab ühe kaupa ja igaüks ütleb iga pildi kohta valjult lause. Midagi ei pea kirjutama ega pole õiget vastust. Tasuta, rahulik, ilma taimeri ja punktideta.",
+    "short": "Lisa pilt ja ütle igaüks lause, võtteid vahetades.",
+    "players": "2 või enam inimest",
+    "intro": "Mäng algab ühe pildiga ning ahel kasvab ühe pildi kaupa. Igaüks ütleb järjekorras valjult ühe lause ahela kohta sellele hetkeni. Lause võib kirjeldada seda, mida näed, paika, mis meelde tuleb, või midagi naljakat. Midagi ei kirjutata, ei salvestata ega jäädvustata, õiget vastust pole ja igaüks võib vahele jätta. Ahel peatub kaheksa pildi juures, ja siis saab alustada uue.",
+    "howTo": [
+      "Vaadake esimest pilti koos.",
+      "Võtke järjekorras: igaüks ütleb ühe lause ahela kohta sellele hetkeni. Igaüks võib vahele jätta.",
+      "Puudutage nuppu \"Lisa pilt\", et panna järgmine pilt ahela lõppu.",
+      "Puudutage nuppu \"Eemalda viimane\", kui soovite pildi võrra tagasi minna.",
+      "Kui ahelas on kaheksa pilti, puudutage nuppu \"Alusta uut ahelat\" või lihtsalt lõpetage."
+    ],
+    "tips": [
+      "Lühike on hea: \"Keegi pani veekeetja tulele.\" Järgmine inimene jätkab või jätab vahele.",
+      "Lase piltidel juhtida. Ei ole mingit lugu, millele peaks jõudma.",
+      "Peatu, millal tahad. Pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimer või punktid?",
+        "a": "Ei. Kella, punkte, käikude loendurit ega kaotamist pole. Võid igal hetkel peatuda, ja pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Kas midagi kirjutatakse üles või salvestatakse?",
+        "a": "Ei. Laused öeldakse valjult ega kirjutata, salvestata ega saadeta kuhugi. Mäng näitab ainult pilte."
+      },
+      {
+        "q": "Mis siis, kui keegi ei taha midagi öelda?",
+        "a": "Igaüks võib vahele jätta ja järgmine inimene jätkab. Keegi ei pea pilti nimetama ega meelde jätma."
+      },
+      {
+        "q": "Kas see on tasuta ja kas pean end registreerima?",
+        "a": "Jah, see on tasuta, ning kontot, registreerimist ega allalaadimist pole vaja. See töötab veebibrauseris telefonis, tahvelarvutis või arvutis."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Vaikne stseen",
+    "seoTitle": "Vaikne stseen: üks pilt korraga",
+    "h1": "Vaikne stseen: üks paigal pilt korraga",
+    "description": "Üks suur, paigal pilt korraga, igaühe all üks õrn rida. Vajutage Järgmine või Eelmine, kui olete valmis. Midagi ei liigu ega mängi iseenesest ning taimerit ega punkte pole. Mängimine on tasuta ja kontot pole vaja.",
+    "short": "Vaata üht paigal pilti korraga, omas tempos.",
+    "players": "Üksi või grupiga samas ruumis",
+    "intro": "Ekraani täidab üks suur pilt ja selle all on üks lühike rida. Vajutage \"Järgmine pilt\" või \"Eelmine pilt\", kui olete valmis järgmise jaoks. Midagi ei liigu, ei tuhmu ega muutu iseenesest ning aega ei mõõdeta. Puudutage \"Suurem pilt\", et näha ainult pilti, nii et kogu ruum saaks seda telerist vaadata.",
+    "howTo": [
+      "Vaadake pilti koos.",
+      "Loe rida pildi all valjult, kui soovid.",
+      "Vajuta \"Järgmine pilt\" või \"Eelmine pilt\", kui oled valmis.",
+      "Puuduta \"Suurem pilt\", et näha ainult pilti, ja \"Näita kõike\", et tuua ülejäänu tagasi.",
+      "Peatu, millal tahad, nupuga \"Lõpeta praegu\"."
+    ],
+    "tips": [
+      "Lase inimesel ise valida, millal edasi minna: oota, kuni ta vaatab, ja vajuta siis Järgmine.",
+      "Grupi jaoks kasuta telerit või suurt ekraani valikuga \"Suurem pilt\" ja istu nii, et kõik näeksid.",
+      "Pildi vaatamiseks pole ainult ühte õiget viisi. Juba see, kui sellest rääkida, on täielik tegevus."
+    ],
+    "faq": [
+      {
+        "q": "Kas on taimer või punktid?",
+        "a": "Ei. Kella, punkte, käikude loendurit ega kaotamist pole. Võid igal hetkel peatuda, ja pooleli lõpetamine on täiesti hea viis mängu lõpetada."
+      },
+      {
+        "q": "Kas see mängib heli või liigub?",
+        "a": "Ei. Heli pole ja midagi ei liigu, ei tuhmu ega muutu iseenesest. Pilt muutub ainult siis, kui vajutate nuppu."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Ei. Tämä on kuva, jota katsotaan yhdessä näytöltä. Pöydällä oleva lempivalokuva tai postikortti tekee saman asian."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Värinpesu",
+    "seoTitle": "Color Wash: pehmeää väriä yli sivun",
+    "h1": "Color Wash: maalaa pehmeää väriä yli sivun",
+    "description": "Pehmeä sivellin maalaa leveitä, läpikuultavia värilaskuja yli yhden sivun neljällä värillä ja kahdella siveltimen koolla. Lopetuskohtaa, pisteitä tai ajastinta ei ole. Pelaaminen on ilmaista, eikä tiliä tarvita.",
+    "short": "Maalaa pehmeitä värilaskuja yli sivun omassa tahdissasi.",
+    "players": "Yksin tai 2 henkilöä rinnakkain",
+    "intro": "Yksi sivu ja yksi pehmeä sivellin. Valitse väri ja siveltimen koko, ja vedä sitten yli sivun, jotta sivulle syntyy värilasku. Sivulla ei ole lopetuskohtaa: ei ole mitään saatavaa valmiiksi, ei oikeaa kuvaa eikä pisteitä. Tee niin monta värilaskua kuin haluat, tai laske sivellin pois ja katsele vain. Uusi sivu tyhjentää kaiken, ja Palauta takaisin tuo laskut esiin.",
+    "howTo": [
+      "Valitse väri. Jokaisella värillä on kirjoitettu nimi.",
+      "Valitse Leveä tai Erittäin leveä. Erittäin leveä peittää kerralla enemmän sivusta.",
+      "Vedä sormella, hiirellä tai kynällä yli sivun ja tee värilasku.",
+      "Tai käytä nuolinäppäimiä siirtääksesi siveltimen rengasta ja välilyöntiä laskeaksesi siveltimen alas tai nostaaksesi sen ylös.",
+      "Napauta \"Uusi sivu\" tyhjentääksesi sivun, ja sitten \"Palauta takaisin\", jos haluat laskut takaisin."
+    ],
+    "tips": [
+      "Anna toisen henkilön valita seuraavan värilaskun väri, ja puhukaa väreistä niiden levitessä.",
+      "Erittäin leveää on helpompi ohjata vapisevalla kädellä, koska siveltimen ei tarvitse osua tarkasti.",
+      "Maalaamiselle ei ole oikeaa tapaa. Lopeta milloin haluat, tai napauta \"Lopeta toistaiseksi\"."
+    ],
+    "faq": [
+      {
+        "q": "Onko siinä lopetusta, pisteitä tai ajastinta?",
+        "a": "Ei. Sivulla ei ole lopetuskohtaa. Mitään ei saada valmiiksi, lasketa, ajoiteta tai pisteytetä, eikä mikään viesti koskaan pyydä tekemään enempää."
+      },
+      {
+        "q": "Tallennetaanko sivu tai lähetetäänkö se?",
+        "a": "Ei. Mitään ei tallenneta, tulosteta tai lähetetä minnekään. Värilaskut pysyvät tällä sivulla, kunnes poistut siltä."
+      },
+      {
+        "q": "Voinko käyttää tätä ilman hiirtä tai kosketusnäyttöä?",
+        "a": "Kyllä. Kun sivu on aktiivinen, nuolinäppäimet siirtävät siveltimen rengasta ja välilyöntinäppäin laskee siveltimen alas tai nostaa sen ylös. Näytössä lukee joka kerta \"Sivellin alas\" tai \"Sivellin ylös\"."
+      },
+      {
+        "q": "Onko siitä paperiversiota?",
+        "a": "Ei. Vesivärimaalaus paperille on samaa ideaa: märkä sivellin ja yksi väri kerrallaan, joten se on pöydän ääressä kokeiltava eri toiminta."
+      },
+      {
+        "q": "Mitä värejä niitä on?",
+        "a": "Keltainen, oranssi, vihreä ja violetti, samat neljä väriä kuin muissa kuvapeleissämme. Jokaisella on kirjoitettu nimi, ja nimi näkyy valinnan vieressä."
+      },
+      {
+        "q": "Onko se ilmainen, ja pitääkö rekisteröityä?",
+        "a": "Kyllä, se on ilmainen, eikä tarvita tiliä, rekisteröitymistä tai latausta. Se toimii verkkoselaimessa puhelimella, tabletilla tai tietokoneella."
       }
     ]
   }

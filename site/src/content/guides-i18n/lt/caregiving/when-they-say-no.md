@@ -1,29 +1,33 @@
 ---
-title: "Kai žmogus su demencija atsisako veiklos ar supyksta"
+title: "Kai žmogus, gyvenantis su demencija, atsisako veiklos ar nusivilia ja"
 seoTitle: "Kai žmogus su demencija atsisako veiklos"
-description: "Kodėl žmogus su demencija gali atsisakyti veiklos ar supykti, ką pabandyti vietoj to, ko vengti, ir kada staigus pokytis reikalauja gydytojo."
+description: "Kodėl žmogus, gyvenantis su demencija, gali atsisakyti veiklos ar supykti, ką pabandyti vietoj jos, ko vengti ir kada staigiam pokyčiui reikia gydytojo."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Kai žmogus su demencija sako „ne“, priimkite tai ramiai ir bandykite vėliau arba pasiūlykite ką nors kita. Atsisakymas dažnai turi priežastį: užduotis atrodo per sunki ar vaikiška, žmogus pavargęs, skauda, alkanas arba jį slegia triukšmas. Neginčykitės ir nereikalaukite. Supaprastinkite, pasiūlykite du pasirinkimus arba paprašykite pagalbos. Staigus ar greitai kintantis elgesys, ypač po infekcijos ar naujo vaisto, reikalauja skubaus gydytojo dėmesio.
+  Kai žmogus su demencija sako ne, priimkite tai ramiai ir bandykite vėliau arba pasiūlykite
+  ką nors kita. Atsisakymas dažnai turi priežastį: užduotis atrodo per sunki ar vaikiška, žmogus
+  pavargęs, jam skauda, jis alkanas arba jį slegia triukšmas. Neginčykitės ir nereikalaukite.
+  Supaprastinkite, pasiūlykite du pasirinkimus arba paprašykite jo pagalbos. Staigus ar greitai
+  kintantis elgesys, ypač po infekcijos ar naujo vaisto, reikalauja gydytojo dėmesio nedelsiant.
 keyPoints:
   - "„Ne“ yra atsakymas, kurį reikia gerbti, o ne problema, kurią reikia įveikti."
   - "Atsisakymas paprastai turi priežastį: per sunku, per vaikiška, pavargęs, nesveikas, nepatogu ar per daug dirgiklių."
-  - "Atsitraukite, palaukite ir bandykite vėliau, kitu laiku ar supaprastinta versija."
-  - "Paprašymas padėti veikia geriau nei prašymas ką nors atlikti pagal reikalavimus."
-  - "Niekada nesiginčykite, nereikalaukite, neklauskite ir netaisykite. Patikrinkite, ar neskubate ir nespaudžiate."
+  - "Atsitraukite, palaukite ir bandykite vėliau, kitu metu ar paprastesne versija."
+  - "Prašymas padėti veikia geriau nei prašymas parodyti, ką moka."
+  - "Niekada neginčykitės, nereikalaukite, neklauskite ir netaisykite. Patikrinkite, ar nesiskubinate ir nesispaudžiate prie žmogaus."
   - "Staigus ar greitai kintantis elgesys, ypač su infekcija ar naujais vaistais, turi būti nedelsiant pristatytas gydytojui."
 faq:
   - q: "Ar gerai leisti praleisti veiklas visiškai?"
-    a: "Taip, bet kuriai konkrečiai dienai. Gali pakakti sėdėti kartu, klausytis muzikos ar stebėti, kas vyksta aplinkui. Jei žmogus kelias savaites nustoja mėgautis viskuo, pasakykite apie tai jo gydytojui, nes gali būti susiję nuotaikos sumažėjimas, skausmas ar kiti sveikatos sutrikimai."
+    a: "Taip, bet kurią konkrečią dieną. Kartu sėdėti, klausytis muzikos ar stebėti, kas vyksta aplinkui, gali pakakti. Jei žmogus kelias savaites nustoja mėgautis visu, pasakykite apie tai gydytojui, nes liūdesys, skausmas ar kitos sveikatos problemos gali būti dalis bendro vaizdo."
   - q: "Kodėl jie atsisako dalykų, kuriuos anksčiau mėgo?"
-    a: "Sena pomėgis gali tapti varginantis, kai dabar reikia įgūdžių, kuriuos demencija padarė sunkesnius, o žmogus gali jaustis sutrikęs. Pabandykite paprastesnę to paties užsiėmimo dalį, pavyzdžiui rūšiuoti sagas vietoje siuvimo, ar žiūrėti sodo nuotraukas vietoje sodinimo."
+    a: "Sena veikla gali tapti varginanti, kai dabar reikalauja įgūdžių, kuriuos demencija padarė sunkesniais, o žmogus gali jaustis sutrikęs. Pabandykite paprastesnę tos pačios veiklos dalį, pavyzdžiui, mygtukų rūšiavimą vietoj siuvimo ar sodo paveikslėlių žiūrėjimą vietoj sodinimo."
   - q: "Ar turėčiau bandyti jį įtikinti?"
-    a: "Ne. Spaudimas daryti tai, ką demencija padarė sunku, yra žinomas sujaudinimo sukėlėjas. Priimkite „ne“, pakeiskite temą ir pasiūlykite vėliau ar kitu būdu."
-  - q: "Kada elgesio pokytis yra skubi situacija?"
-    a: "Jei kas nors yra pavojuje ar turi medicininės skubios pagalbos požymių, skambinkite vietinei skubiosios pagalbos tarnybai. Dėl staigaus painiavimosi ar elgesio, kuris greitai keičiasi per valandas ar dienas, ypač su karščiavimu, infekcija ar nauju vaistu, nedelsiant kreipkitės į jo gydytoją."
+    a: "Ne. Spaudimas daryti tai, ką demencija padarė sunku, yra žinomas nerimo ir sujaudinimo sukėlėjas. Priimkite ne, pakeiskite temą ir pasiūlykite vėliau ar kitu būdu."
+  - q: "Kada elgesio pokytis yra avarinė situacija?"
+    a: "Skambinkite 112, jei kas nors yra pavojuje arba turi medicininio skubumo požymių. Dėl staigaus sumišimo ar elgesio, kuris greitai keičiasi per valandas ar dienas, ypač su karščiavimu, infekcija ar nauju vaistu, nedelsdami kreipkitės į jo gydytoją."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -45,87 +49,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Viską paruošiate, pasiūlote žaidimą ar pasivaikščiojimą ir girdite: „Ne.“ Arba veikla prasideda gerai, o baigiasi atstumta planšete ir aštriu žodžiu. Tai slegia ir yra labai dažna. Atsisakymas ir nusivylimas paprastai yra žinutė, o ne užsispyrimas. Supratę, ką ta žinutė reiškia, dažnai sužinosite, ką bandyti toliau.
+Viską paruošiate, siūlote žaidimą ar pasivaikščiojimą ir išgirstate „Ne.“ Arba veikla prasideda gerai, o baigiasi nustumta planšete ir aštriu žodžiu. Tai nuvilia, ir tai labai įprasta. Atsisakymas ir nusivylimas paprastai yra žinutė, o ne užsispyrimas. Išsiaiškinus, ką ta žinutė reiškia, dažnai paaiškėja, ką pabandyti toliau.
 
-## Kodėl žmogus su demencija atsisako veiklų?
+## Kodėl žmogus, gyvenantis su demencija, atsisako veiklų?
 
-Paprastai yra priežastis, net jei žmogus negali jos įvardyti. [Alzheimerio asociacija](https://www.alz.org/help-support/caregiving/daily-care/activities) pažymi, kad pasipriešinimas gali reikšti, jog žmogus negali atlikti užduoties arba bijo bandyti. Dažniausios priežastys:
+Paprastai yra priežastis, net jei žmogus negali jos įvardyti. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) pažymi, kad priešinimasis gali reikšti, jog žmogus negali atlikti užduoties arba bijo jos imtis. Dažniausios priežastys:
 
-- **Atrodo per sunku.** Veikla dabar reikalauja įgūdžių, kuriuos demencija padarė sudėtingus, o nesėkmė kito akivaizdoje yra gėdinga.
-- **Atrodo vaikiška.** Suaugusieji pastebi karikatūrinius paveikslėlius, dainuojamą balsą ir veiklas, atrodančias sukurtas vaikams.
-- **Nuovargis.** Daugeliui žmonių vėlesnę paros dalį energijos mažiau. Žr. [ramias veiklas vėlyvą popietę](/caregiving/late-day-restlessness/).
-- **Fizinis diskomfortas.** [Nacionalinis senėjimo institutas (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) tarp galimų nerimo priežasčių nurodo skausmą, miego trūkumą, sunkumus matyti ar girdėti, vidurių užkietėjimą, alkį, troškulį ir naujų vaistų šalutinius poveikius.
-- **Per daug vyksta.** Garsus televizorius, keli pokalbiai ar perpildytas kambarys gali būti per daug.
-- **Jaučiamas spaudimas.** NIA kaip neramumo priežastį nurodo spaudimą daryti tai, ką Alzheimerio liga padarė labai sunku, ar prisiminti įvykius ar žmones.
-- **Mažesnė nuotaika.** Praradus susidomėjimą dalykais, gali būti depresijos požymis, apie kurį verta pasakyti gydytojui.
-- **Tiesiog nenori.** Suaugusieji turi teisę pasakyti „ne“.
+- **Atrodo per sunku.** Veikla dabar reikalauja įgūdžių, kuriuos demencija padarė sunkiais, o nesėkmė kito akivaizdoje gėdina.
+- **Atrodo vaikiška.** Suaugusieji pastebi karikatūrinius paveikslėlius, pritaikytus balsus ir veiklas, kurios atrodo sukurtos vaikams.
+- **Nuovargis.** Daugelis žmonių dienos pabaigoje turi mažiau energijos. Žr. [ramias popietės veiklas](/creative-calm/calm-afternoon-activities/).
+- **Fizinis nepatogumas.** [Nacionalinis senėjimo institutas (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) nurodo skausmą, miego stoką, prastą regėjimą ar klausą, vidurių užkietėjimą, alkį, troškulį ir naujų vaistų šalutinius poveikius kaip galimas nerimo priežastis.
+- **Per daug vykstančių dalykų.** Garsus televizorius, kelios pokalbių gijos ar perpildytas kambarys gali būti per daug.
+- **Jaučiasi spaudžiamas.** NIA kaip sujaudinimo priežastį nurodo spaudimą daryti tai, ką Alzheimerio liga padarė labai sunku, arba prisiminti įvykius ar žmones.
+- **Žemas nuotaikos lygis.** Netekus susidomėjimo dalykais, tai gali būti depresijos požymis, apie kurį verta pasakyti gydytojui.
+- **Tiesiog nenori.** Suaugusieji turi teisę pasakyti ne.
 
-## Ką bandyti, kai sako „ne“?
+## Ką pabandyti, kai jie sako ne?
 
-Ramiai priimkite „ne“, tada ką nors pakeiskite: laiką, veiklą, sudėtingumą ar tai, kaip klausiate.
+Priimkite „ne“ ramiai, tada ką nors pakeiskite: laiką, veiklą, sudėtingumą ar tai, kaip klausiate.
 
-1. **Paleiskite šiam kartui.** „Gerai. Gal vėliau.“ Tada pereikite prie kito dalyko be atodūsio.
-2. **Bandykite vėliau.** Alzheimerio asociacija pataria bandyti vėliau arba kitu paros metu.
-3. **Padarykite mažiau.** Viena pora vietoj viso žaidimo. Vienas rankšluostis vietoj skalbinių krepšio. Mažiau paveikslėlių, mažiau pasirinkimų, paveikslėliai matomi.
-4. **Pasiūlykite du pasirinkimus.** „Norite pažiūrėti paukščių nuotraukas ar paklausyti muzikos?“ Pasirinkimas grąžina jausmą, kad žmogus kontroliuoja situaciją.
-5. **Prašykite pagalbos, o ne rezultato.** „Ar galite man padėti surūšiuoti šiuos daiktus?“ ar „Ar galite pasakyti, kuri spalva geriausia?“ Būti reikalingam visiškai kitaip nei būti išbandomam.
-6. **Pradėkite patys.** Pradėkite veiklą šalia jų neklausdami. Daugelis žmonių prisijungia, kai kas nors jau vyksta, o jei ne, vis tiek praleidote laiką kartu.
-7. **Pereikite prie judrios ar raminančios veiklos.** Trumpas pasivaikščiojimas, muzika, užkandis, skalbinių lankstymas ar bendra [ramaus kvėpavimo](/games/calm-breathing/) pauzė. NIA pataria nukreipti dėmesį į muziką, knygą ar pasivaikščiojimą.
-8. **Leiskite daryti savaip.** Jei nori žaisti kitaip, nei nurodo taisyklės, sutikite. Alzheimerio asociacija pataria būti lankstiems.
+1. **Leiskite tam kol kas nutilti.** „Gerai. Galbūt vėliau.“ Tada be atodūsio pereikite prie ko nors kito.
+2. **Bandykite vėliau.** Alzheimer's Association pataria bandyti vėliau arba kitu dienos metu.
+3. **Padarykite mažiau.** Viena dalis vietoj viso žaidimo. Vienas rankšluostis vietoj skalbinių krepšio. Mažiau paveikslėlių, mažiau pasirinkimų, paveikslėliai lieka matomi.
+4. **Pasiūlykite du variantus.** „Norite pažiūrėti paukščių paveikslėlius ar paklausyti muzikos?“ Pasirinkimas grąžina jausmą, kad valdote situaciją.
+5. **Prašykite pagalbos, o ne pasirodymo.** „Ar galėtumėte man padėti tai surūšiuoti?“ arba „Ar galite pasakyti, kuri spalva atrodo geriausiai?“ Būti reikalingam visiškai kitaip nei būti išbandomam.
+6. **Pradėkite patys.** Pradėkite veiklą šalia jų, nieko neklausdami. Daugelis žmonių prisijungia, kai kas nors jau vyksta, o jei ne, vis tiek praleidote laiką kartu.
+7. **Pereikite prie ko nors fizinio ar raminančio.** Trumpas pasivaikščiojimas, muzika, užkandis, skalbinių lankstymas ar bendra [ramaus kvėpavimo](/games/calm-breathing/) pauzė. NIA pataria nukreipti dėmesį į muziką, knygą ar pasivaikščiojimą.
+8. **Leiskite daryti savaip.** Jei žmogus nori žaisti kitaip, nei nurodo taisyklės, sutikite. Alzheimer's Association pataria būti lankstiems.
 
-## Ką sakyti, kai žmogus supyksta?
+## Ką sakyti, kai jie nusivilia?
 
-Lėtinkite tempą, kalbėkite tyliau ir raminkite. [Alzheimerio asociacijos rekomendacijos dėl neramumo](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) pataria atsitraukti ir paprašyti leidimo, vartoti ramius, teigiamus teiginius ir pasiūlyti pasirinkimą iš dviejų galimybių. Frazės tokia dvasia:
+Sulėtinkite, sušvelninkite balsą ir nuraminkite. [Alzheimer's Association gairės apie nerimą](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) pataria atsitraukti ir paprašyti leidimo, kalbėti ramiais, teigiamais sakiniais ir siūlyti pasirinkimą iš dviejų variantų. Frazės ta pačia dvasia:
 
-- „Atsiprašau, šis dalykas erzina. Sustokime.“
+- „Atsiprašau, šis erzina. Sustokime.“
 - „Jums sekasi gerai. Aš čia pat.“
-- „Ar turite laiko man padėti su kitu dalyku?“
-- „Gal vietoj to išgersime arbatos?“
+- „Ar turite laiko padėti man su kuo nors kitu?“
+- „Gal geriau išgerkime arbatos?“
 
-Tada baikite veiklą neparodydami, kad tai didelis reikalas. Mūsų [bendravimo patarimai](/caregiving/communication-tips/) turi daugiau apie tai, ką sakyti.
+Tada baikite veiklą nedarydami iš to didelio reikalo. Puslapis [pirmi žingsniai po demencijos diagnozės](/caregiving/after-dementia-diagnosis/) yra atspirties taškas paramai.
 
 ## Ko vengti?
 
-Kai kurios natūralios reakcijos dažnai viską pablogina.
+Kai kurios natūralios reakcijos dažnai viską tik blogina.
 
-- **Ginčijimasis ar reikalavimas.** „Na, dar vieną“ ar „Tu tai mėgsti“ retai padeda.
-- **Klausinėjimas ar taisymas.** „Tu žinai, kas tai“ ar „Ne, tas neteisingas“ sukuria spaudimą.
-- **Priimti asmeniškai.** NIA primena globėjams, kad šiuos pokyčius sukelia liga, o ne žmogus.
-- **Spaudimas ar skubinimas.** Alzheimerio asociacija pataria nekelti balso, nerodyti nerimo, neįstumti į kampą, nespausti, nesulaikyti, nekritikuoti, neignoruoti ir nesiginčyti, taip pat vengti staigių judesių ne jų akiračio.
-- **Kaltės įvarymas.** „Aš viską tam paruošiau tau“ paverčia abu blogiau besijaučiančiais.
-- **Etiketės.** „Užsispyręs“ ar „sunkus“ slepia tikrąją priežastį ir apsunkina problemos sprendimą.
+- **Ginčas ar reikalavimas.** „Na, dar vieną“ ar „Jums tai patinka“ retai padeda.
+- **Klausinėjimas ar taisymas.** „Juk žinote, kas tai“ ar „Ne, tas neteisingas“ sukuria spaudimą.
+- **Asmeninis priėmimas.** NIA primena prižiūrintiems, kad šiuos pokyčius sukelia liga, o ne pats žmogus.
+- **Spaudimas ar skubėjimas.** Alzheimer's Association pataria nekelti balso, nerodyti išgąsčio, neįspausti į kampą ar neapsupti, nevaržyti, nekritikuoti, nediskutuoti ir jo neignoruoti, o vengti staigių judesių jo akiratyje.
+- **Kaltės skatinimas.** „Viską paruošiau tik dėl jūsų“ abu jaučiatės blogiau.
+- **Etikečių priskyrimas.** „Užsispyręs“ ar „sunkus“ slepia tikrą priežastį ir apsunkina sprendimą.
 
-## Kaip sužinoti, kas slypi už pasikartojančių atsisakymų?
+## Kaip išsiaiškinti, kas slypi už pasikartojančių atsisakymų?
 
-Savaitę ar dvi vedami trumpą užrašų žurnalą. NIA teigia, kad elgesio pokyčių stebėjimas gali padėti globėjams ir sveikatos priežiūros specialistams pastebėti modelį ir išsiaiškinti priežastį.
+Kelias savaites vedžiokite paprastą užrašų knygelę. NIA sako, kad elgesio pokyčių stebėjimas gali padėti prižiūrintiems ir sveikatos priežiūros specialistams atpažinti modelį ir išsiaiškinti priežastį.
 
 Užsirašykite:
 
 - paros laiką;
 - ką pasiūlėte ir kaip paklausėte;
-- kas vyko aplink jus (triukšmas, lankytojai, televizorius);
+- kas vyko aplinkui (triukšmas, svečiai, televizorius);
 - kaip žmogus miegojo, valgė ir gėrė bei kada paskutinį kartą naudojosi tualetu;
-- visus naujus vaistus ar neseniai sirgimą.
+- naujus vaistus ar neseniai sirgtas ligas.
 
-Modeliai dažnai pasirodo greitai: atsisakymai, kurie pasitaiko tik po 4 val. popiet., tik su tam tikru žaidimu ar tik tada, kai įjungtas televizorius. [Globėjų aljanso vadovas apie demencijos elgesį](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) paprastai sako: negalime pakeisti žmogaus, bet galime pakeisti savo elgesį ir aplinką.
+Modeliai dažnai pasirodo greitai: atsisakymai, kurie kyla tik po 4 val. popiet, tik su tam tikru žaidimu ar tik tada, kai įjungtas televizorius. Family Caregiver Alliance [vadove apie demencijos elgesį](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) sakoma paprastai: negalime pakeisti žmogaus, bet galime pakeisti savo elgesį ir aplinką.
 
-## Kada kalbėtis su gydytoju dėl atsisakymo ar nusivylimo?
+## Kada kreiptis į gydytoją dėl atsisakymo ar nusivylimo?
 
-Kalbėkitės su gydytoju, kai elgesys staiga arba greitai pasikeičia ar kartu atsiranda ligos požymių. NIA teigia, kad staigius ar greitai kintančius elgesio pokyčius, ypač jei žmogus neseniai sirgo infekcija ar buvo pakeisti vaistai, reikia nedelsiant pristatyti gydytojui.
+Kreipkitės į gydytoją, kai elgesys staiga arba greitai keičiasi, arba kartu pasireiškia ligos požymių. NIA sako, kad staigius ar greitai svyruojančius elgesio pokyčius, ypač jei žmogus neseniai sirgo infekcija ar pasikeitė vaistai, reikia nedelsiant pristatyti gydytojui.
 
-Nedelsdami kreipkitės į jo gydytoją, jei pastebite:
+Nedelsdami susisiekite su gydytoju, jei pastebite:
 
-- staigų painiavimąsi ar didelį pokytį per valandas ar dienas;
-- skausmo požymius, pavyzdžiui susiraukimą, saugojimą kūno dalies ar naujus judėjimo sunkumus;
+- staigų sumišimą ar didelį pokytį per valandas ar dienas;
+- skausmo požymius, pavyzdžiui, grimasas, saugomą kūno dalį ar naujus judėjimo sunkumus;
 - karščiavimą ar kitus infekcijos požymius;
-- naujus ar pakeistus vaistus, po kurių keičiasi elgesys;
-- beveik visko netekimą, ašaringumą ar atsitraukimą trunkantį ilgiau nei kelias savaites;
+- naujus ar pakeistus vaistus, po kurių pasikeitė elgesys;
+- beveik visko netekimą, susidomėjimo praradimą, ašarojimą ar atsitraukimą, trunkantį ilgiau nei kelias savaites;
 - atsisakymą valgyti ar gerti.
 
-Alzheimerio asociacija rekomenduoja išsamų medicininį patikrinimą kiekvienam, kas turi elgesio simptomų, ypač kai jie atsiranda staiga. Globėjų aljansas taip pat pataria pirmiausia pasitarti su gydytoju, nes elgesio problemos gali turėti medicininę priežastį. Nepradėkite, nenutraukite ir nekeiskite jokių vaistų be pasitarimo su gydytoju ar vaistininku.
+Alzheimer's Association rekomenduoja išsamų medicininį patikrinimą kiekvienam, turinčiam elgesio simptomų, ypač kai jie atsiranda staiga. Family Caregiver Alliance taip pat pataria pirmiausia pasitarti su gydytoju, nes elgesio problemos gali turėti medicininę priežastį. Nepradėkite, nenutraukite ir nekeiskite jokio vaisto nepasitarę su gydytoju ar vaistininku.
 
-Jei kas nors yra pavojuje ar yra medicininės skubios pagalbos požymių, skambinkite vietinei skubiosios pagalbos tarnybai. NIA pataria pasakyti dispečeriui, kad žmogus serga demencija. Jei pyktis jau virsta fizine jėga, žr. mūsų [vadovą apie pyktį ir agresiją demencijos atveju](/caregiving/when-anger-becomes-aggression-with-dementia/), kur aprašyti tuojautiniai saugumo veiksmai.
+Jei kas nors yra pavojuje arba yra medicininio skubumo požymių, skambinkite 112. NIA pataria dispečeriui pasakyti, kad žmogus turi demenciją. Jei pyktis virsta fiziniu, pasitraukite ir paprašykite gydytojo ar priežiūros komandos patarimo.
 
-## Ar gerai, jei nedarome nieko?
+## Ar gerai, jei visai nieko nedarome?
 
-Taip. Kai kuriomis dienomis geriausia veikla – jokios veiklos: sėdėti kartu, laikyti vienas kito ranką, klausytis mėgstamo įrašo ar stebėti paukščius pro langą. Tai nėra nesėkmė. Mūsų [vadovas apie žaidimą kartu](/caregiving/how-to-play-together/) paaiškina, kodėl sustoti anksti ar nepradėti visai gali būti teisingas sprendimas.
+Taip. Kai kuriomis dienomis geriausia veikla yra jokia veikla: kartu sėdėti, laikytis už rankų, klausytis mėgstamos plokštelės ar stebėti paukščius pro langą. Tai nėra nesėkmė. Mūsų vadovas [kaip žaisti kartu](/caregiving/how-to-play-together/) paaiškina, kodėl anksti sustoti ar visai nepradėti gali būti teisingas sprendimas.

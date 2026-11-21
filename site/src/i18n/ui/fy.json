@@ -7,16 +7,22 @@
     "homeLabel": "Gouden Moments thús",
     "mainNav": "Foarnaamste",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Gouden mominten: grutte, freonlike foto's fan in teekop, in sinneblom en in hûn",
+    "defaultImageAlt": "Creative Activities: grutte, freonlike tekeningen fan alledeiske dingen om te meitsjen en te dwaan",
     "languages": "Taal",
     "englishOnly": "(Ingelsk)",
     "machineTranslated": "Dizze side is automatysk oerset en is noch net kontrolearre troch in memmetaalsprekker.",
     "readOriginal": "Lês it orizjineel yn it Ingelsk",
     "nav": {
+      "find": "Find an activity",
       "games": "Games",
       "activities": "Aktiviteiten",
       "caregiving": "Caregiving",
-      "brainHealth": "Brain sûnens"
+      "brainHealth": "Brain sûnens",
+      "crafts": "Knutselwurk",
+      "kids": "Bern",
+      "together": "Gearhinne",
+      "creativeCalm": "Kreative rêst",
+      "search": "Sykje"
     },
     "faqTitle": "Fragen en antwurden",
     "breadcrumb": "Broodkruimel",
@@ -27,7 +33,32 @@
       "label": "Tekstgrutte",
       "smaller": "Standert tekst",
       "larger": "Gruttere tekst",
-      "contrast": "Hegere kontrast"
+      "contrast": "Hegere kontrast",
+      "colors": "Kleuren",
+      "light": "Ljocht",
+      "dark": "Donker",
+      "device": "Itselde as dit apparaat",
+      "lineLength": "Rigelbreedte",
+      "standardLines": "Standert",
+      "shorterLines": "Koartere rigels",
+      "spacing": "Ofstân",
+      "standardSpacing": "Standert",
+      "moreSpace": "Mear romte"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 aktiviteiten ideeën",
     "lateStage": "Aktiviteiten yn lette faze",
     "printable": "Printbere aktiviteiten",
-    "allActivities": "Alle aktiviteiten",
+    "allActivities": "Alle aktiviteitsgidsen",
     "forCaregivers": "Foar fersoargers",
     "playTogether": "Hoe te spyljen tegearre",
     "selfCare": "Soarch foar dysels",
@@ -54,24 +85,34 @@
     "app": "De Creative Activities app",
     "appHelp": "App-help",
     "support": "Stypje",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Legaal",
     "sitePrivacy": "Webside privacy",
     "appPrivacy": "App privacy belied",
     "privacyChoices": "Privacy karren",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Betingsten en app lisinsje",
     "safety": "Feiligens en bedoeld gebrûk",
     "accessibility": "Tagonklikheid",
     "healthNotice": "Health ynformaasje notice",
     "allLegal": "Alle juridyske ynformaasje",
     "note": "Creative Activities biedt ienfâldige dielde aktiviteiten foar genietsje. It is gjin medysk advys, in test of in behanneling, en it docht gjin diagnoaze, mjitte of skoare gjinien. Foar sûnensfragen, praat mei in dokter. Yn in need, skilje 911.",
-    "publisher": "Publisearre troch Cloudjet Solutions Pte. Ltd."
+    "publisher": "Publisearre troch Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Knutselwurk foar alle leeftiden",
+    "kids": "Aktiviteiten foar bern",
+    "together": "Aktiviteiten om gearre te dwaan",
+    "creativeCalm": "Kreative rêst",
+    "dementiaActivities": "Aktiviteiten foar minsken mei demininsje"
   },
   "home": {
-    "title": "Dementia & Alzheimer's Spultsjes en aktiviteiten | Gouden mominten",
-    "description": "Fergese, sêfte ôfbyldingsspultsjes om online te spyljen en aktiviteitsideeën foar minsken dy't libje mei demintens of Alzheimer en har fersoargers.",
+    "title": "Kreative aktiviteiten foar elkenien dy’t foar in oar soarget",
+    "description": "Fergese kreative aktiviteiten foar elkenien dy’t foar in oar soarget: knutselwurk, dingen foar bern, aktiviteiten om gearre te dwaan en rêstige kreative idees.",
     "eyebrow": "Fergees · Gjin advertinsjes · Gjin oanmelding · Gjin timers of skoares",
-    "h1": "Gentle spultsjes en aktiviteiten foar minsken mei demintens",
-    "lede": "Ienfâldige byldspultsjes, bekende foto's en aktiviteiten om tegearre te genietsjen - yn jo eigen tempo.",
+    "h1": "Meitsje gearre wat",
+    "lede": "Fyn in aktiviteit dy’t past by de persoan, it momint en wat jo byhâlde. Maklike knutselwurk, keunst foar bern, dingen om gearre te dwaan en rêstige kreative idees, mei makliker ferzjes en in kaart om ôf te drukken. Stopje wannear’t jo wolle.",
     "playGame": "Spielje in spultsje",
     "findIdeas": "Sykje aktiviteitenideeën",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 aktiviteiten ideeën",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Iere stadium",
         "text": "Bliuw dwaan wat se leuk fine, mei lytse oanpassingen: hobbys, útstapkes, wurdspultsjes en tegearre plannen.",
         "label": "Ideeën yn it iere stadium"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Middelpoadium",
         "text": "Ienfâldige, fertroude taken opdield yn stappen: fold, sortearje, muzyk, byldspultsjes en koarte kuiers.",
         "label": "Midden-poadium ideeën"
@@ -124,10 +165,10 @@
         "label": "Letter-poadium ideeën"
       }
     ],
-    "specificHtml": "Op syk nei wat spesifyk? Besykje <a href=\"/activities/alzheimers/\">aktiviteiten en spultsjes foar Alzheimer</a>, <a href=\"/activities/memory-games/\">sêfte ûnthâld games</a>, <a href=\"/activities/trivia/\">maklike trivia</a> of <a href=\"/activities/puzzles/\">puzels</a>.",
+    "specificHtml": "Sykje jo wat spesifyks? Probearje <a href=\"/dementia-activities/\">aktiviteiten en spultsjes foar Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">puzzels en tafelspultsjes</a>, <a href=\"/together/conversation-games-for-all-ages/\">petearspultsjes</a> of <a href=\"/together/puzzles-and-table-games/\">puzzels</a>.",
     "approachEyebrow": "Us oanpak",
-    "approachTitle": "In dielde aktiviteit, gjin ûnthâld test",
-    "approachLede": "In protte \"brain games\" binne boud om snelheid, skoares en strepen. Foar ien dy't libbe mei demintens kin dat fiele as in eksamen. Wy bouden it tsjinoerstelde.",
+    "approachTitle": "In gedeelde aktiviteit, gjin toets",
+    "approachLede": "In protte “brainspultsjes” draaie om snelheid, punten en rigen. Foar ien dy’t wurch is, sûn is of mei demininsje libbet, kin dat oanfiele as in eksamen. Wy hawwe it tsjinoerstelde makke.",
     "approachLink": "Wêrom wy ûntwerpe it op dizze manier",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Algemiene redenen foar wegerjen, en sêfte manieren om letter nochris te besykjen."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "It opsetten fan in tablet",
-        "text": "Gruttere tekst, minder ûnderbrekkings en ien ienfâldich thússkerm."
+        "href": "/activities/group-art-activities/",
+        "title": "Groepskeunstaktiviteiten",
+        "text": "Gedeelde projekten foar in tafel mei ferskate minsken, mei in taak foar elkenien."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Fergees printbere aktiviteiten",
-        "text": "Grutte printe wurdsykjen, kleurplaten, bingo en konversaasjekaarten."
+        "href": "/activities/ideas/",
+        "title": "101 aktiviteitsideeën",
+        "text": "Ienfâldige ideeën, sortearre op wat jo hawwe en hoefolle enerzjy der is."
       }
     ],
     "researchTitle": "Brain sûnens: wat it ûndersyk echt seit",
@@ -185,16 +226,16 @@
     "aboutApp": "Oer de app",
     "faq": [
       {
-        "q": "Wat binne goede spultsjes foar minsken mei demintens?",
-        "a": "Goede spultsjes binne ienfâldich, fertroud en frij fan druk: grutte ôfbyldings om te passen, sortearjen, maklike puzels, ôfmeitsje bekende siswizen, kleurjen, ôfbyldingsbingo en petearkaarten. De bêste kar is dejinge dy't de persoan hjoed genietet. Foarkom timers, skoares en alles dat fielt as in test."
+        "q": "Wat binne goede spultsjes foar âldere folwoeksenen?",
+        "a": "Goede spultsjes binne ienfâldich, fertroud en sûnder druk: grutte plaatsjes om oerien te bringen, sortearjen, maklike puzzels, bekende spreuken ôfmeitsje, kleurje, plaatsjesbingo en petearkaarten. Se passe by in protte âldere folwoeksenen, ek by minsken mei demininsje. De bêste kar is dy wêrfan de persoan hjoed genietet. Mei timers, punten en alles dat as in toets oanfitst, moatte jo foarsichtich wêze."
       },
       {
-        "q": "Binne dizze demintensspultsjes fergees?",
+        "q": "Binne dizze spultsjes fergees?",
         "a": "Ja. Alle spultsjes en printbere op Creative Activities is fergees, sûnder account, oanmelding of download. De spultsjes rinne yn 'e webblêder op in tillefoan, tablet of kompjûter."
       },
       {
         "q": "Meitsje harsensspultsjes demintens foar?",
-        "a": "Gjin spultsje is oantoand om demintens te foarkommen, en Gouden Moments beweart net dat se neat behannelje of foarkomme. Us spultsjes binne foar wille en tiid tegearre. Us seksje foar harsens sûnens ferklearret wat ûndersyk docht en net toant."
+        "a": "Gjin spultsje is oantoand demininsje te foarkommen, en Kreative Aktiviteiten beweart net dat wy wat behannelje of foarkomme. Ús spultsjes binne foar wille en tiid tegearre, en gjin aktiviteitspagina makket in sûnenssaak."
       },
       {
         "q": "Binne dizze spultsjes geskikt foar immen mei Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Wa makket Gouden Moments?",
-        "a": "Creative Activities is in lyts team dat kalme, folwoeksen foto-aktiviteiten makket foar gesinnen en fersoargers, op it web en as in fergese app. Wy binne gjin clinicjouwers, en neat hjir is medysk advys."
+        "a": "Kreative Aktiviteiten is in lyts team dat rêstige, folwoeksen kreative aktiviteiten makket foar elkenien dy’t foar in oar soarget, op it web en as fergese app. Wy binne gjin klinisy, en neat hjir is medyske advys."
+      }
+    ],
+    "groupsEyebrow": "Fyn jo wei",
+    "groupsTitle": "Fjouwer soarten kreative aktiviteit",
+    "groupsLede": "Begjin mei de groep dy’t past by wa’t jo by hawwe en wat jo byhâlde. Elke side hat makklike ferzjes en feiligensoanwizings.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Knutselwurk",
+        "text": "Papier, ferve, recycled en seizoensprojekten, mei foar elk in makliker ferzje.",
+        "label": "Knutselwurk besjen"
+      },
+      {
+        "href": "/kids/",
+        "title": "Bern",
+        "text": "Keunst en spul foar bern, mei in folwoeksene by de hân en dúdlike feiligensoanwizings.",
+        "label": "Aktiviteiten foar bern besjen"
+      },
+      {
+        "href": "/together/",
+        "title": "Gearhinne",
+        "text": "Petearen, puzzels, tiid bûten en manieren om oer generaasjes hinne tichtby elkoar te bliuwen.",
+        "label": "Dingen om gearre te dwaan besjen"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Kreative rêst",
+        "text": "Stadige, rustige kreative mominten mei in potlead, in blêd of in searje. Gjin terapy.",
+        "label": "Kreative rêst besjen"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Printable",
     "play": "Toanielstik {name} →",
     "readGuide": "Lês de gids"
+  },
+  "listen": {
+    "listenSteps": "Harkje nei de stappen",
+    "pause": "Pauzearje",
+    "resume": "Trochgean",
+    "stop": "Stopje",
+    "speed": "Snelheid",
+    "normal": "Normaal",
+    "slower": "Stadiger",
+    "reading": "De stappen wurde hardop foarlêzen.",
+    "paused": "Pauzearre. Druk op Trochgean om fierder te gean.",
+    "note": "Brûkt de eigen stim fan jo apparaat. Guon apparaten stjoere de tekst nei de makker om him foar te lêzen.",
+    "listen": "Harkje",
+    "stepLabel": "Harkje nei stap {n}",
+    "stopStep": "Stopje stap {n}"
   },
   "playCta": {
     "title": "Klear foar in sêft spultsje?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Aktiviteiten",
-      "title": "Aktiviteiten foar minsken mei demintens",
-      "seo": "Aktiviteiten foar minsken mei demintens: ideeën troch poadium",
-      "description": "Aktiviteitsideeën foar minsken dy't libje mei demintens op elke poadium: muzyk, oantinkens, deistige taken, sintúchlike mominten, ambachten, bûten en.",
-      "lede": "Betekenende aktiviteit is alles dat treast, doel of in momint fan ferbining bringt. Begjin mei wat de persoan altyd genoaten hat, en oanpasse it oan hjoed."
+      "label": "Aktiviteitsgidsen",
+      "title": "Aktiviteitsgidsen",
+      "seo": "Aktiviteitsgidsen: ideeën, knutselmaterialen en manieren om te begjinnen",
+      "description": "Dúdlike gidsen foar kreative aktiviteiten dy’t jo mei ien kinne dwaan: ienfâldige ideeën, knutselmaterialen foar in beskate proefsom, groepskeunst, brieven, oantinkens en keunsttherapy útlein.",
+      "lede": "Koarte, praktyske gidsen foar it kiezen en begjinnen fan in aktiviteit mei ien, wat har leeftyd of mooglikheden ek binne."
+    },
+    "crafts": {
+      "label": "Knutselwurk",
+      "title": "Knutselwurk foar alle leeftiden",
+      "seo": "Maklike knutselwurk foar alle leeftiden, mei makliker ferzjes",
+      "description": "Maklike knutselwurk foar folwoeksenen, bern en gesinnen: papier, kleurjen, recycled en seizoenswurk, mei makliker te gripen en sittende ferzjes en sûnder bysûndere feardigens.",
+      "lede": "Knutselwurk dat begjint mei wat de measte huzen al hawwe, elk mei in makliker ferzje, sadat elkenien wat meitsje kin."
+    },
+    "kids": {
+      "label": "Bern",
+      "title": "Kreative aktiviteiten foar bern",
+      "seo": "Kreative aktiviteiten foar bern: keunst, sensoarysk en rêst",
+      "description": "Kreative aktiviteiten foar bern: keunst foar peuters, proseskeunst, sensoarysk spultsje, knutselwurk foar reinige dagen en rêstideeën, mei feiligensoanwizings en ferzjes foar sensoaryske behoeften.",
+      "lede": "Keunst- en spultsjesideeën foar bern fan ferskate leeftiden en behoeften, mei dúdlike feiligensoanwizings en in folwoeksene by de hân."
+    },
+    "together": {
+      "label": "Gearhinne",
+      "title": "Aktiviteiten om gearre te dwaan",
+      "seo": "Aktiviteiten om gearre te dwaan, oer generaasjes hinne",
+      "description": "Aktiviteiten foar twa of mear generaasjes: petearspultsjes, puzzels, tiid bûten, knutselwurk foar pakes, beppes en lytsbern, en manieren om fan fierrom tichtby te bliuwen.",
+      "lede": "Ideeën om tiid te dielen mei in âlder, pake of beppe, bern of freon, thús, bûten, op besite of fan fierrom."
+    },
+    "creative-calm": {
+      "label": "Kreative rêst",
+      "title": "Kreative rêst",
+      "seo": "Kreative rêst: ûntspannende keunst en aktiviteiten om los te kommen",
+      "description": "Ûntspannende kreative aktiviteiten foar folwoeksenen en behearders: bewuste keunst, dagboek hâlde, muzyk, sensoaryske mominten en rêstige middeitiden. Kreative aktiviteit, gjin terapy.",
+      "lede": "Sêfte manieren om stadiger te wurden mei in potlead, in blêd of in searje. Dit binne kreative aktiviteiten, gjin terapy, en se fereaskje gjin feardigens."
     },
     "caregiving": {
-      "label": "Caregiving",
-      "title": "Caregiving Guides",
-      "seo": "Dementia Caregiving Guides: Praktyske deistige help",
-      "description": "Praktyske, freonlike gidsen foar fersoargers foar demintens: tegearre spultsjes spylje, kommunikaasje, wegeringen, ûnrêst yn 'e lette dei, tablets, apps.",
-      "lede": "Gewoane, praktyske help foar de deistige mominten fan it fersoargjen fan ien dy't mei demintens libbet, ynklusyf it fersoargjen fan josels."
+      "label": "Demintsjezoarch",
+      "title": "Foar in persoan mei demintsje soargje",
+      "seo": "Foar in persoan mei demintsje soargje: aktiviteiten en help",
+      "description": "Gidsen foar mienskippen dy't in persoan mei demintsje soargje: hoe’t jo tegearre boartsje, wat te dwaan as dy persoan nee seit, en wêr’t jo nei in diagnoaze betroubere help fine.",
+      "lede": "Help mei aktiviteiten foar mienskippen dy’t in persoan mei demintsje soargje, en wêr’t jo terjochtkinne foar medysk en soarchadvies."
     },
     "brain-health": {
       "label": "Brain sûnens",
@@ -283,7 +396,16 @@
     "tryTogether": "Besykje tegearre",
     "relatedGuides": "Related gidsen",
     "related": "Related",
-    "startHere": "Begjin hjir"
+    "startHere": "Begjin hjir",
+    "staleAria": "Oersetting is ferâldere",
+    "staleTitle": "Dizze oersetting is ferâldere",
+    "staleText": "Dizze is makke fan in eardere ferzje fan de Ingelske side, dy’t sûnt dy tiid feroare is. De Ingelske side is de aktuele.",
+    "staleHealth": "Dit jout sûnensynformaasje, dus kontrolearje de Ingelske side en freegje in dokter of ferpleechkundige foardat jo der op hannelje.",
+    "staleLink": "Lês de aktuele Ingelske side"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Health ynformaasje notice",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "In dielde aktiviteit, gjin ûnthâldtest",
+      "title": "In dielde aktiviteit, gjin test",
       "seoTitle": "Oer gouden mominten: ús oanpak",
-      "description": "Wêrom Creative Activities spultsjes hawwe gjin timers, skoares of strepen, wêrom foto's bliuwe sjen litte, en wat wy sille en sille net beweare oer demintens.",
+      "description": "Wêrom Creative Activities gjin timers, skoares of rigen hat, wêrom foto’s sichtber bliuwe, en wat wy oer sûnens wol en net beweare.",
       "crumb": "Us oanpak",
-      "lede": "Gouden Moments makket kalme, folwoeksen byldaktiviteiten dêr't in fersoarger en ien dy't mei demintens libbet njonken inoar genietsje kinne.",
-      "bodyHtml": "<h2>Wat wy leauwe</h2><p>It punt fan in aktiviteit is it momint sels: in petear, in glimke, de foldwaning fan twa foto's byinoar te setten, of gewoan tichtby sitte. It is net om ien te mjitten, fierder te triuwen of wat te bewizen.</p><p>In protte brain-training-apps binne ûntworpen om snelheid, skoares, strepen en nivo's. Foar in persoan dy't libbet mei demintens dy't kin fiele as in eksamen kin se net trochjaan. Wy hawwe it tsjinoerstelde ûntworpen, en wy hâlde ús oan dizze regels:</p><ul><li><strong>Neat te mislearjen.</strong> Gjin klok, skoare, ferpleatsteller, libbens, strepen, konfetti of countdowns, op elk skerm.</li><li><strong>Erkenning oer recall.</strong> Ofbyldings bliuwe standert te sjen. Prompts noegje petear út en quizzje nea nammen of oantinkens.</li><li><strong>Grut, sljocht en fêst.</strong> Grutte tekst en ôfbyldings, hege kontrast, en kontrôles dy't op itselde plak bliuwe.</li><li><strong>Folwoeksen weardichheid.</strong> Echte foto's en gewoane, waarme wurden. Gjin tekenfilms, lof foar sjongen of emoji-beleanningen.</li><li><strong>In maklike útwei.</strong> \"Klear foar no\" is altyd sichtber. Healwei stopje is in goede útkomst.</li><li><strong>Standert privee.</strong> Gjin akkounts of advertinsjes. Foto's dy't jo kieze bliuwe op jo apparaat.</li></ul><h2>Wat wy net beweare</h2><p>Us spultsjes binne foar wille en ferbining. Se diagnostisearje, testen, mjitten, behannelje, fertrage of foarkomme gjin demintens as de sykte fan Alzheimer, en gjinien soe se om dy reden moatte kieze. As wy skriuwe oer ûndersyk op ús <a href=\"/brain-health/\">siden foar harsens sûnens</a>, Wy sizze dúdlik wêr't it bewiis is swak, en wy ferbine it noait oan ús eigen spultsjes.</p><h2>Wa't wy binne</h2><p>Gouden Moments is in lyts ûnôfhinklik team. Wy binne gjin kliïnten. Us gidsen binne skreaun út publisearre begelieding troch organisaasjes lykas it Nasjonaal Ynstitút foar Aging en de Alzheimer's Association, en elke gids listet har boarnen. Lêze <a href=\"/editorial-policy/\">hoe't wy skriuwe en kontrolearje ús siden</a>.</p><h2>Fertel ús wat soe helpe</h2><p>Wy hearre graach wat foar jo wurket en wat net, benammen fan minsken mei demintens, húshâldings en aktiviteitemeiwurkers. Email <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsors en partners",
+        "none": "Creative Activities hat gjin sponsors, gjin betelde pleatsingen en gjin partners waans logo’s op de side ferskine.",
+        "listed": "Dit binne de sponsors en partners fan Creative Activities. Elke relaasje wurdt ek iepenbier makke op de side wêr’t it ferskynt.",
+        "policy": "As dat feroaret, sil elke sa’n side dat op de plak sels sizze, sil gjin aktiviteit ea in sponsor drage, en sil de partnerlist op dizze side stean.",
+        "listHeading": "Partnerlist",
+        "noPartners": "Op dit stuit binne d’r gjin partners."
+      },
+      "lede": "Creative Activities makket rêstige, foar folwoeksenen geskikte aktiviteiten dy’t twa minsken njonke elkoar fine kinne, itsij as ien de oare soarget, itsij as se gewoan tiid tegearre trochbringe wolle.",
+      "bodyHtml": "<h2>Foar wa’t it is</h2><p>Foar elkenien dy’t ien soarget: in âlder, in pake of beppe, in bern, in partner, in freon, of in persoan mei demintsje. Famyljes, âldere folwoeksenen en aktiviteitsmedewurkers kinne allegear deselde siden brûke.</p><h2>Wat wy leauwe</h2><p>It doel fan in aktiviteit is it momint sels: in petear, in glimk, it noflike gefoel fan twa foto’s byinoar sette, of gewoan tichtby elkoar sitten. It is net om ien te mjitten, fierder te triuwen of wat te bewizen.</p><p>In protte brein-trainingsapps binne ûntwurpen om snelheid, skoares, rigen en nivo’s. Foar in persoan dy’t wurch is, net goed is of demintsje hat, kin dat oanfiele as in eksamen dat net te heljen is. Wy hawwe it tsjinoerstelde ûntwurpen, en wy hâlde ússels oan dizze regels:</p><ul><li><strong>Neat om te mislearjen.</strong> Gjin klok, skoare, setteller, libben, rigen, confetti of ôftelling, op gjin inkel skerm.</li><li><strong>Werkenning boppe weromroppen.</strong> Foto’s bliuwe standert sichtber. Prompts nûgje út ta petear en toetsje nea nammen of oantinkens.</li><li><strong>Grut, ienfâldich en rêstich.</strong> Grutte tekst en foto’s, hege kontrast, en besibbelingen dy’t op deselde plak bliuwe.</li><li><strong>Folwoeksen weardichheid.</strong> Echte foto’s en ienfâldige, waarme wurden. Gjin tekenfilmfigueren, singsong lof of emoji-beleannings.</li><li><strong>In maklike útgong.</strong> “No even dien” is altyd sichtber. Healwei stopje is in goed resultaat.</li><li><strong>Standert priveE.</strong> Gjin accounts of advertinsjes. Foto’s dy’t jo kieze, bliuwe op jo apparaat.</li></ul><h2>Wat wy net beweare</h2><p>Ús spultsjes en aktiviteiten binne foar plezier en ferbining. Se diagnostisearje, testen, mjitte, behannelje, stadichje of foarkomme gjin demintsje of Alzheimer’s sykte, en nimmen moat se om dy reden kieze. As wy oer sûnensûndersyk skriuwe, seine wy dúdlik wêr’t it bewiis swak is, en wy keppelje it nea oan ús eigen aktiviteiten.</p><h2>Wa’t wy binne</h2><p>Creative Activities is in lyts ûnôfhinklik team. Wy binne gjin klinisy. Us gidsen binne skreaun op basis fan publisearre rjochtlinen fan organisaasjes lykas it National Institute on Aging en de Alzheimer’s Association, en elke gids neamt syn boarnen. Lês <a href=\"/editorial-policy/\">hoe’t wy ús siden skriuwe en neisjen</a>.</p><h2>Lit ús witte wat helpt</h2><p>Wy hearre graach wat foar jo wurket en wat net, benammen fan minsken mei demintsje, mantelsoarchers en aktiviteitsmedewurkers. Stjoer in e-mail nei <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Hoe wy ús siden skriuwe en kontrolearje",
       "seoTitle": "Redaksjebelied",
-      "description": "Hoe Creative Activities ûndersiket, skriuwt, boarnen en fernijt har siden foar demintensaktiviteit en harsens sûnens, en wat wy noait sille publisearje.",
+      "description": "Hoe Creative Activities ûndersiket, skriuwt, boarnen fynt en syn aktiviteits- en sûnenssiden bywurket, en wat wy nea publisearje sille.",
       "crumb": "Redaksje belied",
-      "bodyHtml": "<h2>Us boarnen</h2><p>Wy basearje ús hantliedingen op iepenbiere begelieding fan organisaasjes lykas it Nasjonaal Ynstitút foar Aging, de CDC, de Alzheimer's Association, de Alzheimer's Foundation of America, de Family Caregiver Alliance en de NHS, en op peer-reviewed ûndersyk lykas Cochrane-resinsjes en grutte klinyske proeven. Elke gids listet de boarnen wêrop it fertrout. Wy iepenje elke boarne foardat wy it oanhelje, en wy melde allinich wat it eins seit.</p><h2>Hoe wy skriuwe</h2><ul><li>Earst praktysk: wat te dwaan hjoed, yn gewoane taal.</li><li>Earlik oer bewiis: wy sizze \"keppele oan\", \"mei\" en \"it bewiis is mingd\" as dat de wierheid is.</li><li>Respectfol: wy skriuwe oer minsken dy't as folwoeksenen mei demintens libje, en wy brûke noait in kwis of skamtetaal.</li><li>Gjin útfûn ynhâld: gjin opmakke statistiken, sitaten, saakkundigen, stúdzjes, resinsjes of tsjûgenissen.</li></ul><h2>Wa beoardielet ús siden</h2><p>Siden wurde skreaun en kontrolearre troch it Creative Activities-team, mei help fan AI-skriuwynstruminten foar ûndersyk en opstellen. Elke side wurdt kontrolearre tsjin syn boarnen troch it team. Us siden hawwe <strong>net</strong> is hifke troch in dokter of oare clinician, en wy beweare net oars. Se binne algemiene ynformaasje, gjin medysk advys.</p><h2>Wat sille wy nea publisearje</h2><ul><li>Beweart dat in spultsje, iten, oanfolling, fluch of routine demintia foarkomt, behannelet, fertraget of genêst.</li><li>Tests, quizzes of skoares dy't suggerearje dat ien hat, of hat gjin demintens.</li><li>Advys om medisinen te begjinnen, te stopjen of te feroarjen.</li><li>Reklame of sponsore ynhâld ferklaaid as begelieding.</li></ul><h2>Updates en korreksjes</h2><p>Elke side toant de datum dat it foar it lêst bywurke is. As jo ​​​​in flater fine as in ferâldere boarne, e-post dan asjebleaft <a href=\"mailto:{email}\">{email}</a> en wy sille it fuortendaliks kontrolearje.</p>"
+      "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Fragen en antwurden",
-      "seoTitle": "Dementia Spultsjes en aktiviteiten: Fragen en antwurden",
-      "description": "Antwurden op mienskiplike fragen oer spultsjes en aktiviteiten foar demintens: hokker spultsjes te besykjen, hoe lang om te spyljen, ideeën yn lettere.",
+      "seoTitle": "Fragen en antwurden oer Creative Activities",
+      "description": "Antwurden op gewoane fragen oer de spultsjes en aktiviteiten: hokker jo probearje moatte, hoe lang jo spylje moatte, groepen en ideeën foar lettere fazen, sûnens en privacy.",
       "crumb": "Fragen en antwurden",
       "lede": "Koarte, dúdlike antwurden op de fragen dy't fersoargers it meast stelle.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Oer de spultsjes",
           "items": [
             {
-              "q": "Wat binne de bêste spultsjes foar immen mei demintens?",
+              "q": "Hokker spultsjes binne it bêst foar âldere folwoeksenen?",
               "a": "De bêste spultsjes binne bekend, ienfâldich en frij fan druk, en de rjochter is wat de persoan hjoed genietsje. Picture matching mei sichtbere plaatsjes, sortearjen, easy jigsaws, finishing fertroude siswizen, kleurjen en foto bingo alles wurket goed foar in protte minsken. Foarkom timers, skoares en alles dat fielt as in test."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Brain sûnens",
+          "title": "Demintsje en sûnens",
           "items": [
             {
               "q": "Kinne spultsjes demintens foarkomme of fertrage?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Mear detail: <a href=\"/caregiving/how-to-play-together/\">hoe te spyljen tegearre</a>, <a href=\"/caregiving/when-they-say-no/\">as se nee sizze</a>, <a href=\"/activities/late-stage/\">aktiviteiten yn lettere faze</a> en <a href=\"/brain-health/can-dementia-be-prevented/\">kin demintens foarkommen wurde?</a>"
+      "moreHtml": "Mear detail: <a href=\"/caregiving/how-to-play-together/\">hoe’t jo tegearre boartsje</a>, <a href=\"/caregiving/when-they-say-no/\">wat te dwaan as se nee sizze</a>, <a href=\"/activities/late-stage/\">aktiviteiten foar lettere fazen</a> en <a href=\"/dementia-activities/\">demintsje-aktiviteiten thús</a>."
     },
     "handout": {
       "title": "Fergese, sêfte spultsjes foar minsken dy't libje mei demintens",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Foar fersoargingshuzen, biblioteken en stipegroepen",
-      "seoTitle": "Fergees demintensaktiviteiten foar fersoargingshuzen en groepen",
-      "description": "Hoe fersoargingshuzen, deiprogramma's foar folwoeksenen, biblioteken, ferâldere ynstânsjes en stipegroepen ús fergese demintensspultsjes brûke, plus tekst.",
+      "seoTitle": "Gratis aktiviteiten foar fersoargingshuzen, bibletheken en groepen",
+      "description": "Hoe fersoargingshuzen, dagprogramma’s foar folwoeksenen, bibletheken, ferouderingsorganisaasjes en stypgroepen ús gratis spultsjes en aktiviteitsgidsen brûke, plus tekst om ús ta in boarnelist ta te foegjen.",
       "crumb": "Foar organisaasjes",
       "lede": "Alles op dizze side is fergees te brûken mei ynwenners, leden en kliïnten, sûnder akkount, lisinsje of fergoeding. Dizze side ferklearret wat hjir is en hoe't jo it kinne diele.",
-      "shortText": "{name}: fergese, sêfte byldspultsjes en aktiviteitsgidsen foar minsken dy't mei demintens libje en har fersoargers. Gjin oanmelding, gjin timers, gjin skoares.",
-      "longText": "{name} ({domain}) oanbiedingen {count} frije blêder games makke foar minsken dy't libje mei demintens, ynklusyf oerienkommende pearen mei foto links showing, in maklike puzzel, sortearjen, fertroude siswizen en foto bingo mei printable kaarten. D'r is gjin akkount, reklame, timer of skoare. De side hat ek gewoane aktiviteitsgidsen foar elke poadium fan demintens dy't it Nasjonaal Ynstitút foar Aging en de Alzheimer's Association neame.",
+      "shortText": "{name}: gratis, rêstige foto-spultsjes en aktiviteitsgidsen foar âldere folwoeksenen, mienskippen en minsken mei demintsje. Gjin registraasje, gjin timers, gjin skoares.",
+      "longText": "{name} ({domain}) biedt {count} fergese browsergames foar âldere minsken, húsgesinnen en minsken dy't libje mei deminsje, ynklusyf oerienkomstige pearen mei plaatsjes dy't sichtber bliuwe, in maklike puzzel, sortearjen, bekende sizzen en plaatebingo mei printbere kaarten. Der is gjin account, gjin reklame, gjin timer en gjin skoare. De side hat ek aktiviteitsgidsen yn ienfâldige taal foar húsgesinnen, âldere minsken en meiwurkers, mei boarnen lykas it National Institute on Aging en de Alzheimer's Association.",
       "useTitle": "Wat organisaasjes kinne brûke",
       "gamesItemHtml": "<strong>{count} blêder games</strong> dy't rinne op in laptop, tablet of in TV ferbûn oan in kompjûter. Gjin ynstallaasje, akkount of download. Sjen <a href=\"/games/\">alle spultsjes</a>.",
       "printablesLabel": "{count} printables:",
       "printablesAfter": "Brûk de knop Print op elke side.",
-      "moreItemsHtml": "<li><strong>Groep formaten:</strong> <a href=\"/games/picture-bingo/\">Ofbylding bingo</a> hat printable kaarten en in on-screen caller, en <a href=\"/activities/trivia/\">maklike trivia</a> hat 50 fragen mei antwurd karren en praten punten.</li><li><strong>Aktiviteitsgidsen</strong> foar personiel en húshâldings, per poadium en per type, yn dúdlike taal skreaun mei boarnen. Begjin mei <a href=\"/activities/ideas/\">101 aktiviteiten ideeën</a> of <a href=\"/activities/care-home-groups/\">groepsaktiviteiten foar fersoargingshuzen</a>.</li>",
+      "moreItemsHtml": "<li><strong>Groepsformaten:</strong> <a href=\"/games/picture-bingo/\">Plaatebingo</a> hat printbere kaarten en in oproeper op it skerm, en <a href=\"/together/conversation-games-for-all-ages/\">petearspultsjes</a> hat fragen mei antwurdkeuzes en praatpunten.</li><li><strong>Aktiviteitsgidsen</strong> foar meiwurkers en húsgesinnen, yn ienfâldige taal mei boarnen. Begjin mei <a href=\"/activities/ideas/\">101 aktiviteitsideeën</a> of <a href=\"/crafts/craft-group-sessions/\">groepsaktiviteiten foar fersoarchhuzen</a>.</li>",
       "restHtml": "<h2>Hoe groepen it brûke</h2><ul><li><strong>Fersoargingshuzen en ûnthâldsoarch:</strong> picture bingo of finish-the-saying op 'e mienskiplike keamer TV, mei ien persoan oanboarjen foar de groep.</li><li><strong>Dagprogramma's foar folwoeksenen:</strong> in tabletstasjon mei Picture pearen ynsteld op fjouwer tegels, foar koarte ien-op-ien sesjes.</li><li><strong>Iepenbiere bibleteken:</strong> printe wurd sykjen en petear kaarten yn ûnthâld kits, en de side blêdwizer op biblioteek tablets.</li><li><strong>Fersoargerstipegroepen en ûnthâldkafes:</strong> in <a href=\"/handout/\">ien-side printbere handout</a> foar famyljes om thús te nimmen.</li><li><strong>Sikehuzen en ûntslachplanners:</strong> de handout yn fersoargerpakketten, foar wat rêstichs thús of oan it bêd.</li></ul><h2>Wat dogge wy net</h2><p>De spultsjes binne foar wille en tiid tegearre. Se diagnostisearje, test, skoare, behannelje of stadichoan demintens net, en wy freegje organisaasjes om se net sa te beskriuwen. D'r binne gjin advertinsjes, en de spultsjes freegje net om nammen, sûnensdetails of foto's te uploaden. De webside brûkt Google Analytics om besiken te tellen; ús <a href=\"/privacy/\">privacy notice</a> leit út wat dat sammelet. Foto's brûkt yn <a href=\"/games/photo-pairs/\">Foto pearen</a> bliuw yn 'e browser.</p><h2>Foegje ús ta oan jo boarne list</h2><p>As jo ​​in list mei middels foar fersoargers hâlde, binne jo wolkom om te keppeljen nei <a href=\"/\">{domain}</a>. Jo kinne beide beskriuwingen kopiearje.</p>",
       "shortTitle": "Koarte beskriuwing",
       "longTitle": "Langere beskriuwing",
-      "linksHtml": "<p>Nuttige siden om direkt nei te keppeljen: <a href=\"/games/\">frije games</a>, <a href=\"/activities/printable/\">frije printables</a>, <a href=\"/activities/alzheimers/\">aktiviteiten foar Alzheimer</a> en <a href=\"/caregiving/how-to-play-together/\">hoe te spyljen tegearre</a>.</p><h2>Fragen of korreksjes</h2><p>As der wat op 'e side is ferkeard of ûndúdlik, of de behoeften fan in ynwenner net foldien wurde troch wat hjir stiet, fertel it ús dan asjebleaft op <a href=\"mailto:{email}\">{email}</a>. Stjoer asjebleaft gjin persoanlike of sûnensynformaasje oer ynwenners of kliïnten.</p>"
+      "linksHtml": "<p>Nuttige siden om direkt nei te keppeljen: <a href=\"/games/\">fergese spultsjes</a>, <a href=\"/games/\">fergese printsjes</a>, <a href=\"/dementia-activities/\">aktiviteiten by deminsje thús</a> en <a href=\"/caregiving/how-to-play-together/\">hoe't jo gearspylje</a>.</p><h2>Fragen of korreksjes</h2><p>As der op de side wat ferkeard of ûndúdlik is, of as de behoeften fan in bewenner net foldien wurde troch wat hjir stiet, lit it ús dan witte op <a href=\"mailto:{email}\">{email}</a>. Stjoer asjebleaft gjin persoanlike of sûnensgegevens oer bewoners of kliïnten.</p>"
     },
     "app": {
       "title": "De Creative Activities App",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Fergees spultsjes foar demintens en Alzheimer's online",
-    "description": "Fergese online spultsjes foar senioaren dy't libje mei demintens of Alzheimer: ôfbylding oerienkomst, maklike puzels, sortearjen, siswizen, kleurjen, bingo.",
+    "title": "Fergese spultsjes om online tegearre te spyljen",
+    "description": "Fergese online spultsjes foar âldere minsken, húsgesinnen en minsken dy't libje mei deminsje: plaatjes oerienkomme, maklike puzzels, sortearjen, sizzen, kleurjen en bingo. Sûnder registraasje, timers of skoares.",
     "crumb": "Games",
-    "h1": "Gentle Games foar minsken mei demintens",
+    "h1": "Rêstige spultsjes om tegearre te spyljen",
     "lede": "{count} frije spultsjes om tegearre te spyljen yn jo blêder. Grutte foto's, gewoane wurden, en neat om te mislearjen: gjin timers, gjin skoares, gjin oanmelding.",
-    "listName": "Gentle games foar minsken mei demintens",
+    "listName": "Rêstige spultsjes om tegearre te spyljen",
     "byStageTitle": "Kieze in spultsje troch poadium",
     "byStageLede": "Stappen binne mar in rûge gids. Folgje wat de persoan genietet en wat hjoed noflik fielt.",
     "stageCol": "Stage",
     "gamesCol": "Spultsjes dy't faak passe",
-    "moreHtml": "Mear ideeën fuort fan it skerm: <a href=\"/activities/ideas/\">101 aktiviteiten foar minsken mei demintens</a>, <a href=\"/activities/alzheimers/\">aktiviteiten en spultsjes foar Alzheimer</a>, <a href=\"/activities/memory-games/\">sêfte ûnthâld games</a> en <a href=\"/activities/puzzles/\">puzels</a>.",
+    "moreHtml": "Mear ideeën bûten it skerm: <a href=\"/activities/ideas/\">101 aktiviteitsideeën</a>, <a href=\"/dementia-activities/\">aktiviteiten by deminsje thús</a> en <a href=\"/crafts/\">knutselwurk</a>.",
     "faq": [
       {
         "q": "Hokker spultsje moatte wy begjinne mei?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Binne dit ûnthâld spultsjes foar senioaren?",
-        "a": "Se binne oerienkommende en ôfbyldingsspultsjes dy't elke âldere folwoeksene kin genietsje, mar se binne boud om gjin ûnthâld te testen: yn Picture-pearen bliuwe de foto's mei it gesicht omheech, útsein as jo oars kieze. Us hantlieding foar ûnthâldspultsjes foar senioaren mei demintens ferklearret hoe't jo elk ûnthâldspultsje sêft hâlde kinne."
+        "a": "It binne oerienkomst- en plaatspultsjes dy't elke âldere persoan kin wurdearje, mar se binne sa ûntwurpen dat se it ûnthâld net testen: by Plaatspearen bliuwe de plaatsjes mei de foarkant omheech, útsein as jo oars kieze. Elk ûnthâldspultsje kin rêstiger makke wurde troch de timer en de skoares wei te litten."
       },
       {
         "q": "Binne der spultsjes foar groepen yn in fersoargingshûs?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Is d'r in app foar demintensaktiviteiten?",
+        "q": "Is der in app foar âldere minsken en húsgesinnen?",
         "a": "Ja. Gouden mominten (fermeld as \"{storeName}\") is fergees yn 'e App Store en Google Play. It biedt sêfte foto-oerienkomst mei grutte tegels, spultsjes mei famyljefoto's dy't jo kieze, en fotopakketten dy't offline wurkje."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Printable",
     "howTo": "Hoe te spyljen {name}",
     "tips": "Tips foar it boartsjen tegearre",
-    "newToPlayingHtml": "Nij om te boartsjen mei ien dy't demintens hat? Lêze <a href=\"/caregiving/how-to-play-together/\">hoe te spyljen games tegearre</a>, ynklusyf wat te dwaan as se ferlieze belangstelling.",
+    "newToPlayingHtml": "Nij yn it spyljen mei in âldere persoan of in minske dy't libbet mei deminsje? Lês <a href=\"/caregiving/how-to-play-together/\">hoe't jo spultsjes tegearre spylje</a>, ynklusyf wat jo dwaan kinne as hy of sy de belangstelling ferliest.",
     "moreAria": "Mear te ferkennen",
     "helpfulGuides": "Helpful gidsen",
     "appTitle": "Spielje it yn 'e app",
@@ -536,6 +666,35 @@
     "goodToKnow": "Goed om te witten",
     "goodToKnowText": "Dit spultsje is foar wille en tiid tegearre. It test, mjit of behannelet neat.",
     "moreGames": "Mear sêfte spultsjes",
-    "crumb": "Games"
+    "crumb": "Games",
+    "print": {
+      "heading": "Spylje op papier",
+      "sameRules": "De papierferzje hat deselde regels as it spultsje op it skerm:",
+      "button": "Printsje in papierferzje ôf",
+      "pageNote": "Ien side op A4 of US Letter, goed yn swart-wyt. Ferzje {date}.",
+      "islandNote": "It printet wat no op it skerm stiet. Ferzje {date}.",
+      "sheetTitle": "{name}: papierferzje",
+      "point": "Op papier wiisje jo nei in plaatsje ynstee fan it oan te tikken, of jo tekenje der in sirkel omhinne mei in pinne. Elke rige is in nije set.",
+      "pointTarget": "Op papier stiet it plaatsje om nei te sjen yn it fak oan it begin fan elke rige. Wiisje nei in plaatsje ynstee fan it oan te tikken, of tekenje der in sirkel omhinne mei in pinne.",
+      "halves": "Elk plaatsje is yn it midden trochknipt. Tekenje in line fan elke helte links nei de helte rjochts dy't dêrby past, of wiisje mei in finger. Der hoecht neat knipt te wurden.",
+      "grid": "Elk fjild hat in nûmer. Fyn dat nûmer yn de kaai en kleur it fjild mei in potlead fan dy kleur. Elke oare kleur mei is ek goed. Der hoecht neat knipt te wurden.",
+      "colors": "Elke rige neamt in kleur. Wiisje nei elk plaatsje dat dy kleur hat, of tekenje der in sirkel omhinne mei in pinne. Elke rige is in nije set.",
+      "dice": "Elke rige is in set dobbelstiennen. Kies in rige, of knip de plaatsjes út en lûk der wat út in stapel, en fertel dan in ferhaal mei dy plaatsjes yn elke folchoarder. Eltsenien mei oerslaan.",
+      "words": "Knip de wurden út, of tekenje in line fan elk wurd nei it plaatsje dêrby. Lês de wurden hardop foar wylst jo dwaande binne.",
+      "cards": "Knip de kaarten út langs de stippelline. Lis se mei de foarkant omheech op de tafel, en fyn dan de pearen.",
+      "chain": "Op papier lêze jo de plaatsjes fan links nei rjochts, de iene nei de oare. Elk persoan seit ien sin oer de plaatsjes oant nou ta, en wiist dan nei it folgjende plaatsje. Eltsenien mei oerslaan.",
+      "sort": "Knip de plaatsjes út langs de stippelline, en set elk plaatsje dan yn it fak dêr't it heart.",
+      "puzzle": "Knip it grutte plaatsje langs de stippelline yn fjouwer stikken en meitsje it skoddich. Wiksel twa stikken tagelyk oant it plaatsje heel is. It lytse plaatsje is in oanwizing.",
+      "cutSafety": "In helper kin it knippen dwaan foardat jo begjinne. Lis de skjirre dêrnei wer fuort.",
+      "version": "Ferzje {date} · {url}",
+      "reasons": {
+        "photos": "Der is gjin papierferzje. Dit spultsje brûkt jo eigen foto's, dy't yn jo browser bliuwe en nea oplaaid wurde, dus de side kin se net printe. Om op papier te spyljen printsje jo thús twa kopyen fan in pear favorite foto's en pearje se op de tafel.",
+        "paced": "Der is gjin papierferzje. De sirkel set op it skerm in rêstich, stadich tempo, en in printe side kin dat net, dus it wie in oare aktiviteit. In rêstige pauze tegearre sûnder skerm is altyd in opsje.",
+        "turns": "Der is gjin papierferzje fan dit spultsje. Om pearen op de tafel te finen printsje jo de plaatskaarten fan Plaatspearen en wikselje om de bar om se om te kearen.",
+        "screen": "D'r is gjin papieren ferzje. Dit is in ôfbylding om tegearre op in skerm nei te sjen; in favoriete foto of ansichtkaart op 'e tafel docht itselde.",
+        "wash": "D'r is gjin papieren ferzje. Akwarel op papier is itselde idee: in nat penseel en ien kleur tagelyk.",
+        "sayings": "D'r is noch gjin papieren ferzje. Op papier soene alle einen tagelyk sichtber wêze, en de rêstige stap “Lit it einde sjen” soe ferlern gean. Lês de spreuken tegearre fan it skerm ôf, of diel der in pear dy't jo beide kenne."
+      }
+    }
   }
 }

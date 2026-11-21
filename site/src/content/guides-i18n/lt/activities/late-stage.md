@@ -1,32 +1,28 @@
 ---
-title: "Veiklos vėlyvojoje demencijos stadijoje, įskaitant lovoje ar fotelyje"
-seoTitle: "Veiklos vėlyvojoje demencijos stadijoje: lovos ir fotelio idėjos"
-description: "Švelnios veiklos vėlyvojoje demencijos stadijoje, įskaitant žmogų lovoje ar fotelyje: muzika, lietimas, skaitymas balsu, garsai ir buvimas kartu, su saugos patarimais."
+title: "Veiklos vėlyvuoju demencijos etapu, įskaitant lovoje ar kėdėje"
+seoTitle: "Veiklos vėlyvuoju demencijos etapu: idėjos lovoje ir kėdėje"
+description: "Švelnios veiklos vėlyvuoju demencijos etapu, įskaitant žmogų lovoje ar kėdėje: muzika, lytėjimas, skaitymas balsu, garsai ir buvimas kartu, su saugos pastabomis."
 section: activities
 order: 4
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Vėlyvojoje demencijos stadijoje veiklos sutelktos į pojūčius ir jūsų kompaniją:
-  mėgstamos muzikos grojimas, rankų laikymas, lėtas rankų masažas, skaitymas
-  balsu, nuotraukų žiūrėjimas, gamtos garsai ir sėdėjimas prie lango ar lauke.
-  Tai tinka lovoje ar fotelyje. Trumpinkite užsiėmimus, stebėkite veidą ir rankas,
-  ar žmogui patogu, ir prisiminkite, kad buvimas šalia ir yra veikla.
+  Vėlyvuoju demencijos etapu veiklos sutelkiamos į pojūčius ir į jūsų buvimą: mėgstamos muzikos grojimas, rankų laikymas, lėtas rankų masažas, skaitymas balsu, nuotraukų žiūrėjimas, gamtos garsai ir sėdėjimas prie lango ar lauke. Jos tinka lovoje ar kėdėje. Laikykite trumpas sesijas, stebėkite veidą ir rankas, ar žmogui patogu, ir prisiminkite, kad buvimas šalia ir yra pati veikla.
 keyPoints:
-  - "Ryšys vis dar įmanomas. Vėlyvojoje stadijoje pasaulį žmogus daugiausia patiria per pojūčius."
-  - "Muzika, švelnus lietimas, pažįstami balsai ir minkšti daiktai laikyti dažnai pasiekia žmogų tada, kai žodžiai jau nebepasiekia."
-  - "Beveik kiekviena čia pateikta idėja tinka žmogui, esančiam lovoje ar fotelyje."
-  - "Stebėkite komfortą ir diskomfortą veide, rankose ir kvėpavime, o pastebėję nerimą – sustokite."
-  - "Vengite mažų daiktų ir siūlykite maistą ar gėrimą tik taip, kaip pataria priežiūros komanda, nes rijimas gali tapti nesaugus."
+  - "Ryšys vis dar įmanomas. Vėlyvuoju etapu pasaulis patiriamas daugiausia per pojūčius."
+  - "Muzika, švelnus lytėjimas, pažįstami balsai ir minkšti daiktai laikymui dažnai pasiekia žmones tada, kai žodžiai nebepasiekia."
+  - "Beveik visos čia pateiktos idėjos tinka žmogui, esančiam lovoje ar kėdėje."
+  - "Stebėkite veide, rankose ir kvėpavime, ar žmogui patogu ar nepatogu, ir sustokite pastebėję bet kokį nerimą."
+  - "Venkite smulkių daiktų, o maistą ar gėrimus siūlykite tik taip, kaip nurodo priežiūros komanda, nes rijimas gali tapti nesaugus."
 faq:
-  - q: "Kokias veiklas galima daryti su žmogumi, gyvenančiu lovoje, kai vėlyvoji demencija?"
-    a: "Groti mėgstamą muziką, laikyti jo ranką, lėtai masažuoti rankas su kremu, skaityti balsu jo mylimą knygą ar maldą, rodyti nuotraukas ar įjungti švelnius gamtos garsus. Atidarykite užuolaidas, kad jis galėtų matyti lauką. Trumpi, ramūs užsiėmimai, kuriuose vienas dalykas vienu metu, paprastai veikia geriausiai."
-  - q: "Ar žmonės vėlyvojoje demencijos stadijoje dar gali mėgautis muzika?"
-    a: "Daugelis gali. Alzheimerio asociacija pastebi, kad net vėlyvojoje stadijoje žmogus gali pabakšnoti ritmą ar dainuoti kartu dainą iš vaikystės. Rinkitės muziką, kurią jis mėgo jaunystėje, ir palaikykite tylų garsą."
+  - q: "Kokias veiklas galima daryti su žmogumi, gyvenančiu vėlyvuoju demencijos etapu ir esančiu lovoje?"
+    a: "Grokite mėgstamą muziką, laikykite jo ranką, atlikite lėtą rankų masažą su losjonu, skaitykite balsu iš mylimos knygos ar maldaknygės, rodykite nuotraukas ar įjunkite švelnius gamtos garsus. Atidarykite užuolaidas, kad jis galėtų matyti lauką. Trumpos, ramios sesijos, kai vienu metu vyksta tik vienas dalykas, paprastai veikia geriausiai."
+  - q: "Ar žmonės vėlyvuoju etapu dar gali mėgautis muzika?"
+    a: "Daugelis gali. Alzheimer's Association pažymi, kad net vėlyvuoju etapu žmogus gali pabarbenti ritmą ar dainuoti kartu su vaikystės daina. Rinkitės muziką, kurią jis mėgo jaunystėje, ir palikite garsą tylų."
   - q: "Iš kur žinoti, ar jam patinka veikla?"
-    a: "Stebėkite smulkius ženklus: atsipalaidavusius pečius, švelnesnį veidą, akių kontaktą, dūzgimą, rankos spaudimą ar lėtesnį kvėpavimą. Grimasos, atitraukimas, neramumas ar dejavimas gali reikšti diskomfortą ar skausmą. Pastebėję tai, sustokite, o jei tai tęsiasi – pasakykite priežiūros komandai."
+    a: "Stebėkite smulkius ženklus: atsipalaidavusius pečius, minkštesnį veidą, akių kontaktą, niūniavimą, delno spaudimą ar lėtesnį kvėpavimą. Veido grimasos, atitraukimas, neramumas ar aimanos gali reikšti nepatogumą ar skausmą. Jei tai pastebite, sustokite, o jei tai tęsiasi, pasakykite priežiūros komandai."
   - q: "Ar verta lankytis, jei jis manęs jau neatpažįsta?"
-    a: "Taip. Nacionalinis senėjimo institutas pažymi, kad vien buvimas šalia gali nuraminti, o lietimas, muzika ir istorijos vis dar gali teikti paguodą pažengusioje demencijoje. Jūsų balsas ir prisilietimas gali būti pažįstami, net kai vardas nebėra."
+    a: "Taip. National Institute on Aging (NIA) pažymi, kad vien buvimas šalia gali nuraminti ir kad prisilietimas, muzika bei istorijos vis dar gali suteikti paguodos pažengus demencijai. Jūsų balsas ir prisilietimas gali būti pažįstami net tada, kai vardas – ne."
 sources:
   - title: "Late-Stage Alzheimer's & Dementia Caregiving"
     publisher: "Alzheimer's Association"
@@ -48,55 +44,55 @@ related: [activities/sensory, activities/music, activities/middle-stage, activit
 health: false
 ---
 
-Vėlyvojoje demencijos stadijoje žmogus gali kalbėti labai mažai, reikia pagalbos visoje kasdienėje priežiūroje ir didžiąją dienos dalį praleidžia lovoje ar fotelyje. Gali atrodyti, kad kartu nebeliko ką daryti. Vis dar yra. [Alzheimerio asociacija](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) pastebi, kad tam tikra asmenybės dalis gali išlikti, o šiame etape pasaulį žmogus daugiausia patiria per pojūčius. Muzika, lietimas, pažįstamas balsas ir jūsų ramus buvimas vis dar gali suteikti paguodos ir akimirkų ryšio.
+Vėlyvuoju demencijos etapu žmogus gali kalbėti labai mažai, reikia pagalbos visoje kasdienėje priežiūroje ir daug dienos jis praleidžia lovoje ar kėdėje. Gali atrodyti, kad kartu nebelieka ką veikti. Vis dėlto yra. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) pažymi, kad tam tikras asmenybės branduolys gali išlikti, o šiame etape pasaulis patiriamas daugiausia per pojūčius. Muzika, lytėjimas, pažįstamas balsas ir jūsų ramus buvimas vis dar gali suteikti paguodos ir akimirkų ryšio.
 
-## Kokios veiklos padeda vėlyvojoje demencijos stadijoje?
+## Kokios veiklos padeda vėlyvuoju demencijos etapu?
 
-Vėlyvojoje stadijoje labiausiai padeda paprastos jutiminės veiklos ir tylus buvimas kartu. Alzheimerio asociacija pataria groti mėgstamą muziką, skaityti prasmingų knygų dalis, įtrinti kvapą turinčiu mėgstamu kremu odą ir sėdėti lauke kartu gražią dieną. [Nacionalinis senėjimo institutas](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) prideda pasakojimus, nuotraukų rodymą, švelnų lietimą ar masažą, muziką, baltąjį triukšmą ar gamtos garsus ir sako, kad vien jūsų buvimas gali nuraminti.
+Vėlyvuoju etapu labiausiai padeda paprastos pojūčių veiklos ir tylus buvimas kartu. Alzheimer's Association pataria groti mėgstamą muziką, skaityti dalis prasmingų knygų, įtrinti losjono su mėgstamu kvapu į odą ir sėdėti kartu lauke gražią dieną. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/care-last-stages-alzheimers-disease) prideda pasakojimus, nuotraukų rodymą, švelnų prisilietimą ar masažą, muziką, baltąjį triukšmą ar gamtos garsus ir sako, kad vien jūsų buvimas gali nuraminti.
 
-[Alzheimerio fondas Amerikoje](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) pažymi, kad žmonės vėlyvojoje stadijoje dažnai labai nori ką nors prisiglausti paguodai, ir siūlo paprastas jutimo veiklas, švelnius tempimus, šalikų judesius, muziką, gyvūnų vizitus, lietimą ir laisvos formos meną.
+[Alzheimer's Foundation of America](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) pažymi, kad žmonės vėlyvuoju etapu dažnai stipriai nori ką nors prisiglausti, kad jaustųsi ramiau, ir pataria paprastas pojūčių veiklas, švelnius tempimus, šalikų judesius, muziką, gyvūnų vizitus, žmogaus prisilietimus ir laisvos formos meninę kūrybą.
 
-## Veiklos žmogui lovoje ar fotelyje
+## Veiklos žmogui lovoje ar kėdėje
 
-1. **Grokite jo muziką.** Rinkitės dainas iš jaunystės, tikėjimo ar šeimos. Palaikykite tylų garsą ir sėdėkite arti. Net dabar kai kurie žmonės bakšnoja pirštu ar dūzgia. Žr. [muzikos veiklas](/activities/music/).
-2. **Laikykite rankas.** Vien rankos laikymas, su švelniu nykščio glostymu, yra veikla. Pirma pasakykite, ką darote.
-3. **Lėtai masažuokite rankas.** Šiek tiek kremo įšildykite delnuose ir glostykite nuo riešo iki pirštų galiukų. Rinkitės be kvapo kremą arba kvapą, kurį jis visada mėgo, jei jo oda tai toleruoja.
-4. **Skaitykite balsu.** Mėgstamą eilėraštį, ištrauką iš mylimos knygos, šventą tekstą ar sporto skiltį. Jūsų balso ritmas svarbesnis nei žodžiai.
+1. **Grokite jo muziką.** Rinkitės dainas iš jaunystės, tikėjimo ar šeimos. Palikite garsą tylų ir sėdėkite arti. Net dabar kai kurie žmonės pabarbena pirštu ar niūniuoja. Žr. [muzikos veiklas](/creative-calm/music-for-calm-and-connection/).
+2. **Laikykite už rankos.** Vien rankos laikymas su švelniu nykščio glostymu jau yra veikla. Pirmiausia pasakykite, ką darote.
+3. **Atlikite lėtą rankų masažą.** Pašildykite šiek tiek losjono delnuose ir glostykite nuo riešo iki pirštų galiukų. Rinkitės losjoną be kvapo arba tą kvapą, kurį jis visada mylėjo, jei jo oda tai toleruoja.
+4. **Skaitykite balsu.** Mėgstamą eilėraštį, ištrauką iš mylimos knygos, Šventąjį Raštą ar sporto puslapį. Jūsų balso ritmas svarbesnis nei žodžiai.
 5. **Papasakokite istoriją.** Kalbėkite apie šeimos kelionę ar dieną, kai jis vedė. Atsakymų nereikia.
-6. **Rodykite nuotraukas.** Laikykite vieną didelę nuotrauką vienu metu akių lygyje ir šiltai ją aprašykite. Nekiškite klausimo, kas ten yra.
-7. **Pasiūlykite ką nors minkšto laikyti.** Sulankstytą skudurėlį, flisinį kvadratą ar minkštą gyvūnėlį. NIA pataria duoti žmogui skudurėlį laikyti, kai jį perkelia, kad jis rečiau griebtųsi už jūsų ar baldų.
-8. **Įjunkite gamtos garsus.** Lietus, bangos ar paukščių giedojimas tyliai gali sušvelninti triukšmingą kambarį.
-9. **Įneškite lauką į vidų.** Atidarykite užuolaidas, pakabinkite lesyklėlę prie lango ar įneškite keletą šviežių gėlių ar lapų pažiūrėti ir paliesti.
-10. **Išeikite lauką.** Jei žmogus gali sėdėti vežimėlyje, keletas minučių pavėsyje švelnią dieną gali būti labai malonu.
-11. **Šukuokite plaukus ar pasiūlykite šiltą skudurėlį.** Lėtas, švelnus priežiūros darbas ir šiltas skudurėlis rankoms bei veidui gali atrodyti rūpestingas.
-12. **Judėkite švelniai su muzika.** Kartu mojuokite lengvu šaliku arba sūpuokite rankas pagal dainą. Tempimams ir sąnarių judesiams pirmiausia paprašykite fizioterapeuto ar slaugytojo parodyti saugius būdus.
-13. **Kurkite laisvos formos meną.** Ant didelio popieriaus kempine ar ranka tepkite netoksiškus dažus, vedami jūsų. Teisingo rezultato nėra.
+6. **Rodykite nuotraukas.** Laikykite po vieną didelę nuotrauką akių lygyje ir šiltai ją aprašykite. Venkite klausti, kas ten yra.
+7. **Duokite ką nors minkšto laikyti.** Sulankstytą skudurėlį, fleece kvadratėlį ar minkštą gyvūnėlį. NIA pataria duoti žmogui skudurėlį laikyti, kai jį perkelia, kad jis rečiau griebtųsi už jūsų ar baldų.
+8. **Įjunkite gamtos garsus.** Lietus, bangos ar paukščių giesmės tyliai gali sušvelninti triukšmingą kambarį.
+9. **Įleiskite lauką vidun.** Atidarykite užuolaidas, pakabinkite lesyklėlę prie lango arba atneškite keletą šviežių gėlių ar lapų pažiūrėti ir palytėti.
+10. **Išeikite lauke.** Jei žmogus gali sėdėti vežimėlyje, keletas minučių pavėsyje švelnią dieną gali būti labai malonu.
+11. **Šukuokite plaukus ar pasiūlykite šiltą skudurėlį.** Lėtas, švelnus prižiūrėjimas ir šiltas skudurėlis rankoms bei veidui gali atrodyti rūpestingas.
+12. **Judėkite švelniai su muzika.** Kartu pamojuokite lengvu šaliku arba supkite rankas pagal dainos ritmą. Tempimams ir sąnarių judesiams pirmiausia paprašykite fizioterapeuto ar slaugytojo parodyti saugius būdus.
+13. **Kurkite laisvos formos meną.** Tepkite netoksiškus dažus ant didelio popieriaus kempine ar delnu, kartu su jūsų ranka. Teisingo rezultato nėra.
 14. **Priimkite gyvūnų vizitus.** Ramus augintinis ant lovos ar kelių, jei žmogus mėgo gyvūnus ir aplinka tai leidžia.
-15. **Kvėpuokite lėtai kartu.** Sėdėkite arti ir kvėpuokite lėtai, garsiai. [Ramus kvėpavimas](/games/calm-breathing/) gali nustatyti tempą jums abiems, o pradžią ir pabaigą nustatote jūs.
-16. **Tiesiog būkite šalia.** Sėdėkite šalia, dūzgkite, megzkite ar tyliai skaitykite. Buvimas kartu – jau pakankamai.
+15. **Kvėpuokite lėtai kartu.** Sėdėkite arti ir kvėpuokite lėtai, garsiai. [Ramus kvėpavimas](/games/calm-breathing/) gali suderinti jūsų abiejų tempą, o pradėti ir baigti galite jūs.
+16. **Tiesiog būkite šalia.** Sėdėkite šalia, niūniuokite, megzkite ar tyliai skaitykite. Buvimas šalia jau pakankamas.
 
 ## Kaip dalytis veikla šiame etape
 
-- **Artėkite iš priekio.** Pasakykite jo vardą ir savo, kalbėkite lėtai ir tyliai, prieš paliesdami.
-- **Siūlykite po vieną dalyką.** Prieš grodami muziką išjunkite televizorių. Vienu metu – vienas pojūtis.
-- **Laikykite trumpai.** Kelių minučių gali pakakti. Keli trumpi momentai per dieną geriau nei vienas ilgas užsiėmimas.
-- **Pirmiausia pasirūpinkite patogumu.** Patikrinkite, ar žmogus gerai atremtas. NIA pataria naudoti lentelę ant lovos, kad atsiremtų rankos ir palaikytų viršutinė kūno dalis, kai žmogus sėdi.
-- **Stebėkite reakciją.** Atsipalaidavusios rankos, švelnesnis veidas, akių kontaktas ar dūzgimas rodo komfortą. NIA pastebi, kad dejavimas, grimasos, kūno dalies saugojimas ar staigus susijaudinimas gali būti skausmo ženklai. Sustokite ir pasakykite priežiūros komandai.
+- **Priartėkite iš priekio.** Pasakykite jo vardą ir savo, o prieš prisilietimą kalbėkite lėtai ir švelniai.
+- **Siūlykite po vieną dalyką.** Prieš grodami muziką, išjunkite televizorių. Vienu metu – vienas pojūtis.
+- **Laikykitės trumpai.** Kelios minutės gali būti pakankamos. Keletas trumpų akimirkų per dieną geriau nei viena ilga sesija.
+- **Pirmiausia pasirūpinkite patogumu.** Patikrinkite, ar žmogus gerai paremtas. NIA pataria sėdint naudoti lentelę ant kelių, kuri atremia rankas ir palaiko viršutinę kūno dalį.
+- **Stebėkite reakciją.** Atsipalaidavusios rankos, minkštesnis veidas, akių kontaktas ar niūniavimas rodo ramybę. NIA pažymi, kad aimanos, grimasos, kūno dalies saugojimas ar staiga kilęs neramumas gali būti skausmo ženklai. Sustokite ir pasakykite priežiūros komandai.
 
-## Trumpas gidas pagal pojūtį
+## Trumpas vadovas pagal pojūtį
 
 | Pojūtis | Idėjos | Ko saugotis |
 | --- | --- | --- |
-| Klausa | Mėgstama muzika, jūsų balsas skaitant, gamtos garsai | Palaikykite tylų garsą; vienas garsas vienu metu |
+| Klausa | Mėgstama muzika, jūsų balsas skaitant, gamtos garsai | Palaikykite žemą garsumą; vienu metu – vienas garsas |
 | Lytėjimas | Rankų masažas, rankų laikymas, minkštas audinys, šiltas skudurėlis | Pirmiausia paklauskite ar įspėkite; patikrinkite, ar oda neskauda ir nepažeista |
-| Regėjimas | Nuotraukos, gėlės, vaizdas pro langą, lėtas gamtos vaizdo įrašas | Laikykite daiktus akių lygyje; geras apšvietimas, be atspindžių |
-| Uoslė | Mėgstamas kremas, šviežios gėlės, kava, verdama netoli | Vengkite stiprių kvapų; patikrinkite alergijas ir kvėpavimą |
-| Skonis | Mažas mėgstamo skonio kąsnelis | Tik tokius maisto produktus ir tekstūras, kuriuos priežiūros komanda pripažįsta saugiais |
+| Regėjimas | Nuotraukos, gėlės, vaizdas pro langą, lėtas gamtos vaizdo įrašas | Laikykite daiktus akių lygyje; geras apšvietimas, be blizgesio |
+| Uoslė | Mėgstamas losjonas, šviežios gėlės, kava, kuri verdasi netoliese | Vengkite stiprių kvapų; patikrinkite alergijas ir kvėpavimą |
+| Skonis | Mažas mėgstamo skonio gabalėlis | Tik maistas ir tekstūros, kurias priežiūros komanda nurodo kaip saugias |
 
 ## Saugumas šiame etape
 
-Vėlyvojoje stadijoje rijimas gali tapti sunkus, o NIA perspėja, kad tai didina užspringimo riziką. Nepalikite mažų daiktų pasiekiamoje vietoje ir siūlykite maistą ar gėrimą tik tokios tekstūros ir padėtyje, kokias rekomenduoja priežiūros komanda. Lietimo veiklų metu švelniai tikrinkite odą, nes ji gali lengvai įtrūkti ar sumušti. Daugiau apie saugias jutimo idėjas žr. [jutimo veiklas](/activities/sensory/).
+Vėlyvuoju etapu rijimas gali tapti sunkus, o NIA perspėja, kad tai didina užspringimo riziką. Nepalikite smulkių daiktų pasiekiamoje vietoje ir maistą ar gėrimus siūlykite tik tokios tekstūros ir tokioje padėtyje, kokias rekomenduoja priežiūros komanda. Lytėjimo veiklų metu švelniai tikrinkite odą, nes ji lengvai gali įtrūkti ar sumušti. Daugiau apie saugias pojūčių idėjas žr. [pojūčių veiklas](/creative-calm/sensory-activities-for-adults/).
 
 ## Pasirūpinkite ir savimi
 
-Priežiūra vėlyvojoje stadijoje yra fiziškai ir emociškai sunki, nesvarbu, ar namuose, ar lankantis globos namuose. Paliatyvios ir palaikomosios slaugos komandos gali padėti su komfortu, parama ir planavimu, o NIA jas įvardija kaip pagalbos šaltinį. Trumpi, ramūs apsilankymai verti; žr. [lankymą žmogaus su demencija](/activities/visiting/). Jei vadovaujate grupėms, [globos namų grupinės veiklos](/activities/care-home-groups/) pateikia idėjų, kaip pritaikyti užsiėmimus. Ir prašome perskaityti [slaugytojo savipriežiūrą](/caregiving/caregiver-self-care/): poilsis yra gero rūpinimosi dalis.
+Vėlyvuoju etapu rūpintis žmogumi yra fiziškai ir emociškai sunku – ar namuose, ar lankantis globos namuose. Hospisų ir paliatyviosios pagalbos komandos gali padėti su patogumu, parama ir planavimu, o NIA jas įvardija kaip pagalbos šaltinį. Trumpi, ramūs apsilankymai verti; žr. [lankymą žmogaus su demencija](/together/visiting-someone-in-care/). Jei vadovaujate grupėms, [globos namų grupių veiklos](/crafts/craft-group-sessions/) pateikia idėjų, kaip pritaikyti sesijas. Perskaitykite ir [savipagalbos gidą prižiūrintiems artimuosius](/creative-calm/creative-self-care-for-caregivers/): poilsis yra dalis to, kaip gerai rūpintis.

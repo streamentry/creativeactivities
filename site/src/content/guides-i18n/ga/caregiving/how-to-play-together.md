@@ -1,36 +1,35 @@
 ---
-title: "Conas Cluichí a Imirt le Duine a bhfuil Néaltrú air"
-seoTitle: "Cluichí le Duine a bhfuil Néaltrú air: Treoir Phraiticiúil"
-description: "Treoir phraiticiúil chun cluichí a imirt le duine a bhfuil néaltrú air: ullmhú, luas, gan ceartú, cluichí a dhéanamh níos éasca, agus cathain a stopadh."
+title: "Conas Cluichí a Imirt le Duine a Bhfuil Néaltrú Air"
+description: "Treoir phraiticiúil chun cluichí a imirt le duine a mhaireann le néaltrú: socrú, luas, gan ceartú a dhéanamh riamh, cluichí a dhéanamh níos éasca agus an t-am chun stopadh a aithint."
 section: caregiving
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Féach ar an gcluiche mar am le chéile, ní mar thástáil. Roghnaigh tráth socair
-  den lá, suigh taobh le taobh i seomra ciúin, agus tairg cluiche simplí amháin.
-  Lig don duine an luas a shocrú, ná ceartaigh botúin neamhdhíobhálacha, déan an
-  cluiche níos éasca ag an gcéad chomhartha go bhfuil sé deacair, agus bain
-  úsáid as pictiúir mar thús comhrá. Stop nuair a bhraitheann sé go maith fós.
-  Is toradh maith é stopadh go luath, nó féachaint le chéile.
+  Caith le cluiche mar am comhroinnte, ní mar thriail. Roghnaigh am socair den lá,
+  suigh taobh le taobh i seomra ciúin agus tairg cluiche simplí amháin. Lig don duine
+  luas an chluiche a shocrú, ná ceartaigh botúin neamhdhíobhálacha, déan an cluiche
+  níos éasca ar an gcéad chomhartha strainc, agus athraigh pictiúir ina gcomhrá. Stop
+  fad a bhíonn sé fós go maith. Is toradh maith é stopadh go luath, nó breathnú le
+  chéile go simplí.
 keyPoints:
-  - "Is é an aidhm taitneamh agus ceangal, ní an cluiche a chríochnú ná freagraí cearta a fháil."
-  - "Ullmhaigh ar dtús: seomra ciúin, solas maith, spéaclaí agus áiseanna éisteachta ar siúl, an teilifís múchta, cluiche amháin réidh."
-  - "Ná ceartaigh botúin neamhdhíobhálacha. Abair “Bainimis triail as mar seo” nó lean ar aghaidh."
-  - "Déan cluiche níos éasca sula dtagann frustrachas: níos lú pictiúr, níos lú roghanna, pictiúir le feiceáil."
-  - "Bain úsáid as pictiúir mar thús scéalta le “Inis dom faoi...” in ionad “An cuimhin leat...?”"
-  - "Stop ag na chéad chomharthaí tuirse nó corraíl. Is rath é stopadh go luath, ní teip."
+  - "Is é an sprioc taitneamh agus nasc, ní críochnú ná freagraí cearta a fháil."
+  - "Socraigh ar dtús: seomra ciúin, solas maith, spéaclaí agus cluasáin ar, an teilifís as, cluiche amháin réidh."
+  - "Ná ceartaigh botúin neamhdhíobhálacha. Abair “Bainfimid triail as ar an tslí seo” nó lean ar aghaidh."
+  - "Déan cluiche níos éasca sula dtosaíonn an frustrachas: pictiúir níos lú, roghanna níos lú, pictiúir fós le feiceáil."
+  - "Úsáid pictiúir mar thús le scéalta, le “Inis dom faoi...” in ionad “An cuimhin leat...?”"
+  - "Stop ag na chéad chomharthaí tuirse nó míshuaimhnis. Is rath é stopadh go luath, ní teip."
 faq:
-  - q: "Cá fhad ar cheart dúinn cluiche a imirt?"
-    a: "Níl aon fhad ceart ann. I gcás go leor daoine, is leor cúpla nóiméad, agus uaireanta is leor babhta amháin. Féach ar an duine seachas ar an gclog, agus stop fad is atá sé nó sí socair."
-  - q: "Ar cheart dom ligean dóibh bua a fháil nó ligean orm nach dtugaim botúin faoi deara?"
-    a: "I gcluiche roinnte, gan bhrú, níl aon rud le buachan ná le cailleadh. Mura gcuireann botún isteach ar an duine, lig dó. Má thagann sé aníos air nó uirthi, cabhraigh go ciúin nó déan an cluiche níos éasca gan é a lua."
-  - q: "Cad a tharlaíonn mura bhfuil siad ag iarraidh ach féachaint orm ag imirt?"
-    a: "Tá sé sin ceart go leor. Molann an National Institute on Aging ligean do dhuine féachaint amháin má thaitníonn sé sin níos mó leis nó léi. Labhair faoin méid a fheiceann tú agus tabhair cuireadh dóibh pointeáil nó rogha a dhéanamh aon uair is mian leo."
-  - q: "An bealach iad na cluichí seo chun cuimhne a thástáil?"
-    a: "Ní hea. Is gníomhaíochtaí simplí roinnte iad ár gcluichí le haghaidh taitnimh agus comhrá. Ní tástáil chuimhne iad, ní thomhaiseann siad aon rud, agus ní cóireáil ar néaltrú iad."
+  - q: "Cé chomh fada is ba chóir dúinn cluiche a imirt?"
+    a: "Níl fad ceart ann. Do go leor daoine, is leor cúpla nóiméad, agus uaireanta is leor babhta amháin. Féach ar an duine seachas ar an gclog, agus stop fad a bhíonn sé fós socair."
+  - q: "Ar cheart dom ligean dó buachan, nó ligean orm nach bhfeicim botúin?"
+    a: "I gcluiche comhroinnte, gan bhrú, níl rud ar bith le buachan ná le caillteanas. Mura gcuireann botún isteach ar an duine, lig dó. Má tá an chuma air go gcuireann, cabhraigh go ciúin nó déan an cluiche níos éasca gan an botún a lua."
+  - q: "Cad a dhéanaim má dúirt sé go mbeadh sé níos fearr leis mé a fheiceáil ag imirt?"
+    a: "Tá sin ceart go leor. Molann an National Institute on Aging go ligfeá don duine breathnú go simplí, má mhothaíonn sé go mbaineann níos mó taitnimh as sin. Labhair faoin méid a fheiceann tú, agus tabhair cuireadh dó pointeáil nó roghnú cibé uair is mian leis."
+  - q: "An bealach chun cuimhne a thástáil atá sna cluichí seo?"
+    a: "Ní hea. Is gníomhaíochtaí comhroinnte simplí iad ár gcluichí le haghaidh taitnimh agus comhrá. Ní tástáil cuimhne iad, ní thomhaiseann siad aon rud, agus ní cóireáil ar néaltrú iad."
   - q: "Cén cluiche is fearr le tosú leis?"
-    a: "Tosaigh leis an gcluiche is simplí a oireann don duine. Is pointí tosaigh milde iad Picture Pairs le 4 thíl agus pictiúir le feiceáil, nó Find the Same le 2 rogha. Oibríonn Conversation Cards go maith má thaitníonn caint níos mó leis an duine ná tapáil."
+    a: "Tosaigh leis an gcluiche is simplí a oireann don duine. Is pointí tosaigh réidh iad Picture Pairs le ceithre thíl agus pictiúir fós le feiceáil, nó Find the Same le dhá rogha. Oibríonn Conversation Cards go maith má is fearr leis an duine labhairt ná brú."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -49,127 +48,127 @@ related: [caregiving/communication-tips, caregiving/when-they-say-no, caregiving
 health: false
 ---
 
-Ní bhíonn cluiche maith le duine a bhfuil néaltrú air cosúil le comórtas. Bíonn sé cosúil le beirt daoine ina suí gar dá chéile, ag pointeáil ar phictiúir, ag gáire le seanfhocal, agus ag caint faoi cibé rud a thagann aníos. Níl sa chluiche ach cúis le ham a chaitheamh le chéile.
+Ní cosúil le comórtas an cluiche maith le duine a mhaireann le néaltrú. Is cosúil le beirt a shuíonn gar dá chéile, ag pointeáil ar phictiúir, ag gáire faoi sheanfhocal, agus ag caint faoi aon rud a thagann chun cinn. Is cúis é an cluiche le am a chaitheamh le chéile, agus sin uile.
 
-Clúdaíonn an treoir seo conas ullmhú, conas luas cluiche a shocrú, cad ba cheart a rá nuair a théann rud éigin “mícheart”, conas aon chluiche a dhéanamh níos éasca nó beagán níos deacra, conas comhrá a thosú as, agus conas a fhios a bheith agat cathain a stopadh. Oibríonn sé lenár [gcluichí](/games/) agus le cártaí, puzail agus cluichí boird atá agat cheana féin.
+Clúdaíonn an treoir seo conas socrú, conas luas an chluiche a shocrú, cad is féidir a rá nuair a théann rud éigin “mícheart”, conas aon chluiche a dhéanamh níos éasca nó beagán níos deacra, conas an cluiche a athrú ina chomhrá, agus conas a aithint cathain is ceart stopadh. Oibríonn sí lenár [gcluichí](/games/) agus le cártaí, puzail agus cluichí boird atá agat cheana féin.
 
-## Cad é an bealach is fearr le cluiche a imirt le duine a bhfuil néaltrú air?
+## Cad é an bealach is fearr chun cluiche a imirt le duine a bhfuil néaltrú air?
 
-Dírigh ar thaitneamh, ní ar ghnóthachtáil. Sin é croí na comhairle ó [threoir an Alzheimer’s Association faoi ghníomhaíochtaí](https://www.alz.org/help-support/caregiving/daily-care/activities): tóg ar na scileanna atá fós ag an duine, cabhraigh leo tosú, déan na codanna deacra tú féin, agus ná cáin ná ceartaigh gníomhaíochtaí neamhdhíobhálacha.
+Dírigh ar an taitneamh, ní ar an rath. Sin í an chomhairle lárnach ó [threoir an Alzheimer's Association maidir le gníomhaíochtaí](https://www.alz.org/help-support/caregiving/daily-care/activities): tóg ar scileanna atá fós ag an duine, cabhraigh leis tosú, críochnaigh na codanna deacra tú féin, agus ná cáin ná ceartaigh gníomhaíochtaí neamhdhíobhálacha.
 
-Go praiticiúil, ciallaíonn sé sin:
+Go praiticiúil, ciallaíonn sin:
 
-- **Suigh in aice leo, ní trasna uathu.** Agus tú taobh le taobh, is féidir libh beirt an scáileán nó an bord a fheiceáil, agus mothaíonn an chabhair cosúil le hobair foirne seachas maoirseacht.
-- **Tairg cluiche amháin ag an am.** Is féidir le roghchlár roghanna a bheith cosúil le tástáil sula dtosaíonn aon rud.
-- **Lean a dtreo féin.** Más mian leo na pictiúir a thapáil ina n-ord féin, labhairt faoi phictiúr amháin ar feadh deich nóiméad, nó stopadh tar éis dhá sheal, sin é an cluiche inniu.
-- **Áirigh na dea-nóiméid, ní na babhtaí críochnaithe.** Is é an toradh atá á lorg agat ná meangadh gáire, scéal nó leathuaire socair.
+- **Suigh taobh leo, ní trasna uathu.** Taobh le taobh, is féidir libh araon an scáileán nó an bord a fheiceáil, agus is cosúil le teamaireacht an cúnamh, seachas maoirseacht.
+- **Tairg cluiche amháin ag an am.** Is féidir le roghchlár roghanna mothú cosúil le triail sula dtosaíonn rud ar bith.
+- **Lean a stiúir.** Má theastaíonn uaidh na pictiúir a bhrú ina ord féin, nó labhairt faoi phictiúr amháin ar feadh deich nóiméad, nó stopadh tar éis dhá sheal, sin é an cluiche inniu.
+- **Cuir na nithe maithe i gcuntas, ní na babhtaí críochnaithe.** Is é an toradh atá uait gáire, scéal nó leath uair chiúin.
 
-## Conas a ullmhaím sula dtosaímid?
+## Conas socrú roimh thús?
 
-Coscann cúpla nóiméad ullmhúcháin an chuid is mó den fhrustrachas a chuireann daoine ar an gcluiche féin.
+Coinníonn cúpla nóiméad socraithe an chuid is mó den mhíshuaimhneas a chuireann daoine ar an gcluiche féin.
 
-1. **Roghnaigh an tráth is fearr dóibh den lá.** Molann [treoir an National Institute on Aging (NIA) faoi ghníomhaíochtaí a oiriúnú](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) gníomhaíochtaí a phleanáil don tráth den lá a mbíonn an duine ar a fheabhas. I gcás go leor daoine, is é sin lár na maidine. Is minic a bhíonn deireadh an tráthnóna níos deacra; féach [gníomhaíochtaí socra tráthnóna déanach](/caregiving/late-day-restlessness/).
-2. **Déan an seomra ciúin.** Múch an teilifís agus an raidió agus dún an doras más féidir. Molann an [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) torann agus seachráin a theorannú sula ndéanann tú iarracht labhairt.
-3. **Seiceáil an compord ar dtús.** Deoch in aice láimhe, cuairt ar an leithreas roimh ré, cathaoir compordach, agus spéaclaí agus áiseanna éisteachta ar siúl.
-4. **Cuir solas maith sa spás.** Déanann solas geal, cothrom gan dalladh ar an scáileán pictiúir níos éasca le feiceáil.
-5. **Bíodh an cluiche réidh sula suíonn tú síos.** Oscail é, roghnaigh na socruithe agus socraigh an toirt tú féin. Ansin cas an scáileán i dtreo an duine. Le haghaidh leideanna táibléad, féach [táibléad nó guthán a shocrú](/caregiving/tablets-and-screens/).
-6. **Cuir an gléas ar sheastán.** Ciallaíonn seastán nó clúdach a choinníonn an táibléad ina sheasamh nach gá do dhuine ar bith é a choinneáil, agus bíonn sé níos éasca pointeáil.
+1. **Roghnaigh an t-am is fearr dó den lá.** Molann [treoir an National Institute on Aging (NIA) maidir le gníomhaíochtaí a oiriúnú](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) turais agus gníomhaíochtaí a phleanáil don am den lá a bhfuil an duine ag a fhearr. Do go leor daoine is é sin meán maidin. Is minic a bhíonn an tráthnóna níos deacra; féach [gníomhaíochtaí suaimhneacha tráthnóna](/creative-calm/calm-afternoon-activities/).
+2. **Déan an seomra ciúin.** Cas as an teilifís agus an raidió, agus dún an doras mura féidir leat. Molann [Family Caregiver Alliance](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) srian a chur ar an torann agus ar ábhair dhíomá sula ndéanann tú iarracht labhairt.
+3. **Seiceáil an compord ar dtús.** Deoch in aice láimhe, dul chun na leithreas roimhe sin, cathaoir chompordach, agus spéaclaí agus cluasáin ar.
+4. **Soilsigh an spás go maith.** Solas geal, cothrom gan dalladh ar an scáileán, rud a fhágann go bhfuil na pictiúir níos éasca le feiceáil.
+5. **Ullmhaigh an cluiche sula suíonn tú síos.** Oscail é, roghnaigh na socruithe, agus socraigh an fuaim tú féin. Ansin cas an scáileán ina dtreo. Cas ar théacs níos mó ar an bhfeiste más cabhair é.
+6. **Seas an fheiste suas.** Seasamh nó cás a choinníonn an táibléad ina sheasamh ciallaíonn nach gá do dhuine ar bith é a shealbhú, agus is éasca pointeáil air.
 
-## Conas cuireadh a thabhairt gan bhrú?
+## Conas cuireadh a thabhairt gan brú?
 
-Bíodh an cuireadh neamhfhoirmiúil agus éasca le diúltú dó. Seo roinnt frásaí a oibríonn go maith go minic:
+Déan an cuireadh neamhfhoirmiúil agus éasca le diúltú. Frásaí a bhíonn go maith de ghnáth:
 
-- “Fuair mé roinnt pictiúr gairdín. Ar mhaith leat breathnú orthu liom?”
-- “An bhféadfá cabhrú liom leis an bpuzal seo? Tá mé sáinnithe.”
-- “Ar mhaith leat na bláthanna nó na héin inniu?” (is fusa rogha idir dhá rud ná ceist oscailte)
-- “Tá cárta á dhéanamh agam do do dheirfiúr. Cén dath ba cheart a chur air seo?”
+- “Fuair mé roinnt pictiúr gairdín. Ar mhaith leat iad a fhéachaint liom?”
+- “An bhféadfá cabhair a thabhairt dom leis an bpuzal seo? Tá mé i gcruachás.”
+- “An mian leat na bláthanna nó na héin inniu?” (is éasca rogha de dhá cheann ná ceist oscailte)
+- “Tá cárta á dhéanamh agam do do dheirfiúr. Cén dath ba cheart don cheann seo a bheith?”
 
-Molann an Alzheimer’s Association cuspóir gníomhaíochta a mhíniú, mar shampla cárta a dhéanamh do chara, mar tugann cúis brí di. Oibríonn iarraidh ar chabhair freisin mar ligeann sé don duine mothú go bhfuil siad úsáideach.
+Molann an Alzheimer's Association cuspóir gníomhaíochta a mhíniú, mar shampla cárta a dhéanamh do chara, mar go gcuireann fáth brí leis. Oibríonn iarraidh cabhrach freisin, mar ceadaíonn sé don duine mothú úsáideach.
 
-Má deir siad nach bhfuil, glac leis. Bain triail eile as ar ball nó tairg rud éigin difriúil. Téann ár dtreoir ar [cad ba cheart a dhéanamh nuair a deir siad nach bhfuil](/caregiving/when-they-say-no/) níos faide.
+Má deir sé nach mian leis, glac leis sin. Bain triail as arís níos déanaí, nó tairg rud éigin difriúil. Téann [ár dtreoir maidir leis an rud atá le déanamh nuair a deir siad nach mian leo](/caregiving/when-they-say-no/) níos faide ná sin.
 
-## Cá fhad ar cheart do chluiche maireachtáil, agus cé chomh tapa is ceart dúinn dul?
+## Cá fada ba cheart cluiche a mhaireachtáil, agus cé chomh tapa is ba chóir dúinn dul?
 
-Lig don duine an luas a shocrú, agus pleanáil do sheisiúin ghearra. Níl aon fhad idéalach bunaithe ar fhianaise ann do chluiche roinnte. Is féidir le dhá nó cúig nóiméad shocra a bheith ina ngníomhaíocht iomlán.
+Lig don duine luas a shocrú, agus pleanáil seisiúin ghearra. Níl fad idéalach bunaithe ar fhianaise do chluiche comhroinnte. Is féidir gníomhaíocht iomlán a bheith ann in dhá nó cúig nóiméad socair.
 
-- **Fan níos faide ná mar a bhraitheann nádúrtha.** Tugann an NIA comhairle níos mó ama a thabhairt do dhuine freagairt agus gan cur isteach orthu. Comhair go dtí a deich i do cheann sula gcabhraíonn tú.
-- **Céim amháin ag an am.** Tabhair treoir ghearr amháin (“Tapáil pictiúr”), ansin fan. Taispeáin seachas míniú: pointeáil chuig an áit le tapáil.
-- **Tóg sosanna gan stró.** Má stopann siad chun labhairt faoi phictiúr, is féidir leis an gcluiche fanacht. Níl aon ghá le deifir.
-- **Lig dóibh féachaint.** Tugann an NIA faoi deara gur fearr le roinnt daoine féachaint, agus is rogha bhailí í sin.
+- **Fan níos faide ná mar a mhothaíonn sé nádúrtha.** Deir an NIA gur chóir am níos faide a thabhairt don duine chun freagra a thabhairt, agus iarracht a dhéanamh gan cur isteach air. Comhair go deich i do cheann sula gcabhraíonn tú.
+- **Céim amháin ag an am.** Tabhair treoir ghearr amháin (“Brúigh pictiúr”), agus fan. Taispeáin seachas míniú: pointe chun an áit ar cheart brú a dhéanamh.
+- **Stop go héasca.** Má stopann sé chun labhairt faoi phictiúr, is féidir leis an gcluiche fanacht. Ní gá deifir a dhéanamh.
+- **Lig dó breathnú.** Deir an NIA go roghnaíonn roinnt daoine breathnú, agus is rogha bhailí é sin.
 
-## Ar cheart dom freagraí míchearta a cheartú?
+## Ar cheart dom freagraí mícheart a cheartú?
 
-Níor cheart. Nuair a cheartaíonn tú duine arís is arís eile go réidh, tugann sé le fios dóibh go bhfuil siad ag teip, fiú nuair is dea-mhéin atá agat. Molann an Alzheimer’s Association gan gníomhaíochtaí neamhdhíobhálacha a cháineadh ná a cheartú. I gcluiche, bíonn beagnach gach botún neamhdhíobhálach.
+Ní cheart. Má cheartaíonn tú duine arís is arís eile, go mín, insíonn tú dó go bhfuil sé ag teip, fiú nuair is maith é do chroí. Deir an Alzheimer's Association gan gníomhaíochtaí neamhdhíobhálacha a cháineadh ná a cheartú. I gcluiche, is neamhdhíobhálach beagnach gach botún.
 
 | In ionad | Bain triail as |
 | --- | --- |
-| “Ní hea, tá sé sin mícheart.” | “Bainimis triail as mar seo.” (sampla a thugann an NIA) |
-| “Ní meaitseáil é sin. Féach arís.” | Ná habair faic agus glac an chéad seal eile, nó “Ó, tá an dá cheann sin dearg.” |
+| “Níl, sin mícheart.” | “Bainfimid triail as ar an tslí seo.” (sampla a thugann an NIA) |
+| “Ní péire é sin. Féach arís.” | Ná habair tada agus glac an chéad seal eile, nó “Ó, tá an dá cheann dearg.” |
 | “An cuimhin leat cé hé seo?” | “Inis dom faoin bpictiúr seo.” |
-| “Rinne tú an ceann sin cheana.” | “Is ceann maith é sin. Déanaimis arís é.” |
-| “Seo leat, tá a fhios agat é seo.” | “Ar mhaith leat go dtaispeánfainn an deireadh?” |
+| “Rinne tú é sin cheana.” | “Sin ceann maith. Déanaimid arís é.” |
+| “Tar ort, tá a fhios agat seo.” | “Ar mhaith leat go dtaispeánfainn an deireadh?” |
 
-Má chuireann botún frustrachas soiléir orthu, cabhraigh go ciúin. Pointeáil chuig an bpictiúr ceart, glac seal tú féin, nó déan an cluiche níos éasca sa chéad bhabhta eile. Má fhaigheann seanfhocal deireadh greannmhar mícheart, bí ag gáire leo. B’fhéidir go bhfuil a ndeireadh féin níos fearr.
+Má chuireann botún frustrachas air go soiléir, cabhraigh go ciúin. Pointe ar an bpictiúr ceart, glac seal tú féin, nó déan an cluiche níos éasca an babhta eile. Má fhágann seanfhocal freagra greannmhar mícheart, gáire leis. B'fhéidir gurb fhearr a chríoch féin.
 
-## Conas a dhéanaim cluiche níos éasca nó níos deacra?
+## Conas cluiche a dhéanamh níos éasca nó níos deacra?
 
-Oiriúnaigh an cluiche don duine ar an lá, ní do lipéad céime. D’fhéadfadh an duine céanna leagan níos simplí a bheith ag teastáil uaidh nó uaithi tráthnóna ná ar maidin. Is é an chéad leid ón NIA an ghníomhaíocht a mheaitseáil leis an méid is féidir leis an duine a dhéanamh agus a chinntiú go mothaíonn siad rathúil.
+Oiriúnaigh an cluiche don duine ar an lá, ní do lipéad céime. D'fhéadfadh leagan níos simplí a bheith ag an duine céanna tráthnóna ná ar maidin. Is é an chéad leid ó NIA an gníomhaíocht a oiriúnú don mhéid is féidir leis an duine a dhéanamh, agus a chinntiú go mothaíonn sé rathúil.
 
-| Cluiche | Déan níos éasca é | Déan beagán níos deacra é |
+| Cluiche | Déan níos éasca | Déan beagán níos deacra |
 | --- | --- | --- |
-| [Picture Pairs](/games/picture-pairs/) | Tosaigh le 4 thíl agus fág na pictiúir le feiceáil | Níos mó tíleanna, nó folaigh na pictiúir má bhraitheann sé sin compordach |
+| [Picture Pairs](/games/picture-pairs/) | Tosaigh le 4 tíl agus fág na pictiúir le feiceáil | Tíleanna breise, nó cuir pictiúir i bhfolach más compordach é sin |
 | [Find the Same](/games/find-the-same/) | 2 rogha | Suas le 4 rogha |
-| [Sort Together](/games/sort-together/) | Coinníonn tú an pictiúr, pointeálann siad ar an gciseán | Tapálann siad an pictiúr agus an ciseán iad féin |
+| [Sort Together](/games/sort-together/) | Tú féin a shealbhaíonn an pictiúr, agus pointeann seisean ar an gciseán | Brúann seisean an pictiúr agus an ciseán ar a chuid féin |
 | [Picture Puzzle](/games/picture-puzzle/) | 4 phíosa, labhair faoin bpictiúr iomlán ar dtús | 9 bpíosa |
-| [Finish the Saying](/games/finish-the-saying/) | Taispeáin an deireadh, ansin abair le chéile é | Lig dóibh an deireadh a rá sula dtapálann siad |
-| [Word Search](/games/word-search/) | Priontáil é, lorg focal amháin le chéile, pointeáil chuig a chéad litir | Lig dóibh an chéad fhocal eile le lorg a roghnú |
-| [Coloring](/games/coloring/) | Roghnaíonn tú dhá dhath, roghnaíonn siad eatarthu | Roghnaíonn siad na dathanna go léir |
-| [Conversation Cards](/games/conversation-cards/) | Féach ar an bpictiúr le chéile amháin | Bain úsáid as na leideanna oscailte ar an gcárta |
-| [Photo Pairs](/games/photo-pairs/) | Cúpla grianghraf teaghlaigh a bhfuil an-ghrá acu dóibh | Cuir níos mó grianghraif leis |
+| [Finish the Saying](/games/finish-the-saying/) | Taispeáin an deireadh, ansin abair le chéile é | Lig dó an deireadh a rá sula mbrúann tú |
+| [Word Search](/games/word-search/) | Priontáil é, lorg focal amháin le chéile, pointe ar a chéad litir | Lig dó an chéad fhocal eile a roghnú le teacht air |
+| [Coloring](/games/coloring/) | Roghnaigh tú dhá dhath, roghnaíonn seisean idir iad | Roghnaíonn seisean na dathanna go léir |
+| [Conversation Cards](/games/conversation-cards/) | Breathnaígí ar an bpictiúr le chéile | Úsáid na leideanna oscailte ar an gcárta |
+| [Photo Pairs](/games/photo-pairs/) | Cúpla grianghraf teaghlaigh a bhfuil grá acu orthu | Cuir grianghraif eile leis |
 | [Picture Bingo](/games/picture-bingo/) | Suíonn cúntóir le gach imreoir | Marcálann imreoirí a gcártaí féin |
-| [Calm Breathing](/games/calm-breathing/) | Suigh agus féach air le chéile amháin | Análaigh leis go mall |
+| [Calm Breathing](/games/calm-breathing/) | Suigh agus breathnaigh air le chéile | Análaigh go mall leis |
 
-Comharthaí go bhfuil an cluiche ró-dheacair: sosanna fada a bhfuil cuma bhuartha orthu seachas smaoineamh, “Ní féidir liom” arís is arís eile, an gléas a bhrú uathu, nó botúin a chuireann isteach orthu. Comharthaí go bhféadfadh sé a bheith ró-éasca: leadrán, nó iad a rá go bhfuil sé cosúil le cluiche do pháistí. Má tharlaíonn sé sin, tabhair meas air agus athraigh go rud a bhraitheann níos fásta, mar shampla cuardach focal, puzal de ghrianghraf fíor, nó caint faoi phictiúr dá seanlíne oibre.
+Comharthaí go bhfuil an cluiche ró-dheacair: sosanna fada a bhfuil cuma imní orthu seachas smaointe, “ní féidir liom” arís is arís eile, an fheiste a bhrú uaidh, nó botúin a chuireann olc air. Comharthaí go bhféadfadh sé a bheith ró-éasca: leadráin, nó go ndeir sé go bhfuil sé leanbaí. Má tharlaíonn sin, meas air agus athraigh go rud a mhothaíonn fásta, mar shampla cuardach focal, puzal grianghraf fíor, nó labhairt faoi phictiúr dá sheal oibre roimhe seo.
 
-## Conas a dhéanaim comhrá as cluiche?
+## Conas cluiche a athrú ina chomhrá?
 
-Bain úsáid as gach pictiúr mar chuireadh chun cainte, agus glac le cibé rud a deir siad mar fhreagra maith. I gcás go leor teaghlach, is é seo an chuid is fearr den imirt.
+Úsáid gach pictiúr mar chuireadh chun labhartha, agus glac le cibé rud a deir sé mar fhreagra maith. I go leor teaghlach is é sin an chuid is fearr den imirt.
 
-- **Cuir ceisteanna oscailte nach bhfuil freagra ceart nó mícheart orthu.** “Cad a thugann tú faoi deara?” “Cé acu ceann is maith leat?” “Inis dom faoi chistin mar seo.”
-- **Roinn scéal ar dtús.** “Bhí madra mar seo ag mo sheanmháthair.” Déanann do scéal féin níos éasca dóibh scéal a roinnt.
-- **Lean an scéal.** Má thugann pictiúr cairr go scéal faoi thuras bóthair iad, is é an scéal an ghníomhaíocht. Fág an cluiche ar sos.
-- **Ná seiceáil fíricí.** I gcomhrá cuimhní cinn, is tábhachtaí comhrá taitneamhach ná mionsonraí cruinne. Má athraíonn an scéal ón uair dheireanach, bain taitneamh as an leagan nua.
-- **Bain úsáid as na leideanna ionsuite.** Leanann [Finish the Saying](/games/finish-the-saying/) gach seanfhocal le leid chomhrá, agus tá [Conversation Cards](/games/conversation-cards/) deartha go díreach chuige sin. Úsáideann [Photo Pairs](/games/photo-pairs/) do ghrianghraif teaghlaigh féin, a spreagann scéalta saibhre go minic.
+- **Fiafraigh ceisteanna oscailte, gan freagra mícheart.** “Cad a thugann tú faoi deara?” “Cé acu is fearr leat?” “Inis dom faoi chistin mar seo.”
+- **Roinn tú féin ar dtús.** “Bhí madra mar seo ag mo sheanmháthair.” Cabhraíonn do scéal leis ceann a roinnt.
+- **Lean an tangant.** Má threoraíonn pictiúr de charr go scéal faoi thuras bóthair, is é an scéal an gníomhaíocht. Fág an cluiche ar sos.
+- **Ná déan seiceáil fíricí.** Sa chuimhneamh siar, is tábhachtaí comhrá taitneamhach ná sonraí cruinne. Má athraíonn an scéal ón uair dheireanach, bain sult as an leagan nua.
+- **Úsáid na leideanna atá sa chluiche féin.** Leanann [Finish the Saying](/games/finish-the-saying/) gach seanfhocal le leid chomhrá, agus tá [Conversation Cards](/games/conversation-cards/) deartha go díreach don chuspóir sin. Úsáideann [Photo Pairs](/games/photo-pairs/) grianghraif de do theaghlach féin, rud a spreagann scéalta saibhre go minic.
 
-Tá tuilleadh smaointe inár dtreoracha ar [ghníomhaíochtaí cuimhní cinn](/activities/reminiscence/) agus ar [leideanna cumarsáide](/caregiving/communication-tips/).
+Tá tuilleadh smaointe i dtreoir [ár ngníomhaíochtaí athchuimhne](/activities/reminiscence/) againn. Maidir le tacaíocht tar éis diagnóise, féach [na chéad chéimeanna tar éis diagnóise](/caregiving/after-dementia-diagnosis/).
 
-## Cathain ar cheart dúinn stopadh?
+## Cathain ba cheart dúinn stopadh?
 
-Stop ag na chéad chomharthaí tuirse nó corraíl, agus go hidéalach beagán roimhe sin. Molann an Alzheimer’s Association gníomhaíocht a stopadh nó a athrú nuair a laghdaíonn an t-aird nó nuair a mhéadaíonn an frustrachas.
+Stop ag na chéad chomharthaí tuirse nó míshuaimhnis, agus go hidéalach beagán roimhe sin. Molann an Alzheimer's Association gníomhaíocht a stopadh nó a athrú nuair a thiteann aird nó nuair a éiríonn frustrachas.
 
-Bí ag faire amach do:
+Bí ar an airdeall le haghaidh:
 
-- méanfach, luí siar nó súile ag imeacht ón scáileán;
-- corrabhuais, seasamh suas, nó iarraidh imeacht;
-- osna, freagraí gearra, nó “Níl mé go maith ag an rud seo”;
-- tapáil go randamach nó an gléas a bhrú uathu;
-- deora, greannaitheacht, nó athrú tobann giúmar.
+- miongháire, lúbadh anuas nó súile ag siúl ón scáileán;
+- corraíl, seasamh suas, nó iarraidh imeacht;
+- osna, freagraí gearra, nó “níl mé go maith ag seo”;
+- brú randamach nó an fheiste a bhrú uaidh;
+- deora, mífhoighne, nó athrú tobann ar an ngiúmar.
 
 Conas stopadh go maith:
 
-- **Críochnaigh le rud éigin éasca.** Meaitseáil dheireanach amháin is féidir leo a dhéanamh, nó pictiúr deireanach le breathnú air.
-- **Cuir ar do shon féin é.** Seachnaíonn “Bhainfeadh cupán tae maith domsa. An stopfaimid anseo?” aon leid go ndeachaigh sé go dona dóibh.
-- **Bog go rud éigin fisiciúil nó suaimhneach.** Siúlóid ghearr, sneaic, éadaí a fhilleadh nó ceol.
-- **Abair rud cineálta.** “Thaitin sé sin liom a dhéanamh leat.” Gan moladh as “é a fháil ceart”, ach sásamh san am le chéile.
+- **Críochnaigh ar rud éasca.** Meaitseáil amháin dheireanach a is féidir leis a dhéanamh, nó pictiúr deiridh le breathnú air.
+- **Déan é a bheith faoi thusa.** “Ba mhaith liom cupán tae. An stopfaimid anseo?” seachnaíonn sé aon leid go ndearna sé go dona.
+- **Bog go gníomhaíocht fhisiciúil nó shuaimhneach.** Siúlóid ghearr, sáp, pleatáil éadaigh, nó ceol.
+- **Abair rud éigin te.** “Is maith liom a bheith ag déanamh sin leat.” Gan moladh as “rud a dhéanamh i gceart”, ach taitneamh as an am le chéile.
 
-Is torthaí maithe iad stopadh go luath, pleananna a athrú, nó éirí as an gcluiche agus suí le chéile.
+Stopadh go luath, athrú pleananna, nó éirí as an gcluiche agus suí le chéile go simplí: is toradh maith iad uile.
 
-## An féidir linn imirt i ngrúpa nó ar ghlao físe?
+## An féidir linn imirt i ngrúpa nó thar ghlao físe?
 
-Is féidir, le beagán ullmhúcháin bhreise. I ngrúpa, coinnigh le cúpla duine, suigh cúntóirí in aice le haon duine a dteastaíonn cabhair uaidh nó uaithi, agus roghnaigh cluiche le fócas soiléir roinnte. Tá cártaí le priontáil agus glaoiteoir ar an scáileán ag [Picture Bingo](/games/picture-bingo/) do ghrúpaí. Féach [gníomhaíochtaí do ghrúpaí i dtithe cúraim](/activities/care-home-groups/) le haghaidh tuilleadh.
+Is féidir, le beagán breise socraithe. I ngrúpa, coinnigh é do bheagán daoine, suigh cúntóirí in aice le duine ar bith a theastaíonn uathu, agus roghnaigh cluiche le fócas comhroinnte soiléir. Tá cártaí inphriontáilte agus glaoiteoir ar an scáileán ag [Picture Bingo](/games/picture-bingo/) do ghrúpaí. Féach [gníomhaíochtaí do ghrúpaí i dtithe cúraim](/crafts/craft-group-sessions/) le tuilleadh.
 
-Ar ghlao físe, is féidir leis an duine ar an nglao cur síos a dhéanamh ar phictiúr agus duine éigin sa seomra ag pointeáil agus ag tapáil. Coinnigh glaonna gearr agus eolach. Tá tuilleadh leideanna inár dtreoir ar [ghlaonna gutháin agus físe](/activities/phone-and-video-calls/).
+Thar ghlao físe, is féidir leis an duine ar an nglao pictiúr a thuairisciú agus an duine sa seomra ag pointeáil agus ag brú. Coinnigh glaonna gearr agus aitheanta. Tá tuilleadh leideanna i dtreoir [glaonna gutháin agus físe](/together/staying-connected-from-afar/) againn.
 
-## Cad a tharlaíonn mura n-oibríonn cluiche ar chor ar bith?
+## Cad a dhéanaimid mura n-oibríonn cluiche ar chor ar bith?
 
-Uaireanta ní oibríonn aon rud, agus ní léiríonn sé sin aon rud ortsa ná orthu siúd. Cuir an cluiche i leataobh agus bain triail eile as ag tráth difriúil den lá, le cluiche difriúil, nó gan cluiche ar bith. Bíonn go leor gníomhaíochtaí maithe ann nach mbaineann le scáileáin: ceol, tuáillí a fhilleadh, féachaint trí albam grianghraf, nó siúlóid ghearr. Brabhsáil ár [smaointe gníomhaíochta](/activities/ideas/) le haghaidh tuilleadh.
+Uaireanta ní bhíonn tionchar ar bith ag rud ar bith, agus ní léiriú ort ná air é sin. Cuir an cluiche i dtaisce agus bain triail as am difriúil den lá, cluiche difriúil, nó gan cluiche ar chor ar bith. Tá go leor gníomhaíochtaí maithe nach mbaineann le scáileáin ar chor ar bith: ceol, tuáillí a phleatáil, leabhar grianghraf a bhreathnú, nó siúlóid ghearr. Brabhsáil [ár smaointe gníomhaíochta](/activities/ideas/) le haghaidh tuilleadh.

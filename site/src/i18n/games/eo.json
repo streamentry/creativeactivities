@@ -1,9 +1,9 @@
 {
   "picture-pairs": {
     "name": "Bildaj paroj",
-    "seoTitle": "Kongrua Ludo por Demenco: Bildaj Paroj",
+    "seoTitle": "Parkumludo por plenkreskuloj: Paraj bildoj",
     "h1": "Bildaj Paroj: Milda Kongrua Ludo",
-    "description": "Senpaga, milda kongrua ludo por homoj vivantaj kun demenco. Grandaj bildoj restas videblaj, ne ekzistas tempigilo aŭ poentaro, kaj vi elektas 4 ĝis 12 kahelojn.",
+    "description": "Senpaga, milda parkumludo por plenkreskuloj kaj maljunuloj, inkluzive de homoj kun demenco. Bildoj povas resti montrataj. Sen tempomezurilo kaj sen poentoj.",
     "short": "Trovu la du bildojn, kiuj estas samaj. Bildoj povas resti montrataj.",
     "players": "1 aŭ 2 personoj, unu apud la alia",
     "intro": "Frapu bildon, tiam alklaku tiun, kiu kongruas kun ĝi. Bildoj restas montrataj defaŭlte, do nenio devas esti memorita. Kiam du bildoj iras kune ili ricevas oran limon kaj markomarkon.",
@@ -41,9 +41,9 @@
   },
   "find-the-same": {
     "name": "Trovu la saman",
-    "seoTitle": "Trovu la Saman Bildon: Simpla Demenca Ludo",
+    "seoTitle": "Trovu la saman bildon: simpla bildludo",
     "h1": "Trovu la Saman Bildon",
-    "description": "Unu bildo supre, du ĝis kvar sube. Frapu tiun, kiu estas la sama. Trankvila, senpaga bildludo por homoj vivantaj kun demenco, sen tempigilo.",
+    "description": "Unu bildo supre, du ĝis kvar sube. Tuŝu tiun, kiu estas la sama. Trankvila, senpaga bildludo por plenkreskuloj, maljunuloj kaj familioj, sen tempomezurilo.",
     "short": "Rigardu la bildon supre kaj frapetu la saman sube.",
     "players": "1 aŭ 2 personoj",
     "intro": "Ununura bildo sidas ĉe la supro de la ekrano. Sub ĝi estas du, tri aŭ kvar bildoj. Frapu tiun, kiu estas la sama. Ĝi estas unu simpla elekto samtempe, kun multe da loko por paroli.",
@@ -76,9 +76,9 @@
   },
   "shadow-match": {
     "name": "Ombra matĉo",
-    "seoTitle": "Ombra Kongrua Ludo por Demenco: Senpaga Interreta",
+    "seoTitle": "Ombra parkumludo: senpaga en reto por plenkreskuloj",
     "h1": "Ombra Matĉo: Milda Bildludo",
-    "description": "Malhela ombro ĉe la supro, du ĝis kvar bildoj malsupre. Frapu la bildon, kiu faras la ombron. Senpaga, trankvila ombro-kongrua ludo por demenco, sen tempigilo.",
+    "description": "Malhela ombro supre, du ĝis kvar bildoj sube. Tuŝu la bildon, kiu kreas la ombron. Senpaga, trankvila ombra parkumludo sen tempomezurilo.",
     "short": "Rigardu la ombron kaj frapu la bildon kiu faras ĝin.",
     "players": "1 aŭ 2 personoj",
     "intro": "Ombra kongruo estas konata agado de presitaj laborfolioj, ĉi tie kun grandaj bildoj kaj nenio por presi. Milda ombro sidas ĉe la supro de la ekrano kaj du, tri aŭ kvar bildoj atendas sube. Frapu tiun, kiu faras la ombron. Formoj kiel biciklo, pluvombrelo aŭ tetaso ankaŭ estas facile paroleblaj.",
@@ -100,8 +100,8 @@
         "a": "Ne. Ne ekzistas horloĝo, poentaro, mova nombrilo aŭ perdo. Vi povas ĉesi en ajna momento, kaj halti duonvoje estas tute bona maniero por fini."
       },
       {
-        "q": "Ĉu ombro-kongruo estas bona por homoj kun demenco?",
-        "a": "Ĝi povas esti agrabla, simpla agado por iuj homoj, precipe en la pli fruaj stadioj. Formoj estas pli facile rekoneblaj ol vortoj. Ĝi estas por ĝuo kaj konversacio, ne testo, kaj ĝi ne traktas aŭ malrapidigas demencon. Se ĝi kaŭzas frustriĝon, provu Trovu la samon aŭ simple rigardu bildojn kune."
+        "q": "Ĉu homoj kun demenco povas ĝui ombran parkumludon?",
+        "a": "Multaj plenkreskuloj ĝuas ĝin, inkluzive de kelkaj homoj kun demenco, ofte en la fruaj stadioj. Formoj estas pli facile rekoneblaj ol vortoj. Ĝi estas por plezuro kaj interparolado, ne por testo, kaj ĝi ne kuracas nek malrapidigas demencon. Se ĝi kaŭzas seniluziiĝon, provu Trovu la saman aŭ simple rigardu bildojn kune."
       },
       {
         "q": "Kio okazas se la malĝusta bildo estas frapetita?",
@@ -113,11 +113,661 @@
       }
     ]
   },
+  "four-together": {
+    "name": "Kvar kune",
+    "seoTitle": "Bildgrupiga ludo por plenkreskuloj: Kvar kune",
+    "h1": "Kvar kune: trankvila bildgrupiga ludo",
+    "description": "Kelkaj el la bildoj havas komunan temon, ekzemple fruktojn aŭ veteron. Tuŝu tiujn, kiuj apartenas kune. Senpaga, trankvila grupiga ludo sen tempomezurilo kaj sen poentoj.",
+    "short": "Trovu la bildojn, kiuj apartenas kune, ekzemple fruktojn aŭ veteron.",
+    "players": "1 aŭ 2 homoj",
+    "intro": "Malgranda aro de bildoj, kaj kelkaj el ili apartenas kune: eble kvar specoj de fruktoj, aŭ kvar manieroj vojaĝi. Tuŝu tiujn, kiuj havas la saman temon. Se bildo apartenas al io alia, la ludo simple nomas ĝin kaj atendas. Post trankvila paŭzo sugesto nomas la temon, kaj \"Montru la grupon\" malkaŝas la respondon ĉiam.",
+    "howTo": [
+      "Elektu kvar, ses aŭ ok bildojn. Kvar estas la plej simpla, kun tri, kiuj apartenas kune.",
+      "Rigardu la bildojn kune kaj parolu pri tio, kion ili havas komune.",
+      "Tuŝu ĉiun bildon, kiu apartenas al la grupo. Ĝi ricevas oran randon kaj markon de kontrolo.",
+      "Se bildo apartenas al io alia, la ludo nomas ĝin kaj atendas. Prenu vian tempon.",
+      "Tuŝu \"Montru la grupon\" kiam ajn vi volas, poste \"Alia aro\" por novaj bildoj."
+    ],
+    "tips": [
+      "Diru laŭte tion, kion vi rimarkas: \"Ĉi tiuj du estas ambaŭ manĝaĵoj.\"",
+      "Ne estas urĝo. Sugesto, kiu nomas la temon, aperas post paŭzo, kaj vi povas ignori ĝin.",
+      "Parolu pri la grupo, kiam ĝi estas trovita: ŝatata frukto, vojaĝo per trajno, la hodiaŭa vetero."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj aŭ perdo. Vi povas ĉesi iam ajn, kaj ĉesi duonvoje estas tute bona maniero finiĝi."
+      },
+      {
+        "q": "Kio okazas, se oni tuŝas bildon ekster la grupo?",
+        "a": "Nenio malagrabla. Ne estas bipo, ruĝa kruco aŭ skuado. La ludo nomas la bildon, diras, ke ĝi apartenas al io alia, kaj atendas la venontan tuŝon."
+      },
+      {
+        "q": "Kiuj estas la grupoj?",
+        "a": "Ĉiutagaj temoj, kiuj ne bezonas specialan scion: fruktoj, bestoj, floroj, vetero, manieroj vojaĝi, aferoj por varma trinkaĵo kaj aferoj bakitaj en forno. Ĉiu bildo apartenas al nur unu grupo."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "odd-one-out": {
+    "name": "La malsamulo",
+    "seoTitle": "Bildludo pri malsamulo por plenkreskuloj",
+    "h1": "La malsamulo: malstreĉa bildludo",
+    "description": "Tri aŭ kvar bildoj, kaj ĉiuj krom unu havas komunan temon, ekzemple fruktojn aŭ veteron. Tuŝu tiun, kiu ne apartenas. Senpaga, trankvila, sen tempomezurilo kaj sen poentoj.",
+    "short": "Trovu la bildon, kiu ne apartenas al la aliaj.",
+    "players": "1 aŭ 2 homoj",
+    "intro": "Tri aŭ kvar bildoj, kaj ĉiuj krom unu apartenas kune: eble fruktoj, aŭ manieroj vojaĝi. Tuŝu la bildon, kiu ne apartenas. Se bildo tamen apartenas al la aliaj, la ludo simple diras tion kaj atendas. Post trankvila paŭzo sugesto nomas tion, kion la aliaj havas komune, kaj \"Montru al mi\" indikas la malsamulon ĉiam.",
+    "howTo": [
+      "Elektu tri aŭ kvar bildojn. Tri estas la plej simpla.",
+      "Rigardu la bildojn kune kaj parolu pri tio, kion plej multaj el ili havas komune.",
+      "Tuŝu la bildon, kiu ne apartenas. Ĝi ricevas oran randon kaj markon de kontrolo.",
+      "Se bildo apartenas al la aliaj, la ludo tion diras kaj atendas. Prenu vian tempon.",
+      "Tuŝu \"Montru al mi\" kiam ajn vi volas, poste \"Alia aro\" por novaj bildoj."
+    ],
+    "tips": [
+      "Parolu pri ĝi laŭte: \"La pomo kaj la piro estas ambaŭ fruktoj. Kio pri la buso?\"",
+      "Ne estas urĝo. Sugesto, kiu nomas la temon, aperas post paŭzo, kaj vi povas ignori ĝin.",
+      "Ajna bildo estas bona komenco por babilado: ŝatata frukto, bus-veturo, pluva tago."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj aŭ perdo. Vi povas ĉesi iam ajn, kaj ĉesi duonvoje estas tute bona maniero finiĝi."
+      },
+      {
+        "q": "Kio okazas, se oni tuŝas bildon, kiu apartenas al la grupo?",
+        "a": "Nenio malagrabla. Ne estas bipo, ruĝa kruco aŭ skuado. La ludo nomas la bildon, diras, ke ĝi apartenas al la aliaj, kaj atendas la venontan tuŝon."
+      },
+      {
+        "q": "Kiel la malsama bildo estas elektita?",
+        "a": "La bildoj venas el ĉiutagaj temoj, kiuj ne bezonas specialan scion: fruktoj, bestoj, floroj, vetero, manieroj vojaĝi, aferoj por varma trinkaĵo kaj aferoj bakitaj en forno. Ĉiu bildo apartenas al nur unu temo, kaj la malsama ĉiam venas el alia temo."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas aliĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, aliĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "color-match": {
+    "name": "Kolora kongruo",
+    "seoTitle": "Kolora kongruo: milda bildludo",
+    "h1": "Kolora kongruo: trovu la bildojn de unu koloro",
+    "description": "Granda koloro kun sia nomo, kaj kvar aŭ ses bildoj. Tuŝu ĉiujn bildojn, kiuj havas tiun koloron. Neniu tempomezurilo, neniu poentaro, kaj alia koloro simple estas nomita. Senpaga por ludi kaj presi.",
+    "short": "Trovu ĉiujn bildojn, kiuj havas la saman koloron kiel la montrita.",
+    "players": "1 aŭ 2 homoj, aŭ plenkreskulo kaj infano",
+    "intro": "Granda kolora kvadrato estas montrata kun sia nomo skribita apude, kaj sub ĝi estas kvar aŭ ses bildoj. Tuŝu ĉiujn bildojn, kiuj havas tiun koloron: ekzemple ruĝan pomon kaj ruĝan tason. Se bildo havas alian koloron, la ludo simple nomas ĝin (\"La piro estas verda.\") kaj atendas. \"Montru al ili\" indikas la kongruajn bildojn iam ajn, kaj \"Alia koloro\" iras al la sekva.",
+    "howTo": [
+      "Elektu kvar aŭ ses bildojn. Kvar estas la plej simpla.",
+      "Rigardu la koloron kaj legu ĝian nomon kune.",
+      "Tuŝu ĉiujn bildojn, kiuj havas tiun koloron. Ĉiu ricevas dikan randon kaj markon de kontrolo.",
+      "Se bildo havas alian koloron, la ludo diras, kiu koloro ĝi estas, kaj atendas. Prenu vian tempon.",
+      "Tuŝu \"Montru al ili\" kiam ajn vi volas, poste \"Alia koloro\" por nova koloro."
+    ],
+    "tips": [
+      "Diru la koloron laŭte, poste rigardu ĉirkaŭ la ĉambro: kio alia havas tiun koloron?",
+      "Uzu viajn proprajn vortojn, se vi volas. \"Tomato\" aŭ \"ĉielo\" estas same bona kiel \"ruĝa\" aŭ \"blua\".",
+      "Montrado funkcias same bone kiel tuŝado. Sidiĝu flanke de flanko, por ke vi ambaŭ vidu la ekranon."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Kio okazas, se oni tuŝas bildon de alia koloro?",
+        "a": "Nenio malagrabla. Ne estas bruo de summilo, ruĝa kruco aŭ tremado. La ludo nomas la bildon kaj ĝian koloron, ekzemple \"La piro estas verda.\", kaj atendas la sekvan tuŝon."
+      },
+      {
+        "q": "Ĉu koloro estas la sola indiko?",
+        "a": "Ne. La koloro estas montrata kiel granda kvadrato kaj ankaŭ skribita kiel vorto, kaj ĉiu bildo estas nomata kiam oni tuŝas ĝin. Iu, kiu malfacile vidas koloron, povas ankoraŭ ludi legante la nomon."
+      },
+      {
+        "q": "Ĉu ĉiu bildo vere havas tiun koloron?",
+        "a": "La bildoj estas elektitaj permane, kaj nur tiuj, kie la ĉefa objekto evidente havas unu koloron. Bildoj kun pluraj koloroj, kiel fulmotenilo aŭ abelo, estas forlasitaj."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. Unupaĝa folio havas kvar vicojn. Ĉiu vico nomas koloron kaj montras kvar bildojn por montri aŭ rondigi."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas aliĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, aliĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "halves-match": {
+    "name": "Kongruo de duonoj",
+    "seoTitle": "Kongruo de duonoj: milda bildludo",
+    "h1": "Kongruo de duonoj: kunmetu la du duonojn de bildo",
+    "description": "La maldekstraj duonoj de du aŭ tri bildoj sur unu flanko, iliaj dekstraj duonoj sur la alia. Tuŝu duonon, poste la duonon, kiu konvenas al ĝi. Neniu tempomezurilo, neniu poentaro, kaj duonoj, kiuj ne konvenas, simple disiĝas. Senpaga por ludi kaj presi.",
+    "short": "Tuŝu la du duonojn, kiuj kunmetiĝas por fari unu bildon.",
+    "players": "1 aŭ 2 homoj, aŭ plenkreskulo kaj infano",
+    "intro": "Ĉiu bildo estas tranĉita meze. La maldekstraj duonoj de du aŭ tri bildoj estas en unu kolumno, kaj iliaj dekstraj duonoj, en alia ordo, estas en la alia. Tuŝu duonon maldekstre, poste tuŝu la duonon dekstre, kiu konvenas al ĝi, ekzemple la verŝilo de kaldrono kaj ĝia tenilo. Duonoj, kiuj konvenas, kunligiĝas en tutan bildon. Duonoj, kiuj ne konvenas, denove disiĝas, kaj la ludo tion diras milde. \"Montru al mi\" kunigas ilin ĉiujn.",
+    "howTo": [
+      "Elektu du aŭ tri bildojn. Du estas la plej simpla.",
+      "Rigardu la maldekstrajn duonojn kune. Kion vi pensas, ke ĉiu estas parto de?",
+      "Tuŝu duonon maldekstre, poste tuŝu la duonon dekstre, kiu konvenas al ĝi. Ankaŭ funkcias la alia direkto.",
+      "Duonoj, kiuj konvenas, kunligiĝas, kun dika rando kaj markon de kontrolo. Duonoj, kiuj ne konvenas, denove disiĝas, kaj vi povas provi alian.",
+      "Tuŝu \"Montru al mi\" kiam ajn vi volas, poste \"Alia aro\" por novaj bildoj."
+    ],
+    "tips": [
+      "Sekvu la randon de duono per fingro. Kie la desegno atingas la mezon?",
+      "Diru, kion vi vidas: \"Tiu havas tenilon.\" Ne necesas nomi ĉiun bildon.",
+      "Montrado funkcias same bone kiel tuŝado. Sidiĝu flanke de flanko, por ke vi ambaŭ vidu la ekranon."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Kio okazas, se du duonoj ne konvenas?",
+        "a": "Nenio malagrabla. Ne estas bruo de summilo, ruĝa kruco aŭ tremado. La du duonoj denove disiĝas, kaj la ludo diras: \"Tiuj du ne kunvenas. Provu alian.\" Nenio estas kalkulita."
+      },
+      {
+        "q": "Ĉu la bildoj estas facile distingeblaj?",
+        "a": "Jes. La bildoj estas elektitaj permane, kaj du bildoj sur unu tabulo neniam estas el la sama grupo, kiel du fruktoj aŭ du bestoj. Bildoj, kies du duonoj aspektas similaj, kiel la suno aŭ arkoviro, estas forlasitaj."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. Unu paĝo havas en unu kolumno la maldekstrajn duonojn de tri bildoj, kaj en la alia kolumno iliajn dekstrajn duonojn, en alia ordo. Tiru linion de ĉiu maldekstra duono al la duono, kiu taŭgas al ĝi."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de poŝtelefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "color-by-number": {
+    "name": "Kolorigi laŭ numero",
+    "seoTitle": "Kolorigi laŭ numero: trankvila ludo de plenigado kun grandaj literoj",
+    "h1": "Kolorigi laŭ numero: plenigu la kvadratojn per la koloro, kiun vi ŝatas",
+    "description": "Kradego de grandaj numeritaj kvadratoj kaj klarigilo kun kvar koloroj kaj iliaj nomoj. Elektu koloron, poste tuŝu kvadratojn por plenigi ilin. Ĉiu koloro estas taŭga, ne ekzistas tempomezurilo nek poentaro, kaj butono plenigas la ceterajn laŭ la numeroj. Senpaga por ludi kaj presi.",
+    "short": "Elektu koloron, poste tuŝu la numeritajn kvadratojn por plenigi ilin.",
+    "players": "1 aŭ 2 homoj, unu apud la alia",
+    "intro": "Kvadrata kradego de grandaj kvadratoj, ĉiu kun numero, kaj super ĝi klarigilo kun kvar koloroj, ĉiu kun sia numero kaj sia skribita nomo. Elektu koloron el la klarigilo, poste tuŝu kvadratojn por plenigi ilin. La kradego komencas je 4 per 4, kaj estas ankaŭ 6 per 6 kaj 8 per 8, kiam vi volas pli da kvadratoj. Kiam ĉiu kvadrato havas la koloron de sia numero, la kradego estas la bildo sur la folio. Kvadratoj plenigitaj per alia koloro estas simple via propra bildo, kaj la ludo pri tio nenion diras. «Plenigi laŭ la numeroj» plenigas por vi ĉiujn malplenajn kvadratojn.",
+    "howTo": [
+      "Elektu la grandecon de la kradego. 4 per 4 havas la plej grandajn kvadratojn kaj estas la plej simpla.",
+      "Rigardu la klarigilon super la kradego. Ĉiu koloro havas numeron kaj nomon, ekzemple 1 Flava.",
+      "Tuŝu koloron en la klarigilo, poste tuŝu la kvadratojn, kiujn vi volas plenigi per ĝi.",
+      "Uzu la koloron de la numero, aŭ ajnan koloron, kiun vi ŝatas. Ambaŭ estas taŭgaj.",
+      "Tuŝu «Plenigi laŭ la numeroj» por la malplenaj kvadratoj, «Forigi» por rekomenci la kradegon, aŭ «Alia bildo» por alia."
+    ],
+    "tips": [
+      "Sidu unu apud la alia kaj alterne prenu vicon: unu persono elektas la koloron, la alia tuŝas la kvadraton.",
+      "Parolu pri la koloroj: «Mi ŝatas la verdan.» Ne necesas diri, kio estos la bildo.",
+      "Sur mallarĝa ekrano la 8 per 8 kradego rulumas flanken ene de sia propra kesto. La kvadratoj restas komforte grandaj.",
+      "La papera versio same funkcias per krajonoj ĉe tablo apud la lito."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj nek perdo. Vi povas ĉesi iam ajn, kaj ĉesi duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Kion okazas, se mi uzas alian koloron ol la numero?",
+        "a": "Nenio okazas, kaj tio estas la celo. Ĉiu koloro povas esti en ĉiu kvadrato, kaj la ludo pri tio nenion diras. Kiam ĉiu kvadrato havas la koloron de sia numero, la ludo tion diras delikate, kaj bildo en viaj propraj koloroj estas same bona."
+      },
+      {
+        "q": "Ĉu la kvar koloroj povas esti distingataj de homoj kun daltonismo?",
+        "a": "Ili estis elektitaj por tio. Ĉiu koloro havas ankaŭ numeron, skriban nomon kaj sian propran malgrandan formon, do koloro neniam estas la sola maniero distingi ilin. La kvar plenigoj estis kontrolitaj per simulaĵoj de ruĝ-verda kaj blu-flava daltonismo, kaj ili ankaŭ diferencas laŭ hele. Persono kun daltonismo ankoraŭ ne provis ilin, do bonvolu diri al ni, se du aspektas similaj."
+      },
+      {
+        "q": "Ĉu la kvadratoj estas sufiĉe grandaj por tremo aŭ malgranda ekrano?",
+        "a": "Ĉiu kvadrato estas almenaŭ 48 pikselojn larĝa, kaj 56 en la 4 per 4 kradego. Se kradego estas tro larĝa por la ekrano, ĝi rulumas flanken ene de sia propra kesto, anstataŭ malgrandigi la kvadratojn."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. Unu paĝa folio havas numeritan kradegon kaj la klarigilon kun kvar koloroj kaj iliaj nomoj. Kolorigu ĉiun kvadraton per krajono de la koloro sur ĝia numero, aŭ per ajna koloro, kiun vi ŝatas."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de poŝtelefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "pattern-maker": {
+    "name": "Ŝablonkreilo",
+    "seoTitle": "Ŝablonkreilo: desegnu kahelon kaj presu la ŝablonon",
+    "h1": "Ŝablonkreilo: desegnu kahelon, kaj vidu ĝin ripeti",
+    "description": "Ŝanĝu la kvadratojn de unu malgranda kahelo kaj rigardu ĝin ripeti en ŝablonon apud ĝi, en kvar koloroj, kiuj havas nomon kaj formon. Ne ekzistas tempomezurilo nek poentaro. Senpaga por ludi kaj presi.",
+    "short": "Ŝanĝu la kvadratojn de malgranda kahelo kaj rigardu ĝin ripeti en ŝablonon.",
+    "players": "1 aŭ 2 homoj, unu apud la alia",
+    "intro": "Malgranda kahelo de 3 per 3 kvadratoj, aŭ 4 per 4, se vi volas, kaj apud ĝi «via ŝablono»: la sama kahelo ripetita en bloko. Tuŝu kvadraton, kaj ĝi ŝanĝiĝas al la sekva el kvar koloroj, ĉiu kun sia skribita nomo kaj formo. La ŝablono apud ĝi ŝanĝiĝas tuj. Ne ekzistas ĝusta ŝablono, kaj nenio estas konservita nek sendita. «Presi mian ŝablonon» metas la ripetitan ŝablonon sur unu paĝon por konservi, kolorigi aŭ donaci.",
+    "howTo": [
+      "Rigardu la kahelon kaj vian ŝablonon apud ĝi. Ili estas la sama kahelo, ripetita.",
+      "Tuŝu kvadraton. Ĝi ŝanĝiĝas al la sekva koloro en la vico de kvar koloroj supre.",
+      "Daŭre tuŝu kvadratojn ĝis la ŝablono aspektas kiel vi ŝatus. Ĉiu ŝablono estas bona.",
+      "Tuŝu «Surprizu min» por nova kahelo, aŭ «Komencu denove» por malplena. «Metu reen» revenigas la kahelon, kiun vi havis.",
+      "Tuŝu «Presi mian ŝablonon», se vi volas ĝin sur papero, aŭ tuŝu Ripozi por ĉesi."
+    ],
+    "tips": [
+      "Sit side by side and take turns: one person taps a square, the other says what they notice.",
+      "Parlu pri tio, kion vi vidas: \"Tio similas al floro.\" Ne necesas nomi ion ajn.",
+      "Provu la saman kahelon nur per du koloroj, poste denove per ĉiuj kvar.",
+      "Sur papero, la ŝablono povas esti kolorigita per krajonoj, tranĉita en strioj por karto, aŭ uzata por enpaki malgrandan donacon."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu tio, kion mi faras, estas konservata aŭ sendata?",
+        "a": "Ne. Via kahelo restas nur ĉi tiu paĝo. Ĝi ne estas konservata, alŝutata aŭ kalkulata, kaj ĝi malaperas kiam vi fermas la paĝon. Se vi volas konservi ŝablonon, presu ĝin."
+      },
+      {
+        "q": "Kio okazas, se mi malĝuste tuŝas kvadrateton aŭ hazarde forigas la kahelon?",
+        "a": "Ne ekzistas malĝusta kvadrato: tuŝu ĝin denove por iri al la sekva koloro. Post \"Komencu denove\" aŭ \"Surprizu min\", \"Metu reen\" revenigas la kahelon, kiun vi havis."
+      },
+      {
+        "q": "Ĉu homoj kun daltonismo povas distingi la kvar kolorojn?",
+        "a": "Ili estis elektitaj por tio. Ĉiu koloro ankaŭ havas skriban nomon kaj sian propran malgrandan formon en ĉiu kvadrato, do koloro neniam estas la sola maniero distingi ilin. La kvar koloroj estis kontrolitaj per simulaĵoj de ruĝ-verda kaj blu-flava daltonismo. Persono kun daltonismo ankoraŭ ne provis ilin, do bonvolu diri al ni, se du aspektas similaj."
+      },
+      {
+        "q": "Ĉu la kvadratetoj estas sufiĉe grandaj por tremo aŭ malgranda ekrano?",
+        "a": "Ĉiu kvadrato havas almenaŭ 56 pikselojn en larĝo. Se la kahelo estas tro larĝa por la ekrano, ĝi rulumas flanken ene de sia propra kesto, anstataŭ malgrandigi la kvadratetojn."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. \"Presu mian ŝablonon\" presas la ŝablonon, kiun vi kreis, sur unu paĝo, kun la kvar koloroj kaj iliaj nomoj, bone videbla nigre kaj blanke, ĉar ĉiu koloro havas sian propran formon."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "drawing-duet": {
+    "name": "Desegna duopo",
+    "seoTitle": "Desegna Duopo: Du Homoj, Unu Bildo",
+    "h1": "Desegna Duopo: Du Homoj, Unu Paĝo",
+    "description": "Du homoj alterne tiras liniojn sur unu komuna tolo, ĉiu per propra koloro. Neniu poentas aŭ venkas, kaj la bildo povas esti konservita aŭ presita. Senpaga ludado, sen konto.",
+    "short": "Alterne desegnu unu komunan bildon kun iu apud vi.",
+    "players": "2 homoj, unu apud la alia",
+    "intro": "Unu tolo, du homoj. Ĉiu el vi elektas koloron, kaj ĉiu koloro havas sian skriban nomon. Vi alternas: tiru unu linion aŭ formon, poste transdonu la krajonon. Ĉiu el vi povas preterpasi iam ajn. Ne ekzistas ĝusta bildo kaj ne ekzistas poentaro. Konservu la bildon en via aparato, se ĝi plaĉas al vi, aŭ presu la paperan version: unu paĝo, du krajonoj.",
+    "howTo": [
+      "Ĉiu el vi elektas koloron. La flago montras, kies vico estas, kun la koloro de tiu persono laŭ nomo.",
+      "Tiru unu linion aŭ formon per fingro, muso aŭ krajono. Aŭ uzu la klavojn de sago kaj la spacklavon por desegni sen indikilo.",
+      "Kiam vi pretas, tuŝu \"Transdonu la krajonon\". Ĉiu el vi povas preterpasi iam ajn.",
+      "Tuŝu \"Reprenu mian lastan linion\" por forigi la plej novan linion de la persono, kies vico estas.",
+      "Tuŝu \"Konservu bildon\" por krei bildodosieron en ĉi tiu aparato, aŭ \"Presu la paperan version\" por unu paĝo kaj du krajonoj."
+    ],
+    "tips": [
+      "Sidu apud unu la alian kaj parolu dum vi desegnas: \"Mi aldonos sunon en la angulon.\"",
+      "Komencu per punkto, linio aŭ simpla formo, kaj lasu la alian persono respondi al ĝi.",
+      "Neniu devas desegni bildon de io ajn. Ŝablono el linioj estas same bona kiel sceno.",
+      "Se vi volas halti, tuŝu \"Ĝis nun sufiĉe\". Via bildo ne estas konservata post kiam vi forlasas la paĝon, krom se vi ĝin konservas."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas gajninto aŭ poentaro?",
+        "a": "Ne. Ne estas gajninto, poentaro, tempomezurilo aŭ nombro de vicoj. Ne ekzistas ĝusta bildo, kaj nenio estas rangigita aŭ komparita."
+      },
+      {
+        "q": "Ĉu la bildo estas konservata aŭ sendata?",
+        "a": "Ne, nenio estas sendata ien ajn. La bildo restas en ĉi tiu paĝo ĝis vi fermas ĝin. Se vi tuŝas Konservu bildon, dosiero kreiĝas en via aparato por ke vi elŝutu ĝin. Nenio estas alŝutata."
+      },
+      {
+        "q": "Ĉu mi povas reepreni linion?",
+        "a": "Jes. \"Reprenu mian lastan linion\" forigas la plej novan linion de la persono, kies vico estas. \"Komencu denove\" malplenigas la paperon, kaj \"Metu reen\" revenigas la liniojn, nur unu paŝon."
+      },
+      {
+        "q": "Ĉu mi povas uzi ĉi tion sen muso aŭ tuŝekrano?",
+        "a": "Jes. Kiam la desegnado havas fokuson, la klavoj de sago movas punkton de krajono, kaj la spaca klavo metas la krajonon malsupren aŭ supren. La ekrano diras \"Krajono malsupren\" aŭ \"Krajono supren\" ĉiufoje."
+      },
+      {
+        "q": "Kiaj koloroj ili estas, kaj ĉu homoj kun daltonismo povas distingi ilin?",
+        "a": "Flava, oranĝa, verda kaj purpura, la samaj kvar koloroj uzataj en niaj aliaj bildludoj. Ĉiu havas skriban nomon, kaj la nomoj montriĝas apud la vico. La koloroj estis kontrolitaj per simulaĵoj de oftaj diferencoj en kolorvido, sed persono kun diferencoj en kolorvido ankoraŭ ne provis ilin."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. \"Presu la paperan version\" presas unu paĝon kun la reguloj sur ĝi kaj granda malplena kadro por desegni, por du homoj kun du krajonoj. Ĝi funkcias nigre kaj blanke."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "build-together": {
+    "name": "Konstruu kune",
+    "seoTitle": "Konstruu Kune: Du Homoj Konstruas Unu Ŝablonon",
+    "h1": "Konstruu Kune: Du Homoj, Unu Kradreto",
+    "description": "Du homoj alterne metas pecon en komunan kradreton, ĝis ĝi plenas, ĉiu per propra koloro kun nomo kaj formo. Neniu venkas, kaj ne estas horloĝo nek poentoj. Senpaga por ludi kaj presi.",
+    "short": "Alternu kun iu apud vi por plenigi unu komunan kradreton.",
+    "players": "2 homoj, apud unu la alia",
+    "intro": "Komuna kradreto de 4 je 4 lokoj, aŭ 3 je 3, se vi preferas. Ĉiu el vi elektas koloron, kaj ĉiu koloro havas sian skribitan nomon kaj formon. Vi alternas: en via vico, tuŝu malplenan lokon por meti vian pecon tie. Kiam ĉiu loko havas pecon, la bildo estas konstruita kune. Ne estas venkinto, ĉar vi faras ĝin kiel paro, kaj nenio estas konservita aŭ sendita. \"Presi la kradreton\" metas malplenan kradreton sur unu paĝon, por ke vi konstruu per du krajonoj.",
+    "howTo": [
+      "Ĉiu el vi elektas koloron. Koloro, kiun la alia homo jam havas, estas markita \"En uzo\".",
+      "La unua homo komencas. La ekrano montras, kiu estas en la vico kaj kiu koloro apartenas al li aŭ ŝi.",
+      "Tuŝu malplenan lokon por meti vian pecon tie. La vico pasas al la alia homo.",
+      "Se vi preferas ne meti pecon, tuŝu \"Pasi\". Ĉiu el vi povas pasi iam ajn.",
+      "Kiam ĉiu loko havas pecon, vi konstruis la bildon kune. Tuŝu \"Komencu denove\" por konstrui alian, aŭ tuŝu Ripozi por halti."
+    ],
+    "tips": [
+      "Sidu apud unu la alian, por ke ambaŭ vidu kaj atingu la ekranon. Parolu dum la ludo: \"Mi metos la mian apud la via.\"",
+      "Provu konstrui ŝablonon, strekojn, damtabulon aŭ bordon, aŭ simple metu pecojn kie ajn vi volas. Ambaŭ estas bonaj.",
+      "Infano aŭ homo, kiu facile laciĝas, povas pasi tiel ofte kiel dezirs. La bildo tamen estas konstruita kune.",
+      "Sur papero, ĉiu homo uzas unu krajonon kaj desegnas sian propran formon en la malplenaj kvadratoj."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas venkinto, horloĝo aŭ poentaro?",
+        "a": "Ne. Ne estas venkinto, ĉar vi konstruas unu bildon kune. Ne estas horloĝo, poentaro, kalkulo de pecoj aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu io, kion ni faras, estas konservita aŭ sendita?",
+        "a": "Ne. La kradreto restas nur en ĉi tiu paĝo. Ĝi ne estas konservita, alŝutita aŭ kalkulita, kaj ĝi malaperas kiam vi fermas la paĝon. Se vi volas ĝin konservi, presu la kradreton kaj konstruu sur papero."
+      },
+      {
+        "q": "Kio se mi metas pecon en malĝustan lokon?",
+        "a": "Ne ekzistas malĝusta loko. Tuŝu \"Repreni la lastan pecon\", kaj la vico revenas al vi. Vi povas repreni unu paŝon post alia, kaj ankaŭ pason."
+      },
+      {
+        "q": "Ĉu homoj kun daltonismo povas distingi la kvar kolorojn?",
+        "a": "Ili estis elektitaj por tio. Ĉiu koloro havas ankaŭ skribitan nomon kaj sian propran malgrandan formon en ĉiu peco, do koloro neniam estas la sola maniero distingi ilin. La kvar koloroj estis kontrolitaj per simuladoj de ruĝ-verda kaj blu-flava daltonismo. Homo kun daltonismo ankoraŭ ne provis ilin, do bonvolu diri al ni, se du aspektas simile."
+      },
+      {
+        "q": "Ĉu la lokoj estas sufiĉe grandaj por tremo aŭ malgranda ekrano?",
+        "a": "Ĉiu loko estas almenaŭ 56 pikseloj larĝa. Se la kradreto estas tro larĝa por la ekrano, ĝi rulumas flanken ene de sia propra kesto, anstataŭ malgrandigi la lokojn."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. \"Presi la kradreton\" presas malplenan kradreton sur unu paĝo kun la du koloroj kaj iliaj nomoj, por konstrui per du krajonoj. Ĝi funkcias nigre kaj blanke, ĉar ĉiu koloro havas sian formon."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "seated-toss": {
+    "name": "Sidloka ĵetado kun kalkulo",
+    "seoTitle": "Sidloka Ĵetado kun Kalkulo: Saketa Ludo por Du",
+    "h1": "Sidloka Ĵetado kun Kalkulo: Ĵetu Kune ĉe Tablo",
+    "description": "Du homoj ĉe tablo alterne ĵetas molan sakon da faboj en grandan celon kaj tenas la kalkulon sur papero. Nenio estas tempigita aŭ poentita. Senpaga por presi.",
+    "short": "Alternu ĵetante sakon da fabo al granda celo, kun la kalkulo sur papero.",
+    "players": "2 homoj, ĉe tablo",
+    "intro": "Trankvila ĵetludo por du homoj sidantaj ĉe tablo. Vi metas presitan celon sur la tablon kaj alterne ĵetas molan sakon da fabo, aŭ rulitan ŝtrumpon, tiel ke ĝi falu sur la ringojn. Ĉiu el vi tenas kalkulon markante skatolojn sur papero, kaj vi kune rigardas la markojn kiam vi ĉesas. Nenio estas tempigita, nenio estas aldonita sur la ekrano, kaj nenio estas konservita aŭ sendita. Bonvolu legi la sekurecajn notojn unue: malgrandaj plenigaĵoj estas sufokiĝa danĝero.",
+    "howTo": [
+      "Legu la sekurecajn notojn. Elektu sakon kun kudrita kovrilo, aŭ rulu puran ŝtrumpon.",
+      "Tuŝu \"Presi la celon kaj kalkultabelon\" kaj metu la folion plate sur la tablon inter vi.",
+      "Sidu komforte, unu de ĉiu flanko, kaj alternu, ĉiu kun unu milda ĵeto. Ĉiu povas pasi.",
+      "Kiam ĵeto falas en ringon, marku skatolon en via kolumno, sur la vico por tiu ringo.",
+      "Rigardu la markojn kune kiam vi ĉesas, aŭ tuŝu Ripozi por paŭzi."
+    ],
+    "tips": [
+      "Sidx tiel proksime, ke malpeza ĵetado de malsupre atingu la celon sen ajna etendiĝo.",
+      "Parolu pri la ĵetado, ne pri la rezulto: „Tio estis mola.“ Ĉiuj ĝojkriu por ĉiu ĵetado.",
+      "Surŝtopita ŝtrumpo estas malpeza kaj facile tenebla per malforta tenilo. Lokigu brakon sur la tablon inter la turnoj.",
+      "Se iu preferas rigardi, tiu povas esti la persono, kiu markas la kvadratetojn."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu estas sekure ĵeti sakon da fazeoloj?",
+        "a": "Povas esti, se oni zorgas. Uzu sakon kun kudrita kovrilo aŭ surŝtopitan ŝtrumpon, neniam malfermajn grenojn, rizon aŭ malgrandajn enhavaĵojn, kiuj estas dangero de sufokiĝo por junaj infanoj kaj por ĉiu, kiu metas aferojn en la buŝon. Restu sidante, ĵetu milde direkte al la tablo kaj neniam direkte al vizaĝo, kaj restu proksime de plenkreska persono."
+      },
+      {
+        "q": "Ĉu io estas kalkulata aŭ konservata sur la ekrano?",
+        "a": "Ne. La kalkulo estas nur sur papero, en kvadratetoj, kiujn vi mem markas. La paĝo ne konservas kalkulon nek tempomezuron, kaj nenio estas konservata aŭ sendata."
+      },
+      {
+        "q": "Kion fari, se iu ne povas ĵeti, aŭ se la sako falas ekster la foliumo?",
+        "a": "Ĉiu rajtas pasi, kaj sako, kiu falas ekster la foliumo, simple estas prenata por la sekva turno. Por ĝi nenio estas kalkulata."
+      },
+      {
+        "q": "Kio estas sur la presita foliumo?",
+        "a": "Unu paĝo: granda celo kun tri ringoj nomitaj Proksima, Meza kaj Malproksima, tabelo kun kolumno por ĉiu persono kaj vico de malgrandaj kvadratetoj por marki por ĉiu ringo, kaj linio de sekurectinoj. La nomoj estas skribitaj sur la ringoj, do ĝi funkcias ankaŭ nigrablanke."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "seasonal-pack": {
+    "name": "Sezona puzla pako",
+    "seoTitle": "Sezona Puzla Pako: Preseblaj Paperaj Puzloj",
+    "h1": "Sezona Puzla Pako: Tri Paperaj Puzloj por Ĉiu Sezono",
+    "description": "Tri malgrandaj preseblaj puzloj por printempo, somero, aŭtuno aŭ vintro: kongrui la parojn, rondigi tiun, kiu diferencas, kaj kolorigi bildon. Elektu sezonon, aŭ prenu libertagon. Senpaga por presi.",
+    "short": "Tri preseblaj puzloj por la sezono, kiun vi elektas, aŭ por libertago.",
+    "players": "Ĉiuj aĝoj, sole aŭ kune",
+    "intro": "Elektu sezonon, kaj la paĝo montras tri malgrandajn paperajn puzlojn el la bildoj de tiu sezono: du vicojn por ligi per linioj, vicon de kvar por rondigi tiun, kiu diferencas, kaj bildon por kolorigi. Vi presas unu paĝon, poste faras unu, du aŭ ĉiujn tri, laŭ via propra rapido. Elektu „Hodiaŭ estas libertago“ anstataŭe, kaj tiam nenio estas farenda.",
+    "howTo": [
+      "Elektu sezonon, aŭ elektu „Hodiaŭ estas libertago“.",
+      "Rigardu la tri puzlojn, poste tuŝetu „Presi la pakon de ĉi tiu sezono“.",
+      "Faru unu, du aŭ ĉiujn tri, laŭ via propra rapido.",
+      "Ligu la samajn bildojn per linio, rondigu tiun, kiu diferencas, kaj kolorigu la grandan bildon.",
+      "Haltu kiam ajn vi volas. Libertago ankaŭ estas bona tago."
+    ],
+    "tips": [
+      "Komencu per la puzlo, kiu hodiaŭ ŝajnas plej facila. Unu sufiĉas.",
+      "Dirु la nomon de ĉiu bildo laŭte, se tio helpas.",
+      "Uzu kreojn aŭ krajonojn. Ĉiuj koloroj estas bonaj.",
+      "Konservu la paĝon por la venonta fojo, aŭ lasu ĝin iri."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu la paĝo scias, kiu sezono estas nun?",
+        "a": "Ne. Vi elektas la sezonon. La paĝo ne rigardas la daton nek vian lokon."
+      },
+      {
+        "q": "Ĉu estas poentaro aŭ ĝusta respondo?",
+        "a": "Ne. Nenio estas tempigita, poentita aŭ kontrolita sur la ekrano, kaj neniuj respondoj estas montrataj. Ĉiu puzlo estas nur bildo por rigardi, ligi, rondigi aŭ kolorigi."
+      },
+      {
+        "q": "Kion fari, se neniu volas puzlojn hodiaŭ?",
+        "a": "Elektu „Hodiaŭ estas libertago“. La paĝo tiam montras unu trankvilan linion, kaj nenio estas presenda aŭ farenda."
+      },
+      {
+        "q": "Kio estas sur la presita foliumo?",
+        "a": "Unu paĝo por la sezono, kiun vi elektis: ĝiaj tri puzloj, ĉiu kun mallonga linio pri kiel fari ĝin, kaj linio dirante, ke vi povas fari unu, du aŭ ĉiujn tri."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "decorate-a-card": {
+    "name": "Ornami karton kune",
+    "seoTitle": "Ornami Karton Kune: Presebla Salutkarto",
+    "h1": "Ornami Karton Kune: Fari Unu por Iu",
+    "description": "Du homoj ornamas presitan salutkarton por naskiĝtago, dankon aŭ simple pro ĝojo, poste kune skribas mesaĝon sur la dorso. Nur kreoj aŭ plumoj. Neniu tempomezurilo aŭ poentaro. Senpaga por presi.",
+    "short": "Ornami presitan salutkarton kune.",
+    "players": "2 homoj, sidante apud unu la alia",
+    "intro": "Trankvila farada ludo por du homoj sidantaj apud unu la alia. Vi presas unu folion, kiu faldiĝas duonon por fari karton. Elektu okazon, ekzemple naskiĝtagon aŭ dankon, kaj ornamu la antaŭflankon ĉirkaŭ ĝiaj vortoj. Poste skribu mesaĝon sur la dorso, kune aŭ unu persono skribas tion, kion la alia diras. Uzu kreojn, koloran krajonon aŭ feltfarbajn plumojn. Ne ekzistas ĝusta karto, kaj nenio estas tempigita, poentita aŭ sendata.",
+    "howTo": [
+      "Elige una okazo, poste premu \"Presi la karton\".",
+      "Faldu la folion duone laŭ la strekita linio, tiel ke la antaŭa flanko estu ekstere.",
+      "Unu persono ornamas la antaŭan flankon kaj la alia la malantaŭan, aŭ vi alternas sur unu flanko.",
+      "Skribu mesaĝon kune. Unu persono povas skribi dum la alia diras la vortojn.",
+      "Haltu kiam ajn vi volas. Simpla karto estas same bona kiel detala."
+    ],
+    "tips": [
+      "Komencu per la vortoj sur la antaŭa flanko, kaj poste aldonu folioj, steloj aŭ punktoj ĉirkaŭ ili, unu post la alia.",
+      "Se iu preferas ne desegni, la persono povas elekti la kolorojn aŭ skribi la mesaĝon.",
+      "Diru, kion vi ŝatas en la signoj de la alia persono, anstataŭ demandi ĉu ili estas bonaj.",
+      "Metu la karton en lokon, de kie ĝi povas esti donita, aŭ simple lasu ĝin sur la tablo por nun."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas horloĝo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu ni bezonas gluon, tondilojn aŭ glumarkojn?",
+        "a": "Ne. Kreajonoj, koloraj krajonoj aŭ feltaj krajonoj sufiĉas. Nenio bezonas tondi, gluu aŭ alglui."
+      },
+      {
+        "q": "Ĉu ni povas fari karton por okazo, kiu ne estas en la listo?",
+        "a": "Elektu \"Nur ĉar\" kaj skribu viajn proprajn vortojn sur la antaŭa flanko, aŭ simple ornamu la karton sen ia okazo."
+      },
+      {
+        "q": "Ĉu io estas nombrita, juĝita aŭ konservita sur la ekrano?",
+        "a": "Ne. La paĝo montras nur la karton kaj la paŝojn. Nenio estas rangigita, poentita aŭ konservita, kaj ne estas ĝusta karto."
+      },
+      {
+        "q": "Kio estas sur la presita folio?",
+        "a": "Unu paĝo: karto faldita duone, kun la vortoj de la okazo kaj simpla kadro sur la antaŭa flanko, kaj linioj por mesaĝo kaj linio De sur la malantaŭa flanko. La reguloj por du personoj estas presitaj laŭ la malsupro."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur poŝtelefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "find-together": {
+    "name": "Trovu kune",
+    "seoTitle": "Trovu Kune: Du Personoj Trovas la Parojn",
+    "h1": "Trovu Kune: Du Personoj, Unu Teamo",
+    "description": "Du personoj dividas unu ekranon kaj alterne turnas du bildkartojn por serĉi paron. Parojn oni trovas kune kaj kalkulas sur unu komuna tabelo. Senpaga ludo, sen horloĝo aŭ poentaro.",
+    "short": "Alterne ludu kun iu apud vi por trovi la bildajn parojn.",
+    "players": "2 personoj, unu apud la alia",
+    "intro": "La kartoj komencas kun siaj bildoj videblaj, aŭ vi povas meti ilin kun la dorso supren. En via vico vi turnas du kartojn. Se ili estas paro, vi trovis ĝin kune kaj la vico pasas. Se ili estas malsamaj, ili restas kun la bildo supren ĝis vi premas \"Returnu ilin\", por ke vi ambaŭ povu rigardi. Vi povas pasi iam ajn. La tabelo supre nur kreskas: la paroj, kiujn vi kune trovis.",
+    "howTo": [
+      "Elektu kiom da kartoj uzi. Ses kartoj, tri paroj, estas kvieta komenco.",
+      "La ekrano diras, kies vico estas, kun rondo por la unua persono kaj kvadrato por la dua.",
+      "Turnu du kartojn, unu post la alia. Se ili kongruas, la paro estas trovita kune.",
+      "Se ili estas malsamaj, premu \"Returnu ilin\" kiam vi ambaŭ pretas. Tiam la vico pasas.",
+      "Ĉiu el vi povas premi \"Pasi\" iam ajn. Tuŝu \"Komencu denove\" por novaj kartoj, aŭ tuŝu Ripozi por halti."
+    ],
+    "tips": [
+      "Sidu unu apud la alia kaj nomu la bildojn laŭte kune: \"Taso da teo. Ĉu vi trinkas teon kun lakto?\"",
+      "Lasu la personon, kiun vi zorgas, fari la tuŝadon, eĉ se tio daŭras iom. Montru anstataŭ tuŝi por ili.",
+      "Elektu \"Kartoj kun la dorso supren\" se ambaŭ ŝatas turni kartojn por trovi la bildojn.",
+      "Persono, kiu facile lacas, povas pasi kiom ajn ofte. La paroj ankoraŭ estas trovitaj kune."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas gajninto, horloĝo aŭ poentaro?",
+        "a": "Ne. Ne estas gajninto, ĉar vi trovas la parojn kiel teamo. Ne estas horloĝo, poentaro kaj nombro de eraroj. La tabelo nur kalkulas la parojn, kiujn vi kune trovis, kaj vi povas halti iam ajn."
+      },
+      {
+        "q": "Ĉu ni devas memori kie estas la bildoj?",
+        "a": "Ne. La ludo komencas kun ĉiuj bildoj videblaj. Kun la kartoj kun la dorso supren, vi povas demandi unu la alian, kion vi vidis, aŭ simple turni ilin denove."
+      },
+      {
+        "q": "Kio okazas kiam du kartoj estas malsamaj?",
+        "a": "Ili restas kun la bildo supren, por ke vi ambaŭ povu rigardi ilin tiom longe kiom necesas. Nenio turnas ilin reen memstare. Kiam vi pretas, premu \"Returnu ilin\", kaj la vico pasas al la alia persono."
+      },
+      {
+        "q": "Ĉu io, kion ni ludas, estas konservita aŭ sendita?",
+        "a": "Ne. La kartoj restas nur en ĉi tiu paĝo. Nenio estas konservita, alŝutita aŭ kalkulita, kaj ĝi malaperas kiam vi fermas la paĝon."
+      },
+      {
+        "q": "Ĉu la kartoj estas sufiĉe grandaj por tremo aŭ malgranda ekrano?",
+        "a": "Ĉiu karto estas almenaŭ 64 pikseloj larĝa kaj estas same granda kiel la ekrano permesas. Uzantoj de klavaro kaj ekrana leganto aŭdas ĉiun karton laŭ ĝia loko kaj ĝia bildo."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur poŝtelefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "story-dice": {
+    "name": "Rakontaj ludkuboj",
+    "seoTitle": "Rakontaj Ludkuboj: Bilda Rakontludo",
+    "h1": "Rakontaj Ludkuboj: Rakontu Historion per Bildoj",
+    "description": "Tri aŭ kvar bildaj ludkuboj por rakonti historion, en ajna ordo. Neniu legado, neniu ĝusta respondo, neniu horloĝo kaj neniu poentaro. Ĵetu denove, aŭ pasu. Senpaga ludo kaj presado.",
+    "short": "Ĵetu bildajn ludkubojn kaj rakontu historion kune, en ajna ordo.",
+    "players": "2 aŭ pli da personoj, aŭ plenkreskulo kaj infano",
+    "intro": "Tri aŭ kvar bildoj estas montrataj kiel ludilo-dadoj. Kune, elpensu rakonton, kiu uzas ilin, en ajna sinsekvo. Rakonto povas esti unu frazo aŭ kelkaj, kaj ĝi povas esti amuza aŭ realeca. Ne ekzistas ĝusta rakonto, kaj neniu devas nomi aŭ memori ion. Alklaku \"Ĵetu denove\" por novaj bildoj, kaj ĉiu rajtas pasi.",
+    "howTo": [
+      "Elektu tri aŭ kvar dadojn. Tri estas la plej simpla.",
+      "Rigardu la bildojn kune. Alklaku unu, se vi volas komenci per ĝi.",
+      "Alterne rakontu rakonton, kiu uzas la bildojn, en ajna sinsekvo. Unu frazo por ĉiu sufiĉas.",
+      "Ĉiu rajtas pasi. Alklaku \"Pasi\", kaj la sekva persono povas komenci.",
+      "Alklaku \"Ĵetu denove\" por novaj bildoj kiam ajn vi volas, aŭ alklaku Ripozi por halti."
+    ],
+    "tips": [
+      "Demandu anstataŭ atendi respondon: \"Kien eble iras la ombrelo?\"",
+      "Aldonu al tio, kion la antaŭa persono diris, anstataŭ korekti ĝin. Ajna rakonto estas bona.",
+      "Rakonto povas temi pri vera memoro. Bildo estas bona komenco por ĝi."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu mi bezonas legi aŭ nomi la bildojn?",
+        "a": "Ne. La ludo funkcias nur per la bildoj. Ludantoj povas montri, priskribi aŭ simple diri, kion la bildo memorigas al ili. Neniu estas petata nomi aŭ rememori ion."
+      },
+      {
+        "q": "Kio okazas, se iu ne volas ludi sian vicon?",
+        "a": "Tiu povas pasi iam ajn sen klarigo. La ludo simple atendas, kaj la sekva persono povas komenci, aŭ vi povas ĵeti denove."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. Unupaĝa folio havas dekses malsamajn bildojn en kvar vicoj. Elektu vicon, aŭ tranĉu la bildojn kaj tiru kelkajn el stako."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "word-and-picture-pairs": {
+    "name": "Vortaj kaj bildaj paroj",
+    "seoTitle": "Vortaj kaj Bildaj Paroj: Kongrui Vortojn kun Bildoj",
+    "h1": "Vortaj kaj Bildaj Paroj: Kongrui la Vorton kun la Bildo",
+    "description": "Kongrui anglajn vortojn kun iliaj bildoj, kaj aŭdi ajnan vorton legatan laŭte. Bildoj restas videblaj, sen tempomezurilo, poentaro aŭ nombro de provoj. Senpaga por ludi kaj presi.",
+    "short": "Kongrui ĉiun vorton kun ĝia bildo, kaj aŭdi ĝin legatan laŭte.",
+    "players": "Unu plenkreskulo, aŭ familio ludanta kune",
+    "intro": "Kvar aŭ ses bildoj estas montrataj, kun iliaj anglaj vortoj en malsama sinsekvo. Alklaku vorton kaj poste ĝian bildon, aŭ bildon kaj poste ĝian vorton. Kongruo restas kune per dika bordo kaj la vorto \"Kongruis\". Alklaku \"Legu laŭte\" apud ajna vorto por aŭdi ĝin parolata. Nenio estas tempigita aŭ poentata, kaj klako, kiu ne kongruas, simple malplenigas sin.",
+    "howTo": [
+      "Elektu kvar aŭ ses bildojn. Kvar estas la plej simpla.",
+      "Alklaku vorton, kaj poste la bildon, kiun ĝi nomas. Aŭ alklaku unue bildon, kaj poste ĝian vorton.",
+      "Kongruo restas kune. Klako, kiu ne kongruas, malaperas trankvile, do provu alian.",
+      "Alklaku \"Legu laŭte\" apud vorto por aŭdi ĝin, se via aparato povas legi tekston laŭte.",
+      "Alklaku \"Novaj bildoj\" por alia aro, aŭ \"Komencu denove\" por malligi ĉiujn parojn. \"Metu ĝin reen\" revenigas la lastajn kongruojn."
+    ],
+    "tips": [
+      "Diru ĉiun vorton laŭte kune antaŭ ol kongrui ĝin, kaj parolu pri la bildo.",
+      "Familioj povas alterne ludi. Ĉiu persono elektas unu vorton aŭ bildon samtempe.",
+      "Uzu unue la vortojn, kiujn vi jam scias, kaj lasu la ceterajn por poste."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, movonombrilo aŭ perdo. Vi povas halti iam ajn, kaj halti duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu ĉi tio estas por infanoj?",
+        "a": "Ĝi estas farita por plenkreskuloj, kiuj lernas aŭ relernas anglajn vortojn, kaj por familioj, kiuj ludas kune. Ĝi ne estas verkita por infanoj."
+      },
+      {
+        "q": "Kion mi faru, se mia aparato ne povas legi tekston laŭte?",
+        "a": "La butono Legu laŭte uzas la voĉon, kiun via retumilo jam havas. Se la retumilo ne povas paroli, la butono ne montriĝas, kaj la ludo funkcias sen ĝi."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. Unupaĝa folio havas ses bildojn kaj iliajn ses vortojn, por tranĉi aŭ por kunligi per linio."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
   "sort-together": {
     "name": "Ordigu kune",
-    "seoTitle": "Ordigo de Ludo por Demenco: Ordigi Kune",
+    "seoTitle": "Klasiga Ludo: Klasigu Kune por Plenkreskuloj",
     "h1": "Ordigi Kune: Bilda Ordiga Agado",
-    "description": "Frapu bildon, tiam frapeti la korbon al kiu ĝi apartenas: kuirejo aŭ ĝardeno, frukto aŭ bestoj. Trankvila, senpaga ordiga agado por homoj vivantaj kun demenco.",
+    "description": "Alklaku bildon, kaj poste la korbon, al kiu ĝi apartenas: kuirejo aŭ ĝardeno, frukto aŭ bestoj. Trankvila, senpaga klasiga ludo por plenkreskuloj kaj familioj.",
     "short": "Metu ĉiun bildon en sian korbon: kuirejon aŭ ĝardenon, kaj pli.",
     "players": "1 aŭ 2 personoj",
     "intro": "Ordigi estas konata, kontentiga ĉiutaga tasko, kiel formeti manĝaĵojn aŭ kunigi ŝtrumpetojn. Frapu bildon, tiam frapeti la korbon kie ĝi apartenas. Ne estas hasto kaj neniu malĝusta turno.",
@@ -150,12 +800,12 @@
   },
   "picture-puzzle": {
     "name": "Bilda enigmo",
-    "seoTitle": "Facila Puzlo por Demenco: 4 aŭ 9 Pecoj",
+    "seoTitle": "Facila Enreta Puzlo: 4 aŭ 9 Grandaj Pecoj",
     "h1": "Bildpuzlo: Facila Puzlo",
-    "description": "Facila interreta puzlo por homoj vivantaj kun demenco: 4 aŭ 9 grandaj pecoj, la tuta bildo restas videbla, kaj vi frapetas du pecojn por interŝanĝi ilin.",
+    "description": "Facila enreta puzlo por plenkreskuloj: 4 aŭ 9 grandaj pecoj, la tuta bildo restas videbla, kaj vi alklakas du pecojn por interŝanĝi ilin. Uzu vian propran foton, kiu restas en ĉi tiu aparato. Senpaga, sen tempomezurilo.",
     "short": "Frapu du pecojn por interŝanĝi ilin ĝis la bildo estas tuta.",
     "players": "1 aŭ 2 personoj",
-    "intro": "Amika bildo estas tranĉita en kvar aŭ naŭ grandajn pecojn kaj miksita. La tuta bildo restas videbla kiel gvidilo. Frapu unu pecon, poste alian, kaj ili interŝanĝas lokojn. Ne necesas trenado.",
+    "intro": "Amika bildo estas tranĉita en kvar aŭ naŭ grandajn pecojn kaj miksita. La tuta bildo restas videbla kiel gvidilo. Alklaku unu pecon, kaj poste alian, kaj ili interŝanĝos lokojn. Trenado ne necesas. Vi ankaŭ povas uzi unu el viaj propraj fotoj. Ĝi restas en ĉi tiu aparato kaj neniam alŝutiĝas.",
     "howTo": [
       "Elektu bildon kaj 4 aŭ 9 pecojn. Kvar estas milda komenco.",
       "Rigardu la tutan bildon supre.",
@@ -185,7 +835,7 @@
   },
   "finish-the-saying": {
     "name": "Finu la diron",
-    "seoTitle": "Finu la Diron: Proverba Ludo por Maljunuloj",
+    "seoTitle": "Finu la Proverbon: Konataj Proverboj, Ludo",
     "h1": "Finu la Diron",
     "description": "Konataj usonaj diraĵoj kun la lasta vorto mankas, kiel \"A penco ŝparita estas penco ___\". Frapu elekton aŭ montru la finon, poste parolu pri ĝi.",
     "short": "Kompletigu konatajn dirojn kune, poste parolu pri ili.",
@@ -219,9 +869,9 @@
   },
   "word-search": {
     "name": "Grandgrava vortserĉo",
-    "seoTitle": "Granda Presaĵo Vortserĉo por Demenco, Presebla",
+    "seoTitle": "Vortserĉo en Grandaj Literoj, Senpaga kaj Presebla",
     "h1": "Grandprema Vortserĉo",
-    "description": "Senpaga grandprema vortserĉo por maljunuloj kaj homoj vivantaj kun demenco. Malmultaj vortoj, grandaj literoj, vortoj trans kaj malsupren nur. Ludu interrete aŭ presi.",
+    "description": "Senpaga vortserĉo en grandaj literoj por plenaĝuloj kaj familioj. Malmultaj vortoj, grandaj literoj, vortoj nur horizontale kaj vertikale. Ludu enrete aŭ presu.",
     "short": "Grandaj literoj, kelkaj vortoj, nur trans kaj malsupren. Presu ĝin ankaŭ.",
     "players": "1 aŭ 2 personoj",
     "intro": "Malgranda krado kun grandaj literoj kaj nur manpleno da vortoj, ĉiuj legantaj trans aŭ malsupren. Frapu la unuan literon de vorto, poste ĝian lastan literon. Ĉu vi preferas paperon? Presu freŝan enigmon per unu frapeto.",
@@ -254,7 +904,7 @@
   },
   "coloring": {
     "name": "Koloraj paĝoj",
-    "seoTitle": "Koloraj Paĝoj por Plenkreskuloj kun Demenco (Senpaga)",
+    "seoTitle": "Senpagaj Kolorpaĝoj por Plenkreskuloj, Grandaj kaj Simplaj",
     "h1": "Koloraj Paĝoj",
     "description": "Simplaj, plenkreskaj koloraj paĝoj kun grandaj areoj: frapu koloron, tiam frapetu la bildon.",
     "short": "Frapu koloron, poste parton de la bildo. Presi paĝojn ankaŭ.",
@@ -289,9 +939,9 @@
   },
   "conversation-cards": {
     "name": "Konversaciaj kartoj",
-    "seoTitle": "Komenciloj de Konversacio por Demenco: Bildaj Kartoj",
+    "seoTitle": "Samtaletemoj: Bildkartoj por familioj",
     "h1": "Konversaciaj Kartoj",
-    "description": "Bildkartoj kun mildaj konversaciiloj por homoj vivantaj kun demenco: neniu kvizo, neniu ĝusta respondo. Uzu sur ekrano aŭ presi la plenan aron.",
+    "description": "Bildkartoj kun mildaj samtalekomencoj por familioj, amikoj kaj plenkreskaj aĝuloj, inkluzive de homoj kun demenco. Neniu ekzamenado, neniuj ĝustaj respondoj.",
     "short": "Bildkartoj kun malfermaj, mildaj demandoj. Neniu kvizo.",
     "players": "2 personoj aŭ grupo",
     "intro": "Ĉiu karto parigas konatan bildon kun malferma invito por paroli, kiel \"Kio estas via plej ŝatata vetero?\" Ne estas ĝustaj respondoj kaj nenio memorinda. Elektu temon aŭ miksu ilin ĉiujn.",
@@ -329,12 +979,13 @@
     "description": "Transformu viajn proprajn familiajn fotojn en mildan kongruan ludon. Elektu 2 ĝis 6 fotojn sur via aparato; ili restas en via retumilo kaj neniam estas alŝutitaj.",
     "short": "Elektu viajn proprajn fotojn kaj kongruu kun ili. Nenio estas alŝutita.",
     "players": "2 personoj, unu apud la alia",
-    "intro": "Elektu du ĝis ses fotojn el via telefono, tablojdo aŭ komputilo, kaj ili fariĝas kongrua ludo kun grandaj, videblaj bildoj. La fotoj estas montrataj nur ene de ĉi tiu paĝo. Ili ne estas alŝutitaj, konservitaj aŭ dividitaj, kaj ili malaperas kiam vi fermas la paĝon.",
+    "intro": "Elektu du ĝis ses el viaj propraj familiaj fotoj el via telefono, tabledo aŭ komputilo, kaj ili fariĝos paroludo kun grandaj, videblaj bildoj. La fotoj estas montrataj nur ene de ĉi tiu paĝo. Ili ne estas alŝutataj, konservataj aŭ dividataj, kaj ili malaperas kiam vi fermas la paĝon. Se vi volas, aldonu kelkajn vortojn sub ĉiu foto, kaj milda indiko povas montri unu paron post paŭzo. Ĉi tio estas maniero rigardi familiajn fotojn kune.",
     "howTo": [
-      "Frapu \"Elektu fotojn\" kaj elektu du ĝis ses fotojn.",
-      "Ĉiu foto aperas dufoje. Frapu unu, tiam frapeti ĝian paron.",
-      "Parolu pri ĉiu foto kiel vi trovas ĝin.",
-      "Kiam vi finos, fermu la paĝon aŭ frapetu \"Forviŝi fotojn\". Nenio estas konservita."
+      "Tuŝu \"Elekti fotojn\" kaj elektu du ĝis ses fotojn.",
+      "Ĉiu foto aperas dufoje. Tuŝu unu, poste tuŝu ĝian paron.",
+      "Se vi volas, aldonu kelkajn vortojn sub ĉiu foto. Subskriboj ne estas konservataj.",
+      "Parolu pri ĉiu foto dum vi trovas ĝin.",
+      "Kiam vi finis, fermu la paĝon aŭ tuŝu \"Forigi fotojn\". Nenio estas konservata."
     ],
     "tips": [
       "Elektu klarajn fotojn de feliĉaj, konataj aferoj: dorlotbesto, ĝardeno, plej ŝatata loko, geedziĝtago.",
@@ -358,9 +1009,9 @@
   },
   "picture-bingo": {
     "name": "Bilda bingo",
-    "seoTitle": "Bilda Bingo por Maljunuloj kun Demenco: Presebla",
+    "seoTitle": "Presebla bildbingo por grupoj",
     "h1": "Bilda Bingo por Grupoj",
-    "description": "Senpaga presebla bildbingo por memorprizorgo kaj altrangaj grupoj, kun granda surekrana alvokanto. Grandaj bildoj kun vortoj, 9 aŭ 16 kvadratoj, ne necesas legado.",
+    "description": "Senpaga presebla bildbingo por familioj, grupoj de aĝuloj kaj zorgejoj. Grandaj bildoj kun vortoj, 9 aŭ 16 kvadratoj, kaj granda ekrana vokanto.",
     "short": "Preseblaj bildaj bingo-kartoj kaj grandekrana alvokanto por grupoj.",
     "players": "Grupo de 2 ĝis 30",
     "intro": "Klasika bingo kun bildoj anstataŭ ciferoj, do neniu bezonas legi malgrandajn literojn. Presu aron da unikaj kartoj, tiam uzu la surekranan alvokilon por montri ĉiun bildon grandan sur televidilo, tekkomputilo aŭ tablojdo.",
@@ -392,9 +1043,268 @@
       }
     ]
   },
+  "picnic-planner": {
+    "name": "Piknika planilo",
+    "seoTitle": "Piknika planilo: Elektu bildojn por eliro",
+    "h1": "Piknika planilo: Elektu bildojn, poste kongruigu ilin",
+    "description": "Elektu bildojn de manĝaĵoj kaj aferoj por fari piknike, poste ludu mildan kongruigan rondon kun ili. Nenio estas tempigata. Senpaga por ludi kaj presi.",
+    "short": "Elektu bildojn de manĝaĵoj kaj eliraj aferoj por pikniko, poste kongruigu ilin.",
+    "players": "Sola, aŭ 2 homoj apud unu la alian",
+    "intro": "Tuŝu bildojn de manĝaĵoj kaj aferoj por fari, por meti ilin en piknikan korbon, kiu tenas ĝis ses. Frazo en vortoj diras, kio estas en la korbo, ekzemple \"Nia pikniko: pano, fromaĝo, pomoj kaj kajto.\" Poste tuŝu \"Ni ludu per nia pikniko\" por milda kongruiga rondo farita el la elektitaj bildoj. La bildoj restas montrataj, kaj nenio estas tempigata, poentigata aŭ konservata. \"Presi nian piknikan liston\" presas kontrolliston de tio, kion vi elektis, kun markobutono por ĉiu afero por pakado.",
+    "howTo": [
+      "Tuŝu bildon de manĝaĵo aŭ de io por fari. Ĝi iras en la korbon.",
+      "Tuŝu bildon en la korbo por forpreni ĝin denove.",
+      "Elektu almenaŭ du aferojn, poste tuŝu \"Ni ludu per nia pikniko\".",
+      "Tuŝu du bildojn, kiuj estas samaj. La bildoj restas montrataj, do ne estas necese memori ion.",
+      "Tuŝu \"Presi nian piknikan liston\" por papera kontrolliston por porti kun vi."
+    ],
+    "tips": [
+      "Demandu la homojn kun kiuj vi estas, kion ili ŝatus alporti, kaj elektu la bildojn kune.",
+      "Parolu pri ĉiu bildo dum ĝi eniras: \"Ĉu vi memoras la kajton, kiun ni flugigis ĉe la strando?\"",
+      "Sur papero, la malplenaj linioj estas por io ajn alia, kion vi volas alporti, aŭ por nomo."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo, poento aŭ gajninto?",
+        "a": "Ne. Nenio estas tempigata aŭ kalkulata, kaj neniu gajnas. La kongruiga rondo havas neniujn erarojn kaj neniujn poentojn."
+      },
+      {
+        "q": "Ĉu ĉi tio estas manĝoplano?",
+        "a": "Ne. Ĝi estas bildoplano por eliro, por paroli pri ĝi kaj porti ĝin en papero. Ĝi ne diras, kion iu devus manĝi."
+      },
+      {
+        "q": "Ĉu la bildoj, kiujn ni elektas, estas konservataj aŭ senditaj?",
+        "a": "Ne. La korbo restas nur en ĉi tiu paĝo. Ĝi ne estas konservata, alŝutata aŭ sendita, kaj ĝi malaperas kiam vi fermas la paĝon."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Jes. \"Presi nian piknikan liston\" presas unu paĝon, en A4 aŭ US Letter. Ĝi montras la bildojn, kiujn vi elektis, kun markobutono por ĉiu, kaj malplenajn liniojn por io ajn alia."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tabledo aŭ komputilo."
+      }
+    ],
+    "relatedGuides": [
+      "together/puzzles-and-table-games",
+      "caregiving/how-to-play-together"
+    ]
+  },
+  "scrapbook": {
+    "name": "Albumo",
+    "seoTitle": "Albumo: Rigardu familiajn fotojn kune, paĝon post paĝo",
+    "h1": "Albumo: Aldonu viajn fotojn kaj subskribojn, poste turnu la paĝojn",
+    "description": "Elektu du ĝis dek du el viaj propraj familiaj fotoj en via aparato kaj turnu ilin kiel libron, kun kelkaj vortoj sub ĉiu. Nenio estas alŝutata. Senpaga por presi.",
+    "short": "Rigardu viajn proprajn familiajn fotojn kune, kiel libron.",
+    "players": "Sola, aŭ 2 homoj apud unu la alian",
+    "intro": "Elektu du ĝis dek du el viaj propraj fotoj de ĉi tiu aparato. Ĉiu foto fariĝas unu paĝo de libro, sufiĉe granda por vidi, kun laŭvola frazo sub ĝi. Turnu la paĝojn per la butonoj aŭ per la sagoklavoj, kaj uzu \"Rigardi kune\" por sidi apud unu la alia kun nur la fotoj kaj vortoj. Viaj fotoj restas en ĉi tiu aparato. Ili ne estas alŝutataj aŭ konservataj, kaj la libro malaperas kiam vi fermas la paĝon. \"Presi la albumon\" presas unu foton kaj ĝiajn vortojn sur ĉiu paĝo, kun paĝnumeroj.",
+    "howTo": [
+      "Tuŝu \"Elekti fotojn\" kaj elektu du ĝis dek du fotojn. Demandu antaŭ ol uzi foton de iu, kiu ne povas diri jes.",
+      "Turnu la paĝojn per \"Antaŭa paĝo\" kaj \"Sekva paĝo\", aŭ per la maldekstra kaj dekstra sagoklavoj.",
+      "Aldonu kelkajn vortojn sub foto, se vi volas. Uzu \"Movi pli frue\" aŭ \"Movi pli malfrue\" por ŝanĝi la ordon.",
+      "Tuŝu \"Rigardi kune\" por kaŝi la redaktilojn kaj rigardi la libron apud unu la alian.",
+      "Tuŝu \"Presi la albumon\" por papera kopio, aŭ \"Forigi la libron\" kiam vi finis. Nenio estas konservata."
+    ],
+    "tips": [
+      "Escoja fotos de cosas alegres y conocidas: un jardín, una mascota, un lugar preferido. Hable de cada página mientras la pasa.",
+      "Deje que la persona diga algunas palabras por cada página, aunque sea una sola, y escríbalas tal como las dice.",
+      "En papel, las páginas impresas pueden guardarse en una carpeta, y la familia puede añadir sus propias fotos y notas alrededor de ellas."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, se puntúa ni se cuenta, y nadie gana. El número de página solo sirve para saber en qué parte del álbum está."
+      },
+      {
+        "q": "¿Se guardan, suben o envían nuestras fotos o pies de foto?",
+        "a": "No. Esta página solo lee las fotos, y no se suben, almacenan ni envían a ningún sitio. Los pies de foto se mantienen solo mientras la página está abierta. Al cerrarla, el álbum desaparece."
+      },
+      {
+        "q": "¿Podemos imprimir el álbum?",
+        "a": "Sí. «Imprimir el álbum» imprime una foto con su pie de foto en cada página, con números de página. Elija A4 o US Letter en el cuadro de impresión."
+      },
+      {
+        "q": "¿Es gratis? ¿Hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "collage-board": {
+    "name": "Tablero de collage",
+    "seoTitle": "Tablero de collage: dos personas colocan imágenes por turnos",
+    "h1": "Tablero de collage: colocar imágenes en un tablero, por turnos",
+    "description": "Dos personas se turnan para colocar imágenes recortadas en un tablero compartido. Toque una imagen recortada y luego un hueco vacío. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Coloquen imágenes por turnos en un tablero compartido.",
+    "players": "2 personas, una al lado de la otra",
+    "intro": "Dos personas se sientan una al lado de la otra con un tablero de doce huecos y una bandeja de ocho imágenes recortadas. Toque una imagen recortada y luego un hueco vacío, y la imagen se colocará allí. Después, el turno pasa a la otra persona. Las imágenes de cada persona tienen su propia forma, un círculo o un cuadrado, así que el tablero muestra quién colocó cada una sin depender del color. Cualquiera de las dos personas puede pasar el turno, y se puede deshacer un paso. Nada se cronometra, se puntúa ni se guarda. «Imprimir el tablero» imprime el tablero vacío y las imágenes para recortar.",
+    "howTo": [
+      "Toque una imagen recortada de la bandeja. Mientras esté seleccionada, mostrará «Elegida».",
+      "Toque un hueco vacío del tablero. La imagen recortada se colocará allí y el turno pasará.",
+      "Cualquiera de las dos personas puede tocar «Pasar» en cualquier momento, o «Quitar la última pieza» para deshacer un paso.",
+      "Toque «Otro juego de imágenes» para obtener una bandeja distinta. Las imágenes que ya están en el tablero se quedan donde están.",
+      "Toque «Empezar de nuevo» para vaciar el tablero, y «Devolver» si cambia de opinión."
+    ],
+    "tips": [
+      "Digan en voz alta el nombre de cada imagen al colocarla, por ejemplo «la taza de té va junto a la casa». Hablar hace que la actividad sea compartida.",
+      "Deje que las dos personas se turnen para elegir la imagen recortada y también el hueco, para que ambas tengan voz.",
+      "En papel, recorte las ocho imágenes con ayuda de un adulto y luego colóquelas sobre los recuadros impresos."
+    ],
+    "faq": [
+      {
+        "q": "¿Hay temporizador, puntuación o ganador?",
+        "a": "No. Nada se cronometra, se puntúa ni se cuenta, y nadie gana. Un tablero completo es simplemente aquel en el que hay una imagen en cada hueco."
+      },
+      {
+        "q": "¿Se guardan o envían las imágenes que colocamos?",
+        "a": "No. El tablero permanece solo en esta página. No se guarda, sube ni cuenta, y desaparece al cerrar la página."
+      },
+      {
+        "q": "¿Cómo sabemos de quién es cada imagen?",
+        "a": "Cada persona tiene una forma. Las imágenes de la primera persona llevan un círculo en la esquina, y las de la segunda, un cuadrado; el nombre de cada una aparece encima del tablero."
+      },
+      {
+        "q": "¿Hay una versión en papel?",
+        "a": "Sí. «Imprimir el tablero» imprime el tablero vacío con doce recuadros, las ocho imágenes debajo en el mismo tamaño y la línea de corte. Un adulto puede encargarse del recorte."
+      },
+      {
+        "q": "¿Es gratis? ¿Hay que registrarse?",
+        "a": "Sí, es gratis, y no hace falta cuenta, registro ni descarga. Funciona en el navegador web de un teléfono, una tableta o un ordenador."
+      }
+    ]
+  },
+  "garden-planner": {
+    "name": "Planificador de jardín",
+    "seoTitle": "Planificador de jardín: diseñe un terreno con imágenes de plantas",
+    "h1": "Planificador de jardín: elija imágenes y diseñe un terreno",
+    "description": "Elija imágenes de plantas y objetos de jardín, y colóquelas en doce parterres de un terreno. Toque una imagen y luego un parterre. Sin temporizador ni puntuación. Gratis para jugar e imprimir.",
+    "short": "Elija imágenes de plantas y diseñe un terreno de doce parterres.",
+    "players": "Individual, o 2 personas una al lado de la otra",
+    "intro": "Elija imágenes de una bandeja con plantas y objetos de jardín, y luego toque un parterre para colocar cada una en su sitio. Un terreno tiene doce parterres, y cada parterre admite una imagen. Un resumen en palabras indica lo que contiene el plan, por ejemplo «Su plan tiene 3 girasoles, 2 rosales y 1 árbol». Nada se cronometra, se puntúa ni se guarda, y no hay turnos. Es un plan con imágenes para conversar, no un consejo de cultivo. «Imprimir el plan» imprime los parterres con las imágenes que eligió, con parterres en blanco para dibujar y líneas para notas.",
+    "howTo": [
+      "Toque una imagen de la bandeja. Mientras esté seleccionada, mostrará «Elegida».",
+      "Toque un parterre. La imagen se colocará allí y la elección quedará fijada.",
+      "Para cambiar un parterre, elija otra imagen y toque el parterre. Para vaciar un parterre, tóquelo sin tener ninguna imagen elegida.",
+      "Toque «Empezar de nuevo» para vaciar todos los parterres, y «Devolver» si cambia de opinión.",
+      "Toque «Imprimir el plan» para obtener una copia en papel del terreno y del resumen."
+    ],
+    "tips": [
+      "Nomu ĉiun bildon dum ĝi aldoniĝas, ekzemple \"la helianto iras apud la birdodomo\". Parolado faras ĝin komuna agado.",
+      "Lasu ĉiun homon elekti bildon laŭvice, aŭ elektu la bildojn kune, por ke ambaŭ havu parton en la intrigo.",
+      "Sur papero, la malplenaj lits-kampetoj estas por desegni viajn proprajn ideojn, kaj la linioj por notoj estas por io, kion vi volas memori."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu ĉi tio estas konsilo pri plantado?",
+        "a": "Ne. Ĉi tio estas bildplano por paroli pri ĝi, ne konsilo pri plantado. Ĝi ne diras kiam, kie aŭ kiel planti ion, ĉar tio dependas de kie vi loĝas."
+      },
+      {
+        "q": "Ĉu estas tempomezurilo, poentaro aŭ gajninto?",
+        "a": "Ne. Nenio estas tempigita, poentita, taksita aŭ kalkulita, kaj neniu gajnas. Plena lito ne ricevas specialan mesaĝon."
+      },
+      {
+        "q": "Ĉu la bildoj, kiujn ni elektas, estas konservitaj aŭ senditaj?",
+        "a": "Ne. La plano restas nur ĉi tiu paĝo. Ĝi ne estas konservita, alŝutita aŭ kalkulita, kaj ĝi malaperas kiam vi fermas la paĝon."
+      },
+      {
+        "q": "Ĉu ekzistas papera versio?",
+        "a": "Jes. \"Presi la planon\" presas unu paĝon, en A4 aŭ US Letter. Ĝi montras la dek du litojn kun la bildoj, kiujn vi elektis, la resumon per vortoj, kaj malplenajn liniojn por notoj."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas aliĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, aliĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "coloring-wall": {
+    "name": "Grupa kolorada muro",
+    "seoTitle": "Grupa Kolorada Muro: Unu Bildo por Multaj Manoj",
+    "h1": "Grupa Kolorada Muro: Unu Granda Bildo, Kolorita Kune",
+    "description": "Presu unu grandan bildon super pluraj paĝoj, por ke familio, klaso aŭ prizorgejo povu kolori unu muron kune. Senpaga por presi. Sen tempomezurilo aŭ poentaro.",
+    "short": "Presu unu grandan bildon super paĝoj por multaj homoj kolori.",
+    "players": "Grupo, ĉe tablo aŭ sur muro",
+    "intro": "Elektu bildon el la koloraj paĝoj kaj muron de 4, 6 aŭ 9 paĝoj. Presu la muron: la unua paĝo montras kiel ĝin kunmeti, kaj ĉiu el la ceteraj paĝoj estas unu parto de la sama granda bildo, kun etikedo kiel A1 en la angulo. Ĉiu homo kolorigas unu aŭ pluraj paĝojn, laŭ ajnaj koloroj kaj ajna stilo. La paĝoj poste aranĝiĝas laŭ siaj etikedoj kaj kunglueiĝas per glubendo malantaŭe. Nenio estas tempigita, poentita aŭ konservita.",
+    "howTo": [
+      "Elektu bildon, kaj poste elektu kiom da paĝoj havos la muro.",
+      "Legu la mapon sur la ekrano, kiu montras kie iu etikedo iras.",
+      "Tuŝu \"Presi la muron\" kaj presu ĉiujn paĝojn.",
+      "Donu al ĉiu homo unu aŭ pluraj paĝojn por kolori. La koloroj kaj stiloj ne devas kongrui.",
+      "Aranĝu la paĝojn laŭ iliaj etikedoj, kaj kunglueu ilin per glubendo malantaŭe."
+    ],
+    "tips": [
+      "Donu la paĝojn kun la plej simplaj konturoj al homoj, kiuj volas pli trankvilan taskon, kaj la pli densajn al ĉiu, kiu ĝuas ilin.",
+      "Pendigu la muron kie ĉiuj povas ĝin vidi, kaj parolu pri la partoj kune.",
+      "Elektu pli malgrandan muron por malgranda tablo, kaj pli grandan por ĉambro."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempomezurilo, poentaro aŭ gajninto?",
+        "a": "Ne. Nenio estas tempigita, poentita aŭ kalkulita, kaj neniu gajnas. La muro estas simple bildo, kiun multaj homoj kolorigis."
+      },
+      {
+        "q": "Ĉu la paĝoj estas konservitaj aŭ senditaj ie ajn?",
+        "a": "Ne. La muro estas farita nur sur ĉi tiu paĝo. Ĝi ne estas konservita, alŝutita aŭ kalkulita, kaj ĝi malaperas kiam vi fermas la paĝon."
+      },
+      {
+        "q": "Ĉu la koloroj devas kongrui?",
+        "a": "Ne. Ĉiu homo povas uzi ajnajn kolorojn kaj ajnan stilon. La paĝoj tamen kunligiĝas en unu bildon."
+      },
+      {
+        "q": "Ĉu ekzistas papera versio?",
+        "a": "Jes. La presita muro estas la tuta ludo: unua paĝo kun la paŝoj kaj mapo, kaj unu paĝo por ĉiu parto de la bildo."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas aliĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, aliĝo aŭ elŝuto. Ĝi funkcias en la retumilo sur telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "quiet-shapes": {
+    "name": "Trankvila puzlo de formoj",
+    "seoTitle": "Trankvila Puzlo de Formoj: Enmetu Formojn en Bildon",
+    "h1": "Trankvila Puzlo de Formoj: Enmetu la Pecojn en la Bildon",
+    "description": "Enmetu simplajn formojn en la konturon de domo, boato, fiŝo kaj pli. Tuŝu pecon, poste spacon de la sama formo. Ne estas tempomezurilo aŭ poentaro. Senpaga por ludi kaj presi.",
+    "short": "Enmetu simplajn formojn en bildon, laŭ via propra rapido.",
+    "players": "1 homo, ĉe tablo",
+    "intro": "Konturo de bildo, kiel domo, boato aŭ raketo, estas dividita en spacojn. Ĉiu spaco havas pecon de la sama formo: grandan aŭ malgrandan triangulon, kvadraton, paralelogramon aŭ rektangulon. Tuŝu pecon, poste tuŝu spacon de la sama formo, kaj ĝi enlokiĝas. La spaco turnas la peceton por vi, do estas nenio por treni aŭ turni. Se peco havas alian formon ol spaco, ĝi restas en la tavolo kun mallonga noto. Nenio estas tempigita aŭ poentita, kaj nenio estas konservita aŭ sendita. \"Presi ĉi tiun formon\" presas la konturon kaj ĝiajn pecojn sur unu paĝo, por kolori aŭ eltondi.",
+    "howTo": [
+      "Tuŝu peceton en la tavolo. Ĝi montras \"Elektita\" dum ĝi estas elektita.",
+      "Tuŝu spacon en la bildo. Se la formo kongruas, la peco enlokiĝas tie.",
+      "Se ĝi ne kongruas, provu alian spacon. Nenio perdiĝas per provado.",
+      "Tuŝu peceton en la bildo por reprenigi ĝin al la tavolo, aŭ uzu \"Komenci denove\" por reprenigi ilin ĉiujn.",
+      "Kiam ĉiu spaco havas sian pecon, la bildo estas kompleta. Tuŝu \"Alia formo\" por nova, aŭ tuŝu Ripozi por ĉesi."
+    ],
+    "tips": [
+      "Ŝaltu la indikajn liniojn por vidi ĉiun spacon. Malŝaltu ilin por pli da enigmo, kun nur la konturo kiel gvidilo.",
+      "Komencu per la grandaj formoj, ekzemple la grandaj trianguloj kaj la rektanguloj. La etaj pecoj ofte venas laste.",
+      "Nomu la formojn laŭte dum vi laboras: \"triangulo, kvadrato, longa rektangulo\". Parolado povas igi ĝin komuna agado.",
+      "Sur papero, kolorigu la pecojn per du aŭ tri koloroj, aŭ eltranĉu ilin kun helpo de plenkreskulo."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempigilo, poentaro aŭ kalkulo de movoj?",
+        "a": "Ne. Nenio estas tempigita, kalkulita aŭ poentita. Pecon, kiu ne taŭgas, simple oni ne metas, kaj vi povas halti kiam ajn volas."
+      },
+      {
+        "q": "Ĉu io, kion ni faras, estas konservata aŭ sendata?",
+        "a": "Ne. La bildo restas nur en ĉi tiu paĝo. Ĝi ne estas konservata, alŝutata aŭ kalkulata, kaj ĝi malaperas kiam vi fermas la paĝon."
+      },
+      {
+        "q": "Ĉu la lokoj estas sufiĉe grandaj por tremado aŭ malgranda ekrano?",
+        "a": "La konturo estas desegnita tiel granda kiel la ekrano permesas, kaj ĉiu spaco estas butono, kiun vi povas atingi per fingro aŭ per la klavo Tab. La pecoj en la tavolo estas la grandaj butonoj de la paĝo."
+      },
+      {
+        "q": "Ĉu ekzistas versio sur papero?",
+        "a": "Jes. \"Presi ĉi tiun formon\" presas unu bildon sur unu paĝo: la konturon kun ĝiaj indikaj linioj, kaj la pecojn desegnitajn je la sama grando apud ĝi. Kolorigu la pecojn, aŭ eltranĉu ilin por ilin alĝustigi. Plenkreskulo povas fari la tranĉadon."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tabulo aŭ komputilo."
+      }
+    ]
+  },
   "calm-breathing": {
     "name": "Trankvila spirado",
-    "seoTitle": "Trankvila Spira Paŭzo por Maljunuloj kaj Prizorgantoj",
+    "seoTitle": "Trankvila spirada paŭzo por dividi",
     "h1": "Trankvila Spira Paŭzo",
     "description": "Malrapida, trankvila spira paŭzo por dividi: milda rondo kreskas kaj ŝrumpas dum ses spiroj. Vi komencas ĝin, kaj vi povas ĉesi iam ajn.",
     "short": "Malrapida cirklo por spiri kune. Komencu kaj ĉesu kiam vi volas.",
@@ -423,6 +1333,131 @@
       {
         "q": "Ĉu ĝi estas senpaga, kaj ĉu mi devas registriĝi?",
         "a": "Jes, ĝi estas senpaga, kaj ne ekzistas konto, aliĝo aŭ elŝuto. Ĝi funkcias en la retumilo en telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "story-chain": {
+    "name": "Rakonta ĉeno",
+    "seoTitle": "Rakonta ĉeno: komuna ludo de bilda rakonto",
+    "h1": "Rakonta ĉeno: rakontu unu bildon post la alia",
+    "description": "Vico de bildoj kreskas unu post la alia, kaj ĉiu persono laŭte diras frazon pri ĝi. Nenio tajpendas, ne estas ĝusta respondo. Senpaga, trankvila, sen tempigilo kaj sen poentaro.",
+    "short": "Aldonu bildon, poste ĉiu diru frazon, alterne.",
+    "players": "2 aŭ pli da homoj",
+    "intro": "La ludo komenciĝas per unu bildo, kaj la ĉeno kreskas unu bildon post la alia. Ĉiu persono laŭte diras unu frazon pri la ĝisnuna ĉeno, en sia vico. Frazo povas temi pri tio, kion vi vidas, loko, kiun ĝi memorigas, aŭ io amuza. Nenio estas tajpita, registrita aŭ konservata, ne estas ĝusta respondo, kaj ĉiu rajtas preterpasi. La ĉeno ĉesas je ok bildoj, kaj poste vi povas komenci novan.",
+    "howTo": [
+      "Rigardu la unuan bildon kune.",
+      "Alterne: ĉiu persono diras unu frazon pri la ĝisnuna ĉeno. Ĉiu rajtas preterpasi.",
+      "Tuŝu \"Aldoni bildon\" por meti la sekvan bildon je la fino de la ĉeno.",
+      "Tuŝu \"Forigi la lastan\" se vi preferas reiri unu bildon.",
+      "Kiam la ĉeno havas ok bildojn, tuŝu \"Komenci novan ĉenon\" por nova, aŭ simple ĉesu."
+    ],
+    "tips": [
+      "Mallonga frazo estas bona: \"Iu metis la teujon sur la fajron.\" La sekva persono daŭrigas, aŭ preterpasas.",
+      "Lasu la bildojn gvidi. Ne estas rakonto, al kiu vi devas atingi.",
+      "Ĉesu kiam ajn volas. Ĉesi duonvoje estas tute bona maniero fini."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempigilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj, nek perdo. Vi povas ĉesi tuj, kaj ĉesi duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu io estas tajpita aŭ registrita?",
+        "a": "Ne. La frazoj estas diritaj laŭte kaj ne estas tajpitaj, registritaj aŭ sendataj ien. La ludo nur montras la bildojn."
+      },
+      {
+        "q": "Kio se iu ne volas diri ion?",
+        "a": "Ĉiu rajtas preterpasi, kaj la sekva persono daŭrigas. Neniu devas nomi aŭ memori bildon."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tabulo aŭ komputilo."
+      }
+    ]
+  },
+  "quiet-scene": {
+    "name": "Trankvila sceno",
+    "seoTitle": "Trankvila sceno: unu bildo post la alia",
+    "h1": "Trankvila sceno: unu senmova bildo post la alia",
+    "description": "Unu granda, senmova bildo je la fojo, ĉiu kun unu milda linio sub ĝi. Premu Sekvan aŭ Antaŭan kiam vi pretas. Nenio movas aŭ ludas memstare, kaj ne estas tempigilo aŭ poentaro. Senpaga, sen konto.",
+    "short": "Rigardu unu senmovan bildon je la fojo, laŭ via propra rapido.",
+    "players": "Sola, aŭ grupo en la sama ĉambro",
+    "intro": "Unu granda bildo plenigas la ekranon, kun unu mallonga linio sub ĝi. Premu \"Sekva bildo\" aŭ \"Antaŭa bildo\" kiam vi pretas por alia. Nenio movas, malaperas aŭ ŝanĝiĝas memstare, kaj nenio estas tempigita. Tuŝu \"Pli granda bildo\" por montri nur la bildon, por ke la tuta ĉambro povu vidi ĝin sur televidilo.",
+    "howTo": [
+      "Rigardu la bildon kune.",
+      "Legu la linion sub ĝi laŭte, se vi volas.",
+      "Premu \"Sekva bildo\" aŭ \"Antaŭa bildo\" kiam vi pretas.",
+      "Tuŝu \"Pli granda bildo\" por montri nur la bildon, kaj \"Montri ĉion\" por rericevi la ceteron.",
+      "Ĉesu kiam ajn volas per \"Finita por nun\"."
+    ],
+    "tips": [
+      "Lasu la homon elekti kiam daŭrigi: atendu ke li aŭ ŝi rigardu, poste premu Sekvan.",
+      "Por grupo, uzu \"Pli granda bildo\" sur televidilo aŭ granda ekrano, kaj sidiĝu kie ĉiuj povas vidi ĝin.",
+      "Ne estas ĝusta maniero rigardi bildon. Simple paroli pri ĝi estas kompleta agado."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas tempigilo aŭ poentaro?",
+        "a": "Ne. Ne estas horloĝo, poentaro, kalkulilo de movoj, nek perdo. Vi povas ĉesi tuj, kaj ĉesi duonvoje estas tute bona maniero fini."
+      },
+      {
+        "q": "Ĉu ĝi ludas sonon aŭ movas?",
+        "a": "Ne. Ne estas sono, kaj nenio movas, malaperas aŭ ŝanĝiĝas memstare. Bildo ŝanĝiĝas nur kiam vi premas butonon."
+      },
+      {
+        "q": "Gibas ekzistas papera versio?",
+        "a": "Ne. Ĉi tio estas bildo, kiun oni rigardas kune sur ekrano. Preferata foto aŭ poŝtkarto sur la tablo faras la saman."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
+      }
+    ]
+  },
+  "color-wash": {
+    "name": "Kolora lavado",
+    "seoTitle": "Kolora lavado: Mildaj koloroj trans paĝo",
+    "h1": "Kolora lavado: Pentru mildan koloron trans paĝon",
+    "description": "Mola penikilo pentras larĝajn, travideblajn lavojn de koloro trans unu paĝo, en kvar koloroj kaj du penikilgrandecoj. Ne estas fina celo, poentoj aŭ tempigilo. Senpaga por ludi, sen konto.",
+    "short": "Pentru molajn lavojn de koloro trans paĝo, laŭ via propra rapideco.",
+    "players": "Sola, aŭ 2 homoj apud unu la alian",
+    "intro": "Unu paĝo kaj unu mola penikilo. Elektu koloron kaj penikilgrandecon, poste trenu trans la paĝon por surmeti lavon de koloro. La paĝo ne havas finan celon: nenio devas esti finita, nenia bildo devas esti ĝusta, kaj neniu poentaro ekzistas. Surmetu kiom ajn da lavoj vi volas, aŭ simple metu la penikilon malsupren kaj rigardu. Nova paĝo forviŝas ĉion, kaj Redonu ĝin revenigas la lavojn.",
+    "howTo": [
+      "Elektu koloron. Ĉiu koloro havas sian skribitan nomon.",
+      "Elektu Larĝa aŭ Tre larĝa. Tre larĝa kovras pli da la paĝo per ĉiu streko.",
+      "Trenu trans la paĝon per fingro, muso aŭ plumo por surmeti lavon.",
+      "Aŭ uzu la sagoklavojn por movi la penikil-rondon, kaj la Spacoklavon por meti la penikilon malsupren aŭ supren.",
+      "Tuŝu \"Nova paĝo\" por forviŝi la paĝon, poste \"Redonu ĝin\" se vi volas, ke la lavoj revenu."
+    ],
+    "tips": [
+      "Lasu la alian personon elekti la koloron por la sekva lavo, kaj parolu pri la koloroj dum ili aperas.",
+      "Tre larĝa estas pli facile gvidebla per tremanta mano, ĉar la penikilo ne bezonas esti preciza.",
+      "Ne ekzistas ĝusta maniero pentri. Ĉesu kiam ajn vi volas, aŭ tuŝu \"Ĉesi por nun\"."
+    ],
+    "faq": [
+      {
+        "q": "Ĉu estas fino, poentaro aŭ tempigilo?",
+        "a": "Ne. La paĝo ne havas finan celon. Nenio estas finita, kalkulita, tempigita aŭ poentita, kaj neniu mesaĝo iam petas, ke vi faru pli."
+      },
+      {
+        "q": "Ĉu la paĝo estas konservita aŭ sendita?",
+        "a": "Ne. Nenio estas konservita, presita aŭ sendita ie ajn. La lavoj restas sur ĉi tiu paĝo ĝis vi forlasas ĝin."
+      },
+      {
+        "q": "Ĉu mi povas uzi ĉi tion sen muso aŭ tuŝekrano?",
+        "a": "Jes. Kiam la paĝo havas fokuson, la sagoklavoj movas penikil-rondon, kaj la Spacoklavo metas la penikilon malsupren aŭ supren. La ekrano diras \"Penikilo malsupren\" aŭ \"Penikilo supren\" ĉiufoje."
+      },
+      {
+        "q": "Ĉu estas papera versio?",
+        "a": "Ne. Akvofarbo sur papero estas la sama ideo, malseka penikilo kaj unu koloro samtempe, do ĝi estas alia agado por provi ĉe la tablo."
+      },
+      {
+        "q": "Kiaj koloroj ili estas?",
+        "a": "Flava, oranĝa, verda kaj purpura, la samaj kvar koloroj uzataj en niaj aliaj bildludoj. Ĉiu havas skribitan nomon, kaj la nomo montriĝas apud la elekto."
+      },
+      {
+        "q": "Ĉu ĝi estas senpaga, kaj ĉu mi bezonas registriĝi?",
+        "a": "Jes, ĝi estas senpaga, kaj ne necesas konto, registriĝo aŭ elŝuto. Ĝi funkcias en la retumilo de telefono, tablojdo aŭ komputilo."
       }
     ]
   }

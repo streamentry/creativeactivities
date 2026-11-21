@@ -13,10 +13,16 @@
     "machineTranslated": "Esta página fue traducida automáticamente y aún no ha sido revisada por un hablante nativo.",
     "readOriginal": "Leer el original en inglés.",
     "nav": {
+      "find": "Find an activity",
       "games": "Juegos",
       "activities": "Actividades",
       "caregiving": "cuidado",
-      "brainHealth": "Salud cerebral"
+      "brainHealth": "Salud cerebral",
+      "crafts": "Manualidaes",
+      "kids": "Ninos",
+      "together": "Chuntos",
+      "creativeCalm": "Calma creativa",
+      "search": "Mirar"
     },
     "faqTitle": "Preguntas y respuestas",
     "breadcrumb": "Migaja de pan",
@@ -27,7 +33,32 @@
       "label": "Tamaño del texto",
       "smaller": "Texto estándar",
       "larger": "Texto más grande",
-      "contrast": "Mayor contraste"
+      "contrast": "Mayor contraste",
+      "colors": "Colors",
+      "light": "Claro",
+      "dark": "Escuro",
+      "device": "Igual que este dispositivo",
+      "lineLength": "Largaria de linia",
+      "standardLines": "Estandar",
+      "shorterLines": "Linias mas curtas",
+      "spacing": "Espaciau",
+      "standardSpacing": "Estandar",
+      "moreSpace": "Mas espacio"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 ideas de actividades",
     "lateStage": "Actividades de última etapa",
     "printable": "Actividades imprimibles",
-    "allActivities": "Todas las actividades",
+    "allActivities": "Totas as guías d'actividaes",
     "forCaregivers": "Para cuidadores",
     "playTogether": "como jugar juntos",
     "selfCare": "Cuidarte a ti mismo",
@@ -54,24 +85,34 @@
     "app": "Aplicación Los Momentos Dorados",
     "appHelp": "Ayuda de la aplicación",
     "support": "Apoyo",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Legal",
     "sitePrivacy": "Privacidad del sitio web",
     "appPrivacy": "Política de privacidad de la aplicación",
     "privacyChoices": "Opciones de privacidad",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Términos y licencia de la aplicación",
     "safety": "Seguridad y uso previsto",
     "accessibility": "Accesibilidad",
     "healthNotice": "Aviso de información de salud",
     "allLegal": "Toda la información legal",
     "note": "Creative Activities ofrece actividades compartidas sencillas para disfrutar. No es un consejo médico, una prueba o un tratamiento, y no diagnostica, mide ni puntúa a nadie. Para preguntas de salud, hable con un médico. En caso de emergencia, llame al 911.",
-    "publisher": "Publicado por Cloudjet Solutions Pte. Ltd. Limitado."
+    "publisher": "Publicado por Cloudjet Solutions Pte. Ltd. Limitado.",
+    "crafts": "Manualidaes pa toas as edaes",
+    "kids": "Activitatz pa los ninos",
+    "together": "Activitatz pa fer chuntos",
+    "creativeCalm": "Calma creativa",
+    "dementiaActivities": "Activitatz pa personas con demencia"
   },
   "home": {
-    "title": "Juegos y actividades sobre demencia y Alzheimer | Momentos dorados",
-    "description": "Juegos de imágenes suaves y gratuitos para jugar en línea e ideas de actividades para personas que viven con demencia o Alzheimer y sus cuidadores.",
+    "title": "Activitatz creativas pa qualsequier persona que cuida a alguien",
+    "description": "Activitatz creativas gratuitas pa qualsequier persona que cuida a alguien: manualidaes, cosas pa los ninos, activitatz pa fer chuntos y ideas creativas tranquilas.",
     "eyebrow": "Gratis · Sin anuncios · Sin registro · Sin cronómetros ni puntuaciones",
-    "h1": "Juegos y actividades suaves para personas con demencia",
-    "lede": "Juegos ilustrados sencillos, fotografías familiares y actividades para disfrutar juntos, a su propio ritmo.",
+    "h1": "Feya algo chuntos",
+    "lede": "Trobe una actividat que encaixe con la persona, con o momento y con lo que tiene a mano. Manualidaes facilas, arte pa ninos, cosas pa fer chuntos y ideas creativas tranquilas, con versions mas facilas y una tarcheta pa imprimir. Pare cuan quiera.",
     "playGame": "jugar un juego",
     "findIdeas": "Encuentra ideas de actividades",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 ideas de actividades",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Etapa temprana",
         "text": "Sigan haciendo lo que aman, con pequeños ajustes: pasatiempos, salidas, juegos de palabras y planificación juntos.",
         "label": "Ideas en etapa inicial"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "etapa intermedia",
         "text": "Tareas sencillas y familiares divididas en pasos: doblar, clasificar, música, juegos con imágenes y paseos cortos.",
         "label": "Ideas de etapa intermedia"
@@ -124,10 +165,10 @@
         "label": "Ideas de etapas posteriores"
       }
     ],
-    "specificHtml": "¿Buscas algo específico? Intentar <a href=\"/activities/alzheimers/\">actividades y juegos para el Alzheimer</a>, <a href=\"/activities/memory-games/\">juegos de memoria suaves</a>, <a href=\"/activities/trivia/\">trivia fácil</a> o <a href=\"/activities/puzzles/\">rompecabezas</a>.",
+    "specificHtml": "Buscas quelcuna cosa en concreto? Prete <a href=\"/dementia-activities/\">activitatz y chuegos pa l'Alzheimer</a>, <a href=\"/together/puzzles-and-table-games/\">rompecabezas y chuegos de mesa</a>, <a href=\"/together/conversation-games-for-all-ages/\">chuegos de conversación</a> o <a href=\"/together/puzzles-and-table-games/\">rompecabezas</a>.",
     "approachEyebrow": "Nuestro enfoque",
-    "approachTitle": "Una actividad compartida, no una prueba de memoria.",
-    "approachLede": "Muchos \"juegos mentales\" se basan en la velocidad, las puntuaciones y las rachas. Para alguien que vive con demencia, esto puede parecer un examen. Nosotros construimos lo contrario.",
+    "approachTitle": "Una actividat compartida, no un examen",
+    "approachLede": "Muitos \"chuegos de la mente\" son feitos a base de velocidat, puntuacions y rachas. Pa una persona que ye cansada, no se sient bien u vive con demencia, eso puede parar como un examen. Nusatros hemos feito lo contrario.",
     "approachLink": "Por qué lo diseñamos de esta manera",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Razones comunes para negarse y formas amables de volver a intentarlo más tarde."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Configurar una tableta",
-        "text": "Texto más grande, menos interrupciones y una única pantalla de inicio sencilla."
+        "href": "/activities/group-art-activities/",
+        "title": "Activitatz de arte en grupo",
+        "text": "Proyectos compartitos pa una mesa de diversas personas, con una tarea pa cada una."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Actividades para imprimir gratis",
-        "text": "Búsquedas de palabras en letra grande, páginas para colorear, bingo y tarjetas de conversación."
+        "href": "/activities/ideas/",
+        "title": "101 ideas d'actividaes",
+        "text": "Ideas simples, ordenatas por lo que tiene y por cuanta enerchía hay."
       }
     ],
     "researchTitle": "Salud cerebral: lo que realmente dice la investigación",
@@ -185,16 +226,16 @@
     "aboutApp": "Acerca de la aplicación",
     "faq": [
       {
-        "q": "¿Cuáles son buenos juegos para personas con demencia?",
-        "a": "Los buenos juegos son simples, familiares y libres de presiones: imágenes grandes para unir, clasificar, rompecabezas fáciles, completar dichos conocidos, colorear, bingo con imágenes y tarjetas de conversación. La mejor elección es la que la persona disfruta hoy. Evite cronómetros, puntuaciones y cualquier cosa que parezca una prueba."
+        "q": "Quals son buenos chuegos pa personas mayors?",
+        "a": "Los buenos chuegos son simples, familiars y sin presión: imachens grandes pa emparellar, ordenar, rompecabezas facils, rematar dichos conoixidos, pintar, bingo con imachens y tarchetas de conversación. Encaixan con muitas personas mayors, incluyindo las que viven con demencia. La mexor elección ye la que la persona disfrute hue. Evite cronometros, puntuacions y cualsequier cosa que parezca un examen."
       },
       {
-        "q": "¿Son gratuitos estos juegos sobre la demencia?",
+        "q": "Son gratuitos estos chuegos?",
         "a": "Sí. Cada juego e imprimible en Creative Activities es gratuito, sin necesidad de cuenta, registro ni descarga. Los juegos se ejecutan en el navegador web de un teléfono, tableta o computadora."
       },
       {
         "q": "¿Los juegos mentales previenen la demencia?",
-        "a": "No se ha demostrado que ningún juego prevenga la demencia y Creative Activities no pretende tratar ni prevenir nada. Nuestros juegos son para disfrutar y pasar tiempo juntos. Nuestra sección de salud cerebral explica lo que muestran y lo que no muestran las investigaciones."
+        "a": "Denguno chuego ha demostrau prevenir la demencia, y Creative Activities no asegura tratar ni prevenir nada. Nuestros chuegos son pa disfrutar y pasar tiempo chuntos, y denguna pachina d'actividaes fa afirmacions sobre a salut."
       },
       {
         "q": "¿Son estos juegos aptos para alguien con Alzheimer?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "¿Quién hace los Momentos Dorados?",
-        "a": "Creative Activities es un pequeño equipo que crea actividades tranquilas con imágenes para adultos para familias y cuidadores, en la web y como aplicación gratuita. No somos médicos y nada aquí es consejo médico."
+        "a": "Creative Activities ye un pequeño equipo que fa activitatz creativas tranquilas pa adultos, pa qualsequier persona que cuida a alguien, en a web y como una aplicación gratuita. No somos clinicos, y nada d'aquo ye consello medico."
+      }
+    ],
+    "groupsEyebrow": "Trobe o suyo camín",
+    "groupsTitle": "Cuatro tipos d'activitat creativa",
+    "groupsLede": "Comience por o grupo que encaixe con con quien esté y con lo que tiene. Cada pachina tiene versions mas facilas y notas de seguridat.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Manualidaes",
+        "text": "Proyectos de papel, pintura, reciclaje y de temporada, con una versión mas facil pa cada uno.",
+        "label": "Mirar manualidaes"
+      },
+      {
+        "href": "/kids/",
+        "title": "Ninos",
+        "text": "Arte y chuego pa ninos, con un adulto cerca y notas de seguridat claras.",
+        "label": "Mirar activitatz pa ninos"
+      },
+      {
+        "href": "/together/",
+        "title": "Chuntos",
+        "text": "Conversación, rompecabezas, tiempo al aire libre y maneras de estar cerca entre generaciones.",
+        "label": "Mirar cosas pa fer chuntos"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Calma creativa",
+        "text": "Momentos creativos lentos y tranquilos con un lapiz, una pachina o una cancion. No ye terapia.",
+        "label": "Mirar calma creativa"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Imprimible",
     "play": "Jugar {name} →",
     "readGuide": "Lee la guía"
+  },
+  "listen": {
+    "listenSteps": "Escuche los pasos",
+    "pause": "Pausa",
+    "resume": "Seguir",
+    "stop": "Parar",
+    "speed": "Velocidat",
+    "normal": "Normal",
+    "slower": "Mas lento",
+    "reading": "Leyendo los pasos en voz alta.",
+    "paused": "En pausa. Prete Seguir pa continar.",
+    "note": "Usa la voz propia de o suyo dispositivo. Dimpués d'alguns dispositivos envian o texto a o fabricant pa leer-lo en voz alta.",
+    "listen": "Escuchar",
+    "stepLabel": "Escuche o paso {n}",
+    "stopStep": "Parar o paso {n}"
   },
   "playCta": {
     "title": "¿Listo para un juego suave?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Actividades",
-      "title": "Actividades para personas con demencia",
-      "seo": "Actividades para personas con demencia: ideas por etapa",
-      "description": "Ideas de actividades para personas que viven con demencia en cada etapa: música, reminiscencias, tareas cotidianas, momentos sensoriales, manualidades, actividades.",
-      "lede": "Una actividad significativa es cualquier cosa que brinde consuelo, propósito o un momento de conexión. Comienza con lo que la persona siempre ha disfrutado y adáptalo a hoy."
+      "label": "Guías d'actividaes",
+      "title": "Guías d'actividaes",
+      "seo": "Guías d'actividaes: ideas, material d'arte y maneras de empecipiar",
+      "description": "Guías claras de activitatz creativas que puede fer con alguien: ideas simples, material d'arte economico, arte en grupo, cartas, recuerdos y la terapia d'arte explicada.",
+      "lede": "Guías curtas y practicas pa escoller y empecipiar una actividat con alguien, sía cual sía a suya edat u capacidat."
+    },
+    "crafts": {
+      "label": "Manualidaes",
+      "title": "Manualidaes pa toas as edaes",
+      "seo": "Manualidaes facilas pa toas as edaes, con versions mas facilas",
+      "description": "Manualidaes facilas pa adultos, ninos y familias: de papel, pintar, reciclaje y de temporada, con versions mas faciles de agarrar y sentadas, sin cualificación especial.",
+      "lede": "Manualidaes que salen de lo que tiene la mayoria de casas, cada una con una versión mas facil, pa que cualsequier persona pueda feyer algo."
+    },
+    "kids": {
+      "label": "Ninos",
+      "title": "Activitatz creativas pa ninos",
+      "seo": "Activitatz creativas pa ninos: arte, sensorial y calma",
+      "description": "Activitatz creativas pa ninos: arte pa los mas chicos, arte de proceso, chuego sensorial, manualidaes pa dias de pluya e ideas pa calmar-se, con notas de seguridat y versions pa necesidaes sensoriales.",
+      "lede": "Ideas de arte y chuego pa ninos de distintas edaes y necesidaes, con notas de seguridat claras y un adulto cerca."
+    },
+    "together": {
+      "label": "Chuntos",
+      "title": "Activitatz pa fer chuntos",
+      "seo": "Activitatz pa fer chuntos, entre generaciones",
+      "description": "Activitatz pa dos o mas generaciones: chuegos de conversación, rompecabezas, tiempo al aire libre, manualidaes pa abuelos y nietos, y maneras de estar cerca desde lueinas.",
+      "lede": "Ideas pa compartir tiempo con un pai, una mai, un abuelo, un ninio o un amigo, en casa, al aire libre, en una visita o desde lueinas."
+    },
+    "creative-calm": {
+      "label": "Calma creativa",
+      "title": "Calma creativa",
+      "seo": "Calma creativa: arte y activitatz relaxantes pa desconectar",
+      "description": "Activitatz creativas relaxantes pa adultos y cuidadores: arte con atención plena, diario, musica, momentos sensoriales y tardes tranquilas. Actividat creativa, no terapia.",
+      "lede": "Maneras suaves de ir mas lento con un lapiz, una pachina o una cancion. Son activitatz creativas, no terapia, y no piden denguna habilidat."
     },
     "caregiving": {
-      "label": "cuidado",
-      "title": "Guías de cuidado",
-      "seo": "Guías para el cuidado de personas con demencia: ayuda práctica diaria",
-      "description": "Guías prácticas y amables para cuidadores de personas con demencia: jugar juntos, comunicación, rechazos, inquietudes nocturnas, tabletas, elección de aplicaciones.",
-      "lede": "Ayuda sencilla y práctica para los momentos cotidianos de cuidar a alguien que vive con demencia, incluido el cuidado de usted mismo."
+      "label": "Atención a la demencia",
+      "title": "Cuidar a alguien con demencia",
+      "seo": "Cuidar a una persona con demencia: activitats y ayuda",
+      "description": "Guías pa familias que cuidan a una persona con demencia: cómo chugar chuntos, qué fer cuan diga que no y ónde trobar ayuda de fiar dimpués d'un diagnóstico.",
+      "lede": "Ayuda con activitats primero pa familias que cuidan a una persona que vive con demencia, y ónde recurrir pa consellos medicos y d'atención."
     },
     "brain-health": {
       "label": "Salud cerebral",
@@ -283,7 +396,16 @@
     "tryTogether": "Intentar juntos",
     "relatedGuides": "Guías relacionadas",
     "related": "Relacionado",
-    "startHere": "Empieza aquí"
+    "startHere": "Empieza aquí",
+    "staleAria": "Traducción desfasada",
+    "staleTitle": "Esta traducción no ye actualizada",
+    "staleText": "Ye feita d'una versión anterior d'a pachina en inglés, que ha cambiau dende alavez. A pachina en inglés ye la actual.",
+    "staleHealth": "Da información de salut, asinas que compruebe a pachina en inglés y pregunte a un doctor o una enfermera antes d'actuar segundo ella.",
+    "staleLink": "Leyer a pachina en inglés actual"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Aviso de información de salud",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Una actividad compartida, no una prueba de memoria",
+      "title": "Una activitat compartida, no un test",
       "seoTitle": "Acerca de Momentos Dorados: Nuestro Enfoque",
-      "description": "Por qué los juegos Creative Activities no tienen cronómetros, puntuaciones ni rachas, por qué las imágenes siguen mostrándose y qué afirmaremos y qué no sobre la demencia.",
+      "description": "Por qué Creative Activities no tiene temporizadors, puntuacions ni rachas, por qué as imachens se quedan a la vista, y qué diremos y qué no diremos sobre la salut.",
       "crumb": "Nuestro enfoque",
-      "lede": "Creative Activities crea actividades tranquilas con imágenes para adultos que un cuidador y una persona que vive con demencia pueden disfrutar lado a lado.",
-      "bodyHtml": "<h2>lo que creemos</h2><p>El objetivo de una actividad es el momento mismo: una conversación, una sonrisa, la satisfacción de juntar dos fotografías o simplemente sentarse cerca. No es para medir a nadie, presionarlo más ni demostrar nada.</p><p>Muchas aplicaciones de entrenamiento cerebral están diseñadas en torno a la velocidad, puntuaciones, rachas y niveles. Para una persona que vive con demencia, esto puede parecer un examen que no puede aprobar. Diseñamos lo contrario y nos atenemos a estas reglas:</p><ul><li><strong>Nada que fallar.</strong> Sin reloj, puntuación, contador de movimientos, vidas, rachas, confeti ni cuentas atrás, en ninguna pantalla.</li><li><strong>Reconocimiento sobre recuerdo.</strong> Las imágenes siguen mostrándose de forma predeterminada. Las indicaciones invitan a la conversación y nunca cuestionan nombres o recuerdos.</li><li><strong>Grande, sencillo y estable.</strong> Texto e imágenes grandes, alto contraste y controles que permanecen en el mismo lugar.</li><li><strong>Dignidad adulta.</strong> Imágenes del mundo real y palabras sencillas y cálidas. No se permiten dibujos animados, elogios cantados ni recompensas con emojis.</li><li><strong>Una salida fácil.</strong> \"Listo por ahora\" siempre está visible. Detenerse a mitad de camino es un buen resultado.</li><li><strong>Privado por defecto.</strong> Sin cuentas ni anuncios. Las fotos que elijas permanecerán en tu dispositivo.</li></ul><h2>Lo que no reclamamos</h2><p>Nuestros juegos son para el disfrute y la conexión. No diagnostican, prueban, miden, tratan, retardan ni previenen la demencia o la enfermedad de Alzheimer, y nadie debería elegirlos por ese motivo. Cuando escribimos sobre investigaciones en nuestro <a href=\"/brain-health/\">páginas de salud cerebral</a>, decimos claramente dónde la evidencia es débil y nunca la relacionamos con nuestros propios juegos.</p><h2>Quienes somos</h2><p>Creative Activities es un pequeño equipo independiente. No somos médicos. Nuestras guías están escritas a partir de directrices publicadas por organizaciones como el Instituto Nacional sobre el Envejecimiento y la Asociación de Alzheimer, y cada guía enumera sus fuentes. Leer <a href=\"/editorial-policy/\">cómo escribimos y revisamos nuestras páginas</a>.</p><h2>Cuéntanos qué te ayudaría</h2><p>Nos encantaría saber qué funciona para usted y qué no, especialmente de personas que viven con demencia, cuidadores familiares y personal de actividades. Correo electrónico <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Patrocinadors y socios",
+        "none": "Creative Activities no tiene patrocinadors, ni anuncios pagaus, ni socios cuios logotipos aparezcan en a web.",
+        "listed": "Estos son los patrocinadors y socios de Creative Activities. Cada relación se declara tamién en a pachina onde aparezca.",
+        "policy": "Si eso cambia, cada una d'estas pachinas ho dirá onde aparezca, garra activitat no tendrá nunca un patrocinador, y a lista de socios estará en esta pachina.",
+        "listHeading": "Lista de socios",
+        "noPartners": "De momento no hay socios."
+      },
+      "lede": "Creative Activities ofrece activitats tranquilas pa adultos que dos personas pueden disfrutar una al lau de l'otra, tanto si una cuida a la otra como si simplement quiren pasar tiempo chuntos.",
+      "bodyHtml": "<h2>Pa quién ye</h2><p>Pa quiquiera que cuide a alguien: un pai o una mai, un abuelo o una abuela, un fillo, una parella, un amigo o una persona con demencia. Familias, personas mayors y personal d'activitats pueden usar as mismas pachinas.</p><h2>Qué creemos</h2><p>O sentido d'una activitat ye lo momento en si: una conversa, una sonrisa, la satisfacción de chuntar dos imachens, u simplement estar asentaus cerca. No ye pa medir a nadie, empuyarlo más lueñe u demostrar res.</p><p>Muitas aplicaciones d'entrenamiento cerebral están pensadas en torno a la rapidez, las puntuacions, las rachas y los niveles. Pa una persona cansada, mal de salut u que vive con demencia, eso puede sentir-se como un examen que no puede aprobar. Nosotros hemos feito lo contrario, y nos atenemos a estas reglas:</p><ul><li><strong>Nada que fallar.</strong> Ningún reloj, puntuación, contador de movimientos, vidas, rachas, confeti ni cuenta atrás, en garra pantalla.</li><li><strong>Reconocer antes que recordar.</strong> As imachens se quedan a la vista por defecto. As pistas invitan a parlar y nunca piden nombres ni recuerdos.</li><li><strong>Grande, claro y estable.</strong> Texto e imachens grans, contraste alto y controles que se quedan en o mesmo puesto.</li><li><strong>Dignidat d'adulto.</strong> Imachens d'o mundo real y palabras claras y cálidas. Nada de dibuixos animaus, alabanzas cantarinas ni premios con emojis.</li><li><strong>Una salida fácil.</strong> “Acabar por agora” siempre se ve. Parar a mitat ye un buen resultau.</li><li><strong>Privada por defecto.</strong> Sin cuentas ni anuncios. As fotos que escoyas se quedan en o tuyo dispositivo.</li></ul><h2>Qué no afirmamos</h2><p>Nuestros chuegos y activitats son pa disfrutar y pa estar en compañía. No diagnostican, no fan pruebas, no miden, no tratan, no frenan ni previenen a demencia u a mal de Alzheimer, y nadie debería escoyerlos por esa razón. Cuan escribimos sobre investigación de salut, dicimos claramente onde la evidencia ye débil, y nunca lo relacionamos con as nuestras propias activitats.</p><h2>Quiénes somos</h2><p>Creative Activities ye un equipo pequeño e independiente. No somos clínicos. Nuestras guías se escriben a partir de guías publicadas por organizaciones como o National Institute on Aging y a Alzheimer’s Association, y cada guía enumera as suyas fuents. Leya <a href=\"/editorial-policy/\">cómo escribimos y revisamos as nuestras pachinas</a>.</p><h2>Diga-nos qué ayudaría</h2><p>Nos encantaría saber qué funciona pa vusted y qué no, sobre todo de personas que viven con demencia, cuidadores de familia y personal d'activitats. Escriba a <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Cómo escribimos y revisamos nuestras páginas",
       "seoTitle": "Política editorial",
-      "description": "Cómo Creative Activities investiga, escribe, obtiene y actualiza sus páginas sobre actividad de la demencia y salud cerebral, y lo que nunca publicaremos.",
+      "description": "Cómo Creative Activities investiga, escribe, busca fuents y pone al día as suyas pachinas d'activitats y de salut, y qué no publicará nunca.",
       "crumb": "Política editorial",
-      "bodyHtml": "<h2>Nuestras fuentes</h2><p>Basamos nuestras guías en la orientación pública de organizaciones como el Instituto Nacional sobre el Envejecimiento, los CDC, la Alzheimer's Association, la Alzheimer's Foundation of America, la Family Caregiver Alliance y el NHS, y en investigaciones revisadas por pares, como revisiones Cochrane y grandes ensayos clínicos. Cada guía enumera las fuentes en las que se basa. Abrimos cada fuente antes de citarla y solo informamos lo que realmente dice.</p><h2>como escribimos</h2><ul><li>Primero lo práctico: qué hacer hoy, en lenguaje sencillo.</li><li>Sincero acerca de la evidencia: decimos “vinculado con”, “puede” y “la evidencia es mixta” cuando esa es la verdad.</li><li>Respetuoso: escribimos sobre personas que viven con demencia cuando son adultos y nunca utilizamos un lenguaje burlón o avergonzado.</li><li>Sin contenido inventado: sin estadísticas, citas, expertos, estudios, reseñas o testimonios inventados.</li></ul><h2>¿Quién revisa nuestras páginas?</h2><p>Las páginas las escribe y revisa el equipo de Creative Activities, con la ayuda de herramientas de escritura de IA para la investigación y la redacción. El equipo compara cada página con sus fuentes. Nuestras páginas tienen <strong>no</strong> sido revisado por un médico u otro profesional clínico y no afirmamos lo contrario. Son información general, no consejos médicos.</p><h2>Lo que nunca publicaremos</h2><ul><li>Afirma que un juego, alimento, suplemento, ayuno o rutina previene, trata, retarda o cura la demencia.</li><li>Pruebas, cuestionarios o puntuaciones que sugieren que alguien tiene o no demencia.</li><li>Consejos para iniciar, suspender o cambiar cualquier medicamento.</li><li>Publicidad o contenido patrocinado disfrazado de orientación.</li></ul><h2>Actualizaciones y correcciones</h2><p>Cada página muestra la fecha en que se actualizó por última vez. Si encuentra un error o una fuente desactualizada, envíe un correo electrónico <a href=\"mailto:{email}\">{email}</a> y lo comprobaremos a la brevedad.</p>"
+      "bodyHtml": "<h2>Our sources</h2><p>We base our guides on public guidance from organizations such as the National Institute on Aging, the CDC, the Alzheimer’s Association, the Alzheimer’s Foundation of America, the Family Caregiver Alliance and the NHS, and on peer-reviewed research such as Cochrane reviews and large clinical trials. Every guide lists the sources it relies on. We open each source before citing it, and we only report what it actually says.</p><h2>How we write</h2><ul><li>Practical first: what to do today, in plain language.</li><li>Honest about evidence: we say “linked with”, “may” and “the evidence is mixed” when that is the truth.</li><li>Respectful: we write about people living with dementia as adults, and we never use quizzing or shaming language.</li><li>No invented content: no made-up statistics, quotes, experts, studies, reviews or testimonials.</li></ul><h2>Who reviews our pages</h2><p>Pages are written and checked by the Creative Activities team. Some drafting and research use AI tools, as described below. Every page is checked against its sources by the team. Our pages have <strong>not</strong> been reviewed by a doctor or other clinician, and we do not claim otherwise. They are general information, not medical advice.</p><h2>How AI is used</h2><p>We use AI tools to help with research, first drafts, translation drafts and formatting. A person edits every page against its sources. AI does not test activities: a person tries each activity before it is published. No AI-generated step, image or review is presented as verified, and we do not publish AI-written reviews or testimonials. No generated image is shown as a photo of a real activity.</p><h2>What we will never publish</h2><ul><li>Claims that a game, food, supplement, fast or routine prevents, treats, slows or cures dementia.</li><li>Tests, quizzes or scores that suggest someone has, or does not have, dementia.</li><li>Advice to start, stop or change any medicine.</li><li>Advertising or sponsored content disguised as guidance.</li></ul><h2>Updates and corrections</h2><p>Each page shows the date it was last updated. If you find a mistake or an out-of-date source, please email <a href=\"mailto:{email}\">{email}</a> and we will check it promptly.</p>"
     },
     "faq": {
       "title": "Preguntas y respuestas",
-      "seoTitle": "Juegos y actividades para la demencia: preguntas y respuestas",
-      "description": "Respuestas a preguntas comunes sobre juegos y actividades para personas con demencia: qué juegos probar, cuánto tiempo jugar, ideas para etapas posteriores, salud.",
+      "seoTitle": "Preguntas y respuestas sobre Creative Activities",
+      "description": "Respuestas a preguntas frecuents sobre os chuegos y activitats: cuál probar, cuánto tiempo chugar, ideas pa grupos y pa fases más avanzadas, salut y privacidat.",
       "crumb": "Preguntas y respuestas",
       "lede": "Respuestas breves y sencillas a las preguntas que más hacen los cuidadores.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "sobre los juegos",
           "items": [
             {
-              "q": "¿Cuáles son los mejores juegos para alguien con demencia?",
+              "q": "¿Cuáles son os mellors chuegos pa personas mayors?",
               "a": "Los mejores juegos son familiares, sencillos y libres de presiones, y el correcto es aquel que a la persona le gusta hoy. La combinación de imágenes con imágenes visibles, la clasificación, los rompecabezas sencillos, la finalización de dichos familiares, el coloreado y el bingo de imágenes funcionan bien para muchas personas. Evite cronómetros, puntuaciones y cualquier cosa que parezca una prueba."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Salud cerebral",
+          "title": "Demencia y salut",
           "items": [
             {
               "q": "¿Pueden los juegos prevenir o retardar la demencia?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Más detalle: <a href=\"/caregiving/how-to-play-together/\">cómo jugar juntos</a>, <a href=\"/caregiving/when-they-say-no/\">cuando dicen que no</a>, <a href=\"/activities/late-stage/\">actividades de etapa posterior</a> y <a href=\"/brain-health/can-dementia-be-prevented/\">¿Se puede prevenir la demencia?</a>"
+      "moreHtml": "Más detalles: <a href=\"/caregiving/how-to-play-together/\">cómo chugar chuntos</a>, <a href=\"/caregiving/when-they-say-no/\">qué fer cuan digan que no</a>, <a href=\"/activities/late-stage/\">activitats pa fases más avanzadas</a> y <a href=\"/dementia-activities/\">activitats de demencia en casa</a>."
     },
     "handout": {
       "title": "Juegos suaves y gratuitos para personas que viven con demencia",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Para residencias de ancianos, bibliotecas y grupos de apoyo",
-      "seoTitle": "Actividades gratuitas sobre la demencia para residencias y grupos de ancianos",
-      "description": "Cómo los hogares de ancianos, los programas diurnos para adultos, las bibliotecas, las agencias para personas mayores y los grupos de apoyo utilizan nuestros juegos.",
+      "seoTitle": "Activitats gratuitas pa residencias, bibliotecas y grupos",
+      "description": "Cómo residencias, programas de día pa adultos, bibliotecas, agencias de personas mayors y grupos de apoyo usan os nuestros chuegos gratuitos y guías d'activitats, más un mensache de texto pa agregar-nos a una lista de recursos.",
       "crumb": "Para organizaciones",
       "lede": "Todo lo que aparece en este sitio es de uso gratuito para residentes, miembros y clientes, sin cuenta, licencia ni tarifa. Esta página explica qué hay aquí y cómo compartirlo.",
-      "shortText": "{name}: guías de actividades y juegos ilustrados suaves y gratuitos para personas que viven con demencia y sus cuidadores. Sin registro, sin cronómetros, sin puntuaciones.",
-      "longText": "{name} ({domain}) ofertas {count} juegos de navegador gratuitos creados para personas que viven con demencia, que incluyen emparejar parejas con imágenes a la vista, un rompecabezas sencillo, clasificación, refranes familiares y bingo de imágenes con tarjetas imprimibles. No hay cuenta, publicidad, cronómetro ni puntuación. El sitio también cuenta con guías de actividades en lenguaje sencillo para cada etapa de la demencia que citan al Instituto Nacional sobre el Envejecimiento y la Asociación de Alzheimer.",
+      "shortText": "{name}: chuegos de imachens gratuitos y suaves y guías d'activitats pa personas mayors, familias y personas con demencia. Sin registro, sin temporizadors, sin puntuacions.",
+      "longText": "{name} ({domain}) ofrece {count} chuegos gratuitos en o navegador pa personas mayors, familias y personas que viven con demencia, incluyendo parellas de dibuixos con as imachens a la vista, un rompecabezas facil, clasificación, refranes familiars y bingo de dibuixos con cartons imprimibles. No hai cuenta, publicidat, cronómetro ni puntuación. Lo sitio tamién tiene guías d'actividatz en lenguache sinple pa familias, personas mayors y personal, con fuentes como o National Institute on Aging y l'Alzheimer's Association.",
       "useTitle": "¿Qué organizaciones pueden utilizar?",
       "gamesItemHtml": "<strong>{count} juegos de navegador</strong> que se ejecutan en una computadora portátil, tableta o televisor conectado a una computadora. Sin instalación, cuenta ni descarga. Ver <a href=\"/games/\">todos los juegos</a>.",
       "printablesLabel": "{count} imprimibles:",
       "printablesAfter": "Utilice el botón Imprimir en cada página.",
-      "moreItemsHtml": "<li><strong>Formatos de grupo:</strong> <a href=\"/games/picture-bingo/\">Bingo de imágenes</a> tiene tarjetas imprimibles y una persona que llama en pantalla, y <a href=\"/activities/trivia/\">trivia fácil</a> Tiene 50 preguntas con opciones de respuesta y puntos de conversación.</li><li><strong>guías de actividades</strong> para el personal y las familias, por etapa y por tipo, escrito en lenguaje sencillo con fuentes. Empezar con <a href=\"/activities/ideas/\">101 ideas de actividades</a> o <a href=\"/activities/care-home-groups/\">actividades grupales para residencias de ancianos</a>.</li>",
+      "moreItemsHtml": "<li><strong>Formatos de grupo:</strong> o <a href=\"/games/picture-bingo/\">bingo de dibuixos</a> tiene cartons imprimibles y un llamador en pantalla, y <a href=\"/together/conversation-games-for-all-ages/\">chuegos de conversa</a> tiene preguntas con opcions de respuesta y puntos pa charrar.</li><li><strong>Guías d'actividatz</strong> pa personal y familias, escritas en lenguache sinple con fuentes. Empecipia por <a href=\"/activities/ideas/\">101 ideas d'actividatz</a> u <a href=\"/crafts/craft-group-sessions/\">actividatz en grupo pa residencias</a>.</li>",
       "restHtml": "<h2>Cómo lo usan los grupos</h2><ul><li><strong>Residencias y cuidados de la memoria:</strong> bingo de imágenes o termine el dicho en el televisor de la sala común, con una persona haciendo tapping para el grupo.</li><li><strong>Programas diurnos para adultos:</strong> una estación de tableta con pares de imágenes configurados en cuatro mosaicos, para sesiones breves individuales.</li><li><strong>Bibliotecas públicas:</strong> Búsquedas de palabras impresas y tarjetas de conversación en kits de memoria, y el sitio marcado como favorito en tabletas de la biblioteca.</li><li><strong>Grupos de apoyo para cuidadores y cafés de la memoria:</strong> a <a href=\"/handout/\">folleto imprimible de una página</a> para que las familias se lo lleven a casa.</li><li><strong>Hospitales y planificadores de altas:</strong> el folleto en paquetes para cuidadores, para algo tranquilo que hacer en casa o junto a la cama.</li></ul><h2>lo que no hacemos</h2><p>Los juegos son para disfrutar y pasar tiempo juntos. No diagnostican, evalúan, califican, tratan ni retardan la demencia, y pedimos a las organizaciones que no los describan de esa manera. No hay anuncios y los juegos no solicitan que se carguen nombres, detalles de salud o fotografías. El sitio web utiliza Google Analytics para contar las visitas; nuestro <a href=\"/privacy/\">aviso de privacidad</a> explica lo que eso recoge. Fotos utilizadas en <a href=\"/games/photo-pairs/\">pares de fotos</a> permanecer en el navegador.</p><h2>Agréganos a tu lista de recursos</h2><p>Si mantiene una lista de recursos para cuidadores, puede vincularla a <a href=\"/\">{domain}</a>. Puede copiar cualquiera de las descripciones.</p>",
       "shortTitle": "Breve descripción",
       "longTitle": "Descripción más larga",
-      "linksHtml": "<p>Páginas útiles para enlazar directamente: <a href=\"/games/\">juegos gratis</a>, <a href=\"/activities/printable/\">imprimibles gratis</a>, <a href=\"/activities/alzheimers/\">actividades para el Alzheimer</a> y <a href=\"/caregiving/how-to-play-together/\">cómo jugar juntos</a>.</p><h2>Preguntas o correcciones</h2><p>Si algo en el sitio está mal o no está claro, o si las necesidades de un residente no se satisfacen con lo que hay aquí, infórmenos en <a href=\"mailto:{email}\">{email}</a>. Por favor no envíe información personal o de salud de residentes o clientes.</p>"
+      "linksHtml": "<p>Paginas utiles a las que enlazar directament: <a href=\"/games/\">chuegos gratuitos</a>, <a href=\"/games/\">imprimibles gratuitos</a>, <a href=\"/dementia-activities/\">actividatz de demencia en casa</a> y <a href=\"/caregiving/how-to-play-together/\">como chugar chuntos</a>.</p><h2>Preguntas o correccions</h2><p>Si alguna cosa d'o sitio no ye correcta o no se entiende, u si as necesidatz d'un residente no están cubiertas con o que hai aquí, por favor digaquero a <a href=\"mailto:{email}\">{email}</a>. Por favor, no envíe información personal ni de salut de residentes o usuarios.</p>"
     },
     "app": {
       "title": "La aplicación Momentos Dorados",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Juegos gratuitos de demencia y Alzheimer en línea",
-    "description": "Juegos en línea gratuitos para personas mayores que viven con demencia o Alzheimer: unir imágenes, rompecabezas fáciles, clasificar, refranes, colorear, bingo.",
+    "title": "Chuegos gratuitos pa chugar chuntos en linia",
+    "description": "Chuegos en linia gratuitos pa personas mayors, familias y personas que viven con demencia: parellas de dibuixos, rompecabezas fáciles, clasificación, refranes, colorear y bingo. Sin registro, cronómetros ni puntuacions.",
     "crumb": "Juegos",
-    "h1": "Juegos suaves para personas con demencia",
+    "h1": "Chuegos suaves pa chugar chuntos",
     "lede": "{count} Juegos gratis para jugar juntos en tu navegador. Imágenes grandes, palabras sencillas y nada que falle: sin cronómetros, sin puntuaciones, sin registro.",
-    "listName": "Juegos suaves para personas con demencia.",
+    "listName": "Chuegos suaves pa chugar chuntos",
     "byStageTitle": "Elegir un juego por etapa",
     "byStageLede": "Las etapas son sólo una guía aproximada. Sigue lo que la persona disfruta y lo que se siente cómoda hoy.",
     "stageCol": "Escenario",
     "gamesCol": "Juegos que suelen adaptarse",
-    "moreHtml": "Más ideas fuera de la pantalla: <a href=\"/activities/ideas/\">101 actividades para personas con demencia</a>, <a href=\"/activities/alzheimers/\">actividades y juegos para el Alzheimer</a>, <a href=\"/activities/memory-games/\">juegos de memoria suaves</a> y <a href=\"/activities/puzzles/\">rompecabezas</a>.",
+    "moreHtml": "Mas ideas lueñe d'a pantalla: <a href=\"/activities/ideas/\">101 ideas d'actividatz</a>, <a href=\"/dementia-activities/\">actividatz de demencia en casa</a> y <a href=\"/crafts/\">manualidatz</a>.",
     "faq": [
       {
         "q": "¿Con qué juego deberíamos empezar?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "¿Son estos juegos de memoria para personas mayores?",
-        "a": "Son juegos de combinación e imágenes que cualquier adulto mayor puede disfrutar, pero no están diseñados para poner a prueba la memoria: en los pares de imágenes, las imágenes permanecen boca arriba a menos que elijas lo contrario. Nuestra guía de juegos de memoria para personas mayores con demencia explica cómo mantener cualquier juego de memoria suave."
+        "a": "Son chuegos de parellas y de dibuixos que cualsequier persona mayor puede disfrutar, pero están pensatos pa no poner a prueba a memoria: en Parellas de dibuixos, as imachens se quedan boca arriba a menos que escoya lo contrario. Cualsequier chuego de memoria puede fer-se mas suau quitando o cronómetro y las puntuacions."
       },
       {
         "q": "¿Hay juegos para grupos en una residencia de ancianos?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "¿Existe una aplicación de actividades para la demencia?",
+        "q": "Hai una aplicación pa personas mayors y familias?",
         "a": "Sí. Momentos Dorados (listados como \"{storeName}\") es gratuito en App Store y Google Play. Ofrece una combinación suave de imágenes con mosaicos grandes, juegos con fotos familiares que elijas y paquetes de imágenes que funcionan sin conexión."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Imprimible",
     "howTo": "como jugar {name}",
     "tips": "Consejos para jugar juntos",
-    "newToPlayingHtml": "¿Eres nuevo en jugar con alguien que tiene demencia? Leer <a href=\"/caregiving/how-to-play-together/\">cómo jugar juegos juntos</a>, incluido qué hacer si pierden interés.",
+    "newToPlayingHtml": "Nuevo en chugar con una persona mayor u alguien que vive con demencia? Lea <a href=\"/caregiving/how-to-play-together/\">como chugar chuegos chuntos</a>, incluyendo qué facer si pierde l'interés.",
     "moreAria": "Más para explorar",
     "helpfulGuides": "Guías útiles",
     "appTitle": "Juega en la aplicación",
@@ -536,6 +666,34 @@
     "goodToKnow": "Es bueno saberlo",
     "goodToKnowText": "Este juego es para disfrutar y pasar tiempo juntos. No prueba, mide ni trata nada.",
     "moreGames": "Juegos más suaves",
-    "crumb": "Juegos"
+    "crumb": "Juegos",
+    "print": {
+      "heading": "Chugar en papel",
+      "sameRules": "La versión en papel tiene as mismas reglas que o chuego en pantalla:",
+      "button": "Imprimir una versión en papel",
+      "pageNote": "Una pachina en A4 o US Letter, bien en blanco y negro. Versión {date}.",
+      "islandNote": "Imprime o que hai en pantalla ahora mesmo. Versión {date}.",
+      "sheetTitle": "{name}: versión en papel",
+      "point": "En papel, sinyale una imachen en vez de tocarla, u enmarcala con un bolígrafo. Cada fila ye un conchunto nuevo.",
+      "pointTarget": "En papel, la imachen a mirar ye en a caixa al principio de cada fila. Sinyale una imachen en vez de tocarla, u enmarcala con un bolígrafo.",
+      "halves": "Cada imachen ye partida por a mitat. Faiga una línia desde cada mitat a la izquierda hasta la mitat a la derecha que encaixe, u sinyale con un dedo. No hace falta cortar nada.",
+      "grid": "Cada cuadro tiene un número. Busque ese número en a clau, y coloree o cuadro con un lapiz de ese color. Cualsequier otro color que le guste tamién ye bien. No hace falta cortar nada.",
+      "colors": "Cada fila nombra un color. Sinyale cada imachen que sía de ese color, u enmarcala con un bolígrafo. Cada fila ye un conchunto nuevo.",
+      "dice": "Cada fila ye un conchunto de dados. Escoya una fila, u talle as imachens y saque unas cuantas d'una pila, y cuente una historia con ellas en cualsequier orden. Cualsequiera puede pasar.",
+      "cards": "Talle as cartas por as linias de trazos. Pongaz-las boca arriba sobre a mesa, y busque as parellas.",
+      "chain": "En papel, leiga as imachens de izquierda a dreita, una tras una. Cada persona dice una frase sobre as imachens hasta agora, y luego sinyala a siguient imachen. Cualsequiera puede pasar.",
+      "sort": "Talle as imachens por as linias de trazos, y dibuixe cada una en a caixa a on pertenez.",
+      "puzzle": "Talle a imachen grande por as linias de trazos en cuatro pezas y mezcle-las. Cambie dos pezas a la vez hasta que a imachen estigue completa. A imachen chicoteta ye una guía.",
+      "cutSafety": "Una persona pueda fer o tallau antes de comenzar. Guarde as tisoras despues.",
+      "version": "Versión {date} · {url}",
+      "reasons": {
+        "photos": "No hai versión en papel. Este chuego usa as suyas propias fotos, que se quedan en o suyo navegador y no se suben nunca, asinas que o sitio no puede imprimir-las. Pa chugar en papel, imprima dos copias de unas cuantas fotos favoritas en casa y busque as parellas en a mesa.",
+        "paced": "No hai versión en papel. O circulo marca un ritmo lento y constant en a pantalla, y una pachina impresa no puede fer-lo, asinas que serría una actividat distinta. Una pausa tranquila chuntos sin pantalla siempre ye una opción.",
+        "turns": "No hai versión en papel d'este chuego. Pa trobar parellas en a mesa, imprima as cartas de imachens de Parellas de dibuixos y tomen turnos pa dar-las vuelta.",
+        "screen": "No hai versión en papel. Esta ye una imachen pa mirar chuntos en una pantalla; una foto favorita u postal en a mesa fa o mesmo.",
+        "wash": "Ez hai una versión en papel. A acuarela sobre papel ye la mesma idea: un pincel mullau y un color a la vegada.",
+        "sayings": "Encara no hai una versión en papel. En papel, cada final s'amostraría de una vegada, y se perdría o pasu suau de \"Amostrar o final\". Leyez los dezirs en a pantalla chuntos, o comparte unos cuantos que los dos conoixeba."
+      }
+    }
   }
 }

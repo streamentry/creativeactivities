@@ -7,16 +7,22 @@
     "homeLabel": "Kuldsed hetked koju",
     "mainNav": "Peamine",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Kuldsed hetked: suured sõbralikud pildid teetassist, päevalillest ja koerast",
+    "defaultImageAlt": "Creative Activities: suured, sõbralikud joonised igapäevastest asjadest, mida valmistada ja teha",
     "languages": "Keel",
     "englishOnly": "(inglise)",
     "machineTranslated": "See leht tõlgiti automaatselt ja emakeelena kõneleja pole seda veel kontrollinud.",
     "readOriginal": "Loe originaali inglise keeles",
     "nav": {
+      "find": "Find an activity",
       "games": "Mängud",
       "activities": "Tegevused",
       "caregiving": "Hoolitsemine",
-      "brainHealth": "Aju tervis"
+      "brainHealth": "Aju tervis",
+      "crafts": "Käsitöö",
+      "kids": "Lapsed",
+      "together": "Koos",
+      "creativeCalm": "Loov rahu",
+      "search": "Otsi"
     },
     "faqTitle": "Küsimused ja vastused",
     "breadcrumb": "Leivapuru",
@@ -27,7 +33,32 @@
       "label": "Teksti suurus",
       "smaller": "Standardtekst",
       "larger": "Suurem tekst",
-      "contrast": "Suurem kontrast"
+      "contrast": "Suurem kontrast",
+      "colors": "Värvid",
+      "light": "Hele",
+      "dark": "Tume",
+      "device": "Sama, mis selles seadmes",
+      "lineLength": "Rea pikkus",
+      "standardLines": "Tavaline",
+      "shorterLines": "Lühemad read",
+      "spacing": "Vahe",
+      "standardSpacing": "Tavaline",
+      "moreSpace": "Rohkem ruumi"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -41,7 +72,7 @@
     "ideas101": "101 tegevusideed",
     "lateStage": "Hilise faasi tegevused",
     "printable": "Prinditavad tegevused",
-    "allActivities": "Kõik tegevused",
+    "allActivities": "Kõik tegevusjuhendid",
     "forCaregivers": "Hooldajatele",
     "playTogether": "Kuidas koos mängida",
     "selfCare": "Enda eest hoolitsemine",
@@ -54,24 +85,34 @@
     "app": "Kuldsete hetkede rakendus",
     "appHelp": "Rakenduse abi",
     "support": "Toetus",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "Juriidiline",
     "sitePrivacy": "Veebisaidi privaatsus",
     "appPrivacy": "Rakenduse privaatsuspoliitika",
     "privacyChoices": "Privaatsusvalikud",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "Tingimused ja rakenduse litsents",
     "safety": "Ohutus ja ettenähtud kasutus",
     "accessibility": "Juurdepääsetavus",
     "healthNotice": "Tervisealane teatis",
     "allLegal": "Kogu juriidiline teave",
     "note": "Creative Activities pakub nautimiseks lihtsaid ühiseid tegevusi. See ei ole meditsiiniline nõuanne, test ega ravi ning see ei diagnoosi, mõõda ega hinda kedagi. Terviseküsimuste korral pidage nõu arstiga. Hädaolukorras helistage 911.",
-    "publisher": "Väljaandja Cloudjet Solutions Pte. Ltd."
+    "publisher": "Väljaandja Cloudjet Solutions Pte. Ltd.",
+    "crafts": "Käsitöö igas vanuses",
+    "kids": "Tegevused lastele",
+    "together": "Tegevused koos tegemiseks",
+    "creativeCalm": "Loov rahu",
+    "dementiaActivities": "Tegevused dementsusega inimestele"
   },
   "home": {
-    "title": "Dementsus ja Alzheimeri tõve mängud ja tegevused | Kuldsed hetked",
-    "description": "Tasuta õrnad pildimängud võrgus mängimiseks ja tegevusideed dementsuse või Alzheimeri tõvega inimestele ja nende hooldajatele.",
+    "title": "Loovtegevused kõigile, kes kellegi eest hoolitsevad",
+    "description": "Tasuta loovtegevused kõigile, kes kellegi eest hoolitsevad: käsitöö, asjad lastele, tegevused koos ja rahustavad loovad mõtted.",
     "eyebrow": "Tasuta · Reklaame pole · Registreerimist pole · Taimereid ega hindeid pole",
-    "h1": "Õrnad mängud ja tegevused dementsusega inimestele",
-    "lede": "Lihtsad pildimängud, tuttavad fotod ja tegevused, mida koos nautida – omas tempos.",
+    "h1": "Tehke midagi koos",
+    "lede": "Leidke tegevus, mis sobib inimesele, hetkele ja sellele, mis teil käepärast on. Lihtsad käsitööd, laste kunst, tegevused koos ja rahulikud loovad mõtted, lihtsamate variantide ja prinditava kaardiga. Peatuge alati, kui soovite.",
     "playGame": "Mängi mängu",
     "findIdeas": "Otsige tegevusi ideid",
     "facts": [
@@ -106,13 +147,13 @@
     "ideas101": "101 tegevusideed",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "Varajane staadium",
         "text": "Tehke seda, mida nad armastavad, väikeste muudatustega: hobid, väljasõidud, sõnamängud ja koos planeerimine.",
         "label": "Varase etapi ideed"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "Keskmine etapp",
         "text": "Lihtsad tuttavad ülesanded, mis on jagatud sammudeks: voltimine, sorteerimine, muusika, pildimängud ja lühikesed jalutuskäigud.",
         "label": "Keskmise etapi ideed"
@@ -124,10 +165,10 @@
         "label": "Hilisema etapi ideed"
       }
     ],
-    "specificHtml": "Kas otsite midagi konkreetset? Proovi <a href=\"/activities/alzheimers/\">Alzheimeri tõvega seotud tegevused ja mängud</a>, <a href=\"/activities/memory-games/\">õrnad mälumängud</a>, <a href=\"/activities/trivia/\">lihtne tühiasi</a> või <a href=\"/activities/puzzles/\">mõistatused</a>.",
+    "specificHtml": "Otsite midagi kindlat? Proovige <a href=\"/dementia-activities/\">tegevusi ja mänge Alzheimeri tõvega inimestele</a>, <a href=\"/together/puzzles-and-table-games/\">pusle ja lauamänge</a>, <a href=\"/together/conversation-games-for-all-ages/\">vestlusmänge</a> või <a href=\"/together/puzzles-and-table-games/\">pusle</a>.",
     "approachEyebrow": "Meie lähenemine",
-    "approachTitle": "Jagatud tegevus, mitte mälutest",
-    "approachLede": "Paljud \"ajumängud\" on üles ehitatud kiiruse, skooride ja triipude ümber. Inimesele, kellel on dementsus, mis võib tunduda eksamina. Meie ehitasime vastupidi.",
+    "approachTitle": "Ühine tegevus, mitte test",
+    "approachLede": "Paljud „ajumängud“ on üles ehitatud kiirusele, skooridele ja järjestikustele õnnestumistele. Väsinud, halvasti end tundvale või dementsusega elavale inimesele võib see tunduda nagu eksam. Meie tegime vastupidi.",
     "approachLink": "Miks me seda nii kujundame?",
     "principles": [
       {
@@ -166,14 +207,14 @@
         "text": "Levinud keeldumise põhjused ja õrnad viisid hiljem uuesti proovida."
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "Tahvelarvuti seadistamine",
-        "text": "Suurem tekst, vähem katkestusi ja üks lihtne avakuva."
+        "href": "/activities/group-art-activities/",
+        "title": "Rühmakunstitegevused",
+        "text": "Ühised projektid mitmele inimesele lauas, igaühele oma ülesandega."
       },
       {
-        "href": "/activities/printable/",
-        "title": "Tasuta prinditavad tegevused",
-        "text": "Suures kirjas sõnaotsingud, värvimislehed, bingo- ja vestluskaardid."
+        "href": "/activities/ideas/",
+        "title": "101 tegevuse ideed",
+        "text": "Lihtsad ideed, sorteeritud selle järgi, mis teil on ja kui palju energiat on."
       }
     ],
     "researchTitle": "Aju tervis: mida uuringud tegelikult ütlevad",
@@ -185,16 +226,16 @@
     "aboutApp": "Teave rakenduse kohta",
     "faq": [
       {
-        "q": "Millised on head mängud dementsusega inimestele?",
-        "a": "Head mängud on lihtsad, tuttavad ja pingevabad: suured pildid sobitamiseks, sorteerimine, lihtne pusle, tuntud ütluste viimistlemine, värvimine, piltbingo ja vestluskaardid. Parim valik on see, mida inimene täna naudib. Vältige taimereid, hindeid ja kõike, mis tundub testina."
+        "q": "Millised on head mängud eakatele?",
+        "a": "Head mängud on lihtsad, tuttavad ja surveta: suured pildid sobitamiseks, sorteerimine, lihtsad pusled, tuttavate ütluste lõpetamine, värvimine, pildiloto ja vestluskaardid. Need sobivad paljudele eakatele, sealhulgas dementsusega elavatele inimestele. Parim valik on see, mis inimesele täna meeldib. Vältige taimereid, skoore ja kõike, mis tundub testina."
       },
       {
-        "q": "Kas need dementsuse mängud on tasuta?",
+        "q": "Kas need mängud on tasuta?",
         "a": "Jah. Kõik Creative Activitiesis prinditavad mängud on tasuta, ilma konto, registreerumise ja allalaadimiseta. Mängud jooksevad telefoni, tahvelarvuti või arvuti veebibrauseris."
       },
       {
         "q": "Kas ajumängud hoiavad ära dementsuse?",
-        "a": "Ükski mäng pole näidanud, et see ennetaks dementsust ja Creative Activities ei väida, et see ravib ega takista midagi. Meie mängud on mõeldud nautimiseks ja koos veetmiseks. Meie aju tervise rubriik selgitab, mida uuringud näitavad ja mida mitte."
+        "a": "Ükski mäng pole näidanud, et see ennetaks dementsust, ja Creative Activities ei väida, et ravib või ennetab midagi. Meie mängud on mõeldud rõõmuks ja koos veedetud ajaks ning ühelgi tegevuslehel ei ole tervisealast väidet."
       },
       {
         "q": "Kas need mängud sobivad Alzheimeri tõvega inimestele?",
@@ -210,7 +251,36 @@
       },
       {
         "q": "Kes teeb Kuldseid hetki?",
-        "a": "Creative Activities on väike meeskond, kes teeb peredele ja hooldajatele rahulikke täiskasvanute pildistamistegevusi veebis ja tasuta rakendusena. Me ei ole arstid ja miski siin pole meditsiiniline nõuanne."
+        "a": "Creative Activities on väike meeskond, kes loob rahulikke, täiskasvanutele mõeldud loovtegevusi kõigile, kes kellegi eest hoolitsevad, veebis ja tasuta rakendusena. Me ei ole kliinilised spetsialistid ega arstid ning siin olev ei ole meditsiiniline nõuanne."
+      }
+    ],
+    "groupsEyebrow": "Leidke oma tee",
+    "groupsTitle": "Neli liiki loovtegevusi",
+    "groupsLede": "Alustage rühmast, mis sobib teie seltskonnale ja sellele, mis teil käepärast on. Igal lehel on lihtsamad variandid ja ohutusmärkused.",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "Käsitöö",
+        "text": "Paberi-, värvi-, taaskasutatud materjali ja hooajaliste projektidega, igaühe juures lihtsam variant.",
+        "label": "Vaata käsitööd"
+      },
+      {
+        "href": "/kids/",
+        "title": "Lapsed",
+        "text": "Kunst ja mängud lastele, lähedal täiskasvanu ja selged ohutusmärkused.",
+        "label": "Vaata lastele mõeldud tegevusi"
+      },
+      {
+        "href": "/together/",
+        "title": "Koos",
+        "text": "Vestlus, pusled, aeg õues ja viisid olla lähedal üle põlvkondade.",
+        "label": "Vaata tegevusi koos tegemiseks"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "Loov rahu",
+        "text": "Aeglased, vaiksed loovad hetked pliiatsi, lehe või laulu juures. Mitte teraapia.",
+        "label": "Vaata loovat rahu"
       }
     ]
   },
@@ -229,6 +299,21 @@
     "printable": "Prinditav",
     "play": "Mängi {name} →",
     "readGuide": "Lugege juhendit"
+  },
+  "listen": {
+    "listenSteps": "Kuula samme ette",
+    "pause": "Peata",
+    "resume": "Jätka",
+    "stop": "Lõpeta",
+    "speed": "Kiirus",
+    "normal": "Tavaline",
+    "slower": "Aeglasemalt",
+    "reading": "Loen samme valjusti ette.",
+    "paused": "Peatatud. Vajutage „Jätka“, et edasi minna.",
+    "note": "Kasutab teie seadme enda häält. Mõned seadmed saadavad teksti selle valmistajale, et see ette loetaks.",
+    "listen": "Kuula",
+    "stepLabel": "Kuula sammu {n}",
+    "stopStep": "Lõpeta samm {n}"
   },
   "playCta": {
     "title": "Kas olete pehmeks mänguks valmis?",
@@ -249,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "Tegevused",
-      "title": "Tegevused dementsusega inimestele",
-      "seo": "Tegevused dementsusega inimestele: ideed etapiti",
-      "description": "Tegevusideed igas staadiumis dementsusega inimestele: muusika, meenutused, igapäevatööd, sensoorsed hetked, meisterdamine, õues ja tasuta prinditavad materjalid.",
-      "lede": "Mõtestatud tegevus on kõik, mis toob lohutust, eesmärki või ühenduse hetke. Alustage sellest, mis inimesele on alati meeldinud, ja kohandage seda tänapäevaga."
+      "label": "Tegevusjuhendid",
+      "title": "Tegevusjuhendid",
+      "seo": "Tegevusjuhendid: ideed, kunstitarbed ja alustamise viisid",
+      "description": "Lihtsad juhendid loovateks tegevusteks koos kellegagi: lihtsad ideed, odavad kunstitarbed, ühiskunst, kirjad, mälestused ja kunstiteraapia selgitus.",
+      "lede": "Lühikesed ja praktilised juhendid tegevuse valimiseks ja alustamiseks kellegagi, olenemata vanusest või võimetest."
+    },
+    "crafts": {
+      "label": "Käsitöö",
+      "title": "Käsitöö igas vanuses",
+      "seo": "Lihtne käsitöö igas vanuses, koos lihtsamate variantidega",
+      "description": "Lihtne käsitöö täiskasvanutele, lastele ja peredele: paber, värvimine, taaskasutatud ja hooajaline käsitöö, lihtsamini haaratavate ja istuvate variantidega, ilma erioskusteta.",
+      "lede": "Käsitöö, mis algab sellest, mis enamikus kodudes juba olemas on. Igaühel on lihtsam variant, et igaüks saaks midagi valmistada."
+    },
+    "kids": {
+      "label": "Lapsed",
+      "title": "Loovtegevused lastele",
+      "seo": "Loovtegevused lastele: kunst, sensoorika ja rahu",
+      "description": "Loovtegevused lastele: väikelaste kunst, protsessikunst, sensoorne mäng, vihmapäeva käsitöö ja rahunemise ideed, ohutusmärkuste ja sensoorsete vajaduste variantidega.",
+      "lede": "Kunsti- ja mänguideed erinevas vanuses ja erinevate vajadustega lastele, selgete ohutusmärkuste ja lähedal oleva täiskasvanuga."
+    },
+    "together": {
+      "label": "Koos",
+      "title": "Tegevused koos tegemiseks",
+      "seo": "Tegevused koos tegemiseks üle põlvkondade",
+      "description": "Tegevused kahele või enamale põlvkonnale: vestlusmängud, pusled, aeg õues, käsitöö vanavanemate ja lastelastega ning viisid olla lähedal kaugelt.",
+      "lede": "Ideed aja jagamiseks vanema, vanavanema, lapse või sõbraga kodus, õues, külaskäigul või kaugelt."
+    },
+    "creative-calm": {
+      "label": "Loov rahu",
+      "title": "Loov rahu",
+      "seo": "Loov rahu: lõõgastavad kunsti- ja tegevused puhkamiseks",
+      "description": "Lõõgastavad loovtegevused täiskasvanutele ja hooldajatele: teadlik kunst, päevikupidamine, muusika, sensoorsed hetked ja rahulikud pärastlõunad. Loovtegevus, mitte teraapia.",
+      "lede": "Leebed viisid aeglustada pliiatsi, lehe või laulu juures. Need on loovtegevused, mitte teraapia, ja need ei nõua mingit oskust."
     },
     "caregiving": {
-      "label": "Hoolitsemine",
-      "title": "Hooldusjuhendid",
-      "seo": "Dementsuse hooldamise juhendid: praktiline igapäevane abi",
-      "description": "Praktilised ja lahked juhendid dementsuse eest hoolitsejatele: koos mängimine, suhtlemine, keeldumised, hiline rahutus, tahvelarvutid, rakenduste valimine.",
-      "lede": "Lihtne praktiline abi dementsusega inimese eest hoolitsemisel, sealhulgas enda eest hoolitsemisel."
+      "label": "Hooldus",
+      "title": "Dementsusega inimese hooldamine",
+      "seo": "Dementsusega inimese hooldamine: tegevused ja abi",
+      "description": "Juhendid peredele, kes hoolitsevad dementsusega inimese eest: kuidas koos mängida, mida teha, kui ta ütleb ei, ja kust leida usaldusväärset abi pärast diagnoosi.",
+      "lede": "Tegevustele keskenduv abi peredele, kes hoolitsevad dementsusega elava inimese eest, ning kust saada arsti- ja hooldusnõu."
     },
     "brain-health": {
       "label": "Aju tervis",
@@ -283,7 +396,16 @@
     "tryTogether": "Proovige koos",
     "relatedGuides": "Seotud juhendid",
     "related": "Seotud",
-    "startHere": "Alusta siit"
+    "startHere": "Alusta siit",
+    "staleAria": "Tõlge on aegunud",
+    "staleTitle": "See tõlge on aegunud",
+    "staleText": "See on tehtud ingliskeelse lehe varasemast versioonist, mis on sellest ajast saadik muutunud. Praegune leht on ingliskeelne.",
+    "staleHealth": "See sisaldab tervisealast teavet, seega vaadake enne tegutsemist üle ingliskeelne leht ja pidage nõu arsti või õega.",
+    "staleLink": "Loe praegust ingliskeelset lehte"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "Tervisealane teatis",
@@ -292,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "Jagatud tegevus, mitte mälutest",
+      "title": "Ühine tegevus, mitte test",
       "seoTitle": "Kuldsete hetkede kohta: meie lähenemisviis",
-      "description": "Miks Creative Activitiesi mängudel pole taimereid, hindeid ega triipe, miks pilte kuvatakse ja mida me dementsuse kohta väidame ja ei väida.",
+      "description": "Miks Creative Activitiesil pole taimereid, punkte ega järjestusi, miks pildid jäävad nähtavaks ning mida me tervise kohta väidame ja mida mitte.",
       "crumb": "Meie lähenemine",
-      "lede": "Creative Activities loob rahulikke täiskasvanulikke tegevusi, mida hooldaja ja dementsusega inimene saavad kõrvuti nautida.",
-      "bodyHtml": "<h2>Mida me usume</h2><p>Tegevuse mõte on hetk ise: vestlus, naeratus, kahe pildi kokkupanemise rahulolu või lihtsalt lähedal istumine. See ei ole kellegi mõõtmine, edasi lükkamine ega millegi tõestamine.</p><p>Paljud ajutreeningu rakendused on loodud kiiruse, skooride, triibude ja tasemete järgi. Inimesele, kes elab dementsusega, mis võib tunduda eksamina, mida ta ei saa läbida. Me kavandasime vastupidist ja peame kinni järgmistest reeglitest:</p><ul><li><strong>Pole midagi ebaõnnestuda.</strong> Ühelgi ekraanil pole kella, skoori, käiguloendurit, elusid, triipe, konfetteid ega loendusi.</li><li><strong>Äratundmine meenutamise asemel.</strong> Vaikimisi kuvatakse pilte. Viibad kutsuvad vestlusesse ja ärge kunagi küsitlege nimesid või mälestusi.</li><li><strong>Suur, tavaline ja stabiilne.</strong> Suur tekst ja pildid, kõrge kontrastsus ja juhtnupud, mis jäävad samasse kohta.</li><li><strong>Täiskasvanu väärikus.</strong> Pärismaailma pildid ja lihtsad, soojad sõnad. Ei mingeid koomikseid, laululaulude kiitust ega emotikonide auhindu.</li><li><strong>Lihtne väljapääs.</strong> \"Praegu tehtud\" on alati nähtaval. Poolel teel peatumine on hea tulemus.</li><li><strong>Vaikimisi privaatne.</strong> Pole kontosid ega reklaame. Teie valitud fotod jäävad teie seadmesse.</li></ul><h2>Mida me ei väida</h2><p>Meie mängud on nautimiseks ja ühendamiseks. Nad ei diagnoosi, testi, mõõda, ravi, aeglusta ega enneta dementsust ega Alzheimeri tõbe ning keegi ei tohiks neid sel põhjusel valida. Kui me kirjutame uuringutest meie <a href=\"/brain-health/\">aju tervise leheküljed</a>, ütleme selgelt, kus tõendid on nõrgad, ja me ei seo seda kunagi oma mängudega.</p><h2>Kes me oleme</h2><p>Creative Activities on väike iseseisev meeskond. Me ei ole arstid. Meie juhendid on koostatud selliste organisatsioonide nagu riiklik vananemisinstituut ja Alzheimeri tõve ühendus avaldatud juhiste põhjal ning igas juhendis on loetletud nende allikad. Lugege <a href=\"/editorial-policy/\">kuidas me oma lehti kirjutame ja kontrollime</a>.</p><h2>Räägi meile, mis aitaks</h2><p>Meile meeldiks kuulda, mis teie jaoks töötab ja mis mitte, eriti dementsusega inimestelt, omastehooldajatelt ja tegevusala töötajatelt. Meil <a href=\"mailto:{email}\">{email}</a>.</p>"
+      "sponsors": {
+        "heading": "Sponsorid ja partnerid",
+        "none": "Creative Activitiesil ei ole sponsoreid, tasulisi paigutusi ega partnereid, kelle logosid lehel oleks.",
+        "listed": "Need on Creative Activitiesi sponsorid ja partnerid. Iga suhe on avalikustatud ka lehel, kus see ilmub.",
+        "policy": "Kui see muutub, ütleb iga selline leht seda kohas, kus see ilmub. Ükski tegevus ei kanna kunagi sponsorit ning partnerite nimekiri on sellel lehel.",
+        "listHeading": "Partnerite nimekiri",
+        "noPartners": "Praegu partnereid ei ole."
+      },
+      "lede": "Creative Activities pakub rahulikke täiskasvanutele mõeldud tegevusi, mida kaks inimest saavad koos nautida, olgu üks hoolitseb teise eest või soovivad nad lihtsalt koos aega veeta.",
+      "bodyHtml": "<h2>Kellele see on mõeldud</h2><p>Kõigile, kes hoolitsevad kellegi eest: vanemale, vanavanemale, lapsele, partnerile, sõbrale või dementsusega elavale inimesele. Pered, eakad ja tegevusjuhendajad saavad kõik kasutada samu lehti.</p><h2>Mida me usume</h2><p>Tegevuse mõte on hetk ise: vestlus, naeratus, rahulolu, kui kaks pilti kokku sobivad, või lihtsalt kõrvuti istumine. Eesmärk ei ole kedagi mõõta, survet avaldada ega millegi tõestamine.</p><p>Paljud ajutreeningu rakendused on üles ehitatud kiiruse, punktide, järjestuste ja tasemete ümber. Väsinud, halvasti tervena või dementsusega elava inimese jaoks võib see tunduda eksamina, mida ta ei saa sooritada. Meie oleme teinud vastupidi ja järgime neid reegleid:</p><ul><li><strong>Pole midagi, mille üle ebaõnnestuda.</strong> Ükski ekraan ei sisalda kella, punkte, käikude loendurit, elusid, järjestusi, konfetti ega loendamist.</li><li><strong>Ära-tundmine enne meeldetuletamist.</strong> Pildid jäävad vaikimisi nähtavaks. Vihjed kutsuvad vestlusele ega küsi nimesid ega mälestusi.</li><li><strong>Suur, lihtne ja stabiilne.</strong> Suur tekst ja pildid, kõrge kontrast ning juhtelemendid, mis jäävad samale kohale.</li><li><strong>Täiskasvanu väärikus.</strong> Pärismaailma pildid ja lihtsad, soojad sõnad. Ei mingeid multikaid, laulvat kiitust ega emoji-preemiaid.</li><li><strong>Lihtne väljapääs.</strong> „Praegu aitab“ on alati nähtav. Pooleli lõpetamine on hea tulemus.</li><li><strong>Vaikimisi privaatne.</strong> Kontosid ega reklaame ei ole. Teie valitud fotod jäävad teie seadmesse.</li></ul><h2>Mida me ei väida</h2><p>Meie mängud ja tegevused on mõeldud naudinguks ja suhtluseks. Need ei diagnoosi, ei testi, ei mõõda, ei ravi, ei aeglusta ega ennetа dementsust ega Alzheimeri tõbe, ja keegi ei tohiks neid valida selleks otstarbeks. Kui kirjutame teadusuuringutest, ütleme selgelt, kus tõendid on nõrgad, ega seosta neid kunagi oma tegevustega.</p><h2>Kes me oleme</h2><p>Creative Activities on väike sõltumatu meeskond. Me ei ole arstid. Meie juhendid on kirjutatud avaldatud juhiste põhjal, mille on koostanud organisatsioonid nagu National Institute on Aging ja Alzheimer’s Association, ning iga juhend loetleb oma allikad. Loe, <a href=\"/editorial-policy/\">kuidas me oma lehti kirjutame ja kontrollime</a>.</p><h2>Kirjuta, mis aitaks</h2><p>Meile meeldiks kuulda, mis teie jaoks toimib ja mis mitte, eriti dementsusega elavatelt inimestelt, pereliikmetelt hooldajatena ja tegevusjuhendajatelt. Kirjutage aadressile <a href=\"mailto:{email}\">{email}</a>.</p>"
     },
     "editorial": {
       "title": "Kuidas me kirjutame ja oma lehti kontrollime",
       "seoTitle": "Toimetuse poliitika",
-      "description": "Kuidas Creative Activities uurib, kirjutab, hankib allikaid ja värskendab oma dementsuse aktiivsust ja aju tervise lehti ning mida me kunagi ei avalda.",
+      "description": "Kuidas Creative Activities uurib, kirjutab, hangib allikaid ja uuendab oma tegevus- ja tervislehti ning mida me kunagi ei avalda.",
       "crumb": "Toimetuse poliitika",
       "bodyHtml": "<h2>Meie allikad</h2><p>Meie juhendid põhinevad selliste organisatsioonide nagu National Institute on Aging, CDC, Alzheimer's Association, Alzheimeri Foundation of America, Family Caregiver Alliance ja NHS avalikel juhistel ning eelretsenseeritud uuringutel, nagu Cochrane'i ülevaated ja suured kliinilised uuringud. Igas juhendis on loetletud allikad, millele see tugineb. Avame iga allika enne sellele viitamist ja anname teada ainult sellest, mida see tegelikult ütleb.</p><h2>Kuidas me kirjutame</h2><ul><li>Esmalt praktiline: mida täna teha, lihtsas keeles.</li><li>Tõendite suhtes aus: me ütleme \"seotud\", \"võib\" ja \"tõendid on segased\", kui see on tõde.</li><li>Lugupidavalt: me kirjutame täiskasvanutena dementsusega elavatest inimestest ega kasuta kunagi küsitlemist ega häbistamist.</li><li>Ei mingit väljamõeldud sisu: väljamõeldud statistikat, tsitaate, eksperte, uuringuid, ülevaateid ega iseloomustusi.</li></ul><h2>Kes meie lehti arvustab</h2><p>Lehtesid kirjutab ja kontrollib Creative Activitiesi tiim, kasutades selleks tehisintellekti kirjutustööriistu uurimistööks ja mustanditeks. Meeskond kontrollib iga lehte selle allikate suhtes. Meie lehtedel on <strong>mitte</strong> on läbi vaadanud arst või muu arst ja me ei väida vastupidist. Need on üldine teave, mitte meditsiinilised nõuanded.</p><h2>Mida me kunagi ei avalda</h2><ul><li>Väited, et mäng, toit, toidulisand, paast või rutiin ennetab, ravib, aeglustab või ravib dementsust.</li><li>Testid, viktoriinid või hinded, mis viitavad sellele, et kellelgi on dementsus või ei ole seda.</li><li>Nõuanded mis tahes ravimi alustamiseks, lõpetamiseks või vahetamiseks.</li><li>Reklaamid või sponsoreeritud sisu, mis on varjatud juhisteks.</li></ul><h2>Uuendused ja parandused</h2><p>Igal lehel on näidatud kuupäev, mil seda viimati värskendati. Kui leiate vea või aegunud allika, saatke e-kiri <a href=\"mailto:{email}\">{email}</a> ja me kontrollime seda kohe.</p>"
     },
     "faq": {
       "title": "Küsimused ja vastused",
-      "seoTitle": "Dementsuse mängud ja tegevused: küsimused ja vastused",
-      "description": "Vastused levinud küsimustele dementsusega seotud mängude ja tegevuste kohta: milliseid mänge proovida, kui kaua mängida, hilisemate ideede, aju tervise ja.",
+      "seoTitle": "Küsimused ja vastused Creative Activitiesi kohta",
+      "description": "Vastused levinud küsimustele mängude ja tegevuste kohta: mida proovida, kui kaua mängida, rühmade ja hilisema etapi ideed, tervis ja privaatsus.",
       "crumb": "Küsimused ja vastused",
       "lede": "Lühikesed ja selged vastused küsimustele, mida hooldajad kõige enam küsivad.",
       "groups": [
@@ -318,7 +448,7 @@
           "title": "Mängude kohta",
           "items": [
             {
-              "q": "Millised on dementsusega inimeste jaoks parimad mängud?",
+              "q": "Millised on parimad mängud eakatele?",
               "a": "Parimad mängud on tuttavad, lihtsad ja pingevabad ning õige on see, mida inimene täna naudib. Piltide sobitamine nähtavate piltidega, sorteerimine, lihtne pusle, tuttavate ütluste viimistlemine, värvimine ja pildibingo sobivad paljudele hästi. Vältige taimereid, hindeid ja kõike, mis tundub testina."
             },
             {
@@ -363,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "Aju tervis",
+          "title": "Dementsus ja tervis",
           "items": [
             {
               "q": "Kas mängud võivad dementsust ennetada või aeglustada?",
@@ -394,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "Täpsemalt: <a href=\"/caregiving/how-to-play-together/\">kuidas koos mängida</a>, <a href=\"/caregiving/when-they-say-no/\">kui nad ütlevad ei</a>, <a href=\"/activities/late-stage/\">hilisemate etappide tegevused</a> ja <a href=\"/brain-health/can-dementia-be-prevented/\">kas dementsust saab ära hoida?</a>"
+      "moreHtml": "Täpsemalt: <a href=\"/caregiving/how-to-play-together/\">kuidas koos mängida</a>, <a href=\"/caregiving/when-they-say-no/\">kui ta ütleb ei</a>, <a href=\"/activities/late-stage/\">hilisema etapi tegevused</a> ja <a href=\"/dementia-activities/\">dementsuse tegevused kodus</a>."
     },
     "handout": {
       "title": "Tasuta õrnad mängud dementsusega inimestele",
@@ -408,21 +538,21 @@
     },
     "organizations": {
       "title": "Hooldekodudele, raamatukogudele ja tugirühmadele",
-      "seoTitle": "Tasuta dementsusega seotud tegevused hooldekodudele ja rühmadele",
-      "description": "Kuidas hooldekodud, täiskasvanute päevaprogrammid, raamatukogud, vananemisagentuurid ja tugirühmad kasutavad meie tasuta dementsusmänge, ja tekst, mis.",
+      "seoTitle": "Tasuta tegevused hooldekodudele, raamatukogudele ja rühmadele",
+      "description": "Kuidas hooldekodud, täiskasvanute päevakeskused, raamatukogud, vanemaealiste asutused ja toetusrühmad kasutavad meie tasuta mänge ja tegevusjuhendeid, ning tekst meid ressursiloendisse lisamiseks.",
       "crumb": "Organisatsioonide jaoks",
       "lede": "Kõik sellel saidil on elanikele, liikmetele ja klientidele tasuta kasutamiseks ilma konto, litsentsi või tasuta. Sellel lehel selgitatakse, mis siin on ja kuidas seda jagada.",
-      "shortText": "{name}: tasuta õrnad piltmängud ja tegevusjuhised dementsusega inimestele ja nende hooldajatele. Pole registreerumist, taimereid ega hindeid.",
-      "longText": "{name} ({domain}) pakkumised {count} tasuta brauserimängud, mis on loodud dementsusega inimestele, sealhulgas piltidega paaride sobitamine, lihtne pusle, sorteerimine, tuttavad ütlemised ja prinditavate kaartidega piltbingo. Pole kontot, reklaami, taimerit ega skoori. Saidil on ka lihtsas keeles tegevusjuhendid dementsuse iga etapi kohta, mis viitavad riiklikule vananemisinstituudile ja Alzheimeri tõve ühingule.",
+      "shortText": "{name}: tasuta, rahulikud pildimängud ja tegevusjuhendid eakatele, peredele ja dementsusega elavatele inimestele. Registreerumist ei ole, taimereid ega punkte ei ole.",
+      "longText": "{name} ({domain}) pakub {count} tasuta brauserimängu eakatele, peredele ja dementsusega elavatele inimestele, sealhulgas paarismänge pildid nähtaval, lihtsat pusle, sortimist, tuntud kõnekäände ja pildiloto koos väljatrükitavate kaartidega. Kontot, reklaami, taimerit ega punktiarvestust ei ole. Saidil on lisaks lihtsas keeles tegevusjuhendid peredele, eakatele ja personalile, mis tuginevad allikatele nagu National Institute on Aging ja Alzheimer's Association.",
       "useTitle": "Mida organisatsioonid saavad kasutada",
       "gamesItemHtml": "<strong>{count} brauseri mängud</strong> mis töötavad sülearvutis, tahvelarvutis või arvutiga ühendatud teleris. Pole installimist, kontot ega allalaadimist. Vaata <a href=\"/games/\">kõik mängud</a>.",
       "printablesLabel": "{count} prinditavad:",
       "printablesAfter": "Kasutage igal lehel nuppu Prindi.",
-      "moreItemsHtml": "<li><strong>Grupivormingud:</strong> <a href=\"/games/picture-bingo/\">Pildibingo</a> on prinditavad kaardid ja ekraanil kuvatav helistaja ning <a href=\"/activities/trivia/\">lihtne tühiasi</a> on 50 küsimust koos vastuste valiku ja kõneainega.</li><li><strong>Tegevusjuhendid</strong> töötajatele ja peredele, lavade ja liikide kaupa, kirjutatud lihtsas keeles koos allikatega. Alusta sellest <a href=\"/activities/ideas/\">101 tegevusideed</a> või <a href=\"/activities/care-home-groups/\">rühmategevused hooldekodudele</a>.</li>",
+      "moreItemsHtml": "<li><strong>Rühmavormingud:</strong> <a href=\"/games/picture-bingo/\">Pildiloto</a> on väljatrükitavad kaardid ja ekraanil olev hääldaja ning <a href=\"/together/conversation-games-for-all-ages/\">vestlusmängud</a> sisaldavad küsimusi vastusevalikutega ja vestluse alustamise mõtteid.</li><li><strong>Tegevusjuhendid</strong> personalile ja peredele, kirjutatud lihtsas keeles koos allikatega. Alusta <a href=\"/activities/ideas/\">101 tegevusideega</a> või <a href=\"/crafts/craft-group-sessions/\">rühmategevustega hooldekodudele</a>.</li>",
       "restHtml": "<h2>Kuidas rühmad seda kasutavad</h2><ul><li><strong>Hooldekodud ja mäluhooldus:</strong> pildi bingo või lõpeta jutuajamine ühisruumi teleris, kus üks inimene puudutab rühma.</li><li><strong>Täiskasvanute päevaprogrammid:</strong> tahvelarvutijaam, mille pildipaarid on seatud neljale paanile, lühikeste üks-ühele seansside jaoks.</li><li><strong>Rahvaraamatukogud:</strong> trükitud sõnaotsingud ja vestluskaardid mälukomplektides ning sait järjehoidjatega raamatukogu tahvelarvutites.</li><li><strong>Hooldajate tugirühmad ja mälukohvikud:</strong> a <a href=\"/handout/\">üheleheküljeline prinditav jaotusmaterjal</a> peredele kojuviimiseks.</li><li><strong>Haiglad ja haiglaravi planeerijad:</strong> jaotusleht hooldajapakkides, millegi rahulikuks tegemiseks kodus või voodi kõrval.</li></ul><h2>Mida me ei tee</h2><p>Mängud on mõeldud nautimiseks ja ühiseks veetmiseks. Nad ei diagnoosi, testi, hinda, ei ravi ega aeglusta dementsust ning me palume organisatsioonidel neid mitte nii kirjeldada. Reklaame pole ja mängud ei nõua nimede, terviseandmete ega fotode üleslaadimist. Veebisait kasutab külastuste loendamiseks Google Analyticsit; meie <a href=\"/privacy/\">privaatsusteatis</a> selgitab, mida see kogub. Aastal kasutatud fotod <a href=\"/games/photo-pairs/\">Fotopaarid</a> jääda brauserisse.</p><h2>Lisage meid oma ressursside loendisse</h2><p>Kui teil on hooldajatele mõeldud ressursside loend, võite linkida <a href=\"/\">{domain}</a>. Saate kopeerida mõlema kirjelduse.</p>",
       "shortTitle": "Lühikirjeldus",
       "longTitle": "Pikem kirjeldus",
-      "linksHtml": "<p>Kasulikud lehed, millele otse linkida: <a href=\"/games/\">tasuta mängud</a>, <a href=\"/activities/printable/\">tasuta prinditavad</a>, <a href=\"/activities/alzheimers/\">tegevused Alzheimeri tõve vastu</a> ja <a href=\"/caregiving/how-to-play-together/\">kuidas koos mängida</a>.</p><h2>Küsimused või parandused</h2><p>Kui saidil on midagi valesti või ebaselge või see ei vasta elaniku vajadustele, andke meile teada aadressil <a href=\"mailto:{email}\">{email}</a>. Palun ärge saatke elanike ega klientide isiku- ega terviseandmeid.</p>"
+      "linksHtml": "<p>Kasulikud lehed, millele saab otse viidata: <a href=\"/games/\">tasuta mängud</a>, <a href=\"/games/\">tasuta väljatrükised</a>, <a href=\"/dementia-activities/\">dementsusega inimestele mõeldud tegevused kodus</a> ja <a href=\"/caregiving/how-to-play-together/\">kuidas koos mängida</a>.</p><h2>Küsimused või parandused</h2><p>Kui saidil on midagi valesti või ebaselge või kui elaniku vajadusi ei katta siin olev sisu, palun andke meile teada aadressil <a href=\"mailto:{email}\">{email}</a>. Palun ärge saatke elanike ega klientide isikuandmeid ega terviseandmeid.</p>"
     },
     "app": {
       "title": "Kuldsete hetkede rakendus",
@@ -437,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "Tasuta võrgus dementsuse ja Alzheimeri tõve mängud",
-    "description": "Tasuta võrgumängud dementsuse või Alzheimeri tõvega vanuritele: piltide sobitamine, lihtne pusle, sorteerimine, ütlemised, värvimine, bingo.",
+    "title": "Tasuta mängud koos mängimiseks veebis",
+    "description": "Tasuta veebimängud eakatele, peredele ja dementsusega elavatele inimestele: piltide sobitamine, lihtsad pusled, sortimine, kõnekäänud, värvimine ja loto. Registreerimist, taimereid ega punktiarvestust ei ole.",
     "crumb": "Mängud",
-    "h1": "Õrnad mängud dementsusega inimestele",
+    "h1": "Rahulikud mängud koos mängimiseks",
     "lede": "{count} brauseris koos mängimiseks tasuta mänge. Suured pildid, lihtsad sõnad ja mitte midagi, mida ebaõnnestuda: ei taimereid, pole punkte ega registreeru.",
-    "listName": "Õrnad mängud dementsusega inimestele",
+    "listName": "Rahulikud mängud koos mängimiseks",
     "byStageTitle": "Mängu valimine etapi järgi",
     "byStageLede": "Etapid on vaid ligikaudsed juhised. Jälgi seda, mida inimene täna naudib ja mis tunneb end mugavalt.",
     "stageCol": "Lava",
     "gamesCol": "Mängud, mis sageli sobivad",
-    "moreHtml": "Rohkem ideid ekraanilt eemal: <a href=\"/activities/ideas/\">101 tegevust dementsusega inimestele</a>, <a href=\"/activities/alzheimers/\">Alzheimeri tõvega seotud tegevused ja mängud</a>, <a href=\"/activities/memory-games/\">õrnad mälumängud</a> ja <a href=\"/activities/puzzles/\">mõistatused</a>.",
+    "moreHtml": "Ideid ekraanist eemal: <a href=\"/activities/ideas/\">101 tegevusideed</a>, <a href=\"/dementia-activities/\">dementsusega inimestele mõeldud tegevused kodus</a> ja <a href=\"/crafts/\">käsitöö</a>.",
     "faq": [
       {
         "q": "Millisest mängust peaksime alustama?",
@@ -463,7 +593,7 @@
       },
       {
         "q": "Kas need mälumängud on mõeldud pensionäridele?",
-        "a": "Need on sobitamis- ja pildimängud, mida saavad nautida kõik vanemad täiskasvanud, kuid need on loodud mitte mälu testimiseks: pildipaaride puhul jäävad pildid ülespoole, kui te ei vali teisiti. Meie mälumängude juhend dementsusega eakatele selgitab, kuidas hoida iga mälumäng õrnana."
+        "a": "Need on sobitamis- ja pildimängud, mida saavad nautida kõik eakad, kuid need ei ole loodud mälu testimiseks: pildipaaride mängus jäävad pildid vaikimisi nähtavale, kui just teisiti ei vali. Iga mälumängu saab muuta leebemaks, kui eemaldada taimer ja punktid."
       },
       {
         "q": "Kas hooldekodus on rühmadele mänge?",
@@ -484,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "Kas on olemas dementsete tegevuste rakendus?",
+        "q": "Kas eakatele ja peredele on rakendust?",
         "a": "Jah. Kuldsed hetked (loetletud kui \"{storeName}\") on App Store'is ja Google Plays tasuta. See pakub õrna piltide sobitamist suurte paanidega, mänge teie valitud perefotodega ja pildipakette, mis töötavad võrguühenduseta."
       },
       {
@@ -526,7 +656,7 @@
     "printable": "Prinditav",
     "howTo": "Kuidas mängida {name}",
     "tips": "Näpunäiteid koos mängimiseks",
-    "newToPlayingHtml": "Kas olete uus dementsusega inimesega mängimine? Lugege <a href=\"/caregiving/how-to-play-together/\">kuidas koos mänge mängida</a>, sealhulgas seda, mida teha, kui huvi kaotab.",
+    "newToPlayingHtml": "Kas oled eakaga või dementsusega elava inimesega koos mängimisel esimest korda? Loe <a href=\"/caregiving/how-to-play-together/\">kuidas mänge koos mängida</a>, sealhulgas seda, mida teha, kui huvi kaob.",
     "moreAria": "Rohkem uurida",
     "helpfulGuides": "Abistavad juhendid",
     "appTitle": "Mängige seda rakenduses",
@@ -536,6 +666,35 @@
     "goodToKnow": "Hea teada",
     "goodToKnowText": "See mäng on mõeldud nautimiseks ja koos veetmiseks. See ei testi, mõõda ega ravi midagi.",
     "moreGames": "Rohkem õrnaid mänge",
-    "crumb": "Mängud"
+    "crumb": "Mängud",
+    "print": {
+      "heading": "Mängi paberil",
+      "sameRules": "Paberversioonil on samad reeglid, mis ekraanil oleval mängul:",
+      "button": "Prindi paberversioon",
+      "pageNote": "Üks leht A4 või US Letter formaadis, sobib ka mustvalgelt printimiseks. Versioon {date}.",
+      "islandNote": "Prinditakse see, mis ekraanil praegu on. Versioon {date}.",
+      "sheetTitle": "{name}: paberversioon",
+      "point": "Paberil osuta pildile sõrmega selle asemel, et seda puudutada, või ringista see pliiatsiga. Iga rida on uus komplekt.",
+      "pointTarget": "Paberil on vaadatav pilt iga rea alguses kastis. Osuta pildile sõrmega selle asemel, et seda puudutada, või ringista see pliiatsiga.",
+      "halves": "Iga pilt on keskelt lõigatud. Tõmba joon vasakul olevast poolest paremal asuva sobiva pooleni või osuta sõrmega. Midagi ei pea lõikama.",
+      "grid": "Igal ruudul on number. Leia see number legendist ja värvi ruut sellse värvi pliiatsiga. Ka mis tahes muu värv sobib. Midagi ei pea lõikama.",
+      "colors": "Iga rida nimetab värvi. Osuta igale pildile, mis on selle värvi, või ringista see pliiatsiga. Iga rida on uus komplekt.",
+      "dice": "Iga rida on täringute komplekt. Vali rida või lõika pildid välja ja tõmba need hunnikust, seejärel jutusta nendest lugu mis tahes järjekorras. Keegi võib vahele jätta.",
+      "words": "Lõika sõnad välja või tõmba joon igast sõnast selle pildini. Loe sõnu valjusti ette, kui edasi liigud.",
+      "cards": "Lõika kaardid välja katkendjoonte järgi. Aseta need laual näoga üles ja leia paarid.",
+      "chain": "Paberil loe pilte vasakult paremale, üks pärast teist. Igaüks ütleb ühe lause nende siiani nähtud piltide kohta ja osutab seejärel järgmisele pildile. Keegi võib vahele jätta.",
+      "sort": "Lõika pildid välja katkendjoonte järgi ja aseta igaüks kasti, kuhu ta kuulub.",
+      "puzzle": "Lõika suur pilt katkendjoonte järgi neljaks tükiks ja sega need läbi. Vaheta korraga kaks tükki, kuni pilt on terve. Väike pilt on juhiseks.",
+      "cutSafety": "Enne alustamist võib lõikamise ette võtta abiline. Pärast pane käärid kõrvale.",
+      "version": "Versioon {date} · {url}",
+      "reasons": {
+        "photos": "Paberversiooni ei ole. See mäng kasutab sinu enda fotosid, mis jäävad sinu brauserisse ja mida ei laadita üles, seega ei saa sait neid printida. Paberil mängimiseks prindi kodus kahte koopiat mõnest lemmikfotost ja sobita need laua peal.",
+        "paced": "Paberversiooni ei ole. Ring seab ekraanil aeglase, ühtlase tempo ja trükitud leht seda teha ei saa, seega oleks see hoopis teine tegevus. Vaikne koos peatus ilma ekraanita on alati võimalik.",
+        "turns": "Selle mängu paberversiooni ei ole. Paaride leidmiseks laual prindi Pildipaaride pildikaardid ja mängige, võttes kordamööda kaarte ümber.",
+        "screen": "Paberversiooni pole. See on pilt, mida vaadata koos ekraanilt; laual olev lemmikfoto või postkaart teeb sama asja.",
+        "wash": "Paberversiooni pole. Akvarell paberil on sama mõte: märg pintsel ja üks värv korraga.",
+        "sayings": "Paberversiooni pole veel. Paberil oleksid kõik lõpud kohe nähtaval ja hell samm \"Näita lõppu\" kaoks. Lugege vanasõnu koos ekraanilt või jagage mõni, mida te mõlemad teate."
+      }
+    }
   }
 }
