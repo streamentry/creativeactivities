@@ -30,6 +30,7 @@ export const ENGLISH_GUIDE_REDIRECTS: Readonly<Record<string, readonly string[]>
   dv: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   dz: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   ee: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
+  eu: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   ff: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   fj: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
   fo: ['activities/ideas', 'activities/late-stage', 'activities/reminiscence', 'caregiving/how-to-play-together', 'caregiving/when-they-say-no'],
