@@ -3,7 +3,7 @@
 
 Stdlib only. Lists every website image record (site_images) and every shipped
 asset group (groups) by rights_status, and counts the records that have no
-recorded creator or licence, or are still unreviewed. A text is counted as
+recorded creator or license, or are still unreviewed. A text is counted as
 missing when it is empty or says "not recorded" or "not yet".
 """
 import json
@@ -33,7 +33,7 @@ def report(register: dict) -> str:
     for kind, n in sorted(Counter(i.get('kind') for i in images).items()):
         lines.append(f'    {kind}: {n}')
     lines.append(f'  missing creator: {sum(missing(i.get("creator")) for i in images)}')
-    lines.append(f'  missing licence: {sum(missing(i.get("licence")) for i in images)}')
+    lines.append(f'  missing license: {sum(missing(i.get("licence")) for i in images)}')
     lines.append(f'  unreviewed: {sum(i.get("rights_status") == "unreviewed" for i in images)}')
     lines.append(f'  with sha256: {sum(bool(i.get("sha256")) for i in images)}')
     lines.append(f'  with alt text (including decorative ""): {sum(i.get("alt") is not None for i in images)}')

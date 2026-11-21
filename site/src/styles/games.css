@@ -1891,7 +1891,7 @@
 .ws {
   display: grid;
   grid-template-columns: repeat(var(--size), 1fr);
-  /* 6px, not 4px: a focus ring (2px offset, 3px wide) must stay on the grid, not on a neighbouring print-white cell (TSA-004). */
+  /* 6px, not 4px: a focus ring (2px offset, 3px wide) must stay on the grid, not on a neighboring print-white cell (TSA-004). */
   gap: 6px;
   max-width: 560px;
   margin-inline: auto;
