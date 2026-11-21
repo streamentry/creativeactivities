@@ -11,8 +11,11 @@ import 'package:creative_activities/features/gentle_activities/presentation/gent
 import 'package:creative_activities/features/gentle_activities/presentation/gentle_game_page.dart';
 import 'package:creative_activities/features/gentle_activities/presentation/help_privacy_page.dart';
 import 'package:creative_activities/features/gentle_activities/presentation/home_menu_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/keep_the_beat_page.dart';
 import 'package:creative_activities/features/gentle_activities/presentation/photo_collection_page.dart';
 import 'package:creative_activities/features/gentle_activities/presentation/photo_together_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_puzzle_page.dart';
+import 'package:creative_activities/features/gentle_activities/presentation/picture_sort_page.dart';
 import 'package:creative_activities/features/gentle_activities/presentation/picture_view.dart';
 import 'package:creative_activities/features/habits/presentation/habits_page.dart';
 import 'package:creative_activities/features/language/presentation/language_page.dart';
@@ -30,6 +33,7 @@ import 'package:creative_activities/l10n/l10n.dart';
 import 'package:creative_activities/shared/native/gm_native.dart';
 import 'package:creative_activities/shared/rating/review_request.dart';
 import 'package:creative_activities/shared/sharing/share_invitation.dart';
+import 'package:creative_activities/shared/utils/experiments.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -297,6 +301,36 @@ class _GentleHomePageState extends State<GentleHomePage>
         icon: const Icon(Icons.chat_bubble_outline),
         label: Text(l10n.commonLookTogether),
       ),
+      // Pilot games (GM-009, GM-010, GAME-027). Compiled in, shown only in
+      // builds made with GM_EXPERIMENTS=true (APP-034); every build else
+      // is unchanged. They use the bundled pictures only.
+      if (experimentsEnabled) ...[
+        const SizedBox(height: gmSpaceXl),
+        Text(l10n.homePilotHeading, style: theme.textTheme.headlineSmall),
+        const SizedBox(height: gmSpaceMd),
+        OutlinedButton.icon(
+          style: OutlinedButton.styleFrom(minimumSize: heroSize),
+          onPressed: () =>
+              _open(const PicturePuzzlePage(pictures: ActivityPicture.samples)),
+          icon: const Icon(Icons.extension_outlined),
+          label: Text(l10n.homePilotPuzzle),
+        ),
+        const SizedBox(height: gmSpaceMd),
+        OutlinedButton.icon(
+          style: OutlinedButton.styleFrom(minimumSize: heroSize),
+          onPressed: () =>
+              _open(const PictureSortPage(pictures: ActivityPicture.samples)),
+          icon: const Icon(Icons.category_outlined),
+          label: Text(l10n.homePilotSort),
+        ),
+        const SizedBox(height: gmSpaceMd),
+        OutlinedButton.icon(
+          style: OutlinedButton.styleFrom(minimumSize: heroSize),
+          onPressed: () => _open(const KeepTheBeatPage()),
+          icon: const Icon(Icons.music_note_outlined),
+          label: Text(l10n.homePilotBeat),
+        ),
+      ],
       const SizedBox(height: gmSpaceXl),
       Text(
         // The ARB text keeps a non-breaking hyphen in "Wi‑Fi".

@@ -2497,5 +2497,151 @@
   "activityGuideQrSemantics": "QR code for the full guide address",
   "@activityGuideQrSemantics": {
     "description": "Screen reader label for the QR code that encodes the guide address."
+  },
+  "homePilotHeading": "Pilot games",
+  "@homePilotHeading": {
+    "description": "Home screen heading over the experimental games. Shown only in pilot builds. Two words."
+  },
+  "homePilotPuzzle": "Tap-to-place puzzle",
+  "@homePilotPuzzle": {
+    "description": "Home button for the experimental tap-to-place picture puzzle, pilot builds only. Keep under about 25 characters."
+  },
+  "homePilotSort": "Sort pictures",
+  "@homePilotSort": {
+    "description": "Home button for the experimental picture sorting game, pilot builds only. Keep under about 25 characters."
+  },
+  "homePilotBeat": "Keep the beat",
+  "@homePilotBeat": {
+    "description": "Home button for the experimental keep-the-beat game, pilot builds only. Keep under about 25 characters."
+  },
+  "sortTitle": "Sort pictures",
+  "@sortTitle": {
+    "description": "Title bar of the experimental picture sorting game. Short."
+  },
+  "sortInstructions": "Tap a picture, then tap the basket it belongs in. Undo takes back the last one you put in a basket.",
+  "@sortInstructions": {
+    "description": "Instructions at the top of the picture sorting game. Plain adult words."
+  },
+  "sortBasketKitchen": "Kitchen",
+  "@sortBasketKitchen": {
+    "description": "Name of the basket for kitchen pictures in the sorting game. Keep short."
+  },
+  "sortBasketGarden": "Garden",
+  "@sortBasketGarden": {
+    "description": "Name of the basket for garden pictures in the sorting game. Keep short."
+  },
+  "sortTray": "To sort",
+  "@sortTray": {
+    "description": "Heading above the pictures not yet in a basket in the sorting game. Two words at most."
+  },
+  "sortPictureInTray": "{name}, not in a basket yet",
+  "@sortPictureInTray": {
+    "description": "Screen-reader label of a picture still waiting to be sorted. {name} is the picture's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      }
+    }
+  },
+  "sortPickFirst": "First tap a picture, then tap a basket.",
+  "@sortPickFirst": {
+    "description": "Message in the sorting game when a basket is tapped with no picture chosen."
+  },
+  "sortChosen": "{name} is chosen. Now tap the basket it goes in.",
+  "@sortChosen": {
+    "description": "Message in the sorting game after a picture is chosen. {name} is the picture's name.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      }
+    }
+  },
+  "sortNotThisBasket": "{name} could go in the {basket} basket. Tap that basket to put it there.",
+  "@sortNotThisBasket": {
+    "description": "Gentle message in the sorting game when a picture is tapped toward the wrong basket. Nothing moves and nothing is counted as a mistake. {name} is the picture, {basket} the basket it belongs in.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      },
+      "basket": {
+        "type": "String",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "sortPlaced": "{name} went into the {basket} basket.",
+  "@sortPlaced": {
+    "description": "Message in the sorting game after a picture goes into its basket. {name} is the picture, {basket} the basket.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Teacup"
+      },
+      "basket": {
+        "type": "String",
+        "example": "Kitchen"
+      }
+    }
+  },
+  "sortUndone": "Taken back. It is in the pictures to sort again.",
+  "@sortUndone": {
+    "description": "Message in the sorting game after Undo takes a picture out of its basket."
+  },
+  "sortNothingToUndo": "Nothing to undo yet.",
+  "@sortNothingToUndo": {
+    "description": "Message in the sorting game when Undo is tapped before any picture has been put in a basket."
+  },
+  "sortAllSorted": "Everything is sorted. Look through the baskets together, or start with new pictures.",
+  "@sortAllSorted": {
+    "description": "Calm message when every picture is in a basket in the sorting game. No praise or exclamation."
+  },
+  "sortUndo": "Undo",
+  "@sortUndo": {
+    "description": "Button that takes back the last picture put in a basket. One word."
+  },
+  "sortNewPictures": "New pictures",
+  "@sortNewPictures": {
+    "description": "Button that starts a new set of pictures in the sorting game. Two words."
+  },
+  "sortBasketCount": "{count} in this basket",
+  "@sortBasketCount": {
+    "description": "Screen-reader label for a basket in the sorting game with the number of pictures inside. {count} is that number.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "beatTitle": "Keep the beat",
+  "@beatTitle": {
+    "description": "Title bar of the experimental keep-the-beat game. Short."
+  },
+  "beatInstructions": "A steady beat keeps going. Tap the big circle along with it. Taps are not counted or graded, and there is no time limit.",
+  "@beatInstructions": {
+    "description": "Instructions at the top of the keep-the-beat game. Plain adult words. Must not mention scores or timing."
+  },
+  "beatTapToStart": "Tap the circle to start the beat.",
+  "@beatTapToStart": {
+    "description": "Text under the big circle in the keep-the-beat game when the beat is not running."
+  },
+  "beatTapOnBeat": "Tap on the beat",
+  "@beatTapOnBeat": {
+    "description": "Label of the one large target in the keep-the-beat game while the beat runs. Screen readers read it as the button's name."
+  },
+  "beatRunning": "The beat is going. Take your time.",
+  "@beatRunning": {
+    "description": "Calm line under the big circle while the beat runs."
+  },
+  "beatPause": "Pause the beat",
+  "@beatPause": {
+    "description": "Button that stops the beat in the keep-the-beat game until the person taps the circle again. Three words."
+  },
+  "beatPaused": "The beat is paused. Tap the circle to start it again.",
+  "@beatPaused": {
+    "description": "Calm line in the keep-the-beat game while the beat is paused."
   }
 }
