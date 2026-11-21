@@ -1887,6 +1887,20 @@
   }
 }
 
+/* GAME-050: how to pass a card round a group, collapsed until asked for. */
+.talk-group {
+  margin-block: var(--space-sm);
+  font-size: var(--text-md);
+}
+.talk-group summary {
+  font-weight: 700;
+  cursor: pointer;
+}
+.talk-group p {
+  margin: var(--space-sm) 0 0;
+  max-inline-size: 60ch;
+}
+
 /* Word search */
 .ws {
   display: grid;
@@ -2521,6 +2535,57 @@
 /* Printable sheets: hidden on screen, laid out for paper */
 .sheet {
   display: none;
+}
+/* GAME-061: the printed month of daily cards. Hidden on screen; on paper, the cards sheet does not print with it. */
+@media screen {
+  .sheet--calendar {
+    display: none;
+  }
+}
+@media print {
+  body:has(.sheet--calendar) .sheet-paper {
+    display: none;
+  }
+  .sheet--calendar {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .sheet-calendar {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    color: #000;
+  }
+  .sheet-calendar th {
+    font-size: 11pt;
+    font-weight: 700;
+    text-align: start;
+    padding: 1mm 1.5mm;
+    border-block-end: 1pt solid #000;
+  }
+  .sheet-calendar td {
+    height: 33mm;
+    vertical-align: top;
+    border: 0.5pt solid #000;
+    padding: 1.5mm;
+    font-size: 8.5pt;
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+  .sheet-calendar__today {
+    border: 2pt solid #000 !important;
+  }
+  .sheet-calendar__day {
+    display: block;
+    font-size: 12pt;
+    font-weight: 700;
+    margin-block-end: 1mm;
+  }
+  .sheet-calendar__help,
+  .sheet-calendar__version {
+    font-size: 9pt;
+    margin: 2mm 0 0;
+  }
 }
 @media print {
   /* games.css loads only on game pages: print just the sheet. */

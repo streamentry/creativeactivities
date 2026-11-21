@@ -3,12 +3,22 @@ import { PICTURES } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { localePath } from '../i18n/locales';
 import { fill, plural } from '../i18n/play/format';
-import { archiveDays, dailyValues, dayKey, resultLine } from '../lib/games/daily';
+import {
+  DAILY_PRINT_VERSION,
+  WEEKDAYS_SHORT,
+  archiveDays,
+  dailyValues,
+  dayKey,
+  monthCalendar,
+  monthLabel,
+  resultLine,
+} from '../lib/games/daily';
 import { createRng, randomSeed, sample } from '../lib/games/random';
 import { resizeValues } from '../lib/games/resize';
 import { ChoiceChips } from './shared/ChoiceChips';
 import { GameFrame } from './shared/GameFrame';
 import { PairsBoard } from './shared/PairsBoard';
+import { pictureNamer } from './shared/PictureTile';
 import { sounds } from './shared/sound';
 
 const SIZES = [4, 6, 8, 12] as const;
@@ -32,6 +42,15 @@ export default function PicturePairs(props: PlayProps) {
   const freshPicks = (pairs: number) => sample(ids, pairs, createRng(randomSeed()));
   const [picks, setPicks] = useState<string[]>(() => freshPicks(size / 2));
   const values = useMemo(() => (day ? dailyValues(day, ids) : picks), [day, ids, picks]);
+  // GAME-061 print: the month the viewer is in, one card title a day, the same as the day picker's dates.
+  const nameOf = useMemo(() => pictureNamer(props), [props.pictureNames, props.ui]);
+  const calendar = useMemo(() => {
+    if (!day) return null;
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth();
+    return { label: monthLabel(year, month), today: dayKey(now), weeks: monthCalendar(year, month, ids, nameOf) };
+  }, [day, ids, nameOf]);
 
   const restart = () => {
     sounds.tap();
@@ -72,6 +91,7 @@ export default function PicturePairs(props: PlayProps) {
   const guidance = daily ? ui.picturePairs.guidanceDaily : view === 'showing' ? ui.picturePairs.guidanceShowing : ui.picturePairs.guidanceHidden;
 
   return (
+    <>
     <GameFrame
       ui={ui}
       lang={lang}
@@ -149,5 +169,38 @@ export default function PicturePairs(props: PlayProps) {
     >
       <PairsBoard play={props} values={values} hidden={!daily && view === 'hidden'} round={round} keepPlace onMessage={setMessage} onComplete={() => setDone(true)} />
     </GameFrame>
+    {calendar ? (
+      <section className="sheet sheet--calendar" aria-hidden="true">
+        <h2>{fill(ui.picturePairs.calendarTitle, { month: calendar.label })}</h2>
+        <table className="sheet-calendar">
+          <thead>
+            <tr>
+              {WEEKDAYS_SHORT.map((name) => (
+                <th key={name} scope="col">{name}</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {calendar.weeks.map((week, row) => (
+              <tr key={row}>
+                {week.map((cell, col) => (
+                  <td key={col} className={cell?.key === calendar.today ? 'sheet-calendar__today' : undefined}>
+                    {cell ? (
+                      <>
+                        <span className="sheet-calendar__day">{cell.day}</span>
+                        <span className="sheet-calendar__title">{cell.title}</span>
+                      </>
+                    ) : null}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <p className="sheet-calendar__help">{ui.picturePairs.calendarHelp}</p>
+        <p className="sheet-calendar__version">{fill(ui.picturePairs.calendarVersion, { date: DAILY_PRINT_VERSION })}</p>
+      </section>
+    ) : null}
+    </>
   );
 }
