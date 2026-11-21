@@ -117,7 +117,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-027 | P1 | partial | Card changelog |
 | WEB-028 | P1 | partial | Saved collections on the device |
 | WEB-029 | P0 | exists | Data control on the device |
-| WEB-031 | P1 | partial | Weekly plan, printable |
+| WEB-031 | P1 | exists | Weekly plan, printable |
 | WEB-032 | P1 | new | Paths |
 | WEB-033 | P2 | ? | Seasonal hubs and a "this season" calendar |
 | WEB-034 | P1 | new | Occasion hubs |
@@ -127,7 +127,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | WEB-040 | P1 | new | Offline reading |
 | WEB-042 | P2 | ? | Display options: dark theme and reading settings |
 | WEB-044 | P1 | partial | Partner page with permission rules |
-| WEB-045 | P1 | new | Care-home weekly program sheet |
+| WEB-045 | P1 | exists | Care-home weekly program sheet |
 | WEB-046 | P1 | partial | Group mode for facilitators |
 | WEB-050 | P1 | new | Share a card |
 | WEB-051 | P1 | partial | Games filters |
@@ -253,7 +253,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 | CNT-032 | P0 | new | AI-assistance policy |
 | CNT-033 | P1 | partial | Target library sizes |
 | CNT-034 | P1 | new | Update, correction and retirement |
-| CNT-040 | P0 | new | Library inventory |
+| CNT-040 | P0 | exists | Library inventory |
 
 #### MAKE: crafting (07)
 
@@ -638,7 +638,7 @@ How to read the numbers: this file uses the index with the overrides applied. Af
 
 | ID | P | Status | Title |
 |---|---|---|---|
-| CNT-711 | P3 | ? | Beads and jewelry |
+| CNT-711 | P3 | partial | Beads and jewelry |
 
 #### GROW: parenting and kids (08)
 
