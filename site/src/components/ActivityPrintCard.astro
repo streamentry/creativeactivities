@@ -81,7 +81,7 @@ const stepImages = (step: number) => d.images.filter((image) => image.step === s
   {
     d.crisisRoute && (
       <div class="activity-crisis" data-crisis-route>
-        <p><strong>If you are in crisis:</strong> {PRINT_CRISIS_LINE} Numbers checked on {CHECKED_ON}.</p>
+        <p><strong>If you are in crisis:</strong> {PRINT_CRISIS_LINE}{CHECKED_ON !== null && <> Numbers checked on {CHECKED_ON}.</>}</p>
       </div>
     )
   }

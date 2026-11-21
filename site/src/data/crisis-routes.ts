@@ -7,6 +7,9 @@
  * no verified route, the text says "your local emergency services" and nothing more.
  *
  * `source: null` means no official page has been recorded yet for that route.
+ * A check date counts only together with its source: until every route that gives a
+ * number has both, the site prints no "Numbers checked on" line (maintainer,
+ * 2026-11-22: the 2026-11-15 date had been recorded without any source).
  * Each route is shown as: `region:` `lead` `emphasis` `tail`, so the emphasized
  * number or service is bold and the rest is plain text. Keep the wording as it is.
  */
@@ -25,8 +28,8 @@ export interface CrisisRoute {
   emphasis: string | null;
   /** Plain text shown after the bold part. */
   tail: string;
-  /** Date (YYYY-MM-DD) a person last checked the number against `source`. */
-  checked: string;
+  /** Date (YYYY-MM-DD) a person last checked the number against `source`, or null when no such check is recorded. */
+  checked: string | null;
   /** The service's own page, or null when it is not recorded yet. */
   source: string | null;
 }
@@ -40,7 +43,7 @@ export const CRISIS_ROUTES: readonly CrisisRoute[] = [
     lead: 'call or text',
     emphasis: '988',
     tail: ', 24 hours a day.',
-    checked: '2026-11-15',
+    checked: null,
     // Cited in the page comment history as 988lifeline.org. Not recorded here yet:
     // every outside origin must first be listed in docs/specs/global/data-inventory.md (TSA-011).
     source: null,
@@ -53,7 +56,7 @@ export const CRISIS_ROUTES: readonly CrisisRoute[] = [
     lead: 'call',
     emphasis: 'Samaritans on 116 123',
     tail: '. The call is free, day or night.',
-    checked: '2026-11-15',
+    checked: null,
     // Cited as samaritans.org; not recorded here until data-inventory.md lists the origin.
     source: null,
   },
@@ -65,13 +68,28 @@ export const CRISIS_ROUTES: readonly CrisisRoute[] = [
     lead: 'contact your local emergency services.',
     emphasis: null,
     tail: '',
-    checked: '2026-11-15',
+    checked: null,
     source: null,
   },
 ];
 
-/** The date every route was last checked, as printed on the page ("Numbers checked on ..."). */
-export const CRISIS_CHECKED_ON = CRISIS_ROUTES[0].checked;
+/**
+ * The date to print as "Numbers checked on ...": the oldest check among the routes that
+ * give a number, but only when every one of them has both a check date and a source.
+ * Otherwise null, and no date is printed.
+ */
+export function crisisCheckedOn(routes: readonly CrisisRoute[]): string | null {
+  const numbered = routes.filter((r) => r.number !== null);
+  if (numbered.length === 0) return null;
+  const dates: string[] = [];
+  for (const r of numbered) {
+    if (r.checked === null || r.source === null) return null;
+    dates.push(r.checked);
+  }
+  return [...dates].sort()[0] ?? null;
+}
+
+export const CRISIS_CHECKED_ON = crisisCheckedOn(CRISIS_ROUTES);
 
 /** The same routes in one line for printed cards (TSA-027). */
 export const CRISIS_PRINT_LINE =
