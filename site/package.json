@@ -12,6 +12,7 @@
     "gen:redirects": "node scripts/gen-redirects.ts",
     "preview": "wrangler dev",
     "check:site": "node --max-old-space-size=6144 scripts/check-site.mjs",
+    "check:structured-data": "node scripts/check-structured-data.mjs",
     "check:budget": "node --max-old-space-size=6144 scripts/check-budget.mjs",
     "check:images": "node --max-old-space-size=6144 scripts/check-images.mjs",
     "check:capacity": "node scripts/check-capacity.mjs",
