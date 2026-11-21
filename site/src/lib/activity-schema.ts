@@ -114,6 +114,8 @@ export const reviewSchema = z
     notFor: z.array(z.string().min(3)).min(1).max(6),
     notUnsupervised: z.array(z.string().min(3)).min(1).max(6),
     stopSigns: z.array(z.string().min(3)).min(1).max(6),
+    /** The content hash (scripts/content-hash-lib.mjs) of the reviewed content, recorded at sign-off. Older records may lack it (PLAT-005). */
+    contentHash: z.string().regex(/^sha256:[0-9a-f]{64}$/, 'a sha256 content hash').optional(),
   })
   .refine(hasCredentialBody, CREDENTIAL_BODY_MESSAGE);
 

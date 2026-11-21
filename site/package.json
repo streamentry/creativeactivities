@@ -28,6 +28,7 @@
     "build:baseline": "node scripts/build-baseline.mjs",
     "check:live": "node scripts/verify-live-legal.mjs",
     "review:queue": "node scripts/review-queue.mjs",
+    "review:drift": "node scripts/review-drift.mjs",
     "review:plain": "node scripts/plain-language.mjs",
     "indexnow": "node scripts/indexnow.mjs",
     "test": "vitest run",
