@@ -334,8 +334,7 @@ const jsonLd = withdrawn
         <time datetime={isoDate(d.updated)}>{dateText(d.updated)}</time>.{' '}
         {!reviewedOn && (
           <>
-            <strong data-review-missing>Not yet reviewed by an outside reviewer.</strong>{' '}
-            Read the safety notes with extra care until it is.{' '}
+            <span data-review-missing>Not yet reviewed by an outside reviewer.</span>{' '}
           </>
         )}
         {reviewDue && (
