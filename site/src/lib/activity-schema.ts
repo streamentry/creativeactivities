@@ -86,25 +86,47 @@ export const REVIEW_ROLES = [
  * person has checked the card and agreed to be named. The page shows only
  * what this record says.
  */
+/** The reviewer fields both outcomes share: who checked, under which credential, and permission to be named. */
+const reviewerFields = {
+  name: z.string().min(2).max(80),
+  /** The role the reviewer filled for this card. */
+  role: z.enum(REVIEW_ROLES),
+  credential: z.string().min(2).max(120),
+  /** The register or board that holds the credential, checked by the reviewer's own body; none for lived experience. */
+  body: z.string().min(2).max(120).optional(),
+  date: z.coerce.date(),
+  permissionOnFile: z.literal(true),
+};
+
+/** A credentialed reviewer needs the body that holds the credential; a lived-experience reviewer does not. */
+const hasCredentialBody = (r: { role: (typeof REVIEW_ROLES)[number]; body?: string | undefined }) =>
+  r.role === 'lived-experience' || (r.body ?? '').length > 0;
+const CREDENTIAL_BODY_MESSAGE = {
+  message: 'a credentialed reviewer needs the register or board that holds the credential',
+  path: ['body'],
+};
+
 export const reviewSchema = z
   .object({
-    name: z.string().min(2).max(80),
-    /** The role the reviewer filled for this card. */
-    role: z.enum(REVIEW_ROLES),
-    credential: z.string().min(2).max(120),
-    /** The register or board that holds the credential, checked by the reviewer's own body; none for lived experience. */
-    body: z.string().min(2).max(120).optional(),
-    date: z.coerce.date(),
+    ...reviewerFields,
     scope: z.string().min(40).max(400),
     notFor: z.array(z.string().min(3)).min(1).max(6),
     notUnsupervised: z.array(z.string().min(3)).min(1).max(6),
     stopSigns: z.array(z.string().min(3)).min(1).max(6),
-    permissionOnFile: z.literal(true),
   })
-  .refine((r) => r.role === 'lived-experience' || (r.body ?? '').length > 0, {
-    message: 'a credentialed reviewer needs the register or board that holds the credential',
-    path: ['body'],
-  });
+  .refine(hasCredentialBody, CREDENTIAL_BODY_MESSAGE);
+
+/**
+ * A reviewer who declined the card (CNT-1004: "A declined page is not published"). The record keeps who declined,
+ * when and why, so the page stays unpublished and out of every listing. Nothing about it is shown to readers.
+ */
+export const reviewDeclinedSchema = z
+  .object({
+    ...reviewerFields,
+    /** Why the reviewer declined, for the editorial record. Not shown to readers. */
+    reason: z.string().min(40).max(400),
+  })
+  .refine(hasCredentialBody, CREDENTIAL_BODY_MESSAGE);
 
 /**
  * One startable activity (DESIGN.md › Content design and data model). The
@@ -160,6 +182,8 @@ export const activityCardSchema = z
     withdrawn: withdrawnSchema.optional(),
     /** Absent until a named, credentialed person has reviewed the card (TSA-034). */
     review: reviewSchema.optional(),
+    /** Set when the reviewer declined the card. A declined card is not published and is held from every listing (CNT-1004). */
+    reviewDeclined: reviewDeclinedSchema.optional(),
     /**
      * Shows the crisis route on the page and on the printed card (TSA-027). Set on any card that invites
      * talk about memories, feelings or grief. Tested in activity-safety.test.ts.
@@ -170,6 +194,7 @@ export const activityCardSchema = z
       .default([]),
   })
   .refine((d) => d.activityMinutes[0] <= d.activityMinutes[1], 'activityMinutes must be [min, max]')
+  .refine((d) => !(d.review && d.reviewDeclined), 'a card cannot be both reviewed and declined')
   .refine((d) => !d.safetyFlags.includes('none') || d.safetyFlags.length === 1, '"none" cannot be combined with other flags')
   .refine(
     (d) => d.images.every((image) => image.step === undefined || image.step <= d.steps.length),

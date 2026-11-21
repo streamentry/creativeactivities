@@ -261,9 +261,10 @@ export const FILTER_LABELS: Partial<Record<SafetyFlag, string>> = {
 /**
  * Activities a withdrawn card must not appear in (TSA-045). The card's own
  * page stays up, with a notice and noindex, so old links explain themselves.
+ * A card a reviewer declined is held out of every listing too, and has no page (CNT-1004).
  */
-export function listedActivities<T extends { data: { withdrawn?: unknown } }>(cards: readonly T[]): T[] {
-  return cards.filter((card) => !card.data.withdrawn);
+export function listedActivities<T extends { data: { withdrawn?: unknown; reviewDeclined?: unknown } }>(cards: readonly T[]): T[] {
+  return cards.filter((card) => !card.data.withdrawn && !card.data.reviewDeclined);
 }
 
 /**

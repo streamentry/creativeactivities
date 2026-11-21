@@ -190,4 +190,53 @@ describe('activity card schema', () => {
       expect(result.success && 'reviewer' in result.data).toBe(false);
     });
   });
+
+  describe('declined review (CNT-1004)', () => {
+    const DECLINED = {
+      name: 'Jane Example',
+      role: 'art-therapist',
+      credential: 'Registered art therapist',
+      body: 'Example Register of Art Therapists',
+      date: '2026-11-12',
+      reason: 'The activity asks people to name a feeling, which the reviewer does not think is safe for this group.',
+      permissionOnFile: true,
+    };
+
+    it('accepts a declined record without the fields a shown review needs', () => {
+      expect(parse({ reviewDeclined: DECLINED }).success).toBe(true);
+    });
+
+    it('requires the reason, the credential body and the reviewer\'s permission', () => {
+      expect(parse({ reviewDeclined: { ...DECLINED, reason: 'No.' } }).success).toBe(false);
+      expect(parse({ reviewDeclined: { ...DECLINED, body: undefined } }).success).toBe(false);
+      expect(parse({ reviewDeclined: { ...DECLINED, permissionOnFile: false } }).success).toBe(false);
+    });
+
+    it('lets a lived-experience reviewer decline without a credential body, and no one else', () => {
+      const lived = { ...DECLINED, role: 'lived-experience', credential: 'Cared for a parent with dementia', body: undefined };
+      expect(parse({ reviewDeclined: lived }).success).toBe(true);
+      expect(parse({ reviewDeclined: { ...lived, role: 'grief-practitioner' } }).success).toBe(false);
+    });
+
+    it('refuses a card that is both reviewed and declined', () => {
+      const approved = {
+        name: 'Jane Example',
+        role: 'occupational-therapist',
+        credential: 'Registered occupational therapist',
+        body: 'Example Register of Occupational Therapists',
+        date: '2026-11-10',
+        scope: 'Checked the steps and stop signs for people living with early dementia. Not checked for medical use.',
+        notFor: ['Anyone who is in distress when asked to make something.'],
+        notUnsupervised: ['People who put small objects in their mouth.'],
+        stopSigns: ['Pulling away, crying, or agitation that does not settle with a break.'],
+        permissionOnFile: true,
+      };
+      expect(parse({ review: approved }).success).toBe(true);
+      expect(parse({ review: approved, reviewDeclined: DECLINED }).success).toBe(false);
+    });
+
+    it('accepts every card with neither field, as before', () => {
+      expect(parse({}).success).toBe(true);
+    });
+  });
 });
