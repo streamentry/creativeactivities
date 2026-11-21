@@ -31,6 +31,7 @@ These are written by the site's own code. None is sent to Creative Activities. E
 | `gm-line-length` | local storage | `site/src/lib/display-settings.ts` (`LINE_LENGTH_KEY`), set by `site/src/components/TextSize.astro` | `short`; absent means standard lines | No | As above |
 | `gm-spacing` | local storage | `site/src/lib/display-settings.ts` (`SPACING_KEY`), set by `site/src/components/TextSize.astro` | `more`; absent means standard spacing | No | As above |
 | `gm-play-settings` | local storage | `site/src/games/shared/settings.ts` | Game sound on or off | No | As above |
+| `gm-place-v1-` plus the game's short name (one key per game, not the photo games) | local storage | `site/src/games/shared/place.ts`, written when a person rests in a game (`GameFrame.tsx`), removed by Start again or Start fresh | The game's own board as JSON, in an envelope with version 1; no timestamps, scores or photos. Absent until the person rests in that game | No | As above |
 | `gm_lang` | cookie, one year, `SameSite=Lax`, path `/` | `site/src/components/LanguageChoice.astro` through `site/src/lib/language-choice.ts`, and expired by `site/src/pages/your-data.astro` | The language code the reader chose | Sent to the site's host with each page request, as every cookie is | One year, or until removed |
 
 Not used by the site: `sessionStorage`, IndexedDB, Cache Storage, service workers, and any other cookie. Only two files write a cookie (`LanguageChoice.astro` and `your-data.astro`); the test checks this.

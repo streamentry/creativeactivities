@@ -9,6 +9,7 @@ import {
   clipClass,
   isComplete,
   localPoints,
+  PUZZLES,
   nextPuzzle,
   newGame,
   puzzleOf,
@@ -31,6 +32,47 @@ import {
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/**
+ * The saved picture, or null unless it is a known puzzle with each placed piece in a space of its own shape, no piece
+ * placed twice, and a chosen piece that is not already placed. Optional fields (before, chosen) must be null or valid.
+ */
+function parseQuiet(b: unknown): QuietGame | null {
+  if (!isRecord(b)) return null;
+  const { puzzle, placed, chosen, hints, before } = b;
+  if (typeof puzzle !== 'number' || !Number.isInteger(puzzle)) return null;
+  const data = PUZZLES[puzzle];
+  if (!data) return null;
+  const count = data.spaces.length;
+  const isPiece = (v: unknown): v is number => typeof v === 'number' && Number.isInteger(v) && v >= 0 && v < count;
+  const slots = (list: unknown): (number | null)[] | null => {
+    if (!Array.isArray(list) || list.length !== count) return null;
+    const out: (number | null)[] = [];
+    for (const v of list) {
+      if (v === null) out.push(null);
+      else if (isPiece(v)) out.push(v);
+      else return null;
+    }
+    return out;
+  };
+  const now = slots(placed);
+  if (!now) return null;
+  const used = now.filter((p): p is number => p !== null);
+  if (new Set(used).size !== used.length) return null;
+  for (let space = 0; space < count; space++) {
+    const piece = now[space] ?? null;
+    if (piece !== null && data.spaces[piece]?.type !== data.spaces[space]?.type) return null;
+  }
+  if (chosen !== null && !isPiece(chosen)) return null;
+  const pick = isPiece(chosen) ? chosen : null;
+  if (pick !== null && used.includes(pick)) return null;
+  if (typeof hints !== 'boolean') return null;
+  const older = before === null ? null : slots(before);
+  if (before !== null && !older) return null;
+  return { puzzle, placed: now, chosen: pick, hints, before: older };
+}
 
 const pointsAttr = (points: readonly Pt[]): string => points.map(([x, y]) => `${x},${y}`).join(' ');
 
@@ -144,6 +186,24 @@ export default function QuietShapes(props: PlayProps) {
           </label>
         }
         onRestart={restart}
+        place={{
+          slug: 'quiet-shapes',
+          save: () => ({
+            puzzle: latest.current.puzzle,
+            placed: latest.current.placed,
+            chosen: latest.current.chosen,
+            hints: latest.current.hints,
+            before: latest.current.before,
+          }),
+          check: (b) => parseQuiet(b) !== null,
+          restore: (b) => {
+            const saved = parseQuiet(b);
+            if (!saved) return;
+            latest.current = saved;
+            setGame(saved);
+            setMessage('');
+          },
+        }}
         footer={
           <div className="btn-row btn-row--center">
             {game.before !== null ? (

@@ -29,6 +29,58 @@ import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const isPerson = (v: unknown): v is Person => v === 0 || v === 1;
+const isPaletteValue = (v: unknown): v is PatternColor => PATTERN_COLORS.some((c) => c.index === v);
+const finite = (v: unknown): v is number => typeof v === 'number' && Number.isFinite(v);
+
+/** A point that lies on the drawing. */
+const onCanvas = (p: unknown): p is Point => {
+  if (!isRecord(p)) return false;
+  const { x, y } = p;
+  return finite(x) && finite(y) && x >= 0 && x <= CANVAS_WIDTH && y >= 0 && y <= CANVAS_HEIGHT;
+};
+
+function parseStroke(s: unknown): Stroke | null {
+  if (!isRecord(s)) return null;
+  const { person, color, width, points } = s;
+  if (!isPerson(person) || !isPaletteValue(color) || !finite(width) || width <= 0 || width > 200) return null;
+  if (!Array.isArray(points) || points.length === 0 || !points.every(onCanvas)) return null;
+  return { person, color, width, points: [...points] };
+}
+
+function parseStrokes(list: unknown): Stroke[] | null {
+  if (!Array.isArray(list)) return null;
+  const out: Stroke[] = [];
+  for (const item of list) {
+    const stroke = parseStroke(item);
+    if (!stroke) return null;
+    out.push(stroke);
+  }
+  return out;
+}
+
+/** The saved drawing, or null when this game cannot show it. */
+function parseGame(b: unknown): DuetGame | null {
+  if (!isRecord(b)) return null;
+  const { strokes, turn, colors, pen, undo } = b;
+  const drawn = parseStrokes(strokes);
+  const kept = undo === null ? null : parseStrokes(undo);
+  if (!drawn || (undo !== null && !kept) || !isPerson(turn)) return null;
+  if (!Array.isArray(colors) || colors.length !== 2) return null;
+  const [first, second] = colors;
+  if (!isPaletteValue(first) || !isPaletteValue(second)) return null;
+  if (!isRecord(pen)) return null;
+  const { x, y, down } = pen;
+  if (!onCanvas({ x, y }) || typeof down !== 'boolean') return null;
+  return { strokes: drawn, turn, colors: [first, second], pen: { x: x as number, y: y as number, down }, undo: kept };
+}
+
 /** A small shape in a color, so the color is also known by its shape. */
 function Shape({ color }: { color: PatternColorInfo }) {
   return <span className="cbn__shape" data-shape={color.shape} aria-hidden="true" />;
@@ -314,6 +366,17 @@ export default function DrawingDuet(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'drawing-duet',
+          save: () => game,
+          check: (b) => parseGame(b) !== null,
+          restore: (b) => {
+            const saved = parseGame(b);
+            if (!saved) return;
+            commit(penUp(saved));
+            setMessage('');
+          },
+        }}
       >
         <div className="dd">
           <div className="dd__players">

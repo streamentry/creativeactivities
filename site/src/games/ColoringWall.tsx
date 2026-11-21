@@ -4,6 +4,7 @@ import {
   DEFAULT_WALL_PICTURE,
   DEFAULT_WALL_SIZE,
   WALL_GRIDS,
+  WALL_PICTURE_IDS,
   WALL_SIZES,
   WALL_VIEW,
   pageMm,
@@ -57,6 +58,15 @@ function WallMap({ size, label }: { size: WallSize; label: string }) {
   );
 }
 
+/** The saved picture and wall size, or null unless both are ones the wall offers. */
+function parseWall(b: unknown): { picture: string; size: WallSize } | null {
+  if (typeof b !== 'object' || b === null || Array.isArray(b)) return null;
+  const { picture, size } = b as { picture?: unknown; size?: unknown };
+  if (typeof picture !== 'string' || !WALL_PICTURE_IDS.includes(picture)) return null;
+  if (typeof size !== 'string' || !(WALL_SIZES as readonly string[]).includes(size)) return null;
+  return { picture, size: size as WallSize };
+}
+
 /**
  * Group coloring wall (GAME-052): one Coloring picture printed across 4, 6 or 9 pages, so many people can color
  * one big picture. The screen shows the choices, the page grid laid over the picture, and the steps; the printed
@@ -99,6 +109,17 @@ export default function ColoringWall(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'coloring-wall',
+          save: () => ({ picture: pictureId, size }),
+          check: (b) => parseWall(b) !== null,
+          restore: (b) => {
+            const saved = parseWall(b);
+            if (!saved) return;
+            setPictureId(saved.picture);
+            setSize(saved.size);
+          },
+        }}
       >
         <div className="cw-game">
           <fieldset className="cw__choices">

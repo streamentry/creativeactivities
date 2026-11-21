@@ -964,6 +964,7 @@ Risks / not doing: Hints can do the work for the person. Hints are optional and 
 Priority P0 · Phase S2 · Status partial · Pillars: all
 
 Evidence: Rest for now on every game through site/src/games/shared/GameFrame.tsx (checked for all 12 games by a11y-check.mjs: keyboard reachable, play area hidden and kept, Carry on restores it, no modal). Not done: the place is kept only while the page is open; it is not saved on the device between visits, so the Rest saving requirement is partly met.
+Update (WEB-054 branch): Rest saves each game's board to `localStorage` under `gm-place-v1-<game>` (`site/src/games/shared/place.ts`, `GameFrame` `place` prop). On return, one tap carries on or starts fresh; unreadable or old values are dropped quietly. The photo games (Photo pairs, Scrapbook, Picture puzzle) never save. 32 games now pass a `place`; Picture pairs does not yet keep matched pairs (they live inside the shared `PairsBoard`). Offer strings are English only until translated. Seated toss keeps nothing (its tally is on paper). Status stays partial until a person checks the carry-on flow on a device.
 
 Why: "Adapt or stop without pressure" applies to games too ([MISSION](../../../MISSION.md)). A rest button that saves place is in the game concepts ([R4 §8, concept 22](research/04-games-engagement.md)).
 

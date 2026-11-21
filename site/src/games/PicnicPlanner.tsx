@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { PICNIC_FOOD, PICNIC_OUTINGS, type PicnicItem } from '../data/picnic-planner';
+import { PICNIC_FOOD, PICNIC_ITEMS, PICNIC_OUTINGS, type PicnicItem } from '../data/picnic-planner';
 import { pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -20,6 +20,21 @@ import { PairsBoard } from './shared/PairsBoard';
 import { sounds } from './shared/sound';
 
 type Stage = 'plan' | 'play';
+
+const ITEM_IDS: ReadonlySet<string> = new Set(PICNIC_ITEMS.map((item) => item.id));
+
+/** The saved basket, or null unless it holds at most `SLOTS` different known pictures. Only the basket is kept. */
+function parseBasket(b: unknown): Picnic | null {
+  if (typeof b !== 'object' || b === null || Array.isArray(b)) return null;
+  const { basket } = b as { basket?: unknown };
+  if (!Array.isArray(basket) || basket.length > SLOTS) return null;
+  const seen = new Set<string>();
+  for (const id of basket) {
+    if (typeof id !== 'string' || !ITEM_IDS.has(id) || seen.has(id)) return null;
+    seen.add(id);
+  }
+  return { basket: basket as string[] };
+}
 
 /**
  * Picnic planner (GAME-043): tap pictures of food and things to do to put them in a picnic basket (up to six), then
@@ -135,6 +150,19 @@ export default function PicnicPlanner(props: PlayProps) {
         guidance={guidance}
         message={message}
         onRestart={startAgain}
+        place={{
+          slug: 'picnic-planner',
+          save: () => ({ basket: latest.current.basket }),
+          check: (b) => parseBasket(b) !== null,
+          restore: (b) => {
+            const saved = parseBasket(b);
+            if (!saved) return;
+            commit(saved);
+            setStage('plan');
+            setDone(false);
+            setMessage('');
+          },
+        }}
         footer={
           planning ? (
             <div className="btn-row btn-row--center">

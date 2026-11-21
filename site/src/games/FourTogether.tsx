@@ -25,6 +25,29 @@ import { useWide } from './shared/useWide';
 /** A pause with no new picture found before the hint names the theme. Never fired by a tap. */
 const HINT_AFTER_MS = 20_000;
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const TOGETHER_PICTURES: ReadonlySet<string> = new Set(TOGETHER_THEMES.flatMap((t) => [...t.pictures]));
+
+/** The saved board, or null when this game cannot show it. */
+function parseBoard(b: unknown): { count: number; state: TogetherState } | null {
+  if (!isRecord(b)) return null;
+  const { count, round, found, shown } = b;
+  if (typeof count !== 'number' || !(TOGETHER_COUNTS as readonly number[]).includes(count) || typeof shown !== 'boolean') return null;
+  if (!isRecord(round)) return null;
+  const { theme, group, pictures } = round;
+  const pool = TOGETHER_THEMES.find((t) => t.id === theme);
+  if (!pool) return null;
+  if (!isIdList(group, (id) => pool.pictures.includes(id)) || group.length !== groupSize(count)) return null;
+  if (!isIdList(pictures, (id) => TOGETHER_PICTURES.has(id)) || !group.every((id) => pictures.includes(id))) return null;
+  if (!isIdList(found, (id) => group.includes(id))) return null;
+  return { count, state: { round: { theme: pool.id, group: [...group], pictures: [...pictures] }, found: [...found], shown } };
+}
+
 const newState = (count: number, previousTheme?: string): TogetherState =>
   startTogether(createTogetherRound(count, createRng(randomSeed()), previousTheme));
 
@@ -143,6 +166,19 @@ export default function FourTogether(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'four-together',
+        save: () => ({ count, state }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setCount(saved.count);
+          setState(saved.state);
+          setMessage('');
+          setHint(false);
+        },
+      }}
     >
       <p className="together__note" aria-live="polite">
         {done

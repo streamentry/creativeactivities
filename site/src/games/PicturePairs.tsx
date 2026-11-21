@@ -23,6 +23,29 @@ import { sounds } from './shared/sound';
 
 const SIZES = [4, 6, 8, 12] as const;
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const PICTURE_IDS: ReadonlySet<string> = new Set(PICTURES.map((p) => p.id));
+const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * The saved board: its size, view, pictures and daily day. The pairs already
+ * matched are kept by the shared PairsBoard, not here, so they are not restored.
+ */
+function parseBoard(b: unknown): { size: number; view: 'showing' | 'hidden'; picks: string[]; day: string | null } | null {
+  if (!isRecord(b)) return null;
+  const { size, view, picks, day } = b;
+  if (typeof size !== 'number' || !(SIZES as readonly number[]).includes(size)) return null;
+  if (view !== 'showing' && view !== 'hidden') return null;
+  if (!isIdList(picks, (id) => PICTURE_IDS.has(id)) || picks.length !== size / 2) return null;
+  if (day !== null && !(typeof day === 'string' && DAY_KEY.test(day))) return null;
+  return { size, view: view as 'showing' | 'hidden', picks, day: day as string | null };
+}
+
 export default function PicturePairs(props: PlayProps) {
   const { ui, lang } = props;
   const [size, setSize] = useState<number>(4);
@@ -166,6 +189,22 @@ export default function PicturePairs(props: PlayProps) {
           </div>
         ) : null
       }
+      place={{
+        slug: 'picture-pairs',
+        save: () => ({ size, view, picks, day }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setSize(saved.size);
+          setView(saved.view);
+          setPicks(saved.picks);
+          setDay(dailyAvailable ? saved.day : null);
+          setDone(false);
+          setCopied(false);
+          setRound((r) => r + 1);
+        },
+      }}
     >
       <PairsBoard play={props} values={values} hidden={!daily && view === 'hidden'} round={round} keepPlace onMessage={setMessage} onComplete={() => setDone(true)} />
     </GameFrame>
