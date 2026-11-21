@@ -10,7 +10,7 @@ Current counts are from the repository on 2026-11-21, re-counted by `pnpm librar
 
 | Type | Now (2026-11-21) | At the start (2026-11-14) | Where it lives |
 |---|---|---|---|
-| Activity cards | 53, English, all published | 38 | `site/src/content/activity-cards/*.md` |
+| Activity cards | 56, English, all published | 38 | `site/src/content/activity-cards/*.md` |
 | Search hubs | 14, English: 7 listed, 7 held from search (`indexable: false`, four of them occasion hubs) | 4 | `site/src/content/hubs/` |
 | Printable packs | 2, English | 2 | site packs (`site/src/data/packs.ts`) |
 | Guides | 116, English: activities 38, caregiving 41, brain health 10, crafts 7, kids 7, together 7, creative calm 6 | 88 | `site/src/content/guides/` |
