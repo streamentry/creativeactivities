@@ -24,7 +24,10 @@ body {
   font-size: var(--text-lg);
   line-height: var(--leading-body);
   font-weight: 400;
-  overflow-wrap: break-word;
+  /* "anywhere", not "break-word": break-word breaks a long word only when it overflows, but it does not shrink the
+     minimum width a grid or flex column asks for, so one unbroken 60-character word widened the whole column past
+     the screen (WEB-043). "anywhere" counts the break points in that minimum width too. Words that fit are not broken. */
+  overflow-wrap: anywhere;
 }
 
 img,
@@ -139,12 +142,16 @@ textarea {
   box-shadow: 0 0 0 5px var(--gm-on-surface);
 }
 
+/* Pinned to the start edge: an absolutely positioned box with no inset sits where the flow would have put it, and at the end
+   of a row that is past the screen edge, which made the page scroll sideways by a few pixels (WEB-043). */
 .visually-hidden {
   position: absolute !important;
+  inset-block-start: 0;
+  inset-inline-start: 0;
   width: 1px;
   height: 1px;
   padding: 0;
-  margin: -1px;
+  margin: 0;
   overflow: hidden;
   clip-path: inset(50%);
   white-space: nowrap;

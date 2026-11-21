@@ -17,6 +17,10 @@
   border-block-start: 0;
   border-radius: 0 0 var(--radius-md) var(--radius-md);
   box-shadow: var(--studio-shadow-sheet);
+  /* The tilted sheet behind the head (::after) may overhang by 16 px; anything further is clipped, so a tall head at
+     large text cannot make the page scroll sideways (WEB-043). */
+  overflow-x: clip;
+  overflow-clip-margin: 16px;
 }
 /* A sun sheet peeks out behind the card. z-index -1 keeps it under the text. */
 .activity-page .activity-head::after {

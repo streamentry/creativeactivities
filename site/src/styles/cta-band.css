@@ -12,6 +12,10 @@
     radial-gradient(600px 240px at 100% 0%, var(--gm-glow), transparent 70%),
     var(--gm-surface);
   border: 1px solid var(--gm-surface-sunken);
+  /* The tilted paper sheet behind the band (a ::before) can reach past the screen edge at large text on a 320 px phone,
+     and that adds a few pixels of sideways page scroll. The sheet may overhang the band by 16 px; anything further is clipped. */
+  overflow-x: clip;
+  overflow-clip-margin: 16px;
 }
 .cta-band h2 {
   margin-bottom: var(--space-sm);
