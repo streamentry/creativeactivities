@@ -1,35 +1,35 @@
 ---
-title: "Kapag Tumanggi o Nainis ang may Dementia sa Isang Aktibidad"
-seoTitle: "Kapag Tumanggi ang may Dementia sa Aktibidad"
-description: "Bakit maaaring tumanggi o mainis ang taong may dementia sa isang aktibidad, ano ang susubukan, ano ang iiwasan, at kailan kailangan ng doktor ang biglaang pagbabago."
+title: "Kapag Tumatanggi o Naiinis ang Taong may Dementia sa Isang Aktibidad"
+seoTitle: "Kapag Tumatanggi ang Taong may Dementia sa Isang Aktibidad"
+description: "Bakit maaaring tumanggi o mainis ang taong may dementia sa isang aktibidad, ano ang puwedeng subukan sa halip, ano ang dapat iwasan, at kailan kailangan ng doktor ang biglaang pagbabago."
 section: caregiving
 order: 3
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Kapag humindi ang taong may dementia, tanggapin ito nang mahinahon at subukan
-  muli mamaya o mag-alok ng ibang bagay. Kadalasang may dahilan ang pagtanggi:
-  masyadong mahirap o pambata ang gawain, pagod sila, may sakit, gutom, o
-  nalulula sa ingay. Huwag makipagtalo o igiit. Pasimplehin, mag-alok ng
-  dalawang pagpipilian, o humingi ng tulong nila. Kailangan ng doktor agad ang
-  biglaan o mabilis na nagbabagong pag-uugali, lalo na pagkatapos ng impeksyon
-  o bagong gamot.
+  Kapag sinabi ng taong may dementia ang "hindi", tanggapin ito nang kalmado at
+  subukan ulit sa ibang pagkakataon, o mag-alok ng iba. Madalas may dahilan ang
+  pagtanggi: masyadong mahirap o pambata ang gawain, pagod sila, masakit ang
+  katawan, gutom, o nalulula sa ingay. Huwag makipagtalo o magpilit. Gawing mas
+  simple, mag-alok ng dalawang pagpipilian, o humingi ng tulong nila. Ang biglaan
+  o mabilis na pagbabago ng ugali, lalo na pagkatapos ng impeksiyon o bagong gamot,
+  ay kailangang ipaalam agad sa doktor.
 keyPoints:
-  - "Ang \"ayaw\" ay sagot na dapat igalang, hindi problemang dapat lampasan."
-  - "Karaniwang may sanhi ang pagtanggi: masyadong mahirap, masyadong pambata, pagod, masama ang pakiramdam, hindi komportable, o nalulula."
-  - "Umatras, maghintay, at subukan muli mamaya, sa ibang oras, o sa mas simpleng bersyon."
-  - "Mas mainam ang paghingi ng tulong nila kaysa sa paghiling na magpakitang-gilas sila."
-  - "Huwag makipagtalo, igiit, tanungin na parang pagsusulit o itama. Suriin ang sarili kung nagmamadali o sumisiksik."
-  - "Ang biglaan o mabilis na nagbabagong pag-uugali, lalo na kasabay ng impeksyon o bagong gamot, ay dapat dalhin agad sa doktor."
+  - "Ang \"hindi\" ay sagot na dapat igalang, hindi problemang dapat lampasan."
+  - "Karaniwang may dahilan ang pagtanggi: masyadong mahirap, masyadong pambata, pagod, may karamdaman, hindi komportable, o nalulula."
+  - "Umatras, maghintay, at subukan sa ibang pagkakataon, sa ibang oras, o sa mas simpleng bersyon."
+  - "Mas gumagana ang paghingi ng tulong nila kaysa sa pag-uutos na gumanap sila."
+  - "Huwag makipagtalo, magpilit, magsulit, o magtuwid. Suriin ang sarili ninyo kung nagmamadali o nakikialam kayo nang sobra."
+  - "Ang biglaan o mabilis na pagbabago ng ugali, lalo na kasama ng impeksiyon o bagong gamot, ay dapat dalhin agad sa doktor."
 faq:
-  - q: "Ayos lang ba na laktawan nila ang mga aktibidad?"
-    a: "Oo, sa alinmang araw. Maaaring sapat na ang pag-upo nang magkasama, pakikinig sa musika o panonood sa paligid. Kung tumigil silang masiyahan sa lahat sa loob ng ilang linggo, banggitin ito sa doktor nila, dahil maaaring bahagi ng larawan ang mababang mood, sakit o ibang problema sa kalusugan."
-  - q: "Bakit sila tumatanggi sa mga bagay na dati nilang gustung-gusto?"
-    a: "Maaaring maging nakakainis ang dating libangan kapag nangangailangan na ito ng kasanayang pinahirap ng dementia, at maaaring mahiya ang tao. Subukan ang mas simpleng bahagi ng parehong aktibidad, tulad ng pag-uuri ng butones sa halip na pananahi, o pagtingin sa mga larawan ng hardin sa halip na pagtatanim."
-  - q: "Dapat ko ba silang kumbinsihin?"
-    a: "Hindi. Kilalang pinagmumulan ng pagkabalisa ang pagpilit sa isang tao na gawin ang pinahirap ng dementia. Tanggapin ang \"ayaw,\" ibahin ang paksa, at mag-alok muli mamaya o sa ibang paraan."
-  - q: "Kailan emerhensiya ang pagbabago sa pag-uugali?"
-    a: "Tawagan ang inyong lokal na numero ng emerhensiya kung nasa panganib ang isang tao o may senyales ng medikal na emerhensiya. Para sa biglaang pagkalito o pag-uugaling mabilis na nagbabago sa loob ng ilang oras o araw, lalo na kung may lagnat, impeksyon o bagong gamot, makipag-ugnayan agad sa doktor nila."
+  - q: "Okay lang bang laktawan nila ang mga aktibidad?"
+    a: "Oo, sa anumang araw. Sapat na minsan ang magkasamang pag-upo, pakikinig sa musika, o panonood sa paligid. Kung unti-unting hindi na nila ine-enjoy ang lahat sa loob ng ilang linggo, sabihin ito sa doktor nila, dahil maaaring kasama sa larawan ang mababang mood, sakit, o iba pang problema sa kalusugan."
+  - q: "Bakit tumatanggi sila sa mga bagay na dati nilang gustong-gusto?"
+    a: "Maaaring maging nakakainis ang dating libangan kapag kailangan na nito ng kasanayang pinahirapan na ng dementia, at maaaring mahiya ang tao. Subukan ang mas simpleng bahagi ng parehong aktibidad, gaya ng pag-uuri ng butones sa halip na pananahi, o pagtingin sa larawan ng hardin sa halip na pagtatanim."
+  - q: "Dapat ko bang subukang kumbinsihin sila?"
+    a: "Hindi. Ang pagpilit sa taong gawin ang bagay na pinahirapan na ng dementia ay kilalang nagpapasimula ng pagkabalisa. Tanggapin ang hindi, palitan ang paksa, at mag-alok ulit mamaya o sa ibang paraan."
+  - q: "Kailan emergency ang pagbabago ng ugali?"
+    a: "Tawagan ang 911 kung may panganib ang tao o may senyales ng medikal na emergency. Para sa biglaang pagkalito o pagbabago ng ugali na mabilis na nangyayari sa loob ng ilang oras o araw, lalo na kung may lagnat, impeksiyon, o bagong gamot, makipag-ugnayan agad sa doktor nila."
 sources:
   - title: "Activities"
     publisher: "Alzheimer's Association"
@@ -51,87 +51,87 @@ related: [caregiving/how-to-play-together, caregiving/communication-tips, caregi
 health: false
 ---
 
-Inihanda na ninyo ang lahat, nag-alok ng laro o lakad, at narinig ang "Ayaw." O maayos ang simula ng aktibidad pero nauwi sa tablet na tinulak palayo at matalim na salita. Nakakapanghina ng loob ito, at napakakaraniwan. Kadalasang mensahe ang pagtanggi at pagkainis, hindi katigasan ng ulo. Madalas na ang pag-alam kung ano ang mensahe ang nagpapakita ng susunod na susubukan.
+Naghanda na kayo ng lahat, nag-alok ng laro o lakad, at ang narinig ninyo ay "Hindi." O maayos ang simula ng aktibidad pero nagtatapos sa tabletang naitulak palayo at matalim na salita. Nakakapanghina ito, at napakakaraniwan nito. Kadalasang mensahe ang pagtanggi at pagkainis, hindi katigasan ng ulo. Ang pag-alam kung ano ang mensaheng iyon ay madalas nagtuturo kung ano ang susunod na subukan.
 
-## Bakit tumatanggi sa mga aktibidad ang taong may dementia?
+## Bakit tumatanggi ang taong may dementia sa mga aktibidad?
 
-Kadalasang may dahilan, kahit hindi ito maisaad ng tao sa salita. Binabanggit ng [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) na maaaring mangahulugan ang pagtutol na hindi kaya ng tao ang gawain o natatakot siyang sumubok. Kabilang sa mga karaniwang sanhi ang:
+Kadalasan may dahilan, kahit hindi nila ito maipaliwanag. Sinasabi ng [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) na ang pagtutol ay maaaring ibig sabihin na hindi nila kayang gawin ang gawain o natatakot silang subukan. Kabilang sa karaniwang dahilan ang:
 
-- **Masyadong mahirap ang pakiramdam.** Nangangailangan na ngayon ang aktibidad ng mga kasanayang pinahirap ng dementia, at nakakahiya ang mabigo sa harap ng iba.
-- **Parang pambata.** Napapansin ng mga adulto ang mga cartoon na larawan, malambing na boses at mga aktibidad na parang ginawa para sa bata.
-- **Pagod.** Maraming tao ang mas kaunti ang lakas sa mas huling bahagi ng araw. Tingnan ang [mga kalmadong aktibidad sa hapon](/caregiving/late-day-restlessness/).
-- **Hindi komportableng pakiramdam sa katawan.** Inililista ng [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ang sakit, kulang sa tulog, hirap sa pagtingin o pandinig, pagtitibi, gutom, uhaw at side effect ng bagong gamot bilang posibleng sanhi ng pagkabalisa.
-- **Sobrang dami ng nangyayari.** Maaaring nakakalula ang malakas na TV, maraming usapan o siksikang silid.
-- **Pakiramdam na pinipilit.** Pinangangalanan ng NIA ang pagpilit na gawin ang bagay na lubhang pinahirap ng Alzheimer's, o ang pag-alala ng mga pangyayari o tao, bilang sanhi ng pagkabalisa.
-- **Mababang mood.** Maaaring senyales ng depresyon ang pagkawala ng interes sa mga bagay, na sulit ihayag sa doktor.
-- **Ayaw lang talaga nila.** May karapatan ang mga adulto na humindi.
+- **Masyadong mahirap.** Kailangan na ng aktibidad ang kasanayang pinahirapan na ng dementia, at nakakahiyang magkamali sa harap ng ibang tao.
+- **Pambata ang dating.** Napapansin ng mga adulto ang mga larawang parang cartoon, boses na parang kinakanta, at mga aktibidad na mukhang ginawa para sa bata.
+- **Pagod.** Maraming tao ang kulang sa lakas habang lumalalim ang araw. Tingnan ang [mga kalmadong aktibidad sa hapon](/creative-calm/calm-afternoon-activities/).
+- **Hindi komportable ang katawan.** Inilista ng [National Institute on Aging (NIA)](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) ang sakit, kulang sa tulog, hirap makakita o makarinig, paninigas ng dumi, gutom, uhaw, at epekto ng mga bagong gamot bilang posibleng dahilan ng pagkabagabag.
+- **Sobrang dami ng nangyayari.** Ang malakas na TV, sabay-sabay na usapan, o siksikang silid ay maaaring makapagpalula.
+- **Pakiramdam nila ay pinipilit sila.** Binabanggit ng NIA ang pagpilit na gawin ang bagay na pinahirapan na ng Alzheimer's, o ang pag-alala sa mga pangyayari at tao, bilang dahilan ng pagkabalisa.
+- **Mababang mood.** Ang pagkawala ng interes sa mga bagay ay maaaring senyales ng depresyon, na dapat pag-usapan sa doktor.
+- **Ayaw lang talaga nila.** Karapatan ng mga adulto na sabihing hindi.
 
-## Ano ang susubukan ko kapag humindi sila?
+## Ano ang puwede kong subukan kapag sinabi nilang hindi?
 
-Tanggapin ang "ayaw" nang mahinahon, saka baguhin ang isang bagay: ang oras, ang aktibidad, ang hirap o ang paraan ng pag-aalok ninyo.
+Tanggapin nang kalmado ang hindi, saka baguhin ang isang bagay: ang oras, ang aktibidad, ang antas ng hirap, o ang paraan ng pagtatanong.
 
-1. **Pabayaan muna.** "Ayos lang po iyon. Baka mamaya na lang." Saka lumipat sa ibang bagay nang walang buntong-hininga.
-2. **Subukan muli mamaya.** Iminumungkahi ng Alzheimer's Association na subukan muli mamaya, o sa ibang oras ng araw.
-3. **Paliitin ito.** Isang pares sa halip na buong laro. Isang tuwalya sa halip na buong basket ng labada. Mas kaunting larawan, mas kaunting pagpipilian, at nananatiling nakikita ang mga larawan.
-4. **Mag-alok ng dalawang opsyon.** "Gusto po ba ninyong tingnan ang mga larawan ng ibon o making ng musika?" Ibinabalik ng pagpipilian ang pakiramdam ng kontrol.
-5. **Humingi ng tulong sa halip na magpakitang-gilas.** "Matutulungan po ba ninyo akong mag-uri nito?" o "Masasabi po ba ninyo kung aling kulay ang pinakamaganda?" Ibang-iba ang pakiramdam ng kailangan kaysa sa sinusubok.
-6. **Kayo na ang magsimula.** Simulan ang aktibidad sa tabi nila nang hindi nagtatanong. Maraming tao ang sumasali kapag may nangyayari na, at kung hindi sila sumali, nagkasama pa rin kayo.
-7. **Lumipat sa pisikal o nakakapanatag na gawain.** Maikling lakad, musika, meryenda, pagtutupi ng labada, o sabayang [mahinahong paghinga](/games/calm-breathing/). Iminumungkahi ng NIA na ilipat ang atensyon sa musika, aklat o lakad.
-8. **Hayaan silang gawin sa sarili nilang paraan.** Kung gusto nilang maglaro nang iba sa sinasabi ng mga tuntunin, sumabay na lang. Ipinapayo ng Alzheimer's Association ang pagiging flexible.
+1. **Palampasin muna.** "Ayos lang po. Baka mamaya na lang." Saka lumipat sa ibang bagay nang walang buntong-hininga.
+2. **Subukan ulit mamaya.** Iminumungkahi ng Alzheimer's Association na subukan ulit mamaya, o sa ibang oras ng araw.
+3. **Gawing mas maliit.** Isang posporo sa halip na buong laro. Isang tuwalya sa halip na buong basket ng labada. Mas kaunting larawan, mas kaunting pagpipilian, at nakikita ang mga larawan.
+4. **Mag-alok ng dalawang pagpipilian.** "Gusto po ba ninyong tingnan ang mga larawan ng ibon o makinig muna sa musika?" Ang pagpili ay nagbibigay ng pakiramdam ng kontrol.
+5. **Humingi ng tulong sa halip na pagganap.** "Puwede po ba ninyo akong tulungang ayusin ito?" o "Alin po sa tingin ninyo ang bagay na kulay?" Ibang-iba ang pakiramdam ng kailangan kumpara sa sinusubok.
+6. **Kayo na ang magsimula.** Simulan ang aktibidad sa tabi nila nang hindi nagtatanong. Maraming tao ang sumasali kapag may nangyayari na, at kung hindi sila sumali, nakasama pa rin ninyo ang oras.
+7. **Lumipat sa bagay na pisikal o nakakapagpakalma.** Maikling lakad, musika, meryenda, pagtitiklop ng labada, o sabay na [paghinga nang kalmado](/games/calm-breathing/). Iminumungkahi ng NIA na ilipat ang atensiyon sa musika, libro, o lakad.
+8. **Hayaang gawin nila sa sarili nilang paraan.** Kung gusto nilang maglaro nang iba sa mga patakaran, sumabay. Pinapayuhan ng Alzheimer's Association na maging maluwag.
 
-## Ano ang sasabihin ko kapag nainis sila?
+## Ano ang sasabihin ko kapag naiinis sila?
 
-Bagalan, ibaba ang boses at magbigay ng katiyakan. Iminumungkahi ng [gabay ng Alzheimer's Association sa pagkabalisa](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) ang pag-atras at paghingi ng pahintulot, paggamit ng kalmado at positibong pahayag, at pag-aalok ng gabay na pagpili sa pagitan ng dalawang opsyon. Mga pariralang ganito ang diwa:
+Bagalan ang sarili, pahinain ang boses, at magbigay ng katiyakan. Iminumungkahi ng [gabay ng Alzheimer's Association tungkol sa pagkabalisa](https://www.alz.org/help-support/caregiving/stages-behaviors/anxiety-agitation) na umatras at magtanong muna kung puwede, gumamit ng kalmado at positibong pananalita, at mag-alok ng gabay na pagpipilian sa pagitan ng dalawa. Mga pariralang ganito ang diwa:
 
-- "Pasensya na po, nakakainis ito. Tumigil na po tayo."
-- "Maayos po ang ginagawa ninyo. Nandito lang po ako."
-- "May oras po ba kayo para tulungan ako sa ibang bagay?"
-- "Magtimpla na lang po kaya tayo ng tsaa?"
+- "Pasensya na po, nakakainis ito. Itigil na po muna natin."
+- "Ayos lang po kayo. Nandito lang po ako."
+- "May oras po ba kayo para tumulong sa akin sa iba?"
+- "Magkape muna po tayo sa halip?"
 
-Pagkatapos, tapusin ang aktibidad nang hindi ito ginagawang malaking bagay. May higit pa sa kung ano ang sasabihin sa aming [mga tip sa komunikasyon](/caregiving/communication-tips/).
+Pagkatapos, tapusin ang aktibidad nang hindi ginagawang malaking usapin. Ang pahinang [mga unang hakbang pagkatapos ng diagnosis](/caregiving/after-dementia-diagnosis/) ay magandang panimula para sa suporta.
 
 ## Ano ang dapat kong iwasan?
 
-May mga likas na reaksyon na kadalasang nagpapalala.
+May mga natural na reaksiyon na kadalasang nagpapalala ng sitwasyon.
 
-- **Pakikipagtalo o pag-igiit.** Bihirang makatulong ang "Sige na po, isa pa" o "Gusto ninyo ito."
-- **Pagtatanong na parang pagsusulit o pagtatama.** Nagdadagdag ng presyon ang "Alam ninyo kung ano ito" o "Hindi, mali iyan."
-- **Pagkuha nito nang personal.** Pinaaalalahanan ng NIA ang mga tagapag-alaga na ang sakit, hindi ang tao, ang nagdudulot ng mga pagbabagong ito.
-- **Pagsiksik o pagmamadali.** Ipinapayo ng Alzheimer's Association na huwag itaas ang boses, magpakita ng alarma, ipitin, siksikin, pigilan, pintasan, hindi pansinin o makipagtalo sa tao, at iwasan ang biglaang galaw na hindi niya nakikita.
-- **Paggamit ng guilt.** Pinapalungkot kayong dalawa ng "Inihanda ko po ang lahat ng ito para sa inyo."
-- **Paglalagay ng etiketa.** Itinatago ng "Matigas ang ulo" o "Mahirap" ang tunay na dahilan at pinapahirap ang paghanap ng solusyon.
+- **Pakikipagtalo o pagpilit.** "Sige na, isa pa" o "Gustong-gusto mo ito" ay bihirang makatulong.
+- **Pagsusulit o pagtutuwid.** "Alam mo naman kung ano ito" o "Hindi, mali ang isang iyan" ay nagdadagdag ng presyon.
+- **Pagkuha nito nang personal.** Pinapaalala ng NIA sa mga tagapag-alaga na ang sakit, hindi ang tao, ang nagdudulot ng mga pagbabagong ito.
+- **Pagsisiksik o pagmamadali.** Pinapayuhan ng Alzheimer's Association na huwag itaas ang boses, ipakitang nagugulat, ipitin, siksikan, pigilan, batikusin, balewalain, o makipagtalo sa tao, at iwasan ang biglaang galaw sa labas ng paningin nila.
+- **Paggamit ng konsensiya.** "Lahat ng ito ay inihanda ko para sa iyo" ay nagpapasama ng loob ninyong dalawa.
+- **Paglalagay ng tatak.** Ang "matigas ang ulo" o "mahirap pakisamahan" ay nagtatago sa tunay na dahilan at nagpapahirap sa paglutas.
 
 ## Paano ko malalaman kung ano ang nasa likod ng paulit-ulit na pagtanggi?
 
-Magtago ng simpleng tala sa loob ng isa o dalawang linggo. Sinasabi ng NIA na makakatulong sa mga tagapag-alaga at health care provider ang pagsubaybay sa mga pagbabago sa pag-uugali para makilala ang padron at malaman ang sanhi.
+Magtala nang simple sa loob ng isa o dalawang linggo. Sinasabi ng NIA na nakakatulong ang pagsubaybay sa mga pagbabago ng ugali para makilala ng mga tagapag-alaga at ng mga health care provider ang pattern at malaman ang sanhi.
 
 Isulat ang:
 
-- oras ng araw;
-- ano ang inalok ninyo at paano kayo nagtanong;
-- ano ang nangyayari sa paligid (ingay, bisita, TV);
-- kung paano sila natulog, kumain at uminom, at kung kailan huling gumamit ng palikuran;
-- anumang bagong gamot o kamakailang sakit.
+- ang oras ng araw;
+- ang inalok ninyo at kung paano ninyo ito tinanong;
+- ang nangyayari sa paligid (ingay, bisita, TV);
+- kung paano sila natulog, kumain, at uminom, at kung kailan sila huling nag-banyo;
+- anumang bagong gamot o kamakailang karamdaman.
 
-Madalas na mabilis lumitaw ang mga padron: mga pagtanggi na nangyayari lang pagkatapos ng alas-4 ng hapon, sa isang partikular na laro lang, o kapag bukas lang ang TV. Simpleng sinasabi ng [gabay ng Family Caregiver Alliance sa pag-uugali sa dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/): hindi natin mababago ang tao, pero mababago natin ang sarili nating kilos at ang kapaligiran.
+Madalas agad lumitaw ang mga pattern: mga pagtanggi na nangyayari lang pagkatapos ng 4 ng hapon, sa isang partikular na laro lang, o kapag lang nakabukas ang TV. Sinasabi ng [gabay ng Family Caregiver Alliance tungkol sa mga ugali sa dementia](https://www.caregiver.org/resource/caregivers-guide-understanding-dementia-behaviors/) nang simple: hindi natin mababago ang tao, pero maaari nating baguhin ang sarili nating ugali at ang kapaligiran.
 
-## Kailan ako dapat makipag-usap sa doktor tungkol sa pagtanggi o pagkainis?
+## Kailan ko dapat kausapin ang doktor tungkol sa pagtanggi o pagkainis?
 
-Makipag-usap sa doktor kapag biglaan, mabilis, o kasabay ng mga senyales ng sakit ang pagbabago ng pag-uugali. Sinasabi ng NIA na dapat agad ipaalam sa doktor ang biglaan o mabilis na pabago-bagong pag-uugali, lalo na kung nagkaroon ng impeksyon o kamakailang pagbabago ng gamot ang tao.
+Kausapin ang doktor kapag biglaan o mabilis ang pagbabago ng ugali, o kasabay ng senyales ng karamdaman. Sinasabi ng NIA na ang biglaan o mabilis na nagbabagong ugali, lalo na kung nagkaroon ng impeksiyon o kamakailang pagbabago ng gamot ang tao, ay dapat agad iparating sa doktor.
 
 Makipag-ugnayan agad sa doktor nila kung mapansin ninyo ang:
 
 - biglaang pagkalito o malaking pagbabago sa loob ng ilang oras o araw;
-- senyales ng sakit, tulad ng pagngiwi, pagprotekta sa isang bahagi ng katawan, o bagong hirap sa paggalaw;
-- lagnat o iba pang senyales ng impeksyon;
-- bago o binagong gamot na sinundan ng pagbabago sa pag-uugali;
-- pagkawala ng interes sa halos lahat, pag-iyak o paglayo na tumatagal nang higit sa ilang linggo;
+- senyales ng sakit, gaya ng pag-aray, pag-iwas sa paggalaw ng bahagi ng katawan, o bagong hirap sa paggalaw;
+- lagnat o iba pang senyales ng impeksiyon;
+- bagong gamot o binagong gamot na sinundan ng pagbabago ng ugali;
+- pagkawala ng interes sa halos lahat ng bagay, pag-iyak, o pag-iwas sa tao na tumatagal nang higit sa ilang linggo;
 - pagtanggi sa pagkain o inumin.
 
-Inirerekomenda ng Alzheimer's Association ang masusing medikal na checkup para sa sinumang may sintomas sa pag-uugali, lalo na kung biglaan itong lumitaw. Ipinapayo rin ng Family Caregiver Alliance na magtanong muna sa doktor, dahil maaaring may medikal na sanhi ang mga problema sa pag-uugali. Huwag magsimula, huminto o magbago ng anumang gamot nang hindi kinakausap ang doktor o parmasyutiko.
+Inirerekomenda ng Alzheimer's Association ang masusing pagsusuri ng doktor para sa sinumang may sintomas sa ugali, lalo na kung biglang lumitaw. Pinapayuhan din ng Family Caregiver Alliance na kumonsulta muna sa doktor, dahil maaaring may sanhing medikal ang problema sa ugali. Huwag simulan, itigil, o palitan ang anumang gamot nang hindi kinakausap ang doktor o parmasyutiko.
 
-Kung may sinumang nasa panganib o may senyales ng medikal na emerhensiya, tawagan ang inyong lokal na numero ng emerhensiya. Iminumungkahi ng NIA na sabihin sa operator na may dementia ang tao.
+Kung may panganib ang sinuman o may senyales ng medikal na emergency, tawagan ang 911. Iminumungkahi ng NIA na sabihin sa dispatcher na may dementia ang tao. Kung maging marahas ang galit, lumayo at humingi ng payo sa doktor o sa team ng pangangalaga.
 
-## Ayos lang ba kung wala kaming gawin?
+## Okay lang ba kung wala kaming gagawin?
 
-Oo. May mga araw na ang pinakamagandang aktibidad ay walang aktibidad: pag-upo nang magkasama, paghawak-kamay, pakikinig sa paboritong musika, o panonood ng mga ibon sa labas ng bintana. Hindi iyon pagkabigo. Ipinaliliwanag ng aming [gabay sa paglalaro nang magkasama](/caregiving/how-to-play-together/) kung bakit tamang pasya ang maagang paghinto, o ang hindi pagsisimula.
+Oo. May mga araw na ang pinakamabuting aktibidad ay walang aktibidad: magkasamang nakaupo, magkahawak-kamay, nakikinig sa paboritong plaka, o nanonood ng mga ibon sa bintana. Hindi iyon kabiguan. Ipinapaliwanag ng aming [gabay sa paglalaro nang magkasama](/caregiving/how-to-play-together/) kung bakit maaaring tamang desisyon ang maagang paghinto, o ang hindi pagsisimula.

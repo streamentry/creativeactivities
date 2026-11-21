@@ -1,4 +1,5 @@
 {
+  "_note": "Source dictionary. Keep keys; translate values. HTML in values is trusted: keep tags and href paths exactly, translate only the text. {name} placeholders must stay.",
   "common": {
     "skipLink": "跳到主要內容",
     "brandName": "Creative Activities",
@@ -6,16 +7,22 @@
     "homeLabel": "Creative Activities 首頁",
     "mainNav": "主選單",
     "titleSuffix": " | Creative Activities",
-    "defaultImageAlt": "Creative Activities：茶杯、向日葵和小狗的大幅親切圖片",
+    "defaultImageAlt": "Creative Activities：大而親切的插畫，展示日常生活中可以動手做、可以一起玩的事物",
     "languages": "語言",
     "englishOnly": "（英文）",
     "machineTranslated": "本頁為自動翻譯，尚未經中文母語人士審閱。",
     "readOriginal": "閱讀英文原文",
     "nav": {
+      "find": "Find an activity",
       "games": "遊戲",
       "activities": "活動",
       "caregiving": "照顧",
-      "brainHealth": "大腦健康"
+      "brainHealth": "大腦健康",
+      "crafts": "手作",
+      "kids": "兒童",
+      "together": "一起做",
+      "creativeCalm": "創意放鬆",
+      "search": "搜尋"
     },
     "faqTitle": "常見問答",
     "breadcrumb": "目前位置",
@@ -26,7 +33,32 @@
       "label": "文字大小",
       "smaller": "標準文字",
       "larger": "更大文字",
-      "contrast": "更高對比度"
+      "contrast": "更高對比度",
+      "colors": "配色",
+      "light": "淺色",
+      "dark": "深色",
+      "device": "與此裝置相同",
+      "lineLength": "行長",
+      "standardLines": "標準",
+      "shorterLines": "較短的行",
+      "spacing": "間距",
+      "standardSpacing": "標準",
+      "moreSpace": "更寬鬆"
+    },
+    "consent": {
+      "label": "Counting visits",
+      "title": "May we count your visits?",
+      "text": "With your OK, Google Analytics sets cookies so we can see which pages and activities are used. Saying no changes nothing on this site.",
+      "more": "How we use it",
+      "no": "No thanks",
+      "yes": "Allow",
+      "savedNo": "Saved. Your visits are not counted.",
+      "savedYes": "Saved. Thank you: your visits are counted.",
+      "currentNo": "Your answer on this device: no, visits are not counted.",
+      "currentYes": "Your answer on this device: yes, visits are counted.",
+      "currentNone": "You have not answered yet on this device, so visits are not counted.",
+      "noStorage": "This browser did not let us save your answer, so visits are not counted.",
+      "currentGpc": "Your browser sends Global Privacy Control, so your visits are never counted here, whatever you choose."
     }
   },
   "footer": {
@@ -35,11 +67,12 @@
     "conversationCards": "聊天卡",
     "pictureBingo": "圖片賓果",
     "allGames": "所有遊戲",
+    "pictures": "可列印的圖片",
     "activityIdeas": "活動點子",
     "ideas101": "101 個活動點子",
     "lateStage": "後期活動",
     "printable": "可列印活動",
-    "allActivities": "所有活動",
+    "allActivities": "所有活動指南",
     "forCaregivers": "給照顧者",
     "playTogether": "如何一起玩",
     "selfCare": "照顧好自己",
@@ -52,10 +85,15 @@
     "app": "Creative Activities 應用程式",
     "appHelp": "應用程式說明",
     "support": "支援",
+    "corrections": "Corrections",
+    "reportProblem": "Report a problem",
+    "artTherapyBoundary": "Art therapy and creative activities",
     "legal": "法律資訊",
     "sitePrivacy": "網站隱私權",
     "appPrivacy": "應用程式隱私權政策",
     "privacyChoices": "隱私權選擇",
+    "transparency": "Transparency",
+    "yourData": "Your data on this device",
     "terms": "條款與應用程式授權",
     "safety": "安全與預期用途",
     "accessibility": "無障礙",
@@ -63,14 +101,18 @@
     "allLegal": "所有法律資訊",
     "note": "Creative Activities 提供簡單、可以一起做的活動，讓大家輕鬆享受。它不是醫療建議、測驗或治療，也不會診斷、評量任何人或為任何人打分數。有健康方面的問題，請諮詢醫師。緊急情況請撥打 119（台灣）或當地緊急電話。",
     "publisher": "發行：Cloudjet Solutions Pte. Ltd.",
-    "pictures": "可列印的圖片"
+    "crafts": "適合各年齡層的手作",
+    "kids": "兒童活動",
+    "together": "可以一起做的活動",
+    "creativeCalm": "創意放鬆",
+    "dementiaActivities": "為失智症患者設計的活動"
   },
   "home": {
-    "title": "失智症與阿茲海默症遊戲和活動 | Creative Activities",
-    "description": "免費、溫和的失智症遊戲與活動點子：線上圖片遊戲，適合失智或阿茲海默症長輩和照顧者一起玩。免註冊、不計時、不計分。",
+    "title": "為照顧他人的你而設的創意活動",
+    "description": "免費的創意活動，適合正在照顧他人的你：手作、兒童活動、可以一起做的事，以及讓人放鬆的創意點子。",
     "eyebrow": "免費 · 免註冊 · 不計時、不計分",
-    "h1": "適合失智長輩的溫和遊戲與活動",
-    "lede": "簡單的圖片遊戲、熟悉的照片和各種活動，照自己的步調，一起享受。",
+    "h1": "一起動手做點什麼",
+    "lede": "找一個適合對方、適合當下、也適合手邊材料的活動。有簡單的手作、兒童藝術、可以一起做的事，以及讓人放鬆的創意點子，還附有較容易的做法和可以列印的卡片。隨時停下來都沒關係。",
     "playGame": "來玩個遊戲",
     "findIdeas": "找活動點子",
     "facts": [
@@ -105,13 +147,13 @@
     "ideas101": "101 個活動點子",
     "stages": [
       {
-        "href": "/activities/early-stage/",
+        "href": "/activities/ideas/",
         "title": "早期",
         "text": "繼續做喜歡的事，只要稍作調整：興趣嗜好、外出走走、文字遊戲，以及一起做計畫。",
         "label": "早期活動點子"
       },
       {
-        "href": "/activities/middle-stage/",
+        "href": "/activities/ideas/",
         "title": "中期",
         "text": "把簡單、熟悉的事拆成小步驟：摺衣服、分類整理、音樂、圖片遊戲和短程散步。",
         "label": "中期活動點子"
@@ -123,10 +165,10 @@
         "label": "後期活動點子"
       }
     ],
-    "specificHtml": "在找特定的內容嗎？可以看看<a href=\"/activities/alzheimers/\">適合阿茲海默症長輩的活動和遊戲</a>、<a href=\"/activities/memory-games/\">溫和的記憶遊戲</a>、<a href=\"/activities/trivia/\">輕鬆問答</a>或<a href=\"/activities/puzzles/\">拼圖</a>。",
+    "specificHtml": "想找特定的內容嗎？可以試試<a href=\"/dementia-activities/\">阿茲海默症適用的活動和遊戲</a>、<a href=\"/together/puzzles-and-table-games/\">拼圖與桌上遊戲</a>、<a href=\"/together/conversation-games-for-all-ages/\">交談遊戲</a>，或是<a href=\"/together/puzzles-and-table-games/\">拼圖</a>。",
     "approachEyebrow": "我們的理念",
-    "approachTitle": "一起做的活動，不是記憶測驗",
-    "approachLede": "許多「益智遊戲」都圍繞著速度、分數和連續天數來設計。對失智者來說，這可能像一場考試。我們做的正好相反。",
+    "approachTitle": "一起參與的活動，而不是測驗",
+    "approachLede": "許多「腦力遊戲」都以速度、分數和連續紀錄為核心。對於疲倦、身體不適或患有失智症的人來說，這樣的設計可能像一場考試。我們做的正好相反。",
     "approachLink": "我們為什麼這樣設計",
     "principles": [
       {
@@ -165,14 +207,14 @@
         "text": "常見的拒絕原因，以及之後溫和地再試一次的方法。"
       },
       {
-        "href": "/caregiving/tablets-and-screens/",
-        "title": "設定平板電腦",
-        "text": "更大的字、更少的干擾，以及一個簡單的主畫面。"
+        "href": "/activities/group-art-activities/",
+        "title": "團體藝術活動",
+        "text": "適合一桌數人共同完成的作品，每個人都有自己的一份工作。"
       },
       {
-        "href": "/activities/printable/",
-        "title": "免費可列印活動",
-        "text": "大字找字、著色畫、賓果卡和聊天卡。"
+        "href": "/activities/ideas/",
+        "title": "101 個活動點子",
+        "text": "簡單的點子，依手邊的材料和當下的精力程度分類。"
       }
     ],
     "researchTitle": "大腦健康：研究到底怎麼說",
@@ -184,16 +226,16 @@
     "aboutApp": "認識這個應用程式",
     "faq": [
       {
-        "q": "哪些遊戲適合失智長輩？",
-        "a": "好的遊戲簡單、熟悉、沒有壓力：配對大圖片、分類、簡單拼圖、接完熟悉的俗語、著色、圖片賓果和聊天卡。最好的選擇，就是長輩今天喜歡的那一個。避開計時、計分，以及任何像考試的東西。"
+        "q": "適合年長者的遊戲有哪些？",
+        "a": "適合的遊戲簡單、熟悉，而且沒有壓力：例如配對大張圖片、分類、簡單的拼圖、接續熟悉的俗語、塗色、圖片賓果和交談卡片。這些遊戲適合許多年長者，包括患有失智症的人。最好的選擇，是對方今天喜歡的那一個。請避免計時、計分，以及任何讓人覺得像在考試的設計。"
       },
       {
-        "q": "這些失智症遊戲是免費的嗎？",
+        "q": "這些遊戲免費嗎？",
         "a": "是的。Creative Activities 上的每個遊戲和可列印資料都免費，不需要帳號、註冊或下載。遊戲在手機、平板或電腦的網頁瀏覽器中執行。"
       },
       {
         "q": "益智遊戲能預防失智症嗎？",
-        "a": "目前沒有任何遊戲被證實能預防失智症，Creative Activities 也不宣稱能治療或預防任何疾病。我們的遊戲是為了帶來樂趣和相處的時光。我們的大腦健康專區會說明研究能證明什麼、不能證明什麼。"
+        "a": "目前沒有任何遊戲被證實能預防失智症，Creative Activities 也不宣稱能治療或預防任何疾病。我們的遊戲是為了享受樂趣和共度時光，而且沒有任何活動頁面會作出健康方面的宣稱。"
       },
       {
         "q": "這些遊戲適合阿茲海默症長輩嗎？",
@@ -209,7 +251,36 @@
       },
       {
         "q": "Creative Activities 是誰做的？",
-        "a": "Creative Activities 是一個小團隊，在網站和免費應用程式上，為家人和照顧者製作平和、適合大人的圖片活動。我們不是醫療人員，這裡的內容都不是醫療建議。"
+        "a": "Creative Activities 是一個小團隊，為正在照顧他人的成年人製作平和的創意活動，以網頁和免費應用程式的形式提供。我們不是臨床醫師，這裡的內容也不構成任何醫療建議。"
+      }
+    ],
+    "groupsEyebrow": "從這裡開始",
+    "groupsTitle": "四種創意活動",
+    "groupsLede": "先從符合你和對方的關係、以及手邊材料的類別開始。每個頁面都附有較容易的做法和安全提示。",
+    "groups": [
+      {
+        "href": "/crafts/",
+        "title": "手作",
+        "text": "紙張、顏料、回收材料和應景的作品，每一項都有較容易的版本。",
+        "label": "瀏覽手作"
+      },
+      {
+        "href": "/kids/",
+        "title": "兒童",
+        "text": "為孩子設計的藝術和遊戲，附有清楚的安全提示，並需要成人在旁陪伴。",
+        "label": "瀏覽兒童活動"
+      },
+      {
+        "href": "/together/",
+        "title": "一起做",
+        "text": "交談、拼圖、戶外時光，以及跨世代保持親近的方法。",
+        "label": "瀏覽可以一起做的事"
+      },
+      {
+        "href": "/creative-calm/",
+        "title": "創意放鬆",
+        "text": "用鉛筆、紙張或一首歌，度過平靜緩慢的創作時刻。這不是治療。",
+        "label": "瀏覽創意放鬆"
       }
     ]
   },
@@ -228,6 +299,21 @@
     "printable": "可列印",
     "play": "開始玩{name} →",
     "readGuide": "閱讀指南"
+  },
+  "listen": {
+    "listenSteps": "聆聽步驟",
+    "pause": "暫停",
+    "resume": "繼續",
+    "stop": "停止",
+    "speed": "速度",
+    "normal": "一般",
+    "slower": "較慢",
+    "reading": "正在朗讀步驟。",
+    "paused": "已暫停。按「繼續」即可接著播放。",
+    "note": "使用你裝置本身的語音。部分裝置會把文字傳送至其製造商，由對方負責朗讀。",
+    "listen": "聆聽",
+    "stepLabel": "聆聽第 {n} 步",
+    "stopStep": "停止第 {n} 步"
   },
   "playCta": {
     "title": "想玩個溫和的遊戲嗎？",
@@ -248,18 +334,46 @@
   },
   "sections": {
     "activities": {
-      "label": "活動",
-      "title": "適合失智長輩的活動",
-      "seo": "失智症活動：依階段分類的失智長輩活動點子",
-      "description": "適合各階段失智長輩的活動點子：音樂、懷舊、日常小事、感官時光、手作、戶外活動，以及免費可列印的資料。",
-      "lede": "有意義的活動，就是任何能帶來安慰、成就感或片刻連結的事。從長輩一直喜歡的事開始，再依今天的狀況調整。"
+      "label": "活動指南",
+      "title": "活動指南",
+      "seo": "活動指南：點子、美術用品與入門方法",
+      "description": "簡明的指南，教你與他人一起進行創意活動：簡單的點子、經濟實惠的美術用品、團體藝術、書信、回憶，以及藝術治療的說明。",
+      "lede": "簡短實用的指南，協助你挑選並開始與對方一起進行的活動，無論對方的年齡或能力如何。"
+    },
+    "crafts": {
+      "label": "手作",
+      "title": "適合各年齡層的手作",
+      "seo": "適合各年齡層的簡單手作，附較容易的版本",
+      "description": "適合成人、孩子和家庭的簡單手作：紙藝、塗色、回收材料和應景的作品，附有較容易握持和坐著也能完成的版本，無需特別技巧。",
+      "lede": "從大多數家中已有的材料開始的手作，每項都附有較容易的版本，讓任何人都能做出作品。"
+    },
+    "kids": {
+      "label": "兒童",
+      "title": "為兒童設計的創意活動",
+      "seo": "兒童創意活動：藝術、感官與平靜時光",
+      "description": "為兒童設計的創意活動：幼兒藝術、過程藝術、感官遊戲、雨天手作和平靜下來的點子，附有安全提示，以及適合感官需求的版本。",
+      "lede": "為不同年齡和需要的孩子設計的藝術與遊戲點子，附有清楚的安全提示，並需要成人在旁陪伴。"
+    },
+    "together": {
+      "label": "一起做",
+      "title": "可以一起做的活動",
+      "seo": "可以一起做的活動，跨越世代",
+      "description": "適合兩代或以上人士的活動：交談遊戲、拼圖、戶外時光、祖孫一起做的手作，以及即使身在遠方也能保持親近的方法。",
+      "lede": "與父母、祖父母、孩子或朋友分享時光的點子，可以在家裡、戶外、探訪時，或在遠距離的情況下進行。"
+    },
+    "creative-calm": {
+      "label": "創意放鬆",
+      "title": "創意放鬆",
+      "seo": "創意放鬆：讓人平靜下來的藝術與活動",
+      "description": "適合成人和照顧者的放鬆創意活動：正念藝術、寫日記、音樂、感官時刻和平靜的下午。這是創意活動，不是治療。",
+      "lede": "用鉛筆、紙張或一首歌，溫和地慢下來。這些是創意活動，不是治療，也不需要任何技巧。"
     },
     "caregiving": {
-      "label": "照顧",
-      "title": "照顧指南",
-      "seo": "失智症照顧指南：實用的日常協助",
-      "description": "寫給失智症照顧者的實用、貼心指南：一起玩遊戲、溝通、面對拒絕、黃昏時的躁動不安、平板、挑選應用程式和照顧自己。",
-      "lede": "為照顧失智家人的日常時刻，提供平實、實用的協助，也包括如何照顧好自己。"
+      "label": "照護失智症患者",
+      "title": "照顧失智症患者",
+      "seo": "照顧失智症患者：活動與協助",
+      "description": "為照顧失智症患者的家庭提供的指南：一起玩的方法、對方說不時怎麼辦，以及確診後去哪裡找值得信賴的協助。",
+      "lede": "為照顧失智症患者的家庭提供以活動為主的協助，並說明可以向哪裡諮詢醫療與照護建議。"
     },
     "brain-health": {
       "label": "大腦健康",
@@ -282,7 +396,16 @@
     "tryTogether": "一起試試",
     "relatedGuides": "相關指南",
     "related": "相關內容",
-    "startHere": "從這裡開始"
+    "startHere": "從這裡開始",
+    "staleAria": "譯文已過時",
+    "staleTitle": "這份譯文已過時",
+    "staleText": "此譯文是根據較早版本的英文頁面製作的，該頁面之後已有更動。英文頁面才是目前的版本。",
+    "staleHealth": "本頁提供健康資訊，請先查看英文頁面，並在採取行動前諮詢醫生或護理人員。",
+    "staleLink": "閱讀目前的英文頁面"
+  },
+  "corrections": {
+    "suggest": "Suggest a correction",
+    "otherWays": "Other ways to tell us"
   },
   "healthNotice": {
     "aria": "健康資訊聲明",
@@ -291,24 +414,32 @@
   },
   "pages": {
     "about": {
-      "title": "一起做的活動，不是記憶測驗",
+      "title": "一起進行的活動，而不是考試",
       "seoTitle": "關於 Creative Activities：我們的理念",
-      "description": "為什麼 Creative Activities 的失智症遊戲不計時、不計分、沒有連續天數，為什麼圖片一直顯示，以及我們對失智症會說什麼、不會說什麼。",
+      "description": "為何 Creative Activities 沒有計時器、分數或連續紀錄，為何圖片會一直顯示，以及我們會和不會對健康作出哪些聲稱。",
       "crumb": "我們的理念",
-      "lede": "Creative Activities 製作平和、適合大人的圖片活動，讓照顧者和失智者可以並肩一起享受。",
-      "bodyHtml": "<h2>我們相信什麼</h2><p>活動的意義在於當下這一刻：一段對話、一個微笑、把兩張圖片配在一起的滿足感，或只是挨著坐在一起。它不是為了評量誰、逼誰更進一步，也不是為了證明什麼。</p><p>許多大腦訓練應用程式都圍繞著速度、分數、連續天數和關卡來設計。對失智者來說，這可能像一場怎麼考都考不過的試。我們的設計正好相反，並要求自己遵守這些原則：</p><ul><li><strong>沒有失敗。</strong>任何畫面上都沒有計時、分數、步數、生命值、連續天數、彩帶慶祝或倒數。</li><li><strong>重在認得，而不是回想。</strong>圖片預設一直顯示。提示是用來開啟話題，從不考名字或記憶。</li><li><strong>大、簡單、穩定。</strong>大字和大圖片、高對比，按鈕一直在同一個位置。</li><li><strong>尊重成年人的尊嚴。</strong>真實生活中的圖片，平實溫暖的文字。沒有卡通圖案、哄小孩式的稱讚或表情符號獎勵。</li><li><strong>隨時可以離開。</strong>「先到這裡」一直看得到。玩到一半停下，也是很好的結果。</li><li><strong>預設保護隱私。</strong>沒有帳號，沒有廣告。您挑選的照片只留在您的裝置上。</li></ul><h2>我們不會宣稱的事</h2><p>我們的遊戲是為了樂趣和彼此的連結。它們不能診斷、測驗、評量、治療、延緩或預防失智症或阿茲海默症，也不應該有人為了這些目的選擇它們。當我們在<a href=\"/brain-health/\">大腦健康頁面</a>介紹研究時，會直白說明哪些證據薄弱，也絕不會把研究和我們自己的遊戲扯上關係。</p><h2>我們是誰</h2><p>Creative Activities 是一個小型獨立團隊。我們不是醫療人員。我們的指南依據美國國家老化研究院（National Institute on Aging）和美國阿茲海默症協會（Alzheimer’s Association）等機構發布的指引撰寫，每篇指南都列出參考資料。了解<a href=\"/editorial-policy/\">我們如何撰寫和核對頁面</a>。</p><h2>告訴我們什麼對您有幫助</h2><p>我們很想知道哪些對您有用、哪些沒用，特別希望聽到失智者、家庭照顧者和活動帶領人員的想法。請寫信到 <a href=\"mailto:{email}\">{email}</a>。</p>"
+      "sponsors": {
+        "heading": "贊助商與合作夥伴",
+        "none": "Creative Activities 沒有贊助商、沒有付費版位，也沒有任何合作夥伴的標誌會出現在網站上。",
+        "listed": "以下是 Creative Activities 的贊助商與合作夥伴。每一項合作關係也會在其出現的頁面上另行說明。",
+        "policy": "如果情況有所改變，每個相關頁面都會在出現之處說明；任何活動都不會帶有贊助商，合作夥伴名單也會列在本頁。",
+        "listHeading": "合作夥伴名單",
+        "noPartners": "目前沒有合作夥伴。"
+      },
+      "lede": "Creative Activities 製作一些平和、適合成年人的活動，讓兩個人可以並肩享受，無論是一方在照顧另一方，還是他們只是想一起度過時光。",
+      "bodyHtml": "<h2>適合哪些人</h2><p>任何需要照顧他人的人：父母、祖父母、子女、伴侶、朋友，或是失智症患者本人。家庭、年長者和活動工作人員都可以使用同一批頁面。</p><h2>我們的信念</h2><p>活動的重點在於當下的時刻：一段對話、一個笑容、把兩張圖片拼在一起的滿足感，或只是靠近坐著。它不是為了評估任何人、催促他們更進一步，或證明什麼。</p><p>許多腦力訓練應用程式都以速度、分數、連續紀錄和等級為設計核心。對於疲倦、身體不適或患有失智症的人來說，這可能像一場無法及格的考試。我們做的恰恰相反，並以下列規則要求自己：</p><ul><li><strong>沒有失敗可言。</strong>任何畫面都沒有時鐘、分數、步數計數、生命值、連續紀錄、彩紙或倒數計時。</li><li><strong>重認優先於回憶。</strong>圖片預設一直顯示。提示是邀請對話，從不考問名字或記憶。</li><li><strong>大、清楚、穩定。</strong>使用大字和大圖、高對比，控制項的位置保持不變。</li><li><strong>成年人的尊嚴。</strong>使用真實的照片和平實、溫和的用字。不使用卡通、哄孩子式的讚美或表情符號獎勵。</li><li><strong>隨時可以停下。</strong>「暫時完成」一直清楚可見。做到一半就停下，也是很好的結果。</li><li><strong>預設私隱。</strong>沒有帳戶，也沒有廣告。你選擇的照片會留在你的裝置上。</li></ul><h2>我們不作的聲稱</h2><p>我們的遊戲和活動是為了享受與連繫。它們不能用來診斷、測試、量度、治療、減緩或預防失智症或阿茲海默症，也不應因此而選擇它們。在撰寫健康研究時，我們會清楚說明證據薄弱之處，並且從不把研究與我們自己的活動扯在一起。</p><h2>我們是誰</h2><p>Creative Activities 是一支小型獨立團隊。我們不是臨床醫生。我們的指南是依據國家老化研究所（National Institute on Aging）和阿茲海默症協會（Alzheimer’s Association）等機構已發表的指引撰寫，每份指南都列出其資料來源。請閱讀<a href=\"/editorial-policy/\">我們如何撰寫和核實頁面</a>。</p><h2>告訴我們什麼會有幫助</h2><p>我們很樂意聽到哪些方法對你有用、哪些沒有用，尤其是來自失智症患者、家庭照顧者和活動工作人員的意見。請電郵至 <a href=\"mailto:{email}\">{email}</a>。</p>"
     },
     "editorial": {
       "title": "我們如何撰寫和核對頁面",
       "seoTitle": "編輯政策",
-      "description": "Creative Activities 如何研究、撰寫、引用資料來源，並更新失智症活動與大腦健康頁面，以及我們絕不會刊登的內容。",
+      "description": "Creative Activities 如何研究、撰寫、取得資料來源並更新其活動與健康頁面，以及我們絕不會發表的內容。",
       "crumb": "編輯政策",
       "bodyHtml": "<h2>我們的資料來源</h2><p>我們的指南依據以下機構公開的指引：美國國家老化研究院（National Institute on Aging）、美國疾病管制與預防中心（CDC）、美國阿茲海默症協會（Alzheimer’s Association）、美國阿茲海默症基金會（Alzheimer’s Foundation of America）、美國家庭照顧者聯盟（Family Caregiver Alliance）和英國國民保健署（NHS），也參考 Cochrane 系統性回顧和大型臨床試驗等經過同儕審查的研究。每篇指南都會列出所依據的來源。引用之前，我們都會打開每個來源親自閱讀，只報導它實際說了什麼。</p><h2>我們如何撰寫</h2><ul><li>實用優先：今天可以做什麼，用平實的語言說明。</li><li>如實看待證據：當事實如此，我們會寫「與……有關」、「可能」和「證據不一致」。</li><li>尊重：我們把失智者當成大人來書寫，絕不使用考問或讓人難堪的語言。</li><li>不捏造內容：沒有捏造的統計數字、引言、專家、研究、評論或使用者見證。</li></ul><h2>誰審閱我們的頁面</h2><p>頁面由 Creative Activities 團隊撰寫和核對，研究和起草時會借助 AI 寫作工具。每個頁面都由團隊對照來源核對過。我們的頁面<strong>沒有</strong>經過醫師或其他醫療人員審閱，我們也不會宣稱有。這些內容是一般資訊，不是醫療建議。</p><h2>我們絕不會刊登的內容</h2><ul><li>宣稱某種遊戲、食物、保健食品、斷食或日常習慣能預防、治療、延緩或治癒失智症。</li><li>暗示某人有或沒有失智症的測驗、問答或評分。</li><li>建議開始、停止或更改任何藥物。</li><li>偽裝成指引內容的廣告或業配內容。</li></ul><h2>更新與更正</h2><p>每個頁面都會顯示最後更新日期。如果您發現錯誤或過時的來源，請寫信到 <a href=\"mailto:{email}\">{email}</a>，我們會盡快查證。</p>"
     },
     "faq": {
       "title": "常見問答",
-      "seoTitle": "失智症遊戲與活動：常見問答",
-      "description": "關於失智症遊戲和失智活動的常見問題：玩哪些遊戲、玩多久、後期活動點子、大腦健康和隱私。",
+      "seoTitle": "關於 Creative Activities 的問與答",
+      "description": "常見問題的解答：該試哪些遊戲和活動、要玩多久、適合團體的做法和後期階段的構想、健康與私隱。",
       "crumb": "常見問答",
       "lede": "照顧者最常問的問題，簡短平實的回答。",
       "groups": [
@@ -317,7 +448,7 @@
           "title": "關於遊戲",
           "items": [
             {
-              "q": "哪些遊戲最適合失智長輩？",
+              "q": "哪些遊戲最適合年長者？",
               "a": "最好的遊戲熟悉、簡單、沒有壓力，而最合適的，就是長輩今天喜歡的那一個。圖片一直顯示的配對遊戲、分類、簡單拼圖、接完熟悉的俗語、著色和圖片賓果，對很多人都很合適。避開計時、計分，以及任何像考試的東西。"
             },
             {
@@ -362,7 +493,7 @@
         },
         {
           "id": "health",
-          "title": "大腦健康",
+          "title": "失智症與健康",
           "items": [
             {
               "q": "遊戲能預防或延緩失智症嗎？",
@@ -393,7 +524,7 @@
           ]
         }
       ],
-      "moreHtml": "更多內容：<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>、<a href=\"/caregiving/when-they-say-no/\">長輩說「不」的時候</a>、<a href=\"/activities/late-stage/\">後期活動</a>和<a href=\"/brain-health/can-dementia-be-prevented/\">失智症可以預防嗎？</a>"
+      "moreHtml": "更多詳情：<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>、<a href=\"/caregiving/when-they-say-no/\">對方說不時怎麼辦</a>、<a href=\"/activities/late-stage/\">後期階段的活動</a>，以及<a href=\"/dementia-activities/\">在家進行的失智症活動</a>。"
     },
     "handout": {
       "title": "適合失智長輩的免費溫和遊戲",
@@ -407,21 +538,21 @@
     },
     "organizations": {
       "title": "給長照機構、圖書館和支持團體",
-      "seoTitle": "長照機構與團體適用的免費失智症活動",
-      "description": "長照機構、日照中心、圖書館、長青服務單位和支持團體如何使用我們的免費失智症遊戲，以及把我們加入資源清單時可用的介紹文字。",
+      "seoTitle": "為護理院、圖書館和團體提供的免費活動",
+      "description": "護理院、成人日間服務、圖書館、長者服務機構和支援小組如何使用我們免費的遊戲和活動指南，以及如何以文字將我們加入資源名單。",
       "crumb": "給機構",
       "lede": "本網站的所有內容都可以免費用於住民、會員和服務對象，不需要帳號、授權或費用。本頁介紹這裡有什麼，以及如何分享。",
-      "shortText": "{name}：為失智者和照顧者提供免費、溫和的圖片遊戲和活動指南。不用註冊、不計時、不計分。",
-      "longText": "{name}（{domain}）提供 {count} 款專為失智者設計的免費瀏覽器遊戲，包括圖片一直顯示的配對遊戲、簡單拼圖、分類、熟悉的俗語，以及附可列印賓果卡的圖片賓果。沒有帳號、廣告、計時或分數。網站也有針對失智症各個階段、以平實語言撰寫的活動指南，並引用美國國家老化研究院和美國阿茲海默症協會的資料。",
+      "shortText": "{name}：為年長者、家庭和失智症患者提供的免費、溫和的圖片遊戲和活動指南。無需註冊，沒有計時器，也沒有分數。",
+      "longText": "{name}（{domain}）提供 {count} 款免費瀏覽器遊戲，適合年長者、家人，以及失智症患者，包括翻開圖片的配對遊戲、簡單拼圖、分類、熟悉的俗語，以及可列印卡片的圖片賓果。沒有帳號、廣告、計時器或分數。網站也提供以淺白語言撰寫的活動指南，供家人、年長者和工作人員參考，資料來源包括美國國家老化研究所和阿茲海默症協會。",
       "useTitle": "機構可以使用的內容",
       "gamesItemHtml": "<strong>{count} 款瀏覽器遊戲</strong>，可在筆電、平板或接上電腦的電視上執行。不需要安裝、帳號或下載。查看<a href=\"/games/\">所有遊戲</a>。",
       "printablesLabel": "{count} 份可列印資料：",
       "printablesAfter": "請使用每個頁面上的「列印」按鈕。",
-      "moreItemsHtml": "<li><strong>團體形式：</strong><a href=\"/games/picture-bingo/\">圖片賓果</a>有可列印的賓果卡和螢幕叫號器，<a href=\"/activities/trivia/\">輕鬆問答</a>有 50 道附選項和聊天話題的題目。</li><li><strong>活動指南</strong>供工作人員和家屬使用，依階段和類型分類，以平實語言撰寫並附上資料來源。可以從<a href=\"/activities/ideas/\">101 個活動點子</a>或<a href=\"/activities/care-home-groups/\">長照機構團體活動</a>開始。</li>",
+      "moreItemsHtml": "<li><strong>團體形式：</strong><a href=\"/games/picture-bingo/\">圖片賓果</a>附有可列印的卡片和螢幕上的主持人，<a href=\"/together/conversation-games-for-all-ages/\">對話遊戲</a>則有附答案選項的問題和談話重點。</li><li><strong>活動指南</strong>供工作人員和家人使用，以淺白語言撰寫並附有資料來源。可從<a href=\"/activities/ideas/\">101 個活動點子</a>或<a href=\"/crafts/craft-group-sessions/\">長者護理院的團體活動</a>開始。</li>",
       "restHtml": "<h2>團體如何使用</h2><ul><li><strong>長照機構和失智專區：</strong>在交誼廳的電視上玩圖片賓果或接俗語，由一個人代表大家點選。</li><li><strong>日照中心：</strong>設一個平板角落，把「圖片配對」設成四張圖卡，進行簡短的一對一活動。</li><li><strong>公共圖書館：</strong>在記憶陪伴資源包裡放進印好的找字遊戲和聊天卡，並在圖書館的平板上把本網站加入書籤。</li><li><strong>照顧者支持團體和記憶咖啡館：</strong>提供<a href=\"/handout/\">一頁可列印傳單</a>，讓家屬帶回家。</li><li><strong>醫院和出院準備服務人員：</strong>把傳單放進照顧者資料袋，讓大家在家裡或床邊有件平靜的事可以做。</li></ul><h2>我們不做的事</h2><p>這些遊戲是為了樂趣和相處的時光。它們不能診斷、測驗、評分、治療或延緩失智症，我們也請各機構不要這樣介紹它們。沒有廣告，遊戲也不會要求上傳姓名、健康資訊或照片。本網站使用 Google Analytics 計算瀏覽次數；我們的<a href=\"/privacy/\">隱私權聲明</a>說明它會蒐集哪些資訊。在<a href=\"/games/photo-pairs/\">照片配對</a>中使用的照片只留在瀏覽器裡。</p><h2>把我們加入您的資源清單</h2><p>如果您有一份給照顧者的資源清單，歡迎連結到 <a href=\"/\">{domain}</a>。您可以複製以下任一段介紹文字。</p>",
       "shortTitle": "簡短介紹",
       "longTitle": "詳細介紹",
-      "linksHtml": "<p>可以直接連結的實用頁面：<a href=\"/games/\">免費遊戲</a>、<a href=\"/activities/printable/\">免費可列印資料</a>、<a href=\"/activities/alzheimers/\">適合阿茲海默症長輩的活動</a>和<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>。</p><h2>問題或更正</h2><p>如果網站上有錯誤或不清楚的地方，或現有內容無法滿足某位住民的需要，請寫信到 <a href=\"mailto:{email}\">{email}</a> 告訴我們。請不要寄送住民或服務對象的個人資料或健康資訊。</p>"
+      "linksHtml": "<p>可以直接連結的實用頁面：<a href=\"/games/\">免費遊戲</a>、<a href=\"/games/\">免費可列印資料</a>、<a href=\"/dementia-activities/\">居家失智症活動</a>，以及<a href=\"/caregiving/how-to-play-together/\">如何一起玩</a>。</p><h2>問題或更正</h2><p>如果網站上有任何內容有誤或不清楚，或是這裡的資料未能滿足住客的需要，請來信告訴我們：<a href=\"mailto:{email}\">{email}</a>。請勿傳送住客或服務對象的個人或健康資料。</p>"
     },
     "app": {
       "title": "Creative Activities 應用程式",
@@ -436,17 +567,17 @@
     }
   },
   "gamesIndex": {
-    "title": "免費線上失智症與阿茲海默症遊戲",
-    "description": "適合失智長輩和阿茲海默症長輩的免費線上遊戲：圖片配對、簡單拼圖、分類、俗語、著色和賓果。免註冊、不計時、不計分。",
+    "title": "免費線上一起玩遊戲",
+    "description": "適合年長者、家人和失智症患者的免費線上遊戲：圖片配對、簡單拼圖、分類、俗語、著色和賓果。無需註冊，沒有計時器或分數。",
     "crumb": "遊戲",
-    "h1": "適合失智長輩的溫和遊戲",
+    "h1": "輕鬆一起玩的遊戲",
     "lede": "{count} 款免費遊戲，在瀏覽器裡一起玩。大圖片、平實的文字，沒有失敗這回事：不計時、不計分、不用註冊。",
-    "listName": "適合失智長輩的溫和遊戲",
+    "listName": "輕鬆一起玩的遊戲",
     "byStageTitle": "依階段挑選遊戲",
     "byStageLede": "階段只是大略的參考。請跟著長輩的喜好，以及今天覺得自在的方式。",
     "stageCol": "階段",
     "gamesCol": "通常適合的遊戲",
-    "moreHtml": "螢幕之外的更多點子：<a href=\"/activities/ideas/\">101 個適合失智長輩的活動</a>、<a href=\"/activities/alzheimers/\">適合阿茲海默症長輩的活動和遊戲</a>、<a href=\"/activities/memory-games/\">溫和的記憶遊戲</a>和<a href=\"/activities/puzzles/\">拼圖</a>。",
+    "moreHtml": "離開螢幕的更多點子：<a href=\"/activities/ideas/\">101 個活動點子</a>、<a href=\"/dementia-activities/\">居家失智症活動</a>和<a href=\"/crafts/\">手工藝</a>。",
     "faq": [
       {
         "q": "應該從哪個遊戲開始？",
@@ -462,7 +593,7 @@
       },
       {
         "q": "這些是給長輩玩的記憶遊戲嗎？",
-        "a": "它們是任何長輩都能享受的配對和圖片遊戲，但設計上不考驗記憶：在「圖片配對」中，除非您選擇隱藏，否則圖片一直是正面朝上。我們關於失智長輩記憶遊戲的指南，說明了如何讓任何記憶遊戲都保持溫和。"
+        "a": "這些是任何年長者都能享受的配對和圖片遊戲，但設計上並非用來測試記憶：在「圖片配對」中，除非你另行選擇，圖片會保持正面朝上。任何記憶遊戲都可以移除計時器和分數，變得更溫和。"
       },
       {
         "q": "有適合長照機構團體的遊戲嗎？",
@@ -483,7 +614,7 @@
     ],
     "faq": [
       {
-        "q": "有失智症活動的應用程式嗎？",
+        "q": "有沒有適合年長者和家人使用的應用程式？",
         "a": "有。Creative Activities（在商店中名為「{storeName}」）可在 App Store 和 Google Play 免費下載。它有大圖卡的溫和圖片配對、用您挑選的家庭照片玩的遊戲，以及可離線使用的圖片包。"
       },
       {
@@ -525,7 +656,7 @@
     "printable": "可列印",
     "howTo": "{name}怎麼玩",
     "tips": "一起玩的小提示",
-    "newToPlayingHtml": "第一次陪失智長輩玩遊戲嗎？請閱讀<a href=\"/caregiving/how-to-play-together/\">如何一起玩遊戲</a>，包括長輩失去興趣時該怎麼做。",
+    "newToPlayingHtml": "第一次和年長者或失智症患者一起玩？請閱讀<a href=\"/caregiving/how-to-play-together/\">如何一起玩遊戲</a>，當中包括對方失去興趣時該怎麼做。",
     "moreAria": "更多內容",
     "helpfulGuides": "實用指南",
     "appTitle": "在應用程式裡玩",
@@ -535,6 +666,35 @@
     "goodToKnow": "溫馨提醒",
     "goodToKnowText": "這個遊戲是為了享受樂趣和共度時光，不會測驗、評量或治療任何事。",
     "moreGames": "更多溫和遊戲",
-    "crumb": "遊戲"
+    "crumb": "遊戲",
+    "print": {
+      "heading": "紙上遊戲",
+      "sameRules": "紙本版與螢幕上的遊戲規則相同：",
+      "button": "列印紙本版",
+      "pageNote": "一頁 A4 或美國信紙，黑白列印亦可。版本 {date}。",
+      "islandNote": "會列印目前螢幕上的內容。版本 {date}。",
+      "sheetTitle": "{name}：紙本版",
+      "point": "在紙上玩時，請用手指指向圖片，而不是點擊，或用筆圈出。每一行都是新的一組。",
+      "pointTarget": "在紙上玩時，要看的圖片位於每一行開頭的方格中。請用手指指向圖片，而不是點擊，或用筆圈出。",
+      "halves": "每張圖片都從中間剪開。請把左邊每一半與右邊合適的一半用線連起來，或用手指指出。不需要剪開任何東西。",
+      "grid": "每個方格都有一個數字。在圖例中找到該數字，然後用該顏色的彩色筆塗滿方格。塗上其他你喜歡的顏色也可以。不需要剪開任何東西。",
+      "colors": "每一行都寫明一種顏色。請指出所有該顏色的圖片，或用筆圈出。每一行都是新的一組。",
+      "dice": "每一行是一組骰子。選一行，或把圖片剪下來，從一疊中抽出幾張，然後按任意次序用它們說一個故事。任何人都可以跳過。",
+      "words": "把文字剪下來，或用線把每個文字連到它的圖片。邊玩邊大聲讀出文字。",
+      "cards": "沿虛線把卡片剪下來，正面朝上放在桌上，然後找出配對。",
+      "chain": "在紙上玩時，請由左至右，依次看圖片。每人就到目前為止的圖片說一句話，然後指向下一張圖片。任何人都可以跳過。",
+      "sort": "沿虛線把圖片剪下來，然後把每一張放進它應該屬於的盒子裡。",
+      "puzzle": "沿虛線把大圖片剪成四塊並弄亂。每次交換兩塊，直到圖片完整為止。小圖片是參考。",
+      "cutSafety": "開始前可請人幫忙剪裁。完成後請把剪刀收好。",
+      "version": "版本 {date} · {url}",
+      "reasons": {
+        "photos": "這個遊戲沒有紙本版。它使用你自己的相片，相片只留在你的瀏覽器中，從不上載，所以網站無法列印。若想在紙上玩，請在家中把幾張喜愛的相片各列印兩份，然後在桌上配對。",
+        "paced": "這個遊戲沒有紙本版。圓圈會在螢幕上設定緩慢而穩定的節奏，印出來的頁面無法做到這一點，所以會成為另一種活動。一起不看螢幕、安靜地停一下，永遠是一個選擇。",
+        "turns": "這個遊戲沒有紙本版。若要在桌上找出配對，請列印「圖片配對」的圖片卡，然後輪流翻開。",
+        "screen": "沒有紙本版本。這是一張要一起在螢幕上看的圖片；桌上放一張最喜歡的照片或明信片，也是同樣的感覺。",
+        "wash": "沒有紙本版本。紙上水彩也是同樣的想法：溼潤的筆刷，一次一種顏色。",
+        "sayings": "目前還沒有紙本版本。印在紙上，每個結局都會一次全部呈現，就少了溫和的「看結局」這一步。請一起在螢幕上閱讀這些諺語，或分享你們都熟悉的幾句。"
+      }
+    }
   }
 }
