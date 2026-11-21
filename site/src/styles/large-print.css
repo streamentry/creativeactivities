@@ -1,19 +1,17 @@
 /* Large-print edition of an activity card (WEB-018): steps at 18 pt or more, black on white,
    on screen and on paper. Same words as the standard card; only the layout changes. */
 .large-print {
-  --lp-ink: var(--gm-on-surface);
-  --lp-paper: var(--gm-surface);
   max-width: 46rem;
-  color: var(--lp-ink);
-  background: var(--lp-paper);
+  color: var(--gm-on-surface);
+  background: var(--gm-surface);
   font-size: 1.5rem; /* 24px on screen, about 18 pt */
   line-height: 1.45;
 }
 .large-print .pack-card {
   border: 0;
   box-shadow: none;
-  background: var(--lp-paper);
-  color: var(--lp-ink);
+  background: var(--gm-surface);
+  color: var(--gm-on-surface);
 }
 .large-print .pack-card h2 {
   font-size: 2.25rem;
@@ -32,10 +30,10 @@
 .large-print .eyebrow,
 .large-print .activity-glance span {
   font-size: 1.25rem;
-  color: var(--lp-ink);
+  color: var(--gm-on-surface);
 }
 .large-print a {
-  color: var(--lp-ink);
+  color: var(--gm-on-surface);
 }
 .large-print__qr {
   margin: 1.5rem 0;

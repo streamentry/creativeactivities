@@ -5,12 +5,17 @@
  * is tested without anyone editing a list.
  *
  * Scope: each CSS rule (in src/styles/*.css and in the <style> blocks of .astro files) that sets both a
- * text `color` and a `background` or `background-color` to a single design token (var(--gm-...)).
+ * text `color` and a `background` or `background-color` to a design token (var(--gm-...)), to a color-mix() of
+ * two tokens (evaluated in sRGB, as the browser does), or to literal black or white inside
+ * @media (prefers-contrast: more), where the colors are fixed on purpose in every theme.
  * Rules outside that scope are counted, not checked, so the report can say what was left out:
  * - rules inside @media print (print is black on white, DESIGN.md);
+ * - system colors (Canvas, Highlight, ButtonText...) inside @media (forced-colors: active), which the browser
+ *   chooses for the reader;
  * - rules that set only one of the two properties;
- * - rules whose background is a keyword (none, transparent, inherit), a hardcoded color, a non-gm variable,
- *   an image or gradient, or a color-mix (these are listed by reason in the scan summary).
+ * - rules whose color or background is a keyword (none, transparent, inherit), another hardcoded color, a
+ *   non-gm variable (for example the per-color game palette, set per element), or an image or gradient.
+ *   These are listed by reason in the scan summary.
  *
  * Themes: light, light + high contrast, dark (device or reader choice), dark + high contrast. Tokens are read
  * from src/styles/tokens.css with the same cascade the browser applies: :root, then the dark block, then the
@@ -155,6 +160,28 @@ function resolveValue(tokens: Tokens, value: string, depth = 0): string {
   return next === undefined ? value : resolveValue(tokens, next, depth + 1);
 }
 
+/** Opaque hex channels of a color, or a throw that names the value. */
+function rgbOf(hex: string): number[] {
+  const m = /^#([0-9a-f]{6})$/i.exec(hex);
+  if (!m) throw new Error(`not an opaque hex color: ${hex}`);
+  return [0, 2, 4].map((i) => parseInt(m[1].slice(i, i + 2), 16));
+}
+
+/** The hex value of a color reference under one theme's tokens (throws if a token is missing). */
+function colorOf(tokens: Tokens, ref: string): string {
+  if (ref.startsWith('#')) return ref;
+  if (!ref.startsWith('mix:')) {
+    const value = tokens[ref];
+    if (value === undefined) throw new Error(`token not defined: ${ref}`);
+    return value;
+  }
+  const [, a, pct, b] = ref.split(':');
+  const share = parseFloat(pct) / 100;
+  const first = rgbOf(colorOf(tokens, a));
+  const second = rgbOf(colorOf(tokens, b));
+  return '#' + first.map((c, i) => Math.round(share * c + (1 - share) * second[i]).toString(16).padStart(2, '0')).join('');
+}
+
 function effective(mode: Mode): Tokens {
   const merged: Tokens = mode.startsWith('dark') ? { ...ROOT, ...DARK } : { ...ROOT };
   if (mode.endsWith('+high')) Object.assign(merged, HIGH);
@@ -184,6 +211,29 @@ function contrast(a: string, b: string): number {
 
 const GM_TOKEN = /^var\(\s*(--gm-[\w-]+)\s*(?:,[\s\S]*)?\)$/;
 const gmToken = (value: string): string | null => GM_TOKEN.exec(value)?.[1] ?? null;
+
+/** color-mix(in srgb, var(--gm-a) P%, var(--gm-b)) as the reference "mix:--gm-a:P:--gm-b" (P is the first color's share). */
+const MIX = /^color-mix\(\s*in srgb,\s*var\(\s*(--gm-[\w-]+)\s*\)\s*(\d+(?:\.\d+)?)%\s*,\s*var\(\s*(--gm-[\w-]+)\s*\)\s*\)$/;
+const mixRef = (value: string): string | null => {
+  const m = MIX.exec(value);
+  return m ? `mix:${m[1]}:${m[2]}:${m[3]}` : null;
+};
+
+/** Literal black and white, accepted only inside @media (prefers-contrast: more). */
+const FIXED_HEX: Record<string, string> = { '#000': '#000000', '#000000': '#000000', '#fff': '#ffffff', '#ffffff': '#ffffff' };
+
+/** A color the scan can evaluate: a gm token, a color-mix of two gm tokens, or (when fixed) literal black or white. */
+function colorRef(value: string, fixed: boolean): string | null {
+  const v = value.trim();
+  return gmToken(v) ?? mixRef(v) ?? (fixed ? (FIXED_HEX[v.toLowerCase()] ?? null) : null);
+}
+
+/** Readable form of a color reference, for test names and the summary. */
+const displayRef = (ref: string): string => {
+  if (!ref.startsWith('mix:')) return ref;
+  const [, a, pct, b] = ref.split(':');
+  return `color-mix(${a} ${pct}%, ${b})`;
+};
 
 /** Why a color value is not a single gm token (used only for the skip summary). */
 function nonTokenReason(value: string): string {
@@ -237,10 +287,16 @@ interface Pair {
 }
 
 const inScope: (Pair & { file: string; selector: string })[] = [];
-const skipped = { print: 0, oneSide: 0 } as Record<string, number>;
+const skipped = { print: 0, oneSide: 0, forcedSystem: 0 } as Record<string, number>;
 const skipReasons = new Map<string, number>();
+const skippedRules: string[] = [];
 let rulesWithBoth = 0;
-const addSkip = (reason: string) => skipReasons.set(reason, (skipReasons.get(reason) ?? 0) + 1);
+const addSkip = (reason: string, rule: Rule) => {
+  skipReasons.set(reason, (skipReasons.get(reason) ?? 0) + 1);
+  const values = rule.decls.filter((d) => ['color', 'background', 'background-color'].includes(d.prop)).map((d) => `${d.prop}: ${d.value}`);
+  const context = rule.ancestors.map((a) => a.replace(/\s+/g, ' ')).join(' > ') || '(top level)';
+  skippedRules.push(`${reason} :: ${rule.file.split('/src/')[1]} :: ${rule.selector.slice(0, 80).replace(/\s+/g, ' ')} :: ${values.join('; ')} :: in ${context}`);
+};
 
 for (const rule of allRules) {
   const color = [...rule.decls].reverse().find((d) => d.prop === 'color');
@@ -255,17 +311,21 @@ for (const rule of allRules) {
     skipped.print++;
     continue;
   }
-  const fg = gmToken(color.value);
-  const bgToken = gmToken(bg.value);
-  if (!fg) {
-    addSkip(`text color: ${nonTokenReason(color.value)}`);
+  const fixed = rule.ancestors.some((a) => /prefers-contrast/.test(a));
+  const fg = colorRef(color.value, fixed);
+  const bgRef = colorRef(bg.value, fixed);
+  if (!fg || !bgRef) {
+    const side = fg ? bg : color;
+    const reason = nonTokenReason(side.value);
+    // The browser picks system colors in forced-colors mode; they are correct and are not checked.
+    if (reason === 'named or system color' && rule.ancestors.some((a) => /forced-colors/.test(a))) {
+      skipped.forcedSystem++;
+      continue;
+    }
+    addSkip(`${fg ? 'background' : 'text color'}: ${reason}`, rule);
     continue;
   }
-  if (!bgToken) {
-    addSkip(`background: ${nonTokenReason(bg.value)}`);
-    continue;
-  }
-  inScope.push({ fg, bg: bgToken, min: minimumFor(rule.decls), where: [], file: rule.file, selector: rule.selector });
+  inScope.push({ fg, bg: bgRef, min: minimumFor(rule.decls), where: [], file: rule.file, selector: rule.selector });
 }
 
 /** One entry per unique (text, background, minimum) pairing, listing the rules that use it. */
@@ -284,7 +344,7 @@ for (const m of handWritten.matchAll(/\['[^']+',\s*'(--gm-[\w-]+)',\s*'(--gm-[\w
   coveredSet.add([m[1], m[2]].sort().join('|'));
 }
 const enumeratedSet = new Map<string, string>();
-for (const p of uniquePairs.values()) enumeratedSet.set([p.fg, p.bg].sort().join('|'), `${p.fg} on ${p.bg}`);
+for (const p of uniquePairs.values()) enumeratedSet.set([p.fg, p.bg].sort().join('|'), `${displayRef(p.fg)} on ${displayRef(p.bg)}`);
 const newPairs = [...enumeratedSet.entries()].filter(([k]) => !coveredSet.has(k)).map(([, v]) => v);
 
 describe('scan of stylesheets (TSA-005)', () => {
@@ -298,11 +358,14 @@ describe('scan of stylesheets (TSA-005)', () => {
       uniqueTokenPairsNotInHandList: newPairs.length,
       skippedPrint: skipped.print,
       skippedOneSideOnly: skipped.oneSide,
+      skippedForcedColorsSystemColors: skipped.forcedSystem,
+      inScopeLiteralBlackOrWhite: inScope.filter((r) => r.fg.startsWith('#') || r.bg.startsWith('#')).length,
       skippedByReason: Object.fromEntries([...skipReasons.entries()].sort((a, b) => b[1] - a[1])),
+      skippedRules,
       newPairs,
       lowestRatioPerPair: [...uniquePairs.values()].map((pair) => {
-        const worst = Math.min(...MODES.map((m) => contrast(effective(m)[pair.fg], effective(m)[pair.bg])));
-        return `${pair.fg} on ${pair.bg} >= ${pair.min}:1: lowest ${worst.toFixed(2)}:1`;
+        const worst = Math.min(...MODES.map((m) => contrast(colorOf(effective(m), pair.fg), colorOf(effective(m), pair.bg))));
+        return `${displayRef(pair.fg)} on ${displayRef(pair.bg)} >= ${pair.min}:1: lowest ${worst.toFixed(2)}:1`;
       }),
       largeTextRules: inScope.filter((r) => r.min === 3).map((r) => `${r.file.split('/src/')[1]} :: ${r.selector.slice(0, 80)}`),
     };
@@ -318,15 +381,12 @@ for (const mode of MODES) {
   describe(`token pairs from stylesheets meet their minimum in ${mode}`, () => {
     const tokens = effective(mode);
     for (const pair of uniquePairs.values()) {
-      const label = `${pair.fg} on ${pair.bg} >= ${pair.min}:1 (${pair.rules.length} rule${pair.rules.length === 1 ? '' : 's'})`;
+      const label = `${displayRef(pair.fg)} on ${displayRef(pair.bg)} >= ${pair.min}:1 (${pair.rules.length} rule${pair.rules.length === 1 ? '' : 's'})`;
       it(label, () => {
-        const fgValue = tokens[pair.fg];
-        const bgValue = tokens[pair.bg];
-        if (fgValue === undefined || bgValue === undefined) {
-          throw new Error(`token not defined in ${mode}: ${pair.fg} (${fgValue}), ${pair.bg} (${bgValue})`);
-        }
+        const fgValue = colorOf(tokens, pair.fg);
+        const bgValue = colorOf(tokens, pair.bg);
         const ratio = contrast(fgValue, bgValue);
-        const detail = `${pair.fg} ${fgValue} on ${pair.bg} ${bgValue} = ${ratio.toFixed(2)}:1 in ${mode}; rules:\n  ${pair.rules.join('\n  ')}`;
+        const detail = `${displayRef(pair.fg)} ${fgValue} on ${displayRef(pair.bg)} ${bgValue} = ${ratio.toFixed(2)}:1 in ${mode}; rules:\n  ${pair.rules.join('\n  ')}`;
         expect(ratio, detail).toBeGreaterThanOrEqual(pair.min);
       });
     }

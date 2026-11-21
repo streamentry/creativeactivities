@@ -3063,6 +3063,7 @@
 }
 
 /* High contrast & forced-colors adaptations for dementia gameplay */
+/* Fixed black and white on purpose: a request for more contrast applies in every theme. */
 @media (prefers-contrast: more) {
   .pm__square {
     border: 3px solid #000000;
@@ -3642,7 +3643,7 @@
   border: 2px dashed var(--gm-outline);
   border-radius: var(--radius-md);
   background: var(--gm-print-white);
-  color: #000;
+  color: var(--gm-on-print);
 }
 .toss__target {
   inline-size: min(100%, 14rem);
