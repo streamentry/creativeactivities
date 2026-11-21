@@ -80,11 +80,25 @@ export function pageLinks(html: string, fromPath: string): { links: string[]; an
   return { links, anchors };
 }
 
+/** SEO-014: every indexable page needs at least this many inbound internal links from other pages. */
+export const MIN_INBOUND_LINKS = 2;
+
+export interface UnderLinkedPage {
+  readonly path: string;
+  /** Distinct other pages that link to this page. */
+  readonly inbound: number;
+}
+
 /**
- * Indexable English pages that no other page links to. `outgoing` maps each page to the internal targets it
- * links to; a page's own links do not count. Links from any page count, including noindex and other-language pages.
+ * Indexable English pages with fewer than `minimum` distinct inbound linking pages, sorted by path. `outgoing` maps
+ * each page to the internal targets it links to. A page's own links do not count, and a page that links to a target
+ * several times counts once. Links from any page count, including noindex and other-language pages.
  */
-export function findOrphans(pages: readonly PageInfo[], outgoing: ReadonlyMap<string, readonly string[]>): string[] {
+export function findUnderLinked(
+  pages: readonly PageInfo[],
+  outgoing: ReadonlyMap<string, readonly string[]>,
+  minimum: number = MIN_INBOUND_LINKS,
+): UnderLinkedPage[] {
   const linkedFrom = new Map<string, Set<string>>();
   for (const [from, targets] of outgoing) {
     for (const to of targets) {
@@ -95,9 +109,15 @@ export function findOrphans(pages: readonly PageInfo[], outgoing: ReadonlyMap<st
     }
   }
   return pages
-    .filter((p) => p.english && p.indexable && !(linkedFrom.get(p.path)?.size))
-    .map((p) => p.path)
-    .sort();
+    .filter((p) => p.english && p.indexable)
+    .map((p) => ({ path: p.path, inbound: linkedFrom.get(p.path)?.size ?? 0 }))
+    .filter((p) => p.inbound < minimum)
+    .sort((a, b) => (a.path < b.path ? -1 : a.path > b.path ? 1 : 0));
+}
+
+/** Indexable English pages that no other page links to. */
+export function findOrphans(pages: readonly PageInfo[], outgoing: ReadonlyMap<string, readonly string[]>): string[] {
+  return findUnderLinked(pages, outgoing, 1).map((p) => p.path);
 }
 
 /** Generic anchor texts that occur more than once on one page. Case and punctuation are ignored. */

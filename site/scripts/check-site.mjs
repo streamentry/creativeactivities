@@ -4,6 +4,7 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import { postingForm, captchaLoaded } from './post-rules.mjs';
+import { purchasePrompts, commerceLinks } from './child-purchase-rules.mjs';
 import { isStale, readFreshnessFields } from './translation-freshness-lib.mjs';
 import { canonicalError } from './canonical-lib.mjs';
 
@@ -67,6 +68,17 @@ const headerRules = existsSync(join(DIST, '_headers'))
   : [];
 const strictPolicy = (urlPath) =>
   headerRules.some((r) => r.pattern.test(urlPath) && /connect-src 'self';/.test(r.headers) && !/google/.test(r.headers));
+
+// Pages that load no analytics and show no consent bar, matched by path in every language. Photo pairs and
+// Picture puzzle open a family's own photo; the kids guides and their section are written for children (CNT-880).
+// Keep this list in step with `analytics={false}` in views/GameView.astro, GuideView.astro and SectionView.astro.
+// Each rule must match at least one built page, so the check cannot pass by matching nothing.
+const NO_ANALYTICS_PAGES = [
+  { name: 'Photo pairs', re: /(^|\/)games\/photo-pairs\/$/ },
+  { name: 'Picture puzzle', re: /(^|\/)games\/picture-puzzle\/$/ },
+  { name: 'the kids guides', re: /(^|\/)kids\/([^/]+\/)?$/ },
+];
+const noAnalyticsMatches = new Map(NO_ANALYTICS_PAGES.map((p) => [p.name, 0]));
 
 // TSA-041: the header policy must not allow scripts with 'unsafe-inline', and every
 // inline script hash that Astro writes into a page's meta CSP must also be listed in
@@ -230,10 +242,14 @@ for (const file of htmlFiles) {
       if (!hasRule) err(rel, 'the finder has no rule to noindex combinations of three or more fit filters');
     }
 
-    if (/(^|\/)games\/photo-pairs\/$/.test(path)) {
-      if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, 'Photo pairs loads Google Analytics');
-      if (!strictPolicy(path)) err(rel, 'Photo pairs has no strict Content-Security-Policy rule in _headers');
+    const noAnalytics = NO_ANALYTICS_PAGES.find((p) => p.re.test(path));
+    if (noAnalytics) {
+      noAnalyticsMatches.set(noAnalytics.name, noAnalyticsMatches.get(noAnalytics.name) + 1);
+      if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, `${noAnalytics.name} loads Google Analytics`);
+      if (/<meta name="ca-gtm"/.test(html)) err(rel, `${noAnalytics.name} has the analytics meta tag (ca-gtm)`);
+      if (/data-consent-bar|class="consent-bar"/.test(html)) err(rel, `${noAnalytics.name} shows the analytics consent bar`);
     }
+    if (/(^|\/)games\/photo-pairs\/$/.test(path) && !strictPolicy(path)) err(rel, 'Photo pairs has no strict Content-Security-Policy rule in _headers');
 
     const prefix = prefixIn(path);
     const patient = prefix && PATIENT_WORDS[prefix];
@@ -311,6 +327,7 @@ for (const file of htmlFiles) {
   }
 }
 
+for (const [name, count] of noAnalyticsMatches) if (count === 0) err('build', `no built page matched "${name}", so its no-analytics rule checked nothing`);
 for (const [key, pages] of titles) if (pages.length > 1) err(pages.join(', '), `duplicate title "${key.split('|').slice(1).join('|')}"`);
 for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join(', '), `duplicate description`);
 
@@ -521,6 +538,24 @@ if (existsSync(join(DIST, 'editorial-policy/index.html')) && !readDist('editoria
 if (existsSync(join(DIST, 'faq/index.html')) && !readDist('faq/index.html').includes('class="evidence-label"')) {
   err('faq/', 'benefit answers have no evidence label (TSA-031)');
 }
+
+// BIZ-018: child-directed pages (the /kids/ section and its guides, in every language) carry no purchase,
+// donation, subscription or price prompt, and link to no checkout, cart or donation page. The patterns are in
+// child-purchase-rules.mjs, shared with a source test. Nothing is exempted here; a real hit is fixed in the content.
+const CHILD_PAGE = /^(?:[a-z]{2,3}(?:-[a-z]{2,4})?\/)?kids\/(?:[^/]+\/)?index\.html$/;
+let childPages = 0;
+for (const file of htmlFiles) {
+  const rel = relative(DIST, file);
+  if (!CHILD_PAGE.test(rel)) continue;
+  childPages++;
+  const html = readFileSync(file, 'utf8');
+  const shown = [text(html), ...[...html.matchAll(/\s(?:aria-label|title|alt)="([^"]*)"/g)].map((m) => m[1])].join(' ');
+  for (const { label, match } of purchasePrompts(shown)) err(rel, `child-directed page has a ${label} prompt: "${match}" (BIZ-018)`);
+  const hrefs = [...html.matchAll(/<a\s[^>]*href="([^"]+)"/g)].map((m) => m[1].replace(/&amp;/g, '&'));
+  for (const href of commerceLinks(hrefs)) err(rel, `child-directed page links to checkout, cart or donation: ${href} (BIZ-018)`);
+  if (/"priceCurrency"|"@type":\s*"Offer"|"offers":/.test(html)) err(rel, 'child-directed page has price data in its structured data (BIZ-018)');
+}
+if (childPages < 8) err('kids/', `found ${childPages} child-directed pages, expected at least 8 (the section and its 7 English guides) (BIZ-018)`);
 
 for (const w of warnings) console.warn(`warn  ${w}`);
 for (const e of errors) console.error(`error ${e}`);

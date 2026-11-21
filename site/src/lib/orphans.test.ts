@@ -1,5 +1,14 @@
 import { describe, expect, it } from 'vitest';
-import { findOrphans, isEnglishPage, isIndexable, normalizeTarget, pageLinks, repeatedGenericAnchors } from './orphans';
+import {
+  findOrphans,
+  findUnderLinked,
+  isEnglishPage,
+  isIndexable,
+  MIN_INBOUND_LINKS,
+  normalizeTarget,
+  pageLinks,
+  repeatedGenericAnchors,
+} from './orphans';
 
 describe('normalizeTarget (SEO-014)', () => {
   it('resolves root, relative and absolute links to a page path with a trailing slash', () => {
@@ -84,5 +93,75 @@ describe('repeatedGenericAnchors (SEO-014)', () => {
     expect(repeatedGenericAnchors(['Read more →', 'read more'])).toEqual([{ text: 'read more', count: 2 }]);
     expect(repeatedGenericAnchors(['Read more about dementia', 'Read more about dementia'])).toEqual([]);
     expect(repeatedGenericAnchors(['Learn more'])).toEqual([]);
+  });
+});
+
+describe('findUnderLinked (SEO-014 two inbound links)', () => {
+  const pages = [
+    { path: '/', english: true, indexable: true },
+    { path: '/hubs/', english: true, indexable: true },
+    { path: '/a/', english: true, indexable: true },
+    { path: '/b/', english: true, indexable: true },
+    { path: '/c/', english: true, indexable: true },
+    { path: '/hidden/', english: true, indexable: false },
+    { path: '/de/x/', english: false, indexable: true },
+  ];
+
+  it('requires two inbound internal links', () => {
+    expect(MIN_INBOUND_LINKS).toBe(2);
+  });
+
+  it('reports indexable English pages with fewer than two distinct linking pages, with the count', () => {
+    const outgoing = new Map<string, string[]>([
+      ['/', ['/hubs/', '/a/', '/b/']],
+      ['/hubs/', ['/a/', '/b/', '/c/']],
+      ['/a/', ['/hubs/', '/b/']],
+      ['/b/', ['/hubs/', '/a/']],
+      ['/c/', ['/c/', '/hubs/']],
+      ['/hidden/', []],
+      ['/de/x/', []],
+    ]);
+    expect(findUnderLinked(pages, outgoing)).toEqual([
+      { path: '/', inbound: 0 },
+      { path: '/c/', inbound: 1 },
+    ]);
+  });
+
+  it('counts a linking page once however many links it has to the same target', () => {
+    const outgoing = new Map<string, string[]>([
+      ['/', ['/hubs/', '/a/', '/b/']],
+      ['/hubs/', ['/a/', '/b/']],
+      ['/a/', ['/b/', '/b/', '/hubs/', '/c/', '/c/']],
+      ['/b/', ['/hubs/']],
+      ['/c/', []],
+      ['/hidden/', []],
+      ['/de/x/', []],
+    ]);
+    expect(findUnderLinked(pages, outgoing)).toEqual([
+      { path: '/', inbound: 0 },
+      { path: '/c/', inbound: 1 },
+    ]);
+  });
+
+  it('counts links from noindex and other-language pages, and passes a page with two sources', () => {
+    const outgoing = new Map<string, string[]>([
+      ['/', ['/hubs/']],
+      ['/hubs/', ['/a/', '/b/', '/c/']],
+      ['/a/', ['/b/', '/c/']],
+      ['/b/', ['/a/', '/c/']],
+      ['/c/', ['/a/', '/b/']],
+      ['/hidden/', ['/hubs/']],
+      ['/de/x/', ['/c/', '/b/']],
+    ]);
+    expect(findUnderLinked(pages, outgoing)).toEqual([{ path: '/', inbound: 0 }]);
+  });
+
+  it('keeps findOrphans as the pages with no inbound link at all', () => {
+    const outgoing = new Map<string, string[]>([
+      ['/hubs/', ['/a/']],
+      ['/a/', ['/hubs/']],
+      ['/b/', ['/a/']],
+    ]);
+    expect(findOrphans(pages, outgoing)).toEqual(['/', '/b/', '/c/']);
   });
 });

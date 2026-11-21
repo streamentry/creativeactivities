@@ -80,7 +80,7 @@ describe('TSA-049: no activity card carries sponsor or partner wording', () => {
 
 describe('TSA-049: logo guard', () => {
   /** The site's brand mark: the only image allowed to carry a logo-like name. */
-  const BRAND_MARK_SRC = '/icons/icon-192.png';
+  const BRAND_MARK_SRC = '/icons/brand-mark.png';
   const BRAND_MARK_FILE = 'components/BrandMark.astro';
   const LOGO_LIKE = /logo|partner|sponsor/i;
   const srcRoot = fileURLToPath(new URL('../', import.meta.url));

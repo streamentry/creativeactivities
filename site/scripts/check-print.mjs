@@ -310,12 +310,15 @@ async function translatedPage(context, base, failures, record, type, label, url,
 }
 
 /**
- * CNT-007: the "What I have" checklist is one sheet, and the blank activity card is one two-sided sheet (two pages),
- * each on A4 and on US Letter. The site header is hidden in print and the body text is at least 14 pt.
+ * CNT-007: the "What I have" checklist, the keepsake card and the family note are one sheet each; the blank activity card is
+ * one two-sided sheet (two pages). Each is checked on A4 and on US Letter. The site header is hidden in print and the body
+ * text is at least 14 pt.
  */
 export const CNT7_TEMPLATES = [
   { type: 'what I have checklist', url: '/printables/what-i-have-checklist/', pages: 1 },
   { type: 'blank activity card', url: '/printables/blank-activity-card/', pages: 2 },
+  { type: 'keepsake card', url: '/printables/keepsake-card/', pages: 1 },
+  { type: 'family note', url: '/printables/family-note/', pages: 1 },
 ];
 const CNT7_MIN_PT = 14;
 
@@ -329,7 +332,7 @@ async function cnt7Templates(context, base, failures, record) {
       return !!header && getComputedStyle(header).display === 'none';
     });
     const textPt = await page.evaluate(() => {
-      const sizes = [...document.querySelectorAll('.checklist__sheet p, .checklist__sheet li, .checklist__sheet h2, .checklist__sheet h3, .blank-card p, .blank-card li, .blank-card h2, .blank-card h3')]
+      const sizes = [...document.querySelectorAll('.checklist__sheet p, .checklist__sheet li, .checklist__sheet h2, .checklist__sheet h3, .blank-card p, .blank-card li, .blank-card h2, .blank-card h3, .keepsake p, .keepsake h2, .keepsake h3, .family-note p, .family-note h2, .family-note h3')]
         .filter((el) => el.offsetParent !== null && el.textContent.trim() !== '')
         .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
       return sizes.length ? Math.min(...sizes) : null;
@@ -340,6 +343,43 @@ async function cnt7Templates(context, base, failures, record) {
     if (!ok) failures.push({ slug: template.type, counts, hidden, textPt });
     record(template.type, ok);
     console.log(`${template.type}: A4 ${counts.A4}  Letter ${counts.Letter}  limit ${template.pages}  navigation hidden ${hidden ? 'yes' : 'NO'}  text ${textPt?.toFixed(0) ?? 'none'} pt (at least ${CNT7_MIN_PT})  ${ok ? 'ok' : 'FAIL'}`);
+    await page.close();
+  }
+}
+
+/**
+ * SEO-025: each partner sheet (library programming, activity director, facilitator note) is one sheet on each paper size,
+ * with the site header hidden and the sheet text at least 12 pt.
+ */
+export const PARTNER_SHEET_PAGES = 1;
+const PARTNER_MIN_PT = 12;
+export const PARTNER_SHEET_URLS = [
+  '/for-organizations/library-programming/',
+  '/for-organizations/activity-director/',
+  '/for-organizations/facilitator-note/',
+];
+
+async function partnerSheets(context, base, failures, record) {
+  for (const url of PARTNER_SHEET_URLS) {
+    const page = await context.newPage();
+    await page.goto(`${base}${url}`, { waitUntil: 'networkidle' });
+    await page.emulateMedia({ media: 'print' });
+    const hidden = await page.evaluate(() => {
+      const header = document.querySelector('.site-header');
+      return !!header && getComputedStyle(header).display === 'none';
+    });
+    const textPt = await page.evaluate(() => {
+      const sizes = [...document.querySelectorAll('.partner-sheet p, .partner-sheet li, .partner-sheet h2, .partner-sheet h3, .partner-sheet dd, .partner-sheet dt')]
+        .filter((el) => el.offsetParent !== null && el.textContent.trim() !== '')
+        .map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75);
+      return sizes.length ? Math.min(...sizes) : null;
+    });
+    const counts = {};
+    for (const format of FORMATS) counts[format] = sheetCount(await page.pdf({ format, printBackground: false }));
+    const ok = hidden && textPt !== null && textPt >= PARTNER_MIN_PT && FORMATS.every((f) => counts[f] === PARTNER_SHEET_PAGES);
+    if (!ok) failures.push({ slug: `partner sheet ${url}`, counts, hidden, textPt });
+    record('partner sheet', ok);
+    console.log(`partner sheet ${url.padEnd(40)} A4 ${counts.A4}  Letter ${counts.Letter}  limit ${PARTNER_SHEET_PAGES}  navigation hidden ${hidden ? 'yes' : 'NO'}  text ${textPt?.toFixed(0) ?? 'none'} pt (at least ${PARTNER_MIN_PT})  ${ok ? 'ok' : 'FAIL'}`);
     await page.close();
   }
 }
@@ -527,6 +567,7 @@ async function main() {
     await translatedPage(context, base, failures, record, 'translated hub', 'ar: activities', '/ar/activities/', TRANSLATED_HUB_PAGES);
     await careSheets(context, base, failures, record);
     await cnt7Templates(context, base, failures, record);
+    await partnerSheets(context, base, failures, record);
     for (const { slug, kind } of gamesWithPaper()) {
       await check('game sheet', `${slug} (${kind})`, `/games/${slug}/`, GAME_SHEET_PAGES[slug] ?? 1, null);
     }

@@ -15,6 +15,8 @@ Read with [data-inventory.md](data-inventory.md), [events.md](events.md) and ite
 | Browser sends Global Privacy Control | Nothing, even after an earlier "Allow"; the question is not shown | None |
 | Photo pairs | Never | None |
 | Scrapbook | Never | None |
+| Picture puzzle (accepts a family photo, GAME-058) | Never | None |
+| Kids guides under `/kids/`, every language (CNT-880) | Never; no consent bar is shown | None |
 
 - **The question:** `site/src/components/ConsentBar.astro`, a bar at the top of the page in normal flow (not a dialog, never pinned over content, so it cannot hide keyboard focus). "No thanks" comes first; both buttons are the same size. It shows only while the question is unanswered.
 - **The answer:** `ca-analytics-consent-v1` in local storage (`granted` or `denied`), listed on `/your-data/`, where deleting it makes the site ask again. Changeable at any time on `/privacy/#analytics-choice`.
@@ -34,7 +36,33 @@ The blocklist stops Tag Manager's own listeners, but some collection is configur
 4. **Tag Manager container `GTM-5ZSV72WC`:** remove any Click, Link Click, Form Submission, Scroll Depth, Element Visibility, Timer or History Change triggers and any Custom HTML tags (the site blocks them anyway, but the container should match); make sure the GA4 tag uses the built-in consent check ("Require additional consent": none needed beyond `analytics_storage`).
 5. **Verify in a clean browser profile** with Tag Assistant: before "Allow", no requests to Google; after "Allow", consent shows `analytics_storage: granted`, `ad_storage: denied`.
 
+### Console state, set on 2026-11-21
+
+Property creativeactivities.org (stream `16331161065`, measurement ID `G-JX0SFMN3B0`). Every change was saved and read back after a page reload.
+
+| Step | Before | Now |
+|---|---|---|
+| 1. Enhanced measurement | All seven events on | Page views only. Scrolls, outbound clicks, site search, form interactions, video engagement and file downloads are off |
+| 2. Google signals | Off | Off (unchanged) |
+| 2. Granular location and device data | Allowed in 307 of 307 regions | Off everywhere. Country and region are still collected |
+| 2. Ads personalization | Allowed in 307 of 307 regions | Allowed in 0 of 307 (the site already denies `ad_personalization`) |
+| 2. User-provided data collection | Off | Off (unchanged) |
+| 3. Event data retention | 2 months | 2 months (unchanged) |
+| 3. User data retention | 14 months, reset on new activity | 2 months, no reset on new activity |
+| 4. Container `GTM-5ZSV72WC` triggers and tags | One tag: Google Analytics `G-JX0SFMN3B0`, trigger "Initialization – All Pages". No other triggers, no Custom HTML | Unchanged; already matches step 4 |
+| 4. Google tag › automatic event detection | Page views on history change, scrolls, outbound clicks, form interactions, video engagement and file downloads all on (`__ogt_auto_events`; the site's blocklist does not cover these) | All six off |
+| 4. Google tag › user-provided data capabilities | On, with automatic email, phone and address detection (`__ogt_1p_data_v2`) | Off |
+
+The two Google tag settings were published as container version 2 ("Privacy: automatic events and user-provided data off"). The `gtm.js` that Google served afterwards shows every `__ogt_auto_events` option `false` and `__ogt_1p_data_v2` with `vtp_isEnabled: false`, and the `DEVICE_AND_GEO` and `GOOGLE_SIGNALS` redaction set for all regions.
+
+**Step 5, checked in a browser on the live site on 2026-11-21** (the in-app browser with the stored answer removed, not a fresh profile, and the network list read from the page, not Tag Assistant):
+
+- No answer stored: the question shows, there is no `dataLayer`, and nothing is requested from Google.
+- "Allow" stored: the consent default is all denied, then the update grants only `analytics_storage` (`ad_storage`, `ad_user_data` and `ad_personalization` stay denied). After that, `gtm.js` and `g/collect` load.
+
 ## Open
 
 - The consent words exist in English only; other languages show the English text until their dictionaries are translated and reviewed (L10N rules).
 - Counsel should confirm the wording is sufficient for consent where it is required (UK, EU and some US states).
+
+<!-- cspell:ignore SFMN -->

@@ -41,6 +41,11 @@ def parse_date(value):
         return None
 
 
+def quarter_of(day):
+    """Calendar quarter label for a date, such as 2026-Q4."""
+    return f'{day.year}-Q{(day.month - 1) // 3 + 1}'
+
+
 def read_status(root=ROOT):
     """Language code -> entry, from localization.languages in release-status.json."""
     data = json.loads((root / STATUS_RELATIVE).read_text(encoding='utf-8'))
@@ -194,6 +199,8 @@ def summarize(records, languages):
 
     "Found after reviewed" counts defects found after the date a language was
     marked reviewed. It is None when the language is not reviewed or has no date.
+    `after_reviewed_by_quarter` splits the same defects by the calendar quarter of
+    `found_on` (a label such as 2026-Q4); it is None under the same rule.
     Only languages with a defect row or a reviewed status appear.
     """
     codes = {row['language'] for _, row in records}
@@ -205,7 +212,8 @@ def summarize(records, languages):
         reviewed_on = parse_date(entry.get('date')) if reviewed else None
         counts = {'reviewed': reviewed, 'open_safety': 0, 'open_claim': 0,
                   'open_other': 0,
-                  'after_reviewed': None if reviewed_on is None else 0}
+                  'after_reviewed': None if reviewed_on is None else 0,
+                  'after_reviewed_by_quarter': None if reviewed_on is None else {}}
         for _, row in records:
             if row['language'] != code:
                 continue
@@ -219,6 +227,9 @@ def summarize(records, languages):
             found = parse_date(row['found_on'])
             if reviewed_on and found and found > reviewed_on:
                 counts['after_reviewed'] += 1
+                quarter = quarter_of(found)
+                by_quarter = counts['after_reviewed_by_quarter']
+                by_quarter[quarter] = by_quarter.get(quarter, 0) + 1
         summary[code] = counts
     return summary
 
@@ -233,6 +244,16 @@ def format_summary(summary):
         lines.append(f'{code:<10}{"yes" if counts["reviewed"] else "no":<10}'
                      f'{counts["open_safety"]:>13}{counts["open_claim"]:>12}'
                      f'{counts["open_other"]:>12}{after:>16}')
+    quarters = sorted({q for counts in summary.values()
+                       for q in (counts['after_reviewed_by_quarter'] or {})})
+    if quarters:
+        lines += ['', 'Found after reviewed, by calendar quarter of found_on '
+                      '(blank: language not reviewed or no review date)',
+                  f'{"language":<10}' + ''.join(f'{q:>10}' for q in quarters)]
+        for code, counts in summary.items():
+            by_quarter = counts['after_reviewed_by_quarter']
+            cells = ['' if by_quarter is None else str(by_quarter.get(q, 0)) for q in quarters]
+            lines.append(f'{code:<10}' + ''.join(f'{cell:>10}' for cell in cells))
     return '\n'.join(lines)
 
 

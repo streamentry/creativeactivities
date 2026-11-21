@@ -6,6 +6,7 @@ import {
   overdueReviews,
   pageFacts,
   reviewedCoverage,
+  safetyCompleteness,
   sourceCoverage,
   translationCoverage,
 } from '../../scripts/content-metrics-lib.mjs';
@@ -211,6 +212,65 @@ describe('source coverage (MET-015)', () => {
 });
 
 // buildReport reads every guide in every language; on a busy machine that takes well over 5 s.
+describe('safety-field completeness (MET-018)', () => {
+  const card = (lines: string[]) => pageFacts('activity', 'a', fm(lines));
+  const answered = [
+    'name: "A"',
+    'safetyFlags:',
+    '  - heat',
+    '  - allergen',
+    'safety:',
+    '  - "Keep the lamp away from paper."',
+    'supervision: nearby',
+  ];
+
+  it('reads the list fields inline or as lines, and the supervision level', () => {
+    expect(card(['safetyFlags: [heat, none]', 'safety: ["Note"]', 'supervision: hands-on'])).toMatchObject({
+      safetyFlags: 2,
+      safetyNotes: 1,
+      supervision: true,
+    });
+    expect(card(answered)).toMatchObject({ safetyFlags: 2, safetyNotes: 1, supervision: true });
+    expect(card(['name: "A"', 'supervision: sometimes'])).toMatchObject({ safetyFlags: 0, safetyNotes: 0, supervision: false });
+  });
+
+  it('counts a card with every required safety field answered as complete', () => {
+    expect(safetyCompleteness([card(answered)])).toEqual({ total: 1, flags: 1, notes: 1, supervision: 1, all: 1 });
+  });
+
+  it('shows each missing field separately, so a gap is not hidden by the others', () => {
+    const pages = [
+      card(answered),
+      card(['name: "B"', 'safety: ["Note"]', 'supervision: nearby']),
+      card(['name: "C"', 'safetyFlags: [none]', 'supervision: nearby']),
+      card(['name: "D"', 'safetyFlags: [heat]', 'safety: ["Note"]']),
+    ];
+    expect(safetyCompleteness(pages)).toEqual({ total: 4, flags: 3, notes: 3, supervision: 3, all: 1 });
+  });
+
+  it('counts only published activity cards: not withdrawn, not declined, and no hubs or guides', () => {
+    const pages = [
+      card(answered),
+      card([...answered, 'withdrawn:', '  reason: "x"']),
+      card([...answered, 'reviewDeclined:', '  date: 2026-03-01']),
+      pageFacts('hub', 'h', fm(answered)),
+      pageFacts('guide', 'g', fm(answered)),
+    ];
+    expect(safetyCompleteness(pages).total).toBe(1);
+  });
+
+  it('reports zero cards without dividing by zero', () => {
+    expect(safetyCompleteness([])).toEqual({ total: 0, flags: 0, notes: 0, supervision: 0, all: 0 });
+  });
+
+  it('is in the report with its counts, over the real cards', { timeout: 60_000 }, () => {
+    const { result } = buildReport(undefined, '2026-11-22');
+    expect(result.safety.total).toBeGreaterThan(0);
+    expect(result.safety.all).toBeLessThanOrEqual(result.safety.total);
+    expect(formatReport(result, '2026-11-22').join('\n')).toContain('MET-018 Safety-field completeness');
+  });
+});
+
 describe('the report', { timeout: 60_000 }, () => {
   it('shows the date and a count with every figure', () => {
     const { today, result } = buildReport(undefined, '2026-11-16');

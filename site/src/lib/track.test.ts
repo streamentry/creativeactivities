@@ -124,6 +124,18 @@ describe('event allowlist', () => {
     );
     expect(documented).toEqual(coded);
   });
+
+  it('has a metric row in file 17 for every event in the dictionary (PLAT-024)', () => {
+    const metrics = readFileSync(
+      fileURLToPath(new URL('../../../docs/specs/global/17-metrics-and-evidence.md', import.meta.url)),
+      'utf8',
+    );
+    const tableRows = metrics.split('\n').filter((line) => line.startsWith('|'));
+    const missing = Object.keys(EVENT_DICTIONARY).filter(
+      (event) => !tableRows.some((line) => line.includes(`\`${event}\``)),
+    );
+    expect(missing).toEqual([]);
+  });
 });
 
 describe('TSA-012 events: view, save, share and app CTA', () => {

@@ -12,6 +12,26 @@ import { sounds } from './shared/sound';
 
 const COUNTS = [2, 3, 4] as const;
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const SHADOW_SET: ReadonlySet<string> = new Set(SHADOW_IDS);
+
+/** The saved board, or null when this game cannot show it. */
+function parseBoard(b: unknown): { count: number; round: ShadowRound; found: boolean } | null {
+  if (!isRecord(b)) return null;
+  const { count, round, found } = b;
+  if (typeof count !== 'number' || !(COUNTS as readonly number[]).includes(count) || typeof found !== 'boolean') return null;
+  if (!isRecord(round)) return null;
+  const { target, options } = round;
+  if (typeof target !== 'string' || !SHADOW_SET.has(target)) return null;
+  if (!isIdList(options, (id) => SHADOW_SET.has(id)) || options.length !== count || !options.includes(target)) return null;
+  return { count, round: { target, options: [...options] }, found };
+}
+
 const newRound = (count: number, previous?: string): ShadowRound => createShadowRound(count, createRng(randomSeed()), previous);
 
 export default function ShadowMatch(props: PlayProps) {
@@ -77,6 +97,20 @@ export default function ShadowMatch(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'shadow-match',
+        save: () => ({ count, round, found }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setCount(saved.count);
+          setRound(saved.round);
+          setFound(saved.found);
+          setTapped(null);
+          setMessage('');
+        },
+      }}
     >
       <div className="target">
         <div className="target__print target__print--shadow">

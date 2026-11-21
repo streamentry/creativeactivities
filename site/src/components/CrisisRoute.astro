@@ -23,8 +23,8 @@ export const PRINT_CRISIS_LINE = CRISIS_PRINT_LINE;
       ))}
     </ul>
     <p class="muted">
-      Numbers checked on {CHECKED_ON}. This note does not collect anything you read or type, and it does not assess anyone's
-      risk.
+      {CHECKED_ON !== null && <>Numbers checked on {CHECKED_ON}.{' '}</>}This note does not collect anything you read or type,
+      and it does not assess anyone's risk.
     </p>
   </div>
 </aside>

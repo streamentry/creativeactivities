@@ -12,13 +12,19 @@
 //   node --max-old-space-size=6144 scripts/check-duplicates.mjs
 //   node --max-old-space-size=6144 scripts/check-duplicates.mjs --threshold=0.6 --strict
 //   ... --report=/path/to/report.txt
+//   node --max-old-space-size=6144 scripts/check-duplicates.mjs --patterns
+// --patterns (SEO-006) exits 1 when two indexable pages of the same language and
+// page type share a title pattern, H1 pattern and subject (see src/lib/title-patterns.ts).
+// It skips the near-duplicate scan.
 import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { performance } from 'node:perf_hooks';
 import { exactDuplicates, findNearDuplicates } from '../src/lib/similarity.ts';
+import { breadcrumbCurrent, pageTypeOf, patternCollisions } from '../src/lib/title-patterns.ts';
 
 const DIST = new URL('../dist/', import.meta.url).pathname;
+const CONTENT = new URL('../src/content/', import.meta.url).pathname;
 const SITE = 'https://creativeactivities.org';
 const DEFAULT_REPORT = join(tmpdir(), 'creative-activities', 'duplicates-report.txt');
 /** Proposed, not chosen. Pairs are reported from 0.3 so the sample review can compare cut-offs. */
@@ -35,6 +41,7 @@ const args = Object.fromEntries(
 const threshold = Number(args.threshold ?? PROPOSED_THRESHOLD);
 const strict = args.strict === 'true';
 const exactOnly = args.exact === 'true';
+const patternsOnly = args.patterns === 'true';
 const reportPath = args.report ?? DEFAULT_REPORT;
 if (!(threshold > SCAN_FLOOR && threshold <= 1)) {
   console.error(`--threshold must be above ${SCAN_FLOOR} and at most 1`);
@@ -84,6 +91,67 @@ function pageType(path, lang) {
   return segments.length > 1 ? segments[0] : 'page';
 }
 
+/**
+ * Title and H1 pattern check (SEO-006). Writes a report and returns the exit
+ * code: 1 when any two indexable pages of one language and page type share a
+ * title pattern, H1 pattern and subject; 0 otherwise.
+ */
+function runPatternCheck(pages, stats) {
+  const dirs = (dir) => readdirSync(join(CONTENT, dir), { withFileTypes: true });
+  const ctx = {
+    guideSections: new Set(dirs('guides').filter((d) => d.isDirectory()).map((d) => d.name)),
+    hubSlugs: new Set(dirs('hubs').filter((d) => d.name.endsWith('.md')).map((d) => d.name.slice(0, -3))),
+  };
+  const entries = pages.map((p) => ({
+    id: p.path,
+    lang: p.lang,
+    type: pageTypeOf(p.path, p.lang, ctx),
+    title: p.title,
+    h1: p.h1,
+    subject: p.subject,
+  }));
+  const skipped = entries.filter((e) => !e.title.trim() || !e.h1.trim()).length;
+  const groups = patternCollisions(entries);
+  const typeCounts = new Map();
+  for (const e of entries) typeCounts.set(e.type, (typeCounts.get(e.type) ?? 0) + 1);
+  const groupedPages = groups.reduce((n, g) => n + g.ids.length, 0);
+
+  const reportFile = args.report ?? join(dirname(DEFAULT_REPORT), 'title-pattern-report.txt');
+  const lines = [
+    'Title and H1 pattern check (SEO-006)',
+    `Generated: ${new Date().toISOString()}`,
+    `Build: ${DIST}`,
+    'Rule: two indexable pages of the same language and page type fail when their title and H1, with the page subject',
+    '  (the current breadcrumb) replaced by a placeholder and whitespace and case normalised, are identical AND the subject is identical.',
+    'Site suffix " | Creative Activities" is removed from titles first. Pages without a title or H1 are skipped.',
+    '',
+    `Indexable pages compared: ${entries.length - skipped} (skipped without title or H1: ${skipped}; of ${stats.total} files in dist)`,
+    'Pages by type: ' + [...typeCounts.entries()].sort((a, b) => b[1] - a[1]).map(([t, n]) => `${t} ${n}`).join(', '),
+    `Collision groups: ${groups.length} (${groupedPages} pages)`,
+    '',
+  ];
+  for (const g of groups) {
+    lines.push(`[${g.lang}/${g.type}] x${g.ids.length}  subject "${g.subject}"`);
+    lines.push(`    title pattern: ${g.titlePattern}`);
+    lines.push(`    H1 pattern:    ${g.h1Pattern}`);
+    for (const id of g.ids) lines.push(`    ${id}`);
+  }
+  mkdirSync(dirname(reportFile), { recursive: true });
+  writeFileSync(reportFile, lines.join('\n') + '\n');
+
+  console.log(`Title and H1 pattern check: ${entries.length - skipped} indexable pages; ${groups.length} collision groups (${groupedPages} pages).`);
+  console.log(`Pages by type: ${[...typeCounts.entries()].map(([t, n]) => `${t} ${n}`).join(', ')}`);
+  for (const g of groups.slice(0, 20)) {
+    console.log(`  [${g.lang}/${g.type}] "${g.subject}" x${g.ids.length}: ${g.ids.join(' , ')}`);
+  }
+  console.log(`Full report: ${reportFile}`);
+  if (groups.length > 0) {
+    console.error(`--patterns: ${groups.length} collision groups need a fix (same type, title pattern, H1 pattern and subject).`);
+    return 1;
+  }
+  return 0;
+}
+
 const started = performance.now();
 const files = listPages(DIST);
 const stats = { total: files.length, noindex: 0, nonCanonical: 0, indexable: 0, noTitle: 0 };
@@ -109,9 +177,24 @@ for (const file of files) {
   const description = decode(html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '').trim();
   const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '';
   const body = plain(main);
+  const crumb = breadcrumbCurrent(html);
   if (!title) stats.noTitle++;
   stats.indexable++;
-  pages.push({ path, lang, type: pageType(path, lang), title, h1, description, body });
+  pages.push({
+    path,
+    lang,
+    type: pageType(path, lang),
+    title,
+    h1,
+    description,
+    body,
+    subject: crumb === undefined ? undefined : decode(crumb),
+  });
+}
+
+if (patternsOnly) {
+  const code = runPatternCheck(pages, stats);
+  process.exit(code);
 }
 
 const byLang = new Map();

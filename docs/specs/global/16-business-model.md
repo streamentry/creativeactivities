@@ -239,6 +239,7 @@ Acceptance:
 - Compliance review by counsel before any child-directed paid product is sold.
 Depends on: [trust, safety, accessibility and privacy](14-trust-safety-accessibility-privacy.md).
 Risks / not doing: paid kids' subscription boxes. Not in scope; [R2 §2] shows the price opacity this category often has.
+Status note (2026-11-22): guard added. `site/scripts/child-purchase-rules.mjs` holds the patterns; `check-site` checks every `/kids/` page in `dist/` (English and translated) and `site/src/lib/child-purchase.test.ts` checks the kids sources, the components and layouts they render, and the shared UI strings. Built site: 0 hits. Open: translated wording is not matched by the English patterns; the App Store and Google Play download buttons on kids pages are free-app links, not purchase links, so they are not flagged; counsel review (acceptance) not done.
 
 ---
 

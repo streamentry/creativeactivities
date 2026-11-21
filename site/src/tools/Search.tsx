@@ -66,6 +66,12 @@ export function Search() {
           <p>No page matches every word. These are the closest matches ({result.count}).</p>
         ) : null}
         {result && result.match === 'all' ? <p>{result.count} {result.count === 1 ? 'result' : 'results'}.</p> : null}
+        {result && result.count > 0 && result.finder ? (
+          <p>
+            No activity card or situation matches these words. The results are games and guides. <a href="/activity/">Use the activity finder</a> to
+            look by time, materials and setting.
+          </p>
+        ) : null}
       </div>
 
       {result &&

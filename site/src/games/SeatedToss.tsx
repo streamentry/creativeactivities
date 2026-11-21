@@ -26,6 +26,13 @@ export default function SeatedToss(props: PlayProps) {
       lang={lang}
       guidance={ui.seatedToss.guidance}
       readAloudText={ui.seatedToss.guidance}
+      place={{
+        slug: 'seated-toss',
+        // Nothing is kept: the tally is on paper and the page is the same on every visit.
+        save: () => ({}),
+        check: () => false,
+        restore: () => undefined,
+      }}
       footer={
         <div className="btn-row btn-row--center">
           <button

@@ -21,6 +21,36 @@ const MOVES: Record<string, [number, number]> = {
 
 const WORDS_FOR: Record<number, number> = { 6: 4, 8: 6 };
 
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+const isIndex = (v: unknown, size: number): boolean => typeof v === 'number' && Number.isInteger(v) && v >= 0 && v < size;
+
+/**
+ * A saved board (WEB-054) is kept only when its theme and size are ones this screen offers, its grid is square with
+ * one letter per cell, every placed word lies inside it, and every word found is a word on that grid.
+ */
+function checkBoard(b: unknown, themeValues: readonly string[], sizes: readonly number[]): boolean {
+  if (!isRecord(b) || typeof b.theme !== 'string' || !themeValues.includes(b.theme)) return false;
+  const grid = b.grid;
+  if (!isRecord(grid) || typeof grid.size !== 'number' || !sizes.includes(grid.size) || b.size !== grid.size) return false;
+  const size = grid.size;
+  const cells = grid.cells;
+  const words = grid.words;
+  const found = b.found;
+  if (!Array.isArray(cells) || !Array.isArray(words) || !Array.isArray(found)) return false;
+  if (cells.length !== size || words.length < 1) return false;
+  const squareOk = cells.every(
+    (row) => Array.isArray(row) && row.length === size && row.every((ch) => typeof ch === 'string' && ch.length > 0 && ch.length <= 8),
+  );
+  if (!squareOk) return false;
+  const placedOk = words.every(
+    (w) => isRecord(w) && typeof w.word === 'string' && w.word.length > 0 && isIndex(w.row, size) && isIndex(w.col, size) && (w.dir === 'across' || w.dir === 'down'),
+  );
+  if (!placedOk) return false;
+  const listed = words.map((w) => (w as { word: string }).word);
+  if (new Set(listed).size !== listed.length) return false;
+  return found.every((f) => typeof f === 'string' && listed.includes(f));
+}
+
 export default function WordSearch(props: PlayProps) {
   if (!props.content.wordSearch.available) {
     return <p className="notice">{props.ui.wordSearch.unavailable}</p>;
@@ -41,11 +71,23 @@ function WordSearchGame(props: PlayProps) {
   // One tab stop for the grid; arrow keys move between letters.
   const [cursor, setCursor] = useState<[number, number]>([0, 0]);
   const cells = useRef(new Map<string, HTMLButtonElement>());
+  // WEB-054: a board carried back by Carry on is put back by the effect below, not drawn anew.
+  const pending = useRef<{ grid: WordGrid; found: string[] } | null>(null);
   // 8 by 8 letters only stay 48px or larger on wider screens.
   const wide = useWide(560);
   const effectiveSize = wide ? size : 6;
 
   useEffect(() => {
+    const saved = pending.current;
+    pending.current = null;
+    if (saved) {
+      setGrid(saved.grid);
+      setFound(saved.found);
+      setStart(null);
+      setCursor([0, 0]);
+      setMessage('');
+      return;
+    }
     const t = themes.find((w) => w.value === theme) ?? themes[0]!;
     const rng = createRng(randomSeed());
     const words = sample(t.words, WORDS_FOR[effectiveSize] ?? 4, rng);
@@ -57,6 +99,16 @@ function WordSearchGame(props: PlayProps) {
   }, [theme, effectiveSize, round, themes, content.wordSearch.fill, lang]);
 
   if (!grid) return null;
+
+  const restoreBoard = (b: unknown) => {
+    if (!isRecord(b)) return;
+    const saved = b as { theme: string; size: number; grid: WordGrid; found: string[] };
+    pending.current = { grid: saved.grid, found: [...saved.found] };
+    setTheme(saved.theme);
+    setSize(saved.size);
+    setRound((n) => n + 1);
+    setMessage('');
+  };
 
   const foundCells = new Set(
     grid.words.filter((w) => found.includes(w.word)).flatMap((w) => cellsOf(w).map(([r, c]) => `${r}-${c}`)),
@@ -118,6 +170,7 @@ function WordSearchGame(props: PlayProps) {
         ui={ui}
         lang={lang}
         guidance={ui.wordSearch.guidance}
+        place={{ slug: 'word-search', save: () => ({ theme, size: grid.size, grid, found }), check: (b) => checkBoard(b, themes.map((t) => t.value), wide ? SIZES : [6]), restore: restoreBoard }}
         readAloudText={
           message ||
           (allFound

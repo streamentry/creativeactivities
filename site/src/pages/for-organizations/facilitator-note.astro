@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import '../../styles/partner-sheets.css';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+import { PAUSE_LINE, SCOPE_LINE } from '../../lib/scope';
+
+const crumbs = [
+  { href: '/for-organizations/', label: 'For organizations' },
+  { href: '/for-organizations/facilitator-note/', label: 'Facilitator note' },
+];
+---
+<BaseLayout
+  title="Facilitator note"
+  description="A short note a facilitator reads to the group at the start of a creative activity: what to expect, that anyone may watch or stop, and that nothing is graded."
+  jsonLd={[breadcrumbs(crumbs)]}
+  canonicalPath="/for-organizations/facilitator-note/"
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container partner-sheets">
+    <header class="partner-sheets__intro no-print">
+      <p class="eyebrow">For facilitators</p>
+      <h1>Facilitator note</h1>
+      <p class="lede">A short note to read to the group at the start of an intergenerational or family activity. Read it in your own words if that suits the group better.</p>
+      <p>Print this page. It prints on one sheet on A4 or US Letter.</p>
+      <p>Tell us how it went: <a href={`mailto:${SITE.supportEmail}?subject=Partner%20sheet%20feedback`}>{SITE.supportEmail}</a>.</p>
+      <p>{SCOPE_LINE}</p>
+    </header>
+
+    <article class="partner-sheet" aria-labelledby="facilitator-sheet">
+      <p class="partner-sheet__kicker">Facilitator note</p>
+      <h2 id="facilitator-sheet">Before we start</h2>
+
+      <p>We are going to make something together today. There is no right way to do it, and nothing needs to look a particular way.</p>
+      <p>You can join in fully, join in a little, or just watch. Anyone may step away at any time. It is fine to stop.</p>
+      <p>There is no clock and no points. Nobody is asked to remember anything or to finish.</p>
+      <p>If you would like a break, or a different job, say so and we will sort it out.</p>
+      <p>Younger and older people can join in together. Keep an adult nearby for anyone who needs help.</p>
+
+      <div class="partner-sheet__field">Today we are doing:</div>
+      <div class="partner-sheet__field">Facilitator name:</div>
+      <div class="partner-sheet__field">Date:</div>
+
+      <p><strong>Stop rule:</strong> {PAUSE_LINE}</p>
+      <p class="partner-sheet__foot">Taking part is always a choice. Adaptations are suggestions, not medical advice.</p>
+    </article>
+  </div>
+</BaseLayout>

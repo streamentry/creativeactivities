@@ -10,6 +10,8 @@ import ActivityCard from '../components/ActivityCard.astro';
 import GuideCard from '../components/GuideCard.astro';
 import { PILLARS } from '../data/pillars';
 import { DescribeSituation } from '../tools/DescribeSituation';
+import { SavedCollections } from '../tools/SavedCollections';
+import '../styles/saved-collections.css';
 import { breadcrumbs, itemList } from '../lib/schema';
 import { FINDER_SETTINGS } from '../lib/finder-state';
 import { lowerEffortPick, lowerEffortReasons, type EffortFacts } from '../lib/lower-effort';
@@ -101,6 +103,8 @@ const lowerStatic = (() => {
       <p class="muted">Kept on this device only. Clearing this site's data removes them.</p>
       <ul class="activity-list" id="saved-list"></ul>
     </section>
+
+    <SavedCollections client:load catalog={activities.map((a) => ({ id: a.id, name: a.data.name }))} />
 
     <DescribeSituation client:load />
 

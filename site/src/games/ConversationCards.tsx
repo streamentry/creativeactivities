@@ -11,6 +11,27 @@ import { Icon } from './shared/Icon';
 import { pictureNamer } from './shared/PictureTile';
 import { sounds } from './shared/sound';
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+interface SavedTalk {
+  theme: TalkTheme | 'all';
+  seed: number;
+  index: number;
+  showPrompt: boolean;
+  big: boolean;
+}
+
+/** The saved deck position, or null unless every field is present and in range. */
+function parseTalk(b: unknown): SavedTalk | null {
+  if (!isRecord(b)) return null;
+  const { theme, seed, index, showPrompt, big } = b;
+  if (!(TALK_THEME_ORDER as readonly unknown[]).includes(theme)) return null;
+  if (typeof seed !== 'number' || !Number.isSafeInteger(seed)) return null;
+  if (typeof index !== 'number' || !Number.isSafeInteger(index) || index < 0) return null;
+  if (typeof showPrompt !== 'boolean' || typeof big !== 'boolean') return null;
+  return { theme: theme as TalkTheme | 'all', seed, index, showPrompt, big };
+}
+
 export default function ConversationCards(props: PlayProps) {
   const { ui, lang, content } = props;
   const { cards, themes } = content.conversation;
@@ -27,7 +48,12 @@ export default function ConversationCards(props: PlayProps) {
     () => shuffle(theme === 'all' ? cards : cards.filter((c) => c.theme === theme), createRng(seed)),
     [theme, seed, cards],
   );
-  useEffect(() => setIndex(0), [theme]);
+  // A new theme starts at its first card. This runs in the change handler, not an effect, so a restored position is kept.
+  const changeTheme = (next: TalkTheme | 'all') => {
+    if (next === theme) return;
+    setTheme(next);
+    setIndex(0);
+  };
   const card = deck[index % deck.length];
   if (!card) return null;
   const promptPresentation = conversationPromptPresentation(showPrompt, card.prompt, ui.conversationCards.guidance);
@@ -44,7 +70,7 @@ export default function ConversationCards(props: PlayProps) {
         message={fill(ui.conversationCards.position, { n: (index % deck.length) + 1, total: deck.length })}
         options={
           <>
-            <ChoiceChips legend={ui.conversationCards.themeLegend} choices={themeChoices} value={theme} onChange={setTheme} />
+            <ChoiceChips legend={ui.conversationCards.themeLegend} choices={themeChoices} value={theme} onChange={changeTheme} />
             <label className="chip conversation-cards__prompt-toggle">
               <input
                 type="checkbox"
@@ -113,6 +139,20 @@ export default function ConversationCards(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'conversation-cards',
+          save: () => ({ theme, seed, index, showPrompt, big }),
+          check: (b) => parseTalk(b) !== null,
+          restore: (b) => {
+            const saved = parseTalk(b);
+            if (!saved) return;
+            setTheme(saved.theme);
+            setSeed(saved.seed);
+            setIndex(saved.index);
+            setShowPrompt(saved.showPrompt);
+            setBig(saved.big);
+          },
+        }}
       >
         <article className={big ? 'talk-card talk-card--big' : 'talk-card'}>
           <img src={pictureUrl(card.picture)} alt={pictureName(card.picture)} width={220} height={220} />

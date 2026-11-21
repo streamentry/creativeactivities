@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import '../../../styles/made-list.css';
+import { getCollection } from 'astro:content';
+import { MadeList } from '../../../tools/MadeList';
+import { listedActivities } from '../../../lib/activities';
+import { breadcrumbs } from '../../../lib/schema';
+
+const crumbs = [
+  { href: '/made/', label: 'My made list' },
+  { href: '/made/print/', label: 'Printable list' },
+];
+const names = Object.fromEntries(
+  listedActivities(await getCollection('activityCards')).map((a) => [a.id, a.data.name]),
+);
+---
+<BaseLayout
+  title="My made list: printable"
+  description="A printable list of the activities you tried, with your private notes. Made in your browser; nothing is sent."
+  jsonLd={[breadcrumbs(crumbs)]}
+  canonicalPath="/made/print/"
+  noindex
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container">
+    <header class="no-print">
+      <p class="lede">This is your list from this browser, ready to print. <a href="/made/">Back to My made list</a>.</p>
+    </header>
+    <article aria-label="My made list">
+      <h1>My made list</h1>
+      <MadeList client:load names={names} printable />
+    </article>
+  </div>
+</BaseLayout>

@@ -173,7 +173,7 @@ import { SITE_STORES } from '../lib/your-data';
   });
 
   document.querySelector('[data-action="delete-all"]')?.addEventListener('click', () => {
-    if (!window.confirm('Delete everything the site keeps in this browser? Saved activities, notes and choices will be removed. This cannot be undone.')) return;
+    if (!window.confirm('Delete everything the site keeps in this browser? Saved activities, collections, notes and choices will be removed. This cannot be undone.')) return;
     const { removed, failed } = removeAll(browserStorage(), expireCookie);
     refresh();
     say(
