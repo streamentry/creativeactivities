@@ -521,6 +521,8 @@ def number_tokens(text: str) -> list[str]:
     return sorted(values)
 
 
+# The numbers src/lib/translation-structure.ts treats as country facts (LOCALE_FACT_NUMBERS).
+LOCALE_FACT_NUMBERS = ('911', '112', '999', '119', '988')
 EMERGENCY_NUMBERS = {'000', '101', '102', '108', '110', '111', '112', '119', '190', '191', '192', '193', '911', '988', '995', '999'}
 
 
@@ -623,6 +625,12 @@ def guide_problems(src: str, out: str) -> str:
     from collections import Counter
     na = Counter(visible_number_tokens(ba + '\n' + frontmatter_prose(fa)))
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
+    # Emergency and crisis numbers are country facts: "911" may become the reader's "112", as the
+    # site's structure test allows (LOCALE_FACT_NUMBERS), but none may be added or dropped.
+    la = sum(na.pop(n, 0) for n in LOCALE_FACT_NUMBERS)
+    lb = sum(nb.pop(n, 0) for n in LOCALE_FACT_NUMBERS)
+    if la != lb:
+        errs.append(f'emergency numbers: English has {la}, the translation has {lb}; swap one for the local number, never add or drop')
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
     # Lengths the guidesI18n schema in src/content.config.ts allows (JavaScript string length: UTF-16 units).
