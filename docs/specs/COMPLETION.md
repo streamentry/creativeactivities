@@ -545,17 +545,17 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 <!-- cspell:ignore démence apparentées cognitifs maladie maladies troubles الخرف الزهايمر -->
 ## Decisions only the maintainer can make
 
-The maintainer asked on 2026-11-21 for the suggested option to be chosen for every open decision. These two remain because only the maintainer can act on them:
+The maintainer asked on 2026-11-21 for the suggested option to be chosen for every open decision. This one remains because only the maintainer can act on it:
 
 | Decision | Unblocks | Options | Suggested |
 | --- | --- | --- | --- |
-| Hosting plan | Any page type that exists in every language (each adds about 189 files); PLAT-015 | Stay on the Cloudflare Free plan (20,000 files per version; 18,923 in use after the re-translation in #112, 94.6%, about 1,077 files of headroom) or move to Paid (100,000) | Move to Paid before adding another all-language page type; until then add new page types for English only |
 | Google console settings (the five steps in [analytics-consent.md](global/analytics-consent.md)) | TSA-014, MET-037 | Do the five steps (enhanced measurement off, Google signals off, 2-month retention, container triggers removed, a check in a clean browser profile) or leave them | Do all five; they match DESIGN.md |
 
 ### Decided on 2026-11-21 (the suggested option, by the maintainer's instruction)
 
 | Decision | Chosen | Status |
 | --- | --- | --- |
+| Hosting plan | Workers Paid (100,000 files per version) | Already in place: the account is on Paid (dashboard checked 2026-11-21); `check:capacity` now uses the Paid limit, so the site is at about 19%, not 95% |
 | Indexing the weakest seven expansion languages: Hausa, Amharic, Burmese, Pashto, Sindhi, Somali, Oromo (L10N-033) | Keep them out of the search index until a native reviewer has checked each | Done in batch 62: added to `HELD_FROM_INDEX` |
 | Crawlers for AI products (SEO-035) | Allow search crawlers, disallow AI-training crawlers; never block Googlebot or Bingbot | Done in batch 62: `robots.txt` generated from a list |
 | AI-assistance disclosure and the `aiAssisted` flag (CNT-032) | Adopt the rule and the one-line disclosure | Waits on counsel to confirm the wording before it ships |
