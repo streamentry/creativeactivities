@@ -89,7 +89,7 @@ Hoạt động giác quan phù hợp với người lớn ở nhiều giai đo�
 
 ## Làm việc này với người lớn tuổi hoặc người sống với sa sút trí tuệ
 
-Hoạt động giác quan có ý nghĩa nhất trong giai đoạn sau của sa sút trí tuệ. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) cho biết ở giai đoạn này, người bệnh chủ yếu trải nghiệm thế giới qua các giác quan, và bạn có thể thể hiện sự quan tâm qua xúc giác, thính giác, thị giác, vị giác và khứu giác. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) gợi ý rằng các hoạt động ở giai đoạn sau thường tập trung vào giác quan, chẳng hạn chơi nhạc, cầm nắm đồ vật và xoa tay.
+Hoạt động giác quan có ý nghĩa nhất trong giai đoạn sau của sa sút trí tuệ. [Alzheimer's Association](https://www.alz.org/help-support/caregiving/stages-behaviors/late-stage) cho biết ở giai đoạn này, người bạn chăm sóc chủ yếu trải nghiệm thế giới qua các giác quan, và bạn có thể thể hiện sự quan tâm qua xúc giác, thính giác, thị giác, vị giác và khứu giác. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) gợi ý rằng các hoạt động ở giai đoạn sau thường tập trung vào giác quan, chẳng hạn chơi nhạc, cầm nắm đồ vật và xoa tay.
 
 Hãy tiếp cận từ phía trước, gọi tên người bạn chăm sóc, và hỏi hoặc báo cho họ trước khi chạm vào: “Tôi có chút kem dưỡng đây. Bác có muốn xoa tay không?” Mỗi lần chỉ đưa ra một điều. Quan sát khi khuôn mặt dịu lại, bàn tay thả lỏng hoặc khi họ mỉm cười. Nếu họ rụt tay lại, nhíu mày hoặc bồn chồn, hãy dừng lại. Giữ buổi hoạt động khoảng năm phút nhẹ nhàng.
 

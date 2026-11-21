@@ -95,7 +95,7 @@ Một số phản ứng tự nhiên có thể làm mọi thứ tệ hơn.
 
 - **Tranh cãi hoặc ép buộc.** “Thôi nào, làm thêm một lần nữa” hay “Bạn thích việc này mà” hiếm khi giúp ích.
 - **Hỏi dồn hoặc sửa lỗi.** “Bạn biết cái này là gì mà” hay “Không, cái đó sai rồi” chỉ tạo thêm áp lực.
-- **Nhận mọi việc về mình.** NIA nhắc người chăm sóc rằng chính bệnh gây ra những thay đổi này, chứ không phải người bệnh.
+- **Nhận mọi việc về mình.** NIA nhắc người chăm sóc rằng chính bệnh gây ra những thay đổi này, chứ không phải người bạn chăm sóc.
 - **Dồn ép hoặc vội vàng.** Alzheimer's Association khuyên không nên lớn tiếng, tỏ ra hoảng hốt, dồn vào góc, chen lấn, giữ lại, chỉ trích, phớt lờ hoặc tranh cãi với người đó, và tránh các cử động đột ngột ngoài tầm nhìn của họ.
 - **Dùng sự áy náy.** “Tôi đã chuẩn bị tất cả những thứ này cho bạn” khiến cả hai cảm thấy tệ hơn.
 - **Gán nhãn.** “Bướng bỉnh” hay “khó chiều” che giấu lý do thật và làm việc giải quyết khó hơn.
