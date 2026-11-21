@@ -159,7 +159,7 @@ function activityOf(card: CardInput, options: BundleOptions): BundleActivity {
     safety: [...d.safety],
     stopNote: d.stopNote,
     variations: d.variations.map((v) => ({ kind: v.kind, text: v.text })),
-    pictures: d.images.map((image) => image.src),
+    pictures: (d.images ?? []).map((image) => image.src),
     review: reviewOf(d.review),
     published: isoDay(d.published),
     updated: isoDay(d.updated),

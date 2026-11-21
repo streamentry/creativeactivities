@@ -54,6 +54,7 @@ export const CARD_NEEDS: Readonly<Record<string, CardNeeds>> = {
   'give-a-hand-massage': { needs: [['hand-cream'], ['towels']], optional: ['bowls-plates'] },
   'hold-a-sing-along-at-home': { needs: [], optional: ['music-device'] },
   'look-through-a-photo-album': { needs: [['photos'], ['paper-towels'], ['cups-jars']] },
+  'make-a-beaded-keyring': { needs: [['beads'], ['string-ribbon'], ['keyring'], ['scissors'], ['tape'], ['tray-board']] },
   'make-a-button-picture': {
     needs: [['buttons'], ['thick-card'], ['craft-glue'], ['pencil'], ['bowls-plates', 'tray-board']],
   },
@@ -144,6 +145,9 @@ export const CARD_NEEDS: Readonly<Record<string, CardNeeds>> = {
   'print-with-sponge-shapes': {
     needs: [['sponge'], ['paint'], ['bowls-plates'], ['thick-card'], COVER, ['paper-towels'], ['scissors']],
   },
+  'roll-paper-beads': {
+    needs: [['magazines', 'colored-paper'], ['glue-stick'], ['pencil', 'straw'], ['scissors'], ['string-ribbon'], ['tray-board']],
+  },
   'shape-a-pinch-pot': {
     needs: [['clay'], ['plastic-cloth'], ['wet-wipes', 'sponge'], ['bowls-plates'], ['tray-board']],
   },
@@ -155,6 +159,7 @@ export const CARD_NEEDS: Readonly<Record<string, CardNeeds>> = {
     optional: ['envelope', 'magazines'],
   },
   'tap-a-rhythm-together': { needs: [['music-device']], optional: ['tray-board', 'towels'] },
+  'thread-a-large-bead-bracelet': { needs: [['beads'], ['elastic-cord'], ['tape'], ['scissors'], ['tray-board']] },
   'tear-paper-mosaic': {
     needs: [['colored-paper', 'magazines', 'wrapping-paper'], ['thick-card'], ['glue-stick'], ['pencil'], ['bowls-plates']],
   },
