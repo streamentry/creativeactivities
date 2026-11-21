@@ -1,6 +1,6 @@
 ---
 title: "Boyama Sayfaları: Yetişkinler için Tasarım ve Araç Seçimi"
-seoTitle: "Yetişkinler için Boyama Sayfaları: Tasarımlar, Araçlar ve Yazdırılabilir Resimler"
+seoTitle: "Yetişkinler için Boyama Sayfaları: Tasarım, Araçlar ve Yazdırılabilir Resimler"
 description: "Yetişkinler için boyama: büyük ve kalın çizgili tasarımları nasıl seçeceğiniz, hangi araçları kullanacağınız, ücretsiz resimleri nereden yazdıracağınız ve kağıtta ya da tablette birlikte nasıl boyayacağınız."
 section: crafts
 order: 40
