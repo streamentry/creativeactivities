@@ -501,6 +501,9 @@ Evidence (2026-11-19): `pnpm content:bundle` writes `site/content-bundle/content
 
 ### PLAT-036 · Performance budgets gated in CI
 Priority P0 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21): `pnpm check:lab-timing` measures LCP, CLS and total blocking time for eight templates at four widths, under 4x CPU and slow 4G throttling, median of three loads (about 6 minutes). It found layout shift of about 0.38 at 320 px on the home page, cards, finder, games and games index, caused by the consent bar; see WEB-074. Not in CI; field data needs analytics.
+
 Why: DESIGN §7 sets LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 at the 75th percentile as engineering targets. The web performance rules (`rules/web/performance.md`) set JavaScript and CSS budgets by page type: landing 150 kB and 30 kB, app pages 300 kB and 50 kB, microsites 80 kB and 15 kB, all gzipped for JavaScript.
 What: CI measures bundle and CSS size for each template (activity, hub, finder, games, print), and runs Lighthouse CI on representative pages at four widths. A regression past budget fails the build.
 Acceptance:

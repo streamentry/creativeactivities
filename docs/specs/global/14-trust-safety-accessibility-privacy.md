@@ -89,6 +89,8 @@ Risks / not doing: Do not hide a control behind hover.
 ### TSA-005 · Color, contrast and text alternatives
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21, later): the contrast scan now covers 118 rules (21 token pairs) after the large-print colors moved to `--gm-` tokens and the toss sheet's text to the print-tile ink; pure black and white inside the high-contrast mode stay on purpose and are checked as literal pairs (21:1). System colors in forced-colors mode are left to the browser. Alt text quality needs a person.
+
 Status note (2026-11-21): `theme-contrast-scan.test.ts` finds every rule that sets a token text color on a token background (95 rules, 16 pairs) and checks them in light, dark and both high-contrast themes; all pass, the lowest at 7.05:1. 29 rules use a color outside the tokens and cannot be checked this way; moving them to tokens is the next step. Alt text quality needs a person.
 
 Evidence: axe color-contrast runs on every page at each variant. Not done: a contrast report for every token pair, and alt text review for every instructional image.
@@ -140,6 +142,8 @@ Risks / not doing: Do not claim full conformance without a test record.
 
 ### TSA-008 · Plain-language standard
 Priority P1 · Phase S2 · Status partial · Pillars: all
+
+Status note (2026-11-21, later): the five steps of 25 words or more (three cards) and the eight hub sentences of 30 words or more are shortened; those cards are at version 2 with a change note. The 38 steps that pair an action with a short reassurance ("Any choice is fine.") are kept as two short sentences: joining them made sentences longer, and the spec asks for short sentences. The editor's checklist on every card is a person's work.
 
 Evidence (2026-11-17): `pnpm review:plain` (`site/scripts/plain-language.mjs` and `plain-language-lib.mjs`) reads the steps of all 53 cards (413 steps) and the sentences of the 14 hubs, and lists what an editor may want to look at: 5 steps of 25 words or more, 40 steps of more than one sentence and 8 hub sentences of 30 words or more. It prints the mean reading grade of a step (4.4) as a prompt and not as a score target. The rule in the acceptance, that no step joins two actions with "and then", is a test in `site/src/lib/plain-language.test.ts`: none (the literal words only: about 33 steps chain actions with ", then" and are not caught) does ("now and then" means "sometimes" and is let through), and the same test stops any step from passing 60 words between reviews. Not done: the editor's checklist on every activity and hub, which is a person's work; the five long steps and the long hub sentences have not been looked at; "one action per step" cannot be checked by a program, so the tool only points at steps of several sentences; and the counts and the word rules are for English only.
 

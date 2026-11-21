@@ -498,6 +498,8 @@ Risks / not doing: Do not pitch the 11 prospects again without a new gap.
 ### SEO-028 · Core Web Vitals and performance budgets
 Priority P1 · Phase S2 · Status partial · Pillars: all
 
+Status note (2026-11-21): a lab report (`pnpm check:lab-timing`) covers LCP, CLS and blocking time per template and width; the consent bar's layout shift it found is being fixed. Field data needs the analytics decision.
+
 Why: Mobile and low-bandwidth users are the primary audience [DESIGN.md §6, §7].
 
 What: Track field data at the 75th percentile: LCP at or under 2.5 s, INP at or under 200 ms, CLS at or under 0.1 [DESIGN §7; SEO.md §6.1]. Set JavaScript and CSS budgets per page type from the web performance rules (user's global rules, `web/performance.md`). Confirm which budget applies to activity pages, since the budgets differ by page type.

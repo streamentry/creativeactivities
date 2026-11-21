@@ -521,6 +521,15 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Review records can carry a content hash; `pnpm review:drift` | PLAT-005 partial | Built by a Haiku subagent; review added a test that the hash and the version rule cover the same fields |
 | A contrast scan of every token text-on-background rule in four themes | TSA-005 partial | Built by a Haiku subagent; 95 rules pass; 29 rules use colors outside the tokens, the next thing to fix |
 
+### Batch 60 (2026-11-21): token colors, a lab timing report, a monthly puzzle pack and shorter steps
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| Non-token colors moved to `--gm-` tokens where they belong; the contrast scan covers 118 rules | TSA-005 partial | Built by a Haiku subagent; black and white kept in the high-contrast mode on purpose; one visible change (the toss sheet text uses the print-tile ink) |
+| `pnpm check:lab-timing`: LCP, CLS and blocking time per template and width under throttling | PLAT-036, WEB-074, SEO-028 partial | Built by a Haiku subagent; it found the consent bar shifting the page by about 0.38 at 320 px on five templates (target 0.1) |
+| Seasonal puzzle pack chooses a month, opening on the current month | GAME-040 partial | Built by a Haiku subagent; seven everyday pictures per month, no festivals; three months lean on northern images (marked) |
+| Long steps and hub sentences shortened | TSA-008 partial | Built by a Haiku subagent, which also joined 40 short step pairs with "since"; review restored 26 cards (longer sentences, one changed meaning) and kept three cards' real fixes at version 2 |
+
 ## What blocks the rest
 
 | Group | Blocker | Who |
