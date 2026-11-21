@@ -141,12 +141,9 @@ export function search(prepared: readonly Prepared[], question: string, perKind 
   const chosen = full.length > 0 ? full : scored;
   const match: SearchResult['match'] = full.length > 0 ? 'all' : scored.length > 0 ? 'some' : 'none';
 
-  // WEB-003: every answer leads to a card or situation where one can be found. A guide that no card or situation
-  // is beside is left out when it would be alone, so no guide shows by itself.
-  const answer = withCardOrSituation(prepared, scored, chosen);
-  const shown = answer.some(isCardOrSituation) ? answer : answer.filter((h) => h.entry.kind !== 'guide');
-  if (shown.length === 0) return { match: 'none', groups: [], count: 0, finder: true };
-  return groupHits(shown, perKind, match);
+  // WEB-003: every answer leads to a card or situation where one can be found. When none can be found, the
+  // matching guides and games still show, and `finder` makes the page offer the activity finder beside them.
+  return groupHits(withCardOrSituation(prepared, scored, chosen), perKind, match);
 }
 
 const isCardOrSituation = (h: Scored): boolean => h.entry.kind === 'activity' || h.entry.kind === 'hub';

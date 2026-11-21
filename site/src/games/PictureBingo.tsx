@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { PICTURES, pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill, plural } from '../i18n/play/format';
@@ -62,9 +62,14 @@ export default function PictureBingo(props: PlayProps) {
   const pictureName = pictureNamer(props);
   const [squares, setSquares] = useState<number>(9);
   const [players, setPlayers] = useState<number>(8);
-  const [cards, setCards] = useState<string[][]>(() => createBingoCards(POOL, 9, 8, createRng(randomSeed())));
+  // Dealt after the page loads, so the server and the browser render the same empty board first.
+  const [cards, setCards] = useState<string[][]>([]);
   const [calls, setCalls] = useState<string[]>(() => createCallOrder(POOL, createRng(randomSeed())));
   const [called, setCalled] = useState(0);
+
+  useEffect(() => {
+    setCards((dealt) => (dealt.length > 0 ? dealt : createBingoCards(POOL, 9, 8, createRng(randomSeed()))));
+  }, []);
 
   // New cards are dealt in the change handlers, not an effect, so a restored board keeps its own cards.
   const chooseSquares = (n: number) => {

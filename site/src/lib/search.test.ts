@@ -282,9 +282,15 @@ describe('a guide-only match (WEB-003)', () => {
     expect(shown.map((e) => e.url)).toContain('/activity/paint-with-watercolors/');
   });
 
-  // WEB-003: a guide that no card or situation links to does not appear alone as a result.
-  it('does not show a guide that no card or situation links to when it would be the only answer', () => {
+  // WEB-003: a guide that no card or situation links to still shows, and the page offers the activity finder beside it.
+  it('keeps a guide that no card or situation links to, and offers the finder', () => {
     const r = search(prepare([card, orphanGuide]), 'rainy');
+    expect(hitsOf(r).map((e) => e.url)).toEqual(['/notes/rainy/']);
+    expect(r.finder).toBe(true);
+  });
+
+  it('says nothing matched and offers the finder when no page matches', () => {
+    const r = search(prepare([card, orphanGuide]), 'zeppelin');
     expect(hitsOf(r)).toEqual([]);
     expect(r.match).toBe('none');
     expect(r.finder).toBe(true);
@@ -295,14 +301,14 @@ describe('a guide-only match (WEB-003)', () => {
     expect(hitsOf(r).map((e) => e.url)).toEqual(['/activity/paint-with-watercolors/']);
   });
 
-  // WEB-003: no guide is shown without a card or situation beside it. Guides that no page links to
-  // (14 English guides on 2026-11-21) are left out when they would be alone; they do not count as answers.
-  it('never shows a guide alone, on the real pages', () => {
+  // WEB-003: on the real pages, a guide never shows without a way to an activity: a card or situation beside it,
+  // or the activity finder. Guides that no page links to (14 English guides on 2026-11-21) take the finder route.
+  it('never leaves a guide without a way to an activity, on the real pages', () => {
     for (const guide of real.filter((e) => e.kind === 'guide')) {
-      const shown = hitsOf(search(realIndex, guide.title));
-      if (shown.some((e) => e.kind === 'guide')) {
-        expect(shown.some((e) => e.kind === 'activity' || e.kind === 'hub'), guide.title).toBe(true);
-      }
+      const r = search(realIndex, guide.title);
+      const shown = hitsOf(r);
+      expect(shown.map((e) => e.url), guide.title).toContain(guide.url);
+      expect(shown.some((e) => e.kind === 'activity' || e.kind === 'hub') || r.finder, guide.title).toBe(true);
     }
   });
 });
