@@ -25,6 +25,28 @@ import { useWide } from './shared/useWide';
 /** A pause with the set still open before the hint names the theme. Never fired by a tap. */
 const HINT_AFTER_MS = 20_000;
 
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const TOGETHER_PICTURES: ReadonlySet<string> = new Set(TOGETHER_THEMES.flatMap((t) => [...t.pictures]));
+
+/** The saved board, or null when this game cannot show it. */
+function parseBoard(b: unknown): { count: number; state: OddState } | null {
+  if (!isRecord(b)) return null;
+  const { count, round, found, shown } = b;
+  if (typeof count !== 'number' || !(ODD_COUNTS as readonly number[]).includes(count) || typeof found !== 'boolean' || typeof shown !== 'boolean') return null;
+  if (!isRecord(round)) return null;
+  const { theme, odd, pictures } = round;
+  const pool = TOGETHER_THEMES.find((t) => t.id === theme);
+  if (!pool || typeof odd !== 'string' || pool.pictures.includes(odd) || !TOGETHER_PICTURES.has(odd)) return null;
+  if (!isIdList(pictures, (id) => id === odd || pool.pictures.includes(id))) return null;
+  if (pictures.length !== sharedSize(count) + 1 || !pictures.includes(odd)) return null;
+  return { count, state: { round: { theme: pool.id, odd, pictures: [...pictures] }, found, shown } };
+}
+
 const newState = (count: number, previous?: OddRound): OddState =>
   startOdd(createOddRound(count, createRng(randomSeed()), previous));
 
@@ -146,6 +168,19 @@ export default function OddOneOut(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'odd-one-out',
+        save: () => ({ count, state }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setCount(saved.count);
+          setState(saved.state);
+          setMessage('');
+          setHint(false);
+        },
+      }}
     >
       <p className="together__note" aria-live="polite">
         {done

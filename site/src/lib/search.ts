@@ -100,7 +100,14 @@ export interface SearchResult {
   readonly match: 'all' | 'some' | 'none';
   readonly groups: readonly { kind: SearchKind; hits: readonly SearchHit[] }[];
   readonly count: number;
+  /** WEB-003: true when no activity card or situation is in the answer, so the page offers the activity finder. */
+  readonly finder: boolean;
 }
+
+/** How many closest cards or situations are added when a question reaches only games or guides. */
+const NEAREST_CARDS = 5;
+
+type Scored = { entry: SearchEntry; matched: number; score: number };
 
 const WEIGHT = { title: 6, summary: 3, text: 1 } as const;
 
@@ -119,10 +126,10 @@ function wordScore(p: Prepared, alts: readonly string[]): number {
  */
 export function search(prepared: readonly Prepared[], question: string, perKind = 20): SearchResult {
   const asked = [...new Set(words(question))];
-  if (asked.length === 0) return { match: 'none', groups: [], count: 0 };
+  if (asked.length === 0) return { match: 'none', groups: [], count: 0, finder: true };
   const alts = asked.map(alternatives);
 
-  const scored = prepared
+  const scored: Scored[] = prepared
     .map((p) => {
       const perWord = alts.map((a) => wordScore(p, a));
       const matched = perWord.filter((s) => s > 0).length;
@@ -134,27 +141,34 @@ export function search(prepared: readonly Prepared[], question: string, perKind 
   const chosen = full.length > 0 ? full : scored;
   const match: SearchResult['match'] = full.length > 0 ? 'all' : scored.length > 0 ? 'some' : 'none';
 
-  // WEB-003: a question that reaches only guides still returns a card or situation the guide links to.
-  // When no card or situation is in the set, add the ones linked from the matched guides.
-  const guideHits = chosen.filter((h) => h.entry.kind === 'guide');
-  const hasCardOrHub = chosen.some((h) => h.entry.kind === 'activity' || h.entry.kind === 'hub');
-  if (guideHits.length > 0 && !hasCardOrHub) {
-    const linked = linkedFromGuides(prepared, guideHits);
-    if (linked.length > 0) return groupHits([...chosen, ...linked], perKind, match);
-    // No card or situation links to the matched guides: the guides are still the best answer, so they stay.
-    // Linking a card to each such guide is a content task (14 English guides had none on 2026-11-21).
-  }
-  return groupHits(chosen, perKind, match);
+  // WEB-003: every answer leads to a card or situation where one can be found. When none can be found, the
+  // matching guides and games still show, and `finder` makes the page offer the activity finder beside them.
+  return groupHits(withCardOrSituation(prepared, scored, chosen), perKind, match);
+}
+
+const isCardOrSituation = (h: Scored): boolean => h.entry.kind === 'activity' || h.entry.kind === 'hub';
+
+/**
+ * Adds cards and situations to an answer that has none: first those linked from its guides, then, if still none,
+ * the closest ones from the whole question (those sharing at least one word), at most NEAREST_CARDS.
+ */
+function withCardOrSituation(prepared: readonly Prepared[], scored: readonly Scored[], chosen: readonly Scored[]): Scored[] {
+  if (chosen.some(isCardOrSituation)) return [...chosen];
+  const linked = linkedFromGuides(prepared, chosen.filter((h) => h.entry.kind === 'guide'));
+  const withLinked = [...chosen, ...linked];
+  if (withLinked.some(isCardOrSituation)) return withLinked;
+  const nearest = scored
+    .filter(isCardOrSituation)
+    .sort((a, b) => b.matched - a.matched || b.score - a.score || a.entry.title.localeCompare(b.entry.title))
+    .slice(0, NEAREST_CARDS);
+  return [...withLinked, ...nearest];
 }
 
 /** The cards and situations linked from the matched guides, each once, with the guide's own match. */
-function linkedFromGuides(
-  prepared: readonly Prepared[],
-  guideHits: readonly { entry: SearchEntry; matched: number; score: number }[],
-): { entry: SearchEntry; matched: number; score: number }[] {
+function linkedFromGuides(prepared: readonly Prepared[], guideHits: readonly Scored[]): Scored[] {
   const byUrl = new Map(prepared.map((p) => [p.entry.url, p.entry] as const));
   const seen = new Set<string>();
-  const out: { entry: SearchEntry; matched: number; score: number }[] = [];
+  const out: Scored[] = [];
   for (const guide of guideHits) {
     for (const url of guide.entry.linked ?? []) {
       const target = byUrl.get(url);
@@ -166,11 +180,7 @@ function linkedFromGuides(
   return out;
 }
 
-function groupHits(
-  chosen: readonly { entry: SearchEntry; matched: number; score: number }[],
-  perKind: number,
-  match: SearchResult['match'],
-): SearchResult {
+function groupHits(chosen: readonly Scored[], perKind: number, match: SearchResult['match']): SearchResult {
   const groups = KIND_ORDER.map((kind) => ({
     kind,
     hits: chosen
@@ -180,5 +190,10 @@ function groupHits(
       .map(({ entry, score }) => ({ entry, score })),
   })).filter((g) => g.hits.length > 0);
 
-  return { match, groups, count: groups.reduce((n, g) => n + g.hits.length, 0) };
+  return {
+    match,
+    groups,
+    count: groups.reduce((n, g) => n + g.hits.length, 0),
+    finder: !chosen.some(isCardOrSituation),
+  };
 }

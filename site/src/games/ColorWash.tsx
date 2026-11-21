@@ -10,6 +10,8 @@ import {
   WASH_OPACITY,
   canPutBack,
   chooseColor,
+  isBrushSize,
+  isColor,
   chooseSize,
   freshPage,
   liftBrush,
@@ -27,6 +29,55 @@ import {
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** Limits on a saved page, so a damaged or oversized value is ignored rather than loaded. */
+const MAX_WASHES = 2000;
+const MAX_POINTS = 5000;
+
+function parsePoint(v: unknown): Point | null {
+  if (!isRecord(v)) return null;
+  const { x, y } = v;
+  if (typeof x !== 'number' || typeof y !== 'number' || !Number.isFinite(x) || !Number.isFinite(y)) return null;
+  if (x < 0 || x > PAGE_WIDTH || y < 0 || y > PAGE_HEIGHT) return null;
+  return { x, y };
+}
+
+function parseWashes(list: unknown): Wash[] | null {
+  if (!Array.isArray(list) || list.length > MAX_WASHES) return null;
+  const out: Wash[] = [];
+  for (const item of list) {
+    if (!isRecord(item)) return null;
+    const { color, width, points } = item;
+    if (typeof color !== 'number' || !isColor(color)) return null;
+    if (typeof width !== 'number' || !(Object.values(BRUSH_WIDTH) as number[]).includes(width)) return null;
+    if (!Array.isArray(points) || points.length === 0 || points.length > MAX_POINTS) return null;
+    const checked: Point[] = [];
+    for (const p of points) {
+      const point = parsePoint(p);
+      if (!point) return null;
+      checked.push(point);
+    }
+    out.push({ color, width, points: checked });
+  }
+  return out;
+}
+
+/** The saved page, or null unless every wash, the color, size, brush and undo are valid. The brush always comes back up. */
+function parseWashPage(b: unknown): WashPage | null {
+  if (!isRecord(b)) return null;
+  const { washes, color, size, brush, undo } = b;
+  const list = parseWashes(washes);
+  if (!list) return null;
+  if (typeof color !== 'number' || !isColor(color)) return null;
+  if (typeof size !== 'string' || !isBrushSize(size)) return null;
+  const at = parsePoint(brush);
+  if (!at) return null;
+  const before = undo === null ? null : parseWashes(undo);
+  if (undo !== null && !before) return null;
+  return { washes: list, color, size, brush: { x: at.x, y: at.y, down: false }, undo: before };
+}
 
 /** A small shape in a color, so the color is also known by its shape. */
 function Shape({ color }: { color: PatternColorInfo }) {
@@ -243,6 +294,23 @@ export default function ColorWash(props: PlayProps) {
       guidance={ui.colorWash.guidance}
       message={message}
       onRestart={restart}
+      place={{
+        slug: 'color-wash',
+        save: () => ({
+          washes: latest.current.washes,
+          color: latest.current.color,
+          size: latest.current.size,
+          brush: { x: latest.current.brush.x, y: latest.current.brush.y },
+          undo: latest.current.undo,
+        }),
+        check: (b) => parseWashPage(b) !== null,
+        restore: (b) => {
+          const saved = parseWashPage(b);
+          if (!saved) return;
+          commit(saved);
+          setMessage('');
+        },
+      }}
       restartLabel={ui.colorWash.fresh}
       footer={
         <div className="btn-row btn-row--center">

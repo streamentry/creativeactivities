@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { BEDS, GARDEN_EXTRAS, PLANTS, type GardenItem } from '../data/garden-planner';
+import { BEDS, GARDEN_EXTRAS, GARDEN_ITEMS, PLANTS, type GardenItem } from '../data/garden-planner';
 import { pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -10,12 +10,41 @@ import {
   startAgain,
   summaryList,
   tapBed,
+  type Bed,
   type Garden,
 } from '../lib/games/garden-planner';
 import { PAUSE_LINE } from '../lib/scope';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+const ITEM_IDS: ReadonlySet<string> = new Set(GARDEN_ITEMS.map((item) => item.id));
+const isItem = (v: unknown): v is string => typeof v === 'string' && ITEM_IDS.has(v);
+
+/** Twelve beds, each empty or holding a known picture; null otherwise. */
+function parseBeds(list: unknown): Bed[] | null {
+  if (!Array.isArray(list) || list.length !== BEDS) return null;
+  const out: Bed[] = [];
+  for (const bed of list) {
+    if (bed === null) out.push(null);
+    else if (isItem(bed)) out.push(bed);
+    else return null;
+  }
+  return out;
+}
+
+/** The saved garden, or null unless the beds, the chosen picture and the put-back beds are all valid. */
+function parseGarden(b: unknown): Garden | null {
+  if (!isRecord(b)) return null;
+  const beds = parseBeds(b.beds);
+  if (!beds) return null;
+  if (b.chosen !== null && !isItem(b.chosen)) return null;
+  const chosen = isItem(b.chosen) ? b.chosen : null;
+  const before = b.before === null ? null : parseBeds(b.before);
+  if (b.before !== null && !before) return null;
+  return { beds, chosen, before };
+}
 
 /**
  * Garden planner (GAME-041): choose pictures of plants and garden things, then lay them out in twelve beds. Solo or
@@ -112,6 +141,17 @@ export default function GardenPlanner(props: PlayProps) {
         guidance={ui.gardenPlanner.guidance}
         message={message}
         onRestart={restart}
+        place={{
+          slug: 'garden-planner',
+          save: () => ({ beds: latest.current.beds, chosen: latest.current.chosen, before: latest.current.before }),
+          check: (b) => parseGarden(b) !== null,
+          restore: (b) => {
+            const saved = parseGarden(b);
+            if (!saved) return;
+            commit(saved);
+            setMessage('');
+          },
+        }}
         footer={
           <div className="btn-row btn-row--center">
             {garden.before ? (

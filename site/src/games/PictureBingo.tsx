@@ -12,21 +12,76 @@ import { sounds } from './shared/sound';
 
 const POOL = PICTURES.map((p) => p.id);
 
+const POOL_SET: ReadonlySet<string> = new Set(POOL);
+
 const SQUARES = [9, 16] as const;
 const PLAYERS = [4, 8, 12, 20] as const;
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+interface SavedBingo {
+  squares: number;
+  players: number;
+  cards: string[][];
+  calls: string[];
+  called: number;
+}
+
+/** A list of distinct picture ids of the given length, all in the pool; null otherwise. */
+function distinctIds(list: unknown, size: number): string[] | null {
+  if (!Array.isArray(list) || list.length !== size) return null;
+  const seen = new Set<string>();
+  for (const id of list) {
+    if (typeof id !== 'string' || !POOL_SET.has(id) || seen.has(id)) return null;
+    seen.add(id);
+  }
+  return list as string[];
+}
+
+/** The saved bingo, or null unless the cards match the chosen size and count and the calls are every picture once. */
+function parseBingo(b: unknown): SavedBingo | null {
+  if (!isRecord(b)) return null;
+  const { squares, players, cards, calls, called } = b;
+  if (typeof squares !== 'number' || !(SQUARES as readonly number[]).includes(squares)) return null;
+  if (typeof players !== 'number' || !(PLAYERS as readonly number[]).includes(players)) return null;
+  if (!Array.isArray(cards) || cards.length !== players) return null;
+  const checked: string[][] = [];
+  for (const card of cards) {
+    const ids = distinctIds(card, squares);
+    if (!ids) return null;
+    checked.push(ids);
+  }
+  const order = distinctIds(calls, POOL.length);
+  if (!order) return null;
+  if (typeof called !== 'number' || !Number.isSafeInteger(called) || called < 0 || called > order.length) return null;
+  return { squares, players, cards: checked, calls: order, called };
+}
 
 export default function PictureBingo(props: PlayProps) {
   const { ui, lang } = props;
   const pictureName = pictureNamer(props);
   const [squares, setSquares] = useState<number>(9);
   const [players, setPlayers] = useState<number>(8);
+  // Dealt after the page loads, so the server and the browser render the same empty board first.
   const [cards, setCards] = useState<string[][]>([]);
   const [calls, setCalls] = useState<string[]>(() => createCallOrder(POOL, createRng(randomSeed())));
   const [called, setCalled] = useState(0);
 
   useEffect(() => {
-    setCards(createBingoCards(POOL, squares, players, createRng(randomSeed())));
-  }, [squares, players]);
+    setCards((dealt) => (dealt.length > 0 ? dealt : createBingoCards(POOL, 9, 8, createRng(randomSeed()))));
+  }, []);
+
+  // New cards are dealt in the change handlers, not an effect, so a restored board keeps its own cards.
+  const chooseSquares = (n: number) => {
+    if (n === squares) return;
+    setSquares(n);
+    setCards(createBingoCards(POOL, n, players, createRng(randomSeed())));
+  };
+  const choosePlayers = (n: number) => {
+    if (n === players) return;
+    setPlayers(n);
+    setCards(createBingoCards(POOL, squares, n, createRng(randomSeed())));
+  };
 
   const newGame = () => {
     sounds.tap();
@@ -62,11 +117,25 @@ export default function PictureBingo(props: PlayProps) {
             : ui.pictureBingo.start
         }
         onRestart={newGame}
+        place={{
+          slug: 'picture-bingo',
+          save: () => ({ squares, players, cards, calls, called }),
+          check: (b) => parseBingo(b) !== null,
+          restore: (b) => {
+            const saved = parseBingo(b);
+            if (!saved) return;
+            setSquares(saved.squares);
+            setPlayers(saved.players);
+            setCards(saved.cards);
+            setCalls(saved.calls);
+            setCalled(saved.called);
+          },
+        }}
         restartLabel={ui.pictureBingo.restart}
         options={
           <>
-            <ChoiceChips legend={ui.pictureBingo.squaresLegend} choices={squareChoices} value={squares} onChange={setSquares} />
-            <ChoiceChips legend={ui.pictureBingo.cardsLegend} choices={playerChoices} value={players} onChange={setPlayers} />
+            <ChoiceChips legend={ui.pictureBingo.squaresLegend} choices={squareChoices} value={squares} onChange={chooseSquares} />
+            <ChoiceChips legend={ui.pictureBingo.cardsLegend} choices={playerChoices} value={players} onChange={choosePlayers} />
             <div className="btn-row">
               <button
                 type="button"

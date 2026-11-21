@@ -1,5 +1,5 @@
 import { useCreateStore, useSelector } from '@tanstack/react-store';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { picturesIn, pictureUrl, type PictureCategory } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill, plural } from '../i18n/play/format';
@@ -25,6 +25,43 @@ const THEMES: readonly Theme[] = [
 
 const ids = (c: PictureCategory) => picturesIn(c).map((p) => p.id);
 
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+const isBasket = (v: unknown): v is 0 | 1 => v === 0 || v === 1;
+
+/** A saved sort (WEB-054): the theme, the pictures with their baskets, the ones placed, and the one picked up. */
+interface SavedSort {
+  theme: string;
+  items: SortState['items'];
+  placed: SortState['placed'];
+  selected: string | null;
+}
+
+/**
+ * A saved sort is kept only when its theme is one of the three, every picture is in a basket of that theme,
+ * and every placed picture sits in its own basket.
+ */
+function checkBoard(b: unknown): boolean {
+  if (!isRecord(b)) return false;
+  const themeKey = b.theme;
+  const items = b.items;
+  const placed = b.placed;
+  const selected = b.selected;
+  const theme = THEMES.find((t) => t.value === themeKey);
+  if (!theme || !Array.isArray(items) || !isRecord(placed) || items.length < 1 || items.length > 12) return false;
+  const baskets = [ids(theme.categories[0]), ids(theme.categories[1])] as const;
+  const seen = new Set<string>();
+  for (const item of items) {
+    if (!isRecord(item) || typeof item.id !== 'string' || !isBasket(item.basket)) return false;
+    if (seen.has(item.id) || !baskets[item.basket].includes(item.id)) return false;
+    seen.add(item.id);
+  }
+  for (const [id, basket] of Object.entries(placed)) {
+    if (!isBasket(basket) || !items.some((i) => isRecord(i) && i.id === id && i.basket === basket)) return false;
+  }
+  if (selected === null) return true;
+  return typeof selected === 'string' && seen.has(selected) && placed[selected] === undefined;
+}
+
 export default function SortTogether(props: PlayProps) {
   const { ui, lang, content } = props;
   const pictureName = pictureNamer(props);
@@ -33,26 +70,41 @@ export default function SortTogether(props: PlayProps) {
   // Larger targets is a choice for tremor, low vision or limited reach: off at the start.
   const [larger, setLarger] = useState(false);
   const [message, setMessage] = useState('');
+  // WEB-054: a board carried back by Carry on is put back by the effect below, not dealt anew.
+  const pending = useRef<SavedSort | null>(null);
   const theme = THEMES.find((t) => t.value === themeKey) ?? THEMES[0]!;
   const text = (t: Theme) => content.sorting.themes[t.value] ?? { label: t.value, baskets: t.categories };
   const allBaskets = text(theme).baskets;
   const baskets = visibleBaskets(allBaskets, larger);
 
-  const store = useCreateStore<SortState, { select: (id: string) => void; drop: (b: 0 | 1) => void; reset: (t: Theme) => void }>(
+  const store = useCreateStore<SortState, { select: (id: string) => void; drop: (b: 0 | 1) => void; reset: (t: Theme) => void; restore: (s: SortState) => void }>(
     { items: [], placed: {}, selected: null, hint: null },
     ({ setState }) => ({
       select: (id) => setState((s) => selectItem(s, id)),
       drop: (b) => setState((s) => dropInBasket(s, b)),
       reset: (t) => setState(() => createSort(ids(t.categories[0]), ids(t.categories[1]), 3, createRng(randomSeed()))),
+      restore: (s) => setState(() => s),
     }),
   );
   const state = useSelector(store);
 
   useEffect(() => {
-    store.actions.reset(theme);
+    const saved = pending.current;
+    pending.current = null;
+    if (saved) store.actions.restore({ items: saved.items, placed: saved.placed, selected: saved.selected, hint: null });
+    else store.actions.reset(theme);
     setMessage('');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [themeKey, round]);
+
+  const restoreBoard = (b: unknown) => {
+    if (!checkBoard(b)) return;
+    const saved = b as SavedSort;
+    pending.current = saved;
+    setThemeKey(saved.theme);
+    setRound((r) => r + 1);
+    setMessage('');
+  };
 
   const select = (id: string) => {
     store.actions.select(id);
@@ -97,6 +149,7 @@ export default function SortTogether(props: PlayProps) {
       ui={ui}
       lang={lang}
       guidance={ui.sortTogether.guidance}
+      place={{ slug: 'sort-together', save: () => ({ theme: themeKey, items: state.items, placed: state.placed, selected: state.selected }), check: checkBoard, restore: restoreBoard }}
       readAloudText={done ? ui.sortTogether.sorted : `${ui.sortTogether.guidance}: ${baskets[0]}, ${baskets[1]}.`}
       message={message}
       onRestart={() => {
