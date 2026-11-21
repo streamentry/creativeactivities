@@ -1,35 +1,35 @@
 ---
 title: "Tegevused dementsusega inimestele: 101 lihtsat ideed"
 seoTitle: "Dementsuse tegevusideed: 101 lihtsat tegevust"
-description: "101 lihtsat, täiskasvanulikku tegevust dementsusega inimestele – rätikute voltimisest muusika ja fotodeni – koos nõuannetega, kuidas neid kohandada."
+description: "101 lihtsat täiskasvanutele sobivat tegevust dementsusega elavatele inimestele, rätikute voltimisest fotodeni, ja kuidas neid raskuse kasvades kohandada."
 section: activities
 order: 1
 updated: 2026-10-25
 translatedFrom: 2026-10-25
 summary: >-
-  Head tegevused dementsusega inimestele on tuttavad, täiskasvanulikud ja kergesti
-  koos tehtavad: pesu voltimine, asjade sortimine, toiduvalmistamine, muusika,
-  fotode vaatamine, jalutamine, aiatööd, lemmikloomadega koos olemine ja lihtsad
-  mängud. Valige see, mis on inimesele alati meeldinud, tehke keerulisemad osad
-  ise ära ja lõpetage, kui ta väsib. Mõnus koos veedetud aeg on tähtsam kui
-  millegi lõpetamine.
+  Head tegevused dementsusega inimestele on tuttavad, täiskasvanulikud ja
+  kergesti jagatavad: pesu voltimine, sorteerimine, toiduvalmistamine, muusika,
+  fotode vaatamine, kõndimine, aiandus, aeg lemmikloomadega ja lihtsad mängud.
+  Valige see, mida inimene on alati nautinud, võtke rasked osad enda kanda ja
+  lõpetage, kui ta väsib. Meeldiv koos veedetud aeg on tähtsam kui millegi
+  lõpuni viimine.
 keyPoints:
-  - "Alustage inimese enda elust: tema töö, hobid, usk ja lemmikmuusika on parim teejuht."
-  - "Muutke iga tegevust vajadusel lihtsamaks: vähem samme, vähem valikuid, tehke keerulisem osa ise."
-  - "Ka vaatamine, millegi käes hoidmine või lihtsalt kõrval istumine loeb osalemisena."
-  - "Lõpetage või vahetage tegevust, kui märkate väsimust, pettumust või igavust. Vara lõpetamine on hea tulemus."
+  - "Lähtuge inimese enda elust: tema töö, hobid, usk ja lemmikmuusika on parim juhis."
+  - "Muutke iga tegevust vajadusel lihtsamaks: vähem samme, vähem valikuid, rasket osa teete teie."
+  - "Vaatamine, millegi hoidmine või lihtsalt kõrval istumine loetakse samuti osalemiseks."
+  - "Peatage või vahetage tegevust, kui näete väsimust, frustratsiooni või igavust. Varane lõpetamine on hea tulemus."
   - "Koos tegemine on tähtsam kui õigesti tegemine."
 faq:
   - q: "Millised tegevused sobivad dementsusega inimesele?"
-    a: "Tuttavad tegevused, mida inimene on aastaid teinud, veidi lihtsamaks tehtuna: pesu voltimine, laua katmine, toiduvalmistamine, muusika, fotode vaatamine, jalutamine, aiatööd ja lemmikloomaga koos olemine. Valige asju, mis tunduvad täiskasvanulikud ja kasulikud, ning tehke neid koos."
-  - q: "Kui kaua peaks tegevus kestma?"
-    a: "Õiget kestust ei ole. Ühel päeval võib paar minutit rätikute voltimist olla piisav, teisel päeval võib tund aega aias tunduda kerge. Laske inimesel ise tempot hoida ja lõpetage siis, kui tegevus on veel mõnus."
-  - q: "Mida teha, kui inimene keeldub tegevusest?"
-    a: "Ärge survestage. „Ei” võib tähendada, et ülesanne tundub liiga raske, aeg pole sobiv või inimene on väsinud või tal on ebamugav. Proovige hiljem uuesti, pakkuge lihtsamat varianti või alustage ise läheduses ja kutsuge teda appi."
-  - q: "Kas ajumängud sobivad dementsusega inimestele?"
-    a: "Mängud võivad olla mõnus viis koos aega veeta, kuid ükski mäng ei ole näidanud, et ta raviks, aeglustaks või peataks dementsust. Valige mänge, milles pole taimerit, punkte ega valede vastuste hääli, ning võtke neid kui ühist tegevust, mitte kontrolli."
-  - q: "Kuidas hoida tegevused täiskasvanulikuna?"
-    a: "Kasutage päris, täiskasvanutele mõeldud esemeid: päris rätikuid, päris retsepte, täiskasvanute muusikat ja kunstitarvikuid ning täiskasvanuliku sisuga pilte. Esitage ülesanded abina, mida te tõesti vajate, ja rääkige inimesega kui täiskasvanuga."
+    a: "Tuttavad tegevused, mida inimene on aastaid teinud, veidi lihtsamalt: pesu voltimine, laua katmine, toiduvalmistamine, muusika, fotode vaatamine, kõndimine, aiandus ja aeg lemmiklooma seltsis. Valige asjad, mis tunduvad täiskasvanulikud ja kasulikud, ning tehke neid koos."
+  - q: "Kui kaua tegevus peaks kestma?"
+    a: "Õiget pikkust pole. Mõnel päeval võib piisata paarist minutist rätikute voltimisest, teisel päeval võib aed tunduda kerge tund. Laske inimesel tempo määrata ja lõpetage siis, kui see veel meeldiv tundub."
+  - q: "Mis siis, kui inimene keeldub tegevusest?"
+    a: "Ärge suruge peale. Keeldumine võib tähendada, et ülesanne tundub liiga raske, aeg on vale või inimene on väsinud või ebamugav. Proovige hiljem, pakkuge väiksemat versiooni või alustage ülesannet ise lähedal ja kutsuge inimest aitama."
+  - q: "Kas ajumängud on dementsusega inimestele head?"
+    a: "Mängud võivad olla meeldiv viis koos aega veeta, kuid ühtegi mängu pole näidatud dementsust ravivat, aeglustavat ega peatavat. Valige mängud, millel pole taimerit, punktisüsteemi ega valesid vastuseid tähistavaid helisid, ja käsitlege neid ühise tegevusena, mitte testina."
+  - q: "Kuidas hoida tegevused lapsikutena tundumast?"
+    a: "Kasutage päris täiskasvanute materjale: päris rätikuid, päris retsepte, täiskasvanutele sobivat muusikat ja kunstitarvikuid ning pilte täiskasvanute teemadel. Esitage ülesanded abina, mida te tõesti vajate, ja rääkige inimesega nagu täiskasvanuga, kes ta on."
 sources:
   - title: "Adapting Activities for People With Alzheimer's Disease"
     publisher: "National Institute on Aging"
@@ -51,207 +51,207 @@ related: [activities/early-stage, activities/middle-stage, activities/late-stage
 health: false
 ---
 
-Parim tegevus dementsusega inimesele on tavaliselt midagi, mida ta juba oskab teha – veidi lihtsamaks tehtuna ja koos inimesega, keda ta usaldab. Allpool on 101 ideed, mis on jaotatud tüüpide kaupa. Igaühe juures on kirjas, kuidas seda alustada ja kuidas seda lihtsamaks muuta, kui see läheb raskemaks. Te ei vaja erivarustust ega pea midagi lõpetama. Hea pärastlõuna võib olla üks korv rätikuid ja tass kohvi koos.
+Dementsusega inimese jaoks sobib tavaliselt kõige paremini tegevus, mida ta juba oskab teha, veidi lihtsamalt tehtuna ja usaldusväärse inimesega koos. Allpool on 101 ideed, rühmitatud tüübi järgi. Igaühe juures on seadistamise juhend ja selgitus, kuidas seda kergemaks teha, kui see raskemaks läheb. Eriseadmeid pole vaja ja midagi ei pea lõpuni tegema. Hea pärastlõuna võib olla üks korv rätikuid ja kohvitass koos.
 
 ## Kuidas valida sobiv tegevus?
 
-Valige inimese, mitte nimekirja järgi: alustage sellest, mis on talle alati meeldinud ja mida ta täna mugavalt teha saab.
+Valige inimese järgi, mitte nimekirja järgi: alustage sellest, mida ta on alati nautinud ja mida ta praegu mugavalt teha suudab.
 
-- **Mõelge tema tööle ja hobidele.** [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) toob välja, et endine kontoritöötaja võib nautida müntide sortimist või kirjasaadetiste kokkupanekut ning aednik võib rõõmu tunda aiatöödest.
-- **Pange tähele, mida ta juba teeb.** Kui teie isa pühkib igal hommikul ise verandal, tehke sellest päeva osa.
-- **Arvestage piirangutega.** Olulised on väsimus, nägemine, kuulmine, valulikud käed ja tasakaal.
-- **Jälgige tema tuju.** Mõnele inimesele sobivad tegusad ja mürarikkad tegevused, teisi need hirmutavad.
-- **Andke tegevusele eesmärk.** Salvrätikute voltimine koguduseõhtuks tundub mõttekam kui harjutus iseenesest.
+- **Mõelge tema tööle ja hobidele.** [Alzheimer's Association](https://www.alz.org/help-support/caregiving/daily-care/activities) soovitab, et endine kontoritöötaja võib nautida mündi sorteerimist või postituste kokkupanemist ning aednik aiatöid.
+- **Märgake, mida ta juba teeb.** Kui teie isa pühib hommikul ilma palumata verandat, lülitage see päevakavasse.
+- **Planeerige piirangute järgi.** Väsimus, nägemine, kuulmine, valusad käed ja tasakaal on kõik olulised.
+- **Jälgige tema meeleolu.** Rahutud, mürarikkad tegevused sobivad mõnele ja hirmutavad teist.
+- **Andke sellele eesmärk.** Kirikusöögi jaoks salvrätikute voltimine tundub väärtuslikum kui harjutus iseenesest.
 
-### Ligikaudne juhis haiguse staadiumi järgi
+### Ligikaudne juhend staadiumite järgi
 
-Dementsust kirjeldatakse sageli varajase, keskmise ja hilise staadiumina. Need on üldised sildid, mitte kindlad kastid, ning paljudel inimestel on paremaid ja raskemaid päevi. Seetõttu lähtuge sellest, mida näete täna. [Alzheimer's Foundation of America staadiumide kaupa tegevuste loend](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) järgib sarnast jaotust.
+Dementsust kirjeldatakse sageli varajase, keskmise ja hilise staadiumina. Need on ligikaudsed sildid, mitte kastid, ning paljudel inimestel on nii paremaid kui raskemaid päevi. Lähtuge seetõttu sellest, mida täna näete. [Alzheimer's Foundation of America nimekiri staadiumite järgi](https://alzfdn.org/therapeutic-activities-for-3-main-stages-of-alzheimers-disease/) järgib sarnast mustrit.
 
 | Teema | Varajane staadium | Keskmine staadium | Hiline staadium |
 | --- | --- | --- | --- |
-| Mida võite märgata | Enamasti iseseisev; planeerimine, uued nimed ja rahvarohked kohad lähevad raskemaks | Vajab abi alustamisel ja sammude tegemisel; sõnu on raskem leida | Vajab abi enamiku igapäevaste toimingute juures; meeli kaudu saadav kogemus on kõige olulisem |
-| Tegevused, mis sageli sobivad | Kaardimängud, lauamängud, toiduvalmistamine, aiatööd, päeviku pidamine, väljas käimine, klubid | Pesu voltimine, sortimine, lihtsad toiduvalmistamise sammud, laulmine, fotoalbumid, jalutuskäigud koos abiga | Lemmikmuusika, kätemassaaž, pehmed esemed käes hoidmiseks, ette lugemine, väljas istumine |
-| Teie roll | Partner: küsige, millist tuge ta soovib | Seadke tegevus valmis, näidake ette, tehke keerulisemad osad ise | Viige tegevus tema juurde; teie kohalolu ongi tegevus |
-| Rohkem ideid | [Varajane staadium](/activities/early-stage/) | [Keskmine staadium](/activities/middle-stage/) | [Hiline staadium](/activities/late-stage/) |
+| Mida võite märgata | Enamasti iseseisev; planeerimine, uued nimed ja rahvarohked kohad muutuvad raskemaks | Vajab abi tegevuse alustamisel ja sammudel; sõnad tulevad vähem kergesti | Vajab abi enamiku igapäevatoimingutega; meeled on kõige olulisemad |
+| Tegevused, mis sageli sobivad | Kaardimängud, lauamängud, toiduvalmistamine, aiandus, päevikupidamine, väljasõidud, klubid | Rõivaste voltimine, sorteerimine, lihtsad toiduvalmistamise sammud, laulmine, fotoalbumid, juhitud jalutuskäigud | Lemmikmuusika, käte massaaž, pehmed esemed hoidmiseks, ette lugemine, istumine välja |
+| Teie roll | Partner: küsige, millist tuge ta soovib | Seadistage, näidake, võtke rasked osad enda kanda | Tooge tegevus tema juurde; teie seltskond ongi tegevus |
+| Rohkem ideid | Varajane staadium: sellel lehel | Keskmine staadium: sellel lehel | [Hiline staadium](/activities/late-stage/) |
 
 ## Kuidas alustada tegevust dementsusega inimesega?
 
-Alustage väikselt, alustage tema kõrval ja tehke nõustumine lihtsaks. Paljud inimesed tahavad endiselt kaasa lüüa, kuid neil võib olla raske tegevust planeerida või alustada.
+Alustage väikeselt, alustage koos temaga ja tehke jaatava vastuse andmine lihtsaks. Paljud inimesed soovivad endiselt osaleda, kuid neil on raske planeerida või alustada.
 
 1. **Valige tema parim aeg,** sageli hommik.
-2. **Pange kõik eelnevalt valmis,** et saaksite kohe alustada.
-3. **Paluge abi, mitte sooritust:** „Kas saaksid mind natuke aidata?”
-4. **Alustage ise.** Voltige esimene rätik ja laske tal liituda. Näitamine aitab rohkem kui selgitamine.
-5. **Pakkuge korraga üks samm.**
-6. **Võtke enda kanda kõige raskem osa.** Alzheimer's Association soovitab mõõta koostisosad ise välja ja anda siis lusikas segamiseks tema kätte.
-7. **Laske asjal valmida tema moodi.** Teistmoodi volditud rätikud sobivad väga hästi.
-8. **Lõpetage siis, kui tegevus pole enam mõnus.** Rahutus, kulmu kortsutamine või „ma ei oska” on märgid, et on aeg vahetada või puhata.
+2. **Asetage kõik kõigepealt valmis,** et saaksite kohe alustada.
+3. **Paluge abi, mitte etendust:** „Kas aitaksite mind nende asjadega?“
+4. **Alustage ise.** Voltige esimene rätik ja laske tal liituda. Näitamine on parem kui seletamine.
+5. **Pakkuge üks samm korraga.**
+6. **Võtke raskeim osa enda kanda.** Alzheimer's Association soovitab mõõta koostisosad ise ja anda siis lusikas üle segamiseks.
+7. **Laske sel olla tehtud tema moodi.** Teisiti voltitud rätikud on korras.
+8. **Lõpetage, kui see enam meeldiv ei ole.** Kohatu liigutamine, kulm kortsus või „ma ei saa“ on märgid vahetada või puhata.
 
-Vaadake ka [kuidas koos mängida](/caregiving/how-to-play-together/) ja [suhtlemisnõuandeid](/caregiving/communication-tips/).
+Vaadake ka [kuidas koos mängida](/caregiving/how-to-play-together/) ja [esimesed sammud pärast diagnoosi](/caregiving/after-dementia-diagnosis/).
 
-## Igapäevased kodutööd
+## Igapäevased tööd kodus
 
-Kodutööd on tuttavad ja kasulikud, mistõttu on neid hea alustada. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) loetleb tegevuste seas, mis võivad inimestele meeldida, nõude pesemist, laua katmist, pühkimist, posti sortimist ja pesu voltimist. Rohkem leiate lehelt [kodutööd](/activities/household-tasks/).
+Majapidamistööd on tuttavad ja kasulikud, mistõttu on need loomulik algus. [National Institute on Aging](https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease) loetleb tegevuste hulgas, mida inimesed võivad nautida, nõude pesu, laua katmise, põranda pühkimise, posti sorteerimise ja pesu voltimise.
 
-1. **Voltige sooje rätikuid.** Kallake korv kuivatist lauale ja voltige kõrvuti. Hiljem on ka silumine ja virna ladumine abiks.
-2. **Pange sokid paari.** Alustage väga erinevate värvidega. Hiljem piisab heledate ja tumedate eraldamisest.
-3. **Katke laud.** Andke korraga üle ühte tüüpi esemed. Katke üks koht ise eeskujuks.
-4. **Peske või kuivatage nõusid.** Soe seebivesi ja purunematud nõud. Istudes kuivatamine on jalgadele kergem.
-5. **Pühkige laud puhtaks.** Andke pärast sööki niiske lapp. See on rahututele kätele päris töö.
-6. **Sortige posti.** Kataloogid ja reklaampost „hoia” ja „taaskasutus” hunnikusse. Päris arved jätke kõrvale.
-7. **Lõigake sooduskuponge.** Ümara otsaga käärid ja toidupoelehed. Hiljem sobib ka lemmiktoitude ringitamist.
-8. **Sortige münte.** Pange mündid tassidesse või rullidesse. Kui inimene paneb asju suhu, jätke väikesed esemed vahele.
-9. **Pühkige või tolmu pühkige.** Kerge luud verandal või pikk vars tolmuharjale, mida saab kasutada toolilt.
-10. **Aidake toitu valmistada.** Köögiviljade pesemine, salati rebimine, segamine. Noa ja kuumusega tegelege teie.
-11. **Küpsetage pereretsepti järgi.** Kasutage tema käekirjaga retseptikaarti, kui see on olemas. Hiljem võib ta olla maitseja.
-12. **Tehke kontoritöid.** Voltige kirju, pange neid ümbrikesse ja kleepige margid peale või koostage koos ostunimekiri.
+1. **Voltige soojad rätikud.** Kallake kuivatist tulnud korv laua peale ja voltige kõrvuti. Hiljem on siledaks silumine ja virnastamine sama abiks.
+2. **Paarige sokid.** Alustage väga erinevate värvidega. Hiljem piisab heledate ja tumedate eraldamisest.
+3. **Katke laud.** Andke üht liiki esemeid korraga üle. Katke üks koht ise eeskujuks.
+4. **Pesege või kuivatage nõusid.** Soe seebivesi ja purunematud nõud. Istudes kuivatamine on jalgadele kergem.
+5. **Pühkige laud.** Andke pärast söömist üle niiske lapp. See on päris töö rahututele kätele.
+6. **Sorteerige post.** Kataloogid ja reklaampost „alles hoida“ ning „taaskasutada“ hunnikutesse. Päris arved jätke kõrvale.
+7. **Lõigake kupongid välja.** Ümara otsaga käärid ja poodide reklaamlehed. Hiljem sobib ka lemmiktoitude ringimine.
+8. **Sorteerige münte.** Sorteerige raha tassidesse või rullige see ümbrisesse. Jätke väikesed esemed ära, kui inimene paneb asju suhu.
+9. **Pühkige või tolmuge.** Kerge luud verandal või pikkade käepidemetega tolmuharja toolilt.
+10. **Aidake valmistada söök.** Köögiviljade pesemine, salati rebimine, segamine. Nugade ja kuumusega tegelete teie.
+11. **Küpsetage perekonna retsept.** Kasutage kaarti tema käekirjaga, kui see teil on. Hiljem võib tema olla maitsja.
+12. **Tehke kontoritööd.** Voltige kirju, pange ümbrikesse ja kleepige margid või kirjutage koos ostunimekiri.
 
 ## Muusika
 
-Tuttav muusika võib inimeseni jõuda ka siis, kui sõnadest on raske aru saada. [Alzheimer's Associationi muusikanõuanded](https://www.alz.org/help-support/caregiving/daily-care/art-music) soovitavad tuttavaid laule, reklaamideta kuulamist ja telerit välja lülitada. Vaadake ka [muusikategevusi](/activities/music/).
+Tuttav muusika võib jõuda inimeseni ka siis, kui sõnad on rasked. [Alzheimer's Associationi muusikanõuanded](https://www.alz.org/help-support/caregiving/daily-care/art-music) soovitavad tuttavaid laule, reklaamideta muusikat ja televiisori väljalülitamist. Vaadake [muusikategevusi](/creative-calm/music-for-calm-and-connection/).
 
-13. **Koostage isiklik esitusloend.** Muusika tema teismeeast ja kahekümnendatest, pulmast, kogudusest ja tema kultuurist.
-14. **Laulge kaasa.** Alustage ise laulmist. Üminal või kuulamine loeb samuti.
-15. **Hoidke rütmi.** Plaksutage, patsutage põlvi või mängige väikest trummi. Sobib ka istudes ja hilises staadiumis.
-16. **Tantsige.** Aeglane tants köögis või kõikumine istudes, käest kinni hoides.
-17. **Kuulake tervet albumit.** Lemmikplaat algusest lõpuni, koos kohvi ja millegi muu segamiseta.
-18. **Rääkige muusikast.** Kutsuge jutustama, mitte fakte meenutama: „Räägi mulle tantsuõhtutest, kus sa käisid.”
-19. **Vaadake salvestatud muusikali või kontserti.** Etendus, mida ta armastas, sobib hästi õhtusse. Peatage igal ajal.
-20. **Mängige tuttavat pilli.** Endine pianist võib nautida lihtsaid palu; hiljem sobivad ka mõned noodid koos.
-21. **Kuulake elavat muusikat.** Lühike kogukonnakontsert või kooriproov. Istuge väljapääsu lähedale.
+13. **Koostage isiklik esitusnimekiri.** Muusika tema teismeeast ja kahekümnendatest, tema pulmadest, kirikust ja kultuurist.
+14. **Laulge kaasa.** Alustage ise laulmisega. Ümisemine või kuulamine loeb samuti.
+15. **Hoidke rütmi.** Plaksutage, patsutage põlvi või koputage käsitrummi. Sobib istudes ja hilises staadiumis.
+16. **Tantsige.** Aeglane tants köögis või istudes käsikäes kiikumine.
+17. **Mängige terve albumi.** Lemmikplaat algusest lõpuni, kohvi ja muu segamini ilma.
+18. **Rääkige muusikast.** Kutsuge lugusid, mitte fakte: „Räägi mulle tantsudest, millel käisid.“
+19. **Vaadake salvestatud muusikali või kontserti.** Lemmiketendus teeb hea õhtu. Võib igal ajal peatada.
+20. **Mängige tuttavat pilli.** Endine pianist võib nautida lihtsaid pale; hiljem paar nooti koos.
+21. **Kuulake elavat muusikat.** Lühike kogukonnakontsert või koorilaulu proov. Istuge väljapääsu lähedal.
 
-## Mälestuste meenutamine: fotod, esemed ja lood
+## Mälestused: fotod, esemed ja lood
 
-Nautige minevikku koos, ilma seda kontrollimata. Jätke vahele küsimused „Kas mäletad...?” ja „Kes see on?” ning kasutage avatud kutseid. Vaadake [meenutustegevusi](/activities/reminiscence/).
+Nautige minevikku koos, ilma et seda kontrolliksite. Jätke „Kas mäletad...?“ ja „Kes see on?“ ära ning kutsuge avatud küsimustega. Vaadake [mälestustegevusi](/activities/reminiscence/).
 
-22. **Vaadake fotoalbumit.** Öelge, mida näete: „Milline kleit. Räägi mulle sellest päevast.” Nõustuge nende nimedega, mida ta kasutab.
-23. **Tehke mälestustekast.** Kingakarbis esemed tema elust, näiteks töömärk või retseptikaart. Võtke esemed välja ükshaaval.
-24. **Alustage elulooraamatut.** Mõni foto lehe kohta ja suures kirjas pealkirjad. See aitab ka uutel abilistel inimest paremini tundma õppida.
-25. **Kasutage vestluskaarte.** [Conversation cards](/games/conversation-cards/) ühendavad pildi ja avatud küsimuse.
-26. **Tehge perefotodest mäng.** [Photo pairs](/games/photo-pairs/) muudab teie enda fotod paarimismänguks.
-27. **Vaadake koduvideoid või vanu saateid.** Kommenteerige koos, selle asemel et küsimusi esitada.
-28. **Katsuge tema tööeluga seotud esemeid.** Mutrivõti, stetoskoop, pearaamat. Sageli juhivad käed loo jutustamist.
-29. **Valmistage lapsepõlvest pärit toitu.** Ta võib segada, maitsta või lihtsalt teiega köögis istuda.
-30. **Vaadake kaarti kohtadest, kus ta on elanud.** Joonige suures atlases tuttavaid teid, samal ajal vesteldes.
+22. **Vaadake fotoalbumit.** Ütelge, mida näete: „Milline kleit. Räägi mulle sellest päevast.“ Nõustuge nimedega, mida ta kasutab.
+23. **Tehke mälukarp.** Kingakarp tema elust pärit esemetega, nagu töökaart või retseptikaart. Võtke esemeid välja ükshaaval.
+24. **Alustage elulooraamatut.** Mõni foto lehe kohta suurte tähtedega pealdistega. See aitab uutel abilistel inimest tundma õppida.
+25. **Kasutage vestluskaarte.** [Vestluskaardid](/games/conversation-cards/) seovad pildi avatud küsimusega.
+26. **Tehke pereliku fotomäng.** [Fotopaarid](/games/photo-pairs/) muudab teie enda fotod sobitusmänguks.
+27. **Vaadake kodufilme või vana telerit.** Kommenteerige koos, selle asemel et küsida küsimusi.
+28. **Käsitlege esemeid tema töö ajast.** Mutrivõti, stetoskoop, pearaamat. Käed juhivad sageli lugu.
+29. **Valmistage lapsepõlve roog.** Ta võib segada, maitsta või lihtsalt istuda koos teiega köögis.
+30. **Vaadake kaarti kohtadest, kus ta elas.** Jälgige suures atlases tuttavaid teid, samal ajal kui räägite.
 
 ## Loomingulised tegevused
 
-Kunstis on tähtis tegemine, mitte valmis teos. Hoidke materjalid täiskasvanulikud ja ohutud. Vaadake [kunsti ja käsitööd](/activities/arts-and-crafts/).
+Kunst on tegemine, mitte valmis töö. Hoidke materjalid täiskasvanulikud ja ohutud. Vaadake [käsitöid](/crafts/easy-crafts-for-adults/).
 
-31. **Maalige vesivärvidega.** Paks paber ja mõned värvid. Kui alustamine on raske, tehke esimesed tõmbed koos.
-32. **Värvige täiskasvanutele mõeldud mustreid.** Lilled või lapitekid, mitte multifilmid. Meie [värvimislehed](/games/coloring/) töötavad ekraanil ja paberil.
-33. **Tehke kollaaž.** Rebkige ajakirjadest pilte aedadest, autodest või toidust ja kleepige need kinni. Hiljem piisab ka piltide valimisest.
-34. **Seadke lilli.** Toidupoest ostetud kimp ja vaas. Hiljem sobivad ka mõned varred purgis.
-35. **Kuduge või heegelge koos.** Lihtsad read suurte varrastega. Hiljem sobib lõnga keradeks kerimine.
-36. **Tehke perele kaarte.** Templiga, allkirjaga või kaunistustega sünnipäeva- ja paranemiskaardid päris inimestele.
-37. **Voolige õhu käes kuivavat savi.** Vajutage välja väike kauss. Kasutage mürgivabu materjale ja olge läheduses.
-38. **Lihvige ja viimistlege puitu.** Eelnevalt lõigatud linnumajakomplekt ja lihvpaber, ilma elektritööriistadeta. Vaadake [tegevusi meestele](/activities/for-men/).
-39. **Kirjutage või dikteerige kiri.** Lapselapsele või vanale sõbrale. Kui kirjutamine on raske, räägib tema ja teie kirjutate.
+31. **Maalige akvarellidega.** Paks paber, mõned värvid. Kui alustamine on raske, juhendage esimesi pintslilööke koos.
+32. **Värvige täiskasvanute jooniseid.** Lilled või tekid, mitte multikad. Meie [värvimislehed](/games/coloring/) töötavad ekraanil või prinditult.
+33. **Tehke kollaaž.** Rebige ajakirjadest aedade, autode või toidu pildid ja kleepige need kinni. Hiljem piisab pildi valimisest.
+34. **Seadke lilled.** Kauplusest ostetud kimp ja vaas. Hiljem mõned varred purgis.
+35. **Kuduge või heegeldage koos.** Lihtsad read suurtel vardadel. Hiljem lõnga kerimine pallideks.
+36. **Tehke perele kaarte.** Kleepige, allkirjastage või kaunistage sünnipäeva- ja paranemiskaarte päris inimestele.
+37. **Vormige õhus kuivavat savi.** Suruge välja väike kauss. Kasutage mittetoksilisi materjale ja olge lähedal.
+38. **Liivake ja viimistlege puitu.** Valmislõigatud linnumaja komplekt ja liivapaber, ilma elektritööriistadeta.
+39. **Kirjutage või diktaatige kiri.** Lapselapsele või vanale sõbrale. Kui kirjutamine on raske, räägib tema ja teie kirjutate.
 
-## Õues ja aias
+## Õues ja aianduses
 
-Värske õhk ja päevavalgus on hea seltskond. Vaadake [õues- ja aiatöid](/activities/outdoor-and-gardening/).
+Värske õhk ja päevavalgus on head seltsilised. Vaadake [õuetegevusi ja aiandust](/together/outdoor-and-garden-activities/).
 
-40. **Kastke taimi.** Väike kastekann ja mõni pott. Igapäevane kastmine annab päevale rütmi.
-41. **Istutage taim potti.** Pange pott lauale, et keegi ei peaks põlvitama. Istikud on kergemad kui seemned.
-42. **Kitkuge umbrohtu või noppige närtsinud õisi.** Kindad käes, korraga üks väike peenar.
-43. **Riisuge lehti.** Üks väike ala. Hiljem on ka koti lahtihoidmine päris töö.
-44. **Jalutage tuttaval teel.** Ümber kvartali või postkastini. Lühem tee sobib samuti.
-45. **Istuge koos õues.** Tool verandal soojal päeval. Vaadake pilvi või möödujaid.
-46. **Toitke linde.** Täitke söötja koos ja vaadake akna juurest.
-47. **Peske autot.** Ämber, käsn ja soe pärastlõuna. Veljekatete loputamine on hea ühesammuline töö.
+40. **Kastke taimi.** Väike kann ja mõned potid. Igapäevane kastmine annab päevale rütmi.
+41. **Istutage pott.** Asetage see lauale, et keegi ei peaks põlvitama. Idud on seemnetest lihtsamad.
+42. **Rohige umbrohtu või eemaldage närbunud õied.** Kindad käes, üks väike peenar korraga.
+43. **Riisuge lehti.** Üks väike laik. Hiljem on kotti lahti hoida juba päris töö.
+44. **Kõndige tuttavat marsruuti.** Ümber ploki või postkastini. Lühem on sama hea.
+45. **Istuge koos õues.** Verandatool mõõdukal päeval. Vaadake pilvi või möödujaid.
+46. **Toitke linde.** Täitke koos söötja ja vaadake akna juurest.
+47. **Pesege autot.** Ämber, käsn, soe pärastlõuna. Rattakorkide loputamine on hea üheastmeline töö.
 
-## Meelelised tegevused
+## Meeltetegevused
 
-Puutumine, lõhn, maitse, heli ja nägemine muutuvad dementsuse süvenedes üha olulisemaks. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) mainib hilisemates staadiumides muusikat, käes hoitavaid esemeid ja kätemassaaži. Kontrollige enne allergiaid ja lämbumisriski; vaadake [meelelisi tegevusi](/activities/sensory/).
+Puudutus, lõhn, maitse, heli ja nägemine muutuvad dementsuse edenedes tähtsamaks. [NHS](https://www.nhs.uk/conditions/dementia/living-with-dementia/activities/) mainib hilisemate staadiumite puhul muusikat, esemeid käes hoidmiseks ja käte massaaži. Kontrollige kõigepealt allergiaid ja lämbumisohtu. Vaadake [meeltetegevusi](/creative-calm/sensory-activities-for-adults/).
 
-48. **Tehke kätemassaaži.** Küsige enne luba ja kasutage veidi kreemi. Kui te pole naha või allergiate osas kindel, valige lõhnatu kreem.
-49. **Katsuge erinevaid kangaid.** Korvis samet, velvet, vill ja satiin, mida saab silitada ja voltida.
-50. **Nuusutage ürte ja kohvi.** Hõõruge värsket münti või rosmariini sõrmede vahel. Tugevaid lõhnu vältige hingamisprobleemide korral.
-51. **Harjake juukseid.** Aeglaselt ja õrnalt, kui see talle meeldib.
-52. **Pakkuge sooja pesulappi.** Kätele ja näole külmal päeval. Kontrollige temperatuur enne üle.
-53. **Uurige tegevuspõlle.** Suured nööbid ja tõmblukud on kindlalt külge õmmeldud. Kontrollige, et midagi ei saaks lahti tulla.
-54. **Maitske lemmikmaiust.** Väike lusikatäis, sellise tekstuuriga, mida ta saab ohutult süüa.
-55. **Kuulake loodushääli.** Vihm, lained või linnulaul vaiksel helitugevusel.
-56. **Vaadake midagi aeglast.** Akvaarium, loodusvideo või langev lumi.
+48. **Tehke käte massaaži.** Küsige enne ja kasutage veidi losjooni. Valige lõhnatu, kui pole kindel naha või allergiate suhtes.
+49. **Tundke kangaid.** Korv sametit, ribasametit, villa ja satiini, mida silitada ja voltida.
+50. **Tunnetage ürtide ja kohvi lõhna.** Hõõruge värsket piparmünti või rosmariini sõrmede vahel. Tugevat lõhna vältige, kui on hingamisraskusi.
+51. **Harjake tema juukseid.** Aeglaselt ja hellalt, kui talle see meeldib.
+52. **Jagage sooja kaltsu.** Käte ja näo jaoks külmal päeval. Kontrollige enne temperatuuri.
+53. **Uurige tegevuspõlle.** Suured nööbid ja tõmblukud kindlalt õmmeldud. Kontrollige, et midagi ei saaks lahti tulla.
+54. **Maitske lemmikmaiustust.** Väike lusikatäis, sellises konsistentsis, mida ta saab turvaliselt süüa.
+55. **Mängige looduse helisid.** Vihm, lained või linnulaul madalal helitugevusel.
+56. **Vaadake midagi aeglast.** Kalaakvaarium, looduse video või langevat lund.
 
 ## Mängud ja pusled
 
-Mängud sobivad siis, kui neis pole taimerit, punkte ega survet. Kui mõni mäng hakkab tunduma nagu kontroll, pange see ära. Vaadake [rakenduste ja mängude valimist](/caregiving/choosing-apps-and-games/) ja [ajumänge](/brain-health/brain-games/).
+Mängud toimivad, kui pole taimerit, punkte ega survet. Kui mäng hakkab tundma testina, pange see kõrvale. Vaadake [mängude lehte](/games/) ja [dementsuse tegevusi kodus](/dementia-activities/).
 
-57. **Sobitage pilte.** [Picture pairs](/games/picture-pairs/) laseb piltidel jääda näoga ülespoole, nii et tegemist on märkamisega, mitte meenutamisega.
-58. **Leidke sama pilt.** [Find the same](/games/find-the-same/) pakub kaks kuni neli valikut. Vestelge iga pildi üle.
-59. **Sortige korvidesse.** [Sort together](/games/sort-together/) on nagu sokkide sortimine ekraanil.
-60. **Pange kokku suurte tükkidega pusle.** Täiskasvanuliku sisuga pildid ja lihtne tükkide arv. [Picture puzzle](/games/picture-puzzle/) hoiab kogu pildi nähtaval. Rohkem leiate lehelt [pusled dementsusega inimestele](/activities/puzzles/).
-61. **Mängige vana kaardimängu.** Seda, mida ta on aastaid mänginud. Hiljem on ka kaardipaki värvide kaupa sortimine omaette mäng.
-62. **Mängige doominot.** Sobitage otsad kokku. Hiljem sobib ka lihtsalt klotside ritta ladumine.
-63. **Proovige suure trükiga sõnaotsingut.** Meie [word search](/games/word-search/) sisaldab sõnu ainult vasakult paremale ja ülevalt alla ning sobib printimiseks.
-64. **Lõpetage tuttavad ütlemised.** [Finish the saying](/games/finish-the-saying/) võimaldab lõpu igal ajal näidata.
-65. **Mängige pildibingot.** [Picture bingo](/games/picture-bingo/) sobib peredele ja rühmadele. Aidake kaartidel märkeid teha vabalt.
-66. **Mängige kabet.** Hoidke reeglid paindlikud. Nuppude liigutamine vestluse kõrvale loeb samuti.
+57. **Sobitage pilte.** [Pildipaarid](/games/picture-pairs/) jätab pildid näo peale, nii et asi on märkamises, mitte meeldejätmises.
+58. **Leidke sama pilt.** [Leia sama](/games/find-the-same/) pakub kahte kuni nelja valikut. Rääkige iga pildi üle.
+59. **Sorteerige korvidesse.** [Sorteeri koos](/games/sort-together/) on nagu sokkide sorteerimine ekraanil.
+60. **Tehke suurte tükkidega pusle.** Täiskasvanute pildid, lihtne tükkide arv. [Pildipusle](/games/picture-puzzle/) hoiab terve pildi nähtavana. Rohkem leiate lehelt [pusled ja lauamängud](/together/puzzles-and-table-games/).
+61. **Mängige vana kaardimängu.** Mida ta aastaid mängis. Hiljem on pakis värvi järgi sorteerimine mäng omaette.
+62. **Mängige domino.** Sobitage otsad. Hiljem on piisav ka plaatide ritta seadmine.
+63. **Proovige suurte tähtedega sõnaotsingut.** Meie [sõnaotsing](/games/word-search/) sisaldab sõnu ainult horisontaalselt ja vertikaalselt ning on prinditav.
+64. **Täiendage tuttavaid ütlemisi.** [Lõpeta ütlus](/games/finish-the-saying/) lubab lõpu näidata igal ajal.
+65. **Mängige pildibingot.** [Pildibingo](/games/picture-bingo/) sobib peredele ja gruppidele. Märkige kaarte vabalt, aidates.
+66. **Mängige kabet.** Hoidke reeglid lõdvalt. Nuppude liigutamine vestluse ajal loeb.
 
 ## Liikumine
 
-National Institute on Aging soovitab jalutuskäike, veloergomeetrit, venituskumme, pehme palli või õhupalli loopimist, supipurkide tõstmist ja eakatele mõeldud treeningvideoid. Enne millegi uuega alustamist pidage nõu arstiga, eriti tasakaaluprobleemide korral.
+NIA soovitab kõndimist, statsionaarset jalgratast, venitusnööre, pehme palli või õhupalli viskamist, supipurkide tõstmist ja vanemaealistele mõeldud treeninguvideoid. Pidage enne uue tegevuse alustamist nõu arstiga, eriti tasakaaluprobleemide korral.
 
-67. **Loopige õhupalli.** Istuge vastakuti. Õhupall liigub aeglaselt, nii et seda on lihtne kinni püüda.
-68. **Tehke koos eakatele mõeldud istuva treeningu videot.**
-69. **Venitage kummiga.** Õrnalt käte venitamine kerge kummiga, istudes.
-70. **Tõstke supipurke.** Aeglased käte tõstmised, näiteks muusika saatel.
-71. **Sõitke veloergomeetriga.** Mõni kerge minut, teie kõrval olles.
-72. **Tantsige sallidega.** Lehvitage kergeid salle muusika saatel, istudes või seistes.
-73. **Jalutage eesmärgiga.** Kirja postitama või kohvi ostma. Põhjus minna tundub loomulik.
-74. **Tehke koos hingamispause.** Rahunege koos mänguga [calm breathing](/games/calm-breathing/).
+67. **Visake õhupalli.** Istuge teineteise ees. See liigub aeglaselt, nii et seda on lihtne kinni püüda.
+68. **Järgige istudes treeninguvideot,** mis on tehtud vanemaealistele, kõrvuti.
+69. **Venitage nööriga.** Kerged käte tõmbed kergel nööril istudes.
+70. **Tõstke supipurke.** Aeglased käte tõstmised, võib-olla muusika saatel.
+71. **Sõitke statsionaarsel jalgrattal.** Paar kerget minutit, teie lähedal.
+72. **Tantsige sallidega.** Lehvitage kergete sallidega muusika saatel, istudes või seistes.
+73. **Kõndige eesmärgiga.** Postitähe saatmiseks või kohvi ostmiseks. Põhjus minna tundub loomulik.
+74. **Tehke hingamispaus koos.** Aeglustage koos [rahuliku hingamise](/games/calm-breathing/) abil.
 
-## Koos tegutsemine teistega
+## Sotsiaalsed tegevused
 
-Selts on oluline ka siis, kui nimesid on raske meenutada, ning väikesed rühmad on lihtsamad kui suured. National Institute on Aging märgib, et inimene ei pruugi külastajat ära tunda, kuid võib sellegipoolest seltsist rõõmu tunda. Vaadake [külastusi](/activities/visiting/).
+Seltskond on oluline isegi siis, kui nimed on rasked, ja väikesed rühmad on lihtsamad kui suured. NIA märgib, et inimene ei pruugi meeles pidada, kes külaline on, kuid naudib sageli seltskonda. Vaadake [külastamist](/together/visiting-someone-in-care/).
 
-75. **Kutsuge korraga üks või kaks külastajat.** Lühikesed külastused vaikses toas, koos fotodega, mida vaadata.
-76. **Helistage perele videokõnega.** Lühikesed kõned, korraga üks hääl. Vaadake [telefoni- ja videokõnesid](/activities/phone-and-video-calls/).
-77. **Proovige mälukohvikut.** Vabas vormis kohtumised dementsusega inimestele ja nende hooldajatele. Küsige oma kohaliku omavalitsuse sotsiaalhoolekande osakonnast, mis läheduses on.
-78. **Sööge väljas vaiksel ajal.** National Institute on Aging soovitab tuttavat ja vaikset restorani väljaspool tipptundi, laua juurde tualeti lähedal.
-79. **Külastage päevakeskust või eakate tugikeskust.** Selts talle ja puhkus teile.
-80. **Veetke aega lastega.** Lühike ja rahulik külastus lapselastega või pildiraamatu lugemine väikesele lapsele.
-81. **Jagage hommikukohvi juures ajalehte.** Lugege pealkirju valjusti ette. Rituaal on tähtsam kui uudised.
-82. **Aidake kedagi teist.** Voltige koguduse kavasid või tehke naabrile kaart.
+75. **Võtke korraga üks või kaks külalist.** Lühikesed külastused vaikses toas, vaadatavate fotodega.
+76. **Helistage pereliikmetele videokõnes.** Lühikesed kõned, üks hääl korraga. Vaadake [telefoni- ja videokõnesid](/together/staying-connected-from-afar/).
+77. **Proovige mälukohvikut.** Mitteametlikud avatud kohtumised dementsusega elavatele inimestele ja nende hooldajatele. Küsige kohalikust vanemaealiste teenuste keskusest, mis lähedal on.
+78. **Sööge välja vaiksel ajal.** NIA soovitab tuttavat ja vaikset restorani väljaspool tippaega, laua asukohaga tualeti lähedal.
+79. **Külastage vanurite keskust või täiskasvanute päevakeskust.** Seltskond neile ja puhkus teile.
+80. **Veetke aega lastega.** Lühike ja rahulik külaskäik lapselastelt või pildiraamatu ette lugemine väikelapsele.
+81. **Jagage hommikukohvi juures ajalehte.** Lugege pealkirju valjusti. Rituaal on tähtsam kui uudis.
+82. **Aidake kedagi teist.** Voltige kiriku programme või tehke naabrile kaart.
 
-## Usu ja vaimsusega seotud tegevused
+## Usu- ja vaimulikud tegevused
 
-Lähtuge inimese enda traditsioonist või sellest, et traditsiooni ei ole. National Institute on Aging soovitab tuttavaid jumalateenistusi, lugemisi, vaimulikku muusikat, palvet, meditatsiooni ja pühaderituaale.
+Järgige inimese enda traditsiooni või ilma selleta. NIA soovitab tuttavaid jumalateenistusi, lugemisi, pühamuusikat, palvet, meditatsiooni ja pühade rituaale.
 
-83. **Osalege tuttaval jumalateenistusel.** Valige vaiksem teenistus, istuge käigutee lähedale ja andke kohalolijatele teada dementsusest.
-84. **Vaadake jumalateenistust veebis** päevadel, mil väljas käimine on liiga raske.
-85. **Palvetage või lugege koos.** Tuttavad sõnad, loetuna aeglaselt. Ta võib liituda tuttavates kohtades.
-86. **Laulge hümne või vaimulikku muusikat** tema traditsioonist.
-87. **Hoidke pühaderituaale.** Patareidega küünlad, õnnistamine, kaunistused, mida ta on alati kasutanud.
-88. **Jagage vaikset aega.** Istuge aias või vaadake koos päikeseloojangut.
+83. **Osalege tuttaval jumalateenistusel.** Valige vaiksem, istuge käigu lähedal ja andke sealsetele inimestele teada dementsusest.
+84. **Vaadake jumalateenistust veebist** päevadel, mil välja minek on liiga palju.
+85. **Palvetage või lugege koos.** Tuttavad sõnad, aeglaselt loetud. Ta võib kaasa öelda osi, mida tunneb.
+86. **Laulge hümne või pühamuusikat** tema traditsioonist.
+87. **Hoidke pühade rituaale.** Patareiküünlad, õnnistus, dekoratsioonid, mida ta alati kasutas.
+88. **Jagage vaikset aega.** Istuge koos aias või vaadake päikeseloojangut.
 
 ## Lemmikloomad ja loomad
 
-National Institute on Aging soovitab lemmiklooma toitmist, harjamist, jalutamist või lihtsalt tema kõrval istumist ja hoidmist.
+NIA soovitab lemmiklooma toitmist, hooldamist, jalutamist ning temaga istumist ja süles hoidmist.
 
 89. **Harjake rahulikku koera või kassi** pikkade ja aeglaste liigutustega.
-90. **Toitke lemmiklooma koos.** Teie mõõdate; tema valab.
-91. **Jalutage koeraga koos.** Rihm on teie käes.
-92. **Hoidke lemmiklooma süles.** Rahulik kass teki peal võib väga rahustav olla.
-93. **Võtke vastu külastavaid loomi.** Mõnes hooldekodus ja päevakeskuses toimuvad loomade külastused. Küsige kohapealt.
-94. **Pakkuge elutruud pehmet looma.** Kui lemmiklooma ei ole, naudivad mõned inimesed elutruu pehme kassi või koera hoidmist. Pakkuge seda lihtsalt, mitte mänguasjana, ja nõustuge ka eitava vastusega.
+90. **Toitke lemmiklooma koos.** Teie mõõdate, tema valab.
+91. **Jalutage koeraga koos.** Teie hoiate rihma.
+92. **Hoidke lemmiklooma süles.** Rahulik kass tekil võib väga rahustada.
+93. **Võtke vastu külastavaid loomi.** Mõned hooldekodud ja päevakeskused korraldavad loomakülastusi. Küsige kohapeal.
+94. **Pakkuge elutruud pehmet looma.** Kui lemmiklooma pole, nautivad mõned inimesed elutruu plüüsist kassi või koera hoidmist. Pakkuge seda lihtsalt, mitte mänguasjana, ja aktsepteerige keeldumist.
 
 ## Hooajalised tegevused
 
-Hoidke traditsioone, kuid tehke need lihtsamaks. National Institute on Aging soovitab olla realistlik ja jätta kiiretel pühadel puhkamiseks vaikne koht.
+Hoidke traditsioone, kuid lihtsamalt. NIA soovitab olla realistlik ja pakkuda pühade ajal vaikset ruumi puhkepausiks.
 
 95. **Kaunistage hooaja järgi.** Kõrvits, pärg või värsked lilled laual.
-96. **Tehke pühademaiust.** Rullige tainast või kaunistage küpsiseid. Ahjuga tegelege teie.
-97. **Riputage kaunistusi.** Purunematud ehtekuulid, mida anda üle ükshaaval.
-98. **Sõitke tulesid vaatama.** Lühike õhtusõit ei nõua muud kui seltsi.
-99. **Istutage kevadlillesibulaid.** Vajutage sibulad sügisel potti ja oodake võrseid.
-100. **Koorige maisi või herneid.** Suvine veranda töö, kauss süles.
-101. **Adresseerige pühadekaarte.** Tema kirjutab alla, paneb templi või kleebib ümbriku kinni; aadressidega tegelete teie.
+96. **Tehke pühadeks maiuspala.** Veeretage tainast või glasuurige küpsiseid. Ahju käsitsete teie.
+97. **Riputage kaunistusi.** Purunemiskindlad kaunistused, mida antakse üle ükshaaval.
+98. **Sõitke tuledevaatamisele.** Lühike õhtune sõit ei nõua muud kui seltskonda.
+99. **Istutage kevadised sibulad.** Suruge sibulad sügisel potti ja jälgige võrseid.
+100. **Kooruge maisi või herneid.** Suvine verandatöö kausiga süles.
+101. **Kirjutage pühade kaartidele aadressid.** Tema kirjutab alla, kleebib margi või sulgeb ümbriku, teie tegelete aadressidega.
 
-## Mida teha, kui tegevus ei suju?
+## Mis siis, kui tegevus ei toimi?
 
-Lõpetage ja proovige teinekord midagi muud. National Institute on Aging soovitab jälgida pettumuse märke ja lasta inimesel lihtsalt vaadata, kui ta seda eelistab. „Ei” tähendab sageli, et ülesanne on liiga raske, aeg pole sobiv või midagi muud segab, näiteks valu, nälg või müra. Tehke tegevus lihtsamaks, proovige varasemal kellaajal või alustage ise ja vaadake, kas ta liitub. Vaadake [kui ta ütleb ei](/caregiving/when-they-say-no/) ja [õhtune rahutus](/caregiving/late-day-restlessness/).
+Peatage ja proovige teisel korral midagi muud. NIA soovitab jälgida frustratsiooni ja lasta inimesel vaadata, kui ta seda eelistab. Keeldumine tähendab sageli, et ülesanne on liiga raske, aeg on vale või midagi muud häirib, näiteks valu, nälg või müra. Tehke seda lihtsamaks, proovige päeva varasemal ajal või alustage ise ja vaadake, kas ta liitub. Vaadake [kui nad ütlevad ei](/caregiving/when-they-say-no/) ja [rahulikke pärastlõunaseid tegevusi](/creative-calm/calm-afternoon-activities/).
 
-Et sobitada tegevusi söögikordade ja puhkuse vahele, vaadake [rahulikku päevakava](/activities/daily-routine/). Asjade jaoks, mida oleks hea varuks hoida, vaadake [prinditavaid tegevusi](/activities/printable/), ja kui juhite rühma, siis [rühmategevusi hooldekodus](/activities/care-home-groups/). Ka teie enda puhkus on tähtis: vaadake [hooldaja enesehoolt](/caregiving/caregiver-self-care/).
+Tegevuste sobitamiseks söögi ja puhkuse vahele vaadake [rahulikke pärastlõunaseid tegevusi](/creative-calm/calm-afternoon-activities/). Ette valmis hoidmiseks vaadake [tasuta väljatrükke mängude lehel](/games/). Kui juhite gruppi, vaadake [hooldekodude grupitegevusi](/crafts/craft-group-sessions/). Ka teie enda puhkus on tähtis: vaadake [hooldaja enesehooldust](/creative-calm/creative-self-care-for-caregivers/).
