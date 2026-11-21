@@ -6,6 +6,13 @@ import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
 
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+
+/** A saved choice: one of the twelve months and a rest day yes or no. */
+function checkBoard(b: unknown): boolean {
+  return isRecord(b) && typeof b.month === 'number' && (PACK_MONTHS as readonly number[]).includes(b.month) && typeof b.restDay === 'boolean';
+}
+
 /**
  * Seasonal puzzle pack (GAME-040): the person chooses a month, sees its three paper puzzles and prints one page.
  * The page starts on the current month of the person's device and can be changed. A rest day replaces the
@@ -50,6 +57,16 @@ export default function SeasonalPack(props: PlayProps) {
       lang={lang}
       guidance={ui.seasonalPack.guidance}
       readAloudText={ui.seasonalPack.guidance}
+      place={{
+        slug: 'seasonal-pack',
+        save: () => ({ month, restDay }),
+        check: checkBoard,
+        restore: (b) => {
+          if (!isRecord(b)) return;
+          setMonth(b.month as MonthId);
+          setRestDay(b.restDay === true);
+        },
+      }}
       footer={
         restDay ? null : (
           <div className="btn-row btn-row--center">

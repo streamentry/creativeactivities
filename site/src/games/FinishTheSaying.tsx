@@ -6,8 +6,26 @@ import { createRng, randomSeed, shuffle } from '../lib/games/random';
 import { GameFrame } from './shared/GameFrame';
 import { sounds } from './shared/sound';
 
+const isRecord = (b: unknown): b is Record<string, unknown> => typeof b === 'object' && b !== null && !Array.isArray(b);
+
+/** A saved deck (WEB-054): every saying once, as its place in the page's list, and the place on screen. */
+function checkBoard(b: unknown, total: number): boolean {
+  if (!isRecord(b) || !Array.isArray(b.order)) return false;
+  const order: unknown[] = b.order;
+  const index = b.index;
+  if (total < 1 || order.length !== total) return false;
+  if (typeof index !== 'number' || !Number.isInteger(index) || index < 0 || index >= total) return false;
+  const seen = new Set<number>();
+  for (const i of order) {
+    if (typeof i !== 'number' || !Number.isInteger(i) || i < 0 || i >= total || seen.has(i)) return false;
+    seen.add(i);
+  }
+  return true;
+}
+
 export default function FinishTheSaying(props: PlayProps) {
   const { ui, lang, content } = props;
+  const sayings = content.sayings;
   const [deck, setDeck] = useState<Saying[]>([]);
   const [index, setIndex] = useState(0);
   const [choices, setChoices] = useState<string[]>([]);
@@ -27,6 +45,14 @@ export default function FinishTheSaying(props: PlayProps) {
     setRevealed(false);
     setMessage('');
   }, [saying]);
+
+  const restoreBoard = (b: unknown) => {
+    if (!isRecord(b)) return;
+    const saved = b as { order: number[]; index: number };
+    setDeck(saved.order.map((i) => content.sayings[i]!));
+    setIndex(saved.index);
+    setMessage('');
+  };
 
   if (!saying) return null;
   const parts = { start: saying.start, end: saying.end };
@@ -61,6 +87,7 @@ export default function FinishTheSaying(props: PlayProps) {
       ui={ui}
       lang={lang}
       guidance={ui.finishTheSaying.guidance}
+      place={{ slug: 'finish-the-saying', save: () => ({ order: deck.map((s) => sayings.indexOf(s)), index }), check: (b) => checkBoard(b, sayings.length), restore: restoreBoard }}
       readAloudText={revealed ? `${saying.start} ${saying.end}. ${saying.prompt}` : `${saying.start}...`}
       message={message}
       footer={

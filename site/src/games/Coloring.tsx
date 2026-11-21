@@ -1,4 +1,4 @@
-import { useEffect, useState, type KeyboardEvent } from 'react';
+import { useState, type KeyboardEvent } from 'react';
 import { COLORING_PAGES, PAINTS, type Paint } from '../data/coloring';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -8,6 +8,24 @@ import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
 
 const INK = '#2b2b2b';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** The saved board, or null unless it names a known page and paint and fills only its regions with known paints. */
+function parseColoring(b: unknown): { page: string; paint: Paint; fills: Record<string, string> } | null {
+  if (!isRecord(b) || !isRecord(b.fills)) return null;
+  const page = COLORING_PAGES.find((p) => p.id === b.page);
+  const paint = PAINTS.find((p) => p.id === b.paint);
+  if (!page || !paint) return null;
+  const regions = new Set(page.regions.map((r) => r.id));
+  const values = new Set<string>(PAINTS.map((p) => p.value));
+  const fills: Record<string, string> = {};
+  for (const [id, value] of Object.entries(b.fills)) {
+    if (!regions.has(id) || typeof value !== 'string' || !values.has(value)) return null;
+    fills[id] = value;
+  }
+  return { page: page.id, paint, fills };
+}
 
 export default function Coloring(props: PlayProps) {
   const { ui, lang, content } = props;
@@ -22,10 +40,13 @@ export default function Coloring(props: PlayProps) {
   const paintName = (p: Paint) => (ui.coloring.paints as Record<string, string>)[p.id] ?? p.id;
   const isCompleted = page.regions.length > 0 && page.regions.every((r) => Boolean(fills[r.id]));
 
-  useEffect(() => {
+  // A new page starts blank. This runs in the change handler, not an effect, so a restored board is not wiped.
+  const changePage = (id: string) => {
+    if (id === pageId) return;
+    setPageId(id);
     setFills({});
     setMessage('');
-  }, [pageId]);
+  };
 
   const paintPart = (id: string) => {
     const nextFills = { ...fills, [id]: paint.value };
@@ -102,7 +123,7 @@ export default function Coloring(props: PlayProps) {
             legend={ui.coloring.pageLegend}
             choices={COLORING_PAGES.map((p) => ({ value: p.id, label: pageText(p.id).name }))}
             value={pageId}
-            onChange={setPageId}
+            onChange={changePage}
           />
         }
         footer={
@@ -133,6 +154,19 @@ export default function Coloring(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'coloring',
+          save: () => ({ page: pageId, paint: paint.id, fills }),
+          check: (b) => parseColoring(b) !== null,
+          restore: (b) => {
+            const saved = parseColoring(b);
+            if (!saved) return;
+            setPageId(saved.page);
+            setPaint(saved.paint);
+            setFills(saved.fills);
+            setMessage('');
+          },
+        }}
       >
         <div className="palette" role="group" aria-label={ui.coloring.colorsLabel}>
           {PAINTS.map((p) => (

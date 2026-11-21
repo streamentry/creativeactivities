@@ -15,7 +15,7 @@ Checked 2026-11-15 against [data-inventory.md](../specs/global/data-inventory.md
 | Emails to the support address (requests, corrections, safety reports, feedback) | The support mailbox | The maintainer | **TO SET.** Proposed: delete once the matter is closed, and no later than a fixed number of months after it is closed | Delete from the mailbox, its trash and any backup the mail host keeps | Counsel to confirm the period, and whether a safety report needs longer. |
 | Website on-device data (saved activities, tried marks, Today notes, text size, contrast, game sound, language choice) | The reader's browser | The reader | Until the reader removes it | The reader uses [Your data on this device](/your-data/), or clears site data | We hold no copy. Covered by `site/src/lib/your-data.test.ts`. |
 | App on-device data (SharedPreferences keys and family photo copies) | The reader's device | The reader | Until the reader removes it or deletes the app | Steps in [privacy choices](/privacy-choices/) | We hold no copy. |
-| Google Analytics 4 event data (sent through Google Tag Manager) | Google | Google, for the maintainer's account | **TO SET** in the GA4 console. The setting is not recorded in this repository | Google's data deletion tools, and the retention setting | Open maintainer decision in [data-inventory.md](../specs/global/data-inventory.md), section 6. |
+| Google Analytics 4 event data (sent through Google Tag Manager) | Google | Google, for the maintainer's account | 2 months for event data and user data, with no reset on new activity (set in the GA4 console on 2026-11-21; see [analytics-consent.md](../specs/global/analytics-consent.md)) | Google's data deletion tools, and the retention setting | Open maintainer decision in [data-inventory.md](../specs/global/data-inventory.md), section 6. |
 | Request logs at the website host (Cloudflare) | Cloudflare | Cloudflare | Per Cloudflare's policy. **TO VERIFY** in the dashboard | Not under our control; say so in the privacy notice | Observability is disabled in `site/wrangler.jsonc`. |
 | Store listings and store reviews | Apple App Store, Google Play | Apple, Google | Per each store's policy | Each store's own tools | We do not hold reviewers' data. |
 | Backups of the mailbox or the repository | The mail host and the git host | Those providers | **TO VERIFY** | Provider's tools | Check that deleted mail does not stay in a backup for longer than the schedule allows. |
@@ -70,7 +70,7 @@ A deletion counts as tested only when someone has run it end to end for that sto
 
 ## 4. Open items
 
-1. Retention period for support email, and for analytics (TO SET).
+1. Retention period for support email (TO SET). Analytics is set to 2 months.
 2. Name the owner of requests (TO SET).
 3. Counsel review of time limits, applicable laws and the wording of replies.
 4. Manual deletion runs for each store, with dates.

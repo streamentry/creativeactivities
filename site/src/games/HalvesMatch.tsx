@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { pictureUrl } from '../data/pictures';
+import { HALVES_PICTURES } from '../data/halves-match';
 import type { PlayProps, PlayUi } from '../i18n/play';
 import { fill } from '../i18n/play/format';
 import {
@@ -24,6 +25,30 @@ import { sounds } from './shared/sound';
 
 const newState = (count: number, previous: readonly string[] = []): HalvesState =>
   startHalves(createHalvesRound(count, createRng(randomSeed()), previous));
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const HALVES_SET: ReadonlySet<string> = new Set(HALVES_PICTURES);
+
+/** The saved board, or null when this game cannot show it. The selected half is never kept. */
+function parseBoard(b: unknown): { count: number; state: HalvesState } | null {
+  if (!isRecord(b)) return null;
+  const { count, round, right, joined, shown } = b;
+  if (typeof count !== 'number' || !(HALVES_COUNTS as readonly number[]).includes(count) || typeof shown !== 'boolean') return null;
+  if (!isRecord(round)) return null;
+  const { pictures, rightOrder } = round;
+  if (!isIdList(pictures, (id) => HALVES_SET.has(id)) || pictures.length !== count) return null;
+  const sameSet = (ids: unknown): ids is string[] => isIdList(ids, (id) => pictures.includes(id)) && ids.length === pictures.length;
+  if (!sameSet(rightOrder) || !sameSet(right) || !isIdList(joined, (id) => pictures.includes(id))) return null;
+  return {
+    count,
+    state: { round: { pictures: [...pictures], rightOrder: [...rightOrder] }, right: [...right], joined: [...joined], shown, selected: null },
+  };
+}
 
 type HalfLook = 'resting' | 'selected' | 'joined';
 
@@ -212,6 +237,18 @@ export default function HalvesMatch(props: PlayProps) {
           </button>
         </div>
       }
+      place={{
+        slug: 'halves-match',
+        save: () => ({ count, state: state && { ...state, selected: null } }),
+        check: (b) => parseBoard(b) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b);
+          if (!saved) return;
+          setCount(saved.count);
+          setState(saved.state);
+          setMessage('');
+        },
+      }}
     >
       <HalvesBoard
         ui={ui}

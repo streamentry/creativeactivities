@@ -19,13 +19,63 @@ import {
   startAgain,
   takeBack,
   turnOf,
+  type Board,
   type BuildGame,
+  type Cell,
+  type Step,
 } from '../lib/games/build-together';
 import { ChoiceChips } from './shared/ChoiceChips';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { moveInGrid } from './shared/gridKeys';
 import { sounds } from './shared/sound';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const isPerson = (v: unknown): v is Person => v === 0 || v === 1;
+const isBuildColor = (v: unknown): v is PatternColor => BUILD_COLORS.some((c) => c.index === v);
+const isCellOwner = (v: unknown): v is Cell => v === null || isPerson(v);
+
+/** One saved board of a size, or null. */
+function parseBoardOf(b: unknown, n: BoardSize): Board | null {
+  if (!isRecord(b)) return null;
+  const { cells, turn, steps } = b;
+  if (!Array.isArray(cells) || cells.length !== n * n || !cells.every(isCellOwner) || !isPerson(turn) || !Array.isArray(steps)) return null;
+  const parsed: Step[] = [];
+  for (const step of steps) {
+    if (!isRecord(step)) return null;
+    const { kind, index, person } = step;
+    if (!isPerson(person)) return null;
+    if (kind === 'pass') {
+      parsed.push({ kind: 'pass', person });
+    } else if (kind === 'place' && typeof index === 'number' && Number.isInteger(index) && index >= 0 && index < n * n) {
+      parsed.push({ kind: 'place', index, person });
+    } else {
+      return null;
+    }
+  }
+  return { cells, turn, steps: parsed };
+}
+
+/** The saved game, or null when this game cannot show it. */
+function parseGame(b: unknown): BuildGame | null {
+  if (!isRecord(b)) return null;
+  const { size, colors, boards } = b;
+  if (!(BOARD_SIZES as readonly unknown[]).includes(size) || !Array.isArray(colors) || colors.length !== 2 || !isRecord(boards)) return null;
+  const [first, second] = colors;
+  if (!isBuildColor(first) || !isBuildColor(second) || first === second) return null;
+  const out = {} as Record<BoardSize, Board>;
+  for (const n of BOARD_SIZES) {
+    const board = parseBoardOf(boards[String(n)], n);
+    if (!board) return null;
+    out[n] = board;
+  }
+  return { size: size as BoardSize, colors: [first, second], boards: out };
+}
 
 /** A small shape in a color, so the color is also known by its shape. The shape is drawn in the swatch's ink color. */
 function Shape({ color }: { color: PatternColorInfo }) {
@@ -159,6 +209,17 @@ export default function BuildTogether(props: PlayProps) {
             </button>
           </div>
         }
+        place={{
+          slug: 'build-together',
+          save: () => game,
+          check: (b) => parseGame(b) !== null,
+          restore: (b) => {
+            const saved = parseGame(b);
+            if (!saved) return;
+            commit(saved);
+            setMessage('');
+          },
+        }}
       >
         <div className="bt">
           <div className="bt__players">

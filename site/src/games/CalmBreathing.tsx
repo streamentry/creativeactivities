@@ -15,6 +15,13 @@ const SECONDS: Record<'slow' | 'gentle', Record<Exclude<Phase, 'ready'>, number>
 /** The pause ends on its own after this many breaths, about a minute. */
 const BREATHS = 6;
 
+/** The saved pace, or null when it is not one of the two paces. The pause itself always starts ready. */
+function parseBreathing(b: unknown): 'slow' | 'gentle' | null {
+  if (typeof b !== 'object' || b === null || Array.isArray(b)) return null;
+  const pace = (b as { pace?: unknown }).pace;
+  return pace === 'slow' || pace === 'gentle' ? pace : null;
+}
+
 /**
  * The one paced activity on the site (a recorded exception in DESIGN.md): it
  * starts only on a tap, stops on a tap or after six breaths, and announces only
@@ -76,6 +83,19 @@ export default function CalmBreathing(props: PlayProps) {
       readAloudText={message || (running ? words[phase] : ui.calmBreathing.guidance)}
       message={message}
       options={<ChoiceChips legend={ui.calmBreathing.paceLegend} choices={paces} value={pace} onChange={(v) => { setPace(v); setPhase('ready'); setBreath(0); }} />}
+      place={{
+        slug: 'calm-breathing',
+        save: () => ({ pace }),
+        check: (b) => parseBreathing(b) !== null,
+        restore: (b) => {
+          const saved = parseBreathing(b);
+          if (!saved) return;
+          setPace(saved);
+          setPhase('ready');
+          setBreath(0);
+          setMessage('');
+        },
+      }}
     >
       <div className="breathe">
         <div className="breathe__stage" aria-hidden="true">

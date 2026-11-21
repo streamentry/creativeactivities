@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { PICTURES } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { localePath } from '../i18n/locales';
@@ -13,6 +13,7 @@ import {
   monthLabel,
   resultLine,
 } from '../lib/games/daily';
+import { parsePairTiles, type SavedPairTile } from '../lib/games/pairs';
 import { createRng, randomSeed, sample } from '../lib/games/random';
 import { resizeValues } from '../lib/games/resize';
 import { ChoiceChips } from './shared/ChoiceChips';
@@ -22,6 +23,40 @@ import { pictureNamer } from './shared/PictureTile';
 import { sounds } from './shared/sound';
 
 const SIZES = [4, 6, 8, 12] as const;
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/** A list of distinct ids, each passing [ok]. Reads only: a bad saved value is refused, never repaired. */
+const isIdList = (v: unknown, ok: (id: string) => boolean): v is string[] =>
+  Array.isArray(v) && v.every((id) => typeof id === 'string' && ok(id)) && new Set(v).size === v.length;
+
+const PICTURE_IDS: ReadonlySet<string> = new Set(PICTURES.map((p) => p.id));
+const DAY_KEY = /^\d{4}-\d{2}-\d{2}$/;
+
+const PICTURE_ID_LIST: readonly string[] = PICTURES.map((p) => p.id);
+
+/**
+ * The saved board (WEB-054): its size, view, pictures, daily day and the layout
+ * with matched pairs. The layout must be a whole board for the saved pictures,
+ * or the daily card for the saved day. A daily card is refused where it is not
+ * offered. Nothing is repaired: a bad value makes the whole place unusable.
+ */
+export function parseBoard(
+  b: unknown,
+  dailyAvailable: boolean,
+): { size: number; view: 'showing' | 'hidden'; picks: string[]; day: string | null; tiles: SavedPairTile[] } | null {
+  if (!isRecord(b)) return null;
+  const { size, view, picks, day, tiles } = b;
+  if (typeof size !== 'number' || !(SIZES as readonly number[]).includes(size)) return null;
+  if (view !== 'showing' && view !== 'hidden') return null;
+  if (!isIdList(picks, (id) => PICTURE_IDS.has(id)) || picks.length !== size / 2) return null;
+  if (day !== null && !(typeof day === 'string' && DAY_KEY.test(day))) return null;
+  if (day !== null && !dailyAvailable) return null;
+  const values = typeof day === 'string' ? dailyValues(day, PICTURE_ID_LIST) : picks;
+  const layout = parsePairTiles(tiles, values);
+  if (layout === null) return null;
+  return { size, view: view as 'showing' | 'hidden', picks, day: day as string | null, tiles: layout };
+}
 
 export default function PicturePairs(props: PlayProps) {
   const { ui, lang } = props;
@@ -41,6 +76,9 @@ export default function PicturePairs(props: PlayProps) {
   const ids = useMemo(() => PICTURES.map((p) => p.id), []);
   const freshPicks = (pairs: number) => sample(ids, pairs, createRng(randomSeed()));
   const [picks, setPicks] = useState<string[]>(() => freshPicks(size / 2));
+  // WEB-054: the shared board's layout and matched pairs, kept for Rest, and a saved layout to rebuild once.
+  const boardTiles = useRef<SavedPairTile[]>([]);
+  const [resume, setResume] = useState<SavedPairTile[] | undefined>(undefined);
   const values = useMemo(() => (day ? dailyValues(day, ids) : picks), [day, ids, picks]);
   // GAME-061 print: the month the viewer is in, one card title a day, the same as the day picker's dates.
   const nameOf = useMemo(() => pictureNamer(props), [props.pictureNames, props.ui]);
@@ -166,8 +204,38 @@ export default function PicturePairs(props: PlayProps) {
           </div>
         ) : null
       }
+      place={{
+        slug: 'picture-pairs',
+        save: () => ({ size, view, picks, day, tiles: boardTiles.current }),
+        check: (b) => parseBoard(b, dailyAvailable) !== null,
+        restore: (b) => {
+          const saved = parseBoard(b, dailyAvailable);
+          if (!saved) return;
+          setSize(saved.size);
+          setView(saved.view);
+          setPicks(saved.picks);
+          setDay(saved.day);
+          setDone(false);
+          setCopied(false);
+          setResume(saved.tiles);
+          setRound((r) => r + 1);
+        },
+      }}
     >
-      <PairsBoard play={props} values={values} hidden={!daily && view === 'hidden'} round={round} keepPlace onMessage={setMessage} onComplete={() => setDone(true)} />
+      <PairsBoard
+        play={props}
+        values={values}
+        hidden={!daily && view === 'hidden'}
+        round={round}
+        keepPlace
+        resume={resume}
+        onResumed={() => setResume(undefined)}
+        onTiles={(t) => {
+          boardTiles.current = t;
+        }}
+        onMessage={setMessage}
+        onComplete={() => setDone(true)}
+      />
     </GameFrame>
     {calendar ? (
       <section className="sheet sheet--calendar" aria-hidden="true">

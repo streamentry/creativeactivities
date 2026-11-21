@@ -1,0 +1,180 @@
+---
+/**
+ * CNT-007: a short family note to tell another family member or a visiting helper what the person enjoyed today and what
+ * to try next time. It is not a care record and it does not score how someone did. One sheet on A4 and US Letter, black
+ * on white, text at 14 pt or more. Not indexed: it is a form to fill in, not a page of guidance.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { breadcrumbs } from '../../lib/schema';
+import { SITE } from '../../lib/site';
+import { PAUSE_LINE } from '../../lib/scope';
+
+const crumbs = [
+  { href: '/printables/', label: 'Printables' },
+  { href: '/printables/family-note/', label: 'Family note' },
+];
+const ENJOYED_LINES = 3;
+const NEXT_LINES = 3;
+const GOOD_TO_KNOW_LINES = 2;
+---
+<BaseLayout
+  title="Family note"
+  description="A short printable note to tell another family member or a visiting helper what the person enjoyed today and what to try next time. One sheet, black and white."
+  jsonLd={[breadcrumbs(crumbs)]}
+  noindex
+  canonicalPath="/printables/family-note/"
+>
+  <Breadcrumbs items={crumbs} />
+  <div class="container family-note-page">
+    <header class="family-note-page__intro no-print">
+      <p class="eyebrow">Printables</p>
+      <h1>Family note</h1>
+      <p class="lede">
+        A short note for another family member or a visiting helper: what the person enjoyed today, and what to try next time.
+        It is not a record of care and it is not a rating of anyone. Print it on one sheet. Use Print in your browser menu.
+      </p>
+    </header>
+
+    <article class="family-note" aria-label="Family note">
+      <p class="family-note__eyebrow">Family note</p>
+      <h2 class="family-note__title">Today we did an activity together</h2>
+      <p class="family-note__field">For: <span class="blank-line blank-line--wide"></span></p>
+      <p class="family-note__field">Date: <span class="blank-line blank-line--short"></span> Activity: <span class="blank-line blank-line--short"></span></p>
+
+      <h3>What they enjoyed today</h3>
+      {Array.from({ length: ENJOYED_LINES }, () => (
+        <span class="blank-line blank-line--wide"></span>
+      ))}
+
+      <h3>What to try next time</h3>
+      <p class="family-note__hint">Keep it small. One idea is enough.</p>
+      {Array.from({ length: NEXT_LINES }, () => (
+        <span class="blank-line blank-line--wide"></span>
+      ))}
+
+      <h3>Good to know for next time</h3>
+      <p class="family-note__hint">For example: a quieter room, a shorter time, a seat by the window.</p>
+      {Array.from({ length: GOOD_TO_KNOW_LINES }, () => (
+        <span class="blank-line blank-line--wide"></span>
+      ))}
+
+      <div class="family-note__stop">
+        <p><strong>It is okay to stop.</strong></p>
+        <p>{PAUSE_LINE}</p>
+      </div>
+
+      <p class="family-note__from">
+        From: <span class="blank-line blank-line--short"></span> Contact: <span class="blank-line blank-line--short"></span>
+      </p>
+      <p class="family-note__foot">Ready-made activity cards: {SITE.domain}/activity/</p>
+    </article>
+  </div>
+</BaseLayout>
+
+<style>
+  .family-note-page {
+    max-width: var(--content-max);
+  }
+  .family-note-page__intro {
+    margin-block-end: var(--space-lg);
+  }
+  .family-note {
+    color: var(--gm-on-surface);
+    background: var(--gm-surface);
+    border: 1px solid var(--gm-outline);
+    border-radius: var(--radius-md);
+    padding: var(--space-lg);
+    max-width: 46rem;
+  }
+  .family-note__eyebrow {
+    margin: 0;
+    font-weight: 700;
+    color: var(--gm-on-surface-variant);
+  }
+  .family-note h2 {
+    margin: var(--space-xs) 0 var(--space-sm);
+  }
+  .family-note h3 {
+    margin: var(--space-md) 0 var(--space-xs);
+  }
+  .family-note__field {
+    margin: var(--space-xs) 0 0;
+  }
+  .family-note__hint {
+    margin: 0;
+    color: var(--gm-on-surface-variant);
+  }
+  .blank-line {
+    display: block;
+    min-height: 2.5rem;
+    margin-block: var(--space-2xs);
+    border-block-end: 1px solid var(--gm-on-surface);
+  }
+  .blank-line--wide {
+    width: 100%;
+  }
+  .blank-line--short {
+    display: inline-block;
+    width: 8rem;
+    min-height: 0;
+    margin: 0;
+    vertical-align: baseline;
+  }
+  .family-note__stop {
+    margin-block: var(--space-md);
+    padding: var(--space-sm);
+    border: 1px solid var(--gm-on-surface);
+  }
+  .family-note__stop p {
+    margin: 0;
+  }
+  .family-note__from,
+  .family-note__foot {
+    margin: var(--space-md) 0 0;
+  }
+  .family-note__foot {
+    color: var(--gm-on-surface-variant);
+    font-size: var(--text-sm);
+  }
+
+  @media print {
+    .family-note-page {
+      max-width: none;
+    }
+    .family-note {
+      max-width: none;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      background: none;
+      color: #000;
+    }
+    .family-note p,
+    .family-note h2,
+    .family-note h3 {
+      font-size: 14pt;
+      line-height: 1.35;
+    }
+    .family-note h2 {
+      font-size: 20pt;
+    }
+    .family-note h3 {
+      font-size: 16pt;
+      break-after: avoid;
+      color: #000;
+    }
+    .family-note__eyebrow,
+    .family-note__foot,
+    .family-note__hint {
+      color: #000;
+    }
+    .blank-line {
+      min-height: 9mm;
+      border-color: #000;
+    }
+    .family-note__stop {
+      border-color: #000;
+    }
+  }
+</style>

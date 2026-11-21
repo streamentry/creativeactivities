@@ -59,6 +59,56 @@ export function tapPair(state: PairsState, index: number): PairsState {
   return { ...state, selected: null, mismatch: [state.selected, index], lastMatch: null };
 }
 
+/** One tile as a game keeps it (WEB-054): the picture and whether it is matched. */
+export interface SavedPairTile {
+  value: string;
+  matched: boolean;
+}
+
+/** The board in layout order, for a game to keep on this device. No keys, no selection. */
+export function savePairs(state: PairsState): SavedPairTile[] {
+  return state.tiles.map((t) => ({ value: t.value, matched: t.matched }));
+}
+
+/**
+ * A board rebuilt in exactly the saved layout and matched pairs. Callers must
+ * check the tiles with parsePairTiles first.
+ */
+export function restorePairs(tiles: readonly SavedPairTile[]): PairsState {
+  return {
+    tiles: tiles.map((t, i) => ({ key: `r${i}`, value: t.value, matched: t.matched })),
+    selected: null,
+    mismatch: null,
+    lastMatch: null,
+  };
+}
+
+const isRecordValue = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+
+/**
+ * The saved tiles, when they are a whole board for exactly `values`: each value
+ * on two tiles, both tiles of a pair agreeing on matched, nothing else. Returns
+ * null for anything else. Never repairs a bad value.
+ */
+export function parsePairTiles(raw: unknown, values: readonly string[]): SavedPairTile[] | null {
+  if (!Array.isArray(raw) || raw.length !== values.length * 2) return null;
+  const allowed = new Set(values);
+  const seen = new Map<string, boolean[]>();
+  const out: SavedPairTile[] = [];
+  for (const entry of raw) {
+    if (!isRecordValue(entry)) return null;
+    const { value, matched } = entry;
+    if (typeof value !== 'string' || !allowed.has(value) || typeof matched !== 'boolean') return null;
+    seen.set(value, [...(seen.get(value) ?? []), matched]);
+    out.push({ value, matched });
+  }
+  for (const flags of seen.values()) {
+    if (flags.length !== 2 || flags[0] !== flags[1]) return null;
+  }
+  if (seen.size !== values.length) return null;
+  return out;
+}
+
 export function isComplete(state: PairsState): boolean {
   return state.tiles.length > 0 && state.tiles.every((t) => t.matched);
 }

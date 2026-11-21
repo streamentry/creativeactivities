@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { PERSON_SHAPE, PLACES, type Person } from '../data/collage-board';
+import { PERSON_SHAPE, PLACES, TRAY_SETS, type Person } from '../data/collage-board';
 import { pictureUrl } from '../data/pictures';
 import type { PlayProps } from '../i18n/play';
 import { fill } from '../i18n/play/format';
@@ -13,6 +13,9 @@ import {
   pass,
   placeAt,
   putBack,
+  type Board,
+  type Placed,
+  type Step,
   startAgain,
   takeBack,
   trayOf,
@@ -23,6 +26,52 @@ import { PAUSE_LINE } from '../lib/scope';
 import { GameFrame } from './shared/GameFrame';
 import { Icon } from './shared/Icon';
 import { sounds } from './shared/sound';
+
+const isRecord = (v: unknown): v is Record<string, unknown> => typeof v === 'object' && v !== null && !Array.isArray(v);
+const isPerson = (v: unknown): v is Person => v === 0 || v === 1;
+const ALL_PICTURES: ReadonlySet<string> = new Set(TRAY_SETS.flatMap((set) => [...set]));
+
+/** One board (places, turn and steps), or null unless every place, step and person is valid. */
+function parseBoard(b: unknown): Board | null {
+  if (!isRecord(b)) return null;
+  const { cells, turn, steps } = b;
+  if (!Array.isArray(cells) || cells.length !== PLACES || !isPerson(turn) || !Array.isArray(steps)) return null;
+  const places: (Placed | null)[] = [];
+  for (const cell of cells) {
+    if (cell === null) {
+      places.push(null);
+      continue;
+    }
+    if (!isRecord(cell) || typeof cell.picture !== 'string' || !ALL_PICTURES.has(cell.picture) || !isPerson(cell.person)) return null;
+    places.push({ picture: cell.picture, person: cell.person });
+  }
+  const log: Step[] = [];
+  for (const step of steps) {
+    if (!isRecord(step) || !isPerson(step.person)) return null;
+    if (step.kind === 'pass') {
+      log.push({ kind: 'pass', person: step.person });
+    } else if (step.kind === 'place' && typeof step.place === 'number' && Number.isInteger(step.place) && step.place >= 0 && step.place < PLACES) {
+      log.push({ kind: 'place', place: step.place, person: step.person });
+    } else {
+      return null;
+    }
+  }
+  return { cells: places, turn, steps: log };
+}
+
+/** The saved game, or null unless the set, the chosen cut-out (in that set's tray) and both boards are valid. */
+function parseCollage(b: unknown): CollageGame | null {
+  if (!isRecord(b)) return null;
+  const { set, chosen } = b;
+  if (typeof set !== 'number' || !Number.isInteger(set) || set < 0 || set >= TRAY_SETS.length) return null;
+  const tray = TRAY_SETS[set] ?? [];
+  if (chosen !== null && (typeof chosen !== 'string' || !tray.includes(chosen))) return null;
+  const board = parseBoard(b);
+  if (!board) return null;
+  const before = b.before === null ? null : parseBoard(b.before);
+  if (b.before !== null && !before) return null;
+  return { ...board, set, chosen: chosen === null ? null : chosen, before };
+}
 
 /**
  * Collage board (GAME-033): two people place cut-outs on one shared board, taking turns. Each person's pieces carry
@@ -129,6 +178,24 @@ export default function CollageBoard(props: PlayProps) {
         guidance={ui.collageBoard.guidance}
         message={message}
         onRestart={restart}
+        place={{
+          slug: 'collage-board',
+          save: () => ({
+            cells: latest.current.cells,
+            turn: latest.current.turn,
+            steps: latest.current.steps,
+            set: latest.current.set,
+            chosen: latest.current.chosen,
+            before: latest.current.before,
+          }),
+          check: (b) => parseCollage(b) !== null,
+          restore: (b) => {
+            const saved = parseCollage(b);
+            if (!saved) return;
+            commit(saved);
+            setMessage('');
+          },
+        }}
         footer={
           <div className="btn-row btn-row--center">
             <button ref={passButton} type="button" className="btn" onClick={passTurn}>

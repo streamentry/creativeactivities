@@ -48,8 +48,9 @@ workflow after the page weight budget. Today it passes with a warning, which the
 
 ## Options, for the maintainer to choose
 
-1. **Record the plan.** If the account is on the Free plan, the next language page type could fail a deploy. Moving to the
-   Paid plan or asking for a higher limit buys room but not ten times.
+1. **Record the plan.** Recorded 2026-11-21: the account that serves the site is on the Workers Paid plan (checked in
+   the Cloudflare dashboard), so the limit is 100,000 files per version and `check:capacity` checks against it by default.
+   Paid buys room, but not ten times the pages.
 2. **Shard the deploy.** Serve groups of languages from separate Workers behind the same domain. This needs routing and
    one deploy per group.
 3. **Render the long tail on demand** (PLAT-016). Keep indexable pages static and render the rest at the edge. This

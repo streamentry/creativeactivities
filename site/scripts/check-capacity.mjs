@@ -2,8 +2,9 @@
 // Hosting capacity check (PLAT-015): counts what dist/ holds and compares it with the limits Workers Static Assets
 // documents, then projects ten times the pages. Warns at 80% of the file limit and fails at 98% (or on a file over 25 MiB),
 // so a release that could not deploy is found by the build and not by the deploy.
-// The repository does not say which Cloudflare plan the account is on, so the Free limit is assumed.
-// Usage: node scripts/check-capacity.mjs [--plan=paid]     (run after `pnpm build`)
+// The Cloudflare account that serves the site is on the Workers Paid plan (checked in the dashboard on 2026-11-21),
+// so the Paid limit applies by default; --plan=free checks against the Free limit.
+// Usage: node scripts/check-capacity.mjs [--plan=free]     (run after `pnpm build`)
 // The numbers and the options for what to do next are in docs/engineering/hosting-capacity.md.
 
 import { existsSync, readdirSync, statSync } from 'node:fs';
@@ -37,7 +38,7 @@ function main() {
     console.error(`Unknown plan "${asked}": use --plan=free or --plan=paid.`);
     process.exit(2);
   }
-  const plan = asked === 'paid' ? 'paid' : 'free';
+  const plan = asked === 'free' ? 'free' : 'paid';
   const summary = summarize(listFiles(DIST));
   const result = assess(summary, { plan });
   for (const line of describe(summary, result)) console.log(line);

@@ -1,32 +1,23 @@
 import { SITE } from './site';
+import { SEARCH_CRAWLERS, TRAINING_CRAWLERS, USER_TRIGGERED_CRAWLERS } from './ai-crawlers';
 
 /**
- * Crawlers of AI search, assistants and model training that are named on
- * purpose. Each is allowed, as `*` already allows it: a named group makes the
- * policy explicit and survives a later change to the wildcard group. To opt
- * one out, replace its `Allow: /` with `Disallow: /`.
+ * Generates `robots.txt` from the crawler lists in `ai-crawlers.ts`. Everyone
+ * may read the public pages by default; each named search and user-triggered
+ * crawler gets an explicit allow; each training crawler gets `Disallow: /`.
+ * `robots.txt` is a request, not access control.
  */
-export const AI_CRAWLERS = [
-  'OAI-SearchBot',
-  'ChatGPT-User',
-  'GPTBot',
-  'Claude-SearchBot',
-  'Claude-User',
-  'ClaudeBot',
-  'PerplexityBot',
-  'Perplexity-User',
-  'Google-Extended',
-  'Applebot-Extended',
-  'CCBot',
-] as const;
-
 export function renderRobots(): string {
   return [
     'User-agent: *',
     'Allow: /',
     '',
-    '# AI search and assistant crawlers, named so the policy is explicit: all may read and cite the public pages.',
-    ...AI_CRAWLERS.flatMap((bot) => [`User-agent: ${bot}`, 'Allow: /', '']),
+    '# Search crawlers: allowed. Googlebot and Bingbot are never blocked.',
+    ...SEARCH_CRAWLERS.flatMap((bot) => [`User-agent: ${bot}`, 'Allow: /', '']),
+    '# Fetchers that act for one person\'s question: allowed.',
+    ...USER_TRIGGERED_CRAWLERS.flatMap((bot) => [`User-agent: ${bot}`, 'Allow: /', '']),
+    '# AI training crawlers: disallowed (SEO-035). This is a request, not access control.',
+    ...TRAINING_CRAWLERS.flatMap((bot) => [`User-agent: ${bot}`, 'Disallow: /', '']),
     `# A plain-text map for AI answer engines: ${SITE.url}/llms.txt`,
     `# Self-contained summaries of every page: ${SITE.url}/llms-full.txt`,
     '',

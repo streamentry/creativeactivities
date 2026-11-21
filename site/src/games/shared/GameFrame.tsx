@@ -7,6 +7,19 @@ import { ReadAloud } from './ReadAloud';
 import { speechOf, stopReading } from '../../lib/games/readAloud';
 import { hydrateSettings, settingsStore, useSound } from './settings';
 import { sounds } from './sound';
+import { clearPlace, keepsPlace, loadPlace, savePlace } from './place';
+
+/** A game's board, kept on this device when the person rests (WEB-054). */
+export interface KeptPlace {
+  /** The game's slug. Photo games never keep a place. */
+  slug: string;
+  /** The board's own state as plain JSON: no photos, no scores, no timestamps. */
+  save: () => unknown;
+  /** True when a saved board has the shape this game needs. Called before the offer. */
+  check: (board: unknown) => boolean;
+  /** Puts a checked board back. */
+  restore: (board: unknown) => void;
+}
 
 interface GameFrameProps {
   ui: PlayUi;
@@ -24,10 +37,29 @@ interface GameFrameProps {
   restartLabel?: string;
   /** Optional spoken text for ReadAloud, defaulting to guidance. */
   readAloudText?: string;
+  /** WEB-054: keeps the place on this device between visits. Omit for no saved place. */
+  place?: KeptPlace;
 }
 
-export function GameFrame({ ui, lang, guidance, message, options, children, footer, onRestart, onRestingChange, restartLabel, readAloudText }: GameFrameProps) {
+export function GameFrame({ ui, lang, guidance, message, options, children, footer, onRestart, onRestingChange, restartLabel, readAloudText, place }: GameFrameProps) {
   const sound = useSound();
+  // A board saved on an earlier visit, offered once on return. undefined means no offer.
+  const [offered, setOffered] = useState<unknown>(undefined);
+  useEffect(() => {
+    if (!place || !keepsPlace(place.slug)) return;
+    const saved = loadPlace(place.slug);
+    if (saved === undefined) return;
+    let usable = false;
+    try {
+      usable = place.check(saved);
+    } catch {
+      usable = false;
+    }
+    if (usable) setOffered(saved);
+    else clearPlace(place.slug);
+    // Read once, when the game opens; the place is kept by Rest, not by each change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [started, setStarted] = useState(false);
   const [answer, setAnswer] = useState<FeedbackAnswer | null>(null);
   const [canAsk, setCanAsk] = useState(false);
@@ -81,7 +113,24 @@ export function GameFrame({ ui, lang, guidance, message, options, children, foot
   const rest = () => {
     sounds.tap();
     stopSpeech();
+    if (place) {
+      try {
+        savePlace(place.slug, place.save());
+      } catch {
+        // Not saved; the place is still kept while this page is open.
+      }
+    }
     setResting(true);
+  };
+  const carryOn = () => {
+    sounds.tap();
+    if (place && offered !== undefined) place.restore(offered);
+    setOffered(undefined);
+  };
+  const startFresh = () => {
+    sounds.tap();
+    if (place) clearPlace(place.slug);
+    setOffered(undefined);
   };
 
   return (
@@ -103,6 +152,21 @@ export function GameFrame({ ui, lang, guidance, message, options, children, foot
         </div>
       ) : null}
       <div hidden={resting}>
+        {offered !== undefined ? (
+          <div className="game__place">
+            <p>{ui.frame.placeText}</p>
+            <div className="game__rest-actions">
+              <button type="button" className="btn btn--primary" onClick={carryOn}>
+                <Icon name="play" />
+                {ui.frame.placeResume}
+              </button>
+              <button type="button" className="btn btn--quiet" onClick={startFresh}>
+                <Icon name="refresh" />
+                {ui.frame.placeFresh}
+              </button>
+            </div>
+          </div>
+        ) : null}
         {options ? <div className="game__options">{options}</div> : null}
         <p className="game__guidance">{guidance}</p>
         <ReadAloud ui={ui} lang={lang} text={readAloudText ?? guidance} />
@@ -122,6 +186,8 @@ export function GameFrame({ ui, lang, guidance, message, options, children, foot
                 sounds.tap();
                 track('activity_restart');
                 stopSpeech();
+                if (place) clearPlace(place.slug);
+                setOffered(undefined);
                 onRestart();
               }}
             >

@@ -69,6 +69,17 @@ const headerRules = existsSync(join(DIST, '_headers'))
 const strictPolicy = (urlPath) =>
   headerRules.some((r) => r.pattern.test(urlPath) && /connect-src 'self';/.test(r.headers) && !/google/.test(r.headers));
 
+// Pages that load no analytics and show no consent bar, matched by path in every language. Photo pairs and
+// Picture puzzle open a family's own photo; the kids guides and their section are written for children (CNT-880).
+// Keep this list in step with `analytics={false}` in views/GameView.astro, GuideView.astro and SectionView.astro.
+// Each rule must match at least one built page, so the check cannot pass by matching nothing.
+const NO_ANALYTICS_PAGES = [
+  { name: 'Photo pairs', re: /(^|\/)games\/photo-pairs\/$/ },
+  { name: 'Picture puzzle', re: /(^|\/)games\/picture-puzzle\/$/ },
+  { name: 'the kids guides', re: /(^|\/)kids\/([^/]+\/)?$/ },
+];
+const noAnalyticsMatches = new Map(NO_ANALYTICS_PAGES.map((p) => [p.name, 0]));
+
 // TSA-041: the header policy must not allow scripts with 'unsafe-inline', and every
 // inline script hash that Astro writes into a page's meta CSP must also be listed in
 // the header, because browsers apply both policies and the header would block it.
@@ -230,10 +241,14 @@ for (const file of htmlFiles) {
       if (!hasRule) err(rel, 'the finder has no rule to noindex combinations of three or more fit filters');
     }
 
-    if (/(^|\/)games\/photo-pairs\/$/.test(path)) {
-      if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, 'Photo pairs loads Google Analytics');
-      if (!strictPolicy(path)) err(rel, 'Photo pairs has no strict Content-Security-Policy rule in _headers');
+    const noAnalytics = NO_ANALYTICS_PAGES.find((p) => p.re.test(path));
+    if (noAnalytics) {
+      noAnalyticsMatches.set(noAnalytics.name, noAnalyticsMatches.get(noAnalytics.name) + 1);
+      if (/googletagmanager\.com\/(gtag\/js|gtm\.js)/.test(html)) err(rel, `${noAnalytics.name} loads Google Analytics`);
+      if (/<meta name="ca-gtm"/.test(html)) err(rel, `${noAnalytics.name} has the analytics meta tag (ca-gtm)`);
+      if (/data-consent-bar|class="consent-bar"/.test(html)) err(rel, `${noAnalytics.name} shows the analytics consent bar`);
     }
+    if (/(^|\/)games\/photo-pairs\/$/.test(path) && !strictPolicy(path)) err(rel, 'Photo pairs has no strict Content-Security-Policy rule in _headers');
 
     const prefix = prefixIn(path);
     const patient = prefix && PATIENT_WORDS[prefix];
@@ -311,6 +326,7 @@ for (const file of htmlFiles) {
   }
 }
 
+for (const [name, count] of noAnalyticsMatches) if (count === 0) err('build', `no built page matched "${name}", so its no-analytics rule checked nothing`);
 for (const [key, pages] of titles) if (pages.length > 1) err(pages.join(', '), `duplicate title "${key.split('|').slice(1).join('|')}"`);
 for (const [desc, pages] of descriptions) if (pages.length > 1) err(pages.join(', '), `duplicate description`);
 

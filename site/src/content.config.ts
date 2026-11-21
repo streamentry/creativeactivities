@@ -75,6 +75,8 @@ const guideSchema = z.object({
     health: z.boolean().default(false),
     /** Shows the crisis-safe route (WEB-061) on pages that invite talk about feelings, grief or loss. */
     crisisRoute: z.boolean().default(false),
+    /** Who is answerable for the review queue (PLAT-012): a role, never a name. Defaulted by rule when absent. */
+    reviewOwner: z.enum(REVIEW_OWNER_ROLES).optional(),
 });
 
 const guides = defineCollection({
@@ -103,6 +105,7 @@ const guidesI18n = defineCollection({
 });
 
 import { VARIATION_KINDS, activityCardSchema } from './lib/activity-schema';
+import { REVIEW_OWNER_ROLES } from './lib/review-owner';
 
 export { ACTIVITY_GROUPS, ACTIVITY_SETTINGS, ACTIVITY_TYPES, VARIATION_KINDS } from './lib/activity-schema';
 
