@@ -2047,5 +2047,147 @@
   "reminderHowItWorks": "Each reminder names that day's activity. There is none on a day the app has already been opened. If the app is not opened for two weeks, reminders slow to once a week and stop after six weeks. Opening the app starts them again.",
   "@reminderHowItWorks": {
     "description": "Explains on the reminder screen how reminders adapt, so they never feel like spam. Plain, no guilt."
+  },
+  "menuPersonalPlan": "My plan for a visit",
+  "@menuPersonalPlan": {
+    "description": "Menu row that opens the person's short plan of up to five activities for one visit."
+  },
+  "planTitle": "My plan for a visit",
+  "@planTitle": {
+    "description": "Title of the personal plan page. Short."
+  },
+  "planIntro": "Choose up to five activities for one visit, such as a Sunday with Dad. The plan is kept on this phone only. It has no dates and no reminders.",
+  "@planIntro": {
+    "description": "Intro on the personal plan page. Plain; says where the plan is kept."
+  },
+  "planMake": "Make a plan",
+  "@planMake": {
+    "description": "Button that starts a new personal plan."
+  },
+  "planNameLabel": "Plan name, for example Sunday with Dad",
+  "@planNameLabel": {
+    "description": "Text field label for the plan's title."
+  },
+  "planNoteLabel": "Note (optional)",
+  "@planNoteLabel": {
+    "description": "Text field label for an optional note on the plan."
+  },
+  "planSave": "Save plan",
+  "@planSave": {
+    "description": "Button that saves the plan name and note."
+  },
+  "planNameRequired": "Please write a name for the plan.",
+  "@planNameRequired": {
+    "description": "Shown when the person tries to save a plan with no name."
+  },
+  "planNoActivities": "No activities yet. Add up to five for this visit.",
+  "@planNoActivities": {
+    "description": "Shown on a plan with no activities."
+  },
+  "planAddActivity": "Add an activity",
+  "@planAddActivity": {
+    "description": "Button that opens the list of activities to add to the plan."
+  },
+  "planFullMessage": "A plan holds up to five activities. Remove one to add another.",
+  "@planFullMessage": {
+    "description": "Shown when the plan already has five activities."
+  },
+  "planRemoveActivity": "Remove",
+  "@planRemoveActivity": {
+    "description": "Button that removes one activity from the plan."
+  },
+  "planRemoveActivityNamed": "Remove {name} from the plan",
+  "@planRemoveActivityNamed": {
+    "description": "Accessible label for the remove button on one plan activity.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "description": "The activity name."
+      }
+    }
+  },
+  "planActivityMissing": "This activity is no longer in the app. You can remove it.",
+  "@planActivityMissing": {
+    "description": "Shown for a plan item whose activity is no longer available."
+  },
+  "planEditDetails": "Edit name and note",
+  "@planEditDetails": {
+    "description": "Button that opens the name and note form for the plan."
+  },
+  "planDelete": "Delete this plan",
+  "@planDelete": {
+    "description": "Button that deletes the whole plan from this phone."
+  },
+  "planDeleteTitle": "Delete this plan?",
+  "@planDeleteTitle": {
+    "description": "Confirmation dialog title for deleting the plan."
+  },
+  "planDeleteBody": "The plan is removed from this phone. The activities themselves are not changed.",
+  "@planDeleteBody": {
+    "description": "Confirmation dialog body for deleting the plan."
+  },
+  "planDeleteConfirm": "Delete plan",
+  "@planDeleteConfirm": {
+    "description": "Confirm button in the delete-plan dialog."
+  },
+  "planUnreadable": "The saved plan could not be read. It has not been changed or deleted.",
+  "@planUnreadable": {
+    "description": "Shown when the saved plan record exists but cannot be read."
+  },
+  "planStartNew": "Start a new plan",
+  "@planStartNew": {
+    "description": "Button shown only when the saved plan cannot be read; starts over after confirmation."
+  },
+  "planStartNewTitle": "Start a new plan?",
+  "@planStartNewTitle": {
+    "description": "Confirmation dialog title for replacing an unreadable plan."
+  },
+  "planStartNewBody": "The plan that could not be read is removed from this phone.",
+  "@planStartNewBody": {
+    "description": "Confirmation dialog body for replacing an unreadable plan."
+  },
+  "planStartNewConfirm": "Start new",
+  "@planStartNewConfirm": {
+    "description": "Confirm button in the start-a-new-plan dialog."
+  },
+  "planPickTitle": "Choose an activity",
+  "@planPickTitle": {
+    "description": "Title of the page that lists activities to add to the plan."
+  },
+  "planAlreadyAdded": "Already in the plan",
+  "@planAlreadyAdded": {
+    "description": "Shown beside an activity that is already in the plan."
+  },
+  "planPrivacy": "Nothing is sent anywhere. Deleting the app also removes the plan.",
+  "@planPrivacy": {
+    "description": "Privacy line on the personal plan page."
+  },
+  "materialsHeading": "Materials",
+  "@materialsHeading": {
+    "description": "Heading above the materials checklist for an activity."
+  },
+  "materialsIHaveThis": "I have this",
+  "@materialsIHaveThis": {
+    "description": "State label for a material the person already has."
+  },
+  "materialsNeedToGet": "Need to get",
+  "@materialsNeedToGet": {
+    "description": "State label for a material the person still needs."
+  },
+  "materialsAllReady": "You have everything you need",
+  "@materialsAllReady": {
+    "description": "Shown when every material for an activity is ticked. Calm; no shopping prompt."
+  },
+  "planSaveFailed": "The plan could not be saved on this phone. Please try again.",
+  "@planSaveFailed": {
+    "description": "Shown on the personal plan page when the device refuses to save a change."
+  },
+  "materialsUnreadable": "The saved ticks could not be read. They have not been changed.",
+  "@materialsUnreadable": {
+    "description": "Shown in the materials checklist when the saved ticks cannot be read."
+  },
+  "materialsSaveFailed": "This tick could not be saved on this phone. Please try again.",
+  "@materialsSaveFailed": {
+    "description": "Shown in the materials checklist when the device refuses to save a tick."
   }
 }

@@ -16,6 +16,7 @@ import 'package:creative_activities/features/gentle_activities/presentation/pict
 import 'package:creative_activities/features/habits/presentation/habits_page.dart';
 import 'package:creative_activities/features/language/presentation/language_page.dart';
 import 'package:creative_activities/features/legal/presentation/legal_info_page.dart';
+import 'package:creative_activities/features/plan/presentation/personal_plan_page.dart';
 import 'package:creative_activities/features/reminders/data/reminder_scheduler.dart';
 import 'package:creative_activities/features/reminders/presentation/reminder_page.dart';
 import 'package:creative_activities/features/today/presentation/today_page.dart';
@@ -134,6 +135,8 @@ class _GentleHomePageState extends State<GentleHomePage>
         _open(const MainNavigation());
       case HomeMenuAction.dailyMoment:
         _open(const DailyMomentPage(pictures: ActivityPicture.samples));
+      case HomeMenuAction.personalPlan:
+        _open(const PersonalPlanPage());
       case HomeMenuAction.planner:
         _open(const ActivityPlannerPage());
       case HomeMenuAction.progress:

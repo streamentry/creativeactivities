@@ -149,6 +149,8 @@ Depends on: APP-001, APP-002, GM-003, GM-027.
 
 Risks / not doing: Do not build a calendar. A plan is a short list.
 
+Status note (2026-11-22): Built as a personal plan page with a title, an optional note and up to five activity ids, stored on the device under `personal_plan.v1`, reached from the Home menu row "My plan for a visit". An unreadable saved record is reported and kept until the person starts a new plan. Printing (APP-002) is not built. The app has no central data-deletion control; the plan is removed by its own delete button and by uninstalling the app. Not checked here: the three-tap target on a device, VoiceOver and TalkBack, and the 1-page print.
+
 ### APP-004 · On-device "We tried this" list
 
 Priority P1 · Phase S2 · Status partial · Pillars: all
@@ -325,6 +327,8 @@ Acceptance:
 Depends on: APP-001.
 
 Risks / not doing: Do not recommend purchases.
+
+Status note (2026-11-22): The tick store (`material_ticks.v1`, per activity, at most ten materials per activity and 200 activities) and the "I have this / Need to get" checklist are built and tested, with no product or shopping links. The checklist is not shown on any screen yet: the app has no per-activity materials data, which waits on APP-001. Ticks are cleared only by their own clear call; no central data-deletion control exists. Not checked here: VoiceOver, TalkBack and one-switch use on a device.
 
 ### APP-031 · Picture-only card view
 
