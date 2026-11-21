@@ -7,10 +7,13 @@
 // card is not exactly two pages (one sheet, printed both sides) in both sizes.
 // Usage: node scripts/check-print.mjs            (serves dist/ on a free local port; run `pnpm build` first)
 //        node scripts/check-print.mjs --base=http://127.0.0.1:4345
+//        node scripts/check-print.mjs --record=<file.json>   (also writes the pass rate per template, MET-020)
+// Not run in CI. The record is written per release by hand and is not committed unless the release needs it.
 // First-time browser install: pnpm exec playwright install chromium
 
+import { execFileSync } from 'node:child_process';
 import { createServer } from 'node:http';
-import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { chromium } from 'playwright';
@@ -167,6 +170,36 @@ async function printedPages(page) {
 /** How many `.sheet` elements are shown with some height when the page is printed (call after emulating print). */
 async function visibleSheets(page) {
   return page.evaluate(() => [...document.querySelectorAll('.sheet')].filter((e) => getComputedStyle(e).display !== 'none' && e.getBoundingClientRect().height > 100).length);
+}
+
+/**
+ * The per-release record of the print pass rate (MET-020): a template passes when all its pages pass. Pure: the caller
+ * passes the date, the commit and the counts, so the same counts always give the same record.
+ * @param {{ date: string, commit: string, cards: number, templates: Map<string, { ok: number, total: number }> }} run
+ */
+export function printRecord({ date, commit, cards, templates }) {
+  const types = [...templates];
+  const passing = types.filter(([, row]) => row.ok === row.total).length;
+  return {
+    schema: 'creative-activities/print-record',
+    version: 1,
+    date,
+    commit,
+    cards,
+    templates: Object.fromEntries(types.map(([type, row]) => [type, { passed: row.ok, checked: row.total }])),
+    templatesPassing: passing,
+    templateTypes: types.length,
+    passRate: types.length ? Math.round((100 * passing) / types.length) : 0,
+  };
+}
+
+/** The commit being checked, or `unknown` outside a git checkout. */
+function currentCommit() {
+  try {
+    return execFileSync('git', ['rev-parse', 'HEAD'], { cwd: fileURLToPath(new URL('..', import.meta.url)), encoding: 'utf8' }).trim();
+  } catch {
+    return 'unknown';
+  }
 }
 
 export function gamesWithPaper() {
@@ -410,6 +443,16 @@ async function main() {
   const passing = types.filter(([, row]) => row.ok === row.total).length;
   console.log(`\nPrint templates: ${passing} of ${types.length} pass (${types.length ? Math.round((100 * passing) / types.length) : 0}%): ${types.map(([type, row]) => `${type} ${row.ok}/${row.total}`).join(', ')}.`);
   console.log(`Checked ${slugs.length} activity cards on A4 and US Letter: ${failures.length} not one two-sided sheet or over a page limit (${packChecked} pack builds and ${pathsChecked} paths checked).`);
+  const recordPath = process.argv.find((a) => a.startsWith('--record='))?.slice('--record='.length);
+  if (recordPath !== undefined) {
+    if (!recordPath) {
+      console.error('--record needs a file name, for example --record=print-record.json');
+      process.exit(1);
+    }
+    const record = printRecord({ date: new Date().toISOString().slice(0, 10), commit: currentCommit(), cards: slugs.length, templates });
+    writeFileSync(resolve(recordPath), `${JSON.stringify(record, null, 2)}\n`);
+    console.log(`Wrote the print record to ${resolve(recordPath)}: ${record.templatesPassing} of ${record.templateTypes} templates pass (${record.passRate}%).`);
+  }
   process.exit(failures.length ? 1 : 0);
 }
 
