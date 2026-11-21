@@ -625,6 +625,12 @@ def guide_problems(src: str, out: str) -> str:
     nb = Counter(visible_number_tokens(bb + '\n' + frontmatter_prose(fb)))
     if na != nb:
         errs.append(f'numbers differ from English (missing {sorted((na - nb).elements())}, extra {sorted((nb - na).elements())})')
+    # Lengths the guidesI18n schema in src/content.config.ts allows (JavaScript string length: UTF-16 units).
+    for key, low, high in (('title', 1, 140), ('seoTitle', 1, 80), ('description', 30, 360), ('summary', 30, 800)):
+        if key in fb:
+            n = len(str(fb[key]).encode('utf-16-le')) // 2
+            if not low <= n <= high:
+                errs.append(f'{key} is {n} characters; the site allows {low}-{high}')
     mixed = mixed_script_words(src, out)
     if mixed:
         errs.append(f'letters from two alphabets in one word (retype in one script): {" ".join(mixed[:8])}')
