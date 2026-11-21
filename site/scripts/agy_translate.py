@@ -579,7 +579,11 @@ def mixed_script_words(src: str, out: str) -> list[str]:
     for word in re.findall(r'\S+', text):
         kinds = [_script(c) for c in word]
         touching = any('ascii' in (a, b) and a != b and None not in (a, b) for a, b in zip(kinds, kinds[1:]))
-        if touching and any(run.lower() not in english for run in re.findall(r'[A-Za-z]+', word)):
+        # A short run ("a", "i") is always an English word, so only longer runs can be a name with a suffix.
+        # Short lowercase runs ("a", "i") are always English words, so they cannot excuse a mix;
+        # acronyms ("AP") and names with an apostrophe ("Alzheimer's") are checked whole.
+        runs = re.findall(r"[A-Za-z]+(?:'[A-Za-z]+)?", word)
+        if touching and any((len(r) < 3 and r.islower()) or r.split("'")[0].lower() not in english for r in runs):
             bad.append(word)
     return bad
 
