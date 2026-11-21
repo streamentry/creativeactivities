@@ -50,6 +50,8 @@ variations:
     text: "Use towels at room temperature instead of warm ones, or choose plain cotton without loops if rough fabric is uncomfortable."
   - kind: more-collaborative
     text: "Two people hold opposite corners of each towel and fold it together, one towel at a time."
+  - kind: large-grip
+    text: "Use small hand towels or a bath towel that is easy to lift in both hands, and fold on a table at elbow height. Smooth and fold with the flat palms instead of pinching the corners."
 images:
   - src: /pictures/folded-towel-stack.svg
     alt: "Drawing of three folded towels stacked neatly, blue at the bottom, then yellow, then red on top."
