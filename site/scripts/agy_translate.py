@@ -429,14 +429,16 @@ def translate_json(kind: str, lang: dict, cats: list[str], only: set | None = No
     work = json.loads(json.dumps(en))
     existing = I18N / kind / f'{code}.json'
     if only is not None and existing.exists():
-        # Keep the current translation and refresh only the changed English strings.
+        # Keep the current translation and refresh only the changed English strings. A string the
+        # language does not have yet is translated too; leaving it out kept it in English for good.
         old = json.loads(existing.read_text())
+        only = set(only)
         for path, _ in list(units(en)):
             if path not in only:
                 try:
                     set_path(work, path, get_path(old, path))
                 except (KeyError, IndexError, TypeError):
-                    pass
+                    only.add(path)
     extra = ''
     if kind == 'play':
         content = work.get('content', {})

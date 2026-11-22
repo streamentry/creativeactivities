@@ -60,6 +60,25 @@ class AgyTranslateTests(unittest.TestCase):
         translated = 'Call 112 if there is immediate danger.'
         self.assertFalse(agy_translate.unsafe_number_additions(source, translated))
 
+    def test_refresh_translates_strings_the_language_does_not_have_yet(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            i18n = Path(tmp)
+            (i18n / 'ui').mkdir()
+            en = {'kept': 'Hello there', 'changed': 'New wording', 'missing': 'Added later'}
+            (i18n / 'ui' / 'en.json').write_text(agy_translate.json.dumps(en))
+            (i18n / 'ui' / 'xx.json').write_text(agy_translate.json.dumps({'kept': 'XX hello', 'changed': 'XX old'}))
+            sent: list[dict] = []
+
+            def fake_chunk(lang, chunk, cats, extra):
+                sent.append(dict(chunk))
+                return {k: f'XX {v}' for k, v in chunk.items()}
+
+            with patch.object(agy_translate, 'I18N', i18n), patch.object(agy_translate, 'translate_chunk', fake_chunk):
+                agy_translate.translate_json('ui', {'code': 'xx', 'english': 'X', 'native': 'X'}, ['other'], {('changed',)})
+            out = agy_translate.json.loads((i18n / 'ui' / 'xx.json').read_text())
+        self.assertEqual(out, {'kept': 'XX hello', 'changed': 'XX New wording', 'missing': 'XX Added later'})
+        self.assertEqual(set().union(*sent), {'changed', 'missing'})
+
     def test_quota_retry_discards_partial_opencode_translation(self) -> None:
         process = FakeProcess(
             [
