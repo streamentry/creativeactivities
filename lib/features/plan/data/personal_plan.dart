@@ -16,10 +16,24 @@ class PersonalPlan extends Equatable {
   static const maxTitle = 60;
   static const maxNote = 200;
 
+  /// Marks an entry that names a bundled activity card (APP-001). Picture
+  /// pack ids never contain a colon, so `card:` entries cannot collide with
+  /// the entries that older saved plans hold.
+  static const cardPrefix = 'card:';
+  static final _cardEntryPattern = RegExp(r'^card:ca-\d{4}$');
+
+  /// The plan entry for the bundled card [cardId], for example `ca-0022`.
+  static String cardEntry(String cardId) => '$cardPrefix$cardId';
+
+  /// The card id held by a `card:` entry, or null for a picture pack id.
+  static String? cardIdOf(String entry) =>
+      entry.startsWith(cardPrefix) ? entry.substring(cardPrefix.length) : null;
+
   final String title;
   final String note;
 
-  /// Activity ids in the order the person added them; each at most once.
+  /// Entries in the order the person added them; each at most once. An entry
+  /// is a picture pack id, or a [cardEntry]. Packs and cards share the cap.
   final List<String> activityIds;
 
   bool get isFull => activityIds.length >= maxActivities;
@@ -104,6 +118,10 @@ class PersonalPlanStore {
     'activities': plan.activityIds,
   });
 
+  /// A picture pack id as older builds stored it, or a well-formed card entry.
+  static bool _validEntry(String id) =>
+      _idPattern.hasMatch(id) || PersonalPlan._cardEntryPattern.hasMatch(id);
+
   /// Null for anything that is not a well-formed current-version record.
   static PersonalPlan? _parse(String raw) {
     final Object? json;
@@ -127,7 +145,7 @@ class PersonalPlanStore {
     }
     final ids = <String>[];
     for (final id in activities) {
-      if (id is! String || !_idPattern.hasMatch(id) || ids.contains(id)) {
+      if (id is! String || !_validEntry(id) || ids.contains(id)) {
         return null;
       }
       ids.add(id);

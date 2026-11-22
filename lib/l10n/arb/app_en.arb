@@ -2126,6 +2126,30 @@
   "@planActivityMissing": {
     "description": "Shown for a plan item whose activity is no longer available."
   },
+  "cardAddToPlan": "Add to my plan",
+  "@cardAddToPlan": {
+    "description": "Button on an activity card that adds this activity to the personal plan. Outline style, not the main button."
+  },
+  "cardAddedToPlan": "Added to your plan.",
+  "@cardAddedToPlan": {
+    "description": "Shown under the activity card button after the activity is added to the plan."
+  },
+  "cardAlreadyInPlan": "This activity is already in your plan.",
+  "@cardAlreadyInPlan": {
+    "description": "Shown under the activity card button when the plan already lists this activity."
+  },
+  "cardPlanFull": "Your plan is full. Remove an activity on My plan for a visit to add this one.",
+  "@cardPlanFull": {
+    "description": "Shown under the activity card button when the plan already holds its maximum of five activities. Calm; no counts."
+  },
+  "cardPlanNeedsPlan": "Make your plan first on My plan for a visit, then add this activity.",
+  "@cardPlanNeedsPlan": {
+    "description": "Shown under the activity card button when there is no plan yet. Nothing is created automatically."
+  },
+  "cardPlanUnreadable": "Your saved plan could not be read, so nothing was added. It has not been changed or deleted.",
+  "@cardPlanUnreadable": {
+    "description": "Shown under the activity card button when the saved plan record cannot be read. The record is left as it is."
+  },
   "planEditDetails": "Edit name and note",
   "@planEditDetails": {
     "description": "Button that opens the name and note form for the plan."
