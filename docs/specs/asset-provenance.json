@@ -116,6 +116,19 @@
       ]
     },
     {
+      "id": "activity-cards-data",
+      "paths": [
+        "assets/cards/cards.v1.json"
+      ],
+      "source": "The website's listed activity cards (site/src/content/activity-cards/), written for this project",
+      "derivation": "site/scripts/export-app-cards.ts exports the listed cards with the website's own schema; a freshness test fails when the file differs from the cards (APP-001, maintainer decision 2026-11-22)",
+      "rights_status": "unreviewed",
+      "missing": [
+        "confirmation that the card text is original project writing or licensed",
+        "the editorial and safety review each card records on the website"
+      ]
+    },
+    {
       "id": "family-photos",
       "paths": [],
       "rights_status": "not_shipped",

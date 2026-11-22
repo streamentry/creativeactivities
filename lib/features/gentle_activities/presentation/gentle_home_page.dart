@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:creative_activities/app/view/main_navigation.dart';
 import 'package:creative_activities/design_system.dart';
+import 'package:creative_activities/features/activity_cards/presentation/find_activity_page.dart';
 import 'package:creative_activities/features/gentle_activities/data/bedside_setting.dart';
 import 'package:creative_activities/features/gentle_activities/data/gentle_preferences.dart';
 import 'package:creative_activities/features/gentle_activities/data/high_contrast_setting.dart';
@@ -136,6 +137,8 @@ class _GentleHomePageState extends State<GentleHomePage>
     );
     if (!mounted || action == null) return;
     switch (action) {
+      case HomeMenuAction.findActivity:
+        _open(const FindActivityPage());
       case HomeMenuAction.exploreLibrary:
         _open(const MainNavigation());
       case HomeMenuAction.dailyMoment:

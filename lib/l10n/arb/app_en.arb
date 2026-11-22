@@ -2643,5 +2643,42 @@
   "beatPaused": "The beat is paused. Tap the circle to start it again.",
   "@beatPaused": {
     "description": "Calm line in the keep-the-beat game while the beat is paused."
+  },
+  "menuFindActivity": "Find an activity",
+  "@menuFindActivity": {
+    "description": "Home menu row that opens the offline finder over the activity cards bundled in the app."
+  },
+  "activityCardsUnavailable": "Activity cards are not available in this copy of the app. Everything else still works.",
+  "@activityCardsUnavailable": {
+    "description": "Shown on Find an activity when the bundled card file cannot be read. Calm, no blame."
+  },
+  "activityCardVersion": "Card version {version}",
+  "@activityCardVersion": {
+    "description": "Small line on an activity showing its content version. {version} is a whole number.",
+    "placeholders": {
+      "version": {
+        "type": "int"
+      }
+    }
+  },
+  "activityCardNotReviewed": "Not yet reviewed by an outside expert.",
+  "@activityCardNotReviewed": {
+    "description": "Line on an activity card that no outside expert has checked yet."
+  },
+  "activityCardReviewed": "Reviewed by an outside expert. The full guide shows the details.",
+  "@activityCardReviewed": {
+    "description": "Line on an activity card that an outside expert has checked. Points to the website for who and when."
+  },
+  "activityCardWhatToDo": "What to do",
+  "@activityCardWhatToDo": {
+    "description": "Heading above the numbered steps of an activity."
+  },
+  "activityCardSafety": "Safety",
+  "@activityCardSafety": {
+    "description": "Heading above the safety flags and safety notes of an activity."
+  },
+  "activityCardStopHeading": "It is okay to stop.",
+  "@activityCardStopHeading": {
+    "description": "Bold line before the stop note on an activity. Keep the plain, reassuring tone."
   }
 }
