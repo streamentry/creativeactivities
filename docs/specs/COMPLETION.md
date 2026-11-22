@@ -538,6 +538,17 @@ Checks: vitest 159 files, 4,799 pass (1 skipped); `tsc` clean; build 16,712 page
 | Print-ready activity card PDFs for A4 and Letter (`card-pdf-lib.mjs`, with tests) | PLAT-019 | Reviewed before this batch |
 | Header logo at 96 px (`brand-mark.png`) | No spec item | The header mark only, no partner logo; not separately reviewed in this batch |
 
+### Batch 62 (2026-11-21): the maintainer's decisions of 2026-11-21, carried out (PR #124)
+
+| Change | Items | Evidence |
+| --- | --- | --- |
+| No analytics on the kids guides, the kids section page or Picture puzzle, in every language; `check-site` lists the pages that must never load analytics | CNT-880, GAME-058 | `GuideView.astro`, `SectionView.astro`, `GameView.astro`, `check-site.mjs` |
+| The review clock counts only review dates; a card with no review says "Not yet reviewed by an outside reviewer." and never shows "Due for a check" | MET-011 partial | `review-queue-lib.mjs`, `ActivityView.astro`, `review-queue.test.ts` |
+| The About page names the publisher, Cloudjet Solutions Pte. Ltd. (English only until re-translation) | SEO-013 | `en.json`, `about-publisher.test.ts` |
+| `robots.txt` generated from a crawler list: search and user-triggered fetchers allowed, AI training crawlers disallowed | SEO-035 partial | `site/src/lib/ai-crawlers.ts`, `robots.test.ts`; CDN and WAF behavior not tested |
+| Hausa, Amharic, Burmese, Pashto, Sindhi, Somali and Oromo held from the index (767 pages `noindex`, no hreflang, empty sitemaps) | L10N-033 | `HELD_FROM_INDEX` in `locales.ts`, `test_launch_gates.py` |
+| The capacity check uses the Workers Paid limit; the GA4 and Google tag console settings recorded | PLAT-015, TSA-014, MET-037 | `check-capacity.mjs`, [analytics-consent.md](global/analytics-consent.md) |
+
 ### Batch 63 (2026-11-21): search, Rest keeps your place, printables and the child-image check
 
 Merged as PR #126. Evidence: the PR's checks on its final build (vitest 5,420 pass, `tsc`, `content:validate`, `check:print` 17 of 17, `check:a11y` 0 failing of 310, 18,518 pages built).
