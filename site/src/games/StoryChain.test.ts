@@ -35,6 +35,6 @@ describe('StoryChain', () => {
   });
 
   it('uses the English words in another language until one is reviewed', () => {
-    expect(playProps('es', 'story-chain').ui.storyChain.add).toBe('Add a picture');
+    expect(playProps('xx', 'story-chain').ui.storyChain.add).toBe('Add a picture');
   });
 });

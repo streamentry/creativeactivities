@@ -77,7 +77,7 @@ describe('HalvesMatch', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'halves-match').ui.halvesMatch.next).toBe('Another set');
+    expect(playProps('xx', 'halves-match').ui.halvesMatch.next).toBe('Another set');
   });
 
   it('waits for no timer: the source sets no timeout and no interval', () => {

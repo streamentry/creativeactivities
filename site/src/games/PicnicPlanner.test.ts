@@ -127,7 +127,7 @@ describe('PicnicPlanner', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'picnic-planner').ui.picnicPlanner.summary).toBe('Our picnic: {list}.');
+    expect(playProps('xx', 'picnic-planner').ui.picnicPlanner.summary).toBe('Our picnic: {list}.');
   });
 
   it('starts every tap from the latest basket, so quick taps all land', () => {

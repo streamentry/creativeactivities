@@ -64,6 +64,6 @@ describe('DecorateACard', () => {
   });
 
   it('uses the English words in another language until one is reviewed', () => {
-    expect(playProps('es', 'decorate-a-card').ui.decorateACard.print).toBe('Print the card');
+    expect(playProps('xx', 'decorate-a-card').ui.decorateACard.print).toBe('Print the card');
   });
 });

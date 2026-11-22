@@ -134,7 +134,7 @@ describe('BuildTogether', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'build-together').ui.buildTogether.pass).toBe('Pass');
+    expect(playProps('xx', 'build-together').ui.buildTogether.pass).toBe('Pass');
   });
 
   it('starts every tap from the latest game, so two quick taps both land', () => {

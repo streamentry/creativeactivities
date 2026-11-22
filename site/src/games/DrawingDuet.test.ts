@@ -127,7 +127,7 @@ describe('DrawingDuet', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'drawing-duet').ui.drawingDuet.pass).toBe('Pass the pen');
+    expect(playProps('xx', 'drawing-duet').ui.drawingDuet.pass).toBe('Pass the pen');
   });
 });
 

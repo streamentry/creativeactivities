@@ -138,6 +138,6 @@ describe('GardenPlanner', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'garden-planner').ui.gardenPlanner.summary).toBe('Your plan has {list}.');
+    expect(playProps('xx', 'garden-planner').ui.gardenPlanner.summary).toBe('Your plan has {list}.');
   });
 });

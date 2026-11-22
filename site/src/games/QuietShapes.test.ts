@@ -129,7 +129,7 @@ describe('QuietShapes', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'quiet-shapes').ui.quietShapes.pieces.square).toBe('Square');
+    expect(playProps('xx', 'quiet-shapes').ui.quietShapes.pieces.square).toBe('Square');
   });
 
   it('starts every tap from the latest game, so quick taps all land', () => {

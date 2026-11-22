@@ -91,7 +91,7 @@ describe('ColorByNumber', () => {
   });
 
   it('uses the English text until a locale has a reviewed translation', () => {
-    expect(playProps('es', 'color-by-number').ui.colorByNumber.next).toBe('Another picture');
+    expect(playProps('xx', 'color-by-number').ui.colorByNumber.next).toBe('Another picture');
   });
 
   it('starts every tap from the latest game, so two quick taps both land', () => {
