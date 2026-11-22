@@ -5,15 +5,18 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 /// Comfort choices for the matching activity (GM-003).
 ///
-/// Only concrete, adjustable preferences live here: how many tiles and whether
-/// pictures stay visible. Nothing is derived from success, speed or mistakes,
-/// and resetting never touches family photos or packs.
+/// Only concrete, adjustable preferences live here: how many tiles, whether
+/// pictures stay visible, contrast, the bedside theme and tap vibration.
+/// Nothing is derived from success, speed or mistakes, and resetting never
+/// touches family photos or packs.
 @immutable
 class GentlePreferences {
   const new({
     this.pairs = defaultPairs,
     this.keepVisible = true,
     this.highContrast = false,
+    this.bedside = false,
+    this.haptics = false,
   });
 
   /// Reads each field on its own so one invalid value never discards the rest.
@@ -28,10 +31,16 @@ class GentlePreferences {
     final keepVisible = json['keepVisible'];
     // Older saved choices have no contrast field: they load with it off.
     final highContrast = json['highContrast'];
+    // Saved choices from before the bedside theme or vibration existed have
+    // neither field; both load off, the same as a fresh install.
+    final bedside = json['bedside'];
+    final haptics = json['haptics'];
     return GentlePreferences(
       pairs: pairs is int && pairChoices.contains(pairs) ? pairs : defaultPairs,
       keepVisible: keepVisible is! bool || keepVisible,
       highContrast: highContrast is bool && highContrast,
+      bedside: bedside is bool && bedside,
+      haptics: haptics is bool && haptics,
     );
   }
 
@@ -47,14 +56,25 @@ class GentlePreferences {
   /// Stronger contrast for older eyes (see gmBuildTheme). Off by default.
   final bool highContrast;
 
+  /// Low-light bedside theme and no tap click sound (APP-022). Off by default.
+  final bool bedside;
+
+  /// A short vibration on each tile tap (APP-023). Off by default; nothing
+  /// depends on it, since the picture always changes on screen.
+  final bool haptics;
+
   GentlePreferences copyWith({
     int? pairs,
     bool? keepVisible,
     bool? highContrast,
+    bool? bedside,
+    bool? haptics,
   }) => GentlePreferences(
     pairs: pairs ?? this.pairs,
     keepVisible: keepVisible ?? this.keepVisible,
     highContrast: highContrast ?? this.highContrast,
+    bedside: bedside ?? this.bedside,
+    haptics: haptics ?? this.haptics,
   );
 
   Map<String, Object> toJson() => {
@@ -62,6 +82,8 @@ class GentlePreferences {
     'pairs': pairs,
     'keepVisible': keepVisible,
     'highContrast': highContrast,
+    'bedside': bedside,
+    'haptics': haptics,
   };
 
   @override
@@ -69,10 +91,13 @@ class GentlePreferences {
       other is GentlePreferences &&
       other.pairs == pairs &&
       other.keepVisible == keepVisible &&
-      other.highContrast == highContrast;
+      other.highContrast == highContrast &&
+      other.bedside == bedside &&
+      other.haptics == haptics;
 
   @override
-  int get hashCode => Object.hash(pairs, keepVisible, highContrast);
+  int get hashCode =>
+      Object.hash(pairs, keepVisible, highContrast, bedside, haptics);
 }
 
 /// Local-only persistence for [GentlePreferences]. Failures fall back to the

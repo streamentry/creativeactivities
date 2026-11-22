@@ -61,6 +61,17 @@ const gmTeal = Color(0xFF176C65); // teal: links and interactive accents
 const Color gmEmerald500 = gmGreen600; // success
 const gmDanger = Color(0xFFA32D32); // danger: real failures only
 
+// Bedside theme (DESIGN.md › Bedside theme): a low-light palette, used only
+// when the person turns it on. Every pairing is checked in
+// test/design_system_bedside_test.dart.
+const gmBedsideCanvas = Color(0xFF1B2620); // bedside-canvas: the page
+const gmBedsidePaper = Color(0xFF26352E); // bedside-paper: cards, board
+const gmBedsideTile = Color(0xFF33463C); // bedside-tile: hidden tile backs
+const gmBedsideInk = Color(0xFFF3EFE4); // bedside-ink: text and icons
+const gmBedsideMuted = Color(0xFFC5D0C7); // bedside-muted: secondary text
+const gmBedsideOutline = Color(0xFF8FA296); // bedside-outline: control edges
+const gmBedsideDanger = Color(0xFFF0A09C); // bedside-danger: failures, light
+
 ///////////////////////////////////////////////////////////////////////////////
 /// 2. TYPOGRAPHY (DESIGN.md › Type)
 ///////////////////////////////////////////////////////////////////////////////
@@ -140,35 +151,60 @@ const double gmBorderSelected = 4;
 const double gmMatInset = 6; // the print-white border around a mounted picture
 
 ///////////////////////////////////////////////////////////////////////////////
-/// 4. THEME BUILDER  (light only: the app has no dark mode)
+/// 4. THEME BUILDER  (light by default; the bedside theme is the one
+///    low-light option, chosen by the person and never by the system)
 ///////////////////////////////////////////////////////////////////////////////
-ThemeData gmBuildTheme({bool highContrast = false}) {
-  final onSurface = highContrast ? gmHighContrastOnSurface : gmInk;
-  final background = highContrast ? gmHighContrastSurface : gmCanvas;
-  final surface = highContrast ? gmHighContrastSurface : gmPaper;
-
+ThemeData gmBuildTheme({bool highContrast = false, bool bedside = false}) {
+  // Bedside wins over higher contrast: its ink already clears 7:1 on canvas.
+  final onSurface = bedside
+      ? gmBedsideInk
+      : highContrast
+      ? gmHighContrastOnSurface
+      : gmInk;
+  final background = bedside
+      ? gmBedsideCanvas
+      : highContrast
+      ? gmHighContrastSurface
+      : gmCanvas;
+  final surface = bedside
+      ? gmBedsidePaper
+      : highContrast
+      ? gmHighContrastSurface
+      : gmPaper;
+  final muted = bedside
+      ? gmBedsideMuted
+      : highContrast
+      ? gmHighContrastOnSurface
+      : gmMuted;
+  final edge = bedside
+      ? gmBedsideOutline
+      : highContrast
+      ? gmHighContrastOnSurface
+      : gmOutline;
+  // Filled controls: ink on sun in bedside (sun is never text), ink on white
+  // otherwise.
   final scheme = ColorScheme(
-    brightness: Brightness.light,
-    primary: gmInk,
-    onPrimary: Colors.white,
+    brightness: bedside ? Brightness.dark : Brightness.light,
+    primary: bedside ? gmSun : gmInk,
+    onPrimary: bedside ? gmInk : Colors.white,
     primaryContainer: gmSun,
     onPrimaryContainer: gmInk,
-    secondary: gmTeal,
-    onSecondary: Colors.white,
-    tertiary: gmTeal,
-    onTertiary: Colors.white,
-    error: gmDanger,
-    onError: Colors.white,
+    secondary: bedside ? gmSun : gmTeal,
+    onSecondary: bedside ? gmInk : Colors.white,
+    tertiary: bedside ? gmSun : gmTeal,
+    onTertiary: bedside ? gmInk : Colors.white,
+    error: bedside ? gmBedsideDanger : gmDanger,
+    onError: bedside ? gmInk : Colors.white,
     surface: surface,
     onSurface: onSurface,
-    onSurfaceVariant: highContrast ? gmHighContrastOnSurface : gmMuted,
+    onSurfaceVariant: muted,
     surfaceContainerLowest: background,
     surfaceContainerLow: background,
     surfaceContainer: surface,
     surfaceContainerHigh: background,
-    surfaceContainerHighest: gmSage,
-    outline: highContrast ? gmHighContrastOnSurface : gmOutline,
-    outlineVariant: gmSage,
+    surfaceContainerHighest: bedside ? gmBedsideTile : gmSage,
+    outline: edge,
+    outlineVariant: bedside ? gmBedsideTile : gmSage,
     inverseSurface: onSurface,
     onInverseSurface: background,
   );
@@ -337,8 +373,8 @@ ThemeData gmBuildTheme({bool highContrast = false}) {
     ),
     progressIndicatorTheme: ProgressIndicatorThemeData(
       color: scheme.primary,
-      linearTrackColor: gmSage,
-      circularTrackColor: gmSage,
+      linearTrackColor: scheme.surfaceContainerHighest,
+      circularTrackColor: scheme.surfaceContainerHighest,
     ),
     navigationBarTheme: NavigationBarThemeData(
       backgroundColor: background,
@@ -852,6 +888,53 @@ class RotationYTransition extends AnimatedWidget {
               alignment: Alignment.center,
               child: child,
             ),
+    );
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+/// 5b. FOCUS RING  (keyboard focus on a picture tile or board spot)
+///
+/// Draws a thick ring in the theme's primary colour on the child while a
+/// descendant has keyboard focus, so focus is never shown by colour alone.
+/// The ring is painted over the child and takes no room, so nothing moves
+/// when focus arrives.
+class GmFocusRing extends StatefulWidget {
+  const new({required this.child, required this.radius, super.key});
+
+  final Widget child;
+  final BorderRadius radius;
+
+  @override
+  State<GmFocusRing> createState() => _GmFocusRingState();
+}
+
+class _GmFocusRingState extends State<GmFocusRing> {
+  bool _focused = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = Theme.of(context).colorScheme.primary;
+    return Focus(
+      // The focusable control inside keeps focus; this only watches it.
+      canRequestFocus: false,
+      skipTraversal: true,
+      onFocusChange: (focused) {
+        if (focused != _focused) setState(() => _focused = focused);
+      },
+      child: DecoratedBox(
+        position: DecorationPosition.foreground,
+        decoration: _focused
+            ? ShapeDecoration(
+                shape: RoundedRectangleBorder(
+                  borderRadius: widget.radius,
+                  side: BorderSide(width: gmBorderSelected, color: color),
+                ),
+              )
+            : const BoxDecoration(),
+        child: widget.child,
+      ),
     );
   }
 }

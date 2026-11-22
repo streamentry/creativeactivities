@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 enum HomeMenuAction {
   exploreLibrary,
   dailyMoment,
+  personalPlan,
   planner,
   progress,
   caregiverToday,
@@ -38,6 +39,7 @@ class HomeMenuPage extends StatelessWidget {
       ]),
       _MenuSection(l10n.menuSectionEachDay, const [
         _MenuItem(HomeMenuAction.dailyMoment, Icons.today_outlined),
+        _MenuItem(HomeMenuAction.personalPlan, Icons.playlist_add_check),
         _MenuItem(HomeMenuAction.planner, Icons.event_note_outlined),
         _MenuItem(HomeMenuAction.progress, Icons.timeline),
         _MenuItem(
@@ -123,6 +125,7 @@ class _MenuItem extends StatelessWidget {
     return switch (action) {
       HomeMenuAction.exploreLibrary => l10n.homeExploreLibrary,
       HomeMenuAction.dailyMoment => l10n.wellbeingHomeDailyMoment,
+      HomeMenuAction.personalPlan => l10n.menuPersonalPlan,
       HomeMenuAction.planner => l10n.wellbeingHomePlanner,
       HomeMenuAction.progress => l10n.wellbeingHomeProgress,
       HomeMenuAction.caregiverToday => l10n.todayTitle,
